@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 您的 IT 管理员可以配置外部访问的其他域 （联合身份验证），以使用户可以从这些域参与团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459921"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955019"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 ======================================================
@@ -36,17 +36,17 @@ ms.locfileid: "30459921"
 
 | 功能 | 外部访问用户 | 来宾访问用户 |
 |---------|-----------------------|--------------------|
-| 用户可以与另一家公司中的某个人聊天 | 是 |是 |
-| 用户可以在另一家公司呼叫某人 | 是 | 是 |
+| 用户可以与另一家公司中的某个人聊天 | 是 |是  |
+| 用户可以在另一家公司呼叫某人 | 是 | 是  |
 | 用户可以看到另一家公司的某个人是否可用于调用或聊天 | 是 | 是<sup>1</sup> |
 | 用户可以搜索外部租户的用户 | 是<sup>2</sup> | 否 |
 | 用户可以共享文件 | 否 | 是 |
 | 用户可以访问团队资源 | 否 | 是 |
 | 可以将用户添加到群聊 | 否 | 是 |
-| 可以将用户添加到会议 | 是 | 是 |
+| 可以将用户添加到会议 | 是 | 是  |
 | 其他用户可以与外部用户添加到聊天 | 没有<sup>3</sup> | 不适用 |
-| 用户被标识为外部方 | 是 | 是 |
-| 显示状态 | 是 | 是 |
+| 用户被标识为外部方 | 是 | 是  |
+| 显示状态 | 是 | 是  |
 | 显示邮件是外出 | 否 | 是 |
 | 单个用户可以被阻止 | 否 | 是 |
 | 支持 @mentions | 否 | 是 |
@@ -56,7 +56,7 @@ ms.locfileid: "30459921"
 <sup>2</sup>仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup>外部 （联盟） 聊天是仅 1:1。
 
-## <a name="turn-on-or-turn-off-external-access"></a>打开或关闭外部访问
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>打开或关闭 （用户能与其通信 Skype 的业务和团队用户） 的外部访问
 
 Microsoft 团队 & Business Admin Center 的 Skype 可用于管理外部访问。
 
@@ -64,7 +64,7 @@ Microsoft 团队 & Business Admin Center 的 Skype 可用于管理外部访问�
 
      ![组织范围设置外部访问的屏幕截图](media/manage-external-access-1.png).
 
-2. 切换到**打开**或**关闭**的**外部访问**开关。
+2. 切换**用户可以与 Skype 的业务和团队用户通信**切换到**打开**或**关闭**。
 
      ![外部访问开关开启的屏幕截图](media/manage-external-access-2.png).
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 部署团队中的云语音登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664915"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948374"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -85,11 +85,11 @@ ms.locfileid: "30664915"
 
 ### <a name="voicemail"></a>语音邮件
 
-电话系统的语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。 电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。
+云语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。 云语音邮件包括语音邮件转录，默认情况下启用为在组织中的所有用户。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 是否要启用电话系统的语音邮件？ | 有关语音邮件设置过程，请参阅[设置电话系统的语音邮件](set-up-phone-system-voicemail.md)。
+| 是否要启用云语音邮件？ | 有关语音邮件设置过程，请参阅[Set up 云语音邮件](set-up-phone-system-voicemail.md)。
 | 是否要启用的部分或所有用户的语音邮件转录？ | 若要关闭语音邮件转录，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)。</li></ul>|
 |||
 

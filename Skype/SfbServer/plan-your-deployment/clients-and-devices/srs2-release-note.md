@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891597"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950254"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -61,7 +61,7 @@ ms.locfileid: "30891597"
 
 ### <a name="40760-03042019"></a>4.0.76.0 （2019 年 03/04）
 此更新中引入了：
-- Microsoft 团队会议的 DTMF 小键盘。 若要使 Microsoft 团队默认调用客户端，管理员必须设置 IsTeamsDefaultClient 为 true
+- DTMF 小键盘的 Microsoft 团队 P2P 会议和 PSTN 呼叫。 若要使 Microsoft 团队默认调用客户端，管理员必须设置 IsTeamsDefaultClient 为 true
 - Pin 前面的聊天室显示为全屏远程参与者的传入视频。 使用控制台上的参与者名单中的"Pin"命令
 - 添加了前端的会议室通知会议厅通知的改进
 - 蓝牙信号未启用会议室系统设备上时，前面的聊天室显示删除转换图标

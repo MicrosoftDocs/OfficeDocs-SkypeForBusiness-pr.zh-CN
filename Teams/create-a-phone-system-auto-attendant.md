@@ -3,7 +3,7 @@ title: 设置电话系统自动助理
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。
-ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: ad60bf758c339a801d63e0f8886a9e92329d286a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873476"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952434"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
@@ -50,8 +50,6 @@ ms.locfileid: "30873476"
     > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划在 Office 365 中。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
-
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 每个呼叫队列需要具有关联的[资源帐户](manage-resource-accounts.md)。 您必须首先，创建资源帐户，然后将其向自动助理相关联。

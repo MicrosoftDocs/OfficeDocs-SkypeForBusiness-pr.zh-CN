@@ -1,5 +1,5 @@
 ---
-title: 设置 Microsoft 团队的音频会议
+title: 设置 Microsoft Teams 的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要使用电话加入电话会议。 '
-ms.openlocfilehash: c5925677889d9a81e15ccb15494163fd28c14639
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30635518"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955027"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft 团队的音频会议
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
 有时您的组织中的人员将需要使用电话呼入会议。 Microsoft 团队包括刚这种情况下的音频会议功能 ！ 人员可以使用电话，而不在移动设备或 PC 上使用团队应用程序的团队会议呼叫。 
   
@@ -51,7 +51,7 @@ ms.locfileid: "30635518"
     >[!NOTE] 
     > 包含在 Office 365 企业 E5 许可证和作为音频会议。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[分配对业务的 Office 365 中的用户的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)购买了您的组织中转到安排或负责人会议的人员。
+2. 购买的音频会议许可证后，您需要将其分配给您的组织中要安排或潜在顾客会议的人员。 请参阅[分配对业务的 Office 365 中的用户的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)购买了您的组织中转到安排或负责人会议的人员。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置 Communications 字幕式，请参阅[设置为您的组织的通信字幕式](set-up-communications-credits-for-your-organization.md)。
     

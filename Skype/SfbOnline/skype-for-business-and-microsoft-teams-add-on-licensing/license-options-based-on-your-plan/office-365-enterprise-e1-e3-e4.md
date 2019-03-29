@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120304"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948202"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
@@ -37,7 +37,7 @@ ms.locfileid: "30120304"
 |**音频会议** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**音频会议**加载项 <br/>一旦您购买许可证，Microsoft 将成为音频会议提供商。 |
 |**免费电话号码用于电话拨入式访问您的会议和从会议发起电话拨出的能力，即可将某人添加通过调用世界上的任何电话号码** <br/> |[通信点数](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**电话系统** <br/> |1。 **office 365 电话系统**加载项 <br/> 2. 通话套餐：从 Office 365 购买[通话套餐](/MicrosoftTeams/calling-plans-for-office-365)。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
-|**电话系统语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
+|**云语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
 |**通话套餐** <br/> |1. **电话系统**加载项 <br/> 2. [通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您只能在购买**电话系统**加载项后购买。 <br/> |
    
   

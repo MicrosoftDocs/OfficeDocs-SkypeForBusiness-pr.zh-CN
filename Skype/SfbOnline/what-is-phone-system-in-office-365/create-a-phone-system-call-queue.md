@@ -1,7 +1,7 @@
 ---
 title: 创建电话系统呼叫队列
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: '了解如何设置 Office 365 (云 PBX) 呼叫队列以获得组织问候语、保持音乐和将呼叫重定向到通讯组列表和安全组中的呼叫代理。还可以设置最大队列大小、超时和呼叫处理选项。 '
-ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: c76f7e00c8c12e79c0dc333e05d4ccb0ca75266a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664627"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952348"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -174,7 +174,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![第二](../images/sfbcallout2.png)<br/><br/>**当达到的最大呼叫数**当呼叫队列达到其最大大小 （设置使用的**队列中的最大呼叫**设置） 时，您可以选择新的传入呼叫会发生什么情况。
 * **断开连接并显示繁忙信号** 呼叫将断开连接。
 * **此将呼叫转移到**选择此，您可以在这些选项：
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>若要了解有关语音邮件所需授权的信息，请参阅[设置电话系统的语音邮件](/microsoftteams/set-up-phone-system-voicemail)。 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>若要了解有关授权所需的语音邮件，请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail)。 
 
     > [!Note]
     > 用户托管在本地不支持使用 Lync Server 2010。<br/>
@@ -188,7 +188,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![第四](../images/sfbcallout4.png)<br/><br/>**当呼叫超时时** 当呼叫达到" **呼叫在队列中可以等待多长时间**"中设置的限制时，你可以选择如何处理此呼叫：
 * **断开连接** 呼叫将断开连接。
 * **此将呼叫转移到**选择此，您可以在这些选项：
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  若要了解有关语音邮件所需授权的信息，请参阅[设置电话系统的语音邮件](/microsoftteams/set-up-phone-system-voicemail)。 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  若要了解有关授权所需的语音邮件，请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail)。 
 
     > [!Note]
     > 用户托管在本地不支持使用 Lync Server 2010。<br/>

@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5280691b5272765b0c351c38a03e9711b9e0f1b0
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684046"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955011"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft Teams 管理员角色管理 Teams
 
@@ -32,10 +32,10 @@ ms.locfileid: "30684046"
 
 | 角色 | 可以执行这些任务 | 可以访问以下工具 |
 |----- | ------------------ | ------------------------------ |
-| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 中的 Microsoft 团队管理中心和关联的 PowerShell 控件，包括的所有内容：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （通过 PowerShell 中，在推出的管理门户中的团队管理支持管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫的质量和使用数据的可靠性公开中呼叫质量仪表板 (CQD)。 创建新的报表、 更新和删除报告，根据需要。 上载并更新 CQD 构建数据 |
-| Teams 通信管理员 | 在 Microsoft Teams 服务中管理通话和会议功能 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
-| Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> |
-| 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup>
+| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 中的 Microsoft 团队管理中心和关联的 PowerShell 控件，包括的所有内容：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （支持通过 PowerShell 中，团队管理团队管理中心中管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) 的数据。 创建新的报表、 更新和删除报告，根据需要。 上载并更新 CQD 构建数据 |
+| Teams 通信管理员 | 管理呼叫和团队服务中的会议功能 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) 的数据。 创建新的报表、 更新和删除报告，根据需要。 上载并更新 CQD 构建数据 |
+| Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用数据质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) |
+| 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用公开中呼叫质量仪表板 (CQD) 的数据。  
 
 <sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell 的 Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>

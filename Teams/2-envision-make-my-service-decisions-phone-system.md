@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568685"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948184"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -128,14 +128,14 @@ ms.locfileid: "30568685"
 
 ## <a name="voicemail"></a>语音邮件
 
-电话系统的语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。
+云语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。
 
-默认情况下，电话系统的语音邮件与 Exchange Online; 一起工作但是，它具有的最小支持的 Exchange 内部部署版本和部署模型以允许对内部部署 Exchange 部署中的用户邮箱发送的语音邮件消息。
+默认情况下，云语音邮件与 Exchange Online; 一起工作但是，它具有的最小支持的 Exchange 内部部署版本和部署模型以允许对内部部署 Exchange 部署中的用户邮箱发送的语音邮件消息。
 
-电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
+云语音邮件包括语音邮件转录，默认情况下启用为在组织中的所有用户。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
 
 >[!NOTE]
-> 实施了回退机制，以便电话系统语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间或其他语音邮件功能，如更改语音邮件问候语。
+> 已实现回退机制，以便云语音邮件可以在使用 SMTP，这意味着拥有一个第三方电子邮件系统上的邮箱的用户将收到其语音邮件消息的情况下重新发送邮件。 此机制不包括保证的服务正常运行时间或其他语音邮件功能，如更改语音邮件问候语。
 
 有关在电话系统的实施中的语音邮件的详细信息，请参阅[电话系统与调用计划](calling-plan-landing-page.md)。
 
@@ -143,11 +143,11 @@ ms.locfileid: "30568685"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否将调用计划实现中启用电话系统的语音邮件。</li><li>如果使用 Exchange 内部部署和现有部署不满足要求以支持电话系统的语音邮件，从可用选项中选择 (升级和安装电话系统的语音邮件支持、 身份验证迁移到 Exchange Online，或利用回退机制前面所述）。</li><li>决定是否将启用或禁用语音邮件转录和语音邮件转录亵渎屏蔽在整个组织或特定用户。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>如果适用，文档 Exchange 决策点，以支持电话系统的语音邮件。</li><li>如果您将启用/禁用语音邮件、 语音邮件转录和仅为特定用户的语音邮件转录亵渎遮蔽，文档的用户的列表。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否将调用计划实现中启用云语音邮件。</li><li>如果使用 Exchange 内部部署和现有部署不满足要求以支持云语音邮件，从可用选项中选择 （升级和云语音邮件支持，设置迁移到 Exchange Online，或利用回退机制前面所述的）。</li><li>决定是否将启用或禁用语音邮件转录和语音邮件转录亵渎屏蔽在整个组织或特定用户。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>如果适用，文档 Exchange 决策点，以支持云语音邮件。</li><li>如果您将启用/禁用语音邮件、 语音邮件转录和仅为特定用户的语音邮件转录亵渎遮蔽，文档的用户的列表。</li></ul>|
 
 > [!TIP]
-> 可为以下记录调用计划实现与电话系统的电话系统的语音邮件详细信息。
+> 云与调用计划实现可以记录如下电话系统的语音邮件的详细信息。
 > 
 > |用户 |Exchange 邮箱 |启用语音邮件？ |语音邮件转录 |语音邮件转录亵渎屏蔽 |
 > |------------------|------------------|-------------------|----------|----------|

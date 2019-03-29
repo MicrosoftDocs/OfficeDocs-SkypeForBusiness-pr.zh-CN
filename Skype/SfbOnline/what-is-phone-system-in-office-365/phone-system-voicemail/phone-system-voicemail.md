@@ -1,5 +1,5 @@
 ---
-title: 电话系统语音邮件
+title: 云语音邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: 了解电话系统的语音邮件。
-ms.openlocfilehash: 69e0908552149ff171d41961d8721b4a4f6ab615
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: 了解云语音邮件。
+ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856416"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948130"
 ---
-# <a name="phone-system-voicemail"></a>电话系统语音邮件
+# <a name="cloud-voicemail"></a>云语音邮件
 
 

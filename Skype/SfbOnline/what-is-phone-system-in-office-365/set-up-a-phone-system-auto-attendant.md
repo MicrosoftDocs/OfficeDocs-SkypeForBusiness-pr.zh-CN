@@ -1,9 +1,9 @@
 ---
 title: 设置电话系统自动助理
-author: CarolynRowe
-ms.author: crowe
+author: jambirk
+ms.author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.date: 9/1/2018
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
@@ -21,31 +21,31 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统 (云 PBX) 自动助理。 '
-ms.openlocfilehash: 79a3292ea15781d448f0931c18a9ed98cd351f01
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: '了解如何设置和测试高效处理您的组织的呼叫的电话系统自动助理。 '
+ms.openlocfilehash: ce5b428d678e94d71025eaf8dd659418d05ce8a2
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046761"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952414"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>设置电话系统自动助理
 
-自动助理让人们呼叫您的组织和导航菜单系统，以使其向右部门、 队列、 人员或运算符呼叫。 使用适用于业务管理中心 Skype，可以为组织创建自动助理。 To create a new auto attendant, go to **Call routing** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center. To create a new auto attendant, go to **Call routing** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 如果您想要了解有关自动助理的详细信息，请参阅[电话系统自动助理是什么？](/microsoftteams/what-are-phone-system-auto-attendants)
 
 ## <a name="step-1---getting-started"></a>第 1 步 - 开始
 
-- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. 获得收费电话或免费电话服务号码后，它们将显示在**业务管理中心的 Skype** > **语音** > **电话号码**页。 若要获取服务号码，请查看[的业务和 Microsoft 团队的 Skype 获取服务电话号码](getting-service-phone-numbers.md)，或如果您希望进行传输和现有服务号码，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。 **User (subscriber)** numbers can't be assigned to auto attendants. 如果您在美国以外，您无法使用业务管理中心的 Skype 获取服务号码;转[此处](/microsoftteams/manage-phone-numbers-for-your-organization)相反。
+- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Skype for Business admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Skype for Business admin center to get service numbers; go [here](/microsoftteams/manage-phone-numbers-for-your-organization) instead.
 
     > [!CAUTION]
-    > 若要获取并使用免费电话号码，则需要设置通信点数。 若要执行此操作，请参阅 [通信点数是什么？](/microsoftteams/what-are-communications-credits) 和 [为组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization) 。
+    > To get and use toll-free phone numbers, you need to set up Communications Credits. To do this see [What are Communications Credits?](/microsoftteams/what-are-communications-credits) and [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响的可用于自动助理服务号码数。 取决于您的组织中分配的号码**电话系统**和**音频会议**许可证的自动助理可以具有的数字。 若要了解有关授权的详细信息转[此处](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for auto attendants. The numbers of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
     > [!TIP]
-    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划在 Office 365 中。 请参阅[业务和 Microsoft 团队许可证分配 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans in Office 365 to them. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). You can also use Windows PowerShell. For example, run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
@@ -58,10 +58,10 @@ ms.locfileid: "30046761"
 ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 ***
-![第一](../images/sfbcallout1.png)<br/>**名称**输入自动助理的描述性的显示名称。 此名称为必填字段，最多可以包含 64 个字符，其中包括空格。 此名称将显示在" **自动助理**"选项卡的" **名称**"列中。
+![第一](../images/sfbcallout1.png)<br/>**Name** Enter a descriptive display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. It will be listed in the **Name** column on the **Auto attendants** tab.
 ***
 
-![第二](../images/sfbcallout2.png)<br/>**电话号码** 此设置为可选项。 如果愿意，为自动助理选择一个电话号码。 您可以选择任何可用的服务或已为您的组织的免费电话号码。 如果没有列出任何电话号码，则需要获取收费或免费服务电话号码。 转至 [此处](getting-service-phone-numbers.md) 来获取它们。 <br/> <br/>
+![第二](../images/sfbcallout2.png)<br/>**Phone number** This setting is optional. If you like, select a phone number for your auto attendant. You can pick any available service toll or toll-free phone number that you have for your organization. If there are no phone numbers listed, you will need to get a service toll or toll-free phone number. Go [here](getting-service-phone-numbers.md) to get them. <br/> <br/>
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
@@ -69,29 +69,29 @@ ms.locfileid: "30046761"
 ***
 ![第三](../images/sfbcallout3.png)<br/>**时区** 必须为自动助理设置时区，但是此时区无需与组织的主要地址所在的时区对应。每个自动助理可以有不同的时区，为自动助理设置的营业时间将根据你在此处选择的时区进行设置。
 ***
-![14](../images/sfbcallout4.png)<br/>**语言** 从列出的可用语言列表中选择自动助理使用的语言。 您在此处设置的语言的自动助理将使用与进行交互到此自动助理，呼叫中的人员并所有系统播放提示时在这种语言的语言。
+![14](../images/sfbcallout4.png)<br/>**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant will use to interact with people that call in to this auto attendant, and all the system prompts will be played in this language.
 ***
-![第五](../images/sfbcallout5.png)<br/>**语音识别**语音识别可用，如果选择此选项。 呼叫中的人员可以使用语音输入中所设置的语言。 如果您想要仅允许使用其电话小键盘的人员清除它，您可以禁用语音识别。
+![第五](../images/sfbcallout5.png)<br/>**Speech recognition** Speech recognition is available and if this option is selected. People that call in can use voice input in the language you set. You can disable speech recognition by clearing it if you want to only let people use their phone keypad.
 ***
-![第六](../images/sfbcallout6.png)<br/>**接线员** 此为可选字段，无须为自动助理设置。 但是，您可以设置呼叫中能够页符拖出菜单以帮助他们人讲话的人员**运算符**选项。 <br/> <br/> 键 0 自动分配给接线员。 <br/> <br/> 如果您对此进行设置，还需要告知人员谁调用的这是在**营业呼叫处理**页中的**编辑菜单选项**可用选项。 如果您在自动助理上设置运算符，您需要在**呼叫者收听**框中输入相应的提示文本或更改您的音频文件，以包括此选项。 例如，"如需接线员，请按零"。 <br/><br/>  可以将以下项设置为接线员： 
+![第六](../images/sfbcallout6.png)<br/>**Operator** This is optional and doesn't need to be set for the auto attendant. However, you can set the **Operator** option for people that call in to be able to break out of the menus to speak to a person to help them. <br/> <br/> 键 0 自动分配给接线员。 <br/> <br/> If you set this up, you will also need to tell people who call in that this is an available option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you will need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero." <br/><br/>  可以将以下项设置为接线员： 
 *    拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 <br/>
 
      > [!Note] 
-     > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010 。 <br/> 
+     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 isn't supported. <br/> 
 
 * A **Call Queue** that you have set up. 
-* 你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作，选择**您的公司的人员**并将此人的呼叫转接至语音邮件直接设置。 
+* You can set it up so the person calling will be sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail. 
 
 ### <a name="select-hours-of-operation-page"></a>"选择营业时间"页面
 
-默认情况下，工作时间设置为 24 小时、 一周 7 天，因此所有小时被都视为营业时间。 营业时间以外的所有时间为非营业时间。 如果您选择**自定义**选项，并将设置您的工作时间，然后将您可在其中配置营业时间之后的自动助理的处理呼叫添加新页面**小时呼叫处理之后**调用。
+By default, business hours are set to 24 hours a day, 7 days a week, so all hours are considered business hours. All of the hours that aren't included in business hours are considered after business hours. If you select the **Custom** option and set your business hours, then a new page called **After hours call handling** will be added where you can configure the call handling for after business hours for the auto attendant.
 
 ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 ***
 ![第一](../images/sfbcallout1.png)<br/>选择" **自定义**"选项可在日历中选择特定的营业时间。选择" **自定义**"后，默认情况下将营业时间设置为周一至周五，上午 9:00 - 下午 5:00。
 ***
-![第二](../images/sfbcallout2.png)<br/>要更改营业时间，请使用日历突出显示希望设置的营业时间。 日历允许您在 30 分钟的间隔，选择工作时间和营业时间您在此处选择将会根据设置在**常规信息**页设置的时区。 要设置休息时间（如午餐时间），请取消选择或通过拖动取消选择某段时间。 在工作时间内，您可以设置多个分页符。 
+![第二](../images/sfbcallout2.png)<br/>To change business hours, highlight the business hours you want to set using the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here will be set based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours. 
 
 ### <a name="select-business-hours-call-handling-page"></a>选择营业时间呼叫处理页面
 
@@ -103,45 +103,45 @@ ms.locfileid: "30046761"
 ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
 ***
-![第一](../images/sfbcallout1.png)<br/>**公司问候语** 营业时间问候语是可选项，可设置为 **无** 。 在此情况下，在所选选项处理呼叫之前，呼叫者听不到消息或者问候语。 还可以上传音频文件 （ .wav、 mp3 或 .wma 格式），或使用文本转语音的方式创建自定义问候语。
+![第一](../images/sfbcallout1.png)<br/>**Company greeting** Business hours greeting is optional and can be set to **None**. In this case, the caller will hear no message or greeting before the call is handled by one of the options you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 * **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
-*    **创建自定义问候语**如果您选择此选项，输入您希望系统读取 （最多 1000年个字符） 的文本。 例如，可能会输入"欢迎来到 Contoso 。 您的呼叫对我们非常重要。" 在 **呼叫者将听到** 框中。
+*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Your call is important to us." in the **Callers will hear** box.
 * **上载音频文件**如果选择此，录制的问候语，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。
 ***
-![第二](../images/sfbcallout2.png)<br/>您可以选择到达工作时间内的呼叫会发生什么情况。 可以从以下选项中进行选择：
+![第二](../images/sfbcallout2.png)<br/>You can select what happens to calls that arrive during business hours. You can chose from the following options:
 * **断开连接**如果您选择它，将听到营业时间问候语后断开呼叫的人。
 * **重定向呼叫** 这可用来将呼叫自动发送至：
-  * 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。 <br/><br/>
+  * **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/><br/>
     > [!Note]
-    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010。 <br/><br/>
+    > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
   * **呼叫队列**使用呼叫的队列使呼叫转接到您已设置的现有调用队列。
-  * 另一个**自动助理**可以使用现有自动助理创建第二个级别的包含子菜单的菜单选项。 These are called nested auto attendants.
+  * Another **Auto attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.
 
 * **Play menu options prompt** These can also be used to let you set up a prompt you want played.
 ***
 ![第三](../images/sfbcallout3.png)<br/>**菜单提示** 要创建主菜单提示，可以使用文本到语音转换或上载音频文件（.wav, .mp3 或 .wma）。可以在 **呼叫者将听到**框中输入提示或录制音频文件并播报，例如"如需销售，请按或报 1。如需服务，请按或报 2。如需客户支持，请按或报 3。如需接线员，请按或报 0。如需重听此菜单，请按星号键或报'重复'。" **创建自定义提示** 如果选择此选项，应输入希望系统播报的文本（最多 1000 个字符）。 **上载音频文件** 如果选择此选项，则需要录制问候语并上载音频文件（.wav, .mp3 或 .wma 格式）。
 ***
-![第四](../images/sfbcallout4.png)<br/>**按名称拨号**如果您选择此选项，这将使呼叫中的组织使用目录搜索中的人员搜索的人员。 在 **拨号范围** 页面上设置这些选项便可为“按名称拨号”选择哪些作为可选人列出或者哪些不作为可选人列出。 使用“按名称拨号”可找到任何拥有 **电话系统** 许可证的联机用户或任何使用Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。<br/><br/>  
+![第四](../images/sfbcallout4.png)<br/>**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013, can be found with Dial by Name.<br/><br/>  
 
 > [!WARNING]
 > 使用“按名称拨号” **无法联系** 使用 Lync 2010 的本地托管用户。
 > ***
 
-![第五](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. 若要添加菜单选项，按下键盘上相应的按键。 The keys in use will change in color and the corresponding row of options will appear below. 若要删除的菜单选项，只需单击键盘控件以取消选择此项上的相应项。 将移除按键映射行。<br/><br/>  **提示：** 您将需要更新菜单提示文本或重新添加到删除选项，因为它不会自动完成的现有菜单提示时单独录制音频。  <br/><br/>  任何菜单选项可以添加和删除任何顺序和关键映射不必是连续的。 很有可能，例如，使用键 0、 1 和 3 时不使用项 2 映射到选项，创建一个菜单。<br/><br/> 
+![第五](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. To delete a menu option, simply click on the corresponding key on the keypad control to deselect this key. The key mapping row will be removed.<br/><br/>  **提示：** 您将需要更新菜单提示文本或重新添加到删除选项，因为它不会自动完成的现有菜单提示时单独录制音频。  <br/><br/>  Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.<br/><br/> 
 
 > [!NOTE]
-> 按键 * （重复）和 # （回格）由系统保留，不能再分配。 如果已启用语音识别，按 * 将"重复"与对应和 # 将对应的"后退"语音命令。
+> The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
 
 
 若要设置菜单选项，选择按键后，将需要： 
-- **输入的选项名称**此地址可以是最多为 64 个字符，并且可以包含多个单词，如"客户服务"或"操作和可能导致。" 如果已启用语音识别，将自动识别名称，并呼叫的人将能够按 3、 说"3，"或者说"客户服务"，选择映射到 3 键选项。 
-- 下一步是如果按下了相应的按键，选择将呼叫发送至何处，或使用语音识别选择选项。 可以将呼叫发送至： 
-    - **运算符**如果已设置运算符，它会自动映射到键 0，但它还能够删除或重新分配给不同的密钥。 If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
-    - 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。<br/><br/> 
+- **Enter the Name of the option** This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3. 
+- The next step is to select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to: 
+    - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
+    - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.<br/><br/> 
 
         > [!Note] 
-        > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010。 <br/><br/>
+        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
     - **呼叫队列**通过呼叫队列选项可以呼叫转接到您已设置现有呼叫队列。 
     - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
@@ -156,32 +156,32 @@ ms.locfileid: "30046761"
 ![在自动助理中设置假日](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
 ***
-![第一](../images/sfbcallout1.png)<br/>**添加假日** 在 **假日名称** 字段中输入新假日的名称。<br/><br/> 假日名称可以包含最多 64 个字符，并且在同一自动助理中必须是唯一的。 例如，不能在同一自动助理中具有两个名为"感恩节"的假日。  
+![第一](../images/sfbcallout1.png)<br/>**添加假日** 在 **假日名称** 字段中输入新假日的名称。<br/><br/> Holiday names may consist of up to 64 characters and must be unique for the same auto attendant. For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.  
 ***
-![第二](../images/sfbcallout2.png)<br/>**假日问候** 假日问候是可选项，可以设置为 **无** 。 在此情况下，在所选选项处理呼叫之前，呼叫者听不到消息或者问候语。 还可以上传音频文件 （ .wav、 mp3 或 .wma 格式），或使用文本转语音的方式创建自定义问候语。
+![第二](../images/sfbcallout2.png)<br/>**Holiday Greeting** The Holiday Greeting is optional and can be set to **None**. In this case, the caller will hear no message or greeting before the call is handled by one of the options you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 * **无** 在有人呼叫自动助理电话号码时，将不播放问候语。
-* **创建自定义问候语**如果您选择此选项，输入您希望系统读取 （最多 1000年个字符） 的文本。 例如，可以输入"新年快乐！ 我们的办事处当前未营业。" 在 **呼叫者将听到** 框中。
+* **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Happy New Year! Our offices are currently closed." in the **Callers will hear** box.
 * **上载音频文件**如果选择此，记录假日问候，然后上载音频文件 （以.wav、.mp3 或.wma 格式）。  
 ***
-![第三](../images/sfbcallout3.png)<br/>**问候语之后对呼叫做些什么？** 您可以选择在该假日期间到达的呼叫会发生什么情况。 可以从以下选项中进行选择：
+![第三](../images/sfbcallout3.png)<br/>**What happens to the calls after the greeting?** You can select what happens to the calls that arrive during this holiday. You can chose from the following options:
 * **断开连接** 呼叫者听到假日问候语以后被断开连接。
 * **重定向呼叫** 这可用来将呼叫自动发送至：
-  * 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员 **。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。 <br/><br/> 
+  * A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company**, and set this person to have their calls forwarded directly to voicemail. <br/><br/> 
 
     > [!Note] 
-    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 不支持 Lync Server 2010。<br/><br/>
+    > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.<br/><br/>
 
   * 将呼叫转接到您已设置的现有调用队列**呼叫的队列**。
-  * 另一个**自动助理**创建第二个级别的包含子菜单的菜单选项。 These are called nested auto attendants. <br/><br/>
+  * Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants. <br/><br/>
 
     > [!Note]
     > 默认方式，将假日期间到达的所有呼叫设置为听到问候语（如果有）后断开连接，所以如果希望有不同的反应，则必须指定重定向。
 
 ***
-![第四](../images/sfbcallout4.png)<br/>**希望假日何时开始和结束？** 以 dd/mm/yyyy 格式，输入假日的开始日期，然后选择开始时间、结束日期和结束时间，如日期范围表中所提示。<br/><br/>可以为假日指定最多 10 个不同的日期范围。 例如，可以添加最多 10 年的除夕假日的日期范围。 假日可以有多天。<br/><br/>若要添加其他假日日期范围 （例如，下一年），单击 **添加另一个** ，然后输入一组新的假日起止日期。<br/><br/>亦支持嵌套假日。 例如，可以在一个“假日假期”时间段内嵌套多个假日： 
-* **12 月 24 日至 1 月 3 日：** “假日快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
-* **12 月 25:** "圣诞快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
-* **1 月 1:** "新年快乐！ 我们的办事处当前未营业。 我们将于 1 月 4 日恢复营业。"
+![第四](../images/sfbcallout4.png)<br/>**When do you want the holiday to start and end?** Enter your holiday start date in dd/mm/yyyy format, and then select a start time, end date, and end time, as prompted in the date range table.<br/><br/>You can specify up to 10 different date ranges for a holiday. For example, you could add date ranges for New Year's Eve holidays for up to 10 years. A holiday can span multiple days.<br/><br/>若要添加其他假日日期范围 （例如，下一年），单击 **添加另一个** ，然后输入一组新的假日起止日期。<br/><br/>Nested holidays are also supported. For example, you could nest multiple holidays within one "holiday break" time frame: 
+* **December 24 through January 3:** "Happy Holidays! Our offices are currently closed. We will reopen on January 4th."
+* **December 25:** "Merry Christmas! Our offices are currently closed. We will reopen on January 4th."
+* **January 1:** "Happy New Year! Our offices are currently closed. We will reopen on January 4th."
 
 保存自动助理后，假日出现在 **假日** 选项卡上，可在此编辑、添加或修改假日设置。
 
@@ -193,15 +193,15 @@ ms.locfileid: "30046761"
 
 ***
 ![第一](../images/sfbcallout1.png)<br/>使用" **包括**"选项时，可以从两个选项中选择：
-* **所有在线用户** 使用此选项可以将组织中的所有人包含在目录搜索中。 将列出拥有 **电话系统** 许可证的所有联机用户，以及使用 Skype for Business Server 2015 或者 Lync Server 2013 ，并在 Office 365 中拥有呼叫计划的本地托管用户。 
-* **自定义** 如果使用此选项，可以搜索 Office 365 组、通讯组列表或已在组织中创建的安全组，以及添加至此 Office 365 组、通讯组列表或安全组的人员，他们可能是 **拥有电话系统许可证的联机用户** 或者是使用 Skype for Business Server 2015 或 Lync Server 2013 的本地托管用户。 您可以添加多个 Office 365 组、 通讯组列表和安全组。 <br/><br/> 
+* **All Online users** Using this option allows all of the people in your organization to be included in directory search. All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server 2015 or Lync Server 2013 who have Calling Plans in Office 365, will be listed. 
+* **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
   > [!Caution]
   > 从 Lync Server 2010 的部署的内部部署用户不会按名称时某人搜索目录使用拨号列出。 
 ***
 ![第二](../images/sfbcallout2.png)<br/>使用**排除**选项时，有两种：
 * **无** 使用此选项表示不会将任何在线用户从目录搜索中排除。 
-* **自定义**如果您使用此选项，您可以搜索 Office 365 组、 通讯组列表或安全组已在组织中创建和所有人员都添加到此 Office 365 组通讯组列表，或将从目录搜索中排除安全组。 您可以添加多个 Office 365 组、 通讯组列表和安全组。 <br/><br/> 
+* **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
   > [!Caution]
   > 从 Lync Server 2010 的部署的内部部署用户不会按名称时某人搜索目录使用拨号列出。
@@ -213,7 +213,7 @@ ms.locfileid: "30046761"
 
 ## <a name="editing-and-testing-auto-attendants"></a>编辑和测试自动助理
 
-保存自动助理后，自动助理将在" **自动助理**"页面列出。 这将使您可以快速查看一些设置，包括名称、 电话号码、 语言和状态的选项。
+After you have saved your auto attendant, it will be listed on the **Auto attendants** page. This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
 
 如果您想要更改的自动助理，选择自动助理，，然后单击在操作窗格中的**编辑**。
 
@@ -242,7 +242,7 @@ ms.locfileid: "30046761"
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -257,7 +257,7 @@ ms.locfileid: "30046761"
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>相关主题
-[Office 365 中的电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)
 
@@ -265,4 +265,4 @@ ms.locfileid: "30046761"
 
 [什么是电话系统自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
-[小型企业示例-设置的自动助理](tutorial-org-aa.yml)  
+[小型企业示例 - 设置自动助理](tutorial-org-aa.yml)  

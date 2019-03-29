@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证，哪些功能您将与每个许可证、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。
-ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633223"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948366"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -95,7 +95,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [设置团队](../microsoft-teams.md)
     
-- [设置电话系统语音邮件 - 管理员帮助](../set-up-phone-system-voicemail.md)
+- [设置云语音邮件的管理员帮助](../set-up-phone-system-voicemail.md)
     
 - [调用 for Office 365 Plans](../calling-plans-for-office-365.md) and [Set up 调用计划](../set-up-calling-plans.md)
     
