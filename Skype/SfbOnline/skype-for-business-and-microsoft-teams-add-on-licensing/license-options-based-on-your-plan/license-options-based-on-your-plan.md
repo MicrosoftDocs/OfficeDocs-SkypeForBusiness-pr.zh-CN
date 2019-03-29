@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: 了解电话系统语音邮件。
-ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: 了解云语音邮件。
+ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120286"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948140"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="b4360-103">基于计划的许可证选项</span><span class="sxs-lookup"><span data-stu-id="b4360-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="80840-103">基于计划的许可证选项</span><span class="sxs-lookup"><span data-stu-id="80840-103">License options based on your plan</span></span>
 
 
