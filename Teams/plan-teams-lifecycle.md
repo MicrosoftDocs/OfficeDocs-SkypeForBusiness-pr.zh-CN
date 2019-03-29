@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b5686ec27495c8bbefbd07701031ddc179244986
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/27/2019
 ms.locfileid: "30641356"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
@@ -37,32 +37,32 @@ Teams 提供了一组丰富的工具，用于为组织实施协作生命周期�
 
 **Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Office 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 与其他 Office 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [详细了解 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 **频道**
 
-Channels are the collaboration spaces within a team where the actual work is done. Each channel represents a different topic or workstream within the overall team. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel, making it easy for users to find and work on the documents they care about. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
+频道是团队中的协作空间，在此完成实际工作。 每个频道均代表整个团队中一个不同的主题或工作流。 对于每个频道，都会自动在 SharePoint 站点上创建一个文件夹以用于存储共享到相应频道的所有文件，从而方便用户查找和处理其需要的文档。 也可以使用与特定工作流相关的应用程序扩展频道，例如，你可以将 Power BI 仪表板添加到某个频道以跟踪项目的某个方面的成功情况。
 
 **团队访问类型**
 
 这些类型确定哪些人可以加入团队：
 
--   _Private_ teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
--   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
+-   _私人_团队限于团队所有者批准的团队成员。 这是大型组织中项目团队和虚拟团队的典型设置。
+-   _公共_团队向组织中的所有人开放，可以直接加入。 要对处理不同项目的不同部门的人员都关注的主题进行协作，这很有用。 这是适合小型组织的默认设置。
 
 **团队用户类型和管理员角色** 
 
 团队用户类型确定团队成员拥有的控制权限：
 
--   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   _团队创建者_有权在目录中创建组或团队。 管理员可以将此用户类型限定于一部分管理员或用户。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。 
+-   _团队所有者_管理团队的成员身份和设置。 每个团队的团队所有者可以多达 10 人。
 -   _团队成员_是组织中加入团队的成员。
--   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
+-   _来宾_是组织外部的用户。 如果组织启用了[来宾访问](guest-access.md)，则可以邀请有电子邮件地址的任何人作为来宾。
 
 > [!Note]
 > 有关团队所有者和团队成员功能的详细信息，请参阅[在 Microsoft Teams 中分配角色和权限](assign-roles-permissions.md)一文。
 
-Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
+团队管理员角色确定每个管理员角色拥有者可以使用的功能。 下表对此进行了介绍。
 
 <table>
  <thead>
@@ -87,12 +87,12 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 <tr>
 <td valign="top" colspan="2">Teams 通信专家</td>
 <td valign="top">使用基本工具解决 Teams 中的通信问题</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
+<td valign="top">访问用户配置文件页面以对通话分析中的通话进行故障排除。 只能查看搜索的特定用户的用户信息。<sup>3</sup></td>
 </tr>
 <tr>
 <td valign="top" colspan="2">Teams 通信支持工程师</td>
 <td valign="top">使用高级工具解决 Teams 中的通信问题</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
+<td valign="top">访问用户配置文件页面以对通话分析中的通话进行故障排除。 可以查看完整的通话记录信息。<sup>3</sup></td>
 </tr>
 <tr>
 </tbody>
@@ -108,13 +108,13 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>开始之前要做出的 IT 决策
 
-Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more. Generally speaking, it’s much easier to implement these requirements prior to scaling your deployment across your organization.
+在向组织推出 Teams 之前，应实施组织决定要求的所有治理策略。 其中可以包括命名约定、过期策略、保留策略等各项。 一般而言，在整个组织中扩展部署之前实施这些要求要容易得多。
 
 有关详细信息，请参阅[在 Teams 中规划治理](plan-teams-governance.md)。
 
 ## <a name="teams-lifecycle-stages"></a>Teams 生命周期阶段
 
-Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
+一般而言，团队会有与项目一致或实现某个目标的目的。 即使团队是基于某个共同的兴趣而建的，团队成员身份也可能会随着时间而变化，并且讨论内容可能也会变得过时 - 只是在不同的团队中以稍微不同的方式同样出现。
 
 每个团队都会经历开始（创建团队和设置频道）、中间（使用团队，进行协作以符合工作流的节奏）以及（有时）结束（团队实现其目的，到达其有效期限终点）。 
 
@@ -124,7 +124,7 @@ Generally speaking, a team has a purpose that’s aligned with a project or acco
 
 #### <a name="create-the-team"></a>创建团队
 
-The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
+第一步是定义团队的目标（可以是业务流程、组织结构或项目，或者只是创建一个开放的非结构化协作中心）。 定义团队目标的同时要确定合适的人员。 在切实可行的范围内，建议力求包含广泛的成员身份来培养开放性的协作。 
 
 团队所有者邀请团队成员、设置团队图片和说明，并可以为各个成员设置权限。 
 
@@ -135,10 +135,10 @@ The first step is to define the goal of the team (which can range from business 
 
 可以采用各种方法创建团队，其中包括：
 
--   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
--   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
+-   从头开始创建团队。 通过使用各个电子邮件别名或用户名添加成员，或者扩展通讯组列表。
+-   基于某个现有团队创建团队，并将其频道配置和任何应用配置用作模板。 你也可以选择使用其成员身份列表。
 -   将某个团队添加到某个现有 Office 365 组，这还会为该团队提供访问其邮箱和 SharePoint 站点的权限。
--   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
+-   使用 Microsoft Graph Teams API 或 PowerShell cmdlet 创建团队。 这些 API 可以根据全球通讯簿属性（例如，区域或部门）或业务流程（例如，客户端参与或教室名册）以编程方式创建团队。
 
 可访问以下链接获取有关组织团队的详细信息：
 
