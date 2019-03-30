@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 培训视频、 PowerPoint 文件 （英文）、 教程和其他资源来 admins 如何规划、 部署和运行的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872707"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003817"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -92,6 +92,7 @@ ms.locfileid: "30872707"
 | 基础-核心组件 | [视频](https://aka.ms/teams-foundations) | [平台](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面客户端 | [视频](https://aka.ms/teams-clients) | [平台](https://aka.ms/teams-clients-deck) |
 | 调控、 管理和生命周期 | [视频](https://aka.ms/teams-governance) | [平台](https://aka.ms/teams-governance-deck) |
+| 安全 & 合规性 | [视频](https://aka.ms/teams-security-compliance) | [平台](https://aka.ms/teams-security-compliance-deck) |
 | 网络规划 | [视频](https://aka.ms/teams-networking) | [平台](https://aka.ms/teams-networking-deck) |
 | 呼叫质量概述 （英文) | [视频](https://aka.ms/teams-quality) | [平台](https://aka.ms/teams-quality-deck) |
 | 会议简介 | [视频](https://aka.ms/teams-meetings-intro) | [平台](https://aka.ms/teams-meetings-intro-deck) |
