@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是电话系统自动助理以及如何使用它们。
-ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879333"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003864"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -53,17 +53,22 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 ## <a name="getting-started"></a>入门
 
 要开始使用自动助理，记住以下几点至关重要：
-  
-- 您需要将电话系统许可证分配给自动助理与关联的资源帐户。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+
+- 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
+- 如果您打算分配一个直接路由号，则需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项\)。
+- 如果要改用分配 Microsoft 服务号码，您需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项调用规划\)。
+
+> [!NOTE] 
+> 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
     
     > [!TIP]
-    > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要获取并使用自动助理服务免费电话号码，您需要设置 Communications 字幕式。 若要执行此操作，请参阅[Communications 字幕式是什么？](what-are-communications-credits.md)并[设置为您的组织的通信字幕式](set-up-communications-credits-for-your-organization.md)。
 
     > [!IMPORTANT]
     > [!重要信息] 不能将用户（订阅者）的电话号码分配给自动助理 - 只能使用收费或免费服务电话号码。
-- 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
+
 - 完成自动助理系统通常将涉及多个自动助理和可能只需一个分配的电话号码的顶级或项自动助理。 其他自动助理或完整系统中的呼叫队列只需要一个电话号码如果您想要提供多个到系统的入口点。
 - 很可能要应用于自动助理的多个电话号码，通过将关联到自动助理的多个资源帐户。
   
@@ -125,7 +130,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 |:-----|:-----|:-----|:-----|
 |名字 + 姓氏 |完整 |Amos Marble |Amos Marble |
 |姓氏 + 名字 |完整  |Marble Amos |Amos Marble |
-|FirstName |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
+|名字 |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
 |姓氏 |完整 |Marble |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble |
 
 > [!NOTE]

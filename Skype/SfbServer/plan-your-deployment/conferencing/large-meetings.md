@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要： 阅读本主题可了解有关实施和管理大型会议中 Skype 业务 server 最佳实践。
-ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877906"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003872"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>规划大型会议中 Skype 业务服务器
  
@@ -189,8 +189,14 @@ Skype 业务服务器可以支持的会议的大小取决于是否在共享或�
 > [!NOTE]
 > 支持大型会议中 Skype 的业务服务器需要的设置**AllowLargeMeetings**设置为 true。 当此设置设置为 true，Skype 的用户加入会议时，将超大型会议优化业务体验。 具体而言，在大型会议中，for Business 的 Skype 不会显示初始或完整的会议参与者列表中，这是性能瓶颈客户端和 Skype 业务服务器更新。 Skype for Business 将仅显示有关用户和会议的演示者的列表的信息。 Skype for Business 仍会显示可用的大型会议中的参与者的总数。
 
+-AllowLargeMeetings $true 设置会导致以下: ·隐藏 Attendee 名单。 ·禁用 IM 窗口中的错误。
+·禁用多方视频。
+·禁用能够将与会者升级为演示者。 您必须提前规划和声明在会议开始之前的所有演示者。
+·禁用功能，可取消静音各与会者。
+·禁用能够将锁定视频聚焦功能应用于与会者。
+·PSTN 电话拨入式用户将无法使用自行取消静音 * 6 因为在活动的大型会议中的个人虚拟帮助负责 DTMF 命令遗漏。
+·如果演示者/组织者安排的会议其中任何人应静音首先 ("设置为静音 All")，PSTN 用户将整个呼叫静音并且将不能为自己取消静音。
 
-  
 若要禁用大型会议中不需要的会议功能，需要使用此处指定的所有会议策略设置（“最大会议规模”**** 设置除外）。
   
 此外，您需要配置专用的大型会议池，以便企业服务器用户是池上驻留和负责管理会议日程安排每个 Skype 具有适当的权限。 为此，请执行以下操作：
