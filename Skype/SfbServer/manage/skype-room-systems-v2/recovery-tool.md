@@ -1,5 +1,5 @@
 ---
-title: 使用 Skype 会议室系统 v2 恢复工具
+title: 使用 Microsoft 团队聊天室恢复工具
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,31 +8,32 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: 本文讨论如何使用 Skype 会议室系统 v2，您将用于将过期系统导入支持状态恢复工具。
-ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: 本文讨论如何使用 Microsoft 团队会议室，您将用于将过期系统导入支持状态恢复工具。
+ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965987"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013078"
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>使用 Skype 会议室系统 v2 恢复工具
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft 团队聊天室恢复工具
  
-本文讨论如何使用 Skype 会议室系统 v2，您将用于将过期系统导入支持状态恢复工具。 Skype 会议室系统 v2 控制台将显示"系统配置过期"错误时，应使用此工具。
+本文讨论如何使用 Microsoft 团队会议室，您将用于将过期系统导入支持状态恢复工具。 Microsoft 团队聊天室控制台将显示"系统配置过期"错误时，应使用此工具。
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>先决条件
 
-下载最新的[Skype 会议室系统 v2 安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其提取到某个 USB 内存继续有效或网络共享访问 Skype 会议室系统 v2 设备。
+下载最新的[Microsoft 团队聊天室安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其提取到某个 USB 内存继续有效或网络共享访问的 Microsoft 团队聊天室设备。
 
 您可能还需要安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>验证 Windows 版本 
 
-1. 转到的管理员帐户登录**设置 > Windows 设置 > 管理员登录**从 Skype 会议室系统 v2 设备。 此选项将您带到登录屏幕。
+1. 通过从 Microsoft 团队聊天室设备转**Settings> Windows Setting> 管理员登录**到的管理员帐户登录。 此选项将您带到登录屏幕。
 2. 登录到一个管理帐户，默认管理员帐户进行`admin`使用密码`sfb`。
 3. 单击开始菜单和类型`winver.exe`到搜索框和单击 **运行命令*的结果。
 4. 记数后版本第二条直线上的信息窗格。
@@ -52,17 +53,17 @@ ms.locfileid: "23965987"
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>执行恢复
 
-1. 登录到 Skype 会议室系统 v2 设备上的管理帐户并启动提升的命令提示符。
-2. 从 Skype 会议室系统 v2 设备验证您是否能够访问`RecoveryTool.ps1`文件，其中包含在从 Skype 会议室系统 v2 安装程序包中提取的文件。 可以使用准备先决条件时的 USB 驱动器或网络共享上找到工具包。
+1. 登录到您的 Microsoft 团队聊天室设备上的管理帐户并启动提升的命令提示符。
+2. 从 Microsoft 团队聊天室设备验证您是否能够访问`RecoveryTool.ps1`从 Microsoft 团队聊天室安装程序包中提取的文件中包含的文件。 可以使用准备先决条件时的 USB 驱动器或网络共享上找到工具包。
 3. 运行 Powershell.exe 命令`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。
 4. 当提示您的选择脚本选项`1:"Repair System"`。
-5. 完成后，重新启动 Skype 会议室系统 v2 设备。 它将重新自动重新启动，并提出完全恢复第二次。
+5. 完成后，重新启动 Microsoft 团队聊天室设备。 它将重新自动重新启动，并提出完全恢复第二次。
 
 
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
  
-[Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 团队聊天室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[管理 Skype 会议室系统 v2](skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](skype-room-systems-v2.md)

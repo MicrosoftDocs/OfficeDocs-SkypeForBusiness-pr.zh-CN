@@ -8,12 +8,12 @@ ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro
 description: 这些培训视频介绍 Skype for Business 并向管理员讲解如何规划、部署和操作 Skype for Business。
-ms.openlocfilehash: c6498fd2d3ed94222b7da40f2eb842d745359bd1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895651"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012960"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理培训
 ==================================
@@ -67,7 +67,7 @@ ms.locfileid: "30895651"
 | [租户拨号计划](http://aka.ms/sa-yt-tdp) |  租户拨号计划允许在 Skype for Business Online 中自定义拨号计划。 参加此准备课程以了解为什么需要租户拨号计划以及如何使用这些计划。 |
 | [ Polycom RealConnect Service for Office 365](http://aka.ms/sa-yt-cvi) | Polycom RealConnect Service for Office 365（预览） 提供本地 VTC（视频电话会议） 和 Skype for Business Online 之间的互操作。 参加此准备课程以了解云视频互操作可以做些什么、用户体验是什么以及如何配置它。 |
 | [在 Mac 上的业务的 Skype](http://aka.ms/sa-yt-mac) | 此课程将向你详细介绍新的 Mac 版 Skype for Business 客户端。 将向你演示用户体验，详细介绍功能并进一步讲解幕后故事，指出 Mac 版 Skype for Business 在什么时候与其他客户端不同。 最后以疑难解答信息作结。 |
-| [Skype 会议室系统 v2](http://aka.ms/sa-yt-srsv2) | Skype 会议室系统 v2 可启用现有会议室与投影仪或监视器，轻松地将其转变成 Skype for Business 会议室。 观看准备演示文稿了解更多有关 Skype 会议室系统设备范围，与其他 Skype 会议设备对比应在何时部署 Skype 会议室系统，以及规划和部署注意事项的信息。 |
+| [Microsoft 团队聊天室](http://aka.ms/sa-yt-srsv2) | Microsoft 团队 Rooms，与投影仪或要轻松转换为会议室监视器的现有会议室。 观看了解更多有关 Microsoft 团队聊天室的范围设备，与其他会议设备和规划和部署注意事项部署 Microsoft 团队聊天室所需的设备可用性时，准备演示文稿。 |
 | [会议迁移服务](http://aka.ms/sa-yt-mms) | 当管理员将主持会议的用户从本地移到线上或当那些用户启用了云 PSTN 会议时，Meeting 迁移服务会自动将会议更新发送给所有会议被邀请者。 新的服务无需用户在本地运行会议迁移工具，将来所有会议都可自动发送会议更新。 观看此准备演示文稿，以了解有关调用会议迁移服务时，仍需要会议迁移工具时，如何规划最佳用户体验以及对会议迁移服务处理结果进行报告的报告功能的方案。 |
 | [ 云 PBX 语音邮件与本地 Exchange Server](http://aka.ms/sa-yt-avm) | 此培训将涵盖 Skype for Business Online 用户如何通过其托管在本地 Exchange 服务器上的 Exchange 邮箱利用云 PBX 语音邮件的内容。 我们将讨论有关要求、 如何进行设计以及幕后工作方式的内容。 |
 | [ 深入了解客户端](http://aka.ms/sa-yt-client) | 此课程将深入了解 Skype for Business 客户端：它们如何发现禁止登录的服务器或服务，如何执行身份验证，信号流看起来怎样和如何对问题进行故障排除。 |
@@ -86,7 +86,7 @@ ms.locfileid: "30895651"
 | [ MOOC：Skype for Business：语音混合和路由](http://aka.ms/sof-mooc3) | Skype for Business 语音系列课程的第二课，此课程为您提供有关如何规划和管理混合语音部署的知识。 还能帮助你准备参加“ 使用 Skype for Business 2015 部署企业语音” 测验 (70-333)。   |
 | [ 深入了解云连接器](http://aka.ms/sa-yt-cce) | 云连接器 Edition (CCE) 是把 Skype for Business Online 集成到现有电话基础结构的最简单方式，无需全面构建 Skype for Business 基础结构。 参加这一培训可了解如何规划、部署和管理 CCE。 如果你已经熟悉 CCE，但想要了解 1.4.1 版本的新增功能，请参阅“新增功能部分”。 |
 | [ 呼叫队列和自动助理](http://aka.ms/sa-yt-aacq) | 呼叫队列提供同时对多个 Skype for Business Online 用户提供单独呼叫的一种机制。 云 PBX 自动助理是一个利用交互窗口提示帮助呼叫者导航此系统的智能虚拟接线员。 观看此视频课程可学习如何构想、加载呼叫队列和自动助理的驱动值。 |
-| [ 脚本化的 Skype 会议室系统 v2 设置](http://aka.ms/sof-yt-srsv2-script) | 此课程将介绍将允许 Skype 会议室系统 v2 轻松启用数量庞大的帐户的 SOF 内容。 将在课程中介绍包含所需输入文件、执行、功能和执行报告的 SOF 脚本。 |
+| [脚本化的 Microsoft 团队会议室设置](http://aka.ms/sof-yt-srsv2-script) | 此会话将介绍将允许轻松启用的大容量大量的帐户的 Microsoft 团队会议室的 SOF 内容。 将在课程中介绍包含所需输入文件、执行、功能和执行报告的 SOF 脚本。 |
 | [ MOOC：Skype for Business：语音高级工作负荷](http://aka.ms/sof-mooc4) | Skype for Business 语音系列课程的第三课，你将学习如何设计和配置本地企业语音部署的核心组件。 此外，你将了解如何实现增强的呼叫功能和管理 IP 电话。 最后，你将了解如何实现紧急拨号，优化你的企业语音网络，以及监视和维护语音质量。 此课程还将帮助你准备参加 “使用 Skype for Business 2015 部署企业语音” 测验 (70-333)。   |
 | [ MOOC：Skype for Business：基础结构规划和设计](http://aka.ms/sof-mooc5) | Skype for Business 基础结构系列课程的第一课，此课程向你详细演示如何规划和设计服务器组件。 此课程将帮助你准备“Microsoft Skype for Business 2015 的核心解决方案”测验 (70-334)。   |
 | [ MOOC：Skype for Business：基础结构实现和会议](http://aka.ms/sof-mooc6) | Skype for Business 基础结构系列课程的第二课，此课程重点介绍如何规划和部署会议以及如何对 Skype for Business Server 部署进行管理和故障排除。 此课程将帮助你准备“Microsoft Skype for Business 2015 的核心解决方案”测验 (70-334)。   |

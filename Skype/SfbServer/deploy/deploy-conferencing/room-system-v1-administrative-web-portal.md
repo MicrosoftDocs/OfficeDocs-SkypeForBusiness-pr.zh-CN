@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
+ms.collection: M365-voice
 description: 为业务服务器 Skype 会议室系统 v1 Skype (SR v1、 之前被称为 Lync 会议室系统) 管理 Web 门户是以便组织用来维护其 Skype 会议室系统会议室的 web 门户。 管理员可以使用 SR v1 管理 Web 门户以进行监视，设备运行状况，例如监视音频/视频设备。 与此门户，管理员可以远程收集诊断信息来监视会议室内运行状况。
-ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b616084016a3b660f4af5bcd3bda6926dfc7e286
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891943"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012903"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>为业务服务器部署中 Skype SR v1 管理 Web 门户
 
@@ -243,7 +244,7 @@ SRS 会议室批量管理是一项专门面向高级 IT 管理员的功能，用
 
 请确保 LRSApp 用户帐户已启用 SIP，并且是 LRSPowerUserAdminsGroup 安全组的一部分。
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-skype-room-systems-v2"></a>SRS v1 管理 Web 门户是否可以使用 Skype Room Systems v2？
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SR v1 管理 web 门户使用 Microsoft 团队聊天室？
 
 否。
 

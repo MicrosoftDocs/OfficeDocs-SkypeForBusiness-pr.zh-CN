@@ -9,17 +9,18 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 本文讨论中 Skype 会议室系统 v2 累积改进。
-ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
-ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
+ms.collection: M365-voice
+description: 本文讨论了 Microsoft 团队聊天室中的累积改进。
+ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950254"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012896"
 ---
 # <a name="release-notes"></a>发行说明 
 
-本文讨论中 Skype 会议室系统 v2 累积改进。
+本文讨论了 Microsoft 团队聊天室中的累积改进。
 
 
 ##  <a name="version-history"></a>版本历史记录
@@ -51,7 +52,7 @@ ms.locfileid: "30950254"
 | RTM (1.0.8) | 12/7/2016  | 
 
 
-## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype 会议室系统 v2 功能简介和解决问题
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和解决问题
 
 
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
@@ -72,7 +73,7 @@ ms.locfileid: "30950254"
 此更新中引入了：
 - 在这两个前端的空间 （） 双屏幕会议室系统上显示上显示内容
 - 主题和前端的聊天室的用户界面改进
-- TLS 1.2 客户端支持。 对于在内部部署客户通讯 over TLS 1.2 启用 Skype 会议室系统 V2 需要 Skype 业务 2015 Cummulative 更新 9 (CU9) 或 Skype Buisness 2019 Cummulative 更新 1 (CU1)。
+- TLS 1.2 客户端支持。 对于在内部部署客户的 Microsoft 团队聊天室 over TLS 1.2 启用通讯需要 Skype 业务 2015 Cummulative 更新 9 (CU9) 或 Skype Buisness 2019 Cummulative 更新 1 (CU1)。
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 此更新中引入了：
@@ -84,14 +85,14 @@ ms.locfileid: "30950254"
 
 ### <a name="40270-1012018"></a>4.0.27.0 (1/10/2018)
 此更新中引入了： 
-- 准备更高版本的 Windows 10 版本 1803年升级 SRSv2 应用程序所需的代码更改
+- 准备更高版本的 Windows 10 版本 1803年升级 Microsoft 团队聊天室应用程序所需的代码更改
 - 修复与本地化 Eula-专门挪威语-这将阻止执行超出 EULA OOBE 安装窗口的格式的问题
-- 需要进行 Skype 会议室系统 v2 应用程序在旧式 Lync 会议室系统上运行的代码更改。 查看更多[此处](https://aka.ms/lrsupgrade)。
+- 代码使旧式 Lync 会议室系统上运行的 Microsoft 团队聊天室应用程序所需的更改。 查看更多[此处](https://aka.ms/lrsupgrade)。
  
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 此更新中引入了： 
-- 修补程序 Crestron 应用程序未启动其通常会访问通过按 Crestron SR 设备上的应用程序按钮。 SRSv2 4.0.19.0 安装后，需要的应用程序重新启动 
+- 修补程序 Crestron 应用程序未启动其通常会访问通过按 Crestron SR 设备上的应用程序按钮。 4.0.19.0 安装后，需要 Microsoft 团队聊天室应用程序重新启动。 
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 此更新中引入了： 
@@ -163,7 +164,7 @@ Introduced in this update:
 - 支持[Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)停靠硬件    
 - 对环境控件 (Crestron) 的 OEM 支持
     
-从 Skype 会议室系统 v2 版本 3.0.12.0 （更新 3） 不再支持 64 位版本的 Windows 10 企业周年日 edition （英语、 版本 1607年）。 
+64 位版本的 Windows 10 企业周年日 edition （英语、 版本 1607年） 不再支持从 Microsoft 团队聊天室释放 3.0.12.0 （更新 3）。 
 
 ### <a name="3080-842017"></a>3.0.8.0 (4/8/2017) 
 此更新中引入了： 
@@ -217,14 +218,14 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
-[Skype 会议室系统版本 2 帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 团队聊天室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[业务环境准备您的 Skype](srs-v2-prep.md)
+[准备环境](srs-v2-prep.md)
 
-[Skype 会议室系统 v2 当前分支版本的支持](srs2-lifecycle-support.md)
+[支持的 Microsoft 团队聊天室当前分支版本](srs2-lifecycle-support.md)
 
-[有关 Skype 会议室系统 v2 的已知的问题](../../manage/skype-room-systems-v2/known-issues.md)
+[有关 Microsoft 团队聊天室的已知的问题](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 
-[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

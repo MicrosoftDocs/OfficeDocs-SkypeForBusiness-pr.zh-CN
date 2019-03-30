@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 9b77336757e36aac0f4465af0813141bef4bd3f9
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: ada45384ed7eb1328954105334523b51825f4bcb
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948192"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012481"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
@@ -60,7 +60,7 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
 |**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是一个托管的电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是与 Office 365 中的电话系统获取的内容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
 |**通话套餐** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
-|**Skype 会议室系统 v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Microsoft 团队聊天室** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。 请参阅[Microsoft 团队 Rooms](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -73,7 +73,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 企业版 E1、E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 企业版 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype 会议室系统 v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [Microsoft 团队聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV、EDU 和非营利性组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 功能和业务计划每个 Skype 的比较的详细列表，请参阅[Skype for Business Online 服务说明](https://go.microsoft.com/fwlink/?LinkId=730729)。

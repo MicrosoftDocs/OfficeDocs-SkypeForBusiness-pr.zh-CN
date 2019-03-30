@@ -1,5 +1,5 @@
 ---
-title: 将 Skype 会议室系统 v2 与本地 Exchange 一起部署
+title: 部署与 Exchange 本地的 Microsoft 团队聊天室
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,27 +10,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
-description: 阅读此主题以获取如何部署与 Exchange 内部部署混合环境中的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 9ebd7463465d8b2fbf11e95d71c8fcb557666b3a
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.collection: M365-voice
+description: 阅读此主题以如何与本地 Exchange 混合环境中部署 Microsoft 团队聊天室的信息。
+ms.openlocfilehash: b6c10635180d5707982efbc259eca577c45b1638
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737792"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012515"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>将 Skype 会议室系统 v2 与本地 Exchange 一起部署
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>部署与 Exchange 本地的 Microsoft 团队聊天室
 
-阅读本主题有关如何为业务 Online 部署在混合环境与本地 Exchange 和 Skype 的 Skype 会议室系统 v2 的信息。
+阅读本主题有关如何为业务 Online 与本地 Exchange 和 Skype 混合环境中部署 Microsoft 团队聊天室的信息。
   
-如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍与部署上承载的 Exchange 混合部署的 Skype 会议室系统 v2。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell 可以获得相同的最终结果记录在这里，以及其他部署选项的。
+如果您的组织具有其中的部分位于内部部署和一些在线承载的服务，组合，然后您的配置将取决于承载每个服务。 本主题介绍了 Microsoft 团队聊天室与本地承载的 Exchange 混合部署。 由于存在太多不同的变体在这种部署，不能提供的所有这些详细的说明。 以下过程将用于许多配置。 如果过程不适合您的安装程序，我们建议您使用 Windows PowerShell 可以获得相同的最终结果记录在这里，以及其他部署选项的。
 
-Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
+Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Microsoft 团队聊天室用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Microsoft 团队聊天室设备将使用的帐户。
   
 ## <a name="requirements"></a>要求
 
-部署与 Exchange 本地 Skype 会议室系统 v2 之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
+部署与 Exchange 本地的 Microsoft 团队聊天室之前，请确保已满足的要求。 有关详细信息，请参阅[Microsoft 团队聊天室要求](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
-如果您正在部署与本地 Exchange 的 Skype 会议室系统 v2，您将使用 Active Directory 管理工具添加您的内部部署域帐户的电子邮件地址。 此帐户将同步到 Office 365 中。 你将需要执行以下操作：
+如果您正在部署与 Exchange 本地的 Microsoft 团队聊天室，您将使用 Active Directory 管理工具添加您的内部部署域帐户的电子邮件地址。 此帐户将同步到 Office 365 中。 你将需要执行以下操作：
   
 - 创建一个帐户并将该帐户与 Active Directory 同步。
 
@@ -42,24 +43,24 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
 
   - 您需要在您的 Office 365 计划中具有 Skype 业务 online (计划 2) 或更高。 该计划需要支持会议功能。
   
-  - - 如果您需要企业语音 （PSTN 电话） 使用 Skype 会议室系统 v2 电话服务提供程序需要 Skype 业务 online (计划 3)。
+  - - 如果您需要企业语音 （PSTN 电话） 的 Microsoft 团队会议室使用电话服务提供程序需要 Skype 业务 online (计划 3)。
   
   - - 您的租户用户必须拥有 Exchange 邮箱。
   
-  - - Skype 会议室系统 v2 帐户确实需要 Skype 业务 online (计划 2) 或 Skype 业务 Online (计划 3) 许可证，但它不需要的 Exchange Online 的许可证。
+  - - 您的 Microsoft 团队会议室帐户确实需要 Skype 业务 online (计划 2) 或 Skype 业务 Online (计划 3) 许可证，但它不需要的 Exchange Online 的许可证。
 
-- 将业务服务器许可证 Skype 分配给您的 Skype 会议室系统 v2 帐户。
+- 将业务服务器许可证 Skype 分配给您的 Microsoft 团队会议室帐户。
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>创建一个帐户并与 Active Directory 同步
 
-1. 在**Active Directory 用户和计算机 AD**工具中，右键单击该组织单位 Skype 会议室系统 v2 帐户将创建中，单击**新建**，然后单击**用户**或文件夹。
+1. 在**Active Directory 用户和计算机 AD**工具中，右键单击该组织单位中，将在创建帐户您 Microsoft 团队聊天室单击**新建**，然后单击**用户**或文件夹。
 
 2. 将上一个 cmdlet 中的显示名称键入“**全名**”框中，将别名键入“**用户登录名**”框中。单击“**下一步**”。
 
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
 
     > [!NOTE]
-    > 选择**密码永不过期**是在 Skype 会议室系统 v2 Skype 业务服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要创建的每个 Skype 会议室系统 v2 设备帐户异常。
+    > 选择**密码永不过期**是 Skype 的 Microsoft 团队聊天室业务服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要创建的 Microsoft 团队聊天室的每个设备帐户异常。
   
 4. 创建该帐户后，运行目录同步。 完成后，转到您的 Office 365 管理中心中用户页，并验证已联机合并到上一步骤中创建的帐户。
 
@@ -135,7 +136,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. 为业务服务器启用 Skype Skype 会议室系统 v2 帐户，请运行以下命令：
+2. 为业务 Server 启用的 Skype 的 Microsoft 团队会议室帐户，请运行以下命令：
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
@@ -147,25 +148,25 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-license-to-your-skype-room-systems-v2-account"></a>向你的 Skype 会议室系统 v2 帐户分配一个 Skype for Business 许可证
+### <a name="assign-a-skype-for-business-license-to-your-microsoft-teams-rooms-account"></a>将业务许可证 Skype 分配给您的 Microsoft 团队会议室帐户
 
 1. 以租户管理员身份登录，打开 Office 365 管理门户，并单击管理中心应用程序。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
-3. 单击 Skype 会议室系统 v2 帐户，，然后单击笔图标可编辑帐户信息。
+3. 单击 Microsoft 团队会议室帐户中，然后单击笔图标可编辑帐户信息。
 4. 单击“**许可证**”。
-5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您将需要使用规划 3 许可证，如果您想要使用 Skype 会议室系统 v2 企业语音。
+5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 您将需要使用规划 3 许可证，如果您想要在您的 Microsoft 团队会议室使用企业语音。
 6. 单击“**保存**”。
 
 进行验证，您应该能够使用任何 Skype 业务客户端登录到此帐户。
   
 ## <a name="see-also"></a>另请参阅
 
-[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
+[为 Microsoft 团队房间配置帐户](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Microsoft 团队聊天室](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 会议室系统 v2](room-systems-v2.md)
+[部署 Microsoft 团队聊天室](room-systems-v2.md)
   
-[配置 Skype 会议室系统 v2 控制台](console.md)
+[配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

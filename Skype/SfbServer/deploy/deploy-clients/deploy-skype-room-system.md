@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: 阅读有关如何执行部署 Skype 会议室系统，会议房间解决方案集成的硬件和软件的优化业务会议加入 Skype 组成。
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699315"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012565"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>部署规划中的业务的 Skype 的 Skype 会议室系统
  
@@ -25,7 +26,7 @@ ms.locfileid: "25699315"
 > 对于此内容，Skype 的业务智能会议室系统 Crestron RL 和 Polycom CX8000 称为 Skype 会议室系统。 
 
 > [!NOTE]
-> Skype 会议室系统 v2 是具有不同的依赖关系和部署过程的不同产品。 Skype 会议室系统 v2 的信息，请参阅[规划 Skype 会议室系统 v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)。
+> Microsoft 团队聊天室是一种不同的产品具有不同的依赖项以及部署过程。 有关 Microsoft 团队聊天室的信息，请参阅[规划 Microsoft 团队 Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)。
   
  Skype 会议室系统是业务统一的通信客户端中物理会议室的业务会议优化的 Skype Skype。
   
@@ -65,9 +66,9 @@ ms.locfileid: "25699315"
 |**拓扑**|**AD**|**Skype for Business**|**交换**|
 |:-----|:-----|:-----|:-----|
 |内部部署  <br/> |内部部署  <br/> |内部部署  <br/> |内部部署  <br/> |
-|Office 365 多租户 (O365MT)  <br/> |Online  <br/> |Online  <br/> |联机  <br/> |
-|Office 365 专用  <br/> （联系服务提供商）  <br/> |内部部署  <br/> |联机  <br/> |联机  <br/> |
-|混合（拆分域）  <br/> 不支持  <br/> |内部部署  <br/> 内部部署  <br/> 内部部署  <br/> |内部部署  <br/> 联机  <br/> Online  <br/> |Online  <br/> 联机  <br/> 内部部署  <br/> |
+|Office 365 多租户 (O365MT)  <br/> |Online  <br/> |Online  <br/> |Online  <br/> |
+|Office 365 专用  <br/> （联系服务提供商）  <br/> |内部部署  <br/> |Online  <br/> |Online  <br/> |
+|混合（拆分域）  <br/> 不支持  <br/> |内部部署  <br/> 内部部署  <br/> 内部部署  <br/> |内部部署  <br/> Online  <br/> Online  <br/> |Online  <br/> Online  <br/> 内部部署  <br/> |
    
 Lync Server 2013 之前的版本部分受支持。 在以下情况下，Skype 会议室系统可以参加 Skype 业务会议 （由用户安排的那些驻留在 Lync Server 2010），只要会议是"公共"，这意味着会议不为自定义受限制的访问。 
   
@@ -79,7 +80,7 @@ Skype 会议室系统无法早于 Lync Server 2013 驻留在 Lync server 版本�
 |**交换**|**内部部署**|**Online**|**混合**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |是（仅限单林）  <br/> |不适用  <br/> |不适用  <br/> |
-|Exchange 2013  <br/> |是（多林支持适用于 Exchange 2013 CU6 和更高版本）  <br/> |是  <br/> |是  <br/> |
-|Exchange 2016  <br/> |是 （多林提供支持）  <br/> |是  <br/> |是  <br/> |
+|Exchange 2013  <br/> |是（多林支持适用于 Exchange 2013 CU6 和更高版本）  <br/> |是  <br/> |是   <br/> |
+|Exchange 2016  <br/> |是 （多林提供支持）  <br/> |是   <br/> |是  <br/> |
    
 

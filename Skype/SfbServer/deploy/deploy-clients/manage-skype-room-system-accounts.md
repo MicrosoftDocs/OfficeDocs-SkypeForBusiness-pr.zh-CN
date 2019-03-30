@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: 阅读本主题，了解如何管理 Skype 会议室系统帐户。
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699242"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012522"
 ---
 # <a name="manage-skype-room-system-accounts"></a>管理 Skype 会议室系统帐户
  
 阅读本主题，了解如何管理 Skype 会议室系统帐户。 
 
 > [!NOTE]
-> Skype 会议室系统 v2 是具有不同的依赖关系和部署过程的不同产品。 Skype 会议室系统 v2 的信息，请参阅 Skype 会议室系统 v2[管理概述](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)。
+> Microsoft 团队聊天室是一种不同的产品具有不同的依赖项以及部署过程。 有关 Microsoft 团队聊天室的信息，请参阅 Microsoft 团队聊天室[管理概述](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)。
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>池之间移动 Skype 会议室系统帐户
 

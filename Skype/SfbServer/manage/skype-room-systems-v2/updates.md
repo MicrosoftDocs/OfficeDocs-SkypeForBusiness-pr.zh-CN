@@ -1,5 +1,5 @@
 ---
-title: 管理 Windows 更新为 Skype 房间系统 v2
+title: 为 Microsoft 团队房间管理 Windows 更新
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -9,18 +9,19 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 ms.assetid: ''
-description: 管理 Windows 更新为 Skype 房间系统 v2
-ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: 为 Microsoft 团队房间管理 Windows 更新
+ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532138"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013100"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
-Skype 会议室系统 v2 (SR v2) Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上运行并接收作为标准桌面相同的 Windows 更新和操作系统版本。
+Microsoft 团队聊天室 Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上运行并接收作为标准桌面相同的 Windows 更新和操作系统版本。
 
 Windows 更新可以管理几个不同的方式：
 
@@ -43,8 +44,8 @@ Windows 更新可以管理几个不同的方式：
 
 ### <a name="feature-updates"></a>功能更新
 
-质量和非 Deferable 与更新不同，Windows 10 Microsoft 测试并验证与 SR v2 给定的更新功能后，将仅安装"功能更新"（主要操作系统版本）。 即使它是释放到半年通道 （或目标如果必须设置为测试该频道的系统），或者甚至手动推送尝试或配置，它将不允许安装，直到删除的阻止，我们结束。
+质量和非 Deferable 与更新不同，Windows 10 Microsoft 测试并验证给定的更新功能与 Microsoft 团队聊天室后，将仅安装"功能更新"（主要操作系统版本）。 即使它是释放到半年通道 （或目标如果必须设置为测试该频道的系统），或者甚至手动推送尝试或配置，它将不允许安装，直到删除的阻止，我们结束。
 
-SR v2"的现成"，使用手中的关闭方法中，将安装 Windows Update 或由于 Windows Update 的自动重新启动设备。 但是，系统可能下载更新，等待下一步的重新启动以安装它。 除非某人重新启动它手动安装何时发生在夜间自动重新启动。 Windows 更新在聊天室中应为透明，UI 应永远不会在 Windows 更新被打断。
+使用手中的关闭方法中，Microsoft 团队会议室"out box"不将安装 Windows Update 或由于 Windows Update 的自动重新启动设备。 但是，系统可能下载更新，等待下一步的重新启动以安装它。 除非某人重新启动它手动安装何时发生在夜间自动重新启动。 Windows 更新在聊天室中应为透明，UI 应永远不会在 Windows 更新被打断。
 
 如果您选择加入域，使用 SCCM 或 WSUS，并请特别注意策略或可能会导致设备安装更新或强制重新启动工作时间内的操作。 如果您有系统使用过程中重新启动或通过 UI 警报 Windows 更新有关在部署中，要查看您的配置。

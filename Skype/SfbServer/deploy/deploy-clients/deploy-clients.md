@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 摘要： 企业客户端安装方法的 Skype for Business 的概述。
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699279"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012537"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>为业务 Server 部署 Skype 客户的端
  
@@ -51,7 +51,7 @@ ms.locfileid: "25699279"
     
 - [在 Skype for Business Server 中部署 Skype 会议室系统](deploy-skype-room-system.md)
     
-- [部署 Skype 会议室系统 v2](room-systems-v2.md)
+- [部署 Microsoft 团队聊天室](room-systems-v2.md)
     
 - [部署 Lync VDI 插件与 Skype 业务服务器](deploy-the-lync-vdi-plug-in.md)
     

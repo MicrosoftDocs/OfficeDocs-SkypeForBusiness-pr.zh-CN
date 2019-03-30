@@ -1,5 +1,5 @@
 ---
-title: 创建电话系统呼叫队列
+title: 创建呼叫队列
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置电话系统呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫的电话系统。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898163"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012970"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -41,10 +41,11 @@ Phone System call queues include greetings that are used when someone calls in t
 
 当有人呼叫到与调用队列通过[资源帐户](manage-resource-accounts.md)相关联的电话号码时，它们将听到问候语 （如果任何设置），然后再它们都将在队列中并等待下一个可用呼叫代理。 保持等待，它们是和呼叫将拨打给*第一个中，先出*（先进先出） 顺序中的呼叫代理时，呼叫的人将听到保持音乐。
   
-将使用 attendant 的路由模式或串行路由模式分发队列中等待的所有呼叫：
+使用以下方法之一将分发队列中等待的所有呼叫：
   
 - 助理路由队列中的第一个呼叫将同时拨打所有代理。
 - 使用串行路由时，队列中的第一个呼叫将逐个拨打所有呼叫代理。
+- 使用轮循机制的传入呼叫路由平衡使每个呼叫代理将获得相同的呼叫数从队列。
 
     > [!NOTE]
     > 不会呼叫处于**脱机**状态、已将其状态设置为 **请勿打扰**或已退出呼叫队列的呼叫代理。
@@ -59,16 +60,18 @@ Phone System call queues include greetings that are used when someone calls in t
 
 要开始使用呼叫队列，记住以下几点至关重要：
   
-- 企业版 E3 以及**电话系统**的许可证或企业 E5 许可证，您的组织必须 （最低要求）。 已分配的**电话系统**用户许可证数量影响服务号码可用于呼叫的队列数。 您可以呼叫队列数是取决于您的组织中分配的**电话系统**和**音频会议**的许可证数量。 若要了解有关授权的详细信息，请参阅[Business 加载项授权的 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)或[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+- 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
+- 如果您打算分配一个直接路由号，则需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项\)。
+- 如果要改用分配 Microsoft 服务号码，您需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项调用规划\)。
 
-    > [!NOTE]
-    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
+
+> [!NOTE]
+> 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[业务许可证分配 Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要了解有关 Office 365 调用计划的详细信息，请参阅[电话系统，调用计划](calling-plan-landing-page.md)和[调用规划 Office 365](calling-plans-for-office-365.md)。
 
-    > [!NOTE]
-    > 用户托管在本地作为呼叫队列代理不支持使用 Lync Server 2010。
-  
 - 您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或从另一个服务提供商转接到电话系统呼叫队列。 若要获取并使用免费电话号码，则需要设置通信点数。
 
     > [!NOTE]
@@ -175,9 +178,6 @@ Phone System call queues include greetings that are used when someone calls in t
 
 - 拥有**电话系统**许可证和通话套餐（已添加到 Office 365 组、已启用邮件的通讯组列表或安全组）的在线用户。 为通讯组列表或安全组添加一位新代理，以便开始接收来自呼叫队列的呼叫，这可能需要 30 分钟的时间。 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组几乎立即就可使用。
 
-  > [!NOTE]
-  > 用户托管在本地不支持使用 Lync Server 2010。
-
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![第二](media/sfbcallout2.png)
@@ -242,10 +242,8 @@ Phone System call queues include greetings that are used when someone calls in t
 
   - **公司内的人员**与**电话系统**许可证联机用户和启用了企业语音或其调用规划。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。
 
-  若要了解有关语音邮件所需授权的信息，请参阅[设置电话系统的语音邮件](set-up-phone-system-voicemail.md)。
+  若要了解有关授权所需的语音邮件，请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
-    > [!Note]
-    > 用户托管在本地不支持使用 Lync Server 2010。
   - **语音应用程序**选择呼叫队列的之一的名称或自动助理已创建。
 
 * * *
@@ -264,16 +262,13 @@ Phone System call queues include greetings that are used when someone calls in t
 - **重定向到此呼叫**选择此，您可以在这些选项：
   - **公司内的人员**与**电话系统**许可证联机用户和启用了企业语音或其调用计划。 你可以通过此设置将呼叫者直接转到语音邮件。 要执行此操作，选择**您的公司的人员**，并设置此人要使其呼叫直接转接到语音邮件。
 
-  若要了解有关语音邮件所需授权的信息，请参阅[设置电话系统的语音邮件](set-up-phone-system-voicemail.md)。
-
-    > [!Note]
-    > 用户托管在本地不支持使用 Lync Server 2010。
+  若要了解有关授权所需的语音邮件，请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
   - **语音应用程序**选择呼叫队列的之一的名称或自动助理已创建。
 
-## <a name="changing-a-users-caller-id-to-be-a-call-queues-phone-number"></a>更改用户的呼叫者 ID，可调用队列的电话号码
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>更改用户的出站呼叫的呼叫者 ID 
 
-通过使用**新建 CallingLineIdentity** cmdlet 创建策略，可将出站呼叫的来电显示更改为呼叫队列，从而保护用户的身份。
+您可以通过创建策略使用**新建 CsCallingLineIdentity** cmdlet 而更改其呼叫者 ID 的出站呼叫的呼叫队列、 自动助理或任何服务号码保护用户标识。
 
 若要执行此操作，请运行：
 
@@ -297,13 +292,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 以下是管理呼叫队列时需要使用的 cmdlet。
   
-- [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [新 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [设置 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-- [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
+- [Get CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [删除 CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 

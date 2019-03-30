@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解有关加载项许可证，哪些功能您将与每个许可证、 如何购买的产品，以及如何与他们使用您现有的运营商。 您可以获取 Office 365，通信字幕式定价和计划的详细信息和呼叫计划。
-ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948366"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013063"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -55,7 +55,7 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是一个托管的电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是与 Office 365 中的电话系统获取的内容](../here-s-what-you-get-with-phone-system.md)。  <br/> 如果您要查找的操作更它成本，请参阅[电话系统](https://products.office.com/microsoft-teams/voice-calling)。  <br/> |
 |**通话套餐** <br/> |向其他小组用户的呼叫是免费的但如果您希望用户能够调用您的业务之外的任何电话号码得到[调用规划](../calling-plans-for-office-365.md)。 在 Office 365 中有国内通话套餐和国内和国际通话套餐。  <br/> 如果您要查找的操作更它成本，请参阅[调用规划定价](https://products.office.com/en-us/microsoft-teams/voice-calling)。  <br/> |
-|**Skype 会议室系统第 2 版** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。 请参阅[Skype 会议室系统 v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。  <br/> |
+|**Microsoft 团队聊天室** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。 请参阅[Microsoft 团队 Rooms](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。  <br/> |
 
 需要向某人加载项的所有选项来都谈谈吗？ [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
@@ -68,7 +68,7 @@ Microsoft 团队许可旨在为您提供的最大的灵活性量。 例如，使
 - [Office 365 企业版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企业版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype 会议室系统 v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Microsoft 团队聊天室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV、EDU 和非营利性组织](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格并购买附加许可证

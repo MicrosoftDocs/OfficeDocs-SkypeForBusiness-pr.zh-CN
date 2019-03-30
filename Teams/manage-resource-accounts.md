@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解如何管理中的 Microsoft 团队资源帐户
-ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886058"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012952"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -38,11 +38,15 @@ ms.locfileid: "30886058"
 
 若要开始非常重要记住几件事：
   
-- 您需要将电话系统许可证分配给与您的自动助理或呼叫队列关联的资源帐户。 若要了解有关授权的详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
-    
+- 自动助理或呼叫队列需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
+- 如果您打算分配一个直接路由号，则需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项\)。
+- 如果要改用分配 Microsoft 服务号码，您需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项调用规划\)。
 
-    > [!NOTE]
-    > 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
+    
+> [!NOTE]
+> 要重定向呼叫的人员在组织中联机，它们必须具有**电话系统**许可证和启用了企业语音或其 Office 365 调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 您可以直接路由混合数字分配资源帐户。  有关详细信息，请参阅[规划直接路由](direct-routing-plan.md)。
 - 对于 Microsoft 调用计划，您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或从另一个服务提供商转接到的资源帐户。 若要获取并使用免费电话号码，则需要设置通信点数。
@@ -54,6 +58,12 @@ ms.locfileid: "30886058"
   
 > [!NOTE]
 > 如果您在美国以外，您无法使用的 Microsoft 团队管理中心获取服务号码。 转到[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)而是以了解如何执行从美国的外部。
+
+## <a name="create-a-resource-account-in-admin-center"></a>在管理中心创建资源帐户
+
+若要在 Microsoft 团队管理中心创建资源帐户，请导航至**组织范围的设置** > **资源帐户**，单击 **+ 添加**和填写显示名称的用户名，然后选择相应的域名和单击**保存**。
+
+若要应用于资源帐户的许可证，导航到 O365 管理中心用户选项卡。
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
@@ -82,7 +92,11 @@ Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
 Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
+如果您创建资源帐户时未应用许可证的电话号码分配将失败。 
+
 在此命令的详细信息，请参阅[设置 CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) 。
+
+
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>管理资源的 Microsoft 团队管理中心中的帐户设置
 

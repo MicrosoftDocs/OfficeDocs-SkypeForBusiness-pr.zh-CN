@@ -1,5 +1,5 @@
 ---
-title: Skype 会议室系统 v2 要求
+title: Microsoft 团队聊天室要求
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,34 +10,35 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: 本文汇总了支持 Skype 会议室系统 v2 的要求。
-ms.openlocfilehash: bc1cfdfe8d7d470396617421cdcfdc6aab50a9bc
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.collection: M365-voice
+description: 本文汇总了支持 Microsoft 团队聊天室的要求。
+ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770418"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012992"
 ---
-# <a name="skype-room-systems-v2-requirements"></a>Skype 会议室系统 v2 要求
+# <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队聊天室要求
 
-本文汇总了支持 Skype 会议室系统 v2 的要求。 
+本文汇总了支持 Microsoft 团队聊天室的要求。 
 
-您的部署将涉及[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台。 
+[部署 Microsoft 团队聊天室](../../deploy/deploy-clients/room-systems-v2.md)中所述的帐户创建和设置[配置的 Microsoft 团队聊天室控制台](../../deploy/deploy-clients/console.md)中所述的会议控制台，将涉及您的部署。 
 
 您可能还需要引用：
 
-- [Skype for Business 附加许可](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [许可基于您的计划选项： Skype 会议室系统 v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Skype for Business 加载项授权](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [许可基于您的计划选项： Microsoft 团队聊天室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype 会议室系统 v2 旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>不应使用 Skype 会议室系统 v2 早期平台，如 Lync Server 2013。
+> Microsoft 团队聊天室旨在用于业务服务器 2019年的 Skype、 Skype for Business Server 2015、 Microsoft 团队或 Skype 业务 online。 <br><br>早期平台，如 Lync Server 2013 不应与 Microsoft 团队聊天室工作。
 
 > [!NOTE]
-> 如果使用 prem 上 Exchange 服务器，则 Skype 会议室系统 v2 需要使用 Exchange Server 2013 SP1 或更高版本。
+> 如果使用 prem 上 Exchange 服务器，Microsoft 团队聊天室将需要使用 Exchange Server 2013 SP1 或更高版本。
 
 ## <a name="hardware-requirements"></a>硬件要求
 
-Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音频和视频的外围设备的附件。 本文中列出的硬件支持 Skype 和团队会议模式。  音频和视频的外围设备连接到通过 USB 或 HDMI 连接停靠的设备上的 Skype 会议室系统 v2。 你还将需要：
+Microsoft 团队聊天室可以扩展到不同的会议室大小通过根据音频和视频的外围设备的附件。 本文中列出的硬件支持 Skype 和团队会议模式。  通过停靠的设备上的 USB 或 HDMI 连接情况下，音频和视频的外围设备连接到 Microsoft 团队聊天室。 你还将需要：
 
 - 32 GB 或更大的 USB 磁盘将 Windows 10 enterprise 配置为可引导的 Windows 安装介质。 
 
@@ -73,18 +74,18 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 
 **认证的 USB 音频和视频外围设备的固件版本**
 
-|Skype 会议室系统 v2 外围设备|Skype 会议室系统 v2 认证的固件版本|
+|Microsoft 团队聊天室外围设备|为 Microsoft 团队房间认证的固件版本|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |音频-1.0.172  <br/> 视频-1.0.156  <br/> |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech ConferenceCam 连接](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Logitech 组](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
-|[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
+|[Logitech PTZ 专业人员](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ 专业人员 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
+|[Polycom RealPresence 三个](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -108,11 +109,11 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
     > 用作会议室前端显示屏的消费者电视需要支持/启用 HDMI 的 Consumer Electronics Control (CEC) 功能，以使其可以自动从待机模式切换至活动视频源。 并非所有电视都支持此功能。 
 
 > [!NOTE]
-> Skype 会议室系统 v2 不使用键盘。 如果需要，管理员应使用屏幕键盘。 USB 键盘或鼠标将在需要时 imaging Skype 会议室系统 v2 设备。 
+> Microsoft 团队聊天室不使用键盘。 如果需要，管理员应使用屏幕键盘。 USB 键盘或鼠标将在需要时图像处理 Microsoft 团队聊天室设备。 
 
 下表提供有关外围设备基于会议室大小的建议：
 
-**Skype 会议室系统 v2 认证音频外围设备**
+**认证音频外围设备的 Microsoft 团队聊天室**
 
 |会议室类型|人数|麦克风与发言人员之间的建议最大距离|设备（按最大会议室大小）|备注|
 |:-----|:-----|:-----|:-----|:-----|
@@ -121,35 +122,35 @@ Skype 会议室系统 v2 可以扩展到不同的会议室大小通过根据音�
 |**中** <br/> 18 x 20"  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 毫秒  <br/> |Logitech MeetUp 包含了摄像机，因此它必须定位在前面的聊天室 （不中心要捕获本地与会者表）。  <br/> 一般来说，与长矩形或 u 形表聊天室可以受益于其他附属麦克风。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
 |**大** <br/> 15' x 32"  <br/> |12 16  <br/> |3m  <br/> 此距离也适用于连接到正在使用的音频设备的每个其他卫星麦克风覆盖的区域。  <br/> |Logitech 组 + 附属话筒  <br/> Polycom 三个 + 附属话筒  <br/> Polycom CX5100 + 附属话筒  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC 1000MS + 附属话筒  <br/> |此行列出的所有音频设备都支持卫星麦克风选项。  <br/> CX5100 包括内置的 360 度摄像头，因此该设备可以放置在桌子中心。  <br/> 菊花链配置中必须使用 SP 220 MS。  <br/> |
 
-**Skype 会议室系统 v2 认证视频外围设备**
+**认证视频外围设备的 Microsoft 团队聊天室**
 
 |会议室类型|人数|按最佳会议室大小的设备|备注|
 |:-----|:-----|:-----|:-----|
 |**焦距** <br/> 10 个 x 9"  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
-|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**大** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**小** <br/> 16 x 16"  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ 专业人员通常与 Logitech 组捆绑在一起  <br/> |
+|**中** <br/> 18 x 20"  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**大** <br/> 15' x 32"  <br/> |12 16  <br/> |Logitech PTZ 专业人员  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 
  > [!NOTE]
  > 前面的聊天室显示解决方案应设置为不超过 1920x1080p。
 
-## <a name="required-software-downloads"></a>需要下载的软件
+## <a name="required-software-downloads"></a>所需的软件下载
 
-若要构建您自己的 Skype 会议室系统 v2 图像，按照中[配置的 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)的说明。 这些说明将指导您完成下载所有必需的软件安装过程。 
+若要构建您自己的 Microsoft 团队聊天室图像，按照中[配置的 Microsoft 团队聊天室控制台](../../deploy/deploy-clients/console.md)的说明。 这些说明将指导您完成下载所有必需的软件安装过程。 
 
 > [!NOTE]
 > IT 专业人员需要对其的批量许可协议通过 Windows 10 企业 ISO 文件的访问。
 
-此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，通常用于设置 Skype 会议室系统 v2 帐户。
+此外，您可能需要一份[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，其中您可用于设置 Microsoft 团队会议室帐户。
 
 ## <a name="see-also"></a>另请参阅
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 
-[部署 Skype 会议室系统 v2](../../deploy/deploy-clients/room-systems-v2.md)
+[部署 Microsoft 团队聊天室](../../deploy/deploy-clients/room-systems-v2.md)
 
-[配置 Skype 会议室系统 v2 控制台](../../deploy/deploy-clients/console.md)
+[配置 Microsoft 团队聊天室控制台](../../deploy/deploy-clients/console.md)
 
-[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business 附加许可](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

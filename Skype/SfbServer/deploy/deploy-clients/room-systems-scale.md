@@ -1,5 +1,5 @@
 ---
-title: 使用 System Center Configuration Manager 部署 Skype 会议室系统
+title: 使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -11,30 +11,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: 阅读此主题以了解有关部署在大型部署的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.collection: M365-voice
+description: 阅读此主题以了解有关在大型部署中部署 Microsoft 团队聊天室。
+ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880775"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013034"
 ---
-# <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Skype 会议室系统 v2
+# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
 
-本文为您提供了所有必要的信息以创建 Skype 会议室系统 v2 部署通过使用 System Center Configuration Manager。
+本文为您提供了所有必要信息使用 System Center Configuration Manager 中创建 Microsoft 团队聊天室部署。
 
 与提供的 System Center Configuration Manager 中的简单易用的方法，您可以部署操作系统和其他应用程序到多个目标设备。
 
 使用指导您完成您的配置管理器配置，如下所示的方法和自定义的示例包和脚本提供整个本指南中，根据需要为您的组织。
 
-![使用 Configuration Manager Skype 会议室系统 v2 部署过程](../../media/room-systems-scale-image1.png)
+![使用 Configuration Manager 的 Microsoft 团队聊天室部署过程](../../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > 仅基于 Surface Pro 部署已测试此解决方案。 按照配置非基于 Surface Pro 的制造商的指南。
 
 ## <a name="validate-prerequisites"></a>验证先决条件
 
-若要部署 Skype 会议室系统 v2 使用配置管理器中，确保您满足以下先决条件和要求。
+若要部署 Microsoft 团队会议室使用配置管理器中，确保您满足以下先决条件和要求。
 
 ### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager 要求
 
@@ -46,11 +47,11 @@ ms.locfileid: "30880775"
 
 -   网络访问帐户必须被配置为支持新的计算机 （裸机） 部署方案。 若要了解更多有关配置的网络访问帐户，请参阅[管理帐户以访问 System Center Configuration Manager 中的内容](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
 
--   我们建议您启用[多播的支持](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)，如果您可能要将相同的 Skype 会议室系统 v2 图像同时部署到多个单位。
+-   我们建议您启用[多播的支持](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)，如果您可能要同时将相同的 Microsoft 团队聊天室图像部署到多个单位。
 
 ### <a name="networking-requirements"></a>网络要求
 
--   您的网络应该有一个动态主机配置协议 (DHCP) 服务器，配置为自动的 IP 地址分发到将在其中部署 Skype 会议室系统 v2 单位子网。
+-   您的网络应该有一个动态主机配置协议 (DHCP) 服务器，配置为自动的 IP 地址分发到将在其中部署 Microsoft 团队聊天室单位子网。
 
     > [!NOTE]
     > DHCP 租约持续时间必须设置为超过图像部署持续时间值。 否则，部署可能会失败。
@@ -80,7 +81,7 @@ ms.locfileid: "30880775"
 
 1.  在 Configuration Manager 控制台中，转到**管理** \> **分发点**。
 
-2.  选择分发点服务器，将提供 Skype 会议室系统 v2 部署中，然后选择**属性**。
+2.  选择分发点服务器，将提供的 Microsoft 团队聊天室部署，然后选择**属性**。
 
 3.  选择**PXE**选项卡，并确保启用了以下设置：
     -   启用 PXE 支持的客户端
@@ -129,16 +130,16 @@ ms.locfileid: "30880775"
 
 ## <a name="create-configuration-manager-packages"></a>创建配置管理器包
 
-配置管理器需要大量的包来部署和配置的 Skype 会议室系统 v2 单位。
+配置管理器需要大量的包来部署和配置的 Microsoft 团队聊天室单位。
 
 您需要创建并配置了下列程序包，然后将它们分发到配置管理器网站系统已分配了分发点服务器角色。
 
 | **程序包名称**                     | **类型**               | **说明**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SR v2-SR 应用程序包     | 软件包       | 包 Skype 会议室系统 v2 部署工具包                                      |
-| SR v2-Sysprep 包             | 软件包       | 自定义 Unattended.xml 配置 Skype 会议室系统 v2 单位包            |
+| SR v2-SR 应用程序包     | 软件包       | 包 Microsoft 团队聊天室部署工具包                                      |
+| SR v2-Sysprep 包             | 软件包       | 配置 Microsoft 团队聊天室单位自定义 Unattended.xml 包            |
 | SR v2-设置 SRSComputerName 包 | 软件包       | 要在部署过程中指定计算机名称的 HTML 应用程序 (HTA) 包    |
-| SR v2-配置 SR 安装程序         | 软件包       | 要配置的 Skype 会议室系统 v2 应用程序部署包                          |
+| SR v2-配置 SR 安装程序         | 软件包       | 要配置的 Microsoft 团队聊天室应用程序部署包                          |
 | SR v2-操作系统更新包          | 软件包       | 包来部署必需的操作系统更新                                      |
 | SR v2-根证书包    | 软件包       | 可选-包来部署 （不需要加入域的单位） 的根证书  |
 | SR v2-Microsoft 监控代理包 | 软件包       | 可选-包来部署和配置 Microsoft 操作管理套件代理|
@@ -215,7 +216,7 @@ ms.locfileid: "30880775"
    ```
 3. 下载到同一文件夹的必需的 Windows 更新程序包。
    > [!NOTE]
-   > 在发布本文时，仅[KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)是必需的。 检查[配置 Skype 会议室系统 v2 控制台](console.md)，请参阅是否需要其他任何更新。
+   > 在发布本文时，仅[KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)是必需的。 检查[配置的 Microsoft 团队聊天室控制台](console.md)，请参阅是否需要其他任何更新。
 
 4. 在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
@@ -235,7 +236,7 @@ ms.locfileid: "30880775"
 
 创建此程序包分发不会加入 Active Directory 域的设备的根证书。 创建此包，仅当以下条件适用：
 -   您的部署包括本地 Lync 或 Skype 业务服务器。
--   Skype 会议室系统 v2 单位配置为用于在工作组中而不是域成员。
+-   Microsoft 团队聊天室单位配置为用于在工作组中而不是域成员。
 
 1.  将根证书复制到**SR v2 – 根证书程序包**文件夹。
 
@@ -253,9 +254,9 @@ ms.locfileid: "30880775"
 
 6.  选择**关闭**。
 
-### <a name="create-the-skype-room-systems-v2-deployment-kit-package"></a>创建 Skype 会议室系统 v2 部署套件包
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>创建 Microsoft 团队聊天室部署套件包
 
-1.  下载最新版本的**Skype 会议室系统 v2 部署工具包**从<https://go.microsoft.com/fwlink/?linkid=851168>，并将其安装到工作站。
+1.  下载最新版本的**Microsoft 团队聊天室部署工具包**从<https://go.microsoft.com/fwlink/?linkid=851168>，并将其安装到工作站。
 
 2.  复制从内容**c:\\Program Files (x86)\\Skype 会议室系统部署工具包** **SR v2-SR 应用程序包**文件夹。
 
@@ -469,10 +470,10 @@ ms.locfileid: "30880775"
 
 ### <a name="create-surface-pro-device-driver-packages"></a>创建 Surface Pro 设备驱动程序包
 
-Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建已在您的环境中每个 Surface Pro 模型驱动程序包。
+支持 Microsoft 团队会议室使用 Surface Pro 和 Surface Pro 4。 您需要创建已在您的环境中每个 Surface Pro 模型驱动程序包。
 
 > [!IMPORTANT]
-> 驱动程序必须与 Windows 10 Enterprise 生成和 Skype 会议室系统 v2 部署套件版本兼容。 有关详细信息，请参阅[下载最新的固件和呈现设备的驱动程序](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)和[Configure 控制台](console.md)。
+> 驱动程序必须与 Windows 10 Enterprise 生成和 Microsoft 团队聊天室部署套件版本兼容。 有关详细信息，请参阅[下载最新的固件和呈现设备的驱动程序](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)和[Configure 控制台](console.md)。
 
 1.  下载最新驱动程序和固件。
     -   为 Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
@@ -505,7 +506,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 > [!NOTE]
 > 对其他 Surface Pro 模型，您可能必须重复相同的步骤。 有关详细信息，请参阅[管理驱动因素 System Center Configuration Manager 中](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)。
 
-### <a name="create-skype-room-system-configuration-package"></a>创建 Skype 会议室系统配置包
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>创建的 Microsoft 团队聊天室配置包
 
 1.  在 Configuration Manager 控制台中，转到**软件库** \> **应用程序管理** \> **包**以及然后选择**创建新程序包**。
 
@@ -564,13 +565,13 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 > [!NOTE]
 > 软件包分发可能需要一些时间，具体取决于程序包大小、 配置管理器层次结构、 分发点服务器的数量和网络中可以使用的带宽。
 > 
-> 在开始部署 Skype 会议室系统 v2 单位之前，必须将分发所有程序包。
+> 在开始部署 Microsoft 团队聊天室单位之前，必须将分发所有程序包。
 > 
 > 您可以查看您程序包分发 Configuration Manager 控制台中的状态，转到**监控** \> **分发状态** \> **内容状态**。
 
 ## <a name="configuration-manager-task-sequences"></a>配置管理器任务序列
 
-使用任务序列使用 System Center Configuration Manager 中自动部署到目标计算机的操作系统映像的步骤。 若要部署中自动方式的 Skype 会议室系统 v2 单元，您创建引用用于启动目标 Skype 会议室系统 v2 计算机、 Windows 10 Enterprise 操作系统映像的要进行安装，以及任何启动映像任务序列其他其他内容，例如其他应用程序或软件更新。
+使用任务序列使用 System Center Configuration Manager 中自动部署到目标计算机的操作系统映像的步骤。 若要部署的 Microsoft 团队聊天室单位以自动方式，您创建任务序列引用用于启动目标 Microsoft 团队聊天室计算机、 Windows 10 Enterprise 操作系统映像的要进行安装，以及任何启动映像其他其他内容，例如其他应用程序或软件更新。
 
 ### <a name="import-the-sample-task-sequence"></a>导入示例任务序列
 
@@ -579,7 +580,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 1.  [**下载**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)示例任务序列，并将下载的压缩文件复制到共享位置。
 2.  在 Configuration Manager 控制台中，转到**软件库** \> **操作系统** \> **任务序列**和然后选择**导入任务序列**。
 
-3.  选择**浏览**，转到您在步骤 1 中使用的共享的文件夹位置，选择**Skype 会议室系统 v2 部署 (EN-US).zip**文件中，，然后选择**下一步**。
+3.  选择**浏览**，转到您在步骤 1 中使用的共享的文件夹位置，选择**Microsoft 团队聊天室部署 (EN-US).zip**文件中，，然后选择**下一步**。
 
 4.  将**操作**设置为**新建**，然后选择**下一步**。
 
@@ -591,7 +592,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 1. 选择导入的任务序列，，，然后选择**编辑**。
 
-    任务序列编辑器打开并显示每个连续的步骤，您需要部署和配置 Skype 会议室系统 v2 单位。
+    任务序列编辑器打开并显示每个连续的步骤，您需要部署和配置 Microsoft 团队聊天室单位。
 
 2. 演练每个步骤并完成建议的更新：
 
@@ -599,7 +600,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
    2. **分区磁盘 0 – UEFI**： 此步骤擦除磁盘配置并创建基于已配置的设置的分区。 我们建议对此步骤不进行任何更改。
 
-   3. **设置 SR 计算机名称**： 本步骤包括 HTML 应用程序提供 UI 在部署过程中设置的 Skype 会议室系统 v2 单位的计算机名称。
+   3. **设置 SR 计算机名称**： 本步骤包括 HTML 应用程序提供 UI 在部署过程中设置的 Microsoft 团队聊天室单位的计算机名称。
       -  这是一个可选步骤，但它可以仅禁用如果您想要管理计算机命名通过备用的过程。
       -  确认已选中**SR v2-设置 SRSComputerName**包。 如果没有，则浏览到包，并选择它。
 
@@ -612,7 +613,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
    6. **应用网络设置**： 此步骤，可以指定工作组或 Active Directory 域名和组织单位。
       > [!NOTE]
-      > 建议的操作需要部署 Skype 会议室系统 v2 单位为 Actve Directory 域的成员，请参阅[Skype 会议室系统域加入注意事项](domain-joining-considerations.md)。
+      > 建议的操作需要部署 Microsoft 团队聊天室单位为 Actve Directory 域的成员，请参阅[Skype 会议室系统域加入注意事项](domain-joining-considerations.md)。
    7. **应用驱动程序：** 使用此步骤和及其子步骤部署适用的设备驱动程序和基于 Surface Pro 模型必须的固件。 更新每个步骤，以指定与此部署关联的相关的驱动程序包。
       -   每个驱动因素包配置为利用 Windows Management Instrumentation (WMI) 筛选器部署相关的驱动程序的固件基于 Surface Pro 使和模型。
       -   我们强烈建议您不更改这些驱动程序的配置，否则部署可能会失败。
@@ -620,21 +621,21 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
    8. **设置 Windows 和配置管理器**： 此步骤部署和配置 Configuration Manager 客户端。 更新指定的内置的配置管理器客户端包此步骤。
 
    9. **安装根证书**： 此步骤分发非加入域的设备的根证书，因此是可选的默认为禁用。
-      -   如果您需要部署到的 Skype 会议室系统 v2 单位的根证书，则启用此步骤。
+      -   如果您需要部署到的 Microsoft 团队聊天室单位的根证书，则启用此步骤。
       -   如果需要执行此步骤，请验证选中的**SR v2 – 根证书包**和**禁用 64-bit 文件系统重定向**。
 
    10. **安装和配置监控代理**： 此步骤安装 64 位版本的 Microsoft Azure 监视器代理和配置要连接到您的日志分析工作区的代理。
-       -   默认情况下禁用此步骤。 仅当您要用于监视您 Skype 会议室系统 v2 单位的运行状况监控代理，则启用此步骤。
+       -   默认情况下禁用此步骤。 仅当您要使用监控代理 to monitor the health 的 Microsoft 团队聊天室单位，则启用此步骤。
        -   编辑此步骤和更新的命令行参数指定您的**工作区 ID**和**工作区键**。
        -   有关获取操作管理套件工作区 ID 和主关键字的详细信息，请参阅[Configure 测试设备的 Azure 监控](azure-monitor.md#configure-test-devices-for-azure-monitoring)。
        -   验证选中的**SR v2 – Microsoft 监控代理包**和**禁用 64-bit 文件系统重定向**。
-       -   有关监控的 Skype 会议室系统 v2 部署运行状况的详细信息，请参阅[规划 Skype 会议室系统 v2 管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、[部署 Skype 会议室系统 v2 管理使用 Azure 监视器](azure-monitor.md)和[管理 Skype 会议室Azure 监视系统 v2 设备](../../manage/skype-room-systems-v2/azure-monitor.md)。
+       -   有关监视的 Microsoft 团队聊天室部署运行状况的详细信息，请参阅[规划 Microsoft 团队聊天室管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、[使用 Azure 监视器部署 Microsoft 团队聊天室管理](azure-monitor.md)和[管理 Microsoft团队 Azure 监视器聊天室设备](../../manage/skype-room-systems-v2/azure-monitor.md)。
 
-   11. **复制 SR v2 配置文件**： 此步骤将从 Skype 会议室系统 v2 部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
+   11. **复制 SR v2 配置文件**： 此步骤将从 Microsoft 团队聊天室部署工具包所需的安装和配置文件复制到本地硬盘。 无自定义，则需要此步骤。
        -   验证选中的**SR v2 – SR 应用程序包**和**禁用 64-bit 文件系统重定向**。
 
-   12. **安装 SRSv2 操作系统更新**： 此步骤将部署与 Skype 会议室系统 v2 部署所需的任何必需的操作系统更新。 请执行下列操作：
-       -   检查以查看哪些更新所需的[配置 Skype 会议室系统 v2 控制台](console.md)。
+   12. **安装 SRSv2 操作系统更新**： 此步骤将部署与 Microsoft 团队聊天室部署所需的任何必需的操作系统更新。 请执行下列操作：
+       -   检查以查看哪些更新所需的[配置的 Microsoft 团队聊天室控制台](console.md)。
        -   确认您**SR v2 – 操作系统更新程序包**包含所有必需的更新。
        -   确认已选中**SR v2 – 操作系统更新包**。
        -   验证 PowerShell 执行策略设置为**绕过**。
@@ -645,9 +646,9 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
    15. **重新启动计算机**： 配置 Windows 功能后，此步骤重新启动计算机。 无自定义，则需要此步骤。
 
-   16. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Skype 会议室系统 v2 应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
+   16. **添加本地 Skype 用户**： 此步骤创建用于自动登录到 Windows 和启动 Microsoft 团队聊天室应用程序的本地 Skype 帐户。 此步骤没有与其关联的任何软件程序包，它需要无自定义。
 
-   17. **设置并配置 SR 应用程序**： 此步骤配置下次启动操作系统的 Skype 会议室系统 v2 应用程序安装。
+   17. **设置并配置 SR 应用程序**： 此步骤配置 Microsoft 团队聊天室应用程序的下次启动安装操作系统。
        -   验证选中**SR v2 – 配置 SR 安装程序包**并**禁用 64-bit 文件系统重定向**。
 
 > [!IMPORTANT]
@@ -671,7 +672,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
    > [!WARNING]
    > 它是非常重要的**目的**设置为**可用**。 确保**用途**是**** 设置为**所需**。 另外，请确保您选择中**对以下公开****仅媒体和 PXE** 。
    >
-   > 为其他设置这些值可能会导致获取 Skype 会议室系统部署映像时启动的所有计算机。
+   > 为其他设置这些值可能会导致获取 Microsoft 团队聊天室部署映像时启动的所有计算机。
 7. 不指定任何计划，并选择**下一步**。
 
 8. 不更改**用户体验**部分中的任何内容，并选择**下一步**。
@@ -687,7 +688,7 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 <a name="validate-and-troubleshoot-the-solution"></a>验证并排查解决方案
 --------------------------------------
 
-在您完成 System Center Configuration Manager 任务序列后，您需要执行测试运行以验证任务序列可以部署和配置 Skype 会议室系统 v2 单位。
+在您完成 System Center Configuration Manager 任务序列后，您需要执行测试运行以验证任务序列可以部署和配置 Microsoft 团队聊天室单位。
 
 1.  通过使用受支持的以太网适配器之一或使用曲面停靠到有线网络连接的测试设备。 如果尚未为您的环境配置 PXE 启动功能，您可用于启动映像上 USB 闪存驱动器[您先前创建](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media)从 USB 启动并连接到配置管理器。
 
@@ -720,13 +721,13 @@ Skype 会议室系统 v2 支持 Surface Pro 和 Surface Pro 4。 您需要创建
 
 8.  部署过程的其余部分是自动并不要求输入任何多个用户。
 
-9.  部署任务序列完成配置设备后，您将看到要求您配置 Skype 会议室系统 v2 应用程序设置下配置屏幕。
+9.  部署任务序列完成配置设备后，您将看到要求您配置的 Microsoft 团队聊天室应用程序设置下配置屏幕。
 
-    ![Skype 会议室系统 v2 应用程序的初始安装屏幕](../../media/room-systems-scale-image2.png)
+    ![Microsoft 团队聊天室应用程序的初始安装屏幕](../../media/room-systems-scale-image2.png)
 
-10.  Surface Pro 插入 Skype 会议室系统 v2 控制台中，并配置的应用程序设置。
+10.  插入 Microsoft 团队聊天室控制台中，Surface Pro 和配置的应用程序设置。
 
-11.  验证已部署的设备上的[Skype 会议室系统 v2 帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)中列出的功能都正常工作。
+11.  验证已部署的设备上的[Microsoft 团队聊天室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)中列出的功能都正常工作。
 
 
 要解决安装失败，请检查日志在 Configuration Manager 任务序列中执行的所有步骤的**SMSTS.log**文件。

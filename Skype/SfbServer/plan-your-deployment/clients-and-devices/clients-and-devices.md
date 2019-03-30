@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993378"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012745"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -78,9 +78,9 @@ Skype for Business 联机会议外接程序支持从 Windows 上的 Microsoft Ou
 
 某些对安全问题及合规性问题特别敏感的组织使用虚拟桌面基础结构 (Virtual Desktop Infrastructure, VDI) 环境。 在此类连接上使用具备完整音频和视频功能的 Skype for Business 时，驻留在虚拟桌面上的客户端需要承受较重的音频和视频处理负载。 提供了附加的 VDI 插件软件，此软件可将该处理卸载到最终用户的本地计算机，从而减轻虚拟桌面的负载。 有关使用这些插件的详细信息，请参阅[在 VDI 环境中规划 Skype for Business](vdi-environments.md)。
 
-### <a name="skype-room-systems-v2"></a>Skype Room Systems v2
+### <a name="microsoft-teams-rooms"></a>Microsoft 团队聊天室
 
-Skype Room Systems v2 是 Microsoft 的最新会议解决方案，它使用用户熟悉的 Skype for Business 界面，易于部署和管理，并且利用现有设备（如液晶屏），安装很方便。 Skype Room Systems v2 使用以控制台模式在 Surface Pro 4 或 Surface Pro 中运行的定制 UWP 应用（一旦部署，该 UWP 应用是将在设备中运行的唯一应用），并且需要在你的 Skype for Business 实现中有自己的设备帐户。 软件通过 Windows 应用商店和 Windows 更新来更新。 有关在你的部署中使用这些会议室控制台的详细信息，请参阅 https://aka.ms/SRSDocs。
+Microsoft 团队聊天室是 Microsoft 的最新会议解决方案使用熟悉的界面，并轻松地部署和托管，利用现有的设备如为了简化安装 LCD 面板。 Microsoft 团队会议室使用控制台模式下运行 Surface Pro 4 或 Surface Pro 上的专门 UWP 应用程序 （部署 UWP 应用程序之后是将在设备运行的唯一应用程序） 和它需要在您的实现自己设备帐户。 软件通过 Windows 应用商店和 Windows 更新来更新。 有关在你的部署中使用这些会议室控制台的详细信息，请参阅 https://aka.ms/SRSDocs。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 版 Skype for Business
 
@@ -139,7 +139,7 @@ MSI 是比较传统的安装方法，用于 Skype for Business 2015 和 2016 客
 
 Skype for Business Server 2019 和 Skype for Business Online 支持以前发行的以下客户端：Skype for Business 2016、Skype for Business 2015 和 Lync 2013。
 
-Skype for Business Server 2015 支持先前发布的以下客户端：Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
+Skype 的业务服务器 2015年支持以下以前发布的客户端： Lync 2013、 Lync 2010、 Lync 2010 Mobile、 Lync Phone Edition，和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
 
 
 ## <a name="client-system-requirements"></a>客户端系统要求
@@ -165,7 +165,7 @@ Skype for Business Server 2015 支持先前发布的以下客户端：Lync 2013�
 
 - [Mac 版 Skype for Business 客户端更新](mac-requirements.md)
 
-- [规划 Skype Room Systems v2](skype-room-systems-v2-0.md)
+- [规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 
 - [在 VDI 环境中规划 Skype for Business](vdi-environments.md)
 

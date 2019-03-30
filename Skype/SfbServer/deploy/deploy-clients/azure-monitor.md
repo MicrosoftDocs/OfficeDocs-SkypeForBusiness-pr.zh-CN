@@ -1,5 +1,5 @@
 ---
-title: 部署 Skype 会议室系统 v2 管理使用 Azure 监视器
+title: 部署 Microsoft 团队聊天室管理使用 Azure 监视器
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文讨论如何部署 Skype 会议室系统 v2 设备的管理方式集成的端到端使用 Azure 监视器。
-ms.openlocfilehash: 6a90f5b1dcbbdbab9c4149717e16a01c3a5f5ba1
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+description: 本文讨论如何部署 Microsoft 团队聊天室设备的管理方式集成的端到端使用 Azure 监视器。
+ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29448446"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013107"
 ---
-# <a name="deploy-skype-room-systems-v2-management-with-azure-monitor"></a>部署 Skype 会议室系统 v2 管理使用 Azure 监视器
+# <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>部署 Microsoft 团队聊天室管理使用 Azure 监视器
 
-本文讨论如何设置和部署的 Skype 会议室系统 v2 设备集成的端到端管理使用 Azure 监视器。
+本文讨论如何设置和部署的 Microsoft 团队聊天室设备集成的端到端管理使用 Azure 监视器。
 
-您可以配置内 Azure 监视器提供基本遥测日志分析和通知将帮助您管理 Skype 会议室内设备。 随着您管理解决方案逐渐成熟，您可能决定部署其他数据和管理功能，以创建设备的可用性和性能的详细的视图。
+您可以配置内 Azure 监视器提供基本遥测日志分析和通知将帮助您管理会议室内设备的 Microsoft 团队聊天室。 随着您管理解决方案逐渐成熟，您可能决定部署其他数据和管理功能，以创建设备的可用性和性能的详细的视图。
 
-按照本指南，您可以使用类似下面的示例仪表板获取设备可用性、 应用程序和硬件运行状况和 Skype 会议室系统 v2 应用程序和操作系统版本分发报告的详细的状态。
+按照本指南，您可以使用类似下面的示例仪表板获取设备可用性、 应用程序和硬件运行状况和 Microsoft 团队聊天室应用程序和操作系统版本分发报告的详细的状态。
 
-![SR v2 示例日志分析视图](../../media/Deploy-Azure-Monitor-1.png "SR v2 示例日志分析视图")
+![示例日志分析视图的 Microsoft 团队会议室](../../media/Deploy-Azure-Monitor-1.png "示例日志分析视图的 Microsoft 团队会议室")
 
 你需要在高级别执行以下任务：
 
@@ -36,32 +37,32 @@ ms.locfileid: "29448446"
 1.  [验证日志分析配置](azure-monitor.md#validate_LogAnalytics)
 2.  [配置日志分析管理安装程序测试设备](azure-monitor.md#configure_test_devices)
 3.  [映射自定义字段](azure-monitor.md#Custom_fields)
-4.  [日志分析中定义的 Skype 会议室系统 v2 视图](azure-monitor.md#Define_Views)
+4.  [日志分析中定义的 Microsoft 团队聊天室视图](azure-monitor.md#Define_Views)
 5.  [定义通知](azure-monitor.md#Alerts)
 6.  [将所有设备都配置为监控](azure-monitor.md#configure_all_devices)
 7.  [配置其他 Azure 监视解决方案](azure-monitor.md#Solutions)
 
 > [!IMPORTANT]
-> 使用最少的配置，Azure 监视器日志分析可以监视运行 Windows 操作系统的计算机，但仍有一些需要在开始部署到所有 Skype 会议室系统的代理之前的 Skype 会议室系统 v2 特定步骤设备。
+> 使用最少的配置，Azure 监视器日志分析可以监视运行 Windows 操作系统的计算机，但仍有需要在开始部署到所有 Microsoft 团队的代理之前执行一些 Microsoft 团队聊天室特定步骤聊天室设备。
 > 因此，我们强烈建议您受控的安装和配置正确的顺序执行所有配置步骤。 最终结果的质量很大程度取决于的初始配置的质量。
 
 ## <a name="validate-log-analytics-configuration"></a>验证日志分析配置
 <a name="validate_LogAnalytics"> </a>
 
-您需要具有要开始从 Skype 会议室系统 v2 设备收集日志的日志分析工作区。 工作区是使用其自己的数据存储库、 数据源和解决方案的唯一日志分析环境。 如果您已有现有日志分析工作区，您可能使用它来监视 Skype 会议室系统 v2 部署或或者，您可以创建一个专用的日志分析工作区特定到 Skype 会议室系统 v2 监控需求。
+您需要具有要开始从 Microsoft 团队聊天室设备收集日志的日志分析工作区。 工作区是使用其自己的数据存储库、 数据源和解决方案的唯一日志分析环境。 如果您已有现有日志分析工作区，您可能使用它来监视您的 Microsoft 团队聊天室部署或或者，您可以创建专用的日志分析工作区特定监控需要您 Microsoft 团队 room。
 
 如果您需要创建新的日志分析工作区，请按照[创建 Azure 门户中的日志分析工作区](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)一文中的说明
 
 > [!NOTE]
 > 若要使用日志分析与 Azure 监视器，您需要具有活动的 Azure 订阅。 如果您没有 Azure 订阅，您可以创建[免费的试用订阅](https://azure.microsoft.com/free)作为起点。
 
-### <a name="configure-log-analytics-to-collect-skype-room-systems-v2-event-logs"></a>配置日志分析收集 Skype 会议室系统 v2 事件日志
+### <a name="configure-log-analytics-to-collect-microsoft-teams-rooms-event-logs"></a>配置日志分析收集 Microsoft 团队聊天室事件日志
 
 日志分析仅收集在设置中指定的 Windows 事件日志中的事件。 为每个日志中，会收集仅将所选的严重级别的事件。
 
-您需要配置日志分析收集监视 Skype 会议室系统 v2 设备和应用程序状态所需的日志。 Skype 会议室系统 v2 设备使用**Skype 会议室系统**事件日志。
+您需要配置日志分析收集监视 Microsoft 团队聊天室设备和应用程序状态所需的日志。 Microsoft 团队聊天室设备使用**Skype 会议室系统**事件日志。
 
-若要配置日志分析，以收集 Skype 会议室系统 v2 事件，请参阅[在 Azure 监视器中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
+配置日志分析收集的 Microsoft 团队聊天室事件，请参阅[在 Azure 监视器中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
 ![事件日志设置](../../media/Deploy-Azure-Monitor-2.png "事件日志设置")
 
@@ -71,34 +72,34 @@ ms.locfileid: "29448446"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>为 Azure 监控配置测试设备
 <a name="configure_test_devices"> </a>
 
-您需要准备日志分析能够监视 Skype 会议室系统 v2 相关的事件。 启动时，您需要将 Microsoft 监控代理部署到您可以物理访问的只是一个或两个 Skype 会议室系统 v2 设备并实现这些测试设备生成一些数据，并将其推送到日志分析工作区。
+您需要准备日志分析能够监视 – 与 Microsoft 团队聊天室相关的事件。 启动时，您需要将 Microsoft 监控代理部署到只是一个或两个 Microsoft 团队聊天室设备必须物理访问，并实现这些测试设备生成一些数据，并将其推送到日志分析工作区。
 
 ### <a name="install-microsoft-monitoring-agents-to-test-devices"></a>安装 Microsoft 监控代理到测试设备
 
-使用[到 Azure 中的日志分析服务的连接的 Windows 计算机](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)中提供的说明，将 Microsoft 监控代理部署到测试设备上。 本文提供有关部署监控代理的 Windows 的步骤的详细的信息，获取日志分析***工作区 ID***和***主关键字***的说明，以获取 Skype 会议室系统 v2 设备连接到您的 Azure 监视部署和步骤验证代理连接到日志分析实例。
+使用[到 Azure 中的日志分析服务的连接的 Windows 计算机](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)中提供的说明，将 Microsoft 监控代理部署到测试设备上。 本文提供有关部署监控代理的 Windows 的步骤的详细的信息，获取日志分析***工作区 ID***和***主关键字***的说明，以获取 Microsoft 团队聊天室设备连接到您的 Azure 监视部署和步骤验证代理连接到日志分析实例。
 
-### <a name="generate-sample-skype-room-systems-events"></a>生成示例 Skype 会议室系统事件
+### <a name="generate-sample-microsoft-teams-rooms-events"></a>生成示例 Microsoft 团队聊天室事件
 
 Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集所需的事件日志数据。
 
 > [!NOTE]
-> Microsoft 监控代理，在安装后重新启动设备，并确保该 Skype 会议室系统 v2 会议应用程序已启动，以便它可以到事件日志中生成的新事件。
+> Microsoft 监控代理，在安装后重新启动设备，并确保已启动的 Microsoft 团队聊天室会议应用程序，以便它可以到事件日志中生成的新事件。
 
 1.  登录到[Microsoft Azure 门户](https://portal.azure.com)，转到日志分析，并选择您的工作区。
 
-2.  列出检测信号事件生成的 Skype 会议室系统 v2 设备：
-    1.  选择您的工作区并转到**日志**使用查询来检索检测信号记录将具有 SR v2 的自定义字段。
+2.  列出检测信号事件生成的 Microsoft 团队聊天室设备：
+    1.  选择您的工作区并转到**日志**查询用于检索的自定义域会为 Microsoft 团队房间检测信号记录。
     2.  示例查询：`Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  确保查询返回包含生成的 Skype 会议室系统 v2 会议应用程序事件日志记录。
+3.  确保查询返回包含由 Microsoft 团队会议室的会议应用程序生成的事件的日志记录。
 
 4.  生成硬件问题，并验证 Azure 日志分析中的记录所需的事件。
-    1.  拔下测试 Skype 会议室系统 v2 系统上的外围设备之一。 这可能是照相机、 免提电话、 麦克风或前端聊天室显示
+    1.  拔下测试 Microsoft 团队聊天室系统上的外围设备之一。 这可能是照相机、 免提电话、 麦克风或前端聊天室显示
     2.  等待事件日志中 Azure 日志分析填充 10 分钟。
     3.  使用列表硬件错误事件查询：`Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  生成应用程序问题，并验证的记录所需的事件。
-    1.  修改 Skype 会议室系统 v2 应用程序配置，并键入正确的会话初始协议 (SIP) 地址中的密码对。
+    1.  修改 Microsoft 团队聊天室应用程序配置，并键入正确的会话初始协议 (SIP) 地址中的密码对。
     2.  等待事件日志中 Azure 日志分析填充 10 分钟。
     3.  使用查询的列表应用程序错误事件：`Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -114,14 +115,11 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 
 1.  登录到[Microsoft Azure 门户](https://portal.azure.com)，转到日志分析，并选择您的工作区。
 
-2. 列出由 Skype 会议室系统 v2 设备生成的事件：
-   1.  转到**日志 （经典）** ，并使用查询来检索将具有自定义字段的记录。
+2. 列出由 Microsoft 团队聊天室设备生成的事件：
+   1.  转到**日志**并使用查询来检索将具有自定义字段的记录。
    2.  示例查询：`Event | where Source == "SRS-App" and EventID == 2000`
 
 3. 选择记录之一，选择向左，按钮并启动字段提取向导。
-
-   ![字段提取向导](../../media/Deploy-Azure-Monitor-3.png "字段提取向导")
-
 4. 突出显示您希望从 RenderedDescription 提取并提供字段标题的数据。 表 1 中提供了应使用的字段名称。
 
    ![自定义字段定义](../../media/Deploy-Azure-Monitor-4.png "自定义字段定义")
@@ -135,21 +133,21 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 > 
  ![自定义字段定义](../../media/Deploy-Azure-Monitor-5.png "自定义字段定义")
 
-表 1.
+**表 1**
 
-| JSON 字段                   | **日志分析自定义字段** | 事件 ID | **用于提取的查询**                   |
+| **JSON 字段**                   | **日志分析自定义字段** | **事件 ID** | **用于提取的查询**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 说明                      | SRSEventDescription         | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| ResourceState                    | SRSResourceState            | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| OperationName                    | SRSOperationName            | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| OperationResult                  | SRSOperationResult          | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| OS                               | SRSOSVersion                | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| OSVersion                        | SRSOSLongVersion            | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| 别名                            | SRSAlias                    | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| DisplayName                      | SRSDisplayName              | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| AppVersion                       | SRSAppVersion               | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| IPv4Address                      | SRSIPv4Address              | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
-| IPv6Address                      | SRSIPv6Address              | $2,000     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| 说明                      | SRSEventDescription         | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| ResourceState                    | SRSResourceState            | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| OperationName                    | SRSOperationName            | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| OperationResult                  | SRSOperationResult          | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| OS                               | SRSOSVersion                | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| OSVersion                        | SRSOSLongVersion            | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| 别名                            | SRSAlias                    | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| DisplayName                      | SRSDisplayName              | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| AppVersion                       | SRSAppVersion               | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| IPv4Address                      | SRSIPv4Address              | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
+| IPv6Address                      | SRSIPv6Address              | **2000**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 2000年 |
 | 会议麦克风状态     | SRSConfMicrophoneStatus     | **3001**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 3001 |
 | 会议扬声器状态        | SRSConfSpeakerStatus        | **3001**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 3001 |
 | 默认扬声器状态           | SRSDefaultSpeakerStatus     | **3001**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 3001 |
@@ -159,17 +157,17 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 | HDMI 引入状态               | SRSHDMIIngestStatus         | **3001**     | 事件\|其中源 = ="SR 应用程序"和 EventID = = 3001 |
 
 
-## <a name="define-the-skype-room-systems-v2-views-in-log-analytics"></a>日志分析中定义的 Skype 会议室系统 v2 视图
+## <a name="define-the-microsoft-teams-rooms-views-in-log-analytics"></a>日志分析中定义的 Microsoft 团队聊天室视图
 <a name="Define_Views"> </a>
 
-收集数据并自定义字段映射后，您可以使用视图设计器开发包含各种平铺监视 Skype 会议室系统 v2 事件仪表板。 使用视图设计器创建以下图块。 有关详细信息，请参阅[创建使用日志分析中的视图设计器的自定义视图](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
+收集数据并自定义字段映射后，您可以使用视图设计器开发包含各种平铺监视 Microsoft 团队聊天室事件仪表板。 使用视图设计器创建下面的图块数为单位。 有关详细信息，请参阅[创建使用日志分析中的视图设计器的自定义视图](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > 应可以正常运行仪表板图块完成本指南中的上一步骤。
 
-### <a name="create-a-skype-room-systems-v2-dashboard-by-using-the-import-method"></a>使用的导入方法创建 Skype 会议室系统 v2 仪表板
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用的导入方法创建的 Microsoft 团队聊天室仪表板
 
-可以导入的 Skype 会议室系统 v2 仪表板并开始快速监视您的设备。 执行以下步骤以导入仪表板：
+可以导入的 Microsoft 团队聊天室仪表板并开始快速监视您的设备。 执行以下步骤以导入仪表板：
 
 1.  获取[SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675)仪表板文件。
 2.  登录到[Microsoft Azure 门户](https://portal.azure.com)，转到日志分析，并选择您的工作区。
@@ -177,7 +175,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 4.  选择**导入**，，然后选择**SkypeRoomSystems_v2.omsview**文件。
 5.  选择**保存**。
 
-### <a name="create-a-skype-room-systems-v2-dashboard-manually"></a>手动创建 Skype 会议室系统 v2 仪表板
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>手动创建 Microsoft 团队聊天室仪表板
 
 此外，您可以创建自己的仪表板并添加您想要监视的图块。
 
@@ -185,7 +183,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 
 1.  打开**视图设计器**。
 2.  选择**概述图块**，并从库选择**两个数字**。
-3.  名称平铺**Skype 会议室系统 v2**。
+3.  名称平铺**Microsoft 团队聊天室**。
 4.  定义**第一个图块**：<br>
     **图例：** 至少执行一次在上个月内发送检测信号的设备<br>
     **查询：**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -203,9 +201,9 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **新组：** 选择
 4.  定义**平铺**属性：<br>
     **图例：** 活动设备 （检测信号发送前 20 分钟内）<br>
-    图块查询：
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定义**列表**的属性：<br>
-    列表查询：
+    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  定义**列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 最后一个检测信号
@@ -221,9 +219,9 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **新组：** 未选定
 3.  定义**平铺**属性：<br>
     **图例：** 非活动设备 （发送前 20 分钟内无检测信号消息）<br>
-    图块查询：
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义**列表**的属性：<br>
-    列表查询：
+    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  定义**列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 最后一个检测信号
@@ -239,9 +237,9 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **新组：** 选择
 3.  定义**平铺**属性：<br>
     **图例：** 最后一个小时内遇到硬件错误的设备<br>
-    图块查询：
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性：<br>
-    列表查询：
+    **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义**列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 最后一个错误
@@ -249,7 +247,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  选择**应用**，然后**关闭**。
 
-### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>创建显示 Skype 会议室系统 v2 操作系统版本拼贴
+### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>创建显示 Microsoft 团队聊天室操作系统版本拼贴
 
 1.  从库中选择**圆环 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
@@ -263,7 +261,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **使文本居中：** 设备<br>
     **操作：** Sum
 5.  定义**列表**的属性。<br>
-    列表查询：<br>
+    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
     **隐藏图：** 选择<br>
     **启用迷你图：** 未选定
 6.  定义**列标题**。<br>
@@ -273,11 +271,11 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  选择**应用**，然后**关闭**。
 
-### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>创建显示 Skype 会议室系统 v2 应用程序版本拼贴
+### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>创建显示 Microsoft 团队聊天室应用程序版本拼贴
 
 1.  从库中选择**圆环 & 列表**，然后添加新的平铺。
 2.  定义**常规**属性：<br>
-    **组标题：** Skype 会议室系统 v2 应用程序的详细信息<br>
+    **组标题：** Microsoft 团队聊天室应用程序详细信息<br>
     **新组：** 选择
 3.  定义**标头**属性：<br>
     **标题：** 应用程序版本<br>
@@ -287,7 +285,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **使文本居中：** 设备<br>
     **操作：** Sum
 5.  定义**列表**的属性。<br>
-    列表查询：<br>
+    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
     **隐藏图：** 选择<br>
     **启用迷你图：** 未选定
 6.  定义**列标题**。<br>
@@ -305,9 +303,9 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **新组：** 未选定
 3.  定义**平铺**属性。<br>
     **图例：** 设备所遇最后一个小时内的应用程序错误<br>
-    图块查询：
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
-    列表查询：
+    **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义**列标题**。<br>
     **名称：** 计算机名称<br>
     **值：** 最后一个错误
@@ -323,9 +321,9 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
     **新组：** 未选定
 3.  定义**平铺**属性。<br>
     **图例：** 其中已重新启动应用程序中的最后一个 24 小时和重新启动次数的设备<br>
-    图块查询：
+    **图块查询：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义**列表**的属性。<br>
-    列表查询：
+    **列表查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  定义**列标题**。<br>
     **名称：** 计算机名称<br>
     **值：** 重新启动次数
@@ -339,7 +337,7 @@ Microsoft 监控代理部署到测试设备后，验证 Azure 监视器，收集
 ## <a name="configure-alerts-in-azure-monitor"></a>在 Azure 监视器中配置警报
 <a name="Alerts"> </a>
 
-Azure 监视器可引发警报 Skype 会议室系统 v2 控制台遇到问题时通知管理员。
+Azure 监视器可引发警报的 Microsoft 团队聊天室控制台遇到问题时通知管理员。
 
 Azure 监视器包括通过计划的日志搜索定期运行的内置警报机制。 如果日志搜索的结果与某个特定条件匹配，则创建警报的记录。
 
@@ -351,11 +349,11 @@ Azure 监视器包括通过计划的日志搜索定期运行的内置警报机�
 请参阅[日志 Azure 监视器中的通知](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log)以详细了解如何在 Azure 监视器的警报。
 
 > [!NOTE]
-> Skype 会议室系统 v2 设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。
+> Microsoft 团队聊天室设备生成硬件或应用程序错误时，以下示例将发送电子邮件通知。
 
-### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>配置电子邮件通知 Skype 会议室系统 v2 硬件问题
+### <a name="configure-an-email-alert-for-microsoft-teams-rooms-hardware-issues"></a>配置电子邮件通知 Microsoft 团队聊天室硬件问题
 
-配置通知的规则，检查 Skype 会议室系统 v2 设备的最后一个小时内已遇到硬件问题。
+配置通知的规则，检查 Microsoft 团队聊天室设备的最后一个小时内已遇到硬件问题。
 1.  登录到[Microsoft Azure 门户](https://portal.azure.com)，转到日志分析，并选择您的工作区。
 
 2. 导航到您的日志分析工作区并选中**通知**，然后选择**新的通知规则**
@@ -391,14 +389,14 @@ Azure 监视器包括通过计划的日志搜索定期运行的内置警报机�
 8. **自定义操作**如果您要重写通知电子邮件的主题行。
 
 9. 指定规则名称和说明。<br>
-    **规则名称：** Skype 会议室系统 v2 硬件故障警报<br>
+    **规则名称：** Microsoft 团队聊天室硬件故障警报<br>
     **说明：** 遇到硬件问题的最后一个小时内的设备的列表<br>
 
 10. 选择的预期的严重性并确保启用规则。
 
 11. 选择**创建通知规则**。
 
-### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>配置电子邮件通知 Skype 会议室系统 v2 应用程序问题
+### <a name="configure-an-email-alert-for-microsoft-teams-rooms-application-issues"></a>配置电子邮件通知 Microsoft 团队聊天室应用程序问题
 
 重复同一过程，但使用应用程序问题遇到的最后一个小时内的列表设备将以下查询。
 
@@ -417,15 +415,15 @@ Azure 监视器包括通过计划的日志搜索定期运行的内置警报机�
 ![示例 Azure 监视器通知电子邮件](../../media/Deploy-Azure-Monitor-6.png "示例 Azure 监视器通知电子邮件")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>为 Azure 监控配置的所有设备
-<a name="configure_all_devices"></a>配置仪表板和通知后，您可以设置和配置上所有的 Skype 会议室系统 v2 设备，以完成监控部署 Microsoft 监控代理。
+<a name="configure_all_devices"></a>配置仪表板和通知后，您可以设置和配置 Microsoft 监控代理以完成监控部署的所有 Microsoft 团队聊天室设备上。
 
 尽管您可以安装，并在每个设备上手动配置 Microsoft 监控代理，但强烈建议您利用现有软件部署工具和方法。
 
-如果您首次构建 Skype 会议室系统 v2 设备，您可能想要包括 Microsoft 监控代理安装和配置步骤生成过程的一部分。 有关详细信息，请参阅[安装使用命令行的代理](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
+如果您正在构建的第一次的 Microsoft 团队聊天室设备，您可能想要包括 Microsoft 监控代理安装和配置步骤生成过程的一部分。 有关详细信息，请参阅[安装使用命令行的代理](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
 
 ### <a name="deploying-microsoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>使用组策略对象 (GPO) 部署 Microsoft 监控代理
 
-如果您已部署 Skype 会议室系统 v2 设备实现 Azure 监控之前，您可以使用提供的脚本设置和使用 Active Directory 组策略对象配置代理。
+如果您已经部署 Microsoft 团队聊天室设备实现 Azure 监控之前，您可以使用提供的脚本设置和使用 Active Directory 组策略对象配置代理。
 
 1.  创建共享的网络路径，并向**域计算机**组授予读取访问权限。
 
@@ -435,7 +433,7 @@ Azure 监视器包括通过计划的日志搜索定期运行的内置警报机�
     1.  打开命令提示符窗口，并执行**MMASetup AMD64.exe /c**
     2.  指定您刚创建的共享和提取内容。
 
-4.  创建新的组策略对象，并将其分配给组织单位 Skype 会议室系统 v2 计算机帐户的位置。
+4.  创建新的组策略对象，并将其分配给 Microsoft 团队聊天室计算机帐户的位置的组织单位。
 
 5.  配置 PowerShell 执行策略：
     1.  编辑新创建的组策略对象，并导航到计算机配置\\策略\\管理模板\\Windows 组件\\Windows PowerShell
@@ -450,7 +448,7 @@ Azure 监视器包括通过计划的日志搜索定期运行的内置警报机�
     6.  选择**添加**，然后**浏览**。
     7.  选择您刚复制的 ps1 脚本。
 
-7.  Skype 会议室系统 v2 设备应安装和配置第二个重新启动 Microsoft 监控代理。
+7.  Microsoft 团队聊天室设备应安装和配置第二个重新启动 Microsoft 监控代理。
 
 ```
 # Install-MMAgent.ps1
@@ -507,6 +505,6 @@ Azure 监视器提供通过其[解决方案库](https://docs.microsoft.com/azure
 
 ## <a name="see-also"></a>另请参阅
 
-[规划 Skype 会议室系统 v2 管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
+[规划 Microsoft 团队聊天室管理使用 Azure 监视器](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
-[管理使用 Azure 监视器的 Skype 会议室系统 v2 设备](../../manage/skype-room-systems-v2/azure-monitor.md)
+[管理使用 Azure 监视器的 Microsoft 团队聊天室设备](../../manage/skype-room-systems-v2/azure-monitor.md)

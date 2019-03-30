@@ -1,5 +1,5 @@
 ---
-title: 部署 Skype 会议室与 Skype 的业务服务器的系统 v2
+title: 部署业务服务器与 Skype 的 Microsoft 团队聊天室
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,31 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: 阅读此主题以如何部署业务服务器与 Skype 的 Skype 会议室系统 v2 的信息。
-ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: 阅读此主题以如何部署业务服务器与 Skype 的 Microsoft 团队聊天室的信息。
+ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645392"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012474"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>部署 Skype 会议室与 Skype 的业务服务器的系统 v2
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>部署业务服务器与 Skype 的 Microsoft 团队聊天室
   
-本主题介绍如何为单林在本地部署后添加 Skype 会议室系统 v2 的设备帐户。
+本主题介绍如何添加设备帐户的 Microsoft 团队聊天室后的单林在本地部署。
   
 如果您具有单林、 内部部署 Exchange 2013 sp1 或更高版本和 Skype 的业务服务器 2015年或更高版本，然后可以使用提供的 Windows PowerShell 脚本创建设备帐户。 如果您正在使用的多林部署，您可以使用将产生相同的结果的等效 cmdlet。 本节中对这些 cmdlet 进行了介绍。
 
-设置用户帐户的最简单方式是它们使用远程 Windows PowerShell 进行配置。 Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)，脚本将帮助创建新的用户帐户，或验证必须以帮助您将它们转换为兼容的 Skype 会议室系统 v2 用户帐户的现有资源帐户。 如果您愿意，您可以按照以下步骤来配置您的 Skype 会议室系统 v2 设备将使用的帐户。
-
-## <a name="requirements"></a>要求
-
-您部署与 Skype 的 Skype 会议室系统 v2 业务服务器之前，请确保已满足的要求。 有关详细信息，请参阅 [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)。
   
-开始部署 Skype 会议室系统 v2 之前，请确保您具有正确的权限运行相关联的 cmdlet。
+开始部署 Microsoft 团队聊天室之前，请确保您具有正确的权限运行相关联的 cmdlet。
   
-1. 从 PC 启动远程 Windows PowerShell 会话并连接到 Exchange。
 
    ``` Powershell
    Set-ExecutionPolicy Unrestricted
@@ -49,7 +44,7 @@ ms.locfileid: "30645392"
 
    请注意，$strExchangeServer 是您的 Exchange 服务器的完全限定的域名 (FQDN) 和 $strLyncFQDN 是业务服务器部署您 Skype 的 FQDN。
 
-2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将允许对 Skype 会议室系统 v2 进行身份验证的帐户。
+2. 后建立会话，您将创建新邮箱并启用作为 RoomMailboxAccount 或更改现有的会议室邮箱的设置。 这将允许对 Microsoft 团队聊天室进行身份验证的帐户。
 
     如果要更改现有的资源邮箱：
 
@@ -79,13 +74,13 @@ ms.locfileid: "30645392"
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. 启用 Active Directory 中的帐户，因此它将向 Skype 会议室系统 v2 中进行身份验证。
+5. 启用 Active Directory 中的帐户，因此它将对 Microsoft 团队聊天室进行验证。
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. 使您在 Skype 业务服务器池上的 Skype 会议室系统 v2 Active Directory 帐户，从而启用业务 Server Skype 的设备帐户：
+6. 使业务服务器池 Skype 上的 Microsoft 团队聊天室 Active Directory 帐户，从而启用业务 Server Skype 的设备帐户：
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -94,7 +89,7 @@ ms.locfileid: "30645392"
 
     该项目需要使用会话初始协议 (SIP) 地址和域控制器。
 
-7. **可选。** 您还可以允许 Skype 会议室系统 v2 发起和接收通过您的帐户为启用企业语音的公用电话交换网 (pstn) 电话呼叫。 企业语音不需要 Skype 会议室系统 v2，但如果您希望 PSTN 拨号功能 Skype 会议室系统 v2 客户端，下面是如何启用它：
+7. **可选。** 您还可以允许 Microsoft 团队聊天室发起和接收通过您的帐户为启用企业语音的公用电话交换网 (pstn) 电话呼叫。 企业语音不需要 Microsoft 团队聊天室，但如果您希望 Microsoft 团队聊天室客户端的 PSTN 拨号功能，下面是如何启用它：
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -123,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>另请参阅
 
-[配置帐户 Skype 会议室系统 v2](room-systems-v2-configure-accounts.md)
+[为 Microsoft 团队房间配置帐户](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Microsoft 团队聊天室](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 会议室系统 v2](room-systems-v2.md)
+[部署 Microsoft 团队聊天室](room-systems-v2.md)
   
-[配置 Skype 会议室系统 v2 控制台](console.md)
+[配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

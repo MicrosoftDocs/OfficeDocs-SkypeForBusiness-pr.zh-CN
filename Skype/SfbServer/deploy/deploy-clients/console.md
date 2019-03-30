@@ -1,5 +1,5 @@
 ---
-title: 配置 Skype 会议室系统 v2 控制台
+title: 配置 Microsoft 团队聊天室控制台
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Travis-Snoozy
@@ -8,68 +8,68 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: Strat_SB_Admin
+ms.collection:
+- Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: 本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
-ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+description: 本文介绍如何设置 Microsoft 团队聊天室控制台和其外围设备。
+ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694718"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012611"
 ---
-# <a name="configure-a-skype-room-systems-v2-console"></a>配置 Skype 会议室系统 v2 控制台
- 
-本文介绍如何设置 Skype 会议室系统 v2 控制台和其外围设备。
+# <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
+
+本文介绍如何设置 Microsoft 团队聊天室控制台和其外围设备。
   
-如果业务和 Exchange 帐户所需的 Skype 已经创建并测试[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述，应仅执行这些步骤。 您将需要的硬件和软件[Skype 会议室系统 v2 要求](../../plan-your-deployment/clients-and-devices/requirements.md)中所述。 本主题包括以下部分：
+如果业务和 Exchange 帐户所需的 Skype 已经创建并测试[部署的 Microsoft 团队聊天室](room-systems-v2.md)中所述，应仅执行这些步骤。 您将需要的硬件和软件[Microsoft 团队聊天室要求](../../plan-your-deployment/clients-and-devices/requirements.md)中所述。 本主题包括以下部分：
   
 - [准备安装媒体](console.md#Prep_Media)
-    
 - [在控制台上安装一个私有 CA 证书](console.md#Certs)
-    
-- [安装 Windows 10 和 Skype 会议室系统 v2 控制台应用](console.md#Reimage)
-   
+- [安装 Windows 10 和 Microsoft 团队聊天室控制台应用程序](console.md#Reimage)
 - [初始设置控制台](console.md#Initial)
-    
-- [Skype 会议室系统 v2 部署清单](console.md#Checklist)
-    
+- [Microsoft 团队聊天室部署清单](console.md#Checklist)
+
 > [!NOTE]
-> Skype 会议室系统 v2 将其中的设备帐户正确设置[部署 Skype 会议室系统 v2](room-systems-v2.md)中所述的业务环境正确配置 Skype 仅适用。
+> 其中设备帐户正确设置[部署 Microsoft 团队聊天室](room-systems-v2.md)中所述的业务环境正确配置 Skype 将仅适用 Microsoft 团队聊天室。
   
 ## <a name="prepare-the-installation-media"></a>准备安装媒体
 <a name="Prep_Media"> </a>
 
-安装 Skype 会议室系统 v2 控制台应用程序需要 USB 存储设备具有至少 32 GB 的容量。 应在设备; 上的没有其他文件在 USB 存储任何现有文件都将丢失。
+安装 Microsoft 团队聊天室控制台应用程序需要 USB 存储设备具有至少 32 GB 的容量。 应在设备; 上的没有其他文件在 USB 存储任何现有文件都将丢失。
   
 > [!NOTE]
-> 未能创建 Skype 会议室系统 v2 安装媒体根据这些说明可能会导致意外的行为。
+> 未能创建 Microsoft 团队聊天室安装媒体根据这些说明可能会导致意外的行为。
 
 > [!NOTE]
-> 下面的过程是用于创建到图像新 Skype 会议室系统 v2 设备的安装介质中。 现有的设备，默认情况下自动更新从 Windows Update 和 Windows 应用商店。
+> 下面的过程是用于创建到图像新的 Microsoft 团队聊天室设备的安装介质中。 现有的设备，默认情况下自动更新从 Windows Update 和 Windows 应用商店。
   
-1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。 
+1. 下载[CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
 2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
-3. 按照脚本的说明创建 Skype 会议室系统 v2 USB 安装盘。
+3. 按照脚本的说明创建 Microsoft 团队聊天室 USB 安装盘。
 
 > [!CAUTION]
 > 运行媒体创建脚本从文件夹的名称不能包含空格。 如果没有为文件夹名称中的空格，脚本将失败。
 
 CreateSrsMedia.ps1 脚本自动执行以下任务：
 
-1. 下载最新的 MSI 安装程序 Skype 会议室系统 v2。
-2. 确定用户必须提供的 Windows 的版本。 最近发布的版本可能或不能测试且支持用于 Skype 会议室系统 v2 设备。
+1. 下载最新的 MSI 安装程序的 Microsoft 团队会议室。
+2. 确定用户必须提供的 Windows 的版本。 最近发布的版本可能或不能测试且支持用于与 Microsoft 团队聊天室设备。
 3. 下载所需的支持组件。
 4. 在安装介质中组合所需的组件。
 
-完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Skype 会议室系统 v2 控制台应用程序](console.md#Reimage)。
+Windows 10 的特定版本是必需的并且仅适用于批量许可客户此版本。  从[批量许可服务中心](https://www.microsoft.com/Licensing/servicecenter/)，可以获得的副本。
+
+完成后，从计算机中删除 USB 磁盘，并继续[安装 Windows 10 和 Microsoft 团队聊天室控制台应用程序](console.md#Reimage)。
 
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>安装 Windows 10 和 Skype 会议室系统 v2 控制台应用
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>安装 Windows 10 和 Microsoft 团队聊天室控制台应用程序
 <a name="Reimage"> </a>
 
-您现在需要应用您已创建的安装媒体。 目标设备将作为一种设备运行，并将设置的默认用户仅运行 Skype 会议室系统 v2 控制台应用程序。
+您现在需要应用您已创建的安装媒体。 目标设备将作为一种设备运行，并将设置的默认用户仅运行 Microsoft 团队聊天室控制台应用程序。
 
 1. 如果目标设备将安装中停靠 (如 Surface Pro)，断开与停靠连接。
 
@@ -133,11 +133,11 @@ CreateSrsMedia.ps1 脚本自动执行以下任务：
     
 13. 重新启动系统。
     
-Skype 会议室系统 v2 控制台现在应用所需的语言。
+Microsoft 团队聊天室控制台现在应用所需的语言。
 ## <a name="initial-set-up-of-the-console"></a>初始设置控制台
 <a name="Initial"> </a>
 
-安装 Windows 后，Skype 会议室系统 v2 控制台应用程序将转到其初始安装过程中，启动下一步时，或者如果已选择 /reboot 选项。
+安装 Windows 后，Microsoft 团队聊天室控制台应用程序将转到其初始安装过程中，启动下一步时，或者如果已选择 /reboot 选项。
   
 1. 将显示“用户帐户”屏幕。 输入的 Skype 登录地址 （以 user@domain 格式） 的会议室帐户将与控制台一起使用。
     
@@ -159,10 +159,10 @@ Skype 会议室系统 v2 控制台现在应用所需的语言。
     
 6. 单击“**完成**”。
     
-Skype 会议室系统 v2 控制台应用程序应立即启动登录到 Skype 业务服务器与上面，输入的凭据，并应开始与使用这些相同的凭据的 Exchange 同步其日历。 有关使用控制台应用程序的详细信息，请参阅[Skype 会议室系统版本 2 帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft 团队聊天室控制台应用程序应立即启动登录到 Skype 业务服务器与上面，输入的凭据，并应开始与使用这些相同的凭据的 Exchange 同步其日历。 有关使用控制台应用程序的详细信息，请参阅[Microsoft 团队聊天室帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Skype 会议室系统 v2 依赖于认证的控制台硬件的状态。 除非检测到控制台硬件，即使包含 Skype 会议室系统 v2 控制台应用程序的正确创建的图像将无法启动过去的初始安装过程。 对于 Surface Pro 基于解决方案，Surface Pro 必须连接到其相应的停靠硬件，传递此检查。
+> Microsoft 团队聊天室依赖于认证的控制台硬件的状态。 除非检测到控制台硬件，即使包含 Microsoft 团队聊天室控制台应用程序的正确创建的图像将无法启动过去的初始安装过程。 对于 Surface Pro 基于解决方案，Surface Pro 必须连接到其相应的停靠硬件，传递此检查。
   
 > [!NOTE]
 > 某些非英语用户可能需要物理键盘初始安装过程中连接到控制台，在的触摸键盘上不支持符号。
@@ -170,7 +170,7 @@ Skype 会议室系统 v2 控制台应用程序应立即启动登录到 Skype 业
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>在控制台上安装一个私有 CA 证书
 <a name="Certs"> </a>
 
-Skype 会议室系统 v2 控制台需要信任由 Skype 用于连接到的业务和 Exchange 服务器的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 在情况下证书颁发机构专用，例如内部部署 Active Directory 与 Windows 证书颁发机构，您可以添加到几种方式中的 Skype 会议室系统 v2 控制台证书：
+Microsoft 团队聊天室控制台需要信任由 Skype 用于连接到的业务和 Exchange 服务器的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 在情况下证书颁发机构专用，例如内部部署 Active Directory 与 Windows 证书颁发机构，您可以添加到几种方式中的 Microsoft 团队聊天室控制台证书：
   
 - 可将控制台加入 Active Directory 和，将自动添加给定证书颁发机构所需的证书发布到 Active Directory （正常的部署选项）。
     
@@ -191,9 +191,9 @@ Skype 会议室系统 v2 控制台需要信任由 Skype 用于连接到的业务
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 域 （可选）
 <a name="Certs"> </a>
 
-Skype 会议室系统 v2 控制台可以加入您的域。 应将 Skype 会议室系统 v2 控制台放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Skype 会议室系统 v2 兼容。 常见的示例是将阻止自动启动 Skype 会议室系统 v2 的密码实施策略。 有关 GPO 设置管理的信息，请参阅[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)。
+Microsoft 团队聊天室控制台可以加入您的域。 应将 Microsoft 团队聊天室控制台放入从 PC 工作站单独的 OU，因为多个工作站策略不与 Microsoft 团队聊天室兼容。 常见的示例是将阻止自动启动 Microsoft 团队聊天室的密码实施策略。 有关管理 GPO 设置的信息，请参阅[Manage Microsoft 团队 Rooms](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)。
   
-### <a name="to-join-skype-room-system-v2-to-a-domain"></a>将 Skype 会议室系统 v2 加入域
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>若要加入到域的 Microsoft 团队聊天室
 
 1. 登录到控制台从管理员帐户 （请参阅[管理模式和设备管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)）。
     
@@ -205,15 +205,15 @@ Skype 会议室系统 v2 控制台可以加入您的域。 应将 Skype 会议�
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-例如，如果您的完全限定的域名为 redmond.corp.microsoft.com 且您希望您 Skype 会议室系统 v2 控制台中"Skype 会议室系统 v2"是"Resources"OU 的子级的 OU，则可该命令：
+例如，如果您的完全限定的域名为 redmond.corp.microsoft.com 并且您希望您的 Microsoft 团队聊天室控制台中的"资源"OU 的子级"Microsoft 团队聊天室"OU，将为该命令：
   
 ```
-Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
+Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
  如果您想要重命名的计算机加入到域时，，使用计算机的新名称后跟-NewName 标志。
   
-## <a name="skype-room-systems-v2-deployment-checklist"></a>Skype 会议室系统 v2 部署清单
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Microsoft 团队聊天室部署清单
 <a name="Checklist"> </a>
 
 执行操作完全配置了控制台和所有外围设备最终验证时，使用以下清单：
@@ -252,10 +252,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>另请参阅
 <a name="Checklist"> </a>
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[规划 Microsoft 团队聊天室](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[部署 Skype 会议室系统 v2](room-systems-v2.md)
+[部署 Microsoft 团队聊天室](room-systems-v2.md)
   
-[配置 Skype 会议室系统 v2 控制台](console.md)
+[配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Skype 会议室系统 v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
