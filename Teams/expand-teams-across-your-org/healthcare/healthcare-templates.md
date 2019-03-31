@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适合于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: 282c28661de3d2678f7b4b29129de4f80dece491
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013214"
+ms.locfileid: "31013626"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适合于医疗保健组织的 Teams 模板入门
 
@@ -157,3 +157,9 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
           }
 
 ```
+
+## <a name="related-topics"></a>相关主题
+
+[开始使用 Teams 模板](../../get-started-with-teams-templates.md)
+
+[入门医疗保健机构团队](teams-in-hc.md)

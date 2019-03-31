@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640935"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013634"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 
@@ -64,14 +64,14 @@ ms.locfileid: "30640935"
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | 没有其他应用程序和属性 |
-| 培训-<br>类团队 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | 应用程序：<ul><li>OneNote 类笔记本 （固定到**常规**选项卡） </li><li>分配应用程序 （固定到**常规**选项卡）</li></ul> 团队属性：<ul><li>工作组可见性设置为**HiddenMembership** （不能重写）</li></ul> |
-| 培训-<br>员工团队 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | 应用程序：<ul><li>OneNote 员工笔记本 （固定到**常规**选项卡）</li></ul> |
-|培训-<br>PLC 团队 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | 应用程序：<ul><li>OneNote PLC 笔记本 （固定到**常规**选项卡）</ul></li>|
-| 零售-<br>存储 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性<ul><li>设置为 Public 工作组可见性</li></ul>成员权限<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul> |
-| 零售-<br>管理器协作 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性：<ul><li>设置为 Private 工作组可见性</li></ul>成员权限：<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul>|
-| 医疗保健-<br>行政区 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |频道： <ul><li>通知\*</li><li>Huddles\*</li><li>将舍入为</li><li>人员配备扁平化\*</li><li>培训\*</li></ul>\*自动 favorited 通道 |
-|医疗保健-<br>医院 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |频道：<ul><li>通知\*</li><li>合规性\*</li><li>监控</li><li>人力资源</li></li><li>药房</li></ul>\*自动 favorited 通道|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 没有其他应用程序和属性 |
+| 培训-<br>类团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 应用程序：<ul><li>OneNote 类笔记本 （固定到**常规**选项卡） </li><li>分配应用程序 （固定到**常规**选项卡）</li></ul> 团队属性：<ul><li>工作组可见性设置为**HiddenMembership** （不能重写）</li></ul> |
+| 培训-<br>员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 应用程序：<ul><li>OneNote 员工笔记本 （固定到**常规**选项卡）</li></ul> |
+|培训-<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用程序：<ul><li>OneNote PLC 笔记本 （固定到**常规**选项卡）</ul></li>|
+| 零售-<br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性<ul><li>设置为 Public 工作组可见性</li></ul>成员权限<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul> |
+| 零售-<br>管理器协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性：<ul><li>设置为 Private 工作组可见性</li></ul>成员权限：<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul>|
+| 医疗保健-<br>行政区 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |频道： <ul><li>通知\*</li><li>Huddles\*</li><li>将舍入为</li><li>人员配备扁平化\*</li><li>培训\*</li></ul>\*自动 favorited 通道 |
+|医疗保健-<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |频道：<ul><li>通知\*</li><li>合规性\*</li><li>监控</li><li>人力资源</li></li><li>药房</li></ul>\*自动 favorited 通道|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ ms.locfileid: "30640935"
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
-- [医护团队模板入门](healthcare/healthcare-templates.md)
+- [适合于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)

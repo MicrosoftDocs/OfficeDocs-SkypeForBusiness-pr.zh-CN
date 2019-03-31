@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：支持的 Skype for Business 客户端和应用概述
-ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
+ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012745"
+ms.locfileid: "31013547"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -80,7 +80,7 @@ Skype for Business 联机会议外接程序支持从 Windows 上的 Microsoft Ou
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft 团队聊天室
 
-Microsoft 团队聊天室是 Microsoft 的最新会议解决方案使用熟悉的界面，并轻松地部署和托管，利用现有的设备如为了简化安装 LCD 面板。 Microsoft 团队会议室使用控制台模式下运行 Surface Pro 4 或 Surface Pro 上的专门 UWP 应用程序 （部署 UWP 应用程序之后是将在设备运行的唯一应用程序） 和它需要在您的实现自己设备帐户。 软件通过 Windows 应用商店和 Windows 更新来更新。 有关在你的部署中使用这些会议室控制台的详细信息，请参阅 https://aka.ms/SRSDocs。 
+Microsoft 团队聊天室是 Microsoft 的最新会议解决方案使用熟悉的界面，并轻松地部署和托管，利用现有的设备如为了简化安装 LCD 面板。 Microsoft 团队会议室使用控制台模式下运行 Surface Pro 4 或 Surface Pro 上的专门 UWP 应用程序 （部署 UWP 应用程序之后是将在设备运行的唯一应用程序） 和它需要在您的实现自己设备帐户。 软件通过 Windows 应用商店和 Windows 更新来更新。 有关在你的部署中使用这些会议室控制台的详细信息，请参阅 https://aka.ms/MTRDocs。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 版 Skype for Business
 
