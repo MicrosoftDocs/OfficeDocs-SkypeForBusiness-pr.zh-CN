@@ -566,7 +566,7 @@
 | 2019/3/11 | [设置通话分析](/MicrosoftTeams/set-up-call-analytics) | 修改时间 |
 | 2019/3/11 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改时间 |
 | 2019/3/11 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改内容 |
-| 2019/3/11 | [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
+| 2019/3/11 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
 | 2019/3/11 | [设置组织内的电话系统](/MicrosoftTeams/setting-up-your-phone-system) | 修改内容 |
 | 2019/3/11 | [Microsoft Teams 中的共享线路外观](/MicrosoftTeams/shared-line-appearance) | 修改时间 |
 | 2019/3/11 | [Teams 策略中采用了哪些特殊字数限制？](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 修改内容 |
@@ -852,7 +852,7 @@
 | 2019/3/18 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改时间 |
 | 2019/3/18 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
 | 2019/3/18 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改时间 |
-| 2019/3/18 | [越南的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 修改时间 |
+| 2019/3/18 | [越南的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 修改内容 |
 | 2019/3/18 | [为 Microsoft Teams 准备好网络\|端口防火墙要求](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | 修改时间 |
 | 2019/3/18 | [Microsoft Teams 操作指南](/MicrosoftTeams/1-drive-value-operate-my-service) | 修改时间 |
 | 2019/3/18 | [准备部署 Microsoft Teams 云语音服务](/MicrosoftTeams/1-onboard-prepare-my-service) | 修改时间 |
@@ -948,7 +948,7 @@
 | 2019/2/20 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改时间 |
 | 2019/2/20 | [为 Microsoft Teams 设置公共区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改时间 |
 | 2019/2/20 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改时间 |
-| 2019/2/20 | [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改时间 |
+| 2019/2/20 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
 | 2019/2/20 | [设置组织内的电话系统](/MicrosoftTeams/setting-up-your-phone-system) | 修改时间 |
 | 2019/2/20 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改时间 |
 | 2019/2/20 | [为 Microsoft Teams 试用或购买 Office 365 中的音频会议](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 修改时间 |
@@ -1160,7 +1160,7 @@
 | 2019/3/1 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改时间 |
 | 2019/3/1 | [为 Microsoft Teams 设置公共区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改时间 |
 | 2019/3/1 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改时间 |
-| 2019/3/1 | [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改时间 |
+| 2019/3/1 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
 | 2019/3/1 | [设置组织内的电话系统](/MicrosoftTeams/setting-up-your-phone-system) | 修改时间 |
 | 2019/3/1 | [免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 修改时间 |
 | 2019/3/1 | [阿根廷的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 修改时间 |
