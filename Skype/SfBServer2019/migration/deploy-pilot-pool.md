@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一个迁移到 Skype 的业务服务器 2019年所需的第一个步骤是部署试点池。 试点池是与旧部署测试业务服务器 2019 Skype 的共存的位置。 共存一直持续到移动所有用户和池到 Skype 的业务服务器 2019年的临时状态。
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890653"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026047"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>为业务服务器 2019年试点池部署 Skype
 
@@ -53,6 +53,10 @@ ms.locfileid: "30890653"
 10. 若要发布拓扑，右键单击**Skype 业务服务器**节点，然后单击**发布拓扑**。
   
 11. 完成发布过程后，单击**完成**。
+
+12. 将移动到下一节调用"验证旧池与试点池共存"之前需要安装 Business Server 新前端试点池我们只发布的拓扑中定义的 Skype，请按照下面概括的过程安装 Skype[为在拓扑中的服务器上的业务服务器](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. 上一步骤完成后，转到下一节来验证试点池与旧池的共存情况。
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

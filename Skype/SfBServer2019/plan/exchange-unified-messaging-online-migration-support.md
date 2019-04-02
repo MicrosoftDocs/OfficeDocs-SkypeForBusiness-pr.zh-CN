@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文概述了什么影响客户应知道并执行的操作及其业务连续性规划。
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059164"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026242"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持  
 
@@ -66,7 +66,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 3. **规划自动助理的迁移**
     
-    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置电话系统自动助理](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
+    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置电话系统自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
 
 4. **规划您的语音邮件迁移后验证和测试**
 
@@ -93,7 +93,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 
 
-|  服务 | 功能级别 | 功能 | 备注  | 云 VM/AA  | ExUMO |
+| 服务 | 功能级别 | 功能 | 注释  | 云 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | 虚拟机  | 服务功能| 支持第三方 PBX    |  | 否   | 是    |
 | 虚拟机 | 服务功能  | 支持的业务服务器 Skype   |  | Q1CY19 | Y    |
@@ -170,7 +170,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 - 验证跨组织中的所有终结点类型的语音邮件的访问： 应用程序和 IP 电话。 
 - 验证与配置个性化的问候语向呼叫者播放的示例用户。   
-- 如果您的组织已禁用的用户的转录法律或合规性要求，请确保已禁用的 post 迁移。 有关详细信息，请参阅[设置电话系统的语音邮件](/microsoftteams/set-up-phone-system-voicemail)。
+- 如果您的组织已禁用的用户的转录法律或合规性要求，请确保已禁用的 post 迁移。 有关详细信息，请参阅[Set up 云语音邮件](/microsoftteams/set-up-phone-system-voicemail)。
 - 如果您已配置 Exchange VM 策略和规则，请确保它们是有效。
 - 熟悉更改用户设置的云语音邮件服务 PowerShell cmdlet。  
 
@@ -193,8 +193,8 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>用户管理和设置中 CVM 
 
-适用于业务新用户的 Skype 将自动设置为 CVM 时创建的服务中的语音邮件。 没有其他管理员工作或许可证需要设置新的语音邮件的用户。 请参阅[设置电话系统的语音邮件](/microsoftteams/set-up-phone-system-voicemail)以了解如何管理的现有和新用户策略。
+适用于业务新用户的 Skype 将自动设置为 CVM 时创建的服务中的语音邮件。 没有其他管理员工作或许可证需要设置新的语音邮件的用户。 请参阅[Set up 云语音邮件](/microsoftteams/set-up-phone-system-voicemail)以了解如何管理的现有和新用户策略。
 
 #### <a name="admin-auto-attendant-management-experience"></a>管理自动助理管理体验 
 
-请参阅[设置电话系统自动助理](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)以详细了解如何配置和管理自动助理。 
+请参阅[设置电话系统自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)以详细了解如何配置和管理自动助理。 

@@ -3,8 +3,8 @@ title: 通话分析和通话质量仪表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
-ms.topic: article
+ms.reviewer: mikedav, siunies, gageames
+ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543004"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026218"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
-Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板。 本文介绍这两类，并告诉您何时使用每个。
+Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板 (CQD)。 本文介绍这两类，并告诉您何时使用每个。
 
 呼叫分析和 CQD 并行运行和可在独立或一起使用。 例如，假设 communications 支持专家确定所需解决呼叫问题的更多帮助。 Communications 支持专家将传递对通信支持工程师，哪些人有权调用分析中的信息比通信支持专业人员的调用。 反过来，communications 支持工程师可以通知问题的网络工程师。 网络工程师可能会检查 CQD 以查看整个网站相关问题可能是参与呼叫问题的原因。
 
@@ -66,7 +66,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>什么是呼叫质量仪表板中，以及何时使用它？
   
-其中 CA 旨在帮助管理员和帮助台代理排除特定的呼叫，呼叫质量问题呼叫质量仪表板 (CQD) 旨在帮助的 Microsoft 团队 admins，对于业务管理员 Skype 和网络工程师优化网络。 CQD 从特定的用户将焦点移和改为查看聚合信息针对整个 Microsoft 团队或 Skype 业务组织。 有关详细信息，请参阅[业务 online Skype 调用质量仪表板的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
+调用分析旨在帮助管理员，帮助台代理诊断与特定的呼叫的呼叫质量问题，而呼叫质量仪表板 (CQD) 旨在帮助团队 admins，对于业务管理员 Skype 和网络工程师优化网络。 CQD 从特定的用户将焦点移和改为查看聚合信息针对整个团队或 Skype 业务组织。 有关详细信息，请参阅[呼叫质量仪表板个团队和 Skype 业务 online 的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
   
 也许用户的质量欠佳的呼叫质量是由于还影响多个其他用户的网络问题。 单个呼叫体验不显示在 CQD，但捕获 for Business 中使用的 Microsoft 团队或 Skype 所做的呼叫的总体质量。 与 CQD，总体模式可能成为明显，允许网络工程师进行的呼叫质量的明智的评估。 CQD 提供报告为您提供深入的呼叫质量指标的总体呼叫质量、 服务器到客户端流、 客户端客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。
   

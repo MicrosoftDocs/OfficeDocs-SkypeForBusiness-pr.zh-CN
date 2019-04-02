@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: 134d0f636719592edca1060d86fbf4fb7c2d9db6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543140"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026234"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -77,7 +77,7 @@ ms.locfileid: "30543140"
 > [!NOTE]
 > 可能需要几个小时处理数据不足，无法在报表中显示有意义的结果。 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>联机 for Business 的 Skype 呼叫质量仪表板的功能
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>联机为 Microsoft 团队的呼叫质量仪表板和 Skype for Business 的功能 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 CQD 摘要报告提供计划的详细的报告功能的子集。 下面总结了两种版本之间的差异：
@@ -85,17 +85,17 @@ CQD 摘要报告提供计划的详细的报告功能的子集。 下面总结了
 |**功能**|**摘要报告**|**详细的报告**|
 |:-----|:-----|:-----|
 |应用程序共享指标  <br/> |否  <br/> |是  <br/> |
-|构建信息支持的客户  <br/> |是  <br/> |是  <br/> |
+|构建信息支持的客户  <br/> |是  <br/> |是   <br/> |
 |深入分析支持  <br/> |否  <br/> |是  <br/> |
 |媒体可靠性指标  <br/> |否  <br/> |是  <br/> |
-|即开报告  <br/> |是  <br/> |是  <br/> |
-|概述报告  <br/> |是  <br/> |是  <br/> |
+|即开报告  <br/> |是  <br/> |是   <br/> |
+|概述报告  <br/> |是  <br/> |是   <br/> |
 |每个用户报告集  <br/> |否  <br/> |是  <br/> |
 |设置自定义报表 （添加、 删除、 修改报表）  <br/> |否  <br/> |是  <br/> |
 |基于视频的屏幕共享指标  <br/> |否  <br/> |是  <br/> |
 |视频指标  <br/> |否  <br/> |是  <br/> |
 |可用的数据量  <br/> |过去 6 个月  <br/> |过去 6 个月  <br/> |
-|Microsoft 团队数据  <br/> |是  <br/> |是  <br/> |
+|Microsoft 团队数据  <br/> |是  <br/> |是   <br/> |
    
 ### <a name="out-of-the-box-reports"></a>即开报告
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 了解如何添加、 删除修补程序，或更新业务服务器 Skype 在前端服务器。
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875220"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026179"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理业务服务器中 Skype 的前端服务器
  
@@ -47,6 +47,9 @@ ms.locfileid: "30875220"
     
     > [!IMPORTANT]
     > 当你向拓扑中的池添加服务器或从中删除服务器时，会导致池中的所有服务器同时重新启动。当服务器重新启动时，池处于脱机状态，这样会为连接到该池的用户中断服务。为防止用户服务中断，请计划于非工作时间在池中发布采用新服务器的拓扑。 
+  
+  > [!NOTE]
+> 此外，当您添加或删除服务器添加到池，您必须业务 Server 部署向导添加的每台计算机上运行 Skype 或删除，有关详细信息，请参阅[安装的企业服务器拓扑中的服务器上的 Skype](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. 如果您更改了服务器数量的在前端池中任意通过以下方式中，然后通过重置池与键入以下 cmdlet: Reset-cspoolregistrarstate ResetType FullReset-PoolFqdn 
     

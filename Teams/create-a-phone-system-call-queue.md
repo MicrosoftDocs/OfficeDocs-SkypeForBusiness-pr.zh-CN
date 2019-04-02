@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置电话系统呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫的电话系统。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012970"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026226"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -210,7 +210,7 @@ Phone System call queues include greetings that are used when someone calls in t
  3. 在用户设置页中，单击**呼叫队列**，然后清除他们想要退出的任何队列对应的复选框。
 
     > [!NOTE]
-    > 使用 Mac、移动、Lync 2013 客户端的代理，或使用 Skype for Business 2015 服务器托管在本地的混合语音用户，可转到[https://aka.ms/cqsettings](https://aka.ms/cqsettings) 访问退出选项。
+    > 代理使用的应用程序或终结点以外的其他业务桌面的 Skype 可以访问选项出自愿加入，从用户设置门户[https://aka.ms/cqsettings](https://aka.ms/cqsettings)。
 
 ![2 号](media/sfbcallout2.png)
 **代理警报设置**

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: f57a0a2dc2158949879df8e3755b64183b534f3a
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952404"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026029"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -83,21 +83,12 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
    > [!NOTE]
    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
    > 
-   > ```
-   > Import-Module -Name SkypeOnlineConnector
-   > ```
-   > 
-   > ```
-   > $credential = Get-Credential
-   > ```
-   > 
-   > ```
-   > $session = New-CsOnlineSession -Credential $credential
-   > ```
-   > 
-   > ```
-   > Import-PSSession $session
-   > ```
+   ```
+    Import-Module -Name SkypeOnlineConnector
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+   ```
 
 如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
