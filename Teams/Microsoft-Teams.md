@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: ca57f4d54f67275f8659f295a6db47c8e6b74d91
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012466"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026039"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -119,25 +119,6 @@ ms.locfileid: "31012466"
                                             <div class="cardText">
                                                 <h3>采用中心</h3>
                                                 <P>获取工具以支持 Teams 推广</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/SkypeForBusiness/room-systems/">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="tasks" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Microsoft Teams 会议室</h3>
-                                                <P>了解如何规划、部署和管理 Microsoft Teams 会议室。</p>
                                             </div>
                                         </div>
                                     </div>
