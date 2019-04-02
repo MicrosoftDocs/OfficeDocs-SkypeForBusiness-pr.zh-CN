@@ -16,6 +16,10 @@
 ### [在 Skype for Business Server 中使用本地 PSTN 连接启用电话系统用户](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 
+#### [为用户启用本地企业语音](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
+#### [分配语音路由策略](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
+#### [为用户启用联机企业语音和 Office 365 电话系统语音邮件](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+
 
 ### [规划 Skype for Business 云连接器版本](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [云连接器版本 PSTN 站点规划](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -101,7 +105,7 @@
 #### [会议客户端](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Skype 会议应用最低网络要求](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Windows Phone 要求](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
@@ -576,7 +580,7 @@
 
 ### [基于视频的屏幕共享](../manage/video-based-screen-sharing.md)
 
-<!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- ### [Microsoft Teams Rooms](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML config file](../manage/skype-room-systems-v2/xml-config-file.md)

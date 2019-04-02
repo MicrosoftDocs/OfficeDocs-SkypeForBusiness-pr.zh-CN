@@ -1,12 +1,11 @@
-# [Skype 会议室系统 v2](index.md)
-
-## 套餐
-### [Skype 会议室 v2 套餐概述](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+# [Microsoft Teams 会议室](index.md)
+## 规划
+### [Microsoft Teams 会议室规划概述](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [版本支持](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [发行说明](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [准备环境](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要求](../plan-your-deployment/clients-and-devices/requirements.md)
-### [联机许可](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [联机许可](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [利用 Azure Monitor 进行套餐管理](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## 部署
@@ -19,6 +18,7 @@
 ### [配置控制台](../deploy/deploy-clients/console.md)
 ### [使用 System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [利用 Azure Monitor 进行管理](../deploy/deploy-clients/azure-monitor.md)
+### [迁移 SRS v1 或 LRS](../deploy/deploy-clients/lrs-migration.md)
 
 ## 管理
 ### [管理概述](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
@@ -27,4 +27,4 @@
 ### [具有 Azure Monitor 的设备](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [具有 XML 文件的设置](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [使用恢复工具](../manage/skype-room-systems-v2/recovery-tool.md)
-### [迁移](../deploy/deploy-clients/lrs-migration.md)
+

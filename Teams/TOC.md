@@ -22,7 +22,6 @@
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
-## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [适合于医疗卫生的 Teams 模板](healthcare/healthcare-templates.md)
 ## [适合零售业的 Teams 模板](get-started-with-retail-teams-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
@@ -626,9 +625,40 @@
 ### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
+
 #       
 #        
+
+<!-- ============================================================ -->
+
+# [在组织中推广 Teams](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+## [开始使用 Teams 模板](get-started-with-teams-templates.md)
+## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md) 
+### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Microsoft Teams 即将推出一线员工功能](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+## [适用于医疗保健业的 Teams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
+### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
+### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
+
+## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
+
+## [Teams 政府版](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
+### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
+### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
+
+#       
+#        
+
+<!-- ============================================================ -->
 
 # [培训](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
@@ -683,20 +713,6 @@
 #### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
 #### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
-
-## Teams 教育版
-### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
-### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
-### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
-
-## 适合于一线工作者的 Teams
-### [Microsoft StaffHub 将停用](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [在 Teams 中为组织管理 Shifts 应用](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [开始使用 Teams 零售模板](get-started-with-retail-teams-templates.md)
-
-## [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
-### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
-### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
 
 ## [Teams PowerShell 概览](teams-powershell-overview.md)
 ### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)

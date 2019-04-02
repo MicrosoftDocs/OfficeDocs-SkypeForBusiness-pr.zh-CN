@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889766"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013055"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -156,7 +156,7 @@ Teams 实时事件策略用于管理用户组的事件设置。 可以使用默�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-| 我需要进行操作什么来部署会议室系统？|请参阅[规划 Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 文章。|
+| 我需要进行操作什么来部署会议室系统？|请参阅[规划 Microsoft Teams 会议室](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)的相关文章。|
 |||
 
 ### <a name="cloud-video-interop"></a>云视频互操作性
