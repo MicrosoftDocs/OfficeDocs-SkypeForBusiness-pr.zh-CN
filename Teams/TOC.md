@@ -22,8 +22,6 @@
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
-## [适合于医疗卫生的 Teams 模板](healthcare/healthcare-templates.md)
-## [适合零售业的 Teams 模板](get-started-with-retail-teams-templates.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
 ## [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
@@ -592,6 +590,7 @@
 #       
 #        
 
+
 <!-- ============================================================ -->
 # [升级到 Teams](upgrade-introduction.md)
 ## [入门](upgrade-start-here.md)
@@ -627,21 +626,22 @@
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 <!-- ============================================================ -->
+# 
+# 
 
-#       
-#        
-
-<!-- ============================================================ -->
-
-# [在组织中推广 Teams](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+# [在组织中推广 Teams](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
-## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md) 
+## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft Teams 即将推出一线员工功能](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [在 Microsoft Teams 中为组织管理 Shifts 应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## [适用于医疗保健业的 Teams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
@@ -655,8 +655,10 @@
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
 
-#       
-#        
+<!-- ============================================================ -->
+
+# 
+# 
 
 <!-- ============================================================ -->
 
@@ -665,6 +667,7 @@
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # 参考
 

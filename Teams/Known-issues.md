@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771731"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026100"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -108,7 +108,8 @@ ms.locfileid: "30771731"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Safari Web 客户端支持  <br/> |尝试在 Safari 上打开 Microsoft Teams Web 客户端的用户被导向到下载桌面客户端。Microsoft 正在着手准备 Safari 支持，并将通过 [Teams 路线图](https://aka.ms/TeamsRoadmap)共享更新。  <br/> |使用支持的 Internet 浏览器，包括：Internet Explorer 11+、Microsoft Edge 12+、Chrome 51.0+ 和 Firefox 47.0+。  <br/> |2016 年 11 月 2 日  <br/> |
+|Safari Web 客户端支持  <br/> | 适用于 macOS 上 Safari 11.1 的 Teams 预览版现已推出。 在预览版中，用户可能会遇到与 Safari 的 Intelligent Tracking Prevention 有关的问题[Safari 已知问题](https://go.microsoft.com/fwlink/?linkid=2062082)。  <br/> | 在 Safari 浏览器支持处于预览阶段期间，请转到“**首选项”>“隐私**” ，取消选中“ **阻止跨站点跟踪**” 设置。 然后，关闭浏览器并导航回 Safari 中的 teams.microsoft.com。 <br/> |2016 年 11 月 2 日  <br/> |
+
 
 ## <a name="channels"></a>频道
 
