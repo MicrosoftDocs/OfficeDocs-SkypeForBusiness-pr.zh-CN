@@ -2,6 +2,7 @@
 title: Microsoft Teams 中的团队和频道概述
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647438"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038561"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
@@ -97,4 +98,4 @@ Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因�
 
 ## <a name="org-wide-teams"></a>组织范围团队
 
-如果您的组织具有不超过 1,000 个用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。
+如果您的组织具有 2500 不多个用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。

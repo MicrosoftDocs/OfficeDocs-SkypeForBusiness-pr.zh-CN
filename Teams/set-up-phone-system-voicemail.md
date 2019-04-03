@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为用户设置云语音邮件。 '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934769"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041931"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
 本文适用于[Office 365 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)想要在企业中设置的所有人云语音邮件功能。
 
 > [!NOTE]
-> 云语音邮件 Exchange 邮箱中仅支持放入的语音邮件和不支持任何第三方电子邮件系统。 云语音邮件可以重新使用 SMTP，这意味着与第三方电子邮件系统上的邮箱的用户将收到与不保证的服务正常运行时间或其他语音邮件功能，如更改其语音邮件消息的消息发送作为回退的机制，其问候语和其他设置。
+> 云语音邮件 Exchange 邮箱中仅支持放入的语音邮件和不支持任何第三方电子邮件系统。 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>仅限云环境： 将云语音邮件设置
 
@@ -43,7 +43,7 @@ ms.locfileid: "30934769"
     
 2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[分配的 Microsoft 团队许可证](assign-teams-licenses.md)，以及您企业中的人员的 Exchange Online 许可证。 分配完成后，他们将能够接收语音邮件消息！
     
-3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+3. 对语音邮件转录已添加从年 3 月 2017年和支持的所有组织和用户的默认情况下启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
 ## <a name="phone-system-with-on-premises-environments"></a>本地环境的电话系统
 
@@ -53,13 +53,16 @@ ms.locfileid: "30934769"
     
 2. [分配或删除业务的 Office 365 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，[分配的 Microsoft 团队许可证](assign-teams-licenses.md)，以及您企业中的人员的 Exchange Online 许可证。
     
-3. 按照[配置商务云连接器版指南的 Skype](https://technet.microsoft.com/library/mt605228.aspx)的**启用用户电话系统的语音和语音邮件服务**部分中的说明。
+3. 按照说明匹配本地 PSTN 呼叫的用户部署的解决方案。 对于云连接器 Edition，请按照[商务云连接器版指南配置 Skype](https://technet.microsoft.com/library/mt605228.aspx)的**启用用户电话系统的语音和语音邮件服务**部分中的说明。 对于与 Skype 的业务服务器呼叫 PSTN，按照[为本地的企业语音用户启用](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 团队直接路由，请按照[配置直接](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)路由**配置的电话号码并启用企业语音和语音邮件**部分。
 
-4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+4. 对语音邮件转录已添加从年 3 月 2017年和支持的所有组织和用户的默认情况下启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-5. 你还可以参阅 [Exchange Server 的 azure PBX 的语音邮件支持](https://support.microsoft.com/kb/3195158)，了解如何为拥有本地邮箱的电话系统用户配置 Azure 语音邮件消息的传递方式。
+5. 语音邮件消息传送到通过 SMTP 通过 Exchange Online Protection 路由的用户的 Exchange 邮箱。 若要启用这些邮件成功传递，请确保您的 Exchange 服务器和 Exchange Online Protection 之间正确配置了 Exchange Connectors。 [使用连接器配置邮件流](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。
 
-6. 请还阅读并遵循以下文档中所述的步骤：[混合配置向导](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. 若要启用语音邮件功能，如自定义问候语，电话拨入式访问和 visual 语音邮件，不需要从 Office 365 连接到 Exchange 服务器邮箱通过 Exchange Web 服务。 若要启用此连接必须配置新的 Exchange Oauth 身份验证协议介绍在[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+
+> [!NOTE]
+> Exchange 混合向导运行从 Exchange 2013 CU5 或更高版本将自动处理步骤 5 和 6 中的要求。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
