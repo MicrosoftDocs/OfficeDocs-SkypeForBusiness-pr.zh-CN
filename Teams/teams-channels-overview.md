@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
-ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
+ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31038561"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043362"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
@@ -98,4 +98,4 @@ Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因�
 
 ## <a name="org-wide-teams"></a>组织范围团队
 
-如果您的组织具有 2500 不多个用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。
+如果您的组织具有不超过 5,000 名用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。
