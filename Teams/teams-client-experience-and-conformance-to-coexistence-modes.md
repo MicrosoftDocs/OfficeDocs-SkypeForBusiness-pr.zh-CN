@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934785"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517076"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -35,7 +35,7 @@ ms.locfileid: "30934785"
 当用户在任何业务模式 Skype，所有传入的聊天和呼叫路由至业务客户端的用户的 Skype。 若要避免最终用户混淆情况和确保正确路由，在客户端中的团队呼叫和聊天功能且被禁用时用户是在任何业务模式 Skype。 同样，在工作组中计划会议是显式禁用 SfBOnly 或 SfBWithTeamsCollab 模式，用户时，将明确启用当用户处于 SfBWithTeamsCollabAndMeetings 模式。   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>如何团队客户端中可用的功能更改基于模式
-用户的共存模式，团队 dependes 中由 TeamsUpgradePolicy 设置的可用功能。 下表总结了行为：
+团队中的可用功能取决于用户的共存模式，由 TeamsUpgradePolicy 设置。 下表总结了行为：
 
 |用户的有效模式|在工作组客户端体验|
 |---|---|

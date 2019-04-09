@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Microsoft 团队聊天室控制台和其外围设备。
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012611"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520153"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
 
@@ -51,8 +51,9 @@ ms.locfileid: "31012611"
 2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
 3. 按照脚本的说明创建 Microsoft 团队聊天室 USB 安装盘。
 
-> [!CAUTION]
-> 运行媒体创建脚本从文件夹的名称不能包含空格。 如果没有为文件夹名称中的空格，脚本将失败。
+
+> [!TIP]
+> 在每次启动 CreateSrsMedia.ps1 脚本，屏幕输出将会话包含日志文件或脚本的名称。 如果运行脚本问题，请确保已提供该脚本的副本时请求支持。 
 
 CreateSrsMedia.ps1 脚本自动执行以下任务：
 

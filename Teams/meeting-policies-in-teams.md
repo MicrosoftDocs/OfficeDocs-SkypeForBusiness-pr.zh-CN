@@ -21,17 +21,17 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747667"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517197"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
 ::: zone target="docs"
-会议策略用于控制对会议的组织中的用户安排的会议的参与者可用的功能。 在创建策略，并进行更改后，然后，您可以分配给策略使用。 
+会议策略用于控制对会议的组织中的用户安排的会议的参与者可用的功能。 在创建策略，并进行更改后，您可以然后用户分配策略。 
 
 默认情况下，创建名为全局 （组织范围内默认值） 的策略。 默认情况下，您的组织中的所有用户将都分配此会议策略。 可以更改此策略，或创建一个或多个自定义策略并向其分配用户。 创建自定义策略时，可以允许或防止某些功能提供给用户，然后将其分配给一个或多个用户拥有应用于它们的设置。 
 

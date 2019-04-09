@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是电话系统自动助理以及如何使用它们。
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003864"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517252"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -76,7 +76,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 
 ### <a name="dial-by-name"></a>按名字拨叫
 
-按名称拨号是自动助理，也称为目录搜索功能。 使呼叫您的自动助理要使用语音 （语音识别） 或其电话 (DTMF) 小键盘响应输入搜索公司目录，找到该人，全称或部分名称，然后向其转接呼叫的人员。 您想要找出并达到使用按名称的拨号用户**不需要具有电话号码或调用计划分配给它们，但是它们必须具有电话系统许可证**。 按名称的电话拨甚至可以查找和将呼叫转接到的 Microsoft 团队承载在不同的国家或地区的多个国家/地区的组织的用户。
+按名称拨号是自动助理，也称为目录搜索功能。 使呼叫您的自动助理要使用语音 （语音识别） 或其电话 (DTMF) 小键盘响应输入搜索公司目录，找到该人，全称或部分名称，然后向其转接呼叫的人员。 您想要找出并达到使用按名称的拨号用户**不需要具有电话号码或调用计划分配给它们，但是它们必须具有电话系统许可证，如果它们是联机用户或 EV onpremises 为用户启用**。 按名称的电话拨甚至可以查找和将呼叫转接到的 Microsoft 团队承载在不同的国家或地区的多个国家/地区的组织的用户。
 
 ### <a name="maximum-directory-size"></a>目录最大大小
 

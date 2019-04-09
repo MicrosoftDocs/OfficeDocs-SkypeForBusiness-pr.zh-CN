@@ -1,5 +1,5 @@
 ---
-title: 设置 Microsoft Teams 的音频会议
+title: 设置 Microsoft 团队的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要使用电话加入电话会议。 '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955027"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517173"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft 团队的音频会议
 
 有时您的组织中的人员将需要使用电话呼入会议。 Microsoft 团队包括刚这种情况下的音频会议功能 ！ 人员可以使用电话，而不在移动设备或 PC 上使用团队应用程序的团队会议呼叫。 
   
@@ -74,7 +74,7 @@ ms.locfileid: "30955027"
 
 获取后收费和/或免费电话号码的会议桥，您需要分配的号码，以便可以在会议邀请中使用。  
 
-按照这些 stesps 分配给音频的会议桥的新的电话号码。
+按照以下步骤以将新的电话号码分配给音频的会议桥。
 
 ![sfb-徽标-30x30.png](media/sfb-logo-30x30.png) **业务管理中心的使用 Skype:**
 

@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了基于分配 TeamsUpgrade 模式的聊天、 呼叫路由和团队的用户和业务，在租户和联盟的 Skype 之间的状态的行为。 它包括路由优化、 状态行为，以及从*旧**群岛*到默认 TeamsUpgrade 模式的更改和*旧*即将退休。
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569707"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517213"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -27,8 +27,6 @@ ms.locfileid: "30569707"
 
 任何给定的用户将始终分配 TeamsUpgrade 模式，默认情况下或显式由管理员。 默认值是*群岛*。 升级到团队的用户具有*TeamsOnly*的模式。 *SfBOnly*、 *SfBWithTeamsCollab*和*SfBWithTeamsCollabAndMeetings*也是可能的模式。
 
-> [!NOTE]
-> 已弃用*旧*模式;*旧*模式了用户已将转换为*群岛*模式。
 
 ## <a name="routing-parameters"></a>路由参数
 
@@ -49,9 +47,9 @@ ms.locfileid: "30569707"
 - 对话是否新或现有的线程的一部分
 - 对话是否在租户或联盟
 - 是否可能对话
-    - *在租户*互操作性要求，则租户是纯联机或业务混合的 Skype。 完全内部租户不能具有租户中的互操作性。
+    - *在租户*互操作性要求，则租户是纯联机或业务混合的 Skype。 仅在本地租户不能在租户互操作性。
     - *跨租户联盟*始终需要正确的 Skype 业务联合身份验证配置以及从两个租户的适当团队联合身份验证配置。 Skype 业务混合不需要的任一租户。
-    - 如果业务帐户发起方的 Skype，本地驻留的用户无法使用团队客户端租户中的互操作性或联合身份验证。 用户只能使用 Skype for Business 客户端的互操作性和联合身份验证。
+    - 如果业务帐户发起方的 Skype，驻留在内部部署用户不能使用团队客户端租户中的互操作性或联合身份验证。 用户只能使用 Skype for Business 客户端的互操作性和联合身份验证。
     - 团队团队通信始终是可能的租户。
 
 > [!NOTE]
@@ -61,7 +59,7 @@ ms.locfileid: "30569707"
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>租户中为新的聊天或呼叫路由 
 
-下表捕获的租户中聊天和呼叫路由，并可用于新呼叫或未启动从以前存在的线程的聊天。 它介绍哪些客户端将收到新呼叫或聊天，如果产生左侧到右侧的租户中收件人用户的用户。
+下表捕获的租户中聊天和呼叫路由，并可用于新呼叫或未启动从事先线程的聊天。 它介绍哪些客户端将收到新呼叫或聊天，如果产生左侧到右侧的租户中收件人用户的用户。
 
 将始终将邮件发送给 TeamsOnly 用户路由到团队。 邮件发送到 SfB\*可能如上所述对话时，用户始终将路由到 for Business，Skype。 将始终将邮件发送给群岛用户路由到同一客户端从其发送。
 
@@ -123,7 +121,7 @@ ms.locfileid: "30569707"
 | TeamsOnly |团队 |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**表 2b： 联合新的聊天或呼叫路由到的收件人的 SfB 给\*模式**
+**表 2b： 联合新的聊天或呼叫路由到的收件人的 SfB\*模式**
 
 | <br/><br/>模式   | 原始发件人<br/><br/> 客户端| <br/><br/>SfB 驻留| |  收件人<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -178,8 +176,6 @@ ms.locfileid: "30569707"
     * 从团队看到业务状态; 群岛用户的 Skype 联合租户中的任何其他用户。这与上面的联盟路由表对齐
     * 从 for Business 的 Skype，任何其他用户将看到群岛用户的 Skype 业务状态 （在租户和联盟）;这与上面的路由表对齐
 
-> [!NOTE]
-> 这是从以前的实现 （称为统一状态） 的业务客户端中显示的目标的团队和 Skype 组合、 聚合状态的最新更改。 因为经常会导致显示不正确的状态，即用户未访问即使其状态联机显示它们是令人费解向用户的上一方法。
 
 ## <a name="in-tenant-presence"></a>租户状态
 
@@ -216,5 +212,6 @@ ms.locfileid: "30569707"
 特别是，如果收件人先前必须与持久的互操作性会话线索已升级到团队线程将不再反映准确的状态，并将不再可路由。 您应开始新的线程。
 
 ## <a name="related-links"></a>相关的链接
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [视频： 管理共存和 SfB 和团队之间的互操作性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

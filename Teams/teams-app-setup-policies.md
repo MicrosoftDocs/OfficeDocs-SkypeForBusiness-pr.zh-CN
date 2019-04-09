@@ -19,12 +19,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747659"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517100"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -54,11 +54,12 @@ ms.locfileid: "30747659"
 1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **设置策略**。
 2. 选择**新策略**。
 3. 输入策略的描述性名称，然后单击**添加应用程序**。
-4. 在**添加固定应用程序**窗格中，搜索要添加，然后单击**添加**的应用程序。 您还可以通过应用程序权限策略筛选的应用程序。 您已选择您的应用程序的列表，单击**添加**。
+4. 打开或关闭**允许上载自定义应用程序**，具体取决于是否要让用户将自定义应用程序上载到团队。
+5. 在**添加固定应用程序**窗格中，搜索要添加，然后单击**添加**的应用程序。 您还可以通过应用程序权限策略筛选的应用程序。 您已选择您的应用程序的列表，单击**添加**。
 
      ![应用程序的安装程序的策略-添加-apps.png](media/app-setup-policies-add-apps.png)
 
-5. 排列您所愿团队中显示，然后单击**保存**的顺序应用程序。
+6. 排列您所愿团队中显示，然后单击**保存**的顺序应用程序。
 
     ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
 
@@ -173,6 +174,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
  ## <a name="related-topics"></a>相关主题
 - [Teams 中适用于应用的管理设置](admin-settings.md)
-- [管理团队中的应用程序权限策略](teams-app-permission-policies.md)
-- [管理团队中自定义应用程序策略和设置](teams-custom-app-policies-and-settings.md)
+- [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
+- [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 - [从工作组客户端租户的应用程序目录发布应用程序](tenant-apps-catalog-teams.md)

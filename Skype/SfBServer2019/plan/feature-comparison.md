@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2019年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
-ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789109"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516924"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>业务服务器 2019年的 Skype 的的桌面客户端功能比较
 
@@ -29,7 +29,7 @@ ms.locfileid: "27789109"
 
 可用业务服务器 2019年的 Skype 的某些功能在业务 online; Skype 不可有关详细信息，请参阅[联机或混合的用户帐户限制](feature-comparison.md#Online-Hybrid)。 对于业务 Online 管理员的 Skype 可能想要为其提供的不同计划的信息，请参阅[Skype for Business Online 服务说明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)。
 
-下表显示可用于业务 online 中处理的业务服务器 2019年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 有关更多详细信息，请参阅[许可指南](https://products.office.com/en-us/skype-for-business/it-pros)。
+下表显示可用于业务 online 中处理的业务服务器 2019年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 请参阅[授权指南](https://products.office.com/en-us/skype-for-business/it-pros)的详细信息。
 
 > [!IMPORTANT]
 > Skype 的业务服务器 2019年和 Skype 业务 online 支持以下以前发布的客户端： Lync 2013、 业务 2015年的 Skype 和 Skype 的业务 2016年以及业务 2019年客户端 Skype。 有关这些客户端与其他服务器一起使用时的信息，请参阅[Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和[业务 2015年的 Skype 的桌面客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)。 
@@ -121,14 +121,14 @@ ms.locfileid: "27789109"
 |共享桌面（如果已启用）  |& #x 2714;|& #x 2714;& #x 2776; |& #x 2714;& #x 2776;（需要插件） |& #x 2714;| & #x 2714;|
 |共享程序（如果已启用） |& #x 2714;|仅查看   |& #x 2714年;(requires plug-in)  |& #x 2714;|& #x 2714;|   
 |添加匿名参与者（如果已启用） |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|使用电话拨入式音频会议 #x 2777;|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
+|使用电话拨入式音频会议 & #x 2777;|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
 |启动“立即开会”会议|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|  
 |添加和演示 Microsoft PowerPoint 文件 |& #x 2714;| & #x 2778;注释不可用   |& #x 2714;|& #x 2714;|& #x 2714;| 
 |导航 Microsoft PowerPoint 文件 |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;| 
 |添加和编辑 OneNote 会议笔记  |& #x 2714;||仅编辑（不添加）  |& #x 2714;|& #x 2714;|
 |使用白板 |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |发起投票 |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|上载文件以与其他人共享 |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|上载文件以与其他人共享 |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |安排会议或电话会议 |Outlook 或 Skype 业务 Web 计划程序  |Outlook 或 Skype 业务 Web 计划程序 |Skype 业务 Web 计划程序 |Outlook 或 Skype 业务 Web 计划程序   |Outlook 或 Lync Web 计划程序 |  
 |问：&amp;是经理 |& #x 2714;|||||
 |禁用与会者视频 |& #x 2714;||& #x 2714;|||
@@ -221,7 +221,7 @@ ms.locfileid: "27789109"
 |:-----|:-----|:-----|:-----|  
 |现代化身份验证 |& #x 2714;|& #x 2714;|& #x 2714;|
 |多重身份验证|& #x 2714;|& #x 2714;|& #x 2714;|
-|基于证书的身份验证 |& #x 2714年; （仅加入域的设备） |& #x 2714;|& #x 2714年; （仅加入域的设备）  |
+|基于证书的身份验证 |& #x 2714; （仅加入域的设备） |& #x 2714;|& #x 2714; （仅加入域的设备）  |
 |Kerberos 身份验证 |& #x 2714;||& #x 2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>存档、合规性和日志记录支持
@@ -285,4 +285,4 @@ ms.locfileid: "27789109"
 
 [规划客户端和设备](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
 
-[使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](../../SfbServer/sfb-client-updates.md)
+[使用 Windows Installer (MSI) 的版本的 Skype for Business 的最新更新](../../SfbServer/sfb-client-updates.md)

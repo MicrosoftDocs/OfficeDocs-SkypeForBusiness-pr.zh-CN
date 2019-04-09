@@ -1,5 +1,5 @@
 ---
-title: 移动到中的 Microsoft 团队引进 StaffHub 团队
+title: 将 StaffHub 团队迁移到 Microsoft Teams 中的排班
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -13,21 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026210"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520213"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到引进中的 Microsoft 团队
 
 > [!IMPORTANT]
-> 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们 StaffHub 功能构建到 Microsoft 团队。 如今，团队包括日程管理引进相关应用程序和其他功能将随着时间的推移推出。 StaffHub 上 2019 年 10 月 1，将停止的所有用户的工作。 尝试打开 StaffHub 的任何人都将显示一条消息，来下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)。 
+> 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们 StaffHub 功能构建到 Microsoft 团队。 如今，团队包括日程管理引进相关应用程序和其他功能将随着时间的推移推出。 StaffHub 上 2019 年 10 月 1，将停止的所有用户的工作。 尝试打开 StaffHub 的任何人都将显示一条消息，来下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)。
+
+> 本文中讨论的功能不起作用尚未释放。 它已公布，并且即将提供，达到年 4 月 2019年的末尾。 如果您是管理员，您可以了解时这将会出现在邮件中心 （在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)）。
 
 团队中的班次应用程序提供管理计划和常量流 shift 交换和取消通知发生在每天的简单方法。 团队成员可以访问其日程安排和班次信息直接应用程序中以及跨其设备设置其首选项，管理其日程安排，关闭请求的时间。
 
-本文将指导您完成如何移动贵组织的 StaffHub 团队和安排到引进团队中的数据。 无论您是具有一个或两个 StaffHub 团队的小型企业或大型企业与数百个 StaffHub 团队，在此可以找到您需要帮助团队对成功进行转换的管理指南。 
+本文将指导您完成如何移动贵组织的 StaffHub 团队和安排到引进团队中的数据。 无论您是具有一个或两个 StaffHub 团队的小型企业或大型企业与数百个 StaffHub 团队，在此可以找到您需要帮助团队对成功进行转换的管理指南。
 
 您必须是全局管理员才能执行本文中的步骤。 如果您尚未这样做，必须通过[StaffHub 退休常见问题](microsoft-staffhub-to-be-retired.md)查看获取您可能遇到的任何问题的解答。 
 
@@ -68,7 +70,7 @@ ms.locfileid: "31026210"
 
 ### <a name="install-the-staffhub-powershell-module"></a>安装 StaffHub PowerShell 模块
 
-如果尚未准备好，安装[StaffHub PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)。
+如果尚未[安装 StaffHub PowerShell 模块](install-the-staffhub-powershell-module.md)。
 
 当移动 StaffHub 团队，先决条件检查的移动请求。 下面是移动请求可能无法的原因：
 
@@ -92,9 +94,9 @@ ms.locfileid: "31026210"
 
 工作组成员都设置按专用时间让每个人都[获取团队客户端](../../get-clients.md)，登录到团队和签出其日程安排中引进，并启动彼此聊天，应确保团队拥护者。 用户已熟悉 StaffHub 将启动并正在运行快速引进中。 您还可以指向其[引进](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)帮助以获取其他帮助。
 
-### <a name="move-a-staffhub-team"></a>移动 StaffHub 团队
+### <a name="move-a-staffhub-team-coming-soon"></a>移动 StaffHub 团队 （即将推出）
 
-使用以下步骤一次移动一个 StaffHub 团队。 我们建议您的试点工作组此方法。 更高版本，当您准备要迁移贵组织的所有 StaffHub 团队，请参阅[移动 StaffHub 团队](#move-your-staffhub-teams)有关的操作步骤一次移动多个团队。
+使用以下步骤一次移动一个 StaffHub 团队。 我们建议您的试点工作组此方法。 更高版本，当您准备要迁移贵组织的所有 StaffHub 团队，请参阅[移动 StaffHub 团队](#move-your-staffhub-teams-coming-soon)有关的操作步骤一次移动多个团队。
 
 运行以下命令以移动 StaffHub 团队。
 
@@ -130,11 +132,11 @@ Get-TeamMigrationJobStatus <Int32>
 
 在您准备好超越您的试点工作组并将您的组织 StaffHub 团队移至团队非常重要首先在组织间通信更改。 分布有关引进并切换到团队认知度，生成兴奋，并决定采用的单词。
 
-### <a name="move-your-staffhub-teams"></a>移动 StaffHub 团队
+### <a name="move-your-staffhub-teams-coming-soon"></a>移动 StaffHub 团队 （即将推出）
 
-使用以下步骤来批量移动 StaffHub 团队。 您可以选择移动贵组织的所有 StaffHub 小组或移动特定 StaffHub 团队。 如果您想要移动 StaffHub 团队需要一次，请参阅[移动 StaffHub 团队](#move-a-staffhub-team)。
+使用以下步骤来批量移动 StaffHub 团队。 您可以选择移动贵组织的所有 StaffHub 小组或移动特定 StaffHub 团队。 如果您想要移动 StaffHub 团队需要一次，请参阅[移动 StaffHub 团队](#move-a-staffhub-team-coming-soon)。
 
-#### <a name="move-all-staffhub-teams"></a>移动所有 StaffHub 团队
+#### <a name="move-all-staffhub-teams-coming-soon"></a>移动所有 StaffHub 团队 （即将推出）
 
 运行以下命令以获取您的组织中的所有 StaffHub 团队的列表。
 
@@ -157,7 +159,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
 
-#### <a name="move-specific-staffhub-teams"></a>移动特定 StaffHub 团队
+#### <a name="move-specific-staffhub-teams-coming-soon"></a>移动特定 StaffHub 团队 （即将推出）
 
 运行以下命令以获取您的组织中的所有 StaffHub 团队的列表。
 

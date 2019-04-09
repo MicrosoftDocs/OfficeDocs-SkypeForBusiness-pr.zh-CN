@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87b0e6bf1f920ea4eaab4a4ed2bfb3f314b60601
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 4e1c81d0c93505e98bdc2159d2fad7464c7c3aeb
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026061"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516828"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -45,6 +45,8 @@ ms.locfileid: "31026061"
 ![邀请和 redemption 流关系图](media/authorize-guest-image1.png)
 
 请务必注意下面的应用程序、 自动程序，和连接器可能需要其自己的权限集和/或 consent 特定于用户帐户。 这些可能需要单独授予。 同样，SharePoint 可能施加额外外部共享边界为某个特定用户的用户组，或甚至在网站级别。
+
+以前的两个图也是在[Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/media/teams_dependencies.vsdx?raw=true)中可用。
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Azure Active Directory 中的控件来宾访问
 

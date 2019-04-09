@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569979"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516796"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -27,7 +27,7 @@ ms.locfileid: "30569979"
 > [!Tip]
 > 观看下面的会话，若要了解与 Azure Active Directory (AAD)、 Office 365 组、 Exchange、 SharePoint 和 OneDrive for Business 团队交互的方式：[基础的 Microsoft 团队](https://aka.ms/teams-foundations)
 
-为了获得全面的 Microsoft Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
+为了获得全面的 Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
 
 用户的 Exchange 邮箱可以托管在线上或本地。 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队与频道、创建和查看会议、通话和聊天、修改用户个人资料图片以及添加和配置连接器、选项卡与聊天机器人。
 
@@ -66,13 +66,15 @@ ms.locfileid: "30569979"
 
 -   在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
 
--   对于 Exchange 内部部署，您必须配置新的 Exchange OAuth 身份验证协议，如[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述。 
+-   对于 Exchange 内部部署，您必须配置新的 Exchange OAuth 身份验证协议，如[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 
+
+-  控制和保护团队和 Exchange 使用条件 Access 中的合规性策略的配置。 有关详细信息，请参阅[条件访问策略的工作原理团队？](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > 目前，如果您的组织具有合规性要求才能确保所有会议讨论可供搜索，则应禁用专用的会议，如果组织者具有 Exchange 内部部署邮箱。
 > 
 > [!IMPORTANT]
-> Exchange 混合部署，在聊天消息中的内容是可不管聊天参与者是否具有一个基于云的邮箱或内部部署邮箱搜索。 若要了解详细信息，请阅读[搜索基于云的邮箱的内部部署 Office 365 中的用户](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关搜索团队中的内容，请阅读[Office 365 安全性 & 合规性中心中的内容搜索](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+> Exchange 混合部署，在聊天消息中的内容是可不管聊天参与者是否具有一个基于云的邮箱或内部部署邮箱搜索。 若要了解详细信息，请阅读[搜索基于云的邮箱的内部部署 Office 365 中的用户](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关搜索团队中的内容，请阅读[Office 365 安全性 & 合规性中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 > 
 > [!TIP]
 > 有关如何使用 Azure AD 连接将与 Azure Active Directory 同步的信息，请参阅[将您的本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/?linkid=854600)。

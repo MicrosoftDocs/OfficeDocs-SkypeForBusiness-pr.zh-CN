@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
-ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747643"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517205"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -78,7 +78,7 @@ Microsoft 团队支持的用户需要传统的电话体验的项目组合的桌�
 
 成功注册后，用户可以选择设备将用于个人使用或共享的会议室。
 
-![Personl 或共享的帐户选项](media/personal-vs-shared-mode.jpg)
+![个人或共享帐户选项](media/personal-vs-shared-mode.jpg)
 
 基于用户的选择优化团队的电话体验。
 

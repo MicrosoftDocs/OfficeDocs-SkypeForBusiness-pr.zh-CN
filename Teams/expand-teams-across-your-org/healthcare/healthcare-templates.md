@@ -1,5 +1,5 @@
 ---
-title: 适合于医疗保健组织的 Teams 模板入门
+title: 适用于医疗保健组织的 Teams 模板入门
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 适合于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: 适用于医疗保健组织的 Teams 模板入门
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013626"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517108"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适合于医疗保健组织的 Teams 模板入门
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 
 Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
 
@@ -55,6 +55,9 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
 若要使用这些模板，只需更改为上面 TemplateIDs 从标准在请求正文中的 template@odata.bind 属性。  有关如何部署工作组模板的详细信息，请参阅 Microsoft Graph[创建团队的文章](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+
+> [!NOTE]
+> 在常规选项卡下，将自动创建模板中的通道。
 
 ### <a name="example-hospital-template-extension-script"></a>示例： 医院模板扩展脚本
 
@@ -162,4 +165,4 @@ Microsoft 团队模板允许您快速和轻松创建团队提供的预定义的�
 
 [开始使用 Teams 模板](../../get-started-with-teams-templates.md)
 
-[入门医疗保健机构团队](teams-in-hc.md)
+[适用于医疗保健组织的 Teams 入门](teams-in-hc.md)

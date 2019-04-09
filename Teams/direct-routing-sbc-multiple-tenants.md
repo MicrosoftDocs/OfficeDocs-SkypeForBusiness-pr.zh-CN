@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893340"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517221"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -118,7 +118,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 3. 单击" **下一步**"。
 4. 在此示例中，租户已经有 adatum.biz 与已验证的域的名称。 因为 customers.adatum.biz 是已注册名称子域，向导将不要求的其他验证。 但是，如果您添加 FQDN 的尚未验证之前，您需要经过验证的过程。 验证的过程是[如下所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
-    ![已域名进行确认](media/direct-routing-3-sbc-verify-domain.png)
+    ![确认的已验证的域名](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  单击**下一步**，和在**更新 DNS 设置**页上，选择**将自己添加的 DNS 记录**，然后单击**下一步**。
 6.  在下一页上，清除所有值 （除非您想要用于业务 Exchange、 SharePoint、 或团队/Skype 的域名），单击**下一步**，，然后单击**完成时间**。 请确保您的新域中的安装程序完成状态。

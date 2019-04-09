@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 直接路由中使用与所选的 SBC 供应商，以确认其 SBCs 的 Microsoft 合作伙伴。
-ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664721"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517124"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -65,3 +65,5 @@ Microsoft 与选定会话边界控制器 (SBC) 供应商认证的合作伙伴与
 |                                                                                                                   |      AP 6350           |    &#10004;   |   待定    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   待定    |     ECZ8.1m1p6   |
 |                     [TE 系统](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
+
+若要提供的产品反馈有关团队，如想法的新功能，请访问[Uservoice](https://microsoftteams.uservoice.com)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640967"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517084"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -64,7 +64,6 @@ Skype for Business 中的以下管理设置是团队中的不同：
 - 团队中的用户始终启用客户端请勿打扰和突破性的功能。
 - （包括 OOF & 其他日历信息） 的日历集成始终启用团队中的用户，如果与 Outlook 集成。
 - *上一次发现*或*离开相*（如果使用 Skype for Business 的双环境中） 标记始终启用团队中的用户。
-- 未启用团队中的用户设置自定义状态。
 
 > [!NOTE]
 > 当前不支持团队管理员能够自定义这些设置。

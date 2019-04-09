@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解如何管理中的 Microsoft 团队资源帐户
-ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013642"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517229"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -61,9 +61,13 @@ ms.locfileid: "31013642"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心创建资源帐户
 
-若要在 Microsoft 团队管理中心创建资源帐户，请导航至**组织范围的设置** > **资源帐户**，单击 **+ 添加**和填写显示名称的用户名，然后选择相应的域名和单击**保存**。
+若要在 Microsoft 团队管理中心创建资源帐户，请导航至**组织范围的设置** > **资源帐户**，然后单击 **+ 添加**。 在弹出窗口中，填写的显示名称和用户名 （域名应自动填充） 的资源帐户然后单击**保存**。
 
-若要应用于资源帐户的许可证，导航到 O365 管理中心用户选项卡。
+![资源帐户](media/res-acct.png)
+
+您还将需要资源帐户后，应用于许可证[分配给为企业的 Office 365 中的用户的许可证](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)中所述
+
+一旦您已创建资源帐户并分配许可证，您可以单击**分配/取消分配**电话号码分配资源帐户，或将资源帐户分配给自动助理或呼叫的队列。
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
@@ -74,7 +78,7 @@ ms.locfileid: "31013642"
 - 混合实现 （号码号码驻留在直接路由、 OPCH 和 CCE） 将使用[新建 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)创建驻留在本地资源帐户。  
 - 联机仅实现将使用[新建 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)具有联机驻留的资源帐户。
 
-以下是创建资源帐户的 online 环境示例：
+以下是 online 环境示例的自动助理 ApplicationID 与创建资源帐户。 呼叫队列，您可以使用以下 ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -89,7 +93,7 @@ $resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 如果您创建资源帐户时未应用许可证的电话号码分配将失败。 

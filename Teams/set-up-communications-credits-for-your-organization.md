@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541781"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517068"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -76,6 +76,8 @@ ms.locfileid: "30541781"
 
       > [!NOTE]
      > 资金将仅可用于使用服务时，microsoft Communications 字幕式发布率。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
+     > 
+     > 每月付费的通信字幕式将仅应用分配基金已使用，以了解如何检查您每月的使用情况，是否读取[Skype 的业务 PSTN 使用率报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ ms.locfileid: "30541781"
     
 每个组织会调用规划卷和要考虑的其他用法。 You will need to get this type of usage data from your current service provider. 已使用 Skype 业务 online 已作为其服务提供商的组织可以通过查看在**业务管理中心的 Skype**获取使用率数据 > **报告** > **PSTN 用法详细信息**报告。
   
-设置 Communications 字幕式时，需要调查呼叫使用为您的组织，以确定您将需要置于的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报告可以将呼叫数据记录导出到 Excel 中，如果您想要导出的数据存储或创建自定义报告。 若要查看用法，请参阅[Skype 的业务 PSTN 使用率报告](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+设置 Communications 字幕式时，需要调查呼叫使用为您的组织，以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报告可以将呼叫数据记录导出到 Excel 中，如果您需要存储的数据或创建自定义报告。 若要了解如何查看使用情况，请阅读[业务 PSTN 使用情况报告的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3： 将 Communications 字幕式许可证分配给用户
 
@@ -116,7 +118,7 @@ ms.locfileid: "30541781"
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置电话系统语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
     

@@ -1,5 +1,5 @@
 ---
-title: 设置中的 Microsoft 团队的假日
+title: 在 Microsoft Teams 中设置假日
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 了解如何设置中的 Microsoft 团队的假日和将它们连接到自动助理。
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537753"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517116"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>设置中的 Microsoft 团队的假日
+# <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft Teams 中设置假日
 
 您可以使用的 Microsoft 团队假日功能来安排特定日期和时间时在组织中的人员将需要时间关闭从工作时间和正则在工作时间内将不可用。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "30537753"
 
 9. 选择**保存**。
 
-## <a name="change-a-holdiay"></a>更改 holdiay
+## <a name="change-a-holiday"></a>更改假日
 
 1. 在 Microsoft 团队管理中心，转到**组织范围的设置** > **假日**。
 

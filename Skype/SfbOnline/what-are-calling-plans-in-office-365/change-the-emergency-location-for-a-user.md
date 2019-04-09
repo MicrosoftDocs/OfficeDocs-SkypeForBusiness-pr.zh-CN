@@ -1,5 +1,5 @@
 ---
-title: 分配或更改用户的紧急位置
+title: 为用户分配或更改紧急位置
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046493"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516939"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>分配或更改用户的紧急位置
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
 为用户分配的电话号码时，每个活动的电话号码必须具有关联的紧急地址。 （您将地址相关联时在 Office 365 或转接电话号码时获取电话号码。）当您将与紧急地址关联数时，还可以添加的紧急位置提供更精确位置中的物理位置。 紧急位置可以是用户所在的楼层、侧楼或办公室编号。 给定的紧急地址可以具有任意的数量的位置，并且如果用户转到其他办公室或建筑，您可以更改紧急位置 — 例如，如果用户从 34 楼转到 35 楼。
   
@@ -60,6 +60,9 @@ ms.locfileid: "30046493"
     如果您想要在列表中添加新的紧急位置将显示，请参阅[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
     
 ## <a name="related-topics"></a>相关主题
+
+[分配紧急响应位置通过 powershell 自定义](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [为你的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [添加、 更改或删除您的组织紧急地点](add-change-or-remove-an-emergency-location-for-your-organization.md)

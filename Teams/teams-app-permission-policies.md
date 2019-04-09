@@ -19,16 +19,16 @@ search.appverid: MET150
 description: 了解有关 Microsoft 团队和如何使用它们来控制对组织中用户可用的应用程序中的应用程序权限策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747683"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520221"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 作为一名管理员，您可以使用应用程序的权限策略来控制应用程序可供您的组织中的 Microsoft 团队用户。 您可以允许或阻止所有应用程序或由 Microsoft 已发布的特定应用程序第三方和您的组织。 当您阻止应用程序时，用户将无法从团队应用程序商店安装它。
 
@@ -178,5 +178,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
  ## <a name="related-topics"></a>相关主题
 - [Teams 中适用于应用的管理设置](admin-settings.md)
-- [管理团队中的应用程序安装程序策略](teams-app-setup-policies.md)
-- [管理团队中自定义应用程序策略和设置](teams-custom-app-policies-and-settings.md)
+- [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
+- [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)

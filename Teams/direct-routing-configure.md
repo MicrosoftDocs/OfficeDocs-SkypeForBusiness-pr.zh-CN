@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 了解如何配置 Microsoft 电话系统直接路由。
-ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883564"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517260"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -479,7 +479,7 @@ John Woods – 允许任意数量的呼叫。 当调用雷德蒙德号码范围�
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SupressCallerId           :
+   SuppressCallerId          :
    AlternateCallerId         :
    </pre>
 3. 接下来，创建语音路由策略"无限制"。 若要保留为"+1 425 XXX XX XX"和"+1 206 XXX XX XX"作为本地号码的呼叫或本地呼叫的特殊处理此语音路由策略中重复使用的 PSTN 用法"Redmond 1"和"Redmond"。

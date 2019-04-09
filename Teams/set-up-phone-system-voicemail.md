@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为用户设置云语音邮件。 '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041931"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517149"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -59,7 +59,7 @@ ms.locfileid: "31041931"
 
 5. 语音邮件消息传送到通过 SMTP 通过 Exchange Online Protection 路由的用户的 Exchange 邮箱。 若要启用这些邮件成功传递，请确保您的 Exchange 服务器和 Exchange Online Protection 之间正确配置了 Exchange Connectors。 [使用连接器配置邮件流](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。
 
-6. 若要启用语音邮件功能，如自定义问候语，电话拨入式访问和 visual 语音邮件，不需要从 Office 365 连接到 Exchange 服务器邮箱通过 Exchange Web 服务。 若要启用此连接必须配置新的 Exchange Oauth 身份验证协议介绍在[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. 若要启用语音邮件功能，如业务客户端中自定义问候语和 Skype 中的可视化语音邮件，不需要从 Office 365 连接到 Exchange 服务器邮箱通过 Exchange Web 服务。 若要启用此连接必须配置新的 Exchange Oauth 身份验证协议介绍在[Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
 > Exchange 混合向导运行从 Exchange 2013 CU5 或更高版本将自动处理步骤 5 和 6 中的要求。 
@@ -127,6 +127,8 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
+
+[Skype for Business Server 和 Exchange Server 迁移规划](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 

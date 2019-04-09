@@ -1,5 +1,5 @@
 ---
-title: 规划媒体绕过直接路由
+title: 使用直接路由规划媒体旁路
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何规划媒体绕过与电话系统直接路由。
-ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
-ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
+ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30649209"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517244"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>规划媒体绕过直接路由
+# <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
 ## <a name="about-media-bypass-with-direct-routing"></a>有关直接路由的媒体绕过
 
@@ -47,7 +47,7 @@ ms.locfileid: "30649209"
 
 ![显示信号和媒体绕过使用的媒体流](media/direct-routing-media-bypass-2.png)
 
-媒体绕过利用协议上团队客户端和 ICE 设备 SBC 调用互动式连接建立 (ICE)。 这些协议启用直接路由中的最直接的媒体路径用于最佳的质量。 ICE 和 ICE 轻量是 WebRTC 标准。 有关这些协议的详细信息，请参阅 RFC 5245。
+媒体绕过利用协议上团队客户端和 ICE 设备 SBC 调用互动式连接建立 (ICE)。 这些协议启用直接路由中的最直接的媒体路径用于最佳的质量。 ICE 和 ICE Lite 是 WebRTC 标准。 有关这些协议的详细信息，请参阅 RFC 5245。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>呼叫流和防火墙的规划
@@ -136,7 +136,7 @@ ms.locfileid: "30649209"
 面向最终用户的绕过呼叫的媒体路径中 | 从不 | 如果客户端无法访问公共 IP 地址 SBC | 
 语音应用程序的媒体路径中 | 始终 | 从不 | 
 可以执行转码 (B2BUA)\* | 是 | 否，仅中继终结点之间的音频 | 
-Instancess 世界各地的数量和位置 | 总 8： 在美国东和西; 2在阿姆斯特丹和都柏林; 2香港特别行政区和新加坡; 2日本 （正在添加中 Q1CY2019） 2  | 多个
+全球实例的数量和位置 | 总 8： 在美国东和西; 2在阿姆斯特丹和都柏林; 2香港特别行政区和新加坡; 2日本 （正在添加中 Q1CY2019） 2  | 多个
 
 IP 范围是 52.112.0.0 /14 （IP 地址从 52.112.0.1 52.115.255.254）。 
 
@@ -154,7 +154,7 @@ IP 范围是 52.112.0.0 /14 （IP 地址从 52.112.0.1 52.115.255.254）。
 - 呼叫转到联盟团队用户
 - 转接呼叫或将其转接到业务用户 Skype
 
-滑动您的 SBC 有权访问传输中继，如下所述。    
+确保您的 SBC 有权访问传输中继，如下所述。    
 
 
 ## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 信号： Fqdn 和防火墙端口
@@ -220,7 +220,7 @@ UDP/SRTP | 客户端 | SBC | 50 000 – 50 019  | SBC 上定义 |
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | SBC 上定义 |
-| UDP/SRTP | SBC | 传输中继 | SBC 上定义 | 50 000 – 59 9999，3478 3479     |
+| UDP/SRTP | SBC | 传输中继 | SBC 上定义 | 50 000 – 59 999，3478 3479     |
 
 
 注意： Microsoft 建议每个并发呼叫 SBC 上至少两个端口。 因为 Microsoft 拥有传输中继的两个版本，您需要：
@@ -289,7 +289,7 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152 – 53 247    | SBC 上定义 |
  
 ## <a name="see-also"></a>另请参阅
 
-[直接路由配置媒体绕过](direct-routing-configure-media-bypass.md)
+[使用直接路由配置媒体旁路](direct-routing-configure-media-bypass.md)
 
 
 
