@@ -482,6 +482,7 @@
 #### [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [澳大利亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [白俄罗斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Belgium（比利时）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [伯利兹](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [波斯尼亚和黑塞哥维那](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [巴西](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
@@ -634,8 +635,9 @@
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft Teams 即将推出一线员工功能](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [在 Microsoft Teams 中为组织管理 Shifts 应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [适用于医疗保健业的 Teams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
