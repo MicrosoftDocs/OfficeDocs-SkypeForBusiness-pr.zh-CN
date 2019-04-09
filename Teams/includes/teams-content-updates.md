@@ -972,248 +972,48 @@
 | 2019/3/30 | [适用于医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 添加时间 |
 
 
-## <a name="week-of-february-25-2019"></a>2019 年 2 月 25 日一周
+## <a name="week-of-april-01-2019"></a>2019 年 4 月 1 日那周
 
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
-| 2019/2/26 | [管理 Office 365 组织中的 Microsoft Teams 功能](/MicrosoftTeams/enable-features-office-365) | 修改时间 |
-| 2019/2/26 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改时间 |
-| 2019/2/26 | [管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改时间 |
-| 2019/2/26 | [在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | 修改时间 |
-| 2019/2/26 | [在 Microsoft Teams 中设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改时间 |
-| 2019/2/26 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改时间 |
-| 2019/2/26 | [Microsoft StaffHub 将停用](/MicrosoftTeams/microsoft-staffhub-to-be-retired) | 添加时间 |
-| 2019/2/26 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改时间 |
-| 2019/2/27 | [Microsoft Teams 的云视频互操作性](/MicrosoftTeams/cloud-video-interop) | 修改时间 |
-| 2019/2/27 | [与其他组织中的 Teams 用户通信](/MicrosoftTeams/let-your-teams-users-communicate-with-other-people) | 修改时间 |
-| 2019/2/28 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改时间 |
-| 2019/2/28 | [与 Skype for Business 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 修改时间 |
-| 2019/2/28 | [为 Surface Hub 部署 Microsoft Teams](/MicrosoftTeams/teams-surface-hub) | 修改时间 |
-| 2019/2/28 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改时间 |
-| 2019/2/28 | [通话分析和通话质量仪表板](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 修改时间 |
-| 2019/2/28 | [Microsoft Teams | 升级、群岛模式、互操作性策略、仅](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改时间 |
-| 2019/2/28 | [使用通话分析来排查通话质量不良问题](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | 修改时间 |
-| 2019/2/28 | [使用 Microsoft Teams 管理员角色管理 Teams](/MicrosoftTeams/using-admin-roles) | 修改时间 |
-| 2019/3/1 | [音频会议常见问题](/MicrosoftTeams/audio-conferencing-common-questions) | 修改时间 |
-| 2019/3/1 | [Office 365 中的音频会议](/MicrosoftTeams/audio-conferencing-in-office-365) | 修改时间 |
-| 2019/3/1 | [音频会议按分钟付费](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 修改时间 |
-| 2019/3/1 | [音频会议支持的语言](/MicrosoftTeams/audio-conferencing-supported-languages) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的视频 - 音频会议](/MicrosoftTeams/audio-conferencing-videos) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的呼叫寄存和取回](/MicrosoftTeams/call-park-and-retrieve) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的呼叫共享和组内呼叫应答](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的通话套餐](/MicrosoftTeams/calling-plan-landing-page) | 修改时间 |
-| 2019/3/1 | [Office 365 通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改时间 |
-| 2019/3/1 | [更改问候语和电子邮件的默认语言](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 修改时间 |
-| 2019/3/1 | [更改音频会议网桥中的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改时间 |
-| 2019/3/1 | [更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | 修改时间 |
-| 2019/3/1 | [Cloud voice in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 修改时间 |
-| 2019/3/1 | [免费拨出时段](/MicrosoftTeams/complimentary-dial-out-period) | 修改时间 |
-| 2019/3/1 | [在阿根廷的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina) | 修改时间 |
-| 2019/3/1 | [在澳大利亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 修改时间 |
-| 2019/3/1 | [在奥地利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | 修改时间 |
-| 2019/3/1 | [在巴林的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 修改时间 |
-| 2019/3/1 | [在白俄罗斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | 修改时间 |
-| 2019/3/1 | [在比利时的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | 修改时间 |
-| 2019/3/1 | [在伯利兹的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | 修改内容 |
-| 2019/3/1 | [在波斯尼亚 &amp; 黑塞哥维那的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina) | 修改时间 |
-| 2019/3/1 | [在巴西的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil) | 修改时间 |
-| 2019/3/1 | [在文莱的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei) | 修改时间 |
-| 2019/3/1 | [在保加利亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria) | 修改时间 |
-| 2019/3/1 | [在加拿大的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | 修改时间 |
-| 2019/3/1 | [在智利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile) | 修改时间 |
-| 2019/3/1 | [在中国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | 修改时间 |
-| 2019/3/1 | [在哥伦比亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia) | 修改时间 |
-| 2019/3/1 | [在哥斯达黎加的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica) | 修改时间 |
-| 2019/3/1 | [在克罗地亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia) | 修改时间 |
-| 2019/3/1 | [在塞浦路斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus) | 修改时间 |
-| 2019/3/1 | [在丹麦的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | 修改时间 |
-| 2019/3/1 | [在厄瓜多尔的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador) | 修改时间 |
-| 2019/3/1 | [在埃及的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt) | 修改时间 |
-| 2019/3/1 | [在萨尔瓦多的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | 修改内容 |
-| 2019/3/1 | [在爱沙尼亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia) | 修改时间 |
-| 2019/3/1 | [在芬兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland) | 修改时间 |
-| 2019/3/1 | [在法国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 修改时间 |
-| 2019/3/1 | [在格鲁吉亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia) | 修改时间 |
-| 2019/3/1 | [在德国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 修改时间 |
-| 2019/3/1 | [在希腊的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece) | 修改时间 |
-| 2019/3/1 | [在洪都拉斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | 修改时间 |
-| 2019/3/1 | [在中国香港的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | 修改时间 |
-| 2019/3/1 | [在匈牙利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary) | 修改时间 |
-| 2019/3/1 | [在印度的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 修改时间 |
-| 2019/3/1 | [在印度尼西亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia) | 修改时间 |
-| 2019/3/1 | [在爱尔兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | 修改时间 |
-| 2019/3/1 | [在以色列的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel) | 修改时间 |
-| 2019/3/1 | [在意大利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 修改时间 |
-| 2019/3/1 | [在日本的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 修改时间 |
-| 2019/3/1 | [在约旦的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan) | 修改时间 |
-| 2019/3/1 | [在肯尼亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya) | 修改时间 |
-| 2019/3/1 | [在拉脱维亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia) | 修改时间 |
-| 2019/3/1 | [在立陶宛的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania) | 修改时间 |
-| 2019/3/1 | [在卢森堡的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg) | 修改时间 |
-| 2019/3/1 | [在马其顿的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia) | 修改时间 |
-| 2019/3/1 | [在马来西亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia) | 修改时间 |
-| 2019/3/1 | [在马耳他的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta) | 修改时间 |
-| 2019/3/1 | [在墨西哥的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico) | 修改时间 |
-| 2019/3/1 | [在摩尔多瓦的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova) | 修改时间 |
-| 2019/3/1 | [在摩纳哥的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco) | 修改时间 |
-| 2019/3/1 | [在新西兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand) | 修改时间 |
-| 2019/3/1 | [在挪威的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway) | 修改时间 |
-| 2019/3/1 | [在巴基斯坦的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan) | 修改时间 |
-| 2019/3/1 | [在巴拿马的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama) | 修改时间 |
-| 2019/3/1 | [在巴拉圭的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay) | 修改时间 |
-| 2019/3/1 | [在秘鲁的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru) | 修改时间 |
-| 2019/3/1 | [在波兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland) | 修改时间 |
-| 2019/3/1 | [在葡萄牙的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | 修改时间 |
-| 2019/3/1 | [在波多黎各的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico) | 修改时间 |
-| 2019/3/1 | [在卡塔尔的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar) | 修改时间 |
-| 2019/3/1 | [在罗马尼亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania) | 修改时间 |
-| 2019/3/1 | [在俄罗斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia) | 修改时间 |
-| 2019/3/1 | [在沙特阿拉伯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | 修改时间 |
-| 2019/3/1 | [在塞尔维亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia) | 修改时间 |
-| 2019/3/1 | [在新加坡的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore) | 修改时间 |
-| 2019/3/1 | [在斯洛伐克的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia) | 修改时间 |
-| 2019/3/1 | [在斯洛文尼亚的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia) | 修改时间 |
-| 2019/3/1 | [在南非的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | 修改时间 |
-| 2019/3/1 | [在韩国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea) | 修改时间 |
-| 2019/3/1 | [在西班牙的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | 修改时间 |
-| 2019/3/1 | [在斯里兰卡的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | 修改时间 |
-| 2019/3/1 | [在瑞典的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | 修改时间 |
-| 2019/3/1 | [在瑞士的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 修改时间 |
-| 2019/3/1 | [在中国台湾的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | 修改时间 |
-| 2019/3/1 | [在泰国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand) | 修改时间 |
-| 2019/3/1 | [在捷克共和国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | 修改时间 |
-| 2019/3/1 | [在多米尼加共和国的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | 修改时间 |
-| 2019/3/1 | [在荷兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | 修改时间 |
-| 2019/3/1 | [在菲律宾的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines) | 修改时间 |
-| 2019/3/1 | [在乌克兰的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | 修改时间 |
-| 2019/3/1 | [在阿拉伯联合酋长国 (UAE) 的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae) | 修改时间 |
-| 2019/3/1 | [在英国 (U.K.) 的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | 修改时间 |
-| 2019/3/1 | [在美国 (U.S.) 的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | 修改时间 |
-| 2019/3/1 | [在特立尼达和多巴哥的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago) | 修改时间 |
-| 2019/3/1 | [在土耳其的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey) | 修改时间 |
-| 2019/3/1 | [在乌拉圭的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay) | 修改时间 |
-| 2019/3/1 | [在委内瑞拉的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela) | 修改时间 |
-| 2019/3/1 | [在越南的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam) | 修改时间 |
-| 2019/3/1 | [音频会议和通话套餐的国家/地区可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改时间 |
-| 2019/3/1 | [用户可以向这些国家和地区进行出站呼叫](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修改时间 |
-| 2019/3/1 | [设置电话系统自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改时间 |
-| 2019/3/1 | [创建电话系统呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改时间 |
-| 2019/3/1 | [创建并管理拨号计划](/MicrosoftTeams/create-and-manage-dial-plans) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的音频会议](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 修改时间 |
-| 2019/3/1 | [用于通话套餐的不同类型的电话号码](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 修改时间 |
-| 2019/3/1 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改时间 |
-| 2019/3/1 | [配置直接路由](/MicrosoftTeams/direct-routing-configure) | 修改时间 |
-| 2019/3/1 | [电话系统直接路由](/MicrosoftTeams/direct-routing-landing-page) | 修改时间 |
-| 2019/3/1 | [迁移到直接路由](/MicrosoftTeams/direct-routing-migrating) | 修改时间 |
-| 2019/3/1 | [对直接路由进行监视和故障排除](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 修改时间 |
-| 2019/3/1 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改时间 |
-| 2019/3/1 | [为多个租户配置会话边界控制器](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改时间 |
-| 2019/3/1 | [出站呼叫发生 Trunk 故障转移](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 修改时间 |
-| 2019/3/1 | [采用 PSTN 连接的混合环境中的用户帐户](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 修改时间 |
-| 2019/3/1 | [对特定 Teams 用户禁用免费电话号码](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 修改时间 |
-| 2019/3/1 | [音频会议和通话套餐的国家/地区可用性](/MicrosoftTeams/emergency-calling-labels) | 修改时间 |
-| 2019/3/1 | [紧急呼叫条款和条件](/MicrosoftTeams/emergency-calling-terms-and-conditions) | 修改时间 |
-| 2019/3/1 | [开始使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates) | 修改时间 |
-| 2019/3/1 | [适合于医疗保健组织的 Teams 模板入门](/MicrosoftTeams/healthcare/healthcare-templates) | 修改时间 |
-| 2019/3/1 | [以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改时间 |
-| 2019/3/1 | [可以获得多少个电话号码？](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 修改时间 |
-| 2019/3/1 | [语音邮件问候和消息所使用的语言](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 修改时间 |
-| 2019/3/1 | [为基于位置的路由配置网络设置](/MicrosoftTeams/location-based-routing-configure-network-settings) | 修改时间 |
-| 2019/3/1 | [为直接路由启用基于位置的路由](/MicrosoftTeams/location-based-routing-enable) | 修改时间 |
-| 2019/3/1 | [为直接路由计划基于位置的路由](/MicrosoftTeams/location-based-routing-plan) | 修改时间 |
-| 2019/3/1 | [基于位置的路由术语](/MicrosoftTeams/location-based-routing-terminology) | 修改时间 |
-| 2019/3/1 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修改时间 |
-| 2019/3/1 | [澳大利亚的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 修改时间 |
-| 2019/3/1 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改时间 |
-| 2019/3/1 | [加拿大的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修改时间 |
-| 2019/3/1 | [法国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 修改时间 |
-| 2019/3/1 | [德国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 修改时间 |
-| 2019/3/1 | [爱尔兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 修改时间 |
-| 2019/3/1 | [西班牙的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 修改时间 |
-| 2019/3/1 | [荷兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 修改时间 |
-| 2019/3/1 | [英国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 修改时间 |
-| 2019/3/1 | [美国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修改时间 |
-| 2019/3/1 | [在 Microsoft Teams 中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | 修改时间 |
-| 2019/3/1 | [在 Microsoft Teams 中管理贵组织的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 修改时间 |
-| 2019/3/1 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 联机通话流程](/MicrosoftTeams/microsoft-teams-online-call-flows) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中用于音频会议的电话号码](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 的电话功能](/MicrosoftTeams/phones-for-teams) | 修改时间 |
-| 2019/3/1 | [在 Microsoft Teams 中设置音频会议自动助理语言](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | 修改时间 |
-| 2019/3/1 | [在 Microsoft Teams 中设置音频会议的 PIN 长度](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | 修改时间 |
-| 2019/3/1 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改时间 |
-| 2019/3/1 | [为 Microsoft Teams 设置公共区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改时间 |
-| 2019/3/1 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改时间 |
-| 2019/3/1 | [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改时间 |
-| 2019/3/1 | [设置组织内的电话系统](/MicrosoftTeams/setting-up-your-phone-system) | 修改时间 |
-| 2019/3/1 | [免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 修改时间 |
-| 2019/3/1 | [阿根廷的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 修改时间 |
-| 2019/3/1 | [白俄罗斯的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | 修改时间 |
-| 2019/3/1 | [伯利兹的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize) | 修改时间 |
-| 2019/3/1 | [波斯尼亚和黑塞哥维那的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina) | 修改时间 |
-| 2019/3/1 | [巴西的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil) | 修改时间 |
-| 2019/3/1 | [文莱的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei) | 修改时间 |
-| 2019/3/1 | [保加利亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria) | 修改时间 |
-| 2019/3/1 | [智利的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile) | 修改时间 |
-| 2019/3/1 | [中国的免费拨号限制 - 北部（10 800 714 XXXX 范围）](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range) | 修改时间 |
-| 2019/3/1 | [中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range) | 修改时间 |
-| 2019/3/1 | [哥伦比亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia) | 修改时间 |
-| 2019/3/1 | [克罗地亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia) | 修改时间 |
-| 2019/3/1 | [塞浦路斯的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus) | 修改时间 |
-| 2019/3/1 | [丹麦的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | 修改时间 |
-| 2019/3/1 | [厄瓜多尔的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador) | 修改时间 |
-| 2019/3/1 | [埃及的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | 修改时间 |
-| 2019/3/1 | [爱沙尼亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia) | 修改时间 |
-| 2019/3/1 | [芬兰的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland) | 修改时间 |
-| 2019/3/1 | [法国的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france) | 修改时间 |
-| 2019/3/1 | [德国的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany) | 修改时间 |
-| 2019/3/1 | [洪都拉斯的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras) | 修改时间 |
-| 2019/3/1 | [中国香港的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong) | 修改时间 |
-| 2019/3/1 | [匈牙利的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary) | 修改时间 |
-| 2019/3/1 | [印度的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india) | 修改时间 |
-| 2019/3/1 | [印度尼西亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia) | 修改时间 |
-| 2019/3/1 | [爱尔兰的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland) | 修改时间 |
-| 2019/3/1 | [以色列的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel) | 修改时间 |
-| 2019/3/1 | [日本的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan) | 修改时间 |
-| 2019/3/1 | [肯尼亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya) | 修改时间 |
-| 2019/3/1 | [卢森堡的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg) | 修改时间 |
-| 2019/3/1 | [马来西亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia) | 修改时间 |
-| 2019/3/1 | [墨西哥的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico) | 修改时间 |
-| 2019/3/1 | [摩尔多瓦的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova) | 修改时间 |
-| 2019/3/1 | [摩纳哥的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco) | 修改时间 |
-| 2019/3/1 | [巴拿马的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama) | 修改时间 |
-| 2019/3/1 | [巴拉圭的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay) | 修改时间 |
-| 2019/3/1 | [秘鲁的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru) | 修改时间 |
-| 2019/3/1 | [波兰的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland) | 修改时间 |
-| 2019/3/1 | [葡萄牙的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | 修改时间 |
-| 2019/3/1 | [卡塔尔的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar) | 修改时间 |
-| 2019/3/1 | [罗马尼亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania) | 修改时间 |
-| 2019/3/1 | [沙特阿拉伯的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia) | 修改时间 |
-| 2019/3/1 | [塞尔维亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia) | 修改时间 |
-| 2019/3/1 | [新加坡的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore) | 修改时间 |
-| 2019/3/1 | [斯洛伐克的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia) | 修改时间 |
-| 2019/3/1 | [斯洛文尼亚的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia) | 修改时间 |
-| 2019/3/1 | [南非的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa) | 修改时间 |
-| 2019/3/1 | [韩国的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea) | 修改时间 |
-| 2019/3/1 | [西班牙的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain) | 修改时间 |
-| 2019/3/1 | [瑞典的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | 修改时间 |
-| 2019/3/1 | [中国台湾的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan) | 修改时间 |
-| 2019/3/1 | [泰国的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand) | 修改时间 |
-| 2019/3/1 | [荷兰的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands) | 修改时间 |
-| 2019/3/1 | [菲律宾的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines) | 修改时间 |
-| 2019/3/1 | [阿拉伯联合酋长国的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates) | 修改时间 |
-| 2019/3/1 | [英国 (U.K.) 的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k) | 修改时间 |
-| 2019/3/1 | [土耳其的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey) | 修改时间 |
-| 2019/3/1 | [乌拉圭的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay) | 修改时间 |
-| 2019/3/1 | [委内瑞拉的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela) | 修改时间 |
-| 2019/3/1 | [越南的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 修改时间 |
-| 2019/3/1 | [将电话号码转接到 Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | 修改时间 |
-| 2019/3/1 | [转接电话号码常见问题](/MicrosoftTeams/transferring-phone-numbers-common-questions) | 修改时间 |
-| 2019/3/1 | [为 Microsoft Teams 试用或购买 Office 365 中的音频会议](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 修改时间 |
-| 2019/3/1 | [什么是通信点数？](/MicrosoftTeams/what-are-communications-credits) | 修改时间 |
-| 2019/3/1 | [什么是拨号计划？](/MicrosoftTeams/what-are-dial-plans) | 修改时间 |
-| 2019/3/1 | [什么是紧急位置、地址和呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改时间 |
-| 2019/3/1 | [什么是电话系统自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修改时间 |
-| 2019/3/1 | [Office 365 中的电话系统是什么？](/MicrosoftTeams/what-is-phone-system-in-office-365) | 修改时间 |
-| 2019/3/1 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改时间 |
+| 2019/4/1 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改内容 |
+| 2019/4/1 | [在 Microsoft Teams 中授权来宾访问](/MicrosoftTeams/teams-dependencies) | 修改内容 |
+| 2019/4/1 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 2019/4/1 | [将 StaffHub 团队迁移到 Microsoft Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
+| 2019/4/1 | [适用于医疗保健业的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | 修改内容 |
+| 2019/4/1 | [打开并使用通话质量仪表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修改内容 |
+| 2019/4/1 | [Microsoft Teams 技术文档](/MicrosoftTeams/microsoft-teams) | 修改内容 |
+| 2019/4/1 | [通话分析和通话质量仪表板](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 修改内容 |
+| 2019/4/2 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
+| 2019/4/2 | [使用 Microsoft Teams 增强现有 Office 365 组](/MicrosoftTeams/enhance-office-365-groups) | 修改内容 |
+| 2019/4/2 | [适用于零售业的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | 修改内容 |
+| 2019/4/2 | [在 Microsoft Teams 中创建首批团队和频道](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 修改内容 |
+| 2019/4/2 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
+| 2019/4/2 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 2019/4/2 | [为 Surface Hub 部署 Microsoft Teams](/MicrosoftTeams/teams-surface-hub) | 修改内容 |
+| 2019/4/2 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改内容 |
+| 2019/4/2 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
+| 2019/4/2 | [使用 Microsoft Teams 范围目录搜索](/MicrosoftTeams/teams-scoped-directory-search) | 修改内容 |
+| 2019/4/2 | [Microsoft StaffHub 将停用](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 修改内容 |
+| 2019/4/2 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 2019/4/3 | [比利时的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium) | 添加时间 |
+| 2019/4/3 | [Microsoft StaffHub 将停用](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 修改内容 |
+| 2019/4/3 | [免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 修改内容 |
+| 2019/4/3 | [Teams 中我的转网订单的状态是什么？](/MicrosoftTeams/what-s-the-status-of-my-port-orders-in-teams) | 添加时间 |
+| 2019/4/3 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
+| 2019/4/3 | [以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
+| 2019/4/3 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
+| 2019/4/5 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
+| 2019/4/5 | [快速入门指南 - 在 Microsoft Teams 中配置通话套餐](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | 修改内容 |
+| 2019/4/5 | [将 StaffHub 团队迁移到 Microsoft Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
+| 2019/4/5 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
+| 2019/4/5 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 2019/4/5 | [为 Microsoft Teams 准备组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
+| 2019/4/5 | [Teams 中的用户状态](/MicrosoftTeams/presence-admins) | 修改内容 |
+| 2019/4/5 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
+| 2019/4/5 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 2019/4/5 | [在 Microsoft Teams 中管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
+| 2019/4/5 | [什么是电话系统自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修改内容 |
+| 2019/4/5 | [在 Microsoft Teams 中授权来宾访问](/MicrosoftTeams/teams-dependencies) | 修改内容 |
+| 2019/4/5 | [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修改时间 |
