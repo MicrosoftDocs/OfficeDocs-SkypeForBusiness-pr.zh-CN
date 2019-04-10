@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文概述了什么影响客户应知道并执行的操作及其业务连续性规划。
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026242"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740931"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持  
 
@@ -66,7 +66,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 3. **规划自动助理的迁移**
     
-    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置电话系统自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
+    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置电话系统自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
 
 4. **规划您的语音邮件迁移后验证和测试**
 
@@ -95,8 +95,8 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 | 服务 | 功能级别 | 功能 | 注释  | 云 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| 虚拟机  | 服务功能| 支持第三方 PBX    |  | 否   | 是    |
-| 虚拟机 | 服务功能  | 支持的业务服务器 Skype   |  | Q1CY19 | Y    |
+| 虚拟机  | 服务功能| 支持第三方 PBX    | 包括所有功能，提供如 MWI （消息等待指示器） 的第三方 PBX 使用 SIP 通知来自 Exchange UM Online 邮件 | 否   | 是    |
+| 虚拟机 | 服务功能  | 支持的业务服务器 Skype   |  | 是 | Y    |
 | 虚拟机 | 服务功能 | 支持的 Microsoft 团队|  | 是 | 否    |
 | 虚拟机 | 服务功能 | 电子数据展示和保留  | 安全性和相容性  | Y | Y    |
 | 虚拟机 | 服务功能 | Exchange 规则支持 | 安全性和相容性  | Y | Y    |
@@ -119,7 +119,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 | 虚拟机 | 用户功能 | 发送到一组用户的语音邮件  |语音邮件广播   | 否 | 是   |
 | 虚拟机 | 用户功能 | 使用 SMS 的语音邮件通知    | 当有新的语音邮件时，用户可接收 SMS    | 否 | 是    |
 | 虚拟机 | 用户功能 | 支持的问候语语言 | 此处详细信息：https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 是 | Y    |
-| 虚拟机 | 用户功能 | 呼叫应答规则 |  | Q1CY19 | Y    |
+| 虚拟机 | 用户功能 | 呼叫应答规则 |  | 是 | Y    |
 | 虚拟机 | 用户功能 | 在 (PSTN) 电话上播放-播放消息 | 呼叫我我单元格以收听语音邮件  | 否 | 是    |
 | 虚拟机 | 用户功能 | 在电话 （身份验证） 上播放-播放消息 | 呼叫我我经过身份验证的设备上  | 是 | Y    |
 | 虚拟机 | 用户功能 | 多个用户之间共享的邮箱 |  | 是 | Y    |

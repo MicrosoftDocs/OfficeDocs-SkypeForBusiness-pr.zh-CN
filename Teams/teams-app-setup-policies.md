@@ -19,16 +19,16 @@ search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517100"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749746"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 作为一名管理员，您可以使用应用程序设置策略自定义 Microsoft 团队以突出显示您的用户的最重要的应用程序。 选择锁定并设置它们出现的顺序的应用程序。 应用程序安装策略允许您展示您的组织中的用户需要包括由第三方或由组织中的开发人员构建的应用程序。 您还可以使用应用程序安装策略管理如何内置功能显示。
 

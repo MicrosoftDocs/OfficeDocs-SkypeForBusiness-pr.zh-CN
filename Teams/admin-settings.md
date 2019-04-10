@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520145"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749666"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 应用程序提供的框工具为您的组织，以获取更多团队。 这些应用程序的选项卡、 消息扩展、 连接符和自动程序由 Microsoft，构建通过第三方，或在组织中的开发人员提供的功能组合。
 
@@ -38,7 +36,7 @@ ms.locfileid: "31520145"
 
 ## <a name="app-permission-policies"></a>应用程序的权限策略
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 使用应用程序权限策略，您可以阻止或允许应用程序，组织范围内或为特定用户。  当阻止应用程序时，请禁用所有交互均需使用该应用程序和应用程序不会为用户显示团队。
 
@@ -52,7 +50,7 @@ ms.locfileid: "31520145"
 
 ## <a name="app-setup-policies"></a>应用程序设置策略
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 应用程序设置策略允许您自定义您的用户的应用程序体验。 选择您想要固定到应用程序栏中的团队客户端和顺序出现的顺序，web、 桌面和移动客户端的应用程序。
 
@@ -64,7 +62,7 @@ ms.locfileid: "31520145"
 
 ## <a name="custom-app-policies-and-settings"></a>自定义应用程序策略和设置
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 团队使组织构建、 测试和部署到其他用户的自定义应用程序中的开发人员。 自定义应用程序可以直接向团队或个人上下文中上载.zip 文件中的应用程序包添加到团队。 您可以使用应用程序设置策略以控制哪些人在组织中可以上载自定义应用程序。 您还可以设置组织范围的设置来控制用户是否可以与特定的自定义应用程序进行交互。
 

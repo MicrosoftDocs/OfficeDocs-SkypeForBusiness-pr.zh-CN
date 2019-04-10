@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516939"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744277"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
@@ -74,6 +74,8 @@ ms.locfileid: "31516939"
 [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[设置 CsOnlineVoiceUser cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  

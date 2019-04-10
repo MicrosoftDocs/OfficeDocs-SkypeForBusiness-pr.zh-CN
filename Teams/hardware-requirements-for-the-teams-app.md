@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f699352625d512c20e6b0b0b2384a08eafcb1872
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891625"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749674"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -62,6 +62,10 @@ ms.locfileid: "30891625"
 - Android-需要 Android 4.4 或更高版本
 
 - iOS-需要 iOS 10.0 或更高版本。 与 iPhone、 iPad 和 iPod touch 兼容。
+
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虚拟桌面基础结构 (VDI) 环境中的团队应用程序的硬件要求
+
+有关虚拟化环境中运行的团队的要求，请参阅[虚拟化桌面基础结构团队](teams-for-vdi.md)。 
 
 ### <a name="related-topics"></a>相关主题
 - [获取团队应用程序](get-clients.md)

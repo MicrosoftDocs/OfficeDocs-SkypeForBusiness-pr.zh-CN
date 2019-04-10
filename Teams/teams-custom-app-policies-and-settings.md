@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 团队中自定义应用程序策略和设置
+title: 在 Microsoft Teams 中管理自定义应用策略和设置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理自定义应用程序策略和设置以控制哪些人在组织中可以上载的 Microsoft 团队中的自定义应用程序。
-ms.openlocfilehash: f914048c33bf611c53646d7d512c6af276209960
-ms.sourcegitcommit: 1337975398a750bc06d2b03a7d6eb61716dcefb0
+ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "30677217"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749754"
 ---
-# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 团队中自定义应用程序策略和设置
+# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 作为一名管理员，您可以使用自定义应用程序策略和设置以控制哪些人在您的组织可以将自定义应用程序上载到 Microsoft 团队。 管理员决定哪些用户可以上载自定义应用程序，并 admins 和团队所有者可以确定组织中的特定小组是否允许向它们添加自定义应用程序。  
 
@@ -48,7 +48,7 @@ ms.locfileid: "30677217"
 
 ### <a name="user-custom-app-policy"></a>用户自定义应用程序策略
 
-作为[应用程序设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置，**用户可以上载自定义应用程序**，来控制用户是否可以上载自定义应用程序向工作组。
+作为[应用程序设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置，**允许上载自定义应用程序**，来控制用户可以将自定义应用程序上载到团队是否。
  
 如果此设置处于关闭状态：
 
@@ -67,7 +67,7 @@ ms.locfileid: "30677217"
 
 1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **设置策略**。
 2. 选择**新策略**。
-3. 打开或关闭**用户可以上载自定义应用程序**。
+3. 打开或关闭**允许上载自定义应用程序**。
 4. 选择您要为策略的任何其他设置。
 5. 单击“**保存**”。
 
