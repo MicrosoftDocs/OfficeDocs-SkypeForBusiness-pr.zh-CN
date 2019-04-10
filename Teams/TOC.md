@@ -101,6 +101,7 @@
 #### [使用 MSI 安装 Teams](msi-deployment.md)
 #### [在组织中打开 Teams](Office-365-set-up.md)
 #### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
+#### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 #### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
 
 ### 许可
