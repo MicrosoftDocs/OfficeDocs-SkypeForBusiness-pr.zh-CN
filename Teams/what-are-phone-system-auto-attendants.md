@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是电话系统自动助理以及如何使用它们。
-ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517252"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808083"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
 
@@ -57,12 +57,16 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 - 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
 - 如果您打算分配一个直接路由号，则需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项\)。
 - 如果要改用分配 Microsoft 服务号码，您需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项调用规划\)。
+- 您只需使用的电话号码分配给他们许可资源帐户。 在嵌套的自动助理或呼叫队列中，您不需要许可证自动助理的其余部分或呼叫队列，如果没有与其关联的电话号码。 
+
+> [!NOTE]
+> 直接路由服务号码自动助理和呼叫队列此时仅支持的 Microsoft 团队用户和代理。
 
 > [!NOTE] 
 > 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
     
-    > [!TIP]
-    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > [!TIP]
+   > 要重定向呼叫的运算符或联机用户与**电话系统**许可证的菜单选项，您将需要启用企业语音或分配给它们的调用计划。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要获取并使用自动助理服务免费电话号码，您需要设置 Communications 字幕式。 若要执行此操作，请参阅[Communications 字幕式是什么？](what-are-communications-credits.md)并[设置为您的组织的通信字幕式](set-up-communications-credits-for-your-organization.md)。
 
@@ -130,7 +134,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 |:-----|:-----|:-----|:-----|
 |名字 + 姓氏 |完整 |Amos Marble |Amos Marble |
 |姓氏 + 名字 |完整  |Marble Amos |Amos Marble |
-|名字 |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
+|FirstName |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
 |姓氏 |完整 |Marble |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble |
 
 > [!NOTE]

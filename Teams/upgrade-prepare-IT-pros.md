@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50102058aa14d988ad92bf832609500e049d6174
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459617"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765202"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -38,8 +38,8 @@ ms.locfileid: "30459617"
 与您的 IT 员工成员共享的以下资源，并确认他们准备好开始升级到团队之前支持用户：
 
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
-- [Microsoft Teams 的支持资源](support-resources.md)
-- [对 Microsoft Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
+- [与支持部门联系业务产品的管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [使用 Microsoft Teams 客户端解决连接性问题](connectivity-issues.md)
 - [在对 Microsoft Teams 进行故障排除时使用日志文件](log-files.md)
 
 [//]: # (提出 Debbie 来仔细检查：)

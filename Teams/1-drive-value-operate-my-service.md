@@ -15,12 +15,12 @@ description: 任务和所需的团队服务管理，包括监视服务运行状�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569476"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765178"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -440,7 +440,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 4.  **访问的 Microsoft 团队社区：**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)团队提供专用的空格。 团队社区提供讨论列表、 博客帖子和团队为中心的通知。 可以将问题发布到或搜索解决方案的上述讨论与您的问题。
 
-5.  **与 Microsoft 支持部门联系：** 您可以问题的团队联机或通过电话联系 Microsoft 支持。 有关信息，请参阅[支持的 Microsoft 团队的联系人](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+5.  **与 Microsoft 支持部门联系：** 您可以问题的团队联机或通过电话联系 Microsoft 支持。 有关信息，请参阅[业务产品支持的联系人](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
     有关高级客户，可以执行在指南启动请求的支持[与支持部门联系的 Microsoft 团队 (高级客户)](https://support.microsoft.com/premier/contacts)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
@@ -457,7 +457,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 客户端](get-clients.md)
+[获取 Microsoft Teams 的客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -465,7 +465,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [验证 Microsoft Teams 的服务运行状况](service-health.md)
 
-[与支持部门联系业务产品的管理员帮助](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[与支持部门联系业务产品的管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [联系人 Premier support](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 根据您的组织增长或缩短，很重要计划许可当前和将来的需求。 没有基本团队许可证，除了许可云语音功能 （[电话系统](here-s-what-you-get-with-phone-system.md)和[音频会议](https://products.office.com/skype-for-business/audio-conferencing)）。
 
-对于团队，电话系统的许可证要求相关[调用规划](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)许可证。 调用许可计划，可以发起和接收国内和/或国际电话呼叫。 这些计划是基于使用的以及与它们具有 minute 池关联。 设置[Communications 字幕式](what-are-communications-credits.md)将确保从不运行停用。
+对于团队，电话系统的许可证要求相关[调用计划](calling-plan-landing-page.md)许可证。 调用许可计划，可以发起和接收国内和/或国际电话呼叫。 这些计划是基于使用的以及与它们具有 minute 池关联。 设置[Communications 字幕式](what-are-communications-credits.md)将确保从不运行停用。
 
 音频会议允许 tolled 电话拨入式会议和国内拨出式会议服务。 免费电话拨入式会议或非国内拨出方案可能导致您的哪些[Communications 字幕式](what-are-communications-credits.md)种额外费用所需。
 

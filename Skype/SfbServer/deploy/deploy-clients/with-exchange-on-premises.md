@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: 阅读此主题以如何与本地 Exchange 混合环境中部署 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: b6c10635180d5707982efbc259eca577c45b1638
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 664f6d210858b42591dcbb4461b858646e5cb933
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012515"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31807981"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>部署与 Exchange 本地的 Microsoft 团队聊天室
 
@@ -53,7 +53,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>创建一个帐户并与 Active Directory 同步
 
-1. 在**Active Directory 用户和计算机 AD**工具中，右键单击该组织单位中，将在创建帐户您 Microsoft 团队聊天室单击**新建**，然后单击**用户**或文件夹。
+1. 在**Active Directory 用户和计算机**工具中，右键单击您在中，将在创建帐户的 Microsoft 团队聊天室单击**新建**，然后单击**用户**的组织单位的文件夹。
 
 2. 将上一个 cmdlet 中的显示名称键入“**全名**”框中，将别名键入“**用户登录名**”框中。单击“**下一步**”。
 

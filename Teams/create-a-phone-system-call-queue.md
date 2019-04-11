@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置电话系统呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫的电话系统。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026226"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808059"
 ---
 # <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
 
@@ -60,9 +60,13 @@ Phone System call queues include greetings that are used when someone calls in t
 
 要开始使用呼叫队列，记住以下几点至关重要：
   
-- 自动助理需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
+- 呼叫队列需要具有关联的资源帐户。 有关资源帐户的详细信息，请参阅[团队中的管理资源帐户](manage-resource-accounts.md)。
 - 如果您打算分配一个直接路由号，则需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项\)。
 - 如果要改用分配 Microsoft 服务号码，您需要获取并将以下许可证分配给资源帐户\(Office 365 企业版 E1、 E3 或 E5，与电话系统加载项调用规划\)。
+- 您只需使用的电话号码分配给他们许可资源帐户。 在嵌套的自动助理或呼叫队列中，您不需要许可证自动助理的其余部分或呼叫队列，如果没有与其关联的电话号码。 
+
+> [!NOTE] 
+> 直接路由服务号码自动助理和呼叫队列此时仅支持的 Microsoft 团队用户和代理。
 
 > [!NOTE] 
 > 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
