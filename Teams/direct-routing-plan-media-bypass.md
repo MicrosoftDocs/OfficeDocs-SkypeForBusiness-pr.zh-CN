@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何规划媒体绕过与电话系统直接路由。
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517244"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827878"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -66,7 +66,7 @@ ms.locfileid: "31517244"
 
 下图显示启用媒体绕过时的呼叫流和客户端是内部客户端可达到 SBC （直接媒体） 的公共 IP 地址： 
 
-- 箭头和数字值的路径是根据 Microsoft 团队联机呼叫流文档。
+- 箭头和数字值的路径是根据[Microsoft 团队呼叫流](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)文章。
 
 - SIP 信号总是采用路径 4 和 4 （取决于通信的方向）。 媒体保持本地和采用路径 5b。
 
@@ -87,7 +87,7 @@ ms.locfileid: "31517244"
 
 下图显示启用媒体绕过时的呼叫流和客户端是外部客户端无法访问的会话边界控制器 （媒体中继的团队传输中继） 的公共 IP 地址。
 
-- 箭头和数字值的路径是根据 Microsoft 团队联机呼叫流文档。
+- 箭头和数字值的路径是根据[Microsoft 团队呼叫流](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)文章。
 
 - 媒体中继通过路径 3，3，4，4
 
@@ -101,7 +101,7 @@ ms.locfileid: "31517244"
 
 下图显示启用媒体绕过时的呼叫流和客户端是外部客户端可达到 SBC （直接媒体） 的公共 IP 地址。
 
-- 箭头和数字值的路径是根据 Microsoft 团队联机呼叫流文档。
+- 箭头和数字值的路径是根据[Microsoft 团队呼叫流](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)文章。
 
 - SIP 信号总是采用路径 3 和 3 （取决于通信的方向）。 使用路径 2 的媒体流。
 
@@ -125,7 +125,7 @@ ms.locfileid: "31517244"
 
 - SIP 代理服务器是转换 HTTP REST 信号 SIP 团队中使用的组件。    
 
-![显示显示两个呼叫流 – 媒体绕过与启用和禁用媒体旁路与第二个）](media/direct-routing-media-bypass-6.png)
+![显示两个呼叫流 – 一个启用媒体绕过，存在媒体绕过禁用第二个）](media/direct-routing-media-bypass-6.png)
 
 
 下表总结了媒体处理器和传输中继之间的差异。
