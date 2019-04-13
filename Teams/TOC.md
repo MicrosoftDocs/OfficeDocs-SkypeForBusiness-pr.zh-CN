@@ -145,7 +145,7 @@
 ### [教程：Teams 中的音频会议](Tutorial-Audio-Conferencing.yml)
 ### [试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [音频会议免费播出时段](complimentary-dial-out-period.md)
-
+### [音频会议订阅“拨出”/“给我打电话”的好处](audio-conferencing-subscription-dial-out.md)
 
 ### [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
 
@@ -703,7 +703,7 @@
 
 ## 故障排除与支持
 ### [Teams 的已知问题](Known-issues.md)
-### [Teams 的支持资源](support-resources.md)
+### [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ### [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 ### [验证 Teams 的服务运行状况](service-health.md)
