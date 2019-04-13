@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS 旨在消除用户运行会议迁移工具需要更新其 Skype 业务和 Microsoft 团队的会议。
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019573"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836853"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
@@ -41,7 +41,7 @@ ms.locfileid: "28019573"
 默认情况下 MMS 是自动触发中每种情况下，尽管管理员可以禁用它在租户级别。 此外，管理员可以使用 PowerShell cmdlet 以手动触发给定用户的会议迁移。
 
 > [!NOTE]
-> 将 Skype 转换业务团队会议的会议的功能和更新现有团队会议修改音频会议设置的能力是当前限制为仅点击客户。
+> 将 Skype 转换业务团队会议的会议的功能和更新现有团队会议修改音频会议设置的能力是当前限制为仅点击客户。 Microsoft 希望使此功能的所有客户当时中可用 2019 年 5。
 
 **限制**： 会议如果以下任一情况，不能使用迁移服务：
 
@@ -113,7 +113,7 @@ ms.locfileid: "28019573"
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>更新会议分配 TeamsUpgradePolicy 时
 
 > [!NOTE]
-> 本节介绍目前仅适用于点击客户的功能。
+> 本节介绍目前仅适用于点击客户的功能。 Microsoft 希望使此功能的所有客户当时中可用 2019 年 5。
 
 默认情况下，会议迁移时，会自动触发向用户授予实例`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode= SfBWithTeamsCollabAndMeetings`。 如果您不希望将会议迁移授予这些模式，之一时，然后指定`MigrateMeetingsToTeams $false`中`Grant-CsTeamsUpgradePolicy`。
 
