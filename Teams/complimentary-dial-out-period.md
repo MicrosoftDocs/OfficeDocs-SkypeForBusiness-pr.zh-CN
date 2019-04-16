@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
+ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569635"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "31875018"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -35,6 +35,10 @@ ms.locfileid: "30569635"
 
 Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
+### <a name="end-of-complimentary-dial-out-period"></a>互补拨出时间段的末尾
+
+开始年 12 月 1 2019年互补拨出功能将结束。 有关其他详细信息，请参阅[音频会议订阅拨出和福利以下方式呼叫我](audio-conferencing-subscription-dial-out.md)。 
+
 ### <a name="complimentary-dial-out-period-details"></a>互补拨出期间的详细信息
 
 对于采用我们 Office 365 音频会议服务的客户，Microsoft 将提供相关从分配年 6 月 2019年通过 Office 365 音频会议订阅许可证的用户组织的会议拨出其他互补好处。 在此互补期间，Microsoft 允许会议组织者或与会者授权定义在会议策略设置，电话拨出式从发起呼叫在会议中的对非 premium 电话号码在下面列出的 44"区域的"国家/地区。 此优点是适用于音频会议每月订阅许可证，并且不会扩展到音频会议付薪每分钟许可证。
