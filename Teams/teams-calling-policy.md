@@ -3,7 +3,7 @@ title: 调用中的 Microsoft 团队的策略
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
-ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2019
-ms.locfileid: "31860256"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869803"
 ---
-<a name="calling-policy-in-microsoft-teams"></a>调用中的 Microsoft 团队的策略
+<a name="calling-policies-in-microsoft-teams"></a>调用中的 Microsoft 团队的策略
 ==========================================
 
 在 Microsoft 团队中，调用策略控制的呼叫和呼叫转接功能是对用户可用。 呼叫策略确定是否用户可以接听私人电话，使用呼叫转接或同时响铃到其他用户或外部电话号码，将呼叫路由到语音邮件，呼叫组发送呼叫使用的入站和出站呼叫委派，依此类推。 默认全局策略自动创建的但管理员还可以创建和分配调用的自定义策略。
@@ -41,6 +41,14 @@ ms.locfileid: "31860256"
 |允许入站和出站呼叫的委派 | 允许入站的呼叫路由到的代理人;允许代理人发起出站呼叫代表他们具有其委派权限的用户。 |
 |阻止收费绕过和发送通过 PSTN 呼叫 | 将其设置为**上**将将通过 PSTN 的呼叫发送，并会导致费用，而不经由网络和绕过费。 |
 |在呼叫中可用时在闲忙。| 配置如何传入呼叫在用户已在呼叫或会议时进行处理。 新的或传入呼叫可以被拒绝，并繁忙信号。 |
+
+### <a name="busy-options-busy-on-busy-setting"></a>闲选项 （忙/闲设置）
+
+忙选项是允许您配置如何传入呼叫的呼叫策略处理用户已在呼叫或会议或上发出呼叫时的团队中的新设置保留。 新的或传入呼叫可以被拒绝，并繁忙信号。 您可以启用忙选项在租户级别或用户级别。 
+
+无论其忙选项的配置方式，呼叫或会议或呼叫置于保持状态的那些将不阻止用户发起新呼叫或会议。
+
+您可以使用中调用策略设置忙设置忙碌配置忙选项。 默认情况下禁用此设置。
 
 ## <a name="create-a-custom-calling-policy"></a>创建自定义调用策略
 

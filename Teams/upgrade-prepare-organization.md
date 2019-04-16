@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76367a02920500a8e329ff5a2fa984f922d763ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465041"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869819"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
@@ -36,7 +36,7 @@ ms.locfileid: "30465041"
 为实现最大值从团队，用户必须实际使用该，但获取用户可以更改它们的工作的方式通常不容易。 需要了解您的用户和设计右侧的准备工作计划的时间可帮助加快更改并加快团队的。 应与技术准备准备并行完成这些活动：
 
 - [评估组织更改准备](https://aka.ms/OrgReadiness)： 这包括了解您用户是谁，他们将如何使用新技术，以及它们适应难易程度变化。 这也是确定特定用户配置文件将从重点入职培训从中受益的机会。
-- [准备用户准备工作计划](https://aka.ms/UserReadinessPlan)： 组成认知、 培训和支持活动，您的准备工作计划应解决这两个广泛的用户群和目标[评估更改准备](https://aka.ms/OrgReadiness)一文中的标识为配置文件。
+- [准备用户准备工作计划](https://aka.ms/UserReadinessPlan)： 组成认知、 培训和支持活动，您准备计划应该处理您的广泛的用户群体和目标的配置文件，如[评估更改准备](https://aka.ms/OrgReadiness)一文中标识。
 
 > [!Tip]
 > 下载的模板用户准备情况材料，如通信和用户调查，除了升级项目计划示例和试点测试计划[升级成功工具包](https://aka.ms/UpgradeSuccessKit)。

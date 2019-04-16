@@ -15,14 +15,14 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408264"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869843"
 ---
-# <a name="set-qos-on-windows-clients"></a>设置 Windows 客户端上的 QoS
+# <a name="set-qos-on-windows-clients"></a>在 Windows 客户端上设置 QoS
 
 您可以使用基于策略的 QoS 组策略中设置团队客户端中的预定义的 DSCP 值的源端口范围。 下表中指定的端口范围是要创建的每个工作负荷策略的起始点。
 
@@ -37,7 +37,7 @@ _建议初始端口范围_
 
 只要有可能，配置组策略对象中基于策略的 QoS 设置。 以下步骤是非常类似于[配置端口范围和客户端 Skype 业务服务器上的服务质量策略](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)，上面有可能不需要某些其他详细信息。
 
-若要创建的 domian 加入 Windows 10 计算机音频 QoS 策略，首次登录到计算机上安装的组策略管理。 打开组策略管理 （单击开始、 管理工具，，然后单击组策略管理），然后完成以下步骤：
+若要创建的加入域的 Windows 10 计算机音频 QoS 策略，首次登录到计算机上安装的组策略管理。 打开组策略管理 （单击开始、 管理工具，，然后单击组策略管理），然后完成以下步骤：
 
 1. 在组策略管理中，找到应在其中创建新策略的容器。 例如，如果您的所有客户端计算机位于名为**客户端**OU，应客户端 OU 中创建新策略。
 
