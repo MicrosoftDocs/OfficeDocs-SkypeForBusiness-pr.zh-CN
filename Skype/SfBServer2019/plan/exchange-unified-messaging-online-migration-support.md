@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 按年 2 月 2020 retiring Exchange 统一消息在线 (ExchUMO) 服务。 本文概述了什么影响客户应知道并执行的操作及其业务连续性规划。
-ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
+ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740931"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914675"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持  
 
@@ -66,7 +66,7 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 3. **规划自动助理的迁移**
     
-    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置电话系统自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
+    管理员可以开始在任何时候其自动助理 ExchUMO 从迁移到云自动助理。 有关详细信息，请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。 Microsoft 计划以提供其他客户考虑关键的按年 3 月 2019年其迁移的自动助理功能。 管理员应评估的功能集，并相应地迁移其自动助理实例。 功能列表比较，请参阅[ExchUMO 和 Azure 基于云的服务功能组合](#exchumo-and-azure-cloud-based-services-feature-matrix)。
 
 4. **规划您的语音邮件迁移后验证和测试**
 
@@ -197,4 +197,4 @@ Microsoft 已发现的占用 ExchUMO 功能并将帮助客户迁移基于以下�
 
 #### <a name="admin-auto-attendant-management-experience"></a>管理自动助理管理体验 
 
-请参阅[设置电话系统自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)以详细了解如何配置和管理自动助理。 
+请参阅[Set up 云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)以详细了解如何配置和管理自动助理。 

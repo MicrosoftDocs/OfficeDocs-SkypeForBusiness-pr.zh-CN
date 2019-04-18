@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896082"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914567"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -44,7 +44,7 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 |||
 |:-----|:-----|
 |**在 Office 365 功能的电话系统** <br/> |**说明** <br/> |
-|[什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md) <br/> |通过菜单系统，以查找并放置或将呼叫转接到您的组织中的部门或公司用户移动电话系统自动助理可以用于创建您的组织允许外部和内部呼叫者菜单系统。  <br/> |
+|[什么是云自动助理？](what-are-phone-system-auto-attendants.md) <br/> |云自动助理可以用于创建菜单系统允许贵组织外部和内部呼叫者通过菜单系统，以查找并放置或将呼叫转接到您的组织中的部门或公司用户移动。  <br/> |
 |呼叫接听/拨打（按姓名和号码）  <br/> |通过触摸接听拨入呼叫，通过拨打完整电话号码或者单击 Skype for Business 或 Outlook 中的姓名拨出呼叫。  <br/> |
 |[在 Skype for Business 中设置"呼叫转接"选项](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |代表你支持的经理拨打或接听呼叫。 为其他人接听或拨出呼叫时，系统会发出通知告知所有参与者。  <br/> |
 |[呼叫转接和同时拨打](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |利用这些功能，你可以设置转接规则，以便随时随地处理呼叫，并且可以将呼叫转接至同事或语音邮件。  <br/> |
@@ -52,7 +52,7 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 |保持呼叫/接回  <br/> | 用于同时出现多个呼叫的情况。 当接听下一个呼入电话或向外拨打电话时，当前通话会自动保持。 <br/> |
 |[转接 Skype for Business 呼叫](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |将呼叫转接至其他人。 或者，如果您需要离开办公室，但希望继续您的对话，您可以为您的移动电话或平板电脑，从您的 PC 或 IP 电话转接呼叫。  <br/> |
 |呼叫者 ID  <br/> |来自公司内部的呼叫会显示详细的来电信息，系统会从公司目录中获取信息，为你显示图片和工作职务而不仅仅是电话号码。  <br/> |
-|[创建电话系统呼叫队列](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |队列包括问候语有人呼叫您的组织、 能够自动将呼叫置于保持状态，和搜索处理该呼叫的人员时的下一个可用呼叫代理的功能电话号码时所使用的电话系统呼叫者保留音乐侦听呼叫。  <br/> |
+|[创建云呼叫队列](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |云呼叫队列包括有人呼叫到您的组织、 能够自动将呼叫置于保持状态，并进行搜索的下一个可用呼叫代理处理该呼叫时调用的人员的功能电话号码时使用的问候语收听保持音乐。  <br/> |
 |[在某人的状态更改时告诉我](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 利用此功能，你可以标记目前没有空的用户并在其状态更改且可以接听电话呼叫时获得通知。 <br/> |
 |PC、 Mac 和移动客户端  <br/> | 这样，您在设备上，从平板电脑和移动电话到 Pc 和桌面的 IP 电话的呼叫功能。 <br/> |
 |设备切换  <br/> |允许你在其他设备上播放呼叫或会议。  <br/> |
@@ -65,7 +65,7 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 |Skype 和联盟的呼叫  <br/> |您可以搜索 Skype 目录中的任何人都然后安全地连接、 通信，并与他们进行协作。  <br/> |
 |[在 Skype for Business 中设置"呼叫转接"选项](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即刻或在设定的时段后向你的团队发送呼叫。  <br/> |
 |[使用 Skype for Business 拨打和接听视频呼叫](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 你可以在小浮动窗口中看到演讲者的姓名和视频流，以便随时准备好回答任何问题。 <br/> |
-|[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |下面是电话系统的语音邮件的工作原理： 当用户收到的语音邮件时，则将它传递到其以电子邮件通过语音邮件作为附件的邮箱。 用户也可以通过 Skype 认证的座机、所有 Skype for Business 应用程序或 Lync for Mac 2011 收听该消息。  <br/> 电话系统的语音邮件包含个性化的问候语、 消息等待指示器和使用呼叫的回复。 你可以将所有语音邮件放在邮箱中并通过电脑、移动设备和 IP 电话中的 Skype for Business 获取。  <br/> |
+|[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |下面是云语音邮件的工作原理： 当用户收到的语音邮件时，则将它传递到其以电子邮件通过语音邮件作为附件的邮箱。 用户也可以通过 Skype 认证的座机、所有 Skype for Business 应用程序或 Lync for Mac 2011 收听该消息。  <br/> 云语音邮件包含个性化的问候语、 消息等待指示器和使用呼叫的回复。 你可以将所有语音邮件放在邮箱中并通过电脑、移动设备和 IP 电话中的 Skype for Business 获取。  <br/> |
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>规划和设置 Office 365 中的电话系统
 <a name="bkmk_setup"> </a>
@@ -82,11 +82,11 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 
 - [设置呼叫计划](set-up-calling-plans.md)： 本文已获取设置与您的电话号码，或要转接到 for Business 的 Skype 您现有的电话号码的分步说明。
     
-- [规划 Office 365 (云 PBX) 解决方案中电话系统](https://go.microsoft.com/fwlink/?LinkId=708645)： 本文排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
+- [Microsoft 电话服务解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)： 本文排放所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
     
 - [Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)： 了解您需要购买 Office 365 中获取电话系统的许可证。
     
-- [设置电话系统语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
     
 - [探索 Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)： 帮助贵公司的用户了解如何使用 Skype for Business 功能。 
 

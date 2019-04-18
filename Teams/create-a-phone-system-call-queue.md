@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 了解如何设置电话系统呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫的电话系统。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: 了解如何设置电话系统的云呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫。 You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808059"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914641"
 ---
-# <a name="create-a-phone-system-call-queue"></a>创建电话系统呼叫队列
+# <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+云呼叫队列包括有人呼叫到您的组织、 能够自动将呼叫置于保持状态，并进行搜索的下一个可用呼叫代理处理该呼叫时调用的人员的功能电话号码时使用的问候语收听保持音乐。 You can create single or multiple call queues for your organization.
   
-电话系统呼叫队列可提供：
+云呼叫队列可提供：
   
 - 组织问候语。
 - 在呼叫者保持等待时播放的音乐。
@@ -76,12 +76,12 @@ Phone System call queues include greetings that are used when someone calls in t
   
 - 若要了解有关 Office 365 调用计划的详细信息，请参阅[电话系统，调用计划](calling-plan-landing-page.md)和[调用规划 Office 365](calling-plans-for-office-365.md)。
 
-- 您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或从另一个服务提供商转接到电话系统呼叫队列。 若要获取并使用免费电话号码，则需要设置通信点数。
+- 您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或从另一个服务提供商转接到云呼叫队列。 若要获取并使用免费电话号码，则需要设置通信点数。
 
     > [!NOTE]
     > [!注释] 不能将用户（订阅者）的电话号码分配给呼叫队列 - 只能使用收费或免费服务电话号码。
   
-- 当您要分发从电话系统呼叫队列的传入呼叫时，呼叫代理支持这些客户端：
+- 当您要分发从云呼叫队列的传入呼叫时，呼叫代理支持这些客户端：
 
   - Skype for Business 桌面客户端 2016（32 位和 64 位版本）
 

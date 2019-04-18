@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 部署团队中的云语音登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948374"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914609"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -127,20 +127,20 @@ Office 365 的电话系统功能中的拨号计划是翻译的规范化规则的
 
 ### <a name="call-queues"></a>呼叫队列
 
-队列包括问候语有人呼叫您的组织、 能够自动将呼叫置于保持状态，和搜索处理该呼叫的人员时的下一个可用呼叫代理的功能电话号码时所使用的电话系统呼叫者保留音乐侦听呼叫。 您可以为组织创建单个或多个呼叫的队列。 
+云呼叫队列包括有人呼叫到您的组织、 能够自动将呼叫置于保持状态，并进行搜索的下一个可用呼叫代理处理该呼叫时调用的人员的功能电话号码时使用的问候语收听保持音乐。 您可以为组织创建单个或多个呼叫的队列。 
 
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我的组织是否需要调用队列？ | 有关详细信息，请参阅[创建电话系统呼叫队列](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)和[电话系统的设置](setting-up-your-phone-system.md)。 |
+| 我的组织是否需要调用队列？ | 有关详细信息，请参阅[创建云呼叫队列](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)和[电话系统的设置](setting-up-your-phone-system.md)。 |
 
 ### <a name="auto-attendants"></a>自动助理
 
-通过菜单系统，以查找并放置或将呼叫转接到您的组织中的部门或公司用户移动电话系统自动助理可以用于创建您的组织允许外部和内部呼叫者菜单系统。
+云自动助理可以用于创建菜单系统允许贵组织外部和内部呼叫者通过菜单系统，以查找并放置或将呼叫转接到您的组织中的部门或公司用户移动。
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我的组织是否需要自动助理？ | 有关详细信息，请参阅[什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)和[设置电话系统自动助理](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 |
+| 我的组织是否需要自动助理？ | 有关详细信息，请参阅[什么是云自动助理](what-are-phone-system-auto-attendants.md)和[设置云自动助理](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 |
 
 ### <a name="devices"></a>设备
 

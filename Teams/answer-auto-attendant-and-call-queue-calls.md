@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 介绍电话系统自动助理和呼叫的队列，并说明如何可以应答团队中的这些呼叫。
+description: 介绍云自动助理呼叫的队列，并介绍如何可以应答团队中的这些呼叫。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,23 +15,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91c0d1ae8034766759baa9b832cbefd399306fd2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875975"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914541"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
 
-团队用户可接收并从业务 online Skype 应答呼叫自动助理，并直接从其团队客户端调用队列。 团队用户自动助理功能现已可用，并调用队列功能处于预览。 
+团队用户可接收和云自动助理和直接从其团队客户端的呼叫队列从应答呼叫。 团队用户自动助理功能现已可用，并调用队列功能处于预览。 
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理，并调用队列？
 
-电话系统自动助理提供了一系列语音提示或组织到呼叫时，呼叫者听到而不是人工接线员音频文件。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
+云自动助理提供了一系列语音提示或组织到呼叫时，呼叫者听到而不是人工接线员音频文件。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
 
-队列包括问候语有人呼叫您的组织、 能够自动将呼叫置于保持状态，和搜索处理该呼叫的人员时的下一个可用呼叫代理的功能电话号码时所使用的电话系统呼叫者保留音乐侦听呼叫。 您可以为组织创建单个或多个呼叫的队列。
+云呼叫队列包括有人呼叫到您的组织、 能够自动将呼叫置于保持状态，并进行搜索的下一个可用呼叫代理处理该呼叫时调用的人员的功能电话号码时使用的问候语收听保持音乐。 您可以为组织创建单个或多个呼叫的队列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理的自动助理或呼叫队列呼叫
 
@@ -57,12 +57,12 @@ ms.locfileid: "30875975"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>配置支持的 Microsoft 团队的自动助理和呼叫队列
 
-若要接收自动助理和上的 Microsoft 团队呼叫队列呼叫，您需要配置您的互操作性策略和升级策略。 请查看[迁移和组织使用团队一起 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有自动助理和/或呼叫队列配置，并且想要这样做，请参阅[设置电话系统自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)和[创建电话系统呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+若要接收自动助理和上的 Microsoft 团队呼叫队列呼叫，您需要配置您的互操作性策略和升级策略。 请查看[迁移和组织使用团队一起 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有自动助理和/或呼叫队列配置，并且想要为此，请参阅[设置云自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)和[创建云呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 ## <a name="related-topics"></a>相关主题
 
 -   [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
--   [创建电话系统呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [什么是电话系统自动助理？](what-are-phone-system-auto-attendants.md)
--   [设置电话系统自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [创建云呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
+-   [设置云自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

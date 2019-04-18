@@ -1,10 +1,10 @@
 ---
-title: 什么是电话系统自动助理？
+title: 什么是云自动助理？
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,23 +21,23 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: 了解什么是电话系统自动助理以及如何使用它们。
-ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: 了解什么是云自动助理以及如何使用它们。
+ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808083"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914625"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>什么是电话系统自动助理？
+# <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
 Office 365 中的电话系统提供自动助理，可用于让外部和内部呼叫者通过菜单系统，以查找并放置或将呼叫转接到您的组织中的部门或公司用户移动。
   
 自动助理是一系列语音提示或组织时，呼叫者收听，而不是 human 运算符的音频文件。 人员调用与自动助理的号码，他们的选项可以呼叫重定向到用户或您的组织中找到某人，然后连接到该用户。 他们可以 express 他们的选项，并通过使用电话小键盘 (DTMF) 或语音识别与菜单系统进行交互。
   
-若要设置自动助理的 Office 365 中的电话系统，转到[设置电话系统自动助理](create-a-phone-system-auto-attendant.md)。
+若要设置自动助理的 Office 365 中的电话系统，转到[设置云自动助理](create-a-phone-system-auto-attendant.md)。
   
-电话系统自动助理拥有下列功能：
+云自动助理拥有下列功能：
   
 - 提供企业或信息性问候语。
 - 提供自定义企业菜单。你可以自定义这些菜单以包含更多级别。
@@ -199,7 +199,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 - Microsoft 团队用户或业务对内部部署用户启用企业语音的 Skype。
   
 - 为组织设置的其他自动助理。
-- 组织中建立的任何现有呼叫队列。 若要查看有关呼叫队列的详细信息，请参阅[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- 组织中建立的任何现有呼叫队列。 若要查看有关呼叫队列的详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 ### <a name="business-hours-and-call-handling"></a>营业时间和呼叫处理
 
@@ -212,14 +212,14 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
   - 已启用企业语音的**电话系统**许可证的 Microsoft 团队用户将呼叫重定向或调用计划分配给它们。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
 
   
-  - 向呼叫队列将呼叫重定向。 若要查看有关呼叫队列的详细信息，请参阅[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+  - 向呼叫队列将呼叫重定向。 若要查看有关呼叫队列的详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
   - 呼叫重定向到另一个已设置的自动助理。
 - 创建菜单选项并为呼叫者播放菜单提示。例如："请按 1 选择销售，按 2 选择服务。如需联系接线员，请随时按 0。"
 
 ### <a name="menu-options"></a>菜单选项
 
-电话系统自动助理，可以创建菜单提示 （"按 1 为销售，按 2 的服务"） 和设置以基于用户的选择将呼叫路由的菜单选项。 通过为自动助理设置菜单选项，组织能够提供交互式指导，帮助用户更快达到目的地，而无需依赖人工接线员来处理传入呼叫。 通过使用文本到语音转换 （系统生成的提示） 或上载音频文件已记录，可以创建菜单提示。 语音识别使用语音命令来实现无需用手操作的导航，但是呼叫者也可以使用电话键盘来导航菜单。
+云自动助理，可以创建菜单提示 （"按 1 为销售，按 2 的服务"） 和设置以基于用户的选择将呼叫路由的菜单选项。 通过为自动助理设置菜单选项，组织能够提供交互式指导，帮助用户更快达到目的地，而无需依赖人工接线员来处理传入呼叫。 通过使用文本到语音转换 （系统生成的提示） 或上载音频文件已记录，可以创建菜单提示。 语音识别使用语音命令来实现无需用手操作的导航，但是呼叫者也可以使用电话键盘来导航菜单。
   
 0-9 可分配给**菜单选项**中的业务管理中心使用 Skype 的自动助理。 可以为营业时间和非营业时间创建不同的菜单选项集，并且可以在 **菜单选项**中启用或禁用按名字拨叫。 这些键可以映射为将呼叫转接至：
   
@@ -230,7 +230,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
   
 如果已启用语音识别，每个菜单选项的名称将成为语音识别关键字。 例如，呼叫者可以说"之一"，选择映射到键 1，菜单选项或它们只可以说"Sales"选择相同的菜单选项名为"Sales"。
   
-若要设置自动助理和菜单选项，请转[设置电话系统自动助理](create-a-phone-system-auto-attendant.md)。
+若要设置自动助理和菜单选项，请转[设置云自动助理](create-a-phone-system-auto-attendant.md)。
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>分配的自动助理电话号码
 

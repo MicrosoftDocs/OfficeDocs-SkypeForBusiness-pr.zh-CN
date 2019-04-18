@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 了解如何设置中的 Microsoft 团队的假日和将它们连接到自动助理。
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517116"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914575"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft Teams 中设置假日
 
@@ -33,7 +33,7 @@ ms.locfileid: "31517116"
 
 较好的示例创建圣诞为您的许多员工时不在工作场所的假日。 创建假日和设置时间，则会将该假日期间添加到您的主后自动助理，以便当呼叫中的人员，它们将听到创建音频电子邮件。 类似于"我们结束的圣诞从通过年 12 月 27 22nd 年 12 月。 请留下我们语音邮件，以便我们可以返回您的呼叫，当我们后在办公室。"
 
-有关自动助理的详细信息，请参阅[什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)？  
+有关自动助理的详细信息，请参阅[什么是云自动助理](what-are-phone-system-auto-attendants.md)？  
 
 ## <a name="create-a-holiday"></a>创建假日
 
@@ -88,4 +88,4 @@ ms.locfileid: "31517116"
 
 ## <a name="related-topics"></a>相关主题
 
-[什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)？
+[什么是云自动助理](what-are-phone-system-auto-attendants.md)？

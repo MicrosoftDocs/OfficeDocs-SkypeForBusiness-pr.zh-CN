@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解有关电话系统可以为您执行的操作。 '
-ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934777"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914617"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -65,9 +65,9 @@ Office 365 中调用计划允许您搜索，获取，以及分配组织中用户
 
 ## <a name="phone-system-with-services"></a>服务与电话系统
  电话系统可以 aso 用于服务和语音邮件：
-- **自动助理** 自动助理可以用于创建您的组织允许外部和内部呼叫者菜单系统的 Office 365 中的电话系统移动菜单系统，以查找并放置或将呼叫转接到的公司用户或您的组织中的部门。 请参阅[电话系统自动助理是什么？](what-are-phone-system-auto-attendants.md)
+- **自动助理** 自动助理可以用于创建您的组织允许外部和内部呼叫者菜单系统的 Office 365 中的电话系统移动菜单系统，以查找并放置或将呼叫转接到的公司用户或您的组织中的部门。 请参阅[什么是云自动助理？](what-are-phone-system-auto-attendants.md)
 
-- **呼叫队列** 与电话系统，您可以创建有人呼叫到您的组织; 电话号码时使用的呼叫队列问候语这包括自动将呼叫置于保持状态的功能和下一个可用呼叫代理处理该呼叫时呼叫收听保持音乐的人员搜索的功能。 您可以为组织创建单个或多个呼叫的队列。 请参阅[创建电话系统呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- **呼叫队列** 与电话系统，您可以创建有人呼叫到您的组织; 电话号码时使用的呼叫队列问候语这包括自动将呼叫置于保持状态的功能和下一个可用呼叫代理处理该呼叫时呼叫收听保持音乐的人员搜索的功能。 您可以为组织创建单个或多个呼叫的队列。 请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 - **语音邮件**当您获取用户的电话系统许可证时，该用户将能够获取已通过呼叫者已离开的语音邮件。 云语音邮件是自动设置和分配给他们的电话系统许可证和电话号码后，为用户设置。 请参阅[Set up 云语音邮件](set-up-phone-system-voicemail.md)。
 

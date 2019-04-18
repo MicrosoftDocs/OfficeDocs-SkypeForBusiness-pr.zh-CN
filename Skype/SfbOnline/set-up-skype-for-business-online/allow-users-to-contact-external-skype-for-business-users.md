@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
+ms.sourcegitcommit: 1bb3bf4b16394aaa1fdf9bab8d766afe040b9aac
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887590"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31907494"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -52,33 +52,35 @@ ms.locfileid: "30887590"
 
 在这两个组织为此，您必须在 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用团队管理中心**
   
 1. 使用 Office 365 管理员帐户登录。 
     
-2. 在 Office 365 管理中心，转到“**管理中心** > ”>“**Skype for Business**”。
+2. 在 Office 365 管理中心，转到**管理中心** > **团队**。
     
-    ![选择“Skype for Business 管理中心”。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![选择团队管理员。](../images/MS-Teams-Admin.png)
   
-3. 在 **Skype for Business 管理中心**，选择“**组织**” > “**外部通信**”。
-    
-4. 若要设置通信与特定的企业或用户在另一个域中，在下拉列表框中，选择**在仅允许域**。
+3. 在**工作组中心**中，选择**Skype** > **旧门户** 
+ ![选择 SfB 旧门户。](../images/SFBlegacy-size65.png)
+ 
+4. 在**Skype 业务管理中心的**中，选择**组织** > **外部通信**。
+5. 若要设置通信与特定的企业或用户在另一个域中，在下拉列表框中，选择**在仅允许域**。
     
     或者，你希望能够与世界各地采用公开的 Skype for Business 策略的所有其他人通信，请选择" **打开(被阻止的域除外)**"。这是默认设置。
     
-5. 在**已阻止或允许的域**，下，选择**+**，添加您希望允许的域的名称。
+6. 在**已阻止或允许的域**，下，选择**+**，添加您希望允许的域的名称。
     
-6. 确保其他组织中的管理员执行其**业务管理中心的 Skype**这些相同步骤。 例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。
+7. 确保其他组织中的管理员执行其**业务管理中心的 Skype**这些相同步骤。 例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。
     
-7. 如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
+8. 如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
     
     If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). 这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： ** \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com**。 有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。
     
     您需要打开的所有端口的列表，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。
 
-8. 请确保组织中的管理员还具有执行这些步骤。
+9. 请确保组织中的管理员还具有执行这些步骤。
     
-9. **测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。
+10. **测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。
     
 ![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 现在，你可以允许你的用户搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！ 若要了解详细信息，请参阅[适用于业务用户允许 Skype 添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。
   
