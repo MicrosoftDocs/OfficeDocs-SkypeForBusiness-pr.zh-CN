@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
-description: 本文讨论为 Microsoft 团队聊天室，按功能区域的已知的问题。
+description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
 ms.openlocfilehash: d71b209784f4737ac4433e2eececb1f9ada3ebc8
 ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/30/2019
 ms.locfileid: "31013085"
 ---
 # <a name="known-issues"></a>已知问题 
  
-本文为 Microsoft 团队房间，按功能区域列出的已知的问题。
+本文按功能区域列出了 Microsoft Teams 会议室的已知问题。
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
 <a name="update"> </a>  
@@ -28,7 +28,7 @@ ms.locfileid: "31013085"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-|  过期的应用程序         |    Microsoft 团队聊天室控制台将显示"系统配置过期"错误。                |   [使用 Microsoft 团队聊天室恢复工具](recovery-tool.md)             |  无 |
+|  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
 
 
 <a name="OS-conflicts"> </a>  
@@ -36,7 +36,7 @@ ms.locfileid: "31013085"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-|虚拟键盘缺少   | 当您需要在 Microsoft 团队聊天室中输入信息时，不显示虚拟键盘。 在其运行 Microsoft 团队聊天室 Surface Pro 4 上安装 Windows 10 创建者更新 （版本 1703年） 后，将发生此问题。 | 若要解决此问题，请手动打开虚拟键盘。 若要执行此操作，请按照以下步骤：<br><br> **1。** 点击和保留任务栏，然后点击**显示触摸键盘**按钮。 键盘图标应显示在任务条形图的右侧。 <br><br> **2。** 点击键盘图标以打开虚拟键盘。 | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|虚拟键盘缺失   | 当你需要在 Microsoft Teams 会议室中输入信息时，不显示虚拟键盘。 在运行 Microsoft Teams 会议室的 Surface Pro 4 上安装 Windows 10 创意者更新（版本 1703）后，会出现此问题。 | 要解决此问题，请手动打开虚拟键盘。 为此，请按照下列步骤操作：<br><br> **1.** 点击并按住任务栏，然后点击“显示触摸键盘”按钮****。 键盘图标应出现在任务栏的右侧。 <br><br> **2.** 点击键盘图标以打开虚拟键盘。 | [KB4037694](https://support.microsoft.com/zh-CN/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
    
 
 <a name="Hardware"> </a>  
@@ -44,25 +44,25 @@ ms.locfileid: "31013085"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            |   --- |
-| 未检测到的监视器 | Surface Pro (模型 2017) 设备上运行 Microsoft 团队聊天室时，未检测监视器。 |  20 个或多个秒钟按住 Surface Pro 电源按钮。 这样做，设备会重新启动，并清除图形缓存。 |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| 未检测到监视器 | 在 Surface Pro（2017 机型）设备上运行 Microsoft Teams 会议室时，检测不到监视器。 |  按住 Surface Pro 电源按钮 20 秒或更长时间。 执行此操作时，设备将重启并清除图形缓存。 |[KB4055681](https://support.microsoft.com/zh-CN/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
           
 <a name="Limits"> </a>
-## <a name="limitations-and-expected-behaviors"></a>限制和预期的行为
+## <a name="limitations-and-expected-behaviors"></a>限制和预期行为
 ***
-Microsoft 团队聊天室不支持 HDCP 输入，会出现这会导致问题 HDMI 引入功能 （视频、 音频）。 注意确保交换机连接到 Microsoft 团队聊天室具有关闭 HDCP 选项。 
+Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采集功能（视频、音频）出现问题。 请确保连接到 Microsoft Teams 会议室的交换机禁用了 HDCP 选项。 
 ***
 用作会议室前端显示屏的消费者电视需要支持/启用 HDMI 的 Consumer Electronics Control (CEC) 功能，以使其可以自动从待机模式切换至活动视频源。 并非所有电视都支持此功能。 
 ***
-始终使用有线 1 Gbps 网络连接以确保您将具有所需的带宽。 
+务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。 
 ***
-如果您的 Microsoft 团队聊天室设备丢失与 （例如，如果您的 Microsoft 团队聊天室从域中删除后加入域） 域的信任，您将无法进行身份验证到设备，然后打开设置。 解决方法是使用本地管理员帐户登录。 
+如果你的 Microsoft Teams 会议室设备失去与域的信任关系（例如，如果在 Microsoft Teams 会议室加入域后将其从域中移除），你将无法通过身份验证进入设备并打开“设置”。 解决方法是使用本地管理员帐户登录。 
 ***
-64 位版本的 Windows 10 企业周年日 edition （英语、 版本 1607年） 不再支持从 Microsoft 团队聊天室释放 3.0.12.0。 
+自 Microsoft Teams 会议室 3.0.12.0 版起，不再支持 64 位版本的 Windows 10 企业版 Anniversary Edition（英语版本 1607）。 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft 团队聊天室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams 会议室帮助](https://support.office.com/zh-CN/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[管理 Microsoft 团队聊天室](skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](skype-room-systems-v2.md)
