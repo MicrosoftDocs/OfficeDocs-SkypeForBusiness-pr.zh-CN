@@ -61,6 +61,7 @@
 ### [在组织内管理 Teams 功能](enable-features-office-365.md)
 ### [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Microsoft Teams 管理中心中管理 Teams](manage-teams-in-modern-portal.md)
+### [管理 Teams 的免费版本](manage-freemium.md)
 ### [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 ### [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
@@ -317,14 +318,15 @@
 #### [如何在你的组织中使用来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 自动助理和呼叫队列 
-#### [什么是电话系统自动助理](what-are-phone-system-auto-attendants.md)
-#### [设置电话系统自动助理](create-a-phone-system-auto-attendant.md)
+#### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
+#### [设置云自动助理](create-a-phone-system-auto-attendant.md)
 #### [小型企业示例 - 设置自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [在 Microsoft Teams 中管理资源帐户](manage-resource-accounts.md)
-#### [创建电话系统呼叫队列](create-a-phone-system-call-queue.md)
+#### [创建云呼叫队列](create-a-phone-system-call-queue.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
 ### [呼叫寄存和检索](call-park-and-retrieve.md)
 ### [呼叫共享和组内呼叫应答](call-sharing-and-group-call-pickup.md)
+### [呼叫策略](teams-calling-policy.md)
 ### [共享线路外观](shared-line-appearance.md)
 
 ## [通话套餐](calling-plan-landing-page.md)
@@ -548,7 +550,7 @@
 #### [设置组织的通信点数](set-up-communications-credits-for-your-organization.md)
 #### [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams 联机通话流程](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams 通话流程](microsoft-teams-online-call-flows.md)
 
 ## 大型组织实用指南
 ### [教程：在 Teams 中通话](Tutorial-calling-in-teams.yml)

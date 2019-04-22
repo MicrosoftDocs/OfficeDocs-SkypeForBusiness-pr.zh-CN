@@ -13,42 +13,42 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: 了解如何使用中的 Microsoft 团队管理中心团队使用情况报告您的组织中获取团队活动的概述。
+description: 了解如何在 Microsoft Teams 管理中心使用 Teams 使用情况报告来概要了解组织中的 Teams 活动。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569931"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 
-Microsoft 团队管理中心中的团队使用率报告为您提供了概述使用率活动中包括的活动用户和通道，数量，以便您可以快速查看您的组织内的多少用户使用团队进行沟通的团队和协作。 您可以查看团队，每个团队中包括的活动用户和通道、 来宾，和邮件数量的使用情况信息。
+通过 Microsoft Teams 管理中心的 Teams 使用情况报告，可概要了解 Teams 中的活跃用户和频道数等使用活动，从而能快速查看组织中有多少用户正在使用 Teams 进行通信和协作。 你可查看团队的使用情况信息，包括每个团队中的活跃用户和频道数量、来宾数和消息数。
 
-![Microsoft 团队管理中心中的团队使用率报告的屏幕截图](../media/teams-reports-teams-usage.png "Microsoft 团队管理中心中的团队使用率报告的屏幕截图")
+![显示 Microsoft Teams 管理中心内的 Teams 使用情况报告的屏幕截图](../media/teams-reports-teams-usage.png "显示 Microsoft Teams 管理中心内的 Teams 使用情况报告的屏幕截图")
 
 ## <a name="view-the-report"></a>查看报告
 
-1. 转到 Microsoft 团队管理中心中，在左侧导航窗格中，单击**分析 & 报告**，，然后在**报告**下选择**团队使用率**。 
-2. 在**日期范围**选择区域，，然后单击**运行报告**。
+1. 转到 Microsoft Teams 管理中心，在左侧导航栏中，单击“**报告**”下的“**分析与报告**”，然后选择“**Teams 使用情况**”。 
+2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-## <a name="interpret-the-report"></a>解释报表
+## <a name="interpret-the-report"></a>解释报告
 
-![Microsoft 团队管理中心中的团队使用率报告的屏幕截图](../media/teams-reports-teams-usage-with-callouts.png "带编号的标注的 Microsoft 团队管理中心中的团队使用率报告的屏幕截图")
+![显示 Microsoft Teams 管理中心内的 Teams 使用情况报告的屏幕截图](../media/teams-reports-teams-usage-with-callouts.png "显示 Microsoft Teams 管理中心内的 Teams 使用情况报告（带编号标注）的屏幕截图")
 
-|标号 |说明  |
+|标注 |说明  |
 |--------|-------------|
-|**1**   |可以随最近 7 天或 28 天趋势查看团队使用率活动报告。 |
+|**1**   |可查看 Teams 使用情况活动报告，了解过去 7 天或 28 天内的趋势。 |
 |**2**   |每个报表包含此报表的生成日期。报表通常反映活动时间的 24 至 48 小时延迟。 |
-|**3**   |<ul><li>X 轴上第一个图表的报表的所选的日期范围。</li> <li> Y 轴的活动项目或活动计数。</li> </ul>悬停在给定日期以查看项或活动的实例数上的给定日期表示项目或活动的点。|
-|**4**   |您可以筛选您看到的内容在图表上通过单击图例中的项目。 例如，请单击**总活动用户**、**团队 & 通道活动用户**、**活动信道**或**邮件**以查看仅与每个相关的信息。 更改此选项不会更改表中的信息。 |
-|**5**   |该表提供团队使用的细分。 <ul><li>**显示名称**是团队的显示名称。 您可以单击转到 Microsoft 团队管理中心中的团队设置页的显示名称。 </li> <li>工作组是否专用工作组或公共团队指**隐私**。</li> <li>**活动用户**是在指定的时间段内的团队中的活动用户数。</li><li>**来宾**是在指定的时间段内的团队中的来宾数量。</li> </li> </ul>若要查看表中所需的信息，请确保将列添加到表。 |
-|**6**   |选择**编辑列**添加或删除表中的列。 
-|**7**   |选择**˙˙˙**，然后**打印图表**打印图表。 |
+|**3**   |<ul><li>图表上的 X 轴表示报告的所选数据范围。</li> <li> Y 轴表示活跃项目或活动的计数。</li> </ul>将鼠标悬停在表示给定日期中某项目或活动的点可查看该项目或活动在该给定日期的实例数量。|
+|**4**   |可单击图例上的项目筛选要在图表上查看的内容。 例如，单击“**活跃用户总数**”、“**Teams 和频道活跃用户数**”、“**活跃频道数**”或“**消息数**”可仅查看与每一项相关的信息。 更改此选项不会更改表格中的信息。 |
+|**5**   |表格按团队细分显示了使用情况。 <ul><li>“**显示名称**”是指团队的显示名称。 可在 Microsoft Teams 管理中心单击显示名称转到团队的设置页面。 </li> <li>“**隐私**”表示团队是私人团队还是公共团队。</li> <li>“**活跃用户数**”是指定时间段内活跃用户的数量。</li><li>“**来宾数**”是指定时间段内团队中来宾的数量。</li> </li> </ul>要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
+|**6**   |选择“**编辑列**”可在表格中添加或删除列。 
+|**7**   |选择“**˙˙˙**”，然后选择“**打印图表**”可打印图表。 |
 
 ## <a name="related-topics"></a>相关主题
-- [团队分析和报告](teams-reporting-reference.md)
+- [Teams 分析和报告](teams-reporting-reference.md)
 - [Teams 用户活动报告](user-activity-report.md)
 - [Teams 设备使用报告](device-usage-report.md)
