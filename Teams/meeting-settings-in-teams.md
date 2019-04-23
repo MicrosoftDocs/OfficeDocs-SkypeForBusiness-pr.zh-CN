@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理的用户安排在组织中的团队会议设置。
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494247"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959534"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -100,6 +100,6 @@ _端口范围和 DSCP 标记_
 
 \*分配的端口范围不能重叠，并且必须彼此相邻。
 
-设置不同的通信类型的端口范围中处理实时媒体只有一个步骤的更多详细信息，，请参阅[服务质量 (QoS) 中的团队](qos-in-teams.md)。 如果启用，或更改团队管理中心中的设置，您需要向[匹配将设置应用于所有用户设备](QoS-in-Teams-clients.md)和内部网络设备完全在工作组中实现对 QoS 的更改。
+端口范围设置不同的通信类型是只有一个步骤中处理实时媒体;更多详细信息，请参阅[服务质量 (QoS) 中的团队](qos-in-teams.md)。 如果启用，或更改的 Microsoft 团队管理中心中的设置，您需要向[匹配将设置应用于所有用户设备](QoS-in-Teams-clients.md)和内部网络设备完全在工作组中实现对 QoS 的更改。
 
 QoS 一直在使用后的一段时间，您必须按每个这些三个工作负荷，需使用情况的信息和您可以选择要进行更改基于您的特定需求。 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)将有用的。

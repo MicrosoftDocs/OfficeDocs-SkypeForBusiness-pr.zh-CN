@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640943"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959518"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -117,7 +117,7 @@ ms.locfileid: "30640943"
 
 所有设置，包括有关如何为您的组织，实现这些技术指南的详细列表，请参阅以下文章：
 
--   [管理 Office 365 组织中的 Microsoft Teams 功能](enable-features-office-365.md)
+-   [管理您的组织的 Microsoft 团队设置](enable-features-office-365.md)
 -   [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [管理团队中的会议策略](meeting-policies-in-teams.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams 中的呼叫寄存和取回
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 04/12/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 使用呼叫寄存和取回呼叫置于保持状态，云中团队服务中。
-ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993499"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -34,15 +34,15 @@ ms.locfileid: "30747651"
 下面是一些使用呼叫寄存的常见方案： 
 
 - 前台接待员 parks 呼叫的人在执行出厂中工作。 接待员然后宣布呼叫和代码编号，通过公共地址系统。 被叫的用户可以拿起在工厂团队电话，然后输入代码以取回呼叫。
-- 用户 parks 移动设备上的呼叫，因为设备电池不足电源。 然后，用户可以输入，然后代码从团队桌面电话取回该呼叫。
+- 用户 parks 移动设备上的呼叫，因为设备电池不足电源。 然后，用户可以输入代码以从团队桌面电话取回该呼叫。
 - 支持代表性公园客户呼叫和专家取回该呼叫并帮助客户团队通道上发送通知。 专家进入团队客户端取回呼叫中的代码
 
 > [!IMPORTANT]
-> 此功能才可用在仅团队部署模式下。 团队部署模式的详细信息，请参阅[了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> 此功能才可用在仅团队部署模式下。 有关团队部署模式的详细信息，请参阅[了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>所需的许可证
 
-若要寄存并取回呼叫，用户必须是企业语音的用户和管理员必须授予该用户的呼叫寄存策略。 有关许可模型的其他详细信息，请参阅[Office 365 许可的 Microsoft 团队](office-365-licensing.md)。
+若要寄存并取回呼叫，用户必须是企业语音的用户和管理员必须授予该用户的呼叫寄存策略。 有关许可模型的详细信息，请参阅[Office 365 许可的 Microsoft 团队](office-365-licensing.md)。
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>呼叫驻留和检索功能可用性
 
@@ -52,13 +52,22 @@ ms.locfileid: "30747651"
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | 驻留呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
 | 取回驻留的呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
-| 返回未检索到的呼叫拨打 | 是 | 是 | 是 | 是 | 即将提供| 否 |
+| 返回未检索的电话铃声 | 是 | 是 | 是 | 是 | 即将提供| 否 |
 
 ## <a name="configuring-call-park-and-retrieve"></a>配置呼叫寄存和取回
 
-您必须是管理员能够配置呼叫寄存和取回，和默认情况下禁用此功能。 您可以为用户启用它，并创建使用呼叫寄存策略的用户组。 时为一组用户应用同一策略，他们将能够寄存和取回呼叫之间本身。 若要配置为用户的呼叫寄存和创建呼叫寄存用户组，请按照下面的过程。
+您必须是管理员能够配置呼叫寄存和取回，和默认情况下禁用此功能。 您可以为用户启用它，并创建使用呼叫寄存策略的用户组。 时为一组用户应用同一策略，他们可以寄存并取回呼叫之间本身。 若要配置呼叫寄存的用户和用户组创建呼叫寄存，按照下面的[分配呼叫寄存策略](#assign-a-call-park-policy)过程。
 
 有关如何使用呼叫寄存和检索功能的信息，请参阅[寄存团队中的呼叫](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
+
+### <a name="enable-a-call-park-policy"></a>启用呼叫寄存策略
+
+请按照下列步骤来启用呼叫寄存策略：
+
+1. 转到**Microsoft 团队管理中心** > **语音** > **呼叫寄存策略**。
+2. 选择**新策略**。
+3. 为策略指定名称，然后切换到**上**的**允许呼叫寄存**。
+4. 选择**保存**。
 
 ### <a name="assign-a-call-park-policy"></a>分配呼叫寄存策略
 

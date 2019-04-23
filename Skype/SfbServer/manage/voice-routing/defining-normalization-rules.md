@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 为 Business Server 规范化规则的 Skype 使用.NET Framework 正则表达式转换为 E.164 格式; 拨打的电话号码换句话说，规范化规则执行由用户拨打的电话号码，并将该号码转换为使用内部 Skype 业务服务器的格式。 必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993513"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Skype 业务服务器中的定义规范化规则
 
@@ -36,7 +36,7 @@ ms.locfileid: "30882472"
 
 1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[委派安装权限](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx)。
 2. 打开一个浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于业务控制面板的启动 Skype 的不同方法的详细信息，请参阅[安装和打开管理工具](../../management-tools/install-and-open-administrative-tools.md)。
-3. （可选）请按照[创建拨号计划](GET LINK AFTER MIGRATION)通过步骤 11 或[修改拨号计划](GET LINK AFTER MIGRATION)前 10 个步骤。 
+3. （可选）请按照[创建拨号计划](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan)通过步骤 11 或[修改拨号计划](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan)前 10 个步骤。 
 4. 在“新建规范化规则”**** 或“编辑规范化规则”**** 的“名称”**** 中，键入描述要进行规范化的号码模式的名称（例如，**5DigitExtension**）。
 5. （可选）在“描述”**** 中，键入规范化规则的描述（例如，“Translates 5-digit extensions”）。
 6. 在“建立规范化规则”**** 的以下字段中输入值：

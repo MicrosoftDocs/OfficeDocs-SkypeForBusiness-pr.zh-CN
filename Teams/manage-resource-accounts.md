@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解如何管理中的 Microsoft 团队资源帐户
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914591"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959502"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -65,51 +65,65 @@ ms.locfileid: "31914591"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心创建资源帐户
 
-若要在 Microsoft 团队管理中心创建资源帐户，请导航至**组织范围的设置** > **资源帐户**，然后单击 **+ 添加**。 在弹出窗口中，填写的显示名称和用户名 （域名应自动填充） 的资源帐户然后单击**保存**。
+在 Microsoft 团队管理中心中，导航到**组织范围的设置** > **资源帐户**。 
+
+![asd](media/r-a-master.png)
+
+![1 号](media/sfbcallout1.png)
+
+若要创建新的资源帐户，单击 **+ 新帐户**。 在弹出窗口中，填写的显示名称和用户名 （域名应自动填充） 的资源帐户然后单击**保存**。
 
 ![资源帐户](media/res-acct.png)
 
-您还将需要资源帐户后，应用于许可证[分配给为企业的 Office 365 中的用户的许可证](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)中所述
+接下来，您将需要许可证于资源帐户后，[将对业务的 Office 365 中的用户的许可证分配](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述
 
-一旦您已创建资源帐户并分配许可证，您可以单击**分配/取消分配**电话号码分配资源帐户，或将资源帐户分配给自动助理或呼叫的队列。
+![3 号](media/sfbcallout3.png)后已创建资源帐户和分配许可证，您可以单击**分配/取消分配**资源帐户后，为分配电话号码或分配资源帐户到自动助理或呼叫队列的已存在。 如果您呼叫的队列或自动助理仍需要创建，您创建它时，您可以将链接的资源帐户。 完成后，请单击**保存**。
+
+![资源帐户分配](media/r-a-assign.png)
+
+![2 号](media/sfbcallout2.png)可以编辑使用**编辑**选项的资源帐户显示名称。  完成后，请单击**保存**。
+![编辑资源帐户](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
 对于 Microsoft 调用计划，您可以仅分配收费和免费电话服务电话号码的**Microsoft 团队管理中心**中获得或端口从另一个服务提供商的资源帐户。 若要获取并使用免费电话号码，则需要设置通信点数。
 
-根据您的电话号码是否位于联机或本地，您需要连接到相应的 Powershell 提示符处，具有管理员权限。
+根据您的资源帐户是否位于联机或本地，您需要连接到相应的 Powershell 提示符处，具有管理员权限。 
+- 下面的 Powershell cmdlet 示例假定联机托管资源帐户使用[新建 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)创建联机托管资源帐户。
 
+- 资源帐户驻留在内部部署中 Skype 的业务服务器 2019 可以用于云呼叫的队列和云自动助理，请参阅[配置云呼叫队列](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md)或[配置云自动助理](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md)。 混合实现 （号码驻留在直接路由） 将使用[新建 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
 
-- 混合实现 （号码驻留在直接路由） 将使用[新建 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)创建驻留在本地资源帐户。  
-- 联机仅实现将使用[新建 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)具有联机驻留的资源帐户。
+应用程序 ID 需要创建的应用程序实例时使用：
+- **自动助理：** ce933385-9390-45d1-9512-c8d228074e07
+- **呼叫队列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-以下是 online 环境示例的自动助理 ApplicationID 与创建资源帐户。 呼叫队列，您可以使用以下 ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
+> [!NOTE]
+> 如果您希望呼叫队列或自动助理可由内部用户，应创建您资源帐户内部，因为不向 Active Directory 同步联机资源帐户。
+
+1. 若要创建资源帐户为使用自动助理，使用与下面的命令。  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-在此命令的详细信息，请参阅[新建 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) 。
+2. 您将不能使用资源帐户，直到对其应用许可证。 有关如何将许可证应用于 O365 管理中心中的帐户，请参阅 [将许可证分配给用户在 Office 365 中的业务] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user以及[业务许可证分配 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 。
 
-> [!NOTE]
-> 是最容易设置 online 的电话号码使用的 Microsoft 团队管理中心下, 一节中所述。 您还可以使用`Set-CsOnlineVoiceApplicationInstance`命令分配到的资源帐户电话号码其首次创建后所示：
+3. （可选）一旦正确的许可证适用于资源帐户可以将电话号码设置为资源帐户，如下所示。 并非所有资源帐户将都需要一个电话号码。 如果您未对资源帐户应用许可证，将失败的电话号码分配。
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-如果您创建资源帐户时未应用许可证的电话号码分配将失败。 
-
 在此命令的详细信息，请参阅[设置 CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) 。
 
-
+> [!NOTE]
+> 是最容易设置 online 的电话号码使用的 Microsoft 团队管理中心中，如前面所述。
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>管理资源的 Microsoft 团队管理中心中的帐户设置
 
-若要管理资源帐户设置的 Microsoft 团队管理中心中，导航到**组织范围的设置**  > **资源帐户**和选择资源帐户所需更改设置，然后单击**编辑**按钮。 在**编辑资源帐户**屏幕中，您都将能够更改:
+若要管理资源帐户设置的 Microsoft 团队管理中心中，导航到**组织范围的设置**  > **资源帐户**和选择资源帐户所需更改设置，然后单击**编辑**按钮。 在**编辑资源帐户**屏幕中，您将能够更改这些设置：
 
 - 该帐户的**显示名称**
 - 呼叫队列或自动助理使用的帐户

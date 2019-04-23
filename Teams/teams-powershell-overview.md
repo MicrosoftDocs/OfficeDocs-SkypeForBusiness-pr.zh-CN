@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897200"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959359"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 
@@ -27,7 +27,7 @@ Microsoft 团队具有一组丰富的 IT 管理员可以管理通过 Microsoft �
 ## <a name="which-modules-do-you-need-to-use"></a>您需要使用哪些模块？
 
 管理团队的 PowerShell 控件是两个不同的 PowerShell 模块中： 
-- [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)（公共预览）： 团队 PowerShell 模块包含您需要创建和管理团队的所有 cmdlet。  
+- [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)： 团队 PowerShell 模块包含您需要创建和管理团队的所有 cmdlet。  
 - [业务 PowerShell 模块的 Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366): Skype for Business PowerShell 模块包含 cmdlet 来管理策略、 配置和其他团队工具。 
 
 PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdlet。 （最终，两个模块将合并。）
@@ -38,9 +38,9 @@ PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdle
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>创建和管理团队通过 PowerShell 自定义
 
-用于创建和管理团队的 cmdlet 是在[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3)中。 
+用于创建和管理团队的 cmdlet 是在[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)中。 
 
-团队有后盾 O365 组，因此何时创建工作组，创建一个组。 有一组的操作系统上核心团队和其设置为提供的 cmdlet (``new-team``， ``get-team``， ``set-teamfunsettings``， ``set-teammessagingsettings``， ``set-teamguestsettings``， ``set-teammembersettings``)，管理团队用户 (``add-teamuser``， ``remove-teamuser``)，以及用于管理团队的通道 cmdlet (``new-teamchannel``, ``remove-teamchannel``). 所有这些 cmdlet 可以为最终用户运行，但其将仅参与团队拥有或的成员。 如果您是全局管理员或团队服务管理员，您将能够在组织中的所有团队。
+团队有后盾 O365 组，因此何时创建工作组，创建一个组。 有一组的操作系统上核心团队和其设置为提供的 cmdlet (``new-team``， ``get-team``， ``set-team``)，管理团队用户 (``add-teamuser``， ``remove-teamuser``)，以及用于管理团队的通道 cmdlet (``new-teamchannel``， ``remove-teamchannel``)。 所有这些 cmdlet 可以为最终用户运行，但其将仅参与团队拥有或的成员。 如果您是全局管理员或团队服务管理员，您将能够在组织中的所有团队。
 
 > 使用中的 Microsoft 团队 PowerShell 模块 cmdlet **GroupId**是返回的**Identity**属性相同``Get-UnifiedGroup``Exchange PowerShell 模块中。
 

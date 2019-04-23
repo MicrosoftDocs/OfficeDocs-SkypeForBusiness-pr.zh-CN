@@ -1,5 +1,5 @@
 ---
-title: 入门医疗保健机构团队
+title: 适用于医疗保健组织的 Teams 入门
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 入门医疗保健机构团队
-ms.openlocfilehash: 9e9d43d5bd4b7f2f0b15727a2f5c52bda6bb7afb
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: 适用于医疗保健组织的 Teams 入门
+ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013754"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959423"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>入门医疗保健机构团队
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
 Microsoft 团队提供了大量医院和其他医疗保健机构有用的功能。 正在开发以帮助与医院是团队功能：
 
@@ -58,4 +58,5 @@ Microsoft 团队提供了大量医院和其他医疗保健机构有用的功能�
  请参阅以下文章：
 
 - [将 Microsoft StaffHub 团队移动到引进中的 Microsoft 团队](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [在 Microsoft Teams 中为组织管理 Shifts 应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要： 部署企业 Web 应用程序和 Skype 会议应用程序与 Skype 用于业务 Skype。
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c974ff9d202c56b0a32c9983706a60b5d73c4de6
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531543"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959558"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>为业务服务器部署中 Skype Web 可下载的客户端
 
 **摘要：** 部署企业 2015 Web 应用程序的 Skype 和 Skype 会议应用程序与 Skype 用于业务服务器。
 
-企业 Web 应用程序的 Skype 是业务服务器运行 Skype 的服务器安装了 Internet 信息服务 (IIS) web 客户端，默认情况下，它将部署需要向会议用户尚不具有业务客户端的 Skype。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序或 Skype 会议应用程序加入会议选项。
+企业 Web 应用程序的 Skype 是业务服务器运行 Skype 的服务器安装了 Internet 信息服务 (IIS) web 客户端，默认情况下，它将部署需要向会议用户尚不具有业务客户端的 Skype。 这些会议用户通常从你的网络外连接。 只要用户单击会议 URL，但没有业务客户端安装 Skype，用户将显示使用最新版本的 Skype 企业 Web 应用程序、 Skype 会议应用程序，或 for Business 的 Skype for mac。 加入会议选项
 
 视频和共享的语音功能 Skype 中的企业 Web 应用程序要求用作用户的浏览器插件一个 Microsoft ActiveX 控件。 您可以提前安装 ActiveX 控件或允许用户安装它出现提示时，发生第一次企业 Web 应用程序使用 Skype 或他们访问功能在首次需要的 ActiveX 控件。
 
@@ -31,7 +31,7 @@ ms.locfileid: "26531543"
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>启用 Skype 业务 Web 应用程序的多因素身份的验证
 <a name="MFA"> </a>
 
-企业 Web 应用程序的 Skype 和 Skype 会议应用程序支持多因素身份验证。 除了用户名和密码，您可以要求其他身份验证方法，例如智能卡或旋转中心点，当用户登录到 Skype 业务会议加入从外部网络的用户进行身份验证。 您可以通过部署 Active Directory 联合身份验证服务 (AD FS) 联合服务器和启用业务服务器中 Skype 被动身份验证启用多重身份验证。 配置 AD FS 后，尝试业务会议加入 Skype 的外部用户显示包含用户名的 AD FS 多因素身份验证网页，以及任何其他身份验证方法的密码质询您已配置。
+Skype 企业 Web 应用程序、 Skype 会议应用程序和 Skype for Business for Mac 支持多因素身份验证。 除了用户名和密码，您可以要求其他身份验证方法，例如智能卡或旋转中心点，当用户登录到 Skype 业务会议加入从外部网络的用户进行身份验证。 您可以通过部署 Active Directory 联合身份验证服务 (AD FS) 联合服务器和启用业务服务器中 Skype 被动身份验证启用多重身份验证。 配置 AD FS 后，尝试业务会议加入 Skype 的外部用户显示包含用户名的 AD FS 多因素身份验证网页，以及任何其他身份验证方法的密码质询您已配置。
 
 > [!IMPORTANT]
 > 如果您计划配置 AD FS 以进行多重身份验证，则以下是一些重要注意事项：
@@ -121,7 +121,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>启用简化会议加入和 Skype 会议应用
 
-1. 启用访问到内容交付网络 (CDN) 时，用户将能够连接到 CDN online 和获取 Skype 会议应用程序，并将使用简化会议加入体验。
+1. 启用访问到内容交付网络 (CDN) 时，用户将能够连接到 CDN online 和 for Mac （在 Mac)，获取业务 （Windows) 上的 Skype 会议应用程序和 Skype 和将使用简化了会议加入体验。
 
    ```
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
@@ -133,7 +133,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能中，可以干扰
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    发送至 Microsoft 的信息严格遵守 [Skype for Business 数据收集实践](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
+    在严格符合[业务数据集做法的 Skype](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)信息发送给 Microsoft。
 
 3. 设置超时之前回退到本地承载 Skype 的业务 Web 应用程序体验中，如果 CDN 不可用。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
 

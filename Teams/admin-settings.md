@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749666"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959153"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -49,8 +49,6 @@ ms.locfileid: "31749666"
 要了解详细信息，请转到[管理团队中的应用程序权限策略](teams-app-permission-policies.md)。
 
 ## <a name="app-setup-policies"></a>应用程序设置策略
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 应用程序设置策略允许您自定义您的用户的应用程序体验。 选择您想要固定到应用程序栏中的团队客户端和顺序出现的顺序，web、 桌面和移动客户端的应用程序。
 

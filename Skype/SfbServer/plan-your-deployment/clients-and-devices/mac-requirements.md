@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读此主题以了解有关硬件、 软件和基础结构要求运行 for Business 的 Skype mac。
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993555"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  
@@ -27,7 +27,7 @@ ms.locfileid: "23965625"
   
 [Skype for Mac 客户端上的 Business](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac)是可供下载。
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Mac 上的 Skype for Business 的硬件和软件要求
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>在 Mac 上的业务的 Skype 的硬件和软件要求
 
 Skype for Mac 客户端上的业务需要 Mac OS X El Capitan 和更高版本，并使用至少 100 MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须[Skype 业务解决方案目录](https://partnersolutions.skypeforbusiness.com/solutionscatalog)中。 
   
@@ -44,7 +44,7 @@ Skype 的业务服务器 2015年运行的 Mac OS 10.5.8 或最新 service pack �
  
 这些客户端不支持 Skype 的业务服务器 2019年。
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Mac 上的 Skype for Business 的基础结构要求
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>在 Mac 上的业务的 Skype 的基础结构要求
 <a name="Infrastructure"> </a>
 
 For Mac 客户端上的 Business Skype 利用统一通信管理平台 (UCMP) 以及统一通信 Web API (UCWA) 我们移动客户端使用。

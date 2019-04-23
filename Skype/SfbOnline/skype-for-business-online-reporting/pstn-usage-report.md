@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新 Skype 业务管理中心报告区域显示您呼叫和音频会议活动在组织中。 使您钻取报告为您提供更精细了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议的 PSTN 用法详细信息，包括呼叫的成本，以便您可以了解您的使用，并调用帐单的详细信息，以确定您的组织内的使用情况。
-ms.openlocfilehash: 9522cf7919808d059146e977de35a5590a05286f
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993545"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -98,6 +98,9 @@ ms.locfileid: "30453943"
 ***
 > [!NOTE]
 > 您可能会看到"无"字段中的数据一些。 "无数据"表示该字段不是适用于功能的呼叫类型。 
+***
+> [!NOTE]
+> 如果您有一个 Telstra 调用计划，您将不会看到任何呼叫详细记录的 PSTN 用法报告中。 请有关您的报告需求，与 Telstra 联系。 
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***

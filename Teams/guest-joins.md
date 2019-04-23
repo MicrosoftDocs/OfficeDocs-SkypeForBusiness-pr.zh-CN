@@ -15,10 +15,10 @@ description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 04/22/2019
 ms.locfileid: "30640711"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式

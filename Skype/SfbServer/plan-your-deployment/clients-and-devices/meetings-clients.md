@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 专业人员应规划的 Skype 业务 Server 时查看 Skype 企业 Web 应用程序和 Skype 会议应用程序的支持的要求。 这篇文章不适合于这些应用程序的用户。
-ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6006bf1ca4b8ce63a662a1c55c79865097c86b18
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531503"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959313"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端 （Web 应用程序和会议应用程序）
  
@@ -38,12 +38,12 @@ ms.locfileid: "26531503"
   
 默认情况下主持会议的服务器将直接下载并安装 Skype 业务 Web App 加入会议的用户。 企业 Web 应用程序的 Skype 存储在前端服务器上，并获取发送给会议参与者。 
   
-对于业务服务器 Skype，作为企业 Web 应用程序从开始 CU5，替换的 Skype 都 Skype 会议应用程序，但提供 Skype 会议应用程序需要[启用 Skype 会议应用程序替换 Skype 中介绍的其他配置企业 Web 应用程序 （可选） 为](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用程序，则用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为企业服务器 2019 Skype 会议应用程序的 Skype 是唯一的选项。
+对于业务服务器 Skype，（Windows) 上的 Skype 会议应用程序和 Skype for Business for Mac （在 Mac) 是可用作 Skype 替换为 CU5，企业 Web 应用程序从开始，但提供替换应用程序需要其他配置[启用 Skype 会议应用程序替换 Skype 业务 Web 应用程序 （可选）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)中所述。  如果启用了 Skype 会议应用程序和 Skype for Business for Mac，用户将从 Office 365 内容交付网络 (CDN) 而不是从您的业务服务器 Skype 下载最新版本的应用程序。 为业务服务器 2019年的 Skype，for Mac for Business 使用 Skype 会议应用程序和 Skype 是唯一的选项。
   
-Skype 会议应用程序提供了有关下载和安装应用程序和加入会议，包括用户的 Internet Explorer 的一次单击加入简化的浏览器体验。 Skype 会议应用程序也有很多改进通过 theSkype 业务 Web 应用程序以实现可靠性和会议体验。 
+Skype 会议应用程序提供了有关下载和安装应用程序和加入会议，包括用户的 Internet Explorer 的一次单击加入简化的浏览器体验。 Skype 会议应用程序也有很多改进通过 Skype 业务 Web 应用程序以实现可靠性和会议体验。 
   
 > [!NOTE]
-> 截止 Skype 的业务服务器 2015 CU5 或更高版本，会议保留业务 online 使用 Skype 将不再无客户端向用户发送 Skype 业务 Web 应用程序，它们将改为发送 Skype 会议应用程序。 截止 Skype 业务服务器 2015 CU5 或更高版本，如果您[启用 Skype 会议应用程序替换为业务 Web 应用程序 （可选） 的 Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)，无客户端的用户将业务 Web 应用程序发送 Skype 会议而不是 Skype 的应用程序。 
+> 截止 Skype 的业务服务器 2015 CU5 或更高版本，会议保留业务 online 使用 Skype 将不再无客户端向用户发送 Skype 业务 Web 应用程序，它们将改为发送 Skype 会议应用程序 （在 Windows 中) 或 for Business 的 Skype for Mac （在 Mac)。 截止 Skype 业务服务器 2015 CU5 或更高版本，如果您[启用 Skype 会议应用程序替换为业务 Web 应用程序 （可选） 的 Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)，无客户端的用户将发送 Skype 会议应用程序或 Mac 而不是企业 Web 应用程序的 Skype 的业务的 Skype。 
   
 ## <a name="software-requirements"></a>软件要求
 <a name="OS-Browser"> </a>
@@ -54,12 +54,12 @@ Skype 会议应用程序提供了有关下载和安装应用程序和加入会�
 
 | 操作系统 | Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位 Internet Explorer 10 或更高版本 | 32 位和 64 位 Internet Explorer 9 或更高版本 | 32 位和 64 位版本的 Safari 6.2.8-11.X | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |是  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是 & #x 2778; <br/> |
-|Windows 8.1 和 #x 2776; <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用 <br/> |是 & #x 2778; <br/> |
-|Windows 8 (基于 Intel) 和 #x 2776; <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |不适用 <br/> |不适用  <br/> |是 & #x 2778; <br/> |
-|Windows 7 SP1 #x 2777; 使用 <br/> |不适用  <br/> |是  <br/> |否  <br/> |否  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
-|Windows Server 2008 R2 SP1 和 #x 2777; <br/> |不适用  <br/> |是  <br/> |是  <br/> |是  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
-|macOS 10.8 及更高版本 （基于 Intel） & #x 2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 <br/> |
+|Windows 10  <br/> |是   <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是 & #x 2778; <br/> |
+|Windows 8.1 & #x 2776; <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用 <br/> |是 & #x 2778; <br/> |
+|Windows 8 (基于 Intel) & #x 2776; <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |不适用 <br/> |不适用  <br/> |是 & #x 2778; <br/> |
+|Windows 7 SP1 & #x 2777; <br/> |不适用  <br/> |是  <br/> |否  <br/> |否  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
+|Windows Server 2008 R2 SP1 & #x 2777; <br/> |不适用  <br/> |是  <br/> |是   <br/> |是  <br/> |不适用 <br/>|是 & #x 2778; <br/> |
+|macOS 10.8 及更高版本 （基于 Intel） & #x 2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是  <br/> |
    
 & #x 2776;企业 Web 应用程序浏览器插件 Skype 需要特定的共享插件，用于基于计算机的语音、 视频、 共享和查看正在进行屏幕共享和其他功能。 会议与会者提供的选项安装时加入会议或时他们启动其中一种功能的共享插件。 在 Windows 8 和 Windows 8.1，共享插件可以安装仅当您正在为台式机运行 Internet Explorer 10 或 Internet Explorer 11。 这些功能不可用与非桌面版本的 Internet Explorer 10 和 11。 请注意 12.0 及更高版本的 Firefox 和 Safari 版本不再受支持。
   
@@ -74,10 +74,12 @@ Skype 会议应用程序提供了有关下载和安装应用程序和加入会�
 
 Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Windows 7，带 32 位和 64 位 Internet Explorer 11 的计算机上运行作为应用程序或更高版本。 
   
-应用程序还上运行 macOS 10.10 或更高版本操作系统与任何特定的浏览器依赖关系。 
+有关其他任何依赖项，请参阅[Skype 会议应用程序支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
-有关任何其他依赖项，请参阅 [Skype 会议应用支持的平台](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-  
+### <a name="skype-for-business-for-mac"></a>Skype for Business for Mac
+
+用于 Mac 的业务的 Skype 运行使用 macOS 10.8 或更高版本的计算机上。 
+
 ## <a name="hardware-requirements"></a>硬件要求
 <a name="OS-Browser"> </a>
 
@@ -102,7 +104,7 @@ Skype 会议应用程序使用 Windows 10、 Windows 8.1、 Windows 8 和 Window
 |切换到电话音频，经过身份验证的参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |切换到电话音频，为来宾参与者  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |查看多方视频（库视图）  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|基于视频的屏幕共享  <br/> |& #x 2714;|& #x 2714; <br/> |& #x2714;(View-only)  <br/> |||
+|基于视频的屏幕共享  <br/> |& #x 2714;|& #x 2714; <br/> |&#x2714;(View-only)  <br/> |||
 |使用会议中演示者控件  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |访问详细的会议名单  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |参与多方 IM  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|

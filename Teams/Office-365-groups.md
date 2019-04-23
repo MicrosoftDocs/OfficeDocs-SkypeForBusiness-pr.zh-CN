@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: msteams
 description: 了解 Office 365 组和组成员身份与 Microsoft Teams 如何配合使用
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890091"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959273"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft 团队
 =====================================
@@ -31,6 +31,8 @@ ms.locfileid: "30890091"
 Office 365 组是 Office 365 中跨应用的成员身份服务。 基本级别 Office 365 组是在 Azure Active Directory 中具有成员和松散耦合到相关工作负荷，包括 SharePoint 工作组网站，Yammer 组的列表的对象共享 Exchange 邮箱资源，计划程序、 Power BI 和 OneNote。 您可以添加或删除到组的人员，就像在 Active Directory 中的任何其他基于组的安全对象。
 
 Office 365 管理员可以定义一个 Office 365 组、 添加成员，以及受益功能，如 Exchange 共享邮箱、 SharePoint 文档库、 Yammer 组等。 有关 Office 365 组的详细信息，请参阅[了解 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+
+请不要错过海报[Microsoft IT 架构师 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)。
 
 <a name="how-office-365-groups-work"></a>Office 365 组的工作方式
 --------------------------

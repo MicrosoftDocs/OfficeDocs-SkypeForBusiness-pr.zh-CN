@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494162"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959383"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -78,7 +78,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 - [Teams 概述](Teams-overview.md)
 - [了解团队和频道](teams-channels-overview.md)
 - [完成技术规划](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [管理 Skype Room Systems](https://aka.ms/srsdocs)
+- [管理 Microsoft Teams 会议室](https://aka.ms/MTRDocs)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 **资源：**
 
-- [在贵组织中管理 Teams 功能](enable-features-office-365.md)
+- [管理您的组织的 Microsoft 团队设置](enable-features-office-365.md)
 - [示例电子邮件：面向用户的 Skype for Business 通知](upgrade-emails-surveys.md#step-4-email)
 
 [返回顶部](#about-upgrade-basic)

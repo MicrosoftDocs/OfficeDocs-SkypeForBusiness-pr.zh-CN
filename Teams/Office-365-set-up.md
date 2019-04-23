@@ -1,5 +1,5 @@
 ---
-title: Office 365 组织中打开的 Microsoft 团队
+title: 打开 Office 365 组织中的 Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959145"
 ---
 # <a name="enable-teams-in-your-organization"></a>在您的组织中启用团队
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460921"
 默认情况下，会为所有组织开启 Teams。 如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。 
 
 
-作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队功能](enable-features-office-365.md)或[Microsoft 团队中的应用程序的管理设置](admin-settings.md)。 
+作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息，请参阅[管理 Microsoft 团队设置为您的组织](enable-features-office-365.md)或[Microsoft 团队中的应用程序的管理设置](admin-settings.md)。 
 
 
  

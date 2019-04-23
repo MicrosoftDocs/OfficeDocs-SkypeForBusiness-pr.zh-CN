@@ -14,19 +14,19 @@ search.appverid: MET150
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be03fb6e28519c53457b6eaabd050a5d9a6bb3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493938"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959241"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
 
 **来宾**是随所有 Office 365 企业高级版、 Office 365 Enterprise 和 Office 365 教育版订阅的 Microsoft 团队中的用户/许可证类型。 无需额外的 Office 365 许可证。 Teams 来宾访问是租户级别设置，默认情况下关闭。 有关如何启用来宾访问的详细信息，请参阅[打开或关闭向 Microsoft 工作组的来宾访问](set-up-guests.md)。
 
-**来宾**用户/许可证类型已打开后，您可以配置设置的来宾通过控件中所述[在 Office 365 组织中管理 Microsoft 团队功能](enable-features-office-365.md)和[管理团队转换为新的 Microsoft 的过程团队管理中心](manage-teams-skypeforbusiness-admin-center.md)。     
+**来宾**用户/许可证类型已打开后，您可以配置设置的来宾通过控件中所述[为您的组织的管理 Microsoft 团队设置](enable-features-office-365.md)和[管理团队转换为新的 Microsoft 团队的过程管理中心](manage-teams-skypeforbusiness-admin-center.md)。     
     
 IT 管理员可以在租户级别添加来宾、 设置和管理来宾用户策略和权限，并纳入有关来宾用户活动报告。 这些控件是可通过 Microsoft 团队管理中心。 来宾用户内容和活动与 Office 365 的其他部分一样受到相同的合规性和审核保护。
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993651"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
@@ -77,7 +77,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 ![呼叫质量仪表板位置增强报告的屏幕截图。 显示的选项卡是概述，建筑物-有线，建筑物-WiFi 和 Mobile (LTE)。 正在应用筛选器以查看特定大厦内的流。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> 若要启用 CQD 中的特定于构建的视图，管理员必须 CQD 的租户数据上载页面上的[上载构建信息](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload)。
+> 若要启用 CQD 中构建或特定于终结点的视图，管理员必须在 CQD 的租户数据上载页上的[上载构建或终结点的信息](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)。 
 
 如果您希望非管理员，帮助台代理，如用于呼叫质量仪表板中，您可以分配这些用户的**团队 Communications 支持工程师**、**团队 Communications 支持专员**或**报告读者**角色。 具有以下角色的用户可以访问呼叫质量仪表板：
 

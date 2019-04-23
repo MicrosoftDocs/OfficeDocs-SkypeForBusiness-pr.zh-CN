@@ -1,6 +1,6 @@
 ---
-title: 设置 Microsoft 团队的云视频互操作
-author: lolaj
+title: 设置 Microsoft Teams 的云视频互操作性
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993618"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft 团队的云视频互操作
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
 [选择上您云视频互操作的合作伙伴](cloud-video-interop.md)后，您需要规划您的部署，提供设置的详细信息和合作伙伴租户密钥和同意您的组织中的视频互操作应用程序获取设置。 下图概述的过程。 
 

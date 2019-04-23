@@ -14,17 +14,17 @@ search.appverid: MET150
 description: 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95053dbc4526ca3502ba986414c8e757d2cb7ad3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993436"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
 =======================================================
 
-连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。 通过使用连接器，你的 Microsoft Teams 用户可以在其团队的聊天流中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 VSTS）的更新。
+连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。 使用连接器，您的 Microsoft 团队的用户可以接收来自受欢迎的服务，例如 Twitter、 Trello、 Wunderlist、 GitHub 和 Azure DevOps 服务其团队中聊天流中的更新。
 
 工作组中的任何成员可以连接到使用连接器的常用云服务其工作组，如果团队权限允许，并且所有团队成员都通知的活动从该服务。 连接器将继续在最初安装连接器已离开的成员后正常工作。 添加/删除对具有权限的任何团队成员可以修改连接器设置其他成员。
 

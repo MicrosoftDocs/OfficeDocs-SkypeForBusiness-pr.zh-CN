@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914583"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959479"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到引进中的 Microsoft 团队
 
@@ -160,7 +160,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 
 下面是响应的一个示例。
 
-对于已移至团队或团队中已存在的任何团队，jobId 将"null"，如作业不需要提交移动该团队。
+对于已被移动到团队或团队中已存在的任何团队，jobId 将"null"，如作业不需要提交移动该团队。
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -197,8 +197,6 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
-
-#### 
 
 ## <a name="monitor-teams-usage"></a>监视团队使用率
 
