@@ -14,16 +14,16 @@ ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 执行命令窗格中显示安装中央管理存储的本地只读副本的任务的状态。 任务在运行时，运行命令时，将更新任务窗格。 您应查看任务状态，并记下任何错误或警告的显示。 当任务完成后，邮件任务状态： 完成显示，并在日志文件的下拉列表显示日志文件的名称。 若要查看已创建的日志文件，选择要查看并单击查看日志的日志文件。 查看所有日志文件中的成功、 错误和警告消息。
 ms.openlocfilehash: b7241a7cd7aeb7b01e762e31bebaa37fa1b90b58
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216023"
 ---
-# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="da791-108">安装本地配置存储（调用）</span><span class="sxs-lookup"><span data-stu-id="da791-108">Install Local Configuration Store (Invoke)</span></span>
+# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="0fc76-108">安装本地配置存储（调用）</span><span class="sxs-lookup"><span data-stu-id="0fc76-108">Install Local Configuration Store (Invoke)</span></span>
  
-<span data-ttu-id="da791-109">**执行命令**窗格中显示安装中央管理存储的本地只读副本的任务的状态。</span><span class="sxs-lookup"><span data-stu-id="da791-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="da791-110">任务在运行时，运行命令时，将更新任务窗格。</span><span class="sxs-lookup"><span data-stu-id="da791-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="da791-111">您应查看任务状态，并记下任何错误或警告的显示。</span><span class="sxs-lookup"><span data-stu-id="da791-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="da791-112">当任务完成后，邮件**任务状态： 完成**显示，并在日志文件的下拉列表显示日志文件的名称。</span><span class="sxs-lookup"><span data-stu-id="da791-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="da791-113">若要查看已创建的日志文件，选择要查看并单击**查看日志**的日志文件。</span><span class="sxs-lookup"><span data-stu-id="da791-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="da791-114">查看所有日志文件中的成功、 错误和警告消息。</span><span class="sxs-lookup"><span data-stu-id="da791-114">Review all log files for success, errors, and warning messages.</span></span>
+<span data-ttu-id="0fc76-109">**执行命令**窗格中显示安装中央管理存储的本地只读副本的任务的状态。</span><span class="sxs-lookup"><span data-stu-id="0fc76-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="0fc76-110">任务在运行时，运行命令时，将更新任务窗格。</span><span class="sxs-lookup"><span data-stu-id="0fc76-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="0fc76-111">您应查看任务状态，并记下任何错误或警告的显示。</span><span class="sxs-lookup"><span data-stu-id="0fc76-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="0fc76-112">当任务完成后，邮件**任务状态： 完成**显示，并在日志文件的下拉列表显示日志文件的名称。</span><span class="sxs-lookup"><span data-stu-id="0fc76-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="0fc76-113">若要查看已创建的日志文件，选择要查看并单击**查看日志**的日志文件。</span><span class="sxs-lookup"><span data-stu-id="0fc76-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="0fc76-114">查看所有日志文件中的成功、 错误和警告消息。</span><span class="sxs-lookup"><span data-stu-id="0fc76-114">Review all log files for success, errors, and warning messages.</span></span>
   
-<span data-ttu-id="da791-115">检查日志文件后，单击**完成**以完成本地配置存储的安装。</span><span class="sxs-lookup"><span data-stu-id="da791-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
+<span data-ttu-id="0fc76-115">检查日志文件后，单击**完成**以完成本地配置存储的安装。</span><span class="sxs-lookup"><span data-stu-id="0fc76-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
   
 

@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: 用于选择超时队列对话框中选择队列超时后转接呼叫。
 ms.openlocfilehash: e8ed73e7d6988fcff48946785c0cfd2317f337c2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200511"
 ---
-# <a name="select-time-out-queue"></a><span data-ttu-id="11687-103">选择超时队列</span><span class="sxs-lookup"><span data-stu-id="11687-103">Select Time-out Queue</span></span>
+# <a name="select-time-out-queue"></a><span data-ttu-id="8f26b-103">选择超时队列</span><span class="sxs-lookup"><span data-stu-id="8f26b-103">Select Time-out Queue</span></span>
  
-<span data-ttu-id="11687-104">使用**选择超时队列**对话框中选择队列超时后转接呼叫。</span><span class="sxs-lookup"><span data-stu-id="11687-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
+<span data-ttu-id="8f26b-104">使用**选择超时队列**对话框中选择队列超时后转接呼叫。</span><span class="sxs-lookup"><span data-stu-id="8f26b-104">Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.</span></span>
   
-<span data-ttu-id="11687-105">在搜索框中，键入您想要使用的队列的名称的全部或部分。</span><span class="sxs-lookup"><span data-stu-id="11687-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="11687-106">要返回所有可用的队列，请将搜索框保留为空，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="11687-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="8f26b-105">在搜索框中，键入您想要使用的队列的名称的全部或部分。</span><span class="sxs-lookup"><span data-stu-id="8f26b-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="8f26b-106">要返回所有可用的队列，请将搜索框保留为空，然后单击搜索图标。</span><span class="sxs-lookup"><span data-stu-id="8f26b-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="11687-107">在搜索返回的队列列表中，选择您希望用于超时呼叫的队列。</span><span class="sxs-lookup"><span data-stu-id="11687-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
+<span data-ttu-id="8f26b-107">在搜索返回的队列列表中，选择您希望用于超时呼叫的队列。</span><span class="sxs-lookup"><span data-stu-id="8f26b-107">In the list of queues returned by the search, select the queue you want to use for timed-out calls.</span></span>
   
 

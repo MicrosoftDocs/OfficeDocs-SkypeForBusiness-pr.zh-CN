@@ -22,60 +22,60 @@ ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
 ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229921"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="b2282-104">设置 PIN 以将号码转移到新服务提供商</span><span class="sxs-lookup"><span data-stu-id="b2282-104">Set your PIN for transferring numbers to a new service provider</span></span>
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="2e3a3-104">设置 PIN 以将号码转移到新服务提供商</span><span class="sxs-lookup"><span data-stu-id="2e3a3-104">Set your PIN for transferring numbers to a new service provider</span></span>
 
-<span data-ttu-id="b2282-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span><span class="sxs-lookup"><span data-stu-id="b2282-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
+<span data-ttu-id="2e3a3-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span><span class="sxs-lookup"><span data-stu-id="2e3a3-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="b2282-107">PIN 转网 PIN 仅适用于美国国内的组织。</span><span class="sxs-lookup"><span data-stu-id="b2282-107">A port out PIN is only used for organizations in the United States.</span></span> 
+> <span data-ttu-id="2e3a3-107">PIN 转网 PIN 仅适用于美国国内的组织。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-107">A port out PIN is only used for organizations in the United States.</span></span> 
   
-<span data-ttu-id="b2282-108">有关转移和转入/转出电话号码的详细信息，请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。</span><span class="sxs-lookup"><span data-stu-id="b2282-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
+<span data-ttu-id="2e3a3-108">有关转移和转入/转出电话号码的详细信息，请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
   
-<span data-ttu-id="b2282-109">这里是有关此 PIN 所应了解一些具体信息：</span><span class="sxs-lookup"><span data-stu-id="b2282-109">Here is some specific information about this PIN you should know:</span></span>
+<span data-ttu-id="2e3a3-109">这里是有关此 PIN 所应了解一些具体信息：</span><span class="sxs-lookup"><span data-stu-id="2e3a3-109">Here is some specific information about this PIN you should know:</span></span>
   
-- <span data-ttu-id="b2282-110">如果未设置 PIN，将无法从Skype for Business Online 转移或转出电话号码。</span><span class="sxs-lookup"><span data-stu-id="b2282-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
+- <span data-ttu-id="2e3a3-110">如果未设置 PIN，将无法从Skype for Business Online 转移或转出电话号码。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
     
-- <span data-ttu-id="b2282-111">它可以包含 6-10 位（数字）。</span><span class="sxs-lookup"><span data-stu-id="b2282-111">It can contain 6-10 digits (numbers).</span></span>
+- <span data-ttu-id="2e3a3-111">它可以包含 6-10 位（数字）。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-111">It can contain 6-10 digits (numbers).</span></span>
     
-- <span data-ttu-id="b2282-112">它不能包含字母或特殊字符。</span><span class="sxs-lookup"><span data-stu-id="b2282-112">It can't contain letters or special characters.</span></span>
+- <span data-ttu-id="2e3a3-112">它不能包含字母或特殊字符。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-112">It can't contain letters or special characters.</span></span>
     
-- <span data-ttu-id="b2282-113">默认 PIN 为空，但如果在其中输入，就无法删除或将其重新设置为空白。</span><span class="sxs-lookup"><span data-stu-id="b2282-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
+- <span data-ttu-id="2e3a3-113">默认 PIN 为空，但如果在其中输入，就无法删除或将其重新设置为空白。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
     
-- <span data-ttu-id="b2282-114">在输入 PIN 后，可以对其进行更新或更改。</span><span class="sxs-lookup"><span data-stu-id="b2282-114">You can update or change the PIN after you put one in.</span></span>
+- <span data-ttu-id="2e3a3-114">在输入 PIN 后，可以对其进行更新或更改。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-114">You can update or change the PIN after you put one in.</span></span>
     
-## <a name="set-up-your-pin"></a><span data-ttu-id="b2282-115">设置 PIN</span><span class="sxs-lookup"><span data-stu-id="b2282-115">Set up your PIN</span></span>
+## <a name="set-up-your-pin"></a><span data-ttu-id="2e3a3-115">设置 PIN</span><span class="sxs-lookup"><span data-stu-id="2e3a3-115">Set up your PIN</span></span>
 
-<span data-ttu-id="b2282-116">![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**</span><span class="sxs-lookup"><span data-stu-id="b2282-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="2e3a3-116">![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**</span><span class="sxs-lookup"><span data-stu-id="2e3a3-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="b2282-117">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="b2282-117">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="2e3a3-117">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-117">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="b2282-118">转到**Microsoft 团队管理中心** > **旧门户**。</span><span class="sxs-lookup"><span data-stu-id="b2282-118">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="2e3a3-118">转到**Microsoft 团队管理中心** > **旧门户**。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-118">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="b2282-119">在左侧导航窗格中，选择**语音** > **端口订单**。</span><span class="sxs-lookup"><span data-stu-id="b2282-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
+3. <span data-ttu-id="2e3a3-119">在左侧导航窗格中，选择**语音** > **端口订单**。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
     
-4. <span data-ttu-id="b2282-120">单击**设置和管理 PIN**，此功能用于将号码转移或转出到另一个服务运营商。</span><span class="sxs-lookup"><span data-stu-id="b2282-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
+4. <span data-ttu-id="2e3a3-120">单击**设置和管理 PIN**，此功能用于将号码转移或转出到另一个服务运营商。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
     
-5. <span data-ttu-id="b2282-121">在**设置或更改转出 PIN **面板，输入 PIN，然后单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="b2282-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
+5. <span data-ttu-id="2e3a3-121">在**设置或更改转出 PIN **面板，输入 PIN，然后单击**保存**。</span><span class="sxs-lookup"><span data-stu-id="2e3a3-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b2282-122">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="b2282-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="2e3a3-122">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="2e3a3-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="b2282-123">相关主题</span><span class="sxs-lookup"><span data-stu-id="b2282-123">Related topics</span></span>
-[<span data-ttu-id="b2282-124">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="b2282-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="2e3a3-123">相关主题</span><span class="sxs-lookup"><span data-stu-id="2e3a3-123">Related topics</span></span>
+[<span data-ttu-id="2e3a3-124">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="2e3a3-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="b2282-125">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="b2282-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="2e3a3-125">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="2e3a3-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="b2282-126">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="b2282-126">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="2e3a3-126">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="2e3a3-126">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="b2282-127">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="b2282-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="2e3a3-127">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="2e3a3-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="b2282-128">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="b2282-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="2e3a3-128">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2e3a3-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

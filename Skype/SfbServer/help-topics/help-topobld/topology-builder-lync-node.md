@@ -13,13 +13,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
 ms.openlocfilehash: b6df0c5c59007afa4a60c1a6db5403a38ea77caa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219055"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="e106d-102">拓扑生成器 Lync 节点</span><span class="sxs-lookup"><span data-stu-id="e106d-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="612a6-102">拓扑生成器 Lync 节点</span><span class="sxs-lookup"><span data-stu-id="612a6-102">Topology Builder Lync Node</span></span>
  
 
 

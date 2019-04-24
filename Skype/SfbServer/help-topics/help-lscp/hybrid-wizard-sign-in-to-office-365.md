@@ -18,20 +18,20 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: 使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
 ms.openlocfilehash: 00e01132f1f8330ba46fe25bcfe2d08db41a2410
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200798"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="b3ec1-103">混合向导：登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="b3ec1-103">Hybrid wizard: Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="2f50e-103">混合向导：登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="2f50e-103">Hybrid wizard: Sign in to Office 365</span></span>
 
-<span data-ttu-id="b3ec1-104">使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。</span><span class="sxs-lookup"><span data-stu-id="b3ec1-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+<span data-ttu-id="2f50e-104">使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。</span><span class="sxs-lookup"><span data-stu-id="2f50e-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
 
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="b3ec1-105">登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="b3ec1-105">Sign in to Office 365</span></span>
+## <a name="sign-in-to-office-365"></a><span data-ttu-id="2f50e-105">登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="2f50e-105">Sign in to Office 365</span></span>
 
-<span data-ttu-id="b3ec1-p101">为您的 Office 365 租户输入用户名和密码以登录并将您的本地部署连接到 Office 365 租户。您需要使用在注册 Office 365 时为 onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。</span><span class="sxs-lookup"><span data-stu-id="b3ec1-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+<span data-ttu-id="2f50e-p101">为您的 Office 365 租户输入用户名和密码以登录并将您的本地部署连接到 Office 365 租户。您需要使用在注册 Office 365 时为 onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。</span><span class="sxs-lookup"><span data-stu-id="2f50e-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
 
-<span data-ttu-id="b3ec1-108">有关如何配置混合环境的更多信息，请参阅[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。</span><span class="sxs-lookup"><span data-stu-id="b3ec1-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+<span data-ttu-id="2f50e-108">有关如何配置混合环境的更多信息，请参阅[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。</span><span class="sxs-lookup"><span data-stu-id="2f50e-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
 
 
