@@ -14,16 +14,16 @@ ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正在执行命令页上显示的命令以扩展架构的 Skype 业务服务器颁发的摘要。
 ms.openlocfilehash: 2a853daad9694e72dc6d983c37862fb074cbbee3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215981"
 ---
-# <a name="prepare-schema-invoke"></a><span data-ttu-id="80efb-103">准备架构（调用）</span><span class="sxs-lookup"><span data-stu-id="80efb-103">Prepare Schema (Invoke)</span></span>
+# <a name="prepare-schema-invoke"></a><span data-ttu-id="33a1a-103">准备架构（调用）</span><span class="sxs-lookup"><span data-stu-id="33a1a-103">Prepare Schema (Invoke)</span></span>
  
-<span data-ttu-id="80efb-104">**正在执行命令**页上显示的命令以扩展架构的 Skype 业务服务器颁发的摘要。</span><span class="sxs-lookup"><span data-stu-id="80efb-104">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server.</span></span> <span data-ttu-id="80efb-105">任务完成后，摘要窗格将指示任务成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="80efb-105">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="80efb-106">检查摘要屏幕，确保在摘要窗格下显示“**任务状态：已完成**”。</span><span class="sxs-lookup"><span data-stu-id="80efb-106">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="80efb-107">在摘要窗格下的下拉列表中，可以选择和查看“准备架构”日志文件。</span><span class="sxs-lookup"><span data-stu-id="80efb-107">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="80efb-108">单击“**查看日志**”检查日志文件。</span><span class="sxs-lookup"><span data-stu-id="80efb-108">Click **View Log** to review the log file.</span></span> <span data-ttu-id="80efb-109">如果在架构准备期间收到错误，会将任务遇到的错误记录在此处。</span><span class="sxs-lookup"><span data-stu-id="80efb-109">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="80efb-110">然后可以通过执行操作来更正任何错误，并重新运行架构准备操作。</span><span class="sxs-lookup"><span data-stu-id="80efb-110">You can then take action to correct any error and re-run the schema preparation.</span></span>
+<span data-ttu-id="33a1a-104">**正在执行命令**页上显示的命令以扩展架构的 Skype 业务服务器颁发的摘要。</span><span class="sxs-lookup"><span data-stu-id="33a1a-104">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server.</span></span> <span data-ttu-id="33a1a-105">任务完成后，摘要窗格将指示任务成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="33a1a-105">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="33a1a-106">检查摘要屏幕，确保在摘要窗格下显示“**任务状态：已完成**”。</span><span class="sxs-lookup"><span data-stu-id="33a1a-106">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="33a1a-107">在摘要窗格下的下拉列表中，可以选择和查看“准备架构”日志文件。</span><span class="sxs-lookup"><span data-stu-id="33a1a-107">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="33a1a-108">单击“**查看日志**”检查日志文件。</span><span class="sxs-lookup"><span data-stu-id="33a1a-108">Click **View Log** to review the log file.</span></span> <span data-ttu-id="33a1a-109">如果在架构准备期间收到错误，会将任务遇到的错误记录在此处。</span><span class="sxs-lookup"><span data-stu-id="33a1a-109">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="33a1a-110">然后可以通过执行操作来更正任何错误，并重新运行架构准备操作。</span><span class="sxs-lookup"><span data-stu-id="33a1a-110">You can then take action to correct any error and re-run the schema preparation.</span></span>
   
-<span data-ttu-id="80efb-111">单击“**完成**”完成任务。</span><span class="sxs-lookup"><span data-stu-id="80efb-111">Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="33a1a-111">单击“**完成**”完成任务。</span><span class="sxs-lookup"><span data-stu-id="33a1a-111">Click **Finish** to complete the task.</span></span>
   
 

@@ -14,23 +14,23 @@ ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义中介服务器，请指定关联中介服务器与前端服务器和边缘服务器或池的设置。 要与边缘服务器或边缘服务器池关联的中介服务器或池，执行以下操作：
 ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220647"
 ---
-# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="6a98e-104">将中介服务器与 Edge 关联</span><span class="sxs-lookup"><span data-stu-id="6a98e-104">Associate Mediation Server With Edge</span></span>
+# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="8a216-104">将中介服务器与 Edge 关联</span><span class="sxs-lookup"><span data-stu-id="8a216-104">Associate Mediation Server With Edge</span></span>
  
-<span data-ttu-id="6a98e-105">若要定义中介服务器，请指定关联中介服务器与前端服务器和边缘服务器或池的设置。</span><span class="sxs-lookup"><span data-stu-id="6a98e-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="6a98e-106">要与边缘服务器或边缘服务器池关联的中介服务器或池，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="6a98e-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
+<span data-ttu-id="8a216-105">若要定义中介服务器，请指定关联中介服务器与前端服务器和边缘服务器或池的设置。</span><span class="sxs-lookup"><span data-stu-id="8a216-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="8a216-106">要与边缘服务器或边缘服务器池关联的中介服务器或池，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="8a216-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
   
-1. <span data-ttu-id="6a98e-107">从下拉列表中，选择边缘服务器与中介服务器相关联的边缘池。</span><span class="sxs-lookup"><span data-stu-id="6a98e-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
+1. <span data-ttu-id="8a216-107">从下拉列表中，选择边缘服务器与中介服务器相关联的边缘池。</span><span class="sxs-lookup"><span data-stu-id="8a216-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
     
-2. <span data-ttu-id="6a98e-108">单击“**下一步**”继续。</span><span class="sxs-lookup"><span data-stu-id="6a98e-108">Click **Next** to continue.</span></span>
+2. <span data-ttu-id="8a216-108">单击“**下一步**”继续。</span><span class="sxs-lookup"><span data-stu-id="8a216-108">Click **Next** to continue.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="6a98e-109">如果您具有尚未定义边缘服务器或边缘服务器池部署中，下拉列表将不会包含条目。</span><span class="sxs-lookup"><span data-stu-id="6a98e-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="6a98e-110">您可以单击**下一步**继续和边缘服务器或池添加到您的部署之后编辑中介服务器的设置。</span><span class="sxs-lookup"><span data-stu-id="6a98e-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
+> <span data-ttu-id="8a216-109">如果您具有尚未定义边缘服务器或边缘服务器池部署中，下拉列表将不会包含条目。</span><span class="sxs-lookup"><span data-stu-id="8a216-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="8a216-110">您可以单击**下一步**继续和边缘服务器或池添加到您的部署之后编辑中介服务器的设置。</span><span class="sxs-lookup"><span data-stu-id="8a216-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
   
-<span data-ttu-id="6a98e-111">有关其他详细信息，请参阅[Deploy Skype 业务服务器中的拓扑生成器中的中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="6a98e-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="8a216-111">有关其他详细信息，请参阅[Deploy Skype 业务服务器中的拓扑生成器中的中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="8a216-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

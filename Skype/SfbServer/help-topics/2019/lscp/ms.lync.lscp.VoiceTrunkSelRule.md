@@ -14,20 +14,20 @@ ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 企业语音要求所有拨号串都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会。 中继对等方（即，关联网关、PBX 或 SIP 中继）可能要求号码采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，选择定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
 ms.openlocfilehash: 30b1102ad6bff37079af8d99ee7ecaa1801d7fdb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221114"
 ---
-# <a name="select-translation-rules"></a><span data-ttu-id="b8dd6-106">选择转换规则</span><span class="sxs-lookup"><span data-stu-id="b8dd6-106">Select Translation Rules</span></span>
+# <a name="select-translation-rules"></a><span data-ttu-id="d5d74-106">选择转换规则</span><span class="sxs-lookup"><span data-stu-id="d5d74-106">Select Translation Rules</span></span>
  
- <span data-ttu-id="b8dd6-107">企业语音要求所有拨号串都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-107">Enterprise Voice requires that all dial strings be normalized to E.164 format for the purpose of performing reverse number lookup (RNL).</span></span> <span data-ttu-id="b8dd6-108">中继对等方（即，关联网关、PBX 或 SIP 中继）可能要求号码采用本地拨号格式。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-108">The trunk peer (that is, the associated gateway, PBX, or SIP trunk) may require that numbers be in a local dialing format.</span></span> <span data-ttu-id="b8dd6-109">要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，选择定义一个或多个转换规则以处理请求 URI。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-109">To translate numbers from E.164 format to a local dialing format, you can optionally define one or more translation rules to manipulate the Request URI before routing it to the trunk peer.</span></span> <span data-ttu-id="b8dd6-110">例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-110">For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
+ <span data-ttu-id="d5d74-107">企业语音要求所有拨号串都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会。</span><span class="sxs-lookup"><span data-stu-id="d5d74-107">Enterprise Voice requires that all dial strings be normalized to E.164 format for the purpose of performing reverse number lookup (RNL).</span></span> <span data-ttu-id="d5d74-108">中继对等方（即，关联网关、PBX 或 SIP 中继）可能要求号码采用本地拨号格式。</span><span class="sxs-lookup"><span data-stu-id="d5d74-108">The trunk peer (that is, the associated gateway, PBX, or SIP trunk) may require that numbers be in a local dialing format.</span></span> <span data-ttu-id="d5d74-109">要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，选择定义一个或多个转换规则以处理请求 URI。</span><span class="sxs-lookup"><span data-stu-id="d5d74-109">To translate numbers from E.164 format to a local dialing format, you can optionally define one or more translation rules to manipulate the Request URI before routing it to the trunk peer.</span></span> <span data-ttu-id="d5d74-110">例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。</span><span class="sxs-lookup"><span data-stu-id="d5d74-110">For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="b8dd6-111">将一个或多个转换规则与企业语音中继配置相关联的功能旨在用作中继对等方上配置转换规则的替代项。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-111">The ability to associate one or more translation rules with an Enterprise Voice trunk configuration is intended to be used as an alternative to configuring translation rules on the trunk peer.</span></span> <span data-ttu-id="b8dd6-112">不关联转换规则与企业语音中继配置如果已在中继对等方上配置转换规则，因为这两种规则可能会发生冲突。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-112">Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer because the two rules might conflict.</span></span> 
+> <span data-ttu-id="d5d74-111">将一个或多个转换规则与企业语音中继配置相关联的功能旨在用作中继对等方上配置转换规则的替代项。</span><span class="sxs-lookup"><span data-stu-id="d5d74-111">The ability to associate one or more translation rules with an Enterprise Voice trunk configuration is intended to be used as an alternative to configuring translation rules on the trunk peer.</span></span> <span data-ttu-id="d5d74-112">不关联转换规则与企业语音中继配置如果已在中继对等方上配置转换规则，因为这两种规则可能会发生冲突。</span><span class="sxs-lookup"><span data-stu-id="d5d74-112">Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer because the two rules might conflict.</span></span> 
   
-<span data-ttu-id="b8dd6-113">要使用现有的转换规则，请单击列表中的某个规则，然后单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b8dd6-113">To use an existing translation rule, click a rule in the list and then click **OK**.</span></span>
+<span data-ttu-id="d5d74-113">要使用现有的转换规则，请单击列表中的某个规则，然后单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="d5d74-113">To use an existing translation rule, click a rule in the list and then click **OK**.</span></span>
   
  
   

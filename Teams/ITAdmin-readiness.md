@@ -16,11 +16,11 @@ description: 培训视频、 PowerPoint 文件 （英文）、 教程和其他�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225941"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
