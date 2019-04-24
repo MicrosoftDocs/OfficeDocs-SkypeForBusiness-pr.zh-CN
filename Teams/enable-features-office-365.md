@@ -1,14 +1,14 @@
 ---
-title: 在 Office 365 组织中管理 Microsoft Teams 功能
+title: 为你的组织管理 Microsoft Teams 设置
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 了解如何在 Office 365 组织中打开或关闭 Microsoft Teams 应用，包括选项卡、连接器、聊天机器人或这三者的任意组合。
+description: 了解如何为组织打开或关闭组织范围的 Microsoft Teams 设置，包括应用、外部访问权限、来宾访问权限、Teams 设置和 Teams 升级首选项。
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683889"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959265"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>在 Office 365 组织中管理 Microsoft Teams 功能
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
 所有 Teams 设置将很快迁移到新的 Microsoft Teams 管理中心。在 Microsoft 365 管理中心进行管理的唯一 Teams 功能是“应用”。 
 
 除非另有说明，否则选项的默认值为“**开启**”。
 
-## <a name="tenant-wide-settings"></a>租户范围的设置 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心的租户范围设置
 
 你可以在 Microsoft 365 管理中心的“**租户范围的设置**”中关闭或打开 Teams 的应用功能。 
 
@@ -44,31 +44,37 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 #### <a name="default-apps"></a>默认应用
 
-These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+这些应用（例如 Planner、Praise 和 Weather）由 Teams 提供。 要打开某个应用，请选中该应用对应的复选框。 要关闭某个应用，请取消选中相应的复选框。 
 
 ![“默认应用”部分屏幕截图。](media/teams-manage-features-in-office365-image1.png "“默认应用”部分屏幕截图")
 
 #### <a name="external-apps"></a>外部应用
 
-These apps are provided by third parties. You can configure the following settings for external apps.
+这些应用由第三方提供。 你可以为外部应用配置以下设置。
 
 ![“外部应用”部分屏幕截图。](media/teams-manage-features-in-office365-image2.png "“外部应用”部分屏幕截图，显示了你可以打开和关闭的设置")
 
 - **在 Microsoft Teams 中允许外部应用**：打开此设置后，用户可以添加贵组织可用的外部应用。 
 
-- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+- **允许外部应用的旁加载**：如果你希望打开一些外部应用并关闭其他外部应用，请关闭此设置，然后在外部应用列表中，关闭你不希望用户访问的应用。 打开此设置后，团队所有者和被授予权限的成员可以向 Teams 旁加载应用。 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+- **默认启用新的外部应用**：打开此设置后，用户可以在新应用添加到 Teams 应用目录后立即激活它们。 如果你希望控制新应用，请关闭此设置。 当然，如果你关闭此设置，必须记得定期查看新应用，以免贵组织错过新应用。 
 
 要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。 
 
-## <a name="teams-org-wide-settings"></a>Teams 组织范围的设置
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 组织范围设置
 你可以在 Microsoft Teams 管理中心中控制组织范围内的用户设置。若要编辑组织范围内的设置，请转到 Microsoft Teams 管理中心，然后选择“**组织范围的设置**”。你可以配置以下设置。
 
 ### <a name="external-access"></a>外部访问
 
 利用**外部访问**功能，你的 Teams 和 Skype for Business 用户可以与贵组织外部的用户通信。要配置外部访问，请访问[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。
+
+要添加或阻止某个域：
+
+1. 选择“**添加域**”。
+2. 在“添加域”窗格中，输入域名，然后单击空格键保存名称。
+3. 选择“**已允许**”或“**已阻止**”。
+4. 选择“**完成**”以保存更改。 
 
 ### <a name="guest-access"></a>来宾访问权限
 
@@ -100,7 +106,7 @@ These apps are provided by third parties. You can configure the following settin
 - **设置内容 PIN** - 要求用户输入此 PIN 以防止未经授权访问文档。这可防止未经授权的用户加入即将召开的会议以及浏览附件。
 - **资源帐户可以发送消息** - **启用**此设置将允许 Surface Hub 资源帐户发送消息。
 
-#### <a name="search"></a>搜索
+#### <a name="search-by-name"></a>按名称搜索
 
 Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许组织创建虚拟边界，用于控制用户查找其组织中的其他用户以及与这些用户通信的方式。在某些情况下你可能想要使用范围目录搜索，例如：
 

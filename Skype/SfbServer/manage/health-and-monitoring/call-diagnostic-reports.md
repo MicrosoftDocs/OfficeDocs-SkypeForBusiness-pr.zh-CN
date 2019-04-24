@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 摘要： 了解多用户呼叫诊断报告中 Skype 用于业务服务器。
 ms.openlocfilehash: 9695331f5f586d97fb5c2de3680e2af5d2c34b03
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197777"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫诊断报告
  

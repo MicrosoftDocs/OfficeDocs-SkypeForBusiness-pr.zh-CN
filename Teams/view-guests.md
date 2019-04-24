@@ -17,11 +17,11 @@ description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203542"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================

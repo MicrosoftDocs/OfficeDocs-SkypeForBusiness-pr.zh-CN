@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 此节点显示该文件存储的完全限定域名 (FQDN) 和相关池。 可以执行以下操作：
 ms.openlocfilehash: f793b7779486ea788f00780c697bf39e9a150a15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194068"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  

@@ -14,11 +14,11 @@ ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置受信任应用程序服务器或池的下一个跃点，执行以下操作：
 ms.openlocfilehash: bbf031642220f6dbe851e5aa1d51353f2156503b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202101"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>添加受信任应用程序服务器下一个跃点
  

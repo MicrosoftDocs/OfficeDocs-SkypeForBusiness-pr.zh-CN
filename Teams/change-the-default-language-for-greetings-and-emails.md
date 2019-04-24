@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
 ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198470"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -63,7 +63,7 @@ ms.locfileid: "30664856"
     
 ## <a name="related-articles-for-the-admin"></a>相关管理员文章
 
-- [电话系统和呼叫计划](calling-plan-landing-page.md)
+- [电话系统和通话套餐](calling-plan-landing-page.md)
     
 - [设置通话套餐](set-up-calling-plans.md)
     

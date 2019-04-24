@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: 规划漫游业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署中的用户。
 ms.openlocfilehash: 8682ba47e3543cc39b1fc793c587040a7821f8c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206731"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定义手动获取业务服务器的 Skype 中的位置的用户体验
  

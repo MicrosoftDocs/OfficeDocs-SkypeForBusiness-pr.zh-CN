@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/10/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569612"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959415"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -124,7 +124,7 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>为拥有试用版许可证的用户管理 Teams
 
-你可以管理拥有试用版许可证的用户，就像管理具有常规付费许可证的用户一样。 有关详细信息，请参阅[在 Office 365 组织中管理 Microsoft Teams 功能](enable-features-office-365.md)。
+你可以管理拥有试用版许可证的用户，就像管理具有常规付费许可证的用户一样。 有关详细信息，请参阅[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)。
 
 ### <a name="upgrade-users-from-the-trial-license"></a>从试用版许可证升级用户
 

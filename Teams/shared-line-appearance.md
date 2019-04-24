@@ -20,11 +20,11 @@ ms.custom:
 - Phone System
 description: 共享的行外观允许用户选择代理人应答或处理代表其拨打的呼叫。
 ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993537"
+ms.locfileid: "32204488"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 

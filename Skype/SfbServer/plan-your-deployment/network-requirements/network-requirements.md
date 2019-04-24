@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
 ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206259"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 

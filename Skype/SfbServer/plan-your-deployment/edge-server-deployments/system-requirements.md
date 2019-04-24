@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要： 了解如何为业务服务器 Skype 中的边缘服务器的系统要求。
 ms.openlocfilehash: 34114833b516f49fb36742cbde9361e1bb1d3be3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207123"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>为业务服务器中 Skype 边缘服务器的系统要求
  
@@ -210,7 +210,7 @@ Skype 业务服务器不具有大量的基于 cookie 的相关性要求。 所�
 
 您可以定义端口监视您的硬件负载平衡器来确定何时特定服务不再可用，由于硬件或通信失败而导致上。 例如，如果前端服务器服务 (RTCSRV) 停止因为前端服务器或前端池失败，HLB 监控还应该停止接收通信，在 Web 服务。 应在 HLB 上实施端口监视来监视 HLB 外部接口的以下信息：
   
-|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**备注**|
+|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<池\>web_mco_443_vs  <br/> 443  <br/> |端口 4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
 |\<池\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |

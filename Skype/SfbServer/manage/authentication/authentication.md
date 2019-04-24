@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 摘要： 使用以下过程来管理 Skype 的业务服务器安全性和身份验证。
 ms.openlocfilehash: df5a5c100df82453652f8ac9fa1b29f01af3ceed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211647"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>管理服务器的身份验证中 Skype 业务
  

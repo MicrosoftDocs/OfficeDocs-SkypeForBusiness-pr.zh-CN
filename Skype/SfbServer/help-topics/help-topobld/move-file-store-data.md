@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果您需要删除目前充当业务服务器 2015年部署您 Skype 的文件存储的文件服务器，或如果您需要进行其他更改，使当前文件存储不可用，首先需要创建新的共享。 然后需要执行以下步骤：
 ms.openlocfilehash: 364b63c1c93ed9a817596cb90cbe1ea92198a514
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199985"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 

@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218035"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -76,7 +76,7 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 和自定义连接器
 
-连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 Visual Studio Team Services (VSTS)）的更新。
+连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 Azure DevOps Services）的更新。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

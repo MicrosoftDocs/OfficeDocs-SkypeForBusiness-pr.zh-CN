@@ -3,8 +3,8 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams 技术文档
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: lolaj
+author: lolajacobsen
 description: Microsoft Teams 技术文档
 ms.topic: hub-page
 localization_priority: Priority
@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026039"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959137"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -44,43 +44,6 @@ ms.locfileid: "31026039"
                                             <div class="cardText">
                                                 <h3>欢迎使用 Teams</h3>
                                                 <P>了解 Teams 概况并查找你作为 Teams 管理员或 IT 专业人士所需要的技术指南</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                           <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>如何推广 Teams</h3>
-                                                <P>不管是小型企业还是跨国企业，都可以在此处找到推广 Teams 的正确途径</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
-                            <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>入门</h3>
-                                                <P>使用快速入门指南快速开始使用并运行一些团队和频道</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,29 +107,47 @@ ms.locfileid: "31026039"
                                 </div>
                             </a>
                             </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>海报：Teams 体系结构、电话解决方案</h3>
+                                                <P>获取有关 Teams IT 体系结构和电话解决方案的可打印的图解</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>在组织中推广 Teams</h3>
+                                                <P>为你的行业（包括医疗保健、一线员工、零售业、政府和教育机构）查找自定义解决方案</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
 <li class="fullSpan">
                   <hr>
                   <br>
                   <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
-                        <li>
-                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Teams 开发人员平台</h3>
-                                            <p>了解 Microsoft Teams 开发人员平台及其如何有助于生成功能强大的实用应用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li>
                         <li>
                             <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
                             <div class="cardSize">
@@ -187,24 +168,43 @@ ms.locfileid: "31026039"
                             </a>
                         </li> 
                         <li>
-                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                            <a href="https://support.office.com/Teams">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings-teams.svg" alt="Settings">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Teams 的 PowerShell cmdlet 参考</h3>
-                                            <p>获取 Teams 的 PowerShell 模块和 cmdlet</p>
+                                            <h3>最终用户 Teams 帮助</h3>
+                                            <p>转到针对最终用户的帮助、培训和新增功能内容</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         </a>
                                     </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Teams 开发人员平台</h3>
+                                            <p>了解 Microsoft Teams 开发人员平台及其如何有助于生成功能强大的实用应用</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
                               </ul>
                             </li>
                        </ul>

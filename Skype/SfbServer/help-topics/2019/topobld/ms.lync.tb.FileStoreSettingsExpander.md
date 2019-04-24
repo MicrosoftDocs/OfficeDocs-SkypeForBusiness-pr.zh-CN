@@ -14,11 +14,11 @@ ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑的定义的文件存储的属性：
 ms.openlocfilehash: bee25e8550cd61ca14c1c898dc8810aa8d759fb5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201812"
 ---
 # <a name="file-store-settings-expander"></a>文件存储设置扩展器
  

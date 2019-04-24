@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 此节点显示此边缘池的池完全限定域名 (FQDN) 以及其他基本设置。可以执行以下操作：
 ms.openlocfilehash: 5cdeef0873c3501c17b2c5d638fb85a9b62df5cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203107"
 ---
 # <a name="edge-server-scope-node"></a>边缘服务器范围节点
  

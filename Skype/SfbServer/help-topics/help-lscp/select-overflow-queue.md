@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 用于选择溢出队列对话框中选择队列响应组队列已满时转接呼叫。
 ms.openlocfilehash: d86a11efbfa775f38737eeee3704866e43cbc15d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200532"
 ---
 # <a name="select-overflow-queue"></a>选择溢出队列
  

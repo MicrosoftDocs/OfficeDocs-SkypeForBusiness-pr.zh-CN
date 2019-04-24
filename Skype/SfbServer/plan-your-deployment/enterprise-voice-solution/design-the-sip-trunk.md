@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: 规划业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署 SIP 中继拓扑。
 ms.openlocfilehash: 25d961c00eb701dce6386ce2a901c1fbe5cf3cde
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206962"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>SIP 中继的设计 E9-1-1 在 Skype 业务服务器
  

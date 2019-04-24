@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 请参阅到 Office 365 的转接电话号码的说明。
 ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204127"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>转接电话号码常见问题
 

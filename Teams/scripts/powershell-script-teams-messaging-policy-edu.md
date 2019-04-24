@@ -1,5 +1,5 @@
 ---
-title: PowerShell 脚本示例-创建并分配邮件策略
+title: PowerShell 脚本示例 - 创建和分配消息传递策略
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -14,13 +14,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d65deff9f424fad8fed11d7b10cbe40ced387161
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205071"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例-创建并分配邮件策略
+<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例 - 创建和分配消息传递策略
 -------------------------------------------------------------------------
 
 使用此 PowerShell 脚本创建的 Microsoft 团队中的邮件策略，并将其分配给用户。 

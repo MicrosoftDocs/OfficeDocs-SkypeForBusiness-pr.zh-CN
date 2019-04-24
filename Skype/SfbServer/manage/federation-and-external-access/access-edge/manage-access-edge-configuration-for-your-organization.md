@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 后部署一个或多个边缘服务器，必须启用外部域或提供程序访问、 远程用户访问和匿名用户通过边缘服务器将用于您的组织支持的会议访问的类型。
 ms.openlocfilehash: 8428815a0f3d89124d1b5e681b79924171916f6d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199918"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理您的组织的访问边缘配置
 

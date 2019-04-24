@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: 企业语音组件中的业务服务器 Skype 摘要。
 ms.openlocfilehash: 870110c702c36660652fb08cff702453573349a2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206983"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>所需的 Skype 中的企业语音的企业服务器组件
  

@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '了解你应该了解的 PIN 相关信息以及如何在 Microsoft Teams 中重置 PIN。 '
 ms.openlocfilehash: 7fe1ae3487caf9433b8f41753f6af9584a7d7f4d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206591"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 

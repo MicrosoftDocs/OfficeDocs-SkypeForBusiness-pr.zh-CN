@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
 ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204885"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 

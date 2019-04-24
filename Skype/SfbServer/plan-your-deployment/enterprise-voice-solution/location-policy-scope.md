@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: 规划业务 Server 企业语音中 Skype E9-1-1 部署的位置策略。
 ms.openlocfilehash: 0c39d0f464b7cde9521dbb69043411b964f74858
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206752"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>为业务服务器分配位置策略作用域中 Skype
  

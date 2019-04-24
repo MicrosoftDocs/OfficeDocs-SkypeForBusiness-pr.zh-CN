@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 选择要为边缘池启用的每个功能。默认情况下，边缘池支持组织中使用虚拟专用网络 (VPN) 从防火墙外登录的远程用户。此外，还具有以下边缘池功能选项：
 ms.openlocfilehash: 251796a18f7f2f6ff8402fb4ef50827e60221451
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246974"
 ---
 # <a name="add-edge-server-options"></a>添加边缘服务器选项
 

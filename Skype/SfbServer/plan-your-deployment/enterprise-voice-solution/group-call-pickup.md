@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 规划组中 Skype 调用的分拣业务 Server 企业语音，这样用户应答其他人原来的呼叫。
 ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206857"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>规划组呼叫应答中 Skype for Business
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要： 实现 Skype 业务服务器之前查看下面的 IP 地址类型注意事项。
 ms.openlocfilehash: 4ebf8c3329358e526f86dd90eb4cbc0340d06606
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206294"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
 

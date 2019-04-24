@@ -14,11 +14,11 @@ ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: “分支站点”节点列出了与此中央站点关联的分支站点。 可以执行以下操作：
 ms.openlocfilehash: 1bfa56b52f604633937626fd62c3b5bbbc929f35
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201876"
 ---
 # <a name="branch-offices-scope-node"></a>分支机构范围节点
  

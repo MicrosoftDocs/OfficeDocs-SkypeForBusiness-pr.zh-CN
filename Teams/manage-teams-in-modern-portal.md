@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 管理中心中管理团队
+title: 管理 Microsoft 团队管理中心中的团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,17 +17,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba19fac66ef4e12e2734948a6695894b52dd3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202728"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
 
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>概述
 
@@ -36,16 +35,13 @@ ms.locfileid: "30494034"
 - 全局管理员
 - Teams 服务管理员
 
-您还应确保您的帐户已被分配非试用团队许可证管理。 作为一个已知问题的一部分，您应该确保您的帐户具有只有**一个**管理角色分配。  您可以了解有关 Microsoft 团队中[使用的 Microsoft 团队管理角色，来管理团队](using-admin-roles.md)，管理员角色的详细信息，并可以了解有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队。  
+您可以了解有关管理角色的团队中[使用的 Microsoft 团队管理角色，来管理团队](using-admin-roles.md)，并且您可以阅读更多有关如何使用 PowerShell cmdlet 进行管理[的 Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队。  
 
 本文概述了 Microsoft 团队管理中心中的团队的管理工具。
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
 团队的管理工具是 Microsoft 团队管理中心中的**团队**节点下。 (在管理中心中选择**团队** > **管理团队**。)此节点提供已 Microsoft 团队启用您的组织中的组的视图和每个工作组后盾 Office 365 组。
-
-> [!NOTE]
-> 我们正在回填以前创建以确保它们将出现在此视图的团队。
 
 ![团队概述网格](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -56,7 +52,11 @@ ms.locfileid: "30494034"
 - **用户**的用户总数，包括所有者、 来宾和从租户的成员计数。
 - **所有者**-此团队的所有者的计数。
 - **来宾**-的 Azure Active Directory B2B 来宾用户属于此团队的成员计数。
-- **隐私**-备份 Office 365 组的 AccessType。
+- **隐私**-备份 Office 365 组的可见性/AccessType。
+- **状态**-已存档或此团队活动状态。  了解有关存档[存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中的团队。
+- **GroupID** -备份 Office 365 组的唯一 GroupID
+- **分类**-分配给备份 Office 365 组的分类 （如果您的组织中使用）。  了解有关在[创建您的组织中的 Office 组分类](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)的分类。
+- **说明**-备份 Office 365 组设置的说明
 
 ### <a name="search"></a>搜索
 
@@ -89,10 +89,15 @@ ms.locfileid: "30494034"
 - **团队分类**-通过您的 Office 365 组分类备份
 - **团队成员设置**-选择团队成员设置
 
+## <a name="other-supported-changes-to-teams"></a>向工作组其他受支持的更改
+
+- **删除**-删除团队是团队和相应的 Office 365 组软删除。  若要还原的错误地删除的工作组，按照在[还原已删除的 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide)的说明。
+- **存档**的存档团队将置于只读模式中的 Microsoft 团队的团队。  作为一名管理员，您可以存档和代表通过管理门户组织 unarchive 团队。
+
 
 记录对团队所做的更改。 如果您要修改组设置 （更改名称、 说明、 照片、 隐私、 分类或工作组成员），您将这些更改的归功于您通过审核管道。 如果您执行的操作对特定于团队的设置，则将跟踪所做的更改，并将其团队的常规频道中属于您。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 **问题： 团队团队概述网格中缺少**
 
@@ -102,7 +107,7 @@ ms.locfileid: "30494034"
 
 **解决方案： 手动将属性设置为正确值通过 MS 图**
 
-替换为"**ExternalDirectoryObjectId**"属性 **"[Get UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet， **{groupid}** 中的查询的实际的 GroupId 问题，您可以通过 Exchange Online powershell 中，获取其。
+替换为"**ExternalDirectoryObjectId**"属性 **"[Get UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet， **{groupid}** 中的查询的实际的 GroupId 问题，您可以通过 Exchange Online powershell 中，获取其。
 
 1. 访问[图表资源管理器](https://developer.microsoft.com/en-us/graph/graph-explorer)
 

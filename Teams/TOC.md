@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [欢迎使用 Teams](teams-overview.md)
 # [如何部署 Teams](How-to-roll-out-teams.md)
-
+# [海报：Teams 体系结构和电话解决方案](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -25,6 +25,7 @@
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
 ## [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
+## [存档或删除团队](archive-or-delete-a-team.md)
 
 
 
@@ -58,11 +59,12 @@
 ## [外部访问（联合身份验证）](manage-external-access.md)
 
 ## [管理 Teams](using-admin-roles.md)
-### [在组织内管理 Teams 功能](enable-features-office-365.md)
+### [为你的组织管理 Teams 设置](enable-features-office-365.md)
 ### [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Microsoft Teams 管理中心中管理 Teams](manage-teams-in-modern-portal.md)
 ### [管理 Teams 的免费版本](manage-freemium.md)
 ### [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
+### [批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 ### [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
 ### [使用内联消息翻译](inline-message-translation-teams.md)
@@ -75,6 +77,7 @@
 
 
 ## 参考
+
 ### 准备好推广 Teams
 #### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 #### [为 Teams 准备贵组织的网络](prepare-network.md)
@@ -84,6 +87,8 @@
 #### [获取工具以支持 Teams 部署](rollout-tools.md)
 #### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 #### [在 Teams 中规划管理](plan-teams-governance.md)
+
+
 
 
 ### 与 Office 365 的互操作性
@@ -723,7 +728,7 @@
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell 概览](teams-powershell-overview.md)
-### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams)
+### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Microsoft Teams 中获取帮助](get-help-in-microsoft-teams.md)

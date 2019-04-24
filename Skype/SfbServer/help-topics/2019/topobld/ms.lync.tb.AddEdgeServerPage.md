@@ -14,11 +14,11 @@ ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要在拓扑设计中引入边缘服务器或边缘服务器池，需指定要在其上部署边缘服务器或边缘服务器池的服务器的完全限定的域名 (FQDN)。 发布拓扑，其中包括边缘服务器或边缘服务器池和安装 Business Server Skype 之前, 您应已完成部署外部用户访问的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的Preparing for Installation of Servers in the Perimeter Network。
 ms.openlocfilehash: e54deff6c6dcf371ba86f3fbfa1b974489cb3f11
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202115"
 ---
 # <a name="add-edge-server"></a>添加边缘服务器
 

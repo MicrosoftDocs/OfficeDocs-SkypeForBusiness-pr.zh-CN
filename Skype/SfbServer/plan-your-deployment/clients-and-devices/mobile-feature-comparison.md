@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 摘要： 规划的 Skype 业务 Server 时查看对移动客户端的功能支持。
 ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207333"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business 的移动客户端功能比较
  

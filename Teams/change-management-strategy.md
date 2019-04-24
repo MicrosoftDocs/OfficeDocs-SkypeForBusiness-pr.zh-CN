@@ -15,11 +15,11 @@ description: 了解如何通过确定推行活动的关键利益干系人、业�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3da1b3e5435c1503b52d958086a59f73dcb92e09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205554"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================

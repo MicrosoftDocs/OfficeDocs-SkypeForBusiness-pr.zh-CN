@@ -14,11 +14,11 @@ ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要启用即时消息 (IM) 和 Web 会议内容的存档，必须指定文件共享以用作所有 Web 会议内容副本的文件存储。可以将现有的文件共享用作存档文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
 ms.openlocfilehash: 1ebf713d718f5ccc13684f9e1127cc38da0caf4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202454"
 ---
 # <a name="add-archiving-server-file-store"></a>添加存档服务器文件存储
 

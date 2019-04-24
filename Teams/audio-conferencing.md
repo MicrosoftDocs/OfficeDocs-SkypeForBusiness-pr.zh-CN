@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205660"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -549,4 +549,4 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 <br>
 ## <a name="see-also"></a>另请参阅
 
-[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)
+[设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 要编辑或指定边缘服务器的“外部设置”，首先必须确定是否要为会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
 ms.openlocfilehash: bb2872ada60da7edb6905692deb5a893fe3e5427
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203135"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>边缘服务器 FQDN 设置扩展器
 

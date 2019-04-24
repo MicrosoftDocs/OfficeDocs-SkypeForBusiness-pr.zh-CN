@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 摘要： 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
 ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210793"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>验证业务服务器中 Skype 的拓扑
  

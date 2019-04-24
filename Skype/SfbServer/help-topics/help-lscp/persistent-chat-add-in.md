@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 持久聊天页的外接程序部分可用于将 Url 与持久聊天聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
 ms.openlocfilehash: 8cac9a89bcccc66459d0663f9211d22c173f94a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200679"
 ---
 # <a name="persistent-chat-add-in"></a>持久聊天外接程序
 

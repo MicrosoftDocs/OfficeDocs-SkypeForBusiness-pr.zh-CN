@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 了解用户体验前端池故障转移或业务服务器失败后 Skype 中的灾难恢复期间时。
 ms.openlocfilehash: 9311078b0b987f4340fec671e559ca4430949a6b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206407"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>业务服务器中 Skype 的池故障期间的用户体验
  

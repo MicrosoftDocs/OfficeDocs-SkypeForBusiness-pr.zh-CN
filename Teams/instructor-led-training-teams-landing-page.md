@@ -12,12 +12,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: 31ade1137987bc67e4f45ea2fe8b51a4501bcd7c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245211"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -180,6 +180,25 @@ ms.locfileid: "30952376"
                                             <div class="cardText">
                                                 <h3>一线工作人员与 Teams</h3>
                                                 <p>了解 Teams 中新发布的一线工作人员功能。 （受众：最终用户）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://aka.ms/TeamsForGov">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="government" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>适用于美国政府的 Teams (GCC) 概述</h3>
+                                                <p>请参与有关 Office 365 GCC 中的 Teams 的互动式概览，该概览展示了协作最佳做法。 （受众：IT 专业人员、最终用户）</p>
                                             </div>
                                         </div>
                                     </div>

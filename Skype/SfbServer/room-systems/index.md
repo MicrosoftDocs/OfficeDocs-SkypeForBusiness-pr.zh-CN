@@ -1,6 +1,6 @@
 ---
-title: Microsoft 团队聊天室
-ms.reviewer: null
+title: Microsoft Teams 会议室
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 关于部署 Microsoft 团队聊天室，以及如何部署和管理的系统相关的规划注意事项。
+ms.openlocfilehash: 078554d7d480507f7966abe844ce9aa8eef8c851
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206195"
 ---
-
-<h2>Microsoft 团队聊天室</h2>
+<h2>Microsoft Teams 会议室</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -56,7 +61,7 @@ description: 关于部署 Microsoft 团队聊天室，以及如何部署和管�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>套餐</h3>
+                        <h3>规划</h3>
                     </div>
                 </div>
             </div>

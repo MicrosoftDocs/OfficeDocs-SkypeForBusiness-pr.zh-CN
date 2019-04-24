@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 摘要： 了解如何配置 PIN 小于会议加入业务服务器中 Skype 选项。
 ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198265"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在 Skype for Business Server 中配置无 PIN 会议加入
  

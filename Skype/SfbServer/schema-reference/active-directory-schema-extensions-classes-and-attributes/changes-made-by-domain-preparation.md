@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: 下表列出域准备在域根创建访问控制项 (Ace)。 除非另行说明，所有 Ace 都被都继承。
 ms.openlocfilehash: 5cf239e37badafee9980140d08fd20a11e3c233d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213450"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Skype 中的业务服务器的域准备所做的更改
  

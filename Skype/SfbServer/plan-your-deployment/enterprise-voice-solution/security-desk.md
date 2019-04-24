@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
 ms.openlocfilehash: 7f6f6fd861f49158e7801ada42052e287ade4f87
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206471"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>为业务服务器中 Skype 包括安全服务台
  

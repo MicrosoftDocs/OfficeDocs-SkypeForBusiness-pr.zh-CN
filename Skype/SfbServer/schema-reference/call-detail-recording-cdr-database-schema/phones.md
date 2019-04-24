@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Phones 表是一个支持表。 每个表中的记录存储有关数据库中包含记录的 VoIP 呼叫中所涉及的一个电话号码的信息。
 ms.openlocfilehash: 733adec46e948c3b7f1d804f57011110355078f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212885"
 ---
 # <a name="phones-table"></a>Phones 表
  

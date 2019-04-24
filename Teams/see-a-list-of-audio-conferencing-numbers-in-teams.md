@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
 ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205086"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 

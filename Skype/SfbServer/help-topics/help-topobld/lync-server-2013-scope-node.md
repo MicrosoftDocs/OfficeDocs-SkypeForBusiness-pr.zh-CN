@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
 ms.openlocfilehash: 6fb141ee96ae755891393fd66837b7b4beb08c8e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200100"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 范围节点
  

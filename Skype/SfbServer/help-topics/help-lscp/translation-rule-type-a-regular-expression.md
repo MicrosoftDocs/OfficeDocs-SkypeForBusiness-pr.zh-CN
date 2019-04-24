@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: 在匹配此模式字段中，指定将用于匹配要转换的号码的模式。 在转换规则字段中，指定转换后的号码格式的模式。 例如，如果输入 ^\+(\d{9}\d+)$ 在匹配此模式字段和 011$ 1 转换规则字段中，该规则会将 + 441235551010 转换为 011441235551010。
 ms.openlocfilehash: f6fa4b1d0225f081d041adfeb1b0a86385813b8f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200441"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>转换规则：键入正则表达式
  

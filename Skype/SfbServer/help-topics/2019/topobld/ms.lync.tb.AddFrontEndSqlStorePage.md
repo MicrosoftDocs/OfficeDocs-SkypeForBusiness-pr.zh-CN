@@ -14,11 +14,11 @@ ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 部署 Standard Edition server 自动安装所需的 Microsoft SQL Server Express 数据库软件和 SQL Server 数据库。 因此，所有选项都预先都填充，并且您无法更改为默认配置。
 ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202052"
 ---
 # <a name="add-front-end-sql-server-store"></a>添加前端 SQL Server 存储
 

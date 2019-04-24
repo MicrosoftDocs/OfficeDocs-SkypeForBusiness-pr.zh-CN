@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype 业务 server 依靠证书进行服务器身份验证以及建立之间的不同服务器角色和客户端和服务器之间的信任链。 Windows Server 2012 R2、 Windows Server 2012、 Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供用于建立和验证这种信任链的基础结构。
 ms.openlocfilehash: e8e1230074dff58c46880b759038834a8d16c444
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213597"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>公钥基础结构 Skype 业务服务器
  

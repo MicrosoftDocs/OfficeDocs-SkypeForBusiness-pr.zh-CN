@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，你可以为贵组织中的单个用户编辑 Microsoft Teams 音频会议设置（例如，提供商、默认的收费或免费电话号码、会议 ID 或 PIN）。 '
 ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202693"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户的音频会议设置
 
@@ -59,6 +59,6 @@ ms.locfileid: "30460225"
 
 ## <a name="related-topics"></a>相关主题
 
-[管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[管理组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [音频会议常见问题](audio-conferencing-common-questions.md)

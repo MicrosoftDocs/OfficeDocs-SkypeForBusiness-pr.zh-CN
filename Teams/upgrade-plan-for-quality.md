@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203744"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -356,7 +356,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | 执行网络评估 | [网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | 规划终结点质量 | 更新终结点防火墙 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
-| | 验证软件要求 | [获取 Microsoft Teams 客户端](get-clients.md) |
+| | 验证软件要求 | [获取 Microsoft Teams 的客户端](get-clients.md) |
 | | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
 | | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 

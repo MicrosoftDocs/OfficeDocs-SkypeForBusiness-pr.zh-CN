@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 约旦可用的项目。
 ms.openlocfilehash: 9e7a654bd67d3ed3405785fac3b9b6b29b4f788f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203662"
 ---
 # <a name="availability-in-jordan"></a>在约旦的可用性
 

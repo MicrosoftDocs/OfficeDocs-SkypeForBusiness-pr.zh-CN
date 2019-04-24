@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 编辑此对话框中的中介服务器的属性。 左侧为快速链接使您转到设置常规设置、 下一个跃点设置和 PSTN 网关设置一组。 在每个部分包括以下设置：
 ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200086"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的中介服务器常规设置扩展器
 

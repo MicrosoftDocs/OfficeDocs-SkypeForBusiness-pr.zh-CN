@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 规划业务 Server 企业语音中 Skype E9-1-1 部署所需的决策。
 ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206478"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>定义业务 Server 中 Skype E9-1-1 部署范围
 

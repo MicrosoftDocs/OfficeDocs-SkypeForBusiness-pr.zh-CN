@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
 ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203324"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -100,6 +100,6 @@ When you assign an **Audio Conferencing** license to people in your organization
 
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[音频会议的电话号码](phone-numbers-for-audio-conferencing.md)
+[音频会议电话号码](phone-numbers-for-audio-conferencing.md)
 
 [设置在线会议和会议电话的选项](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

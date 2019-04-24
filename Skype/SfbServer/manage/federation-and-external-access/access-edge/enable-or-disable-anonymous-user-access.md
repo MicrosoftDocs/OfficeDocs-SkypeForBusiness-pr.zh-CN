@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
 ms.openlocfilehash: a68790f870a6c62b513caab559580695763cd4df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199946"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>启用或禁用匿名用户访问中 Skype 业务服务器
 

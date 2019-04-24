@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 您可以使用以下任一指标来估计每个站点和支持该流量所需的端口数的用户通信。
 ms.openlocfilehash: 4475be7d233bbfa34c1d2aa8b62d578ebb985423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197672"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>为业务服务器的 Skype 估计语音的使用和流量
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: “边缘池”节点列出了拓扑中的边缘池。 可以执行以下操作：
 ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203163"
 ---
 # <a name="edge-servers-scope-node"></a>边缘服务器范围节点
  

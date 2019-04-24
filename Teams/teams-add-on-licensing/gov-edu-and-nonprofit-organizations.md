@@ -1,5 +1,5 @@
 ---
-title: GOV、EDU 和非营利性组织
+title: GOV、 EDU 和非营利组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: f2afc5b36d15f0b420cd8cdf7ce545dd78a5a941
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3aa8cfc2f08f31f78aa830fb4c44a513a160e5c5
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204504"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV、 EDU 和非营利组织
 
 团队的大多数功能可供美国政府、 教育和非赢利组织。 请参阅下的表详细信息。
 
@@ -35,4 +35,4 @@ ms.locfileid: "30542676"
 |Office 365 电话系统  <br/> |是   <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365 呼叫计划  <br/> |是   <br/> |是  <br/> |是  <br/> |是  <br/> |
    
-请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
+请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。

@@ -16,13 +16,13 @@ description: 调用计划登录页
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211980"
 ---
-# <a name="phone-system-with-calling-plans"></a>具有通话套餐的电话系统 
+# <a name="phone-system-with-calling-plans"></a>调用计划的电话系统 
 
 您已完成的[开始](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在已准备好添加云语音工作负荷，因而您已决定使用调用计划与 Microsoft 电话系统连接到公共公用电话交换网 (PSTN)。 
 
@@ -69,7 +69,7 @@ ms.locfileid: "30460753"
 |如何详细我是否需要为的紧急地址和位置信息？ |有关详细信息，请参阅[紧急位置、 地址和呼叫路由是什么？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)。
 
 
-### <a name="calling-identity"></a>呼叫标识
+### <a name="calling-identity"></a>调用标识
 
 默认情况下，所有出站呼叫的分配的电话号码用作调用 identity (呼叫者 ID)。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。
 

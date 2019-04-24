@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要： 实现 Skype 业务服务器之前查看端口使用情况注意事项。
 ms.openlocfilehash: 612a6f98ff2517163e3e720d4272c05463250cd2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206245"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: 您可以使用“持久聊天”页的“类别”部分配置类别。 持久聊天聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
 ms.openlocfilehash: b54a8d5299049f33bc366cde0988bcb92be5640e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200686"
 ---
 # <a name="persistent-chat-category-main-page"></a>持久聊天类别主页
  
