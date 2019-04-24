@@ -14,17 +14,17 @@ ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 仅当您想要停用整个部署，请运行删除部署向导。 此向导创建空拓扑组成的单个前端服务器。 在运行此向导并发布空拓扑后，您无法将其还原到原始拓扑。
 ms.openlocfilehash: f1e86c15e92db308796bf2a76cf1ca4fcf9bd2a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235232"
 ---
-# <a name="remove-deployment-introduction"></a><span data-ttu-id="98828-105">删除部署简介</span><span class="sxs-lookup"><span data-stu-id="98828-105">Remove Deployment Introduction</span></span>
+# <a name="remove-deployment-introduction"></a><span data-ttu-id="e43c7-105">删除部署简介</span><span class="sxs-lookup"><span data-stu-id="e43c7-105">Remove Deployment Introduction</span></span>
  
-<span data-ttu-id="98828-106">仅当您想要停用整个部署，请运行**删除部署向导**。</span><span class="sxs-lookup"><span data-stu-id="98828-106">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment.</span></span> <span data-ttu-id="98828-107">此向导创建空拓扑组成的单个前端服务器。</span><span class="sxs-lookup"><span data-stu-id="98828-107">This wizard creates an empty topology that consists of a single Front End Server.</span></span> <span data-ttu-id="98828-108">在运行此向导并发布空拓扑后，您无法将其还原到原始拓扑。</span><span class="sxs-lookup"><span data-stu-id="98828-108">After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
+<span data-ttu-id="e43c7-106">仅当您想要停用整个部署，请运行**删除部署向导**。</span><span class="sxs-lookup"><span data-stu-id="e43c7-106">Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment.</span></span> <span data-ttu-id="e43c7-107">此向导创建空拓扑组成的单个前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e43c7-107">This wizard creates an empty topology that consists of a single Front End Server.</span></span> <span data-ttu-id="e43c7-108">在运行此向导并发布空拓扑后，您无法将其还原到原始拓扑。</span><span class="sxs-lookup"><span data-stu-id="e43c7-108">After you run this wizard and publish the empty topology, you cannot revert to your original topology.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="98828-109">单击**下一步**之前，请务必删除非活动状态的任何计算机、 禁用所有用户和从统一通信终结点和删除向导中的第一页上指定的所有会议目录。</span><span class="sxs-lookup"><span data-stu-id="98828-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
+> <span data-ttu-id="e43c7-109">单击**下一步**之前，请务必删除非活动状态的任何计算机、 禁用所有用户和从统一通信终结点和删除向导中的第一页上指定的所有会议目录。</span><span class="sxs-lookup"><span data-stu-id="e43c7-109">Before you click **Next**, be sure to remove any inactive computers, disable all users and endpoints from unified communications, and remove all conference directories as specified on the first page of the wizard.</span></span> 
   
 

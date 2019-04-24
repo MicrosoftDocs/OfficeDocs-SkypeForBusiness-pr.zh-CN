@@ -14,17 +14,17 @@ ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 762d9da3372b7b34754cc621a019b5f76dcc2082
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215281"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="13d8e-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="13d8e-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="97845-104">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="97845-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="13d8e-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="13d8e-105">What do you want to do?</span></span> <span data-ttu-id="13d8e-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="13d8e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="97845-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="97845-105">What do you want to do?</span></span> <span data-ttu-id="97845-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="97845-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="13d8e-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="13d8e-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="97845-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="97845-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
 
 

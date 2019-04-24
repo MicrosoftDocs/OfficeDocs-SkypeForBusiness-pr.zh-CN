@@ -14,16 +14,16 @@ ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定只读组中，指定要向其授予对监控报告的只读访问权限的组。
 ms.openlocfilehash: 50ff995c05d2096dbac12f36b7083f255db7ec3e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215995"
 ---
-# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="d0fe9-103">SQL Server Reporting Services（组）</span><span class="sxs-lookup"><span data-stu-id="d0fe9-103">SQL Server Reporting Services (Groups)</span></span>
+# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="17c75-103">SQL Server Reporting Services（组）</span><span class="sxs-lookup"><span data-stu-id="17c75-103">SQL Server Reporting Services (Groups)</span></span>
 
-<span data-ttu-id="d0fe9-104">**指定只读组**中，指定要向其授予对监控报告的只读访问权限的组。</span><span class="sxs-lookup"><span data-stu-id="d0fe9-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="d0fe9-105">使用格式&lt;域&gt;\\&lt;访问组&gt;。</span><span class="sxs-lookup"><span data-stu-id="d0fe9-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="d0fe9-106">例如： contoso\RTCUniversalReadOnlyAdmins。</span><span class="sxs-lookup"><span data-stu-id="d0fe9-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
+<span data-ttu-id="17c75-104">**指定只读组**中，指定要向其授予对监控报告的只读访问权限的组。</span><span class="sxs-lookup"><span data-stu-id="17c75-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="17c75-105">使用格式&lt;域&gt;\\&lt;访问组&gt;。</span><span class="sxs-lookup"><span data-stu-id="17c75-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="17c75-106">例如： contoso\RTCUniversalReadOnlyAdmins。</span><span class="sxs-lookup"><span data-stu-id="17c75-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
   
-<span data-ttu-id="d0fe9-107">分配组只读访问权限是可选的。</span><span class="sxs-lookup"><span data-stu-id="d0fe9-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="d0fe9-108">如果您不希望立即授予只读访问权限，可以稍后直接在 SQL Server Reporting Services 中对其进行配置。</span><span class="sxs-lookup"><span data-stu-id="d0fe9-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
+<span data-ttu-id="17c75-107">分配组只读访问权限是可选的。</span><span class="sxs-lookup"><span data-stu-id="17c75-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="17c75-108">如果您不希望立即授予只读访问权限，可以稍后直接在 SQL Server Reporting Services 中对其进行配置。</span><span class="sxs-lookup"><span data-stu-id="17c75-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
   
 
