@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 在部署和操作 Skype 业务服务器之前，您必须通过扩展架构准备 Active Directory 域服务。 架构扩展添加的类和 Skype 业务服务器所需的属性。
 ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213352"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Skype 业务服务器中的架构更改
  

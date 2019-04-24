@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
 description: 本节介绍用于通过 Skype 业务服务器的所有架构属性。 与属性关联的类，请参阅架构属性由中 Skype 类业务服务器。
 ms.openlocfilehash: 3aa9796b0152f4d21ae0c1a1027e5fb2c0b175c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213408"
 ---
 # <a name="schema-attributes-and-descriptions-in-skype-for-business-server"></a>架构属性和 Skype 中的业务服务器的说明
  

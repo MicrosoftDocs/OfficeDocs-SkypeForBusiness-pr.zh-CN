@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 视图提供轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议用于生成自定义报告，而不是使用实际 CDR 数据库表; 使用视图这是因为更容易保持向后兼容性将来版本的数据库视图。
 ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213006"
 ---
 # <a name="list-of-cdr-views"></a>CDR 视图列表
  

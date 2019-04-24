@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 摘要： 阅读此主题以了解容量规划对于 Persistent Chat Server in Skype 业务服务器 2015年。
 ms.openlocfilehash: 08c360b26efd04c34ca1833b0c0022394f8c4ac2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213772"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中持久聊天服务器的容量规划
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要： 准备，并在您的环境中实现禁用 TLS 1.0 和 1.1。
 ms.openlocfilehash: dc835a68e47f9fac6036724d92ad336ead795e50
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214756"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>为业务 Server 2015 禁用 TLS 1.0/1.1 中 Skype
 
@@ -66,7 +66,7 @@ Microsoft 提供了在 TLS 可用[下面](https://cloudblogs.microsoft.com/micro
 #### <a name="devices"></a>设备
 
 - Lync 会议室系统 （也 SRSv1)
-- Microsoft 团队聊天室
+- Microsoft Teams 会议室
 - Surface Hub
 - 2015 基于 Survivable Branch Appliance (SBA) 或 Survivable Branch Server (SBS)
 

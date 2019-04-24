@@ -14,11 +14,11 @@ ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要使用电子邮件发送给用户的 PIN，单击打开我的电子邮件应用程序，以向用户发送新 PIN。 若要复制到电子邮件的 PIN，选择显示 PIN。
 ms.openlocfilehash: 5e82b9a24c605f3b436db323690546e3de7fd62b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215078"
 ---
 # <a name="pin-set-successfully"></a>PIN 设置成功
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 业务服务器功能的 Skype 支持多个网关和中介服务器之间的关联。 通过定义是中介服务器池和公用电话交换网 (pstn) 网关，会话边界控制器 (SBC) 或 IP PBX 之间的逻辑关联 a trunk 进行这些关联。 使用拓扑生成器将网关与中介服务器 （即，中继） 相关联。
 ms.openlocfilehash: 5d093bee56597474f0cefcf1053536774f2eb795
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214634"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Skype 中的业务服务器的多个中继支持
 
