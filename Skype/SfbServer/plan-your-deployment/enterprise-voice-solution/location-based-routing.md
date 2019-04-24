@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 规划在 Skype 基于位置的路由业务 Server 企业语音，包括与同时响铃和委派，交互和基于位置的路由支持方案。
 ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206787"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan for Business 中 Skype 基于位置的路由
 

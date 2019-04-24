@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要： 使用本主题的业务服务器 2015年服务器准备您的 Skype。 硬件、 操作系统、 数据库、 软件、 所有的系统要求和建议在此处要帮助确保成功安装和部署服务器场。
 ms.openlocfilehash: 1c970a517fbb984d09aeba066a69726c9461a12c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206379"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  

@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要： 了解 Business Server Skype 中的边缘服务器的环境要求。
 ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207158"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>边缘服务器环境要求中 Skype 业务服务器
  
@@ -267,7 +267,7 @@ Web 会议和 A / V 边缘公共 IP 地址附加 （辅） 的 IP 地址的高�
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>可扩展消息传递和状态协议的 DNS 记录
 
-|**位置**|**类型**|**端口**|**FQDN**|**IP 地址或 FQDN 主机记录**|**备注**|
+|**位置**|**类型**|**端口**|**FQDN**|**IP 地址或 FQDN 主机记录**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |访问边缘服务或边缘池上的 XMPP 代理接口。 您需要重复上述过程所需的所有内部 SIP 域与 Skype 业务 Server 启用用户，通过允许与 XMPP 联系人的联系人的位置：  <br/> • 全局策略  <br/> • 启用了用户的站点策略  <br/> • 业务服务器应用到 Skype 的用户策略启用用户  <br/> 在 XMPP 联盟用户策略中，还需要配置允许的 XMPP 策略。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |承载 XMPP 代理服务的边缘池的边缘服务器上的访问边缘服务的 IP 地址  <br/> |这点到上边缘服务器或边缘池的访问边缘服务承载 XMPP 代理服务。 通常，你创建的 SRV 记录将指向主机（A 或 AAAA）记录。  <br/> |
@@ -323,7 +323,7 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
 
 无论是否正在制作了一个边缘服务器或边缘池，这是您将需要为您的证书：
   
-|**组件**|**使用者名称 (SN)**|**使用者替代名称 (SAN)/顺序**|**备注**|
+|**组件**|**使用者名称 (SN)**|**使用者替代名称 (SAN)/顺序**|**注释**|
 |:-----|:-----|:-----|:-----|
 |外部边缘  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |这是需要从公共 CA 申请获得的证书。需要将其分配给以下服务的外部边缘接口：<br/> • 访问边缘  <br/> • Web 会议边缘  <br/> • 音频/视频身份验证  <br/> <br/>San 会自动添加到您的证书请求，并因此后的证书提交请求，基于此部署拓扑生成器中定义的内容，好的消息。 你只需要添加任何其他 SIP 域的 SAN 条目或需要支持的其他条目。 为什么此例中会复制 sip.contoso.com？ 这也是自动发生的，为了让系统正常工作，需要如此。  <br/><br/> **注意：** 此证书还可用于公共即时消息连接。 对此，你无需进行任何其他操作，但是在本文档以前的版本中，这作为单独的表列出，而现在不是。 <br/> |
 |内部边缘  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |可以从公共 CA 或内部 CA 获得此证书。该证书需要包含服务器 EKU（增强型密钥使用），你要将其分配给内部边缘界面。  <br/> |
@@ -409,7 +409,7 @@ Skype 业务 server 使用证书实现同时服务器之间以及从服务器到
    
 #### <a name="internal-port-firewall-summary-table"></a>内部端口防火墙摘要表
 
-|**协议**|**TCP 或 UDP**|**端口**|**源 IP 地址**|**目标 IP 地址**|**备注**|
+|**协议**|**TCP 或 UDP**|**端口**|**源 IP 地址**|**目标 IP 地址**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |运行 XMPP 网关服务的以下任一项：  <br/> • 前端服务器  <br/> • 前端池运行 XMPP 网关服务的 VIP 地址  <br/> |边缘服务器内部接口  <br/> |从前端服务器或前端池上运行 XMPP 网关服务的出站 XMPP 流量。  <br/><br/> **注意：** XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。 |
 |HTTPS  <br/> |TCP  <br/> |端口 4443  <br/> |任意：  <br/> • 包含中央管理存储的前端服务器  <br/> • 包含中央管理存储的前端池  <br/> |边缘服务器内部接口  <br/> |从中央管理存储到边缘服务器的更改复制。  <br/> |

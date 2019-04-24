@@ -1,5 +1,5 @@
 ---
-title: 存档或删除的工作组中的 Microsoft 团队
+title: 在 Microsoft Teams 中存档或删除团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,13 +18,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211062"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a>存档或删除的工作组中的 Microsoft 团队
+<a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
 
 一段时间，团队中的 Microsoft 团队创建可能属于使用不足或可能想要存档或删除项目的末尾团队。 如果您的 Microsoft 团队管理，请按照本文存档或删除不再需要的团队中的步骤。 团队存档时，该团队的所有活动都停止，但仍可以添加或删除成员并更新角色和您仍然可以查看所有团队活动信道、 文件和聊天。 删除团队时，也将删除关联的通道、 文件和聊天中的团队活动。 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 对于业务服务器，包括其支持的拓扑和 M:N 中继、 媒体绕过和呼叫允许控制其关系，请了解 Skype 中介服务器。
 ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207480"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Skype 业务服务器中的中介服务器组件
  

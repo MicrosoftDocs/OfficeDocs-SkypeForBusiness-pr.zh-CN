@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 摘要： 了解如何管理业务服务器 Skype 的存档用户策略。
 ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211053"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Skype 中的存档策略管理业务服务器 （英文）
 

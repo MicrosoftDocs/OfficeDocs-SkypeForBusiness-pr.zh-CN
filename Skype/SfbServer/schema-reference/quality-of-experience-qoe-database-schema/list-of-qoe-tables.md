@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: 数据库架构由以下表组成。
 ms.openlocfilehash: c3ab045e67f38082910f5a2870d4e8c0c8e595b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212219"
 ---
 # <a name="list-of-qoe-tables"></a>QoE 表的列表
  

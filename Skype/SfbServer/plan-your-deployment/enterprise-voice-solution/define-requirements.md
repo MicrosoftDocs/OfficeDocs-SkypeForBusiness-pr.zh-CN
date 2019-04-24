@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: 总结了根据是否必须 SIP 中继 E9-1-1 服务提供商或 ELIN 网关启用业务 Server 企业语音，E9-1-1 Skype 中所需的步骤。
 ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206976"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>为业务服务器中 Skype 定义紧急呼叫要求
  

@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要： 规划业务 Server Skype 时查看 Windows 客户端支持要求。
 ms.openlocfilehash: fec7996bccddf68fdeb59b8f9e0a185d5c5f18c7
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207221"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 客户端要求和软件支持
  
@@ -33,7 +33,7 @@ ms.locfileid: "23965632"
   
 **Skype 业务客户端和联机会议加载项所需的软件**
 
-|**系统组件**|**受支持的版本**|
+|**系统组件**|**支持的版本**|
 |:-----|:-----|
 |Windows 操作系统  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 操作系统  <br/> Windows Server 2008 R2 或更高版本，最新 service pack  <br/> **注意：** 在 Windows Vista 或 Windows XP （任何版本） 上不支持 for Business 的 Skype 和联机会议外接程序 for Business 的 Skype。 <br/> |
 |安装和更新  <br/> |管理员权限  <br/> |

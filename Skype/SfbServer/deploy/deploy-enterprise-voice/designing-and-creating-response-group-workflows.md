@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计和创建响应组工作流中的业务 Server 企业语音的 Skype。 包括智能寻线工作流和互动工作流。
 ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207809"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>设计和 Skype for Business 中创建响应组工作流
 

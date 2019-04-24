@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211690"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -62,7 +62,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部和内部呼
 > [!NOTE]
 > 直接路由服务号码自动助理和呼叫队列此时仅支持的 Microsoft 团队用户和代理。
 
-> [!NOTE] 
+> [!NOTE]
 > 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
     
    > [!TIP]

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 了解业务服务器，包括翻译服务和各个路由组件位于 Skype 在前端服务器的企业语音组件。
 ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206878"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Skype 业务服务器的前端服务器 VoIP 组件
 

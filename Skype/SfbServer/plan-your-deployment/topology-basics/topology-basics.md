@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要： 业务服务器 Skype 选择您的拓扑。 了解有关的 Skype 业务服务器的服务器并置。
 ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205970"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>拓扑的 Skype 业务服务器的基础知识
 

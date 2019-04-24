@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 了解有关呼叫允许控制，可以防止他们中的业务 Server 企业语音的 Skype 必须较差的媒体质量，如果正在进行的呼叫。
 ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207536"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>规划呼叫允许控制 Skype 中的业务服务器
 

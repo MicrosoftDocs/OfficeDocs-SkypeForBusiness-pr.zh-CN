@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 了解您可以从 Outlook 和其他 Microsoft Office 应用程序的业务功能访问 Skype 的方法。
 ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207473"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype 业务 Office 相关应用程序的兼容性
  
@@ -33,23 +33,23 @@ ms.locfileid: "23965661"
   
 **Skype 商业和 Microsoft Office 兼容性**
 
-|**功能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015 和 2016**|**用于 Mac 的 office 2016** = #x 2776; |
+|**功能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015 和 2016**|**用于 Mac 的 office 2016** & #x 2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook 功能** ||||
-|自定义 Outlook 会议邀请（添加徽标、帮助 URL、免责声明、页脚文本）  |否  |是   |是|
+|自定义 Outlook 会议邀请（添加徽标、帮助 URL、免责声明、页脚文本）  |否  |是    |是|
 |配置会议选项以便在默认情况下将与会者音频和视频设为静音    |否    |是    |否    |
 |跨 Office 和 for Business 的 Skype 管理联系人列表的统一的联系人存储库    |否    |是（需要 Exchange 2013 或更高版本）    |是    |
 |高分辨率的配置文件图片    |否    |是（需要 Exchange 2013 或更高版本）    |是    |
-|在 Microsoft Outlook 发的状态为，和抄送字段    |是    |是    |是    |
+|在 Microsoft Outlook 发的状态为，和抄送字段    |是     |是     |是     |
 |回复 IM 或呼叫从可用性菜单    |是（从联系人卡片）    |是（从联系人卡片）    |是（从联系人卡片）    |
-|“日程安排助理”选项卡上的会议请求中的状态    |是    |是    |否    |
-|从工具栏或功能区中收到的电子邮件答复 IM 或呼叫    |是    |是    |是    |
+|“日程安排助理”选项卡上的会议请求中的状态    |是     |是     |否    |
+|从工具栏或功能区中收到的电子邮件答复 IM 或呼叫    |是     |是     |是     |
 |**其他 Office 应用程序**   ||||
 |OneNote 共享笔记    |否    |是    |否    |
 |安装集成到 Office 安装程序中    |否    |是    |否    |
 |PowerPoint 演示文稿内容    |是    |是 (VBSS 也可)    |是    |
 |Microsoft Word 文件和 Microsoft Excel 文件（启用了智能标记）中的 IM 和状态    |仅 Microsoft Word    |仅 Microsoft Word    |否    |
-|Microsoft SharePoint 站点（必须已安装 Outlook）中的 IM 和状态    |是    |是    |否    |
+|Microsoft SharePoint 站点（必须已安装 Outlook）中的 IM 和状态    |是    |是     |否    |
    
 & #x 2776;-假定您已安装，并且当前 Mac 客户端或 Lync 2011 for Mac 客户端上运行的业务 Skype。
   

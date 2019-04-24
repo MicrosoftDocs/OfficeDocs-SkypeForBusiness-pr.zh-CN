@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要： 规划的 Skype 业务 Server 时查看客户端系统设备要求。
 ms.openlocfilehash: 494b6ab9cbd962e8e03ac225ded5aaf248287317
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207291"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版 Skype for Business 的系统要求
  

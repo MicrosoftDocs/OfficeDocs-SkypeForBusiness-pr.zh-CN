@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 会话视图存储有关数据库中包含记录的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212100"
 ---
 # <a name="session-view"></a>会话视图
  

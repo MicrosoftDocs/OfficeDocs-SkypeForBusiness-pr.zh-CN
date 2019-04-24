@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要： 配置业务服务器 2015 Skype 非服务器的要求。 有很多还要执行您的部署，包括 Active Directory、 DNS、 证书和 Fileshares 之前配置您的内容。
 ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207802"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  

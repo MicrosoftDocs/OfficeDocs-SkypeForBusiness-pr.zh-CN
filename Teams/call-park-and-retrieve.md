@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 使用呼叫寄存和取回呼叫置于保持状态，云中团队服务中。
 ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993499"
+ms.locfileid: "32211835"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 

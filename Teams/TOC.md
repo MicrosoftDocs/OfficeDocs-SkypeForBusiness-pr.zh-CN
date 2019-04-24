@@ -84,7 +84,6 @@
 #### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
 #### [Teams 限制和规范](limits-specifications-teams.md)
 #### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
-#### [获取工具以支持 Teams 部署](rollout-tools.md)
 #### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 #### [在 Teams 中规划管理](plan-teams-governance.md)
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 description: Pool 表是一个支持表，用于存储有关各种前端池的信息。 表中的每条记录代表一个池。
 ms.openlocfilehash: ae8695316bdea6ba858bf9a4d334dc6075b99d50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212170"
 ---
 # <a name="pool-table"></a>Pool 表
  
