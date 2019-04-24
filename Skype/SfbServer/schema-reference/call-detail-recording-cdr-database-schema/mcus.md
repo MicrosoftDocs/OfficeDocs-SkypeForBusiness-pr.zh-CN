@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Mcus 表是一个支持表。 每个记录存储有关一个会议服务的信息。 其中可以包括 IM 会议服务和电话会议服务 （它作为进程运行前端服务器），以及 Web 会议服务和 A / V 会议服务。
 ms.openlocfilehash: e051af3a77d4f9b8231c122c596a3b6915f6f3e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212971"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>Mcus 表中的业务服务器 2015 Skype
  
