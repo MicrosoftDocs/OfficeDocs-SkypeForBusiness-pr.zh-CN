@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 在编辑移动策略对话框中，您可以编辑移动策略的详细信息。
 ms.openlocfilehash: 4e6894e79e0ae762032dac46b1e6d21e3c5abbe9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234518"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 

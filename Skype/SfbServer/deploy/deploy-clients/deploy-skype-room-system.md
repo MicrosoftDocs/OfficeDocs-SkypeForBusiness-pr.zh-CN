@@ -12,11 +12,11 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 ms.collection: M365-voice
 description: 阅读有关如何执行部署 Skype 会议室系统，会议房间解决方案集成的硬件和软件的优化业务会议加入 Skype 组成。
 ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212724"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>部署规划中的业务的 Skype 的 Skype 会议室系统
  

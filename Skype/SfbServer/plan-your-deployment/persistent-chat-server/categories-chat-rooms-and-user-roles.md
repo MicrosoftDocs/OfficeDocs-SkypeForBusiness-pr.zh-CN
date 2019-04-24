@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 摘要： 阅读此主题以了解有关类别、 聊天室和用户和管理员角色对于 Persistent Chat Server in Skype 的业务服务器 2015年。
 ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213779"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
  

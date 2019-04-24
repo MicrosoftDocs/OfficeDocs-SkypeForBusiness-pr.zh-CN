@@ -14,11 +14,11 @@ ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 4acb88c33ed914ff88971e05693235fe0f29a68c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214959"
 ---
 # <a name="users-new-contact-objects"></a>用户：新建联系人对象
 

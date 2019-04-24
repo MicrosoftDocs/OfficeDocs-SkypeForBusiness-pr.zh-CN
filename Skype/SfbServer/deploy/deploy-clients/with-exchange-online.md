@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: 09a9cf6ed01ea4b523e6f790d30a586e92b5c4f5
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4bff1fb6adce254608aa9286ec080cf6677c1a48
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214826"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>部署 Microsoft 团队聊天室与 Exchange Online
 
@@ -67,19 +67,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. 你需要连接至 Azure AD 来应用一些帐户设置。 你可以通过运行此 cmdlet 来进行连接。
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>为你的本地域帐户添加电子邮件地址
 
-1. 在**Active Directory 用户和计算机 AD**工具中，右键单击该组织单位中，将在创建帐户您 Microsoft 团队聊天室单击**新建**，然后单击**用户**或文件夹。
-2. 将上一个 cmdlet 中的显示名称键入“**全名**”框中，将别名键入“**用户登录名**”框中。单击“**下一步**”。
+1. 在**Active Directory 用户和计算机 AD**工具中，右键单击容器或组织单位中，将在创建帐户您 Microsoft 团队聊天室单击**新建**，然后单击**用户**。
+2. 键入显示名称 (-Identity) 从**全名**框中，和到**用户登录名**框中的别名 （Set-mailbox 或 New-mailbox） 早期 cmdlet。 单击“**下一步**”。
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
 
     > [!NOTE]
@@ -90,9 +83,18 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 需要有有效的 Office 365 许可，以确保 Exchange 和 Skype 业务服务器将工作的用户帐户。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。
-2. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 租户中检索可用的 Sku 的列表。
-3. 一旦您列出出 Sku，还可以添加许可证使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet。 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
+1. 首先，连接到 Azure AD 应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。
+
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
+   Connect-AzureAD -Credential $cred
+   ``` -->
+
+2. 需要有有效的 Office 365 许可，以确保 Exchange 和 Skype 业务服务器将工作的用户帐户。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将在下面的步骤中进行工作分配。
+3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 租户中检索可用的 Sku 的列表。
+4. 一旦您列出出 Sku，还可以添加许可证使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet。 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
 
   ```
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -148,4 +150,4 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
   
 [配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

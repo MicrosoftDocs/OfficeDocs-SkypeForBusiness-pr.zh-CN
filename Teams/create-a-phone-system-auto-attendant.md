@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 了解如何设置和测试高效的呼叫处理您的组织的云自动助理。
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218797"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 

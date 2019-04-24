@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
 ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233249"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
@@ -60,9 +60,9 @@ ms.locfileid: "29753433"
     
 ## <a name="related-topics"></a>相关主题
 ## <a name="related-topics"></a>相关主题
-[添加、 更改或删除您的组织的紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)
+[为你的组织添加、更改或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[添加、更改或删除你的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[为你的组织添加、更改或删除紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
 [什么是地址验证？](what-is-address-validation.md)
 

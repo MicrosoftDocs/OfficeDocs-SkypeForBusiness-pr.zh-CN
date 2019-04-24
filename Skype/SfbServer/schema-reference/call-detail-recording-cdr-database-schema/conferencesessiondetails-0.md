@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 每条记录代表一个会议会话，它可以是具有焦点会话或与特定会议服务器的会话。
 ms.openlocfilehash: ab51ff0c75ba5ea9c6164fdee00be65ff5538c73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213254"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>ConferenceSessionDetails 表中的业务服务器 2015 Skype
  

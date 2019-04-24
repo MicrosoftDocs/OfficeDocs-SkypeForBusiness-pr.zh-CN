@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 视图存储信息用户加入和离开一个会议服务器的信息。 在此视图中的每条记录包含呼叫详细信息的用户加入或离开和会议服务器的一个组合。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212985"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 视图
  

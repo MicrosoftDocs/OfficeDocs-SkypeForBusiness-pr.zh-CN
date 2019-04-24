@@ -1,5 +1,5 @@
 ---
-title: 为什么我在输入英国地址信息时出现问题？
+title: 为什么我遇到输入英国的问题 地址信息？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
 ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227811"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国地址信息时出现问题？
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我遇到输入英国的问题 地址信息？
 
 下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
   

@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: '了解如何让使用 Skype for Business 的人员联系你组织外部的 Skype for Business 用户并将其添加到联系人列表。 '
 ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238029"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 

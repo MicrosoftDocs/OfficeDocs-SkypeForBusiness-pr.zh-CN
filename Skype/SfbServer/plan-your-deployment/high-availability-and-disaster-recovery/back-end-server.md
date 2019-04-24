@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解业务服务器，包括 AlwaysOn 可用性组、 AlwaysOn 故障转移集群实例、 数据库镜像，和 SQL 故障转移群集 Skype 中支持的后端服务器高可用性选项。
 ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214101"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>后端服务器高可用性 Skype 业务服务器
  

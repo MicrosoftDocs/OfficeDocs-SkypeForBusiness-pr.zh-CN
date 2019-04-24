@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 拓扑： 服务器应用程序页显示部署中的服务器应用程序。
 ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220061"
 ---
 # <a name="topology-server-application"></a>拓扑：服务器应用程序
 

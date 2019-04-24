@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Backup-CcCertificationAuthority cmdlet 将 Skype for Business 云连接器版本证书颁发机构服务备份到一个文件中并将该文件保存到站点共享目录下的 CA 文件夹。
 ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234549"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

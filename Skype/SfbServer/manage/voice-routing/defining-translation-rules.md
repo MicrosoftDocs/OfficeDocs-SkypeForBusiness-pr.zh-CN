@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 业务 Server 企业语音的 Skype 将基于电话号码规范化为 E.164 格式的呼叫路由。 这意味着，将所拨打的所有字符串必须都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会，以便他们可以转换为其匹配的 SIP URI。 Skype 业务服务器提供操作呼叫的 ID 和呼叫者 ID 演示文稿的功能。
 ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214650"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Skype 业务服务器中的定义转换规则
 

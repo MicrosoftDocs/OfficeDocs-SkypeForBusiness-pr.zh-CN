@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 启用业务 Server 企业语音中 Skype 的呼叫允许控制。
 ms.openlocfilehash: 7e4c444b5aa0b0e4d3c3517b9d242c839f6ecda5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212808"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>启用 Business Server Skype 中的呼叫允许控制
  

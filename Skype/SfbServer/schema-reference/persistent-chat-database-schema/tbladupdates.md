@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: tblADUpdates 包含尚未由后面的 Active Directory 同步步骤处理的 Active Directory 域服务更改。
 ms.openlocfilehash: 0e7bde110ad3d0495cb7ddea55e405eac21d96b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212640"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  

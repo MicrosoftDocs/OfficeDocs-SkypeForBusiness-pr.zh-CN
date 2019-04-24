@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: Lastchatid 包含为每个用户生成并且在 tblChat 表中使用） 的上一个聊天 ID。
 ms.openlocfilehash: 3208ada77643957295f9894cb58187c2b4bc7493
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212563"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  

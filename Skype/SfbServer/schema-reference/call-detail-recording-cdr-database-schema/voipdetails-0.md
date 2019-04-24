@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: 每条记录均表示一个其中至少一个用户的双方呼叫是 VoIP 用户。
 ms.openlocfilehash: 304efbd8148c363afaa792abe97d0b15ab5a34fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212731"
 ---
 # <a name="voipdetails-table"></a>VoipDetails 表
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 视图存储有关多方会话的信息。 每条记录代表一个会议会话，它可以是具有焦点会话或与特定会议服务器的会话。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213226"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails 视图
  

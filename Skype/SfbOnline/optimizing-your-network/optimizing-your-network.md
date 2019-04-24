@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供要讨论当您正在使用 Microsoft FastTrack 中心、 Microsoft 服务和帐户团队或与 Microsoft 合作伙伴明白，您可以如何满足这些要求的事项。
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234525"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>为 Skype for Business Online 优化网络
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: Users 表是一个支持表。 表中的每条记录存储呼叫或在数据库中包含记录的会话所涉及的一个用户的信息。
 ms.openlocfilehash: 3929ba33737c107ee60ec1e31beebb1addbb2e3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212738"
 ---
 # <a name="users-table"></a>Users 表
  

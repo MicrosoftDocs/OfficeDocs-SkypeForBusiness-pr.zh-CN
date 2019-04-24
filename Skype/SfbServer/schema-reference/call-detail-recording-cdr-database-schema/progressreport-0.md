@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport 视图存储有关已完成会话的信息。 仅对呼叫和 Lync Server 2013 确定用于进行诊断下可能有用的会话将写入进度报告。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212871"
 ---
 # <a name="progressreport-view"></a>ProgressReport 视图
  

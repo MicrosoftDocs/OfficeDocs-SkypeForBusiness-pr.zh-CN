@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 摘要： 业务服务器部署中 Skype 的视频互操作服务器 (VIS) 角色。
 ms.openlocfilehash: 7919b9c02001f0851b3662baa989b0eed0b20225
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219707"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>为业务服务器部署中 Skype VIS 服务器角色
  

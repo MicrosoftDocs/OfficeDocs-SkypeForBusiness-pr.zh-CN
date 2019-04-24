@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: 该表存储路由和连接涉及的业务服务器 2015年有关 Skype 内的各种进程的信息。
 ms.openlocfilehash: 3525943066845b485888bc0d467df7fd478d5bb8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213373"
 ---
 # <a name="application-table-in-skype-for-business-server-2015"></a>应用程序表中的业务服务器 2015 Skype
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
 description: AppliedBandwidthSource 表是一个支持表。 每条记录代表一个源。
 ms.openlocfilehash: 2fed25b6ca2218cb8b7300507b5c8258b2c29798
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212353"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource 表
  

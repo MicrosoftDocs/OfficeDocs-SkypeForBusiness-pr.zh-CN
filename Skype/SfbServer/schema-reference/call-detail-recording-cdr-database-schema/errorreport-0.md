@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport 视图存储有关错误报告的信息。 每个记录是一个错误实例。 错误是可通过在前端服务器上运行的 CDR 代理捕获或从客户端发送。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213121"
 ---
 # <a name="errorreport-view"></a>ErrorReport 视图
  

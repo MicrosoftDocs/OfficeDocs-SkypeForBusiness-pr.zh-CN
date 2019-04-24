@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 中的业务服务器 2015 Skype 的移动功能支持的移动设备上的业务功能 Skype。
 ms.openlocfilehash: 24152e0b3da1d1bdfcfe033b9d14ea5cd8f90321
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217542"
 ---
 # <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  

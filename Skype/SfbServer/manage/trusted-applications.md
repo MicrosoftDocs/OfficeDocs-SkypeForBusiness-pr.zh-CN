@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 受信任的应用程序是基于受 Business Server Skype 的 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序。
 ms.openlocfilehash: 3ca8621148a4b6ce3530f23a61312f63f3d3cd30
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214671"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>管理业务服务器中 Skype 的受信任应用程序
 

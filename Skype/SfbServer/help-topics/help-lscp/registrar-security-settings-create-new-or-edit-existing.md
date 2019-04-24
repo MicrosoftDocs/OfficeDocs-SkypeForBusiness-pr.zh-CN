@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 4a09f6da994c095f08d9ed51c3f42b238ad16276
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220226"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>注册器安全设置：创建新的或编辑现有的
 

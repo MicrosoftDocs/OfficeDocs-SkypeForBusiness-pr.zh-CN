@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '执行以下步骤可配置启用媒体旁路的中继。 '
 ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214938"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>为业务 Server 使用 Skype 中的媒体旁路配置中继
 

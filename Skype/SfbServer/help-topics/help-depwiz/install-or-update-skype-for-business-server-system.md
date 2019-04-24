@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: 若要开始安装，或更新业务服务器 2015 Skype 的现有部署中，单击安装或更新 Skype 业务服务器。 本节中的步骤将特定的组件安装到给定的服务器角色，基于拓扑生成器文档。 在开始此系列步骤之前，您必须在拓扑生成器中定义部署。 必须以本地管理员和服务器所在的域中 Domain Admins 组成员的身份登录到要部署的计算机。 在完成此步骤之前，计算机必须加入该域。
 ms.openlocfilehash: 98b727f8e1890837a110656b5c0628a696019ed8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235119"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>安装或更新 Skype for Business Server 系统
 
