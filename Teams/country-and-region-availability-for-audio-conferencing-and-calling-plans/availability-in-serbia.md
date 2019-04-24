@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于塞尔维亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: 9112e7ac9f5f3eb2e7047b6fcfd8f9f1ca71d5af
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222032"
 ---
 # <a name="availability-in-serbia"></a>在塞尔维亚的可用性
 

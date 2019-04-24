@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 每条记录代表一个媒体行。 （一个音频会话通常包含一个音频媒体行。 一个音频和视频 (A / V) 会话通常包含一个音频媒体行和视频媒体一行，尽管会话可能包含两个视频媒体行，如果使用一种会议设备，或使用库视图。
 ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212542"
 ---
 # <a name="medialine-table"></a>MediaLine 表
  

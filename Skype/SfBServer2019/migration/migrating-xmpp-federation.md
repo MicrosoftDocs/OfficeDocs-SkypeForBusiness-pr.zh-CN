@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 XMPP 功能不再可用 & Skype 中弃用的业务服务器 2019年。 如果您想要继续使用 XMPP 功能，可以将的适用 coexitence 环境与旧版本中 (业务服务器 2015年的 Skype / Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。
 ms.openlocfilehash: fa91741c1be8d80443363caba7c840b1d985d8f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231628"
 ---
 # <a name="migrating-xmpp-federation"></a>管理 XMPP 联盟
 

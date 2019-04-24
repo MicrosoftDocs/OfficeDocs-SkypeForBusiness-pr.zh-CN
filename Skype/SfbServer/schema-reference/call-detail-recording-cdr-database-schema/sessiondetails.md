@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 每条记录代表一个对等会话，它可以是 Voip-voip 电话呼叫、 双方 IM 会话或其他类型的会话。 您可以执行与要查找每一种媒体的详细信息此会话中涉及的媒体表的表联接。
 ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212801"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 表
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
 ms.openlocfilehash: f2d02aa4993e103b786894f642dd88ca93dcf354
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212493"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
 

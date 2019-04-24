@@ -1,5 +1,5 @@
 ---
-title: 号码激活为什么列为未完成？
+title: 号码激活为什么列出为不完整？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
 ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229552"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>号码激活为什么列为未完成？
+# <a name="why-is-number-activation-listed-as-incomplete"></a>号码激活为什么列出为不完整？
 
 地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某种原因的电话号码不激活，并且由于地址验证列出为**不完整**，您需要创建和提交服务请求。 你执行此操作的方式基于你的组织规模。
   

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 表包含用于指定是否 （以及何时） 的信息将自动从 CDR 数据库中删除过时的呼叫详细记录。 请注意，清除相关的信息也可以获得从 Skype 内的业务服务器 2015年通过运行以下命令：
 ms.openlocfilehash: 10dd9c6969f84453c880de130222b3b9d71db77a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212836"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 表
  

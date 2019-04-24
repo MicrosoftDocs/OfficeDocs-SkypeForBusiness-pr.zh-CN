@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+description: '学习添加、更改或删除组织的公用电话交换网 (PSTN) 上 Skype for Business 使用的紧急位置。 '
 ms.openlocfilehash: 39d3d530c4bfc3729e7711333bb804055d97378f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225776"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
-根据组织中物理位置的数目，可以为建筑物、楼层和办公室创建紧急位置以创建更具体的紧急地址。 请参阅[紧急位置、地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)了解详细信息。 
+Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information. 
   
 要了解如何获取通话套餐及其价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
@@ -63,7 +63,7 @@ ms.locfileid: "30048953"
     
 5. 在**与位置关联**下，单击列表中的位置的链接，在**更改关联位置详细信息**，输入新位置的详细信息，然后单击**提交**。
     
-6. 单击" **保存**"。
+6. 单击“**保存**”。
     
 ## <a name="remove-an-emergency-location-from-an-emergency-address"></a>从紧急地址中删除紧急地点
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是软件客户端用于连接到 Skype 业务服务器 2015年。 此表是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 6248c2ec24052c2a1349decdc2fd294ca1ca8415
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212780"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef 表
  

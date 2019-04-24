@@ -12,11 +12,11 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: 本文讨论了使用 Azure 监视器管理在您 Skype 业务或团队实现的 Microsoft 团队聊天室设备的规划注意事项。
 ms.openlocfilehash: dfa65435da63eb9783422e1e7ee10e66ba33b891
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214568"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>规划 Microsoft 团队聊天室管理使用 Azure 监视器
  

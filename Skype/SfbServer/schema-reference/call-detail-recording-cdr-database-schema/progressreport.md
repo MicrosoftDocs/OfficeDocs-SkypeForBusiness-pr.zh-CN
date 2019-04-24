@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 进度报告基于呼叫或会话完毕后，对数据库客户端上载的数据。 仅对呼叫和 Skype 的业务服务器 2015年确定用于进行诊断下可能有用的会话将写入进度报告。
 ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212864"
 ---
 # <a name="progressreport-table"></a>ProgressReport 表
  

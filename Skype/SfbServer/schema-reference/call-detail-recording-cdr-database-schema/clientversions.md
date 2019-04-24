@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 description: ClientVersions 表是一个支持表，用于存储各种客户端类型的列表和已参与记录数据库中的会话的版本。 表中的每条记录代表一个客户端版本。
 ms.openlocfilehash: df80e907359297c9cdb518562fdeea54d31a2a47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213380"
 ---
 # <a name="clientversions-table-in-skype-for-business-server-2015"></a>请参阅 ClientVersions table 中的业务服务器 2015 Skype
  

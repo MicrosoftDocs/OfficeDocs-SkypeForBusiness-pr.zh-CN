@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: 持久聊天合规性数据库架构由以下表组成。
 ms.openlocfilehash: 18c35cc71da43dcf25bb477e81a2471b483ee86d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212696"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>持久聊天服务器合规性中的表列表 Skype 业务服务器
  

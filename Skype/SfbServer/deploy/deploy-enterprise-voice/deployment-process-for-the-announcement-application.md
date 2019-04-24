@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 部署过程和 Skype 中为 Business Server 企业语音的通知应用程序的步骤。
 ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223039"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Skype 中为 Business Server 的通知应用程序的部署过程
  

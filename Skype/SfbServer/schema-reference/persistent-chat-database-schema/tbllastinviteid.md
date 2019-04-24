@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 description: tblLastInviteId 包含为每个用户生成 （并用于 tblPrincipalInvites 表） 的上一个邀请 ID。
 ms.openlocfilehash: 977911150992b2e90b7dc344af0550a25ad77221
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212556"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  

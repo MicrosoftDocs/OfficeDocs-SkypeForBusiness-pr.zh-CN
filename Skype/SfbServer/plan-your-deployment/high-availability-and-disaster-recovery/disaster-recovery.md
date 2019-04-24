@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 对于灾难恢复 Skype 业务服务器提供池配对与故障转移，以防一个池不可用。
 ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214084"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>为业务 Server 前端中 Skype 的最终池灾难恢复
  

@@ -14,11 +14,11 @@ ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: '“拓扑: 状态”页将显示 Skype for Business 拓扑中服务器的状态。'
 ms.openlocfilehash: 5f9eff0b74a6af3c18a5d90516e70743cb30d4eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214987"
 ---
 # <a name="topology-status"></a>拓扑：状态
 

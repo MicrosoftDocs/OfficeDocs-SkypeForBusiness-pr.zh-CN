@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，以了解使用云连接器版本 2.0 版和更高版本实现媒体旁路的规划注意事项。 有关部署媒体绕过，请参阅 Deploy 媒体绕过云连接器版本中。
 ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238824"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中规划媒体旁路
  

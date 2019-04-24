@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 每条记录代表一个的对等会话中使用的媒体类型。 将由多个记录在表中，表示一个会话，如果使用多个媒体类型。
 ms.openlocfilehash: f0525b279fbef5cc7d4a1bc2ce0fce9212636a96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212935"
 ---
 # <a name="media-table"></a>Media 表
  

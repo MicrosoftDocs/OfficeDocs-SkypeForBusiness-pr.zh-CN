@@ -19,11 +19,11 @@ MS.collection:
 - M365-collaboration
 description: 了解如何管理的用户安排在组织中的团队会议设置。
 ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231879"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 

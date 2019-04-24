@@ -14,11 +14,11 @@ ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 12e2f76e3500c4970f72cd0e131c9b1e2f7b53aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221572"
 ---
 # <a name="users-view-pin-status"></a>用户：查看 PIN 状态
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 会议视图存储有关会议信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213268"
 ---
 # <a name="conferences-view"></a>会议视图
  

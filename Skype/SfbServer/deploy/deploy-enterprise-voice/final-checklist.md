@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: 业务 Server 企业语音部署呼叫允许控制 (CAC) Skype 中的最后一个清单。
 ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212402"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>呼叫允许控制部署： Skype 业务服务器的最终清单
  

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解业务服务器，包括管理池、 仲裁丢失和特殊的步骤，只有两个前端服务器与池的前端池管理 Skype 中。
 ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214073"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 持久聊天数据库架构由以下表组成。
 ms.openlocfilehash: e2ce24bb37c3ea4eaee0986f0243033ab4a8a18a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213219"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>持久聊天服务器表的列表
  

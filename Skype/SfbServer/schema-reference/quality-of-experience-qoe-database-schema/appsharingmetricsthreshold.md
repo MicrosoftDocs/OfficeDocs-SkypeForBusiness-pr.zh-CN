@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold 表包含用于应用程序共享的用户体验质量指标的最佳和可接受值。 使用这些阈值来确定是否应为差分类应用程序共享体验。
 ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212325"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold 表
  

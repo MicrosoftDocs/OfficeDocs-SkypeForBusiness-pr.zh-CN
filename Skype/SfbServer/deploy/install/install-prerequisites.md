@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 摘要： 了解有关的服务器和业务服务器安装 Skype 之前必须配置的服务器角色。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
 ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210478"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>安装 Business Server Skype 的先决条件
  

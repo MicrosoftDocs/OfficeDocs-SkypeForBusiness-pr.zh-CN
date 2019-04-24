@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要： 使用 Skype 业务服务器启用媒体旁路配置中继。 这将使您尽可能减少的中介服务器，假定您的 SIP 中继提供商支持它。
 ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223604"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>为业务 Server 使用 Skype 中的媒体旁路配置中继
 

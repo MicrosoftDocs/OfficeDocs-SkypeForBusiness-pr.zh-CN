@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2019年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
 ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231327"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>业务服务器 2019年的 Skype 的的桌面客户端功能比较
 

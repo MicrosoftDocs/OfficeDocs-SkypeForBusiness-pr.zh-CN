@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227572"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -113,7 +113,7 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 **资源：**
 
-- [管理您的组织的 Microsoft 团队设置](enable-features-office-365.md)
+- [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
 - [示例电子邮件：面向用户的 Skype for Business 通知](upgrade-emails-surveys.md#step-4-email)
 
 [返回顶部](#about-upgrade-basic)

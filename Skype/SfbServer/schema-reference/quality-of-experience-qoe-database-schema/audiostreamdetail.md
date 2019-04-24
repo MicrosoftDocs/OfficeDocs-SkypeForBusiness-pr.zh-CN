@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail 视图在数据库中存储有关每个音频流的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212289"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail 视图
  

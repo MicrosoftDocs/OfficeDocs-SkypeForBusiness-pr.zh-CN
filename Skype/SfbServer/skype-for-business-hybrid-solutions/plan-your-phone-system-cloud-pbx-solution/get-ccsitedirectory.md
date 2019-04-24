@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Get-CcSiteDirectory cmdlet 显示存储站点级别配置文件的当前目录。 该文件夹包含基本 VHD 和 Skype for Business 云连接器版本安装文件。 应与云连接器网站的所有其他设备共享该文件夹。
 ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233762"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  

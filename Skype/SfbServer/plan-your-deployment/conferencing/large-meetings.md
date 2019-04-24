@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要： 阅读本主题可了解有关实施和管理大型会议中 Skype 业务 server 最佳实践。
 ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214370"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>规划大型会议中 Skype 业务服务器
  

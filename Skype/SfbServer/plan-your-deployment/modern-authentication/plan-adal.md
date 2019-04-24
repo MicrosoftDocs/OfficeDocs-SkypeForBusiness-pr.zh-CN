@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 本文说明什么是现代身份验证 （这基于 Active Directory 身份验证库 (ADAL) 和 OAuth 2.0）。
 ms.openlocfilehash: 0c3aeef2480494e45a4d18589b3e3cdc6d9c5357
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213905"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何将新式验证 (ADAL) 与 Skype for Business 配合使用
  

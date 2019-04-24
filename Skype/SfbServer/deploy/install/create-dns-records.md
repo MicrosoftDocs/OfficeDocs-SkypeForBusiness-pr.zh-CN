@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要： 了解如何配置 DNS 和业务服务器创建 DNS 记录的 Skype 安装。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
 ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210716"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>为 Skype for Business 服务器创建 DNS 记录
  

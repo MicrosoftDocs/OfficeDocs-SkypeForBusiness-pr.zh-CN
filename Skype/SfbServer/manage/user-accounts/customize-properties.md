@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本节中的过程修改单个用户帐户属性。
 ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214833"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义业务服务器 Skype 的用户帐户属性
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 本节列出了每个 Skype Business Server 类和可以包含在其他类的类中可包含的架构属性。 有关所有类及其说明的列表，请参阅架构类和 Skype 中的业务服务器的说明。 有关所有属性及其说明的列表，请参阅架构属性和 Skype 中的业务服务器的说明。
 ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213366"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype 业务服务器中的类的架构属性
  

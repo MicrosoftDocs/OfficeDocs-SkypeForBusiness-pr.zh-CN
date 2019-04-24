@@ -21,11 +21,11 @@ metadata:
   appliesto:
   - Microsoft Teams
   ms.openlocfilehash: 441e1166547ac17842704df47d9e992d892de87f
-  ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/07/2019
-  ms.locfileid: "30462505"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32231961"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
   content: "\n在本练习，您必须有机会在工作组中测试音频会议。\n尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n###<a name=\"requirements\"></a>要求\n-   具有使用 Teams 的相应许可证的 Office 365 租户\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n    -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n    -   电话拨入会议并拨出到\n\n###<a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   为用户启用音频会议。\n-   为不同的用户设置不同的会议桥号码。\n-   默认会议桥号更改为租户。\n-   更改会议桥号码 （不同语言） 设置。\n-   更改全局设置 （会议进入和退出通知、 PIN 长度、 电子邮件通知） 的会议桥。\n-   查看电子邮件被发送到用户。\n-   安排团队会议，并查看会议邀请。\n-   通过加入会议的电话。\n-   从电话拨出会议到电话。\n-   使用双音多频会议设为静音和取消静音电话中的控件。\n"
 - title: 驱动器值
   durationInMinutes: 1
-  content: "\n从报告的角度来看，您有两个区域，可以这样看待：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 您仅可以通过进一步调查确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [运行我的服务](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+  content: "\n从报告的角度来看，您有两个区域，可以这样看待：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 您仅可以通过进一步调查确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [操作服务](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
 - title: 后续步骤
   durationInMinutes: 1
   content: >-

@@ -16,11 +16,11 @@ ms.collection:
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要： 了解您需要为您的本地 Skype Business Server 混合部署配置 Skype 会议广播执行的步骤。
 ms.openlocfilehash: 10f09fc31f32e2784bb377ba5fe393e5f13a5618
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229451"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
