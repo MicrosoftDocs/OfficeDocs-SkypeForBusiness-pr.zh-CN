@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用“选择站点”对话框查找环境中可用的站点。 若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
 ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200588"
 ---
 # <a name="select-a-site"></a>选择站点
 

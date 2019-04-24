@@ -14,11 +14,11 @@ ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以通过以下定义配置镜像数据库设置：
 ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201798"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页面
  

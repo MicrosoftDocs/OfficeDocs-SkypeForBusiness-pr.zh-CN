@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 要指定站点的站点详细信息，请执行下列操作：
 ms.openlocfilehash: caba9060f082778e768aac615ea369b02ef0e11f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247315"
 ---
 # <a name="add-branch-site-details"></a>添加分支机构详细信息
 

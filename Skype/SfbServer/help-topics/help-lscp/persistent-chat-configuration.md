@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 持久聊天服务器部署可以承载多个并发的持久聊天聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并继承该类别的一些设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于委托管理和简化控制。
 ms.openlocfilehash: 653649e765d8b912ff7090cbadcccf2cc6439c47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200672"
 ---
 # <a name="persistent-chat-configuration"></a>持久聊天配置
  

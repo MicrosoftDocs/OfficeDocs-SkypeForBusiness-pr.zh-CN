@@ -1,12 +1,12 @@
 ---
-title: 管理免费版本的 Microsoft 团队
+title: 管理 Microsoft Teams 的免费版本
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: daryav
 search.appverid: MET150
 description: 了解可用的团队中的管理功能。
 localization_priority: Normal
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a3d72374e2d49df0298002b99272c80d78ffe0
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31854143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222330"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>管理免费版本的 Microsoft 团队
+<a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================
 
 在 Microsoft 团队的可用版本，注册您的组织中的第一个人具有有限的管理员角色。 拥有此有限的角色的用户可以添加和删除工作组成员并指定是否任何人都可以邀请其他成员，但此用户具有到 Microsoft 团队管理中心没有高级管理功能和无法访问。 

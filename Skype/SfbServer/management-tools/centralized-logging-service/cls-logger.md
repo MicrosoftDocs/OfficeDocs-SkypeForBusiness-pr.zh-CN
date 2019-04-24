@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 摘要： 了解如何使用业务服务器 2015年中 Skype 集中日志记录服务 (CLS) 记录器。
 ms.openlocfilehash: 5b2a2f7e447215d291aa763982acae1a6e64b8a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217730"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的 CLS 日志记录程序
  

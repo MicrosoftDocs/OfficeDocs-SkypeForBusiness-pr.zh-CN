@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果用户已启用的 Skype 业务服务器，您可以配置 SIP 联盟、 远程用户访问和公共即时消息的业务 Server Control Panel 的 Skype 中的 (IM) 连接，通过向特定用户应用适当的策略。
 ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197630"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>将外部用户访问策略分配给 Skype 业务启用用户
 

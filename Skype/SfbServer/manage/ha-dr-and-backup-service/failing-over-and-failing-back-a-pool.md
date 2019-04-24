@@ -9,11 +9,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
 ms.openlocfilehash: 809d0305eaa4c8e2197c5137a647ff9354cbf9bd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197798"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>业务服务器失败后超过和失败的 Skype 池中 
 

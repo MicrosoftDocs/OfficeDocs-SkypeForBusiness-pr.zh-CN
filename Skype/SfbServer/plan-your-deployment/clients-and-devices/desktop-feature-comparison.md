@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： 业务服务器 2015年的 Skype 或 Skype 的业务 Online 管理员可以使用这些表了解上的客户端支持哪些功能。
 ms.openlocfilehash: 498d444fa79b25d2a85f8e7bf04968512b00bf66
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207417"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>业务服务器 2015年的 Skype 的的桌面客户端功能比较
 
@@ -32,10 +32,10 @@ ms.locfileid: "29635674"
 
 请参阅业务服务器 2019年上 Skype 支持客户端的[桌面客户端的业务 2019年的 Skype 的功能比较](../../../SfBServer2019/plan/feature-comparison.md)。
   
-下表显示可用于业务 online 中处理的业务服务器 2015年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 有关更多详细信息，请参阅[许可指南](https://products.office.com/en-us/skype-for-business/it-pros)。
+下表显示可用于业务 online 中处理的业务服务器 2015年或 Skype Skype 每个客户端的功能。 您可能还希望参考智能手机和平板电脑客户端功能比较[的 Skype for Business 的移动客户端功能比较](mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 请参阅[授权指南](https://products.office.com/en-us/skype-for-business/it-pros)的详细信息。
   
 > [!IMPORTANT]
-> Skype 的业务服务器 2015年和 Skype 业务 online 支持以下以前发布的客户端： Lync 2013、 Lync 2010、 Lync 2010 Mobile、 Lync Phone Edition，和 Lync 2010 Attendant。 有关这些客户端与其他服务器结合使用的信息，请参阅 [Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和 [Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
+> Skype 的业务服务器 2015年和 Skype 业务 online 支持以下以前发布的客户端： Lync 2013、 Lync 2010、 Lync 2010 Mobile、 Lync Phone Edition，和 Lync 2010 Attendant。 有关这些客户端与其他服务器一起使用时的信息，请参阅[Lync Server 2013 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)和[Lync Server 2010 的客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)。
 
 > [!NOTE]
 > **Lync 2010 Attendant**客户端中不支持 Skype 业务 online。
@@ -209,7 +209,7 @@ ms.locfileid: "29635674"
   
 | 未来 / 功能 * * | Skype for Business 2015 或 2016 客户端 | Mac 版 Skype for Business | Lync 2013 客户端 | Lync Windows 应用商店应用 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|音频、视频、应用程序共享、桌面共享和上载的内容的客户端记录 |& #x 2714;& #x 2776; ||& #x 2714;& #x 2776; ||& #x 2714;|||||
+|在客户端录制音频、视频、应用共享、桌面共享和上载内容 |& #x 2714;& #x 2776; ||& #x 2714;& #x 2776; ||& #x 2714;|||||
 |在客户端录制文件传输、共享的 OneNote 页面和 PowerPoint 批注 |& #x 2714;& #x 2777; ||& #x 2714;& #x 2777; ||& #x 2714;|||||
 |选择首选的录制解决方案 |& #x 2714;||& #x 2714;|||||||
 
@@ -285,4 +285,4 @@ ms.locfileid: "29635674"
 
 [规划客户端和设备](clients-and-devices.md)
 
-[使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](../../sfb-client-updates.md)
+[使用 Windows Installer (MSI) 的版本的 Skype for Business 的最新更新](../../sfb-client-updates.md)

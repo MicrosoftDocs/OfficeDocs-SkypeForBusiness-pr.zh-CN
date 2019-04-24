@@ -15,11 +15,11 @@ description: 了解管理员可用于将新来宾用户添加到组织的工具�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 27f1f344313111561c9f1c3a5e57dc1bd0ae20cb
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202869"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================

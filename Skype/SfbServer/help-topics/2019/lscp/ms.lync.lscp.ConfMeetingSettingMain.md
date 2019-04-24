@@ -14,11 +14,11 @@ ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置中定义的会议 (还 calledmeetings) 用户可以创建和控制如何 （或是否） 匿名用户和电话拨入式会议用户可以参加这些会议的类型。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
 ms.openlocfilehash: 905d057adb0c914355d3237c3ec1771abe594de2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215687"
 ---
 # <a name="meeting-configuration"></a>会议配置
 

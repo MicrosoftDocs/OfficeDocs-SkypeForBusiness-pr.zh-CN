@@ -14,11 +14,11 @@ ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑边缘服务器池中的服务器的属性，请执行以下操作：
 ms.openlocfilehash: 5755e03c0d760ef61b8cd4322131316c1d80a4c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201890"
 ---
 # <a name="edge-machine-settings-expander"></a>Edge 机器设置扩展器
  

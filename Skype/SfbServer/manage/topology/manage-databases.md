@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 摘要： 了解如何将多个 Skype Business Server 数据库添加到现有 AlwaysOn 可用性组，以及了解所需的其他步骤后您修补程序或升级后端服务器中的 Skype 的 AlwaysOn 可用性组的一部分业务服务器。
 ms.openlocfilehash: 8d25e7d3aa1e840be7eb246e6aaa3065b65b7ff7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214692"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>管理数据库中 Skype AlwaysOn 可用性组与企业服务器 （英文）
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要： 了解如何管理业务服务器中 Skype 的双音多频 (DTMF) 命令的键映射。
 ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198009"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>管理业务服务器中 Skype 的 DTMF 命令的键映射
  

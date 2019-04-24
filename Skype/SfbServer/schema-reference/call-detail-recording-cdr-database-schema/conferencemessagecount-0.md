@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount 视图存储有关多少邮件由用户发送会议信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: f2290eef7d2738831ed3ce72c794a36659858b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213709"
 ---
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount 视图
  

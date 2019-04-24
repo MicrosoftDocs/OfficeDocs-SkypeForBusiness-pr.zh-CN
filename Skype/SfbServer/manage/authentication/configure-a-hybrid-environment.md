@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要： 配置服务器到服务器身份验证的 Skype Business Server 混合环境。
 ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211016"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>配置服务器到服务器身份验证的 Skype Business Server 混合环境。
 

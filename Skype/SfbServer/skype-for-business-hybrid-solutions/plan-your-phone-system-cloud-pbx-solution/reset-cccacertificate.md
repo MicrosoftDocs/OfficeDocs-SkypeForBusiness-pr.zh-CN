@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: Reset-CcCACertificate cmdlet 重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
 ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250873"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  

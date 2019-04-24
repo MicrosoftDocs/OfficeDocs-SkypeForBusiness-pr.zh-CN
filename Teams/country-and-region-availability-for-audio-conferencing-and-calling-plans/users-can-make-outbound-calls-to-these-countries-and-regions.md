@@ -25,11 +25,11 @@ ms.custom:
 - Calling Plans
 description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
 ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30645421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200248"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家和地区进行出站呼叫
 

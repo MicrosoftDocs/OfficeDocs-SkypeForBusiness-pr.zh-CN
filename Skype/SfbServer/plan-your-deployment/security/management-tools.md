@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: Skype 业务服务器，在使用 Windows PowerShell 实现管理工具。 Windows PowerShell 包括命令行环境、 特定于产品的命令和完整的脚本语言。 使用 Windows PowerShell 实现的业务服务器工具的 Skype 包括：
 ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213590"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和 Skype 的业务 Server 管理工具
  

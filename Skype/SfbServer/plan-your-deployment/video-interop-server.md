@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要： 查看 while planning to 将 Skype 与第三方电话会议设备集成业务服务器本主题。
 ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213512"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>规划视频互操作性中的服务器 Skype 业务服务器
  

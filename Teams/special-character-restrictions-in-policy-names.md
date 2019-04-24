@@ -21,11 +21,11 @@ f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
 ms.openlocfilehash: 40cf70b61c8e939c2a1096825e83c676083b9950
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204527"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 

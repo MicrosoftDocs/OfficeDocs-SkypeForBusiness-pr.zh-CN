@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 每条记录代表一个会话，这会涉及音频或音频和视频。 它包含有关会话的总体信息。 会话定义为两个终结点之间的音频或视频会话初始协议 (SIP) 对话。
 ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212374"
 ---
 # <a name="session-table"></a>Session 表
  

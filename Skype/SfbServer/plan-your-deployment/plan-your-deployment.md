@@ -16,19 +16,19 @@ ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2015年功能、 服务器和拓扑。
 ms.openlocfilehash: bc0df4bb1cf4c10b915c181f7f76c2586cf001be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207788"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>规划您的 Skype for Business Server 2015 部署
  
 **摘要：** 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2015年功能、 服务器和拓扑。
   
-Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和电话服务解决方案可以支持企业级协作要求。 本主题提供有关如何规划成功 Skype Business Server 部署的信息链接。 
+Skype for Business Server 提供了可支持企业级协作要求的即时消息 (IM)、出席、会议、视频和电话解决方案。 本主题提供有关如何规划成功 Skype Business Server 部署的信息链接。 
   
-随着新信息的出现以及用户提供反馈，作者会持续更新文章。 本页将定期更新，请经常返回查看。
+作者将根据获得的新信息和用户提供的反馈持续更新文章。 本页将定期更新，请经常返回查看。
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>有关如何规划 for Business Server Skype 的可视资源
 
 查看有关如何规划您 Skype Business Server 部署的以下资源。
@@ -54,12 +54,12 @@ Skype 业务服务器提供了即时消息 (IM)、 状态、 会议、 视频和
 |**[规划业务服务器和 Skype 业务 online Skype 之间的混合连接性](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)** 您是否有用户驻留在企业服务器的内部部署 Skype 和 Skype 业务 online？ If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain. <br/> ||
 |**[规划边缘服务器部署中的业务服务器 2015 Skype](edge-server-deployments/edge-server-deployments.md)** 您的组织是否与内部网络之外的用户通信？ 如果是这样，请阅读有关如何部署边缘服务器支持跨组织的防火墙的通信。 <br/> ||
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype 业务服务器的其他资源
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype for Business Server 的其他资源
 
-有关如何规划 Skype for Business Server 的以下资源可从其他行业专家那里获得。 
+可通过其他主题专家获取以下有关如何规划 Skype for Business Server 的资源。 
   
 ||**内容**|**说明**|
 |:--- |:--- |:--- |
-|![文档图标](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[面向 IT 专业人员的 Business Server 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |请访问资源中心访问视频、 社区网站、 文档、 下载和更多内容。  <br/> |
-|![开发人员内容图标](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找对于业务服务器，包括代码示例、 培训和 Sdk Skype 开发人员资源。  <br/> |
-|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[变更管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype 团队博客 （英文)](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |为业务服务器及时来自创建的团队和文档 Skype 的新闻。  <br/> |
+|![文档图标](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[面向 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |转到资源中心以访问视频、社区网站、文档、下载等等。  <br/> |
+|![开发人员内容图标](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |查找有关 Skype for Business Server 的开发人员资源，包括示例代码、培训和 SDK。  <br/> |
+|![新闻、博客等图标](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[变更管理/采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |关注 Skype for Business Server 的创建和撰文团队的新闻。  <br/> |

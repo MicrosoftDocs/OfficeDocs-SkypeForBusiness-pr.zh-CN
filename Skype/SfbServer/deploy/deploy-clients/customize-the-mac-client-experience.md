@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
 ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212745"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  
@@ -35,15 +35,15 @@ ms.locfileid: "25699293"
 | 关键字 | 类型 | 值 | 说明 |
 |:-----|:-----|:-----|:-----|
 |AutoDetectAutoDiscoveryURLs    |Bool    |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）    |指定 for Business 的 Skype 识别传输类型和服务器登录过程中使用的方式。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
-|internalAutoDiscoveryURL    |字符串    |完全自动发现 URL    |内部自动发现 URL    |
-|externalAutoDiscoveryURL    |字符串    |完全自动发现 URL    |外部自动发现 URL    |
-|httpProxyDomain    |字符串    ||HTTP 代理域    |
-|httpProxyUserName    |字符串    ||HTTP 代理用户名    |
+|internalAutoDiscoveryURL    |String    |完全自动发现 URL    |内部自动发现 URL    |
+|externalAutoDiscoveryURL    |String    |完全自动发现 URL    |外部自动发现 URL    |
+|httpProxyDomain    |String    ||HTTP 代理域    |
+|httpProxyUserName    |String    ||HTTP 代理用户名    |
 |httpProxyPassword    |字符串    ||HTTP 代理密码    |
 |trustedDomainList    |数组    ||HTTP 重定向的受信任域列表。    |
 |autoAcceptTimeout    |数字    |300（默认值）    |无服务器端对话历史记录时，用户的自动接受超时时间。    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
-|sipAddress    |字符串    ||SIP 地址 （电子邮件） 用于登录到 for Business 的 Skype。    |
+|sipAddress    |String    ||SIP 地址 （电子邮件） 用于登录到 for Business 的 Skype。    |
 |userName    |字符串    ||用来登录到 for Business 的 Skype UPN （用户名）。    |
 |userNameInAdvancedOnly    |Bool    |0 = 主要的登录屏幕上和高级属性对话框中显示用户名称字段  <br/> 1 = 只在高级属性对话框 （默认值） 显示用户名称字段    |指定用户名字段登录过程中的显示位置。    |
    

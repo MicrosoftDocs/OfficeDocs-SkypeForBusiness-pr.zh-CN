@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fc3dfc987a36f458f0480fbec03d340f730d51e3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204512"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版 E1 和 E3
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版（E1 和 E3）
 
 如果您已购买[Office 365 企业版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)或[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)计划，下面是您需要购买以获取更多的 Microsoft 团队功能的加载项许可证。
 
@@ -35,7 +35,7 @@ ms.locfileid: "30541421"
 |音频会议 <br/> <br/> |购买**音频会议加载项**。 <br/>购买 1 的音频会议许可的每个要安排或承载电话拨入式会议的人员。 与会者不需要许可证。<br/> 一旦您购买许可证，Microsoft 将成为音频会议提供商。 |
 |免费电话号码用于电话拨入式访问您的会议和从会议发起电话拨出的能力，即可将某人添加通过调用世界上的任何电话号码<br/> | 购买[Communications 字幕式](../add-funds-and-manage-communications-credits.md)。|
 |电话系统 <br/> |<ol><li>购买 Office 365 电话系统加载项。 </li><li>购买 Office 365 的[调用计划](../calling-plans-for-office-365.md)。</li></ul>或者，使用[您现有的提供程序中的电话服务](microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
-|电话系统语音邮件<br/> |对于 E1 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
+|云语音邮件<br/> |对于 E1 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
 |通话套餐<br/> |<ol><li>购买电话系统加载项。</li><li>购买[调用规划](../calling-plans-for-office-365.md)： 购买的**电话系统**加载项后，您可以仅购买此。</li></ol> <br/> |
    
   

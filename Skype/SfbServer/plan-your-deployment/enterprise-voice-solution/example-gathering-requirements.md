@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供了详细的业务 Server 企业语音，包括收集有关您的网络站点、 区域、 和带宽规划 Skype 中的呼叫允许控制的示例。
 ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207774"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例： 收集的要求的呼叫允许控制的 Skype 业务服务器
 

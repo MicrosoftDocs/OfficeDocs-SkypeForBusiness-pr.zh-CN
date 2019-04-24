@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 摘要： 了解如何使用 Skype 中 Business Server 呼叫详细信息记录 (CDR)。
 ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197469"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>查看 CDR 配置信息在 Skype 业务服务器
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任的用户是指其凭据已经过身份验证的 Skype 中的受信任服务器的企业服务器。 此服务器通常是 Standard Edition server，Enterprise Edition 前端服务器或控制器。 Skype 业务服务器依赖于 Active Directory 域服务的用户凭据的单一的受信任后端存储库。
 ms.openlocfilehash: f8f006ac3f727553f612070ea9bdbf696d81a97e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213457"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证的 Skype 业务服务器
  

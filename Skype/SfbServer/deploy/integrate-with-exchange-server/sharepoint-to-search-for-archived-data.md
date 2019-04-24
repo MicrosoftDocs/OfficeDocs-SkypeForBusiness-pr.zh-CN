@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要： 配置 SharePoint Server 以搜索存档的 Exchange Server 和 Skype 业务服务器的数据。
 ms.openlocfilehash: b9e08c5681b35b71ac7543115ee008a97e207bb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216856"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>配置 SharePoint Server 以搜索存档的 Skype for Business 数据
  

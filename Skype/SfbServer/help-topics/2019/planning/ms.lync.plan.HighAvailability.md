@@ -15,11 +15,11 @@ ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 业务服务器中的大多数服务器角色的主高可用性方案基于通过池服务器冗余性。 如果运行特定服务器角色的服务器发生故障，池中运行同一角色的其他服务器将接手该服务器的负载。
 ms.openlocfilehash: 8868b86d87adaa1e9da191ae9088775f786a8d0d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221079"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

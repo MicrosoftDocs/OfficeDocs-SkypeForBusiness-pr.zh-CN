@@ -14,11 +14,11 @@ ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置来控制您的业务服务器部署，包括启用和禁用以下选项的 Skype 的存档选项：
 ms.openlocfilehash: 51c77b17fe234ab343fc18f17fce25f2c46813cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215400"
 ---
 # <a name="archiving-configuration"></a>存档配置
  

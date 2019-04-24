@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要： 了解如何启用呼叫详细信息记录 (CDR) 记录中 Skype 业务服务器。
 ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199712"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>为业务服务器启用呼叫详细信息记录在 Skype
 

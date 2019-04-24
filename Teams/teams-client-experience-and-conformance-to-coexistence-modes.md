@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204650"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ ms.locfileid: "31517076"
 
 |用户的有效模式|在工作组客户端体验|
 |---|---|
-|业务模式的任何 Skype|禁用呼叫和聊天<sup>1</sup> 。|
+|业务模式的任何 Skype|禁用呼叫和聊天。|
 |SfBWithTeamsCollabAndMeetings|会议安排位于|
-|SfBWithTeamsCollab 或 SfBOnly<sup>2</sup>|会议安排不可用|
+|SfBWithTeamsCollab 或 SfBOnly<sup>1</sup>|会议安排不可用|
 |||
 
 以下屏幕快照说明 TeamsOnly 或群岛模式和所有其他模式之间的差异。 请注意，聊天和呼叫图标可使用 TeamsOnly 或群岛模式 （左屏幕截图），但不是与其他模式 （右屏幕截图）：
@@ -50,10 +50,8 @@ ms.locfileid: "31517076"
 
 
  
-**说明：**
-<sup>1</sup>会议聊天是仍然可用。
-
-<sup>2</sup>现在，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但 SfBOnly 模式也禁用团队; 中的通道和文件功能的用途是但是，当前此功能允许在要禁用的团队中没有设置。
+**注意：**
+现在，SfBwithTeamsCollab 和 SfBOnly<sup>1</sup>的行为相同，但 SfBOnly 模式也禁用团队; 中的通道和文件功能的用途是但是，当前此功能允许在要禁用的团队中没有设置。
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>对其他策略设置模式的影响
@@ -75,7 +73,7 @@ ms.locfileid: "31517076"
 |SfBWithTeamsCollab 或 SfBOnly|已禁用|已禁用|已禁用|已禁用|
 ||||||
 
-近期， `Grant-CsTeamsUpgradePolicy` cmdlet 将检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定是否将由 TeamsUpgradePolicy 取代这些设置，以及如果是这样中, 相应的设置的配置在 PowerShell 中提供的信息性消息。  如上所述，不再需要设置这些其他策略设置。 下面是示例 PowerShell 警告如下所示：
+时，使用 PowerShell `Grant-CsTeamsUpgradePolicy` cmdlet 检查 TeamsMessagingPolicy、 TeamsCallingPolicy 和 TeamsMeetingPolicy，以确定是否将由 TeamsUpgradePolicy 取代这些设置，以及如果是这样中, 相应的设置的配置在 PowerShell 中提供的信息性消息。  如上所述，不再需要设置这些其他策略设置。 下面是示例 PowerShell 警告如下所示：
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

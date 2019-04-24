@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
 ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206457"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Skype 业务服务器中的转换规则
 

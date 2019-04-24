@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读此主题以了解有关硬件、 软件和基础结构要求运行 for Business 的 Skype mac。
 ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993555"
+ms.locfileid: "32207382"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  

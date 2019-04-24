@@ -18,11 +18,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199198"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 

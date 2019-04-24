@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Skype 的业务服务器，并同时 PSTN 网关和企业语音中的 IP PBX 之间支持直接 SIP 连接。
 ms.openlocfilehash: 1ddcf66fb19f39661ffdd4cffdff754999db90d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207452"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Skype 中的业务服务器的直接 SIP 连接
 

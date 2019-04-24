@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 此节点显示此 A/V 会议池的池完全限定域名 (FQDN) 和关联的前端池。可以执行以下操作：
 ms.openlocfilehash: 76797ecbc1dd2a80320b99c9fc2feb2d0cad5cfe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227394"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 范围节点
  

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
 ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205532"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 

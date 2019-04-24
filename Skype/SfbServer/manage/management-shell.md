@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 业务 Server 命令行管理程序 Skype 服务器管理和管理提供命令行界面。 它基于 Windows PowerShell，并包含一组全面的管理和管理特定于 Skype 和旧式 Lync server 产品的 cmdlet。
 ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199229"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理程序
  

@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: 下载和安装，然后使用 Windows PowerShell 5.1 创建连接到 Skype 业务 online 的远程 PowerShell 会话。
 ms.openlocfilehash: 63f4924a30bfc910679f23a617cc5252ecc5b6aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198065"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下载并安装 Windows PowerShell 5.1
 

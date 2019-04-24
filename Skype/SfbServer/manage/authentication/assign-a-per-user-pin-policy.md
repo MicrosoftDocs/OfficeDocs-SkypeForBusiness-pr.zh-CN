@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
 ms.openlocfilehash: ec2187ddf75d3725646ed9ea732a65552d432364
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211091"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>为业务服务器分配 Skype 中的每用户 PIN 策略
 

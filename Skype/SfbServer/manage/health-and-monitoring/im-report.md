@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要： 了解业务服务器的对等 IM 报告中 Skype。
 ms.openlocfilehash: 89b5d7e76b476c112b1938d5fe9692625641214d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198599"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等 IM 报告
  

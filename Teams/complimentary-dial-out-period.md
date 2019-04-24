@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 根据 Skype for Business Online PSTN 服务使用条款和客户的批量授权，客户可以使用 Office 365 通话套餐和 Office 365 音频会议。
-ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
-ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
+ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "31875018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198360"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -41,7 +41,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 ### <a name="complimentary-dial-out-period-details"></a>互补拨出期间的详细信息
 
-对于采用我们 Office 365 音频会议服务的客户，Microsoft 将提供相关从分配年 6 月 2019年通过 Office 365 音频会议订阅许可证的用户组织的会议拨出其他互补好处。 在此互补期间，Microsoft 允许会议组织者或与会者授权定义在会议策略设置，电话拨出式从发起呼叫在会议中的对非 premium 电话号码在下面列出的 44"区域的"国家/地区。 此优点是适用于音频会议每月订阅许可证，并且不会扩展到音频会议付薪每分钟许可证。
+对于采用我们 Office 365 音频会议服务的客户，Microsoft 将提供相关从分配年 11 月通过 Office 365 音频会议订阅许可证的用户组织的会议拨出其他互补好处2019。 在此互补期间，Microsoft 允许会议组织者或与会者授权定义在会议策略设置，电话拨出式从发起呼叫在会议中的对非 premium 电话号码在下面列出的 44"区域的"国家/地区。 此优点是适用于音频会议每月订阅许可证，并且不会扩展到音频会议付薪每分钟许可证。
 
 此外，还有 900 minute 帽限制过程的互补拨出此类的时间段中：
 

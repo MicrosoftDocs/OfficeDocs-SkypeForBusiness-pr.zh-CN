@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: 使用选择企业语音用户对话框查找启用了企业语音的用户。 在搜索框中，键入 SIP 地址或显示您想要查找，用户的名称，然后单击查找。 要选择用户，请单击搜索结果列表中的用户，然后单击确定。 如果找不到您要查找的用户，可能未启用企业语音的用户。
 ms.openlocfilehash: dbf045a792dd1fb7a27ff745f68b1f86f09f09a6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200560"
 ---
 # <a name="select-enterprise-voice-users"></a>选择企业语音用户
  

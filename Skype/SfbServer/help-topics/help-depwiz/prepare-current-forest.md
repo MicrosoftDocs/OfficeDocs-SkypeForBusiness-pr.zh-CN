@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: 若要准备 Active Directory 域服务林，必须成功扩展架构，如 Running Schema Preparation 主题中所述，并确保架构已复制。
 ms.openlocfilehash: f9ee99484b498b83a4ad55b0d3a2c2592453abae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201277"
 ---
 # <a name="prepare-current-forest"></a>准备当前林
 

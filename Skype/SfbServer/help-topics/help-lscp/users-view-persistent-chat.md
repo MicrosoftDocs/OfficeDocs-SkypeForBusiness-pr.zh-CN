@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 角色 （持久聊天管理员） 的成员可以向其他用户和自己授予聊天室管理员权限和权限。
 ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200392"
 ---
 # <a name="users-view-persistent-chat"></a>用户：查看持久聊天
 

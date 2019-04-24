@@ -14,11 +14,11 @@ ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: “Enterprise Edition 前端池”节点列出了此站点中的前端池，“Standard Edition 前端服务器”节点列出了此站点中的 Standard Edition Server。 可以执行以下操作：
 ms.openlocfilehash: f4e02da68560537040855413618396b916a88b32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201777"
 ---
 # <a name="front-end-servers-scope-node"></a>前端服务器范围节点
  

@@ -14,11 +14,11 @@ ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以配置位置策略以确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
 ms.openlocfilehash: d148b7b546b5c0e239c1fbccfdbcf27e0a3840fa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215428"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置策略：创建新的或编辑现有的
 

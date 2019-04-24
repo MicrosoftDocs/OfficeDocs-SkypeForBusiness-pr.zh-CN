@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 摘要： 了解业务服务器的系统使用情况报告中 Skype。
 ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197504"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Skype 业务服务器中的系统使用情况报告
  

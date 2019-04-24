@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 摘要： 了解如何为业务服务器管理 Skype 中的会议策略。
 ms.openlocfilehash: 96b2f5e27aa65931f5cd76499e1a3f66b817baa5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222861"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Skype 中的会议策略管理业务服务器 （英文）
  

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 您需要执行的操作配置的业务服务器 2015 执行性能和负载测试的 Skype 使用压力和性能工具的任务。
 ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194616"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>为业务服务器 2015年压力和性能工具 Skype 的性能方案
  

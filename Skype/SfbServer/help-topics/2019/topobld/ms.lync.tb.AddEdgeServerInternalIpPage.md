@@ -14,11 +14,11 @@ ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
 ms.openlocfilehash: c9d7a454f5a318fac7507cadcbc0dc09577ccb2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202143"
 ---
 # <a name="add-edge-server-internal-ip"></a>添加 Edge Server 内部 IP
 

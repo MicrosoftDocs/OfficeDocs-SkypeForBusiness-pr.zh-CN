@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype 的业务联机步骤，若要将拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
 ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229356"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在**Skype for Business 管理中心**，在左侧导航窗格中，转到 **音频会议**，并在 **会议 ID**下的操作窗格中，单击 **重置**。
 
@@ -158,7 +158,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
@@ -176,7 +176,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
 
@@ -196,7 +196,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
 
@@ -227,7 +227,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**，然后单击**Microsoft 桥**。
 
@@ -241,7 +241,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
@@ -259,9 +259,9 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到 **Office 365 管理中心** > **Skype for Business**。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**>，然后**用户**。
+3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**>，然后选择**用户**。
 
 请参阅[请参阅启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)。
 

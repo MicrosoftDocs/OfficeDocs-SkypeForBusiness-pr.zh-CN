@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204442"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免费拨号限制
 
@@ -39,8 +39,9 @@ ms.locfileid: "30649393"
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
-> - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [澳大利亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [白俄罗斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belgium（比利时）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [伯利兹](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [波斯尼亚和黑塞哥维那](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [巴西](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)

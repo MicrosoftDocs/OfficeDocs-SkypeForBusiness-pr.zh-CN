@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要运行 Skype 的业务服务器 2015年压力和性能工具，您将需要能够管理用户、 联系人和用户配置文件配置正在运行，工具，然后检查输出或工具生成的结果。
 ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198643"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用 Skype 业务服务器 2015年压力和性能工具
  

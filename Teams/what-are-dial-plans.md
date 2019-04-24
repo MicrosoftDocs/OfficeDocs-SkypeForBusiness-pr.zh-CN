@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: '了解 Office 365 哪种类型的拨号计划 （PSTN 呼叫拨号计划） 的呼叫，以及如何为您的组织选择一种。  '
 ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211776"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -80,7 +80,7 @@ ms.locfileid: "30542404"
 
 对于用户拨号计划，应指定将分配给用户标识的拨号计划的描述性名称。 拨号计划的"简单名称"会用一个派生自拨号计划名称的字符串来预填充。 "简单名称"字段可编辑，这样你便可以为自己的拨号计划创建更具描述性的命名约定。 "简单名称"值不能为空，且必须唯一。 最佳实践是为整个组织制定命名约定，然后在所有网站和用户中一致地使用此约定。
 
-### <a name="description"></a>说明
+### <a name="description"></a>描述
 
 建议输入对应的拨号计划要应用到的地理位置或用户组的通用可识别名称。
 

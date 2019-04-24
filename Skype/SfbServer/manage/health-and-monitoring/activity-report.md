@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 摘要： 了解用于在 Skype 业务服务器的会议活动报告。
 ms.openlocfilehash: 09ad67452c9c24aff8e0f67998b654ade8d929fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199911"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中 Skype 业务服务器
  

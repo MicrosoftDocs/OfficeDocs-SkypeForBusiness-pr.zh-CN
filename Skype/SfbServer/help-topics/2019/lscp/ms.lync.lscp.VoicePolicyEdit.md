@@ -14,11 +14,11 @@ ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: aaaed4feb2c66799969c07315f6dfff281fa9276
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221255"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>语音策略：创建新的或编辑现有的
 

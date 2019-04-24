@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
 ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229572"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>我的移植订单的状态是什么？
 

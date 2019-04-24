@@ -14,11 +14,11 @@ ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 必须指定访问边缘服务完全限定的域名 (FQDN)。 如果您未选择使用单个 FQDN&amp;上选择的 IP 地址选项功能页，则还必须指定 FQDN 为 Web 会议边缘服务和 A / V 边缘服务。
 ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202164"
 ---
 # <a name="add-edge-server-fqdn"></a>添加 Edge Server FQDN
  

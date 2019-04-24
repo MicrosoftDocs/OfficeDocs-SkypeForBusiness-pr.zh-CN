@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: “A/V 会议池”节点列出了拓扑中的 A/V 会议池。 可以执行以下操作：
 ms.openlocfilehash: fc715cf617f641fa0f627c15815e7d55ab87074c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226863"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 范围节点
  

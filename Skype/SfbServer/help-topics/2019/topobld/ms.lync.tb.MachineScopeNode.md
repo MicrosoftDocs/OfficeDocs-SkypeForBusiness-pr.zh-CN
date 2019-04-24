@@ -14,11 +14,11 @@ ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。 可以执行以下操作：
 ms.openlocfilehash: bb17be142976a98374639af84f498955aef77379
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201784"
 ---
 # <a name="machine-scope-node"></a>计算机范围节点
  

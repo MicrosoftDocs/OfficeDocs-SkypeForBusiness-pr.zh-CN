@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 摘要： 为业务服务器使用拓扑生成器创建 Skype 视频互操作服务器池。
 ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219634"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>为 Business Server Skype 创建 VIS 池
  

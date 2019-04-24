@@ -14,11 +14,11 @@ ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以将中央管理服务器从一个定义的前端池更改为另一个定义的前端池。 要更改中央管理服务器的位置，请从“要安装中央管理服务器的前端服务器位置”下的下拉列表中选择前端池。 前端服务器可以是 Enterprise Edition 前端池或 Standard Edition 前端服务器。
 ms.openlocfilehash: ab3178fb2ed2a25ad0909d9252a636082dfb1e47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220577"
 ---
 # <a name="cms-settings-expander"></a>CMS 设置扩展器
  

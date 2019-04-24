@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype 业务服务器提供通过支持的中继间路由的基本会话管理。 '
 ms.openlocfilehash: 9f73899d59e79d8fc93e768f0e870449baaeb7fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214794"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>内部中继路由中 Skype 业务服务器
 

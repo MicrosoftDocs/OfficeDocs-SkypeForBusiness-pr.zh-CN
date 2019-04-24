@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 摘要： 了解有关呼叫详细信息记录 (CDR) 中 Skype 业务服务器。
 ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199748"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>创建或修改的 Skype 中业务服务器的 CDR 配置设置集合
  

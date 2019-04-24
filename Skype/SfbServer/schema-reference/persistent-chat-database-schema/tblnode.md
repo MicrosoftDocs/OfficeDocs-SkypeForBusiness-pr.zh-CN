@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode 包含的对象树 （包含类别或聊天室节点） 在控制面板和管理 cmdlet 管理。
 ms.openlocfilehash: c5028b138711b6f57c0e947ea41572fd9984b3fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212549"
 ---
 # <a name="tblnode"></a>tblNode
  

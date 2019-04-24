@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 description: 这对于业务服务器 2015年记录 Skype 中的用户体验质量 (QoE) 数据库的架构。
 ms.openlocfilehash: 88d2e05ec8515ab286c5f20adc9486ea9664301e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212423"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>用户体验质量 (QoE) 数据库架构
  

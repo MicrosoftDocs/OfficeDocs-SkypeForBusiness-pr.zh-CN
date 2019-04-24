@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
 ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204809"
 ---
 # <a name="set-up-call-analytics"></a>设置通话分析
 

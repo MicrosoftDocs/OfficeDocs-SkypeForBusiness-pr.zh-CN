@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: “中介池”节点列出了拓扑中的中介池。 可以执行以下操作：
 ms.openlocfilehash: c10fe6a878342a133f22e1a7eee5fa70be6a47ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200043"
 ---
 # <a name="mediation-servers-scope-node"></a>中介服务器范围节点
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 摘要： 了解用于在 Skype 业务服务器的呼叫列表报告。
 ms.openlocfilehash: c79cee289d3e76c0b191bb62a0383269ef8b886b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199755"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫列表报告
  

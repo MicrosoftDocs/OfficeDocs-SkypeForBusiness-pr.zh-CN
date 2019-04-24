@@ -19,11 +19,11 @@ ms.custom:
 - LIL_Placement
 description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业 E5 计划。 '
 ms.openlocfilehash: 58e481bce72596bd7e731b73e78cad11bfff6c30
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204575"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企业版 E5
 

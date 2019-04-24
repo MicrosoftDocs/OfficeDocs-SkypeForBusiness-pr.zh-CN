@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 业务服务器 2015 web 会议的 Skype 包括文档协作、 应用程序共享和桌面共享。
 ms.openlocfilehash: 8363d1b0cd7487600e0df8d924efc5c282fc3adb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222602"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  

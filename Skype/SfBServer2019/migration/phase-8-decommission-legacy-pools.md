@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: 以下主题提供了更新 DNS 条目、 移动 Content Management Server、 停用池和停用和删除服务器和池从旧部署指南。 并非所有本节中列出的过程都是必需的。 阅读的文档，并确定要使用哪些停用过程。
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231509"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
 

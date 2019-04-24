@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: 了解有关在 Skype 中的分支站点 SIP 中继的业务 Server 企业语音。
 ms.openlocfilehash: 333cb5f150efb431d4c7c43a0d78b601cb8ff268
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207081"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype 业务服务器中的分支站点 SIP 中继
  

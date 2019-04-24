@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 域服务作为 Windows Server 2003、 Windows Server 2008、 Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作在其中生成业务服务器安全基础结构 Skype。 本节旨在介绍 Skype 业务 server 如何使用 Active Directory 域服务为 IM、 Web 会议、 媒体和语音创建可信的环境。 有关您的环境准备 Active Directory 域服务的详细信息，请参阅安装 Skype for Business Server 部署文档。 有关 Windows Server 网络中的 Active Directory 域服务角色的详细信息，请参阅您使用的操作系统版本的文档。
 ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213659"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>业务服务器 Skype 的的 active Directory 域服务
  

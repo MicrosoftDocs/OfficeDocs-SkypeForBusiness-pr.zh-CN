@@ -1,6 +1,6 @@
 ---
 title: 音频会议和通话套餐的国家/地区可用性
-ms.date: 05/23/2018
+ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择可查看或不如果音频会议，电话系统，调用计划，Communications 字幕式，是否收费和免费电话号码可用国家/地区。
-ms.openlocfilehash: 817b74a0dd98ccb2d580fc71b5efa0a75f3484bc
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200264"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -163,7 +163,7 @@ ms.locfileid: "30569731"
 ### <a name="phone-system"></a>电话系统
 与电话系统，您可以创建自动助理和呼叫队列 （与收费电话或免费电话号码） 用于为您的组织，应答传入呼叫和添加用户调用规划时这些用户可以使用 for Business 的 Skype 处理呼叫控制的基本任务如发起和接收呼叫，转接呼叫，并使观众调用。 **电话系统**的用户可以单击其通讯簿中的名称和 Skype for Business 将呼叫该联系人。 要发起和接收呼叫，**电话系统**用户可以使用其移动设备与便携式计算机或 PC 或使用 Skype for Business 的许多 IP 电话的一个耳麦。
 
-除了从 Office 365 为各个用户获取电话号码，则还可以搜索并获取收费电话或音频会议 （的会议桥）、 自动助理等呼叫队列服务的免费电话号码。 这些称为服务号码。 请参阅[Getting 服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)，以获取电话号码。 但是，为您的用户，您调用规划为它们分配之后, 可以分配用户电话号码以便他们可以发起和接收电话呼叫。 要查找这些电话号码，请转到[您的用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)。 您还可以参见[分配、 更改或删除的用户的电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 从这些位置的一些收费电话号码的可用性在库存水平根据任何给定时间可能会有所不同。 除了从 Office 365 为各个用户获取电话号码，则还可以搜索并获取收费电话或音频会议 （的会议桥）、 自动助理等呼叫队列服务的免费电话号码。 这些称为服务号码。 请参阅[Getting 服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)，以获取电话号码。 但是，为您的用户，您调用规划为它们分配之后, 可以分配用户电话号码以便他们可以发起和接收电话呼叫。 要查找这些电话号码，请转到[您的用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)。 您还可以参见[分配、 更改或删除的用户的电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)。 
 
 [定价电话系统](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -173,7 +173,7 @@ ms.locfileid: "30569731"
 使用搜索的国家或地区和哪些服务是可用页的顶部下拉列表。
 
 ### <a name="calling-plans"></a>通话套餐
-与电话系统一起调用计划让用户发起和接收电话呼叫。 首先需要获取电话号码将分配给用户，然后分配调用规划 （而非服务号码） 的用户 （订阅服务器）。 有两种类型的调用计划可用：**国内**和**国内和国际**。 请参阅[调用计划是什么？](../what-are-calling-plans-in-office-365.md)的详细信息。
+与电话系统一起调用计划让用户发起和接收电话呼叫。 首先需要获取电话号码将分配给用户，然后分配调用规划 （而非服务号码） 的用户 （订阅服务器）。 有两种类型的调用计划可用：**国内**和**国内和国际**。 有关详细信息，请参阅[电话系统和调用计划](../calling-plan-landing-page.md)。
 
 您还可以参见[电话系统和调用计划许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)的许可信息。
 

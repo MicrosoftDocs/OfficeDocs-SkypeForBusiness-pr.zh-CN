@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 了解网络区域、网络站点和 IP 子网。 所有这些必须配置为媒体绕过中的业务，规划 Skype 部署规划呼叫允许控制中的 Skype 业务服务器），或计划在 Skype 的紧急服务 Business 中的服务器 Skype 业务 Server 企业语音。
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206555"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype 中的高级企业语音功能 Business server 网络设置
 

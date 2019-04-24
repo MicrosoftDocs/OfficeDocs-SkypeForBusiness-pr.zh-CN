@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读此主题以如何部署业务服务器与 Skype 的 Microsoft 团队聊天室的信息。
 ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207872"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>部署业务服务器与 Skype 的 Microsoft 团队聊天室
   
@@ -126,4 +126,4 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
   
 [配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

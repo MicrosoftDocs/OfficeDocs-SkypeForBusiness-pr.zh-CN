@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置端口范围和会议、 应用程序和中介服务器的服务质量策略。
 ms.openlocfilehash: f1452c9166eb557d186b8569a37d5abb885d4354
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199557"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>配置端口范围和会议、 应用程序和中介服务器的服务质量策略
 

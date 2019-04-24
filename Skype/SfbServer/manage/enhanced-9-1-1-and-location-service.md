@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 业务服务器支持增强型 9-1-1 (E9-1-1) 从 Skype 调用业务客户端。 当配置 Skype 业务服务器 E9-1-1 时，从 for Business 的 Skype 发出紧急呼叫包括紧急响应位置 (ERL) 从位置信息服务数据库的信息。
 ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200300"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>增强型的 9-1-1 和 Skype 中的位置服务管理业务服务器 （英文）
 

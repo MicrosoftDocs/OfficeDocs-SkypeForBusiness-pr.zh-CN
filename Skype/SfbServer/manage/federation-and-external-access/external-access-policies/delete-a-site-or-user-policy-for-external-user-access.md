@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以删除中列出的 Skype 业务 Server 控制面板的外部访问策略页的任何站点或用户策略。
 ms.openlocfilehash: 24d26e8668d04f1c11a3039b4b524d25e209e619
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197742"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 description: 完成证书分配之前，您看到列出的详细信息的证书将分配的证书分配摘要。 检查以确保使用者名称和使用者替代名称正确的信息。 您已完成审阅摘要的证书，单击下一步。
 ms.openlocfilehash: e864ca68fa9868423cdb3c5a1ddb2bb152b84890
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201493"
 ---
 # <a name="certificate-assignment-summary"></a>证书分配（摘要）
  

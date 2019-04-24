@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
 ms.openlocfilehash: c70d831d88948bd50f14b9591807e2ce1f36611a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234726"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 

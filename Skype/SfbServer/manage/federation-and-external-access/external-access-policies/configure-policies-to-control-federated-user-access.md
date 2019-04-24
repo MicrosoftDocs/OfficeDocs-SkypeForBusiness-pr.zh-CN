@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '配置策略以支持与联盟伙伴通信时，策略应用于联盟域用户。 '
 ms.openlocfilehash: df5702fb217d238a26a8a9975e7e4a0792787399
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199896"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制业务服务器中 Skype 的联盟的用户访问
 

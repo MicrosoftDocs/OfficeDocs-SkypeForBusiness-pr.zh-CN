@@ -14,11 +14,11 @@ ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
 ms.openlocfilehash: 45b3945a811a2e9c9b5d1c0cce805c78368c9a70
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201627"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 网关设置扩展器
  

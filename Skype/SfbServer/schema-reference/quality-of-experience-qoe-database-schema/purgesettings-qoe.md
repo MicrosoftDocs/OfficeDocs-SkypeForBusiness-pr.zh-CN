@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: PurgeSettings 表包含用于指定是否 （以及何时） 的信息将自动从 QoE 数据库中删除过时的用户体验质量记录。 请注意，清除相关的信息也可以获得从 Skype 内的业务 Server 命令行管理程序通过运行以下命令：
 ms.openlocfilehash: b9aaa8b5fd988e1fb1476ec75077507b55aaf9d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212332"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings 表 (QoE)
  

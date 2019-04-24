@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 摘要： 了解如何在 Skype 业务服务器的用户体验质量 (QoE) 设置。
 ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198237"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>为 Business Server Skype 创建用户体验质量配置设置
  

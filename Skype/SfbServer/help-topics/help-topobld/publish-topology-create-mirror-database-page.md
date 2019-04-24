@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
 ms.openlocfilehash: c5efe9f89adb999667ab82ca1b9909fa5dc1795c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219245"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>发布拓扑创建镜像数据库页面
  

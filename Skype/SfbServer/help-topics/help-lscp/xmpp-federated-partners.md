@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 7ab6410f0fda631b77ae29a2838c8a603a719a8c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200335"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP 联盟伙伴
 

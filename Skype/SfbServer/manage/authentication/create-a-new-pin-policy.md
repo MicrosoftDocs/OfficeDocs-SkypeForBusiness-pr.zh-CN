@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 摘要： 为 Business Server Skype 创建新的 PIN 策略。
 ms.openlocfilehash: ac51f0c81630969ec50494914e92c8302fa7d0aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211002"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>为 Business Server Skype 创建新的 PIN 策略
  

@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文汇总了支持 Microsoft 团队聊天室的要求。
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214503"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队聊天室要求
 
@@ -151,6 +151,6 @@ Microsoft 团队聊天室可以扩展到不同的会议室大小通过根据音�
 
 [配置 Microsoft 团队聊天室控制台](../../deploy/deploy-clients/console.md)
 
-[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business 附加许可](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

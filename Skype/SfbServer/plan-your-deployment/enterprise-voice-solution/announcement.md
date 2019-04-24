@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 规划业务 Server 企业语音中 Skype 的通知应用程序，其配置如何处理对组织中的未分配的电话号码的电话呼叫。 包括音频文件要求。
 ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207102"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plan for Business 的 Skype 中的通知应用程序
 

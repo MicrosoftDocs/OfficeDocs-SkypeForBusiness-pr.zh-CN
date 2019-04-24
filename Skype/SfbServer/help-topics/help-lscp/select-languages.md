@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: 选择要用于电话拨入式会议访问号码的语言。 有关详细信息，请参阅Create or Modify a Dial-in Conferencing Access Number。
 ms.openlocfilehash: 797d63c760eeabe7bc3d80260522eb1ecf393371
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200539"
 ---
 # <a name="select-languages"></a>选择语言
 

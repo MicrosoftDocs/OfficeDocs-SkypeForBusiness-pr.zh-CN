@@ -17,11 +17,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205829"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================

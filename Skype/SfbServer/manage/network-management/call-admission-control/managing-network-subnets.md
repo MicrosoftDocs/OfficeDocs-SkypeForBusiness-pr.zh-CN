@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在大多数部署中的 Skype 实现呼叫允许控制 (CAC) 的业务服务器，通常将大量的子网。 因此，通常最好为业务 Server 命令行管理程序配置从 Skype 的子网。
 ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198906"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络子网
 

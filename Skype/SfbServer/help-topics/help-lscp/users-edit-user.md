@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 18b9d5f6ccae5216888fd8c9be541790c13ce70f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200427"
 ---
 # <a name="users-edit-user"></a>用户：编辑用户
 

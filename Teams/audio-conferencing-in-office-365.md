@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30570115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198591"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音频会议允许达 250 位电话与会者。
@@ -92,7 +92,7 @@ Office 365 中的音频会议允许用户从其电话加入会议呼叫。 音�
 - **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="how-do-you-set-it-up"></a>如何设置其？
-您已决定为您的用户设置音频会议之后，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)或[设置业务 online Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing)的步骤，您可以按照这样。
+您已决定为您的用户设置音频会议之后，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)或[设置业务 online Skype 的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)的步骤，您可以按照这样。
 
 ## <a name="related-topics"></a>相关主题
 

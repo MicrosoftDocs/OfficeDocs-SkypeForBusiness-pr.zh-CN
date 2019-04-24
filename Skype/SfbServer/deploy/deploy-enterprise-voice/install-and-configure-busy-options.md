@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 阅读有关如何安装和配置忙选项中 Skype 业务服务器。
 ms.openlocfilehash: 3d6e6f0ee3351fea60449528a0ea694b2c307ad5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207865"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置适用于 Skype for Business Server 的忙碌选项
 

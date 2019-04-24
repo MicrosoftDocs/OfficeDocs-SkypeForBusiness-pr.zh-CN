@@ -14,11 +14,11 @@ ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 节点列出中央站点拓扑中。 可以执行以下操作：
 ms.openlocfilehash: 4b9c9ce84ffeddc13415d13a8b7f8086b6ccba83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201599"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  

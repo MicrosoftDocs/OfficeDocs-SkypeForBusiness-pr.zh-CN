@@ -13,11 +13,11 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Microsoft 团队聊天室的管理概述。
 ms.openlocfilehash: a06ffc6bb0aa69b493c95a516946c322034913f8
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32208244"
 ---
 # <a name="management-overview"></a>管理概述 
 
@@ -84,7 +84,7 @@ Microsoft 团队聊天室 Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上�
 
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft 团队聊天室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams 会议室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [规划 Microsoft 团队聊天室](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 

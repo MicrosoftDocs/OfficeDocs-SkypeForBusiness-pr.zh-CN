@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。
 ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250886"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  

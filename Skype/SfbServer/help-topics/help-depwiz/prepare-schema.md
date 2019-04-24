@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: 准备 Active Directory 域服务的架构，您运行架构准备步骤中 Skype 业务 Server 部署向导。 单击“运行”可开始准备架构。 架构准备步骤读取/程序文件/Microsoft Lync Server 2013/部署/安装目录中运行部署向导的系统上提供的架构定义文件。 这些文件也是支持/架构目录中的安装媒体上可用。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
 ms.openlocfilehash: 8565a3474b309820714949b5aa6f4544c72a23bd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234945"
 ---
 # <a name="prepare-schema"></a>准备架构
  

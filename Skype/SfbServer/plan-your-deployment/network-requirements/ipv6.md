@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要： 实现 IPv6 业务服务器安装 Skype 之前。
 ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206280"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  

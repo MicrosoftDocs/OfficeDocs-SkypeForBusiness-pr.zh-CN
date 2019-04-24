@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
 ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993651"
+ms.locfileid: "32199792"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
