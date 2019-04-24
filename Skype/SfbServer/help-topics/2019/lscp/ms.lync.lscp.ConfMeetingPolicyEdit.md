@@ -14,11 +14,11 @@ ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议策略定义会议期间用户可以使用的各种功能。
 ms.openlocfilehash: d040a10b5e53ed438992b9dc614bd8d61cfaefd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215736"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会议策略：创建新的或编辑现有的
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: 若要生成用户的 PIN，请选择自动生成有效 PIN。
 ms.openlocfilehash: 18899e9a8fd5ec7b739f07cad2667460a51582ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220092"
 ---
 # <a name="set-pin"></a>设置 PIN
 

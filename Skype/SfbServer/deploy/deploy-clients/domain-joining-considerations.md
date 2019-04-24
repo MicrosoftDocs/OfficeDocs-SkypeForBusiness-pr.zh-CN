@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
 ms.openlocfilehash: 3a457e73b3509967043b1ef11d1e5017f2190434
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219442"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  

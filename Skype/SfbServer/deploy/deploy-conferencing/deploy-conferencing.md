@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 摘要： 阅读本主题可了解如何为业务服务器部署中 Skype 的会议。
 ms.openlocfilehash: 5b67bef5ce55e9c4a2c4b71e80a26ffe2600ad92
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226129"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的会议
 
@@ -48,7 +48,7 @@ ms.locfileid: "30893298"
 
 |**阶段**|**步骤**|**角色和组成员身份**|**文档**|
 |:-----|:-----|:-----|:-----|
-|**安装必需的硬件和软件** <br/> |前端池的前端服务器和 Standard Edition server 上，运行会议。 请参阅前端服务器的服务器和环境要求。  <br/> 如果要启用 web 会议，您需要确保 Skype 业务服务器可以相互 Office Web Apps Server，用来处理共享和呈现的 PowerPoint 演示文稿。  <br/> 对于 Web 会议，还需要指定要用作文件存储的文件共享。  <br/> 是否要允许使用 Skype for Business 客户端的外部用户加入会议？如果是，需要部署边缘服务器。  <br/> |属于本地 Administrators 组成员的域用户  <br/> | [Skype for Business Server 2019 服务器要求](../../../SfBServer2019/plan/system-requirements.md) <br> [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [硬件和软件要求的 Skype 中的会议的企业服务器](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器](office-web-app-server.md) <br/> [为 Business Server Skype 创建文件共享](../../deploy/install/create-a-file-share.md) <br/> [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
+|**安装必需的硬件和软件** <br/> |前端池的前端服务器和 Standard Edition server 上，运行会议。 请参阅前端服务器的服务器和环境要求。  <br/> 如果要启用 web 会议，您需要确保 Skype 业务服务器可以相互 Office Web Apps Server，用来处理共享和呈现的 PowerPoint 演示文稿。  <br/> 对于 Web 会议，还需要指定要用作文件存储的文件共享。  <br/> 是否要允许使用 Skype for Business 客户端的外部用户加入会议？如果是，需要部署边缘服务器。  <br/> |属于本地 Administrators 组成员的域用户  <br/> | [Skype for Business Server 2019 服务器要求](../../../SfBServer2019/plan/system-requirements.md) <br> [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [硬件和软件要求的 Skype 中的会议的企业服务器](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器](office-web-app-server.md) <br/> [为 Business Server Skype 创建文件共享](../../deploy/install/create-a-file-share.md) <br/> [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [在 Skype for Business Server 2015 中部署边缘服务器](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**创建相应的内部拓扑以支持会议** <br/> |您需要运行拓扑生成器向拓扑中，添加会议，然后发布该拓扑。  <br/> |若要定义拓扑，需具有本地 Users 组成员的帐户  <br/> 用于 Business Server 文件存储的 Skype 的文件共享上发布拓扑，以 Domain Admins 组和 RTCUniversalServerAdmins 组的成员且具有完全控制权限 （读/写/修改） 的帐户 (以便拓扑生成器可以配置所需的 Dacl）  <br/> |[创建和发布新拓扑中 Skype 业务服务器](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**配置会议策略和配置设置** <br/> |使用业务 Server Control Panel 或业务 Server Management Shell 的 Skype Skype 配置会议策略和配置设置。  <br/> |RTCUniversalServerAdmins 组 (仅限于 Windows PowerShell) 或分配给 CSAdministrator 角色的用户  <br/> |[Skype 中的会议策略管理业务服务器 （英文）](../../manage/conferencing/conferencing-policies.md) <br/> [管理会议中 Skype 业务服务器的配置设置](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 

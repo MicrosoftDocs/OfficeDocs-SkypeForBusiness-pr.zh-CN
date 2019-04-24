@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 摘要： 了解如何规划即时消息和状态 Skype 业务服务器。
 ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214038"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和状态 Skype 业务 Server
  

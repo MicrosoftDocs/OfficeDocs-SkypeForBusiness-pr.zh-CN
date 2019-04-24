@@ -1,0 +1,1 @@
+本文介绍 Microsoft 团队功能尚未发布不起作用。 已发布和即将提供。如果您是管理员，您可以了解此功能将发布 （在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)） 邮件中心时。 若要保持在即将开始的团队功能，签出[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。

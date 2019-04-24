@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: 媒体视图中存储的对等会话中使用的一个媒体类型的信息。 将由多个记录在表中，表示一个会话，如果使用多个媒体类型。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 148f74117ba42849d58e4012e4e963b3ef1b7a3c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212921"
 ---
 # <a name="media-view"></a>媒体视图
  

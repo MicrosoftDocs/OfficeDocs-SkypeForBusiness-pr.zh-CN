@@ -14,11 +14,11 @@ ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: The Certificate Assignment page starts the process of assigning a certificate to the requested usages on the role server. Click the View Certificate Details to view the certificate. 您可以选择常规选项卡、 详细信息选项卡或证书路径选项卡。常规选项卡将显示有关该证书，如颁发的证书颁发机构和私钥的状态的基本信息。 The Details tab will display certificate information such as the subject name, subject alternative names, and other details. 证书路径选项卡将显示 trustfrom 通过任何颁发或中间证书颁发机构 （如果它们存在） 证书的 certificatechain 指向根证书颁发机构。
 ms.openlocfilehash: 567b01e030f4c1ceb3145d242bb495dd50534beb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216526"
 ---
 # <a name="certificate-assignment-from-request"></a>证书分配（根据请求）
  

@@ -14,11 +14,11 @@ ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关使用部署向导安装业务服务器的 Skype 的详细信息，请参阅业务服务器安装 Skype。
 ms.openlocfilehash: d2437d6991adf43adbf88f3104afc8083b82eeef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216590"
 ---
 # <a name="deployment-wizard-admin-tools"></a>部署向导：管理工具
  

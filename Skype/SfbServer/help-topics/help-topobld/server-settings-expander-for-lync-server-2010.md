@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 若要编辑该计算机的属性，请执行以下操作：
 ms.openlocfilehash: 4b05c52d92d3702c76afd6c7b682c1c9ffda7ab9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219203"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的服务器设置扩展器
  

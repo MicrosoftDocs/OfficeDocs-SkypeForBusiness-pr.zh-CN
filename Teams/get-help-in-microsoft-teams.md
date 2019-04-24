@@ -16,11 +16,11 @@ description: 发现的所有方法以获取帮助中的 Microsoft 团队。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bc7fca2689810c0f78e14afeb954c161b5c8a2f8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245735"
 ---
 <a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中获取帮助
 ============================================

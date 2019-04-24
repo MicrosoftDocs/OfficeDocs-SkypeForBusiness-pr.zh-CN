@@ -15,11 +15,11 @@ ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 控制器是运行 Business Server 通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
 ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221121"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: 完成拓扑发布后，将显示发布向导完成页。
 ms.openlocfilehash: 3f01c8733e4870487fdac6e64a9ba4ea6b431407
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219252"
 ---
 # <a name="publish-topology-next-step"></a>发布拓扑下一步
 

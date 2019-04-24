@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
 ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223469"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>创建网络站点间策略中 Skype 业务服务器
  

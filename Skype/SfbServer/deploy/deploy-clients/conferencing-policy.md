@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 阅读本主题，了解如何为 Skype 会议室系统帐户分配会议策略。
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219463"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 会议室系统帐户的会议策略
  
@@ -27,28 +27,28 @@ ms.locfileid: "25699571"
   
 |功能  <br/> |值  <br/> |注释  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |必须满足的 Skype 会议室系统音频  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |必须满足 Skype 会议室系统音频工作中的立即开会 （临时） 白板会话中 Skype 会议室系统  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |允许 Skype 会议室系统呈现多视图，多个视频流  <br/> |
-|AllowParticipantControl  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowAnnotations  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |取决于该帐户是企业语音 (EV) 启用 （请参阅启用 Skype 会议室系统帐户的 Skype 业务部分）  <br/> |
-|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |取决于帐户是否已启用企业语音 (EV)  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowExternalUserControl  <br/> |FALSE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |N/A 立即开会 （临时） 会议，但 Skype 会议室系统可以在前面的聊天室在屏幕上的投票响应  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |N/A 立即开会 （临时） 会议，但 Skype 会议室系统可以在前面的聊天室在屏幕上的投票响应  <br/> |
-|EnableDialInConferencing  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowIPAudio  <br/> |是  <br/> |必须满足的 Skype 会议室系统音频  <br/> |
+|AllowIPVideo  <br/> |是  <br/> |必须满足 Skype 会议室系统音频工作中的立即开会 （临时） 白板会话中 Skype 会议室系统  <br/> |
+|AllowMultiView  <br/> |是  <br/> |允许 Skype 会议室系统呈现多视图，多个视频流  <br/> |
+|AllowParticipantControl  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowAnnotations  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|DisablePowerPointAnnotations  <br/> |否  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |否  <br/> |取决于该帐户是企业语音 (EV) 启用 （请参阅启用 Skype 会议室系统帐户的 Skype 业务部分）  <br/> |
+|AllowAnonymousUsersToDialOut  <br/> |否  <br/> |取决于帐户是否已启用企业语音 (EV)  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowExternalUserControl  <br/> |否  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |否  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
+|AllowPolls  <br/> |是  <br/> |N/A 立即开会 （临时） 会议，但 Skype 会议室系统可以在前面的聊天室在屏幕上的投票响应  <br/> |
+|AllowSharedNotes  <br/> |是  <br/> |N/A 立即开会 （临时） 会议，但 Skype 会议室系统可以在前面的聊天室在屏幕上的投票响应  <br/> |
+|EnableDialInConferencing  <br/> |是  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
 |EnableAppDesktopSharing  <br/> |桌面打印机  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |Skype 会议室系统 n/A。 如果设为 TRUE，则远程方可以录制  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |Skype 会议室系统 n/A。 如果设为 TRUE，则远程方可以录制  <br/> |
+|AllowConferenceRecording  <br/> |否  <br/> |Skype 会议室系统 n/A。 如果设为 TRUE，则远程方可以录制  <br/> |
+|EnableP2PRecording  <br/> |否  <br/> |Skype 会议室系统 n/A。 如果设为 TRUE，则远程方可以录制  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |不适用  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |不适用  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |允许 Skype 会议室系统客户端参加对等视频会话  <br/> |
+|EnableP2PVideo  <br/> |是  <br/> |允许 Skype 会议室系统客户端参加对等视频会话  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |不适用  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |影响立即开会 （临时） 白板会话 Skype 会议室系统  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |忽略 Skype 业务服务器，Skype 会议室系统使用 HD1080  <br/> |

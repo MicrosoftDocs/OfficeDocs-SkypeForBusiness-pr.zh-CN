@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal 包含所有主体，其中包括用户、 文件夹和组。
 ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212514"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

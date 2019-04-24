@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 迁移到 Skype for Business Server 2019 之后，您需要将移动中央管理服务器到 Skype 业务 Server 2019 前端服务器或池，然后才能删除旧服务器。
 ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231572"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>将旧的中央管理服务器移动到 Skype 进行业务服务器 2019
 

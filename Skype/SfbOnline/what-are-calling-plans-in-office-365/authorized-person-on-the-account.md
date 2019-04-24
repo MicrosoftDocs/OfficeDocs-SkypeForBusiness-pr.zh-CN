@@ -1,5 +1,5 @@
 ---
-title: 帐户的授权人员
+title: 获得授权的帐户的人员
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 了解您需要添加获得授权的人员可以时使用新的本地号码端口订单向导的帐户进行更改的原因。
 ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233232"
 ---
-# <a name="authorized-person-on-the-account"></a>帐户的授权人员
+# <a name="authorized-person-on-the-account"></a>获得授权的帐户的人员
 
 在**新建本地号码端口次序**向导中，您必须输入有权对与服务提供商或运营商的帐户进行更改的人员的姓名。 名称不用于处理端口订单，但对于争议，使用或不正确的内容是否迁移时的号码。 此人将的字母的授权 (LOA) 端口订单的责任。
   

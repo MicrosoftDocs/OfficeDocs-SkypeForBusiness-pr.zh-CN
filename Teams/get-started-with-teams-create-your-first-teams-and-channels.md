@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中创建首批团队和频道
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3870482a3c9d0322952c09815dc91aa0aebfd9ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246315"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
@@ -49,7 +49,7 @@ ms.locfileid: "30465225"
 | 支持 | 如果某些功能未按预期方式工作，请使用此频道来获得帮助。 ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>启动并运行你的第一批团队
-作为管理员，你可以在 Teams 客户端或 Microsoft Teams 管理中心中创建和管理团队及频道。 可将团队创建为公共团队或私有团队。 你也可以创建组织范围团队。 组织中使用 Teams 的任何人都可加入公共团队。 对于私有团队，团队所有者可管理团队成员身份。 对于组织范围团队，会自动添加组织中的每个人。 
+作为管理员，你可以在 Teams 客户端或 Microsoft Teams 管理中心中创建和管理团队及频道。 可将团队创建为公共团队或私有团队。 你也可以创建[组织范围团队](create-an-org-wide-team.md)。 组织中使用 Teams 的任何人都可加入公共团队。 对于私有团队，团队所有者可管理团队成员身份。 对于组织范围团队，会自动添加组织中的每个人。 
 
 若要开始，我们建议你创建私有团队，并添加另一个所有者来管理团队设置和成员身份。 
 
@@ -58,7 +58,7 @@ ms.locfileid: "30465225"
 
 ### <a name="create-a-team"></a>创建团队
 
-在 Teams 的左侧, 单击“**团队**”，然后在团队列表底部单击“**加入或创建团队**”。 在“**创建团队**”磁贴上，单击“**创建团队**”。
+在 Teams 的左侧, 单击“**团队**”，在团队列表底部单击“**加入或创建团队**”，然后单击“**创建新团队**”。
 
 创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。 
 

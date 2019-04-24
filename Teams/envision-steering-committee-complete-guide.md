@@ -1,5 +1,5 @@
 ---
-title: 调控委员会的 Microsoft 团队云语音部署
+title: 指导 Microsoft Teams 云语音部署委员会
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235373"
 ---
 # <a name="steering-committee"></a>调控委员会
 
@@ -71,7 +71,7 @@ ms.locfileid: "30464281"
 | 业务决策 Maker(s) | 提倡项目，请确保其方向以符合组织的愿景保持 | | |
 | 架构师 | 确保技术决策可以实现对齐商定的业务产出。 | | |
 | 核心项目工作组 | 提供有关技术或非技术 （如应用和更改管理） 任何特定组件的详细信息 | | |
-| 质量支持者 | 是负责将放置在一起的质量指标。 | | |
+| 质量冠军 | 是负责将放置在一起的质量指标。 | | |
 | 程序/项目经理 | 演示文稿和负责反馈，以便将合并到项目的集合。 | | |
 | 合作伙伴帐户团队 | 提供从合作伙伴的角度从更广泛的角度看，其他合作伙伴活动的反馈。 | | |
 | 合作伙伴项目工作组 | 提供有关项目传送的合作伙伴的点的视图的反馈 | | |

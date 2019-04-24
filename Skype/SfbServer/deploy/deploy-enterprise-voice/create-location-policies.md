@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 阅读本主题可了解如何配置 Business Server 企业语音的增强型紧急服务 (E9-1-1) 在 Skype 的位置策略。
 ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223527"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建位置策略
 

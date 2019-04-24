@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: 此表中的每条记录代表一个 IM 会议中的一个用户，并包含该用户发送的消息数。 此表; 中的多个记录由表示每个会议每个用户的的一个记录。
 ms.openlocfilehash: 60fa79de17c2db14116bd0ffe211e25a61ec9136
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213275"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>ConferenceMessageCount 表中的业务服务器 2015 Skype
  

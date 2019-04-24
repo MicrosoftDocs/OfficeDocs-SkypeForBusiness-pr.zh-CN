@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218733"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -38,7 +38,7 @@ ms.locfileid: "30463977"
 
 选择您升级旅程，根据您当前部署的 Skype for Business:
 
-- [从联机业务的 Skype 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- [从 Skype for Business Online 升级到 Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 - [从 Skype 业务混合升级，向工作组](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 - [从升级 Skype 业务本地到团队](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 

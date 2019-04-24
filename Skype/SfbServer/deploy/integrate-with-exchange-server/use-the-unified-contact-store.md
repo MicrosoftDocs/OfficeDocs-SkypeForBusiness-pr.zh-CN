@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要： 配置 Exchange Server 和 Skype 的统一的联系人存储业务服务器。
 ms.openlocfilehash: fd58c0cfd86092bb1a6004ac4d70c98c51062ea1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216611"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>配置 Skype for Business Server 以使用统一联系人存储
  

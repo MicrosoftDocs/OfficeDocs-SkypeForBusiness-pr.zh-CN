@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype for Business Server 2015 规划工具
 ms.openlocfilehash: f04935f7dc4d27883e40b388051b9affa4ec30e9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219784"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

@@ -14,11 +14,11 @@ ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑的属性的 a / V 会议服务器池具有已定义的情况下，执行以下操作：
 ms.openlocfilehash: 60e5a5b8600dd82d4ec66c7f68581e1d32a182aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220724"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 设置扩展器
  

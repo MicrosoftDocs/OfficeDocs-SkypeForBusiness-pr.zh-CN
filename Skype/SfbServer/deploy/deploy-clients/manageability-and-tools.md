@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 阅读本主题，了解适用于 Skype 会议室系统的管理工具。
 ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219400"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 会议室系统可管理性和工具
  
@@ -51,7 +51,7 @@ Skype 会议室系统可以监控通过 System Center Operations Manager (SCOM) 
   - Skype 业务运行状况分析工具 (Excel)    
   - Skype 用于 Business Connectivity Analyzer 32 位或 64 位
     
-- 查看[适用于 Office 365 的有用的新的故障排除和分析工具](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)。 确认您具有业务池和 Office Web Apps server Skype 并可以共享 PowerPoint 系列时使用 for Business 客户端的 Skype。
+- 查看[有用的新疑难解答和分析工具，用于 Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)。 确认您具有业务池和 Office Web Apps server Skype 并可以共享 PowerPoint 系列时使用 for Business 客户端的 Skype。
     
 - 如果已资源邮箱会议室，启用它 for Business 的 Skype。
     

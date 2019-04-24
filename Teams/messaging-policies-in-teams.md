@@ -17,11 +17,11 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
 ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231780"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 

@@ -17,11 +17,11 @@ description: 了解如何使用在 Microsoft 团队管理中心团队用户活�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993594"
+ms.locfileid: "32225025"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 

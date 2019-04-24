@@ -25,11 +25,11 @@ ms.custom:
 - Reporting
 description: 使用呼叫分析有关设备、 网络和连接的详细信息解决用户问题与 Microsoft 团队和 Skype 业务呼叫和会议。
 ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218633"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
@@ -84,9 +84,9 @@ Communications 支持专家处理基本呼叫质量问题。 他们不调查与�
   
 |**问题**|**区域**|**说明**|
 |:-----|:-----|:-----|
-|呼叫设置  <br/> |会话  <br/> |Ms 诊断 20 29 的错误代码指示呼叫安装失败。 用户无法加入呼叫或会议。  <br/> |
-|音频网络分类质量欠佳的呼叫  <br/> |会话  <br/> |遇到网络质量问题 （如数据包丢失、 抖动、 NMOS 下降，RTT 或隐藏的比率）。 有关用于分类质量欠佳的呼叫的条件的详细信息，请参阅此[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
-|设备无法正常工作  <br/> |设备  <br/> | 设备未正常工作。 设备无法正常工作的比率是： <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
+|呼叫设置  <br/> |Session  <br/> |Ms 诊断 20 29 的错误代码指示呼叫安装失败。 用户无法加入呼叫或会议。  <br/> |
+|音频网络分类质量欠佳的呼叫  <br/> |Session  <br/> |遇到网络质量问题 （如数据包丢失、 抖动、 NMOS 下降，RTT 或隐藏的比率）。 有关用于分类质量欠佳的呼叫的条件的详细信息，请参阅此[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
+|设备无法正常工作  <br/> |Device  <br/> | 设备未正常工作。 设备无法正常工作的比率是： <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置通话分析](set-up-call-analytics.md)

@@ -11,18 +11,18 @@ localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
 ms.openlocfilehash: 507040a1d8274817e7a4a0780135ee8f6642c77c
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219414"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype 会议室系统多林本地部署
  
 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
   
 > [!NOTE]
-> 为了在多个林中部署，Skype 会议室系统要求 2014 年 8 月 26 日发布的 Exchange Server 2013 CU6。 避免 Skype 会议室 system 重新使用现有的邮箱。 使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 要通过删除邮箱来还原丢失的会议，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
+> 为了在多个林中部署，Skype 会议室系统要求 2014 年 8 月 26 日发布的 Exchange Server 2013 CU6。 避免 Skype 会议室 system 重新使用现有的邮箱。 使用新 （删除旧的邮箱并重新创建） 的 Skype 会议室系统资源邮箱。 若要还原的会议丢失通过删除邮箱，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
   
 在创建邮箱之后，你可以使用 Set-CalendarProcessing 配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 在创建后 Skype 会议室系统，Exchange 资源邮箱帐户启用 for Business 的 Skype 按照中启用 Skype 会议室系统帐户的步骤为 for Business 的 Skype 下的单林本地部署。
   

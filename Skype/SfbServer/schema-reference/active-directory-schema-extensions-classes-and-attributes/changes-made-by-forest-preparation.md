@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本节介绍的全局设置和对象以及通用服务组和管理组林准备步骤创建的。
 ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213422"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype 中为 Business Server 的林准备所做的更改
 

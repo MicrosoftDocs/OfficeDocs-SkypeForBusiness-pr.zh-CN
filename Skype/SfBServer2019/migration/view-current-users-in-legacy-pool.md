@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 之前学习可以将用户移动池之间的各种方式，我们首先必须确定哪些用户存在于旧池中。 下图中，在注册器池列标识为旧池中配置了六个用户。 这些是我们将移动到 Skype 业务服务器 2019年池的测试用户。
 ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231313"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>查看旧池中的当前用户
 

@@ -14,11 +14,11 @@ ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组组成代理组、 队列和工作流。 响应组工作流定义响应组应用程序接收电话呼叫时执行的操作。
 ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215134"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 

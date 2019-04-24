@@ -18,11 +18,11 @@ description: 了解如何在 Microsoft 团队管理中心可用团队报告。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225013"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -43,9 +43,9 @@ ms.locfileid: "30541501"
 
 |报告  |测量什么？ |
 |---------|---------|
-|[团队使用情况报告](teams-usage-report.md)  |  活动用户<br/>团队和频道中的活动用户<br/>活动信道<br/>邮件<br/>团队的隐私设置<br/>团队中的来宾   |
-|[团队用户活动报告](user-activity-report.md)  |  1:1 呼叫用户参与<br/>在工作组聊天中张贴的邮件用户<br/>在专用的聊天中张贴的邮件用户<br/>用户上次活动日期     |
-|[团队设备使用情况报告](device-usage-report.md)   |  Windows 用户<br/>Mac 用户<br/>iOS 用户<br/>Android 移动电话用户     |
+|[Teams 使用情况报告](teams-usage-report.md)  |  活动用户<br/>团队和频道中的活动用户<br/>活动信道<br/>邮件<br/>团队的隐私设置<br/>团队中的来宾   |
+|[Teams 用户活动报告](user-activity-report.md)  |  1:1 呼叫用户参与<br/>在工作组聊天中张贴的邮件用户<br/>在专用的聊天中张贴的邮件用户<br/>用户上次活动日期     |
+|[Teams 设备使用报告](device-usage-report.md)   |  Windows 用户<br/>Mac 用户<br/>iOS 用户<br/>Android 移动电话用户     |
 
 > [!NOTE]
 > 团队报告显示活动的用户和活动的团队的数据。 例如，如果您为报表指定的日期范围内，您的组织中的用户不是团队中处于活动状态，该报表中不包括该用户的数据。

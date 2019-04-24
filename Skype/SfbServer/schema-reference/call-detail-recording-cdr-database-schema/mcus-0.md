@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 description: Mcus 视图存储已参与会议会话 Mcu 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: dd215d0d5d1dd500058dd8556785d4e3d1afc3b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212964"
 ---
 # <a name="mcus-view"></a>Mcus 视图
  

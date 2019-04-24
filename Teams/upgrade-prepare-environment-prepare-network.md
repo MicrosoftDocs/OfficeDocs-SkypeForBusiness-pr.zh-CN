@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 950786a6d1014b322c76d1f4cd35afaec789f177
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: b7a26792cb16c103c6e8a47c5049efa84e5b1120
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218693"
 ---
 ![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
 
@@ -56,21 +56,9 @@ ms.locfileid: "30771779"
 
 ## <a name="bandwidth-planning"></a>带宽规划
 
-
 Microsoft 团队为您提供最佳音频、 视频和共享体验，而不管您的网络状况的内容。 使用变量编解码器，可以具有的影响最小带宽有限的环境中协商媒体。 但在带宽不是关键因素，可以为质量，包括 1080p 视频分辨率优化体验最多 30 fps 的视频和 15 fps 的内容和高保真音频。
 
-
-本文介绍团队实时音频、 视频和桌面共享形式在各种使用情况下如何使用带宽的准确地描述版本。 工作组始终是保守对带宽使用率和下 1.2Mbps 中可以提供 HD 视频质量。 每个音频/视频呼叫或会议中的实际带宽使用将有所不同，根据多种因素，例如视频布局、 视频分辨率和视频帧速率。更多的带宽有质量和使用情况将会增加为了提供最佳体验。
-
-|Bandwidth(up/down) |方案 |
-|---|---|
-|30 kbps |对等音频呼叫 |
-|130 kbps |对等音频呼叫和屏幕共享 |
-|500 kbps |对等质量视频 30 fps 时调用 360 p |
-|1.2 Mbps |调用不带 HD 720 p 30 fps 时的解决方案的对等 HD 质量视频 |
-|1.5 Mbps |调用不带分辨率为高清 1080p 以 30 fps 的对等 HD 质量视频 |
-|500 kbps/1Mbps |组视频呼叫 |
-|为 2Mbps 1Mbps / |HD 组视频呼叫 （1080p 屏幕上的 540 p 视频） |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
 ### <a name="local-internet-egress"></a>本地 Internet 出口
 

@@ -14,11 +14,11 @@ ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组组成代理组、 队列和工作流。 响应组队列保留对响应组呼叫，直到代理应答呼叫。
 ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215211"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 

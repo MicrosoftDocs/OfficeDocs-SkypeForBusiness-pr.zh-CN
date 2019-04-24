@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要： 了解如何部署中 Skype 监控的企业服务器。
 ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225509"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>部署监控 Skype 中的业务服务器
 

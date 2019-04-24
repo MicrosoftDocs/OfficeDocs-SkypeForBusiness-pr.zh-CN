@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 description: 服务器表是一个支持表，用于存储有关各种服务器的信息。 表中的每条记录代表一个服务器。
 ms.openlocfilehash: 067c78f83b8ebdf65ae45cf89af995bde7ed7445
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212822"
 ---
 # <a name="servers-table"></a>Servers 表
  

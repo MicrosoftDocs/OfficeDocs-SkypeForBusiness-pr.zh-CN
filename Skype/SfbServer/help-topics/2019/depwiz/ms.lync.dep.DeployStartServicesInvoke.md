@@ -14,11 +14,11 @@ ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在正在执行命令窗格的摘要窗格中显示颁发启动的服务的业务服务器角色的服务器，在要部署的 Skype 的任务的状态。
 ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215953"
 ---
 # <a name="start-services-invoke"></a>启动服务（调用）
  

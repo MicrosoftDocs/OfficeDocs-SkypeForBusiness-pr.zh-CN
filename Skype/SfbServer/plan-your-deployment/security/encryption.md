@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype 业务服务器使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内部网络还是跨内部网络外围，所有服务器到服务器的通信都需要使用 MTLS。 当业务服务器 Skype 连接到第三方 IPPBX 系统或 SIP 中继 TLS 是可选的但强烈建议在中介服务器与媒体网关之间。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用从中介服务器信任的 CA 证书配置网关。
 ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213618"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype 加密业务服务器
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 通过从列表中选择一个前端服务器或前端池配置持久聊天下一个跃点池。
 ms.openlocfilehash: 9aebee08f1b8004df096e21a65bb3639ccfcee08
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219294"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>持久聊天下一跃点设置扩展器
  

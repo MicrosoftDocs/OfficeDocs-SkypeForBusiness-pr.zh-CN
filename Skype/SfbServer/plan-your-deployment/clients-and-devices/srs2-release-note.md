@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: 本文讨论了 Microsoft 团队聊天室中的累积改进。
 ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214489"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -218,7 +218,7 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft 团队聊天室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams 会议室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [准备环境](srs-v2-prep.md)
 
@@ -228,4 +228,4 @@ Introduced in this update:
 
 [规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 
-[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

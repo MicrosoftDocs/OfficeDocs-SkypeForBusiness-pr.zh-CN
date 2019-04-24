@@ -16,11 +16,11 @@ appliesto:
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 模板入门
 ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245879"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 

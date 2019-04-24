@@ -15,11 +15,11 @@ description: 您的 IT 管理员可以配置外部访问的其他域 （联合�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245558"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 ======================================================
@@ -76,7 +76,7 @@ Microsoft 团队 & Business Admin Center 的 Skype 可用于管理外部访问�
 
 1. 在 Microsoft 团队 & Skype 的业务管理中心中，选择**组织范围的设置** > **外部访问**。
 
-2. 选择**添加域**。 
+2. 选择“**添加域**”。 
  
     ![使用的屏幕快照的外部访问页添加域链接](media/manage-external-access-3.png).
 
@@ -87,7 +87,7 @@ Microsoft 团队 & Business Admin Center 的 Skype 可用于管理外部访问�
 
 3. 在**添加域**，下键入域名;例如，键入 Contoso.com。
 
-4. 选择**允许**或**阻止**。 您可以更改此设置在任何时间。
+4. 选择“**已允许**”或“**已阻止**”。 您可以更改此设置在任何时间。
 
 2. 选择**完成**。
 

@@ -14,11 +14,11 @@ ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要导入证书，必须提供的证书文件的路径。 在选择证书文件文本框中，您可以键入完整路径和文件名，或单击浏览按钮，导航到路径位置和文件名 （通常 p7b、.pfx 或.cer 文件）。
 ms.openlocfilehash: 3cc7da881d33dd61435e238b7ec43a55064a1017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216499"
 ---
 # <a name="import-certificate-intro"></a>导入证书（简介）
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
 description: Get CcApplianceStatus cmdlet 提供了商务云连接器版 appliance Skype 的诊断信息。
 ms.openlocfilehash: 2c5d261b1ea2282c9eb0d564a1d39638965d2948
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233776"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  

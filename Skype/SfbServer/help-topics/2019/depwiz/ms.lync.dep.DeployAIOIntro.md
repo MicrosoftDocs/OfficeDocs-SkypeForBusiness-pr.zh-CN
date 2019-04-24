@@ -14,11 +14,11 @@ ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装 Business Server Standard Edition server 中央管理存储和您选择其他并置的服务将保存 Skype，您必须登录将成为的服务器上本地 Administrators 组的成员身份Standard Edition server。 “准备单个 Standard Edition Server”页将详细阐述初始安装要求。 计算机必须是要部署在其中的域的成员，并且必须已成功为林完成架构、林和域准备。
 ms.openlocfilehash: b4b211899ba907a20d11f8adf4d2640599dc6f91
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216583"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>准备单个 Standard Edition Server（简介）
  

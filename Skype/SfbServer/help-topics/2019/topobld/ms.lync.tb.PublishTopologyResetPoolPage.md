@@ -14,11 +14,11 @@ ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
 ms.openlocfilehash: a9638fd10c811bc8db000e780ef28b1905025b68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235271"
 ---
 # <a name="publish-topology-reset-pool-page"></a>发布拓扑重置池页
  

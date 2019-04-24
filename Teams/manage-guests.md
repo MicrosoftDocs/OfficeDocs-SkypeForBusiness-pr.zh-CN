@@ -15,11 +15,11 @@ description: IT 管理员可以在租户级别添加来宾、设置和管理来�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234275"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================

@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置端口范围为您的客户端和 Skype 中的配置服务质量策略业务服务器上 Windows 10 运行的客户端。
 ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219721"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>配置端口范围和客户端中的业务服务器 Skype 的服务质量策略
 

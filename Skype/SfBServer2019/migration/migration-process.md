@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 为业务服务器 2019 Skype 的建议和受支持的迁移过程是-并行迁移。 本主题介绍原因应使用-并行迁移和还包括有关共存测试信息。
 ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231614"
 ---
 # <a name="migration-process"></a>迁移过程
 

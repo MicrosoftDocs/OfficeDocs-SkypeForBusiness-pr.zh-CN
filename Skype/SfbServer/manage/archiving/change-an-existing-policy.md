@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器。
 ms.openlocfilehash: 66365ea489f0450f0489c03bf0e273731d5526a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246042"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有业务服务器存档策略中 Skype
  

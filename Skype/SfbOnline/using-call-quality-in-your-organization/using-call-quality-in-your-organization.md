@@ -1,5 +1,5 @@
 ---
-title: 使用组织中的通话质量
+title: 在组织中使用呼叫质量
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 description: 设置和使用调用分析确定并解决 Skype 的业务和 Microsoft 团队呼叫质量问题。
 ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227285"
 ---
-# <a name="using-call-quality-in-your-organization"></a>使用组织中的通话质量
+# <a name="using-call-quality-in-your-organization"></a>在组织中使用呼叫质量
 
 

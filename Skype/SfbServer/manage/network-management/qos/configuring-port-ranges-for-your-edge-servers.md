@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置边缘服务器的端口范围以及如何配置服务质量策略 a / V 边缘服务器。
 ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214931"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>配置端口范围和 Skype 业务服务器在边缘服务器的服务质量策略
 

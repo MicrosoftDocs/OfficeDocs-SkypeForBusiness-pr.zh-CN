@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions 视图存储有关各种客户端类型和已参与记录数据库中的会话的版本信息。 在视图中的每条记录代表一个客户端版本。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: abf1436a2c3309e95bec8371b586c017e11b816d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213394"
 ---
 # <a name="clientversions-view"></a>ClientVersions 视图
  

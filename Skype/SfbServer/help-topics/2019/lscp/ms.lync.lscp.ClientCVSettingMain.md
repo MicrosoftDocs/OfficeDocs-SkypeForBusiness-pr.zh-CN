@@ -14,11 +14,11 @@ ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 除了指定您想要在您的环境中支持的客户端版本，还可以为尚不具有定义的版本策略的客户端中指定的默认操作。 这使您可以限制在您的环境，可帮助您控制与支持多个客户端版本相关的成本中使用哪些客户端版本。
 ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215918"
 ---
 # <a name="client-version-configuration"></a>客户端版本配置
 

@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 服务质量 (QoS) 是一种网络技术，某些组织中使用的音频和视频通信提供最佳的最终用户体验帮助。
 ms.openlocfilehash: e8d5cf9da3be6537d4531683cfbbb9e437b66b77
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245360"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>管理服务质量 (QoS Skype 中) 的业务服务器
 

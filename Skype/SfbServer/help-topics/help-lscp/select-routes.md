@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 使用选择路由对话框查找可以使用的现有语音路由。
 ms.openlocfilehash: cffb5c8436b4227c136dc3f956c9345c120b44c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220191"
 ---
 # <a name="select-routes"></a>选择路由
  

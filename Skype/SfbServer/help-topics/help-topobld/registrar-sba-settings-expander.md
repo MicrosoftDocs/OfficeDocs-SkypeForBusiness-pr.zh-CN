@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 编辑恢复能力的设置和配置以下属性：
 ms.openlocfilehash: 118c7e3eda7fc8422483989880f7ae0b31b9842f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219188"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 

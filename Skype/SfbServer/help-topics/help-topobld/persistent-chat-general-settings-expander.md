@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
 ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219287"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
  

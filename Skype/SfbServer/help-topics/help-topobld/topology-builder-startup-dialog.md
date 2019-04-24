@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 启动拓扑生成器配置的属性和 Microsoft Lync Server 2013 部署的配置。 在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。 您选择三个选项之一：
 ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219104"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
 

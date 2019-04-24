@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题以了解如何在 Exchange 配置帐户的 Microsoft 团队聊天室和 Skype 的业务。
 ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214882"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>为 Microsoft 团队房间配置帐户
  
@@ -88,5 +88,5 @@ Microsoft 团队聊天室需要 Active Directory、 Exchange 和 Skype for Busin
   
 [配置 Microsoft 团队聊天室控制台](console.md)
   
-[管理 Microsoft 团队聊天室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: 了解业务服务器，使用 DFS 确保您 Skype 中的文件共享的高可用性。
 ms.openlocfilehash: 0b5d2f577775635b95add15dd7b7576ca24c883f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214066"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>为业务 Server Skype 中文件共享高可用性
  

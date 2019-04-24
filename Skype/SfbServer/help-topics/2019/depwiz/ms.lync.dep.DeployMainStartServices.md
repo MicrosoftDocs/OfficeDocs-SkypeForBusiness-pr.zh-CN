@@ -14,11 +14,11 @@ ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要部署的服务器角色上启动的服务，单击运行在步骤 4： 启动服务。 您必须以本地 Administrators 组或等效的成员身份登录。
 ms.openlocfilehash: bd499ccd1a94c5ff58b6d9428ff0032022d5b075
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216107"
 ---
 # <a name="start-services"></a>启动服务
  

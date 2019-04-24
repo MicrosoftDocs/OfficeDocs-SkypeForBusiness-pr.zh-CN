@@ -14,11 +14,11 @@ ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 6e8080c5dc70d5f6c9549be04b2ecbd8ad1d174f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215379"
 ---
 # <a name="network-configuration-edit-global-setting"></a>网络配置：编辑全局设置
 

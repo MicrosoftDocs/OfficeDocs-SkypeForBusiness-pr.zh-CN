@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: 本节概述了业务服务器 Skype 的表单的安全框架的基本要素。 了解这些要素协同工作的方式对于做出有关保护您的业务服务器部署的特定 Skype 的明智的决定至关重要。
 ms.openlocfilehash: 7c678e1f005178b569f8e4136d40fd911483a3d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213611"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Skype 业务服务器的安全框架
  

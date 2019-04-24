@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要： 将 Skype 集成的企业服务器和 Outlook Web App。
 ms.openlocfilehash: 3bd5131fcdba3d3253021c711910b18f46e93ce4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216646"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>配置业务服务器的内部部署 Skype 和 Outlook Web App 之间的集成
 

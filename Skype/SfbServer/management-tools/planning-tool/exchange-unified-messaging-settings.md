@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype 的业务服务器 2015年支持的组合语音消息传递和电子邮件到单个消息传递基础结构与 Exchange 统一消息 (UM) 集成。
 ms.openlocfilehash: e59e9006a590dda52e8ea90f2035157fdaef4d93
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217276"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange Unified Messaging Settings (Planning Tool)
 

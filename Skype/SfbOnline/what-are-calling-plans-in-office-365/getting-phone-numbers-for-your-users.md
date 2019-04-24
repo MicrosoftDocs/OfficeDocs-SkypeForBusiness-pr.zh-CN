@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
+description: '了解如何获取新的端口，或将现有号码转接的 Skype for Business，以及如何向用户显示所做的更改。 '
 ms.openlocfilehash: d1472118fb78305ff7f14cf91972f01099cd939b
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238277"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -34,13 +34,13 @@ ms.locfileid: "30047845"
   
 有三种方法，以获得新的用户数：
 
-- **Skype 用于业务管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
     
-- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) 或[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)，从而帮助您执行此操作。  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
-- **使用新号码的请求表单。** 有时 （根据您的国家/地区） 您将无法获取您的业务管理中心中，使用 Skype 的新电话号码，或需要特定的电话号码或区域代码。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅 [管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) 。
+- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
     
-必须使用**添加新用户号码**页上，请参阅、 搜索、 获取，并保留这些号码。 您可以通过**国家/地区**、**状态**和**市/县**，搜索，然后输入电话号码，您将需要为您的用户数。
+You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by **Country/Region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users.
   
 > [!NOTE]
 > 如果您需要帮助设置为您的组织的电话号码，您可以[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
@@ -66,21 +66,21 @@ ms.locfileid: "30047845"
     
    - **城市**
     
-5. 在" **数量**"下，输入你的组织所需的电话号码数，然后单击" **添加**"以创建保留。 您有 10 分钟，选择您的电话号码;如果您采用多个 10 分钟的电话号码将返回给号码的池。
+5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
     
     > [!NOTE]
-    > 您可以看到该号码的电话号码，它基于**总用户号码可以获取**旁边列出的许可证数量。 有关详细信息，请参阅[您可以获取多少个电话号码？](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total user numbers you can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
 6. 你可以单击" **显示号码**"来查看完整的电话号码列表。如果你不想选择列表中的特定电话号码，这将非常有用。
     
 7. 选择您希望的电话号码，然后单击**获取号码**。
     
     > [!IMPORTANT]
-    > 用户 （订户） 的电话号码数等于 **国内通话套餐** 和/或 **国内和国际通话套餐** 的许可证已分配乘以 1.1、 加上 10 个其他电话号码的总数。 例如，如果您总共有 50 个国内通话套餐和/或国内和国际通话套餐的用户，您可以获取 **65** 个电话号码 **(50 x 1.1 + 10)**。 有关详细信息，请参阅[您可以获取多少个电话号码？](/microsoftteams/how-many-phone-numbers-can-you-get)。 [!注释] 如果需要获取更多电话号码，请联系 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
    **从服务提供商或电话运营商的端口或转接电话号码**
   
-- 如果您的用户需要 999 或更少的电话号码，您可以业务管理中心的 Skype 中使用**新建本地号码端口次序**向导。 按照[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)，以将您的电话号码，通过业务 online 转移到 Skype 中找到的步骤。
+- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers over to Skype for Business Online.
     
 - 如果您需要端口超过 999 电话号码，请参阅[手动提交自定义服务请求](manually-submit-a-custom-service-request.md)提交的端口顺序服务请求或顺序获取所有移植转移到 Office 365 这些电话号码。
     
@@ -92,16 +92,16 @@ ms.locfileid: "30047845"
     
 2. 转到**Microsoft 团队管理中心** > **旧门户**。
     
-3. 在左侧导航窗格中，转到**语音** > **电话号码**。 The phone numbers you have for your organization are listed under **Number**.
+3. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
     
     > [!NOTE]
     > [!注释] 你可以在" **已分配**"和" **号码类型**"列中查看特定的电话号码和号码类型。
   
 ## <a name="what-else-do-you-need-to-know-about-users-phone-numbers"></a>若要了解的有关用户的电话号码，您需要什么？
 
-- 获取电话号码，您必须使用**添加新用户号码**页上，请参阅、 搜索和保留这些号码。 你可以按"国家/地区"、"省/市/自治区/地区"和"城市"进行搜索，然后输入你需要为用户提供的电话号码数。
+- To acquire phone numbers, you must use the **Add new user numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you will need for your users
     
-- 获取您的电话号码后，您将需要向每个用户分配一个号码。 请参阅[分配、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
+- After you get your phone numbers, you will need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
     
 - 您可以使用**电话号码**页上**编号**列中可用的电话号码的列表，请参阅，查看是否已在**已分配**列中，分配的电话号码和查看**号码位置中的电话号码的位置**列。
 

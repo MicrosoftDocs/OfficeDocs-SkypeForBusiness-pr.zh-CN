@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 每条记录代表一个终结点的音频信号指标。 通常，每个呼叫的两个记录、 一个为呼叫者，并且一个被叫方。
 ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212311"
 ---
 # <a name="audiosignal-table"></a>AudioSignal 表
  

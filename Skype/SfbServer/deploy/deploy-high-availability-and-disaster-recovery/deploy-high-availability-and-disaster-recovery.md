@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype 业务服务器与池，池配对，与后端服务器高可用性，包括 AlwaysOn 可用性组、 数据库镜像，和 SQL 故障转移群集的几种模式下的灾难恢复的服务器提供高可用性。
 ms.openlocfilehash: bbd3c4092962e757a7565f1da054c82438a79ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225495"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和灾难恢复
  

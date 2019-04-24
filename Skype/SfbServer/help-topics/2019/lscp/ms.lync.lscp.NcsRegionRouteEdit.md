@@ -14,11 +14,11 @@ ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: fdf1beb2d62e2d2879b3a47884feb3fa23669e00
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215465"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>配置网络区域路由：创建新的或编辑现有的
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
 ms.openlocfilehash: a33a6aa66ac795723c72d65fdedc2c8d6b9da3be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217262"
 ---
 # <a name="planning-tool-ui-reference"></a>规划工具用户界面参考
  

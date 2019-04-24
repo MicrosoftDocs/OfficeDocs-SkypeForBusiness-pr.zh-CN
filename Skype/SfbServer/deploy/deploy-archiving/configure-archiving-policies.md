@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 摘要： 阅读本主题可了解如何配置初始存档策略的 Skype 业务 Server 用户。
 ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233242"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>为业务 Server Skype 的配置存档策略
  

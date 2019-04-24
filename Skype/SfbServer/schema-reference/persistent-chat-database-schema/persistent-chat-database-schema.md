@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 这业务服务器记录 Skype 的持久聊天数据库的架构。
 ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212689"
 ---
 # <a name="persistent-chat-database-schema"></a>持久聊天数据库架构
  

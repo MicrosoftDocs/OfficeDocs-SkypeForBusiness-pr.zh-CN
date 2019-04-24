@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
 ms.openlocfilehash: 859f4f1cd28eaa930f7cf3697e7ed5349f1bc966
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218917"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>为业务服务器阶段中 Skype AV 和 OAuth 证书使用在 Set-cscertificate 中的滚动分期
  
@@ -82,7 +82,7 @@ A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的�
   
 ![使用 Roll 和 EffectiveDate 参数。](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**标号**|**阶段**|
+|**标注**|**阶段**|
 |:-----|:-----|
 |1  <br/> |开始时间：2015 年 7 月 22 日上午 12:00:00  <br/> 当前 AudioVideoAuthentication 证书在 2015 年 7 月 22 日下午 2:00:00 到期。这由证书上的过期时间戳决定。规划证书替换和滚动，计入现有证书达到过期时间前的 8 小时重叠期（默认令牌生命周期）。上午 2:00:00 提前时间在本例中用来给管理员留出足够的时间，在上午 6:00:00 生效时间前放置和设置新证书。  <br/> |
 |2  <br/> |2015 年 7 月 22 日上午 2:00:00 - 2015 年 7 月 22 日上午 5:59:59  <br/> 有效时间 6:00:00 （4 小时提前期对于此示例，但可更长时间） 边缘服务器上设置证书使用 Set-cscertificate-类型\<证书使用类型\>-指纹\<新证书的指纹\>-滚动-EffectiveDate\<的新证书的有效时间的 datetime 字符串\>  <br/> |

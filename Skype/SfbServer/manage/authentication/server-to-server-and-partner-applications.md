@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 摘要： 管理 OAuth 和合作伙伴应用程序中 Skype 业务服务器。
 ms.openlocfilehash: 77fd070ace850035d129dc247decdcf7988219cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217283"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>管理服务器到服务器身份验证 (OAuth) 和 Skype 中的业务服务器的合作伙伴应用程序
  

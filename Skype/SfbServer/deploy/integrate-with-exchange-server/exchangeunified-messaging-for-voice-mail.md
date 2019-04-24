@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要： 配置 Exchange Server 统一消息的 Skype Business Server 语音邮件。
 ms.openlocfilehash: 60f9398b7a35ad211ede22ee0e0e7f9689bbc8d7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216863"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
  

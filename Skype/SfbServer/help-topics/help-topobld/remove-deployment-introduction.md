@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 仅当您想要停用整个部署，请运行删除部署向导。 此向导创建空拓扑组成的单个前端服务器。 在运行此向导并发布空拓扑后，您无法将其还原到原始拓扑。
 ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219357"
 ---
 # <a name="remove-deployment-introduction"></a>删除部署简介
  

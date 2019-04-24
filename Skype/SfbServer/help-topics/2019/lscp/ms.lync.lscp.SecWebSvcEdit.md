@@ -14,11 +14,11 @@ ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 0aac4465175070bc8dd844450329bcc6ce3230cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215113"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服务安全设置：创建新的或修改现有的
 

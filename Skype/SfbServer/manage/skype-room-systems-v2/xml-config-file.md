@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: 本文讨论远程管理的 Microsoft 团队聊天室设备，包括应用自定义主题使用的默认设置。
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214741"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
  
@@ -132,6 +132,6 @@ XML 配置文件必须在设备启动时更新以识别主题图像。处理和�
 ## <a name="see-also"></a>另请参阅
 
 
-[管理 Microsoft 团队聊天室](skype-room-systems-v2.md)
+[管理 Microsoft Teams 会议室](skype-room-systems-v2.md)
 
 [配置文件项](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

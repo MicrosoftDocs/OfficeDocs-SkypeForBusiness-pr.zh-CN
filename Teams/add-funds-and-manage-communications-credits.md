@@ -30,11 +30,11 @@ ms.custom:
 - Licensing
 description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
 ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231803"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
@@ -84,7 +84,7 @@ Communications 字幕式是用于电话系统和调用计划在 Office 365 中�
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置云语音邮件的管理员帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
         

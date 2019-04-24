@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: 用户视图存储已参与呼叫或在数据库中包含记录的会话的用户的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 9e631c101660e8f14bca25f019f5d991a0d9aadd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213177"
 ---
 # <a name="user-view"></a>用户视图
  

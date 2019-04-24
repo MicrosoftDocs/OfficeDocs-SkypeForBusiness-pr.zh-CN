@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 61d704a97cf094aa77f3b33fab80d60ade499380
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220047"
 ---
 # <a name="test-voice-routing-test-cases"></a>测试语音路由：测试案例
 

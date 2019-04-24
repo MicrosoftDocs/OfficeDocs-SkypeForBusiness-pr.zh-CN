@@ -14,11 +14,11 @@ ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 向 Skype 授予访问权限的业务服务器，执行以下操作：
 ms.openlocfilehash: c0f30910fb6f39f5e2f81b054ec2ca39dac742e4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216618"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  

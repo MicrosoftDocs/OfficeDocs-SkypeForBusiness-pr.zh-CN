@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: "Microsoft 小组东部 l'outil de 聊天 collaboratif d'Office 365 qui intègre toutes les personnes、 contenus et outils 不 votre équipe besoin 浇注 être 以及 impliquée et efficace。 "
 ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231795"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 

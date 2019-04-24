@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222538"
 ---
 ![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
 
@@ -110,7 +110,7 @@ Microsoft 团队展开 Skype for Business，提供全面的通信和协作解决
 
 **项目中心团队协作： 产品启动事件**(例如： 您的组织获取已准备好发布新产品上市和规划广泛的促销活动提高认知、 生成商机和鼓励销售)。
 
-| 注意事项 | 备注 |
+| 注意事项 | 注释 |
 |----|---|
 | 核心属性 |<ul><li>跨团队利益干系人与各种项目工作流</li><li>常用目标的会议</li><li>多部分/人一起即将 （预算、 计划、 演示文稿、 注册和等等）</li></ul> |
 | 团队协作难题 |<ul><li>工作流中接收器处理整个项目状态的有限可视性或跨团队措施：<br><ul><li>断开连接的对话和缺少"谁在做什么" </li><li>跟踪中的不同位置使用不跨团队能够看到的信息</li></ul><li>丢失的工作效率时间时将板或捕获从缺少会议上的新成员</li></ul>|
@@ -121,7 +121,7 @@ Microsoft 团队展开 Skype for Business，提供全面的通信和协作解决
 
 **以人员为中心的团队协作： 销售团队**(例如： 您的地区组织分散销售团队需要保持道路从连接、 保持对齐上管道，并了解关键提供和有助于推动年度配额目标的计划)
 
-| 注意事项 | 备注 |
+| 注意事项 | 注释 |
 |----|---|
 | 核心属性 | <ul><li>从事远程 （旅途、 酒店或客户网站）</li><li>基于关系 – 核心外部</li></ul> |
 | 团队协作难题 |<ul><li>与多个字段代表 （聊天、 呼叫、 会议、 等） – 重复的对话无法获取每个人一起同时</li><li>错过的机会，若要了解从销售"wins"– 口碑仅共享</li><li>不断序应用程序之间：<ul><li>在 Excel 中的销售渠道</li><li>在 Power BI 趋势分析</li><li>电子邮件中的销售辅助资料</li><li>在 SharePoint 上的客户演示资源</li><li>1:1 聊天和时间点会议</li><li>Yammer 中的销售社区推广</li></ul></ul> |

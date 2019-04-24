@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
 ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217769"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
  

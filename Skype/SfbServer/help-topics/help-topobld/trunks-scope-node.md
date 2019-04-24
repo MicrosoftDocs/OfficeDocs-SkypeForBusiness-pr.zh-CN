@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 右键单击中继在拓扑生成器以执行以下操作：
 ms.openlocfilehash: 543c4cb31f87d670ac8b0e0d89d0f87b84927111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219097"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  

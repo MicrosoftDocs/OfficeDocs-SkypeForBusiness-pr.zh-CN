@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: e9b1352d62d5901a8da85a45a90a78f5163eb04d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220247"
 ---
 # <a name="quality-of-experience-qoe-data"></a>用户体验质量 (QoE) 数据
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable 包含 SIP 响应代码的分类和定义的每个代码的列表。 这些代码以响应事件影响 SIP 设备生成和 SIP 通信会话;例如，SIP 设备发出请求，但服务器拒绝接受该请求时，将生成 403 的响应代码。
 ms.openlocfilehash: 7b60ffff90434c341fcf15fb75ddc93ac9f26201
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212794"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData 表
  

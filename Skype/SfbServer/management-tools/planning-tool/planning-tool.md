@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 有关使用 Skype 业务 Server 2015 规划工具的指南。
 ms.openlocfilehash: 7a2230344cc31a14fbd8898706973af5ed0e6d9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222637"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 规划工具
  

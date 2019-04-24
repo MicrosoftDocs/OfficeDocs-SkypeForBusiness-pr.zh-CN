@@ -15,11 +15,11 @@ ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 业务 server 规划工具
 ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220974"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

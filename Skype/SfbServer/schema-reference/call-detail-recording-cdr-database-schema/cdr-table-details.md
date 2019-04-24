@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下主题详细介绍每个呼叫详细信息记录 (CDR) 数据库架构表中的列。
 ms.openlocfilehash: c6deafa34450e996766389f343afece5f81ba698
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213310"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR 表中的业务服务器 2015 Skype 的详细信息
  

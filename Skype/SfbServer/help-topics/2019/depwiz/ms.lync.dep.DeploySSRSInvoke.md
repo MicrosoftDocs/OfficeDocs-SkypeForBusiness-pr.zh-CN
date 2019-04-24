@@ -14,11 +14,11 @@ ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 部署监控服务器报告 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务，向页上执行命令显示的摘要发出安装的命令提供所需的信息之后SQL Server Reporting Services 报告。
 ms.openlocfilehash: 6457d17a3e8fff4d93aeedb5f7526c23ccc5b064
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216044"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  

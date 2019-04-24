@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 对于业务服务器 2019年池用户移动到 Skype 后，您可以迁移响应组。 迁移响应组包括复制代理组、 队列、 工作流、 音频文件，并将从旧部署的响应组联系人对象移动到业务服务器 2019年池 Skype。 迁移旧版响应组后，对响应组呼叫处理中为 Business Server 2019 池 Skype 的响应组应用程序。 由旧池不再处理响应组呼叫。
 ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231649"
 ---
 # <a name="migrate-response-groups"></a>迁移响应组
 

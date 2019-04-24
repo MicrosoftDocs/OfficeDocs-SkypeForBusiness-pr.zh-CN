@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要： 了解如何运行查询操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
 ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217479"
 ---
 # <a name="run-query"></a>运行查询
 

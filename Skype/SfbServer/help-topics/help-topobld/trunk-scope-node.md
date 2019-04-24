@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
 ms.openlocfilehash: 881409acb5b45b1f6662d96bfda110cbf1381f2a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219041"
 ---
 # <a name="trunk-scope-node"></a>中继范围节点
  

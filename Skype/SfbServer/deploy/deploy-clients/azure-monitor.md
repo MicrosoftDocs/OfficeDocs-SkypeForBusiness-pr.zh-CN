@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何部署 Microsoft 团队聊天室设备的管理方式集成的端到端使用 Azure 监视器。
 ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219502"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>部署 Microsoft 团队聊天室管理使用 Azure 监视器
 

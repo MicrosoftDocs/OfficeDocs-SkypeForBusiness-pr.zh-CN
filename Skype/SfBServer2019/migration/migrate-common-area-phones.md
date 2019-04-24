@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 公用区域电话是 IP 大多数通常位于共享工作区或公共区域电话如会议室、 厨房或工厂基底。 公用区域电话不需要连接到计算机以提供业务服务器 Skype 统一通信 (UC) 功能。 迁移后部署到 Skype 的业务服务器 2019年，您必须迁移与旧版公用区域电话联系对象。 Skype 用于业务 Server 命令行管理程序将先检索与旧的公用区域电话，关联的所有联系对象，然后将这些对象移动到业务服务器 2019年池的 Skype。
 ms.openlocfilehash: d17e15224a9124eaf3e9fd6696e6ecd9265044eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231663"
 ---
 # <a name="migrate-common-area-phones"></a>迁移公共区域电话
 

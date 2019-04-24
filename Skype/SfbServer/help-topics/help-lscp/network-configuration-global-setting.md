@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 0b16940eafecc2177ca65fbebe7d818440549bd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220275"
 ---
 # <a name="network-configuration-global-setting"></a>网络配置：全局设置
 

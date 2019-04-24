@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 从拓扑生成器中可以修改用于两个内部和外部 web 服务的端口设置。 此外，如果您正在部署域名系统 (DNS) 负载平衡，您可以使用拓扑生成器配置的完全限定的域名 (FQDN) 解析为池中的所有服务器的物理 IP 地址的池和。
 ms.openlocfilehash: 776ff33dabc331a3cf0a2107e7f0006bf2291fdb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218992"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  

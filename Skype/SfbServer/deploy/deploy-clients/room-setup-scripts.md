@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
 ms.openlocfilehash: 2032799059d59d1a99526a2b90630dd3c7b1cb3e
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219379"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 会议室系统会议室设置脚本
  

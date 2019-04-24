@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在业务服务器 2019年的 Skype，业务服务器 2019年组件包含 Skype 网络上定义的网站。 网站是一组由高速、 低延迟网络，如单个局域网 (LAN) 或由高速光纤光纤网络连接的两个网络连接良好的计算机。
 ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231621"
 ---
 # <a name="migration-phases"></a>迁移阶段
 

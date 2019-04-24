@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 摘要： 了解媒体质量指标分布报告中 Skype 业务服务器。
 ms.openlocfilehash: 621619380db224faeadfb496e89ea6ec5337386c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218964"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>媒体质量指标分布报告中 Skype 业务服务器 
  

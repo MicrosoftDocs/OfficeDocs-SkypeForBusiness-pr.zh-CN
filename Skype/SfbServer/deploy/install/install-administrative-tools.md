@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 摘要： 了解如何安装 Business Server Skype 安装所需的管理工具。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
 ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210723"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>在 Skype 业务服务器安装管理工具
  

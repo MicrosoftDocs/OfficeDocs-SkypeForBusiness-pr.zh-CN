@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有内置可以提供 DNS 服务，因此您可能想要查看可用的文档，如 DNS 策略方案指南的软件。 如果您愿意，您可以选择第三方解决方案。
 ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213891"
 ---
 # <a name="dns-basics"></a>DNS 基础知识
  

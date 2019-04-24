@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要： 阅读本主题可了解如何在 Skype for Business Server 中配置电话拨入式会议。
 ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226021"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中配置电话拨入式会议
  

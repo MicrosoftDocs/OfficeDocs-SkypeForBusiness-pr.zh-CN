@@ -14,11 +14,11 @@ ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。 队列已分配的代理组。 当您创建或编辑队列时，您使用选择组对话框选择要分配给队列的一个或多个代理组。
 ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880319"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215183"
 ---
 # <a name="select-groups"></a>选择组
 

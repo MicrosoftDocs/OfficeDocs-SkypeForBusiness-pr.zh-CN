@@ -14,11 +14,11 @@ ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您必须指明需要在林中创建通用组。 通用组位置页上使用的登录到计算机为默认的成员的域。 如果您想要在非默认的本地域域中创建的通用组，选择域 FQDN，并在文本框中键入完全限定的域名 (FQDN)。 提供的备用域很有帮助从以外，在您想通用组域运行林准备任务时创建。 单击下一步。
 ms.openlocfilehash: c886ff701a1e66221f5fa75c50e847d33560b32e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216240"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>准备当前林（通用组位置）
  

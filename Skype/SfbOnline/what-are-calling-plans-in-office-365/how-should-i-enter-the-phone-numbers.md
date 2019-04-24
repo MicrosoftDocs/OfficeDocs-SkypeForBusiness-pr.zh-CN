@@ -1,5 +1,5 @@
 ---
-title: 我应该如何输入电话号码？
+title: 应输入的电话号码的方式
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - Calling Plans
 description: '了解如何设置电话号码，当您对业务的 Skype 端口它们。 '
 ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229874"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>我应该如何输入电话号码？
+# <a name="how-should-i-enter-the-phone-numbers"></a>应输入的电话号码的方式
 
 当移植电话号码时，您必须按正确格式输入它们。 
   
@@ -42,7 +42,7 @@ ms.locfileid: "25374084"
     
   - 11 位数字的号码： **1\*（) (\*&amp;42&amp;\*（) (\*&amp;55550649**将纠正到 **+14255550649**。
     
-  - 如果有 10 或 11 位，则将忽略所有标记。 例如， ** \<div > 4255551234\</div >** 将 **+14255551234**。
+  - 如果有 10 或 11 位，则将忽略所有标记。 例如， ** \<div> 4255551234\</div>** 将 **+14255551234**。
     
   - "-"，将忽略空格和括号。 例如：
     

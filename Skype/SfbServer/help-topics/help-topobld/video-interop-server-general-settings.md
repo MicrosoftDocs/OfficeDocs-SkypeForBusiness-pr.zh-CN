@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
 ms.openlocfilehash: b0d1bd0c558edd13a73ace8ba1fc11d274d610ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219013"
 ---
 # <a name="video-interop-server-general-settings"></a>视频互操作服务器常规设置
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: 使用选择超链接前缀对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名下的类别中对应的复选框超链接前缀。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。
 ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220120"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要： 阅读此主题以了解有关中 Skype 会议特性和功能的业务服务器。
 ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214377"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>规划业务服务器中 Skype 的会议
  

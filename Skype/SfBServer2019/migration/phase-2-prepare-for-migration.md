@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: 开始迁移到 Skype 的业务服务器 2019年之前，请按照本节中所述的步骤。
 ms.openlocfilehash: 2895472119aa7effe5562817713b29cefe338dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231565"
 ---
 # <a name="phase-2-prepare-for-migration"></a>第 2 阶段：准备迁移
 

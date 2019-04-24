@@ -14,11 +14,11 @@ ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 ms.openlocfilehash: 7dd8c61a27d4294b96e281a0f11eae33af6c32de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221227"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>语音策略：创建新的或编辑现有的 PSTN 用法记录
 

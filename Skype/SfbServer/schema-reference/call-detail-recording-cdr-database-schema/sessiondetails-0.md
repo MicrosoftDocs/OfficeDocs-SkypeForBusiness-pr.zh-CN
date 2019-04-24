@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails view 存储有关对等会话，这可能是 Voip-voip 电话呼叫、 双方 IM 会话或其他类型的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212815"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 视图
  

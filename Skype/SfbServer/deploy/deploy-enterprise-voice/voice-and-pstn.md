@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 摘要： 了解如何为业务 Server Skype 中配置语音策略、 PSTN 用法记录和语音路由。
 ms.openlocfilehash: 37cc90e76a4ebf93ebd1ab1d61595b7fb8f6db38
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222531"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Skype for Business 中配置语音策略、 PSTN 用法记录和语音路由
  

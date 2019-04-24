@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 每个记录都包含一个终结点，音频呼叫的客户端事件。 通常，一次调用具有两个记录，一个用于呼叫者，一个用于被叫方。
 ms.openlocfilehash: 307406446d71adf462cdc8a0345aa823129a8f99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212318"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent 表
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: dd107386769cf1f4e7fce72012c94700c98cc961
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219927"
 ---
 # <a name="trunk-configuration"></a>中继配置
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport 表存储有关发生的错误的信息。 每个记录是一个错误实例。 错误是可通过在前端服务器上运行的 CDR 代理捕获或从客户端发送。
 ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213128"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ErrorReport 表中的业务服务器 2015 Skype
  

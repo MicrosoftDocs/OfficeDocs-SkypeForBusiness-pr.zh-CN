@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 您的业务 Server 2015 规划工具中导航 Skype 使用工具栏、 特定于页上的按钮和链接和上下文特定窗格的组合。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
 ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217347"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 

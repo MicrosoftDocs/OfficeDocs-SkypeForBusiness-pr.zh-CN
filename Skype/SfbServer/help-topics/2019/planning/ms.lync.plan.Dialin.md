@@ -15,11 +15,11 @@ ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Business Server 电话拨入式会议，用户可以通过使用公用电话交换网 (pstn) 电话，而无需第三方音频会议提供商加入 Skype Business Server 会议的音频部分。
 ms.openlocfilehash: 2e8e70f84358c1f5223149a8ad44be2e14156584
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221058"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

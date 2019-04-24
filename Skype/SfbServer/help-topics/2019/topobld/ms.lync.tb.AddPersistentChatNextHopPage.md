@@ -14,11 +14,11 @@ ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此页用于定义部署中的下一个跃点从持久聊天服务器的服务器。 有关如何部署持久聊天服务器的详细信息，请参阅的业务服务器 2015年部署 Persistent Chat Server in Skype。
 ms.openlocfilehash: 16071d9875f34483477ec68bdc1dfd72e9c55380
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220809"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>添加持久聊天下一跃点页面
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
 ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219259"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  

@@ -14,11 +14,11 @@ ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有控制器的设置，可参考以下各节内容：
 ms.openlocfilehash: 9d400f44fd3b0ee288de2e3f91eebfb6e90604c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220591"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  

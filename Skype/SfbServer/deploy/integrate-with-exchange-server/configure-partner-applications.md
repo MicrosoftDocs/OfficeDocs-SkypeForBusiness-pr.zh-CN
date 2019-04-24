@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 摘要： 配置 Exchange Server 2016 或 Exchange Server 2013 和 Skype 的业务服务器的服务器到服务器身份验证。
 ms.openlocfilehash: d9d2b32b637946555b906f24e7abbd5dda007d7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216877"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在 Skype for Business Server 和 Exchange Server 中配置合作伙伴应用程序
  

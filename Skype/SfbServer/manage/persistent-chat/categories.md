@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要： 了解如何管理 Persistent Chat Server 类别中 Skype for Business Server 2015。
 ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219735"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的类别
  

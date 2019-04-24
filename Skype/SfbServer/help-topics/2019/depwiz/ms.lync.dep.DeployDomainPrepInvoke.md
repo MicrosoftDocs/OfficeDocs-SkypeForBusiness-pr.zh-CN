@@ -14,11 +14,11 @@ ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正在执行命令页上显示运行时任务的摘要。 查看摘要屏幕上，并确保任务已成功完成，并且没有任何错误。 检查以确保它们预期警告。 下方摘要窗格中，您应看到任务状态： 已完成。 在下拉列表中，日志文件准备域应可见。 如果不存在，选择的日志文件，然后单击查看详细的操作和任务的结果的查看日志。 单击完成完成准备的林中的域。
 ms.openlocfilehash: 15f4964f882a18f0c96616903b552ccf31ca4c53
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216275"
 ---
 # <a name="prepare-current-domain-invoke"></a>准备当前域（调用）
  

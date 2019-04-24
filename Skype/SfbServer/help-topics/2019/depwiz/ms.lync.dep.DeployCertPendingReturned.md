@@ -14,11 +14,11 @@ ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 联机证书请求状态页上返回证书的当前状态。 如果证书仍处于挂起的审批状态与证书颁发机构管理员 — 的，如果它不具有尚未批准 — 其状态将显示仍在处理的证书。
 ms.openlocfilehash: 6ee8a4d49b6a15c60e86f5bd9e92f0e97a95337d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216436"
 ---
 # <a name="pending-certificate-returned"></a>待处理的证书请求（已返回）
  
