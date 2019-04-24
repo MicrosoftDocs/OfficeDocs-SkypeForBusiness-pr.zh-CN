@@ -12,12 +12,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 31ade1137987bc67e4f45ea2fe8b51a4501bcd7c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 268ce97b4c68b19223c0ab102ad8eba40e8c17e9
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245211"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32454460"
 ---
 <div id="main" class="v2">
     <div class="container">
