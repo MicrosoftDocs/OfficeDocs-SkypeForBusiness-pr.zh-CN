@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Office 365 配合使用。
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649281"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959225"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -29,16 +29,20 @@ ms.locfileid: "30649281"
 
 ## <a name="overview-of-teams"></a>Teams 概述
 
-如果你未使用过 Teams，请观看此短视频：[欢迎使用 Teams](https://youtu.be/s3aQV3T0D6c)。 Teams 基于 Office 365 组、Office Graph 以及与 Office 365 其余产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 创建团队时，将会创建以下各项：
+如果你未使用过 Teams，请观看此短视频：[欢迎使用 Teams](https://youtu.be/s3aQV3T0D6c)。 Teams 基于 Office 365 组、Office Graph 以及与 Office 365 其余产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 要了解 Teams 在 Microsoft 365 中的位置，请查看此体系结构海报：[Microsoft 365 中的 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+创建团队时，将会创建以下各项：
 - 新 [Office 365 组](office-365-groups.md)
 - 用于存储团队文件的 [SharePoint Online](sharepoint-onedrive-interact.md) 站点和文档库
 - [Exchange Online](exchange-teams-interact.md) 共享邮箱和日历
 - OneNote 笔记本
 - 与其他 Office 365 应用（例如 Planner 和 Power BI）的关联
 
-从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 不要错误新的[组织范围的团队](create-an-org-wide-team.md)，这是一种特殊类型的团队，它将组织中所有用户包含进来，并在用户加入和离开组织时在 Active Directory 中更新成员身份。 
+从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 要了解详细信息，请查看此海报：[面向 IT 架构师的 Microsoft 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-若要自定义和扩展 Teams，请通过[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/zh-CN/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
+不要错过[组织范围的团队](create-an-org-wide-team.md)，这是一种特殊类型的团队，它将组织中所有用户包含进来，并在用户加入和离开组织时在 Active Directory 中更新成员身份。 
+
+若要自定义和扩展 Teams，请通过[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
 
 ![Teams 桌面应用和移动应用](media/teams-overview-hub.png)
 
@@ -46,9 +50,10 @@ ms.locfileid: "30649281"
 ## <a name="managing-teams"></a>管理团队
 
 作为管理员，你将通过 Microsoft Teams 管理中心来管理团队。 若要了解详细信息：
-- [在 Microsoft Teams 管理中心中管理团队](manage-teams-skypeforbusiness-admin-center.md)
-- [在过渡到全新的 Microsoft Teams 管理中心期间管理团队](manage-teams-in-modern-portal.md)
-
+- [使用 Teams 管理员角色管理 Teams](using-admin-roles.md)
+- [在 Microsoft Teams 管理中心中管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-in-modern-portal.md)
+- [在你的 Office 365 组织中管理 Teams 功能](enable-features-office-365.md)
 
 要时刻了解贵组织中的 Teams 及所有其他 Office 365 产品和服务的新动向，请务必检查[消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 路线图](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 你将获取有关新功能和更新功能、规划更改以及一些问题的公告，以帮助你及时了解情况并做好准备。 
 

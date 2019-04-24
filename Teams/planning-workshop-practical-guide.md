@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463953"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32453512"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -48,6 +48,6 @@ ms.locfileid: "30463953"
 
 [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)
 
-[获取工具以支持 Teams 部署](rollout-tools.md)
+[采用的工具](adopt-tools-and-downloads.md)
 
 

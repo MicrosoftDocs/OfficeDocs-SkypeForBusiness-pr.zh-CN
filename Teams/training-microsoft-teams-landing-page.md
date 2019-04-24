@@ -17,11 +17,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 81a8b7fe6043d868d88c24c4d1b2573e71f31beb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204097"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
