@@ -1,11 +1,17 @@
---- 
+---
 layout: HubPage
 hide_bc: true
 title: Skype for Business
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 description: Skype for Business
+ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195012"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -140,8 +146,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 团队聊天室</h3>
-                                                    <p>了解如何规划、 部署和管理 Microsoft 团队聊天室。</p>
+                                                    <h3>Microsoft Teams 会议室</h3>
+                                                    <p>了解如何规划、部署和管理 Microsoft Teams 会议室。</p>
                                                 </div>
                                             </div>
                                         </div>

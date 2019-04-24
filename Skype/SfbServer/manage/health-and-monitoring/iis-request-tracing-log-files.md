@@ -11,31 +11,31 @@ localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 摘要： 了解旧客户端的业务服务器 2015年支持 Mobility Service (Mcx) Skype 中。
 ms.openlocfilehash: 6c885c441531dc02e149ee1fb37f0001d252811f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199682"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a><span data-ttu-id="79fb6-103">在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件</span><span class="sxs-lookup"><span data-stu-id="79fb6-103">Monitoring IIS request tracing log files in Skype for Business Server 2015</span></span>
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a><span data-ttu-id="5b534-103">在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件</span><span class="sxs-lookup"><span data-stu-id="5b534-103">Monitoring IIS request tracing log files in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="79fb6-104">**摘要：** 了解业务服务器 2015年支持旧客户端的 Skype 中 Mobility Service (Mcx)。</span><span class="sxs-lookup"><span data-stu-id="79fb6-104">**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.</span></span>
+<span data-ttu-id="5b534-104">**摘要：** 了解业务服务器 2015年支持旧客户端的 Skype 中 Mobility Service (Mcx)。</span><span class="sxs-lookup"><span data-stu-id="5b534-104">**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.</span></span>
   
-<span data-ttu-id="79fb6-105">本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，面向的是 Mobility Service (Mcx)。</span><span class="sxs-lookup"><span data-stu-id="79fb6-105">This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).</span></span>
+<span data-ttu-id="5b534-105">本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，面向的是 Mobility Service (Mcx)。</span><span class="sxs-lookup"><span data-stu-id="5b534-105">This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="79fb6-106">MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。</span><span class="sxs-lookup"><span data-stu-id="79fb6-106">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="79fb6-107">业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。</span><span class="sxs-lookup"><span data-stu-id="79fb6-107">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="79fb6-108">与使用 MCX 的旧客户端的用户需要升级到当前客户端。</span><span class="sxs-lookup"><span data-stu-id="79fb6-108">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
+> <span data-ttu-id="5b534-106">MCX (Mobility Service) 支持旧的移动客户端的不再可用的业务服务器 2019 Skype 中。</span><span class="sxs-lookup"><span data-stu-id="5b534-106">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="5b534-107">业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。</span><span class="sxs-lookup"><span data-stu-id="5b534-107">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="5b534-108">与使用 MCX 的旧客户端的用户需要升级到当前客户端。</span><span class="sxs-lookup"><span data-stu-id="5b534-108">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
   
-<span data-ttu-id="79fb6-109">为业务服务器 Mobility Service (Mcx) 的 Skype 启用 Internet Information Services (IIS) 请求跟踪时生成的日志文件可以使用最多为三个千兆字节的每日的磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="79fb6-109">When you enable Internet Information Services (IIS) request tracing for the Skype for Business Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="79fb6-110">默认情况下，IIS 跟踪日志记录已启用。</span><span class="sxs-lookup"><span data-stu-id="79fb6-110">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="79fb6-111">您应监视前端服务器以确保它们不要运行磁盘空间不足。</span><span class="sxs-lookup"><span data-stu-id="79fb6-111">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span> 
+<span data-ttu-id="5b534-109">为业务服务器 Mobility Service (Mcx) 的 Skype 启用 Internet Information Services (IIS) 请求跟踪时生成的日志文件可以使用最多为三个千兆字节的每日的磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="5b534-109">When you enable Internet Information Services (IIS) request tracing for the Skype for Business Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="5b534-110">默认情况下，IIS 跟踪日志记录已启用。</span><span class="sxs-lookup"><span data-stu-id="5b534-110">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="5b534-111">您应监视前端服务器以确保它们不要运行磁盘空间不足。</span><span class="sxs-lookup"><span data-stu-id="5b534-111">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span> 
   
-<span data-ttu-id="79fb6-112">默认情况下，IIS 将在 %SystemDrive%\inetpub\logs\LogFiles 中存储日志文件。</span><span class="sxs-lookup"><span data-stu-id="79fb6-112">By default, IIS stores the log files at %SystemDrive%\inetpub\logs\LogFiles.</span></span>
+<span data-ttu-id="5b534-112">默认情况下，IIS 将在 %SystemDrive%\inetpub\logs\LogFiles 中存储日志文件。</span><span class="sxs-lookup"><span data-stu-id="5b534-112">By default, IIS stores the log files at %SystemDrive%\inetpub\logs\LogFiles.</span></span>
   
-<span data-ttu-id="79fb6-113">若要对整个服务器禁用 IIS 请求跟踪，请在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="79fb6-113">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
+<span data-ttu-id="5b534-113">若要对整个服务器禁用 IIS 请求跟踪，请在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="5b534-113">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
   
 ```
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-<span data-ttu-id="79fb6-114">有关**httpLogging**命令的详细信息，请参阅[命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。</span><span class="sxs-lookup"><span data-stu-id="79fb6-114">For details about the **httpLogging** command, see [the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).</span></span>
+<span data-ttu-id="5b534-114">有关**httpLogging**命令的详细信息，请参阅[命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。</span><span class="sxs-lookup"><span data-stu-id="5b534-114">For details about the **httpLogging** command, see [the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).</span></span>
   
 

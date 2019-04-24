@@ -14,44 +14,44 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 除了指定您想要在您的环境中支持的客户端版本，还可以为尚不具有定义的版本策略的客户端中指定的默认操作。 这使您可以限制在您的环境，可帮助您控制与支持多个客户端版本相关的成本中使用哪些客户端版本。
 ms.openlocfilehash: 99938b2474a467c7c80148a7e0c3cab12320381f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200940"
 ---
-# <a name="client-version-configuration"></a><span data-ttu-id="f627e-104">客户端版本配置</span><span class="sxs-lookup"><span data-stu-id="f627e-104">Client Version Configuration</span></span>
+# <a name="client-version-configuration"></a><span data-ttu-id="06576-104">客户端版本配置</span><span class="sxs-lookup"><span data-stu-id="06576-104">Client Version Configuration</span></span>
 
-<span data-ttu-id="f627e-105">除了指定您想要在您的环境中支持的客户端版本，还可以为尚不具有定义的版本策略的客户端中指定的默认操作。</span><span class="sxs-lookup"><span data-stu-id="f627e-105">In addition to specifying the version of clients that you want to support in your environment, you can also specify a default action for clients that do not already have a version policy defined.</span></span> <span data-ttu-id="f627e-106">这使您可以限制在您的环境，可帮助您控制与支持多个客户端版本相关的成本中使用哪些客户端版本。</span><span class="sxs-lookup"><span data-stu-id="f627e-106">This enables you to restrict which client versions are used in your environment, which can help you to control the costs associated with supporting multiple client versions.</span></span>
+<span data-ttu-id="06576-105">除了指定您想要在您的环境中支持的客户端版本，还可以为尚不具有定义的版本策略的客户端中指定的默认操作。</span><span class="sxs-lookup"><span data-stu-id="06576-105">In addition to specifying the version of clients that you want to support in your environment, you can also specify a default action for clients that do not already have a version policy defined.</span></span> <span data-ttu-id="06576-106">这使您可以限制在您的环境，可帮助您控制与支持多个客户端版本相关的成本中使用哪些客户端版本。</span><span class="sxs-lookup"><span data-stu-id="06576-106">This enables you to restrict which client versions are used in your environment, which can help you to control the costs associated with supporting multiple client versions.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="f627e-107">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="f627e-107">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="06576-107">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="06576-107">Tasks you can perform</span></span>
 
-<span data-ttu-id="f627e-108">在**客户端版本配置**页上，可以执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="f627e-108">You can perform the following tasks on the **Client Version Configuration** page:</span></span>
+<span data-ttu-id="06576-108">在**客户端版本配置**页上，可以执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="06576-108">You can perform the following tasks on the **Client Version Configuration** page:</span></span>
 
-- <span data-ttu-id="f627e-109">编辑默认 （**全局**） 客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-109">Edit the default ( **Global**) client version configuration.</span></span>
+- <span data-ttu-id="06576-109">编辑默认 （**全局**） 客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-109">Edit the default ( **Global**) client version configuration.</span></span>
 
-- <span data-ttu-id="f627e-110">创建针对特定站点的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-110">Create client version configuration for a particular site.</span></span>
+- <span data-ttu-id="06576-110">创建针对特定站点的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-110">Create client version configuration for a particular site.</span></span>
 
-- <span data-ttu-id="f627e-111">启用和禁用现有客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-111">Enable and disable existing client version configurations.</span></span>
+- <span data-ttu-id="06576-111">启用和禁用现有客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-111">Enable and disable existing client version configurations.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f627e-112">由于匿名用户未与站点关联，因此匿名用户受全局级别的策略。</span><span class="sxs-lookup"><span data-stu-id="f627e-112">Because anonymous users are not associated with a site, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="06576-112">由于匿名用户未与站点关联，因此匿名用户受全局级别的策略。</span><span class="sxs-lookup"><span data-stu-id="06576-112">Because anonymous users are not associated with a site, anonymous users are affected by global-level policies only.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="f627e-113">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="f627e-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="06576-113">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="06576-113">UI Reference</span></span>
 
-<span data-ttu-id="f627e-114">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="f627e-114">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+<span data-ttu-id="06576-114">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="06576-114">The following lists describe the menus, command, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="f627e-115">**新**您可以创建针对特定站点的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-115">**New** You can create a client version configuration for a particular site.</span></span>
+- <span data-ttu-id="06576-115">**新**您可以创建针对特定站点的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-115">**New** You can create a client version configuration for a particular site.</span></span>
 
-- <span data-ttu-id="f627e-116">**编辑**您可以更改的任何客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="f627e-116">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="f627e-117">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="f627e-117">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="06576-116">**编辑**您可以更改的任何客户端版本策略的选项。</span><span class="sxs-lookup"><span data-stu-id="06576-116">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="06576-117">使用此选项，可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="06576-117">Using this option, you can do the following:</span></span>
 
-  - <span data-ttu-id="f627e-118">**显示详细信息**此选项可打开一个对话框，您可以在其中更改客户端版本配置的选项。</span><span class="sxs-lookup"><span data-stu-id="f627e-118">**Show details** This option opens a dialog box in which you can change the options for a client version configuration.</span></span>
+  - <span data-ttu-id="06576-118">**显示详细信息**此选项可打开一个对话框，您可以在其中更改客户端版本配置的选项。</span><span class="sxs-lookup"><span data-stu-id="06576-118">**Show details** This option opens a dialog box in which you can change the options for a client version configuration.</span></span>
 
-  - <span data-ttu-id="f627e-119">**选择全部**此选项可选择列表中所有客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-119">**Select All** This option selects all client version configurations in the list.</span></span>
+  - <span data-ttu-id="06576-119">**选择全部**此选项可选择列表中所有客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-119">**Select All** This option selects all client version configurations in the list.</span></span>
 
-  - <span data-ttu-id="f627e-120">**删除**此选项可删除所有选定的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="f627e-120">**Delete** This option deletes all selected client version configurations.</span></span>
+  - <span data-ttu-id="06576-120">**删除**此选项可删除所有选定的客户端版本配置。</span><span class="sxs-lookup"><span data-stu-id="06576-120">**Delete** This option deletes all selected client version configurations.</span></span>
 
-- <span data-ttu-id="f627e-121">**刷新**您可以刷新客户端版本配置列表以验证所有客户端版本配置的选项状态。</span><span class="sxs-lookup"><span data-stu-id="f627e-121">**Refresh** You can refresh the client version configuration list to verify the status of the options of all client version configurations.</span></span>
+- <span data-ttu-id="06576-121">**刷新**您可以刷新客户端版本配置列表以验证所有客户端版本配置的选项状态。</span><span class="sxs-lookup"><span data-stu-id="06576-121">**Refresh** You can refresh the client version configuration list to verify the status of the options of all client version configurations.</span></span>
 
-<span data-ttu-id="f627e-p104">有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)。</span><span class="sxs-lookup"><span data-stu-id="f627e-p104">For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation. For details about working with client version configurations, see [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="06576-p104">有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)。</span><span class="sxs-lookup"><span data-stu-id="06576-p104">For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation. For details about working with client version configurations, see [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.</span></span>
 

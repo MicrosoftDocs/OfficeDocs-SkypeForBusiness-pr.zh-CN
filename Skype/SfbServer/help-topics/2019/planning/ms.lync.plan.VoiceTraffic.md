@@ -15,14 +15,14 @@ ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 规划工具使用有关用户流量的端口数确定的信息来部署中使用。 此号码反过来确定中介服务器和需要的网关的数量。 有关详细信息，请参阅估算语音的使用和流量 for Skype 业务服务器。
 ms.openlocfilehash: 836ce70dff6f6568ec0d3511131daf7b438eab88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202350"
 ---
-# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="010e0-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="010e0-105">Voice Traffic (Planning Tool)</span></span>
+# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="f1367-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="f1367-105">Voice Traffic (Planning Tool)</span></span>
  
-<span data-ttu-id="010e0-106">规划工具使用有关用户流量的端口数确定的信息来部署中使用。</span><span class="sxs-lookup"><span data-stu-id="010e0-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="010e0-107">此号码反过来确定中介服务器和需要的网关的数量。</span><span class="sxs-lookup"><span data-stu-id="010e0-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="010e0-108">有关详细信息，请参阅[估算语音用法和 Skype 业务服务器的流量](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="010e0-108">For details, see [Estimating voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
+<span data-ttu-id="f1367-106">规划工具使用有关用户流量的端口数确定的信息来部署中使用。</span><span class="sxs-lookup"><span data-stu-id="f1367-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="f1367-107">此号码反过来确定中介服务器和需要的网关的数量。</span><span class="sxs-lookup"><span data-stu-id="f1367-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="f1367-108">有关详细信息，请参阅[估算语音用法和 Skype 业务服务器的流量](../../../plan-your-deployment/capacity/estimating-voice-traffic.md)。</span><span class="sxs-lookup"><span data-stu-id="f1367-108">For details, see [Estimating voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
   
 

@@ -11,65 +11,65 @@ localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要： 了解如何为业务服务器在 Skype 测试电话拨入式会议。
 ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197770"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="c823a-103">测试电话拨入式会议中的业务服务器 Skype</span><span class="sxs-lookup"><span data-stu-id="c823a-103">Test dial-in conferencing in Skype for Business Server</span></span>
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="1aa65-103">测试电话拨入式会议中的业务服务器 Skype</span><span class="sxs-lookup"><span data-stu-id="1aa65-103">Test dial-in conferencing in Skype for Business Server</span></span>
  
-<span data-ttu-id="c823a-104">**摘要：** 了解如何为业务服务器在 Skype 测试电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="c823a-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
+<span data-ttu-id="1aa65-104">**摘要：** 了解如何为业务服务器在 Skype 测试电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="1aa65-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
   
-<span data-ttu-id="c823a-105">最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。</span><span class="sxs-lookup"><span data-stu-id="c823a-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="c823a-106">你还应验证电话拨入式会议设置网页和拨入访问号码是否可以正常使用。</span><span class="sxs-lookup"><span data-stu-id="c823a-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
+<span data-ttu-id="1aa65-105">最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。</span><span class="sxs-lookup"><span data-stu-id="1aa65-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="1aa65-106">你还应验证电话拨入式会议设置网页和拨入访问号码是否可以正常使用。</span><span class="sxs-lookup"><span data-stu-id="1aa65-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
   
-## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="c823a-107">查找具有尚未被访问号码使用的电话拨入式会议区域的拨号计划</span><span class="sxs-lookup"><span data-stu-id="c823a-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
+## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="1aa65-107">查找具有尚未被访问号码使用的电话拨入式会议区域的拨号计划</span><span class="sxs-lookup"><span data-stu-id="1aa65-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
 
-1. <span data-ttu-id="c823a-108">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="c823a-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="1aa65-108">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="1aa65-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="c823a-109">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c823a-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="1aa65-109">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1aa65-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="c823a-110">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="c823a-110">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="1aa65-110">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="1aa65-110">Run the following at the command prompt:</span></span>
     
    ```
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
-    <span data-ttu-id="c823a-111">此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。</span><span class="sxs-lookup"><span data-stu-id="c823a-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
+    <span data-ttu-id="1aa65-111">此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。</span><span class="sxs-lookup"><span data-stu-id="1aa65-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
     
-<span data-ttu-id="c823a-112">有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="c823a-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="1aa65-112">有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="1aa65-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="c823a-113">查找未分配区域的访问号码</span><span class="sxs-lookup"><span data-stu-id="c823a-113">Find access numbers without assigned regions</span></span>
+## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="1aa65-113">查找未分配区域的访问号码</span><span class="sxs-lookup"><span data-stu-id="1aa65-113">Find access numbers without assigned regions</span></span>
 
-1. <span data-ttu-id="c823a-114">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="c823a-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="1aa65-114">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="1aa65-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="c823a-115">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c823a-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="1aa65-115">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1aa65-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="c823a-116">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="c823a-116">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="1aa65-116">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="1aa65-116">Run the following at the command prompt:</span></span>
     
    ```
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
-    <span data-ttu-id="c823a-117">此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。</span><span class="sxs-lookup"><span data-stu-id="c823a-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
+    <span data-ttu-id="1aa65-117">此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。</span><span class="sxs-lookup"><span data-stu-id="1aa65-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
     
-<span data-ttu-id="c823a-118">有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="c823a-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="1aa65-118">有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="1aa65-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="c823a-119">测试网页和访问号码</span><span class="sxs-lookup"><span data-stu-id="c823a-119">Test webpage and access numbers</span></span>
+## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="1aa65-119">测试网页和访问号码</span><span class="sxs-lookup"><span data-stu-id="1aa65-119">Test webpage and access numbers</span></span>
 
-<span data-ttu-id="c823a-120">要验证“电话拨入式会议设置”网页和拨入访问号码是否工作正常，您需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="c823a-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
+<span data-ttu-id="1aa65-120">要验证“电话拨入式会议设置”网页和拨入访问号码是否工作正常，您需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="1aa65-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
   
-- <span data-ttu-id="c823a-121">通过登录简单 URL 来测试“电话拨入式会议设置”网页。</span><span class="sxs-lookup"><span data-stu-id="c823a-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
+- <span data-ttu-id="1aa65-121">通过登录简单 URL 来测试“电话拨入式会议设置”网页。</span><span class="sxs-lookup"><span data-stu-id="1aa65-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
     
-- <span data-ttu-id="c823a-p102">通过运行本主题后面的脚本来测试该访问号码在特定池中是否工作正常。此脚本模拟对访问号码的呼叫。要使用此脚本，需要提供该特定池承载的一个统一通信 (UC) 客户端的 SIP 地址和凭据。</span><span class="sxs-lookup"><span data-stu-id="c823a-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
+- <span data-ttu-id="1aa65-p102">通过运行本主题后面的脚本来测试该访问号码在特定池中是否工作正常。此脚本模拟对访问号码的呼叫。要使用此脚本，需要提供该特定池承载的一个统一通信 (UC) 客户端的 SIP 地址和凭据。</span><span class="sxs-lookup"><span data-stu-id="1aa65-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
     
-### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="c823a-125">测试特定池的访问号码</span><span class="sxs-lookup"><span data-stu-id="c823a-125">To test access numbers for a specific pool</span></span>
+### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="1aa65-125">测试特定池的访问号码</span><span class="sxs-lookup"><span data-stu-id="1aa65-125">To test access numbers for a specific pool</span></span>
 
-1. <span data-ttu-id="c823a-126">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="c823a-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="1aa65-126">以  RTCUniversalServerAdmins  组成员或者  Cs-ServerAdministrator  或  CsAdministrator  角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="1aa65-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="c823a-127">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c823a-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="1aa65-127">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1aa65-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="c823a-128">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="c823a-128">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="1aa65-128">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="1aa65-128">Run the following at the command prompt:</span></span>
     
    ```
    $credentials = Get-Credential
@@ -78,8 +78,8 @@ ms.locfileid: "30880915"
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    <span data-ttu-id="c823a-129">得出的报告将显示 Success 或 Failure，以及具体的诊断信息。</span><span class="sxs-lookup"><span data-stu-id="c823a-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="c823a-130">-Verbose 标志提供更多详细信息多少访问找到编号和详细信息。</span><span class="sxs-lookup"><span data-stu-id="c823a-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
+    <span data-ttu-id="1aa65-129">得出的报告将显示 Success 或 Failure，以及具体的诊断信息。</span><span class="sxs-lookup"><span data-stu-id="1aa65-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="1aa65-130">-Verbose 标志提供更多详细信息多少访问找到编号和详细信息。</span><span class="sxs-lookup"><span data-stu-id="1aa65-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
     
-<span data-ttu-id="c823a-131">有关详细信息，请参阅[Test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="c823a-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
+<span data-ttu-id="1aa65-131">有关详细信息，请参阅[Test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="1aa65-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
   
 
