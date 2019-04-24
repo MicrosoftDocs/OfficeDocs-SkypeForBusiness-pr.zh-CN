@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。
 ms.openlocfilehash: 86a731c07f3c7289e5eabcd74bb3ccf37ec4df9d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214720"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>创建新的集合中继配置设置中 Skype 业务服务器
 

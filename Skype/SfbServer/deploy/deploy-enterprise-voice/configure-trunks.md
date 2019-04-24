@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 摘要： 了解如何在 Skype for Business Server 中配置中介服务器与企业语音的对等方之间的中继。
 ms.openlocfilehash: c47d1ff06fe695be939758c8444dac246c555de9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223555"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>在 Skype for Business Server 中配置中继
  

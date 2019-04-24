@@ -14,11 +14,11 @@ ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
 ms.openlocfilehash: 3ea10d8368eb64d45badee9ef1722292a203b738
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201961"
 ---
 # <a name="add-video-gateway-fqdn"></a>添加视频网关 FQDN
  

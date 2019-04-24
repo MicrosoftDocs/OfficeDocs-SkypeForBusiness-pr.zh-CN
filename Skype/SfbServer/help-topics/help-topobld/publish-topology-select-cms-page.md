@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: 发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。
 ms.openlocfilehash: a2f37afe8b654562a98255be42b621b1290bbb67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219210"
 ---
 # <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页面
 

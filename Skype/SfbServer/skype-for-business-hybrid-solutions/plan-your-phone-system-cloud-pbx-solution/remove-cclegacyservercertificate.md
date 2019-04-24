@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: 在执行 Renew-CcCACertificate 或 Renew CcServerCertificate cmdlet 后，执行 Remove-CcLegacyServerCertificate cmdlet 可删除中央管理存储、中介服务器和边缘服务器上的旧服务器证书。
 ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250883"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  

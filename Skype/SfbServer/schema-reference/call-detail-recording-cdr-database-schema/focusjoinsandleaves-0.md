@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves 视图存储信息加入和离开一个会议信息。 每个会议加入和离开会议的用户每次写入 record 所表示此视图中。 此视图是在 Microsoft Lync Server 2013 中引入的。
 ms.openlocfilehash: 4fa6a2ec043c5f9746a14d5214be9ad531159cd7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213674"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves 视图
  

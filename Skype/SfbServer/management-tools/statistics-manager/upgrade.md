@@ -1,5 +1,5 @@
 ---
-title: 更新 Skype for Business Server 的统计信息管理器
+title: 更新 Skype for Business Server 统计信息管理器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要： 阅读本主题可了解如何针对 Business Server 升级的 Skype 的统计信息管理器。
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198452"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 的统计信息管理器
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 统计信息管理器
  
 **摘要：** 阅读本主题可了解如何升级统计信息管理器的 Skype 业务服务器。
   
-本主题介绍如何将现有的安装的统计信息管理器的 Skype 升级业务 server — 使用户可以对业务服务器运行状况和性能数据实时查看 Skype 的强大工具。 可以跨服务器数百每隔几秒钟轮询性能数据，并立即统计信息管理器网站上查看结果。 
+本主题介绍如何将现有的安装的统计信息管理器的 Skype 升级业务 server — 使用户可以对业务服务器运行状况和性能数据实时查看 Skype 的强大工具。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。 
   
 有关统计信息管理器和版本 2.0 中的新功能的详细信息，请参阅[规划用于统计信息管理器中的业务服务器 Skype](plan.md)和[Skype 业务服务器的部署统计信息管理器](deploy.md)。
   
@@ -105,9 +105,9 @@ ms.locfileid: "30897127"
 ## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_Fixed"> </a>
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅：
   
-- [Skype for Business Server 的统计信息管理器规划](plan.md)
+- [Skype for Business Server 统计信息管理器规划](plan.md)
     
 - [部署 Skype for Business Server 的统计信息管理器](deploy.md)
     

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 description: 您可以使用混合可管理性向导执行一些设置业务 Online 的混合部署与 Skype 所必需的配置任务。 有关如何配置混合部署的详细信息，请参阅配置您的环境混合可管理性向导。
 ms.openlocfilehash: eeaca5570141d091a13569ff0c6c304f6c769e95
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200747"
 ---
 # <a name="hybrid-manageability-wizard"></a>混合可管理性向导
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 摘要： 了解如何监视业务 Server 的 Skype 中的报告。
 ms.openlocfilehash: 11eb398d45102cb73fa02e61f63e0eda56e70200
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199675"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>使用监控报告中 Skype 业务服务器 
  

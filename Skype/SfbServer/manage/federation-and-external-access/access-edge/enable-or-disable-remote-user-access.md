@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果您启用远程用户的远程用户访问，支持远程用户通过 Internet 连接，且不具有才能与内部用户使用 Skype 业务服务器的协作使用 VPN 进行连接。
 ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199925"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>启用或禁用远程用户访问在 Skype 业务服务器
 

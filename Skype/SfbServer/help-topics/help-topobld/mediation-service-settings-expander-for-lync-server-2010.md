@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 通过定义以下属性编辑中介服务的属性：
 ms.openlocfilehash: ea886bc22725103745f9bbb7c97dc6a41081e2ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200014"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的中介服务设置扩展器
  

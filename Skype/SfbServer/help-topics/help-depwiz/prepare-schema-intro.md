@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 description: 若要启动任务以扩展架构的 Skype 的业务服务器 2015年，开始在准备架构页上。 单击“下一步”继续执行架构准备。
 ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234930"
 ---
 # <a name="prepare-schema-intro"></a>准备架构（简介）
  

@@ -14,11 +14,11 @@ ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要指定新、 删除现有或更改活动的简单 Url，请执行以下操作：
 ms.openlocfilehash: 4bfa9f558f355358bcdf956dddb4e2e7f3f9b796
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201536"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 

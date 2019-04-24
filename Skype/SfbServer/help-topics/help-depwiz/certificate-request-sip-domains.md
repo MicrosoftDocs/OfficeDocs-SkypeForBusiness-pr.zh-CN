@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: 如果基础结构和部署满足列出的条件，则应在“使用者替代名称(SAN)的 SIP 域设置”页上，选中主会话初始协议 (SIP) 域和其他任何 SIP 域对应的复选框。
 ms.openlocfilehash: b54ef02199700309f21ff792fa3754bbaccc3abf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201381"
 ---
 # <a name="certificate-request-sip-domains"></a>证书请求（SIP 域）
  

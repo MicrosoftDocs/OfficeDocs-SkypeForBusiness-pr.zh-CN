@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d6faef8b-ff3c-4434-9613-496899b02a1c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 38ef17fb78c3d5d0e1e9985941fc8001b297cc8c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9cb27e954f7baead8df396f2301b1a7a523df6d3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204212"
 ---
 # <a name="toll-free-dialing-restrictions-in-singapore"></a>新加坡的免费拨号限制
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: “文件存储”节点列出了拓扑中的文件存储。 可以执行以下操作：
 ms.openlocfilehash: f86bf9903b99604658d3b11f3f0bff71d3d5daae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194033"
 ---
 # <a name="file-stores-scope-node"></a>文件存储范围节点
  

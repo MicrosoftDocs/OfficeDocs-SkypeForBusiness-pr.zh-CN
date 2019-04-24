@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: 使用未提交的语音配置设置对话框中查看所有所做的更改。 滚动对话框可查看所有未提交的更改，或单击箭头以展开或折叠不同的部分。 完成后，单击关闭。 关闭此对话框后，您可以修改所做的更改，或提交它们。
 ms.openlocfilehash: e7acfdb6dc73998713c02dacf75c9fadce274ae7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220026"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>未提交的语音配置设置：审查
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 摘要： 了解有关呼叫详细记录 (CDR) 记录在 Skype 用于业务服务器。
 ms.openlocfilehash: 11631acc14c47dfb10d33fa761bf6362d00ca049
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199769"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>呼叫详细信息记录 (CDR) 中 Skype 业务服务器
  

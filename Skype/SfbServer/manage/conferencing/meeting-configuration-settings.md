@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 摘要： 了解如何管理会议中 Skype 业务服务器的配置设置。
 ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197974"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会议中 Skype 业务服务器的配置设置
  

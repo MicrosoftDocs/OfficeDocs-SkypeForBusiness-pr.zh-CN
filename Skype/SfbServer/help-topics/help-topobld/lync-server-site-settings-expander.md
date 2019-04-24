@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 若要编辑现有站点的属性，请执行以下操作：
 ms.openlocfilehash: 0c6caf08060a94836d0c14169e550634c26e7dc9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200121"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 站点设置扩展器
 

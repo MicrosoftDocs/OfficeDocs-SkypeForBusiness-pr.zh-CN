@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要： 了解如何管理会议加入和离开通知中 Skype 业务服务器。
 ms.openlocfilehash: 7311850f2504b84a862f809b17077b15ec022bf1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197981"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开通知中 Skype 业务服务器
  

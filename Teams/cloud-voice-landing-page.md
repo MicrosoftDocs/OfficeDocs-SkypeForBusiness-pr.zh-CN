@@ -16,11 +16,11 @@ description: 部署团队中的云语音登陆页面
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198368"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 

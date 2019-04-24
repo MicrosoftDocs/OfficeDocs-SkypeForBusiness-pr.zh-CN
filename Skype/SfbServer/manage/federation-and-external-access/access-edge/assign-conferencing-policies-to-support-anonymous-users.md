@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以控制可以通过配置会议策略以支持匿名用户，并将该会议策略应用于特定用户邀请匿名用户。
 ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197721"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>分配会议策略以支持匿名用户在 Skype 业务服务器 
 

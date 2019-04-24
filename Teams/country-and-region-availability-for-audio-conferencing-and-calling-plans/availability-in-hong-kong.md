@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 适用 （香港特别行政区）。
 ms.openlocfilehash: d2596bdc923e341c969b588630c5d3d644601a9f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203622"
 ---
 # <a name="availability-in-hong-kong"></a>在中国香港的可用性
 

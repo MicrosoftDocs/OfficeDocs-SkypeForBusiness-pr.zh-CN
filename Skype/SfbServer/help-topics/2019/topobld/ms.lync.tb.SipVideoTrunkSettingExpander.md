@@ -14,11 +14,11 @@ ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
 ms.openlocfilehash: 01b394a9bd8e3ba304e67b762e81750bddd3af1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201550"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>SIP 视频中继设置扩展器
  

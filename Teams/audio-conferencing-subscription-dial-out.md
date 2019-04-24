@@ -1,5 +1,5 @@
 ---
-title: 音频会议订阅"拨出"/"呼叫我 At"优点
+title: 音频会议订阅“拨出”/“给我打电话”的好处
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: '客户提供了将在 2019 年 11 月 30，结束的互补拨出功能。  每个音频会议订阅开始 2019，年 12 月 1，提供每个用户每月到任何本文档中所述的区域的国家/地区的 60 分钟。 '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198613"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>音频会议订阅"拨出"/"呼叫我 At"优点
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>音频会议订阅“拨出”/“给我打电话”的好处
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft 团队和 Skype 业务 PSTN 音频会议
 

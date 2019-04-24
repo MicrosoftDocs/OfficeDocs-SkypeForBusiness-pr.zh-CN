@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194536"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实现服务质量 (QoS)
 
@@ -47,7 +47,7 @@ _图 1。组织的网络和 Office 365 服务之间的关系_
 
 ## <a name="verify-your-network-is-ready"></a>验证您的网络准备好
 
-如果您正在考虑 QoS 实现，您应已确定您的带宽要求和其他[网络要求](prepare-network.md)。 Microsoft Teams 的带宽计算很复杂，因此为了帮助进行此计算，创建了一个计算器。 若要访问计算器，转到[网络规划人员](https://aka.ms/bwcalc/)MyAdvisor 中。
+如果您正在考虑 QoS 实现，您应已确定您的带宽要求和其他[网络要求](prepare-network.md)。 Microsoft 团队的带宽计算很复杂，为了与此，具有创建一个计算器。 若要访问计算器，转到[网络规划人员](https://aka.ms/bwcalc/)MyAdvisor 中。
   
   通过网络流量拥塞将会显著影响媒体质量。 带宽不足导致性能下降和很差的用户体验。 随着团队应用和使用情况，使用报告功能，[呼叫分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)以确定问题，然后进行使用 QoS 和选择性带宽的新增功能的调整。
 

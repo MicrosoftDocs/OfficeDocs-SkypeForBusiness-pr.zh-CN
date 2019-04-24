@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各节介绍如何启用、 暂时禁用或删除业务服务器从 Skype Active Directory 用户。
 ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214678"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户帐户的 Skype 业务服务器
 

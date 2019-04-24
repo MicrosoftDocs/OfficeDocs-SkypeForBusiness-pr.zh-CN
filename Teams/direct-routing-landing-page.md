@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接路由登陆页面
 appliesto: Microsoft Teams
-ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8f2e213b1e77217640f66e050f470b66f9750ef0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198089"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 

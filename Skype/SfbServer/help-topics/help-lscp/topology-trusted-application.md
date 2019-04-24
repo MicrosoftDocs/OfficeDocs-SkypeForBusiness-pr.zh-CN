@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200455"
 ---
 # <a name="topology-trusted-application"></a>拓扑：受信任应用程序
 

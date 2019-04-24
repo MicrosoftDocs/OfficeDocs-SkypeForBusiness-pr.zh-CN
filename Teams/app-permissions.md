@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211105"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 

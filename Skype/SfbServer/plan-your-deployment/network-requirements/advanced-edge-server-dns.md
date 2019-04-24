@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要： 查看的 Skype 方案的业务服务器部署选项。 是否希望一台服务器或首选 DNS 或 HLB 的服务器池，应帮助本主题。
 ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206315"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器的 DNS 规划 Skype 业务服务器
  

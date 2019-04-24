@@ -14,11 +14,11 @@ ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 2fa8fd543dcf7dcff74b6f506844df236133092b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215659"
 ---
 # <a name="external-access-policy"></a>外部访问策略
 

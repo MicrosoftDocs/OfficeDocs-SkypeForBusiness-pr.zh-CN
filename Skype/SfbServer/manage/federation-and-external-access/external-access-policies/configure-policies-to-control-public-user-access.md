@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ublic 即时消息 (IM) 连接，您的组织中的用户，可以使用 IM 与 IM 服务提供的公共 IM 服务提供商的用户进行通信。
 ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197609"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>配置策略以控制公共用户访问中 Skype 业务服务器
 

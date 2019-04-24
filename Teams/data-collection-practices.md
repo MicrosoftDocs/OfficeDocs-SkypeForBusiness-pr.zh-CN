@@ -23,11 +23,11 @@ ms.custom:
 hideEdit: true
 description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
 ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218047"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
 
@@ -45,7 +45,7 @@ Skype 业务服务器和 Skype 的业务联机状态，以及对于业务和 Mic
 
 获取统计数据只是为了提供、 支持，以及改进业务的 Skype。 Microsoft 团队和 Skype for Business 联机。 它包括环境的信息，如设备和操作系统版本和区域和语言设置。 它还包括尝试登录时和失败的计数器。 下面是一些特定收集的统计数据的示例：
 
-|**数据类型**|**示例**|**备注**|
+|**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
 |应用程序名称  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
@@ -65,7 +65,7 @@ Skype 业务服务器和 Skype 的业务联机状态，以及对于业务和 Mic
 
 使用率数据可能包含标识您的组织，例如，contoso.com 的信息。 下面是一些特定收集使用率数据的示例：
 
-|**数据类型**|**示例**|**备注**|
+|**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
 |发送的 IM  <br/> |12  <br/> ||
 |接收 IM  <br/> |5  <br/> ||
@@ -90,7 +90,7 @@ Skype 会议应用程序和联接启动器网页，控制遥测的方法是通�
 
 错误报告数据可以包括有关性能和可靠性、 设备配置、 网络连接质量，错误代码、 错误日志和异常的信息。 下面是一些特定错误报告收集的数据的示例：
 
-|**数据类型**|**示例**|**备注**|
+|**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
 |消息方向  <br/> |传入  <br/> ||
 |会话状态  <br/> |空闲时间  <br/> ||

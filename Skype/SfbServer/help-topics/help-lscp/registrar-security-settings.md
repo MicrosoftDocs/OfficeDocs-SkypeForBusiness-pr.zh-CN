@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: 3af65a039f352d4987f865e96eeed37144881347
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200602"
 ---
 # <a name="registrar-security-settings"></a>注册器安全设置
 

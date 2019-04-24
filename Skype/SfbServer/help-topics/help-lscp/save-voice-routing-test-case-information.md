@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
 ms.openlocfilehash: 3ec9ed0a878f6d6482d2756d929221eb26dccb92
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220240"
 ---
 # <a name="save-voice-routing-test-case-information"></a>保存语音路由测试案例信息
  

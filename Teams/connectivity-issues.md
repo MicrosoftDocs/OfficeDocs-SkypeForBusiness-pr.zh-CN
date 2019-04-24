@@ -15,11 +15,11 @@ description: 解决连接问题使用的 Microsoft 团队的客户端，主要�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194675"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================

@@ -14,11 +14,11 @@ ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: c588c76c9e84a8f384c404de5aaee6640b21f063
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215778"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>拨入访问号码：创建新的或编辑现有的
 

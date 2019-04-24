@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 摘要： 了解如何为业务服务器在 Skype 中查看会议策略。
 ms.openlocfilehash: 034de4e8d1a5d1a4a89589d3f6361d22e5a783be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197868"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>查看会议策略中的业务服务器 Skype
  

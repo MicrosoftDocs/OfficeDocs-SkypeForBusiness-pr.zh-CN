@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
 ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199580"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -32,8 +32,8 @@ ms.locfileid: "30340417"
 |:--- |:--- |:--- |
 |累积更新 8 Skype 业务服务器 2015年、 前端服务器和边缘服务器|[KB 4464355](https://support.microsoft.com/kb/4464355)|年 1 月 2019|
 |累积更新 7 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
-|累积更新 6 修补 2 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
-|累积更新 6 修补程序 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
+|累积更新 6 修补 2 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |年 3 月 2018 |
+|累积更新 6 修补程序 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 4074701](https://support.microsoft.com/kb/4074701)|年 1 月 2018 |
 |累积更新 6 Skype 的业务服务器 2015，前端服务器和边缘服务器|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
 |累积更新 5 的 Skype 业务服务器 2015，前端服务器和边缘服务器  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
 |累积更新 4 修补程序 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
@@ -42,7 +42,7 @@ ms.locfileid: "30340417"
 |累积更新 2 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
 |累积更新 1 的 Skype 业务服务器 2015，前端服务器和边缘服务器 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
 |Skype for Business Server 2015 核心组件的累积更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |6 月 2015 日 |
+|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |6 月 2015 |
 ||||
 
 * * *
@@ -65,7 +65,7 @@ ms.locfileid: "30340417"
 |Lync Server 2013 累积更新 6 修补 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
 |Lync Server 2013 累积更新 6 修补 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|2015 年 12 月 |
 |Lync Server 2013 累积更新 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
-|Lync Server 2013 累积更新 5 修补 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015 年 7 月 |
+|Lync Server 2013 累积更新 5 修补 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|年 7 月 2015 |
 |Lync Server 2013 累积更新 5 修补 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
 |Lync Server 2013 累积更新 5 修补 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
 |Lync Server 2013 累积更新 5 修补 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
@@ -228,4 +228,4 @@ ms.locfileid: "30340417"
 
 - [安装 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [升级到 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-- [使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新](sfb-client-updates.md)
+- [使用 Windows Installer (MSI) 的版本的 Skype for Business 的最新更新](sfb-client-updates.md)

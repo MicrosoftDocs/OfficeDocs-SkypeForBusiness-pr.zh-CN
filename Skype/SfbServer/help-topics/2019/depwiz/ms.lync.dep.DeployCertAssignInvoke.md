@@ -14,11 +14,11 @@ ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正在执行命令页上显示的任务分配给服务器的证书所需的操作。 任务完成后，您可以查看的日志的详细信息的证书分配过程。 要查看日志文件，请单击“查看日志”。
 ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216506"
 ---
 # <a name="certificate-assignment-invoke"></a>证书分配（调用）
  

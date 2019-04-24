@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 此节点显示拓扑中定义的站点之一。 可以执行以下操作：
 ms.openlocfilehash: 74b031df3e88222c7f23e1c3a8b43a67ba6dc669
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219034"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server 站点范围节点
  

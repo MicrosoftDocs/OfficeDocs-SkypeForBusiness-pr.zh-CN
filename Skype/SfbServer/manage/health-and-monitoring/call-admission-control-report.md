@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 摘要： 了解用于在 Skype 业务服务器的呼叫允许控制报告。
 ms.openlocfilehash: 88d1db546e488452d73e7a5e39dcba990402a210
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197602"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫允许控制报告
  

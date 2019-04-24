@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 摘要： 在 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 配置使用高分辨率照片。
 ms.openlocfilehash: 56fef2cfa8c62a66698c2232c9273cdb5604b5b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216667"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在 Skype for Business Server 中配置使用高分辨率照片
  

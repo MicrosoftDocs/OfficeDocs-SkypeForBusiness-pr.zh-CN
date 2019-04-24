@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '如果您的组织中部署 for Business 的 Skype，您可以与联盟的域的一个或多个 Skype 业务联机客户。 '
 ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199868"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>为业务服务器 Skype 中配置业务联机客户的 Skype 联合身份验证的支持 
 

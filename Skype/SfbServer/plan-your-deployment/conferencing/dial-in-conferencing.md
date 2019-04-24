@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 电话拨入式会议。
 ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214398"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>规划电话拨入式会议中 Skype 业务服务器
  

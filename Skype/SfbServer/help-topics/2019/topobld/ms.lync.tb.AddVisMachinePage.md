@@ -14,11 +14,11 @@ ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
 ms.openlocfilehash: b77dc6109bba1a4092f2569525d98b0533641291
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201911"
 ---
 # <a name="add-vis-machine"></a>添加 VIS 计算机
  

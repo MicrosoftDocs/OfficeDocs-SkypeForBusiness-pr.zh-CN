@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 摘要： 了解 Mobility Service (Mcx) 和统一的通信 Web API (UCWA) 中 Skype 业务服务器。
 ms.openlocfilehash: 476d03fa17cad163fa9426ca35853cfe29f87bb1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199726"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动性的 Skype 业务服务器的性能
  

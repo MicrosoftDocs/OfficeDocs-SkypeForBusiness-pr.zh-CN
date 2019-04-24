@@ -14,11 +14,11 @@ ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
 description: 地理信息页上请求证书请求的其他信息。 在此页上，选择国家/地区，然后您类型州/省和市/县在文本框中。 请注意，您不应使用缩写应当清楚完整的省/市/自治区和市/县的名称。
 ms.openlocfilehash: bfb19bbeea3004094443fc7f2e3ffe3733353e61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216373"
 ---
 # <a name="certificate-request-geography"></a>证书请求（地理位置）
  

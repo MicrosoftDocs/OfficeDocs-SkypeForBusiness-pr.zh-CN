@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227043"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
@@ -39,7 +39,7 @@ ms.locfileid: "30462129"
 
 使用 Office 365 组件收集您的项目的反馈。
   
-![决策点图标。](media/teams-adoption-decision-icon.png) 决策： 如果您的组织已经具有 Yammer 网络中的某项投资，您可以将其用作反馈论坛早期使用程序。 如果没有，和早期使用程序具有小于 2500年成员、 收集反馈和提供培训团队在创建工作组。
+![决策点图标。](media/teams-adoption-decision-icon.png) 决策： 如果您的组织已经具有 Yammer 网络中的某项投资，您可以将其用作反馈论坛早期使用程序。 如果没有，和早期使用程序具有小于 5000 个成员，在工作组收集反馈和提供培训中创建一个团队。
   
 > [!Note]
 > 某些组织将组合早期使用反馈的通道，为团队协作拥护者程序团队。 这是一个好方法，因为许多前期应用可能成为拥护者将来，并且它将生成更强的社区。 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 摘要： 了解有关呼叫质量仪表板，它是用于业务服务器 Skype 的报告工具。
 ms.openlocfilehash: 93830e6d0d746e44187241d9c300e4b5bd8ab3f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195477"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server 的呼叫质量仪表板
  

@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 支持的联合身份验证，则需要启用具有与受信任客户或合作伙伴组织，包括伙伴域和公共即时消息 (IM) 提供程序用户的支持，与中的用户进行协作的用户帐户的用户您组织。
 ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199932"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>启用或禁用联盟和公共 IM 连接中 Skype 业务服务器
 

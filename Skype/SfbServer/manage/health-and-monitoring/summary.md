@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要： 了解媒体质量摘要报告中 Skype 业务服务器。
 ms.openlocfilehash: dfe59d4c115f8396625979cf7c7dc88ac4f52ee5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197896"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>媒体质量摘要报告中 Skype 业务服务器
  

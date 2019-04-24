@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
 ms.openlocfilehash: bc26fc64f4b95c1a469908251781c4951c7d0a84
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211797"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
@@ -89,7 +89,7 @@ ms.locfileid: "30542101"
     Start-CsExMeetingMigration user@contoso.com
 ```
 
-- 你还可以查看会议迁移状态。一旦没有处于 *待处理*  或 *进行中*  状态的操作时，将会重新安排会议。
+- 你还可以查看会议迁移状态。 一旦没有处于 *待处理*  或 *进行中*  状态的操作时，将会重新安排会议。
 
 ```
     Get-CsMeetingMigrationStatus -SummaryOnly
@@ -218,7 +218,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     > [!NOTE]
     > [!注释] 上面使用的位置信息需要与 Office 365 管理中心中设置的用户联系信息匹配。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 **取消分配按钮是灰出**
 

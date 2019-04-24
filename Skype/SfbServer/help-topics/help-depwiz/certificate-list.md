@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: 若要分配证书，请从本地证书存储中选择证书。 单击“下一步”继续。
 ms.openlocfilehash: 3b8f18c84bbd0b7efba201430255f057556268cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235155"
 ---
 # <a name="certificate-list"></a>证书列表
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。
 ms.openlocfilehash: d00d43ab50060990341a2071ea68126ebc445a21
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200581"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 

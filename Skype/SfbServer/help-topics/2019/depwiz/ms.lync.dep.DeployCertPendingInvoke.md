@@ -14,11 +14,11 @@ ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正在执行命令页上显示要检索的待处理的证书的命令的状态。 完成任务后，检索待处理证书日志文件位于。 单击查看日志，若要查看的处理和任务完成状态。 单击下一步。
 ms.openlocfilehash: f9c22f5a427c289ebae2509ea56c6f1f2f2a7edc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216457"
 ---
 # <a name="pending-certificate-invoke"></a>待处理的证书（调用）
  

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: caec680997f4fd44582dbb19b90e5c56d2b9c5b7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218572"
 ---
 # <a name="upgrade-pro"></a>升级专业人员
 
@@ -49,11 +49,11 @@ ms.locfileid: "30464097"
 |---|---|---|---|
 |**1** |**定义利益干系人** |请考虑您的项目的范围，并确定利益相关者跨技术的准备情况和用户准备情况驱动器责任和成功。 |[登记利益干系人](upgrade-enlist-stakeholders.md) |
 |**2** |**展望项目** |您远景是"big picture"或回答问题，"为什么我们做此项目？"的最终最终状态 贵组织的业务驱动因素和用户增值视角理想远景地址。 |[项目构想](upgrade-define-project-scope.md#project-vision) |
-|**3** |**定义您的项目范围** |您远景仅可能意识到随时间推移，通过各个阶段。 项目范围此时定义您的项目的焦点，并保存项目团队致力于其当前任务，从而使您实现您长期愿景有帮助。 |[项目范围](upgrade-define-project-scope.md#project-scope) |
+|**3** |**定义项目范围** |您远景仅可能意识到随时间推移，通过各个阶段。 项目范围此时定义您的项目的焦点，并保存项目团队致力于其当前任务，从而使您实现您长期愿景有帮助。 |[项目范围](upgrade-define-project-scope.md#project-scope) |
 |**4** |**定义项目目标** |您的目标定义您希望并使您能够测量成功的项目的结果。 可以定义为关键成功指标 (KSIs) 的项目成功的度量值和目标可以定义为目标和关键结果 (OKRs)。 您从项目利益干系人在定义 OKRs 和 KSIs，以帮助确保他们认为一种所有权以及对齐成功事件记录到定义的项目任务这些措施获取完全参与至关重要。 目标应包括成功的技术和以用户为中心的组合。 |[项目目标](upgrade-define-project-scope.md#project-goals) |
 |**5** |**确定风险和缓解计划** |非常重要主动评估潜在风险，并定义用于克服可能出现的问题，以便您的项目可以继续向您的目标缓解计划。 风险注册是跟踪项目风险极好工具 — 它们是以及如何可能和它们的潜在影响 — 和捕获缓解计划。 下表显示了示例风险注册。 |[风险和缓解](upgrade-define-project-scope.md#risks-and-mitigation) |
 |**6** |**定义时间线** |除了的完成日期外设置 （例如，工作组旁 for Business 的 Skype 启用所有用户或启动的用户的分阶段的升级） 的关键里程碑日程表。 一个定义的日程表，可帮助您向一致的最终状态的项目工作组驱动器，并通知右工作后计划，帮助确保您的项目保持在跟踪。请考虑一个不太加速 （其中任务可能是列表） 的日程表。 |[时间线](upgrade-define-project-scope.md#timeline)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit)|
-|**7** |**定义业务和团队的升级和共存策略合适的 Skype** |为业务客户现有 Skype，完成过渡到团队可能需要一些时间。 但是，您可以开始通过使您的用户可以一起 Skype 团队用于业务如今，实现的小组的价值。 两个应用程序之间没有一些重叠的功能，我们建议您查看可用的共存和升级模式可帮助确定适合您的组织的路径。 为了获得最佳体验，请在广泛部署到所有用户之前试用计划的共存方案。 |[了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)<br><br>[选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)|
+|**7** |**定义业务和团队的升级和共存策略合适的 Skype** |为业务客户现有 Skype，完成过渡到团队可能需要一些时间。 但是，您可以开始通过使您的用户可以一起 Skype 团队用于业务如今，实现的小组的价值。 两个应用程序之间没有一些重叠的功能，我们建议您查看可用的共存和升级模式可帮助确定适合您的组织的路径。 为了获得最佳体验，请在广泛部署到所有用户之前试用计划的共存方案。 |[了解 Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)<br><br>[选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)|
 
 ### <a name="days-8ndash15-evaluate-your-organizations-readiness-for-teams"></a>天 8&ndash;15： 团队评估贵组织的准备情况
 
@@ -62,7 +62,7 @@ ms.locfileid: "30464097"
 |**1** |**评估现有环境来确定风险和要求** |通过评估您的环境，您可以确定风险和将影响整个部署的要求。 通过主动识别这些项，您可以调整进行规划，以帮助确保成功。 |[升级到团队之前评估环境](upgrade-plan-journey-evaluate-environment.md) |
 |**2** |**完成的 Office 365 和团队技术入职培训** |利用现有的入职培训清单，来确定任务和活动完成协作和语音功能与团队技术准备。 |[准备升级到团队的服务](upgrade-prepare-environment-prepare-service.md) |
 |**3** |**优化网络团队，特别是对于实时的媒体方案** |如果您正在部署音频、 视频或会议，可以执行一些额外的步骤，以优化您的网络的功能。 团队使用可以适应音频和视频技术 （编解码器）&mdash;，因此下更好地执行&mdash;最网络条件。 若要确保一致的最佳性能，应该为团队准备您的网络。 |[准备您的网络升级到团队](upgrade-prepare-environment-prepare-network.md) |
-|**4** |**评估组织更改准备情况** |若要实现从团队的价值，用户必须实际使用它。 只需启用团队并不保证您实现您的目标。 用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。 了解用户群，您可以准备的教育以加快并加快用户应用适当的级别。 |[组织更改准备](upgrade-org-change-readiness.md#organizational-change-readiness) |
+|**4** |**评估组织更改是否就绪** |若要实现从团队的价值，用户必须实际使用它。 只需启用团队并不保证您实现您的目标。 用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。 了解用户群，您可以准备的教育以加快并加快用户应用适当的级别。 |[组织更改准备](upgrade-org-change-readiness.md#organizational-change-readiness) |
 |**5** |**准备用于定义如何将通信、 培训和支持用户的用户就绪性计划** |若要确保最佳 receptiveness 到新技术、 培训、 的广泛的消息 （引入远景/值消息和通用用例） 和消息的组合使用和支持定制到角色并已定义的群体和此外为您滞后根据。 此个性化的计划有助于加快用户采用通过使用户可以更快地与团队时演示您了解他们的需求。 这可作为您试点、 板载，和升级到团队。 |[准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit)<br><br>[团队视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[切换到团队从 Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964) |
 |**6** |**宣布挂起的 Microsoft 团队启动** |与包含，您用户早期帮助用户外观减少了混淆情况生成有关 Microsoft 团队，帮助从 for Business 的 Skype 随着时间的推移加速升级兴奋。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 |**7** |**准备您的 IT 员工团队** |您的 Office 365 租户管理员、 技术主管和支持人员负责驱动的高品质用户体验。 这包括确保您的网络已准备好支持团队配置团队为您的用户，并能够有效地排查并解决可能出现的问题。 |[准备您的 IT 人员的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
@@ -97,7 +97,7 @@ ms.locfileid: "30464097"
 |---|---|---|---|
 |**1** |**验证已完成上述的升级前活动** |帮助确保您升级的成功通过确认完成所有规划和准备活动。 |所有上述 |
 |**2** |**启动与您升级的第一个组中的用户的通信** |开始执行前，期间-和后-升级沟通计划提高认知、 期望值，和与前其升级的用户共享团队的好处。 |[准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit)<br><br>[团队视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[切换到团队从 Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964) |
-|**3** |**启用用户升级到第一个组中的共存模式为仅在工作组** |按照适合您的业务环境以执行技术的用户迁移的 Skype 的步骤。 |[从联机业务的 Skype 升级到团队](upgrade-to-teams-execute-skypeforbusinessonline.md)<br><br>[从业务混合部署的 Skype 升级到团队](upgrade-to-teams-execute-skypeforbusinesshybrid.md)<br><br>[从业务在本地部署 Skype 升级到团队](upgrade-to-teams-execute-skypeforbusinessonpremises.md) |
+|**3** |**启用用户升级到第一个组中的共存模式为仅在工作组** |按照适合您的业务环境以执行技术的用户迁移的 Skype 的步骤。 |[从 Skype for Business Online 升级到 Teams](upgrade-to-teams-execute-skypeforbusinessonline.md)<br><br>[从业务混合部署的 Skype 升级到团队](upgrade-to-teams-execute-skypeforbusinesshybrid.md)<br><br>[从业务在本地部署 Skype 升级到团队](upgrade-to-teams-execute-skypeforbusinessonpremises.md) |
 |**4** |**在滚动周期的剩余的升级组重复上述升级活动** |继续驱动器您正在进行的通信计划和升级基于您的计划的用户组。 | |
 |**5** |**将升级后的反馈调查发送给所有用户** |利用反馈调查捕获反馈和洞察力用户。 |[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 

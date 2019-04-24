@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 在 Lync Server 2013 拓扑生成器中，您可以执行与单个通过右键单击控制台树中，运行监控的服务器运行监控服务器相关的任务，在工具栏中，单击操作或单击操作窗格中的任务，然后单击运行监控服务器的以下选项之一：
 ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200036"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  

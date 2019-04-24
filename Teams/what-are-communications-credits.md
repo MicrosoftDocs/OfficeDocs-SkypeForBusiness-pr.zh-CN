@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211766"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -61,7 +61,7 @@ Communications 字幕式是音频会议和调用规划分钟支付的便捷方�
 > [!NOTE]
 > 必须设置 Communications 字幕式，并将**Office 365 管理中心**中的每个用户的通信字幕式许可证 > **用户** > **活动用户**。 
   
-建议您仔细评估贵组织的 PSTN 服务使用情况以了解有关 Communications 字幕式最佳的安装程序。 您可以看到 PSTN 服务的详细信息通过读取[什么是 Office 365 中调用计划？](what-are-calling-plans-in-office-365.md)和[音频会议的常见问题](Audio-Conferencing-common-questions.md)。
+建议您仔细评估贵组织的 PSTN 服务使用情况以了解有关 Communications 字幕式最佳的安装程序。 通过阅读[电话系统和调用计划](calling-plan-landing-page.md)和[音频会议的常见问题](Audio-Conferencing-common-questions.md)，可以看到 PSTN 服务的详细信息。
   
 您可以设置消耗帐单使用**一次性资金**的预付费的平衡**或**设置与将触发购买该充电量的最小余额**自动充电**（**推荐**） 数量。 一开始，建议你设置自动充值金额，以便你监视实际的使用量并找到满足你的需求和使用模式的合适的自动充值阈值。 Communications 字幕式应受到监视随着时间的推移，然后调整的最小的平衡和充电金额，根据需要可以针对每个组织的需求。
   

@@ -14,11 +14,11 @@ ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。
 ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201975"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  

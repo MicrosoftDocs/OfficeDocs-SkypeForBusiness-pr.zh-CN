@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Get-CcExternalCertificateFilePath cmdlet 将返回 Skype for Business 云连接器版本部署的外部证书文件路径。 用户准备此证书。
 ms.openlocfilehash: 997b5d7a39decf11a19c307f4e7a7b439069441f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233783"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  

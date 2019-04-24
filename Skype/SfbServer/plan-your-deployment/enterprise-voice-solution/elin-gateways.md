@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，E9-1-1 部署中的业务 Server 企业语音的 Skype 使用 ELIN 网关。
 ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206934"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关 Skype 中的业务服务器的位置
 

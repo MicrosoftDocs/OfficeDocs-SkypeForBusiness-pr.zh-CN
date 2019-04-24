@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: 视图-移动策略对话框显示所选的移动策略的属性。
 ms.openlocfilehash: 64db762f169b20de757e8759f445a7a1e7152a5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219892"
 ---
 # <a name="users-view-mobility-policy"></a>用户：查看移动策略
 

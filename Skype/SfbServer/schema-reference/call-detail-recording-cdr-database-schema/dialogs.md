@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs 表是一个支持表，用于存储对等会话的 Dialogid 的信息。
 ms.openlocfilehash: af7816c202f995e826567391bf32c5c32a2d0d94
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213653"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Dialogs 表中的业务服务器 2015 Skype
  

@@ -14,11 +14,11 @@ ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: “PSTN 网关”节点列出了拓扑中的公用电话交换网 (PSTN) 网关。 可以执行以下操作：
 ms.openlocfilehash: fe9c9167d13fb869786b68380e115cc0d6c190cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235292"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 网关范围节点
  

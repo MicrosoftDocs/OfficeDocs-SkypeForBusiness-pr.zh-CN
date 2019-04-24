@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于葡萄牙业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: 70b452d41b7ea108ca5223e755fcea1e128185bf
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199103"
 ---
 # <a name="availability-in-portugal"></a>在葡萄牙的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "30543116"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 里斯本</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

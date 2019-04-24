@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: 本文档介绍了基于分配 TeamsUpgrade 模式的聊天、 呼叫路由和团队的用户和业务，在租户和联盟的 Skype 之间的状态的行为。 它包括路由优化、 状态行为，以及从*旧**群岛*到默认 TeamsUpgrade 模式的更改和*旧*即将退休。
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198781"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

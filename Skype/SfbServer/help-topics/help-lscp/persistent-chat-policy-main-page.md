@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 您可以使用“持久聊天”组的“持久聊天策略”页来管理全局级、池级、站点级或用户级的策略，包括为部署配置默认全局策略以及创建一个或多个其他用户和站点策略。 如果用户策略启用了持久聊天服务器，然后持久聊天服务器环境中将显示他们的客户端。
 ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220331"
 ---
 # <a name="persistent-chat-policy-main-page"></a>持久聊天策略主页
  

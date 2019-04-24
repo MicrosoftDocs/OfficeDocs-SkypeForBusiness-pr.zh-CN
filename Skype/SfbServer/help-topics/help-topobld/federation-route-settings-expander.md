@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: 若要设置站点联盟路由分配，首先必须在边缘服务器或边缘服务器池启用联盟。 如果边缘服务器或池上未启用联盟，则站点联盟路由分配设置将不可用进行修改。
 ms.openlocfilehash: f166f74a1d49af168a8ce2a9a193bb9cc49da753
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194026"
 ---
 # <a name="federation-route-settings-expander"></a>联合身份验证路由设置扩展器
  

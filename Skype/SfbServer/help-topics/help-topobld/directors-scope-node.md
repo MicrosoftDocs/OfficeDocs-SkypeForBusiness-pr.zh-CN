@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: “控制器池”节点列出了拓扑中的控制器池。 可以执行以下操作：
 ms.openlocfilehash: c3625bc35e57616783bdea7801c1b56e9715edae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200234"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

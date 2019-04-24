@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 每条记录代表一个视频流。 一个视频媒体行通常包含两个视频流。
 ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212016"
 ---
 # <a name="videostream-table"></a>VideoStream 表
  

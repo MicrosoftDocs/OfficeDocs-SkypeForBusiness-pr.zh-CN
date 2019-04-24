@@ -14,11 +14,11 @@ ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义新文件存储，请指定以下内容：
 ms.openlocfilehash: fbdbc78c5982172d579912682d5476752f849c55
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202067"
 ---
 # <a name="add-file-store"></a>添加文件存储
  

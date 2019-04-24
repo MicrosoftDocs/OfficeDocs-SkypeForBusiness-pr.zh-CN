@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 不能完全删除全局策略。 使用全局策略上的**删除**选项仅将重置全局策略为默认设置，不包括支持外部用户访问的任何选项。
 ms.openlocfilehash: 048d1f1aabd2e188cefa25358068ea6ec150b8f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197623"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Skype 中的外部用户访问的全局策略重置为业务服务器 
 

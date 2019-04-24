@@ -1,5 +1,5 @@
 ---
-title: 在过渡到全新的 Microsoft Teams 管理中心期间管理团队
+title: 在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -20,13 +20,13 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199564"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理团队
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
 
 > [!IMPORTANT]
@@ -60,9 +60,9 @@ ms.locfileid: "30493689"
 |应用|允许的外部应用程序<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|用户|
 |应用|默认应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
 |应用|外部应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
-|呼叫和会议     |允许安排私人会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许专用会议日程安排         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |允许点对点通道 meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许安排频道会议         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|呼叫和会议     |允许通道会议日程安排         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |在会议中允许视频         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |允许在会议中共享的屏幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
 |呼叫和会议     |允许专用的呼叫         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |用户          |
@@ -103,7 +103,7 @@ ms.locfileid: "30493689"
 |外部访问设置     |    X    |      |       |
 |用户管理    |         |         |    X     |    
 |音频会议     |    X     |    X     |         |
-|通话套餐     |         |    X     |         |
+|调用计划     |         |    X     |         |
 |电话系统    |         |     X    |         |
 |电话号码管理     |         |   X      |         |
 |许可使用云语音功能     |         |         |    X     |

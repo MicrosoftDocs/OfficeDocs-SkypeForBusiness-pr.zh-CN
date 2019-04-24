@@ -14,11 +14,11 @@ ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: 设备配置是用于管理业务 Phone Edition 设备，Skype，全局或站点内的设置的集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
 ms.openlocfilehash: 89050d6a2aaeeb94a6884dabc06bb01671809791
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215827"
 ---
 # <a name="device-configuration"></a>设备配置
  

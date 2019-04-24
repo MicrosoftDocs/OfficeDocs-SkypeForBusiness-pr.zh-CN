@@ -14,11 +14,11 @@ ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择文件类型扩展名对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在文件下的扩展旁边的复选框类型扩展。 单击箭头以展开类别并查看所有类别的文件类型扩展名。 如果您想要选择所有类别的文件类型扩展名，选择类别名称。
 ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215568"
 ---
 # <a name="select-file-type-extensions"></a>选择文件类型扩展名
  

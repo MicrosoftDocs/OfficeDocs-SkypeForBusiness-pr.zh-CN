@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: '了解如何为会议厅、 接待区和会议室设置公用区域电话 '
 ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993602"
+ms.locfileid: "32204851"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 

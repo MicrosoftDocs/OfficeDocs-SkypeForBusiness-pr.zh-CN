@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 摘要： 了解如何规划业务服务器中 Skype 统一的语音和通信解决方案的选项。
 ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206910"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>规划企业语音解决方案中 Skype 业务 Server
  

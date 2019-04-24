@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 创建或修改业务 Server 企业语音的呼叫寄存通道范围表 Skype 中。
 ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212528"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>创建或修改呼叫寄存通道范围中的业务的 Skype
 

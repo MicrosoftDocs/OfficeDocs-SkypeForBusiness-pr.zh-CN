@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: Exit-CcUpdate cmdlet 用于在 Skype for Business 云连接器版本主机服务器上退出更新维护模式。
 ms.openlocfilehash: 7ac36e9cbab8e479a4ec7b070b773b3585370e8f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234039"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  

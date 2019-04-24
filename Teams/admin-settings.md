@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203084"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================

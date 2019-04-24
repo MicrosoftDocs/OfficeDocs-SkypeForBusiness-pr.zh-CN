@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204458"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>为 Surface Hub 部署 Microsoft Teams
 ======================================
@@ -78,7 +78,7 @@ ms.locfileid: "30460113"
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2： 配置通过如 Intune MDM 
 
-使用以下配置通过 Intune 的默认呼叫和会议应用程序策略。 另请参阅[Deploy 使用 Intune 的图面集线器应用程序的 Microsoft 团队](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/)的博客。
+使用以下配置通过 Intune 的默认呼叫和会议应用程序策略。 另请参阅[Deploy 使用 Intune 的图面集线器应用程序的 Microsoft 团队](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)的博客。
 
 |设置   |值    |说明    |
 |----------|---------|---------|

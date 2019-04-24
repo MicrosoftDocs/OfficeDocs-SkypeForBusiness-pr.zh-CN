@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: e6d6ce6995a10a2d3a13ca047bbdcc5d632c7822
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200413"
 ---
 # <a name="users-new-lync-server-user"></a>用户：新建 Lync Server 用户
 

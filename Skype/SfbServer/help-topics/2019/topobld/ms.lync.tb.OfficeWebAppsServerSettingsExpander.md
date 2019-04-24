@@ -14,11 +14,11 @@ ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑配置 Office Web Apps Server 的属性。 可编辑以下属性：
 ms.openlocfilehash: 0ef79728f389bfd87078aef5f9bbaca8f45e18dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201684"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>编辑 Office Web Apps Server 设置
 

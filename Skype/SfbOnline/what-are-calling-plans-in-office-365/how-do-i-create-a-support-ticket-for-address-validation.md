@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
 ms.openlocfilehash: bbafd82e985cb3aabec99e73d2d13f7068a7c59d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227851"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>如何创建支持票证以进行地址验证？
 

@@ -12,11 +12,11 @@ ms.collection: M365-voice
 ms.assetid: ''
 description: 阅读本主题可了解如何迁移 Lync 会议室系统设备要使用的 Microsoft 团队聊天室软件。
 ms.openlocfilehash: 2d9187643d8ffa72a843cbd72a47f4fd4a564f6e
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219393"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>将 Lync 会议室系统 (LRS) 设备迁移到 Microsoft 团队聊天室
 

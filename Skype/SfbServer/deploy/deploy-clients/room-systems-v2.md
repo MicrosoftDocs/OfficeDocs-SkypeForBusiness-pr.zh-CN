@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读此文，了解如何部署 Microsoft 团队聊天室。
 ms.openlocfilehash: c005f9c0bdd087c90746ff55a322a087da83032e
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214896"
 ---
 # <a name="deployment-overview"></a>部署概述
 

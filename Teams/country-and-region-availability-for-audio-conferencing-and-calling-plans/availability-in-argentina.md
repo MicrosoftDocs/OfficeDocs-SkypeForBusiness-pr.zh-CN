@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 阿根廷可用的项目。
 ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198422"
 ---
 # <a name="availability-in-argentina"></a>在阿根廷的可用性
 
@@ -67,7 +67,7 @@ ms.locfileid: "30542700"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | <ul><li>布宜诺斯艾利斯 <li>科尔多瓦 <li>拉普拉塔 <li>马德普拉塔 <li>门多萨 <br/>  <li>圣米格尔-德图库曼 <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | <ul><li>布宜诺斯艾利斯 <li>金科 <li>La Plata <li>Mar Del Plata <li>门多萨 <br/>  <li>San 还是 de Tucuman <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    

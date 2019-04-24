@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是边缘服务器中的业务服务器 2015 Skype 的方案的一部分，以及在外围网络中。 边缘组件包括下列各项：
 ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200286"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  

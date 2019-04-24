@@ -14,11 +14,11 @@ ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理是被指定为应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 合格的用户被启用 Skype Business Server 和企业语音。
 ms.openlocfilehash: e4599d4fbcedc2e99810c96e186d90801f963534
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215190"
 ---
 # <a name="select-agents"></a>选择代理
 

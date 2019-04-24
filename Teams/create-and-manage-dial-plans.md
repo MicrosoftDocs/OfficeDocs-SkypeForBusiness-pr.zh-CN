@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
 ms.openlocfilehash: a499ddb9a9788fce9bdd9bfb2a5bd6e8d1d0f687
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199214"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -39,7 +39,7 @@ ms.locfileid: "30543317"
 
  **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 若要验证正在运行的版本是 3.0 或更高：**开始菜单** > **Windows PowerShell**。
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -51,7 +51,7 @@ ms.locfileid: "30543317"
   
  **启动 Windows PowerShell 会话**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. 从 **开始菜单** > **Windows PowerShell**。
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -152,7 +152,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-运行以下命令时要检查的现有的规范化规则，确定哪个要删除，并将其索引以便将其删除。规范化规则的数组开头索引值 0。我们希望删除 3 位数字表示规范化规则，以便索引 1。
+Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows Powershell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     

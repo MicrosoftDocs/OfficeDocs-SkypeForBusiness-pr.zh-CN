@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbd48199-0fe5-4458-b29b-d2b2f44e6e8e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 9e73554d22af1a34067aa620cd0733e213db2dc2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bd26f0127ca634f226f6106045328f0c8f1939f3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204180"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>韩国的免费拨号限制
 

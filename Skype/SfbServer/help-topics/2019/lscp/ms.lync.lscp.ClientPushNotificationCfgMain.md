@@ -14,11 +14,11 @@ ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
 ms.openlocfilehash: a2dafb190d0eb1c29d1dfb7cc07af40a10fb107c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215785"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  

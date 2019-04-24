@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 查找和管理更新的 Skype 业务服务器或 Lync 2013。 使用链接获取更多信息并下载这些更新。
 ms.openlocfilehash: 1f76130ee290e32ecc5e4fbdde03a3f1802470c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250637"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business 下载和更新
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 ms.openlocfilehash: fa06ceca4c4003bc3bac36325b162514afdb7200
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200751"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>规范化规则：创建新的或编辑现有的
 

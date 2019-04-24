@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: 如何为加拿大 IP 中继帐户唉。
 ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194225"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大的 IP 中继 - 注册
 
@@ -31,12 +31,12 @@ ms.locfileid: "23862824"
 
 |||
 |:-----|:-----|
-|第一个和最后一个名称：||
+|第一个 & Last Name:||
 |Office 365 租户域名： <br/>(示例： Contoso.com)||
 |Office 365 用户电话号码： <br/>示例: + 1 XXX XXX 格式) ||
 |密码 （8 到 16 个字符）： ||
 |最有可能的物理地址 <br/>在紧急情况时：||
-|街道编号和名称：||
+|街道号码 & 名称：||
 |单元 / 套件：||
 |市/县：||
 |省 / 状态：||

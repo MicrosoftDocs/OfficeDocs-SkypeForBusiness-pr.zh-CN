@@ -14,11 +14,11 @@ ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: '您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:'
 ms.openlocfilehash: 830b0625e63ebab7ddf94490a5a56c3c6e52611e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201968"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 

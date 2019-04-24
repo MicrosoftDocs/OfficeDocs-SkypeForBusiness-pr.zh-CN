@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 摘要： 了解如何创建、 修改和删除的业务服务器 2015 the Centralized Logging Service 中 Skype 方案。
 ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217675"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>配置 Skype for Business Server 2015 中的集中日志记录服务的方案
  

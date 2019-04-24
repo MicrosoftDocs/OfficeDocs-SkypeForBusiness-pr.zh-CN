@@ -14,11 +14,11 @@ ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每个前端池只能拥有一个关联的边缘服务器或边缘池。为站点启用外部用户访问时，可提供对远程用户的支持。还可以启用对联盟用户的支持，包括对特定公共即时消息 (IM) 连接提供商（如 Windows Live）用户的支持，以及对匿名用户的支持。
 ms.openlocfilehash: c1af7071f8db9d924f33326f5d88a17311897423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220703"
 ---
 # <a name="associate-front-end-with-edge"></a>将前端与边缘关联
 

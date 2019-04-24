@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: '了解常见原因的 Skype 业务 Online 登录错误和工作通过解决这些问题。 '
 ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195498"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理员 Skype 业务 Online 登录错误疑难解答
 
@@ -143,7 +143,7 @@ ms.locfileid: "30886992"
 
 此过程是可能的修复**问题获取个人证书需要登录**的错误消息。
 
-若要消除可能的证书或凭据问题，请首先续订 Windows 证书管理器中的用户的证书。 若要执行此操作，请按照以下步骤：
+若要消除可能的证书或凭据问题，请首先续订 Windows 证书管理器中的用户的证书。 为此，请按照下列步骤操作：
 
 1. 打开 Windows 证书管理器。 若要执行此操作，单击**开始**，单击**运行**，键入**certmgr.msc**，，然后单击**确定**。
 
@@ -153,7 +153,7 @@ ms.locfileid: "30886992"
 
 4. 右键单击该证书，，然后单击**删除**。
 
-接下来，如果用户正在运行 Windows 7，删除其存储的凭据 Windows 凭据管理器中。 若要执行此操作，请按照以下步骤：
+接下来，如果用户正在运行 Windows 7，删除其存储的凭据 Windows 凭据管理器中。 为此，请按照下列步骤操作：
 
 1. 单击**开始**，单击**控制面板**，，然后单击**凭据管理器**。
 
@@ -205,7 +205,7 @@ ms.locfileid: "30886992"
 ## <a name="collect-more-information-and-seek-additional-help"></a>收集的详细信息和 seek 获取其他帮助
 <a name="collect-more-information"> </a>
 
-如果您已关注上面的指南并仍无法解决登录问题，您必须收集的其他信息并与技术支持联系。 若要执行此操作，请按照以下步骤：
+如果您已关注上面的指南并仍无法解决登录问题，您必须收集的其他信息并与技术支持联系。 为此，请按照下列步骤操作：
 
 1. 从用户的计算机中获取的日志文件和 Windows 事件日志的详细信息。 有关分步说明，请参阅[启用 Lync 中的错误日志](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)最终用户帮助主题。
 

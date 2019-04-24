@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211211"
 ---
-# <a name="quality-of-experience-review-guide"></a>查看用户体验指南的质量
+# <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->本指南是有关 Microsoft 团队和业务 online Skype 的驱动器值阶段。 您可以本指南[下载的 Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+本指南是有关 Microsoft 团队和业务 online Skype 的驱动器值阶段。 您可以本指南[下载的 Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
 
 ## <a name="introduction"></a>简介
 
@@ -143,16 +144,16 @@ _表 2-核心目标运行状况评估指标_
 <th rowspan="2" colspan="2" valign="center">网络类型</th><th rowspan="1">质量目标</th><th colspan="2">可靠性目标</th></tr>
 <tr><th>音频质量欠佳流速率</th><th>安装失败率</th><th>Drop 故障率</th></tr>
 <tr><td rowspan="2"><strong>All</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
-<tr><td>综合</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>总体</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
 <tr><td rowspan="5"><strong>会议</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>有线内部</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>内部 Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>内部 Wi-fi 2.4 GHz</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
-<tr><td>综合</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
+<tr><td>总体</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>内部</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>内部有线/Wi-fi 5 GHz</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>总体有线/Wi-fi 5 GHz</td><td>2.0%</td><td>1.0%</td><td>1.0%</td></tr>
-<tr><td>综合</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>总体</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
 </table>
 
 
@@ -812,7 +813,7 @@ _表 6-诊断通知_
 | 通知                                                                | 更多信息             |
 |----------------------------------------------------------------------|------------------------------|
 | 客户端版本不佳的已知正在使用                   | [客户端版本](#client-versions)              |
-| 呼叫下降而造成音频驱动程序                                 | [设备](#devices)                      |
+| 呼叫下降而造成音频驱动程序                                 | [Devices](#devices)                      |
 | 在防火墙中的限制而造成呼叫安装失败         | [安装失败调查](#setup-failure-investigations) |
 | 深入数据包检查导致呼叫安装失败                | [安装失败调查](#setup-failure-investigations) |
 | Wi-fi 网络上的会议室内设备也会导致质量欠佳的呼叫质量 | [质量调查](#quality-investigations)       |
@@ -970,7 +971,7 @@ _表 9-呼叫的后续步骤放置修正_
 |------------------------------------------|-------------------------------|
 | **网络/internet**                         | **拥塞**： 使用您的网络团队监视在特定建筑物/子网确认不存在问题与过度使用带宽。 如果您执行确认存在网络拥塞，请考虑增加到该生成的带宽或应用 QoS。 使用包含[质量不佳流摘要报告](#quality-investigations)查看问题子问题的抖动、 延迟和数据包丢失，因为这些通常将前面丢弃的流。<br><br>您可以使用[网络规划器工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)有助于更好地了解您组织的带宽需求。<br><br>**QoS**： 如果增加带宽不切实际或成本上不可行，请考虑实现 QoS。 此工具是非常有效地管理拥挤的流量，都无法保证上方非媒体流量托管网络上的媒体数据包确定其优先级。 此外，如果不清除证据的带宽有原因，请考虑这些解决方案：<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype 的业务 QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**执行网络准备情况评估**： 网络评估提供了有关预期的带宽使用情况的详细信息、 如何应对带宽和网络发生更改，以及建议个团队和 Skype for Business 的网络的做法。 使用上表作为您的源，必须建筑或子网的最佳候选人评估的列表。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype 的业务网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具：** 简单的网络性能测试中使用此工具可确定网络团队将执行程度或 Skype 业务联机呼叫。 此工具可帮助您评估子网的性能和验证针对 Microsoft 性能[要求](https://aka.ms/performancerequirements)的网络的准备。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **客户端 (for Business 的 Skype 仅联机)** | 知道某些旧客户端，记录与媒体可靠性的问题。 查看呼叫分析报告从多个受影响的用户，或在 CQD 筛选到特定建筑或子网与而丢弃的总呼叫失败 %度量值中创建自定义客户端版本表报表。 此信息将帮助您了解呼叫中的特定构建的垂直距离和客户端的特定版本之间是否存在的关系。     |
-| **设备**                                  | 我们建议遇到任何用户调用下降 — 或质量欠佳的呼叫通常 — 且应使用集成的设备设置[认证的耳麦或免提电话](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)以消除这作为潜在的质量不佳和可靠性源。 |
+| **Devices**                                  | 我们建议遇到任何用户调用下降 — 或质量欠佳的呼叫通常 — 且应使用集成的设备设置[认证的耳麦或免提电话](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)以消除这作为潜在的质量不佳和可靠性源。 |
 | **用户行为**                            | 如果您确定，既未网络、 设备或客户端问题，请考虑[我顾问](https://aka.ms/myadvisor)适当的开发培训用户如何以最佳加入并退出会议的用户应用策略的指南。 效率团队和业务用户的 Skype 将会议中的所有参与者的用于生成更好的用户体验。 将其便携式计算机置入休眠模式 （通过关闭盖） 放而不退出会议的用户将被分类为意外的调用投递。   |
 
 ## <a name="quality-investigations"></a>质量调查
@@ -1056,7 +1057,7 @@ _表 10-常见贡献高 PSR_
 |**网络设备** | 较大的组织可能有数百个分散在网络设备。 使用您的网络团队确保从用户到 internet 的网络设备的维护和最新。 |
 | **VPN**  | 通常情况下，VPN 设备不旨在处理实时的媒体工作负荷。 某些 VPN 配置禁止使用 UDP （这是首选的协议媒体），并且仅依赖 TCP。 请考虑实现[VPN 拆分隧道解决方案](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9)以帮助减少 VPN 作为质量不佳的一个来源。 |
 | **客户端** <br>(For Business 的 Skype 仅联机) | 具有已知旧版客户端与媒体造成问题。 确保客户端的版本的六个月内修补。 [MyAdvisor](https://aka.ms/myadvisor)用于开发的客户端准备策略的指南和部署[即点即单击](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)。 |
-| **设备** | 使用[优化设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog)可以帮助明显改善用户体验。 与所有要素相同，优化的设备旨在最大限度地与团队业务的 Skype 的用户体验和生成出色的质量。 [MyAdvisor](https://aka.ms/myadvisor)用于开发的设备准备策略的指南。 |
+| **Devices** | 使用[优化设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog)可以帮助明显改善用户体验。 与所有要素相同，优化的设备旨在最大限度地与团队业务的 Skype 的用户体验和生成出色的质量。 [MyAdvisor](https://aka.ms/myadvisor)用于开发的设备准备策略的指南。 |
 | **驱动程序** | 修补网络 （以太网和 Wi-fi） 音频、 视频和 USB 驱动程序应为总体修补程序管理策略的一部分。 通过更新驱动程序解决了多个质量问题。 |
 | **Wi-fi 上的会议室** | 我们强烈建议将会议的会议室设备连接到网络使用至少一个 1 Gbps 以太网连接。 会议室内设备通常包括多个音频和视频流，以及会议内容，如屏幕共享，并具有更高版本与其他团队或 Skype 业务终结点的网络要求。 会议室是，根据定义，信纸 Wi-fi 其中正好优点仅在安装过程中的设备。<br><br>会议室需要额外的医护和采取行动，以确保使用这些设备的体验是满足或超过期望处理。 会议室质量问题通常要快速呈报因为高级员工通常正在使用它们。<br><br>与所有要素相同 （除了方便），Wi-fi 性能通常小于有线连接。 使用"使用您自己的设备"策略的上升和大量便携式计算机，常过度利用 Wi-fi 访问点。 不可能在 Wi-fi 网络，这会导致在高峰使用质量问题划分优先级实时的媒体。 此高强度使用情况可以与会议重合其中可能会出现一打人员出席，每个都有其自己的便携式计算机和智能手机连接到同一 Wi-fi 接入点作为会议的所有聊天室设备。<br><br>Wi-fi 只应视为临时解决方案，对于移动安装，或已正确设置 Wi-fi 支持企业级、 基于现实时间媒体。 |
 
@@ -1237,7 +1238,7 @@ _图 30-客户端版本报告_
 
 -   [发布的更新 Office ProPlus 的信息](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Office 365 ProPlus 的更新历史记录](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [Skype 业务下载和更新](/SkypeForBusiness/software-updates)
+-   [Skype for Business 下载和更新](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>设备
 
@@ -1316,13 +1317,13 @@ Ip 电话 （音频、 视频和应用程序共享） 实时媒体质量会显�
 
 _表 12-网络性能要求_
 
-| 指标                            | 客户端到 Microsoft Edge           | 客户边缘到 Microsoft Edge    |
+| 指标                            | 客户端到 Microsoft 边缘           | 客户边缘到 Microsoft 边缘    |
 |-----------------------------------|------------------------------------|------------------------------------|
-| 延迟（单向）                 | \<50 ms                            | \<30 ms                            |
+| 延迟 （一种方法）                 | \<50 ms                            | \<30 ms                            |
 | 延迟 （RTT 或往返时间） | \<100 毫秒                           | \<60 毫秒                            |
 | 突发数据包丢失                 | \<任何 200 毫秒间隔期间的 10%   | \<任何 200 毫秒间隔期间 1%    |
 | 数据包丢失                       | \<任何 15 秒间隔期间 1%    | \<0.1 任何 15 秒间隔期间 %  |
-| 数据包中间间隔抖动       | \<任何 15 秒间隔期间 30 ms | \<在任何 15 秒时间间隔 15 ms |
+| 数据包间到达抖动       | \<任何 15 秒间隔期间 30 ms | \<在任何 15 秒时间间隔 15 ms |
 | 数据包重新排序                    | \<0.05%无序的数据包       | \<0.01%无序的数据包      |
 
 详细信息，请参阅[本文中的有关媒体质量和网络性能](https://aka.ms/performancerequirements)个团队和 Skype 业务 online。
@@ -1347,7 +1348,7 @@ _表 12-网络性能要求_
 
 -   [设置通话分析](set-up-call-analytics.md)
 
--   [通话分析与通话质量仪表板之间有何区别？](difference-between-call-analytics-and-call-quality-dashboard.md)
+-   [调用分析和呼叫质量仪表板之间的区别是什么？](difference-between-call-analytics-and-call-quality-dashboard.md)
 
 -   [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
