@@ -14,20 +14,20 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: 使用选择文件类型扩展名对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在文件下的扩展旁边的复选框类型扩展。 单击箭头以展开类别并查看所有类别的文件类型扩展名。 如果您想要选择所有类别的文件类型扩展名，选择类别名称。
 ms.openlocfilehash: a061bdbfb74ded31f9bd621f9a4d3062318c787d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200567"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="91616-105">选择文件类型扩展名</span><span class="sxs-lookup"><span data-stu-id="91616-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="3096e-105">选择文件类型扩展名</span><span class="sxs-lookup"><span data-stu-id="3096e-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="91616-106">使用**选择文件类型扩展名**对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在**文件类型扩展名**下的扩展旁边的复选框。</span><span class="sxs-lookup"><span data-stu-id="91616-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="91616-107">单击箭头以展开类别并查看所有类别的文件类型扩展名。</span><span class="sxs-lookup"><span data-stu-id="91616-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="91616-108">如果您想要选择所有类别的文件类型扩展名，选择类别名称。</span><span class="sxs-lookup"><span data-stu-id="91616-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="3096e-106">使用**选择文件类型扩展名**对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在**文件类型扩展名**下的扩展旁边的复选框。</span><span class="sxs-lookup"><span data-stu-id="3096e-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="3096e-107">单击箭头以展开类别并查看所有类别的文件类型扩展名。</span><span class="sxs-lookup"><span data-stu-id="3096e-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="3096e-108">如果您想要选择所有类别的文件类型扩展名，选择类别名称。</span><span class="sxs-lookup"><span data-stu-id="3096e-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="91616-109">如果您未看到要选择的文件类型扩展名列**文件类型扩展名**，在**向列表添加新的文件扩展名**下的文本框中键入扩展名，然后单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="91616-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="3096e-109">如果您未看到要选择的文件类型扩展名列**文件类型扩展名**，在**向列表添加新的文件扩展名**下的文本框中键入扩展名，然后单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="3096e-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="91616-110">您已将所有所需的文件类型扩展名添加到**选择文件类型扩展名**列表后，单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="91616-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="3096e-110">您已将所有所需的文件类型扩展名添加到**选择文件类型扩展名**列表后，单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="3096e-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
-<span data-ttu-id="91616-111">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="91616-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="3096e-111">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="3096e-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
