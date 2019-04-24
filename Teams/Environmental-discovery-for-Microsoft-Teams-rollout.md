@@ -15,13 +15,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32181425"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>针对 Microsoft Teams 部署的环境发现
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队部署的环境发现
 ===================================================
 
 发现是第一次，关键步骤时采取的规划您旅程用于向 Microsoft 工作组之一。
@@ -176,7 +176,7 @@ ms.locfileid: "30462297"
 > | 用户当前使用哪个桌面 OS？ | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac （指定注释列中的版本。） <br/> <input type="checkbox">其他 （请注意注释列中的详细信息。） | |
 > | 部署哪些版本的 Microsoft Office <br>到这些设备？ | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office for Mac 2011 <br/> <input type="checkbox">Office for Mac 2016 <br/> <input type="checkbox">其他 （请注意注释列中的详细信息。） | |
 > | 正在使用中的 Office 部署技术 <br>在您的组织？ | <input type="checkbox">MSI <br/> <input type="checkbox">单击即点即用 | |
-> | 什么是允许和支持移动 <br>使用平台？ <br/>选择所有适用项。 | <input type="checkbox">Windows <br/> <input type="checkbox"> 手机 <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">其他 （请注意注释列中的详细信息。） | |
+> | 什么是允许和支持移动 <br>使用平台？ <br/>选择所有适用项。 | <input type="checkbox">Windows <br/> <input type="checkbox">移动 <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">其他 （请注意注释列中的详细信息。） | |
 > | 如何提供移动设备？ <br/>选择所有适用项。 | <input type="checkbox">企业设备 <br/> <input type="checkbox">使您自己的设备 | |
 > | 哪些设备当前执行用户用于访问 <br>语音和会议服务 <br>（话筒、 耳机、 电话、 视频）？ | | |
 

@@ -1,5 +1,5 @@
 ---
-title: 添加、 更改或删除您的组织的紧急地址
+title: 为你的组织添加、更改或删除紧急地址
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: '了解如何将紧急地址添加到 Skype for Business 帐户。 '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170912"
 ---
-# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>添加、 更改或删除您的组织的紧急地址
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>为你的组织添加、更改或删除紧急地址
 
 紧急地址必须与一个电话号码，但当发生这种情况之间国家/地区可能各不相同。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。
   
-无论你在哪个国家/地区，就可以将一个或多个位置添加到紧急地址，或删除一个紧急地址。 根据您的组织中的物理位置数，您可以创建它们建筑物、 楼层，和办公室。 请参阅[紧急位置、 地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)的某些详细信息。
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 若要了解如何获取通话套餐及其价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
@@ -52,7 +52,7 @@ ms.locfileid: "30047735"
 5. 您输入的所有地址信息后，单击**验证**。
     
     > [!IMPORTANT]
-    > [!重要信息] 验证街道或市镇地址涉及确保该地址是合法的并且格式设置正确。 则可能的部分正确的紧急地址，例如，如果您输入正确市/县的名称可能仍通过验证。 即使拼写错误并通过验证，拼错的城市名称和地址的其他正确部分相结合也足以将呼叫路由到合适的紧急派遣中心。 
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
     
     > 注意： 比利时，法国、 德国、 爱尔兰、 荷兰和西班牙务必要了解的才能成功激活 Office 365 中将用于获取数，紧急位置的地址设置中的电话号码必须匹配电话号码的区域代码。
   
@@ -86,7 +86,7 @@ ms.locfileid: "30047735"
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 **处于"失败"状态的数目。**
 
