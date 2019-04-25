@@ -21,46 +21,46 @@ ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中启用或禁用用户是否可以在加入会议时录制其姓名。
 ms.openlocfilehash: ce2e2c019018ac3e2585928567632ea4a74b70fa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246026"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="c882d-103">在 Microsoft Teams 中让用户能够在加入会议时录制其姓名</span><span class="sxs-lookup"><span data-stu-id="c882d-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="fffba-103">在 Microsoft Teams 中让用户能够在加入会议时录制其姓名</span><span class="sxs-lookup"><span data-stu-id="fffba-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
 
-<span data-ttu-id="c882d-104">当你在 Office 365 中设置音频会议时，你将收到电话号码以及所谓的音频会议网桥。</span><span class="sxs-lookup"><span data-stu-id="c882d-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="c882d-105">会议网桥可以包含一个或多个电话号码，这些电话号码可以是专用或共享电话号码。</span><span class="sxs-lookup"><span data-stu-id="c882d-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
+<span data-ttu-id="fffba-104">当你在 Office 365 中设置音频会议时，你将收到电话号码以及所谓的音频会议网桥。</span><span class="sxs-lookup"><span data-stu-id="fffba-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="fffba-105">会议网桥可以包含一个或多个电话号码，这些电话号码可以是专用或共享电话号码。</span><span class="sxs-lookup"><span data-stu-id="fffba-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
   
-<span data-ttu-id="c882d-106">会议网桥负责应答使用电话拨入会议的用户的呼叫。</span><span class="sxs-lookup"><span data-stu-id="c882d-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="c882d-107">会议网桥通过来自自动助理的语音提示应答呼叫者，然后根据其设置，可以播放通知、让呼叫者录制其姓名以及为会议组织者设置 PIN 安全。</span><span class="sxs-lookup"><span data-stu-id="c882d-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="c882d-108">将向会议组织者提供 PIN 以允许他们启动会议。</span><span class="sxs-lookup"><span data-stu-id="c882d-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="c882d-109">但你可以设置不需要使用 PIN 即可启动会议。</span><span class="sxs-lookup"><span data-stu-id="c882d-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
+<span data-ttu-id="fffba-106">会议网桥负责应答使用电话拨入会议的用户的呼叫。</span><span class="sxs-lookup"><span data-stu-id="fffba-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="fffba-107">会议网桥通过来自自动助理的语音提示应答呼叫者，然后根据其设置，可以播放通知、让呼叫者录制其姓名以及为会议组织者设置 PIN 安全。</span><span class="sxs-lookup"><span data-stu-id="fffba-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="fffba-108">将向会议组织者提供 PIN 以允许他们启动会议。</span><span class="sxs-lookup"><span data-stu-id="fffba-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="fffba-109">但你可以设置不需要使用 PIN 即可启动会议。</span><span class="sxs-lookup"><span data-stu-id="fffba-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
 
   
-## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="c882d-110">设置呼叫者是否应录制其姓名</span><span class="sxs-lookup"><span data-stu-id="c882d-110">Set whether callers should record their name</span></span>
+## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="fffba-110">设置呼叫者是否应录制其姓名</span><span class="sxs-lookup"><span data-stu-id="fffba-110">Set whether callers should record their name</span></span>
 
-<span data-ttu-id="c882d-111">![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**</span><span class="sxs-lookup"><span data-stu-id="c882d-111">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="fffba-111">![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**</span><span class="sxs-lookup"><span data-stu-id="fffba-111">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="c882d-112">在左侧导航中，转到“**会议**” > “**会议网桥**”。</span><span class="sxs-lookup"><span data-stu-id="c882d-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="fffba-112">在左侧导航中，转到“**会议**” > “**会议网桥**”。</span><span class="sxs-lookup"><span data-stu-id="fffba-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="c882d-113">在**会议桥**页的顶部，单击**网桥的设置**。</span><span class="sxs-lookup"><span data-stu-id="c882d-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="fffba-113">在**会议桥**页的顶部，单击**网桥的设置**。</span><span class="sxs-lookup"><span data-stu-id="fffba-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="c882d-114">启用或禁用**会议项和退出通知**。</span><span class="sxs-lookup"><span data-stu-id="c882d-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
+3. <span data-ttu-id="fffba-114">启用或禁用**会议项和退出通知**。</span><span class="sxs-lookup"><span data-stu-id="fffba-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
 
-4. <span data-ttu-id="c882d-115">如果启用通知，请选择**姓名或电话号码**下**条目/退出通知类型**，然后再打开**向呼叫者加入会议之前记录其姓名提出。**</span><span class="sxs-lookup"><span data-stu-id="c882d-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
+4. <span data-ttu-id="fffba-115">如果启用通知，请选择**姓名或电话号码**下**条目/退出通知类型**，然后再打开**向呼叫者加入会议之前记录其姓名提出。**</span><span class="sxs-lookup"><span data-stu-id="fffba-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
 
-6. <span data-ttu-id="c882d-116">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="c882d-116">Click **Save**.</span></span>
+6. <span data-ttu-id="fffba-116">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="fffba-116">Click **Save**.</span></span>
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="c882d-117">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="c882d-117">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="fffba-117">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="fffba-117">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="c882d-p103">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="c882d-p103">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="fffba-p103">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="fffba-p103">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="c882d-121">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="c882d-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="fffba-121">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="fffba-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="c882d-122">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="c882d-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="fffba-122">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="fffba-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="c882d-123">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="c882d-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="fffba-123">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="fffba-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="c882d-124">相关主题</span><span class="sxs-lookup"><span data-stu-id="c882d-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fffba-124">相关主题</span><span class="sxs-lookup"><span data-stu-id="fffba-124">Related topics</span></span>
 
-[<span data-ttu-id="c882d-125">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="c882d-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="fffba-125">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="fffba-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
