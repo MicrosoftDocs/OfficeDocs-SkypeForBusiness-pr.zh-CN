@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245871"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
@@ -32,7 +32,7 @@ ms.locfileid: "31043410"
 
 #### <a name="when-will-staffhub-be-retired"></a>何时停 StaffHub？
 
-启动年 4 月 2019年中间 Microsoft StaffHub 将不再适用于新的租户和您将不再能够从 Office 365 应用程序启动器访问应用程序。 当前用户仍然能够年 10 月之前使用服务 1,2019，但是没有其他功能将可供。
+启动年 4 月 2019年中间 Microsoft StaffHub 将不再适用于新的租户和您将不再能够从 Office 365 应用程序启动器访问应用程序。 当前用户仍能之前年 10 月 1，2019，但是没有其他功能将可使用该服务。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>一旦 StaffHub 停用，则会发生什么情况？
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 description: 有关使用部署向导安装业务服务器 2015 Skype 的详细信息，请参阅安装 Skype 的业务服务器 2015年。
 ms.openlocfilehash: a5956afa1038ffff90e2adecf236f6d1fc5704be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235077"
 ---
 # <a name="deployment-wizard-windows-update"></a>部署向导：Windows 更新
  

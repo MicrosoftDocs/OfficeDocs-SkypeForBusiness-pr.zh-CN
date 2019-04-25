@@ -14,11 +14,11 @@ ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用新的中继配置： 新建呼叫号码转换规则以创建新的转换规则。 有关转换规则的详细信息，请参阅以下主题：
 ms.openlocfilehash: d29630a847735cb631295da1ef926bea09c62926
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221149"
 ---
 # <a name="new-calling-number-translation-rule"></a>新的呼叫号码转换规则
 

@@ -14,11 +14,11 @@ ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击“Office Web Apps Server”，然后选择“新建 Office Web Apps Server”以打开 Office Online 向导。
 ms.openlocfilehash: 37ea8489d16ba5526326746c31d8c1590d34a5a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235388"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Servers 范围节点
 

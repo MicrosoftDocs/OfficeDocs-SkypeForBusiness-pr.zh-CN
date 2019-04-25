@@ -1,5 +1,5 @@
 ---
-title: 如果我的电话运营商未列为源运营商，应该怎么办？
+title: 如果我的电话运营商未列出作为源运营商？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: '了解您的运营商未列出 Skype for Business 中时如何操作。 '
 ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229649"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，应该怎么办？
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列出作为源运营商？
 
 当您看到您的运营商的名称未列出，它会有点造成混淆。 在大多数情况下，如果服务提供商或运营商不同，可能性就是您将通过转接的电话号码归不同的服务提供程序或运营商。 可以有时服务提供商或列出的运营商可能会有所不同，从您当前的服务提供商因为当前服务提供商可能使用的第三方服务提供商的次数。 
   

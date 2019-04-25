@@ -26,11 +26,11 @@ metadata:
   ms.custom:
   - NewAdminCenter_Update
   ms.openlocfilehash: faafc90009801aa06fc39cc4eec34028a1a5fa24
-  ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/18/2019
-  ms.locfileid: "31914599"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32233432"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 团队](/MicrosoftTeams/Teams-overview.md)和[for Business 的 Skype](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是提供聊天、 电话对话、 语音邮件、 会议、 文件和一个位置中的共同应用程序的 Office 365 的一部分。 都需要[**电话系统**许可证](/MicrosoftTeams/what-is-phone-system-in-office-365)启用呼叫控制和 Office 365 云中的 PBX 功能。 电话系统许可证附带的企业 E5 许可证，或者可以将其添加到企业版 E3 许可证。 在[业务加载项授权的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，许可的详细信息。 \n\n电话系统许可证，您可以替换现有的 PBX 系统[设置的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)，包括呼叫队列，哪些路由呼叫您的公司为您的公司之一的人员呼叫可以的代理，然后填充客户服务请求或置于销售排序。 呼叫队列可用于与团队或 Skype 业务。 为组织使用的 Microsoft 团队管理中心创建呼叫队列。 呼叫队列的资源帐户也可分配电话号码或呼叫队列可直接相关的电话号码不自动助理选项选项。\n\n如果您询问要设置呼叫队列，本文提供了举例说明了规划和实现简化了的一个用于假想的业务。  \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定您已经已以下： \n- 使用[调用规划](/MicrosoftTeams/calling-plan-landing-page)为用户提供电话号码[设置您的组织中的电话系统](/MicrosoftTeams/setting-up-your-phone-system.md)。\n- [设置电话系统语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- 检查[什么是自动助理并调用队列？](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls.md)要获取的电话系统功能可以与呼叫队列进行交互的更好地理解。\n"

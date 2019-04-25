@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 请参阅如何在 Skype for Business Online 中为音频会议号码选择音频会议自动助理语言。
 ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229211"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议自动助理语言
 
@@ -34,7 +34,7 @@ ms.locfileid: "27788982"
 
 Skype for Business 的音频会议自动助理可以在加入会议时以多种不同语言向呼叫者播放问候语。
   
-选择一种主要语言和最多四种辅助语言。 将首先使用您之前设置的主要语言和自动助理将使用的辅助语言，以便您选择。 
+Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
 >  仅能更改音频会议号码的专用类别的语言。 不能更改共享音频会议号码的语言。
@@ -55,7 +55,7 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
     > [!NOTE]
     > [!注释] 则会显示所支持的主要和辅助语言。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
   
-4. 单击" **保存**"。
+4. 单击“**保存**”。
     
 ## <a name="want-else-should-i-know"></a>还需了解哪些信息？
 

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 可用的捷克共和国。
 ms.openlocfilehash: c98d9522e14c1bec8bff2d8a52d67ff825410e6e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221928"
 ---
 # <a name="availability-in-the-czech-republic"></a>在捷克共和国的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "30541621"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 布拉格</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -67,7 +67,7 @@ ms.locfileid: "30541621"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>赫拉德茨克拉洛韦 <li>  利贝雷茨 <li>  奥洛穆茨 <li>  比尔森 <li>  布拉格 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>Hradec Kralove <li>  Liberec <li>  Olomouc <li>  Pilsen <li>  布拉格 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

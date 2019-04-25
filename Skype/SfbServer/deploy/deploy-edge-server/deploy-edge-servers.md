@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 摘要： 了解如何为您 Skype 业务服务器环境中部署边缘服务器。
 ms.openlocfilehash: e8e3251380c996ca4fea65fd286ef9e2a9d75575
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223808"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>在部署边缘服务器 Skype 业务服务器
  

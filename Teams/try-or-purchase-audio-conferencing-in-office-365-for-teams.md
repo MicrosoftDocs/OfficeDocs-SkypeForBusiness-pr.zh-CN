@@ -23,15 +23,15 @@ ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
 ms.openlocfilehash: b474a5c905566b3ee0c01249f7b20f11e3dbabfc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223167"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>为 Microsoft Teams 试用或购买 Office 365 中的音频会议
 
-有时，组织中的用户需要使用电话拨入会议。 Microsoft 团队包括刚这种情况下的音频会议功能 ！ 人员可以使用电话，而不在移动设备或 PC 上使用的 Microsoft 团队应用程序的 Microsoft 团队会议呼叫。
+有时您的组织中的人员将需要使用电话呼入会议。 Microsoft 团队包括刚这种情况下的音频会议功能 ！ 人员可以使用电话，而不在移动设备或 PC 上使用的 Microsoft 团队应用程序的 Microsoft 团队会议呼叫。
 
 您只需为建立音频会议计划安排或潜在顾客会议的人员。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 

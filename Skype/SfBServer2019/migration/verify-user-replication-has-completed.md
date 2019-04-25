@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 当运行 Move-csuser cmdlet，您可能会遇到故障，因为 Active Directory 域服务 (AD DS) 和业务服务器 2019年数据库 Skype 之间的用户信息不同步的因为不完整的初始复制。 成功完成业务服务器 2019年用户复制程序服务的初始同步的 Skype 所花的时间取决于承载在承载 for Business Skype Active Directory 林中的域控制器数服务器 2019年池。 业务 Server 2019 前端服务器的 Skype 首次启动时，发生此事件业务 Server 2019 用户复制服务初始同步进程的 Skype。 之后，同步然后基于用户复制程序间隔。 完成以下步骤以确认用户复制已完成之前运行 Move-csuser cmdlet。
 ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231334"
 ---
 # <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
 

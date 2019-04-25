@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 呼叫寄存应用程序包括设置为与保留文件中旧安装已上载的任何自定义保持音乐的业务服务器 2019年池 Skype 迁移，还原的服务级别设置和重定目标所有呼叫寄存轨道到业务服务器 2019年池的 Skype。 如果在池中已配置自定义的保留音乐文件，这些文件需要复制到新 Skype 业务服务器 2019年池。 此外，建议您备份任何呼叫寄存自定义保留音乐文件从至其他目标保留一份任何自定义保留音乐文件已上载的呼叫寄存的单独备份。 呼叫寄存应用程序的自定义的保留音乐文件存储在文件存储的池。 若要从一个池的文件存储的音频文件复制到 Skype 业务服务器 2019年文件存储，请与以下参数使用 Xcopy 命令：
 ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238371"
 ---
 # <a name="migrate-call-park-application-settings"></a>迁移呼叫寄存应用程序设置
 

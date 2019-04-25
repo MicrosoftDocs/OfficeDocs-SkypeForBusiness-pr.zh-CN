@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理自定义应用程序策略和设置以控制哪些人在组织中可以上载的 Microsoft 团队中的自定义应用程序。
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224611"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 

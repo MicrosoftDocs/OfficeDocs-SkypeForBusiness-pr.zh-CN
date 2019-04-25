@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 部署以共存的业务服务器 2019 Skype 之前, 需要确认已配置并启动旧式服务。 务必来确定关键服务和在旧环境中，在部署业务服务器 2019年试点池 Skype 之前存在的功能。 在之前部署 Microsoft Skype 业务服务器 2019 XMPP 与旧的 XMPP 部署以共存，您需要验证旧版 XMPP 服务已配置并启动，并确认旧的 XMPP 配置的联盟的伙伴支持。
 ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235112"
 ---
 # <a name="verify-the-legacy-environment"></a>确认旧环境
 

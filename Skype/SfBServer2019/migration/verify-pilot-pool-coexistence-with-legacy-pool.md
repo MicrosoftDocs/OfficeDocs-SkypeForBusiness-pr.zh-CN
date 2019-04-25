@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要验证试点池与旧池的共存情况的过程。
 ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231341"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>验证试点池与旧池的共存情况
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队来宾访问清单
+title: Microsoft Teams 来宾访问清单
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30795583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237545"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================

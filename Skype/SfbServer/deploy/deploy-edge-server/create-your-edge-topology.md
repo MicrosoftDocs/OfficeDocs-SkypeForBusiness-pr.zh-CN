@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 摘要： 了解如何构建、 发布和业务服务器导出边缘服务器拓扑中 Skype。
 ms.openlocfilehash: 32273f7e0cf14b4ed5be3956eb69ef66a3b06fee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223815"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>为 Business Server Skype 创建边缘拓扑
  

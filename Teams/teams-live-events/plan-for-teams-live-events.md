@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解如何设置中的 Microsoft 团队的实时事件之前应考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223373"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -44,7 +44,7 @@ ms.locfileid: "30771763"
 - 启用团队会议中的视频共享 (*TeamsMeetingPolicy AllowIPVideo 参数 = True*)。
 - 启用团队会议中的屏幕共享 (*TeamsMeetingPolicy ScreenSharingMode 参数 = EntireScreen*)。
 - Live 事件计划中启用的团队 (*TeamsMeetingBroadcastPolicy AllowBroadcastScheduling 参数 = True*)。
-- 在 Microsoft 流中的实时事件创建 （针对[外部编码器生产](#production)） 的权限。
+- 在 Microsoft 流中的实时事件创建 （用于外部编码器生产） 的权限。
 
 > [!IMPORTANT]
 > Office 365 来宾，联盟和匿名用户不能为生产者或团队 live 事件中的演示者邀请。 Office 365 来宾和联盟的用户可以仅观看 live 事件以匿名方式。 

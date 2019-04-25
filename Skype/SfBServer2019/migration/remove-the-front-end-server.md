@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题中所述的过程旨在指导您完成删除的 Enterprise Edition 前端池或 Standard Edition 前端服务器的过程。 迁移后到 Skype 的业务服务器 2019年，这是停用旧环境的第一个步骤之一。
 ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231435"
 ---
 # <a name="remove-the-front-end-server"></a>删除前端服务器
 

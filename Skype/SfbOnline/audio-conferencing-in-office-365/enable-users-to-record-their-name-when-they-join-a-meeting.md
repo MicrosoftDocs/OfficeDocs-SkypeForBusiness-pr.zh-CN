@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 了解如何启用或禁用是否他们业务 online Skype 中加入会议时，用户可以记录其名称。
 ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229298"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
 

@@ -1,5 +1,5 @@
 ---
-title: 号码激活为什么列为正在更新？
+title: 为什么是号码激活列为更新？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
 ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227821"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>号码激活为什么列为正在更新？
+# <a name="why-is-number-activation-listed-as-updating"></a>为什么是号码激活列为更新？
 
 地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于电话号码不激活和列为**更新**地址验证由于某种原因，您将需要创建和提交服务请求。 你执行此操作的方式基于你的组织规模。
   

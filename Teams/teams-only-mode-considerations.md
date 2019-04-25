@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226636"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -53,7 +53,7 @@ ms.locfileid: "30649385"
 
 **特定于用户的注意事项**： 一些用户方案仍在发展，以及管理员可以决定暂时将组织中的其他用户升级时推迟升级的特定用户。 我们正在努力解决这些方案;请监视通知的[Office 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)网站。
 
-| 应用场景 | 备注 |
+| 应用场景 | 注释 |
 |----------|-------|
 |用户的主工作设备已 Mac，并且用户需要请参阅在 Outlook 中的同事 availability。 | 团队中的 outlook 状态尚不完全支持的 Mac 设备。 |
 | 用户定期举行会议与客户或不同的国际区域中的外部合作伙伴。 | 其租户位于不同的地理位置的外部与会者看不到 IM 聊天**联合**会议中。 参与者仍可以加入会议作为匿名用户。 |

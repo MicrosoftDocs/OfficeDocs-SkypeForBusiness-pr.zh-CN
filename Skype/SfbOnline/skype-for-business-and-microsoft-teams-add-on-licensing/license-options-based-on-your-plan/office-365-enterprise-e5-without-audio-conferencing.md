@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业版 （无需音频会议） 计划。 '
 ms.openlocfilehash: c669384dacfe354c0bdaf2622874d9df4d13cdc3
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238341"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5（不含音频会议）
 

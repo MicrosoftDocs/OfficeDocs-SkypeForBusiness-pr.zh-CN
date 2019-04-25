@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227613"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================
@@ -39,7 +38,7 @@ ms.locfileid: "30464313"
 
 - 300 最大用户数
 - 不受限制的聊天消息和搜索
-- 来宾访问
+- 来宾访问权限
 - 与应用程序和服务，包括 Word、 Excel、 PowerPoint 和 OneNote 的联机版本的集成
 - 2 GB 存储每个用户和 10 GB 的共享存储
 - 1:1 和组 online 音频和视频呼叫
@@ -95,4 +94,5 @@ ms.locfileid: "30464313"
 - 若要找出有关团队版本和及其功能的详细信息，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
 - 有关升级到完整版的团队的详细信息，请参阅[从团队免费向工作组升级](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)。
 - 有关升级包括添加用户许可证的用户相关联的其他管理任务更改用户的用户名和分配临时密码，请参阅[对于管理员从团队免费为付费订阅升级](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)。
+- 有关管理团队免费组织中的信息，请参阅[Manage 免费版本的 Microsoft 团队](manage-freemium.md)。
 

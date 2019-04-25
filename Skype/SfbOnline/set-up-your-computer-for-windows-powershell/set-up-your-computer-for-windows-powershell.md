@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: 了解用于远程管理的 Skype online 通过 Windows PowerShell，包括支持的操作系统上的业务要求。
 ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226342"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>为 Windows PowerShell 设置计算机
 

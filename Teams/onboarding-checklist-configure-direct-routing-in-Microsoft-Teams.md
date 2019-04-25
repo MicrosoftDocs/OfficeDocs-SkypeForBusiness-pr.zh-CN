@@ -1,5 +1,5 @@
 ---
-title: 入职培训清单中的 Microsoft 团队配置直接路由
+title: 用于在 Microsoft Teams 中配置直接路由的上线清单
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4e71ed6068c56ab6486e7b4d976ff82c325fe22a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228412"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>配置中的 Microsoft 团队的直接路由
 
@@ -37,7 +37,7 @@ ms.locfileid: "30465065"
 |7|配置 Sbc|Microsoft 仅支持可直接路由与配对认证的 SBCs。<br><br>通过使用一文中的**其他信息**列中的供应商特定指导和说明配置 Sbc。||[支持会话边界控制器 (Sbc)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)|
 |8|对 SBCs 直接路由|每个站点中的 Sbc 必须直接路由以使用自己中继提供拨号音和 PSTN 呼叫功能与配对。<br><br>验证该特定网站中的 SBC 直接路由与已配对时，或如果之前未执行配置对。<br><br>Microsoft 支持仅认证的 SBC 的可直接路由与配对。 验证该网站中的 SBC 认证。||[配对 SBC 定向电话系统的路由服务](https://docs.microsoft.com/microsoftteams/direct-routing-configure#pair-the-sbc-to-direct-routing-service-of-phone-system)|
 |9|验证 SBC 配对|运行`Get-CsOnlinePSTNGateway`cmdlet 以获取每个 SBC 配对的特定站点并验证参数**启用**显示值**True**。<br><br>SBC 管理界面用于验证 SBC 获取**200"OK"** エ ・ 复 ハ 传出 SIP 选项。|||
-| 10|验证用户配置|验证的用户帐户是在 Office 365 中直接创建或使用目录同步同步到 Office 365。<br><br>验证所需的许可证已分配给用户。<br><br>直接路由中的 PSTN 连接，必须为业务 Online 驻留在 Skype 并启用的 Microsoft 团队您的用户。||[为用户启用直接路由服务](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
+|10|验证用户配置|验证的用户帐户是在 Office 365 中直接创建或使用目录同步同步到 Office 365。<br><br>验证所需的许可证已分配给用户。<br><br>直接路由中的 PSTN 连接，必须为业务 Online 驻留在 Skype 并启用的 Microsoft 团队您的用户。||[为用户启用直接路由服务](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
 |11|配置用户的电话号码|必须分配直接路由作用域中的所有用户，他们的电话号码和语音邮件。<br><br> 使用`Set-CsUser`cmdlet 启用语音邮件和向用户分配电话号码。||[配置的电话号码和启用企业语音和语音邮件](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)|
 |12|配置语音路由|电话系统具有可以将呼叫发送给基于特定 SBC 路由机制：<ul><li>呼叫的号码模式<li>呼叫的号码模式 + 调用的特定用户</ul>配置语音路由用户通过创建：<ul><li>语音路由策略<li>PSTN 用法<li>语音路由<li>联机 PSTN 网关</ul>||[配置语音路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-voice-routing)|
 |13|作为首选的呼叫客户端为用户的 Microsoft 团队|用户可以看到**呼叫**选项卡中的 Microsoft 团队之前，您需要启用租户中的 Microsoft 团队的**专用电话**和团队客户端必须配置为**首选调用客户端**的用户。||[启用 Microsoft 团队的呼叫](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)<br><br>[作为首选的呼叫客户端为用户的 Microsoft 团队](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)|

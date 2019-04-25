@@ -1,5 +1,5 @@
 ---
-title: 用户应用的电子邮件模板的 Microsoft 团队或 Skype 业务大规模的部署
+title: 用于 Microsoft Teams 或 Skype for Business 推出的用户采用电子邮件模板
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97bda9bb33e3a87d75ed039fca4a2d042147f0d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235948"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>加快用户应用的新联机电话系统
 

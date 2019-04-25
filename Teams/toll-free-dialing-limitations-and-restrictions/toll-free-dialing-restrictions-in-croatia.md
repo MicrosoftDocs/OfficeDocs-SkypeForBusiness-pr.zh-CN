@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
 ms.openlocfilehash: 28c7b39fb9d049938410ae876ffa3aba65f2be1b
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223286"
 ---
 # <a name="toll-free-dialing-restrictions-in-croatia"></a>克罗地亚的免费拨号限制
 

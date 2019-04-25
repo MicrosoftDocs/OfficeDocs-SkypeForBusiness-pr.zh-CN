@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: 上于 2020 年 4 月 1 日的末尾生命程序将结束的第三方音频会议提供商的 Skype 的业务集成 (第三方 ACP)。
 ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223860"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>第三方音频会议提供商的 Skype 的业务集成的生活程序结束 
 

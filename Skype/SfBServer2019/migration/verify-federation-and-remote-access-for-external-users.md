@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 切换后联盟路由到 Skype 业务 Server 2019 边缘服务器，应执行一些功能测试，以确认联盟能够按预期方式。 外部用户访问测试应包括每种类型的外部用户的支持您的组织，包括任意或全部操作。
 ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231348"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
 

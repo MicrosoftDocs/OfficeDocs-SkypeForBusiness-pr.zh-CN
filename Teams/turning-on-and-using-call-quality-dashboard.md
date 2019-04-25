@@ -3,7 +3,7 @@ title: 打开并使用通话质量仪表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '请参阅如何启用和 Skype 用于业务联机呼叫质量仪表板并获取呼叫的质量摘要报告。 '
-ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026234"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298665"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online
 
@@ -73,7 +73,21 @@ ms.locfileid: "31026234"
      ![CQD 登录](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 登录，一旦被激活后后, CQD 将开始收集和处理数据。
+
+![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+ 
+1. 登录到 Office 365 组织使用的 Microsoft 团队服务管理帐户，然后选择**管理员**图块打开在管理中心。
+    
+2. 在左窗格中，在**管理中心**，选择**Microsoft 团队**打开的 Microsoft 团队管理中心。
+    
+3. 在 Microsoft 团队管理中心中，选择的左窗格中的**呼叫质量仪表板**。
+    
   
+4. 在打开页上，使用您的全局管理员帐户或 Microsoft 团队服务管理员帐户登录，然后提供出现提示时的帐户的凭据。
+    
+     ![CQD 登录](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+登录，一旦被激活后后, CQD 将开始收集和处理数据。  
 > [!NOTE]
 > 可能需要几个小时处理数据不足，无法在报表中显示有意义的结果。 
   
@@ -86,6 +100,7 @@ CQD 摘要报告提供计划的详细的报告功能的子集。 下面总结了
 |:-----|:-----|:-----|
 |应用程序共享指标  <br/> |否  <br/> |是  <br/> |
 |构建信息支持的客户  <br/> |是  <br/> |是   <br/> |
+|客户终结点的信息支持  <br/> |仅在 cqd.teams.microsoft.com  <br/> |仅在 cqd.teams.microsoft.com  <br/> |
 |深入分析支持  <br/> |否  <br/> |是  <br/> |
 |媒体可靠性指标  <br/> |否  <br/> |是  <br/> |
 |即开报告  <br/> |是  <br/> |是   <br/> |
@@ -174,20 +189,22 @@ CQD 这两个版本提供高级入口点的整个呼叫质量信息，但信息�
   
 在详细的报告，您可以使用**是团队**维度筛选 Online 业务数据的报表定义一部分的 Microsoft 团队或 Skype 的数据。
   
-## <a name="upload-building-information"></a>上载构建信息
-<a name="BKMKBuildingInformationUpload"></a>
+## <a name="upload-tenant-data-information"></a>上载租户数据信息
+<a name="BKMKTenantDataInformationUpload"></a>
 
-CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右上角的设置菜单中选择**租户数据上载**访问。 此页用于 admins 上载他们自己的信息，如映射的 IP 地址和地理信息，每个无线 AP 和其 MAC 地址映射，等等。
+CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右上角的设置菜单中选择**租户数据上载**访问。 此页用于 admins 上载自己的信息，如映射的 IP 地址和地理信息、 映射每个无线 AP 和其 MAC 地址、 终结点进行/模型/类型等的终结点的映射。
   
 ![CQD 仪表板](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. 在**租户数据上载**页上，使用下拉菜单中选择上载的数据文件类型。 文件数据类型表示文件的内容 （例如，"Building"指的 IP 地址映射和构建以及其他地理信息）。 当前我们要仅支持"构建"数据类型。 将与后续版本添加几个更多的数据类型。
+1. 在**租户数据上载**页上，使用下拉菜单中选择上载的数据文件类型。 文件数据类型表示文件的内容 （例如，"Building"指的 IP 地址映射，生成以及其他地理信息，"终结点"指映射的终结点名称终结点进行/模型/类型到...信息）。 当前的 cqd.teams.microsoft.com 支持上载"Building"和"终结点"数据类型 (在预览阶段和正式并非尚未)，cqd.lync.com 只支持上载"构建"数据类型。 将与后续版本添加几个更多的数据类型。
     
 2. 选择后的文件数据类型，单击**浏览**选择数据文件。
     
    - 数据文件必须.tsv （制表符分隔值） 文件或.csv （以逗号分隔值） 文件。 如果使用.csv 文件，包含逗号分隔的任何字段必须用引号引起来，或已删除的逗号。 例如，如果您构建的名称是 NY，NY.csv 文件中其应以输入"NY，NY"。
     
    - 数据文件必须是不超过 50 MB 的大小。
+
+   - 文件上载到 cqd.teams.microsoft.com 已扩展 1,000,000 以加速调制查询性能的行限制。 我们可能会实施 cqd.lync.com 以及该限制。
     
    - 对于每个数据文件，文件中的每个列必须匹配一个预定义的数据类型，本主题后面所述。
     
@@ -205,10 +222,11 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
     
      ![CQD 我上载表](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>租户数据文件格式和构建数据文件结构
+### <a name="tenant-data-file-format-and-structure"></a>租户数据文件格式和结构
 <a name="BKMKTenantDataFile"> </a>
 
-您上载的数据文件的格式必须满足以下内容以通过在上载之前验证检查。
+### <a name="building-data-file"></a>正在创建数据文件
+CQD 使用构建的第一个数据文件到呼叫记录的第一个 Subnet/Second 子网列显示构建/城市/国家/地区从展开网络 + NetworkRange 列中，然后加入子网列派生子网列... 信息。 您上载的数据文件的格式必须满足以下内容以通过在上载之前验证检查。
   
 - 文件必须.tsv 文件，这意味着在每个行中，列分隔选项卡上或以逗号分隔每一列的.csv 文件。
     
@@ -239,7 +257,35 @@ CQD 摘要报告仪表板包含一个**租户数据上载**的页，通过从右
    
 > [!IMPORTANT]
 > 网络范围可以用于表示 supernet （单个路由前缀开头的几个子网的组合）。 所有新的生成上载将检查有任何重叠的区域。 如果先前已上载的生成文件，您应将当前文件下载并重新上载以找出任何重叠并再次上载之前修复问题。 重叠之前上载文件的任何情况可能会导致建筑物报告中的子网的错误映射。 某些 VPN 实现未准确报告的子网信息。 当将 VPN 子网添加到该生成文件，而不是一个条目的子网，建议的单独添加条目的 VPN 子网中每个地址作为单独的 32 位网络。 每行可以有相同的构建元数据。 例如，而不是一个 172.16.18.0/24 行中，您应具有 256 行，通过为每个地址之间 172.16.18.0/32 172.16.18.255/32，非独占一行。 
-  
+
+### <a name="endpoint-data-file"></a>终结点数据文件
+CQD 使用终结点数据文件通过其 EndpointName 列加入到呼叫记录的第一个客户端终结点 Name/Second 客户端终结点名称列显示终结点进行/模型/类型信息。 您上载的数据文件的格式必须满足以下内容以通过在上载之前验证检查。
+
+- 文件必须.tsv 文件，这意味着在每个行中，列分隔选项卡上或以逗号分隔每一列的.csv 文件。
+
+- 数据文件的内容不包括表格标题。 这意味着第一行的数据文件应真实数据，不像"EndpointName，"头等。
+
+- 每个列的数据类型只能字符串和它应具有不能超过 64 个字符，这是最大允许长度。
+
+- 每个列的数据可以为空 （但仍必须用相应的分隔符 （即，选项卡或逗号分隔） 分隔。 这只是分配该字段空字符串值。
+
+- 必须为每个行的 7 列和列必须下表中列出的顺序。
+
+- 否则 EndpointName 必须唯一上载将由于重复的行失败，因为这会导致不正确加入。
+
+-  EndpointLabel1 EndpointLabel2、 EndpointLable3 是用户可自定义标签，也可以是空字符串或值用户更喜欢在如"IT 部门指定 2018年便携式计算机"，"资产标记 5678"...等。
+
+|**列名称**|**数据类型**|**示例**|
+|:-----|:-----|:-----|
+|EndpointName  <br/> |String  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |String  <br/> |Fabrikam Inc  <br/> |
+|EndpointModel  <br/> |String  <br/> |Fabrikam 模型 123  <br/> |
+|EndpointType   <br/> |String  <br/> |便携式计算机  <br/> |
+|EndpointLabel1  <br/> |String  <br/> |指定的 IT 2018 便携式计算机  <br/> |
+|EndpointLabel2  <br/> |String  <br/> |资产标记 5678  <br/> |
+|EndpointLabel3  <br/> |String  <br/> |购买 2018   <br/> |
+
+
 ## <a name="selecting-media-type-in-detailed-reports"></a>详细的报告中的选择媒体类型
 <a name="BKMKMediaType"></a>
 

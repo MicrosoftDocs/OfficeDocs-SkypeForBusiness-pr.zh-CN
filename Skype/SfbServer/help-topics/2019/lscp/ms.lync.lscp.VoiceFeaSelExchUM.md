@@ -14,11 +14,11 @@ ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择 Exchange UM 自动助理对话框选择 Exchange UM 自动助理将处理到未分配号码范围的传入呼叫。
 ms.openlocfilehash: decb3023f6faa58d74331714f09ae5415817e966
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221523"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>选择 Exchange UM 自动助理
 

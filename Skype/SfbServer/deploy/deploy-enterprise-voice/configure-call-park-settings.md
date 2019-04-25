@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 修改 Skype 中的业务 Server 企业语音的呼叫寄存设置。
 ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223681"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Skype for Business 中配置呼叫寄存设置
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要： 了解如何删除会议配置设置中 Skype 业务服务器。
 ms.openlocfilehash: 47cde99751c90b71a52b70a0bde9aaf15acf0154
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222756"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>删除会议配置设置中 Skype 业务服务器
  

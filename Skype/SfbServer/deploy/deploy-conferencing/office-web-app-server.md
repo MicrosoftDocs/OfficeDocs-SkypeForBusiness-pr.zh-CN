@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 摘要： 阅读本主题可了解如何配置 Office Web Apps Server 和 Skype 业务服务器启用 web 会议的 PowerPoint 演示文稿之间的集成。
 ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223822"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
  

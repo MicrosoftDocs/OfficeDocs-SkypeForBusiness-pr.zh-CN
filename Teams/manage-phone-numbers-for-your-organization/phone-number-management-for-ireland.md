@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的爱尔兰电话号码的信息。
 ms.openlocfilehash: d948bb89461a6b9d69b95a1088d0b0f9441647db
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245243"
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "30542788"
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取新的用户和业务管理中心的 Skype 中未列出的服务电话号码。 <br/> |在爱尔兰，你无法使用 Skype for Business 管理中心为你的组织获取电话号码。 你必须提交新的电话号码申请。 下载[新电话号码请求爱尔兰 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true)，填充出，并[将其向我们发送](mailto:ptneu@microsoft.com)。  <br/> |
-|获取对我们转接的电话号码。  <br/> |下载下列表单之一： <br/> [爱尔兰授权书 (LOA)（地理号码）(v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [爱尔兰授权书 (LOA)（非地理号码）(v.1.0)(en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  填写此请求并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取对我们转接的电话号码。  <br/> |下载下列表单之一： <br/> [爱尔兰授权书 (LOA)（地理号码）(v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [爱尔兰授权书 (LOA)（非地理号码）(v.1.0)(en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |发布并取消发布的国家/地区的电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |用户的号更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
    

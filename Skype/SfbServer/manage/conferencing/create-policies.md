@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要： 了解如何为业务服务器 Skype 创建会议策略。
 ms.openlocfilehash: 718eacad71ca0264785b9bb42d113c1d54679b50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222833"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>为 Business Server Skype 创建会议策略
  

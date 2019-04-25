@@ -23,11 +23,11 @@ ms.custom:
 - LIL_Placement
 description: '了解如何设置电话拨入式或音频会议的人员在您的业务需要使用电话加入电话会议。 '
 ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229308"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 for Business 的 Skype 设置音频会议
 
@@ -147,6 +147,6 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[音频会议电话号码](phone-numbers-for-audio-conferencing.md)
+[音频会议的电话号码](phone-numbers-for-audio-conferencing.md)
   
 [设置在线会议和会议电话的选项](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

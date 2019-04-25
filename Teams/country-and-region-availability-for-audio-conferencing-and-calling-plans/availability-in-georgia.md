@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于格鲁吉亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: c5f2c6a946308dc43200f4980b1903f929a55679
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226255"
 ---
 # <a name="availability-in-georgia"></a>在格鲁吉亚的可用性
 

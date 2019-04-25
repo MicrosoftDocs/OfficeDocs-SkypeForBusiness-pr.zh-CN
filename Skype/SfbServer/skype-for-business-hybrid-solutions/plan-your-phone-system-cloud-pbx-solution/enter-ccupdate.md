@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter CcUpdate cmdlet 准备通过将其放在维护模式下的更新过程的商务云连接器版主机服务器的 Skype。 装置 isdrained — 即，所有现有呼叫将完成，但新呼叫被拒绝。
 ms.openlocfilehash: 45972058cd9263330b6a4c0a68a5a1b800a85d9d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234061"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
  

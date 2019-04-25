@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
 ms.openlocfilehash: 26f0e81d4f148888b9c8f61b774dcd476bd102d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223513"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>创建带宽策略配置文件中 Skype 业务服务器 
  

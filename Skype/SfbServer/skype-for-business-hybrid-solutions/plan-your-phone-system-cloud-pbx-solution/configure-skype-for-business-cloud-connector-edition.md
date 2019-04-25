@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 了解如何配置 Skype 商务云连接器版，最少内部拓扑以启用内部部署语音基础结构与电话系统的 Skype 中的 Office 365 (云 PBX) 语音服务业务 online 的集成。
 ms.openlocfilehash: 5d057a299e51bfb83bd6711fcf1fbe8b4ee98f02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227913"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>配置和管理 Skype for Business 云连接器版本
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机 VIS Skype 池中创建的业务服务器 2015年。
 ms.openlocfilehash: 82739e421ee2d4e7cbf8b09ff7c3a61ed6435016
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227366"
 ---
 # <a name="associate-vis-with-edge"></a>将 VIS 与边缘关联
  

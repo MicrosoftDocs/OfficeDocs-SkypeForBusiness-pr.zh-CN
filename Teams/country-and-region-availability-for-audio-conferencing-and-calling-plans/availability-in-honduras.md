@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于洪都拉斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: 6e786a81ac717c6f35db0d3bee4b642fef8380e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226378"
 ---
 # <a name="availability-in-honduras"></a>在洪都拉斯的可用性
 

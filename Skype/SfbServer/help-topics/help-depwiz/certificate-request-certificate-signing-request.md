@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: 若要创建的脱机请求，您必须首先创建的证书签名请求 (CSR)。 在文件名文本框中键入 CSR 的路径和文件名称。 您可以单击浏览以选择一个位置创建 CSR。 单击下一步。
 ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235085"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>证书请求（证书签名请求）
  

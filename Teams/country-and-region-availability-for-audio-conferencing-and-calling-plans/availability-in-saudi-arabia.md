@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 沙特阿拉伯可用的项目。
 ms.openlocfilehash: 7acac3a77ffb74cc5d4800efcfbcb90f7316d315
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222047"
 ---
 # <a name="availability-in-saudi-arabia"></a>在沙特阿拉伯的可用性
 

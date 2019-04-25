@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: 您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 若要执行此操作，您需要知道如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
 ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226816"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 

@@ -14,11 +14,11 @@ ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: SQL 存储在拓扑中的节点列表的 SQL Server 数据库。 可以执行以下操作：
 ms.openlocfilehash: 0485c23dea00a2d317af914e0f33e72961eee778
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235225"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  

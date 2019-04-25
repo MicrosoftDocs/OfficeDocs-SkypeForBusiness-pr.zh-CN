@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 有关分支站点恢复能力的详细信息，请参阅规划分支站点语音恢复能力。
 ms.openlocfilehash: 46ce05f9cdb287f20fc19bee5f05f00a23f3bf23
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222742"
 ---
 # <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本节中的主题将指导您完成的迁移到 Skype for Business Server 2019 过程。
 ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231607"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>迁移到 Skype 业务服务器 2019
 

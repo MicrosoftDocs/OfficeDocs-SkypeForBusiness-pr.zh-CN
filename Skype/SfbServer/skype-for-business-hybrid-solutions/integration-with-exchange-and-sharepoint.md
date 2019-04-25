@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 摘要： 了解与 Exchange 和 SharePoint 的业务服务器 2015年集成 Skype。
 ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227934"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>与 Exchange 和 SharePoint 集成
 
@@ -38,7 +38,7 @@ ms.locfileid: "30879960"
  **Skype 的本地业务服务器和本地 Exchange**
 
 
-|**功能**|**备注**|
+|**功能**|**注释**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[IM 和状态](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)。  <br/> |
 |通过 Outlook 安排和加入联机会议  <br/> |有关详细信息，请参阅[业务服务器 2015 与 Exchange Server 的集成 Skype](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "30879960"
  **Skype Business Server 本地和 Exchange Online**
 
 
-|**功能**|**备注**|
+|**功能**|**注释**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> |有关详细信息，请参阅[配置集成业务服务器 2015年和 Outlook Web App 的内部部署 Skype](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |通过 Outlook 安排和加入联机会议  <br/> ||
@@ -78,7 +78,7 @@ ms.locfileid: "30879960"
  **Skype 业务在线和本地 Exchange**
 
 
-|**功能**|**备注**|
+|**功能**|**注释**|
 |:-----|:-----|
 |Outlook 中的状态  <br/> ||
 |通过 IM 响应、PSTN 呼叫、Skype 通话或从 Outlook 电子邮件进行视频通话  <br/> ||
@@ -95,7 +95,7 @@ ms.locfileid: "30879960"
  **Skype for Business Online 和 Exchange Online**
 
 
-|**功能**|**备注**|
+|**功能**|**注释**|
 |:-----|:-----|
 |Outlook 中的 IM/状态  <br/> ||
 |通过 Outlook 安排和加入联机会议  <br/> ||

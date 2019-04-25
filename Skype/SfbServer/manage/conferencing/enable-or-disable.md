@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要： 了解如何使用控制面板或命令行管理程序启用或禁用业务服务器中 Skype 电话拨入式会议。
 ms.openlocfilehash: 216973e8d3a887dcae308fc5efa6d67b2415493b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222826"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>启用或禁用业务服务器中 Skype 电话拨入式会议
  

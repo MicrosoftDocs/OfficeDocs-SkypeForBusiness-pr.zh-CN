@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Windows PowerShell 中使用 Get-csonlineuser cmdlet 以获取有关您组织的 Skype 针对业务 Online 用户信息。
 ms.openlocfilehash: 4c2e7e581146c179f3171f38e82eff219871a90a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224385"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>管理用户帐户使用 Online Connector
 

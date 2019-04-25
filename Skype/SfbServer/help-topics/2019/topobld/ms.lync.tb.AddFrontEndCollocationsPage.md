@@ -14,11 +14,11 @@ ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 对于 Enterprise Edition 部署，A / V 会议服务并置在前端池上。 您还可以并置中介服务器上的前端池，或您可以将其部署为独立服务器。 A / V 会议服务始终并置，如果启用会议。
 ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235503"
 ---
 # <a name="add-front-end-server-collocations"></a>添加前端服务器并置
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 摘要： 阅读本主题可了解如何为业务服务器 2015年对于 Persistent Chat Server in Skype 配置高可用性和灾难恢复。
 ms.openlocfilehash: 5c53652cf5084b5a6c021c38f71f1cccc0322efa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225488"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置高可用性和灾难恢复
  

@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 您的用户使用他们的音频会议信息的电子邮件中发送 Skype 业务 online。
 ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229318"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>对 Skype 中的业务联机其音频会议信息的用户发送电子邮件
 

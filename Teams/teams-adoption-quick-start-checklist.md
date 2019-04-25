@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225045"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 
@@ -32,25 +32,25 @@ ms.locfileid: "30464009"
 
 - [采用必备组件](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a>阶段 1-开始
+## <a name="phase-1---start"></a>第 1 阶段 - 开始
 
 - [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
-- [创建您的第一个团队](teams-adoption-your-first-teams.md)
+- [创建第一个团队](teams-adoption-your-first-teams.md)
 - [可供团队？](teams-adoption-assess-readiness.md)
 - [会见利益干系人](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [识别前期应用](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>阶段 2-实验
+## <a name="phase-2---experiment"></a>第 2 阶段 - 试验
 
-- [创建拥护者程序](teams-adoption-create-champions-program.md)
+- [创建冠军计划](teams-adoption-create-champions-program.md)
 - [完成调控快速入门](teams-adoption-governance-quick-start.md)
 - [定义使用方案](teams-adoption-define-usage-scenarios.md)
 - [面试业务利益干系人](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [映射并设置其优先级业务方案](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)
-- [板载支持](teams-adoption-onboard-support.md)
+- [登记早期采用者并收集反馈](teams-adoption-onboard-early-adopters.md)
+- [登记支持](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>阶段 3-比例
+## <a name="phase-3---scale"></a>第 3 阶段 - 调整
 
 - [定义产出和成功度量值](teams-adoption-define-outcomes.md)
 - [选择的服务启用策略](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
@@ -58,7 +58,7 @@ ms.locfileid: "30464009"
 - [展开您的实施团队](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [展开您的监管和信息管理策略](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
-- [驱动器认知度和培训](teams-adoption-drive-awareness.md)
+- [提高认识度并实施培训](teams-adoption-drive-awareness.md)
 - [安排服务 reviews （英文）](teams-adoption-schedule-service-health-reviews.md)
 
 

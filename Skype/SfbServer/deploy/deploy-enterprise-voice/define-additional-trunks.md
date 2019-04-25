@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义其他中继的中介服务器和对等网关之间。
 ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223160"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义其他中继
  

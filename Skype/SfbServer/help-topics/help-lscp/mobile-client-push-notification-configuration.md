@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: 若要配置的 Microsoft 推送通知和 Apple 推送通知，您必须创建策略，以定义需要哪些类型的推送通知。
 ms.openlocfilehash: 0c36696e8dbc26616a7b17918c63f3f40ab36fab
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220303"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  

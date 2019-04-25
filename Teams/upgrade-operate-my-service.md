@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233001"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -438,7 +438,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 4. **访问的 Microsoft 团队社区：**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)团队提供专用的空格。 团队社区提供讨论列表、 博客帖子和团队为中心的通知。 可以将问题发布到或搜索解决方案的上述讨论与您的问题。
 
-5. **与 Microsoft 支持部门联系：** 您可以问题的团队联机或通过电话联系 Microsoft 支持。 有关信息，请参阅[支持的 Microsoft 团队的联系人](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 有关高级客户，可以执行在指南启动请求的支持[与支持部门联系的 Microsoft 团队 (高级客户)](https://support.microsoft.com/premier/contacts)。
+5. **与 Microsoft 支持部门联系：** 您可以问题的团队联机或通过电话联系 Microsoft 支持。 有关信息，请参阅[业务产品支持的联系人](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 有关高级客户，可以执行在指南启动请求的支持[与支持部门联系的 Microsoft 团队 (高级客户)](https://support.microsoft.com/premier/contacts)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
 
@@ -477,7 +477,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 ### <a name="service-administration"></a>服务管理
 
 团队服务都有多个可以配置租户范围的设置。
-租户设置所做的更改会影响所有用户已启用团队。 有关这些设置的详细列表，请参阅[Office 365 组织中的管理 Microsoft 团队功能](enable-features-office-365.md)。
+租户设置所做的更改会影响所有用户已启用团队。 有关这些设置的详细列表，请参阅[管理 Microsoft 团队设置为您的组织](enable-features-office-365.md)。
 
 ### <a name="user-administration"></a>用户管理
 

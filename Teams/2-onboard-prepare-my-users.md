@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241706"
 ---
 # <a name="prepare-my-users"></a>准备用户
 

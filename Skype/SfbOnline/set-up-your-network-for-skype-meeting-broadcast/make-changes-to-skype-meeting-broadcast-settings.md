@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: 您可以启用 Skype 会议广播和更改的设置和这些会议策略。
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226271"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对您的组织的 Skype 会议广播设置进行更改
 

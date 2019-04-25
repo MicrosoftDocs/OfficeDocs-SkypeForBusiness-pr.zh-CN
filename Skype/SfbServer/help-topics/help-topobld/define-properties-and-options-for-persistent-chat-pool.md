@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：
 ms.openlocfilehash: 380a1e34e041368d4520cd5c8ecea5b18284ef51
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226919"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定义持久聊天池的属性和选项
  

@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: 很遗憾，还有阻止某些用户许可证时用户转到https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
 ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226360"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>阻止用户许可证承载 Skype 会议广播
 

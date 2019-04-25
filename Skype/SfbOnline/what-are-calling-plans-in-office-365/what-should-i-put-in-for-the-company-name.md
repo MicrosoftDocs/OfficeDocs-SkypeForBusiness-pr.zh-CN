@@ -1,5 +1,5 @@
 ---
-title: 我应该在公司名称中输入什么？
+title: 什么应将放公司名称？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: '要放置 Skype for Business 中, 为公司内容，您可以找到。 '
 ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229592"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a>我应该在公司名称中输入什么？
+# <a name="what-should-i-put-in-for-the-company-name"></a>什么应将放公司名称？
 
 这是您的公司或组织的名称。 公司的名称是限制为 25 个字符，其中包括空格。 公司名称不用于处理端口订购请求;使用对于争议或内容不正确时是否通过端口连接的电话号码。 如果您不能容纳整个在框中的公司名称，它不会推迟或取消端口顺序。
   

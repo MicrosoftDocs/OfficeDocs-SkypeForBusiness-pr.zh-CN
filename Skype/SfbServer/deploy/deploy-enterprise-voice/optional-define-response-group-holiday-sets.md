@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 创建或修改业务 Server 企业语音的 Skype 中的响应组假日集。
 ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225644"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>（可选）Skype for Business 中定义响应组假日集
  

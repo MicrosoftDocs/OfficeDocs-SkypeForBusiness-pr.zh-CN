@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要： 阅读本主题可了解如何配置存档免责声明的 Skype 业务服务器。
 ms.openlocfilehash: 9511dacb23773a4cd411844abd1d38216026019e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227557"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>在 Skype for Business Server 配置为外部用户的存档免责声明
  

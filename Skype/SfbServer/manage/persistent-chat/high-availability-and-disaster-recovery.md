@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要： 了解如何管理持久聊天服务器高可用性和灾难恢复 Skype 中的业务服务器 2015年。
 ms.openlocfilehash: b7c898be275a4a3642eae88412a14686b258130f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232680"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器的高可用性和灾难恢复
  

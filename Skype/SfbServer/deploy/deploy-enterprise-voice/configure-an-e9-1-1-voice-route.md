@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。
 ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223702"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 E9-1-1 语音路由
  

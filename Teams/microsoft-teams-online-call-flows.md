@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队呼叫流
+title: Microsoft Teams 通话流程
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: 介绍团队如何在各种拓扑中使用 Office 365 流。
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232036"
 ---
-# <a name="microsoft-teams-call-flows"></a>Microsoft 团队呼叫流
+# <a name="microsoft-teams-call-flows"></a>Microsoft Teams 通话流程
 
 > [!Tip]
 > 观看以下会话，从而了解团队如何利用您的网络，以及如何规划最佳的网络连接：[团队网络规划](https://aka.ms/teams-networking)

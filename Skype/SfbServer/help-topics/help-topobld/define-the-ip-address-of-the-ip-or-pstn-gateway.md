@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: 您可以通过选择启用 IPv4 或启用 IPv6 定义 IP 或电话电话交换网 (pstn) 网关的 IPv4 或 IPv6 地址。 您可以选择，请使用所有已配置的 IP 地址或服务使用率限制为所选的 IP 地址。
 ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226962"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
 

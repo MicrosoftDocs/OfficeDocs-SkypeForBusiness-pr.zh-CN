@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 法国可用的项目。
 ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226334"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "30541677"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 巴黎</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -68,7 +68,7 @@ ms.locfileid: "30541677"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>昂热 <li>  波尔多 <li>  卡尔卡松尼 <li>  第戎 <li>  格勒诺布尔 <li>  勒阿弗尔 <li>  里尔 <li>  里昂 <li>  马赛 <li>  蒙彼利埃 <li>  南特 <li>  尼斯 <li>  巴黎 <li>  兰斯 <li>  雷恩 <li>  圣艾蒂安 <li>  斯特拉斯堡 <li>  土伦 <li>  图卢兹 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  学位 <li>  格勒诺布尔 <li>  Le Havre <li>  Lille <li>  耀明 <li>  Marseille <li>  蒙彼利埃 <li>  Nantes <li>  不错 <li>  巴黎 <li>  Reims <li>  Rennes <li>  Saint-Etienne <li>  Strasbourg <li>  Toulon <li>  Toulouse </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245021"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
 
@@ -94,7 +94,7 @@ ms.locfileid: "30664729"
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置电话系统语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](set-up-calling-plans.md)
     

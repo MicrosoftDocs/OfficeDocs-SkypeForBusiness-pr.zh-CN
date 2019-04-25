@@ -22,11 +22,11 @@ ms.custom:
 - Setup
 description: 了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。
 ms.openlocfilehash: 785a5c8323eda012f50c290e2241321f54c4834f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225991"
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 

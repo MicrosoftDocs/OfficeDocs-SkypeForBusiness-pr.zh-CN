@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于波多黎哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232703"
 ---
 # <a name="availability-in-puerto-rico"></a>在波多黎各的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "30542828"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -60,7 +60,7 @@ ms.locfileid: "30542828"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。美国国内呼叫包括拨打至美国所有 50 个州和波多黎各的呼叫。分配了美国和/或波多黎各的许可证使用位置的用户共享同一分钟数池。  <br/> |
+|通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。 美国国内呼叫包括对所有 50 美国状态和波多黎各 （美） 的调用。 与许可证使用情况位置的美国和/或波多黎哥分配的用户共享分钟的同一个池。  <br/> |
 |可以发起出站呼叫到声讯电话号码？ <br/> | 不支持这一次。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。  <br/> |
    

@@ -19,16 +19,16 @@ search.appverid: MET150
 description: 了解有关 Microsoft 团队和如何使用它们来控制对组织中用户可用的应用程序中的应用程序权限策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 8c35871fde876e01bba1ad8a843cd25fa0174c8d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225131"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 作为一名管理员，您可以使用应用程序的权限策略来控制应用程序可供您的组织中的 Microsoft 团队用户。 您可以允许或阻止所有应用程序或由 Microsoft 已发布的特定应用程序第三方和您的组织。 当您阻止应用程序时，用户将无法从团队应用程序商店安装它。
 

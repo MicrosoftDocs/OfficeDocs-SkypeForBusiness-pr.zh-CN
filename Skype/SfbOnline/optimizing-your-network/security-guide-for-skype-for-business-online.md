@@ -21,15 +21,15 @@ ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247995"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全性和 Skype for Business 联机
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. 有关完整详细信息，请参阅 Microsoft 信任中心 (https://microsoft.com/trustcenter)。
+Skype for Business Online（SfBO）作为 Office 365 服务的一部分，通过纵深防御、服务内的客户控制、安全强化和运营最佳实践，遵循所有安全最佳实践和程序（例如服务级安全性）。 有关完整详细信息，请参阅 Microsoft 信任中心 (https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>设计方面的可信赖性
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -55,7 +55,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 SfBO 缓解针对这些攻击中，通过运行 Azure DDOS 网络保护，并通过限制来自相同的终结点、 子网和联合的实体的客户端请求。
 
 ### <a name="eavesdropping"></a>窃听
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
@@ -77,7 +77,7 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>SPIM
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+Spim 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。
 
 ### <a name="viruses-and-worms"></a>病毒和蠕虫
 病毒是一个代码单元，其目的是为了复制更多类似的代码单元。 病毒需要像文件、电子邮件或程序这样的宿主才能发挥作用。 和病毒一样，蠕虫是一种代码单元，它的代码旨在繁殖更多的类似代码单元，但与病毒不同的是，蠕虫不需要宿主。 病毒和蠕虫主要是在客户端之间传送文件期间或从其他用户发送 URL 时出现。 例如，如果你的计算机上存在某种病毒，则该病毒可使用你的身份代表你发送即时消息。 标准的客户端安全最佳实践（例如定期扫描病毒）可以缓解此问题。 
@@ -203,7 +203,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 客户端证书提供用户进行身份验证 SfBO 另一种的方法。而不是提供用户名和密码，用户拥有证书和对应于要解决加密质询，则需要证书的私钥。 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Windows PowerShell 和 SfBO 管理工具
-在 SfBO 中，IT 管理员可以通过 O365 管理门户或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。 租户管理员使用现代身份验证向 TRPS 进行身份验证。
+在 SfBO 中，IT 管理员可以通过 O365 管理门户或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。 租户管理员使用现代身份验证对 TRPS 进行身份验证。
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>在 Internet 边界配置对 SfBO 的访问
 为 SfBO 协同工作 （用户能够加入会议等），客户需要配置其 internet 访问以便允许 SfBO 云服务的出站 UDP 和 TCP 通信。 有关详细信息，请参阅此处：https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -237,7 +237,7 @@ Enabling external users and internal users to exchange media requires an Access 
 4. 客户端之间的 A / V 会议服务器的媒体连接进行协商和通过 SRTP 的设置。
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>SfBO 的联盟保障
+### <a name="federation-safeguards-for-sfbo"></a>SfBO 的联盟安全保护
 联盟让你的组织能够与其他组织通信，以共享 IM 和状态。 在 SfBO 中，默认设置为开启联盟。 但是，租户管理员可以通过 O365 管理门户进行控制。 了解更多详情。
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>应对 SfBO 会议的威胁
@@ -283,7 +283,7 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **仅组织者**&nbsp;&nbsp;仅会议组织者可以演示。
 - **我公司的人员**&nbsp;&nbsp;所有内部用户均可演示。
 - **包含公司以外人员的所有人**&nbsp;&nbsp;可以演示的所有人 （没有限制） 加入会议。
-- **我选择的人**&nbsp;&nbsp;会议组织者通过将其添加到演示者列表中来指定哪些用户可以演示。
+- **我选择的人员**&nbsp;&nbsp;会议组织者指定哪些用户可以通过将它们添加到列表中的演示者的演示。
 
 ## <a name="related-topics"></a>相关主题
 [Microsoft 信任中心](https://microsoft.com/trustcenter)

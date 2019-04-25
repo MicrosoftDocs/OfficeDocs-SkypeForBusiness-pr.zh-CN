@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: 您可以向编辑日志设置页上，确定最大日志缓存大小、 最大日志文件大小或在被清除之前保留日志文件的时间长度添加设备日志配置。 您可以更改这些设置根据贵组织的要求。
 ms.openlocfilehash: 09d0bc24ad61be98864fd1f37964c01f1fba84ba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234655"
 ---
 # <a name="device-log-configuration-edit"></a>设备日志配置：编辑
  

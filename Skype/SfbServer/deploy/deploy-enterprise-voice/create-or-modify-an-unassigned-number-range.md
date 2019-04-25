@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 创建、 修改或删除 Skype 中为 Business Server 企业语音的通知应用程序的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
 ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223189"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>创建或修改业务服务器 Skype 中的未分配号码范围
  

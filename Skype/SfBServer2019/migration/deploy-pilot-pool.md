@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一个迁移到 Skype 的业务服务器 2019年所需的第一个步骤是部署试点池。 试点池是与旧部署测试业务服务器 2019 Skype 的共存的位置。 共存一直持续到移动所有用户和池到 Skype 的业务服务器 2019年的临时状态。
 ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238533"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>为业务服务器 2019年试点池部署 Skype
 

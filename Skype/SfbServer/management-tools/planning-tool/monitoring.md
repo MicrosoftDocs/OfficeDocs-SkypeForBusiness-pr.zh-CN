@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在业务服务器 2015年的 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。
 ms.openlocfilehash: 339c3e8614986ffbf1f5a438c97ccfbcf50fbb3a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235735"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 

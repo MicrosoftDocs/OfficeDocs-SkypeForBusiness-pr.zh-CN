@@ -1,5 +1,5 @@
 ---
-title: 虚拟桌面基础结构团队
+title: 适用于虚拟化桌面基础结构的 Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223421"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>虚拟桌面基础结构团队
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
 本文介绍的要求和虚拟化环境中使用的 Microsoft 团队的限制。
 

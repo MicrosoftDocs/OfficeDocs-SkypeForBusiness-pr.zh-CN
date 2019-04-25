@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 右键单击在拓扑生成器以执行以下的持久聊天池：
 ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226910"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>创建持久聊天服务器范围节点
  

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要： 管理 Skype 中的业务服务器的双重身份验证。
 ms.openlocfilehash: ce6d43b8ace741a754cb4406235534fd83e414b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222875"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>管理 Skype 中的业务服务器的双重身份验证
  

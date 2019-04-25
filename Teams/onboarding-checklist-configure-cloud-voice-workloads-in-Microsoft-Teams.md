@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 971e1be3caf30800df68637674311f487e7e6854
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225576"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>配置 Microsoft 团队中的云语音工作负荷
 

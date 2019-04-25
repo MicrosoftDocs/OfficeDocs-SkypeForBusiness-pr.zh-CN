@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: 本主题定义的业务联机服务 Skype 的网络性能要求集和如何您可以选择业务 online 网络和 Skype 之间的连接使用的 Internet 或 ExpressRoute 基于您的网络的评估连接。 如果您已决定专用连接到 Office 365 部署 Azure ExpressRoute，本文还如何规划中的业务 Online 部署方案的不同 Skype ExpressRoute 连接提供指导。
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236920"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online 中的媒体质量和网络连接性能
 
@@ -127,12 +127,12 @@ Skype 业务实时媒体传输通过许多不同的设备、 客户端应用程�
 |||
 |:-----|:-----|
 |**指标** <br/> |**目标** <br/> |
-|延迟（单向）  <br/> |< 50 ms  <br/> |
-|延迟（RTT 或往返时间）  <br/> |< 100 ms  <br/> |
-|突发数据包丢失  <br/> |< 10%，在任何 200 ms 时间间隔内  <br/> |
-|数据包丢失  <br/> |< 1%，在任何 15 s 时间间隔内  <br/> |
-|数据包中间间隔抖动  <br/> |< 30 ms，在任何 15 s 时间间隔内  <br/> |
-|数据包重新排序  <br/> |< 0.05% 无序数据包  <br/> |
+|延迟 （一种方法）  <br/> |< 50 毫秒  <br/> |
+|延迟 （RTT 或往返时间）  <br/> |< 为 100 毫秒  <br/> |
+|突发数据包丢失  <br/> |任何为 200 毫秒间隔期间 <10%  <br/> |
+|数据包丢失  <br/> |<1%期间任何 15 秒间隔  <br/> |
+|数据包间到达抖动  <br/> |<30ms 期间任何 15 秒间隔  <br/> |
+|数据包重新排序  <br/> |<0.05%序的数据包  <br/> |
    
  **其他性能目标的要求：**
   
@@ -153,12 +153,12 @@ Skype 业务实时媒体传输通过许多不同的设备、 客户端应用程�
 |||
 |:-----|:-----|
 |**指标** <br/> |**目标** <br/> |
-|延迟（单向）  <br/> |< 30 ms  <br/> |
-|延迟 (RTT)  <br/> |< 60 ms  <br/> |
-|突发数据包丢失  <br/> |< 1%，在任何 200 ms 时间间隔内  <br/> |
-|数据包丢失  <br/> |< 0.1%，在任何 15 s 时间间隔内  <br/> |
-|数据包中间间隔抖动  <br/> |< 15 ms，在任何 15 s 时间间隔内  <br/> |
-|数据包重新排序  <br/> |< 0.01% 无序数据包  <br/> |
+|延迟 （一种方法）  <br/> |< 30ms  <br/> |
+|延迟 (RTT)  <br/> |< 为 60 毫秒  <br/> |
+|突发数据包丢失  <br/> |任何 200 毫秒间隔期间 <1%  <br/> |
+|数据包丢失  <br/> |<0.1%期间任何 15 秒间隔  <br/> |
+|数据包间到达抖动  <br/> |<15ms 期间任何 15 秒间隔  <br/> |
+|数据包重新排序  <br/> |<0.01%序的数据包  <br/> |
    
  **其他性能目标的要求：**
   

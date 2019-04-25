@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: 媒体旁路功能是指从尽可能信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。 更多详细信息，请参阅 Plan for 媒体绕过中的业务 2015 Skype。
 ms.openlocfilehash: a361969e5054ed3ca4f659d45068e1affa563f68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237142"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  

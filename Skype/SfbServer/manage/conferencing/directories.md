@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 摘要： 了解如何为业务服务器 Skype 创建会议目录。
 ms.openlocfilehash: 9e79ca7e1b2f896746db998cc53983c04c6724ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883512"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222749"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>为 Business Server Skype 创建会议目录
  

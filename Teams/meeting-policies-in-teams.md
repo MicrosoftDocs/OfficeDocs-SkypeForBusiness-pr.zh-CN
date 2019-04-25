@@ -3,7 +3,7 @@ title: 管理会议策略
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何管理会议团队中的策略设置。
-ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 01d4ec8265c069d5fdbd6d8bb64ab89ec991956a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231811"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -84,7 +84,7 @@ ms.locfileid: "31517197"
 
 <a name="bkgeneral"> </a>
 ### <a name="general"></a>常规
-   - **允许立即开会**打开： 将允许立即开会功能可加入会议的用户。
+   - **允许通道中现在开会**打开： 将允许立即开会功能可供用户加入会议。
    - **允许 Outlook 外接程序**打开将让他们安排会议时，Outlook 外接程序提供已分配给策略的用户。
    - **允许通道会议日程安排**打开： 将允许通道会议安排。
    - **允许安排专用会议**打开： 将允许用户加入会议安排专用会议。
@@ -110,8 +110,13 @@ ms.locfileid: "31517197"
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>参与者 & 来宾
-   - **允许的拨入开始会议的人员**如果您想让未经过因为他们已拨入使用其电话启动会议的人员，您可以打开或关闭。
-   - **自动允许人员加入**确定类型的参与者将自动添加到此用户组织的会议。 此设置为"在组织中的任何人"如果您希望会议放置在会议厅中的每个外部用户，但公司加入会议立即中允许所有用户。 此设置为"任何人"如果您想要允许匿名用户的默认值。 此设置为"您的组织和联盟的组织中的任何人"如果您想要允许联盟的用户加入您的公司用户，如但放置在会议厅中的所有外部用户的会议。
+   - **允许的拨入开始会议的人员**如果您想让尚未经过因为它们拨入使用其电话启动会议的人员，您可以打开或关闭。
+   - **自动允许人员加入**确定类型的参与者将自动添加到此用户组织的会议。 如果您希望会议放置在会议厅中的每个外部用户，但公司加入会议立即中允许所有用户，请向**您的组织中的每个人**设置这。 如果您希望默认情况下允许匿名用户，请向**每个人**设置这。 此设置为**您的组织和联盟的组织中的每个人**如果您想要允许联盟的用户加入您的公司用户，如但放置在会议厅中的所有外部用户的会议。
+   - **允许电话拨入式用户，以绕过大厅**如果您想让拨入使用其电话以绕过会议厅，加入会议的人员，您可以打开或关闭。
+   - **允许组织者覆盖会议厅设置**启用此设置可允许会议组织者忽略会议厅设置以允许用户加入到会议。
+   - **现在在专用的会议中允许满足**启用此设置以允许在会议开始之前，私下满足通过聊天会议与会者。 
+   - **启用 live 标题**启用此设置可以在会议过程中支持的语言显示标题。 
+   - **在会议中允许聊天**启用此设置允许在会议期间聊天。 如果用户有问题或想要插入的超链接或注释期间讨论，但是它们不希望中断对话，这是非常有用。
 
 [完整的文章](meeting-policies-in-teams.md)
 

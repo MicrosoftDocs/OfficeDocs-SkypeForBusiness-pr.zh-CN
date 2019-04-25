@@ -1,5 +1,5 @@
 ---
-title: 我应该在帐户编号中输入什么？
+title: 什么应将放帐户号码？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: '请参阅什么您应置于作为帐号 Skype for Business，并在哪里可以找到的。 '
 ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229602"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>我应该在帐户编号中输入什么？
+# <a name="what-should-i-put-in-for-the-account-number"></a>什么应将放帐户号码？
 
 通常情况下，您可以在任何 bill 找到帐号或发票必须从服务提供商或运营商，也可以登录到您的运营商的网站。 如果您仍然不知道帐户号码，您可以与您的服务提供商或运营商，即可使用它。
   

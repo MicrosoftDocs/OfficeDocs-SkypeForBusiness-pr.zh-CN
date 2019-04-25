@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229884"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -49,7 +49,7 @@ ms.locfileid: "30047894"
   
 - 分配给用户，这是默认电话号码。
     
-- 在您的 Office 365 电话号码库存通话套餐中分类为*服务*和*免费电话*的电话号码。 它通常分配给组织的自动助理或呼叫队列。
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - 设置为匿名。
     
@@ -63,7 +63,7 @@ ms.locfileid: "30047894"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>出站来电显示的最终用户控制
 
-通过 EnableUserOverride 属性，单个用户或多个用户可以将其"来电显示"设置更改为" **匿名**"。 仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。 EnableUserOverride 的默认值是 False。
+The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
 最终用户可以通过使用 for Business 桌面客户端的 Skype 中的**设置**选项卡将其呼叫者 ID 设置为**匿名**，选择**呼叫最终用户**（如果由管理员启用），选择所有呼叫的**隐藏我的电话号码和配置文件信息**.
   
@@ -78,7 +78,7 @@ ms.locfileid: "30047894"
    
 ## <a name="inbound-caller-id"></a>入站来电显示
 
-BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。 您可以设置此属性，而只是向最终用户在用户设置页上可用。 当前仅在使用在线 PSTN 连接时可用。
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 要设置出站来电显示，请参见[为用户设置来电显示](set-the-caller-id-for-a-user.md)。
   

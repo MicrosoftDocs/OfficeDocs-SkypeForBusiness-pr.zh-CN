@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 配置媒体绕过以用于某些网站和区域中 Skype 业务 Server 企业语音。
 ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222567"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置
  

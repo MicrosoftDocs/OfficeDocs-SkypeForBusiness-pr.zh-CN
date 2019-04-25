@@ -19,16 +19,17 @@ search.appverid: MET150
 description: 了解 Microsoft 团队以及如何使用它们 pin 应用程序自定义您的组织中的用户的工作组中的应用程序设置策略。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: b38a381e95855380e017050441885474934cbe8f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227212"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!NOTE]
+> 如果您启用组织范围应用程序权限的策略设置**与自定义应用程序允许进行交互**，您可能无法看到尚未在 Microsoft 团队管理中心的应用程序设置策略。 它当前正在推出，将立即在组织中可用。
 
 作为一名管理员，您可以使用应用程序设置策略自定义 Microsoft 团队以突出显示您的用户的最重要的应用程序。 选择锁定并设置它们出现的顺序的应用程序。 应用程序安装策略允许您展示您的组织中的用户需要包括由第三方或由组织中的开发人员构建的应用程序。 您还可以使用应用程序安装策略管理如何内置功能显示。
 
@@ -40,12 +41,12 @@ ms.locfileid: "31749746"
 
 管理 Microsoft 团队管理中心中的应用程序设置策略。 您可以使用全局 （组织范围内默认值） 策略或创建自定义策略，并将其分配给用户。 您的组织中的用户将自动授予全局策略，除非您创建和分配自定义策略。
 
-您可以编辑该全局策略中的设置，以包含所需的应用程序。 如果您想要自定义为不同的组织中用户组的团队，创建并分配一个或多个自定义策略。
+您可以编辑该全局策略中的设置，以包含所需的应用程序。 如果您想要自定义为不同的组织中用户组的团队，创建并分配一个或多个自定义策略。 如果用户已分配的自定义策略，该策略应用于用户。 如果用户未分配的自定义策略，全局策略应用于用户。
 
 ![应用程序的安装程序 policies.png](media/app-setup-policies.png)
 
 > [!NOTE]
-> 如果用户已分配的自定义策略，该策略应用于用户。 如果用户未分配的自定义策略，全局策略应用于用户。
+> 如果您有面向教育机构的团队，务必知道，分配应用程序固定默认情况下，在全局策略中，即使当前，看它列出在全局策略。 它将固定程序团队客户端上的列表中的第四个应用程序。
 
 ## <a name="create-a-custom-app-setup-policy"></a>创建自定义应用程序安装程序策略
 

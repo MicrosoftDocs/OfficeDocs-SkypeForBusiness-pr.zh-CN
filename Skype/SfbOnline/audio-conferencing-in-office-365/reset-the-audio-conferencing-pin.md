@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '了解关于 Pin 应知道什么以及如何中重置它们 Skype 业务 online。 '
 ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229248"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>联机置 for Business 的音频会议中 Skype 的 PIN
 

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
 ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229854"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>手动提交自定义服务请求
 
@@ -98,7 +98,7 @@ ms.locfileid: "25371870"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> [!提示] 将在 Office 365 管理中心中" **服务请求**"页面上列出参考编号。
+> 将在 Office 365 管理中心的“**服务请求**”页面上列出参考编号。
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>你还应该知道有关订单移植的哪些信息？
 

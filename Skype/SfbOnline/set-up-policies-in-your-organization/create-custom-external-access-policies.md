@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Skype 业务 online 允许您创建其他外部访问策略。 与客户端或会议策略，其中可以有多个的组合，有三个可以代替大多数的方案的预定义的外部访问策略。
 ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237525"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 

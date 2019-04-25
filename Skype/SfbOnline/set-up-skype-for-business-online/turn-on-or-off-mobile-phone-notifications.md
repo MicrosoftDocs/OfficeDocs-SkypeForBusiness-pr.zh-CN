@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 了解如何启用移动电话通知打开或关闭，以便用户可接收到有关传入语音邮件、 通知和错过的即时消息。
 ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226394"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 

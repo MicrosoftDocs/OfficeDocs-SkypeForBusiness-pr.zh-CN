@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要删除某个存档服务器，您需要更改或清除关联前端池，前端服务器、 Survivable Branch Appliance 和 Survivable Branch Server 上的相关性。 编辑前端服务器、 Survivable Branch Appliance 和 Survivable Branch Server 中删除依赖关系前端池的属性。 清除依赖项并删除拓扑生成器中的服务器后，将通知您在拓扑生成器中的关联的数据库存储对象也将被删除。
 ms.openlocfilehash: 15e6b33decb11ce7ed4550b0d84cc346a0baf073
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231412"
 ---
 # <a name="remove-the-archiving-server-association"></a>删除存档服务器关联
 

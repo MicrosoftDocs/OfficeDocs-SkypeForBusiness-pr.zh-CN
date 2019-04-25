@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244997"
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "30541285"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
 
 ## <a name="phone-system"></a>电话系统
 
@@ -74,7 +74,7 @@ ms.locfileid: "30541285"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>阿德莱德 <li>布里斯班 <li>  堪培拉 <li>达尔文 <li>墨尔本 <li>纽卡斯尔 <li> 佩思 <li>悉尼 <li>伍伦贡  |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>阿德莱德 <li>布里斯班 <li>  堪培拉 <li>达尔文 <li>墨尔本 <li>Newcastle <li> 珀斯 <li>悉尼 <li>Wollongong  |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 

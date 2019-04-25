@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '使用 Microsoft 作为其电话拨入式会议提供程序、 状态和一些解决方法时，请获取已知问题的列表。 '
 ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229181"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>音频会议故障排除和已知问题
 

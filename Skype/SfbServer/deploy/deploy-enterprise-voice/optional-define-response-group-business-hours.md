@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。
 ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225737"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>（可选）Skype for Business 中定义响应组工作时间 
  

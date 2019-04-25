@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227660"
 ---
 ![升级旅程，重点强调收集您的团队的项目利益干系人的阶段](media/upgrade-banner-stakeholders.png "升级旅程，重点强调收集您的团队的项目利益干系人的阶段")
 

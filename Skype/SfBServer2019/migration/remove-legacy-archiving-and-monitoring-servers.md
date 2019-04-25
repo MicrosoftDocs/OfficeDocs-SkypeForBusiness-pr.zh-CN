@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果旧部署包含存档服务器或监控服务器，在迁移到 Skype for Business Server 2019 后，这些服务器可以删除从旧环境中，前提是已从其余任何旧池中删除所有用户。 您可以按任何顺序中删除存档服务器或监控服务器。 关键要求是确认已从其余任何旧池中删除所有用户。
 ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231421"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>删除旧存档和监控服务器
 

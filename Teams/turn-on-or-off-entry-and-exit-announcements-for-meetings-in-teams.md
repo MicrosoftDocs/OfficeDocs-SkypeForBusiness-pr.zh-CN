@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 会议中打开或关闭进入和退出公告。 '
 ms.openlocfilehash: d7e900a86a8292c56e9ce0d941506b8a894c8141
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228465"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中打开或关闭会议的进入和退出公告
 

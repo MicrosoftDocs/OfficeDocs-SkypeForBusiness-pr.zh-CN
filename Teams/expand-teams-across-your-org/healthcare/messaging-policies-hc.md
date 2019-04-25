@@ -1,5 +1,5 @@
 ---
-title: 开始与 Secure Messaging 针对医疗保健组织
+title: 适用于医疗保健组织的安全邮件入门
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 开始与 Secure Messaging 针对医疗保健组织
-ms.openlocfilehash: 58e19cd5f8e39e05b2b2178bcf4062260546e509
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: 适用于医疗保健组织的安全邮件入门
+ms.openlocfilehash: 2de10ef2d36dce991e6f1cd122a624e17ff7a918
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013756"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298681"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>开始与 Secure Messaging 针对医疗保健组织
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
 消息策略用于控制哪些聊天和消息功能的通道供 Microsoft 团队中的用户和医院、 培训班或医生办公室，如医疗保健机构安全消息的总体部署一部分其中具有一条消息，选取并及时地采取行动至关重要，如了解何时读取至关重要的邮件。
 
@@ -36,6 +36,8 @@ ms.locfileid: "31013756"
 
 医疗保健应用程序感兴趣的设计医疗保健字段中使用的自定义策略时，应考虑以下设置：
 
+## <a name="read-reciepts"></a>读取收货
+
 - ![数字 1](../../media/sfbcallout1.png) **已读回执**已读回执允许发件人知道收件人阅读其消息的时的聊天消息。 使用此设置指定是否读回执是用户控制、 每个人、 启用或禁用每个人。 邮件阅读回执非常重要医疗保健组织中的因为它们确定性删除有关是否已阅读邮件。
 
   对于医疗保健应用程序，选择**用户控制**或**的所有人都已启用**。 请注意，当使用**的所有人都启用**设置时，回执为整个租户的唯一方式对整个租户 （名为"全局 （组织范围内默认值）"的默认策略） 拥有只有一个邮件策略，或具有所有消息租户中的策略的回执使用相同的设置。
@@ -46,6 +48,8 @@ ms.locfileid: "31013756"
  *没有已读回执的用法示例：* Jakob Roth，高风险患者，是到医院获准加入会议。索非亚 Krause 是护士一部分医疗工作者，包括不同专家间专业团队 (IDT) 的工作分配作为主护理协调器此患者负责。  索非亚向护理和医生使用各种消息客户端和应用程序的组发送电子邮件和其他即时消息和通常获取未响应或指示是否已阅读工作组成员的邮件。 由于 tangled 的通信流程 Jakob 的用药被误用，并扩展其医院保持。
 
   *与已读回执的用法示例：* Jakob Roth，高风险患者，是到医院获准加入会议。索非亚 Krause 是护士一部分医疗工作者，包括不同专家间专业团队 (IDT) 的工作分配作为主护理协调器此患者负责。  索非亚从一组医生和其他护理将使用患者来协调护理并启动紧急会审开始群聊。护理和医生通信和协作通过患者的医护计划在整个护理协调过程。  重要和紧急邮件发送通过 1:1 和群聊对话。 索非亚使用已读的回执功能来确定发送的邮件是否请求支持的传递和读取由目标的医生或护理。 Jakob 的患者的产出体现附近最佳，他而转家庭会更快，因为他的医护团队顺利地进行通信。
+
+## <a name="priority-notifications"></a>优先级通知
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,4 +62,4 @@ ms.locfileid: "31013756"
 ## <a name="related-topics"></a>相关主题
 
 - [在 Teams 中管理消息传递策略](../../messaging-policies-in-teams.md)
-- [入门医疗保健机构团队](teams-in-hc.md)
+- [适用于医疗保健组织的 Teams 入门](teams-in-hc.md)

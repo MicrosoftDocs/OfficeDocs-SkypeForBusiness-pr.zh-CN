@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要： 了解如何为业务 Server Skype 中配置 CDR 和 QoE。
 ms.openlocfilehash: 846411692bc114678e34754f73fc00cd9be8d9d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225474"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置
  

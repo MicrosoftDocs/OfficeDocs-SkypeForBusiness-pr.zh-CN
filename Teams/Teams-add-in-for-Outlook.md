@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226604"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -72,7 +72,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 如果用户的 PC 和 Teams 服务的网络路径中存在身份验证代理，则此外接程序将无法工作。
 - 外接程序要增量推出和可能不可用，贵组织尚未。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 如果无法让团队会议外接程序 Outlook 安装，请尝试以下疑难解答步骤。
 

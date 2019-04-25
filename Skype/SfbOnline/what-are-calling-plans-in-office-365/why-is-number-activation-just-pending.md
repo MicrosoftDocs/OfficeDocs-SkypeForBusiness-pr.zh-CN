@@ -1,5 +1,5 @@
 ---
-title: 号码激活为什么暂停？
+title: 为什么是只需待处理的号码激活？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
 ms.openlocfilehash: 9e59b7372b0d998ea4a453d5e1b96c3ab9c4e98f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227801"
 ---
-# <a name="why-is-number-activation-just-pending"></a>号码激活为什么暂停？
+# <a name="why-is-number-activation-just-pending"></a>为什么是只需待处理的号码激活？
 
 地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某种原因的电话号码不激活，并列为**待处理**由于地址验证，您需要创建和提交服务请求。 你执行此操作的方式基于你的组织规模。
   

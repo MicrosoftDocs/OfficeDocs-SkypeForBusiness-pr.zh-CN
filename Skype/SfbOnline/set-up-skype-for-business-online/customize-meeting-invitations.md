@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: '自定义与图形徽标、 帮助和法律 Url 和页脚文本的 Skype 会议邀请。 '
 ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237887"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 

@@ -16,11 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233051"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================

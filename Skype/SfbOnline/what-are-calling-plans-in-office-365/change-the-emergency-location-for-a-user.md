@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: '了解如何更改您的用户的紧急位置。使用任意数量的位置，您可以更改紧急位置，员工移动楼层或建筑。 '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233205"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 您定义的计算机，通过在计算机 FQDN 中键入完全限定的域名 (FQDN) 将持久聊天服务器池的一部分。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
 ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226898"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定义持久聊天池中的计算机
  

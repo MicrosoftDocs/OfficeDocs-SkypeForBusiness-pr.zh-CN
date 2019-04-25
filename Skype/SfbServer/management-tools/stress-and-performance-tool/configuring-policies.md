@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: 业务服务器 2015年压力和性能工具的 Skype 的策略配置。
 ms.openlocfilehash: c5dd20df0cac3121169f6eb5659eb6339d7875e2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236165"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>配置策略的 Skype 的业务服务器 2015年压力和性能工具
  

@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 description: 这些培训视频介绍 Skype for Business 并向管理员讲解如何规划、部署和操作 Skype for Business。
 ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247449"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理培训
 ==================================

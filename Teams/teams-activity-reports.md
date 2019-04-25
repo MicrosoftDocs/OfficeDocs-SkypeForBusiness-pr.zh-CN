@@ -17,11 +17,11 @@ description: 了解如何使用活动报告以查看您的组织中的用户如�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224474"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 ========================================
@@ -53,7 +53,7 @@ ms.locfileid: "30463369"
 
 ![带编号的标注 Office 365 管理中心中的团队用户活动报告的屏幕截图。](media/teams-user-activity-report-with-callouts.png)
 
-|标号 |说明  |
+|标注 |说明  |
 |--------|-------------|
 |**1**   |可以最近 7 天，30 天，90 天或 180 天内的趋势查看团队用户活动报告。 但是，如果您单击报表中的特定时间范围，表 (7) 将显示数据 30 天，最多的日期 (2) 的时生成报表。 |
 |**2**   |每个报表包含此报表的生成日期。报表通常反映活动时间的 24 至 48 小时延迟。 |
@@ -77,7 +77,7 @@ ms.locfileid: "30463369"
 
 ![带编号的标注 Office 365 管理中心中的团队设备使用率报告的屏幕截图。](media/teams-device-usage-report-with-callouts.png)
 
-|标号 |说明  |
+|标注 |说明  |
 |--------|-------------|
 |**1**   |团队设备报告可以在最近 7 天，30 天，90 天或 180 天内的趋势查看。 但是，如果您单击报表中的特定时间范围，表 (7) 将显示数据 30 天，最多的日期 (2) 的时生成报表。 |
 |**2**   |每个报表包含此报表的生成日期。报表通常反映活动时间的 24 至 48 小时延迟。 |

@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: '下载、 安装，然后使用 Business Online Connector 的 Skype 创建连接到 Skype 业务 online 远程 Windows PowerShell 会话。 '
 ms.openlocfilehash: f7b7fa418b31a7b826319fc75c943819193161ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225810"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下载并安装 for Business Online Connector 模块 Skype
 

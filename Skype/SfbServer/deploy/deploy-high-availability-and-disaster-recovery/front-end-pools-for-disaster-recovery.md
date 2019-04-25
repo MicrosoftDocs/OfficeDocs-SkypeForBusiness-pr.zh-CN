@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
 ms.openlocfilehash: 028e0b4966a15b81b3e6e5627e63261207835f1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225537"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>为业务服务器部署已配对的前端池 Skype 中的灾难恢复
  

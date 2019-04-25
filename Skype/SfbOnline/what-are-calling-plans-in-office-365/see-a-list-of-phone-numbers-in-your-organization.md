@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 了解如何组织、 分配给用户的所有号码和从业务管理中心的 Skype 分配给语音用户的所有号码中的所有电话号码的列表，请参阅。
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229941"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -78,7 +78,7 @@ ms.locfileid: "29753479"
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 您可以筛选视图分配给用户的电话号码或您可以分配给用户的电话号码。 你可以按以下内容筛选：
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
    - 包括服务电话号码在内的 **全部**电话号码。
     
@@ -102,7 +102,7 @@ ms.locfileid: "29753479"
     > [!IMPORTANT]
     > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
     
-4. 可以使用下拉列表以筛选视图的活动用户，用户是否联机或本地或的状态和用户许可类型。 你可以按以下内容筛选：
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
    - **活动用户**以及用户是在线还是在本地。
     

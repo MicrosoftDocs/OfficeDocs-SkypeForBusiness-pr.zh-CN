@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要： Skype 业务服务器启用媒体旁路的情况下配置中继。
 ms.openlocfilehash: 25bb4a71983fa6f31ac85a1b2a8f4624219b36c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223597"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>配置无媒体绕过中 Skype 业务服务器的中继
 

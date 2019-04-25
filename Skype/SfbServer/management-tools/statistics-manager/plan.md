@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要： 阅读本主题可为 Skype 业务服务器了解有关统计信息管理器。
 ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236145"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server 的统计信息管理器规划
 
 **摘要：** 阅读此主题以业务服务器的 Skype 了解有关统计信息管理器。
 
- 适用于业务服务器 Skype 的统计信息管理器是一个强大的工具，允许您查看 Skype 的实时业务服务器运行状况和性能数据。 可以跨服务器数百每隔几秒钟轮询性能数据，并立即统计信息管理器网站上查看结果。
+ Skype for Business Server 统计信息管理器是一个功能强大的工具，可让你实时查看 Skype for Business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。
 
 统计信息管理器可用于确定持续的性能问题，与您的环境中查看计划更改的结果，跟踪的中断，分辨率和更多。 现成，统计信息管理器中使用键运行状况指示器 (KHI) 阈值配置，可以对其进行自定义，以满足您的部署唯一需求。
 
@@ -175,7 +175,7 @@ ms.locfileid: "30893986"
 ## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_Security"> </a>
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅：
 
 - [部署 Skype for Business Server 的统计信息管理器](deploy.md)
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: 名称和安全设置页上提供了一个文本框以定义一个友好名称，私钥和公钥对和复选框，使您能够将标记为可导出的证书的私钥的位长度的下拉列表。
 ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235148"
 ---
 # <a name="certificate-request-basic"></a>证书请求（基本）
  

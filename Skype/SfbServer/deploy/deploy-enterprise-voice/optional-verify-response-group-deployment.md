@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证您的响应组部署成功，业务 Server 企业语音的 Skype 中。
 ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225623"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>（可选）Skype for Business 中的验证响应组部署
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 前端服务器不能作为独立计算机上存在。 它必须被定义为前端池，即使池中只有一台计算机。
 ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231428"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>从池中删除前端服务器
 

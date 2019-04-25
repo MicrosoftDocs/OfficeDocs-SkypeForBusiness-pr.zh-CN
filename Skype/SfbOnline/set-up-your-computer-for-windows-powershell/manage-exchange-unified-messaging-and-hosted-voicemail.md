@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: 使用 PowerShell 管理业务 online 的 Exchange 统一消息功能，如自动助理和订阅者访问和 Skype 中的托管语音邮件。
 ms.openlocfilehash: 02fda8c315807899983741f94c1f825de1ebf1a9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224395"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 统一消息和托管语音邮件
 

@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: '了解您可以和不能中使用 Skype 业务管理中心中和其他功能时您的服务正在迁移到另一个 Microsoft 数据中心。 '
 ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226314"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么不能使用 Skype 业务 Online 管理中心的立即？
 
