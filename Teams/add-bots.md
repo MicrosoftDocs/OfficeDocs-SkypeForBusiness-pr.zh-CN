@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
-author: LolaJacobsen
-ms.author: lolaj
+author: LolaJacobsen, DamienDoumer
+ms.author: lolaj, Damien
 manager: serdars
 ms.date: 12/05/2018
 ms.topic: article
@@ -14,19 +14,19 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2b651e627f2b9375023984883562b1eaa696b1c
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: a4e921ea668fc59b520fdb068355db82bfe24481
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959163"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298521"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户在 Microsoft Teams 中通过聊天对话与云服务（例如，任务管理、计划和轮询）交互。 适用于 Microsoft Teams 的聊天机器人基于 [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) 构建而成， 可以轻松地为 Microsoft Teams 启用使用此框架开发的聊天机器人。 有关详细信息，请参阅[管理 Microsoft 团队设置为您的组织](enable-features-office-365.md)。
+聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户在 Microsoft Teams 中通过聊天对话与云服务（例如，任务管理、计划和轮询）交互。 适用于 Microsoft Teams 的聊天机器人基于 [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) 构建而成， 可以轻松地为 Microsoft Teams 启用使用此框架开发的聊天机器人。 有关详细信息，请参阅[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)。
 
 当前，Microsoft Teams 支持在私人聊天和团队的频道中使用聊天机器人。 管理员可以控制在 Office 365 租户中是允许还是禁止使用聊天机器人。<span id="_T-Bot" class="anchor"></span>
 
@@ -64,8 +64,14 @@ ms.locfileid: "31959163"
 
 如果您想要与同事共享您自动程序，下面介绍了如何将其添加到不同的团队的通道：
 
-1. [创建应用程序包为您自动程序](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)后，打开团队，并浏览到工作组在其中您将在一侧加载 bot。
-2. 团队名称旁边，选择**更多**（...）。
-3. 选择**管理团队**，然后选择**应用程序**选项卡。
-4. 您会在屏幕右下角，选择**上载自定义应用程序**。
+1. [创建应用程序包为您自动程序](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)后，打开团队，并浏览到工作组在其中您将在一侧加载 bot。
+2. 添加**[应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** 中，向 Microsoft 工作组的应用程序。
+3. 在应用程序 Studio 中，选择**指令清单编辑器**选项卡![清单编辑器选项卡屏幕截图。](media/Adding_Bot_To_Teams.png)
+4. 若要添加您自动程序、 功能，在选择自动程序并选择将现有的自动程序，然后将从下拉列表选择现有的自动程序可以选择或输入您现有的自动程序之一的 Id。
+![选择您已创建的自动程序。](media/Select_Existing_Bot.png)
 5. 浏览到应用程序包的位置，选择它，，然后单击**打开**。
+6. 选择自动程序的名称 （不要忘记检查范围部分下的"团队"复选框）
+7. 选择测试和分发选项。
+8. 选择要连接到在弹出的对话框中，您 bot 团队。
+
+与此，您自动程序即可获得您的 Microsoft 团队团队中。

@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解有关消息策略以及如何使用它们来控制聊天消息团队。
-ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231780"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298450"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -86,7 +86,7 @@ ms.locfileid: "32231780"
 - **允许 URL 预览**使用此设置以启用自动 URL 预览打开或关闭消息中。
 - **允许用户将邮件**启用此设置以使用户可以自动将团队邮件转换为 Office 365 其个人语言设置由指定语言。
 - **允许查看邮件的沉浸式读者**启用此设置到让用户查看邮件中的 Microsoft 沉浸式读取器。 沉浸式读取器学习工具，它提供全屏幕阅读体验，以提高可读性文本。
-- **用户可以发送优先级通知**如果关闭此，用户可以指示邮件优先级。
+- **用户可以发送优先级通知**如果关闭此，用户可以发送一条消息，使用优先级通知。 优先级通知 20 分钟或直到邮件已选取一段反复通知用户，并读取的收件人，最大化邮件是选取并及时处理的可能性。
 - **创建语音消息** 
     - **允许在聊天和频道**这意味着用户可以将中聊天和频道的语音邮件。
     - **仅允许中聊天**这意味着在聊天，但不是在通道，用户可以将语音邮件。

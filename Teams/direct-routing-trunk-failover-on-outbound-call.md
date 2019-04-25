@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: 阅读本主题可了解如何处理出站呼叫从团队对会话边界控制器 (SBC) 上的中继故障转移。
-ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351103"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298553"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 

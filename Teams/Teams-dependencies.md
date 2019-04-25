@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e1c81d0c93505e98bdc2159d2fad7464c7c3aeb
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: bcd6741f100ff7ad89127c4cc5f53008e9d3608a
+ms.sourcegitcommit: a7be62bcae2839f2a40dabbcdf5edf99e8e3194e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516828"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33143293"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -52,9 +52,7 @@ ms.locfileid: "31516828"
 
 使用 Azure AD 以确定是否外部协作者可以邀请进入您的租户为来宾，并以何种方式。 关于 Azure B2B 来宾访问的详细信息，请参阅[什么是在 Azure Active Directory B2B 来宾用户访问](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b)。 关于 Azure AD 角色的信息，请参阅[Azure Active Directory 租户中的合作伙伴组织的用户授予权限](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role)。
 
-用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。 
-
-![Azure Active Directory 门户中用户设置的屏幕截图。](media/teams_dependencies_image2.png)
+用于邀请的设置在租户级别应用，并在目录、租户和应用程序级别控制来宾体验。 若要在 Azure 门户中配置这些设置，请转到**Azure Active Directory** > **用户** > **用户设置**，并在**外部用户**，下选择**管理外部协作设置**。
 
 Azure AD 包括以下设置来配置外部用户：
 
@@ -66,7 +64,7 @@ Azure AD 包括以下设置来配置外部用户：
     > 目前，团队不支持的来宾邀请者角色。 **成员可以邀请**至少切换必须设置为**是**为来宾访问以在团队。
 - **来宾可以邀请**:**是**意味着，您的目录中的来宾本身也可以邀请其他来宾进行协作的 Azure AD，如 SharePoint 站点或 Azure 资源安全的资源。 携带**无**方法不能邀请其他来宾与您的组织进行协作。
  
-有关控制谁可以邀请来宾的详细信息，请参阅[Azure Active Directory B2B 协作的委托邀请](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)
+有关控制谁可以邀请来宾的详细信息，请参阅[Azure Active Directory B2B 协作的委托邀请](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)。
 
 > [!NOTE]
 > 您还可以管理哪些域可以作为来宾邀请到您的租户。 请参阅[Office 365 组允许/阻止来宾访问](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。 

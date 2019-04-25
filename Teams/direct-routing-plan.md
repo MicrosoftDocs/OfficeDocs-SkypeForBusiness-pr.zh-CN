@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569939"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298569"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -44,7 +45,7 @@ Microsoft 还提供了一云语音解决方案，如调用规划。  但是，�
 - 您的组织需要连接至第三方模拟设备、 呼叫中心，等等。 
 - 贵组织拥有现有合同与 PSTN 运营商。
 
-直接路由还支持 Microsoft 调用规划具有附加许可证的用户。 有关详细信息，请参阅[Office 365 中调用计划](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)和[授权和其他要求](#licensing-and-other-requirements)。 
+直接路由还支持 Microsoft 调用规划具有附加许可证的用户。 有关详细信息，请参阅[电话系统和调用计划](calling-plan-landing-page.md)。 
 
 使用直接路由时，当用户参与计划内会议，由 Microsoft 音频会议服务，这需要适当许可提供的电话拨入式号码。  拨号时, Microsoft 音频会议服务将放在呼叫使用联机呼叫功能，这需要适当许可。 （请注意，拨出不会路由通过直接路由）。有关详细信息，请参阅[与团队的联机会议](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
  
