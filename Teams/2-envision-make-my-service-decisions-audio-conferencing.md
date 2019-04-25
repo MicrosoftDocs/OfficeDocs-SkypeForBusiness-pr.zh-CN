@@ -1,7 +1,7 @@
 ---
 title: 做出音频会议服务决策 - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241537"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -161,9 +161,9 @@ Office 365 中的音频会议服务包括：
 
 若要详细了解会议桥接电话号码，请查看以下文章：
 
--   [设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)
+-   [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
 
--   [音频会议电话号码](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+-   [音频会议的电话号码](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
 -   [获取服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 

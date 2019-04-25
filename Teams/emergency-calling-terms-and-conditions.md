@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: '了解如何紧急服务 (911) 不同于传统电话服务以及如何发起呼叫。 '
 ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244452"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>紧急呼叫条款和条件
 

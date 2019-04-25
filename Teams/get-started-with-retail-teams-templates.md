@@ -1,5 +1,5 @@
 ---
-title: 在零售业工作组模板入门
+title: 开始使用 Teams 零售模板
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245743"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>在零售业工作组模板入门 
+# <a name="get-started-with-teams-templates-in-retail"></a>开始使用 Teams 零售模板 
 
 工作组模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
 

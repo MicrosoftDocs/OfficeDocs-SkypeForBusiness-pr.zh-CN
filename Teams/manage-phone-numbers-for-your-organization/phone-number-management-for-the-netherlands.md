@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的荷兰电话号码的信息。
 ms.openlocfilehash: 78170170a9a15b8991ff2d7b538d0daecca01f46
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245227"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷兰的电话号码管理
 

@@ -1,7 +1,7 @@
 ---
 title: 做出具有通话套餐的电话系统服务决策 - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242414"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 

@@ -1,5 +1,5 @@
 ---
-title: 引进团队
+title: Teams 中的排班
 description: 获取您需要设置和管理引进，团队中的计划管理工具管理指南。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245905"
 ---
-# <a name="shifts-for-teams"></a>引进团队
+# <a name="shifts-for-teams"></a>Teams 中的排班
 
 团队了 Firstline 工作者中您的组织进行通信和有效地协作工作做到最好所需的工具。 此处，您会发现您需要设置和管理引进，团队中的计划管理工具的管理指南。
 

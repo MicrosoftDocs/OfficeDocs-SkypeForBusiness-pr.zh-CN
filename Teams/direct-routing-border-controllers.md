@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: 142cda95c8bd45e3e52059863ad837927e144aa7
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: 06b626c034773d30e10699735d10d19178b4ecc6
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808043"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298673"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 

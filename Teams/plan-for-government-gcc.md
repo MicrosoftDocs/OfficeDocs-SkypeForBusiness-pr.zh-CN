@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45c3f16645755a2f459bd136aa439b2a68382f1e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247050"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府版-GCC 部署规划
 
@@ -89,7 +89,7 @@ Microsoft 365 政府-GCC 环境提供符合美国的云服务，包括 FedRAMP �
 | | OneNote 选项卡 | 政府待办事项上 |
 | | 电子邮件通道 | 不可用 |
 | | 添加成员 | 有空 |
-| | 来宾访问 | 有空 |
+| | 来宾访问权限 | 有空 |
 | 会议 | 安排会议 | 有空 |
 | | 加入会议 | 有空 |
 | | VoIP 会议 | 有空 |

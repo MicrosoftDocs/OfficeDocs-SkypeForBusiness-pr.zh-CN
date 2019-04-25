@@ -17,11 +17,11 @@ ms.collection:
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队和 Microsoft 团队认证的电话中支持的功能认证的电话的列表。
 ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246596"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 

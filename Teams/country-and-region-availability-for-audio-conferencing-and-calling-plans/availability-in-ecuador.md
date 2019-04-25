@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于厄瓜多尔业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: a06faa5d56d379984f224005fc3ea3a844820f7a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248084"
 ---
 # <a name="availability-in-ecuador"></a>在厄瓜多尔的可用性
 

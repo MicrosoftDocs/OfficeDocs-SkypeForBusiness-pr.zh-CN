@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247100"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 政府版-DoD 部署规划
 
@@ -90,7 +90,7 @@ Microsoft 365 政府-DoD 环境提供符合美国的云服务的政府要求。 
 | | OneNote 选项卡 | 政府待办事项上 |
 | | 电子邮件通道 | 不可用 |
 | | 添加成员 | 有空 |
-| | 来宾访问 | 政府待办事项上 |
+| | 来宾访问权限 | 政府待办事项上 |
 | 会议 | 安排会议 | 有空 |
 | | 加入会议 | 有空 |
 | | VoIP 会议 | 有空 |
@@ -100,7 +100,7 @@ Microsoft 365 政府-DoD 环境提供符合美国的云服务的政府要求。 
 | | 云录制 | 政府待办事项上 |
 | | 会议笔记 | 有空 |
 | | 广播的会议 | 政府待办事项上 |
-| | 联盟的会议 | 有空 |
+| | 内部云 (DoD DoD) 联合会议 | 有空 |
 | | 曲面集线器支持 | 政府待办事项上 |
 | 呼叫 | 联系人 | 有空 |
 | | 历史记录 | 可用 |

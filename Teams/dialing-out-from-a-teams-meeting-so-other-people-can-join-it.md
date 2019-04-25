@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
 ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236079"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 

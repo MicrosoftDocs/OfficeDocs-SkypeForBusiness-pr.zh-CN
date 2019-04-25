@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236719"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================

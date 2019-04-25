@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236727"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -33,7 +33,7 @@ ms.locfileid: "30463577"
 - [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>召开用户试生产
+# <a name="conduct-a-user-pilot"></a>执行用户试点
 
 通过部署新技术，您的组织实现的业务价值，如成本节约、 安全合规性、 员工满意度和运营效率，但它还会影响用户工作效率和组织的基础结构 （您的网络）。 在整个组织中启用新技术之前, 进行正式用户试验。 像绘制整个聊天室之前，将绘制的背景墙上的颜色小修补程序，您将通过进行试验验证技术和用户准备情况测试较小范围广泛推出、 标识和缓解一些问题，并帮助确保成功组织范围内实现。
 

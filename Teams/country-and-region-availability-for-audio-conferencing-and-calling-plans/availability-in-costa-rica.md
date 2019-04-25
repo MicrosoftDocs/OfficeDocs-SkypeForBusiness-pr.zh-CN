@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: 下面是可用于哥斯达黎加业务和 Microsoft 团队的 Skype 的 Office 365 服务。
 ms.openlocfilehash: d44d72b85ed6689fda220d1f228a2c7877ddbe6a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248116"
 ---
 # <a name="availability-in-costa-rica"></a>在哥斯达黎加的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "30542260"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |电话号码不会链接到特定城市或位置。  <br/> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |电话号码不被链接到指定市/县或位置。  <br/> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -67,7 +67,7 @@ ms.locfileid: "30542260"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码不会链接到特定城市或位置。  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码不被链接到指定市/县或位置。  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    

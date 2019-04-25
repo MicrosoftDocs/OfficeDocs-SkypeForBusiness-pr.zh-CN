@@ -1,5 +1,5 @@
 ---
-title: 即将提供的 Microsoft 团队 Firstline 辅助功能
+title: Microsoft Teams 即将推出一线员工功能
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245813"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>即将提供的 Microsoft 团队 Firstline 辅助功能
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Microsoft Teams 即将推出一线员工功能
 
 > [!IMPORTANT]
 > 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们 StaffHub 功能构建到 Microsoft 团队。 如今，团队包括日程管理引进相关应用程序和其他功能将随着时间的推移推出。 StaffHub 上 2019 年 10 月 1，将停止的所有用户的工作。 尝试打开 StaffHub 的任何人都将显示一条消息，来下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)。
@@ -50,4 +50,4 @@ ms.locfileid: "31013190"
 ## <a name="related-topics"></a>相关主题
 
 - [Microsoft StaffHub 将停用](microsoft-staffhub-to-be-retired.md)
-- [将 Microsoft StaffHub 团队移动到团队中的变化](move-staffhub-teams-to-shifts-in-teams.md)
+- [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](move-staffhub-teams-to-shifts-in-teams.md)

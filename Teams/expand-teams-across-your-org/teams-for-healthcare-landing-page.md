@@ -1,5 +1,5 @@
 ---
-title: 医护团队
+title: 适用于医疗保健业的 Teams
 description: 这些资源可用于充分利用医疗保健组织中的团队。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245696"
 ---
-# <a name="teams-for-healthcare"></a>医护团队
+# <a name="teams-for-healthcare"></a>适用于医疗保健业的 Teams
 
 团队提供医护团队和医护人员的专业人员的安全方式进行通信，协调医患，并提高运营效率。 此处，您会发现您的组织中的医护人员团队管理团队所需的管理资源。
 
@@ -35,7 +35,7 @@ ms.locfileid: "31026194"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>入门医疗保健机构团队</h3>
+                        <h3>适用于医疗保健组织的 Teams 入门</h3>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ ms.locfileid: "31026194"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>适合于医疗保健组织的 Teams 模板入门</h3>
+                        <h3>适用于医疗保健组织的 Teams 模板入门</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "31026194"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>开始与 Secure Messaging 针对医疗保健组织</h3>
+                        <h3>适用于医疗保健组织的安全邮件入门</h3>
                     </div>
                 </div>
             </div>

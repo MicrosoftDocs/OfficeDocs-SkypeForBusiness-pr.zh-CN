@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的英国 (U.K.) 电话号码的信息。
 ms.openlocfilehash: a524d72cbe5ab2a3021a70d383eaff7c8f3d2dec
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245185"
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国的电话号码管理
 

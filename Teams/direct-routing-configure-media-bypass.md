@@ -1,5 +1,5 @@
 ---
-title: 直接路由配置媒体绕过
+title: 使用直接路由配置媒体旁路
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何配置媒体绕过与电话系统直接路由。
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232689"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>直接路由配置媒体绕过
+# <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 
 配置媒体绕过直接路由之前，请确保您已阅读[规划媒体绕过直接路由](direct-routing-plan-media-bypass.md)。
 
@@ -53,16 +53,8 @@ ms.locfileid: "30631018"
 - 功能区
 - TE 系统 (AnyNode)    
 
-此时该通知后，以下 SBCs 经全面测试和认证能够处理媒体绕过功能：
+认证可用于直接路由的会话边界控制器 (Sbc) 的列表，请参阅[会话 Broder 控制器的列表认证可用于直接路由](direct-routing-border-controllers.md)。
 
-- AudioCodes 9000 V7.20A.204.222，AudioCodes M800B SBC / V7.20A.250.003
-
--   功能区
-    - ™ 5210 v06.02.xx xxx 
-    - 5400，v06.02.xx xxx
-    - 5110，v06.02.xx xxx
-
--   TE 系统 AnyNode v 3.16.2 
 
 
 ## <a name="see-also"></a>另请参阅

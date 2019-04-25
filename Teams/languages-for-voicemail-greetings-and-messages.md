@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: '了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 '
 ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245235"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 

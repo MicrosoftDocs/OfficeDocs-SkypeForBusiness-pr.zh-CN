@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245925"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -58,8 +58,6 @@ ms.locfileid: "31013206"
     ![默认应用程序部分的屏幕截图](../../media/firstline-worker-enable-disable-shifts.png "Microsoft 365 管理中心内，显示的应用程序，包括引进应用程序列表中的默认应用程序部分的屏幕截图")
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 pin 引进向工作组到 Firstline 工作人员应用程序安装程序策略
-
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
 
 应用程序设置策略允许您自定义团队以突出显示您的组织中的用户的最重要的应用程序。 在策略中设置的应用程序固定到应用程序栏&mdash;团队桌面客户端的一侧和底部的团队移动客户端的栏&mdash;其中用户可以快速、 轻松地访问它们。 
  

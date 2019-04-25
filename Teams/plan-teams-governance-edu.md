@@ -1,7 +1,7 @@
 ---
 title: 面向 IT 专业人员的 Microsoft 教育版管理 FAQ - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246159"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>对于管理员 Microsoft 教育调控常见问题
+# <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
 > [!Tip]
 > 观看下面的会话，若要了解有关 Microsoft 团队中的管理的详细信息：[监管、 管理和生命周期中的 Microsoft 团队](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ ms.locfileid: "30461177"
 
 是。 您可以使用策略来控制特定消息、 会议、 通话，并 live 用户有权访问事件功能。 可以使用租户范围的设置相同的设置应用于所有，或如果需要应用用户级别策略。 
 
-有关团队策略的详细信息，请参阅[Office 365 组织中的管理 Microsoft 团队功能](enable-features-office-365.md)。
+有关团队策略的详细信息，请参阅[管理 Microsoft 团队设置为您的组织](enable-features-office-365.md)。
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>可以控制哪些外部方我教职员工和学生协作？
 

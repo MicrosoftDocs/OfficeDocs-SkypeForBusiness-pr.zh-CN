@@ -23,11 +23,11 @@ ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
 ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245526"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 

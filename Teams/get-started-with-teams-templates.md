@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245590"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 
@@ -84,4 +84,4 @@ ms.locfileid: "31013634"
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
-- [适合于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)

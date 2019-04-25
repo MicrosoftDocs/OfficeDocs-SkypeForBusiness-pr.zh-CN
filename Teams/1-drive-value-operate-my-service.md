@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 操作指南
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 04/12/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241817"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -457,7 +457,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 的客户端](get-clients.md)
+[获取 Microsoft Teams 客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
