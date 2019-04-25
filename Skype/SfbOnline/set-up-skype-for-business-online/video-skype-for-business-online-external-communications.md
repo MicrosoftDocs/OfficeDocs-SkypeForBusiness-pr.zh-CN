@@ -19,29 +19,29 @@ ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
 ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225977"
 ---
-# <a name="video-skype-for-business-online-external-communications"></a><span data-ttu-id="0918e-103">视频：Skype for Business Online 外部通信</span><span class="sxs-lookup"><span data-stu-id="0918e-103">Video: Skype for Business Online external communications</span></span>
+# <a name="video-skype-for-business-online-external-communications"></a><span data-ttu-id="5dbab-103">视频：Skype for Business Online 外部通信</span><span class="sxs-lookup"><span data-stu-id="5dbab-103">Video: Skype for Business Online external communications</span></span>
 
-<span data-ttu-id="0918e-104">设置 Skype for Business Online 外部通信以便用户可与外部 Skype for Business、Lync 和 Skype 联系人通信。</span><span class="sxs-lookup"><span data-stu-id="0918e-104">Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.</span></span>
+<span data-ttu-id="5dbab-104">设置 Skype for Business Online 外部通信以便用户可与外部 Skype for Business、Lync 和 Skype 联系人通信。</span><span class="sxs-lookup"><span data-stu-id="5dbab-104">Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.</span></span>
 
- <span data-ttu-id="0918e-105">**受众：** Office 365 管理员</span><span class="sxs-lookup"><span data-stu-id="0918e-105">**Audience:** Office 365 admins</span></span>
+ <span data-ttu-id="5dbab-105">**受众：** Office 365 管理员</span><span class="sxs-lookup"><span data-stu-id="5dbab-105">**Audience:** Office 365 admins</span></span>
 
 ****
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 
 ***
   
-## <a name="related-topics"></a><span data-ttu-id="0918e-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="0918e-106">Related topics</span></span>
-<span data-ttu-id="0918e-107">[设置业务联机外部通信的 Skype](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)（分步指导的演练）</span><span class="sxs-lookup"><span data-stu-id="0918e-107">[Set up Skype for Business Online external communications](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guided walkthrough)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5dbab-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="5dbab-106">Related topics</span></span>
+<span data-ttu-id="5dbab-107">[设置业务联机外部通信的 Skype](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)（分步指导的演练）</span><span class="sxs-lookup"><span data-stu-id="5dbab-107">[Set up Skype for Business Online external communications](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guided walkthrough)</span></span>
 
-[<span data-ttu-id="0918e-108">允许用户联系外部 Skype for Business 用户</span><span class="sxs-lookup"><span data-stu-id="0918e-108">Allow users to contact external Skype for Business users</span></span>](allow-users-to-contact-external-skype-for-business-users.md)
+[<span data-ttu-id="5dbab-108">允许用户联系外部 Skype for Business 用户</span><span class="sxs-lookup"><span data-stu-id="5dbab-108">Allow users to contact external Skype for Business users</span></span>](allow-users-to-contact-external-skype-for-business-users.md)
 
-[<span data-ttu-id="0918e-109">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="0918e-109">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="5dbab-109">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="5dbab-109">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

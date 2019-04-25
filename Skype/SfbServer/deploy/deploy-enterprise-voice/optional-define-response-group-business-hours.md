@@ -12,48 +12,48 @@ ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。
 ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225737"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a><span data-ttu-id="c6de5-103">（可选）Skype for Business 中定义响应组工作时间</span><span class="sxs-lookup"><span data-stu-id="c6de5-103">(Optional) Define Response Group business hours in Skype for Business</span></span> 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a><span data-ttu-id="20333-103">（可选）Skype for Business 中定义响应组工作时间</span><span class="sxs-lookup"><span data-stu-id="20333-103">(Optional) Define Response Group business hours in Skype for Business</span></span> 
  
-<span data-ttu-id="c6de5-104">创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。</span><span class="sxs-lookup"><span data-stu-id="c6de5-104">Create or modify Response Group business hours, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="20333-104">创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。</span><span class="sxs-lookup"><span data-stu-id="20333-104">Create or modify Response Group business hours, in Skype for Business Server Enterprise Voice.</span></span>
   
-## <a name="defining-business-hours"></a><span data-ttu-id="c6de5-105">定义工作时间</span><span class="sxs-lookup"><span data-stu-id="c6de5-105">Defining Business Hours</span></span>
+## <a name="defining-business-hours"></a><span data-ttu-id="20333-105">定义工作时间</span><span class="sxs-lookup"><span data-stu-id="20333-105">Defining Business Hours</span></span>
 
-<span data-ttu-id="c6de5-106">工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。</span><span class="sxs-lookup"><span data-stu-id="c6de5-106">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="c6de5-107">响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。</span><span class="sxs-lookup"><span data-stu-id="c6de5-107">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
+<span data-ttu-id="20333-106">工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。</span><span class="sxs-lookup"><span data-stu-id="20333-106">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="20333-107">响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。</span><span class="sxs-lookup"><span data-stu-id="20333-107">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="c6de5-108">创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。</span><span class="sxs-lookup"><span data-stu-id="c6de5-108">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="c6de5-109">有关详细信息，请参阅[设计和创建响应组工作流中的业务的 Skype](designing-and-creating-response-group-workflows.md)。</span><span class="sxs-lookup"><span data-stu-id="c6de5-109">For details, see [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md).</span></span> 
+> <span data-ttu-id="20333-108">创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。</span><span class="sxs-lookup"><span data-stu-id="20333-108">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="20333-109">有关详细信息，请参阅[设计和创建响应组工作流中的业务的 Skype](designing-and-creating-response-group-workflows.md)。</span><span class="sxs-lookup"><span data-stu-id="20333-109">For details, see [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="c6de5-110">如果已将某个工作流定义为托管工作流，则被分配 CsResponseGroupManager 角色的任何用户均可设置和修改其管理的工作流的工作时间。</span><span class="sxs-lookup"><span data-stu-id="c6de5-110">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span> 
+> <span data-ttu-id="20333-110">如果已将某个工作流定义为托管工作流，则被分配 CsResponseGroupManager 角色的任何用户均可设置和修改其管理的工作流的工作时间。</span><span class="sxs-lookup"><span data-stu-id="20333-110">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="c6de5-111">以下 cmdlet 中的参数采用 24 小时制表示（例如，20:00=8:00 P.M.）。</span><span class="sxs-lookup"><span data-stu-id="c6de5-111">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span> 
+> <span data-ttu-id="20333-111">以下 cmdlet 中的参数采用 24 小时制表示（例如，20:00=8:00 P.M.）。</span><span class="sxs-lookup"><span data-stu-id="20333-111">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span> 
   
-### <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="c6de5-112">创建预定义工作时间集合</span><span class="sxs-lookup"><span data-stu-id="c6de5-112">To create a predefined business hours collection</span></span>
+### <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="20333-112">创建预定义工作时间集合</span><span class="sxs-lookup"><span data-stu-id="20333-112">To create a predefined business hours collection</span></span>
 
-1. <span data-ttu-id="c6de5-113">以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="c6de5-113">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1. <span data-ttu-id="20333-113">以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="20333-113">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
-2. <span data-ttu-id="c6de5-114">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c6de5-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="20333-114">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="20333-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="c6de5-115">对于要定义的每个唯一时间范围，请运行：</span><span class="sxs-lookup"><span data-stu-id="c6de5-115">For each unique range of hours you want to define, run:</span></span>
+3. <span data-ttu-id="20333-115">对于要定义的每个唯一时间范围，请运行：</span><span class="sxs-lookup"><span data-stu-id="20333-115">For each unique range of hours you want to define, run:</span></span>
     
    ```
    $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
    ```
 
-    <span data-ttu-id="c6de5-116">要创建使用定义的范围的工作时间集合，请运行：</span><span class="sxs-lookup"><span data-stu-id="c6de5-116">To create the business hours collection that uses the ranges you defined, run:</span></span>
+    <span data-ttu-id="20333-116">要创建使用定义的范围的工作时间集合，请运行：</span><span class="sxs-lookup"><span data-stu-id="20333-116">To create the business hours collection that uses the ranges you defined, run:</span></span>
     
    ```
    New-CsRgsHoursOfBusiness -Parent <service where the workflow is hosted> -Name <unique name for collection> [-MondayHours1 <first set of opening and closing times for Monday>] [-MondayHours2 <second set of opening and closing times for Monday>] [-TuesdayHours1 <first set of opening and closing times for Tuesday>] [-TuesdayHours2 <second set of opening and closing times for Tuesday>] [-WednesdayHours1 <first set of opening and closing times for Wednesday>] [-WednesdayHours2 <second set of opening and closing times for Wednesday>] [-ThursdayHours1 <first set of opening and closing times for Thursday>] [-ThursdayHours2 <second set of opening and closing times for Thursday>] [-FridayHours1 <first set of opening and closing times for Friday>] [-FridayHours2 <second set of opening and closing times for Friday>] [-SaturdayHours1 <first set of opening and closing times for Saturday>] [-SaturdayHours2 <second set of opening and closing times for Saturday>] [-SundayHours1 <first set of opening and closing times for Sunday>] [-SundayHours2 <second set of opening and closing times for Sunday>]
    ```
 
-    <span data-ttu-id="c6de5-p103">以下示例将工作时间指定为工作日上午 9:00 到下午 5:00，周六上午 8:00 到 10:00 以及下午 2:00 到 6:00，周日全天休息：</span><span class="sxs-lookup"><span data-stu-id="c6de5-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
+    <span data-ttu-id="20333-p103">以下示例将工作时间指定为工作日上午 9:00 到下午 5:00，周六上午 8:00 到 10:00 以及下午 2:00 到 6:00，周日全天休息：</span><span class="sxs-lookup"><span data-stu-id="20333-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
     
    ```
    $a = New-CSRgsTimeRange -Name "Weekday Hours" -OpenTime "9:00" -CloseTime "17:00"
@@ -62,8 +62,8 @@ ms.locfileid: "30884675"
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a><span data-ttu-id="c6de5-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c6de5-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="20333-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="20333-124">See also</span></span>
 
-[<span data-ttu-id="c6de5-125">New-csrgstimerange</span><span class="sxs-lookup"><span data-stu-id="c6de5-125">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[<span data-ttu-id="20333-125">New-csrgstimerange</span><span class="sxs-lookup"><span data-stu-id="20333-125">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[<span data-ttu-id="c6de5-126">新 CsRgsHoursOfBusiness</span><span class="sxs-lookup"><span data-stu-id="c6de5-126">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[<span data-ttu-id="20333-126">新 CsRgsHoursOfBusiness</span><span class="sxs-lookup"><span data-stu-id="20333-126">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

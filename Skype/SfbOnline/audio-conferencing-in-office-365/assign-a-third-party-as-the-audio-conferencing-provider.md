@@ -1,5 +1,5 @@
 ---
-title: 将第三方指定为音频会议提供商
+title: 分配第三方音频会议提供商
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords:
 - ms.lync.lac.DialInProvider
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
+description: '学习如何使用 Skype for Business 指定第三方为电话拨入会议提供程序。 '
 robots: noindex
 redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
 ms.openlocfilehash: 9a01595ee8318dc1204b7fc94ae6b714e20c091e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229201"
 ---

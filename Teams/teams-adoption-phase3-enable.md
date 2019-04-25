@@ -18,23 +18,23 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 896727462b44389e436df68441d6915b57547d01
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226983"
 ---
-# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="81ec4-103">Microsoft Teams 采用第 3 阶段 - 扩展</span><span class="sxs-lookup"><span data-stu-id="81ec4-103">Microsoft Teams adoption phase 3 - Scale</span></span>
+# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="b2010-103">Microsoft Teams 采用第 3 阶段 - 扩展</span><span class="sxs-lookup"><span data-stu-id="b2010-103">Microsoft Teams adoption phase 3 - Scale</span></span>
 
-<span data-ttu-id="81ec4-104">在此阶段中，您将使用经验教训、 人才项目团队和关系与利益干系人、 衫、 和前期应用您的组织支持团队的大范围启用。</span><span class="sxs-lookup"><span data-stu-id="81ec4-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="81ec4-105">有关您的 Microsoft 团队的组织使用准备的连续的业务时，将完成以下步骤：</span><span class="sxs-lookup"><span data-stu-id="81ec4-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
+<span data-ttu-id="b2010-104">在此阶段中，您将使用经验教训、 人才项目团队和关系与利益干系人、 衫、 和前期应用您的组织支持团队的大范围启用。</span><span class="sxs-lookup"><span data-stu-id="b2010-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="b2010-105">有关您的 Microsoft 团队的组织使用准备的连续的业务时，将完成以下步骤：</span><span class="sxs-lookup"><span data-stu-id="b2010-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
 
-1. <span data-ttu-id="81ec4-106">定义产出和成功指标。</span><span class="sxs-lookup"><span data-stu-id="81ec4-106">Define outcomes and success measures.</span></span>
-2. <span data-ttu-id="81ec4-107">选择服务策略。</span><span class="sxs-lookup"><span data-stu-id="81ec4-107">Select service strategy.</span></span>
-3. <span data-ttu-id="81ec4-108">吸引利益干系人。</span><span class="sxs-lookup"><span data-stu-id="81ec4-108">Engage stakeholders.</span></span>
-4. <span data-ttu-id="81ec4-109">设计并启动的认知活动。</span><span class="sxs-lookup"><span data-stu-id="81ec4-109">Design and launch an awareness campaign.</span></span>
-5. <span data-ttu-id="81ec4-110">设计并启动培训计划。</span><span class="sxs-lookup"><span data-stu-id="81ec4-110">Design and launch a training program.</span></span>
-6. <span data-ttu-id="81ec4-111">了解报告工具。</span><span class="sxs-lookup"><span data-stu-id="81ec4-111">Understand reporting tools.</span></span>
-7. <span data-ttu-id="81ec4-112">准备现行业务工作效率。</span><span class="sxs-lookup"><span data-stu-id="81ec4-112">Prepare for ongoing business engagement.</span></span>
-8. <span data-ttu-id="81ec4-113">准备持续服务运行状况 & 采用评论。</span><span class="sxs-lookup"><span data-stu-id="81ec4-113">Prepare for ongoing service health & adoption reviews.</span></span>
+1. <span data-ttu-id="b2010-106">定义产出和成功指标。</span><span class="sxs-lookup"><span data-stu-id="b2010-106">Define outcomes and success measures.</span></span>
+2. <span data-ttu-id="b2010-107">选择服务策略。</span><span class="sxs-lookup"><span data-stu-id="b2010-107">Select service strategy.</span></span>
+3. <span data-ttu-id="b2010-108">吸引利益干系人。</span><span class="sxs-lookup"><span data-stu-id="b2010-108">Engage stakeholders.</span></span>
+4. <span data-ttu-id="b2010-109">设计并启动的认知活动。</span><span class="sxs-lookup"><span data-stu-id="b2010-109">Design and launch an awareness campaign.</span></span>
+5. <span data-ttu-id="b2010-110">设计并启动培训计划。</span><span class="sxs-lookup"><span data-stu-id="b2010-110">Design and launch a training program.</span></span>
+6. <span data-ttu-id="b2010-111">了解报告工具。</span><span class="sxs-lookup"><span data-stu-id="b2010-111">Understand reporting tools.</span></span>
+7. <span data-ttu-id="b2010-112">准备现行业务工作效率。</span><span class="sxs-lookup"><span data-stu-id="b2010-112">Prepare for ongoing business engagement.</span></span>
+8. <span data-ttu-id="b2010-113">准备持续服务运行状况 & 采用评论。</span><span class="sxs-lookup"><span data-stu-id="b2010-113">Prepare for ongoing service health & adoption reviews.</span></span>
 
-<span data-ttu-id="81ec4-114">![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[定义产出并且成功](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="81ec4-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>
+<span data-ttu-id="b2010-114">![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[定义产出并且成功](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="b2010-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>

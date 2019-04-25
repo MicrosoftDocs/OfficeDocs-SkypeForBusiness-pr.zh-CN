@@ -17,11 +17,11 @@ f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235410"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -185,7 +185,7 @@ ms.locfileid: "30493662"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>团队和频道</h3>
+                        <h3>团队 & 通道</h3>
                          <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">视频： 工作组和通道概述</a></p>
                          <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">视频： 收藏夹和关注通道</a></p>
                          <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">视频： 在通道中工作</a></p>
@@ -254,7 +254,7 @@ ms.locfileid: "30493662"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>_AMP_ 团队提示和技巧</h3>
+                        <h3>Teams 提示和技巧</h3>
                         <p><a href="https://support.office.com/office-training-center/Teams-tips">文章： 团队提示 & 技巧</a></p>
                     </div>
                 </div>

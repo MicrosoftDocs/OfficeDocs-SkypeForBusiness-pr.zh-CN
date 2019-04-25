@@ -14,16 +14,16 @@ localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: 每个前端池和 Survivable Branch Appliance 只能有一个与之关联的存档服务器。 启用对网站的存档后，存档服务器然后收集并记录即时消息 (IM) 消息内容和 web 会议内容的用户所参与对话驻留在关联的池和 Survivable Branch Appliance 上。
 ms.openlocfilehash: c603187e58f8a47d74f20581b666381f7db588ff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227422"
 ---
-# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="1f3da-104">将前端与存档关联</span><span class="sxs-lookup"><span data-stu-id="1f3da-104">Associate Front End With Archiving</span></span>
+# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="8df0e-104">将前端与存档关联</span><span class="sxs-lookup"><span data-stu-id="8df0e-104">Associate Front End With Archiving</span></span>
  
-<span data-ttu-id="1f3da-105">每个前端池和 Survivable Branch Appliance 只能有一个与之关联的存档服务器。</span><span class="sxs-lookup"><span data-stu-id="1f3da-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="1f3da-106">启用对网站的存档后，存档服务器然后收集并记录即时消息 (IM) 消息内容和 web 会议内容的用户所参与对话驻留在关联的池和 Survivable Branch Appliance 上。</span><span class="sxs-lookup"><span data-stu-id="1f3da-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
+<span data-ttu-id="8df0e-105">每个前端池和 Survivable Branch Appliance 只能有一个与之关联的存档服务器。</span><span class="sxs-lookup"><span data-stu-id="8df0e-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="8df0e-106">启用对网站的存档后，存档服务器然后收集并记录即时消息 (IM) 消息内容和 web 会议内容的用户所参与对话驻留在关联的池和 Survivable Branch Appliance 上。</span><span class="sxs-lookup"><span data-stu-id="8df0e-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
   
-<span data-ttu-id="1f3da-107">在站点的所有池和多个中央站点的池可以使用相同的存档服务器，如果使用量不超过存档服务器的容量。</span><span class="sxs-lookup"><span data-stu-id="1f3da-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
+<span data-ttu-id="8df0e-107">在站点的所有池和多个中央站点的池可以使用相同的存档服务器，如果使用量不超过存档服务器的容量。</span><span class="sxs-lookup"><span data-stu-id="8df0e-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
   
 
