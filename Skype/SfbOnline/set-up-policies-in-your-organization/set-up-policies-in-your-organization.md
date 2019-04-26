@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 ms.openlocfilehash: 18ddded9822eb479e40f8f9338741b63209919e5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237433"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="41cab-102">设置您的组织中的策略</span><span class="sxs-lookup"><span data-stu-id="41cab-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="52849-102">设置您的组织中的策略</span><span class="sxs-lookup"><span data-stu-id="52849-102">Set up policies in your organization</span></span>
 
 

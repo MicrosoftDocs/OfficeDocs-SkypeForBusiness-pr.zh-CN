@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: ''
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2019 Skype。
 ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240091"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
