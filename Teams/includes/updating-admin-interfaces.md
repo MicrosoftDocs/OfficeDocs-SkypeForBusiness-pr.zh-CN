@@ -1,1 +1,1 @@
-<span data-ttu-id="e7eea-101">我们经常更新如何管理功能，因此此处的步骤可能会稍有不同看到的内容。</span><span class="sxs-lookup"><span data-stu-id="e7eea-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
+<span data-ttu-id="3c05c-101">我们频繁更新功能的管理方式，因此此处步骤可能与你所看到的略有不同。</span><span class="sxs-lookup"><span data-stu-id="3c05c-101">We are frequently updating how you can manage features found in Microsoft Teams, so the steps here might be a little different.</span></span>
