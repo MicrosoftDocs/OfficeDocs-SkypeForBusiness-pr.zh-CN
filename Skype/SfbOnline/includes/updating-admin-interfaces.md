@@ -1,1 +1,1 @@
-我们频繁更新 Skype for Business Online 中功能的管理方式，因此这里的步骤可能略有不同。
+我们频繁更新 Skype for Business Online 中功能的管理方式，因此此处步骤可能略有不同。
