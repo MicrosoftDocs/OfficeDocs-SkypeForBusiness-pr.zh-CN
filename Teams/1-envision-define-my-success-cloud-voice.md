@@ -1,7 +1,7 @@
 ---
 title: 在音频会议、包含通话方案的电话系统或电话系统直接路由中定义成功 - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: becf9e671507f121378a8361677254e2c3c51b69
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251468"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304953"
 ---
 # <a name="define-my-success"></a>定义成功
 

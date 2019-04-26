@@ -1,7 +1,7 @@
 ---
 title: 做出电话系统直接路由服务决策 - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569763"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304714"
 ---
 # <a name="make-my-service-decisions"></a>决定我服务
 
@@ -87,19 +87,19 @@ ms.locfileid: "30569763"
 
 ## <a name="voicemail"></a>语音邮件
 
-电话系统的语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。
+云语音邮件，由 Azure 语音邮件服务，支持语音邮件存款仅 Exchange 邮箱和不支持第三方电子邮件系统。
 
-电话系统语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
+云语音邮件包括语音邮件转录，默认情况下启用为在组织中的所有用户。 您的业务需求可能需要您禁用语音邮件转录的特定用户或整个组织中的每个人。 如果您的组织决定保留启用语音邮件转录，您需要还考虑是否需要启用语音邮件转录亵渎屏蔽。 有关详细信息，请参阅[设置您的组织中的语音邮件策略](set-up-phone-system-voicemail.md)。
 
-有关在电话系统的实施中的语音邮件的详细信息，请参阅[设置电话系统的语音邮件](set-up-phone-system-voicemail.md)。
+有关在电话系统的实施中的语音邮件的详细信息，请参阅[Set up 云语音邮件](set-up-phone-system-voicemail.md)。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否将直接路由中实现中启用电话系统的语音邮件。<li>决定是否将启用或禁用语音邮件转录和语音邮件转录亵渎屏蔽在整个组织或特定用户。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>如果适用，记录以支持电话系统的语音邮件的决策点。<li>如果您将启用或禁用语音邮件、 语音邮件转录和仅为特定用户的语音邮件转录亵渎遮蔽，文档的用户的列表。</ul>|
+|<img src="media/audio_conferencing_image7.png" />|决策点|<ul><li>决定是否将直接路由中实现中启用云语音邮件。<li>决定是否将启用或禁用语音邮件转录和语音邮件转录亵渎屏蔽在整个组织或特定用户。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|后续步骤|<ul><li>如果适用，记录的决策点支持云语音邮件。<li>如果您将启用或禁用语音邮件、 语音邮件转录和仅为特定用户的语音邮件转录亵渎遮蔽，文档的用户的列表。</ul>|
 
 > [!TIP]
-> 按下表可以记录调用计划实现的电话系统的语音邮件详细信息。
+> 如下表中所示，可以记录云语音邮件的调用计划实现详细信息。
 > 
 > | **User**         | **Exchange 邮箱** | **启用语音邮件？** | **语音邮件转录** | **语音邮件转录亵渎屏蔽** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|

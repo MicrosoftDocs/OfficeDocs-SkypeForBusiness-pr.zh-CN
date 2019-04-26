@@ -3,7 +3,7 @@ title: 获取 Microsoft Teams 的客户端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236719"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304722"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "32236719"
 Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
 > [!NOTE]
-> 有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。 我们建议您使用后 11 月 29 日下述本文中的团队应用程序之一。
+> 有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。 相反，现在可以下载并运行 Windows 10 S 模式的设备上安装团队桌面客户端。 若要下载桌面客户端，转到[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。 团队桌面客户端的 MSI 版本尚不可用运行 Windows 10 S 模式的设备。
+>
+> 有关 Windows 10 S 模式的详细信息，请参阅[S 模式中引入 Windows 10](https://www.microsoft.com/windows/s-mode)。 
 
 <a name="desktop-client"></a>桌面客户端
 --------------
@@ -45,7 +47,7 @@ Microsoft 团队桌面客户端是一个独立的应用程序和当前不是 Off
 
 桌面客户端可以下载并安装由最终用户直接从[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)如果拥有适当的本地权限 （管理员权限不需要在 PC 上安装团队客户端，但需要在 Mac 上）。
 
-IT 管理员可以选择其分发到其组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的首选的方法。 若要获取 Windows 通讯组的 MSI 程序包，请参阅[安装的 Microsoft 团队使用 MSI](msi-deployment.md)。
+IT 管理员可以选择其分发到其组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的首选的方法。 若要获取 Windows 通讯组的 MSI 程序包，请参阅[安装的 Microsoft 团队使用 MSI](msi-deployment.md)。  
 
 > [!NOTE]
 > 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。
@@ -133,7 +135,7 @@ Microsoft Teams 移动应用的支持移动平台如下：
 <a name="client-update-management"></a>客户端更新管理
 ------------------------
 
-当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果有更新，客户端将自动下载更新，当应用空闲一段时间后，将开始执行更新过程。
+当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果提供更新，则客户端将自动下载更新并当应用程序具有 idled 的一段时间内，将开始更新过程。
 
 <a name="client-side-configurations"></a>客户端配置
 ---------------------------

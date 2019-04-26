@@ -1,7 +1,7 @@
 ---
 title: 用于在 Microsoft Teams 中配置云语音工作负载的上线清单
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 971e1be3caf30800df68637674311f487e7e6854
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3da65a7203f8597824a43be15d5980a5ab53cb2f
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225576"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304538"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>配置 Microsoft 团队中的云语音工作负荷
 
