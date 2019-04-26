@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: XMPP 联盟定义基于可扩展消息和状态协议 (XMPP) 外部部署。 XMPP 配置允许用户通过 XMPP 域用户访问：
 ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238659"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>配置 XMPP 网关访问策略和证书
 

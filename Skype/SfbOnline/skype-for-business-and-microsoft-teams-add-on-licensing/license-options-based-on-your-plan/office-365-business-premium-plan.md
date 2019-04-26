@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
 ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238931"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 部署试点池之前, 必须更新试点池的 DNS 主机 A 条目。 若要成功完成此过程，您应登录到服务器或域的 Domain Admins 组成员或 DnsAdmins 组的成员。
 ms.openlocfilehash: 23ac5e4f85dc0da560b4d288bbfad426298bf82e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238728"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
 

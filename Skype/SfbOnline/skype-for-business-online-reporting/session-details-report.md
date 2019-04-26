@@ -19,15 +19,15 @@ ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
 ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240602"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
-全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**Skype 的业务会话详细信息**报表以查看有关单个用户的呼叫体验的详细信息。
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**Skype 的业务会话详细信息**报表以查看有关单个用户的呼叫体验的详细信息。
   
 查看[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)可用的详细报告。
   
@@ -99,7 +99,7 @@ ms.locfileid: "30454031"
 ***
 ![第六](../images/sfbcallout6.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
+## <a name="want-to-see-other-skype-for-business-reports"></a>要查看其他 Skype 业务报告？
 
 - [Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。
     

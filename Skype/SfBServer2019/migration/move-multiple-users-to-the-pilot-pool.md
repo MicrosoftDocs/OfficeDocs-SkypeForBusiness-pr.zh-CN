@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 可以将多个用户从旧池移动到您 Skype 业务服务器 2019年试点池 Skype 业务 Server 2019 控制面板或 Skype 用于业务服务器 2019年命令行管理程序中。
 ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233965"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移至试点池
 

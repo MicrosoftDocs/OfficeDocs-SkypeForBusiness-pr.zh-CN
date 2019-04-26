@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241983"
 ---
 # <a name="activity-report"></a>活动报告
 
-全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 使您能够钻取到单个产品级别报表，以使您更精细了解每种产品中的活动。 例如，您可以使用**的业务活动的 Skype**报表来查看多少用户使用对等或组织会议会话，或多少它们您加入会议会话。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 使您能够钻取到单个产品级别报表，以使您更精细了解每种产品中的活动。 例如，您可以使用**的业务活动的 Skype**报表来查看多少用户使用对等或组织会议会话，或多少它们您加入会议会话。 
 
 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
@@ -71,7 +71,7 @@ ms.locfileid: "30453993"
 使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议活动的唯一用户数。 它将显示您的**对等会话**、**有组织**和**Participated**类型以及用户总数会议会话中。
 ***
 ![第五](../images/sfbcallout5.png)<br/>
-你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**对等会话**、**有组织**或**Participated**以查看仅与每个相关的信息。 更改此选项不会更改网格表中的信息。 
+你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**对等会话**、**有组织**或**Participated**以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
 ![第六](../images/sfbcallout6.png)<br/>
 每个图表都具有"X"（水平）轴和"Y"（垂直）轴。

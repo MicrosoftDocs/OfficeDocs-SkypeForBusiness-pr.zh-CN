@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: 本节中的主题帮助您了解如何规划和部署 Skype 业务服务器，以便您可以充分规划您的组织和 plan for 其活动生成服务器负载中的用户数。
 ms.openlocfilehash: e7974704c4c39ac269b763043dbc50b83fc02c96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236099"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>服务器容量规划的 Skype 业务
  

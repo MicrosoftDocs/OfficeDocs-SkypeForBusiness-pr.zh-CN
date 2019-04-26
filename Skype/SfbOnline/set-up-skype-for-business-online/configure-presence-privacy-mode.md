@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: '了解如何设置您的用户的隐私模式，以便他们可以更好地控制如何人们可以看到他们的可用性。 '
 ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237413"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 

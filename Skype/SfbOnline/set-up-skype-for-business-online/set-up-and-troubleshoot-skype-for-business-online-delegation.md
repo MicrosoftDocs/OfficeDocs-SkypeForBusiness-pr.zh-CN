@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 本文介绍如何设置和 Skype 疑难解答业务联机委派。 本文为您提供了有关安装程序建议、 最佳实践和故障排除步骤指南。
 ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237294"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online 委派设置和疑难解答
 
@@ -64,14 +64,14 @@ ms.locfileid: "30887832"
 
 **企业版 E3 授权方案**
 
-|**许可证**|**客户端**|**备注**|
+|**许可证**|**客户端**|**注释**|
 |:-----|:-----|:-----|
 |企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
 |与 Office 365 电话系统 + Office 365 xCalling 计划的企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
    
 **企业 E5 授权方案**
 
-|**许可证**|**客户端**|**备注**|
+|**许可证**|**客户端**|**注释**|
 |:-----|:-----|:-----|
 |企业 E5  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)。  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
 |企业 E5 以及 Office 365 呼叫计划  <br/> |Skype for Mac 2016 年 Business  <br/> 用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |

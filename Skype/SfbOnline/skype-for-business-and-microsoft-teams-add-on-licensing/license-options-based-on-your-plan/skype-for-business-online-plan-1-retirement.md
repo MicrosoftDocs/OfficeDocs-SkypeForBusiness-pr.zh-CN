@@ -1,5 +1,5 @@
 ---
-title: 'Skype 的业务 Online 计划 1 退休 '
+title: 'Skype for Business Online（计划 1）停用 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: 已失效的业务 Online 计划 1 Skype。 但是，如果您的业务 Online 计划 1 有 Skype 当前订阅，此更改不会影响您立即。 当您准备将移动到新计划 — 现在或期间续订 — 将有三个选项。
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248710"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype 的业务 Online 计划 1 退休 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online（计划 1）停用 
 
 已失效的业务 Online 计划 1 Skype。 但是，如果您的业务 Online 计划 1 有 Skype 当前订阅，此更改不会影响您立即。 作为全局的 Office 365 管理员，您将接收电子邮件更新，在当您需要执行操作的信息，请参阅中的帖子中邮件中心 （Office 365 管理中心的一部分）。 同时，您可以继续使用您现有的 Skype 业务 Online 计划 1 许可证。
 

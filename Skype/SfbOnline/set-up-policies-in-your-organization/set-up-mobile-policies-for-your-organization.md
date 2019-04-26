@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 您可以设置如何您的用户连接到 Skype 业务 online 对等功能使用户能够发起和接收电话呼叫在其移动电话上使用而不是其移动电话 nu 其单位电话号码的移动设备上的业务应用程序使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
 ms.openlocfilehash: 73416cb6e0c9c349c58e26b70760f6490e283e4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237457"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 

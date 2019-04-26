@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
 ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239574"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中
 

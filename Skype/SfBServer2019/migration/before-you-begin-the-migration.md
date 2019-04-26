@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在开始之前，我们建议您阅读本文档和随后的指南，以使自己熟悉部署相应的角色：
 ms.openlocfilehash: 695e70e4517bc24c239f2c99c1bbcb3f65420785
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238763"
 ---
 # <a name="before-you-begin-the-migration"></a>开始迁移之前的准备工作
 

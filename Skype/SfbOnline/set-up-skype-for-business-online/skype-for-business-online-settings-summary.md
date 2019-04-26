@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Skype 的业务组织和用户设置的此摘要可帮助您了解有关公共 IM 连接，会议邀请、 记录呼叫和会议，等等。  '
 ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237245"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 

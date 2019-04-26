@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: '当您接到 Skype 的业务联机功能不是已启用的错误时，查找可能的原因和操作建议。 '
 ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237170"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype 业务 Online 功能
 

@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 持久聊天服务器，用户可以参与随着时间的推移保留的、 基于主题的多方对话。
 ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235707"
 ---
 # <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
  

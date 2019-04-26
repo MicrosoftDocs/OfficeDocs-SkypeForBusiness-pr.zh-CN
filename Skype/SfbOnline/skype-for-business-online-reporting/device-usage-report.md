@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用业务设备使用情况报告的 Skype 查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 查看 Office 365 管理中心中的活动报告以了解详细信息。
 ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241973"
 ---
 # <a name="device-usage-report"></a>设备使用报告
 
-全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype 业务设备使用情况**报告以查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype 业务设备使用情况**报告以查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 
 
 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
@@ -67,7 +67,7 @@ ms.locfileid: "30453963"
 ***
 ![第四](../images/sfbcallout4.png)<br/>使用**通讯组**条形图上的交互式图表数据了解使用率以查看在组织中使用唯一的设备的用户数。 它将与正在使用设备显示您的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**用户的总数。 
 ***
-![第五](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**用户**图表中，单击或点击**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**、 或**iPad** ，以查看仅与每个相关的信息。 更改此选项不会更改网格表中的信息。 
+![第五](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**用户**图表中，单击或点击**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**、 或**iPad** ，以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
 ![第六](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
 *    在**用户**图表中，Y 轴是与设备已安装的业务应用程序 Skype 连接的用户的总数。
@@ -90,7 +90,7 @@ ms.locfileid: "30453963"
 ***
 ![数字 9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> ![用于业务报告的 Skype 导出按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。 
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
+## <a name="want-to-see-other-skype-for-business-reports"></a>要查看其他 Skype 业务报告？
 
 - [Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。
     

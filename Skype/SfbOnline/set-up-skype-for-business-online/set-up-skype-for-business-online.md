@@ -24,11 +24,11 @@ ms.custom:
 - LIL_Placement
 description: '了解如何设置域、 用户、 IM 和状态为您的组织安装 for Business 的 Skype。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
 ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237821"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 

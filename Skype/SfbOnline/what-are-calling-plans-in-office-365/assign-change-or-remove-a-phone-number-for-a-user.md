@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+description: 了解如何给 Skype for Business 用户分配、更改或删除工作电话号码，以便外部业务和客户能呼入。
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235689"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -50,7 +50,7 @@ ms.locfileid: "30047745"
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> 一种方法查看用户是否已分配的许可证是通过转至**业务管理中心的 Skype** > **语音** > **语音用户**，然后选择用户。 如果已分配许可证，则将**已分配的许可证**下注明。 您还可以使用 Office 365 管理中心。 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>为用户分配电话号码
  
@@ -80,7 +80,7 @@ ms.locfileid: "30047745"
 8. 在选择电话号码和紧急位置之后，请单击" **保存**"。
     
     > [!NOTE]
-    > Office 365 和 Skype 业务 online 之间的延迟，因为它可能花费达 24 小时的用户启用。 如果之后 24 小时，如果不正确分配电话号码，请[对业务产品-管理员技术联系人支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我们随时为你提供帮助！ 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

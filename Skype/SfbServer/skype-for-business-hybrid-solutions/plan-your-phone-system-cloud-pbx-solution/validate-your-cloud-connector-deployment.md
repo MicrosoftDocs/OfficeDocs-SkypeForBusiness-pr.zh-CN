@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: 您已完成部署和配置商务云连接器版 Skype 的步骤后，确认您可以发起和接收呼叫。
 ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240772"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  

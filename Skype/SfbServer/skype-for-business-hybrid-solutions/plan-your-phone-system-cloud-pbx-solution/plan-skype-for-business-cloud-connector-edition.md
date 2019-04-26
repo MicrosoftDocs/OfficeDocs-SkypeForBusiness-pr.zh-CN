@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
 ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242095"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
@@ -453,7 +453,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 首先需要定义以下常见部署参数：
 
 
-|**项目**|**说明**|**备注**|
+|**项目**|**说明**|**注释**|
 |:-----|:-----|:-----|
 |SIP 域  <br/> |SIP URI 的公司用户使用。 提供此部署将服务于的所有 SIP 域。 你可以有多个 SIP 域。  <br/> ||
 |PSTN 网站数  <br/> |将部署的 PSTN 网站数。  <br/> ||
@@ -704,7 +704,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 ## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_MoreInfo"> </a>
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅：
 
 - [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 

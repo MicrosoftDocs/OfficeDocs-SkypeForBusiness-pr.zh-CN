@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
 ms.openlocfilehash: 7f70da0423257df4a02207aaaa1888b279404706
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245500"
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
-全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，你可以使用" **Skype for Business 会议组织者活动**"报告查看使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 组织会议的用户数。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，你可以使用" **Skype for Business 会议组织者活动**"报告查看使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出（第三方）和拨入/拨出 (Microsoft) 组织会议的用户数。 
 
 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   

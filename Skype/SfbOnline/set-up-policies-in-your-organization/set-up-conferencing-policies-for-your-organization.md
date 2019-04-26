@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 会议是 Skype for Business Online 的重要部分：通过会议，多组用户可以在线集中在一起来查看幻灯片和视频、共享应用、交换文件以及进行通信与协作。
 ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237467"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>为你的组织设置会议策略
 

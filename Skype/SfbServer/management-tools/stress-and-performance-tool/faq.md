@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype 的业务 2015年压力和性能工具： 常见问题 (FAQ)，用于查找支持哪些工具配置、 疑难解答工具问题并阐明时运行压力和性能工具可能会看到的行为.
 ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236121"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>为业务服务器 2015年压力和性能工具 Skype 常见问题
  

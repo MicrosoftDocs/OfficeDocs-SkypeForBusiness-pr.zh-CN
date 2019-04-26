@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 了解如何准备云连接器设备的部署和使用 Office 365 (云 PBX) 中的电话系统。
 ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240880"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
 

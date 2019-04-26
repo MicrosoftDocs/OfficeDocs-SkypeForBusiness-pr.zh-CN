@@ -22,15 +22,15 @@ ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
 ms.openlocfilehash: 7610f8c97dcab5536f8c02420e4aff83cb4aaefe
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242224"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
-全新的 Office 365 **报告**仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**业务对等活动的 Skype**报告以查看您的用户使用 IM、 音频、 视频、 应用程序共享和文件传输的多少。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用**业务对等活动的 Skype**报告以查看您的用户使用 IM、 音频、 视频、 应用程序共享和文件传输的多少。 
 
 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -78,7 +78,7 @@ ms.locfileid: "30453973"
 
 这两个图表的 X 轴都表示此特定报表的所选日期范围。
 ***
-![7 号](../images/sfbcallout7.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**以查看仅与每个相关的信息。 更改此选项不会更改网格表中的信息。 
+![7 号](../images/sfbcallout7.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**活动**图表中，单击或点击**IM**、**音频**、**视频**、**应用程序共享**和**文件传输**以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
 ![8 号](../images/sfbcallout8.png)<br/>该表格显示了按用户细分的对等活动。它将显示所有分配了 Skype for Business 的用户及其对等活动。你可以向该表格中添加其他列。
 *    " **用户名**"是用户的名称。

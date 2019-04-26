@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 在业务 online Skype，您可以控制现有会议策略设置的一部分 (P2P) 点对点文件传输功能。 但是，这将允许或阻止文件传输他们用户属于同一组织中或从另一个组织的联合用户传输的文件的用户。 下面的下面的步骤，您可以阻止与联盟的组织或合作伙伴的 P2P 文件传输。
 ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237535"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
