@@ -14,17 +14,17 @@ search.appverid: MET150
 description: 您的 IT 管理员可以配置外部访问的其他域 （联合身份验证），以使用户可以从这些域参与团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245558"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356185"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 ======================================================
 
-与 Microsoft 团队外部访问来自其他域的用户可以参加您聊天和呼叫。 您还可以允许外部用户仍使用 for Business 的 Skype 参与。 
+与 Microsoft 团队外部访问来自其他域的用户可以参加您聊天和呼叫。 您还可以允许外部用户仍在使用 Skype 业务联机或业务 prem 的 Skype 参与。 
 
 外部访问 （联合身份验证） 和来宾访问是不同：
 

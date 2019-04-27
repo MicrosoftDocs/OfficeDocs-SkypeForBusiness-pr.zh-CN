@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解业务服务器，包括 AlwaysOn 可用性组、 AlwaysOn 故障转移集群实例、 数据库镜像，和 SQL 故障转移群集 Skype 中支持的后端服务器高可用性选项。
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214101"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356216"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>后端服务器高可用性 Skype 业务服务器
  
@@ -50,7 +50,7 @@ Skype 业务服务器支持与以下数据库软件镜像：
     
 
 > [!NOTE]
-> SQL Server 2016 是唯一支持的业务服务器 2019 Skype 的版本。
+> SQL 镜像的业务服务器 2015 Skype 中可用，但业务服务器 2019年不再支持在 Skype。 AlwaysOn 可用性组、 AlwaysOn 故障转移群集实例 (FCI)，和 SQL 故障转移群集方法是首选与 Skype 的业务服务器 2019年。
     
 异步数据库镜像不支持的后端服务器高可用性 Skype 业务服务器。 在本文档的后续部分中，除非另有说明，否则数据库镜像即表示同步数据库镜像。 
   
