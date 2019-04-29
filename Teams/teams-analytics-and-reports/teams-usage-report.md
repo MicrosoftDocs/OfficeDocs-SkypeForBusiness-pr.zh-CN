@@ -17,11 +17,11 @@ description: 了解如何在 Microsoft Teams 管理中心使用 Teams 使用情�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8915b544dd2f1b2e07eaac94ef17abbee93a8caa
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298717"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402552"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 

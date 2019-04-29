@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 62f5b3180a0153aa0600d4d80b90fe6c681af43e
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400645"
 ---
 # <a name="enable-office-365"></a>启用 Office 365
  

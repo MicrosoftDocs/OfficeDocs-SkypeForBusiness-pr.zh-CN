@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 891b8e87e5e907adf2d669a8c15a5f566f6ff6a3
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304370"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401433"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>加快用户应用的新联机电话系统
 

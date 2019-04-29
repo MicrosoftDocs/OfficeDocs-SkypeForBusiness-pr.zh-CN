@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: 了解什么需要迁移到直接路由从 Skype 业务联机和团队配置角度。
 ms.openlocfilehash: 995883bd6f62607cd156f82e2c86255bab182303
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298641"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401944"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 

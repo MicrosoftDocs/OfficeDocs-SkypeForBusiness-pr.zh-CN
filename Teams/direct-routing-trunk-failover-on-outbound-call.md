@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何处理出站呼叫从团队对会话边界控制器 (SBC) 上的中继故障转移。
 ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298553"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401779"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 

@@ -17,11 +17,11 @@ description: 了解如何使用在 Microsoft 团队管理中心团队设备使�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401409"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
 
