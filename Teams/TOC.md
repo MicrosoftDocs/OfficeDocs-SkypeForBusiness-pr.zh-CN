@@ -142,6 +142,7 @@
 ## [Teams 云会议录制](cloud-recording.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Microsoft Teams 会议室](room-systems/index.md)
 
 
 ## [音频会议](deploy-audio-conferencing-teams-landing-page.md)
