@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: acaab4de788af1dc84a1cff0908868b1ddd924b4
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304514"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401972"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队的核心功能
 

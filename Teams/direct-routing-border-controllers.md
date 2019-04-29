@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
 ms.openlocfilehash: 06b626c034773d30e10699735d10d19178b4ecc6
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
-ms.translationtype: HT
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402035"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 

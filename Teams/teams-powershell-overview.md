@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件来管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401627"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述 （英文)
 
@@ -43,6 +43,37 @@ PowerShell 控件的参考文档会告诉您哪些模块包含正在研究 cmdle
 团队有后盾 O365 组，因此何时创建工作组，创建一个组。 有一组的操作系统上核心团队和其设置为提供的 cmdlet (``new-team``， ``get-team``， ``set-team``)，管理团队用户 (``add-teamuser``， ``remove-teamuser``)，以及用于管理团队的通道 cmdlet (``new-teamchannel``， ``remove-teamchannel``)。 所有这些 cmdlet 可以为最终用户运行，但其将仅参与团队拥有或的成员。 如果您是全局管理员或团队服务管理员，您将能够在组织中的所有团队。
 
 > 使用中的 Microsoft 团队 PowerShell 模块 cmdlet **GroupId**是返回的**Identity**属性相同``Get-UnifiedGroup``Exchange PowerShell 模块中。
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>预览和通常可用的 Microsoft 团队 PowerShell 模块之间的区别
+
+我们释放我们 PowerShell 模块我们通常可用版本，在下表中所述的一些 cmdlet 已处于仅 beta 模块。
+
+| Cmdlet | 在预览中可用 | 在 1.0 中可用 |
+|------- | -------------------- | ------------------------------ |
+| 添加 TeamUser | 是 | 是 |
+| 连接 MicrosoftTeams | 是 | 是 |
+| 断开连接 MicrosoftTeams | 是 | 是 |
+| Get 团队 | 是 | 是 |
+| Get TeamChannel | 是 | 是 |
+| Get TeamFunSettings | 仅 1.0 版之前 | 否 |
+| Get TeamGuestSettings | 仅 1.0 版之前 | 否 |
+| Get TeamHelp | 是 | 是 |
+| Get TeamMemberSettings | 仅 1.0 版之前 | 否 |
+| Get TeamMessagingSettings | 仅 1.0 版之前 | 否 |
+| Get TeamUser | 是 | 是 |
+| 新团队 | 是 | 是 |
+| 新 TeamChannel | 是 | 是 |
+| 删除团队 | 是 | 是 |
+| 删除 TeamChannel | 是 | 是 |
+| 删除 TeamUser | 是 | 是 |
+| 设置团队 | 是 | 是 |
+| 设置 TeamChannel | 是 | 是 |
+| 设置 TeamFunSettings | 仅 1.0 版之前 | 否 |
+| 设置 TeamGuestSettings | 仅 1.0 版之前 | 否 |
+| 设置 TeamMemberSettings | 仅 1.0 版之前 | 否 |
+| 设置 TeamMessagingSettings | 仅 1.0 版之前 | 否 |
+| 设置 TeamPicture | 是 | 否，计划 |
+
 
 ## <a name="managing-policies-via-powershell"></a>管理通过 PowerShell 自定义策略
 

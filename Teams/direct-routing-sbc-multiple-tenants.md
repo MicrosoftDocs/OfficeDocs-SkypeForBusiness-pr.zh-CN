@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
 ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298545"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401485"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 

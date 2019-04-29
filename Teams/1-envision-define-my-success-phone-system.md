@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
 ms.openlocfilehash: fe438ec45d5cb6e9eb57e6f98bc3e59ace51218e
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400849"
 ---
 # <a name="define-my-success"></a>定义成功
 
