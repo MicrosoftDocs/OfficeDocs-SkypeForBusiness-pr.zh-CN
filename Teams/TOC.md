@@ -327,6 +327,7 @@
 #### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
 #### [设置云自动助理](create-a-phone-system-auto-attendant.md)
 #### [小型企业示例 - 设置自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小型企业示例 - 设置呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [在 Microsoft Teams 中管理资源帐户](manage-resource-accounts.md)
 #### [创建云呼叫队列](create-a-phone-system-call-queue.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
