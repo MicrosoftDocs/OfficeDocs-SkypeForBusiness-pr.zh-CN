@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3ce33cb77a5285b96a077b44c02e42007500190
+ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199580"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33472508"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
-在同一位置查找并管理 [Skype for Business Server 2015](#skype-for-business-server-2015-update-history)、[Lync 2013](#Lync-2013-update-history) 和 [Lync Server 2010](#lync-server-2010-update-history) 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
+查找和管理更新[的业务服务器 2015 Skype](#skype-for-business-server-2015-update-history)、 [Lync Server 2013](#lync-server-2013-update-history)和[Lync Server 2010](#lync-server-2010-update-history)在一个位置。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
 
 有关最新 Skype 业务 Online 和 Office 365 更新，请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
