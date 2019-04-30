@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233001"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470591"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 
@@ -240,7 +240,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 如果使用率不是您的预期，这可能是因为部署问题，或者应用计划未被执行正常，或一些其他问题。 低使用率后面的实际原因，根据服务管理员必须与帮助删除使用率障碍相关团队协作。
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>测量用法与 Office 365 管理中心
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>与 Microsoft 365 管理中心的测量使用率
 
 从工作组的使用率数据位于报告仪表板中。 三个不同的报表中，可以找到团队使用率数据。 第一个报告提供跨产品视图的用户进行通信和协作使用 Office 365 中的各种服务的方式。 此报告可在此处找到： [Office 365 活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 ### <a name="references"></a>References
 
-[有关 Office 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[有关 Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Office 365 管理中心中的活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[在 Microsoft 365 管理中心中的活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

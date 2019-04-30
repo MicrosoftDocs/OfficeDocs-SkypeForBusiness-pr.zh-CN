@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647550"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470666"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -65,6 +65,6 @@ ms.locfileid: "30647550"
 
 共享您获得井号 #TeamsStories 以便于检索与您的反馈通道见解。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外共享其与我们 Microsoft 技术社区我们驱动应用论坛中。 共享您自己公司内的从这些宣传示例是实现随着时间推移而持续的更改与用户社区非常有用的。
 
-[了解有关 Office 365 管理中心中的 Microsoft 团队使用率报告。](teams-activity-reports.md)
+[了解有关 Microsoft 365 管理中心中的 Microsoft 团队使用率报告。](teams-activity-reports.md)
 
 ![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[计划服务运行状况检查](teams-adoption-schedule-service-health-reviews.md)

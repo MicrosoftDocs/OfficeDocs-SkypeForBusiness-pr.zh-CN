@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f1df731f7ff21d246f9b92e028fe3e7ae367509
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400936"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470642"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实现服务质量 (QoS)
 
@@ -160,7 +160,7 @@ _建议初始端口范围_
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>管理团队管理中心中的源端口
 
-团队中使用的不同的工作负载的 QoS 源端口应主动管理，并根据需要调整。 引用[的端口范围和 DSCP 标记](#port-ranges-and-dscp-markings)的表中，端口范围为可调整，但 DSCP 标记不可配置。 一旦您已实现这些设置，您可能会发现增加或减少端口所需的给定的媒体类型。 在决定实现团队后，并定期根据需要更改调整端口范围，应使用[调用分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)。
+团队中使用的不同的工作负载的 QoS 源端口应主动管理，并根据需要调整。 对于[每种媒体类型选择初始的端口范围](#choose-initial-port-ranges-for-each-media-type)中的表，端口范围为可调整，但 DSCP 标记不可配置。 一旦您已实现这些设置，您可能会发现增加或减少端口所需的给定的媒体类型。 在决定实现团队后，并定期根据需要更改调整端口范围，应使用[调用分析和呼叫质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)。
 
 > [!NOTE]
 > 如果您已经配置 QoS 基于源的端口范围和业务 online Skype 的 DSCP 标记，相同的配置将应用于工作组和不再客户端或网络映射到需要更改，但您可能已经为[设置范围用于团队 Admin Center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)来匹配内容已配置为 Skype 业务 online。
