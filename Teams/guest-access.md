@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
 ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32235560"
@@ -28,45 +28,46 @@ ms.locfileid: "32235560"
 
 ## <a name="guest-access-overview"></a>来宾访问概述
 
-来宾访问是最客户要求的功能之一。 下面是如何及时来宾访问我们的进度并告诉我们您的想法：
+“来宾访问”是客户需求最强烈的的功能之一。 你可按此处所述了解来宾访问功能的最新进展并将你的想法告诉我们：
 
 - 如果你在使用来宾访问时遇到问题，请查看 [Microsoft Teams 的已知问题](Known-issues.md)。
 - 请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。
 - 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。
 - 在下面的“注释”部分中分享你的体验。
 
-来宾访问允许组织中要向其授予对现有团队和上一个或多个租户的频道的访问通过与组织外部的人员进行协作的团队。 具有业务或使用者的电子邮件帐户，如 Outlook、 Gmail，或其他任何人都可以参与作为来宾团队中具有到团队聊天、 会议和文件的完全访问权限。
+借助“来宾访问”功能，你组织中的团队可通过在你的一个或多个租户中向组织外部人员授予现有团队和频道的访问权限，与他们进行协作。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
 
-来宾访问随所有 Office 365 企业高级版、 Office 365 Enterprise 和 Office 365 教育版订阅与任何其他的许可要求。 每个许可用户最多 5 来宾会对您的租户。 有关许可的详细信息，请参阅[Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)。 
+所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能（没有额外的许可要求）。 最多可租户上对每个许可用户添加 5 名来宾。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/zh-CN/azure/active-directory/b2b/licensing-guidance)。 
 
-来宾访问是 Microsoft Teams 中的租户级别设置，默认情况下关闭。 来宾访问受 Azure AD 和 Office 365 服务限制。
+来宾访问是 Microsoft Teams 中的租户级别设置且默认关闭。 来宾访问受制于 Azure AD 和 Office 365 服务限制。
 
 > [!NOTE]
-> 组织中的拥有独立 Office 365 订阅计划仅，例如 Exchange Online 计划 2，用户不能为您的组织的来宾邀请，因为团队考虑这些用户属于同一组织。 这些用户使用团队，它们必须分配的 Office 365 企业高级版、 Office 365 企业版或 Office 365 教育版订阅。 
+> 你组织中仅拥有独立 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Office 365 商业高级版、Office 365 企业版或 Office 365 教育版订阅。 
 
-## <a name="who-is-a-guest"></a>谁是来宾？
+## <a name="who-is-a-guest"></a>来宾具体是什么？
 
-来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于您的组织的任何人都可以作为来宾团队中添加。 这意味着与业务帐户 （即，Azure Active Directory 帐户） 或使用者电子邮件帐户 （以及 Outlook.com、 Gmail.com 或其他） 的任何人都可以参与作为来宾团队中具有完全访问权限的团队和通道体验。 （您可以了解有关[授权来宾访问中的 Microsoft 团队](teams-dependencies.md)中的来宾限制。）团队中的所有来宾涵盖的相同的遵从性和审核保护 Office 365 的其余部分和 Azure AD 中可以安全地进行管理。
+来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于你的组织的任何人都可作为来宾添加到 Teams 中。 这意味着具有业务帐户（即 Azure Active Directory 帐户）或客户电子邮件帐户（带有 Outlook.com 和 Gmail.com 等）的任何人都可作为来宾参与 Teams，并且可完全访问团队和频道体验。 （有关来宾限制，可参阅[在 Microsoft Teams 中授予来宾访问权限](teams-dependencies.md)。）Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。
 
-## <a name="why-use-guest-access"></a>为什么使用来宾访问？
+## <a name="why-use-guest-access"></a>为何要使用来宾访问？
       
-使用来宾访问使用团队的组织可以同时维护自己公司数据的完全控制提供对团队、 文档中的通道、 资源、 聊天和到他们的合作伙伴应用程序的外部访问。 团队中的所有来宾都涵盖的相同的遵从性和 Office 365 的其余部分的审核保护并来宾可以安全地管理 Azure AD 中。  
+借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的外部访问权限，同时对其自己的公司数据维护完全控制。 Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。  
 
-团队基于 Office 365 组，并提供访问 Office 365 组共享的资产的新方法。 Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。 Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。 
+Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资产的全新方式。 Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。 Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。 
 
-## <a name="how-does-guest-access-compare-to-external-access-federation"></a>来宾访问比较外部访问 （联合身份验证）？
+## <a name="how-does-guest-access-compare-to-external-access-federation"></a>与外部访问（联合身份验证）相比，来宾访问如何？
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="more-information"></a>更多信息
+## <a name="more-information"></a>详细信息
     
-[与支持部门联系业务产品的管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-[Office 365 组中的来宾访问](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
+
+  [Office 365 组的来宾访问](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|
 |来宾访问简介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 |深入了解来宾访问   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
-| 在 Microsoft 团队中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 
