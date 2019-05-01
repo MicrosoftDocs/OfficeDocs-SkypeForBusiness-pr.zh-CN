@@ -656,6 +656,7 @@
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
+### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
 
