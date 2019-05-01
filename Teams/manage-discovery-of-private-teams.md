@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何控制是否可以发现的 Microsoft 团队用户通过团队库和搜索结果中的建议的专用工作组。
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262743"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497950"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>管理中的 Microsoft 团队的专用工作组的发现
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 管理员和团队所有者可以控制是否可以发现您的组织中的 Microsoft 团队用户的专用工作组。 可供搜索的专用工作组后，它显示在搜索结果中，并包含在公共 リ モ ・ 团队旁的工作组库中的建议。 这样，用户可以方便地搜索和查找要加入的 private 团队。 用户可以请求加入该团队所有者可以然后批准或拒绝的专用工作组。
 
@@ -62,7 +64,7 @@ ms.locfileid: "33262743"
 
 ![现有的专用工作组的发现设置](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>使用 PowerShell
+### <a name="using-powershell-coming-soon"></a>使用 PowerShell （即将推出）
 
 使用**设置团队**cmdlet 可以关闭或打开现有的专用工作组的发现设置。 下面是如何使团队可检测到的一个示例：
 

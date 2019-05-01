@@ -16,12 +16,12 @@ MS.collection:
 description: 了解如何使用在 Microsoft 团队管理中心团队设备使用情况报告查看如何在组织中的用户连接到团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401409"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495890"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
 
@@ -45,7 +45,7 @@ ms.locfileid: "33401409"
 |**3**   |<ul><li>图表上的 X 轴表示用于连接到团队的不同设备 (**Windows**、 **Mac**， **iOS**， **android 移动电话**)。 </li><li>Y 轴是选定的时间段内使用的设备的用户数。</li> </ul>将鼠标悬停在栏表示设备，以查看使用设备连接到团队的用户数。|
 |**4**   |表为您提供了设备使用用户细分。 <ul><li>**显示名称**是用户的显示名称。 您可以单击转到 Microsoft 团队管理中心中的用户的设置页的显示名称。 </li><li>**Windows**处于选中状态，如果用户的基于 Windows 的计算机上的团队桌面客户端中处于活动状态。</li><li>如果用户已 macOS 计算机上的团队桌面客户端中处于活动状态，则选中**Mac** 。 </li> <li>**iOS**处于选中状态，如果用户处于活动状态的 iOS 团队移动客户端上。</li><li>如果用户上处于活动状态团队移动客户端的 Android， **android 移动电话**处于选中状态。 <li>**最后一次活动**是用户参与团队活动的最后一个日期 (UTC)。</li> </ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
-|**6**   |选择“**˙˙˙**”，然后选择“**打印图表**”可打印图表。 |
+|**6**   |可以将报告导出到 CSV 文件供脱机分析。 单击**导出到 Excel**，然后单击的**下载**选项卡上的**下载**以下载报告准备就绪时。<br>![显示导出下载报告下载选项卡的屏幕截图](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>相关主题
 - [Teams 分析和报告](teams-reporting-reference.md)

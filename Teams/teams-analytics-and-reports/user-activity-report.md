@@ -16,12 +16,12 @@ MS.collection:
 description: 了解如何使用在 Microsoft 团队管理中心团队用户活动报告查看您的组织中的用户如何使用团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcb4511463a8866448739cafb1661c55481718b2
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225025"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495852"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -46,7 +46,7 @@ ms.locfileid: "32225025"
 |**4**   |可单击图例上的项目筛选要在图表上查看的内容。 例如，单击**呼叫 1:1**、**通道消息**或**聊天消息**以查看仅与每个相关的信息。 更改所选内容不会更改表中的信息。 |
 |**5**   |表为您提供了使用用户细分。   <ul><li>**显示名称**是用户的显示名称。 您可以单击转到 Microsoft 团队管理中心中的用户的设置页的显示名称。</li><li>**1:1 呼叫**是用户所参与的 1 对 1 呼叫数在指定的时间段。</li><li>**通道消息**是唯一的用户发布的消息数团队聊天在指定的时间段中。</li> <li>**聊天消息**是唯一的用户发布在专用聊天指定的时间段内的消息数。</li>  <li>**最后一次活动**是用户参与团队活动的最后一个日期 (UTC)。</li> </ul>要查看希望在表格中显示的信息，请确保向表格添加了相关列。
 |**6**   |选择“**编辑列**”可在表格中添加或删除列。 |
-|**7**   |选择“**˙˙˙**”，然后选择“**打印图表**”可打印图表。 |
+|**7**   |可以将报告导出到 CSV 文件供脱机分析。 单击**导出到 Excel**，然后单击的**下载**选项卡上的**下载**以下载报告准备就绪时。<br>![显示导出下载报告下载选项卡的屏幕截图](../media/teams-reports-export-to-csv.png)||
 
 ## <a name="related-topics"></a>相关主题
 - [Teams 分析和报告](teams-reporting-reference.md)
