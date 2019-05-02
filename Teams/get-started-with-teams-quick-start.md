@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245600"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509681"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -44,7 +44,15 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 
 ## <a name="before-you-get-started"></a>开始之前
 
-确保你已为每个人获得 Teams 许可证。 请参阅[比较 Teams 计划](https://products.office.com/microsoft-teams/free)和[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。 
+开始之前，你想要通过检查以下内容来规划 Teams 推广：
+
+- [检查 Teams 的环境准备情况](environment-readiness.md)
+- [为 Teams 准备贵组织的网络](prepare-network.md)
+- [了解安装桌面、网页和移动版客户端的好处](get-clients.md)
+
+此外，还需要确保已获取每个人的 Teams 许可证。 请参阅[比较 Teams 计划](https://products.office.com/microsoft-teams/free)和[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。 
+
+
 
 ## <a name="next-steps"></a>后续步骤
 转到[创建你的第一批团队和频道](get-started-with-teams-create-your-first-teams-and-channels.md)。
