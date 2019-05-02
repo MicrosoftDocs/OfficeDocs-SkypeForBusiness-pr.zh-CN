@@ -77,54 +77,6 @@
 ### [Microsoft 365 管理中心的 Teams 活动报告](teams-activity-reports.md)
 
 
-## 参考
-
-### 准备好推广 Teams
-#### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
-#### [为 Teams 准备贵组织的网络](prepare-network.md)
-#### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
-#### [Teams 限制和规范](limits-specifications-teams.md)
-#### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
-#### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
-#### [在 Teams 中规划管理](plan-teams-governance.md)
-
-
-
-
-### 与 Office 365 的互操作性
-#### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
-#### [Office 365 组和团队](office-365-groups.md)
-#### [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
-#### [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
-##### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
-##### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
-#### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
-#### [Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
-
-### 安装 Teams
-#### [获取 Teams 客户端](get-clients.md)
-#### [Teams 应用的硬件要求](hardware-requirements-for-the-teams-app.md)
-#### [使用 MSI 安装 Teams](msi-deployment.md)
-#### [在组织中打开 Teams](Office-365-set-up.md)
-#### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
-#### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
-#### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
-
-### 许可
-#### [管理对 Teams 的用户访问](user-access.md)
-#### [Teams 的 Office 365 授权](office-365-licensing.md)
-#### [分配 Teams 许可证](assign-teams-licenses.md)
-#### [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### 基于计划的许可证选项
-###### [Office 365 商业高级版](teams-add-on-licensing/office-365-business-premium.md)
-###### [Office 365 专业增强版](teams-add-on-licensing/office-365-premium-pro-plus.md)
-###### [Office 365 企业版（E1 和 E3）](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-###### [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [GOV、EDU 和非营利性组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
-#### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
-
 
 
 <!-- ============================================================ -->
@@ -684,6 +636,58 @@
 
 # 参考
 
+
+## 准备好推广 Teams
+### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
+### [为 Teams 准备贵组织的网络](prepare-network.md)
+### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
+### [Teams 限制和规范](limits-specifications-teams.md)
+### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
+### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
+### [在 Teams 中规划管理](plan-teams-governance.md)
+
+
+
+
+
+
+## 安装 Teams
+### [获取 Teams 客户端](get-clients.md)
+### [Teams 应用的硬件要求](hardware-requirements-for-the-teams-app.md)
+### [使用 MSI 安装 Teams](msi-deployment.md)
+### [在组织中打开 Teams](Office-365-set-up.md)
+### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
+### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
+### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
+
+## 许可
+### [管理对 Teams 的用户访问](user-access.md)
+### [Teams 的 Office 365 授权](office-365-licensing.md)
+### [分配 Teams 许可证](assign-teams-licenses.md)
+### [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### 基于计划的许可证选项
+##### [Office 365 商业高级版](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 专业增强版](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 企业版（E1 和 E3）](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [GOV、EDU 和非营利性组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
+### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
+
+
+## 与 Office 365 的互操作性
+### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 组和团队](office-365-groups.md)
+### [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
+### [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
+#### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
+#### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
+### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
+### [Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
+
+
+
 ## 支持的设备
 ### [在 Teams 中管理设备](device-management.md)
 ### [Teams 电话](phones-for-teams.md)
@@ -693,6 +697,7 @@
 
 
 ## [安全性和合规性](security-compliance-overview.md)
+### [Teams 中的信息障碍](information-barriers-in-teams.md)
 ### [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ### [Teams 中的标识模式和身份验证](identify-models-authentication.md)
 ### [使用现代身份验证登录到 Teams](sign-in-teams.md)
