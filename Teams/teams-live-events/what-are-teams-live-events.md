@@ -14,12 +14,12 @@ description: 了解如何 live 事件使用户能够广播视频和 Microsoft �
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204674"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641490"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -36,6 +36,9 @@ Microsoft 365 live 事件使 live 视频流到新的级别，鼓励连接在整�
 因此，就可以开始。 首先，看看演示高级别的组件在 Microsoft 365 live 事件和连接方式所涉及的以下图表。 
 
 ![图表显示的实时事件的关键组件安排，生产，Microsoft 流平台，认证第三方 eCDN 提供程序](../media/teams-live-events.png  "图表显示的实时事件的关键组件安排，生产，Microsoft 流平台，认证第三方 eCDN 提供程序")
+
+### <a name="event-group-roles"></a>事件组角色
+团队中的实时事件使多个角色 （组织者、 制造者、 演示者和与会者） 成功广播和参与事件。 若要了解详细信息，请参阅[事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
 
 ## <a name="key-components"></a>主要组件
 因此，您可以看到上面图片中有四个主要组件，与团队中的实时事件一起使用。
