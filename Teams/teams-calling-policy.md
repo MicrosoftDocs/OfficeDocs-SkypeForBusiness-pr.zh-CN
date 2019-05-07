@@ -3,7 +3,7 @@ title: Microsoft Teams 中的呼叫策略
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224997"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632366"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
-==========================================
+===================================
 
 在 Microsoft 团队中，调用策略控制的呼叫和呼叫转接功能是对用户可用。 呼叫策略确定是否用户可以接听私人电话，使用呼叫转接或同时响铃到其他用户或外部电话号码，将呼叫路由到语音邮件，呼叫组发送呼叫使用的入站和出站呼叫委派，依此类推。 默认全局策略自动创建的但管理员还可以创建和分配调用的自定义策略。
 
@@ -97,5 +97,8 @@ ms.locfileid: "32224997"
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>忙闲上的有时呼叫
 
-忙碌 （忙选项） 的忙碌） 是，您可以配置如何传入呼叫的呼叫策略处理用户已在呼叫或会议，或具有呼叫时，团队中的新设置置于保持状态。 新的或传入呼叫可以被拒绝，并繁忙信号。 您可以启用忙选项在租户级别或用户级别。 无论其忙选项的配置方式，呼叫或会议或呼叫置于保持状态的那些将不阻止用户发起新呼叫或会议。 默认情况下禁用此设置。
+忙碌 （忙选项） 的忙碌） 是，您可以配置如何传入呼叫的呼叫策略处理用户已在呼叫或会议，或具有呼叫时，团队中的新设置置于保持状态。 新的或传入呼叫可以被拒绝，并繁忙信号。 您可以启用忙选项在租户级别或在用户级别。 无论其忙选项的配置方式，呼叫或会议或呼叫置于保持状态的那些将不阻止用户发起新呼叫或会议。 默认情况下禁用此设置。
 
+## <a name="see-also"></a>另请参阅
+
+[设置 CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

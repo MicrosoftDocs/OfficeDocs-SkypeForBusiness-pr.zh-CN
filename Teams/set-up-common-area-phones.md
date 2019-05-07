@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为会议厅、 接待区和会议室设置公用区域电话 '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204851"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632374"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 
@@ -38,7 +38,7 @@ ms.locfileid: "32204851"
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
-1. 在 Office 365 管理中心，转到**帐单** > **购买服务**，然后展开**其他计划**。
+1. 在 Microsoft 365 管理中心，转到**帐单** > **购买服务**，然后展开**其他计划**。
 
     ![显示 Common Area Phone 图块的屏幕截图](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "32204851"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 
-1. 在 Office 365 管理中心，转到**用户** > **活动用户** > **添加用户**。
+1. 在 Microsoft 365 管理中心，转到**用户** > **活动用户** > **添加用户**。
 
 2. 输入的用户名称类似"Main"的第一个名称和"接收"第二个名称。
 

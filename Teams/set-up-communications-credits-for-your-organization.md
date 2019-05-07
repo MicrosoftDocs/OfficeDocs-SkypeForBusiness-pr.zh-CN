@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204712"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632247"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -58,7 +58,7 @@ ms.locfileid: "32204712"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在 Office 365 管理中心的左侧导航窗格中，转到**帐单** > **订阅** > **添加订阅**。
+2. 在左窗格中的 Microsoft 365 管理中心，转到**帐单** > **订阅** > **添加订阅**。
 
 3. 展开**加载项订阅**，然后选择**Communications 字幕式** > **立即购买**。
     
@@ -91,7 +91,7 @@ ms.locfileid: "32204712"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在 Office 365 管理中心的左侧导航窗格中，转到**用户** > **活动用户**，然后从列表中选择一个用户。
+2. 在左窗格中的 Microsoft 365 管理中心，转到**用户** > **活动用户**，然后从列表中选择一个用户。
     
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
     
@@ -110,7 +110,7 @@ ms.locfileid: "32204712"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您还可以参见信息通过[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
+您还可以参见信息通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
   
 若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   

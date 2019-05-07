@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题可了解如何 Microsoft 电话系统直接路由允许您将支持、 客户提供会话边界控制器 (SBC) 连接至 Microsoft 电话系统。
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402459"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632207"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -207,6 +207,7 @@ SBC 使 DNS 查询解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒体流量： 端口范围
+请注意以下要求适用是否您 ant 部署直接路由中不存在媒体旁路。 有关媒体绕过的防火墙要求请参阅[规划直接路由的媒体绕过](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 媒体流量排列与单独的 Microsoft 云服务。 媒体流量 IP 范围：
 - 52.112.0.0 /14 （IP 地址从 52.112.0.1 52.115.255.254）。

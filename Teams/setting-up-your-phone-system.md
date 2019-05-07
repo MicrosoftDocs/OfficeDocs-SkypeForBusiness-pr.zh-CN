@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d37771863ae2146567e338fa7ee2395e452561d5
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205532"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632255"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -58,9 +58,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![sfb-徽标-30x30.png](media/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用您的工作或学校帐户登录到 Microsoft 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到**Microsoft 365 管理中心** > **for Business 的 Skype**。
     
 3. 在左侧导航窗格中转到 **语音** > **电话号码**，单击 **添加新号码** ![添加按钮](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新的用户数量**。
     
@@ -87,7 +87,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到**Microsoft 365 管理中心** > **for Business 的 Skype**。
 
 3. 在左侧导航窗格中转到**语音** > **电话号码** > **添加新号码**，然后单击**新服务号码**。
 
@@ -232,11 +232,11 @@ Auto attendants let people that call in to your organization and navigate a menu
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- 音频会议，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **音频会议**分配专用号码会议桥并单击会议桥或查看[更改音频会议桥上的收费或免费电话](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+- 音频会议，您可以分配专用的号码的会议桥，转到**Microsoft 365 管理中心** > **管理中心** > **for Business 的 Skype** > **音频会议**和单击会议桥或通过查看[更改的收费电话或音频会议网桥上的免费电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-- 自动助理，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **呼叫路由** > **自动助理**分配专用的号码到自动助理并单击自动助理。 在 **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)。
+- 自动助理，您可以分配专用的号码到自动助理，转到**Microsoft 365 管理中心** > **管理中心** > **for Business 的 Skype** > **呼叫路由** > **自动助理**，单击的自动助理。 在 **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)。
 
-- 对于呼叫的队列，您可以通过 **Office 365 管理中心** > **管理中心** > **Skype for Business** > **呼叫路由** > **呼叫队列** 分配专用的号码呼叫队列并单击呼叫队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- 对于呼叫的队列，您可以分配专用的号码呼叫队列，转到**Microsoft 365 管理中心** > **管理中心** > **for Business 的 Skype** > **呼叫路由** > **呼叫队列**，并单击呼叫队列中。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 **有关获取新服务号码和移植现有服务号码的详细信息，请参阅 [获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) 。**
 
@@ -249,7 +249,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 ### <a name="to-set-up-communications-credits"></a>设置通信点数
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用您的工作或学校帐户登录到 Microsoft 365。
 
 2. 在 Office 365 管理中心的左侧导航窗格中，转到 **帐单** > **订阅** > **加载项** > **购买加载项**，然后选择 **通信点数** > **立即购买**。
 
@@ -265,7 +265,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 在 Office 365 管理中心的左侧导航窗格中，转到**用户** > **活动用户**，然后从列表中选择一个用户。
+2. 在左窗格中的 Microsoft 365 管理中心，转到**用户** > **活动用户**，然后从列表中选择一个用户。
 
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
 
