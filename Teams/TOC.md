@@ -41,7 +41,8 @@
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [将应用发布至 Teams 租户应用目录](tenant-apps-catalog-teams.md)
-### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
+### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [配置 Skype 会议应用以与 Teams 协作](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -605,6 +606,9 @@
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
+#### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+#### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
