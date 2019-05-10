@@ -13,27 +13,28 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 入门
-ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835438"
+ms.locfileid: "33865027"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
 Microsoft 团队提供了大量医院和其他医疗保健机构有用的功能。 正在开发以帮助与医院是团队功能：
 
-- 医护协调
+- 医护协调和协作
 - 安全邮件
-- 电子医疗保健记录 (EHR) 集成
-- Firstline 工作者集成
+- Telehealth
+
+通过电子医疗保健记录 (EHR) 集成和 Firstline 工作者系统集成的 Microsoft 团队以及其他基础功能，如会议/呼叫和消息。 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>医护协调-Microsoft 团队患者应用程序
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 团队现在具有特定于医疗保健组织，以帮助他们满足其最终目标是提供最佳医患护理协调解决方案。 医护协作解决方案，Microsoft 团队患者应用程序的关键是与电子健康记录使用的 Fast 医疗保健互操作性资源 ([FHIR](https://www.hl7.org/fhir/)) 接口以显示有价值的 (EHR) 系统集成的第一个方选项卡应用程序到 Microsoft 团队的医疗信息。  
+Microsoft 团队现在具有特定于医疗保健组织，以帮助他们满足其最终目标是提供最佳医患护理协调解决方案。 医护协作解决方案，Microsoft 团队患者应用程序的关键是与电子健康记录使用的 Fast 医疗保健互操作性资源 ([FHIR](https://www.hl7.org/fhir/)) 接口以显示有价值的 (EHR) 系统集成的第一个方选项卡应用程序若要启用临床协作和通信的上下文中的 Microsoft 团队医疗信息。  
 
 医护协调解决方案可以与领先的独立软件供应商 (Isv) 可以连接到使用现有的运行状况数据标准，如 HL7v2 和 FHIR 您 EHR 系统的患者应用程序的接口。 Microsoft 合作伙伴与以下的行业领导者，建立与团队电子健康记录集成：
 
