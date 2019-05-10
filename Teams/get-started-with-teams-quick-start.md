@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
-ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
+ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33509681"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827722"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -50,7 +50,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 - [为 Teams 准备贵组织的网络](prepare-network.md)
 - [了解安装桌面、网页和移动版客户端的好处](get-clients.md)
 
-此外，还需要确保已获取每个人的 Teams 许可证。 请参阅[比较 Teams 计划](https://products.office.com/microsoft-teams/free)和[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。 
+你还需要确保已获得每个人的 Teams 许可证。 请参阅[比较 Teams 计划](https://products.office.com/microsoft-teams/free)和[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。 
 
 
 

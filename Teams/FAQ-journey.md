@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180585"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868693"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -202,7 +202,7 @@ Skype Room Systems v1（也称为 Lync Room Systems）将进行升级，从而�
 
 ### <a name="whats-planned-for-new-management-experiences"></a>对全新管理体验有什么计划？
 
-Microsoft 已在 Office 365 管理员中心内启动面向 IT 专业人员的 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。 与 Skype for Business 管理控制台一样，此新门户将是一个用于管理新体验的地方。 该门户的初始版本计划在 2018 年第一季度推出，旨在通过适合企业的策略模型为仅使用 Teams 的客户提供管理支持，替代现有的 Teams 管理界面。 在此门户中，我们将能够创建自定义联机状态、聊天、应用、会议和语音策略，以及为 Teams 用户分配策略。
+Microsoft 已在 Microsoft 365 管理中心针对 IT 专业人员推出 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。 与 Skype for Business 管理控制台一样，此新门户将是一个用于管理新体验的地方。 该门户的初始版本计划在 2018 年第一季度推出，旨在通过适合企业的策略模型为仅使用 Teams 的客户提供管理支持，替代现有的 Teams 管理界面。 在此门户中，我们将能够创建自定义联机状态、聊天、应用、会议和语音策略，以及为 Teams 用户分配策略。
 
 ## <a name="device-compatibility"></a>设备兼容性
 
