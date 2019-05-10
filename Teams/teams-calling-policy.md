@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632366"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835324"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
 ===================================
@@ -85,11 +85,16 @@ ms.locfileid: "33632366"
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>入站的呼叫可以路由到呼叫组 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 此设置控制是否可以将传入呼叫转接到的呼叫组。
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>允许入站和出站呼叫的委派
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 此设置使入站的呼叫路由到允许代理人发起代表他们具有其委派权限的用户的出站呼叫的代理人。 有关详细信息，请参阅[共享与代理人的电话线路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>阻止收费绕过和发送通过 PSTN 呼叫 
 

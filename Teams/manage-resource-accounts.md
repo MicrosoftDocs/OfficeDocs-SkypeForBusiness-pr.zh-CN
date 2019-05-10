@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解如何管理中的 Microsoft 团队资源帐户
-ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dea4a154e25c719ddabc572ba26ddb7d25c43d71
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203282"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835415"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -44,7 +44,7 @@ ms.locfileid: "32203282"
 - 您只需使用的电话号码分配给他们许可资源帐户。 在嵌套的自动助理或呼叫队列中，您不需要许可证自动助理的其余部分或呼叫队列，如果没有与其关联的电话号码
 
 > [!NOTE] 
-> 直接路由服务号码自动助理和呼叫队列此时仅支持的 Microsoft 团队用户和代理。
+> Microsoft 团队用户和代理仅支持直接路由服务号码的自动助理和呼叫的队列。
 
 > [!NOTE] 
 > 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。
@@ -77,7 +77,7 @@ ms.locfileid: "32203282"
 
 接下来，您将需要许可证于资源帐户后，[将对业务的 Office 365 中的用户的许可证分配](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述
 
-![3 号](media/sfbcallout3.png)后已创建资源帐户和分配许可证，您可以单击**分配/取消分配**资源帐户后，为分配电话号码或分配资源帐户到自动助理或呼叫队列的已存在。 如果您呼叫的队列或自动助理仍需要创建，您创建它时，您可以将链接的资源帐户。 完成后，请单击**保存**。
+![3 号](media/sfbcallout3.png)一旦您已创建资源帐户并分配许可证，您可以在上**分配/取消分配**要调用规划服务号码分配资源帐户后，单击或将资源帐户分配给自动助理或呼叫队列已存在。 可以完成分配直接路由号码仅使用 Cmdlet。 如果您呼叫的队列或自动助理仍需要创建，您创建它时，您可以将链接的资源帐户。 完成后，请单击**保存**。
 
 ![资源帐户分配](media/r-a-assign.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "32203282"
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
 ```
 
-2. 您将不能使用资源帐户，直到对其应用许可证。 有关如何将许可证应用于 O365 管理中心中的帐户，请参阅 [将许可证分配给用户在 Office 365 中的业务] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user以及[业务许可证分配 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 。
+2. 您将不能使用资源帐户，直到对其应用许可证。 有关如何将许可证应用于 O365 管理中心中的帐户，请参阅[分配对业务的 Office 365 中的用户的许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)以及[业务许可证分配 Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
 3. （可选）一旦正确的许可证适用于资源帐户可以将电话号码设置为资源帐户，如下所示。 并非所有资源帐户将都需要一个电话号码。 如果您未对资源帐户应用许可证，将失败的电话号码分配。
 
@@ -130,6 +130,17 @@ Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 - 分配给该帐户的电话号码
 
 完成后，单击在**保存**。
+
+## <a name="delete-a-resource-account"></a>删除资源帐户
+
+请确保删除它，以避免获取挂起的模式滞留在您服务号码之前中解除关联的电话号码从资源帐户。 您可以使用以下 commandlet: 
+
+``` Powershell
+Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+```
+                
+一旦您这样做，可以从 O365 管理门户，用户选项卡中删除资源帐户。
+
 
 ## <a name="related-information"></a>相关的信息
 

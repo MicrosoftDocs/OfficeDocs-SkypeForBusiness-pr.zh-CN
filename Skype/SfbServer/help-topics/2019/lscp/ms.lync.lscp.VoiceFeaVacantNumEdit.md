@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 176e1b0485b9fc9584b770e4708cad0bf0662e00
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 89990e7ec0de5f2f4423b4c2862518a8c46dae63
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221343"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835309"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配的电话号码：创建新的编辑现有的
 
 > [!NOTE]
-> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。
+> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在弱化支持云语音邮件和云自动助理功能。
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
 

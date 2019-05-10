@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文介绍部署 Microsoft 团队聊天室的基础结构准备。
-ms.openlocfilehash: 4c46618da43b12b53b6b6e4ba99f7ddb408bc4da
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362623"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865011"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -27,7 +27,7 @@ ms.locfileid: "33362623"
     
 2. 确保有运行良好的网络/Internet 连接可供设备使用。 
     
-   - 它必须能够接收 IP 地址使用 DHCP (注意： Microsoft 团队聊天室不能配置静态 IP 地址在第一个单元启动时使用)
+   - 它必须是能够接收使用 DHCP 的 IP 地址。 （Microsoft 团队聊天室不能配置使用静态 IP 地址在第一个单元启动时，但在设备上或上游开关或传送器之后无法配置设备的静态 IP。）
     
    - 它必须具有这些端口 （除了打开媒体的普通端口） 打开：
     
@@ -57,7 +57,7 @@ ms.locfileid: "33362623"
 - 可访问 Active Directory 或 Azure Active Directory (Azure AD) 实例以及 Microsoft Exchange 和 Skype for Business 服务器。
 - 可访问能够使用 DHCP 提供 IP 地址的服务器。 无法使用静态 IP 地址配置 Microsoft 团队聊天室。
 - 访问 HTTP 端口 80 和 443。
-- TCP 和 UDP 端口配置为中所述[的服务器的端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)的本地业务实施的 Skype 或[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的 Microsoft 团队或 for Business 的 Skype 联机实现。
+- TCP 和 UDP 端口配置为中所述[的服务器的端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)的内部 Skype 对于业务服务器实现，或[Office 365 Url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的 Microsoft 团队或 for Business 的 Skype 联机实现。
 
 > [!IMPORTANT]
 > 务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。

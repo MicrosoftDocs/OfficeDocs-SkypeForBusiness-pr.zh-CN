@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 解决云连接器 Edition 部署。
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240748"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864916"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>云连接器部署故障排除
  
@@ -204,7 +204,11 @@ ms.locfileid: "32240748"
     **如果证书颁发机构证书受到威胁，并且只有一个装置的站点中，** 执行以下步骤：
     
 1. 运行 Enter-CcUpdate cmdlet 以排出服务并将该设备置于维护模式。
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. 运行以下 cmdlet 以重置证书颁发机构证书和所有内部服务器证书并创建相应的新证书：
     
     对于云连接器 2.0 之前的版本：
@@ -222,20 +226,37 @@ ms.locfileid: "32240748"
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. 如果网关和中介服务器之间使用 TLS，则将设备，从运行导出 CcRootCertificate cmdlet，然后将导出的证书安装到 PSTN 网关。 您还可能需要重新发布您的网关上的证书。
 
-3. 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。
-    
-4. 对设备上的本地文件运行 Export-CcRootCertificate cmdlet，然后将导出的证书复制并安装到 PSTN 网关。
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **如果证书颁发机构证书受到威胁，并且有多个装置的站点中，** 执行以下顺序步骤在网站中每个设备上。
     
     Microsoft 建议您在非高峰使用时间段执行这些步骤。
     
-   - 第一台设备上运行删除 CcCertificationAuthorityFile cmdlet CA 清理备份文件\<SiteRoot\>目录。
+1. 第一台设备上运行删除 CcCertificationAuthorityFile cmdlet CA 清理备份文件\<SiteRoot\>目录。
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - 运行 Enter CcUpdate cmdlet 排出服务并将每个装置放在维护模式。
+2. 运行 Enter CcUpdate cmdlet 排出服务并将每个装置放在维护模式。
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - 运行以下 cmdlet 以重置证书颁发机构证书和所有内部服务器证书并创建相应的新证书：
+3. 在第一个设备，运行以下 cmdlet 以重置并创建新的证书颁发机构证书和所有内部服务器证书：
     
      对于云连接器 2.0 之前的版本：
     
@@ -253,15 +274,32 @@ ms.locfileid: "32240748"
      Remove-CcLegacyServerCertificate 
      ```
 
-   - 在第一个设备，运行以下 cmdlet，以备份到的 CA 文件\<SiteRoot\>文件夹。 更高版本，在同一站点中的所有其他设备，重置 CcCACertificate cmdlet 将自动使用 CA 备份文件，设备将使用相同的根证书。
+4. 在第一个设备，运行以下 cmdlet，以备份到的 CA 文件\<SiteRoot\>文件夹。
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. 所有其他设备上的同一站点中，运行以下命令以使用 CA 备份文件，以便 appliance 所有使用相同的根证书，然后请求新证书。 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. 如果网关和中介服务器之间使用 TLS，则从网站中的任意设备运行导出 CcRootCertificate cmdlet，然后将导出的证书安装到 PSTN 网关。 您还可能需要重新发布您的网关上的证书。
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。 
 
-   - 运行退出 CcUpdate cmdlet 启动服务并退出维护模式。 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - 如果网关和中介服务器之间使用 TLS，则从网站中的任意设备运行导出 CcRootCertificate cmdlet，然后将导出的证书安装到 PSTN 网关。 
     
 - **问题： 您在云中连接器管理服务日志"C:\Program Files\Skype 的业务云连接器 Edition\ManagementService\CceManagementService.log"中收到以下错误消息： CceService 错误： 0： 意外的异常时向联机报告状态： System.Management.Automation.CmdletInvocationException: 用户登录失败\<全局租户管理员\>。请创建一个新的凭据对象，并确保您已经使用正确的用户名和密码。---\>**
     

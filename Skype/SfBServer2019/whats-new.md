@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能是新的业务服务器 2019 Skype 中。
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239574"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835237"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>什么是 Business server 2019 Skype 中
 
@@ -29,7 +29,7 @@ ms.locfileid: "32239574"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务： 云语音邮件
 
-Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  
+Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在弱化支持云语音邮件和云自动助理功能。  
 
 云语音邮件使您的业务 2019 users& #x 2014; 的所有 Skype 是否它们驻留在内部部署或 online& #x 2014; Microsoft 云有权访问相同的语音邮件服务。 云语音邮件的本地和联机用户提供以下好处：
 

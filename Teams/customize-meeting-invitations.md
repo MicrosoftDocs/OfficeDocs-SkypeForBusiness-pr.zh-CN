@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: 了解如何在会议邀请中包含您的徽标、 法律免责声明以及其他信息。
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236043"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868829"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>在 Microsoft Teams 中自定义会议邀请
 
@@ -39,7 +39,7 @@ ms.locfileid: "32236043"
 ## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 
 1. 使用你的工作或学校帐户登录 Office 365。
-2. 从 Office 365 管理中心中，选择**管理中心** > **团队 & Skype**。
+2. 从 Microsoft 365 管理中心中，选择**管理中心** > **团队 & Skype**。
 3. 在 Microsoft 团队管理中心中，选择**会议** > **会议设置**。
 4. 完成以下任务：
     - **徽标 URL** -输入您的徽标的存储位置的 URL。 请记住，它必须是为 JPG 或 PNG 格式 ！

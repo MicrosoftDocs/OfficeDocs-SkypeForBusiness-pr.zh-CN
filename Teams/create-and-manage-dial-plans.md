@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
-ms.openlocfilehash: a499ddb9a9788fce9bdd9bfb2a5bd6e8d1d0f687
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fa6e29486ed4943a54cc537106fa67a6f513620
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199214"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868821"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -215,7 +215,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+- Windows PowerShell 已通过仅使用如时要进行设置更改多个用户一次在 Microsoft 365 管理中心中快速、 简便起见和生产力很多好处。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

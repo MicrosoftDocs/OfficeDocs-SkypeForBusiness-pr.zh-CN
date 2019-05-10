@@ -3,7 +3,7 @@ title: SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,15 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226456"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827737"
 ---
-<a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
-=============================================================================
+# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
 > [!Tip]
 > 观看下面的会话，若要了解与 Azure Active Directory (AAD)、 Office 365 组、 Exchange、 SharePoint 和 OneDrive for Business 团队交互的方式：[基础的 Microsoft 团队](https://aka.ms/teams-foundations)
@@ -37,7 +36,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 
 
 > [!NOTE]
-> 与 Sharepoint 内部部署集成不支持的 Microsoft 团队这一次。
+> 与 SharePoint 内部部署集成不支持的 Microsoft 团队这一次。
 
 下面是团队、频道和文档库之间的关系示例。
 
@@ -58,8 +57,29 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 ![用于每个用户聊天的 OneDrive 文件夹（名为 Microsoft Teams Chat Files）示意图。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>更多信息
-----------------
+## <a name="channel-files-tab"></a>通道文件选项卡
+
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
+
+**文件**选项卡团队非常相似的 SharePoint 文档视图。 在**文件**选项卡，用户可以：
+
+- 请参阅**新建**文件菜单中的其他选项。
+- 文件与他们的本地驱动器同步。
+- 在**所有文档**菜单上，从**列表**视图切换到**紧凑列表**到**平铺**视图。
+- 确定需要注意或恶意软件的文件。
+- 立即查看文件是只读的或已签出。
+- 签出和签入文件。
+- 固定、 取消固定，并将更改文件的排序顺序。
+- 确定需要哪些文件的元数据
+- 选择从更多的筛选器选项。
+- 基于列标题的组文件。
+- 修改列设置 （向左移动或向右，隐藏） 和列的宽度。
+
+## <a name="default-link-type-setting"></a>设置的默认链接类型
+
+SharePoint 和 OneDrive 具有管理设置用于指定链接的文件创建的默认链接类型。 团队采用方法的同一个通过重用管理员设置 SharePoint 和 OneDrive 的设置。 有关此方法的详细信息进行了描述[更改时用户获取共享链接的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)。 
+
+## <a name="more-information"></a>详细信息
 
 有关与团队的 SharePoint 工作原理的详细信息，请参阅[SharePoint 和团队： 携手共赢](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 

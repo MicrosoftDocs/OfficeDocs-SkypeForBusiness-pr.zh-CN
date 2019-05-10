@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
-ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229632"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864993"
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 
 在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。
   
-验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。 可能存在不完全正确的紧急地址（例如，城市的名称有错）可能仍会通过验证。 验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。 如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。
+验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。 则可能部分正确的紧急地址，例如键入错误市/县的名称可能仍通过验证。 验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。 如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

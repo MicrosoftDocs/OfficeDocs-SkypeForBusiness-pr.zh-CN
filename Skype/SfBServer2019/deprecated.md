@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要： 这些功能已从 Skype 的业务服务器 2019年。
-ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198969"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835172"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>什么被弃用从 Skype 业务服务器 2019
 
 了解如何为业务服务器 2019 Skype 中弃用的功能。 有关业务服务器 2019 Skype 中的新功能的信息，请参阅[What's 中的业务服务器 2019 Skype](whats-new.md)。
 
-某些消除 emphasised 的功能中包含 Skype 的业务服务器 2019年与早期的产品版本的兼容性。
+某些弱化的功能中包含 Skype 的业务服务器 2019年与早期的产品版本的兼容性。
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>为业务服务器 2019 Skype 中弃用的功能 
 

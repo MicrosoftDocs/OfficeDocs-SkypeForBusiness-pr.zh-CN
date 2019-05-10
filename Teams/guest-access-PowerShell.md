@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9215cdbc360f1bda1d9d0ea75c1a9fe6ab0f458
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235568"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827666"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -36,7 +36,7 @@ ms.locfileid: "32235568"
   
 你还可以使用 PowerShell 根据来宾用户的域允许或阻止来宾用户。 例如，假定你的企业 (Contoso) 与另一家企业 (Fabrikam) 有合作关系。 你可以将 Fabrikam 添加到你的允许列表，以便你的用户可以将那些来宾添加到其组。 有关更多详细信息，请参阅[“允许/阻止对 Office 365 组的来宾访问”](https://go.microsoft.com/fwlink/?linkid=854001)。
   
-如果你要在团队中阻止来宾，但仍允许来宾访问 SharePoint 网站，你可以使用 Azure Active Directory Powershell cmdlet 对 Company 对象禁用 AllowGuestAccessToGroups 参数，从而实现对 SharePoint 网站开启外部共享。   
+如果您想要阻止在团队中的来宾并且仍要允许其访问 SharePoint 网站，您可以使用 Azure Active Directory Powershell cmdlet 禁用对公司的对象的 AllowGuestsToAccessGroups 参数假定外部共享为打开SharePoint 网站。   
 
 ## <a name="guest-access-vs-external-access"></a>与外部访问的来宾访问
 

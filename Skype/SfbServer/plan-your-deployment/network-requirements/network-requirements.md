@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要： 实现 Skype 业务服务器之前查看下面的网络组件注意事项。
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206259"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834971"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ Network performance and needs are directly linked to the traffic load placed on 
 |SILK 宽带  <br/> |对等  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80.0  <br/> |
 |SILK 宽带  <br/> |对等  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |丝印宽带/窄带  <br/> |对等  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
+
+> [!NOTE]
+> 从业务客户端 Skype 的 PSTN 呼叫通常使用 G.711 编解码器，这需要高带宽。 如果带宽不足，不适用于该编解码器，然后调用可能会失败，类似于媒体日志中的以下错误：**至少必须启用一个编解码器，hr: c0042004**。 媒体日志 （.blog 文件） 进行加密，并可以仅由 Microsoft 技术支持人员解码。
 
 上表中的带宽数值基于 Siren 和 G.722 编解码器的 20 毫秒数据分包（每秒 50 个数据包），其中包含其他安全实时传输协议 (SRTP) 开销（在会议方案中），并假定流是 100% 活动的。如果链接上出现数据包丢失，则会以动态方式使用前向纠错 (FEC) 以帮助维护音频流的质量。
 

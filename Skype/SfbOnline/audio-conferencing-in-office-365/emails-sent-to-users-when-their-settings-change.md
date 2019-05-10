@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解有关哪些信息将自动发送给用户通过电子邮件时业务 online 中 Skype 更改其电话拨入式会议设置。 '
-ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 814414139c985de6571a7e48aeb0bff208aa9ce3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230901"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865077"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>业务 online 中 Skype 更改其设置时，向用户发送的电子邮件
 
@@ -127,7 +127,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 1. 运行以下操作以禁用向你的用户发送所有电子邮件：
     
    ```
-   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
+   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
 [设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet 可用于管理您的组织，包括电子邮件的其他设置。

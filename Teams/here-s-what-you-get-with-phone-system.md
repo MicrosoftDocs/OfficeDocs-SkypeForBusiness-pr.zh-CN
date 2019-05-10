@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245526"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868669"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -66,6 +66,7 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 |[在 Skype for Business 中设置"呼叫转接"选项](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即刻或在设定的时段后向你的团队发送呼叫。  <br/> |
 |[使用 Skype for Business 拨打和接听视频呼叫](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 你可以在小浮动窗口中看到演讲者的姓名和视频流，以便随时准备好回答任何问题。 <br/> |
 |[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |下面是云语音邮件的工作原理： 当用户收到的语音邮件时，则将它传递到其以电子邮件通过语音邮件作为附件的邮箱。 用户也可以通过 Skype 认证的座机、所有 Skype for Business 应用程序或 Lync for Mac 2011 收听该消息。  <br/> 云语音邮件包含个性化的问候语、 消息等待指示器和使用呼叫的回复。 你可以将所有语音邮件放在邮箱中并通过电脑、移动设备和 IP 电话中的 Skype for Business 获取。  <br/> |
+|保留音乐 | 6 月 2019年中可用，电话系统，将播放默认的保持音乐从公共公用电话交换网 (PSTN) 的外部呼叫将置于保持状态时定义的服务。  此功能适用于除了呼叫队列发出呼叫的一对一 PSTN 到团队呼叫。 此功能提供与其他平台上保留通知奇偶校验。 （所有其他平台提供可视提示时用户将置于保持状态，但 PSTN 呼叫者已有无法知道。） 在第一个版本，此功能不可以由管理员进行配置。| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>规划和设置 Office 365 中的电话系统
 <a name="bkmk_setup"> </a>

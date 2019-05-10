@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526853"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865045"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到引进中的 Microsoft 团队
 
@@ -45,7 +45,15 @@ ms.locfileid: "33526853"
 
 每个 StaffHub 团队需要相应的 Office 365 组。 如果 StaffHub 团队没有与其关联的 Office 365 组，将自动为您支持转换创建一个。 给定团队和组命名团队和 StaffHub 之间的差异，可能会看到团队中的不同的工作组名称。
 
-如转换团队从 StaffHub 团队，用户在 StaffHub 中将不再有权访问其日程安排和重定向到团队中的变化。 我们建议您在整个组织大程度地减少中断并鼓励用户采用和研究团队通信此更改。
+如转换团队从 StaffHub 团队，用户在 StaffHub 中将不再有权访问其日程安排和重定向到团队中的变化。 我们建议您在整个组织大程度地减少中断并鼓励用户采用和研究团队通信此更改。 如果您有 Azure AD Premium，才能[运行报表](run-report-to-show-staffhub-usage.md)以获取 StaffHub 用户需要了解的有关此更改的组织中的列表。  
+
+移到团队 StaffHub 团队后没有回滚的选项。
+
+### <a name="user-experience-when-you-move-a-team"></a>移动团队时的用户体验
+
+没有尽量减少停机时间 （少于 1 秒，如果确有） 的用户时其工作组从 StaffHub 切换到团队中的变化。 用户可以继续使用 StaffHub，直到完成移动到团队。 完成移动后，工作组成员将看到一条消息，告知他们需要启动团队中使用引进访问其团队日程安排。 下面是消息的一个示例的用户看到。
+
+![StaffHub 团队移动到团队后，用户在 StaffHub 中看到邮件的示例。](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "用户在 StaffHub 后 StaffHub 团队将被移动到团队中看到邮件的示例")
 
 ## <a name="prepare"></a>准备
 

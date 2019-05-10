@@ -1,5 +1,5 @@
 ---
-title: 部署与 Office 365 的 Microsoft 团队聊天室
+title: 使用 Office 365 部署 Microsoft Teams 会议室
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读此主题以获取如何部署与 Office 365 的 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
-ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
+ms.openlocfilehash: 05b6bc05200bd6664fc597b937d2a45fba1c9e2b
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467531"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835252"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>部署与 Office 365 的 Microsoft 团队聊天室
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 
 阅读本主题有关如何部署与 Office 365，其中的 Microsoft 团队或商业和 Exchange Skype 都是联机 Microsoft 团队聊天室的信息。
 
@@ -108,8 +108,12 @@ Skype 的业务 Online 计划的详细信息，请参阅[Skype for Business Onli
 
    有关详细的语法和参数信息，请参阅[Set-calendarprocessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 连接到 MS 联机 PowerShell，可以通过运行使 Active Directory 设置`Connect-MsolService -Credential $cred`powershell cmdlet。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
-    1. 如果您不希望密码过期，使用以下语法：
+4. 连接到 MS 联机 PowerShell，可以通过运行使 Active Directory 设置`Connect-MsolService -Credential $cred`powershell cmdlet。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+
+   > [!NOTE]
+   > 不支持[azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) 。 
+
+5. 如果您不希望密码过期，使用以下语法：
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true

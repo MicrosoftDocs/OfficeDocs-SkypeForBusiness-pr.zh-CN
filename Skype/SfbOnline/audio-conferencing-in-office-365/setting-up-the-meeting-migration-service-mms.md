@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229238"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835116"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
@@ -34,14 +34,12 @@ ms.locfileid: "32229238"
 
 - 当迁移用户从内部部署到云 （是否业务 online Skype 或 TeamsOnly）。
 - 当管理员对用户的音频会议设置进行了更改 
-- 在升级 online 用户向仅，工作组或 TeamsUpgradePolicy 中的用户的模式设置为 SfBwithTeamsCollabAndMeetings （仅适用于点击客户）
+- 在向仅，工作组或 TeamsUpgradePolicy 中的用户的模式设置为 SfBwithTeamsCollabAndMeetings 升级 online 用户
 - 当您使用 PowerShell 
 
 
 默认情况下 MMS 是自动触发中每种情况下，尽管管理员可以禁用它在租户级别。 此外，管理员可以使用 PowerShell cmdlet 以手动触发给定用户的会议迁移。
 
-> [!NOTE]
-> 将 Skype 转换业务团队会议的会议的功能和更新现有团队会议修改音频会议设置的能力是当前限制为仅点击客户。 Microsoft 希望使此功能的所有客户当时中可用 2019 年 5。
 
 **限制**： 会议如果以下任一情况，不能使用迁移服务：
 
@@ -78,20 +76,18 @@ ms.locfileid: "32229238"
 
 - 到云时从内部部署迁移用户
 - 当管理员对用户的音频会议设置进行了更改 
-- 当 TeamsUpgradePolicy 中的用户的模式设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings （仅适用于点击客户）
-- 当您使用 PowerShell 
+- 当 TeamsUpgradePolicy 中的用户的模式设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings （使用 Powershell 或团队管理门户）
+- 当您使用 PowerShell cmdlet，开始 CsExMeetingMigration
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>更新会议的内部部署用户移到云中时
 
 这是其中 MMS 帮助创建更平稳转换为您的用户的最常见方案。 但不会议迁移现有会议按 Skype 中为 Business Server 内部部署的用户将不再起作用后联机移动该用户。 因此，当您使用的内部部署管理工具 (是`Move-CsUser`或管理控制面板) 以将用户移动到云，现有会议将自动移动到云，如下所示：
 
-- 如果`MoveToTeams`中切换`Move-CsUser`指定，则会议都将迁移直接到团队。 使用此开关需要 Skype Business Server CU8 或更高版本。
+- 如果`MoveToTeams`中切换`Move-CsUser`会议都将迁移到团队直接和用户将处于 TeamsOnly 模式指定。 使用此开关需要 Skype Business Server CU8 或更高版本。 这些用户仍可以加入任何 Skype 的业务它们可能会邀请参加会议，使用业务客户端 Skype 或 Skype 会议应用程序。
 - 否则会议都将迁移到 Skype 业务 online。
 
 在任一情况下，如果用户已分配的音频会议许可证之前被移动到云，会议将创建使用电话拨入式坐标。 如果用户从内部部署迁移到云，并且想要使用音频会议的用户，我们建议您首先分配音频会议，移动用户，以便触发仅 1 会议迁移之前。
 
-> [!NOTE]
-> 当前直接向团队通过 MoveToTeams 交换机迁移会议的功能才可用点击中。 如果您不是点击客户并指定了 MoveToTeams 开关，用户将移至 TeamsOnly 模式，但会议将被移动到 Skype 业务 online。 即使用户处于 TeamsOnly 模式，他们仍可以加入任何 Skype 业务会议。
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>更新会议用户的音频会议设置更改时
 
@@ -112,23 +108,28 @@ ms.locfileid: "32229238"
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>更新会议分配 TeamsUpgradePolicy 时
 
-> [!NOTE]
-> 本节介绍目前仅适用于点击客户的功能。 Microsoft 希望使此功能的所有客户当时中可用 2019 年 5。
-
-默认情况下，会议迁移时，会自动触发向用户授予实例`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode= SfBWithTeamsCollabAndMeetings`。 如果您不希望将会议迁移授予这些模式，之一时，然后指定`MigrateMeetingsToTeams $false`中`Grant-CsTeamsUpgradePolicy`。
+默认情况下，会议迁移自动时将触发向用户授予实例`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode= SfBWithTeamsCollabAndMeetings`。 如果您不希望将会议迁移授予这些模式，之一时，然后指定`MigrateMeetingsToTeams $false`中`Grant-CsTeamsUpgradePolicy`（如果使用 PowerShell） 或取消选中迁移会议 （如果使用团队管理门户） 设置用户的共存模式时框。
 
 此外请注意以下情况：
 
-- 会议迁移时才会激活您授予`TeamsUpgradePolicy`为某个特定用户。 如果您授予`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode=SfBWithTeamsCollabAndMeetings`在租户范围内，会议迁移不调用。
+- 会议迁移时才会激活您授予`TeamsUpgradePolicy`为某个特定用户。 如果您授予`TeamsUpgradePolicy`与`mode=TeamsOnly`或`mode=SfBWithTeamsCollabAndMeetings`在*租户范围*内，会议迁移不调用。
 - 用户只能授予 TeamsOnly 模式如果用户驻留联机。 必须使用移动用户驻留在内部部署的`Move-CsUser`如上文所述。
 - 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 模式不转换现有团队会议为 Skype 业务会议。
 
-### <a name="trigger-meeting-migration-manually-via-powershell"></a>通过 PowerShell 自定义手动触发会议迁移
+### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>通过 PowerShell cmdlet 手动触发会议迁移
 
-除了自动会议迁移，管理员可以手动触发会议迁移的用户通过运行 cmdlet `Start-CsExMeetingMigration`。 此 cmdlet 队列中指定的用户的迁移请求。 新`TargetMeetingType`（这是当前仅限于技术应用程序中的参与者） 参数可以指定如何迁移会议： 
+除了自动会议迁移，管理员可以手动触发会议迁移的用户通过运行 cmdlet `Start-CsExMeetingMigration`。 此 cmdlet 队列中指定的用户的迁移请求。  除了需要`Identity`参数，它采用两个可选的参数，`SourceMeetingType`和`TargetMeetingType`，它允许您指定如何迁移会议：
 
-- 使用`TargetMeetingType Current`指定的业务会议的 Skype 能够 Skype 业务会议并团队会议保持团队会议。 可能更改但是音频会议协调，和业务会议的任何本地 Skype 将业务 online 迁移到 Skype。
+**TargetMeetingType:**
+
+- 使用`TargetMeetingType Current`指定的业务会议的 Skype 能够 Skype 业务会议并团队会议保持团队会议。 可能更改但是音频会议协调，和业务会议的任何本地 Skype 将业务 online 迁移到 Skype。 这是 TargetMeetingType 的默认值。
 - 使用`TargetMeetingType Teams`指定必须将任何现有会议迁移到团队，无论是否会议位于 Skype 中适用于商务联机或本地和无论是否需要的任何音频会议更新如下。 
+
+**SourceMeetingType:**
+- 使用`SourceMeetingType SfB`指示业务会议的唯一 Skype (是否在本地或联机) 应更新。
+- 使用`SourceMeetingType Teams`指示应仅团队会议进行了更新。
+- 使用`SourceMeetingType All`指示应更新为业务会议和团队会议这两个 Skyep。 这是 SourceMeetingType 的默认值。
+    
 
 下面的示例演示如何启动会议迁移用户 ashaw@contoso.com，以便所有会议都将都迁移到团队：
 
@@ -136,8 +137,6 @@ ms.locfileid: "32229238"
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
-> [!NOTE]
-> 开始 CsExMeetingMigration cmdlet 可供所有客户，但新 TargetMeetingTypeParameter 仅目前点击客户的功能。 
 
 
 ## <a name="managing-mms"></a>管理 MMS

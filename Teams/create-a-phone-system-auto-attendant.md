@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置和测试高效的呼叫处理您的组织的云自动助理。
-ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e98233bd610cd83afdbc727a5edeba77951d1989
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218797"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868813"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -355,7 +355,7 @@ ms.locfileid: "32218797"
 
   - [为什么要使用 Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+- Windows PowerShell 已通过仅使用如时要进行设置更改多个用户一次在 Microsoft 365 管理中心中快速、 简便起见和生产力很多好处。 通过以下主题了解这些优势：
 
   - [管理 Office 365 PowerShell 与 Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 

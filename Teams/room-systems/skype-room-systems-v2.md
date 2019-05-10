@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队聊天室许可证
+title: Microsoft Teams 会议室许可证
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,23 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Microsoft 团队聊天室中可用的功能。 '
-ms.openlocfilehash: c25234fa6a5a83e71398fa9138a6a84e65c2d883
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362618"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865019"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Microsoft 团队聊天室许可证
+# <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 会议室许可证
 <a name="bkmk_srs"> </a>
 
 下表列出了 Microsoft 团队聊天室和什么许可您中可用的许可相关功能需要购买以获取它们。
   
 > [!NOTE]
 > [!注释] 要设置的会议室需为用户对象，并且要为其分配这些许可证。
+> 新的会议室许可证现已推出 Office 365 中。
 
-|Microsoft 团队聊天室方案 |您当前拥有 Office 365 Premium、 Office 365 ProPlus0 或 Skype for Business 独立计划 2。  <br/> 需要购买的项目：  |你当前使用的是基于企业的计划。  <br/> 需要购买的项目： |已有 Skype for Business Server 2015（本地或混合）。 <br/> 需要购买的项目：|
+|Microsoft 团队聊天室方案 |您当前拥有 Office 365 Premium、 Office 365 ProPlus、 或 Skype 的业务独立计划 2。  <br/> 需要购买的项目：  |你当前使用的是基于企业的计划。  <br/> 需要购买的项目： |已有 Skype for Business Server 2015（本地或混合）。 <br/> 需要购买的项目：|
 |:-----|:-----|:-----|:-----|
 |加入计划的会议。  |Skype for Business 独立计划 1 |E1、3、4 或 5  |Skype for Business Server 标准 CAL  |
 |启动临时会议。 |Skype for Business 独立计划 2 |E1、3、4 或 5 |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|

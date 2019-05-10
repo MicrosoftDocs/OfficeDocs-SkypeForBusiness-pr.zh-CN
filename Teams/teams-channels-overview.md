@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224083"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864894"
 ---
 > [!NOTE]
 > 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
@@ -41,11 +41,11 @@ ms.locfileid: "32224083"
     
     团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
 
--   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。
+-   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。 在通道 （在文件选项卡） 中共享的文件存储在 SharePoint 中。 若要了解详细信息，请阅读[如何 SharePoint Online 和 OneDrive for Business 交互团队](SharePoint-OneDrive-interact.md)。
 
-    -   团队频道是团队中的所有人都可以公开进行对话的地方。 私人聊天只有聊天中的人员可以看到。
+    -   团队频道是团队中的所有人都可以公开进行对话的地方。 专用聊天仅都能看到这些聊天中的人员 （和聊天中共享的文件存储中的 OneDrive for Business）。 
 
-    -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。
+    -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。 若要了解详细信息，请参阅[应用程序、 自动程序、 团队中的 & 连接器](deploy-apps-microsoft-teams-landing-page.md)。
 
 查看此简短视频以了解有关创建团队和频道的最佳实践的详细信息。
 

@@ -13,20 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者 app EHR 集成
-ms.openlocfilehash: 25eb1b4ee09eec8395db2ac821d19624a508c937
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: f157061666dc72a8420b9b9331387b42d6918cea
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643080"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865035"
 ---
-# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗保健记录集成到 Microsoft 团队
+# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+
+要参与专用预览，请参阅[在专用预览中的注册](#enroll-in-the-private-preview)。
 
 本文适用于常规医疗保健 IT 开发人员感兴趣的医疗信息系统在使用 FHIR Api 连接到 Microsoft 团队。 这将使护理协调方案相匹配医疗保健组织的需要。
 
-此文章文档 Microsoft 团队患者应用程序和了解所需设置 FHIR 服务器并连接到您的开发 environment\tenant 中的患者应用程序的 FHIR 接口规范。 您需要熟悉的 FHIR 服务器选择，文档必须是受支持的选项之一：
+链接的文章文档的 Microsoft 团队患者应用程序，FHIR 接口规范和以下各节介绍什么是设置 FHIR 服务器和连接到您的开发环境或租户中的患者应用程序所必需的。 您需要熟悉的 FHIR 服务器选择，文档必须是受支持的选项之一：
 - Datica （通过其[CMI](https://datica.com/compliant-managed-integration/)产品）
 - 项 Cloverleaf （通过[项 FHIR 桥](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)）
 - Redox (通过[R ^ FHIR 服务器](https://www.redoxengine.com/fhir/))
@@ -73,12 +75,13 @@ ms.locfileid: "33643080"
 
 访问令牌的请求包括以下参数：
 
-    POST /token HTTP/1.1
-    Host: authorization-server.com
+* * *
 
-    grant-type=client_credentials
-    &client_id=xxxxxxxxxx
-    &client_secret=xxxxxxxxxx
+    POST /token HTTP/1.1 主机： 授权 server.com
+
+    授予类型 = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
+
+* * *
 
 合作伙伴服务提供 client_id 和 client_secret 患者应用程序，通过将伙伴的一侧的身份验证注册门户管理。 合作伙伴服务提供了到使用客户端凭据流请求访问令牌的终结点。 成功响应必须包括 token_type、 access_token 和 expires_in 参数。
 
@@ -135,12 +138,12 @@ ms.locfileid: "33643080"
 创建开源 FHIR 服务器后，就真正容易连接到您的租户内部患者应用程序，按照下列步骤操作：
 
 1. 初始详细信息[与我们联系](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview):  
-    - 您的姓名 
-    - 您的位置 
+    - 您的姓名
+    - 您的位置
     - 公司或您的组织
-    - 为什么您感兴趣 EHR 集成患者相关应用程序。 
+    - 为什么您感兴趣 EHR 集成患者相关应用程序
 
-    我们将回到您尽可能快地与多个问题，并指导您完成安装程序获得的专用预览的过程。
+    我们将回到您尽可能快地与多个问题，并指导您完成获取设置的专用预览的过程。
 
 2. 确保该 sideloading 的自定义应用程序启用打算试用患者应用程序租户。 请参阅[应用程序的权限策略](../../admin-settings.md)，以了解如何开启这从团队管理中心您或您的客户的租户。
 

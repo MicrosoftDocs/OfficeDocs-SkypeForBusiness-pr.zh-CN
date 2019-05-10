@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 提供多个租户。
-ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401485"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868653"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -103,7 +103,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>确保您的运营商租户中具有相应权限
 
-如果您登录到 Office 365 管理中心以全局管理员，您可以仅添加新域。 
+如果您登录到 Microsoft 365 管理中心以全局管理员，您可以仅添加新域。 
 
 若要验证您具有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com)，请转到**用户** > **活动用户**，然后验证是否已全局管理员角色。 
 
@@ -144,7 +144,7 @@ SBC 需要证书进行身份验证连接。 运营商需要使用 SAN 中请求�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>确保您客户租户中具有相应权限
 
-如果您登录到 Office 365 管理中心以全局管理员，您可以仅添加新域。 
+如果您登录到 Microsoft 365 管理中心以全局管理员，您可以仅添加新域。 
 
 若要验证您具有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com)，请转到**用户** > **活动用户**，然后验证是否已全局管理员角色。 
 

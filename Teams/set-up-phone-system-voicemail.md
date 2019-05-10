@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为用户设置云语音邮件。 '
-ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204791"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865003"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -65,6 +65,9 @@ ms.locfileid: "32204791"
 > Exchange 混合向导运行从 Exchange 2013 CU5 或更高版本将自动处理步骤 5 和 6 中的要求。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
+
+> [!WARNING]
+> 有关为企业客户的 Skype，禁用通过调用策略 Microsoft 团队的语音邮件可能还禁用您 Skype 业务用户的语音邮件服务。
 
 默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet 对其进行控制。
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: 1dc4e73fea7376033d8914cd1814e1edeb68e7d5
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b00a4e09a74cabc7a47879eea3d075220245c704
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362648"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835295"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>部署 Microsoft 团队聊天室与 Exchange Online
 
@@ -83,7 +83,10 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 首先，连接到 Azure AD 应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。
+1. 首先，连接到 Azure AD 应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+
+   > [!NOTE]
+   > 不支持[azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) 。 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred

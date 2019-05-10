@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc1334e019abadb030199518df15b0dde74dde52
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218674"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835332"
 ---
 ![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
 
@@ -43,7 +43,7 @@ ms.locfileid: "32218674"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>分配的共存和升级模式
 
-您可以通过分配 TeamsUpgradePolicy，可以执行的业务远程 Windows Powershell 会话中使用的 Microsoft 团队管理中心或 Skype 的 TeamsOnly 模式升级团队用户。
+您可以通过分配 TeamsUpgradePolicy，可以执行的业务远程 Windows Powershell 会话中使用的 Microsoft 团队管理中心或 Skype 的 UpgradeToTeams 实例升级到 TeamsOnly 模式的用户。 您可以这样做基于每个用户，或在租户范围内如果希望 ugprade 一个步骤中的整个租户。 
 
 有关详细信息，请参阅[设置您共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy： 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
 
@@ -51,45 +51,48 @@ ms.locfileid: "32218674"
 
 按照以下步骤一次将所有用户升级到团队。
 
-### <a name="step-1-notify-the-users-of-the-change"></a>步骤 1： 通知用户的更改
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>步骤 1： 通知用户的更改 （可选）
 
 1. 在 Microsoft 团队管理中心，选择**组织范围设置** > **团队升级**。
 2. **共存模式**下, 到**上**更改的**通知的 Skype 业务用户升级到团队是可用的**开关。
 
-### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>步骤 2： 为用户设置的共存模式
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>步骤 2： 将共存模式设置为 TeamsOnly 组织
 
 1. 在 Microsoft 团队管理中心中，选择**组织范围的设置**。
 2. 从**共存模式**下拉列表中选择**仅团队**模式。
 
 ## <a name="upgrade-users-in-stages"></a>分阶段升级用户
 
-如果您想要为团队中逐步升级您的用户，请按照以下步骤。
+如果您想要在用户逐步升级到 TeamsOnly，请按照以下步骤。
 
-### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>步骤 1： 创建您升级的用户群体
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>步骤 1： 确定升级的用户组
 
-用户群体是将同时移至仅团队模式的用户的组。
+通常组织可以选择升级成功随后在其组织的用户。  您需要先确定这些用户，以便您可以方便地搜索联系人在管理中心中的 Microsoft 团队。 此外，您可能想要使用 PowerShell 更有效地执行此操作。 一旦您确定的给定升级波形的用户数，继续执行其余步骤。
 
-创建您的用户群体 （将链接添加到用户选择页）
+### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>步骤 2： 为用户的通知中设置当前 ugprade wave （可选）
 
-### <a name="step-2-set-the-user-mode-to-islands"></a>步骤 2： 将用户模式下设置为群岛
+如果使用的 Microsoft 团队管理中心，您可以同时为最多 20 个用户配置 TeamsUpgradePolicy:
+1. 在 Microsoft 团队管理中心中，选择**用户**和查找和多重选择应升级的最多 20 个用户的复选框。 
+2. 在列表视图的左上角中，选择**编辑设置**。 
+3. 在右侧，在**升级团队**、 下的**编辑设置**窗格中更改为**上**的**通知业务用户 Skype**交换机。 注意： 如果共存模式的值为"使用组织范围设置"，您将不会看到此开关，因此您将需要首先为这些用户对任何默认值为组织显式设置的共存模式
 
-1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
-2. **升级团队**、 旁边选择**编辑**。
-3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**群岛**。
+此外，您会发现它更轻松地为用户同时使用 PowerShell 组启用通知。 
 
-### <a name="step-3-set-notification-for-the-user-optional"></a>步骤 3： 为用户的通知 （可选）
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>步骤 3： 为用户仅团队的共存模式
 
-1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
-2. **升级团队**、 旁边选择**编辑**。
-3. 在**工作组升级**窗格的**共存模式**下，更改为**上**的**通知业务用户 Skype**开关。
+当您准备升级中的用户当前波形团队用作其唯一的应用程序时，为用户仅团队的共存模式。
 
-### <a name="step-4-set-the-user-mode-to-teams-only"></a>步骤 4： 将用户模式下设置为仅团队
+如果使用的 Microsoft 团队管理中心，您可以同时为最多 20 个用户配置 TeamsUpgradePolicy:
+1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择最多 20 个用户的复选框。
+2. 在列表视图的左上角中，选择**编辑设置**。
+3. 在右侧，**团队升级**部分下的**编辑设置**窗格中将共存模式设置为**仅团队**下拉列表中。
 
-当您准备升级团队用作其唯一的应用程序的用户时，为团队仅用户的共存模式。
+此外，您会发现它易于升级的用户同时使用 PowerShell 组。 
 
-1. 在 Microsoft 团队管理中心中，选择**用户**，然后选择用户群体。
-2. **升级团队**、 旁边选择**编辑**。
-3. 在**工作组升级**窗格的**共存模式**下，从下拉列表中选择**仅团队**。
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>步骤 4： 为用户的连续随后重复步骤 1-3
+
+根据您验证升级到团队仅模式，并且已准备好展开，重复前面的步骤将 TeamsOnly 应用于多个用户。  
+
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 

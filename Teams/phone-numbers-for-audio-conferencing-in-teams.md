@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: 3997d6e6337f88d84a39239100c4a973280ddc02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246279"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835080"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 
@@ -36,7 +36,7 @@ ms.locfileid: "32246279"
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音频会议覆盖范围和定价
 
-有关提供音频会议的所有国家/地区和城市的完整列表，请参阅[音频会议和通话套餐的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+有关提供音频会议的所有国家/地区和城市的完整列表，请参阅[音频会议和通话套餐的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议的定价](https://go.microsoft.com/fwlink/?linkid=799762)。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会议邀请中的拨入电话号码
 
@@ -60,7 +60,7 @@ Microsoft Teams 用户在 Outlook 或 Outlook Web App 中安排会议时，为�
 若要查看支持给组织自动分配电话号码的国家/地区列表，请参阅 [音频会议和通话套餐所支持的国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
     
 > [!NOTE]
-> 你可以登录 **Office 365 管理中心**，然后在“**组织配置文件**”下面查找贵组织所在的国家或地区位置。 
+> 通过登录到**Microsoft 365 管理中心**，在**组织配置文件**下查看找不到您的组织的国家或地区的位置。 
   
 > [!CAUTION]
 > 由于委内瑞拉、印度尼西亚和阿联酋 (UAE) 限制收费电话号码的使用，因此不会自动向这些国家/地区的组织分配音频会议收费电话号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 

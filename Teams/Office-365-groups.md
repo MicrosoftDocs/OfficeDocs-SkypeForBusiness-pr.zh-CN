@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180261"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868709"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft 团队
 =====================================
@@ -50,6 +50,6 @@ Office 365 管理员可以定义一个 Office 365 组、 添加成员，以及�
 <a name="group-membership"></a>组成员身份
 ----------------
 
-组特性和功能为您的用户取决于其中驱动器中的组成员身份。 例如，如果您删除的工作组成员，请删除这些空格从 Office 365 组。 从组中删除立即删除工作组和通道来自团队客户端。 如果从使用 Office 365 管理中心组中删除联系人，将不再拥有对其他协作方面的访问 SharePoint Online 的文档库，如 Yammer 组或共享的 OneNote。 但是，他们仍将约为两个小时内有权团队的聊天功能。
+组特性和功能为您的用户取决于其中驱动器中的组成员身份。 例如，如果您删除的工作组成员，请删除这些空格从 Office 365 组。 从组中删除立即删除工作组和通道来自团队客户端。 如果从使用 Microsoft 365 管理中心组中删除联系人，将不再拥有对其他协作方面访问 SharePoint Online 的文档库，如 Yammer 组或共享的 OneNote。 但是，他们仍将约为两个小时内有权团队的聊天功能。
 
-管理团队成员的最佳做法是，添加和删除工作组客户端以确保正确的级联访问控件其他相关的云应用程序应用的成员。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果您执行添加或删除外部团队客户端的工作组成员 (通过使用 Office 365 管理中心的 Azure AD 或 Exchange Online PowerShell)，可能需要更改可以反映在工作组达两个小时。
+管理团队成员的最佳做法是，添加和删除工作组客户端以确保正确的级联访问控件其他相关的云应用程序应用的成员。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果您执行添加或删除外部团队客户端的工作组成员 (通过使用 Microsoft 365 管理中心的 Azure AD 或 Exchange Online PowerShell)，可能需要更改可以反映在工作组达两个小时。

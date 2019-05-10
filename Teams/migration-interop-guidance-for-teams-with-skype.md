@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcce9f30784e717052b494ad99e4fb25788455bf
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 58b2548e4c1c409314146d1675bbc06b2f95f7e5
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402079"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835456"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -49,7 +49,7 @@ ms.locfileid: "33402079"
 
 7.  将用户升级到 TeamsOnly 模式可确保的所有传入的聊天和呼叫将始终位于用户的团队的客户端，而不考虑其源自哪些客户端中。 这些用户还将安排团队中的所有新会议。 若要在 TeamsOnly 模式下，用户必须驻留联机 Skype for Business 中。 这是确保互操作、 联盟和团队用户的完整管理所需的。升级到 TeamsOnly 用户：
     - 如果用户驻留在 for Business 的 Skype 联机 （或永远不会有任何 Skype 帐户），向其授予与模式 TeamsUpgradePolicy = TeamsOnly 使用"UpgradeToTeams"实例使用 PowerShell，或使用团队 Admin Center 选择 TeamsOnly 模式。
-    - 如果用户驻留在内部部署，请使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。  如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，您可以指定`-MoveToTeams`中切换`Move-CsUser`用户直接移至团队移动的一部分联机。 此选项还将到团队迁移用户的会议，（尽管现在，会议迁移才正常工作的点击客户）。 如果`-MoveToTeams`不指定或不可用，然后后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。 有关详细信息，请参阅[将内部部署和云之间的用户移动](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关会议迁移的详细信息，请参阅[使用会议迁移服务 (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+    - 如果用户驻留在内部部署，请使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。  如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，您可以指定`-MoveToTeams`中切换`Move-CsUser`用户直接移至团队移动的一部分联机。 此选项还会将用户的会议迁移到团队。 如果`-MoveToTeams`不指定或不可用，然后后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。 有关详细信息，请参阅[将内部部署和云之间的用户移动](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关会议迁移的详细信息，请参阅[使用会议迁移服务 (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
 8.  使用团队系统小组电话功能，用户必须是在 TeamsOnly 模式 （即，业务 online 驻留在 Skype 和升级到团队） 中，以及他们必须配置 Microsoft 电话系统[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)（这使您可以使用电话系统与您自己的 SIP 中继和 SBC） 或 Office 365 调用规划。   
 
@@ -81,11 +81,11 @@ ms.locfileid: "33402079"
 
 |模式|呼叫和聊天|会议计划<sup>1</sup>|团队 & 通道|用例|
 |---|---|---|---|---|
-|**TeamsOnly**</br>*主页中 Skype 需要业务 online*|Teams|Teams|是|正在升级的最终状态。 此外默认 <500 座位与新的租户。|
+|**TeamsOnly<sup>2</sup>**</br>*主页中 Skype 需要业务 online*|Teams|Teams|是|正在升级的最终状态。 此外默认 <500 座位与新的租户。|
 |群岛|任一|任一|是|默认配置。 允许单个用户评估并排比较两个客户端。 使用户必须始终运行两个客户端中任一客户端中，可以位于聊天和呼叫。|
-|SfBWithTeamsCollabAndMeetings|Skype for Business|团队|是|"会议第一个"。 主要用于本地组织可以受益团队会议功能，如果它们尚准备要迁移到云中的呼叫。|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|团队|是|"会议第一个"。 主要用于本地组织可以受益团队会议功能，如果它们尚准备要迁移到云中的呼叫。|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|是|需要加强管理控制的复杂组织的备用起始点。|
-|SfBOnly|Skype for Business|Skype for Business|没有<sup>2</sup>|专用具有数据控件周围的严格要求的组织的方案。 团队仅用于加入安排由其他人的会议。|
+|SfBOnly|Skype for Business|Skype for Business|没有<sup>3</sup>|专用具有数据控件周围的严格要求的组织的方案。 团队仅用于加入安排由其他人的会议。|
 ||||||
 
 </br>
@@ -95,7 +95,9 @@ ms.locfileid: "33402079"
 
 <sup>1</sup> （是否计划在工作组或业务的 Skype） 加入现有会议的功能不受模式。 默认情况下，用户始终可以加入已被邀请参加任何会议。
 
-<sup>2</sup>目前，团队没有禁用团队和通道功能，以便保持此现在已启用的功能。
+<sup>2</sup>默认情况下，分配给单个用户的 TeamsOnly 或 SfbWithTeamsCollabAndMeetings 时，供该用户安排的未来的业务会议的任何现有 Skype 会转换为小组会议。 如果需要，您可以离开保留这些会议作为 Skype 业务会议可以通过指定`-MigrateMeetingsToTeams $false`授予 TeamsUpgradePolicy，或通过取消选中团队管理门户中的复选框。   请注意，将会议从 for Business 的 Skype 转换为团队的功能可用时不可 TeamsUpgradePolicy 授予在租户范围内。 
+
+<sup>3</sup>目前，团队没有禁用团队和通道功能，以便保持此现在已启用的功能。
 
 
 
@@ -190,4 +192,4 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 
 [设置 CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-
+[使用会议迁移服务 (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

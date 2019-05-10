@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择 Exchange UM 自动助理对话框选择 Exchange UM 自动助理将处理到未分配号码范围的传入呼叫。
-ms.openlocfilehash: decb3023f6faa58d74331714f09ae5415817e966
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b037c907a2bd2d78a9f246e9cbc64dab2c5d8b8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221523"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835304"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>选择 Exchange UM 自动助理
 
 > [!NOTE]
-> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../../SfBhybrid/hybrid/plan-um-migration.md) 。
+> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在弱化支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../../SfBhybrid/hybrid/plan-um-migration.md) 。
  
 使用**选择 Exchange UM 自动助理**对话框选择 Exchange UM 自动助理将处理到未分配号码范围的传入呼叫。
   

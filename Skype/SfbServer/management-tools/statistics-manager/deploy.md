@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898256"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864902"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
@@ -118,7 +118,7 @@ ms.locfileid: "30898256"
     
    - 如果运行状况检查页面显示，则表示已成功安装侦听器。
     
-   - 如果 KnownServersCount 为 1 或更高，则表示已建立与 Redis 的连接。
+   - 如果 KnownServerCount 为 1 或更高版本，建立与 Redis 的连接。
     
    - 等待几分钟，且至少安装了一个代理后，检查 ValuesWritten 计数器是否在递增。
     

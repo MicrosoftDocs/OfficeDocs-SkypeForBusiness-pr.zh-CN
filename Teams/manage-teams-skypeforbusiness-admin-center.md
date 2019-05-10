@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何管理租户范围和团队从团队转换期间的用户设置在 Office 365 管理中心对新的 Microsoft 团队管理中心体验。
+description: 了解如何管理租户范围和团队从团队转换期间的用户设置在 Microsoft 365 管理中心对新的 Microsoft 团队管理中心体验。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199564"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827793"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -42,7 +42,7 @@ ms.locfileid: "32199564"
 
 下表标识团队体验已迁移并显示新的管理门户中的当前设置和策略之间的关系的部分。
 
-|Office 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队管理中心策略   |级别： 租户或用户   |
+|Microsoft 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队管理中心策略   |级别： 租户或用户   |
 |---------|---------|---------|---------|
 |常规     |显示个人配置文件中的组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
 |常规     |用于未设置团队收件人 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
@@ -75,7 +75,7 @@ ms.locfileid: "32199564"
 |消息     |允许用户删除其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 |消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
-<sup>1</sup>弃用的来宾。 在管理中心中的 Microsoft 团队可以立即托管启用/禁用来宾。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证在 Office 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
+<sup>1</sup>弃用的来宾。 在管理中心中的 Microsoft 团队可以立即托管启用/禁用来宾。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证 Microsoft 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
 <br><br>
 <sup>2</sup> Sideloading 拆分，如下所示：
 
@@ -85,15 +85,15 @@ ms.locfileid: "32199564"
 <sup>3</sup>默认应用程序和外部应用程序可以启用和禁用 TeamsAppPermissionPolicy 用户级别。 此外，可以在组织范围应用程序设置将覆盖任何用户和租户级设置的租户级别阻止应用程序。 
 
 > [!NOTE]
-> 您将继续在 Office 365 管理中心中配置与团队和频道使用组仪表板。 应用程序设置将保留在 Office 365 管理中心的团队区域，并且将更高版本迁移。 
+> 您将继续在 Microsoft 365 管理中心中配置与团队和频道使用组仪表板。 应用程序设置将保留在 Microsoft 365 管理中心的团队区域，并且将更高版本迁移。 
 
 ## <a name="manage-settings-during-the-migration"></a>在迁移期间管理设置
 
-您可以继续修改在 Office 365 管理中心和业务管理中心的 Skype 中的设置，直到完成您的租户的节的迁移。 
+您可以继续修改 Microsoft 365 管理中心和业务管理中心的 Skype 中的设置，直到完成您的租户的节的迁移。 
 
 下表显示了您可以在迁移期间管理功能。
 
-|功能  |Microsoft 团队管理中心                      |Skype 的业务管理中心 （旧）  |Office 365 管理中心  |
+|功能  |Microsoft 团队管理中心                      |Skype 的业务管理中心 （旧）  |Microsoft 365 管理中心  |
 |---------|:---------:|:---------:|:---------:|
 |团队消息、 会议和 Live 事件策略     |     X    |         |         |
 |团队升级策略     |    X     |         |         |

@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其如何影响团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a529784ba9968835ce5fb9d8e8648022e46beda5
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33506744"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827785"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>在 Microsoft 团队预览中的信息障碍
 
@@ -77,7 +77,7 @@ ms.locfileid: "33506744"
 
 ## <a name="required-licenses-and-permissions"></a>必需的许可证和权限
 
-目前，信息障碍功能是在专用的预览。 这些功能通常可用时，它们将包含在订阅，例如：
+目前，信息障碍功能处于公共预览。 这些功能通常可用时，它们将包含在订阅，例如：
 
 - Microsoft 365 E5
 - Office 365 E5

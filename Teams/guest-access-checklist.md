@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237545"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827658"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -42,7 +42,7 @@ ms.locfileid: "32237545"
 
 有关详细信息，请参阅[新增的来宾体验](guest-experience.md)和[来宾访问 Office 365 组中](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
-### <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
+### <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -59,7 +59,7 @@ ms.locfileid: "32237545"
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ 步骤 1： 在 Azure AD 企业到企业中配置设置
 
-1. 登录到https://portal.azure.com。
+1. 登录到https://portal.azure.com
 2. 单击左侧窗格中的**Azure Active directory** 。
 3. 在**管理**下单击**用户设置**。
 4. 在**外部用户**，下单击**管理外部协作设置**。

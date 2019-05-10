@@ -15,12 +15,12 @@ description: 任务和所需的团队服务管理，包括监视服务运行状�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 73cc1fca7f4b917266d855162545b93673c459a9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401046"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868741"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -238,7 +238,7 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 如果使用率不是您的预期，这可能是因为部署问题，或者应用计划未被执行正常，或一些其他问题。 低使用率后面的实际原因，根据服务管理员必须与帮助删除使用率障碍相关团队协作。
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>测量用法与 Office 365 管理中心
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>与 Microsoft 365 管理中心的测量使用率
 
 从工作组的使用率数据位于报告仪表板中。 三个不同的报表中，可以找到团队使用率数据。 第一个报告提供跨产品视图的用户进行通信和协作使用 Office 365 中的各种服务的方式。 此报告可在此处找到： [Office 365 活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -279,9 +279,9 @@ Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能
 
 ### <a name="references"></a>References 
 
-[有关 Office 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[有关 Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Office 365 管理中心中的活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[在 Microsoft 365 管理中心中的活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
@@ -457,7 +457,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 客户端](get-clients.md)
+[获取 Microsoft Teams 的客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -465,7 +465,7 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [验证 Microsoft Teams 的服务运行状况](service-health.md)
 
-[与支持部门联系业务产品的管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [联系人 Premier support](https://support.microsoft.com/premier/contacts)
 

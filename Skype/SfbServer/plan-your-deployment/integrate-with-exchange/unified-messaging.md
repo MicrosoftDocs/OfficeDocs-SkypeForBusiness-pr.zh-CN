@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要： 查看 while planning to Exchange 2013 或 2016年业务服务器集成 Skype 本主题。
-ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30898b8a5a8495ac34527d6feb688d4a1acb4d49
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213937"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835423"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在 Skype for Business 中规划 Exchange 统一消息集成
 
@@ -28,7 +28,7 @@ Skype 业务服务器支持的组合语音消息传递和电子邮件到单个�
 在 Microsoft Exchange Server 2013 和 2016年，Exchange UM 作为服务运行在 Exchange 邮箱服务器上。 Skype 的业务 Server 企业语音部署，为语音消息传递和电子邮件消息到一个存储的用户可以从 (Outlook Voice Access) 的电话或计算机访问结合统一消息。 统一消息和企业服务器的 Skype 协同工作来向企业语音用户提供呼叫应答、 Outlook Voice Access 和自动助理服务。
 
 > [!NOTE]
-> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在注销 emphasised 支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../sfbhybrid/hybrid/plan-um-migration.md) 。
+> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在弱化支持云语音邮件和云自动助理功能。  有关详细信息，请参阅[规划云语音邮件服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Business Server 和 Exchange Server 迁移的 Skype](../../../sfbhybrid/hybrid/plan-um-migration.md) 。
 
 
 内部部署 Exchange UM 部署中支持这些功能，您必须运行下列选项之一：
