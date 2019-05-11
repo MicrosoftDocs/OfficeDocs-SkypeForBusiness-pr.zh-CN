@@ -1,8 +1,8 @@
 ---
 title: SessionDetails 视图
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails view 存储有关对等会话，这可能是 Voip-voip 电话呼叫、 双方 IM 会话或其他类型的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9c94c106d8a290dfd81a57d1674b3fac0fa74642
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212815"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930621"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 视图
  

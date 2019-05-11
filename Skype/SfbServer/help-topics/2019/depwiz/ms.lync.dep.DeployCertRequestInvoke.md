@@ -1,8 +1,8 @@
 ---
 title: 证书请求（调用）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 执行命令页将任务状态窗格中显示为生成的证书请求时运行的命令。 在任务完成后，下拉列表下方摘要窗格中包含的日志文件的列表。 使用下拉列表选择要查看的日志文件，然后单击查看日志。 Internet Explorer 将启动并显示日志文件。 显示一个失败的请求，您应当查看日志文件以确定失败的原因。 您可以重新运行解决问题的证书请求，更正问题指明在日志文件中。 继续上述的证书请求页面并再次申请证书。
-ms.openlocfilehash: 842e752675d9f4d0cd027d6cff2792404c4bc4e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 17fbd2f83f56bda5c261c4bf3b9a31c7bebdb899
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216345"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893859"
 ---
 # <a name="certificate-request-invoke"></a>证书请求（调用）
  

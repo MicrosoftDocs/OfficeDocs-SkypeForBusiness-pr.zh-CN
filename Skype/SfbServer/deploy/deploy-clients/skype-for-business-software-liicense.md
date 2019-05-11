@@ -1,7 +1,7 @@
 ---
 title: Skype 会议室系统 Skype 业务软件许可证
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 阅读本主题，了解如何检查你是否拥有 Skype for Business 软件批量许可证。
-ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8bc8abfb4b379faaf94ac8cf8fbf4fdb792329bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207929"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893341"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype 会议室系统：Skype for Business 软件许可证
  

@@ -1,8 +1,8 @@
 ---
 title: 创建或修改代理组中的业务的 Skype
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 43d4abba518b99a52b67a1c3bfe22abdea28d679
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223196"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892900"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>创建或修改代理组中的业务的 Skype
  

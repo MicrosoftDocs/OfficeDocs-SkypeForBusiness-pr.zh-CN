@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 中配置位置数据库
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223653"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893047"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
  

@@ -5,20 +5,20 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 次部署边缘服务器和启用联盟组织中，您应指定是否支持自动发现联盟的伙伴域。
-ms.openlocfilehash: de61d8180a8f4e8f8be13abaab3d8911d2c6e22c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cf12190b03df30f4a15f6ed5e0499aa97c66e576
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199939"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919512"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>启用或禁用业务服务器中 Skype 的联盟伙伴的发现
 

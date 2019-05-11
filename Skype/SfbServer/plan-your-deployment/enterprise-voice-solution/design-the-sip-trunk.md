@@ -1,8 +1,8 @@
 ---
 title: SIP 中继的设计 E9-1-1 在 Skype 业务服务器
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: 规划业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署 SIP 中继拓扑。
-ms.openlocfilehash: 25d961c00eb701dce6386ce2a901c1fbe5cf3cde
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 55dc76dae7561a9d8caef43ab3b6dcd0e4806a3c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206962"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925079"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>SIP 中继的设计 E9-1-1 在 Skype 业务服务器
  

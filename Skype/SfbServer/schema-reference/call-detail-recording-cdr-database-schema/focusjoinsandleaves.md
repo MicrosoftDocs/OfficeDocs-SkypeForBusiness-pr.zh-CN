@@ -1,8 +1,8 @@
 ---
 title: FocusJoinsAndLeaves 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 此表中的每条记录包含一个用户加入的 CDR 信息和保留一个会议信息。 每个会议此表中由表示一条记录的每次加入和离开会议的用户。
-ms.openlocfilehash: dea6ae9e66416da41c9ca5df0d6a8c3e61550238
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8767b72163be4b90fb06950d3eca33bbe9d9974c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213079"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901120"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>FocusJoinsAndLeaves 表中的业务服务器 2015 Skype
  

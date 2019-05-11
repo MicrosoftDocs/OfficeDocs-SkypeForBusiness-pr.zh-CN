@@ -1,8 +1,8 @@
 ---
 title: 持久聊天计算机扩展器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 激活或停用使用的服务器或池机状态设置中列出的部署持久聊天服务器或持久聊天服务器池。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
-ms.openlocfilehash: 8318bc734e3532e4fb1c03f0ea796ecbed9ffdc0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: faa7f4151c40c55c3f301adf34a9758b91f8c50e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219280"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910831"
 ---
 # <a name="persistent-chat-machines-expander"></a>持久聊天计算机扩展器
  

@@ -1,8 +1,8 @@
 ---
 title: 定义持久聊天 FQDN
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: 您创建一个新的持久聊天服务器或使用定义新的持久聊天池向导的持久聊天服务器池。 选择“多计算机池”或“单计算机池”。 如果选择单计算机池，但后来需要多计算机池，则需要先删除单计算机池，然后再定义多计算机池。
-ms.openlocfilehash: 9de27a5b64c9fa13effa9396798cb67083a407e5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ee625d5e13072ed52d71348d5c1d8af3e2bb4890
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226933"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911852"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定义持久聊天 FQDN
  

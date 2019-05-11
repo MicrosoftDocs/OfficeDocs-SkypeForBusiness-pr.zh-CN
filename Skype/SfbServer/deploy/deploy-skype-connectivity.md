@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器部署中 Skype 的 Skype 连接
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要： 了解如何将 Skype 与 Skype 的使用者连接业务服务器。 也称为 Skype 连接。
-ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f347b9698bbf42f5a350a02d355fe5a576ac4cf6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219690"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894421"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的 Skype 连接
  
@@ -232,7 +232,7 @@ Skype 业务服务器使用的联合身份验证访问体系结构以支持与 S
   
 |**客户端**|**Skype 目录搜索和添加联系人**|**Skype A/V、IM 互操作**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |是   <br/> |是   <br/> |
+|Skype for Business  <br/> |是  <br/> |是  <br/> |
 |Mac 版 Skype for Business  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Desktop 2013  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Web App - 联机和本地  <br/> |不适用  <br/> |不适用  <br/> |
@@ -240,7 +240,7 @@ Skype 业务服务器使用的联合身份验证访问体系结构以支持与 S
 |Lync 移动 - Android  <br/> |即将提供  <br/> |是  <br/> |
 |Lync 移动 - iOS  <br/> |即将提供  <br/> |是  <br/> |
 |Lync Room System  <br/> |即将提供  <br/> |是  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |是  <br/> |是   <br/> |
+|Lync Modern App (Win 8.1)  <br/> |是  <br/> |是  <br/> |
 |Lync Mac 2011  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Desktop 2010  <br/> |可以添加（无搜索）  <br/> |是  <br/> |
 |Lync Phone Edition  <br/> |不适用  <br/> |不适用  <br/> |

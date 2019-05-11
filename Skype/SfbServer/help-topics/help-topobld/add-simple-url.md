@@ -1,8 +1,8 @@
 ---
 title: 添加简单 URL
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。
-ms.openlocfilehash: 749049f9d4f56321d095aee6d8c25cecd6ae0cb0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 0b2d6331fe23b82618d00e3761949c911bc6c46f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882981"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897441"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  

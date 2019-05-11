@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器部署中 Skype 的会议
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 摘要： 阅读本主题可了解如何为业务服务器部署中 Skype 的会议。
-ms.openlocfilehash: 5b67bef5ce55e9c4a2c4b71e80a26ffe2600ad92
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 227b76dfe9da061d8101331a2ac175d7ee6a0c33
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226129"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895010"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的会议
 

@@ -1,8 +1,8 @@
 ---
 title: 安装数据库选项页面
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 配置高级的选项的 SQL Server 上的数据库和日志文件的位置。 可用的选项是：
-ms.openlocfilehash: 4834a3b12b668f407b92770f8850646509fc6914
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e503a9daf167da576e552f5f77160a7289639bee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201883"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919743"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页面
 

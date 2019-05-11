@@ -1,8 +1,8 @@
 ---
 title: 安装本地配置存储（调用）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: 执行命令窗格中显示安装中央管理存储的本地只读副本的任务的状态。 任务在运行时，运行命令时，将更新任务窗格。 您应查看任务状态，并记下任何错误或警告的显示。 当任务完成后，邮件任务状态： 完成显示，并在日志文件的下拉列表显示日志文件的名称。 若要查看已创建的日志文件，选择要查看并单击查看日志的日志文件。 查看所有日志文件中的成功、 错误和警告消息。
-ms.openlocfilehash: 0d4bb71821751c1eefa750ceb3fcc7ab5ae309be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 09ed9ee4912efff99ffdeaf61662a4bf986082f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220352"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921046"
 ---
 # <a name="install-local-configuration-store-invoke"></a>安装本地配置存储（调用）
  

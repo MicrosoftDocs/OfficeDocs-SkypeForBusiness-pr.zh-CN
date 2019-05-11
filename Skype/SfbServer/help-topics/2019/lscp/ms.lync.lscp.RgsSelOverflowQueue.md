@@ -1,8 +1,8 @@
 ---
 title: 选择溢出队列
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: 用于选择溢出队列对话框中选择队列响应组队列已满时转接呼叫。
-ms.openlocfilehash: 9c860533687a1742eb44855f29be3ce5d6746ff3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 63835f912273e54e33106d1a3c0096f62645f7db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215176"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891059"
 ---
 # <a name="select-overflow-queue"></a>选择溢出队列
  

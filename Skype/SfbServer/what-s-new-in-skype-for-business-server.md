@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 中的新增功能
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2017
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 摘要： 阅读此主题以了解业务服务器 2015 Skype 中的新功能。 有关新的客户端体验的详细信息，请参阅 Lync 现 for Business 的 Skype--请参阅 what's new。
-ms.openlocfilehash: 053bbc4c427e322499a56eb7d74109c8b0ec4a7e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: fa6fcbe3727a297de3586223acc901a0583a40d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899664"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902248"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的新增功能
 

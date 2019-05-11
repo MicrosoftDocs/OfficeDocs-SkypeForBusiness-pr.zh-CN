@@ -1,8 +1,8 @@
 ---
 title: 使用 Setup command-line options Skype 业务客户端
 ms.reviewer: ''
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 摘要： 了解 Office 安装程序中的 Setup.exe 命令行操作。
-ms.openlocfilehash: d3bf2b4d867fbbb43c346f2b9572de329ec66bdc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 924ecab4a53c6ec591416661bc98078e8e48381c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214875"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895059"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>使用 Setup command-line options Skype 业务客户端
  

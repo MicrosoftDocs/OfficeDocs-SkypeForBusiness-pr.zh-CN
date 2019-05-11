@@ -1,8 +1,8 @@
 ---
 title: 在拓扑内的服务器上安装 Skype for Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要： 了解如何在拓扑中的每台服务器上安装了 Business Server 系统组件 Skype。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 130e8f2d0b14215c229bb78819ff072217a24b06
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210988"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891815"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓扑内的服务器上安装 Skype for Business Server
  

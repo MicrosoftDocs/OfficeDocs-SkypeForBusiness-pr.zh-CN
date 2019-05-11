@@ -1,8 +1,8 @@
 ---
 title: Office Communications Server 范围节点
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: cec7a84d5915ee2f7692071d0759fea24f142178
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19ecb124a4f8c5a9a03d2b9b42264a26c30f7b50
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199960"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930572"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 范围节点
 

@@ -1,8 +1,8 @@
 ---
 title: 分支机构设备范围节点
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: Survivable Branch Appliance 节点列出了在此分支站点 Survivable Branch Appliance。 可以执行以下操作：
-ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4bd42b6132e9949b054479c06633833be5602c67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226976"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911824"
 ---
 # <a name="branch-office-appliances-scope-node"></a>分支机构设备范围节点
  

@@ -1,8 +1,8 @@
 ---
 title: 部署网络区域、 站点和 Skype for Business 中的子网
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、 网络站点，并将 Skype 中的网络子网关联的业务服务器。 所有这些用于高级企业语音功能： 媒体绕过、 呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b5de9ed76dcba917a186a6f9060021f51d5abac9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223111"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892662"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>部署网络区域、 站点和 Skype for Business 中的子网
 

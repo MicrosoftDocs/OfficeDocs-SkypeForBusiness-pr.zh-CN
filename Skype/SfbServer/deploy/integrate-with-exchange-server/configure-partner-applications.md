@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 和 Exchange Server 中配置合作伙伴应用程序
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 摘要： 配置 Exchange Server 2016 或 Exchange Server 2013 和 Skype 的业务服务器的服务器到服务器身份验证。
-ms.openlocfilehash: d9d2b32b637946555b906f24e7abbd5dda007d7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70433d0a6f3b6d9c30e510e116003a4efb5ba9b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216877"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894335"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在 Skype for Business Server 和 Exchange Server 中配置合作伙伴应用程序
  

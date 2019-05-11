@@ -1,7 +1,7 @@
 ---
 title: 适用于 Microsoft Teams 的服务管理规划指南
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b2039409d2cfb63672f1c2bb4ae5cdf68323be2
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.openlocfilehash: 094f6af6e1bec9cffcfaeecaabab42ec80d5ba04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304842"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895192"
 ---
 # <a name="plan-for-service-management-and-quality"></a>规划服务管理和质量
 

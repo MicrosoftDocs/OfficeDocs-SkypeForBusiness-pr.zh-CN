@@ -1,8 +1,8 @@
 ---
 title: 持久聊天外接程序主页
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 持久聊天页的外接程序部分可用于将 Url 与持久聊天聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 8b0add45aaf4baf55c30d4640da09e07f96cdb0c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 53030c7cddd0b761aee60d6e0b476d708ac52ba5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200805"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911035"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>持久聊天外接程序主页
 

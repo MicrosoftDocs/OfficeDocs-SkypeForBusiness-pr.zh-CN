@@ -1,20 +1,21 @@
 ---
 title: 部署高可用性和灾难恢复
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
+manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype 业务服务器与池，池配对，与后端服务器高可用性，包括 AlwaysOn 可用性组、 数据库镜像，和 SQL 故障转移群集的几种模式下的灾难恢复的服务器提供高可用性。
-ms.openlocfilehash: bbd3c4092962e757a7565f1da054c82438a79ded
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96e1f0614aac72197f0b34b8432b65d2c859c4ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225495"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894589"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和灾难恢复
  

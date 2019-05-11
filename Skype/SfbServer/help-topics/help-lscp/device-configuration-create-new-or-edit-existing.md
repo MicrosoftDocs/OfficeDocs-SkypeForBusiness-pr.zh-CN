@@ -1,8 +1,8 @@
 ---
 title: 设备配置创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在新的设备配置或编辑设备配置页上，您可以创建或修改用于管理业务 Phone edition 的 Skype 的设置的集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: ed1f002cd0d8c0465a765c04c3efb4367c6f99fb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: df5555a9cccb5cd09a07087674974a2008daa3a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234677"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913976"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  

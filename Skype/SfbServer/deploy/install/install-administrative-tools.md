@@ -1,8 +1,8 @@
 ---
 title: 在 Skype 业务服务器安装管理工具
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 摘要： 了解如何安装 Business Server Skype 安装所需的管理工具。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb5e1766ca4e0b7d6ad03db2004835e1a51d52cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210723"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891829"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>在 Skype 业务服务器安装管理工具
  

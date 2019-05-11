@@ -1,8 +1,8 @@
 ---
 title: 配置 Mobility Service 以实现高性能 Skype 中的业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 摘要： 了解业务服务器的 Skype 中 Mobility Service。
-ms.openlocfilehash: 3e3f0df7550a64236335108453f0c35d902a1713
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bd787e78ebd3228faa1c47f1f54e688551c3e67d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197490"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926590"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>配置 Mobility Service 以实现高性能 Skype 中的业务服务器
  

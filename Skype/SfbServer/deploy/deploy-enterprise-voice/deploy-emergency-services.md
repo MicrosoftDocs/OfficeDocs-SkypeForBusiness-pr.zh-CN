@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器部署中 Skype 的紧急服务
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: 为业务 Server 企业语音部署中 Skype E9-1-1。 包括先决条件和部署过程清单。
-ms.openlocfilehash: b24bdfdd40787c8be57b541f3a163e3c21f3012a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7dddbd338ac496de995d3971b6298f5a37885bba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223125"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892725"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的紧急服务
  

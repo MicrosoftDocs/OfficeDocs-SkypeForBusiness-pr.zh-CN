@@ -1,8 +1,8 @@
 ---
 title: 自定义业务服务器 Skype 的用户帐户属性
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本节中的过程修改单个用户帐户属性。
-ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1f2039180a2bfa44b3379f7cf6bf095e2d0a7c14
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214833"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911831"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义业务服务器 Skype 的用户帐户属性
  

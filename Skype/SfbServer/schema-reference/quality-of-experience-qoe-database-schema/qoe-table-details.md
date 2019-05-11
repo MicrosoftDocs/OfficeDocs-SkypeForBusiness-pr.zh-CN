@@ -1,8 +1,8 @@
 ---
 title: QoE 表详细信息
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
-ms.openlocfilehash: 3008fe59733f6bd7d148dd7f3ec16a05fb609e90
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cd8a1f063fdfe5f13aecdaa62eb71225e753adfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212156"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920115"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  

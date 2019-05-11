@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge Server IP 选项
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype 业务服务器可以为边缘服务器和边缘池配置为每个接口的 IPv4 和 IPv6 地址。 若要执行此操作，请执行以下操作：
-ms.openlocfilehash: 727a946c6e9992b9391e7bf77238fdb61910c830
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9e83c5b457524ba4222075666384228cf1d5adc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202136"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889064"
 ---
 # <a name="add-edge-server-ip-options"></a>添加 Edge Server IP 选项
  

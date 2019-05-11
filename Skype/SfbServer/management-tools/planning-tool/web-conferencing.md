@@ -1,8 +1,8 @@
 ---
 title: Web Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 业务服务器 2015 web 会议的 Skype 包括文档协作、 应用程序共享和桌面共享。
-ms.openlocfilehash: 8363d1b0cd7487600e0df8d924efc5c282fc3adb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65e158aec4e7f06686579d96d9abbffcaaccb4d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222602"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914098"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  

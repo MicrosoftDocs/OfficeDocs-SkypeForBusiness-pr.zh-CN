@@ -1,8 +1,8 @@
 ---
 title: Dialogs 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs 表是一个支持表，用于存储对等会话的 Dialogid 的信息。
-ms.openlocfilehash: af7816c202f995e826567391bf32c5c32a2d0d94
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 379956a2c77c60a53e702913d81b25b41dc2fc23
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213653"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901127"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Dialogs 表中的业务服务器 2015 Skype
  

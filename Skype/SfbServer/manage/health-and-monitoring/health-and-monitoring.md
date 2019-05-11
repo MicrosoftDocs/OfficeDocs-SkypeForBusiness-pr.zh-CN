@@ -1,8 +1,8 @@
 ---
 title: 管理运行状况和监控 Skype 中的业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要： 了解业务服务器中 Skype 的监控和运行状况配置任务。
-ms.openlocfilehash: 10b81a6950e0f30e74d9d47c59223952d41ee7d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1cf8287549401c46dfa3b649c4ae4ddf63743fc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197483"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926611"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>管理运行状况和监控 Skype 中的业务服务器
 

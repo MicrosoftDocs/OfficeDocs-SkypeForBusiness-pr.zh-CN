@@ -1,8 +1,8 @@
 ---
 title: 验证 Skype for Business 中的呼叫寄存的规范化规则
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: 了解有关在 Skype 的呼叫寄存的规范化规则的业务 Server 企业语音。
-ms.openlocfilehash: 794d64efcefbc4b36fac84e6356df46df76dc5a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f27daca3ef3f1bcdc4c70f04b92ccaa29a569a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222553"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892263"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>验证 Skype for Business 中的呼叫寄存的规范化规则
  

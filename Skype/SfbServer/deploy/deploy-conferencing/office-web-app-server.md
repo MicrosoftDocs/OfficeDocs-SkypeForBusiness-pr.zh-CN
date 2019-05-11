@@ -1,8 +1,8 @@
 ---
 title: 配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 摘要： 阅读本主题可了解如何配置 Office Web Apps Server 和 Skype 业务服务器启用 web 会议的 PowerPoint 演示文稿之间的集成。
-ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96920a5de9ac30e8fa0705a9fc596eb416dedc5d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223822"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893313"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>配置与 Skype 中的 Office Web Apps Server 的集成的企业服务器
  

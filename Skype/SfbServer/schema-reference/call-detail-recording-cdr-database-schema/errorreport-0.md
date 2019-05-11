@@ -1,8 +1,8 @@
 ---
 title: ErrorReport 视图
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport 视图存储有关错误报告的信息。 每个记录是一个错误实例。 错误是可通过在前端服务器上运行的 CDR 代理捕获或从客户端发送。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d188972cfa806b162e8da251af045cc10c84b47d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213121"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901099"
 ---
 # <a name="errorreport-view"></a>ErrorReport 视图
  

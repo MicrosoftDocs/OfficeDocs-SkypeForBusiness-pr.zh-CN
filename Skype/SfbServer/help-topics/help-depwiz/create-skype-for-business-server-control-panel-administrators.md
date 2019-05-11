@@ -1,8 +1,8 @@
 ---
 title: 创建 Skype for Business Server 控制面板管理员
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 向 Skype 授予访问权限的业务服务器 2015年，执行以下操作：
-ms.openlocfilehash: 5d01066da5be34ba53f4eca37d35a3913d07142a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7d4e536eee0741464a28f591b249491d4d528562
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201337"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911098"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  

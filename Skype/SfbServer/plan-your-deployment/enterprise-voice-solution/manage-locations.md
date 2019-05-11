@@ -1,8 +1,8 @@
 ---
 title: 管理 Business Server Skype SIP 中继服务提供商的位置
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 所必需的规划决策位置信息数据库或类似的外部数据库中，对于业务 Server 企业语音的 Skype 中使用 SIP 中继提供商，E9-1-1 部署。
-ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b92d0d13797e50cf4b538b6bd96e304658a7585e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206724"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924169"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>管理 Business Server Skype SIP 中继服务提供商的位置
 
