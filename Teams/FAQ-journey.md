@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams FAQ | 会议、通话功能
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 278e6359c77859a1fc34f9842b78e2b84222191f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868693"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885095"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 从 Skype for Business 升级到 Microsoft Teams
 

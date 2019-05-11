@@ -1,8 +1,8 @@
 ---
 title: AV MCU 设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 要编辑的属性的 a / V 会议服务器池具有已定义的情况下，执行以下操作：
-ms.openlocfilehash: 98ddc2a0907a9971e5bbfc1e72b6aad356960763
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c4d29940519769efd5efe10077a1ab5aa25d171d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227373"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906817"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 设置扩展器
  

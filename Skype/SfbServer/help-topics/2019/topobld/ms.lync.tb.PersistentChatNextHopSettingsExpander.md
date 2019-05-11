@@ -1,8 +1,8 @@
 ---
 title: 持久聊天下一跃点设置扩展器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过从列表中选择一个前端服务器或前端池配置持久聊天下一个跃点池。
-ms.openlocfilehash: a836ffc5b089aea7377a245e9649db031cf3510d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8e1c79b57e43cd7bb922af308e70c0d9fd21acef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235321"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885668"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>持久聊天下一跃点设置扩展器
 

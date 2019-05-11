@@ -1,8 +1,8 @@
 ---
 title: 配置网络站点创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 13d24593909a77888c793cff2199b18019a6efcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 22e930a07cb18ed00401de199867d331c4a46d63
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200813"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913998"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>配置网络站点：创建新的或编辑现有的
 

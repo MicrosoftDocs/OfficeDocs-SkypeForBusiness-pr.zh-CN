@@ -1,8 +1,8 @@
 ---
 title: 发布拓扑选择 CMS 页面
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。
-ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e649629650bfa1fe168698984e3e8b0aaa5d2df4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201691"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888756"
 ---
 # <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页面
  

@@ -1,7 +1,7 @@
 ---
 title: 升级到 Teams - Microsoft Teams
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 12/26/2018
 ms.topic: article
@@ -24,12 +24,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1cace7b33f6697c74d67f9b1882a40bc920d0227
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223067"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920297"
 ---
 # <a name="upgrade-to-teams"></a>升级到 Teams
 

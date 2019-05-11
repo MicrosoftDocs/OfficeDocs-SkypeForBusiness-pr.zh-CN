@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 会议室
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 关于部署 Microsoft 团队聊天室，以及如何部署和管理的系统相关的规划注意事项。
-ms.openlocfilehash: 2a4f22f3520d2d0e27ef0aaf04bfd446da291be9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362614"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916384"
 ---
 <h2>Microsoft Teams 会议室</h2>
 <ul class="panelContent cardsW cols cols2">

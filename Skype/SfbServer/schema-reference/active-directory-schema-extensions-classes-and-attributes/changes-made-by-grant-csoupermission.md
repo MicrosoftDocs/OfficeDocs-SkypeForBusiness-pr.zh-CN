@@ -1,8 +1,8 @@
 ---
 title: Grant-csoupermission Skype 中通过 Business 服务器所做的更改
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 若要委派 Skype 业务服务器管理，可以添加权限到指定组织单位 (Ou)，以便林准备创建 RTC 通用组的成员可以访问 Ou，而无需成为 Domain Admins 组的成员。
-ms.openlocfilehash: 304f5d905f8839224013a2ce674b98405fd9ce8e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7861770572b722c6c4af7d0bea0cf2a7671ba297
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213702"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907110"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Grant-csoupermission Skype 中通过 Business 服务器所做的更改
  

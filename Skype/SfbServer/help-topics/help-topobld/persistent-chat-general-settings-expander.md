@@ -1,8 +1,8 @@
 ---
 title: 持久聊天常规设置扩展器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
-ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 873989177c9830b8fb55ec7b55ba05976a9b10b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219287"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910509"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
  

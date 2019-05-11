@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge Server 下一个跃点
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 边缘池的下一个跃点是前端池 （这可以是企业版池或 Standard Edition server），或者，如果您的部署包括控制器下, 一个跃点是控制器。
-ms.openlocfilehash: d653502ff596be8b77858085f683fd459b0a04d6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b0acf42ca563e68e45f91ca77b745ca526ddb9d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202108"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889057"
 ---
 # <a name="add-edge-server-next-hop"></a>添加 Edge Server 下一个跃点
 

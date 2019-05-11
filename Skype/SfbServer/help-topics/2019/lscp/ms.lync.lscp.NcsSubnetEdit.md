@@ -1,8 +1,8 @@
 ---
 title: 关联子网添加新的或编辑现有的
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 6897ca78a9ea15741c2558433082af81d0d327c0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c923c3aff2af244a6155467bcd28d7e1784b0d0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215260"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891346"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>关联子网：添加新的或编辑现有的
 

@@ -1,8 +1,8 @@
 ---
 title: 规划您的 Skype for Business Server 2015 部署
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/21/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 摘要： 浏览这些链接以了解如何开发概念、 逻辑和物理设计用于配置 Skype 的业务服务器 2015年功能、 服务器和拓扑。
-ms.openlocfilehash: bc0df4bb1cf4c10b915c181f7f76c2586cf001be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 86d1dbbb2c3da5543ed7ffeb3a30ae063dca5fb6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207788"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923315"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>规划您的 Skype for Business Server 2015 部署
  

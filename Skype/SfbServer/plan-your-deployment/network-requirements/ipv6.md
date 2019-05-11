@@ -1,8 +1,8 @@
 ---
 title: 规划 Skype for Business 中的 IPv6
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要： 实现 IPv6 业务服务器安装 Skype 之前。
-ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fa00f769a277ae8ec1ecacae45560b4659082b21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206280"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33905722"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 Skype for Business 中的 IPv6
  
@@ -133,9 +133,9 @@ Skype 业务服务器不支持媒体绕过公用电话交换网 (pstn) 呼叫流
 
 ||**边缘池：IPv4** <br/> |**边缘池：双协议栈** <br/> |**边缘池：IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**前端池：IPv4** <br/> |是   <br/> |是  <br/> |否  <br/> |
-|**前端池：双协议栈** <br/> |是   <br/> |是  <br/> |否  <br/> |
-|**前端池：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**前端池：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
+|**前端池：双协议栈** <br/> |是  <br/> |是  <br/> |否  <br/> |
+|**前端池：IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \*仅在实验室环境中使用此组合。
   
@@ -147,7 +147,7 @@ Skype 业务服务器不支持媒体绕过公用电话交换网 (pstn) 呼叫流
 |:-----|:-----|:-----|:-----|
 |**边缘池（内部边缘）：IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**边缘池（内部边缘）：双协议栈** <br/> |否  <br/> |是  <br/> |否  <br/> |
-|**边缘池（内部边缘）：IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**边缘池（内部边缘）：IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \*仅在实验室环境中使用此组合。
   

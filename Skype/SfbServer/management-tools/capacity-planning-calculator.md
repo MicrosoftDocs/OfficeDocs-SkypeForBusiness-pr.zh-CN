@@ -1,9 +1,10 @@
 ---
 title: Skype for Business Server 容量计划计算器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 2/1/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量计算器工具。
-ms.openlocfilehash: 9ec15c4bdcfee98e2f018a443c84384ebde8aaeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bdf3437ab044b7081d1f9f0ccb5ffa41a41e1545
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217850"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914931"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server 容量计划计算器
  

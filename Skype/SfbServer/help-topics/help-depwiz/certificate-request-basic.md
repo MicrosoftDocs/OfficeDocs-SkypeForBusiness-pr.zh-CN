@@ -1,8 +1,8 @@
 ---
 title: 证书请求（基本）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: 名称和安全设置页上提供了一个文本框以定义一个友好名称，私钥和公钥对和复选框，使您能够将标记为可导出的证书的私钥的位长度的下拉列表。
-ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32652d084c063b5a13c320eab08d7866b07c4d4a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235148"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911252"
 ---
 # <a name="certificate-request-basic"></a>证书请求（基本）
  

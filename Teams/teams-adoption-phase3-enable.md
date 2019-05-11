@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用第 3 阶段 - 扩展
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 896727462b44389e436df68441d6915b57547d01
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b5f53d17f882b8de1066a7622cc258ae21cf3887
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226983"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930409"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 采用第 3 阶段 - 扩展
 

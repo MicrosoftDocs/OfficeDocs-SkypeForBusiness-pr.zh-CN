@@ -1,8 +1,8 @@
 ---
 title: 添加简单 URL
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要将其他简单 Url 添加到部署的定义，指定新的简单 URL 的 URL。
-ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21261bf0704824e986df6211fc95b9a8bf004f9f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201975"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912188"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  

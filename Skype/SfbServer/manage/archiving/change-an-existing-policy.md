@@ -1,8 +1,8 @@
 ---
 title: 更改现有业务服务器存档策略中 Skype
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器。
-ms.openlocfilehash: 66365ea489f0450f0489c03bf0e273731d5526a8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246042"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885000"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有业务服务器存档策略中 Skype
  

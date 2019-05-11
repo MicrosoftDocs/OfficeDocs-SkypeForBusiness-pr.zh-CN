@@ -1,8 +1,8 @@
 ---
 title: SQL 实例范围节点
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 此节点的服务器和池或使用此 SQL Server 的服务器上显示此 Microsoft SQL Server 和 SQL Server 实例的完全限定的域名 (FQDN)。 可以执行以下操作：
-ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb3ee8c1ee4bff5e192e50734e509798cfbf163
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219196"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930796"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 实例范围节点
  

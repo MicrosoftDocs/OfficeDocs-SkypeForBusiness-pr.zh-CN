@@ -1,8 +1,8 @@
 ---
 title: 规划电话拨入式会议中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 电话拨入式会议。
-ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6df8e06ecbbf6da67d34b7b6332ed2f2ca93e50c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214398"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885509"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>规划电话拨入式会议中 Skype 业务服务器
  

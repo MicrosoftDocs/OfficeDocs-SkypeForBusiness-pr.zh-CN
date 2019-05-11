@@ -3,21 +3,22 @@ layout: HubPage
 hide_bc: true
 title: 面向 Microsoft Teams 用户的讲师引导式培训和视频
 ms.reviewer: ''
+manager: serdars
 description: 注册参加讲师引导式课程来全面了解 Microsoft Teams。
 localization_priority: Priority
-author: dearbeen
+author: lanachin
 ms.topic: hub-page
-ms.author: dearbeen
+ms.author: v-lanac
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 268ce97b4c68b19223c0ab102ad8eba40e8c17e9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 74d4757cd6a05f8fa4b05a2a87557318670265a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402274"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921271"
 ---
 <div id="main" class="v2">
     <div class="container">

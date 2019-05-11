@@ -1,8 +1,8 @@
 ---
 title: Media Bypass (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 媒体旁路功能是指从尽可能信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。 更多详细信息，请参阅 Plan for 媒体绕过 Skype for Business 中。
-ms.openlocfilehash: f0045ae5b4124d1135c6d3f771c501e3c35a1dd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 245a6afa7534b75ffa36929419d64254769b94d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220960"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889337"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  

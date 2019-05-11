@@ -1,8 +1,8 @@
 ---
 title: 管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要： 了解如何管理业务服务器中 Skype 电话拨入式会议 PIN 策略。
-ms.openlocfilehash: 29fd3e2fff1628eaa96d7296e8fe9d7b9183d690
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6e6fae1d418bbce4f3183e794cf8af5560226534
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197819"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888084"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 电话拨入式会议 PIN 策略
  

@@ -1,8 +1,8 @@
 ---
 title: 添加监控服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要监控的服务器合并拓扑设计，必须指定要在其部署监控服务器的服务器的完全限定的域名 (FQDN)。 发布包含监控服务器的拓扑和 Skype 业务服务器安装在服务器上之前，您应完成所有必备组件的部署监控。 有关这些先决条件的详细信息，请参阅部署文档中的Deploying Monitoring。
-ms.openlocfilehash: 1bb8cfe2f0e3619c124ababecca5c3c1e2935510
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad369ac1d7481005bb9b4b1c6e8e4c972abac2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220872"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888889"
 ---
 # <a name="add-monitoring-server"></a>添加监控服务器
 

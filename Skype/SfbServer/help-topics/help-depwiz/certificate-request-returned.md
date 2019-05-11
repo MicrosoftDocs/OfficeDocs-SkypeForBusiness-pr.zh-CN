@@ -1,8 +1,8 @@
 ---
 title: 证书请求（已返回）
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/1/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 联机证书请求状态页将显示的重要信息从成功创建和发布的联机证书请求的结果。 此页提供唯一标识证书的证书指纹。 默认情况下，选中分配此证书 Skype 的业务服务器证书用法复选框。 如果单击完成时，证书将自动分配给 Lync Server 2013 的过程创建证书申请的步骤中定义，以便。 默认情况下，将分配证书的目的是：
-ms.openlocfilehash: 61e62216cd582a07b95a51d05033482699ca2f3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bedc5137085a36a296518048e5f0917e60dbe980
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201351"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911084"
 ---
 # <a name="certificate-request-returned"></a>证书请求（已返回）
  

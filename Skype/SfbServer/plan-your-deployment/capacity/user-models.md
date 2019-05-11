@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器中的用户模型
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: 此处所述的用户模型提供规划业务服务器用户模型用法 Skype 基础的容量规划度量与建议容量中所述。
-ms.openlocfilehash: 2e636b41187c862ea866b97ea99f6b0275657557
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0392ea4dc622eaf755dd9ccb5380c93fbd2d261f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228436"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910677"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Skype 业务服务器中的用户模型
  

@@ -1,8 +1,8 @@
 ---
 title: 适合于 Lync Server 2010 的中介服务器常规设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 编辑此对话框中的中介服务器的属性。 左侧为快速链接使您转到设置常规设置、 下一个跃点设置和 PSTN 网关设置一组。 在每个部分包括以下设置：
-ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ed4ed6c1c480417850bbfe194702a04b9e3af75f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200086"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888455"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的中介服务器常规设置扩展器
 

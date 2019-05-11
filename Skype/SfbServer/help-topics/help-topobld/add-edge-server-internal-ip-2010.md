@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge Server 内部 IP 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: 使用此页指定的内部 IP 地址和内部完全限定的域名 (FQDN) 边缘服务器。
-ms.openlocfilehash: 93038c1ac9f376649054d5276532ef8ab18eb3d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: db70b63840012d0828b45398bc51cbe54debd719
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883783"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886337"
 ---
 # <a name="add-edge-server-internal-ip-2010"></a>添加 Edge Server 内部 IP 2010
 

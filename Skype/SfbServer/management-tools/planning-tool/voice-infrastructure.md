@@ -1,8 +1,8 @@
 ---
 title: Voice Infrastructure (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/6/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype 的业务服务器 2015年使用 SIP 中继、 直接 SIP 连接到 PSTN 网关或直接 SIP 连接到 PBX 提供可靠且可扩展的 PSTN 连接。 有关详细信息，请参阅 Plan for Skype 中的 PSTN 连接的业务服务器 2015年。
-ms.openlocfilehash: 2edde6f20edbfa91b652ef2dfdab501a7b753f71
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8ccfeb1d613e6e09c29851ec0a5d279013eae2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222616"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914168"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  

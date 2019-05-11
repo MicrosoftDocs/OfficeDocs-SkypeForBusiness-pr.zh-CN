@@ -1,8 +1,8 @@
 ---
 title: Edge Network (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件属于 Skype 业务服务器中的边缘服务器方案和在外围网络中。 边缘组件包括下列各项：
-ms.openlocfilehash: 0cd49ba3acc1b6943a1fdf9ae8ba8dc1a96727d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b1c97062253099659f8812aa47082a575365670
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221002"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889505"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Skype for Business 中的边缘网络 （规划工具） 
  

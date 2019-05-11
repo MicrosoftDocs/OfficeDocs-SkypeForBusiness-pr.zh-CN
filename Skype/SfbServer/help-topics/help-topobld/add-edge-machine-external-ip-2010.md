@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge 机器外部 IP 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 您可以在此页上，指向访问边缘服务、 Web 会议边缘服务和 A 的外部位置的边缘服务器配置属性 / V 边缘服务。
-ms.openlocfilehash: e37a5c43200d9e9d0bfd992e209e879912409add
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 3114ea5c22623b324095ea3d17b38b3fe7c7ede4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882938"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886513"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>添加 Edge 机器外部 IP 2010
 

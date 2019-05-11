@@ -1,8 +1,8 @@
 ---
 title: 访问边缘配置编辑
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: c82b3385ea124fa7f9d7da02692881973bfa5206
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79c3e4604d605211ef2666fdc861940e5978dcb7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201165"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887235"
 ---
 # <a name="access-edge-configuration-edit"></a>访问边缘配置：编辑
 

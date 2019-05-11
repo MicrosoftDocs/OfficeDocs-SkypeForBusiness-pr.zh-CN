@@ -1,8 +1,8 @@
 ---
 title: 外部应用程序常规设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要编辑已定义的受信任应用程序服务器的属性，请按照以下说明。
-ms.openlocfilehash: a0b25ad3d7570ecb64444821fb0b49b9c65b8e02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fc1a8e567980572e5b58165e156c65ca8030d155
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194061"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885544"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  

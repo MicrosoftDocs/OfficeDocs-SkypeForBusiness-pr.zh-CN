@@ -1,8 +1,8 @@
 ---
 title: Branch Sites (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关分支站点恢复能力的详细信息，请参阅规划分支站点语音恢复能力。
-ms.openlocfilehash: 106018d9942df15eeec522ae592377ee697e9dfc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5e8e7dca5c0f44bb2d5be53b056aa9aec33c1909
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221135"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889596"
 ---
 # <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 

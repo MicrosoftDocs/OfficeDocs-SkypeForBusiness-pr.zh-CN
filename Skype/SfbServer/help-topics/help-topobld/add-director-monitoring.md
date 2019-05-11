@@ -1,8 +1,8 @@
 ---
 title: 添加控制器监控
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 您可以通过配置以下属性中定义监视 SQL Server 存储：
-ms.openlocfilehash: 1c9ad1ffcff2d48f1fcd87dabb23e3b4af984224
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4aae503cea5731705f8d7416b8cb14e02dde28aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890513"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886499"
 ---
 # <a name="add-director-monitoring"></a>添加控制器监控
  

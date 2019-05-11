@@ -1,8 +1,8 @@
 ---
 title: 服务器设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。 可以执行以下操作：
-ms.openlocfilehash: 3e2e2723dc27fbacbb1376290d0622dd3237060b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19a4f5460860ea81d9392972f944d5c1c80ce202
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235439"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885558"
 ---
 # <a name="server-settings-expander"></a>服务器设置扩展器
  

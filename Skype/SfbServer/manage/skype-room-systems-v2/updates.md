@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft 团队房间管理 Windows 更新
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 10/10/2018
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: 为 Microsoft 团队房间管理 Windows 更新
-ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d9374fc00dcb5a19d2c15c91da18ce6c7d353033
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214727"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910303"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 

@@ -1,7 +1,7 @@
 ---
 title: Windows 客户端要求和软件支持
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要： 规划业务 Server Skype 时查看 Windows 客户端支持要求。
-ms.openlocfilehash: fec7996bccddf68fdeb59b8f9e0a185d5c5f18c7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 035a72a34529bcbab771252cf988e03ed5806f51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207221"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886429"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 客户端要求和软件支持
  

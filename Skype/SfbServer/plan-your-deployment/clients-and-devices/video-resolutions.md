@@ -1,8 +1,8 @@
 ---
 title: Skype 业务的客户端视频分辨率
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要： 规划的 Skype 业务 Server 时查看客户端视频要求。
-ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ccd3d342aed39169b0eebd7c2a47b2c51fd6d601
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207235"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886450"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype 业务的客户端视频分辨率
  

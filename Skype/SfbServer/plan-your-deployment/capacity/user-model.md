@@ -1,8 +1,8 @@
 ---
 title: 服务器容量规划用户模型使用情况的 Skype 业务
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文提供的指导您在该站点的用户数针对某个站点需要多少台服务器上根据业务服务器中 Skype User models 中所述的用法。
-ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8d247fbe57e940f5950c0fafeba0a3a54c7983b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228398"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910733"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>服务器容量规划用户模型使用情况的 Skype 业务
 

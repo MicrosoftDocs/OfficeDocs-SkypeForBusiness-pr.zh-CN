@@ -1,8 +1,8 @@
 ---
 title: 用于呼叫质量仪表板 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要： 了解如何使用呼叫质量面板。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 91df986e985a9ccfafd17d3fc082e6786ad52657
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217692"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915008"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>用于呼叫质量仪表板 Skype 业务服务器
  

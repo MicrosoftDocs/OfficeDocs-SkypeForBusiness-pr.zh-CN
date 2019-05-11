@@ -1,8 +1,8 @@
 ---
 title: Locations 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: 每条记录代表一个位置引用中将紧急呼叫，如 E9-1-1 呼叫。
-ms.openlocfilehash: 180a094ef10cc54b4fd65a30adb0909789afa3d6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 389aa56dfaf6d8b732692909ff3375a992b504b6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212999"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930239"
 ---
 # <a name="locations-table-in-skype-for-business-server-2015"></a>Locations 表中的业务服务器 2015 Skype
  

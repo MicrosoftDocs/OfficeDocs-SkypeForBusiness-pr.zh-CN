@@ -1,20 +1,20 @@
 ---
 title: 链接网络区域
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '您可以配置呼叫允许控制 (CAC) 的一部分的两个网络区域之间的链接。 '
-ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 30d4a020826b24c3615ce059809645481466efc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884682"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888350"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 

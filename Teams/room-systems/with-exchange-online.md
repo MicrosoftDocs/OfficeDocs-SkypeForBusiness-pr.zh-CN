@@ -1,7 +1,7 @@
 ---
 title: 部署 Microsoft 团队聊天室与 Exchange Online
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读此主题以获取如何部署与 Exchange Online 的 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: b00a4e09a74cabc7a47879eea3d075220245c704
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 55b62656d5ddf7fdc7a1139f1c4eaf5c055437fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835295"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916266"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>部署 Microsoft 团队聊天室与 Exchange Online
 

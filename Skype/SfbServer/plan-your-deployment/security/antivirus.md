@@ -1,8 +1,8 @@
 ---
 title: 防病毒扫描排除的 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Overview of Business server 防病毒扫描程序与 Skype 的互操作。
-ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 13b6b7af9003a24f0932eb1c61cef8e11326adf1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213667"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888098"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>防病毒扫描排除的 Skype 业务服务器
 

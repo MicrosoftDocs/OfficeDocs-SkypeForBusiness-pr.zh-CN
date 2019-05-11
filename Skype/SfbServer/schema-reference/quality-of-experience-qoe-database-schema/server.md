@@ -1,8 +1,8 @@
 ---
 title: Server 表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: Server 表是一个支持表。 每条记录代表一个服务器。
-ms.openlocfilehash: 877743f5d589cd4fea34039786b33bd410069bb3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c0031e7181bb39895edadc40748f61626621f00e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212107"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920129"
 ---
 # <a name="server-table"></a>Server 表
  

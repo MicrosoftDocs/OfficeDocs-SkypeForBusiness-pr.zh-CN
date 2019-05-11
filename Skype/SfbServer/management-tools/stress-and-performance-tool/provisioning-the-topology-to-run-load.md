@@ -1,9 +1,10 @@
 ---
 title: 设置要在压力和性能的情况下运行负载的拓扑
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 12/17/2015
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 若要允许用户成功运行压力和性能工具业务服务器 2015年拓扑更改或资源调配 Skype。
-ms.openlocfilehash: d578c0391d861a35a0c648ba322cb37053b96635
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 446c8d8154992540ffd8bfe18b07af7c54e864fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875782"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906639"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>设置要在压力和性能的情况下运行负载的拓扑
  

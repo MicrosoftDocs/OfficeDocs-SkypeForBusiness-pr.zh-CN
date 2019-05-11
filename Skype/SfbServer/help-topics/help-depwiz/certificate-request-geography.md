@@ -1,8 +1,8 @@
 ---
 title: 证书请求（地理位置）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 description: 地理信息页上请求证书请求的其他信息。 在此页上，选择国家/地区，然后您类型州/省和市/县在文本框中。 请注意，您不应使用缩写应当清楚完整的省/市/自治区和市/县的名称。
-ms.openlocfilehash: 38d36a7d68b7989dbe91bd02ff297089e400363f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e03d04a9d22f6f632175105534661e1465dd8c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235098"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911133"
 ---
 # <a name="certificate-request-geography"></a>证书请求（地理位置）
  

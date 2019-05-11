@@ -1,8 +1,8 @@
 ---
 title: URL 筛选器创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 57b9cc3da37cd9cd62398b957a97b5cc4c0330a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 53b597d97dc1f27a07b42d3475f82743835ef9fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200469"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912181"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 筛选器：创建新的或编辑现有的
 

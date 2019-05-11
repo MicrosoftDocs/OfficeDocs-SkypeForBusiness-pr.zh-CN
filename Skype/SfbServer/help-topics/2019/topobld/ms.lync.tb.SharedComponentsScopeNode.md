@@ -1,8 +1,8 @@
 ---
 title: 共享组件范围节点
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击共享组件在拓扑生成器层次结构树中，创建新的共享的组件或访问拓扑级别选项。
-ms.openlocfilehash: 68b11a03edb129c0249f3a8816e44eea065a69f3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a5e29a9bf21829b4ce4f37216e1b0ba9505a9d1a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235285"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912048"
 ---
 # <a name="shared-components-scope-node"></a>共享组件范围节点
  

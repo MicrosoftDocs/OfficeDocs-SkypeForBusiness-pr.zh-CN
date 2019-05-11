@@ -1,8 +1,8 @@
 ---
 title: 前端服务器范围节点
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: “Enterprise Edition 前端池”节点列出了此站点中的前端池，“Standard Edition 前端服务器”节点列出了此站点中的 Standard Edition Server。 可以执行以下操作：
-ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e18561e6b065f464255c072908d5cdb6be456cc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32177439"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888651"
 ---
 # <a name="front-end-servers-scope-node"></a>前端服务器范围节点
  

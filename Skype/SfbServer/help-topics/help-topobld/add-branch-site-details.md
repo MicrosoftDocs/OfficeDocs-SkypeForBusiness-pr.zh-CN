@@ -1,8 +1,8 @@
 ---
 title: 添加分支机构详细信息
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 要指定站点的站点详细信息，请执行下列操作：
-ms.openlocfilehash: caba9060f082778e768aac615ea369b02ef0e11f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0c2956a71781531d0de8f21d79e5755010515eca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247315"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886605"
 ---
 # <a name="add-branch-site-details"></a>添加分支机构详细信息
 

@@ -1,8 +1,8 @@
 ---
 title: 中介服务器范围节点
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 此节点显示该中介池的侦听端口和关联的公用电话交换网 (PSTN) 网关。可以执行以下操作：
-ms.openlocfilehash: 192829c24bbfbd8263b2a6cb3263bb88b0da2c39
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29222e208a0a48460c1a4f78848fb489ac042170
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200067"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888882"
 ---
 # <a name="mediation-server-scope-node"></a>中介服务器范围节点
  
