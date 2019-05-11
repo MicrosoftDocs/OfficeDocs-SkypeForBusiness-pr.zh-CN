@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013 范围节点
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器中定义的新 VIS 或视频网关所需的步骤所述联机创建 VIS 池中 Skype 业务服务器。
-ms.openlocfilehash: 0f2c02d31e1cea2e1f569bab6e4cd93c8ec8c4f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bbbddada04f6fffcd8520c1894d2ad47dc9523d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201749"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885580"
 ---
 # <a name="skype-for-business-server-scope-node"></a>Skype 业务服务器范围节点
  
