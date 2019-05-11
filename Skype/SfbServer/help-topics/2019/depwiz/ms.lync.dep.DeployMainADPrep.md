@@ -1,8 +1,8 @@
 ---
 title: 准备 Active Directory
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始 Skype 业务服务器安装，必须准备 Active Directory 域服务架构、 林和域将承载服务器和用户。 Skype 的业务 Server 部署向导将指导您完成准备 Active Directory，开始与架构然后再转换林准备所需的步骤。 确认后 Active Directory 复制已成功，然后准备每个将承载任何用户或服务器的域。
-ms.openlocfilehash: be4d0b6dbd5ee7ff69bdf0a1e354ca5529fdef0b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3a93899cae6abcda1d8cc5705333667ad26eebb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216226"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893642"
 ---
-# <a name="prepare-active-directory"></a><span data-ttu-id="e1244-105">准备 Active Directory</span><span class="sxs-lookup"><span data-stu-id="e1244-105">Prepare Active Directory</span></span>
+# <a name="prepare-active-directory"></a><span data-ttu-id="d57ac-105">准备 Active Directory</span><span class="sxs-lookup"><span data-stu-id="d57ac-105">Prepare Active Directory</span></span>
 
-<span data-ttu-id="e1244-106">若要开始 Skype 业务服务器安装，必须准备 Active Directory 域服务架构、 林和域将承载服务器和用户。</span><span class="sxs-lookup"><span data-stu-id="e1244-106">To begin the installation of Skype for Business Server, you must prepare the Active Directory Domain Services schema, forest, and domains that will host servers and users.</span></span> <span data-ttu-id="e1244-107">Skype 的业务 Server 部署向导将指导您完成准备 Active Directory，开始与架构然后再转换林准备所需的步骤。</span><span class="sxs-lookup"><span data-stu-id="e1244-107">The Skype for Business Server Deployment Wizard will guide you through the steps required to prepare Active Directory, beginning with the schema and then into the forest preparation.</span></span> <span data-ttu-id="e1244-108">确认后 Active Directory 复制已成功，然后准备每个将承载任何用户或服务器的域。</span><span class="sxs-lookup"><span data-stu-id="e1244-108">After confirming that Active Directory replication is successful, you then prepare each domain that will host users or servers.</span></span>
+<span data-ttu-id="d57ac-106">若要开始 Skype 业务服务器安装，必须准备 Active Directory 域服务架构、 林和域将承载服务器和用户。</span><span class="sxs-lookup"><span data-stu-id="d57ac-106">To begin the installation of Skype for Business Server, you must prepare the Active Directory Domain Services schema, forest, and domains that will host servers and users.</span></span> <span data-ttu-id="d57ac-107">Skype 的业务 Server 部署向导将指导您完成准备 Active Directory，开始与架构然后再转换林准备所需的步骤。</span><span class="sxs-lookup"><span data-stu-id="d57ac-107">The Skype for Business Server Deployment Wizard will guide you through the steps required to prepare Active Directory, beginning with the schema and then into the forest preparation.</span></span> <span data-ttu-id="d57ac-108">确认后 Active Directory 复制已成功，然后准备每个将承载任何用户或服务器的域。</span><span class="sxs-lookup"><span data-stu-id="d57ac-108">After confirming that Active Directory replication is successful, you then prepare each domain that will host users or servers.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e1244-p103">要成功准备架构，必须以 Enterprise Admins 组和 Schema Admins 组成员身份登录。要准备林，必须以 Enterprise Admins 组成员身份或以林根中的管理员身份登录。对于域准备，必须以 Domain Admins 组成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="e1244-p103">To successfully prepare the schema, you must be logged in as a member of the Enterprise Admins group and the Schema Admins group. To prepare the forest, you must be logged in as a member of the Enterprise Admins group or logged in as the administrator in the forest root. For domain preparation, you must be logged in as a member of the Domain Admins group.</span></span>
+> <span data-ttu-id="d57ac-p103">要成功准备架构，必须以 Enterprise Admins 组和 Schema Admins 组成员身份登录。要准备林，必须以 Enterprise Admins 组成员身份或以林根中的管理员身份登录。对于域准备，必须以 Domain Admins 组成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="d57ac-p103">To successfully prepare the schema, you must be logged in as a member of the Enterprise Admins group and the Schema Admins group. To prepare the forest, you must be logged in as a member of the Enterprise Admins group or logged in as the administrator in the forest root. For domain preparation, you must be logged in as a member of the Domain Admins group.</span></span>
 
-<span data-ttu-id="e1244-p104">有关支持的 Active Directory 拓扑的详细信息，请参阅可支持性文档中的 [Active Directory Support](https://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx)。有关 Active Directory 准备的详细信息，请参阅部署文档中的 [Overview of Active Directory Domain Services Preparation](https://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e1244-p104">For details about supported Active Directory topologies, see [Active Directory Support](https://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx) in the Supportability documentation. For details about the Active Directory preparation, see [Overview of Active Directory Domain Services Preparation](https://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="d57ac-p104">有关支持的 Active Directory 拓扑的详细信息，请参阅可支持性文档中的 [Active Directory Support](https://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx)。有关 Active Directory 准备的详细信息，请参阅部署文档中的 [Overview of Active Directory Domain Services Preparation](https://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx)。</span><span class="sxs-lookup"><span data-stu-id="d57ac-p104">For details about supported Active Directory topologies, see [Active Directory Support](https://technet.microsoft.com/library/28ed9ac4-586d-4803-ad45-99c4fa793f54.aspx) in the Supportability documentation. For details about the Active Directory preparation, see [Overview of Active Directory Domain Services Preparation](https://technet.microsoft.com/library/cdd2a652-6a0d-4728-9950-3fcaa7a80066.aspx) in the Deployment documentation.</span></span>
 
 
