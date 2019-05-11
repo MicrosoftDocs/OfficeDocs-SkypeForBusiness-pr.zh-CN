@@ -1,8 +1,8 @@
 ---
 title: 为业务 Server 部署中 Skype 的呼叫允许控制
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,33 +14,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: 呼叫允许控制 (CAC) 是一种解决方案，它基于可用带宽确定是否可以建立实时会话，从而有助于防止在拥堵网络上为用户提供的音频/视频质量欠佳。
-ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6ea527bc48f4a61bfe128eb935231200bb88b29f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223139"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892760"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="456ce-103">为业务 Server 部署中 Skype 的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="456ce-103">Deploy call admission control in Skype for Business Server</span></span>
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="65fa1-103">为业务 Server 部署中 Skype 的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="65fa1-103">Deploy call admission control in Skype for Business Server</span></span>
  
-<span data-ttu-id="456ce-104">呼叫允许控制 (CAC) 是一种解决方案，它基于可用带宽确定是否可以建立实时会话，从而有助于防止在拥堵网络上为用户提供的音频/视频质量欠佳。</span><span class="sxs-lookup"><span data-stu-id="456ce-104">Call admission control (CAC) is a solution that determines whether a real-time session can be established based on the available bandwidth to help prevent poor audio/video quality for users on congested networks.</span></span> <span data-ttu-id="456ce-105">有关详细信息，请参阅[规划中的业务服务器 Skype 的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="456ce-105">For more information, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="65fa1-104">呼叫允许控制 (CAC) 是一种解决方案，它基于可用带宽确定是否可以建立实时会话，从而有助于防止在拥堵网络上为用户提供的音频/视频质量欠佳。</span><span class="sxs-lookup"><span data-stu-id="65fa1-104">Call admission control (CAC) is a solution that determines whether a real-time session can be established based on the available bandwidth to help prevent poor audio/video quality for users on congested networks.</span></span> <span data-ttu-id="65fa1-105">有关详细信息，请参阅[规划中的业务服务器 Skype 的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="65fa1-105">For more information, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
-### <a name="to-deploy-call-admission-control"></a><span data-ttu-id="456ce-106">部署呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="456ce-106">To deploy Call Admission Control</span></span>
+### <a name="to-deploy-call-admission-control"></a><span data-ttu-id="65fa1-106">部署呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="65fa1-106">To deploy Call Admission Control</span></span>
 
-1.  <span data-ttu-id="456ce-107">收集有关您企业的网络拓扑，所需的信息的所有中所述[示例： 收集呼叫允许控制 Skype 中的业务服务器的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="456ce-107">Gather all of the required information for your enterprise network topology, as described in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
+1.  <span data-ttu-id="65fa1-107">收集有关您企业的网络拓扑，所需的信息的所有中所述[示例： 收集呼叫允许控制 Skype 中的业务服务器的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="65fa1-107">Gather all of the required information for your enterprise network topology, as described in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
     
-2. <span data-ttu-id="456ce-108">如果还未这样做，就必须定义网络区域和站点，然后将子网与网络站点关联。</span><span class="sxs-lookup"><span data-stu-id="456ce-108">If you have not done so already, you must define network regions and sites, and associate subnets with network sites.</span></span> <span data-ttu-id="456ce-109">有关详细信息，请参阅[Deploy 网络区域、 站点和 Skype for Business 中的子网](deploy-network.md)。</span><span class="sxs-lookup"><span data-stu-id="456ce-109">For details, see [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md).</span></span>
+2. <span data-ttu-id="65fa1-108">如果还未这样做，就必须定义网络区域和站点，然后将子网与网络站点关联。</span><span class="sxs-lookup"><span data-stu-id="65fa1-108">If you have not done so already, you must define network regions and sites, and associate subnets with network sites.</span></span> <span data-ttu-id="65fa1-109">有关详细信息，请参阅[Deploy 网络区域、 站点和 Skype for Business 中的子网](deploy-network.md)。</span><span class="sxs-lookup"><span data-stu-id="65fa1-109">For details, see [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md).</span></span>
     
-3. <span data-ttu-id="456ce-110">创建带宽策略配置文件，按[创建带宽策略配置文件中的业务服务器 Skype](create-bandwidth-policy-profiles.md)中所述</span><span class="sxs-lookup"><span data-stu-id="456ce-110">Create bandwidth policy profiles, as detailed in [Create bandwidth policy profiles in Skype for Business Server](create-bandwidth-policy-profiles.md)</span></span>
+3. <span data-ttu-id="65fa1-110">创建带宽策略配置文件，按[创建带宽策略配置文件中的业务服务器 Skype](create-bandwidth-policy-profiles.md)中所述</span><span class="sxs-lookup"><span data-stu-id="65fa1-110">Create bandwidth policy profiles, as detailed in [Create bandwidth policy profiles in Skype for Business Server](create-bandwidth-policy-profiles.md)</span></span>
     
-4. <span data-ttu-id="456ce-111">创建网络区域链接，如[创建网络区域链接 Skype 业务服务器中的](create-network-region-links.md)所述。</span><span class="sxs-lookup"><span data-stu-id="456ce-111">Create network region links, as detailed in [Create network region links in Skype for Business Server](create-network-region-links.md).</span></span>
+4. <span data-ttu-id="65fa1-111">创建网络区域链接，如[创建网络区域链接 Skype 业务服务器中的](create-network-region-links.md)所述。</span><span class="sxs-lookup"><span data-stu-id="65fa1-111">Create network region links, as detailed in [Create network region links in Skype for Business Server](create-network-region-links.md).</span></span>
     
-5. <span data-ttu-id="456ce-112">创建网络区域间路由，按[创建网络中的业务服务器 Skype 的 interregional 路由](create-network-interregional-routes.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="456ce-112">Create network inter-region routes, as detailed in [Create network interregional routes in Skype for Business Server](create-network-interregional-routes.md).</span></span>
+5. <span data-ttu-id="65fa1-112">创建网络区域间路由，按[创建网络中的业务服务器 Skype 的 interregional 路由](create-network-interregional-routes.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="65fa1-112">Create network inter-region routes, as detailed in [Create network interregional routes in Skype for Business Server](create-network-interregional-routes.md).</span></span>
     
-6. <span data-ttu-id="456ce-113">创建网络站点间策略，详见[Skype 业务服务器中的创建网络站点间策略](create-network-intersite-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="456ce-113">Create network intersite policies, as detailed in [Create network intersite policies in Skype for Business Server](create-network-intersite-policies.md).</span></span>
+6. <span data-ttu-id="65fa1-113">创建网络站点间策略，详见[Skype 业务服务器中的创建网络站点间策略](create-network-intersite-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="65fa1-113">Create network intersite policies, as detailed in [Create network intersite policies in Skype for Business Server](create-network-intersite-policies.md).</span></span>
     
-7. <span data-ttu-id="456ce-114">启用呼叫允许控制，如[启用呼叫允许控制业务服务器 Skype 中的](enable-call-admission-control.md)所述。</span><span class="sxs-lookup"><span data-stu-id="456ce-114">Enable call admission control, as detailed in [Enable call admission control in Skype for Business Server](enable-call-admission-control.md).</span></span>
+7. <span data-ttu-id="65fa1-114">启用呼叫允许控制，如[启用呼叫允许控制业务服务器 Skype 中的](enable-call-admission-control.md)所述。</span><span class="sxs-lookup"><span data-stu-id="65fa1-114">Enable call admission control, as detailed in [Enable call admission control in Skype for Business Server](enable-call-admission-control.md).</span></span>
     
-8. <span data-ttu-id="456ce-115">检查几项最终设置，确保一切设置正确。</span><span class="sxs-lookup"><span data-stu-id="456ce-115">Check a few final settings, to make sure everything is set up correctly.</span></span> <span data-ttu-id="456ce-116">有关详细信息，请参阅[呼叫允许控制部署： 最终清单业务服务器 Skype](final-checklist.md)。</span><span class="sxs-lookup"><span data-stu-id="456ce-116">For details, see [Call admission control deployment: final checklist for Skype for Business Server](final-checklist.md).</span></span>
+8. <span data-ttu-id="65fa1-115">检查几项最终设置，确保一切设置正确。</span><span class="sxs-lookup"><span data-stu-id="65fa1-115">Check a few final settings, to make sure everything is set up correctly.</span></span> <span data-ttu-id="65fa1-116">有关详细信息，请参阅[呼叫允许控制部署： 最终清单业务服务器 Skype](final-checklist.md)。</span><span class="sxs-lookup"><span data-stu-id="65fa1-116">For details, see [Call admission control deployment: final checklist for Skype for Business Server](final-checklist.md).</span></span>
     
 

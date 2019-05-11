@@ -1,8 +1,8 @@
 ---
 title: 删除证书（简介）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在删除证书简介页中，阅读删除证书的含义仔细的信息。 您已阅读此信息后，单击下一步。
-ms.openlocfilehash: cf922ceebab4440356547a64ffb5d19307042c1d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b2b18b0b99f0d0ca1332c1485866c09e2a829a55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216422"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893908"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="4a0e2-104">删除证书（简介）</span><span class="sxs-lookup"><span data-stu-id="4a0e2-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="1e709-104">删除证书（简介）</span><span class="sxs-lookup"><span data-stu-id="1e709-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="4a0e2-105">在**删除证书**简介页中，阅读删除证书的含义仔细的信息。</span><span class="sxs-lookup"><span data-stu-id="4a0e2-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="4a0e2-106">您已阅读此信息后，单击**下一步**以继续。</span><span class="sxs-lookup"><span data-stu-id="4a0e2-106">After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="1e709-105">在**删除证书**简介页中，阅读删除证书的含义仔细的信息。</span><span class="sxs-lookup"><span data-stu-id="1e709-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="1e709-106">您已阅读此信息后，单击**下一步**以继续。</span><span class="sxs-lookup"><span data-stu-id="1e709-106">After you have read this information, click **Next** to continue.</span></span>
   
 

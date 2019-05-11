@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要： 浏览这些链接以了解如何实现业务服务器 2015 Skype。
-ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 38faabfeb22fde3762bbbc606252dfe116ea0417
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899762"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902227"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 

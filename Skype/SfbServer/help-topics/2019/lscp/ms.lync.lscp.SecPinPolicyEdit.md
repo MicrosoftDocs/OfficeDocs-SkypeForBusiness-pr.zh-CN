@@ -1,8 +1,8 @@
 ---
 title: 创建新的或编辑现有的 PIN 策略
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,28 +13,28 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 83d29695879fc5d931d4a8463941efe669d5158b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 09dbe2f0d8e817242c7edb6bf6ac1eb6bde1b486
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215302"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891031"
 ---
-# <a name="pin-policy-create-new-or-edit-existing"></a><span data-ttu-id="b6bef-104">PIN 策略：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="b6bef-104">PIN Policy: Create New or Edit Existing</span></span>
+# <a name="pin-policy-create-new-or-edit-existing"></a><span data-ttu-id="ab00e-104">PIN 策略：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="ab00e-104">PIN Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="b6bef-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="b6bef-105">What do you want to do?</span></span> <span data-ttu-id="b6bef-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="b6bef-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ab00e-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="ab00e-105">What do you want to do?</span></span> <span data-ttu-id="ab00e-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="ab00e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="b6bef-107">为 Business Server Skype 创建新的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="b6bef-107">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
+- [<span data-ttu-id="ab00e-107">为 Business Server Skype 创建新的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="ab00e-107">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [<span data-ttu-id="b6bef-108">修改业务服务器 Skype 中现有的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="b6bef-108">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [<span data-ttu-id="ab00e-108">修改业务服务器 Skype 中现有的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="ab00e-108">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [<span data-ttu-id="b6bef-109">删除业务服务器中 Skype 的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="b6bef-109">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
+- [<span data-ttu-id="ab00e-109">删除业务服务器中 Skype 的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="ab00e-109">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [<span data-ttu-id="b6bef-110">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="b6bef-110">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [<span data-ttu-id="ab00e-110">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="ab00e-110">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [<span data-ttu-id="b6bef-111">Modify the Default Dial-in Conferencing PIN Settings</span><span class="sxs-lookup"><span data-stu-id="b6bef-111">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [<span data-ttu-id="ab00e-111">Modify the Default Dial-in Conferencing PIN Settings</span><span class="sxs-lookup"><span data-stu-id="ab00e-111">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [<span data-ttu-id="b6bef-112">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="b6bef-112">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [<span data-ttu-id="ab00e-112">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="ab00e-112">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

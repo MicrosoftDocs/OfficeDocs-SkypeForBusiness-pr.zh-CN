@@ -1,8 +1,8 @@
 ---
 title: 为业务 Server Skype 的配置存档策略
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,133 +10,133 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 摘要： 阅读本主题可了解如何配置初始存档策略的 Skype 业务 Server 用户。
-ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83b929a01013fa96dbec9742d36d3cec0387d4ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233242"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895908"
 ---
-# <a name="configure-archiving-policies-for-skype-for-business-server"></a><span data-ttu-id="a0ad4-103">为业务 Server Skype 的配置存档策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-103">Configure archiving policies for Skype for Business Server</span></span>
+# <a name="configure-archiving-policies-for-skype-for-business-server"></a><span data-ttu-id="4b1e0-103">为业务 Server Skype 的配置存档策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-103">Configure archiving policies for Skype for Business Server</span></span>
  
-<span data-ttu-id="a0ad4-104">**摘要：** 阅读本主题可了解如何配置初始存档策略的 Skype 业务 Server 用户。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-104">**Summary:** Read this topic to learn how to configure initial archiving policies for Skype for Business Server users.</span></span>
+<span data-ttu-id="4b1e0-104">**摘要：** 阅读本主题可了解如何配置初始存档策略的 Skype 业务 Server 用户。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-104">**Summary:** Read this topic to learn how to configure initial archiving policies for Skype for Business Server users.</span></span>
   
-<span data-ttu-id="a0ad4-105">Skype 业务服务器，在使用策略启用和禁用存档内部通信和外部通信的业务服务器驻留在 Skype 的用户。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-105">In Skype for Business Server, you use policies to enable and disable archiving for internal communications and external communications for users who are homed on Skype for Business Server.</span></span> <span data-ttu-id="a0ad4-106">这包括以下内容：</span><span class="sxs-lookup"><span data-stu-id="a0ad4-106">This includes the following:</span></span>
+<span data-ttu-id="4b1e0-105">Skype 业务服务器，在使用策略启用和禁用存档内部通信和外部通信的业务服务器驻留在 Skype 的用户。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-105">In Skype for Business Server, you use policies to enable and disable archiving for internal communications and external communications for users who are homed on Skype for Business Server.</span></span> <span data-ttu-id="4b1e0-106">这包括以下内容：</span><span class="sxs-lookup"><span data-stu-id="4b1e0-106">This includes the following:</span></span>
   
-- <span data-ttu-id="a0ad4-107">为业务 Server 部署 Skype 时默认创建的全局策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-107">A global policy that is created by default when you deploy Skype for Business Server</span></span>
+- <span data-ttu-id="4b1e0-107">为业务 Server 部署 Skype 时默认创建的全局策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-107">A global policy that is created by default when you deploy Skype for Business Server</span></span>
     
-- <span data-ttu-id="a0ad4-108">指定如何为特定站点实施存档的可选站点级别策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-108">Optional site-level policies that specify how archiving is implemented for a specific site</span></span>
+- <span data-ttu-id="4b1e0-108">指定如何为特定站点实施存档的可选站点级别策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-108">Optional site-level policies that specify how archiving is implemented for a specific site</span></span>
     
-- <span data-ttu-id="a0ad4-109">指定如何实现存档的特定用户的可选用户级别策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-109">Optional user-level policies that specify how archiving is implemented for specific users</span></span>
+- <span data-ttu-id="4b1e0-109">指定如何实现存档的特定用户的可选用户级别策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-109">Optional user-level policies that specify how archiving is implemented for specific users</span></span>
     
-<span data-ttu-id="a0ad4-110">您最初在部署存档时设置存档策略，但您可以在部署后更改、添加和删除策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-110">You initially set up archiving policies when you deploy archiving, but you can change, add, and delete policies after deployment.</span></span> <span data-ttu-id="a0ad4-111">在业务 Server Control Panel 的 Skype，您可以使用**存档策略**页上的**存档和监控**组管理策略在全局、 站点和用户级别。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-111">In Skype for Business Server Control Panel, you can use the **Archiving Policy** page of the **Archiving and Monitoring** group to manage policies at the global, site, and user levels.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="a0ad4-112">为了控制存档的实施，您必须指定选项，如是否存档 IM 或会议、关键模式的使用，以及清除选项。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-112">To control the implementation of archiving, you must specify options, such as whether to archive IM or conferencing, the use of critical mode, and purging options.</span></span> <span data-ttu-id="a0ad4-113">默认情况下，在全局存档配置或任何站点或池存档配置中不会启用任何选项。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-113">By default no options are enabled in the global archiving configuration or any site or pool archiving configuration.</span></span> <span data-ttu-id="a0ad4-114">您应先指定所有适当的选项，然后再针对内部或外部通信启用存档。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-114">You should specify all appropriate options before enabling archiving for internal or external communications.</span></span> <span data-ttu-id="a0ad4-115">有关详细信息，请参阅[配置存档的业务服务器 Skype 选项](configure-archiving-options.md)。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-115">For details, see [Configure archiving options for Skype for Business Server](configure-archiving-options.md).</span></span> 
+<span data-ttu-id="4b1e0-110">您最初在部署存档时设置存档策略，但您可以在部署后更改、添加和删除策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-110">You initially set up archiving policies when you deploy archiving, but you can change, add, and delete policies after deployment.</span></span> <span data-ttu-id="4b1e0-111">在业务 Server Control Panel 的 Skype，您可以使用**存档策略**页上的**存档和监控**组管理策略在全局、 站点和用户级别。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-111">In Skype for Business Server Control Panel, you can use the **Archiving Policy** page of the **Archiving and Monitoring** group to manage policies at the global, site, and user levels.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="a0ad4-116">如果您部署，Exchange 就地保留策略控件上启用 Microsoft Exchange 集成，是否驻留在 Exchange 上的用户启用存档，并且具有其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-116">If you enable Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold.</span></span> 
+> <span data-ttu-id="4b1e0-112">为了控制存档的实施，您必须指定选项，如是否存档 IM 或会议、关键模式的使用，以及清除选项。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-112">To control the implementation of archiving, you must specify options, such as whether to archive IM or conferencing, the use of critical mode, and purging options.</span></span> <span data-ttu-id="4b1e0-113">默认情况下，在全局存档配置或任何站点或池存档配置中不会启用任何选项。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-113">By default no options are enabled in the global archiving configuration or any site or pool archiving configuration.</span></span> <span data-ttu-id="4b1e0-114">您应先指定所有适当的选项，然后再针对内部或外部通信启用存档。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-114">You should specify all appropriate options before enabling archiving for internal or external communications.</span></span> <span data-ttu-id="4b1e0-115">有关详细信息，请参阅[配置存档的业务服务器 Skype 选项](configure-archiving-options.md)。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-115">For details, see [Configure archiving options for Skype for Business Server](configure-archiving-options.md).</span></span> 
   
-<span data-ttu-id="a0ad4-117">有关如何存档策略的详细信息工作，包括的层次结构全局、 站点和用户策略，请参阅[Plan for Business Server 的 Skype 的存档](../../plan-your-deployment/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-117">For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span> <span data-ttu-id="a0ad4-118">有关如何管理的详细信息策略后部署，请参阅[管理 Skype 业务服务器中的存档策略](../../manage/archiving/policies.md)。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-118">For details about how to manage policies after deployment, see [Manage archiving policies in Skype for Business Server](../../manage/archiving/policies.md).</span></span>
+> [!NOTE]
+> <span data-ttu-id="4b1e0-116">如果您部署，Exchange 就地保留策略控件上启用 Microsoft Exchange 集成，是否驻留在 Exchange 上的用户启用存档，并且具有其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-116">If you enable Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold.</span></span> 
   
-## <a name="global-policy"></a><span data-ttu-id="a0ad4-119">全局策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-119">Global policy</span></span>
-
-<span data-ttu-id="a0ad4-120">当您部署前端服务器时，业务服务器 Skype 创建存档的全局策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-120">When you deploy your Front End Servers, Skype for Business Server creates a global policy for archiving.</span></span> <span data-ttu-id="a0ad4-121">默认情况下，将在全局策略中禁用存档。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-121">By default, archiving is disabled in the global policy.</span></span> <span data-ttu-id="a0ad4-122">全局策略控制设置站点或用户策略，覆盖全局策略，除非您的整个部署的内部和外部通信存档启用还是为部分或全部使用 Microsoft Exchange 集成您的用户。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-122">The global policy controls whether archiving is enabled for internal and external communications for your entire deployment, unless you set up site or user policies, which override the global policy, or if you use Microsoft Exchange integration for some or all of your users.</span></span> <span data-ttu-id="a0ad4-123">如果您使用 Microsoft Exchange 集成，全局策略不适用于任何用户驻留在 Exchange 和具有邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-123">If you use Microsoft Exchange integration, the global policy does not apply to any users who are homed on Exchange and have the mailboxes put on In-Place Hold.</span></span>
+<span data-ttu-id="4b1e0-117">有关如何存档策略的详细信息工作，包括的层次结构全局、 站点和用户策略，请参阅[Plan for Business Server 的 Skype 的存档](../../plan-your-deployment/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-117">For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span> <span data-ttu-id="4b1e0-118">有关如何管理的详细信息策略后部署，请参阅[管理 Skype 业务服务器中的存档策略](../../manage/archiving/policies.md)。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-118">For details about how to manage policies after deployment, see [Manage archiving policies in Skype for Business Server](../../manage/archiving/policies.md).</span></span>
   
-### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a><span data-ttu-id="a0ad4-124">配置存档的 Skype Business Server 存档数据库的全局策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-124">Configure the global policy for archiving for Skype for Business Server archiving databases</span></span>
+## <a name="global-policy"></a><span data-ttu-id="4b1e0-119">全局策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-119">Global policy</span></span>
 
-1. <span data-ttu-id="a0ad4-125">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-125">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-    
-2. <span data-ttu-id="a0ad4-126">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-126">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
-    
-3. <span data-ttu-id="a0ad4-127">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-127">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
-    
-4. <span data-ttu-id="a0ad4-128">在“**存档策略**”页上，单击“**全局**”，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-128">On the **Archiving Policy** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
-    
-5. <span data-ttu-id="a0ad4-129">在“**编辑存档策略 - 全局**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="a0ad4-129">In **Edit Archiving Policy - Global**, do the following:</span></span>
-    
-   - <span data-ttu-id="a0ad4-130">在“**名称**”中，如果不想使用全局策略的默认名称 Global，可以为其指定新名称。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-130">In **Name**, if you do not want to use the default name of Global, specify a new name for the global policy.</span></span> 
-    
-   - <span data-ttu-id="a0ad4-131">在**说明**框中，提供有关哪些策略信息 （例如， *divisionname*的全局策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-131">In **Description**, provide information about what the policy is (for example, Global policy for  *divisionName*  .</span></span>
-    
-   - <span data-ttu-id="a0ad4-132">要控制未通过特定站点策略或用户策略控制的所有站点和用户的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-132">To control archiving of internal communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive internal communications** check box.</span></span>
-    
-   - <span data-ttu-id="a0ad4-133">要控制未通过特定站点策略或用户策略控制的所有站点和用户的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-133">To control archiving of external communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive external communications** check box.</span></span>
-    
-6. <span data-ttu-id="a0ad4-134">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-134">Click **Commit**.</span></span>
-    
-## <a name="site-policies"></a><span data-ttu-id="a0ad4-135">站点策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-135">Site policies</span></span>
-
-<span data-ttu-id="a0ad4-136">您可通过为特定站点中的每个站点创建存档策略来启用或禁用这些站点的存档。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-136">You can enable or disable archiving for specific sites by creating an archiving policy for each of those sites.</span></span> <span data-ttu-id="a0ad4-137">站点策略将覆盖全局策略，但用户策略将覆盖站点策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-137">A site policy overrides the global policy, but user policies override site policies.</span></span> <span data-ttu-id="a0ad4-138">存档策略仅适用如果不使用 Microsoft Exchange 集成或者，如果您使用 Microsoft Exchange 集成，但有一些用户未驻留在 Exchange 上并让其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-138">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange and have their mailboxes put on In-Place Hold.</span></span>
+<span data-ttu-id="4b1e0-120">当您部署前端服务器时，业务服务器 Skype 创建存档的全局策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-120">When you deploy your Front End Servers, Skype for Business Server creates a global policy for archiving.</span></span> <span data-ttu-id="4b1e0-121">默认情况下，将在全局策略中禁用存档。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-121">By default, archiving is disabled in the global policy.</span></span> <span data-ttu-id="4b1e0-122">全局策略控制设置站点或用户策略，覆盖全局策略，除非您的整个部署的内部和外部通信存档启用还是为部分或全部使用 Microsoft Exchange 集成您的用户。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-122">The global policy controls whether archiving is enabled for internal and external communications for your entire deployment, unless you set up site or user policies, which override the global policy, or if you use Microsoft Exchange integration for some or all of your users.</span></span> <span data-ttu-id="4b1e0-123">如果您使用 Microsoft Exchange 集成，全局策略不适用于任何用户驻留在 Exchange 和具有邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-123">If you use Microsoft Exchange integration, the global policy does not apply to any users who are homed on Exchange and have the mailboxes put on In-Place Hold.</span></span>
   
-### <a name="create-an-archiving-policy-for-a-site"></a><span data-ttu-id="a0ad4-139">创建站点的存档策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-139">Create an archiving policy for a site</span></span>
+### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a><span data-ttu-id="4b1e0-124">配置存档的 Skype Business Server 存档数据库的全局策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-124">Configure the global policy for archiving for Skype for Business Server archiving databases</span></span>
 
-1. <span data-ttu-id="a0ad4-140">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-140">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="4b1e0-125">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-125">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="a0ad4-141">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-141">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="4b1e0-126">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-126">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="a0ad4-142">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-142">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3. <span data-ttu-id="4b1e0-127">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-127">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-    <span data-ttu-id="a0ad4-143">有关如何存档策略的详细信息工作，包括的层次结构全局、 站点和用户策略，请参阅[Plan for Business Server 的 Skype 的存档](../../plan-your-deployment/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-143">For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span>
+4. <span data-ttu-id="4b1e0-128">在“**存档策略**”页上，单击“**全局**”，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-128">On the **Archiving Policy** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
     
-4. <span data-ttu-id="a0ad4-144">单击“**新建**”，然后单击“**站点策略**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-144">Click **New**, and then click **Site policy**.</span></span>
+5. <span data-ttu-id="4b1e0-129">在“**编辑存档策略 - 全局**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="4b1e0-129">In **Edit Archiving Policy - Global**, do the following:</span></span>
     
-5. <span data-ttu-id="a0ad4-145">在“**选择站点**”中，单击要应用此策略的站点。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-145">In **Select a site**, click the site to which the policy is to be applied.</span></span>
+   - <span data-ttu-id="4b1e0-130">在“**名称**”中，如果不想使用全局策略的默认名称 Global，可以为其指定新名称。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-130">In **Name**, if you do not want to use the default name of Global, specify a new name for the global policy.</span></span> 
     
-6. <span data-ttu-id="a0ad4-146">在“**新建存档策略**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="a0ad4-146">In **New Archiving Policy**, do the following:</span></span>
+   - <span data-ttu-id="4b1e0-131">在**说明**框中，提供有关哪些策略信息 （例如， *divisionname*的全局策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-131">In **Description**, provide information about what the policy is (for example, Global policy for  *divisionName*  .</span></span>
     
-   - <span data-ttu-id="a0ad4-147">在“**名称**”中，指定站点策略的名称。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-147">In **Name**, specify the name for the site policy.</span></span> 
+   - <span data-ttu-id="4b1e0-132">要控制未通过特定站点策略或用户策略控制的所有站点和用户的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-132">To control archiving of internal communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive internal communications** check box.</span></span>
     
-   - <span data-ttu-id="a0ad4-148">在“**说明**”中，提供有关该站点策略内容的信息（例如，Redmond 的站点策略）。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-148">In **Description**, provide information about what the site policy is (for example, site policy for Redmond).</span></span>
+   - <span data-ttu-id="4b1e0-133">要控制未通过特定站点策略或用户策略控制的所有站点和用户的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-133">To control archiving of external communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive external communications** check box.</span></span>
     
-   - <span data-ttu-id="a0ad4-149">若要控制指定站点的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-149">To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.</span></span>
+6. <span data-ttu-id="4b1e0-134">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-134">Click **Commit**.</span></span>
     
-   - <span data-ttu-id="a0ad4-150">若要控制指定站点的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-150">To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.</span></span>
-    
-7. <span data-ttu-id="a0ad4-151">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-151">Click **Commit**.</span></span>
-    
-## <a name="user-policies"></a><span data-ttu-id="a0ad4-152">用户策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-152">User policies</span></span>
+## <a name="site-policies"></a><span data-ttu-id="4b1e0-135">站点策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-135">Site policies</span></span>
 
-<span data-ttu-id="a0ad4-153">通过为用户创建和配置存档策略、然后将该策略应用于特定用户或用户组，可为特定用户启用或禁用存档。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-153">You can enable or disable archiving for specific users by creating and configuring an archiving policy for users, and then applying the policy to specific users or user groups.</span></span> <span data-ttu-id="a0ad4-154">用户策略会覆盖任何全局策略或站点策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-154">User policies override any global policy or site policies.</span></span> <span data-ttu-id="a0ad4-155">存档策略仅适用如果不使用 Microsoft Exchange 集成或者，如果您使用 Microsoft Exchange 集成，但有一些用户未驻留在 Exchange 上并让其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-155">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange and have their mailboxes put on In-Place Hold.</span></span>
+<span data-ttu-id="4b1e0-136">您可通过为特定站点中的每个站点创建存档策略来启用或禁用这些站点的存档。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-136">You can enable or disable archiving for specific sites by creating an archiving policy for each of those sites.</span></span> <span data-ttu-id="4b1e0-137">站点策略将覆盖全局策略，但用户策略将覆盖站点策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-137">A site policy overrides the global policy, but user policies override site policies.</span></span> <span data-ttu-id="4b1e0-138">存档策略仅适用如果不使用 Microsoft Exchange 集成或者，如果您使用 Microsoft Exchange 集成，但有一些用户未驻留在 Exchange 上并让其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-138">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange and have their mailboxes put on In-Place Hold.</span></span>
   
-### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a><span data-ttu-id="a0ad4-156">业务服务器上 Skype 位于用户配置存档策略</span><span class="sxs-lookup"><span data-stu-id="a0ad4-156">Configure an archiving policy for users homed on Skype for Business Server</span></span>
+### <a name="create-an-archiving-policy-for-a-site"></a><span data-ttu-id="4b1e0-139">创建站点的存档策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-139">Create an archiving policy for a site</span></span>
 
-1. <span data-ttu-id="a0ad4-157">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-157">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="4b1e0-140">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-140">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="a0ad4-158">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-158">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="4b1e0-141">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-141">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="a0ad4-159">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-159">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3. <span data-ttu-id="4b1e0-142">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-142">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-4. <span data-ttu-id="a0ad4-160">单击“**新建**”，然后单击“**用户策略**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-160">Click **New**, and then click **User policy**.</span></span>
+    <span data-ttu-id="4b1e0-143">有关如何存档策略的详细信息工作，包括的层次结构全局、 站点和用户策略，请参阅[Plan for Business Server 的 Skype 的存档](../../plan-your-deployment/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-143">For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span>
     
-5. <span data-ttu-id="a0ad4-161">在“**新建存档策略**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="a0ad4-161">In **New Archiving Policy**, do the following:</span></span>
+4. <span data-ttu-id="4b1e0-144">单击“**新建**”，然后单击“**站点策略**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-144">Click **New**, and then click **Site policy**.</span></span>
     
-   - <span data-ttu-id="a0ad4-162">在“**名称**”中，指定用户策略的名称。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-162">In **Name**, specify the name for the user policy.</span></span> 
+5. <span data-ttu-id="4b1e0-145">在“**选择站点**”中，单击要应用此策略的站点。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-145">In **Select a site**, click the site to which the policy is to be applied.</span></span>
     
-   - <span data-ttu-id="a0ad4-163">在“**说明**”中，提供有关该用户策略内容的信息（例如，法律部门的用户策略）。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-163">In **Description**, provide information about what the user policy is (for example, user policy for legal department).</span></span>
+6. <span data-ttu-id="4b1e0-146">在“**新建存档策略**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="4b1e0-146">In **New Archiving Policy**, do the following:</span></span>
     
-   - <span data-ttu-id="a0ad4-164">若要控制用户策略的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-164">To control archiving of internal communications for the user policy, select or clear the **Archive internal communications** check box.</span></span>
+   - <span data-ttu-id="4b1e0-147">在“**名称**”中，指定站点策略的名称。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-147">In **Name**, specify the name for the site policy.</span></span> 
     
-   - <span data-ttu-id="a0ad4-165">若要控制用户策略的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-165">To control archiving of external communications for the user policy, select or clear the **Archive external communications** check box.</span></span>
+   - <span data-ttu-id="4b1e0-148">在“**说明**”中，提供有关该站点策略内容的信息（例如，Redmond 的站点策略）。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-148">In **Description**, provide information about what the site policy is (for example, site policy for Redmond).</span></span>
     
-6. <span data-ttu-id="a0ad4-166">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-166">Click **Commit**.</span></span>
+   - <span data-ttu-id="4b1e0-149">若要控制指定站点的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-149">To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.</span></span>
     
-<span data-ttu-id="a0ad4-167">用户策略仅适用于为其分配策略的用户。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-167">A user policy applies only to users to whom you assign the policy.</span></span>
-### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a><span data-ttu-id="a0ad4-168">Skype 之前应用的存档用户策略的业务服务器</span><span class="sxs-lookup"><span data-stu-id="a0ad4-168">Apply a Skype for Business Server archiving policy to a user</span></span>
+   - <span data-ttu-id="4b1e0-150">若要控制指定站点的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-150">To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.</span></span>
+    
+7. <span data-ttu-id="4b1e0-151">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-151">Click **Commit**.</span></span>
+    
+## <a name="user-policies"></a><span data-ttu-id="4b1e0-152">用户策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-152">User policies</span></span>
 
-1. <span data-ttu-id="a0ad4-169">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-169">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+<span data-ttu-id="4b1e0-153">通过为用户创建和配置存档策略、然后将该策略应用于特定用户或用户组，可为特定用户启用或禁用存档。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-153">You can enable or disable archiving for specific users by creating and configuring an archiving policy for users, and then applying the policy to specific users or user groups.</span></span> <span data-ttu-id="4b1e0-154">用户策略会覆盖任何全局策略或站点策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-154">User policies override any global policy or site policies.</span></span> <span data-ttu-id="4b1e0-155">存档策略仅适用如果不使用 Microsoft Exchange 集成或者，如果您使用 Microsoft Exchange 集成，但有一些用户未驻留在 Exchange 上并让其邮箱置于就地保留。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-155">Archiving policies only apply if you do not use Microsoft Exchange integration or, if you do use Microsoft Exchange integration, but have some users who are not homed on Exchange and have their mailboxes put on In-Place Hold.</span></span>
+  
+### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a><span data-ttu-id="4b1e0-156">业务服务器上 Skype 位于用户配置存档策略</span><span class="sxs-lookup"><span data-stu-id="4b1e0-156">Configure an archiving policy for users homed on Skype for Business Server</span></span>
+
+1. <span data-ttu-id="4b1e0-157">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-157">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="a0ad4-170">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-170">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="4b1e0-158">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-158">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="a0ad4-171">在左侧导航栏中，单击“**用户**”，然后搜索要配置的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-171">In the left navigation bar, click **Users**, and then search for the user account that you want to configure.</span></span>
+3. <span data-ttu-id="4b1e0-159">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-159">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-4. <span data-ttu-id="a0ad4-172">在列出搜索结果的表中，单击相应的用户帐户，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-172">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4. <span data-ttu-id="4b1e0-160">单击“**新建**”，然后单击“**用户策略**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-160">Click **New**, and then click **User policy**.</span></span>
     
-5. <span data-ttu-id="a0ad4-173">在**存档策略**下的**企业服务器用户编辑 Skype**中，选择要应用的存档用户策略。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-173">In **Edit Skype for Business Server user** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
+5. <span data-ttu-id="4b1e0-161">在“**新建存档策略**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="4b1e0-161">In **New Archiving Policy**, do the following:</span></span>
+    
+   - <span data-ttu-id="4b1e0-162">在“**名称**”中，指定用户策略的名称。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-162">In **Name**, specify the name for the user policy.</span></span> 
+    
+   - <span data-ttu-id="4b1e0-163">在“**说明**”中，提供有关该用户策略内容的信息（例如，法律部门的用户策略）。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-163">In **Description**, provide information about what the user policy is (for example, user policy for legal department).</span></span>
+    
+   - <span data-ttu-id="4b1e0-164">若要控制用户策略的内部通信存档，请选中或清除“**存档内部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-164">To control archiving of internal communications for the user policy, select or clear the **Archive internal communications** check box.</span></span>
+    
+   - <span data-ttu-id="4b1e0-165">若要控制用户策略的外部通信存档，请选中或清除“**存档外部通信**”复选框。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-165">To control archiving of external communications for the user policy, select or clear the **Archive external communications** check box.</span></span>
+    
+6. <span data-ttu-id="4b1e0-166">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-166">Click **Commit**.</span></span>
+    
+<span data-ttu-id="4b1e0-167">用户策略仅适用于为其分配策略的用户。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-167">A user policy applies only to users to whom you assign the policy.</span></span>
+### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a><span data-ttu-id="4b1e0-168">Skype 之前应用的存档用户策略的业务服务器</span><span class="sxs-lookup"><span data-stu-id="4b1e0-168">Apply a Skype for Business Server archiving policy to a user</span></span>
+
+1. <span data-ttu-id="4b1e0-169">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-169">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+    
+2. <span data-ttu-id="4b1e0-170">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-170">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+    
+3. <span data-ttu-id="4b1e0-171">在左侧导航栏中，单击“**用户**”，然后搜索要配置的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-171">In the left navigation bar, click **Users**, and then search for the user account that you want to configure.</span></span>
+    
+4. <span data-ttu-id="4b1e0-172">在列出搜索结果的表中，单击相应的用户帐户，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-172">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+    
+5. <span data-ttu-id="4b1e0-173">在**存档策略**下的**企业服务器用户编辑 Skype**中，选择要应用的存档用户策略。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-173">In **Edit Skype for Business Server user** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="a0ad4-174">**\<自动\>** 设置应用默认服务器安装设置。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-174">The **\<Automatic\>** settings apply the default server installation settings.</span></span> <span data-ttu-id="a0ad4-175">服务器将自动应用这些设置。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-175">These settings are applied automatically by the server.</span></span>
+    > <span data-ttu-id="4b1e0-174">**\<自动\>** 设置应用默认服务器安装设置。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-174">The **\<Automatic\>** settings apply the default server installation settings.</span></span> <span data-ttu-id="4b1e0-175">服务器将自动应用这些设置。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-175">These settings are applied automatically by the server.</span></span>
   
-6. <span data-ttu-id="a0ad4-176">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="a0ad4-176">Click **Commit**.</span></span>
+6. <span data-ttu-id="4b1e0-176">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="4b1e0-176">Click **Commit**.</span></span>
     
 
