@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器部署中 Skype 的高级的企业语音功能
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,33 +14,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: 为业务 Server 部署中 Skype 的高级的企业语音功能。
-ms.openlocfilehash: 3570082b6e4c93a238967c538a30afb3f6ae0f3c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e4240fba99aaff0e1eaec046a9e0c6e30922d42d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223146"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892767"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="14e42-103">为业务服务器部署中 Skype 的高级的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="14e42-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="c694b-103">为业务服务器部署中 Skype 的高级的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="c694b-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
  
-<span data-ttu-id="14e42-104">为业务 Server 部署中 Skype 的高级的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="14e42-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
+<span data-ttu-id="c694b-104">为业务 Server 部署中 Skype 的高级的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="c694b-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
   
-<span data-ttu-id="14e42-105">为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="14e42-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
+<span data-ttu-id="c694b-105">为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="c694b-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
   
-- [<span data-ttu-id="14e42-106">规划媒体绕过 Skype for Business 中</span><span class="sxs-lookup"><span data-stu-id="14e42-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [<span data-ttu-id="c694b-106">规划媒体绕过 Skype for Business 中</span><span class="sxs-lookup"><span data-stu-id="c694b-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [<span data-ttu-id="14e42-107">规划呼叫允许控制 Skype 中的业务服务器</span><span class="sxs-lookup"><span data-stu-id="14e42-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [<span data-ttu-id="c694b-107">规划呼叫允许控制 Skype 中的业务服务器</span><span class="sxs-lookup"><span data-stu-id="c694b-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [<span data-ttu-id="14e42-108">规划业务服务器中 Skype 的紧急服务</span><span class="sxs-lookup"><span data-stu-id="14e42-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [<span data-ttu-id="c694b-108">规划业务服务器中 Skype 的紧急服务</span><span class="sxs-lookup"><span data-stu-id="c694b-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
-## <a name="in-this-section"></a><span data-ttu-id="14e42-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="14e42-109">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c694b-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="c694b-109">In this section</span></span>
 
-- [<span data-ttu-id="14e42-110">部署网络区域、 站点和 Skype for Business 中的子网</span><span class="sxs-lookup"><span data-stu-id="14e42-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
+- [<span data-ttu-id="c694b-110">部署网络区域、 站点和 Skype for Business 中的子网</span><span class="sxs-lookup"><span data-stu-id="c694b-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
     
-- [<span data-ttu-id="14e42-111">为业务服务器部署中 Skype 的媒体绕过</span><span class="sxs-lookup"><span data-stu-id="14e42-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
+- [<span data-ttu-id="c694b-111">为业务服务器部署中 Skype 的媒体绕过</span><span class="sxs-lookup"><span data-stu-id="c694b-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
     
-- [<span data-ttu-id="14e42-112">为业务 Server 部署中 Skype 的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="14e42-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
+- [<span data-ttu-id="c694b-112">为业务 Server 部署中 Skype 的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="c694b-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
     
-- [<span data-ttu-id="14e42-113">为业务服务器部署中 Skype 的紧急服务</span><span class="sxs-lookup"><span data-stu-id="14e42-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
+- [<span data-ttu-id="c694b-113">为业务服务器部署中 Skype 的紧急服务</span><span class="sxs-lookup"><span data-stu-id="c694b-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
     
 

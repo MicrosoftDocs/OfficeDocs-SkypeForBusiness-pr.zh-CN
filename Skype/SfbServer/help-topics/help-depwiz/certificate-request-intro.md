@@ -1,8 +1,8 @@
 ---
 title: 证书请求（简介）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: 若要继续与证书请求过程中，单击下一步。 要退出到系统不更改的过程，请单击取消。
-ms.openlocfilehash: e26eb313f272c0aa9a3d4133e5d3f23ade975e9f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b1dd46a7b731441e2dcdffc76df881621ca2862d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235105"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911168"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="26597-104">证书请求（简介）</span><span class="sxs-lookup"><span data-stu-id="26597-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="9c056-104">证书请求（简介）</span><span class="sxs-lookup"><span data-stu-id="9c056-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="26597-105">若要继续与证书请求过程中，单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="26597-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="26597-106">要退出到系统不更改的过程，请单击**取消**。</span><span class="sxs-lookup"><span data-stu-id="26597-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="9c056-105">若要继续与证书请求过程中，单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="9c056-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="9c056-106">要退出到系统不更改的过程，请单击**取消**。</span><span class="sxs-lookup"><span data-stu-id="9c056-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: Feature Overview (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/6/2016
 ms.audience: ITPro
@@ -14,164 +14,164 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype for Business Server 2015 规划工具
-ms.openlocfilehash: 5cd0b2f4cef61edf58fd7bff692f697df0f78f7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19f84f9d20ade5f4f7bd8bac1395d3d2070f65d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217304"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929572"
 ---
-# <a name="feature-overview-planning-tool"></a><span data-ttu-id="468bc-103">Feature Overview (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="468bc-103">Feature Overview (Planning Tool)</span></span>
+# <a name="feature-overview-planning-tool"></a><span data-ttu-id="8c37c-103">Feature Overview (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8c37c-103">Feature Overview (Planning Tool)</span></span>
  
-<span data-ttu-id="468bc-104">Skype for Business Server 2015 规划工具</span><span class="sxs-lookup"><span data-stu-id="468bc-104">Skype for Business Server 2015 Planning Tool</span></span>
+<span data-ttu-id="8c37c-104">Skype for Business Server 2015 规划工具</span><span class="sxs-lookup"><span data-stu-id="8c37c-104">Skype for Business Server 2015 Planning Tool</span></span>
   
-<span data-ttu-id="468bc-105">您可以使用**中央站点**页上的规划工具设计业务服务器部署 Skype。</span><span class="sxs-lookup"><span data-stu-id="468bc-105">You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment.</span></span> <span data-ttu-id="468bc-106">可以创建两个集中或分布式部署。</span><span class="sxs-lookup"><span data-stu-id="468bc-106">You can create two either a centralized or distributed deployment.</span></span> <span data-ttu-id="468bc-107">集中的部署只有一个中央站点，哪些用户的组织中的业务用户的所有 Skype 的都这些。</span><span class="sxs-lookup"><span data-stu-id="468bc-107">A centralized deployment only has one central site, which homes all Skype for Business users in your organization.</span></span> <span data-ttu-id="468bc-108">分布式部署有多个中央站点。</span><span class="sxs-lookup"><span data-stu-id="468bc-108">A distributed deployment has more than one central site.</span></span> <span data-ttu-id="468bc-109">如果您的业务 Server 上的多个中央站点部署 Skype，然后将规划工具中输入每个中央站点的用户的数。</span><span class="sxs-lookup"><span data-stu-id="468bc-109">If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.</span></span>
+<span data-ttu-id="8c37c-105">您可以使用**中央站点**页上的规划工具设计业务服务器部署 Skype。</span><span class="sxs-lookup"><span data-stu-id="8c37c-105">You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment.</span></span> <span data-ttu-id="8c37c-106">可以创建两个集中或分布式部署。</span><span class="sxs-lookup"><span data-stu-id="8c37c-106">You can create two either a centralized or distributed deployment.</span></span> <span data-ttu-id="8c37c-107">集中的部署只有一个中央站点，哪些用户的组织中的业务用户的所有 Skype 的都这些。</span><span class="sxs-lookup"><span data-stu-id="8c37c-107">A centralized deployment only has one central site, which homes all Skype for Business users in your organization.</span></span> <span data-ttu-id="8c37c-108">分布式部署有多个中央站点。</span><span class="sxs-lookup"><span data-stu-id="8c37c-108">A distributed deployment has more than one central site.</span></span> <span data-ttu-id="8c37c-109">如果您的业务 Server 上的多个中央站点部署 Skype，然后将规划工具中输入每个中央站点的用户的数。</span><span class="sxs-lookup"><span data-stu-id="8c37c-109">If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.</span></span>
   
-<span data-ttu-id="468bc-110">为了完成中央站点的定义，您首先需要提供以下信息：</span><span class="sxs-lookup"><span data-stu-id="468bc-110">To complete the definition of the central site, you first need to provide the following information:</span></span>
+<span data-ttu-id="8c37c-110">为了完成中央站点的定义，您首先需要提供以下信息：</span><span class="sxs-lookup"><span data-stu-id="8c37c-110">To complete the definition of the central site, you first need to provide the following information:</span></span>
   
-- <span data-ttu-id="468bc-111">**站点名** 输入中央站点的名称。</span><span class="sxs-lookup"><span data-stu-id="468bc-111">**Site Name** Enter the name of the Central Site.</span></span>
+- <span data-ttu-id="8c37c-111">**站点名** 输入中央站点的名称。</span><span class="sxs-lookup"><span data-stu-id="8c37c-111">**Site Name** Enter the name of the Central Site.</span></span>
     
-- <span data-ttu-id="468bc-112">**用户数** 输入用户数，包括驻留在中央站点的分支站点用户。</span><span class="sxs-lookup"><span data-stu-id="468bc-112">**Number of Users** Enter the number of users, including users at branch sites who are homed into the central site.</span></span>
+- <span data-ttu-id="8c37c-112">**用户数** 输入用户数，包括驻留在中央站点的分支站点用户。</span><span class="sxs-lookup"><span data-stu-id="8c37c-112">**Number of Users** Enter the number of users, including users at branch sites who are homed into the central site.</span></span>
     
-- <span data-ttu-id="468bc-113">**云托管用户**输入驻留的用户数到管理中心网站从 Skype 业务联机。</span><span class="sxs-lookup"><span data-stu-id="468bc-113">**Cloud Homed Users** Enter the number of users that are homed into the central site from Skype for Business Online.</span></span>
+- <span data-ttu-id="8c37c-113">**云托管用户**输入驻留的用户数到管理中心网站从 Skype 业务联机。</span><span class="sxs-lookup"><span data-stu-id="8c37c-113">**Cloud Homed Users** Enter the number of users that are homed into the central site from Skype for Business Online.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="468bc-114">此工具不将 Skype 的业务服务器 2019年的更新。</span><span class="sxs-lookup"><span data-stu-id="468bc-114">This tool will not be updated for Skype for Business Server 2019.</span></span>
+> <span data-ttu-id="8c37c-114">此工具不将 Skype 的业务服务器 2019年的更新。</span><span class="sxs-lookup"><span data-stu-id="8c37c-114">This tool will not be updated for Skype for Business Server 2019.</span></span>
 
-## <a name="ui-elements"></a><span data-ttu-id="468bc-115">UI 元素</span><span class="sxs-lookup"><span data-stu-id="468bc-115">UI Elements</span></span>
+## <a name="ui-elements"></a><span data-ttu-id="8c37c-115">UI 元素</span><span class="sxs-lookup"><span data-stu-id="8c37c-115">UI Elements</span></span>
 
-<span data-ttu-id="468bc-116">其余元素要么已经由你在“**入门**”向导中提供的问题答案填充，要么由规划工具自动填充（如果你跳过了该向导）。</span><span class="sxs-lookup"><span data-stu-id="468bc-116">The remaining elements have either been populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.</span></span>
+<span data-ttu-id="8c37c-116">其余元素要么已经由你在“**入门**”向导中提供的问题答案填充，要么由规划工具自动填充（如果你跳过了该向导）。</span><span class="sxs-lookup"><span data-stu-id="8c37c-116">The remaining elements have either been populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.</span></span>
   
-### <a name="online-collaboration"></a><span data-ttu-id="468bc-117">联机协作</span><span class="sxs-lookup"><span data-stu-id="468bc-117">Online Collaboration</span></span>
+### <a name="online-collaboration"></a><span data-ttu-id="8c37c-117">联机协作</span><span class="sxs-lookup"><span data-stu-id="8c37c-117">Online Collaboration</span></span>
 
- <span data-ttu-id="468bc-118">“**联机协作**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="468bc-118">**Online Collaboration** contains the following options:</span></span>
+ <span data-ttu-id="8c37c-118">“**联机协作**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="8c37c-118">**Online Collaboration** contains the following options:</span></span>
   
-- <span data-ttu-id="468bc-119">**IM 和状态**</span><span class="sxs-lookup"><span data-stu-id="468bc-119">**IM and Presence**</span></span>
+- <span data-ttu-id="8c37c-119">**IM 和状态**</span><span class="sxs-lookup"><span data-stu-id="8c37c-119">**IM and Presence**</span></span>
     
-    <span data-ttu-id="468bc-120">即时消息 (IM) 使用户能够使用基于文本的消息在其计算机上实时相互通信。</span><span class="sxs-lookup"><span data-stu-id="468bc-120">Instant Messaging (IM) enables users to communicate with each other in real time on their computers using text-based messages.</span></span> <span data-ttu-id="468bc-121">支持两方和多方 IM 会话。</span><span class="sxs-lookup"><span data-stu-id="468bc-121">Both two-party and multiparty IM sessions are supported.</span></span> <span data-ttu-id="468bc-122">状态向用户提供网络上其他人的状态信息。</span><span class="sxs-lookup"><span data-stu-id="468bc-122">Presence provides information to users about the status of others on the network.</span></span> <span data-ttu-id="468bc-123">用户的状态提供信息以帮助其他人确定用户是否联机以及如何以最佳联系该用户。</span><span class="sxs-lookup"><span data-stu-id="468bc-123">A user's presence status provides information to help others determine whether the user is online and how to best contact the user.</span></span> <span data-ttu-id="468bc-124">例如，最好通过电子邮件与正在开会的用户联系。</span><span class="sxs-lookup"><span data-stu-id="468bc-124">For example, a user who is in a meeting is best contacted by email.</span></span>
+    <span data-ttu-id="8c37c-120">即时消息 (IM) 使用户能够使用基于文本的消息在其计算机上实时相互通信。</span><span class="sxs-lookup"><span data-stu-id="8c37c-120">Instant Messaging (IM) enables users to communicate with each other in real time on their computers using text-based messages.</span></span> <span data-ttu-id="8c37c-121">支持两方和多方 IM 会话。</span><span class="sxs-lookup"><span data-stu-id="8c37c-121">Both two-party and multiparty IM sessions are supported.</span></span> <span data-ttu-id="8c37c-122">状态向用户提供网络上其他人的状态信息。</span><span class="sxs-lookup"><span data-stu-id="8c37c-122">Presence provides information to users about the status of others on the network.</span></span> <span data-ttu-id="8c37c-123">用户的状态提供信息以帮助其他人确定用户是否联机以及如何以最佳联系该用户。</span><span class="sxs-lookup"><span data-stu-id="8c37c-123">A user's presence status provides information to help others determine whether the user is online and how to best contact the user.</span></span> <span data-ttu-id="8c37c-124">例如，最好通过电子邮件与正在开会的用户联系。</span><span class="sxs-lookup"><span data-stu-id="8c37c-124">For example, a user who is in a meeting is best contacted by email.</span></span>
     
-- <span data-ttu-id="468bc-125">**音频和视频会议**</span><span class="sxs-lookup"><span data-stu-id="468bc-125">**Audio and Video Conferencing**</span></span>
+- <span data-ttu-id="8c37c-125">**音频和视频会议**</span><span class="sxs-lookup"><span data-stu-id="8c37c-125">**Audio and Video Conferencing**</span></span>
     
-    <span data-ttu-id="468bc-126">音频/视频 (A/V) 会议实现实时音频和视频会议。</span><span class="sxs-lookup"><span data-stu-id="468bc-126">Audio/Video (A/V) conferencing enables real-time audio and video conferences.</span></span>
+    <span data-ttu-id="8c37c-126">音频/视频 (A/V) 会议实现实时音频和视频会议。</span><span class="sxs-lookup"><span data-stu-id="8c37c-126">Audio/Video (A/V) conferencing enables real-time audio and video conferences.</span></span>
     
-- <span data-ttu-id="468bc-127">**电话拨入式会议**</span><span class="sxs-lookup"><span data-stu-id="468bc-127">**Dial-in Conferencing**</span></span>
+- <span data-ttu-id="8c37c-127">**电话拨入式会议**</span><span class="sxs-lookup"><span data-stu-id="8c37c-127">**Dial-in Conferencing**</span></span>
     
-    <span data-ttu-id="468bc-p103">拨入式会议使用户能够从 PSTN 上的电话加入 A/V 会议。拨入式会议需要您部署会议助理和会议公告服务应用程序。</span><span class="sxs-lookup"><span data-stu-id="468bc-p103">Dial-in conferencing enables users to join an A/V from a telephone on the PSTN. Dial-in conferencing requires that you deploy the Conferencing Attendant and Conferencing Announcement Service applications.</span></span>
+    <span data-ttu-id="8c37c-p103">拨入式会议使用户能够从 PSTN 上的电话加入 A/V 会议。拨入式会议需要您部署会议助理和会议公告服务应用程序。</span><span class="sxs-lookup"><span data-stu-id="8c37c-p103">Dial-in conferencing enables users to join an A/V from a telephone on the PSTN. Dial-in conferencing requires that you deploy the Conferencing Attendant and Conferencing Announcement Service applications.</span></span>
     
-- <span data-ttu-id="468bc-130">**Web 会议**</span><span class="sxs-lookup"><span data-stu-id="468bc-130">**Web Conferencing**</span></span>
+- <span data-ttu-id="8c37c-130">**Web 会议**</span><span class="sxs-lookup"><span data-stu-id="8c37c-130">**Web Conferencing**</span></span>
     
-    <span data-ttu-id="468bc-131">Web 会议使防火墙内部和外部的企业用户能够创建和加入在内部服务器上召开的实时会议。</span><span class="sxs-lookup"><span data-stu-id="468bc-131">Web conferencing enables enterprise users inside and outside of the firewall to create and join real-time conferences that are hosted on your internal servers.</span></span>
+    <span data-ttu-id="8c37c-131">Web 会议使防火墙内部和外部的企业用户能够创建和加入在内部服务器上召开的实时会议。</span><span class="sxs-lookup"><span data-stu-id="8c37c-131">Web conferencing enables enterprise users inside and outside of the firewall to create and join real-time conferences that are hosted on your internal servers.</span></span>
     
-- <span data-ttu-id="468bc-132">**持久聊天**</span><span class="sxs-lookup"><span data-stu-id="468bc-132">**Persistent Chat**</span></span>
+- <span data-ttu-id="8c37c-132">**持久聊天**</span><span class="sxs-lookup"><span data-stu-id="8c37c-132">**Persistent Chat**</span></span>
     
-    <span data-ttu-id="468bc-p104">通过持久聊天，多个用户可以参与可在其中发布和访问有关特定主题的内容（包括文本、链接和文件）的对话。尽管在会话过程中用户可以实时通信，但每个会话的内容都是持久存在的，这意味着在会话结束后，内容仍然可用。</span><span class="sxs-lookup"><span data-stu-id="468bc-p104">Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.</span></span>
+    <span data-ttu-id="8c37c-p104">通过持久聊天，多个用户可以参与可在其中发布和访问有关特定主题的内容（包括文本、链接和文件）的对话。尽管在会话过程中用户可以实时通信，但每个会话的内容都是持久存在的，这意味着在会话结束后，内容仍然可用。</span><span class="sxs-lookup"><span data-stu-id="8c37c-p104">Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.</span></span>
     
-### <a name="users"></a><span data-ttu-id="468bc-135">用户</span><span class="sxs-lookup"><span data-stu-id="468bc-135">Users</span></span>
+### <a name="users"></a><span data-ttu-id="8c37c-135">用户</span><span class="sxs-lookup"><span data-stu-id="8c37c-135">Users</span></span>
 
- <span data-ttu-id="468bc-136">“**用户**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="468bc-136">**Users** contains the following options:</span></span>
+ <span data-ttu-id="8c37c-136">“**用户**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="8c37c-136">**Users** contains the following options:</span></span>
   
-- <span data-ttu-id="468bc-137">**内部组织**</span><span class="sxs-lookup"><span data-stu-id="468bc-137">**Internal organization**</span></span>
+- <span data-ttu-id="8c37c-137">**内部组织**</span><span class="sxs-lookup"><span data-stu-id="8c37c-137">**Internal organization**</span></span>
     
-- <span data-ttu-id="468bc-138">**与其他组织的联盟**</span><span class="sxs-lookup"><span data-stu-id="468bc-138">**Federation with other organizations**</span></span>
+- <span data-ttu-id="8c37c-138">**与其他组织的联盟**</span><span class="sxs-lookup"><span data-stu-id="8c37c-138">**Federation with other organizations**</span></span>
     
-- <span data-ttu-id="468bc-139">**与以前版本的联盟**</span><span class="sxs-lookup"><span data-stu-id="468bc-139">**Federation with previous versions**</span></span>
+- <span data-ttu-id="8c37c-139">**与以前版本的联盟**</span><span class="sxs-lookup"><span data-stu-id="8c37c-139">**Federation with previous versions**</span></span>
     
-- <span data-ttu-id="468bc-p105">**与公共 IM 服务提供商的联盟** 允许组织中的用户与公共即时消息服务提供商（如 MSN、Yahoo! 和 AOL）建立通信。与公共即时消息网络建立联盟需要单独的许可证。</span><span class="sxs-lookup"><span data-stu-id="468bc-p105">**Federation with public IM services providers** Allows users in your organization to establish communication with public instant messaging service providers such as MSN, Yahoo!, and AOL. A separate license is required to establish federation with public instant messaging networks.</span></span>
+- <span data-ttu-id="8c37c-p105">**与公共 IM 服务提供商的联盟** 允许组织中的用户与公共即时消息服务提供商（如 MSN、Yahoo! 和 AOL）建立通信。与公共即时消息网络建立联盟需要单独的许可证。</span><span class="sxs-lookup"><span data-stu-id="8c37c-p105">**Federation with public IM services providers** Allows users in your organization to establish communication with public instant messaging service providers such as MSN, Yahoo!, and AOL. A separate license is required to establish federation with public instant messaging networks.</span></span>
     
-- <span data-ttu-id="468bc-142">**与基于 XMPP 的服务提供商的联盟**</span><span class="sxs-lookup"><span data-stu-id="468bc-142">**Federation with XMPP-based service provider**</span></span>
+- <span data-ttu-id="8c37c-142">**与基于 XMPP 的服务提供商的联盟**</span><span class="sxs-lookup"><span data-stu-id="8c37c-142">**Federation with XMPP-based service provider**</span></span>
     
-    <span data-ttu-id="468bc-143">Skype 的业务服务器 2015年引入了 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。</span><span class="sxs-lookup"><span data-stu-id="468bc-143">Skype for Business Server 2015 introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers.</span></span> <span data-ttu-id="468bc-144">您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务服务器 2015年用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。</span><span class="sxs-lookup"><span data-stu-id="468bc-144">You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server 2015 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.</span></span>
+    <span data-ttu-id="8c37c-143">Skype 的业务服务器 2015年引入了 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。</span><span class="sxs-lookup"><span data-stu-id="8c37c-143">Skype for Business Server 2015 introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers.</span></span> <span data-ttu-id="8c37c-144">您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务服务器 2015年用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。</span><span class="sxs-lookup"><span data-stu-id="8c37c-144">You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server 2015 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="468bc-145">XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="468bc-145">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="468bc-146">有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="468bc-146">See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
+> <span data-ttu-id="8c37c-145">XMPP 网关和代理中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。</span><span class="sxs-lookup"><span data-stu-id="8c37c-145">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="8c37c-146">有关详细信息，请参阅[迁移 XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="8c37c-146">See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
     
-- <span data-ttu-id="468bc-147">**移动性**</span><span class="sxs-lookup"><span data-stu-id="468bc-147">**Mobility**</span></span>
+- <span data-ttu-id="8c37c-147">**移动性**</span><span class="sxs-lookup"><span data-stu-id="8c37c-147">**Mobility**</span></span>
     
-    <span data-ttu-id="468bc-148">在部署 Skype 的业务服务器 2015 Mobility Service 时，用户可以使用支持的 Apple iOS、 Android、 Windows Phone 或 Nokia 移动设备执行如下活动发送和接收即时消息、 查看联系人和查看状态中。</span><span class="sxs-lookup"><span data-stu-id="468bc-148">When you deploy the Skype for Business Server 2015 Mobility Service, users can use supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform such activities as sending and receiving instant messages, viewing contacts, and viewing presence.</span></span>
+    <span data-ttu-id="8c37c-148">在部署 Skype 的业务服务器 2015 Mobility Service 时，用户可以使用支持的 Apple iOS、 Android、 Windows Phone 或 Nokia 移动设备执行如下活动发送和接收即时消息、 查看联系人和查看状态中。</span><span class="sxs-lookup"><span data-stu-id="8c37c-148">When you deploy the Skype for Business Server 2015 Mobility Service, users can use supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform such activities as sending and receiving instant messages, viewing contacts, and viewing presence.</span></span>
     
-- <span data-ttu-id="468bc-149">**W15 Exchange 邮箱**</span><span class="sxs-lookup"><span data-stu-id="468bc-149">**W15 Exchange mailbox**</span></span>
+- <span data-ttu-id="8c37c-149">**W15 Exchange 邮箱**</span><span class="sxs-lookup"><span data-stu-id="8c37c-149">**W15 Exchange mailbox**</span></span>
     
-    <span data-ttu-id="468bc-150">Skype 的业务服务器 2015年使您能够具有语音邮件消息存储在 Exchange 统一消息 (UM);然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="468bc-150">Skype for Business Server 2015 enables you to have voicemail messages stored in Exchange Unified Messaging (UM); those voicemail messages will then appear as email messages in your users' Inboxes.</span></span>
+    <span data-ttu-id="8c37c-150">Skype 的业务服务器 2015年使您能够具有语音邮件消息存储在 Exchange 统一消息 (UM);然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="8c37c-150">Skype for Business Server 2015 enables you to have voicemail messages stored in Exchange Unified Messaging (UM); those voicemail messages will then appear as email messages in your users' Inboxes.</span></span>
     
-### <a name="voice"></a><span data-ttu-id="468bc-151">语音</span><span class="sxs-lookup"><span data-stu-id="468bc-151">Voice</span></span>
+### <a name="voice"></a><span data-ttu-id="8c37c-151">语音</span><span class="sxs-lookup"><span data-stu-id="8c37c-151">Voice</span></span>
 
- <span data-ttu-id="468bc-152">“**语音**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="468bc-152">**Voice** contains the following options:</span></span>
+ <span data-ttu-id="8c37c-152">“**语音**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="8c37c-152">**Voice** contains the following options:</span></span>
   
-- <span data-ttu-id="468bc-153">**企业语音**</span><span class="sxs-lookup"><span data-stu-id="468bc-153">**Enterprise Voice**</span></span>
+- <span data-ttu-id="8c37c-153">**企业语音**</span><span class="sxs-lookup"><span data-stu-id="8c37c-153">**Enterprise Voice**</span></span>
     
-    <span data-ttu-id="468bc-154">企业语音是以的由软件驱动的 VoIP 解决方案。</span><span class="sxs-lookup"><span data-stu-id="468bc-154">Enterprise voice is Microsft's software-powered VoIP solution.</span></span> <span data-ttu-id="468bc-155">企业语音，用户可以使用 for Business 的 Skype 发起电话呼叫从其计算机。</span><span class="sxs-lookup"><span data-stu-id="468bc-155">Enterprise voice enables users to use Skype for Business to place a phone call from their computer.</span></span>
+    <span data-ttu-id="8c37c-154">企业语音是以的由软件驱动的 VoIP 解决方案。</span><span class="sxs-lookup"><span data-stu-id="8c37c-154">Enterprise voice is Microsft's software-powered VoIP solution.</span></span> <span data-ttu-id="8c37c-155">企业语音，用户可以使用 for Business 的 Skype 发起电话呼叫从其计算机。</span><span class="sxs-lookup"><span data-stu-id="8c37c-155">Enterprise voice enables users to use Skype for Business to place a phone call from their computer.</span></span>
     
-- <span data-ttu-id="468bc-156">**Exchange 统一消息**</span><span class="sxs-lookup"><span data-stu-id="468bc-156">**Exchange Unified Messaging**</span></span>
+- <span data-ttu-id="8c37c-156">**Exchange 统一消息**</span><span class="sxs-lookup"><span data-stu-id="8c37c-156">**Exchange Unified Messaging**</span></span>
     
-    <span data-ttu-id="468bc-157">Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。</span><span class="sxs-lookup"><span data-stu-id="468bc-157">Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure.</span></span> <span data-ttu-id="468bc-158">Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。</span><span class="sxs-lookup"><span data-stu-id="468bc-158">Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services.</span></span> <span data-ttu-id="468bc-159">如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。</span><span class="sxs-lookup"><span data-stu-id="468bc-159">If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.</span></span>
+    <span data-ttu-id="8c37c-157">Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。</span><span class="sxs-lookup"><span data-stu-id="8c37c-157">Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure.</span></span> <span data-ttu-id="8c37c-158">Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。</span><span class="sxs-lookup"><span data-stu-id="8c37c-158">Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services.</span></span> <span data-ttu-id="8c37c-159">如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。</span><span class="sxs-lookup"><span data-stu-id="8c37c-159">If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.</span></span>
     
-### <a name="additional-deployment-options"></a><span data-ttu-id="468bc-160">其他部署选项</span><span class="sxs-lookup"><span data-stu-id="468bc-160">Additional Deployment Options</span></span>
+### <a name="additional-deployment-options"></a><span data-ttu-id="8c37c-160">其他部署选项</span><span class="sxs-lookup"><span data-stu-id="8c37c-160">Additional Deployment Options</span></span>
 
- <span data-ttu-id="468bc-161">“**其他部署选项**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="468bc-161">**Additional Deployment Options** contains the following options:</span></span>
+ <span data-ttu-id="8c37c-161">“**其他部署选项**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="8c37c-161">**Additional Deployment Options** contains the following options:</span></span>
   
-- <span data-ttu-id="468bc-162">**高可用性**</span><span class="sxs-lookup"><span data-stu-id="468bc-162">**High Availability**</span></span>
+- <span data-ttu-id="8c37c-162">**高可用性**</span><span class="sxs-lookup"><span data-stu-id="8c37c-162">**High Availability**</span></span>
     
-    <span data-ttu-id="468bc-163">高可用性启用备用服务器以支持故障转移。</span><span class="sxs-lookup"><span data-stu-id="468bc-163">High availability enables standby servers for failover support.</span></span>
+    <span data-ttu-id="8c37c-163">高可用性启用备用服务器以支持故障转移。</span><span class="sxs-lookup"><span data-stu-id="8c37c-163">High availability enables standby servers for failover support.</span></span>
     
-- <span data-ttu-id="468bc-164">**灾难恢复**</span><span class="sxs-lookup"><span data-stu-id="468bc-164">**Disaster Recovery**</span></span>
+- <span data-ttu-id="8c37c-164">**灾难恢复**</span><span class="sxs-lookup"><span data-stu-id="8c37c-164">**Disaster Recovery**</span></span>
     
-    <span data-ttu-id="468bc-165">灾难恢复度量值将使您到对前端池在两个数据中心中的位置。</span><span class="sxs-lookup"><span data-stu-id="468bc-165">Disaster recovery measures enable you to pair Front End pools located in two datacenters.</span></span>
+    <span data-ttu-id="8c37c-165">灾难恢复度量值将使您到对前端池在两个数据中心中的位置。</span><span class="sxs-lookup"><span data-stu-id="8c37c-165">Disaster recovery measures enable you to pair Front End pools located in two datacenters.</span></span>
     
-- <span data-ttu-id="468bc-166">**监视**</span><span class="sxs-lookup"><span data-stu-id="468bc-166">**Monitoring**</span></span>
+- <span data-ttu-id="8c37c-166">**监视**</span><span class="sxs-lookup"><span data-stu-id="8c37c-166">**Monitoring**</span></span>
     
-    <span data-ttu-id="468bc-167">监控功能捕获与通信会话相关的呼叫详细记录。</span><span class="sxs-lookup"><span data-stu-id="468bc-167">Monitoring captures call detail records related to communication sessions.</span></span> <span data-ttu-id="468bc-168">它还从参与者终结点处的音频和视频会话收集指标。</span><span class="sxs-lookup"><span data-stu-id="468bc-168">It also collects metrics from audio and video sessions at the participant endpoints.</span></span> <span data-ttu-id="468bc-169">监控服务器提供了使用统计信息、 趋势和媒体质量统计信息。</span><span class="sxs-lookup"><span data-stu-id="468bc-169">Monitoring Server provides usage statistics, trends, and media quality statistics.</span></span>
+    <span data-ttu-id="8c37c-167">监控功能捕获与通信会话相关的呼叫详细记录。</span><span class="sxs-lookup"><span data-stu-id="8c37c-167">Monitoring captures call detail records related to communication sessions.</span></span> <span data-ttu-id="8c37c-168">它还从参与者终结点处的音频和视频会话收集指标。</span><span class="sxs-lookup"><span data-stu-id="8c37c-168">It also collects metrics from audio and video sessions at the participant endpoints.</span></span> <span data-ttu-id="8c37c-169">监控服务器提供了使用统计信息、 趋势和媒体质量统计信息。</span><span class="sxs-lookup"><span data-stu-id="8c37c-169">Monitoring Server provides usage statistics, trends, and media quality statistics.</span></span>
     
-- <span data-ttu-id="468bc-170">**存档**</span><span class="sxs-lookup"><span data-stu-id="468bc-170">**Archiving**</span></span>
+- <span data-ttu-id="8c37c-170">**存档**</span><span class="sxs-lookup"><span data-stu-id="8c37c-170">**Archiving**</span></span>
     
-    <span data-ttu-id="468bc-171">存档功能存储即时消息对话和会议。</span><span class="sxs-lookup"><span data-stu-id="468bc-171">Archiving stores instant messaging conversations and conferences.</span></span>
+    <span data-ttu-id="8c37c-171">存档功能存储即时消息对话和会议。</span><span class="sxs-lookup"><span data-stu-id="8c37c-171">Archiving stores instant messaging conversations and conferences.</span></span>
     
-- <span data-ttu-id="468bc-172">**Exchange 存档集成**</span><span class="sxs-lookup"><span data-stu-id="468bc-172">**Exchange Archiving Integration**</span></span>
+- <span data-ttu-id="8c37c-172">**Exchange 存档集成**</span><span class="sxs-lookup"><span data-stu-id="8c37c-172">**Exchange Archiving Integration**</span></span>
     
-    <span data-ttu-id="468bc-173">如果您有用户驻留在 Exchange 2013 上和其邮箱已被置于就地保留，可以选择将 Skype 集成业务服务器 2015年存储与 Exchange 存储的选项。</span><span class="sxs-lookup"><span data-stu-id="468bc-173">If you have users who are homed on Exchange 2013 and their mailboxes have been put on In-Place Hold, you can select the option to integrate Skype for Business Server 2015 storage with Exchange storage.</span></span>
+    <span data-ttu-id="8c37c-173">如果您有用户驻留在 Exchange 2013 上和其邮箱已被置于就地保留，可以选择将 Skype 集成业务服务器 2015年存储与 Exchange 存储的选项。</span><span class="sxs-lookup"><span data-stu-id="8c37c-173">If you have users who are homed on Exchange 2013 and their mailboxes have been put on In-Place Hold, you can select the option to integrate Skype for Business Server 2015 storage with Exchange storage.</span></span>
     
-- <span data-ttu-id="468bc-174">**IPv4**</span><span class="sxs-lookup"><span data-stu-id="468bc-174">**IPv4**</span></span>
+- <span data-ttu-id="8c37c-174">**IPv4**</span><span class="sxs-lookup"><span data-stu-id="8c37c-174">**IPv4**</span></span>
     
-    <span data-ttu-id="468bc-p111">IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。由于世界范围内设备数量的不断增加，可用的 IPv4 地址已经用完。因此，许多新设备开始使用 IPv6 地址。</span><span class="sxs-lookup"><span data-stu-id="468bc-p111">IPv4 addresses are 32-bit addresses that allow a computer to communicate over the Internet. Due to the increasing number of devices worldwide, the available IPv4 addresses have run out. Because of this, many new devices are moving to using IPv6 addresses.</span></span>
+    <span data-ttu-id="8c37c-p111">IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。由于世界范围内设备数量的不断增加，可用的 IPv4 地址已经用完。因此，许多新设备开始使用 IPv6 地址。</span><span class="sxs-lookup"><span data-stu-id="8c37c-p111">IPv4 addresses are 32-bit addresses that allow a computer to communicate over the Internet. Due to the increasing number of devices worldwide, the available IPv4 addresses have run out. Because of this, many new devices are moving to using IPv6 addresses.</span></span>
     
-- <span data-ttu-id="468bc-177">**IPv6**</span><span class="sxs-lookup"><span data-stu-id="468bc-177">**IPv6**</span></span>
+- <span data-ttu-id="8c37c-177">**IPv6**</span><span class="sxs-lookup"><span data-stu-id="8c37c-177">**IPv6**</span></span>
     
-    <span data-ttu-id="468bc-p112">IPv6 地址执行与 IPv4 地址相同的功能（并另外增加了一些功能），只不过 IPv6 地址不是使用 32 位，而是使用 128 位。这不仅可以提供一组新地址，而且地址数量也大大增加。</span><span class="sxs-lookup"><span data-stu-id="468bc-p112">IPv6 addresses perform the same function as IPv4 addresses (with some additional features), but instead of using only 32-bits, IPv6 addresses use 128-bits. This provides not only a new set of addresses, but also a much larger number of them.</span></span>
+    <span data-ttu-id="8c37c-p112">IPv6 地址执行与 IPv4 地址相同的功能（并另外增加了一些功能），只不过 IPv6 地址不是使用 32 位，而是使用 128 位。这不仅可以提供一组新地址，而且地址数量也大大增加。</span><span class="sxs-lookup"><span data-stu-id="8c37c-p112">IPv6 addresses perform the same function as IPv4 addresses (with some additional features), but instead of using only 32-bits, IPv6 addresses use 128-bits. This provides not only a new set of addresses, but also a much larger number of them.</span></span>
     
-- <span data-ttu-id="468bc-180">**设备更新 Web 服务**</span><span class="sxs-lookup"><span data-stu-id="468bc-180">**Device Update Web service**</span></span>
+- <span data-ttu-id="8c37c-180">**设备更新 Web 服务**</span><span class="sxs-lookup"><span data-stu-id="8c37c-180">**Device Update Web service**</span></span>
     
-    <span data-ttu-id="468bc-181">设备更新 Web 服务提供用于更新的所有设备，如 Skype 的业务的 Windows Phone，组织外部部署自动的方法。</span><span class="sxs-lookup"><span data-stu-id="468bc-181">The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone, that are deployed outside of your organization.</span></span>
+    <span data-ttu-id="8c37c-181">设备更新 Web 服务提供用于更新的所有设备，如 Skype 的业务的 Windows Phone，组织外部部署自动的方法。</span><span class="sxs-lookup"><span data-stu-id="8c37c-181">The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone, that are deployed outside of your organization.</span></span>
     
-### <a name="server-applications"></a><span data-ttu-id="468bc-182">服务器应用程序</span><span class="sxs-lookup"><span data-stu-id="468bc-182">Server Applications</span></span>
+### <a name="server-applications"></a><span data-ttu-id="8c37c-182">服务器应用程序</span><span class="sxs-lookup"><span data-stu-id="8c37c-182">Server Applications</span></span>
 
- <span data-ttu-id="468bc-183">“**服务器应用程序**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="468bc-183">**Server Applications** contains the following options:</span></span>
+ <span data-ttu-id="8c37c-183">“**服务器应用程序**”包含以下选项：</span><span class="sxs-lookup"><span data-stu-id="8c37c-183">**Server Applications** contains the following options:</span></span>
   
-- <span data-ttu-id="468bc-184">**响应组**</span><span class="sxs-lookup"><span data-stu-id="468bc-184">**Response Group**</span></span>
+- <span data-ttu-id="8c37c-184">**响应组**</span><span class="sxs-lookup"><span data-stu-id="8c37c-184">**Response Group**</span></span>
     
-    <span data-ttu-id="468bc-185">响应组应用程序自动回答和分发到可用的帮助台代理的呼叫。</span><span class="sxs-lookup"><span data-stu-id="468bc-185">The Response Group application automatically answers and distributes calls to an available helpdesk agent.</span></span>
+    <span data-ttu-id="8c37c-185">响应组应用程序自动回答和分发到可用的帮助台代理的呼叫。</span><span class="sxs-lookup"><span data-stu-id="8c37c-185">The Response Group application automatically answers and distributes calls to an available helpdesk agent.</span></span>
     
-- <span data-ttu-id="468bc-186">**公告**</span><span class="sxs-lookup"><span data-stu-id="468bc-186">**Announcement**</span></span>
+- <span data-ttu-id="8c37c-186">**公告**</span><span class="sxs-lookup"><span data-stu-id="8c37c-186">**Announcement**</span></span>
     
-    <span data-ttu-id="468bc-187">如果您计划部署企业语音，您可能希望能够配置已拨的号码是否有效，但不是分配给用户的公共区域电话的处理方式。</span><span class="sxs-lookup"><span data-stu-id="468bc-187">If you plan to deploy Enterprise Voice, you might want to be able to configure how phone calls are handled if the dialed number is valid but not assigned to a user common area.</span></span> <span data-ttu-id="468bc-188">管理员可以配置通知服务，以便这些呼叫转接到预定目标 （电话号码或 SIP URI） 或播放音频通知或两者。</span><span class="sxs-lookup"><span data-stu-id="468bc-188">Administrators can configure Announcement Service so that these calls transfer to a predetermined destination (phone number or SIP URI) or play an audio announcement or both.</span></span> <span data-ttu-id="468bc-189">使用通知服务可以避免在其中呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。</span><span class="sxs-lookup"><span data-stu-id="468bc-189">Using Announcement Service avoids the situation in which a caller misdials and hears a busy tone or the SIP client receives an error message.</span></span> <span data-ttu-id="468bc-190">公告服务功能是一个典型的 PBX 功能。</span><span class="sxs-lookup"><span data-stu-id="468bc-190">Announcement Service functionality is a typical PBX feature.</span></span> 
+    <span data-ttu-id="8c37c-187">如果您计划部署企业语音，您可能希望能够配置已拨的号码是否有效，但不是分配给用户的公共区域电话的处理方式。</span><span class="sxs-lookup"><span data-stu-id="8c37c-187">If you plan to deploy Enterprise Voice, you might want to be able to configure how phone calls are handled if the dialed number is valid but not assigned to a user common area.</span></span> <span data-ttu-id="8c37c-188">管理员可以配置通知服务，以便这些呼叫转接到预定目标 （电话号码或 SIP URI） 或播放音频通知或两者。</span><span class="sxs-lookup"><span data-stu-id="8c37c-188">Administrators can configure Announcement Service so that these calls transfer to a predetermined destination (phone number or SIP URI) or play an audio announcement or both.</span></span> <span data-ttu-id="8c37c-189">使用通知服务可以避免在其中呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。</span><span class="sxs-lookup"><span data-stu-id="8c37c-189">Using Announcement Service avoids the situation in which a caller misdials and hears a busy tone or the SIP client receives an error message.</span></span> <span data-ttu-id="8c37c-190">公告服务功能是一个典型的 PBX 功能。</span><span class="sxs-lookup"><span data-stu-id="8c37c-190">Announcement Service functionality is a typical PBX feature.</span></span> 
     
-- <span data-ttu-id="468bc-191">**呼叫寄存**</span><span class="sxs-lookup"><span data-stu-id="468bc-191">**Call Park**</span></span>
+- <span data-ttu-id="8c37c-191">**呼叫寄存**</span><span class="sxs-lookup"><span data-stu-id="8c37c-191">**Call Park**</span></span>
     
-    <span data-ttu-id="468bc-192">呼叫寄存应用程序启用企业语音用户将呼叫置于保留从一个电话，然后从另一个电话接收呼叫，而不必占用接收呼叫的电话上的资源。</span><span class="sxs-lookup"><span data-stu-id="468bc-192">Call Park application enables an Enterprise Voice user to put a call on hold from one telephone, and then receive the call from another telephone without tying up resources on the phone that received the call.</span></span> <span data-ttu-id="468bc-193">用户需要转接呼叫，但特定收件人是未知时，呼叫寄存应用程序很有用。</span><span class="sxs-lookup"><span data-stu-id="468bc-193">Call Park application is useful when a user needs to transfer a call, but the specific recipient is unknown.</span></span> 
+    <span data-ttu-id="8c37c-192">呼叫寄存应用程序启用企业语音用户将呼叫置于保留从一个电话，然后从另一个电话接收呼叫，而不必占用接收呼叫的电话上的资源。</span><span class="sxs-lookup"><span data-stu-id="8c37c-192">Call Park application enables an Enterprise Voice user to put a call on hold from one telephone, and then receive the call from another telephone without tying up resources on the phone that received the call.</span></span> <span data-ttu-id="8c37c-193">用户需要转接呼叫，但特定收件人是未知时，呼叫寄存应用程序很有用。</span><span class="sxs-lookup"><span data-stu-id="8c37c-193">Call Park application is useful when a user needs to transfer a call, but the specific recipient is unknown.</span></span> 
     
-- <span data-ttu-id="468bc-194">**会议助理**</span><span class="sxs-lookup"><span data-stu-id="468bc-194">**Conference Attendant**</span></span>
+- <span data-ttu-id="8c37c-194">**会议助理**</span><span class="sxs-lookup"><span data-stu-id="8c37c-194">**Conference Attendant**</span></span>
     
-    <span data-ttu-id="468bc-195">会议助理应用程序向如果不使用第三方音频会议提供商的服务的电话用户提供音频会议功能。</span><span class="sxs-lookup"><span data-stu-id="468bc-195">Conferencing Attendant application provides audio conferencing capabilities to phone users without the service of a third-party audio conferencing provider.</span></span>
+    <span data-ttu-id="8c37c-195">会议助理应用程序向如果不使用第三方音频会议提供商的服务的电话用户提供音频会议功能。</span><span class="sxs-lookup"><span data-stu-id="8c37c-195">Conferencing Attendant application provides audio conferencing capabilities to phone users without the service of a third-party audio conferencing provider.</span></span>
     
-- <span data-ttu-id="468bc-196">**会议公告**</span><span class="sxs-lookup"><span data-stu-id="468bc-196">**Conferencing Announcement**</span></span>
+- <span data-ttu-id="8c37c-196">**会议公告**</span><span class="sxs-lookup"><span data-stu-id="8c37c-196">**Conferencing Announcement**</span></span>
     
-    <span data-ttu-id="468bc-197">会议通知应用程序会生成提示音，当用户进入或被静音或取消静音时向电话用户离开会议以及通知。</span><span class="sxs-lookup"><span data-stu-id="468bc-197">Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they are muted or unmuted.</span></span>
+    <span data-ttu-id="8c37c-197">会议通知应用程序会生成提示音，当用户进入或被静音或取消静音时向电话用户离开会议以及通知。</span><span class="sxs-lookup"><span data-stu-id="8c37c-197">Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they are muted or unmuted.</span></span>
     
-- <span data-ttu-id="468bc-198">**呼叫允许控制**</span><span class="sxs-lookup"><span data-stu-id="468bc-198">**Call Admission Control**</span></span>
+- <span data-ttu-id="8c37c-198">**呼叫允许控制**</span><span class="sxs-lookup"><span data-stu-id="8c37c-198">**Call Admission Control**</span></span>
     
-    <span data-ttu-id="468bc-199">呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它根据可用带宽确定是否允许建立新的实时通信会话，以帮助防止拥塞网络上出现较差的用户体验质量。</span><span class="sxs-lookup"><span data-stu-id="468bc-199">Call Admission Control (CAC), also known as WAN bandwidth management, helps to prevent poor quality of experience for users on congested networks by determining, based on available bandwidth, whether to allow and new real-time communications sessions to be established.</span></span> 
+    <span data-ttu-id="8c37c-199">呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它根据可用带宽确定是否允许建立新的实时通信会话，以帮助防止拥塞网络上出现较差的用户体验质量。</span><span class="sxs-lookup"><span data-stu-id="8c37c-199">Call Admission Control (CAC), also known as WAN bandwidth management, helps to prevent poor quality of experience for users on congested networks by determining, based on available bandwidth, whether to allow and new real-time communications sessions to be established.</span></span> 
     
     > [!NOTE]
-    > <span data-ttu-id="468bc-200">CAC 只控制实时流量，不影响数据流量。</span><span class="sxs-lookup"><span data-stu-id="468bc-200">CAC only controls real-time traffic and does not affect data traffic.</span></span> 
+    > <span data-ttu-id="8c37c-200">CAC 只控制实时流量，不影响数据流量。</span><span class="sxs-lookup"><span data-stu-id="8c37c-200">CAC only controls real-time traffic and does not affect data traffic.</span></span> 
   
-    <span data-ttu-id="468bc-201">如果新的语音或视频会话超出您在 WAN 上分配的带宽限制，会话将会被阻止（仅限电话呼叫）或重新路由到 PSTN。</span><span class="sxs-lookup"><span data-stu-id="468bc-201">If a new voice or video session exceeds the bandwidth limits that you have allocated on a WAN, the session is either blocked or (for phone calls only) rerouted to the PSTN.</span></span>
+    <span data-ttu-id="8c37c-201">如果新的语音或视频会话超出您在 WAN 上分配的带宽限制，会话将会被阻止（仅限电话呼叫）或重新路由到 PSTN。</span><span class="sxs-lookup"><span data-stu-id="8c37c-201">If a new voice or video session exceeds the bandwidth limits that you have allocated on a WAN, the session is either blocked or (for phone calls only) rerouted to the PSTN.</span></span>
     
 
