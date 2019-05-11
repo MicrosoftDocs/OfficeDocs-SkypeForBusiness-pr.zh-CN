@@ -1,7 +1,7 @@
 ---
 title: 规划服务管理和质量 |技术的准备情况
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304961"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896431"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -356,7 +356,7 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | 执行网络评估 | [网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | 规划终结点质量 | 更新终结点防火墙 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
-| | 验证软件要求 | [获取 Microsoft Teams 客户端](get-clients.md) |
+| | 验证软件要求 | [获取 Microsoft Teams 的客户端](get-clients.md) |
 | | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
 | | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 

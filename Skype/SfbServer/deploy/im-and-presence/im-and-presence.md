@@ -1,8 +1,8 @@
 ---
 title: 部署业务服务器即时消息和 Skype 中的状态
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 摘要： 了解业务服务器的即时消息和状态 Skype 的部署步骤。
-ms.openlocfilehash: 752b1864b7bf1cc4580fa35034e756cc2f0879df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 387f9af2980e3dc3923f0b82e3cd6289581e79e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219372"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894449"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>部署业务服务器即时消息和 Skype 中的状态
  

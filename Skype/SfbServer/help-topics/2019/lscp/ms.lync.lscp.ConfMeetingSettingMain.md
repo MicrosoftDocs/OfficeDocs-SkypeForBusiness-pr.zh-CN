@@ -1,8 +1,8 @@
 ---
 title: 会议配置
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置中定义的会议 (还 calledmeetings) 用户可以创建和控制如何 （或是否） 匿名用户和电话拨入式会议用户可以参加这些会议的类型。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
-ms.openlocfilehash: 905d057adb0c914355d3237c3ec1771abe594de2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: caa91f007a0443885174ddfb6e7f3874603f1223
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215687"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891556"
 ---
 # <a name="meeting-configuration"></a>会议配置
 

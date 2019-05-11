@@ -1,8 +1,8 @@
 ---
 title: 管理会议加入和离开通知中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要： 了解如何管理会议加入和离开通知中 Skype 业务服务器。
-ms.openlocfilehash: 7311850f2504b84a862f809b17077b15ec022bf1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ace07fdc3325d97e443297265892e7bcc4bce562
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197981"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919519"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开通知中 Skype 业务服务器
  

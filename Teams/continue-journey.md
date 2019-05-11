@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队用户应用计划 |最佳实践
-author: dearbeen
-ms.author: dearbeen
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194973"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898498"
 ---
 ![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
 

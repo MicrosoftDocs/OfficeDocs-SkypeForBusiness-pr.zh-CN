@@ -1,8 +1,8 @@
 ---
 title: 删除 Skype 中的企业服务器用户体验质量配置设置
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 摘要： 了解如何删除 Business Server Skype 中的用户体验质量 (QoE) 设置。
-ms.openlocfilehash: 1324029be12816abcc6c70de34363043df78277a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e177b0870192eba996984e1eb3aae6d520db4661
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197714"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926625"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>删除 Skype 中的企业服务器用户体验质量配置设置
  

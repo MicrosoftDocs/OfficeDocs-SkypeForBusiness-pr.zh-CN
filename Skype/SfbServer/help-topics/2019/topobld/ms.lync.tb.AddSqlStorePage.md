@@ -1,8 +1,8 @@
 ---
 title: 添加 SQL 存储
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义新的 SQL 存储，这意味着要指定基于 SQL Server 数据库和 SQL Server 的实例 — 默认实例或命名的实例 — 指定以下。
-ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9143c5e33028667cddd8e4dfdde31657e258c622
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201996"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915873"
 ---
 # <a name="add-sql-store"></a>添加 SQL 存储
 

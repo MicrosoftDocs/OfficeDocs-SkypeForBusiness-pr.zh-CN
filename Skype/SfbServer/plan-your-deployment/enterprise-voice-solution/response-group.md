@@ -1,8 +1,8 @@
 ---
 title: 规划 Business Server Skype 中的响应组应用程序
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 规划业务 Server 企业语音的 Skype 响应组，这样可使您可以设置呼叫路由到用户组。 包括音频文件要求。
-ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 856b525137f0b4fc85ef3bf0f9390f6ca2a580e9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206492"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913546"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>规划 Business Server Skype 中的响应组应用程序
 

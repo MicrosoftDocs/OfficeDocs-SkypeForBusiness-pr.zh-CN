@@ -1,8 +1,8 @@
 ---
 title: Skype 中为 Business Server 的通知应用程序的部署过程
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 部署过程和 Skype 中为 Business Server 企业语音的通知应用程序的步骤。
-ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27e22c95e58ac84fa3f27aef8b2d18cb1b1226dc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223039"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892557"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Skype 中为 Business Server 的通知应用程序的部署过程
  

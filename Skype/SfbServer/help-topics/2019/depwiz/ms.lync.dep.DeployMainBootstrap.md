@@ -1,8 +1,8 @@
 ---
 title: 安装或删除 Skype for Business Server 组件
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要安装和激活或停用或卸载 Skype 业务服务器组件，您可以使用步骤 2： 安装或删除 Skype 服务器组件。 您必须登录在计算机上的本地管理员为您已安装或修改和必须能够读取 Active Directory 域服务用户和当前域中的组。 要开始，请单击“运行”。 执行此操作时，会读取基于中央管理存储的拓扑定义。 需要根据中央管理存储中定义的角色来安装和配置必需的软件组件。 安装完成后，请检查摘要，然后单击“完成”。
-ms.openlocfilehash: cc16e843159cf0d06614f2ba3a095112664fe2fb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4faa655455470be8447374034129e510f2e127ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216198"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893705"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>安装或删除 Skype for Business Server 组件
  

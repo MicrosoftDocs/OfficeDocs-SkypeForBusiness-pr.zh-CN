@@ -1,8 +1,8 @@
 ---
 title: 准备当前林
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要准备 Active Directory 域服务林，必须成功扩展架构，如 Running Schema Preparation 主题中所述，并确保架构已复制。
-ms.openlocfilehash: 2e21b1b3ad2fbfd5ea4194b47710a09366707f64
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5cf217e054f513b8e3fcbc203cf4c0d76719e7cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216674"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893691"
 ---
 # <a name="prepare-current-forest"></a>准备当前林
 

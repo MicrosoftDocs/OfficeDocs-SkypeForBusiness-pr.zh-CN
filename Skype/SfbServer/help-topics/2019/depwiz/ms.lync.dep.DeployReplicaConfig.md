@@ -1,8 +1,8 @@
 ---
 title: 安装本地配置存储调用（配置）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择检索配置自动从中央管理存储。
-ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 20c53827797fb57f1d5d388d95fa2cfbf63f9311
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216051"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893600"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用（配置）
  

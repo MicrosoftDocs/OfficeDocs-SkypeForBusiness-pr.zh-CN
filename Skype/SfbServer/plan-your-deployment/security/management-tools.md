@@ -1,8 +1,8 @@
 ---
 title: Windows PowerShell 和 Skype 的业务 Server 管理工具
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: Skype 业务服务器，在使用 Windows PowerShell 实现管理工具。 Windows PowerShell 包括命令行环境、 特定于产品的命令和完整的脚本语言。 使用 Windows PowerShell 实现的业务服务器工具的 Skype 包括：
-ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 158664b4c0f83b7619c6a739046247bfdf495f37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213590"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897392"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和 Skype 的业务 Server 管理工具
  

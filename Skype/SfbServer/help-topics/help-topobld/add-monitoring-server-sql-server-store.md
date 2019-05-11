@@ -1,8 +1,8 @@
 ---
 title: 添加监控服务器 SQL Server 存储
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: 监控服务器需要支持的 64 位版本的 SQL Server 数据库软件存储监视数据。 您可以选择先前定义的 SQL Server 数据库，用于监控，或通过指定在其的 SQL Server 数据库将位于，除了 SQL 实例的服务器的完全限定的域名 (FQDN) 来定义新的 SQL Server 数据库您想要用于新的 SQL Server 数据库 （这可以是默认的实例或您指定的命名的实例） 的服务器。
-ms.openlocfilehash: 686bdc3d03f52b223457e0618ed59117a72ba5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bd30dc0ed77b665b30d93213cf854af7d61a306e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885382"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897763"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>添加监控服务器 SQL Server 存储
 

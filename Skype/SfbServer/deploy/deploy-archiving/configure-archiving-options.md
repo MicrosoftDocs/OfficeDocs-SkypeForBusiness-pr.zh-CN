@@ -1,8 +1,8 @@
 ---
 title: 配置 Skype 业务服务器的存档的选项
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要： 阅读本主题可了解如何配置初始的 Skype 业务服务器的存档选项。 您最初设置存档配置，当您部署存档，但您可以更改、 添加和删除部署后的配置。
-ms.openlocfilehash: 80501c01c4e05e0578685b42f8fb83b7faed6c59
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 58dd94cb5d42e3d0dabb845acbb5b72e7e90d8bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236136"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895923"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置 Skype 业务服务器的存档的选项
  

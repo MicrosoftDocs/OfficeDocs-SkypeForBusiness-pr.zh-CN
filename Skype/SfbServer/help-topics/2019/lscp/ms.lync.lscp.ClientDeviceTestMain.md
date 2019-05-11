@@ -1,8 +1,8 @@
 ---
 title: 测试设备
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 如果添加设备时，它显示在 Skype 测试设备页上的列表的业务 Server Control Panel。
-ms.openlocfilehash: 86c8320615ac4d194c33e455283a7b56fd5fb825
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1b865186298869c726a15612cc10f59d1c8d633
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215890"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891899"
 ---
 # <a name="test-device"></a>测试设备
 

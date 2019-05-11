@@ -1,8 +1,8 @@
 ---
 title: 删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 删除中继配置设置的集合。
-ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8e960e72b6ac29e12e1cf220978f5c8b44c2691f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223153"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892788"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>删除现有的 SIP 中继配置设置中 Skype 业务服务器集合
  

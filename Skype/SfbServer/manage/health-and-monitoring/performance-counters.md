@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器中的移动性能计数器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要： 了解可用于监视服务器运行统一通信 Web API (UCWA) 和 Skype 业务服务器 Mcx Mobility Service 的性能计数器。
-ms.openlocfilehash: 4d55dab133b7006f8a239560efb084fd2c61b917
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a529161b62cf47ad7666ace07cc2d030fc7922d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197651"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897637"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype 业务服务器中的移动性能计数器
  
