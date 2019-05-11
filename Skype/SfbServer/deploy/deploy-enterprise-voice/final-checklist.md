@@ -1,8 +1,8 @@
 ---
 title: 呼叫允许控制最终的部署清单 Skype 业务服务器
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: 业务 Server 企业语音部署呼叫允许控制 (CAC) Skype 中的最后一个清单。
-ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b66ebc5162c52df879e4c92fdd1303310068406
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212402"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892368"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>呼叫允许控制部署： Skype 业务服务器的最终清单
  

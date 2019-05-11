@@ -1,8 +1,8 @@
 ---
 title: 在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 配置媒体绕过以用于某些网站和区域中 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42f6e9406fdb3a33124c5cfb7abba638dd7fa4b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222567"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892270"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>在 Business Server 以使用站点和区域信息的 Skype 中配置媒体绕过全局设置
  
