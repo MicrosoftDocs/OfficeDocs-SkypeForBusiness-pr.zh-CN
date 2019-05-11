@@ -1,8 +1,8 @@
 ---
 title: Monitoring (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在业务服务器 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。
-ms.openlocfilehash: 902a9b5a4c9f4ffacb79ce80328b634362563afa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 625f9b6b864cb20207994c7a54fdc26568831f7a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202343"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889302"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="6917b-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="6917b-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="0f4fd-103">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="0f4fd-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="6917b-104">在业务服务器 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。</span><span class="sxs-lookup"><span data-stu-id="6917b-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="0f4fd-104">在业务服务器 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。</span><span class="sxs-lookup"><span data-stu-id="0f4fd-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="6917b-105">有关监控服务器规划的详细信息，请参阅[Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="6917b-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="0f4fd-105">有关监控服务器规划的详细信息，请参阅[Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="0f4fd-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

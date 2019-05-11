@@ -1,8 +1,8 @@
 ---
 title: Client Settings (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中的业务服务器 25 Skype 的移动功能支持的移动设备上的业务功能 Skype。 有关详细信息，请参阅Planning for Mobility。
-ms.openlocfilehash: a940925d2d1a89a3ea4a158e041adf05f5263b8b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b643dec9fdc45ef230dd7df7a06831c5f9b4b76a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221016"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889519"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="b9f86-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b9f86-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="cfef6-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="cfef6-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="b9f86-105">Skype 业务服务器中的移动功能支持的移动设备上的业务功能 Skype。</span><span class="sxs-lookup"><span data-stu-id="b9f86-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="b9f86-106">有关详细信息，请参阅[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="b9f86-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="cfef6-105">Skype 业务服务器中的移动功能支持的移动设备上的业务功能 Skype。</span><span class="sxs-lookup"><span data-stu-id="cfef6-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="cfef6-106">有关详细信息，请参阅[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="cfef6-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

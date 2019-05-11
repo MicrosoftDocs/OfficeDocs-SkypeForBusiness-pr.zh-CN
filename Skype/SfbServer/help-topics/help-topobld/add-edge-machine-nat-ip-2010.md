@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge 机器 NAT IP 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
 description: 如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。 这应该是外部 IP 地址的 A / V 边缘服务。
-ms.openlocfilehash: 44ae98f63b0fc67d7ade4066a92acec6ce60f606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1ee7326b6a605da3feb7c415b50d1b45080af110
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893418"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886485"
 ---
-# <a name="add-edge-machine-nat-ip-2010"></a><span data-ttu-id="4acf9-104">添加 Edge 机器 NAT IP 2010</span><span class="sxs-lookup"><span data-stu-id="4acf9-104">Add Edge Machine NAT IP 2010</span></span>
+# <a name="add-edge-machine-nat-ip-2010"></a><span data-ttu-id="31206-104">添加 Edge 机器 NAT IP 2010</span><span class="sxs-lookup"><span data-stu-id="31206-104">Add Edge Machine NAT IP 2010</span></span>
  
-<span data-ttu-id="4acf9-105">如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="4acf9-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="4acf9-106">这应该是外部 IP 地址的 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="4acf9-106">This should be the external IP address of the A/V Edge service.</span></span>
+<span data-ttu-id="31206-105">如果此边缘池的公共 IP 地址已翻译的网络地址转换 (NAT)，则必须指定要转换的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="31206-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="31206-106">这应该是外部 IP 地址的 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="31206-106">This should be the external IP address of the A/V Edge service.</span></span>
   
-<span data-ttu-id="4acf9-107">若要更改边缘池是否使用 NAT 转换，右键单击边缘池的名称，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4acf9-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
+<span data-ttu-id="31206-107">若要更改边缘池是否使用 NAT 转换，右键单击边缘池的名称，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="31206-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
   
 

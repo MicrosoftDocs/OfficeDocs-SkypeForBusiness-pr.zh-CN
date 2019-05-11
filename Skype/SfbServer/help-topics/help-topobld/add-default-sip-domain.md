@@ -1,8 +1,8 @@
 ---
 title: 添加默认 SIP 域
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 description: 指定要部署以支持的主要会话初始协议 (SIP) 域。 主 SIP 域可以是相同，或在不同您 Active Directory 域服务的域。 例如，Active Directory 域无法是 fabrikam.net，并且您可以指定为 contoso.net 您主 SIP 域。
-ms.openlocfilehash: 2f309f8af7a3233632fbe095adc8ab66b24e8d68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 591ebae416223d52eb4f8effb38f39d2b9b4f9dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883726"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886619"
 ---
-# <a name="add-default-sip-domain"></a><span data-ttu-id="7430b-105">添加默认 SIP 域</span><span class="sxs-lookup"><span data-stu-id="7430b-105">Add Default Sip Domain</span></span>
+# <a name="add-default-sip-domain"></a><span data-ttu-id="79e87-105">添加默认 SIP 域</span><span class="sxs-lookup"><span data-stu-id="79e87-105">Add Default Sip Domain</span></span>
  
-<span data-ttu-id="7430b-106">指定要部署以支持的主要会话初始协议 (SIP) 域。</span><span class="sxs-lookup"><span data-stu-id="7430b-106">Specify the primary Session Initiation Protocol (SIP) domain that you want your deployment to support.</span></span> <span data-ttu-id="7430b-107">主 SIP 域可以是相同，或在不同您 Active Directory 域服务的域。</span><span class="sxs-lookup"><span data-stu-id="7430b-107">The primary SIP domain can be the same as, or different from, your Active Directory Domain Services domain.</span></span> <span data-ttu-id="7430b-108">例如，Active Directory 域无法是 fabrikam.net，并且您可以指定为 contoso.net 您主 SIP 域。</span><span class="sxs-lookup"><span data-stu-id="7430b-108">For example, your Active Directory domain could be fabrikam.net, and you could specify your primary SIP domain to be contoso.net.</span></span>
+<span data-ttu-id="79e87-106">指定要部署以支持的主要会话初始协议 (SIP) 域。</span><span class="sxs-lookup"><span data-stu-id="79e87-106">Specify the primary Session Initiation Protocol (SIP) domain that you want your deployment to support.</span></span> <span data-ttu-id="79e87-107">主 SIP 域可以是相同，或在不同您 Active Directory 域服务的域。</span><span class="sxs-lookup"><span data-stu-id="79e87-107">The primary SIP domain can be the same as, or different from, your Active Directory Domain Services domain.</span></span> <span data-ttu-id="79e87-108">例如，Active Directory 域无法是 fabrikam.net，并且您可以指定为 contoso.net 您主 SIP 域。</span><span class="sxs-lookup"><span data-stu-id="79e87-108">For example, your Active Directory domain could be fabrikam.net, and you could specify your primary SIP domain to be contoso.net.</span></span>
   
 
