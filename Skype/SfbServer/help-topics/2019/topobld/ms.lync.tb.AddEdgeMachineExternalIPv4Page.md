@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge 机器外部 IP IPv4
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在外部 IPv4，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: 7b155c98cd4f216c444f5604e383794dd43adb61
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b9886e34865740cf4a74d00a6a82da3aa8f5987
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202199"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889134"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="dca35-103">添加 Edge 机器外部 IP IPv4</span><span class="sxs-lookup"><span data-stu-id="dca35-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="d1428-103">添加 Edge 机器外部 IP IPv4</span><span class="sxs-lookup"><span data-stu-id="d1428-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="dca35-104">在**外部 IPv4**中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="dca35-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="d1428-104">在**外部 IPv4**中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。</span><span class="sxs-lookup"><span data-stu-id="d1428-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

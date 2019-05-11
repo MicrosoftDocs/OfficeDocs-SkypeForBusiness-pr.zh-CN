@@ -1,8 +1,8 @@
 ---
 title: 配置网络区域路由创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 88a4392172f3cd650dd8c33944c31a1578e67e67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4e6f44a7d26ee36e843b84c4fbda971cb4451497
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234684"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929067"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="04df9-104">配置网络区域路由：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="04df9-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="887d4-104">配置网络区域路由：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="887d4-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="04df9-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="04df9-105">What do you want to do?</span></span> <span data-ttu-id="04df9-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="04df9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="887d4-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="887d4-105">What do you want to do?</span></span> <span data-ttu-id="887d4-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="887d4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="04df9-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="04df9-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="887d4-107">配置网络区域路由</span><span class="sxs-lookup"><span data-stu-id="887d4-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
-<span data-ttu-id="04df9-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="04df9-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="887d4-108">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="887d4-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
