@@ -1,8 +1,8 @@
 ---
 title: 核心基础结构中的业务服务器 Skype 的最佳实践
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅您 Skype Business Server 基础结构，而且还使整个网络中受益。 如果还未实施这些做法，我们建议您这样做业务服务器部署 Skype 之前。
-ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66725331c84e3f2d24e496489e0db8ef9866d0e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213625"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896352"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>核心基础结构中的业务服务器 Skype 的最佳实践
  

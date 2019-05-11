@@ -1,8 +1,8 @@
 ---
 title: 呼叫寄存创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼叫寄存号码范围定义临时号码直到有人取回他们或其超时寄存的呼叫保存。
-ms.openlocfilehash: 466dc1d02ee15ae25e6c8fe6e9e8a0006298a60d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7573b64f93f10d1592d1beba2edf33fef626232b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221336"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890849"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>呼叫寄存：创建新的或编辑现有的
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business 中自定义 Mac 客户端体验
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
-ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ac398ec928ac4f00b107a2fb9bff1dda8e65cd68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212745"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893488"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  

@@ -1,8 +1,8 @@
 ---
 title: Phones 表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Phones 表是一个支持表。 每个表中的记录存储有关数据库中包含记录的 VoIP 呼叫中所涉及的一个电话号码的信息。
-ms.openlocfilehash: 733adec46e948c3b7f1d804f57011110355078f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ba13a059e043cf2a18c41c28dce1a2a54e694b9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212885"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930614"
 ---
 # <a name="phones-table"></a>Phones 表
  

@@ -1,8 +1,8 @@
 ---
 title: 向 Skype 中的用户的存档策略应用于业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 摘要： 了解如何为业务服务器在 Skype 中向用户分配存档策略。
-ms.openlocfilehash: aee6ba91d327f6af1c13680fb6477cf12627cafc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4375aa593b106283042d89413aa65a5eed707bbb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873750"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903156"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>向 Skype 中的用户的存档策略应用于业务服务器
 

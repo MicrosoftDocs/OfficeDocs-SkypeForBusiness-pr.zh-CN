@@ -1,8 +1,8 @@
 ---
 title: 发布挂起的 Skype for Business 中的语音路由配置更改
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 摘要： 了解如何查看、 发布或取消语音路由配置更改中 Skype 业务服务器使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: 9878e719234a5d7eff2e7321fa71e30c094d489a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 336b6a3eecf668078d2a68072e380113d20e3d12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222455"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892214"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>发布挂起的 Skype for Business 中的语音路由配置更改
  

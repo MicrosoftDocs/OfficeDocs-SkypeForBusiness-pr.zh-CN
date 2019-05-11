@@ -1,8 +1,8 @@
 ---
 title: 用户查看移动策略
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 视图-移动策略对话框显示所选的移动策略的属性。
-ms.openlocfilehash: d5e706c50a8a63c2278e910638c85c9d41bcbd84
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8e816d12474614c863c2fba06dac2b287514a614
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221558"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890786"
 ---
 # <a name="users-view-mobility-policy"></a>用户：查看移动策略
 

@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器中的企业语音的安全性和配置先决条件
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 摘要： 了解面向 Business Server Skype 中的企业语音的安全性和配置先决条件。
-ms.openlocfilehash: 522252119dd6e3699dc93e0191d50a3c09c023dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3cd6bcd6215790d2f36a49669bc5d7b78c1bcc29
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212479"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892382"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Skype 业务服务器中的企业语音的安全性和配置先决条件
  

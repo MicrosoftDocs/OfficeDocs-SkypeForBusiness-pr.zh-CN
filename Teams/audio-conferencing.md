@@ -1,24 +1,24 @@
 ---
 title: Microsoft Teams 中的音频会议实践指导
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: Rowille, lolaj
+ms.reviewer: rowille, crowe
 description: 使用展望（规划）、上线（交付）、推动价值（运营）框架在 Microsoft Teams 中规划、部署和管理音频会议的实践指导。
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8f7ef70bb7589facaec4cb131c3667464a658fbb
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 860abd5c1e7e725d2f2bd8217edc0bb5ea92b734
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401054"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925431"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================

@@ -1,8 +1,8 @@
 ---
 title: UriTypes 表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes 表包含的业务服务器 2015 Skype 中监控的不同 URI （统一资源标识符） 类型。
-ms.openlocfilehash: cb9c131901a322f9d22c8d29aa52a73dc27c9ea1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 72704715ff5e5fd3a354b75b0aa6baff45ecea54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212759"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930267"
 ---
 # <a name="uritypes-table"></a>UriTypes 表
  

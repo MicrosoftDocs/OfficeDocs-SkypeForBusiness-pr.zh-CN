@@ -1,8 +1,8 @@
 ---
 title: 证书请求（证书签名请求）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要创建的脱机请求，您必须首先创建的证书签名请求 (CSR)。 在文件名文本框中键入 CSR 的路径和文件名称。 您可以单击浏览以选择一个位置创建 CSR。 单击下一步。
-ms.openlocfilehash: 8987d40b4494d70cd588cb7bfc6804918c590df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 053b8577eccf86c1f0c8278f0bf3f89bee0860f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216359"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893782"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>证书请求（证书签名请求）
  

@@ -1,8 +1,8 @@
 ---
 title: 选择被拒绝的成员
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，a Persistent Chat Administrator 可配置有权在特定类别的聊天室的成员/创建者的主体 （Active Directory 域服务组/容器/用户）。 A Persistent Chat Administrator 还可以将 DeniedMembers 添加到类别和这些成为显式排除到允许列表。 DeniedMembers 重写 AllowedMembers 中是什么。
-ms.openlocfilehash: b5bafd8f1ffe021852804250a84a743169fe8fb7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4041fc49325cf64560a07fc8d317e5560be9daaf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215099"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890968"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
 

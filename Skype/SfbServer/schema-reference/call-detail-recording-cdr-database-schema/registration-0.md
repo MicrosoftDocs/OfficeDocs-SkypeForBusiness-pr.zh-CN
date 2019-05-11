@@ -1,8 +1,8 @@
 ---
 title: 注册视图
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 注册视图存储有关用户注册信息。 此视图是在 Lync Server 2013 中引入的。
-ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 820e99296b93743d13709e5296ed1c317079be3b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212850"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930656"
 ---
 # <a name="registration-view"></a>注册视图
  

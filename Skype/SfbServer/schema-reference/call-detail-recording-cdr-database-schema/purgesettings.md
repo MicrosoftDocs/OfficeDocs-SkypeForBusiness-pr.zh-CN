@@ -1,8 +1,8 @@
 ---
 title: PurgeSettings 表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 表包含用于指定是否 （以及何时） 的信息将自动从 CDR 数据库中删除过时的呼叫详细记录。 请注意，清除相关的信息也可以获得从 Skype 内的业务服务器 2015年通过运行以下命令：
-ms.openlocfilehash: 10dd9c6969f84453c880de130222b3b9d71db77a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1e982d50ab029ec2756e8fb4a92f5c01dc327b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212836"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930719"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 表
  

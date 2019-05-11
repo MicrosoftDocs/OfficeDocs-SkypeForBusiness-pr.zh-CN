@@ -1,8 +1,8 @@
 ---
 title: 选择企业语音用户
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择企业语音用户对话框查找启用了企业语音的用户。 在搜索框中，键入 SIP 地址或显示您想要查找，用户的名称，然后单击查找。 要选择用户，请单击搜索结果列表中的用户，然后单击确定。 如果找不到您要查找的用户，可能未启用企业语音的用户。
-ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cca18d144c7017fdc81325586576b4636ce238b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221586"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890814"
 ---
 # <a name="select-enterprise-voice-users"></a>选择企业语音用户
  

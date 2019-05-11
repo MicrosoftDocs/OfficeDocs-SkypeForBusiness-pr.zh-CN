@@ -1,8 +1,8 @@
 ---
 title: 响应组组
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组组成代理组、 队列和工作流。 代理组是人员的一组指定为应答响应组呼叫。
-ms.openlocfilehash: 52032cd3c5141ce407809301db7cfc3a93557de5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 25e5f9982814da30c9171432defe61f86b7e4d0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215218"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891318"
 ---
 # <a name="response-groups-group"></a>响应组：组
 

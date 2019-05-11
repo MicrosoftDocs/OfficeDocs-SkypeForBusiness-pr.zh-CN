@@ -1,8 +1,8 @@
 ---
 title: ConferenceUris 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: ConfereneUris 表是一个支持表，用于存储各种会议已参与记录数据库中的会议会话的 Uri 的列表。 表中的每条记录代表一个会议 URI。
-ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70cb3ccecf1c63dd128cbffd6ac205e77c771835
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213212"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901064"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>ConferenceUris 表中的业务服务器 2015 Skype
  

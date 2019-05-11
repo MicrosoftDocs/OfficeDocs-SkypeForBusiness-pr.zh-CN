@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 中针对后端服务器高可用性部署 SQL 镜像
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息，请参阅累积更新程序包 9 的 SQL Server 2008 Service Pack 1。
-ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ae34271fc85b16e411daa39d4b087508186d6ff6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225516"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894603"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>部署 SQL 镜像后端服务器高可用性 Skype 中的业务服务器 2015
 

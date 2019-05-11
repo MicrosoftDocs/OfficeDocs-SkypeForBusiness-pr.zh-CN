@@ -1,8 +1,8 @@
 ---
 title: 前缀编辑
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义前缀或起始数字，添加此路由应处理，包括的号码前缀 + 必要。 例如，您可以与 +123 开头的所有号码相都匹配。
-ms.openlocfilehash: 99b445b02e36f162105ddaa91b543b85f9e05cb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: feebc5e1fd22c39222ed42158f2f55eba6e609f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221199"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890471"
 ---
 # <a name="prefix-edit"></a>前缀编辑
  

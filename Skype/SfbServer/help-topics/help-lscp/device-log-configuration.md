@@ -1,8 +1,8 @@
 ---
 title: 设备日志配置
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为您的组织数据管理策略的一部分，您可能想要设置阈值日志数据缓存大小、 日志文件大小或的日志文件在被清除之前保留的时间长度。 您可以更改这些设置根据贵组织的要求。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
-ms.openlocfilehash: cf90d1e54dd8d7739f609c06f39380e5f8b641a8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4475efcee20846a7ff651265a13b34b3b9a43a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200738"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914028"
 ---
 # <a name="device-log-configuration"></a>设备日志配置
 

@@ -1,8 +1,8 @@
 ---
 title: 网络配置全局设置
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f1495ab62c0b9cf25944361ddee687aaecfd6bc7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3f20b3567ae69deb10cd9f02e198f9cb973cb8c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215386"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891241"
 ---
 # <a name="network-configuration-global-setting"></a>网络配置：全局设置
 

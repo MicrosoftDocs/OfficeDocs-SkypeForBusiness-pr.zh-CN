@@ -1,8 +1,8 @@
 ---
 title: 对 Skype for Business Server 的统计信息管理器进行故障排除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
-ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883804"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906681"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
@@ -171,7 +171,7 @@ ms.locfileid: "30883804"
 ## <a name="for-more-information"></a>有关详细信息
 <a name="BKMK_Website"> </a>
 
-有关详细信息，请参阅以下文章：
+有关详细信息，请参阅：
   
 - [Skype for Business Server 的统计信息管理器规划](plan.md)
     

@@ -1,7 +1,7 @@
 ---
 title: Skype 会议应用的最低网络要求
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 摘要： 为不使用 Office 365，并需要访问托管执行操作的组织的会议的组织的的信息。
-ms.openlocfilehash: 00862a4acecb8a5e6555f44d9416a2efa5834e61
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6dafdb57db2ce3609b4fa97dba44ebe6b70a9373
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214510"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926105"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会议应用的最低网络要求
  

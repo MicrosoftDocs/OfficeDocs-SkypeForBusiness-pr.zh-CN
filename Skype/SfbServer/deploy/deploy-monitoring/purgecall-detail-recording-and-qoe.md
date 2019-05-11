@@ -1,8 +1,8 @@
 ---
 title: 为业务 Server 中手动清除呼叫详细信息记录和 Skype 中的用户体验质量数据库
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 摘要： 了解如何手动清除 CDR 和 QoE 数据库 for Business Server 使用的 Skype 的记录。
-ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 547200d01cff52038fcfe5430cbe453799be2431
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225467"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894442"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>为业务 Server 中手动清除呼叫详细信息记录和 Skype 中的用户体验质量数据库
  

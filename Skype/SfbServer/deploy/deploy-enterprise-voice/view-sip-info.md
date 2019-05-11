@@ -1,8 +1,8 @@
 ---
 title: 查看 Business server Skype 中的单个 SIP 中继的信息
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 摘要： 了解如何为业务服务器在 Skype 中查看有关 SIP 中继的信息。
-ms.openlocfilehash: 105d093b302bc61816464ed3998ab985769f5e54
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a7cf290bf245092e08babcaa86c642dd0f0a4265
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222524"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892235"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>查看 Business server Skype 中的单个 SIP 中继的信息
  

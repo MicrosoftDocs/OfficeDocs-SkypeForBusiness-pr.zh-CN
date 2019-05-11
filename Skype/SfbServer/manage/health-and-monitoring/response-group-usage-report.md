@@ -1,8 +1,8 @@
 ---
 title: Skype 中的业务服务器的响应组使用情况报告
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 摘要： 了解 Business Server Skype 中的响应组应用程序。
-ms.openlocfilehash: c0126a483b97a1ede28e6fea450668a6921f4ffc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0638c6d6ab6718e3974a41701c75b21b2600504e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197882"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897595"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Skype 中的业务服务器的响应组使用情况报告
 

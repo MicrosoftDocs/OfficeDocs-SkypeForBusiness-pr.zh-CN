@@ -1,8 +1,8 @@
 ---
 title: Lync 2010 客户端计算机上配置个人联系人存储
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 1/29/2019
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 摘要： 配置旧客户端使用的个人联系人存储。
-ms.openlocfilehash: 4afb40f57043988768118a0b83c0afe7e9df0028
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5545f3c0f993b1974f59e90c0b6672f3ebd246e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216653"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894258"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 客户端计算机上配置个人联系人存储
   

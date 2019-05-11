@@ -1,8 +1,8 @@
 ---
 title: 证书向导
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从您的组织的公钥基础结构 (PKI) 申请证书，您需要确认什么其他 — 如果任何 — 组需要的成员身份。 期间请求任务中，您可以输入备用凭据将用于请求来自 PKI 证书的颁发 CA。
-ms.openlocfilehash: afa36085fb4e8a1937facac204d78d5c0c61af9b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7c85272d9bddb0c25dae4e7623f57aafde670539
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216296"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893789"
 ---
 # <a name="certificate-wizard"></a>证书向导
  

@@ -1,8 +1,8 @@
 ---
 title: 电话拨入访问号码创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: c588c76c9e84a8f384c404de5aaee6640b21f063
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96d4597c3b147474f79935a11bfcc112248aea3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215778"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891619"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>拨入访问号码：创建新的或编辑现有的
 

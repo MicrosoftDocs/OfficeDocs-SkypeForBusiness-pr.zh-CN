@@ -1,8 +1,8 @@
 ---
 title: 添加服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 若要将新服务器添加到现有池的服务器，其中池是以下项之一：
-ms.openlocfilehash: 6aaa8c29e6eb8ae7742b28aff82a25bd596a2cdb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ec03d28f71dffbeaa4b06594bd634e80e522665
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887170"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897322"
 ---
 # <a name="add-server"></a>添加服务器
  

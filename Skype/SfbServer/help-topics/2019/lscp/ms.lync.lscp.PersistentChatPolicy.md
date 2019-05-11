@@ -1,8 +1,8 @@
 ---
 title: 持久聊天策略
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用“持久聊天”组的“持久聊天策略”页来管理全局级、池级、站点级或用户级的策略，包括为部署配置默认全局策略以及创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，然后持久聊天服务器环境中将显示他们的客户端。
-ms.openlocfilehash: 96ac4afd1cfdde0430d98a7797e8c8ba69e920b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 680324ce1aafb3fdb754308fa90146a786cf7c4d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215232"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891108"
 ---
 # <a name="persistent-chat-policy"></a>持久聊天策略
 

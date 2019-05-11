@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services（调用）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 部署监控服务器报告 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务，向页上执行命令显示的摘要发出安装的命令提供所需的信息之后SQL Server Reporting Services 报告。
-ms.openlocfilehash: 6457d17a3e8fff4d93aeedb5f7526c23ccc5b064
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4d0796a92e09f9bd067b2eb466ceef9c4a9846ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216044"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892046"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  

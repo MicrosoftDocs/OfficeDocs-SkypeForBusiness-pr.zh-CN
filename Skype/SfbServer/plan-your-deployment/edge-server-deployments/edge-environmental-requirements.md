@@ -1,10 +1,11 @@
 ---
 title: 边缘服务器环境要求中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: conceptual
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要： 了解 Business Server Skype 中的边缘服务器的环境要求。
-ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab4f8ea78eaceff87d3c17ec4325776ad1d8a117
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207158"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895616"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>边缘服务器环境要求中 Skype 业务服务器
  
@@ -80,9 +81,9 @@ Skype 的业务 Server 边缘服务器拓扑还可以使用：
 |:-----|:-----|:-----|:-----|:-----|
 |使用专用 IP 地址和 NAT 的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
 |使用公用 IP 地址的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是   <br/> |是   <br/> |是   <br/> |Yes&sup1;  <br/> |
-|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是   <br/> |是   <br/> |是   <br/> |Yes&sup1;  <br/> |
-|使用硬件负载平衡器的扩展合并边缘  <br/> |是  <br/> |不支持（每个 VIP 一个 DNS A 记录）  <br/> |是  <br/> |是   <br/> |
+|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
+|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
+|使用硬件负载平衡器的扩展合并边缘  <br/> |是  <br/> |不支持（每个 VIP 一个 DNS A 记录）  <br/> |是  <br/> |是  <br/> |
    
 &sup1;Exchange 统一消息 (UM) 使用 DNS 负载平衡的远程用户故障转移需要 Exchange 2013 或更高版本。
   

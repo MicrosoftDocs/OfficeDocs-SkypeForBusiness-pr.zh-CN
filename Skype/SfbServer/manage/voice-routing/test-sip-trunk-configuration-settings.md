@@ -1,20 +1,20 @@
 ---
 title: 测试 SIP 中继配置设置中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。 '
-ms.openlocfilehash: 3f251ea720ab220ccda0cfe9882d4a8396085aa0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1caf96e9979936c8fb9ff61d9b28b613fb09ce7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214622"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902262"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>测试 SIP 中继配置设置中 Skype 业务服务器
 

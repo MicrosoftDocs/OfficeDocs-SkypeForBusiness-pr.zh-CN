@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器中 Skype 的拓扑生成器中定义网关
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要： 了解如何为业务服务器中 Skype 的拓扑生成器中定义 PSTN 网关。
-ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 40658bf91513701cc41eb6efdb02e3976672f1f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223175"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892865"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>为业务服务器中 Skype 的拓扑生成器中定义网关
  

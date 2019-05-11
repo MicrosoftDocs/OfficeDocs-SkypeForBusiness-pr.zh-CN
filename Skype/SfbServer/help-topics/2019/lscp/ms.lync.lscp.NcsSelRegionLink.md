@@ -1,8 +1,8 @@
 ---
 title: 选择区域链接
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“区域链接”对话框查找环境中可用的区域链接。 要使用现有区域链接，请单击列表中的某个区域链接，然后单击“确定”。
-ms.openlocfilehash: 512171611a11572f1e3be385b04d566011155e9a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1f8b67bc8549ab99ab1f396dab074dfdf5852a66
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215288"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891283"
 ---
 # <a name="select-a-region-link"></a>选择区域链接
  

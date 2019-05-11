@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器在 Skype 安装监控报告
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 摘要： 了解如何安装将监控报告中生成 Skype 业务服务器服务。
-ms.openlocfilehash: ee500d3440e4211bc42566a7cbdd47ee2cd4cc0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 398159544375a43faba15c4e62cbe240b2636cdb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225502"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894554"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>为业务服务器在 Skype 安装监控报告
  

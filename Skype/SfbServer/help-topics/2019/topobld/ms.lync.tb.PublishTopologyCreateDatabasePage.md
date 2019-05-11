@@ -1,8 +1,8 @@
 ---
 title: 创建数据库
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器提供一种方法在 SQL Server 存储上安装数据库。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后将所需的数据库安装在指定的 SQL Server 计算机或 SQL Server 群集。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果您需要在特定计算机上，安装特定数据库，或者必须安装并置的数据库，您必须改为使用 Windows PowerShell 命令行界面和的 Install-csdatabase cmdlet。
-ms.openlocfilehash: 0929c87381fb6535d076161a301a662a15452024
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: db163598ff5116e1f42dbb4a52d1d4fcbda18081
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201634"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919736"
 ---
 # <a name="create-database"></a>创建数据库
  

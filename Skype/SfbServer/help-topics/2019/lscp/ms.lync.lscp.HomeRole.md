@@ -1,8 +1,8 @@
 ---
 title: 管理角色和 Skype 的业务 Server Control Panel
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为了使您能够保持高标准安全性的同时委派管理任务，Skype 业务服务器支持基于角色的访问控制 (RBAC)。
-ms.openlocfilehash: 928b0c9602c309e63c3fb6a61bdbcceeb2d9f539
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7e65291c7eb14618c3b78caf8425e0242f5a7e07
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215547"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891472"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>管理角色和 Skype 的业务 Server Control Panel
 

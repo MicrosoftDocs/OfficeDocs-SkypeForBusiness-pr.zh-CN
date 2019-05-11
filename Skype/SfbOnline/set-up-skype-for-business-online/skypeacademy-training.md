@@ -1,19 +1,19 @@
 ---
 title: Skype for Business Online 管理培训
 ms.reviewer: ''
-author: thomasbinder
-ms.author: thomasbinder
-manager: lehewe
+author: lanachin
+ms.author: v-lanac
+manager: serdars
 ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro
 description: 这些培训视频介绍 Skype for Business 并向管理员讲解如何规划、部署和操作 Skype for Business。
-ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5577b5dac34ddc2e2aa6707411610b31fbc8a056
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247449"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911353"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理培训
 ==================================

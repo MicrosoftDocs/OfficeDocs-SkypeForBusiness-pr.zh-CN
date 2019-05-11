@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器中的 PSTN 连接组件
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 了解有关 SIP 中继和 PSTN 网关的 Skype 中的企业语音的企业服务器。
-ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e0e27f496512343f26f0d3d005221ecd8264723
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206520"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913583"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Skype 业务服务器中的 PSTN 连接组件
  

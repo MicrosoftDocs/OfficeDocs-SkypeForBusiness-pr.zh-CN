@@ -1,20 +1,20 @@
 ---
 title: 为业务服务器中 Skype 配置中继
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 作为企业语音部署的一部分，您可以配置您的组织中的企业语音客户端和设备提供公用电话交换网 (pstn) 连接的中介服务器和一个或多个对等方之间的中继。
-ms.openlocfilehash: 5e07f0152aac32c4d57962cf619e56777221c955
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 293685436997833c21dbd7b0d98521202e1beb99
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214765"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896262"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>为业务服务器中 Skype 配置中继
 

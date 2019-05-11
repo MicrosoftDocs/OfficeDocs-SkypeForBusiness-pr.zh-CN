@@ -1,8 +1,8 @@
 ---
 title: 拓扑生成器启动对话框
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 启动拓扑生成器配置的属性和部署的配置。 在启动时，拓扑生成器显示一个对话框，询问将哪些拓扑文档的来源。 您选择三个选项之一：
-ms.openlocfilehash: eb464902ff7ce1cd20a18be4829753e2ad8528c1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0050c6565a9c65dbd359eb5103c0ca8e8599735a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201573"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911007"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
  

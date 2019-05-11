@@ -1,8 +1,8 @@
 ---
 title: 新的呼叫号码转换规则
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 您可以使用新的中继配置： 新建呼叫号码转换规则以创建新的转换规则。 有关转换规则的详细信息，请参阅以下主题：
-ms.openlocfilehash: 61843bf106b68bfc16b1f8d55c342ea9d5c68e96
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 713a6535415de4a6e9fd7fdad12033b20b75e0af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220282"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910663"
 ---
 # <a name="new-calling-number-translation-rule"></a>新的呼叫号码转换规则
 

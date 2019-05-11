@@ -1,8 +1,8 @@
 ---
 title: 会议配置创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置中定义的用户安排的会议的用户加入体验。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的立即开会选项创建的临时会议。
-ms.openlocfilehash: cc997e2ed523ad958c08325112dc661c5a56e6ca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 05613fb9c8df89bb9c7efc5fe7bfced78ca12574
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216149"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891584"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会议配置：创建新的或编辑现有的
 

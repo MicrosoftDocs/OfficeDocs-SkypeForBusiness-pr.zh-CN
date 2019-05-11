@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 创建支持者计划
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何培训工作组的拥护者提升团队应用。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5f708ee518915c7462be7aa8c8494f72e7edd17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a077db0e49837bb575385c241877e0eedcbdec1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227597"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896366"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 

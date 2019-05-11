@@ -1,8 +1,8 @@
 ---
 title: 部署向导请求证书
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 description: 有关使用部署向导安装业务服务器 2015 Skype 的详细信息，请参阅安装 Skype 的业务服务器 2015年。
-ms.openlocfilehash: 8adc283a2196b8bc1b86f39e6365bb112060203a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3d2a0dcbdaade34c17ae1ebc689cf4529a693d70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220570"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921109"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>部署向导：请求证书
  

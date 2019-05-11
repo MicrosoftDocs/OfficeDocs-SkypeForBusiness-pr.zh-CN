@@ -1,8 +1,8 @@
 ---
 title: 证书请求（证书颁发机构帐户）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要提交一个请求，证书颁发机构 (CA) 可能需要之外的当前以登录用户的凭据。
-ms.openlocfilehash: 71239d8b4648c08de12b0c425c5050c5c4f2e0ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c7919e03449553856e84b4193d8cef475b659aca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216387"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893845"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>证书请求（证书颁发机构帐户）
  

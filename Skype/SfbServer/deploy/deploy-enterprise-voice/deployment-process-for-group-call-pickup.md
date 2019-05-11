@@ -1,8 +1,8 @@
 ---
 title: 组中的业务的 Skype 调用的分拣的部署过程
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 部署过程和步骤组中的业务 Server 企业语音的 Skype 调用的分拣。
-ms.openlocfilehash: 92dbb6ef4a96ed4972794a61814abcd31586ffb3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e31d6159296a73af1da112cb3dee2e75cfa55a3e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223060"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892599"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>组中的业务的 Skype 调用的分拣的部署过程
  

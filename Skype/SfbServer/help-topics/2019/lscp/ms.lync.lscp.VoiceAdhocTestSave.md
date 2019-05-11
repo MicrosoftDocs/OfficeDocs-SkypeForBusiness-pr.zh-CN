@@ -1,8 +1,8 @@
 ---
 title: 保存语音路由测试案例信息
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
-ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221509"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890772"
 ---
 # <a name="save-voice-routing-test-case-information"></a>保存语音路由测试案例信息
  

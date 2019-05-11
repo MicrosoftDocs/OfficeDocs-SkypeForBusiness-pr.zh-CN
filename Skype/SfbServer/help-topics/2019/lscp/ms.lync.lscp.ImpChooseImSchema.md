@@ -1,8 +1,8 @@
 ---
 title: 选择超链接前缀
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用选择超链接前缀对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名下的类别中对应的复选框超链接前缀。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。
-ms.openlocfilehash: 59e5c5c4b5dd84ce12ffc7cf52717cdd5c6cc3cb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a62b0b786864926a4b6415cd959d369b807d34cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215554"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891444"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  

@@ -1,8 +1,8 @@
 ---
 title: 将前端与 AV MCU 关联
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A / V 会议启用实时音频和视频您的用户之间的通信 （即，如果他们有相应的客户端设备，如适用于音频会议的耳麦和用于视频会议的网络摄像机）。 如果您的部署支持会议并启用 web 会议和 A / V 会议，您可以将并置的 A / V 会议服务器与前端服务器)，或者您可以部署一个或多个独立的 A / V 会议服务器 (A / V 会议池). 如果您选择的选项以部署独立的 A / V 会议服务器，您必须定义它在拓扑生成器中。
-ms.openlocfilehash: 62b6dfc54fcbdd839fce9b317d0256845f3c2c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 542634946f86adfe6839ea1eb37037cb920e337d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227458"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925002"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>将前端与 AV MCU 关联
  

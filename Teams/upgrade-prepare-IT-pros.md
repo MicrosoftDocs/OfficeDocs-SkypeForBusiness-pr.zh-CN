@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队培训 |IT 管理问题的支持
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203923"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906845"
 ---
 ![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
 
@@ -38,7 +38,7 @@ ms.locfileid: "32203923"
 与您的 IT 员工成员共享的以下资源，并确认他们准备好开始升级到团队之前支持用户：
 
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
-- [与支持部门联系业务产品的管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [使用 Microsoft Teams 客户端解决连接性问题](connectivity-issues.md)
 - [在对 Microsoft Teams 进行故障排除时使用日志文件](log-files.md)
 

@@ -1,8 +1,8 @@
 ---
 title: 管理 Skype for Business Server 2015 中的持久聊天服务器
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 摘要： 了解如何管理 Persistent Chat Server in Skype for Business Server 2015。
-ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 27405be6d209089c670aa117838e959bae64d9e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899107"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910219"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>管理 Skype for Business Server 2015 中的持久聊天服务器
  

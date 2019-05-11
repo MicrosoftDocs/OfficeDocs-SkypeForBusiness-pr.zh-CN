@@ -1,19 +1,20 @@
 ---
 title: 配置和监控备份服务
 ms.reviewer: ''
-author: heidip
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype 业务 Server 命令行管理程序命令可用于配置和监控备份服务。
-ms.openlocfilehash: 3a41caecb4e123505da2d529ea74c22a5d0e28e7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa6a1aca7e753877c15f64c3736a09ad9e2ca066
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199875"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903149"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>配置和监控业务服务器中 Skype 的备份服务
 

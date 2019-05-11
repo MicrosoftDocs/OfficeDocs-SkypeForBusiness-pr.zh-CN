@@ -1,7 +1,7 @@
 ---
 title: 创建呼叫队列
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置电话系统的云呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 844ea569da6f59def0ee4df7739456c1f10e7dff
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199256"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902868"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -66,7 +66,7 @@ ms.locfileid: "32199256"
 - 您只需使用的电话号码分配给他们许可资源帐户。 在嵌套的自动助理或呼叫队列中，您不需要许可证自动助理的其余部分或呼叫队列，如果没有与其关联的电话号码。 
 
 > [!NOTE] 
-> 直接路由服务号码自动助理和呼叫队列此时仅支持的 Microsoft 团队用户和代理。
+> Microsoft 团队用户和代理仅支持直接路由服务号码的自动助理和呼叫的队列。
 
 > [!NOTE] 
 > 现在您需要使用用户授权模型，Microsoft 的协作的应用程序云自动助理和呼叫的队列，如适当许可模型中。

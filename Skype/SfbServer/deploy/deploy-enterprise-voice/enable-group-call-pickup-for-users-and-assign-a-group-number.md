@@ -1,8 +1,8 @@
 ---
 title: 为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-ms.openlocfilehash: f2d02aa4993e103b786894f642dd88ca93dcf354
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 92429e256a222d56ad7c281db57185b497f714e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212493"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892459"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
 

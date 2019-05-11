@@ -1,8 +1,8 @@
 ---
 title: 定义持久聊天池中的计算机
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 您定义的计算机，通过在计算机 FQDN 中键入完全限定的域名 (FQDN) 将持久聊天服务器池的一部分。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
-ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9350a31a025c71d1611379eb4e881b7c0eb3f18f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226898"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903584"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定义持久聊天池中的计算机
  

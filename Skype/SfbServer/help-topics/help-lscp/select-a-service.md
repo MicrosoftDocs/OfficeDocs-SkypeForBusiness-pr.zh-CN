@@ -1,8 +1,8 @@
 ---
 title: 选择一个服务
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用“选择服务”对话框查找环境中可用的服务。 要使用现有服务，请单击列表中的某个服务，然后单击“确定”。
-ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6ac1ac46e729c35df3981ba3d130553d6b8f0db1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220155"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924512"
 ---
 # <a name="select-a-service"></a>选择一个服务
 

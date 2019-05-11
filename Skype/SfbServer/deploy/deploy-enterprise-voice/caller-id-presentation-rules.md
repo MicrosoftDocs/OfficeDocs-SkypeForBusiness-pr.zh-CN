@@ -1,8 +1,8 @@
 ---
 title: 创建或修改转换规则的呼叫者 ID 演示文稿中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要： 了解如何使用适用于业务 Server Control Panel Skype 配置呼叫者 ID。
-ms.openlocfilehash: cfd6af9d31d165bc18f45439cf8925b0e47055d5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8b870e855ee002b002cbe28756a95269559cea6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223709"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893103"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫者 ID 演示文稿中 Skype 业务服务器
 
