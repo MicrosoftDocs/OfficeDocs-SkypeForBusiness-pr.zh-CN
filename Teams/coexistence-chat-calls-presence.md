@@ -1,7 +1,7 @@
 ---
 title: 与 Skype for Business 共存
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了基于分配 TeamsUpgrade 模式的聊天、 呼叫路由和团队的用户和业务，在租户和联盟的 Skype 之间的状态的行为。 它包括路由优化、 状态行为，以及从*旧**群岛*到默认 TeamsUpgrade 模式的更改和*旧*即将退休。
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198781"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929102"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

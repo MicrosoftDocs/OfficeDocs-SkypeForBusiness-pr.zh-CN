@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services（简介）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: 每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。 启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a64444ca5b47de4527c27b7e08d4011646c604dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234907"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925121"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services（简介）
  

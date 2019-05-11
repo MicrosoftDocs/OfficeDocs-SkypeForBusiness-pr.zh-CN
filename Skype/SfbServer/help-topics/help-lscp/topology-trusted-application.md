@@ -1,8 +1,8 @@
 ---
 title: 拓扑受信任应用程序
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c664d433cf84967fb09a6400d6c99c0da66c0fc2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200455"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929446"
 ---
 # <a name="topology-trusted-application"></a>拓扑：受信任应用程序
 

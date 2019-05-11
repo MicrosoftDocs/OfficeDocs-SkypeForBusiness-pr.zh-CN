@@ -1,20 +1,20 @@
 ---
 title: 测试中 Skype 业务服务器的管理员权限
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如何为业务服务器在 Skype 测试管理员权限
-ms.openlocfilehash: 3f3f649ea01f974cf0462cabb7784bedc7a6df4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f769870991cfd5578fc8bd809d26c0aea912d03a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214713"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898288"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>测试中 Skype 业务服务器的管理员权限
 

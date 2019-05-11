@@ -1,8 +1,8 @@
 ---
 title: 适合于 Lync Server 2010 的前端中介服务设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 编辑此对话框中的中介服务器 PSTN 网关设置的属性。 定义以下设置：
-ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acf671e8fd3d980e2050221be884b628d24bcbef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180174"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888658"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的前端中介服务设置扩展器
  

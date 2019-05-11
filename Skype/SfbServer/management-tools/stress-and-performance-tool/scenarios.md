@@ -1,9 +1,10 @@
 ---
 title: 为业务服务器 2015年压力和性能工具 Skype 的性能方案
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 12/17/2015
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 您需要执行的操作配置的业务服务器 2015 执行性能和负载测试的 Skype 使用压力和性能工具的任务。
-ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 06ca34717080421129fc03475103b34804ef280a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194616"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901695"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>为业务服务器 2015年压力和性能工具 Skype 的性能方案
  

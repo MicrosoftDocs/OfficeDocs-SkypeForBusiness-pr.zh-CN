@@ -1,8 +1,8 @@
 ---
 title: 客户端版本配置
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 除了指定您想要在您的环境中支持的客户端版本，还可以为尚不具有定义的版本策略的客户端中指定的默认操作。 这使您可以限制在您的环境，可帮助您控制与支持多个客户端版本相关的成本中使用哪些客户端版本。
-ms.openlocfilehash: 99938b2474a467c7c80148a7e0c3cab12320381f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 33f272898465efb3293af61afd315b7e7fb96413
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200940"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887263"
 ---
 # <a name="client-version-configuration"></a>客户端版本配置
 

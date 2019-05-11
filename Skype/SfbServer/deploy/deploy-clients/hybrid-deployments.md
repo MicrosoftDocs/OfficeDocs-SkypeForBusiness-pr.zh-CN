@@ -1,7 +1,7 @@
 ---
 title: Skype 会议室系统混合部署
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 阅读本主题可了解如何在混合环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 40cbcd7cd95b6a5dc7542f913fe7599bedc7eb85
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2f48707fd4e247a952bc17d26284a8a29eba025a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219449"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895171"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 会议室系统混合部署
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 来宾访问清单
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0273a9b6c308d8d53fdb640bac6787568398c5be
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: a49090f8ce82d825fc0eb153910d377429595922
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865095"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919029"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================

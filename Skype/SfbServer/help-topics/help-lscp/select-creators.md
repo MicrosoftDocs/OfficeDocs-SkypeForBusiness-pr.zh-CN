@@ -1,8 +1,8 @@
 ---
 title: 选择创建者
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: 创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators 和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用 Skype 业务 Server Control Panel 或 Windows PowerShell cmdlet 管理类别。
-ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 26a99cd950e05810e65d3f51c7737fba2703fd9a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200595"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924526"
 ---
 # <a name="select-creators"></a>选择创建者
 

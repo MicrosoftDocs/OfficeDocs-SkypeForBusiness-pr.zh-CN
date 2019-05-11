@@ -1,6 +1,6 @@
 ---
 title: Skype 会议广播预览设置
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - SMB
 description: 为业务客户预览计划 Skype 提供您及早访问对新产品和功能。 使您的组织获取快速浏览内容即将，测试出您自己的环境中的新功能并提供反馈，我们释放向公众的产品版本之前。 若要了解更多信息，请参阅 Business 预览 Skype。
-ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226141"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906566"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会议广播预览设置
 

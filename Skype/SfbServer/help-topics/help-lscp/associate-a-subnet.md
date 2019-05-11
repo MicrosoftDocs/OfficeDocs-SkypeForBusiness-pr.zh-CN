@@ -1,8 +1,8 @@
 ---
 title: 关联子网
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 5b63dbb3d89a8ba526804b69fdf82bce79c81bfa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c4f32988e97f5a4b58c6a09c236681b4e71863b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234814"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915731"
 ---
 # <a name="associate-a-subnet"></a>关联子网
 

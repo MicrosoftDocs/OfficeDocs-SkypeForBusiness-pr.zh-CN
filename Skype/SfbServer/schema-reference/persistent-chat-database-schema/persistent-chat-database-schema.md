@@ -1,8 +1,8 @@
 ---
 title: 持久聊天数据库架构
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 这业务服务器记录 Skype 的持久聊天数据库的架构。
-ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5e10f47a7eeb04de08766bae2957773db35d88f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212689"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930006"
 ---
 # <a name="persistent-chat-database-schema"></a>持久聊天数据库架构
  

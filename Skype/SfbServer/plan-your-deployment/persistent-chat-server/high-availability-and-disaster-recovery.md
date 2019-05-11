@@ -1,8 +1,8 @@
 ---
 title: 规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/17/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 摘要： 阅读本主题可了解如何规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2114faf7c4da205697a8bccd5a1ce299a627be5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213818"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924463"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>规划高可用性和灾难恢复对于 Persistent Chat Server in Skype 业务服务器 2015
  

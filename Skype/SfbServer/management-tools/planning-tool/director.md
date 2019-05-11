@@ -1,8 +1,8 @@
 ---
 title: Director (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: 控制器是运行业务服务器 2015年通信软件可以进行身份验证的用户请求，但不承载任何用户帐户的 Skype 的服务器。
-ms.openlocfilehash: b6cdecd01183f8e249aaf97e6b4e7bbbbfcbe7cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66d7454c2b1e5de50701a3fe7445df9319f912a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217269"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915092"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  

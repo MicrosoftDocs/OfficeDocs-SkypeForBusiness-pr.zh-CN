@@ -1,8 +1,8 @@
 ---
 title: 规划大型会议中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要： 阅读本主题可了解有关实施和管理大型会议中 Skype 业务 server 最佳实践。
-ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32faf7627ddcc691f95bab616a59cf008393b360
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214370"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920466"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>规划大型会议中 Skype 业务服务器
  

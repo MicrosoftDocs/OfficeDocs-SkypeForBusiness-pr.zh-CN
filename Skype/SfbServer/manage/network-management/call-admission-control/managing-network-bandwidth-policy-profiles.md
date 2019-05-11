@@ -1,20 +1,20 @@
 ---
 title: 管理网络带宽策略配置文件
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 使用本文中的过程以查看、 创建、 修改或删除网络带宽策略配置文件。
-ms.openlocfilehash: d27e4df1b549afd3c176f8b54453c44bb97819f8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc76af70002cc1f5b59b754cd8b86fe0d4c5327f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878898"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888840"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络带宽策略配置文件
 

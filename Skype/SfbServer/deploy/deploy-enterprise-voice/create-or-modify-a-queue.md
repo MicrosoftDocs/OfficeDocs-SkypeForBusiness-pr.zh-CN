@@ -1,8 +1,8 @@
 ---
 title: 创建或修改 Skype for Business 中的队列
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223210"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892914"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>创建或修改 Skype for Business 中的队列
  

@@ -1,8 +1,8 @@
 ---
 title: 基于位置的业务服务器路由中 Skype 的会议
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 规划基于位置的业务 Server 企业语音路由的 Skype 中的会议，包括咨询呼叫传输。
-ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a38ac054dd7b8bd916a3020f096c8f40e6e8b312
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207095"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924211"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>基于位置的业务服务器路由中 Skype 的会议
 

@@ -1,8 +1,8 @@
 ---
 title: AudioStreamDetail 视图
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail 视图在数据库中存储有关每个音频流的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 770ccad50a6f48aa41e4ba2f105d1fc0d4879d87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212289"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920052"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail 视图
  

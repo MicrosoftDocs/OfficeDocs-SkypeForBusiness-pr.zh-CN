@@ -1,8 +1,8 @@
 ---
 title: 持久聊天服务器表的列表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 持久聊天数据库架构由以下表组成。
-ms.openlocfilehash: e2ce24bb37c3ea4eaee0986f0243033ab4a8a18a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3038c68004d516ce772e49af098d8520c5a1ce00
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213219"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929824"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>持久聊天服务器表的列表
  

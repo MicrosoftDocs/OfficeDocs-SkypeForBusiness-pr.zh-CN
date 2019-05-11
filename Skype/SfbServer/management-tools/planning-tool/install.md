@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 中安装规划工具
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/5/2016
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 之前开始设计和使用 Skype 业务 Server 2015 规划工具规划您 Skype 业务服务器 2015年基础结构，您必须首先安装规划工具。 规划工具不需要部署到的工作站或服务器的域或基础结构的一部分打算为业务服务器 2015年安装 Skype。 该规划工具附带的自述文件详细介绍有关安装和使用该工具的重要信息。 Some of the information in the Readme file is duplicated here for clarity.
-ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64d510eedc01149e7119e3ec92ea09cd9a6c842a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217297"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915022"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装规划工具
 

@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器的参考拓扑
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Skype 业务服务器，包括图和决定大型、 中型和小型组织的参考拓扑。
-ms.openlocfilehash: 6dd4c12d400408d284a21b55d983ba655bfd7bdd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4cf7a33f06c3d181bc5213f67e19479665dbce6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207606"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895080"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype 业务服务器的参考拓扑
 

@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 中启动或停止捕获 CLS 日志
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要： 了解如何启动或停止正在 Skype 的集中日志记录服务日志捕获会话的业务服务器 2015年。
-ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83c65d8bad89e8b5314ea2f76b07c6c3016a7dd0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217555"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915064"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中启动或停止捕获 CLS 日志
  

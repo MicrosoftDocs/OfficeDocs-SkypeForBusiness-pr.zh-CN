@@ -1,8 +1,8 @@
 ---
 title: Skype 业务 Online 和 Exchange 服务器之间的集成
 ms.reviewer: cbland
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/2/2019
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 配置 OAuth 业务 online 本地 Exchange 和 Skype 之间的身份验证使 Skype 功能支持中所述的业务和 Exchange 集成功能。
-ms.openlocfilehash: 976aae8287c1d9f209975d53ebc64ac80033c591
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c6a3819c9ec6ae0c207307a23f67bf04e4f07ac0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216660"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894237"
 ---
 # <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>配置 Skype for Business 联机或 Microsoft 团队和 Exchange 服务器之间的集成 
 

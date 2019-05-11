@@ -1,8 +1,8 @@
 ---
 title: Skype for Business 的负载平衡要求
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要： 查看的负载平衡的企业服务器实现 Skype 之前的注意事项。
-ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 20f69a24a3287a028a8ae2b21815bc5d8e51012c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206485"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916866"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business 的负载平衡要求
  

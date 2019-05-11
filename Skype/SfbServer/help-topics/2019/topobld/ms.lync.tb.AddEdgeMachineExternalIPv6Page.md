@@ -1,8 +1,8 @@
 ---
 title: 添加 Edge 机器外部 IP IPv6
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在外部 IPv6 地址中，输入的外部 IP 地址指向访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务。
-ms.openlocfilehash: cf87e6984e855fa31ee27c8dac64d15875dfe758
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 86959206ff6487c77f8a553baf460f5dbdb10167
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202192"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889099"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>添加 Edge 机器外部 IP IPv6
  

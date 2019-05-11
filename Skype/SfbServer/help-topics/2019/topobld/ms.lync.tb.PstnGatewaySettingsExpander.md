@@ -1,8 +1,8 @@
 ---
 title: PSTN 网关设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
-ms.openlocfilehash: 45b3945a811a2e9c9b5d1c0cce805c78368c9a70
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1965251b3748de6a4d1366173561c8dec88bddce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201627"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919849"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 网关设置扩展器
  

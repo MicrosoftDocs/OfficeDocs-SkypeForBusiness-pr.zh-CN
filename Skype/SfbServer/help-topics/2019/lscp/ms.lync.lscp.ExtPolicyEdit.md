@@ -1,8 +1,8 @@
 ---
 title: 外部访问策略创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 8b91054bd0fd976ff3cde8448ac061cc2b33ba15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0fc4578704a5a681245ccfde2e35988054d5f1b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215666"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891570"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>外部访问策略：创建新的或编辑现有的
 

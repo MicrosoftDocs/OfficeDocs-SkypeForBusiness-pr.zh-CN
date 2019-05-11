@@ -1,8 +1,8 @@
 ---
 title: DeRegisterType 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: DeRegisterType 表是用户的一个静态表，用于存储可能列表取消注册类型，如客户端已启动、 注册过期或客户端停止响应。
-ms.openlocfilehash: be6fd10388c9f85315554605fd491aafa9d3a0d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 958de5dd537f391ca75936ad86a84cb6fed0778d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213191"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901171"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>DeRegisterType 表中的业务服务器 2015 Skype
  

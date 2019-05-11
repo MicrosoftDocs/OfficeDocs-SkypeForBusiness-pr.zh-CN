@@ -1,7 +1,7 @@
 ---
 title: Skype 会议室系统可管理性和工具
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 阅读本主题，了解适用于 Skype 会议室系统的管理工具。
-ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a1d9f3e3d1c569a0473ca92cda6761ce63f0096
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219400"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895031"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 会议室系统可管理性和工具
  

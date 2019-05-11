@@ -1,8 +1,8 @@
 ---
 title: 组件和拓扑的呼叫允许控制的 Skype for Business
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 在有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX 情况下，规划呼叫允许控制 (CAC)。 适用于 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a727805cb298a7ba4059c47990a57e2552a3e55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207950"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925290"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>组件和拓扑的呼叫允许控制的 Skype for Business
 

@@ -1,8 +1,8 @@
 ---
 title: Monitoring (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/6/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在业务服务器 2015年的 Skype，监控用于收集有关您的用户所涉及的通信会话的用户体验质量 (QoE) 数据和使用情况信息。
-ms.openlocfilehash: 339c3e8614986ffbf1f5a438c97ccfbcf50fbb3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5c2146d819aed0a3ad02d08f7d329322cbef5c08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235735"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914196"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 

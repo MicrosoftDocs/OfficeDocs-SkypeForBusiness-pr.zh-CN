@@ -1,8 +1,8 @@
 ---
 title: 外部访问策略创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 153029913deff88d098f7bac4bbc6b2f6ec08cc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5569737cb8edeabcb628ec8e6adc43234507375
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200714"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901513"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>外部访问策略：创建新的或编辑现有的
 

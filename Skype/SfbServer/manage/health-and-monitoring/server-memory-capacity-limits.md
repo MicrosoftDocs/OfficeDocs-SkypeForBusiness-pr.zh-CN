@@ -1,8 +1,8 @@
 ---
 title: 监控服务器内存容量限制 Skype 业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 摘要： 了解如何针对业务服务器监视的 Skype 中的服务器内存容量限制。
-ms.openlocfilehash: 249145e0e76377c356082965a76ce8bf3d11af42
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fd299dc1108f8d7de1a884245448772f6623a940
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225354"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897448"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>监控服务器内存容量限制 Skype 业务服务器
  

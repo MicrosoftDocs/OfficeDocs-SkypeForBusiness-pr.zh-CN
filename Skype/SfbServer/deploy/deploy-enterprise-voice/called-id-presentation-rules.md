@@ -1,8 +1,8 @@
 ---
 title: 创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要： 了解如何使用生成的转换规则工具中 Skype 业务服务器定义转换规则。
-ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8a967e3c0f6d808e8e08fea0f08f5fb6bcfbeb0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223745"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893117"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改转换规则的呼叫 ID 演示文稿中 Skype 业务服务器
 
