@@ -1,8 +1,8 @@
 ---
 title: 证书分配（调用）
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: 正在执行命令页上显示的任务分配给服务器的证书所需的操作。 任务完成后，您可以查看的日志的详细信息的证书分配过程。 要查看日志文件，请单击“查看日志”。
-ms.openlocfilehash: 3398ddf76f99e7e4a4582532e247a4a1f4c92b75
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c7e9ad8729311a7830d2038e504d56beb5bed967
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235133"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911217"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="6d9db-105">证书分配（调用）</span><span class="sxs-lookup"><span data-stu-id="6d9db-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="0eddf-105">证书分配（调用）</span><span class="sxs-lookup"><span data-stu-id="0eddf-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="6d9db-106">**正在执行命令**页上显示的任务分配给服务器的证书所需的操作。</span><span class="sxs-lookup"><span data-stu-id="6d9db-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="6d9db-107">任务完成后，您可以查看的日志的详细信息的证书分配过程。</span><span class="sxs-lookup"><span data-stu-id="6d9db-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="6d9db-108">要查看日志文件，请单击“**查看日志**”。</span><span class="sxs-lookup"><span data-stu-id="6d9db-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="0eddf-106">**正在执行命令**页上显示的任务分配给服务器的证书所需的操作。</span><span class="sxs-lookup"><span data-stu-id="0eddf-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="0eddf-107">任务完成后，您可以查看的日志的详细信息的证书分配过程。</span><span class="sxs-lookup"><span data-stu-id="0eddf-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="0eddf-108">要查看日志文件，请单击“**查看日志**”。</span><span class="sxs-lookup"><span data-stu-id="0eddf-108">To view the log file, click **View Log**.</span></span>
   
 
