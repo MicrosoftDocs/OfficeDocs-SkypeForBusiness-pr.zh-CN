@@ -1,8 +1,8 @@
 ---
 title: Edge Network (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成了外围网络的边缘拓扑。 除非另有说明的组件是边缘服务器中的业务服务器 2015 Skype 的方案的一部分，以及在外围网络中。 边缘组件包括下列各项：
-ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e108b29fb21247ab4c2dae608d1edce63386a535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200286"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897167"
 ---
-# <a name="edge-network-planning-tool"></a><span data-ttu-id="1b9b7-106">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="1b9b7-106">Edge Network (Planning Tool)</span></span>
+# <a name="edge-network-planning-tool"></a><span data-ttu-id="4b520-106">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="4b520-106">Edge Network (Planning Tool)</span></span>
  
-<span data-ttu-id="1b9b7-107">大多数边缘组件都部署在外围网络中。</span><span class="sxs-lookup"><span data-stu-id="1b9b7-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="1b9b7-108">以下组件组成了外围网络的边缘拓扑。</span><span class="sxs-lookup"><span data-stu-id="1b9b7-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="1b9b7-109">除非另有说明的组件是[边缘服务器中的业务服务器 2015 Skype 的方案](../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，以及在外围网络中。</span><span class="sxs-lookup"><span data-stu-id="1b9b7-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="1b9b7-110">边缘组件包括下列各项：</span><span class="sxs-lookup"><span data-stu-id="1b9b7-110">Edge components include the following:</span></span>
+<span data-ttu-id="4b520-107">大多数边缘组件都部署在外围网络中。</span><span class="sxs-lookup"><span data-stu-id="4b520-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="4b520-108">以下组件组成了外围网络的边缘拓扑。</span><span class="sxs-lookup"><span data-stu-id="4b520-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="4b520-109">除非另有说明的组件是[边缘服务器中的业务服务器 2015 Skype 的方案](../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，以及在外围网络中。</span><span class="sxs-lookup"><span data-stu-id="4b520-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="4b520-110">边缘组件包括下列各项：</span><span class="sxs-lookup"><span data-stu-id="4b520-110">Edge components include the following:</span></span>
   
-- <span data-ttu-id="1b9b7-111">边缘服务器</span><span class="sxs-lookup"><span data-stu-id="1b9b7-111">Edge Server(s)</span></span>
+- <span data-ttu-id="4b520-111">边缘服务器</span><span class="sxs-lookup"><span data-stu-id="4b520-111">Edge Server(s)</span></span>
     
-- <span data-ttu-id="1b9b7-112">反向代理</span><span class="sxs-lookup"><span data-stu-id="1b9b7-112">Reverse proxy</span></span>
+- <span data-ttu-id="4b520-112">反向代理</span><span class="sxs-lookup"><span data-stu-id="4b520-112">Reverse proxy</span></span>
     
-- <span data-ttu-id="1b9b7-113">防火墙</span><span class="sxs-lookup"><span data-stu-id="1b9b7-113">Firewall</span></span>
+- <span data-ttu-id="4b520-113">防火墙</span><span class="sxs-lookup"><span data-stu-id="4b520-113">Firewall</span></span>
     
-- <span data-ttu-id="1b9b7-114">控制器（可选，并且逻辑上位于内部网络中）</span><span class="sxs-lookup"><span data-stu-id="1b9b7-114">Directors (optional, and logically located on the internal network)</span></span>
+- <span data-ttu-id="4b520-114">控制器（可选，并且逻辑上位于内部网络中）</span><span class="sxs-lookup"><span data-stu-id="4b520-114">Directors (optional, and logically located on the internal network)</span></span>
     
-- <span data-ttu-id="1b9b7-115">扩展的边缘拓扑的负载平衡（DNS 负载平衡或硬件负载平衡器）</span><span class="sxs-lookup"><span data-stu-id="1b9b7-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+- <span data-ttu-id="4b520-115">扩展的边缘拓扑的负载平衡（DNS 负载平衡或硬件负载平衡器）</span><span class="sxs-lookup"><span data-stu-id="4b520-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1b9b7-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1b9b7-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4b520-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4b520-116">See also</span></span>
 
-[<span data-ttu-id="1b9b7-117">Plan for Edge Server deployments in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1b9b7-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[<span data-ttu-id="4b520-117">Plan for Edge Server deployments in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="4b520-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[<span data-ttu-id="1b9b7-118">Skype for Business Server 2015 的边缘服务器系统要求</span><span class="sxs-lookup"><span data-stu-id="1b9b7-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[<span data-ttu-id="4b520-118">Skype for Business Server 2015 的边缘服务器系统要求</span><span class="sxs-lookup"><span data-stu-id="4b520-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

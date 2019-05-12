@@ -1,8 +1,8 @@
 ---
 title: SIP 联盟提供程序创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: fe601017823dd44f52004f95377fc897bcab71f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c37b7130cfaf5616202f15eddecf76dbbb00ff13
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200504"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929453"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="37b21-104">SIP 联盟提供程序：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="37b21-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="e73c5-104">SIP 联盟提供程序：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="e73c5-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="37b21-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="37b21-105">What do you want to do?</span></span> <span data-ttu-id="37b21-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="37b21-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e73c5-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="e73c5-105">What do you want to do?</span></span> <span data-ttu-id="e73c5-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="e73c5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="37b21-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="37b21-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="e73c5-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="e73c5-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 
