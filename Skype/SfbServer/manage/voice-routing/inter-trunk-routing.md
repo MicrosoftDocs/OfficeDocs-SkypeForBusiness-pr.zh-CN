@@ -1,20 +1,20 @@
 ---
 title: 内部中继路由中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype 业务服务器提供通过支持的中继间路由的基本会话管理。 '
-ms.openlocfilehash: 9f73899d59e79d8fc93e768f0e870449baaeb7fb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a1486d24c0681df44085db754fda380d653c636b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214794"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920511"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>内部中继路由中 Skype 业务服务器
 

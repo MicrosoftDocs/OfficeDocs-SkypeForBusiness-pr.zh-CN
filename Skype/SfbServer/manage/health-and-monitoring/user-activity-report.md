@@ -1,8 +1,8 @@
 ---
 title: 用户活动报告中 Skype 业务服务器 25
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要： 了解在 Skype 业务服务器的用户活动报告。
-ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b07adda222a77d7c0bf4e57459a706343616422e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198023"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915330"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Skype 中的企业服务器用户活动报告
 

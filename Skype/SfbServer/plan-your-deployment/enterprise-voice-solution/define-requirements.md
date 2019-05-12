@@ -1,8 +1,8 @@
 ---
 title: 为业务服务器中 Skype 定义紧急呼叫要求
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: 总结了根据是否必须 SIP 中继 E9-1-1 服务提供商或 ELIN 网关启用业务 Server 企业语音，E9-1-1 Skype 中所需的步骤。
-ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f7a7d34339cb16851705712ef7911194cde1b9f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206976"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925157"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>为业务服务器中 Skype 定义紧急呼叫要求
  

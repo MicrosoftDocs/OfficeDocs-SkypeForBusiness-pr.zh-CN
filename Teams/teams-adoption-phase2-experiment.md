@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用第 2 阶段 - 试验
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23f1d842619ca8c7921eb14939182baa1b97ed9a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 753cde4e440788f9cb59ccb2d00d2fc14f6a8cd6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226947"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930393"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 

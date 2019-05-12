@@ -1,8 +1,8 @@
 ---
 title: NetworkConfigurationSettings 视图
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings 视图存储有关网络配置信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 8b366d0763ff1754fb41a58b5b32bfd3b2f7d628
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: df2de2fc45b6b3222396f834138bc7fa77b41ada
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212191"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920038"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings 视图
  

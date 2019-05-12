@@ -1,8 +1,8 @@
 ---
 title: 简单 URL 设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 若要指定新、 删除现有或更改活动的简单 Url，请执行以下操作：
-ms.openlocfilehash: 2015b377647c96e2e590a07c89c81f84ab59f586
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eb6edf3758e9defc91320d428d62910c5cb72336
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219160"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910282"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 

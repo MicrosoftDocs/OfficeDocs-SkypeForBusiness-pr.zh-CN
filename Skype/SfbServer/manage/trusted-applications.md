@@ -1,20 +1,20 @@
 ---
 title: 管理受信任应用程序
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 受信任的应用程序是基于受 Business Server Skype 的 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序。
-ms.openlocfilehash: 3ca8621148a4b6ce3530f23a61312f63f3d3cd30
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0f483cc0a1a3a9e7dad881fc40819a9c27dacdec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214671"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911866"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>管理业务服务器中 Skype 的受信任应用程序
 

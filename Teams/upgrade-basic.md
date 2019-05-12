@@ -1,7 +1,7 @@
 ---
 title: 升级的清单 |Skype 业务团队升级 |基本步骤
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4d3a4aacf23ffcad426a86735e55ed6a03e06e07
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227572"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920503"
 ---
 <a name="about-upgrade-basic"></a>
 

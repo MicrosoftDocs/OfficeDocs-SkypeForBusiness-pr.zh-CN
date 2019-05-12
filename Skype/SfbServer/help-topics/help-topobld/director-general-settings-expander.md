@@ -1,8 +1,8 @@
 ---
 title: 控制器常规设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 若要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: 92ddafb0029f4860f4fd36ddb9a497d21deb97d2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d3249cbc86387537b13cc6ebee840e0afc134581
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226878"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915365"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  

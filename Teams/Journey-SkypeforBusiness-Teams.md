@@ -1,7 +1,7 @@
 ---
 title: 将 Skype for Business 升级到 Microsoft Teams
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 651cc2fbb161ef494dd0df1c21d2dd26965d6f69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226798"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885058"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business 的 Microsoft 团队升级
 

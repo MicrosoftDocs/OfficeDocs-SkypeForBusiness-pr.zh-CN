@@ -1,8 +1,8 @@
 ---
 title: 配置客户端引导策略
 ms.reviewer: ''
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 摘要： 如何管理组策略。
-ms.openlocfilehash: b2652b42b58767aecd3556224b869211eb7e7a27
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 050040ae6de828e20aadf75bc4d8accfa782fc7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219456"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895368"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>配置客户端引导策略
  

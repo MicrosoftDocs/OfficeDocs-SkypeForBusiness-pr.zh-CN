@@ -1,8 +1,8 @@
 ---
 title: 管理 Business Server （英文） 中 Skype 电话拨入式会议
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 摘要： 了解如何管理业务服务器中 Skype 电话拨入式会议。
-ms.openlocfilehash: 109f40e66feda81098f09689a862ce219ac2f676
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7c3390b4c68e2cbc4954be9972b8e87837b0d6fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222791"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919463"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>管理 Business Server （英文） 中 Skype 电话拨入式会议
  

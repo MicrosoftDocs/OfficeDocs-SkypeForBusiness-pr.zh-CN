@@ -1,8 +1,8 @@
 ---
 title: 创建新的或编辑现有的规范化规则
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: fa06ceca4c4003bc3bac36325b162514afdb7200
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 47d2eb48f9c751aa30ed40260a87999530f0c50b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200751"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910621"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>规范化规则：创建新的或编辑现有的
 

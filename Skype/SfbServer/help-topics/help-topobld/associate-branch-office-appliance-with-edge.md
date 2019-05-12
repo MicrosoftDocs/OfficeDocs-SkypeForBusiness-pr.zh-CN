@@ -1,8 +1,8 @@
 ---
 title: 将分支机构设备与边缘关联
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/14/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: 如果已部署边缘服务器，并且必须提供供外部使用的媒体服务，选择边缘服务器或通过在下拉列表中选择将与 Survivable Branch Appliance 或 Survivable Branch Server 关联的池。 单击下一步。
-ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 39d6024c61039ff2ed7b6349a5ba6645786d07cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227436"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915316"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>将分支机构设备与边缘关联
  

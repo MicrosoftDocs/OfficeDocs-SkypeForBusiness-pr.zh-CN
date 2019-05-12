@@ -1,8 +1,8 @@
 ---
 title: 用于双重身份验证与 Skype 的业务客户端和 Skype 业务服务器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 摘要： 业务服务器和 Skype for Business 使用与 Skype 的双重身份验证。
-ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c1d67682f229a22f4674e5643ccf8d3a99a59f68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894200"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919456"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>用于双重身份验证与 Skype 的业务客户端和 Skype 业务服务器
  

@@ -1,8 +1,8 @@
 ---
 title: McuJoinsAndLeaves 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: 此表中的每条记录包含呼叫详细信息的用户加入或离开和会议服务器的一个组合。 例如，如果用户加入会议包含 web 会议和音频/视频元素时，将为该用户的 web 会议加入，创建一个记录，并将为用户的音频/视频会议加入创建另一条记录。
-ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6bcd51e9c0e5832939004647348abe7368a2e43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212978"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930295"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>McuJoinsAndLeaves 表中的业务服务器 2015 Skype
  

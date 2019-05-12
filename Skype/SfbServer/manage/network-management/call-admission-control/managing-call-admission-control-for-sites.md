@@ -1,20 +1,20 @@
 ---
 title: 管理网站的呼叫允许控制
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 网络站点间办公室或位置中的每个网络区域呼叫允许控制 (CAC)、 E9-1-1 和媒体绕过部署。
-ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199222"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913403"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在 Skype for Business Server 中管理站点的呼叫允许控制
 

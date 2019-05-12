@@ -1,8 +1,8 @@
 ---
 title: 规划呼叫质量仪表板的 Skype 业务服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8f26ecd90a9804a68656f76080c3865f5cb7360b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217769"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915344"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
  
@@ -187,7 +187,7 @@ CQD 中的数据处理被分为两个主要阶段：
 
 |**计算机**|**CPU 内核**|**RAM**|**QoE 存档和同一磁盘上的多维数据集**|**QoE 存档和同一磁盘上的 SQL 临时 DB**|
 |:-----|:-----|:-----|:-----|:-----|
-|虚拟机  <br/> |4  <br/> |7 GB  <br/> |是   <br/> |是  <br/> |
+|虚拟机  <br/> |4  <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
 |四核  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
 |8 核心  <br/> |8  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
 |16 核心  <br/> |16  <br/> |128 GB  <br/> |否  <br/> |否  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 控制对团队的来宾访问
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/17
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0efb3a8054008d179b9d2e7e674b3482fe62a32c
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 815a35efbce89404b012d5534e257752bef8d53e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865087"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886379"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================

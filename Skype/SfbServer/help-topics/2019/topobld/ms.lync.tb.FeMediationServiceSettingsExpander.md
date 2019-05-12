@@ -1,8 +1,8 @@
 ---
 title: 中介服务设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 对于“中介服务器”，可以指定以下内容：
-ms.openlocfilehash: 3e860f6b597479787fa09fed57d413e5492fe6eb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ae8cf24e9d4ba42f3b97a8f32e0bcdaf2aae4c77
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220507"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912013"
 ---
 # <a name="mediation-service-settings-expander"></a>中介服务设置扩展器
 

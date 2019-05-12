@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868669"
+ms.locfileid: "33882898"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -61,7 +61,6 @@ PBX 是内部企业电话系统。 Office 365 加载项中的电话系统为您�
 |企业日历呼叫路由  <br/> |企业日历呼叫路由，可以使用 Exchange 日历营业启用或禁用呼叫转接和同时响铃 Skype for Business 中。  <br/> |
 |集成拨号盘  <br/> | 在搜索栏和拨号盘的任何位置按姓名或号码拨号，加快拨出呼叫的过程。 <br/> |
 |[使用桌面电话发起 Skype for Business 呼叫](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |如果您的桌面电话配置为注册到 Skype 业务 Online 与 Office 365 凭据，您可以在组织您的桌面电话使用音频，呼叫通过电话调用人员。  <br/>  |
-|保留音乐  <br/> |在保持通话时播放音乐，让你的呼叫者了解你仍然在接听，通话并没有意外掉线。  <br/> |
 |Skype 和联盟的呼叫  <br/> |您可以搜索 Skype 目录中的任何人都然后安全地连接、 通信，并与他们进行协作。  <br/> |
 |[在 Skype for Business 中设置"呼叫转接"选项](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即刻或在设定的时段后向你的团队发送呼叫。  <br/> |
 |[使用 Skype for Business 拨打和接听视频呼叫](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 你可以在小浮动窗口中看到演讲者的姓名和视频流，以便随时准备好回答任何问题。 <br/> |

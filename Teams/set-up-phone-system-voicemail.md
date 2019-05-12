@@ -1,7 +1,7 @@
 ---
 title: 设置云语音邮件
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为用户设置云语音邮件。 '
-ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 827c52bf526ba84e4f571102354a096e2dc8e2f4
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865003"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33882866"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 

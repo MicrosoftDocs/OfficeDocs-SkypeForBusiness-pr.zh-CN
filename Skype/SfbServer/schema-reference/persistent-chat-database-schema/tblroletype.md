@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType 是一个静态查找表包含角色类型及其关联的权限集。
-ms.openlocfilehash: 6b5e545306c402fbfb89094a19799fe3ff6d2e34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 074b65d3f701d122bbb311da3096e6727dd17264
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212409"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924961"
 ---
 # <a name="tblroletype"></a>tblRoleType
  

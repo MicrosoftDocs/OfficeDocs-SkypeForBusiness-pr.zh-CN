@@ -1,8 +1,8 @@
 ---
 title: 所需的 Skype 中的企业语音的企业服务器组件
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: 企业语音组件中的业务服务器 Skype 摘要。
-ms.openlocfilehash: 870110c702c36660652fb08cff702453573349a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c37b11af2219d4e6375658e4ae675eff453c2c44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206983"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925220"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>所需的 Skype 中的企业语音的企业服务器组件
  

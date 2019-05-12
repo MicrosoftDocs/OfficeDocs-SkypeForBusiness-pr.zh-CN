@@ -1,7 +1,7 @@
 ---
 title: 开启或关闭对 Microsoft Teams 的来宾访问
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/06/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 20aed363bcdd7777639adf04687f5d62a3757a97
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202595"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894357"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问
 ======================================
@@ -34,7 +34,7 @@ ms.locfileid: "32202595"
 > [!IMPORTANT]
 > 要启用来宾访问功能的完全体验，非常重要的一点是理解 Microsoft Teams、Azure Active Directory 和 Office 365 之间的核心授权相关性。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
 
-## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -107,7 +107,7 @@ ms.locfileid: "32202595"
     ```
 您现在可以来宾用户中团队为您的组织。
 
-## <a name="more-information"></a>更多信息
+## <a name="more-information"></a>详细信息
 
 观看以下视频有关来宾访问的详细信息。
 

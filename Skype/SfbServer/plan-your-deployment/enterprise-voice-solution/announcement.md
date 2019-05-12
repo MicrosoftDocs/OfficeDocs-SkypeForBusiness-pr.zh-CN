@@ -1,8 +1,8 @@
 ---
 title: Plan for Business 的 Skype 中的通知应用程序
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 规划业务 Server 企业语音中 Skype 的通知应用程序，其配置如何处理对组织中的未分配的电话号码的电话呼叫。 包括音频文件要求。
-ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0e0a020a1301e8b8369ffdecc2e9e67d74b5e7b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207102"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909356"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plan for Business 的 Skype 中的通知应用程序
 

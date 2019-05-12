@@ -1,8 +1,8 @@
 ---
 title: 规划业务 Server Skype 的会议拓扑
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要： 阅读本主题可了解有关规划业务服务器中 Skype 会议拓扑。
-ms.openlocfilehash: e6269986bd5c011f43b5f6374053441e3aca54ec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bf54bca61631734a29ddd95ea8b16912f9bb5514
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214470"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897952"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>规划业务 Server Skype 的会议拓扑
  
