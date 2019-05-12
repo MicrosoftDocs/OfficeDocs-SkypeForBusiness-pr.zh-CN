@@ -1,8 +1,8 @@
 ---
 title: Skype 业务服务器中的类的架构属性
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 本节列出了每个 Skype Business Server 类和可以包含在其他类的类中可包含的架构属性。 有关所有类及其说明的列表，请参阅架构类和 Skype 中的业务服务器的说明。 有关所有属性及其说明的列表，请参阅架构属性和 Skype 中的业务服务器的说明。
-ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1560e7100fb3fe48f0ef1aa03bd55d65a8894b37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213366"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924932"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype 业务服务器中的类的架构属性
  

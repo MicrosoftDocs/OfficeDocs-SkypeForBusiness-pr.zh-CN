@@ -1,8 +1,8 @@
 ---
 title: 添加前端功能 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: 选择您要在其中启用的前端池的每个功能。 必须至少部署即时消息 (IM) 哪些总是处于启用状态，无法取消选择。 您还可以选择部署其他功能，如会议，企业语音和呼叫允许控制 (CAC)。 某些功能是取决于您的拓扑。
-ms.openlocfilehash: 721eb84ec49b5b27d1cb7b9d017ed93a8e0c5225
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: adbf86573eb967bdb70d77b15bcdaca7f36b5169
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890484"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910916"
 ---
 # <a name="add-front-end-features-2010"></a>添加前端功能 2010
 

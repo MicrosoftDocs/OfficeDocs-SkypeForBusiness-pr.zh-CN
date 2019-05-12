@@ -1,8 +1,8 @@
 ---
 title: 选择组
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 响应组队列保留对响应组呼叫，直到代理应答呼叫。 队列已分配的代理组。 当您创建或编辑队列时，您使用选择组对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcd5ae1078a792049928d4d2f16e6837040ec20d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200553"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924638"
 ---
 # <a name="select-groups"></a>选择组
 

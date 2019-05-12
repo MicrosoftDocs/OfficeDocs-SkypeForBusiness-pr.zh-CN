@@ -1,8 +1,8 @@
 ---
 title: 业务服务器通过在 Skype Grant-cssetuppermission 所做的更改
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: 委派安装，您可授予权限向 RTCUniversalServerAdmins 通用组为特定 Active Directory 组织单位 (OU)，启用为业务服务器中安装 Skype 的 OU 中的 RTCUniversalServerAdmins 组的成员指定的域，而无需成为 Domain Admins 组的成员。
-ms.openlocfilehash: 3976cb22a947e9a9590989895cf688465c8f5ef0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4b7e5eadb2083384b82eae6f6fba46d29f7b158a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213387"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907092"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>业务服务器通过在 Skype Grant-cssetuppermission 所做的更改
  

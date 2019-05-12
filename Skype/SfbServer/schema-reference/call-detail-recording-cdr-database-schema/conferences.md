@@ -1,8 +1,8 @@
 ---
 title: Conferences 表中的业务服务器 2015 Skype
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 此表中的每条记录包含有关一个会议的呼叫详细信息。
-ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3d8382316d17dfc13cd0d9cd2e98e79b3461951c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213261"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901364"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Conferences 表中的业务服务器 2015 Skype
  

@@ -1,7 +1,7 @@
 ---
 title: Skype 业务 Office 相关应用程序的兼容性
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 了解您可以从 Outlook 和其他 Microsoft Office 应用程序的业务功能访问 Skype 的方法。
-ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8f6f31e6b77b50178bf80210606ca5b92ea4e05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207473"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923853"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype 业务 Office 相关应用程序的兼容性
  
@@ -36,14 +36,14 @@ ms.locfileid: "32207473"
 |**功能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015 和 2016**|**用于 Mac 的 office 2016** & #x 2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook 功能** ||||
-|自定义 Outlook 会议邀请（添加徽标、帮助 URL、免责声明、页脚文本）  |否  |是    |是|
+|自定义 Outlook 会议邀请（添加徽标、帮助 URL、免责声明、页脚文本）  |否  |是   |是|
 |配置会议选项以便在默认情况下将与会者音频和视频设为静音    |否    |是    |否    |
 |跨 Office 和 for Business 的 Skype 管理联系人列表的统一的联系人存储库    |否    |是（需要 Exchange 2013 或更高版本）    |是    |
 |高分辨率的配置文件图片    |否    |是（需要 Exchange 2013 或更高版本）    |是    |
-|在 Microsoft Outlook 发的状态为，和抄送字段    |是     |是     |是     |
+|在 Microsoft Outlook 发的状态为，和抄送字段    |是    |是     |是     |
 |回复 IM 或呼叫从可用性菜单    |是（从联系人卡片）    |是（从联系人卡片）    |是（从联系人卡片）    |
-|“日程安排助理”选项卡上的会议请求中的状态    |是     |是     |否    |
-|从工具栏或功能区中收到的电子邮件答复 IM 或呼叫    |是     |是     |是     |
+|“日程安排助理”选项卡上的会议请求中的状态    |是    |是     |否    |
+|从工具栏或功能区中收到的电子邮件答复 IM 或呼叫    |是    |是     |是     |
 |**其他 Office 应用程序**   ||||
 |OneNote 共享笔记    |否    |是    |否    |
 |安装集成到 Office 安装程序中    |否    |是    |否    |
