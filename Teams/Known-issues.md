@@ -15,18 +15,25 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225949"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970188"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
 本文按功能区域列出了 Microsoft Teams 的已知问题。
 
 ## <a name="administration"></a>管理
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|    
+|:-----|:-----|:-----|:-----|
+|资源帐户配置错误部门 <br/> |与 2019 年 1 月之前创建的自动助理或呼叫队列关联的资源帐户可能没有正确设置“部门”参数, 这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/> |若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> |2019/5/8 <br/> |
+
+
+
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

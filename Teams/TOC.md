@@ -616,6 +616,7 @@
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
+### [安装 Moodle 集成](install-moodle-integration.md)
 
 ## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
@@ -710,6 +711,7 @@
 ### [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ### [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ### [在 Teams 中使用内容搜索](content-search.md)
+### [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
 ### [Teams 中的保留策略](retention-policies.md)
 #### [保留策略常见问题解答](retention-policies-FAQ.md)
 #### [保留策略已知问题](retention-policies-known-issues.md)
