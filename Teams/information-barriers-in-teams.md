@@ -3,7 +3,7 @@ title: 在 Microsoft 团队预览中的信息障碍
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其如何影响团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827785"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993918"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>在 Microsoft 团队预览中的信息障碍
 
@@ -28,6 +28,7 @@ ms.locfileid: "33827785"
 > [!NOTE]
 > - 不能跨租户创建信息障碍组。
 > - 版本 1 不支持使用自动程序添加用户。
+> - 信息的障碍版本 1 不包括对 SharePoint 和 OneDrive for Business 的支持。 我们使用启用 SharePoint 中的功能，并将通信后可用。
 
 信息障碍策略也阻止查找和发现。 这意味着，如果您尝试与某人不应与通信您进行通信，您将找不到该用户在人员选取器。
 

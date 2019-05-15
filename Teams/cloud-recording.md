@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dbb2d8ed9895044dd1cdb52e57663162def6e24b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198430"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33995044"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -122,7 +122,7 @@ Microsoft 流是可用的合格的 Office 365 订阅一部分或作为独立的�
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过仅使用 Microsoft 365 管理中心中的，如时要进行设置更改多个用户一次。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
 - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [为 Windows PowerShell 设置计算机](https://go.microsoft.com/fwlink/?LinkId=525038)

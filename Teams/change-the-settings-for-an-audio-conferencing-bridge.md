@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '获取所需更改用于提示呼叫者和它们不使用 Skype 业务或 Microsoft 团队的应用程序时收集名称和 pin 的会议组织者的会议桥的设置的步骤。 '
-ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7483a584e3ecd70f9ec34eb5a12d95860c23c36b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198549"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33995052"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -90,7 +90,7 @@ ms.locfileid: "32198549"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到**Microsoft 365 管理中心** > **for Business 的 Skype**。
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     
@@ -103,7 +103,7 @@ ms.locfileid: "32198549"
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到**Microsoft 365 管理中心** > **for Business 的 Skype**。
     
 3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
     
@@ -121,7 +121,7 @@ ms.locfileid: "32198549"
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过仅使用 Microsoft 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

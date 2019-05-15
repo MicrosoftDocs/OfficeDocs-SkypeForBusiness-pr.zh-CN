@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226604"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33994132"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -40,7 +40,7 @@ ms.locfileid: "32226604"
 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
 
 > [!NOTE]
-> 当前未面向 Mac 用户提供 Outlook 的 Teams 会议外接程序。
+> 在 Outlook for Mac 中的团队会议按钮会在 Outlook for Mac 功能区中，如果 Outlook 正在运行生产构建 16.20 及更高版本。
 
 ## <a name="authentication-requirements"></a>身份验证要求
 

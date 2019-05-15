@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3b534a67002d4da54d6d9058577fdc7b32cf6ad2
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245021"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993699"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
 
@@ -45,31 +45,31 @@ ms.locfileid: "32245021"
 每个组织和每个国家/地区的每月提供分钟位于[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 > [!IMPORTANT]
-> 国家/地区基于**Office 365 管理中心**中的用户的许可证的位置 > 下**Office 365 管理中心中的**组织配置文件****活动用户**和**未**列出帐单地址**.   
+> 国家/地区基于**Microsoft 365 管理中心**中的用户的许可证的位置 > 帐单地址列出**活动用户**和**不**在**组织配置文件**中**Microsoft 365 管理下中心**。   
 ![用户的许可证位置](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有关使用率限制和使用条款的详细信息，请参阅[音频会议互补拨出时间段](complimentary-dial-out-period.md)。
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何购买调用规划
 
-1. <strong>首先必须购买 * * 电话系统</strong><strong>的加载项许可证。这样一来，[登录到 Office 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，并选择 * * 帐单</strong> > **购买服务** > **加载项订阅** > **立即购买**。
+1. <strong>首先必须购买 * * 电话系统</strong><strong>的加载项许可证。这样一来，[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，并选择 * * 帐单</strong> > **购买服务** > **加载项订阅** > **立即购买**。
     
     ![购买云 PBX 许可证时，您将看到一个选项以购买调用规划语音。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 根据您的计划，您可能需要之前可以购买电话系统许可证购买更多的加载项。 在[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)的详细信息，请参阅"根据您的计划的许可证选项"。
   
-2. 购买电话系统许可证后，您可以通过登录到**Office 365 管理中心**购买调用规划，选择**帐单** > **购买服务** > **加载项订阅**，，然后单击**立即购买**。 您将看到调用计划存在。
+2. 购买电话系统许可证后，您可以通过登录到**Microsoft 365 管理中心**购买调用规划，选择**帐单** > **购买服务** > **加载项订阅**，然后单击**立即购买**. 您将看到调用计划存在。
     
     ![购买云 PBX 许可证后，您可以购买语音呼叫计划。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以购买和分配给不同的用户，具体取决于组织的需求的不同调用计划。 您选择调用规划所需之后，继续进行签出。 为 Office 365 管理中心中的每个用户分配计划。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
+您可以购买和分配给不同的用户，具体取决于组织的需求的不同调用计划。 您选择调用规划所需之后，继续进行签出。 为 Microsoft 365 管理中心中的每个用户分配计划。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>您必须为内部部署 PSTN 连接的混合用户提供的服务提供商？
 
 如果是这样，您无需购买调用规划。 Office 365 企业 E5 包含**电话系统**的加载项，因此您可以继续进行签出。
   
-然后，将企业 E5 或**电话系统**的加载项许可证分配给 Office 365 管理中心中的用户。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
+然后，将企业 E5 或**电话系统**的加载项许可证分配给 Microsoft 365 管理中心中的用户。 若要了解如何，请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
   
 ## <a name="pricing-information"></a>定价信息
 

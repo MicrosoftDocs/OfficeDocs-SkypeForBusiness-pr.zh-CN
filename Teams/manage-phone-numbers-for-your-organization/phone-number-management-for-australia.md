@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表可以找到有关获取和管理澳大利亚中的电话号码的 Skype 业务 Online 和 Microsoft 团队。
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245534"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036649"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 在澳大利亚，我们已与 Telstra 合作购买和提供Calling Plan通话计划。 Telstra 将销售通话计划，并向用户和自动语音与呼叫队列号码提供支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。
@@ -44,7 +44,7 @@ ms.locfileid: "32245534"
 |获取用户、 自动助理和呼叫队列传输到 Office 365 的电话号码。  <br/> |请联系 [Telstra  Calling for Office 365](https://aka.ms/TelstraVoicePlan) 转接电话号码。 稍后将相关号码添加到您所在组织。  <br/> |
 |获取用于音频会议转接到 Office 365 的电话号码。  |[请联系我们](mailto:ptnapac@microsoft.com) |
 |更改已分配给加入呼叫计划电话号码的用户的紧急呼叫地址。 |请联系 [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) 进行紧急寻址更改。 他们可以为您更新相关信息。|
-|用户号更改为服务号码。 |澳大利亚不支持此类型服务。
+|用户号更改为服务号码。 |当使用 Telstra 调用 Office 365 的支持。
 
 ## <a name="related-topics"></a>相关主题
 

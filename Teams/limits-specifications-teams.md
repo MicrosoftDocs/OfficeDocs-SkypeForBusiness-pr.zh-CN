@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233051"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993861"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 =============================================
@@ -86,6 +86,9 @@ Microsoft 团队聊天函数处理 Microsoft Exchange 后端，以便您可以�
 &dagger;如果邮件超过此限制，生成预览消息，并要求用户要查看/下载原始电子邮件从提供的链接。
 
 &Dagger;如果附件或图像的数目超过此限制，将不会处理邮件和 NDR 电子邮件将发送回发件人通知他们的错误。
+
+> [!NOTE]
+> 邮件大小、 文件附件，并嵌入图像限制是相同的跨所有 Office 365 许可证。
 
 有关详细信息，请参阅[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
 

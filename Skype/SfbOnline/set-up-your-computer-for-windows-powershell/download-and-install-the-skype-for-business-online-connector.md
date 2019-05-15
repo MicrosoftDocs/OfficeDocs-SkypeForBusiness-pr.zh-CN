@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: '下载、 安装，然后使用 Business Online Connector 的 Skype 创建连接到 Skype 业务 online 远程 Windows PowerShell 会话。 '
-ms.openlocfilehash: f7b7fa418b31a7b826319fc75c943819193161ea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a93cf1d3d09910001f25619969b6d504e23ec36f
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225810"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036689"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下载并安装 for Business Online Connector 模块 Skype
 
-为业务 Online Connector 模块 Skype 包括**新建 CsOnlineSession** cmdlet，使您能够创建连接到 Skype 业务 online 远程 Windows PowerShell 会话。 此模块只能在 （有关详细信息，请参阅[设置您的计算机的业务联机管理使用 Windows PowerShell 的 Skype](set-up-your-computer-for-windows-powershell.md) ） 的 64 位计算机的受支持，可以从 Microsoft 下载中心获取下载[https://www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。 下载 SkypeOnlinePowershell.exe 文件，然后完成以下过程：
+为业务 Online Connector 模块 Skype 包括**新建 CsOnlineSession** cmdlet，使您能够创建连接到 Skype 业务 online 远程 Windows PowerShell 会话。 此模块只能在 （有关详细信息，请参阅[设置您的计算机的业务联机管理使用 Windows PowerShell 的 Skype](set-up-your-computer-for-windows-powershell.md) ） 的 64 位计算机的受支持，可以从 Microsoft 下载中心获取下载[https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366)。 下载 SkypeOnlinePowershell.exe 文件，然后完成以下过程：
   
 1. 双击**SkypeOnlinePowershell.exe**文件。
     

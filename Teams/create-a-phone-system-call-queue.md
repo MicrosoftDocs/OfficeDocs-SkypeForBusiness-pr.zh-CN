@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置电话系统的云呼叫队列将使您组织的问候语，保持音乐，并将重定向呼叫通讯组列表和安全组中的代理的呼叫。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 844ea569da6f59def0ee4df7739456c1f10e7dff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31e972afe465e016633c94b7003cf2b34e7f9722
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902868"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993926"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -180,7 +180,7 @@ ms.locfileid: "33902868"
 
  要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 拥有**电话系统**许可证和通话套餐（已添加到 Office 365 组、已启用邮件的通讯组列表或安全组）的在线用户。 为通讯组列表或安全组添加一位新代理，以便开始接收来自呼叫队列的呼叫，这可能需要 30 分钟的时间。 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组几乎立即就可使用。
+- 拥有**电话系统**许可证和通话套餐（已添加到 Office 365 组、已启用邮件的通讯组列表或安全组）的在线用户。 可能需要 3 小时内的通讯组列表或安全组才能开始接收呼叫，呼叫队列中添加一个新的代理。 新建通讯组列表或安全组可能需要长达 48 小时成为可用于呼叫的队列。 新创建的 Office 365 组几乎立即就可使用。
 
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 
