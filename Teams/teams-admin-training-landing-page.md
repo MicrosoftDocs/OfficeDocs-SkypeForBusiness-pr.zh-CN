@@ -2,7 +2,7 @@
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
 description: 获取所需管理您的组织中的 Microsoft 团队的培训
-author: dearbeen
+author: lanachin
 manager: serdars
 ms.date: 01/22/2018
 layout: LandingPage
@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Training
 ms.topic: landing-page
-ms.author: dearbeen
-ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.author: v-lanac
+ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226890"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896239"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
