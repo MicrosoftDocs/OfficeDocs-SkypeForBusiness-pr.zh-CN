@@ -12,20 +12,20 @@ MS.collection:
 - M365-collaboration
 description: 可使用此 PowerShell 脚本在目标计算机上或针对特定用户清理 Microsoft Teams。
 localization_priority: Normal
-ms.openlocfilehash: cd19bb3b0d26069d339b61b5d4bf059fef724407
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f89f35bb34ec3b72cfaec79c651b4c95d5e5bbdd
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920609"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993853"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="de262-103">PowerShell 脚本示例 - 清理 Microsoft Teams 部署</span><span class="sxs-lookup"><span data-stu-id="de262-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="ea7aa-103">PowerShell 脚本示例 - 清理 Microsoft Teams 部署</span><span class="sxs-lookup"><span data-stu-id="ea7aa-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="de262-104">可利用此 PowerShell 脚本在目标计算机上或针对用户清理 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="de262-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="de262-105">应在目标计算机上针对每个用户执行此脚本。</span><span class="sxs-lookup"><span data-stu-id="de262-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="ea7aa-104">可利用此 PowerShell 脚本在目标计算机上或针对用户清理 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="ea7aa-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="ea7aa-105">应在目标计算机上针对每个用户执行此脚本。</span><span class="sxs-lookup"><span data-stu-id="ea7aa-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="de262-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="de262-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="ea7aa-106">示例脚本</span><span class="sxs-lookup"><span data-stu-id="ea7aa-106">Sample script</span></span>
 
 ````powershell
 <#
@@ -49,7 +49,8 @@ try
     }
     if (Test-Path -Path $TeamsPath) {
         Write-Host "Deleting Teams directory"
-        Remove-Item –Path $TeamsPath -Recurse
+        Remove-Item -Path $TeamsPath -Recurse
+                    
     }
 }
 catch
