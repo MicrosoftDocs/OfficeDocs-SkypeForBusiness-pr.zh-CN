@@ -599,6 +599,7 @@
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft Teams 即将推出一线员工功能](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
+### [运行报告以显示活动 StaffHub 的使用情况](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -663,6 +664,7 @@
 ### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
+### [Teams 客户端更新过程](teams-client-update.md)
 
 ## 许可
 ### [管理对 Teams 的用户访问](user-access.md)

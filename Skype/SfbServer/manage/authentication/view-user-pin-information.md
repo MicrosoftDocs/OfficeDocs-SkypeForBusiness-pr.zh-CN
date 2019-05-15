@@ -1,8 +1,8 @@
 ---
 title: 查看用户 PIN 信息中 Skype 业务服务器
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 摘要： 业务服务器 Skype 中查看用户 PIN 信息。
-ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a2e9d7d3e2341590a8eb6a4779bbb1a9c5c26227
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222819"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919365"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>查看用户 PIN 信息中 Skype 业务服务器
  

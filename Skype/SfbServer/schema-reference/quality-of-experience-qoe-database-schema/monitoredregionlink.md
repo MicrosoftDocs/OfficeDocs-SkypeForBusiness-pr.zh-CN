@@ -1,8 +1,8 @@
 ---
 title: MonitoredRegionLink 表
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: MonitoredRegionLink 表是一个支持表。 每条记录代表一个两个国家/地区之间的链接。
-ms.openlocfilehash: 0df5cd8abe957ed952bdf656a67e1d423cc57f33
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 125f29a25b2ee039649dd47dcc405e208d0cd254
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212458"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920150"
 ---
 # <a name="monitoredregionlink-table"></a>MonitoredRegionLink 表
  

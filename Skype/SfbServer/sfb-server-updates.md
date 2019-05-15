@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 更新
-author: ariantor
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: f3ce33cb77a5285b96a077b44c02e42007500190
-ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
+ms.openlocfilehash: 13c1ee14969cabd5b90383c2db83788d85ffcf2c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472508"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919337"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 

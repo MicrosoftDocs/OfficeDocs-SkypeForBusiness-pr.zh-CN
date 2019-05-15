@@ -5,20 +5,20 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何配置端口范围为您的客户端和 Skype 中的配置服务质量策略业务服务器上 Windows 10 运行的客户端。
-ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9377274b625af7a4ed93b46a0f6a741e89eee1eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219721"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913067"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>配置端口范围和客户端中的业务服务器 Skype 的服务质量策略
 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0f745cc88299db756f85a1f892fef22332e788df
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244298"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970289"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 
@@ -99,7 +99,7 @@ ms.locfileid: "32244298"
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过只使用 Office 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
+- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过仅使用 Microsoft 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

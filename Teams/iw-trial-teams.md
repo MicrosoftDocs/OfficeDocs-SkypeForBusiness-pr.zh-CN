@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: marubins
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402512"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921249"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -52,7 +52,7 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 ## <a name="who-is-eligible"></a>哪些人符合条件
 
-必须启用用户注册应用和试用版（在 Office 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。 
+必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。 
 
 没有 Office 365 许可证（包含 Teams）的用户可以启动 Microsoft Teams Commercial Cloud Trial 优惠。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合该试用版的条件。
 

@@ -3,7 +3,7 @@ title: 设置云自动助理
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何设置和测试高效的呼叫处理您的组织的云自动助理。
-ms.openlocfilehash: e98233bd610cd83afdbc727a5edeba77951d1989
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 7e655339ef35c127dcb1f106d9d9dbf7f498804d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868813"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902823"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 

@@ -1,8 +1,8 @@
 ---
 title: 外部应用程序常规设置扩展器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑已定义的受信任应用程序服务器的属性，请按照以下说明。
-ms.openlocfilehash: 66f82f4e6dadf39cbfcce77c46cafc2fedd3d168
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0053fbe7e7bc2604bccb4bdac70a467daf792a6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220622"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910768"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  

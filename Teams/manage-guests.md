@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理来宾访问
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 44769df812e667ab5b108dcb42d8bb96453f15af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234275"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885103"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
@@ -39,7 +39,7 @@ IT 管理员可以在租户级别添加来宾、 设置和管理来宾用户策�
 > [!NOTE]
 > Microsoft 团队始终采用 Azure Active Directory 外部设置，以允许或阻止来宾用户添加到租户。 有关详细信息，请参阅[Microsoft 团队中的授权来宾访问](Teams-dependencies.md)。
   
-## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问 （联合身份验证）
+## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -59,7 +59,7 @@ IT 管理员可以在租户级别添加来宾、 设置和管理来宾用户策�
 
 在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户会看到"请与管理员联系"的邮件如果他们尝试将来宾添加到其工作组，，则可能的来宾功能尚未启用或设置尚未有效。
 
-## <a name="more-information"></a>更多信息
+## <a name="more-information"></a>详细信息
 
 有关使用 PowerShell 管理来宾访问信息，请参阅[使用 PowerShell 来控制对团队的来宾访问](guest-access-powershell.md)。
 

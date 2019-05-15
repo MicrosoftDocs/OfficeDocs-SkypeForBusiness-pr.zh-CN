@@ -3,7 +3,7 @@ title: 在波斯尼亚 &amp; 黑塞哥维那的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: serdars
 ms.topic: reference
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 47f3ba9bfaf7efdd21974838d28daa33afc251b7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: f11b9f4b3cc34dd1523472f2781fde5fd78c5de2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543261"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919813"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>在波斯尼亚 &amp; 黑塞哥维那的可用性
 

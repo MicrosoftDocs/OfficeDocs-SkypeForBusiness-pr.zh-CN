@@ -1,8 +1,8 @@
 ---
 title: Plan for Business 中 Skype 基于位置的路由
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 规划在 Skype 基于位置的路由业务 Server 企业语音，包括与同时响铃和委派，交互和基于位置的路由支持方案。
-ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c1b9730161e7814ba26e167a2b6b4ee79bd40a9e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206787"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924225"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan for Business 中 Skype 基于位置的路由
 

@@ -1,7 +1,7 @@
 ---
 title: Plan for Business 的 Skype Microsoft 团队升级 |应用框架
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222933"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885615"
 ---
 为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")
 

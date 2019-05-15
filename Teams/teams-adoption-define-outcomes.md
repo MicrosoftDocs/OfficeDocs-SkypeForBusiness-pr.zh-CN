@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 采用定义结果和成功
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何测量的产出和您的团队的广泛级启用成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5251fc65cdb805961b97c5f9a94dc6512b63144
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 40d26bfe51bd4509485490ed816896b32a49245a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647598"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896423"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
