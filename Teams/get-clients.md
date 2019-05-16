@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402102"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082662"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -41,7 +41,7 @@ Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移�
 > [!Tip]
 > 观看下面的会话，若要了解有关 Windows 桌面的优势，客户端、 如何规划，以及如何将其部署：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是一个独立的应用程序和当前不是 Office 365 ProPlus 的一部分。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 macOS （10.10 +）。 在 Windows 上，团队需要.NET Framework 4.5 或更高版本;团队安装程序将自动为您进行安装，如果您没有使用它。 
+Microsoft 团队桌面客户端是独立的应用程序，也[可在 Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install)。 团队是可用于 Windows （7 +）、 32 位和 64 位版本和 macOS （10.10 +）。 在 Windows 上，团队需要.NET Framework 4.5 或更高版本;团队安装程序将自动为您进行安装，如果您没有使用它。 
 
 桌面客户端提供实时通信 （音频、 视频以及内容共享） 的支持团队会议，组呼叫，和专用一对一呼叫。
 

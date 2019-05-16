@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902672"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082735"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
@@ -82,6 +82,7 @@ Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解�
 如果您希望非管理员，帮助台代理，如用于呼叫质量仪表板中，您可以分配这些用户的**团队 Communications 支持工程师**、**团队 Communications 支持专员**或**报告读者**角色。 具有以下角色的用户可以访问呼叫质量仪表板：
 
 - 全局管理员
+- 全局读者
 - Skype 的业务管理员
 - Teams 服务管理员
 - Teams 通信管理员

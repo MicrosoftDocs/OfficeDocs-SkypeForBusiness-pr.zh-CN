@@ -1,5 +1,5 @@
 ---
-title: 部署与 Exchange 本地的 Microsoft 团队聊天室
+title: 使用 Exchange on premises 部署 Microsoft Teams Rooms
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,14 +12,14 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: 阅读此主题以如何与本地 Exchange 混合环境中部署 Microsoft 团队聊天室的信息。
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916208"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082719"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>部署与 Exchange 本地的 Microsoft 团队聊天室
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
 阅读本主题有关如何为业务 Online 与 Exchange 内部部署和 Microsoft 团队或 Skype 混合环境中部署 Microsoft 团队聊天室的信息。
   
@@ -62,7 +62,7 @@ Microsoft 提供的[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
     > [!NOTE]
     > 选择**密码永不过期**是 Skype 的 Microsoft 团队聊天室业务服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，您需要创建的 Microsoft 团队聊天室的每个设备帐户异常。
   
-4. 创建该帐户后，运行目录同步。 完成后，转到您的 Office 365 管理中心中用户页，并验证已联机合并到上一步骤中创建的帐户。
+4. 创建该帐户后，运行目录同步。 完成后，转到您的 Microsoft 365 管理中心中用户页，并验证已联机合并到上一步骤中创建的帐户。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>启用远程邮箱并设置属性
 

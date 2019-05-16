@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择可查看或不如果音频会议，电话系统，调用计划，Communications 字幕式，是否收费和免费电话号码可用国家/地区。
-ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200264"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082727"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -178,7 +178,7 @@ ms.locfileid: "32200264"
 您还可以参见[电话系统和调用计划许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)的许可信息。
 
 > [!NOTE]
-> 国家/地区基于**Office 365 管理中心**中的用户的许可证的位置 > **活动用户**和帐单地址**未**列出下**Office 365 管理中心中的**组织配置文件****. 
+> 国家/地区基于**Microsoft 365 管理中心**中的用户的许可证的位置 > **活动用户**和帐单地址**未**列出下**Microsoft 365 管理中心中的**组织配置文件**中心**。 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>收费和免费电话号码的服务
 
