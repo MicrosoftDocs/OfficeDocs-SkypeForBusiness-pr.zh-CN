@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970188"
+ms.locfileid: "33994150"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -266,6 +266,10 @@ ms.locfileid: "33970188"
 |:-----|:-----|:-----|:-----|
 |SharePoint 列表选项卡中 search 函数  <br/> |如果尝试通过 SharePoint 列表选项卡的 search 函数打开文件，则将触发“你将需要新应用来打开此项”提示，且不会打开文件。 <br/> |从列表中直接打开，而不使用搜索栏。 <br/> |2019/2/11  <br/> |
 
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|文件下载失败 <br/> |在使用 Microsoft Teams 桌面客户端尝试下载文件路径包含撇号的文件时，将触发“文件未下载”故障。 <br/> |从 Web 客户端或 SharePoint Online 下载文件 <br/> |2019/5/10  <br/> |
+
 ## <a name="teams"></a>团队
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -303,3 +307,7 @@ ms.locfileid: "33970188"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |在以管理方式添加时，用户未收到欢迎电子邮件  <br/> |在使用 PowerShell 或 Teams 管理中心向团队添加成员时，用户不会从 Microsoft Teams 收到欢迎电子邮件  <br/> |如果直接从 Teams UI 添加成员，则将发送电子邮件 当前，没法采用管理方式实现此目标  <br/> |2019/2/12  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|编辑后无法移动、删除或重命名文件  <br/> |在 MS Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |03/12119  <br/> |
