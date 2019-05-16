@@ -260,7 +260,6 @@
 ### [什么是通信点数？](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Skype for Business Online 的管理员培训](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [允许用户连接外部 Skype for Business 用户](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [在 Skype for Business Online 中配置状态](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [配置状态隐私模式](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
