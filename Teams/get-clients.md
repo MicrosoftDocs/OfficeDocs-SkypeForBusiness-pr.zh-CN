@@ -18,141 +18,141 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402102"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082662"
 ---
-<a name="get-clients-for-microsoft-teams"></a><span data-ttu-id="4201c-103">获取 Microsoft Teams 的客户端</span><span class="sxs-lookup"><span data-stu-id="4201c-103">Get clients for Microsoft Teams</span></span> 
+<a name="get-clients-for-microsoft-teams"></a><span data-ttu-id="efea2-103">获取 Microsoft Teams 的客户端</span><span class="sxs-lookup"><span data-stu-id="efea2-103">Get clients for Microsoft Teams</span></span> 
 ===========================
 
-<span data-ttu-id="4201c-104">Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android 和 iOS）。</span><span class="sxs-lookup"><span data-stu-id="4201c-104">Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS).</span></span> <span data-ttu-id="4201c-105">这些客户端都要求有活动的 Internet 连接，不支持脱机模式。</span><span class="sxs-lookup"><span data-stu-id="4201c-105">These clients all require an active internet connection and do not support an offline mode.</span></span>
+<span data-ttu-id="efea2-104">Microsoft 团队具有客户端适用于桌面 （Windows 和 Mac） web 和移动 （Android 和 iOS）。</span><span class="sxs-lookup"><span data-stu-id="efea2-104">Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS).</span></span> <span data-ttu-id="efea2-105">这些客户端都要求有活动的 Internet 连接，不支持脱机模式。</span><span class="sxs-lookup"><span data-stu-id="efea2-105">These clients all require an active internet connection and do not support an offline mode.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4201c-106">有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。</span><span class="sxs-lookup"><span data-stu-id="4201c-106">Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store.</span></span> <span data-ttu-id="4201c-107">相反，现在可以下载并运行 Windows 10 S 模式的设备上安装团队桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="4201c-107">Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode.</span></span> <span data-ttu-id="4201c-108">若要下载桌面客户端，转到[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。</span><span class="sxs-lookup"><span data-stu-id="4201c-108">To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).</span></span> <span data-ttu-id="4201c-109">团队桌面客户端的 MSI 版本尚不可用运行 Windows 10 S 模式的设备。</span><span class="sxs-lookup"><span data-stu-id="4201c-109">MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.</span></span>
+> <span data-ttu-id="efea2-106">有效年 11 月 29，2018，您将不再能够使用 Microsoft 团队 Windows 10 S （预览） 应用程序，可从 Microsoft 存储。</span><span class="sxs-lookup"><span data-stu-id="efea2-106">Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store.</span></span> <span data-ttu-id="efea2-107">相反，现在可以下载并运行 Windows 10 S 模式的设备上安装团队桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="efea2-107">Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode.</span></span> <span data-ttu-id="efea2-108">若要下载桌面客户端，转到[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。</span><span class="sxs-lookup"><span data-stu-id="efea2-108">To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).</span></span> <span data-ttu-id="efea2-109">团队桌面客户端的 MSI 版本尚不可用运行 Windows 10 S 模式的设备。</span><span class="sxs-lookup"><span data-stu-id="efea2-109">MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.</span></span>
 >
-> <span data-ttu-id="4201c-110">有关 Windows 10 S 模式的详细信息，请参阅[S 模式中引入 Windows 10](https://www.microsoft.com/windows/s-mode)。</span><span class="sxs-lookup"><span data-stu-id="4201c-110">For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode).</span></span> 
+> <span data-ttu-id="efea2-110">有关 Windows 10 S 模式的详细信息，请参阅[S 模式中引入 Windows 10](https://www.microsoft.com/windows/s-mode)。</span><span class="sxs-lookup"><span data-stu-id="efea2-110">For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode).</span></span> 
 
-<a name="desktop-client"></a><span data-ttu-id="4201c-111">桌面客户端</span><span class="sxs-lookup"><span data-stu-id="4201c-111">Desktop client</span></span>
+<a name="desktop-client"></a><span data-ttu-id="efea2-111">桌面客户端</span><span class="sxs-lookup"><span data-stu-id="efea2-111">Desktop client</span></span>
 --------------
 
 > [!Tip]
-> <span data-ttu-id="4201c-112">观看下面的会话，若要了解有关 Windows 桌面的优势，客户端、 如何规划，以及如何将其部署：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)</span><span class="sxs-lookup"><span data-stu-id="4201c-112">Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)</span></span>
+> <span data-ttu-id="efea2-112">观看下面的会话，若要了解有关 Windows 桌面的优势，客户端、 如何规划，以及如何将其部署：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)</span><span class="sxs-lookup"><span data-stu-id="efea2-112">Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)</span></span>
 
-<span data-ttu-id="4201c-113">Microsoft 团队桌面客户端是一个独立的应用程序和当前不是 Office 365 ProPlus 的一部分。</span><span class="sxs-lookup"><span data-stu-id="4201c-113">The Microsoft Teams desktop client is a standalone application and currently not part of Office 365 ProPlus.</span></span> <span data-ttu-id="4201c-114">团队是可用于 Windows （7 +）、 32 位和 64 位版本和 macOS （10.10 +）。</span><span class="sxs-lookup"><span data-stu-id="4201c-114">Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+).</span></span> <span data-ttu-id="4201c-115">在 Windows 上，团队需要.NET Framework 4.5 或更高版本;团队安装程序将自动为您进行安装，如果您没有使用它。</span><span class="sxs-lookup"><span data-stu-id="4201c-115">On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it.</span></span> 
+<span data-ttu-id="efea2-113">Microsoft 团队桌面客户端是独立的应用程序，也[可在 Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install)。</span><span class="sxs-lookup"><span data-stu-id="efea2-113">The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install).</span></span> <span data-ttu-id="efea2-114">团队是可用于 Windows （7 +）、 32 位和 64 位版本和 macOS （10.10 +）。</span><span class="sxs-lookup"><span data-stu-id="efea2-114">Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+).</span></span> <span data-ttu-id="efea2-115">在 Windows 上，团队需要.NET Framework 4.5 或更高版本;团队安装程序将自动为您进行安装，如果您没有使用它。</span><span class="sxs-lookup"><span data-stu-id="efea2-115">On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it.</span></span> 
 
-<span data-ttu-id="4201c-116">桌面客户端提供实时通信 （音频、 视频以及内容共享） 的支持团队会议，组呼叫，和专用一对一呼叫。</span><span class="sxs-lookup"><span data-stu-id="4201c-116">The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.</span></span>
+<span data-ttu-id="efea2-116">桌面客户端提供实时通信 （音频、 视频以及内容共享） 的支持团队会议，组呼叫，和专用一对一呼叫。</span><span class="sxs-lookup"><span data-stu-id="efea2-116">The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.</span></span>
 
-<span data-ttu-id="4201c-117">桌面客户端可以下载并安装由最终用户直接从[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)如果拥有适当的本地权限 （管理员权限不需要在 PC 上安装团队客户端，但需要在 Mac 上）。</span><span class="sxs-lookup"><span data-stu-id="4201c-117">Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).</span></span>
+<span data-ttu-id="efea2-117">桌面客户端可以下载并安装由最终用户直接从[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)如果拥有适当的本地权限 （管理员权限不需要在 PC 上安装团队客户端，但需要在 Mac 上）。</span><span class="sxs-lookup"><span data-stu-id="efea2-117">Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).</span></span>
 
-<span data-ttu-id="4201c-118">IT 管理员可以选择其分发到其组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的首选的方法。</span><span class="sxs-lookup"><span data-stu-id="4201c-118">IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS).</span></span> <span data-ttu-id="4201c-119">若要获取 Windows 通讯组的 MSI 程序包，请参阅[安装的 Microsoft 团队使用 MSI](msi-deployment.md)。</span><span class="sxs-lookup"><span data-stu-id="4201c-119">To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).</span></span>  
-
-> [!NOTE]
-> <span data-ttu-id="4201c-120">通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。</span><span class="sxs-lookup"><span data-stu-id="4201c-120">Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="4201c-121">Windows</span><span class="sxs-lookup"><span data-stu-id="4201c-121">Windows</span></span>
-
-<span data-ttu-id="4201c-122">适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。</span><span class="sxs-lookup"><span data-stu-id="4201c-122">The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.</span></span>
+<span data-ttu-id="efea2-118">IT 管理员可以选择其分发到其组织，如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS) 中的计算机上安装文件的首选的方法。</span><span class="sxs-lookup"><span data-stu-id="efea2-118">IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS).</span></span> <span data-ttu-id="efea2-119">若要获取 Windows 通讯组的 MSI 程序包，请参阅[安装的 Microsoft 团队使用 MSI](msi-deployment.md)。</span><span class="sxs-lookup"><span data-stu-id="efea2-119">To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="4201c-123">Windows 和 Office 安装的体系结构不可知的 Microsoft 团队的体系结构 （32 位与 64 位）。</span><span class="sxs-lookup"><span data-stu-id="4201c-123">The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.</span></span>
+> <span data-ttu-id="efea2-120">通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。</span><span class="sxs-lookup"><span data-stu-id="efea2-120">Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.</span></span>
 
-<span data-ttu-id="4201c-124">Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="4201c-124">The Windows client is deployed to the AppData folder located in the user’s profile.</span></span> <span data-ttu-id="4201c-125">部署到用户的本地配置文件后，无需提升的权限即可安装客户端。</span><span class="sxs-lookup"><span data-stu-id="4201c-125">Deploying to the user’s local profile allows the client to be installed without requiring elevated rights.</span></span> <span data-ttu-id="4201c-126">Windows 客户端利用在以下位置：</span><span class="sxs-lookup"><span data-stu-id="4201c-126">The Windows client leverages the following locations:</span></span>
+### <a name="windows"></a><span data-ttu-id="efea2-121">Windows</span><span class="sxs-lookup"><span data-stu-id="efea2-121">Windows</span></span>
 
-- <span data-ttu-id="4201c-127">%Localappdata%\\Microsoft\\团队</span><span class="sxs-lookup"><span data-stu-id="4201c-127">%LocalAppData%\\Microsoft\\Teams</span></span>
+<span data-ttu-id="efea2-122">适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。</span><span class="sxs-lookup"><span data-stu-id="efea2-122">The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.</span></span>
 
-- <span data-ttu-id="4201c-128">%Localappdata%\\Microsoft\\TeamsMeetingsAddin</span><span class="sxs-lookup"><span data-stu-id="4201c-128">%LocalAppData%\\Microsoft\\TeamsMeetingsAddin</span></span>
+> [!NOTE]
+> <span data-ttu-id="efea2-123">Windows 和 Office 安装的体系结构不可知的 Microsoft 团队的体系结构 （32 位与 64 位）。</span><span class="sxs-lookup"><span data-stu-id="efea2-123">The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.</span></span>
 
-- <span data-ttu-id="4201c-129">%应用程序数据 %\\Microsoft\\团队</span><span class="sxs-lookup"><span data-stu-id="4201c-129">%AppData%\\Microsoft\\Teams</span></span>
+<span data-ttu-id="efea2-124">Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="efea2-124">The Windows client is deployed to the AppData folder located in the user’s profile.</span></span> <span data-ttu-id="efea2-125">部署到用户的本地配置文件后，无需提升的权限即可安装客户端。</span><span class="sxs-lookup"><span data-stu-id="efea2-125">Deploying to the user’s local profile allows the client to be installed without requiring elevated rights.</span></span> <span data-ttu-id="efea2-126">Windows 客户端利用在以下位置：</span><span class="sxs-lookup"><span data-stu-id="efea2-126">The Windows client leverages the following locations:</span></span>
 
-- <span data-ttu-id="4201c-130">%Localappdata%\\SquirrelTemp</span><span class="sxs-lookup"><span data-stu-id="4201c-130">%LocalAppData%\\SquirrelTemp</span></span>
+- <span data-ttu-id="efea2-127">%Localappdata%\\Microsoft\\团队</span><span class="sxs-lookup"><span data-stu-id="efea2-127">%LocalAppData%\\Microsoft\\Teams</span></span>
 
-<span data-ttu-id="4201c-131">用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。</span><span class="sxs-lookup"><span data-stu-id="4201c-131">When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication.</span></span> <span data-ttu-id="4201c-132">指示用户可能由于呼叫将工作原理，即使在消除警告时忽略此消息。</span><span class="sxs-lookup"><span data-stu-id="4201c-132">Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.</span></span>
+- <span data-ttu-id="efea2-128">%Localappdata%\\Microsoft\\TeamsMeetingsAddin</span><span class="sxs-lookup"><span data-stu-id="efea2-128">%LocalAppData%\\Microsoft\\TeamsMeetingsAddin</span></span>
+
+- <span data-ttu-id="efea2-129">%应用程序数据 %\\Microsoft\\团队</span><span class="sxs-lookup"><span data-stu-id="efea2-129">%AppData%\\Microsoft\\Teams</span></span>
+
+- <span data-ttu-id="efea2-130">%Localappdata%\\SquirrelTemp</span><span class="sxs-lookup"><span data-stu-id="efea2-130">%LocalAppData%\\SquirrelTemp</span></span>
+
+<span data-ttu-id="efea2-131">用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。</span><span class="sxs-lookup"><span data-stu-id="efea2-131">When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication.</span></span> <span data-ttu-id="efea2-132">指示用户可能由于呼叫将工作原理，即使在消除警告时忽略此消息。</span><span class="sxs-lookup"><span data-stu-id="efea2-132">Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.</span></span>
 
 ![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> <span data-ttu-id="4201c-134">即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。</span><span class="sxs-lookup"><span data-stu-id="4201c-134">Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”.</span></span> <span data-ttu-id="4201c-135">将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。</span><span class="sxs-lookup"><span data-stu-id="4201c-135">Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.</span></span>
+> <span data-ttu-id="efea2-134">即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。</span><span class="sxs-lookup"><span data-stu-id="efea2-134">Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”.</span></span> <span data-ttu-id="efea2-135">将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。</span><span class="sxs-lookup"><span data-stu-id="efea2-135">Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.</span></span>
 
-### <a name="mac"></a><span data-ttu-id="4201c-136">Mac</span><span class="sxs-lookup"><span data-stu-id="4201c-136">Mac</span></span>
+### <a name="mac"></a><span data-ttu-id="efea2-136">Mac</span><span class="sxs-lookup"><span data-stu-id="efea2-136">Mac</span></span>
 
-<span data-ttu-id="4201c-137">Mac 用户可以使用 macOS 计算机软件包安装文件安装团队。</span><span class="sxs-lookup"><span data-stu-id="4201c-137">Mac users can install Teams by using a PKG installation file for macOS computers.</span></span> <span data-ttu-id="4201c-138">要安装 Mac 客户端，需要管理权限。</span><span class="sxs-lookup"><span data-stu-id="4201c-138">Administrative access is required to install the Mac client.</span></span> <span data-ttu-id="4201c-139">MacOS 客户端安装到/应用程序 — 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="4201c-139">The macOS client is installed to the /Applications folder.</span></span>
+<span data-ttu-id="efea2-137">Mac 用户可以使用 macOS 计算机软件包安装文件安装团队。</span><span class="sxs-lookup"><span data-stu-id="efea2-137">Mac users can install Teams by using a PKG installation file for macOS computers.</span></span> <span data-ttu-id="efea2-138">要安装 Mac 客户端，需要管理权限。</span><span class="sxs-lookup"><span data-stu-id="efea2-138">Administrative access is required to install the Mac client.</span></span> <span data-ttu-id="efea2-139">MacOS 客户端安装到/应用程序 — 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="efea2-139">The macOS client is installed to the /Applications folder.</span></span>
 
-#### <a name="install-teams-by-using-the-pkg-file"></a><span data-ttu-id="4201c-140">使用软件包文件安装团队</span><span class="sxs-lookup"><span data-stu-id="4201c-140">Install Teams by using the PKG file</span></span>
+#### <a name="install-teams-by-using-the-pkg-file"></a><span data-ttu-id="efea2-140">使用软件包文件安装团队</span><span class="sxs-lookup"><span data-stu-id="efea2-140">Install Teams by using the PKG file</span></span>
 
-1. <span data-ttu-id="4201c-141">从[工作组下载页面](https://teams.microsoft.com/downloads)，在**Mac**，下单击**下载**。</span><span class="sxs-lookup"><span data-stu-id="4201c-141">From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, click **Download**.</span></span>
-2. <span data-ttu-id="4201c-142">双击软件包文件。</span><span class="sxs-lookup"><span data-stu-id="4201c-142">Double click the PKG file.</span></span>
-3. <span data-ttu-id="4201c-143">按照安装向导以完成安装。</span><span class="sxs-lookup"><span data-stu-id="4201c-143">Follow the installation wizard to complete the installation.</span></span>
-4. <span data-ttu-id="4201c-144">团队将安装到/应用程序 — 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="4201c-144">Teams will be installed to /Applications folder.</span></span> <span data-ttu-id="4201c-145">计算机范围安装它。</span><span class="sxs-lookup"><span data-stu-id="4201c-145">It is a machine-wide installation.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="4201c-146">安装期间，PKG 将提示管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="4201c-146">During the installation, the PKG will prompt for admin credentials.</span></span> <span data-ttu-id="4201c-147">用户需要输入管理员凭据，而不管用户管理员。</span><span class="sxs-lookup"><span data-stu-id="4201c-147">The user needs to enter the admin credentials, regardless of whether or not the user is an admin.</span></span>
-
-<span data-ttu-id="4201c-148">如果用户当前已团队的 DMG 安装，并希望将其替换为 PKG 安装，用户应：</span><span class="sxs-lookup"><span data-stu-id="4201c-148">If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:</span></span>
-
-1. <span data-ttu-id="4201c-149">退出团队应用程序。</span><span class="sxs-lookup"><span data-stu-id="4201c-149">Exit the Teams app.</span></span>
-2. <span data-ttu-id="4201c-150">卸载团队应用程序。</span><span class="sxs-lookup"><span data-stu-id="4201c-150">Uninstall the Teams app.</span></span>
-3. <span data-ttu-id="4201c-151">安装软件包文件。</span><span class="sxs-lookup"><span data-stu-id="4201c-151">Install the PKG file.</span></span>
-
-<span data-ttu-id="4201c-152">IT 管理员可以使用托管的部署团队的安装文件分发给其组织，如 Jamf Pro 中的所有 Mac。</span><span class="sxs-lookup"><span data-stu-id="4201c-152">IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Jamf Pro.</span></span>
+1. <span data-ttu-id="efea2-141">从[工作组下载页面](https://teams.microsoft.com/downloads)，在**Mac**，下单击**下载**。</span><span class="sxs-lookup"><span data-stu-id="efea2-141">From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, click **Download**.</span></span>
+2. <span data-ttu-id="efea2-142">双击软件包文件。</span><span class="sxs-lookup"><span data-stu-id="efea2-142">Double click the PKG file.</span></span>
+3. <span data-ttu-id="efea2-143">按照安装向导以完成安装。</span><span class="sxs-lookup"><span data-stu-id="efea2-143">Follow the installation wizard to complete the installation.</span></span>
+4. <span data-ttu-id="efea2-144">团队将安装到/应用程序 — 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="efea2-144">Teams will be installed to /Applications folder.</span></span> <span data-ttu-id="efea2-145">计算机范围安装它。</span><span class="sxs-lookup"><span data-stu-id="efea2-145">It is a machine-wide installation.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4201c-153">如果您遇到问题安装 PKG，让我们知道。</span><span class="sxs-lookup"><span data-stu-id="4201c-153">If you experience issues installing the PKG, let us know.</span></span> <span data-ttu-id="4201c-154">在本文末尾的**反馈**部分中，单击**产品反馈**。</span><span class="sxs-lookup"><span data-stu-id="4201c-154">In the **Feedback** section at the end of this article, click **Product feedback**.</span></span>
+> <span data-ttu-id="efea2-146">安装期间，PKG 将提示管理员凭据。</span><span class="sxs-lookup"><span data-stu-id="efea2-146">During the installation, the PKG will prompt for admin credentials.</span></span> <span data-ttu-id="efea2-147">用户需要输入管理员凭据，而不管用户管理员。</span><span class="sxs-lookup"><span data-stu-id="efea2-147">The user needs to enter the admin credentials, regardless of whether or not the user is an admin.</span></span>
 
-<a name="web-client"></a><span data-ttu-id="4201c-155">Web 客户端</span><span class="sxs-lookup"><span data-stu-id="4201c-155">Web client</span></span> 
+<span data-ttu-id="efea2-148">如果用户当前已团队的 DMG 安装，并希望将其替换为 PKG 安装，用户应：</span><span class="sxs-lookup"><span data-stu-id="efea2-148">If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:</span></span>
+
+1. <span data-ttu-id="efea2-149">退出团队应用程序。</span><span class="sxs-lookup"><span data-stu-id="efea2-149">Exit the Teams app.</span></span>
+2. <span data-ttu-id="efea2-150">卸载团队应用程序。</span><span class="sxs-lookup"><span data-stu-id="efea2-150">Uninstall the Teams app.</span></span>
+3. <span data-ttu-id="efea2-151">安装软件包文件。</span><span class="sxs-lookup"><span data-stu-id="efea2-151">Install the PKG file.</span></span>
+
+<span data-ttu-id="efea2-152">IT 管理员可以使用托管的部署团队的安装文件分发给其组织，如 Jamf Pro 中的所有 Mac。</span><span class="sxs-lookup"><span data-stu-id="efea2-152">IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Jamf Pro.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="efea2-153">如果您遇到问题安装 PKG，让我们知道。</span><span class="sxs-lookup"><span data-stu-id="efea2-153">If you experience issues installing the PKG, let us know.</span></span> <span data-ttu-id="efea2-154">在本文末尾的**反馈**部分中，单击**产品反馈**。</span><span class="sxs-lookup"><span data-stu-id="efea2-154">In the **Feedback** section at the end of this article, click **Product feedback**.</span></span>
+
+<a name="web-client"></a><span data-ttu-id="efea2-155">Web 客户端</span><span class="sxs-lookup"><span data-stu-id="efea2-155">Web client</span></span> 
 ----------
 
-<span data-ttu-id="4201c-156">Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是可从多个浏览器的完整、 职能客户端。</span><span class="sxs-lookup"><span data-stu-id="4201c-156">The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers.</span></span> <span data-ttu-id="4201c-157">Web 客户端支持使用 webRTC，因此不插件或下载需要在 web 浏览器中运行团队呼叫和会议。</span><span class="sxs-lookup"><span data-stu-id="4201c-157">The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser.</span></span> <span data-ttu-id="4201c-158">在浏览器必须配置为允许使用第三方 cookie。</span><span class="sxs-lookup"><span data-stu-id="4201c-158">The browser must be configured to allow third-party cookies.</span></span> 
+<span data-ttu-id="efea2-156">Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是可从多个浏览器的完整、 职能客户端。</span><span class="sxs-lookup"><span data-stu-id="efea2-156">The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers.</span></span> <span data-ttu-id="efea2-157">Web 客户端支持使用 webRTC，因此不插件或下载需要在 web 浏览器中运行团队呼叫和会议。</span><span class="sxs-lookup"><span data-stu-id="efea2-157">The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser.</span></span> <span data-ttu-id="efea2-158">在浏览器必须配置为允许使用第三方 cookie。</span><span class="sxs-lookup"><span data-stu-id="efea2-158">The browser must be configured to allow third-party cookies.</span></span> 
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<span data-ttu-id="4201c-159">Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)。</span><span class="sxs-lookup"><span data-stu-id="4201c-159">The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753).</span></span> <span data-ttu-id="4201c-160">如果检测到不受支持的浏览器版本时，它将阻止对 web 界面访问并建议用户下载桌面客户端或移动应用程序。</span><span class="sxs-lookup"><span data-stu-id="4201c-160">If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.</span></span>
+<span data-ttu-id="efea2-159">Web 客户端执行时连接到的浏览器版本检测[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)。</span><span class="sxs-lookup"><span data-stu-id="efea2-159">The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753).</span></span> <span data-ttu-id="efea2-160">如果检测到不受支持的浏览器版本时，它将阻止对 web 界面访问并建议用户下载桌面客户端或移动应用程序。</span><span class="sxs-lookup"><span data-stu-id="efea2-160">If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.</span></span>
 
-<a name="mobile-clients"></a><span data-ttu-id="4201c-161">移动客户端</span><span class="sxs-lookup"><span data-stu-id="4201c-161">Mobile clients</span></span>
+<a name="mobile-clients"></a><span data-ttu-id="efea2-161">移动客户端</span><span class="sxs-lookup"><span data-stu-id="efea2-161">Mobile clients</span></span>
 --------------
 
-<span data-ttu-id="4201c-162">Microsoft 团队移动应用程序适用于 Android 和 iOS，和适用于转上用户参与基于聊对话，允许对等音频呼叫。</span><span class="sxs-lookup"><span data-stu-id="4201c-162">The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls.</span></span> <span data-ttu-id="4201c-163">对于移动应用程序，请转到相关 mobile 存储 Google 播放和 Apple App Store。</span><span class="sxs-lookup"><span data-stu-id="4201c-163">For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.</span></span> <span data-ttu-id="4201c-164">Windows Phone 应用程序已停用 2018 年 7 月 20，并可能不再有效。</span><span class="sxs-lookup"><span data-stu-id="4201c-164">The Windows Phone App was retired July 20, 2018 and may no longer work.</span></span> 
+<span data-ttu-id="efea2-162">Microsoft 团队移动应用程序适用于 Android 和 iOS，和适用于转上用户参与基于聊对话，允许对等音频呼叫。</span><span class="sxs-lookup"><span data-stu-id="efea2-162">The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls.</span></span> <span data-ttu-id="efea2-163">对于移动应用程序，请转到相关 mobile 存储 Google 播放和 Apple App Store。</span><span class="sxs-lookup"><span data-stu-id="efea2-163">For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.</span></span> <span data-ttu-id="efea2-164">Windows Phone 应用程序已停用 2018 年 7 月 20，并可能不再有效。</span><span class="sxs-lookup"><span data-stu-id="efea2-164">The Windows Phone App was retired July 20, 2018 and may no longer work.</span></span> 
 
-<span data-ttu-id="4201c-165">Microsoft Teams 移动应用的支持移动平台如下：</span><span class="sxs-lookup"><span data-stu-id="4201c-165">Supported mobile platforms for Microsoft Teams mobile apps are the following:</span></span>
+<span data-ttu-id="efea2-165">Microsoft Teams 移动应用的支持移动平台如下：</span><span class="sxs-lookup"><span data-stu-id="efea2-165">Supported mobile platforms for Microsoft Teams mobile apps are the following:</span></span>
 
--   <span data-ttu-id="4201c-166">**Android**：4.4 或更高版本</span><span class="sxs-lookup"><span data-stu-id="4201c-166">**Android**: 4.4 or later</span></span>
+-   <span data-ttu-id="efea2-166">**Android**：4.4 或更高版本</span><span class="sxs-lookup"><span data-stu-id="efea2-166">**Android**: 4.4 or later</span></span>
 
--   <span data-ttu-id="4201c-167">**iOS**：10.0 或更高版本</span><span class="sxs-lookup"><span data-stu-id="4201c-167">**iOS**: 10.0 or later</span></span>
+-   <span data-ttu-id="efea2-167">**iOS**：10.0 或更高版本</span><span class="sxs-lookup"><span data-stu-id="efea2-167">**iOS**: 10.0 or later</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4201c-168">移动的版本必须为按预期方式工作的团队顺序公众。</span><span class="sxs-lookup"><span data-stu-id="4201c-168">The mobile version must be available to the public in order for Teams to work as expected.</span></span>
+> <span data-ttu-id="efea2-168">移动的版本必须为按预期方式工作的团队顺序公众。</span><span class="sxs-lookup"><span data-stu-id="efea2-168">The mobile version must be available to the public in order for Teams to work as expected.</span></span>
 
-<span data-ttu-id="4201c-169">移动应用仅通过各个移动平台的应用商店分发和更新，不可通过 MDM（移动设备管理）解决方案或侧向加载分发。</span><span class="sxs-lookup"><span data-stu-id="4201c-169">Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.</span></span>
+<span data-ttu-id="efea2-169">移动应用仅通过各个移动平台的应用商店分发和更新，不可通过 MDM（移动设备管理）解决方案或侧向加载分发。</span><span class="sxs-lookup"><span data-stu-id="efea2-169">Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.</span></span>
 
 
 | | | |
 |---------|---------|---------|
-|![决策点图标。](media/Get_clients_for_Microsoft_Teams_image4.png)      |<span data-ttu-id="4201c-171">决策点</span><span class="sxs-lookup"><span data-stu-id="4201c-171">Decision Point</span></span>         |<span data-ttu-id="4201c-172">是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？</span><span class="sxs-lookup"><span data-stu-id="4201c-172">Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>         |
-|![后续步骤图标。](media/Get_clients_for_Microsoft_Teams_image5.png)     |<span data-ttu-id="4201c-174">后续步骤</span><span class="sxs-lookup"><span data-stu-id="4201c-174">Next Steps</span></span>         |<span data-ttu-id="4201c-175">如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。</span><span class="sxs-lookup"><span data-stu-id="4201c-175">If your organization restricts software installation, make sure that process is compatible with Microsoft Teams.</span></span> <span data-ttu-id="4201c-176">注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。</span><span class="sxs-lookup"><span data-stu-id="4201c-176">Note: Admin rights are not required for PC client installation but are required for installation on a Mac.</span></span>         |
+|![决策点图标。](media/Get_clients_for_Microsoft_Teams_image4.png)      |<span data-ttu-id="efea2-171">决策点</span><span class="sxs-lookup"><span data-stu-id="efea2-171">Decision Point</span></span>         |<span data-ttu-id="efea2-172">是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？</span><span class="sxs-lookup"><span data-stu-id="efea2-172">Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>         |
+|![后续步骤图标。](media/Get_clients_for_Microsoft_Teams_image5.png)     |<span data-ttu-id="efea2-174">后续步骤</span><span class="sxs-lookup"><span data-stu-id="efea2-174">Next Steps</span></span>         |<span data-ttu-id="efea2-175">如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。</span><span class="sxs-lookup"><span data-stu-id="efea2-175">If your organization restricts software installation, make sure that process is compatible with Microsoft Teams.</span></span> <span data-ttu-id="efea2-176">注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。</span><span class="sxs-lookup"><span data-stu-id="efea2-176">Note: Admin rights are not required for PC client installation but are required for installation on a Mac.</span></span>         |
 
-<a name="client-update-management"></a><span data-ttu-id="4201c-177">客户端更新管理</span><span class="sxs-lookup"><span data-stu-id="4201c-177">Client update management</span></span>
+<a name="client-update-management"></a><span data-ttu-id="efea2-177">客户端更新管理</span><span class="sxs-lookup"><span data-stu-id="efea2-177">Client update management</span></span>
 ------------------------
 
-<span data-ttu-id="4201c-178">当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。</span><span class="sxs-lookup"><span data-stu-id="4201c-178">Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required.</span></span> <span data-ttu-id="4201c-179">如果提供更新，则客户端将自动下载更新并当应用程序具有 idled 的一段时间内，将开始更新过程。</span><span class="sxs-lookup"><span data-stu-id="4201c-179">If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will begin.</span></span>
+<span data-ttu-id="efea2-178">当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。</span><span class="sxs-lookup"><span data-stu-id="efea2-178">Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required.</span></span> <span data-ttu-id="efea2-179">如果提供更新，则客户端将自动下载更新并当应用程序具有 idled 的一段时间内，将开始更新过程。</span><span class="sxs-lookup"><span data-stu-id="efea2-179">If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will begin.</span></span>
 
-<a name="client-side-configurations"></a><span data-ttu-id="4201c-180">客户端配置</span><span class="sxs-lookup"><span data-stu-id="4201c-180">Client-side configurations</span></span>
+<a name="client-side-configurations"></a><span data-ttu-id="efea2-180">客户端配置</span><span class="sxs-lookup"><span data-stu-id="efea2-180">Client-side configurations</span></span>
 ---------------------------
 
-<span data-ttu-id="4201c-181">当前，未提供支持的选项来通过租户管理、PowerShell、组策略对象或注册表配置客户端。</span><span class="sxs-lookup"><span data-stu-id="4201c-181">Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.</span></span>
+<span data-ttu-id="efea2-181">当前，未提供支持的选项来通过租户管理、PowerShell、组策略对象或注册表配置客户端。</span><span class="sxs-lookup"><span data-stu-id="efea2-181">Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.</span></span>
 
-<a name="notification-settings"></a><span data-ttu-id="4201c-182">通知设置</span><span class="sxs-lookup"><span data-stu-id="4201c-182">Notification settings</span></span>
+<a name="notification-settings"></a><span data-ttu-id="efea2-182">通知设置</span><span class="sxs-lookup"><span data-stu-id="efea2-182">Notification settings</span></span>
 ----------------------------
 
-<span data-ttu-id="4201c-183">当前，未提供选项允许 IT 管理员配置客户端通知设置。</span><span class="sxs-lookup"><span data-stu-id="4201c-183">There are currently no options available for IT administrators to configure client-side notification settings.</span></span> <span data-ttu-id="4201c-184">所有通知选项均由用户设置。</span><span class="sxs-lookup"><span data-stu-id="4201c-184">All notification options are set by the user.</span></span> <span data-ttu-id="4201c-185">下图概括显示了默认客户端设置。</span><span class="sxs-lookup"><span data-stu-id="4201c-185">The figure below outlines the default client settings.</span></span>
+<span data-ttu-id="efea2-183">当前，未提供选项允许 IT 管理员配置客户端通知设置。</span><span class="sxs-lookup"><span data-stu-id="efea2-183">There are currently no options available for IT administrators to configure client-side notification settings.</span></span> <span data-ttu-id="efea2-184">所有通知选项均由用户设置。</span><span class="sxs-lookup"><span data-stu-id="efea2-184">All notification options are set by the user.</span></span> <span data-ttu-id="efea2-185">下图概括显示了默认客户端设置。</span><span class="sxs-lookup"><span data-stu-id="efea2-185">The figure below outlines the default client settings.</span></span>
 
 ![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a><span data-ttu-id="4201c-187">示例 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="4201c-187">Sample PowerShell Script</span></span>
+<a name="sample-powershell-script"></a><span data-ttu-id="efea2-187">示例 PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="efea2-187">Sample PowerShell Script</span></span>
 ----------------------------
 
-<span data-ttu-id="4201c-188">此示例脚本，这需要提升的管理员帐户的上下文中的客户端计算机上运行，将创建新的入站的防火墙规则 c:\users 中找到的每个用户文件夹。</span><span class="sxs-lookup"><span data-stu-id="4201c-188">This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users.</span></span> <span data-ttu-id="4201c-189">当团队找到此规则时，它将阻止团队中的应用程序提示用户创建防火墙规则，当用户进行来自团队其第一个呼叫。</span><span class="sxs-lookup"><span data-stu-id="4201c-189">When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams.</span></span> 
+<span data-ttu-id="efea2-188">此示例脚本，这需要提升的管理员帐户的上下文中的客户端计算机上运行，将创建新的入站的防火墙规则 c:\users 中找到的每个用户文件夹。</span><span class="sxs-lookup"><span data-stu-id="efea2-188">This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users.</span></span> <span data-ttu-id="efea2-189">当团队找到此规则时，它将阻止团队中的应用程序提示用户创建防火墙规则，当用户进行来自团队其第一个呼叫。</span><span class="sxs-lookup"><span data-stu-id="efea2-189">When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams.</span></span> 
 
 ```
 
