@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务 (MMS) 是在后台运行，并为用户的业务和 Microsoft 团队会议将自动更新 Skype 的服务。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835116"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106171"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
@@ -83,7 +83,7 @@ ms.locfileid: "33835116"
 
 这是其中 MMS 帮助创建更平稳转换为您的用户的最常见方案。 但不会议迁移现有会议按 Skype 中为 Business Server 内部部署的用户将不再起作用后联机移动该用户。 因此，当您使用的内部部署管理工具 (是`Move-CsUser`或管理控制面板) 以将用户移动到云，现有会议将自动移动到云，如下所示：
 
-- 如果`MoveToTeams`中切换`Move-CsUser`会议都将迁移到团队直接和用户将处于 TeamsOnly 模式指定。 使用此开关需要 Skype Business Server CU8 或更高版本。 这些用户仍可以加入任何 Skype 的业务它们可能会邀请参加会议，使用业务客户端 Skype 或 Skype 会议应用程序。
+- 如果`MoveToTeams`中切换`Move-CsUser`会议都将迁移到团队直接和用户将处于 TeamsOnly 模式指定。 使用此开关需要 Skype 业务服务器 2015 CU8 或更高版本。 这些用户仍可以加入任何 Skype 的业务它们可能会邀请参加会议，使用业务客户端 Skype 或 Skype 会议应用程序。
 - 否则会议都将迁移到 Skype 业务 online。
 
 在任一情况下，如果用户已分配的音频会议许可证之前被移动到云，会议将创建使用电话拨入式坐标。 如果用户从内部部署迁移到云，并且想要使用音频会议的用户，我们建议您首先分配音频会议，移动用户，以便触发仅 1 会议迁移之前。

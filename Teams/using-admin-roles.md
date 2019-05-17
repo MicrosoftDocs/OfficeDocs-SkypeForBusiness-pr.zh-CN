@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Teams 管理员角色管理 Teams
+title: 使用 Microsoft 团队管理员角色可以管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c8b2d1c9f1dccc12f630625d880dad54b0497f12
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211805"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108736"
 ---
-# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>使用 Microsoft Teams 管理员角色管理 Teams
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色可以管理团队
 
 使用 Azure Active Directory (Azure AD)，您可以指定用于管理的 Microsoft 团队需要不同的访问级别的管理员。 管理员可以管理整个团队工作负荷，或者他们可以具有委派权限的疑难解答呼叫质量问题或管理需要组织的电话。 
 

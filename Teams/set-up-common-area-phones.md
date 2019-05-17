@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为会议厅、 接待区和会议室设置公用区域电话 '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632374"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108744"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
+> [!NOTE]
+> 公用区域电话不支持语音邮件。
 
 公用区域电话通常放置在会议厅类似的区域或可供很多人发起呼叫; 另一个区域例如，接收区域、 会议厅或会议电话。 公用区域电话设置为设备，而不是用户，并可以自动登录到网络。
 

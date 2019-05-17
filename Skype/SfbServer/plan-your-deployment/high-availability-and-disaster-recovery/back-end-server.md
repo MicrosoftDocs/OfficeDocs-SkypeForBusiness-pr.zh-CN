@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解业务服务器，包括 AlwaysOn 可用性组、 AlwaysOn 故障转移集群实例、 数据库镜像，和 SQL 故障转移群集 Skype 中支持的后端服务器高可用性选项。
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916556"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106297"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>后端服务器高可用性 Skype 业务服务器
  
@@ -42,6 +42,8 @@ ms.locfileid: "33916556"
 
 Skype 业务服务器支持与以下数据库软件镜像：
   
+- SQL Server 2017，Enterprise Edition 和 Standard Edition
+
 - SQL Server 2016，Enterprise Edition 和 Standard Edition
 
 - SQL Server Enterprise Edition 和 Standard Edition 2014 年
@@ -100,9 +102,29 @@ Skype 业务服务器支持与以下数据库软件镜像：
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>AlwaysOn 可用性组和 AlwaysOn 故障转移群集实例
 
-仅在 SQL Server 2014 Enterprise Edition 和 SQL Server 2012 Enterprise Edition 上支持 AlwaysOn 可用性组和 AlwaysOn 故障转移集群实例。 Skype 业务服务器只能作为主动/被动群集，未主动/主动支持 AlwaysOn 可用性组。 
+Skype 业务服务器只能作为主动/被动群集，未主动/主动支持 AlwaysOn 可用性组。 
   
 若要使用 AlwaysOn 可用性组或 AlwaysOn 故障转移集群实例，您首先使用 SQL Server 设置和配置高可用性解决方案。 然后，您可以使用拓扑生成器以将其与前端池关联。
+
+Skype 业务服务器使用的以下数据库软件支持 AlwaysOn:
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition 的限制，请参阅下面的注释
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition 的限制，请参阅下面的注释
+
+- SQL Server 2014 Enterprise Edition
+    
+- SQL Server 2012 SP2 和 CU2 Enterprise Edition
+
+> [!NOTE]
+> SQL Server 2017 和 SQL Server 2016 是支持的业务服务器 2019 Skype 的唯一版本。
+
+> [!NOTE]
+> **不**支持 SQL 2016 和 2017年标准版本中，但您可以使用始终在故障转移群集实例，始终在可用性组。 请参阅[版本和支持的功能的 SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)以了解详细信息。
   
 > [!IMPORTANT]
 > 多个 AlwaysOn 可用性组实例的实例名称必须相同。 

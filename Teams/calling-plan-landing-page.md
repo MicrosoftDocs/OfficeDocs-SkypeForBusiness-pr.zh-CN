@@ -15,14 +15,14 @@ search.appverid: MET150
 description: 调用计划登录页
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211980"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108752"
 ---
-# <a name="phone-system-with-calling-plans"></a>调用计划的电话系统 
+# <a name="which-calling-plan-is-right-for-you"></a>哪些调用规划最适合您？ 
 
 您已完成的[开始](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许您已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在已准备好添加云语音工作负荷，因而您已决定使用调用计划与 Microsoft 电话系统连接到公共公用电话交换网 (PSTN)。 
 

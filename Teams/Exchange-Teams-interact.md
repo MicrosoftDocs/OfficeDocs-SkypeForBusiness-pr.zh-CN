@@ -1,11 +1,11 @@
 ---
 title: Exchange 与 Microsoft Teams 如何交互
-author: LolaJacobsen
-ms.author: lolaj
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: crowe
+ms.reviewer: dstrome
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcdb6a687875aeab39585b44a8f6a9d3b6652b48
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180365"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108641"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互 
 =========================================
@@ -39,10 +39,10 @@ ms.locfileid: "32180365"
 
 | 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;保留 | 保留| 团队和频道的管理 |创建和查看会议| 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是 |是|是|是|是|是|是|是|是|是 |是|
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是 |是 |是|是|是 |是|是|是|是 |是 |是 |
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是 |是 |是|
-|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|是 （Exchange 2016 CU3 +）|是 |是 |否|是<sup>5|是 |是 |是 |
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是 |是|
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是|是|是 |是|是|是|是 |是 |是 |
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2,3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是|是 |是|
+|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2,3</sup> |是<sup>4|是|是 （Exchange 2016 CU3 +）|是 （Exchange 2016 CU3 +）|是|是 |否|是<sup>5|是|是 |是 |
 
 <sup>1</sup> exchange 2016 CU3 和上方支持  
 <sup>2</sup>电子数据展示和合规性上通道消息的法律挂起支持所有承载选项。  
