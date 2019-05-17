@@ -232,7 +232,7 @@
 ### [设置组织内的电话系统](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [什么是云自动助理？](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [设置云自动助理](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [小型企业示例 - 设置自动助理](../what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
+#### [小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
 #### [小型企业示例 - 设置呼叫队列](../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [创建云呼叫队列](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
