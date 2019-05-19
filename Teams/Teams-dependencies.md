@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中授权来宾访问
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 04/01/19
 ms.topic: article
@@ -10,16 +10,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
+localization_priority: Priority
 search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcd6741f100ff7ad89127c4cc5f53008e9d3608a
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 9b66972ea4e0fe10ba19cdb96db0f0239ce63558
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400543"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159163"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================

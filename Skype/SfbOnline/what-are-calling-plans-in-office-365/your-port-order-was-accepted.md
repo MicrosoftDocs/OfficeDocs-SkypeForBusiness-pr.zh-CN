@@ -21,26 +21,26 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56656e85f23a4c6c7082bebff628c12aea9843b4
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229512"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159181"
 ---
 # <a name="your-port-order-was-accepted"></a>已接受你的移植订单
 
-端口顺序已获得批准 ！ 查找您的电话号码中**的业务管理中心 Skype** > **语音** > **电话号码**。
+您的端口订单已获批准! 在**Skype for business 管理中心** > **语音** > **电话号码**中查找您的电话号码。
   
  **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
   
-现在，它已获得批准并且准备您的电话号码，您需要执行一些操作，以获取设置的所有内容。
+现在已获得批准, 您的电话号码已准备就绪, 您需要执行几项操作才能让所有人都能进行设置。
   
-- 确保您[的业务和 Microsoft 团队许可加载项的 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。 需要将**电话系统**和**国内调用规划**或**国际呼叫计划**。
+- 请确保[Skype for business 和 Microsoft 团队附加许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。 您将需要一个**电话系统**和**国内呼叫计划**或**国际通话计划**。
     
-- 创建[添加或删除紧急情况地址为您的组织](add-or-remove-an-emergency-address-for-your-organization.md)，如果需要，您[添加、 更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)（在某些国家/地区内，您获取的紧急地址的电话号码）。
+- 创建您[的组织的紧急地址](add-or-remove-an-emergency-address-for-your-organization.md), 如果需要, 您可以为您[的组织添加、更改或删除紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)(在某些国家/地区, 您会收到带有电话号码的紧急地址)。
     
-- 继续操作和[分配、 更改或删除的用户的电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
+- 继续[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
