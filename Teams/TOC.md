@@ -7,7 +7,8 @@
 
 <!-- ============================================================ -->
 
-# [入门](get-started-with-teams-quick-start.md)
+# 入门
+## [概述](get-started-with-teams-quick-start.md)
 ## [第 1 步：创建第一个团队和频道](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [第 2 步：登记早期采用者](get-started-with-teams-onboard-early-adopters.md)
 ## [第 3 步：监控使用和反馈](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -15,8 +16,8 @@
 
 <!-- ============================================================ -->
 
-
-# [聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# 聊天、团队、频道和应用
+## [规划部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [团队和频道概述](teams-channels-overview.md)
 ## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
@@ -30,8 +31,9 @@
 
 
 
+## 应用、机器人和连接器
 
-## [应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)
+### [概述](deploy-apps-microsoft-teams-landing-page.md)
 ### [应用权限和注意事项](app-permissions.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
@@ -42,11 +44,11 @@
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [将应用发布至 Teams 租户应用目录](tenant-apps-catalog-teams.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [配置 Skype 会议应用以与 Teams 协作](configure-skype-meetings-app-to-work-with-teams.md)
+### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 
-
-## [来宾访问](guest-access.md)
+## 来宾访问权限
+### [概述](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
 ### [管理对 Teams 的来宾访问](teams-dependencies.md)
@@ -60,7 +62,8 @@
 
 ## [外部访问（联合身份验证）](manage-external-access.md)
 
-## [管理 Teams](using-admin-roles.md)
+## 管理 Teams
+### [管理员角色](using-admin-roles.md)
 ### [为你的组织管理 Teams 设置](enable-features-office-365.md)
 ### [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Microsoft Teams 管理中心中管理 Teams](manage-teams-in-modern-portal.md)
@@ -71,7 +74,9 @@
 ### [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
 ### [使用内联消息翻译](inline-message-translation-teams.md)
 ### [使用 Microsoft Teams 范围目录搜索](teams-scoped-directory-search.md)
-### [Microsoft Teams 管理中心的 Tearms 分析和报告](teams-analytics-and-reports/teams-reporting-reference.md)
+
+### Microsoft Teams 管理中心的 Tearms 分析和报告
+#### [概述](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams 设备使用报告](teams-analytics-and-reports/device-usage-report.md)
@@ -82,8 +87,8 @@
 
 <!-- ============================================================ -->
 
-
-# [会议](deploy-meetings-microsoft-teams-landing-page.md)
+# 会话和会议
+## [规划部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议策略](meeting-policies-in-teams.md)
 ## [管理会议设置](meeting-settings-in-teams.md)
@@ -98,7 +103,8 @@
 ## [Microsoft Teams 会议室](room-systems/index.md)
 
 
-## [音频会议](deploy-audio-conferencing-teams-landing-page.md)
+## 音频会议
+### [规划部署](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Office 365 中的音频会议](audio-conferencing-in-office-365.md)
 ### [音频会议常见问题](audio-conferencing-common-questions.md)
@@ -117,11 +123,14 @@
 #### [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
+
 ### [管理组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [音频会议按分钟付费](audio-conferencing-pay-per-minute.md)
 
+### [音频会议按分钟付费](audio-conferencing-pay-per-minute.md)
 
-### [管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### 管理用户的音频会议设置
+
+#### [概述](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [查看启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
@@ -149,7 +158,9 @@
 #### [音频会议支持的语言](audio-conferencing-supported-languages.md)
 
 #### [音频会议电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
-#### [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+#### 音频会议和通话套餐的国家/地区可用性
+##### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -262,8 +273,8 @@
 <!-- ============================================================ -->
 
 
-
-# [云语音](cloud-voice-landing-page.md)
+# 云语音 
+## [规划部署](cloud-voice-landing-page.md)
 ## 电话系统
 ### [什么是电话系统？](what-is-phone-system-in-office-365.md)
 ### [电话系统的功能](here-s-what-you-get-with-phone-system.md)
@@ -279,7 +290,7 @@
 ### 自动助理和呼叫队列 
 #### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
 #### [设置云自动助理](create-a-phone-system-auto-attendant.md)
-#### [小型企业示例 - 设置自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小型企业示例 - 设置自动助理](tutorial-org-aa.yml)
 #### [小型企业示例 - 设置呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [在 Microsoft Teams 中管理资源帐户](manage-resource-accounts.md)
 #### [创建云呼叫队列](create-a-phone-system-call-queue.md)
@@ -289,12 +300,15 @@
 ### [呼叫策略](teams-calling-policy.md)
 ### [共享线路外观](shared-line-appearance.md)
 
-## [通话套餐](calling-plan-landing-page.md)
-### [Office 365 通话套餐](calling-plans-for-office-365.md)
+
+## 通话套餐
+### [哪种通话套餐适合你？](calling-plan-landing-page.md)
+### [如何购买通话套餐](calling-plans-for-office-365.md)
 ### [为组织设置通话套餐](set-up-calling-plans.md)
 ### [快速入门指南：配置通话套餐](configuring-teams-calling-quickstartguide.md)
 
-## [电话系统直接路由](direct-routing-landing-page.md)
+## 电话系统直接路由
+### [概述](direct-routing-landing-page.md)
 ### [规划直接路由](direct-routing-plan.md)
 ### [配置直接路由](direct-routing-configure.md)
 ### [迁移到直接路由](direct-routing-migrating.md)
@@ -341,7 +355,9 @@
 
 
 ## 参考
-### [通话套餐的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### 通话套餐的国家和地区可用性
+
+#### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -441,7 +457,8 @@
 #### [美国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [免费拨号限制](toll-free-dialing-limitations-and-restrictions.md)
+### 免费拨号限制
+#### [概述](toll-free-dialing-limitations-and-restrictions.md)
 #### [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [澳大利亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [白俄罗斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -532,20 +549,27 @@
 
 
 <!-- ============================================================ -->
-# [采用](adopt-microsoft-teams-landing-page.md) 
+# 采用
 
+## [概述](adopt-microsoft-teams-landing-page.md) 
 ## [入门](teams-adoption-get-started.md)
-## [第 1 阶段 - 开始](teams-adoption-phase1.md)
+
+## 第 1 阶段 - 开始
+### [开始](teams-adoption-phase1.md)
 ### [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
 ### [创建第一个团队](teams-adoption-your-first-teams.md)
 ### [组织如何为 Teams 做准备？](teams-adoption-assess-readiness.md)
-## [第 2 阶段 - 试验](teams-adoption-phase2-experiment.md)
+
+## 第 2 阶段 - 试验
+### [试验](teams-adoption-phase2-experiment.md)
 ### [创建冠军计划](teams-adoption-create-champions-program.md)
 ### [管理快速入门](teams-adoption-governance-quick-start.md)
 ### [定义使用场景](teams-adoption-define-usage-scenarios.md)
 ### [登记早期采用者并收集反馈](teams-adoption-onboard-early-adopters.md)
 ### [登记支持](teams-adoption-onboard-support.md)
-## [第 3 阶段 - 调整](teams-adoption-phase3-enable.md)
+
+## 第 3 阶段 - 调整
+### [调整](teams-adoption-phase3-enable.md)
 ### [定义成果与成功](teams-adoption-define-outcomes.md)
 ### [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
 ### [提高认识度并实施培训](teams-adoption-drive-awareness.md)
@@ -702,8 +726,8 @@
 ### [会议室设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-## [安全性和合规性](security-compliance-overview.md)
+## 安全性和合规性
+### [概述](security-compliance-overview.md)
 ### [Teams 中的信息障碍](information-barriers-in-teams.md)
 ### [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
 ### [Teams 中的标识模式和身份验证](identify-models-authentication.md)
@@ -712,7 +736,8 @@
 ### [在 Teams 中搜索事件的审核日志](audit-log-events.md)
 ### [在 Teams 中使用内容搜索](content-search.md)
 ### [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
-### [Teams 中的保留策略](retention-policies.md)
+### Teams 中的保留策略
+#### [概述](retention-policies.md)
 #### [保留策略常见问题解答](retention-policies-FAQ.md)
 #### [保留策略已知问题](retention-policies-known-issues.md)
 ### [Teams 中的数据位置](location-of-data-in-teams.md)
@@ -743,8 +768,10 @@
 #### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-## [Teams PowerShell 概览](teams-powershell-overview.md)
-### [Teams 的 PowerShell cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+## Teams PowerShell
+### [概述](teams-powershell-overview.md)
+### [Teams 的 Cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
-## [在 Microsoft Teams 中获取帮助](get-help-in-microsoft-teams.md)
+## [在 Teams 中获取帮助](get-help-in-microsoft-teams.md)
+## [Teams 内容更新](teams-updates.md)
