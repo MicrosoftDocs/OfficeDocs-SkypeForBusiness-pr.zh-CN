@@ -333,11 +333,9 @@
 ## 电话号码
 ### [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [通话套餐的电话号码类型](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [为用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [为用户获取电话号码](getting-phone-numbers-for-your-users.md)
 ### [可以获得多少个电话号码？](how-many-phone-numbers-can-you-get.md)
-### [为用户搜索电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [查看组织中的电话号码列表](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为用户分配、更改或删除电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [为用户分配、更改或删除电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将电话号码转接到 Office 365](transfer-phone-numbers-to-office-365.md)
 ### [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
