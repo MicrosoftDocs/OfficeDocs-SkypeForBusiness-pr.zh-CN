@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 介绍云自动助理呼叫的队列，并介绍如何可以应答团队中的这些呼叫。
+description: 介绍云自动助理和通话队列, 并介绍如何在团队中回答这些呼叫。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,54 +15,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33900927"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34185292"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
 
-团队用户可接收和云自动助理和直接从其团队客户端的呼叫队列从应答呼叫。 团队用户自动助理功能现已可用，并调用队列功能处于预览。 
+团队用户可以直接从其团队客户端接收和应答来自云自动助理的调用和调用队列。 对于团队用户, "自动助理" 功能现在通常可用, 并且呼叫队列功能位于 "预览" 中。 
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理，并调用队列？
+## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理和呼叫队列？
 
-云自动助理提供了一系列语音提示或组织到呼叫时，呼叫者听到而不是人工接线员音频文件。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
+云自动助理提供一系列语音提示或音频文件, 当呼叫者呼叫组织时, 呼叫者将听到该提示, 而不是人工操作员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
 
-云呼叫队列包括有人呼叫到您的组织、 能够自动将呼叫置于保持状态，并进行搜索的下一个可用呼叫代理处理该呼叫时调用的人员的功能电话号码时使用的问候语收听保持音乐。 您可以为组织创建单个或多个呼叫的队列。
+云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能, 以及搜索下一个可用的呼叫代理以处理呼叫, 而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理的自动助理或呼叫队列呼叫
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理自动助理或呼叫队列呼叫
 
-用户将能够它们应答呼叫之前区分传入呼叫自动助理或呼叫的队列。 名称和/或将呼叫者数量，以及每个呼叫将包含有关谁将呼叫者尝试通，为用户提供了更好的上下文，解决呼叫者的信息。
+用户在应答呼叫之前, 将能够在自动助理或呼叫队列中区分来电。 除了呼叫者的姓名和/或号码, 每个调用都将包含有关呼叫者试图访问的人员的信息, 从而为用户提供了更好的解决呼叫者的上下文。
 
-下图显示来自自动助理或呼叫队列的传入呼叫到用户的显示方式。
+下图显示了来自自动助理或呼叫队列的传入呼叫如何显示给用户。
 
 ![传入呼叫通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-一旦应答自动助理或呼叫队列呼叫时，用户可以处理与任何其他呼叫 & #x 2014; 一样调用他们可以添加或另一个用户或转接到另一方呼叫中的会议。 此外，自动助理将呼叫转接基于用户的配置。
+自动应答自动助理或呼叫队列呼叫后, 用户可以像处理任何其他呼叫 & # x2014 一样处理呼叫。他们可以在其他用户中添加或加入会议, 或者将呼叫转接到另一方。 此外, 将根据用户的配置转发自动助理呼叫。
 
 > [!NOTE] 
-> 调用基于用户的配置不转接呼叫的队列。 这是为了确保代理可以应答呼叫之前，呼叫者保持队列中没有意外转接呼叫者。
+> 呼叫队列呼叫不会根据用户的配置转发。 这是为了确保呼叫者保留在队列中, 直到工程师可以接听呼叫且呼叫者不会被意外转发。
 
 ## <a name="supported-clients"></a>支持的客户端
 
-对于自动助理和呼叫队列呼叫支持以下客户端有：
+自动助理和呼叫队列呼叫支持在以下客户端中可用:
 
 -   Microsoft Teams Windows 客户端 （32 和 64 位版本）
 -   Microsoft Teams Mac 客户端
 -   Microsoft Teams iPhone 应用
 -   Microsoft Teams Android 应用
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>配置支持的 Microsoft 团队的自动助理和呼叫队列
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为 Microsoft 团队配置自动助理和呼叫队列支持
 
-若要接收自动助理和上的 Microsoft 团队呼叫队列呼叫，您需要配置您的互操作性策略和升级策略。 请查看[迁移和组织使用团队一起 for Business 的 Skype 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有自动助理和/或呼叫队列配置，并且想要为此，请参阅[设置云自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)和[创建云呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫, 需要配置你的互操作性策略和升级策略。 请查看[与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列, 请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)和[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="related-topics"></a>相关主题
 
 -   [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
--   [创建云呼叫队列](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [创建云呼叫队列](create-a-phone-system-call-queue.md)
 -   [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
--   [设置云自动助理](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [设置云自动助理](create-a-phone-system-auto-attendant.md)
 
