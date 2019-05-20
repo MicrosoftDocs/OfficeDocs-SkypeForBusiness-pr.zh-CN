@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
+ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226151"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100862"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -78,6 +78,10 @@ Teams 是 Office 365 中的主要智能通信客户端，将逐渐取代 Skype f
 - **Yammer** 用于整个组织中的人员进行联系。 可推动公司范围的计划、共享最佳做法以及就共同的兴趣、领域或做法主题进行交流。 可汇聚众人的想法来提倡整个公司的人员进行开放式讨论。
 
 - **Office 应用**是大家都知道并经常使用的所有熟悉的工具，包括 Word、Excel、PowerPoint 和 OneNote。 
+
+## <a name="teams-content-updates"></a>Teams 内容更新
+
+查看[每周更新的 Teams 主题列表](teams-updates.md)。
 
 ## <a name="teams-known-issues"></a>Teams 已知问题
 
