@@ -12,81 +12,81 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解如何为业务 Online 查找您拨入式会议号码从 Skype 内。 '
-ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解如何在 Skype for business Online 中查找电话拨入式会议号码。 '
+ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229221"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299046"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a><span data-ttu-id="74b87-103">请参阅  Skype for Business Online 中的音频会议号码列表</span><span class="sxs-lookup"><span data-stu-id="74b87-103">See a list of Audio Conferencing numbers in Skype for Business Online</span></span>
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a><span data-ttu-id="b42bb-103">请参阅  Skype for Business Online 中的音频会议号码列表</span><span class="sxs-lookup"><span data-stu-id="b42bb-103">See a list of Audio Conferencing numbers in Skype for Business Online</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="74b87-104">有关 Microsoft Teams 中的音频会议号码的信息，请参阅 [Microsoft Teams 的音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)。</span><span class="sxs-lookup"><span data-stu-id="74b87-104">For information about Audio Conferencing numbers in Microsoft Teams, see [See a list of Audio Conferencing numbers in Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).</span></span>
+> <span data-ttu-id="b42bb-104">有关 Microsoft Teams 中的音频会议号码的信息，请参阅 [Microsoft Teams 的音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)。</span><span class="sxs-lookup"><span data-stu-id="b42bb-104">For information about Audio Conferencing numbers in Microsoft Teams, see [See a list of Audio Conferencing numbers in Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).</span></span>
 
-<span data-ttu-id="74b87-p101">When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.</span><span class="sxs-lookup"><span data-stu-id="74b87-p101">When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.</span></span>
+<span data-ttu-id="b42bb-p101">When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.</span><span class="sxs-lookup"><span data-stu-id="b42bb-p101">When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.</span></span>
   
- <span data-ttu-id="74b87-p102">**Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).</span><span class="sxs-lookup"><span data-stu-id="74b87-p102">**Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).</span></span>
+ <span data-ttu-id="b42bb-p102">**Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).</span><span class="sxs-lookup"><span data-stu-id="b42bb-p102">**Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="74b87-p103">**There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.</span><span class="sxs-lookup"><span data-stu-id="74b87-p103">**There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.</span></span>
+> <span data-ttu-id="b42bb-p103">**There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.</span><span class="sxs-lookup"><span data-stu-id="b42bb-p103">**There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.</span></span>
   
-<span data-ttu-id="74b87-p104">If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.</span><span class="sxs-lookup"><span data-stu-id="74b87-p104">If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.</span></span>
+<span data-ttu-id="b42bb-p104">If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.</span><span class="sxs-lookup"><span data-stu-id="b42bb-p104">If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.</span></span>
   
-<span data-ttu-id="74b87-116">您可以看到[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)以更改为单个用户的电话拨入式电话号码。</span><span class="sxs-lookup"><span data-stu-id="74b87-116">You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md) to change the dial-in phone number for a single user.</span></span>
+<span data-ttu-id="b42bb-116">您可以查看[邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md), 以更改单个用户的拨入电话号码。</span><span class="sxs-lookup"><span data-stu-id="b42bb-116">You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md) to change the dial-in phone number for a single user.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="74b87-p105">[!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。</span><span class="sxs-lookup"><span data-stu-id="74b87-p105">Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations.</span></span> 
+> <span data-ttu-id="b42bb-p105">[!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。</span><span class="sxs-lookup"><span data-stu-id="b42bb-p105">Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a><span data-ttu-id="74b87-119">若要查看您的音频会议电话号码</span><span class="sxs-lookup"><span data-stu-id="74b87-119">To view your audio conferencing phone numbers</span></span>
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a><span data-ttu-id="b42bb-119">查看音频会议电话号码</span><span class="sxs-lookup"><span data-stu-id="b42bb-119">To view your audio conferencing phone numbers</span></span>
 
-1. <span data-ttu-id="74b87-120">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="74b87-120">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="b42bb-120">使用你的工作或学校帐户登录 Office 365。</span><span class="sxs-lookup"><span data-stu-id="b42bb-120">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="74b87-121">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="74b87-121">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="b42bb-121">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="b42bb-121">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="74b87-122">在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 桥**，然后：</span><span class="sxs-lookup"><span data-stu-id="74b87-122">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**, and then:</span></span>
+3. <span data-ttu-id="b42bb-122">在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥**", 然后:</span><span class="sxs-lookup"><span data-stu-id="b42bb-122">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**, and then:</span></span>
     
-   - <span data-ttu-id="74b87-123">您可以查看可用于音频会议的电话号码。</span><span class="sxs-lookup"><span data-stu-id="74b87-123">You can view the phone numbers that are available for audio conferencing.</span></span>
+   - <span data-ttu-id="b42bb-123">您可以查看音频会议可用的电话号码。</span><span class="sxs-lookup"><span data-stu-id="b42bb-123">You can view the phone numbers that are available for audio conferencing.</span></span>
     
-   - <span data-ttu-id="74b87-124">您还可以查看位置，并将使用的音频会议的主要和辅助语言自动助理。</span><span class="sxs-lookup"><span data-stu-id="74b87-124">You can also view the location, and the primary and secondary languages that will be used by the audio conferencing auto attendant.</span></span>
+   - <span data-ttu-id="b42bb-124">您还可以查看该位置, 以及音频会议自动助理将使用的主要和辅助语言。</span><span class="sxs-lookup"><span data-stu-id="b42bb-124">You can also view the location, and the primary and secondary languages that will be used by the audio conferencing auto attendant.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="74b87-p106">You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).</span><span class="sxs-lookup"><span data-stu-id="74b87-p106">You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).</span></span> 
+> <span data-ttu-id="b42bb-p106">You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).</span><span class="sxs-lookup"><span data-stu-id="b42bb-p106">You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).</span></span> 
 
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="74b87-127">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="74b87-127">Want to know how to manage with Windows PowerShell?</span></span>
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="b42bb-127">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="b42bb-127">Want to know how to manage with Windows PowerShell?</span></span>
 
-- <span data-ttu-id="74b87-128">为节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="74b87-128">To save time or automate this, you can use the [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet.</span></span>
+- <span data-ttu-id="b42bb-128">为节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet。</span><span class="sxs-lookup"><span data-stu-id="b42bb-128">To save time or automate this, you can use the [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet.</span></span>
     
-- <span data-ttu-id="74b87-p107">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="74b87-p107">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+- <span data-ttu-id="b42bb-p107">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="b42bb-p107">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="74b87-132">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="74b87-132">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="b42bb-132">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="b42bb-132">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="74b87-133">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="74b87-133">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="b42bb-133">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="b42bb-133">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- <span data-ttu-id="74b87-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span><span class="sxs-lookup"><span data-stu-id="74b87-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="b42bb-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span><span class="sxs-lookup"><span data-stu-id="b42bb-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
     
-  - [<span data-ttu-id="74b87-136">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="74b87-136">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [<span data-ttu-id="b42bb-136">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="b42bb-136">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [<span data-ttu-id="74b87-137">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="74b87-137">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [<span data-ttu-id="b42bb-137">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="b42bb-137">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [<span data-ttu-id="74b87-138">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="74b87-138">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="b42bb-138">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="b42bb-138">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > <span data-ttu-id="74b87-p109">[!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。</span><span class="sxs-lookup"><span data-stu-id="74b87-p109">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+    > <span data-ttu-id="b42bb-p109">[!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。</span><span class="sxs-lookup"><span data-stu-id="b42bb-p109">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="74b87-141">相关主题</span><span class="sxs-lookup"><span data-stu-id="74b87-141">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b42bb-141">相关主题</span><span class="sxs-lookup"><span data-stu-id="b42bb-141">Related topics</span></span>
 
-[<span data-ttu-id="74b87-142">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="74b87-142">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="b42bb-142">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="b42bb-142">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

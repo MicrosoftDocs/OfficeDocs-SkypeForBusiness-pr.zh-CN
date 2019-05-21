@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientMobilityPolicyEdit
@@ -12,35 +12,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在编辑移动策略对话框中，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: e978123c32cb81aa887519a37e9d3243a1c0e076
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 "编辑移动策略" 对话框中, 您可以编辑移动策略的详细信息。
+ms.openlocfilehash: 0725c673373e795af7bf950753c1c6d56f1e3e82
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891738"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300418"
 ---
-# <a name="edit-client-mobility-policy"></a><span data-ttu-id="7437d-103">编辑客户端移动策略</span><span class="sxs-lookup"><span data-stu-id="7437d-103">Edit Client Mobility Policy</span></span>
+# <a name="edit-client-mobility-policy"></a><span data-ttu-id="3a98e-103">编辑客户端移动策略</span><span class="sxs-lookup"><span data-stu-id="3a98e-103">Edit Client Mobility Policy</span></span>
 
-<span data-ttu-id="7437d-104">在**编辑移动策略**对话框中，您可以编辑移动策略的详细信息。</span><span class="sxs-lookup"><span data-stu-id="7437d-104">On the **Edit Mobility Policy** dialog, you can edit the details of a mobility policy.</span></span>
+<span data-ttu-id="3a98e-104">在 "**编辑移动策略**" 对话框中, 您可以编辑移动策略的详细信息。</span><span class="sxs-lookup"><span data-stu-id="3a98e-104">On the **Edit Mobility Policy** dialog, you can edit the details of a mobility policy.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="7437d-105">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="7437d-105">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="3a98e-105">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="3a98e-105">UI Reference</span></span>
 
-<span data-ttu-id="7437d-106">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="7437d-106">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+<span data-ttu-id="3a98e-106">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="3a98e-106">The following lists describe the menus, command, fields, and properties on the page.</span></span>
 
 
-- <span data-ttu-id="7437d-107">**提交**单击以保存对策略设置所做的更改。</span><span class="sxs-lookup"><span data-stu-id="7437d-107">**Commit** Click to save the changes to the policy settings.</span></span>
+- <span data-ttu-id="3a98e-107">**提交**单击以保存对策略设置所做的更改。</span><span class="sxs-lookup"><span data-stu-id="3a98e-107">**Commit** Click to save the changes to the policy settings.</span></span>
 
-- <span data-ttu-id="7437d-108">**取消**单击可停止编辑策略并放弃对策略设置所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="7437d-108">**Cancel** Click to stop editing the policy and discard any changes made to the policy settings.</span></span>
+- <span data-ttu-id="3a98e-108">**取消**单击以停止编辑策略并放弃对策略设置所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="3a98e-108">**Cancel** Click to stop editing the policy and discard any changes made to the policy settings.</span></span>
 
-- <span data-ttu-id="7437d-109">**名称**移动策略的名称。</span><span class="sxs-lookup"><span data-stu-id="7437d-109">**Name** The name of the mobility policy.</span></span>
+- <span data-ttu-id="3a98e-109">**名称**移动策略的名称。</span><span class="sxs-lookup"><span data-stu-id="3a98e-109">**Name** The name of the mobility policy.</span></span>
 
-- <span data-ttu-id="7437d-110">**说明**移动策略的说明。</span><span class="sxs-lookup"><span data-stu-id="7437d-110">**Description** A description of the mobility policy.</span></span>
+- <span data-ttu-id="3a98e-110">**说明**移动策略的说明。</span><span class="sxs-lookup"><span data-stu-id="3a98e-110">**Description** A description of the mobility policy.</span></span>
 
-<span data-ttu-id="7437d-111">有关移动策略的详细信息，请参阅[Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)。</span><span class="sxs-lookup"><span data-stu-id="7437d-111">For details about mobility policies, see [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span></span>
+<span data-ttu-id="3a98e-111">有关移动策略的详细信息, 请参阅[移动策略](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)。</span><span class="sxs-lookup"><span data-stu-id="3a98e-111">For details about mobility policies, see [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7437d-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7437d-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a98e-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3a98e-112">See also</span></span>
 
-[<span data-ttu-id="7437d-113">Planning for Mobility</span><span class="sxs-lookup"><span data-stu-id="7437d-113">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[<span data-ttu-id="3a98e-113">规划移动性</span><span class="sxs-lookup"><span data-stu-id="3a98e-113">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[<span data-ttu-id="7437d-114">Deploying Mobility</span><span class="sxs-lookup"><span data-stu-id="7437d-114">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[<span data-ttu-id="3a98e-114">部署移动性</span><span class="sxs-lookup"><span data-stu-id="3a98e-114">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

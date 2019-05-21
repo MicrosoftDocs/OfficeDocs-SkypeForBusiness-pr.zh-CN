@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,61 +20,61 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238931"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290070"
 ---
-# <a name="office-365-business-premium"></a><span data-ttu-id="bd189-103">Office 365 商业高级版</span><span class="sxs-lookup"><span data-stu-id="bd189-103">Office 365 Business Premium</span></span>
+# <a name="office-365-business-premium"></a><span data-ttu-id="d49b1-103">Office 365 商业高级版</span><span class="sxs-lookup"><span data-stu-id="d49b1-103">Office 365 Business Premium</span></span>
 
-<span data-ttu-id="bd189-p101">如果你拥有 [Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for Business 呼叫企业内部包含在订阅中的其他人。例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="bd189-p101">If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.</span></span>
+<span data-ttu-id="d49b1-p101">如果你拥有 [Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for Business 呼叫企业内部包含在订阅中的其他人。例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="d49b1-p101">If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.</span></span>
 
- <span data-ttu-id="bd189-106">**要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**</span><span class="sxs-lookup"><span data-stu-id="bd189-106">**To make and receive calls from people external to your business, you have two options**:</span></span>
+ <span data-ttu-id="d49b1-106">**要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**</span><span class="sxs-lookup"><span data-stu-id="d49b1-106">**To make and receive calls from people external to your business, you have two options**:</span></span>
 
-- <span data-ttu-id="bd189-p102">**Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).</span><span class="sxs-lookup"><span data-stu-id="bd189-p102">**Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).</span></span>
+- <span data-ttu-id="d49b1-p102">**Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).</span><span class="sxs-lookup"><span data-stu-id="d49b1-p102">**Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).</span></span>
 
-    <span data-ttu-id="bd189-p103">请注意 Skype 应用不属于 Office 365 套件，所以无法按 Skype for Business 的方式与 Outlook 2016 集成。这意味着 Outlook 2016 中的联系人不会显示在 Skype 中；你需将联系人添加到 Skype。</span><span class="sxs-lookup"><span data-stu-id="bd189-p103">Note that the Skype app isn't part of the Office 365 suite, so it won't be integrated with Outlook 2016 the way Skype for Business is. This means your contacts in Outlook 2016 won't show up in Skype; you'll need to add your contacts to Skype.</span></span>
+    <span data-ttu-id="d49b1-p103">请注意 Skype 应用不属于 Office 365 套件，所以无法按 Skype for Business 的方式与 Outlook 2016 集成。这意味着 Outlook 2016 中的联系人不会显示在 Skype 中；你需将联系人添加到 Skype。</span><span class="sxs-lookup"><span data-stu-id="d49b1-p103">Note that the Skype app isn't part of the Office 365 suite, so it won't be integrated with Outlook 2016 the way Skype for Business is. This means your contacts in Outlook 2016 won't show up in Skype; you'll need to add your contacts to Skype.</span></span>
 
-    <span data-ttu-id="bd189-p104">建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。</span><span class="sxs-lookup"><span data-stu-id="bd189-p104">We recommend starting with the Skype app to see if it meets your needs. If it doesn't, then consider the next option, to upgrade your plan.</span></span>
+    <span data-ttu-id="d49b1-p104">建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。</span><span class="sxs-lookup"><span data-stu-id="d49b1-p104">We recommend starting with the Skype app to see if it meets your needs. If it doesn't, then consider the next option, to upgrade your plan.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="bd189-p105">You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).</span><span class="sxs-lookup"><span data-stu-id="bd189-p105">You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).</span></span>
+    > <span data-ttu-id="d49b1-p105">You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).</span><span class="sxs-lookup"><span data-stu-id="d49b1-p105">You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).</span></span>
 
 
-- <span data-ttu-id="bd189-118">**选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。</span><span class="sxs-lookup"><span data-stu-id="bd189-118">**Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.</span></span>
+- <span data-ttu-id="d49b1-118">**选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。</span><span class="sxs-lookup"><span data-stu-id="d49b1-118">**Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.</span></span>
 
     > [!Important]
-    > <span data-ttu-id="bd189-p106">Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.</span><span class="sxs-lookup"><span data-stu-id="bd189-p106">Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.</span></span>
+    > <span data-ttu-id="d49b1-p106">Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.</span><span class="sxs-lookup"><span data-stu-id="d49b1-p106">Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.</span></span>
 
-1. <span data-ttu-id="bd189-p107">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span><span class="sxs-lookup"><span data-stu-id="bd189-p107">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span></span>
+1. <span data-ttu-id="d49b1-p107">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span><span class="sxs-lookup"><span data-stu-id="d49b1-p107">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span></span>
 
-2. <span data-ttu-id="bd189-123">购买**电话系统**加载项。</span><span class="sxs-lookup"><span data-stu-id="bd189-123">Buy the **Phone System** add-on.</span></span>
+2. <span data-ttu-id="d49b1-123">购买**电话系统**加载项。</span><span class="sxs-lookup"><span data-stu-id="d49b1-123">Buy the **Phone System** add-on.</span></span>
     
-3. <span data-ttu-id="bd189-124">购买[Office 365 调用计划](/MicrosoftTeams/calling-plans-for-office-365)： 购买的**电话系统**加载项后，您可以仅购买此。</span><span class="sxs-lookup"><span data-stu-id="bd189-124">Buy a [Calling Plan for Office 365](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on.</span></span>
+3. <span data-ttu-id="d49b1-124">购买[适用于 Office 365 的呼叫计划](/MicrosoftTeams/calling-plans-for-office-365): 仅在购买 "**电话系统**" 加载项后, 才能购买此套餐。</span><span class="sxs-lookup"><span data-stu-id="d49b1-124">Buy a [Calling Plan for Office 365](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on.</span></span>
     
-    <span data-ttu-id="bd189-125">对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。</span><span class="sxs-lookup"><span data-stu-id="bd189-125">This second option is ideal for businesses with several people who make and receive external phone calls.</span></span>
+    <span data-ttu-id="d49b1-125">对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。</span><span class="sxs-lookup"><span data-stu-id="d49b1-125">This second option is ideal for businesses with several people who make and receive external phone calls.</span></span>
 
-## <a name="how-to-see-prices-and-buy"></a><span data-ttu-id="bd189-126">操作方法，请参阅价格和购买</span><span class="sxs-lookup"><span data-stu-id="bd189-126">How to see prices and buy</span></span>
-<span data-ttu-id="bd189-127"><a name="bkmk_buypremium"> </a></span><span class="sxs-lookup"><span data-stu-id="bd189-127"><a name="bkmk_buypremium"> </a></span></span>
+## <a name="how-to-see-prices-and-buy"></a><span data-ttu-id="d49b1-126">如何查看价格和购买</span><span class="sxs-lookup"><span data-stu-id="d49b1-126">How to see prices and buy</span></span>
+<span data-ttu-id="d49b1-127"><a name="bkmk_buypremium"> </a></span><span class="sxs-lookup"><span data-stu-id="d49b1-127"><a name="bkmk_buypremium"> </a></span></span>
 
- <span data-ttu-id="bd189-128">**若要获取音频会议和通信点数：**</span><span class="sxs-lookup"><span data-stu-id="bd189-128">**To get Audio Conferencing and Communication Credits:**</span></span>
+ <span data-ttu-id="d49b1-128">**若要获取音频会议和通信点数：**</span><span class="sxs-lookup"><span data-stu-id="d49b1-128">**To get Audio Conferencing and Communication Credits:**</span></span>
 
-1. <span data-ttu-id="bd189-129">登录 Office 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="bd189-129">Sign in to the Office 365 admin center.</span></span>
+1. <span data-ttu-id="d49b1-129">登录 Office 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="d49b1-129">Sign in to the Office 365 admin center.</span></span>
 
-2. <span data-ttu-id="bd189-130">Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.</span><span class="sxs-lookup"><span data-stu-id="bd189-130">Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.</span></span>
+2. <span data-ttu-id="d49b1-130">Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.</span><span class="sxs-lookup"><span data-stu-id="d49b1-130">Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.</span></span>
 
-   ![若要购买附加许可证，选择购买加载项。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![要购买附加设备许可证, 请选择 "购买加载项"。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. <span data-ttu-id="bd189-132">现在，您将看到的价格和选择购买音频会议和安装通信点数。</span><span class="sxs-lookup"><span data-stu-id="bd189-132">You'll now see the prices and option to buy Audio Conferencing, and setup Communications Credits.</span></span>
+3. <span data-ttu-id="d49b1-132">现在，您将看到的价格和选择购买音频会议和安装通信点数。</span><span class="sxs-lookup"><span data-stu-id="d49b1-132">You'll now see the prices and option to buy Audio Conferencing, and setup Communications Credits.</span></span>
 
-<span data-ttu-id="bd189-133">**若要获取电话系统和通话套餐：**</span><span class="sxs-lookup"><span data-stu-id="bd189-133">**To get Phone System and a Calling Plan:**</span></span>
+<span data-ttu-id="d49b1-133">**若要获取电话系统和通话套餐：**</span><span class="sxs-lookup"><span data-stu-id="d49b1-133">**To get Phone System and a Calling Plan:**</span></span>
 
-1. <span data-ttu-id="bd189-134">切换到 E1 或 E3 计划。</span><span class="sxs-lookup"><span data-stu-id="bd189-134">Switch to the E1 or E3 plan.</span></span>
+1. <span data-ttu-id="d49b1-134">切换到 E1 或 E3 计划。</span><span class="sxs-lookup"><span data-stu-id="d49b1-134">Switch to the E1 or E3 plan.</span></span>
 
-2. <span data-ttu-id="bd189-135">转到 Office 365 管理中心 > **开单** > **订阅**。</span><span class="sxs-lookup"><span data-stu-id="bd189-135">Go to Office 365 admin center > **Billing** > **Subscriptions**.</span></span>
+2. <span data-ttu-id="d49b1-135">转到 Office 365 管理中心 > **开单** > **订阅**。</span><span class="sxs-lookup"><span data-stu-id="d49b1-135">Go to Office 365 admin center > **Billing** > **Subscriptions**.</span></span>
 
-3. <span data-ttu-id="bd189-p108">Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.</span><span class="sxs-lookup"><span data-stu-id="bd189-p108">Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.</span></span>
+3. <span data-ttu-id="d49b1-p108">Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.</span><span class="sxs-lookup"><span data-stu-id="d49b1-p108">Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.</span></span>
 
-4. <span data-ttu-id="bd189-138">购买**电话系统**许可证后，您将看到的价格和选择购买调用规划。</span><span class="sxs-lookup"><span data-stu-id="bd189-138">After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.</span></span>
+4. <span data-ttu-id="d49b1-138">购买**电话系统**许可证后, 你将看到购买呼叫计划的价格和选项。</span><span class="sxs-lookup"><span data-stu-id="d49b1-138">After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.</span></span>

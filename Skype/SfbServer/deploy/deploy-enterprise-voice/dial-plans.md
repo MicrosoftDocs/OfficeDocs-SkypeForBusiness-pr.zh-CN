@@ -1,10 +1,10 @@
 ---
-title: 创建或修改拨号计划中 Skype 业务服务器
+title: 在 Skype for Business 服务器中创建或修改拨号计划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,149 +13,149 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 摘要： 了解如何创建或修改拨号计划使用 Skype 业务 Server Control Panel。
-ms.openlocfilehash: d68b831019d32ac228335fed0fd3167babde379f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何使用 Skype for business 服务器控制面板创建或修改拨号计划。'
+ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291649"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a><span data-ttu-id="ca3a1-103">创建或修改拨号计划中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="ca3a1-103">Create or modify a dial plan in Skype for Business Server</span></span>
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a><span data-ttu-id="2992d-103">在 Skype for Business 服务器中创建或修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="2992d-103">Create or modify a dial plan in Skype for Business Server</span></span>
 
-<span data-ttu-id="ca3a1-104">**摘要：** 了解如何创建或修改拨号计划使用 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-104">**Summary:** Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="2992d-104">**摘要:** 了解如何使用 Skype for business 服务器控制面板创建或修改拨号计划。</span><span class="sxs-lookup"><span data-stu-id="2992d-104">**Summary:** Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel.</span></span>
 
-### <a name="to-create-a-dial-plan"></a><span data-ttu-id="ca3a1-105">创建拨号计划</span><span class="sxs-lookup"><span data-stu-id="ca3a1-105">To create a dial plan</span></span>
+### <a name="to-create-a-dial-plan"></a><span data-ttu-id="2992d-105">创建拨号计划</span><span class="sxs-lookup"><span data-stu-id="2992d-105">To create a dial plan</span></span>
 
-1. <span data-ttu-id="ca3a1-106">打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-106">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="2992d-106">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="2992d-106">Open Skype for Business Server Control Panel.</span></span>
 
-2. <span data-ttu-id="ca3a1-107">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“拨号计划”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-107">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
+2. <span data-ttu-id="2992d-107">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“拨号计划”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-107">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
 
-3. <span data-ttu-id="ca3a1-108">在“拨号计划”\*\*\*\* 页上，单击“新建”\*\*\*\*，然后为拨号计划选择作用域：</span><span class="sxs-lookup"><span data-stu-id="ca3a1-108">On the **Dial Plan** page, click **New** and select a scope for the dial plan:</span></span>
+3. <span data-ttu-id="2992d-108">在“拨号计划”\*\*\*\* 页上，单击“新建”\*\*\*\*，然后为拨号计划选择作用域：</span><span class="sxs-lookup"><span data-stu-id="2992d-108">On the **Dial Plan** page, click **New** and select a scope for the dial plan:</span></span>
 
-   - <span data-ttu-id="ca3a1-109">“站点拨号计划”\*\*\*\* 将应用于整个站点，分配给用户拨号计划的用户或组除外。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-109">**Site dial plan** applies to an entire site, except any users or groups that are assigned to a user dial plan.</span></span> <span data-ttu-id="ca3a1-110">如果您选择的拨号计划作用域的**网站**，您必须从**选择站点**对话框中选择的网站。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-110">If you select **Site** for a dial plan's scope, you must choose the site from the **Select a Site** dialog box.</span></span> <span data-ttu-id="ca3a1-111">如果已经为站点创建了拨号计划，则该站点不会显示在“选择站点”\*\*\*\* 对话框中。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-111">If a dial plan has already been created for a site, the site does not appear in the **Select a Site** dialog box.</span></span>
+   - <span data-ttu-id="2992d-109">“站点拨号计划”\*\*\*\* 将应用于整个站点，分配给用户拨号计划的用户或组除外。</span><span class="sxs-lookup"><span data-stu-id="2992d-109">**Site dial plan** applies to an entire site, except any users or groups that are assigned to a user dial plan.</span></span> <span data-ttu-id="2992d-110">如果为拨号计划的作用域选择 "**网站**", 则必须从 "**选择网站**" 对话框中选择网站。</span><span class="sxs-lookup"><span data-stu-id="2992d-110">If you select **Site** for a dial plan's scope, you must choose the site from the **Select a Site** dialog box.</span></span> <span data-ttu-id="2992d-111">如果已经为站点创建了拨号计划，则该站点不会显示在“选择站点”\*\*\*\* 对话框中。</span><span class="sxs-lookup"><span data-stu-id="2992d-111">If a dial plan has already been created for a site, the site does not appear in the **Select a Site** dialog box.</span></span>
 
-   - <span data-ttu-id="ca3a1-112">“池拨号计划”\*\*\*\* 可以应用于公用电话交换网 (PSTN) 网关或注册器。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-112">**Pool dial plan** can apply to a public switched telephone network (PSTN) gateway or a Registrar.</span></span> <span data-ttu-id="ca3a1-113">如果您选择的拨号计划作用域的**池**，从**选择服务**对话框中选择的 PSTN 网关或注册器。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-113">If you select **Pool** for a dial plan's scope, choose the PSTN gateway or Registrar from the **Select a Service** dialog box.</span></span> <span data-ttu-id="ca3a1-114">如果已经为服务（PSTN 网关或注册器）创建了拨号计划，则该服务不会显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-114">If a dial plan has already been created for a service (PSTN gateway or Registrar), the service does not appear in the list.</span></span>
+   - <span data-ttu-id="2992d-112">“池拨号计划”\*\*\*\* 可以应用于公用电话交换网 (PSTN) 网关或注册器。</span><span class="sxs-lookup"><span data-stu-id="2992d-112">**Pool dial plan** can apply to a public switched telephone network (PSTN) gateway or a Registrar.</span></span> <span data-ttu-id="2992d-113">如果为拨号计划的作用域选择 "**池**", 请从 "**选择服务**" 对话框中选择 PSTN 网关或注册机构。</span><span class="sxs-lookup"><span data-stu-id="2992d-113">If you select **Pool** for a dial plan's scope, choose the PSTN gateway or Registrar from the **Select a Service** dialog box.</span></span> <span data-ttu-id="2992d-114">如果已经为服务（PSTN 网关或注册器）创建了拨号计划，则该服务不会显示在列表中。</span><span class="sxs-lookup"><span data-stu-id="2992d-114">If a dial plan has already been created for a service (PSTN gateway or Registrar), the service does not appear in the list.</span></span>
 
-   - <span data-ttu-id="ca3a1-115">“用户拨号计划”\*\*\*\* 可以应用于指定的用户或组。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-115">**User dial plan** can be applied to specified users or groups.</span></span>
+   - <span data-ttu-id="2992d-115">“用户拨号计划”\*\*\*\* 可以应用于指定的用户或组。</span><span class="sxs-lookup"><span data-stu-id="2992d-115">**User dial plan** can be applied to specified users or groups.</span></span>
 
      > [!NOTE]
-     > <span data-ttu-id="ca3a1-116">选择拨号计划作用域后，就无法更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-116">After you select the dial plan scope, it cannot be changed.</span></span>
+     > <span data-ttu-id="2992d-116">选择拨号计划作用域后，就无法更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-116">After you select the dial plan scope, it cannot be changed.</span></span>
 
-4. <span data-ttu-id="ca3a1-p103">如果要创建用户拨号计划，请在“新建拨号计划”\*\*\*\* 对话框的“名称”\*\*\*\* 字段中输入描述性名称。保存此名称后，就无法更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p103">If you are creating a user dial plan, enter a descriptive name in the **Name** field on the **New Dial Plan** dialog box. After this name is saved, it cannot be changed.</span></span>
+4. <span data-ttu-id="2992d-p103">如果要创建用户拨号计划，请在“新建拨号计划”\*\*\*\* 对话框的“名称”\*\*\*\* 字段中输入描述性名称。保存此名称后，就无法更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-p103">If you are creating a user dial plan, enter a descriptive name in the **Name** field on the **New Dial Plan** dialog box. After this name is saved, it cannot be changed.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ca3a1-119">对于站点拨号计划，**名称**字段会使用站点名称预先填充，无法更改的.> 对于池拨号计划，**名称**字段会使用 PSTN 网关或注册器名称预先填充，且不能更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-119">For site dial plans, the **Name** field is prepopulated with the site name and cannot be changed.> For pool dial plans, the **Name** field is prepopulated with the PSTN gateway or Registrar name and cannot be changed.</span></span>
+    > <span data-ttu-id="2992d-119">对于网站拨号计划, "**名称**" 字段已预填充网站名称, 无法更改。 > 对于池拨号计划, "**名称**" 字段将预填充 PSTN 网关或注册机构名称, 并且不能更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-119">For site dial plans, the **Name** field is prepopulated with the site name and cannot be changed.> For pool dial plans, the **Name** field is prepopulated with the PSTN gateway or Registrar name and cannot be changed.</span></span>
 
-5. <span data-ttu-id="ca3a1-p104">“简单名称”\*\*\*\* 字段会使用与“名称”\*\*\*\* 字段中显示的相同名称预先填充。您可以选择编辑该字段来指定描述性更强的名称，以反映应用该拨号计划的站点、服务或用户。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p104">The **Simple name** field is prepopulated with the same name that appears in the **Name** field. You can optionally edit this field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
+5. <span data-ttu-id="2992d-p104">“简单名称”\*\*\*\* 字段会使用与“名称”\*\*\*\* 字段中显示的相同名称预先填充。您可以选择编辑该字段来指定描述性更强的名称，以反映应用该拨号计划的站点、服务或用户。</span><span class="sxs-lookup"><span data-stu-id="2992d-p104">The **Simple name** field is prepopulated with the same name that appears in the **Name** field. You can optionally edit this field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
 
    > [!IMPORTANT]
-   > <span data-ttu-id="ca3a1-122">此“简单名称”\*\*\*\* 在部署中的所有拨号计划内必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-122">The **Simple name** must be unique among all dial plans in your deployment.</span></span> <span data-ttu-id="ca3a1-123">它不能超过 256 个 Unicode 字符，其中每个可以是一个字母或数字字符、 连字符 （-）、 句点 （.） 或下划线 (_).> 字符**不支持**应在 RFC 3966 标准中定义包括空格和保留的字符 (<http://www.ietf.org/rfc/rfc3966.txt>)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-123">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), or an underscore (_).> Characters **not supported** include spaces and Reserved characters as defined in RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>).</span></span> <span data-ttu-id="ca3a1-124">保留的**简单名称**中**不支持**字符，包括以下： >";""/""?"":""@""&amp;""=""+""$""、"</span><span class="sxs-lookup"><span data-stu-id="ca3a1-124">Reserved characters that are **not supported** in the **Simple Name** include the following:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","</span></span>
+   > <span data-ttu-id="2992d-122">此“简单名称”\*\*\*\* 在部署中的所有拨号计划内必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="2992d-122">The **Simple name** must be unique among all dial plans in your deployment.</span></span> <span data-ttu-id="2992d-123">它不能超过 256 Unicode 字符, 每个 Unicode 字符可以是字母或数字字符、连字符 (-)、句点 (.) 或下划线 (_)。**不支持**的 > 字符包括 RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>) 中定义的空格和保留字符。</span><span class="sxs-lookup"><span data-stu-id="2992d-123">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), or an underscore (_).> Characters **not supported** include spaces and Reserved characters as defined in RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>).</span></span> <span data-ttu-id="2992d-124">在**简单名称**中**不支持**的保留字符包括以下内容: > ";""/" "?" ":" "@" "&amp;" "" = ""</span><span class="sxs-lookup"><span data-stu-id="2992d-124">Reserved characters that are **not supported** in the **Simple Name** include the following:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","</span></span>
 
-6. <span data-ttu-id="ca3a1-125">（可选）在“说明”\*\*\*\* 字段中，您可以键入有关拨号计划的其他描述性信息。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-125">(Optional) In the **Description** field, you can type additional descriptive information about the dial plan.</span></span>
+6. <span data-ttu-id="2992d-125">（可选）在“说明”\*\*\*\* 字段中，您可以键入有关拨号计划的其他描述性信息。</span><span class="sxs-lookup"><span data-stu-id="2992d-125">(Optional) In the **Description** field, you can type additional descriptive information about the dial plan.</span></span>
 
-7. <span data-ttu-id="ca3a1-p106">（可选）如果要将此拨号计划用作电话拨入式访问号码的区域，请指定“电话拨入式会议区域”\*\*\*\*。如果不希望将此拨号计划用于电话拨入式访问号码，请将此字段留空。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p106">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="ca3a1-128">电话拨入式会议区域需要将电话拨入式会议访问号码与一个或多个拨号计划相关联。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-128">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
-
-8. <span data-ttu-id="ca3a1-p107">（可选）在“外部访问前缀”\*\*\*\* 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。键入的前缀值不得超过四个字符（#、\* 和 0-9）。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p107">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits (for example, 9) to get an external line. You can type in a prefix value of up to four characters (#, \*, and 0-9).</span></span>
+7. <span data-ttu-id="2992d-p106">（可选）如果要将此拨号计划用作电话拨入式访问号码的区域，请指定“电话拨入式会议区域”\*\*\*\*。如果不希望将此拨号计划用于电话拨入式访问号码，请将此字段留空。</span><span class="sxs-lookup"><span data-stu-id="2992d-p106">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ca3a1-131">如果指定了外部访问前缀，则不需要创建新的规范化规则来满足前缀。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-131">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
+    > <span data-ttu-id="2992d-128">电话拨入式会议区域需要将电话拨入式会议访问号码与一个或多个拨号计划相关联。</span><span class="sxs-lookup"><span data-stu-id="2992d-128">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
 
-9. <span data-ttu-id="ca3a1-132">按如下所示为拨号计划关联并配置规范化规则：</span><span class="sxs-lookup"><span data-stu-id="ca3a1-132">Associate and configure normalization rules for the dial plan as follows:</span></span>
+8. <span data-ttu-id="2992d-p107">（可选）在“外部访问前缀”\*\*\*\* 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。键入的前缀值不得超过四个字符（#、\* 和 0-9）。</span><span class="sxs-lookup"><span data-stu-id="2992d-p107">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits (for example, 9) to get an external line. You can type in a prefix value of up to four characters (#, \*, and 0-9).</span></span>
 
-    - <span data-ttu-id="ca3a1-133">若要从所有企业语音部署中可用的规范化规则的列表中选择一个或多个规则，请单击**选择**。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-133">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="ca3a1-134">在“选择规范化规则”\*\*\*\* 中，突出显示要与拨号计划关联的规则，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-134">In **Select Normalization Rules**, highlight the rules you want to associate with the dial plan and then click **OK**.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="2992d-131">如果指定了外部访问前缀，则不需要创建新的规范化规则来满足前缀。</span><span class="sxs-lookup"><span data-stu-id="2992d-131">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
 
-   - <span data-ttu-id="ca3a1-135">要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-135">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="ca3a1-136">有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务的 Skype](normalization-rules.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-136">For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).</span></span>
+9. <span data-ttu-id="2992d-132">按如下所示为拨号计划关联并配置规范化规则：</span><span class="sxs-lookup"><span data-stu-id="2992d-132">Associate and configure normalization rules for the dial plan as follows:</span></span>
 
-   - <span data-ttu-id="ca3a1-137">要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-137">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span>
+    - <span data-ttu-id="2992d-133">若要从您的企业语音部署中可用的所有规范化规则列表中选择一个或多个规则, 请单击 "**选择**"。</span><span class="sxs-lookup"><span data-stu-id="2992d-133">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="2992d-134">在“选择规范化规则”\*\*\*\* 中，突出显示要与拨号计划关联的规则，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-134">In **Select Normalization Rules**, highlight the rules you want to associate with the dial plan and then click **OK**.</span></span>
 
-   - <span data-ttu-id="ca3a1-138">要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”\*\*\*\*，然后单击“粘贴”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-138">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span>
+   - <span data-ttu-id="2992d-135">要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-135">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="2992d-136">有关定义新规则的详细信息, 请参阅[在 Skype For business 中创建或修改规范化规则](normalization-rules.md)。</span><span class="sxs-lookup"><span data-stu-id="2992d-136">For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).</span></span>
 
-   - <span data-ttu-id="ca3a1-139">要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-139">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
+   - <span data-ttu-id="2992d-137">要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-137">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span>
+
+   - <span data-ttu-id="2992d-138">要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”\*\*\*\*，然后单击“粘贴”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-138">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span>
+
+   - <span data-ttu-id="2992d-139">要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-139">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
 
      > [!NOTE]
-     > <span data-ttu-id="ca3a1-140">每个拨号计划都必须至少有一个关联的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-140">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="ca3a1-141">有关如何确定的规范化规则的所有拨号计划都需要，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-141">For information about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.</span></span>
+     > <span data-ttu-id="2992d-140">每个拨号计划都必须至少有一个关联的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="2992d-140">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="2992d-141">有关如何确定拨号计划所需的所有规范化规则的信息, 请参阅规划文档中的[Skype for Business 服务器中的出站语音路由计划](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="2992d-141">For information about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.</span></span>
 
-10. <span data-ttu-id="ca3a1-142">确认正确的顺序排列的拨号计划的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-142">Verify that the dial plan's normalization rules are arranged in the correct order.</span></span> <span data-ttu-id="ca3a1-143">若要更改列表中的规则的位置，请突出显示相应的规则名称然后单击向上或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-143">To change a rule's position in the list, highlight the rule name and then click the up or down arrow.</span></span>
-
-    > [!IMPORTANT]
-    > <span data-ttu-id="ca3a1-144">Skype 业务服务器从上向下遍历规范化规则列表，并使用第一个匹配已拨的号码的规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-144">Skype for Business Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="ca3a1-145">如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-145">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span> <span data-ttu-id="ca3a1-146">> 默认**保留所有**规范化规则 ^(\d{11})$ 匹配任何 11 位数字。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-146">> The default **Keep All** normalization rule^(\d{11})$ matches any 11-digit number.</span></span> <span data-ttu-id="ca3a1-147">例如，如果您添加规范化规则相匹配的开始 1425年 11 位数字号码，请确保，下面更严格排序**全部保留**^(1425\d{7})$ 规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-147">For example, if you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that **Keep All** is sorted below the more restrictive^(1425\d{7})$ rule.</span></span>
-
-11. <span data-ttu-id="ca3a1-p113">（可选）输入一个号码来测试拨号计划，然后单击“执行”\*\*\*\*。测试结果会显示在“输入要测试的号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p113">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-
-12. <span data-ttu-id="ca3a1-150">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-150">Click **OK**.</span></span>
-
-13. <span data-ttu-id="ca3a1-151">在“拨号计划”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-151">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="ca3a1-152">任何时候创建拨号计划，都必须运行“全部提交”\*\*\*\* 命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-152">Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="ca3a1-153">有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-153">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
-
-### <a name="to-modify-a-dial-plan"></a><span data-ttu-id="ca3a1-154">修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="ca3a1-154">To modify a dial plan</span></span>
-
-1. <span data-ttu-id="ca3a1-p115">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p115">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.</span></span>
-
-2. <span data-ttu-id="ca3a1-157">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-157">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
-
-3. <span data-ttu-id="ca3a1-158">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“拨号计划”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-158">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
-
-4. <span data-ttu-id="ca3a1-159">在“拨号计划”\*\*\*\* 页上，双击某个拨号计划名称。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-159">On the **Dial Plan** page, double-click a dial plan name.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="ca3a1-p116">拨号计划的作用域和名称是在创建该拨号计划时设置的，且不能更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p116">The dial plan scope and name were set when the dial plan was created. They cannot be changed.</span></span>
-
-5. <span data-ttu-id="ca3a1-162">（可选）在“编辑拨号计划”\*\*\*\* 中，编辑“简单名称”\*\*\*\* 字段，该字段会预填充“名称”\*\*\*\* 字段中显示的相同名称，以指定反映应用该拨号计划的站点、服务或用户的更具描述性的名称。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-162">(Optional) In **Edit Dial Plan**, edit the **Simple name** field, which is prepopulated with the same name that appears in the **Name** field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
+10. <span data-ttu-id="2992d-142">验证拨号计划的规范化规则是否按正确的顺序排列。</span><span class="sxs-lookup"><span data-stu-id="2992d-142">Verify that the dial plan's normalization rules are arranged in the correct order.</span></span> <span data-ttu-id="2992d-143">若要更改规则在列表中的位置, 请突出显示规则名称, 然后单击向上或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="2992d-143">To change a rule's position in the list, highlight the rule name and then click the up or down arrow.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="ca3a1-163">**简单名称**必须是唯一的 Lync Server 2013 部署中的所有拨号计划。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-163">The **Simple name** must be unique among all dial plans within the Lync Server 2013 deployment.</span></span> <span data-ttu-id="ca3a1-164">它不能超过 256 个 Unicode 字符，其中每个可以是一个字母或数字字符，连字符 （-）、 句点 （.）、 一个加号 （+），或一个下划线 (_).> 不允许使用空格**简单名称**字段中。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-164">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), a plus sign (+), or an underscore (_).> Spaces are not allowed in the **Simple name** field.</span></span>
+    > <span data-ttu-id="2992d-144">Skype for Business 服务器从上到下遍历规范化规则列表, 并使用与所拨号码匹配的第一个规则。</span><span class="sxs-lookup"><span data-stu-id="2992d-144">Skype for Business Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="2992d-145">如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。</span><span class="sxs-lookup"><span data-stu-id="2992d-145">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span> <span data-ttu-id="2992d-146">> 默认 "**保持所有**规范化规则 ^ (\d{11}) $" 与任何11位数字匹配。</span><span class="sxs-lookup"><span data-stu-id="2992d-146">> The default **Keep All** normalization rule^(\d{11})$ matches any 11-digit number.</span></span> <span data-ttu-id="2992d-147">例如, 如果你添加的规范化规则与以1425开头的11位数字相匹配, 请确保 "**全部保留**" 按限制性 ^ (1425 d{7}) $ 规则为准则排序。</span><span class="sxs-lookup"><span data-stu-id="2992d-147">For example, if you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that **Keep All** is sorted below the more restrictive^(1425\d{7})$ rule.</span></span>
 
-6. <span data-ttu-id="ca3a1-165">（可选）在“说明”\*\*\*\* 字段中，键入有关拨号计划的描述性信息。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-165">(Optional) In the **Description** field, type descriptive information about the dial plan.</span></span>
+11. <span data-ttu-id="2992d-p113">（可选）输入一个号码来测试拨号计划，然后单击“执行”\*\*\*\*。测试结果会显示在“输入要测试的号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="2992d-p113">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
 
-7. <span data-ttu-id="ca3a1-p118">（可选）如果要将此拨号计划用作电话拨入式访问号码的区域，请指定“电话拨入式会议区域”\*\*\*\*。如果不希望将此拨号计划用于电话拨入式访问号码，请将此字段留空。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p118">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
+12. <span data-ttu-id="2992d-150">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="2992d-150">Click **OK**.</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="ca3a1-168">电话拨入式会议区域需要将电话拨入式会议访问号码与一个或多个拨号计划相关联。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-168">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
-
-8. <span data-ttu-id="ca3a1-p119">（可选）在“外部访问前缀”\*\*\*\* 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。键入的前缀值不得超过四个字符（即 #、\* 和 0-9）。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p119">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits to get an external line (for example, 9). You can type in a prefix value of up to four characters (that is, #, \*, and 0-9).</span></span>
+13. <span data-ttu-id="2992d-151">在“拨号计划”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-151">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ca3a1-171">如果指定了外部访问前缀，则不需要创建新的规范化规则来满足前缀。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-171">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
+    > <span data-ttu-id="2992d-152">任何时候创建拨号计划，都必须运行“全部提交”\*\*\*\* 命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-152">Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="2992d-153">有关详细信息, 请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。</span><span class="sxs-lookup"><span data-stu-id="2992d-153">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
 
-9. <span data-ttu-id="ca3a1-172">为拨号计划关联并配置规范化规则：</span><span class="sxs-lookup"><span data-stu-id="ca3a1-172">Associate and configure normalization rules for the dial plan:</span></span>
+### <a name="to-modify-a-dial-plan"></a><span data-ttu-id="2992d-154">修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="2992d-154">To modify a dial plan</span></span>
 
-   - <span data-ttu-id="ca3a1-173">若要从所有企业语音部署中可用的规范化规则的列表中选择一个或多个规则，请单击**选择**。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-173">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="ca3a1-174">在“选择规范化规则”\*\*\*\* 对话框中，突出显示要与拨号计划关联的规则，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-174">In the **Select Normalization Rules** dialog box, highlight the rules that you want to associate with the dial plan and then click **OK**.</span></span>
+1. <span data-ttu-id="2992d-p115">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。</span><span class="sxs-lookup"><span data-stu-id="2992d-p115">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.</span></span>
 
-   - <span data-ttu-id="ca3a1-175">要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-175">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="ca3a1-176">有关定义新的规则的详细信息，请参阅[创建或修改规范化规则中的业务的 Skype](normalization-rules.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-176">For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).</span></span>
+2. <span data-ttu-id="2992d-157">打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="2992d-157">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
 
-   - <span data-ttu-id="ca3a1-177">要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-177">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span>
+3. <span data-ttu-id="2992d-158">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“拨号计划”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-158">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
 
-   - <span data-ttu-id="ca3a1-178">要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”\*\*\*\*，然后单击“粘贴”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-178">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span>
+4. <span data-ttu-id="2992d-159">在“拨号计划”\*\*\*\* 页上，双击某个拨号计划名称。</span><span class="sxs-lookup"><span data-stu-id="2992d-159">On the **Dial Plan** page, double-click a dial plan name.</span></span>
 
-   - <span data-ttu-id="ca3a1-179">要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-179">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="2992d-p116">拨号计划的作用域和名称是在创建该拨号计划时设置的，且不能更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-p116">The dial plan scope and name were set when the dial plan was created. They cannot be changed.</span></span>
+
+5. <span data-ttu-id="2992d-162">（可选）在“编辑拨号计划”\*\*\*\* 中，编辑“简单名称”\*\*\*\* 字段，该字段会预填充“名称”\*\*\*\* 字段中显示的相同名称，以指定反映应用该拨号计划的站点、服务或用户的更具描述性的名称。</span><span class="sxs-lookup"><span data-stu-id="2992d-162">(Optional) In **Edit Dial Plan**, edit the **Simple name** field, which is prepopulated with the same name that appears in the **Name** field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="2992d-163">**简单名称**必须在 Lync Server 2013 部署中的所有拨号计划中是唯一的。</span><span class="sxs-lookup"><span data-stu-id="2992d-163">The **Simple name** must be unique among all dial plans within the Lync Server 2013 deployment.</span></span> <span data-ttu-id="2992d-164">它不能超过 256 Unicode 字符, 其中每个 Unicode 字符都可以是字母或数字字符、连字符 (-)、一种加号 (+) 或下划线 (_)。在 "**简单名称**" 字段中不允许使用 > 空格。</span><span class="sxs-lookup"><span data-stu-id="2992d-164">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), a plus sign (+), or an underscore (_).> Spaces are not allowed in the **Simple name** field.</span></span>
+
+6. <span data-ttu-id="2992d-165">（可选）在“说明”\*\*\*\* 字段中，键入有关拨号计划的描述性信息。</span><span class="sxs-lookup"><span data-stu-id="2992d-165">(Optional) In the **Description** field, type descriptive information about the dial plan.</span></span>
+
+7. <span data-ttu-id="2992d-p118">（可选）如果要将此拨号计划用作电话拨入式访问号码的区域，请指定“电话拨入式会议区域”\*\*\*\*。如果不希望将此拨号计划用于电话拨入式访问号码，请将此字段留空。</span><span class="sxs-lookup"><span data-stu-id="2992d-p118">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="2992d-168">电话拨入式会议区域需要将电话拨入式会议访问号码与一个或多个拨号计划相关联。</span><span class="sxs-lookup"><span data-stu-id="2992d-168">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
+
+8. <span data-ttu-id="2992d-p119">（可选）在“外部访问前缀”\*\*\*\* 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。键入的前缀值不得超过四个字符（即 #、\* 和 0-9）。</span><span class="sxs-lookup"><span data-stu-id="2992d-p119">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits to get an external line (for example, 9). You can type in a prefix value of up to four characters (that is, #, \*, and 0-9).</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="2992d-171">如果指定了外部访问前缀，则不需要创建新的规范化规则来满足前缀。</span><span class="sxs-lookup"><span data-stu-id="2992d-171">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
+
+9. <span data-ttu-id="2992d-172">为拨号计划关联并配置规范化规则：</span><span class="sxs-lookup"><span data-stu-id="2992d-172">Associate and configure normalization rules for the dial plan:</span></span>
+
+   - <span data-ttu-id="2992d-173">若要从您的企业语音部署中可用的所有规范化规则列表中选择一个或多个规则, 请单击 "**选择**"。</span><span class="sxs-lookup"><span data-stu-id="2992d-173">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="2992d-174">在“选择规范化规则”\*\*\*\* 对话框中，突出显示要与拨号计划关联的规则，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-174">In the **Select Normalization Rules** dialog box, highlight the rules that you want to associate with the dial plan and then click **OK**.</span></span>
+
+   - <span data-ttu-id="2992d-175">要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-175">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="2992d-176">有关定义新规则的详细信息, 请参阅[在 Skype For business 中创建或修改规范化规则](normalization-rules.md)。</span><span class="sxs-lookup"><span data-stu-id="2992d-176">For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).</span></span>
+
+   - <span data-ttu-id="2992d-177">要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-177">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span>
+
+   - <span data-ttu-id="2992d-178">要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”\*\*\*\*，然后单击“粘贴”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-178">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span>
+
+   - <span data-ttu-id="2992d-179">要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-179">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
 
      > [!NOTE]
-     > <span data-ttu-id="ca3a1-180">每个拨号计划都必须至少有一个关联的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-180">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="ca3a1-181">计划都需要有关如何确定的规范化规则的所有拨入详细信息，请参阅规划文档中的[规划出站语音路由 Skype 业务服务器中](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-181">For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.</span></span>
+     > <span data-ttu-id="2992d-180">每个拨号计划都必须至少有一个关联的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="2992d-180">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="2992d-181">有关如何确定拨号计划所需的所有规范化规则的详细信息, 请参阅规划文档中的 Skype for business[服务器中的出站语音路由计划](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="2992d-181">For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.</span></span>
 
-10. <span data-ttu-id="ca3a1-182">确认正确的顺序排列的拨号计划的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-182">Verify that the dial plan's normalization rules are arranged in the correct order.</span></span> <span data-ttu-id="ca3a1-183">若要更改列表中的规则的位置，请突出显示相应的规则名称然后单击向上或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-183">To change a rule's position in the list, highlight the rule name and then click the up or down arrow.</span></span>
+10. <span data-ttu-id="2992d-182">验证拨号计划的规范化规则是否按正确的顺序排列。</span><span class="sxs-lookup"><span data-stu-id="2992d-182">Verify that the dial plan's normalization rules are arranged in the correct order.</span></span> <span data-ttu-id="2992d-183">若要更改规则在列表中的位置, 请突出显示规则名称, 然后单击向上或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="2992d-183">To change a rule's position in the list, highlight the rule name and then click the up or down arrow.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="ca3a1-184">Skype 业务服务器从上向下遍历规范化规则列表，并使用第一个匹配已拨的号码的规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-184">Skype for Business Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="ca3a1-185">如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-185">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span> <span data-ttu-id="ca3a1-186">> 默认**保留所有**规范化规则 ^(\d{11})$ 匹配任何 11 位数字。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-186">> The default **Keep All** normalization rule^(\d{11})$ matches any 11-digit number.</span></span> <span data-ttu-id="ca3a1-187">如果，例如，添加规范化规则相匹配的开始 1425年 11 位数字号码，请确保，下面更严格排序**全部保留**^(1425\d{7})$ 规则。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-187">If, for example, you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that **Keep All** is sorted below the more restrictive^(1425\d{7})$ rule.</span></span>
+    > <span data-ttu-id="2992d-184">Skype for Business 服务器从上到下遍历规范化规则列表, 并使用与所拨号码匹配的第一个规则。</span><span class="sxs-lookup"><span data-stu-id="2992d-184">Skype for Business Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="2992d-185">如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。</span><span class="sxs-lookup"><span data-stu-id="2992d-185">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span> <span data-ttu-id="2992d-186">> 默认 "**保持所有**规范化规则 ^ (\d{11}) $" 与任何11位数字匹配。</span><span class="sxs-lookup"><span data-stu-id="2992d-186">> The default **Keep All** normalization rule^(\d{11})$ matches any 11-digit number.</span></span> <span data-ttu-id="2992d-187">例如, 如果你添加的规范化规则与以1425开头的11位数字相匹配, 请确保 "**全部保留**" 按限制性 ^ (1425 d{7}) $ 规则为准则排序。</span><span class="sxs-lookup"><span data-stu-id="2992d-187">If, for example, you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that **Keep All** is sorted below the more restrictive^(1425\d{7})$ rule.</span></span>
 
-11. <span data-ttu-id="ca3a1-p125">（可选）输入一个号码来测试拨号计划，然后单击“执行”\*\*\*\*。测试结果会显示在“输入要测试的号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p125">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="ca3a1-p126">您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。有关详细信息，请参阅[Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-p126">You can save a dial plan that does not yet pass the test and then reconfigure it later. For details, see [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
-
-12. <span data-ttu-id="ca3a1-192">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-192">Click **OK**.</span></span>
-
-13. <span data-ttu-id="ca3a1-193">在“拨号计划”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-193">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+11. <span data-ttu-id="2992d-p125">（可选）输入一个号码来测试拨号计划，然后单击“执行”\*\*\*\*。测试结果会显示在“输入要测试的号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="2992d-p125">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ca3a1-194">任何时候创建或修改拨号计划，都必须运行“全部提交”\*\*\*\* 命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-194">Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="ca3a1-195">有关详细信息，请参阅操作文档中的[Publish 挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)。</span><span class="sxs-lookup"><span data-stu-id="ca3a1-195">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="2992d-p126">您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。有关详细信息，请参阅[Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="2992d-p126">You can save a dial plan that does not yet pass the test and then reconfigure it later. For details, see [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ca3a1-196">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ca3a1-196">See also</span></span>
+12. <span data-ttu-id="2992d-192">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="2992d-192">Click **OK**.</span></span>
 
-[<span data-ttu-id="ca3a1-197">发布挂起的 Skype for Business 中的语音路由配置更改</span><span class="sxs-lookup"><span data-stu-id="ca3a1-197">Publish pending changes to the voice routing configuration in Skype for Business</span></span>](voice-route-config-changes.md)
+13. <span data-ttu-id="2992d-193">在“拨号计划”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2992d-193">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="2992d-194">任何时候创建或修改拨号计划，都必须运行“全部提交”\*\*\*\* 命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="2992d-194">Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="2992d-195">有关详细信息, 请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。</span><span class="sxs-lookup"><span data-stu-id="2992d-195">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="2992d-196">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2992d-196">See also</span></span>
+
+[<span data-ttu-id="2992d-197">发布 Skype for Business 中的语音路由配置的待处理更改</span><span class="sxs-lookup"><span data-stu-id="2992d-197">Publish pending changes to the voice routing configuration in Skype for Business</span></span>](voice-route-config-changes.md)
 

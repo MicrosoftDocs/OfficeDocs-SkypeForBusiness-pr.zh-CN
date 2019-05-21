@@ -1,36 +1,36 @@
 ---
-title: （可选）验证呼叫寄存部署中的业务的 Skype
+title: 可选在 Skype for Business 中验证呼叫寄存部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: 验证业务 Server 企业语音的 Skype 中的呼叫寄存部署。
-ms.openlocfilehash: da53d351acef3eb2fc7fcc1b59e24a83d0cb2495
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中验证呼叫寄存的部署。
+ms.openlocfilehash: 94d230491c0207c05016545de3c45cf0582ca496
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894666"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292841"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a><span data-ttu-id="2568a-103">（可选）验证呼叫寄存部署中的业务的 Skype</span><span class="sxs-lookup"><span data-stu-id="2568a-103">(Optional) Verify Call Park deployment in Skype for Business</span></span>
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a><span data-ttu-id="cbfd9-103">可选在 Skype for Business 中验证呼叫寄存部署</span><span class="sxs-lookup"><span data-stu-id="cbfd9-103">(Optional) Verify Call Park deployment in Skype for Business</span></span>
  
-<span data-ttu-id="2568a-104">验证业务 Server 企业语音的 Skype 中的呼叫寄存部署。</span><span class="sxs-lookup"><span data-stu-id="2568a-104">Verifying your deployment of Call Park in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="cbfd9-104">在 Skype for Business Server Enterprise Voice 中验证呼叫寄存的部署。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-104">Verifying your deployment of Call Park in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="2568a-105">在安装和配置呼叫寄存后，您需要验证配置以确保寄存和取回呼叫能够按预期方式。</span><span class="sxs-lookup"><span data-stu-id="2568a-105">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="2568a-106">至少必须验证以下内容：</span><span class="sxs-lookup"><span data-stu-id="2568a-106">At minimum, verify the following:</span></span>
+<span data-ttu-id="cbfd9-105">安装并配置呼叫寄存后, 您需要验证配置, 以确保停车和检索呼叫按预期工作。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-105">After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected.</span></span> <span data-ttu-id="cbfd9-106">至少必须验证以下内容：</span><span class="sxs-lookup"><span data-stu-id="cbfd9-106">At minimum, verify the following:</span></span>
   
-- <span data-ttu-id="2568a-107">呼叫启用呼叫寄存的用户并使用户寄存此呼叫。</span><span class="sxs-lookup"><span data-stu-id="2568a-107">Call a user who has Call Park enabled and have the user park the call.</span></span>
+- <span data-ttu-id="cbfd9-107">呼叫已启用呼叫寄存并让用户寄存呼叫的用户。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-107">Call a user who has Call Park enabled and have the user park the call.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="2568a-108">如果执行此测试之前在语音策略中启用呼叫寄存，已寄存呼叫的用户需要注销 Skype for Business，并重新登录，以便能够在传输中的呼叫寄存选项呼叫列表，请参阅。</span><span class="sxs-lookup"><span data-stu-id="2568a-108">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Skype for Business, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span> 
+    > <span data-ttu-id="cbfd9-108">如果在执行此测试之前已在语音策略中启用了呼叫寄存, 则离开呼叫的用户需要注销 Skype for Business, 然后重新登录, 以便能够在转接呼叫列表中看到呼叫寄存选项。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-108">If you enabled Call Park in voice policy just before performing this test, the user who is parking the call needs to sign out of Skype for Business, and then sign back in, to be able to see the Call Park option in the transfer call list.</span></span> 
   
-- <span data-ttu-id="2568a-109">拨打通道号码以取回此呼叫。</span><span class="sxs-lookup"><span data-stu-id="2568a-109">Dial the orbit number to retrieve the call.</span></span>
+- <span data-ttu-id="cbfd9-109">拨打通道号码以取回此呼叫。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-109">Dial the orbit number to retrieve the call.</span></span>
     
-- <span data-ttu-id="2568a-p102">寄存其他呼叫，使之前寄存的呼叫超时，并且不接听回拨。验证超时的呼叫是否正确路由到为 **OnTimeoutURI** 指定的回退目标。</span><span class="sxs-lookup"><span data-stu-id="2568a-p102">Park another call, let the parked call time out, and do not pick up the ringback. Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
+- <span data-ttu-id="cbfd9-p102">寄存其他呼叫，使之前寄存的呼叫超时，并且不接听回拨。验证超时的呼叫是否正确路由到为 **OnTimeoutURI** 指定的回退目标。</span><span class="sxs-lookup"><span data-stu-id="cbfd9-p102">Park another call, let the parked call time out, and do not pick up the ringback. Verify that the timed-out call is correctly routed to the fallback destination that is specified for **OnTimeoutURI**.</span></span>
     
 

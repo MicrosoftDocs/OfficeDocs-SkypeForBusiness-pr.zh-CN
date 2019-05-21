@@ -1,10 +1,10 @@
 ---
-title: 验证 Skype for Business 中的呼叫寄存的规范化规则
+title: 在 Skype for Business 中验证呼叫寄存的规范化规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-description: 了解有关在 Skype 的呼叫寄存的规范化规则的业务 Server 企业语音。
-ms.openlocfilehash: 6f27daca3ef3f1bcdc4c70f04b92ccaa29a569a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解 Skype for business Server Enterprise Voice 中的呼叫寄存的规范化规则。
+ms.openlocfilehash: 36e9a91ff1269caffb8eab5be9a2c681d3244b31
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300935"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="6729f-103">验证 Skype for Business 中的呼叫寄存的规范化规则</span><span class="sxs-lookup"><span data-stu-id="6729f-103">Verify normalization rules for Call Park in Skype for Business</span></span>
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="f6d86-103">在 Skype for Business 中验证呼叫寄存的规范化规则</span><span class="sxs-lookup"><span data-stu-id="f6d86-103">Verify normalization rules for Call Park in Skype for Business</span></span>
  
-<span data-ttu-id="6729f-104">了解有关在 Skype 的呼叫寄存的规范化规则的业务 Server 企业语音。</span><span class="sxs-lookup"><span data-stu-id="6729f-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="f6d86-104">了解 Skype for business Server Enterprise Voice 中的呼叫寄存的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="f6d86-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="6729f-105">呼叫寄存轨道必须未标准化。</span><span class="sxs-lookup"><span data-stu-id="6729f-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="6729f-106">检查拨号计划以确保未对通道号码进行规范化。</span><span class="sxs-lookup"><span data-stu-id="6729f-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="6729f-107">如果您必须创建要进行规范化阻止您轨道其他规范化规则，请按照中的过程[创建或修改拨号计划中 Skype Business Server](dial-plans.md)因此定义新的规范化规则，该**模式与之匹配**标识的通道范围和**转换模式**是 **$1**。</span><span class="sxs-lookup"><span data-stu-id="6729f-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="6729f-108">例如，如果您呼叫寄存通道范围为 7000 7999**模式与之匹配**将 **^(7\d{3})$** **转换模式**， **$1**。</span><span class="sxs-lookup"><span data-stu-id="6729f-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
+<span data-ttu-id="f6d86-105">调用寄存轨道式不得正常化。</span><span class="sxs-lookup"><span data-stu-id="f6d86-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="f6d86-106">检查拨号计划以确保未对通道号码进行规范化。</span><span class="sxs-lookup"><span data-stu-id="f6d86-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="f6d86-107">如果必须创建另一个规范化规则来防止你的轨道式被正常化, 请按照在[Skype For Business 服务器中创建或修改拨号计划中](dial-plans.md)的过程定义新的规范化规则, 以便**匹配模式**标识 "轨道" 区域和**翻译模式**为 **$1**。</span><span class="sxs-lookup"><span data-stu-id="f6d86-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="f6d86-108">例如, 如果您的呼叫公园的 "轨道" 范围为 7000-7999, 则**要匹配的模式**为 **^{3}(7 \ d) $** 和**转换模式**为 **$1**。</span><span class="sxs-lookup"><span data-stu-id="f6d86-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="6729f-109">确保拨号计划中的默认规范化规则不包含 **^(\d\*)**。</span><span class="sxs-lookup"><span data-stu-id="6729f-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="6729f-110">否则，您呼叫寄存的规范化规则不会运行。</span><span class="sxs-lookup"><span data-stu-id="6729f-110">Otherwise, your Call Park normalization rule will never run.</span></span>
+> <span data-ttu-id="f6d86-109">请确保你的拨号计划中的默认规范化规则不包含 **^ (\d\*)**。</span><span class="sxs-lookup"><span data-stu-id="f6d86-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="f6d86-110">否则, 您的通话寄存规范化规则将永远不会运行。</span><span class="sxs-lookup"><span data-stu-id="f6d86-110">Otherwise, your Call Park normalization rule will never run.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="6729f-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6729f-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6d86-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f6d86-111">See also</span></span>
 
-[<span data-ttu-id="6729f-112">创建或修改拨号计划中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="6729f-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
+[<span data-ttu-id="f6d86-112">在 Skype for Business 服务器中创建或修改拨号计划</span><span class="sxs-lookup"><span data-stu-id="f6d86-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
 

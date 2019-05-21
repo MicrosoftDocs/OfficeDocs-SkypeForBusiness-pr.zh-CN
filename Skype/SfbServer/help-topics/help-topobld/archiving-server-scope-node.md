@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
-description: 在拓扑生成器中，您可以执行与通过右键单击控制台树中，池中运行存档服务器相关的任务，然后选择编辑属性。 从“编辑属性”页面，可以更改存档服务器、存档 SQL Server 数据库和存档文件存储的完全限定域名 (FQDN)。
-ms.openlocfilehash: e4dca814b754f49efea9c8fc21493092e6e48b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在拓扑生成器中, 通过右键单击控制台树中的池, 然后选择 "编辑属性", 可以执行与运行存档的服务器相关的任务。 从“编辑属性”页面，可以更改存档服务器、存档 SQL Server 数据库和存档文件存储的完全限定域名 (FQDN)。
+ms.openlocfilehash: e1658ff995c17c2dd38f7b6e5f76eb160320382a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923221"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301776"
 ---
-# <a name="archiving-server-scope-node"></a><span data-ttu-id="5ce42-104">存档服务器范围节点</span><span class="sxs-lookup"><span data-stu-id="5ce42-104">Archiving Server Scope Node</span></span>
+# <a name="archiving-server-scope-node"></a><span data-ttu-id="df754-104">存档服务器范围节点</span><span class="sxs-lookup"><span data-stu-id="df754-104">Archiving Server Scope Node</span></span>
  
-<span data-ttu-id="5ce42-105">在拓扑生成器中，您可以执行与通过右键单击控制台树中，池中运行存档服务器相关的任务，然后选择**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="5ce42-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="5ce42-106">从“**编辑属性**”页面，可以更改存档服务器、存档 SQL Server 数据库和存档文件存储的完全限定域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="5ce42-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
+<span data-ttu-id="df754-105">在拓扑生成器中, 通过右键单击控制台树中的池, 然后选择 "**编辑属性**", 可以执行与运行存档的服务器相关的任务。</span><span class="sxs-lookup"><span data-stu-id="df754-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="df754-106">从“**编辑属性**”页面，可以更改存档服务器、存档 SQL Server 数据库和存档文件存储的完全限定域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="df754-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
   
 

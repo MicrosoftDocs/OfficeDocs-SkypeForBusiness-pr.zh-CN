@@ -5,20 +5,20 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
-ms.openlocfilehash: cb9b77f93a7c59b6fa293a6e614e5d09efd9c144
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 34d00bd0d5ba8bbcff7bd5ad993a05339d70edd0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911042"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289894"
 ---
-# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="e2587-102">持久聊天设置扩展器</span><span class="sxs-lookup"><span data-stu-id="e2587-102">Persistent Chat Settings Expander</span></span>
+# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="d7da7-102">持久聊天设置扩展器</span><span class="sxs-lookup"><span data-stu-id="d7da7-102">Persistent Chat Settings Expander</span></span>
  
 

@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
-description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
-ms.openlocfilehash: 07976c1e10caa8cf0521057f35f043553ca4c9e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 可以使用 "保存语音路由测试案例信息" 对话框来保存临时的语音路由测试案例。 在 "保存语音路由测试案例" 信息中, 键入要为此测试用例命名的名称, 然后单击 "确定"。
+ms.openlocfilehash: f219ce04ba09e2dc6814433cdf4bf9687885e4ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924337"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297674"
 ---
-# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="2239c-104">保存语音路由测试案例信息</span><span class="sxs-lookup"><span data-stu-id="2239c-104">Save Voice Routing Test Case Information</span></span>
+# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="38811-104">保存语音路由测试案例信息</span><span class="sxs-lookup"><span data-stu-id="38811-104">Save Voice Routing Test Case Information</span></span>
  
-<span data-ttu-id="2239c-105">您可以使用**保存语音路由测试用例信息**对话框保存 atemporary 语音路由测试用例。</span><span class="sxs-lookup"><span data-stu-id="2239c-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="2239c-106">在**保存语音路由测试用例信息**，键入您想要在**名称**中授予的测试用例，然后单击**确定**的名称。</span><span class="sxs-lookup"><span data-stu-id="2239c-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
+<span data-ttu-id="38811-105">可以使用 "**保存语音路由测试用例信息**" 对话框来保存 atemporary 语音路由测试用例。</span><span class="sxs-lookup"><span data-stu-id="38811-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="38811-106">在 "**保存语音路由测试案例" 信息**中, 键入要为此测试用例**命名**的名称, 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="38811-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="2239c-107">保存临时的测试用例，都不保存到中央管理存储。</span><span class="sxs-lookup"><span data-stu-id="2239c-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="2239c-108">相反，它使测试用例可从**语音路由**页上的**测试语音路由**选项卡。</span><span class="sxs-lookup"><span data-stu-id="2239c-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="2239c-109">与**Uncommitted**的状态将显示为测试用例。</span><span class="sxs-lookup"><span data-stu-id="2239c-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="2239c-110">要保存到中央管理存储的测试用例，则必须通过单击**语音路由**页中任何**操作**菜单中的**全部提交**提交的语音配置。</span><span class="sxs-lookup"><span data-stu-id="2239c-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
+> <span data-ttu-id="38811-107">保存临时测试用例时, 不会将其保存到中央管理存储。</span><span class="sxs-lookup"><span data-stu-id="38811-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="38811-108">相反, 它从 "**语音路由**" 页面的 "**测试语音路由**" 选项卡中提供测试用例。</span><span class="sxs-lookup"><span data-stu-id="38811-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="38811-109">该测试用例将显示为**未提交**状态。</span><span class="sxs-lookup"><span data-stu-id="38811-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="38811-110">若要将测试用例保存到中央管理存储, 必须通过单击 "**语音路由**" 页面中的任何**操作**菜单中的 "**全部确认**" 来提交语音配置。</span><span class="sxs-lookup"><span data-stu-id="38811-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
   
-<span data-ttu-id="2239c-111">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="2239c-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="38811-111">有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="38811-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

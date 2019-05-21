@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。 可以执行以下操作：
-ms.openlocfilehash: e0a19371b251f7d253b69d47294752d8a11df552
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 此节点显示完全限定的域名 (FQDN)、关联的中介服务器以及有关此公共交换电话网络 (PSTN) 网关的其他基本信息。 可以执行以下操作：
+ms.openlocfilehash: 52c328f082d29bca4a3253daf665ddcc7fadf4b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289873"
 ---
-# <a name="pstn-gateway-scope-node"></a><span data-ttu-id="ed9b3-104">PSTN 网关范围节点</span><span class="sxs-lookup"><span data-stu-id="ed9b3-104">PSTN Gateway Scope Node</span></span>
+# <a name="pstn-gateway-scope-node"></a><span data-ttu-id="fdb68-104">PSTN 网关范围节点</span><span class="sxs-lookup"><span data-stu-id="fdb68-104">PSTN Gateway Scope Node</span></span>
  
-<span data-ttu-id="ed9b3-105">此节点显示的完全限定的域名 (FQDN)，关联的中介服务器和其他有关此公用电话交换网 (pstn) 网关的基本信息。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-105">This node shows the fully qualified domain name (FQDN), associated Mediation Server, and other basic information about this public switched telephone network (PSTN) gateway.</span></span> <span data-ttu-id="ed9b3-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="ed9b3-106">You can perform the following actions:</span></span>
+<span data-ttu-id="fdb68-105">此节点显示完全限定的域名 (FQDN)、关联的中介服务器以及有关此公共交换电话网络 (PSTN) 网关的其他基本信息。</span><span class="sxs-lookup"><span data-stu-id="fdb68-105">This node shows the fully qualified domain name (FQDN), associated Mediation Server, and other basic information about this public switched telephone network (PSTN) gateway.</span></span> <span data-ttu-id="fdb68-106">可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="fdb68-106">You can perform the following actions:</span></span>
   
-- <span data-ttu-id="ed9b3-p103">**编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-p103">**Edit Properties**. Opens the **Edit Properties** page for this gateway, where you can change its FQDN (if the topology is not already published), listening port, transport protocol, and alternate media IP address.</span></span>
+- <span data-ttu-id="fdb68-p103">**编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="fdb68-p103">**Edit Properties**. Opens the **Edit Properties** page for this gateway, where you can change its FQDN (if the topology is not already published), listening port, transport protocol, and alternate media IP address.</span></span>
     
-- <span data-ttu-id="ed9b3-p104">**删除**。从拓扑中删除服务器。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="fdb68-p104">**删除**。从拓扑中删除服务器。</span><span class="sxs-lookup"><span data-stu-id="fdb68-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="ed9b3-111">除了这些选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="ed9b3-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="fdb68-111">除了这些选项之外，还可以执行以下常规任务：</span><span class="sxs-lookup"><span data-stu-id="fdb68-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="ed9b3-p105">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="fdb68-p105">**拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并组件或者删除部署。</span><span class="sxs-lookup"><span data-stu-id="fdb68-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="ed9b3-p106">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="fdb68-p106">**视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。</span><span class="sxs-lookup"><span data-stu-id="fdb68-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="ed9b3-p107">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="ed9b3-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="fdb68-p107">**帮助**。可以使用此选项访问活动节点的“帮助”。</span><span class="sxs-lookup"><span data-stu-id="fdb68-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
