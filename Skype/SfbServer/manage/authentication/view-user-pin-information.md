@@ -1,37 +1,37 @@
 ---
-title: 查看用户 PIN 信息中 Skype 业务服务器
+title: 查看 Skype for Business 服务器中的用户 PIN 信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 摘要： 业务服务器 Skype 中查看用户 PIN 信息。
-ms.openlocfilehash: a2e9d7d3e2341590a8eb6a4779bbb1a9c5c26227
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 查看 Skype for Business 服务器中的用户 PIN 信息。'
+ms.openlocfilehash: 48b179a8d6e8619c909cb92ba63d9a5869ae8f2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919365"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297601"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server"></a>查看用户 PIN 信息中 Skype 业务服务器
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>查看 Skype for Business 服务器中的用户 PIN 信息
  
-**摘要：** 查看用户 PIN 信息中 Skype 业务服务器。
+**摘要:** 查看 Skype for Business 服务器中的用户 PIN 信息。
   
-若要加入电话拨入式会议作为经过身份验证的用户，具有 Active Directory 域服务 (AD DS) 凭据的企业服务器用户 Skype 需要的个人标识号 (PIN)。 您可以查看用户 PIN 信息从 Skype 业务 Server Control Panel。
+若要将电话拨入式会议作为经过身份验证的用户加入, 使用 Active Directory 域服务 (AD DS) 凭据的 Skype for business 服务器用户需要一个个人识别码 (PIN)。 您可以从 Skype for Business Server 控制面板查看用户的 PIN 信息。
   
 > [!NOTE]
-> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失其 PIN，您可以通过重置其中[设置用户的电话拨入式会议 PIN Skype 业务服务器中](set-a-user-s-dial-in-conferencing-pin.md)的过程
+> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失 PIN, 则可以按照在[Skype For Business 服务器中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)中的过程重置它。
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>若要查看用户 PIN Skype 中的业务 Server Control Panel
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>在 "Skype for Business 服务器" 控制面板中查看用户的 PIN
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -54,20 +54,20 @@ ms.locfileid: "33919365"
     > [!TIP]
     > 要向查询中添加附加搜索子句，请单击“添加筛选器”****。 
   
-   e。 单击“查找”****。
+   e.i. 单击“查找”****。
     
     > [!NOTE]
     > 如果锁定了 PIN，则必须解锁 PIN，然后才能对其进行设置。要解锁 PIN，请单击用户，再单击“操作”****，然后单击“解锁 PIN”****。 
   
 6. 在搜索结果中单击某个用户，再单击“操作”****，然后单击“查看 PIN 状态”****。
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>通过使用 Windows PowerShell cmdlet 查看用户 PIN 信息
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看用户 PIN 信息
 
-您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，则可以运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
+您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
   
 ### <a name="to-view-user-pin-information"></a>查看用户 PIN 信息
 
-若要查看用户 PIN 信息，业务 Server 命令行管理程序中 Skype 键入类似于以下命令，然后按 ENTER:
+若要查看用户的 PIN 信息, 请在 Skype for Business Server 命令行管理器中键入类似于以下内容的命令, 然后按 ENTER:
     
   ```
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -83,10 +83,10 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-有关详细信息，请参阅[Get-csconferencedisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息, 请参阅[CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器 Skype 中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)
+[在 Skype for Business 服务器中设置用户的电话拨入式会议 PIN](set-a-user-s-dial-in-conferencing-pin.md)
   
-[锁定或解锁用户 PIN Skype 中的业务服务器](lock-or-unlock-a-user-pin.md)
+[在 Skype for Business 服务器中锁定或解锁用户 PIN](lock-or-unlock-a-user-pin.md)

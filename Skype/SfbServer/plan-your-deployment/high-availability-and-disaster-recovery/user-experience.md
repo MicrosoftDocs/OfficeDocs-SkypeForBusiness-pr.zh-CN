@@ -1,28 +1,28 @@
 ---
-title: 业务服务器中 Skype 的池故障期间的用户体验
+title: Skype for Business 服务器的池故障期间的用户体验
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: 了解用户体验前端池故障转移或业务服务器失败后 Skype 中的灾难恢复期间时。
-ms.openlocfilehash: de272ec6bc45a005a56c3e16385f7bcc292c8a1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解在 Skype for business 服务器的灾难恢复期间, 前端池故障转移或故障转移失败的用户体验。
+ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903045"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297230"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>业务服务器中 Skype 的池故障期间的用户体验
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Skype for Business 服务器的池故障期间的用户体验
  
-了解用户体验前端池故障转移或业务服务器失败后 Skype 中的灾难恢复期间时。
+了解在 Skype for business 服务器的灾难恢复期间, 前端池故障转移或故障转移失败的用户体验。
   
-如果对池进行故障转移，则会强制受影响池中的所有用户注销后登录备份池。 登录到备份池的用户在短时间内可能会处于恢复能力模式。 在恢复能力模式下，用户将无法执行会导致永久性更改 Skype 对于业务服务器，例如添加联系人的任务。 故障转移完成后，所有用户均可从备份池获得所有服务。
+如果对池进行故障转移，则会强制受影响池中的所有用户注销后登录备份池。 登录到备份池的用户在短时间内可能会处于恢复能力模式。 在复原模式下, 用户无法执行会导致 Skype for Business 服务器 (如添加联系人) 的持久更改。 故障转移完成后，所有用户均可从备份池获得所有服务。
   
 池失败时，将中断用户具有的任何呼叫、会议或对话，用户必须在故障转移后重新建立这些会话才能继续。
   

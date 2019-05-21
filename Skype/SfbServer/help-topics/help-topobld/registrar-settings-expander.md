@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
-description: 恢复能力提供高可用性和灾难恢复的注册器池。 通过提供发生故障的主注册器，备份注册器可以接管失败的注册器，为备份注册器允许用户登录并进行通信。 用户可能可以体验缩减的功能，具体取决于其系统已失败的主注册器。
-ms.openlocfilehash: ec503f074ca196433ae894ea9a35e38f964301ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 复原功能为注册机构池提供高可用性和灾难恢复。 通过在主注册机出现故障的情况下提供备份注册机构, 备份注册机构可以接管失败的注册机构, 从而允许用户登录和通信。 用户可能会遇到缩减功能, 具体取决于使用主注册器失败的系统。
+ms.openlocfilehash: d23258e0573136843b4efab19f92ff0a3190c405
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919680"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297650"
 ---
 # <a name="registrar-settings-expander"></a>注册器设置扩展器
  
-恢复能力提供高可用性和灾难恢复的注册器池。 通过提供发生故障的主注册器，备份注册器可以接管失败的注册器，为备份注册器允许用户登录并进行通信。 用户可能可以体验缩减的功能，具体取决于其系统已失败的主注册器。
+复原功能为注册机构池提供高可用性和灾难恢复。 通过在主注册机出现故障的情况下提供备份注册机构, 备份注册机构可以接管失败的注册机构, 从而允许用户登录和通信。 用户可能会遇到缩减功能, 具体取决于使用主注册器失败的系统。
   
-在**编辑属性**对话框的 Survivable Branch Appliance 或 Survivable Branch Server**复原**部分中，您可以更改以下设置：
+在 Survivable 分支装置或 Survivable 分支服务器的 "**编辑属性**" 对话框的 "**弹性**" 部分中, 您可以更改以下设置:
   
-- **关联的用户服务和备份注册器池**在下拉列表中，选择 Enterprise Edition 前端池或 Standard Edition 前端服务器，以用作 Survivable Branch Appliance 或 Survivable Branch Server 备份注册器。
+- **关联的用户服务和备份注册机构池**在下拉列表中, 选择要用作 Survivable 分支装置或 Survivable 分支服务器的备份注册机构的企业版前端池或标准版前端服务器。
     
-- **启用故障转移和故障回复**选择此设置，以注册器和主注册器是备份和已准备好继续注册器过程的自动确定允许自动检测失败。
+- **启用故障转移和故障回复**选择此设置以允许自动检测失败的注册机构, 并自动确定主注册机构是否已备份并准备好继续注册过程。
     
-- **故障检测间隔 （秒）** 键入确定主注册器已失败之前应经过的秒的数。 默认值为 120 秒。 如果选择**启用故障转移和故障回复**，则需要此字段。
+- **故障检测间隔 (秒)** 键入在确定主注册机构失败之前应经过的秒数。 默认值为120秒。 如果选择 "**启用故障转移和故障回复**", 则此字段是必需的。
     
-- **回退检测间隔 （秒）** 键入确定备份的主注册器之前应经过的秒的数。 默认值为 240 秒。 如果选择**启用故障转移和回退**，则需要此字段。
+- **回退检测间隔 (秒)** 键入在确定主注册器备份之前应经过的秒数。 默认值为240秒。 如果选择 "**启用故障转移和回退**", 则此字段是必需的。
     
 > [!IMPORTANT]
-> 定义故障检测间隔和回退检测间隔时, 是时间的注意不要输入间隔将导致故障转移和回退发生如果注册器没有响应期间较短。 则可能的主注册器可能不响应短期基于加载的池或服务器的时间。 
+> 当您定义 "故障检测间隔" 和 "回退检测间隔" 时, 请注意不要输入一个时间间隔, 如果注册机构在短时间内无法响应, 则会导致故障转移和回退发生。 主注册器可能不会根据加载池或服务器的短时间进行响应。 
   
 

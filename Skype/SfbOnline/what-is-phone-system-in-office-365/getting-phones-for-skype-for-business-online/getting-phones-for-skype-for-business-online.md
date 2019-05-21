@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,24 +21,24 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297995"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
   
-若要获取最新的更新和受支持的设备上的大多数最新信息，请参阅[Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+若要获取有关受支持设备的最新更新和最新信息, 请参阅[Skype For Business 设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
 ## <a name="supported-phones"></a>支持的电话
 
-为业务 Online 用户 Skype，您可以从多个模型中*的业务电话的 Skype Certified*选择和电话运行 Lync Phone Edition (LPE) 列出下[Skype 中的业务联机类别 Skype 业务设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+对于 Skype for Business Online 用户, 您可以从在 skype for business 设备的 Skype for business Online 类别下列出的已*认证的 skype for Business 电话*和电话 (LPE) 中选择多个型号[目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
-Microsoft 是合作，紧密合作 Polycom、 Yealink，与 AudioCodes 开发和业务服务器的 Office 365 和 Skype 中的电话系统确认各种设备通过合作伙伴 IP 电话程序 （点数）。
+Microsoft 致力于与 Polycom、Yealink 和 AudioCodes 密切合作, 通过 Office 365 和 Skype for business 服务器中的 "合作伙伴 IP 电话计划" (PIP) 为各种设备进行开发和认证。
   
 When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
@@ -53,7 +53,7 @@ When ordering new phones for Skype for Business, it is important to buy phones w
   
 有关 Yealink 电话的更多详细信息，请参阅 [Skype for Business IP 电话](http://www.yealink.com/products_list_10.html#filter2)。
   
-AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
+有关 AudioCodes 电话的更多详细信息, 请参阅[Skype for BUSINESS IP 手机](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
 > Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
@@ -72,27 +72,27 @@ AudioCodes 电话的详细信息，请参阅[业务 IP 电话的 Skype](https://
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
 
-当前已认证的固件版本的详细信息，请参阅[业务 IP 电话的 Skype](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones)。
+有关当前认证的固件版本的更多详细信息, 请参阅[Skype for BUSINESS IP 手机](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones)。
 
 > [!NOTE]
 > [!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
-## <a name="required-licenses"></a>必需的许可证
+## <a name="required-licenses"></a>所需的许可证
 
-Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许可证。 若要了解有关所需的用户许可证的详细信息，请参阅[业务和 Microsoft 团队授权加载项的 Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+Skype for business Online 不需要除用户许可证之外的任何其他 Microsoft 许可证。 若要了解有关所需用户许可证的详细信息, 请参阅[Skype for business 和 Microsoft 团队附加许可](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
-打开 SIP 和 Skype 之间业务认证固件的情况下，制造商许可模型可能会有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
+制造商许可模型可能因打开的 SIP 和 Skype for Business 认证固件而异。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>业务 Online 连接的电话功能集的的 Skype
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online 连接的手机功能集
 
-有关完整的设备特性和功能，检查制造商用户指南。
+有关完整设备功能和功能, 请查看制造商用户指南。
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
 |通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|使用（Web 登录）登录  <br/>  <br/> **注意：** 检查部署指南中的可支持性矩阵。           |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
+|使用（Web 登录）登录  <br/>  <br/> **注意:** 检查部署指南中的 "可支持性" 矩阵。           |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
 |通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
@@ -101,10 +101,10 @@ Skype 业务 online 不需要任何其他的 Microsoft 许可之外的用户许�
 |设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |QoE  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
-|日志上传  <br/> <br/> **注意：** 目前，所有日志都上载到 Microsoft 支持团队仅;客户访问电话日志尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
+|日志上传  <br/> <br/> **注意:** 目前, 所有日志仅上载到 Microsoft 支持团队;客户对电话日志的访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |现代化身份验证  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
 |多个紧急号码  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是   <br/> |是   <br/> <br/> **注意：** 需要 PC tethering           |
+|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是   <br/> |是   <br/> <br/> **注意:** 需要 PC tethering           |
 |状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
 |公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |委派  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |

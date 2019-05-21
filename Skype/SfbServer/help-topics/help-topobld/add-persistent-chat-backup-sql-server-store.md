@@ -5,42 +5,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
-description: 配置持久聊天服务器或持久聊天服务器池将提供备份数据库的备份 SQL Server 存储。
-ms.openlocfilehash: 2d9a583ad13fe2cba6d39ff737d8071fb5027297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 配置将为持久聊天服务器或持久聊天服务器池提供备份数据库的备份 SQL Server 存储。
+ms.openlocfilehash: 39e5e1ead6ed3cb089545406852de16170d782dc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897777"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304651"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>添加持久聊天备份 SQL Server 存储
  
-配置持久聊天服务器或持久聊天服务器池将提供备份数据库的备份 SQL Server 存储。
+配置将为持久聊天服务器或持久聊天服务器池提供备份数据库的备份 SQL Server 存储。
   
- **SQL Server 存储**： 选择现有的 SQL Server 和可选实例的持久聊天。
+ **SQL server 应用商店**: 选择现有的 SQL server 和 (可选) 持久聊天的实例。
   
-单击**新建**以定义一个新的 SQL Server 和可选的持久聊天备份数据的新实例。
+单击 "**新建**" 以定义新的 SQL Server 和持久聊天备份数据的新实例 (可选)。
   
-选择**启用 SQL Server 存储镜像**复选框以配置的 SQL Server 数据库和可选实例将为持久聊天备份数据提供镜像的数据库。
+选中 "**启用 Sql server 应用商店镜像**" 复选框以配置 sql server 数据库和可选实例, 该实例将为持久的聊天备份数据提供镜像数据库。
   
-从**镜像 SQL Server 存储**列表中选择一个 SQL Server 和可选实例以用作持久聊天备份 SQL Server 的 SQL Server 镜像。
+从列表中选择 "**镜像 sql** server" 将 sql server 和可选实例用作持久的 "聊天" 备份 sql SERVER 的 sql server 镜像。
   
-单击**新建**以定义一个新的 SQL Server 和可选的持久聊天 SQL Server 镜像的新实例。
+单击 "**新建**" 以定义新的 SQL Server 和持久聊天 SQL server 镜像的新实例 (可选)。
   
-从“**使用 SQL Server 镜像见证启用自动故障转移**”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或主机的数据的持久聊天服务器，但可确保只有一个 SQL Server 镜像配置中随时都是活动的 SQL Server。
+从“**使用 SQL Server 镜像见证启用自动故障转移**”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不会镜像或承载持久聊天服务器的数据, 但可确保镜像配置中的每个 SQL Server 在任何时候都是活动 SQL 服务器。
   
-单击**新建**定义一个新的 SQL Server 见证和可选实例持久聊天备份 SQL server 镜像见证。
+单击 "**新建**" 以定义新的 SQL server 见证 (可选择一个持久聊天备份 SQL server 镜像见证的实例)。
   
 单击“**上一步**”以回到上一个池定义对话框。
   
-完成输入为该池的备份 SQL Server 存储配置并继续进行持久聊天服务器池定义的选项后，请单击**下一步**。
+输入此池的备份 SQL Server 应用商店配置的选项后, 单击 "**下一步**", 然后继续使用持久聊天服务器池定义。
   
 单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。
   

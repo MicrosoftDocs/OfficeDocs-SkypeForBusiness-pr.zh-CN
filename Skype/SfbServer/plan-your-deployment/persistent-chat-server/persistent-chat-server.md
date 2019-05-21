@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: 摘要： 阅读本主题可了解如何规划对于 Persistent Chat Server in Skype 业务服务器 2015年。
-ms.openlocfilehash: b3ca8125a69a94da3e0c707456d695c31eaf8c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 阅读本主题, 了解如何在 Skype for business Server 2015 中规划持久聊天服务器。'
+ms.openlocfilehash: 7916fa041e5180cd7e4d4bba2349565c22f8fdcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910803"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297090"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>规划 Skype for Business Server 2015 中的持久聊天服务器
  
-**摘要：** 阅读本主题可了解如何规划业务服务器 2015 for Persistent Chat Server in Skype。
+**摘要:** 阅读本主题, 了解如何在 Skype for Business Server 2015 中规划持久聊天服务器。
   
-持久聊天服务器是一个可选角色，可让您的组织中的多个用户参与随着时间的推移保留的聊天室对话。 尽管用户可以在聊天会话期间实时通信，每个会话的内容 - 包括文本、链接和文件 - 将持久存在，这意味着用户可以随时查看和搜索所有会话内容。
+持久聊天服务器是一种可选角色, 允许组织中的多个用户参与不断保持的聊天室对话。 尽管用户可以在聊天会话期间实时通信，每个会话的内容 - 包括文本、链接和文件 - 将持久存在，这意味着用户可以随时查看和搜索所有会话内容。
   
-持久聊天服务器有助于提高组织的内部通信：
+持久聊天服务器可以通过以下方式帮助改善组织内的通信:
   
 - 扩大组织内的信息意识和参与度
     
@@ -37,7 +37,7 @@ ms.locfileid: "33910803"
 - 通过有选择地部署持久聊天合规性服务来遵守合规性法规
 
 > [!NOTE] 
-> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>持久聊天服务器高级体系结构
 
@@ -45,15 +45,15 @@ ms.locfileid: "33910803"
   
 ![持久聊天服务器高级体系结构](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-持久聊天包含前端服务器角色（提供持久聊天服务）以及后端 SQL 数据库组件。 前端和后端组件都包含在专门的持久聊天池中。 承载持久聊天服务器的每台计算机必须有权访问业务服务器 2015年拓扑的现有 Skype。 在此图中，会有一个持久聊天服务器池 (A)，具体取决于业务服务器池 a 的邮件路由到它的 Skype。
+持久聊天包含前端服务器角色（提供持久聊天服务）以及后端 SQL 数据库组件。 前端和后端组件都包含在专门的持久聊天池中。 托管持久聊天服务器的每台计算机都必须具有访问现有 Skype for Business Server 2015 拓扑的权限。 在此图中, 有一个持久聊天服务器池 (A), 它依赖于 Skype for business 服务器池 A 来向其发送消息。
   
-您可以部署一个或多个持久聊天服务器池，每个都与最多四个活动持久聊天服务器支持安装到 80 K 并发用户。
+你可以部署一个或多个持久聊天服务器池, 每个池最多可以支持最多四个活动的80K 并发用户。
   
-与使用会话初始协议 (SIP) 注册和可扩展聊天通信通过 SIP 协议 (XCCOS) 对聊天持久聊天服务通信的业务服务器 2015 Skype。 
+Skype for Business Server 2015 通过用于注册的会话初始协议 (SIP) 和通过 SIP 协议 (XCCOS) 进行的 "可扩展聊天通信" 与持久聊天服务进行通信, 进行聊天。 
   
 ## <a name="persistent-chat-services"></a>持久聊天服务
 
-下图显示 Persistent Chat Server 前端服务，以及这些服务如何与后端数据库组件进行通信。 前端组件包括持久聊天服务和合规性服务。 后端组件包括持久聊天存储和持久聊天合规性存储。
+下图显示了持久聊天服务器前端服务, 以及这些服务如何与后端数据库组件进行通信。 前端组件包括持久聊天服务和合规性服务。 后端组件包括持久聊天存储和持久聊天合规性存储。
   
 ![持久聊天服务器高级服务](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
@@ -73,11 +73,11 @@ ms.locfileid: "33910803"
   
 ### <a name="compliance-service"></a>合规性服务
 
-如果您的组织规定必须存档持久聊天活动，您可以部署可选的持久聊天合规性服务。 合规性服务用于将聊天内容和事件（比如加入和离开聊天室）存档到持久聊天合规性文件存储中。 持久聊天池中每台持久聊天服务器上安装合规性服务。 
+如果您的组织规定必须存档持久聊天活动，您可以部署可选的持久聊天合规性服务。 合规性服务用于将聊天内容和事件（比如加入和离开聊天室）存档到持久聊天合规性文件存储中。 合规性服务安装在持久聊天池中的每个持久聊天服务器上。 
   
 ### <a name="web-services"></a>Web 服务
 
-持久聊天 web 服务运行在 Skype 业务前端服务器。 Web 服务依赖于 Internet 信息服务 (IIS)，其被实施为 Web 组件：
+在 Skype for business 前端服务器上运行持久聊天 web 服务。 Web 服务依赖于 Internet 信息服务 (IIS)，其被实施为 Web 组件：
   
 - 用于文件上载和下载的持久聊天 Web 服务   负责在聊天室中发布和检索文件。
     
@@ -85,9 +85,9 @@ ms.locfileid: "33910803"
     
 ## <a name="defining-requirements-for-your-organization"></a>为您的组织定义要求
 
-如果您决定部署持久聊天服务器，您需要确定贵组织的业务要求，然后定义拓扑、 基础结构和技术要求以支持您的业务需求。 若要优化您的部署，您需要回答以下问题：
+如果你决定部署持久聊天服务器, 你需要确定你的组织的业务需求, 然后定义拓扑、基础结构和技术要求以支持你的业务需求。 若要优化部署, 你需要回答以下问题:
   
-- 您正在迁移从以前版本的群聊服务器或以前版本的持久聊天服务器，或者首次部署持久聊天服务器？
+- 是从早期版本的组聊天服务器还是以前版本的持久聊天服务器迁移还是首次部署持久聊天服务器？
     
 - 谁可以使用持久聊天服务器？您指定持久聊天策略以在全局、站点或用户级别确定用户访问权限。
     
@@ -97,23 +97,23 @@ ms.locfileid: "33910803"
     
 - 您希望如何控制可以创建聊天室的人员？ 您可以定义能够创建聊天室的创建者。 创建者可以将其他成员指定为聊天室管理者以对聊天室进行持续管理。
     
-- 您希望如何创建聊天室？ 持久聊天服务器提供了用于创建和管理会议室的基于 web 的功能。 这可以从业务客户端 Skype 启动。 您可以选择定义客户解决方案的实现业务要求和工作流，并将持久聊天服务器配置为将用户定向到自定义解决方案。
+- 您希望如何创建聊天室？ 持久聊天服务器提供用于创建和管理会议室的基于 web 的功能。 这可以从 Skype for Business 客户端启动。 你可以选择定义实现你的业务需求和工作流的客户解决方案, 并配置持久聊天服务器以将用户引导到你的自定义解决方案。
     
 - 您希望设置哪一类外接程序？ 外接程序将利用 Skype for Business 客户端中的可扩展性窗格来提供与聊天室相关的上下文，从而改进聊天室内体验。 您可以选择可能最有用的常规外接程序（例如，您的公司网站、内部协作文档等）。 聊天室管理员可选择某个注册的外接程序并将该外接程序与其聊天室关联（如果需要）。 
     
-- 您具有哪一类高可用性和灾难恢复要求？ 持久聊天服务器支持 SQL Server 镜像和 SQL Server 群集实现高可用性。 对于灾难恢复，Persistent Chat Server 支持最多为 8 台服务器 （4 个活动和 4 备用） 池中拉伸带有 SQL Server 日志传送。 
+- 您具有哪一类高可用性和灾难恢复要求？ 持久聊天服务器支持 SQL Server 镜像和 SQL Server 群集以实现高可用性。 对于灾难恢复, 持久聊天服务器在带有 SQL Server 日志传送的延伸池中支持最多8台服务器 (4 主动和4备用)。 
     
-- 是否存在法规要求？ 如果您的公司中的国家或地区需要国家/地区内保留数据，您可能需要将多个持久聊天服务器池、 每个本地部署到特定地理区域。 聊天室、 类别还是外接程序不跨越池-属于只有一个持久聊天服务器池。 
+- 是否存在法规要求？ 如果您的公司所在的国家或地区需要在国家/地区保留数据, 则您可能需要将多个持久聊天服务器池部署到特定地理位置。 房间、类别或加载项不会跨越池, 它仅属于一个持久聊天服务器池。 
     
     > [!NOTE]
-    > 具有多个持久聊天服务器池无法帮助您更大规模 （您仍可以仅 80,000 并发用户跨所有持久聊天服务器池）。 支持多个持久聊天服务器池的主要原因是支持法规的问题。 
+    > 具有多个持久聊天服务器池不会为你提供更多规模 (你只能在所有持久聊天服务器池中使用80000并发用户)。 支持多个持久聊天服务器池的主要原因是支持法规问题。 
   
 ## <a name="for-more-information"></a>有关详细信息
 
 有关安装和配置持久聊天服务器的详细信息，请参阅下列主题：
   
-- 有关如何部署持久聊天服务器的详细信息，请参阅[部署持久聊天服务器中的业务服务器 2015 Skype](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)。 
+- 有关如何部署持久聊天服务器的详细信息, 请参阅[在 Skype For Business server 2015 中部署持久聊天服务器](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)。 
     
-- 有关如何配置持久聊天服务器部署上的设置的详细信息，请参阅[管理持久聊天服务器中的业务服务器 2015 Skype](../../manage/persistent-chat/persistent-chat.md)。
+- 有关如何在持久聊天服务器部署上配置设置的详细信息, 请参阅[在 Skype For Business server 2015 中管理持久聊天服务器](../../manage/persistent-chat/persistent-chat.md)。
     
 

@@ -1,10 +1,10 @@
 ---
-title: Skype 业务服务器中的转换规则
+title: Skype for Business 服务器中的翻译规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: 了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
-ms.openlocfilehash: e81136e4217e4c9210d115fafae11a58855c5ae3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解有关翻译规则和在 Skype for Business Server 企业语音中拨打字符串规范化的信息。
+ms.openlocfilehash: 1f435db01b5b15c97ae577565e4ba43f5de554ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297363"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>Skype 业务服务器中的转换规则
+# <a name="translation-rules-in-skype-for-business-server"></a>Skype for Business 服务器中的翻译规则
 
-了解转换规则，并拨号字符串规范化 Skype 中的业务 Server 企业语音。
+了解有关翻译规则和在 Skype for Business Server 企业语音中拨打字符串规范化的信息。
 
- 企业语音要求所有拨号串都规范化为 E.164 格式，以便执行反向号码查找 （rnl） 会。 支持呼叫的号码以及呼叫的号码转换规则。 Thetrunk 对等方 （即，关联的网关、 专用交换机 (PBX) 或 SIP 中继） 可能要求号码都本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
+ 对于执行反向数字查找 (RNL), 企业语音要求将所有拨号字符串正常化为 E-164 格式。 同时支持被呼叫号码和通话号码的翻译规则。 Thetrunk 对等 (即关联网关、专用分支交换 (PBX) 或 SIP 干线) 可能要求数字采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
 
-通过在服务器上执行出站路由转换，可以降低每个单独中继对等方上的配置要求，以便将电话号码转换为本地拨号格式。 规划的网关和多少网关与特定的中介服务器群集，相关联时可能有用组中继对等方具有类似本地拨号要求。 这可减少所需的转换规则数和编写转换规则所需的时间。
+通过在服务器上执行出站路由转换，可以降低每个单独中继对等方上的配置要求，以便将电话号码转换为本地拨号格式。 在规划要与特定中介服务器群集关联的网关和多少个网关时, 使用类似的本地拨号要求对干线对等进行分组可能非常有用。 这可减少所需的转换规则数和编写转换规则所需的时间。
 
 > [!IMPORTANT]
-> 将一个或多个转换规则与企业语音中继配置相关联应用作中继对等方上配置转换规则的替代项。 不关联转换规则与企业语音中继配置如果中继对等方上, 配置了转换规则因为这两种规则可能会发生冲突。
+> 将一个或多个翻译规则与企业语音中继配置相关联应用作在中继对等上配置翻译规则的替代方法。 如果你已在中继对等上配置了转换规则, 请不要将翻译规则与企业语音中继配置相关联, 因为这两个规则可能会发生冲突。
 
 ## <a name="example-translation-rules"></a>示例转换规则
 
@@ -40,7 +40,7 @@ ms.locfileid: "33913298"
 
 |**说明**|**起始数字**|**长度**|**要删除的数字**|**要添加的数字**|**匹配模式**|**转换**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美国常规长途拨号  <br/> (去掉 +)  <br/> |+1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
-|美国国际长途拨号  <br/> (去掉 + 并添加 011)  <br/> |+  <br/> |至少 11 位  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |
+|美国常规长途拨号  <br/> (去掉 "+")  <br/> |+1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+(1 \ d{10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
+|美国国际长途拨号  <br/> (去掉 "+" 并添加 011)  <br/> |+  <br/> |至少 11 位  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d +) $  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |
 
 

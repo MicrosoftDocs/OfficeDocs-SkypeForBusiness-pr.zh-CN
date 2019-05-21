@@ -4,61 +4,61 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 停用池之前必须执行以下过程的每个会议目录在旧池中。
-ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 在取消池之前, 必须针对旧版池中的每个会议目录执行以下过程。
+ms.openlocfilehash: c3bee8160e7387102f6d45fc39fa821d2f0df161
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298139"
 ---
 # <a name="move-conference-directories"></a>移动会议目录
 
-停用池之前, 必须执行以下过程的每个会议目录在旧池中。
+在解除池之前, 必须针对旧版池中的每个会议目录执行以下过程。
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>将业务服务器 2019年会议目录移到 Skype
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>将会议目录移动到 Skype for business Server 2019
 
-1. 打开 Skype 业务 Server 命令行管理程序。
+1. 打开 Skype for Business 服务器命令行管理程序。
     
-2. 若要获取组织中会议目录的标识，请运行以下命令：
+2. 若要获取组织中的会议目录的标识, 请运行以下命令:
     
    ```
    Get-CsConferenceDirectory
    ```
 
-    上述命令返回组织中的所有会议目录。 因此，您可能想要将结果限制为正在停用该池。 例如，如果您要停用具有完全限定域名 (FQDN) pool01.contoso.net 池，使用此命令返回的数据限制为会议目录从该池：
+    上面的命令返回你的组织中的所有会议目录。 因此, 你可能希望将结果限制为即将停止的池。 例如, 如果你使用完全限定的域名 (FQDN) pool01.contoso.net 取消池, 请使用此命令将返回的数据限制为来自该池中的会议目录:
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    该命令返回其中 ServiceID 属性包含 FQDN pool01.contoso.net 仅会议目录。
+    该命令仅返回 ServiceID 属性包含 FQDN pool01.contoso.net 的会议目录。
     
-3. 若要移动会议目录，请对池中运行的每个会议目录的以下命令：
+3. 若要移动会议目录, 请对池中的每个会议目录运行以下命令:
     
    ```
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    例如，若要移动会议目录 3，使用此命令中，指定为业务服务器 2019年池 Skype 作为 TargetPool:
+    例如, 若要移动会议目录 3, 请使用此命令, 将 Skype for Business Server 2019 池指定为 TargetPool:
     
    ```
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    如果您想要移动的所有会议目录的池上，使用类似如下的命令：
+    如果要移动池中的所有会议目录, 请使用类似于以下内容的命令:
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-有关停用旧池全面的分步说明下载[卸载旧的 Microsoft and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) 。
+下载[Microsoft 旧版和删除服务器角色](https://go.microsoft.com/fwlink/p/?linkId=246227), 获取有关取消旧版池的全面的分步说明。
   
-移动会议目录时, 可能会遇到以下错误：
+移动会议目录时, 可能会遇到以下错误:
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -67,6 +67,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-通常，当业务 Server 命令行管理程序 Skype 需要更新的 Active Directory 权限才能完成任务集，将发生此错误。 若要解决此问题，关闭当前实例的命令行管理程序，然后打开命令行管理程序的新实例并重新运行此命令移动会议目录。
+此错误通常在 Skype for Business 服务器管理外壳需要更新的一组 Active Directory 权限以完成任务时出现。 若要解决此问题, 请关闭该命令行管理程序的当前实例, 然后打开一个新的 Shell 实例, 然后重新运行该命令以移动会议目录。
   
 

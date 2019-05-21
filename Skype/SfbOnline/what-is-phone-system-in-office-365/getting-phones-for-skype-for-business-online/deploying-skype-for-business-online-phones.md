@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 了解获取正确的固件、 如果需要对其进行更新、 分配许可证和配置的业务联机电话设置 Skype 的部署步骤
-ms.openlocfilehash: 9bc2a4754560b6d6caaed349377039c0b257936e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解部署步骤以获取正确的固件、根据需要更新、分配许可证以及配置 Skype for Business online 手机的设置
+ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230432"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298005"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -41,7 +41,7 @@ In all types of businesses, having a phone number allows users to make and get v
   
 - 对于 Polycom 电话，请参阅 [Polycom 部署指南](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
-- Yealink 电话，请参阅[Yealink Skype 业务 HD SIP 电话解决方案](http://www.yealink.com/products_top_2.html)。
+- 对于 Yealink 电话, 请参阅[Yealink Skype for BUSINESS HD SIP 手机解决方案](http://www.yealink.com/products_top_2.html)。
     
 - 对于 AudioCodes 电话，请参阅 [Audiocodes 配置管理指南](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
     
@@ -90,25 +90,25 @@ When a new firmware is available and ready for download and install, the phone w
 
 你可以使用 Skype for Business 带内管理 Windows PowerShell cmdlet 来设置最常用的电话选项和策略。有关这些参数和设置的详细信息，请参阅 [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
   
-有关网络基础结构规划，请参阅[Skype Operations Framework](https://www.skypeoperationsframework.com/)。
+有关网络基础结构规划, 请参阅[Skype 操作框架](https://www.skypeoperationsframework.com/)。
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>步骤 6-准备用户登录
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-您可以通过读取[电话系统和调用计划](/microsoftteams/calling-plan-landing-page)找出有关调用计划的详细信息
+您可以通过阅读[电话系统和通话计划](/microsoftteams/calling-plan-landing-page)了解有关呼叫计划的详细信息
   
 - Online 用户可以使用的 **登录选项** 包括：
     
-  - 与**Polycom VVX 5XX/6XX**电话的用户会看到：
+  - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
      ![部署电话。](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
-  - 与**Yealink T48G/T46G**电话的用户会看到：
+  - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
      ![Yealink 电话登录。](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
-    有关支持的制造商的登录选项的详细信息，请参阅[业务 online Skype 的入门电话](getting-phones-for-skype-for-business-online.md)。
+    有关制造商支持的登录选项的详细信息, 请参阅[获取 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
     
 - **用户 ID** 通过电话键盘或屏幕键盘（如有），用户可以使用其组织的用户名和密码登录电话。例如，他们应使用类似 <em>amosm@contoso.com</em>  的 UPN 格式作为其用户名。
     
@@ -126,21 +126,21 @@ To enable users to successfully sign in to a Skype for Business Online phone and
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
-  - 与**Polycom VVX 5XX/6XX**电话的用户会看到：
+  - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
      ![部署电话。](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
-  - 与**Yealink T48G/T46G**电话的用户会看到：
+  - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
      ![Yealink 电话登录。](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
-  - 与**Polycom VVX 5XX/6XX**电话的用户会看到：
+  - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
      ![PIN 代码已过期。](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
-  - 与**Yealink T48G/T46G**电话的用户会看到：
+  - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
      ![Yealink 电话登录。](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
@@ -152,7 +152,7 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
      ![部署电话。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    验证网站是否显示"[电话制造商名称] **Skype 业务 Certified 电话**，"并单击**继续**。
+    验证该站点是否显示 "[电话制造商名称] **Skype For Business 认证电话**", 然后单击 "**继续**"。
     
      ![部署电话。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -160,7 +160,7 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
      ![部署电话。](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
-    将显示以下页，时，安全地关闭浏览器。
+    显示以下页面时, 可以安全地关闭浏览器。
     
      ![部署电话。](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
@@ -171,7 +171,7 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**交换** <br/> |**电话登录方法** <br/> |**Skype 商业访问** <br/> |**禁用新式验证和 MFA 的 Exchange 访问** <br/> |**启用新式验证和 MFA 的 Exchange 访问** <br/> |
+|**Skype for Business** <br/> |**交换** <br/> |**电话登录方法** <br/> |**Skype for Business 访问** <br/> |**禁用新式验证和 MFA 的 Exchange 访问** <br/> |**启用新式验证和 MFA 的 Exchange 访问** <br/> |
 |Online  <br/> |Online  <br/> |Web 登录  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Online  <br/> |Online  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |Online  <br/> |本地部署  <br/> |Web 登录  <br/> |是  <br/> |否  <br/> |否  <br/> |
@@ -184,22 +184,22 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
 - **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    您可以为组织 （其默认情况下启用） 禁用电话锁定，更改空闲超时并选择时锁定或未使用的种带内设置用户是否可以发出电话呼叫。 有关这些设置的更多详细信息，请参阅[Set-csucphoneconfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
+    你可以为你的组织禁用电话锁定 (默认情况下处于启用状态), 更改空闲超时, 并选择用户是否可以在电话被锁定或未使用 inband 设置时进行电话呼叫。 有关这些设置的详细信息, 请参阅[设置 CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
 BToE is a phone paining mechanism for Partner IP phones that pairs a user's phone with their Windows Skype for Business app. BToE enables users to:
   
-- 登录到其 IP 电话使用其 Skype 业务桌面应用程序 （使用 PC）
+- 使用 Skype for Business 桌面应用 (使用电脑) 登录到其 IP 电话
     
-- 与 PC 锁定同步电话锁定
+- 将电话锁定与 PC 锁同步
     
-- 单击进行呼叫
+- 单击以呼叫
     
 BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual*  . It can also be enabled (default)/disabled for users using Skype for Business in-band settings. When operating in *Manual*  mode, users will have to take an additional step to pair their phone with their Windows app.
   
- **要向用户部署 BToE**
+ **将 BToE 部署到用户**
   
 1. 使用 PC 端口将 PC 与电话相连。
     
@@ -207,7 +207,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
     
-   - [Polycom BToE 软件下载站点](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE 软件下载网站](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Yealink BToE 软件下载](http://www.yealink.com/products_list_10.html)
     

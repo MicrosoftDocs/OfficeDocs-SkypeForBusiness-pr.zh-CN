@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewPolicy
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3349313591952dd8d28f5b1b5eb31e64049fbb37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80d7858d2f780db1a71a174fa97b75e1f0d8aa2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890884"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293718"
 ---
 # <a name="users-view-voice-policy"></a>用户：查看语音策略
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
-- [创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [修改语音策略和配置 PSTN 用法记录](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [修改语音策略和配置 PSTN 使用记录](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

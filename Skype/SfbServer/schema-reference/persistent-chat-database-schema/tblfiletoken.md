@@ -5,42 +5,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
-description: tblFileToken 包含用于文件传输的临时令牌。
-ms.openlocfilehash: c6735cf7da1412cca86817360c1a35030e8b0df4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblFileToken 包含用于文件传输目的的临时令牌。
+ms.openlocfilehash: 108c9738657354881324ec720f50a51605530922
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929852"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295403"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
-tblFileToken 包含用于文件传输的临时令牌。
+tblFileToken 包含用于文件传输目的的临时令牌。
   
-**列**
+**多**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|fileToken  <br/> |nvarchar (50)，不为 null  <br/> |唯一的令牌 (GUID)。  <br/> |
-|fileTokenUserID  <br/> |int，不为 null  <br/> |要传输文件的主体的 ID。  <br/> |
-|fileTokenChannelID  <br/> |GUID，不为 null  <br/> |聊天室节点的 GUID。  <br/> |
-|fileTokenExpireDate  <br/> |datetime，不为 null  <br/> |过期时间。 （令牌过期后 30 分钟，除非固定 （请参阅此列中的以下说明）。  <br/> |
-|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |已传输文件 （用于合规性服务） 的 URL。  <br/> |
-|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |已传输文件 （用于合规性服务） 的缩略图的 URL。  <br/> |
-|fileTokenComplianceTime  <br/> |datetime2  <br/> |（用于合规性服务） 的实际文件传输操作的时间戳。  <br/> |
-|fileTokenComplianceIsUpload  <br/> |bit  <br/> |True 如果上载;则为 false （用于合规性服务） 下载。  <br/> |
-|fileTokenCompliancePinned  <br/> |bit，不为 null  <br/> |如果固定令牌，则为 true。 它用于保留标记的表中，直到合规性服务有机会从中检索相关字段。  <br/> |
+|fileToken  <br/> |nvarchar (50), not null  <br/> |唯一标记 (GUID)。  <br/> |
+|fileTokenUserID  <br/> |int, not null  <br/> |传输文件的主体的 ID。  <br/> |
+|fileTokenChannelID  <br/> |GUID, not null  <br/> |聊天室节点的 GUID。  <br/> |
+|fileTokenExpireDate  <br/> |datetime, not null  <br/> |过期时间。 (令牌将在30分钟后到期, 除非已固定 (请参阅本专栏中的以下说明)。  <br/> |
+|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |已传送文件的 URL (用于合规性服务使用)。  <br/> |
+|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |传输文件的缩略图的 URL (适用于合规性服务使用)。  <br/> |
+|fileTokenComplianceTime  <br/> |datetime2  <br/> |实际文件传输操作的时间戳 (用于合规性服务使用)。  <br/> |
+|fileTokenComplianceIsUpload  <br/> |bit  <br/> |如果上载, 则为 True;如果下载 (适用于合规性服务使用), 则为 False。  <br/> |
+|fileTokenCompliancePinned  <br/> |位, not null  <br/> |如果标记已固定, 则为 True。 它用于在表中保留令牌, 直到合规性服务有机会从中检索相关字段。  <br/> |
    
-**键**
+**标示**
 
 |**列**|**说明**|
 |:-----|:-----|
 |fileToken  <br/> |主键。  <br/> |
-|fileTokenChannelID  <br/> |包含在 tblNode.nodeGuid 表中查找的外键。  <br/> |
+|fileTokenChannelID  <br/> |TblNode 表中的 lookup 的外键。  <br/> |
    
 

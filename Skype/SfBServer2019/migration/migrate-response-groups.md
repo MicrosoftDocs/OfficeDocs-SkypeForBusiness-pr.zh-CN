@@ -4,56 +4,56 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 对于业务服务器 2019年池用户移动到 Skype 后，您可以迁移响应组。 迁移响应组包括复制代理组、 队列、 工作流、 音频文件，并将从旧部署的响应组联系人对象移动到业务服务器 2019年池 Skype。 迁移旧版响应组后，对响应组呼叫处理中为 Business Server 2019 池 Skype 的响应组应用程序。 由旧池不再处理响应组呼叫。
-ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 将用户移动到 Skype for business Server 2019 池后, 您可以迁移响应组。 迁移响应组包括将代理组、队列、工作流、音频文件和移动响应组联系人对象从旧部署复制到 Skype for business Server 2019 池。 迁移旧版响应组后, 对响应组的呼叫由 Skype for Business Server 2019 池中的响应组应用程序处理。 不再通过旧版池处理对响应组的调用。
+ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231649"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298202"
 ---
 # <a name="migrate-response-groups"></a>迁移响应组
 
-对于业务服务器 2019年池用户移动到 Skype 后，您可以迁移响应组。 迁移响应组包括复制代理组、 队列、 工作流、 音频文件，并将从旧部署的响应组联系人对象移动到业务服务器 2019年池 Skype。 迁移旧版响应组后，对响应组呼叫处理中为 Business Server 2019 池 Skype 的响应组应用程序。 由旧池不再处理响应组呼叫。
+将用户移动到 Skype for business Server 2019 池后, 您可以迁移响应组。 迁移响应组包括将代理组、队列、工作流、音频文件和移动响应组联系人对象从旧部署复制到 Skype for business Server 2019 池。 迁移旧版响应组后, 对响应组的呼叫由 Skype for Business Server 2019 池中的响应组应用程序处理。 不再通过旧版池处理对响应组的调用。
   
 > [!NOTE]
-> 将所有用户都移动到业务服务器 2019年池 Skype 之前，您可以迁移响应组，尽管我们建议您先都移动所有用户。 具体而言，响应组代理的用户将不具有新功能完整的功能，直到他们会移动到 Skype 业务服务器 2019年池。 
+> 虽然你可以在将所有用户移动到 Skype for Business Server 2019 池之前迁移响应组, 但我们建议先移动所有用户。 特别是, 响应组代理的用户在移动到 Skype for business Server 2019 池之前不具有新功能的完整功能。 
   
-迁移响应组之前，必须部署包括响应组应用程序的业务服务器 2019年池 Skype。 安装和部署企业语音时，默认情况下激活响应组应用程序。 您可以确保通过运行**Get-csservice ApplicationServer** cmdlet 安装了响应组应用程序。 
+在迁移响应组之前, 必须已部署包含响应组应用程序的 Skype for business Server 2019 池。 部署企业语音时, 将默认安装并激活 "响应组" 应用程序。 你可以通过运行**CsService-ApplicationServer** cmdlet 来确保响应组应用程序已安装。 
   
 > [!NOTE]
-> 在迁移旧版响应组之前，您可以在业务服务器 2019年池 Skype 创建新的 Skype 业务服务器 2019年响应组。 
+> 在迁移传统的响应组之前, 您可以在 Skype for business Server 2019 池中创建新的 Skype for business Server 2019 响应组。 
   
-若要迁移响应组从旧池中到 Skype 业务服务器 2019年，您可以运行**Move-csrgsconfiguration** cmdlet。 
+若要将响应组从旧版池迁移到 Skype for business Server 2019, 请运行**CsRgsConfiguration** cmdlet。 
   
 > [!IMPORTANT]
-> 响应组迁移 cmdlet 移动整个池的响应组配置。 不能选择要迁移的特定组、 队列或工作流。 
+> 响应组迁移 cmdlet 移动整个池的响应组配置。 您不能选择要迁移的特定组、队列或工作流。 
   
-迁移响应组后，您需要使用 Skype 业务 Server Control Panel 或 Skype 业务 Server Management Shell cmdlet 验证所有代理组、 队列和工作流都已成功。 
+迁移响应组后, 你需要使用 Skype for business 服务器控制面板或 Skype for Business Server Management Shell cmdlet 验证是否成功移动了所有代理组、队列和工作流。 
   
-迁移响应组时，不会删除旧版响应组。 在迁移后管理响应组时使用任一 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序，您可以看到旧版响应组和 Skype 业务服务器 2019年响应组。 您应更新仅适用于业务服务器 2019年响应组 Skype。 只是为了回滚保留旧的响应组。 
+当您迁移响应组时, 不会删除旧的响应组。 通过使用 Skype for business Server 控制面板或 Skype for business Server Management Shell 管理迁移后的响应组, 你可以同时看到旧式响应组和 Skype for business Server 2019 响应组。 你应该仅将更新应用到 Skype for Business Server 2019 响应组。 旧的响应组仅保留用于回退用途。 
   
 > [!CAUTION]
-> 业务 Server Control Panel Skype 和业务 Server 命令行管理程序 Skype 迁移已完成并已经创建了新的响应组后，将显示旧和 Skype 业务服务器 2019年版本的每个响应组。 不要使用 Skype 业务 Server Control Panel 或 Skype 的业务 Server 命令行管理程序删除旧版响应组。 如果您删除一个，迁移过程中创建相应的响应组将停止工作。 停用旧池时，将删除旧版响应组。 
+> 完成迁移并创建新的响应组后, Skype for business Server 控制面板和 Skype for business Server Management Shell 将显示每个响应的旧版和 Skype for business Server 2019 版本。团队. 请勿使用 Skype for Business 服务器控制面板或 Skype for business Server Management Shell 删除旧式响应组。 如果确实删除了一个, 则迁移期间创建的相应响应组将停止工作。 当您停止旧版的池时, 旧的响应组将被删除。 
   
 > [!IMPORTANT]
-> 我们建议您执行操作不删除任何数据从以前部署之前停用池。 此外，我们强烈建议您在迁移后立即导出响应组。 如果应获取删除旧的响应组，您可以从要获得再次运行业务服务器 2019年响应组的 Skype 的备份中还原您的响应组。 
+> 我们建议您不要从以前的部署中删除任何数据, 直到解除池。 此外, 我们强烈建议您在迁移后立即导出响应组。 如果传统响应组应被删除, 则可以从备份还原响应组, 以使 Skype for business Server 2019 响应组再次运行。 
   
-Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新响应组功能。 **工作流类型**可以是**托管**或**非托管**。 所有响应组会都迁移与**工作流类型**设置为**非托管**和一个空的管理器列表。 
+Skype for Business Server 2019 引入了名为 "**工作流类型**" 的新响应组功能。 **工作流类型**可以是**托管**或**非托管**。 将使用**工作流类型**设置为**非托管**并使用空管理器列表迁移所有响应组。 
   
-运行**Move-csrgsconfiguration** cmdlet 时，代理组、 队列、 工作流和音频文件将保留在旧池回滚为了中。 如果需要回滚到旧池中，但是，您需要运行**Move-csapplicationendpoint** cmdlet 以将联系对象移回旧池。 
+当你运行**CsRgsConfiguration** cmdlet 时, 代理组、队列、工作流和音频文件将保留在旧版池中, 以便进行回退。 但是, 如果确实需要回退到旧版池, 则需要运行**CsApplicationEndpoint** cmdlet 以将联系人对象移回旧版池。 
   
-迁移响应组配置下面的过程假定您具有旧池与业务服务器 2019年池的 Skype 之间一对一关系。 如果您计划合并或拆分池迁移和部署期间，您需要哪些旧池映射到业务服务器 2019年池的 Skype 的计划。
+用于迁移响应组配置的以下过程假定你的旧池和 Skype for business Server 2019 池之间具有一对一关系。 如果你计划在迁移和部署期间合并或拆分池, 你需要规划哪些旧式池映射到哪些 Skype for business Server 2019 池。
   
 ## <a name="to-migrate-response-group-configurations"></a>迁移响应组配置
 
-1. 登录到使用具有 RTCUniversalServerAdmins 组的成员或具有等效管理员权限的帐户的计算机上。
+1. 使用属于 RTCUniversalServerAdmins 组的成员的帐户登录到计算机, 或具有等效的管理员权利和权限。
     
-2. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**，都单击**Microsoft Skype 的业务服务器 2019年**，，然后都单击**Skype 的业务 Server Management Shell**。
+2. 启动 Skype for Business Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft skype for business server 2019**", 然后单击 " **skype for business 服务器管理外壳**"。
     
 3. 运行：
     
@@ -67,29 +67,29 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
-4. 向业务服务器 2019年池 Skype 迁移响应组和代理后，代理用于登录和注销 URL 是业务服务器 2019 URL Skype，可从**工具**菜单。 提醒代理更新为新的 URL 的任何引用，如书签。 
+4. 将响应组和代理迁移到 Skype for Business Server 2019 池后, 代理用于登录和注销的 URL 是 Skype for business Server 2019 URL, 可从 "**工具**" 菜单中获取。 提醒代理将任何引用 (如书签) 更新到新 URL。 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 验证响应组迁移
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板验证响应组迁移
 
-1. 登录到计算机 RTCUniversalReadOnlyAdmins 组的成员或是至少具有 CsViewOnlyAdministrator 角色成员的帐户。
+1. 使用属于 RTCUniversalReadOnlyAdmins 组成员的帐户登录到计算机, 或者将该帐户的成员最少 CsViewOnlyAdministrator 角色的成员。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 有关可用于为业务 Server Control Panel 启动 Skype 的不同方法的详细信息，请参阅[打开 Skype 业务服务器 2019年管理工具](https://technet.microsoft.com/en-us/library/gg195741(v=ocs.15).aspx)。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 有关可用于启动 Skype for Business 服务器控制面板的不同方法的详细信息, 请参阅[打开 skype for Business server 2019 管理工具](https://technet.microsoft.com/en-us/library/gg195741(v=ocs.15).aspx)。 
     <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
-3. 在左侧的导航窗格中，单击**响应组**。
+3. 在左侧导航窗格中, 单击 "**响应组**"。
     
-4. 在**工作流**选项卡中，确认列表中包含旧环境中的所有工作流。 
+4. 在 "**工作流**" 选项卡上, 验证您的旧环境中的所有工作流是否都包含在列表中。 
     
-5. 单击**队列**选项卡，并确认旧环境中的所有队列都包含在列表。 
+5. 单击 "**队列**" 选项卡, 然后验证您的旧环境中的所有队列是否都包含在列表中。 
     
-6. 单击**组**选项卡，并确认旧环境中的所有代理组都包含在列表。 
+6. 单击 "**组**" 选项卡, 然后验证您的旧环境中的所有代理组是否都包含在列表中。 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序验证响应组迁移
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序验证响应组迁移
 
-1. 登录到计算机 RTCUniversalReadOnlyAdmins 组的成员或是至少具有 CsViewOnlyAdministrator 角色成员的帐户。
+1. 使用属于 RTCUniversalReadOnlyAdmins 组成员的帐户登录到计算机, 或者将该帐户的成员最少 CsViewOnlyAdministrator 角色的成员。
     
-2. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**，都单击**Microsoft Skype 的业务服务器 2019年**，，然后都单击**Skype 的业务 Server Management Shell**。
+2. 启动 Skype for Business Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft skype for business server 2019**", 然后单击 " **skype for business 服务器管理外壳**"。
     
-    有关以下 cmdlet 的详细信息，请运行：
+    有关以下 cmdlet 的详细信息, 请运行:
     
    ```
    Get-Help <cmdlet name> -Detailed
@@ -101,7 +101,7 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
    Get-CsRgsAgentGroup
    ```
 
-4. 确认旧环境中的所有代理组都包含在列表中。
+4. 验证你的旧环境中的所有代理组是否都包含在列表中。
     
 5. 运行：
     
@@ -109,7 +109,7 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
    Get-CsRgsQueue
    ```
 
-6. 确认旧环境中的所有队列都包含在列表中。
+6. 验证您的旧环境中的所有队列是否都包含在列表中。
     
 7. 运行：
     
@@ -117,6 +117,6 @@ Skype 的业务服务器 2019年引入了一个称为**工作流类型**的新�
    Get-CsRgsWorkflow
    ```
 
-8. 确认旧环境中的所有工作流都包含在列表中。
+8. 验证您的旧环境中的所有工作流是否都包含在列表中。
     
 

@@ -10,66 +10,66 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解有关加载项许可证、 功能和如何购买 Office 365 企业高级版计划。 '
-ms.openlocfilehash: 25f4b7c7563a18f89c595cd4d5d1e748b6ff8c7b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解加载项许可证、功能以及如何购买 Office 365 商业高级版计划。 '
+ms.openlocfilehash: 2e8c580237bb61160906d1fadd511815741d8984
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204590"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298568"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 
-如果您有[Office 365 企业高级版](https://products.office.com/en/business/office-365-business-premium)，您可以使用的 Microsoft 团队打给其他人在您在您的订阅的业务。 例如，如果您的公司有 10 个用户，您可以使用团队呼叫和 IM 每个其他。
+如果您有[Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium), 则可以使用 Microsoft 团队与您的企业中的其他人进行通话, 这些人员属于您的订阅。 例如, 如果您的企业有10个人, 则可以使用团队互相呼叫和发送即时消息。
 
 **要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**
 
-- **选项 1**。 使用[免费团队应用程序](https://products.office.com/microsoft-teams/free)。 如果您有非常小型企业 （例如，1-2 人），使用团队应用程序是好的方法。 进行国内和国际呼叫的费用较低。 仍可以使 1:1 和组的音频和视频呼叫和共享演示文稿的桌面。 [比较功能、 费率和付款选项](https://products.office.com/microsoft-teams/free)。
+- **选项 1**。 使用[免费的团队应用](https://products.office.com/microsoft-teams/free)。 如果您有一个非常小的企业版 (例如, 1-2 人), 使用 "团队" 应用是更好的方法。 进行国内和国际呼叫的费用较低。 您仍然可以进行1:1 和群组音频和视频通话, 并共享演示文稿的桌面。 [比较功能、费率和支付选项](https://products.office.com/microsoft-teams/free)。
 
-     我们建议开头团队自由地查看其是否符合您的需求。 如果不能，再考虑下一个选项，即升级你的计划。
+     我们建议从团队免费开始, 看看它是否满足你的需求。 如果不能，再考虑下一个选项，即升级你的计划。
 
 - **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
 
     > [!Important]
-    > 尽管团队附带的 Office 企业高级版订阅，但不能添加云语音呼叫功能。 因此，我们建议您评估企业 E5 （或企业版 E3）套餐，以查看是否更划算。
+    > 虽然 Office 商业高级版订阅中包含团队, 但不能添加云语音呼叫功能。 因此，我们建议您评估企业 E5 （或企业版 E3）套餐，以查看是否更划算。
 
     1. [切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我们建议您评估企业 E5 套餐，以查看是否更划算。
 
     2. 购买电话系统加载项。
     
-    3. 购买[Office 365 调用计划](../calling-plans-for-office-365.md)： 购买的电话系统加载项后，您可以仅购买此。
+    3. 购买[适用于 Office 365 的呼叫计划](../calling-plans-for-office-365.md): 仅在购买 "电话系统" 加载项后, 才能购买此套餐。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
-## <a name="how-to-see-prices-and-buy"></a>操作方法，请参阅价格和购买
+## <a name="how-to-see-prices-and-buy"></a>如何查看价格和购买
 <a name="bkmk_buypremium"> </a>
 
- **若要获取音频会议：**
+ **要获取音频会议, 请执行以下操作:**
 
 1. 登录到 Microsoft 365 管理中心。
 
-2. 转到**帐单** > **购买服务** > **加载项订阅**。
+2. 转到**帐单** > **购买服务** > **附加订阅**。
 
-   您将看到的价格和选择购买音频会议。
+   您将看到购买音频会议的价格和选项。
 
-**若要获取 Communications 字幕式**
+**获取通信信用点数**
 
 1. 登录到 Microsoft 365 管理中心。
 
-2. 转到**帐单** > **购买服务** > **加载项订阅**。
+2. 转到**帐单** > **购买服务** > **附加订阅**。
 
-   您将看到购买 Communications 字幕式的选项。
+   您将看到购买通讯信用点数的选项。
 
-3. 若要添加到 Communications 字幕式资金，转到**帐单** > **订阅** > **Communications 字幕式**。
+3. 若要将资金添加到通讯信用点数, 请转到**帐单** > **订阅** > **通信信用点数**。
 
-    您将能够添加资金和打开和关闭自动充电。 有关详细信息，请参阅[添加资金和管理 Communications 字幕式](../add-funds-and-manage-communications-credits.md)。 
+    您将能够添加资金并打开和关闭自动充电。 有关详细信息, 请参阅[添加资金和管理通信信用点数](../add-funds-and-manage-communications-credits.md)。 
 
 
 **若要获取电话系统和通话套餐：**
@@ -78,8 +78,8 @@ ms.locfileid: "32204590"
 
 2. 转到 Microsoft 365 管理中心。
 
-3. 转到**帐单** > **购买服务** > **加载项订阅**。
+3. 转到**帐单** > **购买服务** > **附加订阅**。
 
-    您将看到的电话系统和选择购买它的价格。
+    您将看到电话系统的价格和购买的选项。
 
-4. 购买**电话系统**许可证后，您将看到的价格和选择购买调用规划。
+4. 购买**电话系统**许可证后, 你将看到购买呼叫计划的价格和选项。

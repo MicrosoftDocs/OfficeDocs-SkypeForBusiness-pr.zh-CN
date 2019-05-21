@@ -10,52 +10,52 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: '此报告中的，以及其他 Skype 业务报告提供有关活动，包括在整个组织的 PSTN 用法详细信息。 '
-ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '此报告以及其他 Skype for Business 报告提供有关活动的详细信息, 包括您的组织内的 PSTN 使用情况。 '
+ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239836"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299569"
 ---
 # <a name="users-blocked-report"></a>阻止的用户报告
 
-业务**报告**仪表板的新 Skype 显示跨组织中的业务产品的 Skype 活动概述。 使您能够钻取到单个产品级别报表，以使您更精细了解每种产品中的活动。 例如，可以使用**适用于业务用户被阻止的 Skype**报告以查看您的组织中被阻止发出 PSTN 呼叫的用户。 此报告中的，以及其他 Skype 业务报告提供有关活动，包括在整个组织的 PSTN 用法详细信息。
+新的 Skype for business**报告**仪表板显示你的组织中的 Skype for business 产品的活动概述。 它使您能够深入查看各个产品级别的报表, 让您更细致地了解每个产品内的活动。 例如, 您可以使用 "**被阻止的 Skype For business 用户**" 报表查看组织中被阻止进行 PSTN 呼叫的用户。 此报告以及其他 Skype for Business 报告提供有关活动的详细信息, 包括您的组织内的 PSTN 使用情况。
   
- 签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)可用的详细报告。
+ 有关可用报表的详细信息, 请查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
 > [!NOTE]
-> 以管理员身份对 Office 365 管理中心登录时，您可以查看所有业务报告 Skype。 
+> 当您作为管理员登录到 Office 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>如何获取业务用户的 Skype 阻止报告
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>如何访问已阻止的 Skype for Business 用户报告
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
-- 转到**Office 365 管理中心** > **管理中心** > **业务管理中心的 Skype** > **报告** > **用户被阻止**。
+- 转到**Office 365 管理中心** > **管理中心** > **Skype for business 管理中心** > **报告** > **阻止的用户**。
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>解释业务阻止用户报告的 Skype
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>解释被阻止的 Skype for Business 用户报告
 
-您可以通过查看每个显示的列到被阻止的用户获取视图。
+通过查看显示的每一列, 可以查看被阻止的用户。
   
 以下是此报告的外观。 
   
-![阻止的用户报告](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![被阻止的用户报告](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
-下表显示了阻止发起呼叫的用户的所有的细分。 此时将显示所有用户拥有电话系统或分配给它们的音频会议。 你可以添加/删除表格的列。
+此表显示了阻止进行呼叫的所有用户的细目。 这将显示分配有手机系统或音频会议的所有用户。 你可以添加/删除表格的列。
 ***
 ![第一](../images/sfbcallout1.png)
 *   **用户 ID**是用户的登录。
-*   **电话号码**是分配给用户的号码。 
-*   **阻止操作时间**是阻止用户发起呼叫的时间 (UTC)。
-*   **阻止操作**是操作的已阻止用户所需的类型。
-*   **阻止操作原因**是用户已阻止发出呼叫的原因。
+*   "**电话号码**" 表示分配给用户的号码。 
+*   **阻止操作时间**是指阻止用户进行呼叫的时间 (UTC)。
+*   **阻止操作**是阻止用户所执行的操作类型。
+*   **阻止操作原因**是阻止用户进行呼叫的原因。
 ***
 ![第二](../images/sfbcallout2.png)<br/>
 如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
@@ -63,26 +63,26 @@ ms.locfileid: "32239836"
 ![第三](../images/sfbcallout3.png)<br/>
 你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。
 
-此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您有超过 2000年用户，您可以排序和筛选报告本身中的表中。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
+此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您的用户少于 2000, 则可以在报表本身的表中对其进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
 ***
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
-- [Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。
+- [Skype For business 活动报告](activity-report.md)你可以查看你的用户使用对等、组织和参与会议会话的数量。
     
-- [Skype 的业务设备使用情况报告](device-usage-report.md)您可以查看设备包括基于 Windows 的操作系统和移动设备具有业务应用程序 Skype 的安装和使用它的 IM 和会议。
+- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看设备, 包括安装了 Skype for Business 应用的基于 Windows 的操作系统和移动设备并将其用于即时消息和会议。
     
-- [Skype 的业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到多少您的用户的组织使用 IM、 音频/视频、 应用程序共享、 Web、 电话拨入/出 — 第三方和电话拨入/出-Microsoft 的会议。
+- [Skype for business 会议组织者活动报告](conference-organizer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享、Web、拨入/拨出和拨入/拨出的方式组织会议的程度。
     
-- [Skype 的业务会议参与者活动报告](conference-participant-activity-report.md)您可以看到多少 IM、 音频/视频，应用程序共享、 Web 和电话拨入/出会议会议正在参与。
+- [Skype for business 会议参与者活动报告](conference-participant-activity-report.md)你可以查看参与的即时消息、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议会议的数量。
     
-- [Skype 的业务对等活动报告](peer-to-peer-activity-report.md)您可以看到多少用户使用 IM、 音频/视频、 应用程序共享和文件传输。
+- [Skype For business 对等活动报告](peer-to-peer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享和传输文件的数量。
     
-- [Skype 的业务 PSTN 使用率报告](pstn-usage-report.md)您可以看到所用的入站/出站呼叫和成本这些呼叫分钟数。
+- [Skype for BUSINESS PSTN 使用报告](pstn-usage-report.md)您可以查看入站/出站通话所用的分钟数和这些通话的费用。
 
-- [Skype 业务 PSTN minute 池报表](pstn-minute-pools-report.md)，您可以看到在组织内当前月份消耗的分钟数。
+- [Skype For BUSINESS PSTN 分钟池报告](pstn-minute-pools-report.md)您可以查看在您的组织内的当前月份内消耗的分钟数。
 
-- [Skype 业务会话详细信息报表](session-details-report.md)您可以看到有关单个用户的呼叫体验的详细信息。
+- [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
    
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

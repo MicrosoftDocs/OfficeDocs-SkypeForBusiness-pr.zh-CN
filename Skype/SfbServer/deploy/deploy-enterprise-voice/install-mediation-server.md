@@ -1,10 +1,10 @@
 ---
-title: 安装 Business Server Skype 中的中介服务器的文件
+title: 在 Skype for Business Server 中安装中介服务器的文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 摘要： 了解如何安装 Business Server Skype 中的中介服务器的文件。
-ms.openlocfilehash: 0f4428007f3506f0e3193d390441bf83301a47a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 中为中介服务器安装文件。'
+ms.openlocfilehash: 8ecd5b20f7f3dfac625851c94f313a50fa71af29
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892326"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299440"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>安装 Business Server Skype 中的中介服务器的文件
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>在 Skype for Business Server 中安装中介服务器的文件
  
-**摘要：** 了解如何安装 Business Server Skype 中的中介服务器的文件。
+**摘要:** 了解如何在 Skype for Business Server 中为中介服务器安装文件。
   
 要成功完成此过程，应至少以本地管理员身份和至少在 RTCUniversalReadOnlyAdmins 组中具有成员身份的域用户身份登录服务器。
   
-使用本主题中的步骤运行 Skype 的业务 Server 部署向导，以您使用拓扑生成器定义和发布池之后添加到中介服务器池的计算机上安装中介服务器的文件。 当安装文件中介服务器，您还安装并分配所需的中介服务器池中的每台计算机的证书。 
+使用本主题中的步骤运行 Skype for Business 服务器部署向导, 以便在已使用拓扑生成器定义和发布池后添加到中介服务器池中的计算机上安装中介服务器的文件。 在安装 "中介服务器" 时, 你还可以在中介服务器池中安装和分配每台计算机所需的证书。 
   
 > [!NOTE]
-> 本主题假定您已定义并发布拓扑，在独立的中介服务器池[部署中介服务器中的业务服务器 Skype 的拓扑生成器中](deploy-a-mediation-server.md)所述。 
+> 本主题假定你已在拓扑中定义并发布了独立的中介服务器池, 如在[Skype for Business 服务器的拓扑生成器中部署中介服务器](deploy-a-mediation-server.md)中所述。 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>为独立的中介服务器池安装文件
 
-1. 从安装媒体中，右键单击_\<安装媒体\>_ **\Setup\amd64\Setup.exe**，，然后单击**以管理员身份运行**。
+1. 在安装媒体中, 右键单击_ \<"安装媒体\> _ **\Setup\amd64\Setup.exe**", 然后单击 "以**管理员身份运行**"。
     
 2. 在“安装位置”**** 页上，单击“确定”****。
     
 3. 在“最终用户许可协议”**** 页上，单击“我接受”****，然后单击“确定”****。（必须单击该按钮才能继续。）
     
-4. 在**Skype 的业务 Server 部署向导**页上，单击**安装或更新 Skype 业务 Server 系统**。
+4. 在 " **Skype For Business 服务器部署向导**" 页面上, 单击 "**安装或更新 Skype For business 服务器系统**"。
     
 5. 单击“步骤 1: 安装本地配置存储”**** 旁边的“运行”****，然后按照屏幕上的说明进行操作。
     
@@ -48,7 +48,7 @@ ms.locfileid: "33892326"
     
 7. 在“正在执行命令”**** 页上，当任务状态显示为“已完成”**** 时，单击“完成”****。
     
-8. 单击**步骤 2： 安装或删除业务服务器组件的 Skype**，单击**运行**，，然后单击**下一步**。
+8. 在 "**步骤 2: 设置" 或 "删除 Skype For Business 服务器组件**" 旁边, 单击 "**运行**", 然后单击 "**下一步**"。
     
 9. 在“正在执行命令”**** 页上，当任务状态显示为“已完成”**** 时，单击“完成”****。
     
@@ -58,7 +58,7 @@ ms.locfileid: "33892326"
     
 12. 成功完成“步骤 4”**** 后，重新启动服务器，然后以 DomainAdmins 组的成员身份登录到服务器。
     
-13. 在您的业务 Server Control Panel for 运行 Skype 计算机上，验证 Skype 的**拓扑**页上的中介服务器服务状态显示为绿色复选标记的业务 Server Control Panel。 如果显示红色 X，请选择相应的中介服务器。 在“操作”**** 菜单上，单击“启动所有服务”****。 
+13. 在运行 Skype for business Server 控制面板的计算机上, 验证中介服务器的服务状态显示为绿色复选标记的 Skype for business Server 控制面板的 "**拓扑**" 页面。 如果显示红色 X，请选择相应的中介服务器。 在“操作”**** 菜单上，单击“启动所有服务”****。 
     
-如果多台计算机添加到中介服务器池，请在此过程中在中介服务器池的所有其他计算机上执行步骤。 如果您不需要安装中介服务器的任何其他计算机文件，然后按照本节[中的业务服务器 Skype 配置中继](configure-trunks.md)配置的此中介服务器池 （或所有中介之间的中继连接设置中的过程在站点的服务器） 及其对等。
+如果向中介服务器池添加了多台计算机, 请在中介服务器池中的所有其他计算机上执行此过程中的步骤。 如果不需要为任何其他计算机安装中介服务器的文件, 请按照在[Skype For Business 服务器中配置中继](configure-trunks.md)中的过程配置此中介服务器池 (或所有中介) 之间的中继连接设置。站点上的服务器) 及其对等。
 

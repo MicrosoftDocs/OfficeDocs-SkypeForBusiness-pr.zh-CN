@@ -10,52 +10,52 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: 很遗憾，还有阻止某些用户许可证时用户转到https://broadcast.skype.com并且想要使用 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
-ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 很遗憾, 当用户转到https://broadcast.skype.com并想要使用 Skype 会议直播时, 有一些用户许可证被阻止。 如果用户看到此消息, 则会向他们分配阻止的许可证之一。 如果您仍希望他们使用它, 请为他们分配另一个 Office 365 许可证。
+ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226360"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299579"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>阻止用户许可证承载 Skype 会议广播
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>托管 Skype 会议直播的被阻止的用户许可证
 
-很遗憾，还有被阻止，当用户转到某些用户许可证https://broadcast.skype.com并且想要承载 Skype 会议广播。 如果用户会看到此消息，他们可以分配给他们的阻止许可证之一。 如果您仍希望他们使用它，请将其分配其他 Office 365 许可证。
+遗憾的是, 某些用户许可证在用户转到https://broadcast.skype.com并希望托管 Skype 会议直播时被阻止。 如果用户看到此消息, 则会向他们分配阻止的许可证之一。 如果您仍希望他们使用它, 请为他们分配另一个 Office 365 许可证。
   
- *"您的公司策略不允许您可以使用 Skype 会议广播。咨询您的系统管理员，以确保启用了服务并且具有正确的许可证。"* 
+ *您的公司政策不允许您使用 Skype 会议直播。请与系统管理员联系, 确保已启用该服务, 并且您有正确的许可证。 "* 
   
-## <a name="blocked-user-licenses"></a>阻止的用户许可证 
+## <a name="blocked-user-licenses"></a>被阻止的用户许可证 
 
-如果任何以下用户许可证分配给用户，将会阻止承载 Skype 会议广播事件。 进行流式处理广播的事件的与会者不需要任何用户许可证。
+如果向用户分配了以下任何用户许可证, 托管 Skype 会议直播事件将被阻止。 正在流式处理广播事件的与会者不需要任何用户许可证。
   
-- Office 365 教育预计完成成本/人员
+- Office 365 教育 Fac/教职员工
     
-- Office 365 教育版学生
+- Office 365 教育学生
     
-- Office 365 教育以及预计完成成本/员工
+- Office 365 教育版及 Fac/教职员工
     
-- Office 365 教育以及学生
+- Office 365 教育版和学生
     
-- Office 365 教育版 E1 预计完成成本/人员
+- Office 365 教育版 E1 Fac/教职员工
     
-- Office 365 教育版 E1 学生
+- Office 365 教育版 E1
     
-- Office 365 教育版 E3 预计完成成本/员工
+- Office 365 教育版 E3 Fac/教职员工
     
-- Office 365 教育版 E3 预计完成成本/员工大型
+- Office 365 教育版 E3 Fac/教职员工
     
-- Office 365 教育版 E3 学生
+- Office 365 教育版 E3 学生版
     
-- Office 365 A1 学生使用好处
+- Office 365 A1 学生使用权益
     
-- Microsoft 365 A1 学生使用好处
+- Microsoft 365 A1 学生版使用权益
 
     
 ## <a name="related-topics"></a>相关主题
