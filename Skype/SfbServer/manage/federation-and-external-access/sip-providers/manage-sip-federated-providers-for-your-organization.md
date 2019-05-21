@@ -8,104 +8,104 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 了解如何为用户的 SIP 联盟提供程序配置支持。
-ms.openlocfilehash: 64b5dcd657b72f03b25fe6de2ff6c0cda21b676d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解如何为 SIP 联合提供商的用户配置支持。
+ms.openlocfilehash: ee16ec8953a722a86838f710fdf92cb9b2ce5f36
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303961"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a><span data-ttu-id="e93c0-103">管理您的组织中 Skype 业务服务器的 SIP 联盟提供程序</span><span class="sxs-lookup"><span data-stu-id="e93c0-103">Manage SIP federated providers for your organization in Skype for Business Server</span></span>
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a><span data-ttu-id="bd99d-103">在 Skype for Business Server 中管理你的组织的 SIP 联合提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-103">Manage SIP federated providers for your organization in Skype for Business Server</span></span>
 
-<span data-ttu-id="e93c0-104">要配置用户的 SIP 联盟提供商支持，您需要执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="e93c0-104">To configure support for users of SIP federated providers, you need to do the following:</span></span>
+<span data-ttu-id="bd99d-104">若要为 SIP 联合提供商的用户配置支持, 你需要执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="bd99d-104">To configure support for users of SIP federated providers, you need to do the following:</span></span>
 
-  - <span data-ttu-id="e93c0-105">配置一个或多个外部用户访问策略以支持与 SIP 联盟提供程序联系人</span><span class="sxs-lookup"><span data-stu-id="e93c0-105">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
+  - <span data-ttu-id="bd99d-105">配置一个或多个外部用户访问策略以支持与 SIP 联合提供者联系人通信</span><span class="sxs-lookup"><span data-stu-id="bd99d-105">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
 
-  - <span data-ttu-id="e93c0-106">指定要支持哪些托管提供程序</span><span class="sxs-lookup"><span data-stu-id="e93c0-106">Specify which hosted providers you want to support</span></span>
+  - <span data-ttu-id="bd99d-106">指定要支持的托管提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-106">Specify which hosted providers you want to support</span></span>
 
-  - <span data-ttu-id="e93c0-107">指定要支持哪些公共 IM 提供程序</span><span class="sxs-lookup"><span data-stu-id="e93c0-107">Specify which public IM providers you want to support</span></span>
+  - <span data-ttu-id="bd99d-107">指定要支持的公共 IM 提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-107">Specify which public IM providers you want to support</span></span>
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a><span data-ttu-id="e93c0-108">创建或编辑公共 SIP 联盟提供商 Skype 中的业务服务器</span><span class="sxs-lookup"><span data-stu-id="e93c0-108">Create or edit public SIP federated providers in Skype for Business Server</span></span>
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a><span data-ttu-id="bd99d-108">在 Skype for Business 服务器中创建或编辑公共 SIP 联合提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-108">Create or edit public SIP federated providers in Skype for Business Server</span></span>
 
-<span data-ttu-id="e93c0-109">公共即时消息 (IM) 连接，您的组织中的用户，可以使用 IM 与 IM 服务提供的公共提供商的用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="e93c0-109">Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public providers.</span></span>
+<span data-ttu-id="bd99d-109">公共即时消息 (IM) 连接使组织中的用户能够使用 IM 与由公共提供商提供的 IM 服务的用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-109">Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public providers.</span></span>
 
-<span data-ttu-id="e93c0-110">Skype 业务服务器都有公共提供商配置即时消息。</span><span class="sxs-lookup"><span data-stu-id="e93c0-110">Skype for Business Server has public provider configurations for instant messaging.</span></span> <span data-ttu-id="e93c0-111">每个公共提供程序配置提供程序的边缘服务器的完全限定名称，与默认的验证级别**允许用户仅与使用此提供程序其联系人列表上的人进行通信**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-111">Each public provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.</span></span>
+<span data-ttu-id="bd99d-110">Skype for business 服务器具有用于即时消息的公共提供商配置。</span><span class="sxs-lookup"><span data-stu-id="bd99d-110">Skype for Business Server has public provider configurations for instant messaging.</span></span> <span data-ttu-id="bd99d-111">每个公共提供程序均使用提供程序的边缘服务器完全限定的域名进行配置, 默认验证级别**允许用户仅与其 "联系人" 列表中使用此提供商的人员进行通信**。</span><span class="sxs-lookup"><span data-stu-id="bd99d-111">Each public provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.</span></span>
 
-<span data-ttu-id="e93c0-112">设置默认情况下，启用无公共提供商。</span><span class="sxs-lookup"><span data-stu-id="e93c0-112">As a default setting, none of the public providers are enabled.</span></span> <span data-ttu-id="e93c0-113">您应完成许可协议和资源调配前启用公共提供商的工作。</span><span class="sxs-lookup"><span data-stu-id="e93c0-113">You should complete license agreement and provisioning work before enabling the public providers.</span></span> <span data-ttu-id="e93c0-114">在完成的许可和资源调配工作之前，您可以启用提供程序。</span><span class="sxs-lookup"><span data-stu-id="e93c0-114">You can enable the provider before completing the licensing and provisioning work.</span></span> <span data-ttu-id="e93c0-115">用户不能与联系人进行通信在这些提供程序直到完成的系统必备的工时。</span><span class="sxs-lookup"><span data-stu-id="e93c0-115">Users will not be able to communicate with contacts on those providers until the pre-requisite work is completed.</span></span> <span data-ttu-id="e93c0-116">有关许可和公共提供商的设置的详细信息，请参阅[配置策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="e93c0-116">For details on licensing and provisioning of public providers, see [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
+<span data-ttu-id="bd99d-112">默认设置是未启用任何公共提供程序。</span><span class="sxs-lookup"><span data-stu-id="bd99d-112">As a default setting, none of the public providers are enabled.</span></span> <span data-ttu-id="bd99d-113">在启用公共提供程序之前, 应完成许可证协议和预配工作。</span><span class="sxs-lookup"><span data-stu-id="bd99d-113">You should complete license agreement and provisioning work before enabling the public providers.</span></span> <span data-ttu-id="bd99d-114">你可以先启用提供程序, 然后再完成授权和预配工作。</span><span class="sxs-lookup"><span data-stu-id="bd99d-114">You can enable the provider before completing the licensing and provisioning work.</span></span> <span data-ttu-id="bd99d-115">在完成先决条件工作之前, 用户将无法与这些提供商上的联系人进行通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-115">Users will not be able to communicate with contacts on those providers until the pre-requisite work is completed.</span></span> <span data-ttu-id="bd99d-116">有关授权和设置公共提供程序的详细信息, 请参阅[配置控制公共用户](../external-access-policies/configure-policies-to-control-public-user-access.md)访问的策略。</span><span class="sxs-lookup"><span data-stu-id="bd99d-116">For details on licensing and provisioning of public providers, see [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).</span></span>
 
-<span data-ttu-id="e93c0-117">使用以下过程创建或编辑公共提供商。</span><span class="sxs-lookup"><span data-stu-id="e93c0-117">Use the following procedure to create or edit Public providers.</span></span>
+<span data-ttu-id="bd99d-117">使用以下过程创建或编辑公共提供程序。</span><span class="sxs-lookup"><span data-stu-id="bd99d-117">Use the following procedure to create or edit Public providers.</span></span>
 
 
-### <a name="to-create-or-edit-public-providers"></a><span data-ttu-id="e93c0-118">创建或编辑公共提供商</span><span class="sxs-lookup"><span data-stu-id="e93c0-118">To create or edit public providers</span></span>
+### <a name="to-create-or-edit-public-providers"></a><span data-ttu-id="bd99d-118">创建或编辑公共提供程序</span><span class="sxs-lookup"><span data-stu-id="bd99d-118">To create or edit public providers</span></span>
 
-1.  <span data-ttu-id="e93c0-119">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="e93c0-119">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="bd99d-119">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="bd99d-119">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="e93c0-120">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="e93c0-120">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="bd99d-120">打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="bd99d-120">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="e93c0-121">在左侧的导航栏中，单击**联盟和外部访问**，然后单击**SIP 联盟提供程序**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-121">In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.</span></span>
+3.  <span data-ttu-id="bd99d-121">在左侧导航栏中, 单击 "**联盟和外部访问**", 然后单击 " **SIP 联合提供商**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-121">In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.</span></span>
 
-4.  <span data-ttu-id="e93c0-122">如果您需要创建新的公共提供程序，请单击**新建**，然后单击**公共提供商**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-122">If you need to create a new Public provider, click **New** and then click **Public provider**.</span></span>
+4.  <span data-ttu-id="bd99d-122">如果需要创建新的公共提供商, 请单击 "**新建**", 然后单击 "**公共提供商**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-122">If you need to create a new Public provider, click **New** and then click **Public provider**.</span></span>
 
-5.  <span data-ttu-id="e93c0-123">如果您需要编辑公共提供商的列表的一个条目，请您可以选择一个公共提供程序，单击**编辑**，然后单击**显示详细信息**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-123">If you need to edit an entry from the list of Public providers, select a public provider, click **Edit**, then click **Show details**.</span></span>
+5.  <span data-ttu-id="bd99d-123">如果需要从公共提供商列表中编辑条目, 请选择公共提供商, 单击 "**编辑**", 然后单击 "**显示详细信息**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-123">If you need to edit an entry from the list of Public providers, select a public provider, click **Edit**, then click **Show details**.</span></span>
 
-6.  <span data-ttu-id="e93c0-124">在**编辑 SIP 联盟提供程序**页上，您可以键入或编辑以下设置：</span><span class="sxs-lookup"><span data-stu-id="e93c0-124">On the **Edit SIP Federated Provider** page, you can type or edit the following settings:</span></span>
+6.  <span data-ttu-id="bd99d-124">在 "**编辑 SIP 联合提供商**" 页面上, 您可以键入或编辑以下设置:</span><span class="sxs-lookup"><span data-stu-id="bd99d-124">On the **Edit SIP Federated Provider** page, you can type or edit the following settings:</span></span>
     
-      - <span data-ttu-id="e93c0-125">**启用与此提供程序通信**   选择此设置允许与此提供程序的用户的 IM。</span><span class="sxs-lookup"><span data-stu-id="e93c0-125">**Enable communications with this provider**   Selecting this setting enables IM with this provider’s users.</span></span>
+      - <span data-ttu-id="bd99d-125">**启用与此提供商**   的通信选择此设置将启用与此提供商的用户的即时消息。</span><span class="sxs-lookup"><span data-stu-id="bd99d-125">**Enable communications with this provider**   Selecting this setting enables IM with this provider’s users.</span></span>
     
-      - <span data-ttu-id="e93c0-126">**提供程序名称：**   必需的属性，类型为其提供程序的名称将反映在 SIP 联盟提供商的列表。</span><span class="sxs-lookup"><span data-stu-id="e93c0-126">**Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.</span></span>
+      - <span data-ttu-id="bd99d-126">**提供程序名称:**   "必需" 属性键入提供程序的名称, 因为它将反映在 SIP 联合提供程序的列表中。</span><span class="sxs-lookup"><span data-stu-id="bd99d-126">**Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.</span></span>
     
-      - <span data-ttu-id="e93c0-127">**访问边缘服务 (FQDN):**   必需的属性，键入您要配置的提供程序的访问边缘服务的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="e93c0-127">**Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the provider that you are configuring.</span></span> <span data-ttu-id="e93c0-128">此信息作为默认项，提供，且如果公共提供商访问边缘服务公共提供商的 fqdn 进行了更改只应被更改。</span><span class="sxs-lookup"><span data-stu-id="e93c0-128">This information is provided as a default item, and should only be changed if the public provider makes a change to the FQDN of the Access Edge service at the public provider.</span></span>
+      - <span data-ttu-id="bd99d-127">**Access edge 服务 (FQDN):**   一个必需的属性, 键入要配置的提供程序的访问边缘服务的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="bd99d-127">**Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the provider that you are configuring.</span></span> <span data-ttu-id="bd99d-128">此信息以默认项的形式提供, 仅当公共提供程序对公共提供程序的访问边缘服务的 FQDN 进行更改时, 才应更改此信息。</span><span class="sxs-lookup"><span data-stu-id="bd99d-128">This information is provided as a default item, and should only be changed if the public provider makes a change to the FQDN of the Access Edge service at the public provider.</span></span>
     
-      - <span data-ttu-id="e93c0-129">**默认验证级别：**   默认设置，**允许用户与使用此提供程序其联系人列表上的人进行通信**将限制到的已接受和联系人列表中联系人通信。</span><span class="sxs-lookup"><span data-stu-id="e93c0-129">**Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.</span></span>
+      - <span data-ttu-id="bd99d-129">**默认验证级别:**   默认设置,**允许用户与使用此提供商的联系人列表中的人员进行通信**, 将对您已接受的联系人和您的联系人列表中的联系人进行通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-129">**Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.</span></span>
         
-        <span data-ttu-id="e93c0-130">选择**允许用户与任何人使用此提供程序通信**中删除的限制，您必须已收到并接受联系人邀请。</span><span class="sxs-lookup"><span data-stu-id="e93c0-130">Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite.</span></span> <span data-ttu-id="e93c0-131">此设置不会限制谁可以与您联系从公共提供商网络。</span><span class="sxs-lookup"><span data-stu-id="e93c0-131">This setting does not limit who can contact you from the public provider’s network.</span></span>
+        <span data-ttu-id="bd99d-130">选择 "**允许用户通过此提供商与所有人通信**", 将删除您必须收到并接受的联系人邀请的限制。</span><span class="sxs-lookup"><span data-stu-id="bd99d-130">Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite.</span></span> <span data-ttu-id="bd99d-131">此设置不会限制可以通过公共提供商的网络与您联系的人员。</span><span class="sxs-lookup"><span data-stu-id="bd99d-131">This setting does not limit who can contact you from the public provider’s network.</span></span>
 
-7.  <span data-ttu-id="e93c0-132">当您完成配置设置，单击**提交**保存，，或单击**取消**以放弃更改。</span><span class="sxs-lookup"><span data-stu-id="e93c0-132">When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.</span></span>
+7.  <span data-ttu-id="bd99d-132">配置设置完成后, 单击 "**提交**" 以保存, 或单击 "**取消**" 放弃更改。</span><span class="sxs-lookup"><span data-stu-id="bd99d-132">When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.</span></span>
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a><span data-ttu-id="e93c0-133">创建或编辑业务服务器承载 Skype 中的 SIP 联盟提供程序</span><span class="sxs-lookup"><span data-stu-id="e93c0-133">Create or edit hosted SIP federated providers in Skype for Business Server</span></span>
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a><span data-ttu-id="bd99d-133">在 Skype for Business 服务器中创建或编辑托管 SIP 联合提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-133">Create or edit hosted SIP federated providers in Skype for Business Server</span></span>
 
-<span data-ttu-id="e93c0-134">托管提供程序即时消息 (IM) 连接，用户在组织中可以使用 IM 与托管提供程序提供的 IM 服务的用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="e93c0-134">Hosted provider instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by hosted providers.</span></span>
+<span data-ttu-id="bd99d-134">托管提供商即时消息 (IM) 连接使组织中的用户能够使用 IM 与托管提供商提供的 IM 服务的用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-134">Hosted provider instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by hosted providers.</span></span>
 
-<span data-ttu-id="e93c0-135">每个托管的提供程序配置提供程序的边缘服务器的完全限定名称，与默认的验证级别**允许用户仅与使用此提供程序其联系人列表上的人进行通信**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-135">Each hosted provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.</span></span>
+<span data-ttu-id="bd99d-135">每个托管提供程序均使用提供程序的边缘服务器完全限定的域名进行配置, 默认验证级别**允许用户仅与其 "联系人" 列表中使用此提供程序的人员进行通信**。</span><span class="sxs-lookup"><span data-stu-id="bd99d-135">Each hosted provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.</span></span>
 
-<span data-ttu-id="e93c0-136">使用以下过程可创建或编辑托管提供程序。</span><span class="sxs-lookup"><span data-stu-id="e93c0-136">Use the following procedure to create or edit hosted providers.</span></span>
+<span data-ttu-id="bd99d-136">使用以下过程创建或编辑托管提供程序。</span><span class="sxs-lookup"><span data-stu-id="bd99d-136">Use the following procedure to create or edit hosted providers.</span></span>
 
-### <a name="to-create-or-edit-hosted-providers"></a><span data-ttu-id="e93c0-137">要创建或编辑托管提供程序</span><span class="sxs-lookup"><span data-stu-id="e93c0-137">To create or edit hosted providers</span></span>
+### <a name="to-create-or-edit-hosted-providers"></a><span data-ttu-id="bd99d-137">创建或编辑托管提供商</span><span class="sxs-lookup"><span data-stu-id="bd99d-137">To create or edit hosted providers</span></span>
 
-1.  <span data-ttu-id="e93c0-138">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="e93c0-138">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="bd99d-138">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="bd99d-138">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="e93c0-139">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="e93c0-139">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2.  <span data-ttu-id="bd99d-139">打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="bd99d-139">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
 
-3.  <span data-ttu-id="e93c0-140">在左侧的导航栏中，单击**联盟和外部访问**，然后单击**SIP 联盟提供程序**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-140">In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.</span></span>
+3.  <span data-ttu-id="bd99d-140">在左侧导航栏中, 单击 "**联盟和外部访问**", 然后单击 " **SIP 联合提供商**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-140">In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.</span></span>
 
-4.  <span data-ttu-id="e93c0-141">如果您需要创建新的托管提供程序，请单击**新建**，然后单击**托管提供程序**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-141">If you need to create a new Hosted provider, click **New** and then click **Hosted provider**.</span></span>
+4.  <span data-ttu-id="bd99d-141">如果需要创建新的托管提供商, 请单击 "**新建**", 然后单击 "**托管提供商**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-141">If you need to create a new Hosted provider, click **New** and then click **Hosted provider**.</span></span>
 
-5.  <span data-ttu-id="e93c0-142">如果您需要编辑托管提供程序的列表的一个条目，请选择一个托管提供程序，单击**编辑**，然后单击**显示详细信息**。</span><span class="sxs-lookup"><span data-stu-id="e93c0-142">If you need to edit an entry from the list of Hosted providers, select a hosted provider, click **Edit**, then click **Show details**.</span></span>
+5.  <span data-ttu-id="bd99d-142">如果需要从托管提供商列表中编辑条目, 请选择托管提供商, 单击 "**编辑**", 然后单击 "**显示详细信息**"。</span><span class="sxs-lookup"><span data-stu-id="bd99d-142">If you need to edit an entry from the list of Hosted providers, select a hosted provider, click **Edit**, then click **Show details**.</span></span>
 
-6.  <span data-ttu-id="e93c0-143">在**编辑 SIP 联盟提供程序**页上，您可以键入或编辑以下设置：</span><span class="sxs-lookup"><span data-stu-id="e93c0-143">On the **Edit SIP Federated Provider** page, you can type or edit the following settings:</span></span>
+6.  <span data-ttu-id="bd99d-143">在 "**编辑 SIP 联合提供商**" 页面上, 您可以键入或编辑以下设置:</span><span class="sxs-lookup"><span data-stu-id="bd99d-143">On the **Edit SIP Federated Provider** page, you can type or edit the following settings:</span></span>
     
-      - <span data-ttu-id="e93c0-144">**启用与此提供程序通信**   选择此设置允许与此提供程序的用户的通信。</span><span class="sxs-lookup"><span data-stu-id="e93c0-144">**Enable communications with this provider**   Selecting this setting enables communications with this provider’s users.</span></span>
+      - <span data-ttu-id="bd99d-144">**启用与此提供商**   的通信选择此设置可启用与此提供商的用户的通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-144">**Enable communications with this provider**   Selecting this setting enables communications with this provider’s users.</span></span>
     
-      - <span data-ttu-id="e93c0-145">**提供程序名称：**   必需的属性，类型为其提供程序的名称将反映在 SIP 联盟提供商的列表。</span><span class="sxs-lookup"><span data-stu-id="e93c0-145">**Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.</span></span>
+      - <span data-ttu-id="bd99d-145">**提供程序名称:**   "必需" 属性键入提供程序的名称, 因为它将反映在 SIP 联合提供程序的列表中。</span><span class="sxs-lookup"><span data-stu-id="bd99d-145">**Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.</span></span>
     
-      - <span data-ttu-id="e93c0-146">**访问边缘服务 (FQDN):**   必需的属性，键入您要配置的托管提供程序的访问边缘服务的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="e93c0-146">**Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the hosted provider that you are configuring.</span></span> <span data-ttu-id="e93c0-147">此信息应由托管提供程序提供，且如果宿主提供程序托管提供商访问边缘服务的 fqdn 进行了更改只应被更改。</span><span class="sxs-lookup"><span data-stu-id="e93c0-147">This information should be provided by the hosted provider, and should only be changed if the hosted provider makes a change to the FQDN of the Access Edge service at the hosted provider.</span></span>
+      - <span data-ttu-id="bd99d-146">**Access edge 服务 (FQDN):**   一个必需的属性, 键入你要配置的托管提供程序的访问边缘服务的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="bd99d-146">**Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the hosted provider that you are configuring.</span></span> <span data-ttu-id="bd99d-147">此信息应由托管提供程序提供, 并且仅当托管提供程序对托管提供程序的访问边缘服务的 FQDN 进行更改时, 才应更改此信息。</span><span class="sxs-lookup"><span data-stu-id="bd99d-147">This information should be provided by the hosted provider, and should only be changed if the hosted provider makes a change to the FQDN of the Access Edge service at the hosted provider.</span></span>
     
-      - <span data-ttu-id="e93c0-148">**默认验证级别：**   默认设置，**允许用户与使用此提供程序其联系人列表上的人进行通信**将限制到的已接受和联系人列表中联系人通信。</span><span class="sxs-lookup"><span data-stu-id="e93c0-148">**Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.</span></span>
+      - <span data-ttu-id="bd99d-148">**默认验证级别:**   默认设置,**允许用户与使用此提供商的联系人列表中的人员进行通信**, 将对您已接受的联系人和您的联系人列表中的联系人进行通信。</span><span class="sxs-lookup"><span data-stu-id="bd99d-148">**Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.</span></span>
         
-        <span data-ttu-id="e93c0-149">选择**允许用户与任何人使用此提供程序通信**中删除的限制，您必须已收到并接受联系人邀请。</span><span class="sxs-lookup"><span data-stu-id="e93c0-149">Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite.</span></span> <span data-ttu-id="e93c0-150">此设置不会限制谁可以与您联系从托管提供程序的网络。</span><span class="sxs-lookup"><span data-stu-id="e93c0-150">This setting does not limit who can contact you from the hosted provider’s network.</span></span>
+        <span data-ttu-id="bd99d-149">选择 "**允许用户通过此提供商与所有人通信**", 将删除您必须收到并接受的联系人邀请的限制。</span><span class="sxs-lookup"><span data-stu-id="bd99d-149">Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite.</span></span> <span data-ttu-id="bd99d-150">此设置不限制可以通过托管提供商的网络与您联系的人员。</span><span class="sxs-lookup"><span data-stu-id="bd99d-150">This setting does not limit who can contact you from the hosted provider’s network.</span></span>
 
-7.  <span data-ttu-id="e93c0-151">当您完成配置设置，单击**提交**保存，，或单击**取消**以放弃更改。</span><span class="sxs-lookup"><span data-stu-id="e93c0-151">When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.</span></span>
-
-
-## <a name="see-also"></a><span data-ttu-id="e93c0-152">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e93c0-152">See Also</span></span>
+7.  <span data-ttu-id="bd99d-151">配置设置完成后, 单击 "**提交**" 以保存, 或单击 "**取消**" 放弃更改。</span><span class="sxs-lookup"><span data-stu-id="bd99d-151">When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.</span></span>
 
 
-[<span data-ttu-id="e93c0-153">配置策略以控制公共用户访问</span><span class="sxs-lookup"><span data-stu-id="e93c0-153">Configure policies to control public user acces</span></span>](../external-access-policies/configure-policies-to-control-public-user-access.md)
+## <a name="see-also"></a><span data-ttu-id="bd99d-152">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bd99d-152">See Also</span></span>
 
-[<span data-ttu-id="e93c0-154">启用或禁用联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="e93c0-154">Enable or disable federation and public IM connectivity</span></span>](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+
+[<span data-ttu-id="bd99d-153">配置控制公共用户访问的策略</span><span class="sxs-lookup"><span data-stu-id="bd99d-153">Configure policies to control public user acces</span></span>](../external-access-policies/configure-policies-to-control-public-user-access.md)
+
+[<span data-ttu-id="bd99d-154">启用或禁用联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="bd99d-154">Enable or disable federation and public IM connectivity</span></span>](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

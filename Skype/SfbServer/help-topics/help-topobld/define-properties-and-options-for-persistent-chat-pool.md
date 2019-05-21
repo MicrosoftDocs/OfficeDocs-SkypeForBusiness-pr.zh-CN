@@ -5,51 +5,51 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：
-ms.openlocfilehash: bfcd658ebf98f5447c218c37268d183b2b7bde39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '可通过定义以下属性来配置持久聊天服务器或持久聊天服务器池的选项:'
+ms.openlocfilehash: f719a4c76be88dd571c551645bacd13ef22e9a19
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930607"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306141"
 ---
-# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="38360-103">定义持久聊天池的属性和选项</span><span class="sxs-lookup"><span data-stu-id="38360-103">Define Properties and Options for Persistent Chat Pool</span></span>
+# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="a4cd3-103">定义持久聊天池的属性和选项</span><span class="sxs-lookup"><span data-stu-id="a4cd3-103">Define Properties and Options for Persistent Chat Pool</span></span>
  
-<span data-ttu-id="38360-104">通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：</span><span class="sxs-lookup"><span data-stu-id="38360-104">You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:</span></span>
+<span data-ttu-id="a4cd3-104">可通过定义以下属性来配置持久聊天服务器或持久聊天服务器池的选项:</span><span class="sxs-lookup"><span data-stu-id="a4cd3-104">You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:</span></span>
   
- <span data-ttu-id="38360-105">**持久聊天池的显示名称**： 必需的属性，定义将显示此持久聊天服务器或持久聊天服务器池的用户友好名称。</span><span class="sxs-lookup"><span data-stu-id="38360-105">**Display name of the Persistent Chat pool**: A required property that defines a user friendly name that will be displayed for this Persistent Chat Server or Persistent Chat Server pool.</span></span>
+ <span data-ttu-id="a4cd3-105">**持久聊天池的显示名称**: 一个必需属性, 定义将为此持久聊天服务器或持久聊天服务器池显示的用户友好名称。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-105">**Display name of the Persistent Chat pool**: A required property that defines a user friendly name that will be displayed for this Persistent Chat Server or Persistent Chat Server pool.</span></span>
   
- <span data-ttu-id="38360-106">**持久聊天端口**： 必需的属性，将定义的端口号此持久聊天服务器或 Persistent Chat Server pool 将侦听。</span><span class="sxs-lookup"><span data-stu-id="38360-106">**Persistent Chat port**: A required property that will define the port number that this Persistent Chat Server or Persistent Chat Server pool will listen on.</span></span>
+ <span data-ttu-id="a4cd3-106">**持久聊天端口**: 将定义此永久聊天服务器或持久聊天服务器池将侦听的端口号的 "必需" 属性。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-106">**Persistent Chat port**: A required property that will define the port number that this Persistent Chat Server or Persistent Chat Server pool will listen on.</span></span>
   
- <span data-ttu-id="38360-107">**启用合规性**： 如果您打算部署和实施可选持久聊天合规性功能和数据库，请选择复选框。</span><span class="sxs-lookup"><span data-stu-id="38360-107">**Enable compliance**: Select the check box if you plan to deploy and implement the optional Persistent Chat compliance feature and database.</span></span>
+ <span data-ttu-id="a4cd3-107">**启用合规性**: 如果你计划部署和实现可选的持久聊天合规性功能和数据库, 请选中该复选框。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-107">**Enable compliance**: Select the check box if you plan to deploy and implement the optional Persistent Chat compliance feature and database.</span></span>
   
- <span data-ttu-id="38360-108">**使用备份 SQL Server 存储启用灾难恢复**： 选中此复选框，如果您计划部署和实施灾难恢复的持久聊天 SQL Server 存储从另一个 SQL Server 上的存储配置的备份集。</span><span class="sxs-lookup"><span data-stu-id="38360-108">**Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server.</span></span> <span data-ttu-id="38360-109">有关详细信息，请参阅[配置高可用性和灾难恢复对于 Persistent Chat Server in Skype 的业务服务器 2015年](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。</span><span class="sxs-lookup"><span data-stu-id="38360-109">For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="38360-110">此选项仅适用于具有多台服务器的池。</span><span class="sxs-lookup"><span data-stu-id="38360-110">This option is available only for pools with multiple servers.</span></span> 
-  
- <span data-ttu-id="38360-111">**使用此池作为默认网站\<中，为其配置此服务器或池的站点\>**： 选中此复选框，如果将该站点的持久聊天服务器池的默认持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="38360-111">**Use this pool as default for the site \<site that this server or pool is being configured in\>**: Select this check box if this will be the default Persistent Chat Server or Persistent Chat Server pool for the site.</span></span> <span data-ttu-id="38360-112">每个站点，您必须具有一个默认持久聊天服务器或 pol。</span><span class="sxs-lookup"><span data-stu-id="38360-112">You must have one default Persistent Chat server or pol per site.</span></span>
+ <span data-ttu-id="a4cd3-108">**使用备份 SQL Server 存储来启用灾难恢复**: 如果你计划从另一个 SQL Server 上配置的存储备份集部署和实现持久聊天 SQL Server 存储的灾难恢复, 请选中此复选框。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-108">**Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server.</span></span> <span data-ttu-id="a4cd3-109">有关详细信息, 请参阅[在 Skype for Business server 2015 中配置持久聊天服务器的高可用性和灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-109">For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="38360-113">如果拓扑包括多个站点，则还会显示“**使用此池作为所有站点的默认池**”复选框。</span><span class="sxs-lookup"><span data-stu-id="38360-113">If your topology includes multiple sites, a checkbox for **Use this pool as default for all sites** is also displayed.</span></span>
+> <span data-ttu-id="a4cd3-110">此选项仅适用于具有多台服务器的池。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-110">This option is available only for pools with multiple servers.</span></span> 
   
-<span data-ttu-id="38360-114">单击“**上一步**”以回到上一个池定义对话框。</span><span class="sxs-lookup"><span data-stu-id="38360-114">Click **Back** to go back to the previous pool definition dialog.</span></span>
+ <span data-ttu-id="a4cd3-111">**将此池用作在\<\>其中配置此服务器或池的网站网站的默认值**: 如果这将是该网站的默认持久聊天服务器或持久聊天服务器池, 请选中此复选框。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-111">**Use this pool as default for the site \<site that this server or pool is being configured in\>**: Select this check box if this will be the default Persistent Chat Server or Persistent Chat Server pool for the site.</span></span> <span data-ttu-id="a4cd3-112">每个网站必须有一个默认持久聊天服务器或 pol。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-112">You must have one default Persistent Chat server or pol per site.</span></span>
   
-<span data-ttu-id="38360-115">完成为该池，然后继续进行持久聊天服务器池定义输入选项后，请单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="38360-115">Click **Next** after you have finished entering the options for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
+> [!NOTE]
+> <span data-ttu-id="a4cd3-113">如果拓扑包括多个站点，则还会显示“**使用此池作为所有站点的默认池**”复选框。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-113">If your topology includes multiple sites, a checkbox for **Use this pool as default for all sites** is also displayed.</span></span>
   
-<span data-ttu-id="38360-116">单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。</span><span class="sxs-lookup"><span data-stu-id="38360-116">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="a4cd3-114">单击“**上一步**”以回到上一个池定义对话框。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-114">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="38360-117">单击“**帮助**”以访问上下文相关帮助，例如此页面。</span><span class="sxs-lookup"><span data-stu-id="38360-117">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="a4cd3-115">输入此池的选项后, 单击 "**下一步**" 以继续使用持久聊天服务器池定义。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-115">Click **Next** after you have finished entering the options for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="38360-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="38360-118">See also</span></span>
+<span data-ttu-id="a4cd3-116">单击“**取消**”以放弃所有更改并退出“**定义新的持久聊天池**”向导。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-116">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+  
+<span data-ttu-id="a4cd3-117">单击“**帮助**”以访问上下文相关帮助，例如此页面。</span><span class="sxs-lookup"><span data-stu-id="a4cd3-117">Click **Help** to access context sensitive help, such as this page.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="a4cd3-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a4cd3-118">See also</span></span>
 
-[<span data-ttu-id="38360-119">规划 Skype for Business Server 2015 中的持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="38360-119">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="a4cd3-119">规划 Skype for Business Server 2015 中的持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="a4cd3-119">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="38360-120">向您 Skype 业务服务器 2015年拓扑添加持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="38360-120">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="a4cd3-120">将持久聊天服务器添加到 Skype for business Server 2015 拓扑</span><span class="sxs-lookup"><span data-stu-id="a4cd3-120">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
