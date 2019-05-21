@@ -1,54 +1,54 @@
 ---
-title: 为业务服务器 2015年压力和性能工具 Skype 的性能方案
+title: Skype for Business Server 2015 的性能方案应力和性能工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 12/17/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
-description: 您需要执行的操作配置的业务服务器 2015 执行性能和负载测试的 Skype 使用压力和性能工具的任务。
-ms.openlocfilehash: 06ca34717080421129fc03475103b34804ef280a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 使用压力和性能工具配置 Skype for Business Server 2015 以执行性能和负载测试时需要执行的任务。
+ms.openlocfilehash: 2aedb43a6b7214aaf582e1dfd4754e626a602508
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901695"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299381"
 ---
-# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a><span data-ttu-id="b08e3-103">为业务服务器 2015年压力和性能工具 Skype 的性能方案</span><span class="sxs-lookup"><span data-stu-id="b08e3-103">Performance Scenarios for the Skype for Business Server 2015 Stress and Performance Tool</span></span>
+# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a><span data-ttu-id="ef894-103">Skype for Business Server 2015 的性能方案应力和性能工具</span><span class="sxs-lookup"><span data-stu-id="ef894-103">Performance Scenarios for the Skype for Business Server 2015 Stress and Performance Tool</span></span>
  
-<span data-ttu-id="b08e3-104">您需要执行的操作配置的业务服务器 2015 执行性能和负载测试的 Skype 使用压力和性能工具的任务。</span><span class="sxs-lookup"><span data-stu-id="b08e3-104">Tasks you'll need to do to configure Skype for Business Server 2015 to do performance and load-testing, using the Stress and Performance Tool.</span></span>
+<span data-ttu-id="ef894-104">使用压力和性能工具配置 Skype for Business Server 2015 以执行性能和负载测试时需要执行的任务。</span><span class="sxs-lookup"><span data-stu-id="ef894-104">Tasks you'll need to do to configure Skype for Business Server 2015 to do performance and load-testing, using the Stress and Performance Tool.</span></span>
   
-<span data-ttu-id="b08e3-105">若要运行的业务 Server 2015 压力和性能工具 (LyncPerfTool) Skype，必须首先配置方案与您相关业务服务器 2015年拓扑的 Skype。</span><span class="sxs-lookup"><span data-stu-id="b08e3-105">To run the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool), the Skype for Business Server 2015 topology must first be configured for scenarios relevant to you.</span></span> <span data-ttu-id="b08e3-106">如果业务服务器 2015年的 Skype 未配置，或配置不正确，负载模拟为很有可能会失败。</span><span class="sxs-lookup"><span data-stu-id="b08e3-106">If Skype for Business Server 2015 isn't configured, or is configured incorrectly, your load simulation is very likely to fail.</span></span> <span data-ttu-id="b08e3-107">与业务 Server 2015 压力和性能工具 Skype，我们提供示例 Skype 的业务 Server 命令行管理程序脚本和基本资源文件作为[工具下载](https://www.microsoft.com/download/details.aspx?id=50367)的一部分。</span><span class="sxs-lookup"><span data-stu-id="b08e3-107">With the Skype for Business Server 2015 Stress and Performance Tool, we're providing example Skype for Business Server Management Shell scripts and basic resource files as part of the [tool download](https://www.microsoft.com/download/details.aspx?id=50367).</span></span> <span data-ttu-id="b08e3-108">这些可作为起点用于配置您 Skype 业务服务器部署。</span><span class="sxs-lookup"><span data-stu-id="b08e3-108">These can be used as a starting point for configuring your Skype for Business Server deployment.</span></span> <span data-ttu-id="b08e3-109">本文介绍提供的 Windows PowerShell 示例。</span><span class="sxs-lookup"><span data-stu-id="b08e3-109">This article describes the Windows PowerShell examples provided.</span></span>
+<span data-ttu-id="ef894-105">若要运行 Skype for Business Server 2015 应力和性能工具 (LyncPerfTool), 必须首先针对与你相关的方案配置 Skype for business Server 2015 拓扑。</span><span class="sxs-lookup"><span data-stu-id="ef894-105">To run the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool), the Skype for Business Server 2015 topology must first be configured for scenarios relevant to you.</span></span> <span data-ttu-id="ef894-106">如果未配置 Skype for Business 服务器 2015, 或者配置不正确, 则你的负载模拟很可能会失败。</span><span class="sxs-lookup"><span data-stu-id="ef894-106">If Skype for Business Server 2015 isn't configured, or is configured incorrectly, your load simulation is very likely to fail.</span></span> <span data-ttu-id="ef894-107">通过 Skype for Business Server 2015 应力和性能工具, 我们将提供示例 Skype for business Server Management Shell 脚本和基本资源文件, 作为[工具下载](https://www.microsoft.com/download/details.aspx?id=50367)的一部分。</span><span class="sxs-lookup"><span data-stu-id="ef894-107">With the Skype for Business Server 2015 Stress and Performance Tool, we're providing example Skype for Business Server Management Shell scripts and basic resource files as part of the [tool download](https://www.microsoft.com/download/details.aspx?id=50367).</span></span> <span data-ttu-id="ef894-108">这些可用作配置 Skype for Business 服务器部署的起始点。</span><span class="sxs-lookup"><span data-stu-id="ef894-108">These can be used as a starting point for configuring your Skype for Business Server deployment.</span></span> <span data-ttu-id="ef894-109">本文介绍所提供的 Windows PowerShell 示例。</span><span class="sxs-lookup"><span data-stu-id="ef894-109">This article describes the Windows PowerShell examples provided.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b08e3-110">本主题不能帮助您介绍如何配置 Business Server 2015 通常 Skype，我们，必须规划和部署的其他主题。</span><span class="sxs-lookup"><span data-stu-id="b08e3-110">This topic won't help you describe how to configure Skype for Business Server 2015 generally, we have other Planning and Deployment topics for that.</span></span> <span data-ttu-id="b08e3-111">有关使用的业务服务器 2015 Skype 中的 Windows PowerShell 的详细信息，请参阅在此处插入简介业务 Server Management Shell 文档 Skype。</span><span class="sxs-lookup"><span data-stu-id="b08e3-111">For details about working with Windows PowerShell in Skype for Business Server 2015, see the Skype for Business Server Management Shell documentation at Insert introduction HERE.</span></span> 
+> <span data-ttu-id="ef894-110">本主题不能帮助你介绍如何配置 Skype for Business Server 2015。通常, 我们有其他规划和部署主题。</span><span class="sxs-lookup"><span data-stu-id="ef894-110">This topic won't help you describe how to configure Skype for Business Server 2015 generally, we have other Planning and Deployment topics for that.</span></span> <span data-ttu-id="ef894-111">有关在 Skype for Business Server 2015 中使用 Windows PowerShell 的详细信息, 请参阅此处的插入简介中的 Skype for business 服务器管理外壳文档。</span><span class="sxs-lookup"><span data-stu-id="ef894-111">For details about working with Windows PowerShell in Skype for Business Server 2015, see the Skype for Business Server Management Shell documentation at Insert introduction HERE.</span></span> 
   
-## <a name="about-running-skype-for-business-server-management-shell-scripts"></a><span data-ttu-id="b08e3-112">有关运行 Skype 业务服务器管理命令行管理程序脚本</span><span class="sxs-lookup"><span data-stu-id="b08e3-112">About running Skype for Business Server management shell scripts</span></span>
+## <a name="about-running-skype-for-business-server-management-shell-scripts"></a><span data-ttu-id="ef894-112">关于运行 Skype for Business Server management shell 脚本</span><span class="sxs-lookup"><span data-stu-id="ef894-112">About running Skype for Business Server management shell scripts</span></span>
 
-<span data-ttu-id="b08e3-113">我们提供您可用来准备负载模拟的示例 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="b08e3-113">We're providing sample PowerShell scripts you can use to prepare for your load simulations.</span></span> <span data-ttu-id="b08e3-114">因为这些脚本供负载模拟，您会发现他们能够简单和宽松。</span><span class="sxs-lookup"><span data-stu-id="b08e3-114">Because these scripts are intended for load simulation, you'll find them to be simple and permissive.</span></span> <span data-ttu-id="b08e3-115">这可能不适合您的生产环境。</span><span class="sxs-lookup"><span data-stu-id="b08e3-115">That may not be appropriate for your production environment.</span></span> <span data-ttu-id="b08e3-116">再次我们压力，这些脚本示例，您需要其进行复查并在许多情况下进行更改与环境相关能够实际利用这些之前。</span><span class="sxs-lookup"><span data-stu-id="b08e3-116">Again we stress that these scripts are samples, you'll need to review them and in many cases make changes relevant to your environment before being able to make practical use of them.</span></span> <span data-ttu-id="b08e3-117">至少，我们期望需要修改与您的拓扑记住 （用于指定代理分配到代理组） 的响应组服务 (RSG) 脚本。</span><span class="sxs-lookup"><span data-stu-id="b08e3-117">At a minimum, we'd expect you'd need to modify the Response Service Group (RSG) script with your topology in mind (to specify the agents assigned to the agent groups).</span></span> <span data-ttu-id="b08e3-118">但是，您无需运行，如果您不需要。</span><span class="sxs-lookup"><span data-stu-id="b08e3-118">But you don't have to run that, if you don't need to.</span></span>
+<span data-ttu-id="ef894-113">我们正在提供可用于准备负载模拟的示例 PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="ef894-113">We're providing sample PowerShell scripts you can use to prepare for your load simulations.</span></span> <span data-ttu-id="ef894-114">由于这些脚本适用于负载模拟, 因此你将发现它们是简单且容许的。</span><span class="sxs-lookup"><span data-stu-id="ef894-114">Because these scripts are intended for load simulation, you'll find them to be simple and permissive.</span></span> <span data-ttu-id="ef894-115">这可能不适合你的生产环境。</span><span class="sxs-lookup"><span data-stu-id="ef894-115">That may not be appropriate for your production environment.</span></span> <span data-ttu-id="ef894-116">我们再次强调这些脚本是示例, 你需要检查这些脚本, 并且在许多情况下, 在能够实际使用你的环境之前, 你需要对其进行更改。</span><span class="sxs-lookup"><span data-stu-id="ef894-116">Again we stress that these scripts are samples, you'll need to review them and in many cases make changes relevant to your environment before being able to make practical use of them.</span></span> <span data-ttu-id="ef894-117">至少, 我们希望你需要修改 "响应服务组" (RSG) 脚本, 注意你的拓扑 (用于指定分配给代理组的代理)。</span><span class="sxs-lookup"><span data-stu-id="ef894-117">At a minimum, we'd expect you'd need to modify the Response Service Group (RSG) script with your topology in mind (to specify the agents assigned to the agent groups).</span></span> <span data-ttu-id="ef894-118">但是, 如果不需要, 您不必运行该程序。</span><span class="sxs-lookup"><span data-stu-id="ef894-118">But you don't have to run that, if you don't need to.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="b08e3-119">请注意中查看和了解这些示例。</span><span class="sxs-lookup"><span data-stu-id="b08e3-119">Please take care in reviewing and understanding these samples.</span></span> <span data-ttu-id="b08e3-120">脚本将覆盖运行时的拓扑中的任何现有的设置。</span><span class="sxs-lookup"><span data-stu-id="b08e3-120">Scripts will overwrite any existing settings in the topology when run.</span></span> 
+> <span data-ttu-id="ef894-119">请注意查看和理解这些示例。</span><span class="sxs-lookup"><span data-stu-id="ef894-119">Please take care in reviewing and understanding these samples.</span></span> <span data-ttu-id="ef894-120">运行时, 脚本将覆盖拓扑中的任何现有设置。</span><span class="sxs-lookup"><span data-stu-id="ef894-120">Scripts will overwrite any existing settings in the topology when run.</span></span> 
   
-## <a name="stress-and-performance-tool-client-version-names"></a><span data-ttu-id="b08e3-121">压力和性能工具客户端版本名称</span><span class="sxs-lookup"><span data-stu-id="b08e3-121">Stress and Performance Tool client version names</span></span>
+## <a name="stress-and-performance-tool-client-version-names"></a><span data-ttu-id="ef894-121">应力和性能工具客户端版本名称</span><span class="sxs-lookup"><span data-stu-id="ef894-121">Stress and Performance Tool client version names</span></span>
 
-<span data-ttu-id="b08e3-122">您可能需要配置客户端版本检查策略，如果您先前已更改设置的默认值。</span><span class="sxs-lookup"><span data-stu-id="b08e3-122">You might need to configure the Client Version Check policy if you've previously changed the settings from the default values.</span></span> <span data-ttu-id="b08e3-123">如果您不确定有关此，检查[客户端版本检查的文档](https://msdn.microsoft.com/en-us/vsto/jj923060)。</span><span class="sxs-lookup"><span data-stu-id="b08e3-123">If you're unsure about this, check the [Client Version Check documentation](https://msdn.microsoft.com/en-us/vsto/jj923060).</span></span>
+<span data-ttu-id="ef894-122">如果以前已更改默认值的设置, 则可能需要配置客户端版本检查策略。</span><span class="sxs-lookup"><span data-stu-id="ef894-122">You might need to configure the Client Version Check policy if you've previously changed the settings from the default values.</span></span> <span data-ttu-id="ef894-123">如果不确定此内容, 请查看[客户端版本检查文档](https://msdn.microsoft.com/en-us/vsto/jj923060)。</span><span class="sxs-lookup"><span data-stu-id="ef894-123">If you're unsure about this, check the [Client Version Check documentation](https://msdn.microsoft.com/en-us/vsto/jj923060).</span></span>
   
-<span data-ttu-id="b08e3-124">压力和性能工具默认情况下使用以下的用户代理版本与 Skype 的业务服务器 2015年通信时：</span><span class="sxs-lookup"><span data-stu-id="b08e3-124">The Stress and Performance Tool uses the following User Agent versions by default when communicating with Skype for Business Server 2015:</span></span>
+<span data-ttu-id="ef894-124">在与 Skype for Business Server 2015 通信时, "压力" 和 "性能" 工具默认使用以下用户代理版本:</span><span class="sxs-lookup"><span data-stu-id="ef894-124">The Stress and Performance Tool uses the following User Agent versions by default when communicating with Skype for Business Server 2015:</span></span>
   
-- <span data-ttu-id="b08e3-125">LSPT/15.0.0.0 (Skype 的业务服务器 2015年压力和性能工具)</span><span class="sxs-lookup"><span data-stu-id="b08e3-125">LSPT/15.0.0.0 (Skype for Business Server 2015 Stress and Performance Tool)</span></span>
+- <span data-ttu-id="ef894-125">LSPT/15.0.0.0 (Skype for Business Server 2015 应力和性能工具)</span><span class="sxs-lookup"><span data-stu-id="ef894-125">LSPT/15.0.0.0 (Skype for Business Server 2015 Stress and Performance Tool)</span></span>
     
-- <span data-ttu-id="b08e3-126">OCPHONE/.0.522</span><span class="sxs-lookup"><span data-stu-id="b08e3-126">OCPHONE/.0.522</span></span>
+- <span data-ttu-id="ef894-126">OCPHONE/.0.522</span><span class="sxs-lookup"><span data-stu-id="ef894-126">OCPHONE/.0.522</span></span>
     
-<span data-ttu-id="b08e3-127">LyncPerfTool 中移动 (UCWA) 客户端：</span><span class="sxs-lookup"><span data-stu-id="b08e3-127">For the Mobility (UCWA) client in LyncPerfTool:</span></span>
+<span data-ttu-id="ef894-127">对于 LyncPerfTool 中的移动 (UCWA) 客户端:</span><span class="sxs-lookup"><span data-stu-id="ef894-127">For the Mobility (UCWA) client in LyncPerfTool:</span></span>
   
-- <span data-ttu-id="b08e3-128">UCWA 性能工具/Web 会议</span><span class="sxs-lookup"><span data-stu-id="b08e3-128">UCWA Perf Tool/Web Conference</span></span>
+- <span data-ttu-id="ef894-128">UCWA Perf 工具/Web 会议</span><span class="sxs-lookup"><span data-stu-id="ef894-128">UCWA Perf Tool/Web Conference</span></span>
     
-- <span data-ttu-id="b08e3-129">UCWA 性能工具/移动</span><span class="sxs-lookup"><span data-stu-id="b08e3-129">UCWA Perf Tool/Mobile</span></span>
+- <span data-ttu-id="ef894-129">UCWA Perf 工具/移动版</span><span class="sxs-lookup"><span data-stu-id="ef894-129">UCWA Perf Tool/Mobile</span></span>
     
 

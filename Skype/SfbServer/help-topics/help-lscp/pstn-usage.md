@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageMain
@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 02085703fa102c7b4b173ea49569dadf1eea5574
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6eae7427e054b3d94a3d7a138936be84960be6b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305568"
 ---
-# <a name="pstn-usage"></a><span data-ttu-id="53f75-104">PSTN 用法</span><span class="sxs-lookup"><span data-stu-id="53f75-104">PSTN Usage</span></span>
+# <a name="pstn-usage"></a><span data-ttu-id="93c32-104">PSTN 用法</span><span class="sxs-lookup"><span data-stu-id="93c32-104">PSTN Usage</span></span>
 
-<span data-ttu-id="53f75-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="53f75-105">What do you want to do?</span></span> <span data-ttu-id="53f75-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="53f75-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="93c32-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="93c32-105">What do you want to do?</span></span> <span data-ttu-id="93c32-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="93c32-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="53f75-107">在 Skype for Business 2015 中查看 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="53f75-107">View PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="93c32-107">在 Skype for Business 2015 中查看 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="93c32-107">View PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [<span data-ttu-id="53f75-108">在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="53f75-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="93c32-108">在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="93c32-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="53f75-109">修改语音策略和配置 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="53f75-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="93c32-109">修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="93c32-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-<span data-ttu-id="53f75-110">有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="53f75-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="93c32-110">有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="93c32-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

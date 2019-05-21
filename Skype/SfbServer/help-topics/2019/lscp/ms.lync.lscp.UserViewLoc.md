@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewLoc
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 12d39b7cf4ff060b89a61efda7ea0ff385e54c43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 385f26b478016e4f522d82322429d8e7f2ef5f1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890835"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292421"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="67065-104">用户：查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="67065-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="62551-104">用户：查看或配置位置策略</span><span class="sxs-lookup"><span data-stu-id="62551-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="67065-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="67065-105">What do you want to do?</span></span> <span data-ttu-id="67065-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="67065-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="62551-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="62551-105">What do you want to do?</span></span> <span data-ttu-id="62551-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="62551-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="67065-107">为用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="67065-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="62551-107">向用户分配位置策略</span><span class="sxs-lookup"><span data-stu-id="62551-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

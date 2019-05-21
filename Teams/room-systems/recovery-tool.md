@@ -5,65 +5,65 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: 本文讨论如何使用 Microsoft 团队会议室，您将用于将过期系统导入支持状态恢复工具。
-ms.openlocfilehash: d784e20656d6f97340e8cfa797d9f64bcb83d4b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 本文介绍了如何使用 Microsoft 团队聊天室的恢复工具, 使用该工具可以将过时系统置于受支持状态。
+ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916540"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305481"
 ---
-# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="3f6ba-103">使用 Microsoft Teams 会议室恢复工具</span><span class="sxs-lookup"><span data-stu-id="3f6ba-103">Use the Microsoft Teams Rooms recovery tool</span></span>
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="4d90c-103">使用 Microsoft Teams 会议室恢复工具</span><span class="sxs-lookup"><span data-stu-id="4d90c-103">Use the Microsoft Teams Rooms recovery tool</span></span>
  
-<span data-ttu-id="3f6ba-104">本文讨论如何使用 Microsoft 团队会议室，您将用于将过期系统导入支持状态恢复工具。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="3f6ba-105">Microsoft 团队聊天室控制台将显示"系统配置过期"错误时，应使用此工具。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-105">You would use this tool when the Microsoft Teams Rooms console shows a "system config out of date" error.</span></span>
+<span data-ttu-id="4d90c-104">本文介绍了如何使用 Microsoft 团队聊天室的恢复工具, 使用该工具可以将过时系统置于受支持状态。</span><span class="sxs-lookup"><span data-stu-id="4d90c-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="4d90c-105">当 Microsoft 团队聊天室控制台显示 "系统配置已过期" 错误时, 你将使用此工具。</span><span class="sxs-lookup"><span data-stu-id="4d90c-105">You would use this tool when the Microsoft Teams Rooms console shows a "system config out of date" error.</span></span>
   
 
-<span data-ttu-id="3f6ba-106"><a name="Prerequisites"> </a></span><span class="sxs-lookup"><span data-stu-id="3f6ba-106"></span></span>  
-## <a name="prerequisites"></a><span data-ttu-id="3f6ba-107">先决条件</span><span class="sxs-lookup"><span data-stu-id="3f6ba-107">Prerequisites</span></span>
+<span data-ttu-id="4d90c-106"><a name="Prerequisites"> </a></span><span class="sxs-lookup"><span data-stu-id="4d90c-106"></span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="4d90c-107">先决条件</span><span class="sxs-lookup"><span data-stu-id="4d90c-107">Prerequisites</span></span>
 
-<span data-ttu-id="3f6ba-108">下载最新的[Microsoft 团队聊天室安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其提取到某个 USB 内存继续有效或网络共享访问的 Microsoft 团队聊天室设备。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-108">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
+<span data-ttu-id="4d90c-108">下载最新的[Microsoft 团队聊天室安装包](https://go.microsoft.com/fwlink/?linkid=851168), 并将其解压缩到 Microsoft 团队聊天室设备可访问的 USB 记忆棒或网络共享。</span><span class="sxs-lookup"><span data-stu-id="4d90c-108">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
 
-<span data-ttu-id="3f6ba-109">您可能还需要安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-109">You may also need to install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span>
+<span data-ttu-id="4d90c-109">您可能还需要安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="4d90c-109">You may also need to install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span>
 
-<span data-ttu-id="3f6ba-110"><a name="Windows-ver"> </a></span><span class="sxs-lookup"><span data-stu-id="3f6ba-110"></span></span>
-## <a name="verify-windows-version"></a><span data-ttu-id="3f6ba-111">验证 Windows 版本</span><span class="sxs-lookup"><span data-stu-id="3f6ba-111">Verify Windows Version</span></span> 
+<span data-ttu-id="4d90c-110"><a name="Windows-ver"> </a></span><span class="sxs-lookup"><span data-stu-id="4d90c-110"></span></span>
+## <a name="verify-windows-version"></a><span data-ttu-id="4d90c-111">验证 Windows 版本</span><span class="sxs-lookup"><span data-stu-id="4d90c-111">Verify Windows Version</span></span> 
 
-1. <span data-ttu-id="3f6ba-112">通过从 Microsoft 团队聊天室设备转**Settings> Windows Setting> 管理员登录**到的管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-112">Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="3f6ba-113">此选项将您带到登录屏幕。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-113">This option brings you to the login screen.</span></span>
-2. <span data-ttu-id="3f6ba-114">登录到一个管理帐户，默认管理员帐户进行`admin`使用密码`sfb`。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-114">Sign into an admin account, the default admin account being `admin` with the password `sfb`.</span></span>
-3. <span data-ttu-id="3f6ba-115">单击开始菜单和类型`winver.exe`到搜索框和单击 \**运行命令*的结果。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-115">Click on the start menu and type `winver.exe` into the search box and click \**Run Command* on the result.</span></span>
-4. <span data-ttu-id="3f6ba-116">记数后版本第二条直线上的信息窗格。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-116">Make note of the number after 'Version' on the second line of the info pane.</span></span>
+1. <span data-ttu-id="4d90c-112">转到**Settings> Windows Setting> 管理员**从 Microsoft 团队聊天室设备登录, 登录到管理员帐户。</span><span class="sxs-lookup"><span data-stu-id="4d90c-112">Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="4d90c-113">此选项可将您带入 "登录" 屏幕。</span><span class="sxs-lookup"><span data-stu-id="4d90c-113">This option brings you to the login screen.</span></span>
+2. <span data-ttu-id="4d90c-114">登录到管理员帐户, `admin`使用密码`sfb`的默认管理员帐户。</span><span class="sxs-lookup"><span data-stu-id="4d90c-114">Sign into an admin account, the default admin account being `admin` with the password `sfb`.</span></span>
+3. <span data-ttu-id="4d90c-115">单击 "开始" 菜单并在`winver.exe`搜索框中键入, 然后在结果中单击 "\**运行命令*"。</span><span class="sxs-lookup"><span data-stu-id="4d90c-115">Click on the start menu and type `winver.exe` into the search box and click \**Run Command* on the result.</span></span>
+4. <span data-ttu-id="4d90c-116">记下 "信息" 窗格第二行中 "版本" 之后的数字。</span><span class="sxs-lookup"><span data-stu-id="4d90c-116">Make note of the number after 'Version' on the second line of the info pane.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="3f6ba-117">如果显示的版本为 1607年或更早版本，向<a href="#Perform">执行恢复</a>步骤按照之前进行的<a href="#Windows-up">更新 Windows 恢复之前</a>步骤中的步骤。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-117">If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps.</span></span> <span data-ttu-id="3f6ba-118">如果显示的版本大于 1607年，请按照仅<a href="#Perform">执行恢复</a>中的步骤。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-118">If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.</span></span>
+><span data-ttu-id="4d90c-117">如果显示的版本是1607或更早版本, 请在 proceding 之前的<a href="#Windows-up">更新窗口</a>中的步骤, 然后再<a href="#Perform">执行恢复</a>步骤。</span><span class="sxs-lookup"><span data-stu-id="4d90c-117">If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps.</span></span> <span data-ttu-id="4d90c-118">如果显示的版本大于 1607, 请仅按照<a href="#Perform">执行恢复</a>中的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="4d90c-118">If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.</span></span>
 
-<span data-ttu-id="3f6ba-119"><a name="Windows-up"> </a></span><span class="sxs-lookup"><span data-stu-id="3f6ba-119"></span></span>
-## <a name="update-windows-before-recovery-if-needed"></a><span data-ttu-id="3f6ba-120">在恢复之前更新 Windows （如果需要）</span><span class="sxs-lookup"><span data-stu-id="3f6ba-120">Update Windows before recovery (if needed)</span></span>
+<span data-ttu-id="4d90c-119"><a name="Windows-up"> </a></span><span class="sxs-lookup"><span data-stu-id="4d90c-119"></span></span>
+## <a name="update-windows-before-recovery-if-needed"></a><span data-ttu-id="4d90c-120">恢复之前更新 Windows (如果需要)</span><span class="sxs-lookup"><span data-stu-id="4d90c-120">Update Windows before recovery (if needed)</span></span>
 
-1. <span data-ttu-id="3f6ba-121">仍在登录为管理员用户，启动一个提升的 Powershell 提示符。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-121">While still logged in as an admin user, launch an elevated Powershell prompt.</span></span>
-2. <span data-ttu-id="3f6ba-122">运行命令`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-122">Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.</span></span>
-3. <span data-ttu-id="3f6ba-123">运行 Windows 更新并安装 Windows 1709 的更新。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-123">Run Windows Update and install the update for Windows 1709.</span></span>
-4. <span data-ttu-id="3f6ba-124">1709 到更新后完成登录回管理员帐户，并安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-124">After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span> <span data-ttu-id="3f6ba-125">更新可能完成从链接或使用 Windows Update。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-125">The update may be done from the link or using Windows Update.</span></span>
-5. <span data-ttu-id="3f6ba-126">作为一个可选步骤，安装 Windows Update 提供任何其他更新。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-126">As an optional step, install any additional updates available from Windows Update.</span></span>
+1. <span data-ttu-id="4d90c-121">当仍以管理员用户身份登录时, 请启动提升的 Powershell 提示。</span><span class="sxs-lookup"><span data-stu-id="4d90c-121">While still logged in as an admin user, launch an elevated Powershell prompt.</span></span>
+2. <span data-ttu-id="4d90c-122">运行命令`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。</span><span class="sxs-lookup"><span data-stu-id="4d90c-122">Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.</span></span>
+3. <span data-ttu-id="4d90c-123">运行 windows 更新并安装适用于 Windows 1709 的更新。</span><span class="sxs-lookup"><span data-stu-id="4d90c-123">Run Windows Update and install the update for Windows 1709.</span></span>
+4. <span data-ttu-id="4d90c-124">更新到1709后, 请重新登录到管理员帐户并安装[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="4d90c-124">After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span> <span data-ttu-id="4d90c-125">更新可能是通过链接或使用 Windows 更新完成的。</span><span class="sxs-lookup"><span data-stu-id="4d90c-125">The update may be done from the link or using Windows Update.</span></span>
+5. <span data-ttu-id="4d90c-126">作为可选步骤, 请安装 Windows 更新中提供的任何其他更新。</span><span class="sxs-lookup"><span data-stu-id="4d90c-126">As an optional step, install any additional updates available from Windows Update.</span></span>
 
-<span data-ttu-id="3f6ba-127"><a name="Perform"> </a></span><span class="sxs-lookup"><span data-stu-id="3f6ba-127"></span></span>
-## <a name="perform-a-recovery"></a><span data-ttu-id="3f6ba-128">执行恢复</span><span class="sxs-lookup"><span data-stu-id="3f6ba-128">Perform a recovery</span></span>
+<span data-ttu-id="4d90c-127"><a name="Perform"> </a></span><span class="sxs-lookup"><span data-stu-id="4d90c-127"></span></span>
+## <a name="perform-a-recovery"></a><span data-ttu-id="4d90c-128">执行恢复</span><span class="sxs-lookup"><span data-stu-id="4d90c-128">Perform a recovery</span></span>
 
-1. <span data-ttu-id="3f6ba-129">登录到您的 Microsoft 团队聊天室设备上的管理帐户并启动提升的命令提示符。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-129">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
-2. <span data-ttu-id="3f6ba-130">从 Microsoft 团队聊天室设备验证您是否能够访问`RecoveryTool.ps1`从 Microsoft 团队聊天室安装程序包中提取的文件中包含的文件。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-130">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="3f6ba-131">可以使用准备先决条件时的 USB 驱动器或网络共享上找到工具包。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-131">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
-3. <span data-ttu-id="3f6ba-132">运行 Powershell.exe 命令`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-132">Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
-4. <span data-ttu-id="3f6ba-133">当提示您的选择脚本选项`1:"Repair System"`。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-133">When prompted by the script select option `1:"Repair System"`.</span></span>
-5. <span data-ttu-id="3f6ba-134">完成后，重新启动 Microsoft 团队聊天室设备。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-134">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="3f6ba-135">它将重新自动重新启动，并提出完全恢复第二次。</span><span class="sxs-lookup"><span data-stu-id="3f6ba-135">It will reboot again automatically and come up fully recovered the second time.</span></span>
+1. <span data-ttu-id="4d90c-129">在 Microsoft 团队聊天室设备上登录到管理员帐户, 并启动提升的命令提示符。</span><span class="sxs-lookup"><span data-stu-id="4d90c-129">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
+2. <span data-ttu-id="4d90c-130">从 Microsoft 团队聊天室设备验证你是否能够访问该`RecoveryTool.ps1`文件, 该设备包含在从 Microsoft 团队聊天室安装包提取的文件中。</span><span class="sxs-lookup"><span data-stu-id="4d90c-130">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="4d90c-131">在准备必备条件时使用的网络共享或 USB 驱动器上可以找到该工具包。</span><span class="sxs-lookup"><span data-stu-id="4d90c-131">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
+3. <span data-ttu-id="4d90c-132">运行 Powershell 命令`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。</span><span class="sxs-lookup"><span data-stu-id="4d90c-132">Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
+4. <span data-ttu-id="4d90c-133">当脚本选择 "选项`1:"Repair System"`" 时出现提示。</span><span class="sxs-lookup"><span data-stu-id="4d90c-133">When prompted by the script select option `1:"Repair System"`.</span></span>
+5. <span data-ttu-id="4d90c-134">完成后, 重新启动 Microsoft 团队聊天室设备。</span><span class="sxs-lookup"><span data-stu-id="4d90c-134">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="4d90c-135">它将自动重新启动, 并在第二次恢复时完全恢复。</span><span class="sxs-lookup"><span data-stu-id="4d90c-135">It will reboot again automatically and come up fully recovered the second time.</span></span>
 
 
 
-<span data-ttu-id="3f6ba-136"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="3f6ba-136"></span></span>  
-## <a name="see-also"></a><span data-ttu-id="3f6ba-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3f6ba-137">See also</span></span>
+<span data-ttu-id="4d90c-136"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="4d90c-136"></span></span>  
+## <a name="see-also"></a><span data-ttu-id="4d90c-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4d90c-137">See also</span></span>
  
-[<span data-ttu-id="3f6ba-138">Microsoft Teams 会议室帮助</span><span class="sxs-lookup"><span data-stu-id="3f6ba-138">Microsoft Teams Rooms help</span></span>](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[<span data-ttu-id="4d90c-138">Microsoft Teams 会议室帮助</span><span class="sxs-lookup"><span data-stu-id="4d90c-138">Microsoft Teams Rooms help</span></span>](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[<span data-ttu-id="3f6ba-139">管理 Microsoft Teams 会议室</span><span class="sxs-lookup"><span data-stu-id="3f6ba-139">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
+[<span data-ttu-id="4d90c-139">管理 Microsoft Teams 会议室</span><span class="sxs-lookup"><span data-stu-id="4d90c-139">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
