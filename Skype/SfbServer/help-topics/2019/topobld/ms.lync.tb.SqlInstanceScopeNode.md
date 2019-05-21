@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点的服务器和池或使用此 SQL Server 的服务器上显示此 Microsoft SQL Server 和 SQL Server 实例的完全限定的域名 (FQDN)。 可以执行以下操作：
-ms.openlocfilehash: d234826338ce6add18302a12df4d9788021ba1cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 此节点显示此 Microsoft SQL Server 的完全限定的域名 (FQDN), 以及该服务器上的 SQL Server 实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
+ms.openlocfilehash: ff32b59235dfb4ff38b8ea0fcd4c34a0be9baa97
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896439"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303100"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 实例范围节点
  
-此节点的服务器和池或使用此 SQL Server 的服务器上显示此 Microsoft SQL Server 和 SQL Server 实例的完全限定的域名 (FQDN)。 可以执行以下操作：
+此节点显示此 Microsoft SQL Server 的完全限定的域名 (FQDN), 以及该服务器上的 SQL Server 实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
   
-- **编辑属性**。 打开**编辑属性**页上为此服务器，可在其中更改的 FQDN （如果尚未已发布拓扑） 的服务器，以及要使用的 SQL Server 的实例。
+- **编辑属性**。 打开此服务器的 "**编辑属性**" 页, 您可以在其中更改服务器的 FQDN (如果拓扑尚未发布) 和要使用的 SQL server 实例。
     
 - **删除**。从拓扑中删除服务器。
     

@@ -1,10 +1,10 @@
 ---
-title: 创建带宽策略配置文件中 Skype 业务服务器
+title: 在 Skype for Business 服务器中创建带宽策略配置文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: 创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: 2ffb7699593c6c7790e37f57e7cce6d1779f0c16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 创建或修改带宽策略, 这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
+ms.openlocfilehash: c7fecafe5f036405088a3c6c62b70774b779e266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892991"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289018"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>创建带宽策略配置文件中 Skype 业务服务器 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建带宽策略配置文件 
  
-创建或修改带宽策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
+创建或修改带宽策略, 这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
   
-“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略是应用的 tobandwidth 策略配置文件，它们可以应用于的呼叫允许控制的多个网络站点。
+“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略被应用 tobandwidth 策略配置文件, 这些配置文件可应用于多个网络网站, 用于呼叫许可控制。
   
-有关哪些带宽限制的准则应 CAC 部署中设置，请参阅[Plan for Business Server 的 Skype 中的呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+有关应在 CAC 部署中设置哪些带宽限制的指南, 请参阅[在 Skype For Business 服务器中计划呼叫许可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   
@@ -42,7 +42,7 @@ ms.locfileid: "33892991"
 > [!NOTE]
 > 最小音频会话限制值为 40 kbps。最小视频会话限制值为 100 kbps。 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用 Skype 业务 Server 命令行管理程序创建带宽策略配置文件
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business 服务器命令行管理程序创建带宽策略配置文件
 
 1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
@@ -64,9 +64,9 @@ ms.locfileid: "33892991"
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>使用 Skype 业务 Server 控制面板创建带宽策略配置文件
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板创建带宽策略配置文件
 
-1. 打开 Skype 业务 Server Control Panel。
+1. 打开 "Skype for Business 服务器" 控制面板。
     
 2. 在左侧导航栏中，单击“网络配置”****。
     

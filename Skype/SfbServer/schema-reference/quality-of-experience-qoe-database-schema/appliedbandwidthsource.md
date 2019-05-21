@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: AppliedBandwidthSource 表是一个支持表。 每条记录代表一个源。
-ms.openlocfilehash: 49e4fd4b2c2543399d073d5d03e8cccad8b0038e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: AppliedBandwidthSource 表是支持表。 每条记录表示一个来源。
+ms.openlocfilehash: 6d40701b74dd5e7312a504127675eed686de7321
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924848"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295109"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource 表
  
-AppliedBandwidthSource 表是一个支持表。 每条记录代表一个源。
+AppliedBandwidthSource 表是支持表。 每条记录表示一个来源。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |标识来源的唯一编号。  <br/> |
-|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |唯一  <br/> |这是带宽帽正在施加的源。 它介绍了其中的带宽限制来自 （例如，"策略服务器"、"打开服务器"或"形式"）。  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |标识源的唯一编号。  <br/> |
+|**AppliedBandwidthSource** <br/> |varchar (256)  <br/> |唯一  <br/> |这是所强加的带宽上限的来源。 它介绍带宽限制的来源 (例如, "策略服务器"、"转换服务器" 或 "模态")。  <br/> |
    
 

@@ -3,27 +3,27 @@ title: Skype 会议室系统会议室设置脚本
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291699"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 会议室系统会议室设置脚本
  
 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
   
-本部分介绍可用于设置 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。
+本部分介绍了可用于设置 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本： Skype 商业和 Exchange Server （本地）
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本: Skype for business 和 Exchange Server (内部部署)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>商业和 Exchange 服务器联机的示例安装脚本： Skype
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例安装脚本: Skype for business 和 Exchange Server Online
 
 在运行脚本之前，请务必查看以下先决条件：
   

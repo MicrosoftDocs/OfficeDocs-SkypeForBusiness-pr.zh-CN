@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: 推送通知和推送通知交换所 (PNCH) 是移动功能的主要组成部分。推送通知是将消息发送到 PNCH 的过程。消息将保留在此处，直到它能发往移动客户端或超时段过期为止。
-ms.openlocfilehash: 9920029e657db4ed7d1c8da269593368d673d08a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a15e88e40b37da4570d04a93ef13a793d6dabaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891661"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300334"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>移动客户端：创建或编辑推送通知配置
  
@@ -36,9 +36,9 @@ ms.locfileid: "33891661"
   
 2. 通过单击以下复选框选择您要启用的推送通知服务：
     
-   - **启用 Microsoft 推送通知**将启用通知推送到基于云的 PNCH for Windows Phone 与 Skype 的业务应用程序
+   - **启用 Microsoft 推送通知**将针对使用 Skype for business 应用的 Windows Phone 的基于云的 PNCH 启用推送通知
     
-   - **启用 Apple 推送通知**将启用通知推送到运行 Apple iOS （如 iPhone、 iPad） 和业务应用程序使用 Skype 的设备的 Apple PNCH
+   - **启用 apple 推送通知**将为运行 apple iOS 的设备 (例如, IPhone、iPad) 启用 apple PNCH 的推送通知, 并使用 Skype for business 应用
     
 3. 完成策略编辑后，单击“**提交**”可保存更改。如果需要删除所做的更改，请选择“**取消**”。将不会保存对策略的任何更改。
     

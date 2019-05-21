@@ -1,10 +1,10 @@
 ---
-title: 为业务服务器部署中 Skype 的紧急服务
+title: 在 Skype for Business 服务器中部署紧急服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
-description: 为业务 Server 企业语音部署中 Skype E9-1-1。 包括先决条件和部署过程清单。
-ms.openlocfilehash: 7dddbd338ac496de995d3971b6298f5a37885bba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server Enterprise Voice 中部署 E9-1。 包括先决条件和部署过程清单。
+ms.openlocfilehash: 4373797b8a96f83100a39735cf20b51558eb15d8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892725"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291268"
 ---
-# <a name="deploy-emergency-services-in-skype-for-business-server"></a>为业务服务器部署中 Skype 的紧急服务
+# <a name="deploy-emergency-services-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署紧急服务
  
-为业务 Server 企业语音部署中 Skype E9-1-1。 包括先决条件和部署过程清单。
+在 Skype for business Server Enterprise Voice 中部署 E9-1。 包括先决条件和部署过程清单。
   
-增强型的 9-1-1 (E9-1-1) 是一个紧急通知功能，将呼叫方的电话号码与市政或街道地址相关联。 使用此信息，公共安全应答点 (PSAP) 可以迅速向需要帮助的呼叫者提供紧急服务。
+增强的 9-1-1 (E9-1) 是紧急通知功能, 用于将呼叫方的电话号码与市政或街道地址相关联。 使用此信息，公共安全应答点 (PSAP) 可以迅速向需要帮助的呼叫者提供紧急服务。
   
-若要支持 E9-1-1，Skype 业务服务器必须能够在将某个位置与客户端正确关联，并以确保此信息用于将紧急呼叫路由到最接近的 PSAP。
+若要支持 E9-1, Skype for business 服务器必须能够将某个位置与客户端正确关联, 并确保使用此信息将紧急呼叫路由到最近的 PSAP。
   
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>E9-1-1 的部署先决条件
 
-在部署 E9-1-1 之前，必须已部署您的业务服务器的内部服务器，包括中央管理存储、 前端池或 Standard Edition server 的 Skype。 您还必须部署一个或多个中介服务器，或者是独立或与前端服务器并置。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。
+在部署 E9-1 之前, 您必须已部署了 Skype for Business 服务器内部服务器, 包括中央管理存储、前端池或标准版服务器。 还必须在前端服务器上部署一个或多个中介服务器, 无论是独立还是 collocated。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。
   
 ## <a name="deployment-process"></a>部署过程
 
@@ -39,9 +39,9 @@ ms.locfileid: "33892725"
   
 |**阶段**|**步骤**|**Roles**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|配置语音用法、路由和中继配置  <br/> |1.创建新的 PSTN 用法记录。 这与位置策略中的**PSTN 用法**设置所用的名称相同。 <br/> 2.创建或分配一个语音路由到上一步骤中创建的 PSTN 用法记录，然后将网关属性指向 E9-1-1 SIP 中继或 ELIN 网关。  <br/> 3.对于 SIP 中继 E9-1-1 服务提供商，设置将处理 E9-1-1 呼叫通过 SIP 使用**Set-cstrunkconfiguration EnablePIDFLOSupport** cmdlet 传递 PIDF-LO 数据的中继。 <br/> 4.（可选） 为 SIP 中继 E9-1-1 服务提供程序创建或分配的 E9-1-1 服务提供商的 SIP 中继不会处理呼叫的本地 PSTN 路由。 如果与 E9-1-1 服务提供商的连接不可用，将使用此路由。 如果受 E9-1-1 服务提供商支持，则向网关分配一个中继配置规则，以便将 911 拨号字符串转换为国家和/或地区紧急呼叫响应中心 (ECRC) 的外线直拨分机 (DID) 号码。  <br/> |CSVoiceAdmin  <br/> |[在 Skype for Business Server 中配置 E9-1-1 语音路由](configure-an-e9-1-1-voice-route.md) <br/> |
-|创建位置策略，并将其分配给用户和子网  <br/> |1.查看全局位置策略。  <br/> 2.使用用户级范围; 创建位置策略或者，如果组织具有包含不同紧急情况用法的多个站点，可以使用网络级范围创建位置策略。  <br/> 3.将位置策略分配给网络站点。  <br/> 4.将相应的子网添加到网络站点。  <br/> 5.（可选） 将分配到用户策略的位置策略。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin（创建位置策略除外）  <br/> |[为 Business Server Skype 创建位置策略](create-location-policies.md) <br/> [业务服务器添加到网络站点中 Skype 位置策略](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
-|配置位置数据库  <br/> |1.填充的网络元素到位置映射数据库。  <br/> 2.对于 ELIN 网关，将添加到 Elin \<CompanyName\>列。  <br/> 3.配置与 E9-1-1 服务提供商的连接来验证地址。  <br/> 4.验证 E9-1-1 服务提供商的地址。  <br/> 5.发布更新的数据库。  <br/> 6.对于 ELIN 网关，将 Elin 上载到 PSTN 运营商的自动位置识别 (ALI) 数据库。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[在 Skype for Business Server 中配置位置数据库](configure-the-location-database.md) <br/> |
-|配置高级功能（可选）  <br/> |1.配置 SNMP 应用程序的 URL。  <br/> 2.配置辅助位置信息服务的位置的 URL。  <br/> |CSVoiceAdmin  <br/> |[在 Skype for Business Server 中配置 SNMP 应用程序](configure-an-snmp-application.md) <br/> [在 Skype for Business Server 中配置的辅助位置信息服务](secondary-location-information-service.md) <br/> |
+|配置语音用法、路由和中继配置  <br/> |1. 创建新的 PSTN 使用记录。 这与位置策略中的**PSTN 用法**设置所用的名称相同。 <br/> 2. 为在上一步中创建的 PSTN 使用记录创建或分配一个语音路由, 然后将网关属性指向 E9 SIP 主干或 ELIN 网关。  <br/> 3. 对于 SIP trunk E9 服务提供商, 请将要处理的 E9 调用的主干设置为使用**new-cstrunkconfiguration-EnablePIDFLOSupport** CMDLET 传递 PIDF-1 的数据。 <br/> 4. (可选) 对于 SIP trunk E9 服务提供商, 为未由 E9 服务提供商的 SIP 主干处理的呼叫创建或分配本地 PSTN 路由。 如果与 E9-1-1 服务提供商的连接不可用，将使用此路由。 如果受 E9-1-1 服务提供商支持，则向网关分配一个中继配置规则，以便将 911 拨号字符串转换为国家和/或地区紧急呼叫响应中心 (ECRC) 的外线直拨分机 (DID) 号码。  <br/> |CSVoiceAdmin  <br/> |[在 Skype for Business 服务器中配置 E9-1 个语音路由](configure-an-e9-1-1-voice-route.md) <br/> |
+|创建位置策略，并将其分配给用户和子网  <br/> |1. 查看全局位置策略。  <br/> 2. 使用用户级范围创建位置策略;或者, 如果组织具有多个具有不同的紧急使用情况的网站, 请使用网络级别范围创建一个位置策略。  <br/> 3. 将位置策略分配给网络站点。  <br/> 4. 将相应子网添加到网络站点。  <br/> 5. (可选) 将位置策略分配给用户策略。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin（创建位置策略除外）  <br/> |[在 Skype for Business 服务器中创建位置策略](create-location-policies.md) <br/> [在 Skype for Business 服务器中将位置策略添加到网络网站](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+|配置位置数据库  <br/> |1. 通过将网络元素映射到位置来填充数据库。  <br/> 2. 对于 ELIN 网关, 将 ELINs 添加到\<"\>公司名称" 列。  <br/> 3. 配置与用于验证地址的 E9 服务提供商的连接。  <br/> 4. 通过 E9 服务提供商验证地址。  <br/> 5. 发布更新后的数据库。  <br/> 6. 对于 ELIN 网关, 请将 ELINs 上载到 PSTN 运营商的自动位置标识 (阿里) 数据库。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[在 Skype for Business 服务器中配置位置数据库](configure-the-location-database.md) <br/> |
+|配置高级功能（可选）  <br/> |1. 配置 SNMP 应用程序的 URL。  <br/> 2. 配置辅助位置信息服务位置的 URL。  <br/> |CSVoiceAdmin  <br/> |[在 Skype for Business 服务器中配置 SNMP 应用程序](configure-an-snmp-application.md) <br/> [在 Skype for Business 服务器中配置辅助位置信息服务](secondary-location-information-service.md) <br/> |
    
 

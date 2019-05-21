@@ -1,10 +1,10 @@
 ---
-title: 为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
+title: 为用户启用组呼叫装货, 并在 Skype for Business 中分配组号码
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: 为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
-ms.openlocfilehash: 92429e256a222d56ad7c281db57185b497f714e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中启用组呼叫装货的用户, 并分配组号码。
+ms.openlocfilehash: 14f17d3e217fa9ea44cc81db4d8fa6bf12644894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892459"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291579"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫分拣和分配 Skype for Business 中的一组数
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组呼叫装货, 并在 Skype for Business 中分配组号码
 
-为用户启用组中 Skype 调用的分拣业务 Server 企业语音，并分配组数。
+在 Skype for Business Server Enterprise Voice 中启用组呼叫装货的用户, 并分配组号码。
 
-将呼叫分拣组号码添加到呼叫寄存通道表后，您使用 SEFAUtil 工具将组号码分配给用户和组呼叫分拣启用。
+将呼叫挑选组号码添加到 "呼叫驻留的轨道" 表后, 使用 SEFAUtil 工具将组号码分配给用户并为其启用组呼叫装货。
 
 > [!NOTE]
-> 在混合部署中，现在将一组呼叫分拣组分配给驻留联机用户。 联机驻留的用户不能参与组呼叫分拣。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+> 在混合部署中, 不要向处于联机状态的用户分配组呼叫装货组。 处于联机状态的用户不能参与组呼叫装货。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>指定一组数并为用户启用组呼叫分拣
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>分配组号码并为用户启用组呼叫装货
 
 1. 使用管理员权限登录安装了 SEFAUtil 工具的计算机。
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseFileType
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用选择文件类型扩展名对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在文件下的扩展旁边的复选框类型扩展。 单击箭头以展开类别并查看所有类别的文件类型扩展名。 如果您想要选择所有类别的文件类型扩展名，选择类别名称。
-ms.openlocfilehash: 80f70530496bed374b8122a6580af0c70013c22e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 使用 "选择文件类型扩展名" 对话框, 通过选择 "(阻止)" 或 "清除" (允许) "文件类型扩展" 下的扩展旁边的复选框来选择要阻止或允许的文件类型扩展。 单击箭头以展开类别并查看该类别的所有文件类型扩展名。 如果要选择某个类别的所有文件类型扩展名, 请选择类别名称。
+ms.openlocfilehash: f332e32fa957cbc1736110bfe5faec7ce2a6cd8c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891451"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292918"
 ---
 # <a name="select-file-type-extensions"></a>选择文件类型扩展名
  
-使用**选择文件类型扩展名**对话框中选择您想要阻止或允许通过 （到块） 选中或清除 （以允许） 的文件类型扩展名在**文件类型扩展名**下的扩展旁边的复选框。 单击箭头以展开类别并查看所有类别的文件类型扩展名。 如果您想要选择所有类别的文件类型扩展名，选择类别名称。 
+使用 "**选择文件类型扩展名**" 对话框, 通过选择 "(阻止)" 或 "清除" (允许) "**文件类型扩展**" 下的扩展旁边的复选框来选择要阻止或允许的文件类型扩展。 单击箭头以展开类别并查看该类别的所有文件类型扩展名。 如果要选择某个类别的所有文件类型扩展名, 请选择类别名称。 
   
-如果您未看到要选择的文件类型扩展名列**文件类型扩展名**，在**向列表添加新的文件扩展名**下的文本框中键入扩展名，然后单击**添加**。 
+如果在 "**文件类型" 扩展**中看不到要选择的文件类型的扩展名, 请在文本框中的 "**将新文件扩展名添加到列表**" 下键入扩展名, 然后单击 "**添加**"。 
   
-您已将所有所需的文件类型扩展名添加到**选择文件类型扩展名**列表后，单击**确定**。
+将所需的所有文件类型扩展名添加到 "**所选文件类型扩展名**" 列表后, 单击 **"确定"**。
   
  
   

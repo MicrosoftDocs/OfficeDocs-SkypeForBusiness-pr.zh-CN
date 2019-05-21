@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
-description: 右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
-ms.openlocfilehash: 6ac6d18e4d8ee06c78f68e1f897aed966bf0453b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '右键单击拓扑生成器中的现有 SIP 主干以执行以下操作:'
+ms.openlocfilehash: 6b0db3a7a37c510d5340bd2e9da7a1273f7197e3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903402"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299780"
 ---
 # <a name="trunk-scope-node"></a>中继范围节点
  
-右键单击某个现有的 SIP 中继拓扑生成器以执行以下中：
+右键单击拓扑生成器中的现有 SIP 主干以执行以下操作:
   
 - **编辑属性**：启动用于编辑或重新定义现有 SIP 中继配置的“**编辑属性**”向导
     

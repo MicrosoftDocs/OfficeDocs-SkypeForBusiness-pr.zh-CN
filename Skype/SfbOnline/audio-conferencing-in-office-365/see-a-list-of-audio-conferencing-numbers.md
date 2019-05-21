@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解如何为业务 Online 查找您拨入式会议号码从 Skype 内。 '
-ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解如何在 Skype for business Online 中查找电话拨入式会议号码。 '
+ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229221"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299046"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>请参阅  Skype for Business Online 中的音频会议号码列表
 
@@ -41,7 +41,7 @@ When you set up Audio Conferencing for Skype for Business users, you can view th
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
-您可以看到[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)以更改为单个用户的电话拨入式电话号码。
+您可以查看[邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md), 以更改单个用户的拨入电话号码。
   
 > [!NOTE]
 > [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
@@ -49,17 +49,17 @@ If there is only one phone number available in your organization, it will be use
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音频会议电话号码
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 桥**，然后：
+3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥**", 然后:
     
-   - 您可以查看可用于音频会议的电话号码。
+   - 您可以查看音频会议可用的电话号码。
     
-   - 您还可以查看位置，并将使用的音频会议的主要和辅助语言自动助理。
+   - 您还可以查看该位置, 以及音频会议自动助理将使用的主要和辅助语言。
     
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 

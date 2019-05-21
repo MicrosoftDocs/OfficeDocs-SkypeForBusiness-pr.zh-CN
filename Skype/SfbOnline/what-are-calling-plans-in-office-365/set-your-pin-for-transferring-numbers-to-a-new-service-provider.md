@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
-ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64eaa010939c10a25e7c1fb4c53672a27296ebe1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229921"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290848"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>设置 PIN 以将号码转移到新服务提供商
 
@@ -51,13 +51,13 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
     
 ## <a name="set-up-your-pin"></a>设置 PIN
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队管理中心** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
-3. 在左侧导航窗格中，选择**语音** > **端口订单**。
+3. 在左侧导航中, 选择 "**语音** > **端口顺序**"。
     
 4. 单击**设置和管理 PIN**，此功能用于将号码转移或转出到另一个服务运营商。
     

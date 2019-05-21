@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: tblPrincipalAffiliations 包含的主体附属关系介绍中位置，包括 Active Directory 容器中以及域中的 Active Directory 域服务安全组的成员身份。
-ms.openlocfilehash: fb1bd8eb7291ba001a5c23240c2de70aaff048b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员, 包括 Active directory 域服务安全组, 位于 Active Directory 容器中的域中。
+ms.openlocfilehash: cda9827f4a4ab7e17a156cc867e4925c88d06ff3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929817"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295312"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
-tblPrincipalAffiliations 包含的主体附属关系介绍中位置，包括 Active Directory 容器中以及域中的 Active Directory 域服务安全组的成员身份。
+tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员, 包括 Active directory 域服务安全组, 位于 Active Directory 容器中的域中。
   
-**列**
+**多**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|principalID  <br/> |int，不为 null  <br/> |附属主体的 ID。  <br/> |
-|affiliationID  <br/> |int，不为 null  <br/> |表示隶属项的主体 ID。 （除系统用户类型） 的每个主体具有自我从属关系以及。  <br/> |
-|索引  <br/> |int，不为 null  <br/> |索引。 自我隶属项的值为-1，并且其他隶属项的会增加按顺序从 1 中每个\<principalID，affiliationId\>地址散列表元。  <br/> |
-|updatedBy  <br/> |int，不为 null  <br/> |执行最新更新的主体。 这通常是 1，这意味着 Active Directory 同步。  <br/> |
+|principalID  <br/> |int, not null  <br/> |关联主体的 ID。  <br/> |
+|affiliationID  <br/> |int, not null  <br/> |表示隶属关系的承担者的 ID。 每个主体 (除系统用户类型外) 还具有自我隶属关系。  <br/> |
+|食指  <br/> |int, not null  <br/> |食指. 自隶属关系的值是-1, 对于其他隶属关系, 在每个\<PrincipalID、affiliationId\>存储桶中, 它将按从1开始递增。  <br/> |
+|updatedBy  <br/> |int, not null  <br/> |已进行最新更新的主体。 这通常是 1, 这意味着 Active Directory 同步。  <br/> |
    
-**键**
+**标示**
 
-|**列**|**说明**|
+|**多**|**说明**|
 |:-----|:-----|
-|\<principalID、 索引、 affiliationID\>  <br/> |主键。  <br/> |
-|principalID  <br/> |在 tblPrincipal.prinID 表中查找的外键。  <br/> |
-|affiliationID  <br/> |在 tblPrincipal.prinID 表中查找的外键。  <br/> |
+|\<principalID、index、affiliationID\>  <br/> |主键。  <br/> |
+|principalID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
+|affiliationID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
    
 

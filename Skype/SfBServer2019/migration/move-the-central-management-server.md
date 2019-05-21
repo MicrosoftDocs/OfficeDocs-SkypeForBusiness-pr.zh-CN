@@ -4,119 +4,119 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 迁移到 Skype for Business Server 2019 之后，您需要将移动中央管理服务器到 Skype 业务 Server 2019 前端服务器或池，然后才能删除旧服务器。
-ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 迁移到 Skype for business Server 2019 后, 您需要将中央管理服务器移动到 Skype for business 服务器2019前端服务器或池, 然后才能删除旧服务器。
+ms.openlocfilehash: 5e16145b6695a9ee7006ab7d5321af9e478d7c37
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231572"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291296"
 ---
-# <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>将旧的中央管理服务器移动到 Skype 进行业务服务器 2019
+# <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>将旧式中央管理服务器移动到 Skype for business Server 2019
 
-迁移后到 Skype 业务服务器 2019年和可以删除旧服务器之前，您需要将中央管理服务器移动到 Skype，业务 Server 2019 前端服务器或池。 
+迁移到 Skype for Business Server 2019 后, 在删除旧服务器之前, 需要将中央管理服务器移动到 Skype for business 服务器2019前端服务器或池。 
   
-中央管理服务器是单个母版/多副本系统，数据库的读/写副本由前端服务器包含中央管理服务器。 在拓扑中，包括前端服务器包含中央管理服务器，每台计算机都安装过程中的计算机上安装 SQL Server 数据库 （名为默认情况下 RTCLOCAL） 中的中央管理存储数据的只读副本和部署。 本地数据库业务服务器副本复制程序代理的所有计算机上运行作为服务接收通过 Skype 的副本更新。 在中央管理服务器和的本地副本的实际数据库的名称为 XDS，组成 xds.mdf 和 xds.ldf 文件。 服务控制点 (SCP) Active Directory 域服务中被引用的主数据库位置。 中央管理服务器用于管理和配置 Business Server Skype 的所有工具都使用 SCP 查找中央管理存储。
+中央管理服务器是单个主/多副本系统, 其中数据库的读/写副本由包含中央管理服务器的前端服务器保留。 拓扑中的每台计算机 (包括包含中央管理服务器的前端服务器) 在安装期间, 在计算机上安装了 SQL Server 数据库中的中央管理存储数据的只读副本 (默认情况下称为 RTCLOCAL)。部署. 本地数据库通过在所有计算机上作为服务运行的 Skype for Business Server 副本复制程序代理来接收副本更新。 中央管理服务器和本地副本上的实际数据库的名称是 XDS, 它由 XDS 和 XDS 文件组成。 Master 数据库位置由 Active Directory 域服务中的服务控制点 (SCP) 引用。 使用中心管理服务器管理和配置 Skype for Business 服务器的所有工具均使用 SCP 查找中央管理存储。
   
-您已成功移动中央管理服务器后，您应该从原始前端服务器中删除中央管理服务器数据库。 有关删除中央管理服务器数据库的信息，请参阅[删除前端池的 SQL Server 数据库](remove-the-sql-server-database-for-a-front-end-pool.md)。
+成功移动中央管理服务器后, 应从原始前端服务器中删除中央管理服务器数据库。 有关删除中央管理服务器数据库的信息, 请参阅[删除前端池的 SQL Server 数据库](remove-the-sql-server-database-for-a-front-end-pool.md)。
   
-使用 Windows PowerShell cmdlet 中的业务 Server 命令行管理程序移动 Business Server 2019 SQL Server 数据库的 Skype 的旧安装 SQL Server 数据库的数据库，然后更新 Skype **Move-csmanagementserver**SCP 以指向业务服务器 2019年中央管理服务器位置 Skype。 
+在 Skype for Business Server Management Shell 中使用 Windows PowerShell cmdlet **Move CsManagementServer** , 将数据库从旧版安装 SQL server 数据库移动到 Skype For business SERVER 2019 SQL server 数据库, 然后更新SCP 指向 Skype for Business Server 2019 中央管理服务器位置。 
   
-使用本节中的过程移动中央管理服务器之前准备 Skype 业务 Server 2019 前端服务器。
+在移动中央管理服务器之前, 使用本部分中的步骤准备 Skype for business Server 2019 前端服务器。
   
-## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>准备 Enterprise Edition 前端池
+## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>准备企业版前端池
 
-1. 上要重定位中央管理服务器的业务服务器 2019 Enterprise Edition 前端池的 Skype，登录到计算机的业务 Server 命令行管理程序 Skype **RTCUniversalServerAdmins 成员的安装**组。 此外必须在要安装中央管理存储的数据库具有 SQL Server 数据库的系统管理员用户权限和权限。 
+1. 在要在其中重新定位中央管理服务器的 Skype for Business 服务器2019企业版前端池上, 登录到安装了 Skype for business Server Management Shell 的计算机作为 RTCUniversalServerAdmins 的成员。 **** 组。 你还必须在要安装中央管理存储的数据库上同时拥有 SQL Server 数据库 sysadmin 用户权限和权限。 
     
-2. 打开 Skype 业务 Server 命令行管理程序。
+2. 打开 Skype for Business 服务器命令行管理程序。
     
-3. 若要创建新的中央管理存储中的业务服务器 2019 SQL Server 数据库中的业务 Server Management Shell，Skype Skype 键入：
+3. 若要在 Skype for business Server 2019 SQL Server 数据库中创建新的中央管理存储, 请在 Skype for business Server Management Shell 中键入:
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
-4. 确认**启动** **Skype 的业务 Server 前端**服务的状态。
+4. 确认**已启动** **Skype For business Server 前端**服务的状态。
     
-## <a name="to-prepare-a-standard-edition-front-end-server"></a>准备 Standard Edition 前端服务器
+## <a name="to-prepare-a-standard-edition-front-end-server"></a>准备标准版前端服务器
 
-1. 上的业务 Server 2019 Standard Edition 前端服务器要重定位中央管理服务器 Skype，登录到计算机的业务 Server 命令行管理程序 Skype **RTCUniversalServerAdmins 成员的安装**组。 
+1. 在要在其中重新定位中央管理服务器的 Skype for Business Server 2019 标准版前端服务器上, 登录到安装了 Skype for business Server Management Shell 的计算机作为 RTCUniversalServerAdmins 的成员。 **** 组。 
     
-2. 打开 Skype 业务 Server 部署向导。
+2. 打开 Skype for Business 服务器部署向导。
     
-3. 在业务 Server 部署向导的 Skype，单击**准备第一个 Standard Edition server**。
+3. 在 "Skype for Business 服务器部署" 向导中, 单击 "**准备第一个标准版服务器**"。
     
-4. 在**正在执行命令**页上 SQL Server Express 安装为中央管理服务器。 创建必要防火墙规则。 完成数据库和必备软件的安装后，单击**完成**。
+4. 在 "**执行命令**" 页面上, 将 SQL Server Express 作为中央管理服务器进行安装。 已创建必要的防火墙规则。 当数据库和必备软件的安装完成后, 单击 "**完成**"。
     
     > [!NOTE]
-    > 在初始安装可能需要一些时间与没有可见的更新对命令输出摘要屏幕。 这是由于安装 SQL Server Express。 如果您需要监视安装数据库，请使用任务管理器监视安装程序。 
+    > 初始安装可能需要一些时间, 但不显示命令输出摘要屏幕的更新。 这是由于 SQL Server Express 的安装所致。 如果需要监视数据库的安装, 请使用 "任务管理器" 监视设置。 
   
-5. 若要业务服务器 2019 Standard Edition 前端服务器，业务 Server Management Shell，Skype Skype 上创建新的中央管理存储键入： 
+5. 若要在 Skype for business Server 2019 标准版前端服务器上创建新的中央管理存储, 请在 Skype for business Server Management Shell 中键入: 
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
-6. 确认**启动** **Skype 的业务 Server 前端**服务的状态。
+6. 确认**已启动** **Skype For business Server 前端**服务的状态。
     
-## <a name="to-move-the-legacy-installs-central-management-server-to-skype-for-business-server-2019"></a>将旧的业务服务器 2019年到 Skype 安装中央管理服务器
+## <a name="to-move-the-legacy-installs-central-management-server-to-skype-for-business-server-2019"></a>将旧式安装中央管理服务器移动到 Skype for business Server 2019
 
-1. 上将中央管理服务器的业务服务器 2019年服务器 Skype，登录到计算机的业务 Server 命令行管理程序 Skype 以**RTCUniversalServerAdmins**组的成员身份的安装。 您还必须具有 SQL Server 数据库管理员的用户权限和权限。 
+1. 在将成为中央管理服务器的 Skype for Business Server 2019 服务器上, 登录到安装了 Skype for business 服务器管理外壳的计算机作为**RTCUniversalServerAdmins**组的成员。 您还必须拥有 SQL Server 数据库管理员用户的权限。 
     
-2. 打开 Skype 业务 Server 命令行管理程序。
+2. 打开 Skype for Business Server 命令行管理程序。
     
-3. 在业务 Server Management Shell 的 Skype，键入： 
+3. 在 Skype for Business 服务器命令行管理程序中, 键入: 
     
    ```
    Enable-CsTopology
    ```
 
     > [!CAUTION]
-    > 如果`Enable-CsTopology`不成功，解决此问题，然后再继续完成阻止此命令。 如果**Enable-cstopology**不成功，移动将失败，它可能导致您的拓扑处于状态没有中央管理存储的位置。 
+    > 如果`Enable-CsTopology`未成功, 请解决阻止命令完成的问题, 然后再继续。 如果**Enable-CsTopology**未成功, 则移动将失败, 并且可能会将拓扑置于没有中央管理存储的状态。 
   
-4. 对于业务 Server 2019 前端服务器或前端池中的业务 Server Management Shell，Skype Skype 上键入： 
+4. 在 skype for business Server 2019 前端服务器或前端池的 Skype for business 服务器管理外壳中, 键入: 
     
    ```
    Move-CsManagementServer
    ```
 
-5. 业务 Server Management Shell 的 Skype 显示服务器、 文件存储、 数据库存储和当前状态和已建议状态的服务连接点。 仔细阅读信息，并确认这是预期的源和目标。 键入**Y**以继续或**N**停止移动。 
+5. Skype for Business 服务器管理外壳显示当前状态和建议状态的服务器、文件存储、数据库存储和服务连接点。 请仔细阅读信息, 确认这是预期的源和目标。 键入**Y**继续, 或按**N**停止移动。 
     
-6. 查看所有警告或错误**Move-csmanagementserver**命令生成并解决这些问题。 
+6. 查看由**CsManagementServer**命令生成并解决的任何警告或错误。 
     
-7. 在业务服务器 2019年服务器 Skype，打开业务 Server 部署向导 Skype。 
+7. 在 Skype for business Server 2019 服务器上, 打开 "Skype for Business 服务器部署" 向导。 
     
-8. Skype 的业务 Server 部署向导，在中，单击**安装或更新 Skype 业务 Server 系统**，单击**步骤 2： 安装或删除业务服务器组件的 Skype**单击**下一步**，查看摘要，然后单击**完成**. 
+8. 在 "Skype for Business 服务器部署向导" 中, 单击 "**安装或更新 skype for Business 服务器系统**", 单击 "**步骤 2: 设置" 或 "删除 Skype for Business 服务器" 组件**, 单击 "**下一步**", 查看摘要, 然后单击 "**完成"**. 
     
-9. 在旧上安装服务器，打开部署向导。 
+9. 在旧版安装服务器上, 打开 "部署向导"。 
     
-10. Skype 的业务 Server 部署向导，在中，单击**安装或更新 Skype 业务 Server 系统**，单击**步骤 2： 安装或删除业务服务器组件的 Skype**单击**下一步**，查看摘要，然后单击**完成**. 
+10. 在 "Skype for Business 服务器部署向导" 中, 单击 "**安装或更新 skype for Business 服务器系统**", 单击 "**步骤 2: 设置" 或 "删除 Skype for Business 服务器" 组件**, 单击 "**下一步**", 查看摘要, 然后单击 "**完成"**. 
     
-11. 重新启动业务服务器 2019年服务器 Skype。 这是所需由于组成员身份更改中央管理服务器数据库的访问。
+11. 重新启动 Skype for Business Server 2019 服务器。 这是必需的, 因为访问中央管理服务器数据库的组成员身份发生更改。
     
-12. 若要确认新的中央管理存储出现，则在进行复制的业务 Server Management Shell，Skype 键入： 
+12. 若要确认与新的中央管理存储进行复制, 请在 Skype for business Server Management Shell 中键入: 
     
     ```
     Get-CsManagementStoreReplicationStatus
     ```
 
     > [!NOTE]
-    > 复制可能需要一些时间来更新当前所有副本。 
+    > 复制可能需要一些时间来更新所有当前副本。 
   
-## <a name="to-remove-legacy-install-central-management-store-files-after-a-move"></a>移动后删除旧安装中央管理存储文件
+## <a name="to-remove-legacy-install-central-management-store-files-after-a-move"></a>移动后删除旧版安装中央管理存储文件
 
-1. 在旧安装服务器上，登录到计算机的业务 Server 命令行管理程序 Skype 以**RTCUniversalServerAdmins**组的成员身份的安装。 您还必须具有 SQL Server 数据库管理员的用户权限和权限。 
+1. 在旧版安装服务器上, 登录到安装了 Skype for Business 服务器管理外壳的计算机作为**RTCUniversalServerAdmins**组的成员。 您还必须拥有 SQL Server 数据库管理员用户的权限。 
     
-2. 打开 Skype 业务 Server 命令行管理程序
+2. 打开 Skype for Business 服务器命令行管理程序
     
     > [!CAUTION]
-    > 请不要继续删除以前的数据库文件之前复制已完成，稳定。 如果删除之前完成复制文件，您将会中断复制过程，并将新移动中央管理服务器保留未知状态。 使用**Get-csmanagementstorereplicationstatus** cmdlet 确认复制状态。 
+    > 在复制完成且稳定之前, 不要继续删除以前的数据库文件。 如果在完成复制之前删除文件, 将中断复制过程, 并使新移动的中央管理服务器处于未知状态。 使用 cmdlet **CsManagementStoreReplicationStatus**确认复制状态。 
   
-3. 若要从旧安装中央管理服务器中删除中央管理存储数据库文件，请键入：
+3. 若要从旧版安装中央管理服务器中删除中央管理存储数据库文件, 请键入:
     
    ```
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
@@ -128,6 +128,6 @@ ms.locfileid: "32231572"
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 
-    其中_\<FQDN SQL Server\>_ 是任一的传统安装在 Enterprise Edition 部署中或 Standard Edition 服务器的 FQDN 的后端服务器。 
+    _ \<SQL Server\>的 FQDN_是企业版部署中的旧安装后端服务器或标准版服务器的 fqdn。 
     
 

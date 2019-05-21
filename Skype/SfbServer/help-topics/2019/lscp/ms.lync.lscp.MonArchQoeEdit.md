@@ -1,10 +1,10 @@
 ---
-title: 质量体验 (QoE) 数据创建新的或编辑现有的
+title: 体验质量 (QoE) 数据新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchQoeEdit
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 727073dc443452453f86b53b4618f770e67976e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 87fc556b03a046f5e7651f7ce4149cc84dc6a602
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891171"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291955"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>用户体验质量 (QoE) 数据：创建新的或编辑现有的
  
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
   
-- [启用业务 Server Skype 中用户体验质量](../../../manage/health-and-monitoring/enable-qoe.md)
+- [在 Skype for Business 服务器中启用体验质量](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [修改业务服务器 Skype 中的用户体验质量设置](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [在 Skype for Business 服务器中修改体验质量设置](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [为 Business Server Skype 创建用户体验质量配置设置](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [在 Skype for Business 服务器中创建体验配置设置的质量](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [删除 Skype 中的企业服务器用户体验质量配置设置](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [在 Skype for Business Server 中删除体验配置设置的质量](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
-description: tblLastInviteId 包含为每个用户生成 （并用于 tblPrincipalInvites 表） 的上一个邀请 ID。
-ms.openlocfilehash: f57ca67a91b71b9245644a53eb3e5c5771ca6fb0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblLastInviteId 包含为每位用户生成 (并在 tblPrincipalInvites 表中使用) 的最后一个邀请 ID。
+ms.openlocfilehash: f36b0824bb8e9dbf2cb0aa14575cc1649bde708a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929901"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295354"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  
-tblLastInviteId 包含为每个用户生成 （并用于 tblPrincipalInvites 表） 的上一个邀请 ID。
+tblLastInviteId 包含为每位用户生成 (并在 tblPrincipalInvites 表中使用) 的最后一个邀请 ID。
   
-**列**
+**多**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，不为 null  <br/> |主体 id。  <br/> |
-|lastInviteID  <br/> |int，不为 null  <br/> |上次使用的邀请 id。  <br/> |
+|prinID  <br/> |int, not null  <br/> |主体 ID。  <br/> |
+|lastInviteID  <br/> |int, not null  <br/> |上次使用的邀请 ID。  <br/> |
    
-**键**
+**标示**
 
 |**列**|**说明**|
 |:-----|:-----|
 |prinID  <br/> |主键。  <br/> |
-|prinID  <br/> |在 tblPrincipal.prinID 表中查找的外键。  <br/> |
+|prinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

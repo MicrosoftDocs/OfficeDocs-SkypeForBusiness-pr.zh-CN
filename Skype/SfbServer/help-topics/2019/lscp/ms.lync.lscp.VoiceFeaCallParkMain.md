@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: 驻留呼叫后，它被传输到临时号码呼叫将保存，直到有人取回它或超时。您需要使用的保留用于寄存呼叫的分机号码范围配置的表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫寄存应用程序的每个池可以有一个或多个区域的扩展名。 这些范围在部署中必须是全局唯一的。
-ms.openlocfilehash: f5ca06e9df54a78294c25557f47b69516f378832
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 当呼叫停止时, 它将被转移到一个临时号码中, 该号码一直保持通话, 直到有人将其检索或超时。您需要使用您为寄存的呼叫保留的分机号码范围配置表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫驻留应用程序的每个池可以有一个或多个扩展区域。 这些范围在部署中必须是全局唯一的。
+ms.openlocfilehash: d325b1dd2066bd35f6dc9003de4c026a7f925a72
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890646"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290134"
 ---
 # <a name="call-park"></a>呼叫寄存
 
-驻留呼叫后，它被传输到临时号码呼叫将保存，直到有人取回它或超时。您需要使用的保留用于寄存呼叫的分机号码范围配置的表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫寄存应用程序的每个池可以有一个或多个区域的扩展名。 这些范围在部署中必须是全局唯一的。
+当呼叫停止时, 它将被转移到一个临时号码中, 该号码一直保持通话, 直到有人将其检索或超时。您需要使用您为寄存的呼叫保留的分机号码范围配置表。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 运行呼叫驻留应用程序的每个池可以有一个或多个扩展区域。 这些范围在部署中必须是全局唯一的。
 
-**呼叫寄存**页上显示的所有呼叫寄存号码范围定义为您的组织的列表。
+"**呼叫驻留**" 页面显示为您的组织定义的所有呼叫寄存号码范围的列表。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -40,22 +40,22 @@ ms.locfileid: "33890646"
 
 下表介绍了该页上的各个命令。
 
-- **新**开始一个新的呼叫寄存号码范围。
+- **新**开始新的通话寄存号码范围。
 
-- **编辑**打开所选的号码范围以进行编辑，在列表中，选择全部号码范围或删除所选的号码范围。
+- **编辑**打开所选的数字范围进行编辑, 选择列表中的所有数字范围, 或删除选定的数字范围。
 
-- **刷新**刷新号码范围的列表。
+- **刷新**刷新数字范围列表。
 
 下表介绍了该页上的各个字段。
 
-- **名称**标识号码范围的唯一名称。
+- **名称**标识数字范围的唯一名称。
 
-- **开始范围**该范围的开始号码。
+- **开始范围**区域的起始编号。
 
-- **结束范围**该范围的结束号码。
+- **结束范围**范围的结束编号。
 
-- **目标**完全限定域名 (FQDN) 或服务 ID 的号码范围的呼叫寄存应用程序承载的应用程序服务。
+- **目标**为数字范围托管呼叫寄存应用程序的应用程序服务的完全限定的域名 (FQDN) 或服务 ID。
 
-有关呼叫寄存特性和功能的详细信息，请参阅[Plan for Business 的 Skype 中的呼叫寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息，请参阅[寄存呼叫配置电话号码的扩展](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
+有关呼叫寄存功能和功能的详细信息, 请参阅[在 Skype For business 中计划通话寄存](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 有关使用呼叫寄存号码范围的详细信息, 请参阅[配置停车通话的电话号码扩展](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。
 
 

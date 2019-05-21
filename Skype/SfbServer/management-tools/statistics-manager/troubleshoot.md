@@ -4,25 +4,25 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 摘要： 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
-ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。'
+ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906681"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299693"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
-**摘要：** 阅读本主题解决 Skype 您部署的统计信息管理器中的业务服务器。
+**摘要:** 阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。
   
-本主题介绍如何通过在应用程序事件日志中，您可能会看到的事件和相应的操作，您可能采取纠正事件描述中解决统计信息管理器部署。 本主题包含以下部分：
+本主题介绍了如何通过描述你在应用程序事件日志中可能会看到的事件以及你可能采取的相应操作来解决你的统计信息管理器部署。 本主题包含以下部分：
   
 - [代理事件](troubleshoot.md#BKMK_Agent)
     
@@ -35,7 +35,7 @@ ms.locfileid: "33906681"
 
 - **1000** - 无法设置处理器限制器（作业对象） - 未知原因
     
-- **1001** — 过程限制不允许的进程 (可能已在作业对象)
+- **1001** -流程不允许进程限制 (可能已在作业对象内)
     
     代理在 Windows 作业对象内以运行以自动限制其内存使用量。 如果代理无法启动，并且这些事件条目在事件日志中存在，则作业对象无法在在服务器上实例化。 要解决此问题，可以通过更改配置文件中的值来取消内存上限：
     
@@ -43,14 +43,14 @@ ms.locfileid: "33906681"
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    搜索"MaxProcessMemoryMB"，并将值更改为"0"，如下所示：
+    搜索 "MaxProcessMemoryMB" 并将值更改为 "0", 如下所示:
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > 如果进行此更改，代理通常仍将使用\<100 MB 的内存，但是它不会关闭限于 300 MB 原样默认值。 如果进行更改后，我们建议密切监视内存使用情况，以确保代理不会占用大量内存其主机计算机上。 
+    > 如果进行此更改, 则该代理通常仍会占用\< 100 mb 的内存, 但它不会被强制限制为 300 mb (默认值)。 如果进行此更改, 我们建议密切监视内存使用情况, 以确保代理在其主机上不占用大量内存。 
   
 - **2000** - 客户端初始化失败
     
@@ -60,17 +60,17 @@ ms.locfileid: "33906681"
     
 1. 确保侦听器服务正在侦听器计算机上运行。 否则，请确保 Redis 正在服务器上运行，然后重新启动侦听器服务。
     
-    检查以确保不存在与统计信息管理器侦听器服务本身问题的侦听器计算机上的统计信息管理器事件日志。
+    检查侦听器计算机上的统计信息管理器事件日志, 以确保统计信息管理器服务本身没有问题。
     
 2. 使用连接工具（例如 telnet）验证正确端口上从代理计算机到侦听器的连接。
     
-    否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果侦听器计算机未加入到域中，可能为公共列出网络并在此情况下使用统计信息管理器安装的防火墙规则不会应用默认情况下。
+    否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果监听器计算机未加入域, 则网络可能被列为 public, 并且在这种情况下, 使用 "统计信息管理器" 安装的防火墙规则默认情况下不会应用。
     
 - **4000** - 无法从侦听器下载服务器信息（未知原因）
     
   - **4001** - 在侦听器拓扑未找到服务器
     
-    如果服务器成功连接到该侦听器，但服务器未添加到的侦听器缓存中的拓扑，则会发生此错误。 解决办法选项：
+    如果服务器成功连接到侦听器, 但未将服务器添加到侦听器缓存中的拓扑中, 将发生此错误。 解决办法选项：
     
   - 	确保遵循导入拓扑的说明。请参阅[导入拓扑](deploy.md#BKMK_ImportTopology)。   
     
@@ -90,7 +90,7 @@ ms.locfileid: "33906681"
     
   - 如果连接使用代理，请检查代理配置。
     
-  - 检查其配置问题的侦听器计算机 StatsMan 日志。
+  - 检查监听器计算机的 StatsMan 日志中是否存在其配置问题。
     
   - **4005** - 无法将 XML 反序列化
     
@@ -141,7 +141,7 @@ ms.locfileid: "33906681"
     
     侦听器每次启动时记录。
     
-- **22000** — 初始化的统计信息管理器代理成功。
+- **22000** -统计信息管理器代理的初始化已成功。
     
 - **23000** - EventLogQueryManager 的初始化成功（首次或失败之后）
     
@@ -158,7 +158,7 @@ ms.locfileid: "33906681"
 ## <a name="website-issues"></a>网站问题
 <a name="BKMK_Website"> </a>
 
-- 重复性的登录提示在部件版式-这是 1.1 版中已解决错误。 确保您已升级到最新版本的统计信息管理器中，如果您看到的 Chrome 浏览器中的重复的登录提示。 要验证你正在运行的网站的版本，请执行以下操作：
+- Chrome 中的重复登录提示-这是已在版本1.1 中解决的 bug。 如果在 Chrome 浏览器中看到重复的登录提示, 请确保已升级到最新版本的统计信息管理器。 要验证你正在运行的网站的版本，请执行以下操作：
     
   - 	在文件资源管理器中，打开默认目录
     

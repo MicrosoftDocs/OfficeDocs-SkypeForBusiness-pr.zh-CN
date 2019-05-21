@@ -1,34 +1,34 @@
 ---
-title: 规划 Business Server Skype 中监控
+title: 在 Skype for Business 服务器中规划监视
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
-description: 摘要： 规划业务服务器中 Skype 的监控服务时查看以下主题。
-ms.openlocfilehash: f3d8fc44d8e6a78e19e0bf464a14e1dad612a272
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 在规划 Skype for Business 服务器中的监视服务时查看本主题。'
+ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929166"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297279"
 ---
-# <a name="plan-for-monitoring-in-skype-for-business-server"></a>规划 Business Server Skype 中监控
+# <a name="plan-for-monitoring-in-skype-for-business-server"></a>在 Skype for Business 服务器中规划监视
 
-**摘要：** Skype 中的监控服务规划业务 Server 时查看以下主题。
+**摘要:** 在规划 Skype for Business 服务器中的监视服务时查看此主题。
 
-业务服务器 Skype 的监控服务提供了一种管理员能够为其组织，使他们可以确定趋势和问题中发生的通信会话收集使用率和质量数据的方法。 正在进行监控您的部署，可以早期捕获问题并保留满足组织的用户。
+"Skype for Business" 服务器中的 "监视服务" 为管理员收集组织中发生的通信会话的使用情况和质量数据提供了一种方式, 从而使其能够识别趋势和问题。 持续监视你的部署使你能够尽早发现问题, 并让你的组织的用户满意。
 
-监控 Skype 中的业务服务器不需要单独的服务器角色 （如已在早期版本中 Lync 这种情况）;监视服务而内置每台前端服务器。 监控未启用 Skype 中默认情况下业务服务器。 本文将帮助您确定是否启用监控期间或之后的业务服务器配置中，您初始 Skype 以及您将需要哪些 SQL 资源支持监控活动。 如果你不是很确定哪些内容被监控或哪些内容不被监控，以及监控有什么帮助，请参阅[监控基础知识](monitoring.md#Basics)。 要开始执行规划过程，请参阅[定义监控需求](monitoring.md#requirements)。 有关监控的 SQL 要求的详细信息，请参阅[监控的 SQL 要求](monitoring.md#topologies)。
+Skype for business 服务器中的监视不需要单独的服务器角色 (与早期 Lync 版本中的情况相同);而是将监视服务内置于每个前端服务器。 默认情况下, Skype for Business 服务器中不启用监视。 本文将帮助你确定在初始 Skype for Business 服务器配置期间还是之后启用监视, 以及需要哪些 SQL 资源支持监视活动。 如果你不是很确定哪些内容被监控或哪些内容不被监控，以及监控有什么帮助，请参阅[监控基础知识](monitoring.md#Basics)。 要开始执行规划过程，请参阅[定义监控需求](monitoring.md#requirements)。 有关监控的 SQL 要求的详细信息，请参阅[监控的 SQL 要求](monitoring.md#topologies)。
 
 ## <a name="basics-about-monitoring"></a>监控基础知识
 <a name="Basics"> </a>
 
-会话是与答： 用户的连接的通用术语
+会话是用户与 a 的连接的一般术语:
 
 - 会议
 
@@ -37,23 +37,23 @@ ms.locfileid: "33929166"
 - 通过点对点对话（如即时消息或音频呼叫）的其他用户
 
 > [!NOTE]
-> Skype 业务 server 跟踪的有关每个会话的信息： 谁; 调用者会话; 中使用的终结点长会话上次;会话; 检测的质量是什么等等。 Skype 业务服务器不记录并存储实际调用本身。 包含即时消息会话： 虽然 Skype 业务服务器记录有关即时消息会话的信息，但它不保持的每条即时消息会话期间发送的记录。
+> Skype for Business 服务器跟踪有关每个会话的信息: 谁称为谁;会话中使用了哪些终结点;该会话持续多长时间;会话的感知质量是多少;依此类推。 Skype for business 服务器不会记录和存储实际呼叫本身。 包括即时消息会话: 虽然 Skype for Business 服务器记录有关即时消息会话的信息, 但它不保留会话期间发送的每条即时消息的记录。
 
-可用于收集的业务服务器 Skype 的每个会话的基本呼叫详细信息：
+Skype for Business Server 为每个会话收集的基本呼叫详细信息可用于:
 
-- **投资回报率 (ROI)** 分析。 管理员可以比较到为其以前的电话系统，以显示成本节约和帮助 justify Business Server 部署的 Skype 收集的类似数据的使用率数据。
+- **投资回报率 (ROI)** 分析。 管理员可以将使用数据与为其以前的电话系统收集的类似数据进行比较, 以便显示成本节约并帮助论证 Skype for business 服务器的部署。
 
 - **设备库存管理**。资产管理信息可帮助管理员识别需要更换但仍在使用的旧设备，以及未使用或未充分利用的昂贵设备。
 
-- **技术支持**。 疑难解答数据帮助的支持工程师确定原因用户的呼叫失败，而无需收集服务器或客户端日志。 此信息可以轻松访问，发起人没有业务客户端 Skype 和 Skype 业务服务器的深入的技术知识的技术支持人员。
+- **技术支持**。 数据故障排除有助于支持工程师确定用户调用失败的原因, 而无需收集服务器或客户端日志。 对于不具备 Skype for business 客户端和 Skype for business 服务器的深厚技术知识的支持人员, 可随时访问和理解此信息。
 
 - **系统故障排除**。使管理员能够检测可能阻止最终用户执行基本任务（如加入会议、建立呼叫或发送即时消息）的重大问题。
 
-监控还提供了一种机制，允许 （如 for Business 的 Skype) 的 SIP 终结点提供管理员本来无法访问的疑难解答信息：
+监视还提供允许 SIP 终结点 (如 Skype for Business) 提供管理员无权访问的故障排除信息的机制:
 
 - **影响质量的媒体指标**。这些指标处理呼叫本身的实际传输；它们提供了关于呼叫在网络中的传输过程的旅行日志。这些指标（包括数据包丢失、抖动和来回行程时间）提供了呼叫从离开某个人的终结点到呼叫到达其他人员的终结点期间所经历事情的相关信息。
 
-- **报告给最终用户的问题**。 这些指标包括质量不佳通知 Skype，来说太小都会的业务提供给最终用户在何处的麦克风太远的情况下有一个较差的网络连接，或遇到质量不佳，因为另一个程序上计算机正在使用的可用资源。
+- **报告给最终用户的问题**。 这些指标包括在以下情况下, Skype for Business 向最终用户提供的信号质量较差: 在以下情况下, Skype for Business 会向最终用户提供太远的通知: 声音太远、网络连接较差或质量较差, 因为另一个程序在计算机占用可用资源。
 
 - **环境信息**。这些指标详细说明了呼叫质量因素，如所使用的麦克风和扬声器的类型、用户是否通过 VPN 连接进行连接以及用户是否使用无线连接。
 
@@ -62,23 +62,23 @@ ms.locfileid: "33929166"
 ## <a name="define-your-requirements-for-monitoring"></a>定义监控要求
 <a name="requirements"> </a>
 
-还有其他开始安装并配置监控 Skype 业务 server 之前应解决的几个关键问题：
+在开始通过 Skype for Business 服务器安装和配置监视之前, 还应解决几个关键问题:
 
- **想要何时安装监控？** 监控可安装和配置在同一时间安装和配置 Business Server; SkypeSkype 的业务 Server 部署向导将为您提供安装过程中将前端池与监控数据库相关联的机会。 或者，您可以安装监控后业务服务器自身的 Skype 已经安装;这可以通过使用拓扑生成器以将您的前端池和服务器与监控数据库相关联，然后发布修订后的拓扑。
+ **想要何时安装监控？** 可以在安装和配置 Skype for business 服务器的同时安装和配置监视;Skype for Business 服务器部署向导将向你提供在安装期间将前端池与监视数据库相关联的机会。 或者, 您也可以在安装 Skype for Business 服务器后安装监视;可通过使用拓扑生成器将前端池和服务器与监视数据库相关联, 然后发布已修改的拓扑来执行此操作。
 
-请记住，必须先安装并配置 SQL Server，然后再部署和配置监控。 但是，只需部署 SQL Server 重试。当您发布您的企业服务器拓扑的 Skype，将为您创建的监控数据库。
+请记住，必须先安装并配置 SQL Server，然后再部署和配置监控。 但是, 你只需部署 SQL Server 本身;当你发布 Skype for Business Server 拓扑时, 将为你创建监视数据库。
 
- **要监视的数据类型？** Skype 业务服务器可以监视两种常规类型的数据： 呼叫详细记录 (CDR) 数据和用户体验质量 (QoE) 数据。 呼叫详细信息记录提供了一种方法，以跟踪 Skype IP (电话 VoIP) 电话呼叫; 例如语音的业务 Server 功能的用法即时消息 (IM);文件传输;音频/视频 (A / V) 会议;和应用程序共享会话。 此信息帮助您了解哪些 Skype 的使用 Business Server 功能的 （和与不），还提供了有关何时使用这些功能的信息。 体验质量数据使您可以保持在您的组织，包括网络数据包丢失数量等中所做的音频和视频呼叫质量的记录，背景噪音和量"抖动"（差异数据包延迟）。
+ **您想要监视何种类型的数据？** Skype for Business 服务器使你能够监视两种常规类型的数据: 调用详细记录 (CDR) 数据和体验质量 (QoE) 数据。 呼叫详细记录提供了一种跟踪 Skype for Business 服务器功能 (如 IP 语音电话 (VoIP) 电话呼叫) 的使用方式的方法。即时消息 (IM);文件传输;音频/视频 (A/V) 会议;和应用程序共享会话。 此信息可帮助你了解使用的是哪些 Skype for business 服务器功能 (以及哪些功能不是), 还会提供有关何时使用这些功能的信息。 体验数据质量允许您维护组织中发出的音频和视频通话质量的记录, 包括网络数据包丢失、背景噪音和 "抖动" (数据包延迟的差异) 的数量。
 
-如果选择启用 Skype 中监视的业务服务器可以启用监控的 CDR 和 QoE 监控服务器或您可以选择启用一种类型的同时保持其他类型禁用监控。 例如，假设用户仅使用即时消息和文件传输，不进行音频或视频呼叫。 在这种情况下，可能没有理由启用 QoE 监控。 同样，业务服务器 Skype 容易地启用和禁用监控监控部署后。 例如，您可能选择部署监控但最初禁用 QoE 监控。 如果用户开始遇到音频或视频呼叫问题，您可以启用 QoE 监控并使用该数据帮助排查和解决这些问题
+如果你选择在 Skype for Business 服务器中启用监视, 你可以同时启用 CDR 监视和 QoE 监视, 或者你可以选择启用一种类型的监视, 同时禁用另一种类型。 例如，假设用户仅使用即时消息和文件传输，不进行音频或视频呼叫。 在这种情况下，可能没有理由启用 QoE 监控。 同样, Skype for business 服务器使您能够轻松地在部署监视后启用和禁用监控。 例如，您可能选择部署监控但最初禁用 QoE 监控。 如果用户开始遇到音频或视频呼叫问题，您可以启用 QoE 监控并使用该数据帮助排查和解决这些问题
 
-没有安装在同一时间与安装监控 Skype 业务服务器的安装后的业务服务器上安装 Skype 监视特定的优势 （或缺点）。 需要谨记的一点是，在安装监控之前，必须选择一台计算机来承载后端监控存储，并且必须在该计算机上安装和配置支持的 SQL Server 版本，之后才能将该计算机用于监控。 如果您已在计算机上安装 SQL Server，可以使用该计算机您可以安装监控业务服务器安装 Skype 的同时。 如果您没有准备后端计算机您可以继续安装 Skype for Business 服务器本身，然后安装监控后端计算机时可供使用。
+安装 skype for business Server 和安装 Skype for business 服务器后安装监视功能时, 没有特殊的优势 (或缺点)。 需要谨记的一点是，在安装监控之前，必须选择一台计算机来承载后端监控存储，并且必须在该计算机上安装和配置支持的 SQL Server 版本，之后才能将该计算机用于监控。 如果你已在计算机上安装了 SQL Server, 并且该计算机已准备好使用, 则可以在安装 Skype for Business 服务器时安装监视。 如果你没有后端计算机准备就绪, 你可以继续安装 Skype for business 服务器, 然后在后端计算机准备好使用时安装监视。
 
- **需要多少个后端监控数据库？** 它估计监控和存档并置的数据库无法对企业服务器用户支持 240,000 Skype）。 此外，一个监控数据库可以被多个前端池使用；如果组织中有三个前端池，则可以将全部三个池与同一后端存储关联。
+ **需要多少个后端监控数据库？** 预计监视和存档的 collocated 数据库可能支持 240000 Skype for Business Server 用户)。 此外，一个监控数据库可以被多个前端池使用；如果组织中有三个前端池，则可以将全部三个池与同一后端存储关联。
 
 对于许多组织来说，数据库容量并不是确定所需后端监控数据库数量的决定因素。相反，网络速度可能是更重要的考虑事项。假设你有三个前端池，但其中一个池位于慢速网络连接。在这种情况下，你可能想要使用两个监控数据库：一个数据库为网络连接良好的两个池提供服务，另一个数据库为网络连接较慢的池提供服务。
 
-您还应考虑到 Skype 业务服务器支持镜像数据库使用的帐户。 “数据库镜像”提供了同时维护两个数据库副本，且每个数据库位于不同服务器上的方式。 每当将数据写入主数据库时，相同的数据也会写入镜像数据库。 如果主数据库应失败或否则变得不可用，您可以"故障转移"到镜像数据库使用简单 Skype 业务 Server PowerShell 命令。 例如：
+您还应考虑 Skype for Business 服务器是否支持使用镜像数据库。 “数据库镜像”提供了同时维护两个数据库副本，且每个数据库位于不同服务器上的方式。 每当将数据写入主数据库时，相同的数据也会写入镜像数据库。 如果主数据库出现故障或以其他方式变为不可用, 则可以通过使用简单的 Skype for Business 服务器 PowerShell 命令, 将故障转移到镜像数据库。 例如：
 
 ```
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
@@ -86,20 +86,20 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 这对于规划来说很重要，仅仅因为镜像需要将所需数据库数量翻倍：除了各个主数据库，还需要第二个数据库作为镜像。
 
- **您的业务 Server 网站的 Skype 需要其自己的自定义监控配置吗？** 为业务服务器安装 Skype 时还要安装 CDR 和 QoE 配置设置; 的全局集合这些全局集合为您提供了适用于整个组织的相同的 CDR 和 QoE 设置的功能。 In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
+ **您的 Skype for Business 服务器网站是否需要自己的自定义监视配置？** 安装 Skype for Business 服务器时, 还会安装 CDR 和 QoE 配置设置的全局集合;这些全局集合让你能够将相同的 CDR 和 QoE 设置应用到整个组织。 In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
-但是，也可能存在希望应用到不同的网站的不同设置的时间。 例如，可能是您想要使用 CDR 和 QoE 监控在雷德蒙德网站中，但只能使用 CDR 监控都柏林网站中。 同样，您可能想要在 Redmond 站点中 60 天保留监视数据但只需维护 30 天都柏林网站中的此类型的数据。 Skype 业务服务器允许您在站点范围; 创建单独的 CDR 和 QoE 配置设置集合使您能够以不同的方式管理每个网站。 （这包括两个启用和禁用监控以及配置管理设置，如长数据是保留）。
+但是, 有时也可能需要对不同的网站应用不同的设置。 例如, 您可能希望在 Redmond 网站中同时使用 CDR 和 QoE 监视, 但仅在都柏林网站中使用 CDR 监控。 同样, 您可能想要在雷德蒙站点中保留60天的监视数据, 但只需要在都柏林网站中保留此类型的数据30天。 Skype for Business 服务器允许你在网站范围内创建单独的 CDR 和 QoE 配置设置集合;这使你能够以不同的方式管理每个网站。 (这包括启用和禁用监视功能, 以及配置管理设置, 例如保留数据的时间。)
 
 请注意，您既可以在部署监控前也可以在部署监控后做出此决定。例如，您可以先部署监控，然后使用全局设置管理整个组织。如果以后改变主意，例如可以为 Redmond 站点创建单独的设置集合，然后使用这些设置管理 Redmond 的监控。（在站点作用域内应用的设置始终优先于在全局作用域内应用的设置。）如果您再次改变主意，只需删除应用于 Redmond 站点的配置设置。删除站点设置集合后，全局设置集合将自动应用于该站点。
 
 ## <a name="sql-requirements-for-monitoring"></a>监控的 SQL 要求
 <a name="topologies"> </a>
 
-当你启用监控时，会自动在每个前端服务器上安装并激活统一数据收集代理。 有关受支持版本的 SQL Server 和其他详细信息，请参阅[业务服务器 2015年的 Skype 服务器要求](requirements-for-your-environment/server-requirements.md)
+当你启用监控时，会自动在每个前端服务器上安装并激活统一数据收集代理。 有关支持的 SQL Server 版本和其他详细信息, 请参阅[Skype for Business server 2015 的服务器要求](requirements-for-your-environment/server-requirements.md)
 
 监控数据可以与其他类型的数据共享 SQL Server 实例。通常，呼叫详细信息记录数据库 (LcsCdr) 和体验质量数据库 (QoEMetrics) 共享相同的 SQL 实例；这两个监控数据库与存档数据库 (LcsLog) 位于相同的 SQL 实例中也是很常见的。对 SQL Server 实例的唯一真正要求是，SQL Server 的任何一个实例仅限于以下各项：
 
-- 业务服务器 2015年后端数据库的 Skype 的一个实例。 （一般而言，建议不要在同一个 SQL 实例，或甚至在同一计算机上，为后端数据库并置监控数据库。 虽然技术上有可能，则运行设置所需的后端数据库的磁盘空间使用的监控数据库的风险。）
+- Skype for Business Server 2015 后端数据库的一个实例。 (作为一般规则, 建议不要将监视数据库 collocated 在同一 SQL 实例中, 甚至可以在同一台计算机上, 而不是后端数据库。 尽管技术上可以使用后端数据库所需的磁盘空间来运行监视数据库的风险。)
 
 - 呼叫详细信息记录数据库的一个实例。
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeAddPicPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
-description: Web 会议的外部 FQDN 允许外部用户可以加入内部会议。 输入旧边缘服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
-ms.openlocfilehash: 3e426af0b08660eaef619d4fd9cec9da2ca11b32
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Web 会议外部 FQDN 允许外部用户加入本地会议。 输入旧版 Edge 服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
+ms.openlocfilehash: 96b69e53b0f7538412c6bad7cebbf8e964607b48
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919750"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300152"
 ---
 # <a name="legacy-merge"></a>旧版合并
 
-**Web 会议的外部 FQDN**允许外部用户可以加入内部会议。 输入旧边缘服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
+**Web 会议外部 FQDN**允许外部用户加入本地会议。 输入旧版 Edge 服务器的 web 会议外部接口的完全限定的域名 (FQDN)。
 
-**外部 Web 会议的外部端口** **443**的值是为会议客户端配置的默认传输控制协议 (TCP) 会话初始协议 (SIP) 端口。 如果不使用默认值，更新**外部 Web 会议的外部端口**值。
+**443**的**外部 Web 会议外部端口**值是为会议客户端配置的默认传输控制协议 (TCP) 会话初始协议 (SIP) 端口。 如果未使用默认值, 请更新 "**外部 Web 会议外部端口**" 值。
 
-如果您打算对联盟使用此边缘服务器，请选择**此边缘池用于联盟和公共 IM 连接**复选框。 如果您有多台边缘服务器部署，其中的一个仅将启用联盟。 如果不选中此框，并且您以后决定要启用联盟，您必须再次运行拓扑生成器合并向导，以及发布拓扑。 有关详细信息，请参阅[第 4 阶段： 合并拓扑](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx)。
+如果计划将此 edge 服务器用于联盟, 请选中 "**此边缘池用于联盟和公用 IM 连接**" 复选框。 如果您部署了多个边缘服务器, 则仅为联盟启用其中一个。 如果未选中此框, 并且你稍后决定要启用联盟, 则必须再次运行拓扑生成器合并向导, 并发布拓扑。 有关详细信息, 请参阅[第4阶段: 合并拓扑](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx)。
 
 

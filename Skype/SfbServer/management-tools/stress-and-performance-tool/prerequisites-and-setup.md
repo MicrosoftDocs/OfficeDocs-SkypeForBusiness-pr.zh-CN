@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 Stress and Performance Tool 的要求或先决条件。 如何安装或设置 Stress and Performance Tool。
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906583"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299728"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Skype for Business Stress and Performance Tool 的先决条件和设置
  
@@ -55,11 +55,11 @@ Stress and Performance Tool 支持的操作系统有：
     
 此外，计算机还需满足以下软件要求：
   
-- 需要安装 Microsoft .NET 4.5 Framework。 [下载.Net 4.5 此处框架。](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- 需要安装 Microsoft .NET 4.5 Framework。 [在此处下载 .Net 4.5 框架。](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - 需要在 Windows 中启用桌面体验功能。
     
-- 需要安装 Microsoft Visual C++ 2013 (x64)。 [从此处下载 Visual c + + 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- 需要安装 Microsoft Visual C++ 2013 (x64)。 [在此处下载 Visual c + + 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
     
 - 需要成功部署 Skype for Business Server 2015。
     
@@ -81,6 +81,6 @@ Stress and Performance Tool 支持的操作系统有：
 
 安装非常简单。 你需要在要用来模拟用户流量的每台客户端计算机上以及要创建用户和联系人的每个池中的前端服务器上运行 Windows 安装程序文件 **CapacityPlanningTool.msi**。
   
-若要下载.msi，以及我们其他文章中提到的示例脚本转到中心的下载链接： [Skype 业务服务器 2015年、 压力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+若要下载 .msi, 以及其他文章中提及的示例脚本, 请转到下载中心链接: Skype for business [Server 2015、应力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
   
 

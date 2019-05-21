@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca00db8882837bc748dee89a100b2e7d9dd2d04f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227871"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297968"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -35,29 +35,29 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-您有两种方法来获取服务号码，以便您可以使用它们与 Skype 的业务和 Microsoft 团队：
+你可以通过两种方式获取服务号码, 以便你可以将它们与 Skype for Business 和 Microsoft 团队一起使用:
   
 - 从 Office 365 获取新号码。
     
-- 端口或将您的现有号码从您的服务提供商或电话运营商转移到 Office 365。
+- 将您的服务提供商或电话运营商中的现有号码移植或转移到 Office 365。
     
     > [!NOTE]
-    > 当您传输服务号码时，强烈建议您联系[Microsoft 支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)以确保较高的并发呼叫容量是视为并正确配置。
+    > 当您转移您的服务号码时, 强烈建议您联系[Microsoft 支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)部门以确保更高的并行通话容量被视为和配置正确。
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**管理中心** > **团队和 Skype** > **Skype 旧管理员**。
+2. 转到**管理中心** > **团队和 skype** > **旧管理员**。
     
-3. 在左侧导航窗格中转到**语音** > **电话号码** > **添加新号码**，然后单击**新服务号码**。
+3. 在左侧导航中, 转到 "**语音** > **电话号码** > " 以**添加新号码**, 然后单击 "**新的服务号码**"。
     
     > [!IMPORTANT] 
-    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+    > 要在 Skype for Business 管理中心的左侧导航中看到 "**语音**" 选项, 您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
     
-4. 在**添加新的服务号码**页上，选择以下选项：
+4. 在 "**添加新的服务号码**" 页面上, 选择以下内容:
     
    - **国家/地区**
     
@@ -72,7 +72,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
   
 6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
     
-7. 选择您希望的电话号码，然后单击**获取号码**。
+7. 选择所需的电话号码, 然后单击 "**获取号码**"。
     
 ### <a name="assign-service-numbers"></a>分配服务号码
 
@@ -83,7 +83,7 @@ Once you have your service numbers, they can then be assigned to an audio confer
 If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
-> 如果您需要获取比这的多个电话号码，请[与业务产品的管理员技术支持部门联系](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+> 如果您需要获得比这更多的电话号码, 请[联系企业产品支持-管理员帮助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
 ## <a name="related-topics"></a>相关主题
 [以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

@@ -1,10 +1,10 @@
 ---
-title: 验证 Skype for Business 中的呼叫寄存的规范化规则
+title: 在 Skype for Business 中验证呼叫寄存的规范化规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-description: 了解有关在 Skype 的呼叫寄存的规范化规则的业务 Server 企业语音。
-ms.openlocfilehash: 6f27daca3ef3f1bcdc4c70f04b92ccaa29a569a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解 Skype for business Server Enterprise Voice 中的呼叫寄存的规范化规则。
+ms.openlocfilehash: 36e9a91ff1269caffb8eab5be9a2c681d3244b31
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300935"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>验证 Skype for Business 中的呼叫寄存的规范化规则
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>在 Skype for Business 中验证呼叫寄存的规范化规则
  
-了解有关在 Skype 的呼叫寄存的规范化规则的业务 Server 企业语音。
+了解 Skype for business Server Enterprise Voice 中的呼叫寄存的规范化规则。
   
-呼叫寄存轨道必须未标准化。 检查拨号计划以确保未对通道号码进行规范化。 如果您必须创建要进行规范化阻止您轨道其他规范化规则，请按照中的过程[创建或修改拨号计划中 Skype Business Server](dial-plans.md)因此定义新的规范化规则，该**模式与之匹配**标识的通道范围和**转换模式**是 **$1**。 例如，如果您呼叫寄存通道范围为 7000 7999**模式与之匹配**将 **^(7\d{3})$** **转换模式**， **$1**。
+调用寄存轨道式不得正常化。 检查拨号计划以确保未对通道号码进行规范化。 如果必须创建另一个规范化规则来防止你的轨道式被正常化, 请按照在[Skype For Business 服务器中创建或修改拨号计划中](dial-plans.md)的过程定义新的规范化规则, 以便**匹配模式**标识 "轨道" 区域和**翻译模式**为 **$1**。 例如, 如果您的呼叫公园的 "轨道" 范围为 7000-7999, 则**要匹配的模式**为 **^{3}(7 \ d) $** 和**转换模式**为 **$1**。
   
 > [!IMPORTANT]
-> 确保拨号计划中的默认规范化规则不包含 **^(\d\*)**。 否则，您呼叫寄存的规范化规则不会运行。
+> 请确保你的拨号计划中的默认规范化规则不包含 **^ (\d\*)**。 否则, 您的通话寄存规范化规则将永远不会运行。
   
 ## <a name="see-also"></a>另请参阅
 
-[创建或修改拨号计划中 Skype 业务服务器](dial-plans.md)
+[在 Skype for Business 服务器中创建或修改拨号计划](dial-plans.md)
 

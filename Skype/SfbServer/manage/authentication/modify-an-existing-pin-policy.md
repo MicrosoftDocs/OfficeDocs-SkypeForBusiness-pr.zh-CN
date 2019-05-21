@@ -1,36 +1,36 @@
 ---
-title: 修改业务服务器 Skype 中现有的 PIN 策略
+title: 在 Skype for Business 服务器中修改现有的 PIN 策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 摘要： 修改业务服务器 Skype 中现有的 PIN 策略。
-ms.openlocfilehash: cc0ccc846e357ab85c7f2c00ae493e8b6ba8f456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 在 Skype for Business 服务器中修改现有的 PIN 策略。'
+ms.openlocfilehash: 9aecd7fc48ce2893e1d8e603f7cdc369cde11ec3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919687"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289827"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>修改业务服务器 Skype 中现有的 PIN 策略
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>在 Skype for Business 服务器中修改现有的 PIN 策略
  
-**摘要：** 修改业务服务器 Skype 中现有的 PIN 策略。
+**摘要:** 在 Skype for Business 服务器中修改现有的 PIN 策略。
   
-**PIN 策略**选项卡可用于连接到业务与 IP 电话的 Skype 为用户提供个人识别号 (PIN) 身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。
+你可以使用 "**固定策略**" 选项卡为使用 IP 电话连接到 Skype for business 的用户提供个人识别码 (PIN) 身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。
   
 按照以下步骤修改用户级别或站点级别的 PIN 策略。 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>修改现有的 PIN 策略
 
-1.  从用户帐户是 RTCUniversalServerAdmins 组的成员 （或具有同等用户权限），或分配给 CsServerAdministrator 或 CsAdministrator 角色，登录到在其中在部署 Skype Business Server 网络中的任一计算机.
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“安全性”****，然后单击“PIN 策略”****。
     

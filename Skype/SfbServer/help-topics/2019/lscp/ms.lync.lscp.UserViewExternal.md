@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewExternal
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 65247a09fe1e13ef38a9101cb4ac6ad013c675b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e3f79192bdb8d91f2103297ed2cfbccd1ca8e810
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890744"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292401"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>用户：查看或配置外部访问策略
 

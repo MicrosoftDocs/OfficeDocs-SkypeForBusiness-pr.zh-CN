@@ -1,5 +1,5 @@
 ---
-title: 我帐单的电话号码是什么？
+title: 我的付费电话号码是什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: 了解您 Skype for Business 帐单电话号码是什么，以及在哪里获取有关如何迁移循序渐进说明。
-ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解 Skype for business 帐单电话号码是什么, 以及在哪里可以获取有关如何转移号码的分步说明。
+ms.openlocfilehash: 1cb6bcca487f1b6b39dd4c2a7a22d7cd76acc891
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229612"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290779"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>我帐单的电话号码是什么？
+# <a name="what-is-my-billing-telephone-number"></a>我的付费电话号码是什么？
 
-帐单电话号码 （按钮） 服务提供商或运营商收取并账单上包含的主电话号码。 如果您从具有只有一个电话号码的帐户来转接电话号码，您需要置于此电话号码。 如果有多个帐户，您将转接电话号码，可以查看您 bill 或与您的服务提供商或运营商，以确定帐单的电话号码为您的帐户。
+帐单电话号码 (BTN) 是您的帐单上包含的主要电话号码, 由您的服务提供商或运营商支付。 如果您从仅有一个电话号码的帐户转移电话号码, 则您需要将此电话号码放入。 如果您要从具有多个帐户的帐户转移电话号码, 您可以查看帐单或联系您的服务提供商或运营商以确定您的帐户的帐单电话号码。
   
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+ **有关完整的分步说明, 请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

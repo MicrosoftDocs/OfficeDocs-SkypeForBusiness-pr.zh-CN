@@ -1,10 +1,10 @@
 ---
-title: 存档配置创建新的或编辑现有的
+title: 存档配置新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchSettingEdit
@@ -13,38 +13,38 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置可控制用于部署的存档选项。存档配置包括全局配置以及可选的一个或多个站点和池配置：
-ms.openlocfilehash: 0e6985fa40c82b1b958df99c332cb4ec5fe23b07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891115"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291976"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>存档配置：创建新的或编辑现有的
  
 使用存档配置可控制用于部署的存档选项。存档配置包括全局配置以及可选的一个或多个站点和池配置：
   
-- **全局配置**默认情况下创建的全局配置。 您可以编辑全局配置，但无法删除此存档配置。 如果您尝试将其删除，则所有选项将重置为默认值。
+- **全局配置**默认情况下会创建全局配置。 您可以编辑全局配置，但无法删除此存档配置。 如果您尝试将其删除，则所有选项将重置为默认值。
     
-- **网站配置 （可选）** 您可以指定一个或多个站点存档配置，其中每个您可以配置为特定站点的存档选项的控件。 站点配置会覆盖全局配置，但仅限于在存档站点配置中指定的站点。 可以编辑或删除站点配置。
+- **网站配置 (可选)** 你可以指定一个或多个网站存档配置, 每个配置都可以配置用于控制特定网站的存档选项。 站点配置会覆盖全局配置，但仅限于在存档站点配置中指定的站点。 可以编辑或删除站点配置。
     
-- **池配置 （可选）** 您可以指定一个或多个池存档配置，来控制特定池的存档选项。 池配置会覆盖全局配置和站点配置，但仅限于在存档池配置中指定的池。 可以编辑或删除池配置。
+- **池配置 (可选)** 你可以指定一个或多个池存档配置, 以控制特定池的存档选项。 池配置会覆盖全局配置和站点配置，但仅限于在存档池配置中指定的池。 可以编辑或删除池配置。
     
 > [!NOTE]
-> 存档配置适用于用户的企业服务器驻留在 Skype 上，如果您启用 Microsoft Exchange 集成选项以使用 Exchange 存储中的存档数据 Microsoft Exchange、 用户驻留在 Exchange。 但是，某些选项实现略有不同的用户驻留在 Exchange 上一节中所述。 
+> 存档配置适用于驻留在 Skype for business Server 上的用户, 如果你启用了 Microsoft Exchange 集成选项以使用 Exchange 将存档数据存储在 Microsoft Exchange 中, 则用户驻留在 Exchange 上。 但是, 对于驻留在 Exchange 上的用户而言, 某些选项的实现方式稍有不同, 如下一节所述。 
   
 若要配置新的或现有的存档配置的设置，请指定以下选项：
-- **名称**每个存档配置需要的名称。 名称取决于要添加或编辑的配置的类型：
+- **名称**每个存档配置都需要一个名称。 该名称由你添加或编辑的配置类型确定:
     
-  - **全局配置**默认名称为 Global。 例如，Contoso 北美机构。
+  - **全局配置**默认名称为全局名称。 例如，Contoso 北美机构。
     
-  - **网站配置**该列表包含在部署中可用的站点。 单击某个站点即可将其选中。 例如，Redmond 数据中心。
+  - **网站配置**列表包含部署中的可用网站。 单击某个站点即可将其选中。 例如，Redmond 数据中心。
     
-  - **池配置**指定合适的名称，可以是一个特定的前端池或 Standard Edition Server 部署中的名称。 例如，市场营销部门。
+  - **池配置**指定一个合适的名称, 该名称可以是部署中特定前端池或标准版服务器的名称。 例如，市场营销部门。
     
-- **说明**这是可选的。 使用它来提供其他详细信息，例如使用配置的范围。 例如，法律部门的其他网站与协调一致。
+- **说明**这是可选操作。 使用它提供其他详细信息, 如配置的范围或使用。 例如, 与其他网站的法律部门协调。
     
-- **存档设置**选项包括：
+- **存档设置**选项包括以下内容:
     
   - **存档 IM 会话**
     
@@ -52,24 +52,24 @@ ms.locfileid: "33891115"
     
   - **禁用存档**
     
-- **阻止即时消息 (IM) 或 web 会议会话存档失败时**故障包括以下方面：
+- **如果存档失败, 阻止即时消息 (IM) 或 web 会议会话**失败包括以下几项:
     
-  - **IM**失败可能是完整数据库备份或问题的存储服务。 在此情况下，将阻止为存档启用的用户使用 IM。
+  - **IM**故障可能是整个数据库或存储服务有问题。 在此情况下，将阻止为存档启用的用户使用 IM。
     
-  - **会议**失败可能是不可用的文件共享或存储服务有问题。 在此情况下，池中托管的所有活动会议在发生故障时将切换到限制模式，并且不能激活新会议。
+  - **会议**故障可能是不可用的文件共享或存储服务有问题。 在此情况下，池中托管的所有活动会议在发生故障时将切换到限制模式，并且不能激活新会议。
     
     IM 和会议都能在修复故障后自动恢复。
     
-- **Microsoft Exchange 集成**如果有用户驻留在 Exchange 上，请选择此选项。 使用此选项，Exchange 用于存储数据的用户，如果其邮箱已被置于就地保留。 如果您的所有用户都驻留在 Exchange 中，您不需要单独的 SQL Server 数据库来存储存档数据设置。
+- **Microsoft Exchange 集成**如果你有托管在 Exchange 上的用户, 请选择此选项。 使用此选项, 如果用户的邮箱已放在原地保留中, 则使用 Exchange 存储这些用户的数据。 如果你的所有用户都托管在 Exchange 上, 则无需设置单独的 SQL Server 数据库来存储存档数据。
     
-- **启用清除存档数据功能**选择此选项可启用清除功能并指定清除选项，包括以下各项：
+- **启用清除存档数据**选择此选项可启用清除并指定清除选项, 包括以下内容:
     
   - 在您指定的特定天数之后清除
     
-  - 之后的存档数据清除已导出 （如果启用 Microsoft Exchange 集成，其中包括已上载到 Exchange 的数据）。
+  - 在导出存档数据 (包括已上载到 Exchange 的数据, 如果启用 Microsoft Exchange 集成) 后清除。
     
     > [!NOTE]
-    > 如果您启用 Microsoft Exchange 集成，请清除用户驻留在 Exchange 和 exchange 控制其邮箱置于就地保留。 对于会议文件，存储在 Lync Server 文件共享中是唯一的例外。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
+    > 如果启用 Microsoft Exchange 集成, 请清除托管在 Exchange 上的用户, 并将其邮箱置于就地保留状态由 Exchange 控制。 唯一的例外是存储在 Lync Server 文件共享上的会议文件。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
   
-有关的存档功能和功能，包括 Exchange 集成的详细信息，请参阅[Plan for Business Server 的 Skype 的存档](../../../plan-your-deployment/archiving/archiving.md)、 [Skype 业务服务器存档的部署](../../../deploy/deploy-archiving/deploy-archiving.md)，和[管理存档中 Skype for Business服务器](../../../manage/archiving/archiving.md)。
+有关存档功能和功能 (包括 Exchange 集成) 的详细信息, 请参阅[在 skype For Business 服务器中规划存档](../../../plan-your-deployment/archiving/archiving.md)、[部署 Skype for business 服务器存档](../../../deploy/deploy-archiving/deploy-archiving.md)和[管理 skype for business 中的存档服务器](../../../manage/archiving/archiving.md)。
 

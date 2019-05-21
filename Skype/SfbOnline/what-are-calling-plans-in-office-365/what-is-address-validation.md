@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
-ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 8ff704a5702023990b33fe56d840e588c942b2fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864993"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302557"
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 
 在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。
   
-验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。 则可能部分正确的紧急地址，例如键入错误市/县的名称可能仍通过验证。 验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。 如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。
+验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。 部分正确的紧急地址 (如城市名称错误) 可能仍通过验证。 验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。 如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

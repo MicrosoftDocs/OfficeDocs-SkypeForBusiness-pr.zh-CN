@@ -1,5 +1,5 @@
 ---
-title: 为什么我遇到输入英国的问题 地址信息？
+title: 为什么我在输入英国时遇到问题 地址信息？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,91 +20,91 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: 下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
-ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 下面是当您的地址或地址无法在英国 (英国) 正确验证时遇到问题的一些原因。
+ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227811"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290685"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我遇到输入英国的问题 地址信息？
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国时遇到问题 地址信息？
 
-下面是一些原因为什么您可能会出现问题获取您的地址或地址正确验证在英国 （英国）。
+下面是当您的地址或地址无法在英国 (英国) 正确验证时遇到问题的一些原因。
   
-## <a name="whats-wrong-with-the-company-name"></a>错误用的公司名称是什么？
+## <a name="whats-wrong-with-the-company-name"></a>公司名称有什么问题？
 
-如果您有问题输入公司名称，请记住：
+如果您在输入公司名称时遇到问题, 请记住:
   
-- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
+- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 在英国 （英国），公司名称不能有加号。 
+    > 在英国 (英国), 公司名称不能有 + 号。 
   
-- 它必须是 80 个字符或更少。
+- 它必须是80个字符或更少。
     
-- 它无法开始与特殊字符。
+- 它不能以特殊字符开头。
     
-## <a name="whats-wrong-with-the-house-number"></a>什么是住宅号出现问题？
+## <a name="whats-wrong-with-the-house-number"></a>房屋号码有什么问题？
 
-如果您有输入住宅号问题，请记住：
+如果输入房屋号码时遇到问题, 请记住:
   
-- 也可以有字母、 数字和下列特殊字符:-/]
+- 它可以包含字母、数字和下列特殊字符:-/[]
     
 - 它必须以数字开头。
     
-- 它必须是 20 个字符或更少。
+- 它必须是20个字符或更少。
     
-- 也可以有大写或小写字母。
+- 它可以有一个大写或小写字母。
     
-## <a name="whats-wrong-with-the-house-name"></a>错误 house 名称是什么？
+## <a name="whats-wrong-with-the-house-name"></a>住宅名有什么问题？
 
-如果您有问题输入所名称，请记住：
+如果您在输入房屋名称时遇到问题, 请记住:
   
-- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
+- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _
     
-- 它具有为 50 个字符或更少。
+- 它必须是50个字符或更少。
     
-- 它无法开始与特殊字符。
+- 它不能以特殊字符开头。
     
-## <a name="whats-wrong-with-the-street-name"></a>出现问题的街道名称是什么？
+## <a name="whats-wrong-with-the-street-name"></a>街道名称有什么问题？
 
-如果您有问题输入街道名称，请记住：
+如果您在输入街道名称时遇到问题, 请记住:
   
-- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _ 
+- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _ 
     
-- 它具有为 50 个字符或更少。
+- 它必须是50个字符或更少。
     
-- 它无法开始与特殊字符。 
+- 它不能以特殊字符开头。 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>出现问题的市 / 县是什么？
+## <a name="whats-wrong-with-the-city-or-town"></a>城市或城镇有什么问题？
 
-如果您有问题输入的市 / 县的名称，请记住：
+如果您在输入城市或城镇的名称时遇到问题, 请记住:
   
-- 也可以有字母、 数字和下列特殊字符:，/-+。 ' &amp; " _
+- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _
     
-- 它具有为 50 个字符或更少。
+- 它必须是50个字符或更少。
     
-- 它无法开始与特殊字符。 
+- 它不能以特殊字符开头。 
     
-## <a name="whats-wrong-with-the-postal-code"></a>与邮政编码错误是什么？
+## <a name="whats-wrong-with-the-postal-code"></a>邮政编码有什么问题？
 
-如果您有输入邮政编码问题，请记住：
+如果您在输入邮政编码时遇到问题, 请记住:
   
-- 它只能包含字母、 数字或空格。
+- 它只能包含字母、数字或空格。
     
-- 它必须具有八个或更少的字母，包括号码和空格。
+- 它必须包含8个或更少的字母, 包括数字和空格。
     
-- **请记住，如果要在英国 （英国）**，，您**必须**置于的以下格式之一的邮政编码其中字母 A = 字符 A-Z、 # 符号 = 介于 0-9、 和 _ （下划线） = 的空白区域。 下面是一些示例：
+- **请记住, 如果您使用的是英国 (英国)**, 则**必须**以下列格式之一放置邮政编码, 其中字母 A = 字符 a-z, # 符号 = 0-9 的一个数字, 而 _ (下划线) = a 空格。 下面是一些示例:
     
-|**格式**|**示例**|
+|**编排**|**示例**|
 |:-----|:-----|
-|AA # A_ #AA  <br/> |EC3B 2BD  <br/> |
-|# A_ #AA  <br/> |E1W 1AP  <br/> |
-|# _ #AA  <br/> |F1 2AG  <br/> |
-|# # _ #AA  <br/> |C44 8HT  <br/> |
-|AA # _ #AA  <br/> |DR3 6 HG  <br/> |
-|AA # # _ #AA  <br/> |FN35 1TH  <br/> |
+|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
+|# A_ # AA  <br/> |E1W 1AP  <br/> |
+|# _ # AA  <br/> |F1 2AG  <br/> |
+|# #_ # AA  <br/> |C44 8HT  <br/> |
+|AA # _ # AA  <br/> |DR3 6HG  <br/> |
+|AA # #_ # AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

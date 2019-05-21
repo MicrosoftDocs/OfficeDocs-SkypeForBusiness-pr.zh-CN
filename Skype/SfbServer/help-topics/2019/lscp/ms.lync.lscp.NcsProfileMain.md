@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsProfileMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 2490017aac2c77d57ee1c79b02aacfc078e2f44d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b96d27f4c6dc360ae6916d646403e5f01d040c79
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291840"
 ---
 # <a name="bandwidth-policy-profile"></a>带宽策略配置文件
 

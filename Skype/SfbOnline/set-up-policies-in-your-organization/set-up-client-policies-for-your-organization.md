@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,23 +18,23 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
-ms.openlocfilehash: 33623e43ed6e7db6edd8af14e042ae798c9c8cd1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14d023598a27c676fd4249e97e6454b8110ee958
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237495"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297715"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>为你的组织设置客户端策略
 
 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
   
-客户端策略设置可以配置时创建的策略，或者您可以使用**Set-csclientpolicy** cmdlet 修改现有的策略的设置。
+客户端策略设置可以在创建策略时配置, 也可以使用**set-csclientpolicy** cmdlet 修改现有策略的设置。
   
 ## <a name="set-your-client-policies"></a>设置你的客户端策略
 
 > [!NOTE]
-> 对于所有业务 online Skype 中的客户端策略设置，您必须都使用 Windows PowerShell 和您都**不能都使用****业务管理中心的 Skype**。 
+> 对于 Skype for Business Online 中的所有客户端策略设置, 必须使用 Windows PowerShell, 并且**不能使用** **Skype for business 管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -66,71 +66,71 @@ ms.locfileid: "32237495"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用图释和状态通知和阻止保存 Im
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用表情符和状态通知并阻止保存 Im
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
     
 > 
 >   ```
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予对所有用户在组织中都创建新策略，请运行：
+- 若要为你的组织中的所有用户授予你创建的新策略, 请运行:
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息, 请参阅。
     
-如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+如果你已创建策略, 你可以使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 对现有策略进行更改, 然后使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>启用要在即时消息中可单击的 URL 或超链接
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
     
 > 
 >   ```
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予对所有用户在组织中都创建新策略，请运行：
+- 若要为你的组织中的所有用户授予你创建的新策略, 请运行:
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息, 请参阅。
     
-如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+如果你已创建策略, 你可以使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 对现有策略进行更改, 然后使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="prevent-showing-recent-contacts"></a>禁止显示最近的联系人
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
   > 
   > ```
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  请参阅有关[New-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予 Amos 大理石您创建的新策略，请运行：
+- 若要将您创建的新策略授予 Amos 大理石, 请运行:
   > 
   > ```
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  请参阅有关[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息。
+  有关[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 的详细信息, 请参阅。
     
-  如果您已经创建策略，您可以使用[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 可以更改现有的策略，然后使用[Grant-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用于您的用户。
+  如果你已创建策略, 你可以使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet 对现有策略进行更改, 然后使用[set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet 将设置应用到你的用户。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
@@ -151,9 +151,9 @@ ms.locfileid: "32237495"
 ## <a name="related-topics"></a>相关主题
 [创建自定义外部访问策略](create-custom-external-access-policies.md)
 
-[阻止点对点文件传输](block-point-to-point-file-transfers.md)
+[阻止点到点文件传输](block-point-to-point-file-transfers.md)
 
-[设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
+[在组织中设置会议策略](set-up-conferencing-policies-for-your-organization.md)
 
   
  

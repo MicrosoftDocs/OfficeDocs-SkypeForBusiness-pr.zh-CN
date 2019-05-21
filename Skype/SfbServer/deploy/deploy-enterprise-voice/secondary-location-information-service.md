@@ -1,10 +1,10 @@
 ---
-title: 在 Skype for Business Server 中配置的辅助位置信息服务
+title: 在 Skype for Business 服务器中配置辅助位置信息服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: 为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。
-ms.openlocfilehash: 047fd1a7dca0c4c2b76d01fd0c5d67230246441e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server Enterprise Voice 中为 E9 配置辅助位置源 (SLS) 数据库。
+ms.openlocfilehash: 0d637b8b2b61526837be2d56b8654f40bc556064
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892291"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288531"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在 Skype for Business Server 中配置的辅助位置信息服务
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置辅助位置信息服务
  
-为业务 Server 企业语音的 E9-1-1 在 Skype 配置辅助位置源 （另外） 数据库。 
+在 Skype for business Server Enterprise Voice 中为 E9 配置辅助位置源 (SLS) 数据库。 
   
-Skype 业务服务器提供了可用于指向辅助位置源 （另外） 数据库的位置信息服务的 web 服务接口。 连接到另外数据库的 web 服务界面必须符合位置信息服务 WSDL。 如果配置位置数据库和辅助位置数据库，位置信息服务将首先查询位置数据库，并如果未找到匹配，请从客户端发送位置请求，另外数据库。 如果位置存在于另外，位置信息服务然后向客户端发送位置。 
+Skype for Business 服务器提供可用于将位置信息服务指向辅助位置源 (SLS) 数据库的 web 服务界面。 连接到 SLS 数据库的 web 服务接口必须符合 Location 信息服务 WSDL。 如果同时配置了位置数据库和辅助位置数据库, 则位置信息服务首先查询位置数据库, 如果未找到匹配项, 则将位置请求从客户端发送到 SLS 数据库。 如果该位置存在于 SLS 中, 则位置信息服务随后会将该位置发送回客户端。 
   
 ### <a name="to-configure-a-secondary-location-database"></a>配置辅助位置数据库
 
@@ -39,5 +39,5 @@ Skype 业务服务器提供了可用于指向辅助位置源 （另外） 数据
 
 ## <a name="see-also"></a>另请参阅
 
-[通过 Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

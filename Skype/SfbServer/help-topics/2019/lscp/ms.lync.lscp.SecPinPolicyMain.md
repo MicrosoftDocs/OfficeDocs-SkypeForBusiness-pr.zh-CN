@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecPinPolicyMain
@@ -13,25 +13,25 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 1a4dd707be31d38be9a3e51bf01ead90ed2f675d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0df1712afc29e85f8353bb0e1de4aff15825a03b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292464"
 ---
 # <a name="pin-policy"></a>PIN 策略
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
- **使用用于 IP 电话的 PIN 策略**此个人识别号 (PIN) 策略支持用户使用的 IP 电话的企业服务器连接到 Skype 身份验证。
-- [为 Business Server Skype 创建新的 PIN 策略](../../../manage/authentication/create-a-new-pin-policy.md)
+ **使用 IP 电话的 PIN 策略**此个人识别码 (PIN) 策略支持使用 IP 电话连接到 Skype for business 服务器的用户的身份验证。
+- [在 Skype for Business 服务器中创建新的 PIN 策略](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [修改业务服务器 Skype 中现有的 PIN 策略](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [在 Skype for Business 服务器中修改现有的 PIN 策略](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [删除业务服务器中 Skype 的 PIN 策略](../../../manage/authentication/delete-a-pin-policy.md)
+- [在 Skype for Business 服务器中删除 PIN 策略](../../../manage/authentication/delete-a-pin-policy.md)
 
-  **使用电话拨入式会议 PIN 策略**此 PIN 策略允许您通过输入 PIN 作为经过身份验证的用户加入电话拨入式会议的组织中具有 Active Directory 域服务凭据的用户。
+  **处理电话拨入式会议的 PIN 策略**此引脚策略允许在你的组织中拥有 Active Directory 域服务凭据的用户通过输入 PIN 将电话拨入式会议作为经过身份验证的用户加入电话拨入式会议。
 - [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

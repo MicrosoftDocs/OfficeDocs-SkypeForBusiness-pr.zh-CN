@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
-description: 您可以使用保存语音路由测试用例信息对话框保存临时语音路由测试用例。 在保存语音路由测试用例信息，键入您想要在名称中授予的测试用例，然后单击确定的名称。
-ms.openlocfilehash: 07976c1e10caa8cf0521057f35f043553ca4c9e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 可以使用 "保存语音路由测试案例信息" 对话框来保存临时的语音路由测试案例。 在 "保存语音路由测试案例" 信息中, 键入要为此测试用例命名的名称, 然后单击 "确定"。
+ms.openlocfilehash: f219ce04ba09e2dc6814433cdf4bf9687885e4ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924337"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297674"
 ---
 # <a name="save-voice-routing-test-case-information"></a>保存语音路由测试案例信息
  
-您可以使用**保存语音路由测试用例信息**对话框保存 atemporary 语音路由测试用例。 在**保存语音路由测试用例信息**，键入您想要在**名称**中授予的测试用例，然后单击**确定**的名称。 
+可以使用 "**保存语音路由测试用例信息**" 对话框来保存 atemporary 语音路由测试用例。 在 "**保存语音路由测试案例" 信息**中, 键入要为此测试用例**命名**的名称, 然后单击 **"确定"**。 
   
 > [!NOTE]
-> 保存临时的测试用例，都不保存到中央管理存储。 相反，它使测试用例可从**语音路由**页上的**测试语音路由**选项卡。 与**Uncommitted**的状态将显示为测试用例。 要保存到中央管理存储的测试用例，则必须通过单击**语音路由**页中任何**操作**菜单中的**全部提交**提交的语音配置。
+> 保存临时测试用例时, 不会将其保存到中央管理存储。 相反, 它从 "**语音路由**" 页面的 "**测试语音路由**" 选项卡中提供测试用例。 该测试用例将显示为**未提交**状态。 若要将测试用例保存到中央管理存储, 必须通过单击 "**语音路由**" 页面中的任何**操作**菜单中的 "**全部确认**" 来提交语音配置。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
   
 

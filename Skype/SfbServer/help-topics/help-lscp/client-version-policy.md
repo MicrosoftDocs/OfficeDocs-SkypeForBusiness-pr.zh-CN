@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 地利用最大的业务服务器 2015 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: 6398c833609f799935148a4dab39810d46f178eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验, 你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887242"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300005"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 
-可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 地利用最大的业务服务器 2015 Skype 中包含的功能和改进的整体用户体验，您可以使用客户端版本筛选器来限制在您的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验, 你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
 您可以在“**客户端版本策略**”页上执行以下任务：
 
-- 编辑默认 （**全局**） 客户端版本策略。
+- 编辑默认 (**全局**) 客户端版本策略。
 
 - 为特定站点或池创建客户端版本策略。
 
@@ -41,7 +41,7 @@ ms.locfileid: "33887242"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新**您可以创建一个或多个以下客户端版本策略：
+- **新**你可以创建以下每个客户端版本策略中的一个或多个:
 
   - 站点策略
 
@@ -49,15 +49,15 @@ ms.locfileid: "33887242"
 
   - 用户策略
 
-- **编辑**您可以更改的任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
+- **编辑**你可以更改任何客户端版本策略的选项。 使用此选项, 您可以执行以下操作:
 
-  - **显示详细信息**此选项可打开一个对话框，您可以在其中更改客户端版本策略的选项。
+  - **显示详细信息**此选项将打开一个对话框, 您可以在其中更改客户端版本策略的选项。
 
-  - **选择全部**此选项可选择列表中所有客户端版本策略。
+  - **全选**此选项选择列表中的所有客户端版本策略。
 
-  - **删除**此选项可删除所有选定的客户端版本策略。
+  - **Delete**此选项将删除所有选定的客户端版本策略。
 
-- **刷新**您可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。
+- **刷新**你可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。
 
 有关客户端与客户端版本之间的互操作性的详细信息，请参阅规划文档中的[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。有关使用客户端版本策略的详细信息，请参阅操作文档中的[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)。
 

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238931"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290070"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 
@@ -52,11 +52,11 @@ ms.locfileid: "32238931"
 
 2. 购买**电话系统**加载项。
     
-3. 购买[Office 365 调用计划](/MicrosoftTeams/calling-plans-for-office-365)： 购买的**电话系统**加载项后，您可以仅购买此。
+3. 购买[适用于 Office 365 的呼叫计划](/MicrosoftTeams/calling-plans-for-office-365): 仅在购买 "**电话系统**" 加载项后, 才能购买此套餐。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
-## <a name="how-to-see-prices-and-buy"></a>操作方法，请参阅价格和购买
+## <a name="how-to-see-prices-and-buy"></a>如何查看价格和购买
 <a name="bkmk_buypremium"> </a>
 
  **若要获取音频会议和通信点数：**
@@ -65,7 +65,7 @@ ms.locfileid: "32238931"
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
-   ![若要购买附加许可证，选择购买加载项。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![要购买附加设备许可证, 请选择 "购买加载项"。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. 现在，您将看到的价格和选择购买音频会议和安装通信点数。
 
@@ -77,4 +77,4 @@ ms.locfileid: "32238931"
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. 购买**电话系统**许可证后，您将看到的价格和选择购买调用规划。
+4. 购买**电话系统**许可证后, 你将看到购买呼叫计划的价格和选项。
