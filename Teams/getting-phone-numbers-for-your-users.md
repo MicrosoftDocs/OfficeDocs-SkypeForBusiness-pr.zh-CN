@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何为团队或 Skype for Business 获取新的、移植或转移现有号码, 以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: bda538cb03efd7704b147f1e31bc815bdf7e07bc
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34164565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285509"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 

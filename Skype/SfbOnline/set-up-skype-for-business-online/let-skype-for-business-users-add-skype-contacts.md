@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '了解如何让使用 Skype for Business 的人员联系你组织外部的 Skype for Business 用户并将其添加到联系人列表。 '
-ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3470e627bf8a3512df65604aa99351fc9f6551b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238029"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285271"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 
@@ -32,7 +32,7 @@ ms.locfileid: "32238029"
   
 必须在 Office 365 中拥有[管理员角色](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)才能执行此操作。
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
   
 1. 使用 Office 365 管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)。
     

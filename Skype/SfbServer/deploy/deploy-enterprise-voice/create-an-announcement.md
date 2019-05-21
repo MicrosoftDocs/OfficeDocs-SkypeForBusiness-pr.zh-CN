@@ -1,10 +1,10 @@
 ---
-title: 创建或删除业务服务器中 Skype 通知
+title: 在 Skype for Business 服务器中创建或删除公告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 创建或删除 Skype 中为 Business Server 企业语音的通知应用程序的通知。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 79298dbe415071d9d773375f524dff95516cc4fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中创建或删除公告应用程序的公告。 这将影响如何处理打给未分配号码的呼叫。
+ms.openlocfilehash: 6160631473a2ead839346e53f9f63294a7959289
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289074"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>创建或删除业务服务器中 Skype 通知
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或删除公告
 
-创建或删除 Skype 中为 Business Server 企业语音的通知应用程序的通知。 这将影响如何处理打给未分配号码的呼叫。
+在 Skype for Business Server Enterprise Voice 中创建或删除公告应用程序的公告。 这将影响如何处理打给未分配号码的呼叫。
 
 配置通知的同时，实际也配置了对未分配号码的呼叫的处理方式。可以播放提示（可以是音频文件或文本到语音转换 (TTS) 文件），或者在不播放提示的情况下直接将呼叫转接到指定目标。
 
@@ -50,7 +50,7 @@ ms.locfileid: "33893005"
 
 1. 对于音频提示，创建音频文件。
 
-2. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
+2. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限 (如 "**委派设置权限**" 中所述) 进行安装的计算机。
 
 3. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
@@ -82,13 +82,13 @@ ms.locfileid: "33893005"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   有关这些 cmdlet，以及查看要在**TextToSpeechPrompt**参数中使用的语言代码的列表的详细信息，请参阅[New-csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
+   有关这些 cmdlet 的更多详细信息, 以及要查看在**TextToSpeechPrompt**参数中使用的语言代码的列表, 请参阅[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>删除未分配号码的通知
 
 ### <a name="to-delete-an-announcement"></a>删除通知
 
-1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
+1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限 (如 "**委派设置权限**" 中所述) 进行安装的计算机。
 
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
@@ -111,17 +111,17 @@ ms.locfileid: "33893005"
    ```
 
     > [!NOTE]
-    > 有关更多选项的详细信息，请参阅[Get-csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)和[Remove-csannouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)。
+    > 有关更多选项的详细信息, 请参阅[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)和[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)。
 
 ## <a name="see-also"></a>另请参阅
 
-[创建或删除业务服务器中 Skype 通知](create-an-announcement.md)
+[在 Skype for Business 服务器中创建或删除公告](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[新 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[新-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[Remove-csannouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[Get-csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

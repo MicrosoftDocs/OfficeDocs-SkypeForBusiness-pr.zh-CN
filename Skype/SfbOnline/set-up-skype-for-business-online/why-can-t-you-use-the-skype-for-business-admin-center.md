@@ -1,5 +1,5 @@
 ---
-title: 为什么不能使用 Skype 业务 Online 管理中心的立即？
+title: 为什么我现在无法使用 Skype for Business Online 管理中心？
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,51 +19,51 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: '了解您可以和不能中使用 Skype 业务管理中心中和其他功能时您的服务正在迁移到另一个 Microsoft 数据中心。 '
-ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解当你的服务迁移到另一个 Microsoft 数据中心时, 你可以和不能在 Skype for Business 管理中心中使用的功能和其他功能。 '
+ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226314"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284874"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么不能使用 Skype 业务 Online 管理中心的立即？
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么我现在无法使用 Skype for Business Online 管理中心？
 
-我们知道时无法获取完成，工作，因此我们将介绍这里会发生什么以及为什么会值得等待很遗憾。 
+我们知道, 如果你无法完成工作, 我们会很难, 因此我们将介绍此处所发生的情况以及它值得等待的原因。 
   
-首先，下面是技术的说明：
+首先, 下面是技术说明:
   
-我们正在把 （这意味着您的用户和组织设置） 的业务联机服务您 Skype 迁移到更接近于您的另一个 Microsoft 数据中心。 这将提高您的服务，并降低延迟。 
+我们正在将您的 Skype for Business Online 服务 (意味着你的用户和组织设置) 迁移到更接近你的另一 Microsoft 数据中心。 这将改进你的服务并减少延迟。 
   
-有关更多技术详细信息，请参阅[期间和之后数据移动]( https://go.microsoft.com/fwlink/?LinkId=526418)。
+有关详细技术的详细信息, 请参阅[数据移动期间和之后]( https://go.microsoft.com/fwlink/?LinkId=526418)。
   
-## <a name="ok-so-what-does-that-mean"></a>确定，因此意味着什么？
+## <a name="ok-so-what-does-that-mean"></a>好的, 这意味着什么？
 
-首先，我们将分解几个术语。
+首先, 让我们分几个术语。
   
-- **数据中心**这是 Office 365 组织中的信息存储位置，如文件和电子邮件的物理位置。 如果您确实要深入了解到什么是 Office 365 数据中心，签出[这篇文章](https://www.microsoft.com/online/legal/v2/?docid=25)。
+- **数据中心**这是存储 Office 365 组织中的信息的物理位置, 例如文件和电子邮件。 如果你确实想要深入了解 Office 365 数据中心的内容, 请参阅[本文](https://www.microsoft.com/online/legal/v2/?docid=25)。
     
-- **迁移**这是几乎相同"移动"。 在这种情况下，这意味着我们移动您 Skype 业务 Online 用户和设置从一个数据中心到另一个更接近于您要提高您的服务。
+- **迁移**这非常类似于 "移动"。 在这种情况下, 这意味着我们将您的 Skype for Business Online 用户和设置从一个数据中心移动到另一个更接近你的服务。
     
-- **延迟**这是计可以访问 Office 365 管理中心，请设置的时间量更改，然后保存这些更改。
+- **延迟**这是你访问 Office 365 管理中心所需的时间, 请更改设置, 然后保存这些更改。
     
-- **相关 ID**您可能已看到这只是来自的消息中列出。 Microsoft 支持工程师使用此信息可帮助您解决错误。 如果您联系 Microsoft 支持，您可能会要求互联 id。
+- **相关 ID**您可能已看到您刚刚收到的邮件中列出的内容。 Microsoft 支持工程师将使用此信息来帮助你解决错误。 如果您联系 Microsoft 支持部门, 可能会要求您提供相关 ID。
     
-以便这所有意味着什么都是我们正在移动 Online 业务用户的所有您 Skype 和服务到更都接近于您的其他位置的设置。 越接近越好。 好的消息是，在此小段时间后业务联机服务您 Skype 提高。
+因此, 这一切意味着我们正在将所有 Skype for Business Online 用户和服务设置移动到距离您更近的其他位置。 越接近越好。 好消息是, 在这段短时间后, 您的 Skype for Business Online 服务将会提高。
   
-![Office 365 中服务迁移](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Office 365 中的服务迁移](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a>什么业务 Online 功能的 Skype 仍然有效？
+## <a name="what-skype-for-business-online-features-will-still-work"></a>哪些 Skype for Business Online 功能仍可正常工作？
 
-虽然您将无法访问业务 Online 管理中心的 Skype，在迁移期间仍然有效以下 Skype 业务 Online 功能：
+虽然您不能访问 Skype for Business Online 管理中心, 但以下 Skype for business Online 功能在迁移期间仍可正常工作:
   
 - 联机会议
     
 - 状态信息
     
-## <a name="can-i-get-other-work-done"></a>可以获取完成其他工作？
+## <a name="can-i-get-other-work-done"></a>是否可以完成其他工作？
 
-确保。 虽然我们正在迁移您 Skype 业务 Online 服务，您仍可以使用 Office 365 （例如，Office 365 和 Exchange 管理员中心） 中的其他管理中心。 但是，以及业务 Online 管理中心的 Skype，您将无法用于 Skype 业务 Online Remote PowerShell cmdlet 在迁移期间。 
+吗. 当我们迁移您的 Skype for Business Online 服务时, 您仍然可以使用 Office 365 中的其他管理中心 (例如 Office 365 和 Exchange 管理中心)。 但是, 与 Skype for Business Online 管理中心一起, 你将无法在迁移期间使用 Skype for business Online 远程 PowerShell cmdlet。 
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

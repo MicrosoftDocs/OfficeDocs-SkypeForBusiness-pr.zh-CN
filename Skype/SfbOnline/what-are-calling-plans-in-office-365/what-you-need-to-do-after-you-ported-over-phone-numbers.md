@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 查看将电话号码移植到 Skype for Business 后需要执行的下一步操作。
-ms.openlocfilehash: fc63f734b9be26db928488f7b759ca5e68ddc29b
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 52096606d6317109726a66cea66e12fef855d43c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34159171"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290695"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>通过电话号码移植后需要执行哪些操作？
 

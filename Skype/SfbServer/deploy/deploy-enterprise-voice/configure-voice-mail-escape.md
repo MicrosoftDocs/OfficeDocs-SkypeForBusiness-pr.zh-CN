@@ -1,10 +1,10 @@
 ---
-title: Skype for Business 中配置语音邮件转义
+title: 在 Skype for Business 中配置语音邮件转义
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 摘要： 了解如何使用 Skype 业务 Server Management Shell，业务服务器配置语音邮件转义 Skype。
-ms.openlocfilehash: 29d8f03a23ba562cdb6636cd2aa7f3166e17404c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。'
+ms.openlocfilehash: 89c449f538fee2f5230cb66a664317cada723220
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893040"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289081"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business 中配置语音邮件转义
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>在 Skype for Business 中配置语音邮件转义
 
-**摘要：** 了解如何使用 Skype 业务 Server Management Shell，业务服务器配置语音邮件转义 Skype。
+**摘要:** 了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。
 
-当用户配置到移动电话同时响铃时，呼叫者将通常路由到用户的个人语音邮件，如果移动电话处于关闭、 电池供电不足或超出范围。 与业务服务器 Skype，用户可以选择使与业务相关的呼叫路由至其企业语音邮件系统。 具体而言，可以配置计时器，并且 Skype 业务服务器如果通过定义的时间范围内的运营商的语音邮件应答呼叫时，将断开连接从运营商的语音邮件系统 （和用户的个人语音邮件），当用户企业系统中的其余终结点继续响铃。 这种方式，呼叫者会自动传送到用户的企业语音邮件。
+当用户配置与移动电话的同时拨打时, 如果移动电话已关闭、电池电量不足或超出范围, 呼叫者通常会被路由到用户的个人语音邮件。 使用 Skype for Business 服务器, 用户可以选择将与业务相关的呼叫路由到其企业语音邮件系统。 具体而言, 可以配置计时器, 并且如果运营商的语音邮件在定义的时间范围内由该运营商的语音邮件应答, 则 Skype for business 服务器将断开与运营商的语音邮件系统 (和用户的个人语音邮件) 的连接, 而用户的公司系统中的剩余终结点继续拨打。 这样, 呼叫者将自动路由到用户的公司语音邮件。
 
-Skype 用于业务 Server Management Shell cmdlet **Set-csvoicepolicy**，在语音策略级别，使用以下参数执行此配置。
+使用以下参数, 在语音策略级别使用 Skype for Business Server Management Shell cmdlet ( **CsVoicePolicy**) 执行此配置。
 
 ### <a name="to-configure-voice-mail-escape"></a>配置语音邮件转义
 

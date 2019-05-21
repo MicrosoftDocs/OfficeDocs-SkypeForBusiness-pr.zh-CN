@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: 您已完成部署和配置商务云连接器版 Skype 的步骤后，确认您可以发起和接收呼叫。
-ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 完成部署和配置 Skype for business 云连接器版本的步骤后, 请验证您是否可以拨打和接听电话。
+ms.openlocfilehash: 9c8cc28249b6a9b1d98ff51352abbdd4888882bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240772"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286618"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
-您已完成部署和配置商务云连接器版 Skype 的步骤后，确认您可以发起和接收呼叫。
+完成部署和配置 Skype for business 云连接器版本的步骤后, 请验证您是否可以拨打和接听电话。
   
 ## <a name="validate-the-deployment"></a>验证部署
 

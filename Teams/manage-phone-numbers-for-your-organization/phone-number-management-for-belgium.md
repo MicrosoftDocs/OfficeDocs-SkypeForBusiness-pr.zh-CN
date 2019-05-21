@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理适用于 Skype for Business Online 和 Microsoft Teams 的比利时电话号码的信息。
-ms.openlocfilehash: 41900ace3d9992ee6e14ebaed6cb55ba100c0122
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 891a1fe2cecc79e3d42cd1067d3cb5d36842d300
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245282"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282743"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利时的电话号码管理
 
@@ -36,10 +36,10 @@ ms.locfileid: "32245282"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取新的用户和业务管理中心的 Skype 中未列出的服务电话号码。   <br/> |在比利时，你无法使用 Skype for Business 管理中心为你的组织获取电话号码，你必须提交新的电话号码申请。 <br/><br/>下载下列表单之一： <br/>  [新电话号码请求比利时 (v.4.0)(de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(de-be).pdf?raw=true) <br/> [新电话号码请求比利时 (v.4.0)(fr-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(fr-be).pdf?raw=true) <br/> [新电话号码请求比利时 (v.4.0)(nl-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(nl-be).pdf?raw=true) <br/> [新电话号码请求比利时 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(en-us).pdf?raw=true) <br/>  <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> 
-|获取对我们转接的电话号码。  <br/> | 下载以下形式之一。 <br/> <br/> 用户电话号码： <br/>[信函的授权 (LOA) 比利时 （地理号码） (v.1.0) (de-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [信函的授权 (LOA) 比利时 （地理号码） (v.1.0) (fr-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [信函的授权 (LOA) 比利时 （地理号码） (v.1.0) (nl-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf?raw=true)  <br/>  <br/><br/> 免费电话号码： <br/>[信函的授权 (LOA) 比利时 （免费电话号码） (v.1.0) (de-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [信函的授权 (LOA) 比利时 （免费电话号码） (v.1.0) (fr-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [信函的授权 (LOA) 比利时 （免费电话号码） (v.1.0) (nl-为)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(nl-be).pdf?raw=true) <br/> <br/>   填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
-|发布并取消发布的国家/地区的电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
-|用户的号更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|获取未在 Skype for Business 管理中心中列出的新用户和服务电话号码。   <br/> |在比利时，你无法使用 Skype for Business 管理中心为你的组织获取电话号码，你必须提交新的电话号码申请。 <br/><br/>下载下列表单之一： <br/>  [比利时 (v) 的新电话号码请求 (已取消)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(de-be).pdf?raw=true) <br/> [比利时 (v.) 的新电话号码请求 (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(fr-be).pdf?raw=true) <br/> [比利时 (v) 的新电话号码请求 (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(nl-be).pdf?raw=true) <br/> [比利时 (v) 的新电话号码请求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.4.0)-(en-us).pdf?raw=true) <br/>  <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> 
+|获取转接给我们的电话号码。  <br/> | 下载其中一个表单。 <br/> <br/> 对于用户电话号码: <br/>[比利时 (地理号码) (LOA) 的授权信 () (已取消)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [比利时 (地理号码) (LOA) 的授权信 () (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [用于比利时 (地理号码) (LOA) (nl) 的授权书 ()](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf?raw=true)  <br/>  <br/><br/> 对于免费电话号码: <br/>[比利时的授权书 (LOA) (免费号码) () (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(de-be).pdf?raw=true) <br/> [比利时的授权书 (LOA) (免费号码) () (fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(fr-be).pdf?raw=true) <br/> [比利时 (免费号码) (LOA) (nl) 的授权书 ()](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(nl-be).pdf?raw=true) <br/> <br/>   填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
+|发布/取消发布国家电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
 
 
 ## <a name="related-topics"></a>相关主题

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestGeography
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
-description: 地理信息页上请求证书请求的其他信息。 在此页上，选择国家/地区，然后您类型州/省和市/县在文本框中。 请注意，您不应使用缩写应当清楚完整的省/市/自治区和市/县的名称。
-ms.openlocfilehash: e03d04a9d22f6f632175105534661e1465dd8c0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 地理信息页面请求证书请求的其他信息。 在此页面上, 选择 "国家/地区", 然后在文本框中键入州/省和市/自治区和市/县。 请注意, 不应使用缩写词, 并且应该拼写出州/省和市/自治区的完整名称。
+ms.openlocfilehash: 6116c0d59bebd3b3471b707cc3c91d22222a7db9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911133"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302042"
 ---
 # <a name="certificate-request-geography"></a>证书请求（地理位置）
  
-**地理信息**页上请求证书请求的其他信息。 在此页上，选择**国家/地区**，然后键入**州/省**和**市/县**在文本框中。 请注意，您不应使用缩写应当清楚完整的省/市/自治区和市/县的名称。
+**地理信息**页面请求证书请求的其他信息。 在此页面上, 选择 "**国家/地区**", 然后在文本框中键入**州/省**和市/自治区和**市/县**。 请注意, 不应使用缩写词, 并且应该拼写出州/省和市/自治区的完整名称。
   
 

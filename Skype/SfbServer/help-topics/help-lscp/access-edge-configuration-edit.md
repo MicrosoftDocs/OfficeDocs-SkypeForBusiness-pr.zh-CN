@@ -1,11 +1,11 @@
 ---
-title: 访问边缘配置编辑
+title: Access Edge 配置编辑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtEdgeEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 79c3e4604d605211ef2666fdc861940e5978dcb7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a400ea2be3126c556abb40b93d782e8a949262e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284762"
 ---
 # <a name="access-edge-configuration-edit"></a>访问边缘配置：编辑
 

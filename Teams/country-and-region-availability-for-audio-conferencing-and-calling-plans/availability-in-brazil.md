@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴西的可用的项目。
-ms.openlocfilehash: f4124e229e6a899c8eef36b12e1bf4e62bd3e594
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于巴西的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 54aac58477c12bce9884c03176d6d2776e08ebd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248216"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283207"
 ---
 # <a name="availability-in-brazil"></a>在巴西的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴西的可用的项目。
+以下是适用于巴西的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 圣保罗</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 圣保罗</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -67,7 +67,7 @@ ms.locfileid: "32248216"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>里约热内卢 <li>  圣保罗 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>里约热内卢 de 里约热内卢 <li>  圣保罗 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

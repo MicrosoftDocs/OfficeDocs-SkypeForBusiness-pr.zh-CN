@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 选择要为边缘池启用的每个功能。默认情况下，边缘池支持组织中使用虚拟专用网络 (VPN) 从防火墙外登录的远程用户。此外，还具有以下边缘池功能选项：
-ms.openlocfilehash: 280aa7ec9c6adc68ef7f1316d5eb3024d140bdce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c266db6fc9f43719a26242212071051670a633e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886274"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283701"
 ---
 # <a name="add-edge-server-options"></a>添加边缘服务器选项
 

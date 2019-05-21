@@ -1,33 +1,33 @@
 ---
-title: 更改现有业务服务器存档策略中 Skype
+title: 在 Skype for Business 服务器中更改现有存档策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 摘要： 了解如何更改用户存档策略的 Skype 业务服务器。
-ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何更改 Skype for business Server 的用户存档策略。'
+ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282019"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有业务服务器存档策略中 Skype
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>在 Skype for Business 服务器中更改现有存档策略
  
-**摘要：** 了解如何更改用户存档策略的 Skype 业务服务器。
+**摘要:** 了解如何更改 Skype for business Server 的用户存档策略。
   
-您首先部署业务服务器 Skype，您设置确定如何实施存档的部署中用户的初始存档策略。 本主题介绍了如何管理和修订策略。 
+当您首次部署 Skype for Business 服务器时, 设置用于确定如何为部署中的用户实现存档的初始存档策略。 本主题介绍了如何管理和修订策略。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>使用控制面板更改存档策略
 
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档策略”****。
     
@@ -48,7 +48,7 @@ ms.locfileid: "33885000"
 6. 单击“**提交**”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[应用到 Skype 业务服务器中的用户存档策略](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息, 请参阅[将存档策略应用于 Skype for Business 服务器中的用户](apply-a-policy-to-users.md)。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 更改存档策略
 
@@ -68,7 +68,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-若要启用这两个内部和外部通信会话的存档，设置为 True 的 ArchiveInternal 和 ArchiveExternal 参数的值： 
+若要启用内部和外部通信会话的存档, 请将 ArchiveInternal 和 ArchiveExternal 参数的值设置为 True: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

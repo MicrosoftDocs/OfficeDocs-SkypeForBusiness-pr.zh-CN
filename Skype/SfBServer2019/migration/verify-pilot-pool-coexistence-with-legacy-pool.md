@@ -4,36 +4,36 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 若要验证试点池与旧池的共存情况的过程。
-ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 用于验证与旧版池共存的引导池的过程。
+ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231341"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280651"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>验证试点池与旧池的共存情况
 
- **本文中**
+ **在本文中**
   
-[确认 Skype 业务服务器 2019年服务已启动](#sectionSection0)
+[验证 Skype for business Server 2019 服务是否已启动](#sectionSection0)
   
-[打开 Skype 业务 Server 2019 Control Panel](#sectionSection1)
+[打开 "Skype for Business 服务器2019控制面板"](#sectionSection1)
   
-[请勿尝试在旧拓扑生成器中打开拓扑](#sectionSection2)
+[不要尝试在旧版拓扑生成器中打开拓扑](#sectionSection2)
   
-部署试点池后，您需要验证通过使用管理工具来查看池信息的两个池的共存情况。 对于业务服务器 2019年池和旧池 Skype，您必须使用业务 Server 2019 控制面板和拓扑生成器工具 Skype。 
+部署试验池后, 您需要通过使用管理工具查看池信息来验证两个池的共存。 对于 Skype for business Server 2019 池和旧版池, 必须使用 Skype for Business Server 2019 控制面板和拓扑生成器工具。 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>确认 Skype 业务服务器 2019年服务已启动
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>验证 Skype for business Server 2019 服务是否已启动
 <a name="sectionSection0"> </a>
 
-1. 从业务 Server 2019 前端服务器的 Skype，导航到管理工具 \ 服务小程序。
+1. 从 Skype for Business 服务器2019前端服务器, 导航到 "管理 Tools\Services" 小程序。
     
-2. 确认以下服务都在前端服务器上运行：
+2. 验证以下服务是否在前端服务器上运行:
 
     - 集中日志记录服务代理
     - 应用程序共享
@@ -45,27 +45,27 @@ ms.locfileid: "32231341"
     - 前端
     - IM 会议
     - 中介
-    - 副本复制程序代理
+    - 复制副本复制器代理
     - 响应组
     - Web 会议
-    - XMPP 转换网关
+    - XMPP 翻译网关
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>打开 Skype 业务 Server 2019 Control Panel
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>打开 "Skype for Business 服务器2019控制面板"
 <a name="sectionSection1"> </a>
 
-从业务服务器 2019年部署您 Skype 前端服务器，打开 Skype 业务 Server 2019 控制面板，然后选择旧池。 重复打开业务服务器 2019年池 Skype 的过程。
+在 Skype for business Server 2019 部署的前端服务器中, 打开 Skype for business Server 2019 控制面板, 然后选择 "旧版" 池。 重复该过程以打开 Skype for Business Server 2019 池。
   
 > [!IMPORTANT]
-> 上的业务服务器 2019 Skype，必须将 Silverlight 升级到 Silverlight 版本 5 之前 Skype 用于业务 Server Control Panel。 
+> 在 Skype for business Server 2019 上, 在使用 Skype for Business 服务器控制面板之前, 必须将 Silverlight 升级到 Silverlight 版本5。 
   
-此拓扑现在包含旧和 Skype 业务服务器 2019年服务器角色。 
+此拓扑现在包括旧版和 Skype for business Server 2019 服务器角色。 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>请勿尝试在旧拓扑生成器中打开拓扑
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>不要尝试在旧版拓扑生成器中打开拓扑
 <a name="sectionSection2"> </a>
 
-如果您尝试打开使用旧拓扑生成器的拓扑，则会收到以下错误消息。 只能使用 Skype 业务 Server 2019 拓扑生成器查看拓扑。 业务 Server 2019 拓扑生成器的 Skype 必须用于业务服务器 2019年的 Skype 和旧安装创建池。
+如果尝试使用旧版拓扑生成器打开拓扑, 则会遇到以下错误。 拓扑仅可使用 Skype for Business Server 2019 拓扑生成器查看。 必须使用 Skype for business Server 2019 拓扑生成器为 Skype for business Server 2019 和旧式安装创建池。
 
   
 

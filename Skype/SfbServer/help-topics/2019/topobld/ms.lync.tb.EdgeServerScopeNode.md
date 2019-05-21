@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeServerScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此边缘池的池完全限定域名 (FQDN) 以及其他基本设置。可以执行以下操作：
-ms.openlocfilehash: 5603b5efdc6172737f8027618fae1c7eacdfd15d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5f5cd5051288e496c9492de3df83c51c62b7036
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910796"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302588"
 ---
 # <a name="edge-server-scope-node"></a>边缘服务器范围节点
  

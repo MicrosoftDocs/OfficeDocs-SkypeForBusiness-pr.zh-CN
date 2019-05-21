@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Get CcApplianceStatus cmdlet 提供了商务云连接器版 appliance Skype 的诊断信息。
-ms.openlocfilehash: 2c5d261b1ea2282c9eb0d564a1d39638965d2948
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: CcApplianceStatus cmdlet 提供 Skype for Business 云连接器版设备的诊断信息。
+ms.openlocfilehash: b728ae51fba1b8f448cc161f3ea3fe5b89297488
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233776"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287340"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Get CcApplianceStatus cmdlet 提供了商务云连接器版 appliance Skype 的诊断信息。
+CcApplianceStatus cmdlet 提供 Skype for Business 云连接器版设备的诊断信息。
   
-此 cmdlet 适用于 Skype 的业务云连接器 Edition 2.1。
+此 cmdlet 适用于 Skype for Business 云连接器版本2.1。
   
 ```
     Get-CcApplianceStatus 
@@ -30,7 +30,7 @@ Get CcApplianceStatus cmdlet 提供了商务云连接器版 appliance Skype 的�
 
 ## <a name="detailed-description"></a>详细说明
 
-Get CcApplianceStatus cmdlet，云连接器主机计算机上，运行时提供商业云连接器 appliance Skype 诊断的信息。
+CcApplianceStatus cmdlet 在云连接器主机上运行时, 提供 Skype for business 云连接器装置的诊断信息。
   
 ## <a name="parameters"></a>参数
 
@@ -38,7 +38,7 @@ Get CcApplianceStatus cmdlet，云连接器主机计算机上，运行时提供�
   
 ## <a name="input-types"></a>输入类型
 
-无。 Get CcApplianceStatus cmdlet 不接受通过管道传递的输入。
+无。 CcApplianceStatus cmdlet 不接受流水线输入。
   
 ## <a name="return-types"></a>返回类型
 

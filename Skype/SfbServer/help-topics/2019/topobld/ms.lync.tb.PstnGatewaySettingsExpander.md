@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewaySettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
-ms.openlocfilehash: 1965251b3748de6a4d1366173561c8dec88bddce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e3f6b0f6e0afa4b28b384cfe9a64ac8bbd6ebc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919849"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302180"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 网关设置扩展器
  
@@ -30,6 +30,6 @@ SIP 传输协议可以是传输控制协议 (TCP)，也可以是传输层安全�
   
 选择是否为网关启用 IPv4 和 IPv6。
   
-**备用媒体 IP 地址**是中介服务器部署的 PSTN 网关有比通常专门用于 SIP 通信的默认配置 IP 地址的媒体流量的不同 IP 地址的定义。 如果定义此参数，则 PSTN 网关为媒体提供不同的网络接口或路径支持。 如果此地址留空，则 PSTN 网关不支持媒体的备用路径。
+**备用媒体 IP 地址**是中介服务器的定义, 其中部署的 PSTN 网关的媒体流量与默认配置的 ip 地址 (通常专用于 SIP 流量) 具有不同的 ip 地址。 如果定义此参数，则 PSTN 网关为媒体提供不同的网络接口或路径支持。 如果此地址留空，则 PSTN 网关不支持媒体的备用路径。
   
 

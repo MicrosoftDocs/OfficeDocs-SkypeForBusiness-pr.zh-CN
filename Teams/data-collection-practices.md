@@ -12,7 +12,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,100 +21,100 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Microsoft 收集统计、 使用和错误的数据，以了解如何使用 for Business 的 Skype 和其中用户遇到问题。 使用的数据来规划产品改进。
-ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Microsoft 会收集人口普查、使用情况和错误数据, 以了解 Skype for Business 的使用方式以及用户遇到问题的位置。 数据用于规划产品改进。
+ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218047"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281860"
 ---
-# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype 的业务和 Microsoft 团队数据集做法
+# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business 和 Microsoft 团队数据收集实践
 
-Skype 业务服务器和 Skype 的业务联机状态，以及对于业务和 Microsoft 团队的应用程序，Skype 收集数据以帮助 Microsoft 了解如何使用这些产品以及哪些类型的错误，例如，登录错误发生。 此信息可以帮助我们了解使用模式、 规划新功能，并排除和修复问题的区域。
+Skype for business Server 和 skype for business Online, 以及 Skype for business 和 Microsoft 团队应用, 收集数据, 以帮助 Microsoft 了解这些产品的使用情况以及出现的错误类型 (如登录错误)。 此信息可帮助我们了解使用模式、规划新功能以及解决问题和解决问题方面的问题。
 
-时自动收集的某些使用率数据，可以仅收集其他数据时的管理和/或用户选择允许它。 数据收集分为以下三个类别：
+虽然自动收集某些使用数据, 但仅当管理员和/或用户选择允许时, 才可以收集其他数据。 数据收集分为以下三个类别:
 
-- 统计数据
+- 人口普查数据
 
-- 使用率数据
+- 使用情况数据
 
 - 错误报告数据
 
-## <a name="census-data"></a>统计数据
+## <a name="census-data"></a>人口普查数据
 
-获取统计数据只是为了提供、 支持，以及改进业务的 Skype。 Microsoft 团队和 Skype for Business 联机。 它包括环境的信息，如设备和操作系统版本和区域和语言设置。 它还包括尝试登录时和失败的计数器。 下面是一些特定收集的统计数据的示例：
+人口普查数据只是为了提供、支持和改进 Skype for Business 而购买的。 Microsoft 团队和 Skype for business Online。 它包括环境信息 (如设备和操作系统版本) 以及区域和语言设置。 它还包括用于登录尝试和失败的计数器。 下面是收集的人口统计数据的一些具体示例:
 
 |**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
-|应用程序名称  <br/> |iPhoneSkype  <br/> ||
+|AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
 |OSName  <br/> |iPhoneiOS  <br/> ||
-|OSVersion  <br/> |8.3  <br/> ||
+|OSVersion  <br/> |8。3  <br/> ||
 |UserLanguage  <br/> |EN-US  <br/> ||
-|用户 Id  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |ID 哈希处理两次： 客户端上一次并再次遥测服务。 哈希值计算可确保不能链接到特定用户的 ID。  <br/> |
-|DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |设备 ID 是随机生成一次在设备上并发送到遥测服务的 GUID。  <br/> |
+|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |该 ID 被散列两次: 在客户端和遥测服务上再次执行。 哈希确保 ID 不能链接到特定用户。  <br/> |
+|Keyroutedeventargs.deviceid  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |设备 ID 是在设备上随机生成一次并发送到遥测服务的 GUID。  <br/> |
 
-统计数据不包含任何标识您的组织或用户的信息。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)的详细信息。
+人口普查数据不包含任何标识您的组织或用户的信息。 有关详细信息, 请参阅[Skype For Business 隐私声明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)。
 
-统计数据位于默认情况下，不能通过 admins 凭据或最终用户关闭。
+人口普查数据默认处于打开状态, 并且不能由管理员或最终用户关闭。
 
-## <a name="usage-data"></a>使用率数据
+## <a name="usage-data"></a>使用情况数据
 
-使用率数据包括如进行的呼叫数、 发送或接收 Im 数、 加入的会议数、 的功能使用，频率和稳定性问题的信息。
+使用情况数据包括呼叫次数、发送或接收的即时消息数、已加入的会议数、所用功能的频率以及稳定性问题等信息。
 
-使用率数据可能包含标识您的组织，例如，contoso.com 的信息。 下面是一些特定收集使用率数据的示例：
+使用数据可能包含标识您的组织的信息, 例如 contoso.com。 下面是收集的使用数据的一些特定示例:
 
 |**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
-|发送的 IM  <br/> |12  <br/> ||
-|接收 IM  <br/> |5  <br/> ||
-|加入会议 （尝试）  <br/> |5  <br/> ||
-|加入会议 （成功）  <br/> |4  <br/> ||
-|会议呼叫/分钟  <br/> |30 分钟  <br/> ||
-|FederationPartner  <br/> |Microsoft.com  <br/> |这是在 Office 365 中注册的组织的名称，以明文，这意味着不经过模糊处理传输。  <br/> |
+|发送即时消息  <br/> |至  <br/> ||
+|接收即时消息  <br/> |5  <br/> ||
+|加入会议 (尝试)  <br/> |5  <br/> ||
+|加入会议 (成功)  <br/> |4  <br/> ||
+|通话/会议分钟数  <br/> |30分钟  <br/> ||
+|FederationPartner  <br/> |Microsoft.com  <br/> |这是在 Office 365 中注册的组织的名称, 以明文形式发送, 这意味着不会对其进行模糊处理。  <br/> |
 
-使用率数据不包含任何标识用户的信息。
+使用情况数据不包含任何标识用户的信息。
 
-使用率数据集默认情况下，但本地管理员可以将其关闭业务服务器上 Skype 使用 DisableAutomaticSendTracing 组策略设置。 关闭此设置将影响组织中的所有用户。 有关详细信息，请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
+默认情况下, 使用情况数据收集处于打开状态, 但本地管理员可以使用 Skype for Business 服务器上的 DisableAutomaticSendTracing 组策略设置将其关闭。 关闭此设置将影响组织中的所有用户。 有关详细信息, 请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
 
-打开或关闭，最终用户无法启用使用率数据集。
+最终用户无法打开或关闭使用率数据收集。
 
-Skype 会议应用程序和联接启动器网页，控制遥测的方法是通过此策略：
+对于 Skype 会议应用和联接启动器网页, 控制遥测的方法是通过此策略:
 
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True`
 
-此策略默认为 false，因此默认情况下关闭为遥测集合。 此设置是每个池，并控制与 Skype 会议应用程序连接到该服务器上承载会议的所有用户。
+此策略默认为 false, 因此遥测集合在默认情况下处于关闭状态。 此设置为每个池, 并控制连接到 Skype 会议应用的所有用户与该服务器上托管的会议。
 
 ## <a name="error-reporting-data"></a>错误报告数据
 
-错误报告数据可以包括有关性能和可靠性、 设备配置、 网络连接质量，错误代码、 错误日志和异常的信息。 下面是一些特定错误报告收集的数据的示例：
+错误报告数据可以包括有关性能和可靠性、设备配置、网络连接质量、错误代码、错误日志和异常的信息。 下面是收集的错误报告数据的一些特定示例:
 
 |**数据类型**|**示例**|**注释**|
 |:-----|:-----|:-----|
-|消息方向  <br/> |传入  <br/> ||
-|会话状态  <br/> |空闲时间  <br/> ||
+|邮件方向  <br/> |拨  <br/> ||
+|对话状态  <br/> |着  <br/> ||
 |对话线程 ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
-|用户 Id  <br/> |amosmarble <br/> |ID 是以明文形式，其之前将其存储遥测服务进行哈希处理发送  <br/> |
+|UserID  <br/> |amosmarble <br/> |ID 以明文形式发送, 在存储之前遥测服务哈希  <br/> |
 
-错误报告数据可能还包含个人身份信息，例如用户的 IP 地址和会话初始协议统一资源标识符 (SIP URI)。 请参阅[业务隐私声明的 Skype](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)的什么收集的详细说明。
+错误报告数据也可能包含个人身份信息, 例如用户的 IP 地址和会话初始协议统一资源标识符 (SIP URI)。 有关收集的内容的详细说明, 请参阅[Skype For Business 隐私声明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)。
 
-错误报告需要以下两项：
+错误报告需要两个事项:
 
-- 在服务器上或租户管理员中心 （这是默认状态） DisableAutomaticSendTracing 组策略设置设置为 False。 有关详细信息，请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
+- DisableAutomaticSendTracing 组策略设置在服务器或租户管理中心 (这是默认状态) 下设置为 False。 有关详细信息, 请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
-- 最终用户单独常规选项卡中加入 (单击齿轮图标![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)，然后将**选项**对话框打开与显示**常规**选项卡) 中的商业客户端 Skype。
+- 最终用户从 "常规" 选项卡中逐个选择 "(单击![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)齿轮图标, **** 然后在 Skype for Business 客户端中显示"**常规**"选项卡)。
     
  
-![在常规选项 > 对话框中的业务数据集复选框的 Skype](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![选项 > "常规" 对话框中的 "Skype for business 数据收集" 复选框](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
-对于 Skype 会议应用程序，MeetingUxEnableTelemetry 还将控制错误报告，但对 Windows 上崩溃，Watson 设置控制上载崩溃信息。 在桌面客户端对话框中看到如 Skype 会议应用程序没有用户设置。
+对于 Skype 会议应用, MeetingUxEnableTelemetry 还控制错误报告功能, 但在 Windows 上崩溃时, Watson 设置控制上传崩溃信息。 在 "桌面客户端" 对话框中看不到 Skype 会议应用的用户设置。
 
-有关详细信息，请参阅[Skype for Business 中的常规设置选项](https://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439)。
+有关详细信息, 请参阅[在 Skype For business 中设置常规选项](https://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439)。
 
-您可以看到[设置业务 online Skype 的网络](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)设置您的网络。
+你可以参阅为[Skype for Business Online 设置网络](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)以设置你的网络。
 
-如果您使用的 Office 365 21Vianet 在中国由操作，请参阅[设置您的业务 online 由 21Vianet Skype 的网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
+如果您使用的是由中国的世纪互联运营的 Office 365, 请参阅[为由世纪互联运营的 Skype for Business Online 设置网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相关主题
 [客户体验改善计划](https://www.microsoft.com/products/ceip/default.mspx)

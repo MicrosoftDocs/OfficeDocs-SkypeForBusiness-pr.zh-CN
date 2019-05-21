@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Microsoft Teams 中向你的用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 445e783fde44b3067c1bc595fa93c623404e40db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bc73e6663d206bdf65cfb21a3462d364a8c0fd7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205057"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305314"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
@@ -45,30 +45,30 @@ ms.locfileid: "32205057"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![团队-徽标-30x30.png](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
 
 2. 在页面的顶部，单击**编辑**。
 
-3. 在**音频会议**，单击**发送电子邮件中的会议信息**。
+3. 在 "**音频会议**" 下, 单击 "**通过电子邮件发送会议信息**"。
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>此电子邮件的其他须知事项。
 
-- 有多个电子邮件发送给组织中的用户启用了后为音频会议：
+- 在为您的组织中的用户启用音频会议后, 会向他们发送多封电子邮件:
     
   - 向其分配**音频会议**许可证时。
     
-  - 当您手动重置用户的音频会议 PIN。
+  - 当您手动重置用户的音频会议 PIN 时。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 当**音频会议**许可证已从它们。
+  - 删除**音频会议**许可证后。
     
-  - 当用户音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
+  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供商或 "**无**" 时。
     
-  - 向 Microsoft 更改时用户音频会议提供商。
+  - 当用户的音频会议提供商更改为 Microsoft 时。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

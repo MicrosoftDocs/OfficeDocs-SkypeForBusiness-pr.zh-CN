@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 2f4ebb4389e8aa863d45197299fc0d9254abe8a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bd4cbb507bff025f7133673c25f59beada37aeb5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888693"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284408"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -48,7 +48,7 @@ ms.locfileid: "33888693"
 
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择电话拨入式 (PSTN) 会议。可以在本节后面的“中介服务器设置”子节下指定并定义公用电话交换网 (PSTN) 网关。
 
-  - **企业语音**。 启用业务客户端通过 IP 限定的话筒设备和 Skype 调用内部语音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 对合格的手机和设备以及 Skype for business 客户端启用通过 IP 拨出的内部语音通话。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
 
 - 在“**关联**”中，编辑或指定以下内容：
 
@@ -101,7 +101,7 @@ ms.locfileid: "33888693"
 对于“**内部 Web 服务**”，请指定以下内容：
 
 > [!CAUTION]
-> 如果您有多个前端池或前端服务器，外部 Web 服务 FQDN 必须是唯一的。 例如，如果您定义的外部 Web 服务的前端服务器的 FQDN 为**pool01.contoso.com**，不能使用**pool01.contoso.com** ，另一个前端池或前端服务器。 如果您还部署控制器、 外部 Web 服务 FQDN 定义任何控制器或控制器池必须不同于任何其他控制器或控制器池，如也来任何前端池或前端服务器。 如果您决定覆盖内部 web 服务与自定义的 FQDN，每个 FQDN 必须是唯一从任何其他前端池、 控制器或控制器池。
+> 如果您有多个前端池或前端服务器, 则外部 Web 服务 FQDN 必须是唯一的。 例如, 如果你将前端服务器的外部 Web 服务 FQDN 定义为**pool01.contoso.com**, 则不能将**Pool01.contoso.com**用于其他前端池或前端服务器。 如果你还部署控制器, 则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须是任何其他 Director 或控制器池以及任何前端池或前端服务器的唯一。 如果你决定使用自定义的 FQDN 替代内部 web 服务, 则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。
 
 - 如果选择“**覆盖 FQDN**”，则可以为池上的“**内部 Web 服务**”标识指定不同的 FQDN。默认情况下，该设置是为前端池定义的当前池名称。
 
@@ -111,7 +111,7 @@ ms.locfileid: "33888693"
 
 - 外部 Web 服务的 FQDN。此处指定的 FQDN 通常由外部连接要求（如反向代理）定义。
 
-- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常，这些不需要更改，除非存在冲突的池上的端口要求。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
+- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常情况下, 不需要更改这些项, 除非对池的端口要求有冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
 
 ### <a name="mediation-server"></a>中介服务器
 
@@ -145,7 +145,7 @@ ms.locfileid: "33888693"
 
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择“**电话拨入式 (PSTN) 会议**”。稍后可以在中介服务器设置下指定并定义 PSTN 网关。
 
-  - **企业语音**。 启用业务客户端通过 IP 限定的话筒设备和 Skype 调用内部语音。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 对合格的手机和设备以及 Skype for business 客户端启用通过 IP 拨出的内部语音通话。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
 
 - 在“**关联**”中，可以编辑或指定以下内容：
 
