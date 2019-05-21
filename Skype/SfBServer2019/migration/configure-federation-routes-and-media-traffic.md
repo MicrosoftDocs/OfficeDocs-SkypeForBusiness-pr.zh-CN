@@ -4,177 +4,177 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 联盟是两个或多个 SIP 域，它允许不同组织跨网络边界进行通信中的用户之间的信任关系。 迁移到试点池后，您需要转换您 Skype 的联盟路由到您旧版边缘服务器的联盟路由从业务 Server 2019 边缘服务器。
-ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 联盟是两个或多个 SIP 域之间的信任关系, 这些 SIP 域允许单独组织中的用户通过网络边界进行通信。 迁移到你的试点池后, 你需要从你以前的版本 Edge 服务器的联盟路径切换到 Skype for business Server 2019 Edge 服务器的联合路线。
+ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238742"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298317"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a><span data-ttu-id="4dd08-104">配置联合路由和媒体流量</span><span class="sxs-lookup"><span data-stu-id="4dd08-104">Configure federation routes and media traffic</span></span>
+# <a name="configure-federation-routes-and-media-traffic"></a><span data-ttu-id="3bf85-104">配置联合路由和媒体流量</span><span class="sxs-lookup"><span data-stu-id="3bf85-104">Configure federation routes and media traffic</span></span>
 
-<span data-ttu-id="4dd08-105">联盟是两个或多个 SIP 域，它允许不同组织跨网络边界进行通信中的用户之间的信任关系。</span><span class="sxs-lookup"><span data-stu-id="4dd08-105">Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries.</span></span> <span data-ttu-id="4dd08-106">迁移到试点池后，您在需要转换到您的 Skype 的联盟路由的早期版本的边缘服务器联盟路由从业务 Server 2019 边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="4dd08-106">After you migrate to your pilot pool, you need to transition from the federation route of your previous version's Edge Servers to the federation route of your Skype for Business Server 2019 Edge Servers.</span></span>
+<span data-ttu-id="3bf85-105">联盟是两个或多个 SIP 域之间的信任关系, 这些 SIP 域允许单独组织中的用户通过网络边界进行通信。</span><span class="sxs-lookup"><span data-stu-id="3bf85-105">Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries.</span></span> <span data-ttu-id="3bf85-106">迁移到试验池后, 您需要从您以前版本的边缘服务器的联盟路径切换到 Skype for business Server 2019 Edge 服务器的联盟路线。</span><span class="sxs-lookup"><span data-stu-id="3bf85-106">After you migrate to your pilot pool, you need to transition from the federation route of your previous version's Edge Servers to the federation route of your Skype for Business Server 2019 Edge Servers.</span></span>
   
-<span data-ttu-id="4dd08-107">使用以下过程的联盟路由和媒体流量路由从早期版本的边缘服务器和控制器到您的 Skype 业务 Server 2019 边缘服务器，转换为单站点部署。</span><span class="sxs-lookup"><span data-stu-id="4dd08-107">Use the following procedures to transition the federation route and the media traffic route from your previous version's Edge Server and Director to your Skype for Business Server 2019 Edge Server, for a single-site deployment.</span></span>
+<span data-ttu-id="3bf85-107">使用以下过程可将你以前版本的 Edge 服务器和控制器中的联盟路由和媒体流量路由转换到 Skype for business Server 2019 Edge 服务器 (对于单站点部署)。</span><span class="sxs-lookup"><span data-stu-id="3bf85-107">Use the following procedures to transition the federation route and the media traffic route from your previous version's Edge Server and Director to your Skype for Business Server 2019 Edge Server, for a single-site deployment.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="4dd08-108">更改联盟路由和媒体流量路由需要业务服务器 2019年和早期版本边缘服务器的 Skype 安排维护停机时间。</span><span class="sxs-lookup"><span data-stu-id="4dd08-108">Changing the federation route and media traffic route requires that you schedule maintenance downtime for the Skype for Business Server 2019 and previous version Edge Servers.</span></span> <span data-ttu-id="4dd08-109">此整个转换过程还意味着联盟的访问将不可用中断的持续时间内。</span><span class="sxs-lookup"><span data-stu-id="4dd08-109">This entire transition process also means that federated access will be unavailable for the duration of the outage.</span></span> <span data-ttu-id="4dd08-110">当您预期最少的用户活动的时间，应安排停机时间。</span><span class="sxs-lookup"><span data-stu-id="4dd08-110">You should schedule the downtime for a time when you expect minimal user activity.</span></span> <span data-ttu-id="4dd08-111">您还应向最终用户提供足够的通知。</span><span class="sxs-lookup"><span data-stu-id="4dd08-111">You should also provide sufficient notification to your end users.</span></span> <span data-ttu-id="4dd08-112">此中断并设置适当的相应规划组织内的预期。</span><span class="sxs-lookup"><span data-stu-id="4dd08-112">Plan accordingly for this outage and set appropriate expectations within your organization.</span></span> 
+> <span data-ttu-id="3bf85-108">更改联盟路由和媒体流量路由需要你为 Skype for Business Server 2019 和早期版本 Edge 服务器安排维护停机时间。</span><span class="sxs-lookup"><span data-stu-id="3bf85-108">Changing the federation route and media traffic route requires that you schedule maintenance downtime for the Skype for Business Server 2019 and previous version Edge Servers.</span></span> <span data-ttu-id="3bf85-109">此整个过渡过程还意味着, 在中断期间, 联盟访问将不可用。</span><span class="sxs-lookup"><span data-stu-id="3bf85-109">This entire transition process also means that federated access will be unavailable for the duration of the outage.</span></span> <span data-ttu-id="3bf85-110">你应该将停机时间安排为预计最少的用户活动。</span><span class="sxs-lookup"><span data-stu-id="3bf85-110">You should schedule the downtime for a time when you expect minimal user activity.</span></span> <span data-ttu-id="3bf85-111">你还应向最终用户提供足够的通知。</span><span class="sxs-lookup"><span data-stu-id="3bf85-111">You should also provide sufficient notification to your end users.</span></span> <span data-ttu-id="3bf85-112">为此停机安排相应的计划, 并在你的组织内设置适当的期望值。</span><span class="sxs-lookup"><span data-stu-id="3bf85-112">Plan accordingly for this outage and set appropriate expectations within your organization.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="4dd08-113">如果旧版边缘服务器配置为使用相同的 FQDN 为访问边缘服务、 Web 会议边缘服务和 A / V 边缘服务，本节中的过程不受支持。</span><span class="sxs-lookup"><span data-stu-id="4dd08-113">If your legacy Edge Server is configured to use the same FQDN for the Access Edge service, Web Conferencing Edge service, and the A/V Edge service, the procedures in this section are not supported.</span></span> <span data-ttu-id="4dd08-114">如果旧的边缘服务配置为使用相同的 FQDN，您必须首先迁移所有用户，然后在启用 Business Server 2019 边缘服务器上的 Skype 联合身份验证之前停用旧版边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="4dd08-114">If the legacy Edge services are configured to use the same FQDN, you must first migrate all your users, then decommission the previous versions Edge Server before enabling federation on the Skype for Business Server 2019 Edge Server.</span></span> 
+> <span data-ttu-id="3bf85-113">如果你的旧版 Edge 服务器配置为对访问边缘服务使用相同的 FQDN、Web 会议边缘服务和 A/V 边缘服务, 则不支持本部分中的过程。</span><span class="sxs-lookup"><span data-stu-id="3bf85-113">If your legacy Edge Server is configured to use the same FQDN for the Access Edge service, Web Conferencing Edge service, and the A/V Edge service, the procedures in this section are not supported.</span></span> <span data-ttu-id="3bf85-114">如果将旧边缘服务配置为使用相同的 FQDN, 则必须首先迁移所有用户, 然后在 Skype for business Server 2019 Edge 服务器上启用联盟之前, 取消以前版本的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="3bf85-114">If the legacy Edge services are configured to use the same FQDN, you must first migrate all your users, then decommission the previous versions Edge Server before enabling federation on the Skype for Business Server 2019 Edge Server.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="4dd08-115">如果 XMPP 联盟路由通过 Skype 业务 Server 2019 边缘服务器，在早期版本的用户将不能与 XMPP 联盟伙伴进行通信，直到所有用户都移动到 Skype 的业务服务器 2019，XMPP 策略和已配置证书、 已进行了业务服务器 2019 Skype 上配置 XMPP 联盟的伙伴和最后，已更新 DNS 条目。</span><span class="sxs-lookup"><span data-stu-id="4dd08-115">If your XMPP federation is routed through a Skype for Business Server 2019 Edge Server, users on the previous version will not be able to communicate with the XMPP federated partner until all users have been moved to Skype for Business Server 2019, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Skype for Business Server 2019, and, lastly, the DNS entries have been updated.</span></span> 
+> <span data-ttu-id="3bf85-115">如果你的 XMPP 联盟通过 Skype for Business Server 2019 Edge 服务器路由, 则以前版本中的用户将无法与 XMPP 联盟合作伙伴通信, 直到所有用户都已移动到 Skype for Business Server 2019、XMPP 策略和证书已配置, XMPP 联盟合作伙伴已在 Skype for Business Server 2019 上配置, 最后, 已更新 DNS 条目。</span><span class="sxs-lookup"><span data-stu-id="3bf85-115">If your XMPP federation is routed through a Skype for Business Server 2019 Edge Server, users on the previous version will not be able to communicate with the XMPP federated partner until all users have been moved to Skype for Business Server 2019, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Skype for Business Server 2019, and, lastly, the DNS entries have been updated.</span></span> 
   
-## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a><span data-ttu-id="4dd08-116">若要从 Skype 业务服务器 2019年网站中删除旧联盟关联</span><span class="sxs-lookup"><span data-stu-id="4dd08-116">To remove the legacy federation association from Skype for Business Server 2019 sites</span></span>
+## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a><span data-ttu-id="3bf85-116">从 Skype for Business Server 2019 网站中删除旧式联合身份验证关联</span><span class="sxs-lookup"><span data-stu-id="3bf85-116">To remove the legacy federation association from Skype for Business Server 2019 sites</span></span>
 
-1. <span data-ttu-id="4dd08-117">业务服务器 2019年前端服务器的 Skype，在拓扑生成器中打开现有拓扑。</span><span class="sxs-lookup"><span data-stu-id="4dd08-117">On the Skype for Business Server 2019 Front End server, open the existing topology in Topology Builder.</span></span> 
+1. <span data-ttu-id="3bf85-117">在 Skype for business 服务器2019前端服务器上, 在拓扑生成器中打开现有拓扑。</span><span class="sxs-lookup"><span data-stu-id="3bf85-117">On the Skype for Business Server 2019 Front End server, open the existing topology in Topology Builder.</span></span> 
     
-2. <span data-ttu-id="4dd08-118">在左窗格中，导航到网站节点，位于**Skype 业务服务器**的正下方。</span><span class="sxs-lookup"><span data-stu-id="4dd08-118">In the left pane, navigate to the site node, which is located directly below **Skype for Business Server**.</span></span>
+2. <span data-ttu-id="3bf85-118">在左窗格中, 导航到位于 " **Skype For business" 服务器**正下方的 "网站" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-118">In the left pane, navigate to the site node, which is located directly below **Skype for Business Server**.</span></span>
     
-3. <span data-ttu-id="4dd08-119">右键单击站点，，，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-119">Right-click the site, and then click **Edit Properties**.</span></span>
+3. <span data-ttu-id="3bf85-119">右键单击网站, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-119">Right-click the site, and then click **Edit Properties**.</span></span>
     
-4. <span data-ttu-id="4dd08-120">在左窗格中，选择**联盟路由**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-120">In the left pane, select **Federation route**.</span></span> 
+4. <span data-ttu-id="3bf85-120">在左窗格中, 选择 "**联盟路由**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-120">In the left pane, select **Federation route**.</span></span> 
     
-5. <span data-ttu-id="4dd08-121">在**站点联盟路由分配**下，请清除**启用 SIP 联盟**复选框，若要禁用联盟路由通过旧环境。</span><span class="sxs-lookup"><span data-stu-id="4dd08-121">Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy environment.</span></span> 
+5. <span data-ttu-id="3bf85-121">在 "**站点联合路由分配**" 下, 清除 "**启用 SIP 联盟**" 复选框以通过旧环境禁用联盟路由。</span><span class="sxs-lookup"><span data-stu-id="3bf85-121">Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy environment.</span></span> 
   
-6. <span data-ttu-id="4dd08-122">单击**确定**以关闭编辑属性页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-122">Click **OK** to close the Edit Properties page.</span></span> 
+6. <span data-ttu-id="3bf85-122">单击 **"确定"** 以关闭 "编辑属性" 页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-122">Click **OK** to close the Edit Properties page.</span></span> 
     
-7. <span data-ttu-id="4dd08-123">从**拓扑生成器**中，选择顶层节点**Skype 业务服务器**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-123">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span>
+7. <span data-ttu-id="3bf85-123">从**拓扑生成器**中, 选择顶部节点**Skype for business 服务器**。</span><span class="sxs-lookup"><span data-stu-id="3bf85-123">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span>
     
-8. <span data-ttu-id="4dd08-124">从**操作**菜单中，单击**发布拓扑**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-124">From the **Action** menu, click **Publish Topology**.</span></span>
+8. <span data-ttu-id="3bf85-124">从 "**操作**" 菜单中, 单击 "**发布拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-124">From the **Action** menu, click **Publish Topology**.</span></span>
     
-9. <span data-ttu-id="4dd08-125">**下一步**完成发布过程中，单击，然后单击**完成**完成发布过程后。</span><span class="sxs-lookup"><span data-stu-id="4dd08-125">Click **Next** to complete the publishing process, and then click **Finish** when the publishing process has completed.</span></span> 
+9. <span data-ttu-id="3bf85-125">单击 "**下一步**" 完成发布过程, 然后在发布过程完成时单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-125">Click **Next** to complete the publishing process, and then click **Finish** when the publishing process has completed.</span></span> 
     
-## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a><span data-ttu-id="4dd08-126">若要配置为非联盟边缘服务器的旧的边缘服务器</span><span class="sxs-lookup"><span data-stu-id="4dd08-126">To configure the legacy Edge Server as a non-federating Edge Server</span></span>
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a><span data-ttu-id="3bf85-126">将旧式边缘服务器配置为非联合边缘服务器</span><span class="sxs-lookup"><span data-stu-id="3bf85-126">To configure the legacy Edge Server as a non-federating Edge Server</span></span>
 
-1. <span data-ttu-id="4dd08-127">在左窗格中，依次导航到旧安装节点和**边缘池**节点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-127">In the left pane, navigate to the legacy install node and then to the **Edge pools** node.</span></span> 
+1. <span data-ttu-id="3bf85-127">在左窗格中, 导航到 "旧安装" 节点, 然后导航到 "**边缘池**" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-127">In the left pane, navigate to the legacy install node and then to the **Edge pools** node.</span></span> 
     
-2. <span data-ttu-id="4dd08-128">右键单击边缘服务器，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-128">Right-click the Edge server, and then click **Edit Properties**.</span></span>
+2. <span data-ttu-id="3bf85-128">右键单击边缘服务器, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-128">Right-click the Edge server, and then click **Edit Properties**.</span></span>
     
-3. <span data-ttu-id="4dd08-129">在左窗格中，选择**常规**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-129">Select **General** in the left pane.</span></span> 
+3. <span data-ttu-id="3bf85-129">在左窗格中选择 "**常规**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-129">Select **General** in the left pane.</span></span> 
     
-4. <span data-ttu-id="4dd08-130">清除**为此边缘池 （端口 5061） 启用联盟**复选框，然后选择**确定**关闭页面。</span><span class="sxs-lookup"><span data-stu-id="4dd08-130">Clear the **Enable federation for this Edge pool (port 5061)** check box and select **OK** to close the page.</span></span> 
+4. <span data-ttu-id="3bf85-130">清除 "**为此 Edge 池启用联盟 (端口 5061)** " 复选框, 然后选择 **"确定"** 关闭页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-130">Clear the **Enable federation for this Edge pool (port 5061)** check box and select **OK** to close the page.</span></span> 
   
-5. <span data-ttu-id="4dd08-131">从**操作**菜单中，选择**发布拓扑**，，然后单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-131">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
+5. <span data-ttu-id="3bf85-131">从 "**操作**" 菜单中, 选择 "**发布拓扑**", 然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-131">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
     
-6. <span data-ttu-id="4dd08-132">**发布向导**完成后，单击**完成**以关闭向导。</span><span class="sxs-lookup"><span data-stu-id="4dd08-132">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span> 
+6. <span data-ttu-id="3bf85-132">**发布向导**完成后, 单击 "**完成**" 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="3bf85-132">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span> 
     
-7. <span data-ttu-id="4dd08-133">验证在拓扑生成器中已禁用旧边缘服务器的联盟。</span><span class="sxs-lookup"><span data-stu-id="4dd08-133">Verify that federation for the legacy Edge server is disabled in Topology Builder.</span></span>
+7. <span data-ttu-id="3bf85-133">验证拓扑生成器中是否已禁用旧版 Edge 服务器的联盟。</span><span class="sxs-lookup"><span data-stu-id="3bf85-133">Verify that federation for the legacy Edge server is disabled in Topology Builder.</span></span>
   
-## <a name="to-configure-certificates-on-the-legacy-edge-server"></a><span data-ttu-id="4dd08-134">在旧边缘服务器上配置证书</span><span class="sxs-lookup"><span data-stu-id="4dd08-134">To configure certificates on the legacy Edge Server</span></span>
+## <a name="to-configure-certificates-on-the-legacy-edge-server"></a><span data-ttu-id="3bf85-134">在旧版边缘服务器上配置证书</span><span class="sxs-lookup"><span data-stu-id="3bf85-134">To configure certificates on the legacy Edge Server</span></span>
 
-1. <span data-ttu-id="4dd08-135">导出外部访问代理证书及私钥，从旧的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="4dd08-135">Export the external Access Proxy certificate, with the private key, from the legacy Edge Server.</span></span> 
+1. <span data-ttu-id="3bf85-135">从旧边缘服务器导出外部访问代理服务器证书和私钥。</span><span class="sxs-lookup"><span data-stu-id="3bf85-135">Export the external Access Proxy certificate, with the private key, from the legacy Edge Server.</span></span> 
     
-2. <span data-ttu-id="4dd08-136">在业务 2019年边缘服务器和导入的 Skype 的访问代理外部证书上一步。</span><span class="sxs-lookup"><span data-stu-id="4dd08-136">On the Skype for Business Server 2019 Edge Server, and import the Access Proxy external certificate from the previous step.</span></span>
+2. <span data-ttu-id="3bf85-136">在 Skype for Business Server 2019 Edge 服务器上, 然后从上一步导入 "访问代理服务器外部证书"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-136">On the Skype for Business Server 2019 Edge Server, and import the Access Proxy external certificate from the previous step.</span></span>
     
-3. <span data-ttu-id="4dd08-137">将访问代理外部证书分配给边缘服务器外部接口业务服务器 2019 Skype。</span><span class="sxs-lookup"><span data-stu-id="4dd08-137">Assign the Access Proxy external certificate to the Skype for Business Server 2019 external interface of the Edge Server.</span></span>
+3. <span data-ttu-id="3bf85-137">将访问代理服务器外部证书分配给 Edge 服务器的 Skype for business Server 2019 外部接口。</span><span class="sxs-lookup"><span data-stu-id="3bf85-137">Assign the Access Proxy external certificate to the Skype for Business Server 2019 external interface of the Edge Server.</span></span>
     
-4. <span data-ttu-id="4dd08-138">应从受信任的 CA 请求和分配 Skype 业务 Server 2019 边缘服务器的内部接口证书。</span><span class="sxs-lookup"><span data-stu-id="4dd08-138">The internal interface certificate of the Skype for Business Server 2019 Edge Server should be requested from a trusted CA and assigned.</span></span> 
+4. <span data-ttu-id="3bf85-138">应从受信任的 CA 请求并分配 Skype for business Server 2019 Edge 服务器的内部界面证书。</span><span class="sxs-lookup"><span data-stu-id="3bf85-138">The internal interface certificate of the Skype for Business Server 2019 Edge Server should be requested from a trusted CA and assigned.</span></span> 
     
-## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a><span data-ttu-id="4dd08-139">早期版本的联盟路由更改为 Skype 用于业务 Server 2019 边缘服务器</span><span class="sxs-lookup"><span data-stu-id="4dd08-139">To change the previous version's federation route to use Skype for Business Server 2019 Edge Server</span></span>
+## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a><span data-ttu-id="3bf85-139">将以前版本的联合身份验证路由更改为使用 Skype for Business Server 2019 Edge 服务器</span><span class="sxs-lookup"><span data-stu-id="3bf85-139">To change the previous version's federation route to use Skype for Business Server 2019 Edge Server</span></span>
 
-1. <span data-ttu-id="4dd08-140">从拓扑生成器的左窗格中导航到**业务服务器 2019年的 Skype**节点和**边缘池**节点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-140">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
+1. <span data-ttu-id="3bf85-140">在 "拓扑生成器" 中, 在左窗格中, 导航到 " **Skype For Business 服务器 2019** " 节点, 然后导航到 "**边缘池**" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-140">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
     
-2. <span data-ttu-id="4dd08-141">右键单击边缘服务器，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-141">Right-click the Edge server, and then click **Edit Properties**.</span></span>
+2. <span data-ttu-id="3bf85-141">右键单击边缘服务器, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-141">Right-click the Edge server, and then click **Edit Properties**.</span></span>
     
-3. <span data-ttu-id="4dd08-142">在左窗格中，选择**常规**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-142">Select **General** in the left pane.</span></span> 
+3. <span data-ttu-id="3bf85-142">在左窗格中选择 "**常规**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-142">Select **General** in the left pane.</span></span> 
     
-4. <span data-ttu-id="4dd08-143">对于**为此边缘池 （端口 5061） 启用联盟**，请选中复选框，然后单击**确定**以关闭页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-143">Select the check box for **Enable federation for this Edge pool (port 5061)**, and then click **OK** to close the page.</span></span> 
+4. <span data-ttu-id="3bf85-143">选中 "为**此 Edge 池启用联盟 (端口 5061)**" 复选框, 然后单击 **"确定"** 关闭页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-143">Select the check box for **Enable federation for this Edge pool (port 5061)**, and then click **OK** to close the page.</span></span> 
   
-5. <span data-ttu-id="4dd08-144">从**操作**菜单中，选择**发布拓扑**，，然后单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-144">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
+5. <span data-ttu-id="3bf85-144">从 "**操作**" 菜单中, 选择 "**发布拓扑**", 然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-144">From the **Action** menu, select **Publish Topology**, and then click **Next**.</span></span>
     
-6. <span data-ttu-id="4dd08-145">**发布向导**完成后，单击**完成**以关闭向导。</span><span class="sxs-lookup"><span data-stu-id="4dd08-145">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span> 
+6. <span data-ttu-id="3bf85-145">**发布向导**完成后, 单击 "**完成**" 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="3bf85-145">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span> 
     
-7. <span data-ttu-id="4dd08-146">确认**联盟 （端口 5061）** 设置为**已启用**在拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="4dd08-146">Verify that **Federation (port 5061)** is set to **Enabled** in Topology Builder.</span></span>
+7. <span data-ttu-id="3bf85-146">验证在拓扑结构生成器中是否已将 "**联盟" (端口 5061)** 设置为 "**已启用**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-146">Verify that **Federation (port 5061)** is set to **Enabled** in Topology Builder.</span></span>
     
   
-## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a><span data-ttu-id="4dd08-147">若要更新 Skype 业务 Server 2019 边缘服务器联盟下一个跃点</span><span class="sxs-lookup"><span data-stu-id="4dd08-147">To update Skype for Business Server 2019 Edge Server federation next hop</span></span>
+## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a><span data-ttu-id="3bf85-147">更新 Skype for Business Server 2019 Edge 服务器联合身份验证下一跃点</span><span class="sxs-lookup"><span data-stu-id="3bf85-147">To update Skype for Business Server 2019 Edge Server federation next hop</span></span>
 
-1. <span data-ttu-id="4dd08-148">从拓扑生成器的左窗格中导航到**业务服务器 2019年的 Skype**节点和**边缘池**节点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-148">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
+1. <span data-ttu-id="3bf85-148">在 "拓扑生成器" 中, 在左窗格中, 导航到 " **Skype For Business 服务器 2019** " 节点, 然后导航到 "**边缘池**" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-148">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
     
-2. <span data-ttu-id="4dd08-149">展开节点，右键单击列出，边缘服务器，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-149">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span> 
+2. <span data-ttu-id="3bf85-149">展开节点, 右键单击列出的边缘服务器, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-149">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span> 
     
-3. <span data-ttu-id="4dd08-150">在**常规**页面，**下一个跃点选择**下，从列表中选择下拉业务服务器 2019年池 Skype。</span><span class="sxs-lookup"><span data-stu-id="4dd08-150">On the **General** page, under **Next hop selection**, select from the drop-down list the Skype for Business Server 2019 pool.</span></span>
+3. <span data-ttu-id="3bf85-150">在 "**常规**" 页面上的 "**下一跃点选择**" 下, 从下拉列表中选择 Skype for business Server 2019 池。</span><span class="sxs-lookup"><span data-stu-id="3bf85-150">On the **General** page, under **Next hop selection**, select from the drop-down list the Skype for Business Server 2019 pool.</span></span>
   
-4. <span data-ttu-id="4dd08-151">单击**确定**以关闭编辑属性页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-151">Click **OK** to close the Edit Properties page.</span></span> 
+4. <span data-ttu-id="3bf85-151">单击 **"确定"** 以关闭 "编辑属性" 页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-151">Click **OK** to close the Edit Properties page.</span></span> 
     
-5. <span data-ttu-id="4dd08-152">从**拓扑生成器**中，选择顶层节点**Skype 业务服务器**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-152">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span> 
+5. <span data-ttu-id="3bf85-152">从**拓扑生成器**中, 选择顶部节点**Skype for business 服务器**。</span><span class="sxs-lookup"><span data-stu-id="3bf85-152">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span> 
     
-6. <span data-ttu-id="4dd08-153">从**操作**菜单中，单击**发布拓扑**并完成向导。</span><span class="sxs-lookup"><span data-stu-id="4dd08-153">From the **Action** menu, click **Publish Topology** and complete the wizard.</span></span> 
+6. <span data-ttu-id="3bf85-153">从 "**操作**" 菜单中, 单击 "**发布拓扑**" 并完成向导。</span><span class="sxs-lookup"><span data-stu-id="3bf85-153">From the **Action** menu, click **Publish Topology** and complete the wizard.</span></span> 
     
-## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a><span data-ttu-id="4dd08-154">若要配置 Skype 业务 Server 2019 边缘服务器出站媒体路径</span><span class="sxs-lookup"><span data-stu-id="4dd08-154">To configure Skype for Business Server 2019 Edge Server outbound media path</span></span>
+## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a><span data-ttu-id="3bf85-154">配置 Skype for Business Server 2019 Edge 服务器出站媒体路径</span><span class="sxs-lookup"><span data-stu-id="3bf85-154">To configure Skype for Business Server 2019 Edge Server outbound media path</span></span>
 
-1. <span data-ttu-id="4dd08-155">从拓扑生成器的左窗格中导航到**业务服务器 2019年的 Skype**节点和**Standard Edition 前端服务器**或**Enterprise Edition 前端池**下方的池。</span><span class="sxs-lookup"><span data-stu-id="4dd08-155">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the pool below **Standard Edition Front End Servers** or **Enterprise Edition Front End pools**.</span></span>
+1. <span data-ttu-id="3bf85-155">从拓扑生成器的左窗格中, 导航到**Skype For Business Server 2019**节点, 然后导航到**标准版前端服务器**或**企业版前端池**下的池。</span><span class="sxs-lookup"><span data-stu-id="3bf85-155">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the pool below **Standard Edition Front End Servers** or **Enterprise Edition Front End pools**.</span></span>
     
-2. <span data-ttu-id="4dd08-156">右键单击池，，，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-156">Right-click the pool, and then click **Edit Properties**.</span></span>
+2. <span data-ttu-id="3bf85-156">右键单击该池, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-156">Right-click the pool, and then click **Edit Properties**.</span></span>
     
-3. <span data-ttu-id="4dd08-157">在**关联**部分中，选择**关联边缘池 （用于媒体组件）** 复选框。</span><span class="sxs-lookup"><span data-stu-id="4dd08-157">In the **Associations** section, select the **Associate Edge pool (for media components)** check box.</span></span> 
+3. <span data-ttu-id="3bf85-157">在 "**关联**" 部分中, 选择 "**关联边缘池 (适用于媒体组件)** " 复选框。</span><span class="sxs-lookup"><span data-stu-id="3bf85-157">In the **Associations** section, select the **Associate Edge pool (for media components)** check box.</span></span> 
   
-4. <span data-ttu-id="4dd08-158">从下拉列表框中，选择 Skype 业务 Server 2019 边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="4dd08-158">From the drop-down box, select the Skype for Business Server 2019 Edge Server.</span></span>
+4. <span data-ttu-id="3bf85-158">从下拉框中, 选择 Skype for Business Server 2019 Edge 服务器。</span><span class="sxs-lookup"><span data-stu-id="3bf85-158">From the drop-down box, select the Skype for Business Server 2019 Edge Server.</span></span>
     
-5. <span data-ttu-id="4dd08-159">单击**确定**以关闭**编辑属性**页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-159">Click **OK** to close the **Edit Properties** page.</span></span> 
+5. <span data-ttu-id="3bf85-159">单击 **"确定"** 以关闭 "**编辑属性**" 页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-159">Click **OK** to close the **Edit Properties** page.</span></span> 
     
-## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a><span data-ttu-id="4dd08-160">打开 Skype 业务 Server 2019 边缘服务器联盟</span><span class="sxs-lookup"><span data-stu-id="4dd08-160">To turn on Skype for Business Server 2019 Edge Server federation</span></span>
+## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a><span data-ttu-id="3bf85-160">打开 Skype for Business Server 2019 Edge 服务器联合体</span><span class="sxs-lookup"><span data-stu-id="3bf85-160">To turn on Skype for Business Server 2019 Edge Server federation</span></span>
 
-1. <span data-ttu-id="4dd08-161">从拓扑生成器的左窗格中导航到**业务服务器 2019年的 Skype**节点和**边缘池**节点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-161">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
+1. <span data-ttu-id="3bf85-161">在 "拓扑生成器" 中, 在左窗格中, 导航到 " **Skype For Business 服务器 2019** " 节点, 然后导航到 "**边缘池**" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-161">From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node.</span></span> 
     
-2. <span data-ttu-id="4dd08-162">展开节点，右键单击列出，边缘服务器，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-162">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span> 
+2. <span data-ttu-id="3bf85-162">展开节点, 右键单击列出的边缘服务器, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-162">Expand the node, right-click the Edge Server listed, and then click **Edit Properties**.</span></span> 
     
     > [!NOTE]
-    > <span data-ttu-id="4dd08-163">仅可以为单个边缘池启用联盟。</span><span class="sxs-lookup"><span data-stu-id="4dd08-163">Federation can only be enabled for a single Edge pool.</span></span> <span data-ttu-id="4dd08-164">如果您有多个边缘池，请选择一个要用作联盟的边缘池。</span><span class="sxs-lookup"><span data-stu-id="4dd08-164">If you have multiple Edge pools, select one to use as the federating Edge pool.</span></span> 
+    > <span data-ttu-id="3bf85-163">仅可对单个边缘池启用联合身份验证。</span><span class="sxs-lookup"><span data-stu-id="3bf85-163">Federation can only be enabled for a single Edge pool.</span></span> <span data-ttu-id="3bf85-164">如果你有多个边缘池, 请选择一个以用作联盟边缘池。</span><span class="sxs-lookup"><span data-stu-id="3bf85-164">If you have multiple Edge pools, select one to use as the federating Edge pool.</span></span> 
   
-3. <span data-ttu-id="4dd08-165">在**常规**页上，验证已选中**为此边缘池 (端口 5061) 启用联盟**复选框。</span><span class="sxs-lookup"><span data-stu-id="4dd08-165">On the **General** page, verify that the **Enable federation for this Edge pool (Port 5061)** check box is selected.</span></span> 
+3. <span data-ttu-id="3bf85-165">在 "**常规**" 页面上, 验证已选中 "**为此 Edge 池启用联盟 (端口 5061)** " 复选框。</span><span class="sxs-lookup"><span data-stu-id="3bf85-165">On the **General** page, verify that the **Enable federation for this Edge pool (Port 5061)** check box is selected.</span></span> 
   
-4. <span data-ttu-id="4dd08-166">单击**确定**以关闭编辑属性页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-166">Click **OK** to close the Edit Properties page.</span></span> 
+4. <span data-ttu-id="3bf85-166">单击 **"确定"** 以关闭 "编辑属性" 页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-166">Click **OK** to close the Edit Properties page.</span></span> 
     
-5. <span data-ttu-id="4dd08-167">导航到站点节点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-167">Navigate to the site node.</span></span> 
+5. <span data-ttu-id="3bf85-167">导航到 "网站" 节点。</span><span class="sxs-lookup"><span data-stu-id="3bf85-167">Navigate to the site node.</span></span> 
     
-6. <span data-ttu-id="4dd08-168">右键单击站点，，，然后单击**编辑属性**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-168">Right-click the site, and then click **Edit Properties**.</span></span>
+6. <span data-ttu-id="3bf85-168">右键单击网站, 然后单击 "**编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-168">Right-click the site, and then click **Edit Properties**.</span></span>
     
-7. <span data-ttu-id="4dd08-169">在左窗格中，单击**联盟路由**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-169">In the left pane, click **Federation route**.</span></span>
+7. <span data-ttu-id="3bf85-169">在左窗格中, 单击 "**联盟路由**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-169">In the left pane, click **Federation route**.</span></span>
     
-8. <span data-ttu-id="4dd08-170">在**站点联盟路由分配**下选择**启用 SIP 联盟**，，然后从列表选择列出的业务服务器 2019年边缘服务器的 Skype。</span><span class="sxs-lookup"><span data-stu-id="4dd08-170">Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Skype for Business Server 2019 Edge Server listed.</span></span> 
+8. <span data-ttu-id="3bf85-170">在 "**站点联合路由分配**" 下, 选择 "**启用 SIP 联盟**", 然后从列表中选择列出的 Skype For Business server 2019 Edge 服务器。</span><span class="sxs-lookup"><span data-stu-id="3bf85-170">Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Skype for Business Server 2019 Edge Server listed.</span></span> 
   
-9. <span data-ttu-id="4dd08-171">单击**确定**以关闭**编辑属性**页。</span><span class="sxs-lookup"><span data-stu-id="4dd08-171">Click **OK** to close the **Edit Properties** page.</span></span> 
+9. <span data-ttu-id="3bf85-171">单击 **"确定"** 以关闭 "**编辑属性**" 页面。</span><span class="sxs-lookup"><span data-stu-id="3bf85-171">Click **OK** to close the **Edit Properties** page.</span></span> 
     
-     <span data-ttu-id="4dd08-172">对于多站点部署，完成此过程在每个站点。</span><span class="sxs-lookup"><span data-stu-id="4dd08-172">For multi-site deployments, complete this procedure at each site.</span></span> 
+     <span data-ttu-id="3bf85-172">对于多站点部署, 请在每个网站上完成此过程。</span><span class="sxs-lookup"><span data-stu-id="3bf85-172">For multi-site deployments, complete this procedure at each site.</span></span> 
     
-## <a name="to-publish-edge-server-configuration-changes"></a><span data-ttu-id="4dd08-173">发布边缘服务器配置更改</span><span class="sxs-lookup"><span data-stu-id="4dd08-173">To publish Edge Server configuration changes</span></span>
+## <a name="to-publish-edge-server-configuration-changes"></a><span data-ttu-id="3bf85-173">发布边缘服务器配置更改</span><span class="sxs-lookup"><span data-stu-id="3bf85-173">To publish Edge Server configuration changes</span></span>
 
-1. <span data-ttu-id="4dd08-174">从**拓扑生成器**中，选择顶层节点**Skype 业务服务器**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-174">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span> 
+1. <span data-ttu-id="3bf85-174">从**拓扑生成器**中, 选择顶部节点**Skype for business 服务器**。</span><span class="sxs-lookup"><span data-stu-id="3bf85-174">From **Topology Builder**, select the top node **Skype for Business Server**.</span></span> 
     
-2. <span data-ttu-id="4dd08-175">从**操作**菜单中，选择**发布拓扑**并完成向导。</span><span class="sxs-lookup"><span data-stu-id="4dd08-175">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span> 
+2. <span data-ttu-id="3bf85-175">从 "**操作**" 菜单中, 选择 "**发布拓扑**" 并完成向导。</span><span class="sxs-lookup"><span data-stu-id="3bf85-175">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span> 
     
-3. <span data-ttu-id="4dd08-176">等待在部署中的所有池间都执行 Active Directory 复制。</span><span class="sxs-lookup"><span data-stu-id="4dd08-176">Wait for Active Directory replication to occur to all pools in the deployment.</span></span>
+3. <span data-ttu-id="3bf85-176">等待对部署中的所有池执行 Active Directory 复制。</span><span class="sxs-lookup"><span data-stu-id="3bf85-176">Wait for Active Directory replication to occur to all pools in the deployment.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="4dd08-177">您可能会看到以下消息：**警告： 拓扑包含多个联盟的边缘服务器。这可以对该产品的较新版本的迁移过程中出现。在这种情况下，只有一台边缘服务器将主动使用实现联合身份验证。验证外部 DNS SRV 记录指向正确的边缘服务器。如果您想要部署多个联合身份验证边缘服务器可同时活动 （即，不迁移方案中），验证所有联盟的伙伴的业务服务器使用 Skype。验证外部 DNS SRV 记录列出所有启用联盟的边缘服务器。**</span><span class="sxs-lookup"><span data-stu-id="4dd08-177">You may see the following message: **Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Skype for Business Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.**</span></span> <span data-ttu-id="4dd08-178">该警告预期警告，可以放心地忽略。</span><span class="sxs-lookup"><span data-stu-id="4dd08-178">This warning is expected and can be safely ignored.</span></span> 
+    > <span data-ttu-id="3bf85-177">您可能会看到以下消息:**警告: 该拓扑包含多个联合边缘服务器。在迁移到产品的较新版本的过程中可能会发生这种情况。在这种情况下, 仅有一台边缘服务器将主动用于联盟。验证外部 DNS SRV 记录是否指向正确的边缘服务器。如果要将多个联合边缘服务器部署为同时活动 (即不是迁移方案), 请验证所有联盟伙伴是否都在使用 Skype for Business 服务器。验证外部 DNS SRV 记录是否列出所有启用联盟的边缘服务器。**</span><span class="sxs-lookup"><span data-stu-id="3bf85-177">You may see the following message: **Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Skype for Business Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.**</span></span> <span data-ttu-id="3bf85-178">此警告是预期的, 可以安全忽略。</span><span class="sxs-lookup"><span data-stu-id="3bf85-178">This warning is expected and can be safely ignored.</span></span> 
   
-## <a name="to-configure-skype-for-business-server-2019-edge-server"></a><span data-ttu-id="4dd08-179">为业务 Server 2019 边缘服务器配置 Skype</span><span class="sxs-lookup"><span data-stu-id="4dd08-179">To configure Skype for Business Server 2019 Edge Server</span></span>
+## <a name="to-configure-skype-for-business-server-2019-edge-server"></a><span data-ttu-id="3bf85-179">配置 Skype for Business Server 2019 Edge 服务器</span><span class="sxs-lookup"><span data-stu-id="3bf85-179">To configure Skype for Business Server 2019 Edge Server</span></span>
 
-1. <span data-ttu-id="4dd08-180">将所有 Skype 业务 Server 2019 边缘服务器联机。</span><span class="sxs-lookup"><span data-stu-id="4dd08-180">Bring all of the Skype for Business Server 2019 Edge Servers online.</span></span> 
+1. <span data-ttu-id="3bf85-180">使所有 Skype for business 服务器2019边缘服务器联机。</span><span class="sxs-lookup"><span data-stu-id="3bf85-180">Bring all of the Skype for Business Server 2019 Edge Servers online.</span></span> 
     
-2. <span data-ttu-id="4dd08-181">更新外部防火墙的路由规则或硬件负载平衡器设置发送外部访问的 SIP 流量 （通常为端口 443） 和联合 （通常为端口 5061） 到业务服务器 2019年边缘服务器，而不是旧边缘服务器的 Skype。</span><span class="sxs-lookup"><span data-stu-id="4dd08-181">Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Skype for Business Server 2019 Edge Server, instead of the legacy Edge Server.</span></span>
+2. <span data-ttu-id="3bf85-181">更新外部防火墙路由规则或硬件负载平衡器设置, 以将外部访问 (通常为端口 443) 和联盟 (通常为端口 5061) 的 SIP 流量发送到 Skype for business Server 2019 Edge 服务器, 而不是旧版边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="3bf85-181">Update the external firewall routing rules or the hardware load balancer settings to send SIP traffic for external access (usually port 443) and federation (usually port 5061) to the Skype for Business Server 2019 Edge Server, instead of the legacy Edge Server.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="4dd08-182">如果您没有硬件负载平衡器，您需要更新联合身份验证将解析为业务服务器访问边缘服务器的新 Skype 的 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="4dd08-182">If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Skype for Business Server Access Edge server.</span></span> <span data-ttu-id="4dd08-183">实现这一点中断降至最低，减少 TLL 值的外部 Skype 业务服务器访问边缘 fqdn，以便在 DNS 更新为指向新的 Skype 业务访问边缘服务器的联盟和远程访问将更新快速。</span><span class="sxs-lookup"><span data-stu-id="4dd08-183">To accomplish this with minimal disruption, reduce the TLL value for the external Skype for Business Server Access Edge FQDN so that when DNS is updated to point to the new Skype for Business Server Access Edge, federation and remote access will be updated quickly.</span></span> 
+    > <span data-ttu-id="3bf85-182">如果你没有硬件负载平衡器, 则需要更新联合身份验证的 DNS A 记录, 以解析为新的 Skype for Business 服务器访问边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="3bf85-182">If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Skype for Business Server Access Edge server.</span></span> <span data-ttu-id="3bf85-183">若要以最小的中断完成此操作, 请减少外部 Skype for business 服务器访问边缘 FQDN 的 TLL 值, 以便在更新 DNS 以指向新的 Skype for Business 服务器访问边缘时, 将快速更新联盟和远程访问。</span><span class="sxs-lookup"><span data-stu-id="3bf85-183">To accomplish this with minimal disruption, reduce the TLL value for the external Skype for Business Server Access Edge FQDN so that when DNS is updated to point to the new Skype for Business Server Access Edge, federation and remote access will be updated quickly.</span></span> 
   
-3. <span data-ttu-id="4dd08-184">停止从每台边缘服务器计算机**的业务 Server 访问边缘的 Skype** 。</span><span class="sxs-lookup"><span data-stu-id="4dd08-184">Stop the **Skype for Business Server Access Edge** from each Edge Server computer.</span></span> 
+3. <span data-ttu-id="3bf85-184">停止每台边缘服务器计算机的**Skype For Business 服务器访问边缘**。</span><span class="sxs-lookup"><span data-stu-id="3bf85-184">Stop the **Skype for Business Server Access Edge** from each Edge Server computer.</span></span> 
     
-4. <span data-ttu-id="4dd08-185">从每台旧的边缘服务器计算机，打开**管理工具**中的**服务**小程序。</span><span class="sxs-lookup"><span data-stu-id="4dd08-185">From each legacy Edge Server computer, open the **Services** applet from the **Administrative Tools**.</span></span>
+4. <span data-ttu-id="3bf85-185">从每个旧式边缘服务器计算机上, 从 "**管理工具**" 中打开 "**服务**" 小程序。</span><span class="sxs-lookup"><span data-stu-id="3bf85-185">From each legacy Edge Server computer, open the **Services** applet from the **Administrative Tools**.</span></span>
     
-5. <span data-ttu-id="4dd08-186">在服务列表中，找到**Skype 的业务 Server 访问边缘**。</span><span class="sxs-lookup"><span data-stu-id="4dd08-186">In the services list, find **Skype for Business Server Access Edge**.</span></span>
+5. <span data-ttu-id="3bf85-186">在 "服务" 列表中, 找到 " **Skype for Business 服务器访问边缘**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-186">In the services list, find **Skype for Business Server Access Edge**.</span></span>
     
-6. <span data-ttu-id="4dd08-187">右键单击服务名称，并选择**停止**以停止该服务。</span><span class="sxs-lookup"><span data-stu-id="4dd08-187">Right-click the services name, and then select **Stop** to stop the service.</span></span> 
+6. <span data-ttu-id="3bf85-187">右键单击服务名称, 然后选择 "**停止**" 以停止该服务。</span><span class="sxs-lookup"><span data-stu-id="3bf85-187">Right-click the services name, and then select **Stop** to stop the service.</span></span> 
     
-7. <span data-ttu-id="4dd08-188">设置为**已禁用**的启动类型。</span><span class="sxs-lookup"><span data-stu-id="4dd08-188">Set the Startup type to **Disabled**.</span></span> 
+7. <span data-ttu-id="3bf85-188">将 "启动类型" 设置为 "**已禁用**"。</span><span class="sxs-lookup"><span data-stu-id="3bf85-188">Set the Startup type to **Disabled**.</span></span> 
     
-8. <span data-ttu-id="4dd08-189">单击**确定**以关闭**属性**窗口。</span><span class="sxs-lookup"><span data-stu-id="4dd08-189">Click **OK** to close the **Properties** window.</span></span> 
+8. <span data-ttu-id="3bf85-189">单击 **"确定"** 以关闭 "**属性**" 窗口。</span><span class="sxs-lookup"><span data-stu-id="3bf85-189">Click **OK** to close the **Properties** window.</span></span> 
     
 

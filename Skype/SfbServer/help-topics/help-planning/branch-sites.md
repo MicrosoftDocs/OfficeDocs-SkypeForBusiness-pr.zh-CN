@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.BranchOffice
@@ -13,16 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: 有关分支站点恢复能力的详细信息，请参阅规划分支站点语音恢复能力。
-ms.openlocfilehash: 05b44674a86ec5d11d4942e2c1b331fb29474705
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 有关分支站点复原的详细信息, 请参阅规划分支站点语音复原。
+ms.openlocfilehash: 73d0a61a50202ae8e06291b777ede9780dbc998f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888133"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304237"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="9cd83-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="9cd83-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="53603-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="53603-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="9cd83-104">有关分支站点恢复能力的详细信息，请参阅[规划分支站点语音恢复能力](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。</span><span class="sxs-lookup"><span data-stu-id="9cd83-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="53603-104">有关分支站点复原的详细信息, 请参阅[规划分支站点语音复原](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。</span><span class="sxs-lookup"><span data-stu-id="53603-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

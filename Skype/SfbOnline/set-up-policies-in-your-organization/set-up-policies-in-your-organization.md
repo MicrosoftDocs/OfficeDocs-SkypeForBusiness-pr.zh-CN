@@ -1,5 +1,5 @@
 ---
-title: 设置您的组织中的策略
+title: 在组织中设置策略
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,20 +10,20 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-ms.openlocfilehash: 18ddded9822eb479e40f8f9338741b63209919e5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b322fa3e6eb6fbbfd992c763ff9c5de596983cba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237433"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297664"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="52849-102">设置您的组织中的策略</span><span class="sxs-lookup"><span data-stu-id="52849-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="083df-102">在组织中设置策略</span><span class="sxs-lookup"><span data-stu-id="083df-102">Set up policies in your organization</span></span>
 
 

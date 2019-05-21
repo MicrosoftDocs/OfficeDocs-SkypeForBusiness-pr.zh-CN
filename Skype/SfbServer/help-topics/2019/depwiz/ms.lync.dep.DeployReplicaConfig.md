@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployReplicaConfig
@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。 对于位于组织的内部网络的计算机，选择检索配置自动从中央管理存储。
-ms.openlocfilehash: 20c53827797fb57f1d5d388d95fa2cfbf63f9311
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 若要开始安装保存中央管理存储的本地只读副本的数据库, 您可以选择从已安装和已配置的中心中使用拓扑生成器检索已发布的配置管理存储或从其他媒体中读取已定义的配置。 对于组织内部网络上的计算机, 请选择 "从中央管理存储自动检索配置"。
+ms.openlocfilehash: b4249f4968c51fb901e612b2414bb2c6921be40c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303303"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="00492-104">安装本地配置存储调用（配置）</span><span class="sxs-lookup"><span data-stu-id="00492-104">Install Local Configuration Store Invoke (Configure)</span></span>
+# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="28a75-104">安装本地配置存储调用（配置）</span><span class="sxs-lookup"><span data-stu-id="28a75-104">Install Local Configuration Store Invoke (Configure)</span></span>
  
-<span data-ttu-id="00492-105">若要开始将保存中央管理存储的本地只读副本的数据库的安装，您选择之间检索发布使用拓扑生成器从已安装并配置管理中心的定义的配置管理存储或从其他媒体读取定义的配置。</span><span class="sxs-lookup"><span data-stu-id="00492-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="00492-106">对于位于组织的内部网络的计算机，选择**检索从中央管理存储的自动配置**。</span><span class="sxs-lookup"><span data-stu-id="00492-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
+<span data-ttu-id="28a75-105">若要开始安装保存中央管理存储的本地只读副本的数据库, 您可以选择从已安装和已配置的中心中使用拓扑生成器检索已发布的配置管理存储或从其他媒体中读取已定义的配置。</span><span class="sxs-lookup"><span data-stu-id="28a75-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="28a75-106">对于组织内部网络上的计算机, 请选择 **"从中央管理存储自动检索配置"**。</span><span class="sxs-lookup"><span data-stu-id="28a75-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
   
-<span data-ttu-id="00492-107">如果您在边缘服务器上安装的中央管理存储副本，您选择从便携式介质，如 USB 闪存驱动器、 USB 硬盘驱动器、 CD-ROM 或其他介质读取导出的配置文档的副本。</span><span class="sxs-lookup"><span data-stu-id="00492-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
+<span data-ttu-id="28a75-107">如果要在 Edge 服务器上安装中央管理存储的副本, 请选择从便携式媒体 (如 USB 闪存驱动器、USB 硬盘驱动器、cd-rom 或其他媒体) 读取配置文档的导出副本。</span><span class="sxs-lookup"><span data-stu-id="28a75-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="00492-108">如果边缘服务器上安装本地配置存储区的配置信息必须是从中央管理已导出的格式将存储通过运行 Windows PowerShell cmdlet:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="00492-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
+> <span data-ttu-id="28a75-108">如果要在边缘服务器上安装本地配置存储, 则配置信息必须采用从中央管理存储导出的格式, 方法是运行 Windows PowerShell cmdlet:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="28a75-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
   
-<span data-ttu-id="00492-109">选择相应选项后，单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="00492-109">After you have selected the appropriate option, click **Next**.</span></span>
+<span data-ttu-id="28a75-109">选择相应的选项后, 单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="28a75-109">After you have selected the appropriate option, click **Next**.</span></span>
   
 
