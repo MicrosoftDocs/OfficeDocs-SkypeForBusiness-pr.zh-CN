@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 如果旧部署包含存档服务器或监控服务器，在迁移到 Skype for Business Server 2019 后，这些服务器可以删除从旧环境中，前提是已从其余任何旧池中删除所有用户。 您可以按任何顺序中删除存档服务器或监控服务器。 关键要求是确认已从其余任何旧池中删除所有用户。
-ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 如果你的旧部署包含存档服务器或监视服务器, 迁移到 Skype for business Server 2019 之后, 可以从旧环境中删除这些服务器, 前提是所有用户都已从任何剩余的旧池删除。 你可以按任意顺序删除存档服务器或监视服务器。 关键要求是所有用户都已从剩余的任何旧版池中删除。
+ms.openlocfilehash: 918e04bb42853f0203ae8a2a56db5e640985af99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231421"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301123"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>删除旧存档和监控服务器
 
-如果旧部署包含存档服务器或监控服务器，在迁移到 Skype for Business Server 2019 后，可以从旧环境中删除这些服务器，、 提供已从其余任何旧池中删除所有用户。 您可以按任何顺序中删除存档服务器或监控服务器。 关键要求是确认已从其余任何旧池中删除所有用户。
+如果你的旧部署包含存档服务器或监视服务器, 迁移到 Skype for business Server 2019 之后, 可以从旧环境中删除这些服务器, 前提是所有用户都已从任何剩余的旧池中删除。 你可以按任意顺序删除存档服务器或监视服务器。 关键要求是所有用户都已从剩余的任何旧版池中删除。
   
-您可以将用户移至 Skype 的业务服务器 2019年中概述的过程[第 4 阶段： 将测试用户移至试点池](phase-4-move-test-users-to-the-pilot-pool.md)。
+你可以按照第4阶段中概述的过程将用户移动到 Skype for Business Server 2019 [: 将测试用户移动到 "试点" 池](phase-4-move-test-users-to-the-pilot-pool.md)。
   
-后已确认所有用户均已从其余的任何池中，decommision 服务器和删除角色。 一个日期，但相关，例如，"卸载 Microsoft Lync Server 和删除服务器角色，"可在下载[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)。
+在确认所有用户都已从任何剩余的池中删除后, decommision 服务器并删除角色。 日期已过期, 但相关, 示例是 "卸载 Microsoft Lync Server 并删除服务器角色", 可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)此处下载。
   
 

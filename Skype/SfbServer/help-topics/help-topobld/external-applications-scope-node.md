@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
-ms.openlocfilehash: 694c3192f519da3281a7a8d3ad9120c6a8627f91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任的应用程序池包含运行受信任的 Microsoft 统一通信应用程序的服务器, 但不运行 Skype for Business 服务器角色。 可以执行以下操作：
+ms.openlocfilehash: 868cab5dd8a3f7afb9f1e2ad17c85c2922677fbd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910289"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284485"
 ---
 # <a name="external-applications-scope-node"></a>外部应用程序范围节点
  
-“**受信任应用程序服务器**”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序，但不要运行 Skype 业务服务器角色的服务器。 可以执行以下操作：
+“**受信任应用程序服务器**”节点列出了该站点上的受信任应用程序池。 受信任的应用程序池包含运行受信任的 Microsoft 统一通信应用程序的服务器, 但不运行 Skype for Business 服务器角色。 可以执行以下操作：
   
 - **新建受信任应用程序池**。启动“**定义新的受信任应用程序池**”向导，以向拓扑中添加新的受信任应用程序池。
     

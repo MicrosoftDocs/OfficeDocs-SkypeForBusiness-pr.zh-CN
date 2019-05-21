@@ -1,10 +1,10 @@
 ---
-title: 启用 Business Server Skype 中的呼叫允许控制
+title: 在 Skype for Business 服务器中启用呼叫许可控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: 启用业务 Server 企业语音中 Skype 的呼叫允许控制。
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中启用呼叫许可控制。
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892494"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291593"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>启用 Business Server Skype 中的呼叫允许控制
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用呼叫许可控制
  
-启用业务 Server 企业语音中 Skype 的呼叫允许控制。 
+在 Skype for Business Server Enterprise Voice 中启用呼叫许可控制。 
   
 配置完呼叫允许控制部署的网络设置后，必须启用 CAC 来使带宽策略生效。
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype 业务 Server 命令行管理程序启用呼叫允许控制
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business 服务器命令行管理程序启用呼叫许可控制
 
 1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892494"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 启用呼叫允许控制
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板启用呼叫许可控制
 
-1. 打开 Skype 业务 Server Control Panel。
+1. 打开 "Skype for Business 服务器" 控制面板。
     
 2. 在左侧导航栏中，单击“网络配置”****。
     
@@ -62,8 +62,8 @@ ms.locfileid: "33892494"
     
 ## <a name="see-also"></a>另请参阅
 
-[Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[Set-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[删除 CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[Remove-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

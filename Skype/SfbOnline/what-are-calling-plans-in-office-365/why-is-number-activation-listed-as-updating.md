@@ -1,5 +1,5 @@
 ---
-title: 为什么是号码激活列为更新？
+title: 为什么将数字激活列为更新？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9f24ff805cb78f0e77042d8ba180695fecf746c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227821"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290542"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>为什么是号码激活列为更新？
+# <a name="why-is-number-activation-listed-as-updating"></a>为什么将数字激活列为更新？
 
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于电话号码不激活和列为**更新**地址验证由于某种原因，您将需要创建和提交服务请求。 你执行此操作的方式基于你的组织规模。
+地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某些原因而未激活电话号码, 并且由于地址验证而列为**更新**, 则需要创建并提交服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在 **Office 365 管理中心**选择“**需要帮助?**”

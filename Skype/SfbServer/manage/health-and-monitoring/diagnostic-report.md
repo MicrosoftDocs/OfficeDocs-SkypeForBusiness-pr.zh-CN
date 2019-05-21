@@ -1,25 +1,25 @@
 ---
-title: Skype 中的业务服务器的诊断报告
+title: Skype for Business 服务器中的诊断报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 摘要： 了解在 Skype 业务服务器的诊断报告。
-ms.openlocfilehash: b50be1733eb085bc8a3323cf3fcad028e2f0c6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的诊断报告。'
+ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926562"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305771"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype 中的业务服务器的诊断报告
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business 服务器中的诊断报告
  
-**摘要：** 了解业务服务器 Skype 中的诊断报告。
+**摘要:** 了解 Skype for Business 服务器中的诊断报告。
   
 诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
   
@@ -31,7 +31,7 @@ ms.locfileid: "33926562"
     
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可以通过单击[对等会话详细信息报告中的业务服务器 Skype](peer-to-peer-session-detail-report.md)或会议详细信息报告上的诊断报告 （详细信息） 指标访问诊断报告。
+可通过在 Skype for Business Server 或会议详细信息报告[中单击对等会话详细信息报告](peer-to-peer-session-detail-report.md)上的诊断报告 (详细信息) 指标来访问诊断报告。
   
 ## <a name="filters"></a>筛选器
 
@@ -58,6 +58,6 @@ ms.locfileid: "33926562"
 |**会议加入时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
 |**诊断标头** <br/> |否  <br/> |诊断 ID 描述  <br/> |
    
-可以在[Ms-diagnostics 标头页](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)上找到的诊断错误列表。
+可以在[Ms Diagnostics 标题页面](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)上找到诊断错误列表。
   
 

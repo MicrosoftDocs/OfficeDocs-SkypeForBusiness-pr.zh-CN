@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641031"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298629"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -45,7 +45,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |Round Trip|> 500|计算的平均网络传播往返时间，根据 RFC3550 以毫秒为单位指定。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
 |抖动|> 30|流的平均抖动值，以毫秒为单位。|
-|Ratio Concealed Samples Avg|> 0.07|使用生成的数据包丢失的总数的音频帧的样本隐藏样本数的音频帧的数目的平均比率。|
+|Ratio Concealed Samples Avg|> 0.07|带有隐藏样本 (由数据包丢失修复生成) 到音频帧总数的音频帧数的平均比率。|
 
 ### <a name="video-classifier"></a>视频分类器
 
@@ -55,7 +55,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
-|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|数据包丢失率应用 FEC 后聚合跨所有视频流和编解码器。|
+|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 
 ### <a name="vbss-classifier"></a>VBSS 分类器
 
@@ -65,7 +65,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|继续前往步驟 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<2|Poor|Good|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
-|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|数据包丢失率应用 FEC 后聚合跨所有视频流和编解码器。|
+|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 
 ### <a name="application-sharing-classifier"></a>应用程序共享分类器
 
@@ -76,7 +76,7 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为“好”或“
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400         | 在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1.75        | 以秒为单位的应用程序共享流终结点之间相对单向延迟的平均时间。                                                                                                                       |
+| AppSharing Relative OneWay Average             | > 1.75        | 应用程序共享流终结点之间的平均相对单向延迟 (以秒为单位)。                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>未经分类的流
 

@@ -1,27 +1,27 @@
 ---
-title: 为业务 Server Skype 中呼叫详情报告
+title: Skype for Business 服务器中的呼叫详细报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 摘要： 了解用于在 Skype 业务服务器的呼叫详情报告。
-ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中使用的通话详细信息报告。'
+ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902788"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289369"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫详情报告
+# <a name="call-detail-report-in-skype-for-business-server"></a>Skype for Business 服务器中的呼叫详细报告
  
-**摘要：** 了解用于在 Skype 业务服务器的呼叫详情报告。
+**摘要:** 了解 Skype for Business 服务器中使用的通话详细信息报告。
   
-呼叫详情报告提供详细的看则单个呼叫;此报告包括几乎所有用户体验质量指标和 Skype 业务服务器收集的统计信息划分为报表节如：
+通话详细信息报告提供单个通话的详细信息, 请参阅。此报告包括 Skype for Business Server 收集的几乎所有经验指标和统计信息, 划分为报表部分, 如:
   
 - 呼叫信息 
     
@@ -49,17 +49,17 @@ ms.locfileid: "33902788"
 
 可以从下列任意报告中访问呼叫详情报告：
   
-- [Location Report （通过单击呼叫量或质量欠佳的呼叫百分比指标） 的业务服务器 (位置 report.md) 的 Skype 中
+- [Skype for Business 服务器 (location-report.md) 中的 "位置报告" (通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
     
-- [Media Quality Summary Report 中 Skype 业务服务器 (summary.md) （通过单击呼叫量或质量欠佳的呼叫百分比指标）
+- "Skype for Business 服务器 (summary.md)" 中的 "媒体质量摘要报告" (通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
     
-- [媒体质量比较报告中的业务服务器 Skype](comparison.md) （通过单击[中的业务服务器 Skype Call List Report](call-list-report-0.md) ，然后单击详细信息指标）。
+- [Skype For Business 服务器中的 "媒体质量比较" 报表](comparison.md)(单击[Skype for business 服务器中的 "通话清单" 报表](call-list-report-0.md), 然后单击 "详细信息指标")。
     
-- [Skype 业务服务器中的 Server Performance Report](server-performance.md) （通过单击呼叫量或质量欠佳的呼叫百分比指标）
+- [Skype For Business 服务器中的服务器性能报告](server-performance.md)(通过单击 "呼叫" 音量或 "不当通话百分比" 指标)
     
-- [在业务服务器的 Skype Call List Report](call-list-report-0.md) （通过单击详细信息指标）
+- [Skype For Business 服务器中的通话清单报告](call-list-report-0.md)(通过单击详细信息指标)
     
-从呼叫详情报告中您可以访问[设备报告 Skype 业务服务器中](device-report.md)通过单击以下指标之一：
+从 "呼叫详细信息" 报告中, 您可以通过单击以下任一指标,[在 Skype For Business 服务器中访问设备报告](device-report.md):
   
 - 捕获设备
     

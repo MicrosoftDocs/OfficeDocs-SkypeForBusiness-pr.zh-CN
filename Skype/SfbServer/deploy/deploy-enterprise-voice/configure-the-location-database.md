@@ -1,10 +1,10 @@
 ---
-title: 在 Skype for Business Server 中配置位置数据库
+title: 在 Skype for Business 服务器中配置位置数据库
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。
-ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。
+ms.openlocfilehash: 82182a27c1459005d19c8a50d0a1babc83b178c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893047"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301074"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置位置数据库
  
-配置、 填充和业务 Server 企业语音中 Skype 发布 E9-1-1 位置数据库。 
+在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。 
   
 为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。 
   
 要配置位置数据库，请执行下列任务：
   
-- 使用网络元素到位置的映射填充数据库。 如果您使用的紧急位置识别号码 (ELIN) 网关，您需要包括在 ELIN \<CompanyName\>字段。
+- 使用网络元素到位置的映射填充数据库。 如果您使用紧急位置识别号码 (ELIN) 网关, 则需要在 " \<公司名称\> " 字段中包含 ELIN。
     
     如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
     
@@ -47,10 +47,10 @@ ms.locfileid: "33893047"
   
 |**网络元素**|**所需列**|
 |:-----|:-----|
-|**无线访问点** <br/> |\<BSSID\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
-|**Subnet** <br/> |\<子网\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
-|**端口** <br/> |\<机架 Id\>，\<PortIDSubType\>，\<PortID\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，...  <br/> ...\<PreDirectional\>，\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
-|**交换机** <br/> |\<机架 Id\>，\<说明\>，\<位置\>，\<CompanyName\>，\<HouseNumber\>，\<HouseNumberSuffix\>，\<PreDirectional\>，...  <br/> ...\<StreetName\>，\<StreetSuffix\>，\<PostDirectional\>，\<市/县\>，\<状态\>，\<PostalCode\>，\<国家/地区\>  <br/> |
+|**无线访问点** <br/> |\<BSSID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
+|**Subnet** <br/> |\<子\>网\<、\>说明\<、\>位置\<、\>公司\<名称\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
+|**端口** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<Description\>、\<Location\>、\<公司\>名称\<、\>HouseNumber\< 、HouseNumberSuffix\>,.。。  <br/> ...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<省\>/\<市\>/\<自治区、邮政编码该国\>  <br/> |
+|**交换机** <br/> |\<ChassisID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
 
@@ -139,7 +139,7 @@ ms.locfileid: "33893047"
 
 只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。
   
-如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 可以从位置信息服务数据库导出记录，并设置它们所需的格式。
+如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录, 并根据需要设置其格式。
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 

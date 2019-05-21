@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: '“拓扑: 状态”页将显示 Skype for Business 拓扑中服务器的状态。'
-ms.openlocfilehash: cfbafd779284a5a2de9726742c64e3e688fdf026
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 428549f736264b3800d08d4d3bbfa5267d556aa4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890898"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289649"
 ---
 # <a name="topology-status"></a>拓扑：状态
 
@@ -28,7 +28,7 @@ ms.locfileid: "33890898"
 
 您可以在“拓扑****: 状态****”页上执行以下任务：
 
-- [查看运行 Skype 业务服务器或 Lync Server 的计算机列表](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [查看运行 Skype for Business 服务器或 Lync Server 的计算机列表](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
 - [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 

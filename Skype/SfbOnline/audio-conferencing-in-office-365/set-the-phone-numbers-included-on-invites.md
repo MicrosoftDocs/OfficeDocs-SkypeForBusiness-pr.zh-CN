@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "32229411"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306307"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>设置包含在 Skype for Business Online 邀请中的电话号码
 
@@ -55,7 +55,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![在 Skype for Business 管理中心显示选择用户](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
-4. 选择您想要编辑的用户：
+4. 选择要编辑的用户:
     
    - 要选择单个用户，请选择该用户的名称。
     
@@ -81,7 +81,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>重置音频会议的电话号码
 
-1. 在**Skype 业务管理中心的**中，选择**要进行音频会议**。
+1. 在**Skype For business 管理中心**, 选择 "**音频会议**"。
     
 2. 在页面顶部，选择**用户**。
     
@@ -107,30 +107,30 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - 使用 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet 可基于用户的原始默认电话号码或位置来更改其默认收费电话号码或免费电话号码。
     
     > [!NOTE]
-    > 若要查找 BridgeID，使用**Get-CsOnlineDialInConferencingBridge** cmdlet。
+    > 若要查找 BridgeID, 请使用**get-csonlinedialinconferencingbridge** cmdlet。
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - 若要不向 +18005551234 的所有用户设置默认免费电话号码，请运行：
+  - 若要为所有用户设置默认免费电话号码, 而不是 + 18005551234, 请运行:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - 若要更改的所有用户的已为其默认免费电话号码与 +18005551239 +18005551234 默认免费电话号码，请运行：
+  - 若要将具有 + 18005551234 的所有用户的默认免费电话号码更改为 + 18005551239 的默认免费号码, 请运行:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 若要设置的位于到 +18005551234 美国的所有用户的默认免费电话号码，请运行：
+  - 若要将美国所有用户的默认免费号码设置为 + 18005551234, 请运行:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>要了解有关 Windows PowerShell 的详细信息？
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 - 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)

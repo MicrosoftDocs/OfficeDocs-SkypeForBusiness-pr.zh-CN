@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Convert-CcIsoToVhdx cmdlet 使用客户提供的 Windows Server 2012 R2 ISO 文件创建基本虚拟硬盘文件 (VHDX)。该 VHDX 文件将在部署 Skype for Business 云连接器版本过程中使用。
-ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898485"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287536"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -47,7 +47,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>示例 2
 
-如果转换 CcIsoToVhdx cmdlet 失败期间 Windows 更新，这可能是由于不正确的网络代理配置。 可以按照错误消息中的说明操作，登录基本虚拟机来手动修复问题并更新 Windows。 完成手动操作后，重新结合 -GeneralizeOnly 参数运行该 cmdlet 以完成其余作业： 
+如果 CcIsoToVhdx cmdlet 在 Windows 更新期间失败, 可能是因为网络/代理配置不正确。 可以按照错误消息中的说明操作，登录基本虚拟机来手动修复问题并更新 Windows。 完成手动操作后，重新结合 -GeneralizeOnly 参数运行该 cmdlet 以完成其余作业： 
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -55,7 +55,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>示例 3
 
-如果需要执行手动配置来更新 Windows，你可以使用 -PauseBeforeUpdate 参数。 使用此参数，云连接器将暂停 Windows 更新过程之前。 之后你可以完成手动配置并继续转换过程，如下所示：
+如果需要执行手动配置来更新 Windows，你可以使用 -PauseBeforeUpdate 参数。 通过此参数, 云连接器将在 Windows 更新过程之前暂停。 之后你可以完成手动配置并继续转换过程，如下所示：
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -64,7 +64,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-转换 CcIsoToVhdx cmdlet 可创建的基线 VM 首先，安装的云连接器取决于，，，然后安装 Windows 更新一些基本组件。 最后，它使一般化虚拟机 (sysprep) 以获取云连接器装置的虚拟机将使用的基本 VHDX 文件。 
+CcIsoToVhdx cmdlet 首先创建一个基础 VM, 安装云连接器所依赖的一些基本组件, 然后安装 Windows 更新。 最后, generalizes 虚拟机 (sysprep) 获取将由云连接器设备的虚拟机使用的基本 VHDX 文件。 
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

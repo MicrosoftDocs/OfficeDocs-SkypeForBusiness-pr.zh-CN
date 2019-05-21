@@ -1,29 +1,29 @@
 ---
-title: 为业务服务器分配中 Skype 的会议策略
+title: 在 Skype for Business 服务器中分配会议策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: 摘要： 了解如何为业务服务器分配中 Skype 的会议策略。
-ms.openlocfilehash: f022c4b89f239d4b800df17315b07b10da985955
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 中分配会议策略。'
+ms.openlocfilehash: acd74262b51000a3f4af5668fb3c9271a8c0978d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919505"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289025"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>为业务服务器分配中 Skype 的会议策略
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business 服务器中分配会议策略
  
-**摘要：** 了解如何为业务服务器分配中 Skype 的会议策略。
+**摘要:** 了解如何在 Skype for Business Server 中分配会议策略。
   
-使用 Skype 的业务 Server 命令行管理程序和**Grant-csconferencingpolicy** cmdlet，可以向用户分配会议策略。
+你可以使用 Skype for Business Server Management Shell 和**CsConferencingPolicy** cmdlet 将会议策略分配给用户。
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype 业务 Server 命令行管理程序分配会议策略
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序分配会议策略
 
 在下面的示例中，将策略 SalesConferencingPolicy 分配给 Identity 为 "Ken Myer" 的用户：
   
@@ -37,6 +37,6 @@ Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-有关详细信息，包括完成语法和参数的列表，，请参阅[Grant-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)。
+有关详细信息, 包括完整语法和参数列表, 请参阅[Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)。
   
 

@@ -1,10 +1,10 @@
 ---
-title: 管理应用程序级 Skype for Business 中的响应组设置
+title: 管理 Skype for Business 中的应用程序级响应组设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 管理应用程序级响应组设置，如音乐上保留和回响设置中的业务 Server 企业语音的 Skype。
-ms.openlocfilehash: 41daedd21c5d7ea6f210594c66e3f20906ad90a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server 企业版中管理应用程序级别的响应组设置, 如 "音乐暂停" 和 "ringback 设置"。
+ms.openlocfilehash: 500ed8942fb859ce41340c94d0568e9e87b1c3d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892333"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288524"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理应用程序级 Skype for Business 中的响应组设置
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理 Skype for Business 中的应用程序级响应组设置
  
-管理应用程序级响应组设置，如音乐上保留和回响设置中的业务 Server 企业语音的 Skype。
+在 Skype for Business Server 企业版中管理应用程序级别的响应组设置, 如 "音乐暂停" 和 "ringback 设置"。
   
-响应组应用程序的应用程序级别设置包括默认上保留音乐配置、 默认上保留音乐音频文件、 代理回拨宽限期和呼叫上下文配置。 你只能针对每个池定义一组应用程序级别设置。 若要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 若要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
+响应组应用程序的应用程序级别设置包括默认的 "保留音乐" 配置、默认的 "保留音乐" 音频文件、代理 ringback 宽限期和 "呼叫上下文配置"。 你只能针对每个池定义一组应用程序级别设置。 若要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 若要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
   
 只有未定义任何自定义保持音乐时，才会在呼叫处于呼叫等待状态时播放默认保持音乐。呼叫上下文仅适用于分配给互动工作流的队列。如果启用呼叫上下文，则代理可以在收到呼叫时查看呼叫者等待时间或工作流问题和解答等信息。
   
-### <a name="to-modify-response-group-application-level-settings"></a>若要修改响应组应用程序级别设置
+### <a name="to-modify-response-group-application-level-settings"></a>修改响应组应用程序级别设置
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
@@ -56,8 +56,8 @@ ms.locfileid: "33892333"
 
 ## <a name="see-also"></a>另请参阅
 
-[Get-csrgsconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Set-csrgsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

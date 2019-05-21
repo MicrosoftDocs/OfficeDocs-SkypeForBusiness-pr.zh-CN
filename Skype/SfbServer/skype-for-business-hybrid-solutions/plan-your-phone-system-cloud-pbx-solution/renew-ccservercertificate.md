@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 'Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。 '
-ms.openlocfilehash: ad366bdf7f6c27552a8e7621ee9244762dd864eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 611eeb648c88411afa5d74cc7564703a5e37e9bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894815"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287060"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
@@ -48,7 +48,7 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-内部证书颁发给的中央管理存储、 中介服务器和边缘服务器的云连接器两年后从证书颁发机构服务颁发的有效。 如果证书即将过期或已过期，请运行 Renew-CcServerCertificate cmdlet 来续订服务。 
+颁发给中央管理存储、中介服务器和边缘服务器的云连接器内部证书在从证书颁发机构服务发出的两年后有效。 如果证书即将过期或已过期，请运行 Renew-CcServerCertificate cmdlet 来续订服务。 
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>

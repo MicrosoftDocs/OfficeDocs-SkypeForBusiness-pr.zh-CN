@@ -1,10 +1,10 @@
 ---
-title: 拓扑查看计算机详细信息
+title: 拓扑视图计算机详细信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusCompEdit
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 3c2c04d3bb9dcc8ba36a75639402f82ced4b860a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 589c127c97c1d6139beeb02f602528846b62da7e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890891"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289656"
 ---
 # <a name="topology-view-computer-detail"></a>拓扑：查看计算机详细信息
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
-- [查看运行 Skype 业务服务器或 Lync Server 的计算机列表](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [查看运行 Skype for Business 服务器或 Lync Server 的计算机列表](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
 - [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 

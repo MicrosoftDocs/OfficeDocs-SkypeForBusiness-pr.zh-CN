@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 1659089ca2af8d683fded190a32736fa84cd1914
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 307a861814a8e05065c70299b5ef2a82c20c8c42
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926885"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282529"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -36,7 +36,7 @@ ms.locfileid: "33926885"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
 
-如果您将设置与 Lync Server 2013 的联盟 Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 的受信任的合作伙伴，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
+如果要使用 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通信服务器 2007 R2 信任合作伙伴设置联合身份验证, 请选中 "**为此边缘池启用联盟 (端口 5061)** " 复选框。
 
 选中“**为此边缘池启用 XMPP 联盟**”可启用 XMPP 联盟。
 
@@ -44,7 +44,7 @@ ms.locfileid: "33926885"
 
 ## <a name="next-hop-selection-settings"></a>下一个跃点选择设置
 
-要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有控制器或前端已配置拓扑生成器中将显示选定内容。
+要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有拓扑生成器中配置的控制器或前端才会显示供选择。
 
 ## <a name="edge-server-configuration"></a>边缘服务器配置
 

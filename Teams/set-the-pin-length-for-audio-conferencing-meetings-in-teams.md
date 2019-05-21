@@ -13,20 +13,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 了解的参数的长度和 PIN 要求并查看如何在 Microsoft 团队中设置对会议的长度。
-ms.openlocfilehash: f18abb0601a624ca3b33304e45aaa1aacf0ee838
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解 PIN 长度和要求的参数, 了解如何在 Microsoft 团队中设置会议的长度。
+ms.openlocfilehash: db26f66a291df7e1da9b523ead1fb65640163448
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204829"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305291"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议的 PIN 长度
 
@@ -39,24 +39,24 @@ ms.locfileid: "32204829"
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
 2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
 
-3. 在**桥设置**窗格中，在**PIN 长度**，下选择所需的 pin 的位数。
+3. 在 "**桥设置**" 窗格中的 " **PIN 长度**" 下, 选择要用于 pin 的数字位数。
 
 4. 单击“**保存**”。
 
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
 
-## <a name="want-to-know-more-about-pin-settings"></a>想知道 PIN 设置的详细信息吗？
+## <a name="want-to-know-more-about-pin-settings"></a>想要了解有关 PIN 设置的详细信息？
 
-- 旋转中心点到 12 个数字; 可以是从 4默认值为 5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
+- 引脚可以是4到12位数字;默认值为5。 在创建 PIN 时只能使用数字。 不能使用字母和特殊字符。
     
-- PIN，仅当 Microsoft 团队用户已尚未启动会议所需的会议组织者。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
+- 只有当 Microsoft 团队用户尚未启动会议时, 会议组织者才需要 PIN。 如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。
     
 - PIN 安全设置适用于与 Microsoft 网桥相关联的所有电话号码。它们将应用于使用与给定网桥相关联的电话号码的所有会议。 
     

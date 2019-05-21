@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向您显示每个国家/地区内所需的访问代码, 以拨打免费号码。
+ms.openlocfilehash: d2fe8e03ce0891fa46f092c87b6563ce174af75c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300972"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免费拨号限制
 
-这将帮助您了解如何拨打每个国家 / 地区内的免费电话号码。 选择国家/地区后，它会将您导引到页面包含其中收费免费服务可以包括具体的详细信息、 限制和限制。 拨号格式将显示您可以拨打的免费电话号码每个国家/地区内所需的访问代码。
+这将帮助您了解如何拨打每个国家或地区的免费电话号码。 选择国家/地区后, 将转到包含收费免费服务的页面, 其中包含特定详细信息、限制和限制。 拨号格式或格式将向您显示每个国家/地区内所需的访问代码, 以拨打免费号码。
   
-如果您准备好，选择的国家或地区：
+如果准备就绪, 请选择一个国家或地区:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>选择您的国家或地区，请参阅拨号代码、 限制和限制。
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>选择您所在的国家或地区以查看拨号代码、限制和限制。
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -101,20 +101,20 @@ ms.locfileid: "32204442"
 > - [委内瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam（越南）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>下面是有关免费电话号码记住一些重要事项：
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>下面是您记住免费电话号码的一些重要事项:
 
-- **每个国家/地区内仅使用免费电话号码。** 例如，用户将无法调用外部澳大利亚澳大利亚免费电话号码。
+- **免费电话号码仅在每个国家/地区内工作。** 例如, 你的用户将无法拨打澳大利亚之外的澳大利亚免费号码。
     
-- **获取或移植通用国际免费电话号码 (UIFN) 不受支持。**
+- **不支持获取或移植通用国际 Freephone 号码 (UIFN)。**
     
-- **在多个国家/地区，调节/电信碳排放量的国家/地区要求每个免费电话号码以保留数维护至少 100 分钟的每月的使用率。**
+- **在许多国家/地区, 国家/地区的调压器/电信机构要求每个免费的免费电话号码至少保持每月100分钟的使用, 以便保留该号码。**
     
     > [!NOTE]
-    > 在事件获取免费电话号码和数量的用法不满足以下最低要求，Microsoft 可能不得不通过调节/电信碳排放量回收来自您的编号。 
+    > 如果您收到免费电话号码, 而号码的使用不符合这些最低要求, 则调压器/电信机构可能会受到 Microsoft 的要求, 以回收您的号码。 
   
-- **有线、 固定的行和免费电话号码的移动网络访问可能全部或部分受限。** 拨号格式介绍每个国家/地区使用免费号码进行呼叫所需的访问代码。
+- **拨打免费号码的有线、固定线路和手机网络访问可能完全受到限制或部分受限。** 拨号格式介绍每个国家/地区使用免费号码进行呼叫所需的访问代码。
     
-- **北美编号计划免费电话号码：** 每分钟率 North America 编号规划免费电话号码取决于发起的国家/地区。 源自美国映射到定义为"北美洲。"的速率呼叫收费免费每分钟速率 但是，源自例如加拿大、 波多黎哥等其他北美国家/地区的呼叫有特定的收费电话免费速率。
+- **北美编号计划免费电话号码:** 北美页码的每分钟费率计划免费电话号码由原始国家/地区确定。 从美国地图到定义为 "北美" 的费率的通话的每分钟免费通话费率。 但是, 来自其他北美国家/地区 (如加拿大、波多黎各等) 的呼叫具有特定收费的免费费率。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

@@ -5,38 +5,40 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: 本文讨论 Microsoft 团队会议室的生命周期的支持。
-ms.openlocfilehash: f3e283bec4e84eb38268821e91524a6832aadac1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
+ms.openlocfilehash: 9d4fcbfa7dbe1ea60233e97f10285d01f6cfe943
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916295"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288516"
 ---
-# <a name="version-support"></a>版本支持
+# <a name="microsoft-teams-room-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
-Microsoft 计划的 Microsoft 团队聊天室每年支持从正式发布 (GA) 发行日期十二 12 个月每次更新几次发布更新。 将为整个十二 12 个月提供技术支持。 但是，我们支持结构现动态，到两个不同的服务阶段依赖于最新版本的可用性的发展。
+Microsoft 计划每年对 Microsoft 团队会议室进行一次版本的更新, 每个更新支持 12 (12) 个月的每次更新 (GA) 发布日期。 系统将为您提供完整的 12 (12) 个月的技术支持。 但是, 我们的支持结构现在是动态的, 它发展成两个截然不同的服务阶段, 它们依赖于最新版本的可用性。
 
-服务和服务的关键更新阶段时运行的最新版本的 Microsoft 团队会议室，您将收到包含安全的定期更新并更新服务。
+**服务和关键更新服务阶段**\-运行最新版本的 Microsoft 团队聊天室时, 将收到定期更新, 其中包含安全和服务更新。
 
-
-安全更新 （仅限） 服务阶段之后释放新版本时，支持的旧分支将降低安全更新仅用于十二 （12） 个月的服务更新的其余部分支持生命周期。
-
+**安全更新 (仅限) 服务阶段**\-发布新版本后, 对较旧分支的支持仅限于 12 (12) 个月的剩余服务更新支持生命周期的安全更新。
 
 > [!NOTE]
-> 最新版本始终是在服务和服务阶段的关键更新。 这意味着，在遇到代码缺陷，这样可保证关键更新，您必须已经安装即可接收修复的最新版本。 所有其他受支持的版本将只能可以接收安全更新。
+> 最新版本始终位于 "服务" 和 "关键更新服务" 阶段。 这意味着, 如果遇到可保证关键更新的代码缺陷, 则必须安装最新版本才能接收修补程序。 所有其他支持的版本仅有资格接收安全更新。
 
-所有支持结束十二 （12） 个月生命周期版本已过期后，或从那时起发布两个以上的更新。 此时，客户必须更新到支持的版本。
+所有支持将在某版本的 12 (12) 个月生命周期到期后, 或者自那时起发布超过两个更新时结束。 此时, 客户必须更新到受支持的版本。
 
-所有版本的[Microsoft 团队聊天室发行说明](srs2-release-note.md)中都列出。 
- 
+所有版本均在[Microsoft 团队聊天室发行说明](srs2-release-note.md)中列出。
 
+# <a name="os-version-support"></a>操作系统版本支持
+对于运行 Microsoft 团队聊天室的设备, windows 10 的功能更新不是从 Windows 进行发布更新时的6个月提供的。 通过在 Windows 更新 for Business 频道 (即半年度频道) 和 "应用设置" 中为 Microsoft 团队聊天室设备设置特殊的块来完成此操作。 在此阻止期间, Microsoft 将在室内和通过我们的设备 OEM 合作伙伴执行各种测试, 以确保新的 Windows 10 功能版本与连接到 Microsoft 团队聊天室应用和外围设备的协调配合。 这对确保设备安全性、一致的用户体验以及确保通过 Microsoft 团队聊天室应用提供的体验质量非常重要。   
 
+从时间块提升 (即提供了 "窗口10功能更新" 以在这些设备上下载), Microsoft 团队聊天室支持特定 Windows 10 功能版本的适用于具有应用支持策略的12个月时间段。 由于 Windows 10 功能更新是每6个月提供的, 因此这还意味着 Microsoft 团队将有两个其他版本, 以便在当前版本的时间支持结束时进行测试。 这还意味着每6个月的 Windows 10 版本都将被取消阻止到所有 Microsoft 团队聊天室客户。 由于我们不断地进行应用更改, 并针对上次取消阻止的 Windows 版本进行开发, 因此在某些情况下, 需要依赖于较新版本的 Windows 中可用的 Windows 功能, 这使 Microsoft 更难更改12-18 个月以前的版本。 为确保你在 Microsoft 团队聊天室设备上获取有关遇到的问题的应用修复, 我们强烈建议所有客户将这些设备升级到最新的 Windows 10 功能更新, 以保持受支持的 windows 版本指南。
+
+因此, Microsoft 团队会议室需要 Windows 10 版本1709作为支持的最低版本 (从5月2019日开始)。 Windows 10 版本1703或更低版本上的系统将不会提供新的应用版本。
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅

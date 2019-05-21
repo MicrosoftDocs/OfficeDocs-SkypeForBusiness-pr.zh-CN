@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查找拨入会议号码。 '
-ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d48750959adfd9bc60752daf208779b8c3b508c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205086"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288472"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
@@ -45,12 +45,12 @@ ms.locfileid: "32205086"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
-1. 在左侧导航窗格中，转到**会议** > **会议桥**。 
+1. 在左侧导航中, 转到 "**会议** > **桥**"。 
 2. 查看可用于音频会议的电话号码。
 
-- 您还可以查看的位置和音频会议自动助理将使用的主要语言。
+- 你还可以查看音频会议自动助理将使用的位置和主要语言。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

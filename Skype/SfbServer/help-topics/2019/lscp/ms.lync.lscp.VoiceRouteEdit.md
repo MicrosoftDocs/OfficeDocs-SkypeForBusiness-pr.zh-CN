@@ -1,10 +1,10 @@
 ---
-title: 创建新的或编辑现有语音路由
+title: 语音路由新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceRouteEdit
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 9a8055d49554210e165e124d610871543d8c8ed7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3e9bde5f128758c4dcbc4a1106d0ca06774f530
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890520"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305157"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>语音路由：创建新的或编辑现有的
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
-- [创建或修改 Skype for Business 中的语音路由](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [在 Skype for Business 中创建或修改语音路线](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [修改语音路由](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [修改语音路线](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 

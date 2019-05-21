@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
-description: 您可以通过选择启用 IPv4 或启用 IPv6 定义 IP 或电话电话交换网 (pstn) 网关的 IPv4 或 IPv6 地址。 您可以选择，请使用所有已配置的 IP 地址或服务使用率限制为所选的 IP 地址。
-ms.openlocfilehash: 5dbae2c471c15b20da45cc6412f4bbabecff10ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 通过选择 "启用 IPv4" 或 "启用 IPv6", 为 IP 或手机交换电话网络 (PSTN) 网关定义 IPv4 或 IPv6 地址。 你可以选择 "使用所有配置的 IP 地址" 或 "将服务使用限制为所选 IP 地址"。
+ms.openlocfilehash: 51f9b43b1fe5842d05f41cbf4f9e9ab6e791423a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306837"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
 
-您可以通过选择**启用 IPv4**或**启用 IPv6**定义 IP 或电话电话交换网 (pstn) 网关的 IPv4 或 IPv6 地址。 您可以选择**使用所有已配置的 IP 地址**或**服务使用率限制为所选的 IP 地址**。
+通过选择 "**启用 IPv4** " 或 "**启用 IPv6**", 为 IP 或手机交换电话网络 (PSTN) 网关定义 ipv4 或 IPv6 地址。 你可以选择 "**使用所有配置的 ip 地址**" 或 "将**服务使用限制为所选 ip 地址**"。
 
-如果选择**使用所有已配置的 IP 地址**，将使用网关配置的所有地址。 或者，选择**将服务使用率限制为所选 IP 地址**，这使**PSTN IP 地址**条目。 输入已为此网关已分配的 IPv4 或 IPv6 地址。
+如果选择 "**使用所有配置的 IP 地址**", 将使用网关上配置的所有地址。 (可选) 选择 "**将服务使用限制为选定的 IP 地址**", 这将启用**PSTN IP 地址**条目。 输入已分配给此网关的 IPv4 或 IPv6 地址。
 
 ## <a name="see-also"></a>另请参阅
 

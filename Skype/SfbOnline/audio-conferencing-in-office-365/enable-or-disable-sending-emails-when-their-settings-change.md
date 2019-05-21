@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229814"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290117"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -34,37 +34,37 @@ ms.locfileid: "32229814"
 
 Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
   
-如果您禁用发送电子邮件，就不会音频会议电子邮件发送给用户，当用户处于启用或禁用音频会议以及会议 ID 和默认会议电话号码的更改时重置其 PIN，包括电子邮件.
+如果您禁用发送电子邮件, 则不会将音频会议电子邮件发送给您的用户, 包括为用户启用或禁用音频会议时的电子邮件、重置 PIN 以及会议 ID 和默认会议电话号码更改的时间.
   
-下面是他们启用音频会议时，向用户发送的电子邮件的示例：
+下面是在用户启用音频会议时发送给用户的电子邮件示例:
   
 ![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
-- 有多个电子邮件发送给组织中的用户启用了后为音频会议：
+- 在为您的组织中的用户启用音频会议后, 会向他们发送多封电子邮件:
     
   - 向其分配**音频会议**许可证时。
     
-  - 当您手动重置用户的音频会议 PIN。
+  - 当您手动重置用户的音频会议 PIN 时。
     
   - 当你手动重置用户的会议 ID 时。
     
   - 删除其**音频会议**许可证时。
     
-  - 当用户的音频会议提供商从 Microsoft 更改为其他提供程序或**无**。
+  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供商或 "**无**" 时。
     
-  - 向 Microsoft 更改时用户的音频会议提供商。
+  - 当用户的音频会议提供商更改为 Microsoft 时。
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用从发送给用户的电子邮件
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用向用户发送电子邮件
 
-您可以使用业务管理中心的 Skype 或 Windows PowerShell 启用或禁用电子邮件发送给用户。
+你可以使用 Skype for Business 管理中心或 Windows PowerShell 来启用或禁用发送给用户的电子邮件。
 
  
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，单击**音频会议**。
+1. 在**Skype For business 管理中心**的左侧导航中, 单击 "**音频会议**"。
     
 2. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
     
@@ -78,7 +78,7 @@ Users are automatically notified by email when they are enabled for Audio Confer
 
 **使用 Windows PowerShell**
   
-- 运行以下命令以禁用发送电子邮件： 
+- 运行以下操作以禁用发送电子邮件: 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
@@ -123,7 +123,7 @@ Users are automatically notified by email when they are enabled for Audio Confer
   
 ## <a name="related-topics"></a>相关主题
 
-[其音频会议设置更改时向用户发送的电子邮件](emails-sent-to-users-when-their-settings-change.md)
+[在用户的音频会议设置更改时发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)
 
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)
 

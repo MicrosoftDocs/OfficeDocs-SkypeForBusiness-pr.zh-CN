@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
-ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229278"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306086"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>禁用特定 Skype for Business Online 用户的免费电话号码
  
@@ -46,17 +46,17 @@ By default, all users in your organization are enabled for using toll-free numbe
 
  - 参会者可以继续使用收费电话号码参加该组织者的会议。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>为特定用户禁用免费电话号码 
 
-从**Microsoft 团队管理中心**：
+从**Microsoft 团队管理中心**:
 
-1. 在左侧导航窗格中，单击**用户**，然后选择从可用的用户列表的用户。
+1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
 
 2. 在**音频会议**旁边，单击**编辑**。
 
-3. 将**包含在会议请求此用户从免费电话号码**设置为**关闭**。 
+3. 设置**包括来自此用户的会议请求中**的免费电话号码****。 
 
-4. 单击**保存。** 
+4. 单击 "**保存"。** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

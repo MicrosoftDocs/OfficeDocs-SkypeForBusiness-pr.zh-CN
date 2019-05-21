@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: 删除 CcCertificationAuthorityFile cmdlet 删除证书颁发机构服务备份文件的网站共享目录下的 CA 文件夹中的 Skype 商务云连接器版。
-ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: CcCertificationAuthorityFile cmdlet 将在适用于 Skype for business 云连接器版本的网站共享目录下的 CA 文件夹中删除证书颁发机构服务备份文件。
+ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899622"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287088"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-删除 CcCertificationAuthorityFile cmdlet 可删除的证书颁发机构服务备份文件"&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12"Business 云 Connector 的 Skype 网站共享目录的 CA 文件夹中版本。 
+CcCertificationAuthorityFile cmdlet 将在 Skype for business 云连接器的网站共享目录&lt;下&gt;的 CA 文件夹中删除证书颁发机构服务备份文件 "SiteRootDirectory \CA\SfB CCE Root. p12"新版. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -35,7 +35,7 @@ Remove-CcCertificationAuthorityFile
 
 ### <a name="example-1"></a>示例 1
 
-以下示例删除证书颁发机构服务备份文件"&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12"网站共享目录的 CA 文件夹中：
+以下示例将在网站共享目录下的 CA 文件夹&lt;中&gt;删除证书颁发机构服务备份文件 "SiteRootDirectory \CA\SfB CCE Root. p12":
   
 ```
 Remove-CcCertificationAuthorityFile

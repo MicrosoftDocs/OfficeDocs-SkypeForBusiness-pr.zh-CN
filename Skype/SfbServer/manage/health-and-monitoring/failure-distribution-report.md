@@ -1,25 +1,25 @@
 ---
-title: 故障分布报告中 Skype 业务服务器
+title: Skype for Business 服务器中的失败分配报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 摘要： 了解了故障分布报告中 Skype 业务服务器。
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的失败分发报告。'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912076"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305694"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>故障分布报告中 Skype 业务服务器
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Skype for Business 服务器中的失败分配报告
  
-**摘要：** 了解了故障分布报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的失败分发报告。
   
 故障分布报告按以下类别对失败会话进行分级：
   
@@ -45,13 +45,13 @@ ms.locfileid: "33912076"
 
 您可以通过单击“**预期失败量**”或“**意外失败量**”指标，从以下任意报告中访问故障分布报告：
   
-- [Skype 中的业务服务器的主要故障报告](top-failures-report.md)
+- [Skype for Business 服务器中的热门失败报告](top-failures-report.md)
     
-- [会议中 Skype 业务服务器的诊断报告](conference-diagnostic-report.md)
+- [Skype for Business 服务器中的会议诊断报告](conference-diagnostic-report.md)
     
-- [对等活动中 Skype 业务服务器的诊断报告](peer-to-peer-activity-diagnostic-report.md)
+- [Skype for Business Server 中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)
     
-从故障分布报告中，您可以单击以下指标以查看[Failure List Report 中的业务服务器的 Skype](failure-list-report.md)任一选项：
+在 "失败分发" 报表中, 可以单击以下任一指标, 以查看[Skype For Business 服务器中的 "故障列表" 报表](failure-list-report.md):
   
 - 主要诊断原因（会话）
     
@@ -128,9 +128,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**等级** <br/> |否  <br/> |基于的注册器池或边缘服务器会话其中已进行的失败会话的相对等级。  <br/> |
-|**主要池** <br/> |否  <br/> |注册器池或边缘服务器的名称。  <br/> |
-|**会话数** <br/> |否  <br/> |每个注册器池或边缘服务器的失败会话的总数。  <br/> |
+|**等级** <br/> |否  <br/> |基于执行会话的注册池或边缘服务器的失败会话的相对级别。  <br/> |
+|**主要池** <br/> |否  <br/> |注册机构池或边缘服务器的名称。  <br/> |
+|**会话数** <br/> |否  <br/> |每个注册池或边缘服务器的失败会话总数。  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>主要来源的指标
 
@@ -152,7 +152,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**等级** <br/> |否  <br/> |基于组件 （例如，ExumRouting、 GroupChat 或 MediationServer） 的失败会话的相对等级。  <br/> |
+|**等级** <br/> |否  <br/> |基于组件 (例如, ExumRouting、GroupChat 或 MediationServer) 的失败会话的相对级别。  <br/> |
 |**主要组件** <br/> |否  <br/> |失败会话所涉及的组件的名称。  <br/> |
 |**会话数** <br/> |否  <br/> |每个组件的失败会话总数。  <br/> |
    

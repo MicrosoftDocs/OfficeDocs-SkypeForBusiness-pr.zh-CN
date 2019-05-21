@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204991"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305345"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 
-音频会议的组织中启用的 Microsoft 团队用户后，您可以查看的已启用这些用户的列表。 
+在你的组织中为音频会议启用 Microsoft 团队用户后, 你可以查看已启用的用户的列表。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>查看用户列表
 
-- 在 Microsoft 团队管理中心中，在左侧导航窗格中，单击**用户**。
+- 在 Microsoft 团队管理中心的左侧导航中, 单击 "**用户**"。
 
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 当您查看已启用的用户列表时，您可以从该列表以编辑该用户的音频会议设置选择用户。
+- 当你查看已启用用户的列表时, 你可以从列表中选择用户以编辑该用户的音频会议设置。
     
-- 如果您选择单个用户，您可以查看分配给用户和任何其他相关的音频会议设置的默认电话号码。    
+- 选择单个用户时, 你可以查看分配给该用户的默认电话号码和任何其他相关的音频会议设置。    
    
 - 可以使用搜索按钮搜索列表中的某个用户。
     

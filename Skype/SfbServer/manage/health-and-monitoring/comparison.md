@@ -1,25 +1,25 @@
 ---
-title: 媒体质量比较报告中 Skype 业务服务器
+title: Skype for Business Server 中的媒体质量比较报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 摘要： 了解媒体质量比较报告中 Skype 业务服务器。
-ms.openlocfilehash: bee5e5bc0e619f985d68e18e38aa95377296d2cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的媒体质量比较报告。'
+ms.openlocfilehash: d665c568bcda1be6124b30f5f2907447fa585343
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926867"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289305"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>媒体质量比较报告中 Skype 业务服务器
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Skype for Business Server 中的媒体质量比较报告
  
-**摘要：** 了解媒体质量比较报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的媒体质量比较报告。
   
 媒体质量比较报告使您能够比较不同类型的音频呼叫（例如，通过无线网络发出的呼叫与通过有线连接发出的呼叫）的呼叫质量值。
   
@@ -50,7 +50,7 @@ ms.locfileid: "33926867"
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**呼叫量** <br/> |否  <br/> |呼叫总数。  <br/> |
-|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的 MOS（平均意见得分）的平均值。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 Skype 业务服务器使用一算法来预测如何将具有用户分级呼叫。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的 MOS（平均意见得分）的平均值。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 Skype for business 服务器使用一组算法来预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**质量欠佳的呼叫百分比** <br/> |否  <br/> |归类为质量欠佳的呼叫的总数。质量欠佳的呼叫是指至少一项测量指标超过允许的值的任何呼叫（例如，信号极不稳定的呼叫）。  <br/> |
 |**来回行程（毫秒）** <br/> |否  <br/> |实时传输协议数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
 |**数据包丢失** <br/> |否  <br/> |平均实时传输协议 (RTP) 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时，即发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的。数据包丢失通常导致音频失真或丢失。  <br/> |

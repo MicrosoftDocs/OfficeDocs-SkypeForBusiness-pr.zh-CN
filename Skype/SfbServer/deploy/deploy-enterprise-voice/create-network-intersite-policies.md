@@ -1,10 +1,10 @@
 ---
-title: 创建网络站点间策略中 Skype 业务服务器
+title: 在 Skype for Business 服务器中创建网络站点间策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,22 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: 创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。
-ms.openlocfilehash: 455caaf624c463bdb1c32ca8fbce70c88626c774
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 创建网络间策略, 这些策略由 Skype for Business 服务器中的 "企业语音呼叫许可控制" 使用。
+ms.openlocfilehash: dceb48d0e87706d71de8c69b5622fbab468273b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892963"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286311"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>创建网络站点间策略中 Skype 业务服务器
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建网络站点间策略
  
-创建网络站点间策略，使用 Skype 中的企业语音呼叫允许控制业务服务器。 
+创建网络间策略, 这些策略由 Skype for Business 服务器中的 "企业语音呼叫许可控制" 使用。 
   
 网络站点间策略定义其间具有直接 WAN 链路的站点间的带宽限制。
   
 > [!IMPORTANT]
-> 两个网络站点之间没有直接交叉链接时所需*仅*网络站点间策略。
+> 只有当两个网络站点之间有直接交叉链接时,*才*需要网络间策略。
   
 在示例拓扑北美区域中，Reno 和 Albuquerque 站点之间具有直接链接。这两个站点需要可应用相应带宽策略配置文件的站点间策略。以下示例将应用 20Mb_Link 配置文件。
   

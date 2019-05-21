@@ -1,31 +1,31 @@
 ---
-title: 创建或修改的 Skype 中业务服务器的 CDR 配置设置集合
+title: 在 Skype for Business 服务器中创建或修改 CDR 配置设置的集合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 摘要： 了解有关呼叫详细信息记录 (CDR) 中 Skype 业务服务器。
-ms.openlocfilehash: 2599e5fc221c8c19737e2f0ca3add665cceb6686
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的呼叫详细记录 (CDR)。'
+ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926604"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305828"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>创建或修改的 Skype 中业务服务器的 CDR 配置设置集合
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或修改 CDR 配置设置的集合
  
-**摘要：** 了解有关呼叫详细信息记录 (CDR) 中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的呼叫详细记录 (CDR)。
   
 利用呼叫详细信息记录 (CDR)，可以跟踪对等即时消息会话、IP 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。
   
-为业务 Server 单个安装 Skype 时，会为您创建的 CDR 配置设置的全局集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 CDR。
+安装 Skype for Business 服务器时, 将为你创建单个的 CDR 配置设置的全局集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 CDR。
   
-可以通过使用任一 Skype 业务 Server Control Panel 或[New-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet 创建 CDR 配置设置。 Skype 业务 Server Control Panel 或[Set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 可用于修改现有的设置。 如果使用的业务 Server Control Panel Skype 创建或修改设置，将对您可用下列选项：
+你可以使用 Skype for Business Server 控制面板或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) CMDLET 创建 CDR 配置设置。 你可以使用 Skype for Business Server 控制面板或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 修改现有设置。 如果您使用的是 Skype for Business 服务器控制面板来创建或修改设置, 您将可以使用以下选项:
   
 |**UI 设置**|**PowerShell 参数**|**说明**|
 |:-----|:-----|:-----|
@@ -36,29 +36,29 @@ ms.locfileid: "33926604"
 |错误报告数据最长保留期限（天）  <br/> |KeepErrorReportForDays  <br/> |指示 CDR 错误报告的保留天数。任何早于指定天数的记录都将被自动删除。CDR 错误报告是客户端应用程序上传的诊断报告。  <br/> |
    
 > [!NOTE]
-> New-cscdrconfiguration 和 Set-cscdrconfiguration cmdlet 包括用于业务 Server Control Panel Skype 中不可用的其他选项。 请参阅[New-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)和[Set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)帮助主题的详细信息。
+> CsCdrConfiguration 和 CsCdrConfiguration cmdlet 包括 Skype for Business Server 控制面板中不提供的其他选项。 有关详细信息, 请参阅[新的 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)和[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)的帮助主题。
   
-### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 创建 CDR 配置设置
+### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板创建 CDR 配置设置
 
-1. Skype 的业务 Server Control Panel 中单击**监控和存档**。
+1. 在 Skype for Business 服务器控制面板中, 单击 "**监视和存档**"。
     
-2. 在**呼叫详细信息记录**选项卡中，单击**新建**。
+2. 在 "**呼叫详细记录**" 选项卡上, 单击 "**新建**"。
     
 3. 在“**选择站点**”对话框中，选择要在其中创建新配置设置的站点。如果该对话框为空，则表示所有站点均已被分配 CDR 配置设置集合。每个站点均限制为只有一个此类集合。在这种情况下，您可以删除设置然后重新创建，也可以只修改现有设置。
     
 4. 在“**新建呼叫详细信息记录 (CDR) 设置**”  对话框中进行所需选择，然后单击“**提交**”。
     
-### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 修改现有 CDR 配置设置
+### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板修改现有 CDR 配置设置
 
-1. Skype 的业务 Server Control Panel 中单击**监控和存档**。
+1. 在 Skype for Business 服务器控制面板中, 单击 "**监视和存档**"。
     
-2. 双击要修改的设置集合，或选择集合后单击“**编辑**”，然后单击“**显示详细信息**”。 请注意，一次只能修改一个集合。 对多个集合进行相同的更改，改用 Skype 的业务 Server Management Shell。
+2. 双击要修改的设置集合，或选择集合后单击“**编辑**”，然后单击“**显示详细信息**”。 请注意，一次只能修改一个集合。 若要对多个集合进行相同的更改, 请改用 Skype for Business 服务器管理外壳。
     
 3. 在“**编辑呼叫详细信息记录 (CDR) 设置**”对话框中进行所需选择，然后单击“**提交**”。
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建 CDR 配置设置
 
-您可以创建 CDR 配置设置也可以创建使用 Windows PowerShell 和**New-cscdrconfiguration** cmdlet。 可以从 Skype 业务 Server 命令行管理程序或从 Windows PowerShell 远程会话来运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
+你可以创建 CDR 配置设置, 也可以使用 Windows PowerShell 和**CsCdrConfiguration** cmdlet 创建 CDR 配置设置。 你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>创建新的 CDR 配置设置集合
 
@@ -84,6 +84,6 @@ ms.locfileid: "33926604"
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 
-有关详细信息，请参阅[New-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息, 请参阅[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
-ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
+ms.openlocfilehash: 9d15d51d0044ae15b04572f0b64a21912cea720a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229884"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305430"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
-呼叫者 ID 可以通过使用名为 CallingLineIdentity 策略控制的电话系统的用户的入站和出站呼叫。
+呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
   
-呼叫者 ID 功能，无论 PSTN 连接的所有电话系统用户：
+无论 PSTN 连接如何, 所有电话系统用户均可使用呼叫方 ID 功能:
   
 - 在线 PSTN 连接
     
@@ -47,7 +47,7 @@ ms.locfileid: "32229884"
 
 出站 PSTN 来电显示有三个对应选项：
   
-- 分配给用户，这是默认电话号码。
+- 分配给用户的电话号码 (默认值)。
     
 - A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
@@ -55,7 +55,7 @@ ms.locfileid: "32229884"
     
 但你不能为出站来电显示分配以下类型的电话号码：
   
-- 任何电话号码分类为*用户*在您调用计划的电话号码库存
+- 在您的通话计划中分类为*用户*的任何电话号码, 电话号码库存
     
 - Skype for Business Server 内部部署电话号码
     
@@ -65,7 +65,7 @@ ms.locfileid: "32229884"
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-最终用户可以通过使用 for Business 桌面客户端的 Skype 中的**设置**选项卡将其呼叫者 ID 设置为**匿名**，选择**呼叫最终用户**（如果由管理员启用），选择所有呼叫的**隐藏我的电话号码和配置文件信息**.
+最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**, 选择 "**呼叫最终用户**" (如果由管理员启用), 选择 "**隐藏所有呼叫的电话号码和配置文件信息"**.
   
 ||||
 |:-----|:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: 管理业务 online Skype 中的用户的音频会议设置
+title: 在 Skype for business Online 中管理用户的音频会议设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,17 +20,17 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，您可以为组织中的单个用户编辑 Skype for Business Online 音频会议设置，例如提供程序、默认收费或免费电话号码、会议 ID 或 PIN。 '
-ms.openlocfilehash: 06fd99987df725e235f308af20542fa45b0286fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ee60b8fc97313e38fd680b8deb42bc991e03b0f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229622"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290080"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>管理业务 online Skype 中的用户的音频会议设置
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在 Skype for business Online 中管理用户的音频会议设置
 
 > [!Note]
-> 如果您想要管理 Microsoft 团队中的用户设置，请参阅[管理 Microsoft 团队中的用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
+> 如果要在 Microsoft 团队中管理用户设置, 请参阅[在 Microsoft 团队中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
 
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
@@ -39,7 +39,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 2. 选择 **管理中心** > **Skype for Business** 。
     
-3. 在业务管理中心的 Skype，选择**用户**。
+3. 在 Skype for Business 管理中心, 选择 "**用户**"。
     
 4. 选择要为其管理设置的用户，然后在“操作”窗格中单击**编辑**![显示编辑图标](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)。
     
@@ -47,11 +47,11 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 |**设置**|**说明**|
 |:-----|:-----|
-|**提供程序名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：** 仅当您选择 Microsoft 作为音频会议提供商时，此表中的其余设置才适用。           |
+|**提供商名称** <br/> |从列表中选择您的提供商。  <br/><br/> **注意：** 仅当您选择 Microsoft 作为音频会议提供商时，此表中的其余设置才适用。           |
 |**默认收费电话号码** （必需） <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**默认免费电话号码** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**允许在组织的 Microsoft 网桥中使用免费电话号码加入此用户的会议** <br/> |如果要允许用户使用免费电话号码加入会议，请选择此选项。  <br/> |
-|**发送会议信息通过电子邮件** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**通过电子邮件发送会议信息** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**会议 ID** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
 |**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
 |**允许未经身份验证的呼叫者成为第一个加入会议的人** <br/> |选择此选项可允许未经身份验证的呼叫者成为第一个加入会议的人。  <br/> |

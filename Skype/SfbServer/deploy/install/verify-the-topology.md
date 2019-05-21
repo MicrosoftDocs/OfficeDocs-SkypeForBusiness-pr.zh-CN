@@ -1,11 +1,11 @@
 ---
-title: 验证业务服务器中 Skype 的拓扑
+title: 验证 Skype for Business 服务器中的拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,53 +14,53 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 摘要： 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 下载免费试用版 Skype 业务服务器从 Microsoft 评估中心，网址为： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: fc0e3a4b76ab25a8b99a3c7d48d0527fc2a1f5ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何验证 Skype for business 服务器拓扑和 Active Directory 服务器是否按预期工作。 从 Microsoft 评估中心下载免费试用版 Skype for Business 服务器, 网址为: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: aad91c7bfb1e3187ace5d5caec4e3f18952a11d8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891780"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306589"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server"></a>验证业务服务器中 Skype 的拓扑
+# <a name="verify-the-topology-in-skype-for-business-server"></a>验证 Skype for Business 服务器中的拓扑
  
-**摘要：** 了解如何验证为企业服务器拓扑 Skype 和 Active Directory 服务器正常运行。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)业务服务器下载 Skype 的免费试用版。
+**摘要:** 了解如何验证 Skype for business 服务器拓扑和 Active Directory 服务器是否按预期工作。 从[Microsoft 评估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下载 Skype For business 服务器的免费试用版。
   
-发布的拓扑和业务服务器系统组件安装在每个拓扑中的服务器上的 Skype 后，即可进行验证拓扑按预期方式工作。 这包括确认配置传播到所有 Active Directory 服务器，以便整个域知道 for Business 的 Skype 位于可用域中。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 验证拓扑是 8 个步骤中的第 8 步。
+在已发布拓扑和拓扑中的每台服务器上安装了 Skype for Business 服务器系统组件后, 即可验证拓扑是否按预期方式工作。 这包括验证配置是否已传播到所有 Active Directory 服务器, 以便整个域知道 Skype for Business 在域中可用。 第 1 步至第 5 步可以按任意顺序执行。 但是，第 6、7、8 步必须在第 1 步至第 5 步之后按图表所示顺序执行。 验证拓扑是 8 个步骤中的第 8 步。
   
 ![概述图表。](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
 ## <a name="test-the-front-end-pool-deployment"></a>测试前端池部署
 
-最后一步是要测试的前端池并确认业务客户端的 Skype 可以相互通信。 
+最后一步是测试前端池并确认 Skype for Business 客户端可以互相通信。 
   
 ### <a name="add-users-and-verify-client-connectivity"></a>添加用户并验证客户端连接
 
-1. 使用 Active Directory 计算机和用户将业务服务器部署 （在其上已安装的业务 Server Control Panel Skype） Skype 的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。
+1. 使用 Active Directory 计算机和用户将 Skype for business Server 部署 (安装了 Skype for business Server 控制面板) 的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。
     
     > [!IMPORTANT]
-    > 如果没有在 CsAdministors 组添加相应的用户和组，它读取，业务 Server Control Panel for 打开 Skype 时，您将收到错误"未经授权： 访问被拒绝由于基于角色的访问控制 (RBAC) 授权故障." 
+    > 如果不将相应的用户和组添加到 CsAdministors 组, 则打开 Skype for Business 服务器控制面板时将收到错误, "未经授权: 由于基于角色的访问控制 (RBAC) 授权失败, 访问被拒绝." 
   
 2. 如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。
     
     > [!NOTE]
-    > 用户帐户不能是运行 Skype 业务服务器的任何服务器的本地管理员。 
+    > 用户帐户不能是运行 Skype for Business Server 的任何服务器的本地管理员。 
   
-3. 使用管理帐户登录到计算机的业务 Server Control Panel Skype 的安装位置。
+3. 使用 "管理" 帐户登录到安装了 "Skype for Business 服务器控制面板" 的计算机。
     
-4. 为业务服务器控制面板中，启动 Skype，然后提供凭据，，如果系统提示您。 Skype 的业务 Server Control Panel 显示部署信息。
+4. 如果出现提示, 请启动 Skype for business 服务器控制面板, 然后提供凭据。 Skype for business 服务器 "控制面板" 显示部署信息。
     
-5. 在左侧的导航栏中，单击**拓扑**，，然后确认服务状态显示带绿色箭头的计算机和绿色复选标记的复制状态已部署并联机业务服务器角色的每个 Skype 旁边。 
+5. 在左侧导航栏中, 单击 "**拓扑**", 然后确认 "服务状态" 显示计算机带有绿色箭头, 并且复制状态的绿色复选标记位于已部署并联机的每个 Skype For business 服务器角色旁边。 
     
 6. 在左侧导航栏中，单击**用户**，然后单击**启用用户**。 
     
-7. 在**新 Skype 的企业服务器用户**页上，单击**添加**。
+7. 在 "**新建 Skype for Business 服务器" 用户**页面上, 单击 "**添加**"。
     
 8. 要为希望查找的对象定义搜索参数，可以在**从 Active Directory 中选择**页上选择**搜索**，然后选择单击**添加筛选器**。还可以选择**LDAP 搜索**，然后输入 LDAP 表达式以筛选或限制将返回的对象。确定“搜索”选项后，单击**查找**。
     
 9. 在搜索结果窗格中，选择要添加的用户，然后单击 **确定**。
     
-10. 在**新 Skype 的企业服务器用户**页中，所选的用户处于**用户**显示。 In the **Assign users to a pool** list, select the server where the users should reside.
+10. 在 "**新建 Skype For Business 服务器" 用户**页面上, 所选用户将位于 "**用户**" 显示中。 In the **Assign users to a pool** list, select the server where the users should reside.
     
     您可以使用以下列表中的选项来配置对象。
     
@@ -84,7 +84,7 @@ ms.locfileid: "33891780"
     
     - **客户端策略**
     
-    若要测试的基本功能，选择您需要的选项 （中的其他选项的配置使用默认设置），在**生成用户的 SIP URI**设置，然后单击**启用**，如图所示。
+    若要测试基本功能, 请为 "**生成用户的 SIP URI** " 设置选择所需的选项 (配置中的其他选项使用默认设置), 然后单击 "**启用**", 如图所示。
     
      ![在控制面板中启用用户。](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
@@ -94,6 +94,6 @@ ms.locfileid: "33891780"
   
 12. 使一个用户登录到加入域的计算机，另一个用户登录到域中的另一台计算机。
     
-13. 在每台两台客户端计算机的业务客户端安装 Skype，然后确认两个用户可以登录到 Skype 业务服务器，并可以互相发送即时消息。
+13. 在两台客户端计算机上安装 Skype for Business 客户端, 然后验证这两个用户都可以登录到 Skype for business 服务器, 并且可以互相发送即时消息。
     
 

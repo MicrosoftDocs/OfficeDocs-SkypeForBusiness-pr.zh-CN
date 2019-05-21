@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: 请参阅有与特殊字符的策略和解决办法可以执行的操作的名称中哪些问题。
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: 查看策略名称中有特殊字符以及可以执行哪些操作来修复这些问题。
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632231"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298599"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 
-**无法创建或编辑策略 （对于消息、 会议、 等） 的已在名称中的 Microsoft 团队管理特殊字符居中**。 
+**不能在 Microsoft 团队管理中心的名称中创建或编辑具有特殊字符的策略 (对于邮件、会议等)**。 
 
-如果某个策略名称包含特殊字符，您将在管理这些策略的 Microsoft 团队管理中心中的限制。 **因此，我们强烈建议策略名称不包含特殊字符**。 
+如果策略名称包含特殊字符, 则在 Microsoft 团队管理中心中管理这些策略将受到限制。 **因此, 我们强烈建议策略名称不要包含特殊字符**。 
 
-使用 PowerShell 的会议和消息团队可以如具有特殊字符已创建的策略名称 @，#、 $。 但是，如果您想要更改的 Microsoft 团队管理中心中的策略，将看不到。 
+在团队中使用 PowerShell 为会议和消息创建的策略名称可以有特殊字符, 如 @、#、$。 但是, 如果你想要更改 Microsoft 团队管理中心中的策略, 你将无法执行。 
 
-如果必须具有特殊字符的策略，您需要编辑策略使用 Windows PowerShell （始终） 或在与旧策略相同的设置的 Microsoft 团队管理中心创建新的策略和将其分配给同一组的用户。
+如果你有带有特殊字符的策略, 你将需要使用 Windows PowerShell (永久) 编辑策略, 或在 Microsoft 团队管理中心中使用与旧策略相同的设置创建新策略, 并将其分配给同一组用户。
 
-## <a name="to-remove-special-characters"></a>若要删除特殊字符
+## <a name="to-remove-special-characters"></a>删除特殊字符
 
-**步骤 1 – 进行远程 powershell 连接。**
-如果尚未尚未[设置您的计算机的 Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 。
+**步骤 1-使用 PowerShell 进行远程连接。**
+如果尚未[安装 Windows PowerShell, 请设置计算机](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -49,40 +49,40 @@ ms.locfileid: "33632231"
 ```
 
 
-**步骤 2-获取旧策略设置和捕获输出。**
+**步骤 2-获取旧策略的设置并捕获输出。**
 
 > [!NOTE]
-> 此示例适用于[消息](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)策略。  步骤是其他策略类型相同，但您必须使用正确的 cmdlet。 
+> 此示例适用于[消息](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)策略。  对于其他策略类型, 步骤是相同的, 但你必须使用正确的 cmdlet。 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-**步骤 3-创建新的策略。**
+**步骤 3-创建新策略。**
 
-您可以使用的 Microsoft 团队管理中心或 PowerShell 相同的设置创建新策略。
+你可以使用 Microsoft 团队管理中心或 PowerShell 创建具有相同设置的新策略。
 
-运行此会为您创建新策略，但您需要通过查看[设置 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ，然后运行它添加正确设置：
+运行此操作将为你创建新策略, 但你需要添加正确的设置, 方法是先查看 "[设置-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ", 然后运行它:
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**步骤 4-将策略分配。**
+**步骤 4-分配策略。**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-请参阅[授予 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
+有关此 cmdlet 的详细信息, 请参阅、[授权 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 。
 
-**步骤 5-删除旧的策略。**
+**步骤 5-删除旧策略。**
 
-这将删除特殊字符的旧策略。
+这将删除具有特殊字符的旧策略。
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-请参阅[删除 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)有关此 cmdlet 的详细信息。
+有关此 cmdlet 的详细信息, 请参阅[CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 。
 
-如果此命令成功执行，即已完成。 如果上述命令将返回错误，这是因为旧策略分配给用户，因此您需要运行以从策略中删除所有已分配的用户：
+如果此命令成功, 您就已完成。 如果上面的命令返回错误, 则是因为旧策略已分配给用户, 因此你需要运行以从策略中删除所有分配的用户:
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
@@ -95,7 +95,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 具有很多好处中快速、 简便起见和生产力通过仅使用 Microsoft 365 管理中心中的，如时要进行设置更改多个用户一次。 请在以下主题中了解这些优点：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你在一次为多个用户进行设置更改时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -104,6 +104,6 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Skype 业务 online 的 Windows PowerShell 模块使您能够创建了业务 Online 和 Microsoft 团队连接到 Skype 远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > 适用于 Skype for Business Online 的 Windows PowerShell 模块可创建连接到 Skype for business Online 和 Microsoft 团队的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
   
 

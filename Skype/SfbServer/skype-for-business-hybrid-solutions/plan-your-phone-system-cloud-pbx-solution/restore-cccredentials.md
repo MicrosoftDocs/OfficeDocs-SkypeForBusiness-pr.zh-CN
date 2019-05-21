@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: 还原抄送凭据 cmdlet 还原所有业务云连接器 Edition 部署中的当前 Skype 的凭据。
-ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Restore Cc-凭据 cmdlet 用于还原当前 Skype for business Cloud Connector Edition 部署的所有凭据。
+ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891466"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287081"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-还原抄送凭据 cmdlet 还原所有业务云连接器 Edition 部署中的当前 Skype 的凭据。 
+Restore Cc-凭据 cmdlet 用于还原当前 Skype for business Cloud Connector Edition 部署的所有凭据。 
   
-此 cmdlet 适用于 Skype 的业务云连接器 Edition 2.1。
+此 cmdlet 适用于 Skype for Business 云连接器版本2.1。
   
 ```
 Restore-CcCredentials 
@@ -30,7 +30,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>详细说明
 
-还原 CcCredentials cmdlet 清除所有凭据，并提示您重新输入用于当前 Skype 商业云连接器部署的所有凭据。
+Restore-CcCredentials cmdlet 将清理所有凭据, 并提示你重新输入用于当前 Skype for Business 云连接器部署的所有凭据。
   
 ## <a name="parameters"></a>参数
 
@@ -38,7 +38,7 @@ Restore-CcCredentials
   
 ## <a name="input-types"></a>输入类型
 
-无。 还原 CcCredentials cmdlet 不接受通过管道传递的输入。
+无。 Restore CcCredentials cmdlet 不接受流水线输入。
   
 ## <a name="return-types"></a>返回类型
 
@@ -46,7 +46,7 @@ Restore-CcCredentials
   
 ## <a name="example"></a>示例
 
-以下示例恢复所有凭据的当前云连接器部署：
+以下示例将还原当前云连接器部署的所有凭据:
   
 ```
     PS C:\>Restore-CcCredentials

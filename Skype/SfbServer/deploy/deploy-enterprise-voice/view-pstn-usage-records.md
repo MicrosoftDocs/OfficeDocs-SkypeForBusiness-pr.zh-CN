@@ -1,10 +1,10 @@
 ---
-title: 查看 PSTN 用法记录中的业务的 Skype
+title: 查看 Skype for Business 中的 PSTN 使用记录
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 摘要： 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
-ms.openlocfilehash: 933f20754aff5d8e8c9032cee02693e685130078
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何使用 Skype for business 服务器控制面板或 Skype for business Server 命令行管理程序查看 PSTN 使用情况记录。'
+ms.openlocfilehash: d00fcab8c7f5ad9b8f47d5aecb6c6169e8d43574
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892256"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300921"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business"></a>查看 PSTN 用法记录中的业务的 Skype
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>查看 Skype for Business 中的 PSTN 使用记录
 
-**摘要：** 了解如何使用 Skype 业务 Server Control Panel 或 Skype for Business Server 命令行管理程序查看 PSTN 用法记录。
+**摘要:** 了解如何使用 Skype for business 服务器控制面板或 Skype for business Server 命令行管理程序查看 PSTN 使用情况记录。
 
 公用电话交换网 (PSTN) 用法记录指定组织中各个用户或用户组所能发出的呼叫类别（如内部、本地或长途）。有关详细信息，请参阅规划文档中的 [PSTN Usage Records](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx)。
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 查看 PSTN 用法记录
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板查看 PSTN 使用记录
 
-1. 打开 Skype 业务 Server Control Panel。
+1. 打开 "Skype for Business 服务器" 控制面板。
 
 2. 在左侧导航栏中，单击“语音路由”****，然后单击“PSTN 用法”****。
 
@@ -38,9 +38,9 @@ ms.locfileid: "33892256"
     > [!NOTE]
     > 所选 PSTN 用法记录的只读页面会显示关联的路由和关联的语音策略。
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>若要使用 Skype 业务 Server Management Shell cmdlet 查看 PSTN 用法信息
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>使用 Skype for Business Server Management Shell cmdlet 查看 PSTN 使用信息
 
-- 若要查看有关所有 PSTN 用法的信息，业务 Server Management Shell，Skype 中键入以下命令，然后按 ENTER:
+- 若要查看有关所有 PSTN 用法的信息, 请在 Skype for Business Server 命令行管理程序中键入以下命令, 然后按 ENTER:
 
   ```
   Get-CsPstnUsage
@@ -55,5 +55,5 @@ ms.locfileid: "33892256"
 
 ## <a name="see-also"></a>另请参阅
 
-[创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
+[在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录](voice-policy-and-pstn-usage-records.md)
 

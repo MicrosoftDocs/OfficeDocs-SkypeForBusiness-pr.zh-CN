@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: c6e292b945ee6082d99720ec9ac449f062b799cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 684519d29177b9daf4be57c650e811f00945adfb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890632"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290029"
 ---
 # <a name="unassigned-phone-number"></a>未分配电话号码
 
 > [!NOTE]
-> Exchange UM 仍可在 Skype 的业务服务器 2019年与 Exchange 2013 或 Exchange 2016 集成 for Business 2019 Skype 时。 由于 Exchange 2019 中支持的变化，Exchange UM 集成正在弱化支持云语音邮件和云自动助理功能。
+> 将 Skype for business 2019 与 Exchange 2013 或 Exchange 2016 集成时, exchange UM 将在 Skype for business Server 2019 中保持可用。 由于 Exchange 2019 中的支持的更改, Exchange UM 集成已被取消重点, 取而代之的是云语音邮件和云自动助理功能。
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
 
@@ -50,38 +50,38 @@ ms.locfileid: "33890632"
 
 下表介绍了该页上的各个命令。
 
-- **新**开始一个新的未分配号码范围。
+- **新**启动新的未分配的号码范围。
 
-- **编辑**打开所选的未分配号码范围，以供编辑，在列表中，选择所有未分配号码范围或删除所选的未分配号码范围。
+- **编辑**打开所选的未分配的号码范围进行编辑, 选择列表中的所有未分配号码范围, 或删除所选的未分配号码范围。
 
-- **上移**使业务服务器 Skype 更快地查找并应用指定的操作，在应用指定的列表中的其他区域的操作之前，请在列表中移动设置所选的未分配号码范围。
+- **上移**将所选的未分配的号码范围在列表中上移, 以便 Skype for Business 服务器更快地发现它, 并在应用为列表中的其他范围指定的操作之前应用指定的操作。
 
     > [!NOTE]
-    > Skype 业务服务器搜索从上到下未分配号码表，并使用第一个匹配未分配的号码的区域。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
+    > Skype for Business 服务器从上到下搜索 "未分配的号码" 表, 并使用与未分配号码匹配的第一个区域。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
 
-- **下移**在列表中下移所选的未分配号码范围。
+- **** 下移将选定的未分配的号码范围向下移动到列表中。
 
-- **提交所有**保存您对未分配号码范围所做的所有更改。
+- **全部提交**保存对未分配的号码范围所做的所有更改。
 
     > [!IMPORTANT]
     > 该命令可保存您在“**新建未分配号码**”页和“**编辑未分配号码**”页上所做的全部更改。
 
-- **刷新**刷新未分配号码范围的列表。
+- **刷新**刷新未分配的号码范围列表。
 
 下表介绍了该页上的各个字段。
 
-- **名称**标识未分配号码范围的唯一名称。
+- **名称**标识未分配的号码范围的唯一名称。
 
-- **状态**已保存到数据库以及哪些未显示哪些号码范围。
+- **状态**显示已将哪些数字范围保存到数据库中, 哪些尚未保存。
 
-- **开始范围**未分配号码范围的起始号码。
+- **开始范围**未分配的号码范围的起始编号。
 
-- **结束范围**未分配号码范围的结束号码。
+- **结束范围**未分配的号码范围的结束编号。
 
-- **目标**承载将处理到此未分配号码范围的传入呼叫通知应用程序的应用程序服务的服务 ID。
+- **目标**托管公告应用程序的应用程序服务的服务 ID 将处理传入呼叫到此范围的未分配号码。
 
-- **通知**将为此未分配号码范围播放的通知。
+- **公告**将为此未分配号码范围播放的公告。
 
-有关通知特性和功能的详细信息，请参阅规划文档中的[规划 Skype for Business 中的通知应用程序](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
+有关公告功能和功能的详细信息, 请参阅规划文档中的[Skype For business 中的公告应用程序计划](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
 
 

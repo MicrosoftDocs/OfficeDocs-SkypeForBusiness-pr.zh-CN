@@ -12,27 +12,27 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '请参阅 Skype 的业务联机步骤，若要将拨入式会议许可和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '请参阅 Skype for business Online 步骤, 将电话拨入式会议许可证和会议 ID 分配给用户以及其他许多电话拨入式会议设置。 '
+ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229356"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299170"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
 > [!NOTE]
 > 如果您要在团队中管理这些设置，请参阅 [在 Microsoft Teams 中管理我的组织的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) 。
 
-可能是您更轻松地查看所有业务在一个位置的 Skype 的音频会议设置。
+您可以更轻松地在一个位置查看 Skype for business 的所有音频会议设置。
 
 
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
@@ -40,11 +40,11 @@ ms.locfileid: "32229356"
 > [!NOTE]
 > You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
- **分配用户许可证**
+ **为用户分配许可证**
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 在**Office 365 管理中心**的左侧导航窗格中，转到**用户** > **活动用户**，然后从可用的用户列表中选择用户。
+2. 在**Office 365 管理中心**的左侧导航中, 转到 "**用户** > **活动用户**", 然后从可用的用户列表中选择一个或一组用户。
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -56,13 +56,13 @@ ms.locfileid: "32229356"
 > [!NOTE]
 > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送到音频会议用户的电子邮件
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **for Business 的 Skype** ，在左侧导航窗格中，单击**音频会议**。
+2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 在  **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**   。
 
@@ -83,13 +83,13 @@ ms.locfileid: "32229356"
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    [设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)可用于管理您的组织，包括电子邮件的其他设置。
+    你可以使用[set-csonlinedialinconferencingtenantsettings](https://go.microsoft.com/fwlink/?LinkId=627285)管理组织的其他设置, 包括电子邮件。
 
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>更改发件人发送给用户的电子邮件中的联系人信息
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>更改发送给用户的电子邮件中的发件人的联系人信息
 
 You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
 
-- _SendEmailFromAddress_参数中输入的电子邮件地址。
+- 在_SendEmailFromAddress_参数中输入电子邮件地址。
 
 - 在  _SendEmailFromDisplayName_ 参数中输入电子邮件的显示名称。
 
@@ -103,9 +103,9 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 如果要更改电子邮件地址信息，你需要确保你的组织的入站电子邮件策略允许来自自定义电子邮件地址的电子邮件。
 
-[设置 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet 可用于管理您的组织，包括电子邮件的其他设置。
+你可以使用[set-csonlinedialinconferencingtenantsettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet 管理你的组织的其他设置, 包括电子邮件。
 
-请参阅[自动发送给其音频会议设置更改时的用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
+请参阅[在用户的音频会议设置更改时自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
 
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
@@ -129,32 +129,32 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **for Business 的 Skype** ，在左侧导航窗格中，单击**音频会议**。
+2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
-3. 单击**用户**，然后选择您要重置 PIN 的用户。
+3. 单击 "**用户**", 然后选择要为其重置 PIN 的用户。
 
-4. 在操作窗格中，在**PIN**下单击**重置**。
+4. 在操作窗格中的 "**固定**" 下, 单击 "**重置**"。
 
 Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown.
 
-请参阅[重置 PIN 的音频会议](reset-the-audio-conferencing-pin.md)。
+请参阅[重置音频会议 PIN 码](reset-the-audio-conferencing-pin.md)。
 
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送电子邮件与音频会议信息
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **for Business 的 Skype** ，在左侧导航窗格中，单击**音频会议**。
+2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
-3. 单击**用户**，然后选择您要重置 PIN 的用户。
+3. 单击 "**用户**", 然后选择要为其重置 PIN 的用户。
 
 4. 在操作窗格中，单击" **通过电子邮件发送会议信息**"。
 
     > [!NOTE]
-    > 当执行此操作时，音频会议 PIN 不发送给用户。
+    > 执行此操作时, 音频会议 PIN 不会发送给用户。
 
 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="setting-the-phone-numbers-included-on-invites"></a>设置的电话号码包含在邀请
+## <a name="setting-the-phone-numbers-included-on-invites"></a>设置邀请中包含的电话号码
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
@@ -166,31 +166,31 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 5. 单击“**保存**”。
 
-请参阅[设置的电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
+请参阅[设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites.md)。
 
 
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>选择音频会议网桥的设置
 
-**呼叫者加入会议时设置的会议体验**
+**设置呼叫者加入会议时的会议体验**
 
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
 
-4. 在**会议加入体验**，下选择下列操作：
+4. 在 "**会议加入体验**" 下, 选择以下操作:
 
    - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear this check box, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-     这可以逐个会议逐个用户加入会议的企业应用程序使用 Skype 和它们修改会议的 Skype 会议**选项**菜单中的**公告时人员进入或离开**设置时设置。
+     当用户使用 Skype for Business 应用加入会议, 并且他们在会议的 "Skype 会议**选项**" 菜单中修改 "**当用户进入或离开时通知**" 设置时, 可以按会议进行设置。
 
    - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
 
 5. 完成更改后，单击" **保存**"。
     
-请参阅[更改现有音频会议桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
+请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
   
  **设置会议的 PIN 长度**
 
@@ -198,40 +198,40 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
 
-4. 在**安全**下输入您希望在**PIN 长度**列表中，PIN 的位数，然后单击**保存**。
+4. 在 "**安全**" 下, 在 " **pin 长度**" 列表中输入您希望的 pin 位数, 然后单击 "**保存**"。
 
     The PIN must be between 4 and 12 digits. The default is 5.
     
-请参阅[更改现有音频会议桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
+请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
   
- **启用或禁用从发送给音频的用户的电子邮件**
+ **启用或禁用向音频用户发送电子邮件**
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **for Business 的 Skype** ，在左侧导航窗格中，单击**音频会议**。
+2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
 
 4. 单击“**保存**”。
 
-    您还可以发送电子邮件向用户音频会议设置后，转到用户的音频会议属性，单击**发送会议信息通过电子邮件**。
+    您还可以通过音频会议设置向用户发送电子邮件, 方法是转到用户的音频会议属性, 然后单击 "**通过电子邮件发送会议信息**"。
 
     如果执行此操作，则将发送仅包括会议 ID 和会议电话号码的电子邮件，但不包括 PIN。
 
     请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>请参阅和上一个音频会议网桥设置主 （默认值） 和辅助 （备用） 语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议桥处查看和设置主要 (默认) 和辅助 (备用) 语言
 
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**，然后单击**Microsoft 桥**。
+3. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**", 然后单击 " **Microsoft bridge**"。
 
-4. 从列表中选择一个电话号码，单击操作窗格中中的**设置语言**，然后在**设置语言**页上，单击使用**主要语言**列表，以查看受支持的语言的完整列表。
+4. 从列表中选择电话号码, 在 "操作" 窗格中单击 "**设置语言**", 然后在 "**设置语言**" 页面上, 单击 "使用**主要语言**列表" 查看受支持语言的完整列表。
 
     You can also set the primary and secondary languages that are supported when you select Microsoft as the audio conferencing provider. The order that you select in the lists is the same order in which languages will be presented to callers.
 
@@ -245,15 +245,15 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - 查看 Office 365 设置要用于音频会议的电话号码。
+   - 查看由 Office 365 设置用于音频会议的电话号码。
 
-   - 查看位置和主要和辅助语言，将使用的音频会议自动助理。
+   - 查看音频会议自动助理将使用的位置以及主要和辅助语言。
 
    - Select the default phone number that will be given to users when they are enabled for Audio Conferencing. However, if the default phone number of the audio conferencing bridge changes, the default phone number for existing users won't change.
 
-您可以转到**音频会议** > **用户**和用户的属性更改默认的数字的用户通过从您的组织中提供的号码的列表中选择新号码的选择。
+您可以转到**音频会议** > **用户**并选择用户的属性以更改用户的默认号码, 方法是从您的组织中可用的号码列表中选择新号码。
 
-请参阅[音频会议号码的列表，请参阅](see-a-list-of-audio-conferencing-numbers.md)。
+请参阅[音频会议号码列表](see-a-list-of-audio-conferencing-numbers.md)。
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>查看启用的用户的列表
 
@@ -261,7 +261,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**>，然后选择**用户**。
+3. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**_GT_" 和 "**用户**"。
 
 请参阅[请参阅启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)。
 
@@ -271,7 +271,7 @@ There are several settings that you can manage at the organization level using W
 
 要获得有关每个 cmdlet 的更多帮助，请参阅 [Skype for Business Online cmdlet](https://go.microsoft.com/fwlink/?LinkId=627324)。
 
-下面是组织级别设置：
+下面是组织级设置:
 
 - **设置输入/退出通知** 默认值为 _$true_ 。
   ```
@@ -313,7 +313,7 @@ There are several settings that you can manage at the organization level using W
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-  ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息
+  ## <a name="want-to-know-more-about-windows-powershell"></a>希望了解有关 Windows PowerShell 的详细信息
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)

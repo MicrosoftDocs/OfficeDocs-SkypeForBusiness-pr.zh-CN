@@ -1,72 +1,72 @@
 ---
-title: 为业务服务器 2015年压力和性能工具 Skype 常见问题
+title: Skype for Business Server 2015 的常见问题应力和性能工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 11/11/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
-description: Skype 的业务 2015年压力和性能工具： 常见问题 (FAQ)，用于查找支持哪些工具配置、 疑难解答工具问题并阐明时运行压力和性能工具可能会看到的行为.
-ms.openlocfilehash: 604644d5aecb12f94304d1c7ce271c68208e1964
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business 2015 应力和性能工具常见问题 (FAQ), 用于找出支持哪些工具配置、疑难解答工具问题, 并阐明在运行压力和性能工具时可能会看到的 behaviours.
+ms.openlocfilehash: 36bb3e05751bd69b747d84fa563347b29362ddd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906744"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299707"
 ---
-# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>为业务服务器 2015年压力和性能工具 Skype 常见问题
+# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 的常见问题应力和性能工具
  
-Skype 的业务 2015年压力和性能工具： 常见问题 (FAQ)，用于查找支持哪些工具配置、 疑难解答工具问题并阐明时运行压力和性能工具可能会看到的行为.
+Skype for Business 2015 应力和性能工具常见问题 (FAQ), 用于找出支持哪些工具配置、疑难解答工具问题, 并阐明在运行压力和性能工具时可能会看到的 behaviours.
   
- 本常见问题解答介绍一些有关 Business Server 2015 压力和性能工具 Skype 的最常见问题，可帮助具有疑难解答和工具的配置选项。
+ 本常见问题解答介绍了有关 Skype for Business Server 2015 应力和性能工具的一些最常见问题, 并且可能会帮助你解决问题和工具配置选择。
   
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>可以在生产中运行 LyncPerfTool.exe？
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>是否可以在生产中运行 LyncPerfTool？
 
-这**不**建议使用。 该工具将影响您的生产服务器性能、 安全性和最终用户体验。
+建议**不要**这样做。 该工具将影响生产服务器性能、安全性和最终用户体验。
   
-## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>我正在登录第一次的我的用户。 为什么我服务器正在运行的高负载
+## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>我是首次登录我的用户。 为什么我的服务器运行的负载很高？
 
-第一次用户登录时，在后台发生其他操作。 因此，可以降低 Microsoft SQL Server 后端服务器上的性能。 建议您的用户，所有运行小测验的日志，然后开始测量结果使用工具之前重新启动客户端。 Skype 业务服务器不支持超过 12 并发用户登录会话 / 秒，但请注意您的服务器可以处理的实际数目取决于您的硬件配置，并且可能低于受支持的值。
+用户首次登录时, 会在后台执行其他操作。 因此, Microsoft SQL Server 后端服务器上的性能可能会降级。 建议你先运行一个简短测试, 该测试将在你的所有用户上登录, 然后重新启动客户端, 然后再开始使用该工具测量结果。 Skype for Business Server 不支持每秒并发用户登录会话的次数超过12个, 但请注意, 你的服务器可以处理的实际数字取决于你的硬件配置, 并且可能低于支持的值。
   
-## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>我的客户端内存不足运行 ！ 应该怎样做？
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>我的客户的内存不足! 我该怎么办？
 
-如果客户端运行的内存不足，您应减少每 Skype 业务 Server 前端池记录的用户数。 您还可以选择扩展注销前端池，如果问题是持久。
+如果客户端内存不足, 您应该减少每个 Skype for business 服务器前端池登录的用户数。 如果问题持续存在, 还可以选择缩小前端池。
   
-## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>可以运行此工具在业务服务器 Skype 本身？
+## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>是否可以在 Skype for Business 服务器上运行此工具？
 
-不应执行的操作。 此方案中不受支持，因为由于二进制不匹配，则可能会失败，也因为的目标是以测量的服务器上的资源消耗。 实际上那里运行该工具将影响服务器性能，并使您的数据和度量值无效。
+不应执行此操作。 此方案不受支持, 因为它可能会因二进制不匹配而失败, 也可能是因为目标是测量服务器上的资源占用。 实际运行工具会影响服务器性能并使你的数据和度量无效。
   
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>在虚拟服务器或 Microsoft HYPER-V Server 2008/2012 上是否可以运行 LyncPerfTool.exe？
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>我是否可以在虚拟服务器或 Microsoft Hyper-v Server 2008/2012 上运行 LyncPerfTool？
 
-您可以是。
+是的, 可以。
   
-## <a name="what-does-mpop-mean"></a>MPOP 是什么意思？
+## <a name="what-does-mpop-mean"></a>MPOP 的含义是什么？
 
-MPOP 缩短的像是说"多点状态"。 MPOP 旨在模拟其中用户登录到 Skype for Business 2015 客户端从多个计算机或设备的方案。 请注意，在 LyncPerfTool.exe，每个终结点使用的默认配置文件。 换句话说，该配置文件不是两个状态点之间拆分。
+MPOP 是说出 "多个状态点" 的简写方式。 MPOP 旨在模拟用户从多台计算机或设备登录到 Skype for Business 2015 客户端的方案。 请注意, 在 LyncPerfTool 中, 每个终结点都使用默认配置文件。 换句话说, 配置文件不会在两个状态点之间拆分。
   
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>我启动 LyncPerfTool.exe 但不是会变化。 这是怎么回事？
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>我启动了 LyncPerfTool, 但没有发生任何事情。 这是怎么回事？
 
-检查以查看在用户连接的服务器上的活动终结点总数计数器。 如果用户不连接，请确认您 Skype 业务服务器 2015年配置。 问题您看到了通常发生的原因之一服务器名称、 用户前缀或密码不正确。 记下外部客户端应指定访问代理服务器和目标值。 验证配置文件中的端口号。
+检查服务器上的 "活动终结点总数" 计数器以查看用户是否连接。 如果用户未连接, 请验证您的 Skype for business Server 2015 配置。 由于其中一个服务器名称、用户前缀或密码不正确, 因此你所看到的问题通常会出现。 请注意, 外部客户端应指定访问代理服务器和 TargetServer 值。 验证配置文件中的端口号。
   
-## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>如何确保内容正在衡量？
+## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>如何确定正在测量的内容？
 
-有 LyncPerfTool 性能计数器来指示用户连接和执行操作，但请确保正在度量操作的最简单方式是以登录到一个具有业务 2015年客户端 Skype 帐户并执行这些操作操作自己。 检查的结果，以确认度量做。
+有 LyncPerfTool 性能计数器可指示用户是否连接和执行操作, 但确保操作的最简单方法是使用 Skype for Business 2015 客户端登录到其中一个帐户, 并执行这些操作行动。 检查结果以确认已采取度量。
   
-## <a name="i-have-lync-server-2010-capacity-planning-tools-andor-lync-server-2013-capacity-planning-tools-installed-is-that-okay"></a>我已安装的 Lync Server 2010 容量规划工具和/或 Lync Server 2013 容量规划工具。 是的正常？
+## <a name="i-have-lync-server-2010-capacity-planning-tools-andor-lync-server-2013-capacity-planning-tools-installed-is-that-okay"></a>我已安装 Lync Server 2010 容量规划工具和/或 Lync Server 2013 容量规划工具。 这好吗？
 
- 这些工具具有互操作性问题 ！ 您必须先卸载所有以前版本的这些工具从业务 Server 2015 压力 Skype 获取有效的数据和性能工具。
+ 这些工具具有互操作性问题! 你必须卸载这些工具的所有早期版本才能从 Skype for Business Server 2015 应力和性能工具获取有效数据。
   
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>压力和性能工具将设置 CAA 呼叫信息服务器拓扑结构？
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>压力和性能工具是否会设置 CAA 呼叫信息服务器拓扑？
 
-否，工具不会执行此操作。 工具仅创建用户、 联系人和通讯组列表，以模拟用户负载。
+否, 工具不会执行此操作。 工具仅创建用户、联系人和通讯组列表, 以模拟用户负载。
   
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>工具支持的用户的最大号码是什么？
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>工具支持的最大用户数是多少？
 
-在测试中，我们已创建 80,000 用户总共和执行测试约 30,000 运行这些工具的用户。 我们建议最多 120,000 用户，尽管技术限制允许较高的值。 请记住这些值依赖的服务器和您的环境中的硬件。
+在测试中, 我们最多可创建80000个用户和执行的测试, 这些测试将运行这些工具的30000用户总计。 我们建议最多120000用户, 尽管技术限制允许使用更高的值。 请记住, 这些值取决于环境中的服务器和硬件。
   
 

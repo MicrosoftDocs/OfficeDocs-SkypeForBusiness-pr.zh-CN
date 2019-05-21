@@ -8,7 +8,7 @@ ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,114 +16,114 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解有关 Microsoft 团队和如何使用它们来控制对组织中用户可用的应用程序中的应用程序权限策略。
+description: 了解 Microsoft 团队中的应用权限策略以及如何使用它们控制你的组织中的用户可以使用哪些应用程序。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 8c35871fde876e01bba1ad8a843cd25fa0174c8d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d15346370015843eeb497cce7fa85928e77c96d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225131"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298888"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-作为一名管理员，您可以使用应用程序的权限策略来控制应用程序可供您的组织中的 Microsoft 团队用户。 您可以允许或阻止所有应用程序或由 Microsoft 已发布的特定应用程序第三方和您的组织。 当您阻止应用程序时，用户将无法从团队应用程序商店安装它。
+作为管理员, 你可以使用应用权限策略控制你的组织中的 Microsoft 团队用户可用的应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。 阻止应用时, 用户无法从团队应用商店安装它。
 
-管理 Microsoft 团队管理中心中的应用程序权限策略。 可以应用设置组织范围、 使用 （组织范围内默认值） 全局策略，并创建和自定义策略分配给单个用户或组中的用户。  
+你可以在 Microsoft 团队管理中心中管理应用权限策略。 你可以应用组织范围内的设置, 使用全局 (组织范围默认) 策略, 并为组中的单个用户或用户创建和分配自定义策略。  
 
-![应用程序权限策略的屏幕截图](media/app-permission-policies.png)
+![应用权限策略的屏幕截图](media/app-permission-policies.png)
 
 > [!NOTE]
-> 您的组织中的用户将自动授予全局策略，除非您创建和分配自定义策略。 组织范围应用程序设置将覆盖全局策略和创建并向用户分配的任何自定义策略。
+> 除非你创建并分配自定义策略, 否则你组织中的用户将自动获取全局策略。 组织范围内的应用设置替代全局策略和你创建并分配给用户的任何自定义策略。
 
-例如，假设您想要阻止所有第三方应用程序并允许来自 Microsoft 的特定应用程序，您的组织中的 HR 小组。 您可以创建名为 HR 应用程序权限策略的自定义策略，将其设置为阻止或允许应用程序所需，然后将其分配给人事部门的用户。
+例如, 你希望阻止所有第三方应用, 并允许 Microsoft 针对你的组织中的人力资源团队应用特定应用。 你将创建名为 HR App 权限策略的自定义策略, 将其设置为阻止并允许你所需的应用, 然后将其分配给 HR 团队上的用户。
 
-## <a name="manage-org-wide-app-settings"></a>管理组织范围应用程序设置
+## <a name="manage-org-wide-app-settings"></a>管理组织范围内的应用设置
 
-使用的应用程序可在整个组织的控制组织范围应用程序设置。 组织范围应用程序设置控制的所有用户的行为和替代的任何其他应用程序权限策略分配给用户。 组织范围应用程序设置会立即生效，并可用于控制恶意或有问题的应用程序。
+使用组织范围内的应用设置来控制哪些应用在你的组织中可用。 组织范围内的应用设置控制所有用户的行为, 并替代分配给用户的任何其他应用权限策略。 组织范围内的应用设置会立即生效, 你可以使用它们控制恶意或有问题的应用。
 
-1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **权限策略**。
-2. 选择**组织范围的设置**。 然后，您可以面板中配置所需的设置。 
-![组织范围应用程序设置的屏幕截图](media/app-permission-policies-org-wide-settings.png)
-3. 在**第三方应用程序**，下关闭或打开来控制对第三方应用程序访问这些设置：
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **权限策略**"。
+2. 选择 "**组织范围的设置**"。 然后, 你可以在面板中配置所需的设置。 
+![组织范围的应用设置的屏幕截图](media/app-permission-policies-org-wide-settings.png)
+3. 在 "**第三方应用**" 下, 关闭或打开这些设置以控制对第三方应用的访问:
 
-    - **允许在工作组中的第三方应用程序**： 此选项控制用户是否可以使用第三方应用程序。
-    - **允许任何新的第三方应用程序发布到默认情况下存储**： 是否将新的第三方应用程序发布到团队应用程序的存储成为团队中自动提供此控件。 如果允许第三方应用程序，仅可设置此选项。
+    - **允许团队中的第三方应用**: 这将控制用户是否可以使用第三方应用。
+    - **默认情况下允许发布到应用商店的任何新第三方应用**: 这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时, 你才能设置此选项。
 
-4. 在**自定义应用程序**，下关闭或打开**与自定义应用程序允许进行交互**。 此设置控制用户是否可以与自定义 (sideloaded) 应用程序进行交互。 请记住，这一点不同于允许用户*上载*自定义应用程序。
-5. 在**已阻止应用程序**，下搜索并添加您想要阻止在整个组织的应用程序。 您可以选择从租户的应用程序目录或团队应用程序商店的应用程序。
-6. 单击**另存**为组织范围应用程序设置才会生效。
+4. 在 "**自定义应用**" 下, 关闭或打开 "**允许与自定义应用交互**"。 此设置控制用户是否可以与自定义 (旁加载) 应用交互。 请记住, 这与允许用户*上载*自定义应用程序不同。
+5. 在 "已**阻止的应用**" 下, 搜索并添加要在组织内阻止的应用。 你可以从租户应用程序目录或团队应用商店中选择 "应用"。
+6. 单击 "**保存**" 以使组织范围内的应用设置生效。
 
-## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用程序权限策略
+## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用权限策略
 
-如果您想要控制可用于不同的组织中的用户组的应用程序，创建并分配一个或多个自定义应用程序权限策略。 您可以创建和分配单独基于是否由 Microsoft 发布应用程序的自定义策略第三方或您的组织。 务必要了解创建自定义策略后，您不能更改其是否组织范围的设置中禁用第三方应用程序。 
+如果你希望控制组织中不同组用户可用的应用, 请创建并分配一个或多个自定义应用权限策略。 你可以基于 Microsoft、第三方或你的组织发布的应用创建和分配单独的自定义策略。 请务必注意, 在创建自定义策略后, 如果在组织范围的设置中禁用了第三方应用, 则无法对其进行更改。 
 
-1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **权限策略**。
-2. 选择**新策略**。
-    ![新的应用程序权限策略的屏幕截图](media/app-permission-policies-new-policy.png)
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **权限策略**"。
+2. 选择 "**新建策略**"。
+    ![新应用权限策略的屏幕截图](media/app-permission-policies-new-policy.png)
 3. 输入策略的描述性名称。
-4. 在**Microsoft 应用程序**、**第三方应用程序**，和**租户的应用程序**，选择下列选项之一：
+4. 在 " **Microsoft 应用**"、**第三方应用**和**租户应用**下, 选择下列操作之一:
 
-    - **允许所有应用程序**
-    - **允许特定应用程序和阻止所有其他人**
-    - **阻止特定应用程序，并允许所有其他人**
-    - **阻止所有应用程序**
+    - **允许所有应用**
+    - **允许特定应用和阻止所有其他应用**
+    - **阻止特定应用并允许所有其他应用**
+    - **阻止所有应用**
 
-5. 如果您选择**允许特定应用程序和阻止其他人**，添加您希望允许的应用程序：
+5. 如果你选择 "**允许特定应用" 并阻止其他应用**, 请添加你希望允许的应用:
 
-    1. 选择**允许应用程序**。
-    1. 要允许，然后单击**添加**的应用程序的搜索。 搜索结果进行筛选到应用程序发布者 （**Microsoft 应用程序**，**第三方应用程序**或**租户的应用程序**）。
-    1. 当您选择的应用程序列表时，请单击**允许**。
+    1. 选择 "**允许应用**"。
+    1. 搜索要允许的应用, 然后单击 "**添加**"。 搜索结果将筛选到应用发布者 (**Microsoft 应用**、**第三方应用**或**租户应用**)。
+    1. 选择应用列表后, 单击 "**允许**"。
 
-6. 同样，如果选择了**阻止特定应用程序，并允许所有其他人**，搜索并添加您想要阻止的应用程序。
+6. 同样, 如果你选择 "**阻止特定应用" 并允许所有其他应用**, 请搜索并添加要阻止的应用。
 7. 单击“**保存**”。
 
-## <a name="edit-an-app-permission-policy"></a>编辑应用程序权限策略
+## <a name="edit-an-app-permission-policy"></a>编辑应用权限策略
 
-您可以使用的 Microsoft 团队管理中心编辑策略，包括全局 （组织范围内默认值） 策略和您创建的自定义策略。 
+你可以使用 Microsoft 团队管理中心编辑策略, 包括全局 (组织范围默认) 策略和你创建的自定义策略。 
 
-1. 在左窗格中的 Microsoft 团队管理中心，转到**团队应用程序** > **权限策略**。
-2. 选择您想要编辑的策略。
-3. 从此处，进行所需的更改。 您可以管理基于应用程序发布者设置和添加和删除基于允许/阻止设置的应用程序。
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **权限策略**"。
+2. 选择要编辑的策略。
+3. 在此处进行所需的更改。 你可以基于应用发布者管理设置, 并根据 "允许/阻止" 设置添加和删除应用。
 4. 单击“**保存**”。
 
-## <a name="assign-a-custom-app-permission-policy-to-users"></a>将自定义应用程序权限策略分配给用户
+## <a name="assign-a-custom-app-permission-policy-to-users"></a>向用户分配自定义应用权限策略
 
-您可以使用的 Microsoft 团队管理中心分配给各个用户的自定义策略或 Skype for Business PowerShell 模块，将自定义策略分配给多个用户，例如安全组或通讯组中的所有用户。
+你可以使用 Microsoft 团队管理中心向单个用户或 Skype for business PowerShell 模块分配自定义策略, 以便为多个用户分配自定义策略, 例如安全组或通讯组中的所有用户。
 
 > [!IMPORTANT]
-> 建议仅使用 PowerShell 将策略分配给用户。 使用 Microsoft 团队管理中心创建、 编辑和管理策略。
+> 我们建议仅使用 PowerShell 为用户分配策略。 使用 Microsoft 团队管理中心创建、编辑和管理策略。
 
-### <a name="assign-a-custom-app-permission-policy-to-individual-users"></a>将自定义应用程序权限策略分配给单个用户
+### <a name="assign-a-custom-app-permission-policy-to-individual-users"></a>向单个用户分配自定义应用权限策略
 
-1. 在 Microsoft 团队管理中心的左侧导航窗格中，转到**用户**，，然后单击用户。
-2. 旁边**分配策略**，选择**编辑**。
-3. 在**应用程序权限策略**中，选择要分配的应用程序权限策略，然后选择**保存**。
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**用户**", 然后单击 "用户"。
+2. 在 "**分配的策略**" 旁边, 选择 "**编辑**"。
+3. 在 "**应用权限策略**" 下, 选择要分配的应用权限策略, 然后选择 "**保存**"。
 
-    ![应用程序的安装程序的权限-分配-policy.png](media/app-permission-policies-assign-policy.png)
+    ![app-setup-permission-assign-policy](media/app-permission-policies-assign-policy.png)
 
-按如下方式向一个或多个用户还可以分配的应用程序权限策略：
+你还可以将应用权限策略分配给一个或多个用户, 如下所示:
 
-1. 转到**Microsoft 团队管理中心** > **团队 apps** > **权限策略**。
-2. 通过单击左侧的策略名称选择的策略。
-3. 选择**管理用户**。
-4. 在**管理用户**窗格中，搜索用户按显示名称或用户名称，选择名称，然后选择**添加**。 要添加的每个用户重复此步骤。
-5. 添加完用户后，选择**保存**。
+1. 转到**Microsoft 团队管理中心** > **团队应用** > **权限策略**。
+2. 通过单击策略名称的左侧, 选择策略。
+3. 选择 "**管理用户**"。
+4. 在 "**管理用户**" 窗格中, 按 "显示名称" 或 "按用户名搜索用户", 选择名称, 然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+5. 完成添加用户后, 请选择 "**保存**"。
  
 
-### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>将自定义应用程序权限策略分配给组中的用户
+### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>将自定义应用权限策略分配给组中的用户
 
-您可能想要将自定义应用程序权限策略分配给已识别的多个用户。 例如，您可能要将策略分配给安全组中的所有用户。 您可以通过连接到图模块 Azure Active Directory PowerShell 和业务 PowerShell 模块 Skype 来执行此操作。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell Overview](teams-powershell-overview.md)。
+你可能需要将自定义应用权限策略分配给已标识的多个用户。 例如, 你可能想要向安全组中的所有用户分配策略。 你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块来执行此操作。 有关使用 PowerShell 管理团队的详细信息, 请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
 
-本示例中，我们将分配到 Contoso 药品 HR 项目组中的所有用户称为人力资源应用程序权限策略的自定义应用程序权限策略。  
+在此示例中, 我们将名为 HR App 权限策略的自定义应用权限策略分配给 Contoso 制药人力资源项目组中的所有用户。  
 
 > [!NOTE]
-> 请确保您首次[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤通过连接到图模块 Azure Active Directory PowerShell 和业务 PowerShell 模块的 Skype。
+> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤, 确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
-获取特定的组的 GroupObjectId。
+获取特定组的 GroupObjectId。
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
@@ -131,50 +131,50 @@ $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-组中的所有用户都分配特定的应用程序权限策略。 本示例中，它是 HR 应用程序权限策略。
+将组中的所有用户分配到特定应用权限策略。 在此示例中, 它是 HR 应用权限策略。
 ```
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
 ``` 
-根据组中成员的数目，此命令可能需要几分钟才能执行。
+此命令可能需要几分钟才能执行, 具体取决于组中的成员数量。
 
 ## <a name="faq"></a>常见问题解答
 
-### <a name="working-with-app-permission-policies"></a>使用应用程序权限策略
+### <a name="working-with-app-permission-policies"></a>使用应用权限策略
 
-#### <a name="can-i-control-line-of-business-lob-apps"></a>可以控制行业 (LOB) 应用程序？
+#### <a name="can-i-control-line-of-business-lob-apps"></a>是否可以控制业务线 (LOB) 应用？
 
-是，可以使用应用程序的权限策略来控制推出和通讯组的自定义 (LOB) 应用程序。
+是的, 你可以使用应用权限策略控制自定义 (LOB) 应用的推出和分发。
 
-#### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>应用程序的权限策略如何固定的应用程序和应用程序设置策略相关联？
+#### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>应用权限策略与已固定的应用和应用设置策略有何关系？
 
-您可以使用与应用程序的权限策略的应用程序设置策略。 从一组的用户启用应用程序中选择预固定的应用程序。 此外，如果用户具有阻止应用程序在其应用程序安装策略中的应用程序权限策略，该应用程序不会出现在工作组中。
+你可以将应用设置策略与应用权限策略结合使用。 已从用户的已启用应用集中选择预固定的应用。 此外, 如果用户具有在应用设置策略中阻止应用的应用权限策略, 则该应用不会显示在团队中。
 
-#### <a name="can-i-use-app-permission-policies-to-restrict-uploading-custom-apps-also-known-as-sideloading"></a>可以使用应用程序的权限策略来限制上载自定义应用程序 (也称为 sideloading)？
+#### <a name="can-i-use-app-permission-policies-to-restrict-uploading-custom-apps-also-known-as-sideloading"></a>是否可以使用应用权限策略来限制上载自定义应用 (也称为旁加载)？
 
-若要了解有关如何限制上载自定义应用程序的详细信息，请参阅[团队中管理自定义应用程序策略和设置](teams-custom-app-policies-and-settings.md)。
+若要了解有关如何限制上载自定义应用的详细信息, 请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
 
-#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>如何长时间才会生效的策略更改？
+#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>策略更改需要多长时间才能生效？
 
-编辑全局策略，或为用户分配策略后，可以最多 24 小时才能使更改生效。 组织范围应用程序设置会立即生效。
+编辑全局策略或向用户分配策略后, 所做的更改可能需要长达24小时才能生效。 组织范围内的应用设置会立即生效。
 
-#### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>阻止应用程序适用于团队移动客户端？
+#### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>阻止应用是否会应用到团队移动客户端？
 
-是时阻止应用程序，该应用程序阻止所有团队客户端。  
+是的, 当你阻止应用时, 将阻止所有团队客户端上的应用。  
 
 ### <a name="user-experience"></a>用户体验
 
-#### <a name="what-does-a-user-experience-when-an-app-is-blocked"></a>什么用户体验时阻止应用程序？
+#### <a name="what-does-a-user-experience-when-an-app-is-blocked"></a>应用被阻止时的用户体验？
 
-用户不能与阻止应用程序或其功能、 此类机器人、 制表符和消息扩展进行交互。 在共享上下文中，团队或组聊天中，如自动程序仍然可以向所有参与者的上下文的发送消息。 阻止应用程序时，向用户指明团队。 
+用户无法与已阻止的应用或其功能 (如 bot、选项卡和消息传递扩展) 交互。 在共享上下文 (如团队或群组聊天) 中, 机器人仍可向该上下文的所有参与者发送消息。 团队在应用被阻止时向用户显示。 
 
-例如，当阻止应用程序时，用户不能执行以下任一操作：
+例如, 当应用被阻止时, 用户不能执行以下任一操作:
 
-- 将应用程序添加个人或聊天或团队
-- 将邮件发送到应用程序的自动程序
-- 执行将信息发送回应用程序，例如，可操作的消息的按钮操作  
-- 查看应用程序的选项卡
+- 将应用程序个人或聊天添加到聊天或团队
+- 将消息发送到应用的 bot
+- 执行将信息发送回应用的按钮操作, 例如可操作的消息  
+- 查看应用的选项卡
 - 设置连接器以接收通知
-- 使用应用程序的消息扩展
+- 使用应用的消息扩展
 
  ## <a name="related-topics"></a>相关主题
 - [Teams 中适用于应用的管理设置](admin-settings.md)

@@ -1,10 +1,10 @@
 ---
-title: Skype for Business 中配置语音策略、 PSTN 用法记录和语音路由
+title: 在 Skype for Business 中配置语音策略、PSTN 使用记录和语音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,39 +13,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 摘要： 了解如何为业务 Server Skype 中配置语音策略、 PSTN 用法记录和语音路由。
-ms.openlocfilehash: 491d70a8bdec9017169a7937f52bb5403e94335f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中配置语音策略、PSTN 使用记录和语音路由。'
+ms.openlocfilehash: 5ce6b6b3e93804f648529043b9189110d25cbb08
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892228"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300907"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Skype for Business 中配置语音策略、 PSTN 用法记录和语音路由
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>在 Skype for Business 中配置语音策略、PSTN 使用记录和语音路由
  
-**摘要：** 了解如何为业务 Server Skype 中配置语音策略、 PSTN 用法记录和语音路由。
+**摘要:** 了解如何在 Skype for Business 服务器中配置语音策略、PSTN 使用记录和语音路由。
   
 语音策略、PSTN 用法记录和语音路由是一个有机整体。可以通过选择一组呼叫功能，然后为策略分配一组 PSTN 用法记录来配置语音策略，这些记录指定为分配了语音策略的用户或组授予哪些权限。系统还向语音路由分配 PSTN 用法记录，这些记录用于将路由与有权使用它们的用户进行匹配。也就是说，用户只能发出使用用户对于其有匹配的 PSTN 用法记录的路由的呼叫。
   
 通过配置包含相应的 PSTN 用法记录的语音策略来启动新企业语音部署的建议工作流，然后将相应的路由关联到每个 PSTN 用法记录。 
   
 > [!NOTE]
-> 您还可以具有*用户*作用域创建语音策略，并将其分配给单个用户或组。
+> 您还可以创建*用户*范围的语音策略, 并将其分配给单个用户或组。
   
 有关执行上述各项任务的详细步骤，请参阅本节中的过程。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [创建或修改语音策略和配置 PSTN 用法记录中的业务的 Skype](voice-policy-and-pstn-usage-records.md)
+- [在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录](voice-policy-and-pstn-usage-records.md)
     
-- [Skype for Business 中配置语音邮件转义](configure-voice-mail-escape.md)
+- [在 Skype for Business 中配置语音邮件转义](configure-voice-mail-escape.md)
     
-- [查看 PSTN 用法记录中的业务的 Skype](view-pstn-usage-records.md)
+- [查看 Skype for Business 中的 PSTN 使用记录](view-pstn-usage-records.md)
     
-- [创建或修改 Skype for Business 中的语音路由](create-or-modify-a-voice-route.md)
+- [在 Skype for Business 中创建或修改语音路线](create-or-modify-a-voice-route.md)
     
-- [导出或导入语音路由配置中的文件 Skype for Business](voice-route-configuration-import-export.md)
+- [在 Skype for Business 中导出或导入语音路线配置文件](voice-route-configuration-import-export.md)
     
-- [发布挂起的 Skype for Business 中的语音路由配置更改](voice-route-config-changes.md)
+- [发布 Skype for Business 中的语音路由配置的待处理更改](voice-route-config-changes.md)
     
 

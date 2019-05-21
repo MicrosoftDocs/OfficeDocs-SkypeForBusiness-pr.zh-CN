@@ -3,7 +3,7 @@ title: 出站呼叫发生 Trunk 故障转移
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
@@ -14,44 +14,44 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: 阅读本主题可了解如何处理出站呼叫从团队对会话边界控制器 (SBC) 上的中继故障转移。
-ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: 阅读本主题, 了解如何处理来自团队的出站呼叫和会话边界控制器 (SBC) 的中继故障转移。
+ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290360"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 
-本主题介绍如何避免出站呼叫-从团队对会话边界控制器 (SBC) 上的中继故障转移。
+本主题介绍如何在出站呼叫 (从团队到会话边界控制器 (SBC)) 中避免中继故障转移。
 
-## <a name="failover-on-network-errors"></a>在网络错误的故障转移
+## <a name="failover-on-network-errors"></a>网络错误故障转移
 
-如果出于任何原因，无法连接到中继，则将从不同的 Microsoft 数据中心尝试与同一个中继的连接。 中继可能不连接，例如，如果被拒绝的连接，如果 TLS 的超时设置，或有其他任何网络级别问题。
-例如，连接可能无法如果管理员限制访问 SBC 只能从已知的 IP 地址，但离职放置在 SBC 访问控制列表 (ACL) 的所有 Microsoft 直接路由数据中心的 IP 地址。 
+如果由于任何原因无法连接主干, 则将从另一个 Microsoft 数据中心尝试连接到同一主干。 可能无法连接主干, 例如, 如果连接被拒绝、TLS 超时或存在任何其他网络级别问题。
+例如, 如果管理员仅通过众所周知的 IP 地址限制对 SBC 的访问, 但忘记将所有 Microsoft 直接路由数据中心的 IP 地址放入 SBC 的访问控制列表 (ACL) 中, 则连接可能失败。 
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>接收从会话边界控制器 (SBC) 的特定 SIP 代码的故障转移
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>从会话边界控制器 (SBC) 收到的特定 SIP 代码的故障转移
 
-如果直接路由到传出 Invite 的响应中收到任何 4xx 或 6xx SIP 错误代码，请呼叫被视为完成默认情况下。 传出意味着来自团队客户端呼叫到公共公用电话交换网 (PSTN) 与以下通信流： 团队客户端的直接路由 >-> SBC-> 电话网络。
+如果直接路由接收到任何用于响应传出邀请的4xx 或 6xx SIP 错误代码, 则默认情况下该呼叫视为已完成。 "传出" 指通过以下通信流从团队客户端呼叫到公共交换电话网络 (PSTN) 的呼叫: 团队客户端-> 直接路由 > SBC-> 电话网络。
 
-[会话初始协议 (SIP) RFC](https://tools.ietf.org/html/rfc3261)中，可以找到 SIP 代码的列表。
+SIP 代码列表可在 "[会话初始协议 (SIP) RFC](https://tools.ietf.org/html/rfc3261)" 中找到。
 
-假定 SBC 其中替换为代码传入邀请回复的情况"408 请求超时： 服务器无法生成响应中合适的一段时间，例如，如果未能及时确定用户的位置。 客户端可以重复没有修改的请求随时都更高版本。"
+假设 SBC 使用代码 "408 请求超时" 在传入邀请上回复的情况: 服务器无法在合适的时间内生成响应, 例如, 如果无法确定用户的时间位置。 客户端可在以后任何时间重复请求, 不进行任何修改。 "
 
-此特定 SBC 可能会有连接到被叫方-可能由于网络配置错误或其他错误的困难。 但是，这可能是能够访问被叫方作为路由中是一个多个 SBC。
+此特定的 SBC 可能会在连接到被呼叫方时遇到问题, 可能是因为网络配置错误或其他错误。 但是, 路由中还有一个 SBC 可以访问被呼叫方。
 
-在下面的图中，当用户发出呼叫的电话号码，还有两个 SBCs 可能可以提供此呼叫作为路由中。 最初，SBC1.contoso.com 选定的呼叫，但 SBC1.contoso.com 不能够访问 PTSN 网络由于网络问题。
-默认情况下，将此此时完成呼叫。 
+在下图中, 当用户拨打电话号码时, 路由中有两个 SBCs 可潜在地传递此呼叫。 最初, SBC1.contoso.com 已选择用于呼叫, 但 SBC1.contoso.com 无法联系 PTSN 网络, 因为出现网络问题。
+默认情况下, 将在此时完成通话。 
  
-![显示 SBC 无法访问 PSTN 由于网络问题](media/direct-routing-failover-response-codes1.png)
+![显示 SBC 由于网络问题而无法访问 PSTN](media/direct-routing-failover-response-codes1.png)
 
-但是，其中可能可以将传入呼叫路由中没有一个详细的 SBC。
-如果您配置参数`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`，将尝试第二个 SBC-SBC2.contoso.com 如下图中：
+但是, 路由中的一个 SBC 可能可以发送呼叫。
+如果您配置该参数`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, 将在下图中尝试第二个 SBC-SBC2.contoso.com:
 
-![显示传送到第二个 SBC](media/direct-routing-failover-response-codes2.png)
+![显示到第二个 SBC 的路由](media/direct-routing-failover-response-codes2.png)
 
-参数-FailoverResponseCodes 并指定代码可帮助您可以精细优化您的路由，并避免设置潜在 SBC 不能因网络或其他问题而呼叫时的问题。
+设置参数 FailoverResponseCodes 并指定代码可帮助你微调路由, 并在 SBC 由于网络或其他问题而无法进行呼叫时避免潜在问题。
 
-默认值： 408 503、 504
+默认值: 408、503、504
 

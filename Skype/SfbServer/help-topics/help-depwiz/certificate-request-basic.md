@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-description: 名称和安全设置页上提供了一个文本框以定义一个友好名称，私钥和公钥对和复选框，使您能够将标记为可导出的证书的私钥的位长度的下拉列表。
-ms.openlocfilehash: 32652d084c063b5a13c320eab08d7866b07c4d4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: "\"名称和安全设置\" 页面提供一个文本框, 用于定义友好名称、用于私钥和公钥对的位长的下拉列表, 以及使你能够将证书的专用密钥标记为可导出的复选框。"
+ms.openlocfilehash: 66b9506086207fc8803bae9b77d39ee9f12ac43a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911252"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302939"
 ---
 # <a name="certificate-request-basic"></a>证书请求（基本）
  
-**名称和安全设置**页上提供了一个文本框以定义一个**友好名称**，**位长度**的私钥和公钥对，并允许您**Mark 证书的私钥为一个复选框下拉列表可导出**。
+"**名称和安全设置**" 页面提供一个文本框, 用于定义**友好名称**、用于私钥和公钥对的**位长**的下拉列表, 以及允许你将**证书的私钥标记为的复选框。可导出**。
   
 证书上的友好或简单名称是容易识别的名称，使查看证书的人员更容易识别它。
   
 可供选择的私钥和公钥对的位长度为 1024、2048 或 4096。
   
-为**标记为可导出的证书的私钥**选择复选框可允许证书和私钥导出和移动到另一台计算机或服务器。 只有在为媒体中继身份验证服务 (MRAS) 创建边缘服务器池时，才需要选中此项。
+选中 "将**证书的私钥标记**为可导出" 复选框后, 即可导出证书和私钥并将其移动到另一台计算机或服务器。 只有在为媒体中继身份验证服务 (MRAS) 创建边缘服务器池时，才需要选中此项。
   
 > [!CAUTION]
-> 为了帮助维护证书和密钥对的安全，您应选中标记证书的私钥为可导出选项仅当绝对必要。 
+> 若要帮助维护证书和密钥对的安全性, 应选中 "将证书的私钥标记为可导出" 选项 (仅当绝对必要时)。 
   
 

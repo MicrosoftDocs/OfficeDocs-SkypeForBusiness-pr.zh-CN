@@ -1,89 +1,89 @@
 ---
-title: 确认旧环境
+title: 验证旧环境
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 部署以共存的业务服务器 2019 Skype 之前, 需要确认已配置并启动旧式服务。 务必来确定关键服务和在旧环境中，在部署业务服务器 2019年试点池 Skype 之前存在的功能。 在之前部署 Microsoft Skype 业务服务器 2019 XMPP 与旧的 XMPP 部署以共存，您需要验证旧版 XMPP 服务已配置并启动，并确认旧的 XMPP 配置的联盟的伙伴支持。
-ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 在共存状态中部署 Skype for Business Server 2019 之前, 你需要验证是否已配置并启动旧式服务。 在部署 Skype for business Server 2019 试验池之前, 请务必确定旧版环境中存在的关键服务和功能。 在使用旧版 XMPP 部署部署 Microsoft Skype for Business Server 2019 XMPP 之前, 你需要验证旧的 XMPP 服务是否已配置并启动, 并确定旧版 XMPP 配置是哪个联盟伙伴证明.
+ms.openlocfilehash: 9495c68085f3fc3495d4c2ced05be8b20039eb4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235112"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280658"
 ---
-# <a name="verify-the-legacy-environment"></a>确认旧环境
+# <a name="verify-the-legacy-environment"></a>验证旧环境
 
-部署以共存的业务服务器 2019 Skype 之前, 需要确认已配置并启动旧式服务。 务必来确定关键服务和部署业务服务器 2019年试点池 Skype 之前旧环境中存在的功能。 在之前部署 Microsoft Skype 业务服务器 2019 XMPP 与旧的 XMPP 部署以共存，您需要验证已将旧的 XMPP 服务配置并启动，并确定该联盟伙伴的旧的 XMPP配置为支持。 验证旧版部署涉及以下：
+在共存状态中部署 Skype for Business Server 2019 之前, 你需要验证是否已配置并启动旧式服务。 在部署 Skype for business Server 2019 试验池之前, 请务必确定旧环境中存在的关键服务和功能。 在使用旧版 XMPP 部署在共存状态中部署 Microsoft Skype for Business Server 2019 XMPP 之前, 你需要验证是否已配置并启动旧版 XMPP 服务, 并确定旧 XMPP 的联盟合作伙伴配置支持。 验证旧部署需要执行以下操作:
   
-- 验证已启动旧的服务
+- 验证是否已启动旧式服务
     
 - 查看拓扑和用户
     
 - 验证联盟和边缘服务器设置
     
-- 确认 XMPP 服务和联盟的伙伴
+- 验证 XMPP 服务和联盟合作伙伴
     
-## <a name="verify-that-legacy-services-are-started"></a>确认旧服务已启动
+## <a name="verify-that-legacy-services-are-started"></a>验证是否已启动旧式服务
 
-1. 从旧前端服务器，导航到管理工具 \ 服务小程序。
+1. 从旧前端服务器, 导航到 "管理 Tools\Services" 小程序。
     
-2. 确认以下服务都在前端服务器上运行：
+2. 验证以下服务是否在前端服务器上运行:
     
      ![前端服务器上运行的服务列表](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>为业务 Server Control Panel 查看 Skype 中的将旧拓扑
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>查看 Skype for Business Server 控制面板中的旧版拓扑
 
 1. 使用具有 RTCUniversalServerAdmins 组成员身份或 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到前端服务器。
     
-2. 打开 Skype 业务 Server Control Panel。
+2. 打开 "Skype for Business 服务器" 控制面板。
     
-3. 选择**拓扑**。 确认列出旧部署中的各个服务器。
+3. 选择 "**拓扑**"。 验证是否列出了旧版部署中的各种服务器。
     
-     ![控件控制面板拓扑页](../media/migration_lyncserver_2010_topology.JPG)
+     !["控制面板拓扑" 页面](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>查看旧用户中的业务 Server Control Panel Skype
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server "控制面板" 中查看旧版用户
 
-1. 打开 Skype 业务 Server Control Panel。
+1. 打开 "Skype for Business 服务器" 控制面板。
     
-2. 选择**用户**，然后单击**查找**。
+2. 选择 "**用户**", 然后单击 "**查找**"。
     
-3. 确认**注册器池**列指向旧池列出的每个用户。 
+3. 验证 "**注册机构池**" 列是否指向列出的每个用户的旧版池。 
     
-     ![列出用户控制面板](../media/migration_lyncserver_2010_allusers.JPG)
+     !["控制面板", 其中列出了用户](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a>确认旧的边缘服务器和联合身份验证设置
+## <a name="verify-legacy-edge-and-federation-settings"></a>验证旧版边缘和联盟设置
 
 1. 启动拓扑生成器。
     
-2. 选择**从现有部署下载拓扑**。
+2. **从现有部署中选择 "下载拓扑**"。
     
-3. 选择文件名并保存具有默认.tbxml 文件类型的拓扑。
+3. 选择文件名, 然后使用默认的 tbxml 文件类型保存拓扑。
     
-4. 展开以显示部署中的各个服务器角色的旧式安装节点。
+4. 展开 "旧版安装" 节点以显示部署中的各种服务器角色。
     
-5. 选择网站节点并验证设置了**站点联盟路由分配**值。 
+5. 选择 "网站" 节点并验证是否设置了 "**网站联合" 路由分配**值。 
     
-     ![拓扑生成器，站点联盟路由](../media/migration_lyncserver_w14_federation.jpg)
+     ![拓扑生成器、站点联合身份验证路线](../media/migration_lyncserver_w14_federation.jpg)
   
-6. 选择 Standard Edition Server 或 Enterprise Edition 前端池。 确定是否已下方**关联**的媒体配置边缘池。 
+6. 选择标准版服务器或企业版前端池。 确定是否已针对 "**关联**" 下的媒体配置了边缘池。 
     
-     ![显示服务器和池的拓扑生成器](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![拓扑生成器, 显示服务器和池](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. 选择边缘池，并确定是否下一个跃点池配置**下一个跃点选择**下方。
+7. 选择 "边缘" 池并确定下一个跃点池是否在**下一个跃点选择**下配置。
     
-     ![拓扑生成器下, 一个跃点选择](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![拓扑生成器, 下一跃点选择](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>验证旧版 XMPP 联盟的伙伴配置
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>验证旧版 XMPP 联盟合作伙伴配置
 
-1. 从旧版 XMPP 服务器中，导航到管理工具 \ 服务小程序。
+1. 从旧的 XMPP 服务器中, 导航到 "管理 Tools\Services" 小程序。
     
-2. 确认 Office Communications Server XMPP 网关服务已启动。 
+2. 验证是否已启动 Office 通信服务器 XMPP 网关服务。 
     
-     ![Office Communications Server XMPP 网关服务](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office 通信服务器 XMPP 网关服务](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

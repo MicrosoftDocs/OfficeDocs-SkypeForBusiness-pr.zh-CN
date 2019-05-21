@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916510"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306515"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -59,7 +59,8 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 ***
 自 Microsoft Teams 会议室 3.0.12.0 版起，不再支持 64 位版本的 Windows 10 企业版 Anniversary Edition（英语版本 1607）。 
 ***
-
+Microsoft 团队聊天室是一个多窗口应用程序, 需要将房间内的正面显示连接到设备的 HDMI 端口, 才能使应用正常运行。 确保你已连接 HDMI 显示器, 或者使用虚拟 HDMI 插头 (如果你正在测试, 并且尚未购买显示器)。
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 

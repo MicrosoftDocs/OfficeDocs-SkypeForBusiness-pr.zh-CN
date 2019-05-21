@@ -1,33 +1,33 @@
 ---
-title: （可选）Skype for Business 中定义响应组工作时间
+title: 可选在 Skype for Business 中定义响应组工作时间
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。
-ms.openlocfilehash: e98bfcf07b48811957c659fc865edda930f33da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server 企业版中, 创建或修改响应组工作时间。
+ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894638"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306331"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>（可选）Skype for Business 中定义响应组工作时间 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>可选在 Skype for Business 中定义响应组工作时间 
  
-创建或修改工作时间，业务 Server 企业语音的 Skype 的响应组。
+在 Skype for Business Server 企业版中, 创建或修改响应组工作时间。
   
 ## <a name="defining-business-hours"></a>定义工作时间
 
 工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。 响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。
   
 > [!TIP]
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅[设计和创建响应组工作流中的业务的 Skype](designing-and-creating-response-group-workflows.md)。 
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息, 请参阅[在 Skype For business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > 如果已将某个工作流定义为托管工作流，则被分配 CsResponseGroupManager 角色的任何用户均可设置和修改其管理的工作流的工作时间。 
@@ -64,6 +64,6 @@ ms.locfileid: "33894638"
 
 ## <a name="see-also"></a>另请参阅
 
-[New-csrgstimerange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[新-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[新 CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[新-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

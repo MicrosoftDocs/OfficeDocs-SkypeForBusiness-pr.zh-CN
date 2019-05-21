@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 请参阅如何在 Skype for Business Online 中为音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a05b393ac671447c0efe385bb1d562039aef32d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306375"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议自动助理语言
 
@@ -37,7 +37,7 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
 Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
->  仅能更改音频会议号码的专用类别的语言。 不能更改共享音频会议号码的语言。
+>  只能更改专用类别的音频会议号码的语言。 无法更改共享音频会议号码的语言。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,14 +46,14 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 你必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或 [Skype for Business 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**旧门户**。 一次在旧门户中，选择**音频会议**，然后单击**Microsoft 桥**。
+1. 在**Skype For business 管理中心**的左侧导航中, 转到 "**旧版门户**"。 在旧版门户中, 选择 "**音频会议**", 然后单击 " **Microsoft bridge**"。
     
-2. 选择音频会议电话号码，从列表中，并在操作窗格中，单击**设置语言**。 仅能更改专用的音频会议号码的语言。  
+2. 从列表中选择音频会议电话号码, 然后在 "操作" 窗格中, 单击 "**设置语言**"。 仅可以更改专用音频会议号码的语言。  
     
-3. 在**设置语言**页上，单击**主要语言**列表，以查看可用的语言的完整列表。 如果需要请单击每个**辅助语言**列表选择辅助语言。
+3. 在 "**设置语言**" 页面上, 单击 "**主要语言**" 列表以查看可用语言的完整列表。 如果需要, 请单击每个**次要语言**列表以选择 "辅助语言"。
     
     > [!NOTE]
-    > [!注释] 则会显示所支持的主要和辅助语言。 在其中选择这些列表中的顺序将向呼叫者显示的语言的顺序。 
+    > [!注释] 则会显示所支持的主要和辅助语言。 在列表中选择它们的顺序将是向呼叫方提供的语言的顺序。 
   
 4. 单击“**保存**”。
     
@@ -67,9 +67,9 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
-自动执行此步骤，您可以使用[集 CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
+若要自动执行此步骤, 你可以使用[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
   
-若要了解详细信息，请参阅[使用 Windows PowerShell，可以执行的业务 Online 管理任务的常见 Skype](https://go.microsoft.com/fwlink/?LinkId=525038)
+若要了解详细信息, 请参阅[使用 Windows PowerShell 执行常见的 Skype For Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>相关主题
 

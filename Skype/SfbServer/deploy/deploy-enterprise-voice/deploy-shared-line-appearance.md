@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
-ms.openlocfilehash: bbdb5de985e44c0c3a0484605857485823457674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892648"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291177"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署共享线路外观
 
@@ -28,11 +28,11 @@ ms.locfileid: "33892648"
 
 有关此功能的详细信息，请参阅[Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
 
-共享行外观 (SLA) 是 Skype 业务服务器中的新功能年 11 月 2015年累积更新。 要启用此功能，必须首先部署此累积更新。
+共享线路外观 (SLA) 是 Skype for Business 服务器中的一项新功能, 即2015年11月累积更新。 要启用此功能，必须首先部署此累积更新。
 
 ### <a name="install-shared-line-appearance"></a>安装共享线路外观
 
-1. 对于业务服务器，年 11 月 2015年部署累积更新，Skype 后运行`SkypeServerUpdateInstaller.exe`池中每个前端服务器上的修补程序。
+1. Skype for Business 服务器之后, 将部署2015年11月累积更新, `SkypeServerUpdateInstaller.exe`在池中的每台前端服务器上运行修补程序。
 
 2. 安装程序将部署最新的 SLA 应用程序，然而，该应用程序默认情况下不启用。可按照下面所述的步骤启用它：
 
@@ -77,7 +77,7 @@ ms.locfileid: "33892648"
     您可以使用 Set-CsSlaConfiguration 创建新的 SLA 组或修改现有 SLA 组。
 
     > [!NOTE]
-    > 请注意，您所指定的`-Identity`必须为有效的现有已启用企业语音的用户帐户。
+    > 请注意, 为指定的`-Identity`内容必须是有效的现有企业语音的用户帐户。
 
 2. 使用 [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet 向组添加代理人：
 
@@ -86,7 +86,7 @@ ms.locfileid: "33892648"
           <NameOfDelegate@domain>
    ```
 
-    以下示例将向 SLA 组添加一个用户。 添加到组中每个用户必须是有效的启用了企业语音的用户：
+    以下示例将向 SLA 组添加一个用户。 添加到该组的每个用户都必须是有效的企业语音支持的用户:
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -102,7 +102,7 @@ ms.locfileid: "33892648"
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    以下示例会将超过最大并发呼叫数的呼叫设置为转接到电话号码 202-555-1234。 目标可能而不是一个电话号码; 您组织内的用户在这种情况下，接收呼叫转移的人员的语法是相同时指定代理人： `sip:<NameofDelegate@domain>`。 其他可能的参数的`BusyOption`是`Voicemail`:
+    以下示例会将超过最大并发呼叫数的呼叫设置为转接到电话号码 202-555-1234。 目标可以是组织中的用户, 而不是电话号码;在这种情况下, 接收转接呼叫的用户的语法与您指定代理人时的语法相同: `sip:<NameofDelegate@domain>`。 的另一个可能的`BusyOption`参数`Voicemail`是:
 
   ```
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -116,7 +116,7 @@ ms.locfileid: "33892648"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. 下面的示例指定错过的呼叫转接至指定的用户`sla_forward_number`。 有效选项`-MissedCallOption`参数`Forward`， `BusySignal`，或`Disconnect`。 如果您选择`Forward`，还必须包括`-MissedCallForwardTarget`参数，作为目标用户或电话号码：
+2. 以下示例指定将未接来电转发到名为`sla_forward_number`的用户。 `-MissedCallOption`参数的有效选项为`Forward`、 `BusySignal`或`Disconnect`。 如果选择`Forward`"", 则还必须包括`-MissedCallForwardTarget`参数, 将用户或电话号码用作目标:
 
    ```
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

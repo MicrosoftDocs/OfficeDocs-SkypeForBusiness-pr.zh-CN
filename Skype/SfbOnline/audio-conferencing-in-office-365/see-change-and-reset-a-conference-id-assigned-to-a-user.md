@@ -1,5 +1,5 @@
 ---
-title: 请参阅、 更改和重置业务 online 分配给 Skype 中的用户的会议 ID
+title: 在 Skype for Business Online 中查看、更改和重置分配给用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解如何为业务 Online 到 Skype 中的用户分配的会议 ID 和会议 Id 参数应为。 '
-ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解如何在 Skype for Business Online 中向用户分配会议 ID, 以及会议 Id 参数应该是什么。 '
+ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229328"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298918"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -43,9 +43,9 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ## <a name="view-and-reset-conference-ids"></a>查看和重置会议 ID
 
-### <a name="to-view-the-conference-id"></a>若要查看的会议 ID
+### <a name="to-view-the-conference-id"></a>查看会议 ID
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 可以查看他们的会议 ID，并将其发送给用户。
 
@@ -58,7 +58,7 @@ An email will be sent to the user with the conference ID and the default audio c
 4. 在操作页面，查看**会议 ID** 下方。
 
     > [!TIP]
-    > 您可以向中包括的会议 ID 和音频的电话号码后，通过单击**发送电子邮件的会议信息**链接选择**用户**页上的用户的电子邮件的用户发送的所有会议信息。
+    > 在 "**用户**" 页面上选择用户后, 通过单击 "**通过电子邮件发送会议信息**" 链接, 可以在包含会议 ID 和音频电话号码的电子邮件中向用户发送所有会议信息。
 
 **使用 Windows PowerShell**
 
@@ -71,17 +71,17 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
 
 
-### <a name="to-reset-the-conference-id"></a>若要重置的会议 ID
+### <a name="to-reset-the-conference-id"></a>重置会议 ID
 
 例如，如果用户忘记了密码，你可以为其重置会议 ID。
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
-3. 在**业务管理中心的 Skype**> **音频会议** > **用户**，在**会议 ID**下的操作窗格中单击**重置**。
+3. 在**Skype for business 管理中心**> **音频会议** > **用户**的 "操作" 窗格中的 "**会议 ID**" 下, 单击 "**重置**"。
 
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -102,7 +102,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
 - The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
 
-- 所有音频会议用户的会议 ID 将 7 位数字，默认情况下，并且不能更改的位数。
+- 默认情况下, 所有音频会议用户的会议 ID 都是7位数字, 并且位数不能更改。
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？

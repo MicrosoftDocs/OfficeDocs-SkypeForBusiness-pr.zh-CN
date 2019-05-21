@@ -1,29 +1,29 @@
 ---
-title: IP 电话清单报告中 Skype 业务服务器
+title: Skype for Business 服务器中的 IP 电话清单报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 摘要： 了解 IP 电话清单报告中 Skype 业务服务器。
-ms.openlocfilehash: 4eae4d699ec2fc67fc4a6ed809578c4679e8bf1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的 IP 电话清点报告。'
+ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888371"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305666"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP 电话清单报告中 Skype 业务服务器
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Skype for Business 服务器中的 IP 电话清单报告
  
-**摘要：** 了解 IP 电话清单报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的 IP 电话清点报告。
   
 IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话的信息。IP 清单报告提供了在指定的报告期间实际上所使用的详细 IP 电话列表。除此之外，管理员还可以通过此报告了解是否存在应进行替换但仍在使用中的任何旧的、过时的电话；该报告还可以就组织中存在很少使用的昂贵电话这一实际情况，向管理员发出警报。当应该购买新电话或重新分配现有的电话时，该类型的信息非常重要。（例如，可能要求很少使用其昂贵电话的用户与较为频繁使用其电话的用户交换电话。）
   
-值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先，IP 电话报告只列出登录到 Skype 业务服务器指定的时间段内，按其上次登录时间排序的所有电话。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想要查看 2015 年 7 月的所有电话清单。 同样，假设，多个电话登录到 Skype 业务服务器上 2015 年 6 月 30 日，并且仍已用户登录从 7 月 1 日。 这些电话将不会在 7 月 1 日的清单报告上出现。
+值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先, IP 电话报告只列出在指定时间段内登录到 Skype for business 服务器的所有电话, 并按其上次登录时间进行排序。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想要查看 2015 年 7 月的所有电话清单。 假设您在2015年6月30日登录到 Skype for business 服务器的多个电话, 并且在7月1日仍在登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
   
 还必须注意的是，清单报告可能包括您的组织不再使用的电话。例如，假设在 2015 年 7 月 1 日有许多 Fabrikam 电话登录到系统；5 天后，您的组织清除了所有这些 Fabrikam 电话并将它们替换为较新的 Contoso 模型。Fabrikam 电话仍会显示在“清单”报告中，原因很简单，就是它们在 7 月份已登录到系统。
   
@@ -101,8 +101,8 @@ Last activity    :
 |**硬件版本** <br/> |IP 电话的版本号；使用您可以专门识别特定电话类型的制造商和硬件版本筛选器。 此筛选器的值将根据数据库中当前存有的 IP 电话自动填充。  <br/> |
 |**用户代理** <br/> |IP 电话使用的软件的标识符。此筛选器的值将根据数据库中当前存有的 IP 电话自动填充。  <br/> |
 |**MAC 地址** <br/> |IP 电话的网络接口的唯一标识符。媒体访问控制 (MAC) 地址通常在电话制造时分配，并硬接线到设备硬件。  <br/> 要搜索与特定 MAC 地址有关的记录，只需输入该地址。例如：  <br/> 00-08-5D-16-16-48  <br/> 您必须输入完整地址。只输入一部分地址（例如 00-08-5D）不会返回任何数据。  <br/> |
-|**此天数前的最后一次活动** <br/> | 选择下列值之一： <br/>  [所有] <br/>  10 <br/>  20 <br/>  30 <br/> |
-|**此天数前的最后注销时间** <br/> | 选择下列值之一： <br/>  [所有] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|**此天数前的最后一次活动** <br/> | 选择下列值之一： <br/>  [所有] <br/>  10 <br/>  名 <br/>  大约 <br/> |
+|**此天数前的最后注销时间** <br/> | 选择下列值之一： <br/>  [所有] <br/>  10 <br/>  名 <br/>  大约 <br/> |
 |**用户 URI 前缀** <br/> |使用 IP 电话的用户的 SIP 地址。  <br/> |
    
 ## <a name="metrics"></a>指标
@@ -118,8 +118,8 @@ Last activity    :
 |**MAC 地址** <br/> |是  <br/> |IP 电话的网络接口的唯一标识符。MAC 地址通常在电话制造时分配，并硬接线到设备硬件。  <br/> |
 |**用户 URI** <br/> |是  <br/> |使用 IP 电话的用户的 SIP 地址。  <br/> |
 |**用户代理** <br/> |是  <br/> |IP 电话使用的软件的标识符。  <br/> |
-|**上次登录时间** <br/> |是  <br/> |日期和时间的 IP 电话上次登录到 Skype 业务服务器。  <br/> |
-|**上次注销时间** <br/> |是  <br/> |日期和时间的 IP 电话上次从注销 Skype 业务服务器。  <br/> |
+|**上次登录时间** <br/> |是  <br/> |IP 电话上次登录到 Skype for Business 服务器的日期和时间。  <br/> |
+|**上次注销时间** <br/> |是  <br/> |IP 电话上次从 Skype for Business 服务器注销的日期和时间。  <br/> |
 |**最后一次活动** <br/> |是  <br/> |上一次使用 IP 电话的日期和时间。  <br/> |
    
 

@@ -1,25 +1,25 @@
 ---
-title: 会议摘要子报表中的业务服务器 Skype
+title: Skype for Business Server 中的 "会议摘要" 子报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 摘要： 了解有关会议摘要子报表中 Skype 业务服务器。
-ms.openlocfilehash: 44895a8ed8c88cdf91b10ccf919bb7e088fbe13e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的 "会议摘要" 子报告。'
+ms.openlocfilehash: ad3e382ac832976e15518a431055bf03189061a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926639"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305862"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>会议摘要子报表中的业务服务器 Skype
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server 中的 "会议摘要" 子报告
  
-**摘要：** 了解业务服务器 Skype 会议摘要子报表。
+**摘要:** 了解 Skype for Business 服务器中的 "会议摘要" 子报告。
   
 会议摘要子报告提供了失败的会议会话的总体概述。这些失败的会话按以下会话类型进一步细分：焦点会话和 MCU 会话。
   

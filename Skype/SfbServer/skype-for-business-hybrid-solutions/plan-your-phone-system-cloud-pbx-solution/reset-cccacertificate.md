@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: Reset-CcCACertificate cmdlet 重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
-ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3cac8629a52d915df55408a44d8d31701106a5bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250873"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287067"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
@@ -46,7 +46,7 @@ Reset-CcCACertificate
 
 如果根 CA 证书已损坏或不再安全，则必须更新根 CA 证书和根 CA 颁发的所有证书。 Reset-CcCACertificate cmdlet 会吊销所有证书、卸载并重新安装证书颁发机构，然后清除与旧证书颁发机构服务相关的所有证书。 
   
-有关详细信息，请参阅云连接器部署疑难解答中的"证书颁发机构证书颁发给 CMS、 中介服务器和边缘服务器内部证书临近过期或泄漏"。
+有关详细信息, 请参阅有关云连接器部署疑难解答中的 "证书颁发机构证书或颁发给 CMS、中介服务器和边缘服务器的内部证书已过期或已泄露"。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
@@ -67,7 +67,7 @@ Reset-CcCACertificate
   
 [Update-CcCACertificate](update-cccacertificate.md) 2.0 版及更高版本
   
-[续订 CcServerCertificate](renew-ccservercertificate.md)2.0 及更高版本
+[续订-CcServerCertificate](renew-ccservercertificate.md)版本2.0 和更高版本
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

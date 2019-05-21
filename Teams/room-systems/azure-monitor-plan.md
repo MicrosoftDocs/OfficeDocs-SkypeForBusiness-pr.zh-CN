@@ -1,67 +1,67 @@
 ---
-title: 规划 Microsoft 团队聊天室管理使用 Azure 监视器
+title: 通过 Azure 监视器规划 Microsoft 团队聊天室管理
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
-description: 本文讨论了使用 Azure 监视器管理在您 Skype 业务或团队实现的 Microsoft 团队聊天室设备的规划注意事项。
-ms.openlocfilehash: 67a74d0bd02465d1a84856238e3e65a049b23ab4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: 本文介绍使用 Azure 监视器管理 Skype for Business 或团队实现中的 Microsoft 团队聊天室设备时的规划注意事项。
+ms.openlocfilehash: 98b4ebb61f4f287b94967f0cfd80b6f0ca9caeaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362639"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306547"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>规划 Microsoft 团队聊天室管理使用 Azure 监视器
+# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>通过 Azure 监视器规划 Microsoft 团队聊天室管理
  
- 本文讨论了使用 Azure 监视器管理业务实现的 Microsoft 团队聊天室设备的 Microsoft 团队或 Skype 中的规划注意事项。
+ 本文介绍使用 Azure 监视器管理 Microsoft 团队或 Skype for Business 实施中的 Microsoft 团队聊天室设备时的规划注意事项。
   
-[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview)处于旨在从开始在云中的管理服务的集合。 而不是部署和管理内部资源，完全 Azure 中承载 Azure 监视器组件。 只需进行最少的配置，即可在几分钟内开机运行。 具有一些自定义工作，它可帮助管理 Microsoft 团队聊天室会议系统通过为单个会议室系统提供的系统运行状况或错误的实时通知和它可能可扩展到管理数以千计的 Microsoft 团队聊天室会议室。
+[Azure 监视器](https://docs.microsoft.com/azure/azure-monitor/overview)是从开始就在云中设计的管理服务的集合。 Azure 监视器组件完全托管在 Azure 中, 而不是部署和管理本地资源。 只需进行最少的配置，即可在几分钟内开机运行。 有了一些自定义工作, 它可以帮助管理 Microsoft 团队会议室会议系统, 方法是为单个房间系统提供系统运行状况或故障的实时通知, 并且可能会扩展到管理数以千计的 Microsoft 团队会议室会议室。
   
-本文讨论的要求、 设计/体系结构和需要实现基于 Azure 监视器管理的 Microsoft 团队聊天室会议设备实现最佳实践，并提供了详细的文章的链接实现 Azure 监视器的 Microsoft 团队聊天室和关键的参考信息的 Microsoft 团队聊天室聊天室的正在进行监控。 
+本文提供了有关实现 Microsoft 团队聊天室会议设备的基于 Azure 监视器的管理所需的要求、设计/体系结构和实施最佳做法的讨论, 并提供了有关的详细文章的链接为 Microsoft 团队聊天室实施 Azure 监视器和关键参考信息, 以便对 Microsoft 团队会议室的持续监控。 
   
 ## <a name="functional-overview"></a>功能概述
 
-![使用 Azure 监视器的 Microsoft 团队聊天室管理的关系图](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![使用 Azure 监视器的 Microsoft 团队聊天室管理图](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-控制台设备上的 Microsoft 团队聊天室应用程序将事件写入到其 Windows 事件日志。 Microsoft 监控代理，安装后，会将信息传递到 Azure 监视器服务。 
+控制台设备上的 Microsoft 团队聊天室应用将事件写入其 Windows 事件日志。 Microsoft Monitoring agent 一经安装, 便会将信息传递给 Azure 监视器服务。 
   
-一次正确配置，日志分析分析 JSON 负载事件中嵌入说明来描述每个聊天室 Microsoft 团队系统如何工作和检测到哪些故障。 
+配置正确后, 日志分析将分析事件描述中嵌入的 JSON 负载, 以描述每个 Microsoft 团队聊天室系统的工作方式以及检测到的错误。 
   
-使用 Azure 监视器管理员可以获取的已处于脱机状态的 Microsoft 团队聊天室系统通知或是遇到应用程序、 连接或硬件故障，以及了解是否需要重新启动系统。 每个系统状态是频繁更新，因此这些通知接近实时更新。
+使用 Azure 监视器的管理员可以获取脱机或遇到应用、连接或硬件故障以及知道系统是否需要重新启动的 Microsoft 团队聊天室系统的通知。 每个系统状态都会频繁更新, 因此这些通知接近于实时更新。
   
 ## <a name="azure-monitor-requirements"></a>Azure 监视器要求
 
-您必须具有有效的 Azure 订阅 Azure 监视程序才能使用日志分析功能。 请参阅[开始使用日志分析工作区](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)创建您的组织订阅。
+你必须具有有效的 Azure 监视器 Azure 订阅才能使用日志分析功能。 请参阅[开始使用 Log Analytics 工作区](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)来为你的组织创建订阅。
   
-您应熟悉根据需要有关如何使用日志分析视图设计器。 有关详细信息，请参阅[日志分析中的视图](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)。
+你应根据需要熟悉如何使用 Log Analytics 视图设计器。 有关这些详细信息, 请参阅[日志分析中的视图](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)。
   
 ### <a name="related-tasks"></a>相关任务
 
-1. 订阅 Azure 监视器日志分析后, 创建自定义字段 （如[映射自定义字段](azure-monitor-deploy.md#Custom_fields)中所述） 所需分析来自 Microsoft 团队聊天室控制台的信息。 这包括了解[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)中记录的 JSON 架构。
+1. 订阅 Azure 监视器日志分析后, 创建自定义字段 (如[映射自定义字段](azure-monitor-deploy.md#Custom_fields)中所述), 以分析将从 Microsoft 团队聊天室控制台发送的信息。 这包括理解[日志条目](azure-monitor-manage.md#understand-the-log-entries)中记录的 JSON 架构。
     
-2. 开发日志分析中的 Microsoft 团队聊天室管理视图。 您可以[创建 Microsoft 团队聊天室仪表板使用的导入方法](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)或[手动创建 Microsoft 团队聊天室仪表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)。
+2. 在日志分析中开发 Microsoft 团队聊天室管理视图。 你可以通过使用 import 方法或[手动创建 Microsoft 团队聊天室仪表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)[来创建 microsoft 团队聊天室仪表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)。
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>单个 Microsoft 团队聊天室控制台要求
+## <a name="individual-microsoft-teams-rooms-console-requirements"></a>单个 Microsoft 团队聊天室的控制台要求
 
-每个 Microsoft 团队聊天室控制台是以展台模式 Surface Pro 设备上运行的应用程序 （通常，它配置为仅可在设备上运行的应用程序）。 与任何 Windows 应用程序中，Microsoft 团队聊天室应用程序到 Windows 事件日志中写入像启动和硬件故障的事件。 添加了 Microsoft 监视器代理 Microsoft 团队聊天室设备上允许待收集这些事件。 （请参阅[到 Azure 中的日志分析服务的连接的 Windows 计算机](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)详细信息。）
+每个 Microsoft 团队聊天室控制台都是在展台模式下 (通常情况下, 配置为可以在设备上运行的唯一应用) 在 Surface Pro 设备上运行的应用。 与任何 Windows 应用一样, Microsoft 团队聊天室应用会将启动和硬件故障之类的事件写入 Windows 事件日志。 在 Microsoft 团队聊天室设备上添加 Microsoft 监视器代理后, 即可收集这些事件。 (有关详细信息, 请参阅[将 Windows 计算机连接到 Azure 中的日志分析服务](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)。)
   
 ## <a name="ongoing-management"></a>正在进行的管理
 
-同时使用 Azure 监视器来管理您的 Microsoft 团队聊天室设备，您需要了解 Azure 监视器使用事件日志中包含的信息。 有关这些运行状况消息的详细信息，请参阅[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)。
+使用 Azure 监视器管理 Microsoft 团队聊天室设备时, 你需要了解 Azure 监视器使用的事件日志中包含的信息。 有关这些运行状况消息的详细信息, 请参阅[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)。
   
 ### <a name="related-tasks"></a>相关任务
 
-- 了解由 Microsoft 团队聊天室以及如何解决这些问题 （请参阅名为[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)的部分） 生成的警报
+- 了解 Microsoft 团队聊天室生成的通知以及如何解决它们 (请参阅标题为[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)的部分)
     
 ## <a name="see-also"></a>另请参阅
 
-[部署 Microsoft 团队聊天室管理使用 Azure 监视器](azure-monitor-deploy.md)
+[通过 Azure 监视器部署 Microsoft 团队聊天室管理](azure-monitor-deploy.md)
   
-[管理使用 Azure 监视器的 Microsoft 团队聊天室设备](azure-monitor-manage.md)
+[通过 Azure 监视器管理 Microsoft 团队聊天室设备](azure-monitor-manage.md)

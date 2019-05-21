@@ -1,31 +1,31 @@
 ---
-title: Skype 中的业务服务器的对等 IM 报告
+title: Skype for Business Server 中的对等 IM 报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 摘要： 了解业务服务器的对等 IM 报告中 Skype。
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的对等 IM 报表。'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926583"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305652"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype 中的业务服务器的对等 IM 报告
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等 IM 报表
  
-**摘要：** 了解业务服务器的对等 IM 报告中 Skype。
+**摘要:** 了解 Skype for Business 服务器中的对等 IM 报表。
   
 对等 IM 报告提供了有关按池和身份验证类型分类的对等即时消息 (IM) 会话的趋势信息。该报告可以显示在指定时间段内（例如，每天或每小时）进行的会话总数或显示在该时间段内发送的即时消息总数。
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-您只能通过打开的[对等活动摘要报告中的业务服务器 Skype](peer-to-peer-activity-summary-report.md) ，然后单击以下指标之一访问对等 IM 报告：
+只有[在 Skype For Business Server 中打开对等活动摘要报告](peer-to-peer-activity-summary-report.md), 然后单击以下任一指标, 才能访问对等 IM 报告:
   
 - 对等 IM 会话总数
     
@@ -56,7 +56,7 @@ ms.locfileid: "33926583"
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**池** <br/> |否  <br/> |注册器池或边缘服务器的名称。  <br/> |
+|**池** <br/> |否  <br/> |注册机构池或边缘服务器的名称。  <br/> |
 |**日期/时间** <br/> |否  <br/> |会话发生的日期和时间。  <br/> |
 |**总计** <br/> |否  <br/> |会话总数或消息总数。  <br/> |
    

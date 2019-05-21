@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployDomainPrepInvoke
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 正在执行命令页上显示运行时任务的摘要。 查看摘要屏幕上，并确保任务已成功完成，并且没有任何错误。 检查以确保它们预期警告。 下方摘要窗格中，您应看到任务状态： 已完成。 在下拉列表中，日志文件准备域应可见。 如果不存在，选择的日志文件，然后单击查看详细的操作和任务的结果的查看日志。 单击完成完成准备的林中的域。
-ms.openlocfilehash: 1b9fe382e2582c526a6b693fd89b1897b63790bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: "\"执行命令\" 页面显示任务运行时的摘要。 查看摘要屏幕, 确保任务成功, 并且没有错误。 查看警告以确保它们正常。 在 \"摘要\" 窗格下方, 应查看 \"任务状态: 已完成\"。 在下拉列表中, 应显示 \"准备域\" 的日志文件。 如果不是, 请选择日志文件, 然后单击 \"查看日志\" 以查看任务的详细操作和结果。 单击 \"完成\" 以完成域的准备工作。"
+ms.openlocfilehash: f4d057d7bf5f5f3b2464518dd1d186d800c1d91b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894111"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298952"
 ---
 # <a name="prepare-current-domain-invoke"></a>准备当前域（调用）
  
-**正在执行命令**页上显示运行时任务的摘要。 查看摘要屏幕上，并确保任务已成功完成，并且没有任何错误。 检查以确保它们预期警告。 下方摘要窗格中，您应看到**任务状态： 完成**。 在下拉列表中，**域准备**的日志文件应可见。 如果不存在，选择的日志文件，然后单击**查看日志**，以查看详细的操作和任务结果。 单击**完成**以完成准备的林中的域。
+"**执行命令**" 页面显示任务运行时的摘要。 查看摘要屏幕, 确保任务成功, 并且没有错误。 查看警告以确保它们正常。 在 "摘要" 窗格下方, 应查看 "**任务状态: 已完成**"。 在下拉列表中, 应显示 "**准备域**" 的日志文件。 如果不是, 请选择日志文件, 然后单击 "**查看日志**" 以查看任务的详细操作和结果。 单击 "**完成**" 以完成域的准备工作。
   
 

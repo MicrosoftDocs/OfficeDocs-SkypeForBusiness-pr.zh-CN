@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
-description: 您可以使用“持久聊天”页的“类别”部分配置类别。 持久聊天聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: dc1ce00a65186da02979afb67900dce7f0943a19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 您可以使用“持久聊天”页的“类别”部分配置类别。 持久的聊天室类别是用于组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
+ms.openlocfilehash: fc430c7d61ad4662d28f81594d59bf95d03f84c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910951"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302662"
 ---
 # <a name="persistent-chat-category"></a>持久聊天类别
  
-您可以使用“**持久聊天**”页的“**类别**”部分配置类别。 持久聊天聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
+您可以使用“**持久聊天**”页的“**类别**”部分配置类别。 持久的聊天室类别是用于组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
   
-聊天室类别可以包含聊天室，但不包含其他类别。 每个类别描述其内容和元数据，例如_名称_和_说明_。 此外，该类别具有属性可设置来控制行为的聊天室属于该功能，例如，如果聊天室允许_邀请_或_文件上载_，或包含_聊天历史记录_。
+聊天室类别可以包含聊天室，但不包含其他类别。 每个类别都描述了其内容和元数据, 如_名称_和_说明_。 此外, 类别具有可设置的属性, 以控制属于它的聊天室的行为, 例如, 如果聊天室允许_邀请_或_文件上载_, 或者包含_聊天历史记录_。
   
-若要创建新类别，请参阅[Persistent Chat Server 中的业务服务器 2015 Skype 中管理类别](../../manage/persistent-chat/categories.md)。 如果您是 a Persistent Chat Administrator，您可以使用控制面板或 Windows PowerShell cmdlet 创建类别。
+若要创建新类别, 请参阅[在 Skype for Business server 2015 中管理持久聊天服务器](../../manage/persistent-chat/categories.md)中的类别。 如果您是持久的聊天管理员, 则可以使用控制面板或 Windows PowerShell cmdlet 创建类别。
   
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -42,15 +42,15 @@ ms.locfileid: "33910951"
 
 1. 使用分配给 CsPersistentChatAdministrator 或 CsAdministrator 角色的用户帐户登录您的本地部署中的任一计算机。
     
-2. 从**开始**菜单上，选择业务 Server Control Panel Skype 或打开一个浏览器窗口中，，然后输入管理 URL。
+2. 从 "**开始**" 菜单中, 选择 "Skype For business 服务器" 控制面板或打开一个浏览器窗口, 然后输入管理员 URL。
     
 3. 在左侧导航栏中，单击“**持久聊天**”，然后单击“**类别**”。
     
-    对于多个持久聊天服务器池部署，从下拉列表中选择相应的池。
+    对于多个持久聊天服务器池部署, 从下拉列表中选择相应的池。
     
 4. 在“**类别**”页上，单击“**新建**”或“**编辑**”。
     
-5. 在**选择服务**，选择对应于需要创建类别的持久聊天服务器池的服务。 持久聊天服务器池的持久聊天 （客户端） 用于标识其池类别属于该服务。 类别可以属于只有一个持久聊天服务器池，，无法移动到另一个，或与另一个池共享。
+5. 在 "**选择服务**" 中, 选择与需要在其中创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池, 永久聊天 (客户端) 使用它标识类别所属的池。 一个类别只能属于一个持久聊天服务器池, 不能移到另一个, 或与另一个池共享。
     
 6. 在“**新建类别**”中，执行下列操作：
     
@@ -58,27 +58,27 @@ ms.locfileid: "33910951"
     
 8. 在“**描述**”中，提供有关聊天室类别（例如 Contoso 聊天室类别）的详细描述。
     
-9. 要控制是否为属于此类别的聊天室启用邀请，请选中或清除“**启用邀请**”复选框。 如果选中，则此类别的聊天室将打开或关闭邀请；如果清除，则不允许此类别的聊天室具有邀请。 如果聊天室具有上时将新的成员添加到聊天室的邀请，他/她获取其持久聊天的客户端中新的聊天室的通知。
+9. 要控制是否为属于此类别的聊天室启用邀请，请选中或清除“**启用邀请**”复选框。 如果选中，则此类别的聊天室将打开或关闭邀请；如果清除，则不允许此类别的聊天室具有邀请。 如果会议室有邀请, 则在将新成员添加到聊天室时, 他或她将收到新聊天室在其持久聊天客户端中的通知。
     
 10. 要控制属于此类别的聊天室中的文件上载，请选中或清除“**启用文件上载**”复选框。如果选中，该类别的聊天室可以启用或禁用文件上载；如果清除，则不允许该类别的聊天室执行文件上载操作。
     
      > [!IMPORTANT]
-     > 此设置将强制执行服务器上，因为自定义应用程序或以前群聊客户端使用 Office Communications Server 2007 R2 群聊服务器或 Lync Server 2010，群聊可以将文件发布到聊天室。 Lync 2013 客户端不具有文件上载/下载功能，因此如果您有纯 Lync 2013 部署或 Lync 2013 客户端，不能在 Persistent Chat Server 聊天室内发布文件。 
+     > 由于自定义应用程序或以前的群组聊天客户端使用 Office 通信服务器 2007 R2 组聊天服务器或 Lync Server 2010, 组聊天可将文件发布到聊天室, 因此在服务器上强制使用此设置。 Lync 2013 客户端没有文件上传/下载功能, 因此, 如果你有纯 Lync 2013 部署或 Lync 2013 客户端, 则无法在持久聊天服务器聊天室中发布文件。 
   
-11. 若要控制聊天历史记录，请选中或清除**启用聊天历史记录**复选框。 如果选中，则聊天室聊天内容将变成持久的；否则，将不会保留聊天消息。 如果启用了合规性，则将按合规性保存聊天室聊天内容，但用户无法访问较早的消息。 此选项可用于指定以进行实时、 临时无需聊天历史记录要保留的协作的聊天室。
+11. 若要控制聊天历史记录, 请选中或清除 "**启用聊天历史记录**" 复选框。 如果选中，则聊天室聊天内容将变成持久的；否则，将不会保留聊天消息。 如果启用了合规性，则将按合规性保存聊天室聊天内容，但用户无法访问较早的消息。 此选项可用于为不需要保留聊天历史记录的实时、临时协作的会议室指定的会议室。
     
 12. 在“**编辑类别**”中，执行下列操作：
     
-    - 在**成员资格**，在**允许成员**部分中，添加或删除用户和其他 Active Directory 域服务主体 （用户、 通讯组、 组织单位，等） 允许添加为聊天室的成员属于类别。 类别允许的主体可搜索此类别的聊天室（除非隐藏了聊天室，在这种情况下，仅聊天室的成员可在此目录中搜索聊天室）。
+    - 在****"允许的成员" 部分中, 在 "**允许的成员**" 部分中, 添加或删除允许添加为聊天室成员的用户和其他 Active Directory 域服务主体 (用户、通讯组、组织单位等)属于类别。 类别允许的主体可搜索此类别的聊天室（除非隐藏了聊天室，在这种情况下，仅聊天室的成员可在此目录中搜索聊天室）。
     
-    - 中的**成员资格**，**拒绝成员**部分中添加或删除用户和其他与聊天室拒绝的成员关联的 Active Directory 主体。
+    - 在****"**拒绝成员**" 部分中, 在 "拒绝的成员" 部分中, 添加或删除与从聊天室拒绝的成员关联的用户和其他 Active Directory 主体。
     
-    - 在**成员资格**，在**创建者**部分中，添加或删除用户和其他类别的创建者相关联的 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
+    - 在 "**成员资格**" 部分中, 在 "**创建者**" 部分中, 添加或删除与类别的 "创建者" 关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
     
 13. 单击“**提交**”。
     
 ## <a name="see-also"></a>另请参阅
 
-有关详细信息 Persistent Chat Server 特性和功能，请参阅[Plan for Persistent Chat Server in 业务服务器 2015年的 Skype](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[部署持久聊天服务器中的 Business Server 2015 Skype](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和[管理持久聊天服务器在业务服务器 2015 Skype](../../manage/persistent-chat/persistent-chat.md)。
+有关持久聊天服务器功能和功能的详细信息, 请参阅[在 skype for Business server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[在 Skype for business server 2015 中部署持久聊天服务器](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)以及[管理持久聊天服务器在 Skype for Business Server 2015 中](../../manage/persistent-chat/persistent-chat.md)。
   
 

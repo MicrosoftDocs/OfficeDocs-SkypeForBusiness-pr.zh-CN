@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/10/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
-description: Lync Server 节点列出中央站点拓扑中。 可以执行以下操作：
-ms.openlocfilehash: b3405913d2c35ab1118f822a7512ecb26ed4e12d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lync 服务器节点列出拓扑中的中心网站。 可以执行以下操作：
+ms.openlocfilehash: b8b42ac2997d734e7c87584ce94090e0341911f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910310"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291261"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  
-**Lync Server**节点列出中央站点拓扑中。 可以执行以下操作：
+**Lync 服务器**节点列出拓扑中的中心网站。 可以执行以下操作：
   
 - **新建中央站点**。启动“定义新中央站点”向导，使用该向导可将新的中央站点添加到拓扑。
     
@@ -34,13 +34,13 @@ ms.locfileid: "33910310"
     
 - **下载拓扑**。从中央管理存储加载当前部署的拓扑。如果已定义拓扑并建立中央管理存储，则应始终选择该选项加载拓扑。
     
-- **将拓扑副本另存为**。 将当前拓扑保存到可以稍后再在拓扑生成器中加载的文件。
+- **将拓扑副本另存为**。 将当前拓扑保存到可在拓扑生成器中稍后再次加载的文件。
     
 - **发布拓扑**。使用该选项将此拓扑发布到中央管理存储，以便开始部署服务器。
     
 - **安装数据库**。允许您创建部署所需的数据库。
     
-- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具收集有关您以前的 Office Communications Server 环境，包括边缘服务器的信息，并将该信息发布到共享数据库。 
+- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具将收集有关以前的 Office 通信服务器环境的信息, 包括边缘服务器信息, 并将该信息发布到共享数据库。 
     
 - **删除部署**。启动“删除部署”向导，通过该向导可开始删除整个部署。
     

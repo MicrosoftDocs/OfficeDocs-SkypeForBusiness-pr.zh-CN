@@ -1,30 +1,30 @@
 ---
-title: 配置 Mobility Service 以实现高性能 Skype 中的业务服务器
+title: 在 Skype for business Server 中配置高性能的移动服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: 摘要： 了解业务服务器的 Skype 中 Mobility Service。
-ms.openlocfilehash: bd787e78ebd3228faa1c47f1f54e688551c3e67d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的移动服务。'
+ms.openlocfilehash: 35e04fa080964495ccd9abed28c0688dd7be45a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926590"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305841"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>配置 Mobility Service 以实现高性能 Skype 中的业务服务器
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>在 Skype for business Server 中配置高性能的移动服务
  
-**摘要：** 了解业务服务器中 Skype Mobility Service。
+**摘要:** 了解 Skype for Business 服务器中的移动服务。
   
 > [!IMPORTANT]
-> 本主题仅适用于 Skype 的业务服务器 Mobility Service (Mcx)，而不适用于对统一通信 Web API (UCWA)，如 Lync Server 2013 累积更新中提供： 2013 年 2 月。 
+> 本主题仅适用于 Skype for Business Server 移动服务 (Mcx), 不适用于在 Lync Server 2013 的累积更新中提供的统一通信 Web API (UCWA): 2 月2013。 
   
-在 Internet 信息服务 (IIS) 7.5 安装 Mobility Service (Mcx) 时，Mobility Service 安装程序在前端服务器上配置某些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
+在 Internet Information Services (IIS) 7.5 上安装移动服务 (Mcx) 时, 移动服务安装程序将在前端服务器上配置某些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
   
 以下是性能设置：
   

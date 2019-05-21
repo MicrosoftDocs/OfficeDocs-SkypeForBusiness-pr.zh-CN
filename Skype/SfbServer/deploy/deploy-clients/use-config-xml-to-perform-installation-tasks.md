@@ -1,23 +1,23 @@
 ---
-title: 使用 Config.xml 执行安装任务 Skype 中的商业客户端
+title: 在 Skype for Business 客户端中使用 Config.xml 执行安装任务
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 文件指定附加安装说明。
-ms.openlocfilehash: 285792dbc753d8c16e6d31f83782d53f85c895f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc7491899562e665af7d6f63470cf2fc2b904730
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895052"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290273"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 执行安装任务 Skype 中的商业客户端
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>在 Skype for Business 客户端中使用 Config.xml 执行安装任务
 
 **摘要：** 如何使用 Config.xml 文件指定附加安装说明。
 
@@ -35,13 +35,13 @@ ms.locfileid: "33895052"
 
 - 在安装中添加语言或从安装中删除语言。
 
-我们建议使用 Config.xml 文件配置 Skype 的业务无提示安装。 
+我们建议你使用 Config.xml 文件配置 Skype for Business 无提示安装。 
 
-默认情况下，存储在核心产品文件夹中的 Config.xml 文件 (例如，\_产品_。WW) 指示安装程序来安装该产品。 例如，以下文件夹中的 Config.xml 文件安装 for Business 的 Skype:
+默认情况下, 存储在核心产品文件夹中的 Config.xml 文件 (例如, "_产品_"。WW) 指导安装程序安装该产品。 例如, 以下文件夹中的 Config.xml 文件将安装 Skype for Business:
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-下表中列出的最常用的 Skype 业务安装的 Config.xml 元素。
+下表列出了用于 Skype for Business 安装最常用的 Config.xml 元素。
 
 **Config.xml 元素**
 
@@ -49,13 +49,13 @@ ms.locfileid: "33895052"
 | **元素**              | **说明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 配置  <br/>     | 顶级元素（必需）。包含 Product 属性，例如：Product=Lync（这适用于 Skype for Business 客户端）  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性来防止安装 Business Connectivity Services，其中包括 Outlook 会干扰的共享的组件： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Display  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice ="Yes"                                                                                                                                                                                |
-| 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  类型 ="Off"                                                                                                                                                                                       |
-| 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id =" *name*"（Windows Installer 属性的名称）  <br/>  值 ="*值*"（要分配给属性的值）  <br/>                                                             |
-| DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  位置 ="*路径*"  <br/>                                                                                                                                     |
+| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性来阻止企业连接服务的安装, 其中包括干扰 Outlook 的共享组件: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| Display  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice = "Yes"                                                                                                                                                                                |
+| 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  键入 = "Off"                                                                                                                                                                                       |
+| 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  设置 Id = " *name*" (Windows Installer 属性的名称)  <br/>  Value = " *value*" (要分配给属性的值)  <br/>                                                             |
+| DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  Location = " *path*"  <br/>                                                                                                                                     |
 
-下面的示例演示业务客户端 Skype 的典型无提示安装的 Config.xml 文件。 
+以下示例显示了用于典型的 Skype for Business 客户端静默安装的 Config.xml 文件。 
 
 ```
 <Configuration Product="Lync"> 
@@ -67,7 +67,7 @@ ms.locfileid: "33895052"
 </Configuration>
 ```
 
-有关使用 Config.xml 文件执行 Office 安装和维护任务的详细的信息，请在[https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)。
+有关使用 Config.xml 文件执行 Office 安装和维护任务的详细信息, 请访问[https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)。
 
 ## <a name="to-customize-the-configxml-file"></a>自定义 Config.xml 文件
 
@@ -75,7 +75,7 @@ ms.locfileid: "33895052"
 
 2. 找到包含您要更改元素的行。
 
-3. 使用您需要的静默选项修改元素项。 请确保您删除注释分隔符，"\<！-"和"-\>"。 例如，使用以下语法：
+3. 使用您需要的静默选项修改元素项。 请确保删除批注分隔符 "\<!--" 和 "--\>"。 例如，使用以下语法：
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

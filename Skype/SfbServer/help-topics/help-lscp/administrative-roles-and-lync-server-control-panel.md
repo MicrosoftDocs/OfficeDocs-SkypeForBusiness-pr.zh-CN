@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HomeRole
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
-description: 为了使您能够保持高标准安全性的同时委派管理任务，Skype 业务服务器支持基于角色的访问控制 (RBAC)。 使用 RBAC，可通过将用户分配给预定义的管理角色来授予管理权限。 Skype 业务服务器包括一组丰富的内置管理角色，并还允许您创建新的角色和指定自定义的每个新角色的 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。 有关详细信息，包括 Skype 中提供的预定义管理角色的企业服务器，请参阅 Role-based Access Control。
-ms.openlocfilehash: 6bdf3a7c7b7473aac9b532d046fea3913cb35c11
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 为了使你能够在维护高安全性的高标准的同时委派管理任务, Skype for business 服务器支持基于角色的访问控制 (RBAC)。 使用 RBAC，可通过将用户分配给预定义的管理角色来授予管理权限。 Skype for Business 服务器包含一组丰富的内置管理角色, 还使你可以为每个新角色创建新角色并指定自定义 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。 有关详细信息 (包括 Skype for Business Server 中可用的预定义管理角色), 请参阅基于角色的访问控制。
+ms.openlocfilehash: 2a983e3ae5dea5e6116ac6a6e9957e22c135765b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887165"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299881"
 ---
 # <a name="administrative-roles-and-lync-server-control-panel"></a>管理角色和 Lync Server 控制面板
 
-为了使您能够保持高标准安全性的同时委派管理任务，Skype 业务服务器支持基于角色的访问控制 (RBAC)。 使用 RBAC，可通过将用户分配给预定义的管理角色来授予管理权限。 Skype 业务服务器包括一组丰富的内置管理角色，并还允许您创建新的角色和指定自定义的每个新角色的 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。 有关详细信息，包括 Skype 中提供的预定义管理角色的企业服务器，请参阅[Role-based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)。
+为了使你能够在维护高安全性的高标准的同时委派管理任务, Skype for business 服务器支持基于角色的访问控制 (RBAC)。 使用 RBAC，可通过将用户分配给预定义的管理角色来授予管理权限。 Skype for Business 服务器包含一组丰富的内置管理角色, 还使你可以为每个新角色创建新角色并指定自定义 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。 有关详细信息 (包括 Skype for Business Server 中可用的预定义管理角色), 请参阅[基于角色的访问控制](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)。
 
 

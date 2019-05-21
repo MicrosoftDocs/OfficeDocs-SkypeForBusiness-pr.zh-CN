@@ -1,5 +1,5 @@
 ---
-title: Office 365 企业版 E1、 E3 和 E4 计划
+title: Office 365 企业版、E1、E3 和 E4 计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239227"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290053"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
@@ -35,8 +35,8 @@ ms.locfileid: "32239227"
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
 |**音频会议** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**音频会议**加载项 <br/>一旦您购买许可证，Microsoft 将成为音频会议提供商。 |
-|**免费电话号码用于电话拨入式访问您的会议和从会议发起电话拨出的能力，即可将某人添加通过调用世界上的任何电话号码** <br/> |[通信点数](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**电话系统** <br/> |1。 **office 365 电话系统**加载项 <br/> 2. 通话套餐：从 Office 365 购买[通话套餐](/MicrosoftTeams/calling-plans-for-office-365)。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**您的会议的拨入访问的免费号码, 以及从会议拨出以通过拨打世界各地的任何电话号码来添加某人的功能** <br/> |[通信点数](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**电话系统** <br/> |1. **Office 365 Phone 系统**加载项 <br/> 2. 通话套餐：从 Office 365 购买[通话套餐](/MicrosoftTeams/calling-plans-for-office-365)。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
 |**云语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
 |**通话套餐** <br/> |1. **电话系统**加载项 <br/> 2. [通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您只能在购买**电话系统**加载项后购买。 <br/> |
    
@@ -48,9 +48,9 @@ ms.locfileid: "32239227"
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
-   ![若要购买附加许可证，选择购买加载项。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![要购买附加设备许可证, 请选择 "购买加载项"。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. 购买**电话系统**许可证后，您将看到的价格和选择购买调用规划。
+3. 购买**电话系统**许可证后, 你将看到购买呼叫计划的价格和选项。
 
 ### <a name="partners-how-to-see-prices-and-buy"></a>合作伙伴：如何查看价格并购买
 <a name="bkmk_partners"> </a>
@@ -61,14 +61,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 2. Sign in to the Office 365 admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
 
-    现在您将看到价格和购买的**电话系统**和**音频会议**的加载项选项。
+    现在, 你将看到购买**电话系统**和**音频会议**加载项的价格和选项。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>为什么我没有看到用于购买附加许可证的选项？
 <a name="bkmk_how"> </a>
 
 少数情况下，在 Skype for Business中看不到用于购买 Office 365 管理中心 附加许可证的选项。
 
-- **你已通过 GoDaddy 购买了 Office 365 商业高级版** 。 在这种情况下，你无法购买 Skype for Business 附加许可证。 您需要切换到 E3 计划 （其不出售 GoDaddy），然后购买。 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **你已通过 GoDaddy 购买了 Office 365 商业高级版** 。 在这种情况下，你无法购买 Skype for Business 附加许可证。 您需要切换到 E3 计划 (GoDaddy 不销售的计划), 然后您可以购买它们。 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

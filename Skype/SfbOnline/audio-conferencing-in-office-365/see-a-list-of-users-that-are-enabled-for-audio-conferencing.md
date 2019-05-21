@@ -1,5 +1,5 @@
 ---
-title: 启用了音频会议中 Skype 业务 online 的用户列表，请参阅
+title: 在 Skype for Business Online 中查看已启用音频会议的用户的列表
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Skype for Business 业务管理中心查看组织中启用了拨入音频会议 的用户列表。 '
-ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb3a5ca8e21969ea5c09a5ac5c282dc4b816eff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229258"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298928"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>启用了音频会议中 Skype 业务 online 的用户列表，请参阅
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中查看已启用音频会议的用户的列表
 
 > [!NOTE]
 > 有关在 Microsoft Team 中启用的用户的信息，请参阅查看 Microsoft Teams 中启用了音频会议的用户列表。[ ](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
@@ -44,11 +44,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 当您查看已启用的用户列表时，可以从列表中选择用户和使用操作窗格编辑该用户的音频会议设置。
+- 当你查看已启用用户的列表时, 你可以从列表中选择用户并使用操作窗格编辑该用户的音频会议设置。
     
-- 选择单个用户的配置为使用 Microsoft 为音频会议提供商时，您可以查看的默认电话号码和您的组织是否启用动态会议 Id，您可以重置会议的会议 ID 的用户组织。
+- 当你选择配置为使用 Microsoft 作为音频会议提供商的单个用户时, 你可以查看默认电话号码以及你的组织是否已启用动态会议 Id, 你可以重置会议的会议 ID用户进行组织。
     
-- 如果您选择配置为使用第三方音频会议提供商的单个用户，您可以查看音频会议提供商、 收费电话号码和免费电话号码的名称 （如果他们设置）。
+- 当你选择配置为使用第三方音频会议提供商的单个用户时, 你可以查看音频会议提供商的名称、收费电话号码和免费电话号码 (如果已设置)。
     
 - 可以使用筛选选项来显示具有以下设置的用户：
     
@@ -66,9 +66,9 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - 为这些用户选择其他默认号码。
     
-  - 关闭通过更改为**无**的提供程序的用户的音频会议。
+  - 通过将提供程序更改为 "**无**" 来关闭用户的音频会议。
     
-  - 切换到 Microsoft 为音频会议提供商已分配的用户的**音频会议**许可证。
+  - 如果用户已分配**音频会议**许可证, 则切换到 Microsoft 作为音频会议提供商。
     
   - 允许/禁止匿名用户激活选定用户的电话会议。
     

@@ -1,25 +1,25 @@
 ---
-title: 会议详细信息报告中 Skype 业务服务器
+title: Skype for Business 服务器中的会议详细报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 摘要： 了解在 Skype 用于 Business Server 会议详细信息报告。
-ms.openlocfilehash: 46181c403a115367d7c2f8c030205ae2a9437c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中使用的会议详细信息报表。'
+ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926555"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305785"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告中 Skype 业务服务器
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Skype for Business 服务器中的会议详细报告
 
-**摘要：** 了解用于在 Skype 业务服务器的会议详细信息报告。
+**摘要:** 了解 Skype for Business 服务器中使用的会议详细信息报表。
 
 会议详细信息报告提供有关参与会议的所有用户的详细信息。例如，您可以查看用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的端点的用户代理等信息。还可以查看用户在每个会议中的角色的信息（例如，演示者或与会者）。可能最重要的是，您可以快速查看哪些用户成功加入和完成会议，哪些用户无法成功加入和完成会议。
 
@@ -33,7 +33,7 @@ ms.locfileid: "33926555"
 
 - [User Activity Report](call-diagnostic-reports-per-user.md)（通过单击“会议 URI”指标）
 
-从会议详细信息报告可以通过单击诊断报告 （详细信息） 指标来访问[诊断报告](diagnostic-report.md)。
+通过单击诊断报告 (详细信息) 指标, 可从 "会议详细信息报告" 访问[诊断 Repor](diagnostic-report.md) 。
 
 ## <a name="filters"></a>筛选器
 
@@ -65,10 +65,10 @@ ms.locfileid: "33926555"
 |**连接** <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
 |**加入时间** <br/> |参与者加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
-|**用户代理** <br/> |参与者的终结点使用的软件的标识符。  <br/> |
+|**用户代理** <br/> |参与者终结点使用的软件的标识符。  <br/> |
 |**诊断报告** <br/> |提供诊断和故障排除信息。包括 SIP 响应代码、诊断标题、会议加入时间和失败会话的诊断 ID。  <br/> |
 
-下表列出了会议详细信息报告的会议形式部分中提供的信息。
+下表列出了会议详细信息报表的 "会议形式" 部分中提供的信息。
 
 **会议形式指标**
 
