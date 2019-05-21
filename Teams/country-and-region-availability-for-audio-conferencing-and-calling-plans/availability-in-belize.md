@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于伯利兹业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 39ca7f425df21a3a26a42ab7b9d613f5654d0b7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是 Skype for business 的 Office 365 服务和适用于伯利兹的 Microsoft 团队。
+ms.openlocfilehash: d05252b03830d858c8ee42a0716c98e1dff78fc2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232828"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283255"
 ---
 # <a name="availability-in-belize"></a>在伯利兹的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于伯利兹业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是 Skype for business 的 Office 365 服务和适用于伯利兹的 Microsoft 团队。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "32232828"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

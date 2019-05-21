@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddFrontEndAssociationsPage
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 现在可以通过将服务器角色与前端池相关联，启用对需要部署其他服务器的特定功能的支持。还可以选择以后将服务器角色与前端池相关联。可与前端池关联的服务器角色包括：
-ms.openlocfilehash: e57d57d4412d3f1d7ed6d88843c7c470bd2847a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f844ccfcc618e57e61648aca5b3d5354e846cf41
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886225"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277963"
 ---
 # <a name="add-front-end-associations"></a>添加前端关联
 

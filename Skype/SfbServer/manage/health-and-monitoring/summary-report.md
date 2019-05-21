@@ -1,25 +1,25 @@
 ---
-title: 为业务 Server Skype 中呼叫诊断摘要报告
+title: Skype for Business 服务器中的呼叫诊断摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 摘要： 了解有关呼叫诊断摘要报告中 Skype 用于业务服务器的信息。
-ms.openlocfilehash: 7c204649a5819b4f119c975e71c6ac52e487b933
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。'
+ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915295"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279738"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>为业务 Server Skype 中呼叫诊断摘要报告
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Skype for Business 服务器中的呼叫诊断摘要报告
  
-**摘要：** 了解有关呼叫诊断摘要报告中 Skype 用于业务服务器的信息。
+**摘要:** 了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。
   
 呼叫诊断摘要报告提供失败的对等会话和会议会话的整体情况。该报告显示了两种类型的会话的整体故障率，并按以下会话形式类型进一步为故障信息分类：
   
@@ -35,7 +35,7 @@ ms.locfileid: "33915295"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 从呼叫诊断摘要报告您可以通过在报告的对等会话摘要部分的下单击失败率指标来访问[Skype 业务服务器中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)。 您还可以通过单击任意以下会议指标来访问[会议诊断报告中的业务服务器 Skype](conference-diagnostic-report.md) :
+呼叫诊断摘要报告是从监控报告主页访问的。 从 "呼叫诊断摘要" 报告中, 您可以通过单击报告的对等会话摘要部分中的 "失败率" 指标来访问[Skype For Business 服务器中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)。 您也可以通过单击以下任一会议指标,[在 Skype For Business 服务器中访问会议诊断报告](conference-diagnostic-report.md):
   
 - 总体会话故障率
     
@@ -45,7 +45,7 @@ ms.locfileid: "33915295"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>充分利用呼叫诊断摘要报告
 
-呼叫诊断摘要报告包括比较 Skype 中用于业务服务器的各种形式的失败率的图表。 这些关系图中的列是实际热点链接;例如，如果您单击即时消息列的对等会话时，您将向下钻取实例[中的业务服务器 Skype 的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)提供有关所有的其他详细信息报表即时消息会话的呼叫诊断摘要报告中包含。
+"呼叫诊断" 摘要报告包含的图表用于比较 Skype for Business 服务器中使用的各种形式的故障率。 这些图表中的列实际上是 hotlinks;例如, 如果单击对等会话的 "即时消息" 列, 您将向下钻取到[Skype For Business Server 中对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)的实例, 该报告提供有关所有"呼叫诊断" 摘要报告中包含的即时消息会话。
   
 ## <a name="filters"></a>筛选器
 
@@ -66,7 +66,7 @@ ms.locfileid: "33915295"
 
 下表列出了对等会话（即，只涉及两个参与者的会话）的呼叫诊断摘要报告中提供的信息。
   
-**对等会话的指标**
+**对等会话的度量值**
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|

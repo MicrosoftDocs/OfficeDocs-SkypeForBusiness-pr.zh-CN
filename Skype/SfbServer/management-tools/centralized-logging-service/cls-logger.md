@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 摘要： 了解如何使用业务服务器 2015年中 Skype 集中日志记录服务 (CLS) 记录器。
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 2015 中使用集中式日志记录服务 (CLS) 记录器。'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915001"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274462"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的 CLS 日志记录程序
  
-**摘要：** 了解如何使用业务服务器 2015年中 Skype 集中日志记录服务 (CLS) 记录器。
+**摘要:** 了解如何在 Skype for Business Server 2015 中使用集中式日志记录服务 (CLS) 记录器。
   
 CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成的日志的工具。
   
@@ -37,7 +37,7 @@ CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成�
 
 使用以下命令检查日志记录状态：
   
-1. 在"启动/停止方案"选项卡中，选择的池和/或计算机拓扑树视图中的分组。
+1. 在 "开始/停止方案" 选项卡中, 选择拓扑结构树视图中的一组池和/或计算机。
     
 2. 单击“日志记录状态”按钮。
     
@@ -47,7 +47,7 @@ CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成�
 
 要启动现有方案：
   
-1. 在"启动/停止方案"选项卡中，从方案下拉菜单中选择现有方案。
+1. 在 "开始/停止方案" 选项卡上, 从方案下拉菜单中选择一个现有方案。
     
 2. 选择“拓扑”树视图中的一组池和/或计算机。
     
@@ -61,7 +61,7 @@ CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成�
 
 要停止现有方案：
   
-1. 在"启动/停止方案"选项卡中，从方案下拉菜单中选择现有方案。
+1. 在 "开始/停止方案" 选项卡上, 从方案下拉菜单中选择一个现有方案。
     
 2. 选择“拓扑”树视图中的一组池和/或计算机。
     
@@ -73,7 +73,7 @@ CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成�
   
 ## <a name="search-for-logs"></a>搜索日志
 
-若要搜索日志，请选择"搜索 CLS 日志"选项卡并填写显示的字段，如下所述后单击"搜索日志"按钮：
+若要搜索日志, 请选择 "搜索 CLS 日志" 选项卡, 然后在填写显示的字段后单击 "搜索日志" 按钮, 如下所述:
   
 > **日志文件文件夹** 保存日志搜索结果的文件夹。（必填）
 > 
@@ -111,7 +111,7 @@ CLS 日志记录程序是一个可帮助您管理集中日志记录服务生成�
   
 ## <a name="create-a-scenario"></a>创建方案
 
-1. 在**编辑方案**选项卡中，单击**创建方案**按钮。
+1. 在 "**编辑方案**" 选项卡中, 单击 "**创建方案**" 按钮。
     
     > [!NOTE]
     > 创建新方案将克隆当前所选方案的配置。如果在创建新方案前单击“清除设置”****，新方案启动时将不选中任何组件和标志。

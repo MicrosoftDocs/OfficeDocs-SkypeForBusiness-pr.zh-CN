@@ -8,93 +8,93 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: '如果您的组织中部署 for Business 的 Skype，您可以与联盟的域的一个或多个 Skype 业务联机客户。 '
-ms.openlocfilehash: d829b9688af315cb0d8dd0f143d651035a196417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '如果您在您的组织中部署 Skype for business, 则可以与一个或多个 Skype for business Online 客户的域联盟。 '
+ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903297"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280108"
 ---
-# <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>为业务服务器 Skype 中配置业务联机客户的 Skype 联合身份验证的支持 
+# <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>为 Skype for business Server 中的 Skype for Business Online 客户配置联合身份验证支持 
 
-您可以 communications 服务向用户提供您的组织中任何通过以下方式：
+你可以通过以下任一方式向组织中的用户提供通信服务:
 
-  - 部署 Skype for Business Server 在您的组织 （称为*本地服务*） 和 Skype 设置为在组织中的业务用户帐户。
-  - 设置业务联机客户帐户与宿主提供商 Microsoft Skype 和设置用户帐户与宿主提供商 （称为*联机服务*）。
+  - 在你的组织中部署 Skype for Business 服务器 (称为*本地服务*), 并在你的组织中设置 skype for business 用户帐户。
+  - 使用托管提供商设置 Microsoft Skype for Business Online 客户帐户, 并使用托管提供商 (称为*联机服务*) 设置用户帐户。
 
-如果您的组织中部署 for Business 的 Skype，您可以与联盟的域的一个或多个 Skype 业务联机客户。 若要启用的业务部署您的本地 Skype 的用户和业务联机客户的 Skype 的用户之间建立联盟，必须配置支持的域和业务联机客户的 Skype 的用户。
+如果您在您的组织中部署 Skype for business, 则可以与一个或多个 Skype for business Online 客户的域联盟。 若要在本地 Skype for Business 部署的用户和 Skype for business Online 客户的用户之间启用联盟, 必须为 Skype for business Online 客户的域和用户配置支持。
 
 > [!NOTE]  
-> 本文档介绍用于配置您的组织支持的业务联机客户与 Skype 联合身份验证的过程。 本文档不介绍了配置以支持联盟的业务联机客户的 Skype 的过程。 
+> 本文档仅介绍配置组织以支持与 Skype for Business Online 客户联合的过程。 本文档不介绍配置 Skype for Business Online 客户以支持联盟的过程。 
 
-## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>与 Skype 的业务联机客户联盟的先决条件
+## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>与 Skype for Business Online 客户进行联盟的先决条件
 
-与 Skype 的业务联机客户联盟，您应已经完成了初始部署和配置的 Skype 业务 server 在组织中。 这包括以下内容：
+要与 Skype for business Online 客户联盟, 您应该已经完成了组织中 Skype for business 服务器的初始部署和配置。 这包括以下内容：
 
-  - 部署至少一台 Standard Edition 服务器或在组织中的一个 Enterprise Edition 前端池。 
-  - 为业务服务器启用 Skype 内部的用户帐户。 
-  - 部署至少一台边缘服务器和其他组件需要支持外部用户访问。 有关详细信息，请参阅[Managing 联盟和外部访问 Skype 业务服务器](../managing-federation-and-external-access.md)。
-  - 启用贵组织中的联合身份验证支持和配置用于控制联盟域访问相应的方法。 有关详细信息，请参阅[启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)和[管理 SIP 联盟提供程序为您的组织](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
-  - 允许您组织中的用户的外部用户访问。 有关详细信息，请参阅[分配到业务启用的用户的 Skype 外部用户访问策略](../external-access-policies/assign-an-external-user-access-policy.md)。
+  - 在您的组织中部署至少一个标准版服务器或一个企业版前端池。 
+  - 为 Skype for business 服务器启用内部用户帐户。 
+  - 至少部署一个 Edge 服务器和支持外部用户访问所需的其他组件。 有关详细信息, 请参阅[管理对 Skype for Business 服务器的联盟和外部访问](../managing-federation-and-external-access.md)。
+  - 在你的组织中启用联合身份验证支持并配置适当的方法来控制联盟域的访问。 有关详细信息, 请参阅为你的组织[启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)和[管理 SIP 联合提供商](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+  - 为你的组织中的用户启用外部用户访问。 有关详细信息, 请参阅[将外部用户访问策略分配给启用 Skype For business 的用户](../external-access-policies/assign-an-external-user-access-policy.md)。
 
 
 
-## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>配置对业务 Online 域 Skype 联合身份验证支持
+## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>为 Skype for Business Online 域配置联合身份验证支持
 
-与 Skype 的业务联机客户联盟需要完成以下步骤：
+与 Skype for Business Online 客户进行联盟需要你完成以下步骤:
 
-  - 配置对业务 Online 2010 客户 (例如，contoso.onmicrosoft.com) 的 Skype 的域的支持。 如指定[与 Skype 的业务联机客户联盟的先决条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)，您应已启用联合身份验证您的组织。 启用联盟，则需要指定用于控制访问权限的联盟域的方法。 如果您配置您的组织使用发现，将域添加到您的组织允许列表是可选的。 如果您未启用域发现，必须将业务联机客户的 Skype 的域名添加到允许的域列表。 使用适用于业务 Server Control Panel Skype 或通过运行**New-csalloweddomain** cmdlet，您可以添加域名称。 有关为业务 Server Control Panel，包括启用发现域，使用 Skype 的详细信息，请参阅[管理 SIP 联盟提供程序中的业务服务器 Skype 的组织](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。 有关使用**New-csalloweddomain** cmdlet 可添加域的详细信息，请参阅[New-csalloweddomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)。
-
-    > [!NOTE]  
-    > 为业务 Online 客户 Skype 可以有多个域。 如果您想要使用多个域的联盟，则必须配置为每个单独的域与您想要支持联盟和业务联机客户的 Skype 的管理员必须启用联合身份验证的域到每个支持联合。
-
-  - 配置对您想要联合的业务联机客户域 Skype 宿主提供商支持。 使用本节中的过程配置支持的宿主提供商。
+  - 为 Skype for Business Online 2010 客户的域配置支持 (例如, contoso.onmicrosoft.com)。 在[与 Skype For Business Online 客户进行联盟的先决条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)中指定, 你应该已为你的组织启用了联盟。 启用联盟需要指定用于控制联盟域的访问的方法。 如果将组织配置为使用发现, 则将域添加到组织的允许列表是可选的。 如果未启用域发现, 则必须将 Skype for business Online 客户的域名添加到 "允许的域" 列表。 你可以使用 Skype for Business Server 控制面板或通过运行**CSAllowedDomain** cmdlet 来添加域名。 有关使用 Skype for Business 服务器控制面板 (包括启用域发现) 的详细信息, 请参阅[在 Skype For Business 服务器中管理组织的 SIP 联合提供商](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。 有关使用**CSAllowedDomain** cmdlet 添加域的详细信息, 请参阅[CSAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)。
 
     > [!NOTE]  
-    > 与域联盟的 Skype 业务 Online 客户，不与本地部署的联盟的伙伴的位置的任何域联盟才需要此步骤。
+    > Skype for Business Online 客户可以有多个域。 如果要与多个域联盟, 则必须为要支持联盟的每个单独域配置支持, 并且 Skype for Business Online 客户必须为每个域启用联盟, 以便进行联盟。
+
+  - 配置对要与之进行联盟的 Skype for Business Online 客户域的托管提供商的支持。 使用此部分中的过程配置对托管提供程序的支持。
+
+    > [!NOTE]  
+    > 只有具有 Skype for Business Online 客户域的联盟才需要此步骤, 而不是针对在联盟伙伴位置上部署的任何域的联盟。
 
 
-### <a name="to-configure-support-for-a-hosting-provider"></a>若要配置宿主提供商支持
+### <a name="to-configure-support-for-a-hosting-provider"></a>为托管提供商配置支持
 
-1.  从前端服务器，为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**、 都单击**Skype 业务服务器**，，然后都单击**Skype 的业务 Server Management Shell**。
+1.  从前端服务器, 启动 Skype for business 服务器命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、"skype for business**服务器**", 然后单击 " **skype for business 服务器管理外壳程序**"。
 
-2.  运行**New-cshostingprovider** cmdlet 来创建和配置托管服务提供商。 例如，运行：
+2.  运行**CsHostingProvider** cmdlet 以创建和配置托管提供程序。 例如，运行：
     
         New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification -Enabled $True -EnabledSharedAddressSpace $False -HostsOCSUsers $False -IsLocal $False
     
     上述示例设置了以下参数：
     
-      - **标识**要创建的托管服务提供商指定唯一的字符串值标识符。 请注意，如果某个现有提供商已使用该 Identity 进行配置，该命令将失败。
+      - **标识**为你创建的托管提供程序指定唯一的字符串值标识符。 请注意，如果某个现有提供商已使用该 Identity 进行配置，该命令将失败。
     
       - **ProxyFQDN** 指定宿主提供程序所使用的代理服务器的完全限定域名 (FQDN)。 不能修改此值。 如果承载服务提供商更改了其代理服务器，则您必须删除该条目，然后为提供商重新创建相应条目。
     
-      - **VerificationLevel**指定如何 （或者是否） 验证从托管服务提供商发送的邮件以确保它们已从该提供商发送。
+      - **VerificationLevel**指定如何验证从托管提供程序发送的消息 (或 if) 以确保它们是从该提供商处发送的。
     
       - **Enabled ** 指示您的域与承载服务提供商之间的网络连接是否已启用。除非此值设置为 **True **，否则无法在这两个组织之间交换消息。
     
       - **EnabledSharedAddressSpace ** 指示是否在共享 SIP 地址空间（拆分域）方案中使用此承载服务提供商。
     
-      - **HostsOCSUsers**指示承载服务提供商是否用于承载 Skype Business Server 帐户。 如果设置为 **False **，则提供商承载其他帐户类型，例如 Microsoft Exchange 帐户。
+      - **HostsOCSUsers**指示托管提供商是否用于托管 Skype For business 服务器帐户。 如果设置为 **False **，则提供商承载其他帐户类型，例如 Microsoft Exchange 帐户。
     
-      - **IsLocal**指示承载服务提供商使用的代理服务器是否包含您 Skype 企业服务器拓扑中。
+      - **IsLocal**指示托管提供商使用的代理服务器是否包含在您的 Skype For business 服务器拓扑中。
     
-    有关使用此 cmdlet 的详细信息，请参阅[New-cshostingprovider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)。
+    有关使用此 cmdlet 的详细信息, 请参阅[CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)。
 
-## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>配置与业务联机客户的 Skype 联合身份验证的用户访问 
+## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>为使用 Skype for Business Online 客户的联盟配置用户访问权限 
 
-您必须配置用户允许的顺序为其组织中的所有用户帐户与联盟伙伴通信。 为所有的联盟伙伴，包括与您支持联合身份验证的业务联机客户域任何 Microsoft Skype 应用此配置。 有关为用户帐户配置联盟支持的详细信息，请参阅[配置策略以控制联盟用户访问](../external-access-policies/configure-policies-to-control-federated-user-access.md)和[分配到业务启用的用户的 Skype 外部用户访问策略](../external-access-policies/assign-an-external-user-access-policy.md)。
+您必须配置组织中所有用户的用户帐户, 以便允许他们与联盟伙伴通信。 此配置适用于所有联盟合作伙伴, 包括您支持联合的任何 Microsoft Skype for Business Online 客户域。 有关为用户帐户配置联合身份验证支持的详细信息, 请参阅[配置用于控制联盟用户访问的策略](../external-access-policies/configure-policies-to-control-federated-user-access.md)和[将外部用户访问策略分配给启用 Skype for business 的用户的外部用户访问策略](../external-access-policies/assign-an-external-user-access-policy.md)。
 
-## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>验证与 Skype 中的业务联机客户的 Skype 业务服务器的通信
+## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>在 Skype for business Server 中验证与 Skype for business Online 客户的通信
 
-Skype 启用您的组织中的业务用户来与业务联机客户的 Skype 的用户通信，您必须完成以下步骤：
+要使您的组织中的 Skype for Business 用户能够与 Skype for business Online 客户的用户进行通信, 您必须已完成以下步骤:
 
-  - 满足所有先决条件。 这包括内部部署和启用联盟的边缘服务器支持您的组织和设置用户帐户。 有关详细信息，请参阅[与 Skype 的业务联机客户联盟的先决条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)。
-  - 内部部署中配置的域访问支持。 这包括创建主机提供程序条目和配置部署以允许访问来自业务联机客户的域 Skype。 有关详细信息，请参阅[配置联盟支持的业务 Online 域 Skype](#configure-federation-support-for-a-skype-for-business-online-domain)。
-  - 配置用户帐户以支持联盟。 有关详细信息，请参阅[配置与业务联机客户的 Skype 的联盟用户访问](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)。
+  - 满足所有先决条件。 这包括部署内部和边缘服务器、为你的组织启用联合身份验证支持以及设置用户帐户。 有关详细信息, 请参阅[与 Skype For Business Online 客户进行联盟的先决条件](#prerequisites-for-federating-with-a-skype-for-business-online-customer)。
+  - 在内部部署中配置了域访问支持。 这包括创建主机提供程序条目和配置你的部署, 以允许从 Skype for Business Online 客户的域访问。 有关详细信息, 请参阅[配置 Skype For Business Online 域的联合身份验证支持](#configure-federation-support-for-a-skype-for-business-online-domain)。
+  - 已配置你的用户帐户以支持联合身份验证。 有关详细信息, 请参阅为[使用 Skype For Business Online 客户的联盟配置用户访问权限](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)。
 
-在完成所有这些步骤和 Skype 的管理员的业务联机客户完成其联机服务，以支持与您的组织的联合身份验证的所有配置后，通过测试之间的通信验证的通信在您的组织和业务联机客户的 Skype 的用户的内部用户。 如果通信不成功，日志记录工具用于从边缘服务器捕获日志和跟踪文件以便解决问题。 
+完成所有这些步骤后, Skype for Business Online 客户的管理员完成了其在线服务的所有配置, 以支持与组织的联盟, 请通过测试通信之间的通信来验证您的组织中的内部用户和 Skype for Business Online 客户的用户。 如果通信不成功, 请使用边缘服务器中的日志记录工具捕获日志和跟踪文件, 以便对问题进行故障排除。 

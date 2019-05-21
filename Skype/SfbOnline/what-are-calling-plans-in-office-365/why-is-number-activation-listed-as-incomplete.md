@@ -1,5 +1,5 @@
 ---
-title: 号码激活为什么列出为不完整？
+title: 为什么将数字激活列为未完成？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5648855dc13225dfcb525ddfc82b31a13e90c862
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290552"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>号码激活为什么列出为不完整？
+# <a name="why-is-number-activation-listed-as-incomplete"></a>为什么将数字激活列为未完成？
 
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某种原因的电话号码不激活，并且由于地址验证列出为**不完整**，您需要创建和提交服务请求。 你执行此操作的方式基于你的组织规模。
+地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某些原因而未激活电话号码, 并且由于地址验证而列为**未完成**, 则需要创建并提交服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在 **Office 365 管理中心**选择“**需要帮助?**”

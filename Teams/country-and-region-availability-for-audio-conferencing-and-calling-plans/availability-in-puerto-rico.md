@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于波多黎哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于波多黎各的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: f92c35fa19c2464704c3d2827485cde6145f3b26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232703"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287958"
 ---
 # <a name="availability-in-puerto-rico"></a>在波多黎各的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于波多黎哥业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于波多黎各的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -60,15 +60,15 @@ ms.locfileid: "32232703"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。 美国国内呼叫包括对所有 50 美国状态和波多黎各 （美） 的调用。 与许可证使用情况位置的美国和/或波多黎哥分配的用户共享分钟的同一个池。  <br/> |
-|可以发起出站呼叫到声讯电话号码？ <br/> | 不支持这一次。 <br/> |
+|通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。 美国国内电话包括拨打所有50美国和波多黎各的电话。 分配有美国和/或波多黎各许可证使用位置的用户共享相同的分钟池。  <br/> |
+|是否可以拨出电话拨出收费号码？ <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣胡安  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |San 圣胡安  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

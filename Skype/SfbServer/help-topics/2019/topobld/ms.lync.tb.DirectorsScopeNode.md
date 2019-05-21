@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorsScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: “控制器池”节点列出了拓扑中的控制器池。 可以执行以下操作：
-ms.openlocfilehash: 6a37534b2a05d91200e4ec0d0a7aefaceeeaf545
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: def27a8e60437c4949115f7d48dd5493d063fa58
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916019"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280506"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

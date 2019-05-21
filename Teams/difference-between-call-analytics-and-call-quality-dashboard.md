@@ -12,7 +12,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,89 +20,89 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 了解有关呼叫分析和呼叫质量仪表板以及何时使用它们来监视和解决呼叫质量问题。
-ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+description: 了解 "呼叫分析" 和 "呼叫质量" 仪表板以及何时使用它们监视和解决呼叫质量问题。
+ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082735"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281875"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
-Microsoft 团队和 for Business 的 Skype 提供两种方法可以监视和解决呼叫质量问题： 呼叫分析和呼叫质量仪表板 (CQD)。 本文介绍这两类，并告诉您何时使用每个。
+Microsoft 团队和 Skype for business 为你提供了两种监视和解决通话质量问题的方法: 调用分析和通话质量仪表板 (CQD)。 本文介绍这两种情况, 并告诉你何时使用每一个。
 
-呼叫分析和 CQD 并行运行和可在独立或一起使用。 例如，假设 communications 支持专家确定所需解决呼叫问题的更多帮助。 Communications 支持专家将传递对通信支持工程师，哪些人有权调用分析中的信息比通信支持专业人员的调用。 反过来，communications 支持工程师可以通知问题的网络工程师。 网络工程师可能会检查 CQD 以查看整个网站相关问题可能是参与呼叫问题的原因。
+调用分析和 CQD 并行运行, 并且可以独立使用, 也可以一起使用。 例如, 说通信支持专家确定他们需要更多帮助来解决呼叫问题。 通信支持专家将呼叫传递到通信支持工程师, 该工程师可以访问呼叫分析中的更多信息, 而不是通信支持专家。 反过来, 通信支持工程师可以向网络工程师发出警报, 以解决问题。 网络工程师可能会检查 CQD, 以了解整个网站相关问题是否可能是引起呼叫问题的问题。
 
-## <a name="whats-call-analytics-and-when-should-i-use-it"></a>什么是呼叫分析，我何时应使用它？
+## <a name="whats-call-analytics-and-when-should-i-use-it"></a>什么是呼叫分析, 何时应使用它？
 
-**呼叫分析现已推出[Microsoft 团队管理中心](https://admin.teams.microsoft.com)中。** 若要查看的所有呼叫信息和用户的数据，请使用**通话记录**选项卡。您可以通过仪表板用户可以搜索用户的配置文件页上查找或**用户**的左侧导航中查找用户执行此操作。
+**"呼叫分析" 现在可在[Microsoft 团队管理中心](https://admin.teams.microsoft.com)中使用。** 若要查看用户的所有呼叫信息和数据, 请使用 "**通话记录**" 选项卡。你可以通过在用户的配置文件页面上搜索用户, 方法是从仪表板中搜索用户或从左侧导航中的**用户**寻找用户来执行此操作。
 
-呼叫分析显示设备、 网络和与特定的呼叫和会议中每个用户的 Microsoft 团队或 Skype 业务帐户相关的连接的详细的信息。 此用户未为什么必须质量欠佳的呼叫下午的？ 使用呼叫分析，Office 365 管理员或培训帮助台代理可以调查设备、 网络、 连接和解决的 Microsoft 团队和 Skype for Business 中的呼叫质量和连接问题其呼叫相关的其他因素。
+"呼叫分析" 显示有关与 Microsoft 团队或 Skype for business 帐户中的每个用户的特定呼叫和会议相关的设备、网络和连接的详细信息。 为什么此用户的通话不太好？ 使用呼叫分析, Office 365 管理员或训练有素的帮助台工程师可以调查与他的通话相关的设备、网络、连接和其他因素, 以解决 Microsoft 团队和 Skype for business 中的呼叫质量和连接问题。
 
-若要查看此信息的用户的 Microsoft 团队管理中心中，单击**呼叫历史记录**选项卡中的用户详细信息页，显示该用户参与 30 天内的所有呼叫和会议的用户。
+若要在 Microsoft 团队管理中心中查看用户的此信息, 请单击用户详细信息页面中该用户的 "**通话记录**" 选项卡, 显示用户在过去30天内参与的所有呼叫和会议。
 
 ![调用分析用户数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
-要获取有关给定会话包括详细的媒体和网络统计信息的其他信息，请单击的会话，若要查看的详细信息。
+若要获取有关给定会话的其他信息 (包括详细媒体和网络统计信息), 请单击某个会话以查看详细信息。
 
-![调用分析用户会话数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![呼叫分析用户会话数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-如果您希望非管理员，例如从外部供应商，帮助台代理用于呼叫的分析，就可以分配权限，以便他们可以使用调用分析，但不是能访问的 Microsoft 团队管理中心的其余部分： 
+如果您希望非管理员 (例如来自外部供应商的支持人员) 使用呼叫分析, 您可以分配权限以便他们可以使用呼叫分析, 但不能访问 Microsoft 团队管理中心的其余部分: 
   
-- **通过通信帮助台代理支持专员权限**： 代理，请参阅一组有限的数据和呼叫分析中的个人身份信息 (PII)。 它们可以解决呼叫，但它们将交给会议问题的通信支持工程师。
+- **支持通信的帮助台代理专业权限**: 代理在 "调用分析" 中看到一组有限的数据和个人身份信息 (PII)。 他们可以对通话进行故障排除, 但他们会将会议问题移交给通信支持工程师。
     
-- **通过通信帮助台代理支持工程师权限**： 代理，请参阅呼叫分析中的所有可用数据和解决呼叫和会议。 拥有完全访问呼叫日志和客户信息。
+- **支持通信支持工程师权限的帮助台工程师**: 工程师查看呼叫分析中的所有可用数据, 并对通话和会议进行故障排除。 他们拥有通话记录和客户信息的完全访问权限。
 
 > [!NOTE]
-> Communications 支持专家角色等效从预览门户第 1 层支持角色和 communications 支持工程师角色等效从预览门户第 2 层支持角色。
+> 通信支持专家角色等效于预览门户中的第1层支持角色, 并且通信支持工程师角色等同于预览门户中的第2层支持角色。
 
-有关 communications 支持专家和通信支持工程师角色，请参阅[管理团队使用的 Microsoft 团队管理角色](using-admin-roles.md)。
+有关通信支持专家和通信支持工程师角色的详细信息, 请参阅[使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)。
 
 > [!IMPORTANT]
-> 帮助台代理权限和网络拓扑上载在管理中心中的 Microsoft 团队是可用。 Communications 支持专家和 Communications 支持工程师可以使用此门户访问呼叫分析和呼叫质量仪表板。
+> 帮助台代理权限和网络拓扑上载在 Microsoft 团队管理中心中可用。 通信支持专家和通信支持工程师可使用此门户访问呼叫分析和通话质量仪表板。
     
-有关设置呼叫分析的详细信息，请参阅[Set up 商业调用分析的 Skype](set-up-call-analytics.md)。 有关帮助台代理与呼叫分析的工作原理的详细信息，请参阅[使用呼叫分析解决质量欠佳的呼叫质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
+有关设置呼叫分析的详细信息, 请参阅[设置 Skype For Business 呼叫分析](set-up-call-analytics.md)。 有关帮助台代理如何与呼叫分析配合使用的详细信息, 请参阅[使用呼叫分析解决通话质量不佳问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
   
-## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>什么是呼叫质量仪表板中，以及何时使用它？
+## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>什么是通话质量仪表板, 何时应使用它？
   
-调用分析旨在帮助管理员，帮助台代理诊断与特定的呼叫的呼叫质量问题，而呼叫质量仪表板 (CQD) 旨在帮助团队 admins，对于业务管理员 Skype 和网络工程师优化网络。 CQD 从特定的用户将焦点移和改为查看聚合信息针对整个团队或 Skype 业务组织。 有关详细信息，请参阅[呼叫质量仪表板个团队和 Skype 业务 online 的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
+呼叫分析旨在帮助管理员和支持人员工程师解决特定通话的通话质量问题, 通话质量仪表板 (CQD) 旨在帮助团队管理员、Skype for Business 管理员和网络工程师优化网络。 CQD 将焦点从特定用户转移, 而是查看整个团队或 Skype for business 组织的聚合信息。 有关更多详细信息, 请参阅[适用于团队和 Skype for Business Online 的通话质量仪表板的功能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)。
   
-也许用户的质量欠佳的呼叫质量是由于还影响多个其他用户的网络问题。 单个呼叫体验不显示在 CQD，但捕获 for Business 中使用的 Microsoft 团队或 Skype 所做的呼叫的总体质量。 与 CQD，总体模式可能成为明显，允许网络工程师进行的呼叫质量的明智的评估。 CQD 提供报告为您提供深入的呼叫质量指标的总体呼叫质量、 服务器到客户端流、 客户端客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。
+用户的通话质量可能很差是由于网络问题也会影响其他许多用户。 个人通话体验在 CQD 中不可见, 但捕获使用 Microsoft 团队或 Skype for business 进行的整体通话质量。 有了 CQD, 整体模式可能会变得显而易见, 使网络工程师能够做出明智的通话质量评估。 CQD 提供了通话质量指标的报告, 可帮助你深入了解整个通话质量、服务器客户端流、客户端客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。
   
-![呼叫质量仪表板的屏幕截图。 显示的选项卡是整体呼叫的质量、-客户端，客户端-服务器客户端和语音质量 SLA。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![通话质量仪表板的屏幕截图。 显示的选项卡是整体通话质量、服务器客户端、客户端客户端和语音质量 SLA。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-借助 CQD 的 Location-Enhanced 报告，可以评估聚合呼叫质量和可靠性中用户的构建以确定问题是否被隔离到单个用户，或者影响的用户更大条线段。
+通过 CQD 的位置增强的报表, 可以评估用户建筑物内的聚合呼叫质量和可靠性, 以确定问题是独立于单个用户还是影响更大的用户段。
 
-![呼叫质量仪表板位置增强报告的屏幕截图。 显示的选项卡是概述，建筑物-有线，建筑物-WiFi 和 Mobile (LTE)。 正在应用筛选器以查看特定大厦内的流。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![通话质量仪表板的位置增强的报表的屏幕截图。 显示的选项卡概述、建筑物-有线、建筑物-WiFi 和手机 (LTE)。 应用筛选器以查看特定建筑物内的流。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> 若要启用 CQD 中构建或特定于终结点的视图，管理员必须在 CQD 的租户数据上载页上的[上载构建或终结点的信息](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)。 
+> 若要在 CQD 中启用生成或特定于终结点的视图, 管理员必须在 CQD 租户数据上载页面上[上载生成或终结点信息](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)。 
 
-如果您希望非管理员，帮助台代理，如用于呼叫质量仪表板中，您可以分配这些用户的**团队 Communications 支持工程师**、**团队 Communications 支持专员**或**报告读者**角色。 具有以下角色的用户可以访问呼叫质量仪表板：
+如果希望非管理员 (如帮助台代理) 使用呼叫质量仪表板, 则可以向这些用户分配**团队通信支持工程师**、**团队沟通支持专家**或**报表读者**角色。 具有以下角色的用户可以访问呼叫质量仪表板:
 
 - 全局管理员
-- 全局读者
-- Skype 的业务管理员
+- 全局阅读器
+- Skype for Business 管理员
 - Teams 服务管理员
 - Teams 通信管理员
 - Teams 通信支持工程师
-- 团队 Communications 支持专家
-- 报告读者
+- 团队沟通支持专家
+- 报表读者
 
 > [!NOTE]
-> 团队 Communications 支持工程师、 团队 Communications 支持专家，和报告读者角色不能修改 CQD 的租户数据上载页面上的文件也不激活 CQD 租户。
+> 团队通信支持工程师、团队通信支持专家和报表读者角色无法在 CQD 的租户数据上载页面上修改文件, 也无法为租户激活 CQD。
 
-有关这些角色的详细信息，请参阅[有关 Office 365 管理员角色](/office365/admin/add-users/about-admin-roles)。
+有关这些角色的详细信息, 请参阅[关于 Office 365 管理员角色](/office365/admin/add-users/about-admin-roles)。
 
-有关 CQD 的详细信息，请参阅[打开和使用的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)和[维度和度量值的 Microsoft 团队和 Skype 业务 online 呼叫质量仪表板中可用](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+有关 CQD 的详细信息, 请参阅[打开和使用 Microsoft 团队和 skype for Business online 的呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)和[Microsoft 团队和 Skype for Business Online 的通话质量仪表板中提供](dimensions-and-measures-available-in-call-quality-dashboard.md)的 skype For business online 和维度和度量。
   
 ## <a name="related-topics"></a>相关主题
 
-[视频： 呼叫质量概述](https://aka.ms/teams-quality)
+[视频: 通话质量概述](https://aka.ms/teams-quality)
 
 [设置通话分析](set-up-call-analytics.md)
 
 [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[打开和使用呼叫质量仪表板的 Microsoft 团队和 Skype 业务 online](turning-on-and-using-call-quality-dashboard.md)
+[打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)

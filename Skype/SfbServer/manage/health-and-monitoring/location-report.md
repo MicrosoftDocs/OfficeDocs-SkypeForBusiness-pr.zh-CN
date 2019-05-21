@@ -1,25 +1,25 @@
 ---
-title: 位置报告中 Skype 业务服务器
+title: Skype for Business 服务器中的位置报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-description: 摘要： 了解 Location Report 中 Skype 业务服务器。
-ms.openlocfilehash: f5ae0281913921d694d32532cd99d394fb49f5de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的位置报告。'
+ms.openlocfilehash: 3f753705d497d1b3e5d67f6f6d642ee27b8a862d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897358"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280080"
 ---
-# <a name="location-report-in-skype-for-business-server"></a>位置报告中 Skype 业务服务器
+# <a name="location-report-in-skype-for-business-server"></a>Skype for Business 服务器中的位置报告
  
-**摘要：** 了解业务服务器 Skype 中的位置报告。
+**摘要:** 了解 Skype for Business 服务器中的位置报告。
   
 位置报告提供按网络位置（即，按网络子网）分组的呼叫质量指标信息。如果您的用户在呼叫时遇到问题，此报告可帮助您确定这些问题是普遍存在还是主要限制在特定网段。
   
@@ -61,7 +61,7 @@ ms.locfileid: "33897358"
 |**呼叫量** <br/> |是  <br/> |发起的呼叫总数。  <br/> |
 |**质量欠佳的呼叫百分比** <br/> |是  <br/> |归类为质量欠佳呼叫的呼叫的百分比。质量欠佳的呼叫是指至少一项测量指标超过允许值的任何呼叫（例如，信号极不稳定的呼叫）。  <br/> |
 |**来回行程（毫秒）** <br/> |是  <br/> |实时传输协议 (RTP) 数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 100 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
-|**性能降低 (MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在业务服务器 Skype，一算法预测如何将具有用户分级呼叫。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低 (MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Skype for Business 服务器中, 一组算法预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**数据包丢失** <br/> |是  <br/> |平均 RTP 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时将发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**抖动** <br/> |是  <br/> |在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**修复程序隐藏比率** <br/> |是  <br/> |隐藏的音频样本与样本总数的平均比率。（隐藏的音频样本是一项技术，用于消除通常由丢弃的网络数据包造成的意外转换。）高值指示数据包丢失或抖动造成的显著的丢失隐藏级别，从而导致音频失真或丢失。  <br/> |

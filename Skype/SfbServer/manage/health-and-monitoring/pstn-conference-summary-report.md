@@ -1,27 +1,27 @@
 ---
-title: PSTN 会议摘要报告中 Skype 业务服务器
+title: Skype for Business 服务器中的 PSTN 会议摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 摘要： 了解 PSTN 会议摘要报告中 Skype 业务服务器。
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的 PSTN 会议摘要报告。'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279982"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 会议摘要报告中 Skype 业务服务器
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Skype for Business 服务器中的 PSTN 会议摘要报告
  
-**摘要：** 了解 PSTN 会议摘要报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的 PSTN 会议摘要报告。
   
-Skype 业务服务器，在 PSTN 会议是在其中至少一个参与者拨入的音频部分使用 PSTN （公用电话交换网） 电话的任何会议。 (PSTN 电话是"固定电话"，移动电话或其他任何不进行的语音使用 ip 电话。)尽管称为 PSTN 会议监控报告，这些会议也许更通常称为电话拨入式会议。
+在 Skype for Business 服务器中, PSTN 会议是指至少有一位参与者通过使用 PSTN (公共交换电话网络) 电话拨入音频部分的任何会议。 (PSTN 电话是一种 "座机"、一种手机或任何其他未使用通过 IP 语音的电话。)尽管在监视报告中称为 PSTN 会议, 但这些会议可能更常见, 也称为拨入式会议。
   
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
   
@@ -31,9 +31,9 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包括电话拨入式用户的所有会议的百分比，比较[中的业务服务器 Skype Conference Summary Report](conference-summary-report.md)上找到的会议总数指标与总 PSTN 会议指标总计的值。
+若要确定包括拨入用户的所有会议的百分比, 请将 PSTN 会议总指标的值与[Skype For Business Server 中 "会议摘要" 报表](conference-summary-report.md)上的 "总会议总数" 进行比较。
   
-如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 您可以快速验证的会议策略 （如果有） 使用户可以通过为业务 Server Management Shell 中运行以下命令从 Skype 中的安排 PSTN 会议：
+如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 你可以通过从 Skype for Business Server Management Shell 中运行以下命令, 快速验证你的会议策略 (如果有) 允许用户安排 PSTN 会议:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

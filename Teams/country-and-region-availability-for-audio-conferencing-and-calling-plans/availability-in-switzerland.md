@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,29 +24,29 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 瑞士可用的项目。
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于瑞士的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221952"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282775"
 ---
 # <a name="availability-in-switzerland"></a>在瑞士的可用性
 
 > [!NOTE]
-> 您可以获取**服务**号码中瑞士用于与会议自动助理和电话队列，但您无法在瑞士中获取**用户**号码，如调用计划不可用。
+> 您可以在瑞士获取与会议、自动助理和通话队列配合使用的**服务**号码, 但不能在瑞士中获取**用户**号码, 因为通话计划不可用。
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 瑞士可用的项目。
+以下是适用于瑞士的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> Zurich</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于: <br/><ul><li> Zurich</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统

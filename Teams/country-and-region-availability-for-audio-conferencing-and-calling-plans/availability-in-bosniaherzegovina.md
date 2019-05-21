@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: f11b9f4b3cc34dd1523472f2781fde5fd78c5de2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 下面是用于波斯尼亚和黑塞哥维那的适用于 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: c7326f72212965a5ebd628b3678c6d109969c4d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919813"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283223"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>在波斯尼亚 &amp; 黑塞哥维那的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于波斯尼亚和黑塞哥维那业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+下面是用于波斯尼亚和黑塞哥维那的适用于 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "33919813"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

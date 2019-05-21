@@ -1,5 +1,5 @@
 ---
-title: 管理中的 Microsoft 团队的专用工作组的发现
+title: 在 Microsoft Teams 中管理对私人团队的发现
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -8,7 +8,7 @@ ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,76 +16,76 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何控制是否可以发现的 Microsoft 团队用户通过团队库和搜索结果中的建议的专用工作组。
-ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
-ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
+description: 了解如何通过团队库和搜索结果控制 Microsoft 团队用户是否可以通过建议发现专用团队。
+ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33497950"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304399"
 ---
-# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>管理中的 Microsoft 团队的专用工作组的发现
+# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft Teams 中管理对私人团队的发现
 
 > [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
-管理员和团队所有者可以控制是否可以发现您的组织中的 Microsoft 团队用户的专用工作组。 可供搜索的专用工作组后，它显示在搜索结果中，并包含在公共 リ モ ・ 团队旁的工作组库中的建议。 这样，用户可以方便地搜索和查找要加入的 private 团队。 用户可以请求加入该团队所有者可以然后批准或拒绝的专用工作组。
+管理员和团队所有者可以控制你的组织中的 Microsoft 团队用户是否可以发现专用团队。 当私人团队可发现时, 它将显示在搜索结果中, 并包含在团队的团队库和团队中的公共团队的建议中。 这使用户可以轻松地搜索和查找他们想要加入的专用团队。 用户可以请求加入团队所有者可以批准或拒绝的专用团队。
 
-## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>公共团队、 专用团队和团队中的发现的概述
+## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>团队中的公共团队、私人团队和发现概述
 
-大多数组织都有以下几种团队-公共团队、 可供搜索专用团队和非可供搜索的专用工作组。
+大多数组织都有以下类型的团队-公共团队、可发现的专用团队和不可发现的专用团队。
 
 ![团队库](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>公共团队
 
-公共团队是可用于加入您的组织中的所有用户。 公共团队团队库中的所有人都可见，用户可以加入而无需获得团队所有者批准的公共团队。 公共团队的例子包括团队讨论技术、 团队以获取您的产品，试用反馈和人员拼车工作团队的新闻。
+公共团队可供组织中的所有用户加入。 公共团队对于团队库中的每个人都是可见的, 用户可以加入公共团队, 而无需从团队所有者获得批准。 公共团队的示例包括团队在技术中讨论新闻、团队可为你的产品提供 dogfood 反馈, 以及供人员 carpooling 工作的团队。
 
-### <a name="discoverable-private-teams"></a>可供搜索的专用工作组
+### <a name="discoverable-private-teams"></a>可发现的专用团队
 
-可供搜索的专用工作组只能团队所有者将用户添加到其时联接。 当您进行专用团队可供搜索时，团队包含的建议的团队和团队库中的搜索结果列表中。 使用可供搜索的专用工作组的项目和组织中的所有人了解与其中访问对话，团队中的文件需要对其进行控制的组。 示例管理器和其直接下属包括贵公司人力资源部门团队、 团队的所有在您的组织，经理和团队。
+只有当团队所有者将用户添加到可发现专用团队时, 才能将其加入。 当您使私人团队可发现时, 团队将包含在团队库中的建议团队和搜索结果列表中。 对你的组织中的项目和组使用可发现的专用团队, 每个人都知道, 并且需要对团队中的对话和文件的访问权限进行控制。 示例包括人力资源部门的团队、组织中所有经理的团队以及经理及其直接下属的团队。
 
-### <a name="non-discoverable-private-teams"></a>非可供搜索的专用工作组
+### <a name="non-discoverable-private-teams"></a>不可发现的私人团队
 
-非可供搜索的专用工作组只能团队所有者将用户添加到其时联接。 时使专用团队不可被发现，它有隐藏建议团队列表中，从工作组库中的搜索结果中删除。 使用非可供搜索团队协作敏感和高度机密主题。 示例包括工作组讨论即将开始的获取和团队讨论在贵组织的战略方向更改。
+不可发现的专用团队只能在团队所有者向他们添加用户时加入。 当您将某个私人团队设置为 "未发现" 时, 它将隐藏在建议的团队列表中, 并从团队库中的搜索结果中删除。 使用不可发现的团队协作处理敏感和高度机密的主题。 示例包括一个团队, 讨论即将进行的收购和团队讨论组织的战略方向的变化。
 
-## <a name="set-whether-new-private-teams-are-discoverable"></a>设置新的专用工作组是否可供搜索
+## <a name="set-whether-new-private-teams-are-discoverable"></a>设置新的专用团队是否可发现
 
-当团队所有者创建专用团队时，他们可以选择以使其通过配置团队的发现设置发现。 默认情况下，新的专用团队可搜索和可供搜索。 如果团队所有者不希望显示在搜索结果和建议的专用团队，他们可以通过选择**更改设置**旁边**此团队是可搜索和发现**关闭设置。
+当团队所有者创建专用团队时, 他们可以通过配置团队的发现设置来选择使其可发现。 默认情况下, 新的专用团队是可搜索和可发现的。 如果团队所有者不希望私人团队显示在搜索结果和建议中, 可以通过选择**此团队**旁边的 "**更改" 设置**来关闭设置。
 
-![发现新的专用工作组设置](media/private-team-discovery-new-team.png)
+![新的专用团队的发现设置](media/private-team-discovery-new-team.png)
 
-## <a name="set-whether-existing-private-teams-are-discoverable"></a>设置现有专用团队是否可供搜索
+## <a name="set-whether-existing-private-teams-are-discoverable"></a>设置现有专用团队是否可发现
 
-团队所有者可以直接在团队设置中设置现有的专用工作组的发现设置，管理员可以使用 PowerShell 执行操作。
+团队所有者可以直接在团队设置中设置现有专用团队的发现设置, 并且管理员可以通过使用 PowerShell 来执行此操作。
 
-### <a name="in-team-settings"></a>在工作组设置。
+### <a name="in-team-settings"></a>在团队设置中
 
-在工作组中，转到专用工作组中，单击**多个选项 ˙˙˙** > **管理团队**。 在**设置**选项卡中，展开**团队发现**，然后清除或选中**开启可发现性**复选框。
+在团队中, 转到专用团队, 单击 "**更多选项" ̇̇̇** > "**管理团队**"。 在 "**设置**" 选项卡上, 展开 "**团队发现**", 然后清除或选中 "**打开发现**" 复选框。
 
-![现有的专用工作组的发现设置](media/private-team-discovery-existing-team.png)
+![现有专用团队的发现设置](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>使用 PowerShell （即将推出）
+### <a name="using-powershell-coming-soon"></a>使用 PowerShell (即将推出)
 
-使用**设置团队**cmdlet 可以关闭或打开现有的专用工作组的发现设置。 下面是如何使团队可检测到的一个示例：
+使用 "**设置团队**cmdlet" 关闭或打开现有专用团队的发现设置。 下面是如何让团队易于发现的示例:
 
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
-您可以在脚本中使用此 cmdlet 批量设置的现有专用团队发现设置。
+你可以在脚本中使用此 cmdlet 来批量设置现有专用团队的发现设置。
 
-## <a name="set-whether-users-can-discover-private-teams"></a>设置是否用户可以发现专用团队
+## <a name="set-whether-users-can-discover-private-teams"></a>设置用户是否可以发现专用团队
 
-作为一名管理员，您可以控制允许组织中的哪些用户可以发现搜索结果中的专用工作组和团队中的建议。 使用**新建 CsTeamsChannelsPolicy** cmdlet，创建策略，然后将策略分配给用户。
+作为管理员, 你还可以控制你的组织中的哪些用户可以在搜索结果和团队中的建议中发现专用团队。 使用**CsTeamsChannelsPolicy** cmdlet 创建策略, 然后将策略分配给用户。
  
-**AllowPrivateTeamDiscovery**参数设置为**true**以允许用户分配有该策略以查看可供搜索专用 リ モ ・ 搜索结果和建议。 **AllowPrivateTeamDiscovery**参数设置为**false**可删除所有可检测到的专用工作组搜索结果和建议的分配策略的用户。
+将**AllowPrivateTeamDiscovery**参数设置为**true** , 以允许分配了该策略的用户在搜索结果和建议中查看可发现的专用团队。 将**AllowPrivateTeamDiscovery**参数设置为**false**可从搜索结果中删除所有发现的专用团队, 并为分配了该策略的用户提出建议。
 
-默认情况下**AllowPrivateTeamDiscovery**是设置为**true**的组织中的所有用户。
+默认情况下, 对于组织中的所有用户, **AllowPrivateTeamDiscovery**设置为**true** 。
 
-本示例中，我们将创建名为防止用户发现所做可供搜索，任何专用团队的 VendorPolicy 的策略，然后我们将策略分配给名为 vendoruser1 的用户。 
+在此示例中, 我们创建一个名为 VendorPolicy 的策略, 该策略阻止用户发现任何已被发现的专用团队, 然后我们将该策略分配给名为 vendoruser1 的用户。 
    
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 
 > [!NOTE]
-> 不是可供搜索的专用工作组永远不会显示在搜索结果和建议，而不考虑的策略设置。 例如，如果要关闭的专用工作组的发现设置，用户将无法发现团队，即使**AllowPrivateTeamDiscovery**参数设置为**true**这些用户的策略设置。
+> 不能检测到的私有团队从不会显示在搜索结果和建议中, 而与策略设置无关。 例如, 如果你关闭了专用团队的发现设置, 则用户无法发现团队, 即使在这些用户的策略设置中**AllowPrivateTeamDiscovery**参数设置为 true 也是**如此**。
 
 ## <a name="related-topics"></a>相关主题
 - [Teams PowerShell 概览](teams-powershell-overview.md)

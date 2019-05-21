@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该控制器池的完全限定域名 (FQDN)、端口和关联的文件存储。可以执行以下操作：
-ms.openlocfilehash: 79b013c1d03c1168fabb46ce891b2bf791b98d91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99e543f33d6abefa9d491adbef71efddd16771ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915942"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280520"
 ---
 # <a name="director-scope-node"></a>控制器范围节点
  

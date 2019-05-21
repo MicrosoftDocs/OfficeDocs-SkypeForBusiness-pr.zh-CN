@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,63 +21,63 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 标准的音频会议的每用户许可证，除了使用 Microsoft 批量许可的组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
-ms.openlocfilehash: 6de73aea08602ae27e0b5964154e155d10454dc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 除了标准的音频会议每用户许可证之外, 使用 Microsoft 批量许可的组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。
+ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198726"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283529"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
-标准的音频会议的每用户许可证，除了卷和授权组织还可以选择付薪每分钟版，若要为其组织的音频会议功能。
+除了标准音频会议每用户许可证, 批量和授权组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。
   
 
-您可以了解如果您的[国家/地区支持](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)音频会议。
+您可以了解您的[国家/地区是否支持](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)音频会议。
 
   
 > [!NOTE]
-> 由于此服务仅适用于卷和授权的客户，您将需要使用您的帐户代表联系以获取许可证。 
+> 由于此优惠仅适用于批量和授权客户, 因此你需要与你的帐户代表一起获取许可证。 
   
-## <a name="need-some-details"></a>需要某些详细信息？
+## <a name="need-some-details"></a>需要一些详细信息？
 
-音频会议付薪每分钟**而音频会议的每个用户许可版包括电话拨入式用法和某些拨出式用法，允许您而无需为每个用户每月付费支付的所有音频会议使用基于每分钟许可证**。 与此，所有的电话拨入式和拨出式呼叫将收取每分钟为单位，包括：
+音频会议每用户许可证提供包括电话拨入式使用和某些拨出使用, 每分钟收费会议**允许您每分钟支付所有音频会议使用情况, 而无需按每个用户每月付款许可证**。 这样, 所有拨入和拨出通话将按分钟收费, 包括:
   
-- 免费电话音频会议号码贵组织的入站的呼叫。
+- 拨入到您的组织的收费音频会议号码。
     
-- 对您的组织的免费电话音频会议号码的入站的呼叫。
+- 拨入您的组织的免费音频会议号码。
     
-- 向外部电话号码从会议中的组织发出的出站呼叫。
+- 拨出电话来自组织会议内的外部电话号码。
     
 > [!NOTE]
-> 您可以找到关联到这些类型的呼叫通过查看**看到要呼叫部分率**式[音频会议](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)的电话拨入式和拨出式速率。
+> 通过查看[音频会议](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)中的 "**查看要呼叫的位置的费率" 部分**, 可以找到与这些通话类型相关联的拨入和拨出费率。
   
-付薪每分钟需要您的组织有[Communications 字幕式](what-are-communications-credits.md)启用与分配给音频会议，以使每个用户的许可证。 如果您希望更多详细信息，请参阅[Set up Communications 字幕式为您的组织](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+按分钟付费要求你的组织启用[通信信用点数](what-are-communications-credits.md), 并为每位用户分配许可证, 以便音频会议正常工作。 如果需要更多详细信息, 请参阅为你的组织和/或[Microsoft 团队附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。
   
-若要启用音频会议付薪每分钟您组织中的用户，请参阅[尝试或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要为组织中的用户启用音频会议每分钟支付, 请参阅[在 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
-## <a name="why-is-it-best-for-you"></a>为什么是最适合您？
+## <a name="why-is-it-best-for-you"></a>为什么最适合您？
 
-- 每分钟为单位的每个发出的每个与会者期间计划的会议 （收费电话或免费电话呼叫和目标，则会有所不同率） 而不是使用 Skype mobile 中的业务或团队应用程序的入站或出站呼叫将仅收取付薪每分钟设备或 PC。
+- 每分钟支付的每分钟费用仅针对每个与会者在计划会议期间发出的入站或出站通话收费, 而不是在手机上使用 Skype for business 或团队应用程序, 而收费设备或电脑。
 
-- 若要管理成本，因为管理员可以控制限制会议组织者的电话拨出 （国际和国内） 可以完成的任务类型的功能。 请参阅[出站呼叫的音频会议和用户 PSTN 呼叫的限制策略](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+- 管理成本的能力, 自管理员可以控制以限制可通过组织者的会议完成的拨出 (国际和国内) 的类型。 查看[用于音频会议和用户 PSTN 呼叫的出站呼叫限制策略](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
 
 - 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。
 
-- 控制和监视付薪每分钟费用使用 Communications 字幕式。
+- 使用通信信用点数控制和监控每分钟支付的费用。
 
-- 更灵活地定价客户不需要基于订阅的所有用户。 
+- 对于不需要所有用户订购的客户, 定价更具灵活性。 
 
-- 启用音频会议付薪每分钟以及 E5 或独立的音频会议订阅的按月订阅，这两个服务将继续工作方式相同。 更改将具有对 Communications 字幕式音频会议的操作没有影响。
+- 启用音频会议每分钟支付的每分钟付款或单独的音频会议套餐, 这两种服务将继续以同样的方式工作。 更改不会影响音频会议或通讯信用点数。
   
-## <a name="want-to-find-out-more-about-pricing"></a>要了解有关定价的详细信息？
+## <a name="want-to-find-out-more-about-pricing"></a>想要了解有关定价的详细信息？
 
- **正在搜索价格？** 请参阅[如何查看价格和购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列选项之一：
+ **正在搜索价格？** 了解[如何查看价格并购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列内容之一:
   
-- [为音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [定价电话系统](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [通话套餐的定价](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     

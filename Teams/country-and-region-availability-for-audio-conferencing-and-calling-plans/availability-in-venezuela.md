@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 委内瑞拉可用的项目。
-ms.openlocfilehash: ea1a5516cb021dbe01372b7cfe226d82227d307f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下是适用于委内瑞拉的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 9101605e1e5875d5765a04d85ccd3c7029b2b693
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543028"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286682"
 ---
 # <a name="availability-in-venezuela"></a>在委内瑞拉的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 委内瑞拉可用的项目。
+以下是适用于委内瑞拉的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "30543028"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,95 +18,95 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用业务设备使用情况报告的 Skype 查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 查看 Office 365 管理中心中的活动报告以了解详细信息。
-ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如, 你可以使用 "Skype for Business 设备使用情况" 报表查看设备 (包括基于 Windows 的操作系统和移动设备), 其中安装了 Skype for Business 应用并将其用于即时消息和会议。 签出 Office 365 管理中心中的活动报表以了解详细信息。
+ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241973"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280770"
 ---
 # <a name="device-usage-report"></a>设备使用报告
 
-全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype 业务设备使用情况**报告以查看设备，包括基于 Windows 的操作系统和具有业务应用程序 Skype 的移动设备安装并使用其为 IM 和会议。 
+全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如, 你可以使用 " **skype For business 设备使用情况**" 报表查看设备 (包括基于 Windows 的操作系统和移动设备), 其中安装了 Skype for business 应用并将其用于即时消息和会议。 
 
-签出[报告概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
+查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
-此报告中的，以及其他 Skype 业务报告为您提供了详细信息对您组织内使用的客户端/设备的类型。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
+此报告以及其他 Skype for Business 报告提供了有关在你的组织中使用的客户端/设备类型的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
 > [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
   
-## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>如何获取业务设备使用情况报告的 Skype
+## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>如何访问 Skype for Business 设备使用情况报告
 
 1. 转到**Office 365 管理中心** > **报告** > **使用率**。
     
-2. 在**使用率**页上，单击**业务设备使用 Skype**上**选择的报告列表**左侧的。 或者，单击**业务活动的 Skype**小部件，然后单击**业务活动的 Skype**列表上的**业务设备使用 Skype** 。
+2. 在 "**使用情况**" 页面上, 单击左侧的 "**选择报表" 列表**中的 " **Skype for business 设备使用情况**"。 或者, 单击 " **skype For business 活动**" 小组件, 然后单击 "skype for business**活动**" 列表上的 " **skype for business 设备使用情况**"。
     
-     ![Skype 的业务设备使用率报告小部件](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+     ![Skype for Business 设备使用情况报告小组件](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
     [!重要信息] 你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Office 365 订阅。
     
-## <a name="interpret-the-skype-for-business-device-usage-report"></a>解释业务设备使用情况报告的 Skype
+## <a name="interpret-the-skype-for-business-device-usage-report"></a>解释 Skype for Business 设备使用情况报告
 
-到当前使用 Skype 业务应用程序的**用户**和**通讯组**图表查看的设备，可以获取视图。
+通过查看 "**用户**" 和 "**分布**" 图表, 你可以查看使用 Skype for business 应用的设备。
   
 ![Skype for Business 设备使用率报告](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![第一](../images/sfbcallout1.png)<br/>**Skype 业务设备使用情况**报告可以在最近 7 天，30 天，90 天或 180 天内的趋势查看。 但是，如果您单击到报告中某一天，表 （请参阅 7 号） 将显示数据 30 天，最多为日期 （请参阅编号 2） 的报告生成的时间。
+![第一](../images/sfbcallout1.png)<br/>可以查看 " **Skype For business 设备使用情况**" 报表, 了解过去7天、30天、90天或180天的趋势。 但是, 如果你单击报表中的某一特定日, 则该表 (请参阅数字 7) 将在生成报表时显示30天 (请参阅数字 2) 的数据。
 
 > [!NOTE]
-> 如果您单击到特定日期的详细信息，表将仅显示报告生成的时间的日期最 30 天内的数据。
+> 如果单击某一特定日的详细信息, 则该表将仅显示生成报表的日期之前30天内的数据。
     
 ***
 ![第二](../images/sfbcallout2.png)<br/>
-每个报表包含此报表的生成日期。 报表通常反映活动的时间从 24 到 48 小时延迟。 
+每个报表包含此报表的生成日期。 报告通常反映来自活动时间的24至48小时延迟。 
 ***
-![第三](../images/sfbcallout3.png)<br/>**用户**图表上使用的交互式图表数据，了解使用率趋势，请参阅使用 Skype 业务应用程序连接的组织中使用的用户数。 它将显示您的总用户数和已安装的业务应用程序 Skype 的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**设备的类型，并且正在使用您的组织内。
+![第三](../images/sfbcallout3.png)<br/>使用 "**用户**" 图表上的交互式图表数据了解使用趋势, 并查看使用您的组织中使用的 Skype for business 应用所连接的用户数。 它将向你显示已安装 Skype for Business 应用并在你的组织中使用的**windows**、 **windows Phone**、 **Android 手机**、 **iPhone**和**iPad**设备的总数。
 ***
-![第四](../images/sfbcallout4.png)<br/>使用**通讯组**条形图上的交互式图表数据了解使用率以查看在组织中使用唯一的设备的用户数。 它将与正在使用设备显示您的**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**和**iPad**用户的总数。 
+![第四](../images/sfbcallout4.png)<br/>使用**分布**条形图上的交互式图表数据了解使用情况, 以查看在您的组织中使用独特设备的用户数。 它将向你显示使用了设备的**windows**、 **windows Phone**、 **Android 手机**、 **iPhone**和**iPad**用户总数。 
 ***
-![第五](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在**用户**图表中，单击或点击**Windows**、 **Windows Phone**、 **android 移动电话**、 **iPhone**、 或**iPad** ，以查看仅与每个相关的信息。 更改此选择不会更改网格表中的信息。 
+![第五](../images/sfbcallout5.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如, 在 "**用户**" 图表上, 单击或点击 " **windows**"、" **windows Phone**"、" **Android 手机**"、" **iPhone**" 或 " **iPad** ", 以仅查看与每个相关联的信息。 更改此选择不会更改网格表中的信息。 
 ***
 ![第六](../images/sfbcallout6.png)<br/>每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
-*    在**用户**图表中，Y 轴是与设备已安装的业务应用程序 Skype 连接的用户的总数。
-*    在**通讯组**活动图表中，Y 轴是设备的与特定类型的业务应用程序安装与 Skype 的连接的用户数。 
+*    在 "**用户**" 图表上, Y 轴表示已安装 Skype for business 应用的设备所连接的用户总数。
+*    在 "**分布**" 活动图表中, Y 轴表示与安装了 Skype for business 应用的特定类型的设备连接的用户数。 
 
 这两个图表的 X 轴都表示此特定报表的所选日期范围。
 ***
-![7 号](../images/sfbcallout7.png)<br/>该表格显示了按用户细分的所有会议活动。它将显示所有分配了 Skype for Business 的用户及其会议活动。你可以向该表格中添加其他列。
+![数字7](../images/sfbcallout7.png)<br/>该表格显示了按用户细分的所有会议活动。它将显示所有分配了 Skype for Business 的用户及其会议活动。你可以向该表格中添加其他列。
 *    " **用户名**"是用户的名称。 
 *    " **上次活动日期(UTC)**"是该用户最近参与对等会话、组织或参与会议的时间。
-*    如果用户为具有企业客户端应用程序安装基于 Windows 的操作系统上的 Skype 和正在使用它，则选中**Windows** 。 
-*    如果用户为具有企业客户端应用程序安装在 Windows Phone 设备上的 Skype 和正在使用它，则选中**Windows Phone** 。
-*    如果用户为具有企业客户端应用程序安装在 android 移动电话上的 Skype 和正在使用它，则选中**android 移动电话**。
-*    如果用户为具有企业客户端应用程序安装在 iPhone 上的 Skype 和正在使用它，则选中**iPhone** 。 
-*    如果用户是具有企业客户端应用程序安装在 iPad 上的 Skype 正在使用它， **iPad**处于选中状态。 
+*    如果用户在基于 Windows 的操作系统上安装了 Skype for business 客户端应用并使用该应用, 则选择 " **Windows** "。 
+*    如果用户在 Windows Phone 设备上安装了 Skype for business 客户端应用并使用该应用, 则选择 " **Windows phone** "。
+*    如果用户在 Android 手机上安装了 Skype for business 客户端应用并使用该应用, 则选择 " **Android 手机**"。
+*    如果用户已在 iPhone 上安装了 Skype for business 客户端应用程序并使用它, 则选择 " **iphone** "。 
+*    如果用户在 iPad 上安装了 Skype for business 客户端应用并使用它, 则选择 " **ipad** "。 
 
-如果贵组织的策略会阻止您查看报告可识别用户信息在哪里，您可以更改所有这些报告的隐私设置。 签出**如何隐藏用户级别的详细信息？** [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中的部分。 
+如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[Office 365 管理中心的活动报表中](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)的 "**如何隐藏用户级别的详细信息？** " 部分。 
 ***
-![8 号](../images/sfbcallout8.png)<br/>单击或点击中的任何列添加或从报表中删除列**列**图标。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![数字8](../images/sfbcallout8.png)<br/>单击或点击任何列中的 "**列**" 图标, 在报表中添加或删除列。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![数字 9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> ![用于业务报告的 Skype 导出按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。 
+![数字9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> !["Skype for business 报告导出" 按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。 
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>要查看其他 Skype 业务报告？
+## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
-- [Skype 的业务活动报告](activity-report.md)您可以看到多少您的用户将对等、 组织，和参加会议会话。
+- [Skype For business 活动报告](activity-report.md)你可以查看你的用户使用对等、组织和参与会议会话的数量。
     
-- [Skype 的业务会议组织者活动报告](conference-organizer-activity-report.md)您可以看到多少您的用户的组织使用 IM、 音频/视频、 应用程序共享、 Web、 电话拨入/出 — 第三方和电话拨入/出-Microsoft 的会议。
+- [Skype for business 会议组织者活动报告](conference-organizer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享、Web、拨入/拨出和拨入/拨出的方式组织会议的程度。
     
-- [Skype 的业务会议参与者活动报告](conference-participant-activity-report.md)您可以看到多少 IM、 音频/视频，应用程序共享、 Web 和电话拨入/出会议会议正在参与。
+- [Skype for business 会议参与者活动报告](conference-participant-activity-report.md)你可以查看参与的即时消息、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议会议的数量。
     
-- [Skype 的业务对等活动报告](peer-to-peer-activity-report.md)您可以看到多少用户使用 IM、 音频/视频、 应用程序共享和文件传输。
+- [Skype For business 对等活动报告](peer-to-peer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享和传输文件的数量。
     
-- [适用于业务用户的 Skype 阻止报告](users-blocked-report.md)您可以看到您的组织中被阻止发出 PSTN 呼叫的用户。
+- 已[阻止的 Skype for business 用户报告](users-blocked-report.md)你可以查看组织中已阻止进行 PSTN 呼叫的用户。
     
-- [Skype 的业务 PSTN 使用率报告](pstn-usage-report.md)您可以看到所用的入站/出站呼叫和成本这些呼叫分钟数。
+- [Skype for BUSINESS PSTN 使用报告](pstn-usage-report.md)您可以查看入站/出站通话所用的分钟数和这些通话的费用。
 
-- [Skype 业务 PSTN minute 池报表](pstn-minute-pools-report.md)，您可以看到在组织内当前月份消耗的分钟数。
+- [Skype For BUSINESS PSTN 分钟池报告](pstn-minute-pools-report.md)您可以查看在您的组织内的当前月份内消耗的分钟数。
 
-- [Skype 业务会话详细信息报表](session-details-report.md)您可以看到有关单个用户的呼叫体验的详细信息。
+- [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
     
 ## <a name="related-topics"></a>相关主题
 [Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

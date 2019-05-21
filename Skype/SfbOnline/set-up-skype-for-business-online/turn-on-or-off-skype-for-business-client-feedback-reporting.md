@@ -10,28 +10,28 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 您可以让您 Skype 业务用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。
-ms.openlocfilehash: f803c1fe88de564f8fb4870446ef6d1d1058a841
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 你可以使 Skype for Business 用户能够使用内置的 Skype for business 应用反馈工具, 让用户能够直接向 Microsoft 报告问题并向 Microsoft 提供反馈, 以了解他们的体验。
+ms.openlocfilehash: 052b7c3b801c05c361435392fa7086825faad755
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226668"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284911"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
-您可以让您 Skype 业务 Online 用户使用的业务应用程序的反馈工具内置 Skype 让用户报告问题并提供反馈直接向 Microsoft 有关其体验。 
+你可以启用 Skype for business Online 用户使用内置的 Skype for business 应用反馈工具, 让用户能够直接向 Microsoft 报告问题并向 Microsoft 提供反馈意见。 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-使用此工具，用户可以从应用程序在其设备，以帮助更好地调查和解决问题可能遇到的 Microsoft 上复制日志。 
+使用此工具, 用户可以从其设备上的应用复制日志, 以帮助 Microsoft 更好地调查和解决他们可能遇到的问题。 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -40,7 +40,7 @@ ms.locfileid: "32226668"
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> 将存储在应用程序的反馈工具收集日志的正在问题时在美国 90 天的最多调查。 因此，如果这违反你组织的数据保护政策，请勿启用此反馈工具。 
+> 在调查问题时, 应用的反馈工具收集的日志最多可存储在美国的90天。 因此，如果这违反你组织的数据保护政策，请勿启用此反馈工具。 
   
 ## <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -71,11 +71,11 @@ ms.locfileid: "32226668"
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>为你组织中的所有用户开启客户端应用反馈报告
 
-若要启用报告您组织中的用户的反馈，并允许其提交设备的屏幕截图，请运行：
+若要为组织中的用户启用反馈报告, 并允许他们提交设备屏幕截图, 请运行:
  
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true

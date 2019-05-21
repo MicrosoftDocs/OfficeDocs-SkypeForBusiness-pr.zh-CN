@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,24 +18,24 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: 了解如何启用移动电话通知打开或关闭，以便用户可接收到有关传入语音邮件、 通知和错过的即时消息。
-ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解如何打开或关闭移动电话通知, 以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
+ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226394"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285021"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
-作为**[分配管理角色的业务的 Office 365 中](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 为您的组织，您可以选择在其移动电话或平板电脑上时，您的业务用户的 Skype 是否接收有关传入和错过的即时消息的通知。
+作为你的组织的**[Office 365 for business 中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。
   
 在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知
 <a name="__top"> </a>
 
-![sfb-徽标-30x30.png](../images/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
 1. 登录到 Office 365。
     
@@ -54,7 +54,7 @@ ms.locfileid: "32226394"
 - 当关闭推送通知时，用户将无法再打开推送通知。
     
 > [!IMPORTANT]
->  [!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。 请参阅[Microsoft Skype 业务产品隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
+>  [!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。 请参阅[Microsoft Skype For Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
 ## <a name="related-topics"></a>相关主题
 

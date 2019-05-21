@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用或禁用从 Skype for Business Online 管理中心或使用 PowerShell 脚本参加会议的匿名呼叫者。 '
-ms.openlocfilehash: 3a18692dbb95e1edc2d8093bad68bc059ffbc7d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203839"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302767"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>通过电话在 Skype for Business Online 开始音频会议而无 PIN
 
 > [!Note]
 > 有关在 Microsoft Teams 无 PIN 启动音频会议的信息，请参阅[通过电话在 Microsoft Teams 中无 PIN 开始音频会议](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)。
 
-可能会干扰拨入会议以将其保留在收听音乐，因为业务会议组织者的 Skype 尚未启动会议的会议的会议厅中的用户。 
+由于 Skype for Business 会议组织者尚未启动会议, 因此, 拨入会议的用户可能会感到沮丧, 因为 Skype for Business 会议组织者尚未启动会议。 
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
@@ -43,11 +43,11 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **用户**。 
+1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **用户**"。 
     
-2. 在列表中，选择用户，然后在操作窗格中，单击**编辑**。 
+2. 在列表中, 选择用户, 然后在 "操作" 窗格中单击 "**编辑**"。 
     
-3. 在用户的属性页上，在**会议选项**中，选中或清除**允许未经身份验证的呼叫者在会议中的第一个人。如果不需要，然后他们将在会议厅中等待直至经过身份验证的用户加入**。
+3. 在用户的 "属性" 页的 "**会议选项**" 下, 选中或清除 "**允许未经身份验证的呼叫者成为会议中的第一人"。如果不是, 则它们将在大厅中等待, 直到经过身份验证的用户加入**。
     
 4. 单击“**保存**”。 
 
@@ -63,15 +63,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 如果您想要重置 PIN，请参阅[重置的音频会议 PIN](reset-the-audio-conferencing-pin.md)。
+- 如果要重置 PIN, 请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin.md)。
     
-- 如果启用了匿名访问，或不需要 PIN 才能启动会议时，:
+- 如果启用匿名访问或不需要 PIN 来启动会议, 则启用:
     
-  - 如果尚未启动会议 （没有一种-会议尚未）： 将提示呼叫者，如果他是组织者;如果他说是时，他将提示您为其 PIN，他输入 PIN 之后，会议的开始和用户将加入会议。
+  - 如果会议尚未启动 (会议中尚无人): 如果是组织者, 则会提示呼叫者;如果他显示 "是", 系统将提示他输入 PIN, 在用户输入 PIN 后, 会议将启动, 并且用户将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-- 如果禁用匿名访问，或不需要 PIN 才能开始会议，则：
+- 如果已禁用匿名访问或不需要 PIN 才能启动会议, 请执行以下操作:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     

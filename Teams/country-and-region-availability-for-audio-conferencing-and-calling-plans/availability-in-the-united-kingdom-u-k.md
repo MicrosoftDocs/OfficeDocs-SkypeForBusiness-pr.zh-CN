@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: cd423d4e96db8fa61c7913ba43c1b19b40f11eb3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下是适用于英国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 869c23879442480ac2db7bb6fd733b451c089281
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542940"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286750"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于英国业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于英国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为： <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于: <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -60,15 +60,15 @@ ms.locfileid: "30542940"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫规划： 1200 分钟国内国际呼叫 （无论到达第一个日历月中）-或-600 分钟</li></li> 
-|可以发起出站呼叫到声讯电话号码？ <br/> | 部分支持： 使用 Communications 字幕式每分钟支付支持共享成本号码 （前缀 44843、 44844、 44845、 44870、 44871、 44872） 的呼叫。  不支持调用 449XX 前缀。 <br/> |
+|通话计划可用的分钟数。 |每个日历月提供四个计划选项: <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划: 拨打国际长途电话的1200分钟 (600 即在日历月份内首先达到的分钟数)</li></li> 
+|是否可以拨出电话拨出收费号码？ <br/> | 部分受支持: 使用通信信用点数按分钟支付, 支持共享成本数字 (前缀44843、44844、44845、44870、44871、44872) 的通话。  不支持对449XX 前缀的调用。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  博尔顿 <li>  博内茅斯 <li>  布拉德福 <li>  布赖顿 <li>  布里斯托尔 <li>  考文垂 <li>  赫尔 <li>  利兹 <li>  莱斯特 <li>  利物浦 <li>  伦敦 <li>  曼彻斯特 <li>  纽卡斯尔 <li>  诺丁汉 <li>  普利茅斯 <li>  谢菲尔德 <li>  斯托克 <li>  蒂赛德（米德尔斯布勒） </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  Leicester <li>  Liverpool <li>  伦敦 <li>  曼彻斯特 <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-Trent <li>  Teesside (米德尔斯) </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

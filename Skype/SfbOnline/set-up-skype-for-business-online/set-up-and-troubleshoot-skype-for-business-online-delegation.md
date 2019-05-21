@@ -10,138 +10,138 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 本文介绍如何设置和 Skype 疑难解答业务联机委派。 本文为您提供了有关安装程序建议、 最佳实践和故障排除步骤指南。
-ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 本文介绍如何设置 Skype for Business Online 委派和疑难解答。 本文提供了有关设置建议、最佳做法和疑难解答步骤的指南。
+ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237294"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285241"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online 委派设置和疑难解答
 
-本文介绍如何设置和 Skype 疑难解答业务联机委派。 本文为您提供了有关安装程序建议、 最佳实践和故障排除步骤指南。
+本文介绍如何设置 Skype for Business Online 委派和疑难解答。 本文提供了有关设置建议、最佳做法和疑难解答步骤的指南。
   
-## <a name="guidelines-and-requirements"></a>准则和要求
+## <a name="guidelines-and-requirements"></a>指南和要求
 
-### <a name="guidelines-for-delegation"></a>委派的指南
+### <a name="guidelines-for-delegation"></a>委派指南
 
-设置并获取正常工作的委派取决于您遵循以下准则：
+设置并让委派正常工作取决于您遵循以下指南:
   
-- 您必须使用最新的更新业务 2015年完整客户端的 Skype 或 Skype for Business 2016 完整客户端。
+- 您必须使用 Skype for Business 2015 完全客户端和 "最新更新" 或 "Skype for Business 2016 完全客户端"。
     
-- 您必须使用 Outlook 2013 客户端使用最新更新或 Outlook 2016 客户端。
+- 您必须将 Outlook 2013 客户端与最新更新或 Outlook 2016 客户端配合使用。
     
-- 请确保 delegator 和代理计算机上具有一个 Outlook 邮件配置文件的主或的默认配置文件。 该邮件配置文件应包含只有一个帐户。
+- 确保委托人进行通话和代理人计算机具有一个作为主要或默认配置文件的 Outlook 邮件配置文件。 该邮件配置文件应仅包含一个帐户。
     
-- Skype for Business 的代理者和代理人应联机用户。 此外，每个帐户必须同时 Online 或同时为本地 Exchange 服务器邮箱。
+- 委托人进行通话的 Skype for business 和代理人应为联机用户。 此外, 每个帐户的 Exchange 服务器邮箱都必须同时联机或都是本地的。
     
-- Delegator 和代理人都应使用相同的主要版本的 Outlook。
+- 委托人进行通话和代理人应使用相同的 Outlook 主要版本。
     
-- **EnableExchangeDelegateSync**属性值应设置为**true**的客户端策略。 您可以通过运行中的业务 Online PowerShell 模块 Skype **Get-csclientpolicy** cmdlet 来验证此设置。
+- 在客户端策略中, **EnableExchangeDelegateSync**属性值应设置为**true** 。 你可以通过在 Skype for Business Online PowerShell 模块中运行**set-csclientpolicy** cmdlet 来验证此设置。
     
-- Delegator 和代理人必须登录到 Skype 商业和 Outlook 同时在不同的工作站上。
+- 在不同工作站上, 委托人进行通话和代理人必须同时登录到 Skype for Business 和 Outlook。
     
-- 共享的邮箱不支持 Skype 业务联机委派。 这是因为共享的邮箱不具有**sendonbehalf**访问控制列表 (ACL)。
+- Skype for Business Online 委派不支持共享邮箱。 这是因为共享邮箱没有**sendonbehalf**访问控制列表 (ACL)。
     
-### <a name="skype-for-business-client-version-support"></a>Skype 业务客户端版本支持
+### <a name="skype-for-business-client-version-support"></a>Skype for Business 客户端版本支持
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/Skype 业务基本客户端**| 不支持 |不支持
+|**Lync/Skype for Business Basic 客户端**| 不支持 |不支持
 |**Skype for Business 2015**|支持| 支持|
-|**Skype 业务 2016 年**|支持| 支持|
+|**Skype for Business 2016**|支持| 支持|
 
    
 ### <a name="licensing-requirements"></a>许可要求
 
-**企业版 E3 授权方案**
+**企业版 E3 许可方案**
 
 |**许可证**|**客户端**|**注释**|
 |:-----|:-----|:-----|
-|企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
-|与 Office 365 电话系统 + Office 365 xCalling 计划的企业版 E3  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
+|企业版 E3  <br/> |适用于 Outlook 2013 或 Outlook 2016 的 Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 或 Outlook 2016 使用的 Skype for Business 2016  <br/> |Skype for Business 基本客户端不支持委派。  <br/> 对于 Mac 客户端, 您可以委派呼叫, 但不能委派会议。  <br/> |
+|企业版 E3 与 Office 365 Phone System + Office 365 xCalling 计划  <br/> |适用于 Outlook 2013 或 Outlook 2016 的 Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 或 Outlook 2016 使用的 Skype for Business 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business 基本客户端不支持委派。  <br/> 对于 Mac 客户端, 您可以委派呼叫, 但不能委派会议。  <br/> |
    
-**企业 E5 授权方案**
+**企业版 E5 许可方案**
 
 |**许可证**|**客户端**|**注释**|
 |:-----|:-----|:-----|
-|企业 E5  <br/> |用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)。  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
-|企业 E5 以及 Office 365 呼叫计划  <br/> |Skype for Mac 2016 年 Business  <br/> 用于 Outlook 2013 或 Outlook 2016 Lync 2013 (Skype 的业务 2015年)  <br/> 用于 Outlook 2013 或 Outlook 2016 业务 2016年的 Skype  <br/> Lync for Mac 2011  <br/> |Skype 业务基本客户端不支持委派。  <br/> Mac 客户端，您可以委派呼叫，但并非会议。  <br/> |
+|企业版 E5  <br/> |适用于 Outlook 2013 或 Outlook 2016 的 Lync 2013 (Skype for Business 2015)。  <br/> Outlook 2013 或 Outlook 2016 使用的 Skype for Business 2016  <br/> |Skype for Business 基本客户端不支持委派。  <br/> 对于 Mac 客户端, 您可以委派呼叫, 但不能委派会议。  <br/> |
+|企业版 E5 + Office 365 通话计划  <br/> |Mac 版 Skype for Business 2016  <br/> 适用于 Outlook 2013 或 Outlook 2016 的 Lync 2013 (Skype for Business 2015)  <br/> Outlook 2013 或 Outlook 2016 使用的 Skype for Business 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business 基本客户端不支持委派。  <br/> 对于 Mac 客户端, 您可以委派呼叫, 但不能委派会议。  <br/> |
    
 ## <a name="set-up-and-verify-delegation"></a>设置和验证委派
 
-若要设置 Skype 业务联机委派，请按照下列步骤：
+若要设置 Skype for Business Online 委派, 请按照下列步骤操作:
   
-### <a name="for-windows-clients"></a>Windows 客户端
+### <a name="for-windows-clients"></a>对于 Windows 客户端
 
- **呼叫转接选项卡**
+ **"呼叫转接" 选项卡**
   
-1. 选择**工具** > **选项** > **呼叫转接设置**。
+1. 选择 "**工具** > "**选项** > "**呼叫转接设置**"。
     
-2. 选择**编辑我的代理人成员**。
+2. 选择 **"编辑我的代理人成员"**。
     
-3. 选择**添加**，请选择您要添加的代理人，然后选择**确定**。
+3. 选择 "**添加**", 选择要添加的代理人, 然后选择 **"确定"**。
     
- **没有呼叫转移选项卡**
+ **"无呼叫转接" 选项卡**
   
-1. 在 Outlook 中，选择**文件** > **帐户设置** > **代理访问** > **添加**。
+1. 在 Outlook 中, 选择 "**文件** > **帐户设置** > "。 "**委派 Access** > **添加**"。
     
-2. 找到并添加要委派的人员的名称。
+2. 找到并添加将成为代理人的人员的姓名。
     
-3. 选择**日历**菜单，然后选择**编辑器 （可以读取、 创建和修改的项目）**。
+3. 选择 "**日历**" 菜单, 然后选择 "**编辑" (可以阅读、创建和修改项目)**。
     
-### <a name="for-mac-clients---lync"></a>For Mac 客户端的 Lync
+### <a name="for-mac-clients---lync"></a>对于 Mac 客户端-Lync
 
- **呼叫转接选项卡**
+ **"呼叫转接" 选项卡**
   
-- 如果客户端没有**呼叫转接**选项卡，具有**编辑我的代理人成员**链接，并且 delegator 位于是 Mac 计算机，代理者必须登录到基于 Windows 的计算机才能设置委派。 这是因为 Mac 客户端无法发出 MAPI 连接，这是 Outlook 中的业务委派建立 Skype 的要求。
+- 如果客户端没有 "**呼叫转接**" 选项卡具有 "**编辑我的代理人成员**" 链接, 并且委托人进行通话位于 Mac 计算机上, 则委托人进行通话必须登录到基于 Windows 的计算机才能设置委派。 这是因为 Mac 客户端无法建立 MAPI 连接, 这是建立来自 Outlook 的 Skype for Business 委派的必要条件。
     
 ### <a name="verify-success"></a>验证成功
 
-如果成功安装，代理人应该会看到**已将您添加为 < Name> 的代理人**消息并且还创建**我管理呼叫的人员**组中。 Delegator 应看到已创建**代理人**组。
+如果设置成功, 则代理人会看到**你已添加为 _LT_ Name>** 消息的代理人, 并且还会创建 "**我管理的用户**" 组调用。 委托人进行通话应看到 "**委派**" 组已创建。
   
 > [!NOTE]
-> 委派权限通常显示在安装过程的 30 分钟内。 但是，此过程可能需要 24 小时才能完成。 
+> 委派权限通常在安装过程的30分钟内出现。 但是, 此过程可能需要长达24小时才能完成。 
   
 ## <a name="troubleshooting"></a>疑难解答
 
 ### <a name="common-issues"></a>常见问题
 
-- > **问题 1**该委托条目继续 delegator 已从 Outlook 客户端删除代理人后，出现在**我管理呼叫的人员**组中。
+- > **问题 1**委托人进行通话删除了 Outlook 客户端中的代理人后, 该代理人条目会继续出现在 "**管理呼叫**" 组中。
     
-  - > **解决方案 1**在业务客户端 Skype，右键单击**代理人**组中的委托，然后选择**从组中删除**。
+  - > **解决方案 1**在 Skype for Business 客户端上, 右键单击 "**代理人**" 组中的代理人, 然后选择 "**从组中删除**"。
     
-- > **问题 2**代理访问授予通过 Outlook 客户端后，确认消息和**我管理呼叫的人员**组中都不显示该委托。
+- > **问题 2**通过 Outlook 客户端授予代理访问权限后, 将不会为代理人显示确认消息和**我管理**的组调用的人员。
     
-  - > **解决方案 2**从 Outlook 客户端中删除委派和等待 15 分钟的时间进行复制，然后再次添加代理。
+  - > **解决方案 2**从 Outlook 客户端删除委派, 等待大约15分钟进行复制, 然后再次添加代理人。
     
-### <a name="other-common-issues"></a>其他常见的问题
+### <a name="other-common-issues"></a>其他常见问题
 
-- 如果超过 25 委派人和 25 代理人的阈值，委派不起作用。
+- 如果超过25个代理和25个委托的阈值, 则委派将不起作用。
     
-- 业务基本客户端 Skype 不受支持。
-    
-    > [!NOTE]
-    > 如果您安装 Skype 业务基本客户端，它将删除和中断委派。 
-  
-- 如果**MAPI**状态值不是**确定**，请确保**SIP**和**SMTP**值匹配。
+- 不支持 Skype for Business 基本客户端。
     
     > [!NOTE]
-    > 可能需要几分钟，以便 MAPI 状态后业务和 Outlook 的首次启动 Skype 显示为**确定**。
+    > 如果您安装了 Skype for Business 基本客户端, 它将删除并中断委派。 
   
-- 创建安全组并添加委派权限的安全组不受支持。
+- 如果**MAPI 状态**值不**正常**, 请确保**SIP**和**SMTP**值匹配。
     
-- MAPI 不可用。 请参阅[Skype 业务 2016年客户端中的"MAPI 不可用"错误](https://support.microsoft.com/en-us/help/3147130)。
+    > [!NOTE]
+    > 第一次启动 Skype for Business 和 Outlook 后, MAPI 状态可能需要几分钟才能显示为 **"正常"** 。
+  
+- 不支持创建安全组和为该安全组添加委派权限。
     
-- Exchange Online 邮箱不能通过业务客户端 Skype 访问。 如果发生这种情况，运行[Outlook 连接测试](https://testconnectivity.microsoft.com/)以确保它可以通过。
+- MAPI 不可用。 请参阅[Skype For business 2016 客户端中的 "MAPI 不可用" 错误](https://support.microsoft.com/en-us/help/3147130)。
+    
+- 无法通过 Skype for Business 客户端访问 Exchange Online 邮箱。 如果出现这种情况, 请运行[Outlook 连接测试](https://testconnectivity.microsoft.com/)以确保它通过。
     
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

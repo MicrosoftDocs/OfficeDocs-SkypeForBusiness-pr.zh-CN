@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于斯里兰卡业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 31506e4d67a78a80835b07293c310f4836d90347
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于斯里兰卡的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 3c7bf8c1183034d92f32ca3836c4f434466033b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221960"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282759"
 ---
 # <a name="availability-in-sri-lanka"></a>在斯里兰卡的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于斯里兰卡业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于斯里兰卡的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> | 电话号码不被链接到指定市/县或位置。 如果您希望专用的电话号码，请参阅[入门的业务和 Microsoft 团队的 Skype 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> | 电话号码未链接到特定城市或位置。 如果需要专用电话号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -67,7 +67,7 @@ ms.locfileid: "32221960"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码不被链接到指定市/县或位置。  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码未链接到特定城市或位置。  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    

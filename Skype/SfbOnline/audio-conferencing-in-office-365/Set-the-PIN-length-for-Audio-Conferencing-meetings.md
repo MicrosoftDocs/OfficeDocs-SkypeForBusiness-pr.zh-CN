@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解 PIN 的长度和要求的参数，并参阅如何在 Skype for Business 中设置会议的长度。
-ms.openlocfilehash: c5add9cff2855fd969b76d96647f05e6e6dab290
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 95bc1c69e59e125d451a68eeee23ea15febd420f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229288"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283807"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议的 PIN 长度
 
@@ -42,14 +42,14 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## <a name="setting-the-pin-length"></a>设置 PIN 长度
  
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
     
-2. 在**安全**下 > **PIN 长度**，选择 PIN，所需的位数，然后单击**保存**。
+2. 在 "**安全** > **PIN 长度**" 下, 选择要用于 PIN 的数字位数, 然后单击 "**保存**"。
     
 > [!NOTE]
 > [!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。 
 
-## <a name="want-to-know-more-about-pin-settings"></a>想知道 PIN 设置的详细信息吗？
+## <a name="want-to-know-more-about-pin-settings"></a>想要了解有关 PIN 设置的详细信息？
 
 - PINs can be from 4 to 12 digits; the default is 5. Numbers are only used when creating PINs. Letters and special characters aren't used.
     

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于越南业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: a27dfa6774d90cd54a1824e9af75601a2274ad8b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下是适用于越南的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 5c1a2c6bde683f7db2023cb727fa006aa82911af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281913"
 ---
 # <a name="availability-in-vietnam"></a>在越南的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于越南业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于越南的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "30541005"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

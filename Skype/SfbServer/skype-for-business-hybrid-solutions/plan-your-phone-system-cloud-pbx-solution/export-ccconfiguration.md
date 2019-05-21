@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: 用于将 Skype for Business 云连接器版本配置导出到 Skype for Business 云连接器版本主机服务器上的一个本地文件。
-ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7548b2fba602364d98c7540607660ccc57710654
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287417"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  

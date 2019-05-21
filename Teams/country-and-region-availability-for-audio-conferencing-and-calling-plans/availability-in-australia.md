@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于澳大利亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244997"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283351"
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于澳大利亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于澳大利亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
 
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |否。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |不能。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -57,28 +57,28 @@ ms.locfileid: "32244997"
 
 ## <a name="calling-plans"></a>通话套餐
 > [!IMPORTANT]
-> 仅用于通过 Telstra 基于澳大利亚的租户。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
+> 仅适用于基于澳大利亚的租户的 Telstra。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是，请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。  <br/> |
-|通话套餐的可用分钟数  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
-|是否可以拨打呼出电话？  <br/> |请参阅[Telstra 调用 for Office 365](https://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可购买通话套餐？  <br/> |是的, 请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。  <br/> |
+|通话套餐的可用分钟数  <br/> |请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。 <br/> |
+|是否可以拨打呼出电话？  <br/> |请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
 > [!IMPORTANT]
-> 到删除澳大利亚订户号 （由 Telstra） 请直接联系 Telstra。
-> 若要更新澳大利亚订户号 （由 Telstra） 紧急地址信息请直接联系 Telstra。
+> 若要删除澳大利亚订户号码 (由 Telstra 提供), 请直接联系 Telstra。
+> 若要更新澳大利亚订户号码的紧急地址信息 (由 Telstra 提供), 请直接联系 Telstra。
 > 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>阿德莱德 <li>布里斯班 <li>  堪培拉 <li>达尔文 <li>墨尔本 <li>Newcastle <li> 珀斯 <li>悉尼 <li>Wollongong  |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>阿 <li>布里斯班 <li>  堪培拉 <li>Darwin <li>墨尔本 <li>Newcastle <li> 思 <li>分部 <li>Wollongong  |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
-如果您想要自动助理中获得收费和免费电话号码，呼叫队列或音频会议服务号码，[请与我们联系](mailto:ptnapac@microsoft.com)。
+如果您想要获得自动助理的收费电话号码和免费电话号码, 请拨打 "通话队列" 或 "音频会议服务号码",[请与我们联系](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>通信点数
 

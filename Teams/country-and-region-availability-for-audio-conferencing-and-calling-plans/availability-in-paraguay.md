@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴拉圭可用的项目。
-ms.openlocfilehash: 8154f326f2626a3f2705ebbccfc4d6427f1a903a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于巴拉圭的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 6fcc424062a15337b7f73038759d0ecc54626431
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199118"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287965"
 ---
 # <a name="availability-in-paraguay"></a>在巴拉圭的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 巴拉圭可用的项目。
+以下是适用于巴拉圭的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "32199118"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

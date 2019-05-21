@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6e555724c4be2f61f1ee7099901e29508900c22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225977"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284884"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>视频：Skype for Business Online 外部通信
 
@@ -37,7 +37,7 @@ ms.locfileid: "32225977"
 ***
   
 ## <a name="related-topics"></a>相关主题
-[设置业务联机外部通信的 Skype](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)（分步指导的演练）
+[设置 Skype For Business Online 外部通信](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)(指导性演练)
 
 [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md)
 

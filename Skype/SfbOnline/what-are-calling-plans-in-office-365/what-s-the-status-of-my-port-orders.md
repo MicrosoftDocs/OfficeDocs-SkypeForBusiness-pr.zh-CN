@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f96b1f4966159065b5978fd9c9831412bcc03504
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229572"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290752"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>我的移植订单的状态是什么？
 
-您可以看到端口订单的状态，转到**业务管理中心的 Skype** > **语音** > **端口订单**。 在**状态**列中，将列出每个端口订单状态。 如果您需要帮助，[请与业务产品-管理员技术支持联系](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)。
+你可以通过转到**Skype for business 管理中心** > 的**语音** > **端口订单**查看你的端口订单的状态。 每个端口订单状态将在 "**状态**" 列中列出。 如果需要帮助, 请[联系业务产品支持-管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)。
 
-下表列出端口订单状态，以及如果需要您可以采取的操作。
+下表列出了 "端口顺序" 状态以及可以在需要时执行的操作。
 
-|**状态**|**您可以查看顺序？**|**您可以编辑顺序？**|**您可以取消顺序？**|**您可以删除顺序？**|**说明**|
+|**状态栏**|**是否可以查看订单？**|**是否可以编辑订单？**|**是否可以取消订单？**|**是否可以删除订单？**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**处理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员已创建顺序，并且它由 Microsoft 已收到。  <br/> |
-|**运营商联系** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |已收到并由 Microsoft 批准顺序和我们正在与可能会丢失的运营商进行批准。  <br/> |
-|**批准的传输** <br/> |是  <br/> |确认顺序 Commitment(FOC)  <br/> |是  <br/> |否  <br/> |订单已被接受通过可能会丢失运营商，并且已设置 FOC 日期。  <br/> |
-|**传输挂起** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |转接是不超过 24 小时离开，因此顺序不再可以编辑或取消。  <br/> |
-|**Error** <br/> |否  <br/> |是  <br/> |是   <br/> |是 （此时，您不能删除该端口订单出现错误时。 端口顺序需要重新创建，或者需要[对业务产品-管理员技术联系人支持](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)。  <br/> |可能会丢失运营商已拒绝顺序。  <br/> |
-|**完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功传输这些号码。  <br/> |
-|**取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员已取消顺序。  <br/> |
+|**理赔** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员已创建订单, 并且已由 Microsoft 接收。  <br/> |
+|**联系运营商** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由 Microsoft 接收并批准, 我们正在处理丢失的运营商以获得批准。  <br/> |
+|**转移已批准** <br/> |是  <br/> |确认订单承诺 (FOC)  <br/> |是  <br/> |否  <br/> |订单已被丢失的运营商接受, 并且已设置 FOC 日期。  <br/> |
+|**转接待处理** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |传输时间少于24小时, 因此不能再编辑或取消订单。  <br/> |
+|**Error** <br/> |否  <br/> |是  <br/> |是   <br/> |是 (此时, 如果出现错误, 则不能删除端口顺序。 需要重新创建 "端口订单", 或者需要[联系业务产品支持-管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)。  <br/> |丢失的运营商已拒绝订单。  <br/> |
+|**完** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |号码已被成功转移。  <br/> |
+|**Upgrade** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员已取消订单。  <br/> |
    
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+ **有关完整的分步说明, 请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。**
  
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)

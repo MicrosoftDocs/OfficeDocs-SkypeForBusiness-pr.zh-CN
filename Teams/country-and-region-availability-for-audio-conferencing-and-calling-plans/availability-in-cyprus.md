@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于塞浦路斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 5998a834226d8e63eeed237342abdb7e52e6bfdd
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 下面是可用于塞浦路斯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 1703b4ba0b91cec9acc75a58b7e1d764b11236ca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542332"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283055"
 ---
 # <a name="availability-in-cyprus"></a>在塞浦路斯的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于塞浦路斯业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+下面是可用于塞浦路斯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 尼科西亚</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> Nicosia</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -67,7 +67,7 @@ ms.locfileid: "30542332"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |尼科西亚  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Nicosia  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

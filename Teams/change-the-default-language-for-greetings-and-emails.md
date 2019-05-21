@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995164"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283453"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -43,13 +43,13 @@ ms.locfileid: "33995164"
   
 - **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
 
-- **若要更改语音邮件提示语言吗？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)，然后选择新下**提示的语言**的语言。
+- **是否要更改语音邮件提示语言？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) , 然后在 "**提示语言**" 下选择一种新语言。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 使用您的[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户，登录[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
+1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)通过[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录。 
     
-2. 在 Microsoft 365 管理中心中，选择**设置** > **组织配置文件**。 
+2. 在 Microsoft 365 管理中心, 选择 "**设置** > **组织配置文件**"。 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -67,7 +67,7 @@ ms.locfileid: "33995164"
     
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [规划 Office 365 中的电话系统与内部部署 PSTN 连接中 Skype 业务 Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [在 Skype for business Server 中通过本地 PSTN 连接计划 Office 365 中的电话系统](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>相关主题
 
