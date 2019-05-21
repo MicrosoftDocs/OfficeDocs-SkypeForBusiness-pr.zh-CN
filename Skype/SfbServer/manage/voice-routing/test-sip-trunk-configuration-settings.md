@@ -1,36 +1,36 @@
 ---
-title: 测试 SIP 中继配置设置中 Skype 业务服务器
+title: 在 Skype for Business 服务器中测试 SIP 中继配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。 '
-ms.openlocfilehash: 1caf96e9979936c8fb9ff61d9b28b613fb09ce7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。 '
+ms.openlocfilehash: 9f254d833f5d679343a39062bc2ed68c9122af56
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902262"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274917"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="126ef-103">测试 SIP 中继配置设置中 Skype 业务服务器</span><span class="sxs-lookup"><span data-stu-id="126ef-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="6c6e2-103">在 Skype for Business 服务器中测试 SIP 中继配置设置</span><span class="sxs-lookup"><span data-stu-id="6c6e2-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
 
-<span data-ttu-id="126ef-104">SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。</span><span class="sxs-lookup"><span data-stu-id="126ef-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="126ef-105">这些设置可执行如下所指定内容的操作：</span><span class="sxs-lookup"><span data-stu-id="126ef-105">These settings do such things as specify:</span></span>
+<span data-ttu-id="6c6e2-104">SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="6c6e2-105">这些设置可执行如下所指定内容的操作：</span><span class="sxs-lookup"><span data-stu-id="6c6e2-105">These settings do such things as specify:</span></span>
 
-- <span data-ttu-id="126ef-106">是否在中继上启用媒体旁路功能。</span><span class="sxs-lookup"><span data-stu-id="126ef-106">Whether media bypass should be enabled on the trunks.</span></span>
-- <span data-ttu-id="126ef-107">在其下发送实时传输控制协议 (RTCP) 数据包的条件。</span><span class="sxs-lookup"><span data-stu-id="126ef-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
-- <span data-ttu-id="126ef-108">是否每个中继上是否需要安全实时协议 (SRTP) 加密。</span><span class="sxs-lookup"><span data-stu-id="126ef-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+- <span data-ttu-id="6c6e2-106">是否在中继上启用媒体旁路功能。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-106">Whether media bypass should be enabled on the trunks.</span></span>
+- <span data-ttu-id="6c6e2-107">发送实时传输控制协议 (RTCP) 数据包的条件。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+- <span data-ttu-id="6c6e2-108">每个主干上是否需要安全的实时协议 (SRTP) 加密。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-<span data-ttu-id="126ef-109">在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。</span><span class="sxs-lookup"><span data-stu-id="126ef-109">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="126ef-110">此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。</span><span class="sxs-lookup"><span data-stu-id="126ef-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="126ef-111">管理员还可以使用[测试 CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 来验证中继，可以将用户可以处理由网关的号码拨打的号码的转换。</span><span class="sxs-lookup"><span data-stu-id="126ef-111">Administrators can also use the [Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
+<span data-ttu-id="6c6e2-109">安装 Skype for Business 服务器时, 将为你创建一个全局 SIP 中继配置设置集合。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-109">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="6c6e2-110">此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="6c6e2-111">管理员还可以使用[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 验证主干能否将用户所拨的号码转换为可由网关处理的号码。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-111">Administrators can also use the [Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
 
-<span data-ttu-id="126ef-112">只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。</span><span class="sxs-lookup"><span data-stu-id="126ef-112">Trunk configuration settings can only be tested by using Windows PowerShell and the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="126ef-113">从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，则可以运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="126ef-113">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="6c6e2-112">只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-112">Trunk configuration settings can only be tested by using Windows PowerShell and the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="6c6e2-113">此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-113">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
 
-<span data-ttu-id="126ef-114">**测试 SIP 中继配置设置**</span><span class="sxs-lookup"><span data-stu-id="126ef-114">**To test SIP trunk configuration settings**</span></span>
+<span data-ttu-id="6c6e2-114">**测试 SIP 中继配置设置**</span><span class="sxs-lookup"><span data-stu-id="6c6e2-114">**To test SIP trunk configuration settings**</span></span>
 
-<span data-ttu-id="126ef-115">以下命令可验证 Redmond 站点的中继配置设置是否能正确转换拨号号码 4255551212。</span><span class="sxs-lookup"><span data-stu-id="126ef-115">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
+<span data-ttu-id="6c6e2-115">以下命令可验证 Redmond 站点的中继配置设置是否能正确转换拨号号码 4255551212。</span><span class="sxs-lookup"><span data-stu-id="6c6e2-115">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
 
 ```
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"

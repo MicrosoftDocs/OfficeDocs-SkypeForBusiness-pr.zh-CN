@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployForestPrepInvoke
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 正在执行命令页上显示运行时任务的摘要。 查看摘要屏幕上，并确保任务已成功完成，并且没有任何错误。 检查以确保它们预期警告。 在摘要窗格中，您应看到任务状态： 已完成。 在下拉列表中，林准备的日志文件应可见。 如果不存在，选择的日志文件，然后单击查看详细的操作和任务的结果的查看日志。 单击完成以完成的林准备。
-ms.openlocfilehash: 9aa1960ed99cf2da9cb51e91257544100bd1ce40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: "\"执行命令\" 页面显示任务运行时的摘要。 查看摘要屏幕, 确保任务成功, 并且没有错误。 查看警告以确保它们正常。 在 \"摘要\" 窗格下, 应查看 \"任务状态: 已完成\"。 在下拉列表中, 日志文件准备林应可见。 如果不是, 请选择日志文件, 然后单击 \"查看日志\" 以查看任务的详细操作和结果。 单击 \"完成\" 以完成林的准备。"
+ms.openlocfilehash: 09ecb8413b3a755751c3d7926f9c143dd7dfb58c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893812"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276324"
 ---
-# <a name="prepare-current-forrest-invoke"></a><span data-ttu-id="7bbff-109">准备当前林（调用）</span><span class="sxs-lookup"><span data-stu-id="7bbff-109">Prepare Current Forrest (Invoke)</span></span>
+# <a name="prepare-current-forrest-invoke"></a><span data-ttu-id="95bad-109">准备当前林（调用）</span><span class="sxs-lookup"><span data-stu-id="95bad-109">Prepare Current Forrest (Invoke)</span></span>
  
-<span data-ttu-id="7bbff-110">**正在执行命令**页上显示运行时任务的摘要。</span><span class="sxs-lookup"><span data-stu-id="7bbff-110">The **Executing Commands** page displays a summary of tasks as they run.</span></span> <span data-ttu-id="7bbff-111">查看摘要屏幕上，并确保任务已成功完成，并且没有任何错误。</span><span class="sxs-lookup"><span data-stu-id="7bbff-111">Review the summary screen and make sure that the tasks were successful, and that there are no errors.</span></span> <span data-ttu-id="7bbff-112">检查以确保它们预期警告。</span><span class="sxs-lookup"><span data-stu-id="7bbff-112">Review warnings to be sure that they are expected.</span></span> <span data-ttu-id="7bbff-113">在摘要窗格中，您应看到**任务状态： 完成**。</span><span class="sxs-lookup"><span data-stu-id="7bbff-113">Under the summary pane, you should see **Task status: Completed**.</span></span> <span data-ttu-id="7bbff-114">在下拉列表中，**林准备**的日志文件应可见。</span><span class="sxs-lookup"><span data-stu-id="7bbff-114">In the drop-down list, the log file **Prepare Forest** should be visible.</span></span> <span data-ttu-id="7bbff-115">如果不存在，选择的日志文件，然后单击**查看日志**，以查看详细的操作和任务结果。</span><span class="sxs-lookup"><span data-stu-id="7bbff-115">If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks.</span></span> <span data-ttu-id="7bbff-116">单击**完成**以完成的林准备。</span><span class="sxs-lookup"><span data-stu-id="7bbff-116">Click **Finish** to complete the preparation of the forest.</span></span>
+<span data-ttu-id="95bad-110">"**执行命令**" 页面显示任务运行时的摘要。</span><span class="sxs-lookup"><span data-stu-id="95bad-110">The **Executing Commands** page displays a summary of tasks as they run.</span></span> <span data-ttu-id="95bad-111">查看摘要屏幕, 确保任务成功, 并且没有错误。</span><span class="sxs-lookup"><span data-stu-id="95bad-111">Review the summary screen and make sure that the tasks were successful, and that there are no errors.</span></span> <span data-ttu-id="95bad-112">查看警告以确保它们正常。</span><span class="sxs-lookup"><span data-stu-id="95bad-112">Review warnings to be sure that they are expected.</span></span> <span data-ttu-id="95bad-113">在 "摘要" 窗格下, 应查看 "**任务状态: 已完成**"。</span><span class="sxs-lookup"><span data-stu-id="95bad-113">Under the summary pane, you should see **Task status: Completed**.</span></span> <span data-ttu-id="95bad-114">在下拉列表中, 日志文件**准备林**应可见。</span><span class="sxs-lookup"><span data-stu-id="95bad-114">In the drop-down list, the log file **Prepare Forest** should be visible.</span></span> <span data-ttu-id="95bad-115">如果不是, 请选择日志文件, 然后单击 "**查看日志**" 以查看任务的详细操作和结果。</span><span class="sxs-lookup"><span data-stu-id="95bad-115">If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks.</span></span> <span data-ttu-id="95bad-116">单击 "**完成**" 以完成林的准备。</span><span class="sxs-lookup"><span data-stu-id="95bad-116">Click **Finish** to complete the preparation of the forest.</span></span>
   
 

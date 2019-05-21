@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -27,134 +27,134 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239214"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276184"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a><span data-ttu-id="15b78-103">允许用户联系外部 Skype for Business 用户</span><span class="sxs-lookup"><span data-stu-id="15b78-103">Allow users to contact external Skype for Business users</span></span>
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a><span data-ttu-id="695c2-103">允许用户联系外部 Skype for Business 用户</span><span class="sxs-lookup"><span data-stu-id="695c2-103">Allow users to contact external Skype for Business users</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="15b78-104">为业务联盟的 Skype 不可用到由 21Vianet 和 Office 365 德国组织的 Office 365。</span><span class="sxs-lookup"><span data-stu-id="15b78-104">Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations.</span></span> 
+> <span data-ttu-id="695c2-104">由世纪互联运营的 Office 365 和 Office 365 德国组织无法使用 Skype for Business 联合身份验证。</span><span class="sxs-lookup"><span data-stu-id="695c2-104">Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations.</span></span> 
   
-<span data-ttu-id="15b78-105">在下列情况下，请按照本文的步骤进行操作：</span><span class="sxs-lookup"><span data-stu-id="15b78-105">Use the steps in this article when:</span></span>
+<span data-ttu-id="695c2-105">在下列情况下，请按照本文的步骤进行操作：</span><span class="sxs-lookup"><span data-stu-id="695c2-105">Use the steps in this article when:</span></span>
   
-- <span data-ttu-id="15b78-p101">你的用户在企业内的不同域中。例如，Rob@ContosoEast.com 和 Ann@ContosoWest.com。</span><span class="sxs-lookup"><span data-stu-id="15b78-p101">You have users on different domains in your business. For example, Rob@ContosoEast.com and Ann@ContosoWest.com.</span></span>
+- <span data-ttu-id="695c2-p101">你的用户在企业内的不同域中。例如，Rob@ContosoEast.com 和 Ann@ContosoWest.com。</span><span class="sxs-lookup"><span data-stu-id="695c2-p101">You have users on different domains in your business. For example, Rob@ContosoEast.com and Ann@ContosoWest.com.</span></span>
     
-- <span data-ttu-id="15b78-108">希望你组织的人员使用 Skype for Business 联系你组织外特定企业中的人员。</span><span class="sxs-lookup"><span data-stu-id="15b78-108">You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.</span></span>
+- <span data-ttu-id="695c2-108">希望你组织的人员使用 Skype for Business 联系你组织外特定企业中的人员。</span><span class="sxs-lookup"><span data-stu-id="695c2-108">You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.</span></span>
     
-- <span data-ttu-id="15b78-109">您希望任何其他人在世界上使用 for Business 的 Skype 能够找到并与您联系，使用您的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="15b78-109">You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address.</span></span> <span data-ttu-id="15b78-110">如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。</span><span class="sxs-lookup"><span data-stu-id="15b78-110">If you and they use the default Skype for Business settings, this will work automatically.</span></span> <span data-ttu-id="15b78-111">如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。</span><span class="sxs-lookup"><span data-stu-id="15b78-111">If they don't, then they need to make sure their configuration isn't blocking your domain.</span></span>
+- <span data-ttu-id="695c2-109">您希望使用 Skype for Business 的世界任何其他人都能使用您的电子邮件地址找到并与您联系。</span><span class="sxs-lookup"><span data-stu-id="695c2-109">You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address.</span></span> <span data-ttu-id="695c2-110">如果你和他们都使用默认的 Skype for Business 设置，此功能会自动运行。</span><span class="sxs-lookup"><span data-stu-id="695c2-110">If you and they use the default Skype for Business settings, this will work automatically.</span></span> <span data-ttu-id="695c2-111">如果他们更改了默认设置，他们需要确认其配置没有阻止你的域。</span><span class="sxs-lookup"><span data-stu-id="695c2-111">If they don't, then they need to make sure their configuration isn't blocking your domain.</span></span>
     
-## <a name="enable-business-to-business-communications-for-your-users"></a><span data-ttu-id="15b78-112">为你的用户启用企业到企业通信</span><span class="sxs-lookup"><span data-stu-id="15b78-112">Enable business-to-business communications for your users</span></span>
-<span data-ttu-id="15b78-113"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-113"></span></span>
+## <a name="enable-business-to-business-communications-for-your-users"></a><span data-ttu-id="695c2-112">为你的用户启用企业到企业通信</span><span class="sxs-lookup"><span data-stu-id="695c2-112">Enable business-to-business communications for your users</span></span>
+<span data-ttu-id="695c2-113"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-113"></span></span>
 
-<span data-ttu-id="15b78-114">在这两个组织为此，您必须在 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。</span><span class="sxs-lookup"><span data-stu-id="15b78-114">You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.</span></span>
+<span data-ttu-id="695c2-114">您必须在两个组织的 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。</span><span class="sxs-lookup"><span data-stu-id="695c2-114">You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.</span></span>
 
-<span data-ttu-id="15b78-115">![团队-徽标-30x30.png](../images/teams-logo-30x30.png) **使用团队管理中心**</span><span class="sxs-lookup"><span data-stu-id="15b78-115">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Teams admin center**</span></span>
+<span data-ttu-id="695c2-115">![](../images/teams-logo-30x30.png) **使用团队管理中心 teams-logo-30x30 的**png</span><span class="sxs-lookup"><span data-stu-id="695c2-115">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Teams admin center**</span></span>
   
-1. <span data-ttu-id="15b78-116">使用 Office 365 管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="15b78-116">Sign in with your Office 365 admin account.</span></span> 
+1. <span data-ttu-id="695c2-116">通过 Office 365 管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="695c2-116">Sign in with your Office 365 admin account.</span></span> 
     
-2. <span data-ttu-id="15b78-117">在 Office 365 管理中心，转到**管理中心** > **团队**。</span><span class="sxs-lookup"><span data-stu-id="15b78-117">In the Office 365 admin center, go to **Admin Centers** > **Teams**.</span></span>
+2. <span data-ttu-id="695c2-117">在 Office 365 管理中心中, 转到 "**管理中心** > "**团队**。</span><span class="sxs-lookup"><span data-stu-id="695c2-117">In the Office 365 admin center, go to **Admin Centers** > **Teams**.</span></span>
     
-    ![选择团队管理员。](../images/MS-Teams-Admin.png)
+    ![选择 "团队管理员"。](../images/MS-Teams-Admin.png)
   
-3. <span data-ttu-id="15b78-119">在**工作组中心**中，选择**Skype** > **旧门户** 
- ![选择 SfB 旧门户。](../images/SFBlegacy-size65.png)</span><span class="sxs-lookup"><span data-stu-id="15b78-119">In the **Teams center**, choose **Skype** > **Legacy Portal** 
+3. <span data-ttu-id="695c2-119">在 "**团队中心**" 中, 选择 " **Skype** > **旧版门户** 
+ ![" 选择 "SfB 旧版门户"。](../images/SFBlegacy-size65.png)</span><span class="sxs-lookup"><span data-stu-id="695c2-119">In the **Teams center**, choose **Skype** > **Legacy Portal** 
 ![Choose the SfB Legacy Portal.](../images/SFBlegacy-size65.png)</span></span>
  
-4. <span data-ttu-id="15b78-120">在**Skype 业务管理中心的**中，选择**组织** > **外部通信**。</span><span class="sxs-lookup"><span data-stu-id="15b78-120">In the **Skype for Business admin center** , choose **Organization** > **External communications**.</span></span>
-5. <span data-ttu-id="15b78-121">若要设置通信与特定的企业或用户在另一个域中，在下拉列表框中，选择**在仅允许域**。</span><span class="sxs-lookup"><span data-stu-id="15b78-121">To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.</span></span>
+4. <span data-ttu-id="695c2-120">在**Skype for business 管理中心**, 选择 "**组织** > **外部通信**"。</span><span class="sxs-lookup"><span data-stu-id="695c2-120">In the **Skype for Business admin center** , choose **Organization** > **External communications**.</span></span>
+5. <span data-ttu-id="695c2-121">若要设置与特定企业或与其他域中的用户的通信, 请在下拉框中选择 **"仅针对允许的域"**。</span><span class="sxs-lookup"><span data-stu-id="695c2-121">To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.</span></span>
     
-    <span data-ttu-id="15b78-p103">或者，你希望能够与世界各地采用公开的 Skype for Business 策略的所有其他人通信，请选择" **打开(被阻止的域除外)**"。这是默认设置。</span><span class="sxs-lookup"><span data-stu-id="15b78-p103">OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.</span></span>
+    <span data-ttu-id="695c2-p103">或者，你希望能够与世界各地采用公开的 Skype for Business 策略的所有其他人通信，请选择" **打开(被阻止的域除外)**"。这是默认设置。</span><span class="sxs-lookup"><span data-stu-id="695c2-p103">OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.</span></span>
     
-6. <span data-ttu-id="15b78-124">在**已阻止或允许的域**，下，选择**+**，添加您希望允许的域的名称。</span><span class="sxs-lookup"><span data-stu-id="15b78-124">Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.</span></span>
+6. <span data-ttu-id="695c2-124">在 "**被阻止或允许**的**+** 域" 下, 选择并添加您要允许的域的名称。</span><span class="sxs-lookup"><span data-stu-id="695c2-124">Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.</span></span>
     
-7. <span data-ttu-id="15b78-125">确保其他组织中的管理员执行其**业务管理中心的 Skype**这些相同步骤。</span><span class="sxs-lookup"><span data-stu-id="15b78-125">Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**.</span></span> <span data-ttu-id="15b78-126">例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。</span><span class="sxs-lookup"><span data-stu-id="15b78-126">For example, in their **allowed domains** list, their admin needs to enter the domain for your business.</span></span>
+7. <span data-ttu-id="695c2-125">请确保其他组织中的管理员在其**Skype For business 管理中心**中执行这些相同步骤。</span><span class="sxs-lookup"><span data-stu-id="695c2-125">Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**.</span></span> <span data-ttu-id="695c2-126">例如，在其" **允许的域**"列表中，其管理员需要输入贵企业的域。</span><span class="sxs-lookup"><span data-stu-id="695c2-126">For example, in their **allowed domains** list, their admin needs to enter the domain for your business.</span></span>
     
-8. <span data-ttu-id="15b78-127">如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。</span><span class="sxs-lookup"><span data-stu-id="15b78-127">If you're using Windows Firewall, Skype for Business opens the required ports automatically.</span></span>
+8. <span data-ttu-id="695c2-127">如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。</span><span class="sxs-lookup"><span data-stu-id="695c2-127">If you're using Windows Firewall, Skype for Business opens the required ports automatically.</span></span>
     
-    <span data-ttu-id="15b78-128">If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span><span class="sxs-lookup"><span data-stu-id="15b78-128">If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span> <span data-ttu-id="15b78-129">这可能需要添加到出站的 Fqdn 允许在防火墙或代理的列表基础结构配置： \*\* \*。 api.skype.com**， \* **。 users.storage.live.com**，和**graph.skype.com\*\*。</span><span class="sxs-lookup"><span data-stu-id="15b78-129">This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**.</span></span> <span data-ttu-id="15b78-130">有关如何在防火墙中打开这些端口上的说明，检查与其附带的文档。</span><span class="sxs-lookup"><span data-stu-id="15b78-130">For instructions on how to open these ports in your firewall, check the documentation that came with it.</span></span>
+    <span data-ttu-id="695c2-128">If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span><span class="sxs-lookup"><span data-stu-id="695c2-128">If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span> <span data-ttu-id="695c2-129">这可能需要将 fqdn 添加到防火墙或代理基础结构配置: \*\* \*api.skype.com**、 \* **users.storage.live.com**和**graph.skype.com\*\*中的出站允许列表。</span><span class="sxs-lookup"><span data-stu-id="695c2-129">This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**.</span></span> <span data-ttu-id="695c2-130">有关如何在防火墙中打开这些端口的说明, 请查看它附带的文档。</span><span class="sxs-lookup"><span data-stu-id="695c2-130">For instructions on how to open these ports in your firewall, check the documentation that came with it.</span></span>
     
-    <span data-ttu-id="15b78-131">您需要打开的所有端口的列表，请参阅[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。</span><span class="sxs-lookup"><span data-stu-id="15b78-131">For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span>
+    <span data-ttu-id="695c2-131">有关需要打开的所有端口的列表, 请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。</span><span class="sxs-lookup"><span data-stu-id="695c2-131">For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span>
 
-9. <span data-ttu-id="15b78-132">请确保组织中的管理员还具有执行这些步骤。</span><span class="sxs-lookup"><span data-stu-id="15b78-132">Make sure that the administrator in the organization has also followed these steps.</span></span>
+9. <span data-ttu-id="695c2-132">请确保组织中的管理员也已按照这些步骤操作。</span><span class="sxs-lookup"><span data-stu-id="695c2-132">Make sure that the administrator in the organization has also followed these steps.</span></span>
     
-10. <span data-ttu-id="15b78-p106">**测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。</span><span class="sxs-lookup"><span data-stu-id="15b78-p106">**WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.</span></span>
+10. <span data-ttu-id="695c2-p106">**测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。</span><span class="sxs-lookup"><span data-stu-id="695c2-p106">**WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.</span></span>
     
-<span data-ttu-id="15b78-135">![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 现在，你可以允许你的用户搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！</span><span class="sxs-lookup"><span data-stu-id="15b78-135">![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app!</span></span> <span data-ttu-id="15b78-136">若要了解详细信息，请参阅[适用于业务用户允许 Skype 添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。</span><span class="sxs-lookup"><span data-stu-id="15b78-136">To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).</span></span>
+<span data-ttu-id="695c2-135">![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 现在，你可以允许你的用户搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！</span><span class="sxs-lookup"><span data-stu-id="695c2-135">![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app!</span></span> <span data-ttu-id="695c2-136">若要了解详细信息, 请参阅[让 skype For business 用户添加 skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。</span><span class="sxs-lookup"><span data-stu-id="695c2-136">To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).</span></span>
   
-## <a name="test-and-troubleshoot"></a><span data-ttu-id="15b78-137">测试和故障排除</span><span class="sxs-lookup"><span data-stu-id="15b78-137">Test and troubleshoot</span></span>
-<span data-ttu-id="15b78-138"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-138"></span></span>
+## <a name="test-and-troubleshoot"></a><span data-ttu-id="695c2-137">测试和故障排除</span><span class="sxs-lookup"><span data-stu-id="695c2-137">Test and troubleshoot</span></span>
+<span data-ttu-id="695c2-138"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-138"></span></span>
 
- <span data-ttu-id="15b78-139">**人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。**</span><span class="sxs-lookup"><span data-stu-id="15b78-139">**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) right.**</span></span>
+ <span data-ttu-id="695c2-139">**人们在设置企业到企业通信时遇到的最常见的问题是正确完成[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。**</span><span class="sxs-lookup"><span data-stu-id="695c2-139">**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) right.**</span></span>
   
-<span data-ttu-id="15b78-140">要测试你的设置，你需要 Skype for Business 上不受你公司的防火墙保护的联系人。</span><span class="sxs-lookup"><span data-stu-id="15b78-140">To test your setup, you need a contact on Skype for Business who's not behind your company firewall.</span></span>
+<span data-ttu-id="695c2-140">要测试你的设置，你需要 Skype for Business 上不受你公司的防火墙保护的联系人。</span><span class="sxs-lookup"><span data-stu-id="695c2-140">To test your setup, you need a contact on Skype for Business who's not behind your company firewall.</span></span>
   
-1. <span data-ttu-id="15b78-141">在更改外部通信设置后， **直到等待 24 小时后再进行测试** 。</span><span class="sxs-lookup"><span data-stu-id="15b78-141">After you change your external communications settings, **WAIT UP TO 24 HOURS TO TEST**.</span></span>
+1. <span data-ttu-id="695c2-141">在更改外部通信设置后， **直到等待 24 小时后再进行测试** 。</span><span class="sxs-lookup"><span data-stu-id="695c2-141">After you change your external communications settings, **WAIT UP TO 24 HOURS TO TEST**.</span></span>
     
-2. <span data-ttu-id="15b78-142">在 Skype for Business 中，搜索你的 Skype for Business 联系人，然后发送聊天请求。</span><span class="sxs-lookup"><span data-stu-id="15b78-142">In Skype for Business, search for your contact in Skype for Business, and send a request to chat.</span></span>
+2. <span data-ttu-id="695c2-142">在 Skype for Business 中，搜索你的 Skype for Business 联系人，然后发送聊天请求。</span><span class="sxs-lookup"><span data-stu-id="695c2-142">In Skype for Business, search for your contact in Skype for Business, and send a request to chat.</span></span>
     
-    <span data-ttu-id="15b78-143">如果您收到一条消息，无法将其发送由于公司策略，您需要仔细检查您的[Office 365 Url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。</span><span class="sxs-lookup"><span data-stu-id="15b78-143">If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span>
+    <span data-ttu-id="695c2-143">如果收到一条消息, 指出由于公司策略无法发送邮件, 您需要仔细检查您的[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。</span><span class="sxs-lookup"><span data-stu-id="695c2-143">If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).</span></span>
     
-3. <span data-ttu-id="15b78-p108">要求你的 Skype for Business 联系人向你发送聊天请求。如果你未收到其请求，那么你的防火墙有问题（假设他们已确认其防火墙设置正确）。</span><span class="sxs-lookup"><span data-stu-id="15b78-p108">Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).</span></span>
+3. <span data-ttu-id="695c2-p108">要求你的 Skype for Business 联系人向你发送聊天请求。如果你未收到其请求，那么你的防火墙有问题（假设他们已确认其防火墙设置正确）。</span><span class="sxs-lookup"><span data-stu-id="695c2-p108">Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).</span></span>
     
-4. <span data-ttu-id="15b78-p109">另一个测试问题是否出自你的防火墙的方法是在不受你的防火墙保护的 WiFi 位置（例如咖啡店）使用 Skype for Business 向你的 Skype 联系人发送聊天请求。如果消息顺利传送，但不是在你工作的时候，那么问题出自你的防火墙。</span><span class="sxs-lookup"><span data-stu-id="15b78-p109">Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your contact to chat. If the message goes through there, but not when you're at work, then you know the problem is your firewall.</span></span>
+4. <span data-ttu-id="695c2-p109">另一个测试问题是否出自你的防火墙的方法是在不受你的防火墙保护的 WiFi 位置（例如咖啡店）使用 Skype for Business 向你的 Skype 联系人发送聊天请求。如果消息顺利传送，但不是在你工作的时候，那么问题出自你的防火墙。</span><span class="sxs-lookup"><span data-stu-id="695c2-p109">Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your contact to chat. If the message goes through there, but not when you're at work, then you know the problem is your firewall.</span></span>
     
-## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a><span data-ttu-id="15b78-148">在与其他企业连接时如何查找其他人以及如何被找到</span><span class="sxs-lookup"><span data-stu-id="15b78-148">How to find others, and be found, when connecting with another business</span></span>
-<span data-ttu-id="15b78-149"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-149"></span></span>
+## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a><span data-ttu-id="695c2-148">在与其他企业连接时如何查找其他人以及如何被找到</span><span class="sxs-lookup"><span data-stu-id="695c2-148">How to find others, and be found, when connecting with another business</span></span>
+<span data-ttu-id="695c2-149"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-149"></span></span>
 
-<span data-ttu-id="15b78-150">您的用户启用与其他 Skype 业务用户的外部通信后，可以通过搜索其登录名为企业用户查找联盟的 Skype： 例如，Rob@contoso.com。</span><span class="sxs-lookup"><span data-stu-id="15b78-150">After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com.</span></span> <span data-ttu-id="15b78-151">然后，他们需要将此人添加到联系人列表中。</span><span class="sxs-lookup"><span data-stu-id="15b78-151">Then they will need to add the person to their list of contacts.</span></span>
+<span data-ttu-id="695c2-150">启用与其他 Skype for Business 用户的外部通信后, 你的用户可以通过搜索其登录名找到联合 Skype for business 用户: 例如, Rob@contoso.com。</span><span class="sxs-lookup"><span data-stu-id="695c2-150">After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com.</span></span> <span data-ttu-id="695c2-151">然后，他们需要将此人添加到联系人列表中。</span><span class="sxs-lookup"><span data-stu-id="695c2-151">Then they will need to add the person to their list of contacts.</span></span>
   
-![若要联合的商业中查找用户，您必须搜索其电子邮件地址 （这通常也是其登录名）。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![若要查找联合企业中的用户, 必须搜索其电子邮件地址 (这通常也是他们的登录名称)。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a><span data-ttu-id="15b78-153">设置联盟企业通信的提示</span><span class="sxs-lookup"><span data-stu-id="15b78-153">Tips on setting up communications with federated businesses</span></span>
-<span data-ttu-id="15b78-154"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-154"></span></span>
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a><span data-ttu-id="695c2-153">设置联盟企业通信的提示</span><span class="sxs-lookup"><span data-stu-id="695c2-153">Tips on setting up communications with federated businesses</span></span>
+<span data-ttu-id="695c2-154"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-154"></span></span>
 
-- <span data-ttu-id="15b78-155">若要配置的业务 2015 Skype 和 Skype 业务 online 之间的联盟，请参阅这篇文章：[配置与业务 online Skype 的联合身份验证](https://technet.microsoft.com/en-us/library/jj205126.aspx)。</span><span class="sxs-lookup"><span data-stu-id="15b78-155">To configure federation between Skype for Business 2015 and Skype for Business Online, see this  article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).</span></span>
+- <span data-ttu-id="695c2-155">若要配置 Skype for Business 2015 和 Skype for business Online 之间的联盟, 请参阅本文:[配置与 Skype for Business online 的联盟](https://technet.microsoft.com/en-us/library/jj205126.aspx)。</span><span class="sxs-lookup"><span data-stu-id="695c2-155">To configure federation between Skype for Business 2015 and Skype for Business Online, see this  article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).</span></span>
     
-- <span data-ttu-id="15b78-156">若要配置的业务 Online 之间 Lync 和 Skype 联合身份验证，请参阅这篇文章：[为 Lync Online 客户配置联盟支持](https://technet.microsoft.com/en-us/library/hh202193.aspx)。</span><span class="sxs-lookup"><span data-stu-id="15b78-156">To configure federation between Lync and Skype for Business Online, see this  article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).</span></span>
+- <span data-ttu-id="695c2-156">要配置 Lync 与 Skype for business Online 之间的联盟, 请参阅本文:[为 Lync Online 客户配置联合身份验证支持](https://technet.microsoft.com/en-us/library/hh202193.aspx)。</span><span class="sxs-lookup"><span data-stu-id="695c2-156">To configure federation between Lync and Skype for Business Online, see this  article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).</span></span>
     
-- <span data-ttu-id="15b78-157">当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。</span><span class="sxs-lookup"><span data-stu-id="15b78-157">When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.</span></span>
+- <span data-ttu-id="695c2-157">当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。</span><span class="sxs-lookup"><span data-stu-id="695c2-157">When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.</span></span>
     
-- <span data-ttu-id="15b78-158">如果您的组织中的业务用户 Skype 置于就地或诉讼保留，该用户和其他 Skype 业务或 Skype 用户之间的 IM 对话将保存其邮箱中的**可恢复的项目**中。</span><span class="sxs-lookup"><span data-stu-id="15b78-158">If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox.</span></span> <span data-ttu-id="15b78-159">这些对话将不保存在其邮箱中的" **对话历史记录**"文件夹中。</span><span class="sxs-lookup"><span data-stu-id="15b78-159">These conversations aren't saved in the **Conversations History** folder in their mailbox.</span></span>
+- <span data-ttu-id="695c2-158">如果你的组织中的 Skype for Business 用户已加入现场或诉讼封存, 则该用户和其他 Skype for business 或 Skype 用户之间的任何 IM 对话都将保存在其邮箱中的**可恢复项目**中。</span><span class="sxs-lookup"><span data-stu-id="695c2-158">If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox.</span></span> <span data-ttu-id="695c2-159">这些对话将不保存在其邮箱中的" **对话历史记录**"文件夹中。</span><span class="sxs-lookup"><span data-stu-id="695c2-159">These conversations aren't saved in the **Conversations History** folder in their mailbox.</span></span>
     
-## <a name="turn-off-external-communication-for-specific-individuals"></a><span data-ttu-id="15b78-160">关闭特定个人的外部通信</span><span class="sxs-lookup"><span data-stu-id="15b78-160">Turn off external communication for specific individuals</span></span>
-<span data-ttu-id="15b78-161"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-161"></span></span>
+## <a name="turn-off-external-communication-for-specific-individuals"></a><span data-ttu-id="695c2-160">关闭特定个人的外部通信</span><span class="sxs-lookup"><span data-stu-id="695c2-160">Turn off external communication for specific individuals</span></span>
+<span data-ttu-id="695c2-161"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-161"></span></span>
 
-<span data-ttu-id="15b78-162">为你的整个企业启用外部通信后，你可以仅为特定的个人关闭它。</span><span class="sxs-lookup"><span data-stu-id="15b78-162">After you enable external communication for your entire business, you can turn it off for only specific individuals.</span></span>
+<span data-ttu-id="695c2-162">为你的整个企业启用外部通信后，你可以仅为特定的个人关闭它。</span><span class="sxs-lookup"><span data-stu-id="695c2-162">After you enable external communication for your entire business, you can turn it off for only specific individuals.</span></span>
   
-1. <span data-ttu-id="15b78-163">使用 Office 365 管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="15b78-163">Sign in with your Office 365 admin account.</span></span>
+1. <span data-ttu-id="695c2-163">通过 Office 365 管理员帐户登录。</span><span class="sxs-lookup"><span data-stu-id="695c2-163">Sign in with your Office 365 admin account.</span></span>
     
-2. <span data-ttu-id="15b78-164">在 Office 365 管理中心，转到**用户** > **活动用户**。</span><span class="sxs-lookup"><span data-stu-id="15b78-164">In the Office 365 admin center, go to **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="695c2-164">在 Office 365 管理中心中, 转到 "**用户** > **活动用户**"。</span><span class="sxs-lookup"><span data-stu-id="695c2-164">In the Office 365 admin center, go to **Users** > **Active users**.</span></span>
     
-3. <span data-ttu-id="15b78-165">在用户列表中，选择用户，然后在" **其他设置**"下单击" **编辑 Skype for Business 属性**"。</span><span class="sxs-lookup"><span data-stu-id="15b78-165">In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.</span></span>
+3. <span data-ttu-id="695c2-165">在用户列表中，选择用户，然后在" **其他设置**"下单击" **编辑 Skype for Business 属性**"。</span><span class="sxs-lookup"><span data-stu-id="695c2-165">In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.</span></span>
     
     ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. <span data-ttu-id="15b78-167">在**Skype 业务管理中心的**中，选择**外部通信**。</span><span class="sxs-lookup"><span data-stu-id="15b78-167">In the **Skype for Business admin center**, choose **External communications**.</span></span>
+4. <span data-ttu-id="695c2-167">在**Skype For business 管理中心**, 选择 "**外部通信**"。</span><span class="sxs-lookup"><span data-stu-id="695c2-167">In the **Skype for Business admin center**, choose **External communications**.</span></span>
     
-    <span data-ttu-id="15b78-168">在**选项**页中，将为选择所有选项。</span><span class="sxs-lookup"><span data-stu-id="15b78-168">On the **Options** page, all of the choices will be selected.</span></span> <span data-ttu-id="15b78-169">清除要禁用通信。</span><span class="sxs-lookup"><span data-stu-id="15b78-169">Clear the communications you want to disable.</span></span> <span data-ttu-id="15b78-170">下图显示了 Jakob 能够与其他可信企业中的人员通信，但是无法与其他 Skype 用户通信。</span><span class="sxs-lookup"><span data-stu-id="15b78-170">The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.</span></span>
+    <span data-ttu-id="695c2-168">在 "**选项**" 页面上, 将选中所有选项。</span><span class="sxs-lookup"><span data-stu-id="695c2-168">On the **Options** page, all of the choices will be selected.</span></span> <span data-ttu-id="695c2-169">清除要禁用的通信。</span><span class="sxs-lookup"><span data-stu-id="695c2-169">Clear the communications you want to disable.</span></span> <span data-ttu-id="695c2-170">下图显示了 Jakob 能够与其他可信企业中的人员通信，但是无法与其他 Skype 用户通信。</span><span class="sxs-lookup"><span data-stu-id="695c2-170">The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.</span></span>
     
     ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
-5. <span data-ttu-id="15b78-172">选择" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="15b78-172">Choose **Save**.</span></span>
+5. <span data-ttu-id="695c2-172">选择" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="695c2-172">Choose **Save**.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="15b78-173">[!注释] 你可能必须等待长达 24 小时，更改才会生效。</span><span class="sxs-lookup"><span data-stu-id="15b78-173">You may have to wait for up to 24 hours for your changes to take effect.</span></span> 
+> <span data-ttu-id="695c2-173">[!注释] 你可能必须等待长达 24 小时，更改才会生效。</span><span class="sxs-lookup"><span data-stu-id="695c2-173">You may have to wait for up to 24 hours for your changes to take effect.</span></span> 
   
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a><span data-ttu-id="15b78-174">相关主题</span><span class="sxs-lookup"><span data-stu-id="15b78-174">Related topics</span></span>
-<span data-ttu-id="15b78-175"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="15b78-175"></span></span>
+## <a name="related-topics"></a><span data-ttu-id="695c2-174">相关主题</span><span class="sxs-lookup"><span data-stu-id="695c2-174">Related topics</span></span>
+<span data-ttu-id="695c2-175"><a name="bk_preview"> </a></span><span class="sxs-lookup"><span data-stu-id="695c2-175"></span></span>
 
-[<span data-ttu-id="15b78-176">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="15b78-176">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+[<span data-ttu-id="695c2-176">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="695c2-176">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
   
-[<span data-ttu-id="15b78-177">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="15b78-177">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="695c2-177">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="695c2-177">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
   
   
  
