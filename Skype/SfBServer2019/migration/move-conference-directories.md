@@ -4,61 +4,61 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 停用池之前必须执行以下过程的每个会议目录在旧池中。
-ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 在取消池之前, 必须针对旧版池中的每个会议目录执行以下过程。
+ms.openlocfilehash: c3bee8160e7387102f6d45fc39fa821d2f0df161
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298139"
 ---
-# <a name="move-conference-directories"></a><span data-ttu-id="b36b9-103">移动会议目录</span><span class="sxs-lookup"><span data-stu-id="b36b9-103">Move Conference Directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="8c7a0-103">移动会议目录</span><span class="sxs-lookup"><span data-stu-id="8c7a0-103">Move Conference Directories</span></span>
 
-<span data-ttu-id="b36b9-104">停用池之前, 必须执行以下过程的每个会议目录在旧池中。</span><span class="sxs-lookup"><span data-stu-id="b36b9-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
+<span data-ttu-id="8c7a0-104">在解除池之前, 必须针对旧版池中的每个会议目录执行以下过程。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="b36b9-105">将业务服务器 2019年会议目录移到 Skype</span><span class="sxs-lookup"><span data-stu-id="b36b9-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="8c7a0-105">将会议目录移动到 Skype for business Server 2019</span><span class="sxs-lookup"><span data-stu-id="8c7a0-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="b36b9-106">打开 Skype 业务 Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="b36b9-106">Open the Skype for Business Server Management Shell.</span></span>
+1. <span data-ttu-id="8c7a0-106">打开 Skype for Business 服务器命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-106">Open the Skype for Business Server Management Shell.</span></span>
     
-2. <span data-ttu-id="b36b9-107">若要获取组织中会议目录的标识，请运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="b36b9-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
+2. <span data-ttu-id="8c7a0-107">若要获取组织中的会议目录的标识, 请运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
     
    ```
    Get-CsConferenceDirectory
    ```
 
-    <span data-ttu-id="b36b9-108">上述命令返回组织中的所有会议目录。</span><span class="sxs-lookup"><span data-stu-id="b36b9-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="b36b9-109">因此，您可能想要将结果限制为正在停用该池。</span><span class="sxs-lookup"><span data-stu-id="b36b9-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="b36b9-110">例如，如果您要停用具有完全限定域名 (FQDN) pool01.contoso.net 池，使用此命令返回的数据限制为会议目录从该池：</span><span class="sxs-lookup"><span data-stu-id="b36b9-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
+    <span data-ttu-id="8c7a0-108">上面的命令返回你的组织中的所有会议目录。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="8c7a0-109">因此, 你可能希望将结果限制为即将停止的池。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="8c7a0-110">例如, 如果你使用完全限定的域名 (FQDN) pool01.contoso.net 取消池, 请使用此命令将返回的数据限制为来自该池中的会议目录:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    <span data-ttu-id="b36b9-111">该命令返回其中 ServiceID 属性包含 FQDN pool01.contoso.net 仅会议目录。</span><span class="sxs-lookup"><span data-stu-id="b36b9-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="8c7a0-111">该命令仅返回 ServiceID 属性包含 FQDN pool01.contoso.net 的会议目录。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
     
-3. <span data-ttu-id="b36b9-112">若要移动会议目录，请对池中运行的每个会议目录的以下命令：</span><span class="sxs-lookup"><span data-stu-id="b36b9-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
+3. <span data-ttu-id="8c7a0-112">若要移动会议目录, 请对池中的每个会议目录运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
     
    ```
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    <span data-ttu-id="b36b9-113">例如，若要移动会议目录 3，使用此命令中，指定为业务服务器 2019年池 Skype 作为 TargetPool:</span><span class="sxs-lookup"><span data-stu-id="b36b9-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
+    <span data-ttu-id="8c7a0-113">例如, 若要移动会议目录 3, 请使用此命令, 将 Skype for Business Server 2019 池指定为 TargetPool:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
     
    ```
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    <span data-ttu-id="b36b9-114">如果您想要移动的所有会议目录的池上，使用类似如下的命令：</span><span class="sxs-lookup"><span data-stu-id="b36b9-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
+    <span data-ttu-id="8c7a0-114">如果要移动池中的所有会议目录, 请使用类似于以下内容的命令:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-<span data-ttu-id="b36b9-115">有关停用旧池全面的分步说明下载[卸载旧的 Microsoft and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) 。</span><span class="sxs-lookup"><span data-stu-id="b36b9-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
+<span data-ttu-id="8c7a0-115">下载[Microsoft 旧版和删除服务器角色](https://go.microsoft.com/fwlink/p/?linkId=246227), 获取有关取消旧版池的全面的分步说明。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
   
-<span data-ttu-id="b36b9-116">移动会议目录时, 可能会遇到以下错误：</span><span class="sxs-lookup"><span data-stu-id="b36b9-116">When moving conference directories, you might encounter the following error:</span></span>
+<span data-ttu-id="8c7a0-116">移动会议目录时, 可能会遇到以下错误:</span><span class="sxs-lookup"><span data-stu-id="8c7a0-116">When moving conference directories, you might encounter the following error:</span></span>
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -67,6 +67,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-<span data-ttu-id="b36b9-117">通常，当业务 Server 命令行管理程序 Skype 需要更新的 Active Directory 权限才能完成任务集，将发生此错误。</span><span class="sxs-lookup"><span data-stu-id="b36b9-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="b36b9-118">若要解决此问题，关闭当前实例的命令行管理程序，然后打开命令行管理程序的新实例并重新运行此命令移动会议目录。</span><span class="sxs-lookup"><span data-stu-id="b36b9-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
+<span data-ttu-id="8c7a0-117">此错误通常在 Skype for Business 服务器管理外壳需要更新的一组 Active Directory 权限以完成任务时出现。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="8c7a0-118">若要解决此问题, 请关闭该命令行管理程序的当前实例, 然后打开一个新的 Shell 实例, 然后重新运行该命令以移动会议目录。</span><span class="sxs-lookup"><span data-stu-id="8c7a0-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
   
 
