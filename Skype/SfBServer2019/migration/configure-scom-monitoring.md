@@ -4,41 +4,41 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 迁移到 Microsoft Skype for Business Server 2019 之后，您必须完成几项任务才能配置的业务服务器 2019 以使用 System Center Operations Manager 的 Skype。
-ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 迁移到 Microsoft Skype for Business Server 2019 后, 必须完成一些任务来配置 Skype for business Server 2019, 才能使用 System Center Operations Manager。
+ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238721"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284499"
 ---
-# <a name="configure-scom-monitoring"></a><span data-ttu-id="32690-103">配置 SCOM 监控</span><span class="sxs-lookup"><span data-stu-id="32690-103">Configure SCOM monitoring</span></span>
+# <a name="configure-scom-monitoring"></a><span data-ttu-id="5adf1-103">配置 SCOM 监控</span><span class="sxs-lookup"><span data-stu-id="5adf1-103">Configure SCOM monitoring</span></span>
 
-<span data-ttu-id="32690-104">迁移到 Skype for Business Server 2019 之后，您必须完成几项任务才能配置的业务服务器 2019 以使用 System Center Operations Manager 的 Skype。</span><span class="sxs-lookup"><span data-stu-id="32690-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
+<span data-ttu-id="5adf1-104">迁移到 Skype for business Server 2019 后, 您必须完成一些任务来配置 Skype for Business Server 2019, 才能使用 System Center Operations Manager。</span><span class="sxs-lookup"><span data-stu-id="5adf1-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
   
-- <span data-ttu-id="32690-105">更新应用于选择用来管理中央发现逻辑的服务器。</span><span class="sxs-lookup"><span data-stu-id="32690-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
+- <span data-ttu-id="5adf1-105">将更新应用到选择的服务器以管理集中发现逻辑。</span><span class="sxs-lookup"><span data-stu-id="5adf1-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
     
-- <span data-ttu-id="32690-106">更新中央发现候选服务器注册表项。</span><span class="sxs-lookup"><span data-stu-id="32690-106">Update the central discovery candidate server registry key.</span></span>
+- <span data-ttu-id="5adf1-106">更新中央发现候选服务器注册表项。</span><span class="sxs-lookup"><span data-stu-id="5adf1-106">Update the central discovery candidate server registry key.</span></span>
     
-- <span data-ttu-id="32690-107">主 System Center Operations Manager 管理服务器配置为覆盖候选中央发现节点。</span><span class="sxs-lookup"><span data-stu-id="32690-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
+- <span data-ttu-id="5adf1-107">将您的主 System Center Operations Manager 管理服务器配置为替代候选中央发现节点。</span><span class="sxs-lookup"><span data-stu-id="5adf1-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
     
-<span data-ttu-id="32690-108">下面提供了有关执行上述各项任务的说明。</span><span class="sxs-lookup"><span data-stu-id="32690-108">Instructions for carrying out each of these tasks are provided below.</span></span>
+<span data-ttu-id="5adf1-108">下面提供了有关执行其中每项任务的说明。</span><span class="sxs-lookup"><span data-stu-id="5adf1-108">Instructions for carrying out each of these tasks are provided below.</span></span>
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="32690-109">更新应用于选择用来管理中央发现逻辑的服务器。</span><span class="sxs-lookup"><span data-stu-id="32690-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="5adf1-109">将更新应用到选择的服务器以管理集中发现逻辑。</span><span class="sxs-lookup"><span data-stu-id="5adf1-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
 
-1. <span data-ttu-id="32690-110">选择具有 System Center Operations Manager 代理文件安装并配置为候选发现节点的服务器。</span><span class="sxs-lookup"><span data-stu-id="32690-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
+1. <span data-ttu-id="5adf1-110">选择安装了 System Center Operations Manager 代理文件的服务器, 并将其配置为候选发现节点。</span><span class="sxs-lookup"><span data-stu-id="5adf1-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
     
-2. <span data-ttu-id="32690-111">更新应用于该服务器。</span><span class="sxs-lookup"><span data-stu-id="32690-111">Apply updates to this server.</span></span> <span data-ttu-id="32690-112">请参阅主题[应用更新](apply-updates.md)。</span><span class="sxs-lookup"><span data-stu-id="32690-112">See the topic [Apply updates](apply-updates.md).</span></span>
+2. <span data-ttu-id="5adf1-111">将更新应用到此服务器。</span><span class="sxs-lookup"><span data-stu-id="5adf1-111">Apply updates to this server.</span></span> <span data-ttu-id="5adf1-112">请参阅主题[应用更新](apply-updates.md)。</span><span class="sxs-lookup"><span data-stu-id="5adf1-112">See the topic [Apply updates](apply-updates.md).</span></span>
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="32690-113">更新中央发现候选服务器注册表项。</span><span class="sxs-lookup"><span data-stu-id="32690-113">Update the central discovery candidate server registry key.</span></span>
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="5adf1-113">更新中央发现候选服务器注册表项。</span><span class="sxs-lookup"><span data-stu-id="5adf1-113">Update the central discovery candidate server registry key.</span></span>
 
-1. <span data-ttu-id="32690-114">在选择用来管理中央发现逻辑服务器上，打开 Windows PowerShell 命令窗口。</span><span class="sxs-lookup"><span data-stu-id="32690-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
+1. <span data-ttu-id="5adf1-114">在选择了管理中心发现逻辑的服务器上, 打开 Windows PowerShell 命令窗口。</span><span class="sxs-lookup"><span data-stu-id="5adf1-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
     
-2. <span data-ttu-id="32690-115">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="32690-115">At the command line, type the following:</span></span>
+2. <span data-ttu-id="5adf1-115">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="5adf1-115">At the command line, type the following:</span></span>
     
    ```
    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
@@ -49,18 +49,18 @@ ms.locfileid: "32238721"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="32690-116">只要编辑注册表，可能会遇到错误的命令失败如果注册表项已存在。</span><span class="sxs-lookup"><span data-stu-id="32690-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="32690-117">如果您遇到此，您可以放心地忽略错误。</span><span class="sxs-lookup"><span data-stu-id="32690-117">If you experience this, you can safely ignore the error.</span></span> 
+    > <span data-ttu-id="5adf1-116">编辑注册表时, 如果注册表项已存在, 则可能会遇到错误: 命令失败。</span><span class="sxs-lookup"><span data-stu-id="5adf1-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="5adf1-117">如果遇到这种情况, 您可以安全地忽略该错误。</span><span class="sxs-lookup"><span data-stu-id="5adf1-117">If you experience this, you can safely ignore the error.</span></span> 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="32690-118">主 System Center Operations Manager 管理服务器配置为覆盖候选中央发现观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="32690-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="5adf1-118">将您的主 System Center Operations Manager 管理服务器配置为替代候选中央发现观察程序节点。</span><span class="sxs-lookup"><span data-stu-id="5adf1-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
 
-1. <span data-ttu-id="32690-119">在计算机上已安装 System Center Operations Manager 控制台，展开**管理包对象**，然后选择**对象发现**。</span><span class="sxs-lookup"><span data-stu-id="32690-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
+1. <span data-ttu-id="5adf1-119">在已安装 System Center Operations Manager 控制台的计算机上, 展开 "**管理包对象**", 然后选择 "**对象发现**"。</span><span class="sxs-lookup"><span data-stu-id="5adf1-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
     
-2. <span data-ttu-id="32690-120">单击**更改范围**</span><span class="sxs-lookup"><span data-stu-id="32690-120">Click **Change Scope**</span></span>
+2. <span data-ttu-id="5adf1-120">单击 "**更改范围**"</span><span class="sxs-lookup"><span data-stu-id="5adf1-120">Click **Change Scope**</span></span>
     
-3. <span data-ttu-id="32690-121">从**范围管理包对象**页上，选择**LS 发现候选**。</span><span class="sxs-lookup"><span data-stu-id="32690-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
+3. <span data-ttu-id="5adf1-121">从 "**作用域管理包对象**" 页面中, 选择 "**搜索候选**项"。</span><span class="sxs-lookup"><span data-stu-id="5adf1-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
     
-4. <span data-ttu-id="32690-122">重写**LS 发现候选有效值**为与前一过程中选定的候选服务器的名称。</span><span class="sxs-lookup"><span data-stu-id="32690-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
+4. <span data-ttu-id="5adf1-122">将 "**发现候选**项" 的有效值替换为前面过程中所选择的候选服务器的名称。</span><span class="sxs-lookup"><span data-stu-id="5adf1-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
     
-<span data-ttu-id="32690-123">要完成所做的更改，重新启动 System Center Operations Manager 根管理服务器上的运行状况服务。</span><span class="sxs-lookup"><span data-stu-id="32690-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="5adf1-123">若要完成更改, 请重新启动 System Center Operations Manager 根管理服务器上的运行状况服务。</span><span class="sxs-lookup"><span data-stu-id="5adf1-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
   
 

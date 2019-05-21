@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployReplicaInvoke
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 执行命令窗格中显示安装中央管理存储的本地只读副本的任务的状态。 任务在运行时，运行命令时，将更新任务窗格。 您应查看任务状态，并记下任何错误或警告的显示。 当任务完成后，邮件任务状态： 完成显示，并在日志文件的下拉列表显示日志文件的名称。 若要查看已创建的日志文件，选择要查看并单击查看日志的日志文件。 查看所有日志文件中的成功、 错误和警告消息。
-ms.openlocfilehash: efed7afa9943eb2682096be5216fbe7d9d42261d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: "\"执行命令\" 窗格显示用于安装中央管理存储的本地只读副本的任务的状态。 任务运行时, 将在运行命令时更新任务窗格。 你应该查看任务状态并记下显示的任何错误或警告。 完成任务后, 将显示 \"邮件任务状态: 已完成\", 并且日志文件的下拉列表显示日志文件的名称。 若要查看已创建的日志文件, 请选择要查看的日志文件, 然后单击 \"查看日志\"。 查看所有日志文件, 获取成功、错误和警告消息。"
+ms.openlocfilehash: e9d6c8567853eac167a6407a02f42297d2065986
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893593"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278005"
 ---
-# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="4d020-108">安装本地配置存储（调用）</span><span class="sxs-lookup"><span data-stu-id="4d020-108">Install Local Configuration Store (Invoke)</span></span>
+# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="e5ad4-108">安装本地配置存储（调用）</span><span class="sxs-lookup"><span data-stu-id="e5ad4-108">Install Local Configuration Store (Invoke)</span></span>
  
-<span data-ttu-id="4d020-109">**执行命令**窗格中显示安装中央管理存储的本地只读副本的任务的状态。</span><span class="sxs-lookup"><span data-stu-id="4d020-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="4d020-110">任务在运行时，运行命令时，将更新任务窗格。</span><span class="sxs-lookup"><span data-stu-id="4d020-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="4d020-111">您应查看任务状态，并记下任何错误或警告的显示。</span><span class="sxs-lookup"><span data-stu-id="4d020-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="4d020-112">当任务完成后，邮件**任务状态： 完成**显示，并在日志文件的下拉列表显示日志文件的名称。</span><span class="sxs-lookup"><span data-stu-id="4d020-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="4d020-113">若要查看已创建的日志文件，选择要查看并单击**查看日志**的日志文件。</span><span class="sxs-lookup"><span data-stu-id="4d020-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="4d020-114">查看所有日志文件中的成功、 错误和警告消息。</span><span class="sxs-lookup"><span data-stu-id="4d020-114">Review all log files for success, errors, and warning messages.</span></span>
+<span data-ttu-id="e5ad4-109">"**执行命令**" 窗格显示用于安装中央管理存储的本地只读副本的任务的状态。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="e5ad4-110">任务运行时, 将在运行命令时更新任务窗格。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="e5ad4-111">你应该查看任务状态并记下显示的任何错误或警告。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="e5ad4-112">完成任务后, 将显示 "邮件**任务状态: 已完成**", 并且日志文件的下拉列表显示日志文件的名称。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="e5ad4-113">若要查看已创建的日志文件, 请选择要查看的日志文件, 然后单击 "**查看日志**"。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="e5ad4-114">查看所有日志文件, 获取成功、错误和警告消息。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-114">Review all log files for success, errors, and warning messages.</span></span>
   
-<span data-ttu-id="4d020-115">检查日志文件后，单击**完成**以完成本地配置存储的安装。</span><span class="sxs-lookup"><span data-stu-id="4d020-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
+<span data-ttu-id="e5ad4-115">查看日志文件后, 单击 "**完成**" 以完成本地配置存储的安装。</span><span class="sxs-lookup"><span data-stu-id="e5ad4-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
   
 

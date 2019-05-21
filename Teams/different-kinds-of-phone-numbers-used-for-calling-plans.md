@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,52 +20,52 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Skype 业务 online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。
-ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for business Online 根据您要使用电话号码的目的, 使用不同的电话号码类型。
+ms.openlocfilehash: 0f4feee439beff5821b18296cb0e9a76d65aa139
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281837"
 ---
-# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a><span data-ttu-id="c9327-103">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="c9327-103">Different kinds of phone numbers used for Calling Plans</span></span>
+# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a><span data-ttu-id="04af1-103">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="04af1-103">Different kinds of phone numbers used for Calling Plans</span></span>
 
-<span data-ttu-id="c9327-104">Skype 业务 online 使用不同的电话号码类型，具体取决于您要使用的电话号码的用途。</span><span class="sxs-lookup"><span data-stu-id="c9327-104">Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number.</span></span> <span data-ttu-id="c9327-105">Skype 业务 online 使用**订阅者**号码，可分配给您的组织中的用户和**服务**号码，而分配给服务，如 Office 365 中的音频会议自动助理或呼叫的队列。</span><span class="sxs-lookup"><span data-stu-id="c9327-105">Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues.</span></span> <span data-ttu-id="c9327-106">服务电话号码具有比订阅者 （或用户） 的*更高的并发呼叫容量*的号码。</span><span class="sxs-lookup"><span data-stu-id="c9327-106">Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers.</span></span> <span data-ttu-id="c9327-107">服务电话号码器可用，但会因国家/地区和编号 （无论是收费电话或免费电话号码） 的类型。</span><span class="sxs-lookup"><span data-stu-id="c9327-107">Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number).</span></span> <span data-ttu-id="c9327-108">如果您需要在业务管理中心的 Skype 中看到这些号码之外的其他或其他号码类型，您可以提交到 Microsoft 电话号码服务台的电话号码请求。</span><span class="sxs-lookup"><span data-stu-id="c9327-108">If you need additional or other number types other than those numbers seen in the Skype for Business admin center, you may submit a phone number request to the Microsoft telephone number service desk.</span></span>
+<span data-ttu-id="04af1-104">Skype for business Online 根据您要使用电话号码的目的, 使用不同的电话号码类型。</span><span class="sxs-lookup"><span data-stu-id="04af1-104">Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number.</span></span> <span data-ttu-id="04af1-105">Skype for Business Online 使用可分配给你的组织中的用户的**订户**号码和**服务**号码, 这些号码分配给了诸如 Office 365 中的音频会议、自动助理或呼叫队列等服务。</span><span class="sxs-lookup"><span data-stu-id="04af1-105">Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues.</span></span> <span data-ttu-id="04af1-106">服务电话号码具有比订阅者 (或用户) 号码*更高的并行通话容量*。</span><span class="sxs-lookup"><span data-stu-id="04af1-106">Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers.</span></span> <span data-ttu-id="04af1-107">服务电话号码可用, 但将因国家/地区和号码类型 (无论是收费还是免费号码) 而异。</span><span class="sxs-lookup"><span data-stu-id="04af1-107">Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number).</span></span> <span data-ttu-id="04af1-108">如果您需要其他或其他号码类型, 而不是 Skype for Business 管理中心中显示的号码, 则可以向 Microsoft 电话号码服务桌面提交电话号码请求。</span><span class="sxs-lookup"><span data-stu-id="04af1-108">If you need additional or other number types other than those numbers seen in the Skype for Business admin center, you may submit a phone number request to the Microsoft telephone number service desk.</span></span>
   
-- <span data-ttu-id="c9327-109">**订阅者号码**</span><span class="sxs-lookup"><span data-stu-id="c9327-109">**Subscriber Numbers**</span></span>
+- <span data-ttu-id="04af1-109">**订户号码**</span><span class="sxs-lookup"><span data-stu-id="04af1-109">**Subscriber Numbers**</span></span>
     
-    <span data-ttu-id="c9327-110">订阅者号码分配给用户，并有两种：</span><span class="sxs-lookup"><span data-stu-id="c9327-110">Subscriber numbers are assigned to users, and there are two kinds:</span></span>
+    <span data-ttu-id="04af1-110">订户号码分配给用户, 并且有两种类型:</span><span class="sxs-lookup"><span data-stu-id="04af1-110">Subscriber numbers are assigned to users, and there are two kinds:</span></span>
     
-  - <span data-ttu-id="c9327-111">**地理号码**地理号码具有对一个地理区域的关系，并且最常见。</span><span class="sxs-lookup"><span data-stu-id="c9327-111">**Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common.</span></span> <span data-ttu-id="c9327-112">例如，地理的电话号码在大多数情况下仅可在特定地址、 城市、 州或国家 / 地区。</span><span class="sxs-lookup"><span data-stu-id="c9327-112">For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.</span></span>
+  - <span data-ttu-id="04af1-111">**地理号码**地理号码具有与地理区域的关系, 并且是最常见的。</span><span class="sxs-lookup"><span data-stu-id="04af1-111">**Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common.</span></span> <span data-ttu-id="04af1-112">例如, 大多数情况下, 地理电话号码只能在国家/地区的特定地址、城市、省/地区内使用。</span><span class="sxs-lookup"><span data-stu-id="04af1-112">For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.</span></span>
     
-  - <span data-ttu-id="c9327-113">**非地理号码**都不具有对国家/地区内的地理区域的关系的国家/地区号码非地理的号码。</span><span class="sxs-lookup"><span data-stu-id="c9327-113">**Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region.</span></span> <span data-ttu-id="c9327-114">例如，非地理号码通常具有相同的成本时从任何地方呼叫的号码国家/地区内。</span><span class="sxs-lookup"><span data-stu-id="c9327-114">For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.</span></span> <span data-ttu-id="c9327-115">此外，某些国家/地区，如丹麦，只需非地理号码。</span><span class="sxs-lookup"><span data-stu-id="c9327-115">Also, some countries, such as Denmark, only have non-geographic numbers available.</span></span>
+  - <span data-ttu-id="04af1-113">**非地理号码**非地理数字是与国家/地区内的地理区域没有关系的国家数。</span><span class="sxs-lookup"><span data-stu-id="04af1-113">**Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region.</span></span> <span data-ttu-id="04af1-114">例如, 在从国家/地区内的任何位置拨打该号码时, 非地理号码通常具有相同的成本。</span><span class="sxs-lookup"><span data-stu-id="04af1-114">For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.</span></span> <span data-ttu-id="04af1-115">此外, 某些国家或地区 (如丹麦) 仅有非地理号码可用。</span><span class="sxs-lookup"><span data-stu-id="04af1-115">Also, some countries, such as Denmark, only have non-geographic numbers available.</span></span>
     
-- <span data-ttu-id="c9327-116">**服务号码**有几种不同类型，服务号码和可用性执行因国家/地区。</span><span class="sxs-lookup"><span data-stu-id="c9327-116">**Service Numbers** Service numbers are available in several different number types, and availability does vary by country/region.</span></span>
+- <span data-ttu-id="04af1-116">**服务号码**服务号码可采用多种不同的号码类型, 并且可用性因国家/地区而异。</span><span class="sxs-lookup"><span data-stu-id="04af1-116">**Service Numbers** Service numbers are available in several different number types, and availability does vary by country/region.</span></span>
     
-  - <span data-ttu-id="c9327-117">**收费电话服务号码**</span><span class="sxs-lookup"><span data-stu-id="c9327-117">**Toll Service Numbers**</span></span>
+  - <span data-ttu-id="04af1-117">**收费服务号码**</span><span class="sxs-lookup"><span data-stu-id="04af1-117">**Toll Service Numbers**</span></span>
     
-    <span data-ttu-id="c9327-118">收费电话服务号码可能会引起到呼叫者，收费电话成本，有两种：</span><span class="sxs-lookup"><span data-stu-id="c9327-118">Toll service numbers may incur a toll cost to the caller, and there are two kinds:</span></span>
+    <span data-ttu-id="04af1-118">电话服务号码可能会向呼叫者收取收费费用, 有两种类型:</span><span class="sxs-lookup"><span data-stu-id="04af1-118">Toll service numbers may incur a toll cost to the caller, and there are two kinds:</span></span>
     
-      - <span data-ttu-id="c9327-119">**地理号码**地理号码具有到不同地理区域的关系。</span><span class="sxs-lookup"><span data-stu-id="c9327-119">**Geographic numbers** Geographic numbers have a relationship to a geographic area.</span></span> <span data-ttu-id="c9327-120">例如，地理的电话号码在大多数情况下仅可在特定地址、 城市、 州或国家 / 地区。</span><span class="sxs-lookup"><span data-stu-id="c9327-120">For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.</span></span>
+      - <span data-ttu-id="04af1-119">**地理号码**地理号码与地理区域有关系。</span><span class="sxs-lookup"><span data-stu-id="04af1-119">**Geographic numbers** Geographic numbers have a relationship to a geographic area.</span></span> <span data-ttu-id="04af1-120">例如, 大多数情况下, 地理电话号码只能在国家/地区的特定地址、城市、省/地区内使用。</span><span class="sxs-lookup"><span data-stu-id="04af1-120">For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.</span></span>
         
-      - <span data-ttu-id="c9327-121">**非地理号码**都不具有对国家/地区内的地理区域的关系的国家/地区号码非地理的号码。</span><span class="sxs-lookup"><span data-stu-id="c9327-121">**Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region.</span></span> <span data-ttu-id="c9327-122">例如，非地理号码通常具有相同的成本时从任何地方呼叫的号码国家/地区内。</span><span class="sxs-lookup"><span data-stu-id="c9327-122">For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.</span></span>
+      - <span data-ttu-id="04af1-121">**非地理号码**非地理数字是与国家/地区内的地理区域没有关系的国家数。</span><span class="sxs-lookup"><span data-stu-id="04af1-121">**Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region.</span></span> <span data-ttu-id="04af1-122">例如, 在从国家/地区内的任何位置拨打该号码时, 非地理号码通常具有相同的成本。</span><span class="sxs-lookup"><span data-stu-id="04af1-122">For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.</span></span>
     
-  - <span data-ttu-id="c9327-123">**免费电话服务号码**这些服务号码通常不会引发到呼叫者收费电话成本。</span><span class="sxs-lookup"><span data-stu-id="c9327-123">**Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller.</span></span> <span data-ttu-id="c9327-124">Skype 业务 online 提供了在超过 60 个国家/地区的国家/地区免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="c9327-124">Skype for Business Online provides national toll-free numbers in over 60 countries/regions.</span></span>
+  - <span data-ttu-id="04af1-123">免费**服务号码**这些服务号码通常不会向呼叫者收取收费费用。</span><span class="sxs-lookup"><span data-stu-id="04af1-123">**Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller.</span></span> <span data-ttu-id="04af1-124">Skype for Business Online 在60国家/地区内提供全国免费电话号码。</span><span class="sxs-lookup"><span data-stu-id="04af1-124">Skype for Business Online provides national toll-free numbers in over 60 countries/regions.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="c9327-125">某些国家/地区和发起数字类型，例如，来自移动电话的呼叫可能会在某些情况下会引发到呼叫者收费电话成本。</span><span class="sxs-lookup"><span data-stu-id="c9327-125">Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller.</span></span> 
+    > <span data-ttu-id="04af1-125">某些国家/地区和原始号码类型 (例如来自移动电话的通话) 可能会在某些情况下向呼叫者收取收费费用。</span><span class="sxs-lookup"><span data-stu-id="04af1-125">Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="c9327-126">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="c9327-126">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="04af1-126">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="04af1-126">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="c9327-127">相关主题</span><span class="sxs-lookup"><span data-stu-id="c9327-127">Related topics</span></span>
-[<span data-ttu-id="c9327-128">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="c9327-128">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="04af1-127">相关主题</span><span class="sxs-lookup"><span data-stu-id="04af1-127">Related topics</span></span>
+[<span data-ttu-id="04af1-128">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="04af1-128">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="c9327-129">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="c9327-129">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="04af1-129">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="04af1-129">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="c9327-130">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="c9327-130">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="04af1-130">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="04af1-130">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="c9327-131">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="c9327-131">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="04af1-131">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="04af1-131">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
