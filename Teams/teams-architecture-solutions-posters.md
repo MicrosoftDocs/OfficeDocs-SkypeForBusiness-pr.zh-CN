@@ -3,7 +3,7 @@ title: Microsoft Teams IT 体系结构和电话解决方案海报
 ms.author: lolaj
 author: lolajacobsen
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
@@ -15,12 +15,12 @@ appliesto:
 search.appverid:
 - MET150
 description: '总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。 此外，了解用于 Teams 的电话解决方案。 '
-ms.openlocfilehash: 4ffa53d11ad7e6a57bd09892c38838e8fd52c58c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 33cfe4f3c3e652170a777ea174b4cd03f4f8730a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293992"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 体系结构和电话解决方案海报
 

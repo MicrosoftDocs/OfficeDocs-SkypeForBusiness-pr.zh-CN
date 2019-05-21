@@ -10,45 +10,45 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 在业务 online Skype，您可以控制现有会议策略设置的一部分 (P2P) 点对点文件传输功能。 但是，这将允许或阻止文件传输他们用户属于同一组织中或从另一个组织的联合用户传输的文件的用户。 下面的下面的步骤，您可以阻止与联盟的组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 在 Skype for Business Online 中, 你可以控制作为现有会议策略设置的一部分的点对点 (P2P) 文件传输。 但是, 这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤, 你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
+ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237535"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297813"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
-在业务 online Skype，您可以控制现有会议策略设置的一部分 (P2P) 点对点文件传输功能。 但是，这将允许或阻止文件传输他们用户属于同一组织中或从另一个组织的联合用户传输的文件的用户。 下面的下面的步骤，您可以阻止与联盟的组织或合作伙伴的 P2P 文件传输。
+在 Skype for Business Online 中, 你可以控制作为现有会议策略设置的一部分的点对点 (P2P) 文件传输。 但是, 这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤, 你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
   
- 要允许内部用户使用 P2P 文件传输，但与联盟伙伴的阻止文件传输时非常常见方案。 对于此方案，您将需要执行操作：
+ 最常见的情况是, 您希望允许内部用户使用 P2P 文件传输, 但阻止与联盟伙伴进行的文件传输。 对于此方案, 你需要执行以下操作:
   
-- 与启用 P2P 文件传输 (_EnableP2PFileTransfer_将设置为_True_) 的会议策略分配给您组织中的用户。
+- 将已启用 P2P 文件传输的会议策略 (_EnableP2PFileTransfer_设置为_True_) 分配给组织中的用户。
     
-- 创建全局外部用户通信策略设置来阻止外部 P2P 文件传输 （_EnableP2PFileTransfer_设置为_False_），并将其分配给您的组织中的用户。 
+- 创建全局外部用户通信策略集以阻止外部 P2P 文件传输 (_EnableP2PFileTransfer_设置为_False_), 并将其分配给组织中的用户。 
     
-您可以了解这些设置的详细信息[此处](https://technet.microsoft.com/en-us/library/mt228132.aspx)。
+你可以在[此处](https://technet.microsoft.com/en-us/library/mt228132.aspx)了解有关这些设置的详细信息。
   
-如果组织外部的联合的用户试图将文件发送给用户其中应用了策略，他们将收到**转接失败**错误。 并且，如果用户尝试发送文件，他们将收到**处于关闭状态文件传输**错误。
+如果组织外部的联盟用户尝试将文件发送到已应用策略的用户, 则它们将收到 "**传输失败**" 错误。 如果用户尝试发送文件, 他们将收到 "**已关闭文件传输**" 错误。
   
-若要使此项工作，用户必须使用 2016年单击即点即用 Skype 是受支持的版本支持的业务应用程序。 下面的最低版本的 Skype 业务 2016年单击即点即用客户端时，需要：
+若要执行此操作, 用户必须使用支持版本的2016即点即用 Skype for business 应用 (支持它)。 需要以下最低版本的 Skype for Business 2016 即点即用客户端:
   
-|**类型**|**发布日期**|**版本**|**生成**|
+|**类型**|**发布日期**|**版本**|**版本号**|
 |:-----|:-----|:-----|:-----|
-|第一版当前通道  <br/> |2016 年 11/17  <br/> |16.0.7571.2006  <br/> |版本 1611 （构建 7571.2006）  <br/> |
-|当前通道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 （构建 7571.2072）  <br/> |
-|延迟的通道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 （构建 7369.2118）  <br/> |
+|当前频道的首次发布  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本 1611 (内部版本 7571.2006)  <br/> |
+|当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 (内部版本 7571.2072)  <br/> |
+|延期频道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 (内部版本 7369.2118)  <br/> |
    
 > [!CAUTION]
-> 使用较早版本的 Skype 业务 Windows 应用程序或 Mac 客户端的用户仍可以传输文件。 
+> 使用旧版本的 Skype for Business Windows 应用或 Mac 客户端的用户仍能传输文件。 
   
 ## <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -56,7 +56,7 @@ ms.locfileid: "32237535"
     
 1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
-2. 通过在**Windows PowerShell**窗口中键入_Get 主机_检查版本。
+2. 通过在**Windows PowerShell**窗口中键入_Get Host_检查版本。
     
 3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
     
@@ -80,21 +80,21 @@ ms.locfileid: "32237535"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>禁用组织的 P2P 文件传输
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>为你的组织禁用 P2P 文件传输
 
-默认情况下，对组织的全局策略启用_EnableP2PFileTransfer_ 。 当创建它时，您的用户分配给_BposSAllModality_策略。
+默认情况下, 在组织的全局策略上启用_EnableP2PFileTransfer_ 。 创建后, 您的用户被分配了_BposSAllModality_策略。
   
-若要允许您组织但阻止的外部文件传输到另一个组织内的 P2P 传输，只需在全局级别更改它。 为此，请运行：
+若要允许组织内部的 P2P 传输, 但阻止外部文件传输到另一个组织, 只需在全局级别进行更改即可。 若要执行此操作, 请运行:
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>禁用的用户的 P2P 文件传输
+## <a name="disable-p2p-file-transfers-for-a-user"></a>为用户禁用 P2P 文件传输
 
-您可以应用于此用户通过创建新策略，并授予该用户。 为此，请运行： 
+你可以通过创建新策略并将其授予该用户来将其应用到用户。 若要执行此操作, 请运行: 
 > 
 >   ```
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -125,7 +125,7 @@ ms.locfileid: "32237535"
 
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
 
-[设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
+[在组织中设置会议策略](set-up-conferencing-policies-for-your-organization.md)
 
   
  

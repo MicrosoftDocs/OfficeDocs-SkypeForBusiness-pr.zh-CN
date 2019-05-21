@@ -1,105 +1,105 @@
 ---
-title: 关闭旧身份验证方法内部和外部到您的网络规划
+title: 计划在内部和外部关闭旧版身份验证方法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
-description: 为管理员提供的身份验证方法的更多控制此文章轮廓 cmdlet 使用的企业内部和外部、。 管理员可以打开身份验证方法或关闭到他们的网络的内部或外部。
-ms.openlocfilehash: ab50913b2a8a784193f30b124f9a212da29fa5bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 本文概述了可让管理员更好地控制在企业内部和外部使用的身份验证方法的 cmdlet。 管理员可以在内部或外部打开或关闭身份验证方法。
+ms.openlocfilehash: aaee46b04832cc114f895f905c180fe089d7349d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929201"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297265"
 ---
-# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>关闭旧身份验证方法内部和外部到您的网络规划。
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>计划在内部和外部关闭旧版身份验证方法。
 
 > [!NOTE]
-> 如果您要阅读这篇文章，您应知道有关受支持的现代身份验证拓扑，ADAL，且现代的身份验证配置有关但，以防不，此处开始所需的文章： 
+> 如果你即将阅读本文, 你应该已了解支持的新式身份验证拓扑、ADAL 以及有关新式身份验证配置, 但如果不是这样, 你需要启动以下文章: 
 >  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
 >  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
-现代身份验证不只是启用更安全的身份验证，如双重身份验证或基于证书的身份验证方法，它可以执行用户授权而无需用户名或密码太。 它是非常方便。
+新式身份验证不仅支持更安全的身份验证方法 (如两因素身份验证或基于证书的身份验证), 还可以在不需要用户名或密码的情况下对用户进行授权。 非常方便。
 
-本文将帮助您为业务服务器，通过关闭旧方法外部、 内部，用于进行身份验证，或同时，您的网络到利用 Skype 上拒绝的服务 (DOS) 攻击的即插即用孔。 例如，是一个很好的方法，可帮助停止 DOS 攻击关闭 Windows 集成的身份验证 （其中包括 NTLM 和 Kerberos）。 外部关闭 NTLM 和依赖于基于证书的身份验证有助于不会泄露保护密码。 这是因为 NTLM 使用密码凭据进行身份验证的用户，但不基于证书的身份验证-由现代身份验证-启用。 表示一个理想选项可减少 DOS 攻击是块外部，NTLM 和使用仅基于证书的身份验证，而是。
+本文将帮助你在 Skype for business 服务器上插入受拒绝服务 (DOS) 攻击的漏洞, 方法是将用于身份验证的较旧方法 (外部、内部或内部) 关闭到你的网络。 例如, 用于帮助阻止 DOS 攻击的一种好方法是关闭 Windows 集成身份验证 (包括 NTLM 和 Kerberos)。 从外部关闭 NTLM 并依赖基于证书的身份验证有助于保护密码免遭泄密。 这是因为 NTLM 使用密码凭据对用户进行身份验证, 但基于证书的身份验证 (由新式身份验证启用) 不是。 这意味着减少 DOS 攻击的一个理想选择是阻止来自外部的 NTLM, 并且改为在此处使用基于证书的身份验证。
 
-没关系，我们开始吧。
+完全正确, 让我们开始吧。
 
-## <a name="what-would-you-be-changing"></a>什么将您更改？ 
+## <a name="what-would-you-be-changing"></a>您要更改哪些内容？ 
 
-这些 cmdlet 处理 SIP 和 Web 服务访问点。 尽管这些两个通道使用不同的访问方法，匿名访问，请从 NTLM 和 Kerberos 运行色阶 for Business 使用 Skype 的所有标准方法具有加以考虑。
+这些 cmdlet 适用于访问的 SIP 和 Web 服务点。 虽然这两个通道使用不同的访问方法 (从 NTLM 和 Kerberos 到匿名访问运行), 但已考虑 Skype for Business 使用的所有标准方法。
 
-## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>如何获取和设置 CsAuthConfig cmdlet
+## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>如何获取 CsAuthConfig cmdlet 和 Set cmdlet
 
-这些 cmdlet 将仅安装发布 2018 年 7 月版累积更新 (6.0.9319.534) 的 Microsoft Skype 业务服务器 2015年，然后您有多种可为您的业务服务器 Skype 推出的拓扑。
+这些 cmdlet 将仅安装 Microsoft Skype for Business Server 2015 的2018年7月累积更新 (6.0.9319.534), 然后你可以为 Skype for business 服务器推出各种拓扑。
 
-## <a name="topologies"></a>拓扑
+## <a name="topologies"></a>朴
 
-非常重要记住这些权限是支持的拓扑此方案中涉及 ！ 如果您需要有关阻止方法的帮助，请转到支持，例如，您需要具有以下类型的之间的配置。 
+请务必记住, 这是此方案中所支持的拓扑。 如果需要转到支持阻止方法的帮助, 则需要在以下类型之间配置配置。 
 
 > [!IMPORTANT]
-> 在表和下面的说明中，*现代身份验证*缩写为__MA__和*Windows 集成身份验证*缩写为__Win__。 注意，Windows 集成身份验证由组成两种方法： NTLM 和 Kerberos 身份验证。 您需要知道此选项可正确读取表 ！
+> 在下面的表和说明中,*新式身份验证*以__MA__为缩写, 而*Windows 集成身份验证*的缩写形式为 " __Win__"。 作为提醒, Windows 集成身份验证由两种方法组成: NTLM 和 Kerberos 身份验证。 您需要知道这一点才能正确阅读表格!
 
 
-|       |外部  |内部  |参数  |
+|       |外部  |Alink  |参数  |
 |---------|:---------|:---------|---------|
-|__类型 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|__类型 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
-|__类型 3__   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
-|__类型 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
-|__类型 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
+|__键入1__   |  马萨诸塞州获胜       | 马萨诸塞州获胜         |  AllowAllExternallyAndInternally       |
+|__键入2__   |  州       | 马萨诸塞州获胜         | BlockWindowsAuthExternally        |
+|__键入3__   |  州       | 州        | BlockWindowsAuthExternallyAndInternally        |
+|__键入4__   |  州       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
+|__键入5__   |  马萨诸塞州获胜       | Win        | BlockModernAuthInternally         |
 
-__键入 1 的说明：__ 这是默认方案 MA 时处于__打开__状态的 Skype 业务服务器。 换句话说，这是*起始点*MA 配置时。
+__键入1说明:__ 这是 Skype for business 服务器的 MA 处于____ 打开状态时的默认方案。 换句话说, 这是配置 MA 的*起始点*。
 
-__类型 2 说明：__ 这种拓扑阻止 NTLM*外部*，但允许 NTLM 或 Kerberos （不支持 ADAL 的客户端）*内部*工作时。 如果您的客户端支持 ADAL 它们将内部使用 MA。
+__键入2说明:__ 此拓扑将阻止来自*外部*ntlm, 但允许 Ntlm 或 Kerberos (对于不支持 ADAL 的客户端)*在内部*工作。 如果您的客户支持 ADAL, 他们将在内部使用 MA。
 
-__类型 3 说明：__ 这种拓扑的所有用户需要 MA。 所有 ADAL 支持客户端都能够在此拓扑中，并将未利用密码，如果，例如，您可以关闭使用与基于证书的验证的密码
+__键入3说明:__ 此拓扑要求所有用户都有 MA。 你的所有支持 ADAL 的客户端都将在此拓扑中运行, 例如, 如果你关闭使用基于证书的身份验证的密码, 则不会利用密码。
 
-__类型 4 说明：__ 这种拓扑结构禁止 NTLM*外部*和 MA 内部。 允许*所有客户端*使用传统的身份验证方法*内部*（甚至 ADAL 支持客户端）。
+__键入4说明:__ 此拓扑在内部** 阻止 NTLM 以及内部的 MA。 它允许*所有客户端**在内部*使用旧身份验证方法 (甚至支持 ADAL 的客户端)。
 
-__类型 5 说明：__ 现代 ADAL 客户端将使用 MA 的*外部*，并且不支持 ADAL 任何客户端将使用旧的身份验证方法。 但是，*内部**所有客户端*将使用旧的身份验证 （包括所有 ADAL 支持的客户端）。
+__键入5说明:__ 在*外部*, 你的现代 ADAL 客户将使用 MA, 任何不支持 ADAL 的客户端都将使用旧身份验证方法。 但是,*在内部*,*所有客户端*都将使用旧版身份验证 (包括所有支持 ADAL 的客户端)。
 
-它是很方便地丢失跟踪的目标的保护密码中可用的选项。 请记住理想的情况下是使用外部 MA （例如，配置基于证书的身份验证），以避免 DOS 攻击。 如果您利用它内部的现代客户端，您将还未来您关于 Skype 业务服务器受到 DOS 攻击的网络。
+在可用选项中, 我们很容易失去保护密码的目标。 请记住, 理想情况是在外部使用 MA (例如, 通过配置基于证书的身份验证) 来避免 DOS 攻击。 如果您为您的现代客户在内部利用它, 您还将为您的网络提供有关 Skype for Business 服务器 DOS 攻击的经得起未来考验的证据。
 
-## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>为什么在全局级别使用集 CsAuthConfig
+## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>为什么要在全局级别使用 CsAuthConfig 设置
 
-`Set-CsAuthConfig`上注册器和 Web 服务角色的 cmdlet 效果配置。
+注册`Set-CsAuthConfig`机构和 Web 服务角色上的 cmdlet 效果配置。
 
-此 cmdlet 是为了在全局级别的企业服务器您 Skype 运行。 它*可以*运行在池级别但即*不建议这样做*，因为它将添加到您安装的复杂性。 在池级别中，运行以下命令，如果池没有所有包含的角色 （例如，它没有 Web 服务），设置才会设置为注册器角色。 在这种情况下，Web 服务执行的全局级别，可以是令人费解行为 （尤其是当这是无意中） 中的设置。
+此 cmdlet 应在 Skype for Business 服务器的全球级别运行。 它*可以*在池级别运行, 但*不建议*这样做, 因为它会增加安装的复杂性。 通过在池级别运行这些命令, 如果你的池没有包括所有角色 (例如, 它没有 Web 服务), 则仅为注册机构角色设置 "设置"。 在这种情况下, Web 服务将通过全局级别的设置进行处理, 这可能是混乱的行为 (尤其是在无意中执行此操作时)。
 
-如果客户端从另一个池使用的注册器设置从一个池和 Web 服务设置和身份验证设置处于不一致状态，可能无法登录 yous 客户端。
+如果客户端使用来自一个池的注册器设置和另一个池中的 Web 服务设置, 并且身份验证设置处于不一致状态, 则 yous 客户端可能无法登录。
 
-此外，如果存在池中只有一个角色： 
-* 设置将仅存在角色设置对应的设置。 由于某些设置*未*设置，会不授予任何特殊的警告。 
-* 获取将返回对应于存在，该角色的设置，并且不存在的角色的全局设置。
-* 如果既角色是存在一个池，这两个组-和 Get-将返回一条错误消息。
-* 如果这两种角色存在池，但不在池级别定义策略，获取将返回一条错误消息。
+同样, 如果一个池只有一个角色, 请执行以下操作: 
+* Set-将仅设置与存在的角色对应的设置。 由于*未*设置某些设置, 因此不会提供特殊警告。 
+* Get-将返回与存在的角色对应的设置, 以及不存在的角色的全局设置。
+* 如果一个池没有角色, 则 "设置" 和 "获取" 将返回错误消息。
+* 如果两个角色都存在于一个池, 但未在池级别定义的策略, 则 Get-将返回错误消息。
 
-它可能最明智的方式执行 Get-这些值，并屏幕截图或其起始状态记录进行任何更改之前。 您可能还考虑在 OneNote 中保留更改日志。
+它可能会 wisest 来获取这些值, 并在进行任何更改之前将其从屏幕截图或记录到其开始状态。 您还可以考虑保留 OneNote 中的更改日志。
 
 > [!NOTE]
 > 
-> 注意： 后配置 CsAuthConfig，您必须运行 Enable-cscomputer 顺序的设置才会生效的每台计算机上。
+> 注意: 配置 CsAuthConfig 后, 必须在每台计算机上运行 Enable-CsComputer, 才能使设置生效。
 
 > [!IMPORTANT]
-> 如果您使用的 Lync Web Access (LWA)，必须使用基于表单的访问 (FBA) 的外部访问，重新配置 LWA，以便客户端可以访问它来支持这些方案的匿名访问。 同样，如果您使用的拨入 Pin，将为外部用户仅阻止 FBA。 如果所需更改其 pin，他们将需要登录到其公司为此，请内部。
+> 如果您使用的是 Lync Web Access (LWA), 并且必须使用基于窗体的 Access (FBA) 进行外部访问, 请重新配置 LWA, 以便客户可以通过匿名访问访问它以支持这些方案。 同样, 如果你使用拨入 Pin, 将阻止外部用户的 FBA。 如果他们需要更改其 pin 码, 他们将需要在内部登录其公司以执行此操作。
 
 ## <a name="links"></a>链接 
-- 有关详细的 PowerShell 信息：
-    -  [Get CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
-    -  [设置 CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
+- 有关 PowerShell 的详细信息:
+    -  [CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [Set-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
-- 有关如何使用命令或上需要安装它们累积更新的详细方向：
+- 有关如何使用命令或对安装所需的 CU 的更多指导, 请执行以下操作:
     - [Cmdlet 简介](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [为业务服务器 2015 Skype 的更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)（常规）
-    - [年 7 月 2018年业务服务器 2015，Skype 核心组件累积更新](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)(6.0.9319.534)
+    - [Skype For Business Server 2015 更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)总经理
+    - [2018 年7月 Skype for Business Server 2015, 核心组件 CU](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 
  

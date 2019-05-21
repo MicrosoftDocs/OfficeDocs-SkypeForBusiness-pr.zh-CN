@@ -1,33 +1,33 @@
 ---
-title: 为业务服务器部署已配对的前端池 Skype 中的灾难恢复
+title: 在 Skype for business Server 中部署用于灾难恢复的配对的前端池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: b281b8d0e9453de2f3faeab5abad88c846633f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49af49a4a8ff3dd0f543de6f1b13bfbe5b571788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894547"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298506"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>为业务服务器部署已配对的前端池 Skype 中的灾难恢复
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for business Server 中部署用于灾难恢复的配对的前端池
  
 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
   
-您可以轻松部署已配对前端池使用拓扑生成器的灾难恢复拓扑。 
+你可以使用拓扑生成器轻松部署配对的前端池的灾难恢复拓扑。 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署配对前端池
 
-1. 如果是新池并且尚未定义，请使用拓扑生成器创建这些池。
+1. 如果池是新的且尚未定义, 请使用拓扑生成器创建池。
     
-2. 在拓扑生成器中，右键单击两个池之一，然后单击**编辑属性**。
+2. 在拓扑生成器中, 右键单击两个池之一, 然后单击 "**编辑属性**"。
     
 3. 在左侧窗格中单击“**复原**”，然后在右侧窗格中选择“**关联的备份池**”。
     
@@ -51,7 +51,7 @@ ms.locfileid: "33894547"
 
     这将配置确保备份配对正常运行所需的其他服务。
     
-9. 从 Skype 的业务 Server 命令行管理程序命令提示符处，运行以下命令： 
+9. 从 Skype for Business 服务器管理外壳命令提示符处, 运行以下命令: 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
@@ -78,8 +78,8 @@ ms.locfileid: "33894547"
     ```
 
 > [!NOTE]
-> **自动故障转移和故障回复语音**选项和拓扑生成器中的关联的时间间隔仅适用于 Lync Server 中引入的语音恢复能力功能。 选择此选项并不意味着会自动执行本文档中讨论的池故障转移。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> 语音选项和拓扑生成器中的相关时间间隔的**自动故障转移和故障**切换仅适用于 Lync Server 中引入的语音恢复功能。 选择此选项并不意味着会自动执行本文档中讨论的池故障转移。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
   
 ## <a name="see-also"></a>另请参阅
 
-[为业务 Server 前端中 Skype 的最终池灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Skype for Business 服务器中的前端池灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype 的业务服务器 2019年支持多站点和多池部署。 迁移到 Skype for Business Server 2019 的多个池的过程需要考虑以下事项：
-ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype for Business 服务器2019支持多站点和多池部署。 将多个池迁移到 Skype for business 服务器2019的过程需要考虑以下事项:'
+ms.openlocfilehash: 05a94cb47568b9dfc3834f65f960353ad2933b03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231635"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298181"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
 
-Skype 的业务服务器 2019年支持多站点和多池部署。 迁移到 Skype for Business Server 2019 的多个池的过程需要考虑以下事项： 
+Skype for Business 服务器2019支持多站点和多池部署。 将多个池迁移到 Skype for business 服务器2019的过程需要考虑以下事项: 
   
-1. 部署后的业务服务器 2019年试点池 Skype，您需要定义业务服务器 2019年池，和用于验证用户的功能的方法将被移动到 Skype 的试生产用户的子集。 例如后将用户移动到试点池，, 验证已由用户的会议策略的业务服务器 2019年移动到 Skype。 
+1. 部署 Skype for Business Server 2019 试验池后, 你需要定义将被移动到 Skype for business Server 2019 池的试点用户的子集, 以及用于验证用户功能的方法。 例如, 将用户移动到试验池后, 请验证用户的会议策略是否已移动到 Skype for Business Server 2019。 
     
-2. 部署边缘服务器在试点池中后，您需要验证外部用户可以相互业务服务器 2019年池 Skype。
+2. 在试验池中部署边缘服务器之后, 你需要验证外部用户是否可以与 Skype for Business Server 2019 池通信。
 
-3. 持久聊天、 SQL 镜像，和 XMPP 功能是业务服务器 2019年的 Skype 中已弃用和 Skype 作为业务服务器 2019年功能不再可用，但它们可以继续使用在共存环境中如果先前已部署中旧环境。 如果您想要继续使用这些功能，您应计划继续共存环境其中某些用户将保留在旧池。
+3. Skype for business Server 2019 中已弃用持续式聊天、SQL 镜像和 XMPP 功能, 并且不再以 Skype for business Server 2019 功能的形式提供, 但它们可以在共存环境中继续使用 (如果它们以前部署在旧版环境。 如果你希望继续使用这些功能, 你应该计划继续使用一个共存环境, 其中某些用户将保留在旧版池中。
     
-4. 为业务 Server 2019 边缘服务器切换到试点 Skype 的联盟的路由的边缘服务器后，您需要验证联盟的用户可以相互业务服务器 2019年池 Skype。
+4. 将联盟路由的边缘服务器转换为试点 Skype for business Server 2019 Edge 服务器之后, 你需要验证联盟用户是否可以与 Skype for business Server 2019 池通信。
     
-5. 移动所有用户和非用户联系对象后，您需要验证旧池为空。
+5. 移动所有用户和非用户联系人对象后, 需要验证旧版池是否为空。
     
-6. 确认旧池为空后，可以停用该池。 
+6. 验证旧版池是否为空后, 您可以停用该池。 
     
-    有关如何停用旧池和服务器的详细信息，请参阅[第 8 阶段： 停用旧池](phase-8-decommission-legacy-pools.md)。
+    有关如何停用旧版池和服务器的详细信息, 请参阅[第8阶段: 解除旧版池](phase-8-decommission-legacy-pools.md)。
     
 

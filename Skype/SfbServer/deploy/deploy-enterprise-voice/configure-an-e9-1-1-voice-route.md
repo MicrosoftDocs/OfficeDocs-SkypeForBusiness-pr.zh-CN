@@ -1,10 +1,10 @@
 ---
-title: 在 Skype for Business Server 中配置 E9-1-1 语音路由
+title: 在 Skype for Business 服务器中配置 E9-1 个语音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,22 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
-description: 在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。
-ms.openlocfilehash: 8b6e0d9b214240107711215669be60caee2bc055
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中配置 E9-1 个语音路由。
+ms.openlocfilehash: 0ef8b1ba2b64c74cb2166c90dfdccf134df42252
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893096"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303452"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 E9-1-1 语音路由
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置 E9-1 个语音路由
  
-在 Skype for Business Server 企业语音配置 E9-1-1 语音路由。 
+在 Skype for Business Server Enterprise Voice 中配置 E9-1 个语音路由。 
   
-若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅[创建或修改语音路由中的业务的 Skype](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
+若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
   
 > [!NOTE]
-> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如： `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` ，无需为回退公共交换电话交换网 (PSTN) 网关和紧急位置识别号码 (ELIN) 网关启用接收位置。
+> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.`不需要为回退公共交换电话网络 (PSTN) 网关和紧急位置识别号码 (ELIN) 网关启用接收位置。
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>配置 E9-1-1 语音路由
 
@@ -38,7 +38,7 @@ ms.locfileid: "33893096"
     
 3. 运行以下 cmdlet 以创建新的 PSTN 用法记录。 
     
-    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息，请参阅[配置语音策略、 PSTN 用法记录和 Skype for Business 中的语音路由](voice-and-pstn.md)。
+    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息, 请参阅[在 Skype For business 中配置语音策略、PSTN 使用记录和语音路由](voice-and-pstn.md)。
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
@@ -46,13 +46,13 @@ ms.locfileid: "33893096"
 
 4. 运行以下 cmdlet 以使用上一步中创建的 PSTN 用法记录来创建新的语音路由。
     
-    该号码模式必须与位置策略中的“紧急拨号字符串”**** 设置中使用的号码模式相同。 "+"登录所需因为 for Business 的 Skype 添加"+"紧急呼叫。 “Co1-pstngateway-1”是用于 E9-1-1 服务提供商或 ELIN 网关服务 ID 的 SIP 中继服务 ID。 以下示例将“EmergencyRoute”用作语音路由的名称。
+    该号码模式必须与位置策略中的“紧急拨号字符串”**** 设置中使用的号码模式相同。 由于 Skype for business 将 "+" 添加到紧急电话, 因此需要 "+" 号。 “Co1-pstngateway-1”是用于 E9-1-1 服务提供商或 ELIN 网关服务 ID 的 SIP 中继服务 ID。 以下示例将“EmergencyRoute”用作语音路由的名称。
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
-5. （可选） 对于 SIP 中继连接，我们建议您运行以下 cmdlet 以创建本地路由的 E9-1-1 服务提供商的 SIP 中继不会处理的呼叫。 如果 E9-1-1 服务提供商的连接不可用，则使用此路由。 
+5. (可选) 对于 SIP 中继连接, 我们建议你运行以下 cmdlet, 以便为未由 E9 服务提供商的 SIP 主干处理的呼叫创建本地路由。 如果 E9-1-1 服务提供商的连接不可用，则使用此路由。 
     
     以下示例假定用户的语音策略中具有“本地”用法。
     

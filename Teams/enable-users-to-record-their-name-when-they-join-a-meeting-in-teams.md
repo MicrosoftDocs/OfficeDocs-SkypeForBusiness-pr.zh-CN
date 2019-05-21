@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中启用或禁用用户是否可以在加入会议时录制其姓名。
-ms.openlocfilehash: ce2e2c019018ac3e2585928567632ea4a74b70fa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 753463bf0ef76d1b68ccb96e36505ec3c8717628
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246026"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298872"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>在 Microsoft Teams 中让用户能够在加入会议时录制其姓名
 
@@ -36,15 +36,15 @@ ms.locfileid: "32246026"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在**会议桥**页的顶部，单击**网桥的设置**。 
+2. 在 "**会议桥**" 页面顶部, 单击 "**桥接设置**"。 
 
-3. 启用或禁用**会议项和退出通知**。
+3. 启用或禁用**会议进入和退出通知**。
 
-4. 如果启用通知，请选择**姓名或电话号码**下**条目/退出通知类型**，然后再打开**向呼叫者加入会议之前记录其姓名提出。**
+4. 如果启用通知, 请选择 "**输入/退出通知类型**" 下的 "**姓名" 或 "电话号码**", 然后打开**Ask 呼叫者在加入会议之前录制其姓名。**
 
 6. 单击“**保存**”。
     

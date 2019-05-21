@@ -1,82 +1,82 @@
 ---
-title: CDR 表中的业务服务器 2015 Skype 的详细信息
+title: Skype for Business Server 2015 中的 CDR 表格详细信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: 以下主题详细介绍每个呼叫详细信息记录 (CDR) 数据库架构表中的列。
-ms.openlocfilehash: 2165651737180465a7e5c045199d850862c09993
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 以下主题详细介绍每个 "呼叫详细记录" (CDR) 数据库架构表中的列。
+ms.openlocfilehash: 13f8fe7cb9c1335160f3a9bc401bfee36eb2803f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924778"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296544"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR 表中的业务服务器 2015 Skype 的详细信息
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表格详细信息
  
-以下主题详细介绍每个呼叫详细信息记录 (CDR) 数据库架构表中的列。
+以下主题详细介绍每个 "呼叫详细记录" (CDR) 数据库架构表中的列。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [应用程序表中的业务服务器 2015 Skype](application.md)
+- [Skype for Business Server 2015 中的应用程序表](application.md)
     
-- [CallPriorities 表中的业务服务器 2015 Skype](callpriorities.md)
+- [Skype for Business Server 2015 中的 CallPriorities 表](callpriorities.md)
     
-- [CallType 表中的业务服务器 2015 Skype](calltype.md)
+- [Skype for Business Server 2015 中的 CallType 表](calltype.md)
     
-- [请参阅 ClientVersions table 中的业务服务器 2015 Skype](clientversions.md)
+- [Skype for Business Server 2015 中的 ClientVersions 表](clientversions.md)
     
-- [ConferenceJoinTimeThresholds 表中的业务服务器 2015 Skype](conferencejointimethresholds.md)
+- [Skype for Business Server 2015 中的 ConferenceJoinTimeThresholds 表](conferencejointimethresholds.md)
     
-- [ConferenceMessageCount 表中的业务服务器 2015 Skype](conferencemessagecount.md)
+- [Skype for Business Server 2015 中的 ConferenceMessageCount 表](conferencemessagecount.md)
     
-- [Conferences 表中的业务服务器 2015 Skype](conferences.md)
+- [Skype for Business Server 2015 中的 "会议" 表](conferences.md)
     
-- [ConferenceSessionDetails 表中的业务服务器 2015 Skype](conferencesessiondetails-0.md)
+- [Skype for Business Server 2015 中的 ConferenceSessionDetails 表](conferencesessiondetails-0.md)
     
-- [ConferenceUris 表中的业务服务器 2015 Skype](conferenceuris.md)
+- [Skype for Business Server 2015 中的 ConferenceUris 表](conferenceuris.md)
     
-- [ContentTypes 表中的业务服务器 2015 Skype](contenttypes.md)
+- [Skype for Business Server 2015 中的 ContentTypes 表](contenttypes.md)
     
-- [DeRegisterType 表中的业务服务器 2015 Skype](deregistertype.md)
+- [Skype for Business Server 2015 中的 DeRegisterType 表](deregistertype.md)
     
-- [Devices 表中的业务服务器 2015 Skype](devices.md)
+- [Skype for Business Server 2015 中的 "设备" 表](devices.md)
     
-- [Dialogs 表中的业务服务器 2015 Skype](dialogs.md)
+- [Skype for Business Server 2015 中的对话框表](dialogs.md)
     
-- [EdgeServers 表中的业务服务器 2015 Skype](edgeservers.md)
+- [Skype for Business Server 2015 中的 EdgeServers 表](edgeservers.md)
     
-- [ErrorCategory 表中的业务服务器 2015 Skype](errorcategory.md)
+- [Skype for Business Server 2015 中的 ErrorCategory 表](errorcategory.md)
     
-- [ErrorDef 表中的业务服务器 2015 Skype](errordef.md)
+- [Skype for Business Server 2015 中的 ErrorDef 表](errordef.md)
     
-- [ErrorReport 表中的业务服务器 2015 Skype](errorreport.md)
+- [Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md)
     
-- [FileTransfers 表中的业务服务器 2015 Skype](filetransfers-0.md)
+- [Skype for Business Server 2015 中的 FileTransfers 表](filetransfers-0.md)
     
-- [FocusJoinsAndLeaves 表中的业务服务器 2015 Skype](focusjoinsandleaves.md)
+- [Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表](focusjoinsandleaves.md)
     
-- [FrontEnd 表中的业务服务器 2015 Skype](frontend.md)
+- [Skype for Business Server 2015 中的前端表](frontend.md)
     
-- [Gateways 表中的业务服务器 2015 Skype](gateways.md)
+- [Skype for Business Server 2015 中的网关表](gateways.md)
     
-- [HardwareVersions 表中的业务服务器 2015 Skype](hardwareversions.md)
+- [Skype for Business Server 2015 中的 HardwareVersions 表](hardwareversions.md)
     
-- [IMReportSummary 表中的业务服务器 2015 Skype](imreportsummary.md)
+- [Skype for Business Server 2015 中的 IMReportSummary 表](imreportsummary.md)
     
-- [Locations 表中的业务服务器 2015 Skype](locations.md)
+- [Skype for Business Server 2015 中的 "位置" 表](locations.md)
     
-- [Manufacturers 表中的业务服务器 2015 Skype](manufacturers.md)
+- [Skype for Business Server 2015 中的制造商表](manufacturers.md)
     
-- [McuJoinsAndLeaves 表中的业务服务器 2015 Skype](mcujoinsandleaves.md)
+- [Skype for Business Server 2015 中的 McuJoinsAndLeaves 表](mcujoinsandleaves.md)
     
-- [Mcus 表中的业务服务器 2015 Skype](mcus.md)
+- [Skype for Business Server 2015 中的 Mcus 表](mcus.md)
     
 - [Media 表](media.md)
     

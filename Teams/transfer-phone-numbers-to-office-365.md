@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,34 +23,34 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: bea5710917581953fac6da643c090aa1f389972e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298225"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
 将你的电话号码从当前的服务提供商转移到 Skype for Business 很简单。将你的电话号码转网到 Skype for Business 之后，Microsoft 将成为你的服务提供商并为你出具这些号码的账单。
   
-转接电话号码开始之前，我们建议您查看中[转移电话号码常见问题](transferring-phone-numbers-common-questions.md)的信息。 如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码，您需要将传输到 for Business 的 Skype，请参阅[管理的电话号码您的组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载的正确表单并将其发送给我们。
+在您开始转移电话号码之前, 我们建议您查看有关[转移电话号码](transferring-phone-numbers-common-questions.md)的信息。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码或超过999的用户 (订阅者) 电话号码, 您需要转移到 Skype for Business, 请参阅[管理电话号码您的组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载正确的表单并将其发送给我们。
 
   > [!NOTE]
-  > 我们处理端口订单的仅在美国工作日上而不是在公共假日或周末转接电话号码。 
+  > 我们只会在美国的工作日内 (而不是在公共假日或周末) 处理用于转移电话号码的港口订单。 
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>如何创建转网订单并将电话号码转移到 Skype for Business
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > 如果您有服务号码拨入式会议网桥、 自动助理或其他服务号码，免费电话号码，或具有超过 999 用户 （订阅服务器） 的电话号码，您需要将传输到 for Business 的 Skype，请参阅[管理的电话号码您的组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)选择正确的国家/地区和下载的正确表单并将其发送给我们。
+  > 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码或超过999的用户 (订阅者) 电话号码, 您需要转移到 Skype for Business, 请参阅[管理电话号码您的组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)选择正确的国家/地区并下载正确的表单并将其发送给我们。
  
-![sfb-徽标-30x30.png](media/sfb-logo-30x30.png) **使用业务管理中心的 Skype**
+![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
 
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队管理中心** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
@@ -87,7 +87,7 @@ ms.locfileid: "32223461"
     
 7. 单击" **继续**"。
     
-8. 在**转移日期**页上**天**下拉列表中，选择的日期和在**开始时间**下拉列表中，下选择的时间 (EST)，然后单击**下一步**。
+8. 在 "**转移日期**" 页面上, 在 "**天**" 下拉列表中, 选择日期, 在 "**开始时间**" 下拉列表中选择时间 (EST), 然后单击 "**下一步**"。
     
 9. 在" **授权书**"页面上，检查下面的每个框。然后在" **签名**"框下方，键入有权更改该帐户的人员。这是在" **帐户信息**"页面>" **授权人员**"上使用的相同名称。然后单击" **下一步**"。
     

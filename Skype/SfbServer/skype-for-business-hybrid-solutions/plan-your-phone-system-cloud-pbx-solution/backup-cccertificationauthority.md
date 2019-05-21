@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Backup-CcCertificationAuthority cmdlet 将 Skype for Business 云连接器版本证书颁发机构服务备份到一个文件中并将该文件保存到站点共享目录下的 CA 文件夹。
-ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234549"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294416"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
@@ -44,7 +44,7 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果您打算使用同一证书在发生灾难时为云连接器 appliance 重新部署或您要移动到新硬件的设备，证书颁发机构备份很有用。 该命令将云连接器证书颁发机构服务的副本保存从 AD 服务器到"\<SiteRootDirectory\>\CA\SfB CCE Root.p12"。
+如果你计划在发生灾难的情况下重新部署云连接器设备, 或者希望将设备移动到新硬件, 则证书颁发机构备份可能很有用。 该命令将云连接器证书颁发机构服务的副本从广告服务器保存到 "\<SITEROOTDIRECTORY\>\CA\SfB CCE Root. p12"。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

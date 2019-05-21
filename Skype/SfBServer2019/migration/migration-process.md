@@ -4,27 +4,27 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 为业务服务器 2019 Skype 的建议和受支持的迁移过程是-并行迁移。 本主题介绍原因应使用-并行迁移和还包括有关共存测试信息。
-ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for business Server 2019 的推荐和支持的迁移过程是并行迁移。 本主题介绍了应使用并行迁移的原因, 还包括有关共存测试的信息。
+ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231614"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298153"
 ---
 # <a name="migration-process"></a>迁移过程
 
-为业务服务器 2019 Skype 的建议和受支持的迁移过程是-并行迁移。 本主题介绍原因应使用-并行迁移和还包括有关共存测试信息。
+Skype for business Server 2019 的推荐和支持的迁移过程是并行迁移。 本主题介绍了应使用并行迁移的原因, 还包括有关共存测试的信息。
   
 ## <a name="side-by-side-migration"></a>并行迁移
 
-在几乎在每个迁移中，您应使用-并行迁移路径。 在-并行迁移中，您将一起运行的是以前版本的相应服务器业务服务器 2019年部署具有 Skype 的新服务器，然后转接到新服务器的操作。 如果需要回滚到以前的版本，您只需要只要将操作切换回原始服务器。 请注意，在此情况下安排与已升级的客户端的任何新会议将不起作用，以及客户端还需要降级。
+在几乎所有迁移中, 都应使用并行迁移路径。 在并行迁移中, 你可以使用 Skype for Business Server 2019 与运行早期版本的相应服务器一起部署新的服务器, 然后将操作转移到新服务器。 如果需要回滚到以前的版本, 你只能将操作转移回原始服务器。 请注意, 在这种情况下, 使用升级的客户安排的新会议将不起作用, 并且客户端也需要降级。
   
 ## <a name="coexistence-testing"></a>共存测试
 
-部署 Skype 的业务服务器 2019年与早期版本的并行后，部署代表测试业务服务器 2019年和以前版本的 Skype 状态共存。 在此状态下，务必测试，并确保启动服务，可以管理每个网站，并且客户端可以与当前和旧用户通信。 之前的所有用户的迁移，它是非常重要，您了解每个部署的状态，并确保每个部署为功能且正常工作正常。 通常情况下，测试阶段的共存情况存在整个 Skype 试点测试的业务服务器 2019年。 旧用户移至 Skype 的业务服务器 2019年的一段时间以确保该应用程序兼容性以及特性和功能正常运行。 试点测试之后，用户和应用程序移动到的业务服务器 2019 Skype 和旧池的产品版本和以前版本的应用程序停用。
+在与早期版本并行部署了 Skype for Business Server 2019 后, 部署表示 Skype for Business Server 2019 和早期版本的共存测试状态。 在此状态下, 测试和确保服务已启动、可管理每个网站, 并且客户端可以与当前用户和旧版用户进行通信非常重要。 在迁移所有用户之前, 了解每个部署的状态非常重要, 并确保每个部署都能正常运行。 通常, 共存测试阶段存在于 Skype for business Server 2019 的试点测试中。 旧版用户在一段时间内被移动到 Skype for Business 服务器 2019, 以确保应用程序兼容性和功能和功能正常工作。 试点测试后, 用户和应用程序将移动到 Skype for Business Server 2019 的生产版本, 并且旧版本的旧池和应用程序将被停用。
   

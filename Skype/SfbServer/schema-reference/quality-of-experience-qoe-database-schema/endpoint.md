@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-description: Endpoint 表是一个支持表，用于存储已参与记录数据库中的会话的终结点的信息。 表中的每条记录代表一个终结点。
-ms.openlocfilehash: 4917b0817d8fcedbc3a20b2c41d3ed62ce468c5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 终结点表是一个支持表, 用于存储参与数据库中记录的会话的终结点的相关信息。 表中的每条记录表示一个终结点。
+ms.openlocfilehash: 7d582d382784d04d4495de972aa20673862284f4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920108"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294990"
 ---
 # <a name="endpoint-table"></a>Endpoint 表
  
-Endpoint 表是一个支持表，用于存储已参与记录数据库中的会话的终结点的信息。 表中的每条记录代表一个终结点。
+终结点表是一个支持表, 用于存储参与数据库中记录的会话的终结点的相关信息。 表中的每条记录表示一个终结点。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**EndpointKey** <br/> |int  <br/> |Primary  <br/> |标识此终结点的唯一编号。  <br/> |
+|**EndpointKey** <br/> |int  <br/> |Primary  <br/> |标识此终结点的唯一号码。  <br/> |
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。 <br/> |nvarchar(256)  <br/> |唯一  <br/> |终结点名称。  <br/> |
-|**OS** <br/> |nvarchar(128)  <br/> | <br/> |操作系统 (OS) 的终结点。  <br/> |
-|**CPUName** <br/> |nvarchar(128)  <br/> ||终结点的 CPU 名称。  <br/> |
+|**OS** <br/> |nvarchar  <br/> | <br/> |终结点的操作系统 (OS)。  <br/> |
+|**CPUName** <br/> |nvarchar  <br/> ||终结点的 CPU 名称。  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||终结点的 CPU 内核数。  <br/> |
 |**CPUProcessorSpeed** <br/> |int  <br/> ||终结点的 CPU 处理器速度。  <br/> |
-|**VirtualizationFlag** <br/> |tinyint  <br/> || 指示系统是否正在运行的虚拟化环境中的位标志： <br/>  0x0000-无 <br/>  0x0001-HyperV <br/>  0x0002-VMWare <br/>  0x0004-虚拟 PC <br/>  0x0008-Xen PC <br/> |
+|**VirtualizationFlag** <br/> |tinyint  <br/> || 指示系统是否在虚拟化环境中运行的位标志: <br/>  0x0000-无 <br/>  0x0001-HyperV <br/>  0x0002-VMWare <br/>  0x0004-虚拟电脑 <br/>  0x0008-Xen 电脑 <br/> |
    
 

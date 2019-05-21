@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 您可以下载用于紧急呼叫，Office 365 中使用调用计划时这些标签。
-ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 当您使用 Office 365 中的通话计划时, 您可以下载这些标签以进行紧急呼叫。
+ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244434"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298880"
 ---
 # <a name="emergency-calling-labels"></a>紧急呼叫标签
 
-这些是紧急呼叫 (911) 免责声明标签或标签的用于 Avery 5160 地址标签 （1"x 2 5/8"），如果您想要使用其他类型的标签可以调整大小。
+这些是紧急呼叫 (911) 可用于 Avery 5160 地址标签 (1 "x 2 5/8") 的免责声明标签或贴纸, 如果要使用其他类型的标签, 可调整其大小。
 
-[单击下载紧急呼叫的标签的.zip 文件 (en-我们)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)。
+[单击以下载用于紧急呼叫标签的 .zip 文件 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)。
 
 ## <a name="related-topics"></a>相关主题
 

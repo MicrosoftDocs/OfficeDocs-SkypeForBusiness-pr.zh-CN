@@ -4,80 +4,80 @@ ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype 业务 Server 命令行管理程序命令可用于配置和监控备份服务。
-ms.openlocfilehash: aa6a1aca7e753877c15f64c3736a09ad9e2ca066
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 你可以使用 Skype for Business Server Management Shell 命令来配置和监视备份服务。
+ms.openlocfilehash: 2170f58fcc60a648788934048f3d0e6bbfac9c77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903149"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303903"
 ---
-# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>配置和监控业务服务器中 Skype 的备份服务
+# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置和监视备份服务
 
-以下 Skype 业务 Server 命令行管理程序命令可用于配置和监控备份服务。 若要还原存储在前端池的文件存储中的会议信息，请参阅下面的[还原备份服务使用的会议内容](#restore-conference-contents-using-the-backup-service)，。
+你可以使用以下 Skype for Business 服务器管理外壳命令来配置和监视备份服务。 若要还原存储在前端池的文件存储中的会议信息, 请参阅下面[的使用备份服务还原会议内容](#restore-conference-contents-using-the-backup-service)。
 
 > [!NOTE]  
-> 以 RTCUniversalServerAdmins 组是唯一具有默认情况下运行**Get-csbackupservicestatus**权限的组。 若要使用此 cmdlet，此组的成员身份登录。 或者，您可以使用**Set-csbackupserviceconfiguration** cmdlet 授予到其他组 (例如，CSAdministrator) 访问此命令。
+> RTCUniversalServerAdmins 组是唯一具有运行**CsBackupServiceStatus**默认权限的组。 若要使用此 cmdlet, 请以该组的成员身份登录。 或者, 你可以使用**CsBackupServiceConfiguration** cmdlet 将对此命令的访问权限授予其他组 (例如 CSAdministrator)。
 
-## <a name="to-see-the-backup-service-configuration"></a>若要查看的备份服务配置
+## <a name="to-see-the-backup-service-configuration"></a>查看备份服务配置
 
 运行以下 cmdlet：
 
     Get-CsBackupServiceConfiguration
 
-SyncInterval 的默认值为两分钟。
+SyncInterval 的默认值是2分钟。
 
-## <a name="to-set-the-backup-service-sync-interval"></a>若要设置的备份服务同步间隔
+## <a name="to-set-the-backup-service-sync-interval"></a>设置备份服务同步间隔
 
 运行以下 cmdlet：
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-例如，以下为 3 分钟设置的间隔。
+例如, 下面的时间间隔设置为3分钟。
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
-> 尽管可以使用此 cmdlet 的备份服务更改默认同步时间间隔，不应执行以便除非绝对需要时，为同步间隔具有对备份服务性能和恢复点目标 (RPO) 很大的影响。
+> 虽然你可以使用此 cmdlet 更改备份服务的默认同步间隔, 但除非绝对必要, 否则不应执行此操作, 因为同步间隔对备份服务性能和恢复点目标 (RPO) 有很高的影响。
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>若要获取特定池的备份服务状态
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>获取特定池的备份服务状态
 
 运行以下 cmdlet：
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
 > [!NOTE]  
-> 备份服务同步状态定义通信量从一个池 (P1) 到其备份池 (P2)。 从 P1 P2 到同步状态可以是不同于 p1 从 P2。 对于 P1 到 P2，备份服务位于"稳定"状态如果所有 P1 中所做的更改会完全都复制转移到 P2 内的同步间隔。 位于"最终"状态如果要从 P1 同步到 P2 没有更多更改。 两种状态指示在 cmdlet 执行的时间的备份服务的快照。 并不表示，按原样以后将保持返回的状态。 具体而言，将继续如果 P1 不会生成任何更改之后执行此 cmdlet 仅保留"最终"状态。 这是对于故障 P1 转移到 P2 之后 P1 **Invoke-cspoolfailover**执行逻辑的一部分置于只读模式,，则返回 true。
+> 备份服务同步状态是从池 (P1) unidirectionally 到其备份池 (P2) 定义的。 从 P1 到 P2 的同步状态可能与从 P2 到 P1 的同步状态不同。 对于 P2 到 P2, 如果在 P1 中进行的所有更改都在同步间隔内完全复制到 P2, 则备份服务处于 "稳定" 状态。 如果没有其他更改要从 P1 同步到 P2, 它将处于 "最终状态" 状态。 这两种状态表示执行 cmdlet 时备份服务的快照。 这并不意味着返回的状态将保持为后的状态。 特别是, 仅当在执行 cmdlet 后 P1 不会生成任何更改时, "最终" 状态才会继续保持。 在将 p1 置于只读模式 (作为**CsPoolfailover**执行逻辑的一部分) 之后, p1 被置于只读模式下时, 此情况为 true。
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>若要获取特定池的备份关系的信息
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>获取有关特定池的备份关系的信息
 
 运行以下 cmdlet：
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
-## <a name="to-force-a-backup-service-sync"></a>若要强制备份服务同步
+## <a name="to-force-a-backup-service-sync"></a>强制备份服务同步
 
 运行以下 cmdlet：
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
 
-## <a name="restore-conference-contents-using-the-backup-service"></a>还原使用备份服务的会议内容 
+## <a name="restore-conference-contents-using-the-backup-service"></a>使用备份服务还原会议内容 
 
-如果在前端池的文件存储中存储的会议信息变得不可用，以便在池上驻留的用户，您必须还原此信息保留其会议数据。 如果与另一个前端池配对中断会议数据的前端池时，您可以使用备份服务还原数据。
+如果在前端池的文件存储中存储的会议信息不可用, 则必须还原此信息, 以便驻留在该池中的用户保留其会议数据。 如果已丢失会议数据的前端池与另一个前端池配对, 则可以使用备份服务还原数据。
 
-如果整个池已失败，并且您需要进行故障转移到备份池其用户，则还必须执行此任务。 当这些用户都到其原始池将故障转移后时，您必须使用此过程将其会议内容复制到其原始的池。
+如果整个池出现故障, 并且你必须将其用户故障转移到备份池, 还必须执行此任务。 当这些用户故障恢复到其原始池时, 必须使用此过程将其会议内容复制回其原始池。
 
-假定 Pool1 配备 Pool2，并在 Pool1 会议数据都将丢失。 可以使用以下 cmdlet 以调用备份服务，要恢复的内容：
+假设 Pool1 与 Pool2 配对, 并且 Pool1 中的会议数据丢失。 你可以使用以下 cmdlet 调用备份服务来还原内容:
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-还原会议内容可能需要一些时间，具体取决于其大小。 您可以使用以下 cmdlet 检查进程状态：
+还原会议内容可能需要一些时间, 具体取决于它们的大小。 你可以使用以下 cmdlet 检查进程状态:
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-此 cmdlet 返回的数据会议模块的稳定状态的值时，此过程已完成。
+当此 cmdlet 为数据会议模块返回稳定状态的值时, 将执行此过程。

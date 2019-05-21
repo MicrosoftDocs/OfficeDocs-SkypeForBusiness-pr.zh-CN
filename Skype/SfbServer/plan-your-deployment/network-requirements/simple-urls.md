@@ -1,104 +1,104 @@
 ---
-title: Skype 中的简单 url 的业务服务器的 DNS 要求
+title: Skype for Business 服务器中的简单 Url 的 DNS 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 摘要： DNS 记录的 Skype 实现业务服务器之前查看本主题中的简单 URL 注意事项。
-ms.openlocfilehash: 6e62190f19969e635690a68ead4f2c96a32a27c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 在为 Skype for business 服务器实施 DNS 记录之前, 请查看本主题中的简单 URL 注意事项。'
+ms.openlocfilehash: 6f5003542f797c6dd275eb8de7c0b00b1ea209ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297146"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype 中的简单 url 的业务服务器的 DNS 要求
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business 服务器中的简单 Url 的 DNS 要求
 
-**摘要：** DNS 记录的 Skype 实现业务服务器之前查看本主题中的简单 URL 注意事项。
+**摘要:** 在为 Skype for Business 服务器实施 DNS 记录之前, 请查看本主题中的简单 URL 注意事项。
 
-简单 Url 使您的用户更易于加入会议，又便于到 Skype 业务 Server 管理工具的管理员。 简单 Url 使用自己的域，该域不匹配任何您定义的 SIP 域。 
+简单的 Url 使你的用户加入会议更容易, 并且让管理员可以更轻松地访问 Skype for Business 服务器管理工具。 简单 Url 使用其自己的域, 这些域必须与你定义的任何 SIP 域不匹配。 
 
-Skype 业务 server 支持以下三种简单 Url： 满足，电话拨入式，和管理员。您需要设置为开会会议和电话拨入简单 Url 也是可选的管理简单 URL。 支持简单 Url 所需的域名系统 (DNS) 记录取决于您如何定义这些简单 Url，以及是否希望以支持的简单 Url 的灾难恢复。 
+Skype for Business 服务器支持以下三个简单的 Url: "开会"、"拨入" 和 "管理员"。您需要为 "满足" 和 "拨入" 设置简单的 Url, "管理员简单 URL" 是可选的。 需要支持简单 Url 的域名系统 (DNS) 记录取决于你定义这些简单 Url 的方式, 以及你是否希望支持简单 Url 的灾难恢复。 
 
-## <a name="simple-url-scope"></a>简单 URL 作用域
+## <a name="simple-url-scope"></a>简单的 URL 范围
 
-您可以配置简单 Url 具有全局范围，或者您可以在组织中指定不同的简单 Url 的每个中央站点。 如果指定全局简单 URL 和网站的简单 URL，该网站的简单 URL 优先级。 
+你可以将简单 Url 配置为具有全局范围, 或者你可以为你的组织中的每个中心网站指定不同的简单 Url。 如果同时指定了全局简单 url 和网站简单 URL, 则网站简单 URL 优先。 
 
-在大多数情况下，我们建议将简单 Url 设置仅在全局级别，以便如果他们从一个网站移动到另一个用户的会议简单 URL 不会更改。 异常采用不同的电话号码用于电话拨入式用户在不同的站点所需要的组织。 请注意，是否在网站级别的简单 URL 网站设置一个简单 URL （如的电话拨入式简单 URL)，还必须设置其他简单 Url 以及为网站级别的站点。
+在大多数情况下, 我们建议你仅在全局级别设置简单的 Url, 以便用户的 "满足简单 URL" 从一个网站移动到另一个网站时不会更改。 例外情况是需要对不同站点上的电话拨入用户使用不同电话号码的组织。 请注意, 如果在网站上将一个简单的 URL (如拨入式简单 URL) 设置为网站级简单 URL, 则还必须将该网站上的其他简单 Url 设置为网站级别。
 
-在拓扑生成器中，您可以设置全局简单 Url。 要在网站级别设置的简单 URL，请使用集 CsSimpleURLConfiguration cmdlet。
+可以在拓扑生成器中设置全局简单的 Url。 若要在网站级别设置简单的 URL, 请使用 CsSimpleURLConfiguration cmdlet。
 
-定义简单 URL 还将需要在您的 DNS 配置设置的 A 和/或 AAAA 记录。
+定义简单的 URL 还需要在 DNS 配置中设置 A 和/或 AAAA 记录。
 
-## <a name="simple-url-naming-and-validation-rules"></a>简单 URL 命名和验证规则
+## <a name="simple-url-naming-and-validation-rules"></a>简单的 URL 命名和验证规则
 <a name="BK_Valid"> </a>
 
-拓扑生成器和业务 Server Management Shell cmdlet Skype 强制几个有效性规则的简单 Url。 您需要为 Meet 和 Dialin，设置简单 Url，但设置另一个用于管理是可选的。 每个 SIP 域必须单独的会议简单 URL，但您需要为整个组织只有一个 Dialin 简单 URL 和一个管理简单 URL。
+拓扑生成器和 Skype for Business Server Management Shell cmdlet 针对你的简单 Url 强制执行几条验证规则。 您需要为 "满足" 和 "拨入" 设置简单的 Url, 但为 "管理员" 设置一个是可选的。 每个 SIP 域都必须具有单独的 "匹配" 的 "匹配" 简单 URL, 但对于整个组织, 只需一个拨入简单的 url 和一个管理员简单的 URL。
 
-您的组织中每个简单 URL 必须具有唯一名称，并且不能是另一个简单 URL 的前缀 （例如，您无法设置为会议的简单 URL 的 SfB2015.contoso.com/Meet 和 SfB2015.contoso.com/Meet/Dialin 为您的拨入简单 URL）。 简单 URL 名称不能包含任何池，或任何端口信息的 FQDN (例如，https://FQDN:88/meet不允许)。 所有简单 Url 必须以前缀 https:// 开头。 
+组织中的每个简单 URL 都必须具有唯一的名称, 并且不能是另一个简单 URL 的前缀 (例如, 不能将 SfB2015.contoso.com/Meet 设置为您的 "满足简单 url" 和 "SfB2015.contoso.com/Meet/Dialin" 作为拨入简单 URL)。 简单的 URL 名称不能包含任何池的 FQDN, 也不能包含任何端口信息 (例如https://FQDN:88/meet , 不允许)。 所有简单的 Url 必须以 https://前缀开头。 
 
-简单 Url 只能包含字母数字字符 （即，a-z、 A-Z、 0-9 和句点 （.）。 如果您使用其他字符，简单 Url 可能未按预期。
+简单 Url 只能包含字母数字字符 (即 a-z、a-z、0-9 和句号 (.)。 如果使用其他字符, 则简单 Url 可能不会按预期工作。
 
-## <a name="changing-simple-urls-after-deployment"></a>在部署后更改简单 Url
+## <a name="changing-simple-urls-after-deployment"></a>在部署后更改简单的 Url
 <a name="BK_Valid"> </a>
 
-如果在初始部署后更改简单 URL，您必须知道如何更改会影响您的 DNS 记录和证书的简单 Url。 如果简单 URL 的更改，则必须更改的 DNS 记录和证书以及。 例如，从更改https://SfB2015.contoso.com/Meet到https://meet.contoso.com的基 URL 从变为 SfB2015.contoso.com meet.contoso.com，因此需要更改 DNS 记录和证书来引用 meet.contoso.com。 如果您已经更改中的简单 URLhttps://SfB2015.contoso.com/Meet到https://SfB2015.contoso.com/Meetings、 基 URL 的 SfB2015.contoso.com 保持不变，因此没有 DNS 或所需证书的更改。
+如果你在初始部署后更改简单的 URL, 你必须知道更改对简单 Url 的 DNS 记录和证书有何影响。 如果简单 URL 的基础发生更改, 则您还必须更改 DNS 记录和证书。 例如, 从https://SfB2015.contoso.com/Meet https://meet.contoso.com SfB2015.contoso.com 更改为 meet.contoso.com 的基本 URL, 因此你需要更改 DNS 记录和证书才能引用 meet.contoso.com。 如果将简单 URL 更改https://SfB2015.contoso.com/Meet为 "与https://SfB2015.contoso.com/Meetings", SfB2015.contoso.com 的基 url 保持不变, 因此不需要任何 DNS 或证书更改。
 
-无论何时更改简单 URL 名称，但是，必须以注册该更改每台控制器和前端服务器上运行**Enable-cscomputer** 。
+但是, 当您更改简单的 URL 名称时, 必须在每个 Director 和前端服务器上运行**Enable-CsComputer**以注册更改。
 
-## <a name="naming-examples-for-simple-urls"></a>简单 url 命名示例
+## <a name="naming-examples-for-simple-urls"></a>简单 Url 的命名示例
 <a name="BK_Valid"> </a>
 
-有三个命名简单 Url 的建议的选项。 选择哪个选项有如何设置您的 DNS A 记录和证书支持简单 Url 的影响。 在每个选项，必须在组织中配置一个会议的简单 URL，每个 SIP 域。 
+有三个推荐选项可用于命名简单 Url。 选择哪个选项对您设置 DNS A 记录和支持简单 Url 的证书有何影响。 在每个选项中, 必须为组织中的每个 SIP 域配置一个 "满足简单 URL"。 
 
-始终需要只有一个简单 URL 中的电话拨入式，为整个组织和一个管理，无论您有多少个 SIP 域。
+你始终只需要在整个组织中使用一个简单的 URL 进行拨入, 一个用于管理, 无论你拥有多少个 SIP 域。
 
-在选项 1 中，您将创建每个简单 URL 的新 SIP 域名。
+在选项1中, 为每个简单的 URL 创建一个新的 SIP 域名。
 
-如果使用此选项，则需要一个单独的 DNS A 记录，必须在证书中命名每个简单 URL 和每个会议简单 URL 的。
+如果使用此选项, 则每个简单 URL 都需要一个单独的 DNS A 记录, 并且每个 "满足简单 URL" 都必须在证书中命名。
 
-**简单 URL 命名选项 1**
+**简单的 URL 命名选项1**
 
 
-| **简单 URL** <br/> | **示例** <br/>                                                                                                    |
+| **简单的 URL** <br/> | **示例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| 满足  <br/>          | https://meet.contoso.comhttps://meet.fabrikam.com，依此类推 （一个为组织中每个 SIP 域）  <br/> |
+| 会议  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com等等 (组织中的每个 SIP 域一个)  <br/> |
 | 拨入  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| 管理  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Iis  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
-选项 2 简单 Url 基于 SfB2015.contoso.com 的域名。 因此，您需要使所有三种类型的简单 Url 只有一个 DNS A 记录。 此 DNS A 记录引用 SfB2015.contoso.com。 此外，您仍需要单独的 DNS A 记录的其他 SIP 域中您的组织。 
+通过选项 2, 简单 Url 基于域名 SfB2015.contoso.com。 因此, 只需一个 DNS A 记录即可启用所有三种类型的简单 Url。 此 DNS A 记录引用 SfB2015.contoso.com。 此外, 你的组织中的其他 SIP 域仍需要单独的 DNS A 记录。 
 
-**简单 URL 命名选项 2**
+**简单的 URL 命名选项2**
 
 
-| **简单 URL** <br/> | **示例** <br/>                                                                                                                    |
+| **简单的 URL** <br/> | **示例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| 满足  <br/>          | https://SfB2015.contoso.com/Meethttps://SfB2015.fabrikam.com/Meet，依此类推 （一个为组织中每个 SIP 域）  <br/> |
+| 会议  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet等等 (组织中的每个 SIP 域一个)  <br/> |
 | 拨入  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| 管理  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Iis  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
-如果您具有多个 SIP 域，并希望其具有单独的会议简单 Url，但希望大程度地减少这些简单 Url 的 DNS 记录和证书要求选项 3 最为有用。 
+如果你有多个 SIP 域, 而你希望它们具有单独的符合简单的 Url, 但希望尽量减少这些简单 Url 的 DNS 记录和证书要求, 则选项3非常有用。 
 
-**简单 URL 命名选项 3**
+**简单的 URL 命名选项3**
 
 
-| **简单 URL** <br/> | **示例** <br/>                                                                                                      |
+| **简单的 URL** <br/> | **示例** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| 满足  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| 会议  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | 拨入  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| 管理  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Iis  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>简单 Url 的灾难恢复选项
 <a name="BK_Valid"> </a>
 
-如果您有多个站点包含前端池的 DNS 提供程序支持 GeoDNS，您可以设置以支持灾难恢复的简单 Url 的 DNS 记录，以便简单 URL 功能仍即使一个整个前端池不可用。 此灾难恢复功能支持 Meet 和电话拨入式简单 Url。
+如果你有多个包含前端池的网站, 并且 DNS 提供程序支持 GeoDNS, 你可以为简单的 Url 设置 DNS 记录以支持灾难恢复, 以便即使一个完整的前端池停止运行, 简单的 URL 功能也会继续。 此灾难恢复功能支持 "开会" 和 "拨入" 简单 Url。
 
-若要配置该，创建两个 GeoDNS 地址。 每个地址具有两个解析为其用于灾难恢复目的成对出现两个池的 DNS A 或 CNAME 记录。 一个 GeoDNS 地址用于内部访问权限，并且将解析为内部 web FQDN 或负载平衡器 IP 地址的两个池。 用于外部访问的其他 GeoDNS 地址并且将解析为的外部 web FQDN 或负载平衡器 IP 地址的两个池。 下面是一个有关会议的简单 URL，并使用的池的 Fqdn 示例。 
+若要配置此设置, 请创建两个 GeoDNS 地址。 每个地址都有两个 DNS A 或 CNAME 记录, 它们可解析为两个池, 这些记录结合在一起以供灾难恢复之用。 一个 GeoDNS 地址用于内部访问, 并解析为两个池的内部 web FQDN 或负载平衡器 IP 地址。 其他 GeoDNS 地址用于外部访问, 并解析为两个池的外部 web FQDN 或负载平衡器 IP 地址。 下面是使用池的 Fqdn 的 "满足简单 URL" 的示例。 
 
 ```
 Meet-int.geolb.contoso.com
@@ -112,22 +112,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-然后，创建您会议简单 URL （如 meet.contoso.com) 解析到两个 GeoDNS 地址的 CNAME 记录。
+然后, 创建将您的 "满足简单 URL" (如 meet.contoso.com) 解析为两个 GeoDNS 地址的 CNAME 记录。
 
 > [!NOTE]
-> 如果您的网络使用 hairpinning （路由通过外部链接，包括来自组织内的通信的所有简单 URL 流量），然后可以仅配置的外部 GeoDNS 地址并解析为仅的会议的简单 URL外部地址。
+> 如果你的网络使用 hairpinning (通过外部链接路由所有简单的 URL 流量, 包括来自组织内部的流量), 则只需配置外部 GeoDNS 地址并将你的 "仅限" 简单 URL 解析为仅外部地址。
 
-轮循机制方法分发到两个池的请求或用于连接到一个池 （如位于地理位置靠近的池） 的主要并使用另一个池仅中的情况下使用此方法时，您都可以配置为使用每个 GeoDNS 地址连接故障。 
+使用此方法时, 你可以将每个 GeoDNS 地址配置为使用循环复用方法将请求分配到两个池, 或主要连接到一个池 (如位于地理位置较近的池), 并使用另一个池 (仅限情况连接失败。 
 
-您可以设置电话拨入式简单 url 相同的配置。 为此，请创建类似于上一示例中的其他记录替换`dialin`的`meet`中的 DNS 记录。 为管理简单 URL，使用本节中前面列出的三个选项之一。
+你可以为拨入式简单 URL 设置相同配置。 若要执行此操作, 请创建如前面的示例中所示`dialin`的`meet`其他记录, 并在 DNS 记录中替换。 对于 "管理员简单 URL", 请使用本节前面列出的三个选项之一。
 
-一旦此配置的设置方式，您必须使用监视应用程序设置 HTTP 监视的故障。 用于外部访问，以确保该 HTTPS 获取 lyncdiscover 的监视器。<sipdomain> 对外部 web FQDN 或负载平衡器 IP 地址的两个池的请求是成功的。 例如，以下请求不能包含任何**ACCEPT**标头，必须返回**200 确定**。
+设置此配置后, 必须使用监视应用程序设置 HTTP 监视以监视失败。 对于外部访问, 请进行监视以确保 HTTPS 获取 lyncdiscover。<sipdomain> 对两个池的外部 web FQDN 或负载平衡器 IP 地址的请求成功。 例如, 以下请求不得包含任何**ACCEPT**标头, 并且必须返回**200 OK**。
 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-用于内部访问，您必须监视端口 5061 上的内部 web FQDN 或负载平衡器的两个池的 IP 地址。 如果检测到任何连接失败，则为这些池 VIP 必须关闭端口 80、 443 和 4443。
+对于内部访问, 你必须在两个池的内部 web FQDN 或负载平衡器 IP 地址上监视端口5061。 如果检测到任何连接失败, 这些池的 VIP 必须关闭端口80、443和4443。
 
 

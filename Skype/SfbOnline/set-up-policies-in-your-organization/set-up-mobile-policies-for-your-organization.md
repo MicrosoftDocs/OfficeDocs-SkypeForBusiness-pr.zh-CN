@@ -10,31 +10,31 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 您可以设置如何您的用户连接到 Skype 业务 online 对等功能使用户能够发起和接收电话呼叫在其移动电话上使用而不是其移动电话 nu 其单位电话号码的移动设备上的业务应用程序使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 73416cb6e0c9c349c58e26b70760f6490e283e4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online, 例如允许用户通过其工作电话号码 (而不是移动电话号码) 在手机上拨打和接听电话的功能。mber. 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
+ms.openlocfilehash: 844328425daa8076f0d861911ba989594ff832e6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237457"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297695"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
-您可以设置如何您的用户连接到 Skype 业务 online 对等功能使用户能够发起和接收电话呼叫在其移动电话上使用而不是其移动电话 nu 其单位电话号码的移动设备上的业务应用程序使用 Skypember。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
+你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online, 例如允许用户通过其工作电话号码 (而不是移动电话号码) 在手机上拨打和接听电话的功能。mber. 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
   
-移动策略设置可以配置时创建的策略，或者您可以使用**Set-csmobilitypolicy** cmdlet 修改现有的策略的设置。
+移动策略设置可以在创建策略时进行配置, 也可以使用**CsMobilityPolicy** cmdlet 修改现有策略的设置。
   
 ## <a name="set-your-mobile-policies"></a>设置你的移动策略
 
 > [!NOTE]
-> 对于所有业务 online Skype 中的移动策略设置，您必须都使用 Windows PowerShell 和您都**不能都使用****业务管理中心的 Skype**。 
+> 对于 Skype for Business Online 中的所有移动策略设置, 必须使用 Windows PowerShell, 并且**不能使用** **Skype for business 管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -66,61 +66,61 @@ ms.locfileid: "32237457"
     Import-PSSession $session
    ```
 
-   如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>要求用户进行视频操作时使用 WiFi 连接
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
   > 
   > ```
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > 请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
+  > 有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予对所有用户在组织中都创建新策略，请运行：
+- 若要为你的组织中的所有用户授予你创建的新策略, 请运行:
   > 
   > ```
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > 请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
+  > 有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息, 请参阅。
     
-  如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
+  如果你已创建策略, 你可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 对现有策略进行更改, 然后使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>禁止用户使用 Skype for Business 应用
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
   ```
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
+  有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予 Amos 大理石您创建的新策略，请运行：  
+- 若要将您创建的新策略授予 Amos 大理石, 请运行:  
   > 
   > ```
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > 请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
+  > 有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息, 请参阅。
     
-  如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
+  如果你已创建策略, 你可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 对现有策略进行更改, 然后使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>禁止用户使用移动设备拨打 IP 语音电话。
 
-- 若要创建这些设置的新策略，请运行：
+- 若要为这些设置创建新的策略, 请运行:
   > 
   > ```
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > 请参阅[New-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息。
+  > 有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet 的详细信息, 请参阅。
     
-- 若要授予对所有用户在组织中都创建新策略，请运行：
+- 若要为你的组织中的所有用户授予你创建的新策略, 请运行:
   > 
   > ```
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  请参阅[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息。
+  有关[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 的详细信息, 请参阅。
     
-如果您已经创建策略，您可以使用[Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 可以更改现有的策略，并将[Grant-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到您的用户。
+如果你已创建策略, 你可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet 对现有策略进行更改, 然后使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
@@ -141,11 +141,11 @@ ms.locfileid: "32237457"
 ## <a name="related-topics"></a>相关主题
 [创建自定义外部访问策略](create-custom-external-access-policies.md)
 
-[阻止点对点文件传输](block-point-to-point-file-transfers.md)
+[阻止点到点文件传输](block-point-to-point-file-transfers.md)
 
 [为你的组织设置客户端策略](set-up-client-policies-for-your-organization.md)
 
-[设置您的组织中的会议策略](set-up-conferencing-policies-for-your-organization.md)
+[在组织中设置会议策略](set-up-conferencing-policies-for-your-organization.md)
 
   
  

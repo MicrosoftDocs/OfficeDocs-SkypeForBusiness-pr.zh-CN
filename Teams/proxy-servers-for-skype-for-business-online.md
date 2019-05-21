@@ -1,5 +1,5 @@
 ---
-title: 工作组或业务 online Skype 的代理服务器
+title: Teams 或 Skype for Business Online 的代理服务器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -18,27 +18,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: 本文提供了有关与团队或 Skype 的代理服务器使用的业务信息。
-ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 本文提供有关将代理服务器与团队或 Skype for Business 配合使用的信息。
+ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246115"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304367"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>工作组或业务 online Skype 的代理服务器
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或 Skype for Business Online 的代理服务器
 
-本文提供有关使用代理服务器团队或 Skype for Business 的指导。
+本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建议不使用代理服务器
 
-当谈到团队或 Skype 的业务流量通过代理时，Microsoft 建议绕过代理服务器。 代理不使团队或 for Business 的 Skype 更加安全因为已加密流量。
+当来自代理的团队或 Skype for business 通信流时, Microsoft 建议绕过代理。 代理不会使团队或 Skype for business 更加安全, 因为通信已加密。
   
-另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 例如，这些问题将导致这样的团队或 Skype 业务方案音频和视频，为负体验实时流至关重要。
+另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 此类问题将在此类团队或 Skype for Business 方案中产生消极的体验, 因为实时流非常重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 
-某些组织具有用于工作组或 Skype 的业务通信不使用代理服务器的选项。 如果你是这种情况，需要留意上面提到的问题。
+某些组织没有为团队或 Skype for business 流量绕过代理的选项。 如果你是这种情况，需要留意上面提到的问题。
   
 Microsoft 还强烈建议：
   
@@ -48,7 +48,7 @@ Microsoft 还强烈建议：
     
 - 允许 UDP 流量
     
-- 关注我们网络指南中的其他建议：
+- 按照我们的网络指南中的其他建议操作:
     
   - [Skype for Business Online 中的媒体质量和网络连接性能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     

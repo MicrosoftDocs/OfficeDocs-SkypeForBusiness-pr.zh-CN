@@ -4,23 +4,23 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 XMPP 功能不再可用 & Skype 中弃用的业务服务器 2019年。 如果您想要继续使用 XMPP 功能，可以将的适用 coexitence 环境与旧版本中 (业务服务器 2015年的 Skype / Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。
-ms.openlocfilehash: fa91741c1be8d80443363caba7c840b1d985d8f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '以前的版本提供了可扩展消息和状态协议 (XMPP) 网关, 可将其部署为单独的服务器角色, 以便允许与 XMPP 部署进行联盟。 在 Skype for Business Server 2019 中, XMPP 功能不再可用 & 已弃用。 如果您想要继续处理 XMPP 功能, 可通过旧版版本 (Skype for business Server 2015/Lync Server 2013) 在 coexitence 环境中 availed。 XMPP 功能安装在两个部分中: 作为在旧版 Edge 服务器上运行的 XMPP 代理, 以及在旧前端服务器上运行的 XMPP 网关。'
+ms.openlocfilehash: fd2b51af84133e28e9a4de035333b1a282d71d38
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231628"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298188"
 ---
 # <a name="migrating-xmpp-federation"></a>管理 XMPP 联盟
 
-早期版本提供的可扩展消息和状态协议 (XMPP) 网关无法作为允许与 XMPP 部署联盟的单独的服务器角色部署。 XMPP 功能不再可用，并在 Skype 中的业务服务器 2019年已弃用。 如果您想要继续使用 XMPP 功能，您可以这样在共存环境中使用旧版本 (Skype 业务服务器 2015年或 Lync Server 2013)。 XMPP 功能安装在两个部分： 为 XMPP 代理运行旧边缘服务器和 XMPP 网关的旧前端服务器上运行。 
+以前的版本提供了可扩展消息和状态协议 (XMPP) 网关, 可将其部署为单独的服务器角色, 以便允许与 XMPP 部署进行联盟。 在 Skype for Business Server 2019 中, XMPP 功能不再可用且已弃用。 如果你想要继续使用 XMPP 功能, 可以在具有旧版版本 (Skype for business Server 2015 或 Lync Server 2013) 的共存环境中执行此操作。 XMPP 功能安装在两个部分中: 作为在旧版 Edge 服务器上运行的 XMPP 代理, 以及在旧前端服务器上运行的 XMPP 网关。 
   
-从迁移的角度看，希望获得 XMPP 功能的用户应保留在旧服务器不应移动到 Skype 业务服务器 2019年池但继续使用旧的 XMPP 网关。 这是可能的仅当在 Skype 业务服务器 2015年或 Lync Server 2013 配置 XMPP 联盟的伙伴时。 您应不迁移旧边缘服务器到 Skype 业务服务器 2019年如果您想要继续使用 XMPP 功能。 但是，您可以旧边缘服务器 （与 XMPP 代理） 和 Skype 业务 2019年边缘服务器共存。
+从迁移的角度看, 想要使用 XMPP 功能的用户应保留在旧服务器中, 并且不应移动到 Skype for business Server 2019 池, 但继续使用旧版 XMPP 网关。 仅当在 Skype for Business Server 2015 或 Lync Server 2013 中配置了 XMPP 联盟伙伴时, 才可以这样做。 如果要继续 XMPP 功能, 则不应将旧式边缘服务器迁移到 Skype for business Server 2019。 但是, 你可以使用旧版 Edge 服务器 (使用 XMPP 代理) 和 Skype for business 2019 Edge 服务器共存。
   
 
     

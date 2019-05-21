@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserMoveAll
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: 在“移动用户”对话框上，您可以选择用于在部署中将用户帐户从一个池移动到另一个池的源池和目标池。
-ms.openlocfilehash: 4c7d31536421ec6a0ebfa4c8afc00765e1c89c5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e43116790e2e408d680645978e4da9f574b273c3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293366"
 ---
 # <a name="move-all-users"></a>移动所有用户
 

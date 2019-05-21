@@ -7,7 +7,7 @@ ms.reviewer: sonua
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -17,89 +17,89 @@ f1keywords:
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: 了解如何管理的用户安排在组织中的团队会议设置。
-ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解如何管理组织中用户安排的团队会议的设置。
+ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231879"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298116"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
-作为一名管理员，您使用团队会议设置来控制是否匿名用户可以加入团队会议和自定义会议邀请，如果您想要启用服务质量 (QoS) 设置的实时通信的端口范围。 这些设置应用于所有团队会议在组织中的用户日程安排。 **会议**管理这些设置 > Microsoft 团队管理中心中的**会议设置**。
+作为管理员, 你可以使用团队会议设置控制匿名用户是否可以加入团队会议、自定义会议邀请, 以及是否要启用服务质量 (QoS), 并为实时流量设置端口范围。 这些设置适用于用户在你的组织中安排的所有团队会议。 可在 Microsoft 团队管理中心**** > 的会议 "**会议设置**" 中管理这些设置。
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允许匿名用户加入会议
 
-匿名加入与任何人都可以作为加入会议匿名用户通过单击会议邀请中的链接。
+通过匿名加入, 任何人都可以通过单击会议邀请中的链接以匿名用户身份加入会议。
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
-1. 在左侧导航窗格中，转到**会议** > **会议设置**。
-2. 在**参与者**下启用**匿名用户可以加入会议**。
+1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
+2. 在 "**参与者**" 下, 打开**匿名用户可以加入会议**。
 
-    ![会议-设置-participants.png](media/meeting-settings-participants.png "Microsoft 团队管理中心中的团队会议的参与者设置的屏幕截图")
+    ![meeting-settings-participants](media/meeting-settings-participants.png "Microsoft 团队管理中心中团队会议的参与者设置的屏幕截图")
 
-如果您不希望匿名用户可以加入您的组织中的用户安排的会议，请关闭此设置。
+如果您不希望匿名用户加入您的组织中的用户计划的会议, 请关闭此设置。
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-您可以自定义团队会议邀请，以满足您组织的需求。 您可以添加贵组织的徽标和包括有用的信息，如技术支持网站和法律免责声明和纯文本页脚的链接。
+您可以自定义团队会议邀请以满足组织的需求。 你可以添加组织的徽标并包含有用的信息, 如指向支持网站和法律免责声明的链接, 以及纯文本页脚。
 
-### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>创建会议邀请的徽标的提示  
+### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示  
 
-1. 创建不超过 188 像素宽 x 30 像素高 （它是非常小） 的图像。
-2. 将图像保存为 JPG 格式。
-3. 将图像存储在您的组织中的所有人都可以访问，如网络共享一个中心位置。
+1. 创建宽度不188超过30像素的图像 (相当小)。
+2. 以 JPG 格式保存图像。
+3. 将图像存储在你的组织中的每个人都可以访问的中心位置, 例如网络共享。
 
 ### <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 
-![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
-1. 在左侧导航窗格中，转到**会议** > **会议设置**。
-2. 在**电子邮件邀请**，下执行以下操作：
+1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
+2. 在 "**电子邮件邀请**" 下, 执行下列操作:
 
-    ![会议-设置-invitation.png](media/meeting-settings-invitation.png "会议的屏幕截图可以自定义团队会议的邀请设置")
+    ![meeting-settings-invitation](media/meeting-settings-invitation.png "可为团队会议自定义的会议邀请设置的屏幕截图")
 
-    - **徽标 URL**输入您的徽标的存储位置的 URL。
-    - **法律 URL**如果您的组织具有您想让用户转到的任何法律问题的法律网站，输入以下 URL。
-    - **帮助 URL**如果您的组织具有您想让用户转到如果他们遇到问题的支持网站，，输入以下 URL。
-    - **页脚**输入要作为页脚包含的文本。
-3. 等待一小时或，更改将传播。 然后安排团队会议以查看会议邀请如下所示。  
+    - **徽标 URL**输入存储徽标的 URL。
+    - **合法 URL**如果你的组织拥有法律网站, 而你希望其他人出于任何法律问题而转到该网站, 请在此处输入 URL。
+    - **帮助 URL**如果你的组织有支持网站, 而你希望用户在遇到问题时转到该网站, 请在此处输入 URL。
+    - **页脚**输入要包含在页脚中的文本。
+3. 等待一小时, 这样才能传播所做的更改。 然后安排团队会议以查看会议邀请的外观。  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置您希望如何处理团队会议的实时的媒体流量
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置你希望如何处理团队会议的实时媒体流量
 
 <a name="bknetwork"> </a>
 
-如果您使用的服务质量[(QoS)](qos-in-teams.md)若要设置网络流量，可以启用 QoS 标记，并且您可以设置每种类型的媒体流量的端口范围。
+如果你使用 "服务质量[(QoS)](qos-in-teams.md) " 来设置网络流量的优先级, 则可以启用 QoS 标记, 并且可以为每种类型的媒体流量设置端口范围。
 
- ![团队-徽标-30x30.png](media/teams-logo-30x30.png) **使用的 Microsoft 团队管理中心**
+ ![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
 
-1. 在左侧导航窗格中，转到**会议** > **会议设置**。
-2. 在**网络**下执行以下操作：
+1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
+2. 在 "**网络**" 下, 执行下列操作:
 
-    ![会议-设置-network.png](media/meeting-settings-network.png "团队会议的 Microsoft 团队管理中心中的网络设置的屏幕截图")
+    ![meeting-settings-network](media/meeting-settings-network.png "Microsoft 团队管理中心中团队会议的网络设置的屏幕截图")
 
-    - 要允许 DSCP 标记，以用于 QoS，请打开**插入的服务质量 (QoS) 标记的实时的媒体流量**。 只有或不; 使用标记的选项不能设置为每种通信类型的自定义标记。 更多有关 DSCP 标记，请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
-    - 若要指定端口范围，旁边**选择每种类型的实时的媒体流量的端口范围**，请选择**指定端口范围**，，然后输入音频、 视频和屏幕共享的起始和结束端口。 选择此选项需要实现 QoS。
+    - 若要允许对 QoS 使用 DSCP 标记, 请打开**实时媒体流量的 "插入服务质量 (QoS)" 标记**。 您只能选择使用标记, 也可以不选择。不能为每种流量类型设置自定义标记。 有关 DSCP 标记的详细信息, 请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+    - 若要指定端口范围, 请在 "为**每种实时媒体流量选择端口范围**" 旁边, 选择 "**指定端口范围**", 然后输入音频、视频和屏幕共享的起始和结束端口。 若要实现 QoS, 选择此选项是必需的。
     > [!IMPORTANT]
-    > 如果您选择**自动使用任何可用的端口**，1024年之间可用的端口，并使用 65535。 仅当不实现 QoS，请使用此选项。
+    > 如果选择 "**自动使用任何可用端口**", 将使用1024和65535之间的可用端口。 仅在未实现 QoS 时使用此选项。
     >
-    > 选择太窄的端口范围会导致丢弃的呼叫和质量欠佳的呼叫质量。 下面的建议应最低。
+    > 选择太窄的端口范围将导致呼叫中断和通话质量不佳。 下面的建议最少。
 
- 如果您不确定哪些端口范围，在您的环境中使用，以下设置都很好的起点。 若要了解详细信息，请阅读[实现的服务质量 (QoS) 中的 Microsoft 团队](QoS-in-Teams.md)。 这些是必需的 DSCP 标记和建议的相应媒体端口范围团队和 ExpressRoute 使用。
+ 如果不确定要在环境中使用的端口范围, 以下设置是一个很好的起始点。 若要了解详细信息, 请参阅[Microsoft 团队中的实施服务质量 (QoS)](QoS-in-Teams.md)。 这些是所需的 DSCP 标记和建议的相应媒体端口范围 (由团队和 ExpressRoute 使用)。
 
 _端口范围和 DSCP 标记_
 
-媒体通信类型| 客户端源端口范围\* |协议|DSCP 值|DSCP 类|
+媒体流量类型| 客户端源端口范围\* |协议|DSCP 值|DSCP 类|
 |:---             |:---                         |:---    |:---      |:---      |
-|音频            | 50000 – 50,019               |TCP/UDP |46        |加速转发 (EF)|
-|视频            | 50,020 – 50,039               |TCP/UDP |34        |保证转发 (AF41)|
-|应用程序/屏幕共享| 50,040 – 50,059      |TCP/UDP |18        |保证转发 (AF21)|
+|音频            | 50000-50019               |TCP/UDP |46        |加速转发 (EF)|
+|视频            | 50,020–50,039               |TCP/UDP |34        |保证转发 (AF41)|
+|应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18        |有保证的转发 (AF21)|
 | | | | |
 
-\*分配的端口范围不能重叠，并且必须彼此相邻。
+\*您分配的端口范围不能重叠, 并且必须彼此相邻。
 
-端口范围设置不同的通信类型是只有一个步骤中处理实时媒体;更多详细信息，请参阅[服务质量 (QoS) 中的团队](qos-in-teams.md)。 如果启用，或更改的 Microsoft 团队管理中心中的设置，您需要向[匹配将设置应用于所有用户设备](QoS-in-Teams-clients.md)和内部网络设备完全在工作组中实现对 QoS 的更改。
+为不同的流量类型设置端口范围只是处理实时媒体的一个步骤;[在团队中查看服务质量 (QoS)](qos-in-teams.md) , 了解更多详细信息。 如果你启用或更改 Microsoft 团队管理中心中的设置, 你需要将[匹配设置应用到所有用户设备](QoS-in-Teams-clients.md)和内部网络设备, 以完全实现团队中的 QoS 的更改。
 
-QoS 一直在使用后的一段时间，您必须按每个这些三个工作负荷，需使用情况的信息和您可以选择要进行更改基于您的特定需求。 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)将有用的。
+在 QoS 已使用过一段时间后, 你将在每个这三个工作负荷的需求上获得使用信息, 你可以根据特定需要选择要进行的更改。 [通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)将非常有用。

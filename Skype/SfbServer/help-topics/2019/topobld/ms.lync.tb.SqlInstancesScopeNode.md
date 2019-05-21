@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstancesScopeNode
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: SQL 存储在拓扑中的节点列表的 SQL Server 数据库。 可以执行以下操作：
-ms.openlocfilehash: c2701ab64d5d83c92d05babdb8aee075ce5a0af6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: SQL "存储" 节点列出拓扑中的 SQL Server 数据库。 可以执行以下操作：
+ms.openlocfilehash: 5ebb14c537b131e9ccd672a8a6663999042d62f3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920305"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303058"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  
-**SQL 存储**节点列出了您的拓扑中的 SQL Server 数据库。 可以执行以下操作：
+**Sql "存储**" 节点列出拓扑中的 SQL Server 数据库。 可以执行以下操作：
   
-- **新建 SQL 存储**。 启动**定义新的 SQL 存储**向导，用于向拓扑中添加新的 SQL Server 数据库。
+- **新建 SQL 存储**。 启动 "**定义新的 Sql 应用商店**" 向导, 用于向拓扑添加新的 sql Server 数据库。
     
-除了 SQL Server 数据库选项，可以执行以下常规任务：
+除了 SQL Server 数据库选项之外, 您还可以执行以下常规任务:
   
 - **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

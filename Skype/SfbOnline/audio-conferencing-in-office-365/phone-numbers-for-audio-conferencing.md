@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: 4ba3cea0b009ae91c2df1954cdee283397bf2037
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229144"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299113"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -48,7 +48,7 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 可以通过单击会议邀请上的" **查找本地号码**"链接来查看其他拨入号码。
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>设置音频会议桥的拨入电话号码
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>在音频会议网桥上设置的拨入电话号码
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
@@ -58,12 +58,12 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自动分配音频会议的电话号码
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>自动分配的音频会议电话号码
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> 通过登录到**Office 365 管理中心**，在**组织配置文件**下查看找不到您的组织的国家或地区的位置。 
+> 通过登录到**Office 365 管理中心**并在 "**组织配置文件**" 下查看, 可以找到您的组织的国家或地区位置。 
   
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
@@ -74,15 +74,15 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
   
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 若要查看为音频会议支持的语言的列表，请参阅[音频会议支持的语言](/MicrosoftTeams/audio-conferencing-supported-languages)。
+- 若要查看音频会议的受支持语言的列表, 请参阅[音频会议支持的语言](/MicrosoftTeams/audio-conferencing-supported-languages)。
     
-- 可以使用[Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet 以查看您的组织的音频会议的专用的电话号码。
+- 你可以使用[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet 查看你的组织的音频会议的专用电话号码。
     
 - 你可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet 查看可以对专用拨入电话号码设置的语言。
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- 若要为用户设置的拨入电话号码，请参阅[设置电话号码包含在邀请](set-the-phone-numbers-included-on-invites.md)。
+- 若要为用户设置拨入电话号码, 请参阅[设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites.md)。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

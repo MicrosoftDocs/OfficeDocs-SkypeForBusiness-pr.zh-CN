@@ -1,33 +1,33 @@
 ---
-title: 启用或禁用业务服务器中 Skype 电话拨入式会议
+title: 在 Skype for Business 服务器中启用或禁用电话拨入式会议
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: 摘要： 了解如何使用控制面板或命令行管理程序启用或禁用业务服务器中 Skype 电话拨入式会议。
-ms.openlocfilehash: 1392c67e2b432a6acc9bca805367083d311fd7d1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用电话拨入式会议。'
+ms.openlocfilehash: 6723c3501b226d11977ad176a804210540f1a2bc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919799"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294255"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>启用或禁用业务服务器中 Skype 电话拨入式会议
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用或禁用电话拨入式会议
  
-**摘要：** 了解如何使用控制面板或命令行管理程序启用或禁用业务服务器中 Skype 电话拨入式会议。
+**摘要:** 了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用拨入式会议。
   
-使用适用于业务 Server Control Panel Skype 或使用 Skype 业务 Server 命令行管理程序，您可以启用电话拨入式会议。
+你可以使用 Skype for Business Server 控制面板或使用 Skype for Business Server 命令行管理器启用电话拨入式会议。
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>启用或禁用使用适用于业务 Server Control Panel Skype 的电话拨入式会议
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板启用或禁用电话拨入式会议
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务 Server Control Panel。
+2.  打开 "Skype for Business 服务器" 控制面板。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议策略**”。
     
@@ -37,7 +37,7 @@ ms.locfileid: "33919799"
     
 6. 单击“**提交**”。 
     
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>启用或禁用使用 Skype 业务 Server Management Shell 的电话拨入式会议
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序启用或禁用电话拨入式会议
 
 若要启用或禁用电话拨入式会议，请如下使用带 EnableDialInConferencing 参数的 **Set-CsConferencingPolicy** cmdlet：
   
@@ -45,6 +45,6 @@ ms.locfileid: "33919799"
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-有关详细信息，请参阅[Set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+有关详细信息, 请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
   
 

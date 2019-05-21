@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-description: '您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:'
-ms.openlocfilehash: 7c5132bf070c060a72df9d7901cab4d662c10ffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '通过配置以下内容来定义 IP 或公共交换电话网络 (PSTN) 的根主干:'
+ms.openlocfilehash: 13a98328c3ca8d8187619ce5b787e67bacb5b8a2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911845"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302463"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 
-您通过配置以下 IP 或公用电话交换网 (PSTN) 定义的根 trunk:
+通过配置以下内容来定义 IP 或公共交换电话网络 (PSTN) 的根主干:
 
-- **Trunk 名称**： 定义与 trunk 关联的完全限定的域名
+- **主干名称**: 定义与主干相关联的完全限定的域名称
 
-- **IP/PSTN 网关的侦听端口**： 定义此 trunk 将侦听的端口
+- **IP/PSTN 网关的侦听端口**: 定义此主干将侦听的端口
 
-- **SIP 传输协议**： 从列表中选择**TCP**或**TLS**，根据 trunk 要求
+- **SIP 传输协议**: 根据中继要求, 从列表中选择 " **TCP** " 或 " **TLS**"
 
-- **关联的中介服务器**： 从部署中的可用中介服务器的列表中选择
+- **关联的中介服务器**: 从你的部署中的可用中介服务器列表中选择
 
-- **关联的中介服务器端口**： 定义选定的中介服务器侦听的端口
+- **关联的中介服务器端口**: 定义所选中介服务器正在侦听的端口
 
 ## <a name="see-also"></a>另请参阅
 

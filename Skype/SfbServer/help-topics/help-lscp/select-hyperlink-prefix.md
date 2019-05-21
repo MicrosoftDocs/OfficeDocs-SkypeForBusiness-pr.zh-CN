@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
-description: 使用选择超链接前缀对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名下的类别中对应的复选框超链接前缀。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。
-ms.openlocfilehash: 752112ee5af16079dfd15b9714e54e931e9ac965
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 使用 "选择超链接前缀" 对话框, 选择要阻止的超链接的类型、发送一条警告消息, 或者通过选择 (阻止或发送警告消息) 或清除 (允许) 其 "" 下的类别中的扩展的复选框。超链接前缀。 单击箭头以展开类别并查看该类别的所有超链接前缀。 如果要选择某个类别的所有超链接前缀, 请选择类别名称。
+ms.openlocfilehash: b4bbf27fe039be68b57c434bb9fc3541ce6cacf2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924617"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293869"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  
-使用**选择超链接前缀**对话框中选择您想要阻止、 发送一条警告消息，或通过选中 （以阻止或发送一条警告消息） 或清除允许 （以允许） 的超链接的类型及其扩展名从对应的复选框在**超链接前缀**下的类别。 单击箭头以展开类别并查看所有类别的超链接前缀。 如果您想要选择的所有类别的超链接前缀，选择类别名称。 
+使用 "**选择超链接前缀**" 对话框, 选择要阻止的超链接的类型、发送警告消息或通过选择 (阻止或发送警告消息) 或清除 (允许) 其扩展的复选框**超链接前缀**下的类别。 单击箭头以展开类别并查看该类别的所有超链接前缀。 如果要选择某个类别的所有超链接前缀, 请选择类别名称。 
   
-如果您未看到超链接前缀要选择列出在**超链接前缀**中，在**向列表添加新的超链接前缀**下的文本框中键入扩展名，然后单击**添加**。 
+如果看不到要在**超链接前缀**中列出的超链接前缀, 请在文本框中的 "**向列表添加新的超链接前缀**" 下键入扩展名, 然后单击 "**添加**"。 
   
-您已将所有所需的超链接前缀添加到**选择超链接前缀**列表中后，单击**确定**。
+将所需的所有超链接前缀添加到 "**所选超链接前缀**" 列表后, 单击 **"确定"**。
   
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
   
 

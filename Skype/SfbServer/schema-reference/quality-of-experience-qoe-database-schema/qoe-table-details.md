@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
-ms.openlocfilehash: cd8a1f063fdfe5f13aecdaa62eb71225e753adfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 以下部分详细介绍了每个体验质量 (QoE) 数据库架构表中的列。
+ms.openlocfilehash: 371fdd6f3d61ef799fd45f08e7cb4a8a1fea03f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920115"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294780"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  
-以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
+以下部分详细介绍了每个体验质量 (QoE) 数据库架构表中的列。
   
 - [AppliedBandwidthSource 表](appliedbandwidthsource.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "33920115"
     
 - [Pool 表](pool.md)
     
-- [PurgeSettings 表 (QoE)](purgesettings-qoe.md)
+- [PurgeSettings table (QoE)](purgesettings-qoe.md)
     
 - [Region 表](region.md)
     
@@ -82,7 +82,7 @@ ms.locfileid: "33920115"
     
 - [UserAgent 表](useragent.md)
     
-- [UserAgentDef 表 (QoE)](useragentdef-qoe.md)
+- [UserAgentDef table (QoE)](useragentdef-qoe.md)
     
 - [UserSite 表](usersite.md)
     

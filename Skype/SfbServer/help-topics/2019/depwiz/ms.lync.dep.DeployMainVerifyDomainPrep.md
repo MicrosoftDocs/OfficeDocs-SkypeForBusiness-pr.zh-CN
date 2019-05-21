@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainVerifyDomainPrep
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要验证复制在步骤 1 中完成的域准备： 准备架构，它所需从 Skype 的业务服务器管理命令行管理程序 Lync Server Management Shell 中运行 cmdlet。 若要运行 Windows PowerShell cmdlet，登录到成员已经准备好的域的 Domain Admins 组的成员以及的计算机。 请执行下列操作：
-ms.openlocfilehash: 1c23266b82e0f0a76f075c50509b43210a35bfd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '若要验证在步骤 1: 准备架构中完成的域准备的复制, 必须从 Skype for Business Server Management Shell Lync Server Management Shell 运行 cmdlet。 若要运行 Windows PowerShell cmdlet, 请登录到属于你已准备的域成员的计算机, 以及作为域管理员组的成员。 请执行下列操作：'
+ms.openlocfilehash: 0b853a071116525ad313cf351685124bf92782a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893628"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303352"
 ---
 # <a name="verify-replication-in-the-domain"></a>验证域中的复制
  
-若要验证中完成域准备的复制**步骤 1： 准备架构**，需从 Skype 的业务服务器管理命令行管理程序 Lync Server Management Shell 中运行 cmdlet。 若要运行 Windows PowerShell cmdlet，登录到成员已经准备好的域的 Domain Admins 组的成员以及的计算机。 请执行下列操作：
+若要验证在**步骤 1: 准备架构**中完成的域准备的复制, 必须从 Skype For Business Server Management Shell Lync Server management shell 运行 cmdlet。 若要运行 Windows PowerShell cmdlet, 请登录到属于你已准备的域成员的计算机, 以及作为域管理员组的成员。 请执行下列操作：
   
-1. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**、 都单击**for Business 的 Skype**，，然后都单击**Skype 的业务 Server Management Shell**。
+1. 启动 Skype for Business 服务器命令行管理程序: 单击 "**开始**", 单击 "**所有程序**", 单击 " **skype**for Business", 然后单击 " **skype for business 服务器管理外壳**"。
     
-2. 在 Windows PowerShell 中，键入以下命令：
+2. 在 Windows PowerShell 中, 键入以下内容:
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
@@ -39,7 +39,7 @@ ms.locfileid: "33893628"
    ```
 
     > [!NOTE]
-    > 参数 GlobalSettingsDomainController 用于指示存储全局设置的位置。 如果您的设置存储在系统容器 （这是不过全局设置迁移到配置容器的升级部署典型） 中，您的 Active Directory 域服务林根中定义的域控制器。 如果全局设置存储在“配置”容器中（在新部署或设置已迁移到“配置”容器的升级部署中时通常是这种情况），则定义林中的任何域控制器。 如果未指定此参数，则 cmdlet 会假定设置存储在“配置”容器中，并引用 Active Directory 中的任何域控制器。 
+    > 参数 GlobalSettingsDomainController 用于指示存储全局设置的位置。 如果你的设置存储在系统容器中 (这与未将全局设置迁移到配置容器的升级部署的典型设置), 请在 Active Directory 域服务林的根中定义域控制器。 如果全局设置存储在“配置”容器中（在新部署或设置已迁移到“配置”容器的升级部署中时通常是这种情况），则定义林中的任何域控制器。 如果未指定此参数，则 cmdlet 会假定设置存储在“配置”容器中，并引用 Active Directory 中的任何域控制器。 
   
     如果不指定 Domain 参数，则将该值设置为本地域。 如果域准备已成功，则此 cmdlet 将返回 **LC_DOMAIN_SETTINGS_STATE_READY** 的值。
     

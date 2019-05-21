@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: 媒体视图中存储的对等会话中使用的一个媒体类型的信息。 将由多个记录在表中，表示一个会话，如果使用多个媒体类型。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 83caf609efae4e97961e7c62c3a1ed6c6004e8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 媒体视图存储对等会话中使用的一种媒体类型的相关信息。 如果使用多个媒体类型, 则表中的多个记录将表示一个会话。 此视图已在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 044a31381d4e1e48c465f7ee6de89acab10ab54e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930691"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295998"
 ---
 # <a name="media-view"></a>媒体视图
  
-媒体视图中存储的对等会话中使用的一个媒体类型的信息。 将由多个记录在表中，表示一个会话，如果使用多个媒体类型。 此视图是在 Microsoft Lync Server 2013 中引入的。
+媒体视图存储对等会话中使用的一种媒体类型的相关信息。 如果使用多个媒体类型, 则表中的多个记录将表示一个会话。 此视图已在 Microsoft Lync Server 2013 中引入。
   
 > [!NOTE]
-> 媒体视图不应用于计算会话的媒体持续时间。 该视图包含会话中的媒体交换的信号详细信息。 媒体交换通过 INVITE 请求，并 StartTime 指示邀请已发送的时间。邀请时间不一定意味着媒体开始时间，因为媒体的起始位置仅接受会话。 
+> 不应使用 "媒体" 视图计算会话的媒体持续时间。 此视图包含会话中媒体交换的信号详细信息。 媒体交换由邀请请求完成, 并且 StartTime 指示发送邀请的时间。邀请时间不一定意味着媒体开始时间, 因为媒体仅在接受会话后才开始。 
   
-媒体视图它包含[SessionDetails view](sessiondetails-0.md)中的列的所有此外下面列出的内容。
+"媒体" 视图包含 " [SessionDetails" 视图](sessiondetails-0.md)中的所有列以及下面列出的列。
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**媒体** <br/> |nvarchar(256)  <br/> |媒体类型。 请参阅[MediaList 表](medialist.md)的详细信息。 <br/> |
-|**MediaStartTime** <br/> |datetime  <br/> |已发送媒体请求的时间。  <br/> |
+|**媒体** <br/> |nvarchar(256)  <br/> |媒体类型。 有关详细信息, 请参阅[MediaList 表](medialist.md)。 <br/> |
+|**MediaStartTime** <br/> |datetime  <br/> |媒体请求发出的时间。  <br/> |
 |**MediaEndTime** <br/> |datetime  <br/> |会话的结束时间。  <br/> |
    
 

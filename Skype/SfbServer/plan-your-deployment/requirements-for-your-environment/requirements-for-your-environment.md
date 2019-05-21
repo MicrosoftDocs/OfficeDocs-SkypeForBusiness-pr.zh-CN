@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,30 +14,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 摘要： 了解系统要求和网络或基础结构要求 Skype 业务服务器 2015年主题大纲。 如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
-ms.openlocfilehash: 67c79cc5386a46f80e31f2cf9c30d8a0aa73ca95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 针对适用于 Skype for business Server 2015 的系统要求和网络或基础结构要求的主题大纲。 如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。'
+ms.openlocfilehash: d28f550b9279b579f357517ffdfd0c6beea22f23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929369"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296810"
 ---
-# <a name="requirements-for-your-skype-for-business-2015-environment"></a>您 Skype 业务 2015年环境的要求
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Skype for business 2015 环境的要求
  
 **摘要：** Skype for Business Server 2015 系统要求及网络或基础结构要求主题的大纲。如果需要安装或配置的任何组件是安装和部署 Skype for Business Server 2015 的先决条件，那么可以在那里找到这些功能。
   
-这是有关围绕业务服务器 2015年部署 Skype 的要求的文章的登陆页面。 这包括 server 要求和更多常规事项准备，其中包括您的域和网络结构，以及证书。
+这是有关 Skype for business Server 2015 部署要求的文章的登录页面。 这包括服务器要求和要准备的更多常规内容, 包括您的域和网络结构以及证书。
   
 ## <a name="whats-in-this-topic"></a>本主题中的内容
 
-环境节的 requirements 中两篇文章概述了需要具有和/或之前可以转提前和成功部署或升级到 Skype 的业务服务器 2015年，贵组织的服务器环境中配置。
+你的环境要求中的两篇文章概括介绍了你需要具有和/或配置的内容, 然后才能在你的组织的服务器环境中继续并成功部署或升级到 Skype for business Server 2015。
   
 ### <a name="server-requirements"></a>服务器要求
 
-[服务器要求的业务服务器 2015 Skype](server-requirements.md)是需要准备您打算部署中使用的各个服务器上的内容。
+[Skype for Business server 2015 的服务器要求](server-requirements.md)是准备在你想要在部署中使用的单个服务器上准备的功能。
   
 ### <a name="environmental-requirements"></a>环境要求
 
-[环境要求的业务服务器 2015 Skype](environmental-requirements.md)是种类的业务服务器 2015年部署 Skype 之前准备好在您的基础结构所需要的事项。
+[Skype for Business server 2015 的环境要求](environmental-requirements.md)是在部署 Skype For business server 2015 之前需要准备在你的基础结构中使用的更多方面。
   
 

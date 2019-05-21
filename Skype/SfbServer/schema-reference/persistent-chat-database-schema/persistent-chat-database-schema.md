@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: 这业务服务器记录 Skype 的持久聊天数据库的架构。
-ms.openlocfilehash: 5e10f47a7eeb04de08766bae2957773db35d88f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 此文档介绍 Skype for Business 服务器中持久聊天数据库的架构。
+ms.openlocfilehash: 9a3e09a03f764f8866865e08259cbaac12a1c554
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930006"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295613"
 ---
 # <a name="persistent-chat-database-schema"></a>持久聊天数据库架构
  
-这业务服务器记录 Skype 的持久聊天数据库的架构。
+此文档介绍 Skype for Business 服务器中持久聊天数据库的架构。
   
-持久聊天数据库是指后业务服务器端服务器角色**PersistentChatStore** （对应于 mgc 数据库） 和**PersistentChatComplianceStore** Skype 与对应的数据库 (对应于mgccomp 数据库）。 发布此架构的目标是使您能够生成查询和深入了解一些构建周围聊天使用情况、 活动聊天室、 顶部海报、 等有用报告。
+持久聊天数据库指的是对应于 Skype for Business 服务器后端服务器角色的数据库**PersistentChatStore** (对应于 mgc 数据库) 和**PersistentChatComplianceStore** (对应于mgccomp 数据库)。 发布此架构的目的是使你能够构建查询并深入了解如何构建有关聊天使用、活动会议室、热门海报等的有用报告。
   
 > [!IMPORTANT]
-> 我们保留发展此架构的权利。 Microsoft 不作任何保证维护与此已发布架构完全的向后兼容性。 
+> 我们保留发展此架构的权利。 Microsoft 不会确保保持与此已发布架构的完全向后兼容。 
   
-请遵循以下最佳做法：
+请遵循以下最佳做法:
   
-- 没有选择\*/ / 支持，因为列列表可能增大。
+- 不支持\* SELECT//, 因为列列表可以增长。
     
-- 不支持用户生成的架构进行任何修改。
+- 不支持用户生成的架构修改。
     
-- 支持没有写操作。
+- 不支持写入操作。
     
-- 测试在典型大小的数据库，以确保这些查询可以执行以满足您需求的级别生成的任何查询。
+- 测试在 representatively 大小的数据库上生成的任何查询, 以确保查询可以按级别执行, 以满足你的需求。
     
 ## <a name="in-this-section"></a>本节内容
 
 - [持久聊天服务器表列表](list-of-persistent-chat-server-tables.md)
     
-- [持久聊天服务器合规性中的表列表 Skype 业务服务器](list-of-persistent-chat-server-compliance-tables.md)
+- [Skype for Business 服务器中持久聊天服务器合规性表的列表](list-of-persistent-chat-server-compliance-tables.md)
     
 - [持久聊天服务器表详细信息](persistent-chat-server-table-details.md)
     

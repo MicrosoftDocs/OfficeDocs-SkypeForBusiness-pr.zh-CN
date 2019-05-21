@@ -1,33 +1,33 @@
 ---
-title: 会议活动报告中 Skype 业务服务器
+title: Skype for Business 服务器中的会议活动报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 摘要： 了解用于在 Skype 业务服务器的会议活动报告。
-ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中使用的会议活动报表。'
+ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902768"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303875"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中 Skype 业务服务器
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Skype for Business 服务器中的会议活动报告
  
-**摘要：** 了解用于在 Skype 业务服务器的会议活动报告。
+**摘要:** 了解 Skype for Business 服务器中使用的会议活动报表。
   
-会议活动报告使您方便地回答以下问题： 如何很多会议正在保留每日和时这些会议的持续？ 如下所示的信息作为故障排除工具但也是在其自己的右侧，而不是只有用。 例如，假设用户抱怨网络看似特别是在白天慢。 快速浏览一下会议活动报告可表示一个可能的原因： 更多的会议已安排的上午 10:00 小时数和 2:00 然后在其他任何时间之间。
+会议活动报表使你可以轻松地回答以下问题: 每天保持多少个会议以及何时保留这些会议？ 此类信息不仅非常有用, 还可以作为疑难解答工具使用。 例如, 假设用户抱怨, 网络在一天的中间似乎非常慢。 快速浏览会议活动报表可能会提出一个可能的原因: 在 10:00 AM 和 2:00 PM 之间安排的会议时间比现在更多。
   
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
   
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-通过单击以下指标之一情况下，从[Conference Summary Report 中的业务服务器 Skype](conference-summary-report.md)访问会议活动报告：
+通过单击以下任一指标, 可从[Skype For Business Server 中的 "会议摘要" 报告](conference-summary-report.md)访问会议活动报告:
   
 - 会议总数
     

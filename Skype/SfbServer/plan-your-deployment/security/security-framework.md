@@ -1,26 +1,26 @@
 ---
-title: Skype 业务服务器的安全框架
+title: Skype for business Server 的安全框架
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: 本节概述了业务服务器 Skype 的表单的安全框架的基本要素。 了解这些要素协同工作的方式对于做出有关保护您的业务服务器部署的特定 Skype 的明智的决定至关重要。
-ms.openlocfilehash: 2ffede0ab2e6dab012ee578f764b3f1ea3f42db6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 本部分概述了构成 Skype for business 服务器安全框架的基本元素。 了解这些元素如何协同工作对于做出有关保护特定 Skype for Business 服务器部署的明智决策至关重要。
+ms.openlocfilehash: 8b82b09a8220139abe62ac4503ad8a7eddc28e99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914126"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296873"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>Skype 业务服务器的安全框架
+# <a name="security-framework-for-skype-for-business-server"></a>Skype for business Server 的安全框架
  
-本节概述了业务服务器 Skype 的表单的安全框架的基本要素。 了解这些要素协同工作的方式对于做出有关保护您的业务服务器部署的特定 Skype 的明智的决定至关重要。
+本部分概述了构成 Skype for business 服务器安全框架的基本元素。 了解这些元素如何协同工作对于做出有关保护特定 Skype for Business 服务器部署的明智决策至关重要。
   
 这些要素如下所示：
   
@@ -34,26 +34,26 @@ ms.locfileid: "33914126"
     
 - 用于用户身份验证的行业标准协议，如果可能。
     
-- Windows PowerShell 提供默认启用的以便用户无法轻松或在不知情的情况下运行脚本的安全功能。
+- Windows PowerShell 提供默认启用的安全功能, 以便用户无法轻松或不知不觉地运行脚本。
     
-这些基本安全要素共同定义受信任的用户、 服务器、 连接和操作，以帮助确保安全的基础的 Skype 业务服务器。
+这些基本的安全元素协同工作以定义受信任的用户、服务器、连接和操作, 以帮助确保 Skype for business 服务器的安全基础。
   
 ## <a name="in-this-section"></a>本节内容
 
-本节中的主题介绍每个基本要素如何工作以增强您 Skype Business Server 基础结构的安全性。
+本部分中的主题介绍了每个基本元素如何工作以增强 Skype for business 服务器基础结构的安全性。
   
-- [业务服务器 Skype 的的 active Directory 域服务](active-directory-domain-services.md)
+- [适用于 Skype for business 服务器的 Active Directory 域服务](active-directory-domain-services.md)
     
-- [基于角色的访问控制 (RBAC) 的 Skype 业务服务器](role-based-access-control-rbac.md)
+- [Skype for business Server 的基于角色的访问控制 (RBAC)](role-based-access-control-rbac.md)
     
-- [公钥基础结构 Skype 业务服务器](public-key-infrastructure-for-skype.md)
+- [Skype for business 服务器的公共密钥基础结构](public-key-infrastructure-for-skype.md)
     
-- [Skype 业务服务器的 TLS 和 MTLS](tls-and-mtls.md)
+- [Skype for business 服务器的 TLS 和 MTLS](tls-and-mtls.md)
     
-- [Skype 加密业务服务器](encryption.md)
+- [Skype for business 服务器加密](encryption.md)
     
-- [用户和客户端身份验证的 Skype 业务服务器](user-and-client-authentication.md)
+- [Skype for business Server 的用户和客户端身份验证](user-and-client-authentication.md)
     
-- [Windows PowerShell 和 Skype 的业务 Server 管理工具](management-tools.md)
+- [Windows PowerShell 和 Skype for business 服务器管理工具](management-tools.md)
     
 

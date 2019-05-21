@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/14/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: 如果已部署边缘服务器，并且必须提供供外部使用的媒体服务，选择边缘服务器或通过在下拉列表中选择将与 Survivable Branch Appliance 或 Survivable Branch Server 关联的池。 单击下一步。
-ms.openlocfilehash: 39d6024c61039ff2ed7b6349a5ba6645786d07cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 如果你已部署了 Edge 服务器, 并且必须提供供外部使用的媒体服务, 请选择将与 Survivable 分支装置或 Survivable 分支服务器关联的边缘服务器或池, 方法是在下拉列表中选择它。 单击 "下一步" 继续。
+ms.openlocfilehash: 13e8baae76d9ef7b5ebed26b95379715f96b24f6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915316"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301762"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>将分支机构设备与边缘关联
  
-如果已部署边缘服务器，并且必须提供供外部使用的媒体服务，选择边缘服务器或通过在下拉列表中选择将与 Survivable Branch Appliance 或 Survivable Branch Server 关联的池。 单击“**下一步**”继续。
+如果你已部署了 Edge 服务器, 并且必须提供供外部使用的媒体服务, 请选择将与 Survivable 分支装置或 Survivable 分支服务器关联的边缘服务器或池, 方法是在下拉列表中选择它。 单击“**下一步**”继续。
   
 > [!NOTE]
-> 如果您没有边缘服务器或边缘服务器池在拓扑中定义，则可以跳过此步骤。 您将能够与边缘服务器或边缘服务器池时定义新的边缘服务器或边缘服务器池或编辑 Survivable Branch Appliance 或 Survivable 的属性页相关联的 Survivable Branch Appliance 或 Survivable Branch ServerBranch Server 的边缘服务器或边缘服务器池定义拓扑中之后。 
+> 如果你的拓扑中没有定义 Edge 服务器或 Edge 服务器池, 则可以跳过此步骤。 在定义新的边缘服务器或边缘服务器池时, 或者当你编辑 Survivable 分支装置或 Survivable 的属性页时, 你可以将 Survivable 分支装置或 Survivable 分支服务器与边缘服务器或边缘服务器池相关联在拓扑中定义了 Edge 服务器或边缘服务器池之后的分支服务器。 
   
 

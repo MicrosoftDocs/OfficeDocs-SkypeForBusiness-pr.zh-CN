@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
-description: McuJoinsAndLeaves 视图存储信息用户加入和离开一个会议服务器的信息。 在此视图中的每条记录包含呼叫详细信息的用户加入或离开和会议服务器的一个组合。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 756f9656e31f180ac6b724c8c31c6a7226cada08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: McuJoinsAndLeaves 视图存储有关用户为一个会议服务器加入和离开信息的信息。 此视图中的每条记录包含有关用户加入或离开和会议服务器的一个组合的调用详细信息。 此视图已在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 9d5617449e5b12c13d855c1a93b39490e2177f0e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930232"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296075"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 视图
  
-McuJoinsAndLeaves 视图存储信息用户加入和离开一个会议服务器的信息。 在此视图中的每条记录包含呼叫详细信息的用户加入或离开和会议服务器的一个组合。 此视图是在 Microsoft Lync Server 2013 中引入的。
+McuJoinsAndLeaves 视图存储有关用户为一个会议服务器加入和离开信息的信息。 此视图中的每条记录包含有关用户加入或离开和会议服务器的一个组合的调用详细信息。 此视图已在 Microsoft Lync Server 2013 中引入。
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会议实例的时间。 与 SessionIdSeq 结合使用，来唯一地标识会议实例。 请参阅[Conferences 表中的业务服务器 2015 Skype](conferences.md)的详细信息。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |若要确定会议实例的 ID 号。 与 SessionIdTime 结合使用，来唯一地标识会议实例。 请参阅[Conferences 表中的业务服务器 2015 Skype](conferences.md)的详细信息。 <br/> |
-|**McuUri** <br/> |nvarchar(256)  <br/> |用户连接到会议服务器的 URI。  <br/> |
-|**McuUriType** <br/> |nvarchar(256)  <br/> |用户连接到会议服务器的 URI。 请参阅[UriTypes 表](uritypes.md)的详细信息。 <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |已捕获其会议服务器加入/离开信息的用户的 URI。  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |已捕获其会议服务器加入/离开信息的用户的 URI 的类型。 请参阅[UriTypes 表](uritypes.md)的详细信息。 <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |已捕获其会议服务器加入/离开信息的用户的租户。 请参阅[Tenants 表](tenants.md)的详细信息。 <br/> |
-|**UserClientVersion** <br/> |nvarchar(256)  <br/> |已捕获其会议服务器加入/离开信息的用户使用的客户端版本。  <br/> |
-|**UserClientType** <br/> |int  <br/> |已捕获其会议服务器加入/离开信息的用户使用的客户端。 请参阅[UserAgentDef 表](useragentdef.md)的详细信息。 <br/> |
-|**UserClientCategory** <br/> |nvarchar(64)  <br/> |已捕获其会议服务器加入/离开信息的用户使用的客户端的类别的名称。  <br/> |
-|**McuUserInstance** <br/> |int  <br/> |唯一标识同时登录到多个设备的用户的用户/设备组合。  <br/> |
-|**IsUserFromPstn** <br/> |bit  <br/> |表示不论用户是内部用户的位。  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用，来唯一地标识会话。 [Dialogs 表中的业务服务器 2015 Skype](dialogs.md)的详细信息，请参阅。 <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |标识会话的 ID 号。 与 SessionIdTime 结合使用，来唯一地标识会话。 [Dialogs 表中的业务服务器 2015 Skype](dialogs.md)的详细信息，请参阅。 <br/> |
-|**DialogId** <br/> |varchar(775)  <br/> |SIP 会话的对话 ID。 格式为： 对话框; 从标记; 到标记。  <br/> |
-|**UserJoinTime** <br/> |datetime  <br/> |用户加入的会议服务器的时间。  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会议实例的时间。 与 SessionIdSeq 结合使用以唯一标识会议实例。 有关详细信息, 请参阅[Skype For Business Server 2015 中](conferences.md)的 "会议" 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |标识会议实例的 ID 号。 与 SessionIdTime 结合使用以唯一标识会议实例。 有关详细信息, 请参阅[Skype For Business Server 2015 中](conferences.md)的 "会议" 表。 <br/> |
+|**McuUri** <br/> |nvarchar(256)  <br/> |用户连接到的会议服务器的 URI。  <br/> |
+|**McuUriType** <br/> |nvarchar(256)  <br/> |用户连接到的会议服务器的 URI。 有关详细信息, 请参阅[UriTypes 表](uritypes.md)。 <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |已捕获其会议服务器加入/离开信息的用户的 URI。  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |已捕获其会议服务器加入/离开信息的用户的 URI 类型。 有关详细信息, 请参阅[UriTypes 表](uritypes.md)。 <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |已捕获其会议服务器加入/离开信息的用户的租户。 有关详细信息, 请参阅[租户表](tenants.md)。 <br/> |
+|**UserClientVersion** <br/> |nvarchar(256)  <br/> |已捕获会议服务器加入/离开信息的用户所使用的客户端版本。  <br/> |
+|**UserClientType** <br/> |int  <br/> |已捕获会议服务器加入/离开信息的用户所使用的客户端。 有关详细信息, 请参阅[UserAgentDef 表](useragentdef.md)。 <br/> |
+|**UserClientCategory** <br/> |nvarchar (64)  <br/> |已捕获其会议服务器加入/离开信息的用户所使用的客户端类别的名称。  <br/> |
+|**McuUserInstance** <br/> |int  <br/> |为同时登录到多台设备的用户唯一标识用户/设备组合。  <br/> |
+|**IsUserFromPstn** <br/> |bit  <br/> |表示用户是否为内部用户的位。  <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用以唯一标识会话。 有关详细信息, 请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |标识会话的 ID 号。 与 SessionIdTime 结合使用以唯一标识会话。 有关详细信息, 请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
+|**DialogId** <br/> |varchar (775)  <br/> |会话的 SIP 对话框 ID。 格式为: 对话框; 从-标签; 到-标记。  <br/> |
+|**UserJoinTime** <br/> |datetime  <br/> |用户加入会议服务器的时间。  <br/> |
 |**UserLeaveTime** <br/> |datetime  <br/> |用户离开会议服务器的时间。  <br/> |
    
 

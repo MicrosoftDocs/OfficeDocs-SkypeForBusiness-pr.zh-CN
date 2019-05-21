@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
-description: 若要编辑该计算机的属性，请执行以下操作：
-ms.openlocfilehash: 0db8f318f7c4381707869fe06ee7c492c78d63ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '若要编辑此计算机的属性, 请执行以下操作:'
+ms.openlocfilehash: 28261b3637040acda70218f23101b4337b1f90c3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929537"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297608"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的服务器设置扩展器
  
-若要编辑该计算机的属性，请执行以下操作：
+若要编辑此计算机的属性, 请执行以下操作:
   
-- 编辑**完全限定域名 (FQDN)** 为此计算机。 此条目必须与它被定义在域名系统 (DNS) 和使用者替代名称 (SAN) 或使用者名称 (SN) 与该计算机关联的证书匹配的计算机名称。
+- 编辑此计算机的**完全限定的域名 (FQDN)** 。 此条目必须匹配在域名系统 (DNS) 中定义的计算机名称, 以及与此计算机关联的证书的 "使用者备用名称 (SAN)" 或 "使用者名称 (SN)"。
     
-- 您选择下列选项之一：
+- 选择下列操作之一:
     
-    **使用所有已配置的 IP 地址**： 选择此选项可在计算机上使用所有已配置的 IP 地址。
+    **使用所有配置的 ip 地址**: 选择此项可使用计算机上配置的所有 ip 地址。
     
     > [!IMPORTANT]
-    > 如果计算机有多个 IP 地址，必须注意与该计算机关联的服务，将使用的所有服务的所有 IP 地址。 如果侦听服务器或服务预期的特定的 IP 地址和端口的通信，服务可能不进行侦听的 IP 地址的最佳选择。 
+    > 如果计算机有多个 IP 地址, 则必须注意与此计算机关联的服务将对所有服务使用所有 IP 地址。 如果侦听服务器或服务需要通信特定的 IP 地址和端口, 则该服务可能无法最佳选择要在哪个 IP 地址上进行侦听。 
   
-    **将服务使用率限制为所选的 IP 地址**： 选择此选项，如果您想要定义特定 IP 地址从其他计算机和池部署中的通信将侦听此计算机的**主 IP 地址**。 为特定的 IP 地址的计算机和服务将侦听的通信和发送到定义 PSTN 网关或 IP PBX 的通信，定义**PSTN IP 地址**。
+    **将服务使用限制为选定的 IP 地址**: 如果你想要为此计算机侦听的用于从其他计算机和部署中的其他计算机和池通信的**主 ip 地址**定义特定 ip 地址, 请选择此选项。 为计算机和服务侦听通信的特定 IP 地址定义**PSTN IP 地址**, 并将通信发送到已定义的 PSTN 网关或 IP PBX。
     
 

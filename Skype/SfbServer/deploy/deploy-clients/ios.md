@@ -3,37 +3,37 @@ title: 安装并测试 Skype for Business for iOS
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 摘要： 如何安装和测试 for Business Skype iOS 应用程序。
-ms.openlocfilehash: 395ca6f27b373aff981cebc79567a05e7ab72696
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 如何安装和测试 iOS 版 Skype for Business 应用。'
+ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895207"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293590"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
  
-**摘要：** 如何安装和测试 for Business Skype iOS 应用程序。
+**摘要:** 如何安装和测试 iOS 版 Skype for Business 应用。
   
-在 iOS 应用的业务 Skype 业务状态、 即时消息 (IM) 和语音和视频呼叫到 iOS 设备将 Skype。 使用 Lync 2013 的用户将自动获得升级的应用程序或接收到手动更新的提示，具体视其用户设置而定。 新用户可以从 Apple App Store 下载该应用程序。 在 iOS 应用的业务 Skype 才可用 iOS 版本 8.0 及更高版本。
+IOS 版 Skype for business 应用将 Skype for business 联机状态、即时消息 (IM) 以及语音和视频呼叫与 iOS 设备结合在一起。 使用 Lync 2013 的用户将自动获得升级的应用程序或接收到手动更新的提示，具体视其用户设置而定。 新用户可以从 Apple App Store 下载该应用程序。 IOS 版 Skype for business 应用仅适用于 iOS 版本8.0 和更高版本。
   
-## <a name="installing-skype-for-business-for-ios"></a>安装 iOS Skype for Business
+## <a name="installing-skype-for-business-for-ios"></a>安装 iOS 版 Skype for Business
 
-1. 从 iOS 设备，则点击**应用程序商店**，，然后搜索**业务适用于 iOS 的 Skype**。
+1. 在 iOS 设备上, 点击 "**应用商店**", 然后搜索**ios 版 Skype for business**。
     
-2. 点击**下载** > **打开**。 
+2. 点击 "**下载** > **打开**"。 
     
 3. 登录该应用。
     
 ## <a name="verifying-mobile-client-installation"></a>验证移动客户端安装
 
-成功登录后，请使用以下测试来确认您的业务安装 Skype 工作正常，iOS 设备上。 
+成功登录后, 请使用以下测试验证你的 iOS 设备上的 Skype for Business 安装是否正常工作。 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>搜索企业目录中的联系人
 
@@ -49,7 +49,7 @@ ms.locfileid: "33895207"
     
 ### <a name="test-dial-out-conferencing"></a>测试电话拨出式会议
 
-1. 在 Outlook 中安排业务会议 Skype。 
+1. 在 Outlook 中, 安排 Skype for Business 会议。 
     
 2. 在移动设备上，打开会议邀请。 
     
@@ -59,14 +59,14 @@ ms.locfileid: "33895207"
     
 ### <a name="test-push-notifications"></a>测试推送通知
 
-1. 用户 A 的移动设备上登录到 Skype for Business 使用用户 A 的帐户。 
+1. 在用户 A 的移动设备上, 使用用户 A 的帐户登录 Skype for Business。 
     
 2. 在移动设备上打开其他应用程序。 
     
-3. 在其他客户端，登录到 Skype for Business 使用用户 B 的帐户。 
+3. 在其他客户端上, 使用用户 B 的帐户登录 Skype for business。 
     
 4. 将 IM 从用户 B 发送到用户 A。 
     
-5. 确认用户 A 的移动设备上显示 IM 通知。 
+5. 验证即时消息通知是否显示在用户 A 的移动设备上。 
     
 

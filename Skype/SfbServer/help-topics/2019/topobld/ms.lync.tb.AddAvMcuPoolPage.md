@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuPoolPage
@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 所有 Enterprise Edition 前端服务器的中央站点没有并置的 A / V 会议服务可以使用相同的独立 A / V 会议池。 每个 a / V 会议池，必须指定完全限定的域名 (FQDN) 的池以及是否将具有单个 A / V 会议服务器或多个负载平衡 A / V 会议服务器。
-ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 没有 collocated A/V 会议服务的中心网站的所有企业版前端服务器都可以使用相同的独立 A/V 会议池。 对于每个 A/V 会议池, 你必须为该池指定完全限定的域名 (FQDN), 以及它将仅具有单个 A/V 会议服务器还是具有多个负载平衡的 A/V 会议服务器。
+ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889316"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304054"
 ---
 # <a name="add-av-mcu-pool"></a>添加 A/V MCU 池
  
-所有 Enterprise Edition 前端服务器的中央站点没有并置的 A / V 会议服务可以使用相同的独立 A / V 会议池。 每个 a / V 会议池，必须指定完全限定的域名 (FQDN) 的池以及是否将具有单个 A / V 会议服务器或多个负载平衡 A / V 会议服务器。
+没有 collocated A/V 会议服务的中心网站的所有企业版前端服务器都可以使用相同的独立 A/V 会议池。 对于每个 A/V 会议池, 你必须为该池指定完全限定的域名 (FQDN), 以及它将仅具有单个 A/V 会议服务器还是具有多个负载平衡的 A/V 会议服务器。
   
 > [!IMPORTANT]
-> 您不能将单服务器池转换为多服务器池。 如果您以后决定您的组织需要多服务器池，必须删除单服务器池，并将多服务器池。 
+> 不能将单个服务器池转换为多服务器池。 如果稍后确定你的组织需要多服务器池, 则必须删除单服务器池, 然后添加多服务器池。 
   
 > [!TIP]
-> 如果您打算实现 A / V 会议池将来，选择**多个计算机池**。 即使将池定义为具有两个或更多负载平衡的计算机，仍然可以创建单计算机的池并为该单计算机创建池 FQDN。 当您准备好以后向池中添加更多计算机时，您必须拓扑生成器再次以定义新的池成员和发布新拓扑，然后设置新的 A / V 会议池成员通过 Skype 的业务 Server 部署向导。 A / V 会议服务器池都是唯一的它们不需要加载平衡器来创建池。 A / V 会议池内部负载平衡和不需要额外的硬件。 
+> 如果你计划在将来实现 A/V 会议池, 请选择 "**多台计算机池**"。 即使将池定义为具有两个或更多负载平衡的计算机，仍然可以创建单计算机的池并为该单计算机创建池 FQDN。 当你准备好将更多计算机添加到池中时, 你必须再次使用拓扑生成器来定义新的池成员、发布新拓扑, 然后通过 Skype for Business 服务器部署向导设置新的 A/V 会议池成员。 A/V 会议服务器池是唯一的, 因为它们不需要负载平衡器即可创建池。 A/V 会议池内部负载平衡, 并且不需要其他硬件。 
   
 

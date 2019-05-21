@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,88 +21,88 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298731"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
-您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议您设置 Communications 字幕式调用计划 （国内或国际） 和音频会议用户需要拨出**任何目标**的能力。 多个国家/地区内包括在内，但某些目标不能包含在您调用规划或音频会议的订阅。 如果您不会设置 Communications 字幕式帐单且将**Communications 字幕式**许可证分配给用户，并且您运行出分钟，以便您的组织 （具体取决于您调用计划或音频会议中计划国家/地区），这些用户将无法发起呼叫或从音频会议拨出。 您可以获取详细信息，请通过读取资金数量，包括建议[Communications 字幕式是什么？](what-are-communications-credits.md)
+您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外, 我们建议你为呼叫计划 (国内或国际) 和需要拨出到**任何目的地**的音频会议用户设置通讯信用点数。 包括许多国家/地区, 但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用帐单并为您的用户分配**通讯信用**许可证, 而您的组织的分钟数 (取决于您所在国家/地区的通话计划或音频会议计划), 这些用户无法从音频会议会议进行呼叫或拨出。 您可以通过阅读[通讯信用点数](what-are-communications-credits.md)来获取详细信息 (包括推荐的融资金额)？
   
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。 
   
-## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>步骤 1： 向用户分配音频会议和调用规划许可证
+## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>步骤 1: 为用户分配音频会议和呼叫计划许可证
 
-当您注册时，您将获取一定数量的分钟，具体取决于您的国家/地区。 您可以看到您将收到搜索的国家或地区的分钟数[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 使用这些分钟后，呼叫将中断。 若要防止这种情况，您需要设置 Communications 字幕式。
+当您注册时, 您将获得一定的分钟数, 具体取决于您所在的国家/地区。 您可以在此处看到您将在[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)搜索国家或地区的分钟数。 使用这些分钟数后, 通话将断开。 要防止这种情况发生, 您需要设置通讯信用点数。
   
-这样，**您需要为音频会议或电话系统许可证分配**用户。
+若要执行此操作, 你需要为你的用户**分配音频会议或电话系统许可证**。
   
-- 将**音频会议**许可证分配给用户。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
+- 将**音频会议**许可证分配给你的用户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
     
-    指定此许可证后，您需要设置音频会议。 有关分步说明，请参阅[尝试或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+    分配此许可证后, 你将需要设置音频会议。 有关分步说明, 请参阅[在 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 将**电话系统**和国内或国内和国际呼叫规划许可证分配给用户。 请参阅[分配的 Microsoft 团队许可证](assign-teams-licenses.md)。
+- 为你的用户分配**电话系统**和国内或国内和国际呼叫计划许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
     
     > [!NOTE]
-    > 尽管不需要的通信字幕式，则仍需还分配**国内调用规划**或**国内和国际呼叫规划**许可证。
+    > 虽然通信信用点数不是必需的, 但您仍然需要分配**国内呼叫计划**或**国内和国际呼叫计划**许可证。
   
-    分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明，请参阅[Set up 调用计划](set-up-calling-plans.md)。
+    分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明, 请参阅[设置呼叫计划](set-up-calling-plans.md)。
     
-有关详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+有关详细信息, 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2： 为您的组织的通信字幕式设置
+## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2: 为你的组织设置通讯信用点数
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在左窗格中的 Microsoft 365 管理中心，转到**帐单** > **订阅** > **添加订阅**。
+2. 在 Microsoft 365 管理中心的左侧导航中, 转到 "**帐单** > **订阅** > "**添加订阅**。
 
-3. 展开**加载项订阅**，然后选择**Communications 字幕式** > **立即购买**。
+3. 展开 "**加载项订阅**", 然后选择 "**通信信用点数** > **立即购买**"。
     
-4. 在**Communications 字幕式**订阅页中，填写您的信息，然后单击**下一步**:
+4. 在 "**通信信用点数**订阅" 页面上, 填写您的信息, 然后单击 "**下一步**":
     
-   - **添加资金**输入要添加到您的帐户的金额。 如果您不启用自动充电，都用完这些资金，调用使用 Communications 字幕式启用的功能将会中断 （如入站免费电话服务）。 若要避免无需手动补充 Communications 字幕式平衡每次您平衡达到 0 （零），我们建议您启用自动充电功能。
+   - **添加资金**输入要添加到您的帐户的金额。 如果不启用自动重新充电, 一旦这些资金耗尽, 使用通信信用点数启用的呼叫功能将被中断 (如传入免费服务)。 为避免每次余额达到 0 (零) 时都必须手动补充您的通信点数余额, 我们建议您启用自动重新充电功能。
     
    - **自动充值**：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
     
-     建议使用**自动充电**设置以避免服务的任何中断应 Communications 字幕式平衡达到 0 （零）。 充电事务成功，充电事务失败 （如信用卡过期），以及 Communications 字幕式平衡达到 0 （零） 时，您将会发送电子邮件。
+     如果您的通讯信用点数达到 0 (零), 建议使用**自动重新充电**设置以避免任何服务中断。 当您的交易失败时, 您将收到一封电子邮件, 在重新充电交易失败 (如已过期的信用卡), 以及通讯信用余额达到 0 (零) 时, 您将收到电子邮件。
     
-   - **为充电量**在要添加到您的帐户下, 触发量到达的**为充电与**框中输入的金额。
+   - 重新**充电金额**在 "重新**充电**" 框中输入您希望在您的帐户达到以下总金额后添加到该帐户的金额。
     
-   - **触发量**向*触发器*自动充电**平衡低于时**将使用的框中输入的金额。 一旦您平衡低于这个值，将自动将充电量添加到您的帐户。
+   - **触发金额**在 "**余额低于**" 框中输入将用于 "*触发*" 自动重新充电的金额。 余额低于此金额后, 将自动向您的帐户添加重新充电金额。
 
       > [!NOTE]
-     > 资金将仅可用于使用服务时，microsoft Communications 字幕式发布率。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
+     > 在使用服务时, 资金将仅应用于 Microsoft 已发布费率的通信信用点数。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
      > 
-     > 每月付费的通信字幕式将仅应用分配基金已使用，以了解如何检查您每月的使用情况，是否读取[Skype 的业务 PSTN 使用率报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > 仅当使用 alloted 基金时, 才会应用 "每月计费", 以了解如何查看每月使用情况, 请阅读[Skype for BUSINESS PSTN 使用报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
     >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
     
-每个组织会调用规划卷和要考虑的其他用法。 You will need to get this type of usage data from your current service provider. 已使用 Skype 业务 online 已作为其服务提供商的组织可以通过查看在**业务管理中心的 Skype**获取使用率数据 > **报告** > **PSTN 用法详细信息**报告。
+每个组织都将有不同的通话计划体积和费率的使用。 You will need to get this type of usage data from your current service provider. 已使用 skype for business Online 的组织已经在使用**skype for business 管理中心** > **报告** > **PSTN 使用详细信息**报告的服务提供商可以获得使用数据。
   
-设置 Communications 字幕式时，需要调查呼叫使用为您的组织，以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报告可以将呼叫数据记录导出到 Excel 中，如果您需要存储的数据或创建自定义报告。 若要了解如何查看使用情况，请阅读[业务 PSTN 使用情况报告的 Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
+设置通讯信用点数时, 您需要调查组织的通话使用情况以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 如果需要存储数据或创建自定义报表, 可通过此报表将调用数据记录导出到 Excel。 若要了解如何查看使用情况, 请阅读[Skype for BUSINESS PSTN 使用报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
-## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3： 将 Communications 字幕式许可证分配给用户
+## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3: 为用户分配通讯信用许可证
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 在左窗格中的 Microsoft 365 管理中心，转到**用户** > **活动用户**，然后从列表中选择一个用户。
+2. 在 Microsoft 365 管理中心的左侧导航中, 转到 "**用户** > **活动用户**", 然后从列表中选择一个或一个用户。
     
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
     
-4. 在**产品许可证**页上，切换到**在上**分配此许可证， **Communications 字幕式**，然后单击**保存**。
+4. 在 "**产品许可证**" 页面上, 将 "**通信信用点数**" 切换到 **"开"** 以分配此许可证, 然后单击 "**保存**"。
     
     > [!NOTE]
-    > 即使已经分配一个**企业 E5**许可证的用户，仍建议您这样做。
+    > 即使你有分配了**企业版 E5**许可证的用户, 仍建议你执行此操作。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要了解计划和定价？
 
-您可以看到计划和定价通过访问以下链接之一：
+你可以通过访问以下链接之一来查看计划和定价:
   
 - [通话套餐](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
@@ -110,9 +110,9 @@ ms.locfileid: "33632247"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您还可以参见信息通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
+您也可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看信息。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看一个表, 其中包含每个功能所需的许可证或许可证, 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 

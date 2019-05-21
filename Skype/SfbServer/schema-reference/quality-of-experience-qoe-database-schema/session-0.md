@@ -5,47 +5,47 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
-description: 会话视图存储有关数据库中包含记录的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: e30bdb31457e9e70984b66bef75c898cadd9aeb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: "\"会话\" 视图存储有关具有数据库中的记录的会话的信息。 此视图已在 Microsoft Lync Server 2013 中引入。"
+ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919996"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294682"
 ---
 # <a name="session-view"></a>会话视图
  
-会话视图存储有关数据库中包含记录的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+"会话" 视图存储有关具有数据库中的记录的会话的信息。 此视图已在 Microsoft Lync Server 2013 中引入。
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |引用自 MediaLine table。  <br/> |
-|ConferenceURI  <br/> |nvarchar(450)  <br/> |会议 URI 如果这是 dialogid 会议，如果它是对等会话。  <br/> |
-|互联  <br/> |varchar(max)  <br/> |会话的关联 ID。  <br/> |
-|DialogCategory  <br/> |bit  <br/> |对话类别;0 是 Skype 业务服务器到中介服务器线路;1 是中介服务器到 PSTN 网关线路。  <br/> |
-|MediationServerBypassFlag  <br/> |bit  <br/> |指示旁路了呼叫。  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |此字段中，如果存在此参数，指示为什么呼叫不绕过即使绕过 Id 匹配。 为业务服务器 Skype，定义只有一个值：  <br/> 0x0001-默认网络适配器的未知绕过 ID  <br/> |
-|StartTime  <br/> |datetime  <br/> |呼叫开始时间。  <br/> |
-|EndTime  <br/> |datetime  <br/> |呼叫结束时间。  <br/> |
-|CallerPool  <br/> |nvarchar(256)  <br/> |呼叫者池 FQDN。  <br/> |
-|CalleePool  <br/> |nvarchar(256)  <br/> |被叫方池 FQDN。  <br/> |
-|CallerPAI  <br/> |nvarchar(450)  <br/> |呼叫者的 p 已断言标识 URI。  <br/> |
-|CalleePAI  <br/> |nvarchar(450)  <br/> |被叫方的 p 已断言标识 URI。  <br/> |
-|CallerEndpoint  <br/> |nvarchar(256)  <br/> |呼叫者的终结点名称。  <br/> |
-|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |呼叫者的终结点名称。  <br/> |
-|CallerUserAgent  <br/> |nvarchar(256)  <br/> |呼叫者的用户代理字符串。  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 请参阅[UserAgent 表](useragent.md)的详细信息。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理的类别。 请参阅[UserAgentDef 表 (QoE)](useragentdef-qoe.md)的详细信息。 <br/> |
-|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |被叫方的用户代理字符串。  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 请参阅[UserAgent 表](useragent.md)的详细信息。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被叫方用户代理类别。 请参阅[UserAgentDef 表 (QoE)](useragentdef-qoe.md)的详细信息。 <br/> |
-|CallerURI  <br/> |nvarchar(450)  <br/> |呼叫者的 URI。  <br/> |
-|CalleeURI  <br/> |nvarchar(450)  <br/> |被叫方的 URI。  <br/> |
-|CallPrioirty  <br/> |int  <br/> |呼叫的优先级。  <br/> |
+|ConferenceDateTime  <br/> |datetime  <br/> |从 MediaLine 表中引用。  <br/> |
+|ConferenceURI  <br/> |nvarchar (450)  <br/> |会议 URI (如果这是会议) 或 DialogID (如果这是对等会话)。  <br/> |
+|关系  <br/> |varchar (max)  <br/> |会话的相关 ID。  <br/> |
+|DialogCategory  <br/> |bit  <br/> |对话框类别;0是 Skype for business 服务器, 用于采集服务器腿;1是中介服务器到 PSTN 网关腿。  <br/> |
+|MediationServerBypassFlag  <br/> |bit  <br/> |指示是否跳过呼叫。  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |此字段 (如果存在) 指示无法跳过呼叫的原因, 即使旁路 Id 匹配也是如此。 对于 Skype for Business 服务器, 仅定义了一个值:  <br/> 0x0001-默认网络适配器的旁路 ID 未知  <br/> |
+|StartTime  <br/> |datetime  <br/> |通话开始时间。  <br/> |
+|EndTime  <br/> |datetime  <br/> |通话结束时间。  <br/> |
+|CallerPool  <br/> |nvarchar(256)  <br/> |呼叫方池 FQDN。  <br/> |
+|CalleePool  <br/> |nvarchar(256)  <br/> |被调用池 FQDN。  <br/> |
+|CallerPAI  <br/> |nvarchar (450)  <br/> |调用方的 p 声明标识 URI。  <br/> |
+|CalleePAI  <br/> |nvarchar (450)  <br/> |被调用方的 p 声明标识 URI。  <br/> |
+|CallerEndpoint  <br/> |nvarchar(256)  <br/> |调用方的终结点名称。  <br/> |
+|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |调用方的终结点名称。  <br/> |
+|CallerUserAgent  <br/> |nvarchar(256)  <br/> |呼叫方的用户代理字符串。  <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |呼叫方的用户代理的类型。 有关详细信息, 请参阅[UserAgent 表](useragent.md)。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理类别。 有关详细信息, 请参阅[UserAgentDef 表 (QoE)](useragentdef-qoe.md) 。 <br/> |
+|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |被呼叫方的用户代理字符串。  <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |被呼叫方的用户代理类型。 有关详细信息, 请参阅[UserAgent 表](useragent.md)。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被呼叫方的用户代理类别。 有关详细信息, 请参阅[UserAgentDef 表 (QoE)](useragentdef-qoe.md) 。 <br/> |
+|CallerURI  <br/> |nvarchar (450)  <br/> |调用方的 URI。  <br/> |
+|CalleeURI  <br/> |nvarchar (450)  <br/> |被调用方的 URI。  <br/> |
+|CallPrioirty  <br/> |int  <br/> |通话的优先级。  <br/> |
    
 

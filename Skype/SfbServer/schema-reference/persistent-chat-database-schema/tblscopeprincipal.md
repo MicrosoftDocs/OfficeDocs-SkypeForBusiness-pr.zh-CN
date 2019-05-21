@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal 包含分配至节点。
-ms.openlocfilehash: f682c8a2235ef30cda365bc5950cbfb123840595
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblScopePrincipal 包含分配给节点的作用域。
+ms.openlocfilehash: 2fd8e434710c7bcd266c427fa492e23adacedb22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924925"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295193"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal 包含分配至节点。
+tblScopePrincipal 包含分配给节点的作用域。
   
-**列**
+**多**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int，不为 null  <br/> |作用域适用的节点 ID。  <br/> |
-|scopePrinID  <br/> |int，不为 null  <br/> |主体 id。  <br/> |
-|scopeIsDenied  <br/> |bit，不为 null  <br/> |作用域的类型为 Deny; 时为 true允许则为 false。  <br/> |
-|scopeUpdatedBy  <br/> |int，不为 null  <br/> |上次更新此项的主体的 ID。  <br/> |
+|scopeNodeID  <br/> |int, not null  <br/> |作用域所适用的节点 ID。  <br/> |
+|scopePrinID  <br/> |int, not null  <br/> |主体 ID。  <br/> |
+|scopeIsDenied  <br/> |位, not null  <br/> |如果范围的类型为 "拒绝", 则为 True;如果允许, 则为 False。  <br/> |
+|scopeUpdatedBy  <br/> |int, not null  <br/> |上次更新此条目的主体的 ID。  <br/> |
    
-**键**
+**标示**
 
 |**列**|**说明**|
 |:-----|:-----|
-|\<scopeNodeID scopePrinID\>  <br/> |主键。  <br/> |
-|scopeNodeID  <br/> |在 tblNode.nodeID 表中查找的外键。  <br/> |
-|scopePrinID  <br/> |在 tblPrincipal.prinID 表中查找的外键。  <br/> |
+|\<scopeNodeID, scopePrinID\>  <br/> |主键。  <br/> |
+|scopeNodeID  <br/> |带有 tblNode 表中的 lookup 的外键。  <br/> |
+|scopePrinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
    
 

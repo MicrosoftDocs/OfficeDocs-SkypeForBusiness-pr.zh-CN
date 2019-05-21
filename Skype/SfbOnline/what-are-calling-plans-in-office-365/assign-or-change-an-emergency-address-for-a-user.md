@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何为你的每个使用公用电话交换网 (PSTN) 的用户设置紧急地址和电话号码。
-ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 884dd4051ef15cb29d6ab125989edf990980f722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233249"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299531"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>为用户分配或更改紧急地址
 
-当设置 Office 365 的通话套餐时，需要将紧急地址分配给每个电话号码或用户。 在欧洲国家/地区，当从 Office 365 获取或将电话号码转到 Office 365 时，紧急地址将与电话号码关联。 在美国，紧急地址在被分配给用户时与电话号码关联。 如果分配给的用户移至新的位置，可以更改紧急地址。 有关紧急地址和位置有关详细信息，请参阅[紧急位置、 地址和呼叫路由是什么？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+当设置 Office 365 的通话套餐时，需要将紧急地址分配给每个电话号码或用户。 在欧洲国家/地区，当从 Office 365 获取或将电话号码转到 Office 365 时，紧急地址将与电话号码关联。 在美国，紧急地址在被分配给用户时与电话号码关联。 如果分配给的用户移至新的位置，可以更改紧急地址。 有关紧急地址和位置的详细信息, 请参阅[什么是紧急位置、地址和呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 若要了解如何获取 Office 365 中的通话套餐以及它们的价格，请参阅 [Skype for Business 和 Microsoft Teams 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
   
@@ -38,25 +38,25 @@ ms.locfileid: "32233249"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Microsoft 团队管理中心** > **旧门户**。
+2. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
-3. 在左侧导航窗格中转到**语音**，然后单击**语音用户**。
+3. 在左侧导航中, 转到 "**语音**", 然后单击 "**语音用户**"。
     
     > [!IMPORTANT]
-    > 要查看的左侧导航中的业务管理中心 Skype 中的**语音**选项，您必须先购买一个**电话系统**加载项许可证或一个**音频会议**加载项许可证至少一个**企业 E5 许可证**。
+    > 要在 Skype for Business 管理中心的左侧导航中看到 "**语音**" 选项, 您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
     
 4. 在" **语音用户**"页面上，查找并选择要更改其紧急地址的用户。
     
 5. 在操作窗格中，在" **紧急位置**"下，单击" **更改**"。
     
     > [!IMPORTANT]
-    > [!重要信息] 只能更改已验证的紧急地址。 若要更改未通过验证的紧急地址，请将其删除，并创建另一个紧急地址。 
+    > [!重要信息] 只能更改已验证的紧急地址。 若要更改未验证的紧急地址, 请将其删除, 然后创建另一个紧急地址。 
   
 6. 在" **分配号码**"页面上，单击" **更改位置**"。
     
-7. 在**更改紧急地址**下输入市/县的名称，然后单击**搜索**。
+7. 在 "**将紧急地址更改为**" 下, 输入城市的名称, 然后单击 "**搜索**"。
     
-8. 从地址下拉列表中，选择紧急地址，然后单击**保存**。 
+8. 从 "地址" 下拉列表中选择 "紧急地址", 然后单击 "**保存**"。 
     
 ## <a name="related-topics"></a>相关主题
 ## <a name="related-topics"></a>相关主题

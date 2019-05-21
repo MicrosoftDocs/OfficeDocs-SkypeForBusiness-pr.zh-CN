@@ -1,26 +1,26 @@
 ---
-title: （可选）Skype for Business 中定义响应组假日集
+title: 可选在 Skype for Business 中定义响应组假日集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 创建或修改业务 Server 企业语音的 Skype 中的响应组假日集。
-ms.openlocfilehash: d78eaeee9b447dfd0c9f4f7250b6f34aee298594
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server 企业版中创建或修改响应组假日集。
+ms.openlocfilehash: cd277412a9cef2c474b8ba60459e216482f2d872
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894703"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304487"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>（可选）Skype for Business 中定义响应组假日集
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>可选在 Skype for Business 中定义响应组假日集
  
-创建或修改业务 Server 企业语音的 Skype 中的响应组假日集。
+在 Skype for Business Server 企业版中创建或修改响应组假日集。
   
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
   
@@ -55,8 +55,8 @@ ms.locfileid: "33894703"
 
 ## <a name="see-also"></a>另请参阅
 
-[设计和 Skype for Business 中创建响应组工作流](designing-and-creating-response-group-workflows.md)
+[在 Skype for Business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)
 
-[New-csrgsholiday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[新-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

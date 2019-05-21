@@ -1,28 +1,28 @@
 ---
-title: 防范对核心基础结构的威胁 Skype 业务服务器
+title: 解决 Skype for business 服务器的核心基础结构威胁
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: 除了您 Skype Business Server 部署的以下最佳实践，您可以帮助确保安全性通过查看、 了解和满足部署的特定区域内的需求。
-ms.openlocfilehash: 34cc626ab9d59a7826715ffa61c44fc3c47a7774
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 除了适用于 Skype for Business 服务器部署的最佳做法之外, 还可以通过查看、了解和解决你的部署中的特定方面的任何需求来帮助确保安全。
+ms.openlocfilehash: 1b9798721434d02af33af2bf84abd4360eacdcdf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926127"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296985"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>防范对核心基础结构的威胁 Skype 业务服务器
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>解决 Skype for business 服务器的核心基础结构威胁
  
-除了您 Skype Business Server 部署的以下最佳实践，您可以帮助确保安全性通过查看、 了解和满足部署的特定区域内的需求。
+除了适用于 Skype for Business 服务器部署的最佳做法之外, 还可以通过查看、了解和解决你的部署中的特定方面的任何需求来帮助确保安全。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [核心基础结构中的业务服务器 Skype 的最佳实践](best-practices.md)
+- [Skype for Business Server 中的核心基础结构的最佳做法](best-practices.md)
     
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,23 +20,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 请参阅到 Office 365 的转接电话号码的说明。
-ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是有关将电话号码转移到 Skype for Business 的常见问题。 查看答案后, 您应该准备好创建一个端口订单并转移您的电话号码。 有关说明, 请参阅将电话号码转移到 Office 365。
+ms.openlocfilehash: 889a74a0648e7a7ae7f3e1b6e286fd368ff86d2c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204127"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293876"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>转接电话号码常见问题
 
-以下是有关常见问题到 for Business 的 Skype 转接电话号码。 复查答案，您应该已准备好创建端口订单和转接电话号码。 有关说明，请参阅[传输到 Office 365 的电话号码](transfer-phone-numbers-to-office-365.md)。
+以下是有关将电话号码转移到 Skype for Business 的常见问题。 查看答案后, 您应该准备好创建一个端口订单并转移您的电话号码。 有关说明, 请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 。
   
 ## <a name="what-countriesregions-support-number-porting"></a>哪些国家/地区支持号码转网？
 
-在所有受支持的国家或地区均可转网或转移电话号码，但如何提交转网订单请求取决于电话号码来自的国家或地区。 您可以看到的[国家/地区和音频会议和调用计划区域可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)支持的国家/地区的列表。 
+在所有受支持的国家或地区均可转网或转移电话号码，但如何提交转网订单请求取决于电话号码来自的国家或地区。 你可以查看[音频会议和通话计划的国家](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)/地区可用性支持的国家/地区的列表。 
 
-时执行的电话号码管理任务，如转接 （移植） 号码，或获取电话号码的不业务管理中心的 Skype 中可用，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+当您执行电话号码管理任务 (如转移 (移植) 号码或获取在 Skype for Business 管理中心不可用的电话号码时, 请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些号码可以转移？
 
@@ -56,7 +56,7 @@ ms.locfileid: "32204127"
 - 免费电话号码。
     
     > [!NOTE]
-    > 对我们不能传送通用国际免费电话号码 (UIFN)。 
+    > 通用国际 Freephone 号码 (UIFN) 无法转让给我们。 
   
 - 服务电话号码，例如，用于会议网桥、自动助理等的电话号码。
     
@@ -64,18 +64,18 @@ ms.locfileid: "32204127"
     
 - 来自电话提供商（如 Vonage 或 RingCentral）的电话号码。
     
-- Skype 业务混合电话号码。 如果您想要传输这些号码，您需要电子邮件发送给我们在<ptn@microsoft.com>。
+- Skype for Business 混合电话号码。 如果您想要转移这些号码, 您需要向我们发送电子邮件<ptn@microsoft.com>至。
     
   **你无法转移：**
   
 > [!NOTE]
-> 此时，您无法传输任何电话号码或不从支持国家/地区，包括从 VoIP 电话提供商的电话号码的号码。 若要查看受支持的国家/地区的列表，请参阅[国家和地区音频会议和调用计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> 此时, 您无法从受支持的国家/地区 (包括来自 VoIP 电话提供商的电话号码) 传输任何电话号码或号码。 若要查看受支持的国家/地区的列表, 请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用于 DSL 线路或宽带 Internet 连接等数据连接的电话号码。
     
 - 专用于收发传真的电话号码。
     
-    如果你已有专用的电话号码用于收发传真，你 *可以*  将这些号码转移到 Skype for Business，但是传真服务无法继续正常使用。 传真服务都不 Skype 的企业客户，即使**电话系统**、**国内调用规划**或**国际呼叫规划**具有许可证。
+    如果你已有专用的电话号码用于收发传真，你 *可以*  将这些号码转移到 Skype for Business，但是传真服务无法继续正常使用。 传真服务对 Skype for Business 客户不可用, 即使你有**手机系统**、**国内呼叫计划**或**国际呼叫计划**的许可证也是如此。
     
     如果你将电话号码转网到 Skype for Business，可以将此电话号码分配给组织中的用户，而不是将其用于收发传真。
     
@@ -90,13 +90,13 @@ ms.locfileid: "32204127"
 
 将电话号码转网到 Office 365 时，你可以选择是转移所有号码还是部分号码。
   
-- **完整转网** 这是指将你的所有号码从当前服务提供商转移到 Skype for Business Online。 当时要求您的电话号码要转接，您*必须包括*帐单以及您的帐户的其他电话号码的所有电话号码。
+- **完整转网** 这是指将你的所有号码从当前服务提供商转移到 Skype for Business Online。 当系统要求您提供要转移的电话号码时, 您必须在您的帐户上*包含*帐单电话号码以及所有其他电话号码。
     
-    例如，假设您帐单的电话号码 *+1 425-555-1234*并且您希望端口 25 电话号码 (*通过 1259年 +1 425-555-1235*) 的所有。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
+    例如, 假设您的帐单电话号码是 *+ 1 425-555-1234* , 并且您想要将您的所有25个电话号码 (*+ 1 425-555-1235 至 1259*) 移植到一起。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
     
 - **部分转网** 这是指仅将你的部分电话号码从当前服务提供商或运营商转移到 Skype for Business Online。当你想要转网的某些电话号码关联到相同的付费电话号码时， ** *不能包含* ** 该付费电话号码以及你的帐户上的所有其他电话号码。
     
-    例如，假设您帐单的电话号码 （按钮） *+1 425-555-1234*并且希望端口仅 5 中的 25 电话号码 (*通过 1259年 +1 425-555-1235*)。 当您按照以下说明传输您的号码时，可以输入： **+1 425 555 1235-+ 1 425 555 1239年**。
+    例如, 假设您的付费电话号码 (BTN) 是 *+ 1 425-555-1234* , 您只想移植25个电话号码中的5个 (*+ 1 425-555-1235 至 1259*)。 按照以下说明转移您的号码时, 您可以输入: **+ 1 425 555 1235-+ 1 425 555 1239**。
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>我是否可以一次性针对我的所有号码提交一个携号转网请求？
 <a name="bkmk_type_1"> </a>
@@ -111,15 +111,15 @@ ms.locfileid: "32204127"
     
 - 移动电话号码
     
-- 用于 Office 365 中的音频会议的服务号码。
+- 可用于 Office 365 中音频会议的服务号码。
     
 下面是关于为其中每种号码类型提交携号转网请求的详细信息：
   
 - 对于由不同运营商提供的 **电话号码** ，需对每个运营商提交唯一的转网请求。
     
-- 带区号的 **免费号码** （如 800、844、855、866、877 和 888）不能包含在其他号码类型的携号转网请求中。 若要端口这些免费电话号码，您必须[手动提交自定义服务请求](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request);他们无法业务管理中心的 Skype 中提交。 请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 带区号的 **免费号码** （如 800、844、855、866、877 和 888）不能包含在其他号码类型的携号转网请求中。 要移植这些免费电话号码, 您必须[手动提交自定义服务请求](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request);不能在 Skype for Business 管理中心内提交。 请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
     
-    针对要转网的电话号码的国家/地区和类型使用正确的 LOA 是非常重要的。 您可以下载您需要[下载字母的授权 (LOA) 所需此处](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)LOA。
+    针对要转网的电话号码的国家/地区和类型使用正确的 LOA 是非常重要的。 你可以下载所需的 LOA, 以便在[此处下载所需的授权书 (LOA)](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
     
 - **移动电话号码** 需使用 PIN 码来授权转移操作。因此，它们需要单独的携号转网请求。
     
@@ -135,7 +135,7 @@ You can check the status of your port order by going to the Skype for Business a
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>用户（订阅者）电话号码是否可以转换为服务号码？
 <a name="bkmk_type_1"> </a>
 
-可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 执行此转请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 若要执行此操作, 请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
 ## <a name="common-mistakes-to-watch-out-for"></a>需要注意的常见错误
 <a name="bkmk_type_1"> </a>
@@ -162,10 +162,10 @@ You can check the status of your port order by going to the Skype for Business a
     
 - 确保你的服务处于活动状态。冻结帐户将导致运营商无法更改帐户。获得授权的用户需要向当前运营商提交订单来取消冻结。此过程可能需要 1 到 3 周的时间，具体取决于运营商。
     
-## <a name="can-you-transfer-or-port-out-numbers"></a>您可以传输或端口出号码？
+## <a name="can-you-transfer-or-port-out-numbers"></a>您是否可以转移或移植输出号码？
 <a name="bkmk_type_1"> </a>
 
-传输或*端口出*电话号码从 Skype 业务 Online 到另一个电话服务提供商或运营商，您需要设置 PIN。 设置 PIN 后，您需要包括它，当您请求端口出一个电话号码。若要查看如何设置 PIN，请参阅[设置传输到新的服务提供商的数字 PIN](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。
+要将 Skype for Business Online 中的电话号码转移或*移植*到其他电话服务提供商或运营商, 您需要设置 PIN 码。 设置 PIN 后, 当您请求向外拨打电话号码时, 您需要将其包括在内。若要了解如何设置 PIN, 请参阅[设置 pin 以将号码转移到新服务提供商](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

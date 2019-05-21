@@ -1,5 +1,5 @@
 ---
-title: 对业务 Online 重置 Skype 中的用户的会议 ID
+title: 在 Skype for Business Online 中重置用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解重置用户的步骤的业务 online，会议中 Skype 的会议 ID 和获取链接到会议更新和迁移工具。 '
-ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解在 Skype for Business Online 中重置用户的会议 ID 以及获取会议更新和迁移工具的链接的步骤。 '
+ms.openlocfilehash: dd6d97400f5fdde9d1821f2843f1b48060b5886e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229268"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299103"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>对业务 Online 重置 Skype 中的用户的会议 ID
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在 Skype for Business Online 中重置用户的会议 ID
 
 > [!NOTE]
 > 有关重置 Microsoft Teams 中的会议 ID 的信息，请参阅[在 Microsoft  Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)。
@@ -35,11 +35,11 @@ ms.locfileid: "32229268"
 A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
   
 > [!NOTE]
-> 如果您的会议提供商，Microsoft 用户的会议 Id 设置为仅动态。 这不能更改。 仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。 
+> 如果你的会议提供商是 Microsoft, 你的用户的会议 Id 将设置为 "仅动态"。 此操作无法更改。 仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
    
-1. 中的**Skype 业务管理中心的**中，单击**音频会议** > **用户**，选择一个用户，，，然后单击下**的会议 ID**操作窗格中的**重置**。
+1. 在**Skype for business 管理中心**中, 单击 "**音频会议** > **用户**", 选择用户, 然后在 "**会议 ID** " 下的 "操作" 窗格中单击 "**重置**"。
     
 2. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
     
@@ -53,11 +53,11 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.
     
-- 会议 ID 将包含 7 位数字，并且您无法更改它 Skype 业务管理中心或使用 Windows PowerShell 中的长度。
+- 会议 ID 将包含7位数字, 并且不能在 Skype for Business 管理中心或使用 Windows PowerShell 中更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
-- 如果您选择**用户**页上的用户可以查看为音频会议用户的会议 ID 底部的操作窗格下**音频会议**。
+- 当你在 "**用户**" 页面上选择用户时, 可以在操作窗格的底部查看音频**** 会议的用户的会议 ID。
     
 - After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:
     

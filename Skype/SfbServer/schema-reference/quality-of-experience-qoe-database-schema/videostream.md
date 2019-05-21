@@ -5,99 +5,99 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-description: 每条记录代表一个视频流。 一个视频媒体行通常包含两个视频流。
-ms.openlocfilehash: 59d0d0979513dc016912d7f4482f740c4ceeccd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 每条记录表示一个视频流。 一个视频媒体线通常包含两个视频流。
+ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925255"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294521"
 ---
 # <a name="videostream-table"></a>VideoStream 表
  
-每条记录代表一个视频流。 一个视频媒体行通常包含两个视频流。
+每条记录表示一个视频流。 一个视频媒体线通常包含两个视频流。
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |引用[自 MediaLine table](medialine-0.md)。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R 引用[自 MediaLine table](medialine-0.md)。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |引用[自 MediaLine table](medialine-0.md)。  <br/> |
-|**StreamID** <br/> |int  <br/> |Primary  <br/> |媒体行中的唯一 ID。  <br/> |
-|**VideoPayloadDescription** <br/> |smallint  <br/> |外、 主  <br/> |负载说明。 请参阅[自 PayloadDescription table](payloaddescription.md)的详细信息。 <br/> |
-|**JitterInterArrival** <br/> |int  <br/> | <br/> |实时控制协议 (RTCP) 统计信息中的平均网络抖动。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |从[MediaLine 表](medialine-0.md)中引用。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine 表](medialine-0.md)中引用的 R。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |从[MediaLine 表](medialine-0.md)中引用。  <br/> |
+|**StreamID** <br/> |int  <br/> |Primary  <br/> |媒体行内的唯一 ID。  <br/> |
+|**VideoPayloadDescription** <br/> |smallint  <br/> |外部、主要  <br/> |负载说明。 有关详细信息, 请参阅[PayloadDescription 表](payloaddescription.md)。 <br/> |
+|**JitterInterArrival** <br/> |int  <br/> | <br/> |实时控制协议 (RTCP) 统计信息的平均网络抖动。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |视频会话期间的最大网络抖动。  <br/> |
-|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP 统计信息中的来回行程时间。  <br/> |
-|**RoundTripMax** <br/> |int  <br/> | <br/> |视频流的最大来回行程时间。  <br/> |
-|**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |呼叫期间的平均数据包丢失率。  <br/> |
-|**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |呼叫期间观测到的最大的数据包丢失。  <br/> |
-|**PacketUtilization** <br/> |int  <br/> | <br/> |（实时传输协议，RTP） 的视频流的数据包计数。  <br/> |
-|**BandwidthEst** <br/> |int  <br/> | <br/> |视频流的带宽预估。  <br/> |
-|**VideoResolution** <br/> |char(9)  <br/> | <br/> |乘以像素高度的像素宽度中的视频分辨率。 报告为 string。  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |从 RTCP 统计数据往返的时间。  <br/> |
+|**RoundTripMax** <br/> |int  <br/> | <br/> |视频流的最大往返行程时间。  <br/> |
+|**PacketLossRate** <br/> |十进制 (5, 4)  <br/> | <br/> |通话期间平均数据包丢失速率。  <br/> |
+|**PacketLossRateMax** <br/> |十进制 (5, 4)  <br/> | <br/> |通话过程中观察到的最大数据包丢失。  <br/> |
+|**PacketUtilization** <br/> |int  <br/> | <br/> |视频流的数据包计数 (实时传输协议、RTP)。  <br/> |
+|**BandwidthEst** <br/> |int  <br/> | <br/> |视频流的带宽估计。  <br/> |
+|**VideoResolution** <br/> |char (9)  <br/> | <br/> |以像素为单位的视频分辨率 (以像素为单位) 乘以像素高度。 报告为字符串。  <br/> |
 |**VideoBitRateAvg** <br/> |int  <br/> | <br/> |视频流的平均比特率。  <br/> |
-|**InboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |接收的视频帧速率。  <br/> |
-|**OutboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |发送的视频帧速率。  <br/> |
+|**InboundVideoFrameRateAvg** <br/> |十进制 (9, 4)  <br/> | <br/> |收到的视频帧速率。  <br/> |
+|**OutboundVideoFrameRateAvg** <br/> |十进制 (9, 4)  <br/> | <br/> |已发送视频帧速率。  <br/> |
 |**VideoBitRateMax** <br/> |int  <br/> | <br/> |视频会话期间的最大视频比特率。  <br/> |
-|**VideoFrameLossRate** <br/> |decimal(9,4)  <br/> | <br/> |丢失的全部视频帧的百分比。  <br/> |
+|**VideoFrameLossRate** <br/> |十进制 (9, 4)  <br/> | <br/> |丢失的视频帧总数的百分比。  <br/> |
 |**VideoFEC** <br/> |bit  <br/> | <br/> |不可用。  <br/> |
-|**VideoLocalFrameLossPercentageAvg** <br/> |decimal(9,4)  <br/> ||丢失的全部视频帧的百分比。  <br/> |
-|**CIFQualityRatio** <br/> |tinyint  <br/> ||已在公共交换格式 (CIF) 解决方案的呼叫的百分比。  <br/> |
-|**VGAQualityRatio** <br/> |tinyint  <br/> ||VGA 分辨率的呼叫的百分比。  <br/> |
-|**HD720QualityRatio** <br/> |tinyint  <br/> ||HD720 分辨率的呼叫的百分比。  <br/> |
-|**NoneDropRatio** <br/> |tinyint  <br/> ||没有框架投递呼叫持续时间的百分比。  <br/> |
-|**BDropRatio** <br/> |tinyint  <br/> ||丢弃 B 帧下呼叫持续时间的百分比。  <br/> |
-|**BPDropRatio** <br/> |tinyint  <br/> ||呼叫持续时间 bp 帧的百分比。  <br/> |
-|**BPSPDropRatio** <br/> |tinyint  <br/> ||呼叫持续时间 bpsp 帧的百分比。  <br/> |
-|**BPSPIDropRatio** <br/> |tinyint  <br/> ||呼叫持续时间 bpsp 帧的百分比。  <br/> |
-|**入站** <br/> |bit  <br/> | <br/> |已收到接收端的流数据。  <br/> |
-|**出站** <br/> |bit  <br/> | <br/> |已收到发送端的流数据。  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 表示流方向从呼叫者到被叫方。  <br/> 0 表示流方向从被叫方到呼叫者。  <br/> |
-|**LossCongestionPercent** <br/> |float  <br/> ||指示呼叫处于损耗拥塞状态的时间的时间的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||指示在此期间导致出现拥塞的网络数据包延迟到达的呼叫的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**ContentionDetectedPercent** <br/> |float  <br/> ||指示呼叫被竞争时网络资源的时间的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**BandwidthEstMin** <br/> |int  <br/> ||呼叫期间度量的最小带宽估计量。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**BandwidthEstMax** <br/> |int  <br/> ||呼叫期间度量的最大带宽估计量。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**BandwidthEstStdDev** <br/> |int  <br/> ||呼叫期间度量的带宽估计的标准偏差。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**BandwidthEstAvge** <br/> |int  <br/> ||呼叫期间度量的平均带宽估计量。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**LowBandwidthForMultiview** <br/> |float  <br/> ||其中终结点已确定网络连接无法支持多视图视频呼叫的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayTotal** <br/> |float  <br/> ||单向滞后时间总量。 相对单向延迟测量客户端和服务器之间的延迟。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayAverage** <br/> |float  <br/> ||单向延迟的平均量。 相对单向延迟测量客户端和服务器之间的延迟。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayMax** <br/> |float  <br/> ||最大单向滞后时间量。 相对单向延迟测量客户端和服务器之间的延迟。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||总单向的突发发生次数。 "突发"传输是其中数据排列中而不是稳定的不可预知间歇传输。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||总单向的突发密度。 "突发"传输是其中数据排列中而不是稳定的不可预知间歇传输。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||总单向的突发持续时间。 "突发"传输是其中数据排列中而不是稳定的不可预知间歇传输。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||总单向的间隙发生次数。 "突发"传输是传输其中数据排列中而不是稳定流; 无法预料间歇间隙指示这些间歇之间的延迟。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||总单向的间隙密度。 "突发"传输是传输其中数据排列中而不是稳定流; 无法预料间歇间隙指示这些间歇之间的延迟。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||总单向的间隙持续时间。 "突发"传输是传输其中数据排列中而不是稳定流; 无法预料间歇间隙指示这些间歇之间的延迟。 此指标来衡量客户端和服务器之间的数据流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||视频数据包丢失的速率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**VideoAllocateBWAvg** <br/> |int  <br/> ||平均视频的带宽总量量。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |外  <br/> |由发件人的视频编解码器的类型。 请参阅[CodecDescription 表](codecdescription.md)的详细信息。 <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendResolutionWidth** <br/> |int  <br/> ||发件人使用的分辨率宽度。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendResolutionHeight** <br/> |int  <br/> ||发件人使用的分辨率高度。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendFrameRateAverage** <br/> |float  <br/> ||平均视频帧速率传输发件人使用。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendBitRateMaximum** <br/> |int  <br/> ||发件人的最大比特率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**SendBitRateAverage** <br/> |int  <br/> ||发送者的平均比特率。  <br/> |
-|**SendVideoStreamsMax** <br/> |int  <br/> ||最大数量由发件人的视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |外  <br/> |接收方使用的视频代码。 请参阅[CodecDescription 表](codecdescription.md)的详细信息。 <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvResolutionWidth** <br/> |int  <br/> ||接收方使用的分辨率宽度。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvResolutionHeight** <br/> |int  <br/> ||接收方使用的分辨率高度。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvFrameRateAverage** <br/> |float  <br/> ||接收方使用的平均视频帧速率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvBitRateMaximum** <br/> |int  <br/> ||接收方的最大比特率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvBitRateAverage** <br/> |int  <br/> ||接收方的平均比特率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvVideoStreamsMax** <br/> |int  <br/> ||接收方的最大视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvVideoStreamsMin** <br/> |int  <br/> ||接收方的最小视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvVideoStreamsMode** <br/> |int  <br/> ||视频模式 （例如，库或单个流） 接收器。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**VideoPostFECPLR** <br/> |float  <br/> ||应用前向纠错后的数据包丢失率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**DynamicCapabilityPercent** <br/> |float  <br/> ||动态功能标志处于活动状态的时间的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**ResolutionMin** <br/> |char(9)  <br/> ||呼叫期间度量的最小分辨率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**LowBitRateCallPercent** <br/> |float  <br/> ||低比特率阈值 （70 千位每秒） 下的呼叫的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**LowFrameRateCallPercent** <br/> |float  <br/> ||低帧速率阈值下的呼叫的百分比 （7.5 帧 / 秒，入站）。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**LowResolutionCallPercent** <br/> |float  <br/> ||最低分辨率发生的呼叫百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**DurationSeconds** <br/> |float  <br/> ||以秒为单位的呼叫的长度。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**IsAggregatedData** <br/> |bit  <br/> ||指示是否已通过多个呼叫聚合数据。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**VideoLocalFrameLossPercentageAvg** <br/> |十进制 (9, 4)  <br/> ||丢失的视频帧总数的百分比。  <br/> |
+|**CIFQualityRatio** <br/> |tinyint  <br/> ||以通用交换格式 (CIF) 分辨率表示的通话百分比。  <br/> |
+|**VGAQualityRatio** <br/> |tinyint  <br/> ||以 VGA 分辨率表示的通话百分比。  <br/> |
+|**HD720QualityRatio** <br/> |tinyint  <br/> ||以 HD720 分辨率表示的通话百分比。  <br/> |
+|**NoneDropRatio** <br/> |tinyint  <br/> ||不带帧丢弃的通话持续时间百分比。  <br/> |
+|**BDropRatio** <br/> |tinyint  <br/> ||B 帧丢弃的通话持续时间百分比。  <br/> |
+|**BPDropRatio** <br/> |tinyint  <br/> ||具有 BP 帧丢弃的通话持续百分比。  <br/> |
+|**BPSPDropRatio** <br/> |tinyint  <br/> ||带有 BPSP 帧丢弃的通话持续时间百分比。  <br/> |
+|**BPSPIDropRatio** <br/> |tinyint  <br/> ||带有 BPSPI 帧丢弃的通话持续时间百分比。  <br/> |
+|**封** <br/> |bit  <br/> | <br/> |接收接收方的数据流数据。  <br/> |
+|**出站** <br/> |bit  <br/> | <br/> |接收发件人端的数据流数据。  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1表示流方向来自调用方的调用方。  <br/> 0表示流方向来自被调用方的调用方。  <br/> |
+|**LossCongestionPercent** <br/> |float  <br/> ||指示通话处于损失拥塞状态的时间百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||指示由于网络数据包的延迟到达而导致的阻塞的调用百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**ContentionDetectedPercent** <br/> |float  <br/> ||表示呼叫竞争网络资源的时间百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**BandwidthEstMin** <br/> |int  <br/> ||在通话期间测量的最小带宽估计量。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**BandwidthEstMax** <br/> |int  <br/> ||在通话期间测量的最大带宽估计量。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**BandwidthEstStdDev** <br/> |int  <br/> ||在通话过程中测量的带宽估计的标准偏差。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**BandwidthEstAvge** <br/> |int  <br/> ||通话期间测量的平均估计带宽量。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**LowBandwidthForMultiview** <br/> |float  <br/> ||终结点确定网络连接无法支持多种显示视频的调用的百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayTotal** <br/> |float  <br/> ||单向延迟的总金额。 相对单向延迟测量客户端与服务器之间的延迟。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayAverage** <br/> |float  <br/> ||单向延迟的平均量。 相对单向延迟测量客户端与服务器之间的延迟。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayMax** <br/> |float  <br/> ||单向延迟的最大值。 相对单向延迟测量客户端与服务器之间的延迟。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||总单向爆发次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||总单向脉冲密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||总的单向脉冲持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||总的单向间隔发生次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||总单向间距密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||总的单间隔持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**VideoPacketLossRate** <br/> |十进制 (9, 4)  <br/> ||视频数据包丢失的速率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**VideoAllocateBWAvg** <br/> |int  <br/> ||为视频分配的平均带宽量。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendCodecTypes** <br/> |smallint  <br/> |外表  <br/> |发件人使用的视频编解码器类型。 有关详细信息, 请参阅[CodecDescription 表](codecdescription.md)。 <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendResolutionWidth** <br/> |int  <br/> ||发件人使用的分辨率宽度。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendResolutionHeight** <br/> |int  <br/> ||发件人使用的分辨率高度。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendFrameRateAverage** <br/> |float  <br/> ||发件人使用的平均视频帧速率传输。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendBitRateMaximum** <br/> |int  <br/> ||发件人的最大比特率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**SendBitRateAverage** <br/> |int  <br/> ||发件人的平均比特率。  <br/> |
+|**SendVideoStreamsMax** <br/> |int  <br/> ||发件人使用的视频流的最大数量。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvCodecTypes** <br/> |smallint  <br/> |外表  <br/> |接收方使用的视频代码。 有关详细信息, 请参阅[CodecDescription 表](codecdescription.md)。 <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvResolutionWidth** <br/> |int  <br/> ||接收器使用的分辨率宽度。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvResolutionHeight** <br/> |int  <br/> ||接收方使用的分辨率高度。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvFrameRateAverage** <br/> |float  <br/> ||接收方使用的平均视频帧速率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvBitRateMaximum** <br/> |int  <br/> ||接收方的最大比特率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvBitRateAverage** <br/> |int  <br/> ||接收方的平均比特率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvVideoStreamsMax** <br/> |int  <br/> ||接收方的最大视频流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvVideoStreamsMin** <br/> |int  <br/> ||接收方的最小视频流。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**RecvVideoStreamsMode** <br/> |int  <br/> ||接收方的视频模式 (例如, 库或单流)。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**VideoPostFECPLR** <br/> |float  <br/> ||已应用转发纠错后的数据包丢失率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**DynamicCapabilityPercent** <br/> |float  <br/> ||动态功能标志处于活动状态的时间百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**ResolutionMin** <br/> |char (9)  <br/> ||通话过程中测量的最低分辨率。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**LowBitRateCallPercent** <br/> |float  <br/> ||低于低比特率阈值的通话百分比 (70 千位/秒)。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**LowFrameRateCallPercent** <br/> |float  <br/> ||低于低帧速率阈值 (每秒7.5 帧, 入站) 的通话百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**LowResolutionCallPercent** <br/> |float  <br/> ||以最低分辨率发生的通话的百分比。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**DurationSeconds** <br/> |float  <br/> ||通话长度 (以秒为单位)。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**IsAggregatedData** <br/> |bit  <br/> ||指示数据是否已从多个调用聚合。  <br/> 此列已在 Microsoft Lync Server 2013 中引入。  <br/> |
    
 
