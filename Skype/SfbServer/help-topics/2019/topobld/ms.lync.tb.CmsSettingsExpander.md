@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.CmsSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以将中央管理服务器从一个定义的前端池更改为另一个定义的前端池。 要更改中央管理服务器的位置，请从“要安装中央管理服务器的前端服务器位置”下的下拉列表中选择前端池。 前端服务器可以是 Enterprise Edition 前端池或 Standard Edition 前端服务器。
-ms.openlocfilehash: f45cd060bf263ba9071c8260a3c0ad380174bc3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c75ae1a9e0c6f1cbde831e10a52e6be2cb3f0769
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280585"
 ---
 # <a name="cms-settings-expander"></a>CMS 设置扩展器
  

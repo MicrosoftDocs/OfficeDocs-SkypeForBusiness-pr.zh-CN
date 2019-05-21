@@ -1,25 +1,25 @@
 ---
-title: 为 Business Server Skype 创建存档配置
+title: 在 Skype for Business 服务器中创建存档配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 摘要： 了解如何为业务服务器 Skype 创建存档配置。
-ms.openlocfilehash: 3f20b763644f74b0b2265706d4190d27b28ddffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何为 Skype for Business 服务器创建存档配置。'
+ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885022"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286216"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>为 Business Server Skype 创建存档配置
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建存档配置
 
-**摘要：** 了解如何为 Skype for Business Server 创建存档配置。
+**摘要:** 了解如何为 Skype for Business 服务器创建存档配置。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制面板配置存档选项
 
@@ -27,7 +27,7 @@ ms.locfileid: "33885022"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -49,7 +49,7 @@ ms.locfileid: "33885022"
     
    - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-   - 若要使用 Microsoft Exchange Server 存储存档数据，请单击**Microsoft Exchange 集成**复选框。
+   - 若要使用 Microsoft Exchange Server 存储存档数据, 请单击 " **Microsoft exchange 集成**" 复选框。
     
    - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
     
@@ -83,4 +83,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-有关详细信息，请参阅[New-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息, 请参阅[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。

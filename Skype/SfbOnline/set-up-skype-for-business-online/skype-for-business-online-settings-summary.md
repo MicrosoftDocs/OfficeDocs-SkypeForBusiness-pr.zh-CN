@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 ms.appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,20 +18,20 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Skype 的业务组织和用户设置的此摘要可帮助您了解有关公共 IM 连接，会议邀请、 记录呼叫和会议，等等。  '
-ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '此 Skype for business 组织和用户设置摘要可帮助你了解有关公用 IM 连接、会议邀请、录制呼叫和会议等的详细信息。  '
+ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237245"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285091"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
-**业务管理中心的 Skype**包括设置为整个组织和单个用户。 
+**Skype For business 管理中心**包括您的整个组织和单个用户的设置。 
   
 > [!NOTE]
->  [!注释]  根据你的位置，你可能无法访问 Skype for Business Online 的所有功能。 有关详细信息，请参阅[Office 365 的许可限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
+>  [!注释]  根据你的位置，你可能无法访问 Skype for Business Online 的所有功能。 有关详细信息, 请参阅[Office 365 的许可限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online 组织设置
 <a name="__top"> </a>
@@ -52,7 +52,7 @@ ms.locfileid: "32237245"
 |音频和视频  <br/> |进行音频和视频对话：使用 Skype for Business Online  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |录制  <br/> |录制呼叫和会议  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名与会者拨出  <br/> |通过让音频会议提供商呼叫匿名 Skype for Business Online 与会者来允许他们进行连接  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|禁用非存档功能  <br/> | 关闭时组织已在 Exchange 管理中心中设置了[中电子数据展示中心的案例和源置于添加内容保留](https://go.microsoft.com/fwlink/?LinkId=529482)未捕获的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|禁用非存档功能  <br/> | 关闭当组织已将[内容添加到案例并将源放置在 Exchange 管理中心中的电子数据展示中心](https://go.microsoft.com/fwlink/?LinkId=529482)时, 不捕获的功能: <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

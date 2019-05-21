@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 摘要： 了解如何获取用户操作，它是用户服务的一部分。 用户服务是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 4f3c1a00134cb0f8276d511d80ae7bc6f82f2d72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 "获取用户" 操作 (这是用户服务的一部分)。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。'
+ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897329"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274644"
 ---
 # <a name="get-users"></a>获取用户
  
-**摘要：** 了解如何获取用户操作，它是用户服务的一部分。 用户服务是用于呼叫的质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要:** 了解 "获取用户" 操作, 这是用户服务的一部分。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
   
-获取用户操作是用于呼叫的质量仪表板的存储库 API 中的用户服务的一部分。
+"获取用户" 操作是 "资源库 API for 通话质量" 仪表板中的用户服务的一部分。
   
 ## <a name="get-users"></a>获取用户
 
-获取用户返回存储库中的用户的列表。
+获取用户返回存储库中的用户列表。
   
-|**方法**|**请求 URI**|**HTTP 版本**|
+|**种**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<门户\>/QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
+|获取  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1。1  <br/> |
    
  **URI 参数**-无。
   
- **请求标头**的任何其他的标头。
+ **请求标题**-无其他标题。
   
  **请求正文**-无。
   
- **响应**-响应包括 HTTP 状态代码和一响应标头。
+ **响应**-响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码 200 （确定)。
+ **状态代码**-成功的操作返回状态代码 200 (OK)。
   
- **响应标头**的任何其他的标头。
+ **响应标题**-无其他标题。
   
- **响应正文**-下面是以 json 格式的示例响应负载。
+ **响应正文**-下面是 JSON 中的示例响应负载。
   
 > [!NOTE]
-> 返回用户对象的数组。 有关用户对象的详细信息，请参阅获取用户。 
+> 返回一个用户对象数组。 有关用户对象的详细信息, 请参阅获取用户。 
   
 ```
 [{

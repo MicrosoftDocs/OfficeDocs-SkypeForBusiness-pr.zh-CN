@@ -1,25 +1,25 @@
 ---
-title: 第 2 阶段迁移准备
+title: 第2阶段准备迁移
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: 开始迁移到 Skype 的业务服务器 2019年之前，请按照本节中所述的步骤。
-ms.openlocfilehash: 2895472119aa7effe5562817713b29cefe338dcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 开始迁移到 Skype for business Server 2019 之前, 请按照本部分中所述的步骤进行操作。
+ms.openlocfilehash: 65a466d1b1a024a4846680bf4edc30f01d306327
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273943"
 ---
 # <a name="phase-2-prepare-for-migration"></a>第 2 阶段：准备迁移
 
-开始迁移到 Skype 的业务服务器 2019年之前，请按照本节中所述的步骤。
+开始迁移到 Skype for business Server 2019 之前, 请按照本部分中所述的步骤进行操作。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -31,6 +31,6 @@ ms.locfileid: "32231565"
     
 - [配置客户端以进行迁移](configure-clients-for-migration.md)
     
-- [确认旧环境](verify-environment.md)
+- [验证旧环境](verify-environment.md)
     
 

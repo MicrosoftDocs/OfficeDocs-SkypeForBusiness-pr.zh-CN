@@ -1,5 +1,5 @@
 ---
-title: 未启用此 Skype 业务 Online 功能
+title: 未启用此 Skype for Business Online 功能
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,23 +19,23 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: '当您接到 Skype 的业务联机功能不是已启用的错误时，查找可能的原因和操作建议。 '
-ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '获取未启用 Skype for Business Online 功能时的可能原因和操作建议。 '
+ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285041"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype 业务 Online 功能
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype for Business Online 功能
 
-很抱歉，看起来像此功能未许可用户。
+抱歉, 该用户似乎未获得此功能的许可。
   
 |**可能的原因**|**建议的操作**|
 |:-----|:-----|
-|您有许可证可用，但您尚未启用该用户的功能。  <br/> |转到**Office 365 管理中心** > **活动用户**，此用户获取许可证。 <br/> |
-|用户所在的位置，此功能不可用。  <br/> |如果可能，请转到**Office 365 管理中心** > **活动用户**并将此用户分配给该功能的位置。 <br/> |
-|尚未为您的组织已打开的功能。  <br/> |转到**Office 365 管理中心** > **for Business 的 Skype**和打开您的整个组织的功能。 <br/> |
+|您有可用的许可证, 但尚未启用此用户的功能。  <br/> |转到**Office 365 管理中心** > **活动用户**以授权此用户。 <br/> |
+|用户所在的位置无法使用此功能。  <br/> |如果可能, 请转到**Office 365 管理中心** > **活动用户**并将此用户分配到该功能可用的位置。 <br/> |
+|尚未为你的组织启用该功能。  <br/> |转到**Office 365 管理中心** > **Skype for** business, 并为您的整个组织启用该功能。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,20 +21,20 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '快速了解如何将某个服务提供商的电话号码转移到 Skype for Business。 '
-ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ebb13c4a530b5d88a3df17c660d26ff13498b174
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229804"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280693"
 ---
 # <a name="port-order-overview"></a>转网订单概述
 
-如果您当前的电话服务提供商或运营商，并且已为您的用户的电话号码，您需要创建称为"*端口顺序*"将这些电话号码为业务 Online 传输到 Skype。 号码转网结束后，你可以将这些电话号码分配给用户。
+如果您目前有电话服务提供商或运营商, 并且您的用户已经有电话号码, 您需要创建一个 "*移植订单*", 该订单将这些电话号码转移到 Skype For business Online。 号码转网结束后，你可以将这些电话号码分配给用户。
   
 将电话号码转网到 Office 365 中的 Skype for Business Online 后，Microsoft 将成为你的服务提供商，你可以将你的服务与原服务提供商或运营商断开连接。
   
- **有关完整的分步说明，请参阅[传输到 Office 365 的电话号码](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+ **有关完整的分步说明, 请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。**
 
  > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

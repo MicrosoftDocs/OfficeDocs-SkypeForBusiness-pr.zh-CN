@@ -1,5 +1,5 @@
 ---
-title: 使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
+title: 允许用户在 Skype for Business Online 中加入会议时记录其名称
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 了解如何启用或禁用是否他们业务 online Skype 中加入会议时，用户可以记录其名称。
-ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 了解如何启用或禁用当用户在 Skype for Business Online 中加入会议时是否可以记录他们的姓名。
+ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290097"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>使用户能够记录其姓名，当用户加入会议 Skype 中的业务联机时
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>允许用户在 Skype for Business Online 中加入会议时记录其名称
 
 > [!Note]
 > 如果您希望允许用户在 Teams 中记录他们的姓名，请参阅[  允许用户在加入 Microsoft Teams 中的会议时记录他们的姓名](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) 。
@@ -38,13 +38,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
     
 2. 在 **会议的与会体验**中，请参阅标记为**打开启用会议加入和退出通知**的复选框。
     
    - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
     
-   - **清除**呼叫者不会要求记录其姓名，才能进入会议。
+   - 已**清除**在进入会议之前, 不会要求呼叫者录制其姓名。
     
 3. 完成更改后，单击" **保存**"。
     

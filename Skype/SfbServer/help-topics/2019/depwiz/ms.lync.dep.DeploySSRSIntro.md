@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSIntro
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。 启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: 58a4d55cada8fcb18f42e45d1bea686de9e4e4cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 每个前端池和 Survivable 分支装置只能有一个与其关联的监视服务器。 为网站启用监视后, 监视服务器将提供呼叫详细记录 (CDR) 和体验质量 (QoE) 数据收集和报告。
+ms.openlocfilehash: a12f5fd970552cb319f3f67a6e8d2ad7587c496c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892032"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277970"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services（简介）
  
-每个前端池和 Survivable Branch Appliance 只能有一个与之关联的监控服务器。 启用对网站的监控后，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
+每个前端池和 Survivable 分支装置只能有一个与其关联的监视服务器。 为网站启用监视后, 监视服务器将提供呼叫详细记录 (CDR) 和体验质量 (QoE) 数据收集和报告。
   
-在站点的所有池和多个中央站点的池可以使用相同的监控服务器，如果使用量不超过监控服务器的容量。 设计拓扑以支持监控详细信息，请参阅部署文档中的[关联监控存储与 Skype 的业务服务器中的前端池](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)。
+如果使用情况不超过监视服务器的容量, 则站点上的所有池和多个中心网站的池都可以使用相同的监视服务器。 有关设计拓扑以支持监视的详细信息, 请参阅在部署文档中[将监视存储与 Skype For Business 服务器中的前端池相关联](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)。
   
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddExternalApplicationPoolPage
@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要定义受信任应用程序池完全限定的域名 (FQDN)，请指定以下内容：
-ms.openlocfilehash: 11331569e7db06fba6d7dc99529fe83ad3fe2ddd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '若要定义受信任的应用程序池完全限定的域名 (FQDN), 请指定以下内容:'
+ms.openlocfilehash: 026994a57da7838b2799484f000d69d8c9a168d7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888966"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278459"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>添加受信任应用程序池 FQDN
  
-要定义受信任应用程序池完全限定的域名 (FQDN)，请指定以下内容：
+若要定义受信任的应用程序池完全限定的域名 (FQDN), 请指定以下内容:
   
-服务器或服务器将承载受信任应用程序池的 FQDN。
+将托管受信任的应用程序的服务器或服务器池的 FQDN。
   
-如果您要部署的服务器从负载平衡和高可用性的受信任应用程序池，或选择**单计算机池**，如果您不需要负载平衡或高可用性，请选择**多计算机池**。
+如果要为受信任的应用程序部署负载平衡和高可用性的服务器池, 或者选择 "**单个计算机池**" (如果不需要负载平衡或高可用性), 请选择 "**多台计算机池**"。
   
 > [!IMPORTANT]
-> 单一的受信任应用程序服务器无法转换为的更高版本服务器池。 如果您认为您将来可能需要一个池，您可以部署多个服务器池现在，包含一台计算机，并添加时所需的服务器。 
+> 一个受信任的应用程序服务器稍后无法转换为服务器池。 如果你认为将来可能需要一个池, 你可以部署包含一台计算机的多个服务器池, 并根据需要添加服务器。 
   
-关于受信任应用程序池的详细信息，请参阅[New-cstrustedapplicationpool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。
+有关受信任的应用程序池的详细信息, 请参阅[CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。
   
 

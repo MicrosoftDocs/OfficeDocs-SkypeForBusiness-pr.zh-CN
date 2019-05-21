@@ -1,10 +1,10 @@
 ---
-title: 创建或修改 Skype for Business 中的组呼叫分拣号码范围
+title: 在 Skype for Business 中创建或修改组呼叫装货号码范围
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,26 +13,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: 创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
-ms.openlocfilehash: 569e1ed16e706e89ff2cf03c330f8161824e3bd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中创建或修改组呼叫装货号码范围。
+ms.openlocfilehash: e81762e83598a9089e25536c74754bf11aae704f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892935"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286230"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>创建或修改 Skype for Business 中的组呼叫分拣号码范围
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在 Skype for Business 中创建或修改组呼叫装货号码范围
 
-创建或修改业务 Server 企业语音中 Skype 的组呼叫分拣号码范围。
+在 Skype for Business Server Enterprise Voice 中创建或修改组呼叫装货号码范围。
 
-组呼叫分拣基于呼叫寄存应用程序。 当您部署组呼叫分拣时，必须使用范围指定为呼叫分拣组电话号码的电话号码的配置呼叫寄存通道表。 这些组号码是用户拨打以应答为另一个用户响铃的呼叫的号码。
+组呼叫分拣基于呼叫寄存应用程序。 当您部署组呼叫时, 您必须配置 "呼叫驻留" 轨道表, 其中包含指定为 "呼叫装货组号码" 的电话号码范围。 这些组号码是用户拨打以应答为另一个用户响铃的呼叫的号码。
 
-与呼叫寄存轨道号码类似，呼叫应答组号码需要是没有为其分配用户或电话的虚拟分机号。 在部署组呼叫分拣每个前端池可以有一个或多个呼叫分拣组号码范围。 组号码范围在部署中必须是全局唯一的，并且必须作为 **GroupPickup** 类型分配。
+与呼叫寄存轨道号码类似，呼叫应答组号码需要是没有为其分配用户或电话的虚拟分机号。 你在其中部署组呼叫装货的每个前端池都可以具有一个或多个呼叫装货组编号范围。 组号码范围在部署中必须是全局唯一的，并且必须作为 **GroupPickup** 类型分配。
 
 使用下面的过程在呼叫寄存轨道表中创建或修改呼叫应答组号码范围。
 
 > [!NOTE]
-> 您必须使用 Skype 的业务 Server 命令行管理程序创建、 修改、 删除和查看呼叫寄存通道表中的组呼叫分拣号码范围。 组呼叫分拣号码范围中的业务 Server Control Panel Skype 不可。
+> 您必须使用 Skype for Business 服务器管理外壳程序来创建、修改、删除和查看 "呼叫驻留" 轨道表中的组呼叫装货号码范围。 组呼叫装货号码范围在 Skype for Business 服务器控制面板中不可用。
 
 呼叫应答组号码范围必须符合以下规则：
 
@@ -42,13 +42,13 @@ ms.locfileid: "33892935"
 
 - 号码范围必须是唯一的。该范围不能与其他任何范围重叠。
 
-- 如果号码范围以字符开头\*或 #，该范围必须大于 100。
+- 如果数字范围以字符\*或 # 开头, 则范围必须大于100。
 
-- 有效值： 必须匹配的正则表达式的字符串 ([\\* | #] ? [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着的值必须是字符开头的字符串\*或 # 或数字 1 至 9 （的第一个字符不能为零）。 如果第一个字符是\*或 #，以下字符必须是数字 1 至 9 （不能为零）。 后续字符可以是任何数字 0 到 9 最多七个其他字符 (例如，"#6000"、"\*92000"，"\*95551212" 和"915551212")。 如果第一个字符不是\*或 #、 第一个字符必须是数字 1 至 9 （不能为零），最多八个字符后, 跟每个数字 0 到 9 （例如，"915551212"、"41212"、"300"）。
+- 有效值: 必须匹配正则表达式字符串 ([\\* | #] ? [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫应答组范围
 
-1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
+1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限 (如 "**委派设置权限**" 中所述) 进行安装的计算机。
 
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
@@ -73,12 +73,12 @@ ms.locfileid: "33892935"
    ```
 
     > [!IMPORTANT]
-    > 仅在你最初指定了错误的类型并且组范围尚未使用时，才能使用此 cmdlet 更改分配到号码范围的类型。 如果你将号码范围从 CallPark 更改为 GroupPickup 或相反，并且号码范围已在使用中，则呼叫寄存或组内呼叫应答将不再对该号码范围起作用。 例如，如果您更改从 CallPark 为 GroupPick 号码范围，则呼叫寄存应用程序不再使用呼叫寄存轨道的范围。
+    > 仅在你最初指定了错误的类型并且组范围尚未使用时，才能使用此 cmdlet 更改分配到号码范围的类型。 如果你将号码范围从 CallPark 更改为 GroupPickup 或相反，并且号码范围已在使用中，则呼叫寄存或组内呼叫应答将不再对该号码范围起作用。 例如, 如果将数字范围从 CallPark 更改为 GroupPick, 则调用寄存应用程序无法再将该范围的轨道式转到寄存通话。
 
 ## <a name="see-also"></a>另请参阅
 
-[新 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[新-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[设置 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[删除呼叫寄存通道范围](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[删除呼叫寄存的轨道范围](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

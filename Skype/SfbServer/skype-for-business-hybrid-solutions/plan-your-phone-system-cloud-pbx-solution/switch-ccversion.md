@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'Switch-CcVersion cmdlet 可将正在运行的设备断开连接，并切换到新部署的设备或备份设备。 '
-ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872857"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286927"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -48,7 +48,7 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-开关 CcVersion cmdlet 排空的中介服务器和边缘服务器上的云连接器服务。 所有正在运行的呼叫都将完成，但设备将拒绝任何新呼叫。 排出后，cmdlet 会从企业和 Internet 网络中断开正在运行的设备，关闭属于该设备的所有虚拟机，然后将备份设备连接至企业和 Internet 网络。
+CcVersion cmdlet 用于在中介服务器和 Edge 服务器上消耗云连接器服务。 所有正在运行的呼叫都将完成，但设备将拒绝任何新呼叫。 排出后，cmdlet 会从企业和 Internet 网络中断开正在运行的设备，关闭属于该设备的所有虚拟机，然后将备份设备连接至企业和 Internet 网络。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>

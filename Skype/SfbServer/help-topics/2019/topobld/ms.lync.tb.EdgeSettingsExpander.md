@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910754"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281232"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -35,13 +35,13 @@ ms.locfileid: "33910754"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
 
-如果您将设置与业务服务器 2015年服务器 Skype 联合身份验证，请选择**为此边缘池 (端口 5061) 启用联盟**复选框。
+如果要使用 Skype for business Server 2015 服务器设置联盟, 请选中 "**为此 Edge 池启用联盟 (端口 5061)** " 复选框。
 
 为“**内部配置复制端口 (HTTPS)**”指定端口号。
 
 ## <a name="next-hop-selection-settings"></a>下一个跃点选择设置
 
-要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有控制器或前端已配置拓扑生成器中将显示选定内容。
+要设置或修改边缘服务器将用于与内部基础结构通信的“**下一个跃点池**”，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有拓扑生成器中配置的控制器或前端才会显示供选择。
 
 ## <a name="edge-server-configuration"></a>边缘服务器配置
 

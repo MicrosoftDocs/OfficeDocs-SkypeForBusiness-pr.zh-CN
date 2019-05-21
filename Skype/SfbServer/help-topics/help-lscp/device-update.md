@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone edition，您可以导入到您的服务器，并将分发给用户发布。 您可以通过 Microsoft 网站上转到帮助和支持页上，并搜索 forPhone Edition.Download 的最新的更新程序包获取最新的设备更新规则集，并将文件提取到的文件夹的计算机上，更新要上载。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅 Import-csdeviceupdate。
-ms.openlocfilehash: 9e3d553357131c2e0f9e0b0bcef1329f5d2a4104
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Microsoft 定期为 Skype for business Phone Edition 发布一组新的设备固件更新, 您可以将其导入到服务器并分发给用户。 通过转到 Microsoft 网站上的 "帮助和支持" 页面并搜索 forPhone 版本, 你可以获取最新的设备更新规则集。下载最新的更新程序包, 并将文件解压缩到要上载更新的计算机上的某个文件夹中。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息, 请参阅导入-CsDeviceUpdate。
+ms.openlocfilehash: b387a24d88ab0b65c3df43a8ca5dd25d582a4827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902816"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285923"
 ---
 # <a name="device-update"></a>设备更新
 
-Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone edition，您可以导入到您的服务器，并将分发给用户发布。 可通过转至 Microsoft 网站上的帮助和支持页并搜索“Phone Edition”来获取一组最新的设备更新规则。 下载最新的更新包，并将文件解压缩到计算机上要从中上载更新的文件夹。 解压缩文件后，可以使用 **Import-CsDeviceUpdate** cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅[Import-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
+Microsoft 定期为 Skype for business Phone Edition 发布一组新的设备固件更新, 您可以将其导入到服务器并分发给用户。 可通过转至 Microsoft 网站上的帮助和支持页并搜索“Phone Edition”来获取一组最新的设备更新规则。 下载最新的更新包，并将文件解压缩到计算机上要从中上载更新的文件夹。 解压缩文件后，可以使用 **Import-CsDeviceUpdate** cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息, 请参阅[导入-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
 
-已导入设备更新规则之后，您可以使用**设备更新**页上查看和管理组织的设备的各个规则。
+导入设备更新规则后, 您可以使用 "**设备更新**" 页面查看和管理组织设备的这些规则。
 
 > [!TIP]
 > 您可以测试固件更新，然后将更新提供给组织中使用的所有相关设备（假定测试成功）。
@@ -43,23 +43,23 @@ Microsoft 会定期会的 Skype 的一组新的设备固件更新业务 Phone ed
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **编辑**您可以使用此选项可执行下列操作：
+- **编辑**可使用此选项执行下列操作:
 
-  - **选择全部**此选项可选择列表中所有设备更新。
+  - **全选**此选项将选择列表中的所有设备更新。
 
-  - **删除**此选项可删除所有选定的设备更新。
+  - **Delete**此选项将删除所有选定的设备更新。
 
-- **操作**您可以在列表中选择一个或多个更新并执行以下操作：
+- **操作**可以在列表中选择一个或多个更新, 并执行以下操作:
 
-  - **取消挂起更新**此选项阻止向组织设备部署所选的更新。
+  - **取消挂起的更新**此选项可防止将所选更新部署到你的组织的设备。
 
-  - **批准**此选项允许向组织设备部署所选的更新。
+  - **批准**此选项允许将所选更新部署到你的组织的设备。
 
-  - **还原**此选项允许向组织设备部署之前批准的更新
+  - **还原**此选项允许将以前批准的更新部署到你的组织的设备
 
-- **刷新**您可以刷新列表以验证所有设备更新的状态。
+- **刷新**你可以刷新列表以验证所有设备更新的状态。
 
 有关设备更新 Web 服务的详细信息，请参阅规划文档中的[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)。
 ## <a name="see-also"></a>另请参阅
 
-[Import-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+[Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

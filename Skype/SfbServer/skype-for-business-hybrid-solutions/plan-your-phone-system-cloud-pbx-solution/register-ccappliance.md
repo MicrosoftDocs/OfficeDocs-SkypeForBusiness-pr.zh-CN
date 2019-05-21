@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 必须先注册设备，Skype for Business 云连接器版本管理服务才能对其进行部署和管理。
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250870"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287123"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -58,11 +58,11 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 必须提供租户管理员帐户名称和密码。 请使用你为云连接器在线管理创建的帐户。 
   
-版本中的 1.4.2 和更早版本，请按照说明提供外部证书密码、 安全模式管理员密码、 域管理员密码和 VM 管理员密码。 
+在版本1.4.2 及更早版本中, 按照说明提供外部证书密码、安全模式管理员密码、域管理员密码和 VM 管理员密码。 
   
 在 2.0 版和更高版本中，按照说明提供外部证书密码、CceService 密码和 CABackupFile 密码。
   
-注册的末尾，重新启动 CceService 帐户作为云连接器管理服务和登录到服务。
+注册结束后, 重新启动云连接器管理服务, 并以 CceService 帐户身份登录服务。
   
 CloudConnector.ini 文件中与边缘服务器外部 FQDN 组合在一起的 SiteName 被视为 PSTN 站点标识。如果注册站点时既未使用 SiteName 也未使用边缘服务器外部 FQDN，将在联机租户配置中为此设备创建新站点。如果找到 PSTN 站点标识，PSTN 站点将使用此标识，并且设备将注册到此 PSTN 站点。 
   

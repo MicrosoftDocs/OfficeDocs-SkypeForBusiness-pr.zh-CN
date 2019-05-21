@@ -1,44 +1,44 @@
 ---
-title: 为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置
+title: 配置 Skype for Business Server 中的 "呼叫详细记录" 和 "体验质量" 设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 摘要： 了解如何为业务 Server Skype 中配置 CDR 和 QoE。
-ms.openlocfilehash: babc2ebe7901c19048624194b38e4cfa143e8f02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中配置 CDR 和 QoE。'
+ms.openlocfilehash: 8a83e5920de60d664e76590d2b5b2a9f36b589ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894652"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306638"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>为业务 Server Skype 中配置呼叫详细信息记录和用户体验质量设置
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>配置 Skype for Business Server 中的 "呼叫详细记录" 和 "体验质量" 设置
  
-**摘要：** 了解如何为业务 Server Skype 中配置 CDR 和 QoE。
+**摘要:** 了解如何在 Skype for Business 服务器中配置 CDR 和 QoE。
   
-配置 CDR 和 QoE 监控的 Skype 业务服务器使用 SQL Server Reporting Services 报表。
+使用 Skype for business Server 的 SQL Server Reporting Services 报表配置 CDR 和 QoE 监视。
   
 ## <a name="configure-cdr-and-qoe"></a>配置 CDR 和 QoE
 
-监控存储相关联的前端池，设置监控存储，然后安装和配置 SQL Server Reporting Services 和监控报告后，您可以管理呼叫详细信息记录 (CDR) 和用户体验质量 (QoE)使用适用于业务 Server 命令行管理程序 Skype 监控。 Skype 业务 Server Management Shell cmdlet，可以启用和禁用 CDR 和/或 QoE 监控针对特定站点或业务服务器部署; 您整个 Skype可以通过简单，如下命令：
+将监视存储与前端池关联后, 设置监视存储, 然后安装并配置 SQL Server Reporting Services 和监视报告, 您可以管理呼叫详细记录 (CDR) 和体验质量 (QoE)使用 Skype for Business Server 命令行管理程序进行监视。 Skype for Business Server Management Shell cmdlet 允许你为特定网站或整个 Skype for Business Server 部署启用和禁用 CDR 和/或 QoE 监视;使用如下所示的命令即可完成此操作:
   
 ```
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-在安装 Skype 业务服务器时，您还将安装预定义的 CDR 和 QoE 的全局配置设置的集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
+安装 Skype for Business 服务器时, 你还将为 CDR 和 QoE 安装全局配置设置的预定义集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
   
 |**属性**|**说明**|**默认值**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |指示是否启用 CDR。如果为 True，将收集所有 CDR 记录并写入监控数据库。  <br/> |True  <br/> |
 |EnablePurging  <br/> |指示是否定期从数据库中删除 CDR 记录。如果为 True，则将在属性 KeepCallDetailForDays（对于 CDR 记录）和 KeepErrorReportForDays（对于 CDR 错误）指定的时间段后删除记录。如果为 False，则将无限期保留 CDR 记录。  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |指示 CDR 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> KeepCallDetailForDays 可以设置为 1 到 2562 天（大约 7 年）之间的任意整数值。  <br/> |60 天  <br/> |
-|KeepErrorReportForDays  <br/> |指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由如 Skype 业务服务器的客户端应用程序上载诊断报告。  <br/> 您可以将此属性设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
+|KeepErrorReportForDays  <br/> |指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序 (如 Skype for Business 服务器) 上传的诊断报告。  <br/> 您可以将此属性设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
 类似地，此表中也显示了选定 QoE 设置的默认值：
   
@@ -48,13 +48,13 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |指示是否定期从数据库中删除 QoE 记录。如果为 True，则将在属性 KeepQoEDataForDays 指定的时间段后删除记录。如果为 False，则将无限期保留 QoE 记录。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |指示 QoE 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> 可将 KeepCallDetailForDays 设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
-如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，（从运行 Skype 内的业务 Server Management Shell） 此命令禁用 CDR 监控在全局范围内;通过将 EnableCDR 属性设置为 False ($False) 完成：
+如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如, 此命令 (从 Skype for Business Server Management Shell 中运行) 在全局范围内禁用 CDR 监视;通过将 EnableCDR 属性设置为 False 来完成此操作 ($False):
   
 ```
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
-请注意，禁用监控不会从前端池解除监控存储关联，也不卸载或以其他方式影响后端监控数据库。 使用 Skype 的业务 Server 命令行管理程序禁用 CDR 或 QoE 监控时您真正只是暂时收集和存档监控数据的业务服务器停止 Skype。 如果要恢复收集和存档 CDR 数据，只需要将 EnableCDR 属性重新设置为 True ($True) 即可：
+请注意，禁用监控不会从前端池解除监控存储关联，也不卸载或以其他方式影响后端监控数据库。 当你使用 Skype for Business Server Management Shell 禁用 CDR 或 QoE 监视时, 你确实确实会暂时停止 Skype for Business 服务器收集和存档监视数据。 如果要恢复收集和存档 CDR 数据，只需要将 EnableCDR 属性重新设置为 True ($True) 即可：
   
 ```
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
@@ -80,7 +80,7 @@ New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 ```
 
-有关详细信息，键入业务 Server 命令行管理程序从 Skype 中的以下命令：
+有关详细信息, 请在 Skype for Business 服务器管理外壳程序中键入以下命令:
   
 ```
 Get-Help New-CsCdrConfiguration | more

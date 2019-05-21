@@ -1,33 +1,33 @@
 ---
-title: 查看会议策略中的业务服务器 Skype
+title: 在 Skype for Business 服务器中查看会议策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 摘要： 了解如何为业务服务器在 Skype 中查看会议策略。
-ms.openlocfilehash: ccf149aaf7565c5c5f39fbeee53b5669020ee54d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中查看会议策略。'
+ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888056"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280318"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a>查看会议策略中的业务服务器 Skype
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business 服务器中查看会议策略
  
-**摘要：** 了解如何为业务服务器在 Skype 中查看会议策略。
+**摘要:** 了解如何在 Skype for Business 服务器中查看会议策略。
   
-使用适用于业务 Server Control Panel Skype 或使用 Skype 业务 Server 命令行管理程序，您可以查看会议策略。
+可以使用 Skype for Business Server 控制面板或使用 Skype for business Server 命令行管理器查看会议策略。
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用适用于业务 Server Control Panel Skype 查看会议策略
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板查看会议策略
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务 Server Control Panel。
+2.  打开 "Skype for Business 服务器" 控制面板。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议策略**”。
     
@@ -35,11 +35,11 @@ ms.locfileid: "33888056"
     
 5. 在“**编辑文件筛选器**”中，选中“**显示详细信息**”复选框。
     
-    **编辑会议策略-\<策略\>** 打开显示所选策略的设置。
+    **编辑会议策略- \<将\> **打开显示所选策略的设置的策略。
     
-    有关配置设置的详细信息，请参阅[Skype 业务服务器中的创建会议策略](create-policies.md)。
+    有关配置设置的详细信息, 请参阅[在 Skype For Business 服务器中创建会议策略](create-policies.md)。
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype 业务 Server 命令行管理程序查看会议策略
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server Management Shell 查看会议策略
 
 若要查看会议策略，请使用 **Get-CsConferencingPolicy** cmdlet：
   
@@ -86,6 +86,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-有关详细信息，包括完整语法说明和参数的列表，，请参阅[Get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。
+有关详细信息, 包括完整语法说明和参数列表, 请参阅[CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。
   
 

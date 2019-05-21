@@ -1,33 +1,33 @@
 ---
-title: 第 3 阶段部署 Skype 业务服务器 2019年试点池
+title: 第3阶段部署 Skype for Business Server 2019 试用版池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: 本节介绍部署业务服务器 2019 Skype 试点池所需的步骤。 业务服务器 2019 Skype 部署需要使用拓扑生成器定义拓扑和要部署的组件的 Skype 部署环境准备业务服务器 2019年组件、 发布拓扑设计在第一台前端服务器，然后安装和配置 Skype 业务服务器 2019年软件部署的组件。 完成后，您的业务服务器 2019年试点池部署 Skype 将共存与现有的旧池。
-ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 本部分介绍了部署 Skype for Business Server 2019 的引导池所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器定义拓扑和要部署的组件, 为部署 Skype for Business Server 2019 组件准备环境, 发布拓扑在第一台前端服务器上进行设计, 然后为部署的组件安装和配置 Skype for business Server 2019 软件。 完成后, 你的 Skype for Business Server 2019 的 "试用版池" 部署将与现有旧版池共存。
+ms.openlocfilehash: d8524d74364bac111182182ecd1f6e22972fb898
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231551"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273922"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>第 3 阶段： 部署 Skype 业务服务器 2019年试点池
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>第3阶段: 部署 Skype for Business Server 2019 试用版池
 
-本节介绍部署业务服务器 2019 Skype 试点池所需的步骤。 业务服务器 2019 Skype 部署需要使用拓扑生成器定义拓扑和要部署的组件的 Skype 部署环境准备业务服务器 2019年组件、 发布拓扑设计在第一台前端服务器，然后安装和配置 Skype 业务服务器 2019年软件部署的组件。 完成后，您的业务服务器 2019年试点池部署 Skype 将共存与现有的旧池。
+本部分介绍了部署 Skype for Business Server 2019 的引导池所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器定义拓扑和要部署的组件, 为部署 Skype for Business Server 2019 组件准备环境, 发布拓扑在第一台前端服务器上进行设计, 然后为部署的组件安装和配置 Skype for business Server 2019 软件。 完成后, 你的 Skype for Business Server 2019 的 "试用版池" 部署将与现有旧版池共存。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [准备 Active Directory 的 Skype 业务服务器](prepare-active-directory.md)
+- [为 Skype for business 服务器准备 Active Directory](prepare-active-directory.md)
     
 - [从现有部署下载拓扑](download-topology-from-existing-deployment.md)
     
-- [为业务服务器 2019年试点池部署 Skype](deploy-pilot-pool.md)
+- [部署 Skype for Business Server 2019 试用版池](deploy-pilot-pool.md)
     
 - [验证试点池与旧池的共存情况](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

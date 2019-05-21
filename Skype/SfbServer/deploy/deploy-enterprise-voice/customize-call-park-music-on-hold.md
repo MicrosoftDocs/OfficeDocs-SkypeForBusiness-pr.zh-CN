@@ -1,10 +1,10 @@
 ---
-title: 自定义业务保留 inSkype 的呼叫寄存音乐
+title: 自定义呼叫驻留 inSkype for Business 的暂停音乐
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,26 +13,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-description: 自定义音乐中 Skype 业务 Server 企业语音呼叫寄存。
-ms.openlocfilehash: c524f8979b7aa6df4e5d641ad9587cf063057255
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中自定义呼叫寄存音乐处于暂候状态。
+ms.openlocfilehash: 4111bcc42a3820e3957f526e360264aa7d098d05
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892872"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286174"
 ---
-# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自定义业务保留 inSkype 的呼叫寄存音乐
+# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自定义呼叫驻留 inSkype for Business 的暂停音乐
  
-自定义音乐中 Skype 业务 Server 企业语音呼叫寄存。
+在 Skype for Business Server Enterprise Voice 中自定义呼叫寄存音乐处于暂候状态。
   
-您可以指定您自己的音乐文件用于保持音乐，而不是业务服务器附带 Skype 的默认音乐文件。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
+你可以将自己的音乐文件指定为保留音乐, 而不是 Skype for Business 服务器随附的默认音乐文件。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
   
 > [!NOTE]
-> 如果您自定义保留音乐并希望多个网站相同的音乐，则必须配置运行呼叫寄存应用程序的每个网站的音乐文件。 
+> 如果你自定义暂停的音乐并希望同一音乐用于多个网站, 则必须为运行呼叫驻留应用程序的每个网站配置音乐文件。 
   
 ### <a name="to-customize-the-music-file"></a>自定义音乐文件
 
-1. 登录到计算机的业务 Server Management Shell 的 Skype 或使用**Delegate Setup Permissions**中所述的必要用户权限的 RTCUniversalServerAdmins 组成员身份的安装。
+1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限 (如 "**委派设置权限**" 中所述) 进行安装的计算机。
     
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892872"
    ```
 
     > [!TIP]
-    > 使用 **Get-CsService** cmdlet 可标识服务。 有关详细信息，请参阅[Get-csservice](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)。 
+    > 使用 **Get-CsService** cmdlet 可标识服务。 有关详细信息, 请参阅[CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)。 
   
-    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息，请参阅[Set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)。
+    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息, 请参阅[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)。
     
    ```
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
@@ -54,6 +54,6 @@ ms.locfileid: "33892872"
 
 ## <a name="see-also"></a>另请参阅
 
-[Set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)

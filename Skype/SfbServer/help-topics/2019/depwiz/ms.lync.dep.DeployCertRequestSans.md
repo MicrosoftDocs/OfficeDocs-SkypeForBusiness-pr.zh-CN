@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestSans
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: “配置其他使用者替代名称”选项提供了一个在最终确定并请求证书之前，向证书添加其他任何使用者替代名称 (SAN) 的机会。 要添加 SAN，请键入 SAN 的完全限定域名 (FQDN)，然后单击“添加”。 如果已添加必须删除的 SAN，请突出显示该 SAN 条目，然后单击“删除”。 要删除已添加的所有 SAN 条目，请单击“全部清除”。
-ms.openlocfilehash: b0fba0b0e3885d73986fe2e1a0f53b5206587944
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96fab36f017b0e051663bcdc92edd2722ae85d9a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893838"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276354"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>证书请求（其他使用者替代名称）
  

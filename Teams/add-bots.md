@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4e921ea668fc59b520fdb068355db82bfe24481
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 62ecd17e7aa5f4c814aadcfd0dfa01eb9fcdbb7f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400535"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278168"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
@@ -34,8 +34,8 @@ ms.locfileid: "33400535"
 
 有关详细信息，请参阅[应用和服务](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)中的“使用聊天机器人”一节。 
 
-
-
+> [!IMPORTANT]
+> 对于除测试用途之外的任何内容, 建议不要通过 GUID 添加 bot。 这样做会严重限制机器人的功能。 应将生产使用中的 bot 作为应用的一部分添加到团队。 请参阅[创建 bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-create)和[测试和调试 Microsoft 团队 bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-test)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>为 Microsoft Teams 创建自定义聊天机器人
 --------------------------------------
@@ -49,7 +49,7 @@ ms.locfileid: "33400535"
 <a name="side-load-your-own-bot-for-private-chat"></a>为私人聊天侧向加载你自己的聊天机器人
 ---------------------------------------
 
-1. 您已创建您自动程序后，转到**应用程序设置**为自动程序您开发，然后在**应用程序设置**下，复制**MicrosoftAppId**设置的值。![与 Microsoft 应用程序 ID 突出显示自动程序的应用程序设置的屏幕截图页。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. 创建你的 bot 后, 请转到你开发的 bot 的**应用程序设置**, 然后在 "**应用设置**" 下复制**MicrosoftAppId**设置的值。![已突出显示 MICROSOFT 应用 ID 的 bot 的 "应用程序设置" 页面的屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
@@ -59,19 +59,19 @@ ms.locfileid: "33400535"
 
 3.  应用 ID 将解析为你的**聊天机器人名称**，然后你可以使用该聊天机器人启动聊天对话。
 
-<a name="side-load-your-bot-for-channels"></a>端加载通道您 bot
+<a name="side-load-your-bot-for-channels"></a>侧面加载频道的 bot
 -----------------------------------
 
-如果您想要与同事共享您自动程序，下面介绍了如何将其添加到不同的团队的通道：
+如果你想要与同事共享你的机器人, 请按以下方法将其添加到不同团队的频道:
 
-1. [创建应用程序包为您自动程序](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)后，打开团队，并浏览到工作组在其中您将在一侧加载 bot。
-2. 添加**[应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** 中，向 Microsoft 工作组的应用程序。
-3. 在应用程序 Studio 中，选择**指令清单编辑器**选项卡![清单编辑器选项卡屏幕截图。](media/Adding_Bot_To_Teams.png)
-4. 若要添加您自动程序、 功能，在选择自动程序并选择将现有的自动程序，然后将从下拉列表选择现有的自动程序可以选择或输入您现有的自动程序之一的 Id。
-![选择您已创建的自动程序。](media/Select_Existing_Bot.png)
-5. 浏览到应用程序包的位置，选择它，，然后单击**打开**。
-6. 选择自动程序的名称 （不要忘记检查范围部分下的"团队"复选框）
-7. 选择测试和分发选项。
-8. 选择要连接到在弹出的对话框中，您 bot 团队。
+1. [为你的 bot 创建应用包](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)后, 打开团队并浏览到要在其中加载机器人的团队。
+2. 向 Microsoft 团队添加**[应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** 应用程序。
+3. 在应用程序 Studio 中, 选择 "**清单编辑器**" 选项卡。 ![清单编辑器选项卡的屏幕截图。](media/Adding_Bot_To_Teams.png)
+4. 若要在 "功能" 中添加你的机器人, 请选择 "bot" 并选择添加现有机器人, 然后你可以选择删除一个现有的 bot 或输入一个现有 bot 的 Id。
+![选择已创建的 bot。](media/Select_Existing_Bot.png)
+5. 通过浏览找到应用包的位置, 将其选中, 然后单击 "**打开**"。
+6. 选择你的 bot 的名称 (不要忘记选中 "范围" 部分下的 "团队" 复选框)
+7. 选择 "测试和分布" 选项。
+8. 在弹出的对话框中, 选择您希望将机器人连接到的团队。
 
-与此，您自动程序即可获得您的 Microsoft 团队团队中。
+因此, 你的 bot 将在你的 Microsoft 团队的团队中可用。

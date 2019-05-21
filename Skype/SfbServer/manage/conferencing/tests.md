@@ -1,25 +1,25 @@
 ---
-title: 测试电话拨入式会议中的业务服务器 Skype
+title: 在 Skype for Business 服务器中测试电话拨入式会议
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 摘要： 了解如何为业务服务器在 Skype 测试电话拨入式会议。
-ms.openlocfilehash: 410cbaa9319130dcf4a98c23360362211869e52f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中测试电话拨入式会议。'
+ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280360"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>测试电话拨入式会议中的业务服务器 Skype
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中测试电话拨入式会议
  
-**摘要：** 了解如何为业务服务器在 Skype 测试电话拨入式会议。
+**摘要:** 了解如何在 Skype for Business 服务器中测试电话拨入式会议。
   
 最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。 你还应验证电话拨入式会议设置网页和拨入访问号码是否可以正常使用。
   
@@ -37,7 +37,7 @@ ms.locfileid: "33924883"
 
     此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。
     
-有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+有关详细信息, 请参阅[CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>查找未分配区域的访问号码
 
@@ -53,7 +53,7 @@ ms.locfileid: "33924883"
 
     此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。
     
-有关详细信息，请参阅[Get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+有关详细信息, 请参阅[CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="test-webpage-and-access-numbers"></a>测试网页和访问号码
 
@@ -78,8 +78,8 @@ ms.locfileid: "33924883"
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -Verbose 标志提供更多详细信息多少访问找到编号和详细信息。
+    得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -Verbose 标志提供有关已找到多少个访问号码以及有关这些号码的详细信息的更多详细信息。
     
-有关详细信息，请参阅[Test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
+有关详细信息, 请参阅[CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
   
 

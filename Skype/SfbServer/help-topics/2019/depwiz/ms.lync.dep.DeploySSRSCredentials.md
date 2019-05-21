@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSCredentials
@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：
-ms.openlocfilehash: bac3e7173a964160970eb9c6f7359e90dd244bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '若要指定用于访问监视数据库的 SQL Server Reporting Services (SSRS) 的凭据, 请执行下列操作:'
+ms.openlocfilehash: d2b3773b0593df6c68b7215c65e5e2f9d7eecef1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892060"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278012"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services（凭据）
  
-要指定的 SQL Server Reporting Services (SSRS) 以访问监控数据库的凭据，请执行以下操作：
+若要指定用于访问监视数据库的 SQL Server Reporting Services (SSRS) 的凭据, 请执行下列操作:
   
-在**指定凭据页**中，指定您想要用于访问监控数据库 （QoEMetrics 和 LcsCDR） 的用户凭据。 
+在 "**指定凭据" 页面**中, 指定要用于访问监视数据库 (QoEMetrics 和 LcsCDR) 的用户凭据。 
   
 > [!NOTE]
-> 有关详细信息，在看到"凭据和连接信息的报表数据源 (SSRS) 指定" [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)。 
+> 有关详细信息, 请参阅 "在处[https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)为报表数据源 (SSRS) 指定凭据和连接信息"。 
   
-有关部署运行监控服务器的 Reporting Services 报告的详细信息，请参阅[Skype 业务服务器中安装监控报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。
+有关为运行监视的服务器部署 Reporting Services 报表的详细信息, 请参阅[在 Skype For Business 服务器中安装监视报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。
   
 

@@ -1,25 +1,25 @@
 ---
-title: 媒体质量指标分布报告中 Skype 业务服务器
+title: Skype for Business 服务器中的媒体质量指标分布报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 摘要： 了解媒体质量指标分布报告中 Skype 业务服务器。
-ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的媒体质量指标分布报告。'
+ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902269"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280038"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>媒体质量指标分布报告中 Skype 业务服务器 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Skype for Business 服务器中的媒体质量指标分布报告 
  
-**摘要：** 了解媒体质量指标分布报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的媒体质量指标分布报告。
   
 通过媒体质量指标分布报告可以查看显示用户体验质量指标（如抖动或数据包丢失）分布值的图形。例如，假设您的用户总共进行 10 次电话呼叫；这 10 次呼叫报告以下往返时间：
   
@@ -32,8 +32,8 @@ ms.locfileid: "33902269"
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|8  <br/> |4550  <br/> |
-|9  <br/> |50  <br/> |
+|个  <br/> |4550  <br/> |
+|db-9  <br/> |50  <br/> |
 |10  <br/> |50  <br/> |
    
 这些往返时间的平均值为 500 毫秒（5000 除以 10）。500 毫秒是非常大的往返时间；因此，您可能会相信您遇到了严重的网络拥塞问题。（往返时间长通常是网络过载的结果。）

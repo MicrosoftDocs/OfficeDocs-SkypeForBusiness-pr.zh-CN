@@ -1,29 +1,29 @@
 ---
-title: 管理业务服务器中 Skype 的存档数据的清除
+title: 在 Skype for Business 服务器中管理已存档数据的清除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 摘要： 了解如何管理的 Skype 业务服务器的存档数据清除。
-ms.openlocfilehash: e6bc7cf077a17a3f4f6eaaf9f3026d170ddacfbd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何管理 Skype for business 服务器的存档数据清除。'
+ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902838"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278389"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理业务服务器中 Skype 的存档数据的清除
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理已存档数据的清除
 
-**摘要：** 了解如何管理的 Skype 业务服务器的存档数据清除。
+**摘要:** 了解如何管理 Skype for business 服务器的存档数据清除。
   
-存档数据库不是以进行长期保留和 Skype 业务服务器不提供电子发现 （搜索） 解决方案的存档数据，因此需要移动到其他存储的数据。 Skype 业务服务器提供了可用于将存档的数据导出到可搜索脚本会话导出工具。 您需要定义何时清除已存档和已导出的数据。 
+存档数据库不是为了长期保留, 而 Skype for Business 服务器不提供用于存档数据的电子发现 (搜索) 解决方案, 因此需要将数据移动到其他存储。 Skype for Business 服务器提供了一种会话导出工具, 可用于将存档的数据导出到可搜索的脚本中。 您需要定义何时清除已存档和已导出的数据。 
   
-有关使用**Export-csarchivingdata** cmdlet 导出数据的详细信息，请参阅[导出 Skype 业务服务器中的存档的数据](export-archived-data.md)。
+有关使用**CsArchivingData** cmdlet 导出数据的详细信息, 请参阅[在 Skype for Business 服务器中导出存档的数据](export-archived-data.md)。
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>使用控制面板管理数据的清除
 
@@ -31,7 +31,7 @@ ms.locfileid: "33902838"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -55,19 +55,19 @@ ms.locfileid: "33902838"
     
 - **Invoke-CsArchivingDatabasePurge** 可让您手动清除存档数据库中的记录。
     
-例如，以下命令可启用所有存档数据的清除。 运行此命令后，Skype 业务服务器都会清除早于指定于为 KeepArchivingDataForDays 参数的值的所有存档记录。 
+例如，以下命令可启用所有存档数据的清除。 运行此命令后, Skype for Business 服务器将清除早于为 KeepArchivingDataForDays 参数指定的值的所有存档记录。 
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-下面的命令限制清除已 （通过使用**Export-csarchivingdata** cmdlet） 为数据文件中导出的存档记录。 您还必须设置为 True ($True) PurgeExportedArchivesOnly 参数：
+以下命令限制清除到已导出到数据文件的已存档记录 (通过使用**CSArchivingData** cmdlet)。 还必须将 PurgeExportedArchivesOnly 参数设置为 True ($True):
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Skype 业务服务器运行此命令后，将仅清除存档记录满足两个条件： 1) 在早于于为 KeepArchivingDataForDays 参数，则为指定的值以及 2） 已使用**Export-csarchivingdata** cmdlet 导出它们。
+运行此命令后, Skype for Business 服务器将仅清除满足两个条件的存档记录: 1) 它们比为 KeepArchivingDataForDays 参数指定的值更早;和 2) 已使用**CsArchivingData** cmdlet 导出它们。
   
 若要禁用自动清除存档记录功能，请将  EnablePurging 参数设置为 False ($False)。
   
@@ -75,7 +75,7 @@ Skype 业务服务器运行此命令后，将仅清除存档记录满足两个�
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-下面的示例使用**Invoke-csarchivingdatabasepurge** cmdlet 从 atl-sql-001.contoso.com 上的存档数据库中清除所有记录超过 24 小时。 为确保删除所有记录，包括尚未导出的记录，请将 PurgeExportedArchivesOnly 参数设置为 False ($False)。
+以下示例使用**CsArchivingDatabasePurge** cmdlet 从 atl-sql-001.contoso.com 上的存档数据库中清除超过24小时的所有记录。 为确保删除所有记录，包括尚未导出的记录，请将 PurgeExportedArchivesOnly 参数设置为 False ($False)。
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

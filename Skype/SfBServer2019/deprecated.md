@@ -1,78 +1,78 @@
 ---
-title: 什么被弃用从 Skype 业务服务器 2019
+title: Skype for Business Server 2019 中的弃用内容
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 摘要： 这些功能已从 Skype 的业务服务器 2019年。
-ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: '摘要: 已从 Skype for Business Server 2019 中删除这些功能。'
+ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835172"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278110"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>什么被弃用从 Skype 业务服务器 2019
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Skype for Business Server 2019 中的弃用内容
 
-了解如何为业务服务器 2019 Skype 中弃用的功能。 有关业务服务器 2019 Skype 中的新功能的信息，请参阅[What's 中的业务服务器 2019 Skype](whats-new.md)。
+了解 Skype for Business Server 2019 中已弃用的功能和功能。 有关 Skype for Business Server 2019 中的新增功能的信息, 请参阅[skype for Business server 2019 中的内容](whats-new.md)。
 
-某些弱化的功能中包含 Skype 的业务服务器 2019年与早期的产品版本的兼容性。
+Skype for Business Server 2019 中提供了一些突出的功能, 可与以前的产品版本兼容。
 
-## <a name="features-deprecated-in-skype-for-business-server-2019"></a>为业务服务器 2019 Skype 中弃用的功能 
+## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 中已弃用的功能 
 
     The following features and functionality have been deprecated in Skype for Business Server 2019.
 
-### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP 网关的 Skype 业务服务器
+### <a name="xmpp-gateways-for-skype-for-business-server"></a>Skype for business Server 的 XMPP 网关
 
-业务服务器 2015年和其前置任务的 Skype 允许您配置边缘服务器和前端服务器或前端池上的 XMPP 网关的可扩展消息传递和状态协议 (XMPP) 的代理。 此功能不再可用的业务服务器 2019 Skype 中。
+Skype for Business Server 2015 及其前置任务允许你在 Edge 服务器上配置可扩展消息和状态协议 (XMPP) 代理和前端服务器或前端池上的 XMPP 网关。 Skype for Business Server 2019 不再提供此功能。
 
-### <a name="persistent-chat-for-skype-for-business-server"></a>持久聊天的 Skype 业务服务器
+### <a name="persistent-chat-for-skype-for-business-server"></a>Skype for business 服务器的持久聊天
 
-持久聊天服务器是一个可选角色，可让您的组织中的多个用户参与随着时间的推移保留的聊天室对话。 持久聊天不能与 Skype 部署业务服务器 2019年。 从拓扑生成器，以及从代码删除此服务器角色。 
+持久聊天服务器是一种可选角色, 允许组织中的多个用户参与不断保持的聊天室对话。 Skype for Business Server 2019 不能部署持久聊天。 此服务器角色将从拓扑生成器和代码中删除。 
 
-中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。
+团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL 镜像 Skype 业务服务器
+### <a name="sql-mirroring-for-skype-for-business-server"></a>Skype for business Server 的 SQL 镜像
 
-SQL 镜像无法部署与 Skype 的业务服务器 2019年。 仍然支持用于提供高可用性和灾难恢复的其他选项，您应选择从它们。 请参阅[规划高可用性和灾难恢复 Skype 业务服务器中的](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)检查的选项。
+无法通过 Skype for Business Server 2019 部署 SQL 镜像。 提供高可用性和灾难恢复的其他选项仍受支持, 你应从这些选项中进行选择。 请参阅[在 Skype For Business 服务器中规划高可用性和灾难恢复](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)以查看选项。
 
 ### <a name="in-place-upgrades"></a>就地升级 
 
-就地升级中的业务服务器 2015 Skype 可用，但业务服务器 2019年不再支持在 Skype。 升级和 coexistance 都支持并排，详细信息，请参阅[迁移到业务服务器 2019年的 Skype](migration/migration-to-skype-for-business-server-2019.md) 。
+Skype for business Server 2015 中提供了就地升级, 但 Skype for business Server 2019 不再支持就地升级。 支持并行升级和 coexistance, 有关详细信息, 请参阅[迁移到 Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) 。
 
-### <a name="mobility-service-mcx"></a>Mobility Service (Mcx)
+### <a name="mobility-service-mcx"></a>移动服务 (Mcx)
 
-移动服务支持旧的移动客户端使用不再可用的业务服务器 2019 Skype 中。 这先前已的业务服务器 2015年宣布 Skype 中。
+旧版移动客户端使用的移动服务支持不再在 Skype for Business Server 2019 中可用。 这是以前在 Skype for Business Server 2015 中宣布的。
 
-业务移动客户端的所有当前 Skype 已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、 状态和联系人。 与使用 Mcx 的旧客户端的用户需要升级到当前客户端。
+所有当前 Skype for business 移动客户端都已使用统一通信 Web API (UCWA) 来支持即时消息 (IM)、状态和联系人。 具有使用 Mcx 的旧客户端的用户将需要升级到当前客户端。
 
-有关详细信息，请参阅[规划 Mobility for Business Server 的 Skype](../SfbServer/plan-your-deployment/mobility.md)和[Skype for Business 的移动客户端功能比较](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。
+有关更多详细信息, 请参阅 Skype for business 适用于 skype for business Server 和[移动客户端功能比较](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)的[计划](../SfbServer/plan-your-deployment/mobility.md)。
 
 ## <a name="tools"></a>工具
 
-不将可用于在初始版本的 Skype 的业务服务器 2019年以下工具：
+Skype for business Server 2019 的初始版本中将不提供以下工具:
 
 - Skype for Business Server 容量计划计算器
-- Skype 业务 server 调试工具
-- Skype 的业务 Server 资源工具包工具 （一些工具将被删除）
+- Skype for Business 服务器调试工具
+- Skype for Business 服务器资源工具包工具 (某些工具将被删除)
     - 呼叫寄存时间记录器
     - 查找用户控制台
-    - 未分配的号码通知迁移
+    - 未分配号码公告迁移
 
-以下工具不支持与 Skype 业务服务器 2019年:
+Skype for Business Server 2019 不支持以下工具:
 
-- 呼叫质量方法 （但不是呼叫质量仪表板）
-- Microsoft 呼叫质量方法记分卡、 v1.5
+- 通话质量方法 (但不是通话质量仪表板)
+- Microsoft 通话质量方法记分卡, v 1。5
 - Skype for Business Server 2015 规划工具
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>另请参阅
 
-[What's new in Business Server 2019 的 Skype](whats-new.md)
+[Skype for Business Server 2019 中的新增功能](whats-new.md)
 
 [管理 XMPP 联盟](migration/migrating-xmpp-federation.md)

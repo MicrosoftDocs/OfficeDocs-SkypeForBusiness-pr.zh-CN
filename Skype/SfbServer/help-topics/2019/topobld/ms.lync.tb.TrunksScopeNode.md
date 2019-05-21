@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunksScopeNode
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 右键单击中继在拓扑生成器以执行以下操作：
-ms.openlocfilehash: ff68127e1192fc9e288709d3635e9abaeb2bc5b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '右键单击拓扑生成器中的 "中继" 以执行以下操作:'
+ms.openlocfilehash: 9fff67ce969ac30d5098ebbfaf2fafa9822588de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911322"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307082"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
-右键单击**中继**在拓扑生成器以执行以下操作：
+右键单击拓扑生成器中的 "**中继**" 以执行以下操作:
   
 - **新建中继**：启动用于定义新的 SIP 中继的“**定义新的中继**”向导。
     

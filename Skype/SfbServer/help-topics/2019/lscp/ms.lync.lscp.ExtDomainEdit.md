@@ -1,10 +1,10 @@
 ---
-title: 联盟的域创建新的或编辑现有的
+title: 联盟域新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: d4a5793d20126df194820efe04abea98d9ff5f9d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1834f59a2141ac27bcac2ec3a3ead765d72678dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891549"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287759"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>联盟域：创建新的或编辑现有的
 

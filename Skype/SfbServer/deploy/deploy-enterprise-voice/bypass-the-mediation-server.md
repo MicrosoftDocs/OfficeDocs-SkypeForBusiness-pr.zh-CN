@@ -1,10 +1,10 @@
 ---
-title: Skype 业务服务器以始终绕过中介服务器中配置媒体绕过
+title: 在 Skype for Business 服务器中配置 "绕过媒体" 服务器以始终绕过中介服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: 启用媒体绕过以始终绕过中介服务器中 Skype，业务 Server 企业语音。
-ms.openlocfilehash: ffefeb9850915f4ac8e4677f1bcf0202c4f29405
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中启用 "绕过媒体" 以始终绕过中介服务器。
+ms.openlocfilehash: 0e45f8ede38411974f9433c17ccd0a0946b427ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893138"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275876"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Skype 业务服务器以始终绕过中介服务器中配置媒体绕过
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>在 Skype for Business 服务器中配置 "绕过媒体" 服务器以始终绕过中介服务器
  
-启用媒体绕过以始终绕过中介服务器中 Skype，业务 Server 企业语音。 
+在 Skype for Business Server Enterprise Voice 中启用 "绕过媒体" 以始终绕过中介服务器。 
   
- 如果您使用本主题可配置为媒体的全局设置中的步骤绕过，假设您有良好 Skype 业务终结点和任何在中继连接为其配置媒体绕过的对等方之间的连接性。
+ 如果你使用本主题中的步骤来配置媒体绕过的全局设置, 则假设你在 Skype for Business 终结点和任何对等客户之间具有良好的连接, 你可以在中继连接上配置了媒体旁路。
   
-如果您没有为业务终结点的 Skype 和到其各自的中继连接已启用媒体绕过中介服务器的所有对等方之间的良好连接，则必须配置全局媒体绕过设置以使用站点和区域信息当采用媒体绕过。 这样，确定当媒体绕过中介服务器中的多个控件。 若要执行此操作，而是使用[配置媒体绕过全局设置中的 Business Server 以使用站点和区域信息的 Skype](use-site-and-region-information.md)和[关联子网与网络站点](deploy-network.md#BKMK_AssociateSubnets)中的步骤。
+如果您在 Skype for Business 终结点和所有对等的外部服务器之间没有良好的连接, 并且其各自的干线连接已启用媒体旁路, 则必须将全局媒体绕过设置配置为使用网站和区域信息采用媒体旁路时。 这允许在确定媒体绕过中介服务器时提供更多控制。 若要执行此操作, 请使用 "在[Skype For Business 服务器中配置媒体绕过全局设置" 中的步骤使用网站和区域信息](use-site-and-region-information.md), 而[将子网与网络网站相关联](deploy-network.md#BKMK_AssociateSubnets)。
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>在全局范围启用媒体旁路以始终绕过中介服务器
 
-1. 打开 Skype 业务 Server Control Panel。
+1. 打开 "Skype for Business 服务器" 控制面板。
     
 2. 在左侧导航栏中，单击“网络配置”****。
     
@@ -45,7 +45,7 @@ ms.locfileid: "33893138"
     
 ## <a name="see-also"></a>另请参阅
 
-[规划媒体绕过 Skype for Business 中](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[在 Skype for Business 中规划媒体旁路](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[为业务服务器部署中 Skype 的媒体绕过](deploy-media-bypass.md)
+[在 Skype for Business 服务器中部署媒体旁路](deploy-media-bypass.md)
 

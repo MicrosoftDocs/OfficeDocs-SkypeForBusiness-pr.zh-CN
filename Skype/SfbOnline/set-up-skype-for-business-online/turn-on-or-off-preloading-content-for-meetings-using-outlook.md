@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226011"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284921"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>打开或关闭允许使用 Outlook 为会议预加载内容
 
-用户可以预加载内容、 文件或附加到业务联机会议时，Skype 的 Outlook 会议邀请的附件，但您可以将其打开或关闭。 它被打开默认情况下，所有业务 online 使用 Skype 的组织。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
+用户可以将附加到 Outlook 会议邀请的内容、文件或附件预加载到 Skype for business Online 会议, 但您可以打开或关闭它。 默认情况下, 它为使用 Skype for Business Online 的所有组织打开。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
 > [!NOTE]
-> 目前，没有可用 Skype 业务 online 中设置或_MaxContentStorageMB_和_MaxUploadFileMB_查看联机值的任何 cmdlet。 它们仅适用于本地部署。 务必要了解的内容不上载到会议，如果附加的内容超出_MaxUploadFileSizeMB_或者达到_MaxContentStorageMB_限制。
+> 目前, Skype for Business Online 中没有可用的 cmdlet, 无法设置或查看_MaxContentStorageMB_和_MaxUploadFileMB_的在线值。 它们仅适用于本地部署。 如果附件内容超过_MaxUploadFileSizeMB_或_MaxContentStorageMB_限额, 请务必知道内容不会上载到会议。
   
 ## <a name="to-get-you-started"></a>开始使用
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Windows PowerShell 将计算机设置](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="turning-it-on-or-off"></a>打开或关闭该功能
 
-默认情况下，能够预加载附加到的 Outlook 会议邀请 Skype 业务联机会议的内容打开，但您可能需要防止组织预加载在其会议中的内容中的用户。
+默认情况下, 可以预加载到 Skype for business Online 会议邀请的 Outlook 会议邀请的内容处于打开状态, 但你可能需要阻止组织中的用户在其会议中预加载内容。
   
 > [!IMPORTANT]
-> 此设置可以只被打开还是关闭整个组织;为单个用户，您无法将其打开或关闭。 
+> 此设置仅可为您的整个组织打开或关闭;不能为单个用户打开或关闭该功能。 
   
  **若要将其关闭，请打开 Windows PowerShell 并执行下列操作：**
   

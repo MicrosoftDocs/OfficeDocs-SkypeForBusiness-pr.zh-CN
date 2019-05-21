@@ -1,10 +1,10 @@
 ---
-title: 业务服务器添加到网络站点中 Skype 位置策略
+title: 在 Skype for Business 服务器中将位置策略添加到网络网站
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: 为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。
-ms.openlocfilehash: d30f9295b633ccfa7439e697931b13bd92b1cc0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server Enterprise Voice 中向网络站点分配 E9-1-1 位置策略。
+ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306872"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>业务服务器添加到网络站点中 Skype 位置策略
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>在 Skype for Business 服务器中将位置策略添加到网络网站
  
-为业务 Server 企业语音给 Skype 中的网络站点分配 E9-1-1 位置策略。 
+在 Skype for business Server Enterprise Voice 中向网络站点分配 E9-1-1 位置策略。 
   
-下面的示例演示如何添加到现有网络站点[中的业务服务器 Skype 的创建位置策略](create-location-policies.md)中定义的**Redmond**位置策略以及如何创建新的网络站点使用**雷德蒙德**位置策略。
+以下示例显示了如何将在[Skype For Business Server 的 "创建位置策略" 中](create-location-policies.md)定义的**Redmond**位置策略添加到现有网络网站, 以及如何创建使用**Redmond**位置策略的新网络网站。
   
-有关使用网络站点的详细信息，请参阅 Lync Server 命令行管理程序文档中以下 cmdlet:
+有关使用网络站点的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
   
 - **New-CsNetworkSite**
     

@@ -1,170 +1,170 @@
 ---
-title: 自定义业务服务器 Skype 的用户帐户属性
+title: 自定义 Skype for Business 服务器的用户帐户属性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
-description: 您可以使用本节中的过程修改单个用户帐户属性。
-ms.openlocfilehash: 1f2039180a2bfa44b3379f7cf6bf095e2d0a7c14
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 你可以使用本部分中的过程修改单个用户帐户属性。
+ms.openlocfilehash: d0e1a3ac02f5696e91e07c0f08cf0cf10e09f98e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275071"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义业务服务器 Skype 的用户帐户属性
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义 Skype for Business 服务器的用户帐户属性
  
-您可以使用本节中的过程修改单个用户帐户属性。
+你可以使用本部分中的过程修改单个用户帐户属性。
   
-有两个可在单个用户级别的基本操作：
+可以在单个用户级别执行两项基本操作:
   
-- [配置特定的用户帐户的电话选项](customize-properties.md#Tel_Op)
+- [为特定用户帐户配置电话选项](customize-properties.md#Tel_Op)
     
 - [将用户移动到另一个池](customize-properties.md#Move_Users)
     
-## <a name="configure-telephony-options-for-a-specific-user-account"></a>配置特定的用户帐户的电话选项
+## <a name="configure-telephony-options-for-a-specific-user-account"></a>为特定用户帐户配置电话选项
 <a name="Tel_Op"> </a>
 
-（前提是单个用户已启用的 Skype 业务服务器和组织支持电话），您可以自定义特定用户的电话设置。
+你可以自定义特定用户的电话设置 (只要个人用户已启用 Skype for business 服务器且组织支持电话服务)。
   
-Skype 的企业服务器用户电话选项包括：
+Skype for business 服务器用户电话选项包括以下内容:
   
-- **禁用音频/视频**用户不能与呼叫音频和视频。
+- **音频/视频已禁用**用户无法使用音频和视频进行呼叫。
     
-- **PC 到 PC 仅**用户可以发出仅限 PC 到 PC 音频或视频呼叫。
+- **仅适用于 pc 到 pc**用户只能进行 PC 到 PC 的音频或视频通话。
     
-- **企业语音**用户可以使用 Business Server 基础结构 Skype 将所有传入和传出呼叫路由。 用户还可以发出 PC 到 PC 呼叫。
+- **企业语音**用户可以使用 Skype for Business 服务器基础结构路由所有传入和传出呼叫。 用户还可以进行 PC 到 PC 呼叫。
     
-- **远程呼叫控制**用户可以使用 Skype 业务服务器来控制桌面电话，并还可以发出 PC 到 PC 呼叫。
+- **远程呼叫控制**用户可以使用 Skype for Business 服务器控制桌面电话, 也可以进行 PC 到 PC 的通话。
     
-有关配置为组织的电话的详细信息，请参阅部署文档中的[为 Skype 业务服务器中的企业语音用户启用](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)和[Skype 业务服务器中部署企业语音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
+有关为组织配置电话的详细信息, 请参阅在 "skype for business"[服务器中启用企业语音的用户](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md), 并在部署文档中[部署 Skype for business 服务器中的企业语音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
   
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左导航栏中，单击“用户”****。
     
-4. 在**搜索用户**框中键入所有或显示名称、 名字、 最后一个名称、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您希望，并单击**查找的用户帐户的统一资源标识符 (URI) 的第一部分**.
+4. 在 "**搜索用户**" 框中, 键入所需用户帐户的所有或第一部分的显示名称、"名字"、"姓氏"、安全帐户管理器 (SAM) 帐户名、SIP 地址或行统一资源标识符 (URI), 然后单击 "**查找"**.
     
-5. 在表中，单击要修改的用户帐户。
+5. 在表中, 单击要修改的用户帐户。
     
-6. 在**编辑**菜单上，单击**修改**。
+6. 在 "**编辑**" 菜单上, 单击 "**修改**"。
     
-7. 在**电话**中，执行以下操作：
+7. 在**电话服务**中, 执行以下操作:
     
-   - 若要禁用的用户的音频和视频呼叫，请单击**禁用音频/视频**。
+   - 若要为用户禁用音频和视频呼叫, 请单击 "**音频/视频已禁用**"。
     
-   - 若要启用 PC 到 PC 音频通信的用户，但没有远程呼叫控制或企业语音，请单击**PC 到 PC 仅**。 指定的用户进行 PC 到 PC 音频通信使用的电话**线路 URI**值。
+   - 若要为用户启用 PC 至 PC 音频通信, 但不支持远程呼叫控制或企业语音, 请单击 "**仅 pc 到 pc**"。 为用户用于 PC 到 PC 音频通信的电话指定**行 URI**的值。
     
-   - 若要将用户的电话呼叫路由使用的服务策略，包括 PC 到 PC 音频通信类按照业务基础结构 Skype 单击**企业语音**。 在**线路 URI**中，指定企业语音的电话号码。 在**拨号计划策略**和**语音策略**中，指定用户的相应策略。 若要指定转换为 E.164 格式的用户所拨打的电话号码的规范化规则，选择适当的位置配置文件**的位置策略**中。
+   - 若要根据服务策略类别 (包括 PC 到 PC 音频通信) 使用 Skype for Business 基础结构路由用户的电话呼叫, 请单击 "**企业语音**"。 在 "**行 URI**" 中, 指定企业语音的电话号码。 在 "**拨号计划策略**" 和 "**语音策略**" 中, 为用户指定适当的策略。 若要指定将用户拨打的电话号码转换为电子164格式的规范化规则, 请在 "**位置策略**" 中选择相应的位置配置文件。
     
-   - 要启用远程呼叫控件，它使用户可以控制业务服务器进行 PC 到 PC 呼叫以及 PC 到电话的呼叫的 Skype 从其桌面电话线，单击**远程呼叫控制**。 在**线路 URI**中，指定远程呼叫控制的电话号码。 用户必须拥有桌面电话和专用交换机 (pbx) 连接的呼叫路由。
+   - 要启用 "远程呼叫控制", 使用户能够从 Skype for Business 服务器控制其桌面电话线路, 以进行 PC 到 PC 呼叫和 PC 至电话呼叫, 请单击 "**远程呼叫控制**"。 在 "**行 URI**" 中, 指定远程呼叫控制的电话号码。 用户必须具有桌面电话和专用分支 exchange (PBX) 连接才能使用呼叫路由。
     
 ## <a name="move-users-to-another-pool"></a>将用户移动到另一个池
 <a name="Move_Users"> </a>
 
-您可以使用业务 Server Control Panel 的 Skype 将用户分配给特定服务器或池。
+可以使用 Skype for Business 服务器控制面板将用户分配到特定的服务器或池。
   
 > [!TIP]
-> 从正在运行 Lync Server 2010 的源池或更早版本的复杂的 Active Directory 环境中的业务服务器目标池 Skype 移动所有现有用户可能会导致速度较慢的 Active Directory 复制。 若要避免此问题，可以使用搜索筛选器从正在运行 Lync Server 2010 的池中移动用户或更早版本分别，或者您可以使用 Skype 的业务 Server 命令行管理程序移动用户通过 cmdlet。 此外，筛选器功能与 Skype 适用于企业服务器用户。 
+> 将所有现有用户从运行 Lync Server 2010 或更早版本的源池中移动到复杂的 Active Directory 环境中的 Skype for business 服务器目标池可能会导致 Active Directory 复制速度较慢。 为避免这种情况, 您可以使用搜索筛选器从运行 Lync Server 2010 或更早版本的池中移动用户, 也可以使用 Skype for Business Server Management Shell 将用户与 cmdlet 一起移动。 此外, 筛选器功能可与 Skype for Business 服务器用户配合使用。 
   
-### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>将所选的用户移动到其他服务器或池
+### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>将所选用户移动到其他服务器或池
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
-4. 在**搜索用户**框中键入所有或显示名称、 名字、 最后一个名称、 安全帐户管理器 (SAM) 帐户名、 SIP 地址或行您希望，并单击**查找的用户帐户的统一资源标识符 (URI) 的第一部分**. 
+4. 在 "**搜索用户**" 框中, 键入所需用户帐户的所有或第一部分的显示名称、"名字"、"姓氏"、安全帐户管理器 (SAM) 帐户名、SIP 地址或行统一资源标识符 (URI), 然后单击 "**查找"**. 
     
-5. 在表中，选择一个特定用户或列表中的用户。 
+5. 在表中, 选择列表中的特定用户或用户。 
     
-6. 在**操作**菜单中，单击**移动所选的用户移动到池**。
+6. 在 "**操作**" 菜单上, 单击 "**将所选用户移至池**"。
     
-7. 在**移动用户**中，选择您想要将用户移动到的**目标注册器池**的池。
+7. 在 "**移动用户**" 中, 选择要将用户移动到 "**目标注册机构" 池中**的池。
     
-8. （可选）如果目标服务器或池不可用，则选择**强制**复选框。
+8. 可选如果目标服务器或池不可用, 请选中 "**强制**" 复选框。
     
     > [!CAUTION]
-    > 如果选择**强制**，移动的用户帐户时，但任何关联的用户数据 （例如，用户已安排的会议） 中删除。 如果未选择它，移动帐户和关联的数据。 
+    > 如果您选择 "**强制**", 则用户帐户将被移动, 但任何相关联的用户数据 (例如, 用户已安排的会议) 都将被删除。 如果不选择该帐户, 将同时移动帐户和关联的数据。 
   
-### <a name="to-move-all-users-from-one-server-or-pool-to-a-different-server-or-pool"></a>将所有用户从一个服务器或池移至其他服务器或池
+### <a name="to-move-all-users-from-one-server-or-pool-to-a-different-server-or-pool"></a>将所有用户从一个服务器或池移动到另一个服务器或池
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
-4. 在**操作**菜单中，单击**移动所有用户移动到池**。
+4. 在 "**操作**" 菜单上, 单击 "**将所有用户移至池**"。
     
-5. 在**移动用户**中，选择包含您要在**源注册器池**移动的用户帐户的池。
+5. 在 "**移动用户**" 中, 选择包含要在**源注册机构池中**移动的用户帐户的池。
     
-6. 在**目标注册器池**，选择您想要将用户移动到池。
+6. 在 "**目标注册机构" 池中**, 选择要将用户移动到的池。
     
-7. （可选）如果目标服务器或池不可用，则选择**强制**复选框。
+7. 可选如果目标服务器或池不可用, 请选中 "**强制**" 复选框。
     
     > [!CAUTION]
-    > 如果选择**强制**，移动的用户帐户时，但任何关联的用户数据 （例如，用户已安排的会议） 中删除。 如果未选择它，移动帐户和关联的数据。 
+    > 如果您选择 "**强制**", 则用户帐户将被移动, 但任何相关联的用户数据 (例如, 用户已安排的会议) 都将被删除。 如果不选择该帐户, 将同时移动帐户和关联的数据。 
   
-### <a name="to-move-users-from-one-pool-to-a-different-pool-by-using-a-filter"></a>若要将用户从一个池移动到另一个池，使用筛选器
+### <a name="to-move-users-from-one-pool-to-a-different-pool-by-using-a-filter"></a>使用筛选器将用户从一个池移动到另一个池
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左导航栏中，单击“用户”****。
     
-4. 在**用户搜索**，单击**搜索**，然后单击**添加筛选器**。
+4. 在 "**用户搜索**" 中, 单击 "**搜索**", 然后单击 "**添加筛选器**"。
     
-5. 在搜索条件中，选择**注册器池**，选择**等于**、 选择**当前池 FQDN**，，然后单击**查找**。
+5. 在搜索条件中, 选择 "**注册机构池**", 选择 "**等于**", 选择 "**当前池 FQDN**", 然后单击 "**查找**"。
     
-6. 在**操作**菜单中，单击**移动所有用户移动到池**。
+6. 在 "**操作**" 菜单上, 单击 "**将所有用户移至池**"。
     
     > [!NOTE]
-    > 当筛选器应用于现有一组用户，**移动到池的所有用户**是筛选子集的用户，不**所有**可能的用户的上下文中的选项。
+    > 将筛选器应用于现有用户集时, 选项 "**将所有用户移至池中**" 将位于已筛选的用户子集的上下文中, 而不是**所有**可能的用户。
   
-7. 在**移动用户**中，选择包含您要在**源注册器池**移动的用户帐户的池。
+7. 在 "**移动用户**" 中, 选择包含要在**源注册机构池中**移动的用户帐户的池。
     
-8. 在**目标注册器池**，选择您想要移动的用户的池。
+8. 在 "**目标注册机构" 池中**, 选择要将用户移动到的池。
     
-9. （可选）如果目标服务器或池不可用，则选择**强制**复选框。
+9. 可选如果目标服务器或池不可用, 请选中 "**强制**" 复选框。
     
     > [!CAUTION]
-    > 如果选择**强制**，移动的用户帐户时，但任何关联的用户数据删除 （例如，用户已安排的会议和联系人）。 如果未选择它，移动帐户和关联的数据。 
+    > 如果您选择 "**强制**", 则用户帐户将被移动, 但任何相关联的用户数据 (例如, 用户已安排和联系人的会议) 都将被删除。 如果不选择该帐户, 将同时移动帐户和关联的数据。 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>将用户从一个池移至另一个使用 Windows Powershell cmdlet
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>使用 Windows Powershell cmdlet 将用户从一个池移动到另一个池
 
-1. 根据如何运行 Windows PowerShell 命令的 （即 （本地还是远程），您需要以登录正确的 Skype 业务服务器管理角色的成员，如下所示：
+1. 根据你运行的 Windows PowerShell 命令 (本地或远程) 的运行方式, 你需要以正确的 Skype for Business 服务器管理角色的成员身份登录, 如下所示:
     
-   a. 如果要在本地计算机 （例如，您直接登录前端服务器） 上运行命令： 登录到计算机的业务 Server Management Shell 的 Skype 成员身份的 RTCUniversalServerAdmins 组或具有所需的安装**Delegate Setup Permissions**中所述的用户权限。
+   a. 如果你在本地计算机上运行命令 (例如, 直接登录到前端服务器), 请执行以下操作: 登录到安装了 Skype for Business Server Management Shell 的计算机或具有必要的 RTCUniversalServerAdmins 组的成员如 "**委派设置权限**" 中所述的用户权限。
     
-   b. 如果您要在另一台计算机上远程运行命令 （例如，您登录到您的计算机上，在 Standard Edition 前端服务器上远程运行命令）： 使用分配给 CsUserAdministrator 角色或 CsAdministrator 的用户帐户角色，登录到内部部署中的任何计算机。
+   b. 如果您在另一台计算机上远程运行命令 (例如, 登录到计算机并在标准版前端服务器上远程运行命令): 从分配给 CsUserAdministrator 角色或 CsAdministrator 的用户帐户。角色, 请登录到内部部署中的任何计算机。
     
-2. 为业务 Server 命令行管理程序启动 Skype： 单击**开始**，单击**所有程序**、 都单击**for Business 的 Skype**，，然后都单击**Skype 的业务 Server Management Shell**。
+2. 启动 Skype for Business 服务器命令行管理程序: 单击 "**开始**", 单击 "**所有程序**", 单击 " **skype**for Business", 然后单击 " **skype for business 服务器管理外壳**"。
     
-3. 若要移动单个用户，请按以下方式使用 Move-csuser cmdlet:
+3. 若要移动单个用户, 请使用 Move-csuser cmdlet, 如下所示:
     
     ```
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
-    其中移动用户是用户 Pilar Ackerman，该用户将是从其当前分配主池移至 pool01.contoso.net
+    要移动的用户是用户 Pilar Ackerman, 用户将从其当前分配的主池移动到该池 pool01.contoso.net
     
-4. 若要移动大量用户，将筛选器与**Get-csuser** cmdlet，并将生成的用户组传递给**Move-csuser**:
+4. 若要移动大量用户, 请将筛选器与**move-csuser** cmdlet 配合使用, 并将生成的用户集传递到**move-csuser**:
     
     ```
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
-    **Get-csuser**和**Move-csuser**命令结合可能会导致此：
+    **Move-csuser**和**move-csuser**的合并命令可能会导致以下情况:
     
     ```
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"

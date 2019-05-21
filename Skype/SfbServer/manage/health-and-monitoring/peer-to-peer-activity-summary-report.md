@@ -1,39 +1,39 @@
 ---
-title: 对等活动中 Skype 业务服务器的摘要报告
+title: Skype for Business Server 中的对等活动摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 摘要： 了解对等活动摘要报告中 Skype 业务服务器。
-ms.openlocfilehash: 9b0ef6cdb430fcd6c1fdf278e31133b9ba22ef9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的对等活动摘要报告。'
+ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925213"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279892"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>对等活动中 Skype 业务服务器的摘要报告
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动摘要报告
  
-**摘要：** 了解对等活动摘要报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的对等活动摘要报告。
   
-对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常涉及两个用户，并不需要使用 Skype Business Server 会议服务。 相比之下，会议通常涉及两个以上的用户和业务 Server 会议服务需要 Skype 使用。 会议活动在会议摘要报告上进行报告。
+对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户, 不需要使用 Skype for Business Server 会议服务。 通过比较, 会议通常涉及两个以上的用户, 并且需要使用 Skype for Business Server 会议服务。 会议活动在会议摘要报告上进行报告。
   
 对等活动摘要报告帮助您回答诸如下列问题：
   
 - 在特定某一天，我的用户发送了多少对等即时消息？
     
-- 我的任何用户是否确实利用业务服务器应用程序共享和文件传输功能的 Skype？
+- 是否有任何用户真正利用 Skype for Business 服务器应用程序共享和文件传输功能？
     
 - 用户曾报怨在一天的特定时间网络看上去很慢。在此期间对等音频和视频会话占用了多少分钟时间？
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问对等活动摘要报告
 
-可从监视报告主页访问对等活动摘要报告。 您可以通过单击以下指标之一打开[Skype 业务服务器中的对等 IM 报告](im-report.md)：
+可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标,[在 Skype For Business 服务器中打开对等 IM 报告](im-report.md):
   
 - 对等 IM 会话总数
     

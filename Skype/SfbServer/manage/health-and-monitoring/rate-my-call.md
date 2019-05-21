@@ -1,55 +1,55 @@
 ---
-title: 为业务服务器中 Skype 评价我的呼叫
+title: 在 Skype for Business 服务器中评价我的呼叫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 摘要： 了解业务服务器的 Skype 中的速率我的呼叫功能。
-ms.openlocfilehash: 6b704562d3cfe70b00bc36aff46e509529f9beae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中我的通话功能的费率。'
+ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897616"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279856"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>为业务服务器中 Skype 评价我的呼叫
+# <a name="rate-my-call-in-skype-for-business-server"></a>在 Skype for Business 服务器中评价我的呼叫
 
-**摘要：** 了解业务服务器 Skype 中的速率我的呼叫功能。
+**摘要:** 了解有关 Skype for Business 服务器中我的通话功能的费率。
 
-速率我呼叫已 Skype 业务 2015年和 2016年提供一种反馈获得最终用户的企业版的 Windows 上的客户端中的新功能。
+评价我的通话是 Skype for business 2015 和2016客户端的一项新功能, 可为企业提供从最终用户获得反馈的途径。
 
-速率我的呼叫窗口提供"星"评级系统和用于音频和视频呼叫的预定义的令牌。 此外，管理员可以使自定义字段提供反馈。
+"通话费率" 窗口为音频和视频呼叫提供 "star" 分级系统和预定义令牌。 此外, 管理员可以启用自定义域提供反馈。
 
-收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 可通过运行 SQL 查询的 SQL 表中收集数据。
+收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 数据在可通过运行 SQL 查询进行访问的 SQL 表中收集。
 
 ## <a name="rate-my-call-prerequisites"></a>“评价我的呼叫”先决条件
 
-您 Skype 业务服务器部署中的用户可以访问速率我呼叫功能之前，必须部署以下组件组，并将其配置中：
+在 Skype for Business 服务器部署中的用户可以对我的呼叫功能进行评级之前, 必须部署和配置以下组件集:
 
--  您必须具有 Skype 业务服务器安装 （9160 或更高版本）。
+-  必须安装了 Skype for Business 服务器 (版本9160或更高版本)。
 
-- 让您安装，并更新到 for Business 的 Skype 的最新版本，还可以询问他们使用的业务 UI Skype 的用户。
+- 让你的用户安装和更新到最新版本的 Skype for Business, 并让他们使用 Skype for Business UI。
 
-- 用户必须驻留在业务 Server 前端池的 Skype。
+- 用户必须驻留在 Skype for business 服务器前端池。
 
-- 您必须具有业务服务器监控数据库部署和关联到您的业务服务器池的 Skype Skype。
+- 必须已部署 Skype for business 服务器监视数据库并将其与 Skype for business 服务器池相关联。
 
 - 我们建议部署呼叫质量仪表板 (CQD)。
 
 ## <a name="configure-rate-my-call"></a>配置“评价我的呼叫”
 
-使用以下设置的客户端策略中的默认情况下启用速率我的呼叫功能：
+默认情况下, 使用以下设置在客户端策略中启用 "我的通话" 功能的费率:
 
-- 评价我呼叫显示百分比-10%
+- 向我的通话显示百分比打分-10%
 
-- 评价我呼叫允许自定义用户反馈-禁用
+- 对我的呼叫 "允许自定义用户反馈" 进行评分-已禁用
 
-若要启用基本功能，但是需执行任何操作，但如果您希望自定义的反馈，您需要单独启用。 以下 Windows PowerShell cmdlet 启用自定义最终用户反馈和更改的时间间隔为 10%为 80%的示例。
+但是, 若要启用基本功能, 则无需执行任何操作, 但是如果你需要自定义反馈, 你需要单独启用它。 以下 Windows PowerShell cmdlet 是启用自定义最终用户反馈和将间隔从 10% 更改为 80% 的示例。
 
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
@@ -57,11 +57,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
 ## <a name="accessing-rate-my-call-data"></a>访问“评价我的呼叫”数据
 
-来自用户的数据收集监控数据库中的两个表中。
+在监视数据库的两个表中收集来自用户的数据。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表包含的最终用户的令牌轮询结果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-此表包含最终用户的令牌轮询的结果。
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表包含令牌的定义。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表包含标记定义。
 
 令牌定义采用了如下编码：
 
@@ -72,11 +72,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |回声  <br/> |
-|21  <br/> | FrozenVideo <br/> |
+|21日  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |
-|24  <br/> | PoorColor <br/> |
-|25  <br/> | DarkVideo <br/> |
+|全  <br/> | PoorColor <br/> |
+|二十五  <br/> | DarkVideo <br/> |
 |101  <br/> |Audio_SilentLocal  <br/> |
 |102  <br/> |Audio_SilentRemote  <br/> |
 |103  <br/> |Audio_Echo  <br/> |
@@ -106,9 +106,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 如果启用，则此表包含从"Star"投票和客户反馈的投票结果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表包含 "Star" 投票和客户反馈 (如果已启用) 的轮询结果。
 
-可以通过调用表中的数据**选择\*从 [Table.Name]** 查询或使用 Microsoft SQL Server Management Studio。
+可以使用**select \* from [Table.Name]** 查询或使用 Microsoft SQL Server Management Studio 调用表中的数据。
 
 可使用以下 SQL 查询：
 
@@ -188,7 +188,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新令牌定义
 
-业务客户端的最新的 Skype 报告新问题令牌 Id (\> 100) 可能不存在您 [QoeMetrics] 中。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用的最新的令牌定义，更新的数据库表下方 SQL 命令可以运行使用 Microsoft SQL Server Management Studio 的监控数据库。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+最新的 Skype for Business 客户端报告您的 [\> QoeMetrics] 中可能不存在的新问题令牌 id (100)。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的标记定义更新数据库表, 可使用 Microsoft SQL Server Management Studio 在监视数据库上运行以下 SQL 命令。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
 
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];

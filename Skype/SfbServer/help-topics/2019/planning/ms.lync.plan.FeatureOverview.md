@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.FeatureOverview
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype 业务 server 规划工具
-ms.openlocfilehash: 1065b64bb440b93f8b935d7a6422829f5a58f751
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business 服务器计划工具
+ms.openlocfilehash: b43c2ffef0c2e85413cda1720ea62527fece1556
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889379"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288252"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
-Skype 业务 server 规划工具
+Skype for Business 服务器计划工具
   
-您可以使用**中央站点**页上的规划工具设计业务服务器部署 Skype。 可以创建两个集中或分布式部署。 集中的部署只有一个中央站点，哪些用户的组织中的业务用户的所有 Skype 的都这些。 分布式部署有多个中央站点。 如果您的业务 Server 上的多个中央站点部署 Skype，然后将规划工具中输入每个中央站点的用户的数。
+你可以使用规划工具的 "**中心网站**" 页面设计 Skype For business 服务器部署。 可以创建两个集中或分布式部署。 集中部署只有一个中心网站, 该网站将为您的组织中的所有 Skype for business 用户提供。 分布式部署有多个中央站点。 如果你在多个中心网站上部署 Skype for Business 服务器, 你将在计划工具中的每个中心网站上输入用户数。
   
 为了完成中央站点的定义，您首先需要提供以下信息：
   
@@ -33,7 +33,7 @@ Skype 业务 server 规划工具
     
 - **用户数** 输入用户数，包括驻留在中央站点的分支站点用户。
     
-- **云托管用户**输入驻留的用户数到管理中心网站从 Skype 业务联机。
+- **云托管用户**输入从 Skype for Business Online 托管到中心网站的用户数。
     
 ## <a name="ui-elements"></a>UI 元素
 
@@ -45,7 +45,7 @@ Skype 业务 server 规划工具
   
 - **IM 和状态**
     
-    即时消息 (IM) 使用户能够使用基于文本的消息在其计算机上实时相互通信。 支持两方和多方 IM 会话。 状态向用户提供网络上其他人的状态信息。 用户的状态提供信息以帮助其他人确定用户是否联机以及如何以最佳联系该用户。 例如，最好通过电子邮件与正在开会的用户联系。
+    即时消息 (IM) 使用户能够使用基于文本的消息在其计算机上实时相互通信。 支持两方和多方 IM 会话。 状态向用户提供网络上其他人的状态信息。 用户的状态提供信息, 以帮助其他人确定用户是否在线以及如何与用户保持最佳联系。 例如，最好通过电子邮件与正在开会的用户联系。
     
 - **音频和视频会议**
     
@@ -64,7 +64,7 @@ Skype 业务 server 规划工具
     通过持久聊天，多个用户可以参与可在其中发布和访问有关特定主题的内容（包括文本、链接和文件）的对话。尽管在会话过程中用户可以实时通信，但每个会话的内容都是持久存在的，这意味着在会话结束后，内容仍然可用。
 
     > [!NOTE] 
-    > 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[为 Microsoft 团队业务的 Skype 升级](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，请选择要迁移要求向工作组此功能的用户或继续对业务服务器 2015年使用 Skype。
+    > Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。
     
 ### <a name="users"></a>用户
 
@@ -80,18 +80,18 @@ Skype 业务 server 规划工具
     
 - **与基于 XMPP 的服务提供商的联盟**
     
-    Skype 的业务服务器 2015年引入 （部署边缘服务器上） 的完全集成的 XMPP 代理和 XMPP 网关部署在前端服务器上。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许您 Skype 业务 Server 用户将联系人从基于 XMPP 的合作伙伴的即时消息 (IM) 和状态。
+    Skype for Business Server 2015 引入了一个完全集成的 XMPP 代理 (部署在 Edge 服务器上) 和一个部署在前端服务器上的 XMPP 网关。 你可以部署添加和配置 XMPP 代理和 XMPP 网关, 以便你的 Skype for Business 服务器用户能够添加来自基于 XMPP 的合作伙伴的联系人, 以便发送即时消息 (IM) 和状态。
     
 - **移动性**
     
-    在部署 Skype 的业务服务器 Mobility Service 时，用户可以使用支持的 Apple iOS、 Android、 Windows Phone 或 Nokia 移动设备执行如下活动发送和接收即时消息、 查看联系人和查看状态中。
+    部署 Skype for Business Server 移动服务时, 用户可以使用支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备执行诸如发送和接收即时消息、查看联系人和查看状态等活动。
     
 - **W15 Exchange 邮箱**
     
-    Skype 业务服务器，您可以存储在 Exchange 统一消息 (UM); 中的语音邮件然后，这些语音邮件消息将显示为用户的收件箱中的电子邮件。
+    Skype for Business 服务器使你能够将语音邮件存储在 Exchange 统一消息 (UM) 中;这些语音邮件将以电子邮件形式显示在用户的收件箱中。
 
     > [!NOTE]
-    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
+    > Exchange 2019 中不再提供 exchange 统一消息, 但您仍然可以使用 "电话系统" 录制语音邮件, 然后将录制内容保留在用户的 Exchange 邮箱中。 有关详细信息, 请参阅[规划云语音邮件服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="voice"></a>语音
 
@@ -99,14 +99,14 @@ Skype 业务 server 规划工具
   
 - **企业语音**
     
-    企业语音是以的由软件驱动的 VoIP 解决方案。 企业语音，用户可以使用 for Business 的 Skype 发起电话呼叫从其计算机。
+    企业语音是 Microsft 的软件驱动的 VoIP 解决方案。 企业语音使用户可以使用 Skype for Business 在其计算机上进行电话呼叫。
     
 - **Exchange 统一消息**
     
-    Exchange 统一消息 (UM) 合并语音邮件和电子邮件到单个消息传递基础结构。 Skype 的业务服务器 2015年使用 Exchange UM 来提供呼叫应答、 订阅者访问、 呼叫通知和自动助理服务。 如果您使用这些服务，您需要将 Exchange UM 和 Skype 为共享的 Active Directory 拓扑中的业务 Server 相集成。
+    Exchange 统一消息 (UM) 将语音邮件和电子邮件合并到单个消息传递基础结构中。 Skype for Business Server 2015 使用 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果您使用这些服务, 则需要将 Exchange UM 和 Skype for business 服务器集成到共享的 Active Directory 拓扑中。
 
     > [!NOTE]
-    > Exchange 统一消息为以前已知不再可用在 Exchange 2019，但您可以仍使用电话系统中的记录的语音邮件，然后用户的 Exchange 邮箱中保留录制。 有关详细信息，请参阅[规划语音邮件云服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
+    > Exchange 2019 中不再提供 exchange 统一消息, 但您仍然可以使用 "电话系统" 录制语音邮件, 然后将录制内容保留在用户的 Exchange 邮箱中。 有关详细信息, 请参阅[规划云语音邮件服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 
@@ -118,11 +118,11 @@ Skype 业务 server 规划工具
     
 - **灾难恢复**
     
-    灾难恢复度量值将使您到对前端池在两个数据中心中的位置。
+    灾难恢复方法使你能够对位于两个数据中心的前端池进行配对。
     
 - **监视**
     
-    监控功能捕获与通信会话相关的呼叫详细记录。 它还从参与者终结点处的音频和视频会话收集指标。 监控服务器提供了使用统计信息、 趋势和媒体质量统计信息。
+    监控功能捕获与通信会话相关的呼叫详细记录。 它还从参与者终结点处的音频和视频会话收集指标。 监视服务器提供使用率统计信息、趋势和媒体质量统计信息。
     
 - **存档**
     
@@ -130,7 +130,7 @@ Skype 业务 server 规划工具
     
 - **Exchange 存档集成**
     
-    如果您有用户驻留在 Exchange 上且其邮箱已被置于就地保留，您可以选择业务服务器存储与 Exchange 存储的集成 Skype 选项。
+    如果您有托管在 Exchange 上的用户, 并且其邮箱已放在原地保留, 则您可以选择将 Skype for Business 服务器存储与 Exchange 存储集成的选项。
     
 - **IPv4**
     
@@ -142,7 +142,7 @@ Skype 业务 server 规划工具
     
 - **设备更新 Web 服务**
     
-    设备更新 Web 服务提供用于更新的所有设备，如 Skype 的业务的 Windows Phone，组织外部部署自动的方法。
+    设备更新 Web 服务提供了一种自动方法, 用于更新在组织外部部署的所有设备 (如适用于 Windows Phone 的 Skype for business)。
     
 ### <a name="server-applications"></a>服务器应用程序
 
@@ -150,23 +150,23 @@ Skype 业务 server 规划工具
   
 - **响应组**
     
-    响应组应用程序自动回答和分发到可用的帮助台代理的呼叫。
+    "响应组" 应用程序自动应答并将呼叫分发给可用的 "支持人员" 代理。
     
 - **公告**
     
-    如果您计划部署企业语音，您可能希望能够配置已拨的号码是否有效，但不是分配给用户的公共区域电话的处理方式。 管理员可以配置通知服务，以便这些呼叫转接到预定目标 （电话号码或 SIP URI） 或播放音频通知或两者。 使用通知服务可以避免在其中呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。 公告服务功能是一个典型的 PBX 功能。 
+    如果你计划部署企业语音, 你可能希望能够配置在拨出的号码有效但未分配给用户公共区域的情况下如何处理电话呼叫。 管理员可以配置公告服务, 以便这些呼叫转移到预先确定的目标 (电话号码或 SIP URI) 或播放音频公告。 使用公告服务避免了呼叫者 misdials 和听到占线音或 SIP 客户端收到错误消息的情况。 公告服务功能是典型的 PBX 功能。 
     
 - **呼叫寄存**
     
-    呼叫寄存应用程序启用企业语音用户将呼叫置于保留从一个电话，然后从另一个电话接收呼叫，而不必占用接收呼叫的电话上的资源。 用户需要转接呼叫，但特定收件人是未知时，呼叫寄存应用程序很有用。 
+    呼叫驻留应用程序使企业语音用户可以通过一条电话将呼叫置于保持状态, 然后从另一电话接收呼叫, 而不会在接收呼叫的电话上占用资源。 当用户需要转接呼叫, 但特定收件人未知时, 呼叫寄存应用程序很有用。 
     
 - **会议助理**
     
-    会议助理应用程序向如果不使用第三方音频会议提供商的服务的电话用户提供音频会议功能。
+    会议助理应用程序在没有第三方音频会议提供商的服务的情况下向电话用户提供音频会议功能。
     
 - **会议公告**
     
-    会议通知应用程序会生成提示音，当用户进入或被静音或取消静音时向电话用户离开会议以及通知。
+    会议公告应用程序将发出声音, 在用户进入或离开会议时发出声音, 以及在手机用户静音或已取消静音时发出通知。
     
 - **呼叫允许控制**
     
