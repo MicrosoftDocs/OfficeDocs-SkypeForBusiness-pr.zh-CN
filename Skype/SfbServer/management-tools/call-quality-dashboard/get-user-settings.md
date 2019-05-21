@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 摘要： 了解如何获取用户设置操作，它是用户设置服务的一部分。 用户设置服务是呼叫质量仪表板的存储库 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: cef6eef88f4fa7a7410f4967ad698972f98d7c5f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 "获取用户设置" 操作, 该操作是用户设置服务的一部分。 "用户设置" 服务是 "呼叫质量" 仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。'
+ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930586"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274616"
 ---
-# <a name="get-user-settings"></a><span data-ttu-id="be1b1-105">获取用户设置</span><span class="sxs-lookup"><span data-stu-id="be1b1-105">Get User Settings</span></span>
+# <a name="get-user-settings"></a><span data-ttu-id="27540-105">获取用户设置</span><span class="sxs-lookup"><span data-stu-id="27540-105">Get User Settings</span></span>
  
-<span data-ttu-id="be1b1-106">**摘要：** 了解如何获取用户设置操作，它是用户设置服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="be1b1-106">**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="be1b1-107">用户设置服务是呼叫质量仪表板的存储库 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="be1b1-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="be1b1-108">呼叫质量仪表板是用于业务服务器 Skype 的工具。</span><span class="sxs-lookup"><span data-stu-id="be1b1-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="27540-106">**摘要:** 了解 "获取用户设置" 操作, 该操作是 "用户设置" 服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="27540-106">**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service.</span></span> <span data-ttu-id="27540-107">"用户设置" 服务是 "呼叫质量" 仪表板的知识库 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="27540-107">The User Settings Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="27540-108">通话质量仪表板是 Skype for business 服务器的工具。</span><span class="sxs-lookup"><span data-stu-id="27540-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="be1b1-109">获取用户设置操作是用于呼叫的质量仪表板的存储库 API 中的用户设置服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="be1b1-109">The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="27540-109">"获取用户设置" 操作是 "资源库 API for 通话质量" 仪表板中的 "用户设置" 服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="27540-109">The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user-settings"></a><span data-ttu-id="be1b1-110">获取用户设置</span><span class="sxs-lookup"><span data-stu-id="be1b1-110">Get User Settings</span></span>
+## <a name="get-user-settings"></a><span data-ttu-id="27540-110">获取用户设置</span><span class="sxs-lookup"><span data-stu-id="27540-110">Get User Settings</span></span>
 
-<span data-ttu-id="be1b1-111">获取用户设置返回指定用户的设置的列表。</span><span class="sxs-lookup"><span data-stu-id="be1b1-111">Get User Settings returns a list of settings for a specified user.</span></span>
+<span data-ttu-id="27540-111">获取用户设置返回指定用户的设置列表。</span><span class="sxs-lookup"><span data-stu-id="27540-111">Get User Settings returns a list of settings for a specified user.</span></span>
   
 
-|<span data-ttu-id="be1b1-112">**方法**</span><span class="sxs-lookup"><span data-stu-id="be1b1-112">**Method**</span></span>|<span data-ttu-id="be1b1-113">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="be1b1-113">**Request URI**</span></span>|<span data-ttu-id="be1b1-114">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="be1b1-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="27540-112">**种**</span><span class="sxs-lookup"><span data-stu-id="27540-112">**Method**</span></span>|<span data-ttu-id="27540-113">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="27540-113">**Request URI**</span></span>|<span data-ttu-id="27540-114">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="27540-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="be1b1-115">获取</span><span class="sxs-lookup"><span data-stu-id="be1b1-115">GET</span></span>  <br/> |<span data-ttu-id="be1b1-116">https://\<门户\>/QoERepositoryService/存储库/用户 / {userId} / 设置</span><span class="sxs-lookup"><span data-stu-id="be1b1-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting</span></span>  <br/> |<span data-ttu-id="be1b1-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="be1b1-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="27540-115">获取</span><span class="sxs-lookup"><span data-stu-id="27540-115">GET</span></span>  <br/> |<span data-ttu-id="27540-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting</span><span class="sxs-lookup"><span data-stu-id="27540-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting</span></span>  <br/> |<span data-ttu-id="27540-117">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="27540-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="be1b1-118">**URI 参数**</span><span class="sxs-lookup"><span data-stu-id="be1b1-118">**URI Parameters**</span></span>
+ <span data-ttu-id="27540-118">**URI 参数**</span><span class="sxs-lookup"><span data-stu-id="27540-118">**URI Parameters**</span></span>
   
-- <span data-ttu-id="be1b1-119">*有效*的可选。</span><span class="sxs-lookup"><span data-stu-id="be1b1-119">*effective*  - Optional.</span></span> <span data-ttu-id="be1b1-120">仅在使用特殊的用户 ID 默认时，此参数适用。</span><span class="sxs-lookup"><span data-stu-id="be1b1-120">This parameter applies only when the special user ID default is used.</span></span> <span data-ttu-id="be1b1-121">在其他情况下，它将被忽略。</span><span class="sxs-lookup"><span data-stu-id="be1b1-121">In other cases, it will be ignored.</span></span> <span data-ttu-id="be1b1-122">`True`返回有效的用户设置和`false`返回只是用户设置 （默认值）。</span><span class="sxs-lookup"><span data-stu-id="be1b1-122">`True` returns effective user settings and `false` returns just user settings (default).</span></span>
+- <span data-ttu-id="27540-119">*有效*-可选。</span><span class="sxs-lookup"><span data-stu-id="27540-119">*effective*  - Optional.</span></span> <span data-ttu-id="27540-120">仅当使用特殊用户 ID 默认值时, 此参数才适用。</span><span class="sxs-lookup"><span data-stu-id="27540-120">This parameter applies only when the special user ID default is used.</span></span> <span data-ttu-id="27540-121">在其他情况下, 它将被忽略。</span><span class="sxs-lookup"><span data-stu-id="27540-121">In other cases, it will be ignored.</span></span> <span data-ttu-id="27540-122">`True`返回有效的用户设置`false` , 并仅返回用户设置 (默认值)。</span><span class="sxs-lookup"><span data-stu-id="27540-122">`True` returns effective user settings and `false` returns just user settings (default).</span></span>
     
-  <span data-ttu-id="be1b1-123">**请求标头**的任何其他的标头。</span><span class="sxs-lookup"><span data-stu-id="be1b1-123">**Request Headers** - No additional headers.</span></span>
+  <span data-ttu-id="27540-123">**请求标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="27540-123">**Request Headers** - No additional headers.</span></span>
   
-  <span data-ttu-id="be1b1-124">**请求正文**-无。</span><span class="sxs-lookup"><span data-stu-id="be1b1-124">**Request Body** - None.</span></span>
+  <span data-ttu-id="27540-124">**请求正文**-无。</span><span class="sxs-lookup"><span data-stu-id="27540-124">**Request Body** - None.</span></span>
   
-  <span data-ttu-id="be1b1-125">**响应**-响应包括 HTTP 状态代码和一响应标头。</span><span class="sxs-lookup"><span data-stu-id="be1b1-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+  <span data-ttu-id="27540-125">**响应**-响应包括 HTTP 状态代码和一组响应标头。</span><span class="sxs-lookup"><span data-stu-id="27540-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
-  <span data-ttu-id="be1b1-126">**状态代码**-成功的操作返回状态代码 200 （确定)。</span><span class="sxs-lookup"><span data-stu-id="be1b1-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+  <span data-ttu-id="27540-126">**状态代码**-成功的操作返回状态代码 200 (OK)。</span><span class="sxs-lookup"><span data-stu-id="27540-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
-  <span data-ttu-id="be1b1-127">**响应标头**的任何其他的标头。</span><span class="sxs-lookup"><span data-stu-id="be1b1-127">**Response Headers** - No additional headers.</span></span>
+  <span data-ttu-id="27540-127">**响应标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="27540-127">**Response Headers** - No additional headers.</span></span>
   
-  <span data-ttu-id="be1b1-128">**响应正文**-下面是以 json 格式的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="be1b1-128">**Response Body** - Below is a sample response payload in JSON.</span></span>
+  <span data-ttu-id="27540-128">**响应正文**-下面是 JSON 中的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="27540-128">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```
 [{

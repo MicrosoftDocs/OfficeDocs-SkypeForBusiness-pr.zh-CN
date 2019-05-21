@@ -8,51 +8,51 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 不能完全删除全局策略。 使用全局策略上的**删除**选项仅将重置全局策略为默认设置，不包括支持外部用户访问的任何选项。
-ms.openlocfilehash: c2f938219a35de97088c26f81d9d59e46e799ebb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 您不能完全删除全局策略。 使用全局策略中的 "**删除**" 选项仅将全局策略重置为默认设置, 不包括对任何外部用户访问选项的支持。
+ms.openlocfilehash: 339ad22e1d049510416bfc3433c6c8a104455504
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923172"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280143"
 ---
-# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a><span data-ttu-id="fcaf7-104">Skype 中的外部用户访问的全局策略重置为业务服务器</span><span class="sxs-lookup"><span data-stu-id="fcaf7-104">Reset the global policy for external user access in Skype for Business Server</span></span> 
+# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a><span data-ttu-id="5526e-104">在 Skype for Business 服务器中重置外部用户访问的全局策略</span><span class="sxs-lookup"><span data-stu-id="5526e-104">Reset the global policy for external user access in Skype for Business Server</span></span> 
 
-<span data-ttu-id="fcaf7-105">如果您已创建或配置不再想要使用的外部用户访问策略，您可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="fcaf7-105">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="5526e-105">如果您已创建或配置了不希望再使用的外部用户访问策略, 则可以执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="5526e-105">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="fcaf7-106">删除您创建的任何站点或用户策略。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-106">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="5526e-106">删除您创建的任何网站或用户策略。</span><span class="sxs-lookup"><span data-stu-id="5526e-106">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="fcaf7-107">全局策略重置为默认设置。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-107">Reset the global policy to the default settings.</span></span> <span data-ttu-id="fcaf7-108">默认全局策略设置拒绝所有外部用户访问。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-108">The default global policy settings deny any external user access.</span></span> <span data-ttu-id="fcaf7-109">无法删除全局策略。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-109">The global policy cannot be deleted.</span></span>
+  - <span data-ttu-id="5526e-107">将全局策略重置为默认设置。</span><span class="sxs-lookup"><span data-stu-id="5526e-107">Reset the global policy to the default settings.</span></span> <span data-ttu-id="5526e-108">默认全局策略设置拒绝任何外部用户访问。</span><span class="sxs-lookup"><span data-stu-id="5526e-108">The default global policy settings deny any external user access.</span></span> <span data-ttu-id="5526e-109">无法删除全局策略。</span><span class="sxs-lookup"><span data-stu-id="5526e-109">The global policy cannot be deleted.</span></span>
 
-<span data-ttu-id="fcaf7-110">不能完全删除全局策略。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-110">You cannot completely delete a global policy.</span></span> <span data-ttu-id="fcaf7-111">使用全局策略上的**删除**选项仅将重置全局策略为默认设置，不包括支持外部用户访问的任何选项。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-111">Using the **Delete** option on the global policy only resets the global policy to the default settings, which do not include support for any external user access options.</span></span>
+<span data-ttu-id="5526e-110">您不能完全删除全局策略。</span><span class="sxs-lookup"><span data-stu-id="5526e-110">You cannot completely delete a global policy.</span></span> <span data-ttu-id="5526e-111">使用全局策略中的 "**删除**" 选项仅将全局策略重置为默认设置, 不包括对任何外部用户访问选项的支持。</span><span class="sxs-lookup"><span data-stu-id="5526e-111">Using the **Delete** option on the global policy only resets the global policy to the default settings, which do not include support for any external user access options.</span></span>
 
-## <a name="to-reset-the-global-policy-to-the-default-settings"></a><span data-ttu-id="fcaf7-112">若要将全局策略重置为默认设置</span><span class="sxs-lookup"><span data-stu-id="fcaf7-112">To reset the global policy to the default settings</span></span>
+## <a name="to-reset-the-global-policy-to-the-default-settings"></a><span data-ttu-id="5526e-112">将全局策略重置为默认设置</span><span class="sxs-lookup"><span data-stu-id="5526e-112">To reset the global policy to the default settings</span></span>
 
-1.  <span data-ttu-id="fcaf7-113">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="5526e-113">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="5526e-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="fcaf7-114">打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="5526e-114">打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="5526e-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="fcaf7-115">在左侧的导航栏中，单击**外部用户访问**，单击**外部访问策略**。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-115">In the left navigation bar, click **External User Access**, click **External Access Policy**.</span></span>
+3.  <span data-ttu-id="5526e-115">在左侧导航栏中, 单击 "**外部用户访问**", 单击 "**外部访问策略**"。</span><span class="sxs-lookup"><span data-stu-id="5526e-115">In the left navigation bar, click **External User Access**, click **External Access Policy**.</span></span>
 
-4.  <span data-ttu-id="fcaf7-116">在**外部访问策略**选项卡上，单击该全局策略，单击**编辑**，然后单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-116">On the **External Access Policy** tab, click the global policy, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="5526e-116">在 "**外部访问策略**" 选项卡上, 单击 "全局策略", 单击 "**编辑**", 然后单击 "**删除**"。</span><span class="sxs-lookup"><span data-stu-id="5526e-116">On the **External Access Policy** tab, click the global policy, click **Edit**, and then click **Delete**.</span></span>
 
-5.  <span data-ttu-id="fcaf7-117">当提示您确认删除操作，请单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-117">When prompted to confirm the deletion, click **OK**.</span></span> <span data-ttu-id="fcaf7-118">在告知您已被重置全局策略页的顶部显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-118">A message appears at the top of the page informing you that the global policy has been reset.</span></span>
+5.  <span data-ttu-id="5526e-117">当系统提示确认删除时, 单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="5526e-117">When prompted to confirm the deletion, click **OK**.</span></span> <span data-ttu-id="5526e-118">将在页面顶部显示一条消息, 通知您全局策略已重置。</span><span class="sxs-lookup"><span data-stu-id="5526e-118">A message appears at the top of the page informing you that the global policy has been reset.</span></span>
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="fcaf7-119">使用 Windows PowerShell Cmdlet 重全局外部访问策略</span><span class="sxs-lookup"><span data-stu-id="fcaf7-119">Resetting the Global External Access Policy by Using Windows PowerShell Cmdlets</span></span>
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="5526e-119">使用 Windows PowerShell Cmdlet 重置全局外部访问策略</span><span class="sxs-lookup"><span data-stu-id="5526e-119">Resetting the Global External Access Policy by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="fcaf7-120">使用 Windows PowerShell 和 Remove-csexternalaccesspolicy cmdlet，可以重置全局外部访问策略。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-120">The global external access policy can be reset by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="fcaf7-121">从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，则可以运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-121">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell.</span></span> 
+<span data-ttu-id="5526e-120">全局外部访问策略可以通过使用 Windows PowerShell 和 CsExternalAccessPolicy cmdlet 进行重置。</span><span class="sxs-lookup"><span data-stu-id="5526e-120">The global external access policy can be reset by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="5526e-121">此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行, 也可以从远程会话 Windows PowerShell 运行。</span><span class="sxs-lookup"><span data-stu-id="5526e-121">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell.</span></span> 
 
-## <a name="to-reset-the-global-external-access-policy"></a><span data-ttu-id="fcaf7-122">若要重置全局外部访问策略</span><span class="sxs-lookup"><span data-stu-id="fcaf7-122">To reset the global external access policy</span></span>
+## <a name="to-reset-the-global-external-access-policy"></a><span data-ttu-id="5526e-122">重置全局外部访问策略</span><span class="sxs-lookup"><span data-stu-id="5526e-122">To reset the global external access policy</span></span>
 
-  - <span data-ttu-id="fcaf7-123">此命令重置全局外部访问策略：</span><span class="sxs-lookup"><span data-stu-id="fcaf7-123">This command resets the global external access policy:</span></span>
+  - <span data-ttu-id="5526e-123">此命令将重置全局外部访问策略:</span><span class="sxs-lookup"><span data-stu-id="5526e-123">This command resets the global external access policy:</span></span>
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-<span data-ttu-id="fcaf7-124">有关详细信息，请参阅[Remove-csexternalaccesspolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="fcaf7-124">For more information, see the help topic for the [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.</span></span>
+<span data-ttu-id="5526e-124">有关详细信息, 请参阅[CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="5526e-124">For more information, see the help topic for the [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.</span></span>
 
 

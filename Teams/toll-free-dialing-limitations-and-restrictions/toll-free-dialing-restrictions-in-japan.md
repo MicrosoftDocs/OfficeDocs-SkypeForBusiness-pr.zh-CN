@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨号中每个国家/地区免费电话号码。 选择国家/地区后，它会将您导引到特定国家/地区的页面包含特定详细信息、 限制和免费电话服务可用性的限制的免费电话服务位于。 拨号格式将显示您拨免费电话号码每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 71ceb7e8039786a10d0b4dd79867c2a0a87c919b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
+ms.openlocfilehash: 353e033afd012a431187d8ce553e3538b95e8b0b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204300"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281712"
 ---
-# <a name="toll-free-dialing-restrictions-in-japan"></a><span data-ttu-id="32faa-105">日本的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="32faa-105">Toll-free dialing restrictions in Japan</span></span>
+# <a name="toll-free-dialing-restrictions-in-japan"></a><span data-ttu-id="c1ac9-105">日本的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="c1ac9-105">Toll-free dialing restrictions in Japan</span></span>
 
-<span data-ttu-id="32faa-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费电话拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="32faa-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="c1ac9-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="c1ac9-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="32faa-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="32faa-107">**Details**</span></span>|<span data-ttu-id="32faa-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="32faa-108">**Description**</span></span>|
+|<span data-ttu-id="c1ac9-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="c1ac9-107">**Details**</span></span>|<span data-ttu-id="c1ac9-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="c1ac9-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="32faa-109">是免费调用可用？</span><span class="sxs-lookup"><span data-stu-id="32faa-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="32faa-110">是</span><span class="sxs-lookup"><span data-stu-id="32faa-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="32faa-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="32faa-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="32faa-112">00531 XX XXXX</span><span class="sxs-lookup"><span data-stu-id="32faa-112">00531 XX XXXX</span></span>  <br/> |
-|<span data-ttu-id="32faa-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="32faa-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="32faa-114">JP</span><span class="sxs-lookup"><span data-stu-id="32faa-114">JP</span></span>  <br/> |
-|<span data-ttu-id="32faa-115">岛/区域介绍</span><span class="sxs-lookup"><span data-stu-id="32faa-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="32faa-116">不适用</span><span class="sxs-lookup"><span data-stu-id="32faa-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="32faa-117">未涵盖岛/区域</span><span class="sxs-lookup"><span data-stu-id="32faa-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="32faa-118">不适用</span><span class="sxs-lookup"><span data-stu-id="32faa-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="32faa-119">有线固定行可用性</span><span class="sxs-lookup"><span data-stu-id="32faa-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="32faa-120">是</span><span class="sxs-lookup"><span data-stu-id="32faa-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="32faa-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="32faa-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="32faa-122">部分。</span><span class="sxs-lookup"><span data-stu-id="32faa-122">Partial.</span></span> <span data-ttu-id="32faa-123">请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="32faa-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="32faa-124">注释、 限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="32faa-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="32faa-125">Mobile 网络访问： NTT Docomo、 Au (KDD) 和 Softbank。</span><span class="sxs-lookup"><span data-stu-id="32faa-125">Mobile networks access: NTT Docomo, Au (KDD), and Softbank.</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-109">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="c1ac9-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c1ac9-110">是</span><span class="sxs-lookup"><span data-stu-id="c1ac9-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="c1ac9-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="c1ac9-112">00531 XX XXXX</span><span class="sxs-lookup"><span data-stu-id="c1ac9-112">00531 XX XXXX</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="c1ac9-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c1ac9-114">JP</span><span class="sxs-lookup"><span data-stu-id="c1ac9-114">JP</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-115">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="c1ac9-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c1ac9-116">不适用</span><span class="sxs-lookup"><span data-stu-id="c1ac9-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-117">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="c1ac9-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c1ac9-118">不适用</span><span class="sxs-lookup"><span data-stu-id="c1ac9-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="c1ac9-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c1ac9-120">是</span><span class="sxs-lookup"><span data-stu-id="c1ac9-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="c1ac9-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c1ac9-122">部分。</span><span class="sxs-lookup"><span data-stu-id="c1ac9-122">Partial.</span></span> <span data-ttu-id="c1ac9-123">请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="c1ac9-123">See comments.</span></span>  <br/> |
+|<span data-ttu-id="c1ac9-124">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="c1ac9-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c1ac9-125">移动网络访问: NTT Docomo、Au (KDD) 和 Softbank。</span><span class="sxs-lookup"><span data-stu-id="c1ac9-125">Mobile networks access: NTT Docomo, Au (KDD), and Softbank.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="32faa-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="32faa-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c1ac9-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="c1ac9-126">Related topics</span></span>
 
-[<span data-ttu-id="32faa-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="32faa-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="c1ac9-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="c1ac9-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="32faa-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="32faa-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="c1ac9-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="c1ac9-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
