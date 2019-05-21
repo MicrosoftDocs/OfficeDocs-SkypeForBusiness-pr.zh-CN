@@ -4,69 +4,69 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 每个 Survivable Branch Appliance (SBA) 与作为备份注册器 sba 关联的前端池相关联。 Sba 关联时升级池，一旦池已迁移至 Skype 的业务服务器 2019年同时必须从前端池解除关联前端池的业务服务器 2019，SBA 迁移到 Skype，可与已升级的前端 E 重新关联和池。 此步骤需要从拓扑生成器中将旧拓扑删除 sba 关联，然后将 SBA 添加到业务服务器 2019年拓扑的 Skype。 用户驻留在 SBA 必须首先将移动到另一个前端池的拓扑删除 sba 关联之前的传统上。 一旦 SBA 添加到业务服务器 2019年拓扑的 Skype，这些用户可以然后移回 sba。 这些步骤概括如下：
-ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '每个 Survivable 分支装置 (SBA) 都与一个前端池相关联, 该池充当 SBA 的备份注册机构。 当前端池迁移到 Skype for business Server 2019 时, SBA 必须在池升级时与前端池断开关联, 一旦池迁移到 Skype for business Server 2019 后, SBA 可以与升级的前 E 重新关联nd pool。 这包括从拓扑生成器中的旧版拓扑中删除 SBA, 然后将 SBA 添加到 Skype for business Server 2019 拓扑。 在从拓扑结构中删除 SBA 之前, 必须首先将驻留在旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for business Server 2019 拓扑后, 这些用户就可以移回 SBA。 下面总结了这些步骤:'
+ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238652"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275543"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
 
-每个 Survivable Branch Appliance (SBA) 与作为备份注册器 sba 关联的前端池相关联。 时的前端池迁移到 Skype 的业务服务器 2019年，SBA 必须是解除关联的前端池升级池时。 池已迁移至 Skype 的业务服务器 2019年后，SBA 可重新与已升级的前端池相关联。 此步骤需要从拓扑生成器中将旧拓扑删除 sba 关联，然后将 SBA 添加到业务服务器 2019年拓扑的 Skype。 用户驻留在 SBA 必须首先将移动到另一个前端池的拓扑删除 sba 关联之前的传统上。 SBA 添加到业务服务器 2019年拓扑的 Skype 后，这些用户可以移回 sba。 这些步骤概括如下：
+每个 Survivable 分支装置 (SBA) 都与一个前端池相关联, 用作 SBA 的备份注册机构。 当前端池迁移到 Skype for business Server 2019 时, 在升级池时, SBA 必须与前端池断开关联。 将池迁移到 Skype for business Server 2019 后, SBA 可以与已升级的前端池重新关联。 这包括从拓扑生成器中的旧版拓扑中删除 SBA, 然后将 SBA 添加到 Skype for business Server 2019 拓扑。 在从拓扑结构中删除 SBA 之前, 必须首先将驻留在旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for business Server 2019 拓扑后, 这些用户可以移回 SBA。 下面总结了这些步骤:
   
-1. 将分支用户驻留在旧 sba 关联到另一个前端池上移动。
+1. 将驻留在旧式 SBA 上的分支用户移动到另一个前端池。
     
-2. 从要断开作为备份注册器的现有前端池将旧拓扑删除 SBA。
+2. 从旧版拓扑中删除 SBA, 以将现有的前端池与备份注册机构断开连接。
     
-3. 将 SBA 添加到业务服务器 2019年拓扑的 Skype 并作为备份注册器配置此新前端池。 
+3. 将 SBA 添加到 Skype for business Server 2019 拓扑, 并将此新的前端池配置为备份注册机构。 
     
-4. 为业务服务器 2019 SBA 将分支用户移动到新的 Skype。
+4. 将分支用户移动到新的 Skype for Business Server 2019 SBA。
     
-### <a name="add-legacy-sba-branch-site-to-your-topology"></a>将旧 SBA 分支站点添加到您的拓扑
+### <a name="add-legacy-sba-branch-site-to-your-topology"></a>将旧版 SBA 分支站点添加到你的拓扑
 
 1. 打开**拓扑生成器**。
     
-2. 在左窗格中，右键单击**分支站点**，然后单击**新的分支站点**。
+2. 在左窗格中, 右键单击 "**分支网站**", 然后单击 "**新建分支站点**"。
     
-3. 在**定义新的分支站点**对话框中，单击**名称**框中，然后键入分支站点的名称。
+3. 在 "**定义新分支网站**" 对话框中, 单击 "**名称**", 然后键入分支网站的名称。
     
-4. （可选）单击**说明**，然后键入分支站点的有意义的说明。
+4. 可选单击 "**说明**", 然后为分支网站键入有意义的说明。
     
 5. 单击" **下一步**"。
     
-6. （可选）在下的**定义新的分支站点**对话框中，请执行以下任一操作： 
+6. 可选在 "下一步**定义新分支站点**" 对话框中, 执行下列任一操作: 
     
-    1. 单击**市/县**，，然后键入分支站点所在的市/县的名称。
+    1. 单击 "**城市**", 然后键入分支站点所在城市的名称。
     
-    2. 单击**国家/地区**，然后键入状态或分支站点所在的地区的名称。
+    2. 单击 "**状态/区域**", 然后键入分支站点所在的省/市/自治区或地区的名称。
     
-    3. 单击**国家/地区代码**，然后键入分支站点所在的国家/地区的两位数呼叫代码。
+    3. 单击 "**国家/地区代码**", 然后键入分支站点所在的国家/地区的两位数呼叫代码。
     
-7. 单击**下一步**，，然后，如果在该站点上使用 Survivable Branch Appliance or Server，请确保清除**打开新建 Survivable 向导此向导关闭时**复选框。 单击“**完成**”。
+7. 单击 "**下一步**", 然后, 如果在此网站上使用 Survivable 分支设备或服务器, 请确保清除 "**关闭此向导时打开新 Survivable 向导**" 复选框。 单击“**完成**”。
     
-8. 将旧 sba 关联到业务 Server 2019 前端池的 Skype 关联起来：
+8. 要将旧版 SBA 关联到 Skype for business Server 2019 前端池, 请执行以下操作:
     
     1. 展开已创建的分支站点。 
     
-    2. 在旧版本上，右键单击，然后单击**新建**。
+    2. 右键单击旧版版本, 然后单击 "**新建**"。
     
-    3. 单击**Survivable Branch Appliance**。
+    3. 单击 " **Survivable 分支装置**"。
     
-9. 按照在打开的向导中的说明操作。 有关向导项目的信息，请参阅    
+9. 按照向导中打开的说明进行操作。 有关向导项的信息, 请参阅    
    <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
-    > Survivable Branch Appliance 仅可与监控存储相关联。 
+    > Survivable 分支设备只能与监视应用商店相关联。 
   
-10. 如果没有在该站点上使用 Survivable Branch Appliance or Server，清除**打开新建 Survivable 向导此向导关闭时**复选框，然后单击**完成**。
+10. 如果未在此网站使用 Survivable 分支装置或服务器, 请清除 "**关闭此向导时打开新的 Survivable 向导**" 复选框, 然后单击 "**完成**"。
     
-11. 对于要向拓扑中添加每个分支站点重复上述步骤。
+11. 对要添加到拓扑中的每个分支网站重复上述步骤。
     
 

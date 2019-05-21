@@ -1,29 +1,29 @@
 ---
-title: 发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户
+title: 在 Skype for business Server 中向拨入用户发送欢迎电子邮件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 摘要： 了解如何为业务服务器中 Skype 欢迎用户参加电话拨入式会议。
-ms.openlocfilehash: 4cf05349e7539a4bd5d1551a19a59f839feb41f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。'
+ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924911"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280304"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>发送欢迎电子邮件以电话拨入式 Skype 业务服务器中的用户
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>在 Skype for business Server 中向拨入用户发送欢迎电子邮件
  
-**摘要：** 了解如何为业务服务器中 Skype 欢迎用户参加电话拨入式会议。
+**摘要:** 了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。
   
 配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) 并通知用户功能是否可用。 可以包括介绍性说明，如初始 PIN 以及指向“电话拨入式会议设置”网页的链接。 
   
-通常，使用**Set-CsClientPin** cmdlet 可重置 Pin，但您可以使用本主题中的过程，如果您想要发送的 PIN 信息介绍性欢迎电子邮件。 如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
+通常, 你可以使用**CsClientPin** cmdlet 重置 pin, 但如果你想要使用 PIN 信息发送介绍性欢迎电子邮件, 则可以使用本主题中的过程。 如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
   
 可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。默认情况下，该脚本不重置已设置的 PIN，但是可以使用 Force 参数强制重置 PIN。电子邮件使用简单邮件传输协议 (SMTP) 发送。
   
@@ -52,9 +52,9 @@ ms.locfileid: "33924911"
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer**默认情况下，该脚本为此参数使用保留的环境变量 **$PSEmailServer**的值。 如果未设置 **$PSEmailServer**变量，则必须指定此参数。
+**SmtpServer**默认情况下, 脚本对此参数使用 reserved 环境变量的值 **$PSEmailServer** 。 如果未设置 **$PSEmailServer**变量, 则必须指定此参数。
     
-**凭据**默认情况下，脚本将使用当前用户的凭据。 如果当前用户没有权限发送代表指定的电子邮件发件人地址，必须指定此参数。 一般来说，指定此参数，如果您不指定发件人地址作为电子邮件地址。
+**凭据**默认情况下, 脚本使用当前用户的凭据。 如果当前用户没有代表指定的发件人地址发送电子邮件的权限, 则必须指定此参数。 作为一般规则, 如果您不将电子邮件地址指定为 "发件人" 地址, 请指定此参数。
     
 下面的示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。默认主题为“欢迎参加电话拨入式会议”：
   

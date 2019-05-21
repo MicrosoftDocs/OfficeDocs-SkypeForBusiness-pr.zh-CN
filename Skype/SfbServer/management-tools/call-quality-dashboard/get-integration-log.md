@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 摘要： 了解如何获取集成日志操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
-ms.openlocfilehash: 450122266caa21359b424e3abb76a13476f386c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解有关 "获取集成日志" 操作 (这是 "调用质量" 仪表板的数据 API 的一部分) 的信息。 通话质量仪表板是 Skype for business 服务器的工具。'
+ms.openlocfilehash: 58be983ff3b282c94a4b42619a6c37c6270afcb5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926098"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274756"
 ---
 # <a name="get-integration-log"></a>获取集成日志
  
-**摘要：** 了解有关获取集成日志操作，它是用于呼叫的质量仪表板的数据 API 的一部分。 呼叫质量仪表板是用于业务服务器 Skype 的工具。
+**摘要:** 了解 "获取集成日志" 操作, 它是 "呼叫质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
   
-获取集成日志操作是呼叫质量仪表板的数据 API 的一部分
+获取集成日志操作是用于呼叫质量仪表板的数据 API 的一部分
   
 ## <a name="get-integration-log"></a>获取集成日志
 
-获取集成日志操作返回描述 QoE 多维数据集中活动的日志条目的列表处理。
+获取集成日志操作返回日志条目的列表, 这些日志条目描述 QoE 多维数据集处理中的活动。
   
-默认情况下，为了安全起见，此操作被禁用。 禁用时，它将返回空字符串。 若要启用此操作，管理员需要配置数据 API 主机 web 应用程序的 web.config。
+出于安全原因, 默认情况下禁用此操作。 禁用时, 它将返回一个空字符串。 若要启用此操作, 管理员需要为数据 API 的主机 web 应用程序配置 web.config。
   
 
-|方法|**请求 URI**|**HTTP 版本**|
+|种|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<门户\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|获取  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1。1  <br/> |
    
  **URI 参数**-无。
   
- **请求标头**的任何其他的标头。
+ **请求标题**-无其他标题。
   
  **请求正文**-无。
   
- **响应**-响应包括 HTTP 状态代码和一响应标头。
+ **响应**-响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码 200 （确定)。
+ **状态代码**-成功的操作返回状态代码 200 (OK)。
   
- **响应标头**的任何其他的标头。
+ **响应标题**-无其他标题。
   
- **响应正文**-下面是示例结构的日志条目。
+ **响应正文**-下面是日志条目的示例结构。
   
 ```
 [

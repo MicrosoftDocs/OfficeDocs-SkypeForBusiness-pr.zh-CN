@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于克罗地亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 93005cc68bbd7f668b344dbf968c3ce42a67e114
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下是适用于克罗地亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: bc66aad83168c32cb336fb8fce6ec51b1f89ca3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541205"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283095"
 ---
 # <a name="availability-in-croatia"></a>在克罗地亚的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于克罗地亚业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于克罗地亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 萨格勒布</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> Zagreb</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -67,7 +67,7 @@ ms.locfileid: "30541205"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>奥西耶克 <li>  里耶卡 <li>  斯普利特 <li>  扎达尔 <li>  萨格勒布 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>Osijek <li>  Rijeka <li>  分隔 <li>  Zadar <li>  Zagreb </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

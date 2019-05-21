@@ -1,25 +1,25 @@
 ---
-title: 服务器媒体质量趋势报告中 Skype 业务服务器
+title: Skype for Business Server 中的服务器媒体质量趋势报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 摘要： 了解服务器媒体质量趋势报告中 Skype 业务服务器。
-ms.openlocfilehash: 0b488f9014fd6526599beed562425677f097c4b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的服务器媒体质量趋势报表。'
+ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897728"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279828"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>服务器媒体质量趋势报告中 Skype 业务服务器
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Skype for Business Server 中的服务器媒体质量趋势报表
  
-**摘要：** 了解服务器媒体质量趋势报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的服务器媒体质量趋势报表。
   
 利用服务器媒体质量趋势报告的方式，你可以图形方式比较多达 5 台服务器的用户体验质量指标（如呼叫量、质量欠佳的呼叫百分比、数据包丢失和抖动）。这使得执行标识性能不佳的服务器、未充分利用的服务器或使用过度的服务器之类的操作变得更简单。
   
@@ -27,15 +27,15 @@ ms.locfileid: "33897728"
 
 服务器媒体质量趋势报告可从下列任一报告进行访问：
   
-- [Skype 业务服务器中的服务器性能报告](server-performance.md)（通过单击趋势指标）
+- [Skype For Business 服务器中的服务器性能报告](server-performance.md)(通过单击趋势指标)
     
-- [呼叫详情报告中的业务服务器 Skype](call-detail-report.md)(通过单击 A / V 边缘服务器跃点数。 如果呼叫者或被叫方的服务器，也可以找到服务器质量媒体趋势报告通过单击终结点名称。）
+- [Skype For Business 服务器中的呼叫详细报告](call-detail-report.md)(通过单击 A/V 边缘服务器指标。 如果呼叫者或被叫方是服务器, 您也可以通过单击终结点名称来到达 "服务器质量" 媒体趋势报告。
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>充分利用服务器媒体质量趋势报告
 
-当您单击[服务器性能报告中的业务服务器 Skype](server-performance.md)特定服务器上的趋势指标时，将打开服务器媒体质量趋势报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
+单击特定服务器的 " [Skype For Business 服务器" 中的 "服务器性能报告](server-performance.md)" 上的 "趋势指标" 时, 将会打开 "服务器媒体质量" 趋势报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
   
-服务器媒体质量趋势报告显示关系图上, 数据点标记呼叫量和质量欠佳的呼叫百分比是热点链接;单击图表上的某个点将打开[Skype 业务服务器中呼叫列表报告](call-list-report-0.md)显示指定的时间段的总呼叫 （或质量欠佳的呼叫） 的实例。
+在 "服务器媒体质量趋势" 报表显示的图形上, 标记为 "呼叫音量" 和 "差通话百分比" 的点为 hotlinks。单击图表上的某个点将[在 "Skype For business" 服务器中打开 "呼叫列表" 报表](call-list-report-0.md)的一个实例, 显示指定时间段内的总通话 (或较差的通话)。
   
 ## <a name="filters"></a>筛选器
 
@@ -63,7 +63,7 @@ ms.locfileid: "33897728"
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**呼叫量** <br/> |否  <br/> |呼叫总数。  <br/> |
-|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的 MOS（平均意见得分）的平均值。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 Skype 业务服务器使用一算法来预测如何将具有用户分级呼叫。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的 MOS（平均意见得分）的平均值。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 Skype for business 服务器使用一组算法来预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**质量欠佳的呼叫百分比** <br/> |否  <br/> |归类为质量欠佳的呼叫的总数。质量欠佳的呼叫是指至少一项测量指标超过允许的值的任何呼叫（例如，信号极不稳定的呼叫）。  <br/> |
 |**来回行程（毫秒）** <br/> |否  <br/> |实时传输协议数据包来往于一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
 |**数据包丢失** <br/> |否  <br/> |平均实时传输协议 (RTP) 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时，即发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的。数据包丢失通常导致音频失真或丢失。  <br/> |

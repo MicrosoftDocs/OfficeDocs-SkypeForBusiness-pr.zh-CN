@@ -1,44 +1,44 @@
 ---
-title: 查看中 Skype 业务服务器的中继配置信息
+title: 在 Skype for Business 服务器中查看中继配置信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。
-ms.openlocfilehash: dab6a53d76bdc33ddd39117afd7f8b32a1c9c170
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。
+ms.openlocfilehash: dd8bd94bb8831fc3e406bed46015b2d955a2359c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926084"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274868"
 ---
-# <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>查看中 Skype 业务服务器的中继配置信息
+# <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在 Skype for Business 服务器中查看中继配置信息
 
-SIP 中继配置设置定义的关系和中介服务器和公用电话交换网 (pstn) 网关、 IP 公用交换机 (PBX) 或服务提供商会话边界控制器 (SBC) 之间的功能。
+SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。
 
 - 是否在中继上启用媒体旁路功能。
-- 在其下发送实时传输控制协议 (RTCP) 数据包的条件。
-- 是否每个中继上是否需要安全实时协议 (SRTP) 加密。
+- 发送实时传输控制协议 (RTCP) 数据包的条件。
+- 每个主干上是否需要安全的实时协议 (SRTP) 加密。
 
-在安装 Skype 业务服务器时，会为您创建 SIP 中继配置设置的全局集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Skype for Business 服务器时, 将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
 
-**使用 Skype 业务 Server 控制面板查看 SIP 中继配置信息**
+**使用 "Skype for Business 服务器" 控制面板查看 SIP 中继配置信息**
 
-1. 在业务 Server 控制面板的 Skype，单击**语音路由**，，然后单击**Trunk 配置**。
-2. 在**Trunk 配置**选项卡中，您将看到所有中继配置设置集合; 的列表对于每个集合，您将看到**名称**、**范围**、**状态**和**媒体绕过**属性值，以及**PSTN 用法**、**呼叫号码规则**，和**调用号码规则**关联的数目使用集合。 要查看有关的中继配置设置集合的其他详细信息，请单击感兴趣的集合，单击**编辑**，然后单击**显示详细信息**。 请注意，您可以查看一个集合的中继配置设置一次仅的详细的信息。
+1. 在 "Skype for Business 服务器" 控制面板中, 单击 "**语音路由**", 然后单击 "**中继配置**"。
+2. 在 "**中继配置**" 选项卡上, 你将看到所有中继配置设置集合的列表;对于每个集合, 你将看到 "**名称**"、"**作用域**"、"**状态**" 和 "**媒体绕过**" 属性的值, 以及**PSTN 使用**次数、**呼叫号码规则**和已**命名的号码规则**关联与集合一起提供。 若要查看有关主干配置设置集合的其他详细信息, 请单击感兴趣的集合, 单击 "**编辑**", 然后单击 "**显示详细信息**"。 请注意, 每次只能查看一个主干配置设置集合的详细信息。
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>通过使用 Windows PowerShell cmdlet 查看 SIP 中继配置信息
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看 SIP 中继配置信息
 
-SIP 中继配置设置可以查看使用的业务 Server PowerShell 和 Get-cstrunkconfiguration cmdlet Skype。 从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，则可以运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅 Lync Server Windows PowerShell 博客文章"快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell" http://go.microsoft.com/fwlink/p/?linkId=255876。 替换或删除此链接。
+可以使用 Skype for Business Server PowerShell 和 New-cstrunkconfiguration cmdlet 查看 SIP 中继配置设置。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行, 也可以从远程会话 Windows PowerShell 运行。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" http://go.microsoft.com/fwlink/p/?linkId=255876。 替换或删除此链接。
 
 
-**若要查看 SIP 中继配置信息**
+**查看 SIP 中继配置信息**
 
-若要查看有关所有 SIP 中继配置设置的信息，业务 Server Management Shell，Skype 中键入以下命令，然后按 ENTER:
+若要查看有关所有 SIP 中继配置设置的信息, 请在 Skype for Business Server 命令行管理程序中键入以下命令, 然后按 ENTER:
 
 `Get-CsTrunkConfiguration`
 
@@ -70,7 +70,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-有关详细信息，请参阅[Get-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
+有关详细信息, 请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
 
 
 

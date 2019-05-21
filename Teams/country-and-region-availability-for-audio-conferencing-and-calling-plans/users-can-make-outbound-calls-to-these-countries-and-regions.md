@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 本主题包含所有用户可以发起出站调用，如果拥有调用规划国家/地区。
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 本主题包含所有国家/地区, 用户可以将出站呼叫放入这些国家/地区 (如果他们有通话计划)。
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200248"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281898"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家和地区进行出站呼叫
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>请参阅国家/地区内用户可以发起出站呼叫到，如果用户具有国内和国际呼叫规划许可证
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>查看如果用户拥有国内和国际呼叫计划许可证, 用户可以向其拨出电话的国家/地区
 
-|**A-D**| **E-H**|**我-L**|**M-O**|**P-S**|**T-Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |阿富汗|厄瓜多尔 |冰岛 |澳门特别行政区 |巴基斯坦 |中国台湾   |
 |阿尔巴尼亚|埃及 |印度 |马其顿 |帕劳 |塔吉克斯坦   |
@@ -65,7 +65,7 @@ ms.locfileid: "32200248"
 |波斯尼亚和黑塞哥维那 |海地 ||新西兰 |南非 | 
 |博茨瓦纳 |洪都拉斯 ||尼加拉瓜 |南苏丹 |
 |巴西 |香港特别行政区 ||尼日尔 |西班牙 | 
-|Bunei 达鲁萨兰 |匈牙利 ||尼日利亚 |斯里兰卡 | 
+|Bunei 达鲁萨兰国 |匈牙利 ||尼日利亚 |斯里兰卡 | 
 |保加利亚 |||北马里亚纳群岛 |圣皮埃尔和密克隆群岛 |
 |布基纳法索 |||挪威 |苏丹 |
 |柬埔寨 |||阿曼 |苏里南 | 

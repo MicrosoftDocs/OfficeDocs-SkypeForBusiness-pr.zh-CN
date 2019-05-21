@@ -1,51 +1,51 @@
 ---
-title: 为 Microsoft 团队房间管理 Windows 更新
+title: 管理 Microsoft 团队聊天室的 Windows 更新
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 10/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
-description: 为 Microsoft 团队房间管理 Windows 更新
-ms.openlocfilehash: d9374fc00dcb5a19d2c15c91da18ce6c7d353033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 管理 Microsoft 团队聊天室的 Windows 更新
+ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910303"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279261"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
-Microsoft 团队聊天室 Windows 10 企业 IoT 或 Windows 10 企业 (VL) 上运行并接收作为标准桌面相同的 Windows 更新和操作系统版本。
+Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版 (VL) 上运行, 并作为标准桌面接收相同的 Windows 更新和 OS 版本。
 
-Windows 更新可以管理几个不同的方式：
+可通过几种不同的方式管理 Windows 更新:
 
-## <a name="hands-off-approach"></a>干预方法 
-- 可以自动下载直接从 Windows 更新和非工作时间安装更新。 如果不做任何更改到配置这是默认状态。
-- 非可延迟更新将自动安装版本的-一天。 
-- 质量更新和驱动程序将自动下载和安装第一天。 
-- 功能更新。 请参阅以下其他注意事项。 
+## <a name="hands-off-approach"></a>免提做法 
+- 更新可以直接从 Windows 更新下载并在下班期间安装。 如果未对配置进行任何更改, 则这是默认状态。
+- 不可推迟的更新将会自动安装1天内的版本。 
+- 质量更新和驱动程序将自动下载并安装第一天。 
+- 功能更新。 请参阅下面的其他说明。 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)（GPO 或 Intune）   
-- 从 WU 或您 WSUS 但以前 KB 的原始发行版的日期配置延迟下载更新。 
-- 结合多个 OU 或筛选策略，这将允许创建的部署"拨打"，其中管理员可以指定哪些设备先安装高质量的更新和其与将安装更高版本。 这样，以实现可靠性和性能测试跨整个部署无需开销的管理 SCCM 中的 Windows 更新，例如推出更新之前系统的子集。
-- WSUS 和 for Business Windows 更新，可以[同时配置](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)根据需要带宽管理和控制业务的 Windows Update 提供。
-- 功能更新。 请参阅以下其他注意事项。
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[适用于企业的 Windows 更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)(GPO 或 Intune)   
+- 从 WU 或你的 WSUS 下载更新, 但已配置的延迟超过 KB 的原始发布日期。 
+- 与多个 OU 或筛选的策略相结合, 这允许创建部署 "震铃", 管理员可在其中指定首先安装质量更新的设备, 以及哪些设备将在以后安装。 这样, 在通过整个部署 (例如在 SCCM 中管理 Windows 更新的开销) 在整个部署中滚动更新之前, 可以对系统的子集进行可靠性和性能测试。
+- 如果你希望带宽管理和适用于企业的 Windows 更新的控件提供, 则可以[同时配置](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)WSUS 和 windows 更新 for business。
+- 功能更新。 请参阅下面的其他说明。
 
 ## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
-- 就像 Windows Update for Business，但是有面向特定 KB 的每个"拨打"或整个部署中的其他选项。 每个更新可以分别部署和测试在将，而不是信赖上仅延迟。 
-- 功能更新。 请参阅以下其他注意事项。
+- 与面向企业的 Windows 更新非常相似, 但具有针对每个 "铃声" 或整个部署中特定的 KB 的附加选项。 每个更新都可以单独部署和测试, 而不只是依赖于延迟。 
+- 功能更新。 请参阅下面的其他说明。
 
 
 ### <a name="feature-updates"></a>功能更新
 
-质量和非 Deferable 与更新不同，Windows 10 Microsoft 测试并验证给定的更新功能与 Microsoft 团队聊天室后，将仅安装"功能更新"（主要操作系统版本）。 即使它是释放到半年通道 （或目标如果必须设置为测试该频道的系统），或者甚至手动推送尝试或配置，它将不允许安装，直到删除的阻止，我们结束。
+与 Quality 和非 Deferable 更新不同, Windows 10 "功能更新" (主要 OS 版本) 将仅在 Microsoft 团队聊天室测试和验证给定更新功能之后安装。 即使已将其发布到半年频道 (或目标系统将系统设置为用于测试的系统), 或者甚至手动按您自己的尝试或配置手动推送, 它也不会允许安装, 直到删除端点上的块。
 
-使用手中的关闭方法中，Microsoft 团队会议室"out box"不将安装 Windows Update 或由于 Windows Update 的自动重新启动设备。 但是，系统可能下载更新，等待下一步的重新启动以安装它。 除非某人重新启动它手动安装何时发生在夜间自动重新启动。 Windows 更新在聊天室中应为透明，UI 应永远不会在 Windows 更新被打断。
+Microsoft 团队聊天室 "开箱", 使用 "退出" 方法, 将不会因 Windows 更新而自动安装 Windows 更新或重启设备。 但是, 系统可能会下载更新并等待下一次重新启动进行安装。 除非有人手动重新启动, 否则在每次自动重新启动时, 安装应会发生。 在聊天室中, windows 更新应该是透明的, UI 永远不会被 Windows 更新中断。
 
-如果您选择加入域，使用 SCCM 或 WSUS，并请特别注意策略或可能会导致设备安装更新或强制重新启动工作时间内的操作。 如果您有系统使用过程中重新启动或通过 UI 警报 Windows 更新有关在部署中，要查看您的配置。
+如果你选择加入域, 请使用 SCCM 或 WSUS, 并特别注意可能会导致设备安装更新或在工作时间强制重启的策略或操作。 如果你的部署在使用期间重启系统或通过 UI 发出有关 Windows 更新的警报, 你将希望查看你的配置。

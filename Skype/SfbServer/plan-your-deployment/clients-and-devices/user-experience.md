@@ -1,11 +1,11 @@
 ---
-title: 规划业务 2015年为您的用户的客户端体验的 Skype
+title: 为你的用户规划 Skype for Business 2015 客户端体验
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 摘要： 了解新的业务的 Skype 和可采取的步骤进行更新，准备您的环境和您的用户是否使用 Skype 业务 Online、 业务服务器 2019年的 Skype 业务服务器 2015，Lync Server 2013 的 Skype 或Lync Server 2010。
-ms.openlocfilehash: 9b6f7bbe5fdeecc8a017b973e7b77912819da789
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解新的 Skype for Business 和你可以采取哪些步骤来准备你的环境和用户进行更新, 无论你使用的是 Skype for Business Online、Skype for business Server 2019、Skype for business Server 2015、Lync Server 2013 还是Lync Server 2010。'
+ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886471"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277291"
 ---
-# <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>规划业务 2015年为您的用户的客户端体验的 Skype
+# <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>为你的用户规划 Skype for Business 2015 客户端体验
  
-**摘要：** 了解业务和可采取的步骤进行更新，准备您的环境和您的用户是否正在业务服务器 2015年、 Lync Server 2013 或 Lync Server 中使用业务 online Skype、 业务服务器 2019年的 Skype Skype 新 Skype2010。
+**摘要:** 了解新的 Skype for Business 和你可以采取哪些步骤来准备你的环境和用户进行更新, 无论你使用的是 Skype for Business Online、Skype for business Server 2019、Skype for Business Server 2015、Lync Server 2013 还是 Lync Server2010。
   
-年 4 月 14，2015年的 Lync 2013 的 Office 更新包含业务用户界面的新 Skype。 此更新使管理员可以控制客户端的外观，并选择是否保留 Lync 2013 客户端体验或改进的 Skype 用于业务客户端体验。 业务客户端 Skype 有效地替换 Lync 2013 客户端，并添加管理员可以选择现有的 Lync 客户端体验和业务客户端体验的新 Skype 之间的功能。 有关此更新的信息，请参阅[Lync 2013 (for Business 的 Skype) 的更新 2015 年 4 月 14 日 (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/)。
+Lync 2013 的2015年4月14日的 Office 更新包括新的 Skype for Business 用户界面。 此更新使管理员能够控制客户端的外观, 并选择是保留 Lync 2013 客户端体验还是使用改进的 Skype for business 客户端体验。 Skype for Business 客户端有效地替换了 Lync 2013 客户端, 并添加了管理员在现有 Lync 客户体验和新的 Skype for Business 客户体验之间进行选择的能力。 有关此更新的信息, 请参阅[Lync 2013 的2015更新 (Skype for business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/)。
   
-2015 年 5 月 12 日上将会从 Office 包含业务客户端的更新的 Skype 的另一个每月更新。 未应用更新将拿年 5 月 12 年 4 月的许多客户的 Office 2013 更新。 本主题中的信息将帮助您为组织、环境和用户做好客户端更新准备。 为了便于用户和支持团队轻松完成过渡，请使用本主题中的信息帮助您确定要为用户选择哪种客户端体验，然后在将客户端更新部署到组织之前，先改变环境。
+2015年5月12日将有来自 Office 的其他每月更新, 包括更新的 Skype for business 客户端。 许多未应用四月更新的客户将获取 Office 2013 的5月更新更新。 本主题中的信息将帮助您为组织、环境和用户做好客户端更新准备。 为了便于用户和支持团队轻松完成过渡，请使用本主题中的信息帮助您确定要为用户选择哪种客户端体验，然后在将客户端更新部署到组织之前，先改变环境。
   
 - [What client experience do you want for your users?](user-experience.md#clientexperience)
     
@@ -37,50 +37,50 @@ ms.locfileid: "33886471"
 - [Resources to help you prepare your support teams and your end users for the update](user-experience.md#support)
     
 > [!NOTE]
-> Lync 2013 客户端体验不是业务 2016年客户端版本的 Skype 选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
+> Lync 2013 客户端体验不是 Skype for business 2016 客户端版本的选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>您要为用户选择哪种客户端体验？
 <a name="clientexperience"> </a>
 
-使用业务客户端的新 Skype，您可以控制 Lync 或 Skype for Business 的客户端体验获取您的用户，请。 默认客户端体验取决于您使用 Lync 还是 Skype 业务本地或联机。 如果您使用 Skype 业务联机 (Lync Online) 立即与 Office 365 ProPlus、 Office 365 企业高级版或 Office 2013，业务客户端的更新的 Skype 体验 — 通过外观 Skype 灵感 — 将默认用户体验。 如果您要使用的部署 Lync Server，Lync 客户端体验将默认值。
+使用新的 Skype for Business 客户端, 你可以控制用户获取哪些客户端体验 (Lync 或 Skype for business)。 默认的客户端体验取决于你使用的是 Lync 还是本地或联机的 Skype for business。 如果您目前使用的是 Skype for Business Online (Lync Online) 和 Office 365 专业增强版、Office 365 商业高级版或 Office 2013, 更新的 Skype for business 客户体验 (受 Skype 的外观的创意) 将是默认的用户体验。 如果现在使用的是 Lync Server 本地版, 则 Lync 客户端体验将是默认设置。
   
-可以使用客户端策略来配置用户得到哪种客户端体验。 客户端策略是一组时他们登录到 Lync 或 for Business 的 Skype 应用到用户的配置设置。
+可以使用客户端策略来配置用户得到哪种客户端体验。 客户端策略是一组配置设置, 当用户登录到 Lync 或 Skype for Business 时应用这些设置。
   
 ### <a name="skype-for-business-client-experience"></a>Skype for Business 客户端体验
 
-Lync 的所有功能，除了 for Business 的 Skype 提供 Skype 简化的控件与熟悉的图标的新功能。 Skype for Business 中的某些新功能可仅与商业客户端体验的新 Skype。 若要了解有关 Skype for Business 中的新功能的详细信息，请参阅[发现 for Business 的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=528686)。
+除了 Lync 的所有功能之外, Skype for business 还通过来自 Skype 的简化控件和熟悉的图标提供了新功能。 Skype for Business 中的一些新功能仅适用于全新的 Skype for business 客户端体验。 若要了解有关 Skype for Business 中的新功能的详细信息, 请参阅[发现 skype](https://go.microsoft.com/fwlink/p/?LinkId=528686)for business。
   
 ### <a name="lync-client-experience"></a>Lync 客户端体验
 
-Lync 客户端体验非常类似于 Lync 2013 客户端体验的用户已熟悉，但有一些您需要让您了解的用户的更改。 若要查看 Lync 客户端体验和 Lync 2013 客户端之间的不同，请参阅[在我使用 Lync 为什么看 Skype for Business？](https://go.microsoft.com/fwlink/p/?LinkId=544712)和本主题后面的其他链接。
+Lync 客户端体验与你的用户已熟悉的 Lync 2013 客户端体验非常相似, 但你可能希望让你的用户了解一些更改。 若要查看 Lync 客户端体验与 Lync 2013 客户端之间的区别, 请参阅为什么我在[使用 Lync 时看到 Skype for business？](https://go.microsoft.com/fwlink/p/?LinkId=544712)以及本主题后面的其他链接。
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>为使用 Skype for Business 客户端准备环境
 <a name="usinglync"> </a>
 
-为了让环境做好客户端更新准备，有几项工作要做。 在开始进行配置的客户端体验的任何更改之前，首先需要确保您使用进行业务服务器或 Lync Server 支持的客户端策略设置的 Skype 的版本。
+为了让环境做好客户端更新准备，有几项工作要做。 在开始进行任何配置以配置客户端体验之前, 首先需要确保你使用的是支持客户端策略设置的 Skype for Business Server 或 Lync Server 版本。
   
-一旦您已确认正在使用业务服务器或 Lync Server 的支持策略设置控制客户端体验 Skype 的版本，您需要在您的环境中配置的策略设置。 您需要遵循的具体步骤依赖于业务服务器或使用的 Lync Server Skype 的版本和您的用户是否在本地或联机。 
+一旦你确认你使用的是支持策略设置控制客户体验的 Skype for Business Server 或 Lync Server 版本, 你将需要在你的环境中配置策略设置。 你需要遵循的具体步骤取决于你正在使用的 Skype for business 服务器或 Lync Server 的版本, 以及你的用户是否在本地或联机。 
   
-您需要进行这些更改之前客户端更新传递到您的用户，以便您可以控制从首次启动业务客户端 Skype 的客户端体验。 下表将指向您需要配置您的环境的用户所需的客户端体验采取的步骤。
+在客户端更新被发送到您的用户之前, 您需要进行这些更改, 以便您可以在用户第一次启动 Skype for Business 客户端时控制客户体验。 下表指出了为用户所需的客户端体验配置环境时需要执行的步骤。
   
 |**Deployment**|**Skype for Business 客户端体验**|**Lync 客户端体验**|
 |:-----|:-----|:-----|
 |Skype for Business Online  <br/> |除了部署客户端内部版本 4711.1002（2015 年 4 月）或更高版本之外，没有其他步骤。  <br/> |[在 Skype for Business Online 中使用 Lync 客户端体验](user-experience.md#LyncwithSfBO) <br/> |
 |Skype for Business Server 2015  <br/> |除了部署客户端内部版本 4711.1002（2015 年 4 月）或更高版本之外，没有其他步骤。  <br/> |[在 Skype for Business Server（本地部署）中使用 Lync 客户端体验](user-experience.md#LyncwithSfBServer) <br/> |
-|Lync Server 2013 和 Lync Server 2010  <br/> |[使用 Lync Server 2013 的 Skype 客户端体验或 Lync Server 2010 部署](user-experience.md#SkypewithLynconprem) <br/> |[使用 Lync Server 2013 或 Lync Server 2010 内部部署 Lync 客户端体验](user-experience.md#LyncwithLynconprem) <br/> |
+|Lync Server 2013 和 Lync Server 2010  <br/> |[在本地使用 Lync Server 2013 或 Lync Server 2010 的 Skype 客户端体验](user-experience.md#SkypewithLynconprem) <br/> |[在本地使用 lync Server 2013 或 Lync Server 2010 的 Lync 客户端体验](user-experience.md#LyncwithLynconprem) <br/> |
    
-## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>使用 Lync Server 2013 的 Skype 客户端体验或 Lync Server 2010 部署
+## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>在本地使用 Lync Server 2013 或 Lync Server 2010 的 Skype 客户端体验
 <a name="SkypewithLynconprem"> </a>
 
 如果要在本地部署中配置 Skype 客户端体验，请遵循本节中的步骤。本地部署的默认体验
   
- **步骤 1:** 首先，确保您正在运行某个版本的 Lync Server 支持的客户端策略设置。
+ **步骤 1:** 首先, 请确保你运行的是支持客户端策略设置的 Lync Server 版本。
   
-- **Lync Server 2013** -您必须运行年 12 月 2014年累积更新 (5.0.8308.857) Lync Server 2013 或更高版本的更新。 有关信息，请参阅[Lync Server 2013 的更新](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
+- **Lync server 2013** -必须运行 Lync Server 2013 或更高版本更新的12月2014累积更新 (5.0.8308.857)。 有关信息, 请参阅[Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
     
-- **Lync Server 2010** -您必须运行年 2 月 2015年累积更新 (4.0.7577.710) Lync Server 2010 或更高版本的更新。 有关信息，请参阅[Lync Server 2010 的更新](https://go.microsoft.com/fwlink/p/?LinkId=532771)。
+- **Lync server 2010** -必须运行 Lync Server 2010 或更高版本更新的2月2015累积更新 (4.0.7577.710)。 有关信息, 请参阅[Lync Server 2010 更新](https://go.microsoft.com/fwlink/p/?LinkId=532771)。
     
-  **步骤 2:** 接下来，使用客户端策略设置与业务客户端 Skype 的 Skype 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
+  **步骤 2:** 接下来, 使用客户端策略设置 Skype for business 客户端的 Skype 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
   
   **选项 1：** 使用全局策略来设置 Skype 客户端体验。请注意，全局策略适用于部署环境中的所有用户，但是用户级和站点级策略优先于全局策略：
   
@@ -106,27 +106,27 @@ New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
- **步骤 3:** 您已配置您的客户端策略后，部署业务客户端，生成 4711.1002 (年 4 月，2015) Skype 或更高版本。
+ **步骤 3:** 配置客户端策略后, 部署 Skype for Business 客户端、内部版本 4711.1002 (四月、2015) 或更高版本。
   
-## <a name="use-the-lync-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>使用 Lync Server 2013 或 Lync Server 2010 内部部署 Lync 客户端体验
+## <a name="use-the-lync-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>在本地使用 lync Server 2013 或 Lync Server 2010 的 Lync 客户端体验
 <a name="LyncwithLynconprem"> </a>
 
-业务客户端 Skype 部署在内部部署 Lync Server 部署中时，这是默认体验。 您无需配置任何客户端策略来使用 Lync 客户端体验，但是您可能想控制客户端的首次运行行为。 默认情况下，用户首次启动业务客户端 Skype、 使用 Skype 客户端体验和请求他们重新启动客户端获取 Lync 客户端体验的用户显示一个通知。 可以修改客户端计算机上的系统注册表，将环境配置为，在用户首次启动客户端时，显示 Lync 客户端体验，并且关闭客户端教程。 有关的步骤，您需要执行部署业务客户端，请参阅以下主题之一 Skype 之前：
+这是在本地 Lync Server 部署中部署 Skype for Business 客户端时的默认体验。 您无需配置任何客户端策略来使用 Lync 客户端体验，但是您可能想控制客户端的首次运行行为。 默认情况下, 用户第一次启动 Skype for Business 客户端时, 将使用 Skype 客户体验, 并向用户显示通知, 请求用户重新启动客户端以获取 Lync 客户端体验。 可以修改客户端计算机上的系统注册表，将环境配置为，在用户首次启动客户端时，显示 Lync 客户端体验，并且关闭客户端教程。 有关在部署 Skype for Business 客户端之前需要执行的步骤, 请参阅以下主题之一:
   
-- **Lync Server 2013**，请参阅[的 Configure 与 Skype 的 Lync Server 2013 中的业务的客户端体验](https://go.microsoft.com/fwlink/p/?LinkId=532732)
+- **Lync server 2013**, 请参阅[在 Lync Server 2013 中配置客户端体验 Skype for business](https://go.microsoft.com/fwlink/p/?LinkId=532732)
     
-- **Lync Server 2010** ，请参阅[的配置客户端体验的 Lync Server 2010 中的业务的 Skype](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync server 2010**请参阅[在 Lync Server 2010 中配置客户端体验 Skype for business](https://go.microsoft.com/fwlink/p/?LinkId=532733)
     
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>在 Skype for Business Server（本地部署）中使用 Lync 客户端体验
 <a name="LyncwithSfBServer"> </a>
 
-如果您想要在内部部署 Skype 业务服务器部署中配置的 Lync 客户端体验，请按照本节中的步骤。
+如果要在本地 Skype for business Server 部署中配置 Lync 客户端体验, 请按照本部分中的步骤操作。
   
 如果要在本地部署中配置 Skype 客户端体验，请遵循本节中的步骤。本地部署的默认体验
   
- **步骤 1:** 首先，部署业务服务器 Skype。
+ **步骤 1:** 首先, 部署 Skype for Business 服务器。
   
- **步骤 2:** 接下来，使用客户端策略设置与业务客户端 Skype 的 Lync 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
+ **步骤 2:** 接下来, 使用客户端策略设置 Skype for Business 客户端的 Lync 客户端体验。 使用客户端策略来设置客户端体验有 **3 个选项**。
   
  **选项 1：** 使用全局策略来设置 Lync 客户端体验。请注意，全局策略适用于部署环境中的所有用户，但是用户级和站点级策略优先于全局策略：
   
@@ -152,18 +152,18 @@ New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **步骤 3： 可选**-默认情况下，用户首次启动业务客户端 Skype、 使用 Skype 客户端体验和用户请求他们重新启动客户端获取 Lync 客户端体验显示一个通知。 可以修改客户端计算机上的系统注册表，将环境配置为，在用户首次启动客户端时，显示 Lync 客户端体验，并且关闭客户端教程。 有关执行部署 Skype 业务客户端之前所需的步骤，请参阅[的配置客户端体验的 Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md)。
+ **步骤 3: 可选**-默认情况下, 用户首次启动 Skype for business 客户端时, 将使用 skype 客户体验, 并向要求用户重新启动客户端以获取 Lync 客户端体验的用户显示通知。 可以修改客户端计算机上的系统注册表，将环境配置为，在用户首次启动客户端时，显示 Lync 客户端体验，并且关闭客户端教程。 有关部署 Skype for Business 客户端之前需要执行的步骤, 请参阅[配置客户端体验 skype for](../../deploy/deploy-clients/configure-the-client-experience.md)business。
   
- **步骤 4:** 您已配置您的客户端策略后，部署业务客户端，生成 4711.1002 (年 4 月，2015) Skype 或更高版本。
+ **步骤 4:** 配置客户端策略后, 部署 Skype for Business 客户端、内部版本 4711.1002 (四月、2015) 或更高版本。
   
 ## <a name="use-the-lync-client-experience-with-skype-for-business-online"></a>在 Skype for Business Online 中使用 Lync 客户端体验
 <a name="LyncwithSfBO"> </a>
 
-如果您想要配置的 Lync 客户端体验和您的业务联机使用 Skype，请按照本节中的步骤。
+如果要配置 Lync 客户体验和使用 Skype for Business Online, 请按照本部分中的步骤操作。
   
-如果您使用 Skype 业务 Online，您可以仍使用 Lync 客户端体验 Skype for Business 客户端在组织中使用远程 PowerShell 配置客户端策略。 使用客户端策略来设置客户端体验有 **3 个选项**。 请注意的策略和参数的名称是您使用适用于商务或 Lync Server 使用 Skype 时配置的客户端体验的设置以外的其他内部部署。
+如果您使用的是 Skype for Business Online, 您仍然可以通过使用远程 PowerShell 配置客户端策略, 将 Lync 客户端体验与组织中的 Skype for Business 客户端配合使用。 使用客户端策略来设置客户端体验有 **3 个选项**。 请注意, 策略和参数名称与你在使用 Skype for Business 或 Lync Server 本地版时用于配置客户端体验的设置不同。
   
- **选项 1:** 使用全局策略中设置 Lync 客户端体验。 请注意，应用于用户的客户端和站点策略将优先于全局策略。
+ **选项 1:** 使用全局策略设置 Lync 客户端体验。 请注意, 应用于用户的客户端和网站策略将优先于全局策略。
   
 ```
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -175,29 +175,29 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
- **选项 3:** 使用自定义策略的实例包含 Lync 客户端体验的设置。
+ **选项 3:** 使用包含 Lync 客户端体验设置的自定义策略实例。
   
 ```
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
-您已配置您的客户端策略后，部署业务客户端，生成 4711.1002 (年 4 月，2015) Skype 或更高版本。
+配置客户端策略后, 部署 Skype for Business 客户端、内部版本 4711.1002 (四月、2015) 或更高版本。
   
-有关如何配置客户端的详细信息体验的 Skype 有关业务 Online，包括有关如何控制的首次运行的体验和可用于配置您的环境中的 PowerShell 脚本的步骤，请参阅[之间切换商业和 Lync 客户端用户界面的 Skype](https://aka.ms/SfBOUI)。
+有关如何使用 Skype for Business Online 配置客户端体验的详细信息, 包括有关如何控制你可以用于配置你的环境的首次运行体验和 PowerShell 脚本的步骤, 请参阅[在Skype for Business 和 Lync 客户端用户界面](https://aka.ms/SfBOUI)。
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>有助于为支持团队和最终用户做好更新准备的资源
 <a name="support"> </a>
 
-若要使您更轻松地和组织准备转换，我们具有许多可用于帮助您规划、 培训和使用最终用户的其他资源。
+为了便于你和你的组织为过渡做好准备, 我们还提供了许多其他资源, 可帮助你规划、教育和接洽最终用户。
   
-- [视频： 简介 Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=544819)
+- [视频: Skype for business 简介](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Skype 的业务快速入门指南 （下载）](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Skype for Business 快速入门指南 (下载)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
-- [Lync 现 for Business 的 Skype — 请参阅 what's new](https://go.microsoft.com/fwlink/p/?LinkID=529224)
+- [Lync 现在是 Skype for business-查看新增功能](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     
-- [Skype for Business： 适用于新的用户的分步指南](https://go.microsoft.com/fwlink/p/?LinkId=544815)
+- [Skype for business: 新用户的分步指南](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
-- [为什么在我使用 Lync 看 Skype for Business？](https://go.microsoft.com/fwlink/p/?LinkID=544712)
+- [为什么我在使用 Lync 时看到 Skype for business？](https://go.microsoft.com/fwlink/p/?LinkID=544712)
     
 

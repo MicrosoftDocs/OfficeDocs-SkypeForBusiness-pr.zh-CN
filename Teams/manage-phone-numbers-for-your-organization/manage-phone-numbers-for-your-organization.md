@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,16 +23,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
-ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 087375b8874876fe5ed3f0bbf9f8799fc6f53c74
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245275"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278332"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 有三种方法可以为您的组织获取用户和服务（收费和免费）号码。
-- 获得中 Skype 业务管理中心的数。
+- 在 Skype for Business 管理中心中获取号码。
 - 在 Skype for Business  管理中心没有列出的新号码，请使用申请表。
 - 把您现有的号码转移或“迁移”给我们。
 
@@ -53,14 +53,14 @@ ms.locfileid: "32245275"
 > - [荷兰](phone-number-management-for-the-netherlands.md)
 > - [西班牙](phone-number-management-for-spain.md)
 > - [英国](phone-number-management-for-the-u-k.md)
-> - [美国 （波多黎各）](phone-number-management-for-the-u-s.md)
+> - [美国 (波多黎各)](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>下面是有关这些号码申请表的更多信息
 ### <a name="request-forms-for-new-phone-numbers"></a>新电话号码的申请表
 每个国家或地区具有不同的说明，不同类型的号码 （地理/非地理）和服务 （收费/免费）和获取电话号码的规则/法规，以便它们可以在 Skype for Business Online 和 Microsoft Teams使用。
 
-有时 （根据您的国家/地区） 您将无法获取新用户 （订阅服务器） 或服务 (收费电话或免费) 特定的电话号码或区号，可能需要使用**业务管理中心的 Skype**，或您的号码。
+有时 (取决于您所在的国家/地区) 您将无法使用**Skype For business 管理中心**获取新用户 (订阅者) 或服务 (收费或免费) 号码, 或者您可能需要特定的电话号码或区号。
 
 If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
@@ -77,10 +77,10 @@ If you still need help, please let us know how we can help you. In your Help req
 - 有关美国以外的电话号码的帮助，  [发送您的请求](mailto:ptneu@microsoft.com) 。
 
 #### <a name="additional-resources"></a>其他资源：
-- 若要调用计划是否可在您的国家或地区，请参阅[国家/地区和音频会议和调用计划的区域可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- 为了帮助您选择所需的电话号码的类型，请阅读[不同种类的电话号码用于调用计划](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
-- 要了解如何在管理中心获取用户电话号码，请阅读 [获取用户电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) 。
-- 若要获取电话号码的帮助设置您的组织，[与业务产品的管理员技术支持部门联系](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 若要查看您所在的国家或地区是否有通话计划, 请参阅[音频会议和通话计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- 为帮助您选择所需的电话号码类型, 请阅读[用于通话计划的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
+- 要了解如何在管理中心获取用户电话号码，请阅读 [获取用户电话号码](/microsoftteams/getting-phone-numbers-for-your-users) 。
+- 若要获取有关为你的组织设置电话号码的帮助, 请[联系业务产品支持-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
   
     
 ## <a name="related-topics"></a>相关主题

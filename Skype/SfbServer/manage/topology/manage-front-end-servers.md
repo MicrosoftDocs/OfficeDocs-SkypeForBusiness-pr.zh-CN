@@ -1,47 +1,47 @@
 ---
-title: 管理业务服务器中 Skype 的前端服务器
+title: 在 Skype for Business 服务器中管理前端服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 摘要： 了解如何添加、 删除修补程序，或更新业务服务器 Skype 在前端服务器。
-ms.openlocfilehash: cac824de5747291a735ce36d624dad66fb32e10e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中添加、删除、修补或更新前端服务器。'
+ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911796"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275155"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理业务服务器中 Skype 的前端服务器
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理前端服务器
  
-本文说明如何添加或删除前端服务器和如何应用升级或修补程序到前端服务器。
+本文介绍如何添加或删除前端服务器以及如何将升级或修补程序应用于前端服务器。
 
 ## <a name="add-or-remove-front-end-servers"></a>添加或删除前端服务器
   
-当您向池中添加前端服务器，或从池中删除前端服务器时，然后需要重新启动池。 
+将前端服务器添加到池中或从池中删除前端服务器时, 您需要重新启动池。 
   
 > [!IMPORTANT]
 > 当你向拓扑中的池添加服务器或从中删除服务器时，会导致池中的所有服务器同时重新启动。当服务器重新启动时，池处于脱机状态，这样会为连接到该池的用户中断服务。为防止用户服务中断，请计划于非工作时间在池中发布采用新服务器的拓扑。 
   
-您可以使用以下过程时添加或删除前端服务器。
+添加或删除前端服务器时, 可以使用以下过程。
   
 > [!NOTE]
 > 如果将新服务器添加到池，请将您的新池服务器更新为与池中的现有服务器相同的累积更新级别。 
   
 ### <a name="to-add-or-remove-front-end-servers"></a>添加或删除前端服务器
 
-1. 如果要移除任何前端服务器，首先停止这些服务器的新连接。 为此，您可以使用以下 cmdlet：
+1. 如果您要删除任何前端服务器, 请首先停止与这些服务器的新连接。 为此，您可以使用以下 cmdlet：
     
    ```
    Stop-CsWindowsService -Graceful
    ```
 
-2. 打开拓扑生成器，以及添加或删除所需的服务器。 
+2. 打开拓扑生成器, 然后添加或删除必要的服务器。 
     
 3. 发布拓扑。
     
@@ -49,9 +49,9 @@ ms.locfileid: "33911796"
     > 当你向拓扑中的池添加服务器或从中删除服务器时，会导致池中的所有服务器同时重新启动。当服务器重新启动时，池处于脱机状态，这样会为连接到该池的用户中断服务。为防止用户服务中断，请计划于非工作时间在池中发布采用新服务器的拓扑。 
   
   > [!NOTE]
-> 此外，当您添加或删除服务器添加到池，您必须业务 Server 部署向导添加的每台计算机上运行 Skype 或删除，有关详细信息，请参阅[安装的企业服务器拓扑中的服务器上的 Skype](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> 此外, 当你在池中添加或删除服务器时, 必须在添加或删除的每台计算机上运行 Skype for Business Server 部署向导, 有关详细信息, 请参阅在[拓扑中的服务器上安装 skype For Business 服务器](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
-4. 如果您更改了服务器数量的在前端池中任意通过以下方式中，然后通过重置池与键入以下 cmdlet: Reset-cspoolregistrarstate ResetType FullReset-PoolFqdn 
+4. 如果你已使用以下任何方式更改了你的前端池中的服务器数, 则通过键入以下 cmdlet 重置池: Reset-CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
    ```
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
@@ -73,7 +73,7 @@ ms.locfileid: "33911796"
 
 ## <a name="patch-or-update-front-end-servers"></a>修补或更新前端服务器
 
-修补程序在前端池中的服务器时，您一次执行因此一台服务器。 
+当您修补前端池中的服务器时, 您一次可以执行一次服务器。 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>对池中的前端服务器应用升级
 
@@ -95,7 +95,7 @@ ms.locfileid: "33911796"
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    此 cmdlet 将所有服务都移动到其他前端服务器池中，并使此服务器脱机。
+    此 cmdlet 将所有服务移动到池中的其他前端服务器, 并使此服务器脱机。
     
 3. 为此服务器应用升级或修补。
     

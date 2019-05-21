@@ -1,10 +1,10 @@
 ---
-title: 登录到 Office 365 的混合向导
+title: 混合向导登录到 Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
-ms.openlocfilehash: 6d1809cc04afcf565bfa2698384255509cb95661
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 使用 Skype for Business 服务器混合管理版向导, 帮助您配置与 Skype for business Online 的混合环境。
+ms.openlocfilehash: 9f80a42149cd0bf1b30781003584d03accd6fe86
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279009"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>混合向导：登录到 Office 365
 
-使用业务服务器混合可管理性向导 Skype 可帮助您配置的混合环境与 Skype 的业务联机。
+使用 Skype for Business 服务器混合管理版向导, 帮助您配置与 Skype for business Online 的混合环境。
 
 ## <a name="sign-in-to-office-365"></a>登录到 Office 365
 

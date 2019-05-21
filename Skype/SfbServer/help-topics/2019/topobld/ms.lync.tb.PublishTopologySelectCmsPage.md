@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PublishTopologySelectCmsPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
-description: 发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。
-ms.openlocfilehash: e649629650bfa1fe168698984e3e8b0aaa5d2df4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 你可以使用拓扑生成器发布已配置的拓扑。 系统将要求你从列表中选择前端服务器或前端池将承担拥有中央管理存储的角色。 在任何给定时间, 只有一个前端服务器或前端池可以持有此角色。
+ms.openlocfilehash: e56597a1380f908c7abdb49b9b88edd7ad249870
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888756"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277879"
 ---
 # <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页面
  
-发布已配置使用拓扑生成器的拓扑。 您需要从前端服务器或前端池，则假定按住中央管理存储的角色的列表中选择。 只有一个前端服务器或前端池可以在任何给定时间保留此角色。 
+你可以使用拓扑生成器发布已配置的拓扑。 系统将要求你从列表中选择前端服务器或前端池将承担拥有中央管理存储的角色。 在任何给定时间, 只有一个前端服务器或前端池可以持有此角色。 
   
-### <a name="about-the-central-management-server"></a>有关中央管理服务器
-中央管理服务器是单个母版/多副本系统，数据库的读/写副本由前端服务器包含中央管理服务器。 在拓扑中，包括前端服务器包含中央管理服务器，每台计算机都安装过程中的计算机上安装 SQL Server 数据库 （名为默认情况下 RTCLOCAL） 中的中央管理存储数据的只读副本和部署。 本地数据库接收通过作为服务的所有计算机运行 Lync Server 副本复制程序代理的副本更新。 在中央管理服务器和的本地副本的实际数据库的名称为 XDS，组成 xds.mdf 和 xds.ldf 文件。 服务控制点 (SCP) Active Directory 域服务中被引用的主数据库位置。 中央管理服务器用于管理和配置 Lync Server 的所有工具都使用 SCP 查找中央管理存储。
+### <a name="about-the-central-management-server"></a>关于中央管理服务器
+中央管理服务器是单个主/多副本系统, 其中数据库的读/写副本由包含中央管理服务器的前端服务器保留。 拓扑中的每台计算机 (包括包含中央管理服务器的前端服务器) 在安装期间, 在计算机上安装了 SQL Server 数据库中的中央管理存储数据的只读副本 (默认情况下称为 RTCLOCAL)。部署. 本地数据库通过在所有计算机上作为服务运行的 Lync Server 副本复制程序代理来接收副本更新。 中央管理服务器和本地副本上的实际数据库的名称是 XDS, 它由 XDS 和 XDS 文件组成。 Master 数据库位置由 Active Directory 域服务中的服务控制点 (SCP) 引用。 使用 "中央管理" 服务器管理和配置 Lync 服务器的所有工具均使用 SCP 查找中央管理存储。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 摘要： 了解如何管理 Persistent Chat Server 聊天室中 Skype for Business Server 2015。
-ms.openlocfilehash: 01d3f53cc3b13d0cb3708d0a1f889a22511fd7fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 2015 中管理持久聊天服务器聊天室。'
+ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910233"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279345"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的聊天室
  
-**摘要：** 了解如何为业务服务器 2015年管理持久聊天服务器中 Skype 的聊天室。
+**摘要:** 了解如何在 Skype for Business Server 2015 中管理持久聊天服务器聊天室。
   
-通过正确使用类别，创建和管理聊天室的过程可以大大简化。 类别定义谁可以创建或加入聊天室。 您尝试管理聊天室之前，请务必阅读[持久聊天类别、 聊天室和用户角色中的业务服务器 2015 Skype](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)和[管理类别中的业务服务器 2015 Skype Persistent Chat Server 中](categories.md)。
+通过正确使用类别，创建和管理聊天室的过程可以大大简化。 类别定义可以创建或加入聊天室的人员。 在尝试管理聊天室之前, 请务必阅读 Skype for business [server 2015 中的持久聊天类别、聊天室和用户角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md), 并在[Skype for business Server 2015 的持久聊天服务器中管理类别](categories.md)。
   
 > [!NOTE]
-> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
 
-您可以配置和管理聊天室，通过使用 Windows PowerShell 命令行界面，或通过使用 Skype for Business 客户端，如果您是聊天室的成员。 本主题介绍了如何使用 Windows PowerShell 命令行界面管理聊天室。 如果您想要使用 Skype 业务客户端管理聊天室，请参阅客户端帮助。 
+你可以使用 Windows PowerShell 命令行界面配置和管理聊天室, 或者通过使用 Skype for Business 客户端 (如果你是聊天室的成员) 来配置和管理聊天室。 本主题介绍了如何使用 Windows PowerShell 命令行界面管理聊天室。 如果想要使用 Skype for Business 客户端管理聊天室, 请参阅客户端帮助。 
   
-聊天室可以是两种类型之一： 普通和大会堂。 Normal 聊天室允许所有成员发布和阅读消息。 Auditorium 聊天室仅允许演示者发布消息，但所有人都可以阅读消息。
+聊天室可以是两种类型之一: 正常和 Auditorium。 Normal 聊天室允许所有成员发布和阅读消息。 Auditorium 聊天室仅允许演示者发布消息，但所有人都可以阅读消息。
   
 可访问和管理聊天室的人员取决于用户角色，如下所示：
   
@@ -52,7 +52,7 @@ ms.locfileid: "33910233"
 |:-----|:-----|
 |New-CsPersistentChatRoom  <br/> |新建聊天室  <br/> |
 |Set-CsPersistentChatRoom  <br/> |配置现有聊天室的设置；向聊天室分配用户和用户组  <br/> |
-|Get-CsPersistentChatRoom  <br/> |检索有关聊天室的信息  <br/> |
+|Get-CsPersistentChatRoom  <br/> |检索有关会议室的信息  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |清除聊天室或清除聊天室中的消息  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |删除聊天室  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |从聊天室删除消息  <br/> |
@@ -65,11 +65,11 @@ ms.locfileid: "33910233"
     
 - Privacy。 使您可以指定聊天室是“开放式”、“封闭式”还是“机密”。 任何人都可以搜索和访问“开放式”聊天室。 任何人都可以搜索“封闭式”聊天室，但只有成员才能访问。 只有聊天室的成员才能搜索和访问“机密”聊天室。 默认情况下，每个新聊天室最初都会配置为“封闭式”。
     
-- Type。 允许您指定聊天室是否正常的室内，接受任何成员，或大会堂聊天室，其接受只能由演示者张贴的消息张贴的消息。
+- Type。 允许你指定聊天室是否为普通聊天室, 它接受由任何成员发布的消息, 或者接受 Auditorium 聊天室 (接受演示者仅发布的消息)。
     
 - Addin。 让您可以将之前配置的外接程序与聊天室关联，从而允许成员在加入时查看 URL 内容。
     
-除了上述参数， **Set-cspersistentchatroom** cmdlet 可以将用户分配到聊天室，如下所示：
+除了上述参数, **CsPersistentChatRoom** cmdlet 还允许你将用户分配到聊天室, 如下所示:
   
 - Members。 配置聊天室的成员关系。 您可以通过指定用户的 SIP 地址，使用单个 cmdlet 添加或删除单个或多个成员。 要允许批量添加用户，也可指定 Active Directory 组织单位或通讯组。
     
@@ -87,9 +87,9 @@ ms.locfileid: "33910233"
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**注意：** 如果下列选项之一为 true，则不需要 PersistentChatPoolFqdn: 
+**注意:** 如果下列条件之一成立, 则不需要 PersistentChatPoolFqdn: 
   
-- 没有只有一个持久聊天服务器池。
+- 只有一个持久聊天服务器池。
     
 - 您为类别提供了一个池 FQDN。
     
@@ -97,7 +97,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>配置现有聊天室
 
-您可以使用**Set-cspersistentchatroom** cmdlet 配置现有的聊天室。 例如，以下命令分配作为成员和演示者的 user1 和 user2 作为经理，testCat 大会堂聊天室的：
+你可以使用**CsPersistentChatRoom** cmdlet 配置现有聊天室。 例如, 以下命令将 user1 作为成员和演示者, 以及 "管理员" 分配 testCat Auditorium 聊天室的管理员:
   
 ```
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -119,13 +119,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 ## <a name="disable-or-enable-a-room"></a>禁用或启用聊天室
 
-如果持久聊天聊天室的主题不再重要，您可以使聊天室内不可用对用户禁用它。 禁用聊天室时，所有成员将立即从聊天室断开。 禁用聊天室后，用户无法重新加入或在聊天室搜索中找到该聊天室。
+如果永久聊天室的主题不再相关, 您可以通过禁用该聊天室使用户无法使用该聊天室。 禁用聊天室时，所有成员将立即从聊天室断开。 禁用聊天室后，用户无法重新加入或在聊天室搜索中找到该聊天室。
   
-如果聊天室的历史记录仍然存在，请禁用聊天室时，将保留内容。 但是，在该聊天室处于禁用状态时，该内容不会显示在搜索中。 如果随后启用该聊天室，则用户可以搜索禁用该聊天室之前发布的消息。 有关配置聊天室的历史记录的信息，请参阅[中的业务服务器 2015 Skype Persistent Chat Server 中管理类别](categories.md)。 
+如果聊天室的历史记录仍然存在, 则在禁用聊天室时将保留内容。 但是，在该聊天室处于禁用状态时，该内容不会显示在搜索中。 如果随后启用该聊天室，则用户可以搜索禁用该聊天室之前发布的消息。 有关配置聊天室历史记录的信息, 请参阅[在 Skype for Business server 2015 中管理持久聊天服务器](categories.md)中的类别。 
   
 如果聊天室被禁用，其成员关系列表和其他设置将被保留。 作为管理员，您可以启用被禁用的聊天室，您无需手动重新创建设置。
   
-您可以通过使用**Set-cspersistentchatroom** cmdlet 并禁用参数设置为 true 时，禁用聊天室：
+你可以使用**CsPersistentChatRoom** cmdlet 禁用聊天室, 并将禁用的参数设置为 True:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
@@ -137,7 +137,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
-## <a name="get-information-about-rooms"></a>获取有关聊天室的信息
+## <a name="get-information-about-rooms"></a>获取有关会议室的信息
 
 要获取有关您的组织中配置使用的聊天室的信息，可以使用 **Get-CsPersistentChatRoom** cmdlet。
   

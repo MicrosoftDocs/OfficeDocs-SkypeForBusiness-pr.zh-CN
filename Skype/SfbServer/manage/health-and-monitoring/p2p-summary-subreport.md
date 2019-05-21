@@ -1,25 +1,25 @@
 ---
-title: P2P 摘要子报表中的业务服务器 Skype
+title: Skype for Business 服务器中的 P2P 摘要子报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 摘要： 了解有关 P2P 摘要子报表中 Skype 业务服务器。
-ms.openlocfilehash: 019682818d25fcd0088cb47fe51e12a17b9ce1bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的 P2P 摘要子报告。'
+ms.openlocfilehash: 5238e910896a6af956285235d7e1234fe17fe005
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915816"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279912"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 摘要子报表中的业务服务器 Skype
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Skype for Business 服务器中的 P2P 摘要子报表
  
-**摘要：** 了解业务服务器 Skype P2P 摘要子报表。
+**摘要:** 了解 Skype for Business 服务器中的 P2P 摘要子报告。
   
 P2P 摘要子报表对失败对等通信会话提供一个总体视图。
   

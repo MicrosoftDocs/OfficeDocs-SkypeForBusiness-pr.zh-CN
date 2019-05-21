@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertList
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要分配证书，请从本地证书存储中选择证书。 单击“下一步”继续。
-ms.openlocfilehash: db96d46537267feb0234e44eacccf78157629725
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a936b96c4ebb46bfd5dc0e1e7f23d533404594da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893957"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275463"
 ---
 # <a name="certificate-list"></a>证书列表
  

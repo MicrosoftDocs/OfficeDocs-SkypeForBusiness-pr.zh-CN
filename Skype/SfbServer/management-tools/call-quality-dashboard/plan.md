@@ -1,247 +1,247 @@
 ---
-title: 规划呼叫质量仪表板的 Skype 业务服务器
+title: 为 Skype for business 服务器计划通话质量仪表板
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
-description: 摘要： 了解有关呼叫质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: 8f26ecd90a9804a68656f76080c3865f5cb7360b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 在为 "呼叫质量" 仪表板进行规划时, 了解要考虑的事项。'
+ms.openlocfilehash: 84fa8672e561cbf91714b3d18276de401f2ab377
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915344"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274665"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>规划呼叫质量仪表板的 Skype 业务服务器 
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>为 Skype for business 服务器计划通话质量仪表板 
  
-**摘要：** 了解有关呼叫质量仪表板规划时应考虑的事项。
+**摘要:** 了解在针对 "呼叫质量" 仪表板进行规划时要考虑的事项。
   
-## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>业务服务器呼叫质量仪表板的 Skype 的概述
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Skype for Business Server 通话质量仪表板概述
 
-Skype 的业务服务器呼叫质量仪表板 (CQD) 是在质量的体验中的数据库中的业务服务器 Skype 的监控服务器报告层。 CQD 使用 Microsoft SQL Server Analysis Services 提供聚合的用法和呼叫质量的信息以及与筛选和数据集上透视。 CQD 功能包括：
+Skype for Business Server 通话质量仪表板 (CQD) 是 "Skype for business" 服务器的 "监视服务器" 中的 "体验质量" 数据库顶部的报告层。 CQD 使用 Microsoft SQL Server Analysis Services 提供聚合用法以及调用质量信息, 以及在数据集上筛选和旋转。 CQD 功能包括:
   
-- **通过 CQD 的 QoE 存档组件的 QoE 数据的存档存储。** QoE 存档组件可为更长时间工期超过监控服务器可以存储 QoE 数据。 这样，趋势和报告的最多七个月的数据时，能够幻灯片背面至于报告窗口没有数据。
+- **QoE 数据的归档存储通过 CQD 的 QoE 存档组件进行存储。** QoE 存档组件可以存储 QoE 数据, 其持续时间比监视服务器可以长得多。 这允许一次为多达7个月的数据进行趋势分析和报告, 并且能够将报告窗口滑回最远的数据。
     
-- **报告和分析使用的电源和 Microsoft SQL Server Analysis Services 的速度。** CQD 利用 Microsoft SQL Analysis Services，以提供快速摘要、 筛选和透视功能 power 通过分析多维数据集仪表板。 报告执行速度和能够向下钻取数据可以显著减少分析时间。
+- **使用 Microsoft SQL Server Analysis Services 的电源和速度进行报告和分析。** CQD 利用 Microsoft SQL Analysis Services 提供快速摘要、筛选和透视功能, 以便通过分析多维数据集为仪表板供电。 报告执行速度和向下钻取到数据的功能可显著减少分析时间。
     
-- **为呼叫质量报告进行了优化的新数据架构。** 多维数据集具有设计用于语音质量报告和调查的架构。 门户网站用户可以关注的报告的任务，而不是找出如何 QoE 指标数据库架构映射到所需的视图。 QoE 存档和多维数据集的组合提供降低了报告和分析通过 CQD 的复杂性抽象。 QoE 存档数据库架构还包含可填入部署特定的数据来增强的数据的总体值的表。
+- **为通话质量报告优化的新数据架构。** 多维数据集具有设计用于语音质量报告和调查的架构。 门户用户可以专注于报告任务, 而不是了解 QoE 指标数据库架构如何映射到所需的视图。 QoE 存档和多维数据集的组合提供了一个抽象, 可通过 CQD 减少报告和分析的复杂性。 QoE 存档数据库架构还包含可填充特定于部署的数据的表, 以增强数据的总体价值。
     
-- **内置报表设计器和报表的就地编辑。** 门户组件附带仿效了呼叫质量方法的多个内置报表。 门户网站用户可以修改报告和创建新的报表，通过门户的编辑功能。
+- **内置报表设计器和就地报表编辑。** 门户组件附带了几个内置的报表, 这些内置报表在通话质量方法后建模。 门户用户可以修改报表, 并通过门户的编辑功能创建新报表。
     
-- **Web API 访问报告结构和分析多维数据集数据。** 仪表板报告框架不是显示来自多维数据集的数据的唯一方式。 CQD 提供了几个示例使用 HTML 和 JavaScript 检索 CQD Web Api 中的数据和呈现自定义格式中的数据。 报告编辑器和 CQD Web Api 的组合允许快速原型的报表和自定义报表布局。
+- **对报表结构和分析多维数据集数据的 Web API 访问。** 仪表板报表框架不是显示多维数据集中的数据的唯一方式。 CQD 提供了使用 HTML 和 JavaScript 从 CQD Web Api 检索数据并以自定义格式呈现数据的一些示例。 报表编辑器和 CQD Web Api 的组合允许快速原型制作报表和自定义报表布局。
     
 ## <a name="cqd-design-goals"></a>CQD 设计目标
 
 CQD 允许 IT 专业人员使用聚合数据来识别其环境中遇到媒体质量问题的重点关注区域。它允许 IT 专业人员比较不同用户组的统计信息，并识别趋势和模式。它重点关注的不是单个通话问题，而是识别适用于给定环境中许多用户的问题和解决方案。 
   
-## <a name="call-quality-dashboard-components"></a>呼叫质量仪表板组件
+## <a name="call-quality-dashboard-components"></a>通话质量仪表板组件
 
-呼叫质量仪表板包含多个数据库、 Microsoft SQL 代理作业、 流程和 web 应用程序。 Microsoft SQL 代理作业定期将数据从的 QoE 指标数据库复制到 QoE 存档数据库和流程与 QoE 存档数据库中的数据多维数据集。 存储库数据库存储的报告定义门户的电源。 门户提供对多维数据集数据的浏览器访问。 
+通话质量仪表板由多个数据库、Microsoft SQL 代理作业、进程和 web 应用程序组成。 Microsoft SQL 代理作业会定期将 QoE 指标数据库中的数据复制到 QoE 存档数据库中, 并将该多维数据集与 QoE 存档数据库中的数据一起处理。 存储库数据库存储了为门户供电的报表定义。 门户提供对多维数据集数据的浏览器访问。 
   
-CQD 组件，包括 QoE 存档、 多维数据集和存储库数据库，可以监控服务器上安装，安装在其自己的服务器上或跨多台服务器安装。 特定安装方法取决于 CQD 以及影响到相同的服务器上的其他进程的性能需求。 有关详细信息，请参阅本文后面的"的组件和拓扑 CQD"部分。
+CQD 组件 (包括 QoE 存档、多维数据集和存储库数据库) 可安装在监视服务器上、安装在其自己的服务器上, 或跨多台服务器安装。 特定安装方法取决于 CQD 的性能需求以及对同一服务器上的其他进程的影响。 有关详细信息, 请参阅本文后面的 "CQD 的组件和拓扑" 部分。
   
 ### <a name="architectural-overview"></a>体系结构概述
 
-总之，CQD 需要以下元素：
+总而言之, CQD 需要以下元素:
   
-- 两个数据库： 存档数据库和存储库数据库。
+- 两个数据库: 一个存档数据库和一个知识库数据库。
     
 - 一个 SSAS 多维数据集可视化聚合数据 
     
-- IIS 承载 CQD Web 门户
+- IIS 主机 CQD Web 门户
     
 ![CQD 组件](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-相同的 CQD 体系结构支持 Lync Server 2013 和 Skype 业务。 
+相同的 CQD 体系结构支持 Lync Server 2013 和 Skype for business。 
   
-### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD 和业务与 Lync 2013 的 Skype
+### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD 和 Skype for business 与 Lync 2013
 
- 在仅业务环境 Skype，以下功能有：
+ 仅在 Skype for business 环境中, 可以使用以下功能:
   
-- Wi-fi 报告信号
+- 信号强度的 wi-fi 报告
     
-- Wi-fi 报告芯片集驱动程序
+- 芯片组驱动程序的 wi-fi 报告
     
-- 评价我的呼叫数据 
+- 评价我的通话数据 
     
-## <a name="information-available-through-cqd"></a>可通过 CQD 信息
+## <a name="information-available-through-cqd"></a>通过 CQD 提供的信息
 
-CQD 可以显示 Skype 业务服务器音频、 视频和应用程序共享流计数和良好与错误的呼叫数以及错误到良好的呼叫的比率。 可以切片并由许多不同的维度筛选视图。 CQD 从中监控服务器的 QoE 指标数据库绘制数据。 与任何客户提供的数据，如网络子网为构建映射进行报告，例如"呼叫质量每 Building"可能然后合并数据。 
+CQD 可以显示 Skype for business 服务器音频、视频和应用程序共享流计数以及良好的通话计数和不良通话的比率以及不正确通话的比率。 可按多种不同的尺寸对视图进行切片和筛选。 CQD 从监视服务器中的 QoE 指标数据库中绘制数据。 然后, 将数据与客户提供的任何数据 (如网络子网间的映射) 合并, 以使报表 (如 "每个建筑物的通话质量") 成为可能。 
   
-CQD 还抽象化许多内部的 QoE 数据特性，例如"呼叫者"和"被叫方"以便用户可以专注于构建围绕"服务器"和"客户端"报表视图。 以下呼叫的质量方法，CQD 将得到改进可帮助确定质量欠佳的呼叫的多种孤立共有的条件 — 用于改进呼叫质量的原则之一。
+CQD 还提取许多内部 QoE 数据特性 (如 "调用方" 和 "被调用方"), 以便用户可以专注于围绕 "服务器" 和 "客户端" 构建报告视图。 按照通话质量方法, CQD 简化了 pockets 的通话的条件, 这是提高通话质量的原则之一。
   
 ## <a name="viewing-data-in-cqd"></a>查看 CQD 中的数据
 
-可以通过 CQD 门户查看和访问通过 REST API 调用 CQD 数据。
+CQD 数据可以通过 CQD 门户查看, 并通过 REST API 调用访问。
   
 ### <a name="cqd-portal"></a>CQD 门户
 
-门户是最快捷的方式查看中多维数据集的数据。 门户附带了可供立即多个内置报表。 内置报告结构化方式指导用户到连续较小和最小切片呼叫数据的链接。 内置报告还突出显示的数据可以显示由演示图表和表具有不同的数据透视表、 筛选器和度量值的组合的各种不同方式。 每个访问门户的用户可以有其自己的报告，他/她可以修改和共享的组。 有关使用率 CQD Web 门户的详细信息，请参阅[使用呼叫质量仪表板 Skype 业务服务器](use.md)。
+门户是查看多维数据集中的数据的最快方式。 门户附带有多个内置报表, 可立即使用。 内置报表以结构化方式进行链接, 以指导用户连续减少和缩小调用数据的扇区。 内置报表还通过演示具有不同的透视表、筛选器和度量值的图表和表的组合来突出显示数据显示的各种不同方式。 访问门户的每个用户都可以拥有他/她可以修改和共享的自己的一组报告。 有关 CQD Web 门户用法的详细信息, 请参阅[使用 Skype for Business 服务器的呼叫质量仪表板](use.md)。
   
-支持为 CQD 门户的操作系统： Windows 8.1、 Windows 8、 Windows Server 2012 R2、 Windows Server 2012 和 Windows Server 2016 (Skype 的业务服务器 2019 CQD 仅)。
+CQD Portal 支持的操作系统: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012 和 Windows Server 2016 (仅限 Skype for Business Server 2019 CQD)。
   
-支持的浏览器 CQD 门户： Internet Explorer 11、internet、 Internet Explorer 10 和 Internet Explorer 9。
+CQD 门户支持的浏览器: Internet Explorer 11、Internet Explorer 10 和 Internet Explorer 9。
   
 ### <a name="rest-apis"></a>REST Api
 
-也可以通过 REST API 调用访问多维数据集数据。 可以通过 HTML 页呈现通过 REST API 调用检索到的数据。 在仍创建自定义报告适合其业务需求，用户可以利用查询速度和高级别 CQD 架构。 有关 API 和示例的详细信息，请参阅[开发呼叫质量仪表板 Skype 业务服务器](develop.md)。 
+也可以通过 REST API 调用访问多维数据集数据。 通过 REST API 调用检索的数据可以通过 HTML 页面呈现。 用户可以利用查询速度和高级模式的 CQD, 同时还可以创建适合其业务需求的自定义报表。 有关 API 和示例的详细信息, 请参阅[开发 Skype for Business 服务器的呼叫质量仪表板](develop.md)。 
   
-## <a name="defining-your-organizations-requirements-for-cqd"></a>定义的 CQD 贵组织的要求
+## <a name="defining-your-organizations-requirements-for-cqd"></a>定义组织对 CQD 的要求
 
-CQD 提供呼叫质量数据的 QoE 数据存档和快速和深入分析。 以下指南可帮助您决定何时和为什么您将部署 CQD。
+CQD 提供 QoE 数据存档和快速和深入的通话质量数据分析。 以下指南可帮助你确定部署 CQD 的时间和原因。
   
 ### <a name="when-to-deploy-cqd"></a>何时部署 CQD
 
- **可以部署 CQD 建立基准呼叫质量度量单位，即使组织不会遇到呼叫质量问题。** 建立基准呼叫质量度量很重要，因为每个组织具有与有线和远程与 office 工作者 Wi-fi 的不同组合。 当呼叫质量问题出现时，最新呼叫质量度量可以进行比较到以前的时间间隔。 CQD 的趋势功能允许随着时间的推移呼叫质量中轻松检测的更改。
+ **CQD 可以部署, 以建立基准通话质量测量, 即使组织不会遇到通话质量问题。** 建立基准通话质量测量非常重要, 因为每个组织都有不同的 Wi-fi 与有线和远程与 office 工作人员混合。 当出现通话质量问题时, 最新的通话质量测量值可以与之前的时间间隔进行比较。 CQD 的趋势功能允许在一段时间内轻松地检测通话质量的变化。
   
- **可以部署 CQD 主动查找问题可能会影响呼叫质量的区域。** 即使平均呼叫质量的组织可能满足目标设置的组织，可能有大量隐藏在平均指标的呼叫质量问题。 CQD 允许通过 QoEMetrics 数据库中的多个维度的呼叫质量指标的数据透视表类似细分。 在对等方组探索离群值是一种主动查找呼叫质量问题的快捷方式。
+ **可以部署 CQD 来主动找到可能会影响通话质量的问题区域。** 即使组织的平均通话质量可能满足组织设置的目标, 也可能会有 pockets 的通话质量问题, 这些问题在平均指标的下方隐藏。 CQD 使数据透视表类似于 QoEMetrics 数据库中的多个维度的通话质量指标细目。 对等组中的 Spotting 离群离群是一种提前查找通话质量问题的快速方法。
   
- **应部署 CQD，如果呼叫质量问题中有组织以减少解决问题所需的时间。** CQD 可以通过提供 fast 报告性能和动态深化功能来简化现有呼叫质量调查。 CQD 专为多种类型的呼叫质量调查验证修复到环境中的工作流。
+ **如果组织中存在通话质量问题, 则应部署 CQD, 以减少解决问题所需的时间。** CQD 可以通过提供快速的报表性能和动态的向下功能来简化现有的通话质量调查。 CQD 适用于在通话质量调查中对环境的修复进行验证的许多类型的工作流。
   
-### <a name="why-deploy-cqd"></a>为什么部署 CQD
+### <a name="why-deploy-cqd"></a>为什么要部署 CQD
 
- **应部署 CQD，如果 QoE 报告需要发生超过 3 个月内的数据。** QoEMetrics 数据库和监控服务器报告旨在保留和报告小型的一组数据。 针对 fast 插入优化的 QoE 指标数据库并因此报告性能也可以通过大量呼叫或竞争报告访问数据库时阻碍。 CQD 的 QoE 存档数据库提供具有多更长时间保留功能的 QoE 指标数据的第二个副本。 门户还优化显示达 7 个月的数据一次，并根据需要在 QoE 存档中的所有数据可以报告。
+ **如果需要针对超过3个月的数据执行 QoE 报告, 应部署 CQD。** QoEMetrics 数据库和监视服务器报表旨在保留和报告少量数据集。 QoE 指标数据库已针对快速插入进行了优化, 因此可通过大量的调用或对数据库具有竞争性报告访问权限来 impeded 报告性能。 CQD 的 QoE 存档数据库提供了 QoE 指标数据的第二个副本, 保留功能更长。 门户还经过优化, 可一次显示多达7个月的数据, 并根据需要报告 QoE 存档中的所有数据。
   
- **应部署 CQD，如果所需自定义 QoE 报告。** 门户具有创建和设计原型报告报告编辑器功能，快速、 方便地。 它还向多维数据集数据，以允许使用 HTML/JavaScript 或许多其他框架的自定义演示文稿进行程序访问的可用 REST Api。 不再需要编写新的 SQL 查询，以创建自定义数据视图进行报告。
+ **如果需要自定义 QoE 报表, 应部署 CQD。** 门户具有一个报表编辑器功能, 用于快速轻松地创建报表和创建报表原型。 它还使可用的 REST Api 能够以编程方式访问多维数据集数据, 从而允许使用 HTML/JavaScript 或其他许多框架的自定义演示文稿。 不再需要创作新的 SQL 查询, 目的是创建用于报告的自定义数据视图。
   
- **应部署 CQD，如果现有的 QoE 报告功能不满足速度或由组织所需的深度。** CQD 附带了许多内置报表。 立即有用的报告，并演示如何逐渐钻取数据可以提供每个级别的其他见解。 报告层次结构还有助于以逻辑方式管理大量报告并促进创建多个详细的报告的轻松访问和理解。 CQD 不只提供速度和灵活性，但也优化的工作流开发的呼叫质量方法。
+ **如果现有 QoE 报告功能不符合组织所需的速度或深度, 则应部署 CQD。** CQD 附带了许多内置的报表。 报告将立即有用, 并演示如何以渐进方式向数据中钻取, 从而可以在每个级别提供其他见解。 报表层次结构还有助于以合乎逻辑的方式管理大量报表, 并促进创建更易于访问且易于理解的更多报表。 CQD 不仅提供速度和灵活性, 还针对由通话质量方法开发的工作流进行了优化。
   
 ## <a name="components-and-topologies-for-cqd"></a>CQD 的组件和拓扑
 
-CQD 附带了几个组件，并帮助了解获取该工具的最简单和最佳执行部署的每个组件及其关系，以及与每个其他要求。 下表介绍对于每个 CQD 组件依赖的组件。
+CQD 提供了多个组件, 并且有助于了解每个组件的要求以及它们之间的关系, 以获取该工具的最简单且性能最佳的部署。 下表介绍了每个 CQD 组件的依赖组件。
   
 
-|**组件名称**|**依赖的组件**|
+|**组件名称**|**依赖组件**|
 |:-----|:-----|
 |QoE 存档  <br/> |Microsoft SQL Server  <br/> |
-|多维数据集  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|门户  <br/> |Microsoft 信息服务  <br/> |
-|存储库服务 （门户安装的一部分）  <br/> |Microsoft SQL Server  <br/> |
+|立方体  <br/> |Microsoft SQL Server Analysis Services  <br/> |
+|站点  <br/> |Microsoft 信息服务  <br/> |
+|存储库服务 (门户安装的一部分)  <br/> |Microsoft SQL Server  <br/> |
    
 > [!NOTE]
-> QoE 存档和多维数据集，某些部署选项需要 Microsoft SQL Server 的商业智能或企业版。 请参阅[CQD 的基础结构要求](plan.md#Infrastructure_Req)部分下方的详细信息。
+> 对于 QoE 存档和多维数据集, 某些部署选项需要 Microsoft SQL Server 的商业智能或企业版。 有关详细信息, 请参阅以下 CQD 部分的[基础结构要求](plan.md#Infrastructure_Req)。
   
 ![CQD 组件](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>单服务器配置
 
-可以拖放到一台计算机上安装所有 CQD 组件和相关组件。 单服务器配置是最简单的配置，并允许 CQD 是独立。 CQD 只需要对监控服务器上的 QoE 指标数据库的访问。 CQD 服务器可以是独立计算机，虚拟机，也可以甚至是监控服务器，具体取决于主机和性能要求的可用资源。 
+所有 CQD 组件和依赖组件都可以安装在一台计算机上。 单框配置是最简单的配置, 并且允许 CQD 自包含。 CQD 只需访问监视服务器上的 QoE 指标数据库。 CQD 服务器可以是独立计算机、虚拟机或虚拟机, 也可以是监视服务器, 具体取决于主机的可用资源和性能要求。 
   
-在过程中安装、 用户执行安装只需要提供 Microsoft SQL Server 和已以前设置的计算机安装 CQD 所在的 Microsoft SQL Server Analysis Services 实例。 请参阅[部署呼叫质量仪表板 Skype 业务服务器](deploy-0.md)的详细信息。
+在安装过程中, 执行安装的用户只需提供以前在要安装 CQD 的计算机上设置的 Microsoft SQL Server 和 Microsoft SQL Server Analysis Services 实例。 有关详细信息, 请参阅[部署 Skype for Business 服务器的通话质量仪表板](deploy-0.md)。
   
 ### <a name="multiserver-configuration"></a>多服务器配置
 
-在多服务器配置、 QoE 存档、 多维数据集，和门户中所有可在不同的计算机上。 有两种主要用途为多服务器配置：
+在多服务器配置中, QoE 存档、多维数据集和门户都可以位于不同的计算机上。 多服务器配置主要有两种用途:
   
-- 不同服务器上承载 CQD Web 门户和 CQD 多维数据集。
+- 在不同服务器上托管 CQD Web 门户和 CQD 多维数据集。
     
-- 承载"开发"门户"生产"门户分开。 
+- 托管独立于 "生产" 门户的 "开发" 门户。 
     
-  **不同的计算机上承载 CQD Web 门户和 CQD 多维数据集。** 组织可能具有要求分隔 CQD 门户从 SQL Server 安装的或，可能需要混合和与 SQL Server 版本匹配的 SQL Server 实例和 SQL Server Analysis Services 实例可以选择安装 CQD 门户和不同的计算机上 CQD 多维数据集。 QoE 存档组件也可能是如果组织只想要不达到监控服务器上的性能限制存档的 QoE 数据的可持续方法安装的唯一 CQD 组件。
+  **在不同计算机上托管 CQD Web 门户和 CQD 多维数据集。** 可能需要将 CQD 门户与 SQL Server 安装分开或可能希望混合和匹配 sql server 实例和 SQL Server Analysis Services 实例的 SQL Server 版本的组织可选择安装 CQD 门户和不同计算机上的 CQD 多维数据集。 QoE 存档组件也可以是安装的唯一 CQD 组件 (如果组织只希望使用可持续方法来存档 QoE 数据, 而不会在监视服务器上达到性能限制)。
   
 ![单服务器 CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
- **承载"开发"门户"生产"门户分开。** 开发自己的自定义报告 （通过 REST Api 中) 的组织可能更愿意部署生产常规用户访问用于呼叫的质量监控或调查的门户旁的其他 (CQD) 门户实例。 开发门户可以隔离到门户网站从生产环境的任何修改。 可以部署在不同的计算机 （如下所示） 或部署到不同的 web 目录 （不显示） 的相同计算机上的其他 web 门户。 若要完成后者，其他 CQD web 门户必须将复制到生产计算机手动因为 CQD 安装过程始终将 CQD Web 门户部署到默认网站使用预定义的 web 应用程序名称。
+ **托管独立于 "生产" 门户的 "开发" 门户。** 开发自己的自定义报表 (通过 REST Api) 的组织可能希望在生产门户旁边部署其他 (CQD) 门户实例, 以便常规用户在呼叫质量监视或调查中访问。 开发门户可将对门户的任何修改与生产环境隔离开来。 其他 web 门户可以部署在不同的计算机上 (如下所示), 或部署到同一台计算机上的不同 web 目录 (未显示)。 若要实现后者, 必须手动将其他 CQD web 门户复制到生产计算机, 因为 CQD 安装过程始终将 CQD Web 门户部署到具有预定义 web 应用程序名称的默认网站。
   
 ![计划 CQD 多服务器](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>支持的拓扑
 
-就像 CQD 不合并来自多个 QoEMetrics 数据库，其中有多个 Skype 的企业服务器拓扑，每个都有其自己的监控服务器。 每个 CQD 实例必须指向一个 QoEMetrics 数据库。 但是，因为 CQD 将移动何种移开监控服务器报告的工作负荷，企业服务器拓扑中部署每 Skype 的一台监控服务器所需的大型组织应考虑的所有拓扑使用一台监控服务器。
+CQD 不会合并多个 QoEMetrics 数据库中的数据, 因为存在多个 Skype for business 服务器拓扑的情况, 每个拓扑都有自己的监视服务器。 每个 CQD 实例都必须指向一个 QoEMetrics 数据库。 但是, 由于 CQD 将从监视服务器移动大量报告工作负荷, 因此每个 Skype for Business 服务器拓扑需要部署一个监视服务器的大型组织应考虑为所有拓扑使用一个监视服务器。
   
 ## <a name="infrastructure-requirements-for-cqd"></a>CQD 的基础结构要求
 <a name="Infrastructure_Req"> </a>
 
-虚拟机，一台计算机上或跨多台计算机，则可以部署 CQD，包括其所有组件和相关组件。 下面列出的最低软硬件要求。 数据可用性和性能因分钟到数小时，具体取决于业务 Server 用户和硬件和配置，活动 Skype 数的查询，以便一些性能度量如下所示。
+CQD (包括其所有组件和依赖组件) 可以部署在虚拟机、单个计算机上或跨多台计算机。 下面列出了最低软件和硬件要求。 数据可用性和查询性能可能因分钟而异, 具体取决于活动 Skype for business 服务器用户和硬件和配置的数量, 因此下面给出了一些性能测量结果。
   
 |||
 |:-----|:-----|
-|支持的操作系统  <br/> |Windows Server 2008 R2、 Windows Server 2012、 Windows Server 2012 R2  <br/> |
-|支持的 SQL Server  <br/> |SQL Server 2012，SQL Server 2014 年 SQL Server 2016  <br/> |
+|支持的操作系统  <br/> |Windows Server 2008 R2、Windows Server 2012、Windows Server 2012 R2  <br/> |
+|支持的 SQL Server  <br/> |SQL Server 2012、SQL Server 2014、SQL Server 2016  <br/> |
    
-CQD 利用 Microsoft SQL Server、 Microsoft SQL Server Analysis Services 和 Microsoft Internet 信息服务，因此 CQD 的最低硬件和软件要求基本上与这些依赖的组件相同。 但是，根据组织的要求围绕数据刷新 （这将取决于部分的组织将生成的 QoE 数据量） 和部署成本，其他部署注意事项应将。
+CQD 利用 Microsoft SQL Server、Microsoft SQL Server Analysis Services 和 Microsoft Internet 信息服务, 因此 CQD 的硬件和软件要求的最低程度与这些依赖组件基本相同。 但是, 根据组织对数据新鲜度的要求 (这将依赖于组织生成的 QoE 数据量) 和部署开销, 应执行其他部署注意事项。
   
-CQD 中的数据处理被分为两个主要阶段： 
+CQD 中的数据处理分为两个主要阶段: 
   
-- QoE 存档进程
+- QoE 存档过程
     
 - CQD 多维数据集处理
     
-  **QoE 处理存档。** QoE 存档处理任务将数据从监控服务器上的 QoE 指标数据库复制到 QoE 存档数据库。 有两种情况下的任务的处理时间必须发生根本性不同的性能特征。 首先是 CQD 在初始安装后。 任务在首次运行全新安装后，QoE 存档处理任务会将复制到 QoE 存档数据库的 QoE 指标数据库中的所有数据。 第二个是此初始舍入后的定期处理。 处理任务 QoE 存档将每 15 分钟运行和处理的 QoE 指标数据库中的任何新的 QoE 记录。 通常的初始的处理时间是不担心，因为它运行只在首次，当安装 CQD。 但是，如果 CQD 服务器是严重下设置，该任务中可能需要数小时。 请参阅下例如初始 QoE 存档处理时间表。
+  **QoE 存档处理。** QoE 存档处理任务将监视服务器上 QoE 指标数据库中的数据复制到 QoE 存档数据库。 在两种情况下, 任务的处理时间将具有基本不同的性能特征。 第一个是 CQD 的初始安装。 如果在执行全新安装后首次运行任务, QoE 存档处理任务会将 QoE 指标数据库中的所有数据复制到 QoE 存档数据库中。 第二个是此初始循环之后的定期处理。 QoE 存档处理任务将每隔15分钟运行, 并处理 QoE 指标数据库中的任何新 QoE 记录。 通常, 初始处理时间不是一个问题, 因为它仅在安装 CQD 时首次运行。 但是, 如果 CQD 服务器受到严格的预配, 此任务可能需要几个小时。 有关初始 QoE 存档处理时间的示例, 请参阅下表。
   
-  **CQD 多维数据集处理。** 多维数据集处理任务将数据从 QoE 存档数据库聚合到多维数据集。 由用于 CQD 多维数据集的 SQL Server Analysis Services 版本确定的初始多维数据集处理时间和后续多维数据集处理时间。 如果使用标准版，则没有任何差别之间的初始多维数据集处理时间和后续多维数据集处理时间，因为每次刷新多维数据集数据，将始终是所有可用的数据的完整处理。 （这意味着的多维数据集处理时间随着 QoE 存档数据库增加中的数据量。）由于的业务智能 Edition 和 Enterprise Edition 的 SQL Server 具有分区支持，如果使用两种版本中，仅初始运行将处理 QoE 存档数据库中的所有数据。 在后续运行时触发任务每隔 15 分钟，任务将仅处理最后一次运行任务添加到 QoE 存档数据库的新记录。 每天一次，也有包含当前月份的数据分区上完全处理。
+  **CQD 多维数据集处理。** 多维数据集处理任务将 QoE 存档数据库中的数据聚合到多维数据集中。 初始多维数据集处理时间和后续多维数据集处理时间由用于 CQD 多维数据集的 SQL Server Analysis Services 版本确定。 如果使用标准版, 则初始多维数据集处理时间和后续多维数据集处理时间之间没有任何差异, 因为每次刷新多维数据集数据时, 它将始终完全处理所有可用数据。 (这意味着, 当 QoE 存档数据库中的数据量增加时, 多维数据集处理时间会增加。)由于 SQL Server 的商业智能版本和企业版具有分区支持, 因此如果使用其中一个版本, 则只有初始运行才会处理 QoE 存档数据库中的所有数据。 在后续运行中, 当每15分钟触发一次任务时, 任务将仅处理自上次运行任务以来添加到 QoE 存档数据库的新记录。 每天一次, 包含当前月份数据的分区上还会有完整的处理。
   
-物理计算机特征会影响 CQD 性能，以及可从 SQL Server 组件的软件功能。 QoE 存档组件将更多磁盘密集型与其他组件，而多维数据集组件将更多的 CPU 和内存占用大量。 所有这些因素参与到 CQD 的总数据处理时间，直接影响数据刷新和可用性。 组织应做出上的硬件和软件基于组织的个别需求的决策。 
+物理计算机特征可能会影响 CQD 性能以及 SQL Server 组件中提供的软件功能。 与其他组件相比, QoE 存档组件更占用磁盘空间, 而多维数据集组件会占用更多的 CPU 和内存。 所有这些因素都将影响 CQD 的总数据处理时间, 这会直接影响数据的新鲜度和可用性。 组织应根据组织的个人需求来制定硬件和软件决策。 
   
-### <a name="tested-hardware-configurations"></a>测试的硬件配置
+### <a name="tested-hardware-configurations"></a>经测试的硬件配置
 
-本节假设在环境中存在单个的 QoEMetrics DB。 
+本部分假设环境中存在单个 QoEMetrics DB。 
   
 **计算机配置文件**
 
-|**计算机**|**CPU 内核**|**RAM**|**QoE 存档和同一磁盘上的多维数据集**|**QoE 存档和同一磁盘上的 SQL 临时 DB**|
+|**机**|**CPU 内核**|**RAM**|**在同一磁盘上 QoE 存档和多维数据集**|**在同一磁盘上 QoE 存档和 SQL 临时数据库**|
 |:-----|:-----|:-----|:-----|:-----|
 |虚拟机  <br/> |4  <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
-|四核  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
-|8 核心  <br/> |8  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
-|16 核心  <br/> |16  <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
+|4核  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
+|8核  <br/> |个  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
+|16核  <br/> |utf-16  <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
    
 **性能结果**
 
-|**计算机**|**数据库大小的 QoE 指标**|**SQL 分区**|**磁盘类型**|**流的数量**|**初始存档过程**|**初始多维数据集过程**|**后续存档进程**|**后续的多维数据集过程**|
+|**机**|**QoE 指标数据库大小**|**SQL 分区**|**磁盘类型**|**流的数量**|**初始存档过程**|**初始多维数据集流程**|**后续存档过程**|**后续多维数据集进程**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|虚拟机  <br/> |900 MB  <br/> |单个  <br/> |VHD （变量大小）  <br/> |.5 M  <br/> |30 分钟  <br/> |2m  <br/> |30 s  <br/> |1m  <br/> |
-|虚拟机  <br/> |9 GB  <br/> |单个  <br/> |VHD （变量大小）  <br/> |5 分钟  <br/> |4 h  <br/> |15 分钟  <br/> |1m  <br/> |5 分钟  <br/> |
-|虚拟机  <br/> |9 GB  <br/> |单个  <br/> |VHD （固定大小）  <br/> |5 分钟  <br/> |2 h  <br/> |5 分钟  <br/> |1m  <br/> |5 分钟  <br/> |
-|虚拟机  <br/> |30 + GB  <br/> |单个  <br/> |VHD （固定大小）  <br/> |10M  <br/> |15 h  <br/> |20 m  <br/> |2m  <br/> |45 m  <br/> |
-|8 核心  <br/> |9 GB  <br/> |单个  <br/> |多个磁盘  <br/> |5 分钟  <br/> |2 h  <br/> |5 分钟  <br/> |25 s  <br/> |5 分钟  <br/> |
-|8 核心  <br/> |9 GB  <br/> |多个  <br/> |多个磁盘  <br/> |5 分钟  <br/> |2 h  <br/> |15 分钟  <br/> |35 s  <br/> |2m  <br/> |
-|8 核心  <br/> |30 + GB  <br/> |单个  <br/> |多个磁盘  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1m  <br/> |20 m  <br/> |
-|8 核心  <br/> |30 + GB  <br/> |多个  <br/> |多个磁盘  <br/> |20 M  <br/> |9 h  <br/> |30 分钟  <br/> |2m  <br/> |2m  <br/> |
-|四核  <br/> |200 GB  <br/> |单个  <br/> |多个磁盘  <br/> |125 M  <br/> |6 + 天  <br/> |7 h  <br/> |2m  <br/> |6 h  <br/> |
-|16 核心  <br/> |500 GB  <br/> |多个  <br/> |多轴  <br/> |250 M  <br/> |8 天  <br/> |2 h  <br/> |2m  <br/> |10m  <br/> |
+|虚拟机  <br/> |900 MB  <br/> |单个  <br/> |VHD (可变大小)  <br/> |。 5 M  <br/> |30米  <br/> |2 m  <br/> |30秒  <br/> |1 m  <br/> |
+|虚拟机  <br/> |9 GB  <br/> |单个  <br/> |VHD (可变大小)  <br/> |5 M  <br/> |4 h  <br/> |15米  <br/> |1 m  <br/> |5 m  <br/> |
+|虚拟机  <br/> |9 GB  <br/> |单个  <br/> |VHD (固定大小)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|虚拟机  <br/> |30 + GB  <br/> |单个  <br/> |VHD (固定大小)  <br/> |10米  <br/> |15 h  <br/> |20米  <br/> |2 m  <br/> |45 m  <br/> |
+|8核  <br/> |9 GB  <br/> |单个  <br/> |多个磁盘  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|8核  <br/> |9 GB  <br/> |名  <br/> |多个磁盘  <br/> |5 M  <br/> |2 h  <br/> |15米  <br/> |35 s  <br/> |2 m  <br/> |
+|8核  <br/> |30 + GB  <br/> |单个  <br/> |多个磁盘  <br/> |20米  <br/> |9 h  <br/> |20米  <br/> |1 m  <br/> |20米  <br/> |
+|8核  <br/> |30 + GB  <br/> |名  <br/> |多个磁盘  <br/> |20米  <br/> |9 h  <br/> |30米  <br/> |2 m  <br/> |2 m  <br/> |
+|4核  <br/> |200 GB  <br/> |单个  <br/> |多个磁盘  <br/> |125 M  <br/> |6天以上  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
+|16核  <br/> |500 GB  <br/> |名  <br/> |多个心轴  <br/> |250 M  <br/> |8天  <br/> |2 h  <br/> |2 m  <br/> |10米  <br/> |
    
-\*这些不会因为的 QoE 指标数据库者必须分别有 9 和 18 个月的数据，但它们为了完整性，此处提供在实际部署中遇到。
+\*由于 QoE 指标数据库必须分别有9个和18个月的数据, 因此在实际部署中不会遇到这些错误, 但此处提供它们是为了实现完整性。
   
 ### <a name="service-account-requirements"></a>服务帐户要求
 
-您将需要 CQD 服务器上的 SQL 代理可用于将数据导入到 QoEArchiveDB （具有读取权限 QoEMetrics） 的帐户。
+你将需要一个帐户 (具有对 QoEMetrics 的读取访问权限), CQD 服务器上的 SQL 代理可以使用该帐户将数据导入到 QoEArchiveDB。
   
-您可能还需要将单独的帐户 SSAS 作业配置为提取数据，从 QoEArchiveDB （这是一个可选的过程）。
+你可能还需要为 SSA 作业配置单独的帐户, 以便从 QoEArchiveDB 提取数据 (这是一个可选的过程)。
   
-IIS 最常使用网络服务作为应用程序池标识，但可配置为服务帐户。
+IIS 最常使用网络服务作为应用池标识, 但可以配置为服务帐户。
   
 ### <a name="portal-access-control"></a>门户访问控制
 
-默认情况下，任何身份验证的用户具有访问权限。 这可以通过使用 IIS 授权规则将限制为特定组更改。
+默认情况下, 任何经过身份验证的用户都具有访问权限。 这可以通过使用 IIS 授权规则限制到特定组来进行更改。
   
 ### <a name="pre-install-requirements"></a>预安装要求
 
-这些说明假定的 QoE 指标数据库已安装和某个位置中的企业服务器拓扑 Skype 运行。
+这些说明假定 QoE 指标数据库已安装, 并且在 Skype for Business Server 拓扑中的某个位置运行。
   
 #### <a name="hardware-requirements"></a>硬件要求
 
-CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft Internet Information Server，因此 CQD 的最低硬件和软件要求基本上与这些依赖的组件相同。 但是，根据组织的要求围绕数据刷新 （这将取决于部分的组织将生成的 QoE 数据量） 和部署成本，其他部署注意事项应将。
+CQD 利用 Microsoft SQL Server、Microsoft SQL 分析服务器和 Microsoft Internet Information Server, 因此 CQD 的硬件和软件要求的最低程度与这些依赖组件基本相同。 但是, 根据组织对数据新鲜度的要求 (这将依赖于组织生成的 QoE 数据量) 和部署开销, 应执行其他部署注意事项。
   
 #### <a name="software-requirements"></a>软件要求
 
-在以下操作系统所需的 CQD:
+CQD 需要以下操作系统:
   
-- 使用 IIS 7.5 的 Windows Server 2008 R2
+- Windows Server 2008 R2 与 IIS 7。5
     
-- Windows Server 2012 with IIS 8.0
+- Windows Server 2012 和 IIS 8。0
     
-- 使用 IIS 8.5 的 Windows Server 2012 R2
+- Windows Server 2012 R2 与 IIS 8。5
 
-- Windows Server 2016 使用 IIS 10.0 (Skype 的业务服务器 2019 CQD 仅)
+- Windows Server 2016 与 IIS 10.0 (Skype for Business 服务器 2019 CQD)
     
-以下是 （层次结构顺序） 中所需的 IIS 角色服务：
+以下是所需的 IIS 角色服务 (按层次结构顺序):
   
 - Web 服务器
     
@@ -257,7 +257,7 @@ CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft I
     
   - ISAPI 筛选器
     
-  - 运行状况&amp;诊断
+  - 运行&amp;状况诊断
     
   - HTTP 日志记录
     
@@ -272,9 +272,9 @@ CQD 利用 Microsoft SQL Server、 Microsoft SQL Analysis Server 和 Microsoft I
   - IIS 管理控制台
     
 > [!NOTE]
->  请注意以下上述要求： > 3.5 和.Net framework 4.5 版。 两者均需 （具体而言，3.5 SP1，则需要）.> 中有些系统，如果 ASP.NET 是安装之前安装 IIS，则可能未在 IIS 中注册 ASP.NET。 通过不存在相应的.Net 版本和还缺少应用程序池配置中的.NET CLR 版本的应用程序池会出现该问题。 若要纠正此类问题 Windows Server 2008 R2 上的，执行`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`。 在 Windows Server 2012 和 Windows Server 2012 R2 上，执行`dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`跟删除"ServiceModel"模块从默认网站 IIS Manager.> 管理工具中是可选的但建议。
+>  请注意以下针对上述要求的情况: > 3.5 和4.5 版本的 .Net framework 可用。 两者都是必需的 (更具体地说, 需要 3.5 SP1)。 > 在某些系统中, 如果 ASP.NET 是在安装 IIS 之前设置, 则可能未在 IIS 中注册 ASP.NET。 通过在应用池配置中缺少对应 .Net 版本的应用程序池以及缺少 .NET CLR 版本的问题清单。 若要更正 Windows Server 2008 R2 上的此类问题`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`, 请执行。 在 Windows Server 2012 和 Windows Server 2012 R2 上, `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`执行后, 从 IIS 管理器中的默认网站删除 ">" 模块。管理工具是可选的, 但建议使用。
   
-若要安装使用 PowerShell 这些要求，运行以下命令：
+若要使用 PowerShell 安装这些要求, 请运行以下操作:
   
 ```
 import-module servermanager
@@ -284,7 +284,7 @@ import-module servermanager
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
-SQL Server 的以下版本支持：
+支持以下版本的 SQL Server:
   
 - SQL Server 2012
     
@@ -294,47 +294,47 @@ SQL Server 的以下版本支持：
 
 - SQL Server 2017
     
-出于性能原因，建议您使用商业智能或 Enterprise edition。 这些版本允许使用的多个分区文件可以并行，这是有益于处理数据跨越多个月份或更长时间处理。 
+出于性能原因, 建议使用商业智能或企业版。 这些版本允许使用可并行处理的多个分区文件, 这对于处理跨越多个月或更长时间的数据非常有用。 
   
-时不推荐; 以及支持标准版。 处理将受到限制在单个分区 （它需要安装过程中配置）。 
+虽然不建议使用标准版本, 但也支持标准版本。 处理将被限制为单个分区 (需要在安装期间配置)。 
   
-在所有情况下，必须安装"数据库引擎服务"和"Analysis Services"。 它是建议，但不是要求也安装了"管理工具-完成"功能，添加对 Analysis Services 的 SQL Server Management Studio 支持。 功能选择屏幕应类似于图。
+在所有情况下, 必须安装 "数据库引擎服务" 和 "Analysis Services"。 建议但不需要同时安装 "管理工具-完成" 功能, 这将为 Analysis Services 添加 SQL Server Management Studio 支持。 功能选择屏幕应如下图所示。
   
 ![SQL Server 功能要求](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
-配置时 SSAS 安装程序，在 Analysis Services 配置，设置为"多维和数据挖掘模式"的"服务器模式"。 
+配置 SSAS 设置时, 在 Analysis Services 配置中, 将 "服务器模式" 设置为 "多维和数据挖掘模式"。 
   
-在安装和配置 SQL Server 商业智能功能的更多帮助，请参阅[多维和数据挖掘模式下安装 Analysis Services](https://msdn.microsoft.com/en-us/library/ms143708%28v=sql.110%29.aspx)。
+有关安装和配置 SQL Server 商业智能功能的其他帮助, 请参阅[在多维和数据挖掘模式下安装 Analysis Services](https://msdn.microsoft.com/en-us/library/ms143708%28v=sql.110%29.aspx)。
   
 #### <a name="account-requirements"></a>帐户要求
 
-三个域服务帐户被建议的最小特权原则： 
+建议在最低权限原则上使用三个域服务帐户: 
   
-- 一个已经登录安全主体的 QoE 指标数据库 （与 db_datareader 权限） 和登录安全主体 （需要安装过程中创建链接服务器对象） 的 QoE 存档 SQL Server 实例中。 此帐户将用于运行 SQL Server 代理作业的"QoE 存档数据"步骤。
+- 一个已具有 QoE 指标数据库 (具有 db_datareader 权限) 的登录安全主体的用户和 QoE 存档 SQL Server 实例中的登录安全主体 (在设置过程中创建链接服务器对象所需)。 此帐户将用于运行 SQL Server 代理作业的 "QoE 存档数据" 步骤。
     
-- 一个用于运行 SQL Server 代理作业的"进程多维数据集"步骤。 安装程序将创建一个登录到 QoE 存档数据库的安全主体 (具有读取和写入权限) 和还创建多维数据集 （具有完全控制权限） 的 QoE 角色中的成员。
+- 将用于运行 SQL Server 代理作业的 "流程多维数据集" 步骤。 安装程序将创建一个登录安全主体来 QoE 存档数据库 (具有 "读取" 和 "写入" 权限), 还可在多维数据集的 QoE 角色 (具有 "完全控制" 权限) 中创建成员。
     
-- 一个用于运行程序的 web 门户和 web Api 的 IIS 工作进程。 安装程序将创建登录名 （具有读取权限） 的 QoE 存档数据库的安全主体，登录到存储库数据库安全主体 (与读取和写入权限)，并中的多维数据集 QoERole （具有完全控制权限） 的成员。 
+- 将用于针对 web 门户和 web Api 运行 IIS 辅助进程的一个。 安装程序将创建一个登录安全主体, 以 QoE 存档数据库 (具有读取权限)、对存储库数据库的登录安全主体 (具有读取和写入权限), 以及针对多维数据集的 QoERole 中的成员 (具有 "完全控制" 权限)。 
     
     > [!NOTE]
-    > 当 QoE 存档数据库和存储库数据库位于同一 SQL Server 中时，将创建只有一个登录安全主体具有两个用户之间的映射。 
+    > 当 QoE 存档数据库和知识库数据库都托管在同一 SQL Server 中时, 只会创建一个具有两个用户映射的登录安全主体。 
   
-前两个帐户可以逻辑视为"后端服务帐户"和最后一个帐户为"前端服务帐户"。 虽然不建议，就可以在所有情况下使用一个帐户。
+前两个帐户可以被逻辑视为 "后端服务帐户", 最后一个帐户是 "前端服务帐户"。 虽然不建议使用, 但在所有情况下都可以使用单个帐户。
   
 > [!NOTE]
-> 启动安装的用户帐户必须具有对 QoE 指标 DB 的读取权限以及 （除了具有对必须执行安装 QoE 存档数据库服务器计算机管理员权限）。 
+> 启动安装的用户帐户必须具有 QoE 指标 DB 的读取访问权限 (除了必须在其中进行安装的 QoE 存档数据库服务器上具有计算机管理员权限)。 
   
 ## <a name="capacity-planning"></a>容量规划
 <a name="Infrastructure_Req"> </a>
 
-CQD 专为对 QoEMetrics 影响最少： 优化了代码不锁定数据，并且可调导入作业。
+CQD 适用于 QoEMetrics 的最小影响: 代码已优化为不锁定数据, 导入作业是可调的。
   
-若要使用的硬件的类型取决于同步应运行速度的要求。 磁盘大小调整为，如下所示：
+要使用的硬件类型取决于您对同步运行速度的要求。 磁盘大小调整如下所示:
   
-- QoEArchive 最初是 ~1.5x 大于 QoEMetrics DB
+- QoEArchive 比 QoEMetrics DB 的初始速度高 ~ 1.5 x
     
-- SSIS 多维数据集压缩的数据，几乎 10 x 到数据库比较
+- SSIS 多维数据集将数据与数据库相比几乎10倍地压缩。
     
-- 数据分区每月;可以删除分区
+- 按月对数据进行分区;可以删除分区
     
 

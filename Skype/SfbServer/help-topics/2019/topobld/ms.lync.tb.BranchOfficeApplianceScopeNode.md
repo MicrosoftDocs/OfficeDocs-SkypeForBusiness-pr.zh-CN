@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: 95e736bb9c49fdddfa960ae08d32431348257f8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 此节点显示完全限定的域名 (FQDN)、关联的池和服务器以及有关此 Survivable 分支装置的复原信息。 可以执行以下操作：
+ms.openlocfilehash: 0a3128a18fe663ecef040ef774c873c5e8bd1d07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275897"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  
-此节点显示的完全限定的域名 (FQDN)，关联的池和服务器，以及此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
+此节点显示完全限定的域名 (FQDN)、关联的池和服务器以及有关此 Survivable 分支装置的复原信息。 可以执行以下操作：
   
-- **编辑属性**。 打开**编辑属性**页上的此 Survivable Branch Appliance，可在其中更改 FQDN （如果尚未已发布拓扑）、 关联和恢复能力设置。
+- **编辑属性**。 打开此 Survivable 分支设备的 "**编辑属性**" 页, 您可以在其中更改 FQDN (如果拓扑尚未发布)、关联和复原设置。
     
 - **删除**。从拓扑中删除服务器。
     

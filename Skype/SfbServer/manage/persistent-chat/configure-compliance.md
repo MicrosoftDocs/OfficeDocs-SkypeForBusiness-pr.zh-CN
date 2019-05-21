@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 摘要： 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
-ms.openlocfilehash: 07d1f69b6448dc215f97cffb96d5e86f1ab148be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。'
+ms.openlocfilehash: 81fcd9281efa0e897074ea154e9ae29a81aeb854
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910394"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279310"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
 
-**摘要：** 了解如何在 Skype for Business Server 2015 配置持久聊天服务器合规性服务。
+**摘要:** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
 
-持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录并存档与每个持久聊天服务器对话，包括当参与者相关的数据：
+持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录和存档与每个持久聊天服务器对话相关的数据, 包括参与者:
 
-- 加入持久聊天聊天室
+- 加入持久聊天室
 
 - 离开聊天室
 
@@ -39,7 +39,7 @@ ms.locfileid: "33910394"
 可根据需要，从合规性 SQL 数据库检索此信息。 
 
 > [!NOTE]
-> 持久聊天中的业务服务器 2015 Skype 可用但业务服务器 2019年不再支持在 Skype。 中团队提供了相同的功能。 有关详细信息，请参阅[从企业对 Microsoft 团队的 Skype 旅程](/microsoftteams/journey-skypeforbusiness-teams)。 如果您需要使用持久聊天，您的选择是也迁移要求给团队，此功能的用户或继续对业务服务器 2015年使用 Skype。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用 Windows PowerShell 配置合规性服务
 
@@ -59,7 +59,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - AdapterType - 允许您指定适配器类型。 适配器是一个第三方产品，可将合规性数据库中的数据转换为特定格式。 XML 为默认格式。
 
-- OneChatRoomPerOutputFile-此参数允许您指定的分隔每个聊天室创建的报告。
+- OneChatRoomPerOutputFile-此参数允许你指定为每个聊天室创建单独的报表。
 
 - AddChatRoomDetails - 启用时，此参数会在数据库中记录有关每个聊天室的其他详细信息。 由于此设置可大幅增加数据库的规模，默认将予以禁用。
 
@@ -71,23 +71,23 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 ## <a name="use-a-customized-compliance-adapter"></a>使用自定义的合规性适配器
 
-您可以编写自定义而不是使用随持久聊天服务器一起安装 XmlAdapter 适配器。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 您必须先在每台服务器的持久聊天服务器安装文件夹中将此程序集，在持久聊天服务器池。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
+你可以编写自定义适配器, 而不是使用随永久聊天服务器一起安装的 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
 
-Compliance.dll 程序集中的命名空间中定义接口`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 该接口定义您的自定义适配器必须实现的两种方法。
+该接口在命名空间`Microsoft.Rtc.Internal.Chat.Server.Compliance`中的合规 .dll 程序集中定义。 该接口定义您的自定义适配器必须实现的两种方法。
 
-首次加载适配器时，持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
+在适配器首次加载时, 持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置:
 
 ```
 void SetConfig(AdapterConfig config)
 ```
 
-持久聊天合规性服务器定期调用以下方法，只要没有要翻译的新数据。 此时间间隔等于`RunInterval`中的持久聊天合规性配置设置：
+只要有要翻译的新数据, 永久聊天合规性服务器将按定期时间间隔调用以下方法。 此时间间隔等于持久聊天合规`RunInterval`性配置中的设置:
 
 ```
 void Translate(ConversationCollection conversations)
 ```
 
-`ConversationCollection`包含的上次调用此方法时收集的对话信息。
+`ConversationCollection`包含上次调用此方法时收集的对话信息。
 
 ## <a name="customize-the-xslt-definition-file"></a>自定义 XSLT 定义文件
 
@@ -147,14 +147,14 @@ void Translate(ConversationCollection conversations)
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |Username  <br/> |发送者的名称。  <br/> |可选  <br/> |
-|ID  <br/> |发件人的唯一 id。  <br/> |是否必需  <br/> |
+|ID  <br/> |发件人的唯一 ID。  <br/> |是否必需  <br/> |
 |电子邮件  <br/> |发件人的电子邮件地址。  <br/> |可选  <br/> |
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
 |Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
 
-下面的示例演示了 Messages 元素可以包含邮件类型。 它还提供了如何使用每个元素的示例。
+以下示例显示了 Messages 元素可以包含的消息类型。 它还提供了如何使用每个元素的示例。
 
-加入的用户加入聊天室。
+加入-用户加入聊天室。
 
 ```
 <Message type="JOIN" content="" id="0">
@@ -163,7 +163,7 @@ void Translate(ConversationCollection conversations)
 </Message
 ```
 
-部件-用户离开聊天室。
+部分-用户离开聊天室。
 
 ```
 <Message type="PART" content="" id="0">
@@ -181,7 +181,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-聊天记录-用户请求聊天历史记录中的内容。
+Backchat-用户从聊天历史记录请求内容。
 
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -190,7 +190,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-文件上载-用户上载文件。
+文件上传-用户上传文件。
 
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">

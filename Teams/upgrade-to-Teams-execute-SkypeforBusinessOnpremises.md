@@ -1,12 +1,12 @@
 ---
-title: 为业务内部部署到的 Microsoft 团队升级 Skype |部署 |Lync
+title: 将本地 Skype for business 升级到 Microsoft 团队 |部署 |Lync
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 为业务本地部署从 Skype 升级到团队的注意事项。
+description: 从 Skype for Business 内部部署升级到团队的注意事项。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,53 +15,52 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7c5c4bfe6cf1ecac0e37600854941741a837480
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1b41de8f54eb0e2a09e7e3700b25cba1e5564f0a
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911423"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34288185"
 ---
-![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
+![升级旅程的阶段, 重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
-本文是您升级旅程的不同阶段提供部署和实施的一部分。 在继续之前，确认您已完成以下活动：
+本文是升级过程的部署和实施阶段的一部分。 继续之前, 请确认你已完成以下活动:
 
-- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
-- [执行试验](https://aka.ms/SkypeToTeams-Pilot)
+- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
+- [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从业务在本地部署 Skype 升级到团队
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 内部部署升级到团队
 
-请遵循本文中的指南，如果您已经部署了 for Business 的 Skype 或 Microsoft Lync 本地和贵组织希望如何升级到团队也有选择地 — 通过使用多个共存模式 — 或一体化。 第一步是设置混合连接性与 Office 365 租户，然后您将用户移至 Skype 业务 online 和将其分配适当的共存和升级模式。
+如果你已部署 Skype for business 或 Microsoft Lync 本地版, 并且你的组织希望通过使用多个共存模式 (或全部) 升级到 Microsoft 团队, 请按照本文中的指南操作。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>步骤 1： 部署混合连接性
+## <a name="step-1-deploy-hybrid-connectivity"></a>步骤 1: 部署混合连接
 
-将用户升级到团队的主要先决条件是部署混合连接性。 这样做可能会为您现有的 Skype 业务或 Lync 部署新的外部连接或只使用 Office 365 租户配置混合关系。
+将用户升级到团队的关键先决条件是部署混合连接。
 
-详细信息，请参阅[Deploy Skype 业务服务器和 Skype 业务 online 之间的混合连接性](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+有关详细信息, 请参阅[在 skype for Business 服务器与 skype for Business Online 之间部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>步骤 2： 将用户移动到业务 online Skype
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步骤 2: 为你的组织实施所选升级旅程
 
-在您完成混合安装程序后，将用户移至 Skype 中，为业务 Online。
+完成混合设置后, 您可以计划将用户移动到 Office 365。
 
-有关详细信息，请参阅[移动用户从本地到业务 online Skype](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+有关详细信息, 请参阅:
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>步骤 3： 分配共存并升级模式
+- [TeamsUpgradePolicy: 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
 
-您已为业务 Online 到 Skype 移动用户后，您可以将其分配基于您的组织已选择升级旅程的相应共存模式。 有关详细信息，请参阅[设置您共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy： 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
-
-> [!NOTE]
-> 与业务服务器 2019年和未来的业务服务器 2015 Skype 的累积更新的 Skype，您将能够单步执行 （将用户移动到 Skype 业务 online） 的步骤 2 和步骤 3 （向工作组的升级用户）。 发布的业务服务器 2019 Skype 之后，将提供详细信息。
+- [将用户从本地移动到 Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 
-如果您正在转换您从企业语音的业务的本地部署到与调用计划的电话系统的 Skype 和 Microsoft 将您的公用电话交换网 (pstn) 提供商 — 和假定您已完成的电话号码移植 — 将用户升级到团队将自动转换为团队的入站的 PSTN 呼叫。
+从本地电话系统过渡到团队将允许你利用手机系统直接路由 ("直接路由") 或 Microsoft 提供的适用于 Office 365 的呼叫计划。
 
-如果调用计划不可用，则需要转换为 Microsoft 电话系统直接路由企业语音部署。 若要向工作组升级您的用户，请参阅[电话系统直接路由的其他注意事项](2-envision-make-my-service-decisions-direct-routing.md)。
+如果您不使用 Office 365 中的通话计划, 则您需要将企业语音部署切换到手机系统直接路由, 作为您的团队升级的一部分。
+
+有关详细信息, 请参阅[手机系统直接路由的其他注意事项](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 如果您计划在 Office 365 中使用呼叫计划, 请参阅我们有关将[电话号码转移到 office 365](https://docs.microsoft.com/microsoftteams/transfer-phone-numbers-to-office-365)的指南。

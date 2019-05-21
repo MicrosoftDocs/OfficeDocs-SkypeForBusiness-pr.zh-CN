@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 德国可用的项目。
-ms.openlocfilehash: 75f51f767d92ea9b7a1b51457406ad0f5f43f21b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 41a07a2dd0e2c7d477ba47781f3ad7d9639bff0c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282927"
 ---
 # <a name="availability-in-germany"></a>在德国的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是 Office 365 服务的业务和 Microsoft 团队的 Skype 德国可用的项目。
+以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 法兰克福</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 法兰克福</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -60,8 +60,8 @@ ms.locfileid: "32226263"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|适用于调用计划的分钟数。 |每月有可用的四个规划选项： <ul><li>120 分钟国内调用规划 </li><li>240 分钟国内调用规划</li></li><li>1200 minute 国内调用规划 </li></li><li>国内和国际呼叫规划： 1200 分钟国内呼叫或国际呼叫 （前进到达第一个月内的日历） 的 600 分钟</li></li> 
-|可以发起出站呼叫到声讯电话号码？ <br/> | 不支持这一次。 <br/> |
+|通话计划可用的分钟数。 |每个日历月提供四个计划选项: <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际通话计划: 1200 分钟的国内呼叫或600分钟的国际通话 (在日历月份内首先达到)</li></li> 
+|是否可以拨出电话拨出收费号码？ <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

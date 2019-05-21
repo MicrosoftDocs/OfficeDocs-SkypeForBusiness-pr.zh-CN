@@ -1,10 +1,10 @@
 ---
-title: 为业务服务器中 Skype 定义紧急呼叫要求
+title: 在 Skype for Business 服务器中定义紧急呼叫的要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,33 +13,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: 总结了根据是否必须 SIP 中继 E9-1-1 服务提供商或 ELIN 网关启用业务 Server 企业语音，E9-1-1 Skype 中所需的步骤。
-ms.openlocfilehash: f7a7d34339cb16851705712ef7911194cde1b9f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 总结了在 Skype for Business 服务器企业语音中启用 E9 所需的步骤, 具体取决于你是否拥有 SIP 中继 E9 服务提供商或 ELIN 网关。
+ms.openlocfilehash: 9e6ccd4b93416d49993dbc24ee0592d130e25de8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925157"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276969"
 ---
-# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>为业务服务器中 Skype 定义紧急呼叫要求
+# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>在 Skype for Business 服务器中定义紧急呼叫的要求
  
-总结了根据是否必须 SIP 中继 E9-1-1 服务提供商或 ELIN 网关启用业务 Server 企业语音，E9-1-1 Skype 中所需的步骤。
+总结了在 Skype for Business 服务器企业语音中启用 E9 所需的步骤, 具体取决于你是否拥有 SIP 中继 E9 服务提供商或 ELIN 网关。
   
-Skype 业务服务器 E9-1-1 部署之前，首先应该能够回答以下各节详细的问题。 您需要执行的规划取决于选择部署的 E9-1-1 解决方案的类型 - SIP 中继 E9-1-1 服务提供商或紧急位置标识符号 (ELIN) 网关。 下表标识需要这些解决方案的每个查看此规划工作簿中的部分。
+开始使用 Skype for Business Server E9 部署之前, 应首先能够回答以下部分中详细介绍的问题。 您需要执行的规划取决于选择部署的 E9-1-1 解决方案的类型 - SIP 中继 E9-1-1 服务提供商或紧急位置标识符号 (ELIN) 网关。 下表标识了此规划工作簿中每个解决方案需要检查的部分。
   
 **按 E9-1-1 解决方案的类型显示的规划步骤**
 
 |**SIP 中继服务提供商**|**ELIN 网关**|
 |:-----|:-----|
-|[定义业务 Server 中 Skype E9-1-1 部署范围](scope.md) <br/> |[定义业务 Server 中 Skype E9-1-1 部署范围](scope.md) <br/> |
-|[定义用于确定业务服务器中 Skype 位置的网络元素](network-location.md) <br/> |[定义用于确定业务服务器中 Skype 位置的网络元素](network-location.md) <br/> |
-|[为用户启用 E9-1-1 在 Skype 业务服务器](enable-users.md) <br/> |[为用户启用 E9-1-1 在 Skype 业务服务器](enable-users.md) <br/> |
-|[管理 Business Server Skype SIP 中继服务提供商的位置](manage-locations.md) <br/> |[管理 ELIN 网关 Skype 中的业务服务器的位置](elin-gateways.md) <br/> |
-|[定义手动获取业务服务器的 Skype 中的位置的用户体验](manually-acquiring-a-location.md) <br/> |[定义手动获取业务服务器的 Skype 中的位置的用户体验](manually-acquiring-a-location.md) <br/> |
-|[SIP 中继的设计 E9-1-1 在 Skype 业务服务器](design-the-sip-trunk.md) <br/> |[为业务服务器中 Skype 包括安全服务台](security-desk.md) <br/> |
-|[为业务服务器中 Skype 包括安全服务台](security-desk.md) <br/> |[规划业务 Server Skype 的位置策略](location-policies.md) <br/> |
-|[选择 Skype for Business Server 的 E9-1-1 服务提供商](choose-a-service-provider.md) <br/> |[为业务服务器分配位置策略作用域中 Skype](location-policy-scope.md) <br/> |
-|[规划业务 Server Skype 的位置策略](location-policies.md) <br/> ||
-|[为业务服务器分配位置策略作用域中 Skype](location-policy-scope.md) <br/> ||
+|[在 Skype for Business 服务器中定义 E9 部署的范围](scope.md) <br/> |[在 Skype for Business 服务器中定义 E9 部署的范围](scope.md) <br/> |
+|[定义用于确定 Skype for Business 服务器中的位置的网络元素](network-location.md) <br/> |[定义用于确定 Skype for Business 服务器中的位置的网络元素](network-location.md) <br/> |
+|[在 Skype for business 服务器中启用 E9-1-1 的用户](enable-users.md) <br/> |[在 Skype for business 服务器中启用 E9-1-1 的用户](enable-users.md) <br/> |
+|[在 Skype for Business Server 中管理 SIP 中继服务提供商的位置](manage-locations.md) <br/> |[管理 Skype for Business Server 中的 ELIN 网关的位置](elin-gateways.md) <br/> |
+|[定义在 Skype for Business 服务器中手动获取位置的用户体验](manually-acquiring-a-location.md) <br/> |[定义在 Skype for Business 服务器中手动获取位置的用户体验](manually-acquiring-a-location.md) <br/> |
+|[在 Skype for Business 服务器中设计 E9 的 SIP 主干-1-1](design-the-sip-trunk.md) <br/> |[在 Skype for Business 服务器中包括安全桌面](security-desk.md) <br/> |
+|[在 Skype for Business 服务器中包括安全桌面](security-desk.md) <br/> |[为 Skype for Business Server 规划位置策略](location-policies.md) <br/> |
+|[选择 Skype for Business Server 的 E9-1-1 服务提供商](choose-a-service-provider.md) <br/> |[在 Skype for Business 服务器中分配位置策略范围](location-policy-scope.md) <br/> |
+|[为 Skype for Business Server 规划位置策略](location-policies.md) <br/> ||
+|[在 Skype for Business 服务器中分配位置策略范围](location-policy-scope.md) <br/> ||
    
 

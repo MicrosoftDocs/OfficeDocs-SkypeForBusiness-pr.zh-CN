@@ -1,29 +1,29 @@
 ---
-title: 将监控报告与 Skype 中的镜像数据库相关联的业务服务器
+title: 将监视报告与 Skype for Business 服务器中的镜像数据库相关联
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 摘要： 了解如何将监控报告与业务服务器使用 Skype 镜像数据库相关联。
-ms.openlocfilehash: c598e8c14c5a592203501ca40264232ce344b2bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何将监视报告与 Skype for business Server 使用的镜像数据库相关联。'
+ms.openlocfilehash: 0727a278b87edd0b3666b04d169dcd3460c8215c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894533"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273964"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监控报告与 Skype 中的镜像数据库相关联的业务服务器 
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监视报告与 Skype for Business 服务器中的镜像数据库相关联 
  
-**摘要：** 了解如何将监控报告与业务服务器使用 Skype 镜像数据库相关联。
+**摘要:** 了解如何将监视报告与 Skype for business 服务器使用的镜像数据库相关联。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>监控报告与镜像数据库
 
-如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是，如果发生故障转移 Skype 用于业务服务器监控报告，您可能会发现，您监控报告未连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
+如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是, 如果你使用 Skype for Business 服务器监视报告, 并且发生故障转移, 你可能会发现你的监视报告未连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
   
 要使监控报告自动故障转移到镜像数据库，您必须将镜像数据库作为“故障转移合作伙伴”添加到监控报告使用的两个数据库（一个数据库用于存放呼叫详细信息记录数据，另一个用于存放用户体验质量 (QoE) 数据）。（注意，此步骤应在安装监控报告后执行。）您可以通过手动编辑这两个数据库使用的连接字符串值来添加故障转移伙伴信息。为此，请完成以下过程：
   
@@ -41,7 +41,7 @@ ms.locfileid: "33894533"
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 这样，就会 ' **Reports_Content**页上的 Skype 业务服务器监控报告。
+2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 将转到 Skype for Business 服务器监视报告的**Reports_Content**页面。
     
 3. 在“**Reports_Content**”页上，单击“**CDRDB**”数据源。
     
@@ -67,6 +67,6 @@ ms.locfileid: "33894533"
     
 ## <a name="see-also"></a>另请参阅
 
-[为业务服务器在 Skype 安装监控报告](install-monitoring-reports.md)
+[在 Skype for Business 服务器中安装监视报告](install-monitoring-reports.md)
   
-[使用监控报告中 Skype 业务服务器](../../manage/health-and-monitoring/monitoring-reports.md)
+[在 Skype for Business 服务器中使用监视报告](../../manage/health-and-monitoring/monitoring-reports.md)

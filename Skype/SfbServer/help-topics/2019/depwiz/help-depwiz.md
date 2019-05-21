@@ -3,24 +3,24 @@ title: Help-DepWiz
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.date: 1/1/1900
-manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: 部署向导主题
-ms.openlocfilehash: bb645e67087d88f4d7f80afde7d7282b7f2afe25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 987e66cffb5b00442067ae7b828f154a06201166
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275742"
 ---
 # <a name="help-depwiz"></a>Help-DepWiz
  
-此节点中的主题提供业务 Server 部署向导的 Skype 的帮助。
+此节点中的主题提供 Skype for Business 服务器部署向导的帮助。
   
 
   

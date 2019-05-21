@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。 为此，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 9dcc8f2f69843de5d824ad3df614631ea0d50c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915057"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274287"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。为此，请在“**全局拓扑**”页上双击要编辑的站点。
 
-规划工具显示所选的站点的站点拓扑。 在站点页面的底部有四个选项卡：
+规划工具将显示所选网站的站点拓扑。 在站点页面的底部有四个选项卡：
 
 ![规划工具 - 站点拓扑](../../media/Planning_Tool_Site_Topology.png)
 
-- 站点拓扑-当前显示的页面与所推荐的拓扑的概览。
+- 站点拓扑-当前显示的页面, 其中包含拓扑的可视概述 (如推荐)。
 
-- 边缘网络图-边缘网络图页是其中设计器完成大部分在规划工具中工作。 图表显示业务服务器 2015年拓扑建议 Skype 的网络配置，可编辑条目的 IP 地址和 Fqdn 服务器、 池，并同时硬件和域名系统 (DNS) 负载平衡器。
+- 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Skype for business Server 2015 拓扑的网络配置, 其中包含用于服务器、池以及硬件和域名系统 (DNS) 负载平衡器的 "IP 地址" 和 "Fqdn" 的可编辑条目。
 
-- 边缘管理报告-边缘管理报告包含四个报表，总计：
+- Edge 管理员报告-Edge 管理员报告总共包含四个报告:
 
      ![“边缘管理报告”页](../../media/Planning_Tool_Summary_Report.png)
 
-  - 摘要报告-常规边缘网络配置设置的报告。 如果将“**边缘网络图**”页上的值编辑为将在实际部署中使用的拓扑 TCP/IP 和 FQDN 值，则会在此处显示那些地址和名称。 否则将显示默认文本。
+  - 摘要报告-边缘网络配置设置的一般报告。 如果将“**边缘网络图**”页上的值编辑为将在实际部署中使用的拓扑 TCP/IP 和 FQDN 值，则会在此处显示那些地址和名称。 否则将显示默认文本。
 
-  - 证书报告-证书报告将列出的使用者名称和使用者替代名称，证书所需的拓扑。
+  - 证书报告-证书报告将列出拓扑所需证书的主题名称和使用者备用名称。
 
-  - 防火墙报告-防火墙报告列出了外围防火墙配置基础结构中所需的信息。 其中包括 IP 地址（默认值或编辑的值）、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关的说明。
+  - 防火墙报告-防火墙报告列出了配置基础结构中的外围防火墙所需的信息。 其中包括 IP 地址（默认值或编辑的值）、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关的说明。
 
-  - DNS 报告-DNS 报告列出了您必须创建 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
+  - DNS 报告-DNS 报告列出了必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-- 网站摘要-网站摘要概述由回答初始面试问题或填写**设计网站**中的值所做的选择。 此外，还显示容量信息。
+- 网站摘要-"网站摘要" 概括介绍了您通过回答初始的 "面试问题" 或填写 "**设计网站**" 中的值所做的选择。 此外，还显示容量信息。
 
     > [!NOTE]
     > “站点摘要”页上的信息可针对每个设计进行自定义，可能不包含此处详细介绍的所有内容或信息。
@@ -51,11 +51,11 @@ ms.locfileid: "33915057"
 ## <a name="edit-the-network-configuration-diagram"></a>编辑网络配置图
 <a name="Edit_Network_diagram"> </a>
 
-在网络图上定义的 IP 地址和条目完全限定的域名 (Fqdn) 的项包含大部分设计器中 Skype 作用业务 Server 2015 规划工具工作。 在此页输入的信息可延伸到的报告，并在规划工具中包含的其他信息。
+设计器在 Skype for Business Server 2015 规划工具中执行的大部分工作包括定义 IP 地址的条目和网络图中条目的完全限定的域名 (Fqdn)。 在此页面上输入的信息将传递到 "规划工具" 中包含的报表和其他信息中。
 
 ![规划工具 - 网络图](../../media/Planning_Tool_Network_Diagram.png)
 
-规划工具创建网络图与 IP 地址和 Fqdn 的默认文本。
+规划工具使用 IP 地址和 Fqdn 的默认文本创建网络图。
 
 编辑网络图和输入值：
 
@@ -77,7 +77,7 @@ ms.locfileid: "33915057"
 
 完成所有编辑后，执行以下步骤以保存拓扑：
 
-若要保存的规划工具的设计，单击**文件**，然后单击**保存拓扑**或**将拓扑另存为**。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
+若要保存规划工具设计, 请单击 "**文件**", 然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
 
 ## <a name="see-also"></a>另请参阅
 <a name="Edit_Network_diagram"> </a>

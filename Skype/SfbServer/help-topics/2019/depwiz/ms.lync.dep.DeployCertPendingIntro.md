@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertPendingIntro
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
-description: 处理待处理联机证书请求，即，请求已颁发给您的联机证书颁发机构，但管理性设置需要手动审批过程中，单击下一步。
-ms.openlocfilehash: 38a9f9f1da0336acbbf47a5dc8af29ba0acabffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 若要处理挂起的联机证书请求 (即已颁发给您的联机证书颁发机构但管理员设置为需要手动审核流程的请求), 请单击 "下一步"。
+ms.openlocfilehash: 5e31b8977b29233140969e1c6f632e5ea66a0741
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894077"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275428"
 ---
 # <a name="pending-certificate-intro"></a>待处理的证书（简介）
  
-处理待处理联机证书请求，即已颁发给您的联机证书颁发机构，但管理性设置需要手动审批过程，请单击**下一步**的请求。
+若要处理挂起的联机证书请求 (即已颁发给您的联机证书颁发机构但管理员设置为需要手动审核流程的请求), 请单击 "**下一步**"。
   
 

@@ -1,10 +1,10 @@
 ---
-title: 为业务服务器中 Skype 包括安全服务台
+title: 在 Skype for Business 服务器中包括安全桌面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: 规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
-ms.openlocfilehash: d52d5dcd1c7cfb0cbb9db16740734b0171b44449
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server 企业语音中, 计划如何在 E9 部署中加入组织的安全桌面。
+ms.openlocfilehash: 7be3533879f36c897d148194345e1496945359b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913468"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276452"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>为业务服务器中 Skype 包括安全服务台
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>在 Skype for Business 服务器中包括安全桌面
  
-规划如何将贵组织的安全服务台包含业务 Server 企业语音的 Skype E9-1-1 部署中。
+在 Skype for business Server 企业语音中, 计划如何在 E9 部署中加入组织的安全桌面。
   
 公司可能要求安全服务台参与紧急呼叫。为帮助确定如何将安全服务台集成到 E9-1-1 部署，应回答以下问题。
   
 **发出紧急呼叫时，是否希望通知安全服务台？**
   
-您可以配置位置策略，以便 Skype 业务服务器向一个或多个安全人员业务 SIP 地址 Skype 发送即时消息 (IM) 通知。 这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。
+你可以配置位置策略, 以便 Skype for Business 服务器向一个或多个安全人员的 Skype for business SIP 地址发送即时消息 (IM) 警报。 这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。
     
 **是否要在发出每个紧急呼叫时通知安全服务台？**
   

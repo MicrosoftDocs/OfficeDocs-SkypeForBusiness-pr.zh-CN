@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e779b3f9aaf5c88bb64e1045f5743e4c4a238d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229401"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273724"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
@@ -41,16 +41,16 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) 使用 Skype for Business 管理中心
 
-1. 转到**Microsoft 团队管理中心** > **旧门户**。
+1. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
-2. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议**。
+2. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**"。
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. 对于用户，在**提供程序名称**下的属性页上选择下拉列表中的**Microsoft** 。
+4. 在用户的属性页上, 在 "**提供商名称**" 下的下拉列表中选择 " **Microsoft** "。
     
     > [!NOTE]
-    > 因为您使用 Microsoft 为音频会议提供商，并且有多个电话号码，您可以使用**默认收费电话号码**下拉列表选择一个默认音频号以供用户。
+    > 由于你使用 Microsoft 作为音频会议提供商, 并且有多个电话号码, 你可以使用 "**默认收费号码**" 下拉列表选择用户的默认音频号码。
   
 5. 单击“**保存**”。
 
@@ -59,17 +59,17 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>对少量用户使用 Windows PowerShell 脚本
 
-来节省时间或自动此操作，可以使用以下 PowerShell 脚本以将 Microsoft 设置为少量用户音频会议提供商。
+为节省时间或自动执行此操作, 你可以使用以下 PowerShell 脚本将 Microsoft 设置为适用于少数用户的音频会议提供商。
 
 > [!NOTE]
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
 
   
-要更改为小型数量的用户的 Microsoft 提供程序，您可以使用[启用 CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet。
+若要为少量用户将提供商更改为 Microsoft, 你可以使用[get-csonlinedialinconferencinguser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet。
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>对大量用户使用 Windows PowerShell 脚本
-要保存时间或自动化这，可以使用以下 PowerShell 脚本的大量用户将 Microsoft 设置为音频会议提供商。
+为了节省时间或自动执行此操作, 你可以使用以下 PowerShell 脚本将 Microsoft 设置为大量用户的音频会议提供商。
 
 When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
@@ -89,7 +89,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**示例 3:** 本示例中，您可以使用此脚本更改 Intercall 的音频会议提供程序 （或其他提供程序） 到**Microsoft**的大用户数组织中。
+**示例 3:** 在此示例中, 你可以使用此脚本将音频会议提供商从 Intercall (或另一个提供商) 更改为你组织中的大量用户的**Microsoft** 。
     
   ```
   Script.ps1 -ACPProviderName <Provider>
@@ -195,6 +195,6 @@ Script.ps1 -CsvFile <Path of the csv file>
 有关使用 Windows PowerShell 的详细信息，请参阅[使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)。
   
 ## <a name="related-topics"></a>相关主题
-[尝试或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[设置业务 online Skype](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[在 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+中试用或购买音频会议[设置 Skype for business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

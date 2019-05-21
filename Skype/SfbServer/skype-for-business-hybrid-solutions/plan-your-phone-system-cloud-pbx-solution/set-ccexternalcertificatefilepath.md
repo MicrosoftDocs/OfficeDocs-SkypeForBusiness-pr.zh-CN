@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath cmdlet 指定中介服务器或边缘服务器的证书的存储路径。
-ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc22771c20277d9de99660551864d600f06b3acc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895347"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286983"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -62,7 +62,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 在部署过程中或修改拓扑时，需要为边缘服务器证书指定路径，也可以选择为中介服务器证书指定路径。 
   
-如果将在网关与中介服务器之间使用 TLS，需要中介服务器的证书。 当您部署云连接器 appliance，并且想要部署 TLS 时，您只能在中介服务器上指定将部署证书的路径。 但是，如果你希望更新已部署的设备上的中介证书，则需要指定路径和 -Import 参数。 要查看参数，请使用 Get-CCExternalCertificateFilePath cmdlet。
+如果将在网关与中介服务器之间使用 TLS，需要中介服务器的证书。 部署云连接器设备并希望部署 TLS 时, 只能指定将在中介服务器上部署的证书的路径。 但是，如果你希望更新已部署的设备上的中介证书，则需要指定路径和 -Import 参数。 要查看参数，请使用 Get-CCExternalCertificateFilePath cmdlet。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
