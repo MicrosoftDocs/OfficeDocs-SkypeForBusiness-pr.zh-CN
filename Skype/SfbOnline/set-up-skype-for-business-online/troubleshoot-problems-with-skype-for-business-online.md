@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237180"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285051"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 
@@ -31,9 +31,9 @@ ms.locfileid: "32237180"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>解决 Skype for Business Online 问题（管理员）
 
-您可以获得通过[检查 Skype 业务 Online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)Online 业务问题您 Skype 大部分解答。 此知识库文章中还包括许多故障排除资源和错误代码参考：[如何解决 Skype for Business Online 中的登录问题](https://go.microsoft.com/fwlink/p/?LinkId=747952)。
+你可以通过[检查 skype for Business online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)来获取大多数 skype For business online 问题的答案。 此知识库文章中还包括许多故障排除资源和错误代码参考：[如何解决 Skype for Business Online 中的登录问题](https://go.microsoft.com/fwlink/p/?LinkId=747952)。
 
-对于电话拨入式会议的问题，请参阅[音频会议疑难解答和已知的问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
+有关电话拨入式会议问题, 请参阅[音频会议疑难解答和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>有关 Skype for Business Online 管理员问题的其他帮助
 
@@ -65,7 +65,7 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 
 - [Skype for Business 会议帮助](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Skype 的业务培训](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Skype for Business 培训](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [在 Skype for Business 中演示程序](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 

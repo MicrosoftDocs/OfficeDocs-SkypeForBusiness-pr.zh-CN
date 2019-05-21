@@ -1,10 +1,10 @@
 ---
-title: 创建或修改代理组中的业务的 Skype
+title: 在 Skype for Business 中创建或修改代理组
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,39 +13,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: 创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 43d4abba518b99a52b67a1c3bfe22abdea28d679
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server 企业版中, 在响应组中创建或修改代理组。
+ms.openlocfilehash: 0481e8048245908c757cf0dd1ecaed5d69291cb3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892900"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286202"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>创建或修改代理组中的业务的 Skype
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在 Skype for Business 中创建或修改代理组
  
-创建或修改代理组在响应组的 Skype 业务 Server 企业语音。
+在 Skype for business Server 企业版中, 在响应组中创建或修改代理组。
   
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。 
   
-必须登录组和从组中，这是不同签名或从中注销 for Business 的 Skype，注销的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 通过单击 Skype for Business 打开 Windows Internet Explorer Internet 浏览器并显示网页控制台中的菜单项，正式代理登录其组中注销。
+必须登录和注销组 (不同于登录或注销 Skype for Business) 的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项来登录和注销其组, 打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
   
-不登录到组或从组注销的代理称为 非正式代理。 非正式代理都自动登录到组中登录到 Skype for Business，和从组注销的他们不能登录时。
+不登录到组或从组注销的代理称为 非正式代理。 当用户登录到 Skype for Business 时, 非正式代理会自动登录到该组, 并且不能注销该组。
   
-仅本地用户可成为代理。 如果代理从内部部署移到 online 时，响应组呼叫将不会被路由到的代理。
+仅本地用户可成为代理。 如果代理从本地移动到联机, 则响应组调用将不会路由到该代理。
   
 使用下列过程之一可创建或修改代理组。
   
 > [!IMPORTANT]
 > 如果将用户分配为响应组代理，需告知用户，如果用户已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>若要使用的业务 Server Control Panel Skype 创建或修改代理组
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>使用 "Skype for Business 服务器" 控制面板创建或修改代理组
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可创建组并在管理的工作流中使用这些组。 
   
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“响应组”****，然后单击“组”****。
     
@@ -61,9 +61,9 @@ ms.locfileid: "33892900"
     
 7. 在“参与策略”**** 中，选择下列操作之一，从而设置组的登录行为：
     
-   - 选择“非正式”**** 指定组中的代理无需登录组和从组中注销。 代理是自动登录到组中登录到 for Business 的 Skype 时。
+   - 选择“非正式”**** 指定组中的代理无需登录组和从组中注销。 当代理登录到 Skype for Business 时, 会自动登录到该组。
     
-   - 选择“正式”**** 指定组中的代理必须登录到组和从组中注销。 时选择此选项，单击代理中的业务问题需要打开 Internet Explorer 并显示网页控制台进行签名和从组注销的 Skype 的菜单项。
+   - 选择“正式”**** 指定组中的代理必须登录到组和从组中注销。 选择此选项时, 代理将单击 Skype for Business 中的菜单项以打开 Internet Explorer, 并显示用于登录和注销组的网页控制台。
     
 8. 在“警报时间(秒)”**** 中，指定将呼叫转至下一个空闲的代理之前，向某位代理响铃的秒数（默认为 20 秒）。
     
@@ -72,7 +72,7 @@ ms.locfileid: "33892900"
   
 9. 在“路由方法”**** 中，选择将呼叫路由至组中代理的方法，具体如下：
     
-   - 若要将新呼叫首先交给空闲时间最长的代理 （已**空闲**或**非活动**状态时间最长的业务的 Skype 中），单击**最长空闲时间**。 
+   - 若要首先向已闲置时间最长的工程师 (在 Skype for Business 中有最长的**可用**或**非活动**状态) 提供新呼叫, 请单击 "**最长空闲**"。 
     
    - 若要将新呼叫同时路由至所有空闲的代理，请单击“并行”****。呼叫将发往第一个接受该呼叫的代理。
     
@@ -80,7 +80,7 @@ ms.locfileid: "33892900"
     
    - 若要将新呼叫始终按照“代理”**** 列表中代理的排列顺序路由至代理，请单击“串行”****。 
     
-   - 若要将新呼叫路由至所有代理已经商业和相同时间，而不考虑其当前状态，响应组应用程序登录到 Skype 单击**助理**。 配置为代理的用户可查看所有正在等待的呼叫，并可以按任意顺序应答等待中的呼叫。 呼叫将发往第一个接受该呼叫的代理，之后，其他代理不会再看到此呼叫。
+   - 若要为所有登录到 Skype for Business 和响应组应用程序的代理提供新的呼叫, 而不考虑其当前状态, 请单击 "**助理**"。 配置为代理的用户可查看所有正在等待的呼叫，并可以按任意顺序应答等待中的呼叫。 呼叫将发往第一个接受该呼叫的代理，之后，其他代理不会再看到此呼叫。
     
 10. 在“代理”**** 中，指定创建代理列表要采用的方式：
     
@@ -105,17 +105,17 @@ ms.locfileid: "33892900"
       - 如果通讯组列表包含已启用 Lync Server 2010 但未启用企业语音的用户，它们将作为不正常的代理添加到代理组。确保通信组列表的所有成员已为其用户帐户启用企业语音。
     
     > [!IMPORTANT]
-    > 如果使用电子邮件通讯组列表，隐藏成员身份或隐藏的列表可能会变为可见响应组管理员或用户。 
+    > 如果您使用电子邮件通讯组列表, 响应组管理员或用户可能会看到隐藏的成员身份或隐藏的列表。 
   
     在下列情况中，可以看见隐藏成员身份或隐藏列表：
     
-     - 如果配置了通讯组列表，以便隐藏成员身份和响应组管理员将通讯组列表分配到代理列表，用户可以呼叫要了解谁是成员的组。 
+     - 如果配置了通讯组列表以使成员身份处于隐藏状态, 并且响应组管理员将通讯组列表分配给代理列表, 则用户可以调用该组以查明成员的成员。 
     
-     - 如果配置了通讯组列表，以便其 Exchange 全球通讯簿中隐藏，响应组管理员可能能够看到通讯组列表并将其分配到代理列表中，如果响应组过程具有相应的用户的权限和权限，即使管理员没有适当的用户权限和权限。
+     - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏, 则响应组管理员可能能够查看通讯组列表并将其分配给代理列表 (如果响应组进程具有相应的用户权限), 并且权限, 即使管理员没有相应的用户权利和权限也是如此。
     
 11. 单击“**提交**”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>若要使用 Skype 的业务 Server 命令行管理程序创建或修改代理组
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>使用 Skype for Business Server Management Shell 创建或修改代理组
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
@@ -144,10 +144,10 @@ ms.locfileid: "33892900"
 
 ## <a name="see-also"></a>另请参阅
 
-[Get-csservice](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[新 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[新-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
-[设置 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
-[Get-csrgsagentgroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
+[CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)

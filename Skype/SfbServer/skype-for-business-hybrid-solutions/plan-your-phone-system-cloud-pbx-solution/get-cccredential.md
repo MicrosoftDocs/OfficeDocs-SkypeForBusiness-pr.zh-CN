@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233993"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287333"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。 
   
-使用版本 2.0 及更高版本，您还可以使用-DisplayPassword 参数 TenantAdmin、 DomainAdmin，和 VMAdmin 显示相应的密码。
+使用版本2.0 和更高版本, 你还可以使用-DisplayPassword 参数显示 TenantAdmin、DomainAdmin 和 VMAdmin 的密码。
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin： 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin：云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
+| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin: 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin：云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

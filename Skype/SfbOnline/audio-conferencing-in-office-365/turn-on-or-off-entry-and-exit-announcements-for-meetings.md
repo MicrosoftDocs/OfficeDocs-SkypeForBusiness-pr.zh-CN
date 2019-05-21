@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何使用 Skype for Business 管理中心打开或关闭 Skype for Business Online 会议的加入和退出公告。 '
-ms.openlocfilehash: b9341a2011127b5a188d3d8ae2c507b097aaea65
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 246d6197142906b2a15f4bd4dfbeeb59dc4e723d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203434"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302777"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>打开或关闭 Skype for Business Online 中的会议加入和退出公告
 
@@ -41,13 +41,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
     
-1. 在**业务管理中心的 Skype**，在左侧导航窗格中，转到**音频会议** > **Microsoft 网桥的设置**。
+1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
     
 2. Under **Meeting join experience**, select or clear **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
 3. 在**进入/退出公告类型**下，选择**姓名或电话号码** 或 **提示音**。
     
-4. 选中或取消选中**Ask 呼叫者在记录其姓名之前加入会议**。
+4. 选中或取消选中 "**要求呼叫者在加入会议之前录制其姓名**"。
     
 5. 完成更改后，单击" **保存**"。
     

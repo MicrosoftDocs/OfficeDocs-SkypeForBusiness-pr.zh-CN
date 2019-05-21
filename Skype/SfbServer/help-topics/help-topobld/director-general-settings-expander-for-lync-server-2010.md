@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 若要配置控制器或控制器池的常规属性：
-ms.openlocfilehash: 6c5b53ffc04784b9dcb4113237bf4022d5f7eb2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '要配置 Director 或控制器池的常规属性, 请执行以下操作:'
+ms.openlocfilehash: 980b1f84d4d56a984b66f8bf1d027e207b3b921d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915372"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302362"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的控制器常规设置扩展器
  
-若要配置控制器或控制器池的**常规**属性：
+要配置 Director 或控制器池的**常规**属性, 请执行以下操作:
   
- **FQDN**： 键入控制器或控制器池的完全限定的域名
+ **FQDN**: 键入 Director 或控制器池的完全限定的域名
   
  **关联**
   
- **文件存储**： 从列表中选择控制器或控制器池的文件存储
+ **文件存储**: 从列表中选择用于 Director 或控制器池的文件存储
   
-单击**新建**以定义一个新的文件存储区
+单击 "**新建**" 以定义新的文件存储
   
-选择**关联监控服务器**复选框，然后从列表中选择监控服务器
+选中 "**关联监视服务器**" 复选框, 然后从列表中选择一个监视服务器
   
-单击**新建**以定义新的监控服务器
+单击 "**新建**" 以定义新的监视服务器
   
  **确定** 接受更改并通过对话框提交更改。
   

@@ -1,25 +1,25 @@
 ---
-title: 为业务 Server 中手动清除呼叫详细信息记录和 Skype 中的用户体验质量数据库
+title: 在 Skype for Business 服务器中手动清除呼叫详细信息录制和体验数据库的质量
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 摘要： 了解如何手动清除 CDR 和 QoE 数据库 for Business Server 使用的 Skype 的记录。
-ms.openlocfilehash: 547200d01cff52038fcfe5430cbe453799be2431
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何从 CDR 和 Skype for Business Server 使用的 QoE 数据库中手动清除记录。'
+ms.openlocfilehash: c995611704c2fed04461da0b311e8a4141fc4908
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282327"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>为业务 Server 中手动清除呼叫详细信息记录和 Skype 中的用户体验质量数据库
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>在 Skype for Business 服务器中手动清除呼叫详细信息录制和体验数据库的质量
  
-**摘要：** 了解如何手动清除 CDR 和 QoE 数据库 for Business Server 使用的 Skype 的记录。
+**摘要:** 了解如何从供 Skype for Business Server 使用的 CDR 和 QoE 数据库中手动清除记录。
   
 可以手动或自动清除 CDR 和 QoE 数据库的记录。清除记录非常重要，这样做数据不会变得过时或者需要从开始比较基准重置报告。
   
@@ -27,15 +27,15 @@ ms.locfileid: "33894442"
 
 管理员可将呼叫详细信息记录 (CDR) 和/或用户体验质量 (QoE) 数据库配置为自动从数据库中清除旧记录；当已对指定数据库（CDR 或 QoE）启用清除时以及数据库中有任何记录的期限长于指定的时间量时，就会出现上述情况。例如，在每天的 1:00 AM，管理员可能会配置系统，以便从 QoE 数据库中删除期限长于 60 天的 QoE 记录。
   
-除了自动清除，两个新 cmdlet & #x 2014;Invoke-cscdrdatabasepurge 和调用 CsQoEDatbasePurge & #x 2014;已添加到 Skype 业务服务器;这些 cmdlet，管理员可以随时从 CDR 和 QoE 数据库手动清除记录。 例如，若要从 CDR 数据库中手动清除所有期限长于 10 天的记录，则可以使用类似于下面的命令：
+除了自动清除外, 两个新 cmdlet & # x2014;Invoke-CsCdrDatabasePurge 和 Invoke-CsQoEDatbasePurge & # x2014;已添加到 Skype for Business 服务器;这些 cmdlet 允许管理员随时手动清除 CDR 和 QoE 数据库中的记录。 例如，若要从 CDR 数据库中手动清除所有期限长于 10 天的记录，则可以使用类似于下面的命令：
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-上述命令中同时呼叫详细信息记录和诊断数据记录早于 10 天从 atl-sql-001.litwareinc.com 上的监控数据库中删除。 （呼叫详细记录是用户/会话报告。 诊断数据记录是由如 Skype 业务服务器的客户端应用程序上载诊断日志）。
+在前面的命令中, 将从 atl-sql-001.litwareinc.com 上的监视数据库中删除呼叫详细记录和超过10天的诊断数据记录。 (呼叫详细记录是用户/会话报告。 诊断数据记录是由客户端应用程序 (如 Skype for Business 服务器) 上载的诊断日志。
   
-如上所述，当运行 Invoke-CsCdrDatabasePurge cmdlet 时，您必须同时包含 PurgeCallDetaiDataOlderThanDays 和 PurgeDiagnosticDataOlderThanDays 参数。 但是，不一定要将这些参数设置为相同的值。 例如，可以清除所有期限长于 10 天的呼叫详细信息记录，同时将所有诊断数据记录保留在数据库中。 为此，设置为 10，PurgeDiagnosticDataOlderThanDays 为 0 PurgeCallDetailDataOlderThanDays。 例如：
+如上所述，当运行 Invoke-CsCdrDatabasePurge cmdlet 时，您必须同时包含 PurgeCallDetaiDataOlderThanDays 和 PurgeDiagnosticDataOlderThanDays 参数。 但是，不一定要将这些参数设置为相同的值。 例如，可以清除所有期限长于 10 天的呼叫详细信息记录，同时将所有诊断数据记录保留在数据库中。 若要执行此操作, 请将 PurgeCallDetailDataOlderThanDays 设置为 10, 将 PurgeDiagnosticDataOlderThanDays 设置为0。 例如：
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0

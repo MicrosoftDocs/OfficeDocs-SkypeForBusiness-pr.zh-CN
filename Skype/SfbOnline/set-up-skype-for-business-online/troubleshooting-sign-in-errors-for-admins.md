@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: edbddf940eeea36ecfdcf6966558b9632c729065
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158960"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285031"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.MediaBypass
@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 媒体旁路功能是指从尽可能信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。 更多详细信息，请参阅 Plan for 媒体绕过 Skype for Business 中。
-ms.openlocfilehash: 245a6afa7534b75ffa36929419d64254769b94d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 媒体绕过指信号遍历中介服务器的呼叫可以从媒体路径中删除中介服务器。 有关更多详细信息, 请参阅在 Skype for Business 中规划媒体旁路。
+ms.openlocfilehash: e4416636475f9dfb77df6313a9d3d5978c93043e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889337"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281548"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  
-媒体旁路功能是指从尽可能信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。 更多详细信息，请参阅[Plan for 媒体绕过 Skype for Business 中](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
+媒体绕过指信号遍历中介服务器的呼叫可以从媒体路径中删除中介服务器。 有关更多详细信息, 请参阅[在 Skype For business 中规划媒体旁路](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
   
 

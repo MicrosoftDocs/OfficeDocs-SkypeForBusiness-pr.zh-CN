@@ -8,26 +8,26 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 了解如何为组织中使用的使用非 Windows 操作系统的设备启用 QoS。
-ms.openlocfilehash: 24d27b25112ecc982a6fdc2b8d1874c4be992937
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 了解如何为组织中使用 Windows 之外的操作系统的设备启用 QoS。
+ms.openlocfilehash: adb879d2319c5eeeb84578907ce57a3a408d9a13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279408"
 ---
-# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>未基于 Windows 的设备的企业服务器启用 QoS Skype 中
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>在不基于 Windows 的设备的 Skype for Business 服务器中启用 QoS
 
 
-在安装 Skype 业务服务器时，将未启用任何使用非 Windows 操作系统的设备在组织中使用的服务质量 (QoS)。 您可以为业务 ServerManagement 命令行管理程序中运行以下命令从 Skype 中的进行验证：
+安装 Skype for Business 服务器时, 将不会为你的组织中使用 Windows 之外的操作系统的任何设备启用服务质量 (QoS)。 你可以通过从 Skype for Business ServerManagement Shell 中运行以下命令来验证此情况:
 
     Get-CsMediaConfiguration
 
-假定您不具有对媒体配置设置进行任何更改，您应获得信息类似如下：
+如果你未对媒体配置设置进行任何更改, 你应返回类似于以下内容的信息:
 
     Identity                          : Global
     EnableQoS                         : False
@@ -38,32 +38,32 @@ ms.locfileid: "33913054"
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-如果 EnableQoS 属性设置为 False （如所示的上述输出） 的计算机和使用非 Windows 操作系统的设备意味着，未启用服务质量。
+如果 EnableQoS 属性设置为 False (如前面的输出所示), 表示没有为使用 Windows 以外的操作系统的计算机和设备启用服务质量。
 
-若要在全局范围内的服务质量，请运行 Business Server 命令行管理程序从 Skype 中的以下命令：
+若要在全局范围内启用服务质量, 请从 Skype for Business 服务器管理外壳程序内运行以下命令:
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-上述命令启用 QoS 在全局范围;但是，务必要注意的媒体配置设置也可以应用到站点范围。 如果您需要为网站启用服务质量，您必须在调用设置 CsMediaConfiguration 时包括的配置设置的标识。 例如，此命令为 Redmond 站点启用 QoS:
+前面的命令在全局范围内启用 QoS;但是, 请务必注意, 媒体配置设置也可应用于网站范围。 如果需要为网站启用服务质量, 则必须在调用 CsMediaConfiguration 时包括配置设置的标识。 例如, 此命令为 Redmond 网站启用 QoS:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
 
 
 > [!NOTE]  
-> 您是否需要启用 QoS 站点范围？ 这取决于。 分配给网站范围的设置优先于分配给全局作用域的设置。 假设您有 QoS 在全局范围启用，但禁用在站点范围 （对于 Redmond 站点）。 在这种情况下，为 Redmond 站点; 将禁用的服务质量这是因为站点设置优先。 若要为 Redmond 站点启用 QoS，必须要使用的媒体配置设置应用到该网站这样做。
+> 是否需要在网站范围内启用 QoS？ 这取决于。 分配给网站范围的设置优先于分配给全局范围的设置。 假设你已在全局范围内启用了 QoS, 但在网站范围 (对于 Redmond 网站) 禁用了 QoS。 在这种情况下, 将为 Redmond 网站禁用服务质量;这是因为网站设置优先。 若要为 Redmond 网站启用 QoS, 必须使用应用于该网站的媒体配置设置执行此操作。
 
 
-如果您想要同时为 （不管范围） 所有媒体配置设置启用 QoS 中, 运行此命令从 LSkype for Business Server 命令行管理程序：
+如果你希望同时为所有媒体配置设置启用 QoS (无论范围如何), 请在 LSkype for Business Server Management Shell 中运行此命令:
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-您可以禁用 QoS EnableQoS 属性的值设置为 False 使用非 Windows 操作系统的设备。 例如：
+你可以通过将 EnableQoS 属性的值设置为 False 来禁用使用 Windows 以外操作系统的设备的 QoS。 例如：
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 
-这使您能够在您的网络 （例如，在 Redmond 站点） 的某些部分实现 QoS 同时保持其他部分的网络上禁用的服务质量。
+这使你能够在你的网络的某些部分 (例如, 在雷德蒙的网站上) 实现 QoS, 同时保留在网络的其他部分禁用的服务质量。
 
-仅可以启用或禁用使用 Windows PowerShell QoS。 这些选项不可用的业务 Server Control Panel Skype 中。
+QoS 只能使用 Windows PowerShell 启用和禁用。 这些选项在 "Skype for Business 服务器" 控制面板中不可用。
 
 

@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -17,40 +17,40 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: 如何为加拿大 IP 中继帐户唉。
-ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 如何为加拿大的 IP 中继帐户 sigh。
+ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194225"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304119"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大的 IP 中继 - 注册
 
-若要获取 IP 中继帐户为加拿大设置，请完成下表中的信息，并将其电子邮件中发送给[ptn@microsoft.com](mailto:ptn@microsoft.com)。
+要获取为加拿大设置的 IP 中继帐户, 请填写下表中的信息, 并通过电子邮件将电子邮件发送到[ptn@microsoft.com](mailto:ptn@microsoft.com)。
 
 |||
 |:-----|:-----|
-|第一个 & Last Name:||
-|Office 365 租户域名： <br/>(示例： Contoso.com)||
-|Office 365 用户电话号码： <br/>示例: + 1 XXX XXX 格式) ||
-|密码 （8 到 16 个字符）： ||
-|最有可能的物理地址 <br/>在紧急情况时：||
-|街道号码 & 名称：||
-|单元 / 套件：||
-|市/县：||
-|省 / 状态：||
-|邮政编码 / Zip 代码：||
-|电话号码：||
-|Office 365 电子邮件地址：||
+|首次 & 姓氏:||
+|Office 365 租户域名: <br/>(示例: Contoso.com)||
+|Office 365 用户电话号码: <br/>示例: + 1 XXX XXX XXXX) ||
+|密码 (8 至16个字符): ||
+|最可能的物理地址 <br/>出现紧急情况时:||
+|街道号码 & 名称:||
+|公寓/套件:||
+|—||
+|省/市/自治区:||
+|邮政编码/邮政编码:||
+|电话号码:||
+|Office 365 电子邮件地址:||
 |||
 
 > [!NOTE]
-> 上面的电子邮件地址将接收如果您不是联机通过 IP 中继有人呼叫您时，为您离开的消息。 
+> 如果用户通过 IP 中继为您拨打电话, 则上面的电子邮件地址将接收消息。 
 
-一旦您的帐户 （24 工作小时内） 准备就绪后，我们将与用户名和密码后将您电子邮件。 
+一旦您的帐户准备就绪 (在24工作时间内), 我们将使用用户名和密码向您发送电子邮件。 
 
 
-接下来，请参阅[加拿大-用户指南 》 中的 IP 中继](ip-relay-canada-user-guide.md)开始。 
+接下来, 查看[加拿大的 IP 中继-用户指南](ip-relay-canada-user-guide.md)以开始使用。 
 
 

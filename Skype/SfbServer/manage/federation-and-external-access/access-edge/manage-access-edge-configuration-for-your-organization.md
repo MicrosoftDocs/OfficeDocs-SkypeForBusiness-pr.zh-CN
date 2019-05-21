@@ -8,44 +8,44 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 后部署一个或多个边缘服务器，必须启用外部域或提供程序访问、 远程用户访问和匿名用户通过边缘服务器将用于您的组织支持的会议访问的类型。
-ms.openlocfilehash: ab6f1ac28b375e5fddf9b99226770d92d8236bac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 部署一个或多个边缘服务器后, 必须通过你的组织支持的边缘服务器启用外部域或提供者访问、远程用户访问和匿名用户访问的类型。
+ms.openlocfilehash: b79560d2cb0e570ab2b4fcf061a5b91c6a74a8bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920687"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280192"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理您的组织的访问边缘配置
 
-后部署一个或多个边缘服务器，必须启用外部域或提供程序访问、 远程用户访问和匿名用户通过边缘服务器将用于您的组织支持的会议访问的类型。
+部署一个或多个边缘服务器后, 必须通过你的组织支持的边缘服务器启用外部域或提供者访问、远程用户访问和匿名用户访问的类型。
 
-这些选项包括以下类型的可以通过**访问边缘配置**页上配置的访问：
+这些选项包括以下可通过 "**访问边缘配置**" 页面配置的访问类型:
 
-  - **启用联盟和公共 IM 连接**   启用此项如果您想要支持联盟的伙伴域用户访问。 此设置适用于 SIP 联合身份验证配置的全局、 站点或用户范围在**外部访问策略**页上。 对于要应用的联合身份验证设置，您必须两页上配置联盟支持。
+  - **启用联盟和公共 IM 连接**   如果你想要支持用户对联盟伙伴域的访问, 请启用此连接。 此设置适用于针对**外部访问策略**页面上的全局、网站或用户作用域配置的 SIP 联合。 若要应用联盟设置, 必须在两个页面上配置联合身份验证支持。
     
-    两个选项存在的可选设置如何发现联盟的伙伴，以及是否存档免责声明 (向联盟联系人的通知与您通信的部署已启用了存档和通信将存档的详细信息） 将发送给联系人：
+    存在两个选项, 这两个选项是有关如何发现联合合作伙伴的可选设置, 以及是否存档免责声明 (通知你与你的部署已启用存档的联合联系人), 并且通信将存档的详细信息) 将发送给联系人:
     
-      - **启用伙伴域发现**   选择此选项允许您可以与联盟的域的自动发现。 Skype 业务服务器使用域名系统 (DNS) 记录尝试发现域未列出在允许的域列表中，自动评估传入流量发现联盟伙伴和限制或阻止基于信任该流量级别，通信和管理员设置的量。 如果您未选择此选项，仅对您在允许的域列表包含的域中的用户启用联盟的用户访问。 是否选择此选项，您可以指定的单个域阻止或允许，包括限制对特定服务器的联盟域中运行访问边缘服务的访问。 有关详细信息，请参阅[支持的允许的外部域的配置](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
+      - **启用合作伙伴域发现**   选择此选项可自动发现你可以与其进行联盟的域。 Skype for Business 服务器使用域名系统 (DNS) 记录来尝试发现未在 "允许的域" 列表中列出的域, 自动评估已发现的联盟伙伴的传入通信, 并基于信任限制或阻止该流量级别、流量数量和管理员设置。 如果不选择此选项, 则仅对在 "允许的域" 列表中包含的域中的用户启用 "联盟用户访问"。 无论是否选择此选项, 您都可以指定要阻止或允许的单个域, 包括限制对运行联盟域中的访问边缘服务的特定服务器的访问。 有关详细信息, 请参阅[配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
     
-      - **向联盟伙伴发送存档免责声明**   选择此选项允许向建议他们 communications 详细信息会记录的联盟伙伴发送存档免责声明消息。 如果与联盟的伙伴域的外部通信存档时，应启用存档放弃通知以提醒伙伴部署要存档其消息和通信的详细信息。 有关存档的详细信息，请参阅[启用或禁用发送存档免责声明向联盟伙伴](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)。
+      - **将存档免责声明发送给联盟合作伙伴**   选择此选项可将存档免责声明消息发送给联合合作伙伴, 建议记录通信详细信息。 如果您将外部通信与联盟伙伴域进行了存档, 则应启用存档免责声明通知, 以警告合作伙伴其邮件和通信详细信息已被你的部署存档。 有关存档的详细信息, 请参阅[启用或禁用向联盟伙伴发送存档免责声明](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)。
 
-  - **启用远程用户访问**   启用此选项，如果您希望您的组织防火墙，如远程办公和用户在旅行，能够连接到 Skype 业务服务器之外的用户。 有关详细信息，请参阅[启用或禁用远程用户访问](enable-or-disable-remote-user-access.md)。
+  - **启用远程用户访问**   如果你希望你的组织外部的用户 (如出差的远程办公和用户) 能够连接到 Skype for business 服务器, 请启用此选项。 有关详细信息, 请参阅[启用或禁用远程用户访问](enable-or-disable-remote-user-access.md)。
 
-  - **启用匿名用户访问会议**   启用此选项，如果您希望内部用户可以邀请外部匿名用户加入他们所组织的会议。 启用此设置仅适用于会议允许匿名用户。
+  - **允许匿名用户访问会议**   如果希望内部用户邀请外部匿名用户加入他们组织的会议, 请启用此选项。 启用此设置仅允许匿名用户进行会议。
 
 > [!NOTE]  
-> 除了启用外部用户访问支持，您还配置策略以控制远程用户访问您的组织中使用任何类型的外部用户访问之前对用户可用。 有关创建、 配置和外部用户访问的应用策略的详细信息，请参阅[管理您的组织的外部访问策略](../external-access-policies/manage-external-access-policy-for-your-organization.md)。
+> 除了启用外部用户访问支持外, 你还可以配置策略来控制在你的组织中使用远程用户访问, 然后再向用户提供任何类型的外部用户访问权限。 有关创建、配置和应用外部用户访问策略的详细信息, 请参阅[管理组织的外部访问策略](../external-access-policies/manage-external-access-policy-for-your-organization.md)。
 
-**通过使用 Windows PowerShell cmdlet 查看访问边缘配置信息**
+**使用 Windows PowerShell cmdlet 查看访问边缘配置信息**
 
-  - 使用 Windows PowerShell 和**Get-csaccessedgeconfiguration** cmdlet 可以查看访问边缘配置信息。 从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，则可以运行此 cmdlet。 
+  - 可以使用 Windows PowerShell 和**CsAccessEdgeConfiguration** cmdlet 查看访问边缘配置信息。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 
     
-    若要查看有关所有访问边缘配置设置的信息，业务 Server 命令行管理程序 Skype 中键入以下命令，然后按 ENTER:
+    若要查看有关所有访问边缘配置设置的信息, 请在 Skype for Business Server 命令行管理器中键入以下命令, 然后按 ENTER:
     
      `Get-CsAccessEdgeConfiguration`
     

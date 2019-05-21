@@ -1,11 +1,11 @@
 ---
-title: URL 筛选器创建新的或编辑现有的
+title: URL 筛选器新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpImEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 53b597d97dc1f27a07b42d3475f82743835ef9fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ad7b371d6e829c31f67b60c5a8871223d8d073fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912181"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281218"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 筛选器：创建新的或编辑现有的
 
@@ -26,7 +26,7 @@ ms.locfileid: "33912181"
 
 - [修改默认 URL 筛选器](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [创建新的 URL 筛选器以处理 IM 对话中的超链接](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [创建新的 URL 筛选器以处理即时消息对话中的超链接](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 

@@ -1,25 +1,25 @@
 ---
-title: 位置趋势报告中 Skype 业务服务器
+title: Skype for Business 服务器中的位置趋势报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 摘要： 了解在 Skype 业务服务器位置趋势报告。
-ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的位置趋势报告。'
+ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911873"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280073"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>位置趋势报告中 Skype 业务服务器
+# <a name="location-trend-report-in-skype-for-business-server"></a>Skype for Business 服务器中的位置趋势报告
  
-**摘要：** 了解业务服务器位置趋势报告中 Skype。
+**摘要:** 了解 Skype for Business 服务器中的位置趋势报告。
   
 位置趋势报告提供网络位置的呼叫质量趋势信息。
   

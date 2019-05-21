@@ -1,35 +1,35 @@
 ---
-title: 对等语音和视频报告中 Skype 业务服务器
+title: Skype for Business 服务器中的对等语音和视频报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 摘要： 了解如何对等语音和视频报告中 Skype 业务服务器。
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的对等语音和视频报告。'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898036"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279632"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>对等语音和视频报告中 Skype 业务服务器
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Skype for Business 服务器中的对等语音和视频报告
  
-**摘要：** 了解有关的对等语音和视频报告中 Skype 业务服务器。
+**摘要:** 了解 Skype for Business 服务器中的对等语音和视频报告。
   
 对等语音和视频报告提供了指定时间段的语音和视频呼叫分布的详细信息（例如，按小时的呼叫或按每天的呼叫）。该报告还为您提供查看所有执行的语音和视频呼叫的选项或仅查看成功或失败呼叫的选项。这些报告显示细分为下列组的呼叫信息：
   
 - 按池的呼叫
     
-- 每个呼叫类型 (例如，为业务呼叫 PSTN 网络上的人员商业调用 Skype 与 Skype 的业务 Skype) 的呼叫
+- 按呼叫类型拨打的电话 (例如, skype for business 与 Skype for business 通话, 与 PSTN 网络上的人员进行 skype for business 通话)
     
 - 按访问类型的呼叫（登录到内部网络上的用户与登录到外部网络上的用户）
     
-- 每台中介服务器的呼叫
+- 每个中介服务器的通话
     
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>访问对等语音和视频报告
 
@@ -70,7 +70,7 @@ ms.locfileid: "33898036"
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**池** <br/> |否  <br/> |用于呼叫的边缘服务器的注册器池的名称。  <br/> |
+|**池** <br/> |否  <br/> |用于呼叫的注册机构池或边缘服务器的名称。  <br/> |
 |**日期/时间** <br/> |否  <br/> |进行呼叫的日期和时间段。  <br/> |
 |**总计** <br/> |否  <br/> |会话总数或消息总数。  <br/> |
    
@@ -100,7 +100,7 @@ ms.locfileid: "33898036"
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>按中介服务器列出的对等语音和视频活动的指标
 
-下表列出了每个中介服务器的对等语音和视频报告中提供的信息。
+下表列出了针对每个中介服务器的对等语音和视频报告中提供的信息。
   
 **按中介服务器列出的对等语音和视频活动的指标**
 

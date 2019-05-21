@@ -1,34 +1,34 @@
 ---
-title: 查看会议中 Skype 业务服务器的配置设置
+title: 查看 Skype for Business 服务器中的会议配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 摘要： 了解如何查看会议中 Skype 业务服务器的配置设置。
-ms.openlocfilehash: 14f8f3902ae3bba6c98b3147bb3ffc5af2c96f4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business Server 中查看会议配置设置。'
+ms.openlocfilehash: 13d91bc4c0335d8c069e0b0d9bc41efd8714f112
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280367"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>查看会议中 Skype 业务服务器的配置设置
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>查看 Skype for Business 服务器中的会议配置设置
  
-**摘要：** 了解如何查看会议中 Skype 业务服务器的配置设置。
+**摘要:** 了解如何在 Skype for Business Server 中查看会议配置设置。
   
-您可以查看会议配置设置，使用的业务 Server Control Panel Skype 或使用 Skype 业务 Server Management Shell。
+可以使用 Skype for Business Server 控制面板或使用 Skype for business Server 命令行管理器查看会议配置设置。
   
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>查看使用适用于业务 Server Control Panel Skype 会议配置设置
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板查看会议配置设置
 <a name="BKMK_ViewJoinSettings"> </a>
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2.  打开 Skype 业务 Server Control Panel。
+2.  打开 "Skype for Business 服务器" 控制面板。
     
 3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议配置**”。
     
@@ -36,11 +36,11 @@ ms.locfileid: "33888049"
     
 5. 在“**编辑文件筛选器**”中，选中“**显示详细信息**”复选框。
     
-    **编辑会议配置-\<策略\>** 打开显示所选策略的设置。
+    **编辑会议配置- \<策略\> **将打开, 显示所选策略的设置。
     
-    有关配置设置的详细信息，请参阅[创建会议配置设置中的业务服务器 Skype](create-settings.md)。
+    有关配置设置的详细信息, 请参阅[在 Skype For Business 服务器中创建会议配置设置](create-settings.md)。
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>查看会议配置设置，使用 Skype 业务 Server 命令行管理程序
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server Management Shell 查看会议配置设置
 <a name="BKMK_ViewJoinSettings"> </a>
 
 若要查看有关所有会议配置设置的信息，可使用 **Get-CsMeetingConfiguration** cmdlet：
@@ -66,6 +66,6 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-有关详细信息，包括完成参数的列表，请参阅[Get-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
+有关详细信息, 包括参数的完整列表, 请参阅[CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
   
 

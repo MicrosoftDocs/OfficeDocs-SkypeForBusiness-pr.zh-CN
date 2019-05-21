@@ -1,28 +1,28 @@
 ---
-title: 为业务服务器分配 Skype 中的每用户 PIN 策略
+title: 在 Skype for Business 服务器中分配每用户 PIN 策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 摘要： 业务服务器 Skype 的阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 777944be2a2db32e4662b8afecac0023bdd2ab91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 暂存 Skype for business 服务器的 AV 和 OAuth 证书。'
+ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902665"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278354"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>为业务服务器分配 Skype 中的每用户 PIN 策略
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在 Skype for Business 服务器中分配每用户 PIN 策略
 
-**摘要：** Skype 业务服务器的阶段 AV 和 OAuth 证书。
+**摘要:** 暂存 Skype for business 服务器的 AV 和 OAuth 证书。
   
-电话拨入式会议个人标识号 (pin) 策略是可以为业务 Server Control Panel Skype 中配置的用户帐户的各项设置之一。
+电话拨入式会议个人识别号 (PIN) 策略是可在 Skype for Business Server 控制面板中配置的用户帐户的个人设置之一。
   
 部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。
   
@@ -32,7 +32,7 @@ ms.locfileid: "33902665"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -55,7 +55,7 @@ ms.locfileid: "33902665"
     > [!TIP]
     > 要向查询中添加附加搜索子句，请单击“添加筛选器”****。 
   
-   e。 单击“查找”****。
+   e.i. 单击“查找”****。
     
 6. 在搜索结果中单击某个用户，再单击“操作”****，然后单击“分配策略”****。
     
@@ -65,9 +65,9 @@ ms.locfileid: "33902665"
 7. 在“分配策略”**** 中的“PIN 策略”**** 下，执行下列操作之一：
     
     > [!NOTE]
-    > 由于存在您可以使用**分配策略**对话框中，配置的多个策略**\<保持原样\>** 默认情况下，在对话框中的每个策略处于选中状态。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "**分配策略**" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " ** \<保持\> **原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
-   - 允许 Skype 业务服务器自动选择全局级别的策略或，如果已定义站点级别的策略。
+   - 允许 Skype for business 服务器自动选择全局级别策略或网站级策略 (如果已定义)。
     
    - 单击之前在“PIN 策略”**** 页中定义的每用户 PIN 策略的名称。
     
@@ -78,7 +78,7 @@ ms.locfileid: "33902665"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户 PIN 策略
 
-您可以使用 Windows PowerShell 和**Grant-cspinpolicy** cmdlet 分配每用户 PIN 策略。 从业务 Server 命令行管理程序 Skype 或 Windows PowerShell 远程会话，您可以运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype 业务服务器的详细信息，请参阅博客文章["快速启动:: 管理 Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 过程是相同的 Skype 业务服务器。
+你可以使用 Windows PowerShell 和**CsPinPolicy** cmdlet 分配每用户 PIN 策略。 你可以从 Skype for Business Server Management Shell 或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 
@@ -90,7 +90,7 @@ ms.locfileid: "33902665"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>为多个用户分配每用户 PIN 策略
 
-- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关 LdapFilter 参数在此命令中使用的详细信息，请参阅[Get-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
+- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息, 请参阅[move-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -104,8 +104,8 @@ ms.locfileid: "33902665"
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-有关详细信息，请参阅[Grant-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
+有关详细信息, 请参阅[授权-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
   
 ## <a name="see-also"></a>另请参阅
 
-[为 Business Server Skype 创建新的 PIN 策略](create-a-new-pin-policy.md)
+[在 Skype for Business 服务器中创建新的 PIN 策略](create-a-new-pin-policy.md)

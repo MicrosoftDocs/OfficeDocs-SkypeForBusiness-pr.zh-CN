@@ -1,31 +1,31 @@
 ---
-title: 启用或禁用存档中 Skype 业务服务器
+title: 在 Skype for Business 服务器中启用或禁用存档
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 摘要： 了解如何启用或禁用存档中 Skype 业务服务器。
-ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在 Skype for Business 服务器中启用或禁用存档。'
+ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885029"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286142"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>启用或禁用存档中 Skype 业务服务器
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用或禁用存档
 
-**摘要：** 了解如何启用或禁用存档中 Skype 业务服务器。
+**摘要:** 了解如何在 Skype for Business 服务器中启用或禁用存档。
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>使用控制面板启用或禁用存档
 
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。 
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     

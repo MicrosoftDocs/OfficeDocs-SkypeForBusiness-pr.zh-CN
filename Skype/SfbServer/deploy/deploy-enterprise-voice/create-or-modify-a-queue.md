@@ -1,10 +1,10 @@
 ---
-title: 创建或修改 Skype for Business 中的队列
+title: 在 Skype for Business 中创建或修改队列
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
-ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for Business Server Enterprise Voice 中创建或修改响应组队列。
+ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286223"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>创建或修改 Skype for Business 中的队列
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>在 Skype for Business 中创建或修改队列
  
-创建或修改响应组队列，业务 Server 企业语音的 Skype 中。
+在 Skype for Business Server Enterprise Voice 中创建或修改响应组队列。
   
-队列使呼叫者处于保持状态，直到有代理应答呼叫为止。 当搜索可用代理的响应组应用程序时，它，以您列出的顺序搜索代理组。 可以选择分配给队列的代理组并指定队列的行为，如限制队列可容纳的呼叫数，以及呼叫等待代理应答呼叫的时间长度。
+队列使呼叫者处于保持状态，直到有代理应答呼叫为止。 当响应组应用程序搜索可用代理时, 它将按列出的顺序搜索代理组。 可以选择分配给队列的代理组并指定队列的行为，如限制队列可容纳的呼叫数，以及呼叫等待代理应答呼叫的时间长度。
   
 使用以下其中一个过程来创建或修改队列。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>若要使用的业务 Server Control Panel Skype 创建或修改队列
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>使用 "Skype for Business 服务器" 控制面板创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可以创建或修改响应组队列，并将其分配给您管理的工作流。 
   
-2. 打开一个浏览器窗口，然后输入管理 URL 以打开 Skype 业务 Server Control Panel。  
+2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“响应组”****，然后单击“队列”****。
     
@@ -69,11 +69,11 @@ ms.locfileid: "33892914"
     
    - 要在超时后断开呼叫，请单击“断开连接”****。
     
-   - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:*\<用户名\>*@ *\<domainname\> * (示例，sip:bob@contoso.com）。
+   - 若要将呼叫转移到语音邮件, 请单击 "**转发到语音邮件**", 然后在 " **sip 地址**" 字段中, 键入 sip 的格式的语音邮件地址: * \<\>用户名*@ *\<域名\> * (对于例如, sip:bob@contoso.com)。
     
-   - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:*\<号码\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com)。
+   - 若要将呼叫转移到另一个电话号码, 请单击 "**转发到电话号码**", 然后在 " **sip 地址**" 字段中键入 sip 的电话号码: * \<\>号码*@ *\<域名\>* (例如, sip:+14255550121@contoso.com)。
     
-   - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
+   - 若要将呼叫转移到其他用户, 请单击 "**转发到 sip 地址**", 然后在 " **sip 地址**" 字段中, 键入 sip 的格式的用户 URI: _ \<\>用户名_@ _\<域名\>_。
     
    - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
@@ -87,17 +87,17 @@ ms.locfileid: "33892914"
     
    - 要在超时后断开呼叫，请单击“断开连接”****。
     
-   - 若要转接呼叫以语音邮件，再单击**转接到语音邮件**，然后在**SIP 地址**字段中，键入语音邮件地址格式 sip:*\<用户名\>*@ *\<domainname\> * (示例，sip:bob@contoso.com）。
+   - 若要将呼叫转移到语音邮件, 请单击 "**转发到语音邮件**", 然后在 " **sip 地址**" 字段中, 键入 sip 的格式的语音邮件地址: * \<\>用户名*@ *\<域名\> * (对于例如, sip:bob@contoso.com)。
     
-   - 若要将呼叫转接至另一个电话号码，单击**转接到电话号码**，，然后在**SIP 地址**字段中，键入电话号码格式 sip:*\<号码\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com)。
+   - 若要将呼叫转移到另一个电话号码, 请单击 "**转发到电话号码**", 然后在 " **sip 地址**" 字段中键入 sip 的电话号码: * \<\>号码*@ *\<域名\>* (例如, sip:+14255550121@contoso.com)。
     
-   - 若要将呼叫转接至另一个用户，单击**转接到 SIP 地址**，，，然后在**SIP 地址**字段中，键入用户在格式 sip URI:_\<用户名\>_@ _\<domainname\>_。
+   - 若要将呼叫转移到其他用户, 请单击 "**转发到 sip 地址**", 然后在 " **sip 地址**" 字段中, 键入 sip 的格式的用户 URI: _ \<\>用户名_@ _\<域名\>_。
     
    - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
     
 10. 单击“**提交**”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用 Skype 的业务 Server 命令行管理程序创建或修改队列
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用 Skype for Business Server Management Shell 创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
     
@@ -119,7 +119,7 @@ ms.locfileid: "33892914"
    ```
 
    > [!NOTE]
-   > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+   > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息, 请参阅[导入-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 4. 定义在达到队列超时阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -128,7 +128,7 @@ ms.locfileid: "33892914"
    ```
 
    > [!NOTE]
-   > 有关可能的操作及其语法的详细信息，请参阅[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+   > 有关可能的操作及其语法的详细信息, 请参阅[CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -149,7 +149,7 @@ ms.locfileid: "33892914"
    ```
 
       > [!NOTE]
-      > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+      > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息, 请参阅[导入-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. 定义在达到队列溢出阈值时要采取的操作，并将其保存在变量中。在命令行中运行：
     
@@ -158,7 +158,7 @@ ms.locfileid: "33892914"
    ```
 
     > [!NOTE]
-    > 有关可能的操作及其语法的详细信息，请参阅[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+    > 有关可能的操作及其语法的详细信息, 请参阅[CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     例如：
     
@@ -179,7 +179,7 @@ ms.locfileid: "33892914"
    ```
 
     > [!NOTE]
-    > 有关创建代理组的详细信息，请参阅[New-csrgsagentgroup。](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > 有关创建代理组的详细信息, 请参阅[新 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. 创建队列。在命令行中运行：
     
@@ -201,16 +201,16 @@ ms.locfileid: "33892914"
 
 ## <a name="see-also"></a>另请参阅
 
-[New-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[新-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[新-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-csrgsaudiofile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-csrgsqueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

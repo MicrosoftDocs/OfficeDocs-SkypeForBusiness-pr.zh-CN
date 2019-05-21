@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Unregister-CcAppliance cmdlet 在联机租户配置中从 PSTN 站点注销 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286871"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 与 Register-CcAppliance cmdlet 类似，CloudConnector.ini 文件中与边缘服务器外部 FQDN 组合在一起的 SiteName 被视为 PSTN 站点标识。同样，CloudConnector.ini 文件中与中介服务器 FQDN 组合在一起的 ApplianceName 被视为设备标识。
   
-未注册设备后，重新启动云连接器管理服务和日志上为 NetworkService 帐户。
+设备注销后, 重新启动云连接器管理服务, 并以 NetworkService 帐户登录。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>

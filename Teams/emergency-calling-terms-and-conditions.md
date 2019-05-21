@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '了解如何紧急服务 (911) 不同于传统电话服务以及如何发起呼叫。 '
-ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解紧急服务 (911) 与传统电话服务有何区别以及如何进行呼叫。 '
+ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244452"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279030"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>紧急呼叫条款和条件
 
 ## <a name="important-information"></a>重要信息
 
-紧急服务呼叫以不同方式运行调用中比 Office 365 计划与在传统电话服务。 务必您了解这些差异和传递到与调用计划在 Office 365 中的所有用户。 确认并同意您已阅读并了解中调用我们紧急服务的差别，并将与调用计划在 Office 365 中向每个用户提供此通知。
+与传统电话服务相比, 紧急服务通话的运行方式与 Office 365 中的呼叫计划有所不同。 了解这些差异并向所有用户传达 Office 365 中的呼叫计划非常重要。 您承认并同意您已阅读并理解我们的紧急服务通话中的区别, 并将向每位用户提供 Office 365 中的呼叫计划的通知。
   
-在调用功能我们紧急服务的差异如下: (i) 的业务和团队的 Skype 可能不知道发起的紧急服务呼叫，这会导致呼叫被路由至正确的紧急呼叫者的实际位置服务调用中心和/或正在分派到错误的位置; 紧急服务（ii） 如果用户的设备已没有电源、 遇到停电或者出于任何原因无法访问 Internet，用户不能通过调用计划紧急服务呼叫在 Office 365;并且 (iii) 虽然调用计划在 Office 365 中可以使用无处不在世界其中 Internet 连接可用，用户应进行来自外部其家庭国家/地区的位置的紧急服务呼叫，因为呼叫可能不会路由至中的国家/地区的适当调用中心。
+我们的紧急服务呼叫功能的不同之处包括: (i) Skype for Business 和团队可能不知道呼叫者进行紧急服务呼叫的实际位置, 这可能会导致呼叫被路由到错误的紧急情况服务呼叫中心和/或紧急服务被调度到错误的位置;(ii) 如果用户的设备没有电源, 或者由于任何原因而无法访问 Internet, 则用户无法通过 Office 365 中的呼叫计划进行紧急服务呼叫。和 (iii) 虽然 Office 365 中的呼叫计划可在 Internet 连接可用的任何地方使用, 但用户不应从所在国家/地区之外的某个位置进行紧急服务呼叫, 因为可能不会将呼叫路由到该国家/地区的相应呼叫中心。
   
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)

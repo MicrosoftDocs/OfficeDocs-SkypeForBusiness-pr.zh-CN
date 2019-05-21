@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
-ms.openlocfilehash: 3fa6e29486ed4943a54cc537106fa67a6f513620
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 10a05c9d4c16f7c5681f0c7c6fcc931e041426f3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868821"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281829"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
-您已为您的组织计划拨号计划，并且想出了需要创建的呼叫路由的规范化规则的所有后，您需要使用 Windows PowerShell 创建拨号计划和更改任何设置。
+在为组织计划了拨号计划并确定了需要为呼叫路由创建的所有规范化规则后, 您需要使用 Windows PowerShell 创建拨号计划并进行任何设置更改。
   
 > [!NOTE]
 > [!注释] Skype for Business 管理中心不能用于创建和管理拨号计划。 
@@ -66,7 +66,7 @@ ms.locfileid: "33868821"
 >     Import-PSSession $session
 >   ```
 
-如果您希望有关启动 Windows PowerShell 的详细信息，请参阅[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[Connecting to Skype 业务 online 使用 Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
+如果需要有关启动 Windows PowerShell 的详细信息, 请参阅使用 Windows PowerShell[连接到单个 Windows powershell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[连接到 Skype for business Online](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)。
   
 ## <a name="creating-and-managing-your-dial-plans"></a>创建并管理你的拨号计划
 
@@ -178,14 +178,14 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-运行此选项可删除所有用户拥有 HostingProvider sipfed.online.lync.com policyname。
+运行此操作以删除具有 HostingProvider sipfed.online.lync.com 的所有用户的 policyname。
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。 您需要先保存本地拨号计划到.xml 文件，然后使用它来创建新的租户拨号计划。
+运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。 您需要先将本地拨号计划保存到 .xml 文件, 然后使用它创建新的租户拨号计划。
   
-运行此选项可将内部部署拨号计划保存到的.xml 文件。
+运行此操作以将本地拨号计划保存到 .xml 文件。
   
 ```
 $DPName = "OPDP1"
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>要了解有关 Windows Powershell 的详细信息？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows Powershell 的详细信息？
 
 - Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
@@ -215,7 +215,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 已通过仅使用如时要进行设置更改多个用户一次在 Microsoft 365 管理中心中快速、 简便起见和生产力很多好处。 通过以下主题了解这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

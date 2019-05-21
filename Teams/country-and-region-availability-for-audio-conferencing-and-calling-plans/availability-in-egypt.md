@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于埃及业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: 2634f879b3d03c454e024e3bafe443b25e9bf417
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 以下是 Skype for business 和适用于埃及的 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: ecec2b9323806113ec6bf314b91a771cbae36e93
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542868"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283031"
 ---
 # <a name="availability-in-egypt"></a>在埃及的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于埃及业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是 Skype for business 和适用于埃及的 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -43,7 +43,7 @@ ms.locfileid: "30542868"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信字幕式  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 

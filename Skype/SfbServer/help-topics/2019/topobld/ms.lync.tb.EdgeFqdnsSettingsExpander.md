@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑或指定边缘服务器的“外部设置”，首先必须确定是否要为会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
-ms.openlocfilehash: cb072634f5c78ad6bfcdab0ebd543302ecd23b3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fa118ea3b1b9030c36a3c23d93b27e270ccdb09
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916012"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280513"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>边缘服务器 FQDN 设置扩展器
 

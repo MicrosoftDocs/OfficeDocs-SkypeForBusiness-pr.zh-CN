@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
-description: 创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators 和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用控制面板或 Windows PowerShell cmdlet 管理类别。
-ms.openlocfilehash: d7dcb2b6b3fb8712acfb6c35b134a4b15441454d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 使用正确的类别, 创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者, 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Windows PowerShell cmdlet 创建和管理类别。
+ms.openlocfilehash: dedc022853738ad02b4da2ce0ab2cdc7ccbee576
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924624"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282250"
 ---
 # <a name="select-allowed-members"></a>选择允许的成员
 
-创建和管理的持久聊天聊天室类别的正确使用与要容易得多。 持久聊天管理员可以为每个类别定义**AllowedMembers**和**Creators**和还可以定义默认聊天室设置和将应用于所有聊天室的类别中创建的行为。 持久聊天管理员创建和使用控制面板或 Windows PowerShell cmdlet 管理类别。
+使用正确的类别, 创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义**AllowedMembers**和**创建者**, 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Windows PowerShell cmdlet 创建和管理类别。
 
-标识为类别创建者的用户、组织单位 (OU) 和用户组是仅有的被允许在类别中创建聊天室的个人和组。 在创建类别后，他们可以选择用户、 Ou 和用户组从该类别的**AllowedMembers**列表为聊天室管理员和成员来管理和加入聊天室。
+标识为类别创建者的用户、组织单位 (OU) 和用户组是仅有的被允许在类别中创建聊天室的个人和组。 创建类别后, 他们可以从类别的**AllowedMembers**列表中选择用户、ou 和用户组作为聊天室经理和成员管理和参与聊天室。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -34,14 +34,14 @@ ms.locfileid: "33924624"
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在**成员资格**，在**允许成员**部分中，添加或删除用户和其他 Active Directory 域服务主体 （用户、 通讯组、 组织单位，等） 允许添加为聊天室的成员属于类别。 类别允许的主体可搜索此类别的聊天室（除非隐藏了聊天室，在这种情况下，仅聊天室的成员可在此目录中搜索聊天室）。
+在****"允许的成员" 部分中, 在 "**允许的成员**" 部分中, 添加或删除允许添加为聊天室成员的用户和其他 Active Directory 域服务主体 (用户、通讯组、组织单位等)属于类别。 类别允许的主体可搜索此类别的聊天室（除非隐藏了聊天室，在这种情况下，仅聊天室的成员可在此目录中搜索聊天室）。
 
 
-有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[持久聊天服务器的概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息，请参阅[Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)中的部署文档和[Managing Lync Server 2013，Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)操作文档中。
+有关持久聊天服务器功能和功能的详细信息, 请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息, 请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
 
 ## <a name="see-also"></a>另请参阅
 

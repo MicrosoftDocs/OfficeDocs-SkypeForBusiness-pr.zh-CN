@@ -1,11 +1,11 @@
 ---
-title: 文件筛选器创建新的或编辑现有的
+title: 文件筛选器新建或编辑现有
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpFileEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ccd41c10873ee45e8bdb6af3300f449ef459af86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1ca72944ae6b6d780dc6c8c136ef1779d867a5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911021"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285776"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>文件筛选器：创建新的或编辑现有的
 
@@ -26,7 +26,7 @@ ms.locfileid: "33911021"
 
 - [修改默认文件传输筛选器](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [为特定站点创建新的文件传输筛选器](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [为特定网站创建新的文件传输筛选器](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
-有关您可以使用适用于业务 Server Control Panel Skype 执行的各种过程的详细信息，请参阅[管理的 Skype 的业务服务器 2015年](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 

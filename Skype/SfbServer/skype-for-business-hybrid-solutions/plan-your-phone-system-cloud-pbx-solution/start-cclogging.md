@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: Start-CcLogging cmdlet 用于为 Skype for Business 云连接器版本设备生成传入和传出呼叫日志。
-ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6e77ff347ca72a9aa31ad7bcb5a0330a8ea17a9a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892502"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286920"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
@@ -44,7 +44,7 @@ Start-CcLogging
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-开始 CcLogging cmdlet 提供了一种方法，供管理员用来开始日志记录云连接器装置的传入和传出呼叫。 默认情况下，日志记录将在四个小时后自动停止。
+CcLogging cmdlet 为管理员提供了一种在云连接器设备上开始记录传入和传出调用的方法。 默认情况下，日志记录将在四个小时后自动停止。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

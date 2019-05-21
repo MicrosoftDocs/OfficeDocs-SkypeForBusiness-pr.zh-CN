@@ -1,10 +1,10 @@
 ---
-title: 部署呼叫通过业务服务器 Skype 中工作
+title: 通过 Skype for Business 服务器中的工作部署呼叫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,47 +12,47 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 摘要： 了解如何部署为部分或全部用户呼叫通过单位电话的 Skype 业务服务器。
-ms.openlocfilehash: 3518d5a4d2977ae976450dff4e028365bebe0703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何在某些或所有用户的 Skype for Business 服务器中通过工作部署呼叫。'
+ms.openlocfilehash: a2d4783f39ca19fd751295f4725f686d843f8d5b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893523"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286388"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>部署呼叫通过业务服务器 Skype 中工作
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>通过 Skype for Business 服务器中的工作部署呼叫
  
-**摘要：** 了解如何部署为部分或全部用户呼叫通过单位电话的 Skype 业务服务器。
+**摘要:** 了解如何通过适用于部分或全部用户的 Skype for Business 服务器中的工作部署呼叫。
   
-使用以下步骤为用户部署通过单位电话呼叫。 [规划呼叫通过中工作的企业服务器的 Skype](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)中讨论了规划注意事项。 在早期版本的 Lync Server 远程呼叫控制是一种功能，允许用户控制其 PBX 电话与 Lync Server。 在业务服务器 Skype，此功能已取代与通过单位电话呼叫。 
+使用这些步骤通过适用于您的用户的工作来部署呼叫。 [通过 Skype For Business Server 中的工作计划呼叫计划](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)中讨论了规划注意事项。 在早期版本的 Lync Server 远程呼叫控制中, 支持用户使用 Lync Server 控制其 PBX 手机的功能。 在 Skype for Business 服务器中, 此功能已替换为 "通过工作通话"。 
   
-## <a name="prerequisites-for-call-via-work"></a>用单位电话呼叫的先决条件
+## <a name="prerequisites-for-call-via-work"></a>通过工作进行通话的先决条件
 
-通过单位电话呼叫使用统一通信 Web API (UCWA)，其上自动安装所有 Skype 的业务 Server 前端服务器。 若要为用户启用呼叫通过单位电话，您必须具有就地以下先决条件： 
+通过工作进行呼叫使用统一通信 Web API (UCWA), 该 API 自动安装在所有 Skype for business 服务器前端服务器上。 若要允许用户通过工作进行呼叫, 还必须满足以下先决条件: 
   
-- 您必须具有中介服务器部署，前端服务器的一部分或作为独立角色。 您还必须部署 IP-PBX 网关。
+- 你必须已部署中介服务器, 或者作为前端服务器的一部分, 或者作为独立角色进行部署。 您还必须部署 IP-PBX 网关。
     
-- 将启用呼叫通过单位电话的所有用户必须在 PBX 电话系统上都具有外线直拨分机 (DID)。 
+- 通过工作启用呼叫的所有用户必须在 PBX 电话系统上进行直接向内拨号 (已执行)。 
     
-- 您必须启用企业语音呼叫通过单位电话的所有用户。 时执行此操作时，您必须配置为每个用户使用的相应的 PBX 电话系统的相应 DID 号码业务 DID 号码 Skype。 
+- 您必须通过适用于企业语音的工作用户启用所有呼叫。 执行此操作时, 必须为每位用户将 Skype for Business 的号码配置为相应的 PBX 电话系统对应的 "号码"。 
     
-- 将使用呼叫通过单位电话的所有用户必须都具有**自动配置**其 Skype 业务客户端中其**高级连接**选项中选择。 这样，客户端可以发现 UCWA Url。 **自动配置**为默认选择。
+- 通过工作进行呼叫的所有用户都必须在其 Skype for Business 客户端的 "**高级连接**" 选项中选中 "**自动配置**"。 这使客户能够发现 UCWA Url。 **自动配置**为默认选择。
     
-- 对于每个呼叫通过单位电话用户，启用呼叫转接和同时响铃。 
+- 对于每个通过工作用户拨打的电话, 启用呼叫转接和同时拨打。 
     
-- 为每个呼叫通过单位电话用户，确保启用了电话拨入式会议和拨出式会议。 这样，这些用户获得业务会议和 Skype 注销。
+- 对于每个通过工作用户进行的呼叫, 请确保已启用电话拨入式会议和会议拨出。 这使这些用户能够进入和注销 Skype for Business 会议。
     
-- 确保通过单位电话呼叫中的每个用户禁用委派、 团队呼叫和响应组。
+- 确保通过工作用户对每个呼叫禁用委派、团队呼叫和响应组。
     
 ## <a name="deploy-call-via-work"></a>部署单位电话呼叫
 
 先决条件就绪后，请执行以下操作：
   
-- 创建部署上正在呼叫通过单位电话的呼叫的用户的 PBX 呼叫者 ID 显示 for Business 的 Skype 全局电话号码。 
+- 为你的部署创建全球电话号码 Skype for Business 显示在通过工作电话进行呼叫的用户的 PBX 呼叫方 ID 上。 
     
-- 创建一个或多个呼叫通过单位电话的策略
+- 通过工作策略创建一个或多个通话
     
-- 通过单位电话呼叫策略分配给每个用户都将启用通过单位电话呼叫
+- 通过工作策略将呼叫分配给每个用户, 这些用户将通过工作进行呼叫
     
 ### <a name="create-the-call-via-work-global-phone-number"></a>创建通过工号拨号全局电话号码
 
@@ -76,13 +76,13 @@ ms.locfileid: "33893523"
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    例如，以下 cmdlet 创建名为 ContosoUser1CvWP 呼叫通过单位电话策略、 要求用户使用管理员回拨号码，并将该回拨号码设置为 1-555-789-1234。
+    例如, 以下 cmdlet 通过名为 ContosoUser1CvWP 的工作策略创建呼叫, 要求用户使用管理员回拨号码, 并将该回拨号码设置为1-555-789-1234。
     
   ```
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>为用户分配呼叫通过工作策略
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>通过工作策略向用户分配呼叫
 
 - 键入以下 cmdlet
     
@@ -90,7 +90,7 @@ ms.locfileid: "33893523"
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    例如，以下 cmdlet 将"ContosoUser1CvWP"的通过单位电话呼叫策略分配给名为**ContosoUser1**的用户。
+    例如, 以下 cmdlet 通过工作策略 "ContosoUser1CvWP" 将调用分配给名为**ContosoUser1**的用户。
     
   ```
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -98,5 +98,5 @@ ms.locfileid: "33893523"
 
 ## <a name="see-also"></a>另请参阅
 
-[规划用单位电话的 Skype 业务服务器的呼叫](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[通过 Skype for Business Server 中的工作计划呼叫计划](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是可用于新西兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
-ms.openlocfilehash: d68c0ecaf898a92d41a10dd10df94bfa03b24241
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 以下是适用于新西兰的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: 727b0eee570a2b5c959d66f5998d95f31aa186a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203590"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282751"
 ---
 # <a name="availability-in-new-zealand"></a>在新西兰的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-下面是可用于新西兰业务和 Microsoft 团队的 Skype 的 Office 365 服务。
+以下是适用于新西兰的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，为：<br/><ul><li> 惠灵顿</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 惠灵顿</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统

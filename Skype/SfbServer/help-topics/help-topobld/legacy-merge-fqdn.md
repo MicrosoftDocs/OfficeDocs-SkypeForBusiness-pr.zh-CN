@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
-description: 内部用户与联盟、 远程用户访问和公共 IM 连接的外部用户的通信其中的各种方案，使用访问边缘池内部 FQDN。 如果旧环境中部署负载平衡边缘服务器，内部负载平衡器的输入的完全限定的域名 (FQDN)。
-ms.openlocfilehash: 83a85a31049b936bbc52f51e10855938aa049249
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 访问边缘池内部 FQDN 用于各种方案, 其中内部用户与外部用户进行联盟、远程用户访问和公共 IM 连接。 如果在您的旧环境中部署了负载平衡的边缘服务器, 请输入内部负载平衡器的完全限定的域名 (FQDN)。
+ms.openlocfilehash: ca7026ea00262483ec4ea239e18b812ac4dbffd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284219"
 ---
 # <a name="legacy-merge-fqdn"></a>旧版合并 FQDN
  
-内部用户与联盟、 远程用户访问和公共 IM 连接的外部用户的通信其中的各种方案，使用**访问边缘池内部 FQDN** 。 如果旧环境中部署负载平衡边缘服务器，内部负载平衡器的输入的完全限定的域名 (FQDN)。
+**访问边缘池内部 FQDN**用于各种方案, 其中内部用户与外部用户进行联盟、远程用户访问和公共 IM 连接。 如果在您的旧环境中部署了负载平衡的边缘服务器, 请输入内部负载平衡器的完全限定的域名 (FQDN)。
   
-与客户端，旧的前端池和服务器的默认传输控制协议 (TCP) 的 SIP 端口**5061**的**内部 SIP 访问端口**值。 如果不使用的默认值，更新**内部 SIP 访问端口：** 值。
+**5061**的**内部 SIP 访问端口**值是用于与客户端、旧式前端池和服务器通信的默认传输控制协议 (TCP) SIP 端口。 如果未使用默认值, 请更新 "**内部 SIP 访问端口:** " 值。
   
 

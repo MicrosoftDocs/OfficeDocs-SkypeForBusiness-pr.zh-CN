@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,29 +18,29 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: '了解如何设置您的用户的隐私模式，以便他们可以更好地控制如何人们可以看到他们的可用性。 '
-ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解如何为你的用户设置隐私模式, 以便他们能够更好地控制用户查看其可用性的方式。 '
+ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285311"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 
-Skype 业务联机状态设置为人们提供了更好地控制谁可以查看它们是否正在开会或外出可用。 有关 Skype 业务状态和隐私设置的详细信息，请参阅[Configure Skype 的业务联机状态](configure-presence-in-skype-for-business-online.md)。 
+Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息, 请参阅[在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>选择您的组织中的每个人的默认联机状态设置
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>为组织中的每个人选择默认的联机状态设置
 <a name="__top"> </a>
 
-1. 转到业务联机 admin center >**组织 > 常规**Skype。
+1. 转到 Skype for Business Online 管理中心 >**组织 > "常规**"。
     
-2. 在**状态隐私模式**，下选择的设置，，然后单击**保存**。
+2. 在 "**状态隐私模式**" 下, 选择设置, 然后单击 "**保存**"。
     
-|**设置**|**哪些人可以查看用户的状态**|
+|**设置**|**谁可以查看用户的状态**|
 |:-----|:-----|
-|**自动显示联机状态信息** <br/> |对于不属于**外部**或**已阻止**隐私组业务用户的任何 Skype。 <br/> |
-|**仅对用户的联系人的显示状态信息** <br/> |用户的联系人列表中的用户不属于**外部**或**已阻止**的隐私组中的任何人。 <br/> 单个用户可以更改此设置中的业务**选项**对话框 Skype。 <br/> |
+|**自动显示联机状态信息** <br/> |任何不属于 "**外部**" 或 "已**阻止**" 隐私组的 Skype for business 用户。 <br/> |
+|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中任何不属于 "**外部**" 或 "已**阻止**" 隐私组的人。 <br/> 单个用户可在 "Skype for Business**选项**" 对话框中更改此设置。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

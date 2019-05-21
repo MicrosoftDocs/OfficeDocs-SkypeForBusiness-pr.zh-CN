@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,16 +22,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 47c6b05ea89b1401a9ef8900f8f3c357b3b3a68a
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868677"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283375"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国投诉处理准则
 
-此代码适用于小型企业客户 （组织 10 名员工或更少） 在英国 （英国） 与 Office 365 调用规划服务 （"服务"） 按照英国 communications 法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于英国 (英国) 的小型企业客户 (即10名员工或更少的组织), 根据英国通信法规, 在英国 (英国) 的 Office 365 通话计划服务 ("服务") 中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="how-to-make-a-complaint"></a>如何投诉
 
@@ -39,7 +39,7 @@ ms.locfileid: "33868677"
 
 - 免费电话号码： 0800 032 6417
 
-- Online： 登录到 Microsoft 365 管理中心，通过选择**支持**下**新建服务请求**提交服务请求。
+- 联机: 登录到 Microsoft 365 管理中心并通过选择 "**支持**" 下的 "**新服务请求**" 提交服务请求。
 
 ## <a name="timelines"></a>时间表
 
@@ -51,7 +51,7 @@ ms.locfileid: "33868677"
 
 Skype for Business 将努力在收到投诉的七个 (7) 工作日内解决与服务相关的所有投诉。
 
-如果您是不满意，在其中管理投诉有关该服务的方式，您可能会要求业务代表处理投诉，通过电话或电子邮件、 提升到投诉按照您的服务协议的 Skype。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
+如果您对服务投诉的管理方式不满意, 您可以通过电话或电子邮件让 Skype for Business 代表处理您的投诉, 按照您的服务协议将投诉上报给投诉。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
 
 ## <a name="alternative-dispute-resolution"></a>备选争议解决办法
 
@@ -63,7 +63,7 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
 
 有关向 Ombudsman Services 提交投诉的步骤，请参阅 Ombudsman Services 的[网站](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)。
 
-通过填写 Ombudsman 服务的网站上的联系人窗体或通过电话、 信件或电子邮件，您可能会达到 Ombudsman 服务：
+你可以通过在 Ombudsman Services "网站上填写联系人窗体或通过电话、信件或电子邮件来访问 Ombudsman 服务:
 
 - 联系表格： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

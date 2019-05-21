@@ -1,10 +1,10 @@
 ---
-title: 在 Skype for Business Server 中配置 SNMP 应用程序
+title: 在 Skype for Business 服务器中配置 SNMP 应用程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: 配置 SNMP 应用程序以使用 E9-1-1 在 Skype 业务 Server 企业语音。
-ms.openlocfilehash: 7903163d6cf1cd78d7689557f4906966c2c67a2c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。
+ms.openlocfilehash: 575c982dae20ed085e49690edfbb141786390516
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893082"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303416"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 SNMP 应用程序
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置 SNMP 应用程序
  
-配置 SNMP 应用程序以使用 E9-1-1 在 Skype 业务 Server 企业语音。 
+在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。 
   
-Skype 业务服务器包括可用于连接到简单网络管理协议 (SNMP) 应用程序匹配 MAC 地址与端口和交换机信息的位置信息服务的标准 web 服务接口。 
+Skype for Business 服务器包括一个标准的 web 服务接口, 可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议 (SNMP) 应用程序。 
   
-如果安装 SNMP 应用程序和位置信息服务未能找到匹配项的位置数据库中，位置信息服务自动使用客户端提供的 MAC 地址查询应用程序。 位置信息服务然后使用 SNMP 应用程序返回的端口和交换机信息重新查询位置数据库。
+如果已安装 SNMP 应用程序, 并且位置信息服务无法在位置数据库中找到匹配项, 则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后, 位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
   
 > [!NOTE]
-> MAC 地址不在运行 Windows 8 的计算机上可用。 
+> MAC 地址在运行 Windows 8 的计算机上不可用。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>配置 SNMP 应用程序 URL
 
@@ -44,5 +44,5 @@ Skype 业务服务器包括可用于连接到简单网络管理协议 (SNMP) 应
 
 ## <a name="see-also"></a>另请参阅
 
-[通过 Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

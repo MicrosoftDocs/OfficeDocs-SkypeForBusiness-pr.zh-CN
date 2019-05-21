@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: 按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。
-ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 按照本主题中的步骤修改现有 Skype for Business Cloud Connector Edition 1.4.1 或更高版本的部署配置。
+ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237607"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287046"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
-按照本主题可修改现有的 Skype 商务云连接器版 1.4.1 或更高版本的部署的配置中的步骤。 
+按照本主题中的步骤修改现有 Skype for Business Cloud Connector Edition 1.4.1 或更高版本的部署配置。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>修改单个站点的配置
 <a name="BKMK_SIngleSite"> </a>
@@ -44,7 +44,7 @@ ms.locfileid: "32237607"
 
 3. 更新设备目录中的 CloudConnector.ini 文件。
     
-4. 运行以下 cmdlet 以更新配置: （此步骤仅适用的版本 2; 早期版本，请跳到下一步。）
+4. 运行以下 cmdlet 更新配置: (此步骤仅适用于版本 2; 对于以前的版本, 请跳到下一步。)
     
    ```
    Import-CcConfiguration 
@@ -78,7 +78,7 @@ ms.locfileid: "32237607"
 
 3. 更新设备目录中的 CloudConnector.ini 文件。
     
-4. 运行以下 cmdlet 以更新配置: （此步骤仅适用的版本 2; 早期版本，请跳到下一步。）
+4. 运行以下 cmdlet 更新配置: (此步骤仅适用于版本 2; 对于以前的版本, 请跳到下一步。)
     
    ```
    Import-CcConfiguration 
@@ -96,7 +96,7 @@ ms.locfileid: "32237607"
    Publish-CcAppliance
    ```
 
-7. 运行以下 cmdlet，以在当前的设备上重新部署云连接器：
+7. 运行以下 cmdlet 以在当前设备上重新部署云连接器:
     
    ```
    Install-CcAppliance
@@ -105,16 +105,16 @@ ms.locfileid: "32237607"
 ## <a name="modify-the-configuration-of-multiple-sites"></a>修改多个站点的配置
 <a name="BKMK_MultipleSites"> </a>
 
-要修改部署中的多个站点的配置，请按照单个网站，一次更新一个站点的步骤。
+若要在部署中修改多个网站的配置, 请按照单个网站的步骤进行操作, 一次更新一个网站。
   
 ## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>修改 Office 365 租户的配置以启用自动更新
 <a name="BKMK_MultipleSites"> </a>
 
-若要启用操作系统自动更新和位自动更新，必须使用 Skype 的业务租户管理员帐户的在线管理和使用租户远程 PowerShell，如下所示。
+若要启用操作系统自动更新和 Bits 自动更新, 必须使用 Skype for Business 租户管理员帐户进行联机管理, 并使用租户远程 PowerShell, 如下所示。
   
-如果您禁用操作系统自动更新或位自动更新，您的主机和虚拟机可能会错过重要的 Windows 更新，和云连接器不会自动升级到新版本。 强烈建议启用自动更新。
+如果你禁用了操作系统自动更新或 Bits 自动更新, 则你的主机和虚拟机可能会错过重要的 Windows 更新, 并且云连接器将不会自动升级到新版本。 强烈建议启用自动更新。
   
-1. 网站的 EnableAutoUpdate 属性必须设置为 true （默认值）。 运行以下 cmdlet 以确保 EnableAutoUpdate 设置为 true：
+1. 网站的 EnableAutoUpdate 属性需要设置为 true (默认值)。 运行以下 cmdlet 以确保 EnableAutoUpdate 设置为 true：
     
    ```
    Get-CsHybridPSTNSite -Identity <SiteName>
@@ -159,9 +159,9 @@ ms.locfileid: "32237607"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新专用租户管理员凭据
 <a name="BKMK_MultipleSites"> </a>
 
-从具有所需权限的帐户进行管理云连接器为 Office 365 租户中的更改。 在云连接器 2.0 之前的版本，该帐户是专用全局租户管理员帐户。 在云连接器版本 2.0 及更高版本中，该帐户可以是具有 Skype 业务管理员权限的 Office 365 帐户。
+Office 365 租户 for Cloud Connector 中的管理更改是从具有所需权限的帐户进行的。 在2.0 之前的云连接器版本中, 该帐户是专用的全局租户管理员帐户。 在云连接器版本2.0 和更高版本中, 该帐户可以是具有 Skype for Business 管理员权限的 Office 365 帐户。
   
-如果在 Office 365 中更改您的管理员帐户凭据，您还需要通过运行以下管理员 PowerShell 命令已部署的每台云连接器装置更新云 Connector 中的本地缓存的凭据：
+如果你的管理员帐户凭据在 Office 365 中发生更改, 你还需要通过在你部署的每个云连接器装置上运行以下管理员 PowerShell 命令来更新云连接器中的本地缓存凭据:
   
 ```
 Set-CcCredential -AccountType TenantAdmin
@@ -173,9 +173,9 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本节仅适用于云连接器 2.0 版和更高版本。 
   
-所有云连接器凭据都存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。 当主机服务器上的密码更改时，需要更新本地存储的凭据。
+所有云连接器凭据均存储在以下文件中: "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>"。 当主机服务器上的密码更改时，需要更新本地存储的凭据。
   
-若要更新云连接器装置上本地存储的凭据，请使用[Get-CcCredential](get-cccredential.md)和[设置 CcCredential](set-cccredential.md) cmdlet，请按照下列步骤：
+若要在云连接器设备上更新本地存储的凭据, 请使用[CcCredential](get-cccredential.md)和[CcCredential](set-cccredential.md) cmdlet, 然后按照以下步骤操作:
   
 1. 运行以下命令，以检索稍后将需要的密码： 
     
@@ -189,9 +189,9 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新启动主机服务器。
     
-4. 删除以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"。
+4. 删除以下文件: "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>"。
     
-5. 启动作为管理员，PowerShell 控制台，然后运行"注册 CcAppliance-本地"以重新输入以下说明的密码。 请务必输入之前输入的用于云连接器部署的相同密码。
+5. 以管理员身份启动 PowerShell 控制台, 然后运行 "Register-CcAppliance" 以在描述后重新输入密码。 请务必输入之前输入的用于云连接器部署的相同密码。
     
 默认情况下，VmAdmin 和 DomainAdmin 与 CceService 使用相同的密码。如果第 1 步中返回的 DomainAdmin、VMAdmin 和 CceService 密码不同，则必须执行以下步骤：
   
@@ -211,21 +211,21 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> 本节是适用于云连接器 2.0.1 版及更高版本。 
+> 此部分适用于云连接器版本2.0.1 及更高版本。 
   
-云连接器服务运行云连接器管理服务。 云连接器 Edition 部署过程中创建的 CceService 帐户并将其存储在以下文件:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml"和"%systemdrive%\programdata\cloudconnector\credentials...CceService.xml"。
+云连接器服务运行云连接器管理服务。 CceService 帐户在云连接器版本部署期间创建并存储在以下文件中: "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>和%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService "。
   
-若要确保所有装置可都访问网站目录共享，CceService 帐户的密码必须部署在网站的所有装置相同。 注意以下几项：
+若要确保所有设备都可以访问网站目录共享, CceService 帐户的密码在网站中部署的所有设备上必须是相同的。 注意以下几项：
   
-- 默认情况下，CceService 帐户被配置为"密码永不过期"。 更新密码时，Microsoft 建议保留此配置。
+- 默认情况下, CceService 帐户配置为 "密码永不过期"。 更新密码时, Microsoft 建议保留此配置。
     
-- 在非高峰使用时段和位或 Windows update 的自动更新时间范围之外，您应更新密码。 更新密码时，设备需要排空和重新启动，这需要一些时间。 重新启动设备将中断自动更新操作。 
+- 你应该在非高峰使用期和自动更新时间窗口 (bits 或 Windows 更新) 外更新密码。 更新密码时, 设备需要排出并重新启动, 这需要一些时间。 重新启动装置将中断自动更新操作。 
     
-- CceService 帐户密码更改时，您将需要指定所有的凭据，并存储在本地文件中对其进行更新。 
+- 更改 CceService 帐户密码时, 你需要指定所有凭据并在本地存储的文件中更新它们。 
     
-对于每个装置属于相同的 PSTN 网站，您需要指定以下： 
+对于属于同一 PSTN 站点的每个装置, 您将需要指定以下内容: 
   
-1. 运行以下命令以检索的帐户名称和稍后将用的密码：
+1. 运行以下命令以检索稍后将使用的帐户名称和密码:
     
    ```
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
@@ -239,15 +239,15 @@ Set-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. 运行 Enter CcUpdate cmdlet 排出设备，并将其移到手动维护模式。
+2. 运行 CcUpdate cmdlet 以耗尽装置并将其移动到手动维护模式。
     
-3. 更新主机服务器上的 CceService 帐户的密码。
+3. 更新主服务器上的 CceService 帐户密码。
     
 4. 重新启动主机服务器。
     
-5. 运行还原 CcCredentials cmdlet 重新输入以下说明的密码。 
+5. 运行 CcCredentials cmdlet 以在描述之后重新输入密码。 
     
-    确保您输入您之前输入云连接器部署除外 CceService 帐户相同的密码。 对于 CceService 帐户中，输入新密码。 确保 CceService 帐户的新密码是相同的 PSTN 网站中的所有设备。
+    请确保输入的密码与你在云连接器部署之前输入的密码相同, 但 CceService 帐户除外。 对于 CceService 帐户, 请输入您的新密码。 请确保 CceService 帐户的新密码对于 PSTN 站点中的所有设备都是相同的。
     
 6. 默认情况下，VmAdmin 和 DomainAdmin 与 CceService 使用相同的密码。如果第 1 步中返回的 DomainAdmin、VMAdmin 和 CceService 密码不同，则必须执行以下步骤：
     
@@ -263,28 +263,28 @@ Set-CcCredential -AccountType TenantAdmin
     
    - 当系统提示输入新帐户凭据时，请输入第 1 步中返回的用作 VmAdmin 密码的密码。 
     
-9. 运行退出 CcUpdate cmdlet 将移动设备脱离手动维护模式。
+9. 运行 CcUpdate cmdlet, 将设备移出手动维护模式。
     
-10. 完成相同的 PSTN 网站中的所有装置这些步骤后，删除网站的根目录中的以下文件：
+10. 在同一 PSTN 站点中的所有装置上完成这些步骤后, 在 "网站根目录" 中删除以下文件:
     
     - CcLockFile
     
-    - Site_\<边缘外部 Sip 池 fqdn\>
+    - Site_\<Edge 外部 Sip 池 fqdn\>
     
-    - Tenant_\<边缘外部 Sip 池 fqdn\>
+    - Tenant_\<Edge 外部 Sip 池 fqdn\>
     
-    - TenantConfigLock_\<边缘外部 Sip 池 fqdn\>
+    - TenantConfigLock_\<Edge 外部 Sip 池 fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>添加新 SIP 域 
 <a name="BKMK_UpdatePassword"> </a>
 
-要添加到现有的云连接器部署一个新的 SIP 域 （或多个 SIP 域），请执行以下操作：
+若要向现有云连接器部署添加新的 SIP 域 (或多个 SIP 域), 请执行以下操作:
   
-1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[添加到 Office 365 域](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何在 Office 365 中设置域的详细信息, 请参阅[将域添加到 office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
-2. 更新云连接器配置文件的新的 SIP 域或域。
+2. 用新的 SIP 域或域更新云连接器配置文件。
     
-3. 请求具有其他 SAN sip.domain 云连接器配置中定义的每个 SIP 域的名称的新边缘外部证书。 
+3. 使用 sip 的其他 SAN 名称请求新的 Edge 外部证书。适用于你的云连接器配置中定义的每个 SIP 域的域。 
     
 4. 按如下所述设置新边缘外部证书的路径：
     
@@ -299,13 +299,13 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="modify-the-primary-sip-domain"></a>输入主 SIP 域
 <a name="BKMK_UpdatePassword"> </a>
 
-如果您需要更改云连接器部署中的主 SIP 域，请执行以下操作：
+如果需要在云连接器部署中更改主要 SIP 域, 请执行以下操作:
   
-1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何设置您在 Office 365 中的域的详细信息，请参阅[添加到 Office 365 域](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 确保你已完成在 Office 365 中更新域的步骤并且能够添加 DNS 记录。 有关如何在 Office 365 中设置域的详细信息, 请参阅[将域添加到 office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
-2. 更新新的 SIP 域与云连接器配置文件。
+2. 用新的 SIP 域更新云连接器配置文件。
     
-3. 请求具有其他 SAN sip.domain 云连接器配置中定义的每个 SIP 域的名称的新边缘外部证书。 
+3. 使用 sip 的其他 SAN 名称请求新的 Edge 外部证书。适用于你的云连接器配置中定义的每个 SIP 域的域。 
     
 4. 按如下所述设置新边缘外部证书的路径：
     
@@ -315,7 +315,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 5. 
     
-    删除站点中的每个装置的租户注册，通过运行以下 cmdlet 在管理员 PowerShell 云连接器上：
+    通过在云连接器上的管理员 PowerShell 中运行以下 cmdlet 来删除网站中每个设备的租户注册:
     
    ```
    Unregister-CcAppliance
@@ -331,7 +331,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 7. 
     
-    卸载每个设备上云连接器管理员 PowerShell 中运行以下 cmdlet:
+    通过在云连接器上的管理员 PowerShell 中运行以下 cmdlet 来卸载每个装置:
     
    ```
    Uninstall-CcAppliance
@@ -339,7 +339,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 8. 
     
-     通过运行以下 cmdlet 在管理员 PowerShell 云连接器上注册每个设备：
+     通过在云连接器上的管理员 PowerShell 中运行以下 cmdlet 来注册每个设备:
     
    ```
    Register-ccAppliance
@@ -347,18 +347,18 @@ Set-CcCredential -AccountType TenantAdmin
 
 9. 
     
-     安装每个设备，逐个，通过云连接器上管理员 PowerShell 中运行以下 cmdlet:
+     通过在云连接器上的管理员 PowerShell 中运行以下 cmdlet, 逐个安装每个装置:
     
    ```
    Install-CcAppliance
    ```
 
-## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>外部边缘证书替换为新的证书
+## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>将外部边缘证书替换为新证书
 <a name="BKMK_UpdatePassword"> </a>
 
-当您需要替换云连接器 appliance 上的外部边缘证书时，需要获取新的边缘证书，准备包含私钥和完整的证书链的 PFX 文件，然后执行以下每个设备：
+当你需要替换云连接器装置上的外部边缘证书时, 你需要获取新的边缘证书, 准备包含私钥和完整证书链的 PFX 文件, 然后在每个设备上执行以下操作:
   
-1. 使用 Enter CcUpdate cmdlet 置于维护模式下设备。
+1. 通过使用 CcUpdate cmdlet 将设备置于维护模式。
     
 2. 运行以下命令： 
     
@@ -368,8 +368,8 @@ Set-CcCredential -AccountType TenantAdmin
 
 3. 
     
-    如果旧相同的新证书的密码，将会导致导入成功。 如果密码不同，您将收到错误密码不正确，并且您将需要通过运行注册 CcAppliance cmdlet 重置密码使用-本地参数，然后重复步骤 2。 
+    如果新证书的密码与旧证书的密码相同, 则导入将成功。 如果密码不同, 你将收到错误, 指出密码错误, 你将需要通过运行带有-Local 参数的 CcAppliance cmdlet 来重置密码, 然后重复步骤2。 
     
-4. 使用退出 CcUpdate cmdlet 执行脱离维护模式 appliance。
+4. 通过使用 CcUpdate cmdlet 使设备退出维护模式。
     
 

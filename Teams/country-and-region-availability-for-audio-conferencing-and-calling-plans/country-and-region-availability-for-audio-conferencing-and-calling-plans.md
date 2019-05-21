@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: 您可以选择可查看或不如果音频会议，电话系统，调用计划，Communications 字幕式，是否收费和免费电话号码可用国家/地区。
-ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数, 以及收费和免费电话号码是否可用。
+ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082727"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286690"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
-您可以选择国家或地区，请参阅您的组织提供了哪些云语音功能。
+你可以选择一个国家或地区, 以了解哪些云语音功能可用于你的组织。
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您的国家或地区，请参阅 what's 适用于您的组织
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您所在的国家或地区以查看您的组织的可用功能
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](availability-in-argentina.md)
@@ -126,75 +126,75 @@ ms.locfileid: "34082727"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-**如果您要查找的所有国家和地区，与电子表格下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**。
+**如果您要查找包含所有国家和地区的电子表格, 请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**。
 
 ***
 
-查找可查看如果一个业务或 Microsoft 团队服务 Skype 可用后，您可以看到[业务和 Microsoft 团队授权加载项的 Skype](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)可帮助您购买许可证，并将其分配给用户。
+查看 Skype for business 或 Microsoft 团队服务之一是否可用时, 你可以查看[skype for business 和 Microsoft 团队附加许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), 以帮助你购买许可证并将其分配给你的用户。
 
 > [!NOTE]
 > 
-> 如果您需要为您的用户获取更多的电话号码，请参阅[Getting 电话号码为用户](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)或电话号码请求窗体、[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+> 如果需要为用户获取更多的电话号码, 请参阅为您的[用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)或为您的[组织管理电话](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)号码 (对于电话号码请求表单)。
 
 
-## <a name="want-to-learn-more-about-these-services"></a>要了解有关这些服务？
+## <a name="want-to-learn-more-about-these-services"></a>想要了解有关这些服务的详细信息？
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时您的组织中的人员将需要使用电话呼入会议。 商业和 Microsoft 团队的 Skype 包括刚这种情况下的音频会议功能 ！ 人员可以加入会议而不对于在移动设备或 PC 上的业务和 Microsoft 团队应用程序使用 Skype 使用电话呼叫。 决定您希望为您的组织的音频会议之后，您需要为您的组织中要计划/主机音频会议的每个人购买一个**音频会议**许可证。
+您的组织中的人员有时需要使用电话拨入会议。 Skype for Business 和 Microsoft 团队仅为此情况提供音频会议功能! 用户可以使用手机呼叫会议, 而不是在移动设备或电脑上使用 Skype for Business 和 Microsoft 团队应用。 确定你的组织需要音频会议后, 你需要为组织中打算安排/主持音频会议的每个人购买一个**音频会议**许可证。
   
-与音频会议，有收费和您的用户可以使用电话拨入式会议的收费电话免费电话号码。 他们正在启用音频会议时，会自动为对组织共享音频会议号码分配来自以下国家或地区的收费电话号码。 专用的收费和免费电话号码可分配给您的组织从其他城市。
+使用音频会议, 您的用户可以使用收费和免费电话号码来拨入会议。 当为组织启用音频会议时, 来自以下国家或地区的收费电话将自动分配给组织的共享音频会议号码。 专用的收费和免费电话号码可以从其他城市分配给您的组织。
 
 > [!IMPORTANT]
-> 没有音频会议中包含的所有电话拨入式号码列表的资源。 若要找出是否电话拨入电话号码中提供了您的区域或国家/地区，请转到**业务管理中心的 Skype** > **语音** > **电话号码**，单击**添加**，然后单击**新服务号码**。 **国家/地区**，**国家/地区使用列表**，和**市/县**以筛选搜索结果。 如果您要查找免费电话服务号码，**免费电话**选择从**国家/地区**列表。
+> 没有包含音频电话会议的所有拨入号码列表的资源。 若要了解你所在区域或国家/地区是否有拨入电话号码, 请转到**Skype for business 管理中心** > **语音** > **电话号码**, 单击 "**添加**", 然后单击 "**新的服务号码**"。 使用 "**国家/地区**"、"**州/地区**" 和 "**城市**" 的列表筛选搜索。 如果您要查找免费服务号码, 请从 "**省/市/自治区**" 列表中选择 "免费**电话**"。
 
-若要查看有关音频会议的详细信息，请参阅[音频会议的常见问题](../audio-conferencing-common-questions.md)
+若要查看有关音频会议的详细信息, 请参阅[音频会议常见问题解答](../audio-conferencing-common-questions.md)
 
-[为音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
+[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
-#### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>我使用呼叫功能或其他人添加到会议时，以便他们可以加入它
-中存在的音频会议功能名为"*呼叫我*"，并可用于让其他人加入电话拨入式会议。 使用下拉列表上面的国家/地区搜索并查看此功能是否可用。
+#### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>使用 "呼叫我" 功能或将其他人添加到会议以便他们可以加入会议
+在音频会议中有一个名为 "*呼叫我*" 的功能, 可用于让其他人加入电话拨入式会议。 使用上面的下拉列表搜索国家/地区, 并查看此功能是否可用。
 
 > [!CAUTION]
-> 免费或免费电话号码拨出不可能，因为一些免费电话号码仅函数从特定国家/地区内区域或国家/地区内。 例如，如果您拨出从美国中巴西的免费电话号码，呼叫可能不会成功因为内巴西或来自特定区域内巴西源自未呼叫。 免费电话号码拨出的能力根据拨打的免费电话号码的限制而广泛有所不同。 遗憾的是，在 Office 365 中，我们不能控制此行为，并因此，您的体验可能因拨的免费电话号码和免费电话号码的限制。 
+> 拨打电话给免费电话号码或免费电话号码是不可能的, 因为某些收费电话号码仅在某个国家或地区内的某个国家或地区内起作用。 例如, 如果您从美国拨出到巴西的收费电话号码, 呼叫可能不会成功, 因为呼叫不是来自巴西内部或巴西内的特定地区。 拨出电话号码的能力因拨打免费号码的限制而有很大不同。 遗憾的是, 在 Office 365 中, 我们无法控制此行为, 因此, 你的体验可能会有所不同, 具体取决于拨打的免费电话号码和免费号码的限制。 
   
-向另一个国家/地区未列出下方世界上从会议拨出是可使用[Office 365 通信字幕式](../what-are-communications-credits.md)。 这些用户，您将需要[设置为您的组织的通信字幕式](../set-up-communications-credits-for-your-organization.md)。
+使用[Office 365 通讯信用](../what-are-communications-credits.md), 从在世界上未列出的其他国家/地区拨出的其他国家/地区的电话是可用的。 对于这些用户, 你将需要为[你的组织设置通讯信用点数](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>电话系统
-与电话系统，您可以创建自动助理和呼叫队列 （与收费电话或免费电话号码） 用于为您的组织，应答传入呼叫和添加用户调用规划时这些用户可以使用 for Business 的 Skype 处理呼叫控制的基本任务如发起和接收呼叫，转接呼叫，并使观众调用。 **电话系统**的用户可以单击其通讯簿中的名称和 Skype for Business 将呼叫该联系人。 要发起和接收呼叫，**电话系统**用户可以使用其移动设备与便携式计算机或 PC 或使用 Skype for Business 的许多 IP 电话的一个耳麦。
+使用电话系统, 你可以创建自动助理和呼叫队列 (带有收费电话或免费电话号码) 来回答你的组织的传入呼叫, 并且当你为用户添加呼叫计划时, 他们可以使用 Skype for Business 负责基本的呼叫控制任务, 例如, 拨打和接听电话、转移通话以及静音和 unmuting 通话。 **电话系统**用户可以单击其通讯簿中的姓名, Skype for business 将向该人员发出呼叫。 要拨打和接听电话,**电话系统**用户可以使用其移动设备、便携式计算机或 PC 的耳机或使用 Skype for business 的多个 IP 电话之一。
 
-> 从这些位置的一些收费电话号码的可用性在库存水平根据任何给定时间可能会有所不同。 除了从 Office 365 为各个用户获取电话号码，则还可以搜索并获取收费电话或音频会议 （的会议桥）、 自动助理等呼叫队列服务的免费电话号码。 这些称为服务号码。 请参阅[Getting 服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)，以获取电话号码。 但是，为您的用户，您调用规划为它们分配之后, 可以分配用户电话号码以便他们可以发起和接收电话呼叫。 要查找这些电话号码，请转到[您的用户获取电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)。 您还可以参见[分配、 更改或删除的用户的电话号码](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 根据库存水平, 其中某些位置的收费电话号码的可用性可能在任何给定时间内有所不同。 除了从 Office 365 获取单个用户的电话号码之外, 还可以搜索和获取服务的收费电话号码或免费电话号码, 例如音频会议 (适用于会议桥)、自动助理和呼叫队列。 这些号码称为服务号码。 请参阅[获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)以获取电话号码。 但是, 对于您的用户, 在将呼叫计划分配给他们之后, 您可以分配一个用户电话号码, 以便他们可以拨打和接收电话电话。 若要查找这些电话号码, 请转到为[您的用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 您还可以查看[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
 
-[定价电话系统](https://products.office.com/skype-for-business/phone-system#Requirements)
+[电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
-> 从这些位置的一些收费电话号码的可用性在库存水平根据任何给定时间可能会有所不同。 
+> 根据库存水平, 其中某些位置的收费电话号码的可用性可能在任何给定时间内有所不同。 
 
-使用搜索的国家或地区和哪些服务是可用页的顶部下拉列表。
+使用页面顶部的下拉列表搜索国家或地区, 以及有哪些服务可用。
 
 ### <a name="calling-plans"></a>通话套餐
-与电话系统一起调用计划让用户发起和接收电话呼叫。 首先需要获取电话号码将分配给用户，然后分配调用规划 （而非服务号码） 的用户 （订阅服务器）。 有两种类型的调用计划可用：**国内**和**国内和国际**。 有关详细信息，请参阅[电话系统和调用计划](../calling-plan-landing-page.md)。
+除了电话系统, 通话计划还可让用户拨打和接听电话电话。 首先需要获取用户 (订阅者) 电话号码 (而非服务号码) 才能分配给用户, 然后分配呼叫计划。 有两种类型的通话计划可用:**国内**和**国内和国际**。 有关详细信息, 请参阅[电话系统和通话计划](../calling-plan-landing-page.md)。
 
-您还可以参见[电话系统和调用计划许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)的许可信息。
+您还可以查看[电话系统和通话计划许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)获取许可信息。
 
 > [!NOTE]
-> 国家/地区基于**Microsoft 365 管理中心**中的用户的许可证的位置 > **活动用户**和帐单地址**未**列出下**Microsoft 365 管理中心中的**组织配置文件**中心**。 
+> 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置, 而**不**是基于 microsoft 365 管理员**组织配置文件**中列出的帐单地址**中心**。 
   
-### <a name="toll-and-toll-free-phone-numbers-for-services"></a>收费和免费电话号码的服务
+### <a name="toll-and-toll-free-phone-numbers-for-services"></a>适用于服务的收费和免费电话号码
 
-除了从 Office 365 为各个用户获取电话号码，则还可以搜索并获取收费电话或音频会议 （的会议桥）、 自动助理等呼叫队列服务的免费电话号码。 这些称为服务号码。
+除了从 Office 365 获取单个用户的电话号码之外, 还可以搜索和获取服务的收费电话号码或免费电话号码, 例如音频会议 (适用于会议桥)、自动助理和呼叫队列。 这些号码称为服务号码。
   
-下面是大写字母和主要城市从您可以在哪里找到要用于音频会议和调用计划的收费电话服务号码的列表。 您可以从使用**Skype 业务管理中心的**以下位置获取收费电话服务号码。
+下面是一个包含数字和主要城市的列表, 可在其中获得用于音频会议和通话计划的收费服务号码。 您可以使用**Skype For business 管理中心**从这些位置获取收费服务号码。
   
-如果您想要获取的收费电话或免费电话服务号码，您可以看到[获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。 如果您已有的收费电话或您要从不同的提供程序将转接的免费电话服务号码，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您想获得收费或免费服务号码, 您可以参阅[获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。 如果您已有要从其他提供商处转移的收费或免费服务号码, 请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-使用搜索的国家或地区和哪些服务是可用页的顶部下拉列表。
+使用页面顶部的下拉列表搜索国家或地区, 以及有哪些服务可用。
 
 ### <a name="communications-credits"></a>通信点数
 
-我们建议您为音频会议和调用计划用户所需的功能电话拨出到**任何目标**设置 Communications 字幕式。 多个国家/地区内包括在内，但某些目标可能不会包含在您调用规划或音频会议的订阅。
+我们建议您为您的音频会议和呼叫计划用户设置通讯信用点数, 需要有权拨出到**任何目的地**。 包括许多国家/地区, 但某些目的地可能不包括在您的通话计划或音频会议套餐中。
   
-如果您不会设置 Communications 字幕式且将许可证分配给用户，并且出分钟，以便您的组织运行 （具体取决于您调用计划或音频会议的计划或国家/地区），他们也不能进行呼叫或从会议发起电话拨出。 您可以找到的出详细信息，包括建议通过读取资金金额[Communications 字幕式是什么？](../what-are-communications-credits.md)
+如果不设置通讯信用点数并为用户分配许可证, 而您的组织的分钟数 (取决于您的通话计划或音频会议计划或您所在的国家/地区), 他们将无法拨打或拨出会议。 您可以通过阅读[哪些是通讯信用点数](../what-are-communications-credits.md)来了解详细信息, 包括推荐的资金金额？
 
 
 ## <a name="related-topics"></a>相关主题

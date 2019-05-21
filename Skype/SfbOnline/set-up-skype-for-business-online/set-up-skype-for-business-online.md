@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -22,13 +22,13 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: '了解如何设置域、 用户、 IM 和状态为您的组织安装 for Business 的 Skype。 另请参阅如何设置音频会议、 电话系统和调用计划，和 Skype 会议广播。 '
-ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: '了解如何为你的组织设置你的域、用户、IM 和状态, 以供你的组织安装 Skype for Business。 另请参阅如何设置音频会议、电话系统和通话计划以及 Skype 会议直播。 '
+ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237821"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285251"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -40,15 +40,15 @@ ms.locfileid: "32237821"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Skype for Business 计划
 
-如果有 **[Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如，如果您的公司有 10 个用户，您将能够[开始使用 IM 和联机会议的业务的 Skype](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)彼此，并[与 for Business 的 Skype 召开的会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)使用 Skype for Business 执行步骤 2-6 下面之后。 和，您可以[设置在 Outlook 中的业务会议 Skype](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)联机会议，太 ！
+如果有 **[Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如, 如果您的企业有10个人, 那么您可以在执行下面的步骤2-6 后, 您可以[开始使用 skype for](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) business 与 skype for business 一起使用 skype for business, 以及使用 skype for business 的 skype For business[会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 您也可以[在 Outlook 中将 Skype For business 会议设置](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)为联机会议!
 
 如果你想使用 Skype for Business 与组织 **外部** 的用户进行 *通话*  ，则有下列选项：
 
-- **选项 1。使用免费的 [Skype 应用](https://www.skype.com/)** 。 如果企业的规模很小（例如，1-2 人），则使用 Skype 应用比较好。 进行国内和国际呼叫的费用较低。 仍可以保留会议呼叫、 发起视频呼叫和共享演示文稿的桌面。 [检查费率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
+- **选项 1。使用免费的 [Skype 应用](https://www.skype.com/)** 。 如果企业的规模很小（例如，1-2 人），则使用 Skype 应用比较好。 进行国内和国际呼叫的费用较低。 您仍可以举行电话会议、进行视频通话和分享桌面演示文稿。 [检查费率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
 
-- **选项 2。升级你的计划，并购买 Office 365 的电话系统和呼叫计划** 。 最简单的方法以找出多少这成本，然后切换、 到[业务产品-管理员技术支持联系人](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)并使其为您执行的全部内容。
+- **选项 2。升级你的计划，并购买 Office 365 的电话系统和呼叫计划** 。 了解这些成本的最简单的方法, 然后进行切换, 即[联系业务产品支持-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)并让他们为您执行所有操作。
 
-若要了解详细信息，请参阅[规划业务的 Office 365 的安装程序](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype)。
+若要了解详细信息, 请参阅[规划 Office 365 for business 的设置](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype)。
 
 ## <a name="2-sign-in-to-office-365"></a>2. 登录到 Office 365
 <a name="bkmk_signin"> </a>
@@ -59,7 +59,7 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
     ![在你注册 Skype for Business Online 之后收到的欢迎电子邮件的示例。 它包含你的 Office 365 用户 ID。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 登录到 Office 365 管理中心，并输入您的 Office 365 用户 ID 和密码。 登录后，你将看到 Office 365 管理中心：
+2. 登录到 Office 365 管理中心, 然后输入您的 Office 365 用户 ID 和密码。 登录后，你将看到 Office 365 管理中心：
 
     ![当你有 Skype for Business Online 计划时 Office 365 管理中心的外观的示例。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
@@ -68,11 +68,11 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
 在登录到 Office 365 之后，你可以将你的域和你的组织中的用户设置为使用 Skype for Business Online。
 
-1. [添加域和用户移动到 Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)： 使用 Office 365 安装向导设置与 Office 365 您自定义域 （如*fourthcoffee.com*)。 **By default, the Office 365 setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
+1. [将域和用户添加到 office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): 使用 office 365 安装向导设置自定义域 (如*Fourthcoffee.com*) 和 office 365。 **By default, the Office 365 setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
 
 2. [检查你的域和 DNS 连接](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0)：使用我们的工具（域疑难解答）检查你的域和 DNS 设置是否正确。执行此操作将发挥较大作用，可帮助解决任何安装问题，因为你可以避免 DNS 设置将来引起问题。
 
-3. [Office 365 URL 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)：大多数小型企业不需要执行此步骤。 **但是，如果你有限制访问部分 Web 的防火墙或代理服务器** ，你必须创建规则来允许访问 Skype for Business Online 终结点。 这是最好由有配置防火墙和代理服务器经验的人执行的高级步骤。 如果您尚未执行此操作这之前，请考虑雇用[Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为您设置 for Business 的 Skype。
+3. [Office 365 URL 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)：大多数小型企业不需要执行此步骤。 **但是，如果你有限制访问部分 Web 的防火墙或代理服务器** ，你必须创建规则来允许访问 Skype for Business Online 终结点。 这是最好由有配置防火墙和代理服务器经验的人执行的高级步骤。 如果您之前没有执行此操作, 请考虑聘用[Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为您设置 Skype for business。
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. 在你的组织中设置即时消息和状态
 <a name="bkmk_IM"> </a>
@@ -106,11 +106,11 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
 - [安装 Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)：有关如何从 Office 365 门户下载该应用并将其安装在你的 PC 或 Mac 上的说明。
 
-- [部署 Office 365 中的商业客户端 Skype](deploy-the-skype-for-business-client-in-office-365.md)： 部署中的大型企业的应用程序的说明。
+- [在 Office 365 中部署 Skype For business 客户端](deploy-the-skype-for-business-client-in-office-365.md): 在大型企业中部署应用的说明。
 
 - [安装 Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)：在 Android 设备、iOS 设备和 Windows Phone 上下载、安装和登录 Skype for Business。
 
-- [打开或关闭移动电话通知](turn-on-or-off-mobile-phone-notifications.md)： Skype for Business 移动设备上安装后，您和您企业中其他人可以接收有关传入和错过的即时消息的通知。
+- [打开或关闭移动电话通知](turn-on-or-off-mobile-phone-notifications.md): 当你在移动设备上安装了 Skype for business 时, 你和你的企业中的其他人可以接收有关传入和错过的即时消息的通知。
 
 ## <a name="6-test-to-make-sure-everything-is-working"></a>6. 测试以确保所有功能都能正常工作
 <a name="bkmk_test"> </a>
@@ -126,7 +126,7 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 ## <a name="do-you-want-to-set-up-other-available-features"></a>想要设置其他可用的功能？
 <a name="bkmk_more"> </a>
 
-之前设置的更多功能，请确保您具有这些许可证。 [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+在设置更多功能之前, 请确保你有许可证。 [Skype for Business 和 Microsoft Teams 外接程序许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 ### <a name="set-up-audio-conferencing"></a>设置音频会议
 
@@ -148,11 +148,11 @@ Skype 会议广播 是一项功能，允许你针对最多 10,000 个与会者�
 
 1. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)：为将 **主持** 直播会议的每个人分配 **Skype for Business Online** 或 **企业版计划** 许可证。
 
-2. [启用 Skype 会议广播](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)： 默认情况下不启用此功能。 在启用该功能后，你的用户将能够与组织中的其他人一起主持直播会议。
+2. [启用 Skype 会议直播](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): 默认情况下, 此功能未启用。 在启用该功能后，你的用户将能够与组织中的其他人一起主持直播会议。
 
-3. [设置的 Skype 会议广播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)： 如果您希望主机网络研讨会和其他广播与会者与您的组织之外，您需要配置您的网络。
+3. [设置 Skype 会议直播网络](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): 如果要将多人网络研讨会和其他广播托管到组织外部的与会者, 需要配置您的网络。
 
-4. [安排 Skype 会议广播](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553)和有一个[加入 Skype 会议广播](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)： 使确保广播的会议工作按计划在 Skype 会议广播*https://portal.broadcast.skype.com*，然后让某个人尝试加入会议。
+4. [安排 Skype 会议直播](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553)并[加入 skype 会议直播](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): 确保在*https://portal.broadcast.skype.com*会议中安排 skype 会议直播, 然后让某人尝试加入会议。
 
 ## <a name="learn-about-network-connectivity-requirements"></a>了解网络连接的要求
 <a name="bkmk_more"> </a>
@@ -162,7 +162,7 @@ Skype for Business 中音频、视频和应用程序共享的质量很大程度�
 ## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>全部设置已完成？ 开始使用 Skype for Business
 <a name="bkmk_more"> </a>
 
-[有关业务培训 Skype](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)： 签出此列表的培训主题可帮助您快速开始 ！
+[Skype For business 培训](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): 查看此培训主题列表, 帮助您快速入门!
 
 [开始 Skype for Business 电话会议](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
 

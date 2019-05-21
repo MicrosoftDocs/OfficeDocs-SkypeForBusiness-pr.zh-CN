@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: 在执行 Renew-CcCACertificate 或 Renew CcServerCertificate cmdlet 后，执行 Remove-CcLegacyServerCertificate cmdlet 可删除中央管理存储、中介服务器和边缘服务器上的旧服务器证书。
-ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab332f6f0c88de01f59342002f6387ab8a83a13b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287074"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  

@@ -1,31 +1,31 @@
 ---
-title: 导出 Business Server Skype 中的存档的数据
+title: 在 Skype for Business 服务器中导出存档的数据
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 摘要： 了解如何为业务 Server Skype 导出存档的数据。
-ms.openlocfilehash: fd17fda9d36c5739d9d1cab7845921a442a4155d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解如何导出 Skype for Business 服务器的存档数据。'
+ms.openlocfilehash: 6914b4c32c22165b551bb56ece8d7b3b9c21fdbe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884959"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286135"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>导出 Business Server Skype 中的存档的数据
+# <a name="export-archived-data-in-skype-for-business-server"></a>在 Skype for Business 服务器中导出存档的数据
 
-**摘要：** 了解如何为业务 Server Skype 导出存档的数据。
+**摘要:** 了解如何导出 Skype for Business 服务器的存档数据。
   
 存档数据库中存档的数据采用的是不可搜索或不可读格式，但是您可以使用 **Export-CsArchivingData** cmdlet 从数据库提取记录并将它们保存为 Outlook 电子邮件 (EML) 文件。
   
-如果您启用 Microsoft Exchange 集成，存档数据 Exchange 存储中。 可搜索并可供搜索，在 Exchange 存档的数据。 有关访问在 Exchange 存档的数据的详细信息，请参阅 Exchange 文档。
+如果启用 Microsoft Exchange 集成, 则会将数据存档在 Exchange 存储中。 Exchange 中存档的数据是可搜索和可发现的。 有关访问 Exchange 中存档的数据的详细信息, 请参阅 Exchange 文档。
   
-## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>导出存档数据，通过使用 Windows PowerShell Cmdlet
+## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 导出存档数据
 
 您可以使用 Export-CSArchivingData cmdlet 导出存档数据。 
   
@@ -35,12 +35,12 @@ ms.locfileid: "33884959"
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-以下命令为单个用户 (kenmyer@contoso.com) 导出存档数据。 这是通过包括用户的 SIP 地址后跟 UserUri 参数。 例如： 
+以下命令为单个用户 (kenmyer@contoso.com) 导出存档数据。 通过包含 UserUri 参数, 后跟用户的 SIP 地址, 即可完成此操作。 例如： 
   
 ```
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-有关详细信息，请参阅[Export-csarchivingdata](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息, 请参阅[CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) cmdlet 的帮助主题。
   
 

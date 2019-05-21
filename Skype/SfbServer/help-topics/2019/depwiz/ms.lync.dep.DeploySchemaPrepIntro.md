@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySchemaPrepIntro
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要启动任务以扩展架构的 Skype 业务服务器，您开始在准备架构页上。 单击“下一步”继续执行架构准备。
-ms.openlocfilehash: e17886be0660a8e3f0b9d8de6516b45b4aa830c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 若要启动任务以扩展 Skype for Business Server 的架构, 请从 "准备架构" 页面开始。 单击“下一步”继续执行架构准备。
+ms.openlocfilehash: 7df88b74c3432208e048fa8e60e49be8d45b76ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892067"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287788"
 ---
 # <a name="prepare-schema-intro"></a>准备架构（简介）
  
-若要启动任务以扩展架构的 Skype 业务服务器，您开始在**准备架构**页上。 单击“**下一步**”继续执行架构准备。
+若要启动任务以扩展 Skype for Business Server 的架构, 请从 "**准备架构**" 页面开始。 单击“**下一步**”继续执行架构准备。
   
 

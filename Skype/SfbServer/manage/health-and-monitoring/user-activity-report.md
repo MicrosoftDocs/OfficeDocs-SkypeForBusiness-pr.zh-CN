@@ -1,31 +1,31 @@
 ---
-title: 用户活动报告中 Skype 业务服务器 25
+title: Skype for Business Server 25 中的用户活动报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 摘要： 了解在 Skype 业务服务器的用户活动报告。
-ms.openlocfilehash: b07adda222a77d7c0bf4e57459a706343616422e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: '摘要: 了解 Skype for Business 服务器中的用户活动报表。'
+ms.openlocfilehash: b9dabdec0bf038ff7068e9bba40543cbd02d183e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915330"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279674"
 ---
-# <a name="user-activity-report-in-skype-for-business-server"></a>Skype 中的企业服务器用户活动报告
+# <a name="user-activity-report-in-skype-for-business-server"></a>Skype for Business 服务器中的用户活动报告
 
-**摘要：** 了解业务服务器的用户活动报告中 Skype。
+**摘要:** 了解 Skype for Business 服务器中的用户活动报告。
 
 用户活动报告提供了由用户在给定时间段内执行的对等会话和会议会话的详细列表。与很多监控报告不同，用户活动报告会将每个呼叫与单个用户绑定。例如，对等会话指定发起呼叫（源用户）的人员以及被呼叫（目标用户）的人员的 SIP URI。如果展开会议的信息，则会看到所有会议参与者及其在该会议中担任的角色的列表。
 
 用户活动报告有时候称为“技术支持”报告。这是因为该报告通常由技术支持人员用于检索特定用户的会话信息。您可以筛选来自或发往单个用户的呼叫，只需在“用户 URI”前缀框中键入该用户的 SIP URI 即可。
 
-如果这样做，用户活动报告将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果您在 URI 框中键入 **ken**，则用户活动报告将查找 **Ken**.Myer@litwareinc.com。 但是，它还会查找以下用户：
+如果执行此操作, 则用户活动报表将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果您在 URI 框中键入 **ken**，则用户活动报告将查找 **Ken**.Myer@litwareinc.com。 但是，它还会查找以下用户：
 
 - **ken** azi@litwareinc.com
 
@@ -35,20 +35,20 @@ ms.locfileid: "33915330"
 
 - **Ken** nedy@litwareinc.com
 
-若要确保该信息仅为返回 Ken myer 的用户，键入其完整 URI (Ken.Myer@litwareinc.com) 在搜索框或至少足够类型的 Ken 的唯一区分他从您的组织中的其他用户的 URI。 例如：
+若要确保仅返回 Ken Myer 的信息, 请在 "搜索" 框中键入他的完整 URI (Ken.Myer@litwareinc.com) 或最少的 Ken URI, 以唯一地将其与组织中的其他用户区分开来。 例如：
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您还可以通过单击[IP 电话清单报告中 Skype 业务服务器](ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报告。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫详细信息指标可转到[Skype 业务服务器中的对等会话详细信息报告](peer-to-peer-session-detail-report.md)。
+用户活动报告是从“监控报告”主页访问的。 您也可以通过单击[Skype For Business 服务器的 IP 电话清单报告](ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报表。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样, 单击对等呼叫的详细指标将转到[Skype For Business Server 中的对等会话详细信息报告](peer-to-peer-session-detail-report.md)。
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 用户活动报告; 例如，包含指定时段内组织中发生的所有用户活动是指淹没、 报告中，则有关哪些用户实际上用于 Skype 业务服务器以某种方式的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如, 在指定期间内, 你的组织中发生的所有用户活动均包括在用户活动报表中;这意味着, 隐藏在报表内是有关哪些用户在某些方面实际使用 Skype for Business 服务器的信息。
 
 > [!NOTE]
-> 技术上讲，则可能某些用户活动可能转债务： 时 Skype 的业务服务器都在努力保留所有电话有关的信息可能的呼叫可能已进行了不写入到该呼叫的信息数据库。 Skype 业务服务器旨在使在 Skype 业务 server 如何使用的极准确，但不是一定是理想外观。 （这一事实存在的 100%的所有呼叫都将记录不能保证情况说明为什么业务服务器监控的 Skype 应不能用作帐单系统）。其次，监控报告可以仅显示，最 1,000 记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
+> 从技术上讲, 某些用户活动可能会 unrecorded: 尽管 Skype for Business 服务器努力保留有关所有电话呼叫的信息, 但如果未将该呼叫的相关信息写入数据库. Skype for business 服务器旨在提供极其准确但不一定完全了解 Skype for business 服务器的使用方法。 (不能保证所有通话的 100% 的记录都说明为什么不应将 Skype for Business 服务器监视用作帐单系统。)第二, 监视报告最多只能显示1000条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
 
 - 哪些用户在此时间段内实际上使用了系统？
 
@@ -56,13 +56,13 @@ Ken.my
 
 - 发出电话呼叫最多的用户是否也是参与即时消息会话最多的用户？
 
-如果您需要回答问题如下所示，您可以导出检索 Excel 电子表格监控报告的数据。 您然后使用该电子表格和/或逗号分隔值文件分析中的用户活动报告的方式的数据。 例如，假设已报表数据导出到 Excel 和逗号分隔值文件。 此时，您可以导入的数据。CSV 文件到 Windows PowerShell 使用类似如下的命令：
+如果需要回答此类问题, 您可以将监视报告检索到的数据导出到 Excel 电子表格。 然后, 使用该电子表格和/或逗号分隔的值文件以用户活动报告的方式分析数据。 例如, 假设您已将报告数据导出到 Excel, 然后导出到逗号分隔的值文件。 此时, 您可以从导入数据。CSV 文件到 Windows PowerShell, 方法是使用如下所示的命令:
 
 ```
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
-数据已导入后您然后可以使用简单的 Windows PowerShell 命令来帮助应答您的问题。 例如，以下命令将返回至少在一个会话中充当“源用户”的唯一用户的列表：
+导入数据后, 您可以使用简单的 Windows PowerShell 命令来帮助解答您的问题。 例如，以下命令将返回至少在一个会话中充当“源用户”的唯一用户的列表：
 
 ```
 $x | Group-Object "From user" | Select Name | Sort-Object Name
@@ -120,7 +120,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 | **从** <br/>             | 时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/17/12015 13:00  <br/> 如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/13  <br/> 一周始终是从星期日开始至星期六结束。  <br/>                                                      |
 | **到** <br/>               | 时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/17/12015 13:00  <br/> 如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/13  <br/> 一周始终是从星期日开始至星期六结束。  <br/>                                                             |
 | **活动类型** <br/>    | 活动的类型。选择下列选项之一： <br/>  [所有] <br/>  对等 <br/>  会议 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **形式** <br/>         | 可用的形式取决于选择的“活动类型”。 如果对等活动类型，您可以选择 IM;文件传输;应用程序共享;语音;或为形式的视频。  <br/> 如果“活动类型”是“会议”，您可以选择“IM 电话会议”、“Web 会议”、“应用程序共享”、“语音/视频会议”或“电话会议”。  <br/>                                                                                                                                                                                                                                            |
+| **形式** <br/>         | 可用的形式取决于选择的“活动类型”。 如果活动类型是对等, 则可以选择 "IM";文件传输;应用程序共享;语态或视频作为模态。  <br/> 如果“活动类型”是“会议”，您可以选择“IM 电话会议”、“Web 会议”、“应用程序共享”、“语音/视频会议”或“电话会议”。  <br/>                                                                                                                                                                                                                                            |
 | **会话类别** <br/> | 指示相应活动已成功还是失败。选择下列选项之一： <br/>  [所有] <br/>  成功 <br/>  预期失败 <br/>  意外失败 <br/>  “预期失败”是指预计会出现的失败情况；例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。“意外失败”是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。 <br/> |
 | **用户 URI 前缀** <br/>  | 用户的 SIP 地址。要仅查看用户 Ken Myer 的记录，您需要输入 Ken Myer 的 SIP 地址。例如：  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 

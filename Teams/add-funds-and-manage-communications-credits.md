@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -28,57 +28,57 @@ f1keywords:
 - O365P_SFBVoiceCreditAether
 ms.custom:
 - Licensing
-description: '了解如何支付通信字幕式 （PSTN 消耗量） 的 Skype 业务服务并查看计划以保留您具有连续电话系统的访问权限的用户。 '
-ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+description: '了解如何为 Skype for business 服务支付通信信用点数 (PSTN 使用), 并查看计划, 让你的用户拥有连续的电话系统访问权限。 '
+ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970281"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278317"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-Communications 字幕式是用于电话系统和调用计划在 Office 365 中的便捷方法。 通信字幕式有助于确保您和您的用户永远不会捕获而无需成为能够：
+通讯信用点数是在 Office 365 中支付电话系统和通话计划的便利方式。 通讯信用点数有助于确保你和你的用户不能:
   
-- 拨入音频会议使用免费电话拨入电话号码。
+- 使用免费拨入电话号码拨入音频会议会议。
     
-- 从音频会议，可从其他人的任意位置添加世界，电话拨出。
+- 从音频会议会议拨出, 以便从世界任何地方添加其他人。
     
-- 从电话拨出音频会议到业务或 Microsoft 团队的应用程序安装 Skype 与移动电话。
+- 从音频会议会议拨出到安装了 Skype for Business 或 Microsoft 团队应用的手机。
     
-- 如果您有**国内调用规划**，拨号任何国际电话号码。
+- 如果您有**国内呼叫计划**, 请拨打任何国际电话号码。
     
-- 电话拨出，并特别每分钟后已耗尽您每月的分钟服务配额。
+- 一旦您已用完每分钟的分钟数, 就可以拨出和每分钟支付。
     
 > [!NOTE]
-> 如果您想知道多少它是和费率，请在[调用计划](https://go.microsoft.com/fwlink/p/?LinkId=799523)页上看到费率表。
+> 如果您想知道它的数量和费率, 请参阅 "[呼叫计划](https://go.microsoft.com/fwlink/p/?LinkId=799523)" 页面上的 "费率" 表。
   
-作为管理员，您可以添加资金手动或您可以设置自动-充电，我们的**建议**。
+作为管理员, 您可以手动添加资金, 也可以设置自动重新充电, 我们**建议**这样做。
   
 当你的余额低于你设置的触发器金额时，自动充值将自动充入钱款。我们建议使用自动充值，以防你忘记手动存入资金。当你的余额达到触发金额时，将自动存入资金。如果不选择自动充值，你面临余额低于零的风险。此时，你和你的用户将无法进行免费呼叫或国际呼叫。
   
-你可以随时更新你的付款选项。 在**订阅**页中，选择**Communications 字幕式**，并进行更新。
+你可以随时更新你的付款选项。 在 "**订阅**" 页面上, 选择 "**通讯信用点数**", 然后进行更新。
   
-使用服务时，将仅到 Microsoft 的已发布速率 Communications 字幕式应用资金。 12 （12） 购买日期的月内不使用任何资金将过期，丧失。
+在使用服务时, 资金将仅应用于使用 Microsoft 发布的费率的通信信用点数。 购买日期在 12 (12) 个月内未使用的任何资金将到期, 并且将放弃。
   
 > [!TIP]
-> 我们会将自动充电失败 （例如，当信用卡过期），以及您平衡低于零时自动充电，通过添加资金时发送电子邮件通知。 
+> 当您通过自动重新充电 (例如, 当信用卡到期时), 并且当您的余额低于零时, 我们将向您发送电子邮件通知。 
   
-有关详细信息，请参阅[Communications 字幕式是什么？](what-are-communications-credits.md)
+有关详细信息, 请参阅[什么是通信信用点数？](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要了解计划和定价？
 
-您可以看到计划和定价通过访问以下链接之一：
+你可以通过访问以下链接之一来查看计划和定价:
   
 - [通话套餐](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [音频会议计划](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [计划的电话系统](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您还可以参见信息通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，转到**帐单** > **订阅** > **添加订阅**。
+您也可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看信息。
   
-若要查看使用许可证或许可证需要为每个功能的表，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看一个表, 其中包含每个功能所需的许可证或许可证, 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 
