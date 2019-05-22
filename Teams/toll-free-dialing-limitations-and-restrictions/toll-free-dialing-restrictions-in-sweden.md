@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 74c777f9b87e98237e029a316fc7671a03a9e2e3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a4894f117338cf465c2ee96987c410f3170228ce
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304569"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329945"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>瑞典的免费拨号限制
 
@@ -50,7 +50,7 @@ ms.locfileid: "34304569"
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
   
  

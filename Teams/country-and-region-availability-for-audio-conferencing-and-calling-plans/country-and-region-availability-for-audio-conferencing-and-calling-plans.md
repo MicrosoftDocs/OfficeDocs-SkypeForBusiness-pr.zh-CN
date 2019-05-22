@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数, 以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286690"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330889"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -163,7 +163,7 @@ ms.locfileid: "34286690"
 ### <a name="phone-system"></a>电话系统
 使用电话系统, 你可以创建自动助理和呼叫队列 (带有收费电话或免费电话号码) 来回答你的组织的传入呼叫, 并且当你为用户添加呼叫计划时, 他们可以使用 Skype for Business 负责基本的呼叫控制任务, 例如, 拨打和接听电话、转移通话以及静音和 unmuting 通话。 **电话系统**用户可以单击其通讯簿中的姓名, Skype for business 将向该人员发出呼叫。 要拨打和接听电话,**电话系统**用户可以使用其移动设备、便携式计算机或 PC 的耳机或使用 Skype for business 的多个 IP 电话之一。
 
-> 根据库存水平, 其中某些位置的收费电话号码的可用性可能在任何给定时间内有所不同。 除了从 Office 365 获取单个用户的电话号码之外, 还可以搜索和获取服务的收费电话号码或免费电话号码, 例如音频会议 (适用于会议桥)、自动助理和呼叫队列。 这些号码称为服务号码。 请参阅[获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)以获取电话号码。 但是, 对于您的用户, 在将呼叫计划分配给他们之后, 您可以分配一个用户电话号码, 以便他们可以拨打和接收电话电话。 若要查找这些电话号码, 请转到为[您的用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 您还可以查看[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 根据库存水平, 其中某些位置的收费电话号码的可用性可能在任何给定时间内有所不同。 除了从 Office 365 获取单个用户的电话号码之外, 还可以搜索和获取服务的收费电话号码或免费电话号码, 例如音频会议 (适用于会议桥)、自动助理和呼叫队列。 这些号码称为服务号码。 请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)以获取电话号码。 但是, 对于您的用户, 在将呼叫计划分配给他们之后, 您可以分配一个用户电话号码, 以便他们可以拨打和接收电话电话。 若要查找这些电话号码, 请转到为[您的用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 您还可以查看[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
 
 [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ ms.locfileid: "34286690"
   
 下面是一个包含数字和主要城市的列表, 可在其中获得用于音频会议和通话计划的收费服务号码。 您可以使用**Skype For business 管理中心**从这些位置获取收费服务号码。
   
-如果您想获得收费或免费服务号码, 您可以参阅[获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)。 如果您已有要从其他提供商处转移的收费或免费服务号码, 请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您想获得收费或免费服务号码, 您可以参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 如果您已有要从其他提供商处转移的收费或免费服务号码, 请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 使用页面顶部的下拉列表搜索国家或地区, 以及有哪些服务可用。
 
@@ -198,7 +198,7 @@ ms.locfileid: "34286690"
 
 
 ## <a name="related-topics"></a>相关主题
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
   
  

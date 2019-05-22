@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299038"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330353"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -236,7 +236,7 @@ Key 0 和 voice 命令 "Operator" 默认情况下, 将呼叫定向到指定的�
 
 您可以将 Microsoft 通话计划服务号码或直接路由混合号码分配给自动助理。 有关详细信息, 请参阅[规划直接路由](direct-routing-plan.md)。
 
-要分配服务号码, 您需要购买或转移您现有的收费或免费服务号码。 获得收费或免费服务电话号码后, 这些电话号码将显示在 <!-- validate nav path --> **Skype for business 管理中心** > **语音** > **电话号码**, 列出的**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers); 如果要转移和现有服务号码, 请参阅将[电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+要分配服务号码, 您需要购买或转移您现有的收费或免费服务号码。 获得收费或免费服务电话号码后, 这些电话号码将显示在 <!-- validate nav path --> **Skype for business 管理中心** > **语音** > **电话号码**, 列出的**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码, 请参阅将[电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
 > 如果您在美国以外, 则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何操作。
@@ -245,7 +245,7 @@ Key 0 和 voice 命令 "Operator" 默认情况下, 将呼叫定向到指定的�
 
 [以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

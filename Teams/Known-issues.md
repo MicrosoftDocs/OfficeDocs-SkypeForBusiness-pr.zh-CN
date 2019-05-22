@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994150"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287907"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -310,4 +310,4 @@ ms.locfileid: "33994150"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|编辑后无法移动、删除或重命名文件  <br/> |在 MS Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |03/12119  <br/> |
+|编辑后无法移动、删除或重命名文件  <br/> |在 Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |03/12/19  <br/> |

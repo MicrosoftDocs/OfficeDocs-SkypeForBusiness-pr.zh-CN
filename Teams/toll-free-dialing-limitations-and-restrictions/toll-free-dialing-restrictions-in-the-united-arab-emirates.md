@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向您显示每个国家/地区内所需的访问代码, 以拨打免费号码。
-ms.openlocfilehash: 7be6f425e60c39bf65671eee65658e71684072db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2cf37c2069168d1ebbbb0daf714ea2c17386084
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304463"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329841"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>阿拉伯联合酋长国的免费拨号限制
 
@@ -50,7 +50,7 @@ ms.locfileid: "34304463"
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
   
  

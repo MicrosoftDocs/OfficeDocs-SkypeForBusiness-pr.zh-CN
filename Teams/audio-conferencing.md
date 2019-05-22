@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 860abd5c1e7e725d2f2bd8217edc0bb5ea92b734
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8356b9bcc504b885c4f2ce3f1f9b09905742aec5
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925431"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34332129"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议实践指导
 ============================================================
@@ -29,7 +29,7 @@ Office 365 中的音频会议允许参与者从任何电话加入 Teams 会议�
 
 下面是使用 Office 365 中的[音频会议](https://go.microsoft.com/fwlink/?linkid=858992)完成的内容。
 
-此实用指南将指导您完成 Office 365 FastTrack 客户旅程框架和三个阶段，加载，构想和驱动器 Value 时，可帮助您规划、 提供和操作成功的业务达到音频会议实现结果。
+此实用指南将指导你完成 Office 365 FastTrack 客户生命周期框架及其三个阶段、构想、板载和驱动器价值, 以帮助你规划、交付和操作成功的企业的音频会议实施得出.
 
 > [!TIP]
 > 在此实践指导中，我们为每个活动和关键讨论提供了示例输出。 本文档中的示例包含在“提示”标注中，它们是可以重用的模板。 对于需要你在规划过程中完成的信息，以“TBA”（待添加）表示。
@@ -235,7 +235,7 @@ KSI 通过详细记录好和/或坏的结果来衡量质量和是否成功得到
 <br>
 音频会议技术规划
 -----------------------------------------
-<a name="technical-planning-for-audio-conferencing"></a>来规划音频会议的技术实现，一系列决策必须进行提早制定以更好地准备您的组织，以实现解决方案满足业务需求。 这些决策将记录到技术实施计划中。
+<a name="technical-planning-for-audio-conferencing"></a>要规划音频会议的技术实现, 必须提前制定一系列决策, 以便更好地准备组织以实现满足业务要求的解决方案。 这些决策将记录到技术实施计划中。
 
 ## <a name="availability-of-audio-conferencing"></a>音频会议可用情况
 
@@ -324,10 +324,10 @@ Office 365 中的音频会议服务包括：
 -   对会议桥接支持多种语言（主要和辅助）
 -   租户的默认电话号码
 
-包含功能的完整说明，请参阅[设置 Microsoft 团队的音频会议](set-up-audio-conferencing-in-teams.md)和[音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+有关包括的功能的完整说明, 请参阅为[Microsoft 团队设置音频会议](set-up-audio-conferencing-in-teams.md)和[音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 > [!NOTE]
-> 根据[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)中所述的适用许可证数量，专用会议网桥电话号码的数量不超过每个租户可以获取的电话号码限制。 免费电话会议桥接电话号码需要通信点数。
+> 根据[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](getting-service-phone-numbers.md)中所述的适用许可证数量，专用会议网桥电话号码的数量不超过每个租户可以获取的电话号码限制。 免费电话会议桥接电话号码需要通信点数。
 
 如果存在必须转移到音频会议服务的现有会议桥接电话号码，假定它们满足国家/地区特定的要求，那么可以将现有会议桥接电话号码转移到 Microsoft。
 
@@ -376,7 +376,7 @@ Office 365 中的音频会议服务包括：
 提供了可以针对每个用户应用的其他配置，用于控制使用免费电话会议桥接电话号码和从会议拨出。
 
 > [!NOTE]
-> 这些与成本相关的控制当前仅预览版用户可用。 您可以注册您的组织中的预览程序在[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
+> 这些与成本相关的控制当前仅预览版用户可用。 您可以在预览版计划中注册您的组织[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
 
 通过这些控制，你可以确定会议组织者是否可以为其组织的会议提供免费电话会议桥接电话号码，以及控制参与者是否可以从其组织的会议拨出。 拨出控制级别涵盖不允许拨出、仅允许拨出到国内号码、允许拨出到国内号码和国际号码。
 
@@ -452,16 +452,16 @@ Office 365 的电话系统功能中的[拨号计划](https://docs.microsoft.com/
 > 
 > |租户拨号计划名称<br>_说明_  |规范化规则名称<br>_说明_  |模式<br>转换<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+6125550$1<br>True|
+> |**AU-NSW-NorthRyde-OER**<br>_新南威尔士北莱德 Epping 路一号，AU 拨号计划_|**AU-NSW-NorthRyde-OER-Internal**<br>_澳大利亚新南威尔士北莱德 Epping 路一号办公地点的内部号码 (x7000 - x7999)_|^ (7 \ d{3}) $<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_澳大利亚新南威尔士的本地号码规范化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
-> ||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-TollFree**<br>_澳大利亚的免费电话号码规范化_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>False|
 > ||**AU-Service**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
-> |**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_新加坡 OMB 办公地点的内部号码 (x8000 - x8999)_|^(8\d{3})$<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
-> ||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_法国的服务号码规范化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_新加坡 OMB，SG 拨号计划_|**SG-OMB-Internal**<br>_新加坡 OMB 办公地点的内部号码 (x8000 - x8999)_|^ (8 \ d{3}) $<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_新加坡的免费电话号码规范化_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>False|
+> ||**SG-Service**<br>_新加坡的服务号码规范化_|^ (1 d{3,4}\|9 d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux，法国拨号计划_|**FR-39qdPR-Internal**<br>_法国 Issy-les-Moulineaux 39 quai du Président Roosevelt 办公地点的内部号码 (x7000 - x7999)_|^ (7 \ d{3}) $<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_法国的免费电话号码规范化_|^ 0? (80 \ d{7}) \d * $<br>+33$1<br>False|
+> ||**FR-Service**<br>_法国的服务号码规范化_|^{1,2}\|(1 d 11 [68]{3}\|\d 10 \ d{2}\|3 \ d{3}) $<br>$1<br>False|
 
 <br>
 
