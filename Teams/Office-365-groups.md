@@ -1,6 +1,6 @@
 ---
 title: Office 365 组和 Microsoft 团队
-ms.reviewer: ''
+ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,41 +15,41 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868709"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344531"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 组和 Microsoft 团队
 =====================================
 
 > [!Tip]
-> 观看下面的会话，若要了解与 Azure Active Directory (Azure AD)、 Office 365 组、 Exchange、 SharePoint 和 OneDrive for Business 团队交互的方式：[基础的 Microsoft 团队](https://aka.ms/teams-foundations)
+> 观看以下会话, 了解团队如何与 Azure Active Directory (Azure AD)、Office 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互: [Microsoft 团队的基础](https://aka.ms/teams-foundations)
 
-Office 365 组是 Office 365 中跨应用的成员身份服务。 基本级别 Office 365 组是在 Azure Active Directory 中具有成员和松散耦合到相关工作负荷，包括 SharePoint 工作组网站，Yammer 组的列表的对象共享 Exchange 邮箱资源，计划程序、 Power BI 和 OneNote。 您可以添加或删除到组的人员，就像在 Active Directory 中的任何其他基于组的安全对象。
+Office 365 组是 Office 365 中跨应用的成员身份服务。 在基本级别, Office 365 组是 Azure Active Directory 中的一个对象, 其中包含一组成员以及与相关工作负荷之间的松散耦合 (包括 SharePoint 团队网站、Yammer 组、共享 Exchange 邮箱资源、Planner、Power BI 和 OneNote)。 您可以像对待 Active Directory 中任何其他基于组的安全对象一样, 在组中添加或删除人员。
 
-Office 365 管理员可以定义一个 Office 365 组、 添加成员，以及受益功能，如 Exchange 共享邮箱、 SharePoint 文档库、 Yammer 组等。 有关 Office 365 组的详细信息，请参阅[了解 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+Office 365 管理员可以定义 Office 365 组、添加成员和受益于诸如 Exchange 共享邮箱、SharePoint 文档库、Yammer 组等功能。 有关 Office 365 组的详细信息, 请参阅[了解 office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
-请不要错过海报[Microsoft IT 架构师 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)。
+不要错过[Microsoft 365 FOR IT 设计师](teams-architecture-solutions-posters.md#groups-in-microsoft-365)的海报组。
 
-<a name="how-office-365-groups-work"></a>Office 365 组的工作方式
+<a name="how-office-365-groups-work"></a>Office 365 组的工作原理
 --------------------------
 
-后端创建一个团队，时，您正在创建 Office 365 组关联的 SharePoint 文档库和 OneNote 笔记本，以及其他 Office 365 云应用程序的关系。 如果创建团队的人是现有 Office 365 公共或专用组的所有者，他们可以向组添加团队功能，如果小于 5000 人员和从不已添加到团队。 这将创建一个默认**常规**频道的聊天消息、 文档、 OneNote 和其他对象驻留。 查看该频道的文档库将揭示代表团队中的通道的**一般**文件夹。 更重要的是，如果你在某个文档库中创建自己的文件夹结构，**它不会**以频道形式传播到 Teams；目前，它只从 Teams 转到 SharePoint。
+创建团队时, 在后端, 你正在创建 Office 365 组以及关联的 SharePoint 文档库和 OneNote 笔记本, 以及与其他 Office 365 云应用程序的关联。 如果创建团队的人员是现有 Office 365 公共组或专用组的所有者, 则他们可以向组添加团队功能 (如果它的人员少于5000人), 并且尚未添加到团队。 这将创建一个默认**常规**频道, 其中聊天消息、文档、OneNote 和其他对象驻留在该频道中。 查看频道的文档库将显示代表团队中的频道的**常规**文件夹。 更重要的是，如果你在某个文档库中创建自己的文件夹结构，**它不会**以频道形式传播到 Teams；目前，它只从 Teams 转到 SharePoint。
 
 > [!NOTE]
-> 根据客户反馈，由于 Microsoft 团队在创建团队生成的新 Office 365 组将不再显示在 Outlook 中默认情况下。 对于要继续在 Outlook 中显示这些组的现有行为的客户，将其可以启用 Outlook 体验的组提供 Exchange Online PowerShell cmdlet。 组创建通过 Outlook 和更高版本启用团队将继续要显示在 Outlook 和团队。 此更新将逐步执行跨 Outlook 和团队滚月。
+> 根据客户反馈, 由于在 Microsoft 团队中创建团队而生成的新 Office 365 组在 Outlook 中不再显示, 因此默认情况下, Outlook 将不再显示在 Outlook 中。 对于希望继续在 Outlook 中显示这些组的现有行为的客户, 将提供 Exchange Online PowerShell cmdlet, 该 cmdlet 可为 Outlook 体验启用组。 通过 Outlook 创建的组在 "Outlook 和团队" 中启用后, 团队将继续显示。 此更新将在未来几个月内逐步推出到 Outlook 和团队。
 
 > [!NOTE]
-> 删除 Office 365 组将删除持久 Outlook/OWA 对话和 Teams 会议邀请的邮箱别名，以及将 SharePoint 网站标记为删除。 计大约 20 分钟团队的删除操作之间 Outlook 受到影响。 删除团队来自团队客户端会将其立即从视图的所有用户的工作组成员。 如果删除了具有团队功能在其上启用 Office 365 组的成员，可能有约为两个小时，团队删除从视图中已删除的受影响人员的团队客户端之前的延迟。
+> 删除 Office 365 组将删除持久 Outlook/OWA 对话和 Teams 会议邀请的邮箱别名，以及将 SharePoint 网站标记为删除。 在团队中删除团队及其对 Outlook 的影响之间大约需要20分钟。 从团队客户端删除团队会将其从视图中立即删除为团队成员的所有人。 如果删除了已启用团队功能的 Office 365 组的成员, 则在从团队客户端视图中删除团队客户端的视图之前, 可能会延迟大约两个小时。
 >
->阅读[此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)有关还原已删除 Office 365 组信息。
+>有关还原已删除的 Office 365 组的信息, 请阅读[此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)信息。
 
 <a name="group-membership"></a>组成员身份
 ----------------
 
-组特性和功能为您的用户取决于其中驱动器中的组成员身份。 例如，如果您删除的工作组成员，请删除这些空格从 Office 365 组。 从组中删除立即删除工作组和通道来自团队客户端。 如果从使用 Microsoft 365 管理中心组中删除联系人，将不再拥有对其他协作方面访问 SharePoint Online 的文档库，如 Yammer 组或共享的 OneNote。 但是，他们仍将约为两个小时内有权团队的聊天功能。
+您的用户的组功能和功能取决于您从哪里推动组成员身份。 例如, 如果删除团队的成员, 则也会从 Office 365 组中删除这些成员。 从组中删除立即从团队客户端删除团队和频道。 如果您使用 Microsoft 365 管理中心从组中删除人员, 他们将无法再访问其他协作方面, 例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是, 他们在大约两个小时内仍可访问团队的聊天功能。
 
-管理团队成员的最佳做法是，添加和删除工作组客户端以确保正确的级联访问控件其他相关的云应用程序应用的成员。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果您执行添加或删除外部团队客户端的工作组成员 (通过使用 Microsoft 365 管理中心的 Azure AD 或 Exchange Online PowerShell)，可能需要更改可以反映在工作组达两个小时。
+作为管理团队成员的最佳做法, 在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端外部添加或删除团队成员 (使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell), 则可能需要长达两个小时才能在团队中反映更改。

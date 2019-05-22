@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: 6d55021bc61db760add2a48c50f274039eb84b44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6062eb69f6ef27462a3ea9edc47f5e5647ef6d65
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306581"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344582"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -36,7 +36,7 @@ ms.locfileid: "34306581"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
 

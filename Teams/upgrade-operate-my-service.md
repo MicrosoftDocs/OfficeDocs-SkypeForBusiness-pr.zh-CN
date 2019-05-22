@@ -1,12 +1,12 @@
 ---
-title: 操作的 Microsoft 团队 |服务管理 |质量
+title: Microsoft 团队的运营 |服务管理 |画质
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 任务和活动所需的团队服务管理，包括监视服务运行状况和评估并确保网络质量和使用情况
+description: 团队服务管理所需的任务和活动, 包括监视服务运行状况以及评估和确保网络质量和使用情况
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,73 +15,73 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b9c596636d3d3a70c2f5865d772208f01b79f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920400"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344441"
 ---
-![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
+![升级旅行阶段, 重点关注运营卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
 
-本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。
+本文是升级过程的 "卓越运营" 阶段的一部分, 在您从 Skype for Business 升级到团队后立即开始。
 
 # <a name="operate-your-service"></a>运行服务
 
-本文概述了已升级后，在为组织成功操作团队的要求。 通过进行正确操作团队服务，您可以确保您正在为组织提供高质量、 可靠地体验。
+本文概括介绍了升级后为您的组织成功操作团队的要求。 通过正确操作团队服务, 你可以确保为你的组织提供优质、可靠的体验。
 
 ## <a name="introduction-to-the-operations-guide"></a>《操作指南》简介
 
-操作指南为您提供了所有的任务和活动所需的服务管理功能的一部分的 Microsoft 团队的概述。
+操作指南概括介绍了 Microsoft 团队服务管理功能所需的所有任务和活动。
 
 服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft Office 365 和在本地部署的基础结构组件（例如网络）。
 
-对于大多数组织而言，服务管理概念很可能不是一个新概念。 您可能已经实现了进程和与现有服务相关联的任务。 也就是说，今天将来支持工作组规划服务管理时，您可能可以增大当前过程。
+对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实现了与现有服务相关联的流程和任务。 也就是说, 计划服务管理以便将来支持团队时, 您可能会增加当前流程。
 
-服务管理包括所有活动和进程涉及管理团队端到端。 如上文所述，某些组件服务管理-Office 365 服务本身包含的基础结构 — 是 Microsoft 的责任，而您客户，负责向用户管理团队，网络的各个方面和您提供的终结点。
+服务管理包括管理团队结束的所有活动和过程。 如前面所述, 某些服务管理组件 (Office 365 服务本身所包含的基础结构) 是 Microsoft 的责任, 而你的客户对你的用户负责管理团队、网络的各个方面。以及你提供的终结点。
 
-任务和本指南中的活动分为八个类别下图中所示。 每个这些类别将展开时以下各节。
+本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
-包含说明的任务和活动的服务管理团队的类别的列表的![A 图表。该图还描述了服务管理是很大程度客户任务。]包含说明的任务和活动的服务管理团队的类别的列表的(media/operate-my-service-image1.png "A 图表。该图还描述了服务管理是很大程度客户任务。")
+![描述团队服务管理所包含的任务和活动类别列表的图表。](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>决定操作对团队的实现方式。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>查看全文操作指南。</li><li>实现与您的组织目标的质量和可靠性团队工作负荷提供对齐操作策略。</li><li>查看体验质量审查指南。</li><li> 实现定期执行质量的体验 reviews （英文） 以确保您的团队部署运行于其峰值功能的操作策略。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实施与组织的目标相协调的操作策略, 以提供团队工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量, 以确保团队部署在其峰值功能中运行。</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>可操作的角色映射
 
-规划操作 undertook 构想阶段很关键，因为操作活动开始时启用了第一个试点用户。 本指南列出的活动和必须在保持高质量团队部署的每日、 每周、 每月，或按需基础执行的任务。 本指南提供知识和有关如何执行这些关键活动和任务的指南。
+规划你在构想阶段 undertook 的操作非常重要, 因为操作活动将在首次试用用户启用时开始。 本指南列出了必须按每天、每周、每月或按需执行的活动和任务, 以维护高质量的团队部署。 本指南提供有关如何执行这些关键活动和任务的知识和指南。
 
-成功部署一个关键组件是确保，在构想阶段的早期做好的规划步骤包括确定谁将负责执行特定活动。 您已经确定哪些任务和活动适用于您部署后，他们需要理解和被关注的组或个人您分配给它们。
+成功部署的一个重要部分是确保在构想阶段早期执行的规划包括确定负责执行特定活动的人员。 确定了哪些任务和活动适用于你的部署后, 需要先了解这些任务和活动, 然后再关注你分配给他们的组或个人。
 
-确定每个工作组必须检查和达成一致的任务和标识的责任和开始准备。 这可能包括培训和准备，提供对人员配备计划，或确保外部提供程序已准备好进行传递的更新。
+您标识的每个团队都必须查看并同意标识的任务和职责, 并开始准备。 这可能包括培训和准备情况, 为人员配备计划提供更新或确保外部提供商已准备好交付。
 
-活动和本指南中定义的角色应在大多数情况下中, 有效，但每个团队部署是唯一的;因此，您可以使用作为起点本指南自定义活动和默认角色，以满足您需求。
+本指南中定义的活动和角色在大多数情况下应是有效的, 但每个团队部署都是唯一的;因此, 你可以使用本指南作为自定义活动和默认角色的起始点, 以满足你的需求。
 
-确保每个无论如何工作组具有运行服务所需的活动很好地了解。 很关键，每个工作组接受和第一个试验开始之前您的组织中其责任签署。
+确保每个有责任的团队对运行服务所需的活动有一个很好的理解。 在第一个试点开始之前, 每个团队在您的组织中接受和签署自己的责任非常重要。
 
-协议位置后，应开始相应团队实施他们的角色。
+协议准备好后, 相应的团队应开始 operationalize 其角色。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td>
-<td><ul><li>使用本文档的操作角色映射练习。</li><li>会见各自的支持团队能够分配所需的活动的列表中的每个项的名称。</li><li>获得接受或注销分配角色上。</li><li>确保相应团队具有适当的培训、 准备、 和资源完成所需的这些活动。</li></ul></td></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td>
+<td><ul><li>使用此文档有助于操作角色映射练习。</li><li>与各自的支持团队会面, 为所需活动列表中的每个项目分配名称。</li><li>获取已分配角色的接受或注销。</li><li>确保相应的团队具有相应的培训、准备情况和资源来完成所需的活动。</li></ul></td></table>
 
-### <a name="teams-service-dependencies"></a>团队服务依赖项
+### <a name="teams-service-dependencies"></a>团队服务相关性
 
-Microsoft 团队汇集技术跨 Office 365 提供集线器团队协作。 示例包括：
+Microsoft 团队将跨 Office 365 的技术汇集在一起, 为团队协作提供中心。 示例包括:
 
-- Azure Active Directory (Azure AD) 提供团队的身份验证和授权服务。
+- Azure Active Directory (Azure AD) 为团队提供身份验证和授权服务。
 
-- Exchange Online 提供高级的功能，如合法保留和电子发现。
+- Exchange Online 提供了一些高级功能, 如法律封存和电子发现。
 
-- SharePoint Online 提供共享通道中的文件的功能和 OneDrive for Business 提供一种机制，共享私人聊天中的文件。
+- SharePoint Online 提供了在频道中共享文件的功能, 而 OneDrive for business 提供了一种在私人聊天中共享文件的机制。
 
-组织还可以利用现有的内部部署基础结构投资。 例如，现有的内部部署 Active Directory 帐户还可用于进行身份验证，通过利用 Azure AD 连接。 某些版本的 Exchange Server 可用于代替 Exchange Online。
+组织还可以利用本地基础架构中的现有投资。 例如, 可以利用 Azure AD Connect 将现有本地 Active Directory 帐户用于身份验证。 Exchange Server 的某些版本可用于代替 Exchange Online。
 
-这些技术更结合在一起，为用户提供丰富、 协作，且智能通信套件。 此紧密集成团队的主要优点，但它还驱动器分散在这些技术的服务管理的要求。
+这些技术共同为用户提供丰富、协作和智能的通信套件。 这种紧密集成是团队的一个主要优点, 但它还可以促进跨这些技术对服务管理的要求。
 
-本指南介绍焦点来管理工作组服务的关键区域。 很可能必须服务管理计划中支持的技术取决于团队的位置。 如果不需要，您将需要建立这些技术组件的正确的服务管理计划 (在本地和联机) 以及。 这有助于确保您的用户体验高质量、 可靠地与团队。
+本指南介绍了管理团队服务的主要关注领域。 最有可能的是, 您可以为团队所依赖的支持技术制定服务管理计划。 如果不是, 你将需要为这些技术组件 (本地和联机) 建立正确的服务管理计划。 这将帮助确保你的用户体验高质量、可靠的团队体验。
 
 #### <a name="references"></a>References
 
@@ -91,63 +91,63 @@ Microsoft 团队汇集技术跨 Office 365 提供集线器团队协作。 示例
 
 [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](sharepoint-onedrive-interact.md)
 
-[Microsoft 团队和 Skype 的业务共存及互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+[Microsoft 团队和 Skype for business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="operations-guide-activities"></a>操作指南活动
 
-以下各节提供了概述成功运行的 Microsoft 团队服务所需的活动。 其中包括对引用工具、 上下文信息，以及可帮助您了解活动，并帮助在准备计划中的其他内容。
+以下部分概述了成功操作 Microsoft 团队服务所需的活动。 它们包括对工具、上下文信息和其他内容的参考, 以帮助你理解活动并帮助准备就绪计划。
 
 <!--ENDOFSECTION-->
 
-## <a name="monitor-service-health"></a>监控服务运行状况
+## <a name="monitor-service-health"></a>监视服务运行状况
 
-务必您了解 Microsoft 团队服务的整体运行状况，以便可以主动通知其他人在您的组织的任何事件的影响的服务。 如前面所述，团队它依赖于在其他如 Azure Active Directory、 Exchange Online、 SharePoint Online 和 OneDrive for Business 的 Office 365 服务。 因此，很也相当重要您监视相关服务的运行状况。
+了解 Microsoft 团队服务的整体运行状况非常重要, 这样你就可以在组织中向其他影响该服务的事件主动发出通知。 正如前面所述, 团队依赖于其他 Office 365 服务, 如 Azure Active Directory、Exchange Online、SharePoint Online 和 OneDrive for business。 因此, 监视相关服务的运行状况同样重要。
 
-将此活动合并到您的事件管理过程，主动告知用户、 帮助台和运营团队准备来处理用户升级。
+将此活动纳入你的事件管理流程, 以主动通知用户、帮助台和运营团队准备处理用户升级。
 
-以下各节介绍了工具，您可以利用要监视的[服务事件](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1)影响团队服务。 下表中包含的每个工具，以及何时应使用每个好处摘要。
+以下部分介绍了可用于监视影响团队服务的[服务事件](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1)的工具。 下表介绍了每个工具的优点摘要, 以及每个工具的用途。
 
 | 监视工具 | 优势 | 何时使用 |
 |---|---|---|
-| Office 365 门户 | 可从任何设备支持的浏览器。 | 您无需实时通知时使用。 |
-| Office 365 管理中心应用程序 | 提供向您的移动设备的推送通知。 | 当您需要您外出时的服务事件通知时使用。 |
-| Microsoft System Center | 与 Microsoft System Center 集成。 | 高级监控功能和通知支持您在需要时使用。 |
-| Office 365 服务通信 API | 对 Office 365 服务运行状况的编程访问权限。 | 当您需要与第三方监视工具的集成或想要生成您自己的解决方案时使用。 |
+| Office 365 门户 | 在具有支持的浏览器的任何设备中可用。 | 在不需要实时通知时使用。 |
+| Office 365 管理应用 | 向移动设备提供推送通知。 | 当您在旅途中需要通知服务事件时, 请使用。 |
+| Microsoft System Center | 与 Microsoft System Center 集成。 | 在需要高级监视功能和通知支持时使用。 |
+| Office 365 服务通信 API | 以编程方式访问 Office 365 服务运行状况。 | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
 
 > [!NOTE]
-> 只有分配了**全局管理员**或**服务管理员**角色的用户可以查看服务运行状况。
+> 只有分配有**全局管理员**或**服务管理员**角色的人员才能查看服务运行状况。
 
-### <a name="monitoring-with-the-office-365-portal"></a>与 Office 365 门户监控
+### <a name="monitoring-with-the-office-365-portal"></a>通过 Office 365 门户进行监视
 
-[Office 365 门户](https://portal.office.com/)提供[服务运行状况主控板](https://portal.office.com/adminportal/home#/servicehealth)从中可以查看相关服务除了团队服务的当前运行状况。
+[Office 365 门户](https://portal.office.com/)提供了[服务运行状况仪表板](https://portal.office.com/adminportal/home#/servicehealth), 您可以在其中查看团队服务的当前运行状况以及相关服务。
 
-### <a name="monitoring-with-the-mobile-app"></a>使用移动应用程序监视
+### <a name="monitoring-with-the-mobile-app"></a>通过移动应用进行监控
 
-Apple iOS、 Android，和 Windows （PC 和移动设备） 都添加 Office 365 管理应用程序。 应用程序服务管理员提供有关服务运行状况和要做出的更改的信息。 应用程序支持推送通知的几乎可以立即通知您已发布 advisory 之后。 这有助于您了解最新状态、 运行状况，和服务的任何要做出的更改。 通知支持使其建议监视工具的管理员。 有关详细信息，请参阅：
+Office 365 管理应用在 Apple iOS、Android 和 Windows (PC 和手机) 上可用。 该应用提供有关服务运行状况和即将进行的更改的服务管理员信息。 该应用支持推送通知, 在发布公告后几乎可以立即向您发出通知。 这可帮助你及时了解服务的状态、运行状况和任何即将到来的更改。 通知支持使其成为管理员推荐的监视工具。 有关详细信息, 请参阅:
 
-[Office 365 管理移动应用程序](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Office 365 管理员移动应用](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[下载 Office 365 管理移动应用程序](https://products.office.com/business/manage-office-365-admin-app)
+[下载 Office 365 管理移动应用](https://products.office.com/business/manage-office-365-admin-app)
 
-### <a name="monitoring-with-microsoft-system-center"></a>使用 Microsoft System Center 监视
+### <a name="monitoring-with-microsoft-system-center"></a>通过 Microsoft System Center 进行监控
 
-Microsoft System Center 是帮助您管理数据中心、 客户端设备和混合云 IT 环境集成的管理平台。 现在使用 System Center office 365 管理员可以选择要导入 Office 365 管理包，这就使用户可以查看在 System Center Operations Manager 中的所有服务通信。 使用此工具可以访问您的订阅的服务、 活动和解决服务事件和消息中心通信 （要做出的更改） 的状态。 有关详细信息，请参阅以下[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center 是一个集成的管理平台, 可帮助你管理数据中心、客户端设备和混合云 IT 环境。 使用 System Center 的 Office 365 管理员现在可以选择导入 Office 365 管理包, 从而使其能够查看 System Center 中 Operations Manager 内的所有服务通信。 使用此工具, 你可以访问已订阅服务的状态、活动和已解决的服务事件, 以及你的消息中心通信 (即将进行的更改)。 有关详细信息, 请参阅以下[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
 
-使用 System Center 监视团队服务运行状况 （和相关服务） 时，您可以进一步自定义警报或通知特定组或已发现响应事件的个人的管理包。
-这些组可以包括您的组织中的服务所有者、 支持人员、 第二级和第三级支持组和事件的经理。
+如果你利用 System Center 监视团队服务运行状况 (以及相关服务), 你可以进一步自定义管理包以通知或通知特定组或已标识为对事件做出反应的人员。
+这些组可以包括服务所有者、支持人员、第二级和第三级支持组以及你的组织中的事件经理。
 
-### <a name="monitoring-for-advanced-scenarios"></a>监视的高级方案
+### <a name="monitoring-for-advanced-scenarios"></a>监视高级方案
 
-您可以通过利用 Office 365 服务通信 API 以编程方式访问 Office 365 服务运行状况和更改监控服务运行状况和要做出的更改。 使用此 API 创建自己的监视工具，或连接到 Office 365 服务通信，可能简化如何监视您的环境的您现有的监视工具。 有关详细信息，请参阅[企业开发人员的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
+通过利用 Office 365 服务通信 API 以编程方式访问 Office 365 服务运行状况和更改, 可以监视服务运行状况和即将进行的更改。 使用此 API 创建你自己的监视工具, 或将你的现有监视工具连接到 Office 365 服务通信, 从而可能简化你的环境监视方式。 有关详细信息, 请参阅[适用于企业开发人员的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 监控服务运行状况 | 使用可用的工具，主动监视的 Microsoft 团队服务运行状况，（和相关服务）。 相关服务包括： Exchange Online 中，SharePoint Online 的 OneDrive for Business，Azure Active Directory。 | 实时 | |
-| 事件通知 | 通知事件的影响团队服务的内部利益干系的人。 内部利益干系人可以包括用户、 支持人员和事件的经理。 | 根据需要 | |
+| 监视服务运行状况 | 使用可用的工具主动监控 Microsoft 团队服务运行状况 (以及相关服务)。 相关服务包括: Exchange Online、SharePoint Online、OneDrive for Business、Azure Active Directory。 | 实时 | |
+| 事件通知 | 将影响团队服务的事件通知给内部利益干系人。 内部利益干系人可以包括用户、服务中心和事件管理器。 | 根据需要 | |
 
 ### <a name="references"></a>References
 
@@ -159,207 +159,207 @@ Microsoft System Center 是帮助您管理数据中心、 客户端设备和混�
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-organizational-change"></a>管理组织的更改
+## <a name="manage-organizational-change"></a>管理组织更改
 
-Microsoft 团队是基于云的服务。 伴随这能够提供新特性和功能在较快的速度。 提供持续的创新提供组织，明显好处，但是这些更改需要以避免用户不愿意或升级至与技术支持人员贵组织中适当地管理。
+Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供新的功能和功能。 不断进行的创新为组织带来了明显的好处, 但需要在组织内适当地管理这些更改, 以避免用户对您的支持人员的抵抗或上报。
 
-向工作组的更新的推出自动为您的用户。 用户始终将具有的最新的客户端和团队服务中可用的功能。 不能管理团队更新您的用户的推出，因此是非常重要，来管理通过有效通信、 培训和应用程序的更改。 如果您的用户了解这些更改，教育的优势和权利用新的功能&mdash;他们将能够更快地调整和欢迎更改。
+对团队的更新会自动向你的用户推出。 你的用户将始终拥有团队服务中提供的最新客户端和功能。 不能管理团队更新对你的用户的推出, 因此, 通过有效的通信、培训和采纳计划管理更改至关重要。 如果你的用户知道所做的更改、对好处的了解, 以及能够利用新功能&mdash;, 他们能够更快地适应所做的更改。
 
-### <a name="monitoring-for-change"></a>更改监控
+### <a name="monitoring-for-change"></a>监视更改
 
-变更管理的第一步监控团队计划的更改。 监视这些更改的最佳源是[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap)，其中列出了当前正在开发，要推出的客户，或具有完全启动的功能。 您可以通过使用筛选器提供，搜索团队特定功能或可路线图下载到供进一步分析 Excel 文件。 为每个功能指南提供的简短说明，以及预期的发行日期。
+更改管理的第一步是监视为团队计划的更改。 监视这些更改的最佳来源是[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap), 其中列出了当前正在开发、即将推出给客户的功能或已完全启动的功能。 你可以使用提供的筛选器搜索团队特定的功能, 也可以将路线图下载到 Excel 文件以进行进一步分析。 对于每个功能, 路线图将提供简短说明以及预计的发布日期。
 
-在[Microsoft 团队博客 （英文）](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)，您可以了解有关最佳做法、 趋势和有关团队产品更新的新闻。 希望找到主要功能团队此处发布更新。 您还可以订阅通过 RSS 源的博客。 您然后可以直接将团队通道，添加[RSS 源](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)以便直接在工作组传递所有重要的新闻。
+在[Microsoft 团队博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)中, 你可以了解有关团队产品更新的最佳做法、趋势和新闻。 希望在此处找到要向团队发布的主要功能更新。 您也可以通过 RSS 源订阅博客。 然后, 您可以直接将[RSS 源](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)添加到团队频道, 以便所有重要新闻直接交付到团队内部。
 
-发布的所有功能均编都档在[Microsoft 团队的发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)。
-此处您将发现已发布的功能的列表的桌面、 web 和移动设备。 一组相同的发行说明也是[帮助](get-help-in-microsoft-teams.md)中的**新增**选项卡上的。
+[Microsoft 团队的发行说明](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)中记录了已发布的所有功能。
+在此处, 你将找到针对桌面版、web 和移动设备发布的功能的列表。 "[帮助](get-help-in-microsoft-teams.md)" 的 "**新增功能**" 选项卡上也提供了相同版本的发行说明。
 
-熟悉的资源可用，并确保您分配适用所有者监视的更改。
+熟悉可用资源, 并确保分配适用的所有者进行监视以进行更改。
 
-### <a name="planning-for-change"></a>规划的更改
+### <a name="planning-for-change"></a>规划更改
 
-既然您知道要做出的更改到团队服务下, 一步是准备并相应做出计划。 评估每个更改以确定哪些更改需要向用户，认知 campaigns、 培训的支持团队或用户或功能评估和采用市场活动的通信。 这是您的组织中的更改管理工作组的主要角色。 下面是的示例表可帮助您规划的更改的集合。
+现在, 你已了解团队服务即将进行的更改, 下一步是准备并相应规划。 评估每项更改以确定哪些更改需要与用户进行通信、认识市场活动、支持团队或用户培训、功能评估和采纳活动。 这是您的组织中的变更管理团队的主要角色。 下面是可帮助你规划更改的示例表的集合。
 
-#### <a name="feature-cloud-recording-release-date-january-2018"></a>功能： 云录制 (发布日期： 年 1 月 2018年)
+#### <a name="feature-cloud-recording-release-date-january-2018"></a>功能: 云录制 (发布日期: 2018 年1月)
 
 **常规跟踪**
 
-| 更改准备 | 状态 | Notes/下一步步骤 | 所有者 |
+| 更改准备情况 | 状态栏 | 备注/后续步骤 | 所有者 |
 |---|---|---|---|
-| 法律审阅 | 完成 | 此功能是入职培训培训团队的先决条件。 | 项目工作组 |
+| 法律评论 | 完 | 此功能是加入培训团队的先决条件。 | 项目团队 |
 
 **技术变更管理**
 
-| 更改准备 | 状态 | Notes/下一步步骤 | 所有者 |
+| 更改准备情况 | 状态栏 | 备注/后续步骤 | 所有者 |
 |---|---|---|---|
-| 所需的 IT 更改 | 是 | 管理员需要启用已识别的用户的记录。 | 支持团队 |
+| 需要更改 | 是 | 管理员只需为识别用户启用录制。 | 支持团队 |
 | 技术准备完成 | 是 | | 支持团队 |
 | | | | |
 
-**用户变更管理**
+**用户更改管理**
 
-| 更改准备 | 状态 | Notes/下一步步骤 | 所有者 |
+| 更改准备情况 | 状态栏 | 备注/后续步骤 | 所有者 |
 |---|---|---|---|
-| 用户的影响 | 低 | | |
-| 所需的用户准备情况 | 是 | | |
-| 准备好的通信 | 否 | 通信电子邮件具有绘制 — 挂起的审阅。 | Communications 团队 |
-| 培训就绪 | 是 | 培训将利用现有的 Microsoft 视频。 | 培训团队 |
+| 用户影响 | 低 | | |
+| 需要用户准备就绪 | 是 | | |
+| 通信就绪 | 否 | 通信电子邮件已起草, 正在等待审阅。 | 通信团队 |
+| 准备培训 | 是 | 培训将利用现有的 Microsoft 视频。 | 培训团队 |
 
-**状态跟踪**
+**状态曲目**
 
-| 更改准备 | 状态 | Notes/下一步步骤 | 所有者 |
+| 更改准备情况 | 状态栏 | 备注/后续步骤 | 所有者 |
 |---|---|---|---|
-| 发布状态 | 正在进行中 | 通过执行发起人的等待审阅。 | 更改管理小组 |
-| 注销发行版 | | | |
+| 发布状态 | 正在进行 | 执行承办人待定的审阅。 | 更改管理团队 |
+| 发布注销 | | | |
 | 发布日期 | | | |
 
-有关与团队的变更管理规划的详细信息，请参阅[创建的 Microsoft 团队的变更管理策略](change-management-strategy.md)。
+有关规划团队变更管理的详细信息, 请参阅[创建 Microsoft 团队的更改管理策略](change-management-strategy.md)。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动| 说明| 节奏| 分配的工作组 |
+| 活动| 说明| 节奏| 分配的团队 |
 |---|---|---|---|
-| 更改的监视器| 即将发布更改的 Microsoft 团队服务的监视器。| 每天||
-| 规划的更改| 评估和规划的新特性和功能，包括通信计划、 认知 campaigns、 和培训。| 根据需要 ||
-| 用户准备情况| 执行目标的通信、 认知度或培训活动，以确保用户可供即将发布的更改。| 根据需要 ||
-| 支持团队准备 | 执行目标的通信、 认知度或培训活动，以确保支持团队已准备就绪。 支持团队可以包括"手套白色"团队、 支持人员，第 2 层或 3 层支持、 外部合作伙伴和等等。 | 根据需要 ||
+| 监控更改| 监视 Microsoft 团队服务的即将进行的更改。| 每天||
+| 规划更改| 评估和规划新功能, 包括通信计划、意识活动和培训。| 根据需要 ||
+| 用户准备就绪| 执行目标通信、感知或培训活动, 以确保用户准备好进行即将进行的更改。| 根据需要 ||
+| 支持团队准备情况 | 执行目标通信、感知或培训活动, 以确保支持团队做好准备。 支持团队可以包括 "白色 glove" 团队、支持人员、第2层或第3层支持、外部合作伙伴等。 | 根据需要 ||
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-teams-usage"></a>评估团队使用率
+## <a name="assess-teams-usage"></a>评估团队使用情况
 
-初始试用开始之后，建立用于测量实际团队使用正则节奏至关重要。 这使您的组织深入了解如何实际使用与在构想阶段预测的使用情况。 本节重点介绍团队使用率，尽管这应该是衡量和评估 Office 365 使用率总体更广泛工作的一部分。
+初始试点开始后, 建立定期节奏来测量实际的团队使用情况非常重要。 这使你的组织能够深入了解实际使用情况如何与你在构想阶段中预测的用法保持一致。 虽然本部分重点介绍团队使用, 但这应该是衡量和评估 Office 365 总使用的更广泛的工作之一。
 
-查看使用率经常早期部署中的为您提供机会：
+在部署早期查看使用情况使你有机会:
 
-- 验证是否用户使用团队。
+- 验证用户是否正在使用团队。
 
-- 他们在整个组织内创建严重问题之前，请识别潜在采用难题。
+- 确定潜在的采纳挑战, 然后再在组织内创造关键问题。
 
-- 了解是否有构想阶段要求和实际使用率之间的差异。
+- 了解构想阶段需求和实际使用情况之间是否存在差异。
 
-如果使用率不是您的预期，这可能是因为部署问题，或者应用计划未被执行正常，或一些其他问题。 低使用率后面的实际原因，根据服务管理员必须与帮助删除使用率障碍相关团队协作。
+如果使用不是你所期望的, 这可能是由于部署问题、未正确执行采纳的计划, 也可能是其他问题。 服务管理员必须与相关团队进行协作才能帮助删除使用障碍, 具体取决于低使用背后的实际原因。
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>与 Microsoft 365 管理中心的测量使用率
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心衡量使用情况
 
-从工作组的使用率数据位于报告仪表板中。 三个不同的报表中，可以找到团队使用率数据。 第一个报告提供跨产品视图的用户进行通信和协作使用 Office 365 中的各种服务的方式。 此报告可在此处找到： [Office 365 活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+"报告" 仪表板中提供了来自团队的使用数据。 可在三个不同的报表中找到团队使用数据。 第一个报表提供有关用户如何使用 Office 365 中的各种服务进行通信和协作的交叉产品视图。 可在此处找到此报告: [Office 365 活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
-其他两个报表是特定于团队的并提供更多有关团队使用情况的详细信息从用户和设备的角度来看。 可在此处找到两个报表：
+其他两个报表是特定于团队的报表, 它们提供来自用户和设备的团队使用情况的进一步详细信息。 可在此处找到这两个报表:
 
 [Microsoft Teams 设备使用情况报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
 [Microsoft Teams 用户活动报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
-#### <a name="required-permissions"></a>所需的权限
+#### <a name="required-permissions"></a>所需权限
 
-在管理中心内的使用率报告可以访问的**全局管理员**角色或特定于产品的管理员角色 （**Exchange 管理员**、**业务管理员的 Skype**， **SharePoint 已分配的人员管理员**)。
+管理员中心中的使用情况报告可由分配有**全局管理员**角色的人员或特定于产品的管理员角色 (**Exchange 管理员**、 **Skype for business 管理员**和 SharePoint) 访问。 **管理员**)。
 
-此外，**报告读者**角色是可供用户需要访问的报告，但不执行任何需要管理员级权限的任务。 分配该角色提供使用率报告是利益干系人，监视器和驱动器应用到的任何人。 有关可用的不同角色的详细信息，请参阅[有关 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+此外,**报表读者**角色适用于需要访问报表的用户, 但不执行需要管理员级别权限的任何任务。 分配此角色以向任何有利益干系人的人员提供使用情况报告, 以监视和推动采纳。 有关可用的不同角色的详细信息, 请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="assessing-usage"></a>评估使用情况
 
-您已使用报告仪表板测量使用率之后，务必比较根据项目的构想阶段定义任何关键成功指标 (KSIs) 的测量使用情况。 您可以定义可能定义为活动使用率 KSI 或间接链接到当前使用率。
+使用报表仪表板测量使用率后, 请务必将测量的使用情况与项目的构想阶段中定义的任何关键成功指示器 (KSIs) 进行比较。 你可以定义可能定义为活动使用情况的 KSI, 也可以定义间接链接到活动使用情况的一个。
 
-非常重要确定实际的和计划继续向其他站点或用户推出之前的使用率之间的任何差异。 您可能将标识组织经验，您可以利用以确保此活动的一部分的站点或用户下一批不会遇到相同问题。
+在恢复向其他网站或用户推出的功能之前, 请务必确定实际使用和计划使用情况之间的任何差异。 你可能会将组织发现标识为此活动的一部分, 你可以利用它来确保下一批网站或用户不会遇到相同的问题。
 
-首先，查明这是采用还是技术问题。 首先调查下方，顺序，以确定问题所在的项目。
+首先, 查明这是否是采纳或技术问题。 首先通过调查以下项目来确定问题所在。
 
-1. 通过执行[用户体验质量检查](upgrade-monitor-quality.md)来验证质量。
+1. 通过执行 "[体验质量检查](upgrade-monitor-quality.md)" 验证质量。
 
-2. 使用检查不存在防止用户访问或使用服务趋势技术问题的帮助台团队。 如果存在问题趋势执行操作，使用本文后面的[终结点疑难解答](#endpoint-troubleshooting)一节尝试适当支持之前解决此问题。
+2. 与帮助台团队协作, 检查是否存在阻止用户访问或使用该服务的趋势技术问题。 如果问题的趋势确实存在, 请使用本文稍后部分的 "[终结点疑难解答](#endpoint-troubleshooting)" 部分尝试解决问题, 然后再参与支持。
 
-3. 工作与培训和采用团队直接反馈收集 （请参阅本文后面的[评估用户观点](#assess-user-sentiment)） 的用户，并检查的知晓和采用活动的有效性。
+3. 与培训和采纳团队协作, 收集用户的直接反馈 (请参阅本文后面的[评估用户情绪](#assess-user-sentiment)), 并查看知晓和采纳活动的有效性。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 度量使用率 （启用阶段） | 度量并为网站启用阶段是 onboarded 继续评估团队使用率。 地址所需的使用率问题。 | 每周 | |
-| 度量使用率 | 度量并评估团队使用的驱动器值阶段 （后部署已完成）。 地址所需的使用率问题。 | 半月刊 | |
-| （驱动器值阶段） | | | |
-| 更新应用计划 | 应用计划基于如何测量的使用情况的更新将与您规划目标进行比较。 | 根据需要 | |
+| 测量使用率 (启用阶段) | 在启用阶段继续 onboarded 时, 测量和评估团队使用情况。 根据需要解决使用问题。 | 每周 | |
+| 度量使用情况 | 在 "驱动器价值" 阶段测量和评估团队的使用情况 (部署完成后)。 根据需要解决使用问题。 | 次 | |
+| (驱动器值阶段) | | | |
+| 更新采纳计划 | 根据测量使用情况与计划目标的比较情况更新采纳计划。 | 根据需要 | |
 
 ### <a name="references"></a>References
 
-[有关 Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[关于 Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[在 Microsoft 365 管理中心中的活动报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Microsoft 365 管理中心中的活动报表](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-user-sentiment"></a>评估用户的观点
+## <a name="assess-user-sentiment"></a>评估用户情绪
 
-了解用户的观点可用作衡量团队部署成功的关键指标。 用户反馈可以在您的组织; 驱动器更改这可能包括更改沟通计划、 培训计划或向用户提供支持的方式。
+了解用户情绪可以充当评估团队部署成功的关键指示器。 用户反馈可推动组织中的更改;这可能包括对你的通信计划、培训计划的更改, 或为你的用户提供支持的方式。
 
-务必早期获取反馈和继续评估用户的整个生命周期的项目及其他认证实战的观点。 使用以下指南以确定您的组织将在其中寻找反馈的间隔：
+尽早获取反馈并在项目的整个生命周期中继续评估用户情绪非常重要。 使用以下指南确定组织将寻求反馈的时间间隔:
 
-- **项目的开始**： 通过评估项目的开始处的用户观点，您可以在早期视图到您的用户有关其团队体验的感觉如何。
+- **项目开始**: 在项目开始评估用户情绪时, 你可以快速了解用户对其团队体验的看法。
 
-- **主要里程碑之后**： 通过收集整个项目生命周期的反馈，您可以测量连续逐个用户观点并根据需要进行更改。 这是后主要里程碑特别有用。
+- 在**主要里程碑**: 通过在整个项目生命周期中收集反馈, 你可以连续测量用户情绪, 并根据需要进行更改。 这在主要里程碑后尤其有用。
 
-- **项目结论**： 评估末尾的项目的用户观点会告诉您程度已完成，并且其中工时仍需要即可完成，并允许您针对以前调查结果进行比较。
+- **项目结论**: 评估用户在项目结束时的情绪将告诉你已完成的工作以及仍需要完成工作的位置, 并允许你将结果与以前的调查进行比较。
 
-- **日常**： 继续无限期测量用户的观点。 更改用户的观点可能是由于在贵组织的环境中的更改或团队服务中的更改。 通过的时间间隔定期评估用户的观点，您可以了解程度执行您服务管理团队和组织响应团队服务中的更改。
+- **持续**: 继续以无限衡量用户情绪。 用户情绪中的更改可能是由于组织的环境中的更改或团队服务中的更改所致。 通过以固定的时间间隔评估用户情绪, 你可以了解服务管理团队的执行情况以及你的组织如何响应团队服务中的更改。
 
-可以通过多种不同的方法被评估用户的观点。 这包括电子邮件调查、 面对面或电话样式面试，或者只需在工作组或 Yammer 中创建的反馈通道。 有关详细信息，请参阅[Microsoft 团队中的用户反馈方法的最佳实践](best-practices-feedback.md)。
+用户情绪可以通过多种不同的方法进行评估。 其中包括电子邮件调查、人员或电话风格的面试, 或者仅在团队或 Yammer 中创建反馈频道。 有关详细信息, 请参阅[Microsoft 团队中用户反馈方法的最佳做法](best-practices-feedback.md)。
 
-您还可以使用行业方法评估用户观点调用 net promotor 得分 (NPS)，即下节中所述。
+你还可以使用 industrywide 方法来评估名为 net promotor 评分 (NPS) 的用户情绪, 如下一节所述。
 
 ### <a name="nps"></a>NPS
 
-Net 者均分数 (NPS) 是行业客户忠诚度指标和一个好方法用于评估用户的观点。 NPS 可以计算通过提出两个问题:"可能性有多大？ 您可以向同事推荐工作组"，"为什么？"后跟任意多边形的问题
+Net promoter 得分 (NPS) 是一种 industrywide 客户忠实度指标和一种用于评估用户情绪的好方法。 可以通过提出以下两个问题来计算 NPS: "向同事推荐团队的可能性有多大？", 后跟任意多边形问题 "为什么？"
 
-NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产品或服务的索引。 NPS 基于传递到用户可以通过电子邮件或其他电子方式匿名调查。 NPS 测量之间提供程序和使用者会员。 它包含只有一个问题，询问用户评价从 1 到 10，选项以提供其他注释其体验。 用户然后分类基于以下分级：
+NPS 是一个介于-100 到100之间的索引, 用于衡量客户推荐公司产品或服务的意愿。 NPS 基于通过电子邮件或其他电子方式向用户发送的匿名调查。 NPS 测量提供商和使用者之间的忠诚度。 它只包含一个问题, 要求用户从1到10对其体验进行评级, 以及提供其他注释的选项。 然后, 根据以下分级对用户进行分类:
 
-- 9 或 10 是升级： 尽力工作爱好者将推广您的服务和促进其他人。
+- 9或10是 Promoters: 将推动您的服务并燃料其他人的忠诚发烧。
 
-- 7 或 8 是被动： 满足但 unenthusiastic，为其他服务或产品易受攻击。
+- 7或8为被动: 满意但 unenthusiastic, 易受其他服务或服务的影响。
 
-- 介于 1 至 6 是说三道四： 可以损坏您的服务和妨碍增长客户满意度。
+- 从1到6的 Detractors: 不满意的客户可能会损害您的服务并妨碍增长。
 
-![此图演示的 NPS 刻度。显示的分级的 0 到 6 是说三道四、 7 至 8 是被动，和 9 到 10 的升级。](media/operate-my-service-image2.png "此图演示的 NPS 刻度。显示的分级的 0 到 6 是说三道四、 7 至 8 是被动，和 9 到 10 的升级。")
+![演示 NPS 缩放的图表显示了0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。")
 
-虽然 NPS 底数很有用，您将获得最大价值分析用户注释。 它们将帮助您了解为什么用户将 （或不） 建议团队向其他人。 这些注释可以提供有价值的反馈，以帮助项目或服务管理团队了解提供服务质量所必需的调整。
+虽然基本 NPS 编号非常有用, 但你将获得分析用户意见的最大价值。 他们将帮助你了解用户为什么 (或不) 向其他人推荐团队的原因。 这些评论可提供有价值的反馈, 以帮助项目或服务管理团队了解提供优质服务所需的调整。
 
-若要提供给组织的 NPS 调查，您可以利用您喜欢的在线调查的工具。
+若要向您的组织提供 NPS 调查, 您可以利用您喜爱的在线调查工具。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/根据需要任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>所需任务的每日/每周/每月/
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 评估用户的观点 | 捕获和评估用户的观点，使用调查或面试，或通过团队或 Yammer 中的反馈通道。 | 根据需要 | |
-| 更新应用计划 | 驱动器根据用户反馈; 您组织中的更改这可以包括更改沟通计划、 培训计划或向用户提供支持的方式。 | 根据需要 | |
+| 评估用户情绪 | 通过使用调查或面试, 或通过团队或 Yammer 中的反馈频道来捕获和评估用户情绪。 | 根据需要 | |
+| 更新采纳计划 | 根据用户反馈对组织中的设备进行更改;这可能包括对你的通信计划、培训计划的更改, 或为你的用户提供支持的方式。 | 根据需要 | |
 
 ### <a name="references"></a>References
 
-[Net 者均分数](https://en.wikipedia.org/wiki/Net_Promoter)
+[净 Promoter 分数](https://en.wikipedia.org/wiki/Net_Promoter)
 
 [使用 Yammer 收集反馈](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
-[用户反馈的最佳实践](best-practices-feedback.md)
+[用户反馈的最佳做法](best-practices-feedback.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-network-quality"></a>管理网络质量
 
-许多核心规划元素转到优化，右大小调整和补救网络基础结构，以确保 Microsoft 团队服务的高质量、 高效路径。 在我们[网络准备](upgrade-prepare-environment-prepare-network.md)指南中介绍的规划任务和要求。 网络通常随时间由于升级、 扩展或其他业务需求。 非常重要规划活动网络中解决团队的要求。
+许多核心计划元素将进入优化、调整大小和修正你的网络基础结构, 以确保 Microsoft 团队服务的高质量、高效的路径。 规划任务和要求在我们的[网络准备](upgrade-prepare-environment-prepare-network.md)指南中介绍。 由于升级、扩展或其他业务要求, 网络经常随着时间的推移而演化。 请务必考虑您的网络规划活动中团队的要求。
 
-尽管网络规划团队部署的一个重要方面，它是同等重要，以确保网络保持正常运行，并且保持最新状态，根据不断变化的业务和技术要求。
+虽然网络规划是团队部署的一个重要方面, 但确保网络保持良好状态并保持最新是同等重要的, 具体取决于不断变化的业务或技术要求。
 
-若要确保您的网络的运行状况，需要的时间间隔定期执行大量操作活动。
+为了确保网络的运行状况, 需要定期执行许多操作活动。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 监控 Office 365 Ip 和 Url | 使用[RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)提供监视对[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)的任何更改，并启动到适用的网络组更改请求。 | 每天 | |
-| 更新基于到 Office 365 Ip 和 Url 的更改网络 | 对适用的网络组件 （防火墙、 代理服务器、 Vpn、 客户端防火墙等） 以反映对[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)更改进行更新。 | 根据需要 | |
-| 提供构建数据 | 更新子网信息提供给质量冠军 （或利益相关者），以确保[构建 CQD 中的定义](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)的速度将保持最新。 | 根据需要 | |
-| 实现更改 | 实现支持不断变化的团队业务和技术要求在网络上的更改。 网络元素可能包括：<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wi-fi 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
-| 网络监控和报告 | 通过使用您现有的第三方网络管理工具和报告功能可从您网络提供程序来监控网络端到端的可用性、 利用率和容量趋势。 网络容量规划的使用趋势数据。 | 每日、 每周、 每月 | |
-| 容量规划 | 与团队 service 所有者了解更改可能开车额外的容量更改的业务和技术要求进行协作。 利用[网络规划器](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)以确保足够的带宽适用于 Microsoft 团队的结果。 | 根据需要 | |
-| 网络故障排除和修复 | 帮助团队支持人员、 服务所有者和主要利益干系人进行故障排除和修正问题到相关的团队连接、 可靠性或质量。 网络元素可能包括：<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wi-fi 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
-| 灾难恢复和高可用性测试 | 执行常规的高可用性和灾难恢复测试对网络基础结构，以确保它符合既定的服务级别目标 (Slo) 或团队服务的服务级别协议 (Sla)。 | 每月 | |
+| 监视 Office 365 IPs 和 Url | 使用提供的[RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)监视对[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)所做的任何更改, 并启动对相应网络组的更改请求。 | 每天 | |
+| 基于 Office 365 IPs 和 Url 的更改更新网络 | 对适用的网络组件 (防火墙、代理服务器、Vpn、客户端防火墙等) 进行更新, 以反映[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)的更改。 | 根据需要 | |
+| 提供建筑物数据 | 向质量专家 (或相关利益干系人) 提供更新的子网信息, 以确保[CQD 中的生成定义](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持最新状态。 | 根据需要 | |
+| 实施更改 | 实施对网络的更改以支持不断变化的团队业务和技术要求。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
+| 网络监控和报告 | 通过使用您现有的第三方网络管理工具和您的网络提供商提供的报告功能, 监控网络端到端的可用性、利用率和容量趋势。 使用趋势数据进行网络容量规划。 | 每天、每周、每月 | |
+| 容量规划 | 与团队服务所有者协作, 以了解不断改变的业务和技术要求可能会增加额外的容量。 利用[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)的结果, 确保有足够的带宽可供 Microsoft 团队使用。 | 根据需要 | |
+| 网络故障排除和修正 | 帮助团队人员、服务所有者和关键利益干系人诊断和解决与团队连接性、可靠性或质量相关的问题。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
+| 灾难恢复和高可用性测试 | 在网络基础结构上执行常规高可用性和灾难恢复测试, 以确保它满足团队服务规定的服务级别目标 (Slo) 或服务级别协议 (Sla)。 | 每月 | |
 
 ### <a name="references"></a>References
 
@@ -371,33 +371,33 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-and-ensure-quality"></a>评估，并确保质量
+## <a name="assess-and-ensure-quality"></a>评估和确保质量
 
-所有组织都需要组或个人要负责质量。 这是服务管理中最重要的角色。 质量冠军角色分配给用户或用户组属于热心有关其用户体验。
-此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织的大小和复杂性，这可能是任何个人或组使用的确保高品质用户体验爱。
+所有组织都需要一个组或个人负责质量。 这是服务管理中最重要的角色。 质量拥护者角色分配给热心用户体验的人员或组。
+此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织的规模和复杂程度, 这可以是具有热情的人员或组, 可确保高质量的用户体验。
 
-质量冠军利用现有的工具和记录操作过程中，如呼叫质量仪表板 (CQD) 和质量体验审阅指南，要监视的用户体验，请确定质量趋势和驱动器修正在需要时。
-质量冠军应使用驱动器修正操作各自团队并向调控委员会进度并打开的任何问题有关的报告。
+质量专家利用现有的工具和已记录的流程, 如通话质量仪表板 (CQD) 和体验检查指南, 用于监控用户体验、识别质量趋势和在需要的地方推动补救。
+质量拥护者应与各自的团队一起推动补救措施, 并向指导委员会报告进度和任何打开的问题。
 
-[质量体验审阅指南](https://aka.ms/qerguide)包括评估和修正指导对提高用户体验影响最大的主要区域中的活动。 使用 CQD Online 作为主要工具来报告和调查每个区域中，以最大限度地应用和影响的音频重点重点质量体验审阅指南中提供的指南。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
+[体验质量检查指南](https://aka.ms/qerguide)包括在对改善用户体验有最大影响的关键领域中评估和提供补救指南的活动。 质量体验审核指南中提供的指南重点介绍如何使用 CQD Online 作为主要工具来报告和调查每个区域, 并重点介绍音频以最大程度地提高采纳和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您在早期提名质量冠军。 正在提名之后, 他们应开始熟悉的用户体验质量审阅指南和关联的培训资料中的内容。
+我们强烈建议您提前提名本《质量专家提名。 在进行命名后, 他们应开始熟悉体验质量检查指南和相关培训资料中的内容。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 提名和培训质量 champion(s) | 提名和培训质量冠军。 | 根据需要 | |
-| 执行质量体验评论 (QERs) | 执行 QER 以确定中的趋势质量和可靠性，针对定义目标、 查看和报告组织中的主要利益干系人。 | 每月 （每周过程中部署） | |
-| 驱动器修正 | 基于 QER 评估和发现的组织中协调修复措施。 | 根据需要 | |
-| 构建 CQD 中的数据的更新 | 更新或更改到网络时 CQD 中添加新的生成定义 （请参阅[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)）。 | 根据需要 | |
-| 填充质量冠军角色 | 端到端负责组织中的质量。 这包括：<ul><li>确保定期召开 QER。</li><li>报告质量状态的主要利益干系人。</li><li>确保定义是最新的生成数据。</li><li>要确保用户具有与团队高质量体验的组织中协调修复措施。</li></ul> | 每天 | |
+| 提名和培训质量专家 | 提名和培训质量专家。 | 根据需要 | |
+| 执行体验检查质量 (QERs) | 执行 QER 以确定质量和可靠性的趋势, 针对已定义的目标进行评审, 并报告给组织中的关键利益干系人。 | 每月 (在部署期间每周) | |
+| 驱动器修正 | 基于 QER 评估和结果, 在组织内协调补救措施。 | 根据需要 | |
+| 在 CQD 中更新构建数据 | 当对网络进行更改时, 在 CQD 中更新或添加新的生成定义 (请参阅[上载建筑物信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information))。 | 根据需要 | |
+| 填写质量拥护者角色 | 组织中的质量的端到端责任。 这包括:<ul><li>确保定期执行 QER。</li><li>向关键利益干系人报告质量状况。</li><li>确保生成数据定义是最新的。</li><li>协调整个组织中的补救措施, 确保用户对团队具有优质的体验。</li></ul> | 每天 | |
 
 ### <a name="references"></a>References
 
 [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[上载建筑物信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
 [体验质量检查指南](https://aka.ms/qerguide)
 
@@ -405,56 +405,56 @@ NPS 是介于 – 100 到 100 的度量客户的通信意愿建议公司的产�
 
 ## <a name="manage-endpoints"></a>管理终结点
 
-Microsoft 团队终结点可定义为任何 PC、 Mac、 平板电脑或运行团队客户端的移动 （或任何其他） 设备。 术语*终结点*而不是只包括设备本身，但用户如何连接到设备 — 例如，通过使用设备的内置麦克风或扬声器、 耳机或优化的耳麦。 他们正在部署后，必须不忘记终结点。 团队终结点需要持续医护和维护。 以下各节介绍重点关注的特定区域。
+Microsoft 团队终结点可以定义为任何运行团队客户端的 PC、Mac、平板电脑或手机 (或任何其他) 设备。 术语 "*终结点*" 不仅包括设备本身, 还包括用户如何连接到设备 (例如, 使用设备的内置麦克风或扬声器、earbuds 或优化的耳机)。 部署后, 必须忘记终结点。 团队终结点需要持续的护理和维护。 以下部分介绍了要关注的特定区域。
 
 ### <a name="endpoint-requirements"></a>终结点要求
 
-一个团队的主要优点是，客户端保持最新自动。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。 移动应用程序通过其各自的应用程序商店保留当前工作组。
+团队的一个主要好处是客户自动保持最新状态。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。 团队移动应用将通过其各自的应用商店保持最新。
 
-团队客户端有基础软件平台方面的最低要求。 这些要求可能更改随时间推移，并因此很重要的更改监视它们。 例如，工作组客户端有最小 iOS 版本。 如果客户端使用 internet 浏览器，在浏览器需要以及保留当前。 [获取 Microsoft 团队的客户端](get-clients.md)中找不到支持的平台的列表。
+团队客户端在基础软件平台方面具有最低要求。 这些要求可能会随着时间的推移而更改, 因此, 监视它们的更改很重要。 例如, 团队客户端具有最低的 iOS 版本。 如果客户端使用 internet 浏览器, 则浏览器也需要保持最新。 可在[获取 Microsoft 团队的客户端](get-clients.md)中找到支持的平台列表。
 
 ### <a name="endpoint-firewalls"></a>终结点防火墙
 
 客户端防火墙会对用户体验产生很大影响。
-客户端防火墙可影响呼叫质量和甚至阻止呼叫的建立。 已配置合适对客户端防火墙排除后，他们需要保持最新的基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息。 您的第三方供应商会如何更新排除的特定指南。
+客户端防火墙可能会影响呼叫质量, 甚至阻止建立通话。 在配置了客户端防火墙上的相应排除后, 需要根据[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)中的信息保持最新。 您的第三方供应商将提供有关如何更新排除项的特定指南。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
-Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能导致附不必要访问点切换，从而导致质量欠佳的呼叫质量的访问点之间的积极漫游行为。 佳的 Wi-fi 驱动程序可能会发现通过体验质量审查 （有关详细信息，请参阅[用户体验质量审阅指南](https://aka.ms/qerguide)）。 若要实现质量驱动采样新 Wi-fi 驱动程序，然后确保之前所要部署到的常规用户群体他们正在测试的过程至关重要。
+Wi-fi 驱动程序可能有问题。 例如, 驱动程序可能会导致访问点之间出现非常严重的漫游行为, 从而导致不必要的访问点切换, 从而导致通话质量较差。 性能较差的 Wlan 驱动程序可能会通过 "体验质量检查" (有关详细信息, 请参阅[体验查看指南的质量](https://aka.ms/qerguide)) 发现。 实施一个质量驱动的流程, 以监视新的 Wi-fi 驱动程序并确保在将其部署到一般用户群体之前对其进行了测试, 这一点非常重要。
 
 ### <a name="endpoint-management"></a>终结点管理
 
-支持的终结点和接口设备 （如耳麦） 的目录应可用和维护。 此目录将包含已选定并验证的构想和 Onboard 阶段的一部分的批准设备的列表。 通常情况下，特定设备选择为您的组织中每个角色类型可以满足该角色的属性。 所有终结点具有生命周期中，并且您需要管理供应商合同、 担保、 替换、 通讯组，并修复这些设备相关联的策略。
+支持的终结点和接口设备 (如耳机) 的目录应该可用并保持。 此目录将包含已选择并验证为构想和板载阶段的一部分的已批准设备的列表。 通常, 为组织中的每个角色类型选择特定设备, 以满足该角色的属性的需要。 所有终结点都有一个生命周期, 您需要管理与这些设备相关联的供应商合同、保修、替换、分发和修复策略。
 
 ### <a name="endpoint-troubleshooting"></a>终结点疑难解答
 
-即使您已遵循前面的指南，您的组织中的用户仍可能会遇到问题团队中。 尽管此问题可能不与终结点本身，问题的症状通常显示通过客户端用户。 以下指南旨在提供解决问题; 您可以采取的常规步骤这不具有表示要全面的故障排除指南。 按特定顺序，提供的步骤，但无需显式后面，并且可能不适用，具体取决于问题的性质。
+即使您已遵循以前的指南, 组织中的用户仍可能会遇到团队问题。 尽管问题可能不与终结点本身有关, 但问题的症状通常通过客户端呈现给用户。 下面的指南旨在提供解决问题时可以采取的常规步骤;这并不是一种全面的故障排除指南。 这些步骤按特定顺序提供, 但不需要明确关注, 并且可能不适用, 具体取决于问题的性质。
 
-1. **验证服务运行状况：** 用户可能遇到的问题可以与产生负面影响的团队服务或 itsdependent 服务程序的事件。 第一步，我们建议您确认不存在活动服务问题。 请参阅[如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 请记住要检查的从属服务 (例如，Exchange、 SharePoint、 OneDrive for Business) 的状态。 监控服务运行状况是在上一节，[监控服务运行状况](#monitor-service-health)的更详细地讨论。
+1. **验证服务运行状况:** 用户可能遇到的问题可能与对团队服务或 itsdependent 服务产生负面影响的事件相关。 第一步, 我们建议您确认没有活动的服务问题。 请参阅[如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 请记住检查从属服务 (例如, Exchange、SharePoint、OneDrive for business) 的状态。 "监视服务运行状况" 将在上一节 "[监视服务运行状况](#monitor-service-health)" 中更详细地讨论。
 
-2. **验证客户端连接：** 连接问题导致团队中的功能或登录问题。 （尤其是对于新的网站或位置） 我们建议您验证到服务的连接。 确保以下[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)指南后面的每个网站。 您可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)来执行验证正确已团队功能的打开的媒体端口的连接性测试。 [网络准备](upgrade-prepare-environment-prepare-network.md)指南中提供了有关如何运行连接测试的详细的步骤。
+2. **验证客户端连接:** 连接问题导致团队中的功能或登录问题。 我们建议 (特别是对于新网站或位置) 验证与该服务的连接。 确保为每个网站遵循以下[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)指南。 你可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)执行连接测试, 以验证是否已正确打开团队功能的媒体端口。 有关如何运行连接测试的详细步骤在[网络准备情况](upgrade-prepare-environment-prepare-network.md)指南中提供。
 
-3. **检查的已知的问题列表：** 请咨询[团队的已知问题的列表](known-issues.md)，以确定是否已被用户负面影响的这些问题之一。 按照提供 （如果有） 来解决该问题的解决方法。
+3. **检查已知问题列表:** 查看[团队的已知问题列表](known-issues.md), 以确定用户是否已受到这些问题中的任何一项的不良影响。 按照提供的解决方法 (如果有) 解决问题。
 
-4. **访问的 Microsoft 团队社区：**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)团队提供专用的空格。 团队社区提供讨论列表、 博客帖子和团队为中心的通知。 可以将问题发布到或搜索解决方案的上述讨论与您的问题。
+4. **访问 Microsoft 团队社区:**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)为团队提供专用空间。 团队社区围绕团队提供讨论列表、博客文章和公告。 你可以发布问题或搜索以前的讨论, 以查找你的问题的解决方案。
 
-5. **与 Microsoft 支持部门联系：** 您可以问题的团队联机或通过电话联系 Microsoft 支持。 有关信息，请参阅[业务产品支持的联系人](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 有关高级客户，可以执行在指南启动请求的支持[与支持部门联系的 Microsoft 团队 (高级客户)](https://support.microsoft.com/premier/contacts)。
+5. **联系 Microsoft 支持人员:** 您可以与 Microsoft 支持部门联系, 以解决团队在线或手机出现的问题。 有关信息, 请参阅[联系业务产品支持](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。 对于 Premier 客户, 可通过关注[Microsoft 团队的联系支持 (Premier 客户)](https://support.microsoft.com/premier/contacts)的指导启动支持请求。
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 终结点要求 | 请确保终结点继续满足团队[获取 Microsoft 团队的客户端](get-clients.md)中列出的所有软件要求的团队。 | 每月 | |
-| 终结点防火墙 | 维护相应排除在终结点防火墙中基于[Office 365 Url 和 IP 地址范围](https://aka.ms/o365ips)中的信息。 您的第三方供应商会如何维护排除的特定指南。 订阅[RSS 源](https://support.office.com/o365ip/rss)以自动通知的更改。 | 根据需要 | |
-| Wi-Fi 驱动程序 | 测试和更新 PC 上的 Wi-fi 驱动程序。 使用 CQD （[用户体验质量审阅指南](https://aka.ms/qerguide)） 验证结果。 | 根据需要 | |
-| 终结点管理 | 维护支持的终结点和接口设备 （如耳麦） 的目录。 管理供应商合同、 担保、 分发、 替换，并修复策略。 | 每月 | |
-| 终结点疑难解答 | 故障排除任务可以包括验证咨询已知的问题列表、 收集日志、 分析和升级到 Microsoft 技术支持或第三方供应商的连接。 | 根据需要 | |
+| 终结点要求 | 确保团队终结点继续满足[Microsoft 团队的获取客户端](get-clients.md)中列出的团队的所有软件要求。 | 每月 | |
+| 终结点防火墙 | 基于[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)中的信息维护终结点防火墙上的相应排除项。 您的第三方供应商将提供有关如何维护排除项的特定指南。 订阅[rss 源](https://support.office.com/o365ip/rss)以自动收到更改通知。 | 根据需要 | |
+| Wi-Fi 驱动程序 | 在电脑上测试和更新 Wlan 驱动程序。 使用 "CQD" ([体验检查指南](https://aka.ms/qerguide)) 验证结果。 | 根据需要 | |
+| 终结点管理 | 维护支持的终结点和接口设备 (如耳机) 的目录。 管理供应商合同、保修、分发、更换和维修政策。 | 每月 | |
+| 终结点疑难解答 | 故障排除任务可以包括验证连接、咨询已知问题列表、记录收集、分析和上报给 Microsoft 支持或第三方供应商。 | 根据需要 | |
 
 ### <a name="references"></a>References
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 客户端](get-clients.md)
+[获取 Microsoft Teams 的客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -464,43 +464,43 @@ Wi-fi 驱动程序可能会出现问题。 例如，驱动程序可能有可能�
 
 [联系商业版产品的支持人员 - 管理员帮助](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-[联系人 Premier support](https://support.microsoft.com/premier/contacts)
+[联系 Premier 支持人员](https://support.microsoft.com/premier/contacts)
 
-[疑难解答团队视频](https://www.youtube.com/watch?v=4O4d_7uZTQY)
+[团队视频疑难解答](https://www.youtube.com/watch?v=4O4d_7uZTQY)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-teams"></a>管理 Teams
 
-已部署的 Microsoft 团队服务后，您需要执行与其管理相关的多个活动。 从管理服务和单独的用户容量规划和设置的许可和电话号码活动区域中。 以下各节介绍其中一些常见管理任务。
+在部署 Microsoft 团队服务之后, 你需要执行与其管理相关的多个活动。 活动范围从管理服务和单个用户到容量规划以及预配授权和电话号码。 以下部分介绍了一些常见的管理任务。
 
 ### <a name="service-administration"></a>服务管理
 
-团队服务都有多个可以配置租户范围的设置。
-租户设置所做的更改会影响所有用户已启用团队。 有关这些设置的详细列表，请参阅[管理 Microsoft 团队设置为您的组织](enable-features-office-365.md)。
+团队服务具有多个可在租户范围内配置的设置。
+对租户设置所做的更改将影响已启用团队的所有用户。 有关这些设置的详细列表, 请参阅[管理你的组织的 Microsoft 团队设置](enable-features-office-365.md)。
 
 ### <a name="user-administration"></a>用户管理
 
-若要支持用户，组织可能需要任意数量的相关任务 — 的特定任务因组织到下一步。 最终，这些任务需要由支持团队已分配这些操作的责任。 支持团队中的用户时，通常需要执行以下任务。
+为支持用户, 组织可能需要任意数量的相关任务, 具体任务因组织而异。 最终, 这些任务需要由已分配了这些操作责任的支持团队进行管理。 若要支持团队中的用户, 通常需要以下任务。
 
 #### <a name="general-tasks"></a>常规任务
 
 [管理 Microsoft Teams 的用户访问](user-access.md)
 
-### <a name="team-creation-optional"></a>团队创建 （可选）
+### <a name="team-creation-optional"></a>团队创建 (可选)
 
-默认情况下，与 Exchange Online 中邮箱的所有用户都有权在 Microsoft 团队中创建 Office 365 组和团队，因此。 如果您希望具有严格控制和[限制的新团队创建](assign-roles-permissions.md#permissions-to-create-teams)（以及创建新的 Office 365 组），您可以委派组创建和管理权限的管理员组。 如果您的组织希望使用此选项，请参阅本文以允许用户提交分配团队处理的请求中所述的过程。
+默认情况下, 在 Exchange Online 中具有邮箱的所有用户都具有创建 Office 365 组的权限, 因此是 Microsoft 团队中的团队。 如果你希望更严格地控制和[限制新团队的创建](assign-roles-permissions.md#permissions-to-create-teams)(从而创建新的 Office 365 组), 你可以将组创建和管理权限委派给一组管理员。 如果你的组织想要使用此选项, 请参阅本文中所述的过程, 以允许用户提交由分配的团队处理的请求。
 
 <!--ENDOFSECTION-->
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>每天/每周/每月/按需任务
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
-| 活动 | 说明 | 节奏 | 分配的工作组 |
+| 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 服务管理 | 租户范围的团队设置管理。 | 根据需要 | |
-| 用户管理 | 基于用户的设置和许可团队中的管理。 | 根据需要 | |
-| 许可证管理 | 规划用户和基于消耗的许可 （调用计划和通信字幕式） 的当前和将来需要通过利用[PSTN 使用率报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)和[PSTN minute 池](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)报告。 | 每周 | |
-| 电话号码管理 | 管理的电话号码用于未来增长，并调整库存水平，以满足您组织的需求。 | 每周 | |
-| 团队创建 （可选） | 团队创建的审阅和处理请求。 | 根据需要 | |
+| 服务管理 | 管理租户范围的团队设置。 | 根据需要 | |
+| 用户管理 | 在团队中管理基于用户的设置和授权。 | 根据需要 | |
+| 许可证管理 | 通过利用[pstn 使用情况报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)和[pstn 分钟池](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)报告, 规划基于用户和基于消费的许可 (呼叫计划和通讯信用点数) 的当前和未来需求。 | 每周 | |
+| 电话号码管理 | 管理可用于未来增长的电话号码, 并调整库存水平以满足组织的需求。 | 每周 | |
+| 团队创建 (可选) | 查看和处理团队创建的请求。 | 根据需要 | |
 
 <!--ENDOFSECTION-->

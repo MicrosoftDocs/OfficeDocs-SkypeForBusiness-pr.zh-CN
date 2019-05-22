@@ -8,150 +8,150 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 通过定义您的目标、 了解哪些验收如下所示，并提供培训和支持创建规划，以用户。
+description: 通过定义目标、了解所需的验收以及提供培训和支持, 创建一个计划来推动用户使用。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 672e15c405f031144f3e8b393289e7166eb981f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915400"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344714"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
-本文概述了准备您的用户使用云语音服务的要求。 通过正确准备您的用户，您将确保您为组织提供最大价值。
+本文概述了为用户准备使用云语音服务的要求。 通过正确地准备用户, 你将确保为你的组织提供最大价值。
 
 <!--ENDOFSECTION-->
 
-## <a name="preparing-for-user-adoption"></a>准备用户应用
+## <a name="preparing-for-user-adoption"></a>为用户采纳做好准备
 
-在已保护您的项目工作组和定义的范围和您的项目的目标后下, 一步确保组织和用户准备情况、 活动完成您的技术做好准备工作的并行。 若要实现与部署的价值，用户必须实际使用并采用它。 只需启用解决方案并不保证，您将实现目标。 此外，用户具有不同用例和不同学习样式，并且他们适应新技术在不同的速度。 管理更改不是所有的复杂，但是会占用多少精力，好的消息。 指导性的讨论下方包含旨在帮助您了解您的用户群和准备的教育以加快并加快用户应用适当的级别。
+在您保护项目团队并定义项目的范围和目标之后, 下一步是确保组织和用户准备工作, 即与您的技术准备并行完成的活动。 为了实现部署的价值, 用户必须实际使用和采用它。 只是启用一个解决方案并不能保证你实现目标。 此外, 用户具有不同的使用情形和不同的学习风格, 并且它们以不同的速度适应新技术。 好消息是, 管理更改并不是很复杂, 而是要做重点工作。 下面介绍的指导性讨论旨在帮助你了解你的用户群体, 并准备好合适的教育级别来促进和加速用户采纳。
 
-活动所有者： 应用更改管理器作为主管，项目负责人，Executive 发起人、 市场营销培训/支持经理
+活动所有者: 作为潜在顾客、项目主管、总经理主办方、市场营销/培训/支持经理的采纳更改经理
 
 > [!NOTE] 
-> 下面提供了评估活动是适应组织中任何更改计划。 只需地址根据您的项目的范围的问题。 中的这些活动讨论，"新解决方案"可从业务向工作组的 Skype 适用于音频呼叫、 音频会议或您的升级。
+> 下面提供的评估活动可适应您的组织中的任何变更计划。 只需根据您的项目范围解决问题。 在讨论这些活动时, "新解决方案" 可应用于音频呼叫、音频会议或从 Skype for Business 升级到团队。
 
 <!--ENDOFSECTION-->
 
-## <a name="create-your-vision-to-value-statement"></a>创建远景--值语句
+## <a name="create-your-vision-to-value-statement"></a>创建远景到值语句
 
-设置项目构想可让主要利益干系人查看大图片。 这通常等同于业务驱动因素&mdash;如成本节约、 运营效率，并提高工作效率&mdash;和设置项目中前面的目标与对齐。 给用户，该相同的项目可能为离开采用熟悉的工具、 生产力中断和缺乏爱心查看由管理。 需要时间才能自己置于用户鞋，并将项目构想翻译为于它们的值语句。 使用此值语句 in 您通信和培训活动来授权用户，请参阅团队可以为他们的工作方式。
+设置项目远景使关键利益干系人能够看到重要的图片。 这通常意味着业务驱动因素&mdash;(如成本节约、运营效率和效率&mdash;), 并与您之前在项目中设置的目标相协调。 对于用户, 该项目可能会被视为使用熟悉的工具、生产力中断和 compassion 管理。 花一些时间将自己放在用户的鞋中, 并将项目远景转换为有吸引力的价值陈述。 在您的通信和培训活动中使用此价值陈述, 让用户能够看到团队如何为他们工作。
 
-下图是客户从 for Business 的 Skype 升级到团队的远景--值语句的示例。
+下图是从 Skype for Business 升级到团队客户的远景描述的示例。
 
-![两列表格远景-为什么我们这样做？（组织级别） 的左侧，和 Value-什么是在其中为我？（用户级别） 右侧](media/prepare-my-users-new-image1.png "两列表与远景-为什么我们这样做？（组织级别） 的左侧，和 Value-什么是在其中为我？（用户级别） 右侧")
+![显示远景和价值的两栏表](media/prepare-my-users-new-image1.png "有两列的表格 (有视觉意义)-为什么要执行此操作？(组织级别) 左侧和价值-这是我的用途？(用户级别) 位于右侧")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>您明确的好处和价值向用户获得其购买-在此新的解决方案的方式？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>创建当前项目范围，确保它们与您的目标对齐您构想和值的语句。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否为您的用户表述了好处和价值, 其购买方式可用于获得此新解决方案的购买产品？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为当前项目范围创建远景和价值陈述, 确保它们与你的目标保持一致。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="determine-organizational-change-readiness"></a>确定组织更改准备
+## <a name="determine-organizational-change-readiness"></a>确定组织更改准备情况
 
-组织准备情况可帮助确定如何乐于接受 （或不） 用户可能会对不断变化的工作的方式。 了解如何响应用户可能更改使您的组织主动解决问题，调整为最佳接收推出计划和确定用户可以成为拥护者或大使可帮助加快更改。
+组织准备情况帮助确定 receptive (或不是) 用户更改工作方式的方式。 了解用户对更改的反应方式使你的组织能够主动解决问题、调整首展计划以获得最佳接收, 并确定可成为你的拥护者或大使的用户, 以便帮助做出更改。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>？ 用户做好准备，愿意更改到新的解决方案</li><li>用户是否有要加快更改的功能或 1&competency？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>使用下面的对话启动器了解您的组织的区域性设置时更改。 此信息可帮助通知的知晓和培训，您可能需要多少实现您的项目。
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好, 愿意更改为新的解决方案？</li><li>用户是否具有促进更改的能力或资格？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用以下对话初学者了解组织在更改时的文化。 此信息可帮助通知你可能需要为你的项目实现多少意识和培训。
 </li></ul></td></tr>
 </table>
 
 > [!TIP]
-> 为了帮助指导讨论，评估过去推出;这可以帮助您预计如何响应用户可能会更改，并帮助您主动地解决您预期的反应。
+> 若要帮助指导讨论, 请评估过去的推出;这可以帮助你预测用户对更改做出反应的方式, 并帮助你主动解决所期望的反应。
 
-### <a name="what-percent-of-users-fall-into-each-bucket"></a>每个地址散列表元属于哪些 %的用户？
+### <a name="what-percent-of-users-fall-into-each-bucket"></a>用户属于每个存储桶的百分比是多少？
 
-| **用户的类型**                                                             | **%** |
+| **用户类型**                                                             | **%** |
 |------------------------------------------------------------------------------|-------|
-| *前期应用*请求解决方案才可以它。                  |       |
-| *告知用户*接受解决方案，只要其值所述。    |       |
-| *滞后*拒绝解决方案，即使推入更改。                 |       |
+| *早期*使用者先请求解决方案, 然后再推出它。                  |       |
+| ** 只要演示了该解决方案的价值, 就会立即接受该解决方案。    |       |
+| *Laggards*拒绝解决方案, 即使推送到更改也是如此。                 |       |
 
 
 > [!TIP]
-> 前期应用是非常适合您的试验部署，也拥护者的计划。 如果您有滞后很大一部分，需要时间才能重点关注有关可帮助进行此更改使其在主板这些用户和 handholding 消息的值。
+> 早期的采纳方案非常适合你的试点部署, 也是拥护者的计划。 如果您有很大的 laggards, 请花一些时间专注于这些用户和 handholding 的价值消息, 以帮助他们在主板上获得更改。
 
-### <a name="what-percent-of-users-fall-into-each-competency"></a>哪些 %的用户分为以下每个 1&competency？
+### <a name="what-percent-of-users-fall-into-each-competency"></a>用户属于每项能力的百分比是多少？
 
-| **学员的类型**                                                        | **%** |
+| **学习者的类型**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
-| *自运用*学员查找出资源，了解通过执行。                         |       |
-| *团队播放器*享受组和交互式培训;将获得以及同事。 |       |
-| *Handholding* seekers 预期"手套白色"或一对一帮助。                   |       |
+| 通过执行此操作, 由*自己*负责的学员寻找资源。                         |       |
+| *团队玩家*享受群组和交互式培训;他们将与同事一起讨论。 |       |
+| *Handholding* seekers 希望 "白 glove" 或一对一的帮助。                   |       |
 
  
 > [!TIP]
-> 学习不是通用的。 通过了解如何您的用户了解最佳，可以创建可帮助加快其学习稳固的培训计划。 如果自运用多个用户，都链接到视频和用户指南可能只需要。 对于需要专用的关注的人，请务必安排一些一对一时间&mdash;或登记您拥护者可通过学习帮助这些用户。
+> 学习不仅仅是一种大小适合的功能。 通过了解你的用户的最佳了解方式, 你可以创建一个强健的培训计划来帮助加速其学习。 如果许多用户都具有自己的热情, 则链接到视频和用户指南可能就足够了。 对于需要特殊关注的人员, 请确保安排一次&mdash;一次性或登记拥护者, 以通过学习曲线帮助用户。
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-your-user-base"></a>评估您的用户群
+## <a name="assess-your-user-base"></a>评估你的用户基础
 
-人员级分析提供了您了解您的用户角色、 群体，以及使用情况。 按照时间了解您的用户是谁和它们的工作方式，您可以确保拥有所需实现更改时才能成功。 这可能包括目标消息、 培训或偶数的设备，例如耳麦和网络摄像机。 例如，主管预想一对一培训，而旅行字段代表可能受益视频他们可以在其有空观看培训。 此外，人员级分析可帮助确定谁应开始使用立即与谁可能最佳由等待的新功能。
+人员级分析让你了解你的用户角色、cohorts 和使用案例。 通过花时间了解你的用户是谁以及他们的工作方式, 你可以确保他们在实施更改时获得成功所需的内容。 这可能包括定向的消息、培训, 甚至是耳机和网络摄像头等设备。 例如, 一个行政人员可能会期望进行一对一培训, 而旅行现场代表可能会受益于他们可以在休闲上观看的培训视频。 此外, 你的人员级分析可帮助确定应立即开始使用新功能的人员与通过等待获得最佳服务的人员。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>特定用户或群体具有核心依赖关系有效地完成其作业此解决方案？</li><li>是否有特定的使用情况下，可以使用此新的解决方案可简化？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将基本用户划分群体个人/组 （Executives、 旅途战士、 协作工作者、 零售，等等）。 对于可管理性，列出不能超过八组。 （示例对话启动器 （英文），请参阅下面。）使用您的发现进一步设计您的用户准备情况市场活动和分隔试生产用户从那些从更高版本上升级中获益。
-</li><li>映射用例。 您已确定将受益于这项新技术核心用户组后，请考虑您的常规用户群。 了解跨团队使用情况和方案，您可以可视化组织使用这项新技术。 此外，添加使用案例示例向您的通信和培训计划真正帮助使您的用户相关。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>是否有某些用户或 cohorts 对此解决方案具有核心依赖, 才能有效地执行其作业？</li><li>是否有特定的使用案例可通过使用此新解决方案来方便？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先, 将你的用户群划分为角色/群体组 (主管、公路虎、协作工作者、零售等)。 为便于管理, 请列出不超过八个组。 (有关对话初学者的示例, 请参阅下文。)使用你的发现来进一步设计你的用户准备情况市场活动, 并向可能受益于稍后升级的用户细分试点用户。
+</li><li>地图使用案例。 确定核心用户组 (这些用户组将受益于此新技术) 后, 请考虑你的一般用户群体。 通过了解跨团队使用案例和方案, 你可以使用此新技术直观显示你的组织。 此外, 向您的通信和培训计划添加使用案例示例确实有助于让他们与您的用户保持联系。</li></ul></td></tr>
 </table>
 
-对于每个角色组，讨论项目工作组使用以下：
+对于每个角色组, 请与你的项目团队讨论以下内容:
 
--   此组 （即，什么是普通"一天的生命周期"） 的核心特征有哪些？
+-   此组的核心特征有哪些 (即生命周期的典型 "天")？
 
--   如何将此组受益于新解决方案？ 哪些特性和功能将他们需要可以取得高效率？
+-   此群组将如何从新解决方案中受益？ 他们需要哪些功能和功能才能有效？
 
--   哪些设备将它们需要 （例如耳机或扬声器），以及他们是否已有它们？
+-   他们需要哪些设备 (例如, 耳机或扬声器), 并且他们已经有了这些设备？
 
--   哪些其他值消息，如果有，是必需的此组开始使用新的解决方案中创建想法？
+-   在此组中创建要开始使用新解决方案所需的额外价值消息 (如果有)？
 
--   什么是对此组接收的最佳途径：
+-   此群组接收的最佳方式是什么:
 
-    -   认知 （例如，电子邮件、 海报、 部门经理）？
+    -   感知 (例如, 电子邮件、海报、部门经理)？
 
-    -   培训 （例如，联机培训、 用户指南、 手套白色）？
+    -   培训 (例如在线培训、用户指南、白色 glove)？
 
-    -   支持 （自助，帮助台拥护者）？  
+    -   支持 (自助服务、帮助台、冠军)？  
 
--   是此组试点或早期使用程序的一个不错的候选？ 如果是这样，请规划，以获得购买中这些用户可以参与试用。 有关实现成功试用计划的详细信息，请参阅[旁 for Business 的 Skype 试点团队](pilot-essentials.md)。
+-   此组是否为试验或早期使用者计划的理想之处？ 如果是这样, 请制定一个计划, 让这些用户购买, 参与试验。 有关实施成功试验计划的详细信息, 请参阅与[Skype For business 一起使用的试点团队](pilot-essentials.md)。
 
-下图是个人表的示例。
+下图是一个角色表的示例。
 
-![表列表与他们的常见角色和通信和协作解决方案依赖项的角色。Executive 角色的详细信息 （生命周期中的天） 的配置文件和功能，以突出显示的设备和培训需要主管。](media/prepare-my-users-image2.png "表列表与他们的常见角色和通信和协作解决方案依赖项的角色。Executive 角色的详细信息 （生命周期中的天） 的配置文件和功能，以突出显示的设备和培训需要主管。")
+![列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 "执行官" 角色, 其中包含有关配置文件的详细信息 (一天在生命中), 以及功能、设备和培训的管理需求。](media/prepare-my-users-image2.png "列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 \"执行官\" 角色, 其中包含有关配置文件的详细信息 (一天在生命中), 以及功能、设备和培训的管理需求。")
 
-为每个用例，讨论项目工作组使用以下：
+对于每个用例, 请与你的项目团队讨论以下内容:
 
--   此使用案例/方案的核心特征有哪些？
+-   此使用案例/方案有哪些核心特征？
 
--   什么是好有关当前解决方案？
+-   当前解决方案有哪些好处？
 
--   哪些，如果有，您面临的挑战与当前解决方案？
+-   您当前的解决方案面临哪些挑战 (如果有)？
 
--   新解决方案将如何优化的用户体验？
+-   新解决方案将如何优化用户体验？
 
-有关使用情况的示例，请访问[FastTrack 生产力库](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)。
+有关使用案例的示例, 请访问[FastTrack 生产力库](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)。
 
 <!--ENDOFSECTION-->
 
-## <a name="optimize-your-readiness-plan"></a>优化您的准备工作计划
-了解您的用户是谁以及它们将如何在新的解决方案后，您可以设计的准备工作计划。 您的用户的准备工作计划了如何将通信、 培训，并为您试验加载，支持您的用户和运行新解决方案。 根据您在本文前面的步骤中发现，准备不是通用的。 开始使用广泛的认知度并培训计划，合并消息在此过程的开头定义的值。 然后定制您消息，培训，并支持的角色或已定义的群体根据。 您的个性化的规划将使用户能够更快地相关时演示您了解他们的需求，可帮助缩短其过渡到新的解决方案。
+## <a name="optimize-your-readiness-plan"></a>优化准备情况计划
+了解用户的身份及其在新解决方案中的工作方式后, 您可以设计准备情况计划。 你的用户准备情况计划合并了如何在你试点、板载和操作新解决方案时对你的用户进行沟通、培训和支持。 正如您在本文前面的步骤中所述, "准备情况" 并非一种大小适合。 首先要了解您在此过程的开始部分中定义的价值消息。 然后根据需要为您定义的角色或 cohorts 定制您的消息、培训和支持。 你的个性化计划将使用户能够更快地与新的解决方案相关, 同时演示你了解自己的需求, 这有助于促进其过渡。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>您可以提供哪些准备工作计划来帮助加快并加快采用新解决方案？</li><li>您必须右认知、 培训和支持资源，分别用户能够更改和已定义的用户角色？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>使用下节中列表生成的准备工作计划的想法。 选择最相关的&mdash;或添加您自己&mdash;设计优化您的组织的准备工作计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>可以提供哪些准备情况计划来帮助促进和加速新解决方案的采纳？</li><li>您是否有合适的意识、培训和支持资源与你的用户处理更改的能力和你定义的用户角色相符？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用下一节中的列表生成准备情况计划的想法。 选择最相关的文件&mdash;或添加你自己&mdash;的, 以设计针对你的组织进行了优化的准备情况计划。</li></ul></td></tr>
 </table>
 
-### <a name="readiness-plan-ideas"></a>准备计划想法
+### <a name="readiness-plan-ideas"></a>准备情况计划创意
 
 <table>
 <tr><th>通信</th><th>培训</th><th>支持</th></tr>
-<tr><td><ul><li>电子邮件&mdash;个性化我们<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字签名 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>文章和来自 Microsoft 的视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">切换到团队从 Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和呼叫</a></li></li></ul><li>内部帮助 （帮助）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部帮助台</li><li>外包的支持桌面</li><li>自助 （intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>Floor walkers 和拥护者</li><li>反馈循环&mdash;，请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
+<tr><td><ul><li>通过&mdash;电子邮件个性化我们的<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字告示 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>Microsoft 中的文章和视频:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到团队</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和通话</a></li></li></ul><li>内部协助 (帮助)</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助式帮助 (intranet 网站)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环&mdash;请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
 </table>

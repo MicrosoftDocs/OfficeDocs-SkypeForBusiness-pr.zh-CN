@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298116"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344874"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -33,7 +33,7 @@ ms.locfileid: "34298116"
 
 通过匿名加入, 任何人都可以通过单击会议邀请中的链接以匿名用户身份加入会议。
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**参与者**" 下, 打开**匿名用户可以加入会议**。
@@ -54,7 +54,7 @@ ms.locfileid: "34298116"
 
 ### <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**电子邮件邀请**" 下, 执行下列操作:
@@ -73,7 +73,7 @@ ms.locfileid: "34298116"
 
 如果你使用 "服务质量[(QoS)](qos-in-teams.md) " 来设置网络流量的优先级, 则可以启用 QoS 标记, 并且可以为每种类型的媒体流量设置端口范围。
 
- ![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+ ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**网络**" 下, 执行下列操作:

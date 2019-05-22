@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用 Skype for Business Online 呼叫质量仪表板和获取通话质量的摘要报告。 '
-ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291534"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344882"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -55,7 +55,7 @@ Microsoft 团队和 Skype for business Online 的通话质量仪表板 (CQD) 使
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>激活 Microsoft 通话质量仪表板 (CQD) 摘要报告
 
 在开始使用 CQD 之前, 你需要为你的 Office 365 组织激活它。
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
  
 1. 使用 Microsoft 团队服务管理员帐户登录到你的 Office 365 组织, 然后选择 "**管理员**" 磁贴以打开管理中心。
     

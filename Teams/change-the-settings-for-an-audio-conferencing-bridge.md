@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '获取在不使用 Skype for Business 或 Microsoft 团队应用时用于提示呼叫者和收集会议组织者的名称和 pin 的会议桥设置所需的步骤。 '
-ms.openlocfilehash: d77d614b0b9e41d5948c3f9f9322df168a452bec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283438"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344866"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "34283438"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航中, 转到 "**会议** > **桥**"。 
 

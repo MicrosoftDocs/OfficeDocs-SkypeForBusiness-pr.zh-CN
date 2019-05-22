@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Microsoft Teams 中为用户分配会议 ID 以及应使用的会议 ID 参数。 '
-ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305355"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344313"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中查看和重置分配给用户的会议 ID
 
@@ -42,7 +42,7 @@ ms.locfileid: "34305355"
 
 ### <a name="to-view-the-conference-id"></a>查看会议 ID
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 
@@ -62,7 +62,7 @@ ms.locfileid: "34305355"
 
 你可以为用户重置会议 ID（例如，当用户忘记了会议 ID 时）。
   
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 

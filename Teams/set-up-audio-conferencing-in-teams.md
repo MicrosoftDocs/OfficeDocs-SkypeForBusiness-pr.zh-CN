@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329729"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344207"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -87,7 +87,7 @@ ms.locfileid: "34329729"
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>第 5 步：设置会议网桥的默认和备用语言
 <a name="__top"></a>接下来, 你希望[在 Microsoft 团队中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md), 会议自动助理在拨入到音频会议的电话号码时使用问候呼叫者。 
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30:
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标:
 
 1. 从仪表板中, 转到**会议** > **桥**。
 2. 选择 "会议桥接电话号码", 单击 "**编辑**", 然后选择默认语言。
@@ -97,7 +97,7 @@ ms.locfileid: "34329729"
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30:
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标:
 
 1. 从仪表板中, 转到**会议** > **桥**。
 2. 选择 "**桥接设置**"。 这将打开**网桥设置**窗格。 
@@ -110,7 +110,7 @@ ms.locfileid: "34329729"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30:
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标:
 
 1. 从仪表板中, 单击 "**用户**", 从列表中选择用户, 然后选择 "**编辑**"。
 2. 选择 "**音频会议**" 旁边的 "**编辑**", 然后在 "**音频会议**" 窗格中, 选择 "**收费电话**号码" 和 "免费**电话**号码" 列表中的号码。

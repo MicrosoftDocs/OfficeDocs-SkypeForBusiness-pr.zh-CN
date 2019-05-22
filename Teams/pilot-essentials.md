@@ -1,12 +1,12 @@
 ---
-title: 试用与 Skype 的 Microsoft 团队 for Business |部署、 采用实现
+title: 通过 Skype for Business 试用 Microsoft 团队 |部署、采纳实施
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 启动 Microsoft 团队试浏览所有团队的指南可以提供您的组织时您继续使用 Skype for Business
+description: 有关启动 Microsoft 团队试点项目的指南, 了解所有团队可以在你继续使用 Skype for Business 时提供你的组织
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -15,99 +15,99 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb10808995cafe76056f4856a89b15b657e98ae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898672"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344151"
 ---
-![升级旅程，重点强调部署阶段和实现阶段](media/upgrade-banner-deployment.png "升级旅程，重点强调部署阶段和实现阶段")
+![升级旅程的阶段, 重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
-这篇文章属于您升级旅程，部署和实施阶段并共享见解运行有效试验。 在继续之前，确认您已完成以下活动：
+本文是升级过程的部署和实施阶段的一部分, 并分享了运行有效试验的见解。 继续之前, 请确认你已完成以下活动:
 
-- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [准备您的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [准备您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
+- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 
 # <a name="conduct-a-user-pilot"></a>执行用户试点
 
-通过部署新技术，您的组织实现的业务价值，如成本节约、 安全合规性、 员工满意度和运营效率，但它还会影响用户工作效率和组织的基础结构 （您的网络）。 在整个组织中启用新技术之前, 进行正式用户试验。 像绘制整个聊天室之前，将绘制的背景墙上的颜色小修补程序，您将通过进行试验验证技术和用户准备情况测试较小范围广泛推出、 标识和缓解一些问题，并帮助确保成功组织范围内实现。
+通过部署新技术, 你的组织可以实现成本节约、安全合规性、员工满意度和操作效率等业务价值, 但也会影响用户的生产力和组织基础结构 (您的网络)。 在您的组织中启用新技术之前, 请进行正式的用户试验。 就像在绘制整个聊天室之前在墙上绘制小的颜色片一样, 你可以通过执行试验来验证技术和用户准备情况、识别和缓解问题, 从而在较小的范围内测试广泛的推出, 并帮助确保成功组织范围的实现。
 
-若要获得最实际结果，试用应涉及实际用户、 模仿通信和协作，并验证技术和用户的体验如何。 无论您的组织正在考虑运行 Skype 业务和团队并排，升级到团队将来，或部署的新功能，这样的呼叫或会议，试验可以帮助确定您的组织的右转接的路径。 有时视为推出的第 1 阶段，理想试用利用您已经启动的准备工作，并实现与目标组的用户定义的计划。
+为了实现最真实的结果, 试验应包括实际用户、模仿其通信和协作的方式以及验证技术和用户体验。 无论您的组织正在考虑并排运行 Skype for Business 和团队, 升级到团队, 还是部署新功能 (如呼叫或会议), 试验都可以帮助您为您的组织确定更合适的前进途径。 有时考虑推出第1阶段, 理想的测试版利用已启动的准备工作, 并使用目标组用户实现定义的计划。
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试，告知项目方向？</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用以下指南来设计和执行您正式试验。</li></ul>|
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试点通知项目方向？</li></ul> |
+| ![描述下一步的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的指南设计和执行正式的试点。</li></ul>|
 
 > [!Tip]
-> 使用示例[试验资源](https://aka.ms/UpgradeSuccessKit)以帮助设计您的通信，测试计划和反馈调查。
+> 使用示例[试点资源](https://aka.ms/UpgradeSuccessKit)帮助设计您的通信、测试计划和反馈调查。
 
-## <a name="1-outline-pilot-logistics"></a>1.大纲试点物流
+## <a name="1-outline-pilot-logistics"></a>1. 分级式试验物流
 
-成功试验已定义的开始和结束日期，以及用于测量成功[明确的定义目标](upgrade-define-project-scope.md#project-goals)。 这些目标应何时记录您的对齐与您更广泛的项目的范围[定义您的项目范围](upgrade-define-project-scope.md)和可用于通知您转接的路径，您的试生产结束后。 您还应确保项目的持续时间内包含了右利益干系人。 您需要以确保留出足够的时间运行试行和评估及其影响： 建议 30 天内的最小值。
+成功的试生产已定义开始日期和结束日期, 以及[明确定义](upgrade-define-project-scope.md#project-goals)的用于衡量成功的目标。 这些目标应与您更广泛的项目的范围对齐, 如您在[定义项目范围](upgrade-define-project-scope.md)时进行了记录, 并将用于在试运行后通知您的路径。 你还应确保你已在项目工期内包含合适的利益干系人。 您需要确保有足够的时间来运行试验并评估其影响: 我们建议最少30天。
 
-开始的并将添加到您的试生产根据 — 通过添加的工作负荷或功能或其他用户是否 — 进行时间评估结果和调整您的试生产循环。 您甚至可能选择运行后续示范，如每路线图释放团队的新功能。
+"从小" 开始, 并根据需要添加到你的试点, 无论是添加工作负载还是功能, 还是其他用户-在进行迭代时需要时间来评估结果并调整你的试点。 您甚至还可以选择在按路线图发布新团队功能时运行后续试点。
 
-## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2.选择试点参与者和测试方案
+## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. 选择你的试点参与者和测试方案
 
-试点计划最重要的任务之一是仔细选择参与者。 请记住团队专为团队合作，因此请确保选择试点参与者而不仅仅基于角色或角色，但也基于其项目和跨团队工作。 开始的好地方实际可以验证团队中的项目在要求您的利益干系人和部门经理。 基于角色的示例可能是项目的使用与组织销售团队以确保字段代表可以轻松访问它们需要并与其他域成员共享见解的资源。 基于项目的工时的示例可能协调具有市场营销、 培训、 公共关系和规划工作组的事件的产品发布事件。 选择，无论方案试用应扩展到中的关键人员 IT、 培训和帮助台，以便同时完全优化项目管理资源进行全面验证解决方案。
+试点计划最重要的任务之一是仔细选择参与者。 请记住, 团队已针对团队协作进行了优化, 因此请确保仅根据角色或角色选择试验参与者, 并且基于其项目和跨团队工作进行选择。 一个很好的开始位置是向你的利益干系人和部门经理询问你可以在团队中验证的真实项目。 基于角色的项目的一个示例可能是将团队与您的销售组织配合使用, 以确保现场代表可以轻松地访问所需的资源, 并与其他域成员共享见解。 基于项目的工作示例可能是与市场营销、培训、公共关系和活动规划团队协调产品发布活动。 无论选择哪种方案, 试点项目都应扩展到 IT、培训和帮助台中的关键人员, 以便你可以在完全优化项目管理资源的同时全面验证解决方案。
 
 > [!Tip]
-> 时选择您的团队试用组参与者，请确保包括顶部的 Skype for Business 的用户。 检查与这些用户了解如何使用 Skype for Business 如今，然后构建测试计划验证团队可以满足他们当前的需求。
+> 选择团队试点团队参与者时, 请确保包括 Skype for business 的首要用户。 请咨询这些用户以了解他们目前如何使用 Skype for Business, 然后构建一个测试计划来验证团队是否可以满足其当前需求。
 
-## <a name="3-design-your-test-plan-and-feedback-survey"></a>3.设计测试计划和反馈调查
+## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. 设计测试计划和反馈调查
 
-为了成功的生产体验，请提供参与者明确定义的任务完成以及一种方法可以共享他们的反馈。 任务组，在一起以提供给用户，演示其每日活动到相关性现实世界方案。 让您测试[评估组织更改就绪性](https://aka.ms/OrgReadiness)指南中定义的情况下计划的使用。
+若要获得成功的试验体验, 请为参与者提供明确定义的任务, 以便与他们共享他们的反馈。 将任务组合在一起以向用户提供真实的方案, 演示其日常活动的相关性。 让你在[评估组织更改准备](https://aka.ms/OrgReadiness)情况指南中定义的使用案例你的测试计划。
 
-您的组织可以选择同时试用所有功能或使用逐步方法 — 例如，首先，都试用协作，则会议，然后聊天和调用。 确保您有打开反馈通道来跟踪进度和衡量产出。 使用预定义的调查可以方便地捕获和评估试点结果;调查设计应基于场景和功能测试计划中。
+您的组织可能会选择一次试点所有功能, 或使用逐步式方法 (例如, 先进行试点协作, 然后是会议, 然后是聊天和通话。 确保你有一个打开的反馈通道来跟踪进度和测量结果。 将预定义的调查用作捕获和评估试验结果的简单方法;调查设计应基于测试计划中的方案和功能。
 
-## <a name="4-create-your-communications-plan"></a>4.创建沟通计划
+## <a name="4-create-your-communications-plan"></a>4. 创建通信计划
 
-至关重要的告知试点参与者的最新动态，时，及使用原因，和预期的试生产成功。 来兴奋和最大参与驱动器，请务必包括用户值消息除了链接培训和支持用户可从中获取其他信息通过试行进行处理时。 下面是一些示例资源以帮助您着手试点通信计划：
+对试点项目的成功非常重要, 那就是让试点参与者了解所发生的情况、时间和原因以及它们的预期效果。 若要推动兴趣和最大程度的参与, 请确保包括用户价值消息, 以及用户在完成试验后可以获取其他信息的培训和支持的链接。 下面是一些示例资源, 可帮助你开始使用试点通信计划:
 
-- [试验资源](https://aka.ms/UpgradeSuccessKit)，包括电子邮件模板和示例反馈调查问题
-- [切换到 for Business 的 Skype 来自团队](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)，旨在帮助 Skype 业务用户的快速入门指南入门团队
+- [试点资源](https://aka.ms/UpgradeSuccessKit), 包括电子邮件模板和示例反馈调查问题
+- [从 Skype For Business 切换到团队](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), 旨在帮助 Skype for business 用户开始使用团队的快速入门指南
 
-## <a name="5-conduct-your-pilot"></a>5.开展您的试生产
+## <a name="5-conduct-your-pilot"></a>5. 开展试验
 
-与就地物流所有，您现在已准备好开始您的试生产。 开展您的试生产包括与您的用户，您的网络和用法，以确保您的网络性能监控和查看问题的支持人员票证有关和呼叫质量保持正常运行，从参与者收集反馈团队。
+随着所有后勤工作, 您现在已准备好开始试用。 执行试验包括与你的用户进行通信、监视你的网络和使用情况以确保你的网络性能和通话质量保持正常、收集参与者的反馈和查看技术支持票证, 以了解有关的问题足球队.
 
-### <a name="tips-for-pilot-success"></a>试验成功提示
+### <a name="tips-for-pilot-success"></a>有关试点成功的提示
 
-以下提示可帮助确保您的试生产成功：
+以下提示可帮助确保试验成功:
 
-- 在开始之前您的试生产，确认所有试点参与者启用的相应 [共存模式]
-- (https://aka.ms/SkypeToTeams-SetCoexistence)要验证。
-- 每周，在您的试生产整个会见项目利益干系人，查看用户反馈、 使用率数据、 网络数据和支持人员票证，以确保您的试生产顺利。 根据需要进行调整。
+- 在开始试用之前, 请确认所有试点参与者均已启用相应的 [共存模式]
+- (https://aka.ms/SkypeToTeams-SetCoexistence)您想要验证。
+- 每周, 在您的整个试点中, 与项目利益干系人会面, 了解用户反馈、使用数据、网络数据和技术支持人员, 确保您的试运行顺利运行。 根据需要进行调整。
 
-### <a name="suggested-timeline"></a>建议的时间线
+### <a name="suggested-timeline"></a>建议的日程表
 
 下面是 30 天试点的建议时间线：
 
-- 试点启动前一个星期： 向试点用户发送初始通信。
-- 第 1 天： 向试点用户发送启动通信。
-- 天 7： 保留第一次每周项目团队检查点会议。
-- 天 14： 发送到您的试生产用户的中点通信、 保留每周的项目工作组检查点会议。
-- 天 21： 保留每周的项目工作组检查点会议。
-- 天 30： 向试生产用户发送最后的通信。
-- 31 – 45 天： 评估试点结果，以及如何规划后续步骤。
+- 试点项目开始之前的一周: 将初始通信发送到试点用户。
+- 第1天: 向试点用户发送动员会通信。
+- 第7天: 保留第一周的项目团队检查点会议。
+- 第14天: 向您的试点用户发送中间点通信, 保持每周项目团队的检查点会议。
+- 第21天: 保留每周项目团队检查点会议。
+- 第30天: 向您的试点用户发送最终通信。
+- 第31至第45天: 评估试验结果, 并规划后续步骤。
 
-## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6.评估经验教训并评估您转转接的计划
+## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. 评估发现并评估您的转至前计划
 
-您的试生产完毕后，它是收集所有反馈调查、 最终网络 stats 和针对您的目标分析支持票证，并确定是否将实现转转接计划的时间。 您可能发现您的组织已准备好广泛的部署，或您想要将您的试生产扩展到多个用户，或者您想要在以后后已减轻了您已确定任何问题随着试用。 请记住，您的试生产是好办法预测技术和_控制_环境; 中的用户产出是精心有关跳转提前太快。
+完成试验后, 就可以根据你的目标收集所有反馈调查、最终网络统计信息和支持票证, 确定是否将实施推进计划。 你可能会发现你的组织已准备好进行广泛的部署, 或者你希望将试用扩展到更多用户, 或者你希望在你确定的任何关注问题之后的更晚时间重新访问试用版。 请记住, 你的试点是预测_受控制_环境中的技术和用户成果的绝佳方式;非常仔细地跳转。
 
-如果您结果表明：
+如果结果表明:
 
-- **实现您试点目标 （例如，用户满意度和网络质量）**，您应该已准备好继续与您的推出的下一个阶段。 根据您的目标，这可能是项目的下列选项之一：
-  - 扩展到其他参与者的试生产
-  - [启用您的组织的部分或全部团队旁 Skype for Business （**群岛**模式）](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [将用户从 for Business 的 Skype 向工作组 （**仅团队**模式） 升级为部分或全部您的组织](https://aka.ms/SkypeToTeams-SetCoexistence)
-- **您的试生产未实现的输出您在需要 （例如，用户满意度和网络质量）**，需要进行适当的调整到您的计划和重新访问您的试生产的时间。
+- **你的试点目标 (例如, 用户满意度和网络质量) 已实现**, 你应该准备好开始推出下一个阶段。 根据项目的目标, 这可能是下列情况之一:
+  - 将试点扩展到其他参与者
+  - [为你的组织的部分或所有组织启用与 Skype for business (**孤岛**模式) 的团队](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [针对部分或全部组织将用户从 Skype for Business 升级到团队 (**仅限团队**模式)](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **您的试用版没有达到所需的结果 (例如, 用户满意度和网络质量)**, 请花一些时间对您的计划进行适当调整并重新访问您的试点。
 
 > [!Tip]
-> 登记试点参与者作为对等方拥护者可帮助宣传和向工作组的板载新用户。 对等方拥护者可以轻松地与其他用户共享其自己的体验和经验教训，并为其同事提供支持和指南。 了解有关[拥护者](https://go.microsoft.com/fwlink/?linkid=859068)和如何在您自己的推出使用它们。
+> 将试点参与者登记为对等拥护者, 以帮助布道和板载新用户加入团队。 对等拥护者可以轻松地与其他用户、共享其自己的体验和发现以及为其同事提供支持和指导。 了解有关[拥护](https://go.microsoft.com/fwlink/?linkid=859068)人员以及如何在自己的推出期间使用它们的详细信息。

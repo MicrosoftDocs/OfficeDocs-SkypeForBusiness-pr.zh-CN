@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 除了标准的音频会议每用户许可证之外, 使用 Microsoft 批量许可的组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。
-ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283529"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344706"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -61,7 +61,7 @@ ms.locfileid: "34283529"
 
 - 每分钟支付的每分钟费用仅针对每个与会者在计划会议期间发出的入站或出站通话收费, 而不是在手机上使用 Skype for business 或团队应用程序, 而收费设备或电脑。
 
-- 管理成本的能力, 自管理员可以控制以限制可通过组织者的会议完成的拨出 (国际和国内) 的类型。 查看[用于音频会议和用户 PSTN 呼叫的出站呼叫限制策略](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+- 管理成本的能力, 自管理员可以控制以限制可通过组织者的会议完成的拨出 (国际和国内) 的类型。 查看[用于音频会议和用户 PSTN 呼叫的出站呼叫限制策略](/microsoftteams/outbound-calling-restriction-policies)
 
 - 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: 了解如何配置团队以允许用户与其他组织中的用户进行通信。
-ms.openlocfilehash: f34bd66b018d84a759c2bfbd5a61b6e112245abc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299940"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343935"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让你的团队用户与其他团队组织中的用户进行聊天和通信
 
@@ -50,7 +50,7 @@ ms.locfileid: "34299940"
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>步骤 2-使你的组织能够与另一个团队组织通信
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心的**teams-logo-30x30
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
    1. 在左侧导航中, 转到 "**组织范围的设置** > **外部访问**"。 
 

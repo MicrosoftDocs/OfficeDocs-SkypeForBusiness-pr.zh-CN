@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: a0e4f9b8dda8ee2051b2d79972ca2df2005c3b32
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f46e0506bef53e28cd071606d9727024870f6b2d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329790"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344199"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - 对于自动助理, 你可以通过转到**Microsoft 365 管理中心** > **管理中心** > 的**Skype for** > business**呼叫路由** > **自动助理, 将专用号码分配给自动助理**并单击 "自动助理"。 在 **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)。
 
-- 对于呼叫队列, 您可以通过转到**Microsoft 365 管理中心** > **管理中心** > **Skype for** > business**呼叫路由** > **呼叫队列**, 将专用号码分配给呼叫队列, 然后单击通话队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- 对于呼叫队列, 您可以通过转到**Microsoft 365 管理中心** > **管理中心** > **Skype for** > business**呼叫路由** > **呼叫队列**, 将专用号码分配给呼叫队列, 然后单击通话队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[创建云呼叫队列](/SkypeForBusiness/create-a-phone-system-call-queue)。
 
 **有关获取新服务号码和移植现有服务号码的详细信息，请参阅 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers) 。**
 

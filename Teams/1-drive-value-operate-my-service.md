@@ -15,12 +15,12 @@ description: 团队服务管理所需的任务和活动, 包括监视服务运�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660087ef2ac4bcf81d2c59606d9b4658182cd899
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162571"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343861"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -42,8 +42,8 @@ ms.locfileid: "34162571"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实现与你的组织的目标相协调的操作策略, 以提供云语音工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量, 以确保你的云语音部署在其峰值功能中运行。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实现与你的组织的目标相协调的操作策略, 以提供云语音工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量, 以确保你的云语音部署在其峰值功能中运行。</li></ul></td></tr>
 </table>
 
 

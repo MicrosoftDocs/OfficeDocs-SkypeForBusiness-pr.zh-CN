@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276184"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344557"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -52,7 +52,7 @@ ms.locfileid: "34276184"
 
 您必须在两个组织的 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。
 
-![](../images/teams-logo-30x30.png) **使用团队管理中心 teams-logo-30x30 的**png
+![](../images/teams-logo-30x30.png) **使用团队管理中心**显示 Microsoft 团队徽标的图标
   
 1. 通过 Office 365 管理员帐户登录。 
     

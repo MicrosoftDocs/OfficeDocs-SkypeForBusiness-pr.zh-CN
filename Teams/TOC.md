@@ -140,7 +140,7 @@
 #### [用户设置更改时自动向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [启用或禁用发送电子邮件时更改音频会议设置](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [为特定用户禁用免费电话号码](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [音频会议和用户 PSTN 通话的出站通话限制策略](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [音频会议和用户 PSTN 通话的出站通话限制策略](outbound-calling-restriction-policies.md)
 #### [查看和重置分配给用户的会议 ID](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -285,7 +285,7 @@
 #### [更改语音邮件的默认语言](change-the-default-language-for-greetings-and-emails.md)
 #### [语音邮件问候和消息所使用的语言](languages-for-voicemail-greetings-and-messages.md)
 ### 来电显示
-#### [如何在你的组织中使用来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)
 #### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 自动助理和呼叫队列 
 #### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
@@ -336,7 +336,7 @@
 ### [为用户获取电话号码](getting-phone-numbers-for-your-users.md)
 ### [可以获得多少个电话号码？](how-many-phone-numbers-can-you-get.md)
 ### [为用户分配、更改或删除电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)
-### [获取服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [获取服务电话号码](getting-service-phone-numbers.md)
 ### [将电话号码转接到 Office 365](transfer-phone-numbers-to-office-365.md)
 ### [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
 

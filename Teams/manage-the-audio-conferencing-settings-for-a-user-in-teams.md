@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，你可以为贵组织中的单个用户编辑 Microsoft Teams 音频会议设置（例如，提供商、默认的收费或免费电话号码、会议 ID 或 PIN）。 '
-ms.openlocfilehash: af5329d495303b33b3fe6b86db47b33ca5efce09
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 808b1c9034cd6e246ccd4110d588b208004b97cc
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292092"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343975"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中管理用户的音频会议设置
 
 作为 Office 365 管理员，您可以为组织中的单个用户编辑音频会议设置，例如提供程序、默认收费或免费电话号码、会议 ID 或 PIN。 如果您想要编辑您的组织的设置, 请参阅[管理您的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
 

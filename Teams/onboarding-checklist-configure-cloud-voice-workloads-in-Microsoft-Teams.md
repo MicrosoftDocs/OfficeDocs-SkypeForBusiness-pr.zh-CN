@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 305aeeb134b0e4e12018e879d08b8a8df6672f69
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 8dc9d3223ae697eeb3496359172bd850fbb0d36c
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162523"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344103"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>在 Microsoft 团队中配置云语音工作负荷
 
@@ -51,7 +51,7 @@ ms.locfileid: "34162523"
 | 5  | 配置紧急位置 | 要将号码分配给语音用户, 您还必须为其分配一个紧急位置以供使用911。 <br/><br/>我们建议使用 PowerShell 自动创建位置服务。| | [紧急位置、地址和呼叫路由](what-are-emergency-locations-addresses-and-call-routing.md) |
 | 6  | 为用户分配许可证、电话号码、租户-用户拨号计划和紧急位置 | 将 E5 许可证分配给你的用户。 如果使用 E3/E4 Sku, 则为最终用户分配电话系统加载项。 <br/><br/>分配许可证后, 请通过分配电话号码、拨号计划和紧急位置来继续。 使用用户启用脚本轻松配置多个用户。 | | [MyAdvisor –用户启用脚本](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_6,5_2_0_3)|
 | 7  | 配置 Azure 语音邮件 | 如果用户的邮箱托管在 Exchange Online 上, 其语音邮箱将自动预配。 <br/><br/>但是, 对于 Exchange Server 的内部部署, 你需要确保拥有受支持的版本和拓扑。 按照 "**其他信息**" 列中的步骤操作。 你可以为你的组织打开或关闭语音邮件功能。| | [Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[设置云语音邮件](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
-| 个  | 可选: 为传入和传出呼叫配置呼叫者 ID | 默认情况下, 所有出站呼叫均使用分配的电话号码呼叫标识 (呼叫者 ID)。 <br/><br/>您可以选择更改或阻止用户的来电显示。 <br/><br/>**注意:** 紧急呼叫始终以来电显示方式发送用户的电话号码。 | | [如何在您的组织中使用呼叫者 ID？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md) <br/><br/>[为用户设置来电显示](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)|
+| 个  | 可选: 为传入和传出呼叫配置呼叫者 ID | 默认情况下, 所有出站呼叫均使用分配的电话号码呼叫标识 (呼叫者 ID)。 <br/><br/>您可以选择更改或阻止用户的来电显示。 <br/><br/>**注意:** 紧急呼叫始终以来电显示方式发送用户的电话号码。 | | [如何在您的组织中使用呼叫者 ID？](/microsoftteams/how-can-caller-id-be-used-in-your-organization) <br/><br/>[为用户设置来电显示](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)|
 | db-9  | 可选: 配置 Skype for Business 的互操作性 | 如果您的组织从 Skype for Business 迁移到团队, 请配置互操作策略。 <br/><br/>互操作性使 Skype for business 和团队用户能够相互聊天和通话。 <br/><br/>你的现有部署和你预期的团队推出策略将影响你的计划。 查看互操作性选项、要求和限制, 并相应地配置策略。 <br/><br/>**注意:** 仅当你的组织仍在 Skype for Business Online 上托管用户时, 这些步骤才适用。 | | [Microsoft Teams 和 Skype for Business 互操作性](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) <br/><br/>[快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide) |
 | 10 | 准备和执行用户验收测试 | 准备和执行用户验收测试, 包括拨入和拨出方案。 | | [电话系统的测试计划](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) |
 | 11 | 报表使用情况、运行状况、关键成功指示器和质量 | 在 Envision 阶段中定义的情况下报告使用情况、运行状况、KSIs 和质量。 | | [《操作指南》](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |

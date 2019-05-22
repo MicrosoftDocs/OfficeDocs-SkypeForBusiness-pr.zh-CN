@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329713"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344499"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -109,8 +109,8 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
 
 - 通过 HDMI 连接最多可显示两个1080p。 合适长度的 HDMI 电缆。
 
-    > [!NOTE]
-    > 用作会议室前端显示屏的消费者电视需要支持/启用 HDMI 的 Consumer Electronics Control (CEC) 功能，以使其可以自动从待机模式切换至活动视频源。 并非所有电视都支持此功能。 
+> [!NOTE]
+> 用作会议室前端显示屏的消费者电视需要支持/启用 HDMI 的 Consumer Electronics Control (CEC) 功能，以使其可以自动从待机模式切换至活动视频源。 并非所有电视都支持此功能。 
 
 > [!NOTE]
 > Microsoft 团队聊天室不使用键盘。 如果需要，管理员应使用屏幕键盘。 当图像处理 Microsoft 团队聊天室设备时, 将需要使用 USB 键盘或鼠标。 
