@@ -15,60 +15,60 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34381711"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433053"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
 
 来宾受邀加入团队时，会收到欢迎电子邮件，其中包括有关团队的一些信息以及成为成员后应做些什么。 来宾必须接受电子邮件中的邀请才能访问团队及其频道。
     
-![Microsoft Teams 中的某团队所有者向某来宾用户发送的欢迎电子邮件示例。 该邮件包括团队所有者可以自定义的文本以及 Teams 功能（例如，聊天、通话和会议）的简要说明。](media/guest-experience-image1.png)
+![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
 所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队屏幕截图中所示，横幅显示“This team has guests”，每个来宾的姓名旁边显示“GUEST”标签。
     
-![此屏幕截图显示了 Northwind Traders 的 Marketing 频道的一部分，顶部横幅中的通知显示“This team has guests”，身为来宾的用户通过其姓名旁边的词语“GUEST”标识。](media/guest-experience-image2.png)
+![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2 "屏幕截图" 显示了罗斯文商贸的市场营销渠道的一部分, 其中显示了 "此团队拥有来宾" 的通知, 以及在其姓名旁边显示了 "来宾" 一词的来宾用户。)
 
 下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
 
 |**Teams 中的功能**|**组织中的 Teams 用户**|**来宾用户**|
 |:-----|:-----|:-----|
-|创建通道  <br/>  *团队所有者控制此设置。*  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|参与私人聊天  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|参与频道对话  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|发布、删除和编辑消息  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共享频道文件  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共享聊天文件  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|添加应用（选项卡、聊天机器人或连接器）  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建会议或访问计划  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|访问 OneDrive for Business 存储  <br/> |![勾号](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建租户范围和团队/频道来宾访问策略  <br/> |![勾号](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建团队  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|发现和加入公用团队  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|查看组织结构图  <br/> |![选中标记](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建通道  <br/>  *团队所有者控制此设置。*  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|参与私人聊天  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|参与频道对话  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|发布、删除和编辑消息  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|共享频道文件  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|共享聊天文件  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|添加应用（选项卡、聊天机器人或连接器）  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建会议或访问计划  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|访问 OneDrive for Business 存储  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建租户范围和团队/频道来宾访问策略  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|发现和加入公用团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|查看组织结构图  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 下表显示了可供来宾使用的呼叫和会议功能。
 
 | 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 EV 用户 |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 呼叫 | 是 | 是 | 是 |
-| 群组通话 | 是 | 是 | 是 |
-| 受支持的核心通话控件（保留、静音、打开/关闭视频、屏幕共享） | 是 | 是 | 是 |
-| 转接目标 | 是 | 是 | 是 |
-| 电话可转接 | 是 | 是 | 是 |
-| 可协商转接 | 是 | 是 | 是 |
-| 可通过 VOIP 将其他用户添加到通话中 | 是 | 是 | 是 |
+| VOIP 呼叫 | 是 | 是  | 是  |
+| 群组通话 | 是 | 是  | 是  |
+| 受支持的核心通话控件（保留、静音、打开/关闭视频、屏幕共享） | 是 | 是  | 是  |
+| 转接目标 | 是 | 是  | 是  |
+| 电话可转接 | 是 | 是  | 是  |
+| 可协商转接 | 是 | 是  | 是  |
+| 可通过 VOIP 将其他用户添加到通话中 | 是 | 是  | 是  |
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
-| 转发目标 | 否 | 必需 | 是 |
-| 通话群组目标 | 否 | 必需 | 是 |
-| 未应答目标 | 否 | 必需 | 是 |
-| 可为联合呼叫的目标 | 否 | 必需 | 是 |
-| 可进行联合呼叫 | 否 | 必需 | 是 |
+| 转发目标 | 否 | 是 | 是  |
+| 通话群组目标 | 否 | 是 | 是  |
+| 未应答目标 | 否 | 是 | 是  |
+| 可为联合呼叫的目标 | 否 | 是 | 是 |
+| 可进行联合呼叫 | 否 | 是 | 是  |
 | 可立即转发其呼叫 | 否 | 否 | 是 |
 | 拨打时可同时响铃 | 否 | 否 | 是 |
 | 可路由未应答的通话 | 否 | 否 | 是 |

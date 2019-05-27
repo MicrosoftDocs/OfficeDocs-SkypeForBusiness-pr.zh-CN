@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文介绍如何使用 Azure 监视器以集成的端到端方式部署 Microsoft 团队聊天室设备的管理。
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d9f1a78d31fe6ef765fd43554337444533056114
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433372"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291497"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>通过 Azure 监视器部署 Microsoft 团队聊天室管理
 
@@ -29,7 +29,7 @@ ms.locfileid: "34433372"
 
 通过遵循本指南, 你可以使用仪表板 (如以下示例) 获取有关设备可用性、应用程序和硬件运行状况以及 Microsoft 团队聊天室应用程序和操作系统版本分发的详细状态报告。
 
-![Microsoft 团队聊天室示例 Log Analytics 视图的屏幕截图](../media/Deploy-Azure-Monitor-1.png "Microsoft 团队聊天室的日志分析视图示例")
+![Microsoft 团队聊天室的日志分析视图示例](../media/Deploy-Azure-Monitor-1.png "Microsoft 团队聊天室的日志分析视图示例")
 
 你需要在高级别执行以下任务：
 
@@ -64,7 +64,7 @@ ms.locfileid: "34433372"
 
 若要配置日志分析以收集 Microsoft 团队聊天室事件, 请参阅[Azure 监视器中的 Windows 事件日志数据源](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![事件日志设置的屏幕截图](../media/Deploy-Azure-Monitor-2.png "事件日志设置")
+![事件日志设置](../media/Deploy-Azure-Monitor-2.png "事件日志设置")
 
 > [!IMPORTANT]
 > 配置 Windows 事件日志设置并输入作为事件日志名称的**Skype 会议室系统**, 然后选中 "**错误**"、"**警告**" 和 "**信息**" 复选框。
