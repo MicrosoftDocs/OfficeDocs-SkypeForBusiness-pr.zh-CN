@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: 当前的 Microsoft 团队保留策略的已知问题的列表。
+description: Microsoft 团队保留策略的已知问题的当前列表。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,25 +15,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca7decd2c3c051c0d56a14e2a2d1485b777f92e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 38fd76bff3309655cb7d2fa1f0acf18559f15220
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205499"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433364"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Microsoft Teams 中保留策略的已知问题
 
-以下已知问题被的团队中的保留策略的跟踪，调查。
+以下是正在跟踪和调查的团队中的保留策略的已知问题。
 
-- 下选择工作组添加工作组通道消息位置行中，您可能会看到的 Office 365 组不还团队。 这将在将来解决。
+- 在 "团队频道消息位置" 行中的 "选择团队" 下, 你可能会看到不是团队的 Office 365 组。 未来将对此进行寻址。
 
-- 下团队聊天位置行中选择用户，您可能会看到来宾和非邮箱用户。 保留策略不打算为来宾，设置，而且我们正在这些从列表中删除。
+- 在 "在团队聊天位置中选择用户" 行中, 你可能会看到来宾和非邮箱用户。 保留策略不适于为来宾设置, 我们正在努力从列表中删除这些保留策略。
 
-- Exchange 生命周期助理 (ELC)，每日，运行，但它具有 7 天的 SLA。 因此，很可能，如果您有删除早于 60 天的项目工作组保留策略，这些项目无法达 67 天保留。 这不是新情况-遵循 Exchange 模型。 当然，在大多数情况下，没有延迟。
+- Exchange 生命周期助理 (ELC) 每天运行, 但其 SLA 为7天。 因此, 如果你有一个团队保留策略来删除超过60天的项目, 这些项目最多可持续67天。 这不是一种新情况-它遵循 Exchange 模型。 当然, 在大多数情况下, 不会有延迟。
 
 
 | | | |
 |---------|---------|---------|
-|![决策点图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织需要哪些安全性和合规性功能？ 贵组织是否有所需的许可证来满足安全性和合规性业务需求？         |
-|![后续步骤图标。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |后续步骤         |文档所需的安全性和遵从性功能。         |
+|![表示决策点的图标](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |决策点         |贵组织需要哪些安全性和合规性功能？ 贵组织是否有所需的许可证来满足安全性和合规性业务需求？         |
+|![表示后续步骤的图标](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |后续步骤         |记录所需的安全和合规性功能。         |

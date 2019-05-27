@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344207"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432814"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -76,7 +76,7 @@ ms.locfileid: "34344207"
 
 请按照以下步骤将新电话号码分配给您的音频会议桥。
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心 sfb-logo-30x30:**
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
  1. 转到**Microsoft 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
  2. 选择 "**语音** > **电话号码**"。

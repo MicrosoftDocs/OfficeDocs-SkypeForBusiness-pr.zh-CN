@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 会收集人口普查、使用情况和错误数据, 以了解 Skype for Business 的使用方式以及用户遇到问题的位置。 数据用于规划产品改进。
-ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281860"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433388"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business 和 Microsoft 团队数据收集实践
 
@@ -103,10 +103,10 @@ Skype for business Server 和 skype for business Online, 以及 Skype for busine
 
 - DisableAutomaticSendTracing 组策略设置在服务器或租户管理中心 (这是默认状态) 下设置为 False。 有关详细信息, 请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
-- 最终用户从 "常规" 选项卡中逐个选择 "(单击![齿轮图标](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)齿轮图标, **** 然后在 Skype for Business 客户端中显示"**常规**"选项卡)。
+- 最终用户从 "常规" 选项卡中逐个选择 "(单击![齿轮图标表示齿轮](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)的图标), 然后**** 在 Skype for Business 客户端中显示"**常规**"选项卡。
     
  
-![选项 > "常规" 对话框中的 "Skype for business 数据收集" 复选框](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+!["选项" 对话框中 "数据收集" 复选框的屏幕截图](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 对于 Skype 会议应用, MeetingUxEnableTelemetry 还控制错误报告功能, 但在 Windows 上崩溃时, Watson 设置控制上传崩溃信息。 在 "桌面客户端" 对话框中看不到 Skype 会议应用的用户设置。
 

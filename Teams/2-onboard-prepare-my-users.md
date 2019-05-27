@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344714"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432610"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
@@ -48,8 +48,8 @@ ms.locfileid: "34344714"
 ![显示远景和价值的两栏表](media/prepare-my-users-new-image1.png "有两列的表格 (有视觉意义)-为什么要执行此操作？(组织级别) 左侧和价值-这是我的用途？(用户级别) 位于右侧")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否为您的用户表述了好处和价值, 其购买方式可用于获得此新解决方案的购买产品？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为当前项目范围创建远景和价值陈述, 确保它们与你的目标保持一致。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否为您的用户表述了好处和价值, 其购买方式可用于获得此新解决方案的购买产品？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为当前项目范围创建远景和价值陈述, 确保它们与你的目标保持一致。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -59,8 +59,8 @@ ms.locfileid: "34344714"
 组织准备情况帮助确定 receptive (或不是) 用户更改工作方式的方式。 了解用户对更改的反应方式使你的组织能够主动解决问题、调整首展计划以获得最佳接收, 并确定可成为你的拥护者或大使的用户, 以便帮助做出更改。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好, 愿意更改为新的解决方案？</li><li>用户是否具有促进更改的能力或资格？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用以下对话初学者了解组织在更改时的文化。 此信息可帮助通知你可能需要为你的项目实现多少意识和培训。
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好, 愿意更改为新的解决方案？</li><li>用户是否具有促进更改的能力或资格？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用以下对话初学者了解组织在更改时的文化。 此信息可帮助通知你可能需要为你的项目实现多少意识和培训。
 </li></ul></td></tr>
 </table>
 
@@ -98,8 +98,8 @@ ms.locfileid: "34344714"
 人员级分析让你了解你的用户角色、cohorts 和使用案例。 通过花时间了解你的用户是谁以及他们的工作方式, 你可以确保他们在实施更改时获得成功所需的内容。 这可能包括定向的消息、培训, 甚至是耳机和网络摄像头等设备。 例如, 一个行政人员可能会期望进行一对一培训, 而旅行现场代表可能会受益于他们可以在休闲上观看的培训视频。 此外, 你的人员级分析可帮助确定应立即开始使用新功能的人员与通过等待获得最佳服务的人员。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>是否有某些用户或 cohorts 对此解决方案具有核心依赖, 才能有效地执行其作业？</li><li>是否有特定的使用案例可通过使用此新解决方案来方便？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先, 将你的用户群划分为角色/群体组 (主管、公路虎、协作工作者、零售等)。 为便于管理, 请列出不超过八个组。 (有关对话初学者的示例, 请参阅下文。)使用你的发现来进一步设计你的用户准备情况市场活动, 并向可能受益于稍后升级的用户细分试点用户。
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>是否有某些用户或 cohorts 对此解决方案具有核心依赖, 才能有效地执行其作业？</li><li>是否有特定的使用案例可通过使用此新解决方案来方便？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先, 将你的用户群划分为角色/群体组 (主管、公路虎、协作工作者、零售等)。 为便于管理, 请列出不超过八个组。 (有关对话初学者的示例, 请参阅下文。)使用你的发现来进一步设计你的用户准备情况市场活动, 并向可能受益于稍后升级的用户细分试点用户。
 </li><li>地图使用案例。 确定核心用户组 (这些用户组将受益于此新技术) 后, 请考虑你的一般用户群体。 通过了解跨团队使用案例和方案, 你可以使用此新技术直观显示你的组织。 此外, 向您的通信和培训计划添加使用案例示例确实有助于让他们与您的用户保持联系。</li></ul></td></tr>
 </table>
 
@@ -125,7 +125,7 @@ ms.locfileid: "34344714"
 
 下图是一个角色表的示例。
 
-![列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 "执行官" 角色, 其中包含有关配置文件的详细信息 (一天在生命中), 以及功能、设备和培训的管理需求。](media/prepare-my-users-image2.png "列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 \"执行官\" 角色, 其中包含有关配置文件的详细信息 (一天在生命中), 以及功能、设备和培训的管理需求。")
+![列出角色详细信息的表](media/prepare-my-users-image2.png "列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 \"执行官\" 角色, 其中包含有关配置文件的详细信息 (一天在生命中), 以及功能、设备和培训的管理需求。")
 
 对于每个用例, 请与你的项目团队讨论以下内容:
 
@@ -145,8 +145,8 @@ ms.locfileid: "34344714"
 了解用户的身份及其在新解决方案中的工作方式后, 您可以设计准备情况计划。 你的用户准备情况计划合并了如何在你试点、板载和操作新解决方案时对你的用户进行沟通、培训和支持。 正如您在本文前面的步骤中所述, "准备情况" 并非一种大小适合。 首先要了解您在此过程的开始部分中定义的价值消息。 然后根据需要为您定义的角色或 cohorts 定制您的消息、培训和支持。 你的个性化计划将使用户能够更快地与新的解决方案相关, 同时演示你了解自己的需求, 这有助于促进其过渡。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>可以提供哪些准备情况计划来帮助促进和加速新解决方案的采纳？</li><li>您是否有合适的意识、培训和支持资源与你的用户处理更改的能力和你定义的用户角色相符？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用下一节中的列表生成准备情况计划的想法。 选择最相关的文件&mdash;或添加你自己&mdash;的, 以设计针对你的组织进行了优化的准备情况计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>可以提供哪些准备情况计划来帮助促进和加速新解决方案的采纳？</li><li>您是否有合适的意识、培训和支持资源与你的用户处理更改的能力和你定义的用户角色相符？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用下一节中的列表生成准备情况计划的想法。 选择最相关的文件&mdash;或添加你自己&mdash;的, 以设计针对你的组织进行了优化的准备情况计划。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>准备情况计划创意

@@ -10,58 +10,58 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 应用计划的第 2 阶段的做出关键决策
+description: 为采纳计划的第2阶段制定关键决定
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecf91ea9a06b3984b65954617fe5690658015e52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31cfe0d42c7ce3382d8c7903bb7789cde19d35db
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896328"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433037"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams 管理快速入门
 
-将同时，发生以下活动，它们可能涉及全部或部分关键团队。 作为最佳实践，推迟大型监管和安全对话后与团队您初始实验。 这将简化您将需要使在该更高版本的日期的决策。 此阶段的有一些需要做出的决定。 若要成功地使其首先需要回答以下问题：
+以下活动将同时发生, 并且它们可能涉及所有或部分关键团队。 最佳做法是, 在您完成对团队的初始实验后, 推迟大规模管理和安全对话。 这将简化您在该日期后所需做出的决策。 在此阶段中, 需要进行一些决策。 若要成功地进行设置, 您首先需要回答以下问题:
 
-- 从早期评估的利益干系人是一个不错的候选参与此有限的业务入职培训？
-- 具有此个人 （或组人） 建议用例，此阶段的则会很好的候选？  
-- 他们是否需要前期应用和为您提供有意义且正则反馈其组织中有足够从员工的兴趣？ 
+- 以前评估的哪些风险承担者很好地参与此有限的企业版加入？
+- 此人是否有此人 (或一组个人) 推荐的使用案例？这是一个很好的候选使用案例？  
+- 他们是否有足够的兴趣让组织中的员工获得更早的使用者, 并为您提供有意义和定期的反馈意见？ 
 
-## <a name="decision-point-iconmediateams-adoption-decision-iconpngdecisions"></a>![决策点图标。](media/teams-adoption-decision-icon.png)决策
+## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![表示决策点的图标](media/teams-adoption-decision-icon.png)判断
 
-做出以下决定 （此时，这些决策仅应用于第 2 阶段）：
+做出以下决策 (此时, 这些决策仅适用于第2阶段):
 
-### <a name="decision-1-who-can-create-teams"></a>决策 1： 谁可以创建团队 
+### <a name="decision-1-who-can-create-teams"></a>决策 1: 谁可以创建团队 
 
-此阶段为了可以限制谁是能够创建除了核心项目工作组早期使用总体团队。 这将使您前期应用，如果需要创建其他团队。 监控此行为将为您提供广泛部署的重要信息。
+出于本阶段的目的, 你可以限制哪些用户能够创建团队到你的核心项目团队之外的早期使用者填充。 这将允许你的早期采纳者根据需要创建其他团队。 监视此行为将为你的广泛部署提供关键信息。
 
-### <a name="decision-2-teams-naming-conventions"></a>决策 2： 工作组命名约定 
+### <a name="decision-2-teams-naming-conventions"></a>决策 2: 团队命名约定 
 
-可能需要实现广泛的团队部署某些命名约定，检查有重复的名称。 第 2 阶段中，我们建议您为初始项目仅实现手动命名约定。 此最佳实践是进行与早期使用项目团队交互式入职培训，使他们可以选择自己的名称。 这将使您了解如何员工考虑他们的工作和将基本中创建较大的规模在以后命名约定。 （交互式入职培训中的元素的其他信息将显示在本指南后面。）
+你可能需要为你的团队广泛部署实现一些命名约定, 并检查重复的名称。 在第2阶段, 我们建议你仅为初始项目实现手动命名约定。 执行此操作的最佳做法是与早期的使用者项目团队进行交互式式加入, 并允许他们选择自己的姓名。 这样, 你就可以深入了解员工对其工作的看法, 并将在以后创建更大的规模命名约定时对其有必要的了解。 (本指南稍后将显示有关交互式加入的元素的其他信息。)
 
-### <a name="decision-3-guest-access"></a>决策 3： 来宾访问
+### <a name="decision-3-guest-access"></a>决策 3: 来宾访问
 
-根据的作用域和您的项目的类型和您的行业的性质，启用安全协作合作伙伴或供应商可能要测试的基本功能。 您可以限制用户可以使用的相应租户控件添加到团队实现来宾。 
+与你的项目的范围和类型以及你的行业的性质不同, 支持与合作伙伴或供应商进行安全协作可能是你想要测试的重要功能。 你可以通过使用相应的租户控件来限制可以向团队实施添加来宾的人员。 
 
-### <a name="decision-4-approved-apps"></a>决策 4： 批准应用程序
+### <a name="decision-4-approved-apps"></a>决策 4: 已批准的应用
 
-最佳利用 case 团队包括到体验的其他应用程序集成。 至少技术团队应启用第一方和特色中您的团队体验的应用程序。 根据您的使用案例和其他组织中使用的应用程序，您可以选择要作为控制实验的一部分包含其他应用程序。 
+团队的最佳使用情形包括将其他应用集成到体验中。 你的技术团队至少应在你的团队体验中启用第一方和特色应用。 根据你的组织中使用的使用案例和其他应用, 你可以选择包括其他应用, 作为你的受控实验的一部分。 
 
-### <a name="decision-5-are-meetings-included-in-your-test"></a>决策 5： 测试中包含的会议？ 
+### <a name="decision-5-are-meetings-included-in-your-test"></a>决策 5: 测试中是否包含会议？ 
 
-团队会议体验高质量，支持视频聊天，并且将您的员工在一起以更有效。 咨询您的技术团队以确保您的环境已准备好包括简单 VoIP 会议。 启用音频会议或语音服务将通常从排除您实验; 此阶段但是，这取决于您的技术准备、 您核心项目工作组和其他语音/会议的状态服务在组织中。 我们建议您实验即可从您的团队实现多个值中包括视频聊天和 VoIP 会议。 
+团队会议体验为高质量, 支持视频聊天, 并将员工放在一起以提高效率。 咨询您的技术团队, 确保您的环境已准备好加入简单的 VoIP 会议。 启用音频会议或语音服务通常会在实验的这一阶段被排除;但是, 这取决于你的核心项目团队、你的技术准备以及你的组织中其他语音/会议服务的状态。 我们建议在实验中包括视频聊天和 VoIP 会议, 以便从团队实施中获取更多价值。 
 
-### <a name="decision-6--data-security"></a>决策 6： 数据安全
+### <a name="decision-6--data-security"></a>决策 6: 数据安全
 
-在广泛部署准备您可以选择要使用安全标签进行分类的环境中的团队的类型。 对于此试验我们建议您引用[团队中的治理规划](plan-teams-governance.md)，确保已对 Office 365 组织中的团队数据已设置基本的保留策略。 您可能需要协调与您的技术团队此一起工作，因为完成此项工作所需的 Office 365 管理员权限。
+为广泛部署做好准备, 您可以选择使用安全标签对环境中的团队类型进行分类。 出于本次实验的目的, 我们建议你参考[团队中的管理计划](plan-teams-governance.md), 并确保已针对 Office 365 组织中的团队数据设置了基本保留策略。 您可能需要与您的技术团队协调此工作, 因为完成此工作需要 Office 365 管理员权限。
 
-### <a name="decision-7-length-of-your-experiment"></a>决策 7： 长度的实验
+### <a name="decision-7-length-of-your-experiment"></a>决策 7: 实验的长度
 
-成功的团队实施将继续以正常运行的速度，以确保相应 momentum、 焦点和经验教训。 我们建议您的项目的这一阶段是 60 天的长度，以确保您前期应用完成足够的业务周期。 扩展实验太长时间的增加更改失败的程序; 的风险但是，这次将为每个组织有所不同。  
+成功的团队实施将以正常的步调, 确保适当的动量、重点和发现。 我们建议你的项目的这一阶段的长度为60天, 以确保早期的采纳者完成充足的业务周期。 延长时间太长的实验会增加更改程序失败的风险;但是, 此时间将因每个组织而异。  
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[定义使用方案](teams-adoption-define-usage-scenarios.md)
+![表示下一步骤](media/teams-adoption-next-icon.png)的图标:[定义使用方案](teams-adoption-define-usage-scenarios.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344606"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432592"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -40,7 +40,7 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 正如您可以从下图中看到的, 终结点是为用户提供质量体验的重要构建基块。
 
-![描述三个质量组件以及服务管理如何与所有三个组件重叠的图表](media/plan-my-users-experience-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
+![描述三个质量组件的图表](media/plan-my-users-experience-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
 
 团队终结点可以在许多设备上运行, 包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备, 还包括用户如何连接到设备-例如, 使用设备的内置麦克风/扬声器、earbuds 或优化的耳机。 使用优化耳机可以丰富整体用户体验。
 

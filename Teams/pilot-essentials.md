@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344151"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433180"
 ---
-![升级旅程的阶段, 重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
+![升级旅行图, 突出显示部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分, 并分享了运行有效试验的见解。 继续之前, 请确认你已完成以下活动:
 

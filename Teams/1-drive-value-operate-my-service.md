@@ -15,12 +15,12 @@ description: 团队服务管理所需的任务和活动, 包括监视服务运�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343861"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432869"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -62,7 +62,7 @@ ms.locfileid: "34343861"
 协议准备好后, 相应的团队应开始 operationalize 其角色。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>后续步骤</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>后续步骤</td>
 <td><ul><li>使用此文档有助于操作角色映射练习。</li><li>与各自的支持团队会面, 为所需活动列表中的每个项目分配名称。</li><li>获取已分配角色的接受或注销。</li><li>确保相应的团队具有相应的培训、准备情况和资源来完成所需的活动。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>团队服务相关性

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新、分配许可证以及配置 Skype for Business online 手机的设置
-ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298005"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432582"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -71,15 +71,15 @@ Check the firmware version on your phones. For:
   
 Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
-![部署电话。](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![显示部署手机的屏幕截图](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
   
-![部署电话。](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![显示 "更新和延期" 选项的屏幕截图。](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 对于 Polycom 电话，可以通过选择" **软件更新**"来更新电话上的固件。
   
-![部署电话。](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![显示 SwUpdate 选项的屏幕截图](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 还可以选择使用合作伙伴配置系统来管理固件更新。有关包含高级电话自定义的合作伙伴配置系统管理，请参考制造商管理指南。
   
@@ -102,17 +102,17 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
   - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
-     ![部署电话。](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![显示 Polycom 电话登录的屏幕截图](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
-     ![Yealink 电话登录。](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     ![显示 Yealink 电话登录的屏幕截图。](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     有关制造商支持的登录选项的详细信息, 请参阅[获取 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
     
 - **用户 ID** 通过电话键盘或屏幕键盘（如有），用户可以使用其组织的用户名和密码登录电话。例如，他们应使用类似 <em>amosm@contoso.com</em>  的 UPN 格式作为其用户名。
     
-     ![部署电话。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![显示登录屏幕的屏幕截图](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > [!注释] Skype for Business Online 不支持对 LPE 和合作伙伴 IP 电话进行 PIN 身份验证。 
@@ -122,47 +122,47 @@ To enable users to successfully sign in to a Skype for Business Online phone and
   > [!NOTE]
   > [!注释] 用户需要使用其组织的用户名和密码登录电话。例如，他们应使用类似  <em>amosm@contoso.com</em>  的 UPN 格式作为其用户名。
   
-     ![部署电话。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![显示登录屏幕的屏幕截图](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
   - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
-     ![部署电话。](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![显示 Polycom 说明的屏幕截图](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
-     ![Yealink 电话登录。](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![显示 Yealink 说明的屏幕截图](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
   - 具有**POLYCOM VVX 5xx/6xx**电话的用户将看到:
     
-     ![PIN 代码已过期。](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![显示已过期的 Polycom 代码的屏幕截图](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - 具有**YEALINK T48G/T46G**电话的用户将看到:
     
-     ![Yealink 电话登录。](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![显示已过期的 Yealink 代码的屏幕截图](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     使用浏览器，导航到电话上显示的地址，输入 Skype for Business 用户名。
     
-     ![部署电话。](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![显示电子邮件验证的屏幕截图](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     输入电话上显示的代码。
     
-     ![部署电话。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![屏幕截图显示在登录屏幕上输入代码](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     验证该站点是否显示 "[电话制造商名称] **Skype For Business 认证电话**", 然后单击 "**继续**"。
     
-     ![部署电话。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![显示名称验证的屏幕截图](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     单击用户的凭据或单击" **使用其他帐户**"：
     
-     ![部署电话。](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![显示凭据选项的屏幕截图](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     显示以下页面时, 可以安全地关闭浏览器。
     
-     ![部署电话。](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![显示确认消息的屏幕截图](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > [!注释] 适用于 Skype for Business Online 的 LPE 电话仅支持通过 USB 数据连线登录。 
@@ -203,7 +203,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 1. 使用 PC 端口将 PC 与电话相连。
     
-     ![部署电话。](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![显示与电脑的连接的屏幕截图](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。要获取更好的用户体验，可以使用 System Center Configuration Manager (SCCM) 等管理员分发解决方案来分发并安装 BToE 软件。有关使用 SCCM 的帮助，请参阅[ System Center Configuration Manager 中的软件包和程序](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
     

@@ -16,45 +16,45 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e36e768b3e9edbf79204141540034344fb5aec
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584230"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433276"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-在用户级别，可以启用或禁用基于每个用户分配或删除的 Microsoft 团队产品许可证的 Microsoft 团队访问。
+在用户级别上, 可以通过分配或删除 Microsoft 团队产品许可证, 在每用户基础上启用或禁用对 Microsoft 团队的访问。
 
-邮件策略，从工作组管理中心托管用于控制哪些聊天和消息功能的通道供团队中的用户。 您可以使用默认策略，或在组织中的人员创建一个或多个自定义的邮件策略。 若要了解详细信息，请阅读[管理团队中的邮件策略](messaging-policies-in-teams.md)。
+使用邮件策略从团队管理中心进行管理, 以控制团队中的用户可以使用哪些聊天和频道消息功能。 你可以使用默认策略或为组织中的人员创建一个或多个自定义消息策略。 若要了解详细信息, 请阅读[团队中的 "管理消息策略](messaging-policies-in-teams.md)"。
 
 > [!NOTE]
->Microsoft 建议，您打开团队公司中的所有用户，以便团队可以该库格式正确的项目和其他动态计划。 即使您决定为试点，它可能仍会有所帮助保持团队启用所有用户，但仅具有与试点的用户组的通信。
+>Microsoft 建议为公司中的所有用户打开团队, 以便团队可以为项目和其他动态计划 organically。 即使你决定试点, 也可能仍然有助于为所有用户启用团队, 但只是将目标与用户的试验组通信。
 
-## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>通过在 Microsoft 365 管理中心管理团队
+## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>通过 Microsoft 365 管理中心管理团队
 
-直接通过 Microsoft 365 admin center 用户管理界面进行管理团队用户级许可证。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须拥有 Office 365 全局管理员或用户管理管理员权限才能管理 Microsoft Teams 许可证。
+团队用户级许可证通过 Microsoft 365 管理中心用户管理界面直接管理。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须拥有 Office 365 全局管理员或用户管理管理员权限才能管理 Microsoft Teams 许可证。
 
 为用户分配 E3 或 E5 等许可证 SKU 时，会自动分配 Microsoft Teams 许可证，并为用户启用 Microsoft Teams。 管理员可以对所有 Office 365 服务和许可证进行精细的控制，可以针对特定用户或一组用户启用或禁用 Microsoft Teams 许可证。
 
 ![Office 365 管理中心中的“产品许可证”部分屏幕截图。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
-可以随时禁用团队用户许可证。 一旦被禁用许可证，将阻止向 Microsoft 工作组的用户访问，用户将不再能够看到团队中的 Office 365 应用程序启动器和主页。
+团队用户许可证可随时禁用。 禁用许可证后, 将阻止用户访问 Microsoft 团队, 并且用户将无法再查看 Office 365 应用启动器和主页中的团队。
 
-![Office 365 管理中心中的“产品许可证”部分屏幕截图，显示选择了 Microsoft Teams。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+![显示 "产品许可证" 部分中所选团队的屏幕截图。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
-## <a name="manage-via-powershell"></a>通过 PowerShell 自定义管理
+## <a name="manage-via-powershell"></a>通过 PowerShell 管理
 
 > [!IMPORTANT]
-> 新 MsolLicenseOptions 将启用以前被禁用，除非的所有服务 explictitly identitied 中自定义脚本。 作为示例，如果您想要保留这两个 Exchange & Sway 此外禁用团队时禁用您将需要包括此脚本或两个 Exchange & Sway 将变为启用您已确定这些用户。 如果您希望执行利用 GUI 管理此功能，请参阅： [Office 365 许可报告和管理工具-删除许可证分配批量](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> 新 MsolLicenseOptions 将启用之前已禁用的所有服务, 除非你的自定义脚本中 explictitly identitied。 例如, 如果你希望在 additonally 禁用团队期间禁用这两个 Exchange & Sway, 你需要在脚本中 inlcude 此操作, 或者这两个 Exchange & Sway 将对你已标识的用户启用。 如果你希望使用 GUI 来管理此功能, 请参阅: [Office 365 许可证报告和管理工具-批量分配删除许可证](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于 GCC 服务计划名称是 TEAMS_GOV。 对于 GCC 高服务计划名称是 TEAMS_GCCHIGH。 对于 DoD 服务计划名称是 TEAMS_DOD (请参阅[禁止访问服务与 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)的详细信息。)
+正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于 GCC, 服务计划名称为 TEAMS_GOV。 对于 GCC 高版, 服务计划名称为 TEAMS_GCCHIGH。 对于 DoD, 服务计划名称为 TEAMS_DOD (有关详细信息, 请参阅[禁用 Office 365 PowerShell 的服务访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)。)
 
-**示例：** 下面是只在特定许可证类型中的所有人，您就会禁用团队的快速示例。 你需要先执行此操作，然后单独为应该拥有访问权限的用户启用 Microsoft Teams，以进行试点。
+**示例:** 以下只是有关如何针对特定许可证类型中的每个人禁用团队的快速示例。 你需要先执行此操作，然后单独为应该拥有访问权限的用户启用 Microsoft Teams，以进行试点。
 
 要显示贵组织中具有的订阅类型，请使用以下命令：
 
@@ -64,14 +64,14 @@ ms.locfileid: "33584230"
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-若要禁用团队的所有用户与您命名计划的活动许可证，请运行以下命令：
+若要为所有用户禁用已命名计划的活动许可证的团队, 请运行以下命令:
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
 | | | |
 |---------|---------|---------|
-|![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>什么是整个组织内的组织规划团队入职培训？  （试点或开放）</li></ul>         |
-|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果您希望通过许可，这样或目标通信，如果决定通过关闭试验入职培训。</li><li>决策，根据需要步骤以确保仅试验用户有权访问工作组 （如果需要）。</li><li>文档的准则为哪些用户将 （或不会） 有权访问团队。</li></ul>         |
+|![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>组织在整个组织中的团队计划的计划是什么？  （试点或开放）</li></ul>         |
+|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过已关闭的试用版进行加入, 请确定你是否希望通过许可证或目标通信执行此操作。</li><li>根据决策, 采取步骤确保仅允许访问团队的试用用户 (如果需要)。</li><li>记录将 (或不会) 有权访问团队的用户的指南。</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>管理 Office 365 租户级别的团队
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

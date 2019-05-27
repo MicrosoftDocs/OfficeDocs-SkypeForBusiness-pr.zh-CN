@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344874"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433148"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -38,7 +38,7 @@ ms.locfileid: "34344874"
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**参与者**" 下, 打开**匿名用户可以加入会议**。
 
-    ![meeting-settings-participants](media/meeting-settings-participants.png "Microsoft 团队管理中心中团队会议的参与者设置的屏幕截图")
+    ![管理中心中会议参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft 团队管理中心中团队会议的参与者设置的屏幕截图")
 
 如果您不希望匿名用户加入您的组织中的用户计划的会议, 请关闭此设置。
 
@@ -59,7 +59,7 @@ ms.locfileid: "34344874"
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**电子邮件邀请**" 下, 执行下列操作:
 
-    ![meeting-settings-invitation](media/meeting-settings-invitation.png "可为团队会议自定义的会议邀请设置的屏幕截图")
+    ![可自定义的会议邀请设置的屏幕截图](media/meeting-settings-invitation.png "可为团队会议自定义的会议邀请设置的屏幕截图")
 
     - **徽标 URL**输入存储徽标的 URL。
     - **合法 URL**如果你的组织拥有法律网站, 而你希望其他人出于任何法律问题而转到该网站, 请在此处输入 URL。
@@ -78,7 +78,7 @@ ms.locfileid: "34344874"
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**网络**" 下, 执行下列操作:
 
-    ![meeting-settings-network](media/meeting-settings-network.png "Microsoft 团队管理中心中团队会议的网络设置的屏幕截图")
+    ![管理中心中的会议的网络设置的屏幕截图](media/meeting-settings-network.png "Microsoft 团队管理中心中团队会议的网络设置的屏幕截图")
 
     - 若要允许对 QoS 使用 DSCP 标记, 请打开**实时媒体流量的 "插入服务质量 (QoS)" 标记**。 您只能选择使用标记, 也可以不选择。不能为每种流量类型设置自定义标记。 有关 DSCP 标记的详细信息, 请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
     - 若要指定端口范围, 请在 "为**每种实时媒体流量选择端口范围**" 旁边, 选择 "**指定端口范围**", 然后输入音频、视频和屏幕共享的起始和结束端口。 若要实现 QoS, 选择此选项是必需的。

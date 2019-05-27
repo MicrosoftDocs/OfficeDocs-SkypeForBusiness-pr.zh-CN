@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解手机系统可以为你执行的操作。 '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299016"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432877"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -49,7 +49,7 @@ ms.locfileid: "34299016"
 
 使用 Office 365 中电话系统的呼叫计划加载项可实现 PSTN 连接, 以便拨打全球各地的座机和手机 (具体取决于许可的服务级别)。 你的用户驻留在云中，并且启用了 Microsoft 提供的具有呼叫计划附加设备的电话系统。 使用通话计划不需要本地服务器部署。 通话计划仅适用于 Office 365 中的电话系统, 您不能与其他 PBX 系统一起使用呼叫计划。
 
-![该拓扑图显示云 PBX 和 PSTN 呼叫（这是完整的云中语音解决方案）。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![拓扑图显示了具有 PSTN 呼叫的云 PBX](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 由于呼叫计划在 Office 365 中运行, 因此这是一个完整的云产品, 不需要本地服务器部署。 您可以选择使用国内或国内和国际呼叫计划, 这些计划分配给您要拨打的每个用户。 [想要了解更多信息？](calling-plan-landing-page.md)。
   

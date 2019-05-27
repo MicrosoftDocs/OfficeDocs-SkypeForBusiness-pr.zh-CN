@@ -1,7 +1,7 @@
 ---
 title: 来宾体验介绍
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/26/18
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: HT
+ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
+ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236418"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34381711"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -93,7 +93,10 @@ ms.locfileid: "32236418"
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
 ## <a name="frequently-asked-questions"></a>常见问题
-  
+
+问： 如何离开已被邀请的组织？<br>
+答： 如果您已被邀请加入某个组织, 并且您不希望成为来宾, 您可以自行退出组织。 有关详细信息, 请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者, 您也可以要求组织的管理员将您从其租户中删除。 请注意, 在这两种情况下, 如果想要在将来访问组织, 则需要重新邀请租户。
+
 问： 来宾与团队成员享有同样的功能吗？<br>
 答： 不。 要详细了解来宾可执行/不可执行哪些操作，请转到 [Teams 中的来宾功能](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b)。
 

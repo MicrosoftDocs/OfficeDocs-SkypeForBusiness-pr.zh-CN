@@ -3,7 +3,6 @@ title: 管理 Microsoft Teams Commercial Cloud Trial 产品
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -16,20 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921249"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404291"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
 
-Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队能够使用 Office 365 的强大功能进行讨论、创新和共享创意。 Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。
+Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队能够使用 Office 365 的强大功能进行讨论、创新和共享创意。 Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。 
 
 > [!IMPORTANT]
-> Microsoft Teams 商业云试用版已更新，现有额外的服务计划针对增加的 Teams 功能，并且现由你组织的账单管理员拥有和控制。这使得试用版更易管理并与所有其他 Microsoft 365 产品/服务相一致。 现有的 Teams 商业云试用版用户将迁移到新的计划。
+> Microsoft Teams 商业云试用版已更新，现有额外的服务计划针对增加的 Teams 功能，并且现由你组织的账单管理员拥有和控制。这使得试用版更易管理并与所有其他 Microsoft 365 产品/服务相一致。 
 
 ## <a name="whats-in-the-offer"></a>此优惠的内容
 
@@ -142,3 +141,11 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 > [!NOTE]
 > 如果试用版结束，而用户未立即升级到包含 Teams 的订阅，则不删除该用户数据。 该用户仍保留在 Azure Active Directory 中，且 Teams 中的所有数据都将保留。 一旦向该用户分配新的许可证来重新启用 Teams 功能，则所有内容仍将存在。 
+
+### <a name="remove-a-legacy-microsoft-teams-trial-license"></a>删除旧版 Microsoft Teams 试用许可证
+
+2019 年 4 月 22 日起，用户可以开始申请最新的 Microsoft Teams 商业云试用许可证。 如果要将组织中的用户从旧版试用许可证移到最新的试用许可证，则需要首先删除每个用户的旧版 Microsoft Teams 试用许可证。 删除旧版许可证后，每个受影响的用户都可以申请更新的 Microsoft Teams 商业云试用许可证。
+
+- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/zh-CN/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+
+- 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/zh-CN/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

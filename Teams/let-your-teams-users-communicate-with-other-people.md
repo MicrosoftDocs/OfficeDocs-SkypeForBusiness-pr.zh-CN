@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: 了解如何配置团队以允许用户与其他组织中的用户进行通信。
-ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343935"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433188"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让你的团队用户与其他团队组织中的用户进行聊天和通信
 
@@ -79,7 +79,7 @@ ms.locfileid: "34343935"
 
 如果你将其设置为让你的团队用户找到并联系 Skype for business 组织中的用户以限制谁可以联系他们的用户, 你将要求该组织中的管理员执行以下步骤。
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心 sfb-logo-30x30 的**png 
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标 
 
 让该组织中的管理员执行以下步骤:
     

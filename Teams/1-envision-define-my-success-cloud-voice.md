@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343927"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433093"
 ---
 # <a name="define-my-success"></a>定义成功
 
@@ -94,8 +94,8 @@ ms.locfileid: "34343927"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |决策点|<ul><li>你可以在你的组织中识别的音频会议的所有业务使用案例？</li><li>您可以在您的组织中识别的通话计划的所有业务使用案例？</li><li>你可以在组织中标识哪些适用于直接路由的业务使用案例？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|后续步骤|<ul><li>为你的组织记录音频会议的所有业务使用案例。</li><li>为你的组织记录通话计划的所有业务使用案例。</li><li>为你的组织记录直接路由的所有业务使用案例。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |决策点|<ul><li>你可以在你的组织中识别的音频会议的所有业务使用案例？</li><li>您可以在您的组织中识别的通话计划的所有业务使用案例？</li><li>你可以在组织中标识哪些适用于直接路由的业务使用案例？</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>为你的组织记录音频会议的所有业务使用案例。</li><li>为你的组织记录通话计划的所有业务使用案例。</li><li>为你的组织记录直接路由的所有业务使用案例。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ ms.locfileid: "34343927"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|决策点|<ul><li>谁将填写你的组织的每个关键利益干系人角色？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|后续步骤|<ul><li>记录所有关键利益干系人, 并将该角色的责任和预期传达给每个已分配的人。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>谁将填写你的组织的每个关键利益干系人角色？</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>记录所有关键利益干系人, 并将该角色的责任和预期传达给每个已分配的人。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ KSIs 衡量高质量和关键结果的成功, 并通过详细说明好的和/或
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|决策点|<ul><li>您 organization& 的 OKRs 和 KSIs 是什么？</li><li>已确定哪些风险与组织中的音频会议实现有关？ 确定的风险有哪些缓解计划？</li><li>已确定哪些风险与组织中的通话计划的实施有关？ 确定的风险有哪些缓解计划？</li><li>已确定哪些风险与组织中的直接路由实现相关？ 确定的风险有哪些缓解计划？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|后续步骤|<ul><li>记录 OKRs 和 KSIs, 并建立风险寄存器。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>您 organization& 的 OKRs 和 KSIs 是什么？</li><li>已确定哪些风险与组织中的音频会议实现有关？ 确定的风险有哪些缓解计划？</li><li>已确定哪些风险与组织中的通话计划的实施有关？ 确定的风险有哪些缓解计划？</li><li>已确定哪些风险与组织中的直接路由实现相关？ 确定的风险有哪些缓解计划？</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>记录 OKRs 和 KSIs, 并建立风险寄存器。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ KSIs 衡量高质量和关键结果的成功, 并通过详细说明好的和/或
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|决策点|<ul><li>确定你的组织是否需要一个筹划指导委员会。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|后续步骤|<ul><li>标识筹划指导委员会的成员。</li><li>安排筹划指导委员会会议。</li><li>准备进行筹划指导委员会会议。</li><li>举行筹划指导委员会会议。</li><li>根据筹划指导委员会会议输入采取行动。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>确定你的组织是否需要一个筹划指导委员会。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>标识筹划指导委员会的成员。</li><li>安排筹划指导委员会会议。</li><li>准备进行筹划指导委员会会议。</li><li>举行筹划指导委员会会议。</li><li>根据筹划指导委员会会议输入采取行动。</li></ul>|
 
 有关如何操作正确的筹划委员会的其他详细指导可在《筹划指导委员会[指南》](envision-steering-committee-complete-guide.md)中找到。
 
