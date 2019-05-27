@@ -286,7 +286,8 @@
 #### [语音邮件问候和消息所使用的语言](languages-for-voicemail-greetings-and-messages.md)
 ### 来电显示
 #### [如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)
-#### [为用户设置来电显示](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [为用户设置来电显示](set-the-caller-id-for-a-user.md)
+#### [更多关于呼叫线路 ID 和主叫方名称的信息](more-about-calling-line-id-and-calling-party-name.md)
 ### 自动助理和呼叫队列 
 #### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
 #### [设置云自动助理](create-a-phone-system-auto-attendant.md)

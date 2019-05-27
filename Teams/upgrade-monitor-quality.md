@@ -1,12 +1,12 @@
 ---
-title: 用户体验质量 |Microsoft 团队 |QoS |呼叫质量
+title: 用户体验质量 |Microsoft 团队 |QoS |通话质量
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 任务和用于监控质量和用法的 Microsoft 团队所需的活动
+description: 监视 Microsoft 团队的质量和使用所需的任务和活动
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,39 +15,39 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bafbb57f57f30d764e12877513395f17b3c1300e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a64e374e674fed4c6efe267d6559a260dce960e1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885480"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432909"
 ---
-<span data-ttu-id="3b65c-103">![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")</span><span class="sxs-lookup"><span data-stu-id="3b65c-103">![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
+<span data-ttu-id="ece1e-103">![图表突出显示升级旅程的操作卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")</span><span class="sxs-lookup"><span data-stu-id="ece1e-103">![Diagram highlighting Operational Excellence stage of upgrade journey](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
 
-<span data-ttu-id="3b65c-104">本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。</span><span class="sxs-lookup"><span data-stu-id="3b65c-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
+<span data-ttu-id="ece1e-104">本文是升级过程的 "卓越运营" 阶段的一部分, 在您从 Skype for Business 升级到团队后立即开始。</span><span class="sxs-lookup"><span data-stu-id="ece1e-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
 
-# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="3b65c-105">体验质量检查指南</span><span class="sxs-lookup"><span data-stu-id="3b65c-105">Quality of Experience Review Guide</span></span>
+# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="ece1e-105">体验质量检查指南</span><span class="sxs-lookup"><span data-stu-id="ece1e-105">Quality of Experience Review Guide</span></span>
 
-<span data-ttu-id="3b65c-106">[质量体验审阅指南](https://aka.ms/qerguide)包含一组活动的评估，并提供对影响在改善用户体验，最大，如下所示的主要区域中的补救指南。</span><span class="sxs-lookup"><span data-stu-id="3b65c-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
+<span data-ttu-id="ece1e-106">[体验质量检查指南](https://aka.ms/qerguide)包括一组活动, 这些活动在对改善用户体验有最大影响的关键领域中评估和提供补救指南, 如下所示。</span><span class="sxs-lookup"><span data-stu-id="ece1e-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
 
-<span data-ttu-id="3b65c-107">![要检查期间体验质量审查的关键区域： 音频、 可靠性和用户调查结果。](media/plan-my-service-management-image2.png "要检查期间体验质量审查的关键区域： 音频、 可靠性和用户调查结果。")</span><span class="sxs-lookup"><span data-stu-id="3b65c-107">![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
+<span data-ttu-id="ece1e-107">![查看过程中要检查的关键区域的插图。]在(media/plan-my-service-management-image2.png "体验质量评审期间要检查的关键方面: 音频、可靠性和用户调查结果。")</span><span class="sxs-lookup"><span data-stu-id="ece1e-107">![Illustration of the key areas to examine during a Review.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
 
-<span data-ttu-id="3b65c-108">通过不断地评估和补救指南中所述的区域，您可以减少他们可能会产生负面影响的用户体验。</span><span class="sxs-lookup"><span data-stu-id="3b65c-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="3b65c-109">在部署中遇到的大多数用户体验问题可以分为以下类别：</span><span class="sxs-lookup"><span data-stu-id="3b65c-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
+<span data-ttu-id="ece1e-108">通过不断评估和修正指南中所述的区域, 你可以降低对用户体验产生负面影响的可能性。</span><span class="sxs-lookup"><span data-stu-id="ece1e-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="ece1e-109">在部署中遇到的大多数用户体验问题可以分为以下类别：</span><span class="sxs-lookup"><span data-stu-id="ece1e-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
 
-- <span data-ttu-id="3b65c-110">防火墙或代理配置不完整</span><span class="sxs-lookup"><span data-stu-id="3b65c-110">Incomplete firewall or proxy configuration</span></span>
+- <span data-ttu-id="ece1e-110">防火墙或代理配置不完整</span><span class="sxs-lookup"><span data-stu-id="ece1e-110">Incomplete firewall or proxy configuration</span></span>
 
-- <span data-ttu-id="3b65c-111">Wi-Fi 覆盖范围较小</span><span class="sxs-lookup"><span data-stu-id="3b65c-111">Poor Wi-Fi coverage</span></span>
+- <span data-ttu-id="ece1e-111">Wi-Fi 覆盖范围较小</span><span class="sxs-lookup"><span data-stu-id="ece1e-111">Poor Wi-Fi coverage</span></span>
 
-- <span data-ttu-id="3b65c-112">带宽不足</span><span class="sxs-lookup"><span data-stu-id="3b65c-112">Insufficient bandwidth</span></span>
+- <span data-ttu-id="ece1e-112">带宽不足</span><span class="sxs-lookup"><span data-stu-id="ece1e-112">Insufficient bandwidth</span></span>
 
-- <span data-ttu-id="3b65c-113">VPN</span><span class="sxs-lookup"><span data-stu-id="3b65c-113">VPN</span></span>
+- <span data-ttu-id="ece1e-113">VPN</span><span class="sxs-lookup"><span data-stu-id="ece1e-113">VPN</span></span>
 
-- <span data-ttu-id="3b65c-114">使用了未优化或内置的音频设备</span><span class="sxs-lookup"><span data-stu-id="3b65c-114">Use of unoptimized or built-in audio devices</span></span>
+- <span data-ttu-id="ece1e-114">使用了未优化或内置的音频设备</span><span class="sxs-lookup"><span data-stu-id="ece1e-114">Use of unoptimized or built-in audio devices</span></span>
 
-- <span data-ttu-id="3b65c-115">子网或网络设备存在问题</span><span class="sxs-lookup"><span data-stu-id="3b65c-115">Problematic subnets or network devices</span></span>
+- <span data-ttu-id="ece1e-115">子网或网络设备存在问题</span><span class="sxs-lookup"><span data-stu-id="ece1e-115">Problematic subnets or network devices</span></span>
 
-<span data-ttu-id="3b65c-116">使用作为主要工具，呼叫质量仪表板 (CQD) 联机报告和调查所述，重点音频，以最大限度地应用和影响每个区域重点用户体验质量审阅指南中提供的指南。</span><span class="sxs-lookup"><span data-stu-id="3b65c-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="3b65c-117">为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。</span><span class="sxs-lookup"><span data-stu-id="3b65c-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
+<span data-ttu-id="ece1e-116">体验质量评审指南中提供的指南重点介绍如何使用呼叫质量仪表板 (CQD) 作为主要工具来报告和调查所述的每个区域, 并重点关注音频以最大程度地提高采纳和影响。</span><span class="sxs-lookup"><span data-stu-id="ece1e-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="ece1e-117">为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。</span><span class="sxs-lookup"><span data-stu-id="ece1e-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
 
-<span data-ttu-id="3b65c-118">我们强烈建议您在早期提名质量冠军。</span><span class="sxs-lookup"><span data-stu-id="3b65c-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="3b65c-119">正在提名之后, 他们应开始熟悉的[用户体验质量审阅指南](https://aka.ms/qerguide)中的内容。</span><span class="sxs-lookup"><span data-stu-id="3b65c-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
+<span data-ttu-id="ece1e-118">我们强烈建议您提前提名本《质量专家提名。</span><span class="sxs-lookup"><span data-stu-id="ece1e-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="ece1e-119">在进行命名后, 他们应开始熟悉[体验质量审核指南](https://aka.ms/qerguide)中的内容。</span><span class="sxs-lookup"><span data-stu-id="ece1e-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
 
 <!--ENDOFSECTION-->
