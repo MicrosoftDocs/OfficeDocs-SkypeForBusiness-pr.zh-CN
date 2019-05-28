@@ -101,6 +101,7 @@
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams 会议室](room-systems/index.md)
+## [在 Teams 中管理白板](manage-whiteboard.md)
 
 
 ## 音频会议
@@ -579,28 +580,38 @@
 
 
 <!-- ============================================================ -->
-# [升级到 Teams](upgrade-introduction.md)
+# 升级到 Teams
 ## [入门](upgrade-start-here.md)
 ## [关于升级框架](upgrade-framework.md)
-## [规划升级旅程](upgrade-plan-journey.md)
+
+## 规划升级旅程
+### [升级规划概述](upgrade-plan-journey.md)
 ### [登记项目干系人](upgrade-enlist-stakeholders.md)
 ### [定义项目范围](upgrade-define-project-scope.md)
-### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+
+### 了解共存和互操作性
+#### [共存和互操作性概述](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 #### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [规划质量](upgrade-plan-for-quality.md)
-## [针对 Teams 准备环境](upgrade-prepare-environment.md)
+
+## 针对 Teams 准备环境
+### [技术准备概述](upgrade-prepare-environment.md)
 ### [针对 Teams 准备 IT 员工](upgrade-prepare-IT-pros.md)
 ### [先决条件](upgrade-plan-journey-prerequisites.md)
 ### [评估环境](upgrade-plan-journey-evaluate-environment.md)
 ### [准备网络](upgrade-prepare-environment-prepare-network.md)
 ### [准备服务](upgrade-prepare-environment-prepare-service.md)
-## [针对 Teams 准备组织](upgrade-prepare-organization.md)
+
+## 让贵组织做好部署 Teams 的准备
+### [组织准备概述](upgrade-prepare-organization.md)
 ### [评估组织更改是否就绪](upgrade-org-change-readiness.md)
 ### [准备用户就绪性计划](upgrade-user-readiness.md)
 ## [执行用户试点](pilot-essentials.md)
 ## [从 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ## [从 Skype for Business 混合或本地部署升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-## [运行、采用和优化](continue-journey.md)
+
+## 运行、采用和优化
+### [运营计划概述](continue-journey.md)
 ### [运行服务](upgrade-operate-my-service.md)
 ### [监控质量](upgrade-monitor-quality.md)
 ### [增强服务](upgrade-enhance-my-service.md)
@@ -674,7 +685,7 @@
 ### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ### [在 Teams 中规划管理](plan-teams-governance.md)
-
+### [使用网络测试助理](use-network-testing-companion.md)
 
 
 

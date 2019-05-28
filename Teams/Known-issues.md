@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 586e928692068070c23a682dbcf5f38259990dc0
+ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287907"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34430662"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -144,6 +144,12 @@ ms.locfileid: "34287907"
 
 
 ## <a name="client"></a>客户端
+
+
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法从 Microsoft Store 启动 Teams for Surface Hub |在 Microsoft Store 中单击“**启动**”时，Microsoft Teams for Surface Hub 不会启动。 | 在 Surface Hub 上，Windows 不支持从 Microsoft Store 列表启动 Teams for Surface Hub 应用。 <br> <br/> 请在安装 Teams 之后重启 Surface Hub。 | 18/2/27 |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

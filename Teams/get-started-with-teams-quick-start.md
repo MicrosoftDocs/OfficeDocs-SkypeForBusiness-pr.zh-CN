@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827722"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433117"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "33827722"
 
 Teams 使你能将组织内外的人员快速集中到一起形成一个团队，与其他人聊天来推动快速包容性对话，安全地共享和共同创作文档，并不断完善项目。 通过为共享笔记、网页和应用添加即时访问权限来自定义 Teams。 无论用户身处何处，都可使用会议和呼叫进行实时协作。 Teams 将简化你对 Office 365 服务和第三方应用的访问，使之成为你的协作和沟通需求的新重心。 鼓励早期采用者同时安装桌面和移动应用以获得最佳体验和最准确的反馈。
 
-![开始使用 Teams](media/get-started-microsoft-teams.png "显示 Teams 桌面客户端和移动客户端用户界面的屏幕截图" ) 
+![显示桌面和移动客户端用户界面的屏幕截图](media/get-started-microsoft-teams.png "显示 Teams 桌面客户端和移动客户端用户界面的屏幕截图" ) 
 
 下面介绍如何部署你的第一组团队和频道，以便早期采用者能够开始聊天、共享文件和进行协作。
 
