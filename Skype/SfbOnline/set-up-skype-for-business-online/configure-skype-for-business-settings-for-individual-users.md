@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 5be310e47a5094a0e424624cc711311865a5b842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285301"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494166"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -44,7 +44,7 @@ ms.locfileid: "34285301"
 
 您必须具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
   
 1. 使用你的工作或学校帐户登录 Office 365。
     

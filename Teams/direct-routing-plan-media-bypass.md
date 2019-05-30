@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290458"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493913"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -70,7 +70,7 @@ ms.locfileid: "34290458"
 
 - SIP 信号始终采用路径4和 4 "(具体取决于流量的方向)。 媒体保持本地, 并采用路径5b。
 
-![显示启用了媒体旁路的呼叫流, 客户端是内部客户端, 并且可以访问会话边界控制器 (直接媒体) 的公共 IP](media/direct-routing-media-bypass-3.png)
+![显示启用了媒体旁路的呼叫流, 客户端为内部客户端](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>如果用户无权访问 SBC 的公共 IP 地址, 则为呼叫流
@@ -91,7 +91,7 @@ ms.locfileid: "34290458"
 
 - 媒体通过路径3、3 "、4和 4" 进行中继
 
-![如果用户无权访问 SBC 的公共 IP, 则显示呼叫流。](media/direct-routing-media-bypass-4.png)
+![显示呼叫流 (如果用户无权访问 SBC 的公共 IP)](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>如果用户在网络外部且拥有对 SBC 公共 IP 的访问权限, 则为呼叫流
@@ -105,7 +105,7 @@ ms.locfileid: "34290458"
 
 - SIP 信号始终采用路径3和 3 "(具体取决于流量的方向)。 使用路径2进行媒体流。
 
-![如果用户无权访问 SBC 的公共 IP, 则显示呼叫流。](media/direct-routing-media-bypass-5.png)
+![显示呼叫流 (如果用户无权访问 SBC 的公共 IP)](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>媒体处理器和传输中继的使用
@@ -125,7 +125,7 @@ Microsoft 云中有两个组件可以位于媒体流量的路径中: 媒体处�
 
 - SIP 代理是将团队中使用的 HTTP REST 信号转换为 SIP 的组件。    
 
-![显示两个通话流-一个启用了媒体旁路, 并且禁用了媒体旁路的第二个。](media/direct-routing-media-bypass-6.png)
+![显示启用和禁用媒体旁路的呼叫流](media/direct-routing-media-bypass-6.png)
 
 
 下表总结了媒体处理器和传输中继之间的区别。
@@ -273,7 +273,7 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 这两个中继都可以指向具有相同公共 IP 地址的同一 SBC。 SBC 的 TLS 信号端口必须不同, 如下图所示。 注意你需要确保你的证书支持这两个中继。 在 SAN 中, 你需要具有两个名称 (**sbc1.contoso.com**和**sbc2.contoso.com**) 或具有通配符证书。
 
 
-![显示两个中继都可以指向具有相同公共 IP 的同一 SBC。](media/direct-routing-media-bypass-7.png)
+![显示两个中继都可以指向具有相同公共 IP 的同一 SBC](media/direct-routing-media-bypass-7.png)
 
 有关如何在同一 SBC 上配置两个中继的信息, 请参阅 SBC 供应商提供的文档:
 

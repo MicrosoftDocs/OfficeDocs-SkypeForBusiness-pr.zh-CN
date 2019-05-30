@@ -10,28 +10,28 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 为您的团队应用的试验阶段使加载支持人员。
+description: 让支持人员在团队的实验阶段采纳。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45425e2b709b54bcc75714852d64459ff968b5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb27e8ab8722324bbfbb9bd065c0675c6b4b1631
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896247"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494821"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
-若要确保早期使用和拥护者团队将具有适当的支持，其开始使用团队，会见支持人员，并查看团队的功能。 支持组织的主要成员可能想要加入早期使用程序。 鼓励他们自己的方案中涉及的团队。 让他们看产品基本入职培训使用我们的联机培训资源。  
+要确保早期的使用情况和拥护程序团队在开始使用团队时拥有相应的支持, 请与您的支持人员会面并查看团队的功能。 支持组织的关键成员可能希望加入您的先期采用计划。 鼓励他们在自己的方案中使用团队。 通过使用我们的在线培训资源, 让他们完成产品的基本加入。  
 
-- [Microsoft 团队的基础](https://youtu.be/xJBvJTDiQqg)
-- [疑难解答团队](https://youtu.be/0KNh9KNpXcA)
-- [已知的问题列表](https://aka.ms/TeamsKnownIssues)
+- [Microsoft 团队基础](https://youtu.be/xJBvJTDiQqg)
+- [团队疑难解答](https://youtu.be/0KNh9KNpXcA)
+- [已知问题列表](https://aka.ms/TeamsKnownIssues)
 - [#ThisisTeams 介绍性网络研讨会](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
-- [启用 Microsoft 团队 IT 专业人员课程 （英文）](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
+- [启用 Microsoft 团队 IT 专业人士课程](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[的 Microsoft 团队应用阶段 3： 扩展](teams-adoption-phase3-enable.md)。
+![表示下一步骤](media/teams-adoption-next-icon.png)的图标: [Microsoft 团队采纳阶段 3: 缩放](teams-adoption-phase3-enable.md)。

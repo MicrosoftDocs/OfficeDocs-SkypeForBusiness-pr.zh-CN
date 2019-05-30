@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队用户应用计划 |最佳实践
+title: Microsoft 团队用户采纳计划 |最佳做法
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: 继续执行从 for Business 的 Skype 您迁移到 Microsoft 团队指南
+description: 继续将 Skype for Business 迁移到 Microsoft 团队的指南
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 MS.collection:
@@ -15,44 +15,44 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898498"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548085"
 ---
-![升级旅程，重点强调卓越阶段的阶段](media/upgrade-banner-op-excellence.png "升级旅程，重点强调卓越阶段的阶段")
+![升级旅行图, 强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
 
-本文是您升级旅程，只要您已完成从 for Business 的 Skype 您升级到团队开始的卓越阶段的一部分。
+本文是升级过程的 "卓越运营" 阶段的一部分, 在您从 Skype for Business 升级到团队后立即开始。
 
-# <a name="how-to-use-microsoft-teams-effectively"></a>如何使用 Microsoft 有效地团队
+# <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
 
-技术开展创新，以前所未有的速度。 保持当前和启用现代的工作环境已成为中如何运行组织标准。 随着 Microsoft 团队、 Microsoft 365 和 Microsoft 的智能通信远景继续滑动，就地具有运营计划将有助于确保您的组织已设置为长期成功。 最佳操作计划包括监视您的环境的运行状况和质量，继续执行用户 momentum 来优化应用，并规划将继续联机随着时间的新功能。
+以前所未有的步调创新技术。 保持当前和启用新式工作区环境已成为企业运营方式的标准。 Microsoft 团队的 Microsoft 365 和 Microsoft 的智能通信展望继续展开, 有一个操作计划可帮助确保你的组织已设置为长期成功。 最佳运营计划包括监控运行状况和质量的环境、继续提高用户发展势头以优化采纳和规划新功能, 这些功能将随着时间的推移继续保持在线。
 
-## <a name="monitor-for-network-health-and-quality"></a>监控网络运行状况和质量
+## <a name="monitor-for-network-health-and-quality"></a>监视网络运行状况和质量
 
-网络的状态会影响的用户体验。 当用户具有较差的体验 （例如，呼叫下降或延迟时间加入会议时），它们与技术本身，与这种技术操作不起作用印象保留它们，然后打开不受支持的应用程序门关联这。 实施计划监视和缓解网络运行状况有助于确保良好的用户体验除了减少到支持桌面电话。 有关详细信息，请参阅以下文章：
+您的网络状态会影响用户体验。 当用户的体验不好 (例如, 加入会议时的通话中断或延隔时间) 时, 他们将其与技术本身相关联, 让他们与技术不起作用并为不受支持的应用打开门。 实施计划以监控和缓解网络运行状况除了减少对支持台的通话之外, 还有助于确保用户获得良好的体验。 有关详细信息, 请参阅以下文章:
 
 - [运行服务](upgrade-operate-my-service.md)
 - [监控质量](upgrade-monitor-quality.md)
 - [增强服务](upgrade-enhance-my-service.md)
 
-## <a name="drive-user-momentum-and-adoption"></a>驱动器用户 momentum 和采用
+## <a name="drive-user-momentum-and-adoption"></a>促进用户发展势头和采纳
 
-为实现最大的好处和与团队的业务产出，用户必须实际使用它。 但是，初始兴奋往往 wane，并且用户很容易地恢复到旧的工作方式。 鼓励用户应用和维护兴奋团队与持续应用计划，其中可以包括：
+若要实现团队的最大好处和业务成果, 用户必须实际使用它。 但是, wane 和用户的初始兴奋往往可以轻松地恢复到过去的工作方式。 通过正在进行的采纳计划为团队鼓励用户采纳和保持兴奋, 其中包括:
 
-- 登记对等方拥护者，以帮助宣传和鼓励同伴用户。
-- 检查[Office 365 应用指南](https://go.microsoft.com/fwlink/?linkid=859045)有关提高工作效率和驱动应用提示。
-- 利用[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提高认知度和共享最佳实践。
-- 实施正式[应用和更改管理策略](http://www.successwithteams.com/)，以帮助保持应用增长。
+- 登记对等拥护机以帮助布道和鼓励其他用户。
+- 检查[Office 365 采纳指南](https://go.microsoft.com/fwlink/?linkid=859045), 了解有关提升活动和推动采纳的提示。
+- 利用[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)增强意识并分享最佳做法。
+- 实施正式的[采纳和更改管理策略](http://www.successwithteams.com/)以帮助保持采用增长。
 
-## <a name="prepare-for-new-functionality"></a>准备新的功能
+## <a name="prepare-for-new-functionality"></a>准备新功能
 
-任何给定技术生命周期已将移动至动态增长周期。 这意味着，团队和 Microsoft 365 路线图将继续滑动，与在正则节奏亮起的新功能。 建立组织内的更改周期将确保您已经准备管理它们编入协作改进和实现最大值。 这可以包括：
+任何给定技术的生命周期都已移至动态增长周期。 这意味着团队和 Microsoft 365 路线图将继续展开, 新功能将在常规节奏上保持最新。 在你的组织内建立更改周期可确保你已准备好管理持续的协作改进并实现最大价值。 这可能包括:
 
 - 监视团队[路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。
-- 实现规划窗体 （如下所示） 以准备和实现新功能的更改。 请务必包括技术和用户准备活动。
+- 实施 "更改规划" 表单 (如下所示) 准备和实施新功能。 请确保包括技术和用户准备情况活动。
 
 
-![示例窗体显示预期的发布日期和注释有关与下一个步骤和所有者一起列出的新增功能](media/upgrade-change-plan-form.png "示例窗体显示预期的发布日期和注释有关与下一个步骤和所有者一起列出的新增功能")
+![显示预期发布日期和注释的示例表单](media/upgrade-change-plan-form.png "示例表单显示了与后续步骤和所有者一起列出的有关新功能的预期发布日期和注释")

@@ -7,7 +7,7 @@ ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
-description: 信息管理员需要了解有关在团队中的状态。
+description: 信息管理员需要了解团队中的状态。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,60 +15,60 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246211"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548522"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
-状态的用户配置文件中的 Microsoft 团队 （和整个 Office 365） – 的一部分，指示用户的当前的可用性和向组织中的其他用户的状态。 默认情况下使用团队您组织中的任何人都可以看到联机其他用户时可用。
+联机状态是 Microsoft 团队 (以及整个 Office 365) 中的用户配置文件的一部分-并指示用户的当前可用性和组织中其他用户的状态。 默认情况下, 使用团队的组织中的任何人都可以在几乎实时查看-无论其他用户是否在线提供。
 
 ## <a name="presence-states-in-teams"></a>团队中的状态
 
-在工作组中可用的用户显示状态是：
+团队中可用的用户状态包括:
 
-|配置用户|应用程序配置|
+|用户配置|已配置应用|
 |:--- |:---|
-| ![状态可用](media/Presence_Available.png) 有空|![状态可用](media/Presence_Available.png) 有空|
-|| ![可用 oof](media/Presence_Available_OOF.png) 可用外出 |
-|  ![忙](media/Presence_Busy.png) 忙 |  ![忙](media/Presence_Busy.png) 忙  |
-|| ![忙](media/Presence_Busy.png) 呼叫中|
-|| ![忙](media/Presence_Busy.png) 在会议中 |
-|| ![忙 oof](media/Presence_Busy_OOF.png) 在调用中，不在办公室|
-|  ![请勿打扰](media/Presence_DND.png) 请勿打扰 ||
-|| ![请勿打扰](media/Presence_DND.png) 演示|
-| ![离开](media/Presence_Away.png) 离开| ![离开](media/Presence_Away.png) 离开|
-|| ![离开](media/Presence_Away.png)离开最后一个看到*时间*|
-|![离开](media/Presence_Away.png) 马上回来| |
-|| ![离开](media/Presence_Away.png)  Off Work-下班|
-|| ![脱机](media/Presence_Offline.png) 脱机 |
-|| ![未知](media/Presence_Unknown.png) 状态未知|
-||![被阻止](media/Presence_Blocked.png) 已阻止 |
-|| ![外出](media/Presence_OOF.png) 外出|
+| ![稳定绿色的 chek 标记, 指示可用状态](media/Presence_Available.png) 有空|![稳定绿色的 chek 标记, 指示可用状态](media/Presence_Available.png) 有空|
+|| ![打开绿色的 chek 标记, 指示可用的 oof](media/Presence_Available_OOF.png) 可用, 外出 |
+|  ![红色实心圆圈, 表示占线](media/Presence_Busy.png) / |  ![/](media/Presence_Busy.png) /  |
+|| ![红色实心圆圈, 表示通话中的占线](media/Presence_Busy.png) 在通话中|
+|| ![红色实心圆圈, 表示会议中的忙](media/Presence_Busy.png) 在会议中 |
+|| ![打开红色圆圈, 指示繁忙的 oof](media/Presence_Busy_OOF.png) 在通话中, 外出|
+|  ![带白线的红色圆圈, 指示 "请勿打扰"](media/Presence_DND.png) 请勿打扰 ||
+|| ![带有白色线的红色圆圈, 指示演示](media/Presence_DND.png) 演示|
+| ![黄色时钟图标, 表示离开](media/Presence_Away.png) 离开| ![离开](media/Presence_Away.png) 离开|
+|| ![黄色时钟图标, 指示离开](media/Presence_Away.png)上次看到的*时间*|
+|![黄色时钟图标, 表示离开, 马上回来](media/Presence_Away.png) 马上回来| |
+|| ![黄色时钟图标, 指示离开、离开工作](media/Presence_Away.png)  关闭工作|
+|| ![带有 x 的灰色圆圈, 指示离线](media/Presence_Offline.png) 脱机 |
+|| ![打开灰色圆圈, 指示状态未知](media/Presence_Unknown.png) 状态未知|
+||![以对角线打开红色圆圈, 指示已阻止](media/Presence_Blocked.png) 已阻止 |
+|| ![带箭头的紫色圆圈, 表示外出](media/Presence_OOF.png) 外出|
 |||
  
-用户可以手动将其当前的状态设置为一些选项，并向所有其他用户获取反映其状态。 此外会自动基于用户活动 （如空闲或离开）、 Outlook 日历状态 （例如，如会议中所示） 或团队应用程序状态更新其他用户状态详细信息 (呼叫中，演示)，对列表中缩进的状态。
+用户可以手动将其当前状态设置为某些选项, 其状态将反映给所有其他用户。 其他用户状态详细信息也会根据用户活动 (如 "可用" 或 "离开")、Outlook 日历状态 (如 "会议") 或团队应用状态 (正在进行的调用) 自动更新, 以显示在列表中缩进的状态。
 
-为 15 分钟无活动超时，其后用户的当前状态将重置为离开。
+有15分钟的不活动超时, 用户的当前状态将重置为 "离开"。
 
-用户可以指定谁可以直拨 （联系它们替代请勿打扰的设置）。 这些设置是可在应用程序。
+用户可以指定谁可以断开连接 (联系他们替代 "请勿打扰" 设置)。 这些设置在应用内可用。
 
-## <a name="teams-is-not-skype-for-business"></a>不 for Business 的 Skype 团队。
+## <a name="teams-is-not-skype-for-business"></a>团队不是 Skype for business
 
-Skype for Business 中的以下管理设置是团队中的不同：
-- 状态始终启用共享团队中的组织中的用户。 隐私 （确定谁可以看到的状态） 配置不在工作组中可用。
-- 团队中的用户始终启用共享与所有人 （包括联盟服务） 的状态。 可见或**呼叫 > 联系人**下**聊天 > 联系人**其联系人列表 （如果有一个 SfB 中）。
-- 团队中的用户始终启用客户端请勿打扰和突破性的功能。
-- （包括 OOF & 其他日历信息） 的日历集成始终启用团队中的用户，如果与 Outlook 集成。
-- *上一次发现*或*离开相*（如果使用 Skype for Business 的双环境中） 标记始终启用团队中的用户。
+Skype for Business 中的以下管理员设置在团队中有所不同:
+- 组织中的用户始终可以在团队中启用联机状态共享。 隐私 (决定谁可以查看状态) 配置在团队中不可用。
+- 始终为团队中的用户启用与每个人 (包括联合服务) 的联机状态共享。 他们的联系人列表 (如果他们在 SfB 中有一个) 在 "**聊天 _GT_ 联系人**" 或 "**呼叫 > 联系人**" 下可见。
+- 对于团队中的用户, 将始终启用客户端 "请勿打扰" 和 "特许" 功能。
+- 日历 (包括 OOF & 其他日历信息) 对于团队中的用户, 如果与 Outlook 集成, 则始终为其启用集成。
+- 始终** 为团队中的用户启用 "*自*(如果在具有 Skype for business 的双重环境中)" 指示器。
 
 > [!NOTE]
-> 当前不支持团队管理员能够自定义这些设置。
+> 团队管理员自定义这些设置的能力目前不受支持。
 
 
 ## <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
-有关与 for Business 的 Skype 共存时，团队状态的工作方式的详细信息，请参阅[使用 Skype for Business 的共存](coexistence-chat-calls-presence.md)。 
+请参阅与 skype for business[共存](coexistence-chat-calls-presence.md), 了解有关在与 Skype for business 共存时团队是否正常工作的详细信息。 

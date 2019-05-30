@@ -10,39 +10,39 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 为您的团队应用的试验阶段选择前期应用，然后收集您的项目的反馈。
+description: 选择团队采纳的实验阶段的早期采纳者, 然后收集项目的反馈。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3094e620e52bad466e3229bdbdc0c7ccf173eee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896344"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548754"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
-返回表示早期使用程序感兴趣的员工的列表。 决定哪些这些人应参与与团队初始实验。 它可能是人员的所有或部分感兴趣。 即使您不要选择它们这些初始项目，继续，以便他们保持感并将愿意参加将来与他们通信。 它们将所选的项目，基于您讨论业务利益干系人和技术团队，如上所示您优先顺序练习入职培训过程的一部分。 
+返回到在您的先期使用者计划中表达兴趣的员工的列表。 确定这些人员中的哪些人员应参与团队的初始实验。 这可能是所有感兴趣的人或部分。 即使你没有为这些初始项目选择它们, 也可以继续与他们进行通信, 以便他们有兴趣, 并愿意参与未来的参与。 根据您与业务利益干系人、技术团队和上述 "优先顺序" 练习所选项目, 他们将成为您选择的项目的加入过程的一部分。 
 
-完成这些早期使用与以下步骤：
+通过这些早期采纳者完成以下步骤:
 
-1. 向他们到社区，邀请其发送邀请电子邮件
-2. 承载 kick 关闭呼叫与这些目标和成果的最早的使用程序共享
-3. 确保访问您的团队协作拥护者团队和任何其他内部社交网络工具，您可能使用的反馈通道。 
-4. 请考虑创建它们完成后将收集的定期调查目标信息。
+1. 向他们发送邀请电子邮件, 邀请他们加入社区
+2. 主持一个启动呼叫, 以便与他们分享早期使用计划计划的目标和结果
+3. 确保访问团队拥护团队的反馈频道和你可能使用的任何其他内部社交网络工具。 
+4. 考虑为他们创建定期调查, 以完成将收集目标信息的操作。
 
 ## <a name="gather-feedback"></a>收集反馈
 
-使用 Office 365 组件收集您的项目的反馈。
+使用 Office 365 的组件收集有关你的项目的反馈。
   
-![决策点图标。](media/teams-adoption-decision-icon.png) 决策： 如果您的组织已经具有 Yammer 网络中的某项投资，您可以将其用作反馈论坛早期使用程序。 如果没有，和早期使用程序具有小于 5000 个成员，在工作组收集反馈和提供培训中创建一个团队。
+![表示决策点的图标](media/teams-adoption-decision-icon.png) 决策: 如果你的组织已在 Yammer 网络中拥有投资, 则可以将其用作你的早期使用计划计划的反馈论坛。 如果不是, 并且您的早期使用程序计划的成员少于5000个, 请在团队中创建团队以收集反馈和提供培训。
   
 > [!Note]
-> 某些组织将组合早期使用反馈的通道，为团队协作拥护者程序团队。 这是一个好方法，因为许多前期应用可能成为拥护者将来，并且它将生成更强的社区。 
+> 某些组织会将早期的先期采用反馈的渠道合并到团队成员拥护团队中。 这是一种很好的方法, 因为许多早期使用者可能会在将来成为拥护者, 并且将构建更强大的社区。 
 
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步： [Onboard 支持](teams-adoption-onboard-support.md)。
+![表示下一步骤](media/teams-adoption-next-icon.png)的图标:[板载支持](teams-adoption-onboard-support.md)。

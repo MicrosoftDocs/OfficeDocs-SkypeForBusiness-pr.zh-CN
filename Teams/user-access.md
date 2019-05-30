@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433276"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493752"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -70,8 +70,8 @@ ms.locfileid: "34433276"
 
 | | | |
 |---------|---------|---------|
-|![决策点图标。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>组织在整个组织中的团队计划的计划是什么？  （试点或开放）</li></ul>         |
-|![后续步骤图标。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过已关闭的试用版进行加入, 请确定你是否希望通过许可证或目标通信执行此操作。</li><li>根据决策, 采取步骤确保仅允许访问团队的试用用户 (如果需要)。</li><li>记录将 (或不会) 有权访问团队的用户的指南。</li></ul>         |
+|![表示决策点的图标](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>组织在整个组织中的团队计划的计划是什么？  （试点或开放）</li></ul>         |
+|![表示后续步骤的图标](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过已关闭的试用版进行加入, 请确定你是否希望通过许可证或目标通信执行此操作。</li><li>根据决策, 采取步骤确保仅允许访问团队的试用用户 (如果需要)。</li><li>记录将 (或不会) 有权访问团队的用户的指南。</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>管理 Office 365 租户级别的团队
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

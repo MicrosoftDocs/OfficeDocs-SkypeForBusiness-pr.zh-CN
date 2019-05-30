@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解当 Skype for business Online 中的电话拨入式会议设置更改时, 通过电子邮件自动向用户发送哪些信息。 '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275620"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494283"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>在 Skype for Business Online 中其设置发生更改时发送给用户的电子邮件
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 默认情况下, 将向你的用户发送电子邮件, 但如果你希望阻止他们接收用于音频会议的电子邮件, 则可以使用 Skype for Business 管理中心或 Windows PowerShell。 
  
-![](../images/sfb-logo-30x30.png)**使用 Skype for business 管理中心**sfb-logo-30x30  
+![](../images/sfb-logo-30x30.png)**使用 skype for business 管理中心**显示 skype for business 徽标的图标  
     
 1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
     

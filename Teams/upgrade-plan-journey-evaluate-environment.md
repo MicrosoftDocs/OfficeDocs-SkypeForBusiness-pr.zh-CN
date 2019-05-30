@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5582a337d56d5d836c01911d667771da80909a64
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344063"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494607"
 ---
-![升级旅程的阶段, 重点介绍技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
+![升级旅行图, 强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
 
 本文是您的升级过程的技术准备阶段的一部分, 与用户准备阶段并行完成的活动。 在继续之前, 请确认您已完成以前阶段中的这些活动:
 

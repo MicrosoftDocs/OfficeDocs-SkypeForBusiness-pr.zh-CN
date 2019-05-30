@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: f46e0506bef53e28cd071606d9727024870f6b2d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344199"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548945"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -56,13 +56,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### <a name="get-new-user-phone-numbers"></a>获取新的用户电话号码 
  
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 使用你的工作或学校帐户登录 Microsoft 365。
 
 2. 转到**Microsoft 365 管理中心** > **Skype for business**。
     
-3. 在左侧导航窗格中转到 **语音** > **电话号码**，单击 **添加新号码** ![添加按钮](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新的用户数量**。
+3. 在左侧导航中, 转到 "**语音** > **电话号码**", 单击 "**添加新号码" 添加新号码** !["](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)添加" 按钮, 显示为加号, 然后单击 "**新用户号码**"。
     
 ### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>获取在Skype for Business管理中心不可用的新号码
   
@@ -82,7 +82,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### <a name="get-new-service-numbers"></a>获取新服务号码
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 
 1. 使用你的工作或学校帐户登录 Office 365。
@@ -110,9 +110,9 @@ If you have been following the steps above, you have already bought and assigned
 
 1. 在 "**语音**" 页面上, 选择 "**紧急位置** > **添加新地址**"。
 
-2. 在" **新址**"窗格中，输入你的地址名称，然后填写剩余框。
+2. 在 "**新建地址**" 窗格中, 为您的地址输入一个名称, 然后填写其余的框。
     
-     ![当您输入新的紧急地址时，街道名称的格式可能会导致错误。](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+     ![新地址窗格的屏幕截图](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
     > [!TIP]
     > [!提示] 对于英语客户，如果街道名称是数字，请务必在结尾加上"st"或"th"，如上图所示。
@@ -158,15 +158,15 @@ If you have been following the steps above, you have already bought and assigned
     
 2. 选择 **设置** > **工具选项** > **选项**。 
     
-     ![要查看您的电话号码，请转到设置 > 工具 > 选项。](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     !["工具" 菜单上选项的屏幕截图](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. 然后，选择" **电话**"。 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Skype for Business 电话选项的屏幕截图](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![通过单击左侧导航窗格中的呼叫，用户可以在 Microsoft Teams 中看到其号码。](media/teams-phone-number.png)
+![单击 "呼叫" 后可用选项的屏幕截图](media/teams-phone-number.png)
 
 **有关设置通话套餐所涉及的所有步骤的更详细信息，请参阅 [设置通话套餐](set-up-calling-plans.md) 。**
 

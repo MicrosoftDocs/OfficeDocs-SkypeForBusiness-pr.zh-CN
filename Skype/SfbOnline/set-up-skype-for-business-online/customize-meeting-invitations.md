@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '通过图形徽标、帮助和合法 Url 以及页脚文本自定义 Skype 会议邀请。 '
-ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285291"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494116"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -45,7 +45,7 @@ ms.locfileid: "34285291"
 ## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 使用你的工作或学校帐户登录 Office 365。
     

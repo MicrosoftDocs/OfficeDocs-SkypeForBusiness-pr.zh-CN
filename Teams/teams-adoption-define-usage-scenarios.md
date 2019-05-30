@@ -10,62 +10,62 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 选择团队应用的试验阶段的使用方案。
+description: 选择团队采纳的实验阶段的使用方案。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fdd30bb6e31b88af6099d28d17acbab61080b05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d37ca22f7107598e9e1f084ed5e7dadbdfcba5df
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896269"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548826"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>为 Microsoft Teams 定义使用方案
 
-请确保您了解将在此阶段中实现的范围中的业务项目 （方案）。 请看一下此列表的早期使用程序的绝佳候选人的示例方案。 您可以开始使用轻松 wins 如：
+请确保你了解将在你的实现的此阶段范围内的业务项目 (方案)。 查看此示例方案列表, 这些示例方案非常适合于先期使用者程序。 你可以使用轻松的 wins 开始, 如:
 
-- 个人工作效率
+- 个人生产力
 - 现代项目管理
-- 现代会议
+- 新式会议
 
-![核心方案](media/teams-adoption-modernizing-core-scenarios.png)
+![三种核心方案的插图](media/teams-adoption-modernizing-core-scenarios.png)
 
-要考虑的其他方案是：
+要考虑的其他方案包括:
 
-- 员工工作效率和通信
-- 更快地将上市市场活动
-- 提高销售工作效率和增加收入
-- 简化业务 reviews （英文）
+- 员工参与和通信
+- 更快地向市场营销活动
+- 提高销售效率并增加收入
+- 优化业务考评
 
-![对于每个方案，团队用例](media/teams-adoption-use-cases.png)
+![每个方案的团队使用案例的插图](media/teams-adoption-use-cases.png)
 
-作为累积进程此方案现代化运动当作 – 获取的事情使用更多基本方案使用这种新的工作方式创建积极性、 熟悉和可信度。 请转到更多更具区域的影响。 如与 Microsoft 团队的多个影响向同事业务所述，多个它们将获取从事和 momentum 将构建。 对于许多我们的客户，一旦到达此过程持续他们发现学习如何其同事的 Microsoft 团队从获得值后业务利益干系人的达到它们。
+将此方案视为一个累积的流程-利用更基本的方案, 通过这种新的工作方式创建激情、熟悉和可信度。 然后, 转到更大胆的影响区域。 随着对您的业务同事的影响, 对 Microsoft 团队的影响更多, 我们将获得更多的发展和发展势头。 对于我们的许多客户, 一旦获得此过程, 他们就会发现, 业务利益干系人在了解他们的同事如何获得 Microsoft 团队的价值后, 他们就可以。
 
-## <a name="interview-business-stakeholders"></a>面试业务利益干系人
+## <a name="interview-business-stakeholders"></a>会见业务利益干系人
 
-要确认所选内容的这些早期项目建议直接与利益干系人之前在此过程中确定的会议。 此时，您的目标是侦听，并了解其业务有关的其他信息。 请考虑以下问题驱动器对话：
+若要确认选择这些早期项目, 我们建议直接与您在此过程中之前确定的利益干系人直接开会。 此时, 你的目标是听取和了解有关其业务的其他信息。 请考虑以下问题来推动对话:
 
-- 某些组织的挑战或与通信和协作的难题是什么？
-- 用您的组织希望提高方面有哪些？
-- 什么是组织的战略计划或团队可以支持的当前转换项目？
-- 通信和协作的哪些方法通常更好地收到您的组织比其他？
-- 什么是绘图、 分布和共享信息的过程？
+- 组织的一些挑战或与协作相关的痛点是什么？
+- 您的组织希望改善哪些方面？
+- 团队可以支持哪些组织的战略计划或当前转换项目？
+- 您的组织通常会更好地收到哪些通信和协作方法, 而不是其他方法？
+- 起草、分发和共享信息的流程是什么？
 
-## <a name="map-and-prioritize-business-scenarios"></a>映射并设置其优先级业务方案
+## <a name="map-and-prioritize-business-scenarios"></a>映射和优先顺序企业方案
 
-若要确保您具有适当的业务方案的相关的信息，请考虑使用以下格式文档从完成的工时和流程的业务所有者的员工的角度来看的方案。 这两个角度所需定制转接成功路径。
+若要确保你拥有有关业务方案的正确信息, 请考虑使用以下格式从员工在完成工作和流程的企业所有者的角度记录方案。 手工创建一个成功的路径需要两个透视。
 
-![用于标识方案框架](media/teams-adoption-identify-scenarios.png)
+![标识方案的框架的插图](media/teams-adoption-identify-scenarios.png)
 
-对一个或多个业务利益干系人说话后可以设置优先级基于与难度影响您的方案。 （您的方案可能除了建议上方的方案。）试验阶段的相应候选人应具有更高的影响，并降低到中型困难。 这将确保您的项目不受范围蔓延或技术难题之前您将能够显示您的工作的值。 图的示例所示。
+向一个或多个业务利益干系人讲话后, 你可以根据影响和难度对方案进行优先级排序。 (你的方案可能除了我们建议的情形。)适合你的实验阶段的适当候选人应具有更高的影响和中等难度。 这将确保你的项目不会受到范围蔓延或技术问题的影响, 然后你才能显示你的工作的价值。 下面显示了一个图表示例。
 
-![与难度方案影响](media/teams-adoption-impact-difficulty.png)
+![显示方案影响与难点的插图](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我们始终是预先了解我们的客户如何在新创新方式使用团队。 在我们 [驱动应用论坛] 与我们共享您 #TeamsStories。 在您的帖子中包括井号 **#TeamsStories** 。 我们始终是感兴趣如何在组织中使用团队。
+> 我们始终渴望了解我们的客户如何以全新的创新方式使用团队。 在 [推动采纳讨论论坛] 中与我们分享你的 #TeamsStories。 在帖子中包括井号 **#TeamsStories** 。 我们始终对您在组织中使用团队感兴趣。
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[板载前期应用和收集反馈](teams-adoption-onboard-early-adopters.md)。
+![表示下一步骤](media/teams-adoption-next-icon.png)的图标:[板载早期采纳者和收集反馈](teams-adoption-onboard-early-adopters.md)。

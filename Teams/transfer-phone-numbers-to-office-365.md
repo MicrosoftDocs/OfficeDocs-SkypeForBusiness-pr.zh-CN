@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f0785f28c13ea14538bf8e893e78cec6b1090aee
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298225"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493968"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "34298225"
   > [!NOTE]
   > 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码或超过999的用户 (订阅者) 电话号码, 您需要转移到 Skype for Business, 请参阅[管理电话号码您的组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)选择正确的国家/地区并下载正确的表单并将其发送给我们。
  
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
  
 1. 使用你的工作或学校帐户登录 Office 365。

@@ -16,12 +16,12 @@ description: 了解如何管理组织中保留的团队实时事件的设置。
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74eafcd6b16fe6d4c4b4f82c3b3472879ba506eb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344175"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548642"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -29,7 +29,7 @@ ms.locfileid: "34344175"
 
 你可以在 Microsoft 团队管理中心中轻松管理这些设置。 在左侧导航中, 转到 "**会议** > **实时事件" 设置**。 
 
-![live-event-settings](../media/teams-live-events-settings.png "团队实时事件设置的屏幕截图, 可在 Microsoft 团队管理中心进行配置") 
+![团队实时事件设置的屏幕截图](../media/teams-live-events-settings.png "团队实时事件设置的屏幕截图, 可在 Microsoft 团队管理中心进行配置") 
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
@@ -40,7 +40,7 @@ ms.locfileid: "34344175"
 1. 在左侧导航中, 转到 "**会议** > **实时事件设置**"。
 2. 在 "**支持 url**" 下, 输入您的组织的支持 url。 
 
-    ![Microsoft 团队管理中心中实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png "团队实时事件的支持 URL 设置的屏幕截图")
+    ![管理中心中实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png "团队实时事件的支持 URL 设置的屏幕截图")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 请运行以下命令：
@@ -57,7 +57,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 1. 在左侧导航中, 转到 "**会议** > **实时事件设置**"。
 2. 在**第三方视频分发提供商**下, 完成以下操作: 
 
-    ![Microsoft 团队管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
+    ![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
 
     - **使用第三方分发提供商**打开此项以启用第三方视频分发提供商。
     - **SDN 提供程序名称**选择您正在使用的提供商。

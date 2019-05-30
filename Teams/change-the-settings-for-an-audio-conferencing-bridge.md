@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '获取在不使用 Skype for Business 或 Microsoft 团队应用时用于提示呼叫者和收集会议组织者的名称和 pin 的会议桥设置所需的步骤。 '
-ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344866"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494559"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -66,7 +66,7 @@ ms.locfileid: "34344866"
 6. 单击“**保存**”。 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  使用 Skype for Business 管理中心
+## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png)  使用 Skype for Business 管理中心
 
  **在呼叫者加入会议时设置会议体验**
     

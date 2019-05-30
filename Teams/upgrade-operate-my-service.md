@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344441"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494060"
 ---
 ![升级旅行阶段, 重点关注运营卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
 
@@ -42,7 +42,7 @@ ms.locfileid: "34344441"
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
-![描述团队服务管理所包含的任务和活动类别列表的图表。](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
+![描述任务和活动类别列表的图表](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
@@ -317,7 +317,7 @@ NPS 是一个介于-100 到100之间的索引, 用于衡量客户推荐公司产
 
 - 从1到6的 Detractors: 不满意的客户可能会损害您的服务并妨碍增长。
 
-![演示 NPS 缩放的图表显示了0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。")
+![演示 NPS 缩放的图表](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。")
 
 虽然基本 NPS 编号非常有用, 但你将获得分析用户意见的最大价值。 他们将帮助你了解用户为什么 (或不) 向其他人推荐团队的原因。 这些评论可提供有价值的反馈, 以帮助项目或服务管理团队了解提供优质服务所需的调整。
 

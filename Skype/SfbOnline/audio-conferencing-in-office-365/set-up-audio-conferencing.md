@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343835"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494193"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 Skype for business 设置音频会议
 
@@ -74,7 +74,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 将新的电话号码分配给音频会议网桥：
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心 sfb-logo-30x30:**
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
  1. 转到**Microsoft 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
  2. 选择 "**语音** > **电话号码**"。
@@ -92,7 +92,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 1. 从仪表板中, 转到**会议** > **桥**。
 2. 选择 "会议桥接电话号码", 单击 "**编辑**", 然后选择默认语言。
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30:
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
 1. 转到**Office 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
 2. 选择 "**音频会议** > "**Microsoft 网桥**。 
@@ -110,7 +110,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 有关详细信息，请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心 sfb-logo-30x30:**
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
 1. 转到**Microsoft 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
 2. 选择 "**音频会议** > "**Microsoft bridge 设置**。 这将打开 **Microsoft 网桥设置** 页。 
@@ -128,7 +128,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 1. 从仪表板中, 单击 "**用户**", 从列表中选择用户, 然后选择 "**编辑**"。
 2. 选择 "**音频会议**" 旁边的 "**编辑**", 然后在 "**音频会议**" 窗格中, 选择 "**收费电话**号码" 和 "免费**电话**号码" 列表中的号码。
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心 sfb-logo-30x30:**
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
 1. 转到**Microsoft 365 管理中心** > **团队** > "**旧版门户**"。
 2. 选择 "**音频会议** > **用户**", 然后从列表中选择用户, 然后单击 "**编辑**"。 

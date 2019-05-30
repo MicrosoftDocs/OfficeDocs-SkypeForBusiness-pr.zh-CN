@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何查看您的组织中的所有电话号码的列表、分配给用户的所有号码, 以及从 Skype for Business 管理中心分配给语音用户的所有号码。
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280465"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493903"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -34,7 +34,7 @@ ms.locfileid: "34280465"
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 
 1. 使用你的工作或学校帐户登录 Office 365。
@@ -64,7 +64,7 @@ ms.locfileid: "34280465"
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>查看分配给用户的所有电话号码
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 
 当你设置用户时，你可能只希望查看已分配给用户的电话号码列表以及哪些电话号码可以分配给用户。
@@ -88,7 +88,7 @@ ms.locfileid: "34280465"
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>查看分配给语音用户的电话号码
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 
 当你在组织中设置用户以便拨打和接听电话呼叫时，必须首先获得电话号码，然后将其分配给用户。 获得电话号码后，你可能只希望查看已分配了电话号码的用户列表、未分配电话号码的用户列表以及用户是在线托管还是本地托管。

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '了解如何设置 Skype for business, 以便你可以查看同事的可用性。 '
-ms.openlocfilehash: a22606beacd03bfefda2b3080c2ee345ccfef2fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7a5eb07f21f889da545fd2270789d3bd34ed42b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285321"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494233"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>在 Skype for Business Online 中配置状态
 
@@ -34,7 +34,7 @@ ms.locfileid: "34285321"
 
 作为企业中每个人的**[管理员](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 您可以选择哪些人可以在 Skype for business 中看到其联机状态。
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 转到**Office 365 管理中心** > **管理中心** > **Skype for**business。
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype for business Online 步骤, 将电话拨入式会议许可证和会议 ID 分配给用户以及其他许多电话拨入式会议设置。 '
-ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299170"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494243"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -58,7 +58,7 @@ ms.locfileid: "34299170"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 使用你的工作或学校帐户登录 Office 365。
 

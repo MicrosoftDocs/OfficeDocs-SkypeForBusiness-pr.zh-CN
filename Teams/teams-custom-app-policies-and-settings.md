@@ -17,16 +17,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理自定义应用策略和设置, 以控制你的组织中可在 Microsoft 团队中上载自定义应用的人员。
-ms.openlocfilehash: 27123e6e943f7dc570098c36732fd0d1ba09e8af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283708"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548658"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> 有关在 Microsoft 团队中管理应用的当前方法, 请参阅[管理你的组织的 Microsoft 团队设置](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)。
 
 作为管理员, 你可以使用自定义应用策略和设置来控制你的组织中哪些人可以将自定义应用上载到 Microsoft 团队。 管理员决定哪些用户可以上载自定义应用, 管理员和团队所有者可以确定你的组织中的特定团队是否允许将自定义应用添加到其中。  
 
@@ -34,7 +37,7 @@ ms.locfileid: "34283708"
 
 用户可以直接将应用包 (在 .zip 文件中) 上载到团队或个人上下文中, 将自定义应用添加到团队。 这不同于通过团队应用商店添加应用的方式。 通过上载应用包 (也称为旁加载) 添加自定义应用, 可以在开发应用程序之前对其进行测试, 然后才可以广泛分发。 它还允许你构建仅供内部使用的应用, 并与你的团队共享它, 而无需将其提交到团队应用商店中的团队应用程序目录。
 
-![上载自定义应用程序](media/teams-custom-app-policy-and-settings-upload-app.png)
+![显示 "在应用商店中上载自定义应用" 选项的屏幕截图](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>自定义应用策略和设置
 
@@ -91,7 +94,7 @@ ms.locfileid: "34283708"
 2. 单击 "**设置**", 然后展开 "**成员权限**"。
 3. 选中或清除 "**允许成员上载自定义应用**" 复选框。
 
-    ![团队自定义应用设置](media/teams-custom-app-policy-and-settings-team.png)
+    ![显示团队自定义应用设置的屏幕截图](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>组织范围的自定义应用设置
 
@@ -103,7 +106,7 @@ ms.locfileid: "34283708"
 2. 单击 "**组织范围的应用设置**"。
 3. 在 "**自定义应用**" 下, 打开或关闭 "**允许与自定义应用交互**"。
 
-    ![组织范围的自定义应用设置](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![显示组织范围的自定义应用设置的屏幕截图](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>自定义应用策略和设置的协同工作方式
 

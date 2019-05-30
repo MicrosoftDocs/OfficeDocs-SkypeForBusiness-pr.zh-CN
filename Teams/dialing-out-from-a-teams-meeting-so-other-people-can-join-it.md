@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281890"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548921"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
@@ -43,10 +43,10 @@ ms.locfileid: "34281890"
 
 下面介绍了如何使用拨出功能:
 
- **步骤 1:** 在会议中, 使用 "**添加人员** ![添加联系人"](media/add-people-button.png)按钮拨出到电话号码。
+ **步骤 1:** 在会议中, 使用 "添加人员" 按钮](media/add-people-button.png)选项的 "**添加人员** ![" 屏幕截图拨出电话号码。
  **步骤 2:** 输入完整的电话号码, 包括 "**邀请他人或拨打号码**" 框中的国家/地区代码。
   
-!["邀请他人或拨打号码" 框](media/invite-someone-box.png)
+!["邀请某人或拨打号码" 框的屏幕截图](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 

@@ -18,40 +18,40 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 5f69760ed05f27a7fe0396c4c5d17246bebc2d1d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864894"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494599"
 ---
 > [!NOTE]
-> 查看以下信息以了解聊天、 工作组、 通道和团队中的 & 应用程序。 然后，转到[部署聊天、 工作组、 通道和团队中的 & 应用程序](deploy-chat-teams-channels-microsoft-teams-landing-page.md)来为您的团队推出遍历的重要决策的列表。
+> 查看以下信息以了解团队中的聊天、团队、频道 & 应用。 然后, 转到[团队中的 "部署聊天"、"团队"、"频道"、"&" 应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md), 以浏览针对团队推出的重要决策列表。
 
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 =================================================
 
 我们首先来了解 Microsoft Teams 如何允许单个团队进行自我组织并跨业务场景进行协作：
 
--   **团队**是人员、 内容和工具周围不同项目和组织内的结果的集合。
+-   **团队**是组织内不同项目和结果周围的人员、内容和工具的集合。
 
     -   可以创建只允许受邀用户加入的专用团队。
 
-    -   也可以创建团队为公用和打开和组织内的任何人都可以加入 （最多 5000 个成员）。
+    -   也可以将团队创建为公共和开放, 并且组织内的任何人都可以加入 (最多可达5000个成员)。
     
     团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
 
--   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。 在通道 （在文件选项卡） 中共享的文件存储在 SharePoint 中。 若要了解详细信息，请阅读[如何 SharePoint Online 和 OneDrive for Business 交互团队](SharePoint-OneDrive-interact.md)。
+-   **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。 在频道中共享的文件 (在 "文件" 选项卡上) 存储在 SharePoint 中。 若要了解详细信息, 请参阅[SharePoint Online 和 OneDrive For Business 如何与团队进行交互](SharePoint-OneDrive-interact.md)。
 
-    -   团队频道是团队中的所有人都可以公开进行对话的地方。 专用聊天仅都能看到这些聊天中的人员 （和聊天中共享的文件存储中的 OneDrive for Business）。 
+    -   团队频道是团队中的所有人都可以公开进行对话的地方。 私人聊天仅对聊天中的人员可见 (在聊天中共享的文件存储在 OneDrive for Business 中)。 
 
-    -   频道是扩展包含选项卡、 连接符和增加其值为团队的成员的机器人的应用程序时最有价值。 若要了解详细信息，请参阅[应用程序、 自动程序、 团队中的 & 连接器](deploy-apps-microsoft-teams-landing-page.md)。
+    -   通过包含选项卡、连接器和机器人的应用进行扩展时, 通道最有价值, 这些应用会将其值增加到团队成员。 若要了解详细信息, 请参阅[团队中的应用、bot、& 连接器](deploy-apps-microsoft-teams-landing-page.md)。
 
-查看此简短视频以了解有关创建团队和频道的最佳实践的详细信息。
+观看此简短视频, 了解有关创建团队和频道的最佳做法的详细信息。
 
    > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
-<a name="membership-roles-and-settings"></a>成员资格、 角色和设置
+<a name="membership-roles-and-settings"></a>成员身份、角色和设置
 ------------------------------
 
 **团队成员资格** 为你的整个组织激活 Microsoft Teams 后，指定团队所有者将能够邀请一起合作的任何员工加入他们的团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 
@@ -62,15 +62,15 @@ ms.locfileid: "33864894"
 
 **团队设置** 团队所有者可以直接在 Microsoft Teams 中管理团队范围设置。 设置包括添加团队图片、跨团队成员设置创建频道、添加选项卡和连接器和 @提及整个团队或频道的功能，以及 GIF、贴纸和 Meme 的使用情况。 
 
-需要三个分钟才能查看本指南转到视频团队所有者的使用： 
+请花三分钟时间查看有关团队所有者的此转到指南的视频: 
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-如果您是 Office 365 中的 Microsoft 团队管理员，您的 Microsoft 团队管理中心中有权访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
+如果你是 Office 365 中的 Microsoft 团队管理员, 则可以访问 Microsoft 团队管理中心中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户也可以使用 Teams 功能帮助自己。
 
-吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与人员交谈，并帮助他们选择其中他们当前协作方式零碎的业务方案。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
+吸引用户使用 Teams 的一项关键的早期计划活动是帮助人们考虑和了解 Microsoft Teams 如何在其日常生活中增强协作。 与其他人交谈, 帮助他们选择当前以零碎方式进行协作的业务方案。  将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一就是跨组织流程。 
 
 <a name="example-teams"></a>示例团队 
 --------------
@@ -79,7 +79,7 @@ ms.locfileid: "33864894"
 
 Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因此，鼓励你的用户从职能团队而不是组织界限角度考虑这一点。
 
-|团队类型  |可能的频道  |应用（选项卡 ![选项卡图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/连接器 ![连接器图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/聊天机器人 ![聊天机器人图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|团队类型  |可能的频道  |应用（选项卡 ![描述带有选项卡的文件夹的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/连接器 ![描述连接块的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/聊天机器人 ![描述小机器人机器人的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |销售     |年度销售会议<br></br> 季度业务回顾<br></br> 月度销售渠道回顾<br></br> 销售战术 |Power BI<br></br>Trello<br></br>CRM<br></br>汇总聊天机器人         |
 |公共关系     |新闻发布<br></br>新闻和更新<br></br>核实         |RSS 源<br></br>Twitter         |
@@ -94,8 +94,8 @@ Microsoft Teams 的特点在于打破组织界限及推动跨职能团队，因�
 
 可以根据组织结构创建团队。  对于想要推动士气、举行团队特定评审、澄清员工入职流程、讨论人力计划并提高跨分散人力的可见性的领导来说，这最为适用。  
 
-![Microsoft Teams 中团队和频道组织方式层次结构示意图。](media/overview-of-teams-and-channels-image1.png)
+![Microsoft 团队中组织的团队和频道的层次结构图表。](media/overview-of-teams-and-channels-image1.png)
 
-## <a name="org-wide-teams"></a>组织范围团队
+## <a name="org-wide-teams"></a>组织范围的团队
 
-如果您的组织具有不超过 5,000 名用户，您可以创建一个组织范围团队。 组织范围团队提供的成为一个小组进行协作的组织中所有人的自动方法。 有关详细信息，包括用于创建和管理组织范围团队，最佳做法，请参阅[创建一个组织范围团队中的 Microsoft 团队](create-an-org-wide-team.md)。
+如果您的组织不超过5000个用户, 则可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供了一种自动方法, 作为单个团队协作的一部分。 有关详细信息 (包括创建和管理组织范围的团队的最佳做法), 请参阅[在 Microsoft 团队中创建组织范围的团队](create-an-org-wide-team.md)。

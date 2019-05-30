@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '请参阅您如何搜索可以按国家/地区、 国家/地区或市/县分配给用户的电话号码，并指定所需的数量。 '
-ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2630dd7853760db16497eec83be30af8a0ff0ef8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280489"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493941"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>为用户搜索电话号码
 
@@ -40,7 +40,7 @@ Before you can assign phone numbers to your users, you must use the **New number
 
  **为用户搜索电话号码**
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
   
 1. 使用你的工作或学校帐户登录 Office 365。
     

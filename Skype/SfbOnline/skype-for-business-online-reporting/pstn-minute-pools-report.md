@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如, 您可以使用 Skype for Business PSTN 分钟池报告查看您的组织内当前月份内消耗的分钟数。
-ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287742"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494012"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -41,7 +41,7 @@ ms.locfileid: "34287742"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何访问 Skype for Business PSTN 分钟池报告
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 - 转到**Office 365 管理中心** > **管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 分钟池**。
     

@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344095"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548618"
 ---
-![升级过程的各个阶段，重点在技术就绪阶段](media/upgrade-banner-tech-readiness.png "升级过程的各个阶段，重点在技术就绪阶段")
+![升级旅行图, 强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
 
 本文属于升级过程的技术就绪阶段，此阶段的活动与用户就绪阶段并行完成。 在继续操作之前，请确认你已完成前面各阶段的活动。
 
@@ -38,7 +38,7 @@ ms.locfileid: "34344095"
 
 如果你要部署音频、视频或会议, 你可以执行一些额外的步骤来为该功能优化你的网络。 团队使用音频和视频技术 (编解码器), 它可以在大多数网络条件下适应, 从而性能更好。 为确保最佳性能, 应为团队准备网络。
 
-![描述三个质量组件以及服务管理如何与所有三个组件重叠的图表](media/evaluate-my-environment-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
+![描述三个质量组件的图表](media/evaluate-my-environment-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
 
 ## <a name="why-should-you-prepare-your-network"></a>为什么要准备网络？
 

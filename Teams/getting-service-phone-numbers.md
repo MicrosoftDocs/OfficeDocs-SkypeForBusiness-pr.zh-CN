@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: b9e7e524feceb9b2449ffb290aaff1d1266799eb
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0ffcb07a649c8fc82b3c5a6139f9692263961ef2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34336391"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494655"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -46,7 +46,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 使用你的工作或学校帐户登录 Office 365。
     

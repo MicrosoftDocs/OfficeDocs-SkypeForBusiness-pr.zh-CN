@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为云呼叫队列设置电话系统, 以便为你提供组织问候语、保持的音乐以及将呼叫重定向到通讯组列表和安全组中的呼叫代理。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404307"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549008"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -127,18 +127,18 @@ ms.locfileid: "34404307"
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>设置呼叫队列显示名称和资源帐户
 
-![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
+![带有编号标注的新通话队列的屏幕截图](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![数字 1](media/sfbcallout1.png)
-**名称**输入呼叫队列的描述性显示名称。 此为必填字段，最多可以包含 64 个字符，其中包括空格。
+![数字1的图标, 引用上一个屏幕截图](media/sfbcallout1.png)
+**名称**中的标注输入呼叫队列的描述性显示名称。 此为必填字段，最多可以包含 64 个字符，其中包括空格。
 
  此名称将显示在传入呼叫的通知中。
 
 * * *
 
-![第二](media/sfbcallout2.png)
+![数字2的图标, 引用上一个屏幕截图中的标注](media/sfbcallout2.png)
 
 **添加帐户**选择资源帐户。 资源帐户可能与呼叫队列的服务收费或免费电话号码相关联, 但是每个通话队列都需要关联的资源帐户。
 
@@ -149,17 +149,17 @@ ms.locfileid: "34404307"
 
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>设置通话保持时播放的问候语和音乐
 
-![Setting up a call queue.](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![带有编号标注的问候和音乐选项的屏幕截图](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 * * *
 
-![第一](media/sfbcallout1.png)
+![数字1的图标, 引用上一个屏幕截图中的标注](media/sfbcallout1.png)
 
 **问候语**是可选设置。 这是呼叫呼叫队列号码的用户所播放的问候语。
 
 你可以上载音频文件 (.wav、mp3 或 .wma 格式)。
 
-![第二](media/sfbcallout2.png)
+![数字2的图标, 引用上一个屏幕截图中的标注](media/sfbcallout2.png)
 
 **暂停的音乐**你可以使用与呼叫队列一起提供的默认音乐保持通话, 也可以将音频文件上载为 .wav、mp3 或 .wma 格式, 用作保留的自定义音乐。
 
@@ -167,9 +167,9 @@ ms.locfileid: "34404307"
 
 ### <a name="select-the-call-answering-options"></a>选择呼叫应答选项
 
-![显示呼叫分发方法选项](media/5d249515-d532-4af2-90da-011404028b89.png)
+![带有编号标注的呼叫应答选项的屏幕截图](media/5d249515-d532-4af2-90da-011404028b89.png)
 
-![第一](media/sfbcallout1.png)
+![数字1的图标, 引用上一个屏幕截图中的标注](media/sfbcallout1.png)
 
 您最多可以选择属于指定邮寄列表或组的200呼叫代理。 通话代理必须是:
 
@@ -184,9 +184,9 @@ ms.locfileid: "34404307"
 
 - 如果你的代理使用 Microsoft 团队应用接收呼叫队列呼叫, 则他们必须处于 TeamsOnly 模式。
 
-![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
+!["添加呼叫代理" 窗格的屏幕截图](media/skype-for-business-add-agents-to-call-queue.png)
 
-![第二](media/sfbcallout2.png)
+![数字2的图标, 引用上一个屏幕截图中的标注](media/sfbcallout2.png)
 
 **路由方法**您可以为您的通话队列分发方法选择 "**助理**"、"**串行**" 或 "**循环**"。 所有新的和现有呼叫队列将具有默认情况下选中的助理路由。 使用 "助理路由" 时, 队列中的首次呼叫将同时拨打所有呼叫代理。 获取呼叫的第一个呼叫代理将获取呼叫。
 
@@ -198,11 +198,11 @@ ms.locfileid: "34404307"
 
 ### <a name="select-an-agent-opt-out-option"></a>选择代理退出选项
 
-![显示代理退出复选框](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![代理选择退出选项的屏幕截图, 带有编号标注](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 * * *
 
-![第一](media/sfbcallout1.png)
+![数字1的图标, 引用上一个屏幕截图中的标注](media/sfbcallout1.png)
 
 **代理退出选项**你可以选择允许呼叫队列代理通过选择**代理退出选项**，不接收来自特定队列的呼叫。
 。
@@ -218,8 +218,8 @@ ms.locfileid: "34404307"
     > [!NOTE]
     > 使用 Skype for Business 桌面之外的应用或终结点的代理可以从 "用户设置" 门户[https://aka.ms/cqsettings](https://aka.ms/cqsettings)访问 "退出" 选项。
 
-![第 2](media/sfbcallout2.png)
-号码**代理警报设置**
+![数字2的图标, 在上一个屏幕截图](media/sfbcallout2.png)
+中引用标注**Agent 警报设置**
 
 这定义了在串行或循环路由方法移到下一个代理之前通知呼叫的代理的持续时间。
 
@@ -229,17 +229,17 @@ ms.locfileid: "34404307"
 
 ### <a name="set-the-call-overflow-and-timeout-handling-options"></a>设置呼叫溢出和超时处理选项
 
-![Set up a call queue.](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+![溢出处理选项 (带有编号标注) 的屏幕截图](media/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 * * *
 
-![第一](media/sfbcallout1.png)
+![数字1的图标, 引用上一个屏幕截图中的标注](media/sfbcallout1.png)
 
 **队列中的最大呼叫数** 使用此字段来设置同一时间可以在队列中等待的最大呼叫数。 默认值为 50, 但范围可以从0到200。 达到此限制后，将按照在后面的" **达到最大呼叫次数时**"设置中指定的方式来处理呼叫。
 
 * * *
 
-![第二](media/sfbcallout2.png)
+![数字2的图标, 引用上一个屏幕截图中的标注](media/sfbcallout2.png)
 
 **达到最大通话次数时**当通话队列达到最大值 (使用 **"队列" 设置中的最大通话**设置) 时, 您可以选择新的传入呼叫发生的情况。
 
@@ -254,13 +254,13 @@ ms.locfileid: "34404307"
 
 * * *
 
-![第三](media/sfbcallout3.png)
+![数字3的图标, 引用上一个屏幕截图中的标注](media/sfbcallout3.png)
 
 **呼叫超时: 最长等待时间**您还可以决定呼叫在队列中保留多长时间, 并且需要重定向或断开连接。 重新定向的目的地取决于" **当呼叫超时时**"中的设置。 你可以将此时间设置为 0 到 45 分钟。
 
 超时值可以以秒为单位按 15 秒间隔进行设置。 这样，你可以以更细的粒度操作呼叫流。 例如, 您可以指定30秒内代理未接听的任何通话转到目录搜索自动助理。
 
-![第四](media/sfbcallout4.png)
+![数字4的图标, 引用上一个屏幕截图中的标注](media/sfbcallout4.png)
 
 **拨出的时间**当呼叫达到您在 "队列" 设置**中呼叫可以等待的时间**限制时, 您可以选择对此呼叫执行的操作:
 

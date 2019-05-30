@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344722"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548379"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -73,7 +73,7 @@ ms.locfileid: "34344722"
 
 团队使用音频和视频技术 (编解码器), 它可以在大多数网络条件下适应, 从而性能更好。 为确保最佳性能, 应为团队准备网络。
 
-![描述三个质量组件以及服务管理如何与所有三个组件重叠的图表](media/evaluate-my-environment-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
+![描述三个质量组件的图表](media/evaluate-my-environment-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
 
 ## <a name="key-takeaways"></a>关键优势
 

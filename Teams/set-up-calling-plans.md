@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 8196b764f61fda7691d65a74f2eb89969ef2d48a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305242"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494703"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
@@ -58,13 +58,13 @@ ms.locfileid: "34305242"
 
 **为您的组织添加紧急地址**
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 在 Skype for business 管理中心中, 转到 "**语音** > **紧急位置** > "**添加新地址**。 有关详细信息, 请参阅为[您的组织添加或删除和紧急地址](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)。
 
 **为您的组织添加紧急位置** 
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 在 Skype for business 管理中心中, 转到 "**语音** > **紧急位置** > "**添加新地址**。 有关详细信息, 请参阅[为您的组织添加、更改或删除紧急位置](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)。
 
@@ -74,7 +74,7 @@ ms.locfileid: "34305242"
 
 **为用户添加紧急地址** 
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 在 Skype for business 管理中心中, 转到**语音** > **语音用户** > **紧急位置** > **分配号码** > **更改位置**。 有关详细信息, 请参阅[为用户分配或更改紧急地址](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)。
 
@@ -83,7 +83,7 @@ ms.locfileid: "34305242"
 
 **为用户分配电话号码**
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 在 Skype for business 管理中心中, 转到**语音** > **语音用户** > **分配号码** > **更改位置**。 有关详细信息, 请参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
@@ -98,15 +98,15 @@ ms.locfileid: "34305242"
     
 2. 选择 **设置** > **工具选项** > **选项**。 
     
-     ![要查看您的电话号码，请转到设置 > 工具 > 选项。](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     !["工具" 菜单上选项的屏幕截图](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. 然后，选择" **电话**"。 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![选择 "电话" 选项的屏幕截图](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 在**Microsoft Teams** 中，用户通过单击左侧导航窗格中的**呼叫**，可以看到他们的电话号码。 电话号码显示在拨号板上方。
 
-![通过单击左侧导航窗格中的呼叫，用户可以在 Microsoft Teams 中看到其号码。](media/teams-phone-number.png)
+![在左侧导航中选择 "呼叫" 的屏幕截图。](media/teams-phone-number.png)
 
 ## <a name="what-else-do-you-need-to-know"></a>你还需要了解哪些信息？
 <a name="bkmk_add_addresses"> </a>

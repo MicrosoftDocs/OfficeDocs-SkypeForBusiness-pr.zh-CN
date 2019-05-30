@@ -10,50 +10,50 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何获取用户反馈和使用服务运行状况团队应用中的报告。
+description: 了解如何获取用户反馈并使用团队采纳中的服务运行状况报告。
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02c7958e37f93d254e6f10c09bccc225e8141978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930385"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494813"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
-确保您得到信号后从您的服务和您的员工按照用户反馈和服务运行状况报告的我们最佳做法。  在某些情况下，您可能需要 Office 365 管理员权限才能访问特定服务使用率和运行状况报告。 如果您不是 Office 365 管理员为您的组织，使用该个人要授予访问此数据的一些 Microsoft 365 管理中心中的报告读取器角色。 
+通过关注用户反馈和服务运行状况报告的最佳做法, 确保您从您的服务和员工那里获得信号。  在某些情况下, 你可能需要 Office 365 管理员权限来访问某些服务使用情况和运行状况报告。 如果您不是您的组织的 Office 365 管理员, 请与该人员合作, 在 Microsoft 365 管理中心向其授予 "报表读者" 角色, 以访问这些数据。 
 
-## <a name="incorporating-feedback"></a>引入反馈 
+## <a name="incorporating-feedback"></a>合并反馈 
 
-整个试验阶段您将捕获人员如何使用产品和其体验的信息。 使用此信息现在您计划跨业务部门展开其使用调整您的知晓和培训计划。 可能有一些常见问题的示例：
+在实验阶段, 你将捕获有关用户如何使用产品及其体验的信息。 请立即使用此信息调整你的意识和培训计划, 以便在你的业务单元中扩展其使用。 一些常见的示例问题可能是:
 
-- 何时我现有技术一起使用此新工具？
-- 用户已获得批准与我使用此工具？
-- 是安全的高度机密信息？ 
-- 用户我与通话若要了解有关 Microsoft 团队的详细信息？
-- 内容不起作用。 如何获得帮助？
+- 何时使用此新工具和现有的技术？
+- 谁同意与我一起使用此工具？
+- 对高度保密的信息是否安全？ 
+- 我与谁交谈以了解有关 Microsoft 团队的详细信息？
+- 某些功能无法正常工作。 如何获得帮助？
 
-## <a name="invest-in-your-champions"></a>在您拥护者投资
+## <a name="invest-in-your-champions"></a>在拥护中投资
 
-准备扩展 Microsoft 团队的使用情况时，招募中每个业务部门或组将扩展到其他拥护者。 注册服务培训程序，在这些热烈人员和标准化您如何以及何时满足与他们。
+当你准备缩放 Microsoft 团队的使用时, 请在要扩展到的每个业务单元或组中招聘其他拥护人。 在你的服务培训计划中注册这些 enthusiastic 人员, 并对其进行标准化以及何时满足。
  
-是在拥护者程序设计中清除，将收到的员工和它们是什么预期授予如果随即拥护者。 常见程序要求是计划的 office 小时、 每月社区呼叫、 参与和参与内部在线社区以支持过渡到这些新的体验。  
+请注意, 在您的 "拥护程序" 设计中, 你的员工将获得哪些内容, 以及他们在成为拥护人士时应提供哪些内容。 常见的计划要求是安排办公时间、参与月度社区通话和参加内部在线社区, 以支持您过渡到这些新体验。  
 
-最佳实践： 保存您的内部拥护者每月的团队会议。 拆分您教学新功能、 寻址反馈和提供用于员工社区的自助服务工具之间的议程。
+最佳做法: 为您的内部拥护的团队召开月度团队会议。 在 "讲授新功能"、"解决反馈" 和 "为员工社区提供自助服务工具" 之间拆分日程。
 
-最佳实践： 从您的内部支持部门或 IT 服务台平均代表加入您拥护者社区保持最新的有关您的团队使用的新信息。 
+最佳做法: 使用内部支持部门的平均代表或 IT 帮助台加入你的冠军社区, 随时了解有关团队使用情况的新信息。 
 
-## <a name="service-reporting"></a>报告服务
+## <a name="service-reporting"></a>服务报告
 
-有三种类型的报告，您应当查看在您部署和采用 Microsoft 团队：
+部署和采用 Microsoft 团队时, 应查看三种类型的报告:
 
-- [服务运行状况](https://status.office365.com/)– 从 Office 365 和内部 IT 支持部门。
-- [服务活动](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)– Office 365 中查看[报告上的 Microsoft 团队](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可能贵组织中使用来自其他系统的信息。
-- 服务满意度 – 从内部社区论坛和调查收集上特定的体验
+- [服务运行状况](https://status.office365.com/)-从 Office 365 和内部 IT 支持部门。
+- [服务活动](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)-从 Office 365 查看[Microsoft 团队的报告](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可以使用您的组织内的其他系统中的信息。
+- 服务满意度-从内部社区论坛和调查收集到特定体验
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[驱动器认知度和培训](teams-adoption-drive-awareness.md)
+![表示下一步骤](media/teams-adoption-next-icon.png)的图标:[驱动器感知和实施培训](teams-adoption-drive-awareness.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344698"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548363"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -64,7 +64,7 @@ ms.locfileid: "34344698"
 
 [适用于语音 (行动手册) 的网站支持行动手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)是 Microsoft Excel 工作簿。 这五个焦点区域中的每一个都是工作簿中的单独工作表, 每个部署任务和活动都分组到其中一个工作表中。
 
-![行动手册的屏幕截图](media/deploy-my-service-image1.png "行动手册的屏幕截图")
+![网站支持行动手册的屏幕截图](media/deploy-my-service-image1.png "行动手册的屏幕截图")
 
 > [!NOTE]
 > 你将为团队推出的范围内的每个网站创建一个单独的 "行动手册" 实例。
@@ -88,8 +88,8 @@ ms.locfileid: "34344698"
 5. 检查每个活动, 执行必要的操作, 并在遍历日程表时更新状态。 状态以图形形式表示, 如下所述:
   
    - ![绿色复选标记](media/deploy-my-service-image3.png)为 **"是" 或 "不适用" (绿色)** 的插图: 活动已完成, 或者不适用于此网站, 不需要执行其他操作。</li>
-    - ![](media/deploy-my-service-image4.png) <strong>活动尚未完成的黄色感叹号的插图 (黄色):</strong>该活动尚未完成, 并且必须在其计划中更新为 "是" 或 "否"。</li>
-   - ![红色 X](media/deploy-my-service-image5.png)的插图<strong>(红色):</strong>无法完成活动, 因为出现问题, 必须将其传送到项目状态会议。</li></ul>
+   - ![](media/deploy-my-service-image4.png) <strong>活动尚未完成的黄色感叹号的插图 (黄色):</strong>该活动尚未完成, 并且必须在其计划中更新为 "是" 或 "否"。</li>
+   - ![红色 X 标记](media/deploy-my-service-image5.png)的插图 "<strong>否" (红色):</strong>无法完成活动, 因为出现问题, 必须将其传送到项目状态会议。</li></ul>
 
 6. 状态将在每个分区内进行汇总, 分区标题将设置为这些状态标记之一。 **每周状态**也会自动更新。
 
@@ -103,8 +103,8 @@ ms.locfileid: "34344698"
 注意可能花费比计划更多时间的活动, 例如号码移植和采购活动。 这些活动可能会对网站部署时间线产生负面影响。 请务必查看和更新活动列表和关联的日程表每周, 并在[筹划指导委员会会议](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)中展示它们, 以确保利益干系人了解每个网站的状态以及部署计划的任何可能的偏差。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定你的部署是否需要网站支持行动手册。</li><li>确定负责为您要部署的每个网站自定义 Microsoft 团队的网站支持行动手册的人员。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站支持行动手册</a>。</li><li>为您的第一个网站自定义 "网站支持行动手册"。</li><li>根据需要重复其他网站的操作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定你的部署是否需要网站支持行动手册。</li><li>确定负责为您要部署的每个网站自定义 Microsoft 团队的网站支持行动手册的人员。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站支持行动手册</a>。</li><li>为您的第一个网站自定义 "网站支持行动手册"。</li><li>根据需要重复其他网站的操作。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

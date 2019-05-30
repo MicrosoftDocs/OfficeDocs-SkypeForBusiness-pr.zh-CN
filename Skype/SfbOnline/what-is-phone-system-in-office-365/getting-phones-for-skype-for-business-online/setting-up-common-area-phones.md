@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新它、分配许可证以及配置通用区域电话的设置。
-ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297985"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493854"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -81,7 +81,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) 使用 **Skype for Business 管理中心**将电话号码分配给用户
+![显示 Skype for Business 徽标](../../images/sfb-logo-30x30.png)的图标使用**skype for business 管理中心**向用户分配电话号码
 
 1. 在 Office 365 管理中心 > **admin** > center**Skype for**business。
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。

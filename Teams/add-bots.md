@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ecd17e7aa5f4c814aadcfd0dfa01eb9fcdbb7f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6987c14973443e62f0be69f9872c4e248ddb026b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278168"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548842"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
@@ -49,11 +49,11 @@ ms.locfileid: "34278168"
 <a name="side-load-your-own-bot-for-private-chat"></a>为私人聊天侧向加载你自己的聊天机器人
 ---------------------------------------
 
-1. 创建你的 bot 后, 请转到你开发的 bot 的**应用程序设置**, 然后在 "**应用设置**" 下复制**MicrosoftAppId**设置的值。![已突出显示 MICROSOFT 应用 ID 的 bot 的 "应用程序设置" 页面的屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. 创建你的 bot 后, 请转到你开发的 bot 的**应用程序设置**, 然后在 "**应用设置**" 下复制**MicrosoftAppId**设置的值。![Bot 的 "应用程序设置" 页面的屏幕截图](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
-2.  在 Microsoft Teams 中的 **“聊天”** 窗格上，选择**添加聊天图标**。 将你的聊天机器人的 **Microsoft 应用 ID** 粘贴到 **“至:”**。 ![具有“添加聊天”图标且“至:”行中突出显示了 Microsoft 应用 ID 的聊天窗格屏幕截图。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  在 Microsoft Teams 中的 **“聊天”** 窗格上，选择**添加聊天图标**。 将你的聊天机器人的 **Microsoft 应用 ID** 粘贴到 **“至:”**。 ![突出显示了 Microsoft 应用 ID 的聊天窗格的屏幕截图](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 
 
@@ -66,9 +66,9 @@ ms.locfileid: "34278168"
 
 1. [为你的 bot 创建应用包](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)后, 打开团队并浏览到要在其中加载机器人的团队。
 2. 向 Microsoft 团队添加**[应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)** 应用程序。
-3. 在应用程序 Studio 中, 选择 "**清单编辑器**" 选项卡。 ![清单编辑器选项卡的屏幕截图。](media/Adding_Bot_To_Teams.png)
+3. 在应用程序 Studio 中, 选择 "**清单编辑器**" 选项卡。 !["清单编辑器" 选项卡的屏幕截图。](media/Adding_Bot_To_Teams.png)
 4. 若要在 "功能" 中添加你的机器人, 请选择 "bot" 并选择添加现有机器人, 然后你可以选择删除一个现有的 bot 或输入一个现有 bot 的 Id。
-![选择已创建的 bot。](media/Select_Existing_Bot.png)
+![显示选择已创建的 bot。](media/Select_Existing_Bot.png)
 5. 通过浏览找到应用包的位置, 将其选中, 然后单击 "**打开**"。
 6. 选择你的 bot 的名称 (不要忘记选中 "范围" 部分下的 "团队" 复选框)
 7. 选择 "测试和分布" 选项。

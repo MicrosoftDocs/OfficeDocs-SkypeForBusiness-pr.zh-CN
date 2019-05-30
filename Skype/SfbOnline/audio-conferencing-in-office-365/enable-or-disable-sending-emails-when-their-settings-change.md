@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3f6b94f0ddb4410d89ecd95aef346eb32c9ff1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290117"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494223"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -62,7 +62,7 @@ Users are automatically notified by email when they are enabled for Audio Confer
 你可以使用 Skype for Business 管理中心或 Windows PowerShell 来启用或禁用发送给用户的电子邮件。
 
  
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
     
 1. 在**Skype For business 管理中心**的左侧导航中, 单击 "**音频会议**"。
     

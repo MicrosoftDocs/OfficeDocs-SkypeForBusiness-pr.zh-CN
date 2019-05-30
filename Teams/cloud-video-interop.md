@@ -7,116 +7,116 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
-description: 云视频互操作使第三方会议房间设备加入 Microsoft 小组会议。
+description: 云视频互操作允许第三方会议室设备加入 Microsoft 团队会议。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a3da2281ffcc444478a32e3a4980f707acfd25f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198507"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549016"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
-视频互操作云 (CVI) 是一种 Microsoft 合格第三方解决方案，使第三方会议室 （监控） 和个人视频设备 (VTCs) 加入会议的 Microsoft 团队。
+云视频互操作 (CVI) 是 Microsoft 合格的第三方解决方案, 支持第三方会议室 (telepresence) 和个人视频设备 (VTCs) 加入 Microsoft 团队会议。
  
-与 Microsoft 团队，包括音频、 视频以及内容共享的会议中获取丰富的联机内容协作。 通过桌面和 web 客户端，以及通过与 Microsoft 团队本机集成的许多合作伙伴设备，这可以被喜欢。 但是，许多客户已购买了视频电话会议和个人的视频通信设备，可以升级的费用。 云视频互操作提供了一个简单的解决方案，从而使您可以继续使用您现有的解决方案，直到您准备升级。
+有了 Microsoft 团队, 您就可以在会议中获得丰富的在线内容协作, 包括音频、视频和内容共享。 通过桌面和 web 客户端, 以及通过与 Microsoft 团队本身集成的许多合作伙伴设备, 可以享受此操作。 但是, 许多客户已经购买了视频 teleconferencing 和个人视频通信设备, 这些设备的升级成本可能会很高。 云视频互操作提供了一个简单的解决方案, 使你可以继续使用现有解决方案, 直到准备好升级。
 
-与云视频互操作，Microsoft 团队所有参与者 – 在会议室中或内部团队客户端提供本机会议体验。
+借助云视频互操作, Microsoft 团队可为所有参与者 (在会议室或团队客户内) 提供本机会议体验。
 
-### <a name="is-cloud-video-interop-for-me"></a>我是否云视频互操作？
+### <a name="is-cloud-video-interop-for-me"></a>云视频互操作是否适合我？
 
-云视频互操作提供了中间服务时转换到完整本机 Microsoft 团队解决方案，使用团队终结点。 提供的服务应一部分迁移路径。
+在使用团队终结点切换到完整的本地 Microsoft 团队解决方案时, 云视频互操作提供了一个中间服务。 提供的服务应该是你的迁移路径的一部分。
 
-云视频互操作供客户满足以下条件：
+云视频互操作适用于满足以下条件的客户:
 
-- 具有未限定与 Microsoft 团队的直接集成的大型会议室内设备的部署和个人的视频设备部署 （50 + 设备）
-- 支持云视频互操作合作伙伴之一
-- 要保留其当前中的投资值到本机 Microsoft 团队解决方案在迁移期间会议室内设备和个人的视频设备
+- 部署的会议室设备和个人视频设备部署 (50 + 设备) 的规模较大, 不符合 Microsoft 团队直接集成的条件
+- 由我们的一个云视频互操作合作伙伴支持
+- 希望在迁移到本机 Microsoft 团队解决方案的过程中保留其在当前会议室设备和个人视频设备中的投资值
 
-虽然云视频互操作提供了一个绝佳的中间解决方案，我们鼓励长期查找到我们本机团队会议解决方案，如团队会议室系统，我们客户。 
+虽然云视频互操作提供出色的中间解决方案, 但我们鼓励我们的客户查看我们的本机团队会议解决方案, 例如团队房间系统。 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Microsoft 团队认证的合作伙伴
+### <a name="partners-certified-for-microsoft-teams"></a>面向 Microsoft 团队认证的合作伙伴
 
-以下合作伙伴具有 Microsoft 团队视频互操作的解决方案。 您的公司可以选择使用这些合作伙伴在企业内的任意组合。 
+以下合作伙伴具有适用于 Microsoft 团队的视频互操作解决方案。 您的公司可以选择与您的企业内的这些合作伙伴的任意组合配合使用。 
 
-|合作伙伴|合作伙伴解决方案|
+|配偶|合作伙伴解决方案|
 |----|---|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |
-|![Pexip 无穷大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队 Pexip 无穷大</a> | 
-|![BlueJeans 网关](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队 blueJeans 网关</a> |
+|![Polycom RealConnect 的徽标](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |
+|![Pexip 无穷大的徽标](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队的 Pexip 无穷大</a> | 
+|![BlueJeans 网关的徽标](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队的 BlueJeans 网关</a> |
 
 ### <a name="cloud-video-interop-overview"></a>云视频互操作概述
 
-云视频互操作是由我们的合作伙伴提供对内部部署和 Microsoft 团队的现有视频会议和视频设备个人解决方案之间的互操作性提供一个第三方服务。
+云视频互操作是由合作伙伴提供的第三方服务, 可提供现有视频会议和个人视频设备解决方案在本地和 Microsoft 团队之间的互操作性。
 
-我们的合作伙伴提供的解决方案包括的组件可以部署完全云基于或部分/完全在本地。 
+合作伙伴提供的解决方案由可在内部部署完全基于云或部分/完全部署的组件组成。 
      
-下图显示了我们的合作伙伴的高级体系结构解决方案。
+下图显示了合作伙伴解决方案的高级体系结构。
 
-![团队云视频互操作合作伙伴解决方案](media/teams-cloud-video-interop-partner-solution.png)
+![描述团队云视频互操作合作伙伴解决方案的图表](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>部署云视频互操作
 
-在部署云视频互操作解决方案时，务必了解您正在部署合作伙伴解决方案。 下图中列出了部署云视频互操作应采取的常规步骤。
+部署云视频互操作解决方案时, 了解你正在部署合作伙伴解决方案非常重要。 下图列出了部署云视频互操作应执行的常规步骤。
 
-![组织中部署 CVI](media/deploying-cvi.png)
+![介绍如何在组织中部署 CVI 的图表](media/deploying-cvi.png)
 
 ### <a name="plan"></a>规划
 
-在计划阶段，您应确定您将不替换本机团队设备，并查找云视频互操作合作伙伴可以支持这些设备的设备。  
+在计划阶段, 你应确定不会替换为本机团队设备的设备, 并查找可支持这些设备的云视频互操作合作伙伴。  
 
-还有一点了解，您将需要许可证，每个用户都将安排要在其中一个已启用云视频互操作的设备，以加入的会议。 请注意，可以从云视频互操作合作伙伴获得完全许可要求。 确保这是清除开始部署之前。
+还需要了解的是, 你将需要每位用户都有一个许可证, 这些用户将安排你希望启用云视频互操作的设备加入的会议。 请注意, 可以从云视频互操作合作伙伴获得确切的许可要求。 在开始部署之前, 请确保此操作已清除。
 
 ### <a name="configure"></a>配置
 
-您已选择为 CVI 部署合作伙伴将为您提供的贵组织中成功部署所需的所有步骤都组成完整部署文档。 这将包括防火墙端口和 IP 范围，您的设备，并需要更改其他设置的配置更改。
+你为 CVI 部署选择的合作伙伴将向你提供完整的部署文档, 该文档包含在你的组织内成功部署所需的所有步骤。 这将包括防火墙端口和 IP 范围、你的设备的配置更改以及需要更改的其他设置。
 
-### <a name="provision"></a>设置  
+### <a name="provision"></a>提供  
 
-在设置阶段，您将向用户分配许可证相应根据合作伙伴配置指南。 您还需要通过提供对团队环境的合作伙伴访问的 Azure Consent 过程。 可在此处找到 Azure Consent 过程的详细信息：https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+在设置阶段, 你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 可在此处找到有关 Azure 同意流程的详细信息:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
 
-### <a name="schedule"></a>计划
+### <a name="schedule"></a>安排
 
-计划使用任一团队会议外接程序 Outlook 或团队客户端的任何会议用户启用了云视频互操作后，将具有相应的其他信息自动添加到会议这样的团队云视频互操作兼容的设备可以加入这些会议。
+为用户启用云视频互操作后, 使用 Outlook 或团队客户端的团队会议加载项安排的任何会议都将自动添加到 "团队会议" 中的相应附加信息, 以便该云视频互操作兼容的设备可以加入这些会议。
 
 ### <a name="join"></a>Join
 
-合作伙伴解决方案中，根据有几种方法可以加入已启用云视频互操作的会议。 精确的与会方案将由您云视频互操作的合作伙伴提供。 我们列出了一些下面的示例：
+根据合作伙伴解决方案, 有多种方法可以加入启用云视频互操作的会议。 确切的会议加入方案将由你的云视频互操作合作伙伴提供。 我们已在下面列出了一些示例:
 
-- IVR （互动语音响应） 
-  - 您可以使用 tenantkey@domain 的合作伙伴的 IVR 拨入。
-  - 当您伙伴 IVR 中时，将提示您输入 VTC conferenceId，其中将然后将您连接到团队会议。
+- IVR (交互式语音响应) 
+  - 您可以使用 tenantkey @ 域拨入合作伙伴的 IVR。
+  - 当您在合作伙伴 IVR 中时, 系统将提示您输入 VTC conferenceId, 然后该会将您连接到团队会议。
 - 直接拨号 
-  - 您可以直接拨团队会议不使用直拨功能，与合作伙伴的 IVR 进行交互的情况下使用 tenantkey 的完整字符串。VTC ConferenceId@domain。
-- 一站式拨号 
-  - 如果您有集成的团队会议室，您可以使用 （而无需键入任何拨号串） 由您的合作伙伴提供的一站式拨号功能。
+  - 您可以通过直接拨号功能使用 tenantkey 的完整字符串, 直接拨入团队会议, 而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId @ domain。
+- 单点触控拨号 
+  - 如果您有一个集成的团队聊天室, 则可以使用合作伙伴提供的一种触摸式拨号功能 (无需键入任何拨号字符串)。
 
 ## <a name="manage-cloud-video-interop"></a>管理云视频互操作
 
-部署云视频互操作后，您可以管理使用我们的合作伙伴提供的解决方案的设备。 每个合作伙伴提供一个将包含许可证和设备管理的管理界面。 
+部署云视频互操作后, 你可以使用合作伙伴提供的解决方案管理设备。 每个合作伙伴将为您提供一个管理界面, 该界面将同时包含许可证和设备管理。 
 
-报告中也有直接从合作伙伴管理界面。 报告功能的详细信息，请与您选择的合作伙伴。 
+也可以直接从合作伙伴管理界面获取报告。 有关报告功能的详细信息, 请联系你选择的合作伙伴。 
 
-### <a name="troubleshooting-cloud-video-interop"></a>疑难解答云视频互操作
+### <a name="troubleshooting-cloud-video-interop"></a>云视频互操作疑难解答
 
-云视频互操作是合作伙伴提供服务。 如果您遇到问题，第一步是将设备已安装了团队客户端连接并将其连接到同一段作为云视频互操作设备造成问题。 
+云视频互操作是合作伙伴提供的服务。 如果遇到问题, 第一步是连接已安装团队客户端的设备, 并将其连接到与导致问题的云视频互操作设备相同的网段。 
 
-如果正确上这一段，并且您的团队功能还具有遵循合作伙伴提供的所有网络和配置指南，您将需要与合作伙伴联系进一步疑难解答。 
+如果团队在此段上正常运行, 并且你还遵守了合作伙伴提供的所有网络和配置指南, 则需要联系合作伙伴以进行进一步的故障排除。 
 
-## <a name="powershell-for-cloud-video-interop"></a>PowerShell for 云视频互操作
+## <a name="powershell-for-cloud-video-interop"></a>云视频互操作的 PowerShell
 
-为您 （部分） 自动化云视频互操作的部署提供了以下 PowerShell cmdlet。
+你可以使用以下 PowerShell cmdlet (部分) 自动执行云视频互操作部署。
 
-- **Get CsTeamsVideoInteropServicepolicy**: Microsoft 提供的预构建的策略用于每个允许您指定要用于云视频互操作的合作伙伴的支持合作伙伴。<br>此 cmdlet，可以确定可以在组织中使用的预构建的策略。 通过利用授予 CsTeamsVideoInteropServicePolicy cmdlet，可以将此策略分配给一个或多个用户。
-- **授予 CsTeamsVideoInteropServicePolicy**： 此 cmdlet 可以分配组织中使用的预构建的策略或将策略分配给特定用户。
-- **新建 CsVideoInteropServiceProvider**： 此 cmdlet 用于指定有关您的组织希望使用支持 CVI 合作伙伴的信息。
-- **设置 CsVideoInteropServiceProvider**： 使用此 cmdlet 更新您的组织使用的支持 CVI 合作伙伴的信息。
-- **Get CsVideoInteropServiceProvider**： 使用此 cmdlet 获取所有的提供程序已配置为在组织中使用。
-- **删除 CsVideoInteropServiceProvider**： 使用此 cmdlet 可删除有关您的组织不再使用的提供程序的所有提供商信息。
+- **CsTeamsVideoInteropServicepolicy**: Microsoft 为每个受支持的合作伙伴提供预构建的策略, 允许你指定要用于云视频互操作的合作伙伴。<br>此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
+- **Grant-CsTeamsVideoInteropServicePolicy**: 此 cmdlet 允许你分配用于组织的预构建策略或将策略分配给特定用户。
+- **CsVideoInteropServiceProvider**: 使用此 cmdlet 指定有关你的组织希望使用的受支持的 CVI 合作伙伴的信息。
+- **Set-CsVideoInteropServiceProvider**: 使用此 cmdlet 更新有关你的组织使用的受支持的 CVI 合作伙伴的信息。
+- **CsVideoInteropServiceProvider**: 使用此 cmdlet 获取已配置为在组织内使用的所有提供商。
+- **Remove-CsVideoInteropServiceProvider**: 使用此 cmdlet 删除有关你的组织不再使用的提供程序的所有提供程序信息。

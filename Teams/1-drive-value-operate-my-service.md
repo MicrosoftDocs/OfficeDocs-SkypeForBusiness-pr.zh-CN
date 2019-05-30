@@ -15,12 +15,12 @@ description: 团队服务管理所需的任务和活动, 包括监视服务运�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432869"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494293"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -38,7 +38,7 @@ ms.locfileid: "34432869"
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
-![描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
+![描述任务和活动类别列表的图表](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
 
 
 <table>
@@ -315,7 +315,7 @@ NPS 是一个索引, 范围从-100 到 100, 用于衡量客户推荐公司产品
 
 -   从1到6的 Detractors: 不满意的客户可能会损害您的服务并妨碍增长。
 
-![此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。")
+![演示 NPS 缩放的图表](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors, 7 到8是被动的, 9 到10是 promoters。")
 
 虽然基本 NPS 编号非常有用, 但你将获得分析用户意见的最大价值。 他们将帮助你了解用户为什么 (或不) 向其他人推荐团队的原因。 这些评论可提供有价值的反馈, 以帮助项目或服务管理团队了解提供优质服务所需的调整。
 
@@ -551,7 +551,7 @@ Wi-fi 驱动程序可能有问题。 例如, 驱动程序可能会导致访问�
 
 [体验质量检查指南](https://aka.ms/qerguide)包括一组活动, 这些活动在对改善用户体验有最大影响的关键领域中评估和提供补救指南, 如下所示。
 
-在![体验质量评审期间要检查的关键方面: 音频、可靠性和用户调查结果。]在(media/plan-my-service-management-image2.png "体验质量评审期间要检查的关键方面: 音频、可靠性和用户调查结果。")
+![在体验质量评审期间要检查的区域示意图]在(media/plan-my-service-management-image2.png "体验质量评审期间要检查的关键方面: 音频、可靠性和用户调查结果。")
 
 通过不断评估和修正指南中所述的区域, 你可以降低对用户体验产生负面影响的可能性。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 

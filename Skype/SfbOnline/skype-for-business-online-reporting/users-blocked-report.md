@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '此报告以及其他 Skype for Business 报告提供有关活动的详细信息, 包括您的组织内的 PSTN 使用情况。 '
-ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299569"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494002"
 ---
 # <a name="users-blocked-report"></a>阻止的用户报告
 
@@ -36,7 +36,7 @@ ms.locfileid: "34299569"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>如何访问已阻止的 Skype for Business 用户报告
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 - 转到**Office 365 管理中心** > **管理中心** > **Skype for business 管理中心** > **报告** > **阻止的用户**。
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Microsoft Teams 中向你的用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 505684bb2a73b60d1027c6cca6bbd7a306f48862
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 95dd6d562400630c5848484bd0081deeb3092abc
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344305"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494737"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
@@ -38,7 +38,7 @@ ms.locfileid: "34344305"
    
 下面是发送的电子邮件示例：
   
-![电话拨入式会议电子邮件](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![电话拨入式会议电子邮件示例](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

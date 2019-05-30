@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 使用有关设备、网络和连接的呼叫分析详细信息来解决与 Microsoft 团队和 Skype for business 通话和会议有关的用户问题。
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288193"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548977"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
@@ -64,19 +64,19 @@ ms.locfileid: "34288193"
     
 3. 在**仪表板**上的 "**用户搜索**" 中, 开始键入要对其进行故障排除的用户的名称或 sip 地址, 或选择 "**查看用户**" 以查看用户列表。
     
-    ![Microsoft 团队管理中心中的调用分析的用户搜索框的屏幕截图。](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![呼叫分析的用户搜索框的屏幕截图](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. 从列表中选择用户。
 
 5. 选择 "**呼叫历史记录**", 然后选择要进行故障排除的呼叫或会议。
     
-    ![屏幕截图显示用户的 "通话历史记录" 页面。](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![用户的 "通话历史记录" 页面的屏幕截图。](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. 选择 "**高级**" 选项卡, 然后查找表示通话质量不佳或连接问题的黄色和红色项目。
     
     在每个通话或会议的 "会话详细信息" 中, 小问题显示为黄色。 (例如, 在以下屏幕截图中, 对于平均抖动、最大抖动和平均数据包丢失率, 这些值为黄色。)如果某个内容为黄色, 则它不在正常范围内, 它可能会导致问题, 但不太可能是问题的主要原因。 如果出现红色, 这是一个重大问题, 这很可能是本次会议的通话质量不佳的主要原因。 
     
-    ![屏幕截图显示用户通话记录的 "高级" 选项卡 ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![用户通话记录的 "高级" 选项卡的屏幕截图 ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
 在极少数情况下, 音频会话的体验数据质量未收到。 这通常是由呼叫丢弃并与客户端的连接引起的。 出现这种情况时,**无法使用**"会话分级"。
   

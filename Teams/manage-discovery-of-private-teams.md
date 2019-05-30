@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何通过团队库和搜索结果控制 Microsoft 团队用户是否可以通过建议发现专用团队。
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304399"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494623"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft Teams 中管理对私人团队的发现
 
@@ -34,7 +34,7 @@ ms.locfileid: "34304399"
 
 大多数组织都有以下类型的团队-公共团队、可发现的专用团队和不可发现的专用团队。
 
-![团队库](media/private-team-discovery-team-gallery.png)
+![团队库的屏幕截图](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>公共团队
 
@@ -52,7 +52,7 @@ ms.locfileid: "34304399"
 
 当团队所有者创建专用团队时, 他们可以通过配置团队的发现设置来选择使其可发现。 默认情况下, 新的专用团队是可搜索和可发现的。 如果团队所有者不希望私人团队显示在搜索结果和建议中, 可以通过选择**此团队**旁边的 "**更改" 设置**来关闭设置。
 
-![新的专用团队的发现设置](media/private-team-discovery-new-team.png)
+![新专用团队的发现设置的屏幕截图](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>设置现有专用团队是否可发现
 
@@ -62,7 +62,7 @@ ms.locfileid: "34304399"
 
 在团队中, 转到专用团队, 单击 "**更多选项" ̇̇̇** > "**管理团队**"。 在 "**设置**" 选项卡上, 展开 "**团队发现**", 然后清除或选中 "**打开发现**" 复选框。
 
-![现有专用团队的发现设置](media/private-team-discovery-existing-team.png)
+![现有专用团队的发现设置的屏幕截图](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>使用 PowerShell (即将推出)
 

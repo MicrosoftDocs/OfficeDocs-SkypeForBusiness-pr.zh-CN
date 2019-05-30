@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185292"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494829"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
@@ -39,7 +39,7 @@ ms.locfileid: "34185292"
 
 下图显示了来自自动助理或呼叫队列的传入呼叫如何显示给用户。
 
-![传入呼叫通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![传入呼叫通知的屏幕截图](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 自动应答自动助理或呼叫队列呼叫后, 用户可以像处理任何其他呼叫 & # x2014 一样处理呼叫。他们可以在其他用户中添加或加入会议, 或者将呼叫转接到另一方。 此外, 将根据用户的配置转发自动助理呼叫。
 

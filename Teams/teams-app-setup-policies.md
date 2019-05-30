@@ -19,12 +19,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用, 以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: f4dd1cac59cd15efa014aa2efbe83b0cb6e4f991
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294014"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548818"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -37,13 +37,13 @@ ms.locfileid: "34294014"
 
 |团队桌面客户端  |团队移动客户端 |
 |---------|---------|
-|![app-setup-policies-desktop-app-bar](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar](media/app-setup-policies-mobile-app-bar.png)      |
+|![显示团队桌面客户端的屏幕截图](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![显示团队移动客户端的屏幕截图](media/app-setup-policies-mobile-app-bar.png)      |
 
 在 Microsoft 团队管理中心中管理应用设置策略。 你可以使用全局 (组织范围默认) 策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略, 否则你组织中的用户将自动获取全局策略。
 
 你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队, 请创建并分配一个或多个自定义策略。 如果向用户分配了自定义策略, 则该策略将应用于用户。 如果未向用户分配自定义策略, 则全局策略将应用于该用户。
 
-![app-setup-policies](media/app-setup-policies.png)
+![显示应用设置策略页面的屏幕截图](media/app-setup-policies.png)
 
 > [!NOTE]
 > 如果你有团队教育版, 请务必了解, 默认情况下, 作业应用固定在全局策略中, 即使当前, 你也看不到全局策略中列出了该应用。 它将是团队客户端上的固定应用列表中的第四个应用。
@@ -58,11 +58,11 @@ ms.locfileid: "34294014"
 4. 打开或关闭 "**允许上载自定义应用**", 具体取决于是否希望允许用户将自定义应用程序上载到团队。
 5. 在 "**添加固定的应用**" 窗格中, 搜索要添加的应用, 然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后, 单击 "**添加**"。
 
-     ![app-setup-policies-add-apps](media/app-setup-policies-add-apps.png)
+     ![显示 "添加固定应用" 窗格的屏幕截图](media/app-setup-policies-add-apps.png)
 
 6. 按希望在团队中显示的顺序排列应用, 然后单击 "**保存**"。
 
-    ![app-setup-policies-new-policy-setup](media/app-setup-policies-new-policy-setup.png)
+    ![显示 "固定的应用" 部分的屏幕截图](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>编辑应用设置策略
 
@@ -86,7 +86,7 @@ ms.locfileid: "34294014"
 2. 在 "**分配的策略**" 旁边, 选择 "**编辑**"。
 3. 在 "**团队应用设置策略**" 下, 选择要分配的应用设置策略, 然后选择 "**保存**"。
 
-    ![app-setup-policies-assign-policy](media/app-setup-policies-assign-policy.png)
+    ![显示 "编辑用户策略" 窗格的屏幕截图](media/app-setup-policies-assign-policy.png)
 
 你还可以将应用设置策略分配给一个或多个用户, 如下所示:
 
@@ -157,7 +157,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 |团队桌面客户端 |团队移动客户端 |
 |---------|---------|
 |在团队侧面的应用栏中, 单击 **.。。更多应用**。| 在团队底部附近的应用栏中, 向上轻扫。|
-|![app-setup-policies-desktop-more-apps](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps](media/app-setup-policies-mobile-more-apps.png)  
+|![在团队桌面客户端中显示更多应用的屏幕截图](media/app-setup-policies-desktop-more-apps.png)<br>   |![在团队移动客户端中显示更多应用的屏幕截图](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解有关团队移动体验的哪些信息？
 

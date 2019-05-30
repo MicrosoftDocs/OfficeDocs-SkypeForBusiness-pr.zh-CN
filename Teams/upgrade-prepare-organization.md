@@ -1,12 +1,12 @@
 ---
-title: 向 Microsoft 工作组业务准备升级 Skype |规划用户应用
+title: 准备将 Skype for business 升级到 Microsoft 团队 |规划用户采纳
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 评估组织的准备情况接受更改，并获取用户准备好从 for Business 的 Skype 升级到 Microsoft 团队准备计划
+description: 评估你的组织的准备情况以接受更改, 并准备一个计划, 以便让用户准备好从 Skype for Business 升级到 Microsoft 团队
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885572"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494543"
 ---
-![升级旅程，重点强调的用户准备阶段的阶段](media/upgrade-banner-user-readiness.png "升级旅程，重点强调的用户准备阶段的阶段")
+![升级旅程的阶段, 重点关注用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段, 重点关注用户准备阶段")
 
-本文是您升级旅程，并行与技术的准备阶段完成的活动的用户准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
+本文是你的升级过程的用户准备阶段的一部分, 与技术准备阶段并行完成的活动。 在继续之前, 请确认您已完成以前阶段中的这些活动:
 
-- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-organization"></a>准备您的组织
 
-为实现最大值从团队，用户必须实际使用该，但获取用户可以更改它们的工作的方式通常不容易。 需要了解您的用户和设计右侧的准备工作计划的时间可帮助加快更改并加快团队的。 应与技术准备准备并行完成这些活动：
+若要实现团队的最大价值, 用户必须实际使用它, 但让用户更改其工作方式始终很简单。 花时间了解你的用户并设计正确的准备情况计划有助于帮助更改和加速团队的采纳。 这些活动应与你的技术准备工作并行完成:
 
-- [评估组织更改准备](https://aka.ms/OrgReadiness)： 这包括了解您用户是谁，他们将如何使用新技术，以及它们适应难易程度变化。 这也是确定特定用户配置文件将从重点入职培训从中受益的机会。
-- [准备用户准备工作计划](https://aka.ms/UserReadinessPlan)： 组成认知、 培训和支持活动，您准备计划应该处理您的广泛的用户群体和目标的配置文件，如[评估更改准备](https://aka.ms/OrgReadiness)一文中标识。
+- [评估组织更改准备情况](https://aka.ms/OrgReadiness): 这包括了解你的用户的身份、他们使用新技术的方式以及更改的难易程度。 这也是识别特定用户配置文件的机会, 这些配置文件将受益于重点加入。
+- [准备用户准备情况计划](https://aka.ms/UserReadinessPlan): 包括 "感知"、"培训" 和 "支持" 活动, 准备情况计划应满足你的广泛用户基本配置文件, 如[评估更改准备情况](https://aka.ms/OrgReadiness)文章中所述。
 
 > [!Tip]
-> 下载的模板用户准备情况材料，如通信和用户调查，除了升级项目计划示例和试点测试计划[升级成功工具包](https://aka.ms/UpgradeSuccessKit)。
+> 除了示例升级项目计划和试点测试计划之外, 下载模板用户准备材料 (如通信和用户调查) 的[升级成功套件](https://aka.ms/UpgradeSuccessKit)。

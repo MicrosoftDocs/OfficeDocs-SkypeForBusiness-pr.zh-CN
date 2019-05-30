@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 了解如何为你的团队或 Skype for business 用户分配、更改或删除工作电话号码, 以便外部企业和客户可以呼叫。
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286282"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493895"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -54,7 +54,7 @@ ms.locfileid: "34286282"
   
  ## <a name="assign-a-phone-number-to-a-user"></a>为用户分配电话号码
  
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -86,7 +86,7 @@ ms.locfileid: "34286282"
 
  ## <a name="change-a-phone-number-for-a-user"></a>更改用户的电话号码
  
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
  
 1. 使用你的工作或学校帐户登录 Office 365。
     
@@ -110,7 +110,7 @@ ms.locfileid: "34286282"
 
  ## <a name="remove-a-phone-number-from-a-user"></a>删除用户的电话号码
  
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
  
 1. 使用你的工作或学校帐户登录 Office 365。
     

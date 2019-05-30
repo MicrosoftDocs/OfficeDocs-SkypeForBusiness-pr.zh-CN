@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 了解如何打开或关闭移动电话通知, 以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
-ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285021"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494050"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
@@ -35,7 +35,7 @@ ms.locfileid: "34285021"
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 登录到 Office 365。
     

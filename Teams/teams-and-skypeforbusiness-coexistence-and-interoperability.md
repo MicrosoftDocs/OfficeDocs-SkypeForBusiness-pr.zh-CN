@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344567"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548794"
 ---
 ![升级旅行的阶段, 重点关注项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
@@ -66,7 +66,7 @@ ms.locfileid: "34344567"
 
 有关移动到 "仅团队" 模式的其他注意事项, 请参阅[仅团队模式注意事项](teams-only-mode-considerations.md)。
 
-![在用户作为仅团队用户升级后, 在特殊模式下运行的 Skype For business 客户端](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "在用户作为仅团队用户升级后, 在特殊模式下运行的 Skype For business 客户端")
+![团队确认消息的屏幕截图](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "在用户作为仅团队用户升级后, 在特殊模式下运行的 Skype For business 客户端")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>具有团队协作功能的 Skype for Business (此模式即将推出)
 
@@ -105,11 +105,11 @@ ms.locfileid: "34344567"
 
 - Skype for Business 用户可以与团队用户一对一聊天, 反之亦然。 互操作性聊天需要通过 "互操作网关", 这是团队云服务的一部分 (因此仅在联机状态下才存在)。 互操作聊天为纯文本: 不支持格式文本和表情符号。 已通知团队中的用户对话是互操作对话;将很快提供类似于 Skype for Business 用户的通知。
 
-![来自团队的互操作聊天体验](media/Interop_chat_experience_from_Teams.png "来自团队的互操作聊天体验")
+![来自团队的互操作聊天体验的屏幕截图](media/Interop_chat_experience_from_Teams.png "来自团队的互操作聊天体验")
 
 - Skype for Business 用户可以与团队用户进行一对一的语音和视频通话, 反之亦然。
 
-![来自团队的互操作通话体验](media/Interop_calling_experience_from_Teams.png "来自团队的互操作通话体验")
+![来自团队的互操作通话体验的屏幕截图](media/Interop_calling_experience_from_Teams.png "来自团队的互操作通话体验")
 
 > [!Important]
 > 使用 Skype for Business 的本地部署的互操作体验要求本地环境处于 Office 365 Skype for Business 的混合模式中。 有关详细信息, 请参阅[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。

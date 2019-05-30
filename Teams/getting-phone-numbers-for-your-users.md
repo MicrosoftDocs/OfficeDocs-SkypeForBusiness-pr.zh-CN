@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何为团队或 Skype for Business 获取新的、移植或转移现有号码, 以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285509"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494647"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -47,13 +47,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
   
 1. 使用你的工作或学校帐户登录 Office 365。
     
 2. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
-3. 在左侧导航窗格中转到 **语音** > **电话号码**，单击 **添加新号码** ![添加按钮](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)，然后单击**新的用户数量**。
+3. 在左侧导航中, 转到 "**语音** > **电话号码**", 单击 "**添加新号码** ![" "添加" 按钮](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)(加号图标), 然后单击 "**新用户号码**"。
     
     > [!IMPORTANT]
     > 要在 Skype for Business 管理中心的左侧导航中看到 "**语音**" 选项, 您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
@@ -86,7 +86,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 ## <a name="show-phone-numbers-for-your-organization"></a>显示你的组织的电话号码
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 使用你的工作或学校帐户登录 Office 365。
     

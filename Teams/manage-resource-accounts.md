@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404299"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548236"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -82,21 +82,26 @@ ms.locfileid: "34404299"
 
 购买电话系统许可证和呼叫计划之后, 使用 Microsoft 团队管理中心, 导航到**组织范围的设置** > **资源帐户**。 
 
-![.asd](media/r-a-master.png)
+!["资源帐户" 页面的屏幕截图](media/r-a-master.png)
 
-![数字1](media/sfbcallout1.png)
+![数字1的图标, 引用上一个屏幕截图中的标注](media/sfbcallout1.png)
 
 若要创建新的资源帐户, 请单击 " **+ 新建帐户**"。 在弹出窗口中, 填写资源帐户的 "显示名称" 和 "用户名" (域名应自动填充), 然后单击 "**保存**"。
 
-![资源帐户](media/res-acct.png)
+![新资源帐户选项的屏幕截图](media/res-acct.png)
 
 接下来, 在 O365 管理中心中对资源帐户应用许可证, 如在[Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述。
 
+### <a name="edite-resource-account-name"></a>Edite 资源帐户名称
+![数字2的图标, 引用上一个屏幕截图](media/sfbcallout2.png)中的标注, 您可以使用 "**编辑**" 选项编辑资源帐户的显示名称。  完成后单击 "**保存**"。
+!["编辑资源帐户" 选项的屏幕截图](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
-![编号 3](media/sfbcallout3.png)创建资源帐户并分配许可证后, 您可以单击 "**分配/取消**分配" 将呼叫计划服务编号分配给资源帐户, 或者将资源帐户分配给指定的自动助理或呼叫队列已存在。 分配直接路由号码只能使用 Cmdlet 完成。 如果您的通话队列或自动助理仍需创建, 则可以在创建资源帐户时将其链接在一起。 完成后单击 "**保存**"。
+![数字3的图标, 在以前的屏幕截图](media/sfbcallout3.png)中引用标注一旦创建了资源帐户并分配了许可证, 您可以单击 "**分配/取消**分配" 以将呼叫计划服务编号分配给资源帐户, 或者分配资源帐户到已存在的自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果您的通话队列或自动助理仍需创建, 则可以在创建资源帐户时将其链接在一起。 完成后单击 "**保存**"。
 
 使用以下 cmdlet 分配直接路由号码: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > 如果你的租户尚未购买电话系统许可证和呼叫计划, 则当你尝试将电话号码分配给资源帐户时, 内部检查将导致失败。 您无法分配该号码或将资源帐户与服务相关联。
 
-![资源帐户分配](media/r-a-assign.png)
-
-![数字 2](media/sfbcallout2.png)您可以使用 "**编辑**" 选项编辑资源帐户的显示名称。  完成后单击 "**保存**"。
-![编辑资源帐户](media/r-a-edit.png)
+!["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 

@@ -1,12 +1,12 @@
 ---
-title: 规划服务管理和质量 |技术的准备情况
+title: 规划服务管理和质量 |技术准备
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 使用本指南可了解有关所需提供和维护高质量的 Microsoft 团队部署的要求。
+description: 使用本指南了解交付和维护高质量 Microsoft 团队部署所需的要求。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896431"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548666"
 ---
-![升级旅程，重点强调的技术的准备阶段的阶段](media/upgrade-banner-tech-readiness.png "升级旅程，重点强调的技术的准备阶段的阶段")
+![升级旅行图, 强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
 
-本文是您升级旅程，与用户准备阶段并行完成的活动的技术的准备阶段的一部分。 在继续之前，确认您已完成从以前的阶段的这些活动：
+本文是您的升级过程的技术准备阶段的一部分, 与用户准备阶段并行完成的活动。 在继续之前, 请确认您已完成以前阶段中的这些活动:
 
-- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [定义您的项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [商业和团队理解共存和 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [选择您升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
 # <a name="plan-for-quality"></a>规划质量
 
-如果您正在部署音频、 视频或会议，您可以优化该功能的环境的一些额外步骤。 此内容概述了交付和维护高质量的 Microsoft Teams 部署需要达到的要求。 您可以帮助确保成功部署规划服务管理和质量，在您的第一个试验或生产部署之前。
+如果您要部署音频、视频或会议, 则可以采取一些额外的步骤来优化环境以实现该功能。 此内容概述了交付和维护高质量的 Microsoft Teams 部署需要达到的要求。 在首次试验或生产部署之前, 可以通过规划服务管理和质量来帮助确保成功部署。
 
 指导由以下部分组成：
 
@@ -47,23 +47,23 @@ ms.locfileid: "33896431"
 
 - 最后，概述了后续步骤并提供相关内容参考。
 
-## <a name="key-technical-components-that-affect-user-experience"></a>影响用户体验的重要技术组件
+## <a name="key-technical-components-that-affect-user-experience"></a>影响用户体验的关键技术组件
 
-将在本节评审影响用户体验的关键技术组件。 在介绍这些主要组成部分之前，务必要了解用户体验及其在实现组织业务目标中的重要性。 下面先来了解我们如何定义用户体验。
+本部分将讨论影响用户体验的关键技术组件。 在介绍这些主要组成部分之前，务必要了解用户体验及其在实现组织业务目标中的重要性。 下面先来了解我们如何定义用户体验。
 
 ### <a name="user-experience-defined"></a>定义用户体验
 
-当您部署的 Microsoft 团队和时用户采用团队作为其核心协作和通信解决方案，可以实现业务目标。 质量可以帮助确保良好的用户体验，驱动的用法和采用的关键属性。 通过提供高质量服务的富食品公司的人员，个人和团队可以信心和发现的驱动器业务好处的创新方式使用该服务。
+在部署 Microsoft 团队和用户将团队用作核心协作和通信解决方案时, 可实现业务目标。 质量可帮助确保积极的用户体验、推动使用和采纳的关键属性。 通过提供一种高质量的服务, delights 人员、个人和团队可以获得信心, 并找到使用推动业务好处的服务的全新和创新方式。
 
-核心在于用户使用 Teams 时的体验 - 个人对服务的感受和态度。 那么哪些方面构成了用户体验？ 范围为从用户知道如何和为什么使用团队和并入遇到异常呼叫质量并能够可靠地，无论他们将连接到其每日工作流。 用户体验是非常广泛性质;本文仅重点介绍可以由组织控制这些技术元素。 [准备您的组织团队](https://aka.ms/SkypeToTeams-UserReadiness)中，可以找到有关用户准备情况的其他信息。
+核心在于用户使用 Teams 时的体验 - 个人对服务的感受和态度。 那么哪些方面构成了用户体验？ It 范围从用户了解如何使用团队并将其合并到其日常工作流中, 以体验出色的通话质量, 无论他们身在何处都能可靠地连接。 用户体验本质上非常广泛;本文仅重点介绍可由您的组织控制的那些技术元素。 可在[为团队准备组织](https://aka.ms/SkypeToTeams-UserReadiness)中找到有关用户准备情况的其他信息。
 
 部署存在一些具体要求，这些要求对实现出色的用户体验至关重要 - 尤其是在 Teams 中使用云语音功能时。 与其他通信和协作投资相比，优先考虑 Microsoft Teams 这一点很重要，从而相应地优先处理实时流量。 下一节概述了影响用户体验的主要组成部分。 在后面各节，我们将指导如何开始规划部署和维护构成质量的主要组成部分。
 
 ### <a name="key-components-of-quality"></a>质量的主要组成部分
 
-组织或支持合作伙伴应开始规划团队部署技术的准备阶段的三个主要组件： 服务管理、 网络和终结点。 这三个方面一起构成了用户体验质量的基础。
+在团队部署的技术准备阶段中, 组织或支持合作伙伴应开始规划三个关键组件: 服务管理、网络和终结点。 这三个方面一起构成了用户体验质量的基础。
 
-![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。")
+![演示三个质量组件的图表](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "介绍三种质量组件以及服务管理如何与所有三个组件重叠的图表。")
 
 #### <a name="service-management"></a>服务管理
 
@@ -89,7 +89,7 @@ ms.locfileid: "33896431"
 
 Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板电脑和手机等几乎任何设备访问 Teams。
 
-若要为用户提供最佳体验可能，您需要考虑以下重要方面： 执行您终结点符合团队硬件和软件要求？ 你是否已配置并优化终结点来支持 Wi-Fi 网络？ 你将使用哪些设备拨打和接听语音通话？ 是否针对 Teams 优化了这些设备？
+若要为你的用户提供最佳体验, 你需要考虑以下重要方面: 你的终结点是否满足团队硬件和软件要求？ 你是否已配置并优化终结点来支持 Wi-Fi 网络？ 你将使用哪些设备拨打和接听语音通话？ 是否针对 Teams 优化了这些设备？
 
 有关终结点规划的详细指导，请参阅[规划终结点质量](#plan-for-endpoint-quality)。
 
@@ -101,13 +101,13 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 如前文所述，服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。 本文档的本节将从服务管理角度重点介绍客户的职责。
 
-![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在服务管理上。")
+![演示三个质量组件的图表](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "介绍三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注服务管理。")
 
 ### <a name="introduction-to-the-operations-guide"></a>《操作指南》简介
 
 **什么内容**、**什么人**和**什么方式**是在讨论服务质量时需要回答的三个重要问题。
 
-你可以使用《[操作指南](1-drive-value-operate-my-service.md)》帮助你解决所有这三个问题。 该指南提供了每天、每周、每月及按需执行的活动列表。 这些活动和任务对于维护高质量 Teams 部署至关重要。 确定谁将负责服务管理中执行特定活动是您需要执行早期在[计划阶段](upgrade-enlist-stakeholders.md)确保成功部署进行规划的重要组成部分。 在确定了任务和活动后，需要你将其分配到的小组或个人了解并遵循这些任务和活动。 《操作指南》提供了有关如何执行每个任务的知识和指导，以及/或外部内容的参考。
+你可以使用《[操作指南](1-drive-value-operate-my-service.md)》帮助你解决所有这三个问题。 该指南提供了每天、每周、每月及按需执行的活动列表。 这些活动和任务对于维护高质量 Teams 部署至关重要。 确定负责在服务管理中执行特定活动的人员是规划的一个关键方面, 您需要在[规划阶段](upgrade-enlist-stakeholders.md)尽早执行这些任务以确保部署成功。 在确定了任务和活动后，需要你将其分配到的小组或个人了解并遵循这些任务和活动。 《操作指南》提供了有关如何执行每个任务的知识和指导，以及/或外部内容的参考。
 
 ### <a name="operational-role-mapping"></a>可操作的角色映射
 
@@ -115,7 +115,7 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 在完成签字认可后，负责团队必须开始执行这些角色和职责。 这可能包括培训和就绪工作、更新人员配置模型或确保外部合作伙伴已准备好交付。
 
-映射，收集您的[项目工作组](upgrade-enlist-stakeholders.md)的操作的角色使所有团队试验和掌握操作过程中启动其操作任务，并确保一切就绪后部署启动。
+在收集[项目团队](upgrade-enlist-stakeholders.md)时映射操作角色使所有团队能够在试验期间启动其操作任务, 并在部署开始时提升操作, 确保一切准备就绪。
 
 《操作指南》提供了映射到在大多数方案中应该会有效的典型角色的常见任务列表。 你需要自定义这些职责以适用于你的组织。
 
@@ -125,13 +125,13 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 质量支持者利用现有的工具和记录的流程（例如通话质量仪表板 (CQD) 和《体验质量评审指南》）来监控用户体验、识别质量趋势以及在需要的情况下推动修正。 质量支持者与各个团队合作以推动采取修正措施，并就进度和未解决的问题向指导委员会报告。
 
-《操作指南》中记录了与该角色关联的任务和活动。 在[计划阶段](https://aka.ms/SkypeToTeams-Plan)期间应向其分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
+《操作指南》中记录了与该角色关联的任务和活动。 应在[计划阶段](https://aka.ms/SkypeToTeams-Plan)分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
 
 ### <a name="introduction-to-the-quality-experience-review-guide"></a>《体验质量评审指南》简介
 
 《体验质量评审指南》中包含一组活动，用于评估影响最大的主要方面并提供修正指导以改进用户体验，如下图所示。
 
-![此示意图说明了在质量体验评审期间检查的主要方面。](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "此示意图说明了在质量体验评审期间检查的主要方面。")
+说明![在质量体验审核期间检查的主要区域的图表](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "显示在质量体验评审期间检查的关键区域的图表。")
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
@@ -157,7 +157,7 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 
 下面主要介绍如何规划网络质量。
 
-![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在网络上。](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在网络上。")
+![演示三个质量组件的图表](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "介绍三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
 
 如前文所述，在上线 Microsoft Teams 之前进行网络质量规划至关重要。 有关网络就绪的进一步指导，请参阅[为 Microsoft Teams 准备组织的网络](prepare-network.md)。
 
@@ -213,7 +213,7 @@ QoS 实施应包括网络的多个方面，从终结点一直到出口点，以�
 
 一些代理服务器供应商会提供一个自动流程以确保配置是最新的。 如果你的供应商未提供此自动流程，你可以从 <https://aka.ms/o365proxies> 下载更新的 PAC 文件。
 
-[工作组或业务 Online 的 Skype 和工作组代理服务器](proxy-servers-for-skype-for-business-online.md)
+[团队或 Skype for business Online 和团队的代理服务器](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>防火墙
 
@@ -268,13 +268,13 @@ VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设
 
 应该对所有建筑物中要用于支持 Teams 中云语音功能的有线和 Wi-Fi 网络进行网络评估。
 
-可以通过 Microsoft 合作伙伴、第三方工具或 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 进行网络评估。 我们还提供进一步指导如何运行我们准备指南的一部分使用 Microsoft 网络评估工具评估[此处](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)。
+可以通过 Microsoft 合作伙伴、第三方工具或 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 进行网络评估。 我们还提供了有关如何在我们的准备指南中使用 Microsoft 网络评估工具运行评估的进一步指南。 [](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)
 
 ## <a name="plan-for-endpoint-quality"></a>规划终结点质量
 
 如下图所示，终结点是为用户提供高质量体验的一个重要构建基块。
 
-![此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在终结点上。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "此示意图说明了质量的三个组成部分以及服务管理如何贯穿于这三个组成部分。焦点在终结点上。")
+![演示三个质量组件的图表](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "介绍三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
 
 Microsoft Teams 终结点可以在多种设备（包括 PC、Mac、平板电脑和移动设备）上运行。 不仅设备本身影响体验，而且用户连接设备的方式（例如，使用设备的内置麦克风/扬声器、耳塞式耳机或优化耳机）也影响体验。 使用优化耳机可以丰富整体用户体验。
 
@@ -360,4 +360,4 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
 | | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
-规划完后，继续执行下一步：[准备环境团队](https://aka.ms/SkypeToTeams-TechnicalReadiness)。
+完成规划后, 请继续执行下一步操作:[为团队准备环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)。

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: 了解如何配置团队以允许用户与其他组织中的用户进行通信。
-ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: e9e2a60c7f1f93df56408976a92e4aa47f3e486e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433188"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494687"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>让你的团队用户与其他团队组织中的用户进行聊天和通信
 
@@ -58,7 +58,7 @@ ms.locfileid: "34433188"
 
    3. 如果你希望允许所有团队组织与你的组织中的用户进行通信, 请跳至步骤5。 
    
-   4. 如果想要限制哪些组织可以与你的组织中的用户进行通信, 你可以允许除某些域之外的所有域, 或者仅允许特定组织。 若要允许除某些域之外的所有域, 请通过单击 "**添加域**" 来添加要阻止的域。 在 "**添加域**" 窗格中, 输入域名, 单击 "已**阻止**", 然后单击 "**完成**"。 若要限制特定 organizatioins 的通信, 请将这些域添加到状态为**Alowed**的列表中。 将任何域添加到 "允许" 列表后, 与其他组织的通信将仅限于其域位于 "允许" 列表中的组织。 
+   4. 如果想要限制哪些组织可以与你的组织中的用户进行通信, 你可以允许除某些域之外的所有域, 或者仅允许特定组织。 若要允许除某些域之外的所有域, 请通过单击 "**添加域**" 来添加要阻止的域。 在 "**添加域**" 窗格中, 输入域名, 单击 "已**阻止**", 然后单击 "**完成**"。 若要限制特定 organizatioins 的通信, 请将这些域添加到状态为 "**允许**" 的列表中。 将任何域添加到 "允许" 列表后, 与其他组织的通信将仅限于其域位于 "允许" 列表中的组织。 
    
    5. 单击“**保存**”。 
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b02b22ff6b38a432260b98fbfd79272448ed7a5
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433140"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548881"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -70,7 +70,7 @@ _图1。组织的网络和 Office 365 服务之间的关系_
 
 _图2。QoS 队列的示例_
 
-![QoS 队列的插图](media/Qos-in-Teams-Image2.png "可用带宽的总可用带宽分为多个队列: 音频、视频和其他流量, 这些队列已被分配不同的优先级。")
+![QoS 队列和带宽划分的插图](media/Qos-in-Teams-Image2.png "可用带宽的总可用带宽分为多个队列: 音频、视频和其他流量, 这些队列已被分配不同的优先级。")
 
 简单的类比是 QoS 在数据网络中创建虚拟的 "carpool 车道", 因此某些类型的数据从不或几乎不会遇到延迟。 创建这些泳道后, 您可以调整其相对大小, 并更有效地管理您拥有的连接带宽, 同时还可以为您的组织的用户提供业务级体验。
 
