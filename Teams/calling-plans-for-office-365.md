@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548985"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
 
@@ -46,7 +46,7 @@ ms.locfileid: "34494519"
   
 > [!IMPORTANT]
 > 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置, 而**不**是基于 microsoft 365 管理员**组织配置文件**中列出的帐单地址**中心**。   
-![用户的许可证位置](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![用户许可证位置的屏幕截图](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有关使用限制和使用条款的详细信息, 请参阅[音频会议免费拨出期](complimentary-dial-out-period.md)。
   
@@ -54,14 +54,14 @@ ms.locfileid: "34494519"
 
 1. <strong>您必须首先购买 * * 电话系统</strong>附加许可证<strong>。若要执行此操作, 请[登录 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog), 然后选择 * * 帐单</strong> > **购买服务** > **附加** > 套餐**立即购买**。
     
-    ![购买你的云 PBX 许可证后, 你将看到用于购买语音呼叫计划的选项。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![显示用于购买语音呼叫计划选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 根据你的计划, 你可能需要购买更多加载项, 然后才能购买电话系统许可证。 若要了解详细信息, 请参阅[Microsoft 团队附加](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)许可证中的 "基于你的计划的许可证选项"。
   
 2. 购买电话系统许可证后, 您可以通过登录到**Microsoft 365 管理中心**来购买呼叫计划, 选择 "**计费** > **购买服务** > **附加订阅**", 然后单击 "立即购买"。 ****. 您将在那里看到通话计划。
     
-    ![购买云 PBX 许可证后, 您可以购买语音呼叫计划。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![显示语音通话计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
 您可以根据组织的需要, 为不同用户购买和分配不同的通话计划。 选择所需的呼叫计划后, 请继续结帐。 将计划分配给 Microsoft 365 管理中心中的每个用户。 若要了解操作方法, 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
   

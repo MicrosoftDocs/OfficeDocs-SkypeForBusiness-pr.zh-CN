@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548109"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -92,7 +92,7 @@ ms.locfileid: "34494415"
 
 《体验质量评审指南》中包含一组活动，用于评估影响最大的主要方面并提供修正指导以改进用户体验，如下图所示。
 
-在![质量体验评审期间要检查的关键区域的插图]在(media/plan-my-service-management-image2.png "质量体验审核期间要检查的关键方面: 音频、可靠性和用户调查结果。")
+![在质量体验评审期间要检查的关键区域的插图]在(media/plan-my-service-management-image2.png "质量体验审核期间要检查的关键方面: 音频、可靠性和用户调查结果。")
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 

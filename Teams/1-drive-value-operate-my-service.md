@@ -15,12 +15,12 @@ description: 团队服务管理所需的任务和活动, 包括监视服务运�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494293"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548244"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -42,8 +42,8 @@ ms.locfileid: "34494293"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实现与你的组织的目标相协调的操作策略, 以提供云语音工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量, 以确保你的云语音部署在其峰值功能中运行。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实现与你的组织的目标相协调的操作策略, 以提供云语音工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量, 以确保你的云语音部署在其峰值功能中运行。</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "34494293"
 协议准备好后, 相应的团队应开始 operationalize 其角色。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>后续步骤</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td>
 <td><ul><li>使用此文档有助于操作角色映射练习。</li><li>与各自的支持团队会面, 为所需活动列表中的每个项目分配名称。</li><li>获取已分配角色的接受或注销。</li><li>确保相应的团队具有相应的培训、准备情况和资源来完成所需的活动。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>团队服务相关性
