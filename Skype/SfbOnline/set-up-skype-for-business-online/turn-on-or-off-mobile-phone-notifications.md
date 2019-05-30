@@ -19,46 +19,46 @@ f1keywords:
 ms.custom:
 - Setup
 description: 了解如何打开或关闭移动电话通知, 以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
-ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285021"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494050"
 ---
-# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="42548-103">打开或关闭移动电话通知</span><span class="sxs-lookup"><span data-stu-id="42548-103">Turn on or off mobile phone notifications</span></span>
+# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="67897-103">打开或关闭移动电话通知</span><span class="sxs-lookup"><span data-stu-id="67897-103">Turn on or off mobile phone notifications</span></span>
 
-<span data-ttu-id="42548-104">作为你的组织的**[Office 365 for business 中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。</span><span class="sxs-lookup"><span data-stu-id="42548-104">As the **[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
+<span data-ttu-id="67897-104">作为你的组织的**[Office 365 for business 中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。</span><span class="sxs-lookup"><span data-stu-id="67897-104">As the **[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
   
-<span data-ttu-id="42548-p101">在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。</span><span class="sxs-lookup"><span data-stu-id="42548-p101">On Android and Windows Phones, Skype for Business notifications pop up in real time. For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
+<span data-ttu-id="67897-p101">在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。</span><span class="sxs-lookup"><span data-stu-id="67897-p101">On Android and Windows Phones, Skype for Business notifications pop up in real time. For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="42548-107">在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="42548-107">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
-<span data-ttu-id="42548-108"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="42548-108"><a name="__top"> </a></span></span>
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="67897-107">在您组织中所有的 Windows Phone 或 Apple 设备上禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="67897-107">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
+<span data-ttu-id="67897-108"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="67897-108"><a name="__top"> </a></span></span>
 
-<span data-ttu-id="42548-109">![](../images/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30</span><span class="sxs-lookup"><span data-stu-id="42548-109">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="67897-109">![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标</span><span class="sxs-lookup"><span data-stu-id="67897-109">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="42548-110">登录到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="42548-110">Sign in to Office 365.</span></span>
+1. <span data-ttu-id="67897-110">登录到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="67897-110">Sign in to Office 365.</span></span>
     
-2. <span data-ttu-id="42548-111">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="42548-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="67897-111">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="67897-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="42548-112">Go to **Organization** > **General**.</span><span class="sxs-lookup"><span data-stu-id="42548-112">Go to **Organization** > **General**.</span></span> 
+3. <span data-ttu-id="67897-112">Go to **Organization** > **General**.</span><span class="sxs-lookup"><span data-stu-id="67897-112">Go to **Organization** > **General**.</span></span> 
     
-4. <span data-ttu-id="42548-113">在" **移动电话通知**"下，取消选中要禁用的通知服务旁边的框，然后单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="42548-113">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
+4. <span data-ttu-id="67897-113">在" **移动电话通知**"下，取消选中要禁用的通知服务旁边的框，然后单击" **保存**"。</span><span class="sxs-lookup"><span data-stu-id="67897-113">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
     
-<span data-ttu-id="42548-114">请注意：</span><span class="sxs-lookup"><span data-stu-id="42548-114">Keep in mind:</span></span> 
+<span data-ttu-id="67897-114">请注意：</span><span class="sxs-lookup"><span data-stu-id="67897-114">Keep in mind:</span></span> 
   
-- <span data-ttu-id="42548-115">如果你关闭推送通知，则当用户在移动设备上重新启动 Skype for Business 时，仍会收到所有通知。</span><span class="sxs-lookup"><span data-stu-id="42548-115">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
+- <span data-ttu-id="67897-115">如果你关闭推送通知，则当用户在移动设备上重新启动 Skype for Business 时，仍会收到所有通知。</span><span class="sxs-lookup"><span data-stu-id="67897-115">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
     
-- <span data-ttu-id="42548-p102">推送通知在默认情况下处于打开状态。个人用户可通过在其移动设备上选择相应的 Skype for Business 选项来将其关闭。</span><span class="sxs-lookup"><span data-stu-id="42548-p102">Push notifications are turned on by default. Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
+- <span data-ttu-id="67897-p102">推送通知在默认情况下处于打开状态。个人用户可通过在其移动设备上选择相应的 Skype for Business 选项来将其关闭。</span><span class="sxs-lookup"><span data-stu-id="67897-p102">Push notifications are turned on by default. Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
     
-- <span data-ttu-id="42548-118">当关闭推送通知时，用户将无法再打开推送通知。</span><span class="sxs-lookup"><span data-stu-id="42548-118">When you turn off push notifications, users can't turn them back on.</span></span>
+- <span data-ttu-id="67897-118">当关闭推送通知时，用户将无法再打开推送通知。</span><span class="sxs-lookup"><span data-stu-id="67897-118">When you turn off push notifications, users can't turn them back on.</span></span>
     
 > [!IMPORTANT]
->  <span data-ttu-id="42548-119">[!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。</span><span class="sxs-lookup"><span data-stu-id="42548-119">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="42548-120">请参阅[Microsoft Skype For Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。</span><span class="sxs-lookup"><span data-stu-id="42548-120">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
+>  <span data-ttu-id="67897-119">[!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。</span><span class="sxs-lookup"><span data-stu-id="67897-119">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="67897-120">请参阅[Microsoft Skype For Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。</span><span class="sxs-lookup"><span data-stu-id="67897-120">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="42548-121">相关主题</span><span class="sxs-lookup"><span data-stu-id="42548-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="67897-121">相关主题</span><span class="sxs-lookup"><span data-stu-id="67897-121">Related topics</span></span>
 
-[<span data-ttu-id="42548-122">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="42548-122">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+[<span data-ttu-id="67897-122">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="67897-122">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
   
  

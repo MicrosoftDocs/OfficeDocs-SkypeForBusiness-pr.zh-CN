@@ -1,7 +1,7 @@
 ---
 title: 采用 Microsoft Teams
 ms.reviewer: karuanag
-description: 使用这些采纳资源可帮助您规划和部署您的组织中的 Microsoft 团队。
+description: 使用这些采纳资源可帮助你在组织中规划和部署 Microsoft 团队。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -16,16 +16,16 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902719"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494495"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
-如果您是小型企业，或如果您想要推出团队开头聊天，团队 & 通道和会议，使用我们说明性[获取启动指南](get-started-with-teams-quick-start.md)，旨在帮助您快速启动并正在运行。 如果您具有混合的大型组织或本地 Skype 业务配置，或如果您想要推出语音功能 （例如 Office 365 计划或电话系统调用)，您可以开始与我们入门指南，但您需要其他下**更深入地介绍采用指南**下面的指南。
+如果你是小型企业版, 或者想要推出从聊天开始的团队, 团队 & 频道和会议, 请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md), 它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织, 或者想要推出语音功能 (如 Office 365 通话计划或电话系统), 则可以从我们的入门指南开始, 但你需要其他下面的指南, 在 "**更深采用指南**" 下。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,12 +35,12 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>快速入门</h3>
-                        <p>指导您完成的最常见的应用方案</p>
+                        <p>引导你完成最常见的采纳方案</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +54,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>团队和通道简介</h3>
+                        <h3>团队和频道简介</h3>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>规划您的第一个工作组</h3>
+                        <h3>规划您的第一个团队</h3>
                     </div>
                 </div>
             </div>
@@ -90,11 +90,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>为您拥护者提供强大功能</h3>
+                        <h3>为您的拥护人士准备</h3>
                     </div>
                 </div>
             </div>
@@ -108,11 +108,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>培训 & 证书</h3>
+                        <h3>培训 & 认证</h3>
                     </div>
                 </div>
             </div>
@@ -126,11 +126,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>工具和下载内容</h3>
+                        <h3>工具和下载</h3>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@ ms.locfileid: "33902719"
 </ul>
 
 
-### <a name="deeper-adoption-guidance"></a>更深入地介绍采用指南
-应用计划可以简单到复杂，具体取决于您的环境。 对于大型部署，单步执行下面以确保您的组织可以顺利过渡到团队的指南。
+### <a name="deeper-adoption-guidance"></a>更深入的采纳指南
+采纳计划很容易复杂, 具体取决于你的环境。 对于大规模部署, 请逐步查看以下指南, 以确保你的组织能够顺利过渡到团队。
 
 <ul class="panelContent cardsF">
     <li>
@@ -150,11 +150,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">启动</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">打开</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">入门</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解团队和频道</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">创建第一个团队</a></p>
@@ -170,15 +170,15 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">实验</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">反复</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">创建冠军计划</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">管理快速入门</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">定义使用场景</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">板载前期应用和收集反馈</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">板载先期采纳者和收集反馈</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">登记支持</a></p>
                     </div>
                 </div>
@@ -191,11 +191,11 @@ ms.locfileid: "33902719"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">扩展</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">评分</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定义结果和成功</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">优化反馈和报告</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">提高认识度并实施培训</a></p>

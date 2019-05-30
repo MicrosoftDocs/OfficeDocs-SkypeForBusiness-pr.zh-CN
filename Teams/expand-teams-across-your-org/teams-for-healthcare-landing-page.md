@@ -1,6 +1,6 @@
 ---
 title: 适用于医疗保健业的 Teams
-description: 这些资源可用于充分利用医疗保健组织中的团队。
+description: 使用这些资源充分利用您的医疗保健组织中的团队。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245696"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548252"
 ---
 # <a name="teams-for-healthcare"></a>适用于医疗保健业的 Teams
 
-团队提供医护团队和医护人员的专业人员的安全方式进行通信，协调医患，并提高运营效率。 此处，您会发现您的组织中的医护人员团队管理团队所需的管理资源。
+团队为护理团队和医疗保健专业人士提供一种安全的沟通方式, 协调患者治疗和提高运营效率。 在这里, 你可以找到管理你的组织中的医疗保健团队的团队所需的管理员资源。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ ms.locfileid: "32245696"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ ms.locfileid: "32245696"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ ms.locfileid: "32245696"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">
