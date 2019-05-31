@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
-description: 从 for Business 的 Skype 管理向工作组的过渡指南
+description: 用于管理从 Skype for Business 切换到团队的指南
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.teamsupgrade.overview
@@ -15,109 +15,109 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20516c3045fecf14757866bf076b4bf8d16adaf4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45f12f98b649cab5bbc33b76b5a38012c9736824
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902738"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591725"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
 > [!Tip] 
-> 观看下面的会话了解[共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 
-在启动时具有 for Business 的 Skype 的组织采用团队，管理员可以管理其组织使用的概念共存是 TeamsUpgradePolicy 属性的"模式"中的用户体验。 使用模式，管理员管理互操作和迁移，他们管理从 for Business 的 Skype 到团队转换。  用户模式下确定哪些客户端中传入的聊天和呼叫园地以及哪些服务 （工作组或业务的 Skype） 新会议计划。 将来，模式，还将使用定义团队将可以使用哪些功能方面的客户端行为。 
+作为具有 Skype for Business 的组织开始采纳团队, 管理员可以使用共存 "模式" (它是 TeamsUpgradePolicy 的一个属性) 的概念来管理其组织中的用户体验。 使用模式, 管理员可管理互操作和迁移, 因为它们管理从 Skype for Business 到团队的过渡。  用户模式确定在哪种情况下, 客户端传入的聊天和呼叫世界, 以及安排新会议的服务 (团队或 Skype for business)。 在将来, 模式还将用于根据哪些功能可用来定义团队客户端行为。 
 
 
 ## <a name="fundamental-concepts"></a>基本概念
 
-1.  *互操作*： 1 对 1 业务用户 Lync/Skype 和团队用户之间的通信。
+1.  *互操作*: 1 到1个 Lync/Skype for business 用户与团队用户之间的通信。
 
-2.  *联合身份验证*： 不同租户中的用户之间的通信。
+2.  *联盟*: 不同租户中的用户之间的通信。
 
-3.  所有用户具有基础 Skype 的业务帐户"驻留"之一 online 的团队或者内部部署：
-    - 已为业务 Online 使用 Skype 的用户使用其现有的 online 帐户。
-    - 已使用 Skype 业务/Lync 内部部署的用户使用其现有的内部部署帐户。
-    - 我们不能为其检测现有 Skype 业务帐户的用户将有 Skype 业务联机时创建团队用户自动配置的帐户。
+3.  所有团队用户都拥有基础 Skype for Business 帐户, 该帐户 "托管" 是联机或本地的:
+    - 已使用 Skype for Business Online 的用户使用其现有的在线帐户。
+    - 已使用 Skype for Business/Lync 本地用户使用其现有本地帐户的用户。
+    - 无法检测到现有 Skype for Business 帐户的用户将在创建团队用户时自动设置 Skype for business Online 帐户。
 
-4.  如果必须在本地部署的任一 Skype 适用于商务或 Lync，并且您希望为团队用户这些用户，您必须至少确保 Azure AD 连接正在同步 msRTCSIP DeploymentLocator 属性到 AAD，因此该团队/Skype for Business联机正确检测您在本地环境。 此外，将任何用户移至仅团队模式 （即，升级用户），*您必须首先配置 Skype 业务混合模式*。 有关详细信息，请参阅[配置 Azure AD 连接的 Skype 业务和团队](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
+4.  如果你有 Skype for Business 或 Lync 的本地部署, 并且希望这些用户成为团队用户, 你必须至少确保 Azure AD Connect 将 msRTCSIP DeploymentLocator 属性同步到 AAD 中, 以便团队/Skype for Business联机地检测你的本地环境。 此外, 若要将任何用户移动到 "仅团队" 模式 (即升级用户),*必须首先配置 Skype for business 混合模式*。 有关更多详细信息, 请参阅[为 Skype for business 和团队配置 AZURE AD Connect](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
 
-5.  适用于业务用户之间团队和 Skype 的互操作才可能*如果团队用户联机驻留在 for Business 的 Skype*。 Skype 可以位于企业用户是本地 （和需要业务混合配置 Skype） 的收件人或联机。 位于业务本地 Skype 的用户可以使用团队群岛模式 （定义此文档中的更高版本），但不是能使用互操作的团队或 for Business 使用 Skype 的其他用户与联盟。  
+5.  只有*团队用户在 Skype for business 中托管*时, 才可以在团队和 skype for business 用户之间进行互操作。 收件人 Skype for Business 用户可以在本地托管 (并且需要配置 Skype for business 混合) 或在线。 托管在本地 Skype for Business 中的用户可以使用孤岛模式 (在本文档后面已定义) 中的团队, 但不能使用团队互操作或与其他使用 Skype for Business 的用户联盟。  
 
-6.  升级和互操作的行为取决于共存模式的用户，如下所述的更高版本。 由 TeamsUpgradePolicy 管理模式。 TeamsInteropPolicy 不再兑现和授予模式 = 不再允许旧。 
+6.  升级和互操作行为是根据用户的共存模式确定的, 下文所述。 模式由 TeamsUpgradePolicy 管理。 TeamsInteropPolicy 不再有效, 并且授权模式 = 不再允许旧版。 
 
-7.  将用户升级到 TeamsOnly 模式可确保的所有传入的聊天和呼叫将始终位于用户的团队的客户端，而不考虑其源自哪些客户端中。 这些用户还将安排团队中的所有新会议。 若要在 TeamsOnly 模式下，用户必须驻留联机 Skype for Business 中。 这是确保互操作、 联盟和团队用户的完整管理所需的。升级到 TeamsOnly 用户：
-    - 如果用户驻留在 for Business 的 Skype 联机 （或永远不会有任何 Skype 帐户），向其授予与模式 TeamsUpgradePolicy = TeamsOnly 使用"UpgradeToTeams"实例使用 PowerShell，或使用团队 Admin Center 选择 TeamsOnly 模式。
-    - 如果用户驻留在内部部署，请使用`Move-CsUser`从内部部署管理工具到第一次移动用户对 Skype 业务 online。  如果您具有 Skype 业务服务器 2019年或 CU8 Skype 的业务服务器 2015年，您可以指定`-MoveToTeams`中切换`Move-CsUser`用户直接移至团队移动的一部分联机。 此选项还会将用户的会议迁移到团队。 如果`-MoveToTeams`不指定或不可用，然后后`Move-CsUser`完成后，将 TeamsOnly 模式分配给该用户使用 PowerShell 或团队 Admin Center。 有关详细信息，请参阅[将内部部署和云之间的用户移动](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关会议迁移的详细信息，请参阅[使用会议迁移服务 (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+7.  将用户升级到 TeamsOnly 模式可确保所有传入聊天和呼叫始终位于用户的团队客户端, 无论其来源于哪种客户端。 这些用户还将计划团队中的所有新会议。 若要处于 TeamsOnly 模式, 用户必须在 Skype for Business 中联机。 这是确保团队用户的互操作、联盟和完全管理所必需的。要将用户升级到 TeamsOnly, 请执行以下操作:
+    - 如果用户托管在 Skype for Business online 中 (或从未拥有任何 Skype 帐户), 请使用 PowerShell 使用 "UpgradeToTeams" 实例向他们授予 TeamsUpgradePolicy with Mode = TeamsOnly, 或使用团队管理中心选择 TeamsOnly 模式。
+    - 如果用户在本地托管, 请从本地管理员`Move-CsUser`工具中使用, 首先将用户移动到 Skype For business Online。  如果您有 skype for business Server 2019 或 CU8 for Skype for business Server 2015, 则可以在 " `-MoveToTeams`联机移动`Move-CsUser` " 中指定切换以将用户直接移动到团队。 此选项还会将用户的会议迁移到团队。 如果`-MoveToTeams`未指定或不可用, 则完成后`Move-CsUser` , 使用 PowerShell 或团队管理中心将 TeamsOnly 模式分配给该用户。 有关详细信息, 请参阅[在本地和云之间移动用户](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关会议迁移的详细信息, 请参阅[使用会议迁移服务 (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
-8.  使用团队系统小组电话功能，用户必须是在 TeamsOnly 模式 （即，业务 online 驻留在 Skype 和升级到团队） 中，以及他们必须配置 Microsoft 电话系统[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)（这使您可以使用电话系统与您自己的 SIP 中继和 SBC） 或 Office 365 调用规划。   
+8.  若要将 Microsoft Phone 系统与团队一起使用, 用户必须处于 TeamsOnly 模式 (例如, 托管在 Skype for business Online 并升级到团队), 并且它们必须配置为使用 Microsoft Phone 系统[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)(这允许你将手机系统与您自己的 SIP 中继和 SBC) 或拥有 Office 365 呼叫计划。 在孤岛模式下不支持 Microsoft Phone 系统直接路由。    
 
-9.  安排音频会议 （电话拨入式或通过 PSTN 电话拨出） 团队会议现在，无论是否用户驻留在 Skype 业务联机或 Skype 业务本地提供。 
+9.  无论用户是托管在 Skype for Business Online 还是本地 Skype for business, 使用音频会议 (通过 PSTN 拨入或拨出) 安排团队会议现可供使用。 
 
 
 ## <a name="coexistence-modes"></a>共存模式
 
-根据"共存模式"使用 TeamsUpgradePolicy 托管互操作和迁移。 共存模式简单、 可预测体验的最终用户提供组织转换为从 for Business 的 Skype 向工作组。 将移动到团队的组织，TeamsOnly 模式是最终目标为每个用户，但并非所有用户都需要分配有 TeamsOnly （或任何模式） 在同一时间。 之前达到 TeamsOnly 模式的用户，组织可以使用任何 Skype 业务模式 （SfBOnly SfBWithTeamsCollab、 SfBWithTeamsCollabAndMeetings） 以确保可预测 TeamsOnly 用户和那些尚未之间的通信。
+将根据 "共存模式" 使用 TeamsUpgradePolicy 来管理互操作和迁移。 当组织从 Skype for Business 切换到团队时, 共存模式为最终用户提供简单且可预测的体验。 对于迁移到团队的组织, TeamsOnly 模式是每个用户的最终目标, 但并非所有用户都需要同时分配 TeamsOnly (或任何模式)。 在用户到达 TeamsOnly 模式之前, 组织可以使用任何 Skype for Business 模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 确保 TeamsOnly 用户和尚未使用的用户之间可预测的通信。
 
 
-从技术角度，用户的模式控制用户的体验的几个方面：
+从技术角度来看, 用户模式控制用户体验的多个方面:
 
-- *传入路由*： 中的客户端 （工作组或业务的 Skype） 执行传入聊天和调用园地？ 
-- *状态发布*： 是向其他用户根据其活动团队或 Skype for Business 中显示的用户的状态？ 
-- *会议日程安排*： 哪项服务都用于安排新的会议和确保正确的外接程序在 Outlook 中存在？ 请注意 TeamsUpgradePolicy 不管理会议加入。 用户可以始终*加入*任何会议，无论是业务会议或团队会议 Skype。
-- *客户端体验*： 哪项功能均可在工作组和/或 Skype 业务客户端？ 用户可以发起呼叫和团队、 for Business 的 Skype 或两者中的聊天室？ 是团队 & 通道体验可用？  
+- *传入路由*: 客户 (团队或 Skype for business) 进行传入聊天和呼叫土地？ 
+- *状态发布*: 根据用户在团队或 Skype for business 中的活动是否向其他用户显示的用户状态？ 
+- *会议计划*: 哪个服务用于安排新会议和确保 Outlook 中显示正确的加载项？ 请注意, TeamsUpgradePolicy 不管理会议加入。 无论是 Skype for business 会议还是团队会议, 用户都可以随时*加入*任何会议。
+- *客户体验*: 团队和/或 Skype for business 客户端提供哪些功能？ 用户是否可以在团队、Skype for business 或两者中发起呼叫和聊天？ 团队 & 频道体验是否可用？  
 
-基于模式的传送和状态行为的详细信息，请参阅[与 for Business 的 Skype 共存](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)。
+有关基于模式的路由和状态行为的详细信息, 请参阅[与 Skype For Business 共存](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)。
 
-但是，从体验的角度来看，模式可以地描述为定义的体验：
-- *聊天和调用*： 用户使用的客户端？
-- *会议安排*： 执行用户安排为团队或 Skype 业务会议的新会议？
-- *团队客户端中的协作功能的可用性*。 是团队 & 通道和文件的功能可用时的用户仍具有 Skype for Business？
+但是, 从体验角度来看, 模式更简单地描述为定义的体验:
+- *聊天和通话*: 用户使用哪种客户端？
+- *会议日程安排*: 用户将新会议安排为团队或 Skype for business 会议？
+- *团队客户端中的协作功能的可用性*。 团队是否 & 频道和文件功能在用户仍有 Skype for business 时可用？
 
-下面列出了模式。
+模式如下所示。
 </br>
 </br>
 
-|模式|呼叫和聊天|会议计划<sup>1</sup>|团队 & 通道|用例|
+|众|通话和聊天|会议日程安排<sup>1</sup>|团队 & 频道|用例|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*主页中 Skype 需要业务 online*|Teams|Teams|是|正在升级的最终状态。 此外默认 <500 座位与新的租户。|
-|群岛|任一|任一|是|默认配置。 允许单个用户评估并排比较两个客户端。 使用户必须始终运行两个客户端中任一客户端中，可以位于聊天和呼叫。|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|团队|是|"会议第一个"。 主要用于本地组织可以受益团队会议功能，如果它们尚准备要迁移到云中的呼叫。|
-|SfBWithTeamsCollab|Skype for Business|Skype for Business|是|需要加强管理控制的复杂组织的备用起始点。|
-|SfBOnly|Skype for Business|Skype for Business|没有<sup>3</sup>|专用具有数据控件周围的严格要求的组织的方案。 团队仅用于加入安排由其他人的会议。|
+|**TeamsOnly<sup>2</sup>**</br>*Skype for Business Online 需要家庭版*|Teams|Teams|是|升级的最终状态。 也是具有 <500 座位的新租户的默认值。|
+|群岛|某|某|是|默认配置。 允许单个用户并排评估这两个客户端。 聊天和通话可以在客户端中进行土地, 因此用户必须始终运行这两个客户端。 为避免令人困惑或 regressed 的 Skype for business 体验、外部 (联合) 通信、PSTN 语音服务和语音应用、Office 集成以及其他一些其他集成将继续由 Skype for Business 处理。|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|团队|是|"首先开会"。 主要供本地组织从团队会议功能中获益, 前提是他们尚未准备好将呼叫转移到云。|
+|SfBWithTeamsCollab|Skype for Business|Skype for Business|是|需要更严格的管理控制的复杂组织的备用起始点。|
+|SfBOnly|Skype for Business|Skype for Business|无<sup>3</sup>|针对数据控制严格要求的组织的专用方案。 团队仅用于加入由其他人计划的会议。|
 ||||||
 
 </br>
 </br>
 
-**说明：**
+**笔记**
 
-<sup>1</sup> （是否计划在工作组或业务的 Skype） 加入现有会议的功能不受模式。 默认情况下，用户始终可以加入已被邀请参加任何会议。
+<sup>1</sup>加入现有会议 (无论是在团队中还是在 Skype for business 中安排) 的功能不受模式控制。 默认情况下, 用户始终可以加入受邀参加的任何会议。
 
-<sup>2</sup>默认情况下，分配给单个用户的 TeamsOnly 或 SfbWithTeamsCollabAndMeetings 时，供该用户安排的未来的业务会议的任何现有 Skype 会转换为小组会议。 如果需要，您可以离开保留这些会议作为 Skype 业务会议可以通过指定`-MigrateMeetingsToTeams $false`授予 TeamsUpgradePolicy，或通过取消选中团队管理门户中的复选框。   请注意，将会议从 for Business 的 Skype 转换为团队的功能可用时不可 TeamsUpgradePolicy 授予在租户范围内。 
+<sup>2</sup>默认情况下, 向单个用户分配 TeamsOnly 或 SfbWithTeamsCollabAndMeetings 时, 该用户将来安排的任何现有 Skype for business 会议都将转换为团队会议。 如果需要, 您可以将这些会议保留为 Skype for Business 会议, 方法是`-MigrateMeetingsToTeams $false`在授予 TeamsUpgradePolicy 时指定, 或取消选中团队管理员门户中的复选框。   请注意, 在租户范围内授予 TeamsUpgradePolicy 时, 将不会 avaialble 将会议从 Skype for Business 转换为团队的功能。 
 
-<sup>3</sup>目前，团队没有禁用团队和通道功能，以便保持此现在已启用的功能。
+<sup>3</sup>目前, 团队不具备禁用团队和频道功能的功能, 因此现在可以继续使用。
 
 
 
-## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy： 管理迁移和共存
+## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: 管理迁移和共存
 
-TeamsUpgradePolicy 公开两个关键属性： 模式和 NotifySfbUsers。 
+TeamsUpgradePolicy 公开两个键属性: Mode 和 NotifySfbUsers。 
 </br>
 </br>
 
-|参数|类型|允许的值</br>（默认斜体中）|说明|
+|参数|类型|允许值</br>(默认值为斜体)|说明|
 |---|---|---|---|
-|模式|枚举|*群岛*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|指示客户端应中运行的模式。|
-|NotifySfbUsers|Bool|*False*或 true|指示是否在业务客户端通知用户团队很快将替换 for Business 的 Skype Skype 中显示的标题。 这不能为 true 如果模式 = TeamsOnly。|
+|众|枚举|*群岛*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|指示客户端应在其中运行的模式。|
+|NotifySfbUsers|Bool|*False*或 true|指示是否在 Skype for Business 客户端中显示横幅, 通知用户团队将很快更换 Skype for Business。 如果 Mode = TeamsOnly, 则此值不能为 true。|
 |||||
 
-团队提供的内置的只读策略通过 TeamsUpgradePolicy 所有相关的实例。 因此，仅获取并且可授予 cmdlet。 下面列出了内置的实例。
+团队通过内置的只读策略提供 TeamsUpgradePolicy 的所有相关实例。 因此, 只有获取和授予 cmdlet 可用。 下面列出了内置的实例。
 </br>
 </br>
 
-|Identity |模式|NotifySfbUsers|
+|Identity |众|NotifySfbUsers|
 |---|---|---|
 |群岛|群岛|False|
 |IslandsWithNotify|群岛|True|
@@ -131,48 +131,48 @@ TeamsUpgradePolicy 公开两个关键属性： 模式和 NotifySfbUsers。
 |全局</br>*Default*|群岛|False|
 ||||
 
-向单个用户或在租户范围内，可以授予这些策略实例。 例如：
-- 若要将用户 ($SipAddress) 升级到团队，授予"UpgradeToTeams"实例：</br>
+可以向单个用户或租户范围授予这些策略实例。 例如：
+- 若要将用户 ($SipAddress) 升级到团队, 请授予 "UpgradeToTeams" 实例:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress`
-- 若要升级的整个租户，省略 identity 参数从授予命令：</br>
+- 若要升级整个租户, 请从 "授予" 命令中省略 identity 参数:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
 
 
-## <a name="federation-considerations"></a>联合身份验证的注意事项
+## <a name="federation-considerations"></a>联盟注意事项
 
-从工作组 for Business 使用 Skype 的另一个用户的联盟要求 for Business 的 Skype 联机托管团队用户。 最终，用户驻留在 Skype 的业务本地团队都将能够与团队联盟仅用户。
+从团队到其他使用 Skype for Business 的用户的联盟要求团队用户在 Skype for business 中托管用户在线。 最终, 托管在本地 Skype for business 中的团队用户将能够与团队的用户进行联盟。
 
-TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由行为与同一租户方案，*但在群岛模式下*的相同。  当收件人处于群岛模式中： 
-- 聊天和如果收件人是*联盟的租户*中从团队园地 SfB 中发起的呼叫。
-- 如果收件人是*同一租户*中时，团队中将位于聊天和团队从发起的呼叫。
-- 聊天和始终从 SfB 发起的呼叫位于 Skype for Business 中。
+TeamsUpgradePolicy 控制传入联盟聊天和呼叫的路由。 *除 "孤岛" 模式之外*, 联合路由行为与相同租户方案相同。  当收件人处于 "孤岛" 模式时: 
+- 如果收件人在*联盟租户*中, 将从 SfB 中的团队土地发起聊天和通话。
+- 如果收件人位于*同一个租户*中, 则从团队中的团队土地发起聊天和通话。
+- 通过 SfB 发起的聊天和通话始终位于 Skype for Business 中。
 
-有关详细信息，请参阅[与 for Business 的 Skype 共存](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)。
+有关更多详细信息, 请参阅[与 Skype For Business 共存](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)。
 
-## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>使用 SfB 模式时，团队客户端用户体验
-当用户在任何业务模式 （SfBOnly、 SfBWithTeamsCollab SfBWithTeamsCollabAndMeetings） Skype，所有传入的聊天和呼叫路由至业务客户端的用户的 Skype。 若要避免最终用户混淆情况和确保正确路由，在客户端中的团队呼叫和聊天功能且被禁用时用户是在任何业务模式 Skype。 同样，在工作组中计划会议是显式禁用 SfBOnly 或 SfBWithTeamsCollab 模式，用户时，将明确启用当用户处于 SfBWithTeamsCollabAndMeetings 模式。 若要自动禁用的功能聊天和呼叫功能，以及会议安排基于模式启用/禁用功能现已可用。 有关的新功能的详细信息，请参阅[团队客户端体验和符合共存模式](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)。
+## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>团队客户端在使用 SfB 模式时的用户体验
+当用户处于任何 Skype for Business 模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 时, 所有传入聊天和通话都将路由到用户的 Skype for Business 客户端。 为避免最终用户混淆和确保正确路由, 当用户处于任何 Skype for Business 模式时, 将禁用团队客户端中的 "调用和聊天" 功能。 同样, 当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时, 将显式禁用团队中的会议计划, 并在用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用。 自动禁用聊天和呼叫功能以及启用/禁用基于模式的会议计划的功能现在现已上市。 有关新功能的详细信息, 请参阅[团队客户体验和适用于共存模式的一致性](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)。
 
 > [!Note] 
-> - 之前的团队和频道自动强制执行传递，SfbOnly 和 SfBWithTeamsCollab 模式的行为相同。
+> - 在交付团队和频道的自动强制之前, SfbOnly 和 SfBWithTeamsCollab 模式的行为相同。
 
 
 
-## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>已失效 TeamsInteropPolicy 和旧版模式 
+## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>TeamsInteropPolicy 和旧版模式已停用 
 
-已由 TeamsUpgradePolicy 取代 TeamsInteropPolicy。 已更新以前适用 TeamsInteropPolicy 的所有组件，以改为服从 TeamsUpgradePolicy。 Microsoft 有以前推出 TeamsUpgradePolicy 以便于从 TeamsInteropPolicy 转换为 TeamsUpgradePolicy 的"旧"模式。 在旧模式下，理解 TeamsUpgradePolicy 的路由组件将还原回为 TeamsInteropPolicy。 路由现在完全支持 TeamsUpgradePolicy。 不再支持旧版模式和不再可以授予旧模式。
+TeamsInteropPolicy 已被 TeamsUpgradePolicy 替换。 以前遵守 TeamsInteropPolicy 的所有组件均已更新为遵守 TeamsUpgradePolicy。 Microsoft 以前在 TeamsUpgradePolicy 中引入了 "旧式" 模式, 以便于从 TeamsInteropPolicy 切换到 TeamsUpgradePolicy。 在旧模式下, 已理解 TeamsUpgradePolicy 的路由组件将还原为 TeamsInteropPolicy。 现在, 路由完全支持 TeamsUpgradePolicy。 旧版模式不再受支持, 因此无法再授予旧版模式。
 
 
-## <a name="detailed-mode-descriptions"></a>详细的模式说明
+## <a name="detailed-mode-descriptions"></a>详细模式说明
 </br>
 </br>
 
-|模式|解释|
+|众|解释|
 |---|---|
-|**群岛**</br>（默认值）|用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>可以启动聊天和 VoIP 呼叫中任一 Skype 业务或团队的客户端。 注意： 具有 for Business 的 Skype 用户驻留在本地无法启动从团队访问另一个 Skype 业务用户，无论收件人的模式。<li>接收其 Skype 业务客户端中的其他用户启动中的业务的 Skype 聊天 & VoIP 呼叫。<li>接收聊天 & VoIP 呼叫他们团队的客户端中已开始另一个用户团队它们是否为*同一租户*中。<li>接收聊天 & VoIP 呼叫中已开始另一个用户的团队中其 Skype for Business 客户端它们是否在*联盟的租户*。 <li>具有 PSTN 功能如下所述：<ul><li>如果用户驻留在 Skype 业务本地，启动和 Skype for Business 中收到 PSTN 呼叫。<li>如果用户驻留 online，用户具有电话系统，这种情况下用户：<ul><li>发起和接收团队中的 PSTN 呼叫，如果对用户配置直接路由<li>发起和接收 Skype for Business 中的 PSTN 呼叫，如果用户已制定 MS 调用计划或连接到 PSTN 网络通过任一 Skype 商务云连接器版或 Skype 的内部部署业务服务器 （混合语音）</ul></ul><li>可以安排会议在团队或 Skype for Business 中的 （和默认情况下将看到两个插件）。<li>可以加入业务或团队会议; 任何 Skype会议将在各自的客户端中打开。</ul>|
-|**SfBOnly**|用户运行仅 for Business 的 Skype。 此用户：</br><ul><li>可以启动聊天和仅从 for Business 的 Skype 调用。<li>收到任何聊天/呼叫中的业务客户端，其 Skype 无论其中启动，除非发起者团队用户拥有 for Business 的 Skype 驻留在本地。*<li>可以安排仅 Skype 业务会议，但可以加入 Skype 业务或团队的会议。</br>* 与内部部署用户使用群岛模式不建议在组合与 SfBOnly 模式中的其他用户。 如果具有 for Business 的 Skype 的团队用户驻留在本地启动呼叫或向 SfBOnly 用户聊天，SfBOnly 用户无法连接到并接收错过的聊天呼叫 email.*|
-|**SfBWithTeamsCollab**|用户运行业务和团队-并行这两个 Skype。 此用户：</br><ul><li>具有 SfBOnly 模式中的用户的功能。<li>工作组已启用仅对组协作 （通道）;聊天/呼叫/会议安排将被禁用。</ul>|
-|**SfBWithTeamsCollab</br>AndMeetings**|用户运行业务和团队-并行这两个 Skype。 此用户：<ul><li>已在 SfBOnly 模式下的聊天和用户的呼叫功能。<li>已启用组协作的团队 （通道-包括通道对话）;聊天和呼叫将被禁用。<li>可以安排仅团队会议，但可以加入 Skype 业务或团队的会议。</ul>|
-|**TeamsOnly**</br>（需要 SfB Online 主页）|用户运行仅团队。 此用户：<ul><li>接收任何聊天并中调用他们团队的客户端，而不管在启动。<li>可以启动聊天和仅来自团队呼叫。<li>可以安排会议仅在工作组中的，但可以加入 Skype 业务或团队的会议。<li>可以继续使用 Skype 业务 IP 电话。</ul> |
+|**群岛**</br>默认|用户并排运行 Skype for business 和团队。 此用户:</br><ul><li>可以在 Skype for Business 或团队客户端中发起聊天和 VoIP 呼叫。 注意: 无论收件人的模式如何, 使用 Skype for business 托管内部部署的用户都无法从团队发起, 从而访问其他 Skype for Business 用户。<li>接收聊天 & Skype for business 客户端中的其他用户在 Skype for Business 中发起的 VoIP 呼叫。<li>接收聊天 & 在团队客户中由其他用户在其团队客户中发起的 VoIP 呼叫 (如果他们位于*同一个租户*中)。<li>接收聊天 & Skype for business 客户端中的其他用户在其 Skype for Business 客户端中发起的 VoIP 呼叫 (如果它们位于*联合租户*中)。 <li>具有如下所述的 PSTN 功能:<ul><li>如果用户托管在本地 Skype for business 且具有企业语音, 则在 Skype for Business 中始终发起和接收 PSTN 呼叫。<li>当用户托管在 Skype for business Online 且拥有 Microsoft 手机系统时, 用户将始终在 Skype for Business 中启动并接收 PSTN 呼叫:<ul><li>无论用户是否具有 Microsoft 通话计划, 或者通过 skype for business 云连接器版或 Skype for business Server 的本地部署 (混合语音), 都将发生 IThis。<li>注意: Microsoft 团队手机系统直接路由在孤岛模式下不受支持。</ul></ul><li>•在 Skype for Business 中接收 Microsoft 通话队列和自动助理通话<li>可以在团队或 Skype for business 中安排会议 (并且默认情况下将看到两个插件)。<li>可以加入任何 Skype for Business 或团队会议;会议将在相应的客户端中打开。</ul>|
+|**SfBOnly**|用户仅运行 Skype for Business。 此用户:</br><ul><li>只能从 Skype for Business 发起聊天和通话。<li>在其 Skype for Business 客户端中接收任何聊天/呼叫, 除非发起人是具有 Skype for business 托管内部部署的团队用户。*只能安排 skype for business 会议, 但可以加入 skype for business 或团队会议。 <li></br>* 将 SfBOnly 模式中的其他用户结合使用时, 不建议将孤岛模式与本地用户结合使用。 如果使用 Skype for Business 托管内部部署的团队用户发起呼叫或与 SfBOnly 用户聊天, 则无法访问 SfBOnly 用户并收到错过的聊天/呼叫电子邮件。 *|
+|**SfBWithTeamsCollab**|用户并排运行 Skype for business 和团队。 此用户:</br><ul><li>在 SfBOnly 模式下具有用户的功能。<li>只有组协作 (频道) 才启用团队;聊天/通话/会议计划已禁用。</ul>|
+|**SfBWithTeamsCollab</br>AndMeetings**|用户并排运行 Skype for business 和团队。 此用户:<ul><li>在 SfBOnly 模式下具有用户的聊天和通话功能。<li>已为组协作启用团队 (频道-包括频道对话);已禁用聊天和通话。<li>只能安排团队会议, 但可以加入 Skype for Business 或团队会议。</ul>|
+|**TeamsOnly**</br>(需要 SfB Online 主页)|用户仅运行团队。 此用户:<ul><li>接收团队客户端中的任何聊天和通话, 无论启动的位置如何。<li>可以仅发起来自团队的聊天和呼叫。<li>只能在团队中安排会议, 但可以加入 Skype for Business 或团队会议。<li>可以继续使用 Skype for Business IP 手机。</ul> |
 |||
 
 
@@ -184,12 +184,12 @@ TeamsUpgradePolicy 控制传入的联盟的聊天和呼叫路由。 联盟路由
 
 [Teams 客户端体验和共存模式的一致性](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
-[Get CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[授予 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[授权-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[设置 CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
 [使用会议迁移服务 (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

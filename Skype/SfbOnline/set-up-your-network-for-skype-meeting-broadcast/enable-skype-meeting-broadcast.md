@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 在组织中的人员可以使用 Skype 会议直播之前, 您需要启用它。 若要执行此操作, 您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494032"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591626"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
@@ -34,11 +34,11 @@ ms.locfileid: "34494032"
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-1. 使用 Office 365 全局管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
+1. 在处[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登录 Office 365 全局管理员帐户或 Skype for business 管理员帐户。
     
-2. In the Office 365 Admin center go to **Admin centers** > **Skype for Business**.
+2. 在 Office 365 管理中心中, 转到 "**管理中心** > "**团队**。
     
-3. 在**Skype for business 管理中心**中, 转到 "**联机会议** > **直播会议**", 然后选择 "**启用 Skype 会议直播**"。
+3. 在 "**团队管理中心**" 中, 转到 "**旧版门户** > "**联机会议** > "**广播会议**", 然后选择 "**启用 Skype 会议直播**"。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>使用 PowerShell 启用 Skype 会议直播
 
