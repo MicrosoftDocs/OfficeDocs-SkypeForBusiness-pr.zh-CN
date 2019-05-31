@@ -19,12 +19,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用, 以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548818"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592165"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -136,9 +136,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是教育版管理员的团队。我需要了解有关团队教育版中的应用设置策略的哪些信息？
 
-- "呼叫" 应用在教育版团队中不可用。 创建新的自定义应用设置策略时, 将在应用列表中显示调用应用。 但是, 应用不会固定到团队客户端和团队, 教育用户将看不到团队中的 "调用" 应用。 
-
-- 当前, 团队中的团队针对教育版应用中的用户不会反映策略更改。 我们正在致力于支持适用于教育团队的策略更改的新版本应用。
+"呼叫" 应用在教育版团队中不可用。 创建新的自定义应用设置策略时, 将在应用列表中显示调用应用。 但是, 应用不会固定到团队客户端和团队, 教育用户将看不到团队中的 "调用" 应用。
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>可以向策略添加多少个应用？
 
