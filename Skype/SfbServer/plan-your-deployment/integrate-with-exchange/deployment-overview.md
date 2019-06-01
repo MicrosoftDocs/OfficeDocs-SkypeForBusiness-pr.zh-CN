@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '摘要: 在计划将 Skype for business 服务器与 Exchange 2013 或2016集成时, 请查看本主题。'
-ms.openlocfilehash: 1f41ab816d42b58a16364bbaa8fd6162ac368288
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b83fdbc7c193056b689d92ddec6061cfc59ca25
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297384"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667503"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>集成本地统一消息与 Skype for Business 的部署过程概述
  
@@ -41,7 +41,7 @@ ms.locfileid: "34297384"
 |配置 Exchange UM SIP 拨号计划的安全设置。  <br/> |若要对企业语音流量进行加密, 请将 Exchange UM SIP 拨号计划中的安全设置配置为**SIP 安全**或**安全**。 如果你已部署或计划在你的环境中部署 Lync Phone Edition 设备, 这是一个非常重要的步骤。 为了使 Lync Phone Edition 设备在具有 Exchange UM 集成的环境中正常工作, Skype for business 服务器加密设置必须与 Exchange UM 拨号计划安全设置相一致。 有关详细信息，请参考部署文档。  <br/> |Exchange 组织管理员  <br/> |对于 Exchange 2010 或最新的 Service Pack，另请参阅：  <br/> [在 UM 拨号计划上配置 VoIP 安全](https://go.microsoft.com/fwlink/p/?LinkId=268697)。  <br/> 对于 Exchange 2013, 请参阅[统一消息](https://go.microsoft.com/fwlink/p/?LinkId=266579)。  <br/> |
 |将统一消息服务器添加到 Exchange UM SIP 拨号计划。  <br/> |要使新安装的统一消息服务器可以应答和处理传入呼叫，必须将该统一消息服务器添加到 UM 拨号计划中。 在这种情况下, 将服务器添加到 Exchange UM SIP 拨号计划。  <br/> |管理员  <br/> Exchange Server 管理员  <br/> |对于 Exchange 2010 或最新服务包, 请参阅[查看或配置 UM 服务器的属性](https://go.microsoft.com/fwlink/p/?linkId=268682)。  <br/> 对于 Exchange 2013, 请参阅[统一消息](https://go.microsoft.com/fwlink/p/?LinkId=266579)。  <br/> |
 |配置使用 SIP 地址的邮箱。  <br/> |将 SIP 地址分配给将使用 Exchange UM 功能的企业语音用户的邮箱。  <br/> |Skype for Business 服务器管理员  <br/> Exchange 收件人管理员  <br/> |对于 Exchange 2010 或最新服务包, 请参阅[修改启用 UM 的用户的 SIP 地址](https://go.microsoft.com/fwlink/p/?LinkId=268699)。  <br/> 对于 Exchange 2013, 请参阅[统一消息](https://go.microsoft.com/fwlink/p/?LinkId=266579)。  <br/> |
-|运行 exchucutil.ps1 脚本。  <br/> |在运行 Exchange UM 服务的服务器上, 打开 Exchange 命令行管理程序并运行 exchucutil 脚本, 该脚本执行以下操作: <br/> <br/> •授予 Skype for business 服务器权限以读取 Exchange UM Active Directory 域服务对象, 特别是在上一任务中创建的 SIP 拨号计划。  <br/><br/> •为托管已启用企业语音的用户的每个 Skype for Business Server 企业版池或标准版服务器在 Active Directory 中创建统一消息 IP 网关对象。  <br/><br/> •为每个网关创建一个 Exchange UM 查寻组。 该智能寻线的前导标识符将是与相应网关相关联的拨号计划的名称。 如果存在多个拨号计划，则需要进行一对一映射。  <br/> |Exchange 组织管理员  <br/> Exchange 收件人管理员  <br/> |[Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1](#configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1) |
+|运行 exchucutil.ps1 脚本。  <br/> |在运行 Exchange UM 服务的服务器上, 打开 Exchange 命令行管理程序并运行 exchucutil 脚本, 该脚本执行以下操作: <br/> <br/> •授予 Skype for business 服务器权限以读取 Exchange UM Active Directory 域服务对象, 特别是在上一任务中创建的 SIP 拨号计划。  <br/><br/> •为托管已启用企业语音的用户的每个 Skype for Business Server 企业版池或标准版服务器在 Active Directory 中创建统一消息 IP 网关对象。  <br/><br/> •为每个网关创建一个 Exchange UM 查寻组。 该智能寻线的前导标识符将是与相应网关相关联的拨号计划的名称。 如果存在多个拨号计划，则需要进行一对一映射。  <br/> |Exchange 组织管理员  <br/> Exchange 收件人管理员  <br/> |[Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md#configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1) |
 |配置 Skype for business 服务器拨号计划。  <br/> |如果要与 Exchange 2010 集成, 请使用与 Exchange UM 拨号计划完全限定的域名 (FQDN) 匹配的名称创建新的企业语音拨号计划。  <br/> **注意:** 你将需要为每个 UM 拨号计划执行此操作。 <br/> 如果您要与 Exchange 2010 SP1 集成, 请确保已配置合适的全局/网站级或池级的企业语音拨号计划。  <br/> **注意:** 如果您与 Exchange 2010 SP1 集成, 则 Skype for business Server 拨号计划和 Exchange UM SIP 拨号计划名称不需要匹配。 <br/> |RTCUniversalServerAdmins  <br/> |[在 Skype for Business 服务器中创建或修改拨号计划](../../deploy/deploy-enterprise-voice/dial-plans.md) <br/> |
 |运行 Exchange UM 集成工具。  <br/> | 在 Skype for Business 服务器上, 运行**ocsumutil**, 它:  <br/>  创建订阅者访问和自动助理联系对象。 <br/>  验证是否存在具有与 Exchange UM 拨号计划 FQDN 匹配的名称的企业语音拨号计划。 如果你运行的是 Exchange 2010 SP1 或更高版本, 则拨号计划名称不需要匹配, 你可以忽略该工具关于此工具的警告。 <br/>  此工具的工作原理是扫描 Active Directory for Exchange UM 设置, 并允许 Skype for Business Server 管理员查看、创建和编辑联系人对象。 <br/> |RTCUniversalServerAdmins*和*RTCUniversalUserAdmins <br/> **重要提示:** 若要成功运行 ocsumutil, 用户必须属于这两个组。 <br/> **注意:** 若要创建联系人对象, 运行 ocsumutil 的用户必须具有在其中存储新联系人对象的 Active Directory 组织单位 (OU) 的正确权限。 可以通过运行 **Grant-CsOUPermission** cmdlet 授予此权限。 有关详细信息, 请参阅 Skype for Business 服务器管理外壳文档。 <br/> |[为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md) <br/> |
 |如有必要, 请执行其他企业语音配置步骤。  <br/> |如果尚未在服务器或用户上配置企业语音设置, 请执行下列一项或多项操作:  <br/> •部署和配置  <br/> 公用电话交换网 (PSTN) 网关和中介服务器  <br/> •定义语音策略、PSTN 使用记录和出站呼叫路由。  <br/> •为用户启用企业语音。  <br/> •为特定用户配置拨号计划 (可选)。  <br/> 可能需要其他配置步骤, 具体取决于你启用的企业语音功能。  <br/> |RTCUniversalServerAdmins  <br/> RTCUniversalUserAdmins  <br/> |请参阅以下各节中的主题：  <br/> •[在 Skype For business 中配置语音策略、PSTN 使用记录和语音路由](../../deploy/deploy-enterprise-voice/voice-and-pstn.md) <br/> •[在 Skype For Business 服务器中部署企业语音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |

@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f32fd9fbbf43d5390422f1f6e47e0714bb5ab578
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548794"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652838"
 ---
-![升级旅行的阶段, 重点关注项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
+![升级旅行图, 强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
 本文是你的升级过程的项目定义阶段的一部分, 在你创建赞助联盟和项目团队并为你的项目定义范围、目标和构想之后, 你完成了一个活动。 继续之前, 请确认你已完成以下活动:
 

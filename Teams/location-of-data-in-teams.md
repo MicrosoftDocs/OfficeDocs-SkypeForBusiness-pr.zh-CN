@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548180"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667471"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据位置
 
 Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目前, 团队支持澳大利亚、加拿大、法国、印度、日本、英国、美洲、APAC 和 EMEA 地区。 
 
 > [!IMPORTANT]
-> 工作组目前为新租户提供了澳大利亚、加拿大、法国、印度、日本和英国的数据。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 澳大利亚、印度和日本的现有租户将继续在 APAC 区域中存储其团队数据。 加拿大的现有租户将继续将其数据存储在美洲。 法国和英国将其数据存储在 EMEA 地区。
+> 工作组目前为新租户提供了澳大利亚、加拿大、法国、印度、日本和英国的数据。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 澳大利亚、印度和日本的现有租户将继续在 APAC 区域中存储其团队数据。 加拿大的现有租户将继续将其数据存储在美洲。 法国和英国的现有租户将其数据存储在 EMEA 地区。
 
 若要了解有关为团队启动印度和英国数据派驻服务的详细信息, 请阅读 Ansuman Acharya 的博客文章, [Microsoft 团队即将推出印度数据派驻服务, 即将推出其他 geos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)。 
 

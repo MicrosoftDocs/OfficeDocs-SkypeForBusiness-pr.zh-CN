@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548363"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652735"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -89,7 +89,7 @@ ms.locfileid: "34548363"
   
    - ![绿色复选标记](media/deploy-my-service-image3.png)为 **"是" 或 "不适用" (绿色)** 的插图: 活动已完成, 或者不适用于此网站, 不需要执行其他操作。</li>
    - ![](media/deploy-my-service-image4.png) <strong>活动尚未完成的黄色感叹号的插图 (黄色):</strong>该活动尚未完成, 并且必须在其计划中更新为 "是" 或 "否"。</li>
-   - ![红色 X 标记](media/deploy-my-service-image5.png)的插图 "<strong>否" (红色):</strong>无法完成活动, 因为出现问题, 必须将其传送到项目状态会议。</li></ul>
+   - ![红色 X 表示 "不](media/deploy-my-service-image5.png) <strong>否" (红色)</strong>的插图: 由于存在问题, 无法完成活动, 并且必须携带给项目状态会议。</li></ul>
 
 6. 状态将在每个分区内进行汇总, 分区标题将设置为这些状态标记之一。 **每周状态**也会自动更新。
 

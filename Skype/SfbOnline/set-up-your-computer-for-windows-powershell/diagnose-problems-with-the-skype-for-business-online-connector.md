@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 有关创建用于连接到 Skype for business Online 的远程 PowerShell 会话的疑难解答, 包括导入模块、并发 shell、实时 ID 和权限错误。
-ms.openlocfilehash: 9e614ce02d9d47c1da2a8263ac8d2e1a307edb8f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284823"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667369"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -43,9 +43,9 @@ ms.locfileid: "34284823"
     
 - [Skype for Business Online 中已禁用连接到租户的功能](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [已超出 Skype for Business Online 中此用户的并发 shell 的最大数量](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
-    
-- [已超出 Skype for Business Online 中此租户的最大并发 shell 数](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [已超出 Skype for Business Online 中此用户的并发 shell 的最大数量](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [已超出 Skype for Business Online 中此租户的最大并发 shell 数](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Windows PowerShell 执行策略导致的导入模块错误
 <a name="BKMKPowerShellExecutionPolicy"> </a>

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290442"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667495"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -38,7 +38,7 @@ ms.locfileid: "34290442"
 
 你可以配置 Microsoft Phone 系统并使用户能够使用直接路由, 然后通过完成以下过程将 Microsoft 团队设置为首选调用客户端: 
 
-- [将 SBC 与 Microsoft Phone 系统配对并验证配对](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [将 SBC 与 Microsoft Phone 系统配对并验证配对](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [为用户启用直接路由服务](#enable-users-for-direct-routing-service)
 - [确保 Microsoft 团队是用户的首选调用客户端](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
@@ -446,7 +446,7 @@ John 的一对电话-允许拨打任何号码的电话。 当呼叫雷德蒙数�
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |仅限美国|"雷德蒙 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫方号码的活动路由 + 1 425 XXX XX XX 或 + 1 206 XXX xx xx|
 |仅限美国|"雷德蒙 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫方号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
-|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6> biz|被呼叫方号码的路由 + 1 XXX XXX xx (除 + 1 425 XXX xx 或 + 1 206 XXX xx)|
+|仅限美国|"其他 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6> contoso.biz|被呼叫方号码的路由 + 1 XXX XXX xx (除 + 1 425 XXX xx 或 + 1 206 XXX xx)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何数字模式的路由 |
 
 
