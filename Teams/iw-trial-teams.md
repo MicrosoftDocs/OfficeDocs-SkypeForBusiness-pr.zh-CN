@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404291"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548156"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -81,11 +81,11 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 1. 从“[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)”，转到“**设置**” > “**服务和外接程序**” > “**用户拥有的应用和服务**”。
 
-    ![Office 365 管理中心中“服务和外接程序”页面的屏幕截图。](media/iw-trial-enable-1.png)
+    ![管理中心中“服务和加载项”页面的屏幕截图](media/iw-trial-enable-1.png)
 
 2. 关闭**让用户安装试用版应用和服务**。
 
-    ![Office 365 管理中心中“用户拥有的应用和服务”页面的屏幕截图。](media/iw-trial-enable-2.png)
+    ![管理中心中“用户拥有的应用和服务”页面的屏幕截图](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理试用版可用性
@@ -102,7 +102,7 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 4. 在“**产品许可证**”窗格中，将开关切换为“**关闭**”。
 
-    ![Office 365 管理中心中的“产品许可证”页面的屏幕截图。](media/iw-trial-enable-3.png)
+    ![管理中心中的“产品许可证”页面的屏幕截图。](media/iw-trial-enable-3.png)
 
 ### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>为已经申请试用版的用户管理 Teams 可用性
 
@@ -118,7 +118,7 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 4. 在“**产品许可证**”窗格中，将开关切换为“**关闭**”。
 
-    ![“产品许可证”窗格上的“Teams 试用版许可证”设置的屏幕截图](media/iW-trial-enable-4.png)
+    ![许可证窗格上 Teams 试用版许可证设置的屏幕截图](media/iW-trial-enable-4.png)
     
 >[!Note]
 >在组织中的首位用户注册试用版后，就会出现 Microsoft Teams 试用版切换开关。
