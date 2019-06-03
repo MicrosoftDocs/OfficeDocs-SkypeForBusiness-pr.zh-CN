@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc365921871f8c39c9189571bee0214f4316c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236051"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667487"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -29,7 +29,7 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 > [!TIP]
 > 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
 
-## <a name="chat-deployment-prerequisites"></a>聊天部署先决条件 
+## <a name="chat-deployment-prerequisites"></a>聊天部署先决条件
 
 在整个组织内部署 Teams 之前，请花些时间确认你环境已准备好使用 Teams。 查看以下信息，并对你的环境进行任何必需的更改。
 
@@ -159,7 +159,7 @@ Teams 作为许多 Office 365 许可证的一部分提供。 若要详细了解 
 
 ### <a name="office-365-urls-and-ports"></a>Office 365 URL 和端口
 
-对其 Internet 流量保持精细控制的组织应阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，了解必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。 Microsoft 一直在改进 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。 建议你通过 RSS 订阅，以在此信息更新或更改时收到通知。 至少要确保你已开放上面[部署先决条件](#deployment-prerequisites)中列出的端口。
+对其 Internet 流量保持精细控制的组织应阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，了解必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。 Microsoft 一直在改进 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。 建议你通过 RSS 订阅，以在此信息更新或更改时收到通知。 至少需确保你已打开在上述[聊天部署先决条件](#chat-deployment-prerequisites)中列出的端口。
 
 |询问你自己|操作 |
 |------------|-------|
