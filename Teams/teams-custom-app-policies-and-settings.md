@@ -17,12 +17,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理自定义应用策略和设置, 以控制你的组织中可在 Microsoft 团队中上载自定义应用的人员。
-ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 443bc9390634d19590baa736a8f005aeeb1d15a4
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548658"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681964"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 

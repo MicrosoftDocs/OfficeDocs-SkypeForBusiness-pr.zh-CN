@@ -8,45 +8,52 @@ ms.date: 04/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何安装并连接到 Microsoft StaffHub PowerShell 模块。
+description: 了解如何安装和连接到 Microsoft StaffHub PowerShell 模块。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a6eab331c8d8b2213225ad8c7ee216f9f6ec2b51
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245913"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681878"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>安装 Microsoft StaffHub PowerShell 模块
 
 > [!IMPORTANT]
-> 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们 StaffHub 功能构建到 Microsoft 团队。 如今，团队包括日程管理引进相关应用程序和其他功能将随着时间的推移推出。 StaffHub 上 2019 年 10 月 1，将停止的所有用户的工作。 尝试打开 StaffHub 的任何人都将显示一条消息，来下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)。  
+> 2019年10月1日生效, Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天, 团队包括 "倒班" 应用, 用于计划管理, 而其他功能将随着时间的推移而推出。 StaffHub 将停止为2019年10月1日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息, 指导他们下载团队。 若要了解详细信息, 请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
-使用本文中的步骤安装并连接到 Microsoft StaffHub PowerShell 模块。 您将需要此能够通过使用 PowerShell 管理 StaffHub 和移动到的 Microsoft 团队 StaffHub 团队。
+使用本文中的步骤安装并连接到 Microsoft StaffHub PowerShell 模块。 你将需要此方法来使用 PowerShell 管理 StaffHub 并将 StaffHub 团队移动到 Microsoft 团队。
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>安装 Microsoft StaffHub PowerShell 模块
 
 1. 下载[StaffHub PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)。 
-2. 打开 Windows PowerShell 3.0 或更高版本，以管理员身份。 若要执行此操作，单击**开始**，键入**Windows PowerShell**，右键单击**Windows PowerShell**中，，然后选择**以管理员身份运行**。
+2. 以管理员身份打开 Windows PowerShell 3.0 或更高版本。 若要执行此操作, 请单击 "**开始**", 键入**windows powershell**, 右键单击 " **windows powershell**", 然后选择 "**以管理员身份运行**"。
 3. 请运行以下命令：
 
     ```
     $ENV:PSModulePath
     ```
+    
 
-4. 检查在输出中的文件夹路径，并确保路径中的所有文件夹都存在您的计算机上，转到下一步之前。 如果缺少文件夹，创建它们。
-5. 运行以下内容，其中&lt;路径&gt;是从步骤 2 在输出中的路径。 例如，路径可能类似于 C:\Users\User1\Documents\WindowsPowerShell\Modules。
+4. 检查输出中的文件夹路径, 并确保你的计算机上的所有文件夹都存在于你的计算机上, 然后再转到下一步。 如果文件夹丢失, 请创建它们。
+5. 运行以下内容以允许安装 StaffHub PowerShell 模块:
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+6. 运行以下, 其中&lt;path&gt;是步骤2的输出中的路径。 例如, 路径可能如下所示 C:\Users\User1\Documents\WindowsPowerShell\Modules。
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
 ## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>连接到 Microsoft StaffHub PowerShell 模块
@@ -57,7 +64,7 @@ ms.locfileid: "32245913"
     Connect-StaffHub
     ```
 
-2. 系统提示时，登录作为全局管理员。
+2. 出现提示时, 以全局管理员身份登录。
 
 ## <a name="related-topics"></a>相关主题
 

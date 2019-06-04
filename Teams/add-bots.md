@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
-author: LolaJacobsen, DamienDoumer
-ms.author: lolaj, Damien
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 12/05/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: 了解如何在 Microsoft Teams 中为私人聊天和频道添加聊天机器人、创建自定义聊天机器人以及为私人聊天侧向加载你自己的聊天机器人。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6987c14973443e62f0be69f9872c4e248ddb026b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 926a698e65176596e0009e42d3912fb88c771a5d
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548842"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681855"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中为私人聊天和频道添加聊天机器人
 ==========================================================
