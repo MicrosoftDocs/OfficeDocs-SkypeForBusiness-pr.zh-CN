@@ -17,15 +17,15 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 了解加载项许可证、功能以及如何购买 Office 365 专业增强版。
-ms.openlocfilehash: 8330ac282fd5bc4c64d6f31140b2989143214370
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+description: 了解团队消息中的优先级通知。
+ms.openlocfilehash: a50e9413e83b59295d46fc98562f95b8a6ce7fda
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34692302"
+ms.locfileid: "34702693"
 ---
-# <a name="priority-notifications"></a>优先级通知
+# <a name="messaging-policies-licensing"></a>邮件策略授权
 
 从2020年1月1日起, 许可用户将能够根据其订阅条款发送优先级通知。 IT 管理员将获得有关优先级通知使用情况的报告, 以支持相应的用户许可。
 

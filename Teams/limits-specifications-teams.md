@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8c28f3eac5bdfbd8542a77dca5386d27663d8c5
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299678"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695938"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -30,11 +30,11 @@ ms.locfileid: "34299678"
 
 |功能    | 最大限制 |
 |-----------|---------------|
-|用户可以创建的团队数 | 受250对象 limit&sup1;         |
+|用户可以创建的团队数 | 受250对象限制的限制&sup1;         |
 |团队中的成员数 | 5,000       |
 |[组织范围团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
 |全局管理员可以创建的团队数        |  500000   |
-|Office 365 租户可以拥有的团队数    | 500, 000&sup2;     |
+|Office 365 租户可以拥有的团队数    | 500000&sup2;     |
 |每个团队的频道数    | 200 (包括删除的频道) &sup3;         |
 
 &sup1;Azure Active Directory 中的任何目录对象都将计入此限制。 全局管理员不受此限制限制, 与使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样。
@@ -64,7 +64,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB 加上购买的每个许可证 10 GB   |每个组织 1 TB 加上购买的每个许可证 10 GB |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB           |
 |团队文件的存储空间 |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |
-|文件上载限制       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|文件上载限制 (每个文件)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 团队中的每个文件选项卡都在 SharePoint Online 后端运行, 因此上述存储限制将应用于团队中的每个频道。
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: b3d1db5b89c88784761d5bcef3a5400eeabdabe5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681888"
+ms.locfileid: "34702702"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -86,7 +86,7 @@ ms.locfileid: "34681888"
 - **允许 URL 预览**使用此设置可在邮件中打开或关闭自动 URL 预览。
 - **允许用户翻译邮件**启用此设置, 让用户自动将团队邮件翻译为 Office 365 的个人语言设置所指定的语言。
 - **允许沉浸式阅读器查看邮件**启用此设置, 让用户在 Microsoft 沉浸式阅读器中查看邮件。 沉浸式阅读器是一种学习工具, 可提供全屏阅读体验以增加文本的可读性。
-- **用户可以发送优先级通知**如果启用此操作, 则用户可以发送使用优先级通知的邮件。 优先级通知重复通知用户一段时间, 持续时间为20分钟, 直到接收到邮件由收件人阅读并阅读邮件时, 最大程度地提高邮件的提取和操作的可能性。 [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **用户可以发送优先级通知**如果启用此操作, 则用户可以发送使用优先级通知的邮件。 优先级通知重复通知用户一段时间, 持续时间为20分钟, 直到接收到邮件由收件人阅读并阅读邮件时, 最大程度地提高邮件的提取和操作的可能性。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **语音消息创建** 
     - **在聊天和频道中允许**这意味着用户可以在聊天和频道中留下语音消息。
     - **仅在聊天中允许**这意味着用户可以将语音消息留在聊天中, 而不是在频道中。

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文概述了哪些受影响的客户应了解哪些内容, 并针对其业务连续性进行规划。
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494186"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702678"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -173,6 +173,10 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 | 传入| 服务功能 | 传真集成|  | 否 | 是    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>适用于管理员的建议测试计划和迁移后验证
+
+若要验证用户是否已迁移到云语音邮件, 只需将语音邮件保留给用户并在 Outlook 中查看邮件正文, 则云语音邮件的其他页脚将显示:
+
+**感谢您使用 "脚本"!如果在上述情况下看不到上述记录, 这是因为音频质量不够清晰, 无法稍后将。**
 
 在用户迁移后测试语音邮件功能时, 请确保考虑以下方案:
 

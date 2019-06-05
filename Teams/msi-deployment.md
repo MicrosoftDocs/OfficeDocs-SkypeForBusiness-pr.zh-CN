@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421945"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694726"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
@@ -48,7 +48,7 @@ ms.locfileid: "34421945"
 
 团队 MSI 将在程序文件中放置一个安装程序。 当用户登录到新的 Windows 用户配置文件时, 将启动安装程序, 并将在该用户的 appdata 文件夹中安装 "团队" 应用副本。 如果用户已在 appdata 文件夹中安装了 "团队" 应用, 则 MSI 安装程序将跳过该用户的进程。
 
-请勿使用 MSI 部署更新, 因为客户端将在检测到服务提供新版本时自动更新。 若要重新部署最新的安装程序, 请使用下面所述的重新部署 MSI 的过程。如果你部署较旧版本的 MSI 程序包, 客户可能会在可能的情况下自动更新该用户。 如果部署了非常旧的版本, MSI 将在用户可以使用团队之前触发应用更新。 
+请勿使用 MSI 部署更新, 因为客户端将在检测到服务提供新版本时自动更新。 若要重新部署最新的安装程序, 请使用下面所述的重新部署 MSI 的过程。如果你部署较旧版本的 MSI 程序包, 客户端将在可能的情况下自动更新 (在 VDI 环境中除外)。 如果部署了非常旧的版本, MSI 将在用户可以使用团队之前触发应用更新。 
 
 > [!Important] 
 > 我们不建议你更改默认安装位置, 因为这可能会中断更新流。 如果版本过旧, 最终会阻止用户访问该服务。 

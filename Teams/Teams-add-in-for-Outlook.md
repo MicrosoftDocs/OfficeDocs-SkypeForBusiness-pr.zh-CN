@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591636"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694744"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -61,6 +61,14 @@ ms.locfileid: "34591636"
 ![Outlook mobile 中的团队会议外接程序的屏幕截图](media/teams-meeting-add-in-mobile.png)
 
 用户单击 "**发送**" 后, 会议坐标 (团队加入链接和拨入号码) 将添加到会议邀请中。  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook 中的团队会议外接程序和 FindTime
+FindTime 是 Outlook 的加载项, 可帮助用户在公司内通过会议时间达成共识。 会议被邀请者提供其首选时间后, FindTime 代表用户发送会议邀请。 如果在 FindTime 中选中 "**联机会议**" 选项, 则 FindTime 将安排 Skype for Business 或 Microsoft 团队会议。 (FindTime 将使用您的组织设置为默认联机会议频道的任何人。)
+
+> [!NOTE]  
+> 如果您在[Findtime 仪表板](https://findtime.microsoft.com/UserDashboard)中保存了 "Skype for business" 设置, 则 Findtime 将使用该设置, 而不是 Microsoft 团队。 如果要使用 Microsoft 团队, 请删除仪表板中的 "Skype for Business" 设置。
+
+有关详细信息, 请参阅[安排有关 FindTime 的会议](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
 
 ## <a name="authentication-requirements"></a>身份验证要求
 
