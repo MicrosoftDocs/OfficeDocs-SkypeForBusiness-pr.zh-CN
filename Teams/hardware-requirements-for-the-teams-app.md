@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/28/2018
+ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: ed73135210cd970e6ee489d0f2eb095e0ab65e0c
+ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330417"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34739956"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -40,8 +40,8 @@ ms.locfileid: "34330417"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
-|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选**模糊处理我的背景**视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器。 |
-|团队活动事件 | 如果你正在生成团队实时事件, 我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM (或更高版本) 和硬件编码器的计算机。  |
+|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选**模糊处理我的背景**视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
+|团队活动事件 | 如果你正在生成团队实时事件, 我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM (或更高版本) 和硬件编码器的计算机。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的团队桌面应用的硬件要求
 
@@ -54,7 +54,7 @@ ms.locfileid: "34330417"
 |操作系统  |    Mac OS X 10.11 El Capitan 或更高版本     |
 |视频  |    兼容网络摄像头     |
 |语音    |  兼容的麦克风和扬声器, 带麦克风的耳机, 或等效设备       |
-|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器 (支持最迟 2013 Mac 设备和更高版本)。
+|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器 (支持最迟 2013 Mac 设备和更高版本)。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>移动设备上的团队应用的硬件要求
 

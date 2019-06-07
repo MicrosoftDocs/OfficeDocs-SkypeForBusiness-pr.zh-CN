@@ -7,51 +7,51 @@ ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-description: 了解基于 AAD 的动态团队成员资格。
+description: 了解基于 AAD 的动态团队成员身份。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e9da5b5bc9c1bb5800634d727bd6c9218812ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245412"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748432"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
-Microsoft 团队支持团队使用动态成员身份的 Office 365 组相关联。 动态成员资格使团队的成员身份对于某些检查用户属性在 Azure Active Directory (AAD) 的一个或多个规则定义。 用户自动添加或更改用户属性或用户加入和离开租户中移除的正确的团队。
+Microsoft 团队支持使用动态成员身份与 Office 365 组相关联的团队。 动态成员资格允许团队的成员身份由一个或多个在 Azure Active Directory (AAD) 中检查特定用户属性的规则定义。 当用户属性发生更改或用户加入并离开租户时, 用户将自动添加或删除到正确的团队。
 
-动态成员身份，您可以使用安装程序对于某些团队组织中用户的群体。 可能的方案包括：
-- 医院可创建护理、 医生和 surgeons 广播 communications 不同的团队。 如果这一点尤其重要医院依赖临时员工。
-- 大学可以创建特定大学，包括经常更改附属教职员工内的所有教职员工的工作组。
-- 航空公司想要创建的 （如星期二下午不间断从芝加哥到 Atlanta） 每航班工作组和具有频繁变化的航班 crew 自动分配或删除根据需要。
+利用动态成员身份, 你可以为组织中的某些用户设置团队 cohorts。 可能的方案包括:
+- 医院可以为护士、医生和 surgeons 创建独特的团队来广播通信。 如果医院依靠 temp 员工, 这一点尤其重要。
+- 大学可以为特定大学中的所有教职员创建团队, 包括经常变动的附属教职员。
+- 航空公司希望为每个航班 (如星期二下午不停从芝加哥到亚特兰大) 创建团队, 并且经常更改的航班职员会根据需要自动分配或删除。
 
-使用此功能，给定的团队成员更新自动基于一组特定的条件，而不是手动管理成员资格。 执行此操作需要 Azure AD Premium P1 许可证，团队成员资格可以是任何用户的 AAD 属性[由租户管理员分配](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)提供您具有一个租户和管理帐户。 
+使用此功能时, 给定团队的成员会根据一组特定条件自动更新, 而不是手动管理成员身份。 执行此操作需要使用 Azure AD Premium P1 许可证, 并且团队成员可以[由租户管理员分配](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)给任何用户的 AAD 属性 (前提是你有租户和管理员帐户)。 
 
-Microsoft 团队花几分钟到最多为 2 小时以反映动态成员身份更改之后生效的 Office 365 组的团队。 
+在团队的 Office 365 组中, Microsoft 团队可能会从几分钟到最多2小时的时间来反映动态成员身份更改。 
 
 > [!NOTE]
-> - 规则可以定义谁是团队成员，但不是谁团队所有者。
-> - 当前工作组和频道大小限制，请参阅[限制和规格的 Microsoft 团队](limits-specifications-teams.md)。
-> - 所有者不能添加或删除用户作为团队的成员，因为由动态组规则定义成员。
-> - 成员不能让团队后盾动态组。
+> - 规则可定义团队成员, 但不能定义团队所有者。
+> - 有关工作组和频道大小的当前限制, 请参阅[Microsoft 团队的限制和规范](limits-specifications-teams.md)。
+> - 所有者将无法将用户添加或删除为团队成员, 因为成员由动态组规则定义。
+> - 成员将无法退出由动态组支持的团队。
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>创建和管理 Office 365 组与动态成员身份
-时以租户管理员身份登录，请按照[创建动态组并检查状态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)中的说明。 根据需要请参阅[动态成员身份的 Azure Active Directory 组的规则](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)。
+## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>使用动态成员身份创建和管理 Office 365 组
+以租户管理员身份登录时, 按照[创建动态组和检查状态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)中的说明进行操作。 根据需要, 请参阅[Azure Active Directory 中的组的动态成员身份规则](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)。
 
-## <a name="create-a-new-team-with-your-o365-group"></a>创建新工作组与 O365 组
+## <a name="create-a-new-team-with-your-o365-group"></a>使用 O365 组创建新团队
 
-现在允许时间成员资格才能使更改生效，并创建新的团队，[增强现有 Office 365 与 Microsoft 团队的组](enhance-office-365-groups.md)中所述。
+现在, 允许成员身份更改生效, 并创建新团队, 如[使用 Microsoft 团队增强现有 Office 365 组](enhance-office-365-groups.md)中所述。
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>应用于现有团队的动态成员身份
+## <a name="apply-dynamic-membership-to-an-existing-team"></a>将动态成员身份应用于现有团队
 
-您还可以采用现有团队，并更改其具有动态成员资格，[更改静态组成员身份为 Azure Active Directory 中动态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)中所述。
+你还可以获取现有团队并将其更改为拥有动态成员身份, 如在[Azure Active Directory 中将静态组成员身份更改为动态的组成员身份](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)中所述。
 
-## <a name="changes-in-client-behavior"></a>客户端行为中的更改
+## <a name="changes-in-client-behavior"></a>客户端行为的更改
 
-一旦团队启用动态成员身份，团队客户端不再允许工作组成员管理。 所有隐藏添加成员、 编辑成员角色、 发送和批准加入请求和离开团队的选项。
+为团队启用动态成员身份后, 团队客户将不再允许团队的成员管理。 用于添加成员、编辑成员角色、发送和批准加入请求以及保持团队全部隐藏的选项。

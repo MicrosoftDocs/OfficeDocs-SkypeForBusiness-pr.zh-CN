@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433053"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748377"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -31,7 +31,7 @@ ms.locfileid: "34433053"
     
 所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队屏幕截图中所示，横幅显示“This team has guests”，每个来宾的姓名旁边显示“GUEST”标签。
     
-![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2 "屏幕截图" 显示了罗斯文商贸的市场营销渠道的一部分, 其中显示了 "此团队拥有来宾" 的通知, 以及在其姓名旁边显示了 "来宾" 一词的来宾用户。)
+![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分, 并在顶部横幅中显示通知, 表明该团队拥有来宾和来宾用户 (其姓名旁边的 \"WORD 来宾\" 标识)。")
 
 下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
 

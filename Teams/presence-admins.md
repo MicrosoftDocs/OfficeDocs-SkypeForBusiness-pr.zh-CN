@@ -1,5 +1,5 @@
 ---
-title: Teams 中的用户状态
+title: 团队中的用户状态
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548522"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748440"
 ---
-# <a name="user-presence-in-teams"></a>Teams 中的用户状态
+# <a name="user-presence-in-teams"></a>团队中的用户状态
 
 联机状态是 Microsoft 团队 (以及整个 Office 365) 中的用户配置文件的一部分-并指示用户的当前可用性和组织中其他用户的状态。 默认情况下, 使用团队的组织中的任何人都可以在几乎实时查看-无论其他用户是否在线提供。
 
@@ -34,13 +34,13 @@ ms.locfileid: "34548522"
 |:--- |:---|
 | ![稳定绿色的 chek 标记, 指示可用状态](media/Presence_Available.png) 有空|![稳定绿色的 chek 标记, 指示可用状态](media/Presence_Available.png) 有空|
 || ![打开绿色的 chek 标记, 指示可用的 oof](media/Presence_Available_OOF.png) 可用, 外出 |
-|  ![红色实心圆圈, 表示占线](media/Presence_Busy.png) / |  ![/](media/Presence_Busy.png) /  |
+|  ![红色实心圆圈, 表示占线](media/Presence_Busy.png) / |  ![红色实心圆圈, 表示占线](media/Presence_Busy.png) /  |
 || ![红色实心圆圈, 表示通话中的占线](media/Presence_Busy.png) 在通话中|
 || ![红色实心圆圈, 表示会议中的忙](media/Presence_Busy.png) 在会议中 |
 || ![打开红色圆圈, 指示繁忙的 oof](media/Presence_Busy_OOF.png) 在通话中, 外出|
 |  ![带白线的红色圆圈, 指示 "请勿打扰"](media/Presence_DND.png) 请勿打扰 ||
 || ![带有白色线的红色圆圈, 指示演示](media/Presence_DND.png) 演示|
-| ![黄色时钟图标, 表示离开](media/Presence_Away.png) 离开| ![离开](media/Presence_Away.png) 离开|
+| ![黄色时钟图标, 表示离开](media/Presence_Away.png) 离开| ![黄色时钟图标, 表示离开](media/Presence_Away.png) 离开|
 || ![黄色时钟图标, 指示离开](media/Presence_Away.png)上次看到的*时间*|
 |![黄色时钟图标, 表示离开, 马上回来](media/Presence_Away.png) 马上回来| |
 || ![黄色时钟图标, 指示离开、离开工作](media/Presence_Away.png)  关闭工作|
@@ -60,9 +60,9 @@ ms.locfileid: "34548522"
 
 Skype for Business 中的以下管理员设置在团队中有所不同:
 - 组织中的用户始终可以在团队中启用联机状态共享。 隐私 (决定谁可以查看状态) 配置在团队中不可用。
-- 始终为团队中的用户启用与每个人 (包括联合服务) 的联机状态共享。 他们的联系人列表 (如果他们在 SfB 中有一个) 在 "**聊天 _GT_ 联系人**" 或 "**呼叫 > 联系人**" 下可见。
+- 始终为团队中的用户启用与每个人 (包括联合服务) 的联机状态共享。 他们的联系人列表 (如果他们在 Skype for Business 中) 在 "**聊天 > 联系人**" 或 "**通话 > 联系人**" 下可见。
 - 对于团队中的用户, 将始终启用客户端 "请勿打扰" 和 "特许" 功能。
-- 日历 (包括 OOF & 其他日历信息) 对于团队中的用户, 如果与 Outlook 集成, 则始终为其启用集成。
+- 日历 (包括外出和其他日历信息) 对于团队中的用户, 如果与 Outlook 集成, 则始终为其启用集成。
 - 始终** 为团队中的用户启用 "*自*(如果在具有 Skype for business 的双重环境中)" 指示器。
 
 > [!NOTE]
