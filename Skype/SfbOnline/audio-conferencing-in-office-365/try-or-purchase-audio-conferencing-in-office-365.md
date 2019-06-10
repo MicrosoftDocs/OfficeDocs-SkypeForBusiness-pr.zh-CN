@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ad0549380f4e90e746fec7b7bc997f99e8510ef6
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302757"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768762"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -73,28 +73,26 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 4. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
-    > [!NOTE]
-    > 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+将**音频会议**许可证分配给贵组织中会领导或安排会议的人员时，他们所有人就已经设置好并准备就绪了！ （您无需设置其音频会议提供商。）
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 
 以下步骤为**可选**步骤，但很多管理员喜欢执行这些操作：
 
-1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [自定义会议邀请](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
 
-2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
+2. [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)。 这是将在由用户安排的会议中显示的电话号码。
 
-3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
+3. [设置音频会议自动助理语言](set-auto-attendant-languages-for-audio-conferencing.md)，音频会议自动助理将用这种语言在致电者拨入音频会议电话号码时向其发出问候。 此步骤仅在使用 Microsoft 作为音频会议提供商时适用。
 
 4. [设置音频会议会议的 PIN 长度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> 由中国世纪互联运营的 Office 365 用户暂无法使用此功能。 如需了解更多信息，请参阅[了解由世纪互联运营的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
 ## <a name="related-topics"></a>相关主题
 

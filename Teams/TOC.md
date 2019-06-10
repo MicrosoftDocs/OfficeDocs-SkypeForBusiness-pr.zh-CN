@@ -23,6 +23,7 @@
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
+## [在团队中共享文件](sharing-files-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
@@ -692,6 +693,7 @@
 ## 安装 Teams
 ### [获取 Teams 客户端](get-clients.md)
 ### [Teams 应用的硬件要求](hardware-requirements-for-the-teams-app.md)
+### [硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)
 ### [使用 MSI 安装 Teams](msi-deployment.md)
 ### [在组织中打开 Teams](Office-365-set-up.md)
 ### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)

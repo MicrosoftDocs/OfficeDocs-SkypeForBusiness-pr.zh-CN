@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34695946"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748385"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -49,7 +49,7 @@ ms.locfileid: "34695946"
 来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于你的组织的任何人都可作为来宾添加到 Teams 中。 这意味着具有业务帐户（即 Azure Active Directory 帐户）或客户电子邮件帐户（带有 Outlook.com 和 Gmail.com 等）的任何人都可作为来宾参与 Teams，并且可完全访问团队和频道体验。 （有关来宾限制，可参阅[在 Microsoft Teams 中授予来宾访问权限](teams-dependencies.md)。）Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。
 
 ## <a name="why-use-guest-access"></a>为何要使用来宾访问？
-      
+
 借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的外部访问权限，同时对其自己的公司数据维护完全控制。 Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。  
 
 Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资产的全新方式。 Teams 是实现在组/团队成员之间进行持久聊天的最佳解决方案。 Office 365 是针对一组共享团队资产（例如 SharePoint 网站或 Power BI 仪表板）提供跨应用成员身份的服务，以便团队可以有效且安全地协作。 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
+ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298668"
+ms.lasthandoff: 06/09/2019
+ms.locfileid: "34808022"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -70,6 +70,8 @@ ms.locfileid: "34298668"
 > 对于 Skype for Business 客户, 通过 Microsoft 团队呼叫策略禁用语音邮件可能还会禁用 Skype for business 用户的语音邮件服务。
 
 默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet 对其进行控制。
+
+您的组织中的用户收到的语音邮件是 transcribed 在托管 Office 365 租户的区域中。 租户的托管区域可能与接收语音邮件消息的用户所在的区域不同。 若要查看租户的托管区域, 请转到 "[组织配置文件](https://go.microsoft.com/fwlink/p/?linkid=2067339)" 页面, 然后单击 "**数据位置**" 旁边的 "**查看详细信息**"。
 
 > [!IMPORTANT]
 > 您不能使用**且**cmdlet 创建用于脚本和脚本猥亵的新策略实例, 并且不能使用**且**cmdlet 删除现有策略实例.

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301265"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768772"
 ---
 # <a name="assign-skype-for-business-licenses"></a>分配 Skype for Business 许可证
 
@@ -107,20 +107,22 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Skype for Business Online 独立计划 2  <br/> |MCOSTANDARD  <br/> |
 |电话系统  <br/> |MCOEV  <br/> |
 |国际通话计划  <br/> |MCOPSTN2  <br/> |
-|国内通话套餐  <br/> |MCOPSTN1  <br/> |
+|国内呼叫计划 (3000 分美国/1200 最少欧盟计划)  <br/> |MCOPSTN1  <br/> |
+|国内呼叫计划 (120 分钟通话计划)  <br/> |MCOPSTN5  <br/> |
+|国内呼叫计划 (240 分钟通话计划)  <br/> |MCOPSTN6  <br/> |
 |通信点数  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>音频会议: 分配许可证的提示和脚本
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>分配音频会议许可证之前需要了解的内容
 
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
+- **第三方音频会议提供商**: 如果某人已设置为使用第三方音频会议提供商, 则当您为他们分配**音频会议**许可证时, 他们将更改为使用 Microsoft 作为音频会议程序. 你可以将他们更改回第三方提供商。
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
+- 后续步骤: 分配**音频会议**许可证后, 你需要分配音频会议提供商。 请参阅 [将 Microsoft 指定为音频会议提供商]。
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何向一个用户分配音频会议许可证
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>如何批量分配音频会议许可证
 
@@ -130,7 +132,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+    [!注释] 此脚本中许可证名称或产品名称以斜体字列出。 请参阅用于为所有产品名称[编写脚本的音频会议产品名称或 sku](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) 。
 
     此示例分配了一个企业版 E3 许可证和一个音频会议许可证。
 
@@ -187,15 +189,15 @@ foreach ($user in $users)
 
 - **企业版 E5 客户**: 即使你的用户已分配有企业版 e5 许可证, 我们仍然建议你为其分配**通讯信用**许可证。
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **后续步骤** ：分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明, 请参阅[设置呼叫计划](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>如何向一个用户分配通讯信用许可证
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>如何批量分配通讯信用许可证
 
-Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
+请查看用于分配**音频会议**许可证的示例脚本。 用分配**通讯信用**许可证的信息更新它。
 
 ## <a name="related-topics"></a>相关主题
   
