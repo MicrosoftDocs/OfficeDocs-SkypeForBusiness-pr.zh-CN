@@ -1,53 +1,87 @@
-﻿---
-title: Lync Server 2013 新功能
-TOCTitle: 新的服务器功能
-ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425795(v=OCS.15)
-ms:contentKeyID: 49312373
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 新功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New server features
+ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
+ms:contentKeyID: 48183722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826225"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的新功能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-04_
+# <a name="new-features-in-lync-server-2013"></a><span data-ttu-id="29ba0-102">Lync Server 2013 中的新功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-102">New features in Lync Server 2013</span></span>
 
-Lync Server 2013 引入了许多新功能，并对现有功能进行了明显改进。本节简要介绍这些新功能和改进功能。
+</div>
 
-对于 Lync Server 2013 中的新增功能，我们将按照本节中的主题分组讨论：
+<div id="mainSection">
 
-## 本部分内容
+<div id="mainBody">
 
-  - [Lync Server 2013 中新的管理功能](lync-server-2013-new-management-and-administration-features.md)
+<span> </span>
 
-  - [Lync Server 2013 中的拓扑更改](lync-server-2013-topology-changes.md)
+<span data-ttu-id="29ba0-103">_**主题上次修改时间:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="29ba0-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-  - [Lync Server 2013 中新的灾难恢复和高可用性功能](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
+<span data-ttu-id="29ba0-104">Lync Server 2013 引入了许多新功能, 并具有对现有功能的显著增强。</span><span class="sxs-lookup"><span data-stu-id="29ba0-104">Lync Server 2013 introduces many new features, along with significant enhancements to existing functionality.</span></span> <span data-ttu-id="29ba0-105">本部分提供了这些新功能和增强功能的高级介绍。</span><span class="sxs-lookup"><span data-stu-id="29ba0-105">This section provides a high-level introduction to these new features and enhancements.</span></span>
 
-  - [Lync Server 2013 中新的虚拟化功能](lync-server-2013-new-virtualization-features.md)
+<span data-ttu-id="29ba0-106">在 Lync Server 2013 中讨论新功能将在本部分中的主题中进行分组。</span><span class="sxs-lookup"><span data-stu-id="29ba0-106">Discussions of new features in Lync Server 2013 are grouped among the topics in this section.</span></span>
 
-  - [Lync Server 2013 中新的 IM 和状态功能](lync-server-2013-new-im-and-presence-features.md)
+<div>
 
-  - [Lync Server 2013 中新的会议功能](lync-server-2013-new-conferencing-features.md)
+## <a name="in-this-section"></a><span data-ttu-id="29ba0-107">本节内容</span><span class="sxs-lookup"><span data-stu-id="29ba0-107">In This Section</span></span>
 
-  - [Lync Server 2013 中新的外部用户访问功能](lync-server-2013-new-features-for-external-user-access.md)
+  - [<span data-ttu-id="29ba0-108">Lync Server 2013 中新的管理功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-108">New management and administration features in Lync Server 2013</span></span>](lync-server-2013-new-management-and-administration-features.md)
 
-  - [Lync Server 2013 中新的企业语音功能](lync-server-2013-new-enterprise-voice-features.md)
+  - [<span data-ttu-id="29ba0-109">Lync Server 2013 中的拓扑更改</span><span class="sxs-lookup"><span data-stu-id="29ba0-109">Topology changes in Lync Server 2013</span></span>](lync-server-2013-topology-changes.md)
 
-  - [Lync Server 2013 中新的监控功能](lync-server-2013-new-monitoring-features.md)
+  - [<span data-ttu-id="29ba0-110">Lync Server 2013 中新的灾难恢复和高可用性功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-110">New disaster recovery and high availability features in Lync Server 2013</span></span>](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
 
-  - [Lync Server 2013 中新的存档功能](lync-server-2013-new-archiving-features.md)
+  - [<span data-ttu-id="29ba0-111">Lync Server 2013 中新的虚拟化功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-111">New virtualization features in Lync Server 2013</span></span>](lync-server-2013-new-virtualization-features.md)
 
-  - [Lync Server 2013 中新的 Exchange Server 集成功能](lync-server-2013-new-exchange-server-integration-features.md)
+  - [<span data-ttu-id="29ba0-112">Lync Server 2013 中新的 IM 和状态功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-112">New IM and presence features in Lync Server 2013</span></span>](lync-server-2013-new-im-and-presence-features.md)
 
-  - [Lync Server 2013 中新的持久聊天服务器功能](lync-server-2013-new-persistent-chat-server-features.md)
+  - [<span data-ttu-id="29ba0-113">Lync Server 2013 中新的会议功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-113">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)
 
-  - [Lync Server 2013 中新的 IPv6 功能](lync-server-2013-new-ipv6-features.md)
+  - [<span data-ttu-id="29ba0-114">Lync Server 2013 中新的外部用户访问功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-114">New features for external user access in Lync Server 2013</span></span>](lync-server-2013-new-features-for-external-user-access.md)
 
-  - [Lync Server 2013 中新的统一联系人存储功能](lync-server-2013-new-unified-contact-store-feature.md)
+  - [<span data-ttu-id="29ba0-115">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-115">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)
 
-  - [Lync Server 2013 中新的视频功能](lync-server-2013-new-video-features.md)
+  - [<span data-ttu-id="29ba0-116">Lync Server 2013 中新的监控功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-116">New Monitoring features in Lync Server 2013</span></span>](lync-server-2013-new-monitoring-features.md)
+
+  - [<span data-ttu-id="29ba0-117">Lync Server 2013 中新的存档功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-117">New Archiving features in Lync Server 2013</span></span>](lync-server-2013-new-archiving-features.md)
+
+  - [<span data-ttu-id="29ba0-118">Lync Server 2013 中新的 Exchange Server 集成功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-118">New Exchange Server integration features in Lync Server 2013</span></span>](lync-server-2013-new-exchange-server-integration-features.md)
+
+  - [<span data-ttu-id="29ba0-119">Lync Server 2013 中新的持久聊天服务器功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-119">New Persistent Chat Server features in Lync Server 2013</span></span>](lync-server-2013-new-persistent-chat-server-features.md)
+
+  - [<span data-ttu-id="29ba0-120">Lync Server 2013 中新的 IPv6 功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-120">New IPv6 features in Lync Server 2013</span></span>](lync-server-2013-new-ipv6-features.md)
+
+  - [<span data-ttu-id="29ba0-121">Lync Server 2013 中新的统一联系人存储功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-121">New unified contact store feature in Lync Server 2013</span></span>](lync-server-2013-new-unified-contact-store-feature.md)
+
+  - [<span data-ttu-id="29ba0-122">Lync Server 2013 中新的视频功能</span><span class="sxs-lookup"><span data-stu-id="29ba0-122">New video features in Lync Server 2013</span></span>](lync-server-2013-new-video-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

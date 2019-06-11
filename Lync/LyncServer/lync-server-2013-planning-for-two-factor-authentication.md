@@ -1,29 +1,55 @@
-﻿---
-title: 规划双重身份验证
-TOCTitle: 规划双重身份验证
-ms:assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn308562(v=OCS.15)
-ms:contentKeyID: 56271121
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 规划双因素身份验证'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for two-factor authentication
+ms:assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308562(v=OCS.15)
+ms:contentKeyID: 54973683
+ms.date: 04/06/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 299d2328ee11ffb893974e48b86922123145ed72
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824209"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 规划双重身份验证
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="074f8-102">在 Lync Server 2013 中规划双因素身份验证</span><span class="sxs-lookup"><span data-stu-id="074f8-102">Planning for two-factor authentication in Lync Server 2013</span></span>
 
-下面列出了配置 Microsoft Lync Server 2013 环境以支持双重身份验证时的部署注意事项。
+</div>
 
-## 客户端支持
+<div id="mainSection">
 
-具有 2013 年 7 月 Lync Server 2013 累积更新的 Lync 2013 桌面客户端是当前唯一支持双重身份验证的 Lync 客户端。
+<div id="mainBody">
 
-## 拓扑要求
+<span> </span>
 
-强烈鼓励客户使用具有 2013 年 7 月 Lync Server 2013 累积更新的专用 Lync Server 2013（边缘、控制器和用户池）部署双重身份验证。要为 Lync 用户启用被动身份验证，必须为其他角色和服务禁用其他身份验证方法，包括以下各项：
+<span data-ttu-id="074f8-103">_**主题上次修改时间:** 2015-04-06_</span><span class="sxs-lookup"><span data-stu-id="074f8-103">_**Topic Last Modified:** 2015-04-06_</span></span>
+
+<span data-ttu-id="074f8-104">以下是配置 Microsoft Lync Server 2013 环境以支持双因素身份验证时的部署注意事项列表。</span><span class="sxs-lookup"><span data-stu-id="074f8-104">The following is a list of deployment considerations when configuring a Microsoft Lync Server 2013 environment to support two-factor authentication.</span></span>
+
+<div>
+
+## <a name="client-support"></a><span data-ttu-id="074f8-105">客户端支持</span><span class="sxs-lookup"><span data-stu-id="074f8-105">Client Support</span></span>
+
+<span data-ttu-id="074f8-106">Lync Server 2013 的 Lync 2013 累积更新: 7 月2013桌面客户端和所有移动客户端当前支持双重身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-106">The Lync 2013 Cumulative Updates for Lync Server 2013: July 2013 desktop client and all mobile clients currently support two-factor authentication.</span></span>
+
+</div>
+
+<div>
+
+## <a name="topology-requirements"></a><span data-ttu-id="074f8-107">拓扑要求</span><span class="sxs-lookup"><span data-stu-id="074f8-107">Topology Requirements</span></span>
+
+<span data-ttu-id="074f8-108">强烈建议客户使用专用 Lync Server 2013 进行双因素身份验证, 使用 Lync Server 2013 的累积更新: 7 月 2013 Edge、导演和用户池。</span><span class="sxs-lookup"><span data-stu-id="074f8-108">Customers are strongly encouraged to deploy two-factor authentication using dedicated Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Edge, Director, and User Pools.</span></span> <span data-ttu-id="074f8-109">若要为 Lync 用户启用被动身份验证, 必须为其他角色和服务禁用其他身份验证方法, 包括以下内容:</span><span class="sxs-lookup"><span data-stu-id="074f8-109">To enable passive authentication for Lync users, other authentication methods must be disabled for other roles and services, including the following:</span></span>
 
 
 <table>
@@ -35,102 +61,154 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>配置类型</th>
-<th>服务类型</th>
-<th>服务器角色</th>
-<th>要禁用的身份验证类型</th>
+<th><span data-ttu-id="074f8-110">配置类型</span><span class="sxs-lookup"><span data-stu-id="074f8-110">Configuration Type</span></span></th>
+<th><span data-ttu-id="074f8-111">服务类型</span><span class="sxs-lookup"><span data-stu-id="074f8-111">Service Type</span></span></th>
+<th><span data-ttu-id="074f8-112">服务器角色</span><span class="sxs-lookup"><span data-stu-id="074f8-112">Server Role</span></span></th>
+<th><span data-ttu-id="074f8-113">要禁用的身份验证类型</span><span class="sxs-lookup"><span data-stu-id="074f8-113">Authentication Type to Disable</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Web 服务</p></td>
-<td><p>Web 服务器</p></td>
-<td><p>控制器</p></td>
-<td><p>Kerberos、NTLM 和证书</p></td>
+<td><p><span data-ttu-id="074f8-114">Web 服务</span><span class="sxs-lookup"><span data-stu-id="074f8-114">Web Service</span></span></p></td>
+<td><p><span data-ttu-id="074f8-115">Web 服务器</span><span class="sxs-lookup"><span data-stu-id="074f8-115">WebServer</span></span></p></td>
+<td><p><span data-ttu-id="074f8-116">控制器</span><span class="sxs-lookup"><span data-stu-id="074f8-116">Director</span></span></p></td>
+<td><p><span data-ttu-id="074f8-117">Kerberos、NTLM 和证书</span><span class="sxs-lookup"><span data-stu-id="074f8-117">Kerberos, NTLM, and Certificate</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Web 服务</p></td>
-<td><p>Web 服务器</p></td>
-<td><p>前端</p></td>
-<td><p>Kerberos、NTLM 和证书</p></td>
+<td><p><span data-ttu-id="074f8-118">Web 服务</span><span class="sxs-lookup"><span data-stu-id="074f8-118">Web Service</span></span></p></td>
+<td><p><span data-ttu-id="074f8-119">Web 服务器</span><span class="sxs-lookup"><span data-stu-id="074f8-119">WebServer</span></span></p></td>
+<td><p><span data-ttu-id="074f8-120">前端</span><span class="sxs-lookup"><span data-stu-id="074f8-120">Front End</span></span></p></td>
+<td><p><span data-ttu-id="074f8-121">Kerberos、NTLM 和证书</span><span class="sxs-lookup"><span data-stu-id="074f8-121">Kerberos, NTLM, and Certificate</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>代理</p></td>
-<td><p>边缘服务器</p></td>
-<td><p>边缘</p></td>
-<td><p>Kerberos 和 NTLM</p></td>
+<td><p><span data-ttu-id="074f8-122">代理</span><span class="sxs-lookup"><span data-stu-id="074f8-122">Proxy</span></span></p></td>
+<td><p><span data-ttu-id="074f8-123">EdgeServer</span><span class="sxs-lookup"><span data-stu-id="074f8-123">EdgeServer</span></span></p></td>
+<td><p><span data-ttu-id="074f8-124">Edge</span><span class="sxs-lookup"><span data-stu-id="074f8-124">Edge</span></span></p></td>
+<td><p><span data-ttu-id="074f8-125">Kerberos 和 NTLM</span><span class="sxs-lookup"><span data-stu-id="074f8-125">Kerberos and NTLM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>代理</p></td>
-<td><p>注册器</p></td>
-<td><p>前端</p></td>
-<td><p>Kerberos 和 NTLM</p></td>
+<td><p><span data-ttu-id="074f8-126">代理</span><span class="sxs-lookup"><span data-stu-id="074f8-126">Proxy</span></span></p></td>
+<td><p><span data-ttu-id="074f8-127">注册器</span><span class="sxs-lookup"><span data-stu-id="074f8-127">Registrar</span></span></p></td>
+<td><p><span data-ttu-id="074f8-128">前端</span><span class="sxs-lookup"><span data-stu-id="074f8-128">Front End</span></span></p></td>
+<td><p><span data-ttu-id="074f8-129">Kerberos 和 NTLM</span><span class="sxs-lookup"><span data-stu-id="074f8-129">Kerberos and NTLM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-除非在服务级别禁用这些身份验证类型，否则一旦在您的部署中启用双重身份验证，所有其他版本的 Lync 客户端将无法成功登录。
+<span data-ttu-id="074f8-130">除非在服务级别禁用这些身份验证类型, 否则在你的部署中启用了两个因素身份验证后, Lync 客户端的所有其他版本都将无法成功登录。</span><span class="sxs-lookup"><span data-stu-id="074f8-130">Unless these authentication types are disabled at the service level, all other versions of the Lync client will be unable to sign in successfully once two-factor authentication is enabled within in your deployment.</span></span>
 
-## Lync 服务发现
+</div>
 
-应配置内部和/或外部客户端用于发现 Lync 服务的 DNS 记录，以解析为未启用双重身份验证的 Lync 服务器。使用此配置时，Lync 池中未启用双重身份验证的用户无需输入 PIN 进行身份验证，而 Lync 池中启用了双重身份验证的用户需要输入其 PIN 进行身份验证。
+<div>
 
-## Exchange 身份验证
+## <a name="lync-service-discovery"></a><span data-ttu-id="074f8-131">Lync 服务发现</span><span class="sxs-lookup"><span data-stu-id="074f8-131">Lync Service Discovery</span></span>
 
-为 Microsoft Exchange 部署了双重身份验证的客户可能会发现 Lync 客户端中的某些功能不可用。当前设计就是如此，因为 Lync 客户端对于依赖于 Exchange 集成的功能不支持双重身份验证。
+<span data-ttu-id="074f8-132">内部和/或外部客户端用于发现 Lync 服务的 DNS 记录应配置为解析为未启用双因素身份验证的 Lync 服务器。</span><span class="sxs-lookup"><span data-stu-id="074f8-132">DNS records used by internal and/or external clients to discover Lync services should be configured to resolve to a Lync server that is not enabled for two-factor authentication.</span></span> <span data-ttu-id="074f8-133">通过此配置, 没有为两个因素身份验证启用的 Lync Pool 中的用户输入 PIN 进行身份验证时, 不需要使用适用于双因素身份验证的 Lync Pool 中的用户将其 PIN 输入到验证.</span><span class="sxs-lookup"><span data-stu-id="074f8-133">With this configuration, users from Lync Pools that are not enabled for two-factor authentication will not be required to enter a PIN to authenticate, while users from Lync Pools that are enabled for two-factor authentication will be required to enter their PIN to authenticate.</span></span>
 
-## Lync 联系人
+</div>
 
-配置为利用统一联系人存储功能的 Lync 用户将会发现，在使用双重身份验证登录之后其联系人不再可用。
+<div>
 
-在启用双重身份验证之前，您应该使用 **Invoke-CsUcsRollback** cmdlet 从统一联系人存储中删除现有用户联系人，并将他们存储在 Lync Server 2013 中。
+## <a name="exchange-authentication"></a><span data-ttu-id="074f8-134">Exchange 身份验证</span><span class="sxs-lookup"><span data-stu-id="074f8-134">Exchange Authentication</span></span>
 
-## 技能搜索
+<span data-ttu-id="074f8-135">已为 Microsoft Exchange 部署了双因素身份验证的客户可能会发现 Lync 客户端中的某些功能不可用。</span><span class="sxs-lookup"><span data-stu-id="074f8-135">Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the Lync client are unavailable.</span></span> <span data-ttu-id="074f8-136">这是当前设计的, 因为 Lync 客户端不支持依赖于 Exchange 集成的功能的双重身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-136">This is currently by design, as the Lync client does not support two-factor authentication for features that are dependent on Exchange integration.</span></span>
 
-在其 Lync 环境中配置了技能搜索功能的客户将会发现，当为 Lync 启用双重身份验证时，此功能无法正常工作。这是设计使然，因为 Microsoft SharePoint 当前不支持双重身份验证。
+</div>
 
-## Lync 凭据
+<div>
 
-有许多涉及保存的 Lync 凭据的部署注意事项，它们可能会影响配置为使用双重身份验证的用户。
+## <a name="lync-contacts"></a><span data-ttu-id="074f8-137">Lync 联系人</span><span class="sxs-lookup"><span data-stu-id="074f8-137">Lync Contacts</span></span>
 
-## 删除保存的凭据
+<span data-ttu-id="074f8-138">配置为利用 "统一联系人存储" 功能的 Lync 用户将发现, 使用双因素身份验证登录后, 他们的联系人将不再可用。</span><span class="sxs-lookup"><span data-stu-id="074f8-138">Lync users who are configured to leverage the Unified Contact Store feature will find that their contacts are no longer available after signing in with two-factor authentication.</span></span>
 
-在第一次尝试使用双重身份验证登录之前，用户应使用 Lync 客户端中的“删除我的登录信息”选项，并从 %localappdata%\\Microsoft\\Office\\15.0\\Lync 中删除其 SIP 配置文件文件夹。
+<span data-ttu-id="074f8-139">你应该使用**CsUcsRollback** cmdlet 从 "统一联系人存储" 中删除现有用户联系人, 并将其存储在 Lync Server 2013 中, 然后再启用双重身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-139">You should use the **Invoke-CsUcsRollback** cmdlet to remove existing user contacts from the Unified Contact Store and store them in Lync Server 2013 before enabling two-factor authentication.</span></span>
 
-## DisableNTCredentials
+</div>
 
-使用 Kerberos 或 NTLM 身份验证方法时，将自动使用用户的 Windows 凭据进行身份验证。在启用 Kerberos 和/或 NTLM 进行身份验证的典型 Lync Server 2013 部署中，用户每次登录时不必输入其凭据。
+<div>
 
-如果在提示用户输入其 PIN 之前无意中提示用户输入凭据，则可能通过组策略在客户端计算机上无意中配置了 **DisableNTCredentials** 注册表项。
+## <a name="skill-search"></a><span data-ttu-id="074f8-140">技能搜索</span><span class="sxs-lookup"><span data-stu-id="074f8-140">Skill Search</span></span>
 
-为防止另外提示输入凭据，请在本地工作站上创建以下注册表项或者使用 Lync 管理模板通过组策略应用于给定池的所有用户：
+<span data-ttu-id="074f8-141">在 Lync 环境中配置技能搜索功能的客户将发现, 当启用 Lync 的双重身份验证时, 此功能不起作用。</span><span class="sxs-lookup"><span data-stu-id="074f8-141">Customers who have configured the Skill Search feature in their Lync environment will find that this feature does not work when Lync is enabled for two-factor authentication.</span></span> <span data-ttu-id="074f8-142">这是设计使然，因为 Microsoft SharePoint 当前不支持双重身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-142">This is by design, as Microsoft SharePoint does not currently support two-factor authentication.</span></span>
 
-HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Office\\15.0\\Lync
+</div>
 
-REG\_DWORD：DisableNTCredentials
+<div>
 
-值：0x0
+## <a name="lync-credentials"></a><span data-ttu-id="074f8-143">Lync 凭据</span><span class="sxs-lookup"><span data-stu-id="074f8-143">Lync Credentials</span></span>
 
-## SavePassword
+<span data-ttu-id="074f8-144">有许多部署注意事项涉及保存的 Lync 凭据, 这可能会影响配置为使用双因素身份验证的用户。</span><span class="sxs-lookup"><span data-stu-id="074f8-144">There are a number of deployment considerations involving saved Lync credentials which may impact users who are configured to use two-factor authentication.</span></span>
 
-当用户首次登录 Lync 时，系统将提示用户保存其密码。如果选中，此选项允许用户的客户端证书存储在个人证书存储中，而用户的 Windows 凭据存储在本地计算机的凭据管理器中。
+<div>
 
-当 Lync 配置为支持双重身份验证时，应禁用 **SavePassword** 注册表设置。为防止用户保存其密码，请在本地工作站上更改以下注册表项或者使用 Lync 管理模板通过组策略应用于给定池的所有用户：
+## <a name="deleting-saved-credentials"></a><span data-ttu-id="074f8-145">删除保存的凭据</span><span class="sxs-lookup"><span data-stu-id="074f8-145">Deleting Saved Credentials</span></span>
 
-HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync
+<span data-ttu-id="074f8-146">桌面客户端用户应使用 Lync 客户端中的 "**删除我的登录信息**" 选项, 并从% localappdata\\% Microsoft\\Office\\15.0\\Lync 删除其 SIP 配置文件夹, 然后再尝试首次登录使用双因素身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-146">Desktop client users should use the **Delete my sign-in info** option in the Lync client and delete their SIP profile folder from %localappdata%\\Microsoft\\Office\\15.0\\Lync before attempting to sign for the first time using two-factor authentication.</span></span>
 
-REG\_DWORD：SavePassword
+</div>
 
-值：0x0
+<div>
 
-## AD FS 2.0 令牌重播
+## <a name="disablentcredentials"></a><span data-ttu-id="074f8-147">DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="074f8-147">DisableNTCredentials</span></span>
 
-AD FS 2.0 提供了一项功能称为“令牌重播检测”，借助该功能，可以检测并丢弃多个使用相同令牌的令牌请求。启用此功能时，令牌重播检测可确保从不多次使用相同令牌，从而保护 WS 联合被动配置文件和 SAML WebSSO 配置文件中身份验证请求的完整性。
+<span data-ttu-id="074f8-148">使用 Kerberos 或 NTLM 身份验证方法时，将自动使用用户的 Windows 凭据进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-148">With the Kerberos or NTLM authentication method, the user’s Windows credentials are used automatically for authentication.</span></span> <span data-ttu-id="074f8-149">在支持 Kerberos 和/或 NTLM 进行身份验证的典型 Lync Server 2013 部署中, 用户每次登录时都不应输入其凭据。</span><span class="sxs-lookup"><span data-stu-id="074f8-149">In a typical Lync Server 2013 deployment where Kerberos and/or NTLM is enabled for authentication, users should not have to enter their credentials every time that they sign in.</span></span>
 
-在高度关注安全的环境（例如使用展台时）中，应启用此功能。有关令牌重播检测的详细信息，请参阅“AD FS 2.0 安全规划和部署的最佳做法”，网址为 [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)。
+<span data-ttu-id="074f8-150">如果在提示用户输入其 PIN 之前无意中提示用户输入凭据，则可能通过组策略在客户端计算机上无意中配置了 **DisableNTCredentials** 注册表项。</span><span class="sxs-lookup"><span data-stu-id="074f8-150">If users are unintentionally prompted for credentials before they are prompted to enter their PIN, the **DisableNTCredentials** registry key may be unintentionally configured on client computers, possibly through Group Policy.</span></span>
 
-## 外部用户访问
+<span data-ttu-id="074f8-151">若要阻止额外的凭据提示, 请在本地工作站上创建以下注册表项, 或使用 Lync 管理模板应用到使用组策略的给定池的所有用户:</span><span class="sxs-lookup"><span data-stu-id="074f8-151">To prevent the additional prompt for credentials, create the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
 
-这些主题不涵盖配置 ADFS 代理或反向代理以从外部网络支持 Lync 双重身份验证。
+<span data-ttu-id="074f8-152">HKEY\_LOCAL\_MACHINE\\软件\\策略\\Microsoft\\Office\\15.0\\Lync</span><span class="sxs-lookup"><span data-stu-id="074f8-152">HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Office\\15.0\\Lync</span></span>
+
+<span data-ttu-id="074f8-153">REG\_DWORD: DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="074f8-153">REG\_DWORD: DisableNTCredentials</span></span>
+
+<span data-ttu-id="074f8-154">值：0x0</span><span class="sxs-lookup"><span data-stu-id="074f8-154">Value: 0x0</span></span>
+
+</div>
+
+<div>
+
+## <a name="savepassword"></a><span data-ttu-id="074f8-155">SavePassword</span><span class="sxs-lookup"><span data-stu-id="074f8-155">SavePassword</span></span>
+
+<span data-ttu-id="074f8-156">当用户首次登录 Lync 时, 系统会提示用户保存其密码。</span><span class="sxs-lookup"><span data-stu-id="074f8-156">When a user signs in to Lync for the first time, the user is prompted to save his or her password.</span></span> <span data-ttu-id="074f8-157">如果选中，此选项允许用户的客户端证书存储在个人证书存储中，而用户的 Windows 凭据存储在本地计算机的凭据管理器中。</span><span class="sxs-lookup"><span data-stu-id="074f8-157">If selected, this option allows the user’s client certificate to be stored in the personal certificate store and the user’s Windows credentials to be stored in the Credential Manager of the local computer.</span></span>
+
+<span data-ttu-id="074f8-158">当 Lync 配置为支持双因素身份验证时, 应禁用**SavePassword**注册表设置。</span><span class="sxs-lookup"><span data-stu-id="074f8-158">The **SavePassword** registry setting should be disabled when Lync is configured to support two-factor authentication.</span></span> <span data-ttu-id="074f8-159">若要防止用户保存其密码, 请在本地工作站上更改以下注册表项, 或使用 Lync 管理模板应用到使用组策略的给定池的所有用户:</span><span class="sxs-lookup"><span data-stu-id="074f8-159">To prevent users from saving their passwords, change the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
+
+<span data-ttu-id="074f8-160">HKEY\_当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync</span><span class="sxs-lookup"><span data-stu-id="074f8-160">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync</span></span>
+
+<span data-ttu-id="074f8-161">REG\_DWORD: SavePassword</span><span class="sxs-lookup"><span data-stu-id="074f8-161">REG\_DWORD: SavePassword</span></span>
+
+<span data-ttu-id="074f8-162">值：0x0</span><span class="sxs-lookup"><span data-stu-id="074f8-162">Value: 0x0</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="ad-fs-20-token-replay"></a><span data-ttu-id="074f8-163">AD FS 2.0 令牌重播</span><span class="sxs-lookup"><span data-stu-id="074f8-163">AD FS 2.0 Token Replay</span></span>
+
+<span data-ttu-id="074f8-p108">AD FS 2.0 提供了一项功能称为“令牌重播检测”，借助该功能，可以检测并丢弃多个使用相同令牌的令牌请求。启用此功能时，令牌重播检测可确保从不多次使用相同令牌，从而保护 WS 联合被动配置文件和 SAML WebSSO 配置文件中身份验证请求的完整性。</span><span class="sxs-lookup"><span data-stu-id="074f8-p108">AD FS 2.0 provides a feature referred to as token replay detection, by which multiple token requests using the same token can be detected and then discarded. When this feature is enabled, token replay detection protects the integrity of authentication requests in both the WS-Federation passive profile and the SAML WebSSO profile by making sure that the same token is never used more than once.</span></span>
+
+<span data-ttu-id="074f8-166">在高度关注安全的环境（例如使用展台时）中，应启用此功能。</span><span class="sxs-lookup"><span data-stu-id="074f8-166">This feature should be enabled in situations where security is a very high concern such as when using kiosks.</span></span> <span data-ttu-id="074f8-167">有关令牌重播检测的详细信息, 请参阅 "安全规划和部署 AD FS 2.0 的最佳做法[http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)"。</span><span class="sxs-lookup"><span data-stu-id="074f8-167">For more information about token replay detection, see Best Practices for Secure Planning and Deployment of AD FS 2.0 at [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215).</span></span>
+
+</div>
+
+<div>
+
+## <a name="external-user-access"></a><span data-ttu-id="074f8-168">外部用户访问</span><span class="sxs-lookup"><span data-stu-id="074f8-168">External User Access</span></span>
+
+<span data-ttu-id="074f8-169">在这些主题中不涉及配置 AD FS 代理或反向代理以支持来自外部网络的 Lync 双重身份验证。</span><span class="sxs-lookup"><span data-stu-id="074f8-169">Configuring an AD FS Proxy or Reverse Proxy to support Lync two-factor authentication from external networks is not covered in these topics.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

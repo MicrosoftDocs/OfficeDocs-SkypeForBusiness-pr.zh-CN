@@ -1,74 +1,113 @@
-﻿---
-title: Lync Server 2013：中介服务器组件
-TOCTitle: 中介服务器组件
-ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398399(v=OCS.15)
-ms:contentKeyID: 49312958
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 中介服务器组件'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mediation Server component
+ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
+ms:contentKeyID: 48184239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827226"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的中介服务器组件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-21_
+# <a name="mediation-server-component-in-lync-server-2013"></a><span data-ttu-id="92177-102">Lync Server 2013 中的中介服务器组件</span><span class="sxs-lookup"><span data-stu-id="92177-102">Mediation Server component in Lync Server 2013</span></span>
 
-如果部署 企业语音工作负荷，则必须部署 Lync Server 2013中介服务器。本节描述了基本功能、依赖关系、基本拓扑和规划指南。
+</div>
 
-中介服务器转换内部 Lync Server 2013企业语音基础结构与公用电话交换网 PSTN (PSTN) 网关或会话初始协议 (SIP) 中继之间的信号以及某些配置中的媒体。在 Lync Server 2013 这一端， 中介服务器侦听单个相互 TLS (MTLS) 传输地址。在网关这一端，中介服务器侦听与拓扑文档中定义的中继关联的所有相关侦听端口。所有合格网关必须支持 TLS，但也可以启用 TCP。不支持 TLS 的网关将支持 TCP。
+<div id="mainSection">
 
-如果您的环境中还有现有公用交换机 (PBX)， 中介服务器将处理 企业语音用户与 PBX 之间的呼叫。如果您的 PBX 是 IP-PBX，则可以在 PBX 和 中介服务器之间建立直接 SIP 连接。如果您的 PBX 是时分多路复用 (TDM) PBX，则还必须在 中介服务器和 PBX 之间部署 PSTN 网关。
+<div id="mainBody">
 
-中介服务器默认与 前端服务器并置。为提高性能， 中介服务器还可以部署在独立的池中，或者如果部署 SIP 中继，则强烈建议部署在独立的池中。
+<span> </span>
 
-如果部署与支持媒体旁路和 DNS 负载平衡的合格 PSTN 网关的直接 SIP 连接，则不必使用独立的 中介服务器池，因为合格网关可以对中介服务器池进行 DNS 负载平衡，并且可以接收来自池中任何 中介服务器的流量。
+<span data-ttu-id="92177-103">_**主题上次修改时间:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="92177-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-只要满意任一以下条件，我们还建议您在部署 IP-PBX 之后在 前端池上并置 中介服务器，或者连接到 Internet 电话服务提供商的会话边界控制器 (SBC)：
+<span data-ttu-id="92177-104">如果你部署了企业语音工作负荷, 则必须部署 Lync Server 2013、中介服务器。</span><span class="sxs-lookup"><span data-stu-id="92177-104">You must deploy Lync Server 2013, Mediation Server if you deploy the Enterprise Voice workload.</span></span> <span data-ttu-id="92177-105">本部分介绍基本功能、依赖关系、基本拓扑和规划指南。</span><span class="sxs-lookup"><span data-stu-id="92177-105">This section describes basic functionality, dependencies, basic topologies, and planning guidelines.</span></span>
 
-  - IP-PBX 或 SBC 已配置为接收来自池中的任何 中介服务器的通信，并且可将通信统一路由到池中的所有 中介服务器。
+<span data-ttu-id="92177-106">中介服务器转换信号, 在某些配置中, 你的内部 Lync Server 2013、企业语音基础结构和公共交换电话网络 (PSTN) 网关或会话初始协议 (SIP) 干线之间的媒体。</span><span class="sxs-lookup"><span data-stu-id="92177-106">The Mediation Server translates signaling and, in some configurations, media between your internal Lync Server 2013, Enterprise Voice infrastructure and a public switched telephone network (PSTN) gateway or a Session Initiation Protocol (SIP) trunk.</span></span> <span data-ttu-id="92177-107">在 Lync Server 2013 端, 中介服务器侦听单个相互 TLS (MTLS) 传输地址。</span><span class="sxs-lookup"><span data-stu-id="92177-107">On the Lync Server 2013 side, Mediation Server listens on a single mutual TLS (MTLS) transport address.</span></span> <span data-ttu-id="92177-108">在网关端, 中介服务器侦听与拓扑文档中定义的中继相关联的所有关联的侦听端口。</span><span class="sxs-lookup"><span data-stu-id="92177-108">On the gateway side, Mediation Server listens on all associated listening ports associated with trunks defined in the Topology document.</span></span> <span data-ttu-id="92177-109">所有合格网关必须支持 TLS，但也可以启用 TCP。</span><span class="sxs-lookup"><span data-stu-id="92177-109">All qualified gateways must support TLS, but can enable TCP as well.</span></span> <span data-ttu-id="92177-110">不支持 TLS 的网关将支持 TCP。</span><span class="sxs-lookup"><span data-stu-id="92177-110">TCP is supported for gateways that do not support TLS.</span></span>
 
-  - IP-PBX 不支持媒体旁路，但承载 中介服务器的 前端池可为不适用媒体旁路的呼叫处理语音代码转换。
+<span data-ttu-id="92177-111">如果你的环境中还有现有的公共分支 Exchange (PBX), 则中介服务器处理企业语音用户和 PBX 之间的通话。</span><span class="sxs-lookup"><span data-stu-id="92177-111">If you also have an existing Public Branch Exchange (PBX) in your environment, Mediation Server handles calls between Enterprise Voice users and the PBX.</span></span> <span data-ttu-id="92177-112">如果你的 PBX 是 IP PBX, 则可以在 PBX 和中介服务器之间创建直接 SIP 连接。</span><span class="sxs-lookup"><span data-stu-id="92177-112">If your PBX is an IP-PBX, you can create a direct SIP connection between the PBX and Mediation Server.</span></span> <span data-ttu-id="92177-113">如果你的 PBX 是时间段多路传输 (TDM) PBX, 则还必须在中介服务器和 PBX 之间部署 PSTN 网关。</span><span class="sxs-lookup"><span data-stu-id="92177-113">If your PBX is a Time Division Multiplex (TDM) PBX, you must also deploy a PSTN gateway between Mediation Server and the PBX.</span></span>
 
-您可以使用 Microsoft Lync Server 2013 规划工具来评估要并置 中介服务器的 前端池是否能够处理负载。如果您的环境不能满足这些要求，则必须部署独立的 中介服务器池。
+<span data-ttu-id="92177-114">默认情况下, 中介服务器与前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="92177-114">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="92177-115">由于性能原因, 中介服务器也可以部署在独立的池中, 或者, 如果你部署 SIP 中继, 强烈建议使用独立池。</span><span class="sxs-lookup"><span data-stu-id="92177-115">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span>
 
-中介服务器的主要功能如下所示：
+<span data-ttu-id="92177-116">如果你将直接 SIP 连接部署到支持媒体绕过和 DNS 负载平衡的合格 PSTN 网关, 则不需要独立的中介服务器池。</span><span class="sxs-lookup"><span data-stu-id="92177-116">If you deploy Direct SIP connections to a qualified PSTN gateway that supports media bypass and DNS load balancing, a stand-alone Mediation Server pool is not necessary.</span></span> <span data-ttu-id="92177-117">不需要独立的中介服务器池, 因为合格的网关能够将 DNS 负载平衡到中介服务器池, 并且它们可以接收来自池中的任何中介服务器的流量。</span><span class="sxs-lookup"><span data-stu-id="92177-117">A stand-alone Mediation Server pool is not necessary because qualified gateways are capable of DNS load balancing to a pool of Mediation Servers and they can receive traffic from any Mediation Server in a pool.</span></span>
 
-  - 在 Lync Server 这一端加密和解密 SRTP。
+<span data-ttu-id="92177-118">我们还建议你在部署 IP-Pbx 或连接到 Internet 电话服务器提供商的会话边界控制器 (SBC) 时, 在前端池中 collocate 中介服务器, 前提是满足以下任何条件:</span><span class="sxs-lookup"><span data-stu-id="92177-118">We also recommend that you collocate the Mediation Server on a Front End pool when you have deployed IP-PBXs or connect to an Internet Telephony Server Provider’s Session Border Controller (SBC), as long as any of the following conditions are met:</span></span>
 
-  - 将 TCP 上的 SIP（针对不支持 TLS 的网关）转换为相互 TLS 上的 SIP
+  - <span data-ttu-id="92177-119">将 IP PBX 或 SBC 配置为接收来自池中的任何中介服务器的流量, 并且可以将流量统一路由到池中的所有中介服务器。</span><span class="sxs-lookup"><span data-stu-id="92177-119">The IP-PBX or SBC is configured to receive traffic from any Mediation Server in the pool and can route traffic uniformly to all Mediation Servers in the pool.</span></span>
 
-  - 转换 Lync Server 与 中介服务器的对等网关之间的媒体流
+  - <span data-ttu-id="92177-120">IP-PBX 不支持媒体绕过, 但托管中介服务器的前端池可以处理语音转换, 以便不应用绕过媒体的呼叫。</span><span class="sxs-lookup"><span data-stu-id="92177-120">The IP-PBX does not support media bypass, but the Front End pool that is hosting the Mediation Server can handle voice transcoding for calls to which media bypass does not apply.</span></span>
 
-  - 将网络外部的客户端连接到内部 ICE 组件，使媒体可以遍历 NAT 和防火墙
+<span data-ttu-id="92177-121">你可以使用 Microsoft Lync Server 2013、计划工具评估你想要 collocate 中介服务器的前端池是否可以处理负载。</span><span class="sxs-lookup"><span data-stu-id="92177-121">You can use the Microsoft Lync Server 2013, Planning Tool to evaluate whether the Front End pool where you want to collocate the Mediation Server can handle the load.</span></span> <span data-ttu-id="92177-122">如果你的环境无法满足这些要求, 则必须部署独立的中介服务器池。</span><span class="sxs-lookup"><span data-stu-id="92177-122">If your environment cannot meet these requirements, then you must deploy a stand-alone Mediation Server pool.</span></span>
 
-  - 充当网关不支持的呼叫流（例如，来自 企业语音客户端上的远程工作者的呼叫）的中介
+<span data-ttu-id="92177-123">中介服务器的主要功能如下所示:</span><span class="sxs-lookup"><span data-stu-id="92177-123">The main functions of the Mediation Server are as follows:</span></span>
 
-  - 在包含 SIP 中继的部署中，配合 SIP 中继服务提供商提供 PSTN 支持，从而不再需要 PSTN 网关
+  - <span data-ttu-id="92177-124">在 Lync Server 端对 SRTP 进行加密和解密</span><span class="sxs-lookup"><span data-stu-id="92177-124">Encrypting and decrypting SRTP on the Lync Server side</span></span>
 
-下图显示了 中介服务器在与基本 PSTN 网关和 企业语音基础结构进行通信时所使用的信号和媒体协议。
+  - <span data-ttu-id="92177-125">通过 TCP (对于不支持 TLS 的网关) 将 SIP 转换为通过相互 TLS 的 SIP</span><span class="sxs-lookup"><span data-stu-id="92177-125">Translating SIP over TCP (for gateways that do not support TLS) to SIP over mutual TLS</span></span>
 
-**中介服务器使用的信号和媒体协议**
+  - <span data-ttu-id="92177-126">在 Lync 服务器和中介服务器的网关对等之间转换媒体流</span><span class="sxs-lookup"><span data-stu-id="92177-126">Translating media streams between Lync Server and the gateway peer of the Mediation Server</span></span>
 
-![中介服务器协议图](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "中介服务器协议图")
+  - <span data-ttu-id="92177-127">将网络外部的客户端连接到内部 ICE 组件, 从而支持 NAT 和防火墙的媒体遍历</span><span class="sxs-lookup"><span data-stu-id="92177-127">Connecting clients that are outside the network to internal ICE components, which enable media traversal of NAT and firewalls</span></span>
+
+  - <span data-ttu-id="92177-128">充当网关不支持的呼叫流的媒介, 例如来自企业语音客户端的远程工作人员的呼叫</span><span class="sxs-lookup"><span data-stu-id="92177-128">Acting as an intermediary for call flows that a gateway does not support, such as calls from remote workers on an Enterprise Voice client</span></span>
+
+  - <span data-ttu-id="92177-129">在包含 SIP 中继的部署中, 使用 SIP 中继服务提供商提供 PSTN 支持, 从而无需 PSTN 网关</span><span class="sxs-lookup"><span data-stu-id="92177-129">In deployments that include SIP trunking, working with the SIP trunking service provider to provide PSTN support, which eliminates the need for a PSTN gateway</span></span>
+
+<span data-ttu-id="92177-130">下图显示了在与基本 PSTN 网关和企业语音基础结构通信时, 中介服务器使用的信号和媒体协议。</span><span class="sxs-lookup"><span data-stu-id="92177-130">The following figure shows the signaling and media protocols that are used by the Mediation Server when communicating with a basic PSTN gateway and the Enterprise Voice infrastructure.</span></span>
+
+<span data-ttu-id="92177-131">**中介服务器使用的信号和媒体协议**</span><span class="sxs-lookup"><span data-stu-id="92177-131">**Signaling and media protocols used by the Mediation Server**</span></span>
+
+<span data-ttu-id="92177-132">![中介服务器协议图](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "中介服务器协议图")</span><span class="sxs-lookup"><span data-stu-id="92177-132">![Mediation Server Protocols diagram](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Mediation Server Protocols diagram")</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 如果在 PSTN 网关与 中介服务器之间的网络上使用 TCP 或 RTP/RTCP（而非 SRTP 或 SRTCP），建议采取一些措施以帮助确保网络的安全和隐私。
+> <span data-ttu-id="92177-133">如果在 PSTN 网关和中介服务器之间的网络上使用 TCP 或 RTP/RTCP (而不是 SRTP 或 SRTCP), 我们建议你采取措施来帮助确保网络的安全和隐私。</span><span class="sxs-lookup"><span data-stu-id="92177-133">If you are using TCP or RTP/RTCP (instead of SRTP or SRTCP) on the network between the PSTN gateway and the Mediation Server, we recommend that you take measures to help ensure the security and privacy of the network.</span></span>
 
 
 
-## 本节内容
+</div>
 
-  - [Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)
+<div>
 
-  - [Lync Server 2013 中的呼叫允许控制和中介服务器](lync-server-2013-call-admission-control-and-mediation-server.md)
+## <a name="in-this-section"></a><span data-ttu-id="92177-134">本节内容</span><span class="sxs-lookup"><span data-stu-id="92177-134">In This Section</span></span>
 
-  - [Lync Server 2013 中的增强型 9-1-1 (E9-1-1) 和中介服务器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+  - [<span data-ttu-id="92177-135">Lync Server 2013 中的 M:N 主干</span><span class="sxs-lookup"><span data-stu-id="92177-135">M:N trunk in Lync Server 2013</span></span>](lync-server-2013-m-n-trunk.md)
 
-  - [Lync Server 2013 中的媒体绕过和中介服务器](lync-server-2013-media-bypass-and-mediation-server.md)
+  - [<span data-ttu-id="92177-136">Lync Server 2013 中的呼叫允许控制和中介服务器</span><span class="sxs-lookup"><span data-stu-id="92177-136">Call admission control and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-and-mediation-server.md)
 
-  - [Lync Server 2013 中中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)
+  - [<span data-ttu-id="92177-137">Lync Server 2013 中的增强型 9-1-1 (E9-1-1) 和中介服务器</span><span class="sxs-lookup"><span data-stu-id="92177-137">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
 
-  - [Lync Server 2013 中介服务器部署准则](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [<span data-ttu-id="92177-138">Lync Server 2013 中的媒体绕过和中介服务器</span><span class="sxs-lookup"><span data-stu-id="92177-138">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)
+
+  - [<span data-ttu-id="92177-139">Lync Server 2013 中中介服务器的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="92177-139">Components and topologies for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-mediation-server.md)
+
+  - [<span data-ttu-id="92177-140">Lync Server 2013 中的中介服务器部署指南</span><span class="sxs-lookup"><span data-stu-id="92177-140">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

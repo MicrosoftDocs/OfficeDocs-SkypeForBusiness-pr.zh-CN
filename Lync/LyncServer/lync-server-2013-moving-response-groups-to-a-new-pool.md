@@ -1,91 +1,134 @@
-﻿---
-title: 将响应组移至新池
-TOCTitle: 将响应组移至新池
-ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205298(v=OCS.15)
-ms:contentKeyID: 49314427
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 将响应组移动到新池'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Moving response groups to a new pool
+ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205298(v=OCS.15)
+ms:contentKeyID: 48185538
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e682ce99826cd5b9f2812c358e1028bfb491ddef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826687"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 将响应组移至新池
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a><span data-ttu-id="61e40-102">将响应组移动到 Lync Server 2013 中的新池</span><span class="sxs-lookup"><span data-stu-id="61e40-102">Moving response groups to a new pool in Lync Server 2013</span></span>
 
-Lync Server 2013 引入了新的 new cmdlet 支持，用于将响应组从一个池移动到另一个池，即使完全限定域名 (FQDN) 不同时仍可移动。
+</div>
 
-使用以下过程中的步骤将响应组从一个前端池移动到另一个具有不同 FQDN 的前端池。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="61e40-103">_**主题上次修改时间:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="61e40-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="61e40-104">Lync Server 2013 引入了新 cmdlet 支持, 用于将响应组从一个池移动到另一个池, 即使完全限定的域名 (FQDN) 不同也是如此。</span><span class="sxs-lookup"><span data-stu-id="61e40-104">Lync Server 2013 introduces new cmdlet support for moving response groups from one pool to another pool, even when the fully qualified domain name (FQDN) is different.</span></span>
+
+<span data-ttu-id="61e40-105">使用以下过程中的步骤将响应组从一个前端池移动到另一个具有不同 FQDN 的前端池。</span><span class="sxs-lookup"><span data-stu-id="61e40-105">Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 在共存环境中，您只能在 Lync Server 2013前端池之间移动响应组。
+> <span data-ttu-id="61e40-106">在共存环境中, 只能在 Lync Server 2013&nbsp;前端池之间移动响应组。</span><span class="sxs-lookup"><span data-stu-id="61e40-106">In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.</span></span>
 
 
 
-## 将响应组移动到具有不同 FQDN 的池
+</div>
 
-1.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+<div>
 
-2.  导出源池中的响应组。在命令行中键入：
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a><span data-ttu-id="61e40-107">将响应组移动到具有不同 FQDN 的池</span><span class="sxs-lookup"><span data-stu-id="61e40-107">To move response groups to a pool with a different FQDN</span></span>
+
+1.  <span data-ttu-id="61e40-108">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="61e40-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="61e40-109">导出源池中的响应组。</span><span class="sxs-lookup"><span data-stu-id="61e40-109">Export the response groups in the source pool.</span></span> <span data-ttu-id="61e40-110">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-110">At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    例如：
+    <span data-ttu-id="61e40-111">例如：</span><span class="sxs-lookup"><span data-stu-id="61e40-111">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    若要在导出期间删除源池中的响应组，请包括 –RemoveExportedConfiguration 参数。例如：
+    <span data-ttu-id="61e40-112">若要在导出期间从源池中删除响应组, 请包括-RemoveExportedConfiguration 参数。</span><span class="sxs-lookup"><span data-stu-id="61e40-112">To remove the response groups from the source pool during the export, include the –RemoveExportedConfiguration parameter.</span></span> <span data-ttu-id="61e40-113">例如：</span><span class="sxs-lookup"><span data-stu-id="61e40-113">For example:</span></span>
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  将响应组导入目标池中，并将目标池作为新的所有者分配。在命令行中键入：
+3.  <span data-ttu-id="61e40-114">将响应组导入目标池, 并将目标池分配为新所有者。</span><span class="sxs-lookup"><span data-stu-id="61e40-114">Import the response groups to the destination pool and assign the destination pool as the new owner.</span></span> <span data-ttu-id="61e40-115">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-115">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    如果还想将响应组应用程序级设置从源池复制到目标池，请包含 –ReplaceExistingSettings 参数。每个池只能定义一组应用程序级设置。如果将应用程序级设置从源池复制到目标池，源池的设置将替换目标池的设置。如果未复制源池的应用程序级设置，目标池的现有设置将应用于导入的响应组。
+    <span data-ttu-id="61e40-116">如果你还希望将 "响应组" 应用程序级别的设置从源池中复制到目标池, 请包括-ReplaceExistingRgsSettings 参数。</span><span class="sxs-lookup"><span data-stu-id="61e40-116">If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter.</span></span> <span data-ttu-id="61e40-117">你只能针对每个池定义一组应用程序级别设置。</span><span class="sxs-lookup"><span data-stu-id="61e40-117">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="61e40-118">如果将应用程序级别的设置从源池复制到目标池, 源池中的设置将替换目标池的设置。</span><span class="sxs-lookup"><span data-stu-id="61e40-118">If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool.</span></span> <span data-ttu-id="61e40-119">如果不从源池中复制应用程序级别的设置, 则目标池中的现有设置将应用于导入的响应组。</span><span class="sxs-lookup"><span data-stu-id="61e40-119">If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.</span></span>
     
-    例如：
+    <span data-ttu-id="61e40-120">例如：</span><span class="sxs-lookup"><span data-stu-id="61e40-120">For example:</span></span>
     
-        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
+        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
+    <div>
+    
+
     > [!NOTE]  
-    > 应用程序级设置包括默认保持音乐配置、默认保持音乐音频文件、代理回拨宽限期以及呼叫上下文配置。要查看这些配置，请运行 <strong>Get-CsRgsConfiguration</strong> cmdlet。有关此 cmdlet 的详细信息，请参阅 <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>。
-    
+    > <span data-ttu-id="61e40-121">应用程序级设置包括默认的音乐保留配置、默认的音乐保留音频文件、代理 ringback 宽限期和调用上下文配置。</span><span class="sxs-lookup"><span data-stu-id="61e40-121">Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="61e40-122">若要查看这些配置设置, 请运行<STRONG>CsRgsConfiguration</STRONG> cmdlet。</span><span class="sxs-lookup"><span data-stu-id="61e40-122">To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="61e40-123">有关此 cmdlet 的详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。</span><span class="sxs-lookup"><span data-stu-id="61e40-123">For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.</span></span>
 
-
-4.  通过执行以下操作以显示导入的响应组配置来验证导入是否成功：
     
-      - 验证是否所有工作流均已导入。在命令行中键入以下命令：
+    </div>
+
+4.  <span data-ttu-id="61e40-124">通过执行以下操作来验证导入是否成功: 显示导入的响应组配置:</span><span class="sxs-lookup"><span data-stu-id="61e40-124">Verify that the import was successful by displaying the imported response group configuration by doing the following:</span></span>
+    
+      - <span data-ttu-id="61e40-125">验证导入了所有工作流。</span><span class="sxs-lookup"><span data-stu-id="61e40-125">Verify that all the workflows were imported.</span></span> <span data-ttu-id="61e40-126">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-126">At the command line, type the following:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 验证是否所有队列均已导入。在命令行中键入以下命令：
+      - <span data-ttu-id="61e40-127">验证是否已导入所有队列。</span><span class="sxs-lookup"><span data-stu-id="61e40-127">Verify that all the queues were imported.</span></span> <span data-ttu-id="61e40-128">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-128">At the command line, type the following:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 验证是否所有代理组均已导入。在命令行中键入以下命令：
+      - <span data-ttu-id="61e40-129">验证是否已导入所有代理组。</span><span class="sxs-lookup"><span data-stu-id="61e40-129">Verify that all the agent groups were imported.</span></span> <span data-ttu-id="61e40-130">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-130">At the command line, type the following:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - 验证是否所有工作时间均已导入。在命令行中键入以下命令：
+      - <span data-ttu-id="61e40-131">验证是否已导入所有营业时间。</span><span class="sxs-lookup"><span data-stu-id="61e40-131">Verify that all the hours of business were imported.</span></span> <span data-ttu-id="61e40-132">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-132">At the command line, type the following:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - 验证是否所有假日集均已导入。在命令行中键入以下命令：
+      - <span data-ttu-id="61e40-133">验证是否已导入所有假日集。</span><span class="sxs-lookup"><span data-stu-id="61e40-133">Verify that all the holiday sets were imported.</span></span> <span data-ttu-id="61e40-134">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-134">At the command line, type the following:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  通过向某个响应组发起呼叫并确认已正确处理呼叫来确定已成功导入。
+5.  <span data-ttu-id="61e40-135">通过将呼叫放到其中一个响应组并验证是否正确处理了呼叫, 验证导入是否成功。</span><span class="sxs-lookup"><span data-stu-id="61e40-135">Verify that the import was successful by placing a call to one of the response groups and verifying that the call is handled correctly.</span></span>
 
-6.  请求作为正式代理组的成员的代理登录到目标池中其自己的代理组。
+6.  <span data-ttu-id="61e40-136">请求代理是正式代理组的成员, 以便登录到目标池中的代理组。</span><span class="sxs-lookup"><span data-stu-id="61e40-136">Request agents who are members of formal agent groups to sign in to their agent groups in the destination pool.</span></span>
 
-7.  如果您之前未从源池中删除响应组，则从源池中删除响应组。在命令行中键入：
+7.  <span data-ttu-id="61e40-137">如果以前没有从源池中删除响应组, 请从源池中删除响应组。</span><span class="sxs-lookup"><span data-stu-id="61e40-137">If you did not previously remove response groups from the source pool, remove the response groups from the source pool.</span></span> <span data-ttu-id="61e40-138">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="61e40-138">At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     
-    例如：
+    <span data-ttu-id="61e40-139">例如：</span><span class="sxs-lookup"><span data-stu-id="61e40-139">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -RemoveExportedConfiguration -FileName "C:\TempRGsConfiguration.zip"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
