@@ -1,33 +1,71 @@
-﻿---
-title: 管理用户 PIN
-TOCTitle: 管理用户 PIN
-ms:assetid: 806a813c-bdd4-49eb-9923-0dbb03968d8a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688107(v=OCS.15)
-ms:contentKeyID: 49888482
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 管理用户 Pin'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing user PINs
+ms:assetid: 806a813c-bdd4-49eb-9923-0dbb03968d8a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688107(v=OCS.15)
+ms:contentKeyID: 49733706
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8649efa43d89dc15d848c838c5c1093070542b8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827681"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 管理用户 PIN
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-15_
+# <a name="managing-user-pins-in-lync-server-2013"></a><span data-ttu-id="d1295-102">在 Lync Server 2013 中管理用户 Pin</span><span class="sxs-lookup"><span data-stu-id="d1295-102">Managing user PINs in Lync Server 2013</span></span>
 
-使用以下过程，从 Lync Server 2013 控制面板的“用户”部分管理用户的电话拨入式会议 PIN。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [在 Lync Server 2013 中设置用户的电话拨入式会议 PIN](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+<div id="mainBody">
 
-  - [查看用户 PIN 信息](lync-server-2013-view-user-pin-information.md)
+<span> </span>
 
-  - [锁定或解锁用户 PIN](lync-server-2013-lock-or-unlock-a-user-pin.md)
+<span data-ttu-id="d1295-103">_**主题上次修改时间:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="d1295-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-## 另请参阅
+<span data-ttu-id="d1295-104">使用以下过程从 Lync Server 2013 控制面板的 "**用户**" 部分管理用户的电话拨入式会议 pin。</span><span class="sxs-lookup"><span data-stu-id="d1295-104">Use the following procedures to manage users’ dial-in conferencing PINs from the **Users** section of Lync Server 2013 Control Panel.</span></span>
 
-#### 任务
+<div>
 
-[分配每用户 PIN 策略](lync-server-2013-assign-a-per-user-pin-policy.md)
+## <a name="in-this-section"></a><span data-ttu-id="d1295-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="d1295-105">In This Section</span></span>
+
+  - [<span data-ttu-id="d1295-106">在 Lync Server 2013 中设置用户的电话拨入式会议 PIN</span><span class="sxs-lookup"><span data-stu-id="d1295-106">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+
+  - [<span data-ttu-id="d1295-107">在 Lync Server 2013 中查看用户 PIN 信息</span><span class="sxs-lookup"><span data-stu-id="d1295-107">View user PIN information in Lync Server 2013</span></span>](lync-server-2013-view-user-pin-information.md)
+
+  - [<span data-ttu-id="d1295-108">在 Lync Server 2013 中锁定或解锁用户 PIN</span><span class="sxs-lookup"><span data-stu-id="d1295-108">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d1295-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d1295-109">See Also</span></span>
+
+
+[<span data-ttu-id="d1295-110">在 Lync Server 2013 中分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="d1295-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
