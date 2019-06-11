@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文概述了哪些受影响的客户应了解哪些内容, 并针对其业务连续性进行规划。
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702678"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813080"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
-有关2019年2月8日的公告参考, Microsoft 将于 2 2020 月日停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文简要介绍了受影响的客户应了解哪些内容, 并对其进行规划以实现其业务连续性。 
+有关2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)参考, Microsoft 将于 2 2020 月日停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文简要介绍了受影响的客户应了解哪些内容, 并对其进行规划以实现其业务连续性。 
  
 ExchUMO 由客户针对语音邮件、自动助理和/或传真集成服务进行部署。 Microsoft 计划可帮助这些客户迁移到其基于云的服务, 这些服务支持已在 Skype for Business Online 和 Microsoft 团队中的上千个客户。 
 
@@ -137,7 +137,7 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 | VMNETWORK | 来电显示功能  | 呼叫者体验-私人语音邮件 | 呼叫者可以选择将录制的邮件标记为私密的选项  | 否 | 是    |
 | VMNETWORK | 来电显示功能  | 静音检测   |  | 否 | 是    |
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | 是 | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  | CVM 硬性编码为5分钟    | 否 | 是    |
+| VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | 是 | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改输入失败次数 | CVM: 硬编码为3 | 否 | 是    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | 是 | Y    |

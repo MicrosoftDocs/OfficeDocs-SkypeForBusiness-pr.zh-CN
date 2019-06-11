@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: ad0549380f4e90e746fec7b7bc997f99e8510ef6
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768762"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813046"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -69,7 +69,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。
+    > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。 此外, 如果你有音频会议每分钟收费许可证, 你无需为每个用户单独分配信用点数许可证专门用于音频会议, 但你可能仍需要为其他服务分配这些许可证。
 
 4. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
