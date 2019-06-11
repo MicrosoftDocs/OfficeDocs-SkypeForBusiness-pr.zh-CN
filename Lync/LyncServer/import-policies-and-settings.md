@@ -1,43 +1,81 @@
-﻿---
-title: 导入策略和设置
-TOCTitle: 导入策略和设置
-ms:assetid: b25decee-2ee5-4836-b370-454411d39252
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205178(v=OCS.15)
-ms:contentKeyID: 49313958
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 导入策略和设置
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Import policies and settings
+ms:assetid: b25decee-2ee5-4836-b370-454411d39252
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
+ms:contentKeyID: 48185147
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5f4a4d86d687236934c319e3fb7bd5e6c8027a73
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837987"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 导入策略和设置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-28_
+# <a name="import-policies-and-settings"></a><span data-ttu-id="0ebf7-102">导入策略和设置</span><span class="sxs-lookup"><span data-stu-id="0ebf7-102">Import policies and settings</span></span>
 
-将 Office Communications Server 2007 R2 拓扑信息与 Lync Server 2013 试点池合并后，需要运行 Lync Server 2013 Management Shell cmdlet 以将 Office Communications Server 2007 R2 策略和配置设置迁移到 Lync Server 2013 试点池。
+</div>
 
-**Import-CsLegacyConfiguration** cmdlet 会将策略、语音路由、拨号计划、Communicator Web Access URL 和拨入访问号码导入到 Lync Server 2013 中。
+<div id="mainSection">
 
-## 迁移策略和设置
+<div id="mainBody">
 
-1.  在 Lync Server 2013 前端服务器上，启动 Lync Server 命令行管理程序。
+<span> </span>
 
-2.  在命令行中键入：
+<span data-ttu-id="0ebf7-103">_**主题上次修改时间:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0ebf7-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="0ebf7-104">将 Office 通信服务器 2007 R2 拓扑信息与 Lync Server 2013 试验池合并后, 您需要运行 Lync Server 2013 Management Shell cmdlet 来迁移 Office 通信服务器 2007 R2 策略和配置设置您的 Lync Server 2013 试验池。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
+
+<span data-ttu-id="0ebf7-105">**CsLegacyConfiguration** cmdlet 将策略、语音路由、拨号计划、Communicator Web Access url 和电话拨入访问号码导入 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
+
+<div>
+
+## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="0ebf7-106">迁移策略和设置</span><span class="sxs-lookup"><span data-stu-id="0ebf7-106">To migrate policies and settings</span></span>
+
+1.  <span data-ttu-id="0ebf7-107">在 Lync Server 2013 前端服务器上, 启动 Lync Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="0ebf7-108">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="0ebf7-108">At the command line, type the following:</span></span>
     
         Import-CsLegacyConfiguration
     
-    导入策略后，请使用下面的过程在 Lync Server 控制面板中查看导入的策略。
+    <span data-ttu-id="0ebf7-109">导入策略后, 请使用下面的过程在 Lync Server 控制面板中查看导入的策略。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
 
-## 查看导入的策略
+</div>
 
-1.  打开 Lync Server 2013 控制面板。
+<div>
 
-2.  单击“语音路由”并查看导入的策略。
+## <a name="to-view-imported-policies"></a><span data-ttu-id="0ebf7-110">查看导入的策略</span><span class="sxs-lookup"><span data-stu-id="0ebf7-110">To view imported policies</span></span>
 
-3.  单击“会议”并查看导入的策略。
+1.  <span data-ttu-id="0ebf7-111">打开 "Lync Server 2013 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-111">Open Lync Server 2013 Control Panel.</span></span>
 
-4.  单击“联盟和外部访问”并查看导入的策略。
+2.  <span data-ttu-id="0ebf7-112">单击 "**语音路由**", 然后查看导入的策略。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-112">Click **Voice Routing** and view the imported policies.</span></span>
 
-5.  单击“监控和存档”并查看导入的策略。
+3.  <span data-ttu-id="0ebf7-113">单击 "**会议**" 并查看导入的策略。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-113">Click **Conferencing** and view the imported policies.</span></span>
+
+4.  <span data-ttu-id="0ebf7-114">单击 "**联盟和外部访问**" 并查看导入的策略。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-114">Click **Federation and External Access** and view the imported policies.</span></span>
+
+5.  <span data-ttu-id="0ebf7-115">单击 "**监视和存档**", 然后查看导入的策略。</span><span class="sxs-lookup"><span data-stu-id="0ebf7-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

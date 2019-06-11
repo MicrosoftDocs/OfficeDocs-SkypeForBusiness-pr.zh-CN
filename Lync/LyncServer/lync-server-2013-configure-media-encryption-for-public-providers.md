@@ -1,41 +1,76 @@
-﻿---
-title: Lync Server 2013：配置公共提供商的媒体加密
-TOCTitle: 配置公共提供商的媒体加密
-ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205149(v=OCS.15)
-ms:contentKeyID: 49313897
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置公共提供商的媒体加密
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media encryption for public providers
+ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)
+ms:contentKeyID: 48185036
+ms.date: 12/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置公共提供商的媒体加密
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-12-12_
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a><span data-ttu-id="43573-102">在 Lync Server 2013 中配置公共提供商的媒体加密</span><span class="sxs-lookup"><span data-stu-id="43573-102">Configure media encryption for public providers in Lync Server 2013</span></span>
 
-有关许可要求以及如何完成设置过程的详细信息，请参阅“Microsoft Lync Server、Office Communications Server 和 Live Communications Server 的公共 IM 连接设置指南”，网址为 <http://go.microsoft.com/fwlink/?linkid=155970>
+</div>
 
-如果要实现 Windows Live Messenger 与音频/视频 (A/V) 联盟，则必须修改以下两个参数： Lync Server 加密级别和 EnablePublicCloudAccess 策略。默认情况下，加密级别为“必需”。必须将此设置更改为“支持”。如果 nablePublicCloudAccess 策略设置为 False，则需要将其设置为“True”。可以通过 Lync Server 命令行管理程序执行此操作。
+<div id="mainSection">
 
-> [!IMPORTANT]  
-> Lync 是一个比以往更强大的工具，它实现了人员跨组织、跨地域连接。与 Windows Messenger 联盟除了 Lync 标准客户端访问许可证 (CAL) 之外不需要任何其他用户/设备许可证。明年，Skype 联盟将添加到此列表中，届时 Lync 用户将能够通过 IM 和语音与数以亿计的人联系。
+<div id="mainBody">
 
+<span> </span>
 
-## 为 Windows Live 配置联合
+<span data-ttu-id="43573-103">_**主题上次修改时间:** 2014-12-12_</span><span class="sxs-lookup"><span data-stu-id="43573-103">_**Topic Last Modified:** 2014-12-12_</span></span>
 
-1.  在前端服务器上启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”、“Microsoft Lync Server 2013”和“Lync Server 命令行管理程序”。
+<span data-ttu-id="43573-104">如果你使用 Windows Live Messenger 实现音频/视频 (A/V) 联合, 则需要修改两个参数: Lync Server 加密级别和 EnablePublicCloudAccess 策略。</span><span class="sxs-lookup"><span data-stu-id="43573-104">If you are implementing audio/video (A/V) federation with Windows Live Messenger, there are two parameters that you need to modify: the Lync Server encryption level and the EnablePublicCloudAccess policy.</span></span> <span data-ttu-id="43573-105">默认情况下, 加密级别设置为 "必需"。</span><span class="sxs-lookup"><span data-stu-id="43573-105">By default, the encryption level is set to Required.</span></span> <span data-ttu-id="43573-106">必须将此设置更改为 "支持"。</span><span class="sxs-lookup"><span data-stu-id="43573-106">You must change this setting to Supported.</span></span> <span data-ttu-id="43573-107">如果 EnablePublicCloudAccess 策略设置为 false, 则需要将其设置为**True**。</span><span class="sxs-lookup"><span data-stu-id="43573-107">If the EnablePublicCloudAccess policy is set to false, this needs to be set to **True**.</span></span> <span data-ttu-id="43573-108">你可以从 Lync Server 命令行管理程序中执行此操作。</span><span class="sxs-lookup"><span data-stu-id="43573-108">You can do this from the Lync Server Management Shell.</span></span>
 
-2.  从命令提示符处，键入以下命令：
+<div>
+
+## <a name="configure-federation-for-windows-live"></a><span data-ttu-id="43573-109">为 Windows Live 配置联合</span><span class="sxs-lookup"><span data-stu-id="43573-109">Configure Federation for Windows Live</span></span>
+
+1.  <span data-ttu-id="43573-110">在前端服务器上启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management Shell**"。</span><span class="sxs-lookup"><span data-stu-id="43573-110">Start the Lync Server Management Shell on the Front End server: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="43573-111">在命令提示符处, 键入以下命令:</span><span class="sxs-lookup"><span data-stu-id="43573-111">From the command prompt, type the following commands:</span></span>
     
+       ```
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-
-       &nbsp;
+       ```
     
+       ```
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
     
+    <div class=" ">
+    
+
     > [!NOTE]  
-    > 上述步骤是必需步骤，因为 Windows Live Messenger 不支持音频/视频加密。该命令会将您的全局策略设置为支持加密设置，而不会设置为要求音频/视频数据加密。支持加密的客户端（如 Lync 2013）将仍使用加密。
+    > <span data-ttu-id="43573-112">这是必需的步骤, 因为 Windows Live Messenger 不支持音频/视频加密。</span><span class="sxs-lookup"><span data-stu-id="43573-112">This is required step because Windows Live Messenger does not support encryption of audio/video.</span></span> <span data-ttu-id="43573-113">该命令将你的全局策略设置为支持加密设置, 而不是需要加密音频/视频数据。</span><span class="sxs-lookup"><span data-stu-id="43573-113">The command sets your global policy to a support encryption setting instead of requiring encryption of the audio/video data.</span></span> <span data-ttu-id="43573-114">支持加密的客户仍将使用加密, 如 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="43573-114">Clients that support encryption will still use encryption, such as Lync 2013.</span></span>
+
     
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
