@@ -1,121 +1,190 @@
-﻿---
-title: 部署 Lync Windows 应用商店应用
-TOCTitle: 部署 Lync Windows 应用商店应用
-ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ822971(v=OCS.15)
-ms:contentKeyID: 52061086
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 部署 Lync Windows 应用商店应用'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Windows Store app
+ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)
+ms:contentKeyID: 50117635
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830551"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 部署 Lync Windows 应用商店应用
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a><span data-ttu-id="f9250-102">在 Lync Server 2013 中部署 Lync Windows 应用商店应用</span><span class="sxs-lookup"><span data-stu-id="f9250-102">Deploying Lync Windows Store app in Lync Server 2013</span></span>
 
-在使 Lync Windows 应用商店应用 供用户使用之前，请确保您的部署满足 [Lync Windows Store 应用程序要求](lync-server-2013-lync-windows-store-app-requirements.md)。有关配置 Lync Server 2013 以支持 Lync Windows 应用商店应用的详细信息，请参阅 NextHop 博客文章“Lync Server 自动发现和 Lync Windows 应用商店应用”，网站为 [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)。在您的服务器环境正确配置之后，您可以指导用户通过搜索“Lync”从 Windows 应用商店下载 Lync 应用。
+</div>
 
-## 针对 Lync Windows 应用商店应用 启用多重身份验证
+<div id="mainSection">
 
-2013 年 6 月 Lync Server 2013 累积更新 针对 Lync Windows 应用商店应用客户端增加了多重身份验证支持。当外部用户登录到 Lync 会议时，除了用户名和密码以外，您可能需要其他身份验证方法（如智能卡或 PIN）来对他们进行身份验证。要启用多重身份验证，请部署 Active Directory 联合身份验证服务 (AD FS) 联盟服务器并在 Lync Server 2013 中启用被动身份验证。在配置 AD FS 之后，会向尝试加入 Lync 会议的外部用户呈现 AD FS 多重身份验证网页，该网页包含用户名和密码质询，以及您已配置的任何其他身份验证方法。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f9250-103">_**主题上次修改时间:** 2013-12-03_</span><span class="sxs-lookup"><span data-stu-id="f9250-103">_**Topic Last Modified:** 2013-12-03_</span></span>
+
+<span data-ttu-id="f9250-104">在使 Lync Windows 应用商店应用可供用户使用之前, 请确保你的部署满足[Lync Server 2013 的 Lync windows 应用商店应用要求](lync-server-2013-lync-windows-store-app-requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="f9250-104">Before making Lync Windows Store app available to users, make sure that your deployment meets the [Lync Windows Store app requirements for Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md).</span></span> <span data-ttu-id="f9250-105">有关将 Lync Server 2013 配置为支持 Lync Windows 应用商店应用的详细信息, 请参阅 NextHop 博客文章 "Lync Server 自动发现和 Lync Windows 应用商店应用[http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)"。</span><span class="sxs-lookup"><span data-stu-id="f9250-105">For details about configuring Lync Server 2013 to support Lync Windows Store app, see the NextHop Blog article, "Lync Server Autodiscover and the Lync Windows Store App," at [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966).</span></span> <span data-ttu-id="f9250-106">正确配置服务器环境后, 您可以通过搜索 "Lync" 来引导用户从 Windows 应用商店下载 Lync 应用。</span><span class="sxs-lookup"><span data-stu-id="f9250-106">After your server environment is configured correctly, you can direct users to download the Lync app from the Windows Store by searching for "Lync."</span></span>
+
+<div>
+
+## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a><span data-ttu-id="f9250-107">为 Lync Windows 应用商店应用启用多重身份验证</span><span class="sxs-lookup"><span data-stu-id="f9250-107">Enabling Multi-Factor Authentication for Lync Windows Store app</span></span>
+
+<span data-ttu-id="f9250-108">Lync Server 2013 的累积更新: 6 月2013为 Lync Windows 应用商店应用客户端的多重身份验证添加支持。</span><span class="sxs-lookup"><span data-stu-id="f9250-108">Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor authentication for Lync Windows Store app clients.</span></span> <span data-ttu-id="f9250-109">除了用户名和密码之外, 你还可以要求其他身份验证方法 (如智能卡或 Pin), 以便在外部用户登录 Lync 会议时对其进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="f9250-109">In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate external users when they sign in to Lync meetings.</span></span> <span data-ttu-id="f9250-110">若要启用多重身份验证, 请在 Lync Server 2013 中部署 Active Directory 联合身份验证服务 (AD FS) 联合服务器并启用被动身份验证。</span><span class="sxs-lookup"><span data-stu-id="f9250-110">To enable multi-factor authentication, you deploy Active Directory Federation Service (AD FS) federation server and enable passive authentication in Lync Server 2013.</span></span> <span data-ttu-id="f9250-111">配置广告 FS 后, 尝试加入 Lync 会议的外部用户将显示一个广告 FS 多重身份验证网页, 其中包含用户名和密码质询以及已配置的任何其他身份验证方法。.</span><span class="sxs-lookup"><span data-stu-id="f9250-111">After AD FS is configured, external users who attempt to join Lync meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.</span></span>
+
+<div class=" ">
+
 
 > [!IMPORTANT]  
-> 如果您计划为 Lync Windows 应用商店应用配置 AD FS 以进行多重身份验证，以下是一些重要注意事项：
-> <ul>
-> <li><p>至少需要具有 2013 年 6 月 Lync Server 2013 累积更新 的 Lync Server 2013。 Lync 2013 桌面客户端不需要 2013 年 6 月 Lync Server 2013 累积更新，因此它可能会显示被动身份验证正在工作，因为 Lync 2013 客户端能够进行身份验证。但是，Lync Windows 应用商店应用客户端的身份验证过程无法完成，不会显示任何通知或错误消息。</p></li>
-> <li><p>服务器必须进行配置，以便被动身份验证是提供的唯一身份验证类型。</p></li>
-> <li><p>如果您使用硬件负载平衡器，请启用负载平衡器上的 Cookie 持久性，以便来自 Lync Windows 应用商店应用 客户端的所有请求均由同一前端服务器进行处理。</p></li>
-> <li><p>在 Lync Server 与 AD FS 服务器之间建立信赖方信任时，请分配足够长的令牌使用时间，以跨越 Lync 会议的最大长度。通常，240 分钟的令牌使用时间就足够了。</p></li>
-> </ul>
+> <span data-ttu-id="f9250-112">如果你打算为 Lync Windows 应用商店应用配置针对多重身份验证的 AD FS, 请注意以下事项:</span><span class="sxs-lookup"><span data-stu-id="f9250-112">The following are important considerations if you plan to configure AD FS for multi-factor authentication for Lync Windows Store app:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="f9250-113">Lync Server 2013 与 Lync Server 2013 的累积更新: 最少需要6月2013。</span><span class="sxs-lookup"><span data-stu-id="f9250-113">Lync Server 2013 with Cumulative Updates for Lync Server 2013: June 2013 is required at a minimum.</span></span> <span data-ttu-id="f9250-114">Lync 2013 桌面客户端不需要 Lync Server 2013 的累积更新: 6 月 2013, 因此可能会显示被动身份验证, 因为 Lync 2013 客户端能够进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="f9250-114">Lync 2013 desktop clients do not require Cumulative Updates for Lync Server 2013: June 2013, so it might appear that passive authentication is working because Lync 2013 clients are able to authenticate.</span></span> <span data-ttu-id="f9250-115">但是, Lync Windows 应用商店应用客户端的身份验证过程将无法完成, 并且不会显示任何通知或错误消息。</span><span class="sxs-lookup"><span data-stu-id="f9250-115">However, the authentication process for Lync Windows Store app clients will fail to complete and no notification or error message will display.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="f9250-116">必须配置服务器, 以使被动身份验证成为唯一提供的身份验证类型。</span><span class="sxs-lookup"><span data-stu-id="f9250-116">The server must be configured so that passive authentication is the only authentication type offered.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="f9250-117">如果使用硬件负载平衡器, 请在负载平衡器上启用 cookie 持久性, 以便来自 Lync Windows 应用商店应用客户端的所有请求都由同一前端服务器处理。</span><span class="sxs-lookup"><span data-stu-id="f9250-117">If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Lync Windows Store app client are handled by the same Front End Server.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="f9250-118">当您在 Lync Server 和 AD FS 服务器之间建立信赖方信任时, 请分配足够长的令牌有效期以使您的 Lync 会议的最大长度更长。</span><span class="sxs-lookup"><span data-stu-id="f9250-118">When you establish a relying party trust between Lync Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Lync meetings.</span></span> <span data-ttu-id="f9250-119">通常，240 分钟的令牌使用时间就足够了。</span><span class="sxs-lookup"><span data-stu-id="f9250-119">Typically, a token life of 240 minutes is sufficient.</span></span></P></LI></UL>
 
 
-**配置多重身份验证**
 
-1.  安装 AD FS 联盟服务器角色。有关详细信息，请参阅《Active Directory 联合身份验证服务 2.0 部署指南》，网址为 [http://go.microsoft.com/fwlink/?linkid=267511\&clcid=0x804](http://go.microsoft.com/fwlink/?linkid=267511%26clcid=0x804)。
+</div>
 
-2.  为 AD FS 创建证书。有关详细信息，请参阅“规划和部署 AD FS 以用于单一登录”主题（网址是 [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)）中的“联合服务器证书”一节。
+<span data-ttu-id="f9250-120">**配置多因素身份验证**</span><span class="sxs-lookup"><span data-stu-id="f9250-120">**To Configure Multi-Factor Authentication**</span></span>
 
-3.  从 Windows PowerShell 命令行界面，运行以下命令：
+1.  <span data-ttu-id="f9250-121">安装 AD FS 联盟服务器角色。</span><span class="sxs-lookup"><span data-stu-id="f9250-121">Install an AD FS federation server role.</span></span> <span data-ttu-id="f9250-122">有关详细信息, 请参阅《 Active Directory 联合身份验证服务<http://go.microsoft.com/fwlink/p/?linkid=267511>2.0 部署指南》。</span><span class="sxs-lookup"><span data-stu-id="f9250-122">For details, see the Active Directory Federation Services 2.0 Deployment Guide at <http://go.microsoft.com/fwlink/p/?linkid=267511>.</span></span>
+
+2.  <span data-ttu-id="f9250-123">为 AD FS 创建证书。</span><span class="sxs-lookup"><span data-stu-id="f9250-123">Create certificates for AD FS.</span></span> <span data-ttu-id="f9250-124">有关详细信息, 请参阅用于的计划和部署 AD FS 的 "联合身份验证服务器证书" 部分以与的单一登录主题配合[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)使用。</span><span class="sxs-lookup"><span data-stu-id="f9250-124">For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).</span></span>
+
+3.  <span data-ttu-id="f9250-125">从 Windows PowerShell 命令行界面中, 运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="f9250-125">From the Windows PowerShell command-line interface, run the following command:</span></span>
     
         add-pssnapin Microsoft.Adfs.powershell
 
-4.  通过运行以下命令来建立合作关系：
+4.  <span data-ttu-id="f9250-126">通过运行以下命令来建立合作关系：</span><span class="sxs-lookup"><span data-stu-id="f9250-126">Establish a partnership by running the following command:</span></span>
     
         Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
 
-5.  设置以下信赖方规则：
+5.  <span data-ttu-id="f9250-127">设置以下信赖方规则：</span><span class="sxs-lookup"><span data-stu-id="f9250-127">Set the following relying party rules:</span></span>
     
+       ```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-
-       &nbsp;
+       ```
     
+       ```
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-
-       &nbsp;
+       ```
     
+       ```
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+       ```
 
-## 可能会阻止登录的已知问题
+</div>
 
-## 运行 Lync Windows 应用商店应用的设备上未准确设置时间和日期
+<div>
 
-设备上的时间设置必须与服务器上的时间设置保持同步。这对于 Microsoft Surface 等设备和其他运行 Windows RT 的未加入域的设备尤其重要。要从时间服务器自动设置这些设备上的时间，请在设备上从提升的命令提示符处运行以下命令：
+## <a name="known-issues-that-can-prevent-sign-in"></a><span data-ttu-id="f9250-128">可阻止登录的已知问题</span><span class="sxs-lookup"><span data-stu-id="f9250-128">Known Issues that Can Prevent Sign-in</span></span>
+
+<div>
+
+## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a><span data-ttu-id="f9250-129">在运行 Lync Windows 应用商店应用的设备上未准确设置时间和日期</span><span class="sxs-lookup"><span data-stu-id="f9250-129">The time and date are not set accurately on the device running Lync Windows Store app</span></span>
+
+<span data-ttu-id="f9250-130">设备上的 "时间" 设置必须与服务器上的 "时间" 设置同步。</span><span class="sxs-lookup"><span data-stu-id="f9250-130">The time setting on the device must be synchronized with the time setting on the server.</span></span> <span data-ttu-id="f9250-131">这对于 Microsoft Surface 之类的设备和其他运行未加入域的 Windows RT 的设备尤其重要。</span><span class="sxs-lookup"><span data-stu-id="f9250-131">This is particularly important for devices such as Microsoft Surface, and other devices running Windows RT that are not joined to a domain.</span></span> <span data-ttu-id="f9250-132">若要从时间服务器自动设置这些设备上的时间, 请在设备上从提升的命令提示符运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="f9250-132">To set the time on these devices automatically from a time server, run the following command from an elevated command prompt on the device:</span></span>
 
     w32tm /resync
 
-## Lync Windows 应用商店应用无法访问 Lync 服务器或服务
+</div>
 
-Lync Windows 应用商店应用可能无法通过未在 Windows 8 中注册为物理设备的网络适配器（如 4G LTE USB 调制解调器）访问 Lync 服务器或服务。即使桌面应用程序和浏览器能够访问其他服务器和网站，Lync Windows 应用商店应用也可能存在此问题。
+<div>
 
-## Lync Windows 应用商店应用无法使用 Lync Server 2010 和 Office Communications Server 2007 R2 边缘服务器登录
+## <a name="lync-windows-store-app-cannot-access-the-lync-server-or-services"></a><span data-ttu-id="f9250-133">Lync Windows 应用商店应用无法访问 Lync 服务器或服务</span><span class="sxs-lookup"><span data-stu-id="f9250-133">Lync Windows Store app cannot access the Lync server or services</span></span>
 
-如果您的拓扑由 Lync Server 2010 和 Office Communications Server 2007 R2 边缘服务器组成，您需要运行 Lync Server 2010 2013 年 7 月的累积更新中可用的拓扑生成器的更新版本。拓扑生成器的早期版本不会创建与 Office Communications Server 2007 边缘服务器的必需映射，因此 Lync Windows 应用商店应用客户端无法登录。需要执行以下步骤：
+<span data-ttu-id="f9250-134">Lync Windows 应用商店应用可能无法通过网络适配器 (如 4G LTE USB 调制解调器) 访问 Lync 服务器或服务, 这些适配器不能作为物理设备注册到 Windows 8。</span><span class="sxs-lookup"><span data-stu-id="f9250-134">Lync Windows Store app may not be able to access the Lync server or services through network adapters, such as 4G LTE USB modems, that do not register with Windows 8 as physical devices.</span></span> <span data-ttu-id="f9250-135">即使桌面应用和浏览器能够访问其他服务器和网站, Lync Windows 应用商店应用也可能会出现此问题。</span><span class="sxs-lookup"><span data-stu-id="f9250-135">Lync Windows Store app may have this issue even when the desktop apps and browsers are able to access other servers and web sites.</span></span>
 
-1.  在 Lync Server 2010 池和 Lync Server 2010 控制器上安装 Lync Server 2010 2013 年 7 月的累积更新。
+</div>
 
-2.  通过执行下列操作更新 Lync 自动发现配置，以指明外部 SIP 入口点是边缘服务器地址：
+<div>
+
+## <a name="lync-windows-store-app-cannot-sign-in-with-lync-server-2010-and-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="f9250-136">Lync Windows 应用商店应用无法通过 Lync Server 2010 和 Office 通信服务器 2007 R2 Edge 服务器登录</span><span class="sxs-lookup"><span data-stu-id="f9250-136">Lync Windows Store app cannot sign in with Lync Server 2010 and Office Communications Server 2007 R2 Edge Server</span></span>
+
+<span data-ttu-id="f9250-137">如果你的拓扑包括 Lync Server 2010 与 Office 通信服务器 2007 R2 Edge 服务器, 你将需要运行 Lync Server 的累积更新中提供的更新版本的拓扑构建器 2010: 7 月2013。</span><span class="sxs-lookup"><span data-stu-id="f9250-137">If your topology consists of Lync Server 2010 with Office Communications Server 2007 R2 Edge Server, you will need to run the updated version of Topology Builder available in the cumulative update for Lync Server 2010: July 2013.</span></span> <span data-ttu-id="f9250-138">较早版本的拓扑生成器不会创建所需的 Office 通信服务器2007边缘服务器映射, 因此 Lync Windows 应用商店应用客户端无法登录。</span><span class="sxs-lookup"><span data-stu-id="f9250-138">Earlier versions of Topology Builder do not create the required mapping to Office Communications Server 2007 Edge Server, so Lync Windows Store app clients are unable to sign in.</span></span> <span data-ttu-id="f9250-139">以下步骤是必需的:</span><span class="sxs-lookup"><span data-stu-id="f9250-139">The following steps are required:</span></span>
+
+1.  <span data-ttu-id="f9250-140">安装 Lync Server 2010 的累积更新: Lync Server 2010 池和 Lync Server 2010 控制器的7月2013。</span><span class="sxs-lookup"><span data-stu-id="f9250-140">Install the cumulative update for Lync Server 2010: July 2013 on Lync Server 2010 pools and Lync Server 2010 Directors.</span></span>
+
+2.  <span data-ttu-id="f9250-141">通过执行下列操作更新 Lync 自动发现配置, 以指示外部 SIP 入口点为边缘服务器地址:</span><span class="sxs-lookup"><span data-stu-id="f9250-141">Update the Lync AutoDiscover configuration to indicate that the external SIP entry point is the Edge server address by doing the following:</span></span>
     
-    1.  打开 Lync Server 命令行管理程序。
+    1.  <span data-ttu-id="f9250-142">打开 Lync Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="f9250-142">Open Lync Server Management Shell.</span></span>
     
-    2.  运行以下命令：
+    2.  <span data-ttu-id="f9250-143">运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="f9250-143">Run the following command:</span></span>
         
             Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
 
-## 由于证书名称验证失败，Lync Windows 应用商店应用无法登录
+</div>
 
-对于未运行 Lync Windows 应用商店应用 的最新版本的 Office 365 用户，可能会发生登录问题。使用多个域时通常会发生此问题（例如，当 SIP URI 是 **userA@domainZ.com**，但是边缘服务器是 **sip.domainX.com** 时）。要解决该问题，用户应安装 Lync Windows 应用商店应用 的最新版本，它也需要 Windows 8.1。
+<div>
 
-## 使用 Lync Windows 应用商店应用日志解决问题
+## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a><span data-ttu-id="f9250-144">由于证书名称验证失败, Lync Windows 应用商店应用无法登录</span><span class="sxs-lookup"><span data-stu-id="f9250-144">Lync Windows Store App cannot sign in due to a certificate name validation failure</span></span>
 
-您可以使用设备上生成的日志解决问题。日志存储在下面的文件夹中：
+<span data-ttu-id="f9250-145">对于未运行 Lync Windows 应用商店应用的最新版本的 Office 365 用户, 可能会发生登录问题。</span><span class="sxs-lookup"><span data-stu-id="f9250-145">A sign-in issue can occur for Office 365 users who are not running the latest version of Lync Windows Store app.</span></span> <span data-ttu-id="f9250-146">当使用多个域时 (例如, 当 SIP URI 为**userA@domainZ.com**但 Edge 服务器为**sip.domainX.com**) 时, 通常会出现此问题。</span><span class="sxs-lookup"><span data-stu-id="f9250-146">This issue generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**).</span></span> <span data-ttu-id="f9250-147">若要解决此问题, 用户应安装最新版本的 Lync Windows 应用商店应用程序, 它还需要 Windows 8.1。</span><span class="sxs-lookup"><span data-stu-id="f9250-147">To fix the issue, users should install the latest version of Lync Windows Store app, which also requires Windows 8.1.</span></span>
 
-%LocalAppData%\\Packages\\Microsoft.LyncMX\_8wekyb3d8bbwe\\LocalState\\Tracing
+</div>
 
-在从用户那里获得日志之前，请确保打开日志记录，然后让用户保存日志，以便存储在内存中的所有信息也会保存到硬盘驱动器上的文件中。
+</div>
 
-**打开日志记录**
+<div>
 
-1.  打开设备上的 Lync Windows 应用商店应用。
+## <a name="use-lync-windows-store-app-logs-to-troubleshoot-issues"></a><span data-ttu-id="f9250-148">使用 Lync Windows 应用商店应用日志解决问题</span><span class="sxs-lookup"><span data-stu-id="f9250-148">Use Lync Windows Store app logs to troubleshoot issues</span></span>
 
-2.  从屏幕右侧滑动。如果您使用的是鼠标，请指向屏幕右上角，然后沿着屏幕向下移动鼠标指针。
+<span data-ttu-id="f9250-149">你可以使用设备上生成的日志来解决问题。</span><span class="sxs-lookup"><span data-stu-id="f9250-149">You can use the logs generated on the device to troubleshoot issues.</span></span> <span data-ttu-id="f9250-150">日志存储在以下文件夹中:</span><span class="sxs-lookup"><span data-stu-id="f9250-150">The logs are stored in the following folder:</span></span>
 
-3.  选择“设置”，选择“选项”，然后将“诊断日志”设置为“打开”。
+<span data-ttu-id="f9250-151">% LocalAppData%\\\\LyncMX\_8wekyb3d8bbwe\\LocalState\\跟踪</span><span class="sxs-lookup"><span data-stu-id="f9250-151">%LocalAppData%\\Packages\\Microsoft.LyncMX\_8wekyb3d8bbwe\\LocalState\\Tracing</span></span>
 
-4.  如果“诊断日志”以前已关闭，您必须重新启动 Lync。要重新启动 Lync，请执行以下操作之一：
+<span data-ttu-id="f9250-152">在从用户处获取日志之前, 请确保日志记录已打开, 然后要求用户保存日志, 以便存储在内存中的所有信息也保存在硬盘上的文件中。</span><span class="sxs-lookup"><span data-stu-id="f9250-152">Before you get the logs from a user, make sure that logging is turned on, and then ask the user to save the logs so that all the information stored in memory is also saved to files on the hard drive.</span></span>
+
+<span data-ttu-id="f9250-153">**打开日志记录**</span><span class="sxs-lookup"><span data-stu-id="f9250-153">**To turn on logging**</span></span>
+
+1.  <span data-ttu-id="f9250-154">在设备上打开 Lync Windows 应用商店应用。</span><span class="sxs-lookup"><span data-stu-id="f9250-154">Open Lync Windows Store app on the device.</span></span>
+
+2.  <span data-ttu-id="f9250-155">从屏幕右侧滑动。</span><span class="sxs-lookup"><span data-stu-id="f9250-155">Swipe from the right side of the screen.</span></span> <span data-ttu-id="f9250-156">如果您使用的是鼠标, 请指向屏幕的右上角, 然后将鼠标指针向下移动到屏幕。</span><span class="sxs-lookup"><span data-stu-id="f9250-156">If you’re using a mouse, point to the upper-right corner of the screen and then move the mouse pointer down the screen.</span></span>
+
+3.  <span data-ttu-id="f9250-157">选择 "**设置**", 选择 "**选项**", 然后将 "**诊断日志**" 设置为 **"打开"**。</span><span class="sxs-lookup"><span data-stu-id="f9250-157">Select **Settings**, select **Options**, and then set **Diagnostic Logs** to **On**.</span></span>
+
+4.  <span data-ttu-id="f9250-158">如果以前的**诊断日志**已关闭, 则必须重新启动 Lync。</span><span class="sxs-lookup"><span data-stu-id="f9250-158">If **Diagnostic Logs** was off previously, you must restart Lync.</span></span> <span data-ttu-id="f9250-159">若要重新启动 Lync, 请执行下列操作之一:</span><span class="sxs-lookup"><span data-stu-id="f9250-159">To restart Lync, do one of the following:</span></span>
     
-      - 重新启动设备。
+      - <span data-ttu-id="f9250-160">重启设备。</span><span class="sxs-lookup"><span data-stu-id="f9250-160">Restart the device.</span></span>
     
-      - 结束 Lync 任务，然后再次启动应用。要结束任务，请打开 Windows 任务管理器，选择“Lync”，然后点击“结束任务”。如果 Lync 未列出，请点击“更多详细信息”并在“后台进程”下方查找 Lync。
+      - <span data-ttu-id="f9250-161">结束 Lync 任务并再次启动该应用。</span><span class="sxs-lookup"><span data-stu-id="f9250-161">End the Lync task and launch the app again.</span></span> <span data-ttu-id="f9250-162">若要结束任务, 请打开 Windows 任务管理器, 选择 " **Lync**", 然后点击 "**结束任务**"。</span><span class="sxs-lookup"><span data-stu-id="f9250-162">To end the task, open the Windows Task Manager, select **Lync**, and then tap **End task**.</span></span> <span data-ttu-id="f9250-163">如果未列出 Lync, 请点击 "**更多详细信息**", 然后在 "**后台进程**" 下查找 Lync。</span><span class="sxs-lookup"><span data-stu-id="f9250-163">If Lync is not listed, tap **More details** and look for Lync under **Background processes**.</span></span>
 
-**保存日志**
+<span data-ttu-id="f9250-164">**保存日志**</span><span class="sxs-lookup"><span data-stu-id="f9250-164">**To save the logs**</span></span>
 
-1.  打开设备上的 Lync Windows 应用商店应用。
+1.  <span data-ttu-id="f9250-165">在设备上打开 Lync Windows 应用商店应用。</span><span class="sxs-lookup"><span data-stu-id="f9250-165">Open Lync Windows Store app on the device.</span></span>
 
-2.  尝试登录。
+2.  <span data-ttu-id="f9250-166">请尝试登录。</span><span class="sxs-lookup"><span data-stu-id="f9250-166">Try signing in.</span></span>
 
-3.  从屏幕右侧滑动。如果您使用的是鼠标，请指向屏幕右上角，然后沿着屏幕向下移动鼠标指针。
+3.  <span data-ttu-id="f9250-167">从屏幕右侧滑动。</span><span class="sxs-lookup"><span data-stu-id="f9250-167">Swipe from the right side of the screen.</span></span> <span data-ttu-id="f9250-168">如果您使用的是鼠标, 请指向屏幕的右上角, 然后将鼠标指针向下移动到屏幕。</span><span class="sxs-lookup"><span data-stu-id="f9250-168">If you’re using a mouse, point to the upper-right corner of the screen and then move the mouse pointer down the screen.</span></span>
 
-4.  选择“设置”，选择“关于”，然后选择“保存日志”。
+4.  <span data-ttu-id="f9250-169">选择 "**设置**", 选择 "**关于**", 然后选择 "**保存日志**"。</span><span class="sxs-lookup"><span data-stu-id="f9250-169">Select **Settings**, select **About**, and then select **Save logs**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

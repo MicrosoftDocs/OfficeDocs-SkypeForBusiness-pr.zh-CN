@@ -1,21 +1,41 @@
-﻿---
-title: FocusJoinsAndLeaves 视图
-TOCTitle: FocusJoinsAndLeaves 视图
-ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ687992(v=OCS.15)
-ms:contentKeyID: 49888333
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: FocusJoinsAndLeaves 视图'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FocusJoinsAndLeaves view
+ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687992(v=OCS.15)
+ms:contentKeyID: 49733582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3e1302bf744b0954d00eae4f4cc27454b2889745
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830147"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# FocusJoinsAndLeaves 视图
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a><span data-ttu-id="5687f-102">Lync Server 2013 中的 FocusJoinsAndLeaves 视图</span><span class="sxs-lookup"><span data-stu-id="5687f-102">FocusJoinsAndLeaves view in Lync Server 2013</span></span>
 
-FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。每个会议在此视图中由一条在每次用户加入和离开该会议时编写的记录表示。此视图是在 Microsoft Lync Server 2013 中引入的。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="5687f-103">_**主题上次修改时间:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5687f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="5687f-104">FocusJoinsAndLeaves 视图存储有关加入和离开一次会议的信息的信息。</span><span class="sxs-lookup"><span data-stu-id="5687f-104">The FocusJoinsAndLeaves view stores information about join and leave information for one conference.</span></span> <span data-ttu-id="5687f-105">每个会议在用户加入和离开会议时编写的记录在此视图中表示。</span><span class="sxs-lookup"><span data-stu-id="5687f-105">Each conference is represented in this view by a record written each time a user joins and leaves the conference.</span></span> <span data-ttu-id="5687f-106">此视图已在 Microsoft Lync Server 2013 中引入。</span><span class="sxs-lookup"><span data-stu-id="5687f-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -26,97 +46,108 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。每个
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>数据类型</th>
-<th>详细信息</th>
+<th><span data-ttu-id="5687f-107">列</span><span class="sxs-lookup"><span data-stu-id="5687f-107">Column</span></span></th>
+<th><span data-ttu-id="5687f-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="5687f-108">Data Type</span></span></th>
+<th><span data-ttu-id="5687f-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="5687f-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>会议实例的时间。与 SessionIdSeq 结合使用来唯一地标识会议实例。有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-111">datetime</span><span class="sxs-lookup"><span data-stu-id="5687f-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5687f-112">会议实例的时间。</span><span class="sxs-lookup"><span data-stu-id="5687f-112">Time of conference instance.</span></span> <span data-ttu-id="5687f-113">与 SessionIdSeq 结合使用以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="5687f-113">Used in conjunction with SessionIdSeq to uniquely identify a conference instance.</span></span> <span data-ttu-id="5687f-114">有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="5687f-114">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>用于标识会议实例的 ID 号。与 SessionIdTime 结合使用来唯一地标识会议实例。有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-116">int</span><span class="sxs-lookup"><span data-stu-id="5687f-116">int</span></span></p></td>
+<td><p><span data-ttu-id="5687f-117">标识会议实例的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="5687f-117">ID number to identify the conference instance.</span></span> <span data-ttu-id="5687f-118">与 SessionIdTime 结合使用以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="5687f-118">Used in conjunction with SessionIdTime to uniquely identify a conference instance.</span></span> <span data-ttu-id="5687f-119">有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="5687f-119">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar (450)</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的 URI。</p></td>
+<td><p><span data-ttu-id="5687f-120"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-120"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-121">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5687f-121">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-122">已捕获其会议加入/离开信息的用户的 URI。</span><span class="sxs-lookup"><span data-stu-id="5687f-122">URI of the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的 URI 类型。有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-123"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-123"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-124">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="5687f-124">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-125">已捕获其会议加入/离开信息的用户的 URI 类型。</span><span class="sxs-lookup"><span data-stu-id="5687f-125">Type of URI of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5687f-126">有关详细信息, 请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</span><span class="sxs-lookup"><span data-stu-id="5687f-126">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的租户。有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的 Tenants 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-127"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-127"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-128">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="5687f-128">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-129">已捕获其会议加入/离开信息的用户的租户。</span><span class="sxs-lookup"><span data-stu-id="5687f-129">Tenant of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5687f-130">有关详细信息, 请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</span><span class="sxs-lookup"><span data-stu-id="5687f-130">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的唯一标识符。</p></td>
+<td><p><span data-ttu-id="5687f-131"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-131"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-132">标识符</span><span class="sxs-lookup"><span data-stu-id="5687f-132">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="5687f-133">已捕获其会议加入/离开信息的用户的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="5687f-133">Unique identifier of the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>由已捕获其会议加入/离开信息的用户使用的客户端版本。</p></td>
+<td><p><span data-ttu-id="5687f-134"><strong>UserClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-134"><strong>UserClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-135">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="5687f-135">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-136">已捕获其会议加入/离开信息的用户使用的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="5687f-136">Version of client used by the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserClientType</strong></p></td>
-<td><p>int</p></td>
-<td><p>由已捕获其会议加入/离开信息的用户使用的客户端。有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-137"><strong>UserClientType</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-137"><strong>UserClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-138">int</span><span class="sxs-lookup"><span data-stu-id="5687f-138">int</span></span></p></td>
+<td><p><span data-ttu-id="5687f-139">已捕获会议加入/离开信息的用户使用的客户端。</span><span class="sxs-lookup"><span data-stu-id="5687f-139">Client used by the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5687f-140">有关详细信息, 请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</span><span class="sxs-lookup"><span data-stu-id="5687f-140">See <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserClientCategory</strong></p></td>
-<td><p>nvarchar (64)</p></td>
-<td><p>由已捕获其会议加入/离开信息的用户使用的客户端的类别名称。</p></td>
+<td><p><span data-ttu-id="5687f-141"><strong>UserClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-141"><strong>UserClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-142">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="5687f-142">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-143">已捕获会议加入/离开信息的用户所使用的客户端类别的名称。</span><span class="sxs-lookup"><span data-stu-id="5687f-143">Name of the category of the client used by the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FocusUserInstance</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="5687f-144"><strong>FocusUserInstance</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-144"><strong>FocusUserInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-145">int</span><span class="sxs-lookup"><span data-stu-id="5687f-145">int</span></span></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IsuserInternal</strong></p></td>
-<td><p>bit</p></td>
-<td><p>表示用户是否为内部用户的位。</p></td>
+<td><p><span data-ttu-id="5687f-146"><strong>IsuserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-146"><strong>IsuserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-147">bit</span><span class="sxs-lookup"><span data-stu-id="5687f-147">bit</span></span></p></td>
+<td><p><span data-ttu-id="5687f-148">表示用户是否为内部用户的位。</span><span class="sxs-lookup"><span data-stu-id="5687f-148">Bit that represents whether the user is an internal user or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogSessionIdTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>会话请求的时间。与 SessionIdSeq 结合使用来唯一地标识会话。有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a>。</p></td>
+<td><p><span data-ttu-id="5687f-149"><strong>DialogSessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-149"><strong>DialogSessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-150">datetime</span><span class="sxs-lookup"><span data-stu-id="5687f-150">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5687f-151">会话请求的时间。</span><span class="sxs-lookup"><span data-stu-id="5687f-151">Time of session request.</span></span> <span data-ttu-id="5687f-152">与 SessionIdSeq 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="5687f-152">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="5687f-153">有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="5687f-153">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogSessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>如果用户同时在多台计算机或设备登录，则使用 UserInstance 来唯一地标识该用户/设备组合。</p></td>
+<td><p><span data-ttu-id="5687f-154"><strong>DialogSessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-154"><strong>DialogSessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-155">int</span><span class="sxs-lookup"><span data-stu-id="5687f-155">int</span></span></p></td>
+<td><p><span data-ttu-id="5687f-156">如果用户同时在多台计算机或设备上登录, 则 UserInstance 用于唯一标识用户/设备组合。</span><span class="sxs-lookup"><span data-stu-id="5687f-156">If a user is logged on at multiple computers or devices at the same time, UserInstance is used to uniquely identify the user/device combination.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogId</strong></p></td>
-<td><p>varchar(775)</p></td>
-<td><p>会话的 SIP 对话 ID。格式为：dialog;from-tag;to-tag。</p></td>
+<td><p><span data-ttu-id="5687f-157"><strong>DialogId</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-157"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-158">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="5687f-158">varchar(775)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-159">会话的 SIP 对话框 ID。</span><span class="sxs-lookup"><span data-stu-id="5687f-159">SIP dialog ID of the session.</span></span> <span data-ttu-id="5687f-160">格式为: 对话框; 从-标签; 到-标记。</span><span class="sxs-lookup"><span data-stu-id="5687f-160">The format is: dialog;from-tag;to-tag.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserJoinTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>用户加入会议的时间。</p></td>
+<td><p><span data-ttu-id="5687f-161"><strong>UserJoinTime</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-161"><strong>UserJoinTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-162">datetime</span><span class="sxs-lookup"><span data-stu-id="5687f-162">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5687f-163">用户加入会议的时间。</span><span class="sxs-lookup"><span data-stu-id="5687f-163">Time that the user joined the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserLeaveTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>用户离开会议的时间。</p></td>
+<td><p><span data-ttu-id="5687f-164"><strong>UserLeaveTime</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-164"><strong>UserLeaveTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-165">datetime</span><span class="sxs-lookup"><span data-stu-id="5687f-165">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5687f-166">用户离开会议的时间。</span><span class="sxs-lookup"><span data-stu-id="5687f-166">Time that the user left the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserRole</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>用户在会议中的角色，如演示者或与会者。</p></td>
+<td><p><span data-ttu-id="5687f-167"><strong>UserRole</strong></span><span class="sxs-lookup"><span data-stu-id="5687f-167"><strong>UserRole</strong></span></span></p></td>
+<td><p><span data-ttu-id="5687f-168">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="5687f-168">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5687f-169">用户在会议中的角色, 如 "演示者" 或 "与会者"。</span><span class="sxs-lookup"><span data-stu-id="5687f-169">User’s role in the conference, such as Presenter or Attendee.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

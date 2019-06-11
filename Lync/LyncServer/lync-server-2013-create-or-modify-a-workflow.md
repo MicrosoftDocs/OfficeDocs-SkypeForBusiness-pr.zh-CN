@@ -1,42 +1,84 @@
-﻿---
-title: 创建或修改工作流
-TOCTitle: 创建或修改工作流
-ms:assetid: 5ac1c0f3-e82f-40ca-b972-91950e38c05b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg520997(v=OCS.15)
-ms:contentKeyID: 49312952
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建或修改工作流'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a workflow
+ms:assetid: 5ac1c0f3-e82f-40ca-b972-91950e38c05b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520997(v=OCS.15)
+ms:contentKeyID: 48184225
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9725958a302f50b0d1cdddf399b98fdd47ff6fc2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830773"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 创建或修改工作流
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-02_
+# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a><span data-ttu-id="d8072-102">在 Lync Server 2013 中创建或修改工作流</span><span class="sxs-lookup"><span data-stu-id="d8072-102">Create or modify a workflow in Lync Server 2013</span></span>
 
-Lync Server 2013 支持两种工作流：智能寻线和互动语音响应 (IVR)。创建工作流时，可以使用响应组配置工具指定要使用的队列和其他设置，如欢迎消息、保持音乐、工作时间和响应组应用程序向呼叫者提出的问题。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d8072-103">_**主题上次修改时间:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d8072-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="d8072-104">Lync Server 2013 支持两种类型的工作流: 查寻组和交互式语音响应 (IVR)。</span><span class="sxs-lookup"><span data-stu-id="d8072-104">Lync Server 2013 supports two types of workflows: hunt group and interactive voice response (IVR).</span></span> <span data-ttu-id="d8072-105">创建工作流时, 使用 "响应组配置" 工具指定要使用的队列和其他设置, 如欢迎消息、保持的音乐、工作时间和响应组应用程序询问呼叫者的问题。</span><span class="sxs-lookup"><span data-stu-id="d8072-105">When you create a workflow, you use the Response Group Configuration Tool to specify the queue to use and other settings, such as a welcome message, music on hold, business hours, and questions that the Response Group application asks the caller.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 必须先创建代理组和队列，然后再创建使用这些组和队列的工作流。如果要创建可用于多个工作流的预设工作时间和假日，还必须先定义这些预定义的工作时间和假日，然后再创建使用它们的工作流。
+> <span data-ttu-id="d8072-106">必须先创建代理组和队列，然后再创建使用这些组和队列的工作流。</span><span class="sxs-lookup"><span data-stu-id="d8072-106">You must create agent groups and queues before you create a workflow that uses them.</span></span> <span data-ttu-id="d8072-107">如果要创建可用于多个工作流的预定义工作时间和假日, 则还必须在创建使用它们的工作流之前定义这些工时和假日。</span><span class="sxs-lookup"><span data-stu-id="d8072-107">If you want to create predefined business hours and holidays that you can use for multiple workflows, you must also define these hours and holidays before you create a workflow that uses them.</span></span>
 
 
 
-## 本部分内容
+</div>
 
-  - [在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+<div>
 
-  - [在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+## <a name="in-this-section"></a><span data-ttu-id="d8072-108">本节内容</span><span class="sxs-lookup"><span data-stu-id="d8072-108">In This Section</span></span>
 
-## 另请参阅
+  - [<span data-ttu-id="d8072-109">在 Lync Server 2013 中创建或修改查寻组工作流</span><span class="sxs-lookup"><span data-stu-id="d8072-109">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-#### 任务
+  - [<span data-ttu-id="d8072-110">在 Lync Server 2013 中创建或修改互动工作流</span><span class="sxs-lookup"><span data-stu-id="d8072-110">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
-[在 Lync Server 2013 中创建或修改代理组](lync-server-2013-create-or-modify-an-agent-group.md)  
-[在 Lync Server 2013 中创建或修改队列](lync-server-2013-create-or-modify-a-queue.md)  
-[（可选）定义响应组假日设置](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+</div>
 
-#### 概念
+<div>
 
-[（可选）在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)
+## <a name="see-also"></a><span data-ttu-id="d8072-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d8072-111">See Also</span></span>
+
+
+[<span data-ttu-id="d8072-112">在 Lync Server 2013 中创建或修改代理组</span><span class="sxs-lookup"><span data-stu-id="d8072-112">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)  
+[<span data-ttu-id="d8072-113">在 Lync Server 2013 中创建或修改队列</span><span class="sxs-lookup"><span data-stu-id="d8072-113">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)  
+[<span data-ttu-id="d8072-114">可选在 Lync Server 2013 中定义 "响应组" 假日集</span><span class="sxs-lookup"><span data-stu-id="d8072-114">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+
+
+[<span data-ttu-id="d8072-115">可选在 Lync Server 2013 中定义响应组工作时间</span><span class="sxs-lookup"><span data-stu-id="d8072-115">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：Dialog 表
-TOCTitle: Dialog 表
-ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398313(v=OCS.15)
-ms:contentKeyID: 49312797
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Dialog 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialog table
+ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:contentKeyID: 48184068
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830391"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 Dialog 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="dialog-table-in-lync-server-2013"></a><span data-ttu-id="4b929-102">Lync Server 2013 中的 Dialog 表</span><span class="sxs-lookup"><span data-stu-id="4b929-102">Dialog table in Lync Server 2013</span></span>
 
-Dialog 表是一个支持表；每条记录代表一个会话初始协议 (SIP) 对话。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="4b929-103">_**主题上次修改时间:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="4b929-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="4b929-104">对话框表是支持表;每条记录表示一个会话初始协议 (SIP) 对话框。</span><span class="sxs-lookup"><span data-stu-id="4b929-104">The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.</span></span>
 
 
 <table>
@@ -27,37 +47,48 @@ Dialog 表是一个支持表；每条记录代表一个会话初始协议 (SIP) 
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>列</strong></th>
-<th><strong>数据类型</strong></th>
-<th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><span data-ttu-id="4b929-105"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-105"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="4b929-106"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-106"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="4b929-107"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-107"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="4b929-108"><strong>详细信息</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-108"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>主</p></td>
-<td><p>用户体验质量 (QoE) 代理从呼叫者或被叫方接收第一个报告的时间。与 SessionSeq 结合使用来唯一地标识会话。</p></td>
+<td><p><span data-ttu-id="4b929-109"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-109"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b929-110">datetime</span><span class="sxs-lookup"><span data-stu-id="4b929-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4b929-111">Primary</span><span class="sxs-lookup"><span data-stu-id="4b929-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4b929-112">优质 (QoE) agent 接收来自呼叫方或被叫方的第一个报告的时间。</span><span class="sxs-lookup"><span data-stu-id="4b929-112">Time when the Quality of Excellence (QoE) agent receives the first report from either caller or callee.</span></span> <span data-ttu-id="4b929-113">与 SessionSeq 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="4b929-113">Used in conjunction with SessionSeq to uniquely identify a session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>主</p></td>
-<td><p>当会话具有相同的 ConferenceDateTime 时区分会话的序号。</p></td>
+<td><p><span data-ttu-id="4b929-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b929-115">int</span><span class="sxs-lookup"><span data-stu-id="4b929-115">int</span></span></p></td>
+<td><p><span data-ttu-id="4b929-116">Primary</span><span class="sxs-lookup"><span data-stu-id="4b929-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4b929-117">序列号, 以便在具有相同的 ConferenceDateTime 时区分会话。</span><span class="sxs-lookup"><span data-stu-id="4b929-117">Sequence number to differentiate sessions when they have the same ConferenceDateTime.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogID</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p></p></td>
-<td><p>全局唯一的对话 ID。</p></td>
+<td><p><span data-ttu-id="4b929-118"><strong>DialogID</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-118"><strong>DialogID</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b929-119">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="4b929-119">varchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="4b929-120">全局唯一的对话框 ID。</span><span class="sxs-lookup"><span data-stu-id="4b929-120">Dialog ID which is globally unique.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogIDChecksum</strong></p></td>
-<td><p>int</p></td>
-<td><p>索引</p></td>
-<td><p>对话 ID 的校验和。</p></td>
+<td><p><span data-ttu-id="4b929-121"><strong>DialogIDChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="4b929-121"><strong>DialogIDChecksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b929-122">int</span><span class="sxs-lookup"><span data-stu-id="4b929-122">int</span></span></p></td>
+<td><p><span data-ttu-id="4b929-123">食指</span><span class="sxs-lookup"><span data-stu-id="4b929-123">index</span></span></p></td>
+<td><p><span data-ttu-id="4b929-124">对话框 ID 的校验和。</span><span class="sxs-lookup"><span data-stu-id="4b929-124">Checksum of the Dialog ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

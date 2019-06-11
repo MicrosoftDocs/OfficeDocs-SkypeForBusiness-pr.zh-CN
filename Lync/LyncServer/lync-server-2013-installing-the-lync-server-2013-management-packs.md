@@ -1,54 +1,88 @@
-﻿---
-title: 安装 Lync Server 2013 管理包
-TOCTitle: 安装 Lync Server 2013 管理包
-ms:assetid: b800d4ab-fdc8-4c72-a76a-b78932779fe3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205202(v=OCS.15)
-ms:contentKeyID: 49314032
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 安装 Lync Server 2013 管理包'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: nstalling the Lync Server 2013 management packs
+ms:assetid: b800d4ab-fdc8-4c72-a76a-b78932779fe3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205202(v=OCS.15)
+ms:contentKeyID: 48185233
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fea443225744bfd0d0e2dfa90a317ffa4cc890ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829992"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 安装 Lync Server 2013 管理包
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="installing-the-lync-server-2013-management-packs"></a><span data-ttu-id="acf9c-102">安装 Lync Server 2013 管理包</span><span class="sxs-lookup"><span data-stu-id="acf9c-102">Installing the Lync Server 2013 management packs</span></span>
 
-System Center Operations Manager 本身只能监控一小部分的 Windows 操作系统。但是，您可以通过安装管理包（即规定 System Center Operations Manager 可以监控的项目的软件，包括应如何监控这些项目，以及如何触发和报告警报），来扩展 System Center Operations Manager 的功能。Microsoft Lync Server 2013 包括两个可提供以下功能的 System Center Operations Manager 管理包：
+</div>
 
-  - 组件和用户管理包 (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) 可跟踪记录在事件日志中、由性能计数器注册，或者记录在呼叫详细信息记录 (CDR) 或体验质量 (QoE) 数据库中的 Lync Server 问题。对于严重问题，可以将 System Center Operations Manager 配置为立即通过电子邮件、即时消息或短消息服务 (SMS) 消息通知给管理员。SMS 是一种可用来将文本消息从一个移动设备发送到另一个移动设备的技术。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="acf9c-103">_**主题上次修改时间:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="acf9c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+
+<span data-ttu-id="acf9c-104">System Center Operations Manager 本身能够仅监视 Windows 操作系统的一小部分。</span><span class="sxs-lookup"><span data-stu-id="acf9c-104">By itself, System Center Operations Manager has the ability to monitor only a small portion of the Windows operating system.</span></span> <span data-ttu-id="acf9c-105">但是, 你可以通过安装管理包来扩展 System Center Operations Manager 的功能, 该软件规定 System Center Operations Manager 可以监视哪些项目, 包括应如何监视这些项目以及如何使用警报触发和报告。</span><span class="sxs-lookup"><span data-stu-id="acf9c-105">However, you can extend the capabilities of System Center Operations Manager by installing management packs, software that dictates which items System Center Operations Manager can monitor, including how those items should be monitored and how alerts should be triggered and reported.</span></span> <span data-ttu-id="acf9c-106">Microsoft Lync Server 2013 包括两个 System Center Operations Manager 管理包, 它们提供以下功能:</span><span class="sxs-lookup"><span data-stu-id="acf9c-106">Microsoft Lync Server 2013 includes two System Center Operations Manager management packs that provide the following capabilities:</span></span>
+
+  - <span data-ttu-id="acf9c-107">组件和用户管理包 (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) 跟踪事件日志中记录的 Lync Server 问题 (由性能计数器注册), 或记录在呼叫详细记录 (CDR) 或体验质量 (QoE) 中。数据库.</span><span class="sxs-lookup"><span data-stu-id="acf9c-107">The Component and User Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) tracks Lync Server issues recorded in event logs, registered by performance counters, or logged in the call detail records (CDR) or the Quality of Experience (QoE) databases.</span></span> <span data-ttu-id="acf9c-108">对于严重问题, System Center Operations Manager 可以配置为通过电子邮件、即时消息或短消息服务 (SMS) 消息通知立即通知管理员。</span><span class="sxs-lookup"><span data-stu-id="acf9c-108">For critical problems, System Center Operations Manager can be configured to immediately notify administrators via email, instant message, or Short Message Service (SMS) messaging.</span></span> <span data-ttu-id="acf9c-109">SMS 是用于将文本消息从一个移动设备发送到另一个移动设备的技术。</span><span class="sxs-lookup"><span data-stu-id="acf9c-109">SMS is the technology used to send text messages from one mobile device to another.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > 有关配置 Operations Manager 通知的详细信息，请参阅 TechNet 库中的“配置通知”，网址为 <a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x804" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x804</a>。
+    > <span data-ttu-id="acf9c-110">有关配置 Operations Manager 通知的详细信息, 请参阅在<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>TechNet 库中配置通知。</span><span class="sxs-lookup"><span data-stu-id="acf9c-110">For more information on configuring Operations Manager notification, see Configuring Notification in the TechNet Library at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>.</span></span>
+
     
+    </div>
 
+  - <span data-ttu-id="acf9c-111">活动监视包 (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) 主动测试重要的 Lync 服务器组件, 如登录到系统、交换即时消息或拨打位于公共交换电话上的电话网络 (PSTN)。</span><span class="sxs-lookup"><span data-stu-id="acf9c-111">The Active Monitoring Pack (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) proactively tests key Lync Server components such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span> <span data-ttu-id="acf9c-112">这些测试通过 Lync Server 合成事务 cmdlet 进行。</span><span class="sxs-lookup"><span data-stu-id="acf9c-112">These tests are conducted using the Lync Server synthetic transaction cmdlets.</span></span> <span data-ttu-id="acf9c-113">例如，**Test-CsIM** cmdlet 用来模拟一对测试用户之间的即时消息对话。</span><span class="sxs-lookup"><span data-stu-id="acf9c-113">For example, the **Test-CsIM** cmdlet is used to simulate an instant messaging conversation between a pair of test users.</span></span> <span data-ttu-id="acf9c-114">如果此模拟消息对话失败, 将生成警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-114">If this simulated messaging conversation fails an alert will be generated.</span></span>
 
-  - 主动监控包 (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) 会主动测试关键的 Lync Server 组件，如登录到系统、交换即时消息或对位于公用电话交换网 (PSTN) 的电话发起呼叫。这些测试是使用 Lync Server 综合事务 cmdlet 来执行的。例如，**Test-CsIM** cmdlet 可用来模拟一对测试用户之间的即时消息对话。如果这种模拟的消息对话失败，则会生成一个警报。
+<span data-ttu-id="acf9c-115">Lync Server 2013 中包含的两个管理包包含大量增强了与 Microsoft Lync Server 2010 一起使用的管理包。</span><span class="sxs-lookup"><span data-stu-id="acf9c-115">The two management packs included with Lync Server 2013 include a large number of enhancements over the management packs used with Microsoft Lync Server 2010.</span></span> <span data-ttu-id="acf9c-116">例如, Lync Server 2013 组件管理包不仅限于监视 Lync 服务器本身。</span><span class="sxs-lookup"><span data-stu-id="acf9c-116">For example, the Lync Server 2013 Component Management Pack is not limited to monitoring Lync Server itself.</span></span> <span data-ttu-id="acf9c-117">除了监视 Lync Server 的事件日志和性能计数器, 组件管理包还可以跟踪重要项目的性能以及发出警报, 如:</span><span class="sxs-lookup"><span data-stu-id="acf9c-117">In addition to monitoring event logs and performance counters for Lync Server, the Component Management pack can also track the performance of, and issue alerts for, crucial items such as:</span></span>
 
-包含在 Lync Server 2013 中的这两个管理包同与 Microsoft Lync Server 2010 结合使用的管理包相比，包含了大量的增强功能。例如，Lync Server 2013 组件管理包并不限于监控 Lync Server 本身。除了监控 Lync Server 的事件日志和性能计数器以外，该组件管理包还可以跟踪诸如以下重要项目的性能并针对其发出警报：
+  - <span data-ttu-id="acf9c-118">\*\*\*\*   如果 internet 信息服务脱机, 将发出 internet 信息服务 (IIS) 警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-118">**Internet Information Services (IIS)**   Alerts will be issued if Internet Information Services goes offline.</span></span> <span data-ttu-id="acf9c-119">这一点很重要, 因为 Lync Server web 服务依赖于 IIS。</span><span class="sxs-lookup"><span data-stu-id="acf9c-119">This is important, because the Lync Server web services rely on IIS.</span></span>
 
-  - **Internet 信息服务 (IIS)**   如果 Internet 信息服务脱机，则会发出警报。这一点非常重要，因为 Lync Server Web 服务依赖于 IIS。
+  - <span data-ttu-id="acf9c-120">\*\*\*\*   如果系统资源 (如可用内存) 开始运行较少, 将发出进程使用警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-120">**Process usage**   Alerts will be issued if system resources (such as available memory) begin to run low.</span></span> <span data-ttu-id="acf9c-121">即使 Lync 服务器对高系统使用率不负责, 也会发出这些警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-121">These alerts will be issued even if Lync Server is not responsible for the high system usage.</span></span>
 
-  - **处理程序使用情况**   如果系统资源（如可用内存）开始不足，则会发出警报。即使这种很高的系统使用率并非是由 Lync Server 所造成，也会发出这些警报。
+  - <span data-ttu-id="acf9c-122">\*\*\*\*   在威胁到服务器的生存能力的硬件或软件问题时, 将发出计算机故障事件警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-122">**Computer failure events**   Alerts will be issued in case of a hardware or software issue that threatens the viability of a server.</span></span> <span data-ttu-id="acf9c-123">例如, 如果服务器似乎存在遇到硬盘故障的危险, 则将通知 Lync 服务器管理员。</span><span class="sxs-lookup"><span data-stu-id="acf9c-123">For example, Lync Server administrators will be notified if a server appears to be in danger of experiencing a hard disk failure.</span></span>
 
-  - **计算机故障事件**   在发生威胁到服务器可行性的硬件或软件问题时，将会发出警报。例如，如果服务器似乎可能发生硬盘故障，则会通知 Lync Server 管理员。
+<span data-ttu-id="acf9c-124">新的管理包还具有增强的报告功能。</span><span class="sxs-lookup"><span data-stu-id="acf9c-124">The new management packs also feature enhanced reporting.</span></span> <span data-ttu-id="acf9c-125">Lync Server 2013 的新报告包括:</span><span class="sxs-lookup"><span data-stu-id="acf9c-125">New reports for Lync Server 2013 include:</span></span>
 
-新管理包的主要功能还包括增强的报告功能。Lync Server 2013 的新报告包括：
+  - <span data-ttu-id="acf9c-126">**端到端方案可用性报告**   此报告详细介绍了关键 Lync 服务器服务 (如注册或联机状态) 的可用性/正常运行时间。</span><span class="sxs-lookup"><span data-stu-id="acf9c-126">**End to End Scenario Availability Report**   This report details the availability/uptime for key Lync Server services such as registration or presence.</span></span>
 
-  - **端到端方案可用性报告**   此报告详细介绍了关键的 Lync Server 服务（如注册或状态）的可用性/运行时间。
+  - <span data-ttu-id="acf9c-127">**容量报告**   使用性能计数器信息, 此报告显示系统组件 (如内存可用性和处理器使用情况) 的趋势。</span><span class="sxs-lookup"><span data-stu-id="acf9c-127">**Capacity Report**   Using performance counter information, this report shows trends for system components such as memory availability and processor usage.</span></span>
 
-  - **容量报告**   通过使用性能计数器信息，此报告显示了系统组件（如内存可用性和处理器使用情况）的趋势。
+  - <span data-ttu-id="acf9c-128">**组件报告**   此报告列出按 Lync Server 组件分组的顶级警报生成器。</span><span class="sxs-lookup"><span data-stu-id="acf9c-128">**Component Report**   This report lists the top alert generators grouped by Lync Server component.</span></span>
 
-  - **组件报告**   此报告列出了按 Lync Server 组件进行分组的主要警报生成器。
+<span data-ttu-id="acf9c-129">除了这些预定义的报表, Lync Server 2013 的管理包还会自动报告呼叫可靠性 (按呼叫详细记录测量) 和 QoE 状态 (通过质量衡量标准) 的警报。</span><span class="sxs-lookup"><span data-stu-id="acf9c-129">In addition to these predesigned reports, the management packs for Lync Server 2013 automatically report alerts for both Call Reliability (metrics measured by Call Detail Recording) and QoE states (metrics measured by Quality of Experience).</span></span> <span data-ttu-id="acf9c-130">如果已启用 "呼叫详细信息录制", 则可以通过 System Center Operations Manager 控制台完成以下过程来查看呼叫可靠性警报:</span><span class="sxs-lookup"><span data-stu-id="acf9c-130">If you have enabled Call Detail Recording, you can review Call Reliability alerts by completing the following procedure from the System Center Operations Manager console:</span></span>
 
-除了这些预定的报告之外，Lync Server 2013 的管理包还会自动报告呼叫可靠性（由呼叫详细信息记录衡量的指标）和 QoE 状态（由体验质量衡量的指标）的警报。如果已启用呼叫详细信息报告，则可以通过从 System Center Operations Manager 控制台中完成以下过程来查看“呼叫可靠性”警报：
+  - <span data-ttu-id="acf9c-131">展开 "**监视**", 展开 " **Microsoft Lync Server 2013 运行状况**", 展开 "**呼叫可靠性和媒体质量**", 然后单击 "**调用可靠性**"。</span><span class="sxs-lookup"><span data-stu-id="acf9c-131">Expand **Monitoring**, expand **Microsoft Lync Server 2013 Health**, expand **Call Reliability and Media Quality**, and then click **Call Reliability**.</span></span>
 
-  - 依次展开“监控”、“Microsoft Lync Server 2013 运行状况”、“呼叫可靠性和媒体质量”，然后单击“呼叫可靠性”。
+<span data-ttu-id="acf9c-132">若要查看体验警报的质量, 请从 System Center Operations Manager 控制台完成此过程:</span><span class="sxs-lookup"><span data-stu-id="acf9c-132">To view Quality of Experience alerts, complete this procedure from the System Center Operations Manager console:</span></span>
 
-要查看“体验质量”警报，请从 System Center Operations Manager 控制台中完成以下过程：
+  - <span data-ttu-id="acf9c-133">展开 "**监视**", 展开 " **Microsoft Lync Server 2013 运行状况**", 展开 "**呼叫可靠性和媒体质量**", 然后展开 "**媒体质量**"。</span><span class="sxs-lookup"><span data-stu-id="acf9c-133">Expand **Monitoring**, expand **Microsoft Lync Server 2013 Health**, expand **Call Reliability and Media Quality**, and then expand **Media Quality**.</span></span>
 
-  - 依次展开“监控”、“Microsoft Lync Server 2013 运行状况”、“呼叫可靠性和媒体质量”，然后展开“媒体质量”。
+<span data-ttu-id="acf9c-134">Lync Server 2013 的管理包现在使用计算机级发现, 而不是在 Microsoft Lync Server 2010 中使用的集中发现机制。</span><span class="sxs-lookup"><span data-stu-id="acf9c-134">The management packs for Lync Server 2013 now use machine-level discovery instead of the central discovery mechanism used in Microsoft Lync Server 2010.</span></span> <span data-ttu-id="acf9c-135">这意味着每个 System Center 代理实质上都会发现自己, 并报告它是否存在于中央管理服务器。</span><span class="sxs-lookup"><span data-stu-id="acf9c-135">This means that each System Center agent essentially discovers itself and reports its existence to the Central Management Server.</span></span> <span data-ttu-id="acf9c-136">使用计算机级发现可简化 System Center 基础结构的管理, 还允许不同版本的 Lync Server 管理包 (例如, lync server 2010 的管理包和 Lync Server 2013 的管理包)同时共存.</span><span class="sxs-lookup"><span data-stu-id="acf9c-136">Using machine-level discovery simplifies administration of your System Center infrastructure and also allows different versions of the Lync Server management packs (for example, management packs for Lync Server 2010 and management packs for Lync Server 2013) to coexist.</span></span>
 
-Lync Server 2013 的管理包现在使用机器级别的发现，而不是 Microsoft Lync Server 2010 中所使用的中心发现机制。这意味着每个系统中心代理本质上都会发现自身并向中央管理服务器报告自己的存在性。通过使用机器级别的发现，可简化系统中心基础结构的管理，同时允许不同版本的 Lync Server 管理包（例如，Lync Server 2010 的管理包和 Lync Server 2013 的管理包）共存。
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

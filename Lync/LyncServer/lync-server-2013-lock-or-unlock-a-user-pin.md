@@ -1,99 +1,161 @@
-﻿---
-title: 锁定或解锁用户 PIN
-TOCTitle: 锁定或解锁用户 PIN
-ms:assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688028(v=OCS.15)
-ms:contentKeyID: 49888386
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 锁定或解锁用户 PIN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lock or unlock a user PIN
+ms:assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688028(v=OCS.15)
+ms:contentKeyID: 49733618
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c89923d2bd130806d84ae945720fc23d700e9f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829935"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 锁定或解锁用户 PIN
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-23_
+# <a name="lock-or-unlock-a-user-pin-in-lync-server-2013"></a><span data-ttu-id="8e111-102">在 Lync Server 2013 中锁定或解锁用户 PIN</span><span class="sxs-lookup"><span data-stu-id="8e111-102">Lock or unlock a user PIN in Lync Server 2013</span></span>
 
-您可以从 Lync Server 2013 控制面板的“用户”部分锁定或解锁用户 PIN。
+</div>
 
-## 在 Lync Server 控制面板中锁定用户 PIN
+<div id="mainSection">
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+<div id="mainBody">
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<span> </span>
 
-3.  在左侧导航栏中，单击“用户”。
+<span data-ttu-id="8e111-103">_**主题上次修改时间:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="8e111-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  使用下列方法之一查找用户：
+<span data-ttu-id="8e111-104">你可以从 Lync Server 2013 控制面板的 "**用户**" 部分锁定或解除锁定用户的 PIN。</span><span class="sxs-lookup"><span data-stu-id="8e111-104">You can lock or unlock a user’s PIN from the **Users** section of Lync Server 2013 Control Panel.</span></span>
+
+<div>
+
+## <a name="to-lock-a-users-pin-in-lync-server-control-panel"></a><span data-ttu-id="8e111-105">在 Lync Server "控制面板" 中锁定用户的 PIN</span><span class="sxs-lookup"><span data-stu-id="8e111-105">To lock a user’s PIN in Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="8e111-106">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="8e111-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="8e111-107">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="8e111-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8e111-108">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="8e111-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="8e111-109">在左导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-109">In the left navigation bar, click **Users**.</span></span>
+
+4.  <span data-ttu-id="8e111-110">使用下列方法之一查找用户：</span><span class="sxs-lookup"><span data-stu-id="8e111-110">Use one of the following methods to locate a user:</span></span>
     
-      - 在“搜索用户”框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
+      - <span data-ttu-id="8e111-111">在“搜索用户”\*\*\*\* 框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-111">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - 如果具有保存的查询，请单击“打开查询”图标，使用“打开”对话框来检索该查询（.usf 文件），然后单击“查找”。
+      - <span data-ttu-id="8e111-112">如果具有保存的查询，请单击“打开查询”\*\*\*\* 图标，使用“打开”\*\*\*\* 对话框来检索该查询（.usf 文件），然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-112">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  （可选）指定附加搜索条件以缩小结果的范围：
+5.  <span data-ttu-id="8e111-113">（可选）指定附加搜索条件以缩小结果的范围：</span><span class="sxs-lookup"><span data-stu-id="8e111-113">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  单击“添加筛选器”。
+    1.  <span data-ttu-id="8e111-114">单击“添加筛选器”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-114">Click **Add Filter**.</span></span>
     
-    2.  通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。
+    2.  <span data-ttu-id="8e111-115">通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。</span><span class="sxs-lookup"><span data-stu-id="8e111-115">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  在“等于”下拉列表中，单击运算符（例如“等于”或“不等于”）。
+    3.  <span data-ttu-id="8e111-116">在“等于”\*\*\*\* 下拉列表中，单击运算符（例如“等于”\*\*\*\* 或“不等于”\*\*\*\*）。</span><span class="sxs-lookup"><span data-stu-id="8e111-116">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。
+    4.  <span data-ttu-id="8e111-117">根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。</span><span class="sxs-lookup"><span data-stu-id="8e111-117">Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
-        > [!TIP]  
-        > 要向查询中添加附加搜索子句，请单击“添加筛选器”。
-    
-    5.  单击“查找”。
-    
-    6.  单击用户，再单击“操作”，然后单击“锁定 PIN”。
-
-## 在 Lync Server 控制面板中解锁用户 PIN
-
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
-
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
-
-3.  在左侧导航栏中，单击“用户”。
-
-4.  使用下列方法之一查找用户：
-    
-      - 在“搜索用户”框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
-    
-      - 如果具有保存的查询，请单击“打开查询”图标，使用“打开”对话框来检索该查询（.usf 文件），然后单击“查找”。
-
-5.  （可选）指定附加搜索条件以缩小结果的范围：
-    
-    1.  单击“添加筛选器”。
-    
-    2.  通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。
-    
-    3.  在“等于”下拉列表中，单击运算符（例如“等于”或“不等于”）。
-    
-    4.  根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。
+        <div>
         
+
         > [!TIP]  
-        > 要向查询中添加附加搜索子句，请单击“添加筛选器”。
+        > <span data-ttu-id="8e111-118">要向查询中添加附加搜索子句，请单击“添加筛选器”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="8e111-118">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
+
+        
+        </div>
     
-    5.  单击“查找”。
+    5.  <span data-ttu-id="8e111-119">单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-119">Click **Find**.</span></span>
     
-    6.  单击用户，再单击“操作”，然后单击“解锁 PIN”。
+    6.  <span data-ttu-id="8e111-120">单击用户，再单击“操作”\*\*\*\*，然后单击“锁定 PIN”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-120">Click the user, click **Action**, and then click **Lock PIN**.</span></span>
 
-## 使用 Lync Server 命令行管理程序 cmdlet 锁定和解锁 PIN
+</div>
 
-还可以使用 Windows PowerShell 以及 Lock-CsClientPin 和 Unlock-CsClientPin cmdlet 来锁定和解锁用户 PIN。可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行这些 cmdlet。有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章“快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010”，网址为 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+<div>
 
-## 锁定用户 PIN
+## <a name="to-unlock-a-users-pin-in-lync-server-control-panel"></a><span data-ttu-id="8e111-121">在 Lync Server "控制面板" 中解锁用户的 PIN</span><span class="sxs-lookup"><span data-stu-id="8e111-121">To unlock a user’s PIN in Lync Server Control Panel</span></span>
 
-  - 若要锁定用户 PIN，请使用 Lock-CsClientPin cmdlet。例如：
+1.  <span data-ttu-id="8e111-122">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="8e111-122">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="8e111-123">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="8e111-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8e111-124">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="8e111-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="8e111-125">在左导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-125">In the left navigation bar, click **Users**.</span></span>
+
+4.  <span data-ttu-id="8e111-126">使用下列方法之一查找用户：</span><span class="sxs-lookup"><span data-stu-id="8e111-126">Use one of the following methods to locate a user:</span></span>
+    
+      - <span data-ttu-id="8e111-127">在“搜索用户”\*\*\*\* 框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-127">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
+    
+      - <span data-ttu-id="8e111-128">如果具有保存的查询，请单击“打开查询”\*\*\*\* 图标，使用“打开”\*\*\*\* 对话框来检索该查询（.usf 文件），然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-128">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
+
+5.  <span data-ttu-id="8e111-129">（可选）指定附加搜索条件以缩小结果的范围：</span><span class="sxs-lookup"><span data-stu-id="8e111-129">(Optional) Specify additional search criteria to narrow the results:</span></span>
+    
+    1.  <span data-ttu-id="8e111-130">单击“添加筛选器”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-130">Click **Add Filter**.</span></span>
+    
+    2.  <span data-ttu-id="8e111-131">通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。</span><span class="sxs-lookup"><span data-stu-id="8e111-131">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
+    
+    3.  <span data-ttu-id="8e111-132">在“等于”\*\*\*\* 下拉列表中，单击运算符（例如“等于”\*\*\*\* 或“不等于”\*\*\*\*）。</span><span class="sxs-lookup"><span data-stu-id="8e111-132">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
+    
+    4.  <span data-ttu-id="8e111-133">根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。</span><span class="sxs-lookup"><span data-stu-id="8e111-133">Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
+        
+        <div>
+        
+
+        > [!TIP]  
+        > <span data-ttu-id="8e111-134">要向查询中添加附加搜索子句，请单击“添加筛选器”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="8e111-134">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
+
+        
+        </div>
+    
+    5.  <span data-ttu-id="8e111-135">单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-135">Click **Find**.</span></span>
+    
+    6.  <span data-ttu-id="8e111-136">单击用户，再单击“操作”\*\*\*\*，然后单击“解锁 PIN”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8e111-136">Click the user, click **Action**, and then click **Unlock PIN**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="8e111-137">使用 Windows PowerShell Cmdlet 锁定和解锁用户 Pin</span><span class="sxs-lookup"><span data-stu-id="8e111-137">Locking and Unlocking User PINs by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="8e111-138">你可以使用 Windows PowerShell 和 Lock-CsClientPin 和 CsClientPin cmdlet 锁定和解锁用户 Pin。</span><span class="sxs-lookup"><span data-stu-id="8e111-138">You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsClientPin and Unlock-CsClientPin cmdlets.</span></span> <span data-ttu-id="8e111-139">你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行这些 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8e111-139">You can run these cmdlets either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="8e111-140">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="8e111-140">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-lock-a-user-pin"></a><span data-ttu-id="8e111-141">锁定用户 PIN</span><span class="sxs-lookup"><span data-stu-id="8e111-141">To lock a user PIN</span></span>
+
+  - <span data-ttu-id="8e111-p104">若要锁定用户 PIN，请使用 Lock-CsClientPin cmdlet。例如：</span><span class="sxs-lookup"><span data-stu-id="8e111-p104">To lock a user’s PIN, use the Lock-CsClientPin cmdlet. For example:</span></span>
     
         Lock-CsClientPin -Identity "Ken Myer"
 
-## 解锁用户 PIN
+</div>
 
-  - 若要解锁用户 PIN，请使用 Unlock-CsClientPin cmdlet。例如：
+<div>
+
+## <a name="to-unlock-a-user-pin"></a><span data-ttu-id="8e111-144">解锁用户 PIN</span><span class="sxs-lookup"><span data-stu-id="8e111-144">To unlock a user PIN</span></span>
+
+  - <span data-ttu-id="8e111-p105">若要解锁用户 PIN，请使用 Unlock-CsClientPin cmdlet。例如：</span><span class="sxs-lookup"><span data-stu-id="8e111-p105">To unlock a user’s PIN, use the Unlock-CsClientPin cmdlet. For example:</span></span>
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-有关详细信息，请参阅 [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) 和 [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin) cmdlet 的帮助主题。
+</div>
+
+<span data-ttu-id="8e111-147">有关详细信息, 请参阅[Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin)和[CsClientPin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="8e111-147">For more information, see the help topic for the [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin) and [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) cmdlets.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,115 +1,161 @@
-﻿---
-title: Lync Server 2013：为自动发现服务创建 DNS 记录
-TOCTitle: 为自动发现服务创建 DNS 记录
-ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh690010(v=OCS.15)
-ms:contentKeyID: 49312511
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：为自动发现服务创建 DNS 记录
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating DNS records for the Autodiscover Service
+ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
+ms:contentKeyID: 48183823
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830771"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中为自动发现服务创建 DNS 记录
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-06-20_
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a><span data-ttu-id="88175-102">在 Lync Server 2013 中为自动发现服务创建 DNS 记录</span><span class="sxs-lookup"><span data-stu-id="88175-102">Creating DNS records for the Autodiscover Service in Lync Server 2013</span></span>
 
-您的 Lync Mobile 用户将需要您启用自动发现，部分操作涉及创建一些域名系统 (DNS) 记录。根据您的需要，您需要以下内容：
+</div>
 
-  - 支持从组织网络内部进行连接的移动用户的内部 DNS 记录。
+<div id="mainSection">
 
-  - 支持从 Internet 进行连接的移动用户的外部或公共 DNS 记录
+<div id="mainBody">
 
-为什么？您需要为每个 SIP 域创建一条内部 DNS 记录和一条外部 DNS 记录。
+<span> </span>
 
-您创建的 DNS 记录可以是 A（主机）记录，也可以是 CNAME 记录。为帮助您排忧解难，我们将在下面指导您如何创建这些内部和外部 DNS 记录。如果需要进一步阅读有关移动用户的 DNS 要求的内容，您可以查看[Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)。
+<span data-ttu-id="88175-103">_**主题上次修改时间:** 2014-06-20_</span><span class="sxs-lookup"><span data-stu-id="88175-103">_**Topic Last Modified:** 2014-06-20_</span></span>
 
-## 创建内部 DNS CNAME 记录
+<span data-ttu-id="88175-104">您的 Lync 移动用户将需要您启用自动发现, 其中包含创建某些域名系统 (DNS) 记录的部分。</span><span class="sxs-lookup"><span data-stu-id="88175-104">Your Lync Mobile users will need you to enable autodiscovery, and a part of that involves creating some Domain Name System (DNS) records.</span></span> <span data-ttu-id="88175-105">根据你的需要, 你需要满足以下要求:</span><span class="sxs-lookup"><span data-stu-id="88175-105">Depending on your needs, you need the following:</span></span>
 
-1.  若要创建内部 DNS 记录，您需要使用属于 Domain Admins 组成员或 DnsAdmins 组成员的域帐户登录网络中的 DNS 服务器。
+  - <span data-ttu-id="88175-106">一个内部 DNS 记录, 用于支持从你的组织的网络中连接的移动用户。</span><span class="sxs-lookup"><span data-stu-id="88175-106">An internal DNS record to support mobile users who’re connecting from within your organization's network.</span></span>
 
-2.  打开 DNS 管理单元：依次单击“开始”、“管理工具”和“DNS”。
+  - <span data-ttu-id="88175-107">支持从 Internet 连接的移动用户的外部 DNS 记录或公共 DNS 记录</span><span class="sxs-lookup"><span data-stu-id="88175-107">An external, or public, DNS record to support mobile users who’re connecting from the Internet</span></span>
 
-3.  在 DNS 服务器的控制台树中，展开已安装 Lync Server 2013控制器池和前端池的 Active Directory 域（例如 contoso.local）的“正向查找区域”。
+<span data-ttu-id="88175-108">为什么？</span><span class="sxs-lookup"><span data-stu-id="88175-108">Why both?</span></span> <span data-ttu-id="88175-109">你需要为每个 SIP 域创建一个内部 DNS 记录和一个外部 DNS 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-109">You need to create both an internal DNS record and an external DNS record for each SIP domain.</span></span>
 
-4.  检查您的控制器池的内部 DNS 记录是否存在主机 A（对于 IPv6 为 AAAA）记录，您的控制器池（例如 lyncwebdir01.contoso.local）的内部 Web 服务完全限定的域名 (FQDN) 应存在主机 A 记录。如果不存在，则您不能使用控制器池，并且您需要使用前端池的 FQDN 甚至单个服务器 FQDN（如果您已设置）。
+<span data-ttu-id="88175-110">您创建的 DNS 记录可以是 (主机) 记录或 CNAME 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-110">The DNS records you create can be either A (host) records or CNAME records.</span></span> <span data-ttu-id="88175-111">为帮助你解决此问题, 我们将指导你了解如何在下面创建这些内部和外部 DNS 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-111">To help you out, we’ll walk through how to create these internal and external DNS records below.</span></span> <span data-ttu-id="88175-112">如果需要进一步阅读有关移动用户的 DNS 要求的详细信息, 您可以查看[Lync Server 2013 中的移动技术要求](lync-server-2013-technical-requirements-for-mobility.md)。</span><span class="sxs-lookup"><span data-stu-id="88175-112">If you need to do some further reading about the DNS requirements for mobile users, you can check out [Technical requirements for mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).</span></span>
 
-5.  请记住，检查您的前端池的内部 DNS 记录是否存在主机 A（对于 IPv6 为 AAAA）记录，您的前端池（例如 lyncwebpool01.contoso.local）的内部 Web 服务 FQDN 应存在主机 A（或 AAAA）记录。如果不存在，您需要记下前端服务器或 Standard Edition Server的 FQDN。
+<div>
 
-6.  在知道存在的具体主机 A（或 AAAA）记录后，请在 DNS 服务器的控制台树中，展开您的 SIP 域（例如 contoso.com）的“正向查找区域”。
+## <a name="creating-an-internal-dns-cname-record"></a><span data-ttu-id="88175-113">创建内部 DNS CNAME 记录</span><span class="sxs-lookup"><span data-stu-id="88175-113">Creating an internal DNS CNAME record</span></span>
 
-7.  右键单击 SIP 域名，然后单击“新建别名 (CNAME)”。
+1.  <span data-ttu-id="88175-114">要创建内部 DNS 记录, 您需要使用域管理员组的成员或 DnsAdmins 组的成员登录到您的网络中的 DNS 服务器上。</span><span class="sxs-lookup"><span data-stu-id="88175-114">To make an internal DNS record, you’ll need to log on to a DNS server in your network with a domain account that’s either a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-8.  在“别名”中，键入 lyncdiscoverinternal 作为内部自动发现服务 URL 的主机名称。
+2.  <span data-ttu-id="88175-115">打开 "DNS 管理" 管理单元: 单击 "**开始**", 单击 "**管理工具**", 然后单击 " **DNS**"。</span><span class="sxs-lookup"><span data-stu-id="88175-115">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-9.  在“目标主机的完全合格的域名 (FQDN)”中，键入或浏览到控制器池（例如 lyncwebdir01.contoso.local）的内部 Web 服务 FQDN，然后单击“确定”。
+3.  <span data-ttu-id="88175-116">在 DNS 服务器的控制台树中, 展开用于安装 Lync Server 2013 控制器池和前端池的 Active Directory 域的 "**正向查找区域**"。</span><span class="sxs-lookup"><span data-stu-id="88175-116">In the console tree of the DNS server, expand **Forward Lookup Zones** for the Active Directory domain where your Lync Server 2013 Director pool and Front End pool are installed.</span></span> <span data-ttu-id="88175-117">(例如, contoso)。</span><span class="sxs-lookup"><span data-stu-id="88175-117">(for example, contoso.local).</span></span>
 
-10. 您必须在您的 Lync Server 2013 环境中支持的每个 SIP 域的正向查找区域中创建一条新的自动发现 CNAME 记录。
+4.  <span data-ttu-id="88175-118">检查并查看是否存在针对内部 DNS 记录的 Director 池的主机 A (AAAA for IPv6) 记录。对于内部 Web 服务, 对于你的控制器池 (例如, lyncwebdir01), 内部 Web 服务完全限定的域名 (FQDN) 应存在主机 A 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-118">Check and see if a host A (AAAA for IPv6) record exists for your Director pool for an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span> <span data-ttu-id="88175-119">如果不在这里, 你可能不会使用控制器池, 并且你将需要为你的前端池或单个服务器 FQDN (如果你的设置) 使用 FQDN。</span><span class="sxs-lookup"><span data-stu-id="88175-119">If it’s not here, you may not be using a Director pool, and you’ll need to use the FQDN for your Front End pool or even a single server FQDN, if that’s your setup.</span></span>
 
-## 创建外部 DNS CNAME 记录
+5.  <span data-ttu-id="88175-120">请注意, 请检查并查看内部 DNS 记录的主机 A (AAAA for IPv6) 记录是否存在, 对于内部 DNS 记录的内部 Web 服务 FQDN, 应存在主机 A (AAAA) 记录 (例如, lyncwebpool01)。</span><span class="sxs-lookup"><span data-stu-id="88175-120">Keeping that in mind, check and see if a host A (AAAA for IPv6) record exists for your Front End pool for an internal DNS record, a host A (or AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span> <span data-ttu-id="88175-121">如果不是, 你需要记下前端服务器或标准版服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="88175-121">If it doesn’t, you’ll need to make note of the FQDN for the Front End Server or Standard Edition server.</span></span>
 
-1.  要创建外部 DNS CNAME 记录，您需要连接到您的公共 DNS 提供商，然后按照我们的步骤执行操作。我们无法描述您在 DNS 提供商的环境中的确切位置，因为管理外部 DNS 的方式可能不同，然而我们希望这些步骤有所帮助。
+6.  <span data-ttu-id="88175-122">知道存在哪个主机 A (或 AAAA) 记录后, 在 DNS 服务器的控制台树中, 展开您的 SIP 域的 "**正向查找区域**" (例如, contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="88175-122">Once you know what host A (or AAAA) records exist, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-2.  使用可在该环境中创建 DNS 记录的帐户登录到外部 DNS 提供商。
+7.  <span data-ttu-id="88175-123">右键单击 SIP 域名称, 然后单击 "**新建别名 (CNAME)**"。</span><span class="sxs-lookup"><span data-stu-id="88175-123">Right-click the SIP domain name, and then click **New Alias (CNAME)**.</span></span>
 
-3.  您应该已为此环境创建了 SIP 域。请展开此 SIP 域的“正向查找区域”，否则请选中它，具体取决于所使用的外部 DNS 接口。
+8.  <span data-ttu-id="88175-124">在 "**别名名称**" 中, 键入 lyncdiscoverinternal 作为内部自动发现服务 URL 的主机名。</span><span class="sxs-lookup"><span data-stu-id="88175-124">In **Alias name**, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
 
-4.  您应该已经看到您的控制器池（如 lyncwebexdir01.contoso.com）的主机 A（对于 IPv6 为 AAAA）记录，因此请确认该记录存在。如果不存在，则您可能未使用控制器池。如果是这样或者您正在为单个服务器、前端服务器或 Standard Edition 服务器执行此操作，您需要使用前端池的 FQDN。
+9.  <span data-ttu-id="88175-125">在**目标主机的完全限定的域名 (FQDN)** 中, 键入或浏览到你的控制器池的内部 WEB 服务 FQDN (例如, lyncwebdir01), 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="88175-125">In **Fully qualified domain name (FQDN) for target host**, type or browse to the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local) and then click **OK**.</span></span>
 
-5.  您也需要确认您的前端池（如 lyncwebextpool01.contoso.com）的外部 Web 服务完全限定的域名 (FQDN) 或者单个服务器 FQDN（如果没有前端池）存在主机 A（对于 IPv6 为 AAAA）记录。如上一步骤所述，如果您没有控制器池，您在下面需要此内容。
+10. <span data-ttu-id="88175-126">必须在 Lync Server 2013 环境支持的每个 SIP 域的正向查找区域中创建新的自动发现 CNAME 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-126">You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
 
-6.  现在，针对外部 DNS 提供商采取合适的格式，选择用于创建**新别名 (CNAME)** 的选项（这可能是一个菜单选项或一个链接，具体取决于 DNS 提供商的格式）。
+</div>
 
-7.  应存在某种形式的与内部 DNS 相同的“别名”文本框，您应输入 lyncdiscover 作为外部自动发现服务 URL 的主机名。
+<div>
 
-8.  还应存在某种形式的“目标主机的完全合格的域名 (FQDN)”文本框，在这里，您将输入控制器池（例如 lyncwebexdir01.contoso.com）池的外部 Web 服务 FQDN，然后单击“确定”或者在外部 DNS 中执行某项操作以接受创建此条目。如上面的步骤 4 所述，如果您没有控制器池，您需要根据需要使用前端池 FQDN 或设置的单个服务器 FQDN。
+## <a name="creating-an-external-dns-cname-record"></a><span data-ttu-id="88175-127">创建外部 DNS CNAME 记录</span><span class="sxs-lookup"><span data-stu-id="88175-127">Creating an external DNS CNAME record</span></span>
 
-9.  您需要在 Lync 2013 环境中支持的每个 SIP 域的正向查找区域中创建一条新的自动发现 CNAME 记录。
+1.  <span data-ttu-id="88175-128">若要创建外部 DNS CNAME 记录, 你需要连接到你的公共 DNS 提供商, 然后按照我们的步骤操作。</span><span class="sxs-lookup"><span data-stu-id="88175-128">To create an external DNS CNAME record, you’re going to need to connect to your public DNS provider, and then follow our steps.</span></span> <span data-ttu-id="88175-129">我们无法确切描述你在 DNS 提供商环境中所处的位置, 因为可能有不同的管理外部 DNS 的方式, 但我们希望这些步骤有所帮助。</span><span class="sxs-lookup"><span data-stu-id="88175-129">We can’t describe exactly where you’re going in your DNS provider’s environment as there may be different ways of managing your external DNS, but we hope these steps help.</span></span>
 
-## 创建内部 DNS A 记录
+2.  <span data-ttu-id="88175-130">使用可在该环境中创建 DNS 记录的帐户登录到您的外部 DNS 提供商。</span><span class="sxs-lookup"><span data-stu-id="88175-130">Log into your external DNS provider with an account that can create DNS records in that environment.</span></span>
 
-1.  若要创建内部 DNS 记录，请使用属于 Domain Admins 组成员或 DnsAdmins 组成员的域帐户登录网络中的 DNS 服务器。
+3.  <span data-ttu-id="88175-131">你应该已为此环境创建了一个 SIP 域。</span><span class="sxs-lookup"><span data-stu-id="88175-131">You should have a SIP domain created for this environment already.</span></span> <span data-ttu-id="88175-132">展开此 SIP 域的**正向查找区域**, 或者根据所使用的外部 DNS 接口选择它。</span><span class="sxs-lookup"><span data-stu-id="88175-132">Expand the **Forward Lookup Zone** for this SIP domain, or otherwise select it depending on the external DNS interface being used.</span></span>
 
-2.  打开 DNS 管理单元：依次单击“开始”、“管理工具”和“DNS”。
+4.  <span data-ttu-id="88175-133">你应该已看到你的控制器池 (如 lyncwebexdir01.contoso.com) 的主机 A (AAAA for IPv6) 记录, 因此请确认该记录是否存在。</span><span class="sxs-lookup"><span data-stu-id="88175-133">You should already see a host A (AAAA for IPv6) record for your Director pool (such as lyncwebexdir01.contoso.com), so confirm that it’s there.</span></span> <span data-ttu-id="88175-134">如果不是, 则您可能没有使用控制器池。</span><span class="sxs-lookup"><span data-stu-id="88175-134">If it’s not, then you may not be using a Director pool.</span></span> <span data-ttu-id="88175-135">如果是这种情况, 你需要使用前端池的 FQDN, 或者, 如果你要为前端服务器或标准版服务器执行此操作, 请使用前端服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="88175-135">If that’s the case, you’ll need to use the FQDN of your Front End Pool, or if you’re doing this for a single server, for your Front-End server or Standard Edition server.</span></span>
 
-3.  对于内部 DNS 记录，在 DNS 服务器的控制台树中，展开已安装 Lync Server 2013控制器池和前端池的 Active Directory 域（例如 contoso.local）的“正向查找区域”。
+5.  <span data-ttu-id="88175-136">你还需要确认对于你的外部 Web 服务, 你的外部 Web 服务的主机 A (AAAA for IPv6) 记录是否存在于你的前端池 (如 lyncwebextpool01.contoso.com) 的完全限定的域名 (FQDN), 或者你的单服务器 FQDN (如果你没有前端池) 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="88175-136">You’ll also need to confirm that a host A (AAAA for IPv6) record exists for your external Web Services Fully Qualified Domain Name (FQDN) for your Front End pool (such as lyncwebextpool01.contoso.com), or a FQDN for your single-server FQDN if you have no Front End pool.</span></span> <span data-ttu-id="88175-137">如前面的步骤所述, 如果没有控制器池, 则需要以下内容。</span><span class="sxs-lookup"><span data-stu-id="88175-137">As noted in the previous step, you’ll need this below if you don’t have a Director pool.</span></span>
 
-4.  检查您的控制器池的内部 DNS 记录是否存在主机 A（对于 IPv6 为 AAAA）记录，您的控制器池（例如 lyncwebdir01.contoso.local）的内部 Web 服务完全限定的域名 (FQDN) 应存在主机 A 记录。如果不存在，则您不能使用控制器池，并且您需要使用前端池的 IP 地址甚至单个服务器 IP 地址（如果已设置）。
+6.  <span data-ttu-id="88175-138">现在, 按照适用于您的外部 DNS 提供商的格式, 选择用于创建**新别名 (CNAME)** 的选项 (这可能是菜单选项或链接, 具体取决于 DNS 提供商的格式)。</span><span class="sxs-lookup"><span data-stu-id="88175-138">Now, in the appropriate format for your external DNS provider, choose the option for creating a **New Alias (CNAME)** (this may be a menu option or a link, depending on the format of the DNS provider).</span></span>
 
-5.  请记住，检查您的前端池的内部 DNS 记录是否存在主机 A（对于 IPv6 为 AAAA）记录，您的前端池（例如 lyncwebpool01.contoso.local）的内部 Web 服务 FQDN 应存在主机 A（或 AAAA）记录。如果不存在，您需要记下前端服务器或 Standard Edition Server的 IP 地址。
+7.  <span data-ttu-id="88175-139">应该有某种形式的**别名**文本框与内部 DNS, 应输入 lyncdiscover 作为外部自动发现服务 URL 的主机名。</span><span class="sxs-lookup"><span data-stu-id="88175-139">There should be some form of **Alias name** text box as with the internal DNS, you should enter lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
 
-6.  在知道存在的具体主机 A（或 AAAA）记录后，请在 DNS 服务器的控制台树中，展开您的 SIP 域（例如 contoso.com）的“正向查找区域”。
+8.  <span data-ttu-id="88175-140">对于 "目标主机" 文本框, 还应该有某种形式的**完全限定的域名 (FQDN)** , 下面是你将在其中输入控制器池的外部 WEB 服务 FQDN 的位置 (例如, lyncwebexdir01.contoso.com), 然后单击 "确定" 或采取任何措施外部 DNS 中的操作以接受此条目的创建。</span><span class="sxs-lookup"><span data-stu-id="88175-140">There should also be some form of a **Fully qualified domain name (FQDN) for target host** text box, here’s where you’ll enter the external Web Services FQDN for your Director pool (for example, lyncwebexdir01.contoso.com) and then click OK or take whatever action in the external DNS to accept the creation of this entry.</span></span> <span data-ttu-id="88175-141">如上面的步骤4中所述, 如果你没有控制器池, 你需要根据需要使用前端池 FQDN 或已设置的单服务器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="88175-141">As noted in Step 4, above, if you don’t have a Director pool, you’ll need to use the Front End pool FQDN or the single-server FQDN you have set up, as appropriate.</span></span>
 
-7.  右键单击 SIP 域名，然后单击“新建主机(A 或 AAAA)”。
+9.  <span data-ttu-id="88175-142">你将需要在 Lync 2013 环境支持的每个 SIP 域的正向查找区域中创建新的自动发现 CNAME 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-142">You’ll need to make a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that’s supported in your Lync 2013 environment.</span></span>
 
-8.  在“名称”中，键入 lyncdiscoverinternal 作为内部自动发现服务 URL 的主机名称。
+</div>
 
-9.  在“IP 地址”中，键入控制器的内部 Web 服务 IP 地址（或者，如果您使用的是负载平衡器，则键入控制器负载平衡器的虚拟 IP (VIP)）。如上面的步骤 4 所述，如果您未使用控制器，您可能需要输入前端服务器或 Standard Edition Server的 IP 地址，或者，如果您使用的是负载平衡器，则键入前端池负载平衡器的 VIP。
+<div>
 
-10. 单击“添加主机”，然后单击“确定”。
+## <a name="creating-an-internal-dns-a-record"></a><span data-ttu-id="88175-143">创建内部 DNS A 记录</span><span class="sxs-lookup"><span data-stu-id="88175-143">Creating an internal DNS A record</span></span>
 
-11. 要创建另一条 A 或 AAAA 记录，请重复步骤 8 至 10，请记住，您需要在 Lync Server 2013 环境中支持的每个 SIP 域的正向查找区域中创建一条新的自动发现 A 或 AAAA 记录。
+1.  <span data-ttu-id="88175-144">要创建内部 DNS 记录, 请使用域管理员组的成员或 DnsAdmins 组的成员登录到您的网络中的 DNS 服务器。</span><span class="sxs-lookup"><span data-stu-id="88175-144">To make an internal DNS record, log on to a DNS server in your network with a domain account that’s a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-12. 创建完 A 记录（对于 IPv6 为 AAAA）后，请单击“完成”。
+2.  <span data-ttu-id="88175-145">打开 "DNS 管理" 管理单元: 单击 "**开始**", 单击 "**管理工具**", 然后单击 " **DNS**"。</span><span class="sxs-lookup"><span data-stu-id="88175-145">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-## 创建外部 DNS A 记录
+3.  <span data-ttu-id="88175-146">对于内部 DNS 记录, 请在 DNS 服务器的控制台树中, 展开您的 Active Directory 域 (如 contoso) 的**正向查找区域**, 其中安装了 Lync Server 2013 控制器池和前端池。</span><span class="sxs-lookup"><span data-stu-id="88175-146">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local) where your Lync Server 2013 Director pool and Front End pool are installed.</span></span>
 
-1.  要创建外部 DNS 记录，请连接到您的公共 DNS 提供商，然后按照我们的步骤执行操作。我们无法描述您在 DNS 提供商的环境中的确切位置，因为管理外部 DNS 的方式可能不同，然而我们希望这些步骤有所帮助。
+4.  <span data-ttu-id="88175-147">检查并查看是否存在针对内部 DNS 记录的 Director 池的主机 A (AAAA for IPv6) 记录。对于内部 Web 服务, 对于你的控制器池 (例如, lyncwebdir01), 内部 Web 服务完全限定的域名 (FQDN) 应存在主机 A 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-147">Check and see if a host A (AAAA for IPv6) record exists for your Director pool for an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span> <span data-ttu-id="88175-148">如果不在这里, 您可能没有使用控制器池, 并且您需要使用您的前端池的 IP 地址, 甚至是单个服务器 IP 地址 (如果您设置了)。</span><span class="sxs-lookup"><span data-stu-id="88175-148">If it’s not here, you may not be using a Director pool, and you’ll need to use the IP address for your Front End pool or even a single server IP address, if that’s your setup.</span></span>
 
-2.  您需要作为可在该环境中创建 DNS 记录的帐户登录。
+5.  <span data-ttu-id="88175-149">请注意, 请检查并查看内部 DNS 记录的主机 A (AAAA for IPv6) 记录是否存在, 对于内部 DNS 记录的内部 Web 服务 FQDN, 应存在主机 A (AAAA) 记录 (例如, lyncwebpool01)。</span><span class="sxs-lookup"><span data-stu-id="88175-149">Keeping that in mind, check and see if a host A (AAAA for IPv6) record exists for your Front End pool for an internal DNS record, a host A (or AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span> <span data-ttu-id="88175-150">如果不是, 你需要记下前端服务器或标准版服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="88175-150">If it doesn’t, you’ll need to make note of the IP address for the Front End Server or Standard Edition server.</span></span>
 
-3.  对于外部 DNS 记录，请在 DNS 服务器的控制台树中，展开 SIP 域（例如，contoso.com）所对应的“正向查找区域”。对于外部 DNS 记录，请在 DNS 服务器的控制台树中，展开 SIP 域（例如，contoso.com）所对应的“正向查找区域”。
+6.  <span data-ttu-id="88175-151">知道存在哪个主机 A (或 AAAA) 记录后, 在 DNS 服务器的控制台树中, 展开您的 SIP 域的 "**正向查找区域**" (例如, contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="88175-151">Once you know what host A (or AAAA) records exist, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-4.  您应该已经看到您的控制器池（如 lyncwebexdir01.contoso.com）的主机 A（对于 IPv6 为 AAAA）记录，因此请确认该记录存在以及具体的 IP 地址。如果不存在，则您可能未使用控制器池。如果是这样或者您正在为单个服务器、前端服务器或 Standard Edition 服务器执行此操作，您需要使用前端池的 IP 地址。请记住，您的服务器也可能位于负载平衡器后面或者正在使用反向代理。也请记下 IP 地址以用于下面的步骤。
+7.  <span data-ttu-id="88175-152">右键单击 SIP 域名称, 然后单击 "**新建主机 (A 或 AAAA)**"。</span><span class="sxs-lookup"><span data-stu-id="88175-152">Right-click the SIP domain name, and then click **New Host (A or AAAA)**.</span></span>
 
-5.  您也需要确认您的前端池（如 lyncwebextpool01.contoso.com）的外部 Web 服务完全限定的域名 (FQDN) 或者单个服务器安装（如果没有前端池）的 IP 地址存在主机 A（对于 IPv6 为 AAAA）记录。如上一步骤所述，如果您没有控制器池，您在下面需要此内容。
+8.  <span data-ttu-id="88175-153">在 "**名称**" 中, 键入 lyncdiscoverinternal 作为内部自动发现服务 URL 的主机名。</span><span class="sxs-lookup"><span data-stu-id="88175-153">In **Name**, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
 
-6.  现在，针对外部 DNS 提供商采取合适的格式，选择用于创建**新主机 A 或 AAAA** 的选项（这可能是一个菜单选项或一个链接，具体取决于 DNS 提供商的格式）。
+9.  <span data-ttu-id="88175-154">在 " **IP 地址**" 中, 键入 director 的内部 WEB 服务 IP 地址 (或者, 如果使用负载平衡器, 请键入控制器负载平衡器的虚拟 IP (VIP))。</span><span class="sxs-lookup"><span data-stu-id="88175-154">In **IP Address**, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).</span></span> <span data-ttu-id="88175-155">如上面的步骤4所述, 如果未使用 Director, 可能需要输入前端服务器或标准版服务器的 IP 地址, 或者, 如果使用负载平衡器, 请键入前端池负载平衡器的 VIP。</span><span class="sxs-lookup"><span data-stu-id="88175-155">As noted in Step 4 above, if you aren’t using a Director, you may need to enter the IP address of the Front End Server or Standard Edition server or, if you use a load balancer, type the VIP of the Front End pool load balancer.</span></span>
 
-7.  应有一个位置输入**名称**，请键入 lyncdiscover 作为外部自动发现服务 URL 的主机名。
+10. <span data-ttu-id="88175-156">单击 "**添加主机**", 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="88175-156">Click **Add Host**, and then click **OK**.</span></span>
 
-8.  也应有一个“IP 地址”文本框，在这里，您将输入您的控制器池（例如 lyncwebexdir01.contoso.com）的 IP 或者可能是池的负载平衡器的 IP（或效果相同的反向代理 IP），然后单击“确定”或者在外部 DNS 中执行某项操作以接受创建此条目。如上面的步骤 4 所述，如果您没有控制器池，您需要根据需要使用前端池 IP 地址或设置的单个服务器 IP 地址。
+11. <span data-ttu-id="88175-157">若要创建其他 A 或 AAAA 记录, 请重复步骤8到步骤 10, 请记住, 你需要在 Lync Server 2013 环境支持的每个 SIP 域的正向查找区域中创建新的自动发现 A 或 AAAA 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-157">To create an additional A or AAAA record, repeat steps 8 through 10, keeping in mind that you’ll need to create new Autodiscover A or AAAA records in the forward lookup zone of each SIP domain that’s supported in your Lync Server 2013 environment.</span></span>
 
-9.  您需要在 Lync 2013 环境中支持的每个 SIP 域的正向查找区域中创建一条新的自动发现 A 或 AAAA 记录。
+12. <span data-ttu-id="88175-158">完成创建 (适用于 IPv6、AAAA) 记录后, 单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="88175-158">When you are finished creating A (for IPv6, AAAA) records, click **Done**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="creating-an-external-dns-a-record"></a><span data-ttu-id="88175-159">创建外部 DNS A 记录</span><span class="sxs-lookup"><span data-stu-id="88175-159">Creating an external DNS A record</span></span>
+
+1.  <span data-ttu-id="88175-160">若要创建外部 DNS 记录, 请连接到您的公共 DNS 提供商, 然后按照我们的步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="88175-160">To create an external DNS record, connect to your public DNS provider, and then follow our steps.</span></span> <span data-ttu-id="88175-161">我们无法确切描述你在 DNS 提供商环境中所处的位置, 因为可能有不同的管理外部 DNS 的方式, 但我们希望这些步骤有所帮助。</span><span class="sxs-lookup"><span data-stu-id="88175-161">We can’t describe exactly where you’re going in your DNS provider’s environment as there may be different ways of managing your external DNS, but we hope these steps help.</span></span>
+
+2.  <span data-ttu-id="88175-162">您需要以可在该环境中创建 DNS 记录的帐户的形式登录。</span><span class="sxs-lookup"><span data-stu-id="88175-162">You’ll need to be logged in as an account that can create DNS records in that environment.</span></span>
+
+3.  <span data-ttu-id="88175-163">对于外部 DNS 记录, 请在 DNS 服务器的控制台树中, 展开您的 SIP 域的 "**正向查找区域**" (例如, contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="88175-163">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span> <span data-ttu-id="88175-164">对于外部 DNS 记录, 请在 DNS 服务器的控制台树中, 展开您的 SIP 域的 "**正向查找区域**" (例如, contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="88175-164">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+
+4.  <span data-ttu-id="88175-165">你应该已为你的控制器池 (如 lyncwebexdir01.contoso.com) 看到了一个主机 A (AAAA for IPv6) 记录, 因此请确认该记录是否存在以及 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="88175-165">You should already see a host A (AAAA for IPv6) record for your Director pool (such as lyncwebexdir01.contoso.com), so confirm that it’s there and what the IP address is.</span></span> <span data-ttu-id="88175-166">如果不是, 则您可能没有使用控制器池。</span><span class="sxs-lookup"><span data-stu-id="88175-166">If it’s not, then you may not be using a Director pool.</span></span> <span data-ttu-id="88175-167">如果是这种情况, 你将需要使用前端池的 IP 地址, 或者, 如果你要为前端服务器或标准版服务器执行此操作, 请使用您的前端服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="88175-167">If that’s the case, you’ll need to use the IP address of your Front End Pool, or if you’re doing this for a single server, for your Front-End server or Standard Edition server.</span></span> <span data-ttu-id="88175-168">请记住, 你的服务器还可能位于负载平衡器后面, 或者使用反向代理。</span><span class="sxs-lookup"><span data-stu-id="88175-168">Keep in mind that your servers may also be behind a load-balancer, or using a reverse proxy.</span></span> <span data-ttu-id="88175-169">请记下您的 IP 地址, 并按照以下步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="88175-169">Make note of the IP addresses as well for following the steps below.</span></span>
+
+5.  <span data-ttu-id="88175-170">你还需要确认针对你的外部 Web 服务的主机 A (AAAA for IPv6) 记录是否存在于你的前端池 (如 lyncwebextpool01.contoso.com) 的完全限定的域名 (FQDN) 中, 或者你的单服务器 Lync 安装的 IP 地址 (如果你没有前端池。</span><span class="sxs-lookup"><span data-stu-id="88175-170">You’ll also need to confirm that a host A (AAAA for IPv6) record exists for your external Web Services Fully Qualified Domain Name (FQDN) for your Front End pool (such as lyncwebextpool01.contoso.com), or an IP address for your single-server Lync installation if you have no Front End pool.</span></span> <span data-ttu-id="88175-171">如前面的步骤所述, 如果没有控制器池, 则需要以下内容。</span><span class="sxs-lookup"><span data-stu-id="88175-171">As noted in the previous step, you’ll need this below if you don’t have a Director pool.</span></span>
+
+6.  <span data-ttu-id="88175-172">现在, 按照适用于您的外部 DNS 提供商的格式, 选择用于创建**新主机 a 或 AAAA**的选项 (这可能是菜单选项或链接, 具体取决于 DNS 提供商的格式)。</span><span class="sxs-lookup"><span data-stu-id="88175-172">Now, in the appropriate format for your external DNS provider, choose the option for creating a **New Host A or AAAA** (this may be a menu option or a link, depending on the format of the DNS provider).</span></span>
+
+7.  <span data-ttu-id="88175-173">应存在一个用于输入**名称**的位置, 键入 lyncdiscover 作为外部自动发现服务 URL 的主机名。</span><span class="sxs-lookup"><span data-stu-id="88175-173">There should be a place to enter a **Name**, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+
+8.  <span data-ttu-id="88175-174">还有一个**IP 地址**文本框, 你将在此处为你的控制器池输入 ip (例如, lyncwebexdir01.contoso.com) 或你的池负载平衡器的 ip (或导致相同的反向代理 ip), 然后单击"确定" 或执行外部 DNS 中的任何操作以接受此条目的创建。</span><span class="sxs-lookup"><span data-stu-id="88175-174">There should also be an **IP Address** text box, here’s where you’ll enter the IP for your for your Director pool (for example, lyncwebexdir01.contoso.com) or possibly the IP of your pool’s load balancer (or a reverse proxy IP that leads to the same) and then click OK or take whatever action in the external DNS to accept the creation of this entry.</span></span> <span data-ttu-id="88175-175">如上面的步骤4中所述, 如果你没有控制器池, 则需要根据需要使用前端池 IP 地址或已设置的单服务器 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="88175-175">As noted in Step 4, above, if you don’t have a Director pool, you’ll need to use the Front End pool IP address or the single-server IP address you have set up, as appropriate.</span></span>
+
+9.  <span data-ttu-id="88175-176">你需要在 Lync 2013 环境支持的每个 SIP 域的正向查找区域中创建新的自动发现 A 或 AAAA 记录。</span><span class="sxs-lookup"><span data-stu-id="88175-176">You’ll need to make a new Autodiscover A or AAAA record in the forward lookup zone of each SIP domain that’s supported in your Lync 2013 environment.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

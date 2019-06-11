@@ -1,39 +1,73 @@
-﻿---
-title: Lync Server 2013：部署 Lync Server
-TOCTitle: 部署 Lync Server 2013
-ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412892(v=OCS.15)
-ms:contentKeyID: 49314021
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：部署 Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013
+ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)
+ms:contentKeyID: 48185197
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce62d2cfa3d98bc982ea2ed2fa19ade6205a62ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830540"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 部署 Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-18_
+# <a name="deploying-lync-server-2013"></a><span data-ttu-id="60cc8-102">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60cc8-102">Deploying Lync Server 2013</span></span>
 
-Lync Server 2013 的部署过程是由决定要安装的 Lync Server 拓扑和组件确定的，包括是否要部署 前端池或 Standard Edition Server。本节中的主题可帮助您确定要部署的环境，并指导您完成部署过程。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [Lync Server 2013 部署概述](lync-server-2013-deployment-overview.md)
+<div id="mainBody">
 
-  - [Lync Server 2013 的系统要求](lync-server-2013-system-requirements.md)
+<span> </span>
 
-  - [为 Lync Server 2013 准备基础结构和系统](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+<span data-ttu-id="60cc8-103">_**主题上次修改时间:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="60cc8-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-  - [在 Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md)
+<span data-ttu-id="60cc8-104">Lync Server 2013 的部署过程由你决定要安装的 Lync Server 拓扑和组件决定, 包括你是要部署前端池还是标准版服务器。</span><span class="sxs-lookup"><span data-stu-id="60cc8-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="60cc8-105">本节中的主题帮助你确定要部署的环境, 并指导你完成部署过程。</span><span class="sxs-lookup"><span data-stu-id="60cc8-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
 
-  - [在 Lync Server 2013 中完成和实施拓扑设计](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+<div>
 
-  - [为 Lync Server 2013 设置前端服务器和前端池](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+## <a name="in-this-section"></a><span data-ttu-id="60cc8-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="60cc8-106">In This Section</span></span>
 
-  - [将 Lync Server 2013 Standard Edition 部署到现有 Lync Server 2013 Enterprise 中](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="60cc8-107">Lync Server 2013 部署概述</span><span class="sxs-lookup"><span data-stu-id="60cc8-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
 
-  - [在 Lync Server 2013 中添加服务器角色](lync-server-2013-adding-server-roles.md)
+  - [<span data-ttu-id="60cc8-108">Lync Server 2013 的系统要求</span><span class="sxs-lookup"><span data-stu-id="60cc8-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
 
-  - [在 Lync Server 2013 中设置 Kerberos 身份验证](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [<span data-ttu-id="60cc8-109">为 Lync Server 2013 准备基础结构和系统</span><span class="sxs-lookup"><span data-stu-id="60cc8-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+
+  - [<span data-ttu-id="60cc8-110">在 Lync Server 2013 中定义和配置拓扑</span><span class="sxs-lookup"><span data-stu-id="60cc8-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
+
+  - [<span data-ttu-id="60cc8-111">在 Lync Server 2013 中完成和实施拓扑设计</span><span class="sxs-lookup"><span data-stu-id="60cc8-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+
+  - [<span data-ttu-id="60cc8-112">为 Lync Server 2013 设置前端服务器和前端池</span><span class="sxs-lookup"><span data-stu-id="60cc8-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+
+  - [<span data-ttu-id="60cc8-113">将 Lync Server 2013 Standard Edition 部署到现有 Lync Server 2013 Enterprise 中</span><span class="sxs-lookup"><span data-stu-id="60cc8-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+
+  - [<span data-ttu-id="60cc8-114">在 Lync Server 2013 中添加服务器角色</span><span class="sxs-lookup"><span data-stu-id="60cc8-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
+
+  - [<span data-ttu-id="60cc8-115">在 Lync Server 2013 中设置 Kerberos 身份验证</span><span class="sxs-lookup"><span data-stu-id="60cc8-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

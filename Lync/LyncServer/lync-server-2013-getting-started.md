@@ -1,29 +1,65 @@
-﻿---
-title: Lync Server 2013：入门
-TOCTitle: 入门
-ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398676(v=OCS.15)
-ms:contentKeyID: 49313462
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：入门
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Getting started
+ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398676(v=OCS.15)
+ms:contentKeyID: 48184710
+ms.date: 04/03/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4844e4b11e78063af649832ccb2e2c41aa5aa3a0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830125"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 入门
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-04-03_
+# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="eb397-102">Lync Server 2013 入门</span><span class="sxs-lookup"><span data-stu-id="eb397-102">Getting started with Lync Server 2013</span></span>
 
-Lync Server 2013 提供了许多可增强组织中的协作和通信的功能。与以前版本中提供的功能相比，其中许多功能都是新增的。本节中的主题将简要概述新功能。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [Lync Server 2013 简介](lync-server-2013-introduction.md)
+<div id="mainBody">
 
-  - [Lync Server 2013 中的新功能](lync-server-2013-new-features.md)
+<span> </span>
 
-  - [Lync Server 2013 中新的客户端功能](lync-server-2013-new-client-features.md)
+<span data-ttu-id="eb397-103">_**主题上次修改时间:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="eb397-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-  - [Lync Server 2013 发行说明](lync-server-2013-release-notes.md)
+<span data-ttu-id="eb397-104">Lync Server 2013 提供了许多功能来增强组织中的协作和通信。</span><span class="sxs-lookup"><span data-stu-id="eb397-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="eb397-105">与以前版本中提供的功能相比, 这些功能中的许多功能都是新的。</span><span class="sxs-lookup"><span data-stu-id="eb397-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="eb397-106">本部分中的主题提供了新功能的简要概述。</span><span class="sxs-lookup"><span data-stu-id="eb397-106">The topics in this section give a brief overview of the new capabilities.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="eb397-107">本节内容</span><span class="sxs-lookup"><span data-stu-id="eb397-107">In This Section</span></span>
+
+  - [<span data-ttu-id="eb397-108">Lync Server 2013 简介</span><span class="sxs-lookup"><span data-stu-id="eb397-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
+
+  - [<span data-ttu-id="eb397-109">Lync Server 2013 中的新功能</span><span class="sxs-lookup"><span data-stu-id="eb397-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
+
+  - [<span data-ttu-id="eb397-110">Lync Server 2013 中新的客户端功能</span><span class="sxs-lookup"><span data-stu-id="eb397-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
+
+  - [<span data-ttu-id="eb397-111">Configure the client experience with Skype for Business</span><span class="sxs-lookup"><span data-stu-id="eb397-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+
+  - [<span data-ttu-id="eb397-112">Lync Server 2013 发行说明</span><span class="sxs-lookup"><span data-stu-id="eb397-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

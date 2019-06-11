@@ -1,23 +1,45 @@
-﻿---
-title: DNS 摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟
-TOCTitle: DNS 摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟
-ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ618368(v=OCS.15)
-ms:contentKeyID: 49312015
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: DNS 摘要-可扩展消息传递和状态协议 (XMPP) 联合身份验证
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618368(v=OCS.15)
+ms:contentKeyID: 49105655
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ff58998ef9114baeb7dc7c6462ca0ebaae114f10
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830347"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# DNS 摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="79dfd-102">Lync Server 2013 中的 DNS 摘要-可扩展消息和状态协议 (XMPP) 联合</span><span class="sxs-lookup"><span data-stu-id="79dfd-102">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
-要为您的部署配置可扩展消息传递和状态协议 (XMPP)，您需要在外部 DNS 服务器中创建两条域名系统 (DNS) 记录，DNS 服务器随后将这些记录解析为您的边缘服务器或边缘池的访问边缘服务。
+</div>
 
-## 可扩展消息传递和状态协议的 DNS 摘要
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="79dfd-103">_**主题上次修改时间:** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="79dfd-103">_**Topic Last Modified:** 2014-04-08_</span></span>
+
+<span data-ttu-id="79dfd-104">若要为你的部署配置可扩展消息和状态协议 (XMPP), 请在外部 DNS 服务器中创建两个域名系统 (DNS) 记录, 该服务器会将记录解析为 Edge 服务器或边缘池的访问边缘服务。</span><span class="sxs-lookup"><span data-stu-id="79dfd-104">To configure extensible messaging and presence protocol (XMPP) for your deployment, you create two Domain Name System (DNS) records in an external DNS server that will resolve the records to the Access Edge service of your Edge Server or Edge pool.</span></span>
+
+<div>
+
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="79dfd-105">可扩展消息和状态协议的 DNS 摘要</span><span class="sxs-lookup"><span data-stu-id="79dfd-105">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -29,36 +51,51 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/类型/端口</th>
-<th>FQDN</th>
-<th>IP 地址/FQDN 主机记录</th>
-<th>映射位置/注释</th>
+<th><span data-ttu-id="79dfd-106">位置/类型/端口</span><span class="sxs-lookup"><span data-stu-id="79dfd-106">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="79dfd-107">FQDN</span><span class="sxs-lookup"><span data-stu-id="79dfd-107">FQDN</span></span></th>
+<th><span data-ttu-id="79dfd-108">IP 地址/FQDN 主机记录</span><span class="sxs-lookup"><span data-stu-id="79dfd-108">IP address/FQDN host record</span></span></th>
+<th><span data-ttu-id="79dfd-109">映射到/批注</span><span class="sxs-lookup"><span data-stu-id="79dfd-109">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
-<td><p>xmpp.contoso.com</p></td>
-<td><p>访问边缘服务或边缘池上的 XMPP 代理外部接口。根据需要对所有满足下列条件的内部 SIP 域重复此过程：其中包含启用了 Lync 的用户，并且通过全局策略、用户所在站点的站点策略或应用于启用了 Lync 的用户的用户策略来配置外部访问策略，允许与 XMPP 联系人进行联系。此外，还必须在 XMPP 联盟伙伴策略中配置允许的 XMPP 域。有关其他详细信息，请参阅<strong>另请参见</strong>中的主题</p></td>
+<td><p><span data-ttu-id="79dfd-110">外部 DNS/SRV/5269</span><span class="sxs-lookup"><span data-stu-id="79dfd-110">External DNS/SRV/5269</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-111">_xmpp-server._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="79dfd-111">_xmpp-server._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-112">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="79dfd-112">xmpp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-113">"访问边缘服务" 或 "边缘池" 上的 XMPP 代理外部接口。对于启用了 Lync 的用户, 通过全局策略、用户所在的网站策略或应用了用户策略的用户策略, 可对所有内部 SIP 域进行必要的操作, 并允许使用启用了 Lync 的用户使用 XMPP 联系人。启用 Lync 的用户。</span><span class="sxs-lookup"><span data-stu-id="79dfd-113">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="79dfd-114">还必须在 XMPP 联盟合作伙伴策略中配置允许的 XMPP 域。</span><span class="sxs-lookup"><span data-stu-id="79dfd-114">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="79dfd-115">有关其他详细信息, 请参阅<strong>另请参阅</strong>中的主题</span><span class="sxs-lookup"><span data-stu-id="79dfd-115">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com（例如）</p></td>
-<td><p>您的承载 XMPP 代理的边缘服务器或边缘池上访问边缘服务的 IP 地址</p></td>
-<td><p>指向承载 XMPP 代理服务的访问边缘服务或边缘池。通常情况下，您创建的 SRV 记录将指向此主机（A 或 AAAA）记录</p></td>
+<td><p><span data-ttu-id="79dfd-116">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="79dfd-116">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-117">xmpp.contoso.com (例如)</span><span class="sxs-lookup"><span data-stu-id="79dfd-117">xmpp.contoso.com (for example)</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-118">边缘服务器上的访问边缘服务的 IP 地址或托管 XMPP 代理的边缘池的 IP 地址</span><span class="sxs-lookup"><span data-stu-id="79dfd-118">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
+<td><p><span data-ttu-id="79dfd-119">指向托管 XMPP 代理服务的访问边缘服务或边缘池。</span><span class="sxs-lookup"><span data-stu-id="79dfd-119">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="79dfd-120">通常, 你创建的 SRV 记录将指向此主机 (A 或 AAAA) 记录</span><span class="sxs-lookup"><span data-stu-id="79dfd-120">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[在 Lync Server 2013 中设置 XMPP 联盟](lync-server-2013-setting-up-xmpp-federation.md)  
+## <a name="see-also"></a><span data-ttu-id="79dfd-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="79dfd-121">See Also</span></span>
 
-#### 概念
 
-[确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)
+[<span data-ttu-id="79dfd-122">在 Lync Server 2013 中设置 XMPP 联盟</span><span class="sxs-lookup"><span data-stu-id="79dfd-122">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
+
+
+[<span data-ttu-id="79dfd-123">确定 Lync Server 2013 的 DNS 要求</span><span class="sxs-lookup"><span data-stu-id="79dfd-123">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

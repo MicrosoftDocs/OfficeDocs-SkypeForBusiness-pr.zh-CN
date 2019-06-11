@@ -1,21 +1,51 @@
-﻿---
-title: Lync Server 2013：部署概述
-TOCTitle: 部署概述
-ms:assetid: da67555e-f410-4c37-9996-d511f37da8d1
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205305(v=OCS.15)
-ms:contentKeyID: 49314432
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：部署概述
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment overview
+ms:assetid: da67555e-f410-4c37-9996-d511f37da8d1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205305(v=OCS.15)
+ms:contentKeyID: 48185555
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f71a61e2bd374f1dfe2863aead5bbadc23c8afe8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830485"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 部署概述
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-03-12_
+# <a name="deployment-overview-for-lync-server-2013"></a><span data-ttu-id="6410f-102">Lync Server 2013 部署概述</span><span class="sxs-lookup"><span data-stu-id="6410f-102">Deployment overview for Lync Server 2013</span></span>
 
-Lync Server 2013  企业版 和 Lync Server 2013  标准版 的主要差异是 标准版 不支持 企业版 的高可用性功能。为实现高可用性，需要将多个 前端服务器部署到一个池中，然后可以进行镜像运行 SQL Server 的服务器。使用 企业版，您可选择并置或定义独立 中介服务器。 监控服务器和 存档服务器可使用独立的运行 SQL Server 的服务器。或者，可以将数据库服务器上运行的 SQL Server 实例用于 前端服务器和池。
+</div>
 
-运行 Lync Server 2013标准版 的服务器旨在供小型组织和远程位置使用，组织的主要部署在地理位置上删除了这些小型组织和远程位置。配对在一起以便在发生灾难时进行故障转移的两台 Standard Edition Server 服务器最多可支持 5,000 个用户。您无法像操作 企业版 中的前端服务器一样将 Standard Edition 服务器放在池中。此外，标准版 使用的 SQL Server 数据库是运行 SQL Server Express 的并置服务器，用于处理 Standard Edition Server 工作负荷。这并不是说所有角色都必须驻留在 Standard Edition Server上。您可具有独立中介服务器和边缘服务器。由于 Lync Server 2013 的原因，中央管理存储的 SQL Server 数据库必须驻留在与运行 SQL Server 的服务器并置的 Standard Edition Server 上。监控服务器和存档服务器使用含有 SQL Server 数据库的独立服务器。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6410f-103">_**主题上次修改时间:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="6410f-103">_**Topic Last Modified:** 2013-03-12_</span></span>
+
+<span data-ttu-id="6410f-104">Lync Server 2013 企业版和 Lync Server 2013 标准版之间的主要区别是标准版不支持企业版中包含的高可用性功能。</span><span class="sxs-lookup"><span data-stu-id="6410f-104">The main difference between Lync Server 2013 Enterprise Edition and Lync Server 2013 Standard Edition is that Standard Edition does not support the high availability features included with Enterprise Edition.</span></span> <span data-ttu-id="6410f-105">为了获得高可用性, 你需要将多个前端服务器部署到一个池, 然后你可以镜像运行 SQL Server 的服务器。</span><span class="sxs-lookup"><span data-stu-id="6410f-105">For high availability, you need to deploy multiple Front End Servers to a pool and then you can mirror the server running SQL Server.</span></span> <span data-ttu-id="6410f-106">使用企业版, 您可以选择 collocate 或定义独立的中介服务器。</span><span class="sxs-lookup"><span data-stu-id="6410f-106">With Enterprise Edition you can choose to collocate or define a stand-alone Mediation Server.</span></span> <span data-ttu-id="6410f-107">监视服务器和存档服务器可以使用运行 SQL Server 的独立服务器。</span><span class="sxs-lookup"><span data-stu-id="6410f-107">The Monitoring Server and Archiving Server can use a stand-alone server running SQL Server.</span></span> <span data-ttu-id="6410f-108">或者, 他们可以在数据库服务器上为前端服务器和池运行 SQL Server 实例。</span><span class="sxs-lookup"><span data-stu-id="6410f-108">Or, they can have instances of SQL Server running on the database server for the Front End Servers and pools.</span></span>
+
+<span data-ttu-id="6410f-109">运行 Lync Server 2013 标准版的服务器适用于从组织的主部署中删除的较小组织和远程位置。</span><span class="sxs-lookup"><span data-stu-id="6410f-109">Servers running Lync Server 2013 Standard Edition are intended for smaller organizations and remote locations, which are geographically removed from the organization’s main deployment.</span></span> <span data-ttu-id="6410f-110">在灾难情况下, 将两个标准版服务器服务器结合在一起以进行故障转移, 从而支持最多5000用户。</span><span class="sxs-lookup"><span data-stu-id="6410f-110">Two Standard Edition server servers paired together for failover in case of disaster can support up to 5,000 users.</span></span> <span data-ttu-id="6410f-111">不能像企业版中的前端服务器那样对标准版服务器进行池化。</span><span class="sxs-lookup"><span data-stu-id="6410f-111">You cannot pool Standard Edition servers like you can Front End Servers in Enterprise Edition.</span></span> <span data-ttu-id="6410f-112">此外, 标准版使用的 SQL Server 数据库是运行 SQL Server Express 的 collocated 服务器, 设计用于处理标准版服务器工作负荷。</span><span class="sxs-lookup"><span data-stu-id="6410f-112">Also, the SQL Server database that Standard Edition uses is a collocated server running SQL Server Express that is designed to handle Standard Edition server workloads.</span></span> <span data-ttu-id="6410f-113">这并不是说所有角色必须驻留在标准版服务器上。</span><span class="sxs-lookup"><span data-stu-id="6410f-113">This is not to say that all roles must reside on a Standard Edition server.</span></span> <span data-ttu-id="6410f-114">你可以有独立的中介服务器和边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="6410f-114">You can have stand-alone Mediation Servers and Edge Servers.</span></span> <span data-ttu-id="6410f-115">用于中央管理存储的 SQL Server 数据库和适用于 Lync Server 2013 的用途必须驻留在标准版服务器 collocated 上, 并与运行 SQL Server 的服务器配合。</span><span class="sxs-lookup"><span data-stu-id="6410f-115">The SQL Server database for the Central Management store and for the purposes of Lync Server 2013 must reside on the Standard Edition server collocated with the server running SQL Server.</span></span> <span data-ttu-id="6410f-116">监视服务器和存档服务器将独立服务器与 SQL Server 数据库结合使用。</span><span class="sxs-lookup"><span data-stu-id="6410f-116">The Monitoring Server and Archiving Server use a stand-alone server with the SQL Server database.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

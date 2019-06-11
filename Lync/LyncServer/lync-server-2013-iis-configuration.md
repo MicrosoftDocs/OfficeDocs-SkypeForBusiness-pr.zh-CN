@@ -1,31 +1,57 @@
-﻿---
-title: Lync Server 2013：IIS 配置
-TOCTitle: IIS 配置
-ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412871(v=OCS.15)
-ms:contentKeyID: 49313984
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：IIS 配置
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IIS configuration
+ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
+ms:contentKeyID: 48185169
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830055"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 IIS 配置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="iis-configuration-in-lync-server-2013"></a><span data-ttu-id="8ee46-102">Lync Server 2013 中的 IIS 配置</span><span class="sxs-lookup"><span data-stu-id="8ee46-102">IIS configuration in Lync Server 2013</span></span>
 
-要成功完成此过程，应至少以本地管理员身份和域用户身份登录服务器。
+</div>
 
-为 Lync Server 2013、 标准版 或池中第一台 前端服务器配置和安装 前端服务器之前，必须为 Internet Information Services (IIS) 安装和配置服务器角色和 Web 服务。
+<div id="mainSection">
 
-> [!IMPORTANT]
-> 如果组织需要您将 IIS 和所有 Web 服务定位到非系统驱动器上，您可以在最初安装 Lync Server 2013 管理工具时在“安装”对话框中更改 Lync Server 2013 文件的安装位置路径。安装 IIS 前，需要安装管理工具。如果您将安装文件（包括 OCSCore.msi）安装到此路径，则其余的 Lync Server 2013 文件也将部署到该驱动器。有关详细信息，请参阅<a href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</a>。有关如何在安装 IIS 时重新定位 Windows Server Manager 部署的 INETPUB 的详细信息，请参阅 <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8ee46-103">_**主题上次修改时间:** 2014-02-17_</span><span class="sxs-lookup"><span data-stu-id="8ee46-103">_**Topic Last Modified:** 2014-02-17_</span></span>
+
+<span data-ttu-id="8ee46-104">若要成功完成此过程, 你应作为本地管理员和域用户至少登录到服务器。</span><span class="sxs-lookup"><span data-stu-id="8ee46-104">To successfully complete this procedure, you should be logged on to the server minimally as a local administrator and a domain user.</span></span>
+
+<span data-ttu-id="8ee46-105">为 Lync Server 2013、标准版或池中的第一个前端服务器配置和安装前端服务器之前, 请为 Internet 信息服务 (IIS) 安装和配置服务器角色和 Web 服务。</span><span class="sxs-lookup"><span data-stu-id="8ee46-105">Before you configure and install the Front End Server for Lync Server 2013, Standard Edition or the first Front End Server in a pool, you install and configure the server role and Web Services for Internet Information Services (IIS).</span></span>
+
+<div class=" ">
 
 
-下表指出了所需的 IIS 7.5 角色服务。
+> [!IMPORTANT]  
+> <span data-ttu-id="8ee46-106">如果你的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务, 你可以在初始安装 Lync Server 2013 时在 "设置" 对话框中更改 Lync Server 2013 文件的安装位置路径管理工具。</span><span class="sxs-lookup"><span data-stu-id="8ee46-106">If your organization requires that you locate IIS and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box when you initially install the Lync Server 2013 Administrative tools.</span></span> <span data-ttu-id="8ee46-107">在安装 IIS 之前安装 "管理工具"。</span><span class="sxs-lookup"><span data-stu-id="8ee46-107">You install the Administrative tools before installing IIS.</span></span> <span data-ttu-id="8ee46-108">如果将安装文件安装到此路径 (包括 OCSCore), 则其他 Lync Server 2013 文件也将同时部署到此驱动器。</span><span class="sxs-lookup"><span data-stu-id="8ee46-108">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well.</span></span> <span data-ttu-id="8ee46-109">有关 dtails, 请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</A>。</span><span class="sxs-lookup"><span data-stu-id="8ee46-109">For dtails, see <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 administrative tools</A>.</span></span> <span data-ttu-id="8ee46-110">有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。</span><span class="sxs-lookup"><span data-stu-id="8ee46-110">For details about how to relocate the INETPUB deployed by Windows Server Manager when installing IIS, see <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>.</span></span>
 
-### IIS 7.5 角色服务
+
+
+</div>
+
+<span data-ttu-id="8ee46-111">下表指示所需的 IIS 7.5 角色服务。</span><span class="sxs-lookup"><span data-stu-id="8ee46-111">The following table indicates the required IIS 7.5 role services.</span></span>
+
+### <a name="iis-75-role-services"></a><span data-ttu-id="8ee46-112">IIS 7.5 角色服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-112">IIS 7.5 Role Services</span></span>
 
 <table>
 <colgroup>
@@ -34,106 +60,118 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色标题</th>
-<th>角色服务</th>
+<th><span data-ttu-id="8ee46-113">角色标题</span><span class="sxs-lookup"><span data-stu-id="8ee46-113">Role Heading</span></span></th>
+<th><span data-ttu-id="8ee46-114">角色服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-114">Role Service</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>已安装的常见 HTTP 功能</p></td>
-<td><p>静态内容</p></td>
+<td><p><span data-ttu-id="8ee46-115">已安装常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-115">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-116">静态内容</span><span class="sxs-lookup"><span data-stu-id="8ee46-116">Static content</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>已安装的常见 HTTP 功能</p></td>
-<td><p>默认文档</p></td>
+<td><p><span data-ttu-id="8ee46-117">已安装常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-117">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-118">默认文档</span><span class="sxs-lookup"><span data-stu-id="8ee46-118">Default document</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>已安装的常见 HTTP 功能</p></td>
-<td><p>HTTP 错误</p></td>
+<td><p><span data-ttu-id="8ee46-119">已安装常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-119">Common HTTP features installed</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-120">HTTP 错误</span><span class="sxs-lookup"><span data-stu-id="8ee46-120">HTTP errors</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序开发</p></td>
-<td><p>ASP.NET</p>
-<p>Windows Server 2012 还需要 ASP.NET4.5</p></td>
+<td><p><span data-ttu-id="8ee46-121">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-121">Application development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-122">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="8ee46-122">ASP.NET</span></span></p>
+<p><span data-ttu-id="8ee46-123">Windows Server 2012 还需要 ASP。 NET 4。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-123">Windows Server 2012 also requires ASP.NET4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>.NET 扩展性</p></td>
+<td><p><span data-ttu-id="8ee46-124">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-124">Application development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-125">.NET 扩展性</span><span class="sxs-lookup"><span data-stu-id="8ee46-125">.NET extensibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序开发</p></td>
-<td><p>Internet Server API (ISAPI) 扩展</p></td>
+<td><p><span data-ttu-id="8ee46-126">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-126">Application development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-127">Internet 服务器 API (ISAPI) 扩展</span><span class="sxs-lookup"><span data-stu-id="8ee46-127">Internet Server API (ISAPI) extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>ISAPI 筛选器</p></td>
+<td><p><span data-ttu-id="8ee46-128">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-128">Application development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-129">ISAPI 筛选器</span><span class="sxs-lookup"><span data-stu-id="8ee46-129">ISAPI filters</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>运行状况和诊断</p></td>
-<td><p>HTTP 日志记录</p></td>
+<td><p><span data-ttu-id="8ee46-130">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-130">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-131">HTTP 日志记录</span><span class="sxs-lookup"><span data-stu-id="8ee46-131">HTTP logging</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>运行状况和诊断</p></td>
-<td><p>日志记录工具</p></td>
+<td><p><span data-ttu-id="8ee46-132">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-132">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-133">日志记录工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-133">Logging tools</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>运行状况和诊断</p></td>
-<td><p>跟踪</p></td>
+<td><p><span data-ttu-id="8ee46-134">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-134">Health and diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-135">跟踪</span><span class="sxs-lookup"><span data-stu-id="8ee46-135">Tracing</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>安全性</p></td>
-<td><p>匿名身份验证（默认情况下已安装并处于启用状态）</p></td>
+<td><p><span data-ttu-id="8ee46-136">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-136">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-137">匿名身份验证 (默认情况下已安装并启用)</span><span class="sxs-lookup"><span data-stu-id="8ee46-137">Anonymous authentication (installed and enabled by default)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>安全性</p></td>
-<td><p>Windows 身份验证</p></td>
+<td><p><span data-ttu-id="8ee46-138">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-138">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-139">Windows 身份验证</span><span class="sxs-lookup"><span data-stu-id="8ee46-139">Windows authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>安全性</p></td>
-<td><p>客户端证书映射身份验证</p></td>
+<td><p><span data-ttu-id="8ee46-140">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-140">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-141">客户端证书映射身份验证</span><span class="sxs-lookup"><span data-stu-id="8ee46-141">Client Certificate Mapping authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>安全性</p></td>
-<td><p>请求筛选</p></td>
+<td><p><span data-ttu-id="8ee46-142">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-142">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-143">请求筛选</span><span class="sxs-lookup"><span data-stu-id="8ee46-143">Request filtering</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>性能</p></td>
-<td><p>静态内容压缩</p>
-<p>动态内容压缩</p></td>
+<td><p><span data-ttu-id="8ee46-144">性能</span><span class="sxs-lookup"><span data-stu-id="8ee46-144">Performance</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-145">静态内容压缩</span><span class="sxs-lookup"><span data-stu-id="8ee46-145">Static content compression</span></span></p>
+<p><span data-ttu-id="8ee46-146">动态内容压缩</span><span class="sxs-lookup"><span data-stu-id="8ee46-146">Dynamic content compression</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>管理工具</p></td>
-<td><p>IIS 管理控制台</p></td>
+<td><p><span data-ttu-id="8ee46-147">管理工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-147">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-148">IIS 管理控制台</span><span class="sxs-lookup"><span data-stu-id="8ee46-148">IIS Management Console</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>管理工具</p></td>
-<td><p>IIS 管理脚本和工具</p></td>
+<td><p><span data-ttu-id="8ee46-149">管理工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-149">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-150">IIS 管理脚本和工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-150">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-在 Windows Server 2008 R2 SP1 x64 操作系统上，您可以使用 Windows PowerShell 2.0。必须先导入 ServerManager 模块，然后才能安装 IIS 7.5 角色和角色服务。
+<span data-ttu-id="8ee46-151">在 Windows Server 2008 R2 SP1 x64 操作系统上, 你可以使用 Windows PowerShell 2.0。</span><span class="sxs-lookup"><span data-stu-id="8ee46-151">On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows PowerShell 2.0.</span></span> <span data-ttu-id="8ee46-152">必须首先导入 ServerManager 模块, 然后安装 IIS 7.5 角色和角色服务。</span><span class="sxs-lookup"><span data-stu-id="8ee46-152">You must first import the ServerManager module, and then install the IIS 7.5 role and role services.</span></span>
 
+   ```
     Import-Module ServerManager
+   ```
 
-   &nbsp;
-
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+   ```
+
+<div class=" ">
+
 
 > [!NOTE]  
-> 默认情况下，匿名身份验证会随 IIS 服务器角色一起安装。安装 IIS 后，您可以管理匿名身份验证。有关详细信息，请参阅“启用匿名身份验证 (IIS 7)”，网址为 <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>。
+> <span data-ttu-id="8ee46-153">默认情况下, 使用 IIS 服务器角色安装匿名身份验证。</span><span class="sxs-lookup"><span data-stu-id="8ee46-153">Anonymous authentication is installed by default with the IIS server role.</span></span> <span data-ttu-id="8ee46-154">在安装 IIS 之后, 您可以管理匿名身份验证。</span><span class="sxs-lookup"><span data-stu-id="8ee46-154">You can manage anonymous authentication after the installation of IIS.</span></span> <span data-ttu-id="8ee46-155">有关详细信息, 请参阅 "启用匿名身份验证 (IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>)"。</span><span class="sxs-lookup"><span data-stu-id="8ee46-155">For details, see “Enable Anonymous Authentication (IIS 7)” at <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>.</span></span>
 
 
 
-下表指明 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服务。
+</div>
+
+<span data-ttu-id="8ee46-156">下表指示 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服务。</span><span class="sxs-lookup"><span data-stu-id="8ee46-156">The following table indicates the required IIS 8.0 and IIS 8.5 role services for Windows Server 2012 and Windows Server 2012 R2.</span></span>
+
+<div class=" ">
+
 
 > [!NOTE]  
-> 对于 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature cmdlet 已替换为 Install-WindowsFeature cmdlet。有关详细信息，请参阅 <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>。
+> <span data-ttu-id="8ee46-157">对于 Windows Server 2012 和 Windows Server 2012 R2, add-windowsfeature cmdlet 已替换为 Install cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8ee46-157">For Windows Server 2012 and Windows Server 2012 R2, the Add-WindowsFeature cmdlet has been replaced by the Install-WindowsFeature cmdlet.</span></span> <span data-ttu-id="8ee46-158">有关详细信息, 请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">安装-add-windowsfeature</A>。</span><span class="sxs-lookup"><span data-stu-id="8ee46-158">For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.</span></span>
 
 
 
-### IIS 8.0 和 IIS 8.5 角色服务
+</div>
+
+### <a name="iis-80-and-iis-85-role-services"></a><span data-ttu-id="8ee46-159">IIS 8.0 和 IIS 8.5 角色服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-159">IIS 8.0 and IIS 8.5 Role Services</span></span>
 
 <table>
 <colgroup>
@@ -142,182 +180,204 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色标题</th>
-<th>角色服务</th>
+<th><span data-ttu-id="8ee46-160">角色标题</span><span class="sxs-lookup"><span data-stu-id="8ee46-160">Role Heading</span></span></th>
+<th><span data-ttu-id="8ee46-161">角色服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-161">Role Service</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Web 服务器 (IIS)</p></td>
-<td><p>Web 服务器</p></td>
+<td><p><span data-ttu-id="8ee46-162">Web 服务器 (IIS)</span><span class="sxs-lookup"><span data-stu-id="8ee46-162">Web Server (IIS)</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-163">Web 服务器</span><span class="sxs-lookup"><span data-stu-id="8ee46-163">Web Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>常见的 HTTP 功能</p></td>
-<td><p>默认文档</p></td>
+<td><p><span data-ttu-id="8ee46-164">常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-164">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-165">默认文档</span><span class="sxs-lookup"><span data-stu-id="8ee46-165">Default Document</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>常见的 HTTP 功能</p></td>
-<td><p>目录浏览</p></td>
+<td><p><span data-ttu-id="8ee46-166">常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-166">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-167">目录浏览</span><span class="sxs-lookup"><span data-stu-id="8ee46-167">Directory Browsing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>常见的 HTTP 功能</p></td>
-<td><p>HTTP 错误</p></td>
+<td><p><span data-ttu-id="8ee46-168">常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-168">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-169">HTTP 错误</span><span class="sxs-lookup"><span data-stu-id="8ee46-169">HTTP Errors</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>常见的 HTTP 功能</p></td>
-<td><p>静态内容</p></td>
+<td><p><span data-ttu-id="8ee46-170">常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-170">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-171">静态内容</span><span class="sxs-lookup"><span data-stu-id="8ee46-171">Static content</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>常见的 HTTP 功能</p></td>
-<td><p>HTTP 重定向</p></td>
+<td><p><span data-ttu-id="8ee46-172">常见的 HTTP 功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-172">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-173">HTTP 重定向</span><span class="sxs-lookup"><span data-stu-id="8ee46-173">HTTP Redirection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>运行状况和诊断</p></td>
-<td><p>HTTP 日志记录</p></td>
+<td><p><span data-ttu-id="8ee46-174">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-174">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-175">HTTP 日志记录</span><span class="sxs-lookup"><span data-stu-id="8ee46-175">HTTP Logging</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>运行状况和诊断</p></td>
-<td><p>日志记录工具</p></td>
+<td><p><span data-ttu-id="8ee46-176">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-176">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-177">日志记录工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-177">Logging Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>运行状况和诊断</p></td>
-<td><p>请求监视器</p></td>
+<td><p><span data-ttu-id="8ee46-178">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-178">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-179">请求监视器</span><span class="sxs-lookup"><span data-stu-id="8ee46-179">Request Monitor</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>运行状况和诊断</p></td>
-<td><p>跟踪</p></td>
+<td><p><span data-ttu-id="8ee46-180">运行状况和诊断</span><span class="sxs-lookup"><span data-stu-id="8ee46-180">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-181">跟踪</span><span class="sxs-lookup"><span data-stu-id="8ee46-181">Tracing</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>安全性</p></td>
-<td><p>请求筛选</p></td>
+<td><p><span data-ttu-id="8ee46-182">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-182">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-183">请求筛选</span><span class="sxs-lookup"><span data-stu-id="8ee46-183">Request Filtering</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>安全性</p></td>
-<td><p>基本身份验证</p></td>
+<td><p><span data-ttu-id="8ee46-184">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-184">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-185">基本身份验证</span><span class="sxs-lookup"><span data-stu-id="8ee46-185">Basic Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>安全性</p></td>
-<td><p>客户端证书映射身份验证</p></td>
+<td><p><span data-ttu-id="8ee46-186">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-186">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-187">客户端证书映射身份验证</span><span class="sxs-lookup"><span data-stu-id="8ee46-187">Client Certificate Mapping Authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>安全性</p></td>
-<td><p>Windows 身份验证</p></td>
+<td><p><span data-ttu-id="8ee46-188">安全性</span><span class="sxs-lookup"><span data-stu-id="8ee46-188">Security</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-189">Windows 身份验证</span><span class="sxs-lookup"><span data-stu-id="8ee46-189">Windows Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>.Net Extensibility 3.5</p></td>
+<td><p><span data-ttu-id="8ee46-190">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-190">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-191">.Net 扩展性3。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-191">.Net Extensibility 3.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序开发</p></td>
-<td><p>.Net Extensibility 4.5</p></td>
+<td><p><span data-ttu-id="8ee46-192">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-192">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-193">.Net 扩展性4。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-193">.Net Extensibility 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>ASP.Net 3.5</p></td>
+<td><p><span data-ttu-id="8ee46-194">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-194">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-195">ASP.Net 3。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-195">ASP.Net 3.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序开发</p></td>
-<td><p>ASP.Net 4.5</p></td>
+<td><p><span data-ttu-id="8ee46-196">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-196">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-197">ASP.Net 4。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-197">ASP.Net 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>ISAPI 扩展</p></td>
+<td><p><span data-ttu-id="8ee46-198">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-198">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-199">ISAPI 扩展</span><span class="sxs-lookup"><span data-stu-id="8ee46-199">ISAPI Extensions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序开发</p></td>
-<td><p>ISAPI 筛选器</p></td>
+<td><p><span data-ttu-id="8ee46-200">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-200">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-201">ISAPI 筛选器</span><span class="sxs-lookup"><span data-stu-id="8ee46-201">ISAPI Filters</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>应用程序开发</p></td>
-<td><p>服务器端包含</p></td>
+<td><p><span data-ttu-id="8ee46-202">应用程序开发</span><span class="sxs-lookup"><span data-stu-id="8ee46-202">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-203">服务器端包含</span><span class="sxs-lookup"><span data-stu-id="8ee46-203">Server Side Includes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>管理工具</p></td>
-<td><p>IIS 管理控制台</p></td>
+<td><p><span data-ttu-id="8ee46-204">管理工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-204">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-205">IIS 管理控制台</span><span class="sxs-lookup"><span data-stu-id="8ee46-205">IIS Management Console</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>管理工具</p></td>
-<td><p>IIS 6 元数据库兼容性</p></td>
+<td><p><span data-ttu-id="8ee46-206">管理工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-206">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-207">IIS 6 元数据库兼容性</span><span class="sxs-lookup"><span data-stu-id="8ee46-207">IIS 6 Metabase compatibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>管理工具</p></td>
-<td><p>IIS 管理脚本和工具</p></td>
+<td><p><span data-ttu-id="8ee46-208">管理工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-208">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-209">IIS 管理脚本和工具</span><span class="sxs-lookup"><span data-stu-id="8ee46-209">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 3.5 Framework 功能</p></td>
-<td><p>.Net 3.5 Framework</p></td>
+<td><p><span data-ttu-id="8ee46-210">.Net 3.5 框架功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-210">.Net 3.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-211">.Net 3.5 Framework</span><span class="sxs-lookup"><span data-stu-id="8ee46-211">.Net 3.5 Framework</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>.Net Framework 4.5</p></td>
+<td><p><span data-ttu-id="8ee46-212">.Net 4.5 框架功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-212">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-213">.Net Framework 4。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-213">.Net Framework 4.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>ASP.Net 4.5</p></td>
+<td><p><span data-ttu-id="8ee46-214">.Net 4.5 框架功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-214">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-215">ASP.Net 4。5</span><span class="sxs-lookup"><span data-stu-id="8ee46-215">ASP.Net 4.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>HTTP 激活</p></td>
+<td><p><span data-ttu-id="8ee46-216">.Net 4.5 框架功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-216">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-217">HTTP 激活</span><span class="sxs-lookup"><span data-stu-id="8ee46-217">HTTP Activation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>TCP 端口共享</p></td>
+<td><p><span data-ttu-id="8ee46-218">.Net 4.5 框架功能</span><span class="sxs-lookup"><span data-stu-id="8ee46-218">.Net 4.5 Framework Features</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-219">TCP 端口共享</span><span class="sxs-lookup"><span data-stu-id="8ee46-219">TCP Port Sharing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>后台智能传输服务</p></td>
-<td><p>IIS 服务器扩展</p></td>
+<td><p><span data-ttu-id="8ee46-220">后台智能传送服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-220">Background Intelligent Transfer Service</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-221">IIS 服务器扩展</span><span class="sxs-lookup"><span data-stu-id="8ee46-221">IIS Server Extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>墨迹和手写服务</p></td>
-<td><p>墨迹和手写服务</p></td>
+<td><p><span data-ttu-id="8ee46-222">墨迹和手写服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-222">Ink and Handwriting Services</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-223">墨迹和手写服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-223">Ink and Handwriting Services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>媒体基础</p></td>
-<td><p>媒体基础</p></td>
+<td><p><span data-ttu-id="8ee46-224">媒体基础</span><span class="sxs-lookup"><span data-stu-id="8ee46-224">Media Foundation</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-225">媒体基础</span><span class="sxs-lookup"><span data-stu-id="8ee46-225">Media Foundation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>用户界面和基础结构</p></td>
-<td><p>图形管理工具和基础结构</p></td>
+<td><p><span data-ttu-id="8ee46-226">用户界面和基础结构</span><span class="sxs-lookup"><span data-stu-id="8ee46-226">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-227">图形管理工具和基础结构</span><span class="sxs-lookup"><span data-stu-id="8ee46-227">Graphical Management Tools and Infrastructure</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>用户界面和基础结构</p></td>
-<td><p>桌面体验</p></td>
+<td><p><span data-ttu-id="8ee46-228">用户界面和基础结构</span><span class="sxs-lookup"><span data-stu-id="8ee46-228">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-229">桌面体验</span><span class="sxs-lookup"><span data-stu-id="8ee46-229">Desktop Experience</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>用户界面和基础结构</p></td>
-<td><p>服务器图形 Shell</p></td>
+<td><p><span data-ttu-id="8ee46-230">用户界面和基础结构</span><span class="sxs-lookup"><span data-stu-id="8ee46-230">User Interfaces and Infrastructure</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-231">服务器图形 Shell</span><span class="sxs-lookup"><span data-stu-id="8ee46-231">Server Graphical Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Identity Foundation 3.5</p></td>
-<td><p>Windows Identity Foundation 3.5</p></td>
+<td><p><span data-ttu-id="8ee46-232">Windows Identity Foundation 3.5</span><span class="sxs-lookup"><span data-stu-id="8ee46-232">Windows Identity Foundation 3.5</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-233">Windows Identity Foundation 3.5</span><span class="sxs-lookup"><span data-stu-id="8ee46-233">Windows Identity Foundation 3.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>进程模型</p></td>
+<td><p><span data-ttu-id="8ee46-234">Windows 进程激活服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-234">Windows Process Activation Service</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-235">流程模型</span><span class="sxs-lookup"><span data-stu-id="8ee46-235">Process Model</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>配置 API</p></td>
+<td><p><span data-ttu-id="8ee46-236">Windows 进程激活服务</span><span class="sxs-lookup"><span data-stu-id="8ee46-236">Windows Process Activation Service</span></span></p></td>
+<td><p><span data-ttu-id="8ee46-237">配置 Api</span><span class="sxs-lookup"><span data-stu-id="8ee46-237">Configuration APIs</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-在 Windows Server 2012 和 Windows Server 2012 R2 中，您可以使用 Windows PowerShell 3.0 安装 IIS 要求。使用 Windows PowerShell 3.0 中的 ServerManager 模块时，请键入：
+<span data-ttu-id="8ee46-238">在 Windows Server 2012 和 Windows Server 2012 R2 中, 你可以使用 Windows PowerShell 3.0 来安装 IIS 要求。</span><span class="sxs-lookup"><span data-stu-id="8ee46-238">In Windows Server 2012 and Windows Server 2012 R2, you can use Windows PowerShell 3.0 to install the IIS Requirements.</span></span> <span data-ttu-id="8ee46-239">使用 Windows PowerShell 3.0 中的 ServerManager 模块, 请键入:</span><span class="sxs-lookup"><span data-stu-id="8ee46-239">Using the ServerManager module in Windows PowerShell 3.0, type:</span></span>
 
+   ```
     Import-Module ServerManager
+   ```
 
-   &nbsp;
-
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+   ```
 
-> [!IMPORTANT]
-> Windows Server 2012 的新增内容是 –Source 参数，该参数用来定义可找到 Windows Server 2012 源媒体的位置。该媒体可以定义为 DVD 驱动器（例如，D:\Sources\Sxs）或已复制媒体文件的网络共享（例如，\\fileserver\windows2012\sources\Sxs）。
+<div class=" ">
 
 
-## 另请参阅
+> [!IMPORTANT]  
+> <span data-ttu-id="8ee46-240">Windows Server 2012 的新增功能是-Source 参数, 用于定义可在何处找到 Windows Server 2012 源媒体。</span><span class="sxs-lookup"><span data-stu-id="8ee46-240">New with Windows Server 2012 is the –Source parameter that defines where the Windows Server 2012 source media can be found.</span></span> <span data-ttu-id="8ee46-241">媒体可以定义为 DVD 驱动器 (例如, D:\Sources\Sxs), 或者将媒体文件复制到网络共享位置 (例如, \\fileserver\windows2012\sources\Sxs)。</span><span class="sxs-lookup"><span data-stu-id="8ee46-241">The media can be defined as a DVD drive (for example, D:\Sources\Sxs), or to a network share that the media files have been copied (for example, \\fileserver\windows2012\sources\Sxs).</span></span>
 
-#### 概念
 
-[Lync Server 2013 中前端池和 Standard Edition 服务器的 IIS 要求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="8ee46-242">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8ee46-242">See Also</span></span>
+
+
+[<span data-ttu-id="8ee46-243">Lync Server 2013 中前端池和 Standard Edition 服务器的 IIS 要求</span><span class="sxs-lookup"><span data-stu-id="8ee46-243">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：组成员身份要求
-TOCTitle: 组成员身份要求
-ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204623(v=OCS.15)
-ms:contentKeyID: 49311808
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：组成员身份要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group membership requirements
+ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
+ms:contentKeyID: 48183239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830123"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 的组成员身份要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="group-membership-requirements-for-lync-server-2013"></a><span data-ttu-id="0070a-102">Lync Server 2013 的组成员身份要求</span><span class="sxs-lookup"><span data-stu-id="0070a-102">Group membership requirements for Lync Server 2013</span></span>
 
-下表概述了相关人员成功地进行 Lync Server 2013 安装、管理和故障排除操作所需的组成员身份。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0070a-103">_**主题上次修改时间:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="0070a-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+
+<span data-ttu-id="0070a-104">下表总结了人员应属于的组或组, 以便成功安装、管理 Lync Server 2013 并对其进行故障排除。</span><span class="sxs-lookup"><span data-stu-id="0070a-104">The following table summarizes the group or groups that a person should belong to in order to successfully install, manage, and troubleshoot Lync Server 2013.</span></span>
 
 
 <table>
@@ -25,54 +45,66 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lync Server 2013 可执行文件</th>
-<th>所需的组成员身份</th>
+<th><span data-ttu-id="0070a-105">Lync Server 2013 可执行文件</span><span class="sxs-lookup"><span data-stu-id="0070a-105">Lync Server 2013 Executable</span></span></th>
+<th><span data-ttu-id="0070a-106">需要组成员身份</span><span class="sxs-lookup"><span data-stu-id="0070a-106">Group Membership Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe</strong> – 用于启动 Lync Server 2013 管理工具安装的可执行文件。</p></td>
-<td><p>运行可执行文件的计算机上本地 Administrators 组的成员。用于读取 Active Directory 域服务 中信息的 Domain Users 组的成员。需要该级别的权限是因为，在本地计算机上自动安装所需的 MSI 软件包需要允许读取和写入受保护的本地计算机资源（如 Program Files 目录）和受保护注册表（如 Local Machine 配置单元）的权限。</p>
+<td><p><span data-ttu-id="0070a-107"><strong></strong> Setup.exe-启动 Lync Server 2013 管理工具安装的可执行文件。</span><span class="sxs-lookup"><span data-stu-id="0070a-107"><strong>Setup.exe</strong> – Executable that starts the installation of the Lync Server 2013 administrative tools.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-108">运行可执行文件的计算机上本地管理员组的成员。</span><span class="sxs-lookup"><span data-stu-id="0070a-108">Member of the Local Administrators group on the computer from which the executable is run.</span></span> <span data-ttu-id="0070a-109">"域用户" 组的成员以读取 Active Directory 域服务中的信息。</span><span class="sxs-lookup"><span data-stu-id="0070a-109">Member of Domain Users group to read information in Active Directory Domain Services.</span></span> <span data-ttu-id="0070a-110">此级别的权限是必需的, 因为本地计算机上必需的 MSI 程序包的自动安装需要允许读取和写入受保护的本地计算机资源 (如程序文件目录和受保护) 的权限。注册表, 如本地计算机配置单元。</span><span class="sxs-lookup"><span data-stu-id="0070a-110">This level of permission is required because the automatic installation of required MSI packages on the local computer requires privileges that allow reading from and writing to protected local computer resources such as Program Files directories, and protected registry such as the Local Machine hive.</span></span></p>
 <div>
 
-> [!TIP]
-> 您还可以将安装权限委派给那些不会获得 Domain Admins 组成员身份的用户或组。有关详细信息，请参阅部署文档中的 <a href="lync-server-2013-granting-setup-permissions.md">在 Lync Server 2013 中授予安装权限</a>。
+> [!TIP]  
+> <span data-ttu-id="0070a-111">你还可以将设置权限委派给你不希望向其授予域管理员组成员身份的用户或组。</span><span class="sxs-lookup"><span data-stu-id="0070a-111">You can also delegate setup permissions to users or groups to whom you do not want to grant membership in the Domain Admins group.</span></span> <span data-ttu-id="0070a-112">有关详细信息, 请参阅部署文档中的<A href="lync-server-2013-granting-setup-permissions.md">在 Lync Server 2013 中授予设置权限</A>。</span><span class="sxs-lookup"><span data-stu-id="0070a-112">For details, see <A href="lync-server-2013-granting-setup-permissions.md">Granting setup permissions in Lync Server 2013</A> in the Deployment documentation.</span></span>
+
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Deploy.exe</strong> – deploy.exe 由 setup.exe 调用，负责为服务器角色部署软件组件。</p></td>
-<td><p>运行可执行文件的计算机上本地 Administrators 组的成员。用于读取 AD DS 中信息的 Domain Users 组的成员。需要该级别的权限是因为，在本地计算机上自动安装所需的 MSI 软件包需要允许读取和写入受保护的本地计算机资源（如 Program Files 目录）和受保护注册表（如 Local Machine 配置单元）的权限。需要具有 RtcUniversalReadOnlyAdmins 组中的成员身份才能读取 中央管理存储。</p>
+<td><p><span data-ttu-id="0070a-113">由 setup.exe 调用的<strong>.deploy</strong> -.deploy 负责为服务器角色部署软件组件的软件组件。</span><span class="sxs-lookup"><span data-stu-id="0070a-113"><strong>Deploy.exe</strong> – Called by setup.exe, deploy.exe is responsible for the deployment of the software components for the server roles.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-114">运行可执行文件的计算机上本地管理员组的成员。</span><span class="sxs-lookup"><span data-stu-id="0070a-114">Member of the Local Administrators group on the computer from which the executable is run.</span></span> <span data-ttu-id="0070a-115">"域用户" 组的成员以读取 AD DS 中的信息。</span><span class="sxs-lookup"><span data-stu-id="0070a-115">Member of Domain Users group to read information in AD DS.</span></span> <span data-ttu-id="0070a-116">此级别的权限是必需的, 因为本地计算机上必需的 MSI 程序包的自动安装需要允许读取和写入受保护的本地计算机资源 (如程序文件目录和受保护) 的权限。注册表, 如本地计算机配置单元。</span><span class="sxs-lookup"><span data-stu-id="0070a-116">This level of permission is required because the automatic installation of required MSI packages on the local computer requires privileges that allow reading from and writing to protected local computer resources such as Program Files directories, and protected registry such as the Local Machine hive.</span></span> <span data-ttu-id="0070a-117">若要阅读中央管理存储, RtcUniversalReadOnlyAdmins 组中的成员身份是必需的。</span><span class="sxs-lookup"><span data-stu-id="0070a-117">Membership in RtcUniversalReadOnlyAdmins group is necessary to read the Central Management store.</span></span></p>
 <div>
 
 > [!NOTE]  
-> 如果您运行的是 Windows Vista 操作系统或 Windows 7 操作系统，那么用户帐户控制 (UAC) 就会提示您继续安装。如果使用标准用户帐户登录，那么在提示要求您提供具有软件安装权限的帐户时，就需要具有本地 Administrators 组成员身份的用户来提供凭据。
+> <span data-ttu-id="0070a-118">如果您运行的是 Windows Vista 操作系统或 Windows 7 操作系统, 系统将提示用户帐户控制 (UAC) 继续安装。</span><span class="sxs-lookup"><span data-stu-id="0070a-118">If you are running the Windows Vista operating system or Windows 7 operating system, you will be prompted by User Account Control (UAC) to proceed with installation.</span></span> <span data-ttu-id="0070a-119">如果您使用标准用户帐户登录, 则当系统提示您有权安装软件的帐户时, 您将需要属于本地管理员组成员的人员才能提供凭据。</span><span class="sxs-lookup"><span data-stu-id="0070a-119">If you are logged on with a standard user account, you will need someone who is a member of the Local Administrators group to provide credentials when prompted for an account with permissions to install the software.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Bootstrapper.exe</strong> – bootstrapper.exe 由 setup.exe 调用，负责部署和配置服务器角色。</p></td>
-<td><p>运行可执行文件的计算机上本地 Administrators 组的成员。运行 Bootstrapper.exe 的 RTCUniversalServerAdmins 组的成员。读取 AD DS 中的信息的 Domain Users 组的成员。需要该级别的权限是因为，在本地计算机上自动安装所需的 MSI 软件包需要允许读取和写入受保护的本地计算机资源（如 Program Files 目录）和受保护注册表（如 Local Machine 配置单元）的权限。</p></td>
+<td><p><span data-ttu-id="0070a-120">由 setup.exe 调用的<strong>setup.exe</strong>由 setup.exe 负责部署和配置服务器角色。</span><span class="sxs-lookup"><span data-stu-id="0070a-120"><strong>Bootstrapper.exe</strong> – Called by setup.exe, bootstrapper.exe is responsible for deployment and configuration of server roles.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-121">运行可执行文件的计算机上本地管理员组的成员。</span><span class="sxs-lookup"><span data-stu-id="0070a-121">Member of the Local Administrators group on the computer from which the executable is run.</span></span> <span data-ttu-id="0070a-122">RTCUniversalServerAdmins 组的成员以运行 setup.exe。</span><span class="sxs-lookup"><span data-stu-id="0070a-122">Member of the RTCUniversalServerAdmins group to run Bootstrapper.exe.</span></span> <span data-ttu-id="0070a-123">"域用户" 组的成员以读取 AD DS 中的信息。</span><span class="sxs-lookup"><span data-stu-id="0070a-123">Member of Domain Users group to read information in AD DS.</span></span> <span data-ttu-id="0070a-124">此级别的权限是必需的, 因为本地计算机上必需的 MSI 程序包的自动安装需要允许读取和写入受保护的本地计算机资源 (如程序文件目录和受保护) 的权限。注册表, 如本地计算机配置单元。</span><span class="sxs-lookup"><span data-stu-id="0070a-124">This level of permission is required because the automatic installation of required MSI packages on the local computer requires privileges that allow reading from and writing to protected local computer resources such as Program Files directories, and protected registry such as the Local Machine hive.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TopologyBuilder</strong> – 负责提供用于创建、查看、调整和验证 Lync Server 2013 拓扑的向导式用户界面。</p></td>
-<td><p>能在运行可执行文件的计算机上查看拓扑的本地 Administrators 组成员。能更改配置设置的 RTCUniversalServerAdmins 组成员。能发布拓扑的 RTCUniversalServerAdmins 组和 Domain Admins 组成员或 RTCUniversalServerAdmins 组（仅限于该组已授予代理人安装权限的情况）成员。有关如何通过委派安装权限使 RTCUniversalServerAdmins 组成员在不具备 Domain Admins 组成员身份的情况下可以发布拓扑的详细信息，请参阅部署文档中的 <a href="lync-server-2013-granting-setup-permissions.md">在 Lync Server 2013 中授予安装权限</a>。</p></td>
+<td><p><span data-ttu-id="0070a-125"><strong>TopologyBuilder</strong> -由向导驱动的用户界面, 用于创建、查看、调整和验证 Lync Server 2013 拓扑。</span><span class="sxs-lookup"><span data-stu-id="0070a-125"><strong>TopologyBuilder</strong> – Wizard-driven user interface to create, view, adjust, and validate Lync Server 2013 topologies.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-126">运行可执行文件的计算机上本地管理员组的成员, 以查看拓扑。</span><span class="sxs-lookup"><span data-stu-id="0070a-126">Member of the Local Administrators group on the computer from which the executable is run to view the topology.</span></span> <span data-ttu-id="0070a-127">RTCUniversalServerAdmins 组的成员以更改配置设置。</span><span class="sxs-lookup"><span data-stu-id="0070a-127">Member of the RTCUniversalServerAdmins group to change configuration settings.</span></span> <span data-ttu-id="0070a-128">RTCUniversalServerAdmins 组和域管理员组的成员或 RTCUniversalServerAdmins 组的成员 (仅当该组已被授予委派设置权限时), 才能发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="0070a-128">Member of the RTCUniversalServerAdmins group and Domain Admins group, or member of the RTCUniversalServerAdmins group (only if the group has been granted delegate setup permissions), to publish the topology.</span></span> <span data-ttu-id="0070a-129">有关委派设置权限以允许 RTCUniversalServerAdmins 组成员发布拓扑的详细信息, 而不是域管理员组的成员, 请参阅在部署中<a href="lync-server-2013-granting-setup-permissions.md">授予 Lync Server 2013 中的设置权限</a>文档.</span><span class="sxs-lookup"><span data-stu-id="0070a-129">For details about delegating setup permissions to allow members of the RTCUniversalServerAdmins group to publish the topology without being members of the Domain Admins group, see <a href="lync-server-2013-granting-setup-permissions.md">Granting setup permissions in Lync Server 2013</a> in the Deployment documentation.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AdminUIHost</strong> – 负责提供管理 Lync Server 2013 的基于 Web 的图形用户界面。</p></td>
-<td><p>CsAdministrator 组成员或其他已分配特定管理任务的基于角色的访问控制 (RBAC) 角色成员。 Lync Server 2013 控制面板会通过运行 Lync Server 2013 命令行管理程序 cmdlet 实现配置更改。有关允许运行的预定义角色和 cmdlet 成员的列表，请参阅规划文档中的 <a href="lync-server-2013-planning-for-role-based-access-control.md">在 Lync Server 2013 中规划基于角色的访问控制</a>。</p></td>
+<td><p><span data-ttu-id="0070a-130"><strong>AdminUIHost</strong> –用于管理 Lync Server 2013 的基于 Web 的图形用户界面。</span><span class="sxs-lookup"><span data-stu-id="0070a-130"><strong>AdminUIHost</strong> – Web-based graphical user interface for managing Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-131">分配了特定管理任务的其他基于角色的访问控制 (RBAC) 角色的 CsAdministrator 组或成员的成员。</span><span class="sxs-lookup"><span data-stu-id="0070a-131">Member of CsAdministrator group or member of another role-based access control (RBAC) role to which the specific administrative task is assigned.</span></span> <span data-ttu-id="0070a-132">Lync Server 2013 控制面板通过运行 Lync Server 2013 管理外壳 cmdlet 实现配置更改。</span><span class="sxs-lookup"><span data-stu-id="0070a-132">Lync Server 2013 Control Panel implements configuration changes by running Lync Server 2013 Management Shell cmdlets.</span></span> <span data-ttu-id="0070a-133">有关预定义角色和 cmdlet 成员的列表, 请参阅规划文档中的在<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a>。</span><span class="sxs-lookup"><span data-stu-id="0070a-133">For a list of predefined roles and the cmdlets members are permitted to run, see <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>加载 Lync Server 2013 模块的 PowerShell.exe</strong> – 负责提供具有 Lync Server 2013 管理专用 cmdlet 的命令行管理工具。</p></td>
-<td><p>CsAdministrator 组成员或其他已分配特定 cmdlet 的 RBAC 角色成员。有关允许运行的预定义角色和 cmdlet 成员的列表，请参阅规划文档中的 <a href="lync-server-2013-planning-for-role-based-access-control.md">在 Lync Server 2013 中规划基于角色的访问控制</a>。</p>
-<p>或下列一组或多组中的成员，具体情况取决于 cmdlet：</p>
+<td><p><span data-ttu-id="0070a-134"><strong>加载了 Lync server 2013 模块的 PowerShell</strong> -命令行管理工具, 其 cmdlet 特定于管理 lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="0070a-134"><strong>PowerShell.exe with the Lync Server 2013 module loaded</strong> – Command-line administrative tool with cmdlets specific to management of Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="0070a-135">已分配特定 cmdlet 的其他 RBAC 角色的 CsAdministrator 组成员或成员。</span><span class="sxs-lookup"><span data-stu-id="0070a-135">Member of CsAdministrator group or member of another RBAC role to which the specific cmdlet has been assigned.</span></span> <span data-ttu-id="0070a-136">有关预定义角色和 cmdlet 成员的列表, 请参阅规划文档中的在<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a>。</span><span class="sxs-lookup"><span data-stu-id="0070a-136">For a list of predefined roles and the cmdlets members are permitted to run, see <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a> in the Planning documentation.</span></span></p>
+<p><span data-ttu-id="0070a-137">或者是以下一个或多个组的成员, 具体取决于 cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0070a-137">Or, member of one or more of the following groups, depending on the cmdlet:</span></span></p>
 <ul>
-<li><p>RTCUniversalServerAdmins</p></li>
-<li><p>RTCUniversalUserAdmins</p></li>
-<li><p>RTCUniversalReadOnlyAdmins</p></li>
+<li><p><span data-ttu-id="0070a-138">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="0070a-138">RTCUniversalServerAdmins</span></span></p></li>
+<li><p><span data-ttu-id="0070a-139">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="0070a-139">RTCUniversalUserAdmins</span></span></p></li>
+<li><p><span data-ttu-id="0070a-140">RTCUniversalReadOnlyAdmins</span><span class="sxs-lookup"><span data-stu-id="0070a-140">RTCUniversalReadOnlyAdmins</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

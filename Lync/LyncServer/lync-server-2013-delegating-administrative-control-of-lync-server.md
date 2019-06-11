@@ -1,55 +1,93 @@
-﻿---
-title: Lync Server 2013：委派 Lync Server 2013 的管理控制
-TOCTitle: 委派 Lync Server 2013 的管理控制
-ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg520951(v=OCS.15)
-ms:contentKeyID: 49312020
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：委派 Lync Server 2013 的管理控制
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delegating administrative control of Lync Server 2013
+ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520951(v=OCS.15)
+ms:contentKeyID: 48183418
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2acecec7a4b6543bb5dd22720af7a3f9aab62137
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830665"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 委派 Lync Server 2013 的管理控制
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-22_
+# <a name="delegating-administrative-control-of-lync-server-2013"></a><span data-ttu-id="a4f65-102">委派 Lync Server 2013 的管理控制</span><span class="sxs-lookup"><span data-stu-id="a4f65-102">Delegating administrative control of Lync Server 2013</span></span>
 
-在 Lync Server 2013 中，使用新的基于角色的访问控制 (RBAC) 功能可将管理任务委派给用户。安装 Lync Server 时，会为您创建若干 RBAC 角色。这些角色对应于 Active Directory 域服务 中的通用安全组。例如，RBAC 角色 CsHelpDesk 对应于 Active Directory 域服务的“用户”容器中找到的 CsHelpDesk 组。此外，每个 RBAC 角色都与一组 Lync ServerWindows PowerShell cmdlet 关联。这些 cmdlet 代表已分配指定 RBAC 角色的用户可执行的任务。例如，CsHelpDesk 角色已分配 Lock-CsClientPin 和 UnlockCsClientPin cmdlet。这意味着已分配 CsHelpDesk 角色的用户可以锁定和解锁用户 PIN 号码。但是，CsHelpDesk 角色尚未分配 New-CsVoicePolicy cmdlet。这意味着已分配 CsHelpDesk 角色的用户不能创建新语音策略。
+</div>
 
-## 查看有关 RBAC 角色的信息
+<div id="mainSection">
 
-通过在 Lync Server 命令行管理程序中运行以下命令，可以检索有关 RBAC 角色的基本信息：
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a4f65-103">_**主题上次修改时间:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="a4f65-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+
+<span data-ttu-id="a4f65-104">在 Lync Server 2013 中, 使用新的基于角色的访问控制 (RBAC) 功能将管理任务委派给用户。</span><span class="sxs-lookup"><span data-stu-id="a4f65-104">In Lync Server 2013, administrative tasks are delegated to users by using the new role-based access control (RBAC) feature.</span></span> <span data-ttu-id="a4f65-105">安装 Lync Server 时, 将为你创建许多 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="a4f65-105">When you install Lync Server, a number of RBAC roles are created for you.</span></span> <span data-ttu-id="a4f65-106">这些角色对应 Active Directory 域服务中的通用安全组。</span><span class="sxs-lookup"><span data-stu-id="a4f65-106">These roles correspond to universal security groups in Active Directory Domain Services.</span></span> <span data-ttu-id="a4f65-107">例如, RBAC 角色 CsHelpDesk 对应于 Active Directory 域服务中的用户容器内找到的 CsHelpDesk 组。</span><span class="sxs-lookup"><span data-stu-id="a4f65-107">For example, the RBAC role CsHelpDesk corresponds to the CsHelpDesk group found in the Users container in Active Directory Domain Services.</span></span> <span data-ttu-id="a4f65-108">此外, 每个 RBAC 角色都与一组 Lync Server Windows PowerShell cmdlet 相关联。</span><span class="sxs-lookup"><span data-stu-id="a4f65-108">In addition, each RBAC role is associated with a set of Lync Server Windows PowerShell cmdlets.</span></span> <span data-ttu-id="a4f65-109">这些 cmdlet 表示分配了给定的 RBAC 角色的用户可以执行的任务。</span><span class="sxs-lookup"><span data-stu-id="a4f65-109">These cmdlets represent the tasks that can be carried out by users who have been assigned the given RBAC role.</span></span> <span data-ttu-id="a4f65-110">例如, 已向 CsHelpDesk 角色分配了 Lock CsClientPin 和 UnlockCsClientPin cmdlet。</span><span class="sxs-lookup"><span data-stu-id="a4f65-110">For example, the CsHelpDesk role has been assigned the Lock-CsClientPin and UnlockCsClientPin cmdlets.</span></span> <span data-ttu-id="a4f65-111">这意味着分配了 CsHelpDesk 角色的用户可以锁定和解锁用户 PIN 码。</span><span class="sxs-lookup"><span data-stu-id="a4f65-111">That means users who have been assigned the CsHelpDesk role can lock and unlock user PIN numbers.</span></span> <span data-ttu-id="a4f65-112">但是, 尚未向 CsHelpDesk 角色分配 CsVoicePolicy cmdlet。</span><span class="sxs-lookup"><span data-stu-id="a4f65-112">However, the CsHelpDesk role has not been assigned the New-CsVoicePolicy cmdlet.</span></span> <span data-ttu-id="a4f65-113">这意味着分配了 CsHelpDesk 角色的用户无法创建新的语音策略。</span><span class="sxs-lookup"><span data-stu-id="a4f65-113">That means that users who have been assigned the CsHelpDesk role cannot create new voice policies.</span></span>
+
+<div>
+
+## <a name="viewing-information-about-rbac-roles"></a><span data-ttu-id="a4f65-114">查看有关 RBAC 角色的信息</span><span class="sxs-lookup"><span data-stu-id="a4f65-114">Viewing Information about RBAC Roles</span></span>
+
+<span data-ttu-id="a4f65-115">你可以通过在 Lync Server Management Shell 中运行以下命令来检索有关你的 RBAC 角色的基本信息:</span><span class="sxs-lookup"><span data-stu-id="a4f65-115">You can retrieve basic information about your RBAC roles by running the following command from within the Lync Server Management Shell:</span></span>
 
     Get-CsAdminRole
 
-请记住，RBAC 角色（例如，CsVoiceAdministrator）的标识可直接映射到在 Active Directory 域服务的“用户”容器中找到的安全组。
+<span data-ttu-id="a4f65-116">请记住, RBAC 角色的标识 (例如, CsVoiceAdministrator) 与 Active Directory 域服务中的用户容器中找到的安全组有直接映射。</span><span class="sxs-lookup"><span data-stu-id="a4f65-116">Keep in mind that the Identity of the RBAC role (for example, CsVoiceAdministrator) has a direct mapping to a security group found in the Users container in Active Directory Domain Services.</span></span>
 
-要查看已分配给某个角色的 cmdlet 列表，请使用类似如下的命令：
+<span data-ttu-id="a4f65-117">若要查看已分配给某个角色的 cmdlet 的列表, 请使用类似下面的命令:</span><span class="sxs-lookup"><span data-stu-id="a4f65-117">To view a list of the cmdlets that have been assigned to a role, use a command similar to this:</span></span>
 
     Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets
 
-## 将 RBAC 角色分配给用户
+</div>
 
-为了将 RBAC 角色分配给用户，必须将该用户添加到相应的 Active Directory 安全组。例如，要将 CsLocationAdministrator 角色分配给用户，必须将该用户添加到 CsLocationAdministrator 组。可通过执行以下过程完成此操作：
+<div>
 
-**将用户分配给安全组**
+## <a name="assigning-an-rbac-role-to-a-user"></a><span data-ttu-id="a4f65-118">向用户分配 RBAC 角色</span><span class="sxs-lookup"><span data-stu-id="a4f65-118">Assigning an RBAC Role to a User</span></span>
 
-1.  使用具有修改 Active Directory 组成员身份权限的帐户，登录到已安装“Active Directory 用户和计算机”的计算机。
+<span data-ttu-id="a4f65-119">若要向用户分配 RBAC 角色, 必须将该用户添加到相应的 Active Directory 安全组。</span><span class="sxs-lookup"><span data-stu-id="a4f65-119">To assign an RBAC role to a user, you must add that user to the appropriate Active Directory security group.</span></span> <span data-ttu-id="a4f65-120">例如, 若要将 CsLocationAdministrator 角色分配给用户, 必须将该用户添加到 CsLocationAdministrator 组。</span><span class="sxs-lookup"><span data-stu-id="a4f65-120">For example, to assign the CsLocationAdministrator role to a user, you must add that user to the CsLocationAdministrator group.</span></span> <span data-ttu-id="a4f65-121">可通过执行以下过程来执行此操作:</span><span class="sxs-lookup"><span data-stu-id="a4f65-121">That can be done by carrying out the following procedure:</span></span>
 
-2.  依次单击“开始”、“所有程序”、“管理工具”，然后单击“Active Directory 用户和计算机”。
+<span data-ttu-id="a4f65-122">**将用户分配到安全组**</span><span class="sxs-lookup"><span data-stu-id="a4f65-122">**To assign a user to a security group**</span></span>
 
-3.  在“Active Directory 用户和计算机”中，展开域名并单击“用户”容器。
+1.  <span data-ttu-id="a4f65-123">使用有权修改 Active Directory 组成员身份的帐户, 登录到已安装 Active Directory 用户和计算机的计算机。</span><span class="sxs-lookup"><span data-stu-id="a4f65-123">Using an account that has permission to modify the membership of an Active Directory group, log on to a computer where Active Directory Users and Computers has been installed.</span></span>
 
-4.  右键单击安全组“CsLocationAdministrator”，然后单击“属性”。
+2.  <span data-ttu-id="a4f65-124">单击 "**开始**", 单击 "**所有程序**", 单击 "**管理工具**", 然后单击 " **Active Directory 用户和计算机**"。</span><span class="sxs-lookup"><span data-stu-id="a4f65-124">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **Active Directory Users and Computers**.</span></span>
 
-5.  在“属性”对话框的“成员”选项卡上，单击“添加”。
+3.  <span data-ttu-id="a4f65-125">在 "Active Directory 用户和计算机" 中, 展开您的域的名称, 然后单击 "**用户**" 容器。</span><span class="sxs-lookup"><span data-stu-id="a4f65-125">In Active Directory Users and Computers, expand the name of your domain and click the **Users** container.</span></span>
 
-6.  在“选择用户、计算机、联系人或组”对话框的“输入要选择的对象名称”框中，键入要添加到组的用户的用户名或显示名称（例如， **Ken Myer** ），然后单击“确定”。
+4.  <span data-ttu-id="a4f65-126">右键单击安全组 " **CsLocationAdministrator**", 然后单击 "**属性**"。</span><span class="sxs-lookup"><span data-stu-id="a4f65-126">Right-click the security group **CsLocationAdministrator**, and then click **Properties**.</span></span>
 
-7.  在“属性”对话框中，单击“确定”。
+5.  <span data-ttu-id="a4f65-127">在 "**属性**" 对话框中的 "**成员**" 选项卡上, 单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="a4f65-127">In the **Properties** dialog box, on the **Members** tab, click **Add**.</span></span>
 
-若要验证是否分配了 RBAC 角色，请使用 [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet，向此 cmdlet 传递用户的 SamAccountName（Active Directory 登录名）。例如，在 Lync Server 命令行管理程序中运行以下命令：
+6.  <span data-ttu-id="a4f65-128">在 "**选择用户、计算机、联系人或组**" 对话框中, 在 "**输入要选择的对象名称**" 框中键入要添加到组的用户的用户名或显示名称 (例如**Ken Myer**), 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="a4f65-128">In the **Select Users, Computers, Contacts, or Groups** dialog box, type the user name or display name of the user to be added to the group (for example, **Ken Myer**) in the **Enter the object names to select** box and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="a4f65-129">在 "**属性**" 对话框中, 单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="a4f65-129">In the **Properties** dialog box, click **OK**.</span></span>
+
+<span data-ttu-id="a4f65-130">若要验证 RBAC 角色是否已分配, 请使用[CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet 将 cmdlet 传递给用户的 SamAccountName (Active Directory 登录名称)。</span><span class="sxs-lookup"><span data-stu-id="a4f65-130">To verify that the RBAC role has been assigned, use the [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet, passing the cmdlet the SamAccountName (Active Directory logon name) of the user.</span></span> <span data-ttu-id="a4f65-131">例如, 在 Lync Server 命令行管理程序中运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="a4f65-131">For example, run this command from within the Lync Server Management Shell:</span></span>
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

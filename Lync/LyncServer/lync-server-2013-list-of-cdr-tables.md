@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：CDR 表的列表
-TOCTitle: CDR 表的列表
-ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398084(v=OCS.15)
-ms:contentKeyID: 49311832
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：CDR 表的列表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: List of CDR tables
+ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398084(v=OCS.15)
+ms:contentKeyID: 48183254
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f1ac043d144e73d8e1b40ca717e278619e053fdc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829949"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中 CDR 表的列表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a><span data-ttu-id="74e2b-102">Lync Server 2013 中 CDR 表的列表</span><span class="sxs-lookup"><span data-stu-id="74e2b-102">List of CDR tables in Lync Server 2013</span></span>
 
-呼叫详细记录 (CDR) 数据库架构由以下表组成。
+</div>
 
-## 静态表
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="74e2b-103">_**主题上次修改时间:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="74e2b-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+
+<span data-ttu-id="74e2b-104">呼叫详细记录 (CDR) 数据库架构由下表组成。</span><span class="sxs-lookup"><span data-stu-id="74e2b-104">The call detail recording (CDR) database schema consists of the following tables.</span></span>
+
+<div>
+
+## <a name="static-tables"></a><span data-ttu-id="74e2b-105">静态表</span><span class="sxs-lookup"><span data-stu-id="74e2b-105">Static Tables</span></span>
 
 
 <table>
@@ -27,44 +49,48 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-106">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-106">Table</span></span></th>
+<th><span data-ttu-id="74e2b-107">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 中的 CallPriorities 表</a></p></td>
-<td><p>存储可能的呼叫优先级（例如紧急、紧迫、普通、非紧迫等）列表。</p></td>
+<td><p><span data-ttu-id="74e2b-108"><a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 中的 CallPriorities 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-108"><a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-109">存储可能的通话优先级列表, 例如紧急情况、紧急、普通、非紧急等。</span><span class="sxs-lookup"><span data-stu-id="74e2b-109">Stores the list of possible call priorities, such as emergency, urgent, normal, non-urgent, and more.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">Lync Server 2013 中的 ConferenceJoinTimeThresholds 表</a></p></td>
-<td><p>存储会议加入时间摘要报表所使用的分类边界。</p></td>
+<td><p><span data-ttu-id="74e2b-110"><a href="lync-server-2013-conferencejointimethresholds-table.md">Lync Server 2013 中的 ConferenceJoinTimeThresholds 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-110"><a href="lync-server-2013-conferencejointimethresholds-table.md">ConferenceJoinTimeThresholds table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-111">存储 "会议加入时间摘要" 报表使用的分类边界。</span><span class="sxs-lookup"><span data-stu-id="74e2b-111">Stores the classification boundaries used by the Conference Join Time Summary Report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a></p></td>
-<td><p>存储可能的用户注销原因（例如“客户端已启动”、“注册过期”、“客户端崩溃”等）列表。</p></td>
+<td><p><span data-ttu-id="74e2b-112"><a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-112"><a href="lync-server-2013-deregistertype-table.md">DeRegisterType table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-113">存储可能的用户取消注册原因&quot;的列表, 例如客户端启动、&quot; &quot;注册过期、&quot; &quot;客户端崩溃&quot;等。</span><span class="sxs-lookup"><span data-stu-id="74e2b-113">Stores the list of possible user de-register reasons, such as &quot;client initiated,&quot; &quot;registration expired,&quot; &quot;client crash,&quot; and more.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a></p></td>
-<td><p>存储可生成数据库条目的媒体类型（例如，IM、音频、视频和文件传输）列表。</p></td>
+<td><p><span data-ttu-id="74e2b-114"><a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-114"><a href="lync-server-2013-medialist-table.md">MediaList table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-115">存储可在数据库中生成条目的媒体类型列表 (例如, IM、音频、视频和文件传输)。</span><span class="sxs-lookup"><span data-stu-id="74e2b-115">Stores the list of media types that can generate entries in the database (for example, IM, audio, video, and file transfer).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table.md">Lync Server 2013 中的 PurgeSettings 表</a></p></td>
-<td><p>存储指定是否（以及何时）从 CDR 数据库自动删除过时的呼叫详细记录的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-116"><a href="lync-server-2013-purgesettings-table.md">Lync Server 2013 中的 PurgeSettings 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-116"><a href="lync-server-2013-purgesettings-table.md">PurgeSettings table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-117">存储用于指定是否将过时的呼叫详细记录 (以及何时) 从 CDR 数据库中自动删除的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-117">Stores information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-roles-table.md">Lync Server 2013 中的 Roles 表</a></p></td>
-<td><p>存储可能的会议角色（例如，与会者和演示者）列表。</p></td>
+<td><p><span data-ttu-id="74e2b-118"><a href="lync-server-2013-roles-table.md">Lync Server 2013 中的 Roles 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-118"><a href="lync-server-2013-roles-table.md">Roles table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-119">存储可能的会议角色列表 (例如, 与会者和演示者)。</span><span class="sxs-lookup"><span data-stu-id="74e2b-119">Stores the list of possible conference roles (for example, attendee and presenter).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-sipresponsemetadata-table.md">Lync Server 2013 中的 SIPResponseMetaData 表</a></p></td>
-<td><p>存储 SIP 响应代码列表以及每个代码的分类和定义。</p></td>
+<td><p><span data-ttu-id="74e2b-120"><a href="lync-server-2013-sipresponsemetadata-table.md">Lync Server 2013 中的 SIPResponseMetaData 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-120"><a href="lync-server-2013-sipresponsemetadata-table.md">SIPResponseMetaData table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-121">存储 SIP 响应代码的列表以及每个代码的分类和定义。</span><span class="sxs-lookup"><span data-stu-id="74e2b-121">Stores a list of SIP response codes and the classification and definition of each of those codes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 支持表
+</div>
+
+<div>
+
+## <a name="supporting-tables"></a><span data-ttu-id="74e2b-122">支持表</span><span class="sxs-lookup"><span data-stu-id="74e2b-122">Supporting Tables</span></span>
 
 
 <table>
@@ -74,88 +100,92 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-123">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-123">Table</span></span></th>
+<th><span data-ttu-id="74e2b-124">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a></p></td>
-<td><p>存储呼叫中涉及的每个客户端的客户端信息（客户端类型和版本号）以及在此数据库中捕获的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-125"><a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-125"><a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-126">使用在此数据库中捕获的信息存储呼叫中涉及的每个客户端的客户端 (客户端类型和版本号)。</span><span class="sxs-lookup"><span data-stu-id="74e2b-126">Stores the clients (both client type and version number) of each client involved in a call with information captured in this database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a></p></td>
-<td><p>存储用于会议相关呼叫的 ConferenceURI 列表。</p></td>
+<td><p><span data-ttu-id="74e2b-127"><a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-127"><a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-128">存储与会议相关的通话中使用的 ConferenceURIs 列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-128">Stores a list of ConferenceURIs that are used in conference related calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表</a></p></td>
-<td><p>存储用于点对点呼叫和会议呼叫的会话初始协议 (SIP) 内容类型列表。</p></td>
+<td><p><span data-ttu-id="74e2b-129"><a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-129"><a href="lync-server-2013-contenttypes-table.md">ContentTypes table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-130">存储在对等呼叫和电话会议中使用的会话初始协议 (SIP) 内容类型的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-130">Stores a list of Session Initiation Protocol (SIP) content types that are used in both peer-to-peer calls and conference calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-devices-table.md">Lync Server 2013 中的 Devices 表</a></p></td>
-<td><p>存储设备列表，包括其制造商、硬件版本和 MAC 地址。</p></td>
+<td><p><span data-ttu-id="74e2b-131"><a href="lync-server-2013-devices-table.md">Lync Server 2013 中的 Devices 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-131"><a href="lync-server-2013-devices-table.md">Devices table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-132">存储设备列表, 包括制造商、硬件版本和 MAC 地址。</span><span class="sxs-lookup"><span data-stu-id="74e2b-132">Stores a list of devices, including their manufacturer, hardware version, and MAC address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a></p></td>
-<td><p>存储有关数据库中每个会话的对话 ID 的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-133"><a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-133"><a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-134">存储有关数据库中每个会话的对话框 ID 的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-134">Stores information about the Dialog ID for each session in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a></p></td>
-<td><p>存储用于外部呼叫的边缘服务器列表。</p></td>
+<td><p><span data-ttu-id="74e2b-135"><a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-135"><a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-136">存储用于外部呼叫的边缘服务器的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-136">Stores a list of Edge Servers that are used for external calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表</a></p></td>
-<td><p>存储用于 IP 语音 (VoIP) 呼叫的网关列表。</p></td>
+<td><p><span data-ttu-id="74e2b-137"><a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-137"><a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-138">存储用于通过 Internet 协议 (VoIP) 呼叫进行语音通话的网关的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-138">Stores a list of Gateways that are used for Voice over Internet Protocol (VoIP) calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a></p></td>
-<td><p>存储设备（桌面电话）的硬件版本列表。</p></td>
+<td><p><span data-ttu-id="74e2b-139"><a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-139"><a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-140">存储设备 (桌面电话) 的硬件版本的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-140">Stores a list of hardware versions of devices (desk phone).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的 Manufacturers 表</a></p></td>
-<td><p>存储设备（桌面电话）的制造商列表。</p></td>
+<td><p><span data-ttu-id="74e2b-141"><a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的 Manufacturers 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-141"><a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-142">存储设备制造商 (桌面电话) 的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-142">Stores a list of manufacturers of devices (desk phone).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcus-table.md">Lync Server 2013 中的 Mcus 表</a></p></td>
-<td><p>存储有关各种 A/V 会议服务器及其 URI 的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-143"><a href="lync-server-2013-mcus-table.md">Lync Server 2013 中的 Mcus 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-143"><a href="lync-server-2013-mcus-table.md">Mcus table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-144">存储有关各种 A/V 会议服务器及其 Uri 的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-144">Stores information about the various A/V Conferencing Servers and their URIs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表</a></p></td>
-<td><p>存储用于 VoIP 呼叫的中介服务器列表。</p></td>
+<td><p><span data-ttu-id="74e2b-145"><a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-145"><a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-146">存储用于 VoIP 呼叫的中介服务器的列表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-146">Stores a list of Mediation Servers that are used for VoIP calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-phones-table.md">Lync Server 2013 中的 Phones 表</a></p></td>
-<td><p>存储已存档的或已记录其呼叫详细信息的 VoIP 呼叫使用的所有电话号码。</p></td>
+<td><p><span data-ttu-id="74e2b-147"><a href="lync-server-2013-phones-table.md">Lync Server 2013 中的 Phones 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-147"><a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-148">存储在已存档或已记录其通话详细信息的 VoIP 呼叫中使用的所有电话号码。</span><span class="sxs-lookup"><span data-stu-id="74e2b-148">Stores all the phone numbers used in VoIP calls that were archived or whose call details were recorded.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 Pools 表</a></p></td>
-<td><p>存储在其中捕获 IM 消息的池的名称。</p></td>
+<td><p><span data-ttu-id="74e2b-149"><a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 Pools 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-149"><a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-150">存储在其上捕获即时消息的池的名称。</span><span class="sxs-lookup"><span data-stu-id="74e2b-150">Stores the names of the pool on which IM messages are captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 表</a></p></td>
-<td><p>存储呼叫涉及的服务器的名称。</p></td>
+<td><p><span data-ttu-id="74e2b-151"><a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-151"><a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-152">存储通话中涉及的服务器的名称。</span><span class="sxs-lookup"><span data-stu-id="74e2b-152">Stores the name of servers involved in calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的 Tenants 表</a></p></td>
-<td><p>存储当前部署支持的租户。其中包含企业用户、联盟用户、公共 IM 连接用户和匿名用户的某些内置租户。</p></td>
+<td><p><span data-ttu-id="74e2b-153"><a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的 Tenants 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-153"><a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-154">存储当前部署支持的租户。</span><span class="sxs-lookup"><span data-stu-id="74e2b-154">Stores the tenants supported by current deployment.</span></span> <span data-ttu-id="74e2b-155">企业用户、联合用户、公共 IM 连接用户和匿名用户有一些内置租户。</span><span class="sxs-lookup"><span data-stu-id="74e2b-155">There some build-in tenants for Enterprise user, Federated User, public IM connectivity user, and Anonymous users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a></p></td>
-<td><p>将用户代理标识符映射到代理的描述性名称。</p></td>
+<td><p><span data-ttu-id="74e2b-156"><a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-156"><a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-157">将用户代理标识符映射到代理的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="74e2b-157">Maps user agent identifiers to the agent’s descriptive names.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a></p></td>
-<td><p>存储已参与此数据库中记录或存档的会话的用户的用户 URI。</p></td>
+<td><p><span data-ttu-id="74e2b-158"><a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-158"><a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-159">存储参与此数据库中记录或存档的会话的用户的用户 Uri。</span><span class="sxs-lookup"><span data-stu-id="74e2b-159">Stores the user URIs of users who have participated in sessions recorded or archived in this database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-userstatistics-table.md">Lync Server 2013 中的 UserStatistics 表</a></p></td>
-<td><p>存储有关单个用户的系统使用情况的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-160"><a href="lync-server-2013-userstatistics-table.md">Lync Server 2013 中的 UserStatistics 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-160"><a href="lync-server-2013-userstatistics-table.md">UserStatistics table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-161">存储有关个人用户对系统的使用情况的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-161">Stores information about an individual user’s usage of the system.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 特定于会议 CDR 记录的表
+</div>
+
+<div>
+
+## <a name="tables-specific-to-conference-cdr-records"></a><span data-ttu-id="74e2b-162">特定于会议 CDR 记录的表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-162">Tables Specific to Conference CDR Records</span></span>
 
 
 <table>
@@ -165,32 +195,36 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-163">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-163">Table</span></span></th>
+<th><span data-ttu-id="74e2b-164">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-164">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a></p></td>
-<td><p>存储有关已存档的或已记录其详细信息的所有会议的信息，包括 ConferenceURI 以及开始时间和结束时间。</p></td>
+<td><p><span data-ttu-id="74e2b-165"><a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-165"><a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-166">存储有关已存档或记录其详细信息的所有会议的信息, 包括 ConferenceURI 和开始时间和结束时间。</span><span class="sxs-lookup"><span data-stu-id="74e2b-166">Stores information about all conferences that were archived or whose details were recorded, including ConferenceURI, and start and end time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencesessiondetails-table.md">Lync Server 2013 中的 ConferenceSessionDetails 表</a></p></td>
-<td><p>存储有关每个基于 SIP 的会议会话的信息，包括每个会话的开始时间和结束时间、用户 ID、响应代码以及诊断 ID。</p></td>
+<td><p><span data-ttu-id="74e2b-167"><a href="lync-server-2013-conferencesessiondetails-table.md">Lync Server 2013 中的 ConferenceSessionDetails 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-167"><a href="lync-server-2013-conferencesessiondetails-table.md">ConferenceSessionDetails table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-168">存储有关每个基于 SIP 的会议会话的信息, 包括开始和结束时间、用户 ID、响应代码和每个会话的诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="74e2b-168">Stores information about every SIP-based conference session, including start and end time, user ID, response code, and diagnostic ID for each session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-focusjoinsandleaves-table.md">Lync Server 2013 中的 FocusJoinsAndLeaves 表</a></p></td>
-<td><p>存储有关会议加入和离开的信息，包括用户的角色和客户端版本。</p></td>
+<td><p><span data-ttu-id="74e2b-169"><a href="lync-server-2013-focusjoinsandleaves-table.md">Lync Server 2013 中的 FocusJoinsAndLeaves 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-169"><a href="lync-server-2013-focusjoinsandleaves-table.md">FocusJoinsAndLeaves table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-170">存储有关会议加入和保留的信息, 包括用户的角色和客户端版本。</span><span class="sxs-lookup"><span data-stu-id="74e2b-170">Stores information about conference joins and leaves, including users’ role and client version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcujoinsandleaves-table.md">Lync Server 2013 中的 McuJoinsAndLeaves 表</a></p></td>
-<td><p>存储有关会议涉及的 A/V 会议服务器以及用户加入和离开时间的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-171"><a href="lync-server-2013-mcujoinsandleaves-table.md">Lync Server 2013 中的 McuJoinsAndLeaves 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-171"><a href="lync-server-2013-mcujoinsandleaves-table.md">McuJoinsAndLeaves table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-172">存储有关会议和用户加入以及休假时间的 A/V 会议服务器的相关信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-172">Stores information about the A/V Conferencing Servers that are involved in a conference and the user join and leave times.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## IM 会议的消息表
+</div>
+
+<div>
+
+## <a name="tables-for-messages-in-im-conferences"></a><span data-ttu-id="74e2b-173">IM 会议中的消息表</span><span class="sxs-lookup"><span data-stu-id="74e2b-173">Tables for Messages in IM Conferences</span></span>
 
 
 <table>
@@ -200,24 +234,28 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-174">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-174">Table</span></span></th>
+<th><span data-ttu-id="74e2b-175">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-175">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferencemessagecount-table.md">Lync Server 2013 中的 ConferenceMessageCount 表</a></p></td>
-<td><p>对于每个 IM 会议，存储每个用户发送的消息数。</p></td>
+<td><p><span data-ttu-id="74e2b-176"><a href="lync-server-2013-conferencemessagecount-table.md">Lync Server 2013 中的 ConferenceMessageCount 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-176"><a href="lync-server-2013-conferencemessagecount-table.md">ConferenceMessageCount table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-177">对于每个 IM 会议, 存储每个用户发送的邮件数。</span><span class="sxs-lookup"><span data-stu-id="74e2b-177">For each IM conference, stores the number of messages that were sent by each user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-imreportsummary-table.md">Lync Server 2013 中的 IMReportSummary 表</a></p></td>
-<td><p>提供有关组织内进行的即时消息会话的全面报告。</p></td>
+<td><p><span data-ttu-id="74e2b-178"><a href="lync-server-2013-imreportsummary-table.md">Lync Server 2013 中的 IMReportSummary 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-178"><a href="lync-server-2013-imreportsummary-table.md">IMReportSummary table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-179">提供组织中保留的即时消息会话的整体报告。</span><span class="sxs-lookup"><span data-stu-id="74e2b-179">Provides an overall report on the instant messaging sessions held in an organization.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 点对点会话表
+</div>
+
+<div>
+
+## <a name="tables-for-peer-to-peer-sessions"></a><span data-ttu-id="74e2b-180">对等会话的表</span><span class="sxs-lookup"><span data-stu-id="74e2b-180">Tables for Peer-to-Peer Sessions</span></span>
 
 
 <table>
@@ -227,28 +265,32 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-181">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-181">Table</span></span></th>
+<th><span data-ttu-id="74e2b-182">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-182">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a></p></td>
-<td><p>存储有关每个点对点会话的信息，包括每个用户的开始时间和结束时间、用户 ID、响应代码以及消息计数。</p></td>
+<td><p><span data-ttu-id="74e2b-183"><a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-183"><a href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-184">存储每个对等会话的相关信息, 包括开始和结束时间、用户 ID、响应代码和每个用户的邮件计数。</span><span class="sxs-lookup"><span data-stu-id="74e2b-184">Stores information about every peer-to-peer session, including start and end time, user ID, response code, and message count for each user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-filetransfers-table.md">Lync Server 2013 中的 FileTransfers 表</a></p></td>
-<td><p>存储有关文件传输会话的信息，包括文件名和结果（接受、拒绝或取消）。</p></td>
+<td><p><span data-ttu-id="74e2b-185"><a href="lync-server-2013-filetransfers-table.md">Lync Server 2013 中的 FileTransfers 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-185"><a href="lync-server-2013-filetransfers-table.md">FileTransfers table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-186">存储有关文件传输会话的信息, 包括文件名和结果 (已接受、已拒绝或已取消)。</span><span class="sxs-lookup"><span data-stu-id="74e2b-186">Stores information about file transfer sessions, including file name and result (accepted, rejected, or canceled).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-media-table.md">Lync Server 2013 中的 Media 表</a></p></td>
-<td><p>存储有关点对点会话涉及的不同媒体类型的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-187"><a href="lync-server-2013-media-table.md">Lync Server 2013 中的 Media 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-187"><a href="lync-server-2013-media-table.md">Media table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-188">存储对等会话中涉及的不同媒体类型的相关信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-188">Stores information about the different media types involved in peer-to-peer sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## VoIP 呼叫详细信息表
+</div>
+
+<div>
+
+## <a name="table-for-voip-call-details"></a><span data-ttu-id="74e2b-189">VoIP 呼叫详细信息表</span><span class="sxs-lookup"><span data-stu-id="74e2b-189">Table for VoIP Call Details</span></span>
 
 
 <table>
@@ -258,18 +300,18 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-190">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-190">Table</span></span></th>
+<th><span data-ttu-id="74e2b-191">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-191">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 中的 VoipDetails 表</a></p></td>
-<td><p>对于每个双方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及断开连接方。有关呼叫开始/结束时间和响应代码，请参阅 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>。</p>
+<td><p><span data-ttu-id="74e2b-192"><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 中的 VoipDetails 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-192"><a href="lync-server-2013-voipdetails-table.md">VoipDetails table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-193">对于每个两方 VoIP/PSTN 呼叫, 存储有关呼叫的信息, 例如 VoIP 电话的电话 ID、使用的网关以及哪一方断开连接。</span><span class="sxs-lookup"><span data-stu-id="74e2b-193">For each two-party VoIP/PSTN call, stores information about the call, such as the phone ID of VoIP phone, gateway used, and which party disconnected.</span></span> <span data-ttu-id="74e2b-194">指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>, 用于呼叫开始/结束时间和响应代码。</span><span class="sxs-lookup"><span data-stu-id="74e2b-194">Refers to the <a href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</a> for call start/end times and response code.</span></span></p>
 <div>
 
 > [!NOTE]  
-> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。不涉及公用电话交换网 (PSTN) 电话的 VoIP/VoIP 呼叫信息会被捕获到 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>中。
+> <span data-ttu-id="74e2b-195">如果呼叫中的一方是 VoIP 用户, 或者在呼叫中涉及中介服务器, 则会在此表中创建记录。</span><span class="sxs-lookup"><span data-stu-id="74e2b-195">If one party on a call is a VoIP user or if a Mediation Server was involved in the call, a record will be created in this table.</span></span> <span data-ttu-id="74e2b-196"><A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</A>中捕获不涉及公共交换电话网络 (PSTN) 电话的 VoIP/voip 呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-196">Information about VoIP/VoIP calls not involving a public switched telephone network (PSTN) phone is captured in the <A href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</A>.</span></span>
 
 
 </div></td>
@@ -278,7 +320,11 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## E9-1-1 呼叫审核表
+</div>
+
+<div>
+
+## <a name="table-for-e9-1-1-call-auditing"></a><span data-ttu-id="74e2b-197">E9 的表-1-1-通话审核</span><span class="sxs-lookup"><span data-stu-id="74e2b-197">Table for E9-1-1 Call Auditing</span></span>
 
 
 <table>
@@ -288,18 +334,18 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-198">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-198">Table</span></span></th>
+<th><span data-ttu-id="74e2b-199">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-199">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-locations-table.md">Lync Server 2013 中的 Locations 表</a></p></td>
-<td><p>对于每个紧急呼叫（例如增强型 9-1-1 (E9-1-1) 呼叫），存储有关该呼叫的位置信息。有关呼叫开始/结束时间和响应代码，请参阅 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>。</p>
+<td><p><span data-ttu-id="74e2b-200"><a href="lync-server-2013-locations-table.md">Lync Server 2013 中的 Locations 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-200"><a href="lync-server-2013-locations-table.md">Locations table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-201">对于每个紧急呼叫 (如增强的 9-1-1 (E9-1-1) 通话, 存储有关呼叫的位置信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-201">For each emergency call, such as an Enhanced 9-1-1 (E9-1-1) call, stores location information about the call.</span></span> <span data-ttu-id="74e2b-202">指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>, 用于呼叫开始/结束时间和响应代码。</span><span class="sxs-lookup"><span data-stu-id="74e2b-202">Refers to the <a href="lync-server-2013-sessiondetails-table.md">SessionDetails table in Lync Server 2013</a> for call start/end times and response code.</span></span></p>
 <div>
 
 > [!NOTE]  
-> 该表仅包含 E9-1-1 呼叫的位置 blob。有关呼叫的其他详细信息，请参阅 SessionDetails 表。
+> <span data-ttu-id="74e2b-203">此表仅包含 E9-1-1 调用的位置 blob。</span><span class="sxs-lookup"><span data-stu-id="74e2b-203">This table only contains the location blob for the E9-1-1 call.</span></span> <span data-ttu-id="74e2b-204">有关通话的其他详细信息, 请参阅 SessionDetails 表。</span><span class="sxs-lookup"><span data-stu-id="74e2b-204">Refers to the SessionDetails table for other detailed information about the call.</span></span>
 
 
 </div></td>
@@ -308,7 +354,11 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 故障排除表
+</div>
+
+<div>
+
+## <a name="tables-for-troubleshooting"></a><span data-ttu-id="74e2b-205">用于疑难解答的表</span><span class="sxs-lookup"><span data-stu-id="74e2b-205">Tables for Troubleshooting</span></span>
 
 
 <table>
@@ -318,42 +368,46 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-206">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-206">Table</span></span></th>
+<th><span data-ttu-id="74e2b-207">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-207">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-application-table.md">Lync Server 2013 中的 Application 表</a></p></td>
-<td><p>存储有关 Lync Server 2013 中路由和连接涉及的各种进程的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-208"><a href="lync-server-2013-application-table.md">Lync Server 2013 中的 Application 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-208"><a href="lync-server-2013-application-table.md">Application table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-209">存储有关在路由和连接中涉及的 Lync Server 2013 中的各种进程的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-209">Stores information about various processes within Lync Server 2013 that are involved in routing and connections.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a></p></td>
-<td><p>存储有关呼叫类型的信息，例如“音频”、“即时消息”、“音频和视频”以及“应用程序共享”。</p></td>
+<td><p><span data-ttu-id="74e2b-210"><a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-210"><a href="lync-server-2013-calltype-table.md">CallType table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-211">存储有关呼叫类型的信息, 例如 "音频"、"即时消息"、"音频和视频" 和 "应用程序共享"。</span><span class="sxs-lookup"><span data-stu-id="74e2b-211">Stores information about types of the call, such as, “audio”, “Instant Messaging”, “audio and video” and “application sharing”.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-errorcategory-table.md">Lync Server 2013 中的 ErrorCategory 表</a></p></td>
-<td><p>存储每个 Microsoft Lync Server 2013 诊断分类的友好名称。</p></td>
+<td><p><span data-ttu-id="74e2b-212"><a href="lync-server-2013-errorcategory-table.md">Lync Server 2013 中的 ErrorCategory 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-212"><a href="lync-server-2013-errorcategory-table.md">ErrorCategory table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-213">存储每个 Microsoft Lync Server 2013 诊断分类的友好名称。</span><span class="sxs-lookup"><span data-stu-id="74e2b-213">Stores the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-errordef-table.md">Lync Server 2013 中的 ErrorDef 表</a></p></td>
-<td><p>存储有关错误类型及其定义的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-214"><a href="lync-server-2013-errordef-table.md">Lync Server 2013 中的 ErrorDef 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-214"><a href="lync-server-2013-errordef-table.md">ErrorDef table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-215">存储有关错误类型及其定义的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-215">Stores information about types of errors and their definitions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表</a></p></td>
-<td><p>存储有关发生的错误的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-216"><a href="lync-server-2013-errorreport-table.md">Lync Server 2013 中的 ErrorReport 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-216"><a href="lync-server-2013-errorreport-table.md">ErrorReport table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-217">存储已发生的错误的相关信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-217">Stores information about errors that have occurred.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-progressreport-table.md">Lync Server 2013 中的 ProgressReport 表</a></p></td>
-<td><p>存储有关 Lync Server 2013 进程涉及的各个步骤的进程报告的信息。</p></td>
+<td><p><span data-ttu-id="74e2b-218"><a href="lync-server-2013-progressreport-table.md">Lync Server 2013 中的 ProgressReport 表</a></span><span class="sxs-lookup"><span data-stu-id="74e2b-218"><a href="lync-server-2013-progressreport-table.md">ProgressReport table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-219">存储有关 Lync Server 2013 进程中涉及的各种步骤的进度报告的信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-219">Stores information about the progress reports of various steps involved in Lync Server 2013 processes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-以下列表中的表供 Lync Server 内部使用。本文档不介绍其详细信息。
+<span data-ttu-id="74e2b-220">以下列表中的表由 Lync Server 内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-220">The tables in the following list are used internally by Lync Server.</span></span> <span data-ttu-id="74e2b-221">本文档中未介绍其详细信息。</span><span class="sxs-lookup"><span data-stu-id="74e2b-221">Their details are not described in this document.</span></span>
 
-## 供 Lync Server 内部使用的表
+</div>
+
+<div>
+
+## <a name="tables-for-internal-use-by-lync-server"></a><span data-ttu-id="74e2b-222">Lync Server 供内部使用的表</span><span class="sxs-lookup"><span data-stu-id="74e2b-222">Tables for Internal Use by Lync Server</span></span>
 
 
 <table>
@@ -363,87 +417,100 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>说明</th>
+<th><span data-ttu-id="74e2b-223">表格</span><span class="sxs-lookup"><span data-stu-id="74e2b-223">Table</span></span></th>
+<th><span data-ttu-id="74e2b-224">说明</span><span class="sxs-lookup"><span data-stu-id="74e2b-224">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>DbConfigDateTime</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-225"><strong>DbConfigDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-225"><strong>DbConfigDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-226">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-226">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DbConfigInt</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-227"><strong>DbConfigInt</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-227"><strong>DbConfigInt</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-228">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-228">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DbErrorMessage</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-229"><strong>DbErrorMessage</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-229"><strong>DbErrorMessage</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-230">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-230">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FrontEnd 表</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-231"><strong>前端表</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-231"><strong>FrontEnd Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-232">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-232">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MSMQProcessing 表</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-233"><strong>MSMQProcessing 表</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-233"><strong>MSMQProcessing Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-234">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-234">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SummaryTableConfiguration</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-235"><strong>SummaryTableConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-235"><strong>SummaryTableConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-236">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-236">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Syndicators 表</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-237"><strong>Syndicators 表</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-237"><strong>Syndicators Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-238">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-238">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SyndicatorsTenantMap 表</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-239"><strong>SyndicatorsTenantMap 表</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-239"><strong>SyndicatorsTenantMap Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-240">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-240">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Task 表</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-241"><strong>任务表</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-241"><strong>Task Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-242">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-242">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserStatistics</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-243"><strong>UserStatistics</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-243"><strong>UserStatistics</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-244">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-244">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UsageSummary_UQ</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-245"><strong>UsageSummary_UQ</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-245"><strong>UsageSummary_UQ</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-246">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-246">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UsageSummary</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-247"><strong>UsageSummary</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-247"><strong>UsageSummary</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-248">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-248">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DaylightSavingYears</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-249"><strong>DaylightSavingYears</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-249"><strong>DaylightSavingYears</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-250">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-250">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TimeZoneConfiguration</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-251"><strong>TimeZoneConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-251"><strong>TimeZoneConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-252">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-252">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TimeZones</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-253"><strong>时区</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-253"><strong>TimeZones</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-254">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-254">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FailureSummary_UQ</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-255"><strong>FailureSummary_UQ</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-255"><strong>FailureSummary_UQ</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-256">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-256">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>FailureSummary</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-257"><strong>FailureSummary</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-257"><strong>FailureSummary</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-258">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-258">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ServerSummary</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-259"><strong>ServerSummary</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-259"><strong>ServerSummary</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-260">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-260">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MsDiagMetaData</strong></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="74e2b-261"><strong>MsDiagMetaData</strong></span><span class="sxs-lookup"><span data-stu-id="74e2b-261"><strong>MsDiagMetaData</strong></span></span></p></td>
+<td><p><span data-ttu-id="74e2b-262">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="74e2b-262">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

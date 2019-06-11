@@ -1,26 +1,60 @@
-﻿---
-title: 部署设备
-TOCTitle: 部署设备
-ms:assetid: 37f48fe8-e385-4279-b512-5f78a200b361
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425854(v=OCS.15)
-ms:contentKeyID: 49312531
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 部署设备'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying devices
+ms:assetid: 37f48fe8-e385-4279-b512-5f78a200b361
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425854(v=OCS.15)
+ms:contentKeyID: 48183889
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc69ed64cabaf8791d046c3a838985d3cf880337
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830556"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 部署设备
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="deploying-devices-in-lync-server-2013"></a><span data-ttu-id="37d8f-102">在 Lync Server 2013 中部署设备</span><span class="sxs-lookup"><span data-stu-id="37d8f-102">Deploying devices in Lync Server 2013</span></span>
 
-Lync Server 2013 包括 Lync Phone Edition（在合格设备上运行的软件），并提供传统电话服务功能和高级电话服务功能、集成安全性、可管理性等。Lync Phone Edition 在 Lync Server 2013 上的作用与在 Lync Server 2010 上的作用相同。有关部署设备的详细信息，请参阅 Lync Server 2010 TechNet 库中的[部署 Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880)。
+</div>
 
-## 另请参阅
+<div id="mainSection">
 
-#### 其他资源
+<div id="mainBody">
 
-[规划设备](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[客户端与设备软件和基础结构支持](http://go.microsoft.com/fwlink/p/?linkid=285882)
+<span> </span>
+
+<span data-ttu-id="37d8f-103">_**主题上次修改时间:** 2013-09-10_</span><span class="sxs-lookup"><span data-stu-id="37d8f-103">_**Topic Last Modified:** 2013-09-10_</span></span>
+
+<span data-ttu-id="37d8f-104">Lync Server 2013 包括 Lync Phone Edition、在合格设备上运行的软件, 并提供传统和高级电话功能、集成安全性、可管理性等。</span><span class="sxs-lookup"><span data-stu-id="37d8f-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="37d8f-105">Lync Phone Edition 与 lync server 2013 的工作方式相同, 与 Lync Server 2010 相同。</span><span class="sxs-lookup"><span data-stu-id="37d8f-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="37d8f-106">有关部署设备的详细信息, 请参阅 Lync Server 2010 TechNet 库中的 "[部署 Lync 手机版](http://go.microsoft.com/fwlink/p/?linkid=285880)"。</span><span class="sxs-lookup"><span data-stu-id="37d8f-106">For details about deploying devices, see [Deploying Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="37d8f-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="37d8f-107">See Also</span></span>
+
+
+[<span data-ttu-id="37d8f-108">规划设备</span><span class="sxs-lookup"><span data-stu-id="37d8f-108">Planning for Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285881)  
+[<span data-ttu-id="37d8f-109">客户端和设备软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="37d8f-109">Client and Device Software and Infrastructure Support</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
