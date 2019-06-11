@@ -1,23 +1,45 @@
-﻿---
-title: 确认配置设置
-TOCTitle: 确认配置设置
-ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204848(v=OCS.15)
-ms:contentKeyID: 49312651
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 验证配置设置
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify configuration settings
+ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
+ms:contentKeyID: 48183997
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 确认配置设置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="verify-configuration-settings"></a><span data-ttu-id="0520a-102">验证配置设置</span><span class="sxs-lookup"><span data-stu-id="0520a-102">Verify configuration settings</span></span>
 
-合并拓扑并运行 **Import-CsLegacyConfiguration** cmdlet 后，应确认 Office Communications Server 2007 R2 策略和设置已导入 Lync Server 2013。下表列出了应确认的策略和设置。
+</div>
 
-## 迁移后要确认的策略和设置
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0520a-103">_**主题上次修改时间:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0520a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="0520a-104">合并拓扑并运行**CsLegacyConfiguration** cmdlet 后, 请验证你的 Office 通信服务器 2007 R2 策略和设置是否已导入到 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="0520a-104">After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet, verify that your Office Communications Server 2007 R2 policies and settings were imported to Lync Server 2013.</span></span> <span data-ttu-id="0520a-105">下表列出了应验证的策略和设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-105">The following table lists the policies and settings that you should verify.</span></span>
+
+<div>
+
+## <a name="policies-and-settings-to-verify-after-migration"></a><span data-ttu-id="0520a-106">迁移后要验证的策略和设置</span><span class="sxs-lookup"><span data-stu-id="0520a-106">Policies and Settings to Verify after Migration</span></span>
 
 
 <table>
@@ -27,101 +49,136 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>如果使用该工作负荷：</th>
-<th>确认这些策略和设置：</th>
+<th><span data-ttu-id="0520a-107">如果使用此工作负荷:</span><span class="sxs-lookup"><span data-stu-id="0520a-107">If you use this workload:</span></span></th>
+<th><span data-ttu-id="0520a-108">验证这些策略和设置:</span><span class="sxs-lookup"><span data-stu-id="0520a-108">Verify these policies and settings:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>即时消息 (IM) 和会议</p></td>
-<td><p>状态策略</p>
-<p>会议策略</p></td>
+<td><p><span data-ttu-id="0520a-109">即时消息 (IM) 和会议</span><span class="sxs-lookup"><span data-stu-id="0520a-109">Instant messaging (IM) and conferencing</span></span></p></td>
+<td><p><span data-ttu-id="0520a-110">状态策略</span><span class="sxs-lookup"><span data-stu-id="0520a-110">Presence policy</span></span></p>
+<p><span data-ttu-id="0520a-111">会议策略</span><span class="sxs-lookup"><span data-stu-id="0520a-111">Conferencing policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>电话拨入式会议</p></td>
-<td><p>拨入访问号码</p>
-<p>拨号计划</p></td>
+<td><p><span data-ttu-id="0520a-112">电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="0520a-112">Dial-in conferencing</span></span></p></td>
+<td><p><span data-ttu-id="0520a-113">拨入访问号码</span><span class="sxs-lookup"><span data-stu-id="0520a-113">Dial-in access numbers</span></span></p>
+<p><span data-ttu-id="0520a-114">拨号计划</span><span class="sxs-lookup"><span data-stu-id="0520a-114">Dial plans</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>企业语音</p></td>
-<td><p>语音策略</p>
-<p>语音路由</p>
-<p>拨号计划</p>
-<p>PSTN 用法设置</p></td>
+<td><p><span data-ttu-id="0520a-115">企业语音</span><span class="sxs-lookup"><span data-stu-id="0520a-115">Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="0520a-116">语音策略</span><span class="sxs-lookup"><span data-stu-id="0520a-116">Voice policy</span></span></p>
+<p><span data-ttu-id="0520a-117">语音路由</span><span class="sxs-lookup"><span data-stu-id="0520a-117">Voice routes</span></span></p>
+<p><span data-ttu-id="0520a-118">拨号计划</span><span class="sxs-lookup"><span data-stu-id="0520a-118">Dial plans</span></span></p>
+<p><span data-ttu-id="0520a-119">PSTN 使用设置</span><span class="sxs-lookup"><span data-stu-id="0520a-119">PSTN usage settings</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Communicator Web Access</p></td>
-<td><p>简单 URL</p></td>
+<td><p><span data-ttu-id="0520a-120">Communicator Web Access</span><span class="sxs-lookup"><span data-stu-id="0520a-120">Communicator Web Access</span></span></p></td>
+<td><p><span data-ttu-id="0520a-121">简单 URL</span><span class="sxs-lookup"><span data-stu-id="0520a-121">Simple URLs</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>外部用户</p></td>
-<td><p>外部访问策略</p></td>
+<td><p><span data-ttu-id="0520a-122">外部用户</span><span class="sxs-lookup"><span data-stu-id="0520a-122">External users</span></span></p></td>
+<td><p><span data-ttu-id="0520a-123">外部访问策略</span><span class="sxs-lookup"><span data-stu-id="0520a-123">External access policies</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>存档</p></td>
-<td><p>存档策略</p></td>
+<td><p><span data-ttu-id="0520a-124">存档</span><span class="sxs-lookup"><span data-stu-id="0520a-124">Archiving</span></span></p></td>
+<td><p><span data-ttu-id="0520a-125">存档策略</span><span class="sxs-lookup"><span data-stu-id="0520a-125">Archiving policy</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 确认策略和设置
+</div>
 
-1.  在 Office Communications Server 2007 R2 环境中，记下拨号计划（以前称为位置配置文件）、拨入访问号码（会议助理访问号码和区域）、语音路由和上表中列出的策略的名称，另外还要记下 Communicator Web Access 使用的 URL。
+<div>
 
-2.  在 Lync Server 2013 前端服务器中，打开 Lync Server 控制面板。
+## <a name="to-verify-policies-and-settings"></a><span data-ttu-id="0520a-126">验证策略和设置</span><span class="sxs-lookup"><span data-stu-id="0520a-126">To verify policies and settings</span></span>
 
-3.  若要确认导入的会议策略，请在左窗格中，依次单击“会议”和“会议策略”，然后确认 Office Communications Server 2007 R2 环境中的所有会议策略都包含在列表中。
+1.  <span data-ttu-id="0520a-127">在 Office 通信服务器 2007 R2 环境中, 记下拨号计划 (以前称为 "位置配置文件") 的名称、拨入访问号码 ("会议助理" 访问电话号码和区域)、语音路由和 "说明" 中列出的策略。上表, 以及用于 Communicator Web Access 的 Url。</span><span class="sxs-lookup"><span data-stu-id="0520a-127">In your Office Communications Server 2007 R2 environment, make note of the names of dial plans (formerly known as location profiles), dial-in access numbers (Conferencing Attendant access phone numbers and regions), voice routes, and the policies listed in the preceding table, in addition to the URLs used for Communicator Web Access.</span></span>
+
+2.  <span data-ttu-id="0520a-128">在 Lync Server 2013 前端服务器上, 打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="0520a-128">On the Lync Server 2013 Front End server, open Lync Server Control Panel.</span></span>
+
+3.  <span data-ttu-id="0520a-129">若要验证导入的会议策略, 请在左窗格中单击 "**会议**", 单击 "**会议策略**", 然后验证列表中是否包含 Office 通信服务器 2007 R2 环境中的所有会议策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-129">To verify imported conferencing policies, in the left pane, click **Conferencing**, click **Conferencing Policy**, and then verify that all the conferencing policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
     
-    > [!NOTE]
-    > Office Communications Server 早期版本中的“会议”(Meeting) 策略现在在 Lync Server 2013 中称为会议 (Conferencing) 策略。此外，Office Communications Server 早期版本中的“匿名参与者”设置现在是 Lync Server 2013 会议策略中的一项设置。
+    <div>
     
-    > [!NOTE]
-    > 在 Office Communications Server 2007 R2 中，如果会议策略未设置为“对每个用户使用”，则只导入全局策略设置。这种情况下不会导入其他会议策略。
+
+    > [!NOTE]  
+    > <span data-ttu-id="0520a-130">以前版本的 Office 通信服务器的<STRONG>会议</STRONG>策略现在称为 Lync Server 2013 中的会议策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-130">The <STRONG>Meeting</STRONG> policy from previous versions of Office Communications Server is now known as the conferencing policy in Lync Server 2013.</span></span> <span data-ttu-id="0520a-131">此外, 以前版本的 Office 通信服务器的<STRONG>匿名 Particpants</STRONG>设置现在是 Lync Server 2013 会议策略中的一个设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-131">Additionally, the <STRONG>Anonymous Particpants</STRONG> setting from previous versions of Office Communications Server is now a setting in the Lync Server 2013 conferencing policy.</span></span>
+
     
-    > [!NOTE]
-    > 如果 Office Communications Server 2007 R2 会议策略中的“匿名参与者”设置为“对于每个用户强制执行”，则会在迁移期间创建两个会议策略：一个将“AllowAnonymousParticipantsInMeetings”设置为“True”，一个将“AllowAnonymousParticipantsInMeetings”设置为“False”。
-
-
-4.  若要确认导入的拨号计划，请依次单击“语音路由”和“拨号计划”，然后确认 Office Communicator 2007 R2 环境中的所有拨号计划都包含在列表中。
+    </div>
     
-    > [!NOTE]
-    > 在 Lync Server 2013 中，“位置配置文件”现在称为“拨号计划”。
-
-
-5.  若要确认导入的语音策略，请依次单击“语音路由”和“语音策略”，然后确认 Office Communicator 2007 R2 环境中的所有语音策略都包含在列表中。
+    <div>
     
-    > [!NOTE]
-    > 在 Office Communications Server 2007 R2 环境中，如果语音策略未设置为“对每个用户使用”，则只导入全局策略设置。这种情况下不会导入其他语音策略。
 
+    > [!NOTE]  
+    > <span data-ttu-id="0520a-132">在 Office 通信服务器 2007 R2 中, 如果会议策略未设置为 "<STRONG>每用户使用</STRONG>", 则仅导入全局策略设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-132">In Office Communications Server 2007 R2, if the conferencing policy is not set to <STRONG>use per user</STRONG>, only global policy settings are imported.</span></span> <span data-ttu-id="0520a-133">在这种情况下, 不会导入任何其他会议策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-133">No other conference policies are imported in this situation.</span></span>
 
-6.  若要确认导入的语音路由，请依次单击“语音路由”和“路由”，然后确认 Office Communicator 2007 R2 环境中的所有语音路由都包含在列表中。
+    
+    </div>
+    
+    <div>
+    
 
-7.  若要确认导入的 PSTN 用法设置，请依次单击“语音路由”和“PSTN 用法”，然后确认 Office Communicator 2007 R2 环境中的 PSTN 用法设置包含在列表中。
+    > [!NOTE]  
+    > <span data-ttu-id="0520a-134">如果在您的 Office 通信服务器2007中将<STRONG>匿名参与者</STRONG>设置为<STRONG>按用户强制实施</STRONG>, 则迁移期间将创建两个会议策略: 一个具有<STRONG>AllowAnonymousParticipantsInMeetings</STRONG>设置为<STRONG>True</STRONG> , 其中一个<STRONG>AllowAnonymousParticipantsInMeetings</STRONG>设置为<STRONG>False</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="0520a-134">If <STRONG>Anonymous Participants</STRONG> is set to <STRONG>Enforce per user</STRONG> in your Office Communications Server 2007 R2 conferencing policy, two conferencing policies are created during migration: one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>True</STRONG> and one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>False</STRONG>.</span></span>
 
-8.  若要确认导入的外部访问策略，请依次单击“联盟和外部访问”和“外部访问策略”，然后确认 Office Communicator 2007 R2 环境中的所有外部访问策略都包含在列表中。
+    
+    </div>
 
-9.  若要确认存档策略，请依次单击“监控和存档”和“存档策略”，然后确认 Office Communications Server 2007 R2 环境中的所有存档策略都包含在列表中。
+4.  <span data-ttu-id="0520a-135">若要验证导入的拨号计划, 请单击 "**语音路由**", 单击 "**拨号计划**", 然后验证列表中是否包含 Office Communicator 2007 R2 环境中的所有拨号计划。</span><span class="sxs-lookup"><span data-stu-id="0520a-135">To verify imported dial plans, click **Voice Routing**, click **Dial Plan**, and then verify that all the dial plans in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+    
+    <div>
+    
 
-10. 打开 Lync Server 命令行管理程序。
+    > [!NOTE]  
+    > <span data-ttu-id="0520a-136">在 Lync Server 2013 中,<STRONG>位置配置文件</STRONG>现在称为 "<STRONG>拨号计划</STRONG>"。</span><span class="sxs-lookup"><span data-stu-id="0520a-136">In Lync Server 2013, <STRONG>location profiles</STRONG> are now referred to as <STRONG>dial-plans</STRONG>.</span></span>
 
-11. 若要验证状态策略，请在命令行中键入：
+    
+    </div>
+
+5.  <span data-ttu-id="0520a-137">若要验证导入的语音策略, 请单击 "**语音路由**", 单击 "**语音策略**", 然后验证列表中是否包含 Office Communicator 2007 R2 环境中的所有语音策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-137">To verify imported voice policies, click **Voice Routing**, click **Voice Policy**, and then verify that all the voice policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="0520a-138">如果在您的 Office 通信服务器 2007 R2 环境中未将语音策略设置为 "<STRONG>每用户使用</STRONG>", 则只导入全局策略设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-138">If voice policy is not set to <STRONG>use per user</STRONG> in your Office Communications Server 2007 R2 environment, only global policy settings are imported.</span></span> <span data-ttu-id="0520a-139">在这种情况下, 不会导入任何其他语音策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-139">No other voice policies are imported in this situation.</span></span>
+
+    
+    </div>
+
+6.  <span data-ttu-id="0520a-140">若要验证导入的语音路由, 请单击 "**语音路由**", 单击 "**路由**", 然后验证列表中是否包含 Office Communicator 2007 R2 环境中的所有语音路由。</span><span class="sxs-lookup"><span data-stu-id="0520a-140">To verify imported voice routes, click **Voice Routing**, click **Route**, and then verify that all the voice routes in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+
+7.  <span data-ttu-id="0520a-141">若要验证导入的 PSTN 使用设置, 请单击 "**语音路由**", 单击 " **PSTN 使用**", 然后验证列表中是否包含 Office Communicator 2007 R2 环境中的 PSTN 使用设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-141">To verify imported PSTN usage settings, click **Voice Routing**, click **PSTN Usage**, and then verify that the PSTN Usage settings from your Office Communicator 2007 R2 environment are included in the list.</span></span>
+
+8.  <span data-ttu-id="0520a-142">若要验证导入的外部访问策略, 请单击 "**联盟和外部访问**", 单击 "**外部访问策略**", 然后验证列表中是否包含 Office Communicator 2007 R2 环境中的所有外部访问策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-142">To verify imported external access policies, click **Federation and External Access**, click **External Access Policy**, and then verify that all the external access policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+
+9.  <span data-ttu-id="0520a-143">若要验证存档策略, 请单击 "**监视和存档**", 单击 "**存档策略**", 然后验证你的 Office 通信服务器 2007 R2 环境中的所有存档策略是否都包含在列表中。</span><span class="sxs-lookup"><span data-stu-id="0520a-143">To verify archiving policies, click **Monitoring and Archiving**, click **Archiving Policy**, and then verify that all the archiving policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
+
+10. <span data-ttu-id="0520a-144">打开 Lync Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="0520a-144">Open the Lync Server Management Shell.</span></span>
+
+11. <span data-ttu-id="0520a-145">若要验证状态策略, 请在命令行中键入以下内容:</span><span class="sxs-lookup"><span data-stu-id="0520a-145">To verify presence policies, at the command line, type the following:</span></span>
     
         Get-CsPresencePolicy
     
-    通过查看 **Identity** 参数中的名称，确认 Office Communications Server 2007 R2 环境中的所有状态策略均已导入。
+    <span data-ttu-id="0520a-146">通过在**Identity**参数中查看名称, 验证是否已导入 Office 通信服务器 2007 R2 环境中的所有状态策略。</span><span class="sxs-lookup"><span data-stu-id="0520a-146">By looking at the name in the **Identity** parameter, verify that all the presence policies in your Office Communications Server 2007 R2 environment were imported.</span></span>
 
-## 使用 cmdlet 确认策略和设置
+</div>
 
-1.  打开 Lync Server 命令行管理程序。
+<div>
 
-2.  运行下表中的 cmdlet 以确认策略和设置。
+## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a><span data-ttu-id="0520a-147">使用 cmdlet 验证策略和设置</span><span class="sxs-lookup"><span data-stu-id="0520a-147">To verify policies and settings by using cmdlets</span></span>
+
+1.  <span data-ttu-id="0520a-148">打开 Lync Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="0520a-148">Open the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="0520a-149">运行下表中的 cmdlet 以验证策略和设置。</span><span class="sxs-lookup"><span data-stu-id="0520a-149">Run the cmdlets in the following table to verify policies and settings.</span></span>
     
-    这些 cmdlet 的语法如以下示例所示：
+    <span data-ttu-id="0520a-150">这些 cmdlet 的语法类似于以下示例:</span><span class="sxs-lookup"><span data-stu-id="0520a-150">The syntax of these cmdlets is like the following example:</span></span>
     
         Get-CsConferencingPolicy
     
-    有关这些 cmdlet 的详细信息，请运行：
+    <span data-ttu-id="0520a-151">有关这些 cmdlet 的详细信息, 请运行:</span><span class="sxs-lookup"><span data-stu-id="0520a-151">For details about these cmdlets, run:</span></span>
     
         Get-Help <cmdlet name> -Detailed
 
@@ -133,51 +190,64 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>对于该策略或设置：</th>
-<th>使用该 cmdlet：</th>
+<th><span data-ttu-id="0520a-152">对于此策略或设置:</span><span class="sxs-lookup"><span data-stu-id="0520a-152">For this policy or setting:</span></span></th>
+<th><span data-ttu-id="0520a-153">使用此 cmdlet:</span><span class="sxs-lookup"><span data-stu-id="0520a-153">Use this cmdlet:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>状态策略</p></td>
-<td><p><strong>Get-CsPresencePolicy</strong></p></td>
+<td><p><span data-ttu-id="0520a-154">状态策略</span><span class="sxs-lookup"><span data-stu-id="0520a-154">Presence policy</span></span></p></td>
+<td><p><span data-ttu-id="0520a-155"><strong>Get-CsPresencePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-155"><strong>Get-CsPresencePolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>会议策略</p></td>
-<td><p><strong>Get-CsConferencingPolicy</strong></p></td>
+<td><p><span data-ttu-id="0520a-156">会议策略</span><span class="sxs-lookup"><span data-stu-id="0520a-156">Conferencing policy</span></span></p></td>
+<td><p><span data-ttu-id="0520a-157"><strong>Get-CsConferencingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-157"><strong>Get-CsConferencingPolicy</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>拨入访问号码</p></td>
-<td><p><strong>Get-CsDialInConferencingAccessNumber</strong></p></td>
+<td><p><span data-ttu-id="0520a-158">拨入访问号码</span><span class="sxs-lookup"><span data-stu-id="0520a-158">Dial-in access numbers</span></span></p></td>
+<td><p><span data-ttu-id="0520a-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>拨号计划</p></td>
-<td><p><strong>Get-CsDialPlan</strong></p></td>
+<td><p><span data-ttu-id="0520a-160">拨号计划</span><span class="sxs-lookup"><span data-stu-id="0520a-160">Dial plans</span></span></p></td>
+<td><p><span data-ttu-id="0520a-161"><strong>Get-CsDialPlan</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-161"><strong>Get-CsDialPlan</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>语音策略</p></td>
-<td><p><strong>Get-CsVoicePolicy</strong></p></td>
+<td><p><span data-ttu-id="0520a-162">语音策略</span><span class="sxs-lookup"><span data-stu-id="0520a-162">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="0520a-163"><strong>CsVoicePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-163"><strong>Get-CsVoicePolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>语音路由</p></td>
-<td><p><strong>Get-CsVoiceRoute</strong></p></td>
+<td><p><span data-ttu-id="0520a-164">语音路由</span><span class="sxs-lookup"><span data-stu-id="0520a-164">Voice routes</span></span></p></td>
+<td><p><span data-ttu-id="0520a-165"><strong>CsVoiceRoute</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-165"><strong>Get-CsVoiceRoute</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 用法</p></td>
-<td><p><strong>Get-CsPstnUsage</strong></p></td>
+<td><p><span data-ttu-id="0520a-166">PSTN 用法</span><span class="sxs-lookup"><span data-stu-id="0520a-166">PSTN Usage</span></span></p></td>
+<td><p><span data-ttu-id="0520a-167"><strong>Get-CsPstnUsage</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-167"><strong>Get-CsPstnUsage</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>URL</p></td>
-<td><p><strong>Get-CsSimpleUrlConfiguration</strong></p></td>
+<td><p><span data-ttu-id="0520a-168">URL</span><span class="sxs-lookup"><span data-stu-id="0520a-168">URLs</span></span></p></td>
+<td><p><span data-ttu-id="0520a-169"><strong>CsSimpleUrlConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-169"><strong>Get-CsSimpleUrlConfiguration</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>外部访问策略</p></td>
-<td><p><strong>Get-CsExternalAccessPolicy</strong></p></td>
+<td><p><span data-ttu-id="0520a-170">外部访问策略</span><span class="sxs-lookup"><span data-stu-id="0520a-170">External access policies</span></span></p></td>
+<td><p><span data-ttu-id="0520a-171"><strong>CsExternalAccessPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-171"><strong>Get-CsExternalAccessPolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>存档策略</p></td>
-<td><p><strong>Get-CsArchivingPolicy</strong></p></td>
+<td><p><span data-ttu-id="0520a-172">存档策略</span><span class="sxs-lookup"><span data-stu-id="0520a-172">Archiving policy</span></span></p></td>
+<td><p><span data-ttu-id="0520a-173"><strong>Get-CsArchivingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="0520a-173"><strong>Get-CsArchivingPolicy</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,32 +1,56 @@
-﻿---
-title: 查看公共区域电话信息
-TOCTitle: 查看公共区域电话信息
-ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994081(v=OCS.15)
-ms:contentKeyID: 52061163
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 查看常见的区域电话信息'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View common area phone information
+ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994081(v=OCS.15)
+ms:contentKeyID: 51803992
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 900beb4f96fd71e0e6a4ded40d776f1e7d356529
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845363"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 查看公共区域电话信息
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-20_
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a><span data-ttu-id="439d0-102">在 Lync Server 2013 中查看常见的区域电话信息</span><span class="sxs-lookup"><span data-stu-id="439d0-102">View common area phone information in Lync Server 2013</span></span>
 
-您可以使用 **Get-CsCommonAreaPhone** cmdlet 查看有关配置为在组织中使用的公用区域电话的信息。使用此 cmdlet 时无需带任何参数，它返回有关您的所有公用区域电话的信息。可选参数为您提供了筛选信息的不同方法，例如，可以返回在指定组织单位 (OU) 中具有联系对象的所有公用区域电话，或位于指定建筑物的所有联系对象。有关 **Get-CsCommonAreaPhone** 参数的详细信息，请参阅 [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)。
+</div>
 
-从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行 **Get-CsCommonAreaPhone**。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="439d0-103">_**主题上次修改时间:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="439d0-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="439d0-104">你可以使用**CsCommonAreaPhone** cmdlet 查看配置为在你的组织中使用的公共区域电话的相关信息。</span><span class="sxs-lookup"><span data-stu-id="439d0-104">You can view information about the common area phones configured for use in your organization by using the **Get-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="439d0-105">如果在没有任何参数的情况下使用, 此 cmdlet 将返回有关所有公共区域电话的信息。</span><span class="sxs-lookup"><span data-stu-id="439d0-105">Used without any parameters, this cmdlet returns information about all your common area phones.</span></span> <span data-ttu-id="439d0-106">可选参数提供不同的筛选信息的方式。</span><span class="sxs-lookup"><span data-stu-id="439d0-106">Optional parameters provide different ways for you to filter information.</span></span> <span data-ttu-id="439d0-107">例如, 您可以返回在指定的组织单位 (OU) 中具有联系人对象的所有公共区域电话或位于指定建筑物内的所有联系人对象。</span><span class="sxs-lookup"><span data-stu-id="439d0-107">For example, you can return all the common area phones that have contact objects in a specified organizational unit (OU) or all the contacts objects located in a specified building.</span></span> <span data-ttu-id="439d0-108">有关**CsCommonAreaPhone**参数的详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)。</span><span class="sxs-lookup"><span data-stu-id="439d0-108">For details about **Get-CsCommonAreaPhone** parameters, see [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).</span></span>
+
+<span data-ttu-id="439d0-109">从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行**CsCommonAreaPhone** 。</span><span class="sxs-lookup"><span data-stu-id="439d0-109">Run **Get-CsCommonAreaPhone** either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+
+<div>
 
 
-## 查看有关您的所有公用区域电话的信息
+<div>
 
-  - 若要查看有关您的所有公用区域电话的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 Enter：
+## <a name="viewing-information-about-all-your-common-area-phones"></a><span data-ttu-id="439d0-110">查看有关所有常用区域电话的信息</span><span class="sxs-lookup"><span data-stu-id="439d0-110">Viewing Information about All Your Common Area Phones</span></span>
+
+  - <span data-ttu-id="439d0-111">若要查看有关所有常用区域电话的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 Enter:</span><span class="sxs-lookup"><span data-stu-id="439d0-111">To view information about all your common area phones, type the following command in the Lync Server Management Shell, and then press Enter:</span></span>
     
         Get-CsCommonAreaPhone
     
-    您将收到如下信息：
+    <span data-ttu-id="439d0-112">您将获得类似以下内容的信息:</span><span class="sxs-lookup"><span data-stu-id="439d0-112">You’ll get information similar to this:</span></span>
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -46,5 +70,19 @@ _**上一次修改主题：** 2013-02-20_
         Description        :
         ExUmEnabled        : False
 
-有关详细信息，请参阅 [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet 的帮助主题。
+</div>
+
+<span data-ttu-id="439d0-113">有关详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) Cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="439d0-113">For details, see the Help topic for the [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

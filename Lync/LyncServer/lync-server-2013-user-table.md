@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：User 表
-TOCTitle: User 表
-ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398505(v=OCS.15)
-ms:contentKeyID: 49313161
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：User 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User table
+ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
+ms:contentKeyID: 48184437
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845479"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 User 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="user-table-in-lync-server-2013"></a><span data-ttu-id="437a6-102">Lync Server 2013 中的 User 表</span><span class="sxs-lookup"><span data-stu-id="437a6-102">User table in Lync Server 2013</span></span>
 
-User 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户的列表。该表中的每条记录表示一个用户。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="437a6-103">_**主题上次修改时间:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="437a6-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="437a6-104">用户表是一个支持表, 用于存储参与数据库中记录的会话的各种用户的列表。</span><span class="sxs-lookup"><span data-stu-id="437a6-104">The User table is a supporting table that stores a list of the various users who have participated in sessions recorded in the database.</span></span> <span data-ttu-id="437a6-105">表中的每条记录表示一个用户。</span><span class="sxs-lookup"><span data-stu-id="437a6-105">Each record in the table represents one user.</span></span>
 
 
 <table>
@@ -27,52 +47,63 @@ User 表是一个支持表，用于存储已参与数据库中记录的会话的
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>列</strong></th>
-<th><strong>数据类型</strong></th>
-<th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><span data-ttu-id="437a6-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="437a6-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="437a6-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="437a6-109"><strong>详细信息</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>主</p></td>
-<td><p>用于标识此用户的唯一编号。</p></td>
+<td><p><span data-ttu-id="437a6-110"><strong>UserKey</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-110"><strong>UserKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-111">int</span><span class="sxs-lookup"><span data-stu-id="437a6-111">int</span></span></p></td>
+<td><p><span data-ttu-id="437a6-112">Primary</span><span class="sxs-lookup"><span data-stu-id="437a6-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="437a6-113">标识此用户的唯一号码。</span><span class="sxs-lookup"><span data-stu-id="437a6-113">Unique number identifying this user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>URI</strong></p></td>
-<td><p>nvarchar (450)</p></td>
-<td><p>唯一</p></td>
-<td><p>URI 字符串。</p></td>
+<td><p><span data-ttu-id="437a6-114"><strong>URI</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-114"><strong>URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="437a6-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="437a6-116">唯一</span><span class="sxs-lookup"><span data-stu-id="437a6-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="437a6-117">URI 字符串。</span><span class="sxs-lookup"><span data-stu-id="437a6-117">URI string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>URIType</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>1 是未知 URI 类型。</p>
-<p>2 是用户 URI。</p>
-<p>4 是会议 URI。</p>
-<p>8 是电话 URI。</p></td>
+<td><p><span data-ttu-id="437a6-118"><strong>URIType</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-118"><strong>URIType</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-119">int</span><span class="sxs-lookup"><span data-stu-id="437a6-119">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="437a6-120">1是未知的 URI 类型。</span><span class="sxs-lookup"><span data-stu-id="437a6-120">1 is unknown URI type.</span></span></p>
+<p><span data-ttu-id="437a6-121">2是用户 URI。</span><span class="sxs-lookup"><span data-stu-id="437a6-121">2 is user URI.</span></span></p>
+<p><span data-ttu-id="437a6-122">4是会议 URI。</span><span class="sxs-lookup"><span data-stu-id="437a6-122">4 is conference URI.</span></span></p>
+<p><span data-ttu-id="437a6-123">8是电话 URI。</span><span class="sxs-lookup"><span data-stu-id="437a6-123">8 is phone URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>用户的租户，被 Tenant 表引用。</p></td>
+<td><p><span data-ttu-id="437a6-124"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-124"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-125">int</span><span class="sxs-lookup"><span data-stu-id="437a6-125">int</span></span></p></td>
+<td><p><span data-ttu-id="437a6-126">外表</span><span class="sxs-lookup"><span data-stu-id="437a6-126">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="437a6-127">用户的租户, 从租户表引用。</span><span class="sxs-lookup"><span data-stu-id="437a6-127">Tenant of the user, referenced from tenant table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LastPoorCallTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>用户具有较差音频呼叫时的最新时间戳。</p></td>
+<td><p><span data-ttu-id="437a6-128"><strong>LastPoorCallTime</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-128"><strong>LastPoorCallTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-129">datetime</span><span class="sxs-lookup"><span data-stu-id="437a6-129">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="437a6-130">当用户的音频通话较差时的最晚时间戳。</span><span class="sxs-lookup"><span data-stu-id="437a6-130">Latest time stamp when the user had a poor audio call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>仅供内部使用。</p></td>
+<td><p><span data-ttu-id="437a6-131"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="437a6-131"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="437a6-132">datetime</span><span class="sxs-lookup"><span data-stu-id="437a6-132">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="437a6-133">仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="437a6-133">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

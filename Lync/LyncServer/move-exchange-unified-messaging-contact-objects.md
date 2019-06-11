@@ -1,60 +1,110 @@
-﻿---
-title: 移动 Exchange 统一消息联系人对象
-TOCTitle: 移动 Exchange 统一消息联系人对象
-ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688022(v=OCS.15)
-ms:contentKeyID: 49888376
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 移动 Exchange 统一消息联系人对象
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move Exchange Unified Messaging Contact objects
+ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688022(v=OCS.15)
+ms:contentKeyID: 49733612
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 946bf7221ab9f4c5a7111839bca25dabaad31d82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845181"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移动 Exchange 统一消息联系人对象
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-19_
+# <a name="move-exchange-unified-messaging-contact-objects"></a><span data-ttu-id="0afe8-102">移动 Exchange 统一消息联系人对象</span><span class="sxs-lookup"><span data-stu-id="0afe8-102">Move Exchange Unified Messaging Contact objects</span></span>
 
-若要将自动助理 (AA) 和订阅者访问 (SA) 联系对象迁移到新的 Lync Server 2013 部署，请先使用 **Get-CsExUmContact** 和 **Move-CsExUmContact** cmdlet 将这些对象从旧 Office Communications Server 2007 R2 部署移到新 Lync Server 2013 部署。然后在 Exchange Server 上，运行 **ExchUCUtil**Windows PowerShell 脚本，以便对新部署的 Lync 池执行下列操作：
+</div>
 
-  - 将其添加到统一消息 IP 网关。
+<div id="mainSection">
 
-  - 将其添加到统一消息智能寻线。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0afe8-103">_**主题上次修改时间:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0afe8-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="0afe8-104">若要将自动助理 (AA) 和订阅者访问 (SA) 的联系人对象迁移到新的 Lync Server 2013 部署, 首先首先将旧 Office 通信服务器 2007 R2 部署中的对象移动到新的 Lync Server 2013 部署, 使用**CsExUmContact**和**CsExUmContact** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="0afe8-104">To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the new Lync Server 2013 deployment, you first move the objects from the legacy Office Communications Server 2007 R2 deployment to the new the Lync Server 2013 deployment using the **Get-CsExUmContact** and **Move-CsExUmContact** cmdlets.</span></span> <span data-ttu-id="0afe8-105">在 Exchange 服务器上, 然后运行**ExchUCUtil** Windows PowerShell 脚本, 为新部署的 Lync pool 执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="0afe8-105">On the Exchange Server, you then run the **ExchUCUtil** Windows PowerShell script to do the following for the newly deployed Lync pool:</span></span>
+
+  - <span data-ttu-id="0afe8-106">将其添加到统一消息 IP 网关。</span><span class="sxs-lookup"><span data-stu-id="0afe8-106">Add it to the Unified Messaging IP gateways.</span></span>
+
+  - <span data-ttu-id="0afe8-107">将其添加到统一邮件查寻组。</span><span class="sxs-lookup"><span data-stu-id="0afe8-107">Add it to the Unified Messaging hunt groups.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 若要使用 <strong>Get-CsExUmContact</strong> 和 <strong>Move-CsExUmContact</strong> cmdlet，您必须是 RTCUniversalUserAdmins 组的成员，并且拥有存储联系对象的组织单位 (OU) 的 OU 权限。可以使用 <strong>Grant-OUPermission</strong> cmdlet 授予 OU 权限。
+> <span data-ttu-id="0afe8-108">若要使用<STRONG>CsExUmContact</STRONG>和<STRONG>CsExUmContact</STRONG> cmdlet, 您必须是 RTCUniversalUserAdmins 组的成员, 并对存储联系人对象的 OU 拥有组织单位 (OU) 权限。</span><span class="sxs-lookup"><span data-stu-id="0afe8-108">In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored.</span></span> <span data-ttu-id="0afe8-109">可以使用<STRONG>OUPermission</STRONG> CMDLET 授予 OU 权限。</span><span class="sxs-lookup"><span data-stu-id="0afe8-109">OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.</span></span>
 
 
-## 使用 Lync Server 命令行管理程序移动联系对象
 
-1.  打开 Lync Server 命令行管理程序。
+</div>
 
-2.  对于在命令行向 Exchange UM 注册的每个池（其中，pool1.contoso.net 是 Office Communications Server 2007 R2 部署中的池，而 pool2.contoso.net 是 Lync Server 2013 部署中的池），请键入以下内容：
+<div>
+
+## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a><span data-ttu-id="0afe8-110">使用 Lync Server 命令行管理程序移动联系人对象</span><span class="sxs-lookup"><span data-stu-id="0afe8-110">To move contact objects by using the Lync Server Management Shell</span></span>
+
+1.  <span data-ttu-id="0afe8-111">打开 Lync Server 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="0afe8-111">Open the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="0afe8-112">对于使用 Exchange UM 注册的每个池 (其中 pool1.contoso.net 是 Office 通信服务器 2007 R2 部署的池, 而 pool2.contoso.net 是 Lync Server 2013 部署中的池), 请键入以下命令:</span><span class="sxs-lookup"><span data-stu-id="0afe8-112">For each pool registered with Exchange UM (where pool1.contoso.net is a pool from the Office Communications Server 2007 R2 deployment and pool2.contoso.net is the pool from the Lync Server 2013 deployment) at the command line, type the following:</span></span>
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    若要验证是否已移动联系对象，请运行 **Get-CsExumContact** cmdlet，并确认“RegistrarPool”现在指向新池。
+    <span data-ttu-id="0afe8-113">若要验证联系人对象是否已移动, 请运行**CsExumContact** cmdlet, 确认**RegistrarPool**现在指向新池。</span><span class="sxs-lookup"><span data-stu-id="0afe8-113">To verify that the contact objects are moved, run the **Get-CsExumContact** cmdlet and confirm that **RegistrarPool** is now pointing to the new pool.</span></span>
 
-## 运行 ExchUCUtil Windows PowerShell 脚本
+</div>
 
-1.  以具有 Exchange 组织管理员权限的用户身份登录到 Exchange UM 服务器。
+<div>
 
-2.  导航到 ExchUCUtil Windows PowerShell 脚本。
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a><span data-ttu-id="0afe8-114">运行 ExchUCUtil Windows PowerShell 脚本</span><span class="sxs-lookup"><span data-stu-id="0afe8-114">To run the ExchUCUtil Windows PowerShell script</span></span>
+
+1.  <span data-ttu-id="0afe8-115">以具有 Exchange 组织管理员权限的用户身份登录 Exchange UM 服务器。</span><span class="sxs-lookup"><span data-stu-id="0afe8-115">Log on to the Exchange UM Server as a user with Exchange Organization Administrator privileges.</span></span>
+
+2.  <span data-ttu-id="0afe8-116">导航到 ExchUCUtil Windows PowerShell 脚本。</span><span class="sxs-lookup"><span data-stu-id="0afe8-116">Navigate to the ExchUCUtil Windows PowerShell script.</span></span>
     
-    在 Exchange 2007 中，ExchUCUtil.ps1 位于： **%Program Files%\\Microsoft\\Exchange Server\\Scripts\\ExchUCUtil.ps1**
+    <span data-ttu-id="0afe8-117">在 Exchange 2007 中, ExchUCUtil 位于: **%\\程序文件%\\Microsoft Exchange Server\\脚本 ExchUCUtil\\**</span><span class="sxs-lookup"><span data-stu-id="0afe8-117">In Exchange 2007, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\Scripts\\ExchUCUtil.ps1**</span></span>
     
-    在 Exchange 2010 中，ExchUCUtil.ps1 位于： **%Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\ExchUCUtil.ps1**
+    <span data-ttu-id="0afe8-118">在 Exchange 2010 中, ExchUCUtil 位于: **%\\程序文件% Microsoft\\Exchange Server\\V14\\脚本 ExchUCUtil\\**</span><span class="sxs-lookup"><span data-stu-id="0afe8-118">In Exchange 2010, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\ExchUCUtil.ps1**</span></span>
 
-3.  如果 Exchange 部署在单个林中，请键入：
+3.  <span data-ttu-id="0afe8-119">如果在单个林中部署了 Exchange, 请键入:</span><span class="sxs-lookup"><span data-stu-id="0afe8-119">If Exchange is deployed in a single forest, type:</span></span>
     
         exchucutil.ps1
     
-    否则，如果 Exchange 部署在多个林中，则键入：
+    <span data-ttu-id="0afe8-120">或者, 如果 Exchange 是在多个目录林中部署的, 请键入:</span><span class="sxs-lookup"><span data-stu-id="0afe8-120">Or, if Exchange is deployed in multiple forests, type:</span></span>
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    其中，*forest FQDN* 指定在其中部署 Lync Server 2013 的林。
+    <span data-ttu-id="0afe8-121">其中, 林 FQDN 指定了在其中部署 Lync Server 2013 的林。</span><span class="sxs-lookup"><span data-stu-id="0afe8-121">where forest FQDN specifies the forest in which Lync Server 2013 is deployed.</span></span>
     
-    > [!IMPORTANT]
-    > 运行 exchucutil.ps1 后，请确保重新启动“Lync Server 前端”服务 (rtcsrv.exe)。否则，Lync Server 2013 将无法在拓扑中检测统一消息。
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="0afe8-122">请确保在运行 exchucutil<EM>后</EM>重新启动<STRONG>Lync Server 前端</STRONG>服务 (rtcsrv)。</span><span class="sxs-lookup"><span data-stu-id="0afe8-122">Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1.</span></span> <span data-ttu-id="0afe8-123">否则, Lync Server 2013 将不会在拓扑中检测到统一消息。</span><span class="sxs-lookup"><span data-stu-id="0afe8-123">Otherwise, Lync Server 2013 will not detect Unified Messaging in the topology.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

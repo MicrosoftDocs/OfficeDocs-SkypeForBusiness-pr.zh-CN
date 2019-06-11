@@ -1,43 +1,83 @@
-﻿---
-title: 用于通讯簿管理的 Update-CsAddressBook
-TOCTitle: 用于通讯簿管理的 Update-CsAddressBook
-ms:assetid: 0ffd2ef8-201c-44aa-8c64-1c7b0eaa7d48
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg429695(v=OCS.15)
-ms:contentKeyID: 49312022
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 更新-通讯簿管理的 CsAddressBook'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Update-CsAddressBook for Address Book management
+ms:assetid: 0ffd2ef8-201c-44aa-8c64-1c7b0eaa7d48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429695(v=OCS.15)
+ms:contentKeyID: 48183428
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 22923d0227c75ee6f2055d4a2ac350a6df6b37bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845518"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 用于通讯簿管理的 Update-CsAddressBook
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="eea6f-102">CsAddressBook-Lync Server 2013 中的通讯簿管理的更新</span><span class="sxs-lookup"><span data-stu-id="eea6f-102">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>
 
-谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Update-CsAddressBook cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="eea6f-103">_**主题上次修改时间:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="eea6f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="eea6f-104">哪些人可以运行此 cmdlet: 默认情况下, 以下组的成员授权在本地运行 CsAddressBook cmdlet: RTCUniversalUserAdmins、RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="eea6f-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Update-CsAddressBook cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="eea6f-105">若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="eea6f-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-Update-CsAddressBook cmdlet 可替代 Office Communications Server 中的 **abserver.exe –syncNow** 命令。该 cmdlet 的用途是立即启动同步，而不是等到安排的时间才启动。第一个示例命令更新组织中的所有通讯簿。第二个示例命令仅更新与定义的服务器关联的通讯簿。
+<span data-ttu-id="eea6f-106">CsAddressBook cmdlet 替换 Office 通信服务器中的**abserver-syncNow**命令。</span><span class="sxs-lookup"><span data-stu-id="eea6f-106">The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server.</span></span> <span data-ttu-id="eea6f-107">该 cmdlet 的用途是立即启动同步, 而不是等待计划的时间。</span><span class="sxs-lookup"><span data-stu-id="eea6f-107">The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time.</span></span> <span data-ttu-id="eea6f-108">第一个示例命令将更新组织中的所有通讯簿。</span><span class="sxs-lookup"><span data-stu-id="eea6f-108">The first example command updates all Address Books in the organization.</span></span> <span data-ttu-id="eea6f-109">第二个更新仅更新与已定义服务器相关联的通讯簿。</span><span class="sxs-lookup"><span data-stu-id="eea6f-109">The second updates only the Address Book associated with the defined server.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 在 Lync Server 2013 中，Lync Server 用户复制程序将从 Active Directory 选取所做的更改并基于配置的时间间隔更新 Lync Server 用户数据库。Lync Server 用户复制程序还快速将更改传播到 RTCab 数据库，而无需管理员运行 Update-CSAddressBook。如果启用了通讯簿文件下载，则管理员只需要运行 Update-CSAddressBook。
+> <span data-ttu-id="eea6f-110">在 Lync Server 2013 中, Lync Server 用户复制程序将从 Active Directory 中获取更改, 并根据配置的间隔更新 Lync Server 用户数据库。</span><span class="sxs-lookup"><span data-stu-id="eea6f-110">In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval.</span></span> <span data-ttu-id="eea6f-111">Lync Server 用户复制程序还将在无需运行 CSAddressBook 的情况下快速将更改传播到 RTCab 数据库。</span><span class="sxs-lookup"><span data-stu-id="eea6f-111">Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook.</span></span> <span data-ttu-id="eea6f-112">只有当通讯簿文件下载已启用时, 管理员才需要运行 CSAddressBook 更新。</span><span class="sxs-lookup"><span data-stu-id="eea6f-112">Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.</span></span>
 
 
-例如：
 
+</div>
+
+<span data-ttu-id="eea6f-113">例如：</span><span class="sxs-lookup"><span data-stu-id="eea6f-113">For example:</span></span>
+
+   ```
     Update-CsAddressBook
+   ```
 
-   &nbsp;
-
+   ```
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
+   ```
 
-有关完整命令的详细说明，请参阅主 Lync Server Windows PowerShell RTCCmdlets 参考中的以下内容。
+<div>
 
-## 另请参阅
+## <a name="see-also"></a><span data-ttu-id="eea6f-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eea6f-114">See Also</span></span>
 
-#### 其他资源
 
-[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
+[<span data-ttu-id="eea6f-115">Update-CsAddressBook</span><span class="sxs-lookup"><span data-stu-id="eea6f-115">Update-CsAddressBook</span></span>](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

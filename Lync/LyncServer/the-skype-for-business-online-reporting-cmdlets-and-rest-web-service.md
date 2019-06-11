@@ -1,47 +1,83 @@
-﻿---
-title: Lync Online：Lync Online 报告 cmdlet 和 REST Web 服务
-TOCTitle: Lync Online 报告 cmdlet 和 REST Web 服务
-ms:assetid: cadd73a7-c08a-4102-b73a-ccb3ad4987bf
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn362845(v=OCS.15)
-ms:contentKeyID: 56271204
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Skype for Business Online 报告 cmdlet 和 REST web 服务
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
+ms:assetid: cadd73a7-c08a-4102-b73a-ccb3ad4987bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362845(v=OCS.15)
+ms:contentKeyID: 56563409
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a140ed48ac662daea14d602f0830b2fbc4bf1c05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845085"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Online 报告 cmdlet 和 REST Web 服务
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a><span data-ttu-id="2ccb6-102">Skype for Business Online 报告 cmdlet 和 REST web 服务</span><span class="sxs-lookup"><span data-stu-id="2ccb6-102">The Skype for Business Online reporting cmdlets and REST web service</span></span>
 
-与报告功能接合使用，Skype for Business Online 可提供对五个 Windows PowerShell cmdlet 的访问权限，这些 cmdlet 可帮助生成那些报告，也可以由管理员用于返回自定义的报告数据。Skype for Business Online 也包括 REST（表述性状态转移），可以由开发人员用于检索自定义的报告信息。
+</div>
 
-可供管理员使用的报告 cmdlet 包括：
+<div id="mainSection">
 
-  - Get-CsActiveUserReport：提供有关活动用户（即，已登录到 Skype for Business Online 并至少参与一个会议或对等通信会话的用户）数目的信息。
+<div id="mainBody">
 
-  - Get-CsAVConferenceTimeReport：提供有关用户对音频/视频会议所花的时间（分钟）的信息。
+<span> </span>
 
-  - Get-CsConferenceReport：提供有关用户参与的会议数和会议类型的信息。
+<span data-ttu-id="2ccb6-103">_**主题上次修改时间:** 2014-09-05_</span><span class="sxs-lookup"><span data-stu-id="2ccb6-103">_**Topic Last Modified:** 2014-09-05_</span></span>
 
-  - Get-CsP2PAVTimeReport：提供有关用户对对等会话（包括音频和/或视频）所花的时间（分钟）的信息。
+<span data-ttu-id="2ccb6-104">通过结合报告功能, Skype for Business Online 提供对五个 Windows PowerShell cmdlet 的访问权限, 可帮助生成这些报告, 并且管理员也可以使用这些 cmdlet 返回自定义报告数据。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-104">In conjunction with the reporting features, Skype for Business Online provides access to five Windows PowerShell cmdlets that help generate those reports and are also can be used by administrators to return customized reporting data.</span></span> <span data-ttu-id="2ccb6-105">Skype for Business Online 还包括 REST (Representational 状态转移), 开发人员可以使用它们检索自定义报告信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-105">Skype for Business Online also includes the REST (Representational State Transfer), which can be used by developers to retrieve customized reporting information.</span></span>
 
-  - Get-CsP2PSessionReport：提供有关用户参与的对等会话数和对等会话类型的信息。
+<span data-ttu-id="2ccb6-106">管理员可用的报告 cmdlet 包括:</span><span class="sxs-lookup"><span data-stu-id="2ccb6-106">The reporting cmdlets available to administrators include:</span></span>
 
-大多数管理员将使用 Office 365 管理中心中可用的报告：这些报告不仅仅是自动生成的，它们还提供数据的图形表示，这些图形表示比报告 cmdlet 返回的原始数值更容易解释。但是，熟悉 Windows PowerShell 的管理员可以使用报告 cmdlet 返回无法从 Lync Online 报告轻松获得的数据。例如，报告 cmdlet 返回有关会话持续时间的信息（每个会话持续的时间量，以分钟为单位）。个别会话持续时间无法使用 Lync Online 报告获得。同样，在天视图中，Lync Online 报告仅显示过去 7 天的信息。如果想要查看不同日期（例如，四个月以前的某个日期）的日总计，则可以使用报告 cmdlet 实现。
+  - <span data-ttu-id="2ccb6-107">CsActiveUserReport, 它提供有关活动用户数 (即登录到 Skype for Business Online 的用户以及至少参与了一个会议或对等通信会话) 的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-107">Get-CsActiveUserReport, which provides information about the number of active users (that is, users who have logged on to Skype for Business Online and participated in at least one conference or peer-to-peer communication session).</span></span>
 
-管理员还可能会对文章[使用 Excel 检索 Office 365 报告数据](http://msdn.microsoft.com/en-us/library/dn781442.aspx)感兴趣，该文章说明如何使用 Microsoft Excel 中的 OData 数据查询功能创建自定义 Office 365 报告。自定义报告使您能够规定从 Office 365 报告服务返回哪些数据以及数据量。自定义报告还使您能够指定如何对数据进行排序和分组等操作，并提供对未显示在 Office 365 管理中心中的信息的访问。
+  - <span data-ttu-id="2ccb6-108">CsAVConferenceTimeReport, 提供有关用户在音频/视频会议中花费的时间量 (以分钟为单位) 的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-108">Get-CsAVConferenceTimeReport, which provides information about the amount of time (in minutes) users spent in audio/video conferences.</span></span>
 
-有开发背景的管理员可以使用 REST Web 服务获得 Skype for Business Online 管理中心中未显示的信息。REST 服务与 SOAP 服务类似，因为每项技术都提供在客户端和服务器之间传输 XML 数据的方式。但是，相比 SOAP 服务，REST 服务至少有两个优势。首先，REST 使用标准化格式（也称为 ATOM 联合格式）执行 XML 数据传输。相反，SOAP 传输数据时使用非标准格式。此外，REST 能够跨可阻止 GET 和 POST 之外的其他 HTTP 谓词的网络传输数据。
+  - <span data-ttu-id="2ccb6-109">CsConferenceReport, 提供有关用户参与的会议的数量和类型的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-109">Get-CsConferenceReport, which provides information about the number and type of conferences that users participated in.</span></span>
 
-## 另请参阅
+  - <span data-ttu-id="2ccb6-110">CsP2PAVTimeReport, 它提供有关用户在包含音频和/或视频的对等会话中花费的时间量 (以分钟为单位) 的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-110">Get-CsP2PAVTimeReport, which provides information about the amount of time (in minutes) users spent in peer-to-peer sessions that included audio and/or video.</span></span>
 
-#### 其他资源
+  - <span data-ttu-id="2ccb6-111">CsP2PSessionReport, 提供有关用户参与的对等会话的数量和类型的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-111">Get-CsP2PSessionReport, which provides information about the number and type of peer-to-peer sessions that users participated in.</span></span>
 
-[Lync Online 报告](https://technet.microsoft.com/zh-cn/library/dn362827\(v=ocs.15\))  
-[Office 365 报告 Web 服务](http://msdn.microsoft.com/en-us/library/office/jj984325.aspx)  
-[了解 Office 365 报告 Web 服务](http://msdn.microsoft.com/en-us/library/office/jj984321.aspx)  
-[Exchange Online 报告 Cmdlet](http://technet.microsoft.com/en-us/library/jj200780\(v=exchg.150\).aspx)  
-[使用 Excel 检索 Office 365 报告数据](http://msdn.microsoft.com/en-us/library/dn781442.aspx)
+<span data-ttu-id="2ccb6-112">大多数管理员将使用 Office 365 管理中心提供的报表: 不仅是自动生成的报表, 还提供了数据的图形化表示形式, 这些数据通常更易于理解, 而不是所返回的原始数字值报告 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-112">Most administrators will use the reports available in the Office 365 Admin center: not only are those reports auto-generated, but they also provide a graphical representation of the data that is often easier to interpret than the raw number values returned by the reporting cmdlets.</span></span> <span data-ttu-id="2ccb6-113">但是, 熟悉 Windows PowerShell 的管理员可以使用报告 cmdlet 从 Lync Online 报告中返回不容易提供的数据。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-113">However, administrators familiar with Windows PowerShell can use the reporting cmdlets to return data that is not readily available from the Lync Online reports.</span></span> <span data-ttu-id="2ccb6-114">例如, 报告 cmdlet 返回有关会话持续时间的信息 (每个会话持续时间的分钟数)。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-114">For example, the reporting cmdlets return information about session duration (the amount of time, in minutes, that each session lasted).</span></span> <span data-ttu-id="2ccb6-115">使用 Lync Online 报表不提供单个会话持续时间。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-115">Individual session durations are not available using the Lync Online reports.</span></span> <span data-ttu-id="2ccb6-116">同样, 在 "每日" 视图中, Lync Online 报表仅显示之前14天的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-116">Likewise, in daily view the Lync Online reports display information only for the preceding 14 days.</span></span> <span data-ttu-id="2ccb6-117">如果您想要查看不同日期的每日总计 (例如, 四个月前的日期), 您可以使用报告 cmdlet 执行此操作。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-117">If you would like to review the daily totals for a different day (for example, a date from four months ago) you can do so by using the reporting cmdlets.</span></span>
+
+<span data-ttu-id="2ccb6-118">管理员还可能对[使用 Excel 检索 Office 365 报告数据](http://msdn.microsoft.com/en-us/library/dn781442.aspx)的文章感兴趣, 其中介绍了如何使用 Microsoft Excel 中的 OData 数据查询功能来创建自定义 Office 365 报表。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-118">Administrators might also be interested in the article [Using Excel to Retrieve Office 365 Reporting Data](http://msdn.microsoft.com/en-us/library/dn781442.aspx), which explains how to use the OData data querying feature in Microsoft Excel to create custom office 365 report.</span></span> <span data-ttu-id="2ccb6-119">自定义报表使你能够指示从 Office 365 报告服务返回哪些数据 (以及多少数据)。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-119">Custom reports give you the ability to dictate which data (and how much data) is returned from the Office 365 reporting service.</span></span> <span data-ttu-id="2ccb6-120">自定义报表还允许你执行如下操作: 指定数据的排序方式和分组方式, 并提供对未显示在 Office 365 管理中心中的信息的访问权限。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-120">Custom reports also enable you to do such things as specify how the data should be sorted and grouped, and provide access to information that is not displayed in the Office 365 Admin center.</span></span>
+
+<span data-ttu-id="2ccb6-121">具有开发背景的管理员可以使用 REST web 服务获取未在 Skype for Business Online 管理中心中显示的信息。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-121">Administrators with a development background can use the REST web service to obtain information not displayed in the Skype for Business Online admin center.</span></span> <span data-ttu-id="2ccb6-122">REST 服务类似于 SOAP 服务, 因为每种技术都提供了一种在客户端和服务器之间传输 XML 数据的方法。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-122">The REST service is similar to the SOAP service, in that each technology provides a way to transfer XML data between a client and a server.</span></span> <span data-ttu-id="2ccb6-123">但是, REST 服务至少具有与 SOAP 服务相比的两个优势。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-123">However, the REST service has at least two advantages over the SOAP service.</span></span> <span data-ttu-id="2ccb6-124">对于一个, REST 使用称为 ATOM 供稿格式的标准化格式执行 XML 数据传输。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-124">For one, REST performs XML data transfers using a standardized format known as the ATOM syndication format.</span></span> <span data-ttu-id="2ccb6-125">相比之下, 传输数据时使用非标准格式的 SOAP。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-125">By contrast, SOAP using a non-standard format when transferring data.</span></span> <span data-ttu-id="2ccb6-126">此外, REST 能够跨阻止 "获取" 和 "发布" 等 HTTP 谓词的网络传输数据。</span><span class="sxs-lookup"><span data-stu-id="2ccb6-126">In addition, REST is able to transfer data across networks that block HTTP verbs other than GET and POST.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="2ccb6-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2ccb6-127">See Also</span></span>
+
+
+<span data-ttu-id="2ccb6-128">[Lync Online 报告](https://technet.microsoft.com/en-us/library/dn362827\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2ccb6-128">[Lync Online reporting](https://technet.microsoft.com/en-us/library/dn362827\(v=ocs.15\))</span></span>  
+
+
+[<span data-ttu-id="2ccb6-129">Office 365 报告 Web 服务</span><span class="sxs-lookup"><span data-stu-id="2ccb6-129">The Office 365 Reporting Web Service</span></span>](http://msdn.microsoft.com/en-us/library/office/jj984325.aspx)  
+[<span data-ttu-id="2ccb6-130">了解 Office 365 Reporting Web 服务</span><span class="sxs-lookup"><span data-stu-id="2ccb6-130">Learning About the Office 365 Reporting Web Service</span></span>](http://msdn.microsoft.com/en-us/library/office/jj984321.aspx)  
+<span data-ttu-id="2ccb6-131">[Exchange Online 报告 Cmdlet](http://technet.microsoft.com/en-us/library/jj200780\(v=exchg.150\).aspx)</span><span class="sxs-lookup"><span data-stu-id="2ccb6-131">[The Exchange Online Reporting Cmdlets](http://technet.microsoft.com/en-us/library/jj200780\(v=exchg.150\).aspx)</span></span>  
+[<span data-ttu-id="2ccb6-132">使用 Excel 检索 Office 365 报告数据</span><span class="sxs-lookup"><span data-stu-id="2ccb6-132">Using Excel to Retrieve Office 365 Reporting Data</span></span>](http://msdn.microsoft.com/en-us/library/dn781442.aspx)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

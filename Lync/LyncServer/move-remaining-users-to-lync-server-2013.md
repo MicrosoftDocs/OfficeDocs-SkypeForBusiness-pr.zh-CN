@@ -1,43 +1,95 @@
-﻿---
-title: 将其余用户移动到 Lync Server 2013
-TOCTitle: 将其余用户移动到 Lync Server 2013
-ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688090(v=OCS.15)
-ms:contentKeyID: 49888459
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 将其余用户移动到 Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move remaining users to Lync Server 2013
+ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688090(v=OCS.15)
+ms:contentKeyID: 49733689
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d9d5c747a216ff5407a3150eb1cdcdfb94a3c73c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845170"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 将其余用户移动到 Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-29_
+# <a name="move-remaining-users-to-lync-server-2013"></a><span data-ttu-id="f00ed-102">将其余用户移动到 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f00ed-102">Move remaining users to Lync Server 2013</span></span>
 
-可使用 Lync Server 控制面板或 Lync Server 命令行管理程序将用户移至新的 Lync Server 2013 部署。您必须满足一些要求，才能确保顺利迁移到 Lync Server 2013。有关完成本主题中的过程要满足的先决条件的详细信息，请参阅 [为客户端配置迁移](configure-clients-for-migration.md)。有关移动用户的详细步骤，请参阅 [第 4 阶段：将测试用户移至试点池中](phase-4-move-test-users-to-the-pilot-pool.md)。
+</div>
 
-> [!IMPORTANT]
-> 不能使用“Active Directory 用户和计算机”管理单元或 Lync Server 2010 管理工具将用户从旧环境移至 Lync Server 2013。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f00ed-103">_**主题上次修改时间:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="f00ed-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+
+<span data-ttu-id="f00ed-104">你可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序将用户移动到新的 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="f00ed-104">You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="f00ed-105">必须满足某些要求才能确保顺利切换到 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="f00ed-105">You must meet some requirements to ensure a smooth transition to Lync Server 2013.</span></span> <span data-ttu-id="f00ed-106">有关完成本主题中的过程的先决条件的详细信息, 请参阅[为迁移配置客户端](configure-clients-for-migration.md)。</span><span class="sxs-lookup"><span data-stu-id="f00ed-106">For details about prerequisites to completing the procedures in this topic, see [Configure clients for migration](configure-clients-for-migration.md).</span></span> <span data-ttu-id="f00ed-107">有关移动用户的详细步骤, 请参阅[第4阶段: 将测试用户移动到试验池](phase-4-move-test-users-to-the-pilot-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="f00ed-107">For detailed steps about moving users, see [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).</span></span>
+
+<div>
 
 
-将用户移至 Lync Server 2013 池时，用户的数据会移至与新池关联的后端数据库。
+> [!IMPORTANT]  
+> <span data-ttu-id="f00ed-108">无法使用 Active Directory 用户和计算机管理单元或 Lync Server 2010 管理工具将用户从旧版环境移动到 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="f00ed-108">You cannot use the Active Directory Users and Computers snap-in or the Lync Server 2010 administrative tools to move users from your legacy environment to Lync Server 2013.</span></span>
 
-> [!IMPORTANT]
-> 这包括由旧用户创建的活动会议。例如，如果旧用户在“我的会议”中配置了一个会议，那么移动用户后，该会议在新 Lync Server 2013 池中仍然有效。访问该会议时仍要使用相同的会议 URL 和会议 ID 。唯一的区别是会议现在托管在 Lync Server 2013 池中，而不是 Lync Server 2010 池中。
+
+
+</div>
+
+<span data-ttu-id="f00ed-109">将用户移动到 Lync Server 2013 池时, 用户的数据将移动到与新池关联的后端数据库。</span><span class="sxs-lookup"><span data-stu-id="f00ed-109">When you move a user to an Lync Server 2013 pool, the data for the user is moved to the back-end database that is associated with the new pool.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="f00ed-110">这包括由旧版用户创建的活动会议。</span><span class="sxs-lookup"><span data-stu-id="f00ed-110">This includes the active meetings created by the legacy user.</span></span> <span data-ttu-id="f00ed-111">例如, 如果旧版用户配置了<STRONG>"我的会议</STRONG>" 会议, 则在用户移动后, 该会议仍将在新的 Lync Server 2013 池中可用。</span><span class="sxs-lookup"><span data-stu-id="f00ed-111">For example, if a legacy user has configured a <STRONG>my meeting</STRONG> conference, that conference will still be available in the new Lync Server 2013 pool after the user has been moved.</span></span> <span data-ttu-id="f00ed-112">访问该会议的详细信息仍将是相同的<STRONG>会议 URL 和会议 ID</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="f00ed-112">The details to access that meeting will still be the same <STRONG>conference URL and conference ID</STRONG>.</span></span> <span data-ttu-id="f00ed-113">唯一的区别是会议现在托管在 Lync Server 2013 池中, 而不是在 Lync Server 2010 池中。</span><span class="sxs-lookup"><span data-stu-id="f00ed-113">The only difference is that the conference is now hosted in the Lync Server 2013 pool, and not in the Lync Server 2010 pool.</span></span>
+
+
+
+</div>
+
+<div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 上驻留用户不需要同时部署升级的客户端。仅在升级到新客户端软件后，用户才能使用新功能。
+> <span data-ttu-id="f00ed-114">在 Lync Server 2013 上托管用户不需要同时部署已升级的客户端。</span><span class="sxs-lookup"><span data-stu-id="f00ed-114">Homing users on Lync Server 2013 does not require that you deploy upgraded clients at the same time.</span></span> <span data-ttu-id="f00ed-115">仅当用户升级到新的客户端软件时, 才可使用新功能。</span><span class="sxs-lookup"><span data-stu-id="f00ed-115">New functionality will be available to users only when they have upgraded to the new client software.</span></span>
 
 
-## 迁移后任务
 
-1.  移动用户后，确保向他们分配会议策略。
+</div>
 
-2.  要确保驻留在 Lync Server 2013 上的联盟用户可顺利加入由驻留在 Lync Server 2010 上的用户组织的会议，分配给迁移用户的会议策略应允许匿名参与者。
+<div>
 
-3.  允许匿名参与者的会议策略会在 Lync Server 2013 控制面板中选中“允许参与者邀请匿名用户”，并且在 Lync Server 命令行管理程序的 **Get-CsConferencingPolicy** cmdlet 输出中将 **AllowAnonymousParticipantsInMeetings** 设置为 **True**。
+## <a name="post-migration-task"></a><span data-ttu-id="f00ed-116">发布迁移任务</span><span class="sxs-lookup"><span data-stu-id="f00ed-116">Post Migration Task</span></span>
 
-4.  有关使用 Lync Server 命令行管理程序配置会议策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的 [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy)。
+1.  <span data-ttu-id="f00ed-117">移动用户后, 请验证分配给他们的会议策略。</span><span class="sxs-lookup"><span data-stu-id="f00ed-117">After you move users, verify the conferencing policy that is assigned to them.</span></span>
+
+2.  <span data-ttu-id="f00ed-118">为确保驻留在 Lync Server 2013 上的用户组织的会议与 Lync Server 2010 托管的联盟用户无缝协作, 分配给已迁移用户的会议策略应允许匿名参与者。</span><span class="sxs-lookup"><span data-stu-id="f00ed-118">To ensure that meetings organized by users homed on Lync Server 2013 work seamlessly with federated users who are homed on Lync Server 2010, the conferencing policy assigned to the migrated users should allow anonymous participants.</span></span>
+
+3.  <span data-ttu-id="f00ed-119">允许匿名参与者的会议策略允许**参与者邀请**Lync Server 2013 控制面板中选定的匿名用户, 并在 "输出" 中将**AllowAnonymousParticipantsInMeetings**设置为**True**Lync Server 命令行管理程序中的**CsConferencingPolicy** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="f00ed-119">Conferencing policies that allow anonymous participants have **Allow participants to invite anonymous users** selected in Lync Server 2013 Control Panel and have **AllowAnonymousParticipantsInMeetings** set to **True** in the output from the **Get-CsConferencingPolicy** cmdlet in the Lync Server Management Shell.</span></span>
+
+4.  <span data-ttu-id="f00ed-120">有关使用 Lync Server 命令行管理器配置会议策略的详细信息, 请参阅 Lync Server Management Shell 文档中的[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 。</span><span class="sxs-lookup"><span data-stu-id="f00ed-120">For details about configuring conferencing policy by using Lync Server Management Shell, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) in the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

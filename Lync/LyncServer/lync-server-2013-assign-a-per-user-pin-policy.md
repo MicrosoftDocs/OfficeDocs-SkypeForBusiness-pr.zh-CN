@@ -1,110 +1,122 @@
-﻿---
-title: 分配每用户 PIN 策略
-TOCTitle: 分配每用户 PIN 策略
-ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182594(v=OCS.15)
-ms:contentKeyID: 49314419
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# 分配每用户 PIN 策略
+title: 'Lync Server 2013: 分配每用户 PIN 策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user PIN policy
+ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
+ms:contentKeyID: 48185475
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7c60943ad13bd03de6e4474ec35f2deea1964bad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845946"
+---
+# <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a><span data-ttu-id="bcc4d-102">在 Lync Server 2013 中分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-102">Assign a per-user PIN policy in Lync Server 2013</span></span>
 
  
 
-_**上一次修改主题：** 2013-02-22_
 
-电话拨入式会议个人标识号 (PIN) 策略是可以在 Lync Server 2013 控制面板中配置的用户帐户的各项设置之一。
+<span data-ttu-id="bcc4d-103">电话拨入式会议个人识别号 (PIN) 策略是可在 Lync Server 2013 控制面板中配置的用户帐户的个人设置之一。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-103">The dial-in conferencing personal identification number (PIN) policy is one of the individual settings of a user account that can be configured in the Lync Server 2013 Control Panel.</span></span>
 
-部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。
+<span data-ttu-id="bcc4d-p101">部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-p101">Deploying one or more per-user PIN policies is optional. You can also deploy only a global-level PIN policy or site-level PIN policy. If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact object. User rights and permissions regarding the use of PINs for dial-in conferencing automatically default to those defined in the global-level PIN policy when no specific site-level or per-user policy is assigned.</span></span>
 
-创建至少一个每用户 PIN 策略之后，请使用本主题中的过程分配策略，该策略指定您希望服务器对特定用户创建和使用的 PIN 施加的约束。
+<span data-ttu-id="bcc4d-108">创建至少一个每用户 PIN 策略之后，请使用本主题中的过程分配策略，该策略指定您希望服务器对特定用户创建和使用的 PIN 施加的约束。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-108">After creating at least one per-user PIN policy, use the procedures in this topic to assign the policy that specifies the constraints you want the server to impose on the PINs created by and used by a particular user.</span></span>
 
-有关创建每用户电话拨入式会议 PIN 策略的详细信息，请参阅[在 Lync Server 2013 中创建或修改站点或用户组的电话拨入式会议 PIN 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。
+<span data-ttu-id="bcc4d-109">有关创建每用户电话拨入式会议 PIN 策略的详细信息, 请参阅[在 Lync Server 2013 中为网站或用户组创建或修改电话拨入式会议 pin 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-109">For details about creating per-user dial-in conferencing PIN policies, see [Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md).</span></span>
 
-## 分配每用户 PIN 策略
+## <a name="to-assign-a-per-user-pin-policy"></a><span data-ttu-id="bcc4d-110">分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-110">To assign a per-user PIN policy</span></span>
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  <span data-ttu-id="bcc4d-111">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  <span data-ttu-id="bcc4d-112">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="bcc4d-113">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  在左侧导航栏中，单击“用户”。
+3.  <span data-ttu-id="bcc4d-114">在左导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-114">In the left navigation bar, click **Users**.</span></span>
 
-4.  使用下列方法之一查找用户：
+4.  <span data-ttu-id="bcc4d-115">使用下列方法之一查找用户：</span><span class="sxs-lookup"><span data-stu-id="bcc4d-115">Use one of the following methods to locate a user:</span></span>
     
-      - 在“搜索用户”框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
+      - <span data-ttu-id="bcc4d-116">在“搜索用户”\*\*\*\* 框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-116">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - 如果具有保存的查询，请单击“打开查询”图标，使用“打开”对话框来检索该查询（.usf 文件），然后单击“查找”。
+      - <span data-ttu-id="bcc4d-117">如果具有保存的查询，请单击“打开查询”\*\*\*\* 图标，使用“打开”\*\*\*\* 对话框来检索该查询（.usf 文件），然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-117">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  （可选）指定附加搜索条件以缩小结果的范围：
+5.  <span data-ttu-id="bcc4d-118">（可选）指定附加搜索条件以缩小结果的范围：</span><span class="sxs-lookup"><span data-stu-id="bcc4d-118">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  单击“添加筛选器”。
+    1.  <span data-ttu-id="bcc4d-119">单击“添加筛选器”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-119">Click **Add Filter**.</span></span>
     
-    2.  通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。
+    2.  <span data-ttu-id="bcc4d-120">通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-120">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  在“等于”下拉列表中，单击运算符（例如“等于”或“不等于”）。
+    3.  <span data-ttu-id="bcc4d-121">在“等于”\*\*\*\* 下拉列表中，单击运算符（例如“等于”\*\*\*\* 或“不等于”\*\*\*\*）。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-121">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。
+    4.  <span data-ttu-id="bcc4d-122">根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-122">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
+
         > [!TIP]  
-        > 要向查询中添加附加搜索子句，请单击“添加筛选器”。
-    
-    5.  单击“查找”。
+        > <span data-ttu-id="bcc4d-123">要向查询中添加附加搜索子句，请单击“添加筛选器”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-123">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
 
-6.  在搜索结果中单击某个用户，再单击“操作”，然后单击“分配策略”。
     
-    > [!TIP]
-    > 如果您希望将相同的每用户 PIN 策略应用于多个用户，请在搜索结果中选择多个用户，单击“操作”，然后单击“分配策略”。
+    5.  <span data-ttu-id="bcc4d-124">单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-124">Click **Find**.</span></span>
+
+6.  <span data-ttu-id="bcc4d-125">在搜索结果中单击某个用户，再单击“操作”\*\*\*\*，然后单击“分配策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-125">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
+    
+
+    > [!TIP]  
+    > <span data-ttu-id="bcc4d-126">如果您希望将相同的每用户 PIN 策略应用于多个用户，请在搜索结果中选择多个用户，单击“操作”<STRONG></STRONG>，然后单击“分配策略”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-126">If you want the same per-user PIN policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
 
 
-7.  在“分配策略”中的“PIN 策略”下，执行下列操作之一：
+
+7.  <span data-ttu-id="bcc4d-127">在“分配策略”\*\*\*\* 中的“PIN 策略”\*\*\*\* 下，执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="bcc4d-127">In **Assign Policies**, under **PIN policy**, do one of the following:</span></span>
     
+
     > [!NOTE]  
-    > 有多个策略可以使用“分配策略”对话框进行配置，因此默认情况下，将为对话框中的每个策略选中“&lt;保留原样&gt;”。如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > <span data-ttu-id="bcc4d-128">由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-128">Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="bcc4d-129">如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-129">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
+
     
+      - <span data-ttu-id="bcc4d-130">允许 Lync Server 2013 自动选择全局级别策略或网站级别策略 (如果已定义)。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-130">Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.</span></span>
     
-      - 允许 Lync Server 2013 自动选择全局级别的策略或站点级别的策略（如果已定义）。
-    
-      - 单击之前在“PIN 策略”页中定义的每用户 PIN 策略的名称。
+      - <span data-ttu-id="bcc4d-131">单击之前在“PIN 策略”\*\*\*\* 页中定义的每用户 PIN 策略的名称。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-131">Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.</span></span>
         
+
         > [!TIP]  
-        > 为帮助您确定要分配的策略，请在单击策略名称后单击“查看”以查看策略中定义的用户权限。
+        > <span data-ttu-id="bcc4d-132">为帮助您确定要分配的策略，请在单击策略名称后单击“查看”<STRONG></STRONG>以查看策略中定义的用户权限。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-132">To help you decide the policy you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
 
 
-8.  完成后，单击“确定”。
 
-## 使用 Lync Server 命令行管理程序 Cmdlet 分配每用户 PIN 策略
+8.  <span data-ttu-id="bcc4d-133">完成后，单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-133">When you are finished, click **OK**.</span></span>
 
-可以使用 Lync Server 命令行管理程序和 **Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章“快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010”，网址为 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="bcc4d-134">使用 Windows PowerShell Cmdlet 分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-134">Assigning a Per-User PIN Policy by Using Windows PowerShell Cmdlets</span></span>
 
-## 为单个用户分配每用户 PIN 策略
+<span data-ttu-id="bcc4d-135">你可以使用 Windows PowerShell 和**CsPinPolicy** cmdlet 分配每用户 PIN 策略。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-135">You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet.</span></span> <span data-ttu-id="bcc4d-136">你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-136">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="bcc4d-137">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-137">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-  - 以下命令为用户 Ken Myer 分配每用户 PIN 策略 RedmondPinPolicy。
+## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a><span data-ttu-id="bcc4d-138">为单个用户分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-138">To assign a per-user PIN policy to a single user</span></span>
+
+  - <span data-ttu-id="bcc4d-139">以下命令为用户 Ken Myer 分配每用户 PIN 策略 RedmondPinPolicy。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-139">The following command assigns the per-user PIN policy RedmondPinPolicy to the user Ken Myer.</span></span>
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
 
-## 为多个用户分配每用户 PIN 策略
+## <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a><span data-ttu-id="bcc4d-140">为多个用户分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-140">To assign a per-user PIN policy to multiple users</span></span>
 
-  - 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)。
+  - <span data-ttu-id="bcc4d-141">以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-141">The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond.</span></span> <span data-ttu-id="bcc4d-142">有关此命令中使用的 LdapFilter 参数的详细信息, 请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-142">For details about the LdapFilter parameter used in this command, see [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).</span></span>
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
-## 取消分配每用户 PIN 策略
+## <a name="to-unassign-a-per-user-pin-policy"></a><span data-ttu-id="bcc4d-143">取消分配每用户 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-143">To unassign a per-user PIN policy</span></span>
 
-  - 以下命令取消分配之前分配给 Ken Myer 的任何每用户 PIN 策略。取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果存在）管理 Ken Myer。站点策略优先于全局策略。
+  - <span data-ttu-id="bcc4d-p106">以下命令取消分配之前分配给 Ken Myer 的任何每用户 PIN 策略。取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果存在）管理 Ken Myer。站点策略优先于全局策略。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-p106">The following command unassigns any per-user PIN policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息，请参阅 [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy)。
+<span data-ttu-id="bcc4d-147">有关详细信息, 请参阅[授权-CsPinPolicy](https://technet.microsoft.com/en-us/library/gg398871\(v=ocs.15\))。</span><span class="sxs-lookup"><span data-stu-id="bcc4d-147">For details, see [Grant-CsPinPolicy](https://technet.microsoft.com/en-us/library/gg398871\(v=ocs.15\)).</span></span>
 
-## 另请参阅
+## <a name="see-also"></a><span data-ttu-id="bcc4d-148">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bcc4d-148">See Also</span></span>
 
-#### 任务
 
-[创建新的 PIN 策略](lync-server-2013-create-a-new-pin-policy.md)  
+[<span data-ttu-id="bcc4d-149">在 Lync Server 2013 中创建新的 PIN 策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-149">Create a new PIN policy in Lync Server 2013</span></span>](lync-server-2013-create-a-new-pin-policy.md)  
 
-#### 其他资源
 
-[分配每用户策略](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="bcc4d-150">在 Lync Server 2013 中分配每个用户的策略</span><span class="sxs-lookup"><span data-stu-id="bcc4d-150">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 

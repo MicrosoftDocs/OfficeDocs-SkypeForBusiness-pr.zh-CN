@@ -1,40 +1,86 @@
-﻿---
-title: 向公共区域电话分配策略
-TOCTitle: 向公共区域电话分配策略
-ms:assetid: f0554fd1-b237-49b3-9eb4-26f4b91f5604
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994082(v=OCS.15)
-ms:contentKeyID: 52061152
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为公共区域电话分配策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign policies to a common area phone
+ms:assetid: f0554fd1-b237-49b3-9eb4-26f4b91f5604
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994082(v=OCS.15)
+ms:contentKeyID: 51803993
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b792d6ae14ee13fd1d95761d2a0d6b0af7bbdfae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845950"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 向公共区域电话分配策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-20_
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a><span data-ttu-id="26578-102">在 Lync Server 2013 中将策略分配到常见的区域电话</span><span class="sxs-lookup"><span data-stu-id="26578-102">Assign policies in Lync Server 2013 to a common area phone</span></span>
 
-在为公用区域电话创建您的策略（有关详细信息，请参阅[在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)）后，您可以使用 Windows PowerShell 和适当的 **Grant-Cs** cmdlet 向公用区域电话分配该策略。可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行这些 cmdlet。有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章“快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010”，网址为 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="26578-103">_**主题上次修改时间:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="26578-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="26578-104">为常用的区域电话创建策略后 (有关详细信息, 请参阅[在 Lync Server 2013 中创建语音策略和配置 PSTN 使用记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), 您可以使用 Windows PowerShell 和相应的**Grant-Cs 将策略分配给公共区域电话。** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="26578-104">After you create your policy for common area phones (for details, see [Create a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), you can assign the policy to a common area phone by using Windows PowerShell and the appropriate **Grant-Cs** cmdlet.</span></span> <span data-ttu-id="26578-105">这些 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="26578-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="26578-106">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="26578-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
 
 
-## 向单个公用区域电话分配策略
+<div>
 
-  - 以下命令向具有 Identity Building 14 Lobby 的公用区域电话分配每用户语音策略 RedmondVoice。
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a><span data-ttu-id="26578-107">向单个公共区域电话分配策略</span><span class="sxs-lookup"><span data-stu-id="26578-107">Assigning a Policy to a Single Common Area Phone</span></span>
+
+  - <span data-ttu-id="26578-108">以下命令将每用户语音策略 RedmondVoice 分配给具有标识建筑物14会议厅的通用区域电话。</span><span class="sxs-lookup"><span data-stu-id="26578-108">The following command assigns the per-user voice policy RedmondVoice to the common area phone that has the Identity Building 14 Lobby.</span></span>
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
-## 向多个公用区域电话分配策略
+</div>
 
-  - 在此示例中，会向配置为在组织中使用的所有公用区域电话分配每用户语音策略 RedmondVoice。
+<div>
+
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a><span data-ttu-id="26578-109">向多个公共区域电话分配策略</span><span class="sxs-lookup"><span data-stu-id="26578-109">Assigning a Policy to Multiple Common Area Phones</span></span>
+
+  - <span data-ttu-id="26578-110">在此示例中, 每用户语音策略 RedmondVoice 分配给所有配置为在组织中使用的常用区域电话。</span><span class="sxs-lookup"><span data-stu-id="26578-110">In this example, the per-user voice policy RedmondVoice is assigned to all the common area phones configured for use in the organization.</span></span>
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
-有关详细信息，请参阅 [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy) 的帮助主题。
+</div>
 
-## 另请参阅
+<span data-ttu-id="26578-111">有关详细信息, 请参阅[授权 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy)的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="26578-111">For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).</span></span>
 
-#### 其他资源
+</div>
 
-[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="26578-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="26578-112">See Also</span></span>
+
+
+[<span data-ttu-id="26578-113">Get-CsCommonAreaPhone</span><span class="sxs-lookup"><span data-stu-id="26578-113">Get-CsCommonAreaPhone</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

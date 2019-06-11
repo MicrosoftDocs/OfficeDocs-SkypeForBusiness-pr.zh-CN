@@ -1,27 +1,49 @@
-﻿---
-title: Lync Server 2013：用户模型
-TOCTitle: Lync Server 2013 用户模型
-ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398811(v=OCS.15)
-ms:contentKeyID: 49888601
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 用户模型'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2013 user models
+ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
+ms:contentKeyID: 49733811
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845503"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的用户模型
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="user-models-in-lync-server-2013"></a><span data-ttu-id="420f2-102">Lync Server 2013 中的用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-102">User models in Lync Server 2013</span></span>
 
-[使用用户模型的 Lync Server 2013 容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中所述的容量规划度量与建议均以此处介绍的用户模型为基础。
+</div>
 
-## Lync Server 2013 用户模型
+<div id="mainSection">
 
-下表介绍了 Lync Server 2013 注册、联系人、即时消息 (IM) 以及状态的用户模型。
+<div id="mainBody">
 
-### 环境和注册用户模型
+<span> </span>
+
+<span data-ttu-id="420f2-103">_**主题上次修改时间:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="420f2-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+
+<span data-ttu-id="420f2-104">此处介绍的用户模型为[使用用户模型在 Lync Server 2013 的容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中介绍的容量规划测量和建议提供了基础。</span><span class="sxs-lookup"><span data-stu-id="420f2-104">The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning for Lync Server 2013 using the user models](lync-server-2013-capacity-planning-using-the-user-models.md).</span></span>
+
+<div>
+
+## <a name="lync-server-2013-user-models"></a><span data-ttu-id="420f2-105">Lync Server 2013 用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-105">Lync Server 2013 User Models</span></span>
+
+<span data-ttu-id="420f2-106">下表介绍了 Lync Server 2013 的注册、联系人、即时消息 (IM) 和联机状态的用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-106">The following table describes the user model for registration, contacts, instant messaging (IM), and presence for Lync Server 2013.</span></span>
+
+### <a name="environment-and-registration-user-model"></a><span data-ttu-id="420f2-107">环境和注册用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-107">Environment and Registration User Model</span></span>
 
 <table>
 <colgroup>
@@ -30,82 +52,88 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-108">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-108">Category</span></span></th>
+<th><span data-ttu-id="420f2-109">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>部署大小和通讯组</p></td>
-<td><p>我们对含有三个中央站点（每个站点有一个前端池）的大型部署进行了建模。</p></td>
+<td><p><span data-ttu-id="420f2-110">部署大小和通讯组</span><span class="sxs-lookup"><span data-stu-id="420f2-110">Deployment size and distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-111">我们对含有三个中央站点（每个站点有一个前端池）的大型部署进行了建模。</span><span class="sxs-lookup"><span data-stu-id="420f2-111">We model a large deployment with three central sites, with one Front End pool per site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Active Directory 用户的百分比</p></td>
-<td><p>假设为组织中 70% 的 Active Directory 用户启用了 Lync Server。而这些用户中的 80% 每天（80% 并发）都会登录 Lync Server。本节下文中的数字都以并发用户为基础。</p></td>
+<td><p><span data-ttu-id="420f2-112">Active Directory 用户的百分比</span><span class="sxs-lookup"><span data-stu-id="420f2-112">Percentage of Active Directory users</span></span></p></td>
+<td><p><span data-ttu-id="420f2-113">我们假定组织中所有 Active Directory 用户的 70% 已启用 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="420f2-113">We assume that 70% of all Active Directory users in the organization are enabled for Lync Server.</span></span> <span data-ttu-id="420f2-114">80% 的已启用用户每天都登录到 Lync Server (80% 并发)。</span><span class="sxs-lookup"><span data-stu-id="420f2-114">80% of those enabled users are logged on to Lync Server each day (80% concurrency).</span></span> <span data-ttu-id="420f2-115">本节下文中的数字都以并发用户为基础。</span><span class="sxs-lookup"><span data-stu-id="420f2-115">The concurrent users are the basis for the numbers in the rest of this section.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory 更改</p></td>
-<td><p>假设每周在 Active Directory 中为 0.5% 的用户创建并启用了 Lync，每周从 Active Directory 和 Lync 中禁用 0.5% 的用户，每周 5% 的用户至少更改了一个 Active Directory 属性。</p></td>
+<td><p><span data-ttu-id="420f2-116">Active Directory 更改</span><span class="sxs-lookup"><span data-stu-id="420f2-116">Active Directory changes</span></span></p></td>
+<td><p><span data-ttu-id="420f2-117">我们假定每周在 Active Directory 中为 Lync 创建和启用每周的总用户数 0.5%, 并且每周从 Active Directory 和 Lync 禁用总用户的 0.5%。</span><span class="sxs-lookup"><span data-stu-id="420f2-117">We assume that 0.5% of total users are created and enabled for Lync in Active Directory each week, and that 0.5% of total users are disabled from Active Directory and from Lync each week.</span></span> <span data-ttu-id="420f2-118">5% 的用户每周至少更改了一个 Active Directory 属性。</span><span class="sxs-lookup"><span data-stu-id="420f2-118">5% of users have at least one Active Directory attribute changed each week.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Active Directory 通讯组</p></td>
-<td><p>我们假定，组织的 Active Directory 通讯组数是 Active Directory 所有用户数的三倍。通讯组的大小如下：</p>
+<td><p><span data-ttu-id="420f2-119">Active Directory 通讯组</span><span class="sxs-lookup"><span data-stu-id="420f2-119">Active Directory distribution groups</span></span></p></td>
+<td><p><span data-ttu-id="420f2-120">我们假定组织中的 Active Directory 通讯组数等于 Active Directory 中所有用户数的三倍。</span><span class="sxs-lookup"><span data-stu-id="420f2-120">We assume that the number of Active Directory distribution groups in the organization is equal to three times the number of all users in Active Directory.</span></span> <span data-ttu-id="420f2-121">通讯组的大小如下：</span><span class="sxs-lookup"><span data-stu-id="420f2-121">The distribution groups have the following sizes:</span></span></p>
 <ul>
-<li><p>64% 具有 2-30 个用户</p></li>
-<li><p>13% 具有 31-50 个用户</p></li>
-<li><p>10% 具有 51-100 个用户</p></li>
-<li><p>13% 具有 101-500 个用户</p></li>
+<li><p><span data-ttu-id="420f2-122">64% 具有 2-30 个用户</span><span class="sxs-lookup"><span data-stu-id="420f2-122">64% have 2-30 users</span></span></p></li>
+<li><p><span data-ttu-id="420f2-123">13% 具有 31-50 个用户</span><span class="sxs-lookup"><span data-stu-id="420f2-123">13% have 31-50 users</span></span></p></li>
+<li><p><span data-ttu-id="420f2-124">10% 具有 51-100 个用户</span><span class="sxs-lookup"><span data-stu-id="420f2-124">10% have 51-100 users</span></span></p></li>
+<li><p><span data-ttu-id="420f2-125">13% 具有 101-500 个用户</span><span class="sxs-lookup"><span data-stu-id="420f2-125">13% have 101-500 users</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>IP 语音 (VoIP) 用户</p></td>
-<td><p>为 60% 的 Lync Server 用户启用了统一通信 (UC)（即他们的电话号码归 Lync Server 所有）。</p></td>
+<td><p><span data-ttu-id="420f2-126">IP 语音 (VoIP) 用户</span><span class="sxs-lookup"><span data-stu-id="420f2-126">Voice over IP (VoIP) users</span></span></p></td>
+<td><p><span data-ttu-id="420f2-127">60% 的 Lync Server 用户已启用统一通信 (UC) (即他们的电话号码由 Lync Server 拥有)。</span><span class="sxs-lookup"><span data-stu-id="420f2-127">60% of Lync Server users are enabled for unified communications (UC) (that is, their phone numbers are owned by Lync Server).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>注册的客户端分布</p></td>
-<td><p>65% 的客户端运行 Lync 2013 软件，包括 Lync 和 Lync Phone Edition。</p>
-<p>30% 的客户端从 Lync 的早期版本中运行客户端软件。</p>
-<p>5% 的客户端使用 Lync Web App。</p>
-<p>如果启用移动功能，假设 40% 的用户正在使用与前面提到的已注册客户端选项同时存在的移动功能，这种情况下，客户端多点登录 (MPOP) 比率为 1:1.9。如果禁用移动，MPOP 比率为1:1.5。</p></td>
+<td><p><span data-ttu-id="420f2-128">注册的客户端分布</span><span class="sxs-lookup"><span data-stu-id="420f2-128">Registered client distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-129">65% 的客户端运行 Lync 2013 软件, 包括 Lync 和 Lync Phone Edition。</span><span class="sxs-lookup"><span data-stu-id="420f2-129">65% of clients run Lync 2013 software, including Lync and Lync Phone Edition.</span></span></p>
+<p><span data-ttu-id="420f2-130">从早期版本的 Lync 运行客户端软件的客户的 30%。</span><span class="sxs-lookup"><span data-stu-id="420f2-130">30% of clients running client software from a previous version of Lync.</span></span></p>
+<p><span data-ttu-id="420f2-131">5% 使用 Lync Web App 的客户端。</span><span class="sxs-lookup"><span data-stu-id="420f2-131">5% of clients using Lync Web App.</span></span></p>
+<p><span data-ttu-id="420f2-p104">如果启用移动功能，假设 40% 的用户正在使用与前面提到的已注册客户端选项同时存在的移动功能，这种情况下，客户端多点登录 (MPOP) 比率为 1:1.9。如果禁用移动，MPOP 比率为1:1.5。</span><span class="sxs-lookup"><span data-stu-id="420f2-p104">If mobility is enabled, we assume that 40% of users are using mobility concurrently with the other previously cited registered client options. In this case the client multiple point of presence (MPOP) ratio is 1:1.9. If mobility is disabled, the MPOP ratio is 1:1.5.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>远程用户分布</p></td>
-<td><p>70% 的用户从内部连接。</p>
-<p>30% 的用户通过边缘服务器和控制器连接。</p></td>
+<td><p><span data-ttu-id="420f2-135">远程用户分布</span><span class="sxs-lookup"><span data-stu-id="420f2-135">Remote user distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-136">70% 的用户从内部连接。</span><span class="sxs-lookup"><span data-stu-id="420f2-136">70% of users connecting internally.</span></span></p>
+<p><span data-ttu-id="420f2-137">通过 Edge 服务器和 Director 连接的用户的 30%。</span><span class="sxs-lookup"><span data-stu-id="420f2-137">30% of users connecting through an Edge Server and a Director.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>联系人分布</p></td>
-<td><p>一个用户拥有的最大联系人数为 1,000。拥有 1,000 个联系人的用户低于 1%。拥有 100 个或更多联系人的用户低于 25%。</p>
-<p>使用公共云连接的用户平均拥有 80 个联系人。在这些用户中：</p>
+<td><p><span data-ttu-id="420f2-138">联系人分布</span><span class="sxs-lookup"><span data-stu-id="420f2-138">Contact distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p105">一个用户拥有的最大联系人数为 1,000。拥有 1,000 个联系人的用户低于 1%。拥有 100 个或更多联系人的用户低于 25%。</span><span class="sxs-lookup"><span data-stu-id="420f2-p105">The maximum number of contacts a user has is 1,000. Less than 1% of users have 1,000 contacts. Less than 25% of users have 100 or more contacts.</span></span></p>
+<p><span data-ttu-id="420f2-p106">使用公共云连接的用户平均拥有 80 个联系人。在这些用户中：</span><span class="sxs-lookup"><span data-stu-id="420f2-p106">Average of 80 contacts for users with public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p>50% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</p></li>
-<li><p>40% 的联系人为公共云用户（例如 AOL、Yahoo! 、MSN 或 Google Talk 用户）。</p></li>
-<li><p>10% 的联系人来自联盟伙伴。</p>
+<li><p><span data-ttu-id="420f2-p107">50% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</span><span class="sxs-lookup"><span data-stu-id="420f2-p107">50% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-146">40% 的联系人是公共云用户 (如 AOL、Yahoo!、MSN 或 Google 通话的用户)。</span><span class="sxs-lookup"><span data-stu-id="420f2-146">40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</span></span></p></li>
+<li><p><span data-ttu-id="420f2-147">10% 的联系人来自联盟伙伴。</span><span class="sxs-lookup"><span data-stu-id="420f2-147">10% of the contacts are from federated partners.</span></span></p>
+<div>
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>自 2012 年 9 月 1 日起，新订或续订合同不能再购买 Microsoft Lync 公共 IM 连接用户订阅许可证 (“PIC USL”)。拥有有效许可证的客户可继续与 Yahoo! Messenger 联盟直至服务关闭。AOL 和 Yahoo! 的生命周期结束日期已宣布，为 2014 年 6 月。有关详细信息，请参阅 <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</a>。</p></li>
-> <li><p>PIC USL 是一个每用户每月订阅许可证，是 Lync Server 或 Office Communications Server 与 Yahoo! Messenger 联盟所必需的。Microsoft 之所以能够提供此服务离不开 Yahoo! 的支持，但这项支持的基础协议正在逐步终止。</p></li>
-> <li><p>Lync 是一个比以往更强大的工具，它实现了人员跨组织、跨地域的连接。除 Lync 标准 CAL 外，与 Windows Live Messenger 联盟不需要任何附加用户/设备许可证。Skype 联盟将添加到此列表中，以便 Lync 用户能够通过 IM 和语音与数亿用户取得联系。</p></li>
-> </ul></li>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="420f2-148">从2012年9月1日起, Microsoft Lync 公共 IM 连接用户订阅许可证 ("PIC USL") 不再可用于购买新的或续订协议。</span><span class="sxs-lookup"><span data-stu-id="420f2-148">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="420f2-149">具有活动许可证的客户将能够继续与 Yahoo! 进行联盟</span><span class="sxs-lookup"><span data-stu-id="420f2-149">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="420f2-150">Messenger, 直到服务关闭日期。</span><span class="sxs-lookup"><span data-stu-id="420f2-150">Messenger until the service shut down date.</span></span> <span data-ttu-id="420f2-151">AOL 和 Yahoo! 的有效期结束日期为2014年6月</span><span class="sxs-lookup"><span data-stu-id="420f2-151">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="420f2-152">已宣布。</span><span class="sxs-lookup"><span data-stu-id="420f2-152">has been announced.</span></span> <span data-ttu-id="420f2-153">有关详细信息, 请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</span><span class="sxs-lookup"><span data-stu-id="420f2-153">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="420f2-154">PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo! 联合所需的每个每个用户每月订阅许可证。</span><span class="sxs-lookup"><span data-stu-id="420f2-154">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="420f2-155">Messenger.</span><span class="sxs-lookup"><span data-stu-id="420f2-155">Messenger.</span></span> <span data-ttu-id="420f2-156">Microsoft 提供此服务的能力已作为对 Yahoo! 的支持, 它的底层协议被向下缠绕。</span><span class="sxs-lookup"><span data-stu-id="420f2-156">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="420f2-157">Lync 比以往更多, 是一种强大的工具, 用于跨组织和全球各地的人员进行连接。</span><span class="sxs-lookup"><span data-stu-id="420f2-157">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="420f2-158">与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。</span><span class="sxs-lookup"><span data-stu-id="420f2-158">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="420f2-159">Skype 联盟将添加到此列表, 使 Lync 用户可以通过 IM 和语音与成百上千人联系。</span><span class="sxs-lookup"><span data-stu-id="420f2-159">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
+
+
+</div></li>
 </ul>
-<p>未使用公共云连接的用户平均拥有 50 个联系人。在这些用户中：</p>
+<p><span data-ttu-id="420f2-p111">未使用公共云连接的用户平均拥有 50 个联系人。在这些用户中：</span><span class="sxs-lookup"><span data-stu-id="420f2-p111">Average of 50 contacts for users without public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p>80% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</p></li>
-<li><p>20% 的联系人来自联盟伙伴。</p>
-<p>每个用户在其联系人列表中都有一个通讯组。为了进行性能测试，我们假设通讯组始终是展开的。</p></li>
+<li><p><span data-ttu-id="420f2-p112">80% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</span><span class="sxs-lookup"><span data-stu-id="420f2-p112">80% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-164">20% 的联系人来自联盟伙伴。</span><span class="sxs-lookup"><span data-stu-id="420f2-164">20% of the contacts are from federated partners.</span></span></p>
+<p><span data-ttu-id="420f2-p113">每个用户在其联系人列表中都有一个通讯组。为了进行性能测试，我们假设通讯组始终是展开的。</span><span class="sxs-lookup"><span data-stu-id="420f2-p113">Each user has 1 distribution group in their contact list. For performance testing, we assume that distribution groups are always expanded.</span></span></p></li>
 </ul>
-<p>25% 的用户联系人使用 XMPP。</p></td>
+<p><span data-ttu-id="420f2-167">用户的联系人的 25% 使用 XMPP。</span><span class="sxs-lookup"><span data-stu-id="420f2-167">25% of a user’s contacts use XMPP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>会话时间</p></td>
-<td><p>平均用户登录会话持续 12 个小时。所有用户在会话开始后的 120 分钟内登录。</p></td>
+<td><p><span data-ttu-id="420f2-168">会话时间</span><span class="sxs-lookup"><span data-stu-id="420f2-168">Session time</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p114">平均用户登录会话持续 12 个小时。所有用户在会话开始后的 120 分钟内登录。</span><span class="sxs-lookup"><span data-stu-id="420f2-p114">The average user logon session lasts 12 hours. All users log on within 120 minutes of the start of the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### IM 和状态用户模型
+### <a name="im-and-presence-user-model"></a><span data-ttu-id="420f2-171">IM 和状态用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-171">IM and Presence User Model</span></span>
 
 <table>
 <colgroup>
@@ -114,50 +142,49 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-172">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-172">Category</span></span></th>
+<th><span data-ttu-id="420f2-173">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-173">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>对等 IM 会话</p></td>
-<td><p>平均每个用户每天发起六个对等 IM 会话。</p>
-<p>每个会话 10 条即时消息。</p>
-<p>每条消息都与两条 SIP INFO 消息和两条 SIP 200 OK 消息相匹配（适用于状态指示器，如“&lt;名称&gt; 正在键入”）</p></td>
+<td><p><span data-ttu-id="420f2-174">对等 IM 会话</span><span class="sxs-lookup"><span data-stu-id="420f2-174">Peer-to-peer IM sessions</span></span></p></td>
+<td><p><span data-ttu-id="420f2-175">平均每个用户每天发起六个对等 IM 会话。</span><span class="sxs-lookup"><span data-stu-id="420f2-175">Each user averages six peer-to-peer IM sessions per day.</span></span></p>
+<p><span data-ttu-id="420f2-176">每个会话 10 条即时消息。</span><span class="sxs-lookup"><span data-stu-id="420f2-176">10 instant messages per session.</span></span></p>
+<p><span data-ttu-id="420f2-177">每封邮件都通过两个 SIP 信息消息和2个 SIP 200 OK 消息 (适用于状态指示器,&lt;如&gt; "名称正在键入") 进行匹配</span><span class="sxs-lookup"><span data-stu-id="420f2-177">Each message is matched by two SIP INFO messages and 2 SIP 200 OK messages (for the status indicators such as “&lt;Name&gt; is Typing”)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>状态轮询</p></td>
-<td><p>总体上讲，假设状态轮询为平均每个用户每小时 60 次轮询。对于每个用户，假设平均：</p>
+<td><p><span data-ttu-id="420f2-178">状态轮询</span><span class="sxs-lookup"><span data-stu-id="420f2-178">Presence polling</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p115">总体上讲，假设状态轮询为平均每个用户每小时 60 次轮询。对于每个用户，假设平均：</span><span class="sxs-lookup"><span data-stu-id="420f2-p115">Overall, we assume presence polling at an average of 60 polls per user per hour. For each user, assume an average of:</span></span></p>
 <ul>
-<li><p>在用户的组织选项卡（而非联系人列表）中每天一次用户状态轮询。用户的组织选项卡中非联系人的平均数为 15 个用户。每天执行两次联系人卡片查看操作。</p></li>
-<li><p>每次用户单击其他用户以开始对话时发生一次状态轮询，预计为每小时一次。</p></li>
-<li><p>每小时六次用户搜索。每次执行搜索时，都会针对搜索结果列表中的每个人发送批轮询。假设搜索结果的平均大小为 20。如果搜索结果停留在屏幕上，则每 5 分钟就会刷新一次批轮询；假设每小时将进行两次这样的刷新。</p></li>
-<li><p>当用户在 Outlook 中打开或预览电子邮件时，电子邮件的“收件人:”和“抄送:”字段中将发生一次用户状态轮询，预计为每小时五封电子邮件、每封电子邮件四个用户。</p></li>
+<li><p><span data-ttu-id="420f2-p116">在用户的组织选项卡（而非联系人列表）中每天一次用户状态轮询。用户的组织选项卡中非联系人的平均数为 15 个用户。每天执行两次联系人卡片查看操作。</span><span class="sxs-lookup"><span data-stu-id="420f2-p116">One poll per day of the presence of users in the user’s organization tab (but not Contacts list). Average number of non-contacts in the user’s organization tab is 15 users. Two contact card viewing operations per day.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-184">每次用户单击其他用户以开始对话时发生一次状态轮询，预计为每小时一次。</span><span class="sxs-lookup"><span data-stu-id="420f2-184">One presence poll every time the user clicks another user to start a conversation, estimated at once per hour.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-p117">每小时六次用户搜索。每次执行搜索时，都会针对搜索结果列表中的每个人发送批轮询。假设搜索结果的平均大小为 20。如果搜索结果停留在屏幕上，则每 5 分钟就会刷新一次批轮询；假设每小时将进行两次这样的刷新。</span><span class="sxs-lookup"><span data-stu-id="420f2-p117">Six user searches per hour. Every time a search is performed, a batch poll is sent for everyone in the search result list. We assume the average size of search results is 20. If the search results stay on screen, the batch poll is refreshed every 5 minutes; we assume that there will be two such refreshes per hour.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-189">当用户在 Outlook 中打开或预览电子邮件时，电子邮件的“收件人:”和“抄送:”字段中将发生一次用户状态轮询，预计为每小时五封电子邮件、每封电子邮件四个用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-189">When the user opens or previews an email in Outlook, a poll of the presence of users in the To: and CC: fields of the email, estimated at five emails per hour and four users per email.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>状态订阅</p></td>
-<td><p>当用户将其他用户添加为联系人时，第一个用户将“订阅”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</p>
-<p>针对每个客户端，会发送单个订阅请求以获取平均 40 个联系人状态，以及发送其他 40 个对话以获取联盟联系人状态。</p>
-<p>扩展通讯组成员的状态可通过持久状态订阅（而非轮询）进行查找，并建模为每个用户每两小时一次扩展。</p>
-<p>在以下情况下会发生 <em>短期订阅</em> ：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</p></td>
+<td><p><span data-ttu-id="420f2-190">状态订阅</span><span class="sxs-lookup"><span data-stu-id="420f2-190">Presence subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p118">当用户将其他用户添加为联系人时，第一个用户将“<em>订阅</em>”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-p118">When one user adds another as a contact, the first user is <em>subscribing</em> to five categories of information about the second user. Updates of these categories of information are automatically sent to the first user.</span></span></p>
+<p><span data-ttu-id="420f2-193">针对每个客户端，会发送单个订阅请求以获取平均 40 个联系人状态，以及发送其他 40 个对话以获取联盟联系人状态。</span><span class="sxs-lookup"><span data-stu-id="420f2-193">For each client, a single batch subscription request is sent to obtain the presence state of an average of 40 contacts, with an additional 40 dialogs to obtain presence for federated contacts.</span></span></p>
+<p><span data-ttu-id="420f2-194">扩展通讯组成员的状态可通过持久状态订阅（而非轮询）进行查找，并建模为每个用户每两小时一次扩展。</span><span class="sxs-lookup"><span data-stu-id="420f2-194">Presence for members of an expanded distribution group is found through persistent presence subscriptions, not polling, and is modeled as 1 expansion per user for each 2 hours.</span></span></p>
+<p><span data-ttu-id="420f2-p119">在以下情况下会发生 <em>短期订阅 </em>：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</span><span class="sxs-lookup"><span data-stu-id="420f2-p119"><em>Short subscriptions</em> happen when a user logs in, there is a batch subscription for all the user’s contacts, and then the user soon logs off. We assume 6 short subscriptions per user per hour, where each subscription lasts 10 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>状态发布</p></td>
-<td><p>平均每个用户每小时发布状态 4 次，最多每个用户每小时发布 6 次。</p>
-<p></p></td>
+<td><p><span data-ttu-id="420f2-197">状态发布</span><span class="sxs-lookup"><span data-stu-id="420f2-197">Presence Publication</span></span></p></td>
+<td><p><span data-ttu-id="420f2-198">平均每个用户每小时发布状态 4 次，最多每个用户每小时发布 6 次。</span><span class="sxs-lookup"><span data-stu-id="420f2-198">Presence state is published at an average of 4 publications per user per hour, with a maximum 6 per user per hour.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>状态文档大小</p></td>
-<td><p>假设完整状态文档的平均大小为 4K，最大为 25K。</p></td>
+<td><p><span data-ttu-id="420f2-199">状态文档大小</span><span class="sxs-lookup"><span data-stu-id="420f2-199">Presence Document Size</span></span></p></td>
+<td><p><span data-ttu-id="420f2-200">假设完整状态文档的平均大小为 4K，最大为 25K。</span><span class="sxs-lookup"><span data-stu-id="420f2-200">The average size of a complete presence document is assumed to be 4K, with a maximum of 25K.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表介绍了通讯簿使用用户模型。
+<span data-ttu-id="420f2-201">下表介绍了通讯簿使用用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-201">The following table describes the user model for address book use.</span></span>
 
-### 通讯簿使用用户模型
+### <a name="address-book-usage-user-model"></a><span data-ttu-id="420f2-202">通讯簿使用用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-202">Address Book Usage User Model</span></span>
 
 <table>
 <colgroup>
@@ -166,31 +193,31 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通讯簿搜索模式</th>
-<th>使用</th>
+<th><span data-ttu-id="420f2-203">通讯簿搜索模式</span><span class="sxs-lookup"><span data-stu-id="420f2-203">Address Book search mode</span></span></th>
+<th><span data-ttu-id="420f2-204">使用</span><span class="sxs-lookup"><span data-stu-id="420f2-204">Usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>仅通讯簿 Web 查询（通讯簿 Web 查询服务执行的所有查询）</p></td>
-<td><p>每个用户每天四次前缀查询。</p>
-<p>每个用户每天 60 次精确搜索查询。在这些查询中，40% 为批处理查询，平均每次查询 20 个联系人。剩余的 60% 为单个联系人查询。</p>
-<p>每个用户每天 25 次照片查询。其中 24 次为单张照片查询，另外一次为批处理查询，平均查询 20 个联系人。</p>
-<p>每个用户每天一次彻底的组织搜索查询。</p></td>
+<td><p><span data-ttu-id="420f2-205">仅通讯簿 Web 查询（通讯簿 Web 查询服务执行的所有查询）</span><span class="sxs-lookup"><span data-stu-id="420f2-205">Address Book Web Query only (all queries performed by Address Book Web Query service)</span></span></p></td>
+<td><p><span data-ttu-id="420f2-206">每个用户每天四次前缀查询。</span><span class="sxs-lookup"><span data-stu-id="420f2-206">Four prefix queries per user per day.</span></span></p>
+<p><span data-ttu-id="420f2-p120">每个用户每天 60 次精确搜索查询。在这些查询中，40% 为批处理查询，平均每次查询 20 个联系人。剩余的 60% 为单个联系人查询。</span><span class="sxs-lookup"><span data-stu-id="420f2-p120">60 exact search queries per user per day. 40% of those are batched, with an average of 20 contacts per query. The other 60% of the queries are for a single contact.</span></span></p>
+<p><span data-ttu-id="420f2-p121">每个用户每天 25 次照片查询。其中 24 次为单张照片查询，另外一次为批处理查询，平均查询 20 个联系人。</span><span class="sxs-lookup"><span data-stu-id="420f2-p121">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="420f2-212">每个用户每天一次彻底的组织搜索查询。</span><span class="sxs-lookup"><span data-stu-id="420f2-212">One total organization search query per user per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>混合模式，结合使用通讯簿文件和 Web 查询。这是默认模式。</p></td>
-<td><p>只有两种查询会连接到网络，即照片查询和彻底的组织搜索查询。</p>
-<p>每个用户每天 25 次照片查询。其中 24 次为单张照片查询，另外一次为批处理查询，平均查询 20 个联系人。</p>
-<p>每个用户每天一次彻底的组织搜索查询。</p></td>
+<td><p><span data-ttu-id="420f2-p122">混合模式，结合使用通讯簿文件和 Web 查询。这是默认模式。</span><span class="sxs-lookup"><span data-stu-id="420f2-p122">Mixed mode, both address book file and web queries used. This is the default mode.</span></span></p></td>
+<td><p><span data-ttu-id="420f2-215">只有两种查询会连接到网络，即照片查询和彻底的组织搜索查询。</span><span class="sxs-lookup"><span data-stu-id="420f2-215">Only two types of queries go to the network, the photo and total organizational search queries.</span></span></p>
+<p><span data-ttu-id="420f2-p123">每个用户每天 25 次照片查询。其中 24 次为单张照片查询，另外一次为批处理查询，平均查询 20 个联系人。</span><span class="sxs-lookup"><span data-stu-id="420f2-p123">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="420f2-218">每个用户每天一次彻底的组织搜索查询。</span><span class="sxs-lookup"><span data-stu-id="420f2-218">One total organization search query per user per day.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表介绍了会议模型。
+<span data-ttu-id="420f2-219">下表介绍了会议模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-219">The following table describes the conferencing model.</span></span>
 
-### 会议模型
+### <a name="conferencing-model"></a><span data-ttu-id="420f2-220">会议模型</span><span class="sxs-lookup"><span data-stu-id="420f2-220">Conferencing Model</span></span>
 
 <table>
 <colgroup>
@@ -199,89 +226,90 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-221">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-221">Category</span></span></th>
+<th><span data-ttu-id="420f2-222">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>计划的会议与“立即开会”会议</p></td>
-<td><p>60% 计划内会议，40% 计划外会议。</p>
-<p>在已安排的会议当中，假设其中 80% 是定期发生的分配会议；10% 是一次性公开会议；8% 是一次性匿名会议，以及 2% 是一次性非公开性会议。</p></td>
+<td><p><span data-ttu-id="420f2-223">计划会议与&quot;"立即&quot;开会" 会议</span><span class="sxs-lookup"><span data-stu-id="420f2-223">Scheduled meetings versus &quot;Meet now&quot; meetings</span></span></p></td>
+<td><p><span data-ttu-id="420f2-224">60% 计划内会议，40% 计划外会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-224">60% scheduled, 40% unscheduled.</span></span></p>
+<p><span data-ttu-id="420f2-225">在计划的会议中, 我们假定 80% 分配有会议, 这是定期会议的一个实例;10% 是一次打开的会议;8% 是一次性匿名会议, 2% 是一次性关闭的会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-225">Of the scheduled meetings, we assume that 80% are assigned conferences, which are occurences of recurring conferences; 10% are one-time open meetings; 8% are one-time anonymous meetings, and 2% are one-time closed meetings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>会议客户端分布</p></td>
-<td><p>对于计划内会议：</p>
+<td><p><span data-ttu-id="420f2-226">会议客户端分布</span><span class="sxs-lookup"><span data-stu-id="420f2-226">Conferencing client distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-227">对于计划内会议：</span><span class="sxs-lookup"><span data-stu-id="420f2-227">For scheduled meetings:</span></span></p>
 <ul>
-<li><p>65% 的会议用户使用 Lync 2013。</p></li>
-<li><p>5% 的会议用户使用 Microsoft Lync Web App。</p></li>
-<li><p>30% 的会议用户使用早期客户端，包括 Microsoft Lync 2010、 Office Communicator 2007 R2、 Office Communicator 2007 和 Microsoft Office Communicator Web Access（2007 发行版）。</p></li>
+<li><p><span data-ttu-id="420f2-228">65% 的会议用户使用 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="420f2-228">65% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-229">5% 的会议用户使用 Microsoft Lync Web App。</span><span class="sxs-lookup"><span data-stu-id="420f2-229">5% of conferencing users use Microsoft Lync Web App.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-230">30% 的会议用户使用以前的客户端, 包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access (2007 发布)。</span><span class="sxs-lookup"><span data-stu-id="420f2-230">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul>
-<p>对于计划外会议：</p>
+<p><span data-ttu-id="420f2-231">对于计划外会议：</span><span class="sxs-lookup"><span data-stu-id="420f2-231">For unscheduled meetings:</span></span></p>
 <ul>
-<li><p>70% 的会议用户使用 Lync 2013。</p></li>
-<li><p>30% 的会议用户使用早期客户端，包括 Microsoft Lync 2010、 Office Communicator 2007 R2、 Office Communicator 2007 和 Microsoft Office Communicator Web Access（2007 发行版）。</p></li>
+<li><p><span data-ttu-id="420f2-232">70% 的会议用户使用 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="420f2-232">70% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-233">30% 的会议用户使用以前的客户端, 包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access (2007 发布)。</span><span class="sxs-lookup"><span data-stu-id="420f2-233">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>会议并发</p></td>
-<td><p>5% 的用户将在工作时间参加会议。因此，在一个有 80,000 个用户的池中，在任何时候都可能有多达 4,000 个用户参加会议。</p></td>
+<td><p><span data-ttu-id="420f2-234">会议并发</span><span class="sxs-lookup"><span data-stu-id="420f2-234">Meeting concurrency</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p124">5% 的用户将在工作时间参加会议。因此，在一个有 80,000 个用户的池中，在任何时候都可能有多达 4,000 个用户参加会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-p124">5% of users will be in conferences during working hours. Thus, in an 80,000-user pool, as many as 4,000 users might be in conferences at any one time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>会议音频分布</p></td>
-<td><p>40% VoIP 音频和电话拨入式混合会议，VoIP 用户和电话拨入用户的比率为 3:1。</p>
-<p>35% 仅 VoIP 音频。</p>
-<p>15% 仅电话拨入式会议音频。</p>
-<p>10% 无音频（仅 IM 会议，平均每个用户发出 5 条消息）。</p></td>
+<td><p><span data-ttu-id="420f2-237">会议音频分布</span><span class="sxs-lookup"><span data-stu-id="420f2-237">Meeting audio distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-238">40% VoIP 音频和电话拨入式混合会议，VoIP 用户和电话拨入用户的比率为 3:1。</span><span class="sxs-lookup"><span data-stu-id="420f2-238">40% mixed VoIP audio and dial-in conferencing, with a 3:1 ratio of VoIP users to dial-in users.</span></span></p>
+<p><span data-ttu-id="420f2-239">35% 仅 VoIP 音频。</span><span class="sxs-lookup"><span data-stu-id="420f2-239">35% VoIP audio only.</span></span></p>
+<p><span data-ttu-id="420f2-240">15% 仅电话拨入式会议音频。</span><span class="sxs-lookup"><span data-stu-id="420f2-240">15% dial-in conferencing audio only.</span></span></p>
+<p><span data-ttu-id="420f2-241">10% 无音频（仅 IM 会议，平均每个用户发出 5 条消息）。</span><span class="sxs-lookup"><span data-stu-id="420f2-241">10% no audio (IM-only conferences, with an average of five messages sent per user).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>会议媒体混合</p></td>
-<td><p>75% 的会议为 Web 会议，其中包括音频以及一些其他协作形式。</p>
-<p>这些会议的其他协作方式如下：</p>
+<td><p><span data-ttu-id="420f2-242">会议媒体混合</span><span class="sxs-lookup"><span data-stu-id="420f2-242">Media mix for conferences</span></span></p></td>
+<td><p><span data-ttu-id="420f2-243">75% 的会议为 Web 会议，其中包括音频以及一些其他协作形式。</span><span class="sxs-lookup"><span data-stu-id="420f2-243">75% of conferences are web conferences, which include audio plus some other collaboration modalities.</span></span></p>
+<p><span data-ttu-id="420f2-244">这些会议的其他协作方式如下：</span><span class="sxs-lookup"><span data-stu-id="420f2-244">For these conferences, the other collaboration methods are as follows:</span></span></p>
 <div>
 
 > [!NOTE]  
-> 这些数字合计达 100% 以上，因为一个会议可以有多种协作方式。
+> <span data-ttu-id="420f2-245">这些数字合计达 100% 以上，因为一个会议可以有多种协作方式。</span><span class="sxs-lookup"><span data-stu-id="420f2-245">These numbers add up to more than 100% because one conference can have multiple collaboration methods.</span></span>
+
 
 </div>
 <ul>
-<li><p>50% 添加应用程序共享。假设一个用户以每秒 1.1 MB 的峰值发送数据。</p></li>
-<li><p>50% 添加即时消息（平均每个用户两条消息）。</p></li>
-<li><p>20% 添加数据协作，包括 PowerPoint 或白板。其中，平均每次会议使用两个 PowerPoint 文件，文件平均大小为 10 MB（不含嵌入式视频）或 30 MB（含嵌入式视频）。平均每个白板 20 个批注。</p></li>
-<li><p>20% 添加视频。在这些用户当中，70% 的用户参加启用了多视图视频的会议，其中每个用户会收到 2-3 个视频流。</p></li>
-<li><p>15% 添加共享便笺。</p></li>
+<li><p><span data-ttu-id="420f2-p125">50% 添加应用程序共享。假设一个用户以每秒 1.1 MB 的峰值发送数据。</span><span class="sxs-lookup"><span data-stu-id="420f2-p125">50% add application sharing. We assume one users sends data at a peak of 1.1 MB per second.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-248">50% 添加即时消息（平均每个用户两条消息）。</span><span class="sxs-lookup"><span data-stu-id="420f2-248">50% add instant messaging (with an average of 2 messages per user).</span></span></p></li>
+<li><p><span data-ttu-id="420f2-p126">20% 添加数据协作，包括 PowerPoint 或白板。其中，平均每次会议使用两个 PowerPoint 文件，文件平均大小为 10 MB（不含嵌入式视频）或 30 MB（含嵌入式视频）。平均每个白板 20 个批注。</span><span class="sxs-lookup"><span data-stu-id="420f2-p126">20% add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video). Average of 20 annotations per whiteboard.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-p127">20% 添加视频。在这些用户当中，70% 的用户参加启用了多视图视频的会议，其中每个用户会收到 2-3 个视频流。</span><span class="sxs-lookup"><span data-stu-id="420f2-p127">20% add video. Of these users, 70% are in conferences enabled for multiview video, where each user receives 2-3 video streams.</span></span></p></li>
+<li><p><span data-ttu-id="420f2-253">15% 添加共享便笺。</span><span class="sxs-lookup"><span data-stu-id="420f2-253">15% add shared notes.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>会议参与者分布</p></td>
-<td><p>50% 为经过身份验证的内部用户。</p>
-<p>25% 为经过身份验证的远程访问用户。</p>
-<p>15% 为匿名用户。</p>
-<p>10% 为联盟用户。</p></td>
+<td><p><span data-ttu-id="420f2-254">会议参与者分布</span><span class="sxs-lookup"><span data-stu-id="420f2-254">Meeting participant distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-255">50% 为经过身份验证的内部用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-255">50% internal, authenticated users.</span></span></p>
+<p><span data-ttu-id="420f2-256">25% 为经过身份验证的远程访问用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-256">25% remote access, authenticated users.</span></span></p>
+<p><span data-ttu-id="420f2-257">15% 为匿名用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-257">15% anonymous users.</span></span></p>
+<p><span data-ttu-id="420f2-258">10% 为联盟用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-258">10% federated users.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>与会分布</p></td>
-<td><p>用户被模拟为在前 5 分钟内加入会议。</p></td>
+<td><p><span data-ttu-id="420f2-259">与会分布</span><span class="sxs-lookup"><span data-stu-id="420f2-259">Meeting join distribution</span></span></p></td>
+<td><p><span data-ttu-id="420f2-260">用户被模拟为在前 5 分钟内加入会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-260">Users are simulated as joining the meeting within the first 5 minutes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-在常规前端池中， Lync Server 2013 支持的最大会议大小为 250 个用户。每个池一次可承载一个 250 个用户的会议。召开这样的大型会议的同时，池还可以承载其他较小的会议。另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。 有关详细信息，请参阅 [Lync Server 2013 中的大型会议支持](lync-server-2013-support-for-large-meetings.md)。
+<span data-ttu-id="420f2-261">在常规前端池内, Lync Server 2013 的最大受支持的会议大小为250用户。</span><span class="sxs-lookup"><span data-stu-id="420f2-261">In regular Front End pools, Lync Server 2013 has a maximum supported meeting size of 250 users.</span></span> <span data-ttu-id="420f2-262">每个池一次可承载一个 250 个用户的会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-262">Each pool can host one 250-user meeting at a time.</span></span> <span data-ttu-id="420f2-263">召开这样的大型会议的同时，池还可以承载其他较小的会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-263">While this large meeting is occurring, the pool can also host other smaller conferences.</span></span> <span data-ttu-id="420f2-264">另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-264">Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings.</span></span> <span data-ttu-id="420f2-265">有关详细信息, 请参阅[Lync Server 2013 中的大型会议支持](lync-server-2013-support-for-large-meetings.md)。</span><span class="sxs-lookup"><span data-stu-id="420f2-265">For details, see [Support for large meetings in Lync Server 2013](lync-server-2013-support-for-large-meetings.md).</span></span>
 
-模拟会议的方式如下：
+<span data-ttu-id="420f2-266">模拟会议的方式如下：</span><span class="sxs-lookup"><span data-stu-id="420f2-266">Conferences were simulated as follows:</span></span>
 
-  - 85% 的会议有 4 个参与者。
+  - <span data-ttu-id="420f2-267">85% 的会议有 4 个参与者。</span><span class="sxs-lookup"><span data-stu-id="420f2-267">85% of conferences had four participants.</span></span>
 
-  - 10% 的会议有 6 个参与者。
+  - <span data-ttu-id="420f2-268">10% 的会议有 6 个参与者。</span><span class="sxs-lookup"><span data-stu-id="420f2-268">10% of conferences had six participants.</span></span>
 
-  - 5% 的会议有 11 个参与者。
+  - <span data-ttu-id="420f2-269">5% 的会议有 11 个参与者。</span><span class="sxs-lookup"><span data-stu-id="420f2-269">5% of conferences had 11 participants.</span></span>
 
-  - 用户数为 250 的一次大型会议。
+  - <span data-ttu-id="420f2-270">用户数为 250 的一次大型会议。</span><span class="sxs-lookup"><span data-stu-id="420f2-270">One large conference of 250 users.</span></span>
 
-下表详细说明了涉及电话拨入用户的会议的用户模型。
+<span data-ttu-id="420f2-271">下表详细说明了涉及电话拨入用户的会议的用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-271">The following table provides details about the user model for conferences involving dial-in users.</span></span>
 
-### 电话拨入式会议用户模型
+### <a name="dial-in-conferencing-user-model"></a><span data-ttu-id="420f2-272">电话拨入式会议用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-272">Dial-In Conferencing User Model</span></span>
 
 <table>
 <colgroup>
@@ -290,36 +318,36 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-273">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-273">Category</span></span></th>
+<th><span data-ttu-id="420f2-274">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-274">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>经过身份验证/匿名</p></td>
-<td><p>70% 的呼叫者通过匿名加入，并提示输入记录的名称。30% 经过身份验证加入。</p></td>
+<td><p><span data-ttu-id="420f2-275">经过身份验证/匿名</span><span class="sxs-lookup"><span data-stu-id="420f2-275">Authenticated/anonymous</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p129">70% 的呼叫者通过匿名加入，并提示输入记录的名称。30% 经过身份验证加入。</span><span class="sxs-lookup"><span data-stu-id="420f2-p129">70% of callers join as anonymous and are prompted for a recorded name. 30% join as authenticated users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>呼叫持续时间和保持音乐</p></td>
-<td><p>不包括保持音乐的平均呼叫持续时间：50 秒。</p>
-<p>50% 的电话拨入用户会听到保持音乐，平均持续 5 分钟。</p></td>
+<td><p><span data-ttu-id="420f2-278">呼叫持续时间和保持音乐</span><span class="sxs-lookup"><span data-stu-id="420f2-278">Call duration and music on hold</span></span></p></td>
+<td><p><span data-ttu-id="420f2-279">不包括保持音乐的平均呼叫持续时间：50 秒。</span><span class="sxs-lookup"><span data-stu-id="420f2-279">Average call duration without music on hold: 50 seconds.</span></span></p>
+<p><span data-ttu-id="420f2-280">50% 的电话拨入用户会听到保持音乐，平均持续 5 分钟。</span><span class="sxs-lookup"><span data-stu-id="420f2-280">50% of call-in users hear music on hold, for an average of 5 minutes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>双音多频 (DTMF)</p></td>
-<td><p>15% 的仅电话拨入式会议有电话领导。10% 包含电话拨入用户的混合会议也有电话领导。</p>
-<p>20% 的电话领导在每次会议中使用 2 个 DTMF 命令。</p></td>
+<td><p><span data-ttu-id="420f2-281">双音多频 (DTMF)</span><span class="sxs-lookup"><span data-stu-id="420f2-281">Dual-tone multifrequency (DTMF)</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p130">15% 的仅电话拨入式会议有电话领导。10% 包含电话拨入用户的混合会议也有电话领导。</span><span class="sxs-lookup"><span data-stu-id="420f2-p130">15% of conferences that are dial-in only have phone leaders. 10% of mixed conferences that include dial-in users also have phone leaders.</span></span></p>
+<p><span data-ttu-id="420f2-284">20% 的电话领导在每次会议中使用 2 个 DTMF 命令。</span><span class="sxs-lookup"><span data-stu-id="420f2-284">20% of phone leaders use 2 DTMF commands per conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>通知语言</p></td>
-<td><p>模拟使用英语作为通知语言。</p></td>
+<td><p><span data-ttu-id="420f2-285">通知语言</span><span class="sxs-lookup"><span data-stu-id="420f2-285">Announcement languages</span></span></p></td>
+<td><p><span data-ttu-id="420f2-286">模拟使用英语作为通知语言。</span><span class="sxs-lookup"><span data-stu-id="420f2-286">Simulations use English as the announcement language.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表详细说明了会议厅的用户模型。
+<span data-ttu-id="420f2-287">下表详细说明了会议厅的用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-287">The following table provides details about the user model for conference lobbies.</span></span>
 
-### 会议厅用户模型
+### <a name="conference-lobby-user-model"></a><span data-ttu-id="420f2-288">会议厅用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-288">Conference Lobby User Model</span></span>
 
 <table>
 <colgroup>
@@ -328,26 +356,26 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-289">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-289">Category</span></span></th>
+<th><span data-ttu-id="420f2-290">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-290">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>会议厅中的用户数量</p></td>
-<td><p>5% 的电话拨入用户通过会议厅，25% 其他用户通过会议厅</p></td>
+<td><p><span data-ttu-id="420f2-291">会议厅中的用户数量</span><span class="sxs-lookup"><span data-stu-id="420f2-291">Number of users in lobby</span></span></p></td>
+<td><p><span data-ttu-id="420f2-292">5% 的电话拨入用户通过会议厅，25% 其他用户通过会议厅</span><span class="sxs-lookup"><span data-stu-id="420f2-292">5% of dial-in users go through the lobby, and 25% of other users go through the lobby</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>从会议厅加入</p></td>
-<td><p>在模拟中，所有用户在客户端超时之前由演示者许可加入。</p></td>
+<td><p><span data-ttu-id="420f2-293">从会议厅加入</span><span class="sxs-lookup"><span data-stu-id="420f2-293">Admitting from lobby</span></span></p></td>
+<td><p><span data-ttu-id="420f2-294">在模拟中，所有用户在客户端超时之前由演示者许可加入。</span><span class="sxs-lookup"><span data-stu-id="420f2-294">In simulations, all users were admitted by the presenter before client timeout.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表说明了其他对等会话的用户模型。
+<span data-ttu-id="420f2-295">下表说明了其他对等会话的用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-295">The following table describes the user model for other peer-to-peer sessions.</span></span>
 
-### 对等会话用户模型
+### <a name="peer-to-peer-sessions-user-model"></a><span data-ttu-id="420f2-296">对等会话用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-296">Peer-to-Peer Sessions User Model</span></span>
 
 <table>
 <colgroup>
@@ -356,26 +384,26 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-297">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-297">Category</span></span></th>
+<th><span data-ttu-id="420f2-298">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-298">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>应用程序共享</p></td>
-<td><p>每个用户每个月参加 5 个对等应用程序共享会话，平均每天参加 0.25 个会话。</p></td>
+<td><p><span data-ttu-id="420f2-299">应用程序共享</span><span class="sxs-lookup"><span data-stu-id="420f2-299">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="420f2-300">每个用户每个月参加 5 个对等应用程序共享会话，平均每天参加 0.25 个会话。</span><span class="sxs-lookup"><span data-stu-id="420f2-300">Each user participates in 5 peer-to-peer application sharing sessions per month, for an average of 0.25 sessions per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>文件传输</p></td>
-<td><p>每个用户每个月参加 1 个对等文件传输会话（IM 会话的一部分），平均每天参加 0.05 个会话。传输的会话文件平均大小为 1 MB。</p></td>
+<td><p><span data-ttu-id="420f2-301">文件传输</span><span class="sxs-lookup"><span data-stu-id="420f2-301">File transfer</span></span></p></td>
+<td><p><span data-ttu-id="420f2-p131">每个用户每个月参加 1 个对等文件传输会话（IM 会话的一部分），平均每天参加 0.05 个会话。传输的会话文件平均大小为 1 MB。</span><span class="sxs-lookup"><span data-stu-id="420f2-p131">Each user participates in 1 peer-to-peer file transfer session per month (as part of an IM session), for an average of 0.05 sessions per day. The average session file size transferred is 1 MB.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表介绍了用于策略的用户模型。
+<span data-ttu-id="420f2-304">下表介绍了用于策略的用户模型。</span><span class="sxs-lookup"><span data-stu-id="420f2-304">The following table describes the user model for policies.</span></span>
 
-### 策略用户模型
+### <a name="policies-user-model"></a><span data-ttu-id="420f2-305">策略用户模型</span><span class="sxs-lookup"><span data-stu-id="420f2-305">Policies User Model</span></span>
 
 <table>
 <colgroup>
@@ -384,56 +412,88 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类别</th>
-<th>说明</th>
+<th><span data-ttu-id="420f2-306">类别</span><span class="sxs-lookup"><span data-stu-id="420f2-306">Category</span></span></th>
+<th><span data-ttu-id="420f2-307">描述</span><span class="sxs-lookup"><span data-stu-id="420f2-307">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>会议、状态和存档策略</p></td>
-<td><p>假设有一个全局策略、10 个标记会议策略、4 个存档策略和 10 个标记状态策略。</p></td>
+<td><p><span data-ttu-id="420f2-308">会议、状态和存档策略</span><span class="sxs-lookup"><span data-stu-id="420f2-308">Conferencing, Presence, and Archiving Policies</span></span></p></td>
+<td><p><span data-ttu-id="420f2-309">假设有一个全局策略、10 个标记会议策略、4 个存档策略和 10 个标记状态策略。</span><span class="sxs-lookup"><span data-stu-id="420f2-309">We assume that there is one global policy, 10 tag conferencing policies, 4 Archiving policies, and 10 tag presence policies.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>语音策略</p></td>
-<td><p>假设每个站点有一个全局策略和 2 个标记策略。100% 的站点都有站点策略，并为 30% 的用户分配每用户策略。假设每个站点有一个拨号计划和两个路由。</p></td>
+<td><p><span data-ttu-id="420f2-310">语音策略</span><span class="sxs-lookup"><span data-stu-id="420f2-310">Voice Policy</span></span></p></td>
+<td><p><span data-ttu-id="420f2-311">假设每个站点有一个全局策略和 2 个标记策略。</span><span class="sxs-lookup"><span data-stu-id="420f2-311">We assume that there is one global policy and 2 tag policies per site.</span></span> <span data-ttu-id="420f2-312">100% 的站点都有站点策略，并为 30% 的用户分配每用户策略。</span><span class="sxs-lookup"><span data-stu-id="420f2-312">100% of sites have a site policy, and 30% of users have a per-user policy assigned.</span></span> <span data-ttu-id="420f2-313">假设每个站点有一个拨号计划和两个路由。</span><span class="sxs-lookup"><span data-stu-id="420f2-313">We assume one dial plan per site and two routes per site.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 忙时
+</div>
 
-对于对等会话，使用忙时呼叫尝试 (BHCA) 计算峰值负载。此语音行业术语假设将在 20% 的时间内完成一天中 50% 的呼叫。可使用以下公式进行计算：
+<div>
+
+## <a name="busy-hour"></a><span data-ttu-id="420f2-314">忙时</span><span class="sxs-lookup"><span data-stu-id="420f2-314">Busy Hour</span></span>
+
+<span data-ttu-id="420f2-p133">对于对等会话，使用忙时呼叫尝试 (BHCA) 计算峰值负载。此语音行业术语假设将在 20% 的时间内完成一天中 50% 的呼叫。可使用以下公式进行计算：</span><span class="sxs-lookup"><span data-stu-id="420f2-p133">For peer-to-peer sessions, peak load is calculated using busy hour call attempts (BHCA). This voice industry term assumes that 50% of all calls for the day will be completed in 20% of the time. It is calculated using the following formula:</span></span>
 
 `BHCA=(total calls * 0.5) / 1.6`
 
-通过运行 VoIP 模拟忙时的性能测试和每天至少 1.6 小时的忙时负载的其他对等会话。
+<span data-ttu-id="420f2-318">通过运行 VoIP 模拟忙时的性能测试和每天至少 1.6 小时的忙时负载的其他对等会话。</span><span class="sxs-lookup"><span data-stu-id="420f2-318">Performance testing simulated busy hour by running VoIP and other peer-to-peer sessions at a busy hour load for at least 1.6 hours per day.</span></span>
 
-会议峰值负载假设在 4 小时的高峰时间内发生 8 小时工作日 75% 的会议。这些高峰时间的负载是平均会议负载的 1.5 倍。
+<span data-ttu-id="420f2-p134">会议峰值负载假设在 4 小时的高峰时间内发生 8 小时工作日 75% 的会议。这些高峰时间的负载是平均会议负载的 1.5 倍。</span><span class="sxs-lookup"><span data-stu-id="420f2-p134">Conferencing peak load assumes that 75% of all conferences for an eight-hour day happen in 4 peak time hours. Those peak hours have 1.5 times the average conferencing load.</span></span>
 
-## 企业语音至 PSTN 的呼叫
+</div>
 
-以下假设适用于 企业语音呼叫：
+<div>
 
-  - 为 50% 的用户启用了 企业语音，并且为这些用户中的 60% 启用了 PSTN 呼叫。
+## <a name="enterprise-voice-to-pstn-calls"></a><span data-ttu-id="420f2-321">企业语音到 PSTN 呼叫</span><span class="sxs-lookup"><span data-stu-id="420f2-321">Enterprise Voice to PSTN Calls</span></span>
 
-  - 启用了 PSTN 呼叫的其中每一位用户在忙碌时段都发出 4 个 PSTN 呼叫。每个呼叫的持续时间为 3 分钟。
+<span data-ttu-id="420f2-322">以下假设适用于企业语音呼叫:</span><span class="sxs-lookup"><span data-stu-id="420f2-322">The following assumptions apply to Enterprise Voice calls:</span></span>
 
-  - 其中 65% 的 PSTN 语音呼叫使用媒体旁路。
+  - <span data-ttu-id="420f2-323">50% 的用户支持企业语音, 并且这些用户的 60% 已启用 PSTN 呼叫。</span><span class="sxs-lookup"><span data-stu-id="420f2-323">50% of users are enabled for Enterprise Voice, and 60% of these users are enabled for PSTN calling.</span></span>
 
-## 移动性
+  - <span data-ttu-id="420f2-p135">启用了 PSTN 呼叫的其中每一位用户在忙碌时段都发出 4 个 PSTN 呼叫。每个呼叫的持续时间为 3 分钟。</span><span class="sxs-lookup"><span data-stu-id="420f2-p135">Each of these users enabled for PSTN calling makes 4 PSTN calls during the busy hour. Each call duration is 3 minutes.</span></span>
 
-假设为 40% 的注册用户启用了移动。对于启用了移动的每一位用户，假设移动客户端的活动是在该用户其他 MPOP 实例活动的基础上进行增加，但会议交互除外，对其而言，移动客户端只是可用来参与会议的另一种客户端类型。
+  - <span data-ttu-id="420f2-326">其中 65% 的 PSTN 语音呼叫使用媒体旁路。</span><span class="sxs-lookup"><span data-stu-id="420f2-326">65% of these PSTN voice calls use media bypass.</span></span>
 
-## 持久聊天
+</div>
 
-假设 25% 的注册用户将参与到持久聊天会话中，并具有以下特征：
+<div>
 
-  - 每个用户平均 1.5 个聊天室
+## <a name="mobility"></a><span data-ttu-id="420f2-327">移动性</span><span class="sxs-lookup"><span data-stu-id="420f2-327">Mobility</span></span>
 
-  - 每个聊天室每小时将产生 12 个轮询请求，每个轮询请求平均针对 10 个用户
+<span data-ttu-id="420f2-p136">假设为 40% 的注册用户启用了移动。对于启用了移动的每一位用户，假设移动客户端的活动是在该用户其他 MPOP 实例活动的基础上进行增加，但会议交互除外，对其而言，移动客户端只是可用来参与会议的另一种客户端类型。</span><span class="sxs-lookup"><span data-stu-id="420f2-p136">40% of registered users are assumed to be enabled for Mobility. For each user that has mobility enabled, we assume that the activity of the mobile client is additive to that of the other MPOP instances for that user, with the exception of conferencing interactions, for which the mobility client is just another client type that can be used to participate in conferences.</span></span>
 
-## 响应组和呼叫驻留
+</div>
 
-假设 0.15% 的注册用户属于响应组。假设 0.02% 的注册用户在任何给定的时间点都有驻留呼叫。
+<div>
+
+## <a name="persistent-chat"></a><span data-ttu-id="420f2-330">持久聊天</span><span class="sxs-lookup"><span data-stu-id="420f2-330">Persistent Chat</span></span>
+
+<span data-ttu-id="420f2-331">假设 25% 的注册用户将参与到持久聊天会话中，并具有以下特征：</span><span class="sxs-lookup"><span data-stu-id="420f2-331">We assume that 25% of registered users will be involved in Persistent chat sessions, with the following characteristics:</span></span>
+
+  - <span data-ttu-id="420f2-332">每个用户平均 1.5 个聊天室</span><span class="sxs-lookup"><span data-stu-id="420f2-332">An average of 1.5 chat rooms per user</span></span>
+
+  - <span data-ttu-id="420f2-333">每个聊天室每小时将产生 12 个轮询请求，每个轮询请求平均针对 10 个用户</span><span class="sxs-lookup"><span data-stu-id="420f2-333">Each chat room results in 12 polling requests per hour, targeting an average of 10 users each</span></span>
+
+</div>
+
+<div>
+
+## <a name="response-group-and-call-park"></a><span data-ttu-id="420f2-334">响应组和呼叫驻留</span><span class="sxs-lookup"><span data-stu-id="420f2-334">Response Group and Call Park</span></span>
+
+<span data-ttu-id="420f2-p137">假设 0.15% 的注册用户属于响应组。假设 0.02% 的注册用户在任何给定的时间点都有驻留呼叫。</span><span class="sxs-lookup"><span data-stu-id="420f2-p137">We assume that 0.15% of registered users belong to response groups. We assume that 0.02% of registered users have parked calls at any given point of time.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

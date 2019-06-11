@@ -1,114 +1,89 @@
-﻿---
-title: 指定要用于登录到 Lync Server 2013 的客户端应用程序
-TOCTitle: 指定要用于登录到 Lync Server 2013 的客户端应用程序
-ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182591(v=OCS.15)
-ms:contentKeyID: 49314334
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 指定可用于登录 Lync Server 2013 的客户端应用程序'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Specifying the client applications that can be used to log on to Lync Server 2013
+ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182591(v=OCS.15)
+ms:contentKeyID: 48185450
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 42f1135349c7caab0f8e3fe2e428a1bad59466ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845825"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 指定要用于登录到 Lync Server 2013 的客户端应用程序
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-12-11_
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a><span data-ttu-id="fe121-102">指定可用于登录 Lync Server 2013 的客户端应用程序</span><span class="sxs-lookup"><span data-stu-id="fe121-102">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>
 
-通过 Lync Server 2013，可以指定环境中支持的客户端版本。当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。为了充分利用 Lync Server 2013 中包含的各种功能并改善整体用户体验，可以使用客户端版本筛选器来限制 Lync Server 2013 环境中使用的客户端版本。使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+</div>
 
-除了创建全局策略外，还可以为特定服务或站点创建客户端版本策略，或创建可分配给单个用户的用户作用域策略。可以在 Lync Server 控制面板中将用户作用域客户端版本策略分配给“用户”组中的各个用户。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="fe121-103">_**主题上次修改时间:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="fe121-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+
+<span data-ttu-id="fe121-104">Lync Server 2013 使你能够指定你的环境支持的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="fe121-104">Lync Server 2013 enables you to specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="fe121-105">使用客户端版本策略可以帮助降低与支持多个客户端版本相关的成本。</span><span class="sxs-lookup"><span data-stu-id="fe121-105">Using client version policies can help reduce the costs associated with supporting multiple client versions.</span></span> <span data-ttu-id="fe121-106">它还可以改进整体用户体验, 因为当客户端的早期版本和更高版本的客户端交互时, 可用的功能可以受到较早版本的客户端的限制。</span><span class="sxs-lookup"><span data-stu-id="fe121-106">It can also improve the overall user experience, because when earlier and later versions of clients interact, the available features can be limited by the earlier version of the client.</span></span>
+
+<span data-ttu-id="fe121-107">客户端版本控制有三个组件:</span><span class="sxs-lookup"><span data-stu-id="fe121-107">There are three components of client version control:</span></span>
+
+  - <span data-ttu-id="fe121-108">客户端版本配置设置用于打开或关闭客户端版本控制, 无论是全局还是针对特定网站。</span><span class="sxs-lookup"><span data-stu-id="fe121-108">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span>
+
+  - <span data-ttu-id="fe121-109">客户端版本策略用于全局分配一组规则, 或分配给特定网站、池或用户组。</span><span class="sxs-lookup"><span data-stu-id="fe121-109">Client version policies are used to assign a set of rules globally, or to a particular site, pool, or group of users.</span></span>
+
+  - <span data-ttu-id="fe121-110">客户端版本策略规则构成了客户端版本策略, 用于定义当用户尝试使用特定客户端和客户端版本登录时应采取的操作。</span><span class="sxs-lookup"><span data-stu-id="fe121-110">Client version policy rules make up a client version policy, and are used to define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。
+> <span data-ttu-id="fe121-111">由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。</span><span class="sxs-lookup"><span data-stu-id="fe121-111">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
-> [!IMPORTANT]
-> 按优先顺序列出筛选器。例如，如果您具有一个筛选器可允许运行版本 1.5 的客户端进行连接，还有另一个筛选器可阻止运行低于 2.0 版本的客户端，则第一个筛选器优先，允许运行版本 1.5 的客户端进行连接。
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="fe121-112">本节内容</span><span class="sxs-lookup"><span data-stu-id="fe121-112">In This Section</span></span>
+
+  - [<span data-ttu-id="fe121-113">Lync Server 2013 中的客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="fe121-113">Client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-client-version-configuration-settings.md)
+
+  - [<span data-ttu-id="fe121-114">Lync Server 2013 中的客户端版本策略</span><span class="sxs-lookup"><span data-stu-id="fe121-114">Client version policies in Lync Server 2013</span></span>](lync-server-2013-client-version-policies.md)
+
+  - [<span data-ttu-id="fe121-115">Lync Server 2013 中的客户端版本规则</span><span class="sxs-lookup"><span data-stu-id="fe121-115">Client version rules in Lync Server 2013</span></span>](lync-server-2013-client-version-rules.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="fe121-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fe121-116">See Also</span></span>
 
 
-## 编辑默认客户端版本策略
+[<span data-ttu-id="fe121-117">在 Lync Server 2013 中管理设备、电话和客户端应用程序</span><span class="sxs-lookup"><span data-stu-id="fe121-117">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+</div>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+</div>
 
-3.  在左侧导航栏中，单击“客户端”。
-    
-    > [!NOTE]  
-	> 默认情况下，选中“客户端版本策略”选项卡。
-    
+<span> </span>
 
+</div>
 
-4.  在“客户端版本策略”页上，双击列表中的“全局”策略。
+</div>
 
-5.  在“编辑客户端版本策略”中，执行下列操作之一：
-    
-      - 单击“新建”创建新的客户端版本规则。
-    
-      - 单击列表中已定义的客户端类型之一，然后单击“显示详细信息”。
-    
-    > [!NOTE]
-    > 可以使用通配符来指示客户端类型。
-
-
-6.  在“用户代理”中，选择客户端类型。
-
-7.  在“版本号”下，执行下列操作：
-    
-      - 在“主版本”中，键入与客户端的主版本相对应的版本号。
-    
-      - 在“次版本”中，键入与客户端的次版本相对应的版本号。
-    
-      - 在“内部版本”中，键入与客户端的主版本和次版本相对应的版本号。
-    
-      - 在“更新”中，键入与客户端的更新版本相对应的版本号。
-    
-    > [!NOTE]  
-	> 可以使用通配符来指示客户端版本号。
-    
-
-
-8.  要为上述步骤中指定的客户端版本指定匹配操作，请在“比较操作”中，单击下列选项之一：
-    
-      - **相同**
-    
-      - **不是**
-    
-      - **更高**
-    
-      - **更高或相同**
-    
-      - **更低**
-    
-      - **更低或相同**
-
-9.  要指定在满足上述步骤中的条件时执行的操作，请在“操作”中，单击下列选项之一：
-    
-      - 要允许客户端登录，请单击“允许”。
-    
-      - 要允许客户端登录并接收来自 Windows Server 更新服务或 Microsoft Update 的更新，请单击“允许并升级”。仅当选中用户代理“OC”时，才能进行此操作。
-        
-        > [!NOTE]  
-		> 选择此操作会使得在用户下次登录到 Lync 2013 时显示一个通知。该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。为了避免混淆，您只应在更新可用后选择此操作。
-        
-    
-      - 要允许客户端登录并显示有关下载其他客户端版本的位置的消息，请单击“使用 URL 允许”。需要在此过程的后面阶段指定 URL。
-    
-      - 要阻止客户端登录，请单击“阻止”。
-    
-      - 要阻止客户端登录并允许客户端接收来自 Windows Server 更新服务或 Microsoft Update 的更新，请单击“阻止并升级”。仅当选中用户代理“OC”时，才能进行此操作。
-    
-      - 要阻止客户端登录并显示有关下载其他客户端版本的位置的消息，请单击“使用 URL 阻止”。需要在此过程的后面阶段指定 URL。
-
-10. （可选）如果在上一步中单击“使用 URL 允许”或“使用 URL 阻止”，则在“URL”中键入要包含在消息中的客户端下载 URL。
-
-11. 单击“确定”，然后单击“提交”。
-
-## 另请参阅
-
-#### 其他资源
-
-[在 Lync Server 2013 中管理设备、电话和客户端应用程序](lync-server-2013-managing-devices-phones-and-client-applications.md)
+</div>
 

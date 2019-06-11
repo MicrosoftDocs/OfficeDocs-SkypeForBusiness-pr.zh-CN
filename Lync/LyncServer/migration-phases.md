@@ -1,39 +1,69 @@
-﻿---
-title: 迁移阶段
-TOCTitle: 迁移阶段
-ms:assetid: cb7747ba-b872-42ca-ab41-76e3c4e77d06
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205336(v=OCS.15)
-ms:contentKeyID: 49314255
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 迁移阶段
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration phases
+ms:assetid: cb7747ba-b872-42ca-ab41-76e3c4e77d06
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205336(v=OCS.15)
+ms:contentKeyID: 48185642
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fa7226a442d8e41d4ab0e6e3511a35e020decb65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845193"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 迁移阶段
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-17_
+# <a name="migration-phases"></a><span data-ttu-id="f6b16-102">迁移阶段</span><span class="sxs-lookup"><span data-stu-id="f6b16-102">Migration phases</span></span>
 
-在 Lync Server 2013 中，可以在包含 Lync Server 2013 组件的网络上定义站点。站点是一组通过高速度、低延迟网络（例如单个局域网 (LAN) 或由高速光纤网络连接的两个网络）正确连接的计算机。
+</div>
 
-*前端池* 是一组配置相同的前端服务器，这些服务器协同工作来为公用组用户提供服务。池为用户提供可伸缩性和故障转移功能。池中的每台服务器必须运行一个或多个相同的服务器角色。 Standard Edition Server 是为小型组织设计的，也定义一个池并在单个服务器上运行。这样可使 Lync Server 2013 功能的成本更低，但不提供实际的高可用性解决方案。
+<div id="mainSection">
 
-以下阶段介绍将池从 Lync Server 2010 迁移到 Lync Server 2013 的过程。对于包含多个池的多个站点，每个池都应遵循此分阶段方法。
+<div id="mainBody">
 
-1.  [第 1 阶段：规划 Lync Server 2010 的迁移](phase-1-plan-your-migration-from-lync-server-2010.md)
+<span> </span>
 
-2.  [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
+<span data-ttu-id="f6b16-103">_**主题上次修改时间:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="f6b16-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-3.  [第 3 阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool.md)
+<span data-ttu-id="f6b16-104">在 Lync Server 2013 中, 你可以在网络上定义包含 Lync Server 2013 组件的网站。</span><span class="sxs-lookup"><span data-stu-id="f6b16-104">In Lync Server 2013, you define sites on your network that contain Lync Server 2013 components.</span></span> <span data-ttu-id="f6b16-105">站点是一组计算机, 这些计算机通过高速、低延迟网络连接, 如单个局域网 (LAN) 或通过高速光纤网络连接的两个网络。</span><span class="sxs-lookup"><span data-stu-id="f6b16-105">A site is a set of computers that are well-connected by a high-speed, low-latency network, such as a single local area network (LAN) or two networks connected by a high-speed fiber optic network.</span></span>
 
-4.  [第 4 阶段：将测试用户移至试点池中](phase-4-move-test-users-to-the-pilot-pool.md)
+<span data-ttu-id="f6b16-106">*前端池*是一组前端服务器, 这些服务器配置相同, 并且协同工作以提供一组通用用户的服务。</span><span class="sxs-lookup"><span data-stu-id="f6b16-106">A *Front End pool* is a set of Front End Servers that are configured identically and work together to provide services for a common group of users.</span></span> <span data-ttu-id="f6b16-107">池为你的用户提供了可伸缩性和故障转移功能。</span><span class="sxs-lookup"><span data-stu-id="f6b16-107">A pool provides scalability and failover capability to your users.</span></span> <span data-ttu-id="f6b16-108">池中的每台服务器必须运行一个或多个相同的服务器角色。</span><span class="sxs-lookup"><span data-stu-id="f6b16-108">Each server in a pool must run an identical server role or roles.</span></span> <span data-ttu-id="f6b16-109">适用于小型组织的标准版服务器还定义了一个池并在单个服务器上运行。</span><span class="sxs-lookup"><span data-stu-id="f6b16-109">A Standard Edition server, designed for small organizations, also defines a pool and runs on a single server.</span></span> <span data-ttu-id="f6b16-110">这使您能够以较低的成本获得 Lync Server 2013 功能, 但不提供真正高可用性的解决方案。</span><span class="sxs-lookup"><span data-stu-id="f6b16-110">This enables you to have Lync Server 2013 functionality for a lesser cost, but does not provide a true high-availability solution.</span></span>
 
-5.  [第 5 阶段：向试点池中添加 Lync Server 2013 边缘服务器](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+<span data-ttu-id="f6b16-111">以下阶段介绍从 Lync Server 2010 到 Lync Server 2013 的池迁移过程。</span><span class="sxs-lookup"><span data-stu-id="f6b16-111">The following phases describe the process of a pool migration from Lync Server 2010 to Lync Server 2013.</span></span> <span data-ttu-id="f6b16-112">对于包含多个池的多个网站, 每个单独的池应遵循这种分段方法。</span><span class="sxs-lookup"><span data-stu-id="f6b16-112">For multiple sites containing multiple pools, each individual pool should follow this phased approach.</span></span>
 
-6.  [第 6 阶段：从试点部署移动到生产中](phase-6-move-from-pilot-deployment-into-production.md)
+1.  [<span data-ttu-id="f6b16-113">第1阶段: 规划从 Lync Server 2010 的迁移</span><span class="sxs-lookup"><span data-stu-id="f6b16-113">Phase 1: Plan your migration from Lync Server 2010</span></span>](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-7.  [第 7 阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
+2.  [<span data-ttu-id="f6b16-114">第 2 阶段：准备迁移</span><span class="sxs-lookup"><span data-stu-id="f6b16-114">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
 
-8.  [第 8 阶段：停用旧池](phase-8-decommission-legacy-pools.md)
+3.  [<span data-ttu-id="f6b16-115">第3阶段: 部署 Lync Server 2013 试验池</span><span class="sxs-lookup"><span data-stu-id="f6b16-115">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool.md)
+
+4.  [<span data-ttu-id="f6b16-116">第4阶段: 将测试用户移动到试验池</span><span class="sxs-lookup"><span data-stu-id="f6b16-116">Phase 4: Move test users to the pilot pool</span></span>](phase-4-move-test-users-to-the-pilot-pool.md)
+
+5.  [<span data-ttu-id="f6b16-117">第5阶段: 将 Lync Server 2013 边缘服务器添加到试验池</span><span class="sxs-lookup"><span data-stu-id="f6b16-117">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+
+6.  [<span data-ttu-id="f6b16-118">第 6 阶段：从试点部署移动到生产中</span><span class="sxs-lookup"><span data-stu-id="f6b16-118">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
+
+7.  [<span data-ttu-id="f6b16-119">第 7 阶段：完成迁移后任务</span><span class="sxs-lookup"><span data-stu-id="f6b16-119">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
+
+8.  [<span data-ttu-id="f6b16-120">第 8 阶段：停用旧池</span><span class="sxs-lookup"><span data-stu-id="f6b16-120">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

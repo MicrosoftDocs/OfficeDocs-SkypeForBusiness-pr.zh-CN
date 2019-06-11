@@ -1,72 +1,117 @@
-﻿---
-title: 查看用户 PIN 信息
-TOCTitle: 查看用户 PIN 信息
-ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688067(v=OCS.15)
-ms:contentKeyID: 49888431
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 查看用户 PIN 信息'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View user PIN information
+ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
+ms:contentKeyID: 49733661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845324"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 查看用户 PIN 信息
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-23_
+# <a name="view-user-pin-information-in-lync-server-2013"></a><span data-ttu-id="a10f9-102">在 Lync Server 2013 中查看用户 PIN 信息</span><span class="sxs-lookup"><span data-stu-id="a10f9-102">View user PIN information in Lync Server 2013</span></span>
 
-要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Lync Server 2013 用户需要个人标识号 (PIN)。您可以从 Lync Server 2013 控制面板查看用户的 PIN 信息。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a10f9-103">_**主题上次修改时间:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a10f9-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="a10f9-104">若要将电话拨入式会议作为经过身份验证的用户加入, 使用 Active Directory 域服务 (AD DS) 凭据的 Lync Server 2013 用户需要一个个人识别码 (PIN)。</span><span class="sxs-lookup"><span data-stu-id="a10f9-104">To join a dial-in conference as an authenticated user, a Lync Server 2013 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN).</span></span> <span data-ttu-id="a10f9-105">您可以从 Lync Server 2013 控制面板查看用户的 PIN 信息。</span><span class="sxs-lookup"><span data-stu-id="a10f9-105">You can view a user’s PIN information from Lync Server 2013 Control Panel.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。如果用户丢失了其 PIN，您可以按照<a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">在 Lync Server 2013 中设置用户的电话拨入式会议 PIN</a> 中的过程重置它
+> <span data-ttu-id="a10f9-106">您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。</span><span class="sxs-lookup"><span data-stu-id="a10f9-106">You can view PIN status information such as whether the PIN has been set or when the PIN was last changed, but you cannot see the current PIN by looking at the PIN status.</span></span> <span data-ttu-id="a10f9-107">如果用户已丢失 PIN, 则可以按照在<A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 中设置用户的电话拨入式会议 PIN</A>中的过程重置它。</span><span class="sxs-lookup"><span data-stu-id="a10f9-107">If a user has lost their PIN, you can reset it by following the procedures in <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Set a user's dial-in conferencing PIN in Lync Server 2013</A></span></span>
 
 
-## 在 Lync Server 控制面板中查看用户的 PIN
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+</div>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<div>
 
-3.  在左侧导航栏中，单击“用户”。
+## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a><span data-ttu-id="a10f9-108">在 Lync Server "控制面板" 中查看用户的 PIN</span><span class="sxs-lookup"><span data-stu-id="a10f9-108">To view a user’s PIN in Lync Server Control Panel</span></span>
 
-4.  使用下列方法之一查找用户：
+1.  <span data-ttu-id="a10f9-109">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="a10f9-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="a10f9-110">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="a10f9-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a10f9-111">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="a10f9-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="a10f9-112">在左导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-112">In the left navigation bar, click **Users**.</span></span>
+
+4.  <span data-ttu-id="a10f9-113">使用下列方法之一查找用户：</span><span class="sxs-lookup"><span data-stu-id="a10f9-113">Use one of the following methods to locate a user:</span></span>
     
-      - 在“搜索用户”框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
+      - <span data-ttu-id="a10f9-114">在“搜索用户”\*\*\*\* 框中，键入用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-114">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - 如果具有保存的查询，请单击“打开查询”图标，使用“打开”对话框来检索该查询（.usf 文件），然后单击“查找”。
+      - <span data-ttu-id="a10f9-115">如果具有保存的查询，请单击“打开查询”\*\*\*\* 图标，使用“打开”\*\*\*\* 对话框来检索该查询（.usf 文件），然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-115">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  （可选）指定附加搜索条件以缩小结果的范围：
+5.  <span data-ttu-id="a10f9-116">（可选）指定附加搜索条件以缩小结果的范围：</span><span class="sxs-lookup"><span data-stu-id="a10f9-116">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  单击“添加筛选器”。
+    1.  <span data-ttu-id="a10f9-117">单击“添加筛选器”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-117">Click **Add Filter**.</span></span>
     
-    2.  通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。
+    2.  <span data-ttu-id="a10f9-118">通过键入用户属性，或单击下拉列表中的箭头选择属性来输入用户属性。</span><span class="sxs-lookup"><span data-stu-id="a10f9-118">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  在“等于”下拉列表中，单击运算符（例如“等于”或“不等于”）。
+    3.  <span data-ttu-id="a10f9-119">在“等于”\*\*\*\* 下拉列表中，单击运算符（例如“等于”\*\*\*\* 或“不等于”\*\*\*\*）。</span><span class="sxs-lookup"><span data-stu-id="a10f9-119">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。
+    4.  <span data-ttu-id="a10f9-120">根据所选的用户属性，通过键入条件或单击下拉列表中的箭头输入用于筛选搜索结果的条件。</span><span class="sxs-lookup"><span data-stu-id="a10f9-120">Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
+        <div>
+        
+
         > [!TIP]  
-        > 要向查询中添加附加搜索子句，请单击“添加筛选器”。
+        > <span data-ttu-id="a10f9-121">要向查询中添加附加搜索子句，请单击“添加筛选器”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="a10f9-121">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
+
+        
+        </div>
     
-    5.  单击“查找”。
+    5.  <span data-ttu-id="a10f9-122">单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-122">Click **Find**.</span></span>
     
-    > [!NOTE]
-    > 如果锁定了 PIN，则必须解锁 PIN，然后才能对其进行设置。要解锁 PIN，请单击用户，再单击“操作”，然后单击“解锁 PIN”。
+    <div>
+    
 
+    > [!NOTE]  
+    > <span data-ttu-id="a10f9-p104">如果锁定了 PIN，则必须解锁 PIN，然后才能对其进行设置。要解锁 PIN，请单击用户，再单击“操作”<STRONG></STRONG>，然后单击“解锁 PIN”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="a10f9-p104">If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click <STRONG>Action</STRONG>, and then click <STRONG>Unlock PIN</STRONG>.</span></span>
 
-6.  在搜索结果中单击某个用户，再单击“操作”，然后单击“查看 PIN 状态”。
+    
+    </div>
 
-## 使用 Lync Server 命令行管理程序 cmdlet 查看用户 PIN 信息
+6.  <span data-ttu-id="a10f9-125">在搜索结果中单击某个用户，再单击“操作”\*\*\*\*，然后单击“查看 PIN 状态”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a10f9-125">Click a user in the search results, click **Action**, and then click **View PIN status**.</span></span>
 
-您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。此 cmdlet 可从 Lync Server 2013 命令行管理程序运行或从 Windows PowerShell 的远程会话运行。有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章“快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010”，网址为 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+</div>
 
-## 查看用户 PIN 信息
+<div>
 
-  - 若要查看用户的 PIN 信息，请在 Lync Server 命令行管理程序中键入类似于下面的命令，然后按 Enter：
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a10f9-126">使用 Windows PowerShell cmdlet 查看用户 PIN 信息</span><span class="sxs-lookup"><span data-stu-id="a10f9-126">Viewing User PIN Information by Using Windows PowerShell cmdlets</span></span>
+
+<span data-ttu-id="a10f9-127">您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。</span><span class="sxs-lookup"><span data-stu-id="a10f9-127">You can view user PIN information by using the Get-CsClientPinInfo cmdlet.</span></span> <span data-ttu-id="a10f9-128">此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="a10f9-128">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a10f9-129">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="a10f9-129">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-user-pin-information"></a><span data-ttu-id="a10f9-130">查看用户 PIN 信息</span><span class="sxs-lookup"><span data-stu-id="a10f9-130">To view user PIN information</span></span>
+
+  - <span data-ttu-id="a10f9-131">若要查看用户的 PIN 信息, 请在 Lync Server 命令行管理程序中键入类似于以下内容的命令, 然后按 ENTER:</span><span class="sxs-lookup"><span data-stu-id="a10f9-131">To view PIN information for a user, type a command similar to the following in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
-    这将返回与以下内容类似的信息：
+    <span data-ttu-id="a10f9-132">这将返回与以下类似的信息：</span><span class="sxs-lookup"><span data-stu-id="a10f9-132">That will return information similar to this:</span></span>
     
         Identity          : sip:kenmyer@litwareinc.com
         IsPinSet          : False
@@ -74,12 +119,30 @@ _**上一次修改主题：** 2013-02-23_
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-有关详细信息，请参阅 [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet 的帮助主题。
+</div>
 
-## 另请参阅
+<span data-ttu-id="a10f9-133">有关详细信息, 请参阅[CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="a10f9-133">For more information, see the help topic for the [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet.</span></span>
 
-#### 任务
+</div>
 
-[在 Lync Server 2013 中设置用户的电话拨入式会议 PIN](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
-[锁定或解锁用户 PIN](lync-server-2013-lock-or-unlock-a-user-pin.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a10f9-134">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a10f9-134">See Also</span></span>
+
+
+[<span data-ttu-id="a10f9-135">在 Lync Server 2013 中设置用户的电话拨入式会议 PIN</span><span class="sxs-lookup"><span data-stu-id="a10f9-135">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
+[<span data-ttu-id="a10f9-136">在 Lync Server 2013 中锁定或解锁用户 PIN</span><span class="sxs-lookup"><span data-stu-id="a10f9-136">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,47 @@
-﻿---
-title: Lync Server 2013：先前部署中支持的客户端
-TOCTitle: 先前部署中支持的客户端
-ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398499(v=OCS.15)
-ms:contentKeyID: 49313123
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：先前部署中支持的客户端
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported clients from previous deployments
+ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
+ms:contentKeyID: 48184390
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7b5cbecf45a9ea5203b3e459a895b2bddb0cfe55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845776"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 先前部署中支持的客户端
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a><span data-ttu-id="ba1fb-102">Lync Server 2013 先前部署中支持的客户端</span><span class="sxs-lookup"><span data-stu-id="ba1fb-102">Supported clients from previous deployments in Lync Server 2013</span></span>
 
-在共存方案中， Lync Server 2013 客户端可与来自早期版本的 Lync Server 和 Office Communications Server 的客户端交互。与早期版本不同， Lync Server 2010 支持新的 Lync 2013 客户端。这将允许从 Lync Server 2010 升级的组织独立于 Lync Server 升级推出新的客户端。
+</div>
 
-## 支持的服务器和客户端组合
+<div id="mainSection">
 
-下表显示受支持的客户端版本和服务器版本的组合。Lync Server 2013 支持两个早期客户端版本， Lync Server 2010 支持新的 Lync 2013 客户端。
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ba1fb-103">_**主题上次修改时间:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="ba1fb-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+
+<span data-ttu-id="ba1fb-104">在共存方案中, Lync Server 2013 客户端可以与早期版本的 Lync Server 和 Office 通信服务器交互。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-104">In a coexistence scenario, Lync Server 2013 clients can interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span> <span data-ttu-id="ba1fb-105">与以前的版本不同, Lync Server 2010 支持新的 Lync 2013 客户端。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-105">Unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="ba1fb-106">这使得从 Lync Server 2010 升级的组织可以独立于 Lync Server 升级来部署新的客户端。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-106">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
+
+<div>
+
+## <a name="supported-server-and-client-combinations"></a><span data-ttu-id="ba1fb-107">支持的服务器和客户端组合</span><span class="sxs-lookup"><span data-stu-id="ba1fb-107">Supported Server and Client Combinations</span></span>
+
+<span data-ttu-id="ba1fb-108">下表显示了客户端版本和服务器版本受支持的组合。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-108">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="ba1fb-109">Lync Server 2013 支持两个以前的客户端版本, Lync Server 2010 支持新的 Lync 2013 客户端。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-109">Lync Server 2013 supports two previous client versions, and Lync Server 2010 supports the new Lync 2013 client.</span></span>
 
 
 <table>
@@ -31,89 +53,108 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>客户端</th>
-<th>Lync Server 2013</th>
-<th>Lync Server 2010</th>
-<th>Office Communications Server 2007 R2</th>
+<th><span data-ttu-id="ba1fb-110">客户端</span><span class="sxs-lookup"><span data-stu-id="ba1fb-110">Client</span></span></th>
+<th><span data-ttu-id="ba1fb-111">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba1fb-111">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="ba1fb-112">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="ba1fb-112">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="ba1fb-113">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="ba1fb-113">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 2013</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-114">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="ba1fb-114">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-115">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-115">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-116">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-116">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-117">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-117">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App 2013</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-118">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="ba1fb-118">Lync Web App 2013</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-119">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-119">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-120">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-120">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-121">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-121">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-122">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="ba1fb-122">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-123">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-123">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-124">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-124">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-125">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-125">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010 Attendant</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-126">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="ba1fb-126">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-127">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-127">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-128">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-128">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-129">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-129">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 群聊</p></td>
-<td><p>不适用</p></td>
-<td><p>支持1</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="ba1fb-130">Lync 2010 群聊</span><span class="sxs-lookup"><span data-stu-id="ba1fb-130">Lync 2010 Group Chat</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-131">不适用</span><span class="sxs-lookup"><span data-stu-id="ba1fb-131">Not Applicable</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-132">Supported1</span><span class="sxs-lookup"><span data-stu-id="ba1fb-132">Supported1</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-133">不适用</span><span class="sxs-lookup"><span data-stu-id="ba1fb-133">Not Applicable</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App 2010</p></td>
-<td><p>不支持</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-134">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="ba1fb-134">Lync Web App 2010</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-135">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-135">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-136">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-136">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-137">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-137">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 Attendee</p></td>
-<td><p>不支持2</p></td>
-<td><p>支持</p></td>
-<td><p>不支持</p></td>
+<td><p><span data-ttu-id="ba1fb-138">Lync 2010 Attendee</span><span class="sxs-lookup"><span data-stu-id="ba1fb-138">Lync 2010 Attendee</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-139">不 Supported2</span><span class="sxs-lookup"><span data-stu-id="ba1fb-139">Not Supported2</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-140">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-140">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-141">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-141">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communicator 2007 R2</p></td>
-<td><p>可互操作3</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
+<td><p><span data-ttu-id="ba1fb-142">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="ba1fb-142">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-143">Interoperable3</span><span class="sxs-lookup"><span data-stu-id="ba1fb-143">Interoperable3</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-144">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-144">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-145">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-145">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
-<td><p>不支持</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
+<td><p><span data-ttu-id="ba1fb-146">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="ba1fb-146">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-147">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-147">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-148">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-148">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-149">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-149">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communicator 2007</p></td>
-<td><p>不支持</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
+<td><p><span data-ttu-id="ba1fb-150">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="ba1fb-150">Office Communicator 2007</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-151">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-151">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-152">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-152">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-153">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-153">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Office Live Meeting 2007</p></td>
-<td><p>不支持</p></td>
-<td><p>支持</p></td>
-<td><p>支持</p></td>
+<td><p><span data-ttu-id="ba1fb-154">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="ba1fb-154">Office Live Meeting 2007</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-155">否</span><span class="sxs-lookup"><span data-stu-id="ba1fb-155">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-156">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-156">Supported</span></span></p></td>
+<td><p><span data-ttu-id="ba1fb-157">支持</span><span class="sxs-lookup"><span data-stu-id="ba1fb-157">Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-1在 Microsoft Lync Server 2010 中，群聊功能适用于群聊服务器，它是用于 Lync Server 2010 的第三方受信任应用程序。Lync 2013 客户端与 Lync Server 2010 群聊不兼容。
+<span data-ttu-id="ba1fb-158">1In Microsoft Lync Server 2010, 群组聊天功能可通过群组聊天服务器使用, 这是 Lync Server 2010 的第三方受信任的应用程序。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-158">1In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="ba1fb-159">Lync 2013 客户端与 Lync Server 2010、群组聊天不兼容。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-159">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
 
-2Lync Web App 2013 现在提供一个完整的会议内体验，包括计算机音频和视频，可取代 Lync 2010 Attendee。
+<span data-ttu-id="ba1fb-160">2Lync Web App 2013 现在提供了一个完整的会议体验, 包括计算机音频和视频, 并被视为 Lync 2010 与会者的替换。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-160">2Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span>
 
-3Office Communicator 2007 R2 中的状态和 IM 功能与 Lync Server 2013 兼容，但会议功能不兼容。在从 Office Communications Server 2007 R2 迁移的过程中， Office Communicator 2007 R2 可提供状态和 IM 互操作性，但用户应使用 Lync Web App 2013 来加入 Lync Server 2013 会议。
+<span data-ttu-id="ba1fb-161">Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 兼容, 但会议功能不兼容。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-161">3The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="ba1fb-162">从 Office 通信服务器 2007 R2 迁移期间, Office Communicator 2007 R2 适用于状态和 IM 互操作性, 但用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-162">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 有关 Lync Server 2013 客户端与来自早期版本的 Lync Server 和 Office Communications Server 的客户端共存和交互的能力的详细信息，请参阅规划文档中的 <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 中的客户端互操作性</a>。
+> <span data-ttu-id="ba1fb-163">有关 Lync Server 2013 客户端与早期版本的 Lync Server 和 Office 通信服务器共存和交互的功能的详细信息, 请参阅规划文档中<A href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 中的客户端互操作性</A>。</span><span class="sxs-lookup"><span data-stu-id="ba1fb-163">For details about the ability of Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server, see <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Client interoperability in Lync 2013</A> in the Planning documentation.</span></span>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing dial-in conferencing session'
+---
+title: 'Lync Server 2013: 测试电话拨入式会议会话'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing dial-in conferencing session
 ms:assetid: 6c505be5-5af7-450c-b3ca-10d9122bee5c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn743834(v=OCS.15)
-ms:contentKeyID: 62279333
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743834(v=OCS.15)
+ms:contentKeyID: 63969613
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: efcc6d9277f7333989c59b812ed76087b9b6ca9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845591"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing dial-in conferencing session in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a><span data-ttu-id="ebb5d-102">在 Lync Server 2013 中测试电话拨入式会议会话</span><span class="sxs-lookup"><span data-stu-id="ebb5d-102">Testing dial-in conferencing session in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ebb5d-103">_**主题上次修改时间:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="ebb5d-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -23,91 +43,117 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p><span data-ttu-id="ebb5d-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="ebb5d-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="ebb5d-105">每天</span><span class="sxs-lookup"><span data-stu-id="ebb5d-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p><span data-ttu-id="ebb5d-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="ebb5d-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="ebb5d-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ebb5d-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialInConferencing cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p><span data-ttu-id="ebb5d-108">需要权限</span><span class="sxs-lookup"><span data-stu-id="ebb5d-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="ebb5d-109">当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="ebb5d-110">使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsDialInConferencing cmdlet 权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialInConferencing cmdlet.</span></span> <span data-ttu-id="ebb5d-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsDialInConferencing cmdlet verifies whether a user can participate in a dial-in conference. Test-CsDialInConferencing works by trying to log a test user onto the system. If the logon succeeds, the cmdlet will then use the user’s credentials and permissions to try all of the available dial-in conferencing access numbers. The success or failure of each dial-in try will be noted, then the test user will be logged off from Lync Server.Test-CsDialInConferencing only verifies that the appropriate connections can be made. The cmdlet does not actually make any phone calls or create any dial-in conferences that other users can join.
+## <a name="description"></a><span data-ttu-id="ebb5d-112">说明</span><span class="sxs-lookup"><span data-stu-id="ebb5d-112">Description</span></span>
 
-## Running the test
+<span data-ttu-id="ebb5d-113">CsDialInConferencing cmdlet 验证用户是否可以参与电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-113">The Test-CsDialInConferencing cmdlet verifies whether a user can participate in a dial-in conference.</span></span> <span data-ttu-id="ebb5d-114">测试-CsDialInConferencing 通过尝试将测试用户登录到系统来工作。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-114">Test-CsDialInConferencing works by trying to log a test user onto the system.</span></span> <span data-ttu-id="ebb5d-115">如果登录成功, 则 cmdlet 将使用用户的凭据和权限尝试所有可用的电话拨入式会议访问号码。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-115">If the logon succeeds, the cmdlet will then use the user’s credentials and permissions to try all of the available dial-in conferencing access numbers.</span></span> <span data-ttu-id="ebb5d-116">将注明每次拨入尝试的成功或失败, 然后将从 Lync Server 注销测试用户。测试 CsDialInConferencing 仅验证是否可以建立合适的连接。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-116">The success or failure of each dial-in try will be noted, then the test user will be logged off from Lync Server.Test-CsDialInConferencing only verifies that the appropriate connections can be made.</span></span> <span data-ttu-id="ebb5d-117">该 cmdlet 实际上不会进行任何电话呼叫或创建其他用户可以加入的任何电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-117">The cmdlet does not actually make any phone calls or create any dial-in conferences that other users can join.</span></span>
 
-The Test-CsDialInConferencing cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="ebb5d-118">运行测试</span><span class="sxs-lookup"><span data-stu-id="ebb5d-118">Running the test</span></span>
+
+<span data-ttu-id="ebb5d-119">CsDialInConferencing cmdlet 可以使用预配置的测试帐户运行 (请参阅设置运行 Lync Server 测试的测试帐户) 或已启用 Lync Server 的任何用户的帐户。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-119">The Test-CsDialInConferencing cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="ebb5d-120">若要使用测试帐户运行此检查, 只需指定正在测试的 Lync Server 池的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-120">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="ebb5d-121">例如：</span><span class="sxs-lookup"><span data-stu-id="ebb5d-121">For example:</span></span>
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the account SIP address the calling Test-CsDialInConferencing:
+<span data-ttu-id="ebb5d-122">若要使用实际用户帐户运行此检查, 必须创建一个包含帐户名称和密码的 Windows PowerShell 凭据对象。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-122">To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="ebb5d-123">然后必须将该凭据对象和帐户 SIP 地址包括到调用测试-CsDialInConferencing:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-123">You must then include that credentials object and the account SIP address the calling Test-CsDialInConferencing:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsDialInConferencing](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialInConferencing) cmdlet.
+<span data-ttu-id="ebb5d-124">有关详细信息, 请参阅[CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-124">For more information, see the Help documentation for the [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) cmdlet.</span></span>
 
-## Determining success or failure
+</div>
 
-If the specified user can log on to Lync Server and then make a connection using one of the available dial-in conferencing access numbers, then you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a><span data-ttu-id="ebb5d-125">确定成功还是失败</span><span class="sxs-lookup"><span data-stu-id="ebb5d-125">Determining success or failure</span></span>
 
-Result : Success
+<span data-ttu-id="ebb5d-126">如果指定用户可以登录到 Lync 服务器, 然后使用其中一个可用的电话拨入式会议访问号码进行连接, 则会收到类似于此的输出, 并将 Result 属性标记为**成功:**</span><span class="sxs-lookup"><span data-stu-id="ebb5d-126">If the specified user can log on to Lync Server and then make a connection using one of the available dial-in conferencing access numbers, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-Latency : 00:00:06.8630376
+<span data-ttu-id="ebb5d-127">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ebb5d-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error :
+<span data-ttu-id="ebb5d-128">结果: 成功</span><span class="sxs-lookup"><span data-stu-id="ebb5d-128">Result : Success</span></span>
 
-Diagnosis :
+<span data-ttu-id="ebb5d-129">延迟:00:00: 06.8630376</span><span class="sxs-lookup"><span data-stu-id="ebb5d-129">Latency : 00:00:06.8630376</span></span>
 
-If the specified user can't make this connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+<span data-ttu-id="ebb5d-130">时发生</span><span class="sxs-lookup"><span data-stu-id="ebb5d-130">Error :</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="ebb5d-131">自检</span><span class="sxs-lookup"><span data-stu-id="ebb5d-131">Diagnosis :</span></span>
 
-Result : Failure
+<span data-ttu-id="ebb5d-132">如果指定的用户无法进行此连接, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-132">If the specified user can't make this connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-Latency : 00:00:00
+<span data-ttu-id="ebb5d-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ebb5d-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error : The log on was denied. Check that the proper credentials are
+<span data-ttu-id="ebb5d-134">结果: 失败</span><span class="sxs-lookup"><span data-stu-id="ebb5d-134">Result : Failure</span></span>
 
-being used and the account is active.
+<span data-ttu-id="ebb5d-135">延迟: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="ebb5d-135">Latency : 00:00:00</span></span>
 
-Inner Exception:NegotiateSecurityAssociation failed, error: -
+<span data-ttu-id="ebb5d-136">错误: 登录被拒绝。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-136">Error : The log on was denied.</span></span> <span data-ttu-id="ebb5d-137">检查正确的凭据是否</span><span class="sxs-lookup"><span data-stu-id="ebb5d-137">Check that the proper credentials are</span></span>
 
-2146893044
+<span data-ttu-id="ebb5d-138">正在使用, 帐户处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-138">being used and the account is active.</span></span>
 
-Diagnosis :
+<span data-ttu-id="ebb5d-139">内部异常: NegotiateSecurityAssociation 失败, 错误:-</span><span class="sxs-lookup"><span data-stu-id="ebb5d-139">Inner Exception:NegotiateSecurityAssociation failed, error: -</span></span>
 
-The previous output indicates that the test user was denied access to Lync Server itself. This typically means that the user credentials passed to Test-CsDialInConferencing were not valid. In turn, you should re-create the Windows PowerShell credentials object. Although you can retrieve the password for the user account, you can verify the SIP address by using a command similar to this:
+<span data-ttu-id="ebb5d-140">2146893044</span><span class="sxs-lookup"><span data-stu-id="ebb5d-140">2146893044</span></span>
+
+<span data-ttu-id="ebb5d-141">自检</span><span class="sxs-lookup"><span data-stu-id="ebb5d-141">Diagnosis :</span></span>
+
+<span data-ttu-id="ebb5d-142">以前的输出指示已拒绝测试用户访问 Lync Server 本身。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-142">The previous output indicates that the test user was denied access to Lync Server itself.</span></span> <span data-ttu-id="ebb5d-143">这通常意味着传递给 Test CsDialInConferencing 的用户凭据无效。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-143">This typically means that the user credentials passed to Test-CsDialInConferencing were not valid.</span></span> <span data-ttu-id="ebb5d-144">反过来, 你应该重新创建 Windows PowerShell 凭据对象。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-144">In turn, you should re-create the Windows PowerShell credentials object.</span></span> <span data-ttu-id="ebb5d-145">虽然你可以检索用户帐户的密码, 但你可以使用类似以下的命令验证 SIP 地址:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-145">Although you can retrieve the password for the user account, you can verify the SIP address by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsDialInConferencing might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="ebb5d-146">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="ebb5d-146">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="ebb5d-147">下面是测试 CsDialInConferencing 可能失败的一些常见原因:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-147">Here are some common reasons why Test-CsDialInConferencing might fail:</span></span>
+
+  - <span data-ttu-id="ebb5d-148">您指定的用户帐户无效。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-148">You specified a user account that is not valid.</span></span> <span data-ttu-id="ebb5d-149">你可以通过运行类似如下所示的命令来验证用户帐户是否存在:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-149">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - <span data-ttu-id="ebb5d-150">用户帐户有效, 但当前没有为 Lync Server 启用该帐户。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-150">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="ebb5d-151">若要验证是否已启用 Lync Server 的用户帐户, 请运行类似如下的命令:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-151">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    <span data-ttu-id="ebb5d-152">如果 Enabled 属性设置为 False, 则表示当前未对 Lync Server 启用用户。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-152">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - You might have an incorrect dial-in conferencing access number. You can return your currently-configured list of dial-in conferencing access numbers by using this command:
+  - <span data-ttu-id="ebb5d-153">您可能有一个不正确的电话拨入式会议接入号码。</span><span class="sxs-lookup"><span data-stu-id="ebb5d-153">You might have an incorrect dial-in conferencing access number.</span></span> <span data-ttu-id="ebb5d-154">您可以使用以下命令返回当前配置的电话拨入式会议访问号码列表:</span><span class="sxs-lookup"><span data-stu-id="ebb5d-154">You can return your currently-configured list of dial-in conferencing access numbers by using this command:</span></span>
     
         Get-CsDialConferencingAccessNumber
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
