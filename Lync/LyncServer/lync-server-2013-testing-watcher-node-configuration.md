@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing watcher node configuration'
+---
+title: 'Lync Server 2013: 测试观察程序节点配置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn751537(v=OCS.15)
-ms:contentKeyID: 62388655
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
+ms:contentKeyID: 63969667
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845549"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing watcher node configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试观察程序节点配置
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-03_
 
 
 <table>
@@ -23,93 +43,123 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWatcherNodeConfiguration</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行<strong>CsWatcherNodeConfiguration</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-If you are using Microsoft System Center Operations Manager to monitor Lync Server 2013 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions to verify that Lync Server is working as expected. Watcher nodes are assigned to pools, and are managed by using the **CsWatcherNodeConfiguration** cmdlets. Note that you do not need to install watcher nodes if you are using System Center Operations Manager. You can still monitor your system without using watcher nodes. The only difference is that any synthetic transactions that you want to run must be invoked manually instead of automatically invoked by Operations Manager.
+## <a name="description"></a>说明
 
-The **Test-CsWatcherNodeConfiguration** cmdlet enables you to verify that a watcher node was configured correctly and is assigned to a valid Lync Server 2013 pool. Note that the **Test-CsWatcherNodeConfiguration** cmdlet must be run on the watcher node itself. The cmdlet cannot be run against remote computers.
+如果您使用 Microsoft System Center Operations Manager 监视 Lync Server 2013, 则可以选择设置 "观察程序节点": 定期和自动运行综合事务以验证 Lync 服务器是否正常工作的计算机要求. 观察程序节点分配给池, 并且通过使用**CsWatcherNodeConfiguration** cmdlet 进行管理。 请注意, 如果使用 System Center Operations Manager, 则不需要安装观察程序节点。 您仍然可以在不使用观察程序节点的情况下监控系统。 唯一的区别在于, 要运行的任何合成事务都必须手动调用, 而不是由 Operations Manager 自动调用。
 
-## Running the test
+**CsWatcherNodeConfiguration** cmdlet 使你能够验证是否已正确配置了观察程序节点且已分配到有效的 Lync Server 2013 池。 请注意, **CsWatcherNodeConfiguration** cmdlet 必须在观察程序节点本身上运行。 无法对远程计算机运行 cmdlet。
 
-The following command verifies the configuration settings for each watcher node that is being used in the organization.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+以下命令验证组织中正在使用的每个观察程序节点的配置设置。
 
     Test-CsWatcherNodeConfiguration
 
-## Determining success or failure
+</div>
 
-The following successful sample output shows a system with four edge servers.
+<div>
 
-Validating target pool atl-cs-001.litwareinc.com against topology.
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Success: Target pool atl-cs-001.litwareinc.com exists in topology.
+以下成功的示例输出显示了具有四个边缘服务器的系统。
 
-Success: Target pool atl-cs-001.litwareinc.com has Registrar role installed.
+对照拓扑结构验证目标池 atl-cs-001.litwareinc.com。
 
-Success: Target pool atl-cs-001.litwareinc.com is supported version.
+成功: 拓扑中存在目标池 atl-cs-001.litwareinc.com。
 
-Success: Port number for 5061 Target pool atl-cs-001.litwareinc.com is correct.
+成功: 目标池 atl-cs-001.litwareinc.com 已安装注册机构角色。
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+成功: 目标池 atl-cs-001.litwareinc.com 支持的版本。
 
-Checking for missing pools in watcher node configuration is finished.
+成功: 5061 目标池 atl-cs-001.litwareinc.com 的端口号正确。
 
-Checking for watcher node registry keys created by watcher node installation, is started. If any error is detected, it will be printed.
+已启动在观察程序节点配置中检查缺少的池。 如果检测到任何错误, 则会将其打印出来。
 
-Checking for watcher node registry keys created by watcher node installation, is finished. Detected authentication type is Negotiate.
+在观察程序节点配置中检查缺少的池已完成。
 
-Successfully validated existence of test user’s credential sip:user1@ atl-cs-001.litwareinc.com in credential management store.
+已开始检查由观察程序节点安装创建的观察程序节点注册表项。 如果检测到任何错误, 则会将其打印出来。
 
-Successfully validated existence of test user’s credential sip:user2@ atl-cs-001.litwareinc.com in credential management store.
+检查由观察程序节点安装创建的观察程序节点注册表项是否已完成。 检测到身份验证类型为 "协商"。
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+已成功验证测试用户的凭据 sip 是否存在: 在凭据管理存储中使用 user1 @ atl-cs-001.litwareinc.com。
 
-WARNING: Pool atl-cs-001.litwareinc.com has Registrar
+已成功验证测试用户的凭据 sip 是否存在: 用户 2 @ atl-cs-001.litwareinc.com 在凭据管理存储中。
 
-role installed, but there are no test users configured for it.
+已启动在观察程序节点配置中检查缺少的池。 如果检测到任何错误, 则会将其打印出来。
 
-Checking for missing pools in watcher node configuration is finished.
+警告: Pool atl-cs-001.litwareinc.com 有注册机构
 
-Checking for watcher node registry keys created by watcher node installation, is
+已安装角色, 但没有为其配置的测试用户。
 
-started. If any error is detected, it will be printed.
+在观察程序节点配置中检查缺少的池已完成。
 
-Test-CsWatcherNodeConfiguration : Cannot find Health registry key in
+检查由观察程序节点安装创建的观察程序节点注册表项是
 
-Software\\Microsoft\\Real-Time Communications. Make sure watcher node .msi is
+开始. 如果检测到任何错误, 则会将其打印出来。
 
-installed properly.
+测试-CsWatcherNodeConfiguration: 在中找不到运行状况注册表项
 
-## Reasons why the test might have failed
+Microsoft\\\\实时通信软件。 请确保观察程序节点为 msi
 
-Here are some common reasons why **Test-CsWatcherNodeConfiguration** might fail:
+正确安装。
 
-  - Watcher node is not correctly installed.
+</div>
 
-  - No test users are configured.
+<div>
 
-## 另请参阅
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-#### 其他资源
+下面是**测试 CsWatcherNodeConfiguration**可能失败的一些常见原因:
 
-[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWatcherNodeConfiguration)
+  - 未正确安装观察程序节点。
+
+  - 未配置测试用户。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

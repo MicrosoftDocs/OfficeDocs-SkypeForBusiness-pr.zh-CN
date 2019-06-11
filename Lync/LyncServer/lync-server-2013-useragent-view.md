@@ -1,21 +1,41 @@
-﻿---
-title: UserAgent 视图
-TOCTitle: UserAgent 视图
-ms:assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ721862(v=OCS.15)
-ms:contentKeyID: 49888582
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: UserAgent 视图'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserAgent view
+ms:assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721862(v=OCS.15)
+ms:contentKeyID: 49733795
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8f7d4cf6d79bdd69b28fb88f9a7d6c6a2095ba99
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845477"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# UserAgent 视图
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="useragent-view-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgent 视图
 
-UserAgent 视图会存储有关在数据库中含有记录的会话中所涉及的用户代理的信息。此视图是在 Microsoft Lync Server 2013 中引入的。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-03_
+
+UserAgent 视图存储有关在数据库中具有记录的会话中涉及的用户代理的信息。 此视图已在 Microsoft Lync Server 2013 中引入。
 
 
 <table>
@@ -35,7 +55,7 @@ UserAgent 视图会存储有关在数据库中含有记录的会话中所涉及�
 <tr class="odd">
 <td><p>UserAgentKey</p></td>
 <td><p>int</p></td>
-<td><p>标识此用户代理的唯一编号。</p></td>
+<td><p>标识此用户代理的唯一号码。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
@@ -45,13 +65,24 @@ UserAgent 视图会存储有关在数据库中含有记录的会话中所涉及�
 <tr class="odd">
 <td><p>UAType</p></td>
 <td><p>smallint</p></td>
-<td><p>用户代理的类型。有关详细信息，请参阅 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p>用户代理的类型。 有关详细信息, 请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p>UACategory</p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>用户代理所属的类别。例如，用户代理 Conferencing_Attendant_1.0 属于 UACategory CAA。</p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>用户代理所属的类别。 例如, 用户代理 Conferencing_Attendant_ 1.0 属于 UACategory CAA。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

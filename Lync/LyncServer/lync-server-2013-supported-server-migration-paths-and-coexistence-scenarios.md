@@ -1,39 +1,62 @@
-﻿---
-title: Lync Server 2013：支持的服务器迁移路径和共存方案
-TOCTitle: 支持的服务器迁移路径和共存方案
-ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425764(v=OCS.15)
-ms:contentKeyID: 49312332
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：支持的服务器迁移路径和共存方案
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported server migration paths and coexistence scenarios
+ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425764(v=OCS.15)
+ms:contentKeyID: 48183686
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 33b2ce878fef53f444e3834e8b1cd40286c24b0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845788"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中支持的服务器迁移路径和共存方案
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-16_
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支持的服务器迁移路径和共存方案
 
-Lync Server 2013 支持从以下任意一种环境中进行迁移：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-16_
+
+Lync Server 2013 支持从以下任一项进行迁移:
 
   - Microsoft Lync Server 2010
 
   - Microsoft Office Communications Server 2007 R2
 
-不支持从同时运行上述这两个版本的环境中进行迁移。不支持从早期版本（例如 Microsoft Office Communications Server 2007 或 Live Communications Server 2005）进行迁移。如果先前的部署已包括 群聊，则必须单独迁移它。
+不支持从运行这两个以前版本的环境迁移。 不支持从早期版本 (如 Microsoft Office 通信服务器2007或实时通信服务器 2005) 进行迁移。 如果以前的部署包含群组聊天, 则必须单独迁移。
 
-## 迁移方法
+<div>
 
-支持所有 Lync Server 拓扑和服务器角色的迁移。可以从一个拓扑迁移到另一拓扑，包括从 Standard Edition Server 迁移到 Enterprise Edition Server。
+## <a name="migration-methods"></a>迁移方法
 
-Lync Server 2013 仅支持以下迁移方法：
+支持迁移所有 Lync Server 拓扑和服务器角色。 你可以从一个拓扑迁移到不同拓扑, 包括从标准版服务器到企业版 server。
 
-   **并行迁移。**在并行迁移中， Lync Server 2013 与现有 Microsoft Lync Server 2010 或 Office Communications Server 2007 R2 部署并排部署，然后将操作转移到新服务器，并将用户移动到 Lync Server 2013。采用这种方法时，在迁移过程中需要使用其他服务器平台（包括硬件和软件），并且新配置中的系统名称和池名称与原配置中的不同。如果需要回滚到先前版本，可以将操作切换回先前的服务器。
+Lync Server 2013 仅支持以下迁移方法:
 
-不支持在 Active Directory 域服务 林间迁移。
+  - <span></span>  
+    **并行迁移。** 在并行迁移中, Lync Server 2013 与现有 Microsoft Lync Server 2010 或 Office 通信服务器 2007 R2 部署一起部署, 然后你将操作转移到新服务器并将用户移动到 Lync Server 2013。 在迁移期间, 此方法需要其他服务器平台, 包括硬件和软件, 并且新配置中的系统名称和池名称不同。 如果需要回滚到以前的版本, 你可以将操作转移回以前的服务器。
 
-推荐的迁移路径是一种分阶段方法。有关从先前版本迁移（包括相应的组件分阶段部署）的详细信息，请参阅迁移文档中的以下主题：
+不支持跨 Active Directory 域服务林进行迁移。
+
+推荐的迁移路径是分段方法。 有关从早期版本迁移的详细信息, 包括组件部署的相应阶段, 请参阅迁移文档中的以下主题:
 
   - [从 Lync Server 2010 迁移到 Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)
 
@@ -41,19 +64,43 @@ Lync Server 2013 仅支持以下迁移方法：
 
   - [从 Lync Server 2010 群聊或 Office Communications Server 2007 R2 群聊迁移到 Lync Server 2013 持久聊天服务器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
 
-## 共存方案
+</div>
 
-Lync Server 2013 可与 Lync Server 2010 部署或 Office Communications Server 2007 R2 部署的组件共存。不支持 Lync Server 2013 与 Lync Server 2010 和 Office Communications Server 2007 R2 两者的并发部署（所有这三种版本的并发部署）。
+<span id="BKMK_PhasedMigration"></span>
 
-在先前的 Lync Server 2013 或 Office Communications Server 2007 R2 部署与 Lync Server 2010 新部署临时共存的分阶段迁移过程中，对混合版本路由的支持受到限制。有关详细信息，请参阅迁移文档。
+<div>
 
-您必须对 Lync Server 2013 数据库实例使用运行 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 的单独且不同的计算机。您不能对用于 Lync Server 2010 或 Office Communications Server 2007 R2 前端池的 Lync Server 2013 前端池使用同一 SQL Server 实例。如果您在 拓扑生成器中为已部署了 Lync Server 2010 或 Office Communications Server 2007 R2 的部署定义并配置 Lync Server 2013，则 拓扑生成器将不允许您定义已在拓扑中使用的 Lync Server 2013 实例。
+## <a name="coexistence-scenarios"></a>共存方案
 
-拓扑生成器将显示以下消息来通知您此问题：“SQL 服务器 \[服务器的 FQDN\] 已包含承载角色 "用户存储" 的 SQL 实例”。
+Lync Server 2013 可与 Lync Server 2010 部署或 Office 通信服务器的组件共存, 以 2007 R2 部署。 不支持同时通过 Lync Server 2010 和 Office 通信服务器同时部署 lync Server 2013 和 Office 通信服务器 2007 R2 (所有三个版本的并发部署)。
+
+在分阶段迁移期间, 以前的 Lync Server 2010 或 Office 通信服务器 2007 R2 部署与新的 Lync Server 2013 部署临时 coexists, 混合版本路由支持将受到限制。 有关详细信息, 请参阅迁移文档。
+
+你必须使用运行 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 的单独和不同的计算机来2013数据库实例。 你无法对用于 Lync Server 2010 或 Office 通信服务器 2007 R2 前端池的 Lync Server 2013 前端池使用相同的 SQL Server 实例。 如果在拓扑生成器中为已部署 Lync Server 2010 或 Office 通信服务器 2007 R2 的部署定义和配置 Lync Server 2013, 拓扑生成器将不允许定义已在中使用的 Lync Server 2013 实例拓扑。
+
+拓扑生成器将显示以下消息, 通知你此问题: "服务器\[\]的 sql server FQDN 已包含一个 sql 实例托管角色 ' 用户存储 '。"
+
+<div>
+
 
 > [!NOTE]  
-> 如果要为您的 Lync Server 2013 部署部署新的服务器角色，则应该首先升级现有部署（如迁移文档和部署文档中所述），然后部署新服务器角色（如规划文档和部署文档中所述）。如果要迁移先前版本的群聊，请在完成从 Lync Server 2010 或 Office Communications Server 2007 R2 迁移所有其他组件的过程后，最后迁移群聊。
+> 如果你打算部署 Lync Server 2013 部署中新的服务器角色, 应首先升级你的现有部署, 如迁移文档和部署文档中所述, 然后部署新的服务器角色, 如中所述。规划文档和部署文档。 如果你正在迁移早期版本的群组聊天, 请在完成从 Lync Server 2010 或 Office 通信服务器 2007 R2 迁移所有其他组件的过程后, 将其迁移到最后一个版本。
 
 
-有关具体的共存要求，以及有关 Lync Server 2010 或 Office Communications Server 2007 R2 与 Lync Server 2013 组件的共存和迁移的其他详细信息，请参阅迁移文档中的 [从 Lync Server 2010 迁移到 Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) 和 [从 Office Communications Server 2007 R2 迁移至 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)。有关客户端的混合版本支持的详细信息，请参阅 [Lync Server 2013 先前部署中支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)。
+
+</div>
+
+有关 Lync Server 2010 或 Office 通信服务器 2007 R2 和 Lync Server 2013 组件的共存和迁移的特定共存要求和其他详细信息, 请参阅[从 Lync server 2010 迁移到 Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)和[在迁移文档中从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) 。 有关客户端的混合版本支持的详细信息, 请参阅[Lync Server 2013 中以前的部署支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Lync Client authentication'
+---
+title: 'Lync Server 2013: 测试 Lync 客户端身份验证'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn689120(v=OCS.15)
-ms:contentKeyID: 62247376
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)
+ms:contentKeyID: 63969659
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 7d8ea26c39582a69062526c7b4ae00343bb19482
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845586"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Lync Client authentication in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Lync 客户端身份验证
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,104 +43,130 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsClientAuth cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsClientAuth cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsClientAuth cmdlet enables you to determine whether a user can log on to the Lync Server by using a client certificate, you can run the Test-CsClientAuth cmdlet. After calling Test-CsClientAuth, the cmdlet will contact the certificate provisioning service and download a copy of any client certificates for the specified user. If a client certificate can be found and downloaded, Test-CsClientAuth will then attempt to log on by using that certificate. If logon succeeds, Test-CsClientAuth will log off and report that the test succeeded. If a certificate cannot be found or downloaded, or if the cmdlet is unable to logon using that certificate, then Test-CsClientAuth will report that the test failed.
+## <a name="description"></a>说明
 
-## Running the test
+CsClientAuth cmdlet 使你能够确定用户是否可以使用客户端证书登录 Lync 服务器, 你可以运行 CsClientAuth cmdlet。 在调用 CsClientAuth 后, cmdlet 将联系证书预配服务, 并为指定的用户下载任何客户端证书的副本。 如果可以找到并下载客户端证书, CsClientAuth 将尝试使用该证书登录。 如果登录成功, CsClientAuth 将注销并报告测试已成功。 如果无法找到或下载证书, 或者 cmdlet 无法使用该证书登录, 则测试 CsClientAuth 将报告测试失败。
 
-The Test-CsClientAuth cmdlet is run by using the account of any user who is enabled for Lync Server. To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsClientAuth:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+CsClientAuth cmdlet 是使用已启用 Lync Server 的任何用户的帐户运行的。 若要使用实际用户帐户运行此检查, 必须首先创建一个包含帐户名称和密码的 Windows PowerShell 凭据对象。 然后, 在系统调用 Test-CsClientAuth 时, 必须包含该凭据对象和分配给该帐户的 SIP 地址:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsClientAuth](https://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) cmdlet.
+有关详细信息, 请参阅[CsClientAuth](http://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) Cmdlet 的帮助文档。
 
-## Determining success or failure
+</div>
 
-If the specified user can log on to Lync Server by using a client certificate, you will receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果指定用户可以使用客户端证书登录到 Lync 服务器, 你将收到与此类似的输出, 结果属性标记为**成功:**
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟:00:00: 06.8630376
 
-If the specified user can not log on, the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:
+时发生
 
-TargetFqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果指定的用户无法登录, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:03.3645259
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : Could not download a CS Certificate for the given user. Check if
+结果: 失败
 
-provided uri and credentials are correct.
+延迟:00:00: 03.3645259
 
-Diagnosis :
+错误: 无法下载给定用户的 CS 证书。 检查是否
 
-For example, the previous output states that the test failed because a valid client certificate couldn't be located for the specified user. You can return a list of the client certificates issued to a user by running a command as follows:
+提供的 uri 和凭据是正确的。
+
+自检
+
+例如, 以前的输出声明由于无法为指定用户找到有效的客户端证书而导致测试失败。 你可以通过运行命令来返回颁发给用户的客户端证书的列表, 如下所示:
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-If Test-CsClientAuth fails, then you might want to rerun the test, this time including the Verbose parameter:
+如果 CsClientAuth 失败, 则可能需要重新运行测试, 这一次包括 Verbose 参数:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-When the Verbose parameter is included, Test-CsClientAuth will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+当包含 Verbose 参数时, CsClientAuth 将返回在检查指定用户登录到 Lync Server 的能力时尝试的每个操作的分步帐户。 例如：
 
-Trying to download a CS certificate for User : kenmyer@litwareinc.com endpoint : STEpid
+尝试下载用户的 CS 证书: kenmyer@litwareinc.com 终结点: STEpid
 
-Web Service url : https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+Web 服务 url:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
-Could not download a CS certificate from web service.
+无法从 web 服务下载 CS 证书。
 
-CHECK:
+选中
 
-\- Web service url is valid and the web services are functional
+\-Web 服务 url 有效且 web 服务正常运行
 
-\- If using PhoneNo\\\\Pin to authenticate, make sure they match the user uri
+\-如果使用 PhoneNo\\\\Pin 进行身份验证, 请确保它们与用户 uri 匹配
 
-\- If using NTLM\\Kerberos auth, make sure you provided valid credentials
+\-如果使用 NTLM\\Kerberos 身份验证, 请确保提供有效的凭据
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsClientAuth might fail:
+<div>
 
-  - You specified a user account that was not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsClientAuth 可能失败的一些常见原因:
+
+  - 您指定的用户帐户无效。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - 用户帐户有效, 但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户, 请运行类似如下的命令:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    如果 Enabled 属性设置为 False, 则表示当前未对 Lync Server 启用用户。
 
-  - The test user might not have a valid client certificate. You can return information about the client certificates assigned to a user by using a command similar to this:
+  - 测试用户可能没有有效的客户端证书。 你可以使用类似下面的命令返回有关分配给用户的客户端证书的信息:
     
         Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

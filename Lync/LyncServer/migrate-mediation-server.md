@@ -1,29 +1,59 @@
-﻿---
-title: 迁移中介服务器
-TOCTitle: 迁移中介服务器
-ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205173(v=OCS.15)
-ms:contentKeyID: 49313972
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 迁移中介服务器
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate Mediation Server
+ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
+ms:contentKeyID: 48185117
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79fc35a7641b4acb42578ec4e75375e171ae905e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845220"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 迁移中介服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-28_
+# <a name="migrate-mediation-server"></a>迁移中介服务器
 
-运行合并向导时，您的中介服务器会合并到 Lync Server 2013 试点拓扑中。然而，迁移所有用户后，需要配置 Lync Server 2013 中介服务器，因为 Office Communications Server 2007 R2 池无法与 Lync Server 2013 中介服务器通信。在并行迁移期间， Lync Server 2013 池会与 Office Communications Server 2007 R2 中介服务器进行通信。
+</div>
 
-配置 Lync Server 2013 中介服务器时，还必须升级或替换 Office Communications Server 2007 R2 网关。 Office Communications Server 2007 R2 网关不支持 Lync Server 2013 中介服务器。您需要部署已通过 Lync Server 2013 认证的网关并将它们与 Lync Server 2013 中介服务器相关联。需要首先完成此步骤，然后才能完全停用 Office Communications Server 2007 R2 部署。
+<div id="mainSection">
 
-本节中的主题介绍完成 Lync Server 2013 中介服务器的迁移后需要执行的配置任务。将并置的中介服务器转换为独立中介服务器是可选任务。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-28_
+
+当运行 "合并向导" 时, 中介服务器将合并到 Lync Server 2013 试点拓扑中。 但是, 你可以配置 Lync Server 2013 中介服务器, 因为 Office 通信服务器 2007 R2 池无法与 Lync server 2013 中介服务器通信, 因此在迁移所有用户后。 在并行迁移期间, Lync Server 2013 池与 Office 通信服务器 2007 R2 中介服务器通信。
+
+当您配置 Lync Server 2013 中介服务器时, 您还必须升级或替换您的 Office 通信服务器 2007 R2 网关。 Office 通信服务器 2007 R2 网关不支持 Lync Server 2013 中介服务器。 你需要部署已认证的适用于 Lync Server 2013 的网关, 并将其与 Lync Server 2013 中介服务器相关联。 必须先执行此步骤, 然后才能完全停止 Office 通信服务器 2007 R2 部署。
+
+本部分中的主题介绍了在完成 Lync Server 2013 中介服务器的迁移后需要执行的配置任务。 将 collocated 中介服务器转换为独立的中介服务器是一种可选任务。
 
   - [配置中介服务器](configure-mediation-server.md)
 
-  - [更改语音路由以使用新的 Lync Server 2013 中介服务器](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+  - [将语音路由更改为使用新的 Lync Server 2013 中介服务器](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [将并置中介服务器转换为独立中介服务器（可选）](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [将 collocated 中介服务器转换为独立的中介服务器 (可选)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

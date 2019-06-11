@@ -1,27 +1,49 @@
-﻿---
-title: Lync Server 2013：用户模型
-TOCTitle: Lync Server 2013 用户模型
-ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398811(v=OCS.15)
-ms:contentKeyID: 49888601
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 用户模型'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2013 user models
+ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
+ms:contentKeyID: 49733811
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845503"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的用户模型
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="user-models-in-lync-server-2013"></a>Lync Server 2013 中的用户模型
 
-[使用用户模型的 Lync Server 2013 容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中所述的容量规划度量与建议均以此处介绍的用户模型为基础。
+</div>
 
-## Lync Server 2013 用户模型
+<div id="mainSection">
 
-下表介绍了 Lync Server 2013 注册、联系人、即时消息 (IM) 以及状态的用户模型。
+<div id="mainBody">
 
-### 环境和注册用户模型
+<span> </span>
+
+_**主题上次修改时间:** 2013-10-07_
+
+此处介绍的用户模型为[使用用户模型在 Lync Server 2013 的容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中介绍的容量规划测量和建议提供了基础。
+
+<div>
+
+## <a name="lync-server-2013-user-models"></a>Lync Server 2013 用户模型
+
+下表介绍了 Lync Server 2013 的注册、联系人、即时消息 (IM) 和联机状态的用户模型。
+
+### <a name="environment-and-registration-user-model"></a>环境和注册用户模型
 
 <table>
 <colgroup>
@@ -31,7 +53,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -41,15 +63,15 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>Active Directory 用户的百分比</p></td>
-<td><p>假设为组织中 70% 的 Active Directory 用户启用了 Lync Server。而这些用户中的 80% 每天（80% 并发）都会登录 Lync Server。本节下文中的数字都以并发用户为基础。</p></td>
+<td><p>我们假定组织中所有 Active Directory 用户的 70% 已启用 Lync Server。 80% 的已启用用户每天都登录到 Lync Server (80% 并发)。 本节下文中的数字都以并发用户为基础。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Directory 更改</p></td>
-<td><p>假设每周在 Active Directory 中为 0.5% 的用户创建并启用了 Lync，每周从 Active Directory 和 Lync 中禁用 0.5% 的用户，每周 5% 的用户至少更改了一个 Active Directory 属性。</p></td>
+<td><p>我们假定每周在 Active Directory 中为 Lync 创建和启用每周的总用户数 0.5%, 并且每周从 Active Directory 和 Lync 禁用总用户的 0.5%。 5% 的用户每周至少更改了一个 Active Directory 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory 通讯组</p></td>
-<td><p>我们假定，组织的 Active Directory 通讯组数是 Active Directory 所有用户数的三倍。通讯组的大小如下：</p>
+<td><p>我们假定组织中的 Active Directory 通讯组数等于 Active Directory 中所有用户数的三倍。 通讯组的大小如下：</p>
 <ul>
 <li><p>64% 具有 2-30 个用户</p></li>
 <li><p>13% 具有 31-50 个用户</p></li>
@@ -59,19 +81,19 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="odd">
 <td><p>IP 语音 (VoIP) 用户</p></td>
-<td><p>为 60% 的 Lync Server 用户启用了统一通信 (UC)（即他们的电话号码归 Lync Server 所有）。</p></td>
+<td><p>60% 的 Lync Server 用户已启用统一通信 (UC) (即他们的电话号码由 Lync Server 拥有)。</p></td>
 </tr>
 <tr class="even">
 <td><p>注册的客户端分布</p></td>
-<td><p>65% 的客户端运行 Lync 2013 软件，包括 Lync 和 Lync Phone Edition。</p>
-<p>30% 的客户端从 Lync 的早期版本中运行客户端软件。</p>
-<p>5% 的客户端使用 Lync Web App。</p>
+<td><p>65% 的客户端运行 Lync 2013 软件, 包括 Lync 和 Lync Phone Edition。</p>
+<p>从早期版本的 Lync 运行客户端软件的客户的 30%。</p>
+<p>5% 使用 Lync Web App 的客户端。</p>
 <p>如果启用移动功能，假设 40% 的用户正在使用与前面提到的已注册客户端选项同时存在的移动功能，这种情况下，客户端多点登录 (MPOP) 比率为 1:1.9。如果禁用移动，MPOP 比率为1:1.5。</p></td>
 </tr>
 <tr class="odd">
 <td><p>远程用户分布</p></td>
 <td><p>70% 的用户从内部连接。</p>
-<p>30% 的用户通过边缘服务器和控制器连接。</p></td>
+<p>通过 Edge 服务器和 Director 连接的用户的 30%。</p></td>
 </tr>
 <tr class="even">
 <td><p>联系人分布</p></td>
@@ -79,15 +101,21 @@ _**上一次修改主题：** 2015-03-09_
 <p>使用公共云连接的用户平均拥有 80 个联系人。在这些用户中：</p>
 <ul>
 <li><p>50% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</p></li>
-<li><p>40% 的联系人为公共云用户（例如 AOL、Yahoo! 、MSN 或 Google Talk 用户）。</p></li>
+<li><p>40% 的联系人是公共云用户 (如 AOL、Yahoo!、MSN 或 Google 通话的用户)。</p></li>
 <li><p>10% 的联系人来自联盟伙伴。</p>
+<div>
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>自 2012 年 9 月 1 日起，新订或续订合同不能再购买 Microsoft Lync 公共 IM 连接用户订阅许可证 (“PIC USL”)。拥有有效许可证的客户可继续与 Yahoo! Messenger 联盟直至服务关闭。AOL 和 Yahoo! 的生命周期结束日期已宣布，为 2014 年 6 月。有关详细信息，请参阅 <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</a>。</p></li>
-> <li><p>PIC USL 是一个每用户每月订阅许可证，是 Lync Server 或 Office Communications Server 与 Yahoo! Messenger 联盟所必需的。Microsoft 之所以能够提供此服务离不开 Yahoo! 的支持，但这项支持的基础协议正在逐步终止。</p></li>
-> <li><p>Lync 是一个比以往更强大的工具，它实现了人员跨组织、跨地域的连接。除 Lync 标准 CAL 外，与 Windows Live Messenger 联盟不需要任何附加用户/设备许可证。Skype 联盟将添加到此列表中，以便 Lync 用户能够通过 IM 和语音与数亿用户取得联系。</p></li>
-> </ul></li>
+> <UL>
+> <LI>
+> <P>从2012年9月1日起, Microsoft Lync 公共 IM 连接用户订阅许可证 ("PIC USL") 不再可用于购买新的或续订协议。 具有活动许可证的客户将能够继续与 Yahoo! 进行联盟 Messenger, 直到服务关闭日期。 AOL 和 Yahoo! 的有效期结束日期为2014年6月 已宣布。 有关详细信息, 请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</P>
+> <LI>
+> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo! 联合所需的每个每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力已作为对 Yahoo! 的支持, 它的底层协议被向下缠绕。</P>
+> <LI>
+> <P>Lync 比以往更多, 是一种强大的工具, 用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。 Skype 联盟将添加到此列表, 使 Lync 用户可以通过 IM 和语音与成百上千人联系。</P></LI></UL>
+
+
+</div></li>
 </ul>
 <p>未使用公共云连接的用户平均拥有 50 个联系人。在这些用户中：</p>
 <ul>
@@ -95,7 +123,7 @@ _**上一次修改主题：** 2015-03-09_
 <li><p>20% 的联系人来自联盟伙伴。</p>
 <p>每个用户在其联系人列表中都有一个通讯组。为了进行性能测试，我们假设通讯组始终是展开的。</p></li>
 </ul>
-<p>25% 的用户联系人使用 XMPP。</p></td>
+<p>用户的联系人的 25% 使用 XMPP。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会话时间</p></td>
@@ -105,7 +133,7 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-### IM 和状态用户模型
+### <a name="im-and-presence-user-model"></a>IM 和状态用户模型
 
 <table>
 <colgroup>
@@ -115,7 +143,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -123,7 +151,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>对等 IM 会话</p></td>
 <td><p>平均每个用户每天发起六个对等 IM 会话。</p>
 <p>每个会话 10 条即时消息。</p>
-<p>每条消息都与两条 SIP INFO 消息和两条 SIP 200 OK 消息相匹配（适用于状态指示器，如“&lt;名称&gt; 正在键入”）</p></td>
+<p>每封邮件都通过两个 SIP 信息消息和2个 SIP 200 OK 消息 (适用于状态指示器,&lt;如&gt; "名称正在键入") 进行匹配</p></td>
 </tr>
 <tr class="even">
 <td><p>状态轮询</p></td>
@@ -137,15 +165,14 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="odd">
 <td><p>状态订阅</p></td>
-<td><p>当用户将其他用户添加为联系人时，第一个用户将“订阅”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</p>
+<td><p>当用户将其他用户添加为联系人时，第一个用户将“<em>订阅</em>”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</p>
 <p>针对每个客户端，会发送单个订阅请求以获取平均 40 个联系人状态，以及发送其他 40 个对话以获取联盟联系人状态。</p>
 <p>扩展通讯组成员的状态可通过持久状态订阅（而非轮询）进行查找，并建模为每个用户每两小时一次扩展。</p>
-<p>在以下情况下会发生 <em>短期订阅</em> ：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</p></td>
+<p>在以下情况下会发生 <em>短期订阅 </em>：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</p></td>
 </tr>
 <tr class="even">
 <td><p>状态发布</p></td>
-<td><p>平均每个用户每小时发布状态 4 次，最多每个用户每小时发布 6 次。</p>
-<p></p></td>
+<td><p>平均每个用户每小时发布状态 4 次，最多每个用户每小时发布 6 次。</p></td>
 </tr>
 <tr class="odd">
 <td><p>状态文档大小</p></td>
@@ -157,7 +184,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表介绍了通讯簿使用用户模型。
 
-### 通讯簿使用用户模型
+### <a name="address-book-usage-user-model"></a>通讯簿使用用户模型
 
 <table>
 <colgroup>
@@ -190,7 +217,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表介绍了会议模型。
 
-### 会议模型
+### <a name="conferencing-model"></a>会议模型
 
 <table>
 <colgroup>
@@ -200,14 +227,14 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>计划的会议与“立即开会”会议</p></td>
+<td><p>计划会议与&quot;"立即&quot;开会" 会议</p></td>
 <td><p>60% 计划内会议，40% 计划外会议。</p>
-<p>在已安排的会议当中，假设其中 80% 是定期发生的分配会议；10% 是一次性公开会议；8% 是一次性匿名会议，以及 2% 是一次性非公开性会议。</p></td>
+<p>在计划的会议中, 我们假定 80% 分配有会议, 这是定期会议的一个实例;10% 是一次打开的会议;8% 是一次性匿名会议, 2% 是一次性关闭的会议。</p></td>
 </tr>
 <tr class="even">
 <td><p>会议客户端分布</p></td>
@@ -215,12 +242,12 @@ _**上一次修改主题：** 2015-03-09_
 <ul>
 <li><p>65% 的会议用户使用 Lync 2013。</p></li>
 <li><p>5% 的会议用户使用 Microsoft Lync Web App。</p></li>
-<li><p>30% 的会议用户使用早期客户端，包括 Microsoft Lync 2010、 Office Communicator 2007 R2、 Office Communicator 2007 和 Microsoft Office Communicator Web Access（2007 发行版）。</p></li>
+<li><p>30% 的会议用户使用以前的客户端, 包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access (2007 发布)。</p></li>
 </ul>
 <p>对于计划外会议：</p>
 <ul>
 <li><p>70% 的会议用户使用 Lync 2013。</p></li>
-<li><p>30% 的会议用户使用早期客户端，包括 Microsoft Lync 2010、 Office Communicator 2007 R2、 Office Communicator 2007 和 Microsoft Office Communicator Web Access（2007 发行版）。</p></li>
+<li><p>30% 的会议用户使用以前的客户端, 包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access (2007 发布)。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -242,6 +269,7 @@ _**上一次修改主题：** 2015-03-09_
 
 > [!NOTE]  
 > 这些数字合计达 100% 以上，因为一个会议可以有多种协作方式。
+
 
 </div>
 <ul>
@@ -267,7 +295,7 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-在常规前端池中， Lync Server 2013 支持的最大会议大小为 250 个用户。每个池一次可承载一个 250 个用户的会议。召开这样的大型会议的同时，池还可以承载其他较小的会议。另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。 有关详细信息，请参阅 [Lync Server 2013 中的大型会议支持](lync-server-2013-support-for-large-meetings.md)。
+在常规前端池内, Lync Server 2013 的最大受支持的会议大小为250用户。 每个池一次可承载一个 250 个用户的会议。 召开这样的大型会议的同时，池还可以承载其他较小的会议。 另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。 有关详细信息, 请参阅[Lync Server 2013 中的大型会议支持](lync-server-2013-support-for-large-meetings.md)。
 
 模拟会议的方式如下：
 
@@ -281,7 +309,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表详细说明了涉及电话拨入用户的会议的用户模型。
 
-### 电话拨入式会议用户模型
+### <a name="dial-in-conferencing-user-model"></a>电话拨入式会议用户模型
 
 <table>
 <colgroup>
@@ -291,7 +319,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -319,7 +347,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表详细说明了会议厅的用户模型。
 
-### 会议厅用户模型
+### <a name="conference-lobby-user-model"></a>会议厅用户模型
 
 <table>
 <colgroup>
@@ -329,7 +357,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -347,7 +375,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表说明了其他对等会话的用户模型。
 
-### 对等会话用户模型
+### <a name="peer-to-peer-sessions-user-model"></a>对等会话用户模型
 
 <table>
 <colgroup>
@@ -357,7 +385,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -375,7 +403,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表介绍了用于策略的用户模型。
 
-### 策略用户模型
+### <a name="policies-user-model"></a>策略用户模型
 
 <table>
 <colgroup>
@@ -385,7 +413,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -395,13 +423,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>语音策略</p></td>
-<td><p>假设每个站点有一个全局策略和 2 个标记策略。100% 的站点都有站点策略，并为 30% 的用户分配每用户策略。假设每个站点有一个拨号计划和两个路由。</p></td>
+<td><p>假设每个站点有一个全局策略和 2 个标记策略。 100% 的站点都有站点策略，并为 30% 的用户分配每用户策略。 假设每个站点有一个拨号计划和两个路由。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 忙时
+</div>
+
+<div>
+
+## <a name="busy-hour"></a>忙时
 
 对于对等会话，使用忙时呼叫尝试 (BHCA) 计算峰值负载。此语音行业术语假设将在 20% 的时间内完成一天中 50% 的呼叫。可使用以下公式进行计算：
 
@@ -411,21 +443,33 @@ _**上一次修改主题：** 2015-03-09_
 
 会议峰值负载假设在 4 小时的高峰时间内发生 8 小时工作日 75% 的会议。这些高峰时间的负载是平均会议负载的 1.5 倍。
 
-## 企业语音至 PSTN 的呼叫
+</div>
 
-以下假设适用于 企业语音呼叫：
+<div>
 
-  - 为 50% 的用户启用了 企业语音，并且为这些用户中的 60% 启用了 PSTN 呼叫。
+## <a name="enterprise-voice-to-pstn-calls"></a>企业语音到 PSTN 呼叫
+
+以下假设适用于企业语音呼叫:
+
+  - 50% 的用户支持企业语音, 并且这些用户的 60% 已启用 PSTN 呼叫。
 
   - 启用了 PSTN 呼叫的其中每一位用户在忙碌时段都发出 4 个 PSTN 呼叫。每个呼叫的持续时间为 3 分钟。
 
   - 其中 65% 的 PSTN 语音呼叫使用媒体旁路。
 
-## 移动性
+</div>
+
+<div>
+
+## <a name="mobility"></a>移动性
 
 假设为 40% 的注册用户启用了移动。对于启用了移动的每一位用户，假设移动客户端的活动是在该用户其他 MPOP 实例活动的基础上进行增加，但会议交互除外，对其而言，移动客户端只是可用来参与会议的另一种客户端类型。
 
-## 持久聊天
+</div>
+
+<div>
+
+## <a name="persistent-chat"></a>持久聊天
 
 假设 25% 的注册用户将参与到持久聊天会话中，并具有以下特征：
 
@@ -433,7 +477,23 @@ _**上一次修改主题：** 2015-03-09_
 
   - 每个聊天室每小时将产生 12 个轮询请求，每个轮询请求平均针对 10 个用户
 
-## 响应组和呼叫驻留
+</div>
+
+<div>
+
+## <a name="response-group-and-call-park"></a>响应组和呼叫驻留
 
 假设 0.15% 的注册用户属于响应组。假设 0.02% 的注册用户在任何给定的时间点都有驻留呼叫。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

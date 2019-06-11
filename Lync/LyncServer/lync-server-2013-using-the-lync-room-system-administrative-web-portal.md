@@ -1,106 +1,189 @@
-﻿---
-title: Lync Server 2013：使用 Lync Room System 管理 Web 门户
-TOCTitle: 使用 Lync Room System 管理 Web 门户
-ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn743660(v=OCS.15)
-ms:contentKeyID: 62269022
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：使用 Lync Room System 管理 Web 门户
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Lync Room System Administrative Web Portal
+ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
+ms:contentKeyID: 62268951
+ms.date: 11/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845418"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中使用 Lync Room System 管理 Web 门户
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-11-10_
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Lync Room System 管理 Web 门户
 
-在服务器上部署 LRS 之后，您可以通过从浏览器登录到 LRS 管理 Web 门户来检查所有 LRS 聊天室的状态。
+</div>
 
-## 登录
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-10_
+
+在服务器上部署 LRS 后, 你可以通过从浏览器登录到 LRS 管理 Web 门户来检查所有 LRS 聊天室的状态。
+
+<div>
+
+## <a name="sign-in"></a>登录
 
 1.  浏览到以下 URL：
     
-    https://\<fe-server\>/lrs
+    https://\<fe-服务器\>/lrs
 
-2.  输入 LRSSupport 帐户或者已添加到 LRSSupportAdminGroup 安全组的帐户的凭据。
+2.  输入 LRSSupport 帐户或已添加到 LRSSupportAdminGroup 安全组的帐户的凭据。
 
-![Lync 聊天室系统管理门户登录屏幕](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 聊天室系统管理门户登录屏幕")
+![Lync 会议室系统管理门户登录屏幕](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 会议室系统管理门户登录屏幕")
 
-## LRS 管理 Web 门户摘要页面
+</div>
 
-摘要页面为服务器上部署的所有 LRS 聊天室提供以下信息：
+<div>
 
-  - **标记**   管理员为聊天室提供的自定义名称。可以通过在门户中单击聊天室名称来设置标记。
+## <a name="lrs-administrative-web-portal-summary-page"></a>LRS 管理 Web 门户摘要页面
 
-  - **运行状况**   聊天室的运行状况状态，源自聊天室的“聚合运行状况”状态，它显示在“聊天室设置”页面的“运行状况”部分下方。
+"摘要" 页面为服务器上部署的所有 LRS 聊天室提供以下信息:
 
-  - **下次会议**   计划召开下次会议的日期和时间。
+  - **标记**   管理员提供给聊天室的自定义名称。 可以通过在门户中单击会议室名称来设置标记。
 
-  - **LRS 版本、制造商、型号**   这些值在 LRS 中预设。根据制造商，这些字段可能留空。
+  - **运行状况**   运行空间的运行状况, 该状态派生自会议室的聚合运行状况, 它显示在 "房间设置" 页面的 "运行状况" 部分下方。
+
+  - **下一个会议**   安排下一个会议的日期和时间。
+
+  - **LRS 版本、制造商、型号**   在 LRS 中预设这些值。 根据制造商，这些字段可能留空。
 
   - **上次刷新**   显示上次刷新网页的时间。
 
-![Lync 聊天室系统管理门户摘要视图](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 聊天室系统管理门户摘要视图")
+![Lync 会议室系统管理员门户摘要视图](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 会议室系统管理员门户摘要视图")
 
-## LRS 聊天室信息
+</div>
 
-门户的“聊天室信息”部分允许您查看和配置各个 LRS 聊天室。它包含四个部分：设置、详细信息、日志记录和运行状况。
+<div>
 
-## 设置
+## <a name="lrs-room-information"></a>LRS 会议室信息
 
-在“设置”部分中，您可以重置聊天室的密码、聊天室标记和默认音量。如果配置这些设置，那么只会在您重新启动 LRS 控制台之后复制更改。
+门户的 "房间信息" 部分允许你查看和配置单个 LRS 会议室。 其中包含四个部分: 设置、详细信息、疑难解答和运行状况。
 
-![Lync 聊天室系统管理门户聊天室设置](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync 聊天室系统管理门户聊天室设置")
+<div>
 
-## 详细信息
+## <a name="settings"></a>设置
 
-“详细信息”部分提供 LRS 聊天室设置的只读摘要，包括：上次刷新时间；下次会议；上次更新、维护和校准；默认扬声器、麦克风和铃声设置；版本；SIP URI；屏幕编号和有关每个屏幕的详细信息；状态和活动。
+在“设置”部分中，你可以设置会议室的密码、会议室标记和默认音量大小。 如果配置这些设置, 则仅在重新启动 LRS 控制台后才会复制更改。 你将仅看到版本15.12 和更高版本的 Lync 会议室系统的系统更新设置。
 
-![Lync 聊天室系统管理门户详细信息视图](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync 聊天室系统管理门户详细信息视图")
+![Lync 会议室系统管理门户聊天室设置](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync 会议室系统管理门户聊天室设置")
 
-## 日志记录
+</div>
 
-“日志记录”部分可用于远程收集日志并将它们保存到指定位置。您还可以重新启动 LRS 控制台（LRS 用户界面）或重新启动整个系统。
+<div>
 
-![Lync 聊天室系统管理门户聊天室日志记录](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync 聊天室系统管理门户聊天室日志记录")
+## <a name="details"></a>详细信息
 
-## 运行状况
+详细信息部分提供 LRS 聊天室设置的只读摘要, 包括: 上次刷新的时间;下一次会议;上次更新、维护和校准;默认扬声器、麦克风和铃声设置;版本SIP URI;屏幕数和每个屏幕的详细信息;状态和活动。
 
-“运行状况”部分提供 Lync Server 服务器连接、音频设备、视频设备、复原状态和屏幕设备的运行状况的直观指示。
+![Lync 会议室系统管理员门户详细信息视图](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync 会议室系统管理员门户详细信息视图")
 
-![Lync 聊天室系统管理门户聊天室运行状况](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync 聊天室系统管理门户聊天室运行状况")
+</div>
 
-## 有关管理 Web 门户的其他说明
+<div>
+
+## <a name="troubleshooting"></a>疑难解答
+
+“疑难解答”部分可用于远程收集日志并将它们保存到指定位置。 您也可以重新启动 LRS 控制台 (LRS 用户界面) 或重启整个系统。 若要收集日志, 请以指定格式提供文件夹路径, 并确保文件夹具有授予 LRS 计算机帐户的写入权限。 如果日志太大，可能需要长达 5 分钟才能完成日志的收集。 刷新页面将显示最新状态。
+
+![Lync 会议室系统管理门户聊天室日志记录](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync 会议室系统管理门户聊天室日志记录")
+
+</div>
+
+<div>
+
+## <a name="health"></a>运行状况
+
+"运行状况" 部分提供了 Lync 服务器连接、音频设备、视频设备、复原状态和屏幕设备的运行状况的可视指示。
+
+![Lync 会议室系统管理门户会议室运行状况](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync 会议室系统管理门户会议室运行状况")
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-notes-about-the-administrative-web-portal"></a>有关管理 Web 门户的其他说明
+
+<div>
+
 
 > [!NOTE]  
-> <ul>
-> <li><p>出于安全考虑，管理 Web 门户会每隔 15 分钟自动将您注销。</p></li>
-> <li><p>只有在重新启动 LRS 系统之后，才会应用设置更改。</p></li>
-> <li><p>LRS 管理 Web 门户上的通知是粘滞形式的；换言之，它们不会消失。</p></li>
-> <li><p>通知仅在您刷新页面之后显示。</p></li>
-> <li><p>LRS 聊天室的状态仅在您刷新页面之后显示。</p></li>
-> <li><p>如果 LRSApp 帐户密码过期，您不能查看聊天室的状态。请配置 LRSAppuser 帐户密码以便它从不过期，或者确保在密码即将过期时更新密码。</p></li>
-> <li><p>仅本地部署支持 LRS 管理 Web 模板。</p></li>
-> </ul>
+> <UL>
+> <LI>
+> <P>仅在重新启动 LRS 系统后应用设置更改。</P>
+> <LI>
+> <P>如果 LRSApp 帐户密码过期，你不能查看会议室的状态。 配置 LRSAppuser 帐户密码, 使其永不过期, 或者确保在密码即将过期时更新密码。</P>
+> <LI>
+> <P>只有本地部署才支持 LRS 管理 web 门户。</P></LI></UL>
 
-## 疑难解答
 
-## 为什么我无法登录管理 Web 模板？
 
-  - 当您打开 https://localhost/lrs 时，您将能够看到登录页面，但是当您键入您的凭据时，您无法登录。 在这种情况下，您必须打开 https://FQDNofFEserver/lrs 登录管理 Web 模板。
+</div>
 
-  - 如果您从中访问管理 Web 模板的计算机位于工作组中，则“http://”不起作用。请使用“https”。
+</div>
 
-## 为什么我在管理 Web 门户中看不到 LRS？
+<div>
 
-  - 确保您的部署中有 LRS 帐户，并且它们是按照 LRS 管理 Web 门户部署建议创建的。确保在 Lync 服务器上使用 Enable-CsMeetingRoom 而不是 Enable-CsUser 设置 LRS 帐户。
+## <a name="frequently-asked-questions"></a>常见问题
 
-  - 如果您已创建 LRS，但是在管理 Web 门户中看不到帐户，请使用 Lync 服务器日志记录工具并选中 **MeetingPortal** 组件来收集服务器日志，然后将它们发送给您的 LRS 支持联系人。
+<div>
 
-## 为什么我在管理 Web 门户中看不到 LRS 的状态？
+## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>为什么我无法登录管理 Web 门户？
 
-  - 确保 LRSApp 用户帐户已启用 SIP。
+  - 打开https://localhost/lrs时, 你将能够看到 "登录" 页面, 但当你键入凭据时, 无法登录。 在这种情况下, 必须https://FQDNofFEserver/lrs打开才能登录到管理 web 门户。
 
-  - 如果仍然遇到问题，请从 D:\\Tracing\\LRSAdminLogs\\ 收集 LRS 系统中的 **Trace.log** 文件，然后将其发送给您的 LRS 支持联系人。
+  - 如果您要从中访问管理 web 门户的计算机在工作组中, "http://" 将不起作用。 请改用 "https"。
+
+</div>
+
+<div>
+
+## <a name="why-cant-i-see-lrs-in-the-administrative-web-portal"></a>为什么我在管理 web 门户中看不到 LRS？
+
+  - 请确保你在部署中拥有 LRS 帐户, 并且根据 LRS 管理 Web 门户部署建议创建这些帐户。 请确保在 Lync server 上使用 Enable-CsMeetingRoom, 而不是 Enable-Move-csuser 来设置 LRS 帐户。
+
+  - 如果已创建 LRS 帐户, 并且在管理 web 门户中看不到帐户, 请使用选定**MeetingPortal**组件的 Lync Server 日志记录工具收集服务器日志, 然后将其发送到 LRS 支持联系人。
+
+</div>
+
+<div>
+
+## <a name="why-cant-i-see-the-status-of-lrs-in-the-administrative-web-portal"></a>为什么我在管理 web 门户中看不到 LRS 的状态？
+
+  - 请确保 LRSApp 用户帐户已启用 SIP。
+
+  - 如果仍有问题, 请从 D: **** \\LRS 系统中收集跟踪\\LRSAdminLogs\\的日志文件, 然后将其发送到 LRS 支持联系人。
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

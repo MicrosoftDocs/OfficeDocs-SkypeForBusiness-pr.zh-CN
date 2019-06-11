@@ -1,47 +1,85 @@
-﻿---
-title: 在 Lync Server 2013 中查看有关服务的详细信息
-TOCTitle: 在 Lync Server 2013 中查看有关服务的详细信息
-ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182578(v=OCS.15)
-ms:contentKeyID: 49314079
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 查看有关服务的详细信息'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View details about a service
+ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182578(v=OCS.15)
+ms:contentKeyID: 48185253
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65fd84ad7290f3b82130f04d8b81955f6ffb4921
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845353"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中查看有关服务的详细信息
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-21_
+# <a name="view-details-about-a-service-in-lync-server-2013"></a>在 Lync Server 2013 中查看有关服务的详细信息
 
-可以使用 Lync Server 控制面板查看有关在拓扑中的特定计算机上运行的每个服务的详细信息。可以查看每个服务的状态和详细信息（如关联的数据库、端口和相关服务）。
+</div>
 
-## 查看服务的详细信息
+<div id="mainSection">
 
-1.  使用分配给任何 Lync Server 2013 预定义管理角色的用户帐户，登录到内部部署中的任何计算机。有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅[在 Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+<div id="mainBody">
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<span> </span>
 
-3.  在左侧导航栏中，单击“拓扑”，然后单击“状态”。
+_**主题上次修改时间:** 2012-09-21_
 
-4.  在“状态”页中，对列表进行排序或搜索列表，然后单击要查看的计算机。
+可以使用 Lync Server "控制面板" 查看拓扑中特定计算机上运行的每个服务的详细信息。 你可以查看每个服务的状态以及相关联的数据库、端口和依赖服务等详细信息。
 
-5.  单击“属性”。
+<div>
 
-6.  在“查看计算机详细信息”窗口中，根据需要对服务列表进行排序，然后单击要查看的服务。
+## <a name="to-view-details-for-a-service"></a>查看服务的详细信息
 
-7.  根据需要执行下列任意操作：
+1.  从分配给 Lync Server 2013 的任何预定义管理角色的用户帐户登录到内部部署中的任何计算机。 有关 Lync Server 2013 中可用的预定义管理角色的详细信息, 请参阅[在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+
+3.  在左侧导航栏中, 单击 "**拓扑**", 然后单击 "**状态**"。
+
+4.  在 "**状态**" 页面中, 对列表进行排序或搜索, 然后单击要查看的计算机。
+
+5.  单击 "**属性**"。
+
+6.  在 "**查看计算机详细信息**" 窗口中, 对服务列表进行排序 (如有必要), 然后单击要查看的服务。
+
+7.  根据需要执行下列任一操作:
     
-      - 要查看特定服务的最新状态，请单击“获取服务状态”。
+      - 若要查看该特定服务的最新状态, 请单击 "**获取服务状态**"。
     
-      - 要查看特定服务的详细信息，请单击“属性”，然后单击“关闭”。
+      - 若要查看特定服务的详细信息, 请单击 "**属性**", 然后单击 "**关闭**"。
     
-      - 要返回拓扑中所有计算机的列表，请单击“关闭”。
+      - 若要返回到拓扑中的所有计算机的列表, 请单击 "**关闭**"。
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[管理 Lync Server 2013 拓扑](lync-server-2013-managing-the-lync-server-topology.md)
+## <a name="see-also"></a>另请参阅
+
+
+[管理 Lync Server 2013 拓扑](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

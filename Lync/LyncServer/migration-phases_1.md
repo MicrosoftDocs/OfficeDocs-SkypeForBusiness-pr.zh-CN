@@ -1,39 +1,69 @@
-﻿---
-title: 迁移阶段
-TOCTitle: 迁移阶段
-ms:assetid: 71c7cb8e-45f8-441f-b433-03e3d9436992
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205002(v=OCS.15)
-ms:contentKeyID: 49313220
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 迁移阶段
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration phases
+ms:assetid: 71c7cb8e-45f8-441f-b433-03e3d9436992
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205002(v=OCS.15)
+ms:contentKeyID: 48184494
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 943a569ead03901fd0da2f0bd9ef4931757f2d1d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845201"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 迁移阶段
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-08-29_
+# <a name="migration-phases"></a>迁移阶段
 
-以下阶段介绍将池从 Office Communications Server 2007 R2 迁移到 Lync Server 2013 的过程。
+</div>
 
-  - [第 1 阶段：规划 Office Communications Server 2007 R2 的迁移](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-08-29_
+
+以下阶段介绍从 Office 通信服务器 2007 R2 到 Lync Server 2013 的池迁移过程。
+
+  - [第1阶段: 规划从 Office 通信服务器 2007 R2 迁移](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
   - [第 2 阶段：准备迁移](phase-2-prepare-for-migration_1.md)
 
-  - [第 3 阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [第3阶段: 部署 Lync Server 2013 试验池](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [第 4 阶段：合并拓扑](phase-4-merge-topologies.md)
+  - [第4阶段: 合并拓扑](phase-4-merge-topologies.md)
 
-  - [第 5 阶段：配置试点池](phase-5-configure-the-pilot-pool.md)
+  - [第5阶段: 配置试行池](phase-5-configure-the-pilot-pool.md)
 
-  - [第 6 阶段：将用户移至试点池中](phase-6-move-users-to-the-pilot-pool.md)
+  - [第6阶段: 将用户移动到 "引导" 池](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [第 7 阶段：将 Lync Server 2013 边缘服务器添加到试点池中](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [第7阶段: 将 Lync Server 2013 边缘服务器添加到试验池](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [第 8 阶段：从试点部署移动到生产](phase-8-move-from-pilot-deployment-into-production.md)
+  - [第8阶段: 从试验部署迁移到生产环境](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [第 9 阶段：完成迁移后任务](phase-9-complete-post-migration-tasks.md)
+  - [第9阶段: 完成迁移后任务](phase-9-complete-post-migration-tasks.md)
 
-  - [第 10 阶段：停用旧站点](phase-10-decommission-legacy-site.md)
+  - [第10阶段: 停止旧版网站](phase-10-decommission-legacy-site.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

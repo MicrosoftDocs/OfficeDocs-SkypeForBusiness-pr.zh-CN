@@ -1,47 +1,90 @@
-﻿---
-title: Lync Server 2013：测试 Standard Edition 服务器
-TOCTitle: 测试 Standard Edition 服务器
-ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412890(v=OCS.15)
-ms:contentKeyID: 49314024
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：测试 Standard Edition 服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test the Standard Edition server
+ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412890(v=OCS.15)
+ms:contentKeyID: 48185220
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a960451ebdd1e6e8728bf3b6c7df6e267c49c3f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845649"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中测试 Standard Edition 服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-01_
+# <a name="test-the-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Standard Edition 服务器
 
-以下过程介绍如何测试 Standard Edition Server 的部署。
+</div>
 
-## 测试 Standard Edition Server 的部署
+<div id="mainSection">
 
-1.  使用“Active Directory 计算机和用户”将 Lync Server 2013 部署（其中已安装 Lync Server 控制面板）的管理员角色的 Active Directory 用户对象添加到 **CSAdministrator** 组。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-01_
+
+以下过程介绍了如何测试标准版服务器的部署。
+
+<div>
+
+## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>测试标准版服务器的部署
+
+1.  使用 Active Directory 计算机和用户将 Lync Server 2013 部署 (安装了 Lync Server 控制面板) 的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。
 
 2.  如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。
     
-    > [!NOTE]
-    > 用户帐户不能是运行 Lync Server 2013 Standard Edition 的服务器的本地管理员。如果未将相应的用户和组添加到 CsAdministors 组，则在打开 Lync Server 2013 控制面板时会收到错误消息，指出“未授权:由于基于角色的访问控制 (RBAC) 授权失败，访问被拒绝”。
+    <div>
+    
+
+    > [!NOTE]  
+    > 用户帐户不能是运行 Lync Server 2013 标准版的服务器的本地管理员。 如果不将相应的用户和组添加到 CsAdministors 组, 则打开 Lync Server 2013 控制面板时将收到错误, 其中指出 "未经授权: 由于基于角色的访问控制 (RBAC) 授权失败, 访问被拒绝。"
+
+    
+    </div>
+
+3.  使用 "管理" 帐户登录到安装了 "Lync Server 控制面板" 的计算机。
+
+4.  如果出现提示, 请启动 Lync Server 控制面板并提供凭据。 Lync Server 2013 "控制面板" 显示部署信息。
+
+5.  在左侧导航栏中, 单击 "**拓扑**", 然后确认服务状态是带有绿色箭头的计算机图标, 并且已部署并联机的每个 Lync server 服务器角色旁边都有一个绿色复选标记。
+
+6.  在左侧导航栏中, 单击 "**用户**", 然后启用 "Lync Server 2013 的两个用户"。
+
+7.  将一位用户登录到加入域的计算机, 另一用户登录到域中的另一台计算机。
+
+8.  在两台客户端计算机上安装 Lync Server 2013, 然后验证这两个用户都可以登录 Lync Server 2013, 并且可以互相发送即时消息。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
 
 
-3.  使用管理帐户登录到已安装 Lync Server 控制面板的计算机。
+[在 Lync Server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)  
+  
 
-4.  如果出现提示，请启动 Lync Server 控制面板并提供凭据。 Lync Server 2013 控制面板显示部署信息。
+</div>
 
-5.  在左侧导航栏中，单击“拓扑”，然后确认服务状态是带有绿色箭头的计算机图标，且已部署并恢复联机的每个 Lync Server 服务器角色旁边都有一个绿色复选标记。
+</div>
 
-6.  在左侧导航栏中，单击“用户”，然后为这两名用户启用 Lync Server 2013。
+<span> </span>
 
-7.  使其中一个用户登录已加入域的计算机，另一个用户登录域中的其他计算机。
+</div>
 
-8.  在这两台客户端计算机上均安装 Lync Server 2013，然后验证两名用户是否都能登录到 Lync Server 2013，并互相发送即时消息。
+</div>
 
-## 另请参阅
-
-#### 概念
-
-[在 Lync Server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)
+</div>
 

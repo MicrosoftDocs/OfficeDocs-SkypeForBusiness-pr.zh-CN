@@ -1,74 +1,123 @@
-﻿---
-title: 企业语音故障排除 Cmdlet
-TOCTitle: 企业语音故障排除 Cmdlet
-ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415638(v=OCS.15)
-ms:contentKeyID: 49312318
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 企业语音 cmdlet 疑难解答'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Troubleshooting Enterprise Voice cmdlets
+ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415638(v=OCS.15)
+ms:contentKeyID: 48183697
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b569270a92808e03648042f84dbd491c80e61cf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845534"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 企业语音故障排除 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的企业语音 cmdlet 疑难解答
 
-在 Microsoft Lync Server 2013 实现过程中设置企业语音涉及创建路由、策略和规则，所有这些必须协同工作以确保传入和传出呼叫按预期完成。Lync Server 命令行管理程序包括可用于测试连接和路径以及解决在实现过程中可能出现的问题的 cmdlet。
+</div>
 
-## 企业语音故障排除 Cmdlet
+<div id="mainSection">
 
-以下 cmdlet 可用于测试企业语音连接并排除其中的故障。
+<div id="mainBody">
 
-**企业语音故障排除 Cmdlet**
+<span> </span>
 
-  -   
-    [Get-CsVoiceConfiguration](get-csvoiceconfiguration.md)
+_**主题上次修改时间:** 2012-06-20_
 
-  -   
-    [Remove-CsVoiceConfiguration](remove-csvoiceconfiguration.md)
+将企业语音设置为 Microsoft Lync Server 2013 实现的一部分包括创建必须全部协同工作的路由、策略和规则, 以确保传入和传出呼叫按预期完成。 Lync Server Management Shell 包含可用于测试连接和路径的 cmdlet, 以及用于解决在实现期间可能出现的问题。
 
-  -   
-    [Set-CsVoiceConfiguration](set-csvoiceconfiguration.md)
+<div>
 
-  -   
-    [Get-CsVoiceTestConfiguration](get-csvoicetestconfiguration.md)
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>企业语音 Cmdlet 疑难解答
 
-  -   
-    [New-CsVoiceTestConfiguration](new-csvoicetestconfiguration.md)
+以下 cmdlet 可用于测试和解决企业语音连接问题。
 
-  -   
-    [Remove-CsVoiceTestConfiguration](remove-csvoicetestconfiguration.md)
+**企业语音 Cmdlet 疑难解答**
 
-  -   
-    [Set-CsVoiceTestConfiguration](set-csvoicetestconfiguration.md)
+  - <span></span>  
+    [CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
 
-  -   
-    [Test-CsVoiceTestConfiguration](test-csvoicetestconfiguration.md)
+  - <span></span>  
+    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
 
-  -   
-    [Test-CsDialPlan](test-csdialplan.md)
+  - <span></span>  
+    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
 
-  -   
-    [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+<!-- end list -->
 
-  -   
-    [Test-CsVoicePolicy](test-csvoicepolicy.md)
+  - <span></span>  
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
 
-  -   
-    [Test-CsVoiceRoute](test-csvoiceroute.md)
+  - <span></span>  
+    [新-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
 
-  -   
-    [Test-CsVoiceUser](test-csvoiceuser.md)
+  - <span></span>  
+    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
 
-## 另请参阅
+  - <span></span>  
+    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
 
-#### 概念
+  - <span></span>  
+    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
 
-[企业语音 Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+<!-- end list -->
 
-#### 其他资源
+  - <span></span>  
+    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 中的企业语音 cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

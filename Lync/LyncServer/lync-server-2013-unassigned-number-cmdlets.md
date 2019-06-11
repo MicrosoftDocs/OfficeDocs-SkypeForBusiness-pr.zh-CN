@@ -1,58 +1,100 @@
-﻿---
-title: 未分配号码 Cmdlet
-TOCTitle: 未分配号码 Cmdlet
-ms:assetid: 4956dddb-199b-47f4-813f-ef3c461aaf2e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415649(v=OCS.15)
-ms:contentKeyID: 49312751
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 未分配的号码 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Unassigned number cmdlets
+ms:assetid: 4956dddb-199b-47f4-813f-ef3c461aaf2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415649(v=OCS.15)
+ms:contentKeyID: 48184065
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dba277e3c7354ea87e6d4cfb9c2541152f3908d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845524"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 未分配号码 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的未分配号码 cmdlet
 
-未分配号码是指属于组织但尚未分配给用户或电话的电话号码。可以对未分配号码进行配置，以在对这些号码发出呼叫时播放各种类型的通知。
+</div>
 
-## 未分配号码 Cmdlet
+<div id="mainSection">
 
-以下 cmdlet 可用于管理未分配号码。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-03-21_
+
+未分配号码是属于某个组织但尚未分配给用户或电话的电话号码。 在对这些号码进行呼叫时, 可将未分配的号码配置为播放各种类型的公告。
+
+<div>
+
+## <a name="unassigned-number-cmdlets"></a>未分配的号码 Cmdlet
+
+以下 cmdlet 可用于管理未分配的号码。
 
 **未分配号码**
 
-  -   
-    [Get-CsUnassignedNumber](get-csunassignednumber.md)
+  - <span></span>  
+    [Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
 
-  -   
-    [New-CsUnassignedNumber](new-csunassignednumber.md)
+  - <span></span>  
+    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
 
-  -   
-    [Remove-CsUnassignedNumber](remove-csunassignednumber.md)
+  - <span></span>  
+    [Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
 
-  -   
-    [Set-CsUnassignedNumber](set-csunassignednumber.md)
+  - <span></span>  
+    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
 
-  -   
-    [Get-CsAnnouncement](get-csannouncement.md)
+<!-- end list -->
 
-  -   
-    [New-CsAnnouncement](new-csannouncement.md)
+  - <span></span>  
+    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
 
-  -   
-    [Remove-CsAnnouncement](remove-csannouncement.md)
+  - <span></span>  
+    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
 
-  -   
-    [Set-CsAnnouncement](set-csannouncement.md)
+  - <span></span>  
+    [Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
 
-  -   
-    [Import-CsAnnouncementFile](import-csannouncementfile.md)
+  - <span></span>  
+    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
 
-## 另请参阅
+<!-- end list -->
 
-#### 其他资源
+  - <span></span>  
+    [Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

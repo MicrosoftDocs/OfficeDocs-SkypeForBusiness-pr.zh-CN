@@ -1,75 +1,117 @@
-﻿---
-title: 'Lync Server 2013: View Edge Server settings'
+---
+title: 'Lync Server 2013: 查看边缘服务器设置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn747890(v=OCS.15)
-ms:contentKeyID: 62293595
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)
+ms:contentKeyID: 63969612
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 972a5861af803dbaf66843883595c446345ac29a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845344"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# View Edge Server settings in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-05-20_
+# <a name="view-edge-server-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看边缘服务器设置
 
-General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.
+</div>
 
-Additional checks could include those that are described in the following sections:
+<div id="mainSection">
 
-## Verify the Allow and block lists
+<div id="mainBody">
 
-Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.
+<span> </span>
 
-You can use Windows PowerShell to view the allowed and blocked lists. To review the domains on the Allowed Domains list, run the following Windows PowerShell command:
+_**主题上次修改时间:** 2014-05-20_
+
+应对照配置管理数据库中的数据检查常规边缘服务器配置, 以帮助确保按照定义的更改控制过程记录所有更改。
+
+其他检查可能包含以下部分中介绍的内容:
+
+<div>
+
+## <a name="verify-the-allow-and-block-lists"></a>验证允许和阻止列表
+
+验证联盟域的 SIP URI "Allow" 和 "Block" 列表, 以确定列出的命名空间是否仍然有效。
+
+你可以使用 Windows PowerShell 查看允许和阻止的列表。 若要查看 "允许的域" 列表中的域, 请运行以下 Windows PowerShell 命令:
 
 `Get-CsAllowedDomain`
 
-That command returns information similar to this for the domains on the Allowed Domains list:
+该命令将针对 "允许的域" 列表中的域返回类似于以下内容的信息:
 
-Identity : contoso.com
+标识: contoso.com
 
-Domain : contoso.com
+域: contoso.com
 
 ProxyFqdn :
 
-Comment :
+备注
 
-MarkForMonitoring : False
+MarkForMonitoring: False
 
-Comment :
+备注
 
-To review the domains on the blocked domains list, use this command:
+若要查看 "阻止的域" 列表中的域, 请使用以下命令:
 
 `Get-CsBlockedDomain`
 
-In turn, you'll receive information such as this for each blocked domain:
+然后, 你将收到有关每个被阻止域的以下信息:
 
-Identity : tailspintoys.com
+标识: tailspintoys.com
 
-Domain : tailspintoys.com
+域: tailspintoys.com
 
-Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list. For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:
+Windows PowerShell 还允许你验证是否可以连接到 "允许的域" 列表中的域。 例如, 此命令将验证 Edge 服务器 (TargetFqdn) 与联盟域 contoso.com 之间的连接:
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:
+此命令将验证你的 Edge 服务器与你的允许域列表上的所有域之间的连接:
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
-## Verify multiple Edge Servers are identical
+</div>
 
-If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.
+<div>
 
-You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.
+## <a name="verify-multiple-edge-servers-are-identical"></a>验证多个边缘服务器是否相同
 
-## 另请参阅
+如果多个边缘服务器部署在负载平衡的数组中, 我们建议验证阵列中的所有边缘服务器是否以相同的方式进行配置。
 
-#### 其他资源
+可以在 "计算机管理" 管理单元的 Lync Server 2013 扩展的详细信息窗格中查看边缘服务器的设置。
 
-[Get-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAllowedDomain)  
-[Get-CsBlockedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsBlockedDomain)  
-[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[CsBlockedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

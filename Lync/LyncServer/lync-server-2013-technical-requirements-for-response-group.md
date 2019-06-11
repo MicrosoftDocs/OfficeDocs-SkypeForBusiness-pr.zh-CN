@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：响应组的技术要求
-TOCTitle: 响应组的技术要求
-ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204863(v=OCS.15)
-ms:contentKeyID: 49312726
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：响应组的技术要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Response Group
+ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
+ms:contentKeyID: 48184044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845692"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中响应组的技术要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的技术要求
 
-本节介绍了响应组应用程序的下列技术要求：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-11-07_
+
+本部分介绍响应组应用程序的以下技术要求:
 
   - 硬件要求
 
@@ -27,41 +47,68 @@ _**上一次修改主题：** 2016-12-08_
 
   - 响应组配置工具要求
 
-## 硬件要求
+<div>
 
-响应组应用程序具有与前端服务器相同的硬件要求。有关硬件要求的详细信息，请参阅可支持性文档中的[适用于 Lync Server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
+## <a name="hardware-requirements"></a>硬件要求
 
-## 软件要求
+响应组应用程序具有与前端服务器相同的硬件要求。 有关硬件要求的详细信息, 请参阅支持文档中的[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
 
-响应组应用程序具有与前端服务器相同的操作系统要求和软件要求。有关软件要求的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)。
+</div>
 
-如果您对响应组音乐和通知使用 Windows Media 音频 (.wma) 文件，则运行响应组应用程序的所有前端服务器或 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime 或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft 媒体基础。对于 Windows Server 2008 R2，Windows Media Format Runtime 将作为 Windows 桌面体验的一部分安装。
+<div>
 
-有关音频要求的详细信息，请参阅下文中的“音频文件要求”。
+## <a name="software-requirements"></a>软件要求
 
-## 端口要求
+响应组应用程序具有与前端服务器相同的操作系统要求和软件先决条件。 有关软件要求的详细信息, 请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
 
-响应组应用程序使用下列端口：
+如果将 Windows Media 音频 (.wma) 文件用于响应组音乐和通知, 则所有前端服务器或运行响应组应用程序的标准版服务器必须为运行 Windows 的服务器安装 Windows Media 格式运行时服务器 2008 R2 或 Microsoft Media Foundation for 运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器。 对于 Windows Server 2008 R2, Windows Media 格式运行时作为 Windows 桌面体验的一部分进行安装。
 
-  - **端口 5071**   用于 SIP 侦听请求
+有关音频要求的更多详细信息, 请参阅本部分后面部分的 "音频文件要求"。
 
-  - **端口 8404**   用于在服务器之间通信
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>端口要求
+
+响应组应用程序使用以下端口:
+
+  - ****   用于 SIP 侦听请求的端口5071
+
+  - ****   用于 interserver 通信的端口8404
     
-    > [!NOTE]
-    > 此端口用于 Match Making 服务，且在拥有多台 前端服务器的池中部署 响应组应用程序时，该端口是必需的。
+    <div>
+    
+
+    > [!NOTE]  
+    > 此端口用于匹配 "正在进行" 服务, 并且当响应组应用程序部署在具有多个前端服务器的池中时, 此端口是必需的。
+
+    
+    </div>
+
+<div>
 
 
 > [!NOTE]  
-> 这些端口是默认设置，您可以使用 <strong>Set-CsApplicationServer</strong> cmdlet 更改。有关此 cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。
+> 这些端口是默认设置，您可以使用 <STRONG>Set-CsApplicationServer</STRONG> cmdlet 更改。 有关此 cmdlet 的详细信息, 请参阅 Lync Server Management Shell 文档。
 
 
-## 音频文件要求
 
-响应组应用程序支持 wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式的响应组消息、保持音乐或互动语音响应 (IVR) 问题。
+</div>
 
-Windows Media 音频文件格式要求 Windows Media Format Runtime 安装在运行 Windows Server 2008 R2 和 Windows Server 2008 的前端服务器上。有关详细信息，请参阅上文中的“软件要求”。
+</div>
 
-## 支持的 Wave 文件格式
+<div>
+
+## <a name="audio-file-requirements"></a>音频文件要求
+
+响应组应用程序支持波形 (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式, 用于响应组消息、保留音乐或交互式语音响应 (IVR) 问题。
+
+Windows Media 音频文件格式要求 Windows Media 格式运行时安装在运行 Windows Server 2008 R2 和 Windows Server 2008 的前端服务器上。 有关详细信息，请参阅上文中的“软件要求”。
+
+<div>
+
+## <a name="supported-wave-file-formats"></a>支持的 Wave 文件格式
 
 所有 wave 文件必须符合以下要求：
 
@@ -75,21 +122,37 @@ Windows Media 音频文件格式要求 Windows Media Format Runtime 安装在运
 
 为获得 wave 文件的最佳性能，建议使用 16 kHz、单声道、16 位的 wave 文件。
 
-## 支持的 Windows Media 音频文件格式
+</div>
+
+<div>
+
+## <a name="supported-windows-media-audio-file-formats"></a>支持的 Windows Media 音频文件格式
 
 如果使用 Windows Media 音频文件，请考虑使用较低的比特率，并验证负载下的系统性能。
 
-您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。若要下载 Expression Encoder 4，请参阅 [http://go.microsoft.com/fwlink/?linkid=202843\&clcid=0x804](http://go.microsoft.com/fwlink/?linkid=202843%26clcid=0x804)。
+您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。 若要下载表达式编码器 4, [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)请参阅。
 
-## 响应组配置工具要求
+</div>
 
-响应组配置工具支持下表所述的操作系统和 Web 浏览器的组合。
+</div>
+
+<div>
+
+## <a name="response-group-configuration-tool-requirements"></a>响应组配置工具要求
+
+"响应组配置" 工具支持下表中所述的操作系统和 web 浏览器的组合。
+
+<div>
+
 
 > [!NOTE]  
 > 支持 32 位或 64 位版本的操作系统。仅支持 32 位版本的 Internet Explorer。
 
 
-### 支持的操作系统和 Web 浏览器
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>支持的操作系统和 Web 浏览器
 
 <table>
 <colgroup>
@@ -122,10 +185,7 @@ Windows Media 音频文件格式要求 Windows Media Format Runtime 安装在运
 <p>Internet Explorer 9（本机模式）</p></td>
 </tr>
 <tr class="even">
-<td><p></p>
-<p></p>
-<p></p>
-<p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 Service Pack 1</p></td>
 <td><p>Internet Explorer 8（本机模式）</p>
 <p>Internet Explorer 9（本机模式）</p></td>
@@ -134,15 +194,25 @@ Windows Media 音频文件格式要求 Windows Media Format Runtime 安装在运
 </table>
 
 
-## 响应组代理控制台
+</div>
+
+<div>
+
+## <a name="response-group-agent-console"></a>响应组代理控制台
 
 此代理控制台支持下表所述的操作系统和 Web 浏览器的组合。
+
+<div>
+
 
 > [!NOTE]  
 > 支持 32 位或 64 位版本的操作系统。仅支持 32 位版本的 Internet Explorer。
 
 
-### 支持的操作系统和 Web 浏览器
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>支持的操作系统和 Web 浏览器
 
 <table>
 <colgroup>
@@ -185,9 +255,22 @@ Windows Media 音频文件格式要求 Windows Media Format Runtime 安装在运
 <p>Chrome 18.0</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

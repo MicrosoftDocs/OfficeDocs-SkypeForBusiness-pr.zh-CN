@@ -1,137 +1,193 @@
-﻿---
-title: Lync Server 2013：周任务
-TOCTitle: 周任务
-ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn722432(v=OCS.15)
-ms:contentKeyID: 62283295
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：周任务
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Weekly tasks
+ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
+ms:contentKeyID: 63969650
+ms.date: 08/20/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7d3128780c456c3f38f306d31f258ce903eb50a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845248"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的周任务
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的周任务
 
-周任务通常与收集和分析日志和报告相关。
+</div>
 
-## 存档事件日志
+<div id="mainSection">
 
-如果事件日志未配置为根据需要覆盖事件，则必须定期存档和删除它们。此操作对于安全日志尤其重要，在调查安全违规企图时可能会需要安全日志。
+<div id="mainBody">
 
-您的组织必须定义日志存档的策略和过程。
+<span> </span>
 
-## 创建报告
+_**主题上次修改时间:** 2015-08-17_
 
-创建状态报告有助于进行容量规划、SLA 审核和性能分析。请使用事件日志和系统监视器的日常数据来创建有关磁盘、内存和 CPU 使用状况的报告。请使用 System Center Operations Manager 来生成正常运行时间和可用性报告。
+每周任务通常与收集和分析日志和报告相关。
 
-您的组织必须定义状态报告的策略和过程。
+<div>
 
-## 事件报告
+## <a name="archive-event-logs"></a>存档事件日志
 
-每周审核您的组织的与 Lync Server 相关的事件报告。此审核应包括以下内容：
+如果事件日志未配置为根据需要覆盖事件, 则必须定期存档并删除这些事件。 此操作对安全日志特别重要, 在调查尝试的安全违规时可能需要这样做。
 
-  - 已生成、已解决和待解决的热门事件。
+您的组织将必须定义日志存档的策略和过程。
+
+</div>
+
+<div>
+
+## <a name="create-reports"></a>创建报表
+
+创建状态报告以帮助进行容量规划、SLA 审查和性能分析。 使用事件日志和系统监视器中的每日数据创建有关磁盘、内存和 CPU 使用率的报告。 使用 System Center Operations Manager 生成正常运行时间和可用性报告。
+
+您的组织将必须定义状态报告的策略和过程。
+
+</div>
+
+<div>
+
+## <a name="incident-reports"></a>事件报告
+
+对与 Lync Server 相关的组织事件报告执行每周审核。 本审核应包括以下内容:
+
+  - 最热门的生成、已解决和挂起事件。
 
   - 未解决的事件的解决方案。
 
-  - 更新报告以包括新的故障票证。
+  - 将报表更新为包含新的故障票证。
 
-  - 更新文档存储库以包括有关中断的故障排除指南和事后调查分析。
+  - 为疑难解答指南更新文档存储库并发布有关中断的剖析。
 
-由于您的组织的事件跟踪系统独立于 Lync Server，因此没有特定说明或提示可用。请参阅您的组织选择的系统的文档。
+由于组织的事件跟踪系统是独立于 Lync Server 的选项, 因此特定说明或指针不可用。 请参阅你的组织选择的系统的文档。
 
-## 检查 IIS 日志和性能
+</div>
 
-每周审查 Internet Information Services (IIS) 日志和性能。有关如何监视 IIS 日志和性能的详细信息，请参阅 [Windows Server 2003 Internet Information Services (IIS) 事件日志记录概述](http://go.microsoft.com/fwlink/?linkid=36077)。审查应包含以下内容：
+<div>
+
+## <a name="check-iis-logs-and-performance"></a>检查 IIS 日志和性能
+
+对 Internet 信息服务 (IIS) 日志和性能执行每周查看。 有关如何监视 IIS 日志和性能的详细信息, 请参阅[Windows Server 2003 Internet Information Services (IIS) 事件日志记录概述](http://go.microsoft.com/fwlink/?linkid=36077)。 评审应包括以下内容:
 
   - 用于监视 WWW 服务缓存的 Web 服务缓存计数器。
 
-  - 用于监视作为 ASPs 运行的应用程序的 Active Server Pages (ASPs) 计数器。
+  - Active Server Page (Asp) 计数器, 用于监视以 Asp 形式运行的应用程序。
 
-有关如何监视 IIS 日志和性能的详细信息，请参阅 [Windows Server 2003 Internet Information Services (IIS) 事件日志记录概述](http://go.microsoft.com/fwlink/?linkid=36077)。
+</div>
 
-## 生成数据库报告
+<div>
 
-**针对 SQL 数据库生成报告**
+## <a name="generate-database-reports"></a>生成数据库报告
+
+**生成 SQL 数据库报表**
 
 1.  打开 Lync Server 2013。
 
-2.  在控制台树中，展开林节点，展开“企业池”，然后单击要为其生成数据库报告的池。
+2.  在控制台树中, 展开 "林" 节点, 展开 "**企业版池**", 然后单击要为其生成数据库报告的池。
 
-3.  在详细信息窗格中，单击“数据库”选项卡。
+3.  在 "详细信息" 窗格中, 单击 "**数据库**" 选项卡。
 
-4.  在“数据库”选项卡上，执行以下操作：
+4.  在 "**数据库**" 选项卡上, 执行下列操作:
     
-    1.  要查看数据库的名称，请展开“常规设置”并查看数据库名称。
+    1.  若要查看数据库的名称, 请展开 "**常规设置**", 然后查看数据库名称。
     
-    2.  要检索池的当前用户摘要统计信息，请展开“用户摘要报告”，单击“前往”并查看结果。
+    2.  若要检索池的当前用户汇总统计信息, 请展开 "**用户摘要报告**", 单击 "**转到**", 然后查看结果。
     
-    3.  要检索单个池用户的当前每用户数据，请展开“每用户报告”，键入用户的 SIP URI，单击“前往”并查看结果。
+    3.  若要检索池的单个用户的当前每用户数据, 请展开 "**每用户报告**", 键入用户的 SIP URI, 单击 "**转到**", 然后查看结果。
 
-要检索池的当前会议摘要统计信息，请展开“会议摘要报告”，单击“前往”并查看结果。
+若要检索池的当前会议摘要统计信息, 请展开 "**会议摘要" 报表**, 单击 "**转到**", 然后查看结果。
 
-## 检查安全和 Lync Server 更新
+</div>
 
-识别任何新的 Service Pack、修补程序或更新。如果合适，请在测试实验室进行测试，并使用更改控制过程来安排到生产服务器的部署。此外，Lync Server 组件更新现在作为 Windows 更新的一部分提供。所有 Lync Server 组件更新必须在运行 Lync Server 并且更新适用的所有服务器上同时进行更新。
+<div>
 
-## 运行 Lync Server 2013 最佳做法分析器
+## <a name="check-for-security-and-lync-server-updates"></a>检查安全和 Lync 服务器更新
 
-Lync Server 2013 最佳做法分析器工具是一种诊断工具，用于收集配置信息并确定配置设置是否符合 Microsoft 最佳做法。此工具的文档说明位于 [Lync Server 2013 最佳做法分析器](lync-server-2013-lync-server-best-practices-analyzer.md)和[运行最佳做法分析器](https://technet.microsoft.com/zh-cn/library/gg398652\(v=ocs.15\))上。
+标识任何新服务包、修补程序或更新。 如果适用, 请在测试实验室中测试这些项, 并使用更改控制过程安排部署到生产服务器。 此外, Lync Server 组件更新现已作为 Windows 更新的一部分提供。 所有 Lync Server 组件更新都必须在运行 Lync Server 的所有服务器上同时更新, 这些更新均适用于这些更新。
 
-该工具比较您的部署的配置数据与 Lync Server 的一组预定义的规则，并报告潜在问题。对于报告的每个问题，该工具提供 Lync Server 环境中的当前配置和推荐的配置。
+</div>
 
-通过正确的网络访问，该工具可以检查您的 AD DS 和正在运行 Lync Server 2013 的服务器以执行以下操作：
+<div>
 
-  - 主动执行运行状况检查，以验证是否按照建议的最佳做法设置配置
+## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>运行 Lync Server 2013 最佳做法分析器
 
-  - 生成问题列表，例如不够理想的配置设置或者不支持的或不推荐的选项
+Lync Server 2013 最佳做法分析器工具是一种诊断工具, 用于收集配置信息并确定是否根据 Microsoft 最佳做法设置配置。 此工具的文档位于[Lync Server 2013 最佳做法分析器](lync-server-2013-lync-server-best-practices-analyzer.md)中。
+
+该工具将部署的配置数据与 Lync Server 的一组预定义的规则进行比较, 并报告潜在问题。 对于报告的每个问题, 该工具都提供了 Lync Server 环境中的当前配置和推荐的配置。
+
+使用正确的网络访问, 该工具可以检查运行 Lync Server 2013 的 AD DS 和服务器, 以执行以下操作:
+
+  - 主动执行运行状况检查, 验证是否根据推荐的最佳做法设置了配置
+
+  - 生成问题列表, 如 "最优" 配置设置或不支持或不推荐的选项
 
   - 判断系统的常规运行状况
 
   - 帮助解决特定问题
 
-  - 提示您下载可用的更新
+  - 提示您下载更新 (如果有)
 
-  - 提供有关已报告问题的联机和本地文档，包括故障排除提示
+  - 提供有关报告问题的联机文档和本地文档, 包括疑难解答提示
 
-  - 生成可以捕获供以后查看的配置信息
+  - 生成可供将来查看的配置信息
 
-确保在所有 Lync Server 2013 服务器上安装 RTCBPA.msi 并生成周运行状况检查报告。请注意结果，如有必要请更正。
+确保 RTCBPA 已安装在所有 Lync Server 2013 服务器上, 并生成每周运行状况检查报告。 注意结果并更正错误 (如有必要)。
 
-## 查看 SLA 性能数字
+</div>
 
-检查上周的关键性能数据。根据 SLA 的要求查看性能。识别趋势和尚未达到预期目标的项目。
+<div>
 
-## 审阅 System Center Operations Manager 管理包和用户体验质量报告
+## <a name="review-sla-performance-figures"></a>查看 SLA 性能数据
 
-获取和审阅 Lync Server 2013 管理包和用户体验质量报告。
+检查上一周的关键性能数据。 根据 SLA 的要求查看性能。 确定未满足其目标的趋势和项目。
 
-## 为企业池生成和查看数据库报告
+</div>
+
+<div>
+
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>查看 System Center Operations Manager 管理包和体验报告质量
+
+获取和查看 Lync Server 2013 管理包和体验报告质量。
+
+</div>
+
+<div>
+
+## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a>生成和查看企业版池的数据库报告
 
 **生成池报告**
 
 1.  打开 Lync Server 2013。
 
-2.  在控制台树中，展开林节点，展开“企业池”，然后单击要为其生成数据库报告的池。
+2.  在控制台树中, 展开 "林" 节点, 展开 "**企业版池**", 然后单击要为其生成数据库报告的池。
 
-3.  在详细信息窗格中，单击“数据库”选项卡。
+3.  在 "详细信息" 窗格中, 单击 "**数据库**" 选项卡。
 
-4.  在“数据库”选项卡上，执行以下操作：
+4.  在 "**数据库**" 选项卡上, 执行下列操作:
     
-    1.  要查看数据库的名称，请展开“常规设置”并查看数据库名称。
+    1.  若要查看数据库的名称, 请展开 "**常规设置**", 然后查看数据库名称。
     
-    2.  要检索池的当前用户摘要统计信息，请展开“用户摘要报告”，单击“前往”并查看结果。
+    2.  若要检索池的当前用户汇总统计信息, 请展开 "**用户摘要报告**", 单击 "**转到**", 然后查看结果。
     
-    3.  要检索单个池用户的当前每用户数据，请展开“每用户报告”，键入用户的 SIP URI，单击“前往”并查看结果。
+    3.  若要检索池的单个用户的当前每用户数据, 请展开 "**每用户报告**", 键入用户的 SIP URI, 单击 "**转到**", 然后查看结果。
 
-要检索池的当前会议摘要统计信息，请展开“会议摘要报告”，单击“前往”并查看结果。
+若要检索池的当前会议摘要统计信息, 请展开 "**会议摘要" 报表**, 单击 "**转到**", 然后查看结果。
 
-对于每个企业池，管理员可以使用“数据库”选项卡查看数据库名称并从数据库检索和查看报告。
+对于每个企业版池, 管理员可以使用 "**数据库**" 选项卡查看数据库名称, 并从数据库中检索和查看报表。
 
-### 数据库报告和描述
+### <a name="database-reports-and-descriptions"></a>数据库报告和说明
 
 <table>
 <colgroup>
@@ -147,81 +203,80 @@ Lync Server 2013 最佳做法分析器工具是一种诊断工具，用于收集
 <tbody>
 <tr class="odd">
 <td><p>用户摘要报告</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>此部分显示有关池中的用户的聚合信息，例如启用的用户数、每个用户的平均联系人数以及特定功能的用户数。</p>
-<p>当使用这些报告时，以下信息可能有帮助：</p>
+<td><p>Dbanalyze/v/report:/sqlserver: value]</p>
+<p>此部分显示有关池中用户的聚合信息, 例如启用的用户数、每位用户的平均联系人数以及特定功能的用户数。</p>
+<p>使用这些报表时, 以下信息可能会有所帮助:</p>
 <ul>
-<li><p>启用的用户是指使用“Active Directory 用户和计算机”管理单元为其启用了 Lync Server 2013 的用户。</p></li>
-<li><p>活动用户是指已登录或注册的用户。</p></li>
-<li><p>该摘要报告还提供一组有关联系人的统计信息。这些统计信息仅对至少登录过一次和至少有一个联系人的用户群体有效。因此，您通常不会看到最小联系人数 0。由于这种行为，如果用户没有联系人（但是处于活动状态，即该用户已注册），那么您在某些统计字段中可能会看到：&lt;empty&gt;。</p></li>
+<li><p>已启用的用户是通过使用 Active Directory 用户和计算机管理单元启用 Lync Server 2013 的用户。</p></li>
+<li><p>活动用户是已登录或已注册的用户。</p></li>
+<li><p>摘要报告还提供了一组有关联系人的统计信息。 这些统计信息仅适用于至少已登录过一次且至少有一个联系人的用户的人口。 因此, 你通常看不到最少数量的联系人。 由于此行为, 如果用户没有联系人 (但在用户已注册的情况下处于活动状态), 您可能会看到: &lt;对于某些&gt;统计信息字段为空。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>每用户报告</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>与摘要报告不同，摘要报告是针对一个用户群体进行计算，而这些报告是针对特定用户。</p></td>
+<td><p>Dbanalyze/v/report: disk [/sqlserver: value]</p>
+<p>与通过用户填充计算的摘要报表不同, 这些报表是有关特定用户的报表。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会议摘要报告</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>此部分显示有关池的会议摘要统计的聚合信息，例如活动会议数和参与者总数。</p></td>
-</tr>
-<tr class="even">
-<td><p>用户摘要报告</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>此部分显示有关池中的用户的聚合信息，例如启用的用户数、每个用户的平均联系人数以及特定功能的用户数。</p>
-<p>当使用这些报告时，以下信息可能有帮助：</p>
-<ul>
-<li><p>启用的用户是指使用“Active Directory 用户和计算机”管理单元为其启用了 Lync Server 2013 的用户。</p></li>
-<li><p>活动用户是指已登录或注册的用户。</p></li>
-<li><p>该摘要报告还提供一组有关联系人的统计信息。这些统计信息仅对至少登录过一次和至少有一个联系人的用户群体有效。因此，您通常不会看到最小联系人数 0。由于这种行为，如果用户没有联系人（但是处于活动状态，即该用户已注册），那么您在某些统计字段中可能会看到：&lt;empty&gt;。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>每用户报告</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>与摘要报告不同，摘要报告是针对一个用户群体进行计算，而这些报告是针对特定用户。</p></td>
-</tr>
-<tr class="even">
-<td><p>会议摘要报告</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>此部分显示有关池的会议摘要统计的聚合信息，例如活动会议数和参与者总数。</p></td>
+<td><p>Dbanalyze/v/report: 会议 [/sqlserver: value]</p>
+<p>此部分显示有关池的会议摘要统计信息 (例如活动会议数和参与者总数) 的聚合信息。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 运行带宽用量分析器
+</div>
 
-带宽用量分析器工具可创建 UC 终结点跨企业网络中的 WAN 链接消耗的带宽的各种视图的报告。这些报告可用于了解当前带宽消耗模式并帮助进行带宽容量规划。它也统计分配给各个链接的带宽容量。
+<div>
+
+## <a name="running-bandwidth-utilization-analyzer"></a>运行带宽利用率分析器
+
+带宽用量分析器工具可创建有关企业网络中各个 WAN 链路上 UC 端点的带宽消耗的各种视图的报告。 这些报告可用于了解当前带宽使用模式, 并有助于进行带宽容量规划。 它还会循环访问分配给各个链路的带宽容量。
 
 此工具可执行以下操作：
 
-  - 针对网络上的音频利用率生成具体报告
+  - 通过网络生成特定于音频使用情况的报告
 
-  - 帮助更高效地进行容量规划并统计分配给各个链接的带宽容量
+  - 帮助更高效地进行容量规划并循环访问分配给各个链路的带宽容量
 
-带宽用量分析器可将带宽容量和用量报告绘制成图形。如下所示：
+带宽利用率分析器可生成带宽容量和使用情况报告的图形化图形。 它们如下所示:
 
-  - 企业网络中的所有 WAN 链接
+  - 企业网络中的所有 WAN 链路
 
-  - 按选中的 WAN 链接进行筛选
+  - 已选择的所选 WAN 链接进行筛选
 
-  - 按超过链接容量的 WAN 链接进行筛选
+  - 按已超过链路容量的 WAN 链路进行筛选
 
-  - 按用量低于设置的带宽的 WAN 链接进行筛选
+  - 使用预配带宽下的 WAN 链接进行筛选
 
-  - 按已达到严重级别（带宽用量大于 WAN 链接带宽容量的 90%）的 WAN 链接进行筛选
+  - 按关键级别的 WAN 链接进行筛选 (带宽使用率大于 WAN 链接带宽容量的 90%)
 
-  - 按 WAN 链接类型（网络站点链接、区域与区域间的链接以及站点内的链接）进行筛选
+  - 按 WAN 链接类型 (网络-网站链接、interregional 链接和网站内的链接) 进行筛选
 
   - 按网络区域进行筛选
 
-此工具的文档说明位于 [Lync Server 2013 资源工具包工具文档](https://technet.microsoft.com/zh-cn/library/jj945604\(v=ocs.15\))上。
+有关此工具的文档在[Lync Server 2013 资源工具包工具文档](http://go.microsoft.com/fwlink/?linkid=623245)中提供。
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[周任务清单](lync-server-2013-operations-checklists.md)
+## <a name="see-also"></a>另请参阅
+
+
+[每周任务清单](lync-server-2013-operations-checklists.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Exchange to Lync notifications'
+---
+title: 'Lync Server 2013: 测试与 Lync 通知的 Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Exchange to Lync notifications
 ms:assetid: ed2d6325-3cf5-4450-9951-03092bcb0a7c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn727315(v=OCS.15)
-ms:contentKeyID: 62388654
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727315(v=OCS.15)
+ms:contentKeyID: 63969665
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 3fba2f5ad22cb4a741192d5e4d51020b8c04cc39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845589"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Exchange to Lync notifications in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中测试与 Lync 通知的 Exchange
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-01_
 
 
 <table>
@@ -23,84 +43,114 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExStorageNotification</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行<strong>CsExStorageNotification</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsExStorageNotification** cmdlet is used to verify that the Microsoft Exchange Server 2013 notification service can notify Lync Server 2013 any time updates are made to a user's Contact List. This cmdlet is valid only if you are using the unified contact store.
+## <a name="description"></a>说明
 
-## Running the test
+**CsExStorageNotification** cmdlet 用于验证 Microsoft Exchange Server 2013 通知服务是否可以在每次更新用户的联系人列表时通知 Lync Server 2013。 仅当使用统一联系人存储时, 此 cmdlet 才有效。
 
-The command shown in Example 1 tests to see whether the Lync Server Storage Service can connect to the Microsoft Exchange Server mailbox notification service for the user sip:kenmyer@litwareinc.com. In this example, NetNamedPipe is used as the WCF binding.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+示例1测试中显示的命令可查看 Lync Server 存储服务是否可以连接到用户 sip:kenmyer@litwareinc.com 的 Microsoft Exchange Server 邮箱通知服务。 在此示例中, NetNamedPipe 用作 WCF 绑定。
 
     Test-CsExStorageNotification -SipUri "sip:kenmyer@litwareinc.com" -Binding "NetNamedPipe"
 
-## Determining success or failure
+</div>
 
-If Exchange integration is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果 Exchange 集成配置正确, 则会收到与此类似的输出, 结果属性标记为**成功**:
 
-Latency : 00:00:00
+目标 Fqdn: atl-cs-001.litwareinc.com
 
-Error Message :
+结果: 成功
 
-Diagnosis :
+延迟: 00:00:00
 
-If the specified user can't receive notifications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+错误消息:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果指定的用户无法接收通知, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+目标 Fqdn: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+结果: 失败
 
-did not properly respond after a period of time, or
+延迟: 00:00:00
 
-established connection failed because connected host has
+错误消息: 10060, 连接尝试失败, 因为已连接的参与方
 
-failed to respond 10.188.116.96:5061
+在一段时间后未正确响应, 或者
 
-Inner Exception:A connection attempt failed because the
+已建立连接失败, 因为连接的主机已
 
-connected party did not properly respond after a period of
+无法响应 10.188.116.96: 5061
 
-time, or established connection failed because connected host
+内部异常: 连接尝试失败, 因为
 
-has failed to respond 10.188.116.96:5061
+已连接方在一段时间后未正确响应
 
-Diagnosis :
+时间, 或已建立的连接失败, 因为已连接的主机
 
-## Reasons why the test might have failed
+无法响应 10.188.116.96: 5061
 
-Here are some common reasons why **Test-CsExStorageNotification** might fail:
+自检
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the Microsoft Exchange Server is misconfigured or not yet deployed.
+<div>
 
-## 另请参阅
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-#### 其他资源
+下面是**测试 CsExStorageNotification**可能失败的一些常见原因:
 
-[Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity)
+  - 提供的参数值不正确。 如果使用, 则必须正确配置可选参数, 否则测试将失败。 重新运行不带可选参数的命令, 并查看是否成功。
+
+  - 如果 Microsoft Exchange Server 配置错误或尚未部署, 此命令将失败。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExStorageConnectivity)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

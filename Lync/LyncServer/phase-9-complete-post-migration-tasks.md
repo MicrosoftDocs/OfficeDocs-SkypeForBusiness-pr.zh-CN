@@ -1,23 +1,45 @@
-﻿---
-title: 第 9 阶段：完成迁移后任务
-TOCTitle: 第 9 阶段：完成迁移后任务
-ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204642(v=OCS.15)
-ms:contentKeyID: 49311872
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: '第9阶段: 完成迁移后任务'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 9: Complete post-migration tasks'
+ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204642(v=OCS.15)
+ms:contentKeyID: 48183292
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0eb597f14481256dcd3487d31d4415bccca96647
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845122"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 第 9 阶段：完成迁移后任务
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-15_
+# <a name="phase-9-complete-post-migration-tasks"></a>第9阶段: 完成迁移后任务
 
-本节中的主题介绍在迁移到 Lync Server 2013 后将需要执行的任务。
+</div>
 
-## 本节内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-15_
+
+本节中的主题介绍完成迁移到 Lync Server 2013 后需要执行的任务。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [迁移响应组](migrate-response-groups_1.md)
 
@@ -29,7 +51,7 @@ _**上一次修改主题：** 2012-10-15_
 
   - [启用远程呼叫控制](enable-remote-call-control.md)
 
-  - [删除旧的存档和监控服务器](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [删除旧存档和监控服务器](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [迁移中介服务器](migrate-mediation-server.md)
 
@@ -41,5 +63,17 @@ _**上一次修改主题：** 2012-10-15_
 
   - [移动 Exchange 统一消息联系人对象](move-exchange-unified-messaging-contact-objects.md)
 
-  - [验证所有 Exchange UM 联系人对象是否已从旧池中删除](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [验证是否已从旧版池中删除所有 Exchange UM 联系人对象](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

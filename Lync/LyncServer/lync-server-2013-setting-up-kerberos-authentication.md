@@ -1,27 +1,49 @@
-﻿---
-title: Lync Server 2013：设置 Kerberos 身份验证
-TOCTitle: 设置 Kerberos 身份验证
-ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398976(v=OCS.15)
-ms:contentKeyID: 49314483
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：设置 Kerberos 身份验证
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Kerberos authentication
+ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)
+ms:contentKeyID: 48185601
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86526b40ee837866cdf0e3b016a8e4e627ca2eef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845890"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中设置 Kerberos 身份验证
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-21_
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中设置 Kerberos 身份验证
 
-Lync Server 2013 支持对 Web 服务进行 NTLM 和 Kerberos 身份验证。 Office Communications Server 2007 和 Office Communications Server 2007 R2 使用默认的 RTCComponentService 和 RTCService 作为运行 Web 服务应用程序池的用户帐户，以便允许服务主体名称 (SPN) 分配给用户帐户并充当身份验证主体。 Lync Server 使用 NetworkService 来运行 Web 服务，且不能将 SPN 分配给 NetworkService。
+</div>
 
-为了解决 Active Directory 对象未保留 SPN 的问题，Lync Server 控制面板 可以使用计算机帐户对象来实现此目的。计算机帐户对象可以保留 SPN，且不受密码过期影响，使用以前版本中的用户帐户时存在受密码过期影响的问题。
+<div id="mainSection">
 
-使用 Windows PowerShell cmdlet 将计算机对象配置为提供 Kerberos 身份验证。
+<div id="mainBody">
 
-## 本部分内容
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-21_
+
+Lync Server 2013 支持针对 Web 服务的 NTLM 和 Kerberos 身份验证。 Office 通信服务器2007和 Office 通信服务器 2007 R2 使用默认的 RTCComponentService 和 RTCService 作为运行 Web 服务应用程序池的用户帐户, 从而允许将服务主体名称 (SPN) 分配给用户帐户并充当身份验证主体。 Lync Server 使用 NetworkService 运行 Web 服务, 并且 NetworkService 无法为其分配 Spn。
+
+为了解决没有 Active Directory 对象保留 Spn 的问题, Lync Server 控制面板可以使用计算机帐户对象来实现此目的。 计算机帐户对象可以保留 Spn, 并且不受密码过期的限制, 这是使用以前版本中的用户帐户时遇到的问题。
+
+使用 Windows PowerShell cmdlet 配置计算机对象以提供 Kerberos 身份验证。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [在 Lync Server 2013 中启用 Kerberos 身份验证的先决条件](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
 
@@ -36,4 +58,16 @@ Lync Server 2013 支持对 Web 服务进行 NTLM 和 Kerberos 身份验证。 Of
   - [在 Lync Server 2013 中将 Kerberos 身份验证从站点中删除](lync-server-2013-remove-kerberos-authentication-from-a-site.md)
 
   - [在 Lync Server 2013 中测试和报告 Kerberos 身份验证的状态和分配](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: MonitoredUserSiteLink 表
-TOCTitle: MonitoredUserSiteLink 表
-ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398233(v=OCS.15)
-ms:contentKeyID: 49312115
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: MonitoredUserSiteLink 表
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: MonitoredUserSiteLink table
+ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398233(v=OCS.15)
+ms:contentKeyID: 48183508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5de189abc64271a915cfe88ae450dc349709e0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845188"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# MonitoredUserSiteLink 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink 表
 
-MonitoredUserSiteLink 表是一个支持表。每条记录代表两个用户站点之间的一个链接。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+MonitoredUserSiteLink 表是支持表。 每条记录表示两个用户网站之间的一个链接。
 
 
 <table>
@@ -37,15 +57,26 @@ MonitoredUserSiteLink 表是一个支持表。每条记录代表两个用户站�
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>引用自 <a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>从<a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>引用自 <a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>从<a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表</a>引用。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

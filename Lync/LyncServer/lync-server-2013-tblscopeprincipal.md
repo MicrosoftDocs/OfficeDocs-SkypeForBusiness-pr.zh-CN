@@ -1,23 +1,43 @@
-﻿---
+---
 title: Lync Server 2013：tblScopePrincipal
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblScopePrincipal
 ms:assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558639(v=OCS.15)
-ms:contentKeyID: 49312659
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558639(v=OCS.15)
+ms:contentKeyID: 48184009
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ece5ae542060835aefa05edb6e08b766293e2ac1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845714"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 tblScopePrincipal
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="tblscopeprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblScopePrincipal
 
-tblScopePrincipal 包含分配至节点的作用域。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-12_
+
+tblScopePrincipal 包含分配给节点的作用域。
+
+### <a name="columns"></a>多
 
 <table>
 <colgroup>
@@ -35,29 +55,29 @@ tblScopePrincipal 包含分配至节点的作用域。
 <tbody>
 <tr class="odd">
 <td><p>scopeNodeID</p></td>
-<td><p>int，不为 null</p></td>
-<td><p>作用域适用的节点 ID。</p></td>
+<td><p>int, not null</p></td>
+<td><p>作用域所适用的节点 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopePrinID</p></td>
-<td><p>int，不为 null</p></td>
+<td><p>int, not null</p></td>
 <td><p>主体 ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
-<td><p>bit，不为 null</p></td>
-<td><p>如果作用域的类型为 Deny，则为 True；如果作用域的类型为 Allow，则为 False。</p></td>
+<td><p>位, not null</p></td>
+<td><p>如果范围的类型为 "拒绝", 则为 True;如果允许, 则为 False。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeUpdatedBy</p></td>
-<td><p>int，不为 null</p></td>
-<td><p>上次更新此项的主体的 ID。</p></td>
+<td><p>int, not null</p></td>
+<td><p>上次更新此条目的主体的 ID。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### 键
+### <a name="keys"></a>标示
 
 <table>
 <colgroup>
@@ -77,12 +97,23 @@ tblScopePrincipal 包含分配至节点的作用域。
 </tr>
 <tr class="even">
 <td><p>scopeNodeID</p></td>
-<td><p>在 tblNode.nodeID 表中查找的外键。</p></td>
+<td><p>带有 tblNode 表中的 lookup 的外键。</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopePrinID</p></td>
-<td><p>在 tblPrincipal.prinID 表中查找的外键。</p></td>
+<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

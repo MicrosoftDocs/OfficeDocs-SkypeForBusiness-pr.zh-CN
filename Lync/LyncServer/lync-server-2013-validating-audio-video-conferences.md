@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Validating audio/video conferences'
+---
+title: 'Lync Server 2013: 验证音频/视频会议'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating audio/video conferences
 ms:assetid: 6c8c422a-d501-42cb-820b-b002f9b2250b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720915(v=OCS.15)
-ms:contentKeyID: 62246690
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720915(v=OCS.15)
+ms:contentKeyID: 63969615
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b0e608f0c765c4dd552645320ec947c7e8a54ac4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845397"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating audio/video conferences in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中验证音频/视频会议
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,134 +43,160 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="odd">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="even">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAVConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsAVConference cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsAVConference cmdlet checks whether two test users can participate in an audio/video (A/V) conference. When the cmdlet runs, the two users are logged on to the system. After they face successfully logged on, the first user creates an A/V conference, and then waits for the second user to join that conference. After a brief exchange of data, the conference is deleted and the two tests users are logged off.
+## <a name="description"></a>说明
 
-Note that Test-CsAVConference does not conduct an actual A/V conference between the two test users. Instead, the cmdlet verifies that the two users can make all the connections necessary to conduct such a conference.
+CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频 (A/V) 会议。 当 cmdlet 运行时, 两个用户登录到系统。 成功登录后, 第一个用户将创建一个/V 会议, 然后等待第二位用户加入该会议。 在数据的简短交换后, 会议将被删除, 并且两个测试用户已注销。
 
-Further examples for this command can be found at [Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference).
+请注意, CsAVConference 不会在两个测试用户之间进行实际的 A/V 会议。 相反, cmdlet 将验证两个用户是否可以建立执行此类会议所需的所有连接。
 
-## Running the test
+可在[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)中找到此命令的更多示例。
 
-The Test-CsAVConference cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+CsAVConference cmdlet 可以使用一对预配置的测试帐户运行 (请参阅设置运行 Lync Server 测试的测试帐户) 或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查, 只需指定正在测试的 Lync Server 池的 FQDN。 例如：
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when they call Test-CsAVConference:
+若要使用实际用户帐户运行此检查, 必须为每个帐户创建两个 Windows PowerShell 凭据对象 (包含帐户名和密码的对象)。 然后, 在调用 Test-CsAVConference 时, 必须包含两个帐户的凭据对象和 SIP 地址:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference) cmdlet.
+有关详细信息, 请参阅[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) Cmdlet 的帮助文档。
 
-## Determining Success or Failure
+</div>
 
-If the specified users can successfully complete an A/V conference, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果指定用户可以成功完成 A/V 会议, 你将收到类似于此的输出, 结果属性标记为 "成功" **:**
 
-Latency : 00:00:02.6841765
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟:00:00: 02.6841765
 
-If the users can not complete the conference, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+时发生
 
-TargetFqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果用户无法完成会议, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+结果: 失败
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+延迟: 00:00:00
 
-Reason=Destination URI either not enabled for SIP or does not
+错误: 404, 未找到
 
-exist.
+诊断: ErrorCode = 4005, Source = atl-cs-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+原因 = 没有为 SIP 启用目标 URI, 或者没有为其启用目标 URI
 
-For example, the previous output states that the test failed because at least one of the two user accounts was not valid, either because the account does not exist or because the account has not been enabled for Lync Server. You can verify the existence of the two test accounts, and whether they were enabled for Lync Server, by running a command similar to the following:
+并存.
+
+Microsoft DiagnosticHeader
+
+例如, 以前的输出表明由于帐户不存在或者帐户尚未为 Lync Server 启用, 导致测试失败的原因是两个用户帐户中的至少一个帐户无效。 你可以通过运行类似如下所示的命令来验证两个测试帐户是否存在, 以及是否为 Lync Server 启用了这些帐户:
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-If Test-CsAVConference fails, then you might want to rerun the test, this time including the Verbose parameter:
+如果 CsAVConference 失败, 则可能需要重新运行测试, 这一次包括 Verbose 参数:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included Test-CsAVConference will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in an AV conference. For example, suppose that your test fails and you receive the following Diagnosis:
+当包含 Verbose 参数时, CsAVConference 将返回在检查指定用户是否参与 AV 会议的能力时尝试的每个操作的分步帐户。 例如, 假设测试失败并收到以下诊断:
 
-ErrorCode=1008,Source=accessproxy.litwareinc.com,Reason=Unable to resolve DNS SRV record
+ErrorCode = 1008, Source = accessproxy, Reason = 无法解析 DNS SRV 记录
 
-If you rerun the test using the Verbose parameter, the step-by-step information returned will include output similar to this:
+如果使用 Verbose 参数重新运行测试, 返回的分步信息将包含类似以下内容的输出:
 
-VERBOSE: 'Register' activity started.
+详细: "注册" 活动已开始。
 
-Sending Registration request:
+正在发送注册请求:
 
-Target Fqdn = atl-cs-001.litwareinc.com
+目标 Fqdn = atl-cs-001.litwareinc.com
 
-User Sip Address = sip:davidlongmire@litwareinc.com
+用户 Sip 地址 = sip:davidlongmire@litwareinc.com
 
-Registrar Port = 5061.
+注册机构端口 = 5061。
 
-Auth Type 'Trusted' is selected.
+已选中 "受信任" 身份验证类型。
 
-'Register' activity started.
+"注册" 活动已开始。
 
-Sending Registration request:
+正在发送注册请求:
 
-Target Fqdn = atl-cs-001.litwareinc.com
+目标 Fqdn = atl-cs-001.litwareinc.com
 
-User Sip Address = sip:kenmyer@litwareinc.com
+用户 Sip 地址 = sip:kenmyer@litwareinc.com
 
-Registrar Port = 5061.
+注册机构端口 = 5061。
 
-Auth Type 'Trusted' is selected.
+已选中 "受信任" 身份验证类型。
 
-An exception 'The endpoint was unable to register. See the ErrorCode for specific reason.' occurred during Workflow
+"终结点无法注册" 异常。 有关特定原因, 请参阅错误代码。 ' 工作流期间发生
 
-The last line in that output indicates that the user sip:kenmyer@litwareinc.com was unable to register with Lync Server. That means that you should verify that the SIP address sip:kenmyer@litwareinc.com is valid, and that the associated user is enabled for Lync Server.
+该输出中的最后一行指示用户 sip:kenmyer@litwareinc.com 无法注册 Lync Server。 这意味着你应该验证 SIP 地址 sip:kenmyer@litwareinc.com 是否有效, 以及是否为 Lync Server 启用关联的用户。
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsAVConference might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsAVConference 可能失败的一些常见原因:
+
+  - 您指定的用户帐户无效。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - 用户帐户有效, 但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户, 请运行类似如下的命令:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.
+    如果 Enabled 属性设置为 False, 表示当前未对 Lync Server 启用用户。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

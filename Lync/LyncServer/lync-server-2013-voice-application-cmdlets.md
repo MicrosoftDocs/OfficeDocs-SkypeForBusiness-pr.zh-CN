@@ -1,229 +1,308 @@
-﻿---
-title: 语音应用程序 Cmdlet
-TOCTitle: 语音应用程序 Cmdlet
-ms:assetid: 0d73ace6-1185-484a-980a-4b3d63ba507b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415634(v=OCS.15)
-ms:contentKeyID: 49311989
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 语音应用程序 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Voice application cmdlets
+ms:assetid: 0d73ace6-1185-484a-980a-4b3d63ba507b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415634(v=OCS.15)
+ms:contentKeyID: 48183404
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 83ada9177e86c88349214d5d7191de15c4ecab81
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845284"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 语音应用程序 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="voice-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音应用程序 cmdlet
 
-语音应用程序可在前端服务器的应用程序服务上运行。这些应用程序通过允许寄存呼叫、处理未分配号码、与 Exchange 统一消息 (UM) 进行协调和运行响应组应用程序来帮助您管理传入和传出电话呼叫。
+</div>
 
-## 语音应用程序 Cmdlet
+<div id="mainSection">
 
-以下是用于处理语音应用程序的 cmdlet 列表：
+<div id="mainBody">
 
-**[呼叫寄存应用程序 Cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
+<span> </span>
 
-  -   
-    [Get-CsCallParkOrbit](get-cscallparkorbit.md)
+_**主题上次修改时间:** 2012-10-09_
 
-  -   
-    [New-CsCallParkOrbit](new-cscallparkorbit.md)
+语音应用程序在前端服务器上的应用程序服务上运行。 这些应用程序通过允许您停止呼叫、处理未分配的号码、与 Exchange 统一消息 (UM) 和运行响应组应用程序, 帮助您管理传入和传出电话呼叫。
 
-  -   
-    [Remove-CsCallParkOrbit](remove-cscallparkorbit.md)
+<div>
 
-  -   
-    [Set-CsCallParkOrbit](set-cscallparkorbit.md)
+## <a name="voice-application-cmdlets"></a>语音应用程序 Cmdlet
 
-  -   
-    [Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)
+下面是用于处理语音应用程序的 cmdlet 的列表:
 
-  -   
-    [Get-CsCpsConfiguration](get-cscpsconfiguration.md)
+**[在 Lync Server 2013 中调用寄存应用程序 cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
 
-  -   
-    [New-CsCpsConfiguration](new-cscpsconfiguration.md)
+  - <span></span>  
+    [CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
 
-  -   
-    [Remove-CsCpsConfiguration](remove-cscpsconfiguration.md)
+  - <span></span>  
+    [新-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
 
-  -   
-    [Set-CsCpsConfiguration](set-cscpsconfiguration.md)
+  - <span></span>  
+    [Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
 
-**[Exchange UM Cmdlet](lync-server-2013-exchange-um-cmdlets.md)**
+  - <span></span>  
+    [Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
 
-  -   
-    [Get-CsExUmContact](get-csexumcontact.md)
+<!-- end list -->
 
-  -   
-    [Move-CsExUmContact](move-csexumcontact.md)
+  - <span></span>  
+    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
 
-  -   
-    [New-CsExUmContact](new-csexumcontact.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsExUmContact](remove-csexumcontact.md)
+  - <span></span>  
+    [CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
 
-  -   
-    [Set-CsExUmContact](set-csexumcontact.md)
+  - <span></span>  
+    [新-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
 
-  - [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md)
+  - <span></span>  
+    [Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
 
-  - [Test-CsExStorageNotification](test-csexstoragenotification.md)
+  - <span></span>  
+    [Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
 
-  - [Test-CsExUMConnectivity](test-csexumconnectivity.md)
+**[Lync Server 2013 中的 Exchange UM cmdlet](lync-server-2013-exchange-um-cmdlets.md)**
 
-  - [Test-CsExUMVoiceMail](test-csexumvoicemail.md)
+  - <span></span>  
+    [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
 
-  -   
-    [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - <span></span>  
+    [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
-  -   
-    [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - <span></span>  
+    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
 
-  -   
-    [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+  - <span></span>  
+    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
-  -   
-    [Remove-CsHostedVoicemailPolicy](remove-cshostedvoicemailpolicy.md)
+  - <span></span>  
+    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
 
-  -   
-    [Set-CsHostedVoicemailPolicy](Set-CsHostedVoicemailPolicy.md)
+<!-- end list -->
 
-**[响应组应用程序 Cmdlet](lync-server-2013-response-group-application-cmdlets.md)**
+  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
 
-  -   
-    [Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsAgentGroup](new-csrgsagentgroup.md)
+  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
 
-  -   
-    [Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)
+<!-- end list -->
 
-  -   
-    [Set-CsRgsAgentGroup](set-csrgsagentgroup.md)
+  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
 
-  -   
-    [New-CsRgsAnswer](new-csrgsanswer.md)
+<!-- end list -->
 
-  -   
-    [Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
 
-  -   
-    [New-CsRgsCallAction](new-csrgscallaction.md)
+<!-- end list -->
 
-  -   
-    [Export-CsRgsConfiguration](export-csrgsconfiguration.md)
+  - <span></span>  
+    [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
 
-  -   
-    [Get-CsRgsConfiguration](get-csrgsconfiguration.md)
+  - <span></span>  
+    [授权-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
 
-  -   
-    [Import-CsRgsConfiguration](import-csrgsconfiguration.md)
+  - <span></span>  
+    [新-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
 
-  -   
-    [Move-CsRgsConfiguration](move-csrgsconfiguration.md)
+  - <span></span>  
+    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
 
-  -   
-    [Set-CsRgsConfiguration](set-csrgsconfiguration.md)
+  - <span></span>  
+    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
 
-  -   
-    [New-CsRgsHoliday](new-csrgsholiday.md)
+**[Lync Server 2013 中的响应组应用程序 cmdlet](lync-server-2013-response-group-application-cmdlets.md)**
 
-  -   
-    [Get-CsRgsHolidaySet](get-csrgsholidayset.md)
+  - <span></span>  
+    [CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
 
-  -   
-    [New-CsRgsHolidaySet](new-csrgsholidayset.md)
+  - <span></span>  
+    [新-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
 
-  -   
-    [Remove-CsRgsHolidaySet](remove-csrgsholidayset.md)
+  - <span></span>  
+    [Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
 
-  -   
-    [Set-CsRgsHolidaySet](set-csrgsholidayset.md)
+  - <span></span>  
+    [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
 
-  -   
-    [Get-CsRgsHoursOfBusiness](get-csrgshoursofbusiness.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+  - <span></span>  
+    [新-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
 
-  -   
-    [Remove-CsRgsHoursOfBusiness](remove-csrgshoursofbusiness.md)
+<!-- end list -->
 
-  -   
-    [Set-CsRgsHoursOfBusiness](set-csrgshoursofbusiness.md)
+  - <span></span>  
+    [Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
 
-  -   
-    [New-CsRgsPrompt](new-csrgsprompt.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsQuestion](new-csrgsquestion.md)
+  - <span></span>  
+    [新-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
 
-  -   
-    [Get-CsRgsQueue](get-csrgsqueue.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsQueue](new-csrgsqueue.md)
+  - <span></span>  
+    [Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))
 
-  -   
-    [Remove-CsRgsQueue](remove-csrgsqueue.md)
+  - <span></span>  
+    [CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))
 
-  -   
-    [Set-CsRgsQueue](set-csrgsqueue.md)
+  - <span></span>  
+    [Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))
 
-  -   
-    [New-CsRgsTimeRange](new-csrgstimerange.md)
+  - <span></span>  
+    [移动-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))
 
-  -   
-    [Get-CsRgsWorkflow](get-csrgsworkflow.md)
+  - <span></span>  
+    [Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))
 
-  -   
-    [New-CsRgsWorkflow](new-csrgsworkflow.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsRgsWorkflow](remove-csrgsworkflow.md)
+  - <span></span>  
+    [新-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
 
-  -   
-    [Set-CsRgsWorkflow](set-csrgsworkflow.md)
+<!-- end list -->
 
-**[未分配号码 Cmdlet](lync-server-2013-unassigned-number-cmdlets.md)**
+  - <span></span>  
+    [CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))
 
-  -   
-    [Get-CsUnassignedNumber](get-csunassignednumber.md)
+  - <span></span>  
+    [新-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))
 
-  -   
-    [New-CsUnassignedNumber](new-csunassignednumber.md)
+  - <span></span>  
+    [Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))
 
-  -   
-    [Remove-CsUnassignedNumber](remove-csunassignednumber.md)
+  - <span></span>  
+    [Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))
 
-  -   
-    [Set-CsUnassignedNumber](set-csunassignednumber.md)
+<!-- end list -->
 
-  -   
-    [Get-CsAnnouncement](get-csannouncement.md)
+  - <span></span>  
+    [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
 
-  -   
-    [New-CsAnnouncement](new-csannouncement.md)
+  - <span></span>  
+    [新-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
 
-  -   
-    [Remove-CsAnnouncement](remove-csannouncement.md)
+  - <span></span>  
+    [Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
 
-  -   
-    [Set-CsAnnouncement](set-csannouncement.md)
+  - <span></span>  
+    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))
 
-  -   
-    [Import-CsAnnouncementFile](import-csannouncementfile.md)
+<!-- end list -->
 
-## 另请参阅
+  - <span></span>  
+    [New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
 
-#### 概念
+<!-- end list -->
 
-[企业语音 Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+  - <span></span>  
+    [新-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
 
-#### 其他资源
+<!-- end list -->
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
+
+  - <span></span>  
+    [新-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [新-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
+
+  - <span></span>  
+    [新-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
+
+**[Lync Server 2013 中的未分配号码 cmdlet](lync-server-2013-unassigned-number-cmdlets.md)**
+
+  - <span></span>  
+    [Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
+
+  - <span></span>  
+    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+
+  - <span></span>  
+    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 中的企业语音 cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

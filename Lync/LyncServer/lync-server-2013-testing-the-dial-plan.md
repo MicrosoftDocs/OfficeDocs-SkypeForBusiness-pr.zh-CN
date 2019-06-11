@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the dial plan'
+---
+title: 'Lync Server 2013: 测试拨号计划'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn690130(v=OCS.15)
-ms:contentKeyID: 62281124
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
+ms:contentKeyID: 63969616
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845570"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the dial plan in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中测试拨号计划
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,76 +43,102 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsDialPlan cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number. Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls. Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.
+## <a name="description"></a>说明
 
-You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.
+CsDialPlan cmdlet 使你能够查看将拨号计划应用到给定电话号码的结果。 拨号计划提供有关如何应用规范化规则的信息, 从而使企业语音用户可以拨打电话。 在给定一个已拨号码和拨号计划后, 此 cmdlet 将验证将应用拨号计划中的哪个规范化规则以及已翻译的号码。
 
-## Running the test
+你可以使用此 cmdlet 解决数字翻译的问题, 或验证如何对某些号码应用规则。
 
-The Test-CsDialPlan cmdlet requires you to do two things. First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet. Second, you must specify the phone number that has to be normalized. The format that is used for the phone number should match the number as dialed/entered by a user. For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+CsDialPlan cmdlet 要求你执行两个操作。 首先, 您必须获取正在测试的拨号计划的实例;可使用 CsDialPlan cmdlet 执行此操作。 其次, 您必须指定必须规范化的电话号码。 电话号码所用的格式应与用户拨打/输入的号码相匹配。 例如, 此命令检索拨号计划的实例 RedmondDialPlan, 并检查电话号码12065551219是否可以正常化:
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:
+如果你具有自动添加国家/地区代码 (在本例中为 1) 和区号 (206) 的规范化规则, 则你可能需要检查电话号码 5551219, 如下所示:
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialPlan) cmdlet.
+有关详细信息, 请参阅[CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) Cmdlet 的帮助文档。
 
-## Determining success or failure
+</div>
 
-Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed. When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+Test-CsDialPlan 不同于许多 Lync Server 测试 cmdlet, 因为它仅间接指示测试是成功还是失败。 使用 Test-CsDialPlan 时, 您不会收到与此类似的输出结果, 并明确标记结果:
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟:00:00: 06.8630376
 
-Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:
+时发生
 
-TranslatedNumber : +12065551219
+自检
 
-MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;
+相反, 如果 CsDialPlan 成功, 则你将收到有关能够成功转换和使用指定电话号码的规范化规则的信息:
 
-Name=Prefix All; IsInternalExtension=False
+TranslatedNumber: + 12065551219
 
-If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:
+MatchingRule: Description =;模式 = ^ (\\d (11)) $;转换 = + $ 1;
+
+Name = Prefix All;IsInternalExtension = False
+
+如果测试 CsDialPlan 失败 (即, 如果拨号计划没有可以翻译指定电话号码的规范化规则), 您将只收到 "empty" 输出, 如下所示:
 
 TranslatedNumber :
 
 MatchingRule :
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsDialPlan might fail:
+<div>
 
-  - You might have used an incorrect format when specifying the phone number. Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user. Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial. For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsDialPlan 可能失败的一些常见原因:
+
+  - 在指定电话号码时, 您可能使用了不正确的格式。 拨号计划包括允许 Lync Server 转换用户拨打或输入的电话号码的规范化规则。 因此, 您的拨号计划应具有与用户可能拨打的号码相匹配的规范化规则。 例如, 如果用户可能先拨打国家/地区代码、区号, 然后拨打电话号码, 则表示您的拨号计划应具有用于处理电话号码的规范化规则, 如下所示:
     
     12065551219
     
-    However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail. That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.
+    但是, 如果输入错误的电话号码 (例如, 退出最终数字), 则 CsDialPlan 将失败。 这是因为拨号计划有问题, 但您输入的电话号码不能解释。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

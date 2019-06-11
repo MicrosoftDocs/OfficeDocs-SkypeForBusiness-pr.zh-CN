@@ -1,23 +1,43 @@
-﻿---
+---
 title: Lync Server 2013：tblConfig
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblConfig
 ms:assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558663(v=OCS.15)
-ms:contentKeyID: 49313257
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558663(v=OCS.15)
+ms:contentKeyID: 48184515
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 745b8a1894ebca821474afdb82284fcf6bb09eb9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845739"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 tblConfig
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="tblconfig-in-lync-server-2013"></a>Lync Server 2013 中的 tblConfig
 
-tblConfig 包含一些不支持 持久聊天服务器的配置（这些配置位于一个行中）。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-12_
+
+tblConfig 包含一些持久聊天服务器不支持的配置, 其中一行。
+
+### <a name="columns"></a>多
 
 <table>
 <colgroup>
@@ -35,8 +55,8 @@ tblConfig 包含一些不支持 持久聊天服务器的配置（这些配置位
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255)，不为 null</p></td>
-<td><p>包含“池”。</p></td>
+<td><p>nvarchar (255), not null</p></td>
+<td><p>包含&quot;池。&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>
@@ -45,14 +65,14 @@ tblConfig 包含一些不支持 持久聊天服务器的配置（这些配置位
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
-<td><p>GUID，不为 null</p></td>
+<td><p>GUID, not null</p></td>
 <td><p>数据库实例的唯一 ID。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### 键
+### <a name="key"></a>关键字
 
 <table>
 <colgroup>
@@ -72,4 +92,15 @@ tblConfig 包含一些不支持 持久聊天服务器的配置（这些配置位
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

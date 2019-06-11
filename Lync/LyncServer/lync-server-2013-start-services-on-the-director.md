@@ -1,31 +1,65 @@
-﻿---
-title: Lync Server 2013：在控制器上启动服务
-TOCTitle: 在控制器上启动服务
-ms:assetid: 095b13e1-e788-4b80-93fa-5c5e7498678b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398146(v=OCS.15)
-ms:contentKeyID: 49311939
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：在控制器上启动服务
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Start services on the Director
+ms:assetid: 095b13e1-e788-4b80-93fa-5c5e7498678b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398146(v=OCS.15)
+ms:contentKeyID: 48183351
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3716d53951c662ec4df7e634aa5548bc8cd72b4b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845802"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中的控制器上启动服务
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-08_
+# <a name="start-services-on-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中的控制器上启动服务
 
-在控制器上安装本地配置存储、Lync Server 组件并配置证书后，必须启动该服务器上的 Lync Server 服务。可以使用以下过程来启动部署中每个控制器上的服务。
+</div>
 
-## 启动控制器上的服务
+<div id="mainSection">
 
-1.  在 Lync Server 部署向导的“Lync Server 2013”页面上，单击“步骤 4：启动服务”旁边的“运行”按钮。
+<div id="mainBody">
 
-2.  在“启动服务”页上，单击“下一步”以启动服务器上的 Lync Server 服务。
+<span> </span>
 
-3.  在“正在执行命令”页上，成功启动所有服务后，单击“完成”。
+_**主题上次修改时间:** 2012-09-08_
 
-4.  在“步骤 4: 启动服务”下，单击“服务状态（可选）”。
+在安装本地配置存储、安装 Lync 服务器组件以及配置 Director 上的证书后, 必须在服务器上启动 Lync Server 服务。 你可以使用以下过程在你的部署中的每个控制器上启动服务。
 
-5.  在服务器上的“服务”Microsoft 管理控制台 (MMC) 中，确认所有 Lync Server 2013 服务都在运行。
+<div>
+
+## <a name="to-start-services-on-a-director"></a>在控制器上启动服务
+
+1.  在 Lync Server 部署向导的 " **Lync server 2013** " 页面上, 单击 "**步骤 4: 启动服务**" 旁边的 "**运行**" 按钮。
+
+2.  在 "**启动服务**" 页面上, 单击 "**下一步**" 以启动服务器上的 Lync Server 服务。
+
+3.  在“**正在执行命令**”页上，成功启动所有服务后，单击“**完成**”。
+
+4.  在**步骤 4: 启动 "服务**" 下, 单击 "**服务状态" (可选)**。
+
+5.  在服务器上的 "**服务**Microsoft 管理控制台" (MMC) 中, 验证所有 Lync server 2013 服务是否正在运行。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

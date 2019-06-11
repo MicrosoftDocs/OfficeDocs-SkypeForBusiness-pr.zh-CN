@@ -1,33 +1,67 @@
-﻿---
-title: Lync Server 2013：测试控制器
-TOCTitle: 测试控制器
-ms:assetid: 9627a7e2-28cc-429c-b79b-7c7a27573bb7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398767(v=OCS.15)
-ms:contentKeyID: 49313660
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：测试控制器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test the Director
+ms:assetid: 9627a7e2-28cc-429c-b79b-7c7a27573bb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398767(v=OCS.15)
+ms:contentKeyID: 48184856
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f889d548ddc9b177113aa3e395ac181095de8008
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845629"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中测试控制器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-08_
+# <a name="test-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中测试控制器
 
-在此阶段，配置了控制器或控制器池，但域名系统 (DNS) SRV 条目仍将客户端指向通过池或 Standard Edition Server 登录。在更改 DNS 记录以使用控制器使 Lync 2013 客户端自动登录之前，可通过手动将客户端指向控制器来测试该客户端。
+</div>
 
-## 测试部署
+<div id="mainSection">
 
-1.  使用属于 **CSAdministrator** 组的域帐户登录到已安装 Lync Server 控制面板的计算机。
+<div id="mainBody">
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<span> </span>
 
-3.  在导航窗格中，单击“拓扑”，并在“状态”列中确认控制器或控制器池中存在带有箭头的绿色服务器（即 ![带绿色箭头的服务器图标](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "带绿色箭头的服务器图标")）。
+_**主题上次修改时间:** 2012-09-08_
 
-4.  连接两台已安装 Lync Server 2013 客户端的客户端计算机，并使用已启用 Lync Server 2013 的其他用户帐户登录到每台计算机。
+在此阶段, 你配置了 Director 或控制器池, 但域名系统 (DNS) SRV 条目仍指向客户使用池或标准版服务器登录。 在更改 DNS 记录以使 Lync 2013 客户通过使用控制器自动登录时, 请通过将客户端手动指向 Director 来测试客户端。
 
-5.  在其中一台客户端计算机上，单击“选项”菜单，选择“个人”设置组，再依次单击“高级”和“手动配置”，然后将“内部服务器名称或 IP 地址”设置为新的控制器或控制器池的完全限定域名 (FQDN)。
+<div>
 
-6.  登录到这两个客户端，并确认使用控制器登录的客户端能够成功登录、查看其他用户的状态以及交换即时消息。
+## <a name="to-test-the-deployment"></a>测试部署
+
+1.  使用**CSAdministrator**组中包含的域帐户登录到安装了 Lync Server 控制面板的计算机。
+
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+
+3.  在导航窗格中, 单击 "**拓扑**", 然后在 "**状态**" 列中确认有一个绿色服务器, 其中包含一个箭头 (即带有绿色(images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "箭头")的带有绿色箭头的![服务器]图标), 用于你的 director 或控制器池。
+
+4.  将安装了 Lync Server 2013 客户端的两台客户端计算机连接到每台计算机上启用了 Lync Server 2013 的不同用户帐户。
+
+5.  在其中一个客户端计算机上, 单击 "**选项**" 菜单, 选择 "**个人**设置" 组, 单击 "**高级**", 单击 "**手动配置**", 然后将**内部服务器名称或 IP 地址**设置为完全限定的新控制器或控制器池的域名 (FQDN)。
+
+6.  登录到这两个客户端, 验证通过使用 Director 登录的客户端是否能够成功登录、查看其他用户的状态以及他们是否可以交换即时消息。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

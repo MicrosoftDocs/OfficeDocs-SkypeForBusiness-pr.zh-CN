@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to connect to a federated domain'
+---
+title: 'Lync Server 2013: 用于连接到联盟域的测试能力'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to connect to a federated domain
 ms:assetid: d8ccfade-ef54-47a4-9f87-36213a635ce5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn743840(v=OCS.15)
-ms:contentKeyID: 62279339
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743840(v=OCS.15)
+ms:contentKeyID: 63969653
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2176008e3e941068f61a2fb385fa6230df6b25dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845611"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to connect to a federated domain from Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>从 Lync Server 2013 连接到联盟域的测试能力
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,96 +43,122 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsFederatedPartner cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner. To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains. You can retrieve a list of the domains on your allowed domains list by using this command:
+## <a name="description"></a>说明
+
+测试 CsFederatedPartner 验证您是否能够连接到联盟伙伴的域。 若要验证与域的连接, 该域必须在允许 (联合) 域的集合中列出。 您可以使用以下命令检索 "允许的域" 列表中的域列表:
 
     Get-CsAllowedDomain
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+有关详细信息, 请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
 
-## Running the test
+</div>
 
-The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner. For example, this command tests the ability to connect to the domain contoso.com:
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+FederatedPartner cmdlet 需要两条信息: Edge 服务器的 FQDN 和联盟伙伴的 FQDN。 例如, 此命令测试连接到域 contoso.com 的能力:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-This command enables you to test the connections to all the domains currently on your allowed domains list:
+通过此命令, 你可以测试与当前在允许的域列表中的所有域的连接:
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+有关详细信息, 请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
 
-## Determining success or failure
+</div>
 
-If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果可以联系指定的域, 你将收到与以下内容类似的输出: 结果属性标记为**成功:**
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟: 00:00:00
 
-If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+时发生
 
-TargetFqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果无法联系指定域, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 504, Server time-out
+结果: 失败
 
-Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See
+延迟: 00:00:00
 
-response code and reason phrase.
+错误: 504, 服务器超时
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+诊断: ErrorCode = 2, Source = atl-litwareinc, Reason = 请参阅
 
-For example, the previous output states that the test failed because of a server time-out error. This typically indicates either network connectivity problems or problems contacting the Edge Server.
+响应代码和原因短语。
 
-If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:
+Microsoft DiagnosticHeader
+
+例如, 以前的输出表明测试因服务器超时错误而失败。 这通常表示网络连接问题或联系边缘服务器时出现问题。
+
+如果 CsFederatedPartner 失败, 则可能需要重新运行测试, 这一次包括 Verbose 参数:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsFederatedPartner might fail:
+<div>
 
-  - The Edge Server might not be available. You can the FQDNs of your Edge Servers by using this command:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsFederatedPartner 可能失败的一些常见原因:
+
+  - 边缘服务器可能不可用。 你可以使用以下命令来使用 Edge 服务器的 Fqdn:
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    You can then ping each Edge Server to verify that it can be accessed over the network. For example:
+    然后, 你可以 ping 每台边缘服务器以验证是否可以通过网络访问它。 例如：
     
         ping atl-edge-001.litwareinc.com
 
-  - The specified domain might not be listed on the allowed domains list. To verify the domains that were added to the allowed domains list, use this command:
+  - 指定域可能未在 "允许的域" 列表中列出。 若要验证已添加到 "允许的域" 列表中的域, 请使用以下命令:
     
         Get-CsAllowedDomain
     
-    If you’d like to see a list of domains that users were blocked from communicating with, then use this command:
+    如果你想要查看阻止用户与之通信的域的列表, 请使用以下命令:
     
         Get-CsBlockedDomain
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

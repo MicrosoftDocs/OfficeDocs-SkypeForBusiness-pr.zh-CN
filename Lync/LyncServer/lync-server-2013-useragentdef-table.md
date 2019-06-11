@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013 中的 UserAgentDef 表
-TOCTitle: Lync Server 2013 中的 UserAgentDef 表
-ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205100(v=OCS.15)
-ms:contentKeyID: 49313663
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: UserAgentDef 表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserAgentDef table
+ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
+ms:contentKeyID: 48184860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845468"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 UserAgentDef 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="useragentdef-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgentDef 表
 
-UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用户代理是用来连接到 Microsoft Lync Server 2013 的软件客户端。此表是在 Microsoft Lync Server 2013 中引入的。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-03-25_
+
+UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Microsoft Lync Server 2013 的软件客户端。 此表是在 Microsoft Lync Server 2013 中引入的。
 
 
 <table>
@@ -48,12 +68,12 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>个</p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>utf-16</p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -64,52 +84,52 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>MM</p></td>
-<td><p>MM</p></td>
+<td><p>分钟</p></td>
+<td><p>分钟</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>MM</p></td>
+<td><p>分钟</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Attendant</p></td>
-<td><p>Attendant</p></td>
+<td><p>助理</p></td>
+<td><p>助理</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>CAS</p></td>
+<td><p>Conferencing_Announcement_Service_ 1。0</p></td>
+<td><p>而言</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_1.0</p></td>
+<td><p>Conferencing_Attendant_ 1。0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_1.0</p></td>
+<td><p>Conference_Auto_Attendant_ 1。0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>RG</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_1.0</p></td>
-<td><p>CPS</p></td>
+<td><p>Call_Park_Service_ 1。0</p></td>
+<td><p>方面</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>AS</p></td>
+<td><p>方式</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft.Rtc.Applications.Ccs</p></td>
+<td><p>Microsoft Ccs</p></td>
 <td><p>CCS</p></td>
 </tr>
 <tr class="odd">
@@ -144,8 +164,8 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ST</p></td>
-<td><p>ST</p></td>
+<td><p>短期</p></td>
+<td><p>短期</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -184,8 +204,8 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>PCS</p></td>
-<td><p>PCS</p></td>
+<td><p>笔记本电脑</p></td>
+<td><p>笔记本电脑</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -219,8 +239,8 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 </tr>
 <tr class="even">
 <td><p>32769</p></td>
-<td><p>Gateway</p></td>
-<td><p>Gateway</p></td>
+<td><p>网关</p></td>
+<td><p>网关</p></td>
 </tr>
 <tr class="odd">
 <td><p>32770</p></td>
@@ -229,4 +249,15 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。用�
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

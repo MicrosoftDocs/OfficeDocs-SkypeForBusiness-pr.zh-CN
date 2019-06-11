@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN phone call routing'
+---
+title: 'Lync Server 2013: 测试 PSTN 电话呼叫路由'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn727302(v=OCS.15)
-ms:contentKeyID: 62388640
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
+ms:contentKeyID: 63969598
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: faa6bfe178397ab474c1bcd8edc21107faff8dc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845582"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN phone call routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫路由
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-01_
 
 
 <table>
@@ -23,38 +43,48 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsInterTrunkRouting</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行<strong>CsInterTrunkRouting</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsInterTrunkRouting** cmdlet verifies that calls can be routed from one SIP to another. To do this, the cmdlet is given a phone number and a trunk configuration. **Test-CsInterTrunkRouting** will then report back matching routes and matching PSTN usages for the specified number. Note that calls can be routed between trunks only if the trunks have a number pattern that matches the specified phone number and only if the trunks share at least one PSTN usage.
+## <a name="description"></a>说明
 
-## Running the test
+**CsInterTrunkRouting** cmdlet 验证呼叫是否可以从一个 SIP 路由到另一个 SIP。 为此, 将为 cmdlet 提供一个电话号码和一个中继配置。 然后, **CsInterTrunkRouting**将为指定的号码报告返回匹配的路由和匹配的 PSTN 用法。 请注意，仅当中继具有匹配指定电话号码的号码模式并且中继至少共享一个 PSTN 用法时，才能在中继之间进行路由。
 
-The commands shown below return the matching routes and matching phone usages that enable users to call the phone number 1-206-555-1219 using the trunk configuration settings for the Redmond site.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+下面显示的命令返回匹配的路由和匹配的手机用法, 使用户能够使用 Redmond 网站的干线配置设置呼叫电话号码1-206-555-1219。
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
     Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219" -TrunkConfiguration $trunk
 
-## Determining success or failure
+</div>
 
-If calls can be routed from one SIP to another, you'll receive output similar to this:
+<div>
+
+## <a name="determining-success-or-failure"></a>确定成功还是失败
+
+如果可以将呼叫从一个 SIP 路由到另一个 SIP, 您将收到如下输出:
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -62,42 +92,62 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-If the test did not succeed, you'll receive output similar to this:
+如果测试不成功, 你将收到类似以下内容的输出:
 
-Test-CsInterTrunkRouting : Cannot process argument transformation on parameter
+测试-CsInterTrunkRouting: 无法处理参数上的参数转换
 
-'TrunkConfiguration'. Invalid TrunkConfigurationsetting (parameter). Specify a
+'TrunkConfiguration'. 无效的 TrunkConfigurationsetting (参数)。 指定一个
 
-valid setting (parameter) and then try again.
+有效设置 (参数), 然后重试。
 
-At line:1 char:79
+位于第一行: 1 个字符:79
 
-\+ Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219"
+\+Test-CsInterTrunkRouting-TargetNumber "电话: + 12065551219"
 
-\-TrunkConfiguration $t ...
+\-TrunkConfiguration $t .。。
 
 \+
 
 ~~
 
-\+ CategoryInfo : InvalidData: (:) \[Test-CsInterTrunkRouting\], Par
+\+CategoryInfo: InvalidData: (:)\[CsInterTrunkRouting\]、Par
 
 ameterBindingArgumentTransformationException
 
-\+ FullyQualifiedErrorId : ParameterArgumentTransformationError,Microsoft.R
+\+FullyQualifiedErrorId: ParameterArgumentTransformationError, Microsoft。
 
-tc.Management.Voice.Cmdlets.TestOcsInterTrunkRoutingCmdlet
+tc。TestOcsInterTrunkRoutingCmdlet 的管理
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsInterTrunkRouting** might fail:
+<div>
 
-  - You specified invalid parameters. The trunk might not yet be correctly configured and the specified target number might be incorrect or invalid.
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-## 另请参阅
+下面是**测试 CsInterTrunkRouting**可能失败的一些常见原因:
 
-#### 其他资源
+  - 您指定的参数无效。 主干可能尚未正确配置, 并且指定的目标号码可能不正确或无效。
 
-[Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk)  
-[Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[New-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

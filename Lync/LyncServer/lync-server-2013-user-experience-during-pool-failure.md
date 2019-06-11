@@ -1,41 +1,67 @@
-﻿---
-title: 池故障期间的 Lync Server 2013 用户体验
-TOCTitle: 池故障期间的用户体验
-ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205184(v=OCS.15)
-ms:contentKeyID: 49313983
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 在池故障期间使用 Lync Server 2013 用户体验
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User experience during pool failure
+ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
+ms:contentKeyID: 48185166
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845491"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中池故障期间的用户体验
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Lync Server 2013 中池失败期间的用户体验
 
-如果对池进行故障转移，则会强制受影响池的所有用户注销后登录备份池。登录到备份池的用户在短时间内可能会处于恢复能力模式。在恢复能力模式下，用户无法执行将导致 Lync Server 上发生永久性更改的任务（如添加联系人）。故障转移完成后，所有用户均可从备份池获得所有服务。
+</div>
 
-池失败时，将中断用户具有的任何会话，用户必须在故障转移后重新建立这些会话才能继续。
+<div id="mainSection">
 
-故障转移或故障回复期间，不能重新连接用户。位于失败的池上的用户将由备份池临时提供服务。当主池还原后，管理员可以将这些用户恢复为由其原始主池提供服务。
+<div id="mainBody">
 
-请注意，在 Lync 2013 中，不会将位置信息服务器数据库复制到备份池中。作为最佳做法，管理员应定期备份 LIS 数据库，并在故障转移后使用最新备份副本在备份池中还原 LIS 数据库。
+<span> </span>
 
-## 故障转移期间的用户体验
+_**主题上次修改时间:** 2012-10-03_
 
-如果某用户所在的池失败，则该用户将被注销。该用户所参与的任何对等会话将被终止，该用户组织的会议也将被终止。在注册器恢复能力计时器过期或管理员启动故障转移过程之前（以先发生的为准），该用户将无法重新登录。当用户重新登录时，将会登录到备份池。如果他们在故障转移完成前登录，则在故障转移完成前，他们将一直处于恢复能力模式。只有在故障转移完成之后，用户才能建立新会话或重新建立之前的会话。
+如果池发生故障转移, 则受影响的池的所有用户都被强制注销, 然后登录到备份池中。 登录到备份池的用户在短时间内可能会处于恢复能力模式。 在复原模式下, 用户无法执行会导致 Lync 服务器的持久更改 (如添加联系人) 的任务。 故障转移完成后，所有用户均可从备份池获得所有服务。
 
-## 故障回复期间的用户体验
+用户在池失败时拥有的任何会话都会中断, 用户必须在故障转移后重新建立这些会话才能继续。
 
-当受影响的用户登录到备份池时，可能会发生池故障回复，用户在故障回复期间将保持登录并正常运行。请注意，故障回复过程需要几分钟的时间才能完成。作为参考，对于用户数为 20,000 的池而言，预期最多需要 60 分钟。
+故障转移或故障回复期间，不能重新连接用户。 位于失败的池上的用户将由备份池临时提供服务。 还原主池时, 管理员可以通过其原始主池对这些用户进行服务故障回复。
 
-下表显示了有关故障回复期间及之后具有 Lync 2013 客户端或 Microsoft Lync 2010 客户端的用户如何受到影响的更多详细信息，以及其他池中的用户如何查看处于故障回复池中的用户并与之交互。直到前端池完全故障回复时，具有 Microsoft Office Communicator 2007 R2 客户端的用户才可以登录。
+注意在 Lync 2013 中, 位置信息服务器数据库不会复制到备份池中。 作为最佳做法，管理员应定期备份 LIS 数据库，并在故障转移后使用最新备份副本在备份池中还原 LIS 数据库。
 
-术语 *受影响用户* 指从主池进行故障转移并由备份池提供服务的用户。根据定义，原来位于备份池上的任何用户不是受影响用户。
+<div>
 
-### 受影响用户在故障回复池中的用户体验
+## <a name="user-experience-during-failover"></a>故障转移期间的用户体验
+
+当用户处于失败的池中时, 用户已注销。用户参与的任何对等会话将被终止, 就像该用户组织的会议一样。 在注册器恢复能力计时器过期或管理员启动故障转移过程之前（以先发生的为准），该用户将无法重新登录。 当用户重新登录时，将会登录到备份池。 如果他们在故障转移完成前登录，则在故障转移完成前，他们将一直处于恢复能力模式。 只有用户可以建立新的会话或重新建立以前的会话。
+
+</div>
+
+<div>
+
+## <a name="user-experience-during-failback"></a>故障回复期间的用户体验
+
+当受影响的用户登录到备份池时，可能会发生池故障回复，用户在故障回复期间将保持登录并正常运行。 请注意, 故障回复过程需要几分钟才能完成。作为参考，对于用户数为 20,000 的池而言，预期最多需要 60 分钟。
+
+下表显示了有关如何在故障回复期间和之后影响 Lync 2013 客户端或 Microsoft Lync 2010 客户端的更多详细信息, 以及其他池中的用户如何在故障回复的池中查看和与用户进行交互。 只有当前端池完全失败后, Microsoft Office Communicator 2007 R2 客户端的用户才能登录。
+
+术语*受影响用户*指从主池进行故障转移并由备份池提供服务的用户。 根据定义, 任何最初驻留在备份池中的用户不是受影响的用户。
+
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a>受影响用户在故障回复池中的用户体验
 
 <table>
 <colgroup>
@@ -95,7 +121,7 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-### 在其他池的故障回复期间位于不受影响池的用户的用户体验
+### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a>在其他池的故障回复期间位于不受影响池的用户的用户体验
 
 <table>
 <colgroup>
@@ -133,4 +159,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

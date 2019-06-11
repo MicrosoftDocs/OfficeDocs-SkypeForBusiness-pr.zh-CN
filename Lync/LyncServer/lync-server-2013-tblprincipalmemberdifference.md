@@ -1,23 +1,43 @@
-﻿---
+---
 title: Lync Server 2013：tblPrincipalMemberDifference
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMemberDifference
 ms:assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558612(v=OCS.15)
-ms:contentKeyID: 49311964
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558612(v=OCS.15)
+ms:contentKeyID: 48183379
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f5db403431c182e3f5bb8e7a3fabaa04cd2a94d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845724"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 tblPrincipalMemberDifference
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalMemberDifference
 
-PrincipalMemberDifference 包含尚未通过随后的 Active Directory 域服务 同步步骤处理的组成员身份更改（添加的和删除的成员）信息。
+</div>
 
-### 列
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-12_
+
+tblPrincipalMemberDifference 包含后续 Active Directory 域服务同步步骤尚未处理的组成员身份更改 (添加和删除的成员)。
+
+### <a name="columns"></a>多
 
 <table>
 <colgroup>
@@ -35,8 +55,8 @@ PrincipalMemberDifference 包含尚未通过随后的 Active Directory 域服务
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID，不为 null</p></td>
-<td><p>更改的组的主体 GUID。</p></td>
+<td><p>GUID, not null</p></td>
+<td><p>已更改的组的主体 GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
@@ -45,14 +65,14 @@ PrincipalMemberDifference 包含尚未通过随后的 Active Directory 域服务
 </tr>
 <tr class="odd">
 <td><p>memberRemoved</p></td>
-<td><p>bit，不为 null</p></td>
-<td><p>在添加成员时，设置为 False。在删除成员时，设置为 True。</p></td>
+<td><p>位, not null</p></td>
+<td><p>如果添加了成员, 则为 False。 如果删除了该成员, 则为 True。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### 按键
+### <a name="key"></a>关键字
 
 <table>
 <colgroup>
@@ -72,4 +92,15 @@ PrincipalMemberDifference 包含尚未通过随后的 Active Directory 域服务
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

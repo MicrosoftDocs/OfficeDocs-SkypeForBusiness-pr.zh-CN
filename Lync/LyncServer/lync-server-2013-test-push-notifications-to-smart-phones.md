@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test push notifications to smart phones'
+---
+title: 'Lync Server 2013: 测试将推送通知发送到智能手机'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test push notifications to smart phones
 ms:assetid: 8f5ca7d1-1ccb-4cb0-b417-730559e79b6e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn767948(v=OCS.15)
-ms:contentKeyID: 62486236
-ms.date: 03/16/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767948(v=OCS.15)
+ms:contentKeyID: 63969626
+ms.date: 03/15/2017
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 3a0d58c79fcd66229ffda43fa60ab99cedc308ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845651"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test push notifications to smart phones in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2017-03-15_
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>在 Lync Server 2013 中测试指向智能电话的推送通知
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2017-03-15_
 
 
 <table>
@@ -23,107 +43,133 @@ _**上一次修改主题：** 2017-03-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>验证计划</p></td>
+<td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxPushNotification cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsMcxPushNotification cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The push notification service (Apple Push Notification Service and Microsoft Push Notification Service) can send notifications about events such as new instant messages or new voice mail to mobile devices such as iPhones and Windows Phones, even if the Lync client on those devices is currently suspended or running in the background. The push notification service is a cloud-based service that is running on Microsoft servers. In order to take advantage of push notifications, you must be able to connect to, and be authenticated by, the push notification clearinghouse. The Test-CsMcxPushNotification cmdlet enables administrators to verify that push notification requests can be routed through your Edge server to the push notification clearinghouse.
+## <a name="description"></a>说明
 
-## Running the test
+推送通知服务 (Apple 推送通知服务和 Microsoft 推送通知服务) 可以向移动设备 (如 Iphone 和 Windows 电话) 发送有关事件 (如新即时消息或新语音邮件) 的通知, 即使 Lync 客户端在这些设备上, 当前暂停或在后台运行。 推送通知服务是在 Microsoft 服务器上运行的基于云的服务。 为了利用推送通知, 你必须能够连接到推送通知交换所并进行身份验证。 CsMcxPushNotification cmdlet 使管理员能够验证推送通知请求是否可以通过 Edge 服务器路由到推送通知交换所。
 
-To test the push notification service, call the Test-CsMcxPushNotification cmdlet. Make sure that you specify the fully qualified domain name of your Edge server:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+若要测试推送通知服务, 请调用 CsMcxPushNotification cmdlet。 请确保指定 Edge 服务器的完全限定的域名:
 
     Test-CsMcxPushNotification -AccessEdgeFqdn "atl-edge-001.litwareinc.com"
 
-For more information, see the help topic for the [Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification) cmdlet.
+有关详细信息, 请参阅[CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification) cmdlet 的帮助主题。
 
-## Determining success or failure
+</div>
 
-If Test-CsMcxPushNotification succeeds the cmdlet will return the test result Success:
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果 Test CsMcxPushNotification 成功, cmdlet 将返回测试结果成功:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟: 00:00:00
 
-If Test-CsMcxPushNotification is unable to connect to the push notification clearinghouse the cmdlet will typically not return a test result of Failure. Instead the command will usually fail completely. For example:
+时发生
 
-Test-CsMcxPushNotification : A 504 (Server time-out) response was received from the network and the operation failed. See the exception details for more information.
+自检
 
-At line:1 char:27
+如果 CsMcxPushNotification 无法连接到推送通知交换所, 则 cmdlet 通常不会返回测试结果失败。 相反, 此命令通常完全失败。 例如：
 
-\+ Test-CsMcxPushNotification \<\<\<\< -AccessEdgeFqdn lyncedge.mydomain.com
+测试-CsMcxPushNotification: 从网络收到 504 (服务器超时) 响应, 操作失败。 有关详细信息, 请参阅异常详细信息。
 
-\+ CategoryInfo : OperationStopped: (:) \[Test-CsMcxPushNotification\], FailureResponseException
+在第一行: 1 个字符:27
 
-\+ FullyQualifiedErrorId : WorkflowNotCompleted,Microsoft.Rtc.Management.SyntheticTransactions.TestMcxPushNotificationCmdlet
+\+\< \< CsMcxPushNotification \< - \< AccessEdgeFqdn lyncedge.mydomain.com
 
-## Reasons why the test might have failed
+\+CategoryInfo: OperationStopped: (:)\[Test-CsMcxPushNotification\]、FailureResponseException
 
-If the push notification service fails that usually indicates either problems communicating with your Edge server, or problems communicating with the Push Notification Clearing House. If you encounter problems when you run Test-CsMcxPushNotification, the first thing that you should do is verify that your Edge server is working correctly. One way to do that is to use the Test-CsAVEdgeConnectivity cmdlet:
+\+FullyQualifiedErrorId: WorkflowNotCompleted、SyntheticTransactions TestMcxPushNotificationCmdlet
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+如果推送通知服务失败通常表示与边缘服务器通信的问题, 或者与推送通知交换所进行通信的问题。 如果在运行 Test CsMcxPushNotification 时遇到问题, 您应执行的第一件事是验证边缘服务器是否正常工作。 执行此操作的一种方法是使用 CsAVEdgeConnectivity cmdlet:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsAVEdgeConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-This check verifies that a specified user can connect to the Edge server.
+此检查将验证指定用户是否可以连接到边缘服务器。
 
-If the Edge server seems to be working correctly, that often means that you are unable to connect to the push notification clearinghouse. In turn, that typically means that you either have not configured the clearinghouse URI correctly or that you do not have a DNS SRV record that points to this URL. You can verify that the URI is set to the correct value (sip:push@push.lync.com) by running this command:
+如果边缘服务器似乎正常工作, 则这通常意味着你无法连接到推送通知 clearinghouse。 反过来, 这通常意味着你未正确配置 clearinghouse URI 或你没有指向此 URL 的 DNS SRV 记录。 你可以通过运行以下命令验证 URI 是否设置为正确的值 (sip:push@push.lync.com):
 
     Get-CsMcxConfiguration
 
-If the PushNotificationProxyUri property is set to anything other than sip:push@push.lync.com then you can correct that problem by using the Set-McxConfiguration cmdlet. For example, this command correctly sets the URI throughout your organization:
+如果 PushNotificationProxyUri 属性设置为 sip:push@push.lync.com 以外的任何其他内容, 则可以使用 McxConfiguration cmdlet 更正该问题。 例如, 此命令在整个组织中正确设置 URI:
 
     Get-CsMcxConfiguration | Set-CsMcxConfiguration -PushNotificationProxyUri "sip:push@push.lync.com"
 
-For more information, see the help topic for the [Set-CsMcxConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMcxConfiguration) cmdlet.
+有关详细信息, 请参阅[CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) cmdlet 的帮助主题。
 
-If the URI is configured correctly, your next step should be to verify that you have a DNS SRV record that resolves to your SIP domain and your Edge server. For more information about how to configure these records, see the help topic DNS Requirements for Mobility. Note that the following error message usually indicates a problem with DNS records:
+如果 URI 配置正确, 则下一步应该是验证你是否具有解析为 SIP 域和边缘服务器的 DNS SRV 记录。 有关如何配置这些记录的详细信息, 请参阅移动性的帮助主题 DNS 要求。 请注意, 以下错误消息通常表示 DNS 记录的问题:
 
-A 504 (Server time-out) response was received from the network and the operation failed. See the exception details for more information.
+从网络收到 504 (服务器超时) 响应, 操作失败。 有关详细信息, 请参阅异常详细信息。
 
-It’s also possible that Test-CsMcxConfiguration will fail with this error message:
+也可能该测试 CsMcxConfiguration 将失败, 并出现以下错误消息:
 
-Test-CsMcxPushNotification : Push Notification request was rejected.
+Test-CsMcxPushNotification: 推送通知请求被拒绝。
 
-At line:1 char:27
+在第一行: 1 个字符:27
 
-\+ Test-CsMcxPushNotification \<\<\<\<
+\+Test-CsMcxPushNotification\<\<\<\<
 
-\+ CategoryInfo : OperationStopped: (:) \[Test-CsMcxPushNotification\], SyntheticTransactionException
+\+CategoryInfo: OperationStopped: (:)\[Test-CsMcxPushNotification\]、SyntheticTransactionException
 
-\+ FullyQualifiedErrorId : WorkflowNotCompleted,Microsoft.Rtc.Management.SyntheticTransactions.TestMcxPushNotificationCmdlet
+\+FullyQualifiedErrorId: WorkflowNotCompleted、SyntheticTransactions TestMcxPushNotificationCmdlet
 
-The “Push notification request was rejected” message typically occurs if you have enabled URL filtering and are blocking the http: and https: prefixes. You can determine which prefixes are being blocked by using a command similar to the following:
+如果启用了 URL 筛选并阻止了 http: 和 https: 前缀, 则通常会出现 "推送通知请求被拒绝" 消息。 你可以使用类似如下的命令确定被阻止的前缀:
 
 ``` 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 
-If http: or https: appear in the results, you must remove them from the blocked prefix list for push notifications to work. That can be done by using commands similar to these:
+如果结果中显示了 "http:" 或 "https:", 则必须将其从 "阻止的前缀" 列表中删除, "推送通知" 才能正常工作。 这可以通过使用以下类似命令来实现:
 
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="http:"}
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="https:"}
 
-For more information, see the help topic for the [Set-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsImFilterConfiguration)cmdlet.
+有关详细信息, 请参阅[CsImFilterConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsImFilterConfiguration)cmdlet 的帮助主题。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

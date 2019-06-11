@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing third-party audio conferencing'
+---
+title: 'Lync Server 2013: 测试第三方音频会议'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing third-party audio conferencing
 ms:assetid: 0428eb2f-a5ce-47e5-9ea4-383965dfc1e4
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn727299(v=OCS.15)
-ms:contentKeyID: 62388637
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727299(v=OCS.15)
+ms:contentKeyID: 63969576
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b1c23f65015dd34f5efbaafa8472466394caa52c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845559"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing third-party audio conferencing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中测试第三方音频会议
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-01_
 
 
 <table>
@@ -23,95 +43,121 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAudioConferencingProvider cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsAudioConferencingProvider cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-An audio conferencing provider is a third-party company that provides organizations with conferencing services. Among other things, audio conferencing providers enable users located off site, and not connected to the corporate network or the Internet, to participate in the audio portion of a conference or meeting. Audio conferencing providers often provide high-end services such as live translation, transcription, and live per-conference operator assistance.
+## <a name="description"></a>说明
 
-The **Test-CsAudioConferencingProvider** cmdlet is used to verify that a user is able to make a connection to his or her audio conferencing provider. Note that this cmdlet can be run in one of two ways. Many administrators will use the CsHealthMonitoringConfiguration cmdlets to set up test users for each of their Registrar pools. These test users represent a pair of user accounts that have been preconfigured for use with synthetic transactions. (Typically these are test accounts and not accounts that belong to actual users.) If test users are configured for a pool, administrators can run the **Test-CsAudioConferencingProvider** cmdlet against that pool without having to specify the identity of (and supply the credentials for) the user account involved in the test.
+音频会议提供商是为组织提供会议服务的第三方公司。 此外，音频会议提供商使外出且未连接到企业网络或 Internet 的用户可以通过音频参加会议。 音频会议提供商通常提供高端服务, 例如实时翻译、脚本和实时的每个会议运营商帮助。
 
-Alternatively, administrators can run the **Test-CsAudioConferencingProvider** cmdlet using an actual user account. If you decide to conduct the test using an actual user account you will need to supply the logon name and password for that account.
+**CsAudioConferencingProvider** cmdlet 用于验证用户是否能够与他/她的音频会议提供商建立连接。 请注意, 此 cmdlet 可以通过两种方式之一运行。 许多管理员将使用 CsHealthMonitoringConfiguration cmdlet 为其每个注册机构池设置测试用户。 这些测试用户表示一对已预配置用于综合事务的用户帐户。 (通常这些是测试帐户, 而不是属于实际用户的帐户。)如果为池配置了测试用户, 管理员可以对该池运行**CsAudioConferencingProvider** cmdlet, 而无需为测试所涉及的用户帐户指定标识 (并提供凭据)。
 
-## Running the test
+或者, 管理员可以使用实际**的**用户帐户运行 CsAudioConferencingProvider cmdlet。 如果你决定使用实际的用户帐户执行测试, 你将需要为该帐户提供登录名和密码。
 
-Example 1 checks to see if a test user defined for the pool atl-cs-001.litwareinc.com is able to connect to his or her audio conferencing provider. This command requires that at least one test user be defined for the pool. If no test users have been defined for atl-cs-001.litwareinc.com, then the command will fail; that's because the **Test-CsAudioConferencingProvider** cmdlet will not know which user to employ in the test. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user account that the command should employ when verifying the connection with an audio conferencing provider.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+示例1检查是否已为 pool atl-cs-001.litwareinc.com 定义的测试用户能够连接到他/她的音频会议提供商。 此命令要求为池至少定义一个测试用户。 如果没有为 atl-cs-001.litwareinc.com 定义测试用户, 则该命令将失败;这是因为**CsAudioConferencingProvider** cmdlet 不会知道在测试中使用哪个用户。 如果尚未为池定义测试用户, 则必须在验证与音频会议提供商的连接时, 包含该命令应使用的用户帐户的 UserSipAddress 参数和凭据。
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-The commands shown in Example 2 test the ability of a specific user (litwareinc\\kenmyer) to connect to his audio conferencing provider. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credentials object containing the name and password of the user Ken Myer. (Because the logon name litwareinc\\kenmyer has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Myer account.) The resulting credentials object is stored in a variable named $credential.
+示例2中所示的命令测试特定用户 (litwareinc\\kenmyer) 连接到其音频会议提供商的能力。 若要执行此操作, 示例中的第一个命令使用了 Get 凭据 cmdlet 创建 Windows PowerShell 命令行界面凭据对象, 该对象包含用户 Ken Myer 的名称和密码。 (因为登录名 litwareinc\\kenmyer 已包含为参数, 所以 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 Ken Myer 帐户的密码。)生成的凭据对象存储在名为 $credential 的变量中。
 
-The second command then checks to see if this user can connect to his audio conferencing provider. To carry out this task, the Test-CsAudioConferencingProvider cmdlet is called, along with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object containing Ken Myer's user credentials); and UserSipAddress (the SIP address corresponding to the supplied user credentials).
+然后, 第二个命令检查该用户是否可以连接到他的音频会议提供商。 若要执行此任务, CsAudioConferencingProvider cmdlet 与三个参数一起调用: TargetFqdn (注册机构池的 FQDN);UserCredential (包含 Ken Myer 的用户凭据的 Windows PowerShell 对象);和 UserSipAddress (对应于提供的用户凭据的 SIP 地址)。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If the audio conferencing provider is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-sql-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果音频会议提供商配置正确, 则会收到与此类似的输出, 结果属性标记为**成功:**
 
-Latency : 00:00:00
+目标 Fqdn: atl-sql-001.litwareinc.com
 
-Error Message :
+结果: 成功
 
-Diagnosis :
+延迟: 00:00:00
 
-If the specified user can't log on or log off, the Result will be shown as a **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+错误消息:
 
-Target Fqdn : atl-sql-001.litwareinc.com
+自检
 
-Result : Failure
+如果指定的用户无法登录或注销, 则结果将显示为**失败**, 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+目标 Fqdn: atl-sql-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+结果: 失败
 
-did not properly respond after a period of time, or
+延迟: 00:00:00
 
-established connection failed because connected host has
+错误消息: 10060, 连接尝试失败, 因为已连接的参与方
 
-failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+在一段时间后未正确响应, 或者
 
-Inner Exception:A connection attempt failed because the
+已建立连接失败, 因为连接的主机已
 
-connected party did not properly respond after a period of
+无法响应\[2001: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
 
-time, or established connection failed because connected host
+内部异常: 连接尝试失败, 因为
 
-has failed to respond
+已连接方在一段时间后未正确响应
 
-\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+时间, 或已建立的连接失败, 因为已连接的主机
 
-Diagnosis :
+无法响应
 
-For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.
+\[2001: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
 
-## Reasons why the test might have failed
+自检
 
-Here are some common reasons why **Test-CsAudioConferencingProvider** might fail:
+例如, 以前的输出包含 "已连接方" 未正确响应的注释, 这通常表示边缘服务器有问题。
 
-  - An incorrect parameter value was supplied. As shown in the previous example, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - Note that the test will fail if the user employed by the **Test-CsAudioConferencingProvider** cmdlet has not been assigned an audio conferencing provider.
+<div>
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是**测试 CsAudioConferencingProvider**可能失败的一些常见原因:
+
+  - 提供的参数值不正确。 如前面的示例所示, 必须正确配置可选参数, 否则测试将失败。 重新运行不带可选参数的命令, 并查看是否成功。
+
+  - 请注意, 如果**CsAudioConferencingProvider** cmdlet 使用的用户尚未分配音频会议提供商, 则测试将失败。
+
+  - 如果边缘服务器配置错误或尚未部署, 此命令将失败。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

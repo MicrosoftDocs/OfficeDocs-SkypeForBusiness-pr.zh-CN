@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing user presence publishing and subscribing'
+---
+title: 'Lync Server 2013: 测试用户状态发布和订阅'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing user presence publishing and subscribing
 ms:assetid: 27694c71-8e63-4aa4-b49f-fa06ccb81949
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn743832(v=OCS.15)
-ms:contentKeyID: 62279331
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743832(v=OCS.15)
+ms:contentKeyID: 63969587
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 17c7052550067868ff201c809a51e1d119c5f8a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845555"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing user presence publishing and subscribing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>在 Lync Server 2013 中测试用户状态发布和订阅
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,112 +43,138 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPresence cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsPresence cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPresence&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsPresence is used to determine whether a pair of test users can log on to Lync Server and then exchange presence information. To do this, the cmdlet first logs the two users on to the system. If both logons succeed, the first test user then asks to receive presence information from the second user. The second user publishes this information, and Test-CsPresence verifies that the information was successfully transmitted to the first user. After the exchange of presence information, the two test users are then logged off from Lync Server.
+## <a name="description"></a>说明
 
-## Running the test
+Test-CsPresence 用于确定一对测试用户是否可以登录 Lync Server, 然后交换状态信息。 为此, cmdlet 首先将两个用户记录到系统。 如果两次登录均成功, 则第一个测试用户将要求接收来自第二个用户的状态信息。 第二个用户发布此信息, 测试 CsPresence 验证信息是否已成功传输到第一个用户。 在交换状态信息后, 两个测试用户随后从 Lync Server 中注销。
 
-The Test-CsPresence cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+CsPresence cmdlet 可以使用一对预配置的测试帐户运行 (请参阅设置运行 Lync Server 测试的测试帐户) 或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查, 只需指定正在测试的 Lync Server 池的 FQDN。 例如：
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsPresence:
+若要使用实际用户帐户运行此检查, 必须为每个帐户创建两个 Windows PowerShell 凭据对象 (包含帐户名和密码的对象)。 然后, 当你调用 Test-CsPresence 时, 你必须包含这些凭据对象和两个帐户的 SIP 地址:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -PublisherSipAddress "sip:kenmyer@litwareinc.com" -PublisherCredential $credential1 -SubscriberSipAddress "sip:davidlongmire@litwareinc.com" -SubscriberCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsPresence](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPresence) cmdlet.
+有关详细信息, 请参阅[CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) Cmdlet 的帮助文档。
 
-## Determining success or failure
+</div>
 
-If the specified users can exchange presence information, then you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果指定的用户可以交换状态信息, 则将收到类似于此的输出, 并将 Result 属性标记为**成功:**
 
-Latency : 00:00:06.3280315
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟:00:00: 06.3280315
 
-If the two users can't exchange presence information, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+时发生
 
-TargetFqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果两个用户不能交换状态信息, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+结果: 失败
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+延迟: 00:00:00
 
-Reason=Destination URI either not enabled for SIP or does not
+错误: 404, 未找到
 
-exist.
+诊断: ErrorCode = 4005, Source = atl-cs-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+原因 = 没有为 SIP 启用目标 URI, 或者没有为其启用目标 URI
 
-For example, the previous output states that the test failed because at least one of the two user accounts is not valid: either the account does not exist or it has not been enabled for Lync Server. You can verify that the accounts exist, and determine whether they are enabled for Lync Server, by running a command similar to this:
+并存.
+
+Microsoft DiagnosticHeader
+
+例如, 以前的输出表明, 由于两个用户帐户中的至少一个帐户无效, 测试失败: 帐户不存在或尚未为 Lync Server 启用。 你可以通过运行如下命令来验证帐户是否存在, 并确定是否为 Lync Server 启用了这些帐户:
 
     "sip:kenmyer@litwareinc.com", "sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, Enabled
 
-If Test-CsPresence fails, then you might want to rerun the test, this time including the Verbose parameter:
+如果 CsPresence 失败, 则可能需要重新运行测试, 这一次包括 Verbose 参数:
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsPresence will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+当包含 Verbose 参数时, CsPresence 将返回在检查指定用户登录到 Lync Server 的能力时尝试的每个操作的分步帐户。 例如：
 
-Registration Request hit against Unknown
+注册请求遇到未知情况
 
-'Register' activity completed in '0.0345791' secs.
+"Register" 活动在 "0.0345791" 秒内完成。
 
-'SelfSubscribeActivity' activity started.
+已开始 "SelfSubscribeActivity" 活动。
 
-'SelfSubscribeActivity' activity completed in '0.0041174' secs.
+"SelfSubscribeActivity" 活动在 "0.0041174" 秒内完成。
 
-'SubscribePresence' activity started.
+已开始 "SubscribePresence" 活动。
 
-'SubscribePresence' activity completed in '0.0038764' secs.
+"SubscribePresence" 活动在 "0.0038764" 秒内完成。
 
-'PublishPresence' activity started.
+已开始 "PublishPresence" 活动。
 
-An exception 'Presence notification is not received within 25 secs.' occurred ruing Workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STPresenceWorkflow execution.
+在25秒内未收到异常的 "联机状态" 通知。 " ruing 工作流 STPresenceWorkflow 执行失败。
 
-The fact that the presence notification was not received within 25 seconds might indicate that network issues are preventing information from being exchanged.
+在25秒内未收到状态通知这一事实可能表明网络问题阻止信息被交换。
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsPresence might fail:
+<div>
 
-  - You specified an incorrect user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsPresence 可能失败的一些常见原因:
+
+  - 您指定了一个不正确的用户帐户。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - 用户帐户有效, 但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户, 请运行类似如下的命令:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.
+    如果 Enabled 属性设置为 False, 表示当前未对 Lync Server 启用用户。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

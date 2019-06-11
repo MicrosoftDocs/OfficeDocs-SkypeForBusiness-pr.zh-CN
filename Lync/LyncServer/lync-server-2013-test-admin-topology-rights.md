@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test admin topology rights'
+---
+title: 'Lync Server 2013: 测试管理员拓扑权限'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn767943(v=OCS.15)
-ms:contentKeyID: 62486230
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)
+ms:contentKeyID: 63969575
 ms.date: 12/29/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 365c879678ff3fd51dcaaf89d4b2593eccf645f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845666"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test admin topology rights in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="test-admin-topology-rights-in-lync-server-2013"></a>Lync Server 2013 中的测试管理员拓扑权限
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2016-12-08_
 
 
 <table>
@@ -23,64 +43,96 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>After initial Lync Server deployment. As needed if permission-related issues arise.</p></td>
+<td><p>验证计划</p></td>
+<td><p>初始 Lync Server 部署后。 如果出现权限相关问题, 则根据需要。</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsSetupPermission cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsSetupPermission cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsSetupPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-By default, only domain administrators can enable a Lync Server topology and make large changes to the Lync Server infrastructure. This won't be a problem as long as your domain administrators and your Lync Server administrators are one and the same.In many organizations Lync Server administrators do not hold administrative rights to the whole domain. By default, that means that these administrators (defined as members of the RTCUniversalServerAdmins group) can't make Lync Server topology changes. To give members of the RTCUniversalServerAdmins group the right to make topology changes, you must assign the required Active Directory permissions by using the [Grant-CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission) cmdlet.
+## <a name="description"></a>说明
 
-The Test-CsSetupPermission cmdlet verifies that the required permissions that are needed to install Lync Server or one of its components are configured on the specified Active Directory container. If the permissions are not assigned, you can then run the Grant-CsSetupPermission cmdlet to give members of the RTCUniversalServerAdmins group the right to install and enable Lync Server.
+默认情况下, 只有域管理员可以启用 Lync Server 拓扑, 并对 Lync Server 基础结构进行较大的更改。 只要您的域管理员和您的 Lync 服务器管理员是同一个, 这就不会出现问题。在许多组织中, Lync Server 管理员不拥有对整个域的管理权限。 默认情况下, 这意味着这些管理员 (定义为 RTCUniversalServerAdmins 组的成员) 无法更改 Lync 服务器拓扑。 若要为 RTCUniversalServerAdmins 组的成员授予拓扑更改权限, 必须通过使用[CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) cmdlet 分配所需的 Active Directory 权限。
+
+CsSetupPermission cmdlet 验证安装 Lync Server 或其组件之一所需的权限是否在指定的 Active Directory 容器上配置。 如果未分配权限, 则可以运行 CsSetupPermission cmdlet 授予 RTCUniversalServerAdmins 组的成员安装和启用 Lync Server 的权限。
+
+<div>
+
 
 > [!NOTE]  
-> For a detailed list of permissions assigned by Grant-CsSetupPermission, see the blog post <a href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission and Grant-CsOUPermission</a>.
+> 有关由授权 CsSetupPermission 分配的权限的详细列表, 请参阅博客帖子<A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">授予-CsSetupPermission 和 Grant CsOUPermission</A>。
 
 
-## Running the test
 
-To determine whether setup permissions are assigned for an Active Directory container, call the Test-CsSetupPermission cmdlet. Specify the distinguished name of the container to be checked. For example, this command verifies setup permissions on the container ou=CsServers,dc=litwareinc,dc=com:
+</div>
+
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+若要确定是否为 Active Directory 容器分配了设置权限, 请调用 CsSetupPermission cmdlet。 指定要检查的容器的可分辨名称。 例如, 此命令将验证容器 ou = CsServers、dc = litwareinc、dc = com 的设置权限:
 
     Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"
 
-For more information, see the help topic for the [Test-CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission) cmdlet.
+有关详细信息, 请参阅[CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet 的帮助主题。
 
-## Determining success or failure
+</div>
 
-If Test-CsSetupPermission determines that the required permissions have already been set on an Active Directory container then the cmdlet will return the value True:
+<div>
+
+## <a name="determining-success-or-failure"></a>确定成功还是失败
+
+如果测试 CsSetupPermission 确定已在 Active Directory 容器上设置了所需的权限, 则 cmdlet 将返回值 True:
 
 True
 
-If permissions are not set, Test-CsSetupPermission will return the value False. Note that this value will typically be enclosed in many warning messages. For example:
+如果未设置权限, 则 CsSetupPermission 将返回值 False。 请注意, 此值通常会包含在许多警告消息中。 例如：
 
-WARNING: Access control entry (ACE) atl-cs-001\\RTCUniversalServerAdmins; Allow; ExtendedRight; None; None; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
+警告: 访问控制项 (ACE) atl-cs-001\\RTCUniversalServerAdmins;帮助ExtendedRight;尚尚1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 
-WARNING: The access control entries (ACEs) on the object "CN=Computers,DC=litwareinc,DC=com" are not ready.
+警告: 对象 "CN = 计算机, DC = litwareinc, dc = com" 上的访问控制项 (Ace) 尚未准备就绪。
 
 False
 
-WARNING: "Test-CsSetupPermission" processing has completed with warnings. "2" warnings were recorded during this run.
+警告: "Test-CsSetupPermission" 处理已完成, 但出现警告。 此运行期间录制了 "2" 条警告。
 
-WARNING: Detailed results can be found at "C:\\Users\\Admin\\AppData\\Local\\Temp\\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html".
+警告: 可在 "\\C: 用户\\管理员\\AppData\\本地\\临时\\测试-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118" 处找到详细结果。
 
-## Reasons why the test might have failed
+</div>
 
-Although there are rare exceptions, if Test-CsSetupPermission fails that typically means that setup permissions are not assigned for the specified Active Directory container. Those permissions can be assigned by using the Grant-CsSetupPermission cmdlet. For example, this command grants setup permissions to the Computers container in the domain litwareinc.com:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+虽然不太常见的例外, 但如果测试 CsSetupPermission 失败, 通常意味着不会为指定的 Active Directory 容器分配设置权限。 可以使用 CsSetupPermission cmdlet 分配这些权限。 例如, 此命令向域 litwareinc.com 中的计算机容器授予设置权限:
 
     Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"
 
-For more information, see the help topic for the [Test-CsSetupPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsSetupPermission) cmdlet.
+有关详细信息, 请参阅[CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission) cmdlet 的帮助主题。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

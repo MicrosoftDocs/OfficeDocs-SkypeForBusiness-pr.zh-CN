@@ -1,110 +1,160 @@
-﻿---
-title: Web 会议 Cmdlet
-TOCTitle: Web 会议 Cmdlet
-ms:assetid: dac4d934-1500-4799-be4d-82809d4e7eb3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415675(v=OCS.15)
-ms:contentKeyID: 49314434
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Web 会议 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing cmdlets
+ms:assetid: dac4d934-1500-4799-be4d-82809d4e7eb3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415675(v=OCS.15)
+ms:contentKeyID: 48185556
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 407fc4645f01692c664d80d0c60b337efa28f20f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845258"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Web 会议 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="web-conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Web 会议 cmdlet
 
-会议和联机会议是 Microsoft Lync Server 2013 中的重要元素。CsConferencingConfiguration 和 CsConferencingPolicy cmdlet 是使用 Windows PowerShell 管理会议的主要管理工具。
+</div>
 
-## Web 会议 Cmdlet
+<div id="mainSection">
 
-[New-CsClientPolicy](new-csclientpolicy.md) 和 [Set-CsClientPolicy](set-csclientpolicy.md) cmdlet 提供了配置和管理 Lync Server 2013 的其他方法。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-07-29_
+
+会议和联机会议是 Microsoft Lync Server 2013 中的重要元素。 CsConferencingConfiguration 和 CsConferencingPolicy cmdlet 是使用 Windows PowerShell 管理会议的主要管理工具。
+
+<div>
+
+## <a name="web-conferencing-cmdlets"></a>网络会议 Cmdlet
+
+[Set-csclientpolicy](https://technet.microsoft.com/en-us/library/Gg425949(v=OCS.15))和[set-csclientpolicy](https://technet.microsoft.com/en-us/library/Gg398300(v=OCS.15)) cmdlet 提供了配置和管理 Lync Server 2013 的其他方法。
 
 **Web 会议**
 
-  -   
-    [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md)
+  - <span></span>  
+    [Get-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg425714(v=OCS.15))
 
-  -   
-    [Remove-CsConferenceDisclaimer](remove-csconferencedisclaimer.md)
+  - <span></span>  
+    [Remove-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398243(v=OCS.15))
 
-  -   
-    [Set-CsConferenceDisclaimer](set-csconferencedisclaimer.md)
+  - <span></span>  
+    [Set-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398776(v=OCS.15))
 
-  -   
-    [Set-CsConferenceServer](set-csconferenceserver.md)
+<!-- end list -->
 
-  -   
-    [Get-CsConferencingConfiguration](get-csconferencingconfiguration.md)
+  - <span></span>  
+    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
 
-  -   
-    [New-CsConferencingConfiguration](new-csconferencingconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsConferencingConfiguration](remove-csconferencingconfiguration.md)
+  - <span></span>  
+    [Get-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398965(v=OCS.15))
 
-  -   
-    [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md)
+  - <span></span>  
+    [New-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412967(v=OCS.15))
 
-  -   
-    [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
+  - <span></span>  
+    [Remove-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412767(v=OCS.15))
 
-  -   
-    [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - <span></span>  
+    [Set-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412969(v=OCS.15))
 
-  -   
-    [New-CsConferencingPolicy](new-csconferencingpolicy.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsConferencingPolicy](remove-csconferencingpolicy.md)
+  - <span></span>  
+    [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398293(v=OCS.15))
 
-  -   
-    [Set-CsConferencingPolicy](set-csconferencingpolicy.md)
+  - <span></span>  
+    [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425937(v=OCS.15))
 
-  -   
-    [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
+  - <span></span>  
+    [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg413019(v=OCS.15))
 
-  -   
-    [New-CsMeetingConfiguration](new-csmeetingconfiguration.md)
+  - <span></span>  
+    [Remove-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398728(v=OCS.15))
 
-  -   
-    [Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md)
+  - <span></span>  
+    [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425788(v=OCS.15))
 
-  -   
-    [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
+<!-- end list -->
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - <span></span>  
+    [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg425875(v=OCS.15))
 
-  - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
+  - <span></span>  
+    [New-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15))
 
-  - [Get-CsMeetingRoom](get-csmeetingroom.md)
+  - <span></span>  
+    [Remove-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15))
 
-  - [Move-CsMeetingRoom](Move-CsMeetingRoom.md)
+  - <span></span>  
+    [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398648(v=OCS.15))
 
-  - [Set-CsMeetingRoom](set-csmeetingroom.md)
+<!-- end list -->
 
-  -   
-    [Test-CsASConference](test-csasconference.md)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
 
-  -   
-    [Test-CsAVConference](test-csavconference.md)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205062(v=OCS.15))
 
-  -   
-    [Test-CsDataConference](test-csdataconference.md)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205277(v=OCS.15))
 
-  -   
-    [Test-CsWebApp](test-cswebapp.md)
+  - [Move-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204889(v=OCS.15))
 
-  -   
-    [Test-CsWebAppAnonymous](test-cswebappanonymous.md)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204831(v=OCS.15))
 
-  -   
-    [Test-CsWebScheduler](test-cswebscheduler.md)
+<!-- end list -->
 
-## 另请参阅
+  - <span></span>  
+    [Test-CsASConference](https://technet.microsoft.com/en-us/library/JJ205227(v=OCS.15))
 
-#### 其他资源
+  - <span></span>  
+    [Test-CsAVConference](https://technet.microsoft.com/en-us/library/Gg412749(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Test-CsDataConference](https://technet.microsoft.com/en-us/library/JJ205219(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsWebScheduler](https://technet.microsoft.com/en-us/library/JJ204829(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

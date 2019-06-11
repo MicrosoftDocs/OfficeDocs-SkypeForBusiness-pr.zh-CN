@@ -1,57 +1,115 @@
-﻿---
-title: 了解持久聊天成员身份
-TOCTitle: 了解持久聊天成员身份
-ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398730(v=OCS.15)
-ms:contentKeyID: 49313586
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 了解持久聊天成员身份
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Understanding Persistent Chat membership
+ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
+ms:contentKeyID: 48184781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845082"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 了解持久聊天成员身份
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-22_
+# <a name="understanding-persistent-chat-membership"></a>了解持久聊天成员身份
 
-用户对 持久聊天聊天室的访问权限由成员身份管理；用户必须是聊天室的成员才能发布和阅读消息。只允许与聊天室有指定的附属关系的 **演示者**使用 **在大会堂聊天室发布消息**。大会堂是其中一种聊天室类型（另一种是 **普通聊天室**），在这种聊天室中，只有演示者能发布消息，但任何人都能阅读消息。
+</div>
 
-此外，持久聊天聊天室将根据类别的规则运行。有关类别的详细信息，请参阅[在 Lync Server 2013 中管理类别、聊天室和加载项](lync-server-2013-managing-categories-rooms-and-add-ins.md)，以及本主题稍后的“类别作用域的运作方式”和“聊天室类别策略”。
+<div id="mainSection">
 
-持久聊天管理员可创建和管理聊天室类别。作为创建和管理聊天室类别的一部分， 持久聊天管理员可配置有权成为特定类别的聊天室的成员/创建者的主体（ Active Directory 域服务 组、容器和用户）。
+<div id="mainBody">
 
-## Active Directory 域服务和 持久聊天
+<span> </span>
 
-持久聊天服务器依赖内部 持久聊天用户的池的 Active Directory。在安装 持久聊天（客户端）后，可将用户和用户组所在的域添加到聊天室类别中。然后，可以将这些用户和组添加到您的聊天室类别的成员身份中。
+_**主题上次修改时间:** 2013-02-22_
 
-> [!IMPORTANT]
-> 您必须确保对其持久聊天聊天室做出更改的用户的名称不会重复。如果存在重复的用户名，请将它们更改为不同的名称以解除针对用户进行这些更改的限制。如果用户在 Active Directory 中具有重复的名称并尝试在其聊天室中进行更改，则会出现一个错误消息，提示用户联系管理员解决问题。
+用户对持久聊天室的访问权限由成员身份管理;用户必须是聊天室的成员才能发布和阅读邮件。 只有具有 "聊天室" 的指定隶属关系的**演示者**才允许使用**发布到 Auditorium 会议室**。 Auditorium 是一种类型的聊天室 (另一种是**正常**情况), 其中只有演示者可以发布, 并且所有人都可以阅读。
+
+此外, 持久聊天室在类别规则下运行。 有关类别的详细信息, 请参阅在[Lync Server 2013 中管理类别、会议室和外接程序](lync-server-2013-managing-categories-rooms-and-add-ins.md), 以及本主题后面部分的 "类别范围的工作原理" 和 "会议室类别策略" 部分。
+
+持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中, 持久聊天管理员可以配置主体 (Active Directory 域服务组、容器和用户), 这些主体有权访问属于特定类别的聊天室的成员或访问者。
+
+<div>
+
+## <a name="active-directory-domain-services-and-persistent-chat"></a>Active Directory 域服务和持久聊天
+
+持久聊天服务器依赖于内部持久聊天用户池的 Active Directory。 安装持久聊天 (客户端) 后, 您可以将用户和用户组域添加到聊天室类别。 然后, 你可以将这些用户和组添加到聊天室类别的成员身份。
+
+<div>
 
 
-## 类别作用域的工作机制
+> [!IMPORTANT]  
+> 您必须确保要对其永久聊天室进行更改的用户没有重复的名称。 如果存在重复的用户名, 请将其更改为不同的名称, 以取消阻止用户进行这些更改。 如果用户在 Active Directory 中具有重复的名称, 并尝试在其聊天室中进行更改, 则会显示一条错误消息, 提示用户联系管理员进行解析。
 
-类别根据其 **AllowedMembers** 属性指定可以是该类别中的 持久聊天聊天室的成员身份列表成员的所有用户和组。例如，如果将类别的 **AllowedMembers** 设置为 contoso.com，则可以将 *Contoso* 中的任何组或用户添加为该类别中的聊天室的成员。如果将某个类别上的 **AllowedMembers** 设置为 *Sales* ，则只能将此通讯组列表中的组和用户添加为该类别中的聊天室的成员。同样，利用 **Creators** 属性，您可以控制可在该类别中创建聊天室的人员。创建聊天室后，可将 **AllowedMembers** 组中的任何人指定为聊天室中正在进行的管理操作（例如，成员身份更改和审批）的 **Manager**。
 
-为类别定义 **AllowedMembers** 和 **Creators** 有以下好处：
 
-  - 该类别中的所有聊天室都绑定了在类别级别设置的限制。您可以使用此限制，根据业务需求和访问策略隔离聊天室。
+</div>
 
-  - **Creators** 列表中的用户可在该类别中创建新聊天室。如果要实现这样一个系统 - 组织中有限数量的人员可创建聊天室，那么可使用此控制来满足要求。
+</div>
 
-## 聊天室类别策略
+<div>
 
-类别的 **AllowedMembers** 必须将使用任何 持久聊天聊天室的所有用户包含在此类别中。根据您保护业务数据和确保适当的访问级别的要求，您可能希望定义一个或多个类别以指定可在聊天室中进行搜索和加入聊天室的人员。如果希望只允许一组特定的用户（中央支持人员或仅全职员工）创建聊天室，则可以设置类别的 **Creators** 的作用域来满足该要求。
+## <a name="how-category-scoping-works"></a>类别作用域的工作原理
 
-类别还可以用于创建信息隔离墙。信息隔离墙可阻止组织中的任何利益冲突。例如，管理员可创建仅面向贸易商的类别的聊天室，而另一个类别的聊天室仅供分析人员使用。
+类别指定了所有用户和组, 这些用户和组可以是该类别中的持久聊天室的成员身份列表中的成员, 具体取决于其**AllowedMembers**属性。 例如, 如果将类别的**AllowedMembers**设置为 contoso.com, 则可以将*contoso*中的任何组或用户添加到该类别中的聊天室。 如果将类别的**AllowedMembers**设置为 "*销售*", 则只能将此通讯组列表中的组和用户添加为该类别中的聊天室。 同样, "**创建者**" 属性使您能够控制哪些人可以创建该类别的聊天室。 在创建聊天室后, **AllowedMembers**组中的任何人都可以被指定为**管理者**进行持续管理操作 (例如, 成员身份更改和审批)。
+
+定义类别的**AllowedMembers**和**创意者**具有以下优点:
+
+  - 该类别中的所有聊天室都绑定了在类别级别设置的限制。 您可以使用此限制，根据业务需求和访问策略隔离聊天室。
+
+  - "**创建者**" 列表中的用户可以在该类别中创建新的聊天室。 如果你想要实现组织中受限制的人员可以创建聊天室的系统, 则可以使用此控件来满足该要求。
+
+</div>
+
+<div>
+
+## <a name="room-category-strategies"></a>会议室类别策略
+
+类别的**AllowedMembers**必须包括所有将在此类别中使用任何持久聊天室的用户。 你可能希望定义一个或多个类别, 以指定可以搜索和参与聊天室的人员, 具体取决于保护业务数据和确保访问级别的要求。 如果你希望仅允许特定的一组用户 (中央帮助台, 或仅全职员工) 创建聊天室, 则可以将类别的**创建者**范围限定为满足该要求。
+
+类别也可用于创建符合道德的留言板。 符合道德的墙可防止组织的任何利益冲突。 例如, 管理员可以仅在贸易类别中创建聊天室, 而另一类别中的聊天室只能由分析员使用。
+
+<div>
+
 
 > [!NOTE]  
-> 在 Lync Server 2013持久聊天服务器中，我们不支持对联盟用户的访问。如果之前版本的 持久聊天服务器中存在联盟用户进行的聊天，则将迁移聊天。将联盟用户添加为已禁用的主体。
+> 在 Lync Server 2013 的持久聊天服务器中, 我们不支持对联盟用户的访问。 如果以前版本的持久聊天服务器中存在来自联盟用户的聊天, 则将迁移这些聊天。 将联盟用户添加为已禁用主体。
 
 
-## 将成员缩小至用户组
 
-当您向类别添加域时，组对象隶属于该域的用户组可供您使用，以将其指定为该类别中的聊天室的成员。
+</div>
 
-一般而言，建议使用 Active Directory 容器（如域和组织单位）来定义类别的 **AllowedMembers** 和 **Creators**。您可以将任何域中的对象添加到 **AllowedMembers** 或 **Creators** 列表。只有 **AllowedMembers** 或 **Creators** 列表中的对象能添加到该类别下的聊天室。
+</div>
+
+<div>
+
+## <a name="narrowing-the-members-to-user-groups"></a>将成员收缩到用户组
+
+将域添加到类别时, 您可以使用域中包含其组对象的用户组, 以便将其指定为该类别中的会议室成员。
+
+我们建议你使用 Active Directory 容器 (如域和组织单元) 来定义类别的**AllowedMembers**和**创建者**。 你可以将任何域中的对象添加到**AllowedMembers**或**创建者**列表。 只有**AllowedMembers**或 "**创建者**" 列表中的对象才能添加到该类别下的聊天室中。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,67 +1,111 @@
-﻿---
-title: 用户权限 Cmdlet
-TOCTitle: 用户权限 Cmdlet
-ms:assetid: b53aae4c-651f-4cbc-a762-ba818d63897e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415672(v=OCS.15)
-ms:contentKeyID: 49313997
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 用户权利和权限 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User rights and permissions cmdlets
+ms:assetid: b53aae4c-651f-4cbc-a762-ba818d63897e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415672(v=OCS.15)
+ms:contentKeyID: 48185178
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab95364abf7bdd0a256f2cd8272d14ec1bc86968
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845493"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 用户权限 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的用户权利和权限 cmdlet
 
-用户权限 cmdlet 主要用于管理基于角色的访问控制 (RBAC)，RBAC 是一项用于委派 Microsoft Lync Server 2013 管理控制的新技术。
+</div>
 
-## 用户权限 Cmdlet
+<div id="mainSection">
 
-以下是与管理用户权限直接相关的 cmdlet 列表：
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-26_
+
+用户权限 cmdlet 主要用于管理基于角色的访问控制 (RBAC), 这是用于委派 Microsoft Lync Server 2013 管理控制权的新技术。
+
+<div>
+
+## <a name="user-permission-cmdlets"></a>用户权限 Cmdlet
+
+以下是与管理用户权限直接相关的 cmdlet 的列表:
 
 **用户权限**
 
-  -   
-    [Get-CsAdminRole](get-csadminrole.md)
+  - <span></span>  
+    [CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
 
-  -   
-    [New-CsAdminRole](new-csadminrole.md)
+  - <span></span>  
+    [新-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
 
-  -   
-    [Remove-CsAdminRole](remove-csadminrole.md)
+  - <span></span>  
+    [Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
 
-  -   
-    [Set-CsAdminRole](set-csadminrole.md)
+  - <span></span>  
+    [Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
 
-  -   
-    [Update-CsAdminRole](update-csadminrole.md)
+  - <span></span>  
+    [Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
 
-  -   
-    [Get-CsAdminRoleAssignment](get-csadminroleassignment.md)
+<!-- end list -->
 
-  -   
-    [Grant-CsOUPermission](grant-csoupermission.md)
+  - <span></span>  
+    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
 
-  -   
-    [Revoke-CsOUPermission](revoke-csoupermission.md)
+<!-- end list -->
 
-  -   
-    [Test-CsOUPermission](test-csoupermission.md)
+  - <span></span>  
+    [授权-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
 
-  -   
-    [Grant-CsSetupPermission](grant-cssetuppermission.md)
+  - <span></span>  
+    [Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
 
-  -   
-    [Revoke-CsSetupPermission](revoke-cssetuppermission.md)
+  - <span></span>  
+    [Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
 
-  -   
-    [Test-CsSetupPermission](test-cssetuppermission.md)
+<!-- end list -->
 
-## 另请参阅
+  - <span></span>  
+    [授权-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
 
-#### 其他资源
+  - <span></span>  
+    [Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

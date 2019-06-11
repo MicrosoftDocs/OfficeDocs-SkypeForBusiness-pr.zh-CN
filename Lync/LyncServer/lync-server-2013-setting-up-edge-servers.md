@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：设置边缘服务器
-TOCTitle: 设置边缘服务器
-ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398147(v=OCS.15)
-ms:contentKeyID: 49311936
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：设置边缘服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Edge Servers
+ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398147(v=OCS.15)
+ms:contentKeyID: 48183354
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 89c3de2695ef4e9dca538e8e0c6287a19c1a5035
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中设置边缘服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-08_
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中设置边缘服务器
 
-设置边缘服务器所需的主要任务与安装单个边缘服务器或边缘服务器的负载平衡池的任务相同，不同之处在于硬件负载平衡边缘服务器池需要部署负载平衡器，还需要执行用于复制多个边缘服务器上的设置的其他步骤。
+</div>
 
-## 本部分内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-08_
+
+设置边缘服务器所需的主要任务与安装单个边缘服务器或负载平衡的边缘服务器池相同, 只是硬件负载平衡的边缘服务器池需要部署负载平衡器和其他步骤在多台边缘服务器上复制设置。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [在 Lync Server 2013 中设置边缘服务器的网络接口](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
@@ -32,4 +54,16 @@ _**上一次修改主题：** 2012-09-08_
   - [在 Lync Server 2013 中启动边缘服务器](lync-server-2013-start-edge-servers.md)
 
   - [为 Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

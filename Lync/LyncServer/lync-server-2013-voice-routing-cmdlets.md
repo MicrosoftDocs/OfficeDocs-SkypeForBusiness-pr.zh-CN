@@ -1,79 +1,122 @@
-﻿---
-title: 语音路由 Cmdlet
-TOCTitle: 语音路由 Cmdlet
-ms:assetid: 8f05b25e-cc62-4d85-a5d8-4ed56f28dfbf
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg416494(v=OCS.15)
-ms:contentKeyID: 49313573
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 语音路由 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Voice routing cmdlets
+ms:assetid: 8f05b25e-cc62-4d85-a5d8-4ed56f28dfbf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416494(v=OCS.15)
+ms:contentKeyID: 48184821
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1d32ef285c30229510e0ff28ac978a8230fd01b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845268"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 语音路由 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音路由 cmdlet
 
-语音路由包含一些说明，指示 Microsoft Lync Server 2013 如何将来自企业语音用户的呼叫路由到公用电话交换网 (PSTN) 或专用交换机 (PBX) 上的电话号码。
+</div>
 
-## 语音路由 Cmdlet
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-26_
+
+语音路由包含说明 Microsoft Lync Server 2013 的说明如何将来自企业语音用户的呼叫路由到公共交换电话网络 (PSTN) 或专用分支交换 (PBX) 上的电话号码。
+
+<div>
+
+## <a name="voice-routing-cmdlets"></a>语音路由 Cmdlet
 
 使用以下 cmdlet 配置语音路由。
 
 **语音路由**
 
-  -   
-    [Get-CsRoutingConfiguration](get-csroutingconfiguration.md)
+  - <span></span>  
+    [CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
 
-  -   
-    [New-CsRoutingConfiguration](new-csroutingconfiguration.md)
+  - <span></span>  
+    [新-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
 
-  -   
-    [Remove-CsRoutingConfiguration](remove-csroutingconfiguration.md)
+  - <span></span>  
+    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
 
-  -   
-    [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)
+  - <span></span>  
+    [Set-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
 
-  -   
-    [Get-CsVoiceRoute](get-csvoiceroute.md)
+<!-- end list -->
 
-  -   
-    [New-CsVoiceRoute](new-csvoiceroute.md)
+  - <span></span>  
+    [CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
 
-  -   
-    [Remove-CsVoiceRoute](remove-csvoiceroute.md)
+  - <span></span>  
+    [新-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
 
-  -   
-    [Set-CsVoiceRoute](set-csvoiceroute.md)
+  - <span></span>  
+    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
 
-  -   
-    [Test-CsVoiceRoute](test-csvoiceroute.md)
+  - <span></span>  
+    [Set-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
 
-  - [Get-CsVoiceRoutingPolicy](get-csvoiceroutingpolicy.md)
+  - <span></span>  
+    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
 
-  - [Grant-CsVoiceRoutingPolicy](grant-csvoiceroutingpolicy.md)
+<!-- end list -->
 
-  - [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md)
+  - [Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204940(v=OCS.15))
 
-  - [Remove-CsVoiceRoutingPolicy](remove-csvoiceroutingpolicy.md)
+  - [Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205141(v=OCS.15))
 
-  - [Set-CsVoiceRoutingPolicy](set-csvoiceroutingpolicy.md)
+  - [New-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205135(v=OCS.15))
 
-  -   
-    [Get-CsPstnUsage](get-cspstnusage.md)
+  - [Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204799(v=OCS.15))
 
-  -   
-    [Set-CsPstnUsage](set-cspstnusage.md)
+  - [Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205313(v=OCS.15))
 
-## 另请参阅
+<!-- end list -->
 
-#### 概念
+  - <span></span>  
+    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
 
-[企业语音 Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
-[PSTN 连接 Cmdlet](lync-server-2013-pstn-connectivity-cmdlets.md)  
+  - <span></span>  
+    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
 
-#### 其他资源
+</div>
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 中的企业语音 cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 中的 PSTN 连接 cmdlet](lync-server-2013-pstn-connectivity-cmdlets.md)  
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

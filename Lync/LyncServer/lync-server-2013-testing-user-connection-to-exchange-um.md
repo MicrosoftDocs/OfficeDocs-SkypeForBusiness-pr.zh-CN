@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing user connection to Exchange UM'
+---
+title: 'Lync Server 2013: 测试用户到 Exchange UM 的连接'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing user connection to Exchange UM
 ms:assetid: 0b83fbf4-e124-4efd-a0a9-202eb849af82
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn727300(v=OCS.15)
-ms:contentKeyID: 62388638
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727300(v=OCS.15)
+ms:contentKeyID: 63969573
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 0cc54577e94f7679e833f06a4a5de060aaf761a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845556"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing user connection to Exchange UM in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>在 Lync Server 2013 中测试用户到 Exchange UM 的连接
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-11-01_
 
 
 <table>
@@ -23,99 +43,129 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExUMConnectivity</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行<strong>CsExUMConnectivity</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMConnectivity&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsExUMConnectivity** cmdlet verifies that the specified user can connect to the Microsoft Exchange Server 2013 unified messaging service. Note that this cmdlet only verifies that a connection can be made to the service. It does not test the service itself. To test the unified messaging service (by running a synthetic transaction cmdlet that actually leaves a voice mail message in a user's mailbox) use the Test-CsExUMVoiceMail cmdlet.
+## <a name="description"></a>说明
 
-## Running the test
+**CsExUMConnectivity** cmdlet 验证指定的用户是否可以连接到 Microsoft Exchange Server 2013 统一消息服务。 请注意, 此 cmdlet 仅验证是否可以与服务建立连接。 它不会测试服务本身。 若要测试统一消息服务 (通过运行可在用户邮箱中实际保留语音邮件的合成事务 cmdlet), 请使用 CsExUMVoiceMail cmdlet。
 
-The following example tests Exchange Unified Messaging connectivity for the pool atl-cs-001.litwareinc.com. This command will work only if test users were defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can connect to Unified Messaging. If test users were not configured for the pool then the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+以下示例测试 pool atl-cs-001.litwareinc.com 的 Exchange 统一消息连接。 仅当为池 atl-cs-001.litwareinc.com 定义了测试用户时, 此命令才会运行。 如果有, 则该命令将确定第一个测试用户是否可以连接到统一消息。 如果没有为池配置测试用户, 则该命令将失败。
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-The commands shown in the following example test Exchange Unified Messaging connectivity for the user litwareinc\\kenmyer. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to ensure that the **Test-CsExUMConnectivity** cmdlet can run its check.
+以下示例中所示的命令为用户 litwareinc\\Kenmyer 测试 Exchange 统一消息连接。 为此, 示例中的第一个命令使用了**Get 凭据**cmdlet 为用户 litwareinc\\kenmyer 创建 Windows PowerShell 命令行界面凭据对象。 请注意, 你必须为此帐户提供密码才能创建有效的凭据对象, 并确保**CsExUMConnectivity** cmdlet 可以运行其检查。
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether or this user can connect to Exchange Unified Messaging.
+示例中的第二个命令使用提供的凭据对象 ($x) 和用户 litwareinc\\KENMYER 的 SIP 地址, 以确定是否或此用户可以连接到 Exchange 统一消息。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-The command shown in the next example is a variation of the command just shown. In this case, the OutLoggerVariable parameter is included to generate a detailed log of every step done by the **Test-CsExUMConnectivity** cmdletand the success or failure of each of those steps. To do this, the OutLoggerVariable parameter is added together with the parameter value ExumText; that causes detailed logging information to be stored in a variable named $ExumTest. In the final command in the example, the ToXML() method is used to convert the log information to XML format. That XML data is then written to a file that is named C:\\Logs\\ExumTest.xml by using the Out-File cmdlet.
+下一个示例中所示的命令是刚才显示的命令的变体。 在这种情况下, 将包含 OutLoggerVariable 参数, 以便为**测试 CsExUMConnectivity** cmdletand 每个步骤的成功或失败生成每个步骤所执行步骤的详细日志。 若要执行此操作, 请将 OutLoggerVariable 参数与参数值一起添加 ExumText;这会导致详细日志记录信息存储在名为 $ExumTest 的变量中。 在该示例的最后一个命令中, ToXML () 方法用于将日志信息转换为 XML 格式。 然后, 将该 XML 数据写入一个名为 C:\\的文件,\\该文件使用 Out-file cmdlet 来记录 ExumTest。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 
     $ExumTest.ToXML() | Out-File C:\Logs\ExumTest.xml 
 
-## Determining success or failure
+</div>
 
-If Exchange integration is correctly configured, you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果已正确配置 Exchange 集成, 你将收到类似于此的输出, 并将 Result 属性标记为**成功**:
 
-Latency : 00:00:00
+目标 Fqdn: atl-cs-001.litwareinc.com
 
-Error Message :
+结果: 成功
 
-Diagnosis :
+延迟: 00:00:00
 
-If the specified user can't receive notifications, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+错误消息:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果指定的用户无法接收通知, 则结果将显示为 "**失败**", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+目标 Fqdn: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+结果: 失败
 
-did not properly respond after a period of time, or
+延迟: 00:00:00
 
-established connection failed because connected host has
+错误消息: 10060, 连接尝试失败, 因为已连接的参与方
 
-failed to respond 10.188.116.96:5061
+在一段时间后未正确响应, 或者
 
-Inner Exception:A connection attempt failed because the
+已建立连接失败, 因为连接的主机已
 
-connected party did not properly respond after a period of
+无法响应 10.188.116.96: 5061
 
-time, or established connection failed because connected host
+内部异常: 连接尝试失败, 因为
 
-has failed to respond 10.188.116.96:5061
+已连接方在一段时间后未正确响应
 
-Diagnosis :
+时间, 或已建立的连接失败, 因为已连接的主机
 
-## Reasons why the test might have failed
+无法响应 10.188.116.96: 5061
 
-Here are some common reasons why **Test-CsExUMConnectivity** might fail:
+自检
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the Exchange Server is misconfigured or not yet deployed.
+<div>
 
-  - This command will fail if the Exchange Server is not reachable over your network.
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-## 另请参阅
+下面是**测试 CsExUMConnectivity**可能失败的一些常见原因:
 
-#### 其他资源
+  - 提供的参数值不正确。 如果使用, 则必须正确配置可选参数, 否则测试将失败。 重新运行不带可选参数的命令, 并查看是否成功。
 
-[Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail)
+  - 如果 Exchange 服务器配置错误或尚未部署, 此命令将失败。
+
+  - 如果无法通过网络访问 Exchange 服务器, 此命令将失败。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,50 +1,91 @@
-﻿---
-title: Lync Server 2013 网站
-TOCTitle: 网站
-ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398076(v=OCS.15)
-ms:contentKeyID: 49311813
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 网站
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Sites
+ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398076(v=OCS.15)
+ms:contentKeyID: 48183233
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e1843ac4256e71723abf59fa272155ced2010e72
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845847"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 的 Lync Server 网站
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-16_
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013 的 Lync Server 网站
 
-在 Lync Server 中，可以在网络上定义包含 Lync Server 组件的 *站点* 。站点是一组由高速度、低延迟网络（例如，单个局域网 (LAN) 或由高速光纤网络连接的两个网络）完美连接的计算机。请注意， Lync Server 站点的概念不同于 Active Directory 域服务 站点和 Microsoft Exchange Server 站点。 Lync Server 站点不必与 Active Directory 站点对应。
+</div>
 
-## 站点类型
+<div id="mainSection">
 
-每个站点可以是至少包含一个 前端池或 Standard Edition Server的 *中央站点* ，也可以是 *分支站点* 。每个分支站点只与一个中央站点相关联，分支站点的用户可以从关联的中央站点的服务器上获取大部分 Lync Server 功能。
+<div id="mainBody">
 
-每个分支站点包含以下设备之一：
+<span> </span>
 
-  - 一个 *Survivable Branch Appliance (SBA)* ，这是行业标准的刀片式服务器，其中包含在 Windows Server 上运行的 Lync Server 注册器和中介服务器。 Survivable Branch Appliance 还包含公用电话交换网 (PSTN) 网关。 Survivable Branch Appliance 是为具有 25 至 1000 个用户的分支站点而设计的。
+_**主题上次修改时间:** 2012-10-16_
 
-  - 一个 *Survivable Branch Server (SBS)* ，这是运行 Windows Server 的服务器，它满足指定的硬件要求并已安装 Lync Server 注册器和中介服务器软件。它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。Survivable Branch Server 是为具有 1000 至 5000 个用户的分支站点而设计的。
+在 Lync Server 中, 你可以在网络上定义包含 Lync Server 组件的*网站*。 站点是一组由高速度、低延迟网络（例如，单个局域网 (LAN) 或由高速光纤网络连接的两个网络）完美连接的计算机。 请注意, Lync Server 网站是来自 Active Directory 域服务站点和 Microsoft Exchange Server 站点的独立概念。 您的 Lync 服务器站点不需要对应于您的 Active Directory 站点。
 
-  - PSTN 网关和可选的 *中介服务器* 。有关此角色和其他服务器角色的详细信息，请参阅 [Lync Server 2013 中的服务器角色](lync-server-2013-server-roles.md)。
+<div>
 
-具有指向中央站点的可恢复广域网 (WAN) 链接的分支机构可以使用第三个选项，即 PSTN 网关和可选的中介服务器。具有较低复原能力链接的分支机构站点应使用可在广域网出现故障时恢复运行的 Survivable Branch Appliance 或 Survivable Branch Server。例如，在部署了 Survivable Branch Appliance 或 Survivable Branch Server 的站点中，如果将分支站点连接到中央站点的 WAN 出现故障，用户仍然可以拨打和接收企业语音呼叫。有关 Survivable Branch Appliance、Survivable Branch Server 和复原的详细信息，请参阅规划文档中的[在 Lync Server 2013 中规划企业语音恢复能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+## <a name="site-types"></a>网站类型
 
-## 站点拓扑
+每个网站都是一个*中心网站*, 其中包含至少一个前端池或一个标准版服务器或一个*分支站点*。 每个分支站点仅与一个中心网站相关联, 并且分支网站中的用户可以从关联的中心网站上的服务器中获取大多数 Lync Server 功能。
 
-部署中必须至少包含一个中央站点，可以包含多个分支站点，也可以不包含分支站点。每个分支站点都与一个中央站点关联。中央站点会为分支站点提供不在分支站点本地承载的 Lync Server 服务，如状态和会议。
+每个分支站点都包含下列内容之一:
 
-如果有多个站点，则可以将不同站点的前端池配对，以实现灾难恢复能力。有关详细信息，请参阅 [Lync Server 2013 中的高可用性和灾难恢复支持](lync-server-2013-high-availability-and-disaster-recovery-support.md)。
+  - *Survivable 分支装置 (SBA)*, 它是一台具有 Lync 服务器注册机构的行业标准刀片式服务器和在 Windows server 上运行的中介服务器。 Survivable 分支装置还包含一个公共交换电话网络 (PSTN) 网关。 Survivable 分支设备适用于25至1000用户之间的分支站点。
 
-## 另请参阅
+  - *Survivable 分支服务器 (SBS)*, 它是一台运行 Windows Server 的服务器, 它满足指定的硬件要求, 并且安装了 Lync Server 注册机构和中介服务器软件。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。 Survivable 分支服务器专为1000和5000用户之间的分支站点而设计。
 
-#### 概念
+  - PSTN 网关和*中介服务器*(可选)。 有关此服务器角色和其他服务器角色的详细信息, 请参阅[Lync server 2013 中的服务器角色](lync-server-2013-server-roles.md)。
+
+对中央网站具有弹性广域网 (WAN) 链接的分支机构可以使用第三个选项: PSTN 网关, 也可以使用中介服务器。 具有不太弹性的链接的分支 office 网站应使用 Survivable 分支装置或 Survivable 分支服务器, 这种服务可在广域网络故障的时间内提供恢复。 例如, 在具有 Survivable 分支装置或部署 Survivable 分支服务器的网站中, 如果将分支站点连接到中心网站的 WAN 已关闭, 则用户仍可以发出和接收企业语音呼叫。 有关 Survivable 分支装置、Survivable 分支服务器和复原的详细信息, 请参阅规划文档中的[Lync server 2013 中的 "规划企业语音复原](lync-server-2013-planning-for-enterprise-voice-resiliency.md)"。
+
+</div>
+
+<div>
+
+## <a name="site-topologies"></a>网站拓扑
+
+你的部署必须包含至少一个中心网站, 并且可以包含零个到多个分支网站。 每个分支站点都与一个中心站点关联。 中心网站向分支网站提供 Lync 服务器服务, 该服务不是在本地的分支网站托管, 例如状态和会议。
+
+如果你有多个网站, 则可以将不同站点上的前端池结合在一起, 以启用灾难恢复功能。 有关详细信息, 请参阅[Lync Server 2013 中的高可用性和灾难恢复支持](lync-server-2013-high-availability-and-disaster-recovery-support.md)。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [Lync Server 2013 中的服务器角色](lync-server-2013-server-roles.md)  
 [Lync Server 2013 中的高可用性和灾难恢复支持](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
-#### 其他资源
 
-[在 Lync Server 2013 中规划企业语音恢复能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+[在 Lync Server 2013 中规划企业语音恢复能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

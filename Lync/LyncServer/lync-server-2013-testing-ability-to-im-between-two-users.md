@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to IM between two users'
+---
+title: 'Lync Server 2013: 测试在两个用户之间即时消息的功能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to IM between two users
 ms:assetid: a0f3f5c6-f115-4c3f-90ac-5fdc932b417e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn743838(v=OCS.15)
-ms:contentKeyID: 62279336
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743838(v=OCS.15)
+ms:contentKeyID: 63969635
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2ea824216c456e9f673a5383eab0b788933bf53d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845601"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to IM between two users in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>在 Lync Server 2013 中的两个用户之间进行即时消息测试的功能
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-06-05_
 
 
 <table>
@@ -23,126 +43,152 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>验证计划</p></td>
+<td><p>每天</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsIM cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsIM cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsIM cmdlet verifies that a pair of test users can exchange instant messages. When called, the Test-CsIM cmdlet starts off by trying to log on a pair of test users to Lync Server. Assuming the two logons are successful, the cmdlet then starts an IM session between the two test users. (User 1 invites User 2 to an IM session, and User 2 accepts the invitation.) After verifying that messages can be exchanged between the two users, Test-CsIM then ends the IM session and logs both users off the system.
+## <a name="description"></a>说明
 
-For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsIM) cmdlet.
+CsIM cmdlet 验证一对测试用户是否可以交换即时消息。 调用后, CsIM cmdlet 将通过尝试登录到 Lync Server 的一对测试用户来启动。 假设两次登录成功, 则该 cmdlet 将在两个测试用户之间启动 IM 会话。 (用户1邀请用户2加入 IM 会话, 而用户2接受邀请。)验证消息可以在两个用户之间交换后, CsIM 将结束 IM 会话并将这两个用户从系统注销。
 
-## Running the Test
+有关详细信息, 请参阅[CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
 
-The Test-CsIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+CsIM cmdlet 可以使用一对预配置的测试帐户运行 (请参阅设置运行 Lync Server 测试的测试帐户) 或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查, 只需指定正在测试的 Lync Server 池的 FQDN。 例如：
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsIM:
+若要使用实际用户帐户运行此检查, 必须为每个帐户创建两个 Windows PowerShell 凭据对象 (包含帐户名和密码的对象)。 然后, 当你调用 Test-CsIM 时, 你必须包含这些凭据对象和两个帐户的 SIP 地址:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsIM) cmdlet.
+有关详细信息, 请参阅[CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
 
-## Determining Success or Failure
+</div>
 
-If the two users can complete an instant messaging session, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-Result : Success
+如果两个用户可以完成即时消息会话, 则会收到与此类似的输出, 结果属性标记为**成功:**
 
-Latency : 00:00:06.6630911
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+结果: 成功
 
-Diagnosis :
+延迟:00:00: 06.6630911
 
-If the test users can't complete the session, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+时发生
 
-TargetFqdn : atl-cs-001.litwareinc.com
+自检
 
-Result : Failure
+如果测试用户无法完成会话, 则结果将显示为 "失败", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 504, Server time-out
+结果: 失败
 
-Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See
+延迟: 00:00:00
 
-response code and reason phrase.
+错误: 504, 服务器超时
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+诊断: ErrorCode = 2, Source = atl-litwareinc, Reason = 请参阅
 
-For example, the previous output states that the test failed because the specified user couldn't be found. You can determine whether a SIP address is valid (and whether the user assigned that SIP address was enabled for Lync Server) by running this command:
+响应代码和原因短语。
+
+Microsoft DiagnosticHeader
+
+例如, 以前的输出表明由于找不到指定用户, 测试失败。 可通过运行以下命令确定 SIP 地址是否有效 (以及用户是否已为 Lync Server 启用了该 SIP 地址):
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-If Test-CsIM fails, then you might want to rerun the test, this time including the Verbose parameter:
+如果 CsIM 失败, 则可能需要重新运行测试, 这一次包括 Verbose 参数:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsIM will return a step-by-step account of each action it tried when it checked the ability of the two test users to take part in an IM session. For example, here’s sample output that occurs when an incorrect set of user credentials (in this case, an incorrect password) is supplied to Test-CsIM:
+当包含 Verbose 参数时, CsIM 会在检查两个测试用户是否参与 IM 会话的能力时返回它尝试的每个操作的分步帐户。 例如, 以下是在为 CsIM 提供错误的用户凭据集 (在此情况下, 密码不正确) 时发生的示例输出:
 
-Sending Registration request :
+正在发送注册请求:
 
-Target Fqdn = atl-cs-011.litwareinc.com
+目标 Fqdn = atl-cs-011.litwareinc.com
 
-User Sip Address = sip:kenmyer@litwareinc.com
+用户 Sip 地址 = sip:kenmyer@litwareinc.com
 
-Registrar Port = 5061
+注册机构端口 = 5061
 
-Auth Type 'IWA' is selected.
+已选择身份验证类型 "IWA"。
 
-Registration hit against sip/atl-cs-001.litwareinc.com
+对 sip/atl-cs-001 的注册命中率 litwareinc
 
-'Register' activity completed in '0.0601795' secs.
+"Register" 活动在 "0.0601795" 秒内完成。
 
-An exception 'The log on was denied. Check that the correct credentials are being used and the account is active.' occurred during the Workflow.
+"登录被拒绝" 异常。 检查使用的凭据是否正确, 帐户是否处于活动状态。 ' 在工作流期间发生。
 
-## Reasons Why the Test Might Have Failed
+</div>
 
-Here are some common reasons why Test-CsIM might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+下面是测试 CsIM 可能失败的一些常见原因:
+
+  - 您指定的用户帐户无效。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - 用户帐户有效, 但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户, 请运行类似如下的命令:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.
+    如果 Enabled 属性设置为 False, 表示当前未对 Lync Server 启用用户。
 
-  - The instant messaging service might not be available. With Lync Server, you can configure the system so that IM is not available if the archiving database cannot be accessed. You can verify that by running a command similar to the following:
+  - 即时消息服务可能不可用。 使用 Lync Server, 你可以配置系统, 以便在无法访问存档数据库时即时消息不可用。 你可以通过运行如下所示的命令来验证该命令:
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available. You can return the locations of your archiving databases by using the following command:
+    如果 BlockOnArchiveFailure 设置为 True, 则应确定存档数据库是否可用。 你可以使用以下命令返回存档数据库的位置:
     
         Get-CsService -ArchivingDatabase
 
-  - The Archiving server might not be available. You can retrieve the FQDN of your Archiving servers by using this command:
+  - 存档服务器可能不可用。 你可以使用以下命令检索存档服务器的 FQDN:
     
         Get-CsService -ArchivingServer
     
-    You can then ping the appropriate server to verify that it is available. For example:
+    然后, 你可以 ping 相应的服务器以验证其是否可用。 例如：
     
         ping atl-archiving-001.litwareinc.com
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
