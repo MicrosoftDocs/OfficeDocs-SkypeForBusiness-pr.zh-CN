@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：基于位置的路由不支持的功能
-TOCTitle: 基于位置的路由不支持的功能
-ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994071(v=OCS.15)
-ms:contentKeyID: 52061115
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：基于位置的路由不支持的功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capabilities not supported by Location-Based Routing
+ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
+ms:contentKeyID: 51803982
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ca2d775fc17d0919ceb31a38b242e54d37b6a55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中基于位置的路由不支持的功能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-03-12_
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中基于位置的路由不支持的功能
 
-基于位置的路由不适用于以下类型的交互。当 Lync 终结点与 PSTN 终结点使用这些功能进行交互时，不强制应用基于位置的路由。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-03-12_
+
+基于位置的路由不适用于以下类型的交互。 当 Lync 终结点使用这些功能与 PSTN 终结点交互时, 不会强制执行基于位置的路由。
 
   - PSTN 电话拨入式会议
 
@@ -27,7 +47,7 @@ _**上一次修改主题：** 2014-03-12_
 
   - 通过组内呼叫应答检索的传入 PSTN 呼叫
 
-要对以下列表中的交互类型强制应用基于位置的路由规则，必须为会议启用基于位置的路由：
+若要对下表中的交互类型强制使用基于位置的路由规则, 必须为会议启用基于位置的路由:
 
   - PSTN 电话拨出式会议
 
@@ -35,11 +55,25 @@ _**上一次修改主题：** 2014-03-12_
 
   - 涉及 PSTN 终结点的咨询转接
 
-要为会议启用基于位置的路由，请参阅[基于位置的路由会议](lync-server-2013-location-based-routing-for-conferencing.md)。
+若要为会议启用基于位置的路由, 请参阅[Lync Server 2013 中的会议基于位置的路由](lync-server-2013-location-based-routing-for-conferencing.md)。
 
-## 另请参阅
+<div>
 
-#### 其他资源
+## <a name="see-also"></a>另请参阅
 
-[在 Lync Server 2013 中规划基于位置的路由](lync-server-2013-planning-for-location-based-routing.md)
+
+[在 Lync Server 2013 中规划基于位置的路由](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

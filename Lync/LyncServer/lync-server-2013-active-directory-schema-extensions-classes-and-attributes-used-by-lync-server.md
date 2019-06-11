@@ -1,41 +1,63 @@
-﻿---
-title: Lync Server 2013：Lync Server 使用的 Active Directory 架构扩展、类和属性
-TOCTitle: Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
-ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398379(v=OCS.15)
-ms:contentKeyID: 49312901
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Lync Server 使用的 Active Directory 架构扩展、类和属性
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory schema extensions, classes, and attributes used by Lync Server 2013
+ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398379(v=OCS.15)
+ms:contentKeyID: 48184188
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3dc883c1c85acbe41bec6a25467e50800c036996
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837958"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-06-19_
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
 
-本参考部分包括以下信息：
+</div>
 
-  - Lync Server 2013 中新增或更改的 Active Directory 架构扩展
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-19_
+
+本参考部分包含以下信息:
+
+  - Lync Server 2013 的新的或已更改的 Active Directory 架构扩展
     
-    Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。Active Directory 全局编录包含林中所有对象的副本，以及每个对象的属性子集。本节介绍 Lync Server 2013 中新增或更改的类和属性。
+    Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。 该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。 Active Directory 全局编录包含林的所有对象的副本, 以及每个对象的属性子集。 本部分介绍 Lync Server 2013 中新增或更改的类和属性。
 
-  - Lync Server 使用的所有类及其说明
+  - Lync Server 使用的所有类, 以及每个类的说明
 
-  - Lync Server 使用的所有属性及其说明
+  - Lync Server 使用的所有属性, 以及每个属性的说明
 
-  - Lync Server 使用的类列表以及每个类可能包含的属性
+  - Lync Server 使用的类列表, 每个类都可能包含的属性
 
-  - 全局设置和对象，以及在林准备过程中创建的通用服务组和管理组
+  - 全局设置和对象, 以及林准备期间创建的通用服务和管理组
 
-  - 域准备过程中在域根和内置容器中创建的访问控制项 (ACE)
+  - 在域准备期间在域根和内置容器上创建的访问控制条目 (Ace)
 
-  - 通过 Grant\_CsSetupPermission cmdlet 对 Active Directory 组织单位 (OU) 所做的更改。
+  - 通过授予\_CsSetupPermission Cmdlet 对 Active Directory 组织单位 (OU) 所做的更改。
 
-  - 通过 Grant\_CsOUPermission cmdlet 对 Active Directory OU 所做的更改。
+  - 通过授予\_CsOUPermission Cmdlet 在 ACTIVE Directory OU 上进行的更改。
 
-## 本节内容
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中的架构更改](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
@@ -43,13 +65,25 @@ _**上一次修改主题：** 2012-06-19_
 
   - [Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)
 
-  - [Lync Server 2013 中的按类分组的架构属性](lync-server-2013-schema-attributes-by-class.md)
+  - [Lync Server 2013 中按类分类的架构属性](lync-server-2013-schema-attributes-by-class.md)
 
   - [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [Lync Server 2013 中的域准备所做的更改](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [Lync Server 2013 中的域准备进行的更改](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013 中的 Grant-CsSetupPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013 中的 "授权-CsSetupPermission" 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013 中的 Grant-CsOUPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013 中的 "授权-CsOUPermission" 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

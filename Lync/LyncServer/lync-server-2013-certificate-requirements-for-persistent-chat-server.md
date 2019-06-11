@@ -1,19 +1,49 @@
-﻿---
-title: Lync Server 2013：持久聊天服务器的证书要求
-TOCTitle: 持久聊天服务器的证书要求
-ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412990(v=OCS.15)
-ms:contentKeyID: 49314675
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：持久聊天服务器的证书要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for Persistent Chat server
+ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412990(v=OCS.15)
+ms:contentKeyID: 48185781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5450d3be1e4ff49b65c7bf248c740ad0c4e7f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中持久聊天服务器的证书要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-03_
+# <a name="certificate-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的证书要求
 
-要安装 持久聊天服务器，对于运行文件上载/下载的 持久聊天 Web 服务的每台服务器，您必须拥有由 Lync Server 2013 内部服务器所使用的同一 CA 所颁发的证书。在开始 持久聊天安装之前，确保拥有所需的证书，尤其是使用外部 CA 时。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-03_
+
+若要安装持久聊天服务器, 你必须拥有与 Lync Server 2013 内部服务器使用的证书相同的证书, 该证书是为文件上载/下载运行持久聊天 Web 服务的每台服务器的内部服务器。 在开始永久聊天安装之前, 请确保您拥有所需的证书, 尤其是在使用外部 CA 时。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

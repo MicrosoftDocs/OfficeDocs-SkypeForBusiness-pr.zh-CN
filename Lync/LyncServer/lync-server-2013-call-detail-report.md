@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：呼叫详情报告
-TOCTitle: 呼叫详情报告
-ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558637(v=OCS.15)
-ms:contentKeyID: 49312535
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 呼叫详细信息报告'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Detail Report
+ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
+ms:contentKeyID: 48183843
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837712"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的呼叫详情报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫详细信息报告
 
-呼叫详情报告提供单个呼叫的详细信息；该报告包括 Lync Server 收集的几乎所有用户体验质量指标，并分为以下报告章节：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-02-05_
+
+通话详细信息报告提供单个通话的详细信息, 请参阅。此报告包括由 Lync Server 收集的几乎所有经验的质量指标和统计信息, 分为如下报表部分:
 
   - 呼叫信息
 
@@ -31,7 +51,7 @@ _**上一次修改主题：** 2015-03-09_
 
   - 视频流（呼叫者到被叫方）
 
-  - 视频流（被叫方到呼叫者）
+  - 音频流（被叫方到呼叫者）
 
   - 视频流（被叫方到呼叫者）
 
@@ -39,21 +59,23 @@ _**上一次修改主题：** 2015-03-09_
 
 呼叫详情报告在您尝试准确确定指定呼叫遇到媒体质量问题的原因时最为有用。
 
-## 访问呼叫详情报告
+<div>
+
+## <a name="accessing-the-call-detail-report"></a>访问呼叫详情报告
 
 可以从下列任意报告中访问呼叫详情报告：
 
-  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)（单击“呼叫量”或“质量欠佳的呼叫百分比”指标）
+  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)(通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
 
-  - [Lync Server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)（单击“呼叫量”或“质量欠佳的呼叫百分比”指标）
+  - [Lync Server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)(通过单击 "呼叫" 或 "差通话百分比" 指标)
 
-  - [媒体质量比较报告](lync-server-2013-media-quality-comparison-report.md)（单击[Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)，然后单击“详细信息”指标）。
+  - [Lync server 2013 中的 "媒体质量比较" 报表](lync-server-2013-media-quality-comparison-report.md)(单击[lync server 2013 中的 "呼叫列表" 报表](lync-server-2013-call-list-report.md), 然后单击 "详细信息跃点数")。
 
-  - [Lync Server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（单击“呼叫量”或“质量欠佳的呼叫百分比”指标）
+  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)(通过单击 "呼叫" 卷或 "不良呼叫百分比" 指标)
 
-  - [Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)（单击“详细信息”指标）
+  - [Lync Server 2013 中的通话清单报告](lync-server-2013-call-list-report.md)(单击详细信息指标)
 
-通过单击下列任一指标可以从呼叫详情报告中访问 [Lync Server 2013 中的设备报告](lync-server-2013-device-report.md)：
+从 "呼叫详细信息" 报告中, 您可以通过单击以下任一指标[在 Lync Server 2013 中访问设备报告](lync-server-2013-device-report.md):
 
   - 捕获设备
 
@@ -61,23 +83,35 @@ _**上一次修改主题：** 2015-03-09_
 
 您还可以通过单击“A/V 边缘服务器”指标访问服务器媒体质量趋势报告。
 
-## 充分利用呼叫详情报告
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-call-detail-report"></a>充分利用呼叫详情报告
 
 呼叫详情报告通常包括 250 多个不同的指标，其中包括麦克风时间戳偏移、低 SNR 时间和近端回声时间等项目。如果您不记得所有这些指标实际度量的内容，请尝试将鼠标指针置于指标标签上方；通常，将显示描述该指标的工具提示。
 
-如果查找指标时遇到问题，请在搜索框中键入指标标签的部分内容，然后单击“查找”。例如，如果您无法找到“低 SNR 时间”指标，请在搜索框中键入“SNR”，然后单击“查找”。
+如果查找指标时遇到问题, 请在 "搜索" 框中键入 "指标" 标签的一部分, 然后单击 "查找"。 例如, 如果找不到低 SNR 时间度量值, 请在 "搜索" 框中键入 "SNR", 然后单击 "查找"。
 
 请注意，报告仅跟踪关于呼叫的信息。不记录呼叫本身。
 
-## 筛选器
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
 
 无。您无法筛选呼叫详情报告。
 
-## 指标
+</div>
+
+<div>
+
+## <a name="metrics"></a>指标
 
 下表列出了每个呼叫的呼叫详情报告中提供的信息。
 
-### 呼叫详情报告指标
+### <a name="call-detail-report-metrics"></a>呼叫详情报告指标
 
 <table>
 <colgroup>
@@ -89,7 +123,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -205,4 +239,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

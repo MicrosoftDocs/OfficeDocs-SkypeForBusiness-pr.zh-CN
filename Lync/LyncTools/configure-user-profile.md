@@ -1,162 +1,249 @@
-﻿---
-title: Configure User Profile
+---
+title: 配置用户配置文件
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945594(v=OCS.15)
-ms:contentKeyID: 52061185
-ms.date: 08/03/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
+ms:contentKeyID: 51541419
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838053"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configure User Profile
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-24_
+# <a name="configure-user-profile"></a>配置用户配置文件
 
-The tools included in the Lync Server 2013 Stress and Performance Tool package enable you to create and configure test user accounts that you can use to run load simulations. Use the Lync Server 2013 User Creation Tool to create the users. (For details, see [Create Users and Contacts](create-users-and-contacts.md).) After users are created, configure the user profiles by using the Lync Server 2013 Load Configuration Tool.
+</div>
 
-## Running the Lync Server 2013 Load Configuration Tool
+<div id="mainSection">
 
-To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
+<div id="mainBody">
 
-> [!IMPORTANT]
-> The user-specific values specified in UserProfileGenerator must match the values specified in the Lync Server 2013 User Creation Tool (UserProvisioningTool) for the pool.
+<span> </span>
 
+_**主题上次修改时间:** 2018-10-11_
 
-Fill in the fields on each tab of the Lync Server 2013 Load Configuration Tool, as described in the following sections.
+可使用 Lync Server 2013 应力和性能工具包中包含的工具创建和配置可用于运行负载模拟的测试用户帐户。 使用 Lync Server 2013 用户创建工具创建用户。 (有关详细信息, 请参阅[创建用户和联系人](create-users-and-contacts.md)。)创建用户后, 使用 Lync Server 2013 加载配置工具配置用户配置文件。
 
-## Common Configuration
+<div>
 
-The **Common Configuration** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure. Fill in the fields of the **Common Configuration** tab, as described in the following steps.
+## <a name="running-the-lync-server-2013-load-configuration-tool"></a>运行 Lync Server 2013 加载配置工具
 
-![“常见配置”选项卡。](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "“常见配置”选项卡。")
+若要配置用户配置文件, 请运行 Lync Server 2013 加载配置工具 (UserProfileGenerator) 并填写每个选项卡。 对于运行模拟的每个客户端计算机, UserProfileGenerator 都会生成一个目录。 每个客户端目录还附带一个脚本来启动 Lync Server 2013 应力和性能工具 (LyncPerfTool) 的所有实例。
 
-1.  In **Number of Available Machines**, type or click the number of computers that you want to use to run LyncPerfTool.exe. We recommend that you have one computer for every 4,500 users that you will be simulating. That number may vary if you reduce the load level or if you use only a subset of the available features. (Load levels are set on the **General Scenarios** tab.)
+<div>
 
-2.  In **Prefix for User Names**, type the prefix for the user name of the users. To log in, the Uniform Resource Identifier (URI) will be: UserPrefix\[User Start Index…(Number Of Users-1)\]@User Domain.
-
-3.  In **Password for All Users**, enter the password that was used for creating the users. If you leave this field empty, the username will be used as the password.
-
-4.  In **User Start Index**, click or type the index of the first user to be configured. You can configure different ranges for different types or levels of load, but you must run UserProfileGenerator.exe once per the range that you want to configure.
-
-5.  In **Number of Users**, click or type the total number of users you are going to configure.
-
-6.  In **User Domain**, type the domain used for the SIP URI. This is used to construct the SIP URI of each user to log on to the Lync Server 2013 Front End Server or Standard Edition server. It can be different from the account domain.
-
-7.  In **Account Domain**, type the Active Directory 域服务 domain logon.
-
-8.  Enter the maximum number of concurrent endpoints in **Sign In Per Second (per instance)** for which you want the tool to log in all the endpoints/users. The recommended rate is \<=2 per second/standard SKU FE.
-
-9.  In **Access Proxy or Pool FQDN**, type the fully qualified domain name (FQDN) of the server that you want the clients to connect to. If the users are logging on externally, specify the access proxy. If the users are internal, specify the FQDN of their pool or Standard Edition server.
-
-10. In **Port**, click or type the port that you want users to use for SIP (the default is 5061).
-
-For External Network Server Settings, specify the **Access Proxy or Pool FQDN** and the **Port**. These settings are used only for External endpoints load simulation.
-
-## General Scenarios
-
-The **General Scenarios** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
-
-Configure the load levels and parameters for each of the general scenarios that you want to run, or leave disabled.
-
-![“常规方案”选项卡。](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "“常规方案”选项卡。")
-
-1.  In **Instant Messaging**, which includes peer-to-peer and conferencing, specify the appropriate value for the Load Level.
-    
-    > [!NOTE]
-    > Load level values for all fields (except Location Information Services) are <strong>Disabled</strong>, <strong>Low</strong>, <strong>Medium</strong>, <strong>High</strong>, and <strong>Custom</strong>. When Low, Medium, High, or Custom is selected, configurations will be generated for each modality and client. High will result in the maximum supported load to be generated for the server, Medium corresponds to 60 percent of the load, and Low corresponds to 30 percent of the load.
-
-
-2.  In **Audio Conferencing**, which is audio conferencing only, specify the appropriate value for Load Level. Peer-to-peer calls are covered in the Voice Scenarios section later in this topic. To enable MultiView, open the **Advanced** tab for that modality.
-
-3.  In **Application Sharing**, specify the appropriate value for Load Level.
-
-4.  In **Data Collaboration**, which includes data conferencing, specify the appropriate value for Load Level.
-
-5.  In **Distribution List Expansion**, specify the appropriate value for Load Level. You must also click the **Advanced** button, and then fill in the fields with the same values that you configured on the **Distribution List** tab of the Lync Server User Creation Tool (UserProvisioningTool.exe). For details about these fields, see [Create Users and Contacts](create-users-and-contacts.md)
-
-6.  In **Address Book Web Query**, which is the address book lookup service (not the address book file download), specify the appropriate value for Load Level. To enable address book downloads, click the corresponding **Advanced** button, and then set **EnableABSDownload** to true.
-
-7.  In **Response Group Service**, specify the appropriate value for Load Level. You must also click the corresponding **Advanced** button, and then specify the URIs of the response groups you have already created when provisioning Response Group Service agents. You must specify at least one response group. Use semicolons to separate multiple response groups. Update RGSUriSuffixStartIndex and RGSUriSuffixEndIndex to the actual values.
-
-8.  In **Location Information Services**, select the appropriate value for Load Level. The load level for Location Information Services must be **Enabled** or **Disabled**.
 
 > [!IMPORTANT]  
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it, and a set of check boxes that enable variations of the scenarios. <strong>Ad-hoc</strong> means to generate simulation of conferences that will be created throughout the hour. <strong>Large Conf</strong> means that Large Conference Scenario will be simulated. <strong>External</strong> means to also simulate external users.<br />
-> These buttons and check boxes allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and make customization possible. For each scenario on the <strong>General Scenarios</strong> tab (except for Location Information Services), if the value of Load Level is <strong>Custom</strong>, then the conversation rate will be calculated using the corresponding field in the <strong>Advanced</strong> dialog box. The field name differs, depending on the scenario, but the field description will state, &quot;NOTE: This number will only be used if Custom is selected from the drop-down menu.&quot; In general, the values <strong>High</strong>, <strong>Medium</strong>, and <strong>Low</strong> will alter the conversation rates per modality in line with the User Model that is a balance of all the scenarios. If there is a need to change the load level per modality due to a difference in expected usage, we recommend using a <strong>Custom</strong> conversation rate.<br />
-> 
+> 在 UserProfileGenerator 中指定的用户特定值必须与用于池的 Lync Server 2013 用户创建工具 (UserProvisioningTool) 中指定的值相匹配。
 
 
 
-## Voice Scenarios
+</div>
 
-The **Voice Scenarios** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+在 Lync Server 2013 加载配置工具的每个选项卡上填写字段, 如下部分所述。
 
-Use the **Voice Scenarios** tab to configure all of the voice-related scenarios.
+<div>
 
-![“语音方案”选项卡。](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "“语音方案”选项卡。")
+## <a name="common-configuration"></a>常见配置
 
-1.  In **VoIP**, click the **Advanced** button, and then provide values for the **PhoneAreaCode** and **LocationProfile** (dial plan) fields. You must also specify a value for **Load Level**. If Load Level for **VoIP** and **UC/PSTN Gateway** is Enabled, then a public switched telephone network (PSTN) to unified communications (UC) configuration file will always be generated that will simulate external calls.
+下图显示了 Lync Server 2013 加载配置工具的 "**通用配置**" 选项卡。 填写 "**通用配置**" 选项卡的字段, 如以下步骤中所述。
 
-2.  In **UC/PSTN Gateway**, specify a value for Load Level. If you select a load level other than **Disabled**, you must supply a value for **PSTN Area Code** by clicking the **Add** button under Mediation Server and PSTN. Verify that you have a route configured for that area code.
+!["常见配置" 选项卡。](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "\"常见配置\" 选项卡。")
+
+1.  在 "**可用计算机数**" 中, 键入或单击要用于运行 LyncPerfTool 的计算机数。 我们建议你为要模拟的每个4500用户提供一台计算机。 如果你降低负载级别或仅使用可用功能的子集, 则该数字可能会有所不同。 (负载级别在 "**常规方案**" 选项卡上设置。)
+
+2.  在 "**用户名前缀**" 中, 键入用户用户名的前缀。 若要登录, 统一资源标识符 (URI) 将为: UserPrefix\[用户开始索引 .。。(用户数-1)\]@User 域。
+
+3.  在 "**为所有用户输入密码**" 中, 输入用于创建用户的密码。 如果将此字段保留为空, 则用户名将用作密码。
+
+4.  在 "**用户开始索引**" 中, 单击或键入要配置的第一个用户的索引。 你可以为不同类型或不同级别的负载配置不同的范围, 但必须针对要配置的区域运行 UserProfileGenerator 一次。
+
+5.  在 "**用户数**" 中, 单击或键入要配置的用户总数。
+
+6.  在 "**用户域**" 中, 键入用于 SIP URI 的域。 这用于构造每个用户的 SIP URI 以登录到 Lync Server 2013 前端服务器或标准版服务器。 它可以不同于帐户域。
+
+7.  在 "**帐户域**" 中, 键入 Active Directory 域服务域登录。
+
+8.  输入希望该工具在所有终结点/用户中记录的最大并发终结点的最大数量 **(按实例)** 。 建议的费率为\<= 每秒 2/标准 SKU FE。
+
+9.  在 "**访问代理服务器" 或 "池 FQDN**" 中, 键入希望客户端连接到的服务器的完全限定的域名 (FQDN)。 如果用户在外部登录, 请指定访问代理服务器。 如果用户是内部用户, 请指定其池或标准版服务器的 FQDN。
+
+10. 在 "**端口**" 中, 单击或键入希望用户用于 SIP 的端口 (默认值为 5061)。
+
+对于外部网络服务器设置, 请指定 "**访问代理服务器" 或 "池 FQDN** " 和 "**端口**"。 这些设置仅用于外部终结点负载模拟。
+
+</div>
+
+<div>
+
+## <a name="general-scenarios"></a>常规方案
+
+下图显示了 Lync Server 2013 加载配置工具的 "**常规方案**" 选项卡。
+
+为要运行的每个常规方案配置负载级别和参数, 或保持禁用。
+
+!["常规方案" 选项卡。](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "\"常规方案\" 选项卡。")
+
+1.  在包含对等和会议的**即时消息**中, 为负载级别指定适当的值。
     
-    > [!NOTE]
-    > You can use either the Lync Server 控制面板 or the Lync Server 命令行管理程序 to verify voice route configuration.
+    <div>
+    
 
+    > [!NOTE]  
+    > 所有字段 (位置信息服务除外) 的负载级别值已<STRONG>禁用</STRONG>、<STRONG>低</STRONG>、<STRONG>中</STRONG>、<STRONG>高</STRONG>和<STRONG>自定义</STRONG>。 选中 "低"、"中"、"高" 或 "自定义" 时, 将为每个模态和客户端生成配置。 "高" 将导致为服务器生成的最大支持负载, "中" 对应于 60% 的负载, "低" 对应于负载的 30%。
 
-3.  In **Conferencing Attendant**, specify a value for Load Level. Selecting a load level (other than **Disabled**) will enable the **Telephone Number** field. Enter the telephone number of the Auto Attendant that you want to use. Also, click the **Advanced** button, and then specify a value for the **LocationProfile** field.
+    
+    </div>
 
-4.  In **Call Park Service**, specify the appropriate value for **Load Level**.
+2.  在仅音频会议的**音频会议**中, 为负载级别指定适当的值。 对等通话将在本主题后面的 "语音方案" 部分中介绍。 若要启用 "可查看", 请打开该模态的 "**高级**" 选项卡。
 
-5.  In **Mediation Server and PSTN**, for each Mediation Server that you want to use, you must have a separate PSTN simulator. After you have determined which client you are going to use as the simulator, you need to configure your Mediation Server to route calls to that computer on the PSTN Simulator port that you configured. Click **Add** to configure the value for the Mediation Server.
+3.  在 "**应用程序共享**" 中, 为负载级别指定适当的值。
+
+4.  在**数据协作**(包括数据会议) 中, 为负载级别指定适当的值。
+
+5.  在**通讯组列表扩展**中, 为加载级别指定适当的值。 您还必须单击 "**高级**" 按钮, 然后使用您在 Lync Server 用户创建工具 (UserProvisioningTool) 的 "**通讯组列表**" 选项卡上配置的相同值填充字段。 有关这些字段的详细信息, 请参阅[创建用户和联系人](create-users-and-contacts.md)
+
+6.  在 "**通讯簿" Web 查询**中, 它是通讯簿查找服务 (而不是通讯簿文件下载), 为加载级别指定适当的值。 若要启用通讯簿下载, 请单击相应的 "**高级**" 按钮, 然后将**EnableABSDownload**设置为 true。
+
+7.  在 "**响应组服务**" 中, 为负载级别指定适当的值。 您还必须单击相应的 "**高级**" 按钮, 然后指定在设置响应组服务代理时已创建的响应组的 uri。 必须至少指定一个响应组。 使用分号分隔多个响应组。 将 RGSUriSuffixStartIndex 和 RGSUriSuffixEndIndex 更新为实际值。
+
+8.  在 "**位置信息服务**" 中, 为 "负载级别" 选择适当的值。 必须**启用**或**禁用**位置信息服务的负载级别。
+
+<div>
+
 
 > [!NOTE]  
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each scenario on the <strong>Voice Scenarios</strong> tab, if the value of <strong>Load Level</strong> is <strong>Custom</strong>, then the conversation rate will be calculated by using the corresponding field in the <strong>Advanced</strong> dialog box. The field name differs, depending on the scenario, but the field description will state, &quot;NOTE: This number will only be used if Custom is selected from the drop-down menu.&quot;
+> 每个方案都有一个位于它旁边的 "<STRONG>高级</STRONG>" 按钮, 以及一组支持方案变体的复选框。 <STRONG></STRONG>临时方式可生成将在一小时内创建的会议的模拟。 <STRONG>大型</STRONG>会议意味着将模拟大型会议方案。 <STRONG>外部</STRONG>方式也用于模拟外部用户。<BR>这些按钮和复选框允许访问特定于每个方案的值, 这些值将更改 Lync Server 2013 应力和性能工具 (LyncPerfTool) 的行为, 并使自定义设置成为可能。 对于 "<STRONG>常规方案</STRONG>" 选项卡上的每个方案 ("位置信息服务" 除外), 如果 "负载级别" 的值为 "<STRONG>自定义</STRONG>", 则使用 "<STRONG>高级</STRONG>" 对话框中对应的字段计算对话费率。 字段名称不同, 具体取决于方案, 但字段说明将显示为 "注意: 只有从下拉菜单中选择" 自定义 "时, 才会使用此号码。 通常情况下, "<STRONG>高</STRONG>"、"<STRONG>中</STRONG>" 和 "<STRONG>低</STRONG>" 值将根据每个模式更改每个模式的会话费率以及所有方案的平衡。 如果由于预期用法的差异而需要更改每个模态的负载级别, 建议使用<STRONG>自定义</STRONG>对话费率。<BR>
 
 
-## Reach
 
-Reach is a new experience in Lync Server 2013 that supports conferencing scenarios through the Unified Communications Web API (UCWA) server that is installed on the Front End server. The **Reach** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+</div>
 
-Use the **Reach** tab to configure all of the reach-related scenarios.
+</div>
 
-![“联系”选项卡。](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "“联系”选项卡。")
+<div>
 
-1.  Click the **Advanced** button next to **General Reach Settings**. Set the field **UcwaTargetServerUrl** to the Director pool virtual IP (VIP) or the Front End pool VIP.
+## <a name="voice-scenarios"></a>语音方案
 
-2.  In **Application Sharing**, **Data Collaboration**, and **IM**, select the appropriate value for **Load Level**.
+下图显示了 Lync Server 2013 加载配置工具的 "**语音方案**" 选项卡。
+
+使用 "**语音方案**" 选项卡配置所有语音相关方案。
+
+![语音方案 "选项卡。](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "语音方案 \"选项卡。")
+
+1.  在**VoIP**中, 单击 "**高级**" 按钮, 然后为 " **PhoneAreaCode** " 和 " **LocationProfile** " (拨号计划) 字段提供值。 你还必须为**负载级别**指定一个值。 如果启用了**VoIP**和**UC/PSTN 网关**的负载级别, 则将始终生成一个将模拟外部调用的公共交换电话网络 (PSTN) 到统一通信 (UC) 配置文件。
+
+2.  在 " **UC/PSTN 网关**" 中, 为负载级别指定一个值。 如果选择 "**禁用**" 以外的加载级别, 则必须通过单击 "中介服务器和 PSTN" 下的 "**添加**" 按钮为**PSTN 区域代码**提供值。 验证您是否有为该区号配置的路线。
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > 你可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序来验证语音路由配置。
+
+    
+    </div>
+
+3.  在**会议助理**中, 为负载级别指定一个值。 选择一个负载级别 ("**禁用**" 除外) 将启用 "**电话号码**" 字段。 输入要使用的自动助理的电话号码。 此外, 单击 "**高级**" 按钮, 然后为 " **LocationProfile** " 字段指定一个值。
+
+4.  在 "**呼叫寄存服务**" 中, 为**负载级别**指定适当的值。
+
+5.  在**中介服务器和 PSTN**中, 对于要使用的每个中介服务器, 您必须拥有单独的 PSTN 模拟器。 确定要用作模拟器的客户端后, 您需要配置中介服务器以将呼叫路由到您配置的 PSTN 模拟器端口上的该计算机。 单击 "**添加**" 以配置中介服务器的值。
+
+<div>
+
 
 > [!NOTE]  
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each of the Reach scenarios, if the <strong>Load Level</strong> is <strong>Custom</strong>, then the value specified in the <strong>ConversationsPerHour</strong> field is used instead of the default
+> 每个方案旁边都有一个 "<STRONG>高级</STRONG>" 按钮。 这些按钮允许访问特定于每个方案的值, 这些值将更改 Lync Server 2013 应力和性能工具 (LyncPerfTool) 的行为, 并启用自定义。 对于 "<STRONG>语音方案</STRONG>" 选项卡上的每个方案, 如果 "<STRONG>负载级别</STRONG>" 的值为 "<STRONG>自定义</STRONG>", 则将使用 "<STRONG>高级</STRONG>" 对话框中的相应字段计算对话费率。 字段名称不同, 具体取决于方案, 但字段说明将显示为 "注意: 只有从下拉菜单中选择" 自定义 "时, 才会使用此号码。
 
 
-Use the **Mobility** tab to configure all of the mobility-related scenarios.
 
-![“移动性”选项卡。](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "“移动性”选项卡。")
+</div>
 
-1.  Click the **Advanced** button next to **Mobility (UCWA)**. Set the field **UcwaTargetServerUrl** to the Director pool virtual IP (VIP) or the Front End pool VIP.
+</div>
 
-2.  In **Presence and P2P Instant Messaging\\Audio**, select the appropriate value for **Load Level** to enable Mobility Scenario simulation.
+<div>
+
+## <a name="reach"></a>到达
+
+在 Lync Server 2013 中, 通过在前端服务器上安装的统一通信 Web API (UCWA) 服务器支持会议方案, 达到新的体验。 下图显示了 Lync Server 2013 加载配置工具的 "**访问**" 选项卡。
+
+使用 " **** 转到" 选项卡配置所有与访问相关的方案。
+
+!["访问" 选项卡。](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "\"访问\" 选项卡。")
+
+1.  单击 "**常规访问设置**" 旁边的 "**高级**" 按钮。 将字段**UcwaTargetServerUrl**设置为控制器池虚拟 IP (vip) 或前端池 VIP。
+
+2.  在 "**应用程序共享**"、"**数据协作**" 和 " **IM**" 中, 选择适用于**负载级别**的值。
+
+<div>
+
 
 > [!NOTE]  
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each of the Reach scenarios, if the <strong>Load Level</strong> is <strong>Custom</strong>, then the value specified in the <strong>ConversationsPerHour</strong> field is used instead of the default.
+> 每个方案旁边都有一个 "<STRONG>高级</STRONG>" 按钮。 这些按钮允许访问特定于每个方案的值, 这些值将更改 Lync Server 2013 应力和性能工具 (LyncPerfTool) 的行为, 并启用自定义。 对于每个访问情形, 如果<STRONG>负载级别</STRONG>为 "<STRONG>自定义</STRONG>", 则使用 " <STRONG>ConversationsPerHour</STRONG> " 字段中指定的值, 而不是默认值
 
 
-## Summary
 
-The **Summary** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+</div>
 
-![“摘要”选项卡。](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "“摘要”选项卡。")
+使用 "**移动**" 选项卡配置所有与移动相关的方案。
 
-The **Summary** tab indicates which users to use for each of the scenarios. It is possible to manually configure user number ranges by selecting the **Enable Custom User Range Generation** check box, and then double-clicking the scenario in the table that has the **User Range** that you want to customize. Check (RunClient.bat) Add sign-in delay when starting, in order to include delays in the generated batch files to correspond with the sign-in rate. This is useful to prevent server overload when signing in a large number of users. Click **Generate Files**, and select the folder where you want to generate the configuration. A dialog box similar to the following figure will appear when your files have been successfully created.
+!["移动" 选项卡。](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "\"移动\" 选项卡。")
 
-![确认已创建文件。](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "确认已创建文件。")
+1.  单击 "**移动" (UCWA)** 旁边的 "**高级**" 按钮。 将字段**UcwaTargetServerUrl**设置为控制器池虚拟 IP (vip) 或前端池 VIP。
 
-## 另请参阅
+2.  在**状态和 P2P 即时消息\\音频**中, 选择适当的**负载级别**值以启用移动方案模拟。
 
-#### 概念
+<div>
 
-[Create Users and Contacts](create-users-and-contacts.md)
 
+> [!NOTE]  
+> 每个方案旁边都有一个 "<STRONG>高级</STRONG>" 按钮。 这些按钮允许访问特定于每个方案的值, 这些值将更改 Lync Server 2013 应力和性能工具 (LyncPerfTool) 的行为, 并启用自定义。 对于每个访问情形, 如果<STRONG>负载级别</STRONG>为 "<STRONG>自定义</STRONG>", 则使用 " <STRONG>ConversationsPerHour</STRONG> " 字段中指定的值, 而不是默认值。
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="summary"></a>摘要
+
+下图显示了 Lync Server 2013 加载配置工具的 "**摘要**" 选项卡。
+
+!["摘要" 选项卡。](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "\"摘要\" 选项卡。")
+
+"**摘要**" 选项卡指示要针对每个方案使用的用户。 通过选中 "**启用自定义用户范围生成**" 复选框, 然后双击包含要自定义的**用户区域**的表中的方案, 可以手动配置用户编号范围。 检查 (RunClient) 在启动时添加登录延迟, 以便包括生成的批处理文件中的延迟以与登录速率对应。 这在登录大量用户时避免服务器超载非常有用。 单击 "**生成文件**", 然后选择要在其中生成配置的文件夹。 当文件创建成功后, 将显示与下图类似的对话框。
+
+![已创建文件的确认。](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "已创建文件的确认。")
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[创建用户和联系人](create-users-and-contacts.md)  
+</div>
+</div>
+<span></span>
+</div>
+</div>
+</div>

@@ -1,69 +1,135 @@
-﻿---
-title: Lync Server 2013：配置和监控备份服务
-TOCTitle: 配置和监控备份服务
-ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205252(v=OCS.15)
-ms:contentKeyID: 49314202
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置和监控备份服务
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring and monitoring the Backup Service
+ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205252(v=OCS.15)
+ms:contentKeyID: 48185365
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66a800014b3327e83426c9f758b7d5359c1ce6c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837285"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置和监控备份服务
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置和监控备份服务
 
-可使用以下 Lync Server 命令行管理程序命令配置和监控备份服务。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+你可以使用以下 Lync Server Management Shell 命令来配置和监视备份服务。
+
+<div>
+
 
 > [!NOTE]  
-> 默认情况下，RTCUniversalServerAdmins 组是唯一具有运行 <strong>Get-CsBackupServiceStatus</strong> 的权限的组。要使用此 cmdlet，请以该组的成员身份登录。或者，可通过使用 <strong>Set-CsBackupServiceConfiguration</strong> cmdlet 向其他组（如 CSAdministrator）授予对此命令的访问权。
+> RTCUniversalServerAdmins 组是唯一具有运行<STRONG>CsBackupServiceStatus</STRONG>默认权限的组。 若要使用此 cmdlet, 请以该组的成员身份登录。 或者, 你可以使用<STRONG>CsBackupServiceConfiguration</STRONG> cmdlet 将对此命令的访问权限授予其他组 (例如 CSAdministrator)。
 
 
 
-## 查看备份服务配置
+</div>
+
+<div>
+
+## <a name="to-see-the-backup-service-configuration"></a>查看备份服务配置
 
 运行以下 cmdlet：
 
     Get-CsBackupServiceConfiguration
 
-SyncInterval 的默认值为 2 分钟。
+SyncInterval 的默认值是2分钟。
 
-## 设置备份服务同步间隔
+</div>
+
+<div>
+
+## <a name="to-set-the-backup-service-sync-interval"></a>设置备份服务同步间隔
 
 运行以下 cmdlet：
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-例如，下面将此间隔设置为 3 分钟。
+例如, 下面的时间间隔设置为3分钟。
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
-> [!IMPORTANT]
-> 尽管可使用此 cmdlet 更改备份服务的默认同步间隔，但除非绝对有必要，否则您不应这样做，因为同步间隔对备份服务的性能和恢复点目标 (RPO) 有很大的影响。
+<div>
 
 
-## 获取特殊池的备份服务状态
+> [!IMPORTANT]  
+> 虽然你可以使用此 cmdlet 更改备份服务的默认同步间隔, 但除非绝对必要, 否则不应执行此操作, 因为同步间隔对备份服务性能和恢复点目标 (RPO) 有很高的影响。
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>获取特定池的备份服务状态
 
 运行以下 cmdlet：
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
+<div>
+
+
 > [!NOTE]  
-> 备份服务的同步状态是从一个池 (P1) 到其备份池 (P2) 进行单向定义的。从 P1 到 P2 的同步状态与从 P2 到 P1 的同步状态不同。对于 P1 到 P2，如果在同步间隔内将 P1 中所做的所有更改完全复制到 P2，则备份服务将处于“稳定”状态。如果不再将更改从 P1 同步到 P2，则备份服务处于“最终”状态。这两个状态均指示执行 cmdlet 时备份服务的快照。它不表示返回的状态之后将继续保持下去。特别是，仅在执行 cmdlet 后 P1 未生成任何更改的情况下，才一直保持“最终”状态。当作为 <strong>Invoke-CsPoolfailover</strong> 执行逻辑的一部分将 P1 置于只读模式后，P1 到 P2 的同步失败时才会出现此种情况。
+> 备份服务同步状态是从池 (P1) unidirectionally 到其备份池 (P2) 定义的。 从 P1 到 P2 的同步状态可能与从 P2 到 P1 的同步状态不同。 对于 P2 到 P2, 如果在 P1 中进行的所有更改都在同步间隔内完全复制到 P2, 则备份服务处于 "稳定" 状态。 如果没有其他更改要从 P1 同步到 P2, 它将处于 "最终状态" 状态。 这两种状态表示执行 cmdlet 时备份服务的快照。 这并不意味着返回的状态将保持为后的状态。 特别是, 仅当在执行 cmdlet 后 P1 不会生成任何更改时, "最终" 状态才会继续保持。 在将 p1 置于只读模式 (作为<STRONG>CsPoolfailover</STRONG>执行逻辑的一部分) 之后, p1 被置于只读模式下时, 此情况为 true。
 
 
 
-## 获取有关特定池的备份关系的信息
+</div>
+
+</div>
+
+<div>
+
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>获取有关特定池的备份关系的信息
 
 运行以下 cmdlet：
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
-## 强制备份服务同步
+</div>
+
+<div>
+
+## <a name="to-force-a-backup-service-sync"></a>强制备份服务同步
 
 运行以下 cmdlet：
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

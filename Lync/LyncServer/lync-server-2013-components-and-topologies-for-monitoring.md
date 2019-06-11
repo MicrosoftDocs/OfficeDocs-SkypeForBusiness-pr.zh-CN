@@ -1,37 +1,57 @@
-﻿---
-title: Lync Server 2013：用于监控的组件和拓扑
-TOCTitle: 用于监控的组件和拓扑
-ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412952(v=OCS.15)
-ms:contentKeyID: 49888592
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：用于监控的组件和拓扑
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for monitoring
+ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
+ms:contentKeyID: 48185313
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0c848b3c404bc9bce3b54d6ed52157d1b9da679
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837515"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中用于监控的组件和拓扑
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-05_
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中用于监控的组件和拓扑
 
-由于在每个前端服务器上会自动安装并激活统一数据收集代理，因此无需将某个服务器配置为监控服务器；每个前端服务器均已充当监控服务器。但是，您将需要安装数据库并将其配置为针对监控数据的后端数据存储。 Microsoft Lync Server 2013 可以将以下任何数据库用作用于监控的后端存储：
+</div>
 
-  - Microsoft SQL Server 2008 R2 Enterprise Edition
+<div id="mainSection">
 
-  - Microsoft SQL Server 2008 R2 Standard Edition
+<div id="mainBody">
 
-  - Microsoft SQL Server 2012 Enterprise Edition
+<span> </span>
 
-  - Microsoft SQL Server 2012 Standard Edition
+_**主题上次修改时间:** 2012-09-05_
 
-请注意，您必须使用这些数据库的 64 位版本；SQL Server 的 32 位版本无法用作用于监控的后端存储。同样， Lync Server 2013 不支持 SQL Server 2008 Express Edition 或 SQL Server 2012 Express Edition。有关 Lync Server 2013 的数据库要求的详细信息，请参阅 Lync Server 2013 可支持性指南中的 [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)主题。
+由于统一数据收集代理会在每个前端服务器上自动安装和激活, 因此无需将服务器配置为监视服务器;每个前端服务器都已充当监视服务器。 但是, 你将需要安装和配置数据库以用作你的监视数据的后端数据存储。 Microsoft Lync Server 2013 可以将以下任意数据库用作监视的后端存储:
 
-请记住，必须先安装并配置 SQL Server，然后再部署和配置监控。不过，您仅需要部署 SQL Server 本身；无需提前设置监控数据库。当您发布 Lync Server 拓扑时，将会自动为您创建这些数据库。
+  - Microsoft SQL Server 2008 R2 企业版
+
+  - Microsoft SQL Server 2008 R2 标准版
+
+  - Microsoft SQL Server 2012 企业版
+
+  - Microsoft SQL Server 2012 标准版
+
+请注意, 您必须使用这些数据库的64位版本;32位版本的 SQL Server 无法用作监视的后端存储。 同样, Lync Server 2013 不支持 SQL Server 2008 或 SQL Server 2012 的速成版。 有关 Lync Server 2013 的数据库要求的详细信息, 请参阅 Lync server 2013 支持指南中的 " [Lync server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)" 主题。
+
+请记住，必须先安装并配置 SQL Server，然后再部署和配置监控。 但是, 你只需部署 SQL Server 本身;您无需提前设置监视数据库。 因此, 当你发布 Lync Server 拓扑时, 将自动为你创建这些数据库。
 
 监控数据可以与其他类型的数据共享 SQL Server 实例。通常，呼叫详细信息记录数据库 (LcsCdr) 和体验质量数据库 (QoEMetrics) 共享相同的 SQL 实例；这两个监控数据库与存档数据库 (LcsLog) 位于相同的 SQL 实例中也是很常见的。对 SQL Server 实例的唯一真正要求是，SQL Server 的任何一个实例仅限于以下各项：
 
-  - Lync Server 2013 后端数据库的一个实例。（一般而言，建议不要将监控数据库与后端数据库并置在相同的 SQL 实例中，或者甚至并置在相同的计算机上。虽然从技术上而言是可能的，但是监控数据库很有可能会耗尽后端数据库所需的磁盘空间。）
+  - Lync Server 2013 后端数据库的一个实例。 (作为一般规则, 建议不要将监视数据库 collocated 在同一 SQL 实例中, 甚至可以在同一台计算机上, 而不是后端数据库。 尽管技术上可以使用后端数据库所需的磁盘空间来运行监视数据库的风险。)
 
   - 呼叫详细信息记录数据库的一个实例。
 
@@ -39,11 +59,25 @@ _**上一次修改主题：** 2012-09-05_
 
   - 存档数据库的一个实例。
 
-换句话说，您不能在同一个 SQL Server 实例中有两个 LcsCdr 数据库实例。如果您需要多个 LcsCdr 数据库实例，则需要配置多个 SQL Server 实例。
+换句话说, 在 SQL Server 的同一实例中, 不能有两个 LcsCdr 数据库实例。 如果需要 LcsCdr 数据库的多个实例, 则需要配置多个 SQL Server 实例。
 
-## 另请参阅
+<div>
 
-#### 其他资源
+## <a name="see-also"></a>另请参阅
 
-[部署监控](lync-server-2013-deploying-monitoring.md)
+
+[在 Lync Server 2013 中部署监视](lync-server-2013-deploying-monitoring.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

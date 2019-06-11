@@ -1,31 +1,51 @@
-﻿---
-title: 在 Lync Server 2013 中创建中继配置设置的新集合
-TOCTitle: 在 Lync Server 2013 中创建中继配置设置的新集合
-ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688054(v=OCS.15)
-ms:contentKeyID: 49888415
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建新的主干配置设置集合'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a new collection of trunk configuration settings
+ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
+ms:contentKeyID: 49733647
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837139"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建中继配置设置的新集合
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建新的主干配置设置集合
 
-SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置按下面的指示执行此类操作：
+</div>
 
-  - 是否应对中继启用媒体旁路。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。 这些设置可执行如下所指定内容的操作：
+
+  - 是否在中继上启用媒体旁路功能。
 
   - 发送实时传输控制协议 (RTCP) 数据包的条件。
 
-  - 每个中继上是否需要安全实时协议 (SRTP) 加密。
+  - 每个主干上是否需要安全的实时协议 (SRTP) 加密。
 
-在安装 Microsoft Lync Server 2013 时，将为您创建 SIP 中继配置设置的全局集合。此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Microsoft Lync Server 2013 时, 将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
 
-使用 Lync Server 控制面板创建 SIP 中继配置设置时，下列选项可供您使用：
+使用 Lync Server 控制面板创建 SIP 中继配置设置时, 可以使用以下选项:
 
 
 <table>
@@ -38,7 +58,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <tr class="header">
 <th>UI 设置</th>
 <th>PowerShell 参数</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -49,7 +69,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 </tr>
 <tr class="even">
 <td><p>描述</p></td>
-<td><p>Description</p></td>
+<td><p>描述</p></td>
 <td><p>为管理员提供了存储有关设置的附加信息（例如，中继配置的用途）的方法。</p></td>
 </tr>
 <tr class="odd">
@@ -60,7 +80,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <tr class="even">
 <td><p>加密支持级别</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。可使用 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> 和 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlet 设置媒体配置。</p>
+<td><p>指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 通过使用<a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">CsMediaConfiguration</a>和<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a> cmdlet 设置媒体配置。</p>
 <p>允许的值包括：</p>
 <ul>
 <li><p>Required：必须使用 SRTP 加密。</p></li>
@@ -73,18 +93,18 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <td><p>引用支持</p></td>
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
-<td><p>如果设置为“允许将引用发送到网关”，则指示中继支持接收来自中介服务器的引用请求。</p>
-<p>如果设置为“允许使用第三方呼叫控制的引用”，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。3pcc 也称为“第三方协议”，当使用第三方连接一对呼叫者时将会出现（例如，运营商发出从人员 A 到人员 B 的呼叫）。</p></td>
+<td><p>如果设置为“允许将引用发送到网关”<strong></strong>，则指示中继支持接收来自中介服务器的引用请求。</p>
+<p>如果设置为“允许使用第三方呼叫控制的引用”<strong></strong>，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。 3pcc 也称为&quot;第三方控件,&quot;并在第三方用于连接一对呼叫者时 (例如, 操作员将来自人员 a 的呼叫拨入到 B) 时发生。</p></td>
 </tr>
 <tr class="even">
 <td><p>启用媒体旁路</p></td>
 <td><p>EnableBypass</p></td>
-<td><p>指示是否为此中继启用媒体旁路。仅当启用了“集中式媒体处理”时才能启用媒体旁路。</p></td>
+<td><p>指示是否为此中继启用媒体旁路。仅当启用了“集中式媒体处理”<strong></strong>时才能启用媒体旁路。</p></td>
 </tr>
 <tr class="odd">
 <td><p>集中式媒体处理</p></td>
 <td><p>ConcentratedTopology</p></td>
-<td><p>指示是否存在一个已知的媒体端点。（例如，PSTN 网关就是一个已知的媒体端点，其中媒体终端与信号终端具有相同的 IP。）</p></td>
+<td><p>指示是否有已知的媒体终结点。（例如，PSTN 网关就是一个已知的媒体端点，其中媒体终端与信号终端具有相同的 IP。）</p></td>
 </tr>
 <tr class="even">
 <td><p>启用 RTP 闭锁</p></td>
@@ -124,7 +144,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <tr class="odd">
 <td><p>被叫号码转换规则</p></td>
 <td><p>OutboundCallingNumberTranslationRulesList</p></td>
-<td><p>分配给中继的出站主叫号码转换规则的集合。</p></td>
+<td><p>分配给中继的出站呼叫号码转换规则的集合。</p></td>
 </tr>
 <tr class="even">
 <td><p>要测试的电话号码</p></td>
@@ -145,24 +165,43 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> Lync Server CsTrunkConfiguration cmdlet 支持 Lync Server 控制面板中未显示的其他属性。有关详细信息，请参阅 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration">New-CsTrunkConfiguration</a> cmdlet 的帮助主题。
+> Lync Server New-cstrunkconfiguration cmdlet 支持 "Lync Server 控制面板" 中未显示的其他属性。 有关详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">new-cstrunkconfiguration</A> cmdlet 的帮助主题。
 
 
 
-## 使用 Lync Server 控制面板创建新的中继配置设置
+</div>
 
-1.  在 Lync Server 控制面板中，单击“语音路由”，然后单击“Trunk 配置”。
+<div>
 
-2.  在“Trunk 配置”选项卡上，单击“新建”，然后单击“站点 Trunk”以创建站点作用域的新设置，或“池 Trunk”创建服务作用域的新设置。
+## <a name="to-create-new-trunk-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建新的主干配置设置
 
-3.  在“选择站点”或“选择服务”对话框（根据您是创建站点作用域还是服务作用域设置显示的对话框），选择新配置设置的位置，然后单击“确定”。如果对话框为空，则意味着没有位置可创建新设置；例如，如果“选择站点”对话框为空，则意味着您的所有站点已分配有中继配置站点的集合，并且每个站点（以及每个服务）只能承载一个此类集合。在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
+1.  在 Lync Server "控制面板" 中, 单击 "**语音路由**", 然后单击 "**中继配置**"。
 
-4.  在“新建 Trunk 配置”对话框中，进行适当的选择，然后单击“确定”。
+2.  在“Trunk 配置”**** 选项卡上，单击“新建”****，然后单击“站点 Trunk”**** 以创建站点作用域的新设置，或“池 Trunk”**** 创建服务作用域的新设置。
 
-5.  集合的“状态”属性将更新为“未提交”。若要提交更改和删除集合，请单击“提交”，然后单击“全部提交”。
+3.  在“选择站点”**** 或“选择服务”**** 对话框（根据您是创建站点作用域还是服务作用域设置显示的对话框），选择新配置设置的位置，然后单击“确定”****。如果对话框为空，则意味着没有位置可创建新设置；例如，如果“选择站点”**** 对话框为空，则意味着您的所有站点已分配有中继配置站点的集合，并且每个站点（以及每个服务）只能承载一个此类集合。在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
 
-6.  在“未提交的语音配置设置”对话框中，单击“确定”。
+4.  在“新建 Trunk 配置”**** 对话框中，进行适当的选择，然后单击“确定”****。
 
-7.  在“Microsoft Lync Server 2013 控制面板”对话框中，单击“确定”。
+5.  集合的“状态”**** 属性将更新为“未提交”****。若要提交更改和删除集合，请单击“提交”****，然后单击“全部提交”****。
+
+6.  在“未提交的语音配置设置”**** 对话框中，单击“确定”****。
+
+7.  在 " **Microsoft Lync Server 2013 控制面板**" 对话框中, 单击 **"确定"**。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

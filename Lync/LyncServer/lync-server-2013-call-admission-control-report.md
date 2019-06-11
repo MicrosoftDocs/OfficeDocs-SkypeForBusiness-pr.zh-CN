@@ -1,31 +1,57 @@
-﻿---
-title: Lync Server 2013：呼叫允许控制报告
-TOCTitle: 呼叫允许控制报告
-ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg615043(v=OCS.15)
-ms:contentKeyID: 49314622
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 呼叫许可控制报告'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Admission Control Report
+ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
+ms:contentKeyID: 48185933
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837718"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的呼叫允许控制报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="call-admission-control-report-in-lync-server-2013"></a>在 Lync Server 2013 中呼叫许可控制报告
 
-呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。在 Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供一种方法，以允许（或不允许）基于带宽限制的通信会话。例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+</div>
 
-## 访问呼叫允许控制报告
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-29_
+
+呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的 "呼叫许可控制" 为管理员提供了一种基于带宽限制允许 (或禁止) 通信会话的方式。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+
+<div>
+
+## <a name="accessing-the-call-admission-control-report"></a>访问呼叫允许控制报告
 
 从监控报告主页可访问呼叫允许控制报告。从呼叫允许控制报告可深入到下列任何报告：
 
   - 会议详细信息报告 - 要访问此报告，请从会议会话单击详细信息指标。
 
-  - 点对点会话详细信息报告 – 要访问此报告，请单击点对点会话的详细信息指标。
+  - 对等会话详细信息报告 – 要访问此报告，请单击对等会话的详细信息指标。
 
-## 充分利用呼叫允许控制报告
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a>充分利用呼叫允许控制报告
 
 要获得因带宽不足而失败的呼叫的列表，请从呼叫类别下拉列表选择因呼叫允许控制拒绝的呼叫。大多数返回的呼叫将可能具有 5 个诊断 ID 之一：
 
@@ -33,13 +59,17 @@ _**上一次修改主题：** 2015-03-09_
 
 这指示呼叫允许控制限制阻止在 VoIP 网络上进行的呼叫。
 
-## 筛选器
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，呼叫允许控制报告允许您按发起呼叫的用户或按被呼叫的用户筛选呼叫。您还可以选择数据的分组方式。在此示例中，将按小时、天、周或月对呼叫进行分组。
 
 下表列出了可用于呼叫允许控制报告的筛选器。
 
-### 呼叫允许控制报告的筛选器
+### <a name="call-admission-control-report-filters"></a>呼叫允许控制报告的筛选器
 
 <table>
 <colgroup>
@@ -54,35 +84,35 @@ _**上一次修改主题：** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>开始日期</strong></p></td>
+<td><p><strong>从</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/17/12012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>结束日期</strong></p></td>
+<td><p><strong>到</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/17/12012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>池</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>活动类型</strong></p></td>
 <td><p>活动的类型。选择下列活动之一：</p>
 <ul>
 <li><p>[所有]</p></li>
-<li><p>点对点</p></li>
+<li><p>对等</p></li>
 <li><p>会议</p></li>
 </ul></td>
 </tr>
@@ -99,11 +129,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 点对点会话的指标
+</div>
 
-下表列出了点对点会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。
+<div>
 
-### 点对点会话的指标
+## <a name="metrics-for-peer-to-peer-sessions"></a>对等会话的指标
+
+下表列出了对等会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。
+
+### <a name="metrics-for-peer-to-peer-sessions"></a>对等会话的指标
 
 <table>
 <colgroup>
@@ -115,14 +149,14 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>详细信息</strong></p></td>
+<td><p><strong>详情</strong></p></td>
 <td><p>否</p></td>
-<td><p>单击此项时，报告将显示指定会话的点对点会话详细信息报告。</p></td>
+<td><p>单击此项时，报告将显示指定会话的对等会话详细信息报告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>来源用户</strong></p></td>
@@ -163,11 +197,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 会议会话的指标
+</div>
+
+<div>
+
+## <a name="metrics-for-conferencing-sessions"></a>会议会话的指标
 
 下表列出了会议会话（即，涉及三个或更多参与者的会话）的呼叫允许控制报告中提供的信息。
 
-### 会议会话的指标
+### <a name="metrics-for-conferencing-sessions"></a>会议会话的指标
 
 <table>
 <colgroup>
@@ -179,7 +217,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -212,11 +250,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 单个会议参与者的指标
+</div>
+
+<div>
+
+## <a name="metrics-for-individual-conference-participants"></a>单个会议参与者的指标
 
 下表列出了单个会议参与者的呼叫允许控制报告中提供的信息。
 
-### 单个会议参与者的指标
+### <a name="metrics-for-individual-conference-participants"></a>单个会议参与者的指标
 
 <table>
 <colgroup>
@@ -228,7 +270,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -269,4 +311,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Check trunk configuration against a phone number'
+---
+title: 'Lync Server 2013: 对照电话号码检查中继配置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Check trunk configuration against a phone number
 ms:assetid: 0800d7a3-fc35-482b-a9a4-203d890bfa45
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn725206(v=OCS.15)
-ms:contentKeyID: 62335990
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725206(v=OCS.15)
+ms:contentKeyID: 63969574
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b667f43e430b5047f72e2d8352f57337f0849055
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837583"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Check trunk configuration against a phone number in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>对照 Lync Server 2013 中的电话号码检查中继配置
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-05-20_
 
 
 <table>
@@ -23,88 +43,118 @@ _**上一次修改主题：** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>验证计划</p></td>
+<td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>测试工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server 命令行管理程序, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTrunkConfiguration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>需要权限</p></td>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 New-cstrunkconfiguration cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-SIP trunks connect the Lync Server internal Enterprise Voice network to any of the following:
+## <a name="description"></a>说明
 
-  - The Public Switched Telephone network (PSTN).
+SIP 中继将 Lync Server 内部企业语音网络连接到以下任何内容:
 
-  - An IP-public branch exchange (PBX).
+  - 公共交换电话网络 (PSTN)。
 
-  - A Session Border Controller (SBC).
+  - IP-公共分支交换 (PBX)。
 
-The Test-CsTrunkConfiguration cmdlet verifies that a phone number (as dialed by a user) can be converted to the E.164 network and routed over a specified SIP trunk.
+  - 会话边框控制器 (SBC)。
 
-## Running the test
+New-cstrunkconfiguration cmdlet 验证电话号码 (由用户拨出) 是否可以转换为 E-164 网络, 并通过指定的 SIP 主干进行路由。
 
-To run the Test-CsTrunkConfiguration cmdlet you must first use the Get-CsTrunkConfiguration cmdlet to retrieve an instance of your SIP trunk configuration settings; that instance is then piped to Test-CsTrunkConfiguration:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>运行测试
+
+若要运行 New-cstrunkconfiguration cmdlet, 必须首先使用 New-cstrunkconfiguration cmdlet 检索 SIP 中继配置设置的实例;然后, 将该实例管道传送到 Test-New-cstrunkconfiguration:
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-Running Test-CsTrunkConfiguration without first running Get-CsTrunkConfiguration won't work. For example, this command will fail without returning any data:
+运行 Test-New-cstrunkconfiguration 而不事先运行 New-cstrunkconfiguration 将不起作用。 例如, 此命令将失败, 且不返回任何数据:
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
-If you have multiple collections of SIP trunk configuration settings, you can use a command similar to the following to at the same time test each collection against the same phone number:
+如果您有多个 SIP 中继配置设置集合, 则可以使用如下所示的命令在每个集合中测试相同的电话号码:
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-For more information, see the Help documentation for the Test-CsTrunkConfiguration cmdlet.
+有关详细信息, 请参阅 New-cstrunkconfiguration cmdlet 的帮助文档。
 
-## Determining success or failure
+</div>
 
-If Test-CsTrunkConfiguration can place a call to the dialed number then the translated phone number (in the E.164 format) and the rule used to translate that phone number will both be displayed on screen:
+<div>
 
-TranslatedNumber MatchingRule
+## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-\---------------- ------------
-
-\+12065551219 Global/Redmond
-
-If the test fails, Test-CsTrunkConfiguration will return empty property values:
+如果 New-cstrunkconfiguration 可以拨打电话号码, 则已翻译的电话号码 (以 E: 164 格式) 和用于转换该电话号码的规则都将显示在屏幕上:
 
 TranslatedNumber MatchingRule
 
 \---------------- ------------
 
-## Reasons why the test might have failed
+\+12065551219全球/雷德蒙
 
-If Test-CsTrunkConfiguration does not return a match that typically means that the trunk configuration settings being test do not have an outgoing calling number translation rule capable to converting the dialed number to the E.164 format. To retrieve the translation rules assigned to a collection of trunk configuration settings, you can use syntax similar to this:
+如果测试失败, New-cstrunkconfiguration 将返回空属性值:
+
+TranslatedNumber MatchingRule
+
+\---------------- ------------
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
+
+如果 New-cstrunkconfiguration 不返回一个匹配项, 这通常意味着正在测试的 trunk 配置设置没有传出呼叫号码转换规则, 可用于将已拨号码转换为 E-164 格式。 若要检索分配给主干配置设置集合的转换规则, 可以使用类似下面的语法:
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
-That returns information similar to this for each translation rule:
+这将针对每个翻译规则返回类似于以下内容的信息:
 
-Description : Phone numbers without a country code or area code.
+说明: 没有国家/地区代码或区号的电话号码。
 
-Pattern : ^\\+(\\d\*)$
+模式: ^\\+ (\\d\*) $
 
 `Translation : $1`
 
-Name : NoAreaCode
+名称: NoAreaCode
 
-At that point, you check the value of the Pattern property (which is a [regular expression](https://go.microsoft.com/fwlink/?linkid=400464) string) to see whether any of the translation rules are configured to handle the dialed number. If not, you'll either have to change one of the existing rules (Set-CsOutboundTranslationRule) or use the New-CsOutboundTranslationRule cmdlet to add a new rule to the collection.
+此时, 你检查 Pattern 属性的值 (这是一个[正则表达式](http://go.microsoft.com/fwlink/?linkid=400464)字符串), 以查看是否有任何翻译规则配置为处理已拨号码。 如果不是, 你将必须更改现有规则之一 (Set-CsOutboundTranslationRule) 或使用 CsOutboundTranslationRule cmdlet 向集合添加新规则。
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration)
+## <a name="see-also"></a>另请参阅
+
+
+[Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

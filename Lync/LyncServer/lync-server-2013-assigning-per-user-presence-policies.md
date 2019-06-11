@@ -1,23 +1,43 @@
-﻿---
-title: 分配每用户状态策略
-TOCTitle: 分配每用户状态策略
-ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182614(v=OCS.15)
-ms:contentKeyID: 49314854
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 分配每用户状态策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user presence policies
+ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
+ms:contentKeyID: 48185955
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 分配每用户状态策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户状态策略
 
-状态策略是影响状态的一组限制和约束。下表描述了 Lync Server 2013 中提供的状态策略设置。
+</div>
 
-### 状态策略设置
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-11_
+
+状态策略是一组影响状态的限制和限制。 下表描述了 Lync Server 2013 中可用的状态策略设置。
+
+### <a name="presence-policy-settings"></a>状态策略设置
 
 <table>
 <colgroup>
@@ -39,34 +59,34 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>CategorySubscriptions</p></td>
-<td><p>最大订阅者类别订阅数</p></td>
-<td><p>限制订阅者类别订阅数。例如，当 Communicator 订阅用户的状态时，会获取每个联系人卡片、日历数据、注释、服务和状态类别的类别订阅。</p>
-<p>设置为 0 意味着其他人无法订阅用户或联系人对象。</p>
+<td><p>订阅者类别订阅的最大数量</p></td>
+<td><p>限制订阅者类别订阅数。 例如, 当 Communicator 订阅用户的状态时, 它将为每个联系人卡片、日历数据、便笺、服务和状态类别获取类别订阅。</p>
+<p>设置为0表示用户或联系人对象不能由其他人订阅。</p>
 <div>
 
 > [!NOTE]  
-> 如果设置为较大的数值，则此设置会对性能产生显著的影响，且会有大量用户订阅普通用户的状态。
+> 如果设置为较高的数字, 此设置可能会对性能产生重大影响, 并且平均用户有大量用户订阅其状态。
 
 
 </div></td>
-<td><p>整数</p></td>
+<td><p>整型</p></td>
 <td><p>0-3000</p></td>
 </tr>
 <tr class="even">
 <td><p>PromptedSubscribers</p></td>
-<td><p>排队状态订阅通知的最大数量</p></td>
-<td><p>限制提示订阅者表中的条目数。此设置确定可为给定用户排队的最大提示数。例如，当用户 A 订阅用户 B 的状态时，用户 B 会收到用户 A 现在订阅用户 B 的提示，且会在用户 B 的提示订阅者表中创建确认提示。用户 B 接受或确认该订阅后，会从用户 B　的提示订阅者表中删除该确认提示。</p>
-<p>设置为 0 意味着当某人订阅用户的状态时不会提示该用户。</p></td>
-<td><p>整数或标记</p></td>
+<td><p>排队状态订阅警报的最大数量</p></td>
+<td><p>限制 "提示订阅者" 表中的条目数。 此设置确定可为给定用户排队的最大提示数。 例如, 当用户 A 订阅用户 B 的状态时, 用户 B 会收到一条提示, 指示用户 A 现在已订阅用户 B, 并且在用户 B 的 "提示订阅者" 表中创建了确认提示。 在用户 B 接受或确认订阅后, 将从用户 B 的 "提示订阅者" 表中删除确认提示。</p>
+<p>设置为0意味着当有人订阅他或她的状态时, 不会提示用户。</p></td>
+<td><p>整型或标记</p></td>
 <td><p>0-500</p></td>
 </tr>
 </tbody>
 </table>
 
 
-默认情况下，“默认策略”和“服务: 中等”状态策略会在部署 Lync Server 时进行安装。下表描述了两种状态策略的特定设置。
+默认情况下, 当你部署 Lync Server 时,**默认策略**和**服务: "中等**状态" 策略已安装。 下表介绍了这两种状态策略的特定设置。
 
-### 状态策略
+### <a name="presence-policies"></a>状态策略
 
 <table>
 <colgroup>
@@ -86,16 +106,27 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>默认策略</p></td>
-<td><p>典型用户的策略。这是默认状态策略。</p></td>
+<td><p>适用于典型用户的策略。 这是默认的状态策略。</p></td>
 <td><p>1000</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="even">
 <td><p>服务: 中等</p></td>
-<td><p>要求更多用户订阅对象的状态的应用程序策略。</p></td>
+<td><p>需要更多用户才能订阅对象状态的应用程序的策略。</p></td>
 <td><p>1000</p></td>
 <td><p>0</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

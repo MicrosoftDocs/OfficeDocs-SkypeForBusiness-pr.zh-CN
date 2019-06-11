@@ -1,67 +1,74 @@
-﻿---
-title: 使用全局作用域和标记作用域的 Cmdlet
-TOCTitle: 使用全局作用域和标记作用域的 Cmdlet
-ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn362774(v=OCS.15)
-ms:contentKeyID: 56271125
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# 使用全局作用域和标记作用域的 Cmdlet
+title: Skype for Business Online 中使用全局范围和标记范围的 cmdlet
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the global scope and the tag scope
+ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
+ms:contentKeyID: 56558824
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 51327b98be69f92736c1c8523c97b4de6463273b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837094"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Skype for Business Online 中使用全局范围和标记范围的 cmdlet
 
  
 
-_**上一次修改主题：** 2015-06-22_
 
-在 Skype for Business Online 中，可以在*全局作用域*或*标记作用域*（或*每用户作用域*）处配置策略。当使用 **Get-Cs** cmdlet 时，您不必指定作用域或标识。如果您不带任何参数调用其中一个 cmdlet，则将返回所有相关项目。例如，此命令可返回有关您的所有外部访问策略的信息：
+在 Skype for Business Online 中, 可以在*全局范围内*或在*标记作用*域 (或*每用户范围*) 内配置策略。 使用**Cs** cmdlet 时, 无需指定范围或标识。 如果您调用其中一个 cmdlet 且不带任何参数, 则将返回所有相关项。 例如, 此命令将返回有关所有外部访问策略的信息:
 
     Get-CsExternalAccessPolicy
 
-如果您想要限制返回的数据，则需要仅包括 Identity 参数或 Filter 参数。例如，要仅返回全局策略，请使用此命令：
+如果要限制返回的数据, 只需包含 Identity 参数或 Filter 参数。 例如, 若要仅返回全局策略, 请使用以下命令:
 
     Get-CsExternalAccessPolicy -Identity "global"
 
-要返回具有标识“RedmondAccessPolicy”的每用户策略，请使用此命令：
+若要返回具有 "RedmondAccessPolicy" 标识的每用户策略, 请使用以下命令:
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
+
 > [!NOTE]  
-> 当引用每用户策略时，标记 <strong>prefix</strong> 是可选的。此语法（包括 prefix）也有效：<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
+> 引用每用户策略时, 标记<STRONG>前缀</STRONG>是可选的。 此语法 (包括前缀) 也有效:<BR>CsExternalAccessPolicy-Identity "tag: RedmondAccessPolicy"
 
 
 
-要返回除全局策略之外的所有策略（即，所有每用户策略），请使用此命令：
+若要返回除全局策略 (即所有每用户策略) 之外的所有策略, 请使用以下命令:
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-以下 cmdlet 针对全局作用域和每用户（标记）作用域进行操作：
+以下 cmdlet 对全局范围和每用户 (标记) 作用域进行操作:
 
-  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
+  - [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/gg398830\(v=ocs.15\))
 
-  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg398293\(v=ocs.15\))
 
-  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
+  - [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/gg413043\(v=ocs.15\))
 
-  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
+  - [CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425805\(v=ocs.15\))
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+  - [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg398348\(v=ocs.15\))
 
-  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/gg398463\(v=ocs.15\))
 
-  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
+  - [CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))
+
 
 > [!NOTE]  
-> 不管名称如何，拨号计划从功能来讲都是策略。例如，将使用术语<em>拨号计划</em>，而不使用拨号策略，以便保留以前的 Lync Server 版本使用的术语。
+> 尽管名称、拨号计划和功能, 请说出策略。 使用 "<EM>拨号计划</EM>" 而不是 "拨号策略", 以保留早期版本的 Lync Server 所使用的术语。
 
 
 
-## 另请参阅
+## <a name="see-also"></a>另请参阅
 
-#### 概念
 
-[标识、作用域和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Skype for Business Online 中的身份、范围和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Lync Online Cmdlet](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

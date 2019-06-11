@@ -1,36 +1,42 @@
-﻿---
-title: 使用会议提供商标识的 Cmdlet
-TOCTitle: 使用会议提供商标识的 Cmdlet
-ms:assetid: be5621b6-ec11-4b12-83ec-075af269ca6a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn362841(v=OCS.15)
-ms:contentKeyID: 56271199
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# 使用会议提供商标识的 Cmdlet
+title: Skype for Business Online 中使用会议提供商标识的 cmdlet
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a conferencing provider identity
+ms:assetid: be5621b6-ec11-4b12-83ec-075af269ca6a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362841(v=OCS.15)
+ms:contentKeyID: 56558858
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e36c04b2f5728ff624a280696bacf4eacb032967
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837093"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>Skype for Business Online 中使用会议提供商标识的 cmdlet
 
  
 
-_**上一次修改主题：** 2015-06-22_
 
-要返回有关您的组织已与其签订合同的所有音频会议提供商的信息，您可以简单地不带任何参数调用 [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) cmdlet：
+若要返回有关你的组织已与之签约的所有音频会议提供商的信息, 你可以只调用[CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\)) cmdlet 而不使用任何参数:
 
     Get-CsAudioConferencingProvider
 
-如果想要将返回的数据限制为单个提供商（在此示例中为 Contoso Audio Services），请使用 Identity 参数：
+如果你希望将返回的数据限制为单个提供程序 (在此示例中为提供商 Contoso 音频服务), 请使用 Identity 参数:
 
     Get-CsAudioConferencingProvider -Identity "Contoso Audio Services"
 
-仅存在一个接受音频会议商 ID 的 Skype for Business Online cmdlet：
+只有一个 Skype for Business Online cmdlet 可接受音频会议提供商 ID:
 
-  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
+  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\))
 
-## 另请参阅
+## <a name="see-also"></a>另请参阅
 
-#### 概念
 
-[标识、作用域和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Skype for Business Online 中的身份、范围和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Lync Online Cmdlet](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

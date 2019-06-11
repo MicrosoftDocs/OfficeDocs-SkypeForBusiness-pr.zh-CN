@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：配置持久聊天服务器
-TOCTitle: 配置持久聊天服务器
-ms:assetid: d90a4049-b268-4e8e-9f24-0cef08c8d9ed
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205332(v=OCS.15)
-ms:contentKeyID: 49314431
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置持久聊天服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Persistent Chat Server
+ms:assetid: d90a4049-b268-4e8e-9f24-0cef08c8d9ed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205332(v=OCS.15)
+ms:contentKeyID: 48185635
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 36696d27c9d97c28d043aaffaa313a5cd4e0b066
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837190"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置持久聊天服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-04-12_
+# <a name="configuring-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中配置持久聊天服务器
 
-在 拓扑生成器中部署针对 Lync Server 2013持久聊天服务器的支持之后，使用 Lync Server 2013 控制面板配置在您的部署中实现 持久聊天服务器的方式。
+</div>
 
-## 本节内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-04-12_
+
+在拓扑生成器中部署对 Lync Server 2013 和持久聊天服务器的支持后, 您可以使用 Lync Server 2013 控制面板配置永久聊天服务器在部署中的实现方式。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [在 Lync Server 2013 中启用持久聊天服务器策略](lync-server-2013-enable-persistent-chat-server-policy.md)
 
@@ -28,4 +50,16 @@ _**上一次修改主题：** 2012-04-12_
   - [在 Lync Server 2013 中配置聊天室](lync-server-2013-configure-rooms.md)
 
   - [在 Lync Server 2013 中配置聊天室外接程序](lync-server-2013-configure-add-ins-for-rooms.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

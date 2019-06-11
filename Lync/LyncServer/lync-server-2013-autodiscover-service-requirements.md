@@ -1,95 +1,132 @@
-﻿---
-title: Lync Server 2013：自动发现服务要求
-TOCTitle: 自动发现服务要求
-ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh690012(v=OCS.15)
-ms:contentKeyID: 49311948
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：自动发现服务要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Autodiscover service requirements
+ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690012(v=OCS.15)
+ms:contentKeyID: 48183368
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ea9d9be05561d200696a5ad0256c0d5424cf9b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837898"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 的自动发现服务要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-25_
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013 的自动发现服务要求
 
-Microsoft Lync Server 2013 自动发现服务在控制器池服务器和前端池服务器上运行，并且在 DNS 中发布此服务时，运行 Lync Mobile 的移动设备可使用此服务来定位 Mobility Service。您需要先修改运行自动发现服务的任何 控制器和 前端服务器上的证书使用者替代名称列表，然后运行 Lync Mobile 的移动设备才能利用自动发现服务。此外，可能还必须修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。
+</div>
 
-有关控制器、前端服务器和反向代理所需的使用者替代名称条目的详细信息，请参阅“规划移动功能”中的[Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)。
+<div id="mainSection">
 
-有关在反向代理上利用使用者替代名称列表的决定基于您是在端口 80 还是端口 443 上发布自动发现服务：
+<div id="mainBody">
 
-  - **在端口 80 上发布**   如果在端口 80 上发起对自动发现服务的初始查询，则不需要对证书进行任何更改。这是因为，运行 Lync 的移动设备将在外部端口 80 上访问反向代理，然后在内部端口 8080 上重定向到控制器或前端服务器。有关详细信息，请参阅本主题中后面的“使用端口 80 的初始自动发现过程”一节。
+<span> </span>
 
-  - **在端口 443 上发布**   外部 Web 服务发布规则使用的证书上的使用者替代名称列表必须为您组织中的每个 SIP 域包含一个 *lyncdiscover.\<sipdomain\>* 条目。
+_**主题上次修改时间:** 2013-02-25_
 
-使用内部证书颁发结构重新颁发证书通常是一个简单的过程，但对于 Web 服务发布规则所使用的公共证书，添加多个使用者替代名称条目的成本会很高。为了解决此问题，我们支持端口 80 上的初始自动发现连接，该连接随后会重定向到 控制器或 前端服务器上的端口 8080。
+Microsoft Lync Server 2013 自动发现服务在 Director 和前端池服务器上运行, 并且当在 DNS 中发布时, 可以由运行 Lync Mobile 的移动设备使用, 以找到移动服务。 在运行 Lync Mobile 的移动设备可以充分利用自动发现之前, 你需要在运行自动发现服务的任何控制器和前端服务器上修改证书主题备用名称列表。 此外, 可能还需要修改用于反向代理上的外部 web 服务发布规则的证书上的使用者备用名称列表。
 
-例如，假定将某个运行 Lync Mobile 的移动客户端配置为通过对初始请求使用 HTTP 的自动发现功能登录 Lync Server 2013。
+有关董事、前端服务器和反向代理所需的主题备用名称条目的详细信息, 请参阅规划移动性的[Lync Server 2013 中的移动技术要求](lync-server-2013-technical-requirements-for-mobility.md)。
 
-## 使用端口 80 的移动设备的初始自动发现过程
+在反向代理上使用主题备用名称列表的决策取决于你是在端口80上还是在端口443上发布自动发现服务:
 
-1.  运行 Lync Mobile 的移动设备会使用 DNS（包含 A 记录）查找 lyncdiscover.contoso.com。
+  - **已在端口 80**   上发布如果自动发现服务的初始查询通过端口80进行, 则不需要进行证书更改。 这是因为运行 Lync 的移动设备将外部访问端口80上的反向代理, 然后在内部将其重定向到端口8080上的 Director 或前端服务器。 有关详细信息, 请参阅本主题后面的 "使用端口80的初始自动发现过程" 部分。
 
-2.  外部 DNS 会将外部 Web 服务的 IP 地址返回给客户端。
+  - **在端口 443**   上发布在外部 web 服务发布规则使用的证书上的 "主题" 备用名称列表中必须包含*lyncdiscover。\<组织\> *中每个 SIP 域的 sipdomain 条目。
 
-3.  运行 Lync Mobile 的移动设备会向反向代理发送请求 http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com。
+使用内部证书颁发机构重新发起证书通常是一个简单的过程, 但对于 web 服务发布规则中使用的公共证书, 添加多个主题可选名称条目可能会很高。 若要解决此问题, 我们通过端口80支持初始自动发现连接, 该连接随后将被重定向到 Director 或前端服务器上的端口8080。
 
-4.  Web 发布规则将该请求从外部端口 80 桥接到内部端口 8080，后者随后将该请求路由到 控制器 或 前端服务器。
+例如, 假设运行 Lync Mobile 的移动客户端配置为使用用于初始请求的 HTTP 的自动发现功能登录 Lync Server 2013。
+
+<div>
+
+## <a name="initial-autodiscover-process-for-mobile-devices-using-port-80"></a>使用端口80的移动设备初始自动发现过程
+
+1.  运行 Lync Mobile 的移动设备使用 DNS 查找 lyncdiscover.contoso.com, 其中存在 A 记录。
+
+2.  外部 DNS 将外部 web 服务的 IP 地址返回给客户端。
+
+3.  运行 Lync Mobile 的移动设备将http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com请求发送到反向代理
+
+4.  Web 发布规则将从外部端口80到内部端口8080的请求桥接该请求, 然后将其路由到 Director 或前端服务器。
     
-    由于该请求是 HTTP 而非 HTTPS，因此，无需对外部 Web 服务发布规则上的证书进行任何修改即可支持自动发现服务。
+    由于请求是 HTTP 而不是 HTTPS, 因此外部 web 服务发布规则上的证书不需要修改即可支持自动发现服务。
 
-5.  自动发现服务会返回外部 Web 服务 URL（采用 HTTPS 格式）。
+5.  自动发现服务返回外部 web 服务 Url (采用 HTTPS 格式)。
 
-6.  之后，运行 Lync Mobile 的移动设备可以在端口 443 上重新连接到反向代理，并通过端口 4443 重定向到正在用户主池中运行的 Mobility Service。
+6.  运行 Lync Mobile 的移动设备可以重新连接到端口443上的反向代理, 并通过4443重定向到在用户的主池中运行的移动服务。
     
-    鉴于 HTTPS 查询是针对外部 Web 服务 URL 和自动发现服务 URL 的，因此操作会成功，原因是证书已经包含外部 Web 服务完全限定域名 (FQDN) 的使用者替代名称条目。
+    由于 HTTPS 查询指向外部 web 服务 URL 而不是自动发现服务 URL, 因此它将成功, 因为该证书将已包含外部 web 服务完全限定的域名 (Fqdn) 的主题备用名称条目。
     
-    在此方案中，不需要进行任何证书更改即可支持移动。
+    在此方案中, 无需更改任何证书来支持移动性。
     
+    <div>
+    
+
     > [!NOTE]  
-    > 如果目标 Web 服务器的证书未包含针对 lyncdiscover.contoso.com 的作为使用者替代名称列表值的匹配值：<br />
-    a.   Web 服务器以“Server Hello”进行响应且没有证书。<br />
-    b.   运行 Lync Mobile 的移动设备会立即终止会话。<br />
-    如果目标 Web 服务器的证书包含 lyncdiscover.contoso.com 作为使用者替代名称列表值：<br />
-    a.   Web 服务器以“Server Hello”进行响应且有证书。<br />
-    b.   运行 Lync Mobile 的移动设备验证该证书并完成握手。
+    > 如果目标 web 服务器具有的证书与 lyncdiscover.contoso.com 的匹配值不是 "主题备用名称" 列表值, 请执行以下操作:<BR>a.&nbsp;&nbsp;&nbsp;Web 服务器使用 "服务器 Hello" 响应, 没有证书。<BR>b. 运行 Lync Mobile 的&nbsp;移动设备立即终止会话。&nbsp;&nbsp;<BR>如果目标 web 服务器的证书包含 lyncdiscover.contoso.com 作为主题备用名称列表值, 请执行以下操作:<BR>a.&nbsp;&nbsp;&nbsp;Web 服务器使用 "服务器 hello" 和证书进行响应。<BR>b. 运行 Lync Mobile 的&nbsp;移动设备将验证证书并完成握手。&nbsp;&nbsp;
+
     
+    </div>
 
+若要支持使用反向代理服务器上的端口80的自动发现服务的初始连接, 你可以创建类似于 Forefront 威胁管理网关的 http 发布规则2010反向代理 web 发布规则:
 
-若要支持在反向代理服务器上使用端口 80 与自动发现服务进行初始连接，您可以创建一个类似于此 Forefront Threat Management Gateway 2010 反向代理 Web 发布规则示例的 http 发布规则：
+1.  创建新的 web 发布规则 (例如, **Lync Server 自动发现 (HTTP)**)。
 
-1.  创建新的 Web 发布规则（例如，**Lync Server Autodiscover (HTTP)** ）。
+2.  在 "**公共名称**" 中, 输入 lyncdiscover.contoso.com。
 
-2.  在“公共名称”中，输入 lyncdiscover.contoso.com。
+3.  在 "**桥接**" 选项卡上, 仅选择将来自端口80的请求桥接到端口8080的选项。
 
-3.  在“桥接”选项卡上，仅选择用于将请求从端口 80 桥接到端口 8080 的选项。
+4.  在 "**身份验证**" 选项卡上, 选择 "**无身份验证**",**客户端无法直接身份验证**。
 
-4.  在“身份验证”选项卡上，选择“无身份验证”和“客户端无法直接进行身份验证”。
+5.  提交更改, 并将规则移动到 Lync 规则列表的顶部 (首先在处理顺序中)。
 
-5.  提交更改，并将规则移动到 Lync 规则列表的顶部（按处理顺序排在第一位）。
+</div>
 
-## 拆分域部署的移动性
+<div>
 
-共享 SIP 地址空间也称为 *拆分域* 或 *混合部署* ，它是一种跨内部部署和在线环境部署用户的配置。期望的结果是无论用户的主服务器位于何处（内部部署还是在线），用户都能登录到部署并被重定向到其主服务器位置。若要实现此目的，需要使用 Microsoft Lync Server 2013 的自动发现功能将在线用户重定向到在线拓扑。这要通过使用 Lync Server 命令行管理程序和 cmdlet **Get-CsHostingProvider** 与 **Set-CsHostingProvider** 配置自动发现统一资源定位器 (URL) 来完成。
+## <a name="mobility-for-the-split-domain-deployment"></a>拆分域部署的移动性
 
-您需要收集和记录下列部署的属性：
+共享 SIP 地址空间 (也称为*拆分域*) 或*混合部署*是在内部部署和联机环境中部署用户的配置。 无论其主服务器位于何处 (内部部署或联机), 所需的结果是让用户登录到部署并重定向到其主服务器位置。 为了实现此目的, Microsoft Lync Server 2013 的自动发现功能用于将联机用户重定向到联机拓扑。 通过使用 Lync Server 命令行管理程序和 cmdlet **CsHostingProvider**和**Set-CsHostingProvider**配置自动发现统一资源定位器 (URL) 来实现此操作。
 
-  - 从 Lync Server 命令行管理程序键入
+你将需要收集和记录以下已部署的属性:
+
+  - 从 Lync Server 命令行管理程序中, 键入
     
         Get-CsHostingProvider
 
-  - 在结果中，查找具有属性 **ProxyFQDN** 的在线提供商。例如，sipfed.online.lync.com
+  - 在结果中, 查找具有属性**ProxyFQDN**的联机提供程序。 例如, sipfed.online.lync.com
 
   - 记录 ProxyFQDN 的值
 
-  - 在本地 Lync Server 控制面板中启用联盟，以允许与在线提供商联盟
+  - 在本地 Lync Server "控制面板" 中启用联盟, 允许与联机提供商进行联盟
 
-  - 为在线提供商启用联盟。默认情况下，对所有在线用户启用域联盟，因此在线用户可以与所有域通信
+  - 为联机提供程序启用联盟。 默认情况下, 所有联机用户都启用了域联盟, 并且可以与所有域进行通信
 
-  - 如果要定义阻止域和允许域，请确定要明确允许或阻止的域
+  - 如果你要定义阻止的域和允许的域, 请确定你将明确允许或显式阻止的域
 
-  - 对于在线联盟，您必须规划防火墙例外、证书和 DNS 主机（如使用 IPv6，则为 A 或 AAAA）记录。此外，您还必须配置联盟策略。有关详细信息，请参阅 [规划 Lync Server 和 Office Communications Server 联盟](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
+  - 对于联机联盟, 你必须为防火墙例外、证书和 DNS 主机 (如果使用 IPv6) 记录制定计划。 此外, 必须配置联合身份验证策略。 有关详细信息, 请参阅[规划 Lync Server 2013 和 Office 通信服务器联合](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

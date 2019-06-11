@@ -1,31 +1,61 @@
-﻿---
-title: 查看 Lync Server 2010 池中的当前用户
-TOCTitle: 查看 Lync Server 2010 池中的当前用户
-ms:assetid: c0986800-8ee4-4d50-9e9c-39f7c4e67bed
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ721870(v=OCS.15)
-ms:contentKeyID: 49888588
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 查看 Lync Server 2010 池中的当前用户
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View current users in Lync Server 2010 pool
+ms:assetid: c0986800-8ee4-4d50-9e9c-39f7c4e67bed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721870(v=OCS.15)
+ms:contentKeyID: 49733804
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcd3538b15a1021b59cf9baf0600ad48e4f879cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 查看 Lync Server 2010 池中的当前用户
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-26_
+# <a name="view-current-users-in-lync-server-2010-pool"></a>查看 Lync Server 2010 池中的当前用户
 
-在了解可在池之间移动用户的各种方式之前，必须先确定哪些用户存在于旧的 Lync Server 2010 池中。在下面的图像中，“注册器池”列标识为旧的 Lync Server 2010 池配置的六位用户。这些用户即为我们将移动到 Lync Server 2013 池的测试用户。
+</div>
 
-**查看 Lync Server 2010 池中的用户列表**
+<div id="mainSection">
 
-1.  使用具有 RTCUniversalServerAdmins 组成员身份或者 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到 Lync Server 2010 前端服务器。
+<div id="mainBody">
 
-2.  打开“Lync Server 控制面板”。
+<span> </span>
 
-3.  依次单击“用户”、“搜索”和“查找”。
+_**主题上次修改时间:** 2012-09-26_
 
-**Lync Server 15 控制面板**
+在了解你可以在池之间移动用户的各种方法之前, 我们必须首先确定旧版 Lync Server 2010 池中存在哪些用户。 在下面的图像中, "注册机构池" 列标识为旧版 Lync Server 2010 池配置的六个用户。 这些是我们将迁移到 Lync Server 2013 池的测试用户。
 
-![Lync Server 控制面板 -“移动用户”对话框](images/JJ205401.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 控制面板 -“移动用户”对话框")
+**若要查看 Lync Server 2010 池中的用户列表**
+
+1.  使用属于 RTCUniversalServerAdmins 组成员的帐户或 CsAdministrator 或 CsUserAdministrator 管理角色的成员登录到 Lync Server 2010 前端服务器。
+
+2.  打开“Lync Server 控制面板”****。
+
+3.  依次单击“用户”****、“搜索”和“查找”****。
+
+**Lync Server 15 "控制面板"**
+
+![Lync Server 控制面板, "移动用户" 对话框](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 控制面板, \"移动用户\" 对话框")
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

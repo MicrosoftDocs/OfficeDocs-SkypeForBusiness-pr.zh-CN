@@ -1,25 +1,45 @@
-﻿---
-title: Lync Server 2013 中的 Grant-CsSetupPermission 所做的更改
-TOCTitle: Lync Server 2013 中的 Grant-CsSetupPermission 所做的更改
-ms:assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205250(v=OCS.15)
-ms:contentKeyID: 49314181
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 通过授予 CsSetupPermission 进行的更改'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by Grant-CsSetupPermission
+ms:assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205250(v=OCS.15)
+ms:contentKeyID: 48185360
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bc63cf814f2bd901ab9753fe0f4501e7f44e2189
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837593"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 Grant-CsSetupPermission 所做的更改
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Lync Server 2013 中的 "授权-CsSetupPermission" 所做的更改
 
-若要委派安装，可向特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组授予权限，使该 OU 中的 RTCUniversalServerAdmins 组的成员能够在不是 Domain Admins 组成员的情况下在指定域中安装 Lync Server 2013。
+</div>
 
-**Grant-CsSetupPermission** cmdlet 向 OU 授予 RTCUniversalServerAdmins 组权限，如下表中所述：
+<div id="mainSection">
 
-### 向 OU 中的对象授予的权限
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-20_
+
+若要委派设置, 你可以向特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组授予权限, 从而允许该 OU 中的 RTCUniversalServerAdmins 组成员在指定的 Active Directory 中安装 Lync Server 2013不是域管理员组成员的域。
+
+**CsSetupPermission** cmdlet 授予对 OU 的 RTCUniversalServerAdmins 组权限, 如下表所示:
+
+### <a name="permissions-granted-to-objects-in-the-ou"></a>在 OU 中授予对象的权限
 
 <table>
 <colgroup>
@@ -28,16 +48,16 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>权限适用于：</th>
-<th>授予的权限为：</th>
+<th>权限适用于:</th>
+<th>授予的权限为:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>特殊访问：</p>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>读取 servicePrincipalName</p></li>
+<li><p>阅读 servicePrincipalName</p></li>
 <li><p>写入 servicePrincipalName</p></li>
 <li><p>删除树</p></li>
 <li><p>复制目录更改</p></li>
@@ -45,89 +65,100 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>后代 serviceConnectionPoint 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>特殊访问:</p>
 <ul>
 <li><p>读取权限</p></li>
 <li><p>写入权限</p></li>
-<li><p>创建子级</p></li>
-<li><p>删除子级</p></li>
-<li><p>列出内容</p></li>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>创建子元素</p></li>
+<li><p>删除子元素</p></li>
+<li><p>列表内容</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>后代 msRTCSIP-Server 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子代 msRTCSIP-服务器对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>后代 msRTCSIP-WebComponents 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子代 msRTCSIP-WebComponents 对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>后代 msRTCSIP-MCU 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子体 msRTCSIP-MCU 对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>后代 msRTCSIP-MediationServer 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子代 msRTCSIP-MediationServer 对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>后代 msRTCSIP-ApplicationServer 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子代 msRTCSIP-ApplicationServer 对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>后代 msRTCSIP-ConnectionPoint 对象</p></td>
-<td><p>特殊访问：</p>
+<td><p>子代 msRTCSIP-ConnectionPoint 对象</p></td>
+<td><p>特殊访问:</p>
 <ul>
-<li><p>写入属性</p></li>
-<li><p>读取属性</p></li>
+<li><p>Write 属性</p></li>
+<li><p>Read 属性</p></li>
 <li><p>删除树</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>后代计算机对象</p></td>
-<td><p>对 serviceConnectionPoint 的特殊访问：</p>
+<td><p>子体计算机对象</p></td>
+<td><p>用于 serviceConnectionPoint 的特殊访问:</p>
 <ul>
 <li><p>创建子对象</p></li>
 <li><p>删除子对象</p></li>
 <li><p>删除树</p></li>
 </ul>
-<p>对公共信息的特殊访问：</p>
+<p>公共信息的特殊访问权限:</p>
 <ul>
-<li><p>读取属性</p></li>
+<li><p>Read 属性</p></li>
 </ul>
-<p>对 DNS 主机名的特殊访问：</p>
+<p>DNS 主机名的特殊访问权限:</p>
 <ul>
-<li><p>读取属性</p></li>
+<li><p>Read 属性</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

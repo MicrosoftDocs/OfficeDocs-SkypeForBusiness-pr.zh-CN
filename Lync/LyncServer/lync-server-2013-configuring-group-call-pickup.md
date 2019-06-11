@@ -1,39 +1,73 @@
-﻿---
-title: 在 Lync Server 2013 中配置组内呼叫应答
-TOCTitle: 在 Lync Server 2013 中配置组内呼叫应答
-ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945645(v=OCS.15)
-ms:contentKeyID: 52061100
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置组呼叫装货'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Group Call Pickup
+ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945645(v=OCS.15)
+ms:contentKeyID: 51541505
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4d7f82d976d3e6e2594cecafe5634edfe0b52841
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置组内呼叫应答
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-01_
+# <a name="configuring-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中配置组呼叫装货
 
-2013 年 2 月版 Lync Server 2013 累积更新引入了一项新的企业语音功能“组内呼叫应答”。“组内呼叫应答”通过拨打呼叫应答组号码，允许用户接听打给另一用户的电话。
+</div>
 
-在部署企业语音时，会在前端服务器或 Standard Edition Server 上自动安装并启用“组内呼叫应答”所使用的组件。但是，必须先配置“组内呼叫应答”，然后才能将其提供给用户。
+<div id="mainSection">
 
-本节将指导您完成“组内呼叫应答”的配置过程。
+<div id="mainBody">
 
-## 本部分内容
+<span> </span>
 
-[组内呼叫应答配置先决条件和用户权限](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+_**主题上次修改时间:** 2013-02-01_
 
-[组内呼叫应答的部署过程](lync-server-2013-deployment-process-for-group-call-pickup.md)
+Lync Server 2013 的累积更新: 2 月2013将组呼叫挑选引入为新的企业语音功能。 组呼叫分拣允许用户通过拨打呼叫装货组号码来接听另一个用户拨打的电话。
 
-[部署 SEFAUtil 池](lync-server-2013-deploy-the-sefautil-tool.md)
+部署企业语音时, 将在前端服务器或标准版服务器上自动安装和启用组呼叫拾取使用的组件。 但是, 你必须先配置组呼叫挑选, 然后才能供用户使用。
 
-[配置组内呼叫应答组号码](lync-server-2013-configure-call-pickup-group-numbers.md)
+本部分将指导你完成组呼叫装货的配置。
 
-[为用户启用组内呼叫应答并分配组号码](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+<div>
 
-[将组内呼叫应答分配传达给用户](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+## <a name="in-this-section"></a>本节内容
 
-[（可选）验证组内呼叫应答部署](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+[组呼叫在 Lync Server 2013 中的装货配置先决条件和用户权限](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+
+[Lync Server 2013 中的组呼叫装货的部署过程](lync-server-2013-deployment-process-for-group-call-pickup.md)
+
+[Deploy the SEFAUtil tool in Lync Server 2013](lync-server-2013-deploy-the-sefautil-tool.md)
+
+[在 Lync Server 2013 中配置呼叫装货组号码](lync-server-2013-configure-call-pickup-group-numbers.md)
+
+[为 Lync Server 2013 中的用户启用组呼叫装货和分配组号码](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+
+[向 Lync Server 2013 中的用户传达组呼叫装货作业](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+
+[可选验证 Lync Server 2013 中的组呼叫装货部署](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

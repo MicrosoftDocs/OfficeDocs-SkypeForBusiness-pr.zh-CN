@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：访问 Lync Server 公共 IM 连接设置站点
-TOCTitle: 访问 Lync Server 公共 IM 连接设置站点
-ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn440174(v=OCS.15)
-ms:contentKeyID: 59602826
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 访问 Lync Server 公共 IM 连接设置站点
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
+ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)
+ms:contentKeyID: 57793364
+ms.date: 03/09/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a6e028afcd3a9affc6c316b7cb373e124e6d5b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837971"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 从 Lync Server 2013 访问 Lync Server 公共 IM 连接设置站点
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2017-03-09_
+# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>从 Lync Server 2013 访问 Lync Server 公共 IM 连接设置站点
 
-与以前的 PIC 设置方法相比，Lync-Skype 连接的设置过程已更改。此设置过程最多需要 30 天才能完成。建议您在完成文档中的其余步骤之前先开始此过程。在为您的帐户完成 Lync-Skype 设置过程后，该帐户将被激活，并且将为符合资格的用户启用公共 IM 连接。
+</div>
 
-### 要设置 Lync-Skype 连接，您需要以下信息：
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2019-03-22_
+
+与以前的 PIC 预配方法相比, Lync-Skype 连接的预配过程已发生更改。 完成此预配过程最多需要30天。 建议您在完成文档中的其余步骤之前先开始此过程。 为你的帐户完成 Lync-Skype 预配过程后, 将激活该帐户, 并为你的符合条件的用户启用公用 IM 连接。
+
+### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a>若要设置 Lync-Skype 连接, 您需要以下信息:
 
 <table>
 <colgroup>
@@ -33,20 +53,17 @@ _**上一次修改主题：** 2017-03-09_
 <li><p>联系信息</p></li>
 </ol></td>
 </tr>
-<tr class="even">
-<td><ol>
-<li><p>Microsoft 协议编号</p></li>
-<li><p>访问边缘服务完全限定的域名 (FQDN)</p></li>
-<li><p>会话初始协议 (SIP) 域</p></li>
-<li><p>任何其他访问边缘服务 FQDN</p></li>
-<li><p>联系信息</p></li>
-</ol></td>
-</tr>
 </tbody>
 </table>
 
+从2019年4月起, 我们将停止通过 pic.lync.com 网站为 Skype Federation 预配的客户的联系人信息的收集和保留。 进行此更改是为了确保 pic.lync.com 预配系统遵守 Microsoft 隐私策略。 
 
-### 要启动 Lync-Skype 连接的设置过程，请执行下列操作：
+此更改生效后, 我们将不再能够在挂起的预配更改上提供电子邮件更新。 PIC 预配更改通常在输入后的24-48 小时内完成。 如果你在提交预配请求后48小时仍遇到 Skype 联合身份验证问题, 请与 Microsoft 技术支持人员联系以进一步调查。
+
+> [!IMPORTANT]
+> 作为此更改的一部分, 所有以前输入的联系人信息将在2019年4月结束后从系统中清除。
+
+### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a>要启动 Lync-Skype 连接的预配过程, 请执行以下操作:
 
 <table>
 <colgroup>
@@ -55,90 +72,138 @@ _**上一次修改主题：** 2017-03-09_
 <tbody>
 <tr class="odd">
 <td><ol>
-<li><p>使用您的 Microsoft Windows Live ID 登录网站 <strong>https://pic.lync.com</strong>。</p></li>
+<li><p>使用您的 Microsoft Windows Live <strong>https://pic.lync.com</strong>ID 登录到网站。</p></li>
 <li><p>选择 Microsoft 许可协议类型。</p></li>
-<li><p>选中复选框，确保您已阅读并接受 Lync Server 产品使用权利。</p></li>
-<li><p>在“<strong>启动设置请求</strong>”页面上，单击合适的链接以启动设置请求：</p></li>
-<li><p>在“<strong>指定设置信息</strong>”页面上，输入 <strong>访问边缘服务 FQDN</strong>。例如，<strong>accessedge.contoso.com</strong>。</p></li>
-<li><p>输入至少一个或多个 SIP 域名，然后单击“<strong>添加</strong>”。</p>
-<div>
+<li><p>选中复选框, 验证您是否已阅读并接受 "Lync Server 的产品使用权限"。</p></li>
+<li><p>在 "<strong>启动预配请求</strong>" 页面上, 单击相应链接以启动设置请求:</p></li>
+<li><p>在 "<strong>指定设置信息</strong>" 页面上, 输入 "<strong>访问边缘服务" FQDN</strong>。 例如, <strong>sip.contoso.com</strong>。</p>
 
-> [!IMPORTANT]  
-> 需要至少一个访问边缘服务器和一个 SIP 域才能完成设置过程。SIP 域和访问边缘服务器必须处于活动状态、正在运行并且在网络上可访问。
 
-</div></li>
-<li><p>在“<strong>公共 IM 服务提供商</strong>”列表中，选择“<strong>Skype</strong>”，然后单击“<strong>下一步</strong>”以添加联系信息并提交设置请求。</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><ol>
-<li><p>使用您的 Microsoft Windows Live ID 登录网站 <strong>https://pic.lync.com</strong>。</p></li>
-<li><p>选择 Microsoft 许可协议类型。</p></li>
-<li><p>选中复选框，确保您已阅读并接受 Lync Server 产品使用权利。</p></li>
-<li><p>在“<strong>启动设置请求</strong>”页面上，单击合适的链接以启动设置请求：</p></li>
-<li><p>在“<strong>指定设置信息</strong>”页面上，输入 <strong>访问边缘服务 FQDN</strong>。例如，<strong>accessedge.contoso.com</strong>。</p></li>
-<li><p>输入至少一个或多个 SIP 域名，然后单击“<strong>添加</strong>”。</p>
-<div>
 
-> [!IMPORTANT]  
-> 需要至少一个访问边缘服务器和一个 SIP 域才能完成设置过程。SIP 域和访问边缘服务器必须处于活动状态、正在运行并且在网络上可访问。
+> [!IMPORTANT]
+> 2017年7月1日之后, Microsoft 还将进一步要求客户为公共 IM 连接部署的联合身份验证 DNS SRV 记录才能继续工作。
 
-</div></li>
-<li><p>在“<strong>公共 IM 服务提供商</strong>”列表中，选择“<strong>Skype</strong>”，然后单击“<strong>下一步</strong>”以添加联系信息并提交设置请求。</p></li>
+</li>
+<li><p>至少输入一个或多个 SIP 域名, 然后单击 "<strong>添加</strong>"。</p>
+
+
+
+> [!IMPORTANT]
+> 必须至少有一个访问边缘服务器和一个 SIP 域才能完成预配过程。 SIP 域和访问边缘服务器必须处于活动状态、正在运行，并且在网络上可访问。
+
+</li>
+<li><p>在<strong>公用 IM 服务提供商</strong>列表中, 选择 " <strong>Skype",</strong>然后单击 "<strong>下一步</strong>" 添加联系人信息, 并提交预配请求。</p></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 
-在提交设置请求之后，可能需要多达 30 天帐户才能激活并且才能为用户启用公共 IM 连接。
+提交预配请求后, 最多可能需要30天才能激活该帐户, 并为用户启用公用 IM 连接。
 
-## 启用联盟和公共 IM 连接 (PIC)
+<div>
 
-在提交设置请求后，您可以集中精力关注 Lync Server 环境和配置 Lync-Skype 连接所需的管理任务。在此部分中，我们假设 Lync Server 管理员已部署 Lync Server 并配置了外部访问。有关为 Lync Server 配置外部访问的其他信息，请参阅"规划外部用户访问"（网址为 [http://go.microsoft.com/fwlink/p/?LinkID=273772](http://go.microsoft.com/fwlink/p/?linkid=273772)）和"部署外部用户访问"（网址为 [http://go.microsoft.com/fwlink/p/?LinkID=27378](http://go.microsoft.com/fwlink/p/?linkid=27378)）。
+## <a name="enabling-federation-and-public-im-connectivity-pic"></a>启用联盟和公共 IM 连接 (PIC)
 
-要针对 Lync-Skype 连接准备 Lync Server 环境，Lync Server 管理员必须完成以下三个任务：
+提交预配请求后, 你可以专注于 Lync Server 环境和配置 Lync-Skype 连接所需的管理任务。 在此部分中, 我们假设 Lync Server 管理员已部署 Lync Server 和配置的外部访问权限。 有关配置 Lync Server 的外部访问的其他信息, 请参阅中的 "规划外部用户访问[https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) " 和 "部署外部用户访问" [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378)。
 
-## 1\. 配置联盟和 PIC
+要准备 lync Server 环境以实现 Lync-Skype 连接, Lync Server 管理员必须完成以下三个任务:
 
-需要联盟，Skype 用户才能与您的组织中的 Lync 用户进行通信。公共即时消息连接 (PIC) 是一种联盟类别，必须配置它，您的 Lync 用户才能够与 Skype 用户进行通信。联盟和 PIC 可使用 Lync Server 控制面板进行配置，如下所示。
+<div>
 
-> [!IMPORTANT]  
-> Live Communication Server 2005 SP1 或 Office Communications Server 2007 不再支持 PIC 联盟。支持 PIC 联盟的平台包括 Lync Server 2013、Lync Server 2010 和 Office Communications Server 2007 R2。
+## <a name="1-configure-federation-and-pic"></a>1 \。 配置联盟和 PIC
+
+必须使用联盟才能使 Skype 用户能够与组织中的 Lync 用户通信。 公共即时消息连接 (PIC) 是一种联盟类, 必须将其配置为使 Lync 用户能够与 Skype 用户通信。 联盟和 PIC 是使用 Lync Server 控制面板配置的, 如下所示。
+
+<div>
 
 
-## 2\. 配置至少一个策略以支持联盟的用户访问
-
-使用 Lync Server 控制面板，管理员必须配置一个或多个外部用户访问策略来控制 Skype 用户能否与内部 Lync Server 用户进行协作。
-
-## 3\. 针对 Lync 配置 Skype PIC 提供商设置
-
-使用 Lync Server 命令行管理程序，管理员必须配置 Lync 客户端策略以将 Skype 显示为附加 PIC 提供商。
-
-> [!NOTE]  
-> 只有至少再配置一个策略（步骤 2，此过程前面所述）以支持公共 IM 连接，公共即时消息连接 (PIC) 服务提供商的用户才能参与组织中的 IM 或会议。<br />
-> 要配置联盟和 PIC，请参阅&quot;启用或禁用联盟和公共 IM 连接&quot;，网址为 <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>。<br />
-> 要至少配置一个策略以支持联盟的用户访问，请参阅&quot;配置策略以控制公共用户访问&quot;，网址为 <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>。
+> [!IMPORTANT]
+> Live Communication Server 2005 SP1 或 Office Communications Server 2007 不再支持 PIC 联盟。 PIC 联盟支持的平台包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2。
 
 
 
-1.  从 Lync Server 前端服务器，打开 Lync Server 命令行管理程序。
+</div>
+
+</div>
+
+<div>
+
+## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2 \。 配置至少一个策略以支持联盟的用户访问
+
+使用 Lync Server 控制面板, 管理员必须配置一个或多个外部用户访问策略, 以控制 Skype 用户是否可以与内部 Lync Server 用户进行协作。
+
+</div>
+
+<div>
+
+## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a>3。 配置 Lync 的 Skype PIC 提供商设置
+
+使用 Lync Server 命令行管理程序, 管理员必须将 Lync 客户端策略配置为将 Skype 显示为其他 PIC 提供商。
+
+<div>
+
+
+> [!NOTE]
+> 只有至少再配置一个策略（步骤 2，此过程前面所述）以支持公共 IM 连接，公共即时消息连接 (PIC) 服务提供商的用户才能参与组织中的 IM 或会议。<BR>若要配置联盟和 PIC, 请参阅 "启用或禁用联盟和公用 IM 连接<A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>"。<BR>若要配置至少一个策略以支持联合用户访问, 请参阅 "配置用于控制公共用户访问的策略<A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>"。
+
+
+
+</div>
+
+1.  从 Lync Server 前端服务器, 打开 Lync Server 命令行管理程序。
 
 2.  运行以下两个命令：
     
-      - Remove-CsPublicProvider -Identity Messenger
+      - `Remove-CsPublicProvider -Identity <identity-name>`
+        
+        <div>
+        
+
+        > [!NOTE]
+        > 如果你的环境中尚未安装 PIC 提供程序, 而是创建新的 PIC 提供商, 则无需运行<STRONG>CsPublicProvider</STRONG> cmdlet。
+
+        
+        </div>
     
-      - New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl "https://images.edge.messenger.live.com/Messenger\_16x16.png" -VerificationLevel 2 -Enabled 1
+      - `New-CsPublicProvider -ProxyFqdn federation.messenger.msn.com -Enabled 1 -Identity Skype  -VerificationLevel 2 -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png"`
+        
+        <div>
+        
 
-3.  从 Lync 客户端，您现在可以选择 Skype 作为 PIC 提供商，并通过指定其 Microsoft 帐户来添加 Skype 客户端。此外，已合并并使用其 Microsoft 帐户登录的 Skype 用户可以向 Lync 用户发送联系人请求。有关 Microsoft 帐户的详细信息，请参阅[什么是 Microsoft 帐户？](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)。有关向 Lync 添加客户端的附加信息，请参阅[在 Lync Server 2013 中使用 Lync-Skype 连接作为最终用户](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)。
+        > [!NOTE]
+        > 在 Lync Server 2013 CU5 &amp;中添加的 OFFICE 2013 SP1 中的 lync 桌面客户端, NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 改善了 lync 用户将 "装饰" 非 Microsoft 域所需的 Skype 联系人添加到标识并将其路由到 Skype (格式为: user (contoso) @msn .com)。 这些新设置可自动格式化用户通过 NameDecorationRoutingDomain（应设为 msn.com）在“添加 Skype 联系人”对话框中输入的地址（如果其不包含 NameDecorationExcludedDomainList 中的域）（我们当前支持 msn.com、live.com、Hotmail.com、outlook.com）。
 
-4.  有关修改托管提供商的详细信息，请参阅"创建或编辑托管的 SIP 联盟提供商"，网址为 [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)。
+        
+        </div>
 
-这将完成必须在服务器上执行的管理任务。您现在可以设置 Lync-Skype 连接。
+3.  通过 Lync 客户端, 您现在可以选择 Skype 作为 PIC 提供商, 并通过指定其 Microsoft 帐户来添加 Skype 客户端。 此外, 已使用其 Microsoft 帐户合并和登录的 Skype 用户可以向 Lync 用户发送联系人请求。 有关 Microsoft 帐户的详细信息, 请参阅[什么是 microsoft 帐户？](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)。 有关将客户端添加到 Lync 的其他信息, 请参阅[在 Lync Server 2013 中使用 lync-Skype 连接作为最终用户](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)。
 
-## 其他资源
+4.  有关修改托管提供商的详细信息, 请参阅 "创建或编辑托管的 SIP 联合[https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)提供商"。
+
+这将完成必须在服务器上执行的管理任务。 您现在已为 Lync-Skype 连接设置。
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-resources"></a>其他资源
 
 [在 Lync Server 2013 中使用 Lync-Skype 连接作为最终用户](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-[Provisioning guide for Lync-Skype connectivity in Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+[Lync Server 2013 中的 Lync-Skype 连接设置指南](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

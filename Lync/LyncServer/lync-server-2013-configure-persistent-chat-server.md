@@ -1,35 +1,65 @@
-﻿---
-title: Lync Server 2013：配置持久聊天服务器
-TOCTitle: 配置持久聊天服务器
-ms:assetid: 85028aff-a38e-4748-958e-59e707a47532
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205054(v=OCS.15)
-ms:contentKeyID: 49313488
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置持久聊天服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Persistent Chat Server
+ms:assetid: 85028aff-a38e-4748-958e-59e707a47532
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205054(v=OCS.15)
+ms:contentKeyID: 48184709
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c8ff9c59efeb2eb8106a3fe823c8256c86474f51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837339"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置持久聊天服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-06_
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中配置持久聊天服务器
 
-创建新的 持久聊天配置
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-06_
+
+创建新的持久聊天配置
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-获取 持久聊天配置
+获取持久聊天配置
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-删除 持久聊天配置
+删除持久聊天配置
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-设置 持久聊天配置
+设置持久聊天配置
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-对于 Lync Server 2013， Lync Server 2013前端服务器上支持所有 Web 服务通信。因此，无需 持久聊天服务器上的 gcweb01 地址。我们仍支持内部 Web 服务访问，因为我们仅为 *内部* 网站提供了文件上载/下载 Web 服务（不是远程用户的 *外部* 网站）。
+对于 Lync Server 2013, 所有 web 服务流量均受 Lync Server 2013 的前端服务器支持。 因此, 不需要持久聊天服务器上的 gcweb01 地址。 我们仍然支持内部 web 服务访问, 因为我们仅向*内部*网站提供文件上载/下载 web 服务 (不适用于远程用户的*外部*网站)。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

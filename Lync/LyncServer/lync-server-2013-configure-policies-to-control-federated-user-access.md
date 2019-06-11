@@ -1,125 +1,184 @@
-﻿---
-title: Lync Server 2013：配置策略以控制联盟用户访问
-TOCTitle: 配置策略以控制联盟用户访问
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 49312869
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置策略以控制联盟用户访问
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure policies to control federated user access
+ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
+ms:contentKeyID: 48184180
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fb009561c36395ee31a49986f2db0103cbe096b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837347"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置策略以控制联盟用户访问
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-02-05_
+# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置策略以控制联盟用户访问
 
-如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。可以配置一个或多个外部用户访问策略来控制联盟域用户能否与 Lync Server 2013 用户进行协作。要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 在一个策略级别应用的 Lync Server 策略设置可能会覆盖在另一个策略级别应用的设置。Lync Server 策略优先顺序为：用户策略（影响力最大）覆盖站点策略，站点策略覆盖全局策略（影响力最小）。这意味着，策略设置与策略所影响的对象距离越近，它对该对象的影响力越大。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-02-05_
+
+配置策略以支持与联盟伙伴的通信时, 这些策略适用于联盟域的用户。 你可以配置一个或多个外部用户访问策略, 以控制联盟域的用户是否可以与 Lync Server 2013 用户协作。 若要控制联盟用户访问, 可以在全局、网站和用户级别配置策略。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在其他策略级别应用的设置。 Lync 服务器策略优先级为: 用户策略 (最受影响) 覆盖网站策略, 然后网站策略覆盖全局策略 (最不影响)。 这意味着，策略设置与策略所影响的对象距离越近，它对该对象的影响力越大。
+
+<div>
+
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。但是，只有为组织启用联盟后，配置的策略才会生效。有关启用联盟的详细信息，请参阅部署文档或操作文档中的<a href="lync-server-2013-enable-or-disable-remote-user-access.md">在 Lync Server 2013 中启用或禁用远程用户访问</a>。此外，如果指定了某个用户策略用来控制联盟用户访问，则该策略仅应用于已启用 Lync Server 2013 并配置为使用该策略的用户。
+> 你可以配置策略来控制联盟用户访问, 即使你没有为组织启用联盟也是如此。 但是, 仅当你的组织启用了联合身份验证时, 你配置的策略才有效。 有关启用联盟的详细信息, 请参阅在部署文档或操作文档中<A href="lync-server-2013-enable-or-disable-remote-user-access.md">启用或禁用 Lync Server 2013 中的远程用户访问</A>。 此外, 如果你指定用于控制联盟用户访问的用户策略, 该策略将仅应用于已启用 Lync Server 2013 的用户, 并且配置为使用该策略。
 
 
 
-## 配置策略以支持联盟域用户访问
+</div>
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+<div>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
-
-3.  在左侧导航栏中，单击“外部用户访问”，然后单击“外部访问策略”。
-
-4.  在“外部访问策略”页上，执行下列操作之一：
-    
-      - 要将全局策略配置为支持联盟用户访问，请单击该全局策略，再单击“编辑”，然后单击“显示详细信息”。
-    
-      - 要创建新的站点策略，请单击“新建”，然后单击“站点策略”。在“选择站点”中，单击列表中相应的站点，然后单击“确定”。
-    
-      - 要创建新的用户策略，请单击“新建”，然后单击“用户策略”。在“新建外部访问策略”的“名称”字段中，创建一个唯一的名称以指示用户策略的作用范围（例如，**EnableFederatedUsers** 代表启用联盟域用户通信的用户策略）。
-    
-      - 要更改现有的策略，请单击表中列出的相应策略，再单击“编辑”，然后单击“显示详细信息”。
-
-5.  （可选）如果要添加或编辑说明，请在“说明”中为策略指定相应的信息。
-
-6.  执行下列操作之一：
-    
-      - 要为策略启用联盟用户访问，请选中“启用与联盟用户的通信”复选框。
-    
-      - 要为策略禁用联盟用户访问，请清除“启用与联盟用户的通信”复选框。
-
-7.  单击“提交”。
-
-要启用联盟用户访问，还必须在组织中启用对联盟的支持。有关详细信息，请参阅 [在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)。
-
-如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。有关详细信息，请参阅 [在 Lync Server 2013 中将外部用户访问策略分配到启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
-
-## 使用 Windows PowerShell 将现有策略配置为支持联盟域用户访问
+## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>将策略配置为支持由联盟域的用户访问
 
 1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在 Lync Server 命令行管理程序中键入：
+3.  在左侧导航栏中, 单击 "**外部用户访问**", 然后单击 "**外部访问策略**"。
+
+4.  在 "**外部访问策略**" 页面上, 执行下列操作之一:
     
-        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
+      - 若要将全局策略配置为支持联合用户访问, 请单击全局策略, 单击 "**编辑**", 然后单击 "**显示详细信息**"。
     
-    一个示例命令，该命令可将针对联盟用户访问、XMPP 域访问、远程用户访问、公共提供程序访问的全局策略设置为已启用，并允许对支持音频和视频的公共提供程序使用这些音频和视频：
+      - 若要创建新的网站策略, 请单击 "**新建**", 然后单击 "**网站策略**"。 在 "**选择网站**" 中, 从列表中单击相应的网站, 然后单击 **"确定"**。
+    
+      - 若要创建新的用户策略, 请单击 "**新建**", 然后单击 "**用户策略**"。 在 "**新的外部访问策略**" 中, 在 "**名称**" 字段中创建一个唯一名称, 以指示用户策略所涉及的内容 (例如, **EnableFederatedUsers**为联合域用户启用通信的用户策略)。
+    
+      - 若要更改现有策略, 请单击表中列出的相应策略, 单击 "**编辑**", 然后单击 "**显示详细信息**"。
+
+5.  可选如果要添加或编辑说明, 请在 "**说明**" 中指定策略的信息。
+
+6.  请执行下列操作之一：
+    
+      - 若要为策略启用联盟用户访问权限, 请选中 "**启用与联盟用户的通信**" 复选框。
+    
+      - 若要对策略禁用联盟用户访问权限, 请清除 "**启用与联盟用户的通信**" 复选框。
+
+7.  单击“**提交**”。
+
+若要启用联盟用户访问, 还必须在你的组织中启用联合身份验证支持。 有关详细信息, 请参阅[在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)。
+
+如果这是用户策略, 你还必须将策略应用于你希望能够与联盟用户协作的用户。 有关详细信息, 请参阅[在 Lync Server 2013 中将外部用户访问策略分配给启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
+
+</div>
+
+<div>
+
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 配置现有策略以支持联盟域的用户访问
+
+1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+
+3.  在 Lync Server 命令行管理程序中键入以下内容:
+    
+        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
+    
+    将联盟用户访问的全局策略设置为 "已启用"、"已启用"、"已启用"、"公共访问权限启用" 和 "公共提供者访问" 的全局策略, 并授予支持它的公共提供商的音频和视频功能的示例命令:
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    > [!TIP]
-    > 参数“EnablePublicCloudAudioVideoAccess”在 Lync Server 控制面板中没有对应的选项
+    <div>
+    
 
+    > [!TIP]  
+    > 在 Lync Server "控制面板" 中, 参数 "EnablePublicCloudAudioVideoAccess" 没有对应的选择
 
-## 使用 Windows PowerShell 创建新策略以支持联盟域用户访问
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 创建新策略以支持联盟域的用户访问
 
 1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
-3.  在 Lync Server 命令行管理程序中键入：
+3.  在 Lync Server 命令行管理程序中键入以下内容:
     
         New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    创建新站点策略的示例：
+    创建新网站策略的示例:
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
 
-## 使用 Windows PowerShell 删除或重置策略以支持联盟域用户访问
+</div>
+
+<div>
+
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 删除或重置策略以支持联盟域的用户访问
 
 1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  在 Lync Server 命令行管理程序中键入：
+2.  在 Lync Server 命令行管理程序中键入以下命令
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy> 
     
-    重置全局策略的示例（只能删除全局策略的设置，而无法删除全局策略本身）：
+    重置全局策略 (全局策略只能删除其设置) 的示例。 无法删除策略:
     
         Remove-CsExternalAccessPolicy -Identity global 
     
-    若要删除站点策略，请键入：
+    若要删除网站策略, 请键入:
     
         Remove-CsExternalAccessPolicy -Identity site:Redmond 
     
-    删除站点策略 Redmond。若要删除名为 UserEAPPolicy 的用户策略，请键入：
+    删除网站策略 Redmond。 若要删除名为 UserEAPPolicy 的用户策略, 请键入:
     
         Remove-CsExternalAccessPolicy -Identity UserEAPPolicy
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
 [在 Lync Server 2013 中将外部用户访问策略分配到启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)  
 
-#### 其他资源
 
 [在 Lync Server 2013 中管理组织的 SIP 联盟域](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [在 Lync Server 2013 中管理组织的 SIP 联盟提供程序](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[新-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
+[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[授权-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
