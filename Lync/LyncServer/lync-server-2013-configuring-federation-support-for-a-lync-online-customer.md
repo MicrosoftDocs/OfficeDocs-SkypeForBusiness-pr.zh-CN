@@ -1,40 +1,79 @@
-﻿---
-title: 为 Lync Online 客户配置联盟支持
-TOCTitle: 为 Lync Online 客户配置联盟支持
-ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh202193(v=OCS.15)
-ms:contentKeyID: 49314562
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为 Lync Online 客户配置联合身份验证支持'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring federation support for a Lync Online customer
+ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
+ms:contentKeyID: 48185669
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5e3b1e7a325a078d4769116697f957815f02487
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837252"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为 Lync Online 客户配置联盟支持
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 客户配置联合身份验证支持
 
-可以通过以下任一方式为组织中的用户提供通信服务：
+</div>
 
-  - 在组织中部署 Lync Server 2013（称为“内部部署服务”）并设置 Lync 2013 用户帐户。
+<div id="mainSection">
 
-  - 设置一个带宿主提供商的 Microsoft Lync Online 2010 客户帐户，并设置一个带宿主提供商的用户帐户（称为“联机服务”）。
+<div id="mainBody">
 
-如果在组织中部署 Lync 2013，则可与一个或多个 Microsoft Lync Online 2010 客户的域联盟。若要启用内部 Lync 2013 部署的用户与 Lync Online 2010 客户的用户之间的联盟，您必须配置对域和 Lync Online 客户的用户的支持。
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+你可以通过以下任一方式向组织中的用户提供通信服务:
+
+  - 在你的组织 (称为*本地服务*) 中部署 lync Server 2013 并在你的组织中设置 lync 2013 用户帐户。
+
+  - 使用托管提供商设置 Microsoft Lync Online 2010 客户帐户, 并使用托管提供商 (称为*联机服务*) 设置用户帐户。
+
+如果您在组织中部署 Lync 2013, 则可以与一个或多个 Microsoft Lync Online 2010 客户的域联盟。 若要在本地 Lync 2013 部署的用户与 Lync Online 2010 客户的用户之间启用联盟, 必须为 Lync Online 客户的域和用户配置支持。
+
+<div>
+
 
 > [!NOTE]  
-> 本文档仅介绍将组织配置为支持与 Lync Online 2010 客户的联盟的过程，而未介绍将 Lync Online 2010 客户配置为支持联盟的过程。有关 Lync Online 服务的详细信息，请访问 Lync Online，网址为 <a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x804" class="uri">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x804</a>。
+> 本文档仅介绍配置组织以支持与 Lync Online 2010 客户联合的过程。 本文档不介绍将 Lync Online 2010 客户配置为支持联盟的过程。 有关 Lync Online 服务的详细信息, 请参阅 Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>online。
 
 
 
-## 本部分内容
+</div>
 
-  - [与 Lync 联机客户联盟的先决条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
+<div>
 
-  - [为 Lync Online 域配置联盟支持](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+## <a name="in-this-section"></a>本节内容
 
-  - [为与 Lync Online 客户的联盟配置用户访问](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+  - [在 Lync Server 2013 中与 Lync Online 客户进行联盟的先决条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
 
-  - [验证与 Lync 联机客户的通信](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+  - [在 Lync Server 2013 中配置 Lync Online 域的联合身份验证支持](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+
+  - [在 Lync Server 2013 中配置与 Lync Online 客户的联盟的用户访问权限](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+
+  - [在 Lync Server 2013 中验证与 Lync Online 客户的通信](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

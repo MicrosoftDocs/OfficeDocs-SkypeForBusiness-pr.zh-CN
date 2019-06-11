@@ -1,52 +1,80 @@
-﻿---
-title: 配置自定义显示状态
-TOCTitle: 配置自定义显示状态
-ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398997(v=OCS.15)
-ms:contentKeyID: 52061146
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置自定义状态'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring custom presence states
+ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
+ms:contentKeyID: 48185534
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837274"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 配置自定义显示状态
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>在 Lync Server 2013 中配置自定义状态状态
 
-若要在 Lync 2013 中定义自定义状态，请创建一个 XML 自定义状态配置文件，然后使用带有 CustomStateURL 参数的 Lync Server 命令行管理程序 cmdlet **New-CSClientPolicy** 或 **Set-CSClientPolicy** 来指定文件位置。
+</div>
 
-配置文件具有以下属性：
+<div id="mainSection">
 
-  - 可使用“有空”、“忙碌”和“请勿打扰”等状态指示符配置自定义状态。
+<div id="mainBody">
 
-  - 空闲状态属性确定将哪个状态指示符与自定义状态的状态文本相关联。本主题后面的示例中，会在绿色（“有空”）状态指示符的右侧显示状态文本“在家中工作”。
+<span> </span>
 
-  - 状态文本的最大长度是 64 个字符。
+_**主题上次修改时间:** 2013-01-10_
 
-  - 最多可添加四个自定义状态。
+若要在 Lync 2013 中定义自定义状态, 请创建一个 XML 自定义状态配置文件, 然后通过将 Lync Server Management Shell cmdlet **set-csclientpolicy**或**set-csclientpolicy**参数指定为其位置CustomStateURL.
 
-  - CustomStateURL 参数指定配置文件的位置。在 Lync 2013 中，SIP 高安全性模式默认为启用状态，因此您需要将自定义状态配置文件存储在已启用 HTTPS 的 Web 服务器上。否则，Lync 2013 客户端将无法连接到该文件。例如，有效地址将为 `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`。
+配置文件具有以下属性:
+
+  - 自定义状态状态可以配置为 "可用、忙碌和请勿打扰" 状态指示器。
+
+  - 可用性属性确定哪些状态指示器与自定义状态的状态文本相关联。 在本主题后面的示例中, "开始使用的状态文本" 显示在绿色 (可用) 状态指示器的右侧。
+
+  - 状态文本的最大长度为64个字符。
+
+  - 最多可以添加四个自定义状态。
+
+  - CustomStateURL 参数指定配置文件的位置。 在 Lync 2013 中, SIP 高安全模式默认情况下处于启用状态, 因此你需要将自定义状态配置文件存储在启用了 HTTPS 的 web 服务器上。 否则, Lync 2013 客户端将无法连接到该客户端。 例如, 有效的地址将是`https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`。
+
+<div>
+
 
 > [!NOTE]  
-> 然而在生产环境中不建议使用它，您可使用 EnableSIPHighSecurityMode 注册表设置在客户端中禁用 SIP 高安全性模式，从而测试位于非 HTTPS 文件共享中的配置文件。然后，您可使用 CustomStateURL 注册表设置为配置文件指定一个非 HTTPS 位置。请注意，Lync 2013 服从 Lync 2010 注册表设置，但注册表配置单元已更新。您将按如下方式创建注册表设置：
-<ul>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</p>
-<p>类型：DWORD</p>
-<p>值数据：0</p></li>
-<li><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</p>
-<p>类型：String (REG_SZ)</p>
-<p>值数据（示例）：file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml 或 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</p></li>
-</ul>
+> 尽管不推荐在生产环境中使用, 但你可以通过使用 EnableSIPHighSecurityMode 注册表设置在客户端上禁用 SIP 高安全模式来测试位于非 HTTPS 文件共享上的配置文件。 然后, 你可以使用 CustomStateURL 注册表设置为配置文件指定非 HTTPS 位置。 请注意, Lync 2013 采用 Lync 2010 注册表设置, 但注册表配置单元已更新。 您将创建如下所示的注册表设置: 
+> <UL>
+> <LI>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>类型: DWORD</P>
+> <P>值数据: 0</P>
+> <LI>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>类型: 字符串 (REG_SZ)</P>
+> <P>值数据 (示例): file://\\lspool com\LSFileShare\ClientConfigFolder\Presence.xml 或 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
 
-通过在 XML 配置文件中指定一个或多个区域设置 ID (LCID) 架构来本地化自定义状态。本主题后面会显示本地化为英语 - 美国 (1033)、挪威语 - 博克马尔语 (1044)、法语 - 法国 (1036) 和土耳其语 (1055) 的示例。有关 LCID 列表，请参阅由 Microsoft 指定的区域设置 ID，网址为 <http://go.microsoft.com/fwlink/?linkid=157331>。
+</div>
 
-## 将自定义状态添加到 Lync 2013
+通过在 XML 配置文件中指定一个或多个区域设置 ID (LCID) 架构来本地化你的自定义状态。 本主题后面的示例显示英语-美国 (1033)、挪威语 (1044)、法语-法国 (1036) 和土耳其语 (1055) 的本地化。 有关 Lcid 的列表, 请参阅 Microsoft 分配的区域设置 Id <http://go.microsoft.com/fwlink/p/?linkid=157331>。
 
-1.  创建使用以下示例格式的 XML 配置文件：
+<div>
+
+## <a name="to-add-custom-presence-states-to-lync-2013"></a>将自定义状态状态添加到 Lync 2013
+
+1.  创建使用以下示例格式的 XML 配置文件:
     
         <?xml version="1.0"?>
         <customStates xmlns="http://schemas.microsoft.com/09/2009/communicator/customStates">
@@ -69,21 +97,42 @@ _**上一次修改主题：** 2016-12-08_
           </customState>
         </customStates>
 
-2.  将 XML 配置文件保存到已启用 HTTPS 的 Web 服务器上。在此示例中，文件命名为 Presence.xml，并保存到位置 https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml。
+2.  将 XML 配置文件保存到启用了 HTTPS 的 web 服务器。 在此示例中, 文件命名为 "存在 .xml" 并保存到位置https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml。
 
-3.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+3.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
-4.  在 Lync Server 命令行管理程序中，使用类似如下的命令定义 XML 配置文件的位置：
+4.  在 Lync Server Management Shell 中, 使用类似于以下内容的命令定义 XML 配置文件的位置:
     
         New-CsClientPolicy -Identity ContosoCustomStates 
         -CustomStateURL "https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml"
 
-5.  使用 **Grant-CSClientPolicy** cmdlet 将此新策略分配给用户。
+5.  使用**set-csclientpolicy** cmdlet 将此新策略分配给用户。
 
-有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) 和 [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)。
+有关详细信息, 请参阅 Lync Server Management Shell 文档中的 "[新建-set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) " 和 "[授予" set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsClientPolicy) 。
+
+<div>
+
 
 > [!NOTE]  
-> <ul><li><p>默认情况下，Lync Server 2013 每三个小时更新一次客户端策略和设置。</p></li>
-< <li><p>如果您希望继续从早期版本中使用组策略设置，例如 CustomStateURL，则当这些设置位于新的策略注册表配置单元 (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) 中时，Lync 2013 将对这些设置进行识别。但是，基于服务器的客户端策略优先。</p></li></ul>
+> <UL>
+> <LI>
+> <P>默认情况下, Lync Server&nbsp;2013 每隔3个小时更新客户端策略和设置。</P>
+> <LI>
+> <P>如果想要继续使用以前版本 (如 CustomStateURL) 中的组策略设置, Lync 2013 将识别位于新策略注册表配置单元 (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) 中的设置。 但是, 基于服务器的客户端策略优先。</P></LI></UL>
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

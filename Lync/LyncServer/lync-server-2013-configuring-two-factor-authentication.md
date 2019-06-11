@@ -1,35 +1,73 @@
-﻿---
-title: 配置双重身份验证
-TOCTitle: 配置双重身份验证
-ms:assetid: 66cfa755-fe79-4d0f-b267-c3fa3c8f1c74
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn308567(v=OCS.15)
-ms:contentKeyID: 56271152
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置双因素身份验证'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring two-factor authentication
+ms:assetid: 66cfa755-fe79-4d0f-b267-c3fa3c8f1c74
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308567(v=OCS.15)
+ms:contentKeyID: 54973688
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f4f3793f51b84c61fe50956d0d2f47303ed8904e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837164"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 配置双重身份验证
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置双因素身份验证
 
-以下部分介绍了为您的部署配置双重身份验证所需的步骤。有关双重身份验证的详细信息，请参阅[为联机管理员启用 Office 365 多重身份验证 - 网格用户文章](http://go.microsoft.com/fwlink/p/?linkid=313332)。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-[为企业 CA 配置智能卡身份验证](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+<div id="mainBody">
 
-[为 Windows 8 配置虚拟智能卡](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+<span> </span>
 
-[为用户注册智能卡身份验证](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+_**主题上次修改时间:** 2013-07-03_
 
-[配置 Active Directory 联合身份验证服务 (AD FS 2.0)](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双因素身份验证的详细信息, 请参阅[为联机管理员网格用户发布启用 Office 365 多重身份验证](http://go.microsoft.com/fwlink/p/?linkid=313332)。
 
-[配置 AD FS 2.0 以支持客户端身份验证](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+<div>
 
-[配置 Lync Server 被动身份验证](lync-server-2013-configuring-passive-authentication.md)
+## <a name="in-this-section"></a>本节内容
 
-## 相关部分
+[在 Lync Server 2013 中配置用于智能卡身份验证的企业 CA](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+
+[配置用于将虚拟智能卡与 Lync Server 2013 结合使用的 Windows 8](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+
+[在 Lync Server 2013 中注册智能卡身份验证的用户](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+
+[为 Lync Server 2013 配置 Active Directory 联合身份验证服务 (AD FS 2.0)](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+
+[配置 AD FS 2.0 以支持 Lync Server 2013 中的客户端身份验证](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+
+[配置 Lync Server 2013 被动身份验证](lync-server-2013-configuring-passive-authentication.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>相关部分
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
