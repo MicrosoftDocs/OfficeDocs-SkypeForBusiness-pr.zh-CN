@@ -1,35 +1,73 @@
-﻿---
-title: 启用和禁用 Lync Server 2013 的用户
-TOCTitle: 启用和禁用 Lync Server 2013 的用户
-ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688099(v=OCS.15)
-ms:contentKeyID: 49888471
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为 Lync Server 启用和禁用用户'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling and disabling users for Lync Server 2013
+ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688099(v=OCS.15)
+ms:contentKeyID: 49733698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6d767ffc6f7164a763d31a58b7e2012c749b77a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830261"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 启用和禁用 Lync Server 2013 的用户
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>启用和禁用 Lync Server 2013 的用户
 
-您可以从 Lync Server 2013 中启用、暂时禁用或删除 Active Directory。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [向 Lync Server 2010 添加和启用用户帐户](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
+<div id="mainBody">
 
-  - [禁用或重新启用 Lync Server 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+<span> </span>
 
-  - [从 Lync Server 删除用户帐户](lync-server-2013-remove-a-user-account-from-lync-server.md)
+_**主题上次修改时间:** 2012-11-01_
 
-## 另请参阅
+你可以启用、暂时禁用或删除 Lync Server 2013 中的 Active Directory 用户。
 
-#### 其他资源
+<div>
+
+## <a name="in-this-section"></a>本节内容
+
+  - [为 Lync Server 2013 添加和启用用户帐户](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
+
+  - [禁用或重新启用 Lync Server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+
+  - [从 Lync Server 2013 中删除用户帐户](lync-server-2013-remove-a-user-account-from-lync-server.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [在 Lync Server 2013 中管理用户](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)  
-[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
+[Enable-Move-csuser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
+[Disable-Move-csuser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

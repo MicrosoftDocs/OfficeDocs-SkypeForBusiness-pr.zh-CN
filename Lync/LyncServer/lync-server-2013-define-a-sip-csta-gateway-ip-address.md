@@ -1,46 +1,84 @@
-﻿---
-title: Lync Server 2013：定义 SIP/CSTA 网关 IP 地址
-TOCTitle: 定义 SIP/CSTA 网关 IP 地址
-ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg602125(v=OCS.15)
-ms:contentKeyID: 49313950
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：定义 SIP/CSTA 网关 IP 地址
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define a SIP/CSTA gateway IP address
+ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg602125(v=OCS.15)
+ms:contentKeyID: 48185073
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6143b4b92c8927375dcaa772360e0b3f870dae25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830721"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-21_
+# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址
 
-如果 Lync Server 将使用传输控制协议 (TCP) 连接来连接到您部署的用于远程呼叫控制的 SIP/CSTA 网关，则必须在 拓扑生成器中定义该网关的 IP 地址。对于支持传输层安全性 (TLS) 连接的网关来说，这一步不是必需的。对于支持 TLS 连接的任何网关，您可以跳过此过程，并按照 [在 Lync Server 2013 中为 Lync 用户启用远程呼叫控制](lync-server-2013-enable-lync-users-for-remote-call-control.md)中的步骤继续部署远程呼叫控制。
+</div>
 
-## 使用拓扑生成器定义 SIP/CSTA 网关 IP 地址
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-21_
+
+如果 Lync Server 将连接到您通过使用传输控制协议 (TCP) 连接为远程呼叫控制部署的 SIP/CSTA 网关, 则必须在拓扑生成器中定义网关的 IP 地址。 对于支持传输层安全 (TLS) 连接的网关, 此步骤不是必需的。 对于支持 TLS 连接的任何网关, 您可以跳过此过程并继续部署远程呼叫控制, 方法是按照在[Lync Server 2013 中启用 "远程呼叫控制" 的 "启用 Lync 用户](lync-server-2013-enable-lync-users-for-remote-call-control.md)" 中的步骤操作。
+
+<div>
+
+## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a>使用拓扑生成器定义 SIP/CSTA 网关 IP 地址
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-2.  启动拓扑生成器：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 拓扑生成器”。
+2.  启动拓扑生成器: 单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft Lync server 2013**", 然后单击 " **Lync server 拓扑生成器**"。
 
-3.  选择相应的选项以下载现有拓扑。
+3.  选择下载现有拓扑的选项。
 
-4.  展开“受信任的应用程序服务器”节点。
+4.  展开 "**受信任的应用程序服务器**" 节点。
 
-5.  右键单击所创建的受信任应用程序池（如 [在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序项](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)中所述），然后单击“编辑属性”。
+5.  右键单击您创建的受信任的应用程序池, 如在[Lync Server 2013 中的 "配置远程呼叫控制的受信任的应用程序条目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)" 中所述, 然后单击 "**编辑属性**"。
 
-6.  清除“允许将配置数据复制到此池”复选框。
+6.  清除 "**启用将配置数据复制到此池**" 复选框。
 
-7.  单击“将服务用途限制为所选 IP 地址”。默认设置为“使用所有已配置的 IP 地址”。
+7.  单击 "**将服务使用限制为所选 IP 地址**"。 默认设置是**使用所有配置的 IP 地址**。
 
-8.  在“主 IP 地址”文本框中，输入 SIP/CSTA 网关的 IP 地址。
+8.  在 "**主 IP 地址**" 文本框中, 输入 SIP/CSTA 网关的 IP 地址。
 
-9.  要更新中央管理存储中的拓扑，请在控制台树中单击“Lync Server”，然后从“操作”窗格中单击“发布”。
+9.  若要更新中央管理存储中的拓扑, 请在控制台树中单击 " **Lync Server**", 然后在 "**操作**" 窗格中单击 "**发布**"。
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [在 Lync Server 2013 中为远程呼叫控制配置静态路由](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序项](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+[在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序项](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

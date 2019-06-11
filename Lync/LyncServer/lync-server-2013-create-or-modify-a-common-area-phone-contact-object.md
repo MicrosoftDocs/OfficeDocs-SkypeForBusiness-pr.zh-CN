@@ -1,44 +1,86 @@
-﻿---
-title: 创建或修改公共区域电话联系对象
-TOCTitle: 创建或修改公共区域电话联系对象
-ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994083(v=OCS.15)
-ms:contentKeyID: 52061151
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建或修改公共的区域电话联系人对象'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a common area phone Contact object
+ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994083(v=OCS.15)
+ms:contentKeyID: 51803995
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ee1345477178d7991083332e809de3f764be4c3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830806"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 创建或修改公共区域电话联系对象
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-20_
+# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改公用的 "区域电话联系人" 对象
 
-若要为您的所有公用区域电话创建 Active Directory 域服务联系对象，请使用 **New-CsCommonAreaPhone** cmdlet。此 cmdlet 可创建与公用区域电话配合使用的新联系对象，也可以将现有联系对象与新的公用区域电话关联。若要修改与公用区域电话相关联的联系对象的属性，请使用 **Set-CsCommonAreaPhone** cmdlet。**Set-CsCommonAreaPhone** 的可选参数使您能够更改项目，例如联系人的 Active Directory 显示名称或与电话关联的线路统一资源标识符 (URI)，以及启用或禁用用于与 Lync Server 一起使用的帐户。有关所有可用修改的详细信息，请参阅 [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone) 中的“参数”一节。有关 **New-CsCommonAreaPhone** 参数的详细信息，请参阅 [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone)。
+</div>
 
-您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行这两个 cmdlet。有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章“快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010”，网址为 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-20_
+
+若要为所有公共区域电话创建 Active Directory 域服务联系人对象, 请使用**CsCommonAreaPhone** cmdlet。 此 cmdlet 可以创建新的联系人对象以与普通的区域电话配合使用, 也可以将现有联系人对象与新的通用区域电话相关联。 若要修改与常见的区域电话相关联的联系人对象的属性, 请使用**CsCommonAreaPhone** cmdlet。 **Set-CsCommonAreaPhone**的可选参数使你能够更改项目, 例如联系人的 Active Directory 显示名称或与手机关联的行统一资源标识符 (URI), 并启用和禁用与 Lync 一起使用的帐户服务. 有关所有可用修改的详细信息, 请参阅[CsCommonAreaPhone 设置](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)的参数部分。 有关**新的 CsCommonAreaPhone**参数的详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)。
+
+你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行这两个 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+
+<div>
 
 
-## 创建公用区域电话联系对象
+<div>
 
-  - 若要创建新的公用区域电话联系对象，请使用 **New-CsCommonAreaPhone** cmdlet。在创建联系对象时，您至少必须提供以下信息：
+## <a name="creating-a-common-area-phone-contact-object"></a>创建通用的 "区域电话联系人" 对象
+
+  - 若要创建新的通用区域电话联系人对象, 请使用**CsCommonAreaPhone** cmdlet。 创建联系人对象时, 至少必须提供以下信息:
     
-      - **LineUri**：分配给公用区域电话的电话号码。请注意，在指定电话号码时您必须使用 E.164 格式。
+      - **LineUri**: 分配给公共区域电话的电话号码。 请注意, 在指定电话号码时, 必须使用 E: 164 格式。
     
-      - **RegistrarPool**：将承载联系对象的注册器池的完全限定域名 (FQDN)。
+      - **RegistrarPool**: 将托管联系人对象的注册机构池的完全限定的域名 (FQDN)。
     
-      - **OU**：将在其中创建联系对象的 Active Directory 容器的可分辨名称。
+      - **OU**: 将在其中创建联系人对象的 Active Directory 容器的可分辨名称。
     
-    我们还建议您提供 Active Directory 域服务显示名称。否则，您将需要使用 GUID 来指定电话 Identity。例如：
+    我们还建议你提供 Active Directory 域服务的显示名称。 否则, 你将需要使用 GUID 来指定电话标识。 例如：
     
         New-CsCommonAreaPhone -LineUri "tel:+12065551219" -RegistrarPool "atl-cs-001.litwareinc.com" -OU "OU=Phones,dc=litwareinc,dc=com" -DisplayName "Lobby"
 
-## 修改公用区域电话联系对象
+</div>
 
-  - 若要修改现有公用区域电话联系对象的属性，请使用 **Set-CsCommonAreaPhone** cmdlet。例如，此命令使用 DisplayName Lobby 为公用区域电话配置 SIP 地址：
+<div>
+
+## <a name="modifying-a-common-area-phone-contact-object"></a>修改公共的 "区域电话联系人" 对象
+
+  - 若要修改现有的公共区域电话的属性, 请使用**CsCommonAreaPhone** cmdlet。 例如, 此命令通过 DisplayName 大厅配置公共区域手机的 SIP 地址:
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
-有关详细信息，请参阅 [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone) cmdlet 和 [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet 的帮助主题。
+</div>
+
+有关详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) Cmdlet 和[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet 的帮助主题。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

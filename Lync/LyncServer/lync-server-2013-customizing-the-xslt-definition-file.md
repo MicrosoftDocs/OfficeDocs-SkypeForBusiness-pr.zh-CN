@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：自定义 XSLT 定义文件
-TOCTitle: 自定义 XSLT 定义文件
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49888679
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：自定义 XSLT 定义文件
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中自定义 XSLT 定义文件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自定义 XSLT 定义文件
 
-合规性服务记录并存档与每个 Lync Server 2013持久聊天服务器对话相关的数据，包括当参与者进行以下操作时：
+</div>
 
-  - 加入 持久聊天聊天室
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-09-11_
+
+合规性服务记录和存档与每个 Lync Server 2013 和持久聊天服务器对话相关的数据, 包括参与者:
+
+  - 加入持久聊天室
 
   - 离开聊天室
 
@@ -29,11 +49,13 @@ _**上一次修改主题：** 2015-03-09_
 
   - 下载文件
 
-数据以 XML 格式（可通过 XSLT 定义文件将其转换为最适合组织的格式）传送。本主题介绍合规性服务创建的 XML 文件。它还提供 XSLT 定义和输出文件的示例。
+数据以 XML 形式传递, 您可以使用 XSLT 定义文件, 将其转换为最适合您的组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
 
-## 输出格式
+<div>
 
-合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示。
+## <a name="output-format"></a>输出格式
+
+合规性服务输出按对话 (对话元素) 分类, 然后按消息 (Messages 元素) 分类, 如以下代码示例中所示。
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,14 +70,14 @@ _**上一次修改主题：** 2015-03-09_
       </Conversation>
     </Conversations>
 
-一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示。
+一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。 StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间, 如以下代码示例中所示。
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示。
+一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。 Sender 元素表示发送消息的用户, 而 DateTimeUTC 元素表示事件发生的时间, 如以下代码示例中所示。
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -64,7 +86,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表描述了消息属性类型、内容和 ID。
 
-### Messages 元素属性
+### <a name="messages-element-attributes"></a>Messages 元素属性
 
 <table>
 <colgroup>
@@ -82,8 +104,8 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>类型</p></td>
-<td><p>指定消息类型。消息类型将在&quot; Message 元素消息类型&quot;表中进行介绍。</p></td>
-<td><p>必需</p></td>
+<td><p>指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。</p></td>
+<td><p>是否必需</p></td>
 </tr>
 <tr class="even">
 <td><p>内容</p></td>
@@ -101,7 +123,7 @@ _**上一次修改主题：** 2015-03-09_
 
 每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。
 
-### Sender 元素属性
+### <a name="sender-element-attributes"></a>Sender 元素属性
 
 <table>
 <colgroup>
@@ -140,7 +162,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="odd">
 <td><p>Uri</p></td>
 <td><p>用户的 SIP URI。</p></td>
-<td><p>必需</p></td>
+<td><p>是否必需</p></td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +170,7 @@ _**上一次修改主题：** 2015-03-09_
 
 下表介绍了 Messages 元素可包含的消息类型。它还提供了如何使用每个元素的示例。
 
-### Message 元素消息类型
+### <a name="message-element-message-types"></a>Message 元素消息类型
 
 <table>
 <colgroup>
@@ -159,7 +181,7 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>消息类型</th>
-<th>说明</th>
+<th>描述</th>
 <th>代码示例</th>
 </tr>
 </thead>
@@ -216,7 +238,9 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 默认 持久聊天 Output XSD 和示例 XSL 转换
+<div>
+
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认持久聊天输出 XSD 和示例 XSL 转换
 
 以下代码示例包含合规性服务器中的默认输出。
 
@@ -384,4 +408,18 @@ _**上一次修改主题：** 2015-03-09_
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,73 @@
-﻿---
-title: Lync for Android 的要求
-TOCTitle: Lync for Android 的要求
-ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh690980(v=OCS.15)
-ms:contentKeyID: 53901751
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync for Android 要求'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync for Android requirements
+ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690980(v=OCS.15)
+ms:contentKeyID: 53312965
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb4c7ce56fb65b9f5998af90bfe63ab6eed5d28c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829928"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync for Android 的要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-04-24_
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 Lync for Android 要求
 
-Microsoft Lync 2013 Microsoft Lync 2013 为组织内通过 Android 移动电话进行连接的用户提供即时消息 (IM)、增强状态和 Lync 会议加入功能。本主题介绍 Lync 2013 for Android 的注意事项，包括先决条件、技术要求和所需的组件。
+</div>
 
-## Lync for Android 必备组件
+<div id="mainSection">
 
-若要支持 Lync 2013 for Android，Android 手机必须满足下列要求：
+<div id="mainBody">
 
-  - Android 手机必须运行 Android 4.0 或更高版本的面向手机的操作系统。
+<span> </span>
+
+_**主题上次修改时间:** 2014-04-24_
+
+Microsoft Lync 2013 Microsoft Lync 2013 for Android 为组织中从 Android 设备连接的用户提供即时消息 (IM)、增强状态和 Lync 会议联接功能。 本主题介绍了适用于 Android 的 Lync 2013 的注意事项, 包括先决条件、技术要求和必备组件。
+
+<div>
+
+## <a name="lync-for-android-prerequisite"></a>Lync for Android 先决条件
+
+若要支持适用于 Android 的 Lync 2013, Android 设备必须满足以下要求:
+
+  - Android 设备必须运行 Android 4.0 或更高版本的手机或平板电脑 (包括平板电脑), 但带有 Tegra2 芯片的设备除外。
 
   - 设备必须具有 1.2 GHz 双核或更高的 CPU。
 
-  - 设备照相机（前/后）分辨率应为 VGA 或更高。
+  - 设备摄像头 (前端/后) 分辨率应为 VGA 或更高分辨率。
 
-  - 其他硬件要求应遵循 Android 4.0 兼容性定义文档。
+  - 其他硬件要求应与 Android 4.0 兼容性定义文档相一致。
 
-## 其他技术注意事项
+</div>
 
-在 Android 移动平台上，Lync 应用程序可以在后台运行。因此，与其他移动设备平台不同，Android 移动设备不需要推送通知。在 Android 移动设备上退出 Lync 应用程序的唯一方法是显式注销 Lync。具有 Tegra 2 芯片集的设备上不支持此版本的 Lync 应用程序。
+<div>
+
+## <a name="other-technical-considerations"></a>其他技术注意事项
+
+在 Android 设备平台上, Lync 应用程序可以在后台运行。 因此, 与其他移动设备平台不同, Android 设备不需要推送通知。 在 Android 设备上退出 Lync 应用程序的唯一方法是显式注销 Lync。 Tegra 2 芯片组的设备不支持此版本的 Lync 应用程序。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,148 +1,206 @@
-﻿---
-title: 增强型 9-1-1 Cmdlet
-TOCTitle: 增强型 9-1-1 Cmdlet
-ms:assetid: e560c688-7b34-4bd7-8104-24f390644105
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415678(v=OCS.15)
-ms:contentKeyID: 49314550
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 增强的 9-1-1 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enhanced 9-1-1 cmdlets
+ms:assetid: e560c688-7b34-4bd7-8104-24f390644105
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415678(v=OCS.15)
+ms:contentKeyID: 48185650
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 674f74d9027789c63d76b8d8f280099b596b62b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830217"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 增强型 9-1-1 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的增强 9-1-1 cmdlet
 
-Microsoft Lync Server 2013 附带了可用于实现并管理企业语音解决方案的增强型 9-1-1 (E9-1-1) 实现的 cmdlet。使用这些 cmdlet 将连接点映射到物理地址，并配置企业语音用户所需的设置，以成功完成紧急呼叫并将位置自动发送给紧急服务提供商。不能从 Lync Server 控制面板中配置 E9-1-1，您必须使用 cmdlet。
+</div>
 
-## 增强型 9-1-1 Cmdlet
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-20_
+
+Microsoft Lync Server 2013 附带了一些 cmdlet, 允许你实现和管理企业语音解决方案的增强 9-1-1 (E9-1) 实现。 使用这些 cmdlet 将连接点映射到物理地址, 并将企业语音用户所需的设置配置为成功完成紧急呼叫, 并自动将位置发送给紧急服务提供商。 不能从 Lync Server 控制面板配置 E9-1-1, 必须使用 cmdlet。
+
+<div>
+
+## <a name="enhanced-9-1-1-cmdlets"></a>增强的 9-1-1 Cmdlet
 
 使用以下 cmdlet 配置 E9-1-1。
 
 **增强型 9-1-1**
 
-  -   
-    [Get-CsEnhancedEmergencyServiceDisclaimer](get-csenhancedemergencyservicedisclaimer.md)
+  - <span></span>  
+    [CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg412877(v=OCS.15))
 
-  -   
-    [Remove-CsEnhancedEmergencyServiceDisclaimer](remove-csenhancedemergencyservicedisclaimer.md)
+  - <span></span>  
+    [Remove-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg425810(v=OCS.15))
 
-  -   
-    [Set-CsEnhancedEmergencyServiceDisclaimer](set-csenhancedemergencyservicedisclaimer.md)
+  - <span></span>  
+    [Set-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398620(v=OCS.15))
 
-  -   
-    [Get-CsLisCivicAddress](get-csliscivicaddress.md)
+<!-- end list -->
 
-  -   
-    [Test-CsLisCivicAddress](test-csliscivicaddress.md)
+  - <span></span>  
+    [CsLisCivicAddress](https://technet.microsoft.com/en-us/library/Gg398459(v=OCS.15))
 
-  -   
-    [Export-CsLisConfiguration](export-cslisconfiguration.md)
+  - <span></span>  
+    [Test-CsLisCivicAddress](https://technet.microsoft.com/en-us/library/Gg425914(v=OCS.15))
 
-  -   
-    [Import-CsLisConfiguration](import-cslisconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Debug-CsLisConfiguration](debug-cslisconfiguration.md)
+  - <span></span>  
+    [Export-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398539(v=OCS.15))
 
-  -   
-    [Test-CsLisConfiguration](test-cslisconfiguration.md)
+  - <span></span>  
+    [Import-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398380(v=OCS.15))
 
-  -   
-    [Publish-CsLisConfiguration](publish-cslisconfiguration.md)
+  - <span></span>  
+    [Debug-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398710(v=OCS.15))
 
-  -   
-    [Unpublish-CsLisConfiguration](unpublish-cslisconfiguration.md)
+  - <span></span>  
+    [Test-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398497(v=OCS.15))
 
-  -   
-    [Get-CsLisLocation](get-cslislocation.md)
+  - <span></span>  
+    [Publish-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398364(v=OCS.15))
 
-  -   
-    [Remove-CsLisLocation](remove-cslislocation.md)
+  - <span></span>  
+    [Unpublish-CsLisConfiguration](unhttps://technet.microsoft.com/en-us/library/Gg398364(v=OCS.15))
 
-  -   
-    [Set-CsLisLocation](set-cslislocation.md)
+<!-- end list -->
 
-  -   
-    [Get-CsLisPort](get-cslisport.md)
+  - <span></span>  
+    [CsLisLocation](https://technet.microsoft.com/en-us/library/Gg412834(v=OCS.15))
 
-  -   
-    [Remove-CsLisPort](remove-cslisport.md)
+  - <span></span>  
+    [Remove-CsLisLocation](https://technet.microsoft.com/en-us/library/Gg425722(v=OCS.15))
 
-  -   
-    [Set-CsLisPort](set-cslisport.md)
+  - <span></span>  
+    [Set-CsLisLocation](https://technet.microsoft.com/en-us/library/Gg398757(v=OCS.15))
 
-  -   
-    [Get-CsLisServiceProvider](get-cslisserviceprovider.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsLisServiceProvider](remove-cslisserviceprovider.md)
+  - <span></span>  
+    [CsLisPort](https://technet.microsoft.com/en-us/library/Gg398820(v=OCS.15))
 
-  -   
-    [Set-CsLisServiceProvider](set-cslisserviceprovider.md)
+  - <span></span>  
+    [Remove-CsLisPort](https://technet.microsoft.com/en-us/library/Gg412899(v=OCS.15))
 
-  -   
-    [Get-CsLisSubnet](get-cslissubnet.md)
+  - <span></span>  
+    [Set-CsLisPort](https://technet.microsoft.com/en-us/library/Gg398700(v=OCS.15))
 
-  -   
-    [Remove-CsLisSubnet](remove-cslissubnet.md)
+<!-- end list -->
 
-  -   
-    [Set-CsLisSubnet](set-cslissubnet.md)
+  - <span></span>  
+    [CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg398116(v=OCS.15))
 
-  -   
-    [Get-CsLisSwitch](get-cslisswitch.md)
+  - <span></span>  
+    [Remove-CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg398904(v=OCS.15))
 
-  -   
-    [Remove-CsLisSwitch](remove-cslisswitch.md)
+  - <span></span>  
+    [Set-CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg425911(v=OCS.15))
 
-  -   
-    [Set-CsLisSwitch](set-cslisswitch.md)
+<!-- end list -->
 
-  -   
-    [Get-CsLisWirelessAccessPoint](get-csliswirelessaccesspoint.md)
+  - <span></span>  
+    [CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg398473(v=OCS.15))
 
-  -   
-    [Remove-CsLisWirelessAccessPoint](remove-csliswirelessaccesspoint.md)
+  - <span></span>  
+    [Remove-CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg413053(v=OCS.15))
 
-  -   
-    [Set-CsLisWirelessAccessPoint](set-csliswirelessaccesspoint.md)
+  - <span></span>  
+    [Set-CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg399016(v=OCS.15))
 
-  -   
-    [Get-CsLocationPolicy](get-cslocationpolicy.md)
+<!-- end list -->
 
-  -   
-    [Grant-CsLocationPolicy](grant-cslocationpolicy.md)
+  - <span></span>  
+    [CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg425769(v=OCS.15))
 
-  -   
-    [New-CsLocationPolicy](new-cslocationpolicy.md)
+  - <span></span>  
+    [Remove-CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg398352(v=OCS.15))
 
-  -   
-    [Remove-CsLocationPolicy](remove-cslocationpolicy.md)
+  - <span></span>  
+    [Set-CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg412823(v=OCS.15))
 
-  -   
-    [Set-CsLocationPolicy](set-cslocationpolicy.md)
+<!-- end list -->
 
-  -   
-    [Test-CsLocationPolicy](test-cslocationpolicy.md)
+  - <span></span>  
+    [CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg398117(v=OCS.15))
 
-  -   
-    [Get-CsNetworkSite](get-csnetworksite.md)
+  - <span></span>  
+    [Remove-CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg398461(v=OCS.15))
 
-  -   
-    [New-CsNetworkSite](new-csnetworksite.md)
+  - <span></span>  
+    [Set-CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg412723(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkSite](remove-csnetworksite.md)
+<!-- end list -->
 
-  -   
-    [Set-CsNetworkSite](set-csnetworksite.md)
+  - <span></span>  
+    [CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398911(v=OCS.15))
 
-## 另请参阅
+  - <span></span>  
+    [授权-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg413049(v=OCS.15))
 
-#### 其他资源
+  - <span></span>  
+    [新-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398231(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Remove-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398727(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg412987(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg425962(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
+
+  - <span></span>  
+    [New-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

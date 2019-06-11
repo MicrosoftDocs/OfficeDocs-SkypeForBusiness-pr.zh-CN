@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：Device 表
-TOCTitle: Device 表
-ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398930(v=OCS.15)
-ms:contentKeyID: 49314368
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Device 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device table
+ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)
+ms:contentKeyID: 48185544
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 974898f6c3fa96dd9356a0a9eed1e3fab09d288b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830430"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 Device 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="device-table-in-lync-server-2013"></a>Lync Server 2013 中的 Device 表
 
-Device 表是一个支持表，用于存储有关各种捕获或呈现设备的信息。该表中的每个记录都代表一台设备。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+Device 表是一个支持表, 用于存储有关各种捕获或呈现设备的信息。 表中的每条记录表示一个设备。
 
 
 <table>
@@ -37,12 +57,12 @@ Device 表是一个支持表，用于存储有关各种捕获或呈现设备的�
 <tr class="odd">
 <td><p><strong>DeviceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
-<td><p>标识此设备的唯一数字。</p></td>
+<td><p>Primary</p></td>
+<td><p>标识此设备的唯一号码。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceName</strong></p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>DeviceName + DeviceType 是唯一的</p></td>
 <td><p>设备名称。</p></td>
 </tr>
@@ -50,8 +70,19 @@ Device 表是一个支持表，用于存储有关各种捕获或呈现设备的�
 <td><p><strong>DeviceType</strong></p></td>
 <td><p>bit</p></td>
 <td><p>DeviceName + DeviceType 是唯一的</p></td>
-<td><p>设备类型。1 是捕获设备。0 是呈现设备。</p></td>
+<td><p>设备类型。 1是捕获设备, 0 是呈现设备。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

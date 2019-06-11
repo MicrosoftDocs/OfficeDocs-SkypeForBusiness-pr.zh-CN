@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：部署高级企业语音功能
-TOCTitle: 部署高级企业语音功能
-ms:assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425753(v=OCS.15)
-ms:contentKeyID: 49312313
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 部署高级企业语音功能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying advanced Enterprise Voice features
+ms:assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425753(v=OCS.15)
+ms:contentKeyID: 48183675
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7fff128d98f82745e471f39e8f172c6ddb7a8a52
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830567"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中部署高级企业语音功能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-22_
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>在 Lync Server 2013 中部署高级企业语音功能
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-22_
 
 为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。
 
-有关高级企业语音功能的详细信息，请参阅[规划 Lync Server 2013](lync-server-2013-planning.md) 文档中的以下几节：
+有关高级企业语音功能的详细信息, 请参阅[适用于 Lync Server 2013 的规划](lync-server-2013-planning.md)文档的以下部分:
 
   - [在 Lync Server 2013 中规划呼叫允许控制](lync-server-2013-planning-for-call-admission-control.md)
 
@@ -25,7 +45,9 @@ _**上一次修改主题：** 2012-09-22_
 
   - [在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)
 
-## 本部分内容
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [关于 Lync Server 2013 中的网络区域、站点和子网](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
@@ -35,9 +57,21 @@ _**上一次修改主题：** 2012-09-22_
 
   - [在 Lync Server 2013 中将子网与网络站点相关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
-  - [在 Lync Server 2013 中配置呼叫允许控制](lync-server-2013-configure-call-admission-control.md)
+  - [在 Lync Server 2013 中配置呼叫许可控制](lync-server-2013-configure-call-admission-control.md)
 
   - [在 Lync Server 2013 中配置增强型 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md)
 
   - [在 Lync Server 2013 中配置媒体绕过](lync-server-2013-configure-media-bypass.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

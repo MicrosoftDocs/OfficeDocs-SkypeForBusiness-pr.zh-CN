@@ -1,29 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Documentation'
+---
+title: 'Lync Server 2013: 文档'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Documentation
 ms:assetid: 5a69c0a2-0986-49c3-809c-89bc175a34ad
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720335(v=OCS.15)
-ms:contentKeyID: 62221726
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720335(v=OCS.15)
+ms:contentKeyID: 63969609
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a0b54d4bc007ecdf58cfb3a472a990ffc7a51158
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830336"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Documentation in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-05-15_
+# <a name="documentation-in-lync-server-2013"></a>Lync Server 2013 中的文档
 
-The MOF model is composed of many service management functions. Documentation about how and when tasks are performed can be shared with members of the same team or with other teams. The method of storing and sharing documentation can vary according to the type of function. For example, the procedures for system administration may be stored as Word documents because they are likely to be printed and referenced frequently. Configuration management information may be automatically generated and stored in a database for easy searching and indexing. Some documentation may be sensitive and should be restricted.
+</div>
 
-## Document management systems
+<div id="mainSection">
 
-A documentation management system acts as a central repository for documents and helps ensure that only the latest revision of a document is available. You can also consider archiving the older version of the document for reference. Lync Server provides functionality suitable to this task.
+<div id="mainBody">
 
-## Databases
+<span> </span>
 
-Several tools and management functions were discussed that are suited to using databases. The configuration management process is likely to use automated processes that store large amounts of data that require indexing and searching. Support staff may search a database of past issues and resolutions when troubleshooting new issues.
+_**主题上次修改时间:** 2015-05-15_
 
-It is likely that there will be different databases being used for different purposes. Decide if these databases should be linked or combined. For example, if the service desk identifies several issues with a common theme (such as new software causing an issue with a particular network adapter), the support staff can query the configuration database to predict how many computers might be affected.
+MOF 模型由许多服务管理功能组成。 有关任务执行方式和时间的文档可与同一团队的成员或与其他团队共享。 存储和共享文档的方法可能会根据函数的类型而有所不同。 例如, 系统管理过程可能存储为 Word 文档, 因为它们很可能会经常打印和引用。 配置管理信息可能会自动生成并存储在数据库中, 以便轻松进行搜索和编制索引。 某些文档可能是敏感的, 应该受到限制。
+
+<div>
+
+## <a name="document-management-systems"></a>文档管理系统
+
+文档管理系统充当文档的中央存储库, 可帮助确保仅提供文档的最新修订版本。 您还可以考虑存档文档的旧版本以供参考。 Lync 服务器提供适用于此任务的功能。
+
+</div>
+
+<div>
+
+## <a name="databases"></a>数据库
+
+讨论了一些适用于使用数据库的工具和管理功能。 配置管理过程可能使用存储大量需要索引和搜索的数据的自动流程。 支持人员可以在解决新问题时搜索过去问题和解决方法的数据库。
+
+可能会有不同的数据库被用于不同的用途。 确定是否应链接或合并这些数据库。 例如, 如果服务台确定了一个常见主题的多个问题 (例如新软件导致特定网络适配器出现问题), 支持人员可以查询配置数据库以预测可能受影响的计算机数。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: Lync Server 2013：创建通知
-TOCTitle: 创建通知
-ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412783(v=OCS.15)
-ms:contentKeyID: 49313845
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建公告'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create an announcement
+ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)
+ms:contentKeyID: 48185005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b80210787a8261d122fa7508807ab995279c7d0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830849"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建通知
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="create-an-announcement-in-lync-server-2013"></a>在 Lync Server 2013 中创建公告
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
 
 要创建新的通知，您需要执行以下步骤：
 
@@ -21,23 +41,30 @@ _**上一次修改主题：** 2012-11-01_
 
 2.  对于音频提示，运行 **Import-CsAnnouncementFile** cmdlet 将音频文件的内容导入文件存储。
 
-3.  运行 **New-CsAnnouncement** cmdlet 创建并命名通知。执行此步骤，以创建具有音频提示、文本到语音转换 (TTS) 提示或无提示的通知。
+3.  运行  **New-CsAnnouncement** cmdlet 创建并命名通知。 执行此步骤，以创建具有音频提示、文本到语音转换 (TTS) 提示或无提示的通知。
     
-    > [!TIP]
+    <div>
+    
+
+    > [!TIP]  
     > 您可能要创建无提示的通知（例如，要在不播放消息的情况下将呼叫转接到指定目标时）。
 
+    
+    </div>
 
 4.  将新通知分配给未分配号码表中的号码范围。
 
-本主题介绍如何导入和创建通知。有关在未分配号码表中分配通知的详细信息，请参阅 [在 Lync Server 2013 中配置未分配号码表](lync-server-2013-configure-the-unassigned-number-table.md)。
+本主题介绍如何导入和创建通知。 有关在 "未分配的号码" 表中分配公告的详细信息, 请参阅[在 Lync Server 2013 中配置 "未分配号码" 表](lync-server-2013-configure-the-unassigned-number-table.md)。
 
-## 创建新通知
+<div>
+
+## <a name="to-create-a-new-announcement"></a>创建新通知
 
 1.  对于音频提示，创建音频文件。
 
-2.  以 RTCUniversalServerAdmins 组成员的身份或利用[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述的必要用户权限登录安装了 Lync Server 命令行管理程序的计算机。
+2.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机, 如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
 
-3.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+3.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 4.  对于音频提示，运行：
     
@@ -59,13 +86,29 @@ _**上一次修改主题：** 2012-11-01_
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    有关这些 cmdlet 的更多详细信息，以及查看要在 **TextToSpeechPrompt** 参数中使用的语言代码的列表，请参阅 [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)。
+    有关这些 cmdlet 的更多详细信息, 以及要查看在**TextToSpeechPrompt**参数中使用的语言代码的列表, 请参阅[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)。
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
-[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
-[在 Lync Server 2013 中配置未分配号码表](lync-server-2013-configure-the-unassigned-number-table.md)
+## <a name="see-also"></a>另请参阅
+
+
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
+[新-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[在 Lync Server 2013 中配置未分配号码表](lync-server-2013-configure-the-unassigned-number-table.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

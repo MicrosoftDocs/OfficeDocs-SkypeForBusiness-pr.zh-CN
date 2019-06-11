@@ -1,81 +1,131 @@
-﻿---
-title: Exchange UM Cmdlet
-TOCTitle: Exchange UM Cmdlet
-ms:assetid: 32922b9f-590d-41cc-ba57-9ed5f1caa814
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415642(v=OCS.15)
-ms:contentKeyID: 49312434
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Exchange UM cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Exchange UM cmdlets
+ms:assetid: 32922b9f-590d-41cc-ba57-9ed5f1caa814
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415642(v=OCS.15)
+ms:contentKeyID: 48183786
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e4c530095b69e8aadd07ad37e3fbe4a46b361a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830189"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exchange UM Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange UM cmdlet
 
-Microsoft Lync Server 2013 与 Exchange 统一消息 (UM) 协同工作，以实现托管语音邮件的自动助理和订阅者访问。可通过 Lync Server 命令行管理程序中的 cmdlet 管理这些功能。
+</div>
 
-## Exchange UM Cmdlet
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-26_
+
+Microsoft Lync Server 2013 与 Exchange 统一消息 (UM) 配合使用, 为托管语音邮件实现自动助理和订阅者访问。 可以通过 Lync Server 命令行管理程序中的 cmdlet 管理这些功能。
+
+<div>
+
+## <a name="exchange-um-cmdlets"></a>Exchange UM Cmdlet
 
 以下 cmdlet 可用于管理 Exchange UM
 
 **Exchange UM**
 
-  -   
-    [Get-CsExUmContact](get-csexumcontact.md)
+  - <span></span>  
+    [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
 
-  -   
-    [Move-CsExUmContact](move-csexumcontact.md)
+  - <span></span>  
+    [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
-  -   
-    [New-CsExUmContact](new-csexumcontact.md)
+  - <span></span>  
+    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
 
-  -   
-    [Remove-CsExUmContact](remove-csexumcontact.md)
+  - <span></span>  
+    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
-  -   
-    [Set-CsExUmContact](set-csexumcontact.md)
+  - <span></span>  
+    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
 
-  - [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md)
+<!-- end list -->
 
-  - [Test-CsExStorageNotification](test-csexstoragenotification.md)
+  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
 
-  - [Test-CsExUMConnectivity](test-csexumconnectivity.md)
+<!-- end list -->
 
-  - [Test-CsExUMVoiceMail](test-csexumvoicemail.md)
+  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
 
-  -   
-    [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+<!-- end list -->
 
-  -   
-    [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
 
-  -   
-    [New-CsHostedVoicemailPolicy](new-cshostedvoicemailpolicy.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsHostedVoicemailPolicy](remove-cshostedvoicemailpolicy.md)
+  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
 
-  -   
-    [Set-CsHostedVoicemailPolicy](Set-CsHostedVoicemailPolicy.md)
+<!-- end list -->
 
-  -   
-    [Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)
+  - <span></span>  
+    [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
 
-  -   
-    [New-CsVoicemailReroutingConfiguration](new-csvoicemailreroutingconfiguration.md)
+  - <span></span>  
+    [授权-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
 
-  -   
-    [Remove-CsVoicemailReroutingConfiguration](remove-csvoicemailreroutingconfiguration.md)
+  - <span></span>  
+    [新-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
 
-  -   
-    [Set-CsVoicemailReroutingConfiguration](set-csvoicemailreroutingconfiguration.md)
+  - <span></span>  
+    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
 
-## 另请参阅
+  - <span></span>  
+    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
 
-#### 其他资源
+<!-- end list -->
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))
+
+  - <span></span>  
+    [新-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412948(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
