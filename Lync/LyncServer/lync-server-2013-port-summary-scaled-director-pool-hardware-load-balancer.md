@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：端口摘要 - 扩展的控制器池、硬件负载平衡器
-TOCTitle: 端口摘要 - 扩展的控制器池、硬件负载平衡器
-ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204983(v=OCS.15)
-ms:contentKeyID: 49313146
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：端口摘要 - 扩展的控制器池、硬件负载平衡器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Scaled Director pool, hardware load balancer
+ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204983(v=OCS.15)
+ms:contentKeyID: 48184434
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9a78225f7cf523d5f120f291498007fcdfa0cd3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824216"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的端口摘要 - 扩展的控制器池、硬件负载平衡器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="bdbc0-102">Lync Server 2013 中的端口摘要 - 扩展的控制器池、硬件负载平衡器</span><span class="sxs-lookup"><span data-stu-id="bdbc0-102">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
 
-控制器池的防火墙端口要求包含用于从 边缘服务器的内部接口或反向代理的面向内部的接口建立与 控制器的通信的接口。默认情况下， Microsoft Lync Server 2013 期望在反向代理与 控制器以及 前端池和 前端服务器之间打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。此外，必须在 边缘服务器内部接口与 控制器以及 前端池和 前端服务器之间建立会话初始协议 (SIP) 通信。此 SIP 协议在 边缘服务器与 前端池和 前端服务器之间使用 SIP/MTLS/TCP 5061。还必须创建允许在 控制器、 前端池和 前端服务器与 边缘服务器内部接口之间进行 SIP/MTLS/TCP 5061 通信的规则。
+</div>
 
-### 用于防火墙定义的控制器端口和协议
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="bdbc0-103">_**主题上次修改时间:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="bdbc0-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+
+<span data-ttu-id="bdbc0-104">控制器池的防火墙端口要求由用于从边缘服务器的内部接口或反向代理的内部接口内部接口中的控制器建立通信的端口。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-104">Firewall port requirements for a Director pool consist of the ports that are used to establish communication with the Director from the internal interface of the Edge Server or internal-facing interface of the reverse proxy.</span></span> <span data-ttu-id="bdbc0-105">默认情况下, Microsoft Lync Server 2013 需要从反向代理 (以及前端池和前端服务器) 打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="bdbc0-106">此外, 必须从 Edge 服务器内部接口到 Director 以及前端池和前端服务器的会话初始协议 (SIP) 通信。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="bdbc0-107">SIP 协议使用 SIP/MTLS/TCP 5061, 从边缘服务器到前端池和前端服务器。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="bdbc0-108">还必须创建允许从 Director、前端池和前端服务器到边缘服务器内部接口的 SIP/MTLS/TCP 5061 通信的规则。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+
+### <a name="director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="bdbc0-109">防火墙定义的控制器端口和协议</span><span class="sxs-lookup"><span data-stu-id="bdbc0-109">Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -28,67 +48,78 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/协议/TCP 或 UDP/端口</th>
-<th>源 IP 地址</th>
-<th>目标 IP 地址</th>
-<th>说明</th>
+<th><span data-ttu-id="bdbc0-110">角色/协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="bdbc0-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="bdbc0-111">源 IP 地址</span><span class="sxs-lookup"><span data-stu-id="bdbc0-111">Source IP address</span></span></th>
+<th><span data-ttu-id="bdbc0-112">目标 IP 地址</span><span class="sxs-lookup"><span data-stu-id="bdbc0-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="bdbc0-113">备注</span><span class="sxs-lookup"><span data-stu-id="bdbc0-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP/TCP 8080</p></td>
-<td><p>反向代理内部接口</p></td>
-<td><p>控制器硬件负载平衡器 VIP</p></td>
-<td><p>最初由反向代理的外部端接收，通信将发送到 控制器 HLB VIP 和 前端服务器 Web 服务</p></td>
+<td><p><span data-ttu-id="bdbc0-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="bdbc0-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-115">反向代理内部接口</span><span class="sxs-lookup"><span data-stu-id="bdbc0-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-116">控制器硬件负载平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="bdbc0-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-117">从反向代理的外部方开始, 通信将发送到 Director HLB VIP 和前端服务器 web 服务</span><span class="sxs-lookup"><span data-stu-id="bdbc0-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP 4443</p></td>
-<td><p>反向代理内部接口</p></td>
-<td><p>控制器硬件负载平衡器 VIP</p></td>
-<td><p>最初由反向代理的外部端接收，通信将发送到 控制器 HLB VIP 和 前端服务器 Web 服务</p></td>
+<td><p><span data-ttu-id="bdbc0-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="bdbc0-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-119">反向代理内部接口</span><span class="sxs-lookup"><span data-stu-id="bdbc0-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-120">控制器硬件负载平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="bdbc0-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-121">从反向代理的外部方开始, 通信将发送到 Director HLB VIP 和前端服务器 web 服务</span><span class="sxs-lookup"><span data-stu-id="bdbc0-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 444</p></td>
-<td><p>控制器</p></td>
-<td><p>前端服务器或 前端池</p></td>
-<td><p>控制器 HLB VIP 和 前端服务器之间的服务器间通信</p></td>
+<td><p><span data-ttu-id="bdbc0-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="bdbc0-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-123">控制器</span><span class="sxs-lookup"><span data-stu-id="bdbc0-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-124">前端服务器或前端池</span><span class="sxs-lookup"><span data-stu-id="bdbc0-124">Front End Server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-125">Director HLB VIP 和前端服务器之间的服务器间通信</span><span class="sxs-lookup"><span data-stu-id="bdbc0-125">Inter-server communication between the Director HLB VIP and the Front End Servers</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP/TCP 80</p></td>
-<td><p>内部客户端</p></td>
-<td><p>控制器硬件负载平衡器 VIP</p></td>
-<td><p>控制器会将 Web 服务提供给内部以及外部客户端。</p></td>
+<td><p><span data-ttu-id="bdbc0-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="bdbc0-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-127">内部客户端</span><span class="sxs-lookup"><span data-stu-id="bdbc0-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-128">控制器硬件负载平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="bdbc0-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-129">Director 向内部和外部客户端提供 web 服务。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 443</p></td>
-<td><p>内部客户端</p></td>
-<td><p>控制器硬件负载平衡器 VIP</p></td>
-<td><p>控制器会将 Web 服务提供给内部以及外部客户端。</p></td>
+<td><p><span data-ttu-id="bdbc0-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="bdbc0-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-131">内部客户端</span><span class="sxs-lookup"><span data-stu-id="bdbc0-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-132">控制器硬件负载平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="bdbc0-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-133">Director 向内部和外部客户端提供 web 服务。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP 5061</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>控制器硬件负载平衡器 VIP</p></td>
-<td><p>边缘服务器与 控制器和 前端服务器之间的 SIP 通信。</p></td>
+<td><p><span data-ttu-id="bdbc0-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="bdbc0-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-135">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="bdbc0-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-136">控制器硬件负载平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="bdbc0-136">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-137">从边缘服务器到控制器和前端服务器的 SIP 通信。</span><span class="sxs-lookup"><span data-stu-id="bdbc0-137">SIP communication from the Edge Server to the Director, and Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50001</p></td>
-<td><p>任意</p></td>
-<td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="bdbc0-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="bdbc0-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-139">任意</span><span class="sxs-lookup"><span data-stu-id="bdbc0-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-140">控制器</span><span class="sxs-lookup"><span data-stu-id="bdbc0-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-141">集中式日志记录服务控制器 (ClsController) 或代理 (ClsAgent) 命令和日志收集</span><span class="sxs-lookup"><span data-stu-id="bdbc0-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MTLS/TCP/50002</p></td>
-<td><p>任意</p></td>
-<td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="bdbc0-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="bdbc0-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-143">任意</span><span class="sxs-lookup"><span data-stu-id="bdbc0-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-144">控制器</span><span class="sxs-lookup"><span data-stu-id="bdbc0-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-145">集中式日志记录服务控制器 (ClsController) 或代理 (ClsAgent) 命令和日志收集</span><span class="sxs-lookup"><span data-stu-id="bdbc0-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50003</p></td>
-<td><p>任意</p></td>
-<td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="bdbc0-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="bdbc0-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-147">任意</span><span class="sxs-lookup"><span data-stu-id="bdbc0-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-148">控制器</span><span class="sxs-lookup"><span data-stu-id="bdbc0-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="bdbc0-149">集中式日志记录服务控制器 (ClsController) 或代理 (ClsAgent) 命令和日志收集</span><span class="sxs-lookup"><span data-stu-id="bdbc0-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

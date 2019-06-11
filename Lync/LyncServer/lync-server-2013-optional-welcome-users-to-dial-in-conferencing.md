@@ -1,33 +1,55 @@
-﻿---
-title: Lync Server 2013：（可选）欢迎用户参加电话拨入式会议
-TOCTitle: （可选）欢迎用户参加电话拨入式会议
-ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398846(v=OCS.15)
-ms:contentKeyID: 49314238
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：（可选）欢迎用户参加电话拨入式会议
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Welcome users to dial-in conferencing
+ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)
+ms:contentKeyID: 48185443
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: df3defde18a01ed09ac529ba9b289749f28c4cdd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825812"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# （可选）在 Lync Server 2013 中欢迎用户参加电话拨入式会议
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-30_
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="12cae-102">（可选）在 Lync Server 2013 中欢迎用户参加电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="12cae-102">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>
 
-配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) 并通知用户功能是否可用，包括介绍性说明，如初始 PIN 以及指向“电话拨入式会议设置”网页的链接。此步骤是可选的。通常使用 **Set-CsClientPin** cmdlet 来重置 PIN，但是，首次发送包含 PIN 信息的欢迎电子邮件时，可以使用本主题中的过程。如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
+</div>
 
-可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。默认情况下，该脚本不重置已设置的 PIN，但是可以使用 **Force** 参数强制重置 PIN。电子邮件使用简单邮件传输协议 (SMTP) 发送。
+<div id="mainSection">
 
-可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。可以修改电子邮件模板（即 **CAWelcomeEmailTemplate.html** 文件）以将更多链接添加到 Intranet 网页或者修改电子邮件文本。
+<div id="mainBody">
 
-## 设置初始 PIN 并发送欢迎电子邮件
+<span> </span>
 
-1.  以 RTCUniversalServerAdmins 组成员的身份登录。
+<span data-ttu-id="12cae-103">_**主题上次修改时间:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="12cae-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+<span data-ttu-id="12cae-104">在配置电话拨入式会议并测试以验证其是否正常运行后, 应为用户设置初始个人识别码 (Pin) 并通知用户有关功能的可用性, 包括介绍性说明 (如作为初始引脚和指向电话拨入式会议设置网页的链接。</span><span class="sxs-lookup"><span data-stu-id="12cae-104">After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature, including introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="12cae-105">此步骤是可选的。</span><span class="sxs-lookup"><span data-stu-id="12cae-105">This step is optional.</span></span> <span data-ttu-id="12cae-106">通常, 你可以使用**CsClientPin** cmdlet 重置 pin, 但如果你想要发送包含信息的欢迎电子邮件, 第一次可以使用本主题中的过程。</span><span class="sxs-lookup"><span data-stu-id="12cae-106">Typically, you use the **Set-CsClientPin** cmdlet to reset PINs, but you can use the procedure in this topic the first time if you want to send a welcome email with the information.</span></span> <span data-ttu-id="12cae-107">如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。</span><span class="sxs-lookup"><span data-stu-id="12cae-107">If you do not want to send the email, you can use **Set-CsClientPin** instead.</span></span>
 
-3.  在命令提示符下，运行以下内容：
+<span data-ttu-id="12cae-108">可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。</span><span class="sxs-lookup"><span data-stu-id="12cae-108">You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a welcome email to a single user.</span></span> <span data-ttu-id="12cae-109">默认情况下, 脚本不会重置 PIN (如果已设置), 但你可以使用**force**参数强制重置 pin。</span><span class="sxs-lookup"><span data-stu-id="12cae-109">By default, the script does not reset a PIN if it is already set, but you can use the **Force** parameter to force reset a PIN.</span></span> <span data-ttu-id="12cae-110">电子邮件使用简单邮件传输协议 (SMTP) 发送。</span><span class="sxs-lookup"><span data-stu-id="12cae-110">The email message is sent using Simple Mail Transfer Protocol (SMTP).</span></span>
+
+<span data-ttu-id="12cae-111">可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。</span><span class="sxs-lookup"><span data-stu-id="12cae-111">You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iteratively to set PINs and send email to a group of users.</span></span> <span data-ttu-id="12cae-112">你可以修改电子邮件模板 (即**CAWelcomeEmailTemplate**文件) 以添加更多 intranet 页面链接或修改电子邮件文本。</span><span class="sxs-lookup"><span data-stu-id="12cae-112">You can modify the email template (that is, the **CAWelcomeEmailTemplate.html** file) to add more links to intranet pages or modify the email text.</span></span>
+
+<div>
+
+## <a name="to-set-an-initial-pin-and-send-welcome-email"></a><span data-ttu-id="12cae-113">设置初始 PIN 并发送欢迎电子邮件</span><span class="sxs-lookup"><span data-stu-id="12cae-113">To set an initial PIN and send welcome email</span></span>
+
+1.  <span data-ttu-id="12cae-114">以 RTCUniversalServerAdmins 组成员的身份登录。</span><span class="sxs-lookup"><span data-stu-id="12cae-114">Log on as a member of the RTCUniversalServerAdmins group.</span></span>
+
+2.  <span data-ttu-id="12cae-115">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="12cae-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="12cae-116">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="12cae-116">Run the following at the command prompt:</span></span>
     
         Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
         -From <email address of sender> [-Subject <subject for email message>]
@@ -40,23 +62,35 @@ _**上一次修改主题：** 2012-09-30_
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **SmtpServer** 默认情况下，脚本会为此参数使用保留环境变量 **$PSEmailServer** 的值。如果未设置 **$PSEmailServer** 变量，则必须指定此参数。
+    <span data-ttu-id="12cae-117">**SmtpServer**   默认情况下, 脚本将为此参数使用 reserved 环境变量的值 **$PSEmailServer** 。</span><span class="sxs-lookup"><span data-stu-id="12cae-117">**SmtpServer**   By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter.</span></span> <span data-ttu-id="12cae-118">如果未设置 **$PSEmailServer**变量, 则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="12cae-118">If the **$PSEmailServer** variable is not set, you must specify this parameter.</span></span>
     
-    **Credential** 默认情况下，脚本会使用当前用户的凭据。如果当前用户没有权限代表指定的发件人地址发送电子邮件，则必须指定此参数。一般而言，如果没有将电子邮件地址指定为发件人地址，则需指定此参数。
+    <span data-ttu-id="12cae-119">**凭据**   默认情况下, 脚本使用当前用户的凭据。</span><span class="sxs-lookup"><span data-stu-id="12cae-119">**Credential**   By default, the script uses the credentials of the current user.</span></span> <span data-ttu-id="12cae-120">如果当前用户没有代表指定的发件人地址发送电子邮件的权限, 则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="12cae-120">If the current user does not have permission to send email on behalf of the specified From address, you must specify this parameter.</span></span> <span data-ttu-id="12cae-121">作为一般规则, 如果您不将电子邮件地址指定为 "发件人" 地址, 请指定此参数。</span><span class="sxs-lookup"><span data-stu-id="12cae-121">As a general rule, specify this parameter if you do not specify your email address as the From address.</span></span>
     
-    例如：
+    <span data-ttu-id="12cae-122">例如：</span><span class="sxs-lookup"><span data-stu-id="12cae-122">For example:</span></span>
     
         Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
         -From "marco@contoso.com"
     
-    此示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。默认主题为“欢迎参加电话拨入式会议”。
+    <span data-ttu-id="12cae-123">此示例创建一个新的 PIN 码, 然后将欢迎电子邮件从宏发送给 Bob。</span><span class="sxs-lookup"><span data-stu-id="12cae-123">This example creates a new PIN and then sends a welcome email from Marco to Bob.</span></span> <span data-ttu-id="12cae-124">此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="12cae-124">It uses the email text from the default template and creates the email message in HTML format.</span></span> <span data-ttu-id="12cae-125">默认主题为 "欢迎使用电话拨入式会议"。</span><span class="sxs-lookup"><span data-stu-id="12cae-125">The default Subject is "Welcome to Dial In Conferencing".</span></span>
     
-    另一个示例：
+    <span data-ttu-id="12cae-126">另一个示例:</span><span class="sxs-lookup"><span data-stu-id="12cae-126">Another example:</span></span>
     
         Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
         -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
         -Pin "383042650" -Force
         -Credential Admin@contoso.com -UseSsl
     
-    此示例强制为 Bob 使用值为“383042650”的新 PIN （即使 Bob 已有一个 PIN），然后从 Marco 向 Bob 发送欢迎电子邮件。由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。电子邮件使用安全套接字层 (SSL) 发送。
+    <span data-ttu-id="12cae-127">此示例为 Bob 强制使用值为 "383042650" 的新 PIN, 即使 Bob 有现有的 PIN, 然后将欢迎电子邮件从宏发送到 Bob。</span><span class="sxs-lookup"><span data-stu-id="12cae-127">This example forces a new PIN with a value of "383042650" for Bob, even though Bob had an existing PIN, and then sends a welcome email from Marco to Bob.</span></span> <span data-ttu-id="12cae-128">由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。</span><span class="sxs-lookup"><span data-stu-id="12cae-128">Because the Credential parameter is specified, the person running the command is prompted to enter a password.</span></span> <span data-ttu-id="12cae-129">电子邮件通过使用安全套接字层 (SSL) 发送。</span><span class="sxs-lookup"><span data-stu-id="12cae-129">The email is sent by using the Secure Sockets Layer (SSL).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

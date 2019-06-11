@@ -1,37 +1,69 @@
-﻿---
-title: Lync Server 2013：规划基于角色的访问控制
-TOCTitle: 规划基于角色的访问控制 (RBAC)
-ms:assetid: 41204ba3-ce5b-41a8-a6c3-b444468fa328
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425917(v=OCS.15)
-ms:contentKeyID: 49312650
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：规划基于角色的访问控制
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for role-based access control (RBAC)
+ms:assetid: 41204ba3-ce5b-41a8-a6c3-b444468fa328
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425917(v=OCS.15)
+ms:contentKeyID: 48183962
+ms.date: 01/28/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1771eb906685294e588e0c67b1fa8fb1f67a8b6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中规划基于角色的访问控制
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a><span data-ttu-id="364cb-102">在 Lync Server 2013 中规划基于角色的访问控制</span><span class="sxs-lookup"><span data-stu-id="364cb-102">Planning for role-based access control in Lync Server 2013</span></span>
 
-为使您能够在保持高标准安全性的同时委派管理任务， Lync Server 2013 引入了基于角色的访问控制 (RBAC)。使用 RBAC，可通过将用户分配给管理角色来授予管理权限。 Lync Server 2013 包含一组丰富的内置管理角色，另外还允许您创建新角色并为每个新角色指定自定义 cmdlet 列表。您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。
+</div>
 
-## 更高的服务器安全性和集中化
+<div id="mainSection">
 
-使用 RBAC，可根据用户的 Lync Server 角色实现精确访问和授权。这样就可以利用“最小特权”安全做法，以便仅向管理员和用户授予其工作所需的权限。
+<div id="mainBody">
 
-> [!IMPORTANT]
-> RBAC 限制仅适用于使用 Lync Server 控制面板或 Lync Server 命令行管理程序进行远程工作的管理员。位于运行 Lync Server 的服务器上的用户不受 RBAC 限制。因此， Lync Server 的物理安全性对维护 RBAC 限制十分重要。
+<span> </span>
+
+<span data-ttu-id="364cb-103">_**主题上次修改时间:** 2015-01-27_</span><span class="sxs-lookup"><span data-stu-id="364cb-103">_**Topic Last Modified:** 2015-01-27_</span></span>
+
+<span data-ttu-id="364cb-104">为了使你能够在保持高安全性标准的同时委派管理任务, Lync Server 2013 提供了基于角色的访问控制 (RBAC)。</span><span class="sxs-lookup"><span data-stu-id="364cb-104">To enable you to delegate administrative tasks while maintaining high standards for security, Lync Server 2013 offers role-based access control (RBAC).</span></span> <span data-ttu-id="364cb-105">通过 RBAC, 管理员权限可通过向管理角色分配用户来授予。</span><span class="sxs-lookup"><span data-stu-id="364cb-105">With RBAC, administrative privilege is granted by assigning users to administrative roles.</span></span> <span data-ttu-id="364cb-106">Lync Server 2013 包含一组丰富的内置管理角色, 还使你能够创建新角色并为每个新角色指定一个自定义 cmdlet 列表。</span><span class="sxs-lookup"><span data-stu-id="364cb-106">Lync Server 2013 includes a rich set of built-in administrative roles, and also enables you to create new roles and specify a custom list of cmdlets for each new role.</span></span> <span data-ttu-id="364cb-107">您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。</span><span class="sxs-lookup"><span data-stu-id="364cb-107">You can also add scripts of cmdlets to the allowed tasks of both predefined and custom RBAC roles.</span></span>
+
+<div>
+
+## <a name="better-server-security-and-centralization"></a><span data-ttu-id="364cb-108">更好的服务器安全和集中化</span><span class="sxs-lookup"><span data-stu-id="364cb-108">Better Server Security and Centralization</span></span>
+
+<span data-ttu-id="364cb-109">使用 RBAC、访问和授权完全基于用户的 Lync 服务器角色。</span><span class="sxs-lookup"><span data-stu-id="364cb-109">With RBAC, access and authorization is based precisely on a user’s Lync Server role.</span></span> <span data-ttu-id="364cb-110">这允许使用 "最低权限" 安全做法, 仅授予管理员和用户其作业所需的权限。</span><span class="sxs-lookup"><span data-stu-id="364cb-110">This enables use of the security practice of "least privilege," granting administrators and users only the rights that are necessary for their job.</span></span>
+
+<div>
 
 
-## 角色和作用域
+> [!IMPORTANT]  
+> <span data-ttu-id="364cb-111">只有在远程工作的管理员使用 Lync Server 控制面板或 Lync Server 命令行管理程序时, RBAC 限制才有效。</span><span class="sxs-lookup"><span data-stu-id="364cb-111">RBAC restrictions work only on administrators working remotely, using either the Lync Server Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="364cb-112">用户坐在运行 Lync Server 的服务器上时, 该用户不受 RBAC 限制。</span><span class="sxs-lookup"><span data-stu-id="364cb-112">A user sitting at a server running Lync Server is not restricted by RBAC.</span></span> <span data-ttu-id="364cb-113">因此, 您的 Lync 服务器的物理安全对于保留 RBAC 限制非常重要。</span><span class="sxs-lookup"><span data-stu-id="364cb-113">Therefore, physical security of your Lync Server is important to preserve RBAC restrictions.</span></span>
 
-在 RBAC 中，启用 *角色* 是为了使用旨在帮助特定类型的管理员或技术人员的 cmdlet 的列表。 *作用域* 是一组角色中定义的 cmdlet 可以对其执行操作的对象。受作用域影响的对象可以是用户帐户（按组织单位分组）或服务器（按站点分组）。
 
-下表列出了 Lync Server 中的预定义角色，并概述了每个角色可以执行的任务类型。第四列显示了每个 Lync Server 角色的类似 Microsoft Exchange Server 角色（如果有）。
 
-### 预定义的管理角色
+</div>
+
+</div>
+
+<div>
+
+## <a name="roles-and-scope"></a><span data-ttu-id="364cb-114">角色和作用域</span><span class="sxs-lookup"><span data-stu-id="364cb-114">Roles and Scope</span></span>
+
+<span data-ttu-id="364cb-115">在 RBAC 中, 启用了*角色*以使用 cmdlet 的列表, 这些 cmdlet 适用于特定类型的管理员或技术人员。</span><span class="sxs-lookup"><span data-stu-id="364cb-115">In RBAC, a *role* is enabled to use a list of cmdlets, designed to be useful for a certain type of administrator or technician.</span></span> <span data-ttu-id="364cb-116">*作用域*是指角色中定义的 cmdlet 可以操作的对象集。</span><span class="sxs-lookup"><span data-stu-id="364cb-116">A *scope* is the set of objects which the cmdlets defined in a role can operate on.</span></span> <span data-ttu-id="364cb-117">作用域影响的对象可以是用户帐户 (按组织单位分组) 或服务器 (按网站分组)。</span><span class="sxs-lookup"><span data-stu-id="364cb-117">The objects that scope affects can be either user accounts (grouped by organizational unit) or servers (grouped by site).</span></span>
+
+<span data-ttu-id="364cb-118">下表列出了 Lync Server 中的预定义角色, 并概括介绍了每个角色可以执行的任务类型。</span><span class="sxs-lookup"><span data-stu-id="364cb-118">The following table lists the predefined roles in Lync Server, and gives a general overview of the types of tasks each can do.</span></span> <span data-ttu-id="364cb-119">第四列显示了每个 Lync 服务器角色的类似 Microsoft Exchange 服务器角色 (如果有)。</span><span class="sxs-lookup"><span data-stu-id="364cb-119">The fourth column shows the similar Microsoft Exchange Server role for each Lync Server role, if there is one.</span></span>
+
+### <a name="predefined-administrative-roles"></a><span data-ttu-id="364cb-120">预定义的管理角色</span><span class="sxs-lookup"><span data-stu-id="364cb-120">Predefined Administrative Roles</span></span>
 
 <table>
 <colgroup>
@@ -42,204 +74,170 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色</th>
-<th>允许的任务</th>
-<th>基础 Active Directory 组</th>
-<th>Exchange 等效项</th>
+<th><span data-ttu-id="364cb-121">角色</span><span class="sxs-lookup"><span data-stu-id="364cb-121">Role</span></span></th>
+<th><span data-ttu-id="364cb-122">允许的任务</span><span class="sxs-lookup"><span data-stu-id="364cb-122">Tasks allowed</span></span></th>
+<th><span data-ttu-id="364cb-123">基础 Active Directory 组</span><span class="sxs-lookup"><span data-stu-id="364cb-123">Underlying Active Directory group</span></span></th>
+<th><span data-ttu-id="364cb-124">等同于 Exchange</span><span class="sxs-lookup"><span data-stu-id="364cb-124">Exchange equivalent</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CsAdministrator</p></td>
-<td><p>可以执行所有管理任务和修改所有设置，包括创建角色和将用户分配给角色。可以通过添加新的站点、池和服务来扩展部署。</p></td>
-<td><p>CSAdministrator</p></td>
-<td><p>组织管理</p></td>
+<td><p><span data-ttu-id="364cb-125">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-125">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-126">可以执行所有管理任务和修改所有设置, 包括创建角色和向角色分配用户。</span><span class="sxs-lookup"><span data-stu-id="364cb-126">Can perform all administrative tasks and modify all settings, including creating roles and assigning users to roles.</span></span> <span data-ttu-id="364cb-127">可以通过添加新的网站、池和服务来扩展部署。</span><span class="sxs-lookup"><span data-stu-id="364cb-127">Can expand a deployment by adding new sites, pools, and services.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-128">CSAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-128">CSAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-129">组织管理</span><span class="sxs-lookup"><span data-stu-id="364cb-129">Organization Management</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CsUserAdministrator</p></td>
-<td><p>可以为用户启用和禁用 Lync Server、移动用户和将现有策略分配给用户。不能修改策略。</p></td>
-<td><p>CSUserAdministrator</p></td>
-<td><p>邮件收件人</p></td>
+<td><p><span data-ttu-id="364cb-130">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-130">CsUserAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-131">可以为 Lync Server 启用和禁用用户、移动用户并向用户分配现有策略。</span><span class="sxs-lookup"><span data-stu-id="364cb-131">Can enable and disable users for Lync Server, move users and assign existing policies to users.</span></span> <span data-ttu-id="364cb-132">无法修改策略。</span><span class="sxs-lookup"><span data-stu-id="364cb-132">Cannot modify policies.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-133">CSUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-133">CSUserAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-134">邮件收件人</span><span class="sxs-lookup"><span data-stu-id="364cb-134">Mail Recipients</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CsVoiceAdministrator</p></td>
-<td><p>可以创建、配置和管理与语音相关的设置和策略。</p></td>
-<td><p>CSVoiceAdministrator</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="364cb-135">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-135">CsVoiceAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-136">可以创建、配置和管理与语音相关的设置和策略。</span><span class="sxs-lookup"><span data-stu-id="364cb-136">Can create, configure, and manage voice-related settings and policies.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-137">CSVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-137">CSVoiceAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-138">不适用</span><span class="sxs-lookup"><span data-stu-id="364cb-138">Not applicable</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CsServerAdministrator</p></td>
-<td><p>可以管理、监控服务器和服务，以及排除服务器和服务的故障。可以阻止与服务器建立新连接、停止和启动服务以及应用软件更新。不能做出影响全局配置的更改。</p></td>
-<td><p>CSServerAdministrator</p></td>
-<td><p>服务器管理</p></td>
+<td><p><span data-ttu-id="364cb-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-139">CsServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-140">可以管理和监视服务器和服务并解决问题。</span><span class="sxs-lookup"><span data-stu-id="364cb-140">Can manage, monitor, and troubleshoot servers and services.</span></span> <span data-ttu-id="364cb-141">可以阻止与服务器的新连接、停止和启动服务以及应用软件更新。</span><span class="sxs-lookup"><span data-stu-id="364cb-141">Can prevent new connections to servers, stop and start services, and apply software updates.</span></span> <span data-ttu-id="364cb-142">全局配置影响无法进行更改。</span><span class="sxs-lookup"><span data-stu-id="364cb-142">Cannot make changes with global configuration impact.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-143">CSServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-143">CSServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-144">服务器管理</span><span class="sxs-lookup"><span data-stu-id="364cb-144">Server Management</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CsViewOnlyAdministrator</p></td>
-<td><p>可以查看部署（包括用户和服务器信息），以便监控部署的运行状况。</p></td>
-<td><p>CSViewOnlyAdministrator</p></td>
-<td><p>仅查看组织管理</p></td>
+<td><p><span data-ttu-id="364cb-145">CsViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-145">CsViewOnlyAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-146">可以查看部署, 包括用户和服务器信息, 以便监视部署运行状况。</span><span class="sxs-lookup"><span data-stu-id="364cb-146">Can view the deployment, including user and server information, in order to monitor deployment health.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-147">CSViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-147">CSViewOnlyAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-148">仅查看组织管理</span><span class="sxs-lookup"><span data-stu-id="364cb-148">View-Only Organization Management</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CsHelpDesk</p></td>
-<td><p>可以查看部署，包括用户的属性和策略。可以运行特定的故障排除任务。不能更改用户属性或策略、服务器配置或服务。</p></td>
-<td><p>CSHelpDesk</p></td>
-<td><p>技术支持人员</p></td>
+<td><p><span data-ttu-id="364cb-149">CsHelpDesk</span><span class="sxs-lookup"><span data-stu-id="364cb-149">CsHelpDesk</span></span></p></td>
+<td><p><span data-ttu-id="364cb-150">可以查看部署, 包括用户的属性和策略。</span><span class="sxs-lookup"><span data-stu-id="364cb-150">Can view the deployment, including user's properties and policies.</span></span> <span data-ttu-id="364cb-151">可以运行特定的疑难解答任务。</span><span class="sxs-lookup"><span data-stu-id="364cb-151">Can run specific troubleshooting tasks.</span></span> <span data-ttu-id="364cb-152">无法更改用户属性或策略、服务器配置或服务。</span><span class="sxs-lookup"><span data-stu-id="364cb-152">Cannot change user properties or policies, server configuration, or services.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-153">CSHelpDesk</span><span class="sxs-lookup"><span data-stu-id="364cb-153">CSHelpDesk</span></span></p></td>
+<td><p><span data-ttu-id="364cb-154">支持人员</span><span class="sxs-lookup"><span data-stu-id="364cb-154">HelpDesk</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CsArchivingAdministrator</p></td>
-<td><p>可以修改存档配置和策略。</p></td>
-<td><p>CSArchivingAdministrator</p></td>
-<td><p>Retention Management、Legal Hold</p></td>
+<td><p><span data-ttu-id="364cb-155">CsArchivingAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-155">CsArchivingAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-156">可以修改存档配置和策略。</span><span class="sxs-lookup"><span data-stu-id="364cb-156">Can modify archiving configuration and policies.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-157">CSArchivingAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-157">CSArchivingAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-158">保留管理, 法律封存</span><span class="sxs-lookup"><span data-stu-id="364cb-158">Retention Management, Legal Hold</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CsResponseGroupAdministrator</p></td>
-<td><p>可以在站点内管理响应组应用程序的配置。</p></td>
-<td><p>CSResponseGroupAdministrator</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="364cb-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-159">CsResponseGroupAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-160">可以管理网站内响应组应用程序的配置。</span><span class="sxs-lookup"><span data-stu-id="364cb-160">Can manage the configuration of the Response Group application within a site.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-161">CSResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-161">CSResponseGroupAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-162">不适用</span><span class="sxs-lookup"><span data-stu-id="364cb-162">Not applicable</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CsLocationAdministrator</p></td>
-<td><p>增强型 9-1-1 (E9-1-1) 的最低级别权限管理，包括创建 E9-1-1 位置和网络标识符，以及将这二者相互关联。此角色始终分配有全局作用域。</p></td>
-<td><p>CSLocationAdministrator</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="364cb-163">CsLocationAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-163">CsLocationAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-164">增强 9-1-1 (E9-1) 管理的最低权限级别, 包括创建 E9-1 位置和网络标识符, 以及将它们相互关联。</span><span class="sxs-lookup"><span data-stu-id="364cb-164">Lowest level of rights for Enhanced 9-1-1 (E9-1-1) management, including creating E9-1-1 locations and network identifiers, and associating these with each other.</span></span> <span data-ttu-id="364cb-165">此角色始终分配有全局范围。</span><span class="sxs-lookup"><span data-stu-id="364cb-165">This role is always assigned with a global scope.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-166">CSLocationAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-166">CSLocationAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-167">不适用</span><span class="sxs-lookup"><span data-stu-id="364cb-167">Not applicable</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CsResponseGroupManager</p></td>
-<td><p>可以管理特定的响应组。</p></td>
-<td><p>CSResponseGroupManager</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="364cb-168">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="364cb-168">CsResponseGroupManager</span></span></p></td>
+<td><p><span data-ttu-id="364cb-169">可以管理特定的响应组。</span><span class="sxs-lookup"><span data-stu-id="364cb-169">Can manage specific response groups.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-170">CSResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="364cb-170">CSResponseGroupManager</span></span></p></td>
+<td><p><span data-ttu-id="364cb-171">不适用</span><span class="sxs-lookup"><span data-stu-id="364cb-171">Not applicable</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CsPersistentChatAdministrator</p></td>
-<td><p>可以管理持久聊天功能和特定的持久聊天聊天室。</p></td>
-<td><p>CSPersistentChatAdministrator</p></td>
-<td><p>不适用</p></td>
-</tr>
-<tr class="even">
-<td><p>CsAdministrator</p></td>
-<td><p>可以执行所有管理任务和修改所有设置，包括创建角色和将用户分配给角色。可以通过添加新的站点、池和服务来扩展部署。</p></td>
-<td><p>CSAdministrator</p></td>
-<td><p>组织管理</p></td>
-</tr>
-<tr class="odd">
-<td><p>CsUserAdministrator</p></td>
-<td><p>可以为用户启用和禁用 Lync Server、移动用户和将现有策略分配给用户。不能修改策略。</p></td>
-<td><p>CSUserAdministrator</p></td>
-<td><p>邮件收件人</p></td>
-</tr>
-<tr class="even">
-<td><p>CsVoiceAdministrator</p></td>
-<td><p>可以创建、配置和管理与语音相关的设置和策略。</p></td>
-<td><p>CSVoiceAdministrator</p></td>
-<td><p>不适用</p></td>
-</tr>
-<tr class="odd">
-<td><p>CsServerAdministrator</p></td>
-<td><p>可以管理、监控服务器和服务，以及排除服务器和服务的故障。可以阻止与服务器建立新连接、停止和启动服务以及应用软件更新。不能做出影响全局配置的更改。</p></td>
-<td><p>CSServerAdministrator</p></td>
-<td><p>服务器管理</p></td>
-</tr>
-<tr class="even">
-<td><p>CsViewOnlyAdministrator</p></td>
-<td><p>可以查看部署（包括用户和服务器信息），以便监控部署的运行状况。</p></td>
-<td><p>CSViewOnlyAdministrator</p></td>
-<td><p>仅查看组织管理</p></td>
-</tr>
-<tr class="odd">
-<td><p>CsHelpDesk</p></td>
-<td><p>可以查看部署，包括用户的属性和策略。可以运行特定的故障排除任务。不能更改用户属性或策略、服务器配置或服务。</p></td>
-<td><p>CSHelpDesk</p></td>
-<td><p>技术支持人员</p></td>
-</tr>
-<tr class="even">
-<td><p>CsArchivingAdministrator</p></td>
-<td><p>可以修改存档配置和策略。</p></td>
-<td><p>CSArchivingAdministrator</p></td>
-<td><p>Retention Management、Legal Hold</p></td>
-</tr>
-<tr class="odd">
-<td><p>CsResponseGroupAdministrator</p></td>
-<td><p>可以在站点内管理响应组应用程序的配置。</p></td>
-<td><p>CSResponseGroupAdministrator</p></td>
-<td><p>不适用</p></td>
-</tr>
-<tr class="even">
-<td><p>CsLocationAdministrator</p></td>
-<td><p>增强型 9-1-1 (E9-1-1) 的最低级别权限管理，包括创建 E9-1-1 位置和网络标识符，以及将这二者相互关联。此角色始终分配有全局作用域。</p></td>
-<td><p>CSLocationAdministrator</p></td>
-<td><p>不适用</p></td>
-</tr>
-<tr class="odd">
-<td><p>CsResponseGroupManager</p></td>
-<td><p>可以管理特定的响应组。</p></td>
-<td><p>CSResponseGroupManager</p></td>
-<td><p>不适用</p></td>
-</tr>
-<tr class="even">
-<td><p>CsPersistentChatAdministrator</p></td>
-<td><p>可以管理持久聊天功能和特定的持久聊天聊天室。</p></td>
-<td><p>CSPersistentChatAdministrator</p></td>
-<td><p>不适用</p></td>
+<td><p><span data-ttu-id="364cb-172">CsPersistentChatAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-172">CsPersistentChatAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-173">可以管理持久聊天功能和特定的持久聊天聊天室。</span><span class="sxs-lookup"><span data-stu-id="364cb-173">Can manage the Persistent Chat feature and specific Persistent Chat rooms.</span></span></p></td>
+<td><p><span data-ttu-id="364cb-174">CSPersistentChatAdministrator</span><span class="sxs-lookup"><span data-stu-id="364cb-174">CSPersistentChatAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="364cb-175">不适用</span><span class="sxs-lookup"><span data-stu-id="364cb-175">Not applicable</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Lync Server 中附带的所有预定义角色都具有全局作用域。为符合“最小特权”做法，如果用户仅管理有限的一组服务器或用户，则不应将他们分配给具有全局作用域的角色。为此，可以创建基于现有角色但作用域更加有限的角色。
+<span data-ttu-id="364cb-176">Lync Server 附带的所有预定义角色都具有全局范围。</span><span class="sxs-lookup"><span data-stu-id="364cb-176">All predefined roles shipped in Lync Server have a global scope.</span></span> <span data-ttu-id="364cb-177">若要遵循最低权限做法, 则不应将用户分配给具有全局范围的角色 (如果他们仅管理有限的一组服务器或用户)。</span><span class="sxs-lookup"><span data-stu-id="364cb-177">To follow least privilege practices, you should not assign users to roles with global scope if they are going to administer only a limited set of servers or users.</span></span> <span data-ttu-id="364cb-178">若要实现此目的, 你可以创建基于现有角色的角色, 但范围更有限。</span><span class="sxs-lookup"><span data-stu-id="364cb-178">To accomplish this, you can create roles which are based on an existing role, but with a more limited scope.</span></span>
 
-## 创建作用域角色
+<div>
 
-创建作用域有限的角色（作用域角色）时，需指定作用域、该角色所基于的现有角色以及要将该角色分配到的 Active Directory 组。指定的 Active Directory 组必须是已创建的组。以下 cmdlet 示例创建的角色具有其中一种预定义管理角色的权限，但具有有限作用域。它创建名为 `Site01 Server Administrators` 的新角色。该角色具有预定义的 CsServerAdministrator 角色的功能，但仅适用于位于 Site01 站点上的服务器。要运行此 cmdlet，必须已定义 Site01 站点并且名为 `Site01 Server Administrators` 的统一安全组必须已存在。
+## <a name="creating-a-scoped-role"></a><span data-ttu-id="364cb-179">创建作用域角色</span><span class="sxs-lookup"><span data-stu-id="364cb-179">Creating a Scoped Role</span></span>
+
+<span data-ttu-id="364cb-180">创建具有有限范围 (作用域角色) 的角色时, 指定作用域以及它所基于的现有角色以及要为其分配角色的 Active Directory 组。</span><span class="sxs-lookup"><span data-stu-id="364cb-180">When you create a role with limited scope (a scoped role), you specify the scope, along with the existing role it is based on and the Active Directory group to be assigned the role.</span></span> <span data-ttu-id="364cb-181">你指定的 Active Directory 组必须已创建。</span><span class="sxs-lookup"><span data-stu-id="364cb-181">The Active Directory group you specify must already be created.</span></span> <span data-ttu-id="364cb-182">以下 cmdlet 是创建一个角色的示例, 该角色具有一个预定义的管理角色的权限, 但范围有限。</span><span class="sxs-lookup"><span data-stu-id="364cb-182">The following cmdlet is an example of a creating a role which has the privileges of one of the pre-defined administrative roles, but with limited scope.</span></span> <span data-ttu-id="364cb-183">它将创建一个名`Site01 Server Administrators`为的新角色。</span><span class="sxs-lookup"><span data-stu-id="364cb-183">It creates a new role called `Site01 Server Administrators`.</span></span> <span data-ttu-id="364cb-184">角色具有预定义的 CsServerAdministrator 角色的功能, 但仅适用于位于 Site01 网站中的服务器。</span><span class="sxs-lookup"><span data-stu-id="364cb-184">The role has the abilities of the predefined CsServerAdministrator role, but only for the servers located in the Site01 site.</span></span> <span data-ttu-id="364cb-185">为使此 cmdlet 正常工作, Site01 网站必须已定义, 并且名为`Site01 Server Administrators`的通用安全组必须已经存在。</span><span class="sxs-lookup"><span data-stu-id="364cb-185">For this cmdlet to work, the Site01 site must already be defined, and a universal security group named `Site01 Server Administrators` must already exist.</span></span>
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-运行此 cmdlet 后， `Site01 Server Administrators` 组的所有成员用户都将具有对 Site01 中服务器的服务器管理员权限。此外，以后添加到此统一安全组的所有用户也可以获得此角色的权限。请注意，角色本身及其分配到的统一安全组都称为 `Site01 Server Administrators`。
+<span data-ttu-id="364cb-186">运行此 cmdlet 后, 属于`Site01 Server Administrators`该组成员的所有用户将拥有 Site01 中服务器的服务器管理员权限。</span><span class="sxs-lookup"><span data-stu-id="364cb-186">After this cmdlet runs, all users who are members of the `Site01 Server Administrators` group will have server administrator privileges for the servers in Site01.</span></span> <span data-ttu-id="364cb-187">此外, 随后添加到此通用安全组的任何用户也会获得此角色的权限。</span><span class="sxs-lookup"><span data-stu-id="364cb-187">Additionally, any users who are later added to this universal security group also gain the privileges of this role.</span></span> <span data-ttu-id="364cb-188">请注意, 角色本身和分配给它的通用安全组都被称为`Site01 Server Administrators`。</span><span class="sxs-lookup"><span data-stu-id="364cb-188">Note that both the role itself, and the universal security group it is assigned to are called `Site01 Server Administrators`.</span></span>
 
-以下示例限定用户作用域，而不是服务器作用域。它创建 `Sales Users Administrator` 角色来管理 Sales 组织单位中的用户帐户。为使此 cmdlet 正常工作，必须已创建 SalesUsersAdministrator 统一安全组。
+<span data-ttu-id="364cb-189">以下示例限制用户范围, 而不是服务器范围。</span><span class="sxs-lookup"><span data-stu-id="364cb-189">The following example limits user scope instead of server scope.</span></span> <span data-ttu-id="364cb-190">它将创建`Sales Users Administrator`一个角色来管理销售组织单位中的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="364cb-190">It creates a `Sales Users Administrator` role to administer the user accounts in the Sales organizational unit.</span></span> <span data-ttu-id="364cb-191">必须已创建 SalesUsersAdministrator 通用安全组, 此 cmdlet 才能正常工作。</span><span class="sxs-lookup"><span data-stu-id="364cb-191">The SalesUsersAdministrator universal security group must already be created for this cmdlet to work.</span></span>
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
-## 新建角色
+</div>
 
-要创建的角色必须能够访问 cmdlet 组而不是其中一个预定义角色，或者必须能够访问一组脚本或模块，您再次需要从使用其中一个预定义角色作为模板开始。请注意，角色能够运行的脚本和模块必须存储在以下位置：
+<div>
 
-  - Lync 模块路径，默认情况下为 C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\Lync
+## <a name="creating-a-new-role"></a><span data-ttu-id="364cb-192">创建新角色</span><span class="sxs-lookup"><span data-stu-id="364cb-192">Creating a New Role</span></span>
 
-  - 用户脚本路径，默认情况下为 C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\AdminScripts
+<span data-ttu-id="364cb-193">若要创建可访问一组不在预定义角色或一组脚本或模块中的一组 cmdlet 的角色, 请再次使用预定义角色之一作为模板开始。</span><span class="sxs-lookup"><span data-stu-id="364cb-193">To create a role that has access to a set of cmdlets not in one of the predefined roles, or to a set of scripts or modules, you again start by using one of the predefined roles as a template.</span></span> <span data-ttu-id="364cb-194">请注意, 角色可以运行的脚本和模块必须存储在以下位置:</span><span class="sxs-lookup"><span data-stu-id="364cb-194">Note that scripts and modules that roles are to be able to run must be stored in the following locations:</span></span>
 
-要创建新角色，请使用 **New-CsAdminRole** cmdlet。在运行 **New-CsAdminRole** 之前，您必须首先创建将与该角色关联的基础统一安全组。
+  - <span data-ttu-id="364cb-195">Lync\\模块路径, 默认情况下为 C: 程序文件\\常见文件\\Microsoft Lync Server 2013\\模块 Lync\\</span><span class="sxs-lookup"><span data-stu-id="364cb-195">The Lync module path, which is by default C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\Lync</span></span>
 
-以下 cmdlet 为创建新角色的示例。它们创建一个名为 `MyHelpDeskScriptRole` 的新角色。该新角色具有预定义 CsHelpDesk 角色的功能，另外还可以运行名为“testscript”的脚本中的函数。
+  - <span data-ttu-id="364cb-196">用户脚本\\路径, 默认情况下为 C: 程序文件\\常见文件\\Microsoft Lync Server 2013 AdminScripts\\</span><span class="sxs-lookup"><span data-stu-id="364cb-196">The user script path, which is by default C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\AdminScripts</span></span>
+
+<span data-ttu-id="364cb-197">若要创建新角色, 请使用**CsAdminRole** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="364cb-197">To make a new role, you use the **New-CsAdminRole** cmdlet.</span></span> <span data-ttu-id="364cb-198">在运行**New-CsAdminRole**之前, 必须首先创建将与此角色关联的基础通用安全组。</span><span class="sxs-lookup"><span data-stu-id="364cb-198">Before running **New-CsAdminRole**, you must first create the underlying universal security group that will be associated with this role.</span></span>
+
+<span data-ttu-id="364cb-199">以下 cmdlet 用作创建新角色的示例。</span><span class="sxs-lookup"><span data-stu-id="364cb-199">The following cmdlets serve as an example of a creating a new role.</span></span> <span data-ttu-id="364cb-200">他们创建了一个名`MyHelpDeskScriptRole`为的新角色类型。</span><span class="sxs-lookup"><span data-stu-id="364cb-200">They create a new role type called `MyHelpDeskScriptRole`.</span></span> <span data-ttu-id="364cb-201">新角色具有预定义的 CsHelpDesk 角色的功能, 并且还可以在名为 "testscript" 的脚本中运行函数。</span><span class="sxs-lookup"><span data-stu-id="364cb-201">The new role has the abilities of the predefined CsHelpDesk role, and can additionally run the functions in a script named “testscript”.</span></span>
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 
-要运行此 cmdlet，您必须首先创建统一安全组 MyHelpDeskScriptRole。
+<span data-ttu-id="364cb-202">为使此 cmdlet 正常工作, 你必须首先创建通用安全组 MyHelpDeskScriptRole。</span><span class="sxs-lookup"><span data-stu-id="364cb-202">For this cmdlet to work, you must have first created the universal security group MyHelpDeskScriptRole.</span></span>
 
-运行此 cmdlet 后，您可以直接将用户分配给此角色（这种情况下，这些用户具有全局作用域），或者基于此角色创建作用域角色，如本文前面“创建作用域角色”所述。
+<span data-ttu-id="364cb-203">运行此 cmdlet 后, 你可以直接将用户分配给此角色 (在这种情况下, 它们具有全局范围), 或创建基于此角色的作用域角色, 如在本文档前面创建作用域角色中所述。</span><span class="sxs-lookup"><span data-stu-id="364cb-203">After this cmdlet runs, you can assign users directly to this role (in which case they have global scope), or create a scoped role based on this role, as explained in Creating a Scoped Role, previously in this document.</span></span>
 
-## 将角色分配给用户
+</div>
 
-每个 Lync Server 角色都与一个基本 Active Directory 统一安全组关联。添加到基础组的任何用户都能获得该角色的功能。
+<div>
 
-上节中的示例创建了一个新角色，并向其分配了现有统一安全组。要将现有角色分配给一个或多个用户，请将这些用户添加到与该角色关联的组中。您可以向这些组中添加单个用户，也可以添加统一安全组。
+## <a name="assigning-roles-to-users"></a><span data-ttu-id="364cb-204">向用户分配角色</span><span class="sxs-lookup"><span data-stu-id="364cb-204">Assigning Roles to Users</span></span>
 
-例如，会自动为 Active Directory 中的 **CS Administrators** 统一安全组授予 **CsAdministrator** 角色。此统一安全组是部署 Lync Server 时在 Active Directory 中创建的。要向用户或组授予此权限，只需将其添加到 **CS Administrators** 组中。
+<span data-ttu-id="364cb-205">每个 Lync 服务器角色都与一个基础 Active Directory 通用安全组相关联。</span><span class="sxs-lookup"><span data-stu-id="364cb-205">Each Lync Server role is associated with an underlying Active Directory universal security group.</span></span> <span data-ttu-id="364cb-206">你添加到基础组的任何用户都可以获得该角色的能力。</span><span class="sxs-lookup"><span data-stu-id="364cb-206">Any users who you add to the underlying group gain the abilities of that role.</span></span>
 
-可向用户分配多个 RBAC 角色，方法是将该用户添加到与每个角色相对应的基础 Active Directory 组中。
+<span data-ttu-id="364cb-207">上述部分中的示例创建了一个新角色并向新角色分配了现有通用安全组。</span><span class="sxs-lookup"><span data-stu-id="364cb-207">The examples in the preceding sections both created a new role and assigned an existing universal security group to the new role.</span></span> <span data-ttu-id="364cb-208">若要将现有角色分配给一个或多个用户, 请将这些用户添加到与该角色关联的组中。</span><span class="sxs-lookup"><span data-stu-id="364cb-208">To assign an existing role to one or more users, add those users to the group associated with the role.</span></span> <span data-ttu-id="364cb-209">你可以将单个用户和通用安全组添加到这些组。</span><span class="sxs-lookup"><span data-stu-id="364cb-209">You can add both individual users and universal security groups to these groups.</span></span>
 
-请注意，如果创建了角色，以后添加到基础 Active Directory 组的用户也可获得该角色的功能。
+<span data-ttu-id="364cb-210">例如, **CsAdministrator**角色将自动授予 Active Directory 中的**CS 管理员**通用安全组。</span><span class="sxs-lookup"><span data-stu-id="364cb-210">For example, the **CsAdministrator** role is automatically granted to the **CS Administrators** universal security group in Active Directory.</span></span> <span data-ttu-id="364cb-211">当你部署 Lync Server 时, 将在 Active Directory 中创建此通用安全组。</span><span class="sxs-lookup"><span data-stu-id="364cb-211">This universal security group is created in Active Directory when you deploy Lync Server.</span></span> <span data-ttu-id="364cb-212">若要向用户或组授予此权限, 只需将其添加到**CS 管理员**组即可。</span><span class="sxs-lookup"><span data-stu-id="364cb-212">To grant a user or group this privilege, you can simply add them to the **CS Administrators** group.</span></span>
 
-## 修改角色的功能
+<span data-ttu-id="364cb-213">通过将用户添加到对应于每个角色的基础 Active Directory 组, 可向用户提供多个 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="364cb-213">A user can be given multiple RBAC roles by being added to the underlying Active Directory groups that correspond to each role.</span></span>
 
-您可以修改角色能够运行的 cmdlet 和脚本的列表。您可以同时修改自定义角色能够运行的 cmdlet 和脚本，但是您只能修改预定义角色的脚本。您键入的每个 cmdlet 均可添加、删除或替换 cmdlet 或脚本。
+<span data-ttu-id="364cb-214">请注意, 当你创建一个角色时, 后来添加到基础 Active Directory 组的用户将获得该角色的能力。</span><span class="sxs-lookup"><span data-stu-id="364cb-214">Note that when you create a role, users who are later added to the underlying Active Directory group gain the abilities of that role.</span></span>
 
-若要修改角色，请使用 **Set-CsAdminRole** cmdlet。以下 cmdlet 可从角色中删除一个脚本。
+</div>
+
+<div>
+
+## <a name="modifying-the-abilities-of-a-role"></a><span data-ttu-id="364cb-215">修改角色的功能</span><span class="sxs-lookup"><span data-stu-id="364cb-215">Modifying the Abilities of a Role</span></span>
+
+<span data-ttu-id="364cb-216">你可以修改角色可以运行的 cmdlet 和脚本的列表。</span><span class="sxs-lookup"><span data-stu-id="364cb-216">You can modify the list of cmdlets and scripts that a role can run.</span></span> <span data-ttu-id="364cb-217">你可以修改自定义角色可以运行的 cmdlet 和脚本, 但只能修改预定义角色的脚本。</span><span class="sxs-lookup"><span data-stu-id="364cb-217">You can modify both the cmdlets and scripts that custom roles can run, but you can modify only the scripts for predefined roles.</span></span> <span data-ttu-id="364cb-218">您键入的每个 cmdlet 都可以添加、删除或替换 cmdlet 或脚本。</span><span class="sxs-lookup"><span data-stu-id="364cb-218">Each cmdlet you type can add, remove, or replace cmdlets or scripts.</span></span>
+
+<span data-ttu-id="364cb-219">若要修改角色, 请使用**CsAdminRole** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="364cb-219">To modify a role, use the **Set-CsAdminRole** cmdlet.</span></span> <span data-ttu-id="364cb-220">以下 cmdlet 删除角色中的一个脚本。</span><span class="sxs-lookup"><span data-stu-id="364cb-220">The following cmdlet removes one script from the role.</span></span>
 
     Set-CsAdminRole -Identity "MyHelpDeskScriptRole" -ScriptModules @{Remove="testScript.ps1"}
 
-## 规划 RBAC
+</div>
 
-对于为其赋予了对 Lync Server 部署的任何类型管理权限的每位用户，请考虑他们具体需要执行哪些任务，然后将他们分配给具有他们工作所需的最小特权和作用域的角色。如果需要，您可以使用 **Set-CsAdminRole** cmdlet 创建一个仅使用该用户完成任务所需 cmdlet 的新角色。
+</div>
 
-具有 CsAdministrator 角色的用户可以创建所有类型的角色（包括基于 CsAdministrator 的角色）并向其分配用户。最佳实践是将 CsAdministrator 角色分配给少数受信任的用户。
+<div>
+
+## <a name="planning-for-rbac"></a><span data-ttu-id="364cb-221">制定 RBAC 计划</span><span class="sxs-lookup"><span data-stu-id="364cb-221">Planning for RBAC</span></span>
+
+<span data-ttu-id="364cb-222">对于要针对 Lync Server 部署获得任何类型的管理权限的每个人, 请考虑他们需要执行的任务, 然后将它们分配给其作业所需的最低权限和作用域角色。</span><span class="sxs-lookup"><span data-stu-id="364cb-222">For each person who is to be given any kind of administrative rights for your Lync Server deployment, consider exactly which tasks they need to perform, then assign them to roles with the least privilege and scope necessary for their job.</span></span> <span data-ttu-id="364cb-223">如有必要, 你可以使用**CsAdminRole** cmdlet 创建一个新角色, 其中仅包含此人员的任务所需的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="364cb-223">If necessary, you can use the **Set-CsAdminRole** cmdlet to create a new role with only the cmdlets necessary for this person’s tasks.</span></span>
+
+<span data-ttu-id="364cb-224">具有 CsAdministrator 角色的用户可以创建所有类型的角色, 包括基于 CsAdministrator 的角色, 并为用户分配用户。</span><span class="sxs-lookup"><span data-stu-id="364cb-224">Users who have the CsAdministrator role can create all types of roles, including roles based on CsAdministrator, and assign users to them.</span></span> <span data-ttu-id="364cb-225">最佳做法是将 CsAdministrator 角色分配给一组非常小的受信任的用户。</span><span class="sxs-lookup"><span data-stu-id="364cb-225">The best practice is to assign the CsAdministrator role to a very small set of trusted users.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

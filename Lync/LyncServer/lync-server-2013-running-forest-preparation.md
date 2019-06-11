@@ -1,88 +1,133 @@
-﻿---
-title: Lync Server 2013：运行林准备
-TOCTitle: 运行林准备
-ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412732(v=OCS.15)
-ms:contentKeyID: 49313741
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：运行林准备
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running forest preparation
+ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412732(v=OCS.15)
+ms:contentKeyID: 48184991
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b011623b9091c1c707ae77381dacb99ba4642a21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822284"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为 Lync Server 2013 运行林准备
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-29_
+# <a name="running-forest-preparation-for-lync-server-2013"></a><span data-ttu-id="36ca8-102">为 Lync Server 2013 运行林准备</span><span class="sxs-lookup"><span data-stu-id="36ca8-102">Running forest preparation for Lync Server 2013</span></span>
 
-您可使用安装程序或 Lync Server 命令行管理程序 cmdlet 准备林。准备林的 cmdlet 为 **Enable-CsAdForest**。
+</div>
 
-在准备林之后，您必须验证在运行域准备之前是否复制了全局设置。
+<div id="mainSection">
 
-## 使用安装程序准备林
+<div id="mainBody">
 
-1.  以目录林级根域的 Enterprise Admins 组成员的身份登录到加入域的计算机。
+<span> </span>
 
-2.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 来启动部署向导。
+<span data-ttu-id="36ca8-103">_**主题上次修改时间:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="36ca8-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-3.  单击“准备 Active Directory”，然后等待确定部署状态。
+<span data-ttu-id="36ca8-104">你可以使用安装程序或 Lync Server Management Shell cmdlet 准备林。</span><span class="sxs-lookup"><span data-stu-id="36ca8-104">You can use Setup or Lync Server Management Shell cmdlets to prepare the forest.</span></span> <span data-ttu-id="36ca8-105">准备林的 cmdlet 为**Enable-CsAdForest**。</span><span class="sxs-lookup"><span data-stu-id="36ca8-105">The cmdlet that prepares the forest is **Enable-CsAdForest**.</span></span>
 
-4.  在“步骤 3: 准备当前林”中，单击“运行”。
+<span data-ttu-id="36ca8-106">准备好林后, 必须先验证全局设置是否已复制, 然后再运行域准备。</span><span class="sxs-lookup"><span data-stu-id="36ca8-106">After you prepare the forest, you must verify that global settings have been replicated before running domain preparation.</span></span>
 
-5.  在“准备林”页上，单击“下一步”。
+<div>
+
+## <a name="to-use-setup-to-prepare-the-forest"></a><span data-ttu-id="36ca8-107">使用安装程序准备林</span><span class="sxs-lookup"><span data-stu-id="36ca8-107">To use Setup to prepare the forest</span></span>
+
+1.  <span data-ttu-id="36ca8-108">以林根域的企业管理员组的成员身份登录加入域的计算机。</span><span class="sxs-lookup"><span data-stu-id="36ca8-108">Log on to a computer that is joined to a domain as a member of the Enterprise Admins group for the forest root domain.</span></span>
+
+2.  <span data-ttu-id="36ca8-109">从 Lync Server 2013 安装文件夹或媒体中, 运行 Setup.exe 以启动部署向导。</span><span class="sxs-lookup"><span data-stu-id="36ca8-109">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Deployment Wizard.</span></span>
+
+3.  <span data-ttu-id="36ca8-110">单击“**准备 Active Directory**”，然后等待确定部署状态。</span><span class="sxs-lookup"><span data-stu-id="36ca8-110">Click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
+
+4.  <span data-ttu-id="36ca8-111">在**步骤 3: 准备当前林**, 单击 "**运行**"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-111">At **Step 3: Prepare Current Forest**, click **Run**.</span></span>
+
+5.  <span data-ttu-id="36ca8-112">在 "**准备林**" 页面上, 单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-112">On the **Prepare Forest** page, click **Next**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-	> 林准备允许您为 Lync Server 2013 选择放置通用组的位置。选择与组织要求一致的位置。
+    > <span data-ttu-id="36ca8-113">林准备允许你选择在何处放置 Lync Server 2013 的通用组。</span><span class="sxs-lookup"><span data-stu-id="36ca8-113">Forest Preparation allows you to choose where to place the Universal Groups for Lync Server 2013.</span></span> <span data-ttu-id="36ca8-114">选择与组织要求一致的位置。</span><span class="sxs-lookup"><span data-stu-id="36ca8-114">Choose a location that is consistent with the requirements of your organization.</span></span>
+
     
+    </div>
 
+6.  <span data-ttu-id="36ca8-115">在“**正在执行命令**”页上，查找“**任务状态：已完成**”，然后单击“**查看日志**”。</span><span class="sxs-lookup"><span data-stu-id="36ca8-115">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
 
-6.  在“正在执行命令”页上，查找“任务状态: 已完成”，然后单击“查看日志”。
+7.  <span data-ttu-id="36ca8-116">在 "**操作**" 列下, 展开 "**林准备**", 查找每个任务末尾的\*\* \<\>成功**执行结果以验证林准备是否已成功完成, 关闭日志, 然后单击 "**完成\*\*"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-116">Under the **Action** column, expand **Forest Prep**, look for a **\<Success\>** Execution Result at the end of each task to verify that forest preparation completed successfully, close the log, and then click **Finish**.</span></span>
 
-7.  在“操作”列下，展开“林准备”，在每项任务结束时查找“\<成功\>”执行结果，以确认林准备成功完成，关闭日志，然后单击“完成”。
+8.  <span data-ttu-id="36ca8-117">等待 Active Directory 复制完成, 或强制复制到林根域控制器的**Active Directory 站点和服务**管理单元中列出的所有域控制器, 然后再运行域准备。</span><span class="sxs-lookup"><span data-stu-id="36ca8-117">Wait for Active Directory replication to complete, or force replication to all domain controllers listed in the **Active Directory Sites and Services** snap-in for the forest root domain controller, before running domain preparation.</span></span> <span data-ttu-id="36ca8-118">在所有 Active Directory 网站中的域控制器之间强制进行复制, 以使网站内的复制在分钟内发生。</span><span class="sxs-lookup"><span data-stu-id="36ca8-118">Force replication between the domain controllers in all Active Directory sites to cause replication within the sites to occur within minutes.</span></span>
 
-8.  等待 Active Directory 复制完成，或者强制向目录林根级域控制器的“Active Directory 站点和服务”管理单元中列出的所有域控制器进行复制，然后再运行域准备。在所有 Active Directory 站点中的域控制器之间强制进行复制，以使几分钟内就在站点中进行复制操作。
+</div>
 
-## 使用 cmdlet 准备林
+<div>
 
-1.  以目录林根级域中的 Domain Admins 组成员身份登录到加入域的计算机。
+## <a name="to-use-cmdlets-to-prepare-the-forest"></a><span data-ttu-id="36ca8-119">使用 cmdlet 准备林</span><span class="sxs-lookup"><span data-stu-id="36ca8-119">To use cmdlets to prepare the forest</span></span>
 
-2.  安装 Lync Server 核心组件，如下所示：
+1.  <span data-ttu-id="36ca8-120">以林根域中的 "域管理员" 组的成员身份登录加入域的计算机。</span><span class="sxs-lookup"><span data-stu-id="36ca8-120">Log on to a computer that is joined to a domain as a member of the Domain Admins group in the forest root domain.</span></span>
+
+2.  <span data-ttu-id="36ca8-121">安装 Lync Server Core 组件, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="36ca8-121">Install Lync Server Core components as follows:</span></span>
     
-    1.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 来启动 Lync Server 部署向导。
+    1.  <span data-ttu-id="36ca8-122">从 Lync Server 2013 安装文件夹或媒体中, 运行 Setup.exe 以启动 Lync Server 部署向导。</span><span class="sxs-lookup"><span data-stu-id="36ca8-122">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
     
-    2.  如果提示您安装 Microsoft Visual C++ 可再发行软件产品，单击“是”。
+    2.  <span data-ttu-id="36ca8-123">如果系统提示您安装 Microsoft Visual c + + 可再发行组件, 请单击 **"是"**。</span><span class="sxs-lookup"><span data-stu-id="36ca8-123">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
     
-    3.  Lync Server 2013 的“安装”对话框将提示您选择安装 Lync Server 文件的位置。选择默认位置或“浏览”至要选择的位置，然后单击“安装”。
+    3.  <span data-ttu-id="36ca8-124">"Lync Server 2013 设置" 对话框提示你输入安装 Lync Server 文件的位置。</span><span class="sxs-lookup"><span data-stu-id="36ca8-124">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="36ca8-125">选择默认位置或**浏览**到您选择的位置, 然后单击 "**安装**"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-125">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
     
-    4.  在“许可协议”页上，选中“我接受许可协议中的条款”，然后单击“确定”。此时安装程序将安装 Lync Server 2013 核心组件。
+    4.  <span data-ttu-id="36ca8-126">在 "许可协议" 页面上, 选中 "**我接受许可协议中的条款**", 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="36ca8-126">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="36ca8-127">安装程序安装 Lync Server 2013 核心组件。</span><span class="sxs-lookup"><span data-stu-id="36ca8-127">The installer installs the Lync Server 2013 Core Components.</span></span>
 
-3.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+3.  <span data-ttu-id="36ca8-128">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-128">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  运行：
+4.  <span data-ttu-id="36ca8-129">运行：</span><span class="sxs-lookup"><span data-stu-id="36ca8-129">Run:</span></span>
     
         Enable-CsAdForest [-GroupDomain <FQDN of the domain in which to create the universal groups>]
     
-    例如：
+    <span data-ttu-id="36ca8-130">例如：</span><span class="sxs-lookup"><span data-stu-id="36ca8-130">For example:</span></span>
     
         Enable-CsAdForest -GroupDomain domain1.contoso.com 
     
-    如果不指定 GroupDomain 参数，则默认值为本地域。如果先前在默认域以外的域中创建了通用组，则必须显式指定 GroupDomain 参数。
+    <span data-ttu-id="36ca8-131">如果不指定 GroupDomain 参数, 则默认值为本地域。</span><span class="sxs-lookup"><span data-stu-id="36ca8-131">If you do not specify the GroupDomain parameter, the default value is the local domain.</span></span> <span data-ttu-id="36ca8-132">如果以前在非默认域的域中创建了通用组, 则必须显式指定 GroupDomain 参数。</span><span class="sxs-lookup"><span data-stu-id="36ca8-132">If universal groups were created previously in a domain that is not the default domain, you must specify the GroupDomain parameter explicitly.</span></span>
 
-5.  等待 Active Directory 复制完成，或者强制向目录林根级域控制器的“Active Directory 站点和服务”管理单元中列出的所有域控制器进行复制，然后再运行域准备。
+5.  <span data-ttu-id="36ca8-133">等待 Active Directory 复制完成, 或强制复制到林根域控制器的**Active Directory 站点和服务**管理单元中列出的所有域控制器, 然后再运行域准备。</span><span class="sxs-lookup"><span data-stu-id="36ca8-133">Wait for Active Directory replication to complete, or force replication to all domain controllers listed in the **Active Directory Sites and Services** snap-in for the forest root domain controller, before running domain preparation.</span></span>
 
-6.  验证林准备是否成功。运行：
+6.  <span data-ttu-id="36ca8-134">验证林准备是否成功。</span><span class="sxs-lookup"><span data-stu-id="36ca8-134">Verify that forest preparation was successful.</span></span> <span data-ttu-id="36ca8-135">运行：</span><span class="sxs-lookup"><span data-stu-id="36ca8-135">Run:</span></span>
     
         Get-CsAdForest 
     
-    如果林准备已成功，则此 cmdlet 将返回 **LC\_FORESTSETTINGS\_STATE\_READY** 的值。
+    <span data-ttu-id="36ca8-136">如果林准备成功, 此 cmdlet 将返回**\_LC FORESTSETTINGS\_状态\_** 的值为 "已准备就绪"。</span><span class="sxs-lookup"><span data-stu-id="36ca8-136">This cmdlet returns a value of **LC\_FORESTSETTINGS\_STATE\_READY** if forest preparation was successful.</span></span>
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[针对 Lync Server 2013 使用 Cmdlet 反向执行林准备](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)  
+## <a name="see-also"></a><span data-ttu-id="36ca8-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="36ca8-137">See Also</span></span>
 
-#### 其他资源
 
-[为 Lync Server 2013 准备林](lync-server-2013-preparing-the-forest.md)
+[<span data-ttu-id="36ca8-138">针对 Lync Server 2013 使用 Cmdlet 反向执行林准备</span><span class="sxs-lookup"><span data-stu-id="36ca8-138">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)  
+
+
+[<span data-ttu-id="36ca8-139">为 Lync Server 2013 准备林</span><span class="sxs-lookup"><span data-stu-id="36ca8-139">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

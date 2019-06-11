@@ -1,41 +1,79 @@
-﻿---
-title: Lync Server 的网络规划
-TOCTitle: Lync Server 的网络规划
-ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ721883(v=OCS.15)
-ms:contentKeyID: 49888611
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 网络规划
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Network planning for Lync Server
+ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721883(v=OCS.15)
+ms:contentKeyID: 49733817
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 61f6cdd5e64337b040e97ac350824f3e38b3d698
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826484"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 的网络规划
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-10_
+# <a name="network-planning-for-lync-server-2013"></a><span data-ttu-id="c10df-102">Lync Server 2013 的网络规划</span><span class="sxs-lookup"><span data-stu-id="c10df-102">Network planning for Lync Server 2013</span></span>
 
-您可以使用本节中的主题来确保网络为 Lync Server 准备就绪。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [Lync Server 2013 中的网络基础结构要求](lync-server-2013-network-infrastructure-requirements.md)
+<div id="mainBody">
 
-  - [在 Lync Server 2013 中规划和配置 IPv6](lync-server-2013-planning-for-and-configuring-ipv6.md)
+<span> </span>
 
-  - [Lync Server 2013 的负载平衡要求](lync-server-2013-load-balancing-requirements.md)
+<span data-ttu-id="c10df-103">_**主题上次修改时间:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="c10df-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-  - [域名系统 (DNS) 要求](lync-server-2013-domain-name-system-dns-requirements.md)
+<span data-ttu-id="c10df-104">你可以使用本部分中的主题来确保你的网络已准备好 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="c10df-104">You can use the topics in this section to ensure that your network is ready for Lync Server.</span></span>
 
-  - [端口要求](lync-server-2013-port-requirements.md)
+<div>
 
-  - [Lync Server 2013 中的媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+## <a name="in-this-section"></a><span data-ttu-id="c10df-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="c10df-105">In This Section</span></span>
 
-  - [在 Lync Server 2013 中管理服务质量 (QoS)](lync-server-2013-managing-quality-of-service-qos.md)
+  - [<span data-ttu-id="c10df-106">Lync Server 2013 的网络基础结构要求</span><span class="sxs-lookup"><span data-stu-id="c10df-106">Network infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-network-infrastructure-requirements.md)
 
-## 另请参阅
+  - [<span data-ttu-id="c10df-107">在 Lync Server 2013 中规划和配置 IPv6</span><span class="sxs-lookup"><span data-stu-id="c10df-107">Planning for and configuring IPv6 in Lync Server 2013</span></span>](lync-server-2013-planning-for-and-configuring-ipv6.md)
 
-#### 其他资源
+  - [<span data-ttu-id="c10df-108">Lync Server 2013 的负载平衡要求</span><span class="sxs-lookup"><span data-stu-id="c10df-108">Load balancing requirements for Lync Server 2013</span></span>](lync-server-2013-load-balancing-requirements.md)
 
-[确定 Lync Server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [<span data-ttu-id="c10df-109">Lync Server 2013 的域名系统 (DNS) 要求</span><span class="sxs-lookup"><span data-stu-id="c10df-109">Domain Name System (DNS) requirements for Lync Server 2013</span></span>](lync-server-2013-domain-name-system-dns-requirements.md)
+
+  - [<span data-ttu-id="c10df-110">Lync Server 2013 的端口要求</span><span class="sxs-lookup"><span data-stu-id="c10df-110">Port requirements for Lync Server 2013</span></span>](lync-server-2013-port-requirements.md)
+
+  - [<span data-ttu-id="c10df-111">Lync Server 2013 中媒体流量的网络带宽要求</span><span class="sxs-lookup"><span data-stu-id="c10df-111">Network bandwidth requirements for media traffic in Lync Server 2013</span></span>](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+
+  - [<span data-ttu-id="c10df-112">在 Lync Server 2013 中管理服务质量 (QoS)</span><span class="sxs-lookup"><span data-stu-id="c10df-112">Managing Quality of Service (QoS) in Lync Server 2013</span></span>](lync-server-2013-managing-quality-of-service-qos.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c10df-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c10df-113">See Also</span></span>
+
+
+[<span data-ttu-id="c10df-114">确定 Lync Server 2013 的基础结构要求</span><span class="sxs-lookup"><span data-stu-id="c10df-114">Determining your infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-infrastructure-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

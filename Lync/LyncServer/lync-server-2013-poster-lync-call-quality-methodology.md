@@ -1,133 +1,221 @@
-﻿---
-title: Lync 呼叫质量方法
-TOCTitle: 招贴：Lync 呼叫质量方法
-ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn593600(v=OCS.15)
-ms:contentKeyID: 61084819
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 海报: Lync 呼叫质量方法'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Poster: Lync Call Quality Methodology'
+ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
+ms:contentKeyID: 61084874
+ms.date: 06/24/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824013"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync 呼叫质量方法
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="lync-call-quality-methodology-in-lync-server-2013"></a><span data-ttu-id="170f2-102">Lync Server 2013 中的 Lync 呼叫质量方法</span><span class="sxs-lookup"><span data-stu-id="170f2-102">Lync Call Quality Methodology in Lync Server 2013</span></span>
 
-本文是 [Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)招贴的配套文章，您可以从下载中心下载此招贴。
+</div>
 
-![说明 CQM 过程的招贴](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "说明 CQM 过程的招贴")
+<div id="mainSection">
 
-您可以使用此招贴了解 CQM，即适用于 Lync 2013 和 2010 的呼叫质量方法 (Call Quality Methodology)，它有助于您发现和消除影响包含企业语音功能的 Lync 实施的呼叫质量和用户体验的问题。呼叫质量方法是一个新的故障排除和服务管理框架，可以让相关人员更好地集中精力改进 Lync 中的企业语音服务。在本文中，您可以了解 CQM 的更多信息、它所监控的服务器和解决方案的种类，以及可以对收集的遥测技术数据执行哪些操作。
+<div id="mainBody">
 
-如果您有关于如何使用 CQM 的问题，您可以将问题提交到 cqmfeedback@microsoft.com。
+<span> </span>
 
-此招贴解释了以下方面的内容：
+<span data-ttu-id="170f2-103">_**主题上次修改时间:** 2016-06-24_</span><span class="sxs-lookup"><span data-stu-id="170f2-103">_**Topic Last Modified:** 2016-06-24_</span></span>
 
-  - 什么是 Lync CQM？
+<span data-ttu-id="170f2-104">本文是[Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)海报的随附内容, 您可以从下载中心下载。</span><span class="sxs-lookup"><span data-stu-id="170f2-104">This article is a companion to the [Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841) poster, which you can download from the Download Center.</span></span>
 
-  - 设置优先级：运行趋势查询
+<span data-ttu-id="170f2-105">![描述 CQM 流程的海报](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "描述 CQM 流程的海报")</span><span class="sxs-lookup"><span data-stu-id="170f2-105">![Poster describing the CQM process](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster describing the CQM process")</span></span>
 
-  - PCD
+<span data-ttu-id="170f2-106">你可以使用此海报了解 Lync 2013 和2010的通话质量方法, 该方法可帮助你查找并消除影响呼叫质量和包含企业语音功能的 Lync 实现的用户体验的问题。</span><span class="sxs-lookup"><span data-stu-id="170f2-106">You can use this poster to learn about CQM, the Call Quality Methodology for Lync 2013 and 2010 that helps you find and eliminate issues affecting call quality and user experience for Lync implementations that include enterprise voice features.</span></span> <span data-ttu-id="170f2-107">通话质量方法是一种新的疑难解答和服务管理框架, 可更好地集中精力改进 Lync 中的企业语音服务。</span><span class="sxs-lookup"><span data-stu-id="170f2-107">Call Quality Methodology is a new troubleshooting and service management framework that can better focus efforts to improve enterprise voice services in Lync.</span></span> <span data-ttu-id="170f2-108">在本文中, 你可以了解有关 CQM、受监视的服务器和解决方案的种类以及如何处理所收集的遥测数据的详细信息。</span><span class="sxs-lookup"><span data-stu-id="170f2-108">In this article, you can learn more about CQM, the kinds of servers and solutions that are monitored, and what to do with the collected telemetry data.</span></span>
 
-  - 托管/非托管
+<span data-ttu-id="170f2-109">如果对如何使用 CQM 有疑问, 可以将问题提交到 cqmfeedback@microsoft.com。</span><span class="sxs-lookup"><span data-stu-id="170f2-109">If you have questions about how to use CQM, you can submit your questions to cqmfeedback@microsoft.com.</span></span>
 
-  - 服务器设备路线
+<span data-ttu-id="170f2-110">海报介绍以下方面:</span><span class="sxs-lookup"><span data-stu-id="170f2-110">The poster explains the following areas:</span></span>
 
-  - 最后一公里路线
+  - <span data-ttu-id="170f2-111">什么是 Lync CQM？</span><span class="sxs-lookup"><span data-stu-id="170f2-111">What is Lync CQM?</span></span>
 
-  - 终结点路线
+  - <span data-ttu-id="170f2-112">优先顺序: 运行趋势查询</span><span class="sxs-lookup"><span data-stu-id="170f2-112">Prioritize: Run Trending Queries</span></span>
 
-  - 服务管理
+  - <span data-ttu-id="170f2-113">PCD</span><span class="sxs-lookup"><span data-stu-id="170f2-113">PCD</span></span>
 
-  - 棋盘游戏规则
+  - <span data-ttu-id="170f2-114">托管/非托管</span><span class="sxs-lookup"><span data-stu-id="170f2-114">Managed/Unmanaged</span></span>
 
-## 什么是 Lync CQM？
+  - <span data-ttu-id="170f2-115">服务器植物道路</span><span class="sxs-lookup"><span data-stu-id="170f2-115">The Server Plant Road</span></span>
 
-呼叫质量方法是一个新的故障排除和服务管理框架，可以让相关人员更好地集中精力改进 Lync 中的企业语音服务。如果使用 CQM，只需要较少的努力即可确保企业语音服务的呼叫质量和用户满意度。[Lync Server 网络连接指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中更为详细地介绍了 CQM。本文和配套招贴是关于这方面的内容的概要。
+  - <span data-ttu-id="170f2-116">最后一英里的道路</span><span class="sxs-lookup"><span data-stu-id="170f2-116">The Last Mile Road</span></span>
 
-CQM 将系统故障排除细分为三条路径或“路线”。它们是：服务器设备路线 - 关注服务器和服务器之间的链路；终结点路线 - 关注用于进行呼叫的用户设备和介质；最后一公里路线 - 关系到传统电话交换网呼叫的集成。
+  - <span data-ttu-id="170f2-117">终结点道路</span><span class="sxs-lookup"><span data-stu-id="170f2-117">The End Points Road</span></span>
 
-每条路线分成与特定领域或主题相关的若干段，在每个段都进行相关定义，定义什么样的级别是可接受的质量级别、为达到该质量级别而采取的操作、为维护该质量级别而采用的服务管理计划，然后在介绍完这些内容后接着讨论下一主题。
+  - <span data-ttu-id="170f2-118">服务管理</span><span class="sxs-lookup"><span data-stu-id="170f2-118">Service Management</span></span>
 
-该招贴以三人棋盘游戏的形式展示了 Lync CQM，在该游戏中，三位游戏者各走一条路线。下载中附带的牌用于模拟呼叫质量必须克服的障碍。三条路径中包含了关于目标的提示和建议、如何到达目标，以及针对在实际应用中首先采用哪条路线的设置优先级指南（在游戏中，平等对待所有三条路线）。
+  - <span data-ttu-id="170f2-119">董事会游戏规则</span><span class="sxs-lookup"><span data-stu-id="170f2-119">Board Game Rules</span></span>
 
-CQM 在早期版本的 Lync 中使用起来怎样？CQM 是针对 Lync 2013 的新服务，但其大部分功能可以适应在 Lync 2010 中使用。CQM 在一定程度上可以用于 Microsoft Office Communicator，但对此未经测试，不提供支持。
+<span id="WhatIs"></span>
 
-如果您有关于如何使用 CQM 的问题，您可以将问题提交到 cqmfeedback@microsoft.com。
+<div>
 
-## 设置优先级：运行趋势查询
+## <a name="what-is-lync-cqm"></a><span data-ttu-id="170f2-120">什么是 Lync CQM？</span><span class="sxs-lookup"><span data-stu-id="170f2-120">What is Lync CQM?</span></span>
 
-在 CQM 中，第一步是用两个星期时间运行每一个趋势查询，然后分析结果。按最大流参与者、最高不良流比率和管理领域（您控制的领域）设置修正操作的优先级。如果音频/视频多点控制单元 (AV MCU) 或中介查询显示的结果较差，请从红色路线（即服务器设备路线）开始。 如果有线或无线查询显示的结果较差，请从蓝色路线（即最后一公里路线）开始。如果 VPN 或外部查询显示的结果较差，请从绿色（即终结点路线）开始。
+<span data-ttu-id="170f2-121">通话质量方法是一种新的疑难解答和服务管理框架, 可更好地集中精力改进 Lync 中的企业语音服务。</span><span class="sxs-lookup"><span data-stu-id="170f2-121">Call Quality Methodology is a new troubleshooting and service management framework that can better focus efforts to improve enterprise voice services in Lync.</span></span> <span data-ttu-id="170f2-122">使用 CQM 时, 需要付出较少的精力才能确保呼叫质量和用户对企业语音服务的满意度。</span><span class="sxs-lookup"><span data-stu-id="170f2-122">When you use CQM, less effort is needed to assure call quality and user satisfaction for enterprise voice services.</span></span> <span data-ttu-id="170f2-123">[通话质量方法](http://go.microsoft.com/fwlink/p/?linkid=615208)中的 CQM 更充分地解释。</span><span class="sxs-lookup"><span data-stu-id="170f2-123">CQM is more fully explained in the [Call Quality Methodology](http://go.microsoft.com/fwlink/p/?linkid=615208).</span></span> <span data-ttu-id="170f2-124">本文和海报是该内容的摘要。</span><span class="sxs-lookup"><span data-stu-id="170f2-124">This article and the poster are summaries of that content.</span></span>
 
-选择某条路线开始后，定义每个区域的目标（申明），努力达到该目标（到达），然后实施相应的过程以盯住目标（维护）。您也可以将该招贴作为一个游戏，用来帮助理解 CQM 背后的原理。
+<span data-ttu-id="170f2-125">CQM 将系统故障排除分解为三个路径或 "道路"。</span><span class="sxs-lookup"><span data-stu-id="170f2-125">CQM breaks down System troubleshooting into three paths or “Roads.”</span></span> <span data-ttu-id="170f2-126">这些是: 服务器植物的道路, 它看起来是服务器和它们之间的链接、端点道路, 它查看用户设备和用于执行呼叫的媒体, 以及用于解决传统交换电话网络通话的集成的最后一英里路上。</span><span class="sxs-lookup"><span data-stu-id="170f2-126">These are: the Server Plant Road, which looks at the servers and the links between them, the End Points Road, which looks at user devices and media used to carry calls, and the Last Mile Road, which addresses integration of traditional switched telephone network calls.</span></span>
 
-## PCD
+<span data-ttu-id="170f2-127">每个道路都划分为与特定区域或主题相关的多个段, 并且在每个段定义中可以获得哪些内容是可接受的质量级别, 采取行动以达到该质量级别, 并实施服务管理计划以保持该质量级别, 然后再转到下一主题。</span><span class="sxs-lookup"><span data-stu-id="170f2-127">Each Road is divided into several segments relating to a specific area or topic, and at each segment definitions are made about what is an acceptable quality level, actions are taken to achieve that quality level, and a service management plan is put in place to maintain that quality level before moving on to the next topic.</span></span>
 
-PreCall Diagnostics 工具 (PCD) 将帮助您识别和诊断您的外围网络中的问题（QoE 数据库不收集关于您的边缘或外围网络的信息），还可用于对最后一公里中的连接进行故障排除。该工具既作为 Windows 8 Modern 应用提供，又作为 Windows 桌面应用提供，可从 http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88 获得。
+<span data-ttu-id="170f2-128">标牌将 Lync CQM 作为一局游戏提供给三位玩家, 每个玩家都将经历其中一条道路。</span><span class="sxs-lookup"><span data-stu-id="170f2-128">The poster presents Lync CQM as a board game for three players, each of whom will go through one of the roads.</span></span> <span data-ttu-id="170f2-129">下载中包含的卡用于模拟必须克服的障碍通话质量。</span><span class="sxs-lookup"><span data-stu-id="170f2-129">Cards included with the download are used to simulate impediments to call quality that must be overcome.</span></span> <span data-ttu-id="170f2-130">有关目标以及如何实现它们的提示和建议包括在三个路径中, 以及确定首次在实际应用程序中首次着手的优先级原则 (在游戏中, 所有三条道路均以并行方式解决)。</span><span class="sxs-lookup"><span data-stu-id="170f2-130">Hints and suggestions about targets and how to achieve them are included along the three paths, as well as prioritization guidelines for which road to pursue first in actual applications (in the game, all three roads are addressed in parallel).</span></span>
 
-## 托管/非托管
+<span data-ttu-id="170f2-131">CQM 在早期版本的 Lync 中如何工作？</span><span class="sxs-lookup"><span data-stu-id="170f2-131">How does CQM work in earlier versions of Lync?</span></span> <span data-ttu-id="170f2-132">CQM 是 Lync 2013 的新增功能, 但其中大部分功能可用于 Lync 2010。</span><span class="sxs-lookup"><span data-stu-id="170f2-132">CQM is new for Lync 2013, but most of it can be adapted to be used with Lync 2010.</span></span> <span data-ttu-id="170f2-133">CQM 可能会对 Microsoft Office Communicator 有一定的作用, 但此操作未经测试且不受支持。</span><span class="sxs-lookup"><span data-stu-id="170f2-133">CQM may work to a degree with Microsoft Office Communicator, but this is untested and not supported.</span></span>
 
-Lync Server 部署和网络基础结构通常可分为托管空间和非托管空间。托管空间包括整个内部有线网络和服务器基础结构。非托管空间是无线基础结构和外部网络基础结构。
+<span data-ttu-id="170f2-134">如果对如何使用 CQM 有疑问, 可以将问题提交到 cqmfeedback@microsoft.com。</span><span class="sxs-lookup"><span data-stu-id="170f2-134">If you have questions about how to use CQM, you can submit your questions to cqmfeedback@microsoft.com.</span></span>
 
-进行此区分增加了数据的清晰性，有助于组织集中精力处理对用户的语音和视频质量有明显影响的工作负载。用户对于从您拥有的基础结构（托管）进行的呼叫和从部分受控于某些其他实体的基础结构（非托管）进行的呼叫有不同的预期。这并不是说为了获得出色的 Lync Server 体验，要将无线用户保留为使用他们自己的设备。
+</div>
 
-提升非托管空间中的语音质量要求在托管空间中具有较高的质量。考虑将无线 (Wi-Fi) 作为托管还是非托管空间取决于您的组织。在这两种空间中实现运行状况正常的环境所需的技术是不同的，所用的解决方案亦不同。
+<span id="Trending"></span>
 
-## 服务器设备路线
+<div>
 
-服务器设备路线的第 1 段关系到 Lync 实施中的实际服务器。收集关于服务器本身和其在实施中所担任的角色的 KHI 数据，分析结果。必要时，修正发现的任何问题。与 KHI 招贴配套的关于[关键运行状况指示器](lync-server-2013-poster-key-health-indicators.md)的文章中提供了有关此主题的更多详细信息。
+## <a name="prioritize-run-trending-queries"></a><span data-ttu-id="170f2-135">优先顺序: 运行趋势查询</span><span class="sxs-lookup"><span data-stu-id="170f2-135">Prioritize: Run Trending Queries</span></span>
 
-下一段关系到 AV MCU 服务器和中介服务器之间的媒体流。首先确定您的不良流阈值的目标。不良流通常 PacketLossRate \> 0.01 或 PacketLossRateMax \> 0.05。需要的另一个目标是 PoorStreamsRatio \< 2%。接下来，使用详细查询查找具有不良流的 AVMCU 和中介服务器对，调查产生不良流的原因，考虑不良流路径中的网络设备，修正不良流，为网络设备定义最优或“金牌”配置。为了维持您的成就，实施相应的流程和工具来管理配置漂移、报告新的问题领域。
+<span data-ttu-id="170f2-136">CQM 的第一步是运行两周的每个趋势查询, 然后分析结果。</span><span class="sxs-lookup"><span data-stu-id="170f2-136">The first step in CQM is to run each of the trending queries for two weeks and then analyze the results.</span></span> <span data-ttu-id="170f2-137">按最大流参与者、最高不良流比率和托管区域 (你控制的区域) 优先顺序纠正操作。</span><span class="sxs-lookup"><span data-stu-id="170f2-137">Prioritize corrective action by the largest stream contributor, the highest poor stream ratio, and managed areas (ones you control).</span></span><span data-ttu-id="170f2-138">如果音频/视频多点控制单元 (AV MCU) 或中介查询显示较差的结果, 请从红色或服务器植物路上开始。</span><span class="sxs-lookup"><span data-stu-id="170f2-138">  If the Audio/Video Multi-point Control Unit (AV MCU) or Mediation queries show poor results, start on the Red or Server Plant road.</span></span><span data-ttu-id="170f2-139">如果有线或无线查询显示较差的结果, 请从蓝色或最后一英里路上开始。</span><span class="sxs-lookup"><span data-stu-id="170f2-139">  If the Wired or Wireless queries show poor results, start on the Blue or Last Mile road.</span></span><span data-ttu-id="170f2-140">如果 VPN 或外部查询显示较差的结果, 请从绿色或结束点路上开始。</span><span class="sxs-lookup"><span data-stu-id="170f2-140">  If the VPN or External queries show poor results, start on the Green or End Points road.</span></span>
 
-接下来，检查中介服务器和公用电话交换网 (PSTN) 网关之间的媒体流。首先确定您的不良流阈值的目标。不良流通常 PacketLossRate \> 0.01 或 PacketLossRateMax \> 0.05。需要的另一个目标是 PoorStreamsRatio \< 2%。接下来，使用详细查询查找具有不良流的中介服务器和网关对，调查产生不良流的原因，考虑不良流路径中的网络设备，修正不良流，为网络设备定义最优或“金牌”配置。为了维持您的成就，实施相应的流程和工具来管理配置漂移、报告新的问题领域。
+<span data-ttu-id="170f2-141">选择开始使用的道路后, 为每个区域定义一个目标 (Assert), 工作以满足该目标 (实现), 然后实施过程来保持目标 (维护)。</span><span class="sxs-lookup"><span data-stu-id="170f2-141">After you choose a road to start with, define a target for each area (Assert), work to meet that target (Achieve) and then implement procedures to stay on target (Maintain).</span></span> <span data-ttu-id="170f2-142">您还可以将此海报用作游戏, 以了解 CQM 背后的原则。</span><span class="sxs-lookup"><span data-stu-id="170f2-142">You can also use this poster as a game to understand the principles behind CQM.</span></span>
 
-最后，检查 PSTN 网关的运行状况指标。确定显示运行状况的统计信息并根据它们定义目标。由于可以使用许多能使用的网关，因而此处不提供具体指导。确定目标后，根据需要进行修正以达到目标；在该过程中您可能会为网关定义“金牌”或最优配置。为了维持您的成就，实施相应的流程和工具来管理配置漂移、报告新的问题领域。请注意，固件和软件更新可能会更改您的配置或导致您更改“金牌”配置的定义，所以在进行这些活动时应谨慎。
+</div>
 
-## 最后一公里路线
+<span id="PCD"></span>
 
-在将客户端连接到网络所用的两种方式中，普遍预期有线方式可提供最高的质量，所以这种方式必须是您处理最后一公里问题时最初关注的焦点。可使用 CQM 有线查询 (LastMile\_0\_Wired) 和它提供的不良流比率。对具有 300 个以上的流的站点，建议定义 \< 5% 的目标 PoorStreamsRatio。为达到您的目标，按从最差到最好的顺序修正子网，并实施 QoS。
+<div>
 
-优化有线连接的质量后，提高无线连接质量就比较容易了，因为在每个位置无线基础结构都位于有线内核之上。在具有良好的有线连接质量的站点中，出现不良无线流一定是由特定的无线组件导致的。CQM 无线查询 (LastMile\_1\_Wireless) 在某个日期范围内运行，并返回您的环境中 Lync 客户端与会议服务器或中介服务器之间双向发生的所有内部无线流。对具有 300 个以上的流的站点，建议定义 \< 5% 的目标 PoorStreamsRatio。为达到您的目标，按从最差到最好的顺序修正子网，并实施 QoS。
+## <a name="pcd"></a><span data-ttu-id="170f2-143">PCD</span><span class="sxs-lookup"><span data-stu-id="170f2-143">PCD</span></span>
 
-## 终结点路线
+<span data-ttu-id="170f2-144">PreCall 诊断工具 (PCD) 将帮助你识别和诊断你的外围网络中的问题 (QoE 数据库不会收集你的 edge 或外围网络上的信息), 并且还可以解决最后一英里的连接问题。</span><span class="sxs-lookup"><span data-stu-id="170f2-144">The PreCall Diagnostics tool (PCD) will help you identify and diagnose problems in your perimeter network (the QoE database doesn’t collect information on your edge or perimeter network) and also to troubleshoot connections in the Last Mile.</span></span> <span data-ttu-id="170f2-145">该工具既可用作 Windows 8 新式应用, 也可在 Windows 桌面应用程序http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88中使用。</span><span class="sxs-lookup"><span data-stu-id="170f2-145">The tool is available as both a Windows 8 Modern App or a Windows Desktop App at http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88.</span></span>
 
-首先使用头戴式耳机或其他已知可在使用 Lync 时产生质量可接受的流的设备来探查终结点路线。对具有 100 个以上的流的实施，建议定义 \> 3.6 的目标 AvgSendListen MOS。通过找出存在问题的设备并进行修复或更换来达到目标。
+</div>
 
-接下来，检查用于处理最终用户呼叫的设备或电脑。建议的目标质量指标是 \> 1 的 AudioMic GlitchRate。在确定用户系统的最佳系统配置时，定义包括驱动程序版本在内的“金牌”电脑配置。
+<span id="ManagedUn"></span>
 
-现在检查音频流在 Lync 终结点系统中使用的网络路径，该路径可能成为导致音频质量较差的原因。如果音频通过 VPN 连接进行传输，您可能会遇到延迟问题。一个内部 Lync 客户端如果无法为双方呼叫或对等呼叫建立到另一个内部 Lync 客户端的直接流媒体，就会使用通过 Lync 边缘服务器中继的路径，这同样会导致延迟问题，同时增加了出现丢失和抖动的可能性。建议您定义这样一个质量指标 - 通过 VPN 的媒体的百分比：0%。在您进行修正以达到设置的目标时，找出存在问题的子网并调查防火墙规则、包封装器和其他相关网络设备配置。
+<div>
 
-IP 数据包可以使用传输控制协议 (TCP) 或用户数据报协议 (UDP)。TCP 最适合用于数据流。UDP 是无连接的，用于媒体时更有效率，因为 TCP 恢复机制无法处理实时媒体中的丢失问题。Lync 始终优先选用 UDP，但如果无法建立 UDP 会话，就会恢复为使用 TCP。基于 TCP 的媒体会话呈现的质量比基于 UDP 的差。建议使用这样一个质量定义 - 基于 TCP 的连接所占百分比：0%。在您进行修正以达到设置的目标时，找出存在问题的子网并调查防火墙规则、包封装器和其他相关网络设备配置。
+## <a name="managedunmanaged"></a><span data-ttu-id="170f2-146">托管/非托管</span><span class="sxs-lookup"><span data-stu-id="170f2-146">Managed/Unmanaged</span></span>
 
-## 服务管理
+<span data-ttu-id="170f2-147">Lync 服务器部署和网络基础结构通常可分为托管和非托管空间。</span><span class="sxs-lookup"><span data-stu-id="170f2-147">The Lync Server deployment and network infrastructure can usually be divided into managed and unmanaged spaces.</span></span> <span data-ttu-id="170f2-148">托管空间包括您的整个内部有线网络和服务器基础结构。</span><span class="sxs-lookup"><span data-stu-id="170f2-148">The managed space includes your entire inside wired network and server infrastructure.</span></span> <span data-ttu-id="170f2-149">非托管空间是无线基础结构和外部网络基础结构。</span><span class="sxs-lookup"><span data-stu-id="170f2-149">The unmanaged space is the wireless infrastructure and the outside network infrastructure.</span></span>
 
-服务管理是 CQM 的终态，是所有三条路线的终点。为保持较高级别的呼叫质量，监视以下领域：
+<span data-ttu-id="170f2-150">这种区别提高了数据的清晰度, 并帮助您的组织集中关注将对用户的语音和视频质量产生显著影响的工作负荷。</span><span class="sxs-lookup"><span data-stu-id="170f2-150">Making this distinction increases the clarity of your data and helps your organization focus on workloads that will have a measurable impact on your users’ voice and video quality.</span></span> <span data-ttu-id="170f2-151">如果将呼叫放置在你拥有 (托管) 的基础结构上, 而不是部分受其他实体 (非托管) 控制的基础结构上, 则用户有不同的预期质量。</span><span class="sxs-lookup"><span data-stu-id="170f2-151">Users have a different expectation of quality if the call is placed on infrastructure that you own (managed) versus infrastructure that is partly under the control of some other entity (unmanaged).</span></span> <span data-ttu-id="170f2-152">这并不是说无线用户离开其自己的设备, 以便获得出色的 Lync 服务器体验。</span><span class="sxs-lookup"><span data-stu-id="170f2-152">This is not to say that wireless users are left to their own devices to have excellent Lync Server experiences.</span></span>
 
-1.  **用户** - 修正活动的结果应体现为用户满意度明显提高。对此您可以通过问题调查表或其他反馈机制进行衡量。您还可以公布质量指标。
+<span data-ttu-id="170f2-153">在非托管空间中提高语音质量要求在托管空间中具有高质量。</span><span class="sxs-lookup"><span data-stu-id="170f2-153">Improving voice quality in the unmanaged space requires you to have high quality in the managed space.</span></span> <span data-ttu-id="170f2-154">无线 (Wi-fi) 是否被视为托管或非托管空间由你的组织决定。</span><span class="sxs-lookup"><span data-stu-id="170f2-154">Whether wireless (Wi-Fi) is considered managed or unmanaged space is up to your organization.</span></span> <span data-ttu-id="170f2-155">实现正常环境的技术在两个空间中有所不同, 就像解决方案一样。</span><span class="sxs-lookup"><span data-stu-id="170f2-155">The techniques to achieve a healthy environment are different in the two spaces, as are the solutions.</span></span>
 
-2.  **流程** - 定义将 CQM 付诸实践的每日、每周和每月流程。监视频率开始时在进行修正期间较高（每日），稳定后变低（每月）。
+</div>
 
-3.  **工具** - 确定用于衡量和修正的工具。您可能会发现自动运行 CQM 查询对支持您的流程很有用。进行修正（例如对网络元素强制应用标准配置或对不良流中的丢失问题进行故障排除）可能需要其他工具。
+<span id="ServRd"></span>
 
-## 棋盘游戏规则
+<div>
 
-您可以将此招贴用作 CQM 实施的参考，或作为一个用来实践相关概念的游戏。要玩此游戏，您需要一个六个面的骰子和提供的牌。牌的可下载版本可以打印在标准 Avery 5871 商业卡片上。
+## <a name="the-server-plant-road"></a><span data-ttu-id="170f2-156">服务器植物道路</span><span class="sxs-lookup"><span data-stu-id="170f2-156">The Server Plant Road</span></span>
 
-该游戏是 3 人游戏。游戏者可以使用三条路径达到所需质量并到达中心服务管理状态，这三天路径是：服务器设备、终结点、最后一公里。每条路的沿途设有停靠站，您在那里申明质量目标、达到目标、维护系统的某个方面。将牌放在上述指示的区域，然后抽 5 张牌。检查抽取的牌并将其放到相关的棋盘段上。每个游戏者逐步穿过其路径上的牌，穿过时申明质量目标、到达这些目标、维护服务级别。在所有游戏者都达到中心的服务管理状态后，游戏结束。游戏牌下载中提供了更详细的规则。
+<span data-ttu-id="170f2-157">服务器植物公路的第1部分用于解决 Lync 实现中的实际服务器。</span><span class="sxs-lookup"><span data-stu-id="170f2-157">Segment 1 of the Server Plant Road addresses the actual servers in the Lync implementation.</span></span> <span data-ttu-id="170f2-158">收集有关服务器本身及其在实现中的角色的 KHI 数据并分析结果。</span><span class="sxs-lookup"><span data-stu-id="170f2-158">Gather KHI data regarding both the server itself and its role in the implementation and analyze the result.</span></span> <span data-ttu-id="170f2-159">如果操作是保证的, 请更正发现的任何问题。</span><span class="sxs-lookup"><span data-stu-id="170f2-159">If action is warranted, correct any problems found.</span></span> <span data-ttu-id="170f2-160">有关此主题的更多详细信息, 请在 KHI 海报附带的[Lync Server 2013 中介绍的关键运行状况指示器](lync-server-2013-poster-key-health-indicators.md)中介绍。</span><span class="sxs-lookup"><span data-stu-id="170f2-160">More detail on this topic is presented in the article about [Key Health Indicators in Lync Server 2013](lync-server-2013-poster-key-health-indicators.md) that accompanies the KHI poster.</span></span>
 
-要**申明**质量目标，请检查适用于该目标的参数，大声说出您愿意选择接受哪些，不愿意接受哪些。我们推荐了起点，但必须由您作最后决定。KHI 数据例外，对于 KHI 数据例，应使用由 Microsoft 确立的标准。请参阅配套的 KHI 招贴。
+<span data-ttu-id="170f2-161">下一段用于解决 AV MCU 服务器和中介服务器之间的媒体流。</span><span class="sxs-lookup"><span data-stu-id="170f2-161">The next segment addresses media streams between the AV MCU server and mediation server.</span></span> <span data-ttu-id="170f2-162">首先确定数据流阈值较差的目标。</span><span class="sxs-lookup"><span data-stu-id="170f2-162">Begin by determining your targets for poor stream thresholds.</span></span> <span data-ttu-id="170f2-163">较差的流通常\>是 PacketLossRate .01 \>或 PacketLossRateMax。</span><span class="sxs-lookup"><span data-stu-id="170f2-163">Poor streams are usually PacketLossRate \> .01 or PacketLossRateMax \> .05.</span></span> <span data-ttu-id="170f2-164">另一个理想目标是\< PoorStreamsRatio 2%。</span><span class="sxs-lookup"><span data-stu-id="170f2-164">Another desirable target is PoorStreamsRatio \< 2%.</span></span> <span data-ttu-id="170f2-165">接下来, 使用详细查询查找具有不良流的 AVMCU 和中介服务器对, 调查不良流的原因, 查看不良流路径中的网络设备, 纠正不良流, 并为网络定义最佳或 "黄金" 配置机房.</span><span class="sxs-lookup"><span data-stu-id="170f2-165">Next, use detailed queries to find AVMCU and Mediation server pairs with poor streams, investigate the cause of poor streams, look at network equipment in the poor stream paths, remediate poor streams, and define optimal or “gold” configuration for network equipment.</span></span> <span data-ttu-id="170f2-166">若要保持成就, 请实施流程和工具以管理配置偏移, 并报告新的问题区域。</span><span class="sxs-lookup"><span data-stu-id="170f2-166">To maintain your achievement, implement processes and tools to manage configuration drift and to report new problem areas.</span></span>
 
-要**到达**游戏中的目标，请使用提供的牌替代 KHI 数据和系统查询。如果游戏开始时您没有抽到与给定方面相关的牌，您可以继续通过它。如果抽到相关牌，则投掷骰子。如果掷出的点数小于牌上指示的数字，您就赢了。如果掷出的点数等于或大于指示的数字，则必须再次抽牌。如果牌指示两个或更多个游戏者需要投掷骰子，他们都必须有效地投掷骰子。
+<span data-ttu-id="170f2-167">接下来, 检查中介服务器和公共交换电话网络 (PSTN) 网关之间的媒体流。</span><span class="sxs-lookup"><span data-stu-id="170f2-167">Next, examine the media streams between the Mediation server and the Public Switched Telephone Network (PSTN) gateway.</span></span> <span data-ttu-id="170f2-168">首先确定数据流阈值较差的目标。</span><span class="sxs-lookup"><span data-stu-id="170f2-168">Begin by determining your targets for poor stream thresholds.</span></span> <span data-ttu-id="170f2-169">较差的流通常\>是 PacketLossRate .01 \>或 PacketLossRateMax。</span><span class="sxs-lookup"><span data-stu-id="170f2-169">Poor streams are usually PacketLossRate \> .01 or PacketLossRateMax \> .05.</span></span> <span data-ttu-id="170f2-170">另一个理想目标是\< PoorStreamsRatio 2%。</span><span class="sxs-lookup"><span data-stu-id="170f2-170">Another desirable target is PoorStreamsRatio \< 2%.</span></span> <span data-ttu-id="170f2-171">接下来, 使用详细查询查找具有不良流的中介服务器和网关对, 调查不良流的原因, 查看不良流路径中的网络设备, 纠正不良流, 并为网络定义最佳或 "黄金" 配置机房.</span><span class="sxs-lookup"><span data-stu-id="170f2-171">Next, use detailed queries to find Mediation server and gateway pairs with poor streams, investigate the cause of poor streams, look at network equipment in the poor stream paths, remediate poor streams, and define optimal or “gold” configuration for network equipment.</span></span> <span data-ttu-id="170f2-172">若要保持成就, 请实施流程和工具以管理配置偏移, 并报告新的问题区域。</span><span class="sxs-lookup"><span data-stu-id="170f2-172">To maintain your achievement, implement processes and tools to manage configuration drift and to report new problem areas.</span></span>
 
-要在游戏中进行**维护**，请大声说出与 Lync 环境的那方面相关的服务管理计划。
+<span data-ttu-id="170f2-173">最后, 检查你的 PSTN 网关的运行状况指标。</span><span class="sxs-lookup"><span data-stu-id="170f2-173">Finally, examine the health metrics for your PSTN gateway.</span></span> <span data-ttu-id="170f2-174">标识显示运行状况并针对它们定义目标的统计信息。</span><span class="sxs-lookup"><span data-stu-id="170f2-174">Identify the statistics that show health and define targets against them.</span></span> <span data-ttu-id="170f2-175">此处未提供任何特定指南, 因为可以使用多个可能的网关。</span><span class="sxs-lookup"><span data-stu-id="170f2-175">No specific guidance is provided here as many possible gateways can be used.</span></span> <span data-ttu-id="170f2-176">建立目标后, 根据需要进行补救以实现目标;在该过程中, 你可能会为网关定义 "金色" 或最佳配置。</span><span class="sxs-lookup"><span data-stu-id="170f2-176">Once targets are established, remediate as needed to achieve the target; in the process you will likely define a “gold” or optimal configuration for the gateway.</span></span> <span data-ttu-id="170f2-177">若要保持成就, 请实施流程和工具以管理配置偏移, 并报告新的问题区域。</span><span class="sxs-lookup"><span data-stu-id="170f2-177">To maintain your achievement, implement processes and tools to manage configuration drift and to report new problem areas.</span></span> <span data-ttu-id="170f2-178">请注意, 固件和软件更新可能会改变你的配置, 或导致你更改 "黄金" 配置的定义, 因此请注意这些活动。</span><span class="sxs-lookup"><span data-stu-id="170f2-178">Be aware that firmware and software updates may alter your configuration or lead you to change the definition of the “gold” configuration, so approach these activities with care.</span></span>
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<span id="LastMi"></span>
 
-[Lync Server 网络连接指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[关键运行状况指示器：维护正常运行的 Lync 服务器的基础](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)
+<div>
+
+## <a name="the-last-mile-road"></a><span data-ttu-id="170f2-179">最后一英里的道路</span><span class="sxs-lookup"><span data-stu-id="170f2-179">The Last Mile Road</span></span>
+
+<span data-ttu-id="170f2-180">客户端连接到网络的两种方法中, 有线预期提供最高的质量, 并且相应地必须是最后一个英里问题的初始焦点。</span><span class="sxs-lookup"><span data-stu-id="170f2-180">Of the two ways clients connect to the network, wired is expected to deliver the highest quality and correspondingly this must be your initial focus for last mile issues.</span></span> <span data-ttu-id="170f2-181">使用 CQM 有线查询 (LastMile\_0\_有线) 和它提供的不良流比率数据。</span><span class="sxs-lookup"><span data-stu-id="170f2-181">Use the CQM Wired query (LastMile\_0\_Wired) and the Poor Streams ratio data it provides.</span></span> <span data-ttu-id="170f2-182">我们建议为包含\< \> 300 流的网站定义目标 PoorStreamsRatio 5%)。</span><span class="sxs-lookup"><span data-stu-id="170f2-182">We suggest defining a target PoorStreamsRatio \< 5% for sites with \> 300 streams).</span></span> <span data-ttu-id="170f2-183">若要实现目标, 请将从最差订购的子网修正为最佳, 并实施 QoS。</span><span class="sxs-lookup"><span data-stu-id="170f2-183">To achieve your targets, remediate subnets ordered from worst to best, and implement QoS.</span></span>
+
+<span data-ttu-id="170f2-184">优化有线连接的质量后, 提高无线质量将变得更容易, 因为无线基础结构位于每个位置的有线内核顶部。</span><span class="sxs-lookup"><span data-stu-id="170f2-184">After you optimize the quality of your wired connections, improving wireless quality becomes easier because the wireless infrastructure sits atop the wired core at each location.</span></span> <span data-ttu-id="170f2-185">具有良好有线质量的网站中的较差无线流必须属于特定无线组件。</span><span class="sxs-lookup"><span data-stu-id="170f2-185">Poor wireless streams in a site with good wired quality must be attributed to the specific wireless components.</span></span> <span data-ttu-id="170f2-186">CQM 无线查询 (LastMile\_1\_无线) 在某个日期范围内运行, 并将你环境中的所有内部无线流从 Lync 客户端返回到任何会议服务器或中介服务器。</span><span class="sxs-lookup"><span data-stu-id="170f2-186">The CQM Wireless query (LastMile\_1\_Wireless) operates on a date range and will return all internal wireless streams in your environment from Lync clients to or from either conferencing servers or mediation servers.</span></span> <span data-ttu-id="170f2-187">我们建议为包含\< \> 300 流的网站定义目标 PoorStreamsRatio 5%)。</span><span class="sxs-lookup"><span data-stu-id="170f2-187">We suggest defining a target PoorStreamsRatio \< 5% for sites with \> 300 streams).</span></span> <span data-ttu-id="170f2-188">若要实现目标, 请将从最差订购的子网修正为最佳, 并实施 QoS。</span><span class="sxs-lookup"><span data-stu-id="170f2-188">To achieve your targets, remediate subnets ordered from worst to best, and implement QoS.</span></span>
+
+</div>
+
+<span id="EndPt"></span>
+
+<div>
+
+## <a name="the-end-points-road"></a><span data-ttu-id="170f2-189">终结点道路</span><span class="sxs-lookup"><span data-stu-id="170f2-189">The End Points Road</span></span>
+
+<span data-ttu-id="170f2-190">在与 Lync 配合使用时, 通过耳机和已知的其他设备生成可接受质量, 开始查询。</span><span class="sxs-lookup"><span data-stu-id="170f2-190">Begin inquiries into the End Points Road with the headsets and other devices known to produce acceptable quality when used with Lync.</span></span> <span data-ttu-id="170f2-191">我们建议使用超过100个\>流的实现目标 AvgSendListen MOS 3.6。)通过识别有问题的设备并修复或替换它们来实现目标。</span><span class="sxs-lookup"><span data-stu-id="170f2-191">We suggest a target AvgSendListen MOS \> 3.6 for implementations with over 100 streams.) Achieve the target by identifying problematic devices and fix or replace them.</span></span>
+
+<span data-ttu-id="170f2-192">接下来, 检查设备或电脑处理音频以查找最终用户呼叫。</span><span class="sxs-lookup"><span data-stu-id="170f2-192">Next, examine the device or PC processing the audio for end user calls.</span></span> <span data-ttu-id="170f2-193">建议的目标质量指标为 AudioMicGlitchRate \<= 1。</span><span class="sxs-lookup"><span data-stu-id="170f2-193">A suggested target quality metric is an AudioMicGlitchRate \<= 1.</span></span> <span data-ttu-id="170f2-194">为用户系统确定最佳系统配置时, 请定义一个 "黄金" PC 配置, 包括驱动程序版本。</span><span class="sxs-lookup"><span data-stu-id="170f2-194">As you identify optimal system configurations for the user systems, define a “golden” PC configuration including driver versions.</span></span>
+
+<span data-ttu-id="170f2-195">现在, 检查音频流从 Lync 终结点系统获取的网络路径, 这可能会导致音频质量较差。</span><span class="sxs-lookup"><span data-stu-id="170f2-195">Now examine the network path an audio stream takes from a Lync endpoint system, which can cause poor audio quality.</span></span> <span data-ttu-id="170f2-196">如果音频通过 VPN 连接, 您可能会看到延迟问题。</span><span class="sxs-lookup"><span data-stu-id="170f2-196">If audio travels over a VPN connection you might see latency issues.</span></span> <span data-ttu-id="170f2-197">如果内部 Lync 客户端无法为两方或对等调用的其他内部 Lync 客户端建立直接媒体流, 则它将回退到通过 Lync Edge 服务器中继的路径, 从而导致延迟问题, 并增加损失和抖动。</span><span class="sxs-lookup"><span data-stu-id="170f2-197">If an internal Lync client cannot establish a direct media stream to another internal Lync client for a two-party or peer-to-peer call, it will fall back to a path that relays through a Lync Edge server, again leading to latency issues as well as increased potential for loss and jitter.</span></span> <span data-ttu-id="170f2-198">我们建议你通过 VPN 定义质量指标 0% 的媒体。</span><span class="sxs-lookup"><span data-stu-id="170f2-198">We suggest you define a quality metric of 0% Media over VPN.</span></span> <span data-ttu-id="170f2-199">在你更正以实现你设置的目标时, 请确定问题子网并调查防火墙规则、数据包 shapers 和其他相关网络设备配置。</span><span class="sxs-lookup"><span data-stu-id="170f2-199">As you remediate to achieve the target you set, identify problem subnets and investigate firewall rules, packet shapers, and other relevant network equipment configuration.</span></span>
+
+<span data-ttu-id="170f2-200">IP 数据包可以使用 "传输控制协议 (TCP)" 或 "用户数据报协议 (UDP)"。</span><span class="sxs-lookup"><span data-stu-id="170f2-200">IP Packets can use either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP).</span></span> <span data-ttu-id="170f2-201">TCP 对于数据流而言是最佳的。</span><span class="sxs-lookup"><span data-stu-id="170f2-201">TCP is optimal for data streams.</span></span> <span data-ttu-id="170f2-202">UDP 是无连接的, 并且更高效地适用于媒体, 因为 TCP 恢复机制无法以实时媒体的损失解决。</span><span class="sxs-lookup"><span data-stu-id="170f2-202">UDP is connectionless and is more efficient for media since TCP recovery mechanisms cannot address loss in real time media.</span></span> <span data-ttu-id="170f2-203">Lync 始终首选 UDP, 但如果无法建立 UDP 会话, 则将还原为 TCP。</span><span class="sxs-lookup"><span data-stu-id="170f2-203">Lync always prefers UDP, but will revert to TCP if a UDP session cannot be established.</span></span> <span data-ttu-id="170f2-204">通过 TCP 的媒体会话将表现出比通过 UDP 更差的质量。</span><span class="sxs-lookup"><span data-stu-id="170f2-204">Media sessions over TCP will exhibit poorer quality than over UDP.</span></span> <span data-ttu-id="170f2-205">我们建议通过 TCP 的 0% 连接的质量定义。</span><span class="sxs-lookup"><span data-stu-id="170f2-205">We recommend a quality definition of 0% connections over TCP.</span></span> <span data-ttu-id="170f2-206">在你更正以实现你设置的目标时, 请确定问题子网并调查防火墙规则、数据包 shapers 和其他相关网络设备配置。</span><span class="sxs-lookup"><span data-stu-id="170f2-206">As you remediate to achieve the target you set, identify problem subnets and investigate firewall rules, packet shapers, and other relevant network equipment configuration.</span></span>
+
+</div>
+
+<span id="ServMgt"></span>
+
+<div>
+
+## <a name="service-management"></a><span data-ttu-id="170f2-207">服务管理</span><span class="sxs-lookup"><span data-stu-id="170f2-207">Service Management</span></span>
+
+<span data-ttu-id="170f2-208">服务管理是 CQM 的结束状态, 所有三条道路的目的地。</span><span class="sxs-lookup"><span data-stu-id="170f2-208">Service management is the end state of CQM, and the destination for all three roads.</span></span> <span data-ttu-id="170f2-209">若要保持高级别的通话质量, 请监视以下方面:</span><span class="sxs-lookup"><span data-stu-id="170f2-209">To maintain high levels of call quality, monitor these areas:</span></span>
+
+1.  <span data-ttu-id="170f2-210">**用户**-补救活动应显示用户满意度的显著增加。</span><span class="sxs-lookup"><span data-stu-id="170f2-210">**Users** - Remediation activities should show a measurable increase in user satisfaction.</span></span> <span data-ttu-id="170f2-211">你可以通过问题票证或其他反馈机制来衡量此问题。</span><span class="sxs-lookup"><span data-stu-id="170f2-211">You can measure this by problem tickets or other feedback mechanisms.</span></span> <span data-ttu-id="170f2-212">您还可以发布质量指标。</span><span class="sxs-lookup"><span data-stu-id="170f2-212">You can also publish quality metrics.</span></span>
+
+2.  <span data-ttu-id="170f2-213">**流程**-定义 operationalize CQM 的每天、每周和每月流程。</span><span class="sxs-lookup"><span data-stu-id="170f2-213">**Process** - define daily, weekly and monthly processes to operationalize CQM.</span></span> <span data-ttu-id="170f2-214">在你进行补救时 (每天), 监视节奏将以更高的频率启动, 并随着你的稳定而移动到较低频率 (每月)。</span><span class="sxs-lookup"><span data-stu-id="170f2-214">Monitoring rhythm starts at a higher frequency while you are remediating (daily) and moves to a lower frequency (monthly) as you stabilize.</span></span>
+
+3.  <span data-ttu-id="170f2-215">**工具**-确定用于测量和修正的工具。</span><span class="sxs-lookup"><span data-stu-id="170f2-215">**Tools** - identify tools to both measure and remediate.</span></span> <span data-ttu-id="170f2-216">你可能会发现自动运行 CQM 查询以支持你的进程非常有用。</span><span class="sxs-lookup"><span data-stu-id="170f2-216">You may find it useful to automate running the CQM queries to support your processes.</span></span> <span data-ttu-id="170f2-217">补救措施可能需要其他工具, 例如, 在网络元素上强制实施标准化配置或在不良流中排除损失。</span><span class="sxs-lookup"><span data-stu-id="170f2-217">Remediation may require additional tools for example to enforce standardized configurations on network elements or troubleshooting loss in poor streams.</span></span>
+
+</div>
+
+<span id="BoardGm"></span>
+
+<div>
+
+## <a name="board-game-rules"></a><span data-ttu-id="170f2-218">董事会游戏规则</span><span class="sxs-lookup"><span data-stu-id="170f2-218">Board Game Rules</span></span>
+
+<span data-ttu-id="170f2-219">你可以将此海报用作对 CQM 实现的引用或用作练习概念的游戏。</span><span class="sxs-lookup"><span data-stu-id="170f2-219">You can use this poster either as a reference to a CQM implementation or as a game to practice the concepts.</span></span> <span data-ttu-id="170f2-220">要玩游戏, 您需要 1 6 面片和所提供的卡。</span><span class="sxs-lookup"><span data-stu-id="170f2-220">To play, you will need one six-sided die and the cards provided.</span></span> <span data-ttu-id="170f2-221">可在标准 Avery 5871 名片上打印可下载版本的卡。</span><span class="sxs-lookup"><span data-stu-id="170f2-221">A downloadable version of the cards is available to print on standard Avery 5871 business cards.</span></span>
+
+<span data-ttu-id="170f2-222">游戏适用于3个玩家。</span><span class="sxs-lookup"><span data-stu-id="170f2-222">The game is for 3 players.</span></span> <span data-ttu-id="170f2-223">玩家可以使用三条路径来达到所需质量并达到中心服务管理状态: 服务器植物、终点和上一英里。</span><span class="sxs-lookup"><span data-stu-id="170f2-223">There are three paths the players can use to achieve the desired quality and reach the center Service Management state: Server Plant, End Point, and Last Mile.</span></span> <span data-ttu-id="170f2-224">每个路径在断言质量目标、实现目标和维护系统方面的方式上都有停止。</span><span class="sxs-lookup"><span data-stu-id="170f2-224">Each path has stops along the way where you Assert quality targets, Achieve goals, and Maintain an aspect of your system.</span></span> <span data-ttu-id="170f2-225">将卡放在上面的指定区域, 然后绘制5张卡片。</span><span class="sxs-lookup"><span data-stu-id="170f2-225">Place the cards in the indicated area above, and then draw 5 cards.</span></span> <span data-ttu-id="170f2-226">查看你绘制的卡片并将其放在相关的版块段上。</span><span class="sxs-lookup"><span data-stu-id="170f2-226">Review the cards you’ve drawn and place them on the relevant board segment.</span></span> <span data-ttu-id="170f2-227">每个玩家通过其路线中的卡片逐个移动, 断言质量目标, 实现这些目标, 以及维护服务级别。</span><span class="sxs-lookup"><span data-stu-id="170f2-227">Each player moves through the cards on their path step by step, asserting quality targets, achieving those targets, and maintaining the service levels.</span></span> <span data-ttu-id="170f2-228">当所有玩家都达到中心服务管理状态时, 游戏就完成了。</span><span class="sxs-lookup"><span data-stu-id="170f2-228">The game is completed when all players reach the center Service Management state.</span></span> <span data-ttu-id="170f2-229">游戏卡下载中提供了更详细的规则。</span><span class="sxs-lookup"><span data-stu-id="170f2-229">More detailed rules are provided with the game card download.</span></span>
+
+<span data-ttu-id="170f2-230">若要**断言**质量目标, 请查看适用于该目标的参数, 并向您发送的内容提供相关内容, 并不会选择接受。</span><span class="sxs-lookup"><span data-stu-id="170f2-230">To **Assert** a quality target, review the parameters applicable to that target, and state out loud what you will and won’t choose to accept.</span></span> <span data-ttu-id="170f2-231">我们推荐了起始点, 但您必须进行最后的通话。</span><span class="sxs-lookup"><span data-stu-id="170f2-231">We have recommended beginning points, but you must make the final call.</span></span> <span data-ttu-id="170f2-232">此异常是 KHI 数据, 应使用 Microsoft 建立的标准。</span><span class="sxs-lookup"><span data-stu-id="170f2-232">The exception is KHI data, where the standards established by Microsoft should be used.</span></span> <span data-ttu-id="170f2-233">请参阅随附的 KHI 海报。</span><span class="sxs-lookup"><span data-stu-id="170f2-233">See the accompanying KHI poster.</span></span>
+
+<span data-ttu-id="170f2-234">若要在游戏中**实现**, 请使用提供的卡来代替 KHI 数据和系统查询。</span><span class="sxs-lookup"><span data-stu-id="170f2-234">To **Achieve** in the game, use the cards provided in place of KHI data and system queries.</span></span> <span data-ttu-id="170f2-235">如果在游戏开始时未绘制与给定方位有关的卡, 则可以继续使用它。</span><span class="sxs-lookup"><span data-stu-id="170f2-235">If at the start of the game you did not draw a card relating to a given aspect, you can continue past it.</span></span> <span data-ttu-id="170f2-236">如果有相关卡, 请滚动骰子。</span><span class="sxs-lookup"><span data-stu-id="170f2-236">If there is a relevant card, roll the die.</span></span> <span data-ttu-id="170f2-237">如果您在卡上显示的数字下滚动, 则您已成功。</span><span class="sxs-lookup"><span data-stu-id="170f2-237">If you rolled under the number indicated on the card, you have succeeded.</span></span> <span data-ttu-id="170f2-238">如果你在指定的数字上滚动, 则必须从该幻灯片中绘制另一个卡片。</span><span class="sxs-lookup"><span data-stu-id="170f2-238">If you roll at or over the indicated number, you must draw another card from the deck.</span></span> <span data-ttu-id="170f2-239">如果该卡指示两个或更多玩家需要滚动, 则它们必须全部成功滚动。</span><span class="sxs-lookup"><span data-stu-id="170f2-239">If the card indicates two or more players need to roll, they must all roll successfully.</span></span>
+
+<span data-ttu-id="170f2-240">要在游戏中**维护**, 请将有关 Lync 环境的服务管理计划更高的状态。</span><span class="sxs-lookup"><span data-stu-id="170f2-240">To **Maintain** in the game, state out loud the service management plan regarding that aspect of the Lync environment.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="170f2-241">另请参阅</span><span class="sxs-lookup"><span data-stu-id="170f2-241">See Also</span></span>
+
+
+[<span data-ttu-id="170f2-242">Lync Server 网络指南</span><span class="sxs-lookup"><span data-stu-id="170f2-242">Lync Server Networking Guide</span></span>](http://go.microsoft.com/fwlink/p/?linkid=390677)  
+[<span data-ttu-id="170f2-243">关键运行状况指示器: 用于维护正常 Lync 服务器的基础</span><span class="sxs-lookup"><span data-stu-id="170f2-243">Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers</span></span>](http://go.microsoft.com/fwlink/?linkid=391838)  
+[<span data-ttu-id="170f2-244">Lync 通话质量方法</span><span class="sxs-lookup"><span data-stu-id="170f2-244">Lync Call Quality Methodology</span></span>](http://go.microsoft.com/fwlink/?linkid=391841)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

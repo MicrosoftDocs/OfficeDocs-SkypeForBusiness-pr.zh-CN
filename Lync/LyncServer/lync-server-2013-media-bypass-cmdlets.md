@@ -1,44 +1,84 @@
-﻿---
-title: 媒体绕过 Cmdlet
-TOCTitle: 媒体绕过 Cmdlet
-ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415674(v=OCS.15)
-ms:contentKeyID: 49314148
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 媒体绕过 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass cmdlets
+ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)
+ms:contentKeyID: 48185334
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 47414dc07b0d26169df9c678283317c3f6c9c7a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827485"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 媒体绕过 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a><span data-ttu-id="26cbd-102">Lync Server 2013 中的媒体绕过 cmdlet</span><span class="sxs-lookup"><span data-stu-id="26cbd-102">Media bypass cmdlets in Lync Server 2013</span></span>
 
-媒体旁路功能是指在可能的情况下，从信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。
+</div>
 
-## 媒体旁路 Cmdlet
+<div id="mainSection">
 
-使用以下 cmdlet 配置媒体旁路。
+<div id="mainBody">
 
-**媒体旁路**
+<span> </span>
 
-  -   
-    [New-CsNetworkMediaBypassConfiguration](new-csnetworkmediabypassconfiguration.md)
+<span data-ttu-id="26cbd-103">_**主题上次修改时间:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="26cbd-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-  -   
-    [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+<span data-ttu-id="26cbd-104">媒体绕过指信号遍历中介服务器的呼叫可以从媒体路径中删除中介服务器。</span><span class="sxs-lookup"><span data-stu-id="26cbd-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
 
-  -   
-    [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+<div>
 
-  -   
-    [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+## <a name="media-bypass-cmdlets"></a><span data-ttu-id="26cbd-105">媒体绕过 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="26cbd-105">Media Bypass Cmdlets</span></span>
 
-## 另请参阅
+<span data-ttu-id="26cbd-106">使用以下 cmdlet 配置媒体绕过。</span><span class="sxs-lookup"><span data-stu-id="26cbd-106">Use the following cmdlets to configure media bypass.</span></span>
 
-#### 其他资源
+<span data-ttu-id="26cbd-107">**媒体旁路**</span><span class="sxs-lookup"><span data-stu-id="26cbd-107">**Media Bypass**</span></span>
 
-[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)  
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    <span data-ttu-id="26cbd-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="26cbd-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span></span>  
+    <span data-ttu-id="26cbd-109">[Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="26cbd-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="26cbd-110">[Remove-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="26cbd-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="26cbd-111">[Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="26cbd-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="26cbd-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="26cbd-112">See Also</span></span>
+
+
+[<span data-ttu-id="26cbd-113">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="26cbd-113">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="26cbd-114">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="26cbd-114">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

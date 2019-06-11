@@ -1,55 +1,98 @@
-﻿---
-title: 搜索 Lync Server 用户
-TOCTitle: 搜索 Lync Server 用户
-ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg429701(v=OCS.15)
-ms:contentKeyID: 49312560
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 搜索 Lync Server 用户'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Search for Lync Server users
+ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429701(v=OCS.15)
+ms:contentKeyID: 48183871
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 068fe07bf14894d22f929291514854360d6d0465
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821892"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 搜索 Lync Server 用户
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-05-14_
+# <a name="search-for-lync-server-users-in-lync-server-2013"></a><span data-ttu-id="eb2ef-102">在 Lync Server 2013 中搜索 Lync Server 用户</span><span class="sxs-lookup"><span data-stu-id="eb2ef-102">Search for Lync Server users in Lync Server 2013</span></span>
 
-可以使用搜索查询的结果来配置 Lync Server 2013 用户。可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
+</div>
 
-可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元来搜索用户。下面的过程介绍了如何使用 Lync Server 控制面板搜索用户。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="eb2ef-103">_**主题上次修改时间:** 2014-05-14_</span><span class="sxs-lookup"><span data-stu-id="eb2ef-103">_**Topic Last Modified:** 2014-05-14_</span></span>
+
+<span data-ttu-id="eb2ef-104">你可以使用搜索查询的结果为 Lync Server 2013 配置用户。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-104">You can use the results of a search query to configure users for Lync Server 2013.</span></span> <span data-ttu-id="eb2ef-105">可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-105">You can search for users by display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI).</span></span>
+
+<span data-ttu-id="eb2ef-106">可以使用 Lync Server 控制面板或 Active Directory "用户和计算机" 管理单元搜索用户。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-106">You can search for users by using the Lync Server Control Panel or the Active Directory Users and Computers snap-in.</span></span> <span data-ttu-id="eb2ef-107">以下过程介绍了如何使用 Lync Server "控制面板" 搜索用户。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-107">The following procedure describes how to use Lync Server Control Panel to search for users.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 在包括中央林拓扑的环境中，按照用户的电子邮件地址搜索用户时，搜索结果可能不准确。可以改为通过指定 SIP 地址前缀（例如，sip:name）来搜索用户，然后添加搜索筛选器并选择包含部分电子邮件地址的 SIP 地址，或使用 <strong>Get-CSUser</strong> cmdlet。
+> <span data-ttu-id="eb2ef-108">在具有中央林拓扑的环境中, 当您按用户的电子邮件地址搜索用户时, 搜索结果可能不准确。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-108">In an environment with a central forest topology, search results might not be accurate when you search for a user by the user’s email address.</span></span> <span data-ttu-id="eb2ef-109">而是可以通过指定 SIP 地址前缀 (例如 sip: name、添加搜索筛选器并选择包含部分电子邮件地址的 SIP 地址) 搜索用户, 或使用<STRONG>move-csuser</STRONG> cmdlet。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-109">Instead, you can search for users by specifying a SIP address prefix, for example, sip:name, add a search filter and select a SIP address that contains a partial email address, or use the <STRONG>Get-CSUser</STRONG> cmdlet.</span></span>
 
 
 
-## 搜索一个或多个用户
+</div>
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+<div>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+## <a name="to-search-for-one-or-more-users"></a><span data-ttu-id="eb2ef-110">搜索一个或多个用户</span><span class="sxs-lookup"><span data-stu-id="eb2ef-110">To search for one or more users</span></span>
 
-3.  在左导航栏中，单击“用户”。
+1.  <span data-ttu-id="eb2ef-111">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-4.  在“搜索用户”框中，键入要搜索的用户帐户的显示名称、名字、姓氏、SAM 帐户名称、SIP 地址或线路 URI 的完整或第一部分，然后单击“查找”。
+2.  <span data-ttu-id="eb2ef-112">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="eb2ef-113">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-5.  （可选）指定附加搜索条件以缩小结果的范围：
+3.  <span data-ttu-id="eb2ef-114">在左导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-114">In the left navigation bar, click **Users**.</span></span>
+
+4.  <span data-ttu-id="eb2ef-115">在 "**搜索用户**" 框中, 键入要搜索的用户帐户的所有或第一部分的显示名称、名字、姓氏、SAM 帐户名称、SIP 地址或行 URI, 然后单击 "**查找**"。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-115">In the **Search users** box, type all or the first portion of the display name, first name, last name, SAM account name, SIP address, or line URI of the user account that you want to search for, and then click **Find**.</span></span>
+
+5.  <span data-ttu-id="eb2ef-116">（可选）指定附加搜索条件以缩小结果的范围：</span><span class="sxs-lookup"><span data-stu-id="eb2ef-116">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  单击 “搜索结果”上方屏幕右上角的展开箭头按钮，然后单击“添加筛选器”。
+    1.  <span data-ttu-id="eb2ef-117">单击 "**搜索结果**" 上方屏幕右上角的展开箭头按钮, 然后单击 "**添加筛选器**"。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-117">Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.</span></span>
     
-    2.  通过键入用户属性，或单击下拉列表中的箭头选择用户属性来输入用户属性。
+    2.  <span data-ttu-id="eb2ef-118">通过键入或单击下拉列表中的箭头来输入用户属性, 以选择用户属性。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-118">Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.</span></span>
     
-    3.  在“等于” 列表中，单击“等于”或“不等于”。
+    3.  <span data-ttu-id="eb2ef-119">在 "**等于**" 列表中, 单击 "**等于**或**不等于**"。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-119">In the **Equal to** list, click **Equal to** or **Not equal to**.</span></span>
     
-    4.  在文本框中，输入要用于筛选搜索结果的搜索条件，然后单击“查找”。
+    4.  <span data-ttu-id="eb2ef-120">在 "文本" 框中, 键入要用于筛选搜索结果的搜索条件, 然后单击 "**查找**"。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-120">In the text box, type the search criteria you want to use to filter search results, and then click **Find**.</span></span>
 
-6.  搜索结果将显示在“搜索结果”下。可以选择列表中的任何或全部用户，并对选择的用户执行配置任务。
+6.  <span data-ttu-id="eb2ef-121">搜索结果将显示在 "**搜索结果**" 下。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-121">The search results appear under **Search Results**.</span></span> <span data-ttu-id="eb2ef-122">您可以选择列表中的任意用户或所有用户, 并在所选用户上执行配置任务。</span><span class="sxs-lookup"><span data-stu-id="eb2ef-122">You can select any or all of the users in the list and perform configuration tasks on the users you select.</span></span>
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[查看为 Lync Server 2013 启用的用户帐户的信息](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
-[启用和禁用 Lync Server 2013 的用户](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+## <a name="see-also"></a><span data-ttu-id="eb2ef-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eb2ef-123">See Also</span></span>
+
+
+[<span data-ttu-id="eb2ef-124">查看有关为 Lync Server 2013 启用的用户帐户的信息</span><span class="sxs-lookup"><span data-stu-id="eb2ef-124">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
+[<span data-ttu-id="eb2ef-125">启用和禁用 Lync Server 2013 的用户</span><span class="sxs-lookup"><span data-stu-id="eb2ef-125">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

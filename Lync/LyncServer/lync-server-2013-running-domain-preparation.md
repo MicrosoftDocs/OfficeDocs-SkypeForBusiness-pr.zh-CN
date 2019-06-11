@@ -1,91 +1,137 @@
-﻿---
-title: Lync Server 2013：运行域准备
-TOCTitle: 运行域准备
-ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398761(v=OCS.15)
-ms:contentKeyID: 49313655
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：运行域准备
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running domain preparation
+ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
+ms:contentKeyID: 48184847
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822277"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为 Lync Server 2013 运行域准备
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-04-16_
+# <a name="running-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="dd0ac-102">为 Lync Server 2013 运行域准备</span><span class="sxs-lookup"><span data-stu-id="dd0ac-102">Running domain preparation for Lync Server 2013</span></span>
 
-您可以使用安装程序或 Lync Server 命令行管理程序 cmdlet 准备域。准备域的 cmdlet 为 **Enable-CsAdDomain**。
+</div>
 
-域准备是为 Lync Server 2013 准备 Active Directory 域服务 的最后一步。
+<div id="mainSection">
 
-## 使用安装程序来准备域
+<div id="mainBody">
 
-1.  以 Domain Admins 组成员的身份登录域中的任何服务器。
+<span> </span>
 
-2.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 来启动 Lync Server 部署向导。
+<span data-ttu-id="dd0ac-103">_**主题上次修改时间:** 2013-04-16_</span><span class="sxs-lookup"><span data-stu-id="dd0ac-103">_**Topic Last Modified:** 2013-04-16_</span></span>
 
-3.  单击“准备 Active Directory”，然后等待确定部署状态。
+<span data-ttu-id="dd0ac-104">你可以使用安装程序或 Lync Server Management Shell cmdlet 准备域。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-104">You can use Setup or Lync Server Management Shell cmdlets to prepare domains.</span></span> <span data-ttu-id="dd0ac-105">准备域的 cmdlet 为**Enable-CsAdDomain**。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-105">The cmdlet that prepares a domain is **Enable-CsAdDomain**.</span></span>
 
-4.  在“步骤 5: 准备当前域”中，单击“运行”。
+<span data-ttu-id="dd0ac-106">域准备是为 Lync Server 2013 准备 Active Directory 域服务的最后一步。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-106">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span>
 
-5.  在“准备域”页上，单击“下一步”。
+<div>
 
-6.  在“正在执行命令”页上，查找“任务状态: 已完成”，然后单击“查看日志”。
+## <a name="to-use-setup-to-prepare-domains"></a><span data-ttu-id="dd0ac-107">使用安装程序准备域</span><span class="sxs-lookup"><span data-stu-id="dd0ac-107">To use Setup to prepare domains</span></span>
 
-7.  在“操作”列下，展开“域准备”，在每项任务的结尾查找“\<成功\>”执行结果，以确认域准备成功完成，关闭日志，然后单击“完成”。
+1.  <span data-ttu-id="dd0ac-108">以域管理员组的成员身份登录域中的任何服务器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-108">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
 
-8.  等待 Active Directory 复制完成，或者强制向目录林根级域控制器的“Active Directory 站点和服务”管理单元中列出的所有域控制器进行复制。
+2.  <span data-ttu-id="dd0ac-109">从 Lync Server 2013 安装文件夹或媒体中, 运行 Setup.exe 以启动 Lync Server 部署向导。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-109">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
 
-## 使用 cmdlet 准备域
+3.  <span data-ttu-id="dd0ac-110">单击“**准备 Active Directory**”，然后等待确定部署状态。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-110">Click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
 
-1.  以 Domain Admins 组成员的身份登录域中的任何服务器。
+4.  <span data-ttu-id="dd0ac-111">在“**步骤 5：准备当前域**”中，单击“**运行**”。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-111">At **Step 5: Prepare Current Domain**, click **Run**.</span></span>
 
-2.  安装 Lync Server 核心组件，如下所示：
+5.  <span data-ttu-id="dd0ac-112">在 "**准备域**" 页面上, 单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-112">On the **Prepare Domain** page, click **Next**.</span></span>
+
+6.  <span data-ttu-id="dd0ac-113">在“**正在执行命令**”页上，查找“**任务状态：已完成**”，然后单击“**查看日志**”。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-113">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
+
+7.  <span data-ttu-id="dd0ac-114">在 "**操作**" 列下, 展开 "**域准备**", 查找每个任务末尾的\*\* \<\>成功**执行结果, 验证域准备是否成功完成, 关闭日志, 然后单击 "**完成\*\*"。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-114">Under the **Action** column, expand **Domain Prep**, look for a **\<Success\>** Execution Result at the end of each task to verify that domain preparation completed successfully, close the log, and then click **Finish**.</span></span>
+
+8.  <span data-ttu-id="dd0ac-115">等待 Active Directory 复制完成或强制复制到林根域控制器的 Active Directory 站点和服务管理单元中列出的所有域控制器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-115">Wait for Active Directory replication to complete or force replication to all the domain controllers listed in the Active Directory Sites and Services snap-in for the forest root domain controller.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-domain"></a><span data-ttu-id="dd0ac-116">使用 cmdlet 准备域</span><span class="sxs-lookup"><span data-stu-id="dd0ac-116">To use cmdlets to prepare the domain</span></span>
+
+1.  <span data-ttu-id="dd0ac-117">以域管理员组的成员身份登录域中的任何服务器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-117">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
+
+2.  <span data-ttu-id="dd0ac-118">安装 Lync Server Core 组件, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="dd0ac-118">Install Lync Server Core components as follows:</span></span>
     
-    1.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 来启动 Lync Server 部署向导。
+    1.  <span data-ttu-id="dd0ac-119">从 Lync Server 2013 安装文件夹或媒体中, 运行 Setup.exe 以启动 Lync Server 部署向导。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-119">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
     
-    2.  如果提示您安装 Microsoft Visual C++ 可再发行软件产品，单击“是”。
+    2.  <span data-ttu-id="dd0ac-120">如果系统提示您安装 Microsoft Visual c + + 可再发行组件, 请单击 **"是"**。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-120">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
     
-    3.  Lync Server 2013 的“安装”对话框将提示您选择安装 Lync Server 文件的位置。选择默认位置或“浏览”至要选择的位置，然后单击“安装”。
+    3.  <span data-ttu-id="dd0ac-121">"Lync Server 2013 设置" 对话框提示你输入安装 Lync Server 文件的位置。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-121">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="dd0ac-122">选择默认位置或**浏览**到您选择的位置, 然后单击 "**安装**"。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-122">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
     
-    4.  在“许可协议”页上，选中“我接受许可协议中的条款”，然后单击“确定”。此时安装程序将安装 Lync Server 2013 核心组件。
+    4.  <span data-ttu-id="dd0ac-123">在 "许可协议" 页面上, 选中 "**我接受许可协议中的条款**", 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-123">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="dd0ac-124">安装程序安装 Lync Server 2013 核心组件。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-124">The installer installs the Lync Server 2013 Core Components.</span></span>
 
-3.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+3.  <span data-ttu-id="dd0ac-125">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-125">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  运行：
+4.  <span data-ttu-id="dd0ac-126">运行：</span><span class="sxs-lookup"><span data-stu-id="dd0ac-126">Run:</span></span>
     
         Enable-CsAdDomain [-Domain <DomainFQDN>] 
     
-    例如：
+    <span data-ttu-id="dd0ac-127">例如：</span><span class="sxs-lookup"><span data-stu-id="dd0ac-127">For example:</span></span>
     
         Enable-CsAdDomain -Domain domain1.contoso.net 
     
-    如果不指定 Domain 参数，则默认为本地域。
+    <span data-ttu-id="dd0ac-128">如果不指定 Domain 参数, 则默认为本地域。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-128">If you do not specify the Domain parameter, the default is the local domain.</span></span>
 
-5.  确认域准备是否已成功。运行：
+5.  <span data-ttu-id="dd0ac-129">验证域准备是否成功。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-129">Verify that domain preparation was successful.</span></span> <span data-ttu-id="dd0ac-130">运行：</span><span class="sxs-lookup"><span data-stu-id="dd0ac-130">Run:</span></span>
     
         Get-CsAdDomain [-Domain <Domain FQDN>] [-DomainController <Domain controller FQDN>] [-GlobalCatalog <Global catalog server FQDN>] [-GlobalSettingsDomainController <Domain controller FQDN where global settings are stored>] 
     
-    例如：
+    <span data-ttu-id="dd0ac-131">例如：</span><span class="sxs-lookup"><span data-stu-id="dd0ac-131">For example:</span></span>
     
         Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
     
+    <div>
+    
+
     > [!NOTE]  
-	> 参数 GlobalSettingsDomainController 用于指出存储全局设置的位置。如果设置存储在“系统”容器中（通常在全局设置尚未迁移到“配置”容器的升级部署中是这种情况），则定义 Active Directory 林的根中的某个域控制器。如果全局设置存储在“配置”容器中（通常在新部署或设置已迁移到“配置”容器的升级部署中是这种情况），则定义林中的任何域控制器。如果未指定此参数，则 cmdlet 会假定设置存储在“配置”容器中，并引用 AD DS 中的任何域控制器。
+    > <span data-ttu-id="dd0ac-132">参数 GlobalSettingsDomainController 允许你指示全局设置的存储位置。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-132">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="dd0ac-133">如果你的设置存储在系统容器中 (这与未将全局设置迁移到配置容器的升级部署的典型设置), 请在 Active Directory 林的根中定义域控制器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-133">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global settings migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="dd0ac-134">如果全局设置存储在“配置”容器中（在新部署或设置已迁移到“配置”容器的升级部署中时通常是这种情况），则定义林中的任何域控制器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-134">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="dd0ac-135">如果不指定此参数, 则 cmdlet 假定设置存储在配置容器中, 并引用 AD&nbsp;DS 中的任何域控制器。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-135">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
+
     
+    </div>
     
-    如果不指定 **Domain** 参数，则默认为本地域。
+    <span data-ttu-id="dd0ac-136">如果不指定**Domain**参数, 则默认为本地域。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-136">If you do not specify the **Domain** parameter, the default is the local domain.</span></span>
     
-    如果域准备已成功，cmdlet 将返回 **LC\_DOMAINSETTINGS\_STATE\_READY** 。
+    <span data-ttu-id="dd0ac-137">如果域准备成功, 此 cmdlet 将返回**\_LC DOMAINSETTINGS\_状态\_** 的值为 "已准备就绪"。</span><span class="sxs-lookup"><span data-stu-id="dd0ac-137">This cmdlet returns a value of **LC\_DOMAINSETTINGS\_STATE\_READY** if domain preparation was successful.</span></span>
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[使用 Cmdlet 为 Lync Server 2013 反向执行域准备](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
+## <a name="see-also"></a><span data-ttu-id="dd0ac-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="dd0ac-138">See Also</span></span>
 
-#### 其他资源
 
-[为 Lync Server 2013 准备域](lync-server-2013-preparing-domains.md)
+[<span data-ttu-id="dd0ac-139">使用 Cmdlet 为 Lync Server 2013 反向执行域准备</span><span class="sxs-lookup"><span data-stu-id="dd0ac-139">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
+
+
+[<span data-ttu-id="dd0ac-140">为 Lync Server 2013 准备域</span><span class="sxs-lookup"><span data-stu-id="dd0ac-140">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

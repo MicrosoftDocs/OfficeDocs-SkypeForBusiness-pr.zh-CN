@@ -1,63 +1,106 @@
-﻿---
-title: 还原监控或存档数据
-TOCTitle: 还原监控或存档数据
-ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh202175(v=OCS.15)
-ms:contentKeyID: 52061030
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 还原监视或存档数据'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring monitoring or archiving data
+ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
+ms:contentKeyID: 51541483
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822382"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 还原监控或存档数据
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-18_
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a><span data-ttu-id="90bcf-102">在 Lync Server 2013 中还原监视或存档数据</span><span class="sxs-lookup"><span data-stu-id="90bcf-102">Restoring monitoring or archiving data in Lync Server 2013</span></span>
 
-发生故障后使 Lync Server 正常运行不需要还原监控和存档数据。但是，如果监控和存档数据对组织而言非常关键，则将需要在重新创建数据库之后还原这些数据。
+</div>
 
-以下过程介绍如何使用 SQL Server Management Studio 还原存档或监控数据。
+<div id="mainSection">
 
-## 从备份文件中还原监控或存档数据
+<div id="mainBody">
 
-1.  以本地计算机上 Administrators 组成员的身份或具有同等用户权限的组成员身份登录到要还原的服务器。
+<span> </span>
 
-2.  打开 SQL Server Management Studio：依次单击“开始”、“所有程序”、“Microsoft SQL Server 2012”或“Microsoft SQL Server 2008 R2”，然后单击“SQL Server Management Studio”。
+<span data-ttu-id="90bcf-103">_**主题上次修改时间:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="90bcf-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-3.  在“连接到服务器”中，至少提供服务器的名称和身份验证信息，以连接到 SQL Server 实例。
+<span data-ttu-id="90bcf-104">恢复监视和存档数据无需在失败后获取 Lync 服务器并运行。</span><span class="sxs-lookup"><span data-stu-id="90bcf-104">Restoring monitoring and archiving data is not required to get Lync Server up and running after a failure.</span></span> <span data-ttu-id="90bcf-105">但是, 如果监视和存档数据对你的组织至关重要, 你将希望在重新创建数据库后还原数据。</span><span class="sxs-lookup"><span data-stu-id="90bcf-105">However, if monitoring and archiving data is critical to your organization, you will want to restore the data after you re-create the databases.</span></span>
 
-4.  在“对象资源管理器”中，右键单击“数据库”，然后单击“还原数据库”。
+<span data-ttu-id="90bcf-106">以下过程介绍了如何使用 SQL Server Management Studio 还原存档或监视数据。</span><span class="sxs-lookup"><span data-stu-id="90bcf-106">The following procedure describes how to use SQL Server Management Studio to restore archiving or monitoring data.</span></span>
 
-5.  在“选择页”下，单击“常规”，然后在“目标数据库”中选择数据库名称，如下所示：
+<div>
+
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a><span data-ttu-id="90bcf-107">还原对备份文件中的数据进行监视或存档</span><span class="sxs-lookup"><span data-stu-id="90bcf-107">To restore monitoring or archiving data from a backup file</span></span>
+
+1.  <span data-ttu-id="90bcf-108">以本地计算机上管理员组的成员或具有同等用户权限的组的成员身份登录到要还原的服务器。</span><span class="sxs-lookup"><span data-stu-id="90bcf-108">Log on to the server that you are restoring as a member of the Administrators group on the local computer or a group with equivalent user rights.</span></span>
+
+2.  <span data-ttu-id="90bcf-109">打开 SQL Server Management Studio: 单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft sql Server 2012** " 或 " **microsoft sql server 2008 R2**", 然后单击 " **SQL server management Studio**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-109">Open SQL Server Management Studio: click **Start**, click **All Programs**, click **Microsoft SQL Server 2012** or **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.</span></span>
+
+3.  <span data-ttu-id="90bcf-110">在 "**连接到服务器**" 中, 通过至少提供服务器的名称和身份验证信息, 连接到 SQL Server 实例。</span><span class="sxs-lookup"><span data-stu-id="90bcf-110">In **Connect to Server**, connect to the SQL Server instance by providing at least the name of the server and the authentication information.</span></span>
+
+4.  <span data-ttu-id="90bcf-111">在**对象资源管理器**中, 右键单击 "**数据库**", 然后单击 "**还原数据库**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-111">In **Object Explorer**, right-click **Databases**, and then click **Restore Database**.</span></span>
+
+5.  <span data-ttu-id="90bcf-112">在 "**选择页面**" 下, 单击 "**常规**", 然后在 "**到数据库**" 中选择数据库名称, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="90bcf-112">Under **Select a page**, click **General**, and then in **To database** select the database name as follows:</span></span>
     
-      - 对于存档数据库，请选择“LcsLog”。
+      - <span data-ttu-id="90bcf-113">对于存档数据库, 请选择 " **LcsLog**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-113">For an Archiving database, select **LcsLog**.</span></span>
     
-      - 对于呼叫详细信息记录 (CDR) 数据库，请选择“LcsCDR”。
+      - <span data-ttu-id="90bcf-114">对于呼叫详细记录 (CDR) 数据库, 请选择 " **LcsCDR**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-114">For a call detail recording (CDR) database, select **LcsCDR**.</span></span>
     
-      - 对于用户体验质量 (QoE) 数据库，请选择“QoEMetrics”。
+      - <span data-ttu-id="90bcf-115">对于体验质量 (QoE) 数据库, 请选择 " **QoEMetrics**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-115">For a Quality of Experience (QoE) database, select **QoEMetrics**.</span></span>
 
-6.  单击“自设备”。
+6.  <span data-ttu-id="90bcf-116">单击 "**从设备**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-116">Click **From device**.</span></span>
 
-7.  在“选择用于还原的备份集”下，单击备份文件，然后单击“还原”。
+7.  <span data-ttu-id="90bcf-117">在 "**选择要还原的备份集**" 下, 单击备份文件, 然后单击 "**还原**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-117">Under **Select the backup sets to restore**, click the backup file, and then click **Restore**.</span></span>
 
-8.  在“选择页”下，单击“选项”，确认数据文件路径和日志路径位于正确的文件夹中，然后单击“确定”。
+8.  <span data-ttu-id="90bcf-118">在 "**选择页面**" 下, 单击 "**选项**", 验证数据文件路径和日志路径是否位于正确的文件夹中, 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="90bcf-118">Under **Select a page**, click **Options**, verify that the data file path and log path are in the correct folder, and then click **OK**.</span></span>
 
-## 确保访问控制列表 (ACL) 是正确的
+</div>
 
-1.  依次展开“数据库”、存档数据库或监控数据库、“安全”，然后展开“用户”。
+<div>
 
-2.  确认域组 RTCComponentUniversalServices 作为用户存在。
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a><span data-ttu-id="90bcf-119">确保访问控制列表 (Acl) 正确无误</span><span class="sxs-lookup"><span data-stu-id="90bcf-119">To make sure that access control lists (ACLs) are correct</span></span>
 
-3.  如果“用户”下不存在 RTCComponentUniversalServices，请执行以下操作：
+1.  <span data-ttu-id="90bcf-120">展开 "**数据库**", 展开 "存档" 或 "监视数据库", 展开 "**安全性**", 然后展开 "**用户**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-120">Expand **Databases**, expand the archiving or monitoring database, expand **Security**, and then expand **Users**.</span></span>
+
+2.  <span data-ttu-id="90bcf-121">验证域组 RTCComponentUniversalServices 是否作为用户存在。</span><span class="sxs-lookup"><span data-stu-id="90bcf-121">Verify that the domain group RTCComponentUniversalServices exists as a user.</span></span>
+
+3.  <span data-ttu-id="90bcf-122">如果 "**用户**" 下不存在 RTCComponentUniversalServices, 请执行下列操作:</span><span class="sxs-lookup"><span data-stu-id="90bcf-122">If RTCComponentUniversalServices does not exist under **Users**, do the following:</span></span>
     
-    1.  右键单击“用户”，然后单击“新建用户”。
+    1.  <span data-ttu-id="90bcf-123">右键单击 "**用户**", 然后单击 "**新建用户**"。</span><span class="sxs-lookup"><span data-stu-id="90bcf-123">Right-click **Users**, and then click **New User**.</span></span>
     
-    2.  在“登录名”中，键入缺少的组名 RTCComponentUniversalServices。
+    2.  <span data-ttu-id="90bcf-124">在 "**登录名**" 中, 键入缺少的组名 RTCComponentUniversalServices。</span><span class="sxs-lookup"><span data-stu-id="90bcf-124">In **Login name**, type the missing group name, RTCComponentUniversalServices.</span></span>
     
-    3.  在“数据库角色成员身份”中，选择“ServerRole”权限，然后单击“确定”。
+    3.  <span data-ttu-id="90bcf-125">在 "**数据库角色成员身份**" 下, 选择 " **ServerRole** " 权限, 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="90bcf-125">Under **Database role membership**, select the **ServerRole** permission, and then click **OK**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-	> 无需重新启动存档服务或监控服务。
+    > <span data-ttu-id="90bcf-126">不需要重新启动存档或监视服务。</span><span class="sxs-lookup"><span data-stu-id="90bcf-126">You do not need to restart the archiving or monitoring service.</span></span>
+
     
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,153 +1,57 @@
-﻿---
-title: Lync Server 2013：端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）
-TOCTitle: 端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）
-ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425891(v=OCS.15)
-ms:contentKeyID: 49312568
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
+ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)
+ms:contentKeyID: 48183877
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b7c908d52577375f9caaab974f059ffda17fb35
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824356"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="0145a-102">Lync Server 2013 中的端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）</span><span class="sxs-lookup"><span data-stu-id="0145a-102">Port summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>
 
-此方案体系结构中描述的 Lync Server 2013边缘服务器功能与 Lync Server 2010 中实现的功能非常类似。最引人注目的是为可扩展消息传递和状态协议 (XMPP) 新增了端口 **5269 over TCP** 条目。 Lync Server 2013 也可选择在 边缘服务器或 边缘池上部署 XMPP 代理以及 前端服务器或 前端池上部署 XMPP 网关服务器。
+</div>
 
-除了 IPv4 之外， 边缘服务器现在支持 IPv6。为了清楚起见，本方案中仅使用 IPv4。
+<div id="mainSection">
 
-**具有专用 IP 地址（使用 NAT）的单个合并边缘服务器的外围网络**
+<div id="mainBody">
 
-![单一合并边缘服务器](images/JJ204756.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "单一合并边缘服务器")
+<span> </span>
 
-## 端口和协议详细信息
+<span data-ttu-id="0145a-103">_**主题上次修改时间:** 2013-04-03_</span><span class="sxs-lookup"><span data-stu-id="0145a-103">_**Topic Last Modified:** 2013-04-03_</span></span>
 
-我们建议您仅打开支持为其提供外部访问权限的功能所需的端口。
+<span data-ttu-id="0145a-104">此方案体系结构中所述的 Lync Server 2013、Edge 服务器功能非常类似于 Lync Server 2010 中实现的功能。</span><span class="sxs-lookup"><span data-stu-id="0145a-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="0145a-105">最显著的相加是针对可扩展消息和状态协议 (XMPP) 的 TCP 条目的端口**5269** 。</span><span class="sxs-lookup"><span data-stu-id="0145a-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="0145a-106">Lync Server 2013 (可选) 在 Edge 服务器或边缘池以及前端服务器或前端池中的 XMPP 网关服务器上部署 XMPP 代理。</span><span class="sxs-lookup"><span data-stu-id="0145a-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span>
 
-要对任何边缘服务进行远程访问，必须允许 SIP 流量进行双向流动，如入站/出站边缘流量图中所示。换种方式说就是，即时消息 (IM)、状态、Web 会议、音频/视频 (A/V) 和联盟中涉及发往或来自访问边缘服务的 SIP 消息。
+<span data-ttu-id="0145a-107">除了 IPv4, Edge 服务器现在还支持 IPv6。</span><span class="sxs-lookup"><span data-stu-id="0145a-107">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="0145a-108">为了清楚起见, 方案中仅使用了 IPv4。</span><span class="sxs-lookup"><span data-stu-id="0145a-108">For clarity, only IPv4 is used in the scenarios.</span></span>
 
-### 具有专用 IP 地址的单个合并边缘的防火墙摘要：外部接口
+<span data-ttu-id="0145a-109">**使用 NAT 进行专用 IP 寻址的单个统一边缘服务器的网络外围**</span><span class="sxs-lookup"><span data-stu-id="0145a-109">**Network Perimeter for a Single Consolidated Edge Server with Private IP Addressing Using NAT**</span></span>
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>角色/协议/TCP 或 UDP/端口</th>
-<th>源 IP 地址</th>
-<th>目标 IP 地址</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>任意</p></td>
-<td><p>XMPP 代理服务（与访问边缘服务共享 IP 地址）</p></td>
-<td><p>XMPP 代理服务接受来自在 XMPP 联盟中定义的 XMPP 联系人的流量</p></td>
-</tr>
-<tr class="even">
-<td><p>访问/HTTP/TCP/80</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>任意</p></td>
-<td><p>证书吊销/CRL 检查和检索</p></td>
-</tr>
-<tr class="odd">
-<td><p>访问/DNS/TCP/53</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>任意</p></td>
-<td><p>通过 TCP 的 DNS 查询</p></td>
-</tr>
-<tr class="even">
-<td><p>访问/DNS/UDP/53</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>任意</p></td>
-<td><p>通过 UDP 的 DNS 查询</p></td>
-</tr>
-<tr class="odd">
-<td><p>访问/SIP(TLS)/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>外部用户访问的客户端到服务器的 SIP 通信</p></td>
-</tr>
-<tr class="even">
-<td><p>访问/SIP(MTLS)/TCP/5061</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>对于使用 SIP 的联盟和公共 IM 连接</p></td>
-</tr>
-<tr class="odd">
-<td><p>访问/SIP(MTLS)/TCP/5061</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>任意</p></td>
-<td><p>对于使用 SIP 的联盟和公共 IM 连接</p></td>
-</tr>
-<tr class="even">
-<td><p>Web 会议/PSOM(TLS)TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器Web 会议边缘服务 </p></td>
-<td><p>Web 会议媒体</p></td>
-</tr>
-<tr class="odd">
-<td><p>A/V/RTP/TCP/50,000-59,999</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>任意</p></td>
-<td><p>仅当与运行 Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010 和 Lync Server 2013 的合作伙伴进行联盟时必需。</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/RTP/UDP/50,000-59,999</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>任意</p></td>
-<td><p>仅当与运行 Office Communications Server 2007 的合作伙伴联盟时必需。</p></td>
-</tr>
-<tr class="odd">
-<td><p>A/V/RTP/TCP/50,000-59,999</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>仅当与运行 Office Communications Server 2007 的合作伙伴联盟时必需</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/RTP/UDP/50,000-59,999</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>仅当与运行 Office Communications Server 2007 的合作伙伴联盟时必需</p></td>
-</tr>
-<tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>任意</p></td>
-<td><p>3478 出站用于确定 Lync Server 与其通信的边缘服务器的版本，还用于确定从 边缘服务器到 边缘服务器的媒体通信。对与 Lync Server 2010、Windows Live Messenger 和 Office Communications Server 2007 R2 联盟是必需的，如果公司内部署了多个 边缘池，也是必需的。</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>通过 UDP/3478 进行的候选项 STUN/TURN 协商</p></td>
-</tr>
-<tr class="odd">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>通过 TCP/443 进行的候选项 STUN/TURN 协商</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>任意</p></td>
-<td><p>通过 TCP/443 进行的候选项 STUN/TURN 协商</p></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="0145a-110">![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")</span><span class="sxs-lookup"><span data-stu-id="0145a-110">![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")</span></span>
 
+<div>
 
-### 具有专用 IP 地址（使用 NAT）的单个合并边缘的防火墙摘要：内部接口
+## <a name="port-and-protocol-details"></a><span data-ttu-id="0145a-111">端口和协议详细信息</span><span class="sxs-lookup"><span data-stu-id="0145a-111">Port and Protocol Details</span></span>
+
+<span data-ttu-id="0145a-112">我们建议你仅打开支持你为其提供外部访问的功能所需的端口。</span><span class="sxs-lookup"><span data-stu-id="0145a-112">We recommend that you open only the ports required to support the functionality for which you are providing external access.</span></span>
+
+<span data-ttu-id="0145a-113">若要使远程访问适用于任何 edge 服务, 必须确保 SIP 流量可以双向排列, 如入站/出站边缘流量图中所示。</span><span class="sxs-lookup"><span data-stu-id="0145a-113">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bi-directionally as shown in the Inbound/Outbound edge traffic figure.</span></span> <span data-ttu-id="0145a-114">另一种方法是, 在即时消息 (IM)、状态、web 会议、音频/视频 (A/V) 和联合身份验证中涉及到和发送来自访问边缘服务的 SIP 消息。</span><span class="sxs-lookup"><span data-stu-id="0145a-114">Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V), and federation.</span></span>
+
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-external-interface"></a><span data-ttu-id="0145a-115">使用 NAT 的具有专用 IP 地址的单个统一边缘的防火墙摘要: 外部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-115">Firewall Summary for Single Consolidated Edge with Private IP Addresses using NAT: External Interface</span></span>
 
 <table>
 <colgroup>
@@ -158,86 +62,114 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>协议/TCP 或 UDP/端口</th>
-<th>源 IP 地址</th>
-<th>目标 IP 地址</th>
-<th>备注</th>
+<th><span data-ttu-id="0145a-116">角色/协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="0145a-116">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0145a-117">源 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-117">Source IP address</span></span></th>
+<th><span data-ttu-id="0145a-118">目标 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-118">Destination IP address</span></span></th>
+<th><span data-ttu-id="0145a-119">备注</span><span class="sxs-lookup"><span data-stu-id="0145a-119">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>任意（可定义为运行 XMPP 网关服务的 Standard Edition Server IP、 Standard Edition Server IP 地址或池 IP 地址）</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>来自 前端服务器或 前端池上运行的 XMPP 网关服务的出站 XMPP 流量</p></td>
+<td><p><span data-ttu-id="0145a-120">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="0145a-120">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="0145a-121">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-121">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-122">XMPP 代理服务 (使用 Access Edge 服务共享 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-122">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-123">XMPP 代理服务接受来自定义的 XMPP 联合的 XMPP 联系人的流量</span><span class="sxs-lookup"><span data-stu-id="0145a-123">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>任意（可以定义为 控制器、 控制器池 IP 地址、 前端服务器或 前端池 IP 地址）</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>流向 边缘服务器内部接口的出站 SIP 流量（来自 控制器、 控制器池 IP 地址、 前端服务器或 前端池 IP 地址）</p></td>
+<td><p><span data-ttu-id="0145a-124">Access/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="0145a-124">Access/HTTP/TCP/80</span></span></p></td>
+<td><p><span data-ttu-id="0145a-125">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-125">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-126">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-126">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-127">证书吊销/CRL 检查和检索</span><span class="sxs-lookup"><span data-stu-id="0145a-127">Certificate revocation/CRL check and retrieval</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>任意（可以定义为 控制器、 控制器池 IP 地址、 前端服务器或 前端池 IP 地址）</p></td>
-<td><p>来自 边缘服务器内部接口的入站 SIP 流量（流向 控制器、 控制器池 IP 地址、 前端服务器或 前端池 IP 地址）</p></td>
+<td><p><span data-ttu-id="0145a-128">Access/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="0145a-128">Access/DNS/TCP/53</span></span></p></td>
+<td><p><span data-ttu-id="0145a-129">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-129">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-130">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-130">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-131">通过 TCP 进行 DNS 查询</span><span class="sxs-lookup"><span data-stu-id="0145a-131">DNS query over TCP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>任意（可以定义为 前端服务器 IP 地址，或 前端池中的每个 前端服务器 IP 地址）</p>
-<p></p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>从 前端服务器或每个 前端服务器（如果位于池内）到 边缘服务器内部接口的 Web 会议流量</p></td>
+<td><p><span data-ttu-id="0145a-132">Access/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="0145a-132">Access/DNS/UDP/53</span></span></p></td>
+<td><p><span data-ttu-id="0145a-133">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-133">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-134">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-134">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-135">通过 UDP 进行 DNS 查询</span><span class="sxs-lookup"><span data-stu-id="0145a-135">DNS query over UDP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>任意（可定义为前端服务器 IP 地址或前端池 IP 地址，或任何使用此边缘服务器的 Survivable Branch Appliance 或 Survivable Branch Server）</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>来自前端服务器或前端池 IP 地址或任何使用此边缘服务器的 Survivable Branch Appliance 或 Survivable Branch Server 的 A/V 用户的身份验证（A/V 身份验证服务）</p></td>
+<td><p><span data-ttu-id="0145a-136">Access/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-136">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-137">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-137">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-138">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-138">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-139">用于外部用户访问的客户端到服务器 SIP 流量</span><span class="sxs-lookup"><span data-stu-id="0145a-139">Client-to-server SIP traffic for external user access</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>用于内外部用户、Survivable Branch Appliance 或 Survivable Branch Server 间的 A/V 媒体传输的首选路径</p></td>
+<td><p><span data-ttu-id="0145a-140">Access/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-140">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-141">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-141">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-142">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-142">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-143">对于使用 SIP 的联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="0145a-143">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>用于内外部用户、Survivable Branch Appliance 或 Survivable Branch Server 间的 A/V 媒体传输的回退路径，如果无法建立 UDP 通信，则将 TCP 用于文件传输和桌面共享</p></td>
+<td><p><span data-ttu-id="0145a-144">Access/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-144">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-145">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-145">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-146">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-146">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-147">对于使用 SIP 的联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="0145a-147">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP/4443</p></td>
-<td><p>任意（可定义为 前端服务器 IP 地址，或承载 中央管理存储的池）</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>将 中央管理存储中的更改复制到 边缘服务器</p></td>
+<td><p><span data-ttu-id="0145a-148">Web 会议/PSOM (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-148">Web Conferencing/PSOM(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-149">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-149">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-150">Edge 服务器 Web 会议边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-150">Edge Server Web Conferencing Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-151">网络会议媒体</span><span class="sxs-lookup"><span data-stu-id="0145a-151">Web Conferencing media</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50001</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>集中日志记录服务控制器，使用 Lync Server 命令行管理程序和集中日志记录服务 cmdlet、ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="0145a-152">A/V/RTP/TCP/50000-59999</span><span class="sxs-lookup"><span data-stu-id="0145a-152">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="0145a-153">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-153">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-154">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-154">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-155">与运行 Office 通信服务器2007、Office 通信服务器 2007 R2、Lync Server 2010 和 Lync Server 2013 的合作伙伴进行联盟所必需。</span><span class="sxs-lookup"><span data-stu-id="0145a-155">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MTLS/TCP/50002</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>集中日志记录服务控制器，使用 Lync Server 命令行管理程序和集中日志记录服务 cmdlet、ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="0145a-156">A/V/RTP/UDP/50000-59999</span><span class="sxs-lookup"><span data-stu-id="0145a-156">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="0145a-157">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-157">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-158">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-158">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-159">仅适用于运行 Office 通信服务器2007的合作伙伴的联盟所必需。</span><span class="sxs-lookup"><span data-stu-id="0145a-159">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50003</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器内部接口</p></td>
-<td><p>集中日志记录服务控制器，使用 Lync Server 命令行管理程序和集中日志记录服务 cmdlet、ClsController 命令行 (ClsController.exe) 或代理 (ClsAgent.exe) 命令和日志集合</p></td>
+<td><p><span data-ttu-id="0145a-160">A/V/RTP/TCP/50000-59999</span><span class="sxs-lookup"><span data-stu-id="0145a-160">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="0145a-161">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-161">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-162">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-162">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-163">仅适用于运行 Office 通信服务器2007的合作伙伴的联盟所需</span><span class="sxs-lookup"><span data-stu-id="0145a-163">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-164">A/V/RTP/UDP/50000-59999</span><span class="sxs-lookup"><span data-stu-id="0145a-164">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="0145a-165">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-165">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-166">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-166">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-167">仅适用于运行 Office 通信服务器2007的合作伙伴的联盟所需</span><span class="sxs-lookup"><span data-stu-id="0145a-167">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-168">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="0145a-168">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="0145a-169">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-169">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-170">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-170">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-171">3478出站用于确定 Lync Server 与之通信的边缘服务器的版本以及边缘服务器到边缘服务器上的媒体流量。</span><span class="sxs-lookup"><span data-stu-id="0145a-171">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="0145a-172">对于具有 Lync Server 2010、Windows Live Messenger 和 Office 通信服务器 2007 R2 的联盟, 以及在公司内部部署了多个边缘池的情况下, 也是必需的。</span><span class="sxs-lookup"><span data-stu-id="0145a-172">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-173">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="0145a-173">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="0145a-174">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-174">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-175">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-175">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-176">通过 UDP/3478 对候选人的 STUN 进行协商/启用</span><span class="sxs-lookup"><span data-stu-id="0145a-176">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-177">A/V/STUN、MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-177">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-178">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-178">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-179">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-179">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-180">在 TCP/443 上 STUN/打开候选人的协商</span><span class="sxs-lookup"><span data-stu-id="0145a-180">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-181">A/V/STUN、MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-181">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-182">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-182">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-183">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-183">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-184">在 TCP/443 上 STUN/打开候选人的协商</span><span class="sxs-lookup"><span data-stu-id="0145a-184">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 联盟的防火墙摘要
-
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-internal-interface"></a><span data-ttu-id="0145a-185">使用 NAT 的具有专用 IP 地址的单个统一边缘的防火墙摘要: 内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-185">Firewall Summary for Single Consolidated Edge with Private IP Addresses Using NAT: Internal Interface</span></span>
 
 <table>
 <colgroup>
@@ -248,83 +180,88 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/协议/TCP 或 UDP/端口</th>
-<th>源 IP 地址</th>
-<th>目标 IP 地址</th>
-<th>说明</th>
+<th><span data-ttu-id="0145a-186">协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="0145a-186">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0145a-187">源 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-187">Source IP address</span></span></th>
+<th><span data-ttu-id="0145a-188">目标 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-188">Destination IP address</span></span></th>
+<th><span data-ttu-id="0145a-189">备注</span><span class="sxs-lookup"><span data-stu-id="0145a-189">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>访问/SIP(MTLS)/TCP/5061</p></td>
-<td><p>访问边缘服务公用 IP 地址</p></td>
-<td><p>任意</p></td>
-<td><p>对于使用 SIP 的联盟和公共 IM 连接</p></td>
+<td><p><span data-ttu-id="0145a-190">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="0145a-190">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="0145a-191">任何 (可以定义为运行 XMPP 网关服务的标准版服务器 IP、标准版服务器 IP 地址或池 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-191">Any (can be defined as Standard Edition server IP, Standard Edition server IP address, or pool IP address running the XMPP Gateway service)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-192">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-192">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-193">来自前端服务器或前端池运行的 XMPP 网关服务的出站 XMPP 流量</span><span class="sxs-lookup"><span data-stu-id="0145a-193">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-194">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-194">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-195">任何 (可以定义为 Director、Director pool IP 地址、前端服务器或前端池 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-195">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-196">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-196">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-197">出站 SIP 流量 (从控制器、控制器池 IP 地址、前端服务器或前端池 IP 地址) 到边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-197">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-198">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-198">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-199">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-199">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-200">任何 (可以定义为 Director、Director pool IP 地址、前端服务器或前端池 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-200">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-201">来自边缘服务器内部接口的入站 SIP 流量 (到控制器、控制器池 IP 地址、前端服务器或前端池 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-201">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-202">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="0145a-202">PSOM/MTLS/TCP/8057</span></span></p></td>
+<td><p><span data-ttu-id="0145a-203">任何 (可以定义为前端服务器 IP 地址, 或前端池中的每个前端服务器 IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-203">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-204">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-204">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-205">从前端服务器或每台前端服务器 (如果在池中) 到边缘服务器内部接口的 Web 会议流量</span><span class="sxs-lookup"><span data-stu-id="0145a-205">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-206">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="0145a-206">SIP/MTLS/TCP/5062</span></span></p></td>
+<td><p><span data-ttu-id="0145a-207">任何 (可以定义为前端服务器 IP 地址或前端池 IP 地址, 或使用此 Edge 服务器的任何 Survivable 分支装置或 Survivable 分支服务器)</span><span class="sxs-lookup"><span data-stu-id="0145a-207">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-208">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-208">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-209">使用此 Edge 服务器从前端服务器或前端池 IP 地址或任何 Survivable 分支装置或 Survivable 分支服务器身份验证 A/V 用户 (A/V 身份验证服务) 的身份验证</span><span class="sxs-lookup"><span data-stu-id="0145a-209">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-210">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="0145a-210">STUN/MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="0145a-211">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-211">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-212">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-212">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-213">内部和外部用户之间的/V 媒体传输的首选路径, Survivable 分支装置或 Survivable 分支服务器</span><span class="sxs-lookup"><span data-stu-id="0145a-213">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-214">STUN/MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-214">STUN/MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-215">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-215">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-216">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-216">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-217">内部和外部用户、Survivable 分支装置或 Survivable 分支服务器之间的 A/V 媒体传输的回退路径如果无法建立 UDP 通信, 则使用 TCP 进行文件传输和桌面共享</span><span class="sxs-lookup"><span data-stu-id="0145a-217">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-218">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="0145a-218">HTTPS/TCP/4443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-219">任何 (可以定义为前端服务器 IP 地址或拥有中央管理存储的池)</span><span class="sxs-lookup"><span data-stu-id="0145a-219">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
+<td><p><span data-ttu-id="0145a-220">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-220">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-221">将中央管理存储中的更改复制到边缘服务器</span><span class="sxs-lookup"><span data-stu-id="0145a-221">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-222">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="0145a-222">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="0145a-223">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-223">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-224">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-224">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-225">使用 Lync Server Management Shell 和集中式日志记录服务 cmdlet、ClsController 命令行 (ClsController) 或代理 (ClsAgent) 命令和日志收集的集中式日志服务控制器</span><span class="sxs-lookup"><span data-stu-id="0145a-225">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-226">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="0145a-226">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="0145a-227">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-227">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-228">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-228">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-229">使用 Lync Server Management Shell 和集中式日志记录服务 cmdlet、ClsController 命令行 (ClsController) 或代理 (ClsAgent) 命令和日志收集的集中式日志服务控制器</span><span class="sxs-lookup"><span data-stu-id="0145a-229">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-230">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="0145a-230">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="0145a-231">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-231">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-232">边缘服务器内部接口</span><span class="sxs-lookup"><span data-stu-id="0145a-232">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0145a-233">使用 Lync Server Management Shell 和集中式日志记录服务 cmdlet、ClsController 命令行 (ClsController) 或代理 (ClsAgent) 命令和日志收集的集中式日志服务控制器</span><span class="sxs-lookup"><span data-stu-id="0145a-233">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 防火墙摘要 – 公共即时消息连接
+</div>
 
+<div>
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>角色/协议/TCP 或 UDP/端口</th>
-<th>源 IP 地址</th>
-<th>目标 IP 地址</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>访问/SIP(MTLS)/TCP/5061</p></td>
-<td><p>公共 IM 连接合作伙伴</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>对于使用 SIP 的联盟和公共 IM 连接</p></td>
-</tr>
-<tr class="even">
-<td><p>访问/SIP(MTLS)/TCP/5061</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>公共 IM 连接合作伙伴</p></td>
-<td><p>对于使用 SIP 的联盟和公共 IM 连接</p></td>
-</tr>
-<tr class="odd">
-<td><p>访问/SIP(TLS)/TCP/443</p></td>
-<td><p>客户端</p></td>
-<td><p>边缘服务器访问边缘服务 </p></td>
-<td><p>外部用户访问的客户端到服务器的 SIP 通信</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/RTP/TCP/50,000-59,999</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>Live Messenger 客户端</p></td>
-<td><p>用于与 Windows Live Messenger 的 A/V 会话，前提是配置了公共 IM 连接。</p></td>
-</tr>
-<tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>Live Messenger 客户端</p></td>
-<td><p>需要与 Windows Live Messenger 的公共 IM 连接</p></td>
-</tr>
-<tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Live Messenger 客户端</p></td>
-<td><p>边缘服务器 A/V 边缘服务</p></td>
-<td><p>需要与 Windows Live Messenger 的公共 IM 连接</p></td>
-</tr>
-</tbody>
-</table>
-
-
-## 可扩展消息传递和状态协议的防火墙摘要
+## <a name="firewall-summary-for-federation"></a><span data-ttu-id="0145a-234">联盟的防火墙摘要</span><span class="sxs-lookup"><span data-stu-id="0145a-234">Firewall Summary for Federation</span></span>
 
 
 <table>
@@ -336,31 +273,140 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>协议/TCP 或 UDP/端口</th>
-<th>源（IP 地址）</th>
-<th>目标（IP 地址）</th>
-<th>备注</th>
+<th><span data-ttu-id="0145a-235">角色/协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="0145a-235">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0145a-236">源 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-236">Source IP address</span></span></th>
+<th><span data-ttu-id="0145a-237">目标 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-237">Destination IP address</span></span></th>
+<th><span data-ttu-id="0145a-238">备注</span><span class="sxs-lookup"><span data-stu-id="0145a-238">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>任意</p></td>
-<td><p>边缘服务器 访问边缘服务 接口 IP 地址</p></td>
-<td><p>用于 XMPP 的标准服务器到服务器通信端口。允许联盟 XMPP 伙伴至边缘服务器 XMPP 代理的通信</p></td>
-</tr>
-<tr class="even">
-<td><p>XMPP/TCP/5269</p></td>
-<td><p>边缘服务器 访问边缘服务 接口 IP 地址</p></td>
-<td><p>任意</p></td>
-<td><p>用于 XMPP 的标准服务器到服务器通信端口。允许联盟 XMPP 伙伴至边缘服务器 XMPP 代理的通信</p></td>
-</tr>
-<tr class="odd">
-<td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>任意</p></td>
-<td><p>每个内部 边缘服务器接口 IP</p></td>
-<td><p>从 前端服务器或 前端池上的 XMPP 网关至 边缘服务器内部 IP 地址或每个 边缘池成员的内部 IP 地址的内部 XMPP 流量</p></td>
+<td><p><span data-ttu-id="0145a-239">Access/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-239">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-240">Access Edge 服务公共 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-240">Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="0145a-241">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-241">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-242">对于使用 SIP 的联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="0145a-242">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="0145a-243">防火墙摘要-公共即时消息连接</span><span class="sxs-lookup"><span data-stu-id="0145a-243">Firewall Summary – Public Instant Messaging Connectivity</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="0145a-244">角色/协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="0145a-244">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0145a-245">源 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-245">Source IP address</span></span></th>
+<th><span data-ttu-id="0145a-246">目标 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-246">Destination IP address</span></span></th>
+<th><span data-ttu-id="0145a-247">备注</span><span class="sxs-lookup"><span data-stu-id="0145a-247">Notes</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-248">Access/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-248">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-249">公共 IM 连接合作伙伴</span><span class="sxs-lookup"><span data-stu-id="0145a-249">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="0145a-250">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-250">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-251">对于使用 SIP 的联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="0145a-251">For federated and public IM connectivity using SIP</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-252">Access/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="0145a-252">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="0145a-253">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-253">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-254">公共 IM 连接合作伙伴</span><span class="sxs-lookup"><span data-stu-id="0145a-254">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="0145a-255">对于使用 SIP 的联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="0145a-255">For federated and public IM connectivity using SIP</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-256">Access/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="0145a-256">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="0145a-257">客户端</span><span class="sxs-lookup"><span data-stu-id="0145a-257">Clients</span></span></p></td>
+<td><p><span data-ttu-id="0145a-258">Edge 服务器访问边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-258">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-259">用于外部用户访问的客户端到服务器 SIP 流量</span><span class="sxs-lookup"><span data-stu-id="0145a-259">Client-to-server SIP traffic for external user access</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-260">A/V/RTP/TCP/50000-59999</span><span class="sxs-lookup"><span data-stu-id="0145a-260">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="0145a-261">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-261">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-262">实时 Messenger 客户端</span><span class="sxs-lookup"><span data-stu-id="0145a-262">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="0145a-263">如果配置了公用 IM 连接, 则用于带有 Windows Live Messenger 的 A/V 会话。</span><span class="sxs-lookup"><span data-stu-id="0145a-263">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-264">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="0145a-264">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="0145a-265">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-265">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-266">实时 Messenger 客户端</span><span class="sxs-lookup"><span data-stu-id="0145a-266">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="0145a-267">与 Windows Live Messenger 的公共即时消息连接所必需</span><span class="sxs-lookup"><span data-stu-id="0145a-267">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-268">A/V/STUN、MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="0145a-268">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="0145a-269">实时 Messenger 客户端</span><span class="sxs-lookup"><span data-stu-id="0145a-269">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="0145a-270">Edge 服务器 A/V 边缘服务</span><span class="sxs-lookup"><span data-stu-id="0145a-270">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="0145a-271">与 Windows Live Messenger 的公共即时消息连接所必需</span><span class="sxs-lookup"><span data-stu-id="0145a-271">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="0145a-272">可扩展消息和状态协议的防火墙摘要</span><span class="sxs-lookup"><span data-stu-id="0145a-272">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="0145a-273">协议/TCP 或 UDP/端口</span><span class="sxs-lookup"><span data-stu-id="0145a-273">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0145a-274">源 (IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-274">Source (IP address)</span></span></th>
+<th><span data-ttu-id="0145a-275">目标 (IP 地址)</span><span class="sxs-lookup"><span data-stu-id="0145a-275">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="0145a-276">备注</span><span class="sxs-lookup"><span data-stu-id="0145a-276">Comments</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-277">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="0145a-277">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="0145a-278">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-278">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-279">Edge 服务器访问边缘服务接口 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-279">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="0145a-280">适用于 XMPP 的标准服务器到服务器通信端口。</span><span class="sxs-lookup"><span data-stu-id="0145a-280">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="0145a-281">允许与联盟 XMPP 合作伙伴的 Edge 服务器 XMPP 代理通信</span><span class="sxs-lookup"><span data-stu-id="0145a-281">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="0145a-282">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="0145a-282">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="0145a-283">Edge 服务器访问边缘服务接口 IP 地址</span><span class="sxs-lookup"><span data-stu-id="0145a-283">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="0145a-284">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-284">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-285">适用于 XMPP 的标准服务器到服务器通信端口。</span><span class="sxs-lookup"><span data-stu-id="0145a-285">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="0145a-286">允许从 Edge 服务器 XMPP 代理到联合 XMPP 合作伙伴的通信</span><span class="sxs-lookup"><span data-stu-id="0145a-286">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="0145a-287">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="0145a-287">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="0145a-288">任意</span><span class="sxs-lookup"><span data-stu-id="0145a-288">Any</span></span></p></td>
+<td><p><span data-ttu-id="0145a-289">每个内部边缘服务器接口 IP</span><span class="sxs-lookup"><span data-stu-id="0145a-289">Each internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="0145a-290">从前端服务器或前端池中的 XMPP 网关到边缘服务器内部 IP 地址或每个边缘池成员的内部 IP 地址的内部 XMPP 流量</span><span class="sxs-lookup"><span data-stu-id="0145a-290">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

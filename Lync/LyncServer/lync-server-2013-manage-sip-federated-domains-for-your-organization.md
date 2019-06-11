@@ -1,41 +1,79 @@
-﻿---
-title: Lync Server 2013：管理组织的 SIP 联盟域
-TOCTitle: 管理组织的 SIP 联盟域
-ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ552454(v=OCS.15)
-ms:contentKeyID: 49313924
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：管理组织的 SIP 联盟域
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage SIP federated domains for your organization
+ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
+ms:contentKeyID: 48679565
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4022edf2509d0fe75ec8cc91b8f1e3a519f1f21c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828248"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中管理组织的 SIP 联盟域
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-19_
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="7868f-102">在 Lync Server 2013 中管理组织的 SIP 联盟域</span><span class="sxs-lookup"><span data-stu-id="7868f-102">Manage SIP federated domains for your organization in Lync Server 2013</span></span>
 
-本文档是预备文档，可能随时更改。空白主题均以占位符的形式包含在内。
+</div>
 
-要管理和配置可与其进行联盟的 SIP 域，您可以执行以下操作：
+<div id="mainSection">
 
-  - 创建或编辑 SIP 联盟伙伴域的允许域列表。
+<div id="mainBody">
 
-  - 创建或编辑 SIP 联盟域的阻止域列表。
+<span> </span>
 
-要执行这些任务，请使用本节中的步骤。
+<span data-ttu-id="7868f-103">_**主题上次修改时间:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7868f-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-## 本部分内容
+<span data-ttu-id="7868f-104">本文档是预备文档，可能随时更改。</span><span class="sxs-lookup"><span data-stu-id="7868f-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="7868f-105">空白主题均以占位符的形式包含在内。</span><span class="sxs-lookup"><span data-stu-id="7868f-105">Blank topics are included as placeholders.</span></span>
 
-  - [在 Lync Server 2013 中配置对允许的外部域的支持](lync-server-2013-configure-support-for-allowed-external-domains.md)
+<span data-ttu-id="7868f-106">若要管理和配置可以与联盟的 SIP 域, 可以执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="7868f-106">To manage and configure SIP domains that you can federate with, you can do the following:</span></span>
 
-  - [在 Lync Server 2013 中配置对阻止的外部域的支持](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - <span data-ttu-id="7868f-107">创建或编辑 SIP 联盟伙伴域的允许域列表。</span><span class="sxs-lookup"><span data-stu-id="7868f-107">Create or edit an allowed domain list of SIP federated partner domains.</span></span>
 
-## 另请参阅
+  - <span data-ttu-id="7868f-108">创建或编辑 SIP 联盟域的阻止域列表。</span><span class="sxs-lookup"><span data-stu-id="7868f-108">Create or edit a blocked domain list of SIP federated domains.</span></span>
 
-#### 任务
+<span data-ttu-id="7868f-109">若要执行这些任务, 请使用本节中的过程。</span><span class="sxs-lookup"><span data-stu-id="7868f-109">To perform these tasks, use the procedures in this section.</span></span>
 
-[在 Lync Server 2013 中配置策略以控制联盟用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[在 Lync Server 2013 中启用或禁用联盟伙伴发现](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="7868f-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="7868f-110">In This Section</span></span>
+
+  - [<span data-ttu-id="7868f-111">在 Lync Server 2013 中配置对允许的外部域的支持</span><span class="sxs-lookup"><span data-stu-id="7868f-111">Configure support for allowed external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-allowed-external-domains.md)
+
+  - [<span data-ttu-id="7868f-112">在 Lync Server 2013 中配置对阻止的外部域的支持</span><span class="sxs-lookup"><span data-stu-id="7868f-112">Configure support for blocked external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-blocked-external-domains.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="7868f-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7868f-113">See Also</span></span>
+
+
+[<span data-ttu-id="7868f-114">在 Lync Server 2013 中配置策略以控制联盟用户访问</span><span class="sxs-lookup"><span data-stu-id="7868f-114">Configure policies to control federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[<span data-ttu-id="7868f-115">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="7868f-115">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[<span data-ttu-id="7868f-116">在 Lync Server 2013 中启用或禁用联盟伙伴发现</span><span class="sxs-lookup"><span data-stu-id="7868f-116">Enable or disable discovery of federation partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
