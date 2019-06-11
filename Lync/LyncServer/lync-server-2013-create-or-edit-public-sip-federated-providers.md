@@ -1,58 +1,96 @@
-﻿---
-title: Lync Server 2013：创建或编辑公共 SIP 联盟提供程序
-TOCTitle: 创建或编辑公共 SIP 联盟提供程序
-ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398349(v=OCS.15)
-ms:contentKeyID: 49312855
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：创建或编辑公共 SIP 联盟提供程序
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or edit public SIP federated providers
+ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398349(v=OCS.15)
+ms:contentKeyID: 48184167
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 876a79e840990afb0c9cf0bae4fc819ec10db5d8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830823"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建或编辑公共 SIP 联盟提供程序
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-19_
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a><span data-ttu-id="6f45a-102">在 Lync Server 2013 中创建或编辑公共 SIP 联盟提供程序</span><span class="sxs-lookup"><span data-stu-id="6f45a-102">Create or edit public SIP federated providers in Lync Server 2013</span></span>
 
-通过公共即时消息 (IM) 连接，组织中的用户可以使用 IM 与公共 IM 服务提供程序（包括 Windows Live Messenger、Yahoo\! 和 AOL）提供的 IM 服务的用户进行通信。
+</div>
 
-Lync Server 2013 包含针对 America Online、Windows Live 和 Yahoo\! 即时消息的公共提供程序配置。每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
+<div id="mainSection">
 
-作为默认设置，将不启用任何公共提供程序。您应先完成许可协议和设置工作，然后再启用公共提供程序。您可以先启用提供程序，然后再完成许可和设置工作。在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。有关公共提供程序的许可和设置的详细信息，请参阅 [在 Lync Server 2013 中配置策略以控制公共用户访问](lync-server-2013-configure-policies-to-control-public-user-access.md)。
+<div id="mainBody">
 
-使用以下过程可创建或编辑公共提供程序：
+<span> </span>
 
-## 创建或编辑公共提供程序
+<span data-ttu-id="6f45a-103">_**主题上次修改时间:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="6f45a-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+<span data-ttu-id="6f45a-104">公共即时消息 (IM) 连接使组织中的用户能够使用 IM 与由公共 IM 服务提供商 (包括 Windows Live Messenger、Yahoo\!和 AOL) 提供的 im 服务的用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="6f45a-104">Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public IM service providers, including the Windows Live Messenger, Yahoo\!, and AOL.</span></span>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<span data-ttu-id="6f45a-105">Lync Server 2013 具有适用于北美网络、Windows Live 和 Yahoo 的公共提供商配置\!</span><span class="sxs-lookup"><span data-stu-id="6f45a-105">Lync Server 2013 has public provider configurations for America Online, Windows Live and Yahoo\!</span></span> <span data-ttu-id="6f45a-106">即时消息。</span><span class="sxs-lookup"><span data-stu-id="6f45a-106">instant messaging.</span></span> <span data-ttu-id="6f45a-107">每个公共提供程序均使用提供程序的边缘服务器完全限定的域名进行配置, 默认验证级别**允许用户仅与其 "联系人" 列表中使用此提供商的人员进行通信**。</span><span class="sxs-lookup"><span data-stu-id="6f45a-107">Each public provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.</span></span>
 
-3.  在左侧导航栏中，单击“联盟和外部访问”，然后单击“SIP 联盟提供程序”。
+<span data-ttu-id="6f45a-108">默认设置是未启用任何公共提供程序。</span><span class="sxs-lookup"><span data-stu-id="6f45a-108">As a default setting, none of the public providers are enabled.</span></span> <span data-ttu-id="6f45a-109">在启用公共提供程序之前, 应完成许可证协议和预配工作。</span><span class="sxs-lookup"><span data-stu-id="6f45a-109">You should complete license agreement and provisioning work before enabling the public providers.</span></span> <span data-ttu-id="6f45a-110">你可以先启用提供程序, 然后再完成授权和预配工作。</span><span class="sxs-lookup"><span data-stu-id="6f45a-110">You can enable the provider before completing the licensing and provisioning work.</span></span> <span data-ttu-id="6f45a-111">在完成先决条件工作之前, 用户将无法与这些提供商上的联系人进行通信。</span><span class="sxs-lookup"><span data-stu-id="6f45a-111">Users will not be able to communicate with contacts on those providers until the pre-requisite work is completed.</span></span> <span data-ttu-id="6f45a-112">有关授权和设置公共提供商的详细信息, 请参阅[在 Lync Server 2013 中配置控制公共用户访问的策略](lync-server-2013-configure-policies-to-control-public-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="6f45a-112">For details on licensing and provisioning of public providers, see [Configure policies to control public user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md).</span></span>
 
-4.  如果您需要创建新的公共提供程序，请单击“新建”，然后单击“公共提供程序”。
+<span data-ttu-id="6f45a-113">使用以下过程创建或编辑公共提供程序:</span><span class="sxs-lookup"><span data-stu-id="6f45a-113">Use the following procedure to create or edit Public providers:</span></span>
 
-5.  如果您需要编辑公共提供程序列表中的条目，请选择一个公共提供程序，单击“编辑”，然后单击“显示详细信息”。
+<div>
 
-6.  在“编辑 SIP 联盟提供程序”页上，可以键入或编辑以下设置：
+## <a name="to-create-or-edit-public-providers"></a><span data-ttu-id="6f45a-114">创建或编辑公共提供程序</span><span class="sxs-lookup"><span data-stu-id="6f45a-114">To create or edit public providers</span></span>
+
+1.  <span data-ttu-id="6f45a-115">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="6f45a-115">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="6f45a-116">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="6f45a-116">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6f45a-117">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="6f45a-117">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="6f45a-118">在左侧导航栏中, 单击 "**联盟和外部访问**", 然后单击 " **SIP 联合提供商**"。</span><span class="sxs-lookup"><span data-stu-id="6f45a-118">In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.</span></span>
+
+4.  <span data-ttu-id="6f45a-119">如果需要创建新的公共提供商, 请单击 "**新建**", 然后单击 "**公共提供商**"。</span><span class="sxs-lookup"><span data-stu-id="6f45a-119">If you need to create a new Public provider, click **New** and then click **Public provider**.</span></span>
+
+5.  <span data-ttu-id="6f45a-120">如果需要从公共提供商列表中编辑条目, 请选择公共提供商, 单击 "**编辑**", 然后单击 "**显示详细信息**"。</span><span class="sxs-lookup"><span data-stu-id="6f45a-120">If you need to edit an entry from the list of Public providers, select a public provider, click **Edit**, then click **Show details**.</span></span>
+
+6.  <span data-ttu-id="6f45a-121">在 "**编辑 SIP 联合提供商**" 页面上, 您可以键入或编辑以下设置:</span><span class="sxs-lookup"><span data-stu-id="6f45a-121">On the **Edit SIP Federated Provider** page, you can type or edit the following settings:</span></span>
     
-      - **允许与此提供程序进行通信**    选择此设置可为此提供程序的用户启用 IM。
+      - <span data-ttu-id="6f45a-122">**启用与此提供商**   的通信选择此设置将启用与此提供商的用户的即时消息。</span><span class="sxs-lookup"><span data-stu-id="6f45a-122">**Enable communications with this provider**   Selecting this setting enables IM with this provider’s users.</span></span>
     
-      - **提供程序名称**    必需属性，键入此提供程序的名称，因为 SIP 联盟提供程序的列表中将反映此名称。
+      - <span data-ttu-id="6f45a-123">**提供程序名称:**   "必需" 属性键入提供程序的名称, 因为它将反映在 SIP 联合提供程序的列表中。</span><span class="sxs-lookup"><span data-stu-id="6f45a-123">**Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.</span></span>
     
-      - **访问边缘服务 (FQDN)**    必需属性，键入您正在配置的提供程序的访问边缘服务的完全限定域名。此信息作为默认项提供，并且只应在公共提供程序更改其访问边缘服务的 FQDN 时被更改。
+      - <span data-ttu-id="6f45a-124">**Access edge 服务 (FQDN):**   一个必需的属性, 键入要配置的提供程序的访问边缘服务的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="6f45a-124">**Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the provider that you are configuring.</span></span> <span data-ttu-id="6f45a-125">此信息以默认项的形式提供, 仅当公共提供程序对公共提供程序的访问边缘服务的 FQDN 进行更改时, 才应更改此信息。</span><span class="sxs-lookup"><span data-stu-id="6f45a-125">This information is provided as a default item, and should only be changed if the public provider makes a change to the FQDN of the Access Edge service at the public provider.</span></span>
     
-      - **默认验证级别**    默认设置“允许用户与其联系人列表中使用此提供程序的人员进行通信”将只允许与您接受的且位于您的联系人列表中的联系人进行通信。
+      - <span data-ttu-id="6f45a-126">**默认验证级别:**   默认设置,**允许用户与使用此提供商的联系人列表中的人员进行通信**, 将对您已接受的联系人和您的联系人列表中的联系人进行通信。</span><span class="sxs-lookup"><span data-stu-id="6f45a-126">**Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.</span></span>
         
-        选择“允许用户与使用此提供程序的每个人通信”将去除您必须接收和接受联系人邀请的限制。此设置不会对可从公共提供程序网络与您联系的人员进行限制。
+        <span data-ttu-id="6f45a-127">选择 "**允许用户通过此提供商与所有人通信**", 将删除您必须收到并接受的联系人邀请的限制。</span><span class="sxs-lookup"><span data-stu-id="6f45a-127">Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite.</span></span> <span data-ttu-id="6f45a-128">此设置不会限制可以通过公共提供商的网络与您联系的人员。</span><span class="sxs-lookup"><span data-stu-id="6f45a-128">This setting does not limit who can contact you from the public provider’s network.</span></span>
 
-7.  配置完这些设置后，请单击“提交”以进行保存，或单击“取消”以放弃更改。
+7.  <span data-ttu-id="6f45a-129">配置设置完成后, 单击 "**提交**" 以保存, 或单击 "**取消**" 放弃更改。</span><span class="sxs-lookup"><span data-stu-id="6f45a-129">When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.</span></span>
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[在 Lync Server 2013 中配置策略以控制公共用户访问](lync-server-2013-configure-policies-to-control-public-user-access.md)  
-[在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
+## <a name="see-also"></a><span data-ttu-id="6f45a-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6f45a-130">See Also</span></span>
+
+
+[<span data-ttu-id="6f45a-131">在 Lync Server 2013 中配置策略以控制公共用户访问</span><span class="sxs-lookup"><span data-stu-id="6f45a-131">Configure policies to control public user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-public-user-access.md)  
+[<span data-ttu-id="6f45a-132">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="6f45a-132">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

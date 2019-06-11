@@ -1,39 +1,61 @@
-﻿---
-title: Lync Server 2013：自定义 XSLT 定义文件
-TOCTitle: 自定义 XSLT 定义文件
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49888679
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：自定义 XSLT 定义文件
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中自定义 XSLT 定义文件
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="ed34a-102">在 Lync Server 2013 中自定义 XSLT 定义文件</span><span class="sxs-lookup"><span data-stu-id="ed34a-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
 
-合规性服务记录并存档与每个 Lync Server 2013持久聊天服务器对话相关的数据，包括当参与者进行以下操作时：
+</div>
 
-  - 加入 持久聊天聊天室
+<div id="mainSection">
 
-  - 离开聊天室
+<div id="mainBody">
 
-  - 发布消息
+<span> </span>
 
-  - 查看聊天历史记录
+<span data-ttu-id="ed34a-103">_**主题上次修改时间:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="ed34a-103">_**Topic Last Modified:** 2014-09-11_</span></span>
 
-  - 上载文件
+<span data-ttu-id="ed34a-104">合规性服务记录和存档与每个 Lync Server 2013 和持久聊天服务器对话相关的数据, 包括参与者:</span><span class="sxs-lookup"><span data-stu-id="ed34a-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
 
-  - 下载文件
+  - <span data-ttu-id="ed34a-105">加入持久聊天室</span><span class="sxs-lookup"><span data-stu-id="ed34a-105">Joins a Persistent Chat room</span></span>
 
-数据以 XML 格式（可通过 XSLT 定义文件将其转换为最适合组织的格式）传送。本主题介绍合规性服务创建的 XML 文件。它还提供 XSLT 定义和输出文件的示例。
+  - <span data-ttu-id="ed34a-106">离开聊天室</span><span class="sxs-lookup"><span data-stu-id="ed34a-106">Leaves a chat room</span></span>
 
-## 输出格式
+  - <span data-ttu-id="ed34a-107">发布消息</span><span class="sxs-lookup"><span data-stu-id="ed34a-107">Posts a message</span></span>
 
-合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示。
+  - <span data-ttu-id="ed34a-108">查看聊天历史记录</span><span class="sxs-lookup"><span data-stu-id="ed34a-108">Views chat history</span></span>
+
+  - <span data-ttu-id="ed34a-109">上载文件</span><span class="sxs-lookup"><span data-stu-id="ed34a-109">Uploads a file</span></span>
+
+  - <span data-ttu-id="ed34a-110">下载文件</span><span class="sxs-lookup"><span data-stu-id="ed34a-110">Downloads a file</span></span>
+
+<span data-ttu-id="ed34a-111">数据以 XML 形式传递, 您可以使用 XSLT 定义文件, 将其转换为最适合您的组织的格式。</span><span class="sxs-lookup"><span data-stu-id="ed34a-111">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file.</span></span> <span data-ttu-id="ed34a-112">本主题介绍合规性服务创建的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="ed34a-112">This topic describes the XML file that the Compliance service creates.</span></span> <span data-ttu-id="ed34a-113">它还提供 XSLT 定义和输出文件的示例。</span><span class="sxs-lookup"><span data-stu-id="ed34a-113">It also provides samples of XSLT definition and output files.</span></span>
+
+<div>
+
+## <a name="output-format"></a><span data-ttu-id="ed34a-114">输出格式</span><span class="sxs-lookup"><span data-stu-id="ed34a-114">Output Format</span></span>
+
+<span data-ttu-id="ed34a-115">合规性服务输出按对话 (对话元素) 分类, 然后按消息 (Messages 元素) 分类, 如以下代码示例中所示。</span><span class="sxs-lookup"><span data-stu-id="ed34a-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,23 +70,23 @@ _**上一次修改主题：** 2015-03-09_
       </Conversation>
     </Conversations>
 
-一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示。
+<span data-ttu-id="ed34a-116">一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。</span><span class="sxs-lookup"><span data-stu-id="ed34a-116">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC).</span></span> <span data-ttu-id="ed34a-117">Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。</span><span class="sxs-lookup"><span data-stu-id="ed34a-117">The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element.</span></span> <span data-ttu-id="ed34a-118">StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间, 如以下代码示例中所示。</span><span class="sxs-lookup"><span data-stu-id="ed34a-118">The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示。
+<span data-ttu-id="ed34a-119">一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。</span><span class="sxs-lookup"><span data-stu-id="ed34a-119">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID).</span></span> <span data-ttu-id="ed34a-120">Sender 元素表示发送消息的用户, 而 DateTimeUTC 元素表示事件发生的时间, 如以下代码示例中所示。</span><span class="sxs-lookup"><span data-stu-id="ed34a-120">The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-下表描述了消息属性类型、内容和 ID。
+<span data-ttu-id="ed34a-121">下表描述了消息属性类型、内容和 ID。</span><span class="sxs-lookup"><span data-stu-id="ed34a-121">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-### Messages 元素属性
+### <a name="messages-element-attributes"></a><span data-ttu-id="ed34a-122">Messages 元素属性</span><span class="sxs-lookup"><span data-stu-id="ed34a-122">Messages Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -74,34 +96,34 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>属性</th>
-<th>说明</th>
-<th>可选/必需</th>
+<th><span data-ttu-id="ed34a-123">属性</span><span class="sxs-lookup"><span data-stu-id="ed34a-123">Attribute</span></span></th>
+<th><span data-ttu-id="ed34a-124">说明</span><span class="sxs-lookup"><span data-stu-id="ed34a-124">Description</span></span></th>
+<th><span data-ttu-id="ed34a-125">可选/必需</span><span class="sxs-lookup"><span data-stu-id="ed34a-125">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>类型</p></td>
-<td><p>指定消息类型。消息类型将在&quot; Message 元素消息类型&quot;表中进行介绍。</p></td>
-<td><p>必需</p></td>
+<td><p><span data-ttu-id="ed34a-126">类型</span><span class="sxs-lookup"><span data-stu-id="ed34a-126">Type</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-p104">指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-129">是否必需</span><span class="sxs-lookup"><span data-stu-id="ed34a-129">Required</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>内容</p></td>
-<td><p>包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。</p></td>
-<td><p>可选</p></td>
+<td><p><span data-ttu-id="ed34a-130">内容</span><span class="sxs-lookup"><span data-stu-id="ed34a-130">Content</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-p105">包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-133">可选</span><span class="sxs-lookup"><span data-stu-id="ed34a-133">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ID</p></td>
-<td><p>指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。</p></td>
-<td><p>可选</p></td>
+<td><p><span data-ttu-id="ed34a-134">ID</span><span class="sxs-lookup"><span data-stu-id="ed34a-134">ID</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-p106">指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-137">可选</span><span class="sxs-lookup"><span data-stu-id="ed34a-137">Optional</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。
+<span data-ttu-id="ed34a-p107">每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-### Sender 元素属性
+### <a name="sender-element-attributes"></a><span data-ttu-id="ed34a-140">Sender 元素属性</span><span class="sxs-lookup"><span data-stu-id="ed34a-140">Sender Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -111,44 +133,44 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>属性</th>
-<th>说明</th>
-<th>可选/必需</th>
+<th><span data-ttu-id="ed34a-141">属性</span><span class="sxs-lookup"><span data-stu-id="ed34a-141">Attribute</span></span></th>
+<th><span data-ttu-id="ed34a-142">说明</span><span class="sxs-lookup"><span data-stu-id="ed34a-142">Description</span></span></th>
+<th><span data-ttu-id="ed34a-143">可选/必需</span><span class="sxs-lookup"><span data-stu-id="ed34a-143">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Username</p></td>
-<td><p>发送者的名称。</p></td>
-<td><p>可选</p></td>
+<td><p><span data-ttu-id="ed34a-144">Username</span><span class="sxs-lookup"><span data-stu-id="ed34a-144">Username</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-145">发送者的名称。</span><span class="sxs-lookup"><span data-stu-id="ed34a-145">The name of the sender.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-146">可选</span><span class="sxs-lookup"><span data-stu-id="ed34a-146">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ID</p></td>
-<td><p>发送者的唯一 ID。</p></td>
-<td><p>必需</p></td>
+<td><p><span data-ttu-id="ed34a-147">ID</span><span class="sxs-lookup"><span data-stu-id="ed34a-147">ID</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-148">发送者的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="ed34a-148">The sender’s unique ID.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-149">必需</span><span class="sxs-lookup"><span data-stu-id="ed34a-149">Required</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>电子邮件</p></td>
-<td><p>发件人的电子邮件地址。</p></td>
-<td><p>可选</p></td>
+<td><p><span data-ttu-id="ed34a-150">电子邮件</span><span class="sxs-lookup"><span data-stu-id="ed34a-150">Email</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-151">发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="ed34a-151">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-152">可选</span><span class="sxs-lookup"><span data-stu-id="ed34a-152">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>内部</p></td>
-<td><p>确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。</p></td>
-<td><p>可选</p></td>
+<td><p><span data-ttu-id="ed34a-153">内部</span><span class="sxs-lookup"><span data-stu-id="ed34a-153">Internal</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-p108">确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-156">可选</span><span class="sxs-lookup"><span data-stu-id="ed34a-156">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Uri</p></td>
-<td><p>用户的 SIP URI。</p></td>
-<td><p>必需</p></td>
+<td><p><span data-ttu-id="ed34a-157">Uri</span><span class="sxs-lookup"><span data-stu-id="ed34a-157">Uri</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-158">用户的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="ed34a-158">The user’s SIP URI.</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-159">是否必需</span><span class="sxs-lookup"><span data-stu-id="ed34a-159">Required</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表介绍了 Messages 元素可包含的消息类型。它还提供了如何使用每个元素的示例。
+<span data-ttu-id="ed34a-p109">下表介绍了 Messages 元素可包含的消息类型。它还提供了如何使用每个元素的示例。</span><span class="sxs-lookup"><span data-stu-id="ed34a-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
 
-### Message 元素消息类型
+### <a name="message-element-message-types"></a><span data-ttu-id="ed34a-162">Message 元素消息类型</span><span class="sxs-lookup"><span data-stu-id="ed34a-162">Message Element Message Types</span></span>
 
 <table>
 <colgroup>
@@ -158,55 +180,55 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>消息类型</th>
-<th>说明</th>
-<th>代码示例</th>
+<th><span data-ttu-id="ed34a-163">消息类型</span><span class="sxs-lookup"><span data-stu-id="ed34a-163">Message Type</span></span></th>
+<th><span data-ttu-id="ed34a-164">描述</span><span class="sxs-lookup"><span data-stu-id="ed34a-164">Description</span></span></th>
+<th><span data-ttu-id="ed34a-165">代码示例</span><span class="sxs-lookup"><span data-stu-id="ed34a-165">Code example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Join</p></td>
-<td><p>用户加入聊天室。</p></td>
+<td><p><span data-ttu-id="ed34a-166">Join</span><span class="sxs-lookup"><span data-stu-id="ed34a-166">Join</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-167">用户加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="ed34a-167">A user joins a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206211842612&quot; string=&quot;2008-03-22T18:50:42.6127374Z&quot; long=&quot;633418086426127374&quot; /&gt; 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Part</p></td>
-<td><p>用户离开聊天室。</p></td>
+<td><p><span data-ttu-id="ed34a-168">Part</span><span class="sxs-lookup"><span data-stu-id="ed34a-168">Part</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-169">用户离开聊天室。</span><span class="sxs-lookup"><span data-stu-id="ed34a-169">A user leaves a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212610602532&quot; string=&quot;2008-06-04T20:16:42.5324614Z&quot; long=&quot;633482074025324614&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p>Chat</p></td>
-<td><p>发件人的电子邮件地址。</p></td>
+<td><p><span data-ttu-id="ed34a-170">Chat</span><span class="sxs-lookup"><span data-stu-id="ed34a-170">Chat</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-171">发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="ed34a-171">The sender’s email address.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Backchat</p></td>
-<td><p>用户请求聊天历史记录中的内容。</p></td>
+<td><p><span data-ttu-id="ed34a-172">Backchat</span><span class="sxs-lookup"><span data-stu-id="ed34a-172">Backchat</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-173">用户请求聊天历史记录中的内容。</span><span class="sxs-lookup"><span data-stu-id="ed34a-173">A user requests content from chat history.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p>File upload</p></td>
-<td><p>用户上载文件。</p></td>
+<td><p><span data-ttu-id="ed34a-174">File upload</span><span class="sxs-lookup"><span data-stu-id="ed34a-174">File upload</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-175">用户上载文件。</span><span class="sxs-lookup"><span data-stu-id="ed34a-175">A user uploads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351828975&quot; string=&quot;2008-03-12T19:57:08.9755711Z&quot; long=&quot;633409486289755711&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>File download</p></td>
-<td><p>用户下载文件。</p></td>
+<td><p><span data-ttu-id="ed34a-176">File download</span><span class="sxs-lookup"><span data-stu-id="ed34a-176">File download</span></span></p></td>
+<td><p><span data-ttu-id="ed34a-177">用户下载文件。</span><span class="sxs-lookup"><span data-stu-id="ed34a-177">A user downloads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212611141851&quot; string=&quot;2008-06-04T20:25:41.8518646Z&quot; long=&quot;633482079418518646&quot; /&gt; 
@@ -216,9 +238,11 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 默认 持久聊天 Output XSD 和示例 XSL 转换
+<div>
 
-以下代码示例包含合规性服务器中的默认输出。
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="ed34a-178">默认持久聊天输出 XSD 和示例 XSL 转换</span><span class="sxs-lookup"><span data-stu-id="ed34a-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+
+<span data-ttu-id="ed34a-179">以下代码示例包含合规性服务器中的默认输出。</span><span class="sxs-lookup"><span data-stu-id="ed34a-179">The following code sample contains the default output from the Compliance Server.</span></span>
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -315,7 +339,7 @@ _**上一次修改主题：** 2015-03-09_
       </xs:element>
     </xs:schema>
 
-以下代码示例包含一个示例 XSL 转换。
+<span data-ttu-id="ed34a-180">以下代码示例包含一个示例 XSL 转换。</span><span class="sxs-lookup"><span data-stu-id="ed34a-180">The following code sample contains a sample XSL transform.</span></span>
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -384,4 +408,18 @@ _**上一次修改主题：** 2015-03-09_
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

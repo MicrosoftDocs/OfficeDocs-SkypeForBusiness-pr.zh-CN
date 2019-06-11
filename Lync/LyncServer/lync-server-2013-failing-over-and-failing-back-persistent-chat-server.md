@@ -1,25 +1,59 @@
-﻿---
-title: Lync Server 2013：对持久聊天服务器进行故障转移和故障回复
-TOCTitle: 对持久聊天服务器进行故障转移和故障回复
-ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205214(v=OCS.15)
-ms:contentKeyID: 49314073
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：对持久聊天服务器进行故障转移和故障回复
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failing over and failing back Persistent Chat Server
+ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205214(v=OCS.15)
+ms:contentKeyID: 48185259
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e9871c5cfe4d92bacadd6ec8c2c92dea0d3b25a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中对持久聊天服务器进行故障转移和故障回复
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-08-03_
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="4af54-102">在 Lync Server 2013 中对持久聊天服务器进行故障转移和故障回复</span><span class="sxs-lookup"><span data-stu-id="4af54-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
 
-为了对 Lync Server 2013持久聊天服务器进行故障转移和故障回复，您应熟悉 Microsoft SQL Server 2008 R2 及更高版本的复制和故障转移过程。您还应熟悉 持久聊天服务器服务。
+</div>
 
-## 本节内容
+<div id="mainSection">
 
-  - [在 Lync Server 2013 中对持久聊天服务器进行故障转移](lync-server-2013-failing-over-persistent-chat-server.md)
+<div id="mainBody">
 
-  - [在 Lync Server 2013 中对持久聊天服务器进行故障回复](lync-server-2013-failing-back-persistent-chat-server.md)
+<span> </span>
+
+<span data-ttu-id="4af54-103">_**主题上次修改时间:** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="4af54-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+
+<span data-ttu-id="4af54-104">若要故障切换和故障恢复 Lync Server 2013、持久聊天服务器, 你应该熟悉 Microsoft SQL Server 2008 R2 和更高版本的复制和故障转移过程。</span><span class="sxs-lookup"><span data-stu-id="4af54-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="4af54-105">您还应该熟悉持久聊天服务器服务。</span><span class="sxs-lookup"><span data-stu-id="4af54-105">You should also be familiar with the Persistent Chat Server services.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="4af54-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="4af54-106">In This Section</span></span>
+
+  - [<span data-ttu-id="4af54-107">在 Lync Server 2013 中对持久聊天服务器进行故障转移</span><span class="sxs-lookup"><span data-stu-id="4af54-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
+
+  - [<span data-ttu-id="4af54-108">在 Lync Server 2013 中对持久聊天服务器进行故障回复</span><span class="sxs-lookup"><span data-stu-id="4af54-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

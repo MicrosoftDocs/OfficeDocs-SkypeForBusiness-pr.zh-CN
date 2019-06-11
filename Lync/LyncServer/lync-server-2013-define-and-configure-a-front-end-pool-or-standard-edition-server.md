@@ -1,23 +1,44 @@
-﻿---
-title: Lync Server 2013：定义和配置前端池或 Standard Edition 服务器
-TOCTitle: 定义和配置前端池或 Standard Edition 服务器
-ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398538(v=OCS.15)
-ms:contentKeyID: 49313212
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 定义和配置前端池或 Standard Edition 服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define and configure a Front End pool or Standard Edition server
+ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
+ms:contentKeyID: 48184457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830738"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中定义和配置前端池或 Standard Edition 服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="e1ddb-102">在 Lync Server 2013 中定义和配置前端池或 Standard Edition 服务器</span><span class="sxs-lookup"><span data-stu-id="e1ddb-102">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</span></span>
 
-此过程不需要本地管理员或特许域组中的成员身份。您应该以标准用户身份登录到计算机。
+</div>
 
-如果部署企业服务器，则池中必须有最少数量的 前端服务器一直运行。下表总结了这些要求。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e1ddb-103">_**主题上次修改时间:** 2013-03-08_</span><span class="sxs-lookup"><span data-stu-id="e1ddb-103">_**Topic Last Modified:** 2013-03-08_</span></span>
+
+<span data-ttu-id="e1ddb-104">此过程不需要本地管理员或特权域组的成员身份。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-104">This procedure does not require membership in a local administrator or privileged domain group.</span></span> <span data-ttu-id="e1ddb-105">您应以标准用户身份登录到计算机。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-105">You should log on to a computer as a standard user.</span></span>
+
+<span data-ttu-id="e1ddb-106">如果要部署企业服务器, 池中的最少前端服务器数必须始终运行。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-106">If you are deploying an Enterprise server, a minimum number of Front End Servers in a pool must be running at all times.</span></span> <span data-ttu-id="e1ddb-107">下表总结了这些要求。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-107">The following table summarizes these requirements.</span></span>
+
 
 <table>
 <colgroup>
@@ -26,87 +47,104 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>池中前端服务器的总数</th>
-<th>使池发挥作用所必须运行的服务器的数量</th>
+<th><span data-ttu-id="e1ddb-108">池中的前端服务器总数</span><span class="sxs-lookup"><span data-stu-id="e1ddb-108">Total number of Front End Servers in the pool</span></span></th>
+<th><span data-ttu-id="e1ddb-109">使池发挥作用所必须运行的服务器的数量</span><span class="sxs-lookup"><span data-stu-id="e1ddb-109">Number of servers that must be running for pool to be functional</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 -2</p></td>
-<td><p>1</p></td>
+<td><p><span data-ttu-id="e1ddb-110">1-2</span><span class="sxs-lookup"><span data-stu-id="e1ddb-110">1-2</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-111">1</span><span class="sxs-lookup"><span data-stu-id="e1ddb-111">1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>3 -4</p></td>
-<td><p>2</p></td>
+<td><p><span data-ttu-id="e1ddb-112">3-4</span><span class="sxs-lookup"><span data-stu-id="e1ddb-112">3-4</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-113">2</span><span class="sxs-lookup"><span data-stu-id="e1ddb-113">2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>5 -6</p></td>
-<td><p>3</p></td>
+<td><p><span data-ttu-id="e1ddb-114">5-6</span><span class="sxs-lookup"><span data-stu-id="e1ddb-114">5-6</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-115">3</span><span class="sxs-lookup"><span data-stu-id="e1ddb-115">3</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>7 -8</p></td>
-<td><p>4</p></td>
+<td><p><span data-ttu-id="e1ddb-116">7-8</span><span class="sxs-lookup"><span data-stu-id="e1ddb-116">7-8</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-117">4</span><span class="sxs-lookup"><span data-stu-id="e1ddb-117">4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>9 -10</p></td>
-<td><p>5</p></td>
+<td><p><span data-ttu-id="e1ddb-118">9-10</span><span class="sxs-lookup"><span data-stu-id="e1ddb-118">9-10</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-119">5</span><span class="sxs-lookup"><span data-stu-id="e1ddb-119">5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>11 -12</p></td>
-<td><p>6</p></td>
+<td><p><span data-ttu-id="e1ddb-120">11-12</span><span class="sxs-lookup"><span data-stu-id="e1ddb-120">11-12</span></span></p></td>
+<td><p><span data-ttu-id="e1ddb-121">6</span><span class="sxs-lookup"><span data-stu-id="e1ddb-121">6</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> 对于 Lync Server 2013，无论何时在池中添加或删除前端服务器，均必须重新启动服务。删除和添加服务器应作为独立操作来完成。例如，如果要添加两台前端服务器，并删除两台前端服务器，请使用以下过程：
-<ol>
-<li><p>删除两台前端服务器。</p></li>
-<li><p>发布并重新激活拓扑。</p></li>
-<li><p>重新启动服务</p></li>
-<li><p>添加两台前端服务器。</p></li>
-<li><p>发布并重新激活拓扑。</p></li>
-<li><p>重新启动服务。</p></li>
-</ol>
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="e1ddb-122">对于 Lync Server 2013, 无论何时在池中添加或删除前端服务器, 都必须重新启动服务。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-122">For Lync Server 2013, any time you add or remove a Front End Server from the pool, you must restart services.</span></span> <span data-ttu-id="e1ddb-123">删除和添加服务器应作为单独的操作完成。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-123">Removing and adding servers should be done as separate operations.</span></span> <span data-ttu-id="e1ddb-124">例如, 如果你打算添加两台前端服务器并删除两台前端服务器, 请使用以下过程:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-124">For example, if you are going to add two Front End Servers and remove two Front End Servers, use the following process:</span></span> 
+> <OL>
+> <LI>
+> <P><span data-ttu-id="e1ddb-125">删除这两个前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-125">Remove the two Front End Servers.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e1ddb-126">发布并重新激活拓扑。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-126">Publish and re-activate the topology.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e1ddb-127">重新启动服务</span><span class="sxs-lookup"><span data-stu-id="e1ddb-127">Restart the services</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e1ddb-128">添加两个前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-128">Add the two Front End Servers.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e1ddb-129">发布并重新激活拓扑。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-129">Publish and re-activate the topology.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e1ddb-130">重新启动服务。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-130">Restart the services.</span></span></P></LI></OL>
 
 
 
-定义拓扑之后，请使用以下过程为站点定义 前端池。有关定义拓扑的详细信息，请参阅 [在 Lync Server 2013 拓扑生成器中定义和配置拓扑](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)。
+</div>
 
-## 定义 前端池
+<span data-ttu-id="e1ddb-131">定义拓扑后, 请使用以下过程定义网站的前端池。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-131">After you have defined your topology, use the following procedure to define a Front End pool for your site.</span></span> <span data-ttu-id="e1ddb-132">有关定义拓扑的详细信息, 请参阅[在 Lync Server 2013 的拓扑生成器中定义和配置拓扑](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-132">For details about defining the topology, see [Define and configure a topology in Topology Builder for Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md).</span></span>
 
-1.  在“定义新的前端池”向导的“定义新的 前端池”页上，单击“下一步”。
+<div>
 
-2.  在“定义 前端池 FQDN”页上，输入要创建的池的完全限定域名 (FQDN)，单击“Enterprise Edition 前端池”，然后单击“下一步”。
+## <a name="to-define-a-front-end-pool"></a><span data-ttu-id="e1ddb-133">定义前端池</span><span class="sxs-lookup"><span data-stu-id="e1ddb-133">To define a Front End pool</span></span>
 
-3.  在“定义此池中的计算机”页上，输入此池中第一台前端服务器的计算机 FQDN，然后单击“添加”。对要添加到此池中的任何其他计算机（最多 8 台）重复此步骤，然后单击“下一步”。
+1.  <span data-ttu-id="e1ddb-134">在 "定义新的前端池" 向导的 "**定义新的前端池**" 页面上, 单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-134">In the Define New Front End Pool Wizard, on the **Define the New Front End pool** page, click **Next**.</span></span>
 
-4.  在“选择功能”页上，选中希望此前端池具有的功能的复选框。例如，如果您仅部署即时消息 (IM) 和状态功能，可以选中“会议”复选框以允许多方 IM，但不能选中“电话拨入式 (PSTN) 会议”、“企业语音”或“呼叫允许控制”复选框，因为它们代表语音、视频和协作会议功能。
+2.  <span data-ttu-id="e1ddb-135">在 "**定义前端池 FQDN** " 页面上, 输入要创建的池的完全限定的域名 (FQDN), 单击 "**企业版前端池**", 然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-135">On the **Define the Front End pool FQDN** page, enter a fully qualified domain name (FQDN) for the pool you are creating, click **Enterprise Edition Front End pool**, and then click **Next**.</span></span>
+
+3.  <span data-ttu-id="e1ddb-136">在 "**在此池中定义计算机**" 页面上, 输入池中第一个前端服务器的计算机 FQDN, 然后单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-136">On the **Define the computers in this pool** page, enter a computer FQDN for the first Front End Server in the pool, and then click **Add**.</span></span> <span data-ttu-id="e1ddb-137">对要添加到池中的任何其他计算机 (最多12个) 重复此步骤, 然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-137">Repeat this step for any additional computers (up to twelve) that you want to add to the pool, and then click **Next**.</span></span>
+
+4.  <span data-ttu-id="e1ddb-138">在 "**选择功能**" 页面上, 选中您希望在此前端池上的功能所对应的复选框。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-138">On the **Select features** page, select the check boxes for the features that you want on this Front End pool.</span></span> <span data-ttu-id="e1ddb-139">例如, 如果您仅部署即时消息 (IM) 和状态功能, 则可以选择 "**会议**" 复选框以允许多方 IM, 但不会选择**拨入 (PSTN) 会议**、**企业语音**或**呼叫许可控制**复选框, 因为它们表示语音、视频和协作式会议功能。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-139">For example, if you are deploying only instant messaging (IM) and presence features, you would select the **Conferencing** check box to allow multiparty IM but would not select the **Dial-in (PSTN) conferencing**, **Enterprise Voice**, or **Call Admission Control** check boxes, because they represent voice, video, and collaborative conferencing features.</span></span>
     
-      - **会议**   此选项启用一组丰富的功能，包括：
+      - <span data-ttu-id="e1ddb-140">**会议**   此选择支持一组丰富的功能, 包括:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-140">**Conferencing**   This selection enables a rich set of features including:</span></span>
         
-          - IM 会话中多于两方的即时消息。
+          - <span data-ttu-id="e1ddb-141">Im 会话中有两个以上双方的 IM。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-141">IM with more than two parties in an IM session.</span></span>
         
-          - 包括文档协作、应用程序共享和桌面共享的会议。
+          - <span data-ttu-id="e1ddb-142">会议, 包括文档协作、应用程序共享和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-142">Conferencing, which includes document collaboration, application sharing, and desktop sharing.</span></span>
         
-          - A/V 会议，无需外部服务（如 Live Meeting 服务或第三方音频桥）即可使用户进行实时音频/视频 (A/V) 会议。
+          - <span data-ttu-id="e1ddb-143">A/V 会议, 使用户可以在不需要外部服务 (如 Live Meeting 服务或第三方音频桥) 的情况下进行实时音频/视频 (A/V) 会议。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-143">A/V conferencing, which enables users to have real-time audio/video (A/V) conferences without the need for external services such as the Live Meeting service or a third-party audio bridge.</span></span>
     
-      - **电话拨入式 (PSTN) 会议**   使用户能够通过使用公用电话交换网 (PSTN) 电话来加入 Lync Server 2013 会议的音频部分，而无需音频会议提供商。
+      - <span data-ttu-id="e1ddb-144">**拨入 (PSTN) 会议**   允许用户通过使用公共交换电话网络 (PSTN) 电话 (无需音频会议提供商) 加入 Lync Server 2013 会议的音频部分。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-144">**Dial-in (PSTN) conferencing**   Allows users to join the audio portion of a Lync Server 2013 conference by using a public switched telephone network (PSTN) phone without requiring an audio conferencing provider.</span></span>
     
-      - **企业语音**   企业语音是 Lync Server 2013 中的 IP 语音 (VoIP) 解决方案，允许用户发起和接收电话呼叫。如果打算使用 Lync Server 2013 执行语音呼叫、语音邮件以及使用硬件设备或软件客户端的其他功能，则可以部署此功能。
+      - <span data-ttu-id="e1ddb-145">**企业语音**   企业语音是 Lync Server 2013 中的 "通过 IP 进行语音通话" (VoIP) 解决方案, 允许用户拨打和接听电话。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-145">**Enterprise Voice**   Enterprise Voice is the Voice over IP (VoIP) solution in Lync Server 2013 that allows users to make and receive phone calls.</span></span> <span data-ttu-id="e1ddb-146">如果您计划将 Lync Server 2013 用于语音呼叫、语音邮件和其他使用硬件设备或软件客户端的功能, 则可以部署此功能。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-146">You would deploy this feature if you plan to use Lync Server 2013 for voice calls, voice mail, and other functions that use a hardware device or a software client.</span></span>
     
-      - **呼叫允许控制 (CAC)**   CAC 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。如果仅部署 IM 和状态，则无需 CAC，因为这两个功能都不使用 CAC。
+      - <span data-ttu-id="e1ddb-147">**呼叫许可控制 (CAC)**   CAC 根据可用的网络带宽确定是否允许建立实时通信会话 (如语音或视频通话)。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-147">**Call admission control (CAC)**   CAC determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span> <span data-ttu-id="e1ddb-148">如果你仅部署了 IM 和状态, 则不需要 CAC, 因为这两个功能都不会使用 CAC。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-148">If you have deployed only IM and presence, CAC is not needed because neither of these two features uses CAC.</span></span>
     
-      - **存档**   存档可让您存档通过 Lync Server 2013 发送的 IM 内容、会议内容或同时存档两者。
+      - <span data-ttu-id="e1ddb-149">**存档**   存档提供了一种通过 Lync Server 2013 存档 IM 内容、会议 (会议) 内容或这两者的方式。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-149">**Archiving**   Archiving provides a way for you to archive IM content, conferencing (meeting) content, or both that is sent through Lync Server 2013.</span></span>
     
-      - **监控**   通过监控服务器可以收集描述网络和终结点上的媒体质量的数值数据、与 VoIP 呼叫、IM 消息、A/V 对话、会议、应用程序共享和文件传输有关的用法信息，以及失败呼叫的呼叫错误和故障排除信息。
+      - <span data-ttu-id="e1ddb-150">**通过监视**   监视服务器, 你可以收集用于描述你的网络和终结点上的媒体质量的数字数据、与 VoIP 呼叫、即时消息、A/V 对话、会议、应用程序共享和文件相关的使用信息传输和呼叫错误以及失败呼叫的故障排除信息。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-150">**Monitoring**   Monitoring Server enables you to collect numerical data that describes the media quality on your network and endpoints, usage information related to VoIP calls, IM messages, A/V conversations, meetings, application sharing, and file transfers, and call error and troubleshooting information for failed calls.</span></span>
     
-    > [!NOTE]  
-    > 如果要在部署中启用 CAC，则需要在每个中央站点的一个池中启用 CAC。如果要部署语音功能或 A/V 会议，建议使用 CAC。
+    <div>
     
+
+    > [!NOTE]
+    > <span data-ttu-id="e1ddb-151">如果你想要在部署中启用 CAC, 则需要在每个中心站点的恰好一个池中启用 CAC。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-151">If you would like to enable CAC in your deployment, it is required that you enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="e1ddb-152">如果你要部署语音功能或 A/V 会议, 则建议使用 CAC。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-152">CAC is recommended if you are deploying voice features or A/V conferencing.</span></span>
+
     
-    下表显示了可用功能（顶部）和为用户提供的功能（左侧）。表中的选择是为组织启用这些功能所需选择的内容。
+    </div>
+    
+    <span data-ttu-id="e1ddb-153">下表显示了可用功能 (top) 和向用户提供的函数 (左图)。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-153">The following table shows the available features (top) and the functions offered to users (left).</span></span> <span data-ttu-id="e1ddb-154">表格中的选择是为您的组织启用这些功能应选择的内容。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-154">The selections in the table are what you should select to enable those features for your organization.</span></span>
     
     
     <table>
@@ -120,136 +158,183 @@ _**上一次修改主题：** 2015-03-09_
     <thead>
     <tr class="header">
     <th></th>
-    <th>会议</th>
-    <th>电话拨入式会议</th>
-    <th>企业语音</th>
-    <th>呼叫允许控制</th>
+    <th><span data-ttu-id="e1ddb-155">网络会议</span><span class="sxs-lookup"><span data-stu-id="e1ddb-155">Conferencing</span></span></th>
+    <th><span data-ttu-id="e1ddb-156">电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="e1ddb-156">Dial-In Conferencing</span></span></th>
+    <th><span data-ttu-id="e1ddb-157">企业语音</span><span class="sxs-lookup"><span data-stu-id="e1ddb-157">Enterprise Voice</span></span></th>
+    <th><span data-ttu-id="e1ddb-158">呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="e1ddb-158">Call Admission Control</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>即时消息和状态</p></td>
-    <td><p>X</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
-    <td><p></p></td>
+    <td><p><span data-ttu-id="e1ddb-159">即时消息和状态</span><span class="sxs-lookup"><span data-stu-id="e1ddb-159">Instant messaging and presence</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-160">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-160">X</span></span></p></td>
+    <td></td>
+    <td></td>
+    <td></td>
     </tr>
     <tr class="even">
-    <td><p>会议</p></td>
-    <td><p>X</p></td>
-    <td><p>X</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
+    <td><p><span data-ttu-id="e1ddb-161">网络会议</span><span class="sxs-lookup"><span data-stu-id="e1ddb-161">Conferencing</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-162">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-162">X</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-163">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-163">X</span></span></p></td>
+    <td></td>
+    <td></td>
     </tr>
     <tr class="odd">
-    <td><p>A/V 会议</p></td>
-    <td><p>X</p></td>
-    <td><p>X</p></td>
-    <td><p></p></td>
-    <td><p>X</p></td>
+    <td><p><span data-ttu-id="e1ddb-164">A/V 会议</span><span class="sxs-lookup"><span data-stu-id="e1ddb-164">A/V conferencing</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-165">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-165">X</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-166">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-166">X</span></span></p></td>
+    <td></td>
+    <td><p><span data-ttu-id="e1ddb-167">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-167">X</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>企业语音</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
-    <td><p>X</p></td>
-    <td><p>X</p></td>
+    <td><p><span data-ttu-id="e1ddb-168">企业语音</span><span class="sxs-lookup"><span data-stu-id="e1ddb-168">Enterprise Voice</span></span></p></td>
+    <td></td>
+    <td></td>
+    <td><p><span data-ttu-id="e1ddb-169">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-169">X</span></span></p></td>
+    <td><p><span data-ttu-id="e1ddb-170">X</span><span class="sxs-lookup"><span data-stu-id="e1ddb-170">X</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-5.  在“选择并置服务器角色”页上，可在前端服务器上并置中介服务器，或者将其部署为独立服务器。
+5.  <span data-ttu-id="e1ddb-171">在 "**选择 collocated 服务器角色**" 页面上, 你可以在前端服务器上 Collocate 中介服务器或将其作为独立服务器进行部署。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-171">On the **Select collocated server roles** page, you can to collocate the Mediation Server on the Front End Server or to deploy it as a stand-alone server.</span></span>
     
-    可在 前端池上并置 中介服务器。
+    <span data-ttu-id="e1ddb-172">你可以 collocate 前端池中的中介服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-172">You can collocate the Mediation Server on the Front End pool.</span></span>
     
-      - 如果计划在 Enterprise Edition 前端池上并置 中介服务器，请确保选中相应的复选框。将在池服务器上部署服务器角色。
+      - <span data-ttu-id="e1ddb-173">如果打算在企业版前端池上 collocate 中介服务器, 请确保选中该复选框。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-173">If you intend to collocate the Mediation Server on the Enterprise Edition Front End pool, ensure the check box is selected.</span></span> <span data-ttu-id="e1ddb-174">将在池服务器上部署服务器角色。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-174">The server role will be deployed on the pool servers.</span></span>
     
-      - 如果计划将 中介服务器部署为独立服务器，则清除相应的复选框。在部署 前端服务器完成之后，将以单独的部署步骤部署 中介服务器。
+      - <span data-ttu-id="e1ddb-175">如果打算将中介服务器部署为独立服务器, 请清除相应的复选框。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-175">If you intend to deploy the Mediation Server as a stand-alone server, clear the appropriate check box.</span></span> <span data-ttu-id="e1ddb-176">在完全部署前端服务器之后, 你将在单独的部署步骤中部署中介服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-176">You will deploy Mediation Server in a separate deployment step after you completely deploy the Front End Server.</span></span>
     
-    > [!NOTE]  
-    > 我们建议在可能时并置中介服务器。有关对并置或单独的中介服务器的支持的详细信息，请参阅规划文档中的 <a href="lync-server-2013-components-and-topologies-for-mediation-server.md">Lync Server 2013 中中介服务器的组件和拓扑</a>。
+    <div>
     
 
+    > [!NOTE]
+    > <span data-ttu-id="e1ddb-177">如果可能, 我们建议您 collocate 中介服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-177">We recommend that you collocate the Mediation Server if possible.</span></span> <span data-ttu-id="e1ddb-178">有关 collocated 或独立中介服务器支持的详细信息, 请参阅规划文档中<A href="lync-server-2013-components-and-topologies-for-mediation-server.md">Lync server 2013 中的中介服务器组件和拓扑</A>。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-178">For details about support for collocated or stand-alone Mediation Servers, see <A href="lync-server-2013-components-and-topologies-for-mediation-server.md">Components and topologies for Mediation Server in Lync Server 2013</A> in the Planning documentation.</span></span>
 
-6.  通过“将服务器角色与此前端池关联”页可以定义服务器角色并将服务器角色与 前端池关联。以下角色可用：
     
-    **启用 边缘池**   定义并关联单个 边缘服务器或边缘服务器池。 边缘服务器为组织内的用户和组织外的用户（包括联盟用户）进行通信和协作提供方便。
-    
-    您可以使用两种方案来部署和关联服务器角色：
-    
-    方案一，为新的安装定义新的拓扑。可以使用两种方法之一完成安装：
-    
-      - 清除相应复选框，然后继续定义拓扑。在发布、配置、测试前端和后端服务器角色之后，您可以再次运行拓扑生成器以将角色服务器添加到拓扑中。此策略允许您测试前端池和运行 SQL Server 的服务器，而没有其他角色所带来的复杂性。完成初始测试后，可以再次运行拓扑生成器来选择需要部署的角色。
-    
-      - 选择需要安装的角色，然后设置硬件以适应所选择的角色。
-    
-    对于方案二，您具有现有的部署，并且您的基础架构已为新角色做好准备，或者，您需要将现有角色与新的 前端服务器关联：
-    
-      - 在这种情况下，需选择打算部署的角色或要与新的 前端服务器相关联的角色。无论在哪种情况下，都需要定义角色，设置任何所需硬件，然后继续安装。
+    </div>
 
-7.  在“定义 SQL 存储”页上，执行下列操作之一：
+6.  <span data-ttu-id="e1ddb-179">"**关联服务器角色与此前端池**" 页面允许你定义服务器角色并将其与前端池相关联。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-179">The **Associate server roles with this Front End pool** page lets you define and associate server roles with the Front End pool.</span></span> <span data-ttu-id="e1ddb-180">以下角色可用：</span><span class="sxs-lookup"><span data-stu-id="e1ddb-180">The following role is available:</span></span>
     
-      - 若要使用已在拓扑中定义的现有 SQL Server 存储，请选择“SQL 存储”中的一个实例。
+    <span data-ttu-id="e1ddb-181">**启用边缘池**   定义和关联单个边缘服务器或边缘服务器池。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-181">**Enable an Edge pool**   Defines and associates a single Edge Server or a pool of Edge Servers.</span></span> <span data-ttu-id="e1ddb-182">边缘服务器为组织内的用户和组织外的用户（包括联盟用户）进行通信和协作提供方便。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-182">An Edge Server facilitates communication and collaboration between users inside the organization and people outside the organization, including federated users.</span></span>
     
-      - 若要定义新的 SQL Server 实例来存储池信息，请单击“新建”，然后在“定义新的 SQL 存储”对话框中指定“SQL Server FQDN”。
+    <span data-ttu-id="e1ddb-183">你可以使用两种可能的方案来部署和关联服务器角色:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-183">There are two possible scenarios that you can use to deploy and associate the server roles:</span></span>
     
-      - 要指定 SQL Server 实例的名称，请选择“命名实例”，然后指定实例的名称。
+    <span data-ttu-id="e1ddb-184">对于方案一，为新的安装定义新的拓扑。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-184">For scenario one, you are defining a new topology for a new installation.</span></span> <span data-ttu-id="e1ddb-185">你可以采用以下两种方式之一进行安装:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-185">You can approach the installation in one of two ways:</span></span>
     
-      - 要使用默认实例，请单击“默认实例”。
+      - <span data-ttu-id="e1ddb-186">将复选框留空, 然后继续定义拓扑。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-186">Leave the check box clear and proceed with defining the topology.</span></span> <span data-ttu-id="e1ddb-187">在发布、配置和测试前端和后端服务器角色之后，您可以再次运行拓扑生成器以将角色服务器添加到拓扑中。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-187">After you have published, configured, and tested the Front End and Back End Server roles, you can run Topology Builder again to add the role servers to the topology.</span></span> <span data-ttu-id="e1ddb-188">此策略将使你能够测试运行 SQL Server 的前端池和服务器, 而不会增加其他角色的复杂性。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-188">This strategy will enable you to test the Front End pool and the server running SQL Server without additional complications from additional roles.</span></span> <span data-ttu-id="e1ddb-189">完成初始测试后，可以再次运行拓扑生成器来选择需要部署的角色。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-189">After you have completed your initial testing, you can run Topology Builder again to select the roles you need to deploy.</span></span>
     
-      - 若要使用 SQL 镜像，请选择“启用 SQL 镜像”，选择现有实例或创建一个新实例。
+      - <span data-ttu-id="e1ddb-190">选择需要安装的角色，然后设置硬件以适应所选择的角色。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-190">Select roles that you need to install, and then set up the hardware to accommodate the selected roles.</span></span>
+    
+    <span data-ttu-id="e1ddb-191">对于第二种方案, 你已有一个现有部署, 并且你的基础结构已准备好用于新角色, 或者你需要将现有角色与新的前端服务器相关联:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-191">For scenario two, you have an existing deployment and your infrastructure is ready for new roles or you need to associate existing roles with a new Front End Server:</span></span>
+    
+      - <span data-ttu-id="e1ddb-192">在这种情况下, 你将选择要部署的角色或与新的前端服务器关联的角色。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-192">In this case, you will select the roles that you intend to deploy or associate with the new Front End Server.</span></span> <span data-ttu-id="e1ddb-193">无论在哪种情况下，都需要定义角色，设置任何所需硬件，然后继续安装。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-193">In either case, you will proceed with the definition of the roles, set up any needed hardware, and proceed with the installation.</span></span>
 
-8.  在“定义文件共享”页上，执行以下操作之一：
+7.  <span data-ttu-id="e1ddb-194">在 "**定义 SQL 应用商店**" 页面上, 执行下列操作之一:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-194">On the **Define the SQL store** page, do one of the following:</span></span>
     
-      - 要使用已经在拓扑中定义的文件共享，请选择“使用先前定义的文件共享”。
+      - <span data-ttu-id="e1ddb-195">若要使用已在拓扑中定义的现有 SQL Server 存储，请选择“**SQL 存储**”中的一个实例。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-195">To use an existing SQL Server store that has already been defined in your topology, select an instance from **SQL store**.</span></span>
     
-      - 要定义新文件共享，请选择“定义新的文件共享”，在“文件服务器 FQDN”框中，输入要放置文件共享的现有文件服务器的 FQDN，然后在“文件共享”框中输入文件共享的名称。
+      - <span data-ttu-id="e1ddb-196">若要定义新的 SQL Server 实例以存储池信息, 请单击 "**新建**", 然后在 "**定义新的 sql 存储**" 对话框中指定**SQL Server FQDN**。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-196">To define a new SQL Server instance to store pool information, click **New** and then specify the **SQL Server FQDN**in the **Define New SQL Store** dialog box.</span></span>
     
+      - <span data-ttu-id="e1ddb-197">要指定 SQL Server 实例的名称，请选择“**命名实例**”，然后指定实例的名称。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-197">To specify the name of a SQL Server instance, select **Named Instance**, and then specify the name of the instance.</span></span>
+    
+      - <span data-ttu-id="e1ddb-198">要使用默认实例，请单击“**默认实例**”。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-198">To use the default instance, click **Default instance**.</span></span>
+    
+      - <span data-ttu-id="e1ddb-199">若要使用 SQL 镜像, 请选择 "**启用 sql 镜像**", 然后选择现有实例或创建新实例。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-199">To use SQL Mirroring, select **Enable SQL mirroring** and select an existing instance or create a new instance.</span></span>
+
+8.  <span data-ttu-id="e1ddb-200">在 "**定义文件共享**" 页面上, 执行下列操作之一:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-200">On the **Define the file share** page, do one of the following:</span></span>
+    
+      - <span data-ttu-id="e1ddb-201">要使用已经在拓扑中定义的文件共享，请选择“**使用先前定义的文件共享**”。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-201">To use a file share that has already been defined in your topology, select **Use a previously defined file share**.</span></span>
+    
+      - <span data-ttu-id="e1ddb-202">要定义新文件共享，请选择“**定义新的文件共享**”，在“**文件服务器 FQDN**”框中，输入要放置文件共享的现有文件服务器的 FQDN，然后在“**文件共享**”框中输入文件共享的名称。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-202">To define a new file share, select **Define a new file share**, in the **File Server FQDN** box, enter the FQDN of the existing file server where the file share is to reside, and then enter a name for the file share in the **File Share** box.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]
-    > Lync Server 2013 的文件共享不能位于 前端服务器上。请注意，在此示例中，文件共享位于基于 SQL Server 的后端服务器上。根据组织要求，这可能不是最佳位置，文件服务器可能是更好的选择。可以在尚未创建文件共享的情况下定义文件共享。在发布拓扑之前，您将需要在定义的位置创建文件共享。
+    > <span data-ttu-id="e1ddb-203">Lync Server 2013 的文件共享不能位于前端服务器上。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-203">The file share for Lync Server 2013 cannot be located on the Front End Server.</span></span> <span data-ttu-id="e1ddb-204">请注意, 在此示例中, 文件共享位于基于 SQL Server 的后端服务器上。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-204">Note that in this example, the file share has been located on the SQL Server-based Back End Server.</span></span> <span data-ttu-id="e1ddb-205">这可能不是组织要求的最佳位置, 文件服务器可能是更好的选择。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-205">This might not be an optimal location for your organization’s requirements, and a file server might be a better choice.</span></span> <span data-ttu-id="e1ddb-206">你可以在未创建文件共享的情况下定义文件共享。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-206">You can define the file share without the file share having been created.</span></span> <span data-ttu-id="e1ddb-207">你需要首先在定义的位置创建文件共享，然后才能发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-207">You will need to create the file share in the location you define before you publish the topology.</span></span>
 
-
-9.  在“指定 Web 服务 URL”页上，执行以下一项或两项操作：
     
+    </div>
+
+9.  <span data-ttu-id="e1ddb-208">在 "**指定 Web 服务 URL** " 页面上, 执行下列一项或两项操作:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-208">On the **Specify the Web Services URL** page, do one or both of the following:</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]
-    > 基 URL 指的是 URL 的 Web 服务标识减去 https://。例如，如果池的 Web 服务的完整 URL 为 https://pool01.contoso.net，则基 URL 为 pool01.contoso.net。
+    > <span data-ttu-id="e1ddb-209">基 URL 指的是 URL 的 Web 服务标识减去 https://。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-209">The base URL is the Web Services identity for the URL, minus the https://.</span></span> <span data-ttu-id="e1ddb-210">例如, 如果池的 Web 服务的完整 URL 是https://pool01.contoso.net, 则基 URL 为 pool01.contoso.net。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-210">For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net.</span></span>
+
     
+    </div>
+    
+    <div>
+    
+
     > [!WARNING]
-    > 如果您拥有多个 前端池或 前端服务器，则外部 Web 服务 FQDN 必须是唯一的。例如，如果将 前端服务器的外部 Web 服务 FQDN 定义为 <strong>pool01.contoso.com</strong>，则不能将 <strong>pool01.contoso.com</strong> 用于另一个 前端池或 前端服务器。
+    > <span data-ttu-id="e1ddb-211">如果您有多个前端池或前端服务器, 则外部 Web 服务 FQDN 必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-211">If you have more than one Front End pool or Front End Server, the external Web services FQDN must be unique.</span></span> <span data-ttu-id="e1ddb-212">例如, 如果你将前端服务器的外部 Web 服务 FQDN 定义为<STRONG>pool01.contoso.com</STRONG>, 则不能将<STRONG>Pool01.contoso.com</STRONG>用于其他前端池或前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-212">For example, if you define the external Web services FQDN of a Front End Server as <STRONG>pool01.contoso.com</STRONG>, you cannot use <STRONG>pool01.contoso.com</STRONG> for another Front End pool or Front End Server.</span></span>
+
     
-    1.  如果要配置 DNS 负载平衡，请选中“覆盖内部 Web 服务池 FQDN”复选框，在“内部基 URL”中输入内部基 URL（必须不同于池 FQDN，例如，“internal-\<基 URL\>”）。
+    </div>
+    
+    1.  <span data-ttu-id="e1ddb-213">如果你要配置 DNS 负载平衡, 请选中 "**替代内部 Web 服务池 FQDN** " 复选框, 输入内部基 url (必须不同于池 FQDN, 例如, 内部-\<你的基本 url)\> **内部基本 URL**。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-213">If you are configuring DNS load balancing, select the **Override internal Web Services pool FQDN** check box, enter the internal base URL (which must be different from the pool FQDN and could be, for example, internal-\<your base URL\>) in **Internal Base URL**.</span></span>
         
-        > [!WARNING]  
-		> 如果决定使用自定义的 FQDN 替代内部 Web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池的不同。定义 URL 或完全限定的域名时<strong>仅使用标准字符</strong>（包括 A–Z、a–z、0–9 和连字符）。不要使用 Unicode 字符或下划线。外部 DNS 和公共 CA 通常不支持在 URL 或 FQDN 中使用非标准字符（即，当必须向证书中的使用者名称或使用者替代名称分配 URL 或 FQDN 时）。
-    
-    2.  （可选）在“外部基 URL”中输入外部基 URL。您可以输入外部基 URL 以将其与内部域命名区分开来。例如，内部域是 contoso.net，但外部域名是 contoso.com。则可以使用 contoso.com 域名来定义 URL。如果是反向代理，这也很重要。外部基 URL 域名应该与反向代理的 FQDN 域名相同。即时消息和状态需要对前端池的 HTTP 访问。
-    
-    > [!NOTE]  
-    > 要使用 DNS 负载平衡，必须创建相应的 DNS 记录。有关详细信息，请参阅 <a href="lync-server-2013-configure-dns-for-load-balancing.md">在 Lync Server 2013 中配置 DNS 负载平衡</a>。
-    
+        <div>
+        
 
+        > [!WARNING]
+        > <span data-ttu-id="e1ddb-214">如果你决定使用自定义的 FQDN 替代内部 web 服务, 则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-214">If you decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span> <span data-ttu-id="e1ddb-215">定义 URL 或完全限定的域名时<STRONG>仅使用标准字符</STRONG>（包括 A–Z、a–z、0–9 和连字符）。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-215"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when defining URLs or fully qualified domain names.</span></span> <span data-ttu-id="e1ddb-216">不要使用 Unicode 字符或下划线。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-216">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="e1ddb-217">外部 DNS 和公共 CA 通常不支持在 URL 或 FQDN 中使用非标准字符（即，当必须向证书中的使用者名称或使用者替代名称分配 URL 或 FQDN）。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-217">Nonstandard characters in a URL or FQDN are often not supported by external DNS and public CAs (that is, when the URL or FQDN must be assigned to the subject name or subject alternative name in the certificate).</span></span>
 
-10. 如果在“选择功能”页上选择“会议”，请在“选择 Office Web Apps 服务器”页上选择“将池与 Office Web Apps 服务器关联”，然后单击“新建”（或从下拉列表中选择现有 Office Web Apps Server）。
-
-11. 在“定义新的 Office Web Apps 服务器”对话框中，在“Office Web Apps 服务器 FQDN”框中键入 Office Web Apps Server 计算机的完全限定域名 (FQDN)；执行此操作时，会将 Office Web Apps Server 发现 URL 自动输入“Office Web Apps 服务器发现 URL”框中。
+        
+        </div>
     
-    如果本地安装 Office Web Apps Server 且位于 Lync Server 2013 所在的同一网络区域中，则不应选择选项“在外部网络(即外围/Internet)中部署 Office Web Apps 服务器”。
+    2.  <span data-ttu-id="e1ddb-218">(可选) 在**外部基 url**中输入外部基 url。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-218">Optionally enter the external base URL in **External Base URL**.</span></span> <span data-ttu-id="e1ddb-219">你将输入外部基 URL, 以将其与你的内部域命名区区分开。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-219">You would enter the external base URL to differentiate it from your internal domain naming.</span></span> <span data-ttu-id="e1ddb-220">例如, 你的内部域是 contoso.net, 但你的外部域名是 contoso.com。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-220">For example, your internal domain is contoso.net, but your external domain name is contoso.com.</span></span> <span data-ttu-id="e1ddb-221">你可以使用 contoso.com 域名定义 URL。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-221">You would define the URL using the contoso.com domain name.</span></span> <span data-ttu-id="e1ddb-222">如果是反向代理，这也很重要。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-222">This is also important in the case of a reverse proxy.</span></span> <span data-ttu-id="e1ddb-223">外部基 URL 域名应该与反向代理的 FQDN 域名相同。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-223">The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy.</span></span> <span data-ttu-id="e1ddb-224">即时消息和状态确实需要 HTTP 访问前端池。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-224">Instant messaging and presence does require HTTP access to the Front End pool.</span></span>
     
-    如果在内部防火墙的外部部署 Office Web Apps Server，则选择选项“在外部网络（即外围/Internet）中部署 Office Web Apps 服务器”。
-    
-    > [!NOTE]  
-    > 有关详细信息，请参阅 <a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office Web Apps Server 和 Lync Server 2013 的集成</a>。
+    <div>
     
 
+    > [!NOTE]
+    > <span data-ttu-id="e1ddb-225">若要使用 DNS 负载平衡, 必须创建相应的 DNS 记录。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-225">To use DNS load balancing, you must create the appropriate DNS records.</span></span> <span data-ttu-id="e1ddb-226">有关详细信息, 请参阅<A href="lync-server-2013-configure-dns-for-load-balancing.md">在 Lync Server 2013 中配置用于负载平衡的 DNS</A>。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-226">For details, see <A href="lync-server-2013-configure-dns-for-load-balancing.md">Configure DNS for load balancing in Lync Server 2013</A>.</span></span>
 
-12. 在“定义存档 SQL 存储”页上，选择一个现有实例或 SQL Server，或定义新实例来存储与存档数据关联的数据。
-
-13. 在“定义监控 SQL 存储”页上，选择一个现有实例或 SQL Server，或定义新实例来存储与监控数据关联的数据。
-
-14. 单击“下一步”。如果在“将服务器角色与此前端池关联”页上定义了其他角色服务器，将打开单独的角色配置向导页，以使您能够配置服务器角色。有关详细信息，请参阅下文：
     
-    [在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)
+    </div>
 
-15. 如果未选择要配置和部署的其他服务器角色，或者已经完成其他角色服务器的配置，请单击“完成”。
+10. <span data-ttu-id="e1ddb-227">如果选择 "**选择功能**" 页面上的 "**会议**", 请在 "**选择 office web apps 服务器**" 页面上选择 "**将池与 Office web Apps 关联**", 然后单击 "**新建**" (或选择现有 Office web apps服务器从下拉列表中删除)。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-227">If you selected **Conferencing** on the **Select Features** page, on the **Select an Office Web Apps Server** page select **Associate pool with an Office Web Apps Server** and then click **New** (or select an existing Office Web Apps Server from the drop-down list).</span></span>
+
+11. <span data-ttu-id="e1ddb-228">在“**定义新的 Office Web Apps 服务器**”对话框的“**Office Web Apps 服务器 FQDN**”框中，键入你的 Office Web Apps 服务器计算机的完全限定域名 (FQDN)；执行此操作时，你的 Office Web Apps 服务器搜索 URL 应自动输入到“**Office Web Apps 服务器搜索 URL**”框中。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-228">In the **Define New Office Web Apps Server** dialog box, type the fully qualified domain name (FQDN) of your Office Web Apps Server computer in the **Office Web Apps Server FQDN** box; when you do this, your Office Web Apps Server discovery URL should automatically be entered into the **Office Web Apps Server discovery URL** box.</span></span>
+    
+    <span data-ttu-id="e1ddb-229">如果 Office Web Apps 服务器在本地安装, 并且在与 Lync Server 2013 相同的网络区域中安装, 则不应选择 " **Office Web Apps 服务器" 部署在外部网络 (即周边/Internet) 中**。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-229">If the Office Web Apps Server is installed on-premises and in the same network zone as Lync Server 2013 then the option **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)** should not be selected.</span></span>
+    
+    <span data-ttu-id="e1ddb-230">如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“**在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器**”。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-230">If the Office Web Apps Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]
+    > <span data-ttu-id="e1ddb-231">有关详细信息, 请参阅<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office Web Apps server 和 Lync server 2013 的集成</A>。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-231">For details, see <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuring integration with Office Web Apps Server and Lync Server 2013</A>.</span></span>
+
+    
+    </div>
+
+12. <span data-ttu-id="e1ddb-232">在 "**定义存档 SQL 存储"** 页面上, 选择一个现有实例或 SQL Server, 或定义一个新实例以存储与存档数据相关联的数据。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-232">On the **Define the Archiving SQL store** page, select an existing instance or SQL Server, or define a new instance to store the data associated with archiving data.</span></span>
+
+13. <span data-ttu-id="e1ddb-233">在 "**定义监视 SQL 存储**" 页面上, 选择一个现有实例或 SQL Server, 或定义一个新实例以存储与监视数据相关联的数据。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-233">On the **Define the Monitoring SQL store** page, select an existing instance or SQL Server, or define a new instance to store the data associated with monitoring data.</span></span>
+
+14. <span data-ttu-id="e1ddb-234">单击" **下一步**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-234">Click **Next**.</span></span> <span data-ttu-id="e1ddb-235">如果在 "**关联服务器角色与此前端池**" 页面中定义了其他角色服务器, 将打开 "单独的角色配置向导" 页面, 让你配置服务器角色。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-235">If you defined other role servers on the **Associate server roles with this Front End pool** page, separate role configuration wizard pages will open to let you configure the server roles.</span></span> <span data-ttu-id="e1ddb-236">有关详细信息, 请参阅以下内容:</span><span class="sxs-lookup"><span data-stu-id="e1ddb-236">For details, see the following:</span></span>
+    
+    [<span data-ttu-id="e1ddb-237">在 Lync Server 2013 中部署外部用户访问</span><span class="sxs-lookup"><span data-stu-id="e1ddb-237">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+
+15. <span data-ttu-id="e1ddb-238">如果未选择要配置和部署的其他服务器角色, 或者完成了其他角色服务器的配置, 请单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="e1ddb-238">If you did not select additional server roles to configure and deploy, or when you have finished the configuration of the additional role servers, click **Finish**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

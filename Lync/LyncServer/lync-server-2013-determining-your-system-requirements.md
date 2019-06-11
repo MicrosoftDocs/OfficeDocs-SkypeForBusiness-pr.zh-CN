@@ -1,45 +1,94 @@
-﻿---
-title: Lync Server 2013：确定系统要求
-TOCTitle: 确定系统要求
-ms:assetid: 620e81e2-42df-4eda-8498-bd56a14aa0e1
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398438(v=OCS.15)
-ms:contentKeyID: 49313034
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：确定系统要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Determining your system requirements
+ms:assetid: 620e81e2-42df-4eda-8498-bd56a14aa0e1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398438(v=OCS.15)
+ms:contentKeyID: 48184286
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 75abed691bcf6408e7a7d31714e6ee9d2fd75e9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830438"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 确定 Lync Server 2013 的系统要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-01-02_
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a><span data-ttu-id="36d11-102">确定 Lync Server 2013 的系统要求</span><span class="sxs-lookup"><span data-stu-id="36d11-102">Determining your system requirements for Lync Server 2013</span></span>
 
-所有运行 Lync Server 的服务器都必须满足某些最低系统要求。 Lync Server 的系统要求包括服务器硬件、要安装在每台服务器上的操作系统，以及相关的软件要求（例如，必须在服务器上安装的 Windows 更新和其他软件）。
+</div>
 
-> [!IMPORTANT]
-> Lync Server 仅提供 64 位版本，要求使用 64 位硬件和 64 位版本的 Windows Server。但 Microsoft Lync Server 2013 规划工具例外，它提供了 32 位版本。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="36d11-103">_**主题上次修改时间:** 2014-01-02_</span><span class="sxs-lookup"><span data-stu-id="36d11-103">_**Topic Last Modified:** 2014-01-02_</span></span>
+
+<span data-ttu-id="36d11-104">运行 Lync Server 的所有服务器必须满足一定的最低系统要求。</span><span class="sxs-lookup"><span data-stu-id="36d11-104">All servers running Lync Server must meet certain minimum system requirements.</span></span> <span data-ttu-id="36d11-105">Lync Server 的系统要求包括服务器硬件、要在每台服务器上安装的操作系统以及相关软件要求 (如 Windows 更新和必须安装在服务器上的其他软件)。</span><span class="sxs-lookup"><span data-stu-id="36d11-105">System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="36d11-106">Lync Server 仅在64位版本中可用, 这需要64位硬件和一个64位的 Windows Server 版本。</span><span class="sxs-lookup"><span data-stu-id="36d11-106">Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server.</span></span> <span data-ttu-id="36d11-107">例外情况是 Microsoft Lync Server 2013、计划工具, 可在32位版本中使用。</span><span class="sxs-lookup"><span data-stu-id="36d11-107">The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.</span></span>
+
+
+
+</div>
+
+<div>
 
 
 > [!NOTE]  
-> 有关 Active Directory 支持、支持的拓扑、服务器并置和其他支持问题的详细信息，请参阅<a href="lync-server-2013-supportability.md">Lync Server 2013 的可支持性</a>。
+> <span data-ttu-id="36d11-108">有关 Active Directory 支持、支持的拓扑、服务器 collocation 和其他支持问题的详细信息, 请参阅<A href="lync-server-2013-supportability.md">Lync server 2013 的支持支持</A>。</span><span class="sxs-lookup"><span data-stu-id="36d11-108">For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.</span></span>
 
 
 
-## 本部分内容
+</div>
 
-  - [适用于 Lync Server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)
+<div>
 
-  - [Lync Server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)
+## <a name="in-this-section"></a><span data-ttu-id="36d11-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="36d11-109">In This Section</span></span>
 
-  - [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="36d11-110">Lync Server 2013 的服务器硬件平台</span><span class="sxs-lookup"><span data-stu-id="36d11-110">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)
 
-  - [Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)
+  - [<span data-ttu-id="36d11-111">Lync Server 2013 中的服务器和工具操作系统支持</span><span class="sxs-lookup"><span data-stu-id="36d11-111">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-## 另请参阅
+  - [<span data-ttu-id="36d11-112">Lync Server 2013 中的数据库软件支持</span><span class="sxs-lookup"><span data-stu-id="36d11-112">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-#### 其他资源
+  - [<span data-ttu-id="36d11-113">Lync Server 2013 的其他软件要求</span><span class="sxs-lookup"><span data-stu-id="36d11-113">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)
 
-[Lync Server 2013 中的客户端和设备硬件支持](lync-server-2013-client-and-device-hardware-support.md)  
-[Lync Server 2013 的可支持性](lync-server-2013-supportability.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="36d11-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="36d11-114">See Also</span></span>
+
+
+[<span data-ttu-id="36d11-115">Lync Server 2013 中的客户端和设备硬件支持</span><span class="sxs-lookup"><span data-stu-id="36d11-115">Client and device hardware support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-hardware-support.md)  
+[<span data-ttu-id="36d11-116">Lync Server 2013 的可支持性</span><span class="sxs-lookup"><span data-stu-id="36d11-116">Supportability for Lync Server 2013</span></span>](lync-server-2013-supportability.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
