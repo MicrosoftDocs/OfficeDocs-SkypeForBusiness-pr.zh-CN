@@ -1,26 +1,57 @@
-﻿---
-title: Lync Server 2013：（可选）定义响应组工作时间
-TOCTitle: （可选）定义响应组工作时间
-ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205291(v=OCS.15)
-ms:contentKeyID: 49314379
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (可选) 定义响应组的工作时间'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Define Response Group business hours
+ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
+ms:contentKeyID: 48185504
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8ddd2bde582c66cf337deb9aa78178d3e22d1b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825784"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# （可选）在 Lync Server 2013 中定义响应组工作时间
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>可选在 Lync Server 2013 中定义响应组工作时间
 
-## 定义工作时间
+</div>
 
-工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。
+<div id="mainSection">
 
-> [!TIP]
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。有关详细信息，请参阅 <a href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 Lync Server 2013 中创建或修改智能寻线工作流</a>或 <a href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 Lync Server 2013 中创建或修改互动工作流</a>。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+<div>
+
+## <a name="defining-business-hours"></a>定义工作时间
+
+工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。 响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。
+
+<div>
+
+
+> [!TIP]  
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息, 请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 Lync server 2013 中创建或修改查寻组工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
+
+
+
+</div>
+
+<div>
 
 
 > [!NOTE]  
@@ -28,15 +59,25 @@ _**上一次修改主题：** 2012-11-01_
 
 
 
-> [!IMPORTANT]
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
 > 以下 cmdlet 中的参数采用 24 小时制表示（例如，20:00=8:00 P.M.）。
 
 
-## 创建预定义工作时间集合
+
+</div>
+
+<div>
+
+## <a name="to-create-a-predefined-business-hours-collection"></a>创建预定义工作时间集合
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  对于要定义的每个唯一时间范围，请运行：
     
@@ -53,15 +94,32 @@ _**上一次修改主题：** 2012-11-01_
         $c = NewRgsTimeRange -Name "Saturday Afternoon Hours" -OpenTime "14:00" -CloseTime "18:00" 
         New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
 
-## 另请参阅
+</div>
 
-#### 概念
+</div>
 
-[在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[在 Lync Server 2013 中创建或修改查寻组工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
-#### 其他资源
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
+[新-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[新-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: 填充位置数据库
-TOCTitle: 填充位置数据库
-ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg413069(v=OCS.15)
-ms:contentKeyID: 49314825
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 填充位置数据库'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Populate the location database
+ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
+ms:contentKeyID: 48185939
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824048"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 填充位置数据库
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="populate-the-location-database-in-lync-server-2013"></a>在 Lync Server 2013 中填充位置数据库
 
-要在网络中自动定位客户端，首先需要使用网络*线路映射* 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-17_
+
+要在网络中自动定位客户端，首先需要使用网络*线路映射*填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
 
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
 
-如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。
+如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”**** 字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。
 
 
 <table>
@@ -36,57 +56,59 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p><strong>无线访问点</strong></p></td>
-<td><p>&lt;BSSID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;PreDirectional&gt;……</p>
-<p>&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;PostalCode&gt;、&lt;Country&gt;</p></td>
+<td><p>&lt;BSSID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>子网</strong></p></td>
-<td><p>&lt;Subnet&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;PreDirectional&gt;……</p>
-<p>&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;PostalCode&gt;、&lt;Country&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;子&gt;网&lt;、&gt;说明&lt;、&gt;位置&lt;、&gt;公司&lt;名称&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、PreDirectional,.。。</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>端口</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;……</p>
-<p>&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;PostalCode&gt;、&lt;Country&gt;</p></td>
+<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt; 、HouseNumberSuffix&gt;,.。。</p>
+<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;省&gt;/&lt;市&gt;/&lt;自治区、邮政编码该国&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>交换机</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;PreDirectional&gt;……</p>
-<p>&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;PostalCode&gt;、&lt;Country&gt;</p></td>
+<td><p>&lt;ChassisID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-如果未填充位置数据库，并且位置策略中的“所需位置”设置为“是”或“免责声明”，客户端将提示用户手动输入位置。
+如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
 
-有关填充位置数据库的详细信息，请参阅 Lync Server 命令行管理程序文档中以下 cmdlet 的相关内容：
+有关填充位置数据库的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
 
-  - **Get-CsLisSubnet**
+  - **CsLisSubnet**
 
   - **Set-CsLisSubnet**
 
   - Remove-CsLisSubnet
 
-  - **Get-CsLisWirelessAccessPoint**
+  - **CsLisWirelessAccessPoint**
 
   - **Set-CsLisWirelessAccessPoint**
 
   - **Remove-CsLisWirelessAccessPoint**
 
-  - **Get-CsLisSwitch**
+  - **CsLisSwitch**
 
   - **Set-CsLisSwitch**
 
   - **Remove-CsLisSwitch**
 
-  - **Get-CsLisPort**
+  - **CsLisPort**
 
   - **Set-CsLisPort**
 
   - **Remove-CsLisPort**
 
-## 将网络元素添加到位置数据库
+<div>
+
+## <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
 
 1.  运行以下 cmdlet，以将子网位置添加到位置数据库。
     
@@ -129,4 +151,16 @@ _**上一次修改主题：** 2015-03-09_
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,49 @@
-﻿---
-title: Lync Server 2013：规划前端池配对
-TOCTitle: 规划前端池配对
-ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205293(v=OCS.15)
-ms:contentKeyID: 49314266
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：规划前端池配对
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Front End pool pairing
+ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
+ms:contentKeyID: 48185508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824965"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中规划前端池配对
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-28_
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>在 Lync Server 2013 中规划前端池配对
 
-为了在 Lync Server 2013 中实现最佳灾难恢复能力，跨两个地理位置分散型站点部署前端池对。每个站点包含一个前端池，该池与另一个站点中的相应前端池配对。这两个站点都处于活动状态，并且 Lync Server 备份服务提供了实时数据复制以保持池同步。该备份服务是 Lync Server 2013 中的一项新功能，旨在支持灾难恢复解决方案。当您将该前端池与另一个前端池配对时，会将该服务安装到该池上。
+</div>
 
-如果某个站点中的池失败，则您可以将用户从该前端池故障转移到另一个站点中的池，然后可向两个池中的所有用户提供服务。出于容量规划目的，每个池应设计为在发生灾难时处理两个池中所有用户的工作负荷。
+<div id="mainSection">
 
-## 本节内容
+<div id="mainBody">
 
-  - [Lync Server 2013 支持的池配对选项和最佳做法](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-28_
+
+为了获得 Lync Server 2013 中的最佳灾难恢复能力, 请跨两个地理位置分散的网站部署前端池对。 每个网站都包含一个与另一个网站中的对应前端池配对的前端池。 两个网站都处于活动状态, 并且 Lync Server 备份服务提供实时数据复制以保持池同步。 备份服务是 Lync Server 2013 中的一项新功能, 旨在支持灾难恢复解决方案。 当您将池与另一个前端池配对时, 它将安装在前端池。
+
+如果某个网站中的池出现故障, 则可以将用户从该池中故障转移到另一个网站中的池, 然后在两个池中的所有用户提供服务。 对于容量规划, 每个池都应设计为在发生灾难时处理两个池中所有用户的工作负荷。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
+
+  - [支持 Lync Server 2013 的池配对选项和最佳做法](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
   - [Lync Server 2013 中的备份注册器关系](lync-server-2013-backup-registrar-relationships.md)
 
@@ -30,4 +52,16 @@ _**上一次修改主题：** 2012-09-28_
   - [Lync Server 2013 中的中央管理存储故障转移](lync-server-2013-central-management-store-failover.md)
 
   - [Lync Server 2013 中的前端池配对数据安全](lync-server-2013-front-end-pool-pairing-data-security.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

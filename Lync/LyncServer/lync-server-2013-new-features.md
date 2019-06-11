@@ -1,25 +1,47 @@
-﻿---
-title: Lync Server 2013 新功能
-TOCTitle: 新的服务器功能
-ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425795(v=OCS.15)
-ms:contentKeyID: 49312373
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 新功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New server features
+ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
+ms:contentKeyID: 48183722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826225"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的新功能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-04_
+# <a name="new-features-in-lync-server-2013"></a>Lync Server 2013 中的新功能
 
-Lync Server 2013 引入了许多新功能，并对现有功能进行了明显改进。本节简要介绍这些新功能和改进功能。
+</div>
 
-对于 Lync Server 2013 中的新增功能，我们将按照本节中的主题分组讨论：
+<div id="mainSection">
 
-## 本部分内容
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-04_
+
+Lync Server 2013 引入了许多新功能, 并具有对现有功能的显著增强。 本部分提供了这些新功能和增强功能的高级介绍。
+
+在 Lync Server 2013 中讨论新功能将在本部分中的主题中进行分组。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中新的管理功能](lync-server-2013-new-management-and-administration-features.md)
 
@@ -50,4 +72,16 @@ Lync Server 2013 引入了许多新功能，并对现有功能进行了明显改
   - [Lync Server 2013 中新的统一联系人存储功能](lync-server-2013-new-unified-contact-store-feature.md)
 
   - [Lync Server 2013 中新的视频功能](lync-server-2013-new-video-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

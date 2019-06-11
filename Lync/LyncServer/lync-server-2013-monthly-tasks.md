@@ -1,63 +1,101 @@
-﻿---
-title: 'Lync Server 2013: Monthly tasks'
+---
+title: 'Lync Server 2013: 月度任务'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monthly tasks
 ms:assetid: d991f894-f15b-4596-b305-a08a2f6aa296
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720350(v=OCS.15)
-ms:contentKeyID: 62221741
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720350(v=OCS.15)
+ms:contentKeyID: 63969654
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 87d16ce3a1ce85e8527ee10d4fb45b4d9a66121b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826617"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monthly tasks in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-08-18_
+# <a name="monthly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的每月任务
 
-Monthly tasks focus on ensuring the long-term health of a system.
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-The following tasks should be performed on a monthly basis:
+<div id="mainBody">
 
-  - [View status of global settings for a forest in Lync Server 2013](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
+<span> </span>
 
-  - [View Edge Server settings in Lync Server 2013](lync-server-2013-view-edge-server-settings.md)
+_**主题上次修改时间:** 2014-08-18_
 
-  - [Check Lync Server 2013 server certificates](lync-server-2013-check-lync-server-2013-server-certificates.md)
+每月任务侧重于确保系统的长期运行状况。
 
-  - [Check trunk configuration against a phone number in Lync Server 2013](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+<div>
 
-  - [Check voice normalization rules in Lync Server 2013](lync-server-2013-check-voice-normalization-rules.md)
+## <a name="in-this-section"></a>本节内容
 
-  - [Test telephone number against a voice policy in Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+应按月为基础执行以下任务:
 
-  - [Test telephone number against a voice route in Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [查看 Lync Server 2013 中的林全局设置的状态](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [Test voice configuration in Lync Server 2013](lync-server-2013-test-voice-configuration.md)
+  - [在 Lync Server 2013 中查看边缘服务器设置](lync-server-2013-view-edge-server-settings.md)
 
-  - [Test voice rules, routes, and policies in Lync Server 2013](lync-server-2013-test-voice-rules-routes-and-policies.md)
+  - [检查 Lync Server 2013 服务器证书](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [Test Web App access in Lync Server 2013](lync-server-2013-test-web-app-access.md)
+  - [对照 Lync Server 2013 中的电话号码检查中继配置](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
-  - [Test anonymous Web App access in Lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
+  - [在 Lync Server 2013 中检查语音规范化规则](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Test mobile user access in Lync Server 2013](lync-server-2013-test-mobile-user-access.md)
+  - [根据 Lync Server 2013 中的语音策略测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Test mobile users' ability to exchange instant messages in Lync Server 2013](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
+  - [根据 Lync Server 2013 中的语音路线测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
-  - [Test push notifications to smart phones in Lync Server 2013](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [在 Lync Server 2013 中测试语音配置](lync-server-2013-test-voice-configuration.md)
 
-  - [Security checks in Lync Server 2013](lync-server-2013-security-checks.md)
+  - [在 Lync Server 2013 中测试语音规则、路由和策略](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [Capacity review in Lync Server 2013](lync-server-2013-capacity-review.md)
+  - [在 Lync Server 2013 中测试 Web 应用访问](lync-server-2013-test-web-app-access.md)
+
+  - [在 Lync Server 2013 中测试匿名 Web 应用访问](lync-server-2013-test-anonymous-web-app-access.md)
+
+  - [在 Lync Server 2013 中测试移动用户访问权限](lync-server-2013-test-mobile-user-access.md)
+
+  - [测试移动用户在 Lync Server 2013 中交换即时消息的能力](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
+
+  - [在 Lync Server 2013 中测试指向智能电话的推送通知](lync-server-2013-test-push-notifications-to-smart-phones.md)
+
+  - [Lync Server 2013 中的安全检查](lync-server-2013-security-checks.md)
+
+  - [Lync Server 2013 中的容量审查](lync-server-2013-capacity-review.md)
 
   - [Lync Server 2013 中的灾难恢复测试](lync-server-2013-disaster-recovery-test.md)
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[Monthly task checklist](lync-server-2013-operations-checklists.md)
+## <a name="see-also"></a>另请参阅
+
+
+[每月任务清单](lync-server-2013-operations-checklists.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

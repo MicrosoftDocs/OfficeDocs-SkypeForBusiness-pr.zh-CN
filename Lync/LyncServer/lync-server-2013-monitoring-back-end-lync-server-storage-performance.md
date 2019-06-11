@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Monitoring back end Lync Server storage performance'
+---
+title: 'Lync Server 2013: 监视后端 Lync 服务器存储性能'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720917(v=OCS.15)
-ms:contentKeyID: 62246688
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
+ms:contentKeyID: 63969619
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b4c63956cebc7f532f92b6e0729bdfe811d0fdfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826757"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitoring back end Lync Server 2013 storage performance
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>监视后端 Lync 服务器2013存储性能
 
-The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment. We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.
+</div>
 
-The following table identifies performance counters that should be monitored to learn information about Storage Performance. The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.
+<div id="mainSection">
 
-### Performance counters to be monitored
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-05-02_
+
+Lync Server 2013 后端数据库是 Lync Server 2013 部署的非常重要的部分。 我们建议持续监视数据库和相应的事务日志, 以帮助确保 Lync Server 2013 后端的性能最优化。
+
+下表标识应监视的性能计数器, 以了解有关存储性能的信息。 必须首先确定这些计数器的基线值 (当系统处于其正常、预期负载时), 以了解系统负载时的性能变化。
+
+### <a name="performance-counters-to-be-monitored"></a>要监视的性能计数器
 
 <table>
 <colgroup>
@@ -28,51 +48,62 @@ The following table identifies performance counters that should be monitored to 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Performance Counter</th>
-<th>Baseline thresholds</th>
+<th>性能计数器</th>
+<th>基准阈值</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transactions/sec (RTC)</p></td>
-<td><p></p></td>
+<td><p>事务/秒 (RTC)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Transactions/sec (rtcdyn)</p></td>
-<td><p></p></td>
+<td><p>事务/秒 (rtcdyn)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Transactions/sec (tempdb)</p></td>
-<td><p></p></td>
+<td><p>事务/秒 (tempdb)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Log Flushes/sec (RTC)</p></td>
-<td><p></p></td>
+<td><p>日志刷新/秒 (RTC)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Log Flushes/sec (rtcdyn)</p></td>
-<td><p></p></td>
+<td><p>日志刷新/秒 (rtcdyn)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Log Flushes/sec (tempdb)</p></td>
-<td><p></p></td>
+<td><p>日志刷新/秒 (tempdb)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk Transfers/sec (read+write) - RTC db</p></td>
-<td><p></p></td>
+<td><p>每秒磁盘传输 (读 + 写)-RTC 数据库</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Disk Transfers/sec - RTC log</p></td>
-<td><p></p></td>
+<td><p>磁盘传输/秒-RTC 日志</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk Transfers/sec - rtcdyn db</p></td>
-<td><p></p></td>
+<td><p>磁盘传输/秒-rtcdyn db</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Disk Transfers/sec - rtcdyn log</p></td>
-<td><p></p></td>
+<td><p>磁盘传输/秒-rtcdyn 日志</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,61 @@
-﻿---
-title: Lync Server 2013：新的统一联系人存储功能
-TOCTitle: 新的统一联系人存储功能
-ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204947(v=OCS.15)
-ms:contentKeyID: 49313000
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：新的统一联系人存储功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New unified contact store feature
+ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204947(v=OCS.15)
+ms:contentKeyID: 48184308
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e3a10a1e55b94b118ea8d430b65d0e851c17b203
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825910"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中新的统一联系人存储功能
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-13_
+# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a>Lync Server 2013 中新的统一联系人存储功能
 
-Lync Server 2013 引入了统一的联系人存储。统一的联系人存储允许用户将其所有联系人信息保存在 Microsoft Exchange Server 2013 中。当用户的 Lync 联系人迁移到 Exchange 2013 后，用户可以通过 Lync 2013、 Outlook 或 Outlook Web App 访问和管理其在其联系人，并且其收藏夹将保持同步。例如，如果用户在 Outlook 的收藏夹中添加了一个联系人，则该联系人将出现在 Lync 2013 的“收藏夹”组中。用户无需登录到 Lync 就能通过 Outlook 或 Outlook Web App 管理其联系人。
+</div>
 
-默认情况下将启用统一的联系人存储。您可以全局、按站点、按租户或者按个人或个人组对用户启用或禁用统一的联系人存储。
+<div id="mainSection">
 
-## 另请参阅
+<div id="mainBody">
 
-#### 概念
+<span> </span>
 
-[在 Lync Server 2013 中规划和部署统一联系人存储](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+_**主题上次修改时间:** 2012-09-13_
+
+Lync Server 2013 引入了 "统一联系人存储"。 通过 "统一联系人存储", 用户可以在 Microsoft Exchange Server 2013 中保留其所有联系人信息。 将用户的 Lync 联系人迁移到 Exchange 2013 后, 用户可以从 Lync 2013、Outlook 或 Outlook Web App 访问和管理其联系人, 其收藏夹保持同步。 例如, 如果用户将联系人添加到 Outlook 中的 "收藏夹", 则该联系人将显示在 Lync 2013 的 "收藏夹" 组中。 用户无需登录 Lync 即可从 Outlook 或 Outlook Web App 管理其联系人。
+
+"统一联系人存储" 默认情况下处于启用状态。 你可以为统一联系人存储全局、由网站、租户或个人或个人组启用或禁用用户。
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[在 Lync Server 2013 中规划和部署统一联系人存储](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,65 @@
-﻿---
-title: （可选）验证响应组部署
-TOCTitle: （可选）验证响应组部署
-ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ687989(v=OCS.15)
-ms:contentKeyID: 49888330
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (可选) 验证响应组部署'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify Response Group deployment
+ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687989(v=OCS.15)
+ms:contentKeyID: 49733579
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f3b031ab8fdaac5249146faedafcc23517040b3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825602"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# （可选）验证响应组部署
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-11_
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>可选在 Lync Server 2013 中验证响应组部署
 
-在配置响应组后，您需要验证该配置以确保您的响应组正常工作。至少应使用以下用户类型验证以下方案：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-11_
+
+配置响应组后, 你需要验证配置, 以确保你的响应组按预期工作。 至少应使用以下用户类型验证以下方案：
 
 **用户**
 
-  - 驻留在 Lync Server 2013 上的用户
+  - Lync Server 2013 上托管的用户
 
   - 使用公用电话交换网 (PSTN) 的外部用户
 
-  - 驻留在 Lync Server 2013 上的代理
+  - 在 Lync Server 2013 上托管的代理
 
-**方案**
+**应用场景**
 
-  - Lync Server 2013 用户呼叫响应组。
+  - Lync Server 2013 用户调用响应组。
 
   - 外部用户呼叫响应组。
 
   - 用户在代理处理其他呼叫时呼叫响应组，并进入队列。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

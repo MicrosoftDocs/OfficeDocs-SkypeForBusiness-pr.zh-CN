@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Monitoring group chat'
+---
+title: 'Lync Server 2013: 监视群组聊天'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring group chat
 ms:assetid: bddcf0be-ebf3-46bc-90c7-2576877734fb
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720924(v=OCS.15)
-ms:contentKeyID: 62246696
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720924(v=OCS.15)
+ms:contentKeyID: 63969648
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 74897191cac7559237e961b7600a3ed478d11e58
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826680"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitoring group chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>在 Lync Server 2013 中监视群组聊天
 
-We highly recommend running the most recent [Cumulative Server Update Installer](https://support.microsoft.com/kb/968802) available on the Microsoft Download Center for performance improvements.
+</div>
 
-Assuming you are running latest cumulative update, use the following stress test table for metrics to understand if your Group Chat Servers are running at optimal health.
+<div id="mainSection">
 
-### Test environment and user model
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-08-04_
+
+强烈建议运行 Microsoft 下载中心提供的最新[累积服务器更新安装程序](http://support.microsoft.com/kb/968802), 以提高性能。
+
+假设你正在运行最新的累积更新, 请使用以下压力测试表来了解你的群组聊天服务器是否在最佳运行状况下运行。
+
+### <a name="test-environment-and-user-model"></a>测试环境和用户模型
 
 <table>
 <colgroup>
@@ -32,75 +52,81 @@ Assuming you are running latest cumulative update, use the following stress test
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Three Group Chat Servers in a Group Chat pool, each with 8 GB memory and 8 processors.</p></td>
+<td><p>群组聊天池中的三个群组聊天服务器, 每个服务器都有 8 GB 内存和8个处理器。</p></td>
 </tr>
 <tr class="even">
-<td><p>Two Lync Server 2013 Front Ends in Enterprise Edition.</p></td>
+<td><p>企业版中的两个 Lync Server 2013 前端。</p></td>
 </tr>
 <tr class="odd">
-<td><p>60,000 concurrent users across three Group Chat Servers.</p></td>
+<td><p>60000多个群组聊天服务器上的并行用户。</p></td>
 </tr>
 <tr class="even">
-<td><p>25,000 channels hosted by Group Chat Pool.</p></td>
+<td><p>25000通道由群组聊天池托管。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Channel Size:</p>
+<td><p>频道大小:</p>
 <ul>
-<li><p>Small Channel Size: 30</p></li>
-<li><p>Medium Channel Size: 150</p></li>
-<li><p>Large Channel Size: 2500</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>Channel Count:</p>
-<ul>
-<li><p>Number small channels: 24,000</p></li>
-<li><p>Number medium channels 800</p></li>
-<li><p>Number large channels 24</p></li>
-<li><p>Total Channels 24,824</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Invite channels:</p>
-<ul>
-<li><p>Half the channels were invite channels</p></li>
+<li><p>小频道大小:30</p></li>
+<li><p>中等频道大小: 150</p></li>
+<li><p>大频道大小: 2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Number of channels a user joins:</p>
+<td><p>频道计数:</p>
 <ul>
-<li><p>Small: 12</p></li>
-<li><p>Medium: 2</p></li>
-<li><p>Large: 1</p></li>
+<li><p>数字小型频道: 24000</p></li>
+<li><p>数字中等通道800</p></li>
+<li><p>大量频道24</p></li>
+<li><p>通道24824总数</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Join rate:</p>
+<td><p>邀请频道:</p>
 <ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
+<li><p>频道的一半邀请频道</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Logout rate:</p>
+<td><p>用户加入的频道数:</p>
 <ul>
-<li><p>10 total/second, 3.33/second per server</p></li>
+<li><p>小:12</p></li>
+<li><p>中等: 2</p></li>
+<li><p>大: 1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Chat rate:</p>
+<td><p>联接费率:</p>
 <ul>
-<li><p>20 total/second, 6.66/second per server</p></li>
+<li><p>每台服务器10个总/秒、3.33/秒</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p>注销费率:</p>
+<ul>
+<li><p>每台服务器10个总/秒、3.33/秒</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>聊天费率:</p>
+<ul>
+<li><p>每个服务器20总/秒、每个服务器 6.66/秒</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!IMPORTANT]
-> The following performance counter numbers will likely vary when different hardware specifications or user profiles are used.
+<div>
 
 
-### Performance counter to be monitored
+> [!IMPORTANT]  
+> 当使用不同的硬件规范或用户配置文件时, 以下性能计数器数值可能会有所不同。
+
+
+
+</div>
+
+### <a name="performance-counter-to-be-monitored"></a>要监视的性能计数器
 
 <table>
 <colgroup>
@@ -109,15 +135,26 @@ Assuming you are running latest cumulative update, use the following stress test
 </colgroup>
 <thead>
 <tr class="header">
-<th>Performance Counter</th>
-<th>Thresholds</th>
+<th>性能计数器</th>
+<th>01b</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Process(ChannelService)-&gt;%Processor Time</p></td>
-<td><p>Min: 0</p></td>
+<td><p>Process (ChannelService)-&gt;处理器时间百分比</p></td>
+<td><p>分钟: 0</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

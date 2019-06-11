@@ -1,127 +1,189 @@
-﻿---
-title: 响应组应用程序 Cmdlet
-TOCTitle: 响应组应用程序 Cmdlet
-ms:assetid: 5710163c-e6c2-4ca5-b247-5bf9df6c954e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415654(v=OCS.15)
-ms:contentKeyID: 49312907
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 响应组应用程序 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Response Group application cmdlets
+ms:assetid: 5710163c-e6c2-4ca5-b247-5bf9df6c954e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415654(v=OCS.15)
+ms:contentKeyID: 48184199
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a20f0d9bc23acfb564de220e944b6886daee11c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 响应组应用程序 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="response-group-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的响应组应用程序 cmdlet
 
-响应组应用程序是一种企业语音呼叫管理功能，该功能可将传入呼叫路由到代理组。
+</div>
 
-## 响应组应用程序 Cmdlet
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-26_
+
+"响应组应用程序" 是一种企业语音呼叫管理功能, 可将传入呼叫路由到多组代理。
+
+<div>
+
+## <a name="response-group-application-cmdlets"></a>响应组应用程序 Cmdlet
 
 以下 cmdlet 可用于管理响应组应用程序。
 
 **响应组应用程序**
 
-  -   
-    [Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+  - <span></span>  
+    [CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
 
-  -   
-    [New-CsRgsAgentGroup](new-csrgsagentgroup.md)
+  - <span></span>  
+    [新-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
 
-  -   
-    [Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)
+  - <span></span>  
+    [Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
 
-  -   
-    [Set-CsRgsAgentGroup](set-csrgsagentgroup.md)
+  - <span></span>  
+    [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
 
-  -   
-    [New-CsRgsAnswer](new-csrgsanswer.md)
+<!-- end list -->
 
-  -   
-    [Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+  - <span></span>  
+    [新-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
 
-  -   
-    [New-CsRgsCallAction](new-csrgscallaction.md)
+<!-- end list -->
 
-  -   
-    [Export-CsRgsConfiguration](export-csrgsconfiguration.md)
+  - <span></span>  
+    [Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
 
-  -   
-    [Get-CsRgsConfiguration](get-csrgsconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Import-CsRgsConfiguration](import-csrgsconfiguration.md)
+  - <span></span>  
+    [新-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
 
-  -   
-    [Move-CsRgsConfiguration](move-csrgsconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Set-CsRgsConfiguration](set-csrgsconfiguration.md)
+  - <span></span>  
+    [Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))
 
-  -   
-    [New-CsRgsHoliday](new-csrgsholiday.md)
+  - <span></span>  
+    [CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))
 
-  -   
-    [Get-CsRgsHolidaySet](get-csrgsholidayset.md)
+  - <span></span>  
+    [Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))
 
-  -   
-    [New-CsRgsHolidaySet](new-csrgsholidayset.md)
+  - <span></span>  
+    [移动-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))
 
-  -   
-    [Remove-CsRgsHolidaySet](remove-csrgsholidayset.md)
+  - <span></span>  
+    [Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))
 
-  -   
-    [Set-CsRgsHolidaySet](set-csrgsholidayset.md)
+<!-- end list -->
 
-  -   
-    [Get-CsRgsHoursOfBusiness](get-csrgshoursofbusiness.md)
+  - <span></span>  
+    [新-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
 
-  -   
-    [New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsRgsHoursOfBusiness](remove-csrgshoursofbusiness.md)
+  - <span></span>  
+    [CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))
 
-  -   
-    [Set-CsRgsHoursOfBusiness](set-csrgshoursofbusiness.md)
+  - <span></span>  
+    [新-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))
 
-  -   
-    [New-CsRgsPrompt](new-csrgsprompt.md)
+  - <span></span>  
+    [Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))
 
-  -   
-    [New-CsRgsQuestion](new-csrgsquestion.md)
+  - <span></span>  
+    [Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))
 
-  -   
-    [Get-CsRgsQueue](get-csrgsqueue.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsQueue](new-csrgsqueue.md)
+  - <span></span>  
+    [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
 
-  -   
-    [Remove-CsRgsQueue](remove-csrgsqueue.md)
+  - <span></span>  
+    [新-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
 
-  -   
-    [Set-CsRgsQueue](set-csrgsqueue.md)
+  - <span></span>  
+    [Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
 
-  -   
-    [New-CsRgsTimeRange](new-csrgstimerange.md)
+  - <span></span>  
+    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))
 
-  -   
-    [Get-CsRgsWorkflow](get-csrgsworkflow.md)
+<!-- end list -->
 
-  -   
-    [New-CsRgsWorkflow](new-csrgsworkflow.md)
+  - <span></span>  
+    [New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
 
-  -   
-    [Remove-CsRgsWorkflow](remove-csrgsworkflow.md)
+<!-- end list -->
 
-  -   
-    [Set-CsRgsWorkflow](set-csrgsworkflow.md)
+  - <span></span>  
+    [新-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
 
-## 另请参阅
+<!-- end list -->
 
-#### 其他资源
+  - <span></span>  
+    [CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [新-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [新-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
+
+  - <span></span>  
+    [新-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

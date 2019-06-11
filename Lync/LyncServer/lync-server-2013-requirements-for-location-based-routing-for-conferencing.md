@@ -1,38 +1,65 @@
-﻿---
-title: 基于位置的路由会议的要求
-TOCTitle: 基于位置的路由会议的要求
-ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn362806(v=OCS.15)
-ms:contentKeyID: 56271162
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 适用于会议的基于位置的路由的要求'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Requirements for Location-Based Routing for conferencing
+ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)
+ms:contentKeyID: 56335085
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 925b71497012d7e6ed9c19042a079a7b30630c47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823320"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 基于位置的路由会议的要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中基于位置的会议路由的要求
 
-以下是安装和配置基于位置的路由会议应用程序时必须满足的要求：
+</div>
 
-  - 必须在您的拓扑中的所有服务器或池上部署 Lync Server 2013 累积更新 2。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-07-19_
+
+以下是安装和配置基于位置的路由会议应用程序所需的要求:
+
+  - Lync Server 2013 累积更新2必须部署在拓扑中的所有服务器或池上。
+
+<div>
+
 
 > [!NOTE]  
-> 如果您的拓扑中的 Lync 服务器或池未安装 Lync Server 2013 累积更新 2 或更高版本，则无法确保能够强制实施 Lync 会议的基于位置的路由。
+> 如果拓扑中的 Lync 服务器或池未安装 Lync Server 2013 累积更新2或更高版本, 则不能保证对 Lync 会议的基于位置的路由的强制。
 
 
 
-  - Lync Server 2013 基于位置的路由是基于位置的路由会议应用程序的先决条件。有关配置 Lync Server 2013 基于位置的路由的详细信息，请参阅[配置基于位置的路由](lync-server-2013-configuring-location-based-routing.md)。
+</div>
 
-  - 基于位置的路由会议应用程序的要求与 Lync Server 2013 基于位置的路由的要求相同。有关详细信息，请参阅[规划基于位置的路由](lync-server-2013-planning-for-location-based-routing.md)。
+  - Lync Server 2013 基于位置的路由是基于位置的路由会议应用程序的先决条件。 有关配置 Lync Server 2013 基于位置的路由的详细信息, 请参阅[配置基于位置的路由](lync-server-2013-configuring-location-based-routing.md)。
 
-## 支持的服务器
+  - 基于位置的路由会议应用程序的要求与 Lync Server 2013 基于位置的路由的要求相同。 有关详细信息, 请参阅[规划基于位置的路由](lync-server-2013-planning-for-location-based-routing.md)。
 
-基于位置的路由会议应用程序要求在您的拓扑中的所有前端池和 Standard Edition Server 上部署 Lync Server 2013 累积更新 2。如果您的拓扑中的某些 Lync Server 上未安装 Lync Server 2013 累积更新 2，则无法对 Lync 会议和咨询呼叫转接完全强制实施基于位置的路由限制。
+<div>
 
-下表介绍了支持基于位置的路由的服务器角色和版本的组合。
+## <a name="supported-servers"></a>支持的服务器
+
+基于位置的路由会议应用程序要求在拓扑中的所有前端池和标准版服务器上部署 Lync Server 2013 累积更新2。 如果您的拓扑中的某些 Lync 服务器上未安装 Lync Server 2013 累积更新 2, 基于位置的路由限制不能在 Lync 会议和咨询式呼叫转移上完全强制实施。
+
+下表标识了支持基于位置的路由的服务器角色和版本的组合。
 
 
 <table>
@@ -86,39 +113,63 @@ _**上一次修改主题：** 2016-12-08_
 </table>
 
 
-## 支持的客户端
+</div>
 
-支持 Lync 会议基于位置的路由的 Lync 客户端与支持 Lync Server 2013 基于位置的路由的客户端相同。有关详细信息，请参阅[基于位置的路由的客户端和服务器支持](lync-server-2013-client-and-server-support-for-location-based-routing.md)。
+<div>
 
-## 咨询呼叫转接的中介服务器要求
+## <a name="supported-clients"></a>支持的客户端
 
-基于位置的路由会议应用程序要求部署独立的中介服务器，以便对咨询呼叫转接强制实施基于位置的路由限制。
+支持 Lync 会议基于位置路由的 Lync 客户端是支持 Lync Server 2013 基于位置的路由的相同客户。 有关详细信息, 请参阅[客户端和服务器支持以获取基于位置的路由](lync-server-2013-client-and-server-support-for-location-based-routing.md)。
 
-要对咨询呼叫转接强制实施基于位置的路由，中介服务器必须仅与需要基于位置的路由的网络区域中的一个中介服务器对等方（例如，PBX、SIP 网关等）相关联。如果在相同网络区域中部署了其他中介服务器对等方，则该中介服务器对等方必须与不同的中介服务器相关联。下面详细介绍了此要求：
+</div>
 
-  - 当咨询呼叫转接通过一个中介服务器路由到中介服务器对等方并且该中介服务器配置了至多个对等方（例如，PBX 和网关）的多个 SIP 中继时，多个中介服务器对等方使用单个中介服务器；如果咨询呼叫转接允许通过一些 SIP 中继执行，但不允许通过其他 SIP 中继执行，则咨询呼叫转接将被阻止，以防止 PSTN 收费绕路情形。
+<div>
+
+## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>咨询式呼叫转移的中介服务器要求
+
+基于位置的路由会议应用程序需要部署独立的中介服务器, 以便在咨询式呼叫转移上强制使用基于位置的路由限制。
+
+若要强制执行基于位置的咨询呼叫转移路由, 中介服务器只能与需要基于位置的路由的网络区域中的一个中介服务器对等 (如 PBX、SIP 网关等) 相关联。 如果在同一网络区域中部署其他中介服务器对等, 则中介服务器必须与不同的中介服务器相关联。 此要求的详细信息如下:
+
+  - 每台多个中介服务器对等的单中介服务器当通过将多个 SIP 中继配置为多个对等 (即 Pbx 和网关) 的中介服务器将咨询呼叫转移路由到中介服务器对等如果通过某些 SIP 中继允许咨询呼叫转接, 但禁止通过其他 SIP 中继, 则呼叫转接被阻止, 以防止 PSTN 长途电话旁路。
     
-    例如，如果单个中介服务器为 PSTN 网关中介服务器对等方和 PBX 中介服务器对等方提供服务，则将观察到以下行为：
+    例如, 在单个中介服务器处理 PSTN 网关中介服务器对等和 PBX 中介服务器对等的情况下, 将看到以下行为:
     
-      - 当给定站点（如站点 1）中的 Lync 用户试图通过咨询转接将与 PSTN 终结点进行的呼叫转接给不同站点（如站点 2）中的 Lync 用户时，不允许该呼叫，以防止 PSTN 收费绕路情形。
+      - 当来自给定网站 (即站点 1) 的 Lync 用户尝试通过顾问式转移将具有 PSTN 终结点的呼叫转移到其他网站 (即 site 2) 中的 Lync 用户时, 将禁止呼叫阻止 PSTN 免绕过。
     
-      - 当给定站点（如站点 1）中的 Lync 用户试图通过咨询转接将与相同站点（如站点 1）中的 PBX 终结点进行的呼叫转接给不同站点（如站点 2）中的 Lync 用户时，即使不会发生潜在的 PSTN 收费绕路情形，也不允许该呼叫。
+      - 当来自给定网站 (即站点 1) 的 Lync 用户尝试将同一站点 (站点 1) 中的 PBX 终结点与 Lync 用户 (即 site 2) 转移到来自另一个网站 (即 site 2) 的 Lync 用户时, 即使不是在潜在的 PSTN tol 中, 也将禁止呼叫。l 忽略。
 
-  - 每个中介服务器对等方使用单独的中介服务器
+  - 每个中介服务器对等单独的中介服务器
     
-    当咨询转接的目标是中介服务器对等方时，将根据中介服务器所服务的单个中介服务器对等方对咨询转接进行评估。无论单独的中介服务器为站点中的所有其他中介服务器对等方提供服务时这些对等方如何，将根据是否可能发生 PSTN 收费绕路情形来禁止或允许呼叫。
+    当向中介服务器对等进行定向传输时, 将根据中介服务器提供服务的单个中介服务器对来评估咨询转移。 无论其他 Mediations 服务器在不同的中介服务器中提供服务, 该呼叫都将在 PSTN 免绕过的可能性内被禁止或允许使用。
     
-    例如，如果单独的中介服务器为 PSTN 网关中介服务器对等方和 PBX 中介服务器对等方提供服务，则将观察到以下行为：
+    例如, 在单独的中介服务器处理 PSTN 网关中介服务器对等和 PBX 中介服务器对等的情况下, 将看到以下行为:
     
-      - 当给定站点（如站点 1）中的 Lync 用户试图通过咨询转接将与 PSTN 终结点进行的呼叫转接给不同站点（如站点 2）中的 Lync 用户时，不允许该呼叫，以防止 PSTN 收费绕路情形。
+      - 当来自给定网站 (即站点 1) 的 Lync 用户尝试通过顾问式转移将具有 PSTN 终结点的呼叫转移到其他网站 (即 site 2) 中的 Lync 用户时, 将禁止呼叫阻止 PSTN 免绕过。
     
-      - 当给定站点（如站点 1）中的 Lync 用户试图通过咨询转接将与相同站点（如站点 1）中的 PBX 终结点进行的呼叫转接给不同站点（如站点 2）中的 Lync 用户时，如果不会发生潜在的 PSTN 收费绕路情形则允许该呼叫。
+      - 当来自给定网站 (即站点 1) 的 Lync 用户尝试将同一站点 (站点 1) 中的 PBX 终结点与 Lync 用户 (即 site 2) 从咨询转移转移到其他网站 (即 site 2) 上的 lync 用户时, 将允许进行呼叫, 因为它不会在潜在的 PSTN 免绕过&.
 
-## 基于位置的路由会议应用程序不支持的功能
+</div>
 
-基于位置的路由会议应用程序不支持以下功能：
+<div>
 
-  - 不能为电话拨入式会议强制实施基于位置的路由。即使会议组织是启用了基于位置的路由的 Lync 用户，给定会议的任何拨入请求也不受基于位置的路由限制。
+## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>基于位置的路由会议应用程序不支持的功能
 
-  - 建议不要在需要强制实施基于位置的路由的区域中设置会议访问号码。
+基于位置的路由会议应用程序不支持以下功能:
+
+  - 电话拨入式会议。 不能为电话拨入式会议强制使用基于位置的路由。 对给定会议的任何拨入请求不会受到基于位置的路由限制, 即使会议组织者是启用了基于位置的路由的 Lync 用户。
+
+  - 建议在需要强制实施基于位置的路由限制的区域中设置会议访问号码。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

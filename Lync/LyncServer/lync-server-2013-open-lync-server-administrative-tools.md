@@ -1,21 +1,41 @@
-﻿---
-title: 打开 Lync Server 管理工具
-TOCTitle: 打开 Lync Server 管理工具
-ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg195741(v=OCS.15)
-ms:contentKeyID: 49313528
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 打开 Lync Server 管理工具'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Open Lync Server administrative tools
+ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195741(v=OCS.15)
+ms:contentKeyID: 48184778
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa84c132061cb599448b78cf7d4ffcc6bd7fa3d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 打开 Lync Server 管理工具
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-06-28_
+# <a name="open-lync-server-2013-administrative-tools"></a>打开 Lync Server 2013 管理工具
 
-可以使用本主题中的过程来打开管理工具，以便部署、配置 Lync Server 2013 拓扑或对其进行疑难解答。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-28_
+
+你可以使用本主题中的过程打开管理工具, 以部署、配置 Lync Server 2013 拓扑或对其进行故障排除。
 
   - 部署向导
 
@@ -25,81 +45,156 @@ _**上一次修改主题：** 2012-06-28_
 
   - Lync Server 命令行管理程序
 
-## 部署向导
+<span id="BKMK_OpenDeploymentWizard"></span>
 
-可使用下面的过程本地启动部署向导来添加或删除 Lync Server 2013 组件文件。
+<div>
 
-## 启动 Lync Server 2013 部署向导
+## <a name="deployment-wizard"></a>部署向导
 
-1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了 Lync Server 部署向导的计算机。
+使用以下过程在本地启动部署向导以添加或删除 Lync Server 2013 组件文件。
 
-2.  依次单击“开始”、“所有程序”、“Microsoft Lync Server 2013”和“Lync Server 部署向导”。
+<div>
 
-## 拓扑生成器
+## <a name="to-start-lync-server-2013-deployment-wizard"></a>启动 Lync Server 2013 部署向导
 
-可使用下面的过程打开拓扑生成器以定义要在 Lync Server 2013 拓扑中部署的服务器。
+1.  登录到安装了 Lync Server 部署向导的计算机, 作为 "域管理员" 组和 "RTCUniversalServerAdmins" 组的成员。
 
-## 打开 Lync Server 2013 拓扑生成器以设计拓扑
+2.  单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft Lync server 2013**", 然后单击 " **Lync server 部署向导**"。
+
+</div>
+
+</div>
+
+<span id="BKMK_OpenTopologyBuilder"></span>
+
+<div>
+
+## <a name="topology-builder"></a>拓扑生成器
+
+使用以下过程打开拓扑生成器以定义要在 Lync Server 2013 拓扑中部署的服务器。
+
+<div>
+
+## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a>打开 Lync Server 2013 拓扑生成器以设计拓扑
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
     
+    <div>
+    
+
     > [!NOTE]  
-	> 可以使用作为本地用户组成员的帐户来定义拓扑，但若要读取、发布或启用拓扑（这是在服务器上安装 Lync Server 2013 所必需的），您必须使用作为 Domain Admins 组和 RTCUniversalServerAdmins 组的成员的帐户（此类帐户应在要用于存档文件存储的文件共享上具有完全控制权限，即读取、写入和修改权限，以使拓扑生成器可以配置所需的随机访问控制列表 (DACL)），或具有同等用户权限的帐户。
+    > 你可以通过使用属于本地用户组的成员的帐户定义拓扑, 但要读取、发布或启用拓扑 (需要在服务器上安装 Lync Server 2013), 必须使用域管理员组和 RTCUniv 的成员帐户。ersalServerAdmins 组, 并且具有对要用于存档文件存储的文件共享的完全控制权限 (即读取、写入和修改), 以便拓扑生成器可以配置所需的随机访问控制列表 (Dacl),或具有同等用户权限的帐户。
+
     
+    </div>
 
+2.  启动拓扑生成器: 单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft Lync server 2013**", 然后单击 " **Lync server 拓扑生成器**"。
 
-2.  启动拓扑生成器：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 拓扑生成器”。
+</div>
 
-## Lync Server 2013 控制面板
+</div>
 
-可以使用下面的过程打开 Lync Server 2013 控制面板以管理环境中服务器、用户、客户端和设备的配置。
+<span id="BKMK_OpenControlPanel"></span>
+
+<div>
+
+## <a name="lync-server-2013-control-panel"></a>Lync Server 2013 控制面板
+
+使用以下过程之一打开 Lync Server 2013 控制面板以管理你环境中的服务器、用户、客户端和设备的配置。
+
+<div>
+
 
 > [!NOTE]  
-> 可以使用分配给 CsAdministrator 角色的用户帐户来执行 Lync Server 2013 控制面板中的任何任务。可使用其他角色登录 Lync Server 2013 控制面板来执行特定的管理任务，具体取决于需执行的任务。例如，可使用 CSArchivingAdministrator 管理 Lync Server 2013 控制面板中的存档。有关角色的详细信息，请参阅规划文档中的<a href="lync-server-2013-planning-for-role-based-access-control.md">在 Lync Server 2013 中规划基于角色的访问控制</a>。有关可用于执行某项特定任务的角色的详细信息，请参阅该任务的文档。
+> 你可以使用分配给 CsAdministrator 角色的用户帐户在 Lync Server 2013 "控制面板" 中执行任何任务。 你可以使用其他角色登录 Lync Server 2013 控制面板以执行特定的管理任务, 具体取决于你需要执行的任务。 例如, 你可以使用 CSArchivingAdministrator 在 Lync Server 2013 控制面板中管理存档。 有关角色的详细信息, 请参阅规划文档中的在<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A>。 有关可用于执行特定任务的角色的详细信息, 请参阅该任务的文档。
 
 
 
-## 从组织防火墙内的任何计算机中打开 Lync Server 2013 控制面板
+</div>
 
-1.  使用分配给 CsAdministrator 角色或其他角色，并且具有与要执行的任务对应的用户权限的用户帐户，登录到内部部署中最低屏幕分辨率为 1024 x 768 的任何计算机。
+<div>
+
+## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a>从组织防火墙内的任何计算机打开 Lync Server 2013 控制面板
+
+1.  从分配给 CsAdministrator 角色的用户帐户或具有要执行的任务的相应权限的其他角色, 使用 1024 x 768 的最低屏幕分辨率登录到内部部署中的任何计算机。
     
-    > [!IMPORTANT]
-    > 如果已配置管理简单统一资源定位器 (URL)，则可通过在组织防火墙内的计算机上运行的 Internet 浏览器访问 Lync Server 2013 控制面板。有关配置管理简单 URL 的详细信息，请参阅规划文档中的<a href="lync-server-2013-planning-for-simple-urls.md">在 Lync Server 2013 中规划简单 URL</a> 和部署文档中的<a href="lync-server-2013-edit-or-configure-simple-urls.md">在 Lync Server 2013 中编辑或配置简单 URL</a>。
+    <div>
+    
 
+    > [!IMPORTANT]  
+    > 如果已配置了管理简单的统一资源定位器 (URL), 则可以从组织防火墙内任何计算机上运行的 Internet 浏览器访问 Lync Server 2013 控制面板。 有关配置管理简单 URL 的详细信息, 请参阅规划文档中的 "<A href="lync-server-2013-planning-for-simple-urls.md">在 Lync server 2013 中规划简单 url</A> " 和 "在部署文档中在<A href="lync-server-2013-edit-or-configure-simple-urls.md">lync Server 2013 中编辑或配置简单 url</A> "。
 
-2.  打开浏览器窗口，然后输入为组织配置的管理 URL。
+    
+    </div>
 
-## 在运行 Lync Server 2013 的计算机上打开 Lync Server 2013 控制面板
+2.  打开一个浏览器窗口, 然后输入为你的组织配置的管理员 URL。
 
-1.  使用作为 CsAdministrator 角色或其他角色的成员，并且具有与要执行的任务对应的用户权限的用户帐户，登录到安装了 Lync Server 2013 或至少安装了 Lync Server 2013 管理工具的计算机。若要配置设置，计算机的最低屏幕分辨率必须为 1024 x 768。
+</div>
 
-2.  启动 Lync Server 2013 控制面板：单击“开始”、再单击“所有程序”，指向“管理工具”、再指向“Microsoft Lync Server 2013”，然后单击“Lync Server 2013 控制面板”。
+<div>
 
-## Lync Server 2013 命令行管理程序
+## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>在运行 Lync Server 2013 的计算机上打开 Lync Server 2013 控制面板
 
-可使用下面的过程打开 Lync Server 2013 命令行管理程序，以通过使用命令行来管理环境中的服务器、用户、客户端和设备。
+1.  从属于 CsAdministrator 角色的用户帐户或其他具有要执行任务的相应权限的角色的用户帐户, 登录到已安装 Lync Server 2013 的计算机, 或者至少是 Lync Server 2013 administrat我的工具。 要配置设置, 计算机必须具有最小的屏幕分辨率 1024 x 768。
+
+2.  启动 Lync Server 2013 控制面板: 单击 "**开始**", 单击 "**所有程序**", 指向 "**管理工具**", 指向 " **Microsoft Lync Server 2013**", 然后单击 " **Lync server 2013 控制面板**"。
+
+</div>
+
+</div>
+
+<span id="BKMK_OpenManagementShell"></span>
+
+<div>
+
+## <a name="lync-server-2013-management-shell"></a>Lync Server 2013 命令行管理程序
+
+使用以下过程打开 Lync Server 2013 管理外壳程序, 以使用命令行管理你环境中的服务器、用户、客户端和设备。
+
+<div>
+
 
 > [!NOTE]  
-> 可以使用分配给 CsAdministrator 角色的用户帐户来执行 Lync Server 2013 命令行管理程序中的任何任务。可使用其他角色登录以执行特定的管理任务，具体取决于需执行的任务。例如，可以使用 CSArchivingAdministrator 运行与存档管理相关的 cmdlet。有关角色的详细信息，请参阅规划文档中的<a href="lync-server-2013-planning-for-role-based-access-control.md">在 Lync Server 2013 中规划基于角色的访问控制</a>。有关可用于运行某个特定 cmdlet 的角色的详细信息，请参阅该 cmdlet 的文档。<br />
-还可以使用 RTCUniversalServerAdmins 组、RTCUniversalUserAdmins 组或 RTCUniversalReadOnlyAdmins 组中的用户帐户来运行某些 cmdlet，具体取决于该 cmdlet。
+> 你可以使用分配给 CsAdministrator 角色的用户帐户在 Lync Server 2013 命令行管理程序中执行任何任务。 你可以使用其他角色登录, 以执行特定的管理任务, 具体取决于你需要执行的任务。 例如, 你可以使用 CSArchivingAdministrator 来运行与存档管理相关的 cmdlet。 有关角色的详细信息, 请参阅规划文档中的在<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A>。 有关可用于运行特定 cmdlet 的角色的详细信息, 请参阅 cmdlet 的文档。<BR>你还可以使用 RTCUniversalServerAdmins、RTCUniversalUserAdmins 或 RTCUniversalReadOnlyAdmins 组中的用户帐户 (具体取决于 cmdlet) 运行某些 cmdlet。
 
 
 
-## 打开 Lync Server 2013 命令行管理程序
+</div>
 
-  - 如果您打开 Windows PowerShell 窗口而非 Lync Server 2013 命令行管理程序，则默认情况下，您无法运行 Lync Server 2013 cmdlet。若要从 Windows PowerShell 中运行 Lync Server 2013 cmdlet，请在 Windows PowerShell 命令提示符处键入：
+<div>
+
+## <a name="to-open-the-lync-server-2013-management-shell"></a>打开 Lync Server 2013 命令行管理程序
+
+  - 如果打开的是 Windows PowerShell 窗口, 而不是 Lync Server 2013 管理程序外壳, 则默认情况下无法运行 Lync Server 2013 cmdlet。 若要从 Windows PowerShell 中运行 Lync Server 2013 cmdlet, 请在 Windows PowerShell 命令提示符处键入以下内容:
     
     `Import-Module Lync`
 
-  - 启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+  - 启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
-## 另请参阅
+</div>
 
-#### 任务
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [安装 Lync Server 2013 管理工具](lync-server-2013-install-lync-server-administrative-tools.md)  
 
-#### 概念
 
-[Lync Server 2013 管理工具](lync-server-2013-lync-server-administrative-tools.md)
+[Lync Server 2013 管理工具](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

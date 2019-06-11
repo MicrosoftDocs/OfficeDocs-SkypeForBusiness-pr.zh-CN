@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：MonitoredRegionLink 表
-TOCTitle: MonitoredRegionLink 表
-ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398874(v=OCS.15)
-ms:contentKeyID: 49314285
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：MonitoredRegionLink 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MonitoredRegionLink table
+ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398874(v=OCS.15)
+ms:contentKeyID: 48185487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a176136f28f7f343dc081ca9b551a672b35e7785
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826764"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 MonitoredRegionLink 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a>Lync Server 2013 中的 MonitoredRegionLink 表
 
-MonitoredRegionLink 表是一个支持表。每条记录都代表两个国家/地区之间的一个链接。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+MonitoredRegionLink 表是支持表。 每条记录表示两个国家/地区之间的一个链接。
 
 
 <table>
@@ -37,15 +57,26 @@ MonitoredRegionLink 表是一个支持表。每条记录都代表两个国家/�
 <tr class="odd">
 <td><p><strong>Region1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>引用自 <a href="lync-server-2013-region-table.md">Lync Server 2013 中的 Region 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>从<a href="lync-server-2013-region-table.md">Lync Server 2013 中的区域表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Region2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>引用自 <a href="lync-server-2013-region-table.md">Lync Server 2013 中的 Region 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>从<a href="lync-server-2013-region-table.md">Lync Server 2013 中的区域表中</a>引用。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
