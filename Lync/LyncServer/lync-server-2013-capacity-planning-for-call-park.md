@@ -1,27 +1,55 @@
-﻿---
-title: Lync Server 2013：呼叫寄存容量规划
-TOCTitle: 呼叫寄存容量规划
-ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg416493(v=OCS.15)
-ms:contentKeyID: 49313273
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：呼叫寄存容量规划
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Call Park
+ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
+ms:contentKeyID: 48184529
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5fe55e09c67e62676202def9e3def3454d7cbd33
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837677"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的呼叫寄存容量规划
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="994b7-102">Lync Server 2013 中的呼叫寄存容量规划</span><span class="sxs-lookup"><span data-stu-id="994b7-102">Capacity planning for Call Park in Lync Server 2013</span></span>
 
-下表介绍可用作容量规划要求基础的 呼叫寄存用户模型。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="994b7-103">_**主题上次修改时间:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="994b7-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+
+<div id="sectionSection0" class="section">
+
+<span data-ttu-id="994b7-104">下表介绍了可用作容量规划要求基础的 "呼叫驻留" 用户模型。</span><span class="sxs-lookup"><span data-stu-id="994b7-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> 请注意，在规划灾难恢复容量时，配对池中的每个池都应该能够处理这两个池中的 呼叫寄存服务的工作负载。
+> <span data-ttu-id="994b7-105">请记住, 对于灾难恢复容量规划, 配对池的每个池都应该能够处理两个池中的呼叫驻留服务的工作负荷。</span><span class="sxs-lookup"><span data-stu-id="994b7-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
 
 
-### 呼叫寄存用户模型
+
+</div>
+
+### <a name="call-park-user-model"></a><span data-ttu-id="994b7-106">呼叫寄存用户模型</span><span class="sxs-lookup"><span data-stu-id="994b7-106">Call Park User Model</span></span>
 
 <table>
 <colgroup>
@@ -31,27 +59,40 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>指标</th>
-<th>每个 前端池 （具有 8 台前端服务器）</th>
-<th>每个 Standard Edition Server</th>
+<th><span data-ttu-id="994b7-107">指标</span><span class="sxs-lookup"><span data-stu-id="994b7-107">Metric</span></span></th>
+<th><span data-ttu-id="994b7-108">每个前端池 (具有8个前端服务器)</span><span class="sxs-lookup"><span data-stu-id="994b7-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="994b7-109">每台 Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="994b7-109">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>寄存速率</p></td>
-<td><p>每分钟 8 个</p></td>
-<td><p>每分钟 1 个</p></td>
+<td><p><span data-ttu-id="994b7-110">寄存速率</span><span class="sxs-lookup"><span data-stu-id="994b7-110">Park rate</span></span></p></td>
+<td><p><span data-ttu-id="994b7-111">每分钟 8 个</span><span class="sxs-lookup"><span data-stu-id="994b7-111">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="994b7-112">每分钟 1 个</span><span class="sxs-lookup"><span data-stu-id="994b7-112">1 per minute</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>取回寄存呼叫的速率</p></td>
-<td><p>每分钟 8 个</p></td>
-<td><p>每分钟 1 个</p></td>
+<td><p><span data-ttu-id="994b7-113">取回寄存呼叫的速率</span><span class="sxs-lookup"><span data-stu-id="994b7-113">Retrieve parked call rate</span></span></p></td>
+<td><p><span data-ttu-id="994b7-114">每分钟 8 个</span><span class="sxs-lookup"><span data-stu-id="994b7-114">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="994b7-115">每分钟 1 个</span><span class="sxs-lookup"><span data-stu-id="994b7-115">1 per minute</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>平均寄存持续时间</p></td>
-<td><p>60 秒</p></td>
-<td><p>60 秒</p></td>
+<td><p><span data-ttu-id="994b7-116">平均寄存持续时间</span><span class="sxs-lookup"><span data-stu-id="994b7-116">Average park duration</span></span></p></td>
+<td><p><span data-ttu-id="994b7-117">60 秒</span><span class="sxs-lookup"><span data-stu-id="994b7-117">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="994b7-118">60 秒</span><span class="sxs-lookup"><span data-stu-id="994b7-118">60 seconds</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

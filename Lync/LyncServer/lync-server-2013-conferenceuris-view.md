@@ -1,21 +1,41 @@
-﻿---
-title: ConferenceUris 视图
-TOCTitle: ConferenceUris 视图
-ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688148(v=OCS.15)
-ms:contentKeyID: 49888528
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceUris 视图'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceUris view
+ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688148(v=OCS.15)
+ms:contentKeyID: 49733750
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba86314944502acfa85bd71e121880f9d5cf26dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837472"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# ConferenceUris 视图
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="conferenceuris-view-in-lync-server-2013"></a><span data-ttu-id="44a3a-102">Lync Server 2013 中的 ConferenceUris 视图</span><span class="sxs-lookup"><span data-stu-id="44a3a-102">ConferenceUris view in Lync Server 2013</span></span>
 
-ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。此视图是在 Microsoft Lync Server 2013 中引入的。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="44a3a-103">_**主题上次修改时间:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="44a3a-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="44a3a-104">ConfernceUris 视图存储参与会议会话的 Uri 的相关信息。</span><span class="sxs-lookup"><span data-stu-id="44a3a-104">The ConfernceUris view stores information about the URIs that have participated in conference sessions.</span></span> <span data-ttu-id="44a3a-105">此视图已在 Microsoft Lync Server 2013 中引入。</span><span class="sxs-lookup"><span data-stu-id="44a3a-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -26,27 +46,38 @@ ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。此视�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>数据类型</th>
-<th>详细信息</th>
+<th><span data-ttu-id="44a3a-106">列</span><span class="sxs-lookup"><span data-stu-id="44a3a-106">Column</span></span></th>
+<th><span data-ttu-id="44a3a-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="44a3a-107">Data Type</span></span></th>
+<th><span data-ttu-id="44a3a-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="44a3a-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ConferenceUriId</p></td>
-<td><p>int</p></td>
-<td><p>标识此会议 URI 的唯一编号。</p></td>
+<td><p><span data-ttu-id="44a3a-109">ConferenceUriId</span><span class="sxs-lookup"><span data-stu-id="44a3a-109">ConferenceUriId</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-110">int</span><span class="sxs-lookup"><span data-stu-id="44a3a-110">int</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-111">标识会议 URI 的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="44a3a-111">Unique number identifying the conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ConferenceUri</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>会议的 URI。</p></td>
+<td><p><span data-ttu-id="44a3a-112">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="44a3a-112">ConferenceUri</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="44a3a-113">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-114">会议的 URI。</span><span class="sxs-lookup"><span data-stu-id="44a3a-114">URI of the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConferenceUriType</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>会议 URI 的类型。有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p><span data-ttu-id="44a3a-115">ConferenceUriType</span><span class="sxs-lookup"><span data-stu-id="44a3a-115">ConferenceUriType</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="44a3a-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="44a3a-117">会议 URI 的类型。</span><span class="sxs-lookup"><span data-stu-id="44a3a-117">Type of conference URI.</span></span> <span data-ttu-id="44a3a-118">有关详细信息, 请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</span><span class="sxs-lookup"><span data-stu-id="44a3a-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

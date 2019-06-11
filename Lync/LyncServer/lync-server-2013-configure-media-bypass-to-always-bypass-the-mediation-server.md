@@ -1,53 +1,94 @@
-﻿---
-title: 配置媒体绕过以始终绕过中介服务器
-TOCTitle: 配置媒体绕过以始终绕过中介服务器
-ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425846(v=OCS.15)
-ms:contentKeyID: 49312492
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置 "绕过媒体" 以始终绕过中介服务器'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media bypass to always bypass the Mediation Server
+ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
+ms:contentKeyID: 48183819
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837349"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 配置媒体绕过以始终绕过中介服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-25_
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a><span data-ttu-id="e21fe-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="e21fe-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e21fe-103">_**主题上次修改时间:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="e21fe-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 本主题假定，对于希望媒体绕过中介服务器的特定站点或特定服务，已为连接到对等方（Internet 电话服务提供商 (ITSP) 的公用电话交换网 (PSTN) 网关、IP-PBX 或会话边界控制器）的所有中继连接配置媒体旁路。<br />
-如果启用了呼叫允许控制，则无法将媒体配置为始终绕过中介服务器。这些设置不兼容，因此在 Lync Server 控制面板用户界面中是相互排斥的设置。
+> <span data-ttu-id="e21fe-104">本主题假定你已针对特定的情况, 在 Internet 电话服务提供商 (ITSP) 处为对等 (公共交换电话网络 (PSTN) 网关、IP PBX 或会话边界控制器 (SBC) 的任何主干连接配置了媒体旁路您希望媒体绕过中介服务器的网站或服务。</span><span class="sxs-lookup"><span data-stu-id="e21fe-104">This topic assumes that you have already configured media bypass for any trunk connections to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP)) for a specific site or service for which you want media to bypass the Mediation Server.</span></span><BR><span data-ttu-id="e21fe-105">您不能将媒体配置为始终绕过中介服务器, 同时启用呼叫许可控制。</span><span class="sxs-lookup"><span data-stu-id="e21fe-105">You cannot configure media to always bypass the Mediation Server while also enabling call admission control.</span></span> <span data-ttu-id="e21fe-106">这些设置不兼容, 因此在 Lync Server 控制面板用户界面中是相互排斥的设置。</span><span class="sxs-lookup"><span data-stu-id="e21fe-106">These settings are incompatible and are therefore mutually exclusive settings in the Lync Server Control Panel user interface.</span></span>
 
 
 
-除了为与中介服务器的对等方相关联的各个中继连接启用媒体旁路功能外，还必须配置全局媒体旁路设置。如果使用本主题中的步骤配置全局媒体旁路设置，则假定前提是 Lync 终结点与在中继连接上配置了媒体旁路的任何对等方之间的连接工作正常。
+</div>
 
-如果 Lync Server 终结点与中介服务器的所有对等方（已对其相应的中继连接启用媒体旁路）之间的连接工作不正常，则采用媒体旁路时必须配置全局媒体旁路设置以使用站点和区域信息。这可以在媒体绕过中介服务器时，提供更为细化的控制。为执行此操作，请改用[配置媒体绕过全局设置以使用站点和区域信息](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)和[在 Lync Server 2013 中将子网与网络站点相关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)中的步骤。
+<span data-ttu-id="e21fe-107">除了为与中介服务器相关联的对等的单个干线连接启用媒体旁路外, 还必须为媒体旁路配置全局设置。</span><span class="sxs-lookup"><span data-stu-id="e21fe-107">In addition to enabling media bypass for individual trunk connections associated with a peer to the Mediation Server, you must also configure global settings for media bypass.</span></span> <span data-ttu-id="e21fe-108">如果你使用本主题中的步骤来配置媒体绕过的全局设置, 则假设你在 Lync 终结点和任何对等方之间具有良好的连接, 你可以在中继连接上配置了媒体旁路。</span><span class="sxs-lookup"><span data-stu-id="e21fe-108">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Lync endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
 
-## 在全局范围启用媒体旁路以始终绕过中介服务器
+<span data-ttu-id="e21fe-109">如果您在 Lync 服务器终结点和所有对等的中介服务器之间没有良好的连接, 并且其各自的干线连接已启用媒体绕过, 则必须将全局媒体绕过设置配置为使用网站和区域信息采用媒体旁路。</span><span class="sxs-lookup"><span data-stu-id="e21fe-109">If you do not have good connectivity between Lync Server endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="e21fe-110">这允许在确定媒体绕过中介服务器时提供更多控制。</span><span class="sxs-lookup"><span data-stu-id="e21fe-110">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="e21fe-111">若要执行此操作, 请使用在 lync server [2013 中配置媒体绕过全局设置中的步骤, 以使用网站和区域信息](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md), 并[将子网与 lync server 2013 中的网络网站相关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)。</span><span class="sxs-lookup"><span data-stu-id="e21fe-111">To do this, use the steps in [Configure media bypass global settings in Lync Server 2013 to use site and region information](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) and [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) instead.</span></span>
 
-1.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<div>
 
-2.  在左侧导航栏中，单击“网络配置”。
+## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="e21fe-112">在全局范围启用媒体旁路以始终绕过中介服务器</span><span class="sxs-lookup"><span data-stu-id="e21fe-112">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
 
-3.  双击列表中的“全局”配置。
+1.  <span data-ttu-id="e21fe-113">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="e21fe-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e21fe-114">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="e21fe-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  在“编辑全局设置”页上，选中“启用媒体旁路”复选框。
+2.  <span data-ttu-id="e21fe-115">在左侧导航栏中，单击“网络配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e21fe-115">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  单击“始终绕过”。
+3.  <span data-ttu-id="e21fe-116">双击列表中的“全局”\*\*\*\* 配置。</span><span class="sxs-lookup"><span data-stu-id="e21fe-116">Double-click the **Global** configuration in the list.</span></span>
 
-6.  单击“提交”。
+4.  <span data-ttu-id="e21fe-117">在“编辑全局设置”\*\*\*\* 页上，选中“启用媒体旁路”\*\*\*\* 复选框。</span><span class="sxs-lookup"><span data-stu-id="e21fe-117">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
 
-## 另请参阅
+5.  <span data-ttu-id="e21fe-118">单击“始终绕过”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e21fe-118">Click **Always bypass**.</span></span>
 
-#### 概念
+6.  <span data-ttu-id="e21fe-119">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="e21fe-119">Click **Commit**.</span></span>
 
-[在 Lync Server 2013 中配置媒体绕过](lync-server-2013-configure-media-bypass.md)  
-[全局媒体绕过选项](lync-server-2013-global-media-bypass-options.md)  
-[Lync Server 2013 中的媒体绕过和中介服务器](lync-server-2013-media-bypass-and-mediation-server.md)  
+</div>
 
-#### 其他资源
+<div>
 
-[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)
+## <a name="see-also"></a><span data-ttu-id="e21fe-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e21fe-120">See Also</span></span>
+
+
+[<span data-ttu-id="e21fe-121">在 Lync Server 2013 中配置媒体绕过</span><span class="sxs-lookup"><span data-stu-id="e21fe-121">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)  
+[<span data-ttu-id="e21fe-122">Lync Server 2013 中的全局媒体绕过选项</span><span class="sxs-lookup"><span data-stu-id="e21fe-122">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="e21fe-123">Lync Server 2013 中的媒体绕过和中介服务器</span><span class="sxs-lookup"><span data-stu-id="e21fe-123">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)  
+
+
+[<span data-ttu-id="e21fe-124">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="e21fe-124">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

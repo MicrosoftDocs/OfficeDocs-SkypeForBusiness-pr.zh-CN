@@ -1,55 +1,89 @@
-﻿---
-title: Lync Server 2013：Lync Server 使用的 Active Directory 架构扩展、类和属性
-TOCTitle: Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
-ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398379(v=OCS.15)
-ms:contentKeyID: 49312901
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Lync Server 使用的 Active Directory 架构扩展、类和属性
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory schema extensions, classes, and attributes used by Lync Server 2013
+ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398379(v=OCS.15)
+ms:contentKeyID: 48184188
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3dc883c1c85acbe41bec6a25467e50800c036996
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837958"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-06-19_
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a><span data-ttu-id="8a097-102">Lync Server 2013 使用的 Active Directory 架构扩展、类和属性</span><span class="sxs-lookup"><span data-stu-id="8a097-102">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>
 
-本参考部分包括以下信息：
+</div>
 
-  - Lync Server 2013 中新增或更改的 Active Directory 架构扩展
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8a097-103">_**主题上次修改时间:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="8a097-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+
+<span data-ttu-id="8a097-104">本参考部分包含以下信息:</span><span class="sxs-lookup"><span data-stu-id="8a097-104">This reference section includes the following information:</span></span>
+
+  - <span data-ttu-id="8a097-105">Lync Server 2013 的新的或已更改的 Active Directory 架构扩展</span><span class="sxs-lookup"><span data-stu-id="8a097-105">Active Directory schema extensions that are new or changed for Lync Server 2013</span></span>
     
-    Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。Active Directory 全局编录包含林中所有对象的副本，以及每个对象的属性子集。本节介绍 Lync Server 2013 中新增或更改的类和属性。
+    <span data-ttu-id="8a097-106">Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。</span><span class="sxs-lookup"><span data-stu-id="8a097-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="8a097-107">该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。</span><span class="sxs-lookup"><span data-stu-id="8a097-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="8a097-108">Active Directory 全局编录包含林的所有对象的副本, 以及每个对象的属性子集。</span><span class="sxs-lookup"><span data-stu-id="8a097-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="8a097-109">本部分介绍 Lync Server 2013 中新增或更改的类和属性。</span><span class="sxs-lookup"><span data-stu-id="8a097-109">This section describes the classes and attributes that are new or changed in Lync Server 2013.</span></span>
 
-  - Lync Server 使用的所有类及其说明
+  - <span data-ttu-id="8a097-110">Lync Server 使用的所有类, 以及每个类的说明</span><span class="sxs-lookup"><span data-stu-id="8a097-110">All the classes used by Lync Server, with a description of each</span></span>
 
-  - Lync Server 使用的所有属性及其说明
+  - <span data-ttu-id="8a097-111">Lync Server 使用的所有属性, 以及每个属性的说明</span><span class="sxs-lookup"><span data-stu-id="8a097-111">All the attributes used by Lync Server, with a description of each</span></span>
 
-  - Lync Server 使用的类列表以及每个类可能包含的属性
+  - <span data-ttu-id="8a097-112">Lync Server 使用的类列表, 每个类都可能包含的属性</span><span class="sxs-lookup"><span data-stu-id="8a097-112">A list of the classes used by Lync Server, with the attributes each may contain</span></span>
 
-  - 全局设置和对象，以及在林准备过程中创建的通用服务组和管理组
+  - <span data-ttu-id="8a097-113">全局设置和对象, 以及林准备期间创建的通用服务和管理组</span><span class="sxs-lookup"><span data-stu-id="8a097-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
 
-  - 域准备过程中在域根和内置容器中创建的访问控制项 (ACE)
+  - <span data-ttu-id="8a097-114">在域准备期间在域根和内置容器上创建的访问控制条目 (Ace)</span><span class="sxs-lookup"><span data-stu-id="8a097-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
 
-  - 通过 Grant\_CsSetupPermission cmdlet 对 Active Directory 组织单位 (OU) 所做的更改。
+  - <span data-ttu-id="8a097-115">通过授予\_CsSetupPermission Cmdlet 对 Active Directory 组织单位 (OU) 所做的更改。</span><span class="sxs-lookup"><span data-stu-id="8a097-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant\_CsSetupPermission cmdlet.</span></span>
 
-  - 通过 Grant\_CsOUPermission cmdlet 对 Active Directory OU 所做的更改。
+  - <span data-ttu-id="8a097-116">通过授予\_CsOUPermission Cmdlet 在 ACTIVE Directory OU 上进行的更改。</span><span class="sxs-lookup"><span data-stu-id="8a097-116">Changes that are made on an Active Directory OU by the Grant\_CsOUPermission cmdlet.</span></span>
 
-## 本节内容
+<div>
 
-  - [Lync Server 2013 中的架构更改](lync-server-2013-schema-changes-in-lync-server-2013.md)
+## <a name="in-this-section"></a><span data-ttu-id="8a097-117">本节内容</span><span class="sxs-lookup"><span data-stu-id="8a097-117">In This Section</span></span>
 
-  - [Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)
+  - [<span data-ttu-id="8a097-118">Lync Server 2013 中的架构更改</span><span class="sxs-lookup"><span data-stu-id="8a097-118">Schema changes in Lync Server 2013</span></span>](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
-  - [Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)
+  - [<span data-ttu-id="8a097-119">Lync Server 2013 中的架构类和说明</span><span class="sxs-lookup"><span data-stu-id="8a097-119">Schema classes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-classes-and-descriptions.md)
 
-  - [Lync Server 2013 中的按类分组的架构属性](lync-server-2013-schema-attributes-by-class.md)
+  - [<span data-ttu-id="8a097-120">Lync Server 2013 中的架构属性和说明</span><span class="sxs-lookup"><span data-stu-id="8a097-120">Schema attributes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-and-descriptions.md)
 
-  - [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)
+  - [<span data-ttu-id="8a097-121">Lync Server 2013 中按类分类的架构属性</span><span class="sxs-lookup"><span data-stu-id="8a097-121">Schema attributes by class in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-by-class.md)
 
-  - [Lync Server 2013 中的域准备所做的更改](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [<span data-ttu-id="8a097-122">Lync Server 2013 中的林准备所做的更改</span><span class="sxs-lookup"><span data-stu-id="8a097-122">Changes made by forest preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [Lync Server 2013 中的 Grant-CsSetupPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
+  - [<span data-ttu-id="8a097-123">Lync Server 2013 中的域准备进行的更改</span><span class="sxs-lookup"><span data-stu-id="8a097-123">Changes made by domain preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013 中的 Grant-CsOUPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
+  - [<span data-ttu-id="8a097-124">Lync Server 2013 中的 "授权-CsSetupPermission" 所做的更改</span><span class="sxs-lookup"><span data-stu-id="8a097-124">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+
+  - [<span data-ttu-id="8a097-125">Lync Server 2013 中的 "授权-CsOUPermission" 所做的更改</span><span class="sxs-lookup"><span data-stu-id="8a097-125">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,59 @@
-﻿---
-title: 分析和解决由最佳做法分析器标识的问题
-TOCTitle: 分析和解决由最佳做法分析器标识的问题
-ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg591353(v=OCS.15)
-ms:contentKeyID: 49314655
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 分析和解决最佳做法分析器识别的问题
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Analyzing and resolving issues identified by Best Practices Analyzer
+ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591353(v=OCS.15)
+ms:contentKeyID: 48185751
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2d251ae762de4f9bfc88667a4d1b4aef0154dc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838041"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 分析和解决由最佳做法分析器标识的问题
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-06-25_
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="636df-102">分析和解决 Lync Server 2013 中由最佳做法分析器识别的问题</span><span class="sxs-lookup"><span data-stu-id="636df-102">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</span></span>
 
-最佳做法分析器不会对您的环境做任何更改来解决问题。它仅检测潜在的问题，并显示有关如何解决它们的信息。如果您标识需要解决的问题，则必须确定相应的解决方案。本节的主题可帮助您标识和解决某些最重要的潜在问题。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [环境测试的问题](lync-server-2013-issues-with-the-environment-test.md)
+<div id="mainBody">
 
-  - [拓扑测试的问题](lync-server-2013-issues-with-the-topology-test.md)
+<span> </span>
+
+<span data-ttu-id="636df-103">_**主题上次修改时间:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="636df-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+
+<span data-ttu-id="636df-104">最佳做法分析器不会对你的环境进行更改来解决问题。</span><span class="sxs-lookup"><span data-stu-id="636df-104">Best Practices Analyzer does not make changes to your environment to resolve issues.</span></span> <span data-ttu-id="636df-105">它仅检测潜在问题, 并显示有关如何解决这些问题的信息。</span><span class="sxs-lookup"><span data-stu-id="636df-105">It only detects potential issues and displays information about how to resolve them.</span></span> <span data-ttu-id="636df-106">如果您发现需要解决的问题, 则必须确定合适的解决方案。</span><span class="sxs-lookup"><span data-stu-id="636df-106">If you identify issues that you need to resolve, you must determine the appropriate solution.</span></span> <span data-ttu-id="636df-107">本节中的主题帮助你识别和解决一些最重要的潜在问题。</span><span class="sxs-lookup"><span data-stu-id="636df-107">The topics in this section help you identify and resolve some of the most significant potential issues.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="636df-108">本节内容</span><span class="sxs-lookup"><span data-stu-id="636df-108">In This Section</span></span>
+
+  - [<span data-ttu-id="636df-109">Lync Server 2013 中的环境测试问题</span><span class="sxs-lookup"><span data-stu-id="636df-109">Issues with the environment test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-environment-test.md)
+
+  - [<span data-ttu-id="636df-110">Lync Server 2013 中的拓扑测试问题</span><span class="sxs-lookup"><span data-stu-id="636df-110">Issues with the topology test in Lync Server 2013</span></span>](lync-server-2013-issues-with-the-topology-test.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

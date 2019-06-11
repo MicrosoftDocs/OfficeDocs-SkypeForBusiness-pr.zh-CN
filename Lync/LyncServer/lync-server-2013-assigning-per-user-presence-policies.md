@@ -1,23 +1,43 @@
-﻿---
-title: 分配每用户状态策略
-TOCTitle: 分配每用户状态策略
-ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182614(v=OCS.15)
-ms:contentKeyID: 49314854
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 分配每用户状态策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user presence policies
+ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
+ms:contentKeyID: 48185955
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 分配每用户状态策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a><span data-ttu-id="c16c0-102">在 Lync Server 2013 中分配每用户状态策略</span><span class="sxs-lookup"><span data-stu-id="c16c0-102">Assigning per-user presence policies in Lync Server 2013</span></span>
 
-状态策略是影响状态的一组限制和约束。下表描述了 Lync Server 2013 中提供的状态策略设置。
+</div>
 
-### 状态策略设置
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c16c0-103">_**主题上次修改时间:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="c16c0-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+
+<span data-ttu-id="c16c0-104">状态策略是一组影响状态的限制和限制。</span><span class="sxs-lookup"><span data-stu-id="c16c0-104">A presence policy is a set of limits and restrictions that affect presence.</span></span> <span data-ttu-id="c16c0-105">下表描述了 Lync Server 2013 中可用的状态策略设置。</span><span class="sxs-lookup"><span data-stu-id="c16c0-105">The following table describes the presence policy settings available in Lync Server 2013.</span></span>
+
+### <a name="presence-policy-settings"></a><span data-ttu-id="c16c0-106">状态策略设置</span><span class="sxs-lookup"><span data-stu-id="c16c0-106">Presence Policy Settings</span></span>
 
 <table>
 <colgroup>
@@ -29,44 +49,44 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>XML 名称</th>
-<th>显示名称</th>
-<th>说明</th>
-<th>类型</th>
-<th>值</th>
+<th><span data-ttu-id="c16c0-107">XML 名称</span><span class="sxs-lookup"><span data-stu-id="c16c0-107">XML name</span></span></th>
+<th><span data-ttu-id="c16c0-108">显示名称</span><span class="sxs-lookup"><span data-stu-id="c16c0-108">Display name</span></span></th>
+<th><span data-ttu-id="c16c0-109">说明</span><span class="sxs-lookup"><span data-stu-id="c16c0-109">Description</span></span></th>
+<th><span data-ttu-id="c16c0-110">类型</span><span class="sxs-lookup"><span data-stu-id="c16c0-110">Type</span></span></th>
+<th><span data-ttu-id="c16c0-111">值</span><span class="sxs-lookup"><span data-stu-id="c16c0-111">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CategorySubscriptions</p></td>
-<td><p>最大订阅者类别订阅数</p></td>
-<td><p>限制订阅者类别订阅数。例如，当 Communicator 订阅用户的状态时，会获取每个联系人卡片、日历数据、注释、服务和状态类别的类别订阅。</p>
-<p>设置为 0 意味着其他人无法订阅用户或联系人对象。</p>
+<td><p><span data-ttu-id="c16c0-112">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="c16c0-112">CategorySubscriptions</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-113">订阅者类别订阅的最大数量</span><span class="sxs-lookup"><span data-stu-id="c16c0-113">Maximum Number of Subscriber Category Subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-114">限制订阅者类别订阅数。</span><span class="sxs-lookup"><span data-stu-id="c16c0-114">Limits the number of subscriber category subscriptions.</span></span> <span data-ttu-id="c16c0-115">例如, 当 Communicator 订阅用户的状态时, 它将为每个联系人卡片、日历数据、便笺、服务和状态类别获取类别订阅。</span><span class="sxs-lookup"><span data-stu-id="c16c0-115">For example, when Communicator subscribes to a user’s presence, it obtains a category subscription for each of the contact card, calendar data, notes, services, and state categories.</span></span></p>
+<p><span data-ttu-id="c16c0-116">设置为0表示用户或联系人对象不能由其他人订阅。</span><span class="sxs-lookup"><span data-stu-id="c16c0-116">A setting of 0 means that the user or contact object cannot be subscribed to by others.</span></span></p>
 <div>
 
 > [!NOTE]  
-> 如果设置为较大的数值，则此设置会对性能产生显著的影响，且会有大量用户订阅普通用户的状态。
+> <span data-ttu-id="c16c0-117">如果设置为较高的数字, 此设置可能会对性能产生重大影响, 并且平均用户有大量用户订阅其状态。</span><span class="sxs-lookup"><span data-stu-id="c16c0-117">This setting can have a significant impact on performance if it is set to a high number, and the average user has a large number of users subscribing to his or her presence.</span></span>
 
 
 </div></td>
-<td><p>整数</p></td>
-<td><p>0-3000</p></td>
+<td><p><span data-ttu-id="c16c0-118">整型</span><span class="sxs-lookup"><span data-stu-id="c16c0-118">Integer</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-119">0-3000</span><span class="sxs-lookup"><span data-stu-id="c16c0-119">0-3000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PromptedSubscribers</p></td>
-<td><p>排队状态订阅通知的最大数量</p></td>
-<td><p>限制提示订阅者表中的条目数。此设置确定可为给定用户排队的最大提示数。例如，当用户 A 订阅用户 B 的状态时，用户 B 会收到用户 A 现在订阅用户 B 的提示，且会在用户 B 的提示订阅者表中创建确认提示。用户 B 接受或确认该订阅后，会从用户 B　的提示订阅者表中删除该确认提示。</p>
-<p>设置为 0 意味着当某人订阅用户的状态时不会提示该用户。</p></td>
-<td><p>整数或标记</p></td>
-<td><p>0-500</p></td>
+<td><p><span data-ttu-id="c16c0-120">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="c16c0-120">PromptedSubscribers</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-121">排队状态订阅警报的最大数量</span><span class="sxs-lookup"><span data-stu-id="c16c0-121">Maximum Number of Queued Presence Subscription Alerts</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-122">限制 "提示订阅者" 表中的条目数。</span><span class="sxs-lookup"><span data-stu-id="c16c0-122">Limits the number of entries in the prompted subscribers table.</span></span> <span data-ttu-id="c16c0-123">此设置确定可为给定用户排队的最大提示数。</span><span class="sxs-lookup"><span data-stu-id="c16c0-123">This setting determines the maximum number of prompts that can be queued for a given user.</span></span> <span data-ttu-id="c16c0-124">例如, 当用户 A 订阅用户 B 的状态时, 用户 B 会收到一条提示, 指示用户 A 现在已订阅用户 B, 并且在用户 B 的 "提示订阅者" 表中创建了确认提示。</span><span class="sxs-lookup"><span data-stu-id="c16c0-124">For example, when user A subscribes to user B’s presence, user B receives a prompt that user A is now subscribed to user B, and an acknowledgement prompt is created in user B’s prompted subscribers table.</span></span> <span data-ttu-id="c16c0-125">在用户 B 接受或确认订阅后, 将从用户 B 的 "提示订阅者" 表中删除确认提示。</span><span class="sxs-lookup"><span data-stu-id="c16c0-125">After user B accepts, or acknowledges, the subscription, the acknowledgement prompt is removed from user B’s prompted subscribers table.</span></span></p>
+<p><span data-ttu-id="c16c0-126">设置为0意味着当有人订阅他或她的状态时, 不会提示用户。</span><span class="sxs-lookup"><span data-stu-id="c16c0-126">A setting of 0 means that the user is not prompted when someone subscribes to his or her presence.</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-127">整型或标记</span><span class="sxs-lookup"><span data-stu-id="c16c0-127">Integer or Token</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-128">0-500</span><span class="sxs-lookup"><span data-stu-id="c16c0-128">0-500</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-默认情况下，“默认策略”和“服务: 中等”状态策略会在部署 Lync Server 时进行安装。下表描述了两种状态策略的特定设置。
+<span data-ttu-id="c16c0-129">默认情况下, 当你部署 Lync Server 时,**默认策略**和**服务: "中等**状态" 策略已安装。</span><span class="sxs-lookup"><span data-stu-id="c16c0-129">By default, the **Default Policy** and **Service: Medium** presence policies are installed when you deploy Lync Server.</span></span> <span data-ttu-id="c16c0-130">下表介绍了这两种状态策略的特定设置。</span><span class="sxs-lookup"><span data-stu-id="c16c0-130">The following table describes the specific settings of the two presence policies.</span></span>
 
-### 状态策略
+### <a name="presence-policies"></a><span data-ttu-id="c16c0-131">状态策略</span><span class="sxs-lookup"><span data-stu-id="c16c0-131">Presence Policies</span></span>
 
 <table>
 <colgroup>
@@ -77,25 +97,36 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>策略名称</th>
-<th>说明</th>
-<th>CategorySubscriptions</th>
-<th>PromptedSubscribers</th>
+<th><span data-ttu-id="c16c0-132">策略名称</span><span class="sxs-lookup"><span data-stu-id="c16c0-132">Policy name</span></span></th>
+<th><span data-ttu-id="c16c0-133">说明</span><span class="sxs-lookup"><span data-stu-id="c16c0-133">Description</span></span></th>
+<th><span data-ttu-id="c16c0-134">CategorySubscriptions</span><span class="sxs-lookup"><span data-stu-id="c16c0-134">CategorySubscriptions</span></span></th>
+<th><span data-ttu-id="c16c0-135">PromptedSubscribers</span><span class="sxs-lookup"><span data-stu-id="c16c0-135">PromptedSubscribers</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>默认策略</p></td>
-<td><p>典型用户的策略。这是默认状态策略。</p></td>
-<td><p>1000</p></td>
-<td><p>200</p></td>
+<td><p><span data-ttu-id="c16c0-136">默认策略</span><span class="sxs-lookup"><span data-stu-id="c16c0-136">Default Policy</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-137">适用于典型用户的策略。</span><span class="sxs-lookup"><span data-stu-id="c16c0-137">Policy for typical users.</span></span> <span data-ttu-id="c16c0-138">这是默认的状态策略。</span><span class="sxs-lookup"><span data-stu-id="c16c0-138">This is the default presence policy.</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-139">1000</span><span class="sxs-lookup"><span data-stu-id="c16c0-139">1000</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-140">200</span><span class="sxs-lookup"><span data-stu-id="c16c0-140">200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>服务: 中等</p></td>
-<td><p>要求更多用户订阅对象的状态的应用程序策略。</p></td>
-<td><p>1000</p></td>
-<td><p>0</p></td>
+<td><p><span data-ttu-id="c16c0-141">服务: 中等</span><span class="sxs-lookup"><span data-stu-id="c16c0-141">Service: Medium</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-142">需要更多用户才能订阅对象状态的应用程序的策略。</span><span class="sxs-lookup"><span data-stu-id="c16c0-142">Policy for applications that require more users to subscribe to the object’s presence.</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-143">1000</span><span class="sxs-lookup"><span data-stu-id="c16c0-143">1000</span></span></p></td>
+<td><p><span data-ttu-id="c16c0-144">0</span><span class="sxs-lookup"><span data-stu-id="c16c0-144">0</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

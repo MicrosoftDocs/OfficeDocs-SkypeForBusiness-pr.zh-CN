@@ -1,49 +1,79 @@
-﻿---
-title: 会议用户模式
-TOCTitle: 会议用户模式
-ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205199(v=OCS.15)
-ms:contentKeyID: 49314069
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013 会议用户模型
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: The conferencing user model
+ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
+ms:contentKeyID: 48185229
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837461"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 会议用户模式
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-22_
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a><span data-ttu-id="987e7-102">Lync Server 2013 中的会议用户模式</span><span class="sxs-lookup"><span data-stu-id="987e7-102">The conferencing user model in Lync Server 2013</span></span>
 
-Lync Server 会议用户模型的关键部分是会议规模。从多个数据点收集数据（如上一节中所述）之后，我们确定了以下内容：
+</div>
 
-  - 大多数会议实际上都是平均有四到六位参与者的小型协作会议
+<div id="mainSection">
 
-  - 大约 80% 的会议的参与者不到 20 人。
+<div id="mainBody">
 
-  - 99.98% 的会议的参与者不到 100 人。
+<span> </span>
 
-除了会议规模以外，会议用户模型还考虑到各种因素，如：
+<span data-ttu-id="987e7-103">_**主题上次修改时间:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="987e7-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-  - **并发会议**   预计会议中同时有多少用户？
+<span data-ttu-id="987e7-104">Lync Server 会议用户模式的一个关键部分是 "会议大小"。</span><span class="sxs-lookup"><span data-stu-id="987e7-104">A critical part of the Lync Server conferencing user model is meeting size.</span></span> <span data-ttu-id="987e7-105">从多个数据点收集数据 (如上一节所述) 后, 我们确定以下几点:</span><span class="sxs-lookup"><span data-stu-id="987e7-105">After collecting data from the multiple data points (as described in the previous section), we determined the following:</span></span>
 
-  - **媒体混合**   在会议中提供了哪些类型的媒体，并且预计用户使用的有哪些？
+  - <span data-ttu-id="987e7-106">大多数会议实际上是最小的协作式会议, 平均有四个到六个参与者</span><span class="sxs-lookup"><span data-stu-id="987e7-106">Most meetings are actually small collaborative meetings with an average of four to six participants</span></span>
 
-  - **用户类型**   用户是内部用户、远程用户、联盟用户还是匿名用户？
+  - <span data-ttu-id="987e7-107">大约 80% 的会议人数少于20位参与者。</span><span class="sxs-lookup"><span data-stu-id="987e7-107">Approximately 80 percent of meetings have fewer than 20 participants.</span></span>
 
-  - **会议提升时间**   会议的所有用户加入会议需要多长时间？
+  - <span data-ttu-id="987e7-108">99.98% 的会议的参与者数少于100。</span><span class="sxs-lookup"><span data-stu-id="987e7-108">99.98 percent of meetings have fewer than 100 participants.</span></span>
 
-有关用户模型的详细信息，请参阅 [Lync Server 2013 中的用户模型](lync-server-2013-user-models.md)。
+<span data-ttu-id="987e7-109">除了会议大小, 会议用户模型还考虑各种因素, 例如:</span><span class="sxs-lookup"><span data-stu-id="987e7-109">In addition to meeting size, the conferencing user model also takes into account a variety of factors, such as:</span></span>
 
-为了确定要用于测试的会议数和用户数，我们执行了以下操作：
+  - <span data-ttu-id="987e7-110">**同时会议**   同时有多少用户参与会议？</span><span class="sxs-lookup"><span data-stu-id="987e7-110">**Concurrent meetings**   How many users are expected to be in meetings at the same time?</span></span>
 
-  - 将组织中的用户总数（例如，80,000 位用户）乘以会议并发率（例如，所有用户的 5%），以确定预计同时参加会议的用户总数（在此示例中，为 4000 位用户）。
+  - <span data-ttu-id="987e7-111">**媒体组合**   哪些类型的媒体可用, 并且希望由会议中的用户使用？</span><span class="sxs-lookup"><span data-stu-id="987e7-111">**Media mix**   What types of media are available and expected to be used by users in meetings?</span></span>
 
-  - 将用户总数除以部署中的 Lync Server 2013前端服务器数目（例如，8 台服务器），以确定每台前端服务器的估计与会人数（在此示例中，每台前端服务器为 500 位用户）。
+  - <span data-ttu-id="987e7-112">**用户类型**   是用户内部用户、远程用户、联盟用户还是匿名用户？</span><span class="sxs-lookup"><span data-stu-id="987e7-112">**User types**   Are users internal users, remote users, federated users, or anonymous users?</span></span>
 
-  - 将每台前端服务器的用户数除以平均会议规模（例如，4 位用户），以确定每台前端服务器的估计平均会议数（在此示例中，每台前端服务器为 125 个会议）。
+  - <span data-ttu-id="987e7-113">**会议提升**   会议的所有用户加入会议需要多长时间？</span><span class="sxs-lookup"><span data-stu-id="987e7-113">**Meeting ramp up time**   How long does it take for all users of a meeting to join a meeting?</span></span>
 
-  - 为了获取每台前端服务器上的每个媒体负载，我们估算了媒体混合。例如，假设 75% 的会议要求的不仅仅是音频支持，并且其中 50% 的会议需要应用程序共享，则平均有 47 个会议和 188 位用户同时连接到用于应用程序共享的每台前端服务器。
+<span data-ttu-id="987e7-114">有关用户模型的详细信息, 请参阅[Lync Server 2013 中的用户模型](lync-server-2013-user-models.md)。</span><span class="sxs-lookup"><span data-stu-id="987e7-114">For details about the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
-  - 对各种会议规模进行测试（基于共享池中多达 250 位用户的用户模型），以确保服务器可伸缩性。
+<span data-ttu-id="987e7-115">若要确定用于测试的会议和用户数, 请执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="987e7-115">To determine the number of meetings and users to use for testing, we did the following:</span></span>
+
+  - <span data-ttu-id="987e7-116">获取组织中的总用户数 (例如, 80000 用户), 并将其乘以会议并发费率 (例如, 5% 的所有用户) 以确定在会议中预期的总用户数 (在此示例中, 4000 用户)。</span><span class="sxs-lookup"><span data-stu-id="987e7-116">Took the total number of users in an organization (for example, 80,000 users) and multiplied it by the meeting concurrency rate (for example, 5% of all users) to determine the total number of users expected to be in meetings at the same time (in this example, 4000 users).</span></span>
+
+  - <span data-ttu-id="987e7-117">按部署的前端服务器2013数 (例如, 8 台服务器) 划分的用户总数, 以确定每个前端服务器的会议参与者的估计数量 (在此示例中, 每个前端服务器的500用户)。</span><span class="sxs-lookup"><span data-stu-id="987e7-117">Divided the total number of users by the number of Lync Server 2013, Front End Servers in the deployment (for example, 8 servers) to determine the estimated number of meeting participants per Front End Server (in this example, 500 users per Front End Server).</span></span>
+
+  - <span data-ttu-id="987e7-118">按平均会议大小 (例如, 4 个用户) 划分每前端服务器的用户数, 以确定每个前端服务器的估计平均会议数 (在此示例中, 每台前端服务器125会议)。</span><span class="sxs-lookup"><span data-stu-id="987e7-118">Divided the number of users per Front End Server by the average meeting size (for example, 4 users) to determine the estimated average number of meetings per Front End Server (in this example, 125 meetings per Front End Server).</span></span>
+
+  - <span data-ttu-id="987e7-119">为了在每个前端服务器上获取每个媒体负载, 我们估计媒体混合。</span><span class="sxs-lookup"><span data-stu-id="987e7-119">To get the per media load on each Front End Server, we estimated the media mix.</span></span> <span data-ttu-id="987e7-120">例如, 假设 75% 的会议需要的不仅仅是音频支持和 50% 的会议需要应用程序共享, 则平均47会议和188用户同时连接到每个前端服务器以进行应用程序共享。</span><span class="sxs-lookup"><span data-stu-id="987e7-120">For example, assuming that 75% of the meetings require more than just audio support and 50% of those meetings require application sharing, an average of 47 meetings and 188 users connect concurrently to each Front End Server for application sharing.</span></span>
+
+  - <span data-ttu-id="987e7-121">已测试各种会议大小 (基于我们在共享池中最多250用户的用户模型) 以确保服务器的可伸缩性。</span><span class="sxs-lookup"><span data-stu-id="987e7-121">Tested a variety of meeting sizes (based our user model of up to 250 users in a shared pool) to ensure server scalability.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

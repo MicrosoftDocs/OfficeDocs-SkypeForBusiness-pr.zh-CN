@@ -1,45 +1,79 @@
-﻿---
-title: 更改语音路由以使用新的 Lync Server 2013 中介服务器
-TOCTitle: 更改语音路由以使用新的 Lync Server 2013 中介服务器
-ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205162(v=OCS.15)
-ms:contentKeyID: 49313934
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 将语音路由更改为使用新的 Lync Server 2013 中介服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Change voice routes to use the new Lync Server 2013 Mediation Server
+ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205162(v=OCS.15)
+ms:contentKeyID: 48185069
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 898901690b1caf5d57b33ffaec7231080554cca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837096"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 更改语音路由以使用新的 Lync Server 2013 中介服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-28_
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="ea937-102">将语音路由更改为使用新的 Lync Server 2013 中介服务器</span><span class="sxs-lookup"><span data-stu-id="ea937-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
 
-此过程将语音路由更改为使用 Lync Server 2013 中介服务器，而不是旧的 Office Communications Server 2007 R2 中介服务器。
+</div>
 
-## 将语音路由更改为使用新中介服务器
+<div id="mainSection">
 
-1.  Lync Server 2013 控制面板
+<div id="mainBody">
 
-2.  在左窗格中，选择“语音路由”，然后选择“路由”。
+<span> </span>
 
-3.  单击“新建”以创建新语音路由。
+<span data-ttu-id="ea937-103">_**主题上次修改时间:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="ea937-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  填写以下字段：
+<span data-ttu-id="ea937-104">此过程会将语音路由更改为使用 Lync Server 2013 中介服务器, 而不是旧版 Office 通信服务器 2007 R2 中介服务器。</span><span class="sxs-lookup"><span data-stu-id="ea937-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+
+<div>
+
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="ea937-105">将语音路由更改为使用新的中介服务器</span><span class="sxs-lookup"><span data-stu-id="ea937-105">To change the voice routes to use the new Mediation Server</span></span>
+
+1.  <span data-ttu-id="ea937-106">Lync Server 2013 控制面板</span><span class="sxs-lookup"><span data-stu-id="ea937-106">Lync Server 2013 Control Panel</span></span>
+
+2.  <span data-ttu-id="ea937-107">在左窗格中, 选择 "**语音路由**", 然后选择 "**路由**"。</span><span class="sxs-lookup"><span data-stu-id="ea937-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
+
+3.  <span data-ttu-id="ea937-108">单击 "**新建**" 以创建新的语音路由。</span><span class="sxs-lookup"><span data-stu-id="ea937-108">Click **New** to create a New Voice Route.</span></span>
+
+4.  <span data-ttu-id="ea937-109">填写以下字段:</span><span class="sxs-lookup"><span data-stu-id="ea937-109">Fill in the following fields:</span></span>
     
-      - **名称** ：键入语音路由的描述性名称。在本文档中，我们使用 **W15PSTNRoute** 。
+      - <span data-ttu-id="ea937-110">**名称**: 键入语音路线的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="ea937-110">**Name**: Type a descriptive name of the voice route.</span></span> <span data-ttu-id="ea937-111">对于本文档, 我们将使用**W15PSTNRoute**。</span><span class="sxs-lookup"><span data-stu-id="ea937-111">For this document we will use **W15PSTNRoute**.</span></span>
     
-      - **说明** ：键入语音路由的简要说明。
+      - <span data-ttu-id="ea937-112">**说明**: 键入语音路线的简短说明。</span><span class="sxs-lookup"><span data-stu-id="ea937-112">**Description**: Type a short description of the voice route.</span></span>
 
-5.  跳过所有其余部分，直到到达“关联网关”。单击“添加”。选择新默认网关，然后单击“确定”。
+5.  <span data-ttu-id="ea937-113">跳过其余所有分区, 直到您到达**相关网关**。</span><span class="sxs-lookup"><span data-stu-id="ea937-113">Skip all remaining sections until you reach **Associated gateways**.</span></span> <span data-ttu-id="ea937-114">单击“添加”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ea937-114">Click **Add**.</span></span> <span data-ttu-id="ea937-115">选择新的默认网关, 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="ea937-115">Select the new default gateway and click **OK**.</span></span>
 
-6.  在“关联的 PSTN 用法”下，单击“选择”。
+6.  <span data-ttu-id="ea937-116">在 "**关联的 PSTN 用法**" 下, 单击 "**选择**"。</span><span class="sxs-lookup"><span data-stu-id="ea937-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
 
-7.  从“选择 PSTN 用法记录”页中，选择一个记录名称，然后单击“确定”。
+7.  <span data-ttu-id="ea937-117">在 "**选择 PSTN 使用记录**" 页面上, 选择一个记录名称, 然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="ea937-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
 
-8.  从“新建语音路由”页中，单击“确定”以创建“语音路由”。
+8.  <span data-ttu-id="ea937-118">从新的 "**语音路由**" 页面上, 单击 **"确定"** 以创建**语音路由**。</span><span class="sxs-lookup"><span data-stu-id="ea937-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
 
-9.  从“语音路由”页中，选择“路由”。
+9.  <span data-ttu-id="ea937-119">从 "**语音路由**" 页面上, 选择 "**传送**"。</span><span class="sxs-lookup"><span data-stu-id="ea937-119">From the **Voice Routing** page, select **Route**.</span></span>
 
-10. 将新创建的路由移至列表的顶部，然后选择“提交”。
+10. <span data-ttu-id="ea937-120">将新创建的路由移动到列表顶部, 然后选择 "**提交**"。</span><span class="sxs-lookup"><span data-stu-id="ea937-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

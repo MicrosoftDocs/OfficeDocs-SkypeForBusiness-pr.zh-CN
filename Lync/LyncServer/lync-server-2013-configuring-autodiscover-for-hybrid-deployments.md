@@ -1,48 +1,86 @@
-﻿---
-title: 为混合部署配置自动发现
-TOCTitle: 为混合部署配置自动发现
-ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945653(v=OCS.15)
-ms:contentKeyID: 52061120
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置混合部署的自动发现'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Autodiscover for hybrid deployments
+ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
+ms:contentKeyID: 51541521
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc2c28d42569d2f52b55dd04a90f5a788969c3ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837277"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为混合部署配置自动发现
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-12-12_
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a><span data-ttu-id="4eb70-102">在 Lync Server 2013 中为混合部署配置自动发现</span><span class="sxs-lookup"><span data-stu-id="4eb70-102">Configuring Autodiscover in Lync Server 2013 for hybrid deployments</span></span>
 
-混合部署是同时使用 Microsoft Lync Online 云服务和内部部署的配置。在此类型的配置中，自动发现服务必须能够找到用户实际所处的位置。也就是说，自动发现在查找用户帐户和承载用户帐户的服务器所处的位置方面提供帮助，与它是否在内部部署或在 Skype for Business Online 部署中无关。
+</div>
 
-例如，如果用户的帐户承载在 Skype for Business Online 中的服务器上，查找用户的尝试发生方式如下所示（在进程中称为*可发现性*）：
+<div id="mainSection">
 
-  - 用户启动对内部部署的连接尝试 **contoso.com**。
+<div id="mainBody">
 
-  - 会将尝试发送到 lyncdiscover.contoso.com，DNS 名称与自动发现服务相关联。
+<span> </span>
 
-  - 自动发现指的是假定注册池处于内部部署上的 contoso.com 中，且是对在 Skype for Business Online 中承载用户的实际主服务器的指定信息。然后自动发现会向用户对 **lync.com** 联机自动发现服务发送一个引用。
+<span data-ttu-id="4eb70-103">_**主题上次修改时间:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="4eb70-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-  - 用户对 lync.com 联机自动发现服务启动一个连接尝试，并能够找到用户的帐户和用户的主服务器。
+<span data-ttu-id="4eb70-104">混合部署是使用 Microsoft Lync Online 云服务和本地部署的配置。</span><span class="sxs-lookup"><span data-stu-id="4eb70-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="4eb70-105">在此类型的配置中, 自动发现服务必须能够找到用户实际所在的位置。</span><span class="sxs-lookup"><span data-stu-id="4eb70-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="4eb70-106">也就是说, "自动发现" 帮助查找用户帐户和托管用户帐户的服务器所在的位置, 无论该帐户是在本地部署还是在 Lync Online 部署中。</span><span class="sxs-lookup"><span data-stu-id="4eb70-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
 
-要使客户端能够发现用户主服务器所在的部署，则必须使用新的统一资源定位器 (URL) 配置自动发现服务。执行下列操作可配置自动发现服务。
+<span data-ttu-id="4eb70-107">例如, 如果用户的帐户托管在 Lync Online 中的服务器上, 则在称为 "*发现*" 的过程中, 尝试查找用户的操作将如下所示:</span><span class="sxs-lookup"><span data-stu-id="4eb70-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
 
-## 为混合部署配置自动发现
+  - <span data-ttu-id="4eb70-108">用户启动到本地部署的连接尝试**contoso.com**。</span><span class="sxs-lookup"><span data-stu-id="4eb70-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
 
-1.  在本主题 [Lync Server 2013 的自动发现服务要求](lync-server-2013-autodiscover-service-requirements.md) 中，可使用 Get-CsHostingProvider 检索属性 ProxyFQDN 的值。
+  - <span data-ttu-id="4eb70-109">该尝试将发送到 lyncdiscover.contoso.com, 它是与自动发现服务关联的 DNS 名称。</span><span class="sxs-lookup"><span data-stu-id="4eb70-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
 
-2.  从 Lync Server 命令行管理程序，键入
+  - <span data-ttu-id="4eb70-110">自动发现指在 contoso.com 本地部署中假定的注册机构池, 并提供有关用户在 Lync Online 中托管的实际主服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="4eb70-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="4eb70-111">然后, 自动发现将向用户发送**lync.com**联机自动发现服务的引用。</span><span class="sxs-lookup"><span data-stu-id="4eb70-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
+
+  - <span data-ttu-id="4eb70-112">用户启动到 lync.com online 自动发现服务的连接尝试, 并且能够找到用户的帐户和用户的主服务器。</span><span class="sxs-lookup"><span data-stu-id="4eb70-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
+
+<span data-ttu-id="4eb70-113">若要使客户能够发现用户主服务器所在的部署, 必须使用新的统一资源定位器 (URL) 配置自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="4eb70-113">To enable clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL).</span></span> <span data-ttu-id="4eb70-114">执行以下操作以配置自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="4eb70-114">Do the following to configure the Autodiscover service.</span></span>
+
+<div>
+
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="4eb70-115">配置混合部署的自动发现</span><span class="sxs-lookup"><span data-stu-id="4eb70-115">Configuring Autodiscover for Hybrid Deployments</span></span>
+
+1.  <span data-ttu-id="4eb70-116">在本主题中,[针对 Lync Server 2013 的自动发现服务要求](lync-server-2013-autodiscover-service-requirements.md)使用 CsHostingProvider 检索属性 ProxyFQDN 的值。</span><span class="sxs-lookup"><span data-stu-id="4eb70-116">In the topic, [Autodiscover service requirements for Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md), you use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
+
+2.  <span data-ttu-id="4eb70-117">从 Lync Server 命令行管理程序中, 键入</span><span class="sxs-lookup"><span data-stu-id="4eb70-117">From the Lync Server Management Shell, type</span></span>
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    其中 \[identity\] 使用共享 SIP 地址空间的域名替换。
+    <span data-ttu-id="4eb70-118">其中\[标识\]替换为共享 SIP 地址空间的域名。</span><span class="sxs-lookup"><span data-stu-id="4eb70-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
+## <a name="see-also"></a><span data-ttu-id="4eb70-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4eb70-119">See Also</span></span>
+
+
+[<span data-ttu-id="4eb70-120">CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="4eb70-120">Get-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  
+[<span data-ttu-id="4eb70-121">Set-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="4eb70-121">Set-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsHostingProvider)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

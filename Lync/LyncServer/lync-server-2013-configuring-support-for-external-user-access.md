@@ -1,47 +1,81 @@
-﻿---
-title: Lync Server 2013：配置对外部用户访问的支持
-TOCTitle: 配置对外部用户访问的支持
-ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg413051(v=OCS.15)
-ms:contentKeyID: 49314798
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置对外部用户访问的支持
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring support for external user access
+ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)
+ms:contentKeyID: 48185874
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7f10e266674d102b25753aeb58c89a365e7bb8e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837181"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置对外部用户访问的支持
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-21_
+# <a name="configuring-support-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="3b977-102">在 Lync Server 2013 中配置对外部用户访问的支持</span><span class="sxs-lookup"><span data-stu-id="3b977-102">Configuring support for external user access in Lync Server 2013</span></span>
 
-部署边缘服务器或边缘池是支持外部用户的第一步。有关部署边缘服务器的详细信息，请参阅部署文档中的 [在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。对策略配置的重要注意事项是了解策略的优先级及如何应用策略。 在一个策略级别应用的 Lync Server 策略设置可能会覆盖在另一个策略级别应用的设置。Lync Server 策略优先顺序为：用户策略（影响力最大）覆盖站点策略，站点策略覆盖全局策略（影响力最小）。这意味着，策略设置与策略所影响的对象距离越近，它对该对象的影响力越大。
+</div>
 
-边缘服务器或边缘池设置完成后，必须启用要提供的外部用户访问类型并配置对外部访问的支持。在 Lync Server 2013 中，可以根据任务需求使用 Lync Server 控制面板和/或 Lync Server 命令行管理程序启用和配置外部用户访问和策略。
+<div id="mainSection">
 
-要支持外部用户访问，必须执行以下两项操作：
+<div id="mainBody">
 
-  - **启用对组织的支持。** 要在部署中启用对外部用户访问的支持，需要启用要支持的每种类型的外部访问。通过在 Lync Server 控制面板的“联盟和外部访问”组中“外部访问策略”页面上编辑全局设置或创建和配置站点或用户策略，或使用 Lync Server 命令行管理程序 和关联的 cmdlet 来启用或禁用对外部用户访问的支持。用于管理“外部访问策略”的 Cmdlet 可在主题 [联盟和外部访问 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/) 中找到。启用对外部访问的支持指定运行 Lync Server  访问边缘服务 的服务器支持与外部用户和服务器的通信。当禁用外部用户访问或如果未将策略配置为支持它时，则内部和外部用户无法通信。
+<span> </span>
 
-  - **配置并分配一个或多个策略。** 要支持外部用户访问，您需要配置满足包括下列需求的策略：
+<span data-ttu-id="3b977-103">_**主题上次修改时间:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="3b977-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="3b977-104">部署边缘服务器或边缘池是支持外部用户的第一步。</span><span class="sxs-lookup"><span data-stu-id="3b977-104">Deploying an Edge Server or Edge pool is the first step to supporting external users.</span></span> <span data-ttu-id="3b977-105">有关部署边缘服务器的详细信息, 请参阅部署文档中[Lync Server 2013 中的 "部署外部用户访问](lync-server-2013-deploying-external-user-access.md)"。</span><span class="sxs-lookup"><span data-stu-id="3b977-105">For details about deploying Edge Servers, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.</span></span> <span data-ttu-id="3b977-106">策略配置的一个重要考虑因素是了解策略的优先级以及策略的应用方式。</span><span class="sxs-lookup"><span data-stu-id="3b977-106">An important consideration for the configuration of policies is to understand the precedence of policies and how the policies are applied.</span></span> <span data-ttu-id="3b977-107">在一个策略级别应用的 Lync Server 策略设置可以覆盖在其他策略级别应用的设置。</span><span class="sxs-lookup"><span data-stu-id="3b977-107">Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level.</span></span> <span data-ttu-id="3b977-108">Lync 服务器策略优先级为: 用户策略 (最受影响) 覆盖网站策略, 然后网站策略覆盖全局策略 (最不影响)。</span><span class="sxs-lookup"><span data-stu-id="3b977-108">Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence).</span></span> <span data-ttu-id="3b977-109">这意味着，策略设置与策略所影响的对象距离越近，它对该对象的影响力越大。</span><span class="sxs-lookup"><span data-stu-id="3b977-109">This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span>
+
+<span data-ttu-id="3b977-110">完成边缘服务器或边缘池的设置后, 必须启用要提供的外部用户访问类型, 并配置外部访问的设置。</span><span class="sxs-lookup"><span data-stu-id="3b977-110">After completing the setup of an Edge Server or Edge pool, you must enable the types of external user access that you want to provide, and configure the settings for the external access.</span></span> <span data-ttu-id="3b977-111">在 Lync Server 2013 中, 你可以使用 Lync Server 控制面板、Lync Server Management Shell 或两者 (基于任务要求) 启用和配置外部用户访问和策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-111">In Lync Server 2013, you enable and configure external user access and policies using the Lync Server Control Panel, the Lync Server Management Shell or both, based on the task requirements.</span></span>
+
+<span data-ttu-id="3b977-112">若要支持外部用户访问, 必须执行以下两项操作:</span><span class="sxs-lookup"><span data-stu-id="3b977-112">To support external user access, you must do both of the following:</span></span>
+
+  - <span data-ttu-id="3b977-113">**启用组织**   支持对于你的部署中的外部用户访问, 你可以启用希望支持的每种外部访问类型。</span><span class="sxs-lookup"><span data-stu-id="3b977-113">**Enable support for your organization**   To enable support for external user access in your deployment, you enable each type of external access that you want to support.</span></span> <span data-ttu-id="3b977-114">通过在 Lync Server 控制面板的 "**联盟和外部访问**" 组中编辑全局设置或在 "**外部访问策略**" 页面上创建和配置网站或用户策略, 可启用和禁用对外部用户访问的支持或者使用 Lync Server 命令行管理程序和关联的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="3b977-114">You enable and disable support for external user access by editing the global settings or creating and configuring a site or user policy on the **External Access Policy** page in the **Federation and External Access** group of the Lync Server Control Panel or by using the Lync Server Management Shell and associated cmdlets.</span></span> <span data-ttu-id="3b977-115">用于管理**外部访问策略**的 Cmdlet 位于[Lync Server 2013 中的主题联盟和外部访问 cmdlet](https://docs.microsoft.com/powershell/module/skype/)中。</span><span class="sxs-lookup"><span data-stu-id="3b977-115">Cmdlets for managing the **External Access Policy** are found in the topic [Federation and external access cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/).</span></span> <span data-ttu-id="3b977-116">启用对外部访问的支持指定运行 Lync Server Access Edge 服务的服务器支持与外部用户和服务器的通信。</span><span class="sxs-lookup"><span data-stu-id="3b977-116">Enabling support for external access specifies that your servers running the Lync Server Access Edge service support communications with external users and servers.</span></span> <span data-ttu-id="3b977-117">外部用户访问被禁用, 或者策略尚未配置为支持它时, 内部和外部用户无法进行通信。</span><span class="sxs-lookup"><span data-stu-id="3b977-117">Internal and external users cannot communicate while external user access is disabled or if policies have not yet been configured to support it.</span></span>
+
+  - <span data-ttu-id="3b977-118">**配置和分配一个或多个策略**   以支持外部用户访问, 请配置策略来解决要求, 包括:</span><span class="sxs-lookup"><span data-stu-id="3b977-118">**Configure and assign one or more policies**   To support external user access, you configure policies to address requirements that include:</span></span>
     
-      - “外部访问策略”使用站点或用户作用域（默认存在的全局策略且没有启用的设置）创建。可创建和配置策略以控制一个或多个类型的外部用户访问，包括联盟用户访问（包括联盟 XMPP 域（如果已选择））、远程用户访问和支持的公共 IM 服务提供商。在“联盟和外部访问”组的“外部访问策略”页面上，使用全局策略或一个或多个以管理方式创建的站点或用户策略在 Lync Server 控制面板中配置外部策略。无法删除全局策略。可创建和配置要使用的任何站点或用户策略来限制外部用户对特定站点或用户的访问。全局和站点策略可自动进行分配。如果要创建和配置用户策略，则必须通过使用“用户”页面上 Lync Server 控制面板中的用户配置页面将其分配到指定的用户。查找您要将此策略应用到的一个或多个用户，并将策略分配到要将其应用到的用户。要将配置的用户策略分配到用户，请参阅 [在 Lync Server 2013 中将外部用户访问策略分配到启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。每个外部用户访问策略都可支持下列一项或多项：远程用户访问、SIP 联盟用户访问、XMPP 联盟用户访问和公共 IM 连接。
+      - <span data-ttu-id="3b977-119">\*\*\*\*   使用网站或用户作用域创建的外部访问策略 (默认情况下存在全局策略且没有启用的设置)。</span><span class="sxs-lookup"><span data-stu-id="3b977-119">**External access policies**   Created with either a site or user scope (a global policy exists by default and has no enabled settings).</span></span> <span data-ttu-id="3b977-120">你可以创建和配置策略来控制使用一个或多个类型的外部用户访问权限, 包括联合用户访问 (包括 (如果已选中、联盟 XMPP 域) 远程用户访问以及受支持的公共 IM 服务提供商。</span><span class="sxs-lookup"><span data-stu-id="3b977-120">You create and configure policies to control the use of one or more types of external user access, including, federated user access (including, if selected, federated XMPP domains)remote users user access, and supported public IM service providers.</span></span> <span data-ttu-id="3b977-121">在 "**联盟和外部访问**" 组中的 "**外部访问策略**" 页面上, 使用全局策略或一个或多个管理员创建的网站和用户策略在 Lync Server 控制面板中配置外部策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-121">You configure external policies in Lync Server Control Panel using the global policy or one or more administratively created site and user policies, on the **External Access Policy** page in the **Federation and External Access** group.</span></span> <span data-ttu-id="3b977-122">无法删除全局策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-122">The global policy cannot be deleted.</span></span> <span data-ttu-id="3b977-123">你可以创建和配置你希望用于限制特定网站或用户的外部用户访问的任何网站和用户策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-123">You create and configure any site and user policies that you want to use to limit external user access for specific sites or users.</span></span> <span data-ttu-id="3b977-124">全局和网站策略将自动分配。</span><span class="sxs-lookup"><span data-stu-id="3b977-124">Global and site policies are automatically assigned.</span></span> <span data-ttu-id="3b977-125">如果创建和配置用户策略, 则必须使用 "**用户**" 页面上 "Lync Server 控制面板" 中的 "用户配置" 页面将其分配给特定用户。</span><span class="sxs-lookup"><span data-stu-id="3b977-125">If you create and configure a user policy, you must then assign it to the specific users by using the user configuration page in the Lync Server Control Panel on the **Users** page.</span></span> <span data-ttu-id="3b977-126">查找要应用此策略的一个或一用户, 然后分配该策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-126">Find the user or users that you want this policy to apply to and assign the policy.</span></span> <span data-ttu-id="3b977-127">要对其应用。</span><span class="sxs-lookup"><span data-stu-id="3b977-127">to whom you want it to apply.</span></span> <span data-ttu-id="3b977-128">若要为用户分配已配置的用户策略, 请参阅[在 Lync Server 2013 中将外部用户访问策略分配给启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。</span><span class="sxs-lookup"><span data-stu-id="3b977-128">To assign a configured user policy to a user, see [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md).</span></span> <span data-ttu-id="3b977-129">每个外部用户访问策略都可以支持下列一项或多项操作: 远程用户访问、SIP 联合用户访问、XMPP 联盟用户访问和公共 IM 连接。</span><span class="sxs-lookup"><span data-stu-id="3b977-129">Each external user access policy can support one or more of the following: remote user access, SIP federated user access, XMPP federated user access and public IM connectivity.</span></span>
     
-      - **会议策略。** 您可创建和配置策略来控制组织中的会议，包括组织中的哪个用户可邀请匿名用户参加他们主持的会议。在 Lync Server 控制面板上，“会议”页面是对控制实际会议设置的全局、站点和用户作用域的策略设置。有关详细信息，请参阅 [在 Lync Server 2013 中管理会议](lync-server-2013-managing-meetings-and-conferences.md)。您可启用参加会议的匿名用户及“访问边缘配置”页面上的远程用户和联盟用户。“访问边缘配置 上的策略是作用域中的全局策略。没有可用于定义站点或用户策略的选项。通过使用全局、站点或用户策略设置在“外部访问策略”页面上控制作用域。
+      - <span data-ttu-id="3b977-130">**会议策略**   您创建和配置策略来控制组织中的会议, 包括组织中哪些用户可以邀请匿名用户参与会议。</span><span class="sxs-lookup"><span data-stu-id="3b977-130">**Conferencing policies**   You create and configure policies to control conferencing in your organization, including which users in your organization can invite anonymous users to conferences that they host.</span></span> <span data-ttu-id="3b977-131">在 Lync Server "控制面板 **会议**" 页面上是全局、网站和用户范围内的策略设置, 用于控制实际会议的设置。</span><span class="sxs-lookup"><span data-stu-id="3b977-131">On the Lync Server Control Panel **Conferencing** page are policy settings at the global, site and user scope that control settings for the actual conferences.</span></span> <span data-ttu-id="3b977-132">有关详细信息, 请参阅[在 Lync Server 2013 中管理会议和会议](lync-server-2013-managing-meetings-and-conferences.md)。</span><span class="sxs-lookup"><span data-stu-id="3b977-132">For details, see [Managing meetings and conferences in Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md).</span></span> <span data-ttu-id="3b977-133">在 "**访问边缘配置**" 页面上为会议、远程用户和联盟用户启用匿名用户。</span><span class="sxs-lookup"><span data-stu-id="3b977-133">You enable anonymous users for conferencing, remote users and federated users on the **Access Edge Configuration** page.</span></span> <span data-ttu-id="3b977-134">**访问边缘配置**上的策略在范围内为全局。</span><span class="sxs-lookup"><span data-stu-id="3b977-134">The policy on the **Access Edge Configuration** is global in scope.</span></span> <span data-ttu-id="3b977-135">没有可用于定义网站或用户策略的选项。</span><span class="sxs-lookup"><span data-stu-id="3b977-135">There are no options to define a site or user policy.</span></span> <span data-ttu-id="3b977-136">通过使用全局、网站或用户策略设置, 可在**外部访问策略**页面上控制范围。</span><span class="sxs-lookup"><span data-stu-id="3b977-136">The scope is controlled on the **External Access Policy** page through the use of global, site, or user policy settings.</span></span>
         
-        例如，如果您想允许用户借助远程用户创建、邀请和管理会议，则必须在“外部访问策略”全局、站点或用户策略上设置“启用与远程用户的通信”及在“访问边缘配置”页面上设置“启用与远程用户的通信”。同样，要允许与有定义关系的匿名用户或联盟合作伙伴开展会议（如，配置的联盟 SIP 域和提供商 – XMPP 联盟不支持会议），则要在“外部访问策略”全局、站点或用户策略中设置“启用与公共用户的通信”和“启用与联盟用户的通信”。然后在“访问边缘配置”页面上选择赠送全局策略设置“允许匿名用户访问会议”和“启用联盟和公共 IM 连接”。
+        <span data-ttu-id="3b977-137">例如, 如果要允许用户创建、邀请和管理与远程用户的会议, 则必须在**外部访问策略**全局、网站或用户策略上设置 "**启用与远程用户的通信**", 并**启用通信使用**"**访问边缘配置**" 页面上的远程用户。</span><span class="sxs-lookup"><span data-stu-id="3b977-137">For example, if you want to allow users to create, invite and manage conferencing with remote users, you must set **Enable communications with remote users** on the **External Access Policy** global, site or user policy, and **Enable Communications with remote users** on the **Access Edge Configuration** page.</span></span> <span data-ttu-id="3b977-138">同样, 若要允许具有已定义关系的匿名用户或联盟合作伙伴的会议 (如配置的联合 SIP 域和提供商-XMPP 联盟不支持会议), 请设置 "**启用通信"通过公共用户**和**外部访问策略**全局、网站或用户策略中的**联盟用户启用通信**。</span><span class="sxs-lookup"><span data-stu-id="3b977-138">Similarly, to allow conferencing with anonymous users or federated partners that you have a defined relationship with (such as configured federated SIP domains and providers – XMPP federation does not support conferencing), you set **Enable communications with public users** and **Enable communications with federated users** in the **External Access Policy** global, site or user policy.</span></span> <span data-ttu-id="3b977-139">然后, 选择 "已获取的全局策略设置", 在 "**访问边缘配置**" 页面上**启用对会议的匿名用户访问**并**启用联盟和公共 IM 连接**。</span><span class="sxs-lookup"><span data-stu-id="3b977-139">You then select complimentary global policy settings **Enable anonymous user access to conferences** and **Enable federated and public IM connectivity** on the **Access Edge Configuration** page.</span></span>
 
-即使没有为组织启用外部用户访问，也可以配置外部用户访问设置，包括要用于控制外部用户访问的任何策略。但是，只有为组织启用外部用户访问之后，配置的策略和其他设置才会生效。如果禁用外部用户访问或没有配置支持此功能的外部用户访问策略，外部用户将无法与组织的用户进行通信。
+<span data-ttu-id="3b977-140">你可以配置外部用户访问设置, 包括你希望用于控制外部用户访问的任何策略, 即使你未启用组织的外部用户访问权限也是如此。</span><span class="sxs-lookup"><span data-stu-id="3b977-140">You can configure external user access settings, including any policies that you want to use to control external user access, even if you have not enabled external user access for your organization.</span></span> <span data-ttu-id="3b977-141">但是, 你配置的策略和其他设置仅在你为你的组织启用外部用户访问时才有效。</span><span class="sxs-lookup"><span data-stu-id="3b977-141">However, the policies and other settings that you configure are in effect only when you have external user access enabled for your organization.</span></span> <span data-ttu-id="3b977-142">当外部用户访问被禁用或者没有配置任何外部用户访问策略来支持它时, 外部用户无法与组织用户通信。</span><span class="sxs-lookup"><span data-stu-id="3b977-142">External users cannot communicate with users of your organization when external user access is disabled or if no external user access policies are configured to support it.</span></span>
 
-边缘部署会根据边缘支持的配置方式来对外部用户（匿名用户除外，他们通过会议 ID 和密钥（当您创建会议和邀请参与者时发送给匿名参与者）进行身份验证）类型进行身份验证并控制访问。为了控制通信，可以配置一个或多个策略并配置设置以定义部署内外的用户如何相互通信。除了可以创建和配置为特定站点或用户启用一种或多种类型外部用户访问的站点和用户策略之外，这些策略和设置还包括默认的外部用户访问全局策略。
+<span data-ttu-id="3b977-143">边缘部署对外部用户的类型进行身份验证 (匿名用户除外, 这些用户是通过会议 ID 进行身份验证的, 而在创建会议和邀请参与者时发送给匿名参与者) 和控件的密钥基于配置 edge 支持的方式进行访问。</span><span class="sxs-lookup"><span data-stu-id="3b977-143">Your edge deployment authenticates the types of external users (except for anonymous users, who are authenticated by the conference ID and a passkey that is sent to the anonymous participant when you create the conference and invite participants) and controls access based on how you configure your edge support.</span></span> <span data-ttu-id="3b977-144">为了控制通信, 你可以配置一个或多个策略, 并配置定义你的部署内部和外部的用户之间如何相互通信的设置。</span><span class="sxs-lookup"><span data-stu-id="3b977-144">In order to control communications, you can configure one or more policies and configure settings that define how users inside and outside your deployment communicate with each other.</span></span> <span data-ttu-id="3b977-145">除了可创建和配置以启用特定网站或用户的一种或多种类型的外部用户访问的网站和用户策略之外, 策略和设置包括外部用户访问的默认全局策略。</span><span class="sxs-lookup"><span data-stu-id="3b977-145">The policies and settings include the default global policy for external user access, in addition to site and user policies that you can create and configure to enable one or more types of external user access for specific sites or users.</span></span>
 
-## 本部分内容
+<div>
 
-  - [在 Lync Server 2013 中配置策略以控制远程用户访问](lync-server-2013-configure-policies-to-control-remote-user-access.md)
+## <a name="in-this-section"></a><span data-ttu-id="3b977-146">本节内容</span><span class="sxs-lookup"><span data-stu-id="3b977-146">In This Section</span></span>
 
-  - [在 Lync Server 2013 中启用或禁用远程用户访问](lync-server-2013-enable-or-disable-remote-user-access.md)
+  - [<span data-ttu-id="3b977-147">在 Lync Server 2013 中配置策略以控制远程用户访问</span><span class="sxs-lookup"><span data-stu-id="3b977-147">Configure policies to control remote user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-remote-user-access.md)
 
-  - [在 Lync Server 2013 中启用或禁用匿名用户访问](lync-server-2013-enable-or-disable-anonymous-user-access.md)
+  - [<span data-ttu-id="3b977-148">在 Lync Server 2013 中启用或禁用远程用户访问</span><span class="sxs-lookup"><span data-stu-id="3b977-148">Enable or disable remote user access in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-remote-user-access.md)
 
-  - [在 Lync Server 2013 中分配会议策略以支持匿名用户](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
+  - [<span data-ttu-id="3b977-149">在 Lync Server 2013 中启用或禁用匿名用户访问</span><span class="sxs-lookup"><span data-stu-id="3b977-149">Enable or disable anonymous user access in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-anonymous-user-access.md)
+
+  - [<span data-ttu-id="3b977-150">在 Lync Server 2013 中分配会议策略以支持匿名用户</span><span class="sxs-lookup"><span data-stu-id="3b977-150">Assign conferencing policies to support anonymous users in Lync Server 2013</span></span>](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

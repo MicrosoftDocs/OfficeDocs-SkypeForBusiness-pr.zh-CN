@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：ConferenceSessionDetails 表
-TOCTitle: ConferenceSessionDetails 表
-ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412741(v=OCS.15)
-ms:contentKeyID: 49313761
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：ConferenceSessionDetails 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceSessionDetails table
+ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412741(v=OCS.15)
+ms:contentKeyID: 48184925
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c5aaa3ec022be18ad54cc8a24b8410c23faf799
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837495"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 ConferenceSessionDetails 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a><span data-ttu-id="d3861-102">Lync Server 2013 中的 ConferenceSessionDetails 表</span><span class="sxs-lookup"><span data-stu-id="d3861-102">ConferenceSessionDetails table in Lync Server 2013</span></span>
 
-每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d3861-103">_**主题上次修改时间:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d3861-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="d3861-104">每个记录表示一个会议会话, 该会话可以是与焦点的会话, 也可以是与特定的会议服务器的会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-104">Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.</span></span>
 
 
 <table>
@@ -27,204 +47,214 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>数据类型</th>
-<th>键/索引</th>
-<th>详细信息</th>
+<th><span data-ttu-id="d3861-105">列</span><span class="sxs-lookup"><span data-stu-id="d3861-105">Column</span></span></th>
+<th><span data-ttu-id="d3861-106">数据类型</span><span class="sxs-lookup"><span data-stu-id="d3861-106">Data Type</span></span></th>
+<th><span data-ttu-id="d3861-107">键/索引</span><span class="sxs-lookup"><span data-stu-id="d3861-107">Key/Index</span></span></th>
+<th><span data-ttu-id="d3861-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="d3861-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
-<td><p>Datetime</p></td>
-<td><p>主、外</p></td>
-<td><p>会话请求的时间；与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会议会话。有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-110">从中</span><span class="sxs-lookup"><span data-stu-id="d3861-110">Datetime</span></span></p></td>
+<td><p><span data-ttu-id="d3861-111">主、外部</span><span class="sxs-lookup"><span data-stu-id="d3861-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-112">会话请求的时间;与<strong>SessionIdSeq</strong>结合使用以唯一标识会议会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-112">Time of session request; used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="d3861-113">有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>用于标识会话的 ID 号。与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会议会话。有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a>。*</p></td>
+<td><p><span data-ttu-id="d3861-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-114"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-115">int</span><span class="sxs-lookup"><span data-stu-id="d3861-115">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-116">主、外部</span><span class="sxs-lookup"><span data-stu-id="d3861-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-117">标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="d3861-117">ID number to identify the session.</span></span> <span data-ttu-id="d3861-118">与<strong>SessionIdTime</strong>结合使用以唯一标识会议会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-118">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="d3861-119">有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span> *</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>与此会话相关的会议状态中心会议 URI。有关详细信息，请参阅 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a>。此 URI 是基于会议状态中心的会议 URI。</p></td>
+<td><p><span data-ttu-id="d3861-120"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-120"><strong>ConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-121">int</span><span class="sxs-lookup"><span data-stu-id="d3861-121">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-122">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-123">与此会话相关的焦点会议 URI。</span><span class="sxs-lookup"><span data-stu-id="d3861-123">Focus conference URI related to this session.</span></span> <span data-ttu-id="d3861-124">有关详细信息, 请参阅<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-124">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="d3861-125">此 URI 是基于焦点的会议 URI。</span><span class="sxs-lookup"><span data-stu-id="d3861-125">This URI is a Focus-based conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConfInstance</strong></p></td>
-<td><p>uniqueIdentifier</p></td>
-<td><p></p></td>
-<td><p>区分各个定期会议实例的标识符。每个定期会议实例的 ConferenceURI 都相同，但具有不同的 ConfInstance 值。</p>
-<p>Microsoft Lync Server 2013 中已引入了此字段。</p></td>
+<td><p><span data-ttu-id="d3861-126"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-126"><strong>ConfInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-127">标识符</span><span class="sxs-lookup"><span data-stu-id="d3861-127">uniqueIdentifier</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-128">区分定期会议的实例的标识符。</span><span class="sxs-lookup"><span data-stu-id="d3861-128">Identifier that differentiates between instances of recurring conferences.</span></span> <span data-ttu-id="d3861-129">每个定期会议实例具有相同的 ConferenceURI, 但具有不同的 ConfInstance 值。</span><span class="sxs-lookup"><span data-stu-id="d3861-129">Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.</span></span></p>
+<p><span data-ttu-id="d3861-130">此字段是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="d3861-130">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuConferenceUriId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>与此会话相关的会议服务器会议 URI。有关详细信息，请参阅 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a>。此 URI 是基于会议服务器的会议 URI。对于会议状态中心会议会话，此列将为 null。</p></td>
+<td><p><span data-ttu-id="d3861-131"><strong>McuConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-131"><strong>McuConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-132">int</span><span class="sxs-lookup"><span data-stu-id="d3861-132">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-133">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-133">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-134">与此会话相关的会议服务器会议 URI。</span><span class="sxs-lookup"><span data-stu-id="d3861-134">Conferencing server conference URI related to this session.</span></span> <span data-ttu-id="d3861-135">有关详细信息, 请参阅<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-135">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="d3861-136">此 URI 是基于会议服务器的会议 URI。</span><span class="sxs-lookup"><span data-stu-id="d3861-136">This URI is the conferencing server-based conference URI.</span></span> <span data-ttu-id="d3861-137">对于聚焦会议会话, 此列将为 null。</span><span class="sxs-lookup"><span data-stu-id="d3861-137">For Focus conference sessions, this column will be null.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>会议会话中的一个用户的 ID。有关详细信息，请参阅 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-138"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-138"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-139">int</span><span class="sxs-lookup"><span data-stu-id="d3861-139">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-140">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-140">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-141">会议会话中一个用户的 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-141">ID of one user in the conference session.</span></span> <span data-ttu-id="d3861-142">有关详细信息, 请参阅<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 "用户" 表。</span><span class="sxs-lookup"><span data-stu-id="d3861-142">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p></p></td>
-<td><p>用于标识终结点的实例的 GUID。例如，如果一个用户使用相同帐户登录到不同的计算机上，则每台计算机将具有不同的终结点 ID。</p></td>
+<td><p><span data-ttu-id="d3861-143"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-143"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-144">标识符</span><span class="sxs-lookup"><span data-stu-id="d3861-144">uniqueidentifier</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-145">标识终结点实例的 GUID。</span><span class="sxs-lookup"><span data-stu-id="d3861-145">A GUID to identify the instance of endpoint.</span></span> <span data-ttu-id="d3861-146">例如, 如果一个用户使用同一帐户登录到不同的计算机, 则每台计算机都将具有不同的终结点 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-146">For example, if one user logs on to different machines with the same account, then each machine will have a different endpoint ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>OnBehalfOfId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>指示呼叫者所代表的用户的 ID。有关详细信息，请参阅 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-147"><strong>OnBehalfOfId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-147"><strong>OnBehalfOfId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-148">int</span><span class="sxs-lookup"><span data-stu-id="d3861-148">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-149">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-149">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-150">指明呼叫者代表的用户的 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-150">Indicates the ID of the user of who the caller is on behalf.</span></span> <span data-ttu-id="d3861-151">有关详细信息, 请参阅<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 "用户" 表。</span><span class="sxs-lookup"><span data-stu-id="d3861-151">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ReferredById</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>引用呼叫的用户的 ID。有关详细信息，请参阅 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-152"><strong>ReferredById</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-152"><strong>ReferredById</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-153">int</span><span class="sxs-lookup"><span data-stu-id="d3861-153">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-154">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-154">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-155">按呼叫者引用的用户的 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-155">ID of the user by who the call is referred.</span></span> <span data-ttu-id="d3861-156">有关详细信息, 请参阅<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 "用户" 表。</span><span class="sxs-lookup"><span data-stu-id="d3861-156">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserClientVersionId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>会议用户使用的客户端版本。有关详细信息，请参阅 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-157"><strong>UserClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-157"><strong>UserClientVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-158">int</span><span class="sxs-lookup"><span data-stu-id="d3861-158">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-159">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-159">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-160">会议用户使用的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="d3861-160">Client version used by the conference user.</span></span> <span data-ttu-id="d3861-161">有关详细信息, 请参阅<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-161">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConfClientVersionId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>会议服务器使用的客户端版本。有关详细信息，请参阅 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-162"><strong>ConfClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-162"><strong>ConfClientVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-163">int</span><span class="sxs-lookup"><span data-stu-id="d3861-163">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-164">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-164">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-165">会议服务器使用的客户端版本。</span><span class="sxs-lookup"><span data-stu-id="d3861-165">Client version used by the conference server.</span></span> <span data-ttu-id="d3861-166">有关详细信息, 请参阅<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-166">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ReplaceDialogIdTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>外</p></td>
-<td><p>用于标识由当前会话取代的对话的 ID 号。有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-167"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-167"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-168">datetime</span><span class="sxs-lookup"><span data-stu-id="d3861-168">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d3861-169">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-169">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-170">标识由当前会话替换的对话框的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="d3861-170">ID number to identify the dialog which was replaced by current session.</span></span> <span data-ttu-id="d3861-171">有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-171">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ReplaceDialogIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>用于标识会话的 ID 号。与 <strong>ReplacesDialogIdTime</strong> 结合使用来唯一地标识由此会话取代的会话。有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-172"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-172"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-173">int</span><span class="sxs-lookup"><span data-stu-id="d3861-173">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-174">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-174">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-175">标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="d3861-175">ID number to identify the session.</span></span> <span data-ttu-id="d3861-176">与<strong>ReplacesDialogIdTime</strong>结合使用以唯一标识此会话替换的会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-176">Used in conjunction with <strong>ReplacesDialogIdTime</strong> to uniquely identify a session that is replaced by this session.</span></span> <span data-ttu-id="d3861-177">有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-177">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IsStartedByConfServer</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>指示会话是否是由会议服务器启动的。</p></td>
+<td><p><span data-ttu-id="d3861-178"><strong>IsStartedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-178"><strong>IsStartedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-179">bit</span><span class="sxs-lookup"><span data-stu-id="d3861-179">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-180">指示会议服务器是否已启动会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-180">Indicates if the session started by the conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IsEndedByConfServer</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>指示会话是否是由会议服务器终止的。</p></td>
+<td><p><span data-ttu-id="d3861-181"><strong>IsEndedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-181"><strong>IsEndedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-182">bit</span><span class="sxs-lookup"><span data-stu-id="d3861-182">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-183">指示会议服务器是否已结束会话。</span><span class="sxs-lookup"><span data-stu-id="d3861-183">Indicates if the session ended by the conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IsUserInternal</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>用户是否从内部登录。</p></td>
+<td><p><span data-ttu-id="d3861-184"><strong>IsUserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-184"><strong>IsUserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-185">bit</span><span class="sxs-lookup"><span data-stu-id="d3861-185">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-186">用户是否从内部登录。</span><span class="sxs-lookup"><span data-stu-id="d3861-186">Whether user is logged on from internal or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>会话邀请的会话初始协议 (SIP) 响应代码。此字段通常用从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则此字段将用第一条相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。</p></td>
+<td><p><span data-ttu-id="d3861-187"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-187"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-188">int</span><span class="sxs-lookup"><span data-stu-id="d3861-188">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-189">会话初始协议 (SIP) 响应代码到会话邀请。</span><span class="sxs-lookup"><span data-stu-id="d3861-189">Session Initiation Protocol (SIP) response code to the session invitation.</span></span> <span data-ttu-id="d3861-190">此字段通常由会话中的初始邀请消息所生成的数据填充。</span><span class="sxs-lookup"><span data-stu-id="d3861-190">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="d3861-191">如果没有邀请消息, 则该字段将填充第一个相关 SIP 邮件的日期和时间 (再见、取消、消息或信息)。</span><span class="sxs-lookup"><span data-stu-id="d3861-191">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DiagnosticId</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>从 SIP 标头捕获的诊断 ID。</p></td>
+<td><p><span data-ttu-id="d3861-192"><strong>DiagnosticId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-192"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-193">int</span><span class="sxs-lookup"><span data-stu-id="d3861-193">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-194">从 SIP 标题捕获的诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-194">Diagnostic ID captured from SIP header.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ServerId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>用于此会话的前端服务器的 ID。有关详细信息，请参阅 <a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-195"><strong>ServerId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-195"><strong>ServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-196">int</span><span class="sxs-lookup"><span data-stu-id="d3861-196">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-197">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-197">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-198">用于此会话的前端服务器的 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-198">ID of the front-end server used for this session.</span></span> <span data-ttu-id="d3861-199">有关详细信息, 请参阅<a href="lync-server-2013-servers-table.md">Lync Server 2013 中</a>的 "服务器" 表。</span><span class="sxs-lookup"><span data-stu-id="d3861-199">See the <a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PoolId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>在其中捕获会话的池的 ID。有关详细信息，请参阅 <a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 Pools 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-200"><strong>PoolId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-200"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-201">int</span><span class="sxs-lookup"><span data-stu-id="d3861-201">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-202">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-202">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-203">捕获会话的池的 ID。</span><span class="sxs-lookup"><span data-stu-id="d3861-203">ID of the pool in which the session was captured.</span></span> <span data-ttu-id="d3861-204">有关详细信息, 请参阅<a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 pool 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-204">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediationServerId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>呼叫使用的中介服务器。有关详细信息，请参阅 <a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-205"><strong>MediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-205"><strong>MediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-206">int</span><span class="sxs-lookup"><span data-stu-id="d3861-206">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-207">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-207">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-208">通话所使用的中介服务器。</span><span class="sxs-lookup"><span data-stu-id="d3861-208">The Mediation Server the call is using.</span></span> <span data-ttu-id="d3861-209">有关详细信息, 请参阅<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-209">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>GatewayId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>呼叫使用的网关。有关详细信息，请参阅 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-210"><strong>GatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-210"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-211">int</span><span class="sxs-lookup"><span data-stu-id="d3861-211">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-212">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-212">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-213">呼叫使用的网关。</span><span class="sxs-lookup"><span data-stu-id="d3861-213">The gateway the call is using.</span></span> <span data-ttu-id="d3861-214">有关详细信息, 请参阅<a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的网关表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-214">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>EdgeServerId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>呼叫使用的边缘服务器。有关详细信息，请参阅 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-215"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-215"><strong>EdgeServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-216">int</span><span class="sxs-lookup"><span data-stu-id="d3861-216">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-217">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-217">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-218">通话所使用的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="d3861-218">The Edge Server the call is using.</span></span> <span data-ttu-id="d3861-219">有关详细信息, 请参阅<a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-219">See the <a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ContentTypeId</strong></p></td>
-<td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>会话中使用的内容类型。有关详细信息，请参阅 <a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表</a>。</p></td>
+<td><p><span data-ttu-id="d3861-220"><strong>ContentTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-220"><strong>ContentTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-221">int</span><span class="sxs-lookup"><span data-stu-id="d3861-221">int</span></span></p></td>
+<td><p><span data-ttu-id="d3861-222">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-222">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-223">会话中使用的内容类型。</span><span class="sxs-lookup"><span data-stu-id="d3861-223">Content type used in the session.</span></span> <span data-ttu-id="d3861-224">有关详细信息, 请参阅<a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d3861-224">See the <a href="lync-server-2013-contenttypes-table.md">ContentTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>InviteTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>第一个 INVITE 请求的时间。此字段通常用从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则此字段将用第一条相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。</p></td>
+<td><p><span data-ttu-id="d3861-225"><strong>InviteTime</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-225"><strong>InviteTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-226">datetime</span><span class="sxs-lookup"><span data-stu-id="d3861-226">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-227">第一次邀请请求的时间。</span><span class="sxs-lookup"><span data-stu-id="d3861-227">The time of the first INVITE request.</span></span> <span data-ttu-id="d3861-228">此字段通常由会话中的初始邀请消息所生成的数据填充。</span><span class="sxs-lookup"><span data-stu-id="d3861-228">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="d3861-229">如果没有邀请消息, 则该字段将填充第一个相关 SIP 邮件的日期和时间 (再见、取消、消息或信息)。</span><span class="sxs-lookup"><span data-stu-id="d3861-229">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ResponseTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>第一个 SIP 响应的时间。此字段通常用从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则此字段将用第一条相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。</p></td>
+<td><p><span data-ttu-id="d3861-230"><strong>ResponseTime</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-230"><strong>ResponseTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-231">datetime</span><span class="sxs-lookup"><span data-stu-id="d3861-231">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-232">第一次 SIP 响应的时间。</span><span class="sxs-lookup"><span data-stu-id="d3861-232">Time of the first SIP RESPONSE.</span></span> <span data-ttu-id="d3861-233">此字段通常由会话中的初始邀请消息所生成的数据填充。</span><span class="sxs-lookup"><span data-stu-id="d3861-233">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="d3861-234">如果没有邀请消息, 则该字段将填充第一个相关 SIP 邮件的日期和时间 (再见、取消、消息或信息)。</span><span class="sxs-lookup"><span data-stu-id="d3861-234">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SessionEndTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>会话结束的时间。</p></td>
+<td><p><span data-ttu-id="d3861-235"><strong>SessionEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-235"><strong>SessionEndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-236">datetime</span><span class="sxs-lookup"><span data-stu-id="d3861-236">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-237">会话结束的时间。</span><span class="sxs-lookup"><span data-stu-id="d3861-237">The time when the session is ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UriTypeId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>外</p></td>
-<td><p>包含 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 中的 MCU URI 类型值。此字段用于改进查询性能。</p>
-<p>Microsoft Lync Server 2013 中已引入了此字段。</p></td>
+<td><p><span data-ttu-id="d3861-238"><strong>UriTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-238"><strong>UriTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-239">tinyint</span><span class="sxs-lookup"><span data-stu-id="d3861-239">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d3861-240">外表</span><span class="sxs-lookup"><span data-stu-id="d3861-240">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d3861-241"><a href="lync-server-2013-uritypes-table.md">在 Lync Server 2013 中的 UriTypes 表中</a>包含 MCU URI 类型值。</span><span class="sxs-lookup"><span data-stu-id="d3861-241">Contains the MCU URI type value from the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a>.</span></span> <span data-ttu-id="d3861-242">此字段用于提高查询性能。</span><span class="sxs-lookup"><span data-stu-id="d3861-242">This field is used for improving query performance.</span></span></p>
+<p><span data-ttu-id="d3861-243">此字段是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="d3861-243">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserFlag</strong></p></td>
-<td><p>smallint</p></td>
-<td><p></p></td>
-<td><p>指示用户属性的位集。列出了以下属性定义：</p>
+<td><p><span data-ttu-id="d3861-244"><strong>UserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-244"><strong>UserFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-245">smallint</span><span class="sxs-lookup"><span data-stu-id="d3861-245">smallint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-246">指示用户属性的位集。</span><span class="sxs-lookup"><span data-stu-id="d3861-246">A bit set that indicates the user attributes.</span></span> <span data-ttu-id="d3861-247">列出了以下属性定义:</span><span class="sxs-lookup"><span data-stu-id="d3861-247">The following attribute definitions are listed:</span></span></p>
 <ul>
-<li><p>与桌面电话集成 - 1</p></li>
+<li><p><span data-ttu-id="d3861-248">与桌面电话集成-1</span><span class="sxs-lookup"><span data-stu-id="d3861-248">Integrated with desktop phone - 1</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallFlag</strong></p></td>
-<td><p>smallint</p></td>
-<td><p></p></td>
-<td><p>指示呼叫属性的位集。列出了以下属性定义：</p>
+<td><p><span data-ttu-id="d3861-249"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="d3861-249"><strong>CallFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="d3861-250">smallint</span><span class="sxs-lookup"><span data-stu-id="d3861-250">smallint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d3861-251">指示通话属性的位集。</span><span class="sxs-lookup"><span data-stu-id="d3861-251">A bit set that indicates the call attributes.</span></span> <span data-ttu-id="d3861-252">列出了以下属性定义:</span><span class="sxs-lookup"><span data-stu-id="d3861-252">The following attribute definitions are listed:</span></span></p>
 <ul>
-<li><p>重试会话 - 1</p></li>
+<li><p><span data-ttu-id="d3861-253">重试会话-1</span><span class="sxs-lookup"><span data-stu-id="d3861-253">Retried Session - 1</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-\* 对于大多数会话，SessionIdSeq 值都为 1。如果多个会话完全同时启动，则一个会话的 SessionIdSeq 将为 1，另一个会话的 SessionIdSeq 将为 2，依此类推。
+<span data-ttu-id="d3861-254">\*对于大多数会话, SessionIdSeq 将具有值1。</span><span class="sxs-lookup"><span data-stu-id="d3861-254">\* For most sessions, SessionIdSeq will have the value of 1.</span></span> <span data-ttu-id="d3861-255">如果多个会话的开始时间完全相同, 则一个会话的 SessionIdSeq 将为 1, 而另一个会话将为 2, 依此类推。</span><span class="sxs-lookup"><span data-stu-id="d3861-255">If multiple sessions start at exactly the same time, the SessionIdSeq for one will be 1, for another will be 2, and so on.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

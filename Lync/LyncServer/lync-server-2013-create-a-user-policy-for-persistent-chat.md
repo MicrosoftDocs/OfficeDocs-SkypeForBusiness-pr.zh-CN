@@ -1,51 +1,94 @@
-﻿---
-title: Lync Server 2013：为持久聊天创建用户策略
-TOCTitle: 为持久聊天创建用户策略
-ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205170(v=OCS.15)
-ms:contentKeyID: 49313876
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：为持久聊天创建用户策略
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a user policy for Persistent Chat
+ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205170(v=OCS.15)
+ms:contentKeyID: 48185103
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4a1d2cd767af4cbee7c416dc8f600ed9e9e192a0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837074"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中为持久聊天创建用户策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-06_
+# <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="f4643-102">在 Lync Server 2013 中为持久聊天创建用户策略</span><span class="sxs-lookup"><span data-stu-id="f4643-102">Create a user policy for Persistent Chat in Lync Server 2013</span></span>
 
-在 Lync Server 控制面板中，定义可分配给“用户”中的用户的用户策略。
+</div>
 
-用户策略将覆盖全局策略和站点策略，但是仅限于为其分配了该用户策略的特定用户。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f4643-103">_**主题上次修改时间:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f4643-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="f4643-104">在 Lync Server 控制面板中, 你可以定义可分配给**用户**中用户的用户策略。</span><span class="sxs-lookup"><span data-stu-id="f4643-104">In the Lync Server Control Panel, you define user policies that can be assigned to users in **Users**.</span></span>
+
+<span data-ttu-id="f4643-105">用户策略将覆盖全局策略和站点策略，但是仅限于为其分配了该用户策略的特定用户。</span><span class="sxs-lookup"><span data-stu-id="f4643-105">The user policy overrides the global policy and site policies, but only for the specific users who are assigned the user policy.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 要配置和使用 持久聊天服务器，则必须先使用 拓扑生成器将 持久聊天服务器支持添加到拓扑，然后发布该拓扑。有关详细信息，请参阅部署文档中的 <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">在 Lync Server 2013 中将持久聊天服务器添加到部署</a>。<br />
-要配置 持久聊天服务器配置设置，请参阅部署文档中的 <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">在 Lync Server 2013 中全局或为持久聊天服务器池配置持久聊天服务器选项</a>。
+> <span data-ttu-id="f4643-106">若要配置和使用持久聊天服务器, 必须首先使用拓扑生成器向拓扑添加持久聊天服务器支持, 然后发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="f4643-106">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="f4643-107">有关详细信息, 请参阅在部署文档中<A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">将持久聊天服务器添加到 Lync Server 2013</A>中的部署。</span><span class="sxs-lookup"><span data-stu-id="f4643-107">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="f4643-108">若要配置持久聊天服务器配置设置, 请参阅在部署文档中<A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">为 Lync server 2013 中的永久聊天服务器池配置持久聊天服务器选项</A>。</span><span class="sxs-lookup"><span data-stu-id="f4643-108">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-## 为 持久聊天创建用户策略
+</div>
 
-1.  从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+<div>
 
-2.  从“开始”菜单中选择 Lync Server 控制面板或打开浏览器窗口，然后输入管理 URL。有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+## <a name="to-create-a-user-policy-for-persistent-chat"></a><span data-ttu-id="f4643-109">创建持久聊天的用户策略</span><span class="sxs-lookup"><span data-stu-id="f4643-109">To create a user policy for Persistent Chat</span></span>
+
+1.  <span data-ttu-id="f4643-110">从分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="f4643-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="f4643-111">从 "**开始**" 菜单中, 选择 "Lync Server 控制面板" 或打开一个浏览器窗口, 然后输入管理员 URL。</span><span class="sxs-lookup"><span data-stu-id="f4643-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="f4643-112">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="f4643-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
     
-    > [!IMPORTANT]
-    > 您也可以使用 Windows PowerShell cmdlet。请参阅部署文档中的 <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">使用 Windows PowerShell Cmdlet 配置持久聊天服务器</a>。
-
-
-3.  在左侧导航栏中，单击“持久聊天”，然后单击“持久聊天策略”。
-
-4.  单击“新建”，然后单击“用户策略”。
-
-5.  在“新建 持久聊天策略”中，请执行以下操作：
+    <div>
     
-      - 在“名称”中，指定新用户策略的名称。
-    
-      - 在“说明”中，提供有关用户策略（例如，特定用户的 持久聊天策略）的内容的详细信息。
-    
-      - 要控制未专门通过用户策略控制的所有用户的 持久聊天，请选中或清除“启用 持久聊天”复选框。
 
-6.  单击“提交”。
+    > [!IMPORTANT]  
+    > <span data-ttu-id="f4643-113">你还可以使用 Windows PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="f4643-113">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="f4643-114">请参阅使用部署文档中的<A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell Cmdlet 配置持久聊天服务器</A>。</span><span class="sxs-lookup"><span data-stu-id="f4643-114">See <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
+
+    
+    </div>
+
+3.  <span data-ttu-id="f4643-115">在左侧导航栏中，单击“**持久聊天**”，然后单击“**持久聊天策略**”。</span><span class="sxs-lookup"><span data-stu-id="f4643-115">In the left navigation bar, click **Persistent Chat**, and then click **Persistent Chat Policy**.</span></span>
+
+4.  <span data-ttu-id="f4643-116">单击“**新建**”，然后单击“**用户策略**”。</span><span class="sxs-lookup"><span data-stu-id="f4643-116">Click **New**, and then click **User policy**.</span></span>
+
+5.  <span data-ttu-id="f4643-117">在“**新建持久聊天策略**”中，执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="f4643-117">In **New Persistent Chat Policy**, do the following:</span></span>
+    
+      - <span data-ttu-id="f4643-118">在“**名称**”中，指定新用户策略的名称。</span><span class="sxs-lookup"><span data-stu-id="f4643-118">In **Name**, specify a name for the new user policy.</span></span>
+    
+      - <span data-ttu-id="f4643-119">在 "**说明**" 中, 提供有关用户策略的详细信息 (例如, 针对特定用户的持久聊天策略)。</span><span class="sxs-lookup"><span data-stu-id="f4643-119">In **Description**, provide details about what the user policy is (for example, Persistent Chat policy for specific user).</span></span>
+    
+      - <span data-ttu-id="f4643-120">若要为未通过用户策略明确控制的所有用户控制持久聊天, 请选中或清除 "**启用持久聊天**" 复选框。</span><span class="sxs-lookup"><span data-stu-id="f4643-120">To control Persistent Chat for all users who are not specifically controlled through a user policy, select or clear the **Enable Persistent Chat** check box.</span></span>
+
+6.  <span data-ttu-id="f4643-121">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="f4643-121">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: AudioStreamDetail 视图
-TOCTitle: AudioStreamDetail 视图
-ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ721859(v=OCS.15)
-ms:contentKeyID: 49888575
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: AudioStreamDetail 视图'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: AudioStreamDetail view
+ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)
+ms:contentKeyID: 49733792
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10992007c76321f8ed3b436b9786cbef840173ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837901"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# AudioStreamDetail 视图
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a><span data-ttu-id="d2912-102">Lync Server 2013 中的 AudioStreamDetail 视图</span><span class="sxs-lookup"><span data-stu-id="d2912-102">AudioStreamDetail view in Lync Server 2013</span></span>
 
-AudioStreamDetail 视图会存储有关数据库中每个音频流的信息。此视图是在 Microsoft Lync Server 2013 中引入的。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d2912-103">_**主题上次修改时间:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d2912-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+
+<span data-ttu-id="d2912-104">AudioStreamDetail 视图存储有关数据库中每个音频流的信息。</span><span class="sxs-lookup"><span data-stu-id="d2912-104">The AudioStreamDetail View stores information about each audio stream in the database.</span></span> <span data-ttu-id="d2912-105">此视图已在 Microsoft Lync Server 2013 中引入。</span><span class="sxs-lookup"><span data-stu-id="d2912-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -26,678 +46,689 @@ AudioStreamDetail 视图会存储有关数据库中每个音频流的信息。�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>数据类型</th>
-<th>详细信息</th>
+<th><span data-ttu-id="d2912-106">列</span><span class="sxs-lookup"><span data-stu-id="d2912-106">Column</span></span></th>
+<th><span data-ttu-id="d2912-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="d2912-107">Data Type</span></span></th>
+<th><span data-ttu-id="d2912-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="d2912-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SessionTime</p></td>
-<td><p>datetime</p></td>
-<td><p>引用自 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-109">SessionTime</span><span class="sxs-lookup"><span data-stu-id="d2912-109">SessionTime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-110">datetime</span><span class="sxs-lookup"><span data-stu-id="d2912-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-111">从<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>引用。</span><span class="sxs-lookup"><span data-stu-id="d2912-111">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SessionSeq</p></td>
-<td><p>int</p></td>
-<td><p>引用自 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-112">SessionSeq</span><span class="sxs-lookup"><span data-stu-id="d2912-112">SessionSeq</span></span></p></td>
+<td><p><span data-ttu-id="d2912-113">int</span><span class="sxs-lookup"><span data-stu-id="d2912-113">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-114">从<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>引用。</span><span class="sxs-lookup"><span data-stu-id="d2912-114">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>StreamId</p></td>
-<td><p>int</p></td>
-<td><p>媒体行中的唯一 ID。</p></td>
+<td><p><span data-ttu-id="d2912-115">StreamId</span><span class="sxs-lookup"><span data-stu-id="d2912-115">StreamId</span></span></p></td>
+<td><p><span data-ttu-id="d2912-116">int</span><span class="sxs-lookup"><span data-stu-id="d2912-116">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-117">媒体行内的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="d2912-117">Unique ID within a media line.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>StartTime</p></td>
-<td><p>datetime</p></td>
-<td><p>会话的开始时间。</p></td>
+<td><p><span data-ttu-id="d2912-118">StartTime</span><span class="sxs-lookup"><span data-stu-id="d2912-118">StartTime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-119">datetime</span><span class="sxs-lookup"><span data-stu-id="d2912-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-120">会话的开始时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-120">Start time of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>EndTime</p></td>
-<td><p>datetime</p></td>
-<td><p>会话的结束时间。</p></td>
+<td><p><span data-ttu-id="d2912-121">EndTime</span><span class="sxs-lookup"><span data-stu-id="d2912-121">EndTime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-122">datetime</span><span class="sxs-lookup"><span data-stu-id="d2912-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d2912-123">会话的结束时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-123">End time of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DialogCategory</p></td>
-<td><p>bit</p></td>
-<td><p>对话类别：0 是 Lync Server 到中介服务器线路；1 是中介服务器到 PSTN 网关线路。</p></td>
+<td><p><span data-ttu-id="d2912-124">DialogCategory</span><span class="sxs-lookup"><span data-stu-id="d2912-124">DialogCategory</span></span></p></td>
+<td><p><span data-ttu-id="d2912-125">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-125">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-126">对话框类别: 0 是 Lync 服务器, 用于采集服务器腿;1是中介服务器到 PSTN 网关腿。</span><span class="sxs-lookup"><span data-stu-id="d2912-126">Dialog category: 0 is the Lync Server to Mediation Server leg; 1 is the Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MediationServerBypassFlag</p></td>
-<td><p>bit</p></td>
-<td><p>指示是否绕过了呼叫的标记。</p></td>
+<td><p><span data-ttu-id="d2912-127">MediationServerBypassFlag</span><span class="sxs-lookup"><span data-stu-id="d2912-127">MediationServerBypassFlag</span></span></p></td>
+<td><p><span data-ttu-id="d2912-128">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-128">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-129">指示是否已绕过呼叫的标志。</span><span class="sxs-lookup"><span data-stu-id="d2912-129">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MediaBypassWarningFlag</p></td>
-<td><p>int</p></td>
-<td><p>如果存在，则指示即使绕过 ID 相匹配也没有绕过呼叫的原因。仅定义一个值：</p>
-<p>0x0001 – 默认网络适配器的未知绕过 ID。</p></td>
+<td><p><span data-ttu-id="d2912-130">MediaBypassWarningFlag</span><span class="sxs-lookup"><span data-stu-id="d2912-130">MediaBypassWarningFlag</span></span></p></td>
+<td><p><span data-ttu-id="d2912-131">int</span><span class="sxs-lookup"><span data-stu-id="d2912-131">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-132">如果存在, 则指示未跳过呼叫的原因, 即使旁路 Id 匹配也是如此。</span><span class="sxs-lookup"><span data-stu-id="d2912-132">If present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="d2912-133">仅定义了一个值:</span><span class="sxs-lookup"><span data-stu-id="d2912-133">Only one value is defined:</span></span></p>
+<p><span data-ttu-id="d2912-134">0x0001-默认网络适配器的旁路 ID 未知。</span><span class="sxs-lookup"><span data-stu-id="d2912-134">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallPriority</p></td>
-<td><p>int</p></td>
-<td><p>呼叫的优先级。</p></td>
+<td><p><span data-ttu-id="d2912-135">CallPriority</span><span class="sxs-lookup"><span data-stu-id="d2912-135">CallPriority</span></span></p></td>
+<td><p><span data-ttu-id="d2912-136">int</span><span class="sxs-lookup"><span data-stu-id="d2912-136">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-137">通话的优先级。</span><span class="sxs-lookup"><span data-stu-id="d2912-137">Priority of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼叫者池 FQDN。</p></td>
+<td><p><span data-ttu-id="d2912-138">CallerPool</span><span class="sxs-lookup"><span data-stu-id="d2912-138">CallerPool</span></span></p></td>
+<td><p><span data-ttu-id="d2912-139">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-139">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-140">呼叫方池 FQDN。</span><span class="sxs-lookup"><span data-stu-id="d2912-140">Caller pool FQDN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>被叫方池 FQDN。</p></td>
+<td><p><span data-ttu-id="d2912-141">CalleePool</span><span class="sxs-lookup"><span data-stu-id="d2912-141">CalleePool</span></span></p></td>
+<td><p><span data-ttu-id="d2912-142">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-142">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-143">被调用池 FQDN。</span><span class="sxs-lookup"><span data-stu-id="d2912-143">Callee pool FQDN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Caller</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>呼叫者的 URI。</p></td>
+<td><p><span data-ttu-id="d2912-144">呼叫者</span><span class="sxs-lookup"><span data-stu-id="d2912-144">Caller</span></span></p></td>
+<td><p><span data-ttu-id="d2912-145">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d2912-145">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-146">调用方的 URI。</span><span class="sxs-lookup"><span data-stu-id="d2912-146">Caller’s URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Callee</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>被叫方的 URI。</p></td>
+<td><p><span data-ttu-id="d2912-147">被叫方</span><span class="sxs-lookup"><span data-stu-id="d2912-147">Callee</span></span></p></td>
+<td><p><span data-ttu-id="d2912-148">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d2912-148">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-149">被调用方的 URI。</span><span class="sxs-lookup"><span data-stu-id="d2912-149">Callee’s URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼叫者的用户代理字符串。</p></td>
+<td><p><span data-ttu-id="d2912-150">CallerUserAgent</span><span class="sxs-lookup"><span data-stu-id="d2912-150">CallerUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="d2912-151">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-151">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-152">呼叫方的用户代理字符串。</span><span class="sxs-lookup"><span data-stu-id="d2912-152">Caller’s user agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerUserAgentType</p></td>
-<td><p>smallint</p></td>
-<td><p>呼叫者的用户代理类型。有关详细信息，请参阅 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-153">CallerUserAgentType</span><span class="sxs-lookup"><span data-stu-id="d2912-153">CallerUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="d2912-154">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-154">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-155">呼叫方的用户代理的类型。</span><span class="sxs-lookup"><span data-stu-id="d2912-155">Type of the caller’s user agent.</span></span> <span data-ttu-id="d2912-156">有关详细信息, 请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-156">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerUserAgentCategory</p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>呼叫者的用户代理类别。有关详细信息，请参阅 <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef 表 (QoE)</a>。</p></td>
+<td><p><span data-ttu-id="d2912-157">CallerUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="d2912-157">CallerUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="d2912-158">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="d2912-158">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-159">呼叫方的用户代理类别。</span><span class="sxs-lookup"><span data-stu-id="d2912-159">Category of the caller’s user agent.</span></span> <span data-ttu-id="d2912-160">有关详细信息, 请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表 (QoE)</a> 。</span><span class="sxs-lookup"><span data-stu-id="d2912-160">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>被叫方的用户代理字符串。</p></td>
+<td><p><span data-ttu-id="d2912-161">CalleeUserAgent</span><span class="sxs-lookup"><span data-stu-id="d2912-161">CalleeUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="d2912-162">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-162">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-163">被呼叫方的用户代理字符串。</span><span class="sxs-lookup"><span data-stu-id="d2912-163">Callee’s user agent string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeUserAgentType</p></td>
-<td><p>smallint</p></td>
-<td><p>被叫方的用户代理类型。有关信息，请参阅 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-164">CalleeUserAgentType</span><span class="sxs-lookup"><span data-stu-id="d2912-164">CalleeUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="d2912-165">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-165">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-166">被调用方的用户代理的类型。</span><span class="sxs-lookup"><span data-stu-id="d2912-166">Type of callee’s user agent.</span></span> <span data-ttu-id="d2912-167">有关信息, 请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-167">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserAgentCategory</p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>被叫方的用户代理类别。有关信息，请参阅 <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef 表 (QoE)</a>。</p></td>
+<td><p><span data-ttu-id="d2912-168">CalleeUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="d2912-168">CalleeUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="d2912-169">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="d2912-169">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-170">被呼叫方的用户代理类别。</span><span class="sxs-lookup"><span data-stu-id="d2912-170">Category of callee’s user agent.</span></span> <span data-ttu-id="d2912-171">有关信息, 请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表 (QoE)</a> 。</span><span class="sxs-lookup"><span data-stu-id="d2912-171">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼叫者的终结点名称。</p></td>
+<td><p><span data-ttu-id="d2912-172">CallerEndpoint</span><span class="sxs-lookup"><span data-stu-id="d2912-172">CallerEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-173">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-173">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-174">调用方的终结点名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-174">Caller’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>被叫方的终结点名称。</p></td>
+<td><p><span data-ttu-id="d2912-175">CalleeEndpoint</span><span class="sxs-lookup"><span data-stu-id="d2912-175">CalleeEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-176">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d2912-176">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-177">被调用方的终结点名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-177">Callee’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerOS</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>呼叫者终结点的操作系统 (OS)。</p></td>
+<td><p><span data-ttu-id="d2912-178">CallerOS</span><span class="sxs-lookup"><span data-stu-id="d2912-178">CallerOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-179">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-179">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-180">呼叫方终结点的操作系统 (OS)。</span><span class="sxs-lookup"><span data-stu-id="d2912-180">Operating system (OS) of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeOS</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>被叫方终结点的操作系统 (OS)。</p></td>
+<td><p><span data-ttu-id="d2912-181">CalleeOS</span><span class="sxs-lookup"><span data-stu-id="d2912-181">CalleeOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-182">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-182">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-183">被调用方终结点的操作系统 (OS)。</span><span class="sxs-lookup"><span data-stu-id="d2912-183">Operating system (OS) of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUName</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>呼叫者终结点的 CPU 名称。</p></td>
+<td><p><span data-ttu-id="d2912-184">CallerCPUName</span><span class="sxs-lookup"><span data-stu-id="d2912-184">CallerCPUName</span></span></p></td>
+<td><p><span data-ttu-id="d2912-185">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-185">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-186">呼叫方终结点的 CPU 名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-186">CPU name of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUName</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>被叫方终结点的 CPU 名称。</p></td>
+<td><p><span data-ttu-id="d2912-187">CalleeCPUName</span><span class="sxs-lookup"><span data-stu-id="d2912-187">CalleeCPUName</span></span></p></td>
+<td><p><span data-ttu-id="d2912-188">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-188">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-189">被调用方终结点的 CPU 名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-189">CPU name of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUNumberOfCores</p></td>
-<td><p>smallint</p></td>
-<td><p>呼叫者终结点中的 CPU 核心数目。</p></td>
+<td><p><span data-ttu-id="d2912-190">CallerCPUNumberOfCores</span><span class="sxs-lookup"><span data-stu-id="d2912-190">CallerCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="d2912-191">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-191">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-192">呼叫方终结点中的 CPU 内核数。</span><span class="sxs-lookup"><span data-stu-id="d2912-192">Number of CPU cores in the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUNumberOfCores</p></td>
-<td><p>smallint</p></td>
-<td><p>被叫方终结点中的 CPU 核心数目。</p></td>
+<td><p><span data-ttu-id="d2912-193">CalleeCPUNumberOfCores</span><span class="sxs-lookup"><span data-stu-id="d2912-193">CalleeCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="d2912-194">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-194">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-195">被调用方的终结点中的 CPU 内核数。</span><span class="sxs-lookup"><span data-stu-id="d2912-195">Number of CPU cores in the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者终结点的 CPU 处理器速度。</p></td>
+<td><p><span data-ttu-id="d2912-196">CallerCPUProcessorSpeed</span><span class="sxs-lookup"><span data-stu-id="d2912-196">CallerCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d2912-197">int</span><span class="sxs-lookup"><span data-stu-id="d2912-197">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-198">呼叫方终结点的 CPU 处理器速度。</span><span class="sxs-lookup"><span data-stu-id="d2912-198">CPU processor speed of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
-<td><p>被叫方终结点的 CPU 处理器速度。</p></td>
+<td><p><span data-ttu-id="d2912-199">CalleeCPUProcessorSpeed</span><span class="sxs-lookup"><span data-stu-id="d2912-199">CalleeCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d2912-200">int</span><span class="sxs-lookup"><span data-stu-id="d2912-200">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-201">被调用方终结点的 CPU 处理器速度。</span><span class="sxs-lookup"><span data-stu-id="d2912-201">CPU processor speed of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVirtualizationFlag</p></td>
-<td><p>tinyint</p></td>
-<td><p>指示呼叫者的系统是否正在虚拟化环境中运行。有关详细信息，请参阅 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的 Endpoint 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-202">CallerVirtualizationFlag</span><span class="sxs-lookup"><span data-stu-id="d2912-202">CallerVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="d2912-203">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-203">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-204">指示呼叫者的系统是否在虚拟化环境中运行。</span><span class="sxs-lookup"><span data-stu-id="d2912-204">Indicates whether the caller’s system is running in a virtualized environment.</span></span> <span data-ttu-id="d2912-205">有关详细信息, 请参阅<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-205">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVirtualizationFlag</p></td>
-<td><p>tinyint</p></td>
-<td><p>指示被叫方的系统是否正在虚拟化环境中运行。有关详细信息，请参阅 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的 Endpoint 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-206">CalleeVirtualizationFlag</span><span class="sxs-lookup"><span data-stu-id="d2912-206">CalleeVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="d2912-207">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-207">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-208">指示被调用方的系统是否在虚拟化环境中运行。</span><span class="sxs-lookup"><span data-stu-id="d2912-208">Indicates whether the callee’s system is running in a virtualized environment.</span></span> <span data-ttu-id="d2912-209">有关详细信息, 请参阅<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-209">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CorrelationKey</p></td>
-<td><p></p></td>
-<td><p>相关密钥。引用自 <a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 中的 SessionCorrelation 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-210">CorrelationKey</span><span class="sxs-lookup"><span data-stu-id="d2912-210">CorrelationKey</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d2912-211">相关密钥。</span><span class="sxs-lookup"><span data-stu-id="d2912-211">Correlation key.</span></span> <span data-ttu-id="d2912-212">从<a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 中的 SessionCorrelation 表</a>引用。</span><span class="sxs-lookup"><span data-stu-id="d2912-212">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConnectivityIce</p></td>
-<td><p>tinyint</p></td>
-<td><p>有关媒体路径的信息，例如直接或中继。有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-213">ConnectivityIce</span><span class="sxs-lookup"><span data-stu-id="d2912-213">ConnectivityIce</span></span></p></td>
+<td><p><span data-ttu-id="d2912-214">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-214">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-215">有关媒体路径 (如直接或中继) 的信息。</span><span class="sxs-lookup"><span data-stu-id="d2912-215">Information about the media path, such as direct or relayed.</span></span> <span data-ttu-id="d2912-216">有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-216">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerIceWarningFlags</p></td>
-<td><p>int</p></td>
-<td><p>有关呼叫者的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“体验质量监控服务器协议规范”。</p></td>
+<td><p><span data-ttu-id="d2912-217">CallerIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="d2912-217">CallerIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="d2912-218">int</span><span class="sxs-lookup"><span data-stu-id="d2912-218">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-219">有关在呼叫者的位标志中描述的交互式连接建立 (ICE) 流程的信息。</span><span class="sxs-lookup"><span data-stu-id="d2912-219">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller.</span></span> <span data-ttu-id="d2912-220">有关详细信息, 请参阅体验质量监视服务器协议规范。</span><span class="sxs-lookup"><span data-stu-id="d2912-220">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeIceWarningFlags</p></td>
-<td><p>int</p></td>
-<td><p>有关被叫方的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“体验质量监控服务器协议规范”。</p></td>
+<td><p><span data-ttu-id="d2912-221">CalleeIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="d2912-221">CalleeIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="d2912-222">int</span><span class="sxs-lookup"><span data-stu-id="d2912-222">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-223">有关被调用方的位标志中所述的交互式连接建立 (ICE) 流程的信息。</span><span class="sxs-lookup"><span data-stu-id="d2912-223">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee.</span></span> <span data-ttu-id="d2912-224">有关详细信息, 请参阅体验质量监视服务器协议规范。</span><span class="sxs-lookup"><span data-stu-id="d2912-224">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Transport</p></td>
-<td><p>tinyint</p></td>
-<td><p>传输类型：0 是 UDP，1 是 TCP。</p></td>
+<td><p><span data-ttu-id="d2912-225">Transport</span><span class="sxs-lookup"><span data-stu-id="d2912-225">Transport</span></span></p></td>
+<td><p><span data-ttu-id="d2912-226">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-226">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-227">传输类型: 0 是 UDP, 1 是 TCP。</span><span class="sxs-lookup"><span data-stu-id="d2912-227">Transport type: 0 is UDP, 1 is TCP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>呼叫者的 IP 地址。这可能是 IPv4 或 IPv6 地址。</p></td>
+<td><p><span data-ttu-id="d2912-228">CallerIPAddr</span><span class="sxs-lookup"><span data-stu-id="d2912-228">CallerIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d2912-229">var (50)</span><span class="sxs-lookup"><span data-stu-id="d2912-229">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-230">呼叫方的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="d2912-230">IP address of the caller.</span></span> <span data-ttu-id="d2912-231">这可能是 IPv4 地址或 IPv6 地址。</span><span class="sxs-lookup"><span data-stu-id="d2912-231">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerPort</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者所使用的端口。</p></td>
+<td><p><span data-ttu-id="d2912-232">CallerPort</span><span class="sxs-lookup"><span data-stu-id="d2912-232">CallerPort</span></span></p></td>
+<td><p><span data-ttu-id="d2912-233">int</span><span class="sxs-lookup"><span data-stu-id="d2912-233">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-234">呼叫方使用的端口。</span><span class="sxs-lookup"><span data-stu-id="d2912-234">Port used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerInside</p></td>
-<td><p>bit</p></td>
-<td><p>指示呼叫者是否位于间隔网络内部：1 表示呼叫者位于企业网络内部，0 表示呼叫者位于网络外部。</p></td>
+<td><p><span data-ttu-id="d2912-235">CallerInside</span><span class="sxs-lookup"><span data-stu-id="d2912-235">CallerInside</span></span></p></td>
+<td><p><span data-ttu-id="d2912-236">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-236">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-237">指示呼叫者是否在间隔网络内: 1 表示呼叫方位于企业网络内, 0 表示呼叫方位于网络外部。</span><span class="sxs-lookup"><span data-stu-id="d2912-237">Indicates whether the caller is inside the interval network: 1 means caller is inside the enterprise network, 0 means the caller is outside the network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>被叫方的 IP 地址。这可能是 IPv4 或 IPv6 地址。</p></td>
+<td><p><span data-ttu-id="d2912-238">CalleeIPAddr</span><span class="sxs-lookup"><span data-stu-id="d2912-238">CalleeIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d2912-239">var (50)</span><span class="sxs-lookup"><span data-stu-id="d2912-239">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-240">被呼叫方的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="d2912-240">IP address of the callee.</span></span> <span data-ttu-id="d2912-241">这可能是 IPv4 地址或 IPv6 地址。</span><span class="sxs-lookup"><span data-stu-id="d2912-241">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleePort</p></td>
-<td><p>int</p></td>
-<td><p>被叫方所使用的端口。</p></td>
+<td><p><span data-ttu-id="d2912-242">CalleePort</span><span class="sxs-lookup"><span data-stu-id="d2912-242">CalleePort</span></span></p></td>
+<td><p><span data-ttu-id="d2912-243">int</span><span class="sxs-lookup"><span data-stu-id="d2912-243">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-244">被呼叫方使用的端口。</span><span class="sxs-lookup"><span data-stu-id="d2912-244">Port used by the callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeInside</p></td>
-<td><p>bit</p></td>
-<td><p>指示被叫方是否位于间隔网络内部：1 表示被叫方位于企业网络内部，0 表示被叫方位于网络外部。</p></td>
+<td><p><span data-ttu-id="d2912-245">CalleeInside</span><span class="sxs-lookup"><span data-stu-id="d2912-245">CalleeInside</span></span></p></td>
+<td><p><span data-ttu-id="d2912-246">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-246">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-247">指示被调用方是否在间隔网络内: 1 表示被呼叫方位于企业网络内, 0 表示被呼叫方位于网络外部。</span><span class="sxs-lookup"><span data-stu-id="d2912-247">Indicates whether the callee is inside the interval network: 1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerUserSite</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>呼叫者的站点名称。</p></td>
+<td><p><span data-ttu-id="d2912-248">CallerUserSite</span><span class="sxs-lookup"><span data-stu-id="d2912-248">CallerUserSite</span></span></p></td>
+<td><p><span data-ttu-id="d2912-249">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-249">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-250">呼叫者站点的名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-250">Name of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRegion</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>呼叫者站点的国家/地区名称。</p></td>
+<td><p><span data-ttu-id="d2912-251">CallerRegion</span><span class="sxs-lookup"><span data-stu-id="d2912-251">CallerRegion</span></span></p></td>
+<td><p><span data-ttu-id="d2912-252">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-252">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-253">呼叫方网站的国家/地区的名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-253">Name of the country/region of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserSite</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>被叫方的站点名称。</p></td>
+<td><p><span data-ttu-id="d2912-254">CalleeUserSite</span><span class="sxs-lookup"><span data-stu-id="d2912-254">CalleeUserSite</span></span></p></td>
+<td><p><span data-ttu-id="d2912-255">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-255">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-256">被调用方的网站的名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-256">Name of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRegion</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>被叫方站点的国家/地区名称。</p></td>
+<td><p><span data-ttu-id="d2912-257">CalleeRegion</span><span class="sxs-lookup"><span data-stu-id="d2912-257">CalleeRegion</span></span></p></td>
+<td><p><span data-ttu-id="d2912-258">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2912-258">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-259">被呼叫方网站的国家/地区的名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-259">Name of the country/region of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerRelayIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>呼叫者所使用的 A/V 边缘服务的 IP 地址。有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-260">CallerRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="d2912-260">CallerRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d2912-261">var (50)</span><span class="sxs-lookup"><span data-stu-id="d2912-261">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-262">呼叫方使用的 A/V 边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="d2912-262">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="d2912-263">有关详细信息, 请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中</a>的 "IPAddress" 表。</span><span class="sxs-lookup"><span data-stu-id="d2912-263">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRelayPort</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者所使用的 A/V 边缘服务上使用的端口。</p></td>
+<td><p><span data-ttu-id="d2912-264">CallerRelayPort</span><span class="sxs-lookup"><span data-stu-id="d2912-264">CallerRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="d2912-265">int</span><span class="sxs-lookup"><span data-stu-id="d2912-265">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-266">由呼叫方使用的 A/V 边缘服务使用的端口。</span><span class="sxs-lookup"><span data-stu-id="d2912-266">Port used on the A/V Edge service used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRelayIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>被叫方所使用的 A/V 边缘服务的 IP 地址密钥。有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-267">CalleeRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="d2912-267">CalleeRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d2912-268">var (50)</span><span class="sxs-lookup"><span data-stu-id="d2912-268">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-269">被呼叫方使用的 A/V 边缘服务的 IP 地址密钥。</span><span class="sxs-lookup"><span data-stu-id="d2912-269">IP Address key of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="d2912-270">有关详细信息, 请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中</a>的 "IPAddress" 表。</span><span class="sxs-lookup"><span data-stu-id="d2912-270">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
-<td><p>被叫方所使用的 A/V 边缘服务上使用的端口。</p></td>
+<td><p><span data-ttu-id="d2912-271">CalleeRelayPort</span><span class="sxs-lookup"><span data-stu-id="d2912-271">CalleeRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="d2912-272">int</span><span class="sxs-lookup"><span data-stu-id="d2912-272">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-273">用于由被呼叫方使用的 A/V 边缘服务的端口。</span><span class="sxs-lookup"><span data-stu-id="d2912-273">Port used on the A/V Edge service used by the callee.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerCaptureDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>呼叫者的捕获设备名称。</p></td>
+<td><p><span data-ttu-id="d2912-274">CallerCaptureDev</span><span class="sxs-lookup"><span data-stu-id="d2912-274">CallerCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="d2912-275">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-275">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-276">呼叫方的捕获设备名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-276">Caller’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRenderDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>呼叫者的呈现设备名称。</p></td>
+<td><p><span data-ttu-id="d2912-277">CallerRenderDev</span><span class="sxs-lookup"><span data-stu-id="d2912-277">CallerRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="d2912-278">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-278">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-279">调用方的呈现设备名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-279">Caller’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerCaptureDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>呼叫者的捕获设备驱动程序名称。</p></td>
+<td><p><span data-ttu-id="d2912-280">CallerCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="d2912-280">CallerCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d2912-281">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-281">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-282">呼叫方的捕获设备驱动程序名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-282">Caller’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRenderDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>呼叫者的呈现设备驱动程序名称。</p></td>
+<td><p><span data-ttu-id="d2912-283">CallerRenderDriver</span><span class="sxs-lookup"><span data-stu-id="d2912-283">CallerRenderDriver</span></span></p></td>
+<td><p><span data-ttu-id="d2912-284">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-284">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-285">呼叫方的呈现设备驱动程序名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-285">Caller’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCaptureDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>被叫方的捕获设备名称。</p></td>
+<td><p><span data-ttu-id="d2912-286">CalleeCaptureDev</span><span class="sxs-lookup"><span data-stu-id="d2912-286">CalleeCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="d2912-287">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-287">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-288">被调用方的捕获设备名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-288">Callee’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRenderDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>被叫方的呈现设备名称。</p></td>
+<td><p><span data-ttu-id="d2912-289">CalleeRenderDev</span><span class="sxs-lookup"><span data-stu-id="d2912-289">CalleeRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="d2912-290">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-290">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-291">被调用方的呈现设备名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-291">Callee’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCaptureDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>被叫方的捕获设备驱动程序名称。</p></td>
+<td><p><span data-ttu-id="d2912-292">CalleeCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="d2912-292">CalleeCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d2912-293">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-293">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-294">被调用方的捕获设备驱动程序名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-294">Callee’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRenderDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>被叫方的呈现设备驱动程序名称。</p></td>
+<td><p><span data-ttu-id="d2912-295">CalleeRenderDevDriver</span><span class="sxs-lookup"><span data-stu-id="d2912-295">CalleeRenderDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d2912-296">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2912-296">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-297">被调用方的呈现设备驱动程序名称。</span><span class="sxs-lookup"><span data-stu-id="d2912-297">Callee’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerNetworkConnectionType</p></td>
-<td><p>tinyint</p></td>
-<td><p>呼叫者的网络连接类型：0 是有线，1 是无线。</p></td>
+<td><p><span data-ttu-id="d2912-298">CallerNetworkConnectionType</span><span class="sxs-lookup"><span data-stu-id="d2912-298">CallerNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="d2912-299">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-299">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-300">呼叫者的网络连接类型: 0 是 "有线", 1 是 "无线"。</span><span class="sxs-lookup"><span data-stu-id="d2912-300">Caller’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVPN</p></td>
-<td><p>bit</p></td>
-<td><p>指示呼叫者是否通过虚拟专用网络连接：1 是虚拟专用网络 (VPN)，0 是非 VPN。</p></td>
+<td><p><span data-ttu-id="d2912-301">CallerVPN</span><span class="sxs-lookup"><span data-stu-id="d2912-301">CallerVPN</span></span></p></td>
+<td><p><span data-ttu-id="d2912-302">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-302">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-303">指示呼叫者是否通过虚拟专用网络连接: 1 是虚拟专用网 (VPN), 0 是非 VPN。</span><span class="sxs-lookup"><span data-stu-id="d2912-303">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerLinkSpeed</p></td>
-<td><p>decimal(18,0)</p></td>
-<td><p>呼叫者终结点的网络链接速度（以 bps 为单位）。</p></td>
+<td><p><span data-ttu-id="d2912-304">CallerLinkSpeed</span><span class="sxs-lookup"><span data-stu-id="d2912-304">CallerLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d2912-305">十进制 (18, 0)</span><span class="sxs-lookup"><span data-stu-id="d2912-305">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-306">呼叫方终结点的网络链接速度 (以 bps 为实现)。</span><span class="sxs-lookup"><span data-stu-id="d2912-306">Network link speed for the caller's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeNetworkConnectionType</p></td>
-<td><p>tinyint</p></td>
-<td><p>被叫方的网络连接类型：0 是有线，1 是无线。</p></td>
+<td><p><span data-ttu-id="d2912-307">CalleeNetworkConnectionType</span><span class="sxs-lookup"><span data-stu-id="d2912-307">CalleeNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="d2912-308">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-308">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-309">被呼叫方的网络连接类型: 0 是 "有线", 1 是 "无线"。</span><span class="sxs-lookup"><span data-stu-id="d2912-309">Callee’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVPN</p></td>
-<td><p>bit</p></td>
-<td><p>指示被叫方是否通过虚拟专用网络连接：1 是虚拟专用网络 (VPN)，0 是非 VPN。</p></td>
+<td><p><span data-ttu-id="d2912-310">CalleeVPN</span><span class="sxs-lookup"><span data-stu-id="d2912-310">CalleeVPN</span></span></p></td>
+<td><p><span data-ttu-id="d2912-311">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-311">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-312">指示呼叫者是否通过虚拟专用网络连接: 1 是虚拟专用网 (VPN), 0 是非 VPN。</span><span class="sxs-lookup"><span data-stu-id="d2912-312">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeLinkSpeed</p></td>
-<td><p>decimal(18,0)</p></td>
-<td><p>被叫方终结点的网络链接速度（以 bps 为单位）。</p></td>
+<td><p><span data-ttu-id="d2912-313">CalleeLinkSpeed</span><span class="sxs-lookup"><span data-stu-id="d2912-313">CalleeLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d2912-314">十进制 (18, 0)</span><span class="sxs-lookup"><span data-stu-id="d2912-314">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-315">被呼叫方终结点的网络链接速度, 以 bps 为限。</span><span class="sxs-lookup"><span data-stu-id="d2912-315">Network link speed for the callee's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConversationalMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>音频会话的窄带交谈 MOS（基于两个音频流）。</p></td>
+<td><p><span data-ttu-id="d2912-316">ConversationalMOS</span><span class="sxs-lookup"><span data-stu-id="d2912-316">ConversationalMOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-317">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-317">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-318">音频会话的 Narrowband 对话 MOS (基于两个音频流)。</span><span class="sxs-lookup"><span data-stu-id="d2912-318">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AppliedBandwidthLimit</p></td>
-<td><p>int</p></td>
-<td><p>应用于指定发送端流指定的多种策略设置（TURN、API、SDP、策略服务器等）的实际带宽。不要将其与有效带宽混淆，因为根据带宽预估的不同，有效带宽可能会减少。这基本上是发送流可禁止带宽预估设定的限制的最大带宽</p></td>
+<td><p><span data-ttu-id="d2912-319">AppliedBandwidthLimit</span><span class="sxs-lookup"><span data-stu-id="d2912-319">AppliedBandwidthLimit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-320">int</span><span class="sxs-lookup"><span data-stu-id="d2912-320">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-321">在给定各种策略设置 (TURN、API、SDP、策略服务器等) 的情况下, 应用到给定发送端流的实际带宽。</span><span class="sxs-lookup"><span data-stu-id="d2912-321">Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on).</span></span> <span data-ttu-id="d2912-322">此操作不会与有效的带宽混淆, 因为根据带宽估计, 可能会有较低的有效带宽。</span><span class="sxs-lookup"><span data-stu-id="d2912-322">This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate.</span></span> <span data-ttu-id="d2912-323">这基本上是发送流对带宽估计所施加限制限制的最大带宽</span><span class="sxs-lookup"><span data-stu-id="d2912-323">This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>JitterInterArrival</p></td>
-<td><p>int</p></td>
-<td><p>实时控制协议 (RTCP) 统计信息中的平均网络抖动。</p></td>
+<td><p><span data-ttu-id="d2912-324">JitterInterArrival</span><span class="sxs-lookup"><span data-stu-id="d2912-324">JitterInterArrival</span></span></p></td>
+<td><p><span data-ttu-id="d2912-325">int</span><span class="sxs-lookup"><span data-stu-id="d2912-325">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-326">实时控制协议 (RTCP) 统计信息的平均网络抖动。</span><span class="sxs-lookup"><span data-stu-id="d2912-326">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>JitterInterArrivalMax</p></td>
-<td><p>int</p></td>
-<td><p>呼叫期间的最大网络抖动。</p></td>
+<td><p><span data-ttu-id="d2912-327">JitterInterArrivalMax</span><span class="sxs-lookup"><span data-stu-id="d2912-327">JitterInterArrivalMax</span></span></p></td>
+<td><p><span data-ttu-id="d2912-328">int</span><span class="sxs-lookup"><span data-stu-id="d2912-328">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-329">通话期间网络抖动的最大值。</span><span class="sxs-lookup"><span data-stu-id="d2912-329">Maximum network jitter during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PacketLossRate</p></td>
-<td><p>decimal(5,4)</p></td>
-<td><p>呼叫期间的平均数据包丢失率。</p></td>
+<td><p><span data-ttu-id="d2912-330">PacketLossRate</span><span class="sxs-lookup"><span data-stu-id="d2912-330">PacketLossRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-331">十进制 (5, 4)</span><span class="sxs-lookup"><span data-stu-id="d2912-331">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-332">通话期间平均数据包丢失速率。</span><span class="sxs-lookup"><span data-stu-id="d2912-332">Average packet loss rate during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PacketLossRateMax</p></td>
-<td><p>decimal(5,4)</p></td>
-<td><p>呼叫期间观测到的数据包丢失最大值。</p></td>
+<td><p><span data-ttu-id="d2912-333">PacketLossRateMax</span><span class="sxs-lookup"><span data-stu-id="d2912-333">PacketLossRateMax</span></span></p></td>
+<td><p><span data-ttu-id="d2912-334">十进制 (5, 4)</span><span class="sxs-lookup"><span data-stu-id="d2912-334">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-335">通话过程中观察到的最大数据包丢失。</span><span class="sxs-lookup"><span data-stu-id="d2912-335">Maximum packet loss observed during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>BurstDensity</p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p>呼叫过程中出现间歇丢失期间数据包丢失的平均密度。</p></td>
+<td><p><span data-ttu-id="d2912-336">BurstDensity</span><span class="sxs-lookup"><span data-stu-id="d2912-336">BurstDensity</span></span></p></td>
+<td><p><span data-ttu-id="d2912-337">十进制 (9, 4)</span><span class="sxs-lookup"><span data-stu-id="d2912-337">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-338">通话期间出现猝发损失期间的数据包丢失的平均密度。</span><span class="sxs-lookup"><span data-stu-id="d2912-338">Average density of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BurstDuration</p></td>
-<td><p>int</p></td>
-<td><p>呼叫过程中出现间歇丢失期间数据包丢失的平均持续时间。</p></td>
+<td><p><span data-ttu-id="d2912-339">BurstDuration</span><span class="sxs-lookup"><span data-stu-id="d2912-339">BurstDuration</span></span></p></td>
+<td><p><span data-ttu-id="d2912-340">int</span><span class="sxs-lookup"><span data-stu-id="d2912-340">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-341">通话期间出现猝发损失期间的数据包丢失的平均持续时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-341">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>BurstGapDensity</p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p>间歇的数据包丢失之间出现间隙期间数据包丢失的平均密度。</p></td>
+<td><p><span data-ttu-id="d2912-342">BurstGapDensity</span><span class="sxs-lookup"><span data-stu-id="d2912-342">BurstGapDensity</span></span></p></td>
+<td><p><span data-ttu-id="d2912-343">十进制 (9, 4)</span><span class="sxs-lookup"><span data-stu-id="d2912-343">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-344">出现猝发数据包丢失之间的平均数据包损失的平均密度。</span><span class="sxs-lookup"><span data-stu-id="d2912-344">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BurstGapDuration</p></td>
-<td><p>int</p></td>
-<td><p>间歇的数据包丢失之间出现间隙的平均持续时间。</p></td>
+<td><p><span data-ttu-id="d2912-345">BurstGapDuration</span><span class="sxs-lookup"><span data-stu-id="d2912-345">BurstGapDuration</span></span></p></td>
+<td><p><span data-ttu-id="d2912-346">int</span><span class="sxs-lookup"><span data-stu-id="d2912-346">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-347">爆发数据包损失之间的平均持续时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-347">Average duration of gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PacketUtilization</p></td>
-<td><p>int</p></td>
-<td><p>音频流的数据包计数。</p></td>
+<td><p><span data-ttu-id="d2912-348">PacketUtilization</span><span class="sxs-lookup"><span data-stu-id="d2912-348">PacketUtilization</span></span></p></td>
+<td><p><span data-ttu-id="d2912-349">int</span><span class="sxs-lookup"><span data-stu-id="d2912-349">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-350">音频流的数据包计数。</span><span class="sxs-lookup"><span data-stu-id="d2912-350">Packet count for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BandwidthEst</p></td>
-<td><p>int</p></td>
-<td><p>音频流的带宽预估。</p></td>
+<td><p><span data-ttu-id="d2912-351">BandwidthEst</span><span class="sxs-lookup"><span data-stu-id="d2912-351">BandwidthEst</span></span></p></td>
+<td><p><span data-ttu-id="d2912-352">int</span><span class="sxs-lookup"><span data-stu-id="d2912-352">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-353">音频流的带宽估计。</span><span class="sxs-lookup"><span data-stu-id="d2912-353">Bandwidth estimates for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DegradationAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>全部呼叫的网络 MOS 性能降低。范围是 0.0 到 5.0。此指标显示因抖动和数据包丢失而降低的网络 MOS 值。为获得可接受的质量，它应小于 0.5。</p></td>
+<td><p><span data-ttu-id="d2912-354">DegradationAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-354">DegradationAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-355">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-355">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-356">整个通话的网络 MOS 降级。</span><span class="sxs-lookup"><span data-stu-id="d2912-356">Network MOS Degradation for the whole call.</span></span> <span data-ttu-id="d2912-357">范围为0.0 到5.0。</span><span class="sxs-lookup"><span data-stu-id="d2912-357">Range is 0.0 to 5.0.</span></span> <span data-ttu-id="d2912-358">此指标显示由于抖动和数据包丢失, 网络 MOS 的减少量。</span><span class="sxs-lookup"><span data-stu-id="d2912-358">This metric shows the amount the Network MOS was reduced because of jitter and packet loss.</span></span> <span data-ttu-id="d2912-359">对于可接受的质量, 它应小于0.5。</span><span class="sxs-lookup"><span data-stu-id="d2912-359">For acceptable quality it should less than 0.5.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DegradationMax</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>呼叫期间的最大网络 MOS 性能降低。</p></td>
+<td><p><span data-ttu-id="d2912-360">DegradationMax</span><span class="sxs-lookup"><span data-stu-id="d2912-360">DegradationMax</span></span></p></td>
+<td><p><span data-ttu-id="d2912-361">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-361">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-362">通话期间最大网络 MOS 性能下降。</span><span class="sxs-lookup"><span data-stu-id="d2912-362">Maximum Network MOS degradation during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DegradationJitterAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>抖动导致的网络 MOS 性能降低。</p></td>
+<td><p><span data-ttu-id="d2912-363">DegradationJitterAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-363">DegradationJitterAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-364">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-364">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-365">由抖动导致的网络 MOS 性能下降。</span><span class="sxs-lookup"><span data-stu-id="d2912-365">Network MOS degradation caused by jitter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DegradationPacketLossAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>数据包丢失导致的网络 MOS 性能降低。</p></td>
+<td><p><span data-ttu-id="d2912-366">DegradationPacketLossAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-366">DegradationPacketLossAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-367">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-367">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-368">由于数据包丢失导致网络 MOS 性能下降。</span><span class="sxs-lookup"><span data-stu-id="d2912-368">Network MOS degradation caused by packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PayloadDescription</p></td>
-<td><p>int</p></td>
-<td><p>用于呼叫的音频编解码器，引用自 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-369">PayloadDescription</span><span class="sxs-lookup"><span data-stu-id="d2912-369">PayloadDescription</span></span></p></td>
+<td><p><span data-ttu-id="d2912-370">int</span><span class="sxs-lookup"><span data-stu-id="d2912-370">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-371">用于呼叫的音频编解码器, 从<a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表</a>引用。</span><span class="sxs-lookup"><span data-stu-id="d2912-371">The audio codec used for the call, referenced from the <a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AudioSampleRate</p></td>
-<td><p>int</p></td>
-<td><p>音频流的采样率。</p></td>
+<td><p><span data-ttu-id="d2912-372">AudioSampleRate</span><span class="sxs-lookup"><span data-stu-id="d2912-372">AudioSampleRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-373">int</span><span class="sxs-lookup"><span data-stu-id="d2912-373">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-374">音频流的采样率。</span><span class="sxs-lookup"><span data-stu-id="d2912-374">Sampling rate for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerSendSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者发送的音频的“模拟后增益控制”音频信号电平。该指标的单位为 dBmo。为获得可接受的质量，该值至少应为 30 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-375">CallerSendSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-375">CallerSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-376">int</span><span class="sxs-lookup"><span data-stu-id="d2912-376">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-377">呼叫者发送的音频的模拟增益控制音频信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-377">Post-Analog Gain Control audio signal level for the audio the caller sent.</span></span> <span data-ttu-id="d2912-378">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-378">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-379">为获得可接受的质量, 它至少应为 30 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-379">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="d2912-380">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-380">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRecvSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者收到的音频的音频信号电平。该指标的单位为 dBmo。为获得可接受的质量，该值至少应为 30 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-381">CallerRecvSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-381">CallerRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-382">int</span><span class="sxs-lookup"><span data-stu-id="d2912-382">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-383">呼叫者收到的音频的音频信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-383">Audio signal level for the audio the caller received.</span></span> <span data-ttu-id="d2912-384">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-384">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-385">为获得可接受的质量, 它至少应为 30 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-385">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="d2912-386">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-386">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerSendNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者发送的音频的“模拟后增益控制”音频噪声电平。该指标的单位为 dBmo。为获得可接受的质量，该值应小于 35 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-387">CallerSendNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-387">CallerSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-388">int</span><span class="sxs-lookup"><span data-stu-id="d2912-388">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-389">为呼叫者发送的音频的模拟后增益控制音频噪音级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-389">Post-Analog Gain Control audio noise level for the audio the caller sent.</span></span> <span data-ttu-id="d2912-390">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-390">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-391">为获得可接受的质量, 它应小于 35 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-391">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="d2912-392">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-392">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRecvNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者收到的音频的“模拟后增益控制”音频噪声电平。该指标的单位为 dBmo。为获得可接受的质量，该值应小于 35 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-393">CallerRecvNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-393">CallerRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-394">int</span><span class="sxs-lookup"><span data-stu-id="d2912-394">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-395">呼叫者收到的音频的后模拟增益控制音频噪音级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-395">Post-Analog Gain Control audio noise level for the audio the caller received.</span></span> <span data-ttu-id="d2912-396">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-396">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-397">为获得可接受的质量, 它应小于 35 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-397">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="d2912-398">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-398">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoReturn</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者的“回声往返损耗增强”。该指标的单位为 dB。数值越小，代表回声越小。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-399">CallerEchoReturn</span><span class="sxs-lookup"><span data-stu-id="d2912-399">CallerEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="d2912-400">int</span><span class="sxs-lookup"><span data-stu-id="d2912-400">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-401">呼叫方的回音返回损失增强。</span><span class="sxs-lookup"><span data-stu-id="d2912-401">Echo Return Loss Enhancement for the caller.</span></span> <span data-ttu-id="d2912-402">此指标的单位为 dB。</span><span class="sxs-lookup"><span data-stu-id="d2912-402">The unit for this metric is dB.</span></span> <span data-ttu-id="d2912-403">较低的值表示较少的回声。</span><span class="sxs-lookup"><span data-stu-id="d2912-403">Lower values represent less echo.</span></span> <span data-ttu-id="d2912-404">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-404">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者的扬声器呈现音频时每五分钟出现的平均故障次数。为获得良好的质量，该值应低于每五分钟一次。A/V 会议服务器、中介服务器或 IP 电话不会报告该值。</p></td>
+<td><p><span data-ttu-id="d2912-405">CallerSpeakerGlitchRate</span><span class="sxs-lookup"><span data-stu-id="d2912-405">CallerSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-406">int</span><span class="sxs-lookup"><span data-stu-id="d2912-406">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-407">呼叫者的扬声器呈现每五分钟的平均故障。</span><span class="sxs-lookup"><span data-stu-id="d2912-407">Average glitches per five minutes for the caller’s loudspeaker rendering.</span></span> <span data-ttu-id="d2912-408">为了获得良好的质量, 这应该小于每五分钟一次。</span><span class="sxs-lookup"><span data-stu-id="d2912-408">For good quality, this should be less than one per five minutes.</span></span> <span data-ttu-id="d2912-409">不由 A/V 式会议服务器、中介服务器或 IP 电话报告。</span><span class="sxs-lookup"><span data-stu-id="d2912-409">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerMicGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>呼叫者麦克风捕获音频时每五分钟出现的平均故障次数。为获得良好的质量，该值应低于每五分钟一次。A/V 会议服务器、中介服务器或 IP 电话不会报告该值。</p></td>
+<td><p><span data-ttu-id="d2912-410">CallerMicGlitchRate</span><span class="sxs-lookup"><span data-stu-id="d2912-410">CallerMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-411">int</span><span class="sxs-lookup"><span data-stu-id="d2912-411">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-412">呼叫者的麦克风捕获每五分钟的平均故障。</span><span class="sxs-lookup"><span data-stu-id="d2912-412">Average glitches per five minutes for the caller’s microphone capture.</span></span> <span data-ttu-id="d2912-413">为了获得良好的质量, 这应该小于每五分钟一次。</span><span class="sxs-lookup"><span data-stu-id="d2912-413">For good quality this should be less than one per five minutes.</span></span> <span data-ttu-id="d2912-414">不由 A/V 式会议服务器、中介服务器或 IP 电话报告。</span><span class="sxs-lookup"><span data-stu-id="d2912-414">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerTimestampDriftRateMic</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>呼叫者的麦克风设备时钟相对于 CPU 时钟的偏移率。</p></td>
+<td><p><span data-ttu-id="d2912-415">CallerTimestampDriftRateMic</span><span class="sxs-lookup"><span data-stu-id="d2912-415">CallerTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="d2912-416">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-416">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-417">呼叫者的麦克风设备时钟偏移速率, 相对于 CPU 时钟。</span><span class="sxs-lookup"><span data-stu-id="d2912-417">Caller’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerTimestampDriftRateSpk</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>呼叫者的扬声器设备时钟相对于 CPU 时钟的偏移率。</p></td>
+<td><p><span data-ttu-id="d2912-418">CallerTimestampDriftRateSpk</span><span class="sxs-lookup"><span data-stu-id="d2912-418">CallerTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="d2912-419">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-419">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-420">呼叫者的扬声器设备时钟偏移率 (相对于 CPU 时钟)。</span><span class="sxs-lookup"><span data-stu-id="d2912-420">Caller’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerTimestampErrorMicMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>在呼叫的最后 20 秒内，麦克风捕获流量的平均时间戳错误（以毫秒计）。</p></td>
+<td><p><span data-ttu-id="d2912-421">CallerTimestampErrorMicMs</span><span class="sxs-lookup"><span data-stu-id="d2912-421">CallerTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="d2912-422">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-422">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-423">在呼叫的最后20秒内, 麦克风捕获流时间戳的平均时间戳错误 (以毫秒为单位)。</span><span class="sxs-lookup"><span data-stu-id="d2912-423">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerTimestampErrorSpkMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>在呼叫的最后 20 秒内，呼叫者的麦克风呈现流量的平均时间戳错误（以毫秒计）。</p></td>
+<td><p><span data-ttu-id="d2912-424">CallerTimestampErrorSpkMs</span><span class="sxs-lookup"><span data-stu-id="d2912-424">CallerTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="d2912-425">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-425">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-426">呼叫者最近20秒内呼叫者的扬声器渲染流时间戳错误的平均值。</span><span class="sxs-lookup"><span data-stu-id="d2912-426">Average of the caller’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVsEntryCauses</p></td>
-<td><p>smallint</p></td>
-<td><p>语音切换采用具有减少中断功能的半双工模式。有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-427">CallerVsEntryCauses</span><span class="sxs-lookup"><span data-stu-id="d2912-427">CallerVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="d2912-428">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-428">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-429">语音开关是一种具有更低中断能力的半双工模式。</span><span class="sxs-lookup"><span data-stu-id="d2912-429">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="d2912-430">有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-430">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoEventCauses</p></td>
-<td><p>tinyint</p></td>
-<td><p>呼叫者的回声事件的原因。有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-431">CallerEchoEventCauses</span><span class="sxs-lookup"><span data-stu-id="d2912-431">CallerEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="d2912-432">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-432">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-433">呼叫方的 echo 事件的原因。</span><span class="sxs-lookup"><span data-stu-id="d2912-433">Causes of an echo event for the caller.</span></span> <span data-ttu-id="d2912-434">有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-434">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerEchoPercentMicIn</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>在呼叫者的麦克风捕获流量中检测回声时的时间百分比。如果使用耳机，则该值应该较小。</p></td>
+<td><p><span data-ttu-id="d2912-435">CallerEchoPercentMicIn</span><span class="sxs-lookup"><span data-stu-id="d2912-435">CallerEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="d2912-436">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-436">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-437">在呼叫者的麦克风捕获流中检测到回声的时间的百分比。</span><span class="sxs-lookup"><span data-stu-id="d2912-437">Percentage of time when echo is detected in the caller’s microphone capture stream.</span></span> <span data-ttu-id="d2912-438">如果使用耳机, 则该值应较低。</span><span class="sxs-lookup"><span data-stu-id="d2912-438">If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoPercentSend</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>在呼叫者的发送流量中检测回声时的时间百分比。如果发送流量中的回声百分比值较高，则表明回声泄漏。</p></td>
+<td><p><span data-ttu-id="d2912-439">CallerEchoPercentSend</span><span class="sxs-lookup"><span data-stu-id="d2912-439">CallerEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="d2912-440">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-440">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-441">在呼叫方的发送流中检测到回显的时间的百分比。</span><span class="sxs-lookup"><span data-stu-id="d2912-441">Percentage of time when echo is detected in the caller’s sent stream.</span></span> <span data-ttu-id="d2912-442">发送流中的高回显百分比表示回声泄漏。</span><span class="sxs-lookup"><span data-stu-id="d2912-442">High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>在中介服务器上收到的来自呼叫者音频网关的信号电平；该值仅适用于中介服务器。该指标的单位为 dBoV。为获得良好的质量，可接受的范围应为 -30 至 -18 dBoV。</p></td>
+<td><p><span data-ttu-id="d2912-443">CallerRxAGCSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-443">CallerRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-444">int</span><span class="sxs-lookup"><span data-stu-id="d2912-444">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-445">在中介服务器上收到来自呼叫者音频的网关的信号级别;这仅适用于中介服务器。</span><span class="sxs-lookup"><span data-stu-id="d2912-445">Received signal level on the Mediation Server from the Gateway for the caller’s audio; this applies only to the Mediation Server.</span></span> <span data-ttu-id="d2912-446">此指标的单位为 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-446">The unit of this metric is dBoV.</span></span> <span data-ttu-id="d2912-447">为了获得优质, 可接受范围应为-30 至-18 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-447">For good quality, the acceptable range should be -30 to -18 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>在中介服务器上收到的来自呼叫者音频网关的信号电平。该值仅适用于中介服务器。该指标的单位为 dBoV。为获得良好的质量，可接受的范围应小于 -50 dBoV。</p></td>
+<td><p><span data-ttu-id="d2912-448">CallerRxAGCNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-448">CallerRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-449">int</span><span class="sxs-lookup"><span data-stu-id="d2912-449">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-450">在中介服务器上从呼叫方音频的网关接收的信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-450">Received signal level on the Mediation Server from the Gateway for the caller’s audio.</span></span> <span data-ttu-id="d2912-451">这仅适用于中介服务器。</span><span class="sxs-lookup"><span data-stu-id="d2912-451">This applies only to the Mediation Server.</span></span> <span data-ttu-id="d2912-452">此指标的单位为 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-452">The unit of this metric is dBoV.</span></span> <span data-ttu-id="d2912-453">为了获得优质, 可接受范围应小于-50 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-453">For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRxAGCGain</p></td>
-<td><p>int</p></td>
-<td><p>应用到呼叫者音频的中介服务器方的自动增益控制 (AGC)。</p></td>
+<td><p><span data-ttu-id="d2912-454">CallerRxAGCGain</span><span class="sxs-lookup"><span data-stu-id="d2912-454">CallerRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="d2912-455">int</span><span class="sxs-lookup"><span data-stu-id="d2912-455">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-456">在中介服务器端应用于呼叫方音频的自动增益控制 (AGC)。</span><span class="sxs-lookup"><span data-stu-id="d2912-456">Automatic gain control (AGC) on the Mediation Server side applied to the caller’s audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
-<td><p>呼叫（最多）前 30 秒钟至呼叫者的传入信号的均方根 (RMS)。</p></td>
+<td><p><span data-ttu-id="d2912-457">CallerInitialSignalLevelRMS</span><span class="sxs-lookup"><span data-stu-id="d2912-457">CallerInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-458">float</span><span class="sxs-lookup"><span data-stu-id="d2912-458">float</span></span></p></td>
+<td><p><span data-ttu-id="d2912-459">呼叫方的传入信号的根平均值平方 (RMS), 最多可拨出前30秒。</span><span class="sxs-lookup"><span data-stu-id="d2912-459">Root mean square (RMS) of the incoming signal to the caller for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeSendSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>代表被叫方发送的音频的“模拟后增益控制”音频信号电平。该指标的单位为 dBmo。为获得可接受的质量，该值至少应为 30 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-460">CalleeSendSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-460">CalleeSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-461">int</span><span class="sxs-lookup"><span data-stu-id="d2912-461">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-462">表示被呼叫者发送的音频的后模拟增益控制音频信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-462">Represents the Post-Analog Gain Control audio signal level for the audio the callee sent.</span></span> <span data-ttu-id="d2912-463">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-463">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-464">为获得可接受的质量, 它至少应为 30 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-464">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="d2912-465">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-465">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRecvSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>被叫方收到的音频的音频信号电平。该指标的单位为 dBmo。为获得可接受的质量，该值至少应为 30 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-466">CalleeRecvSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-466">CalleeRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-467">int</span><span class="sxs-lookup"><span data-stu-id="d2912-467">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-468">被呼叫方收到的音频的音频信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-468">Audio signal level for the audio the callee received.</span></span> <span data-ttu-id="d2912-469">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-469">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-470">为获得可接受的质量, 它至少应为 30 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-470">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="d2912-471">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-471">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeSendNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>被叫方发送的音频的“模拟后增益控制”音频噪声电平。该指标的单位为 dBmo。为获得可接受的质量，该值应低于 35 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-472">CalleeSendNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-472">CalleeSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-473">int</span><span class="sxs-lookup"><span data-stu-id="d2912-473">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-474">对被呼叫者发送的音频进行模拟提升控制音频噪音级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-474">Post-Analog Gain Control audio noise level for the audio the callee sent.</span></span> <span data-ttu-id="d2912-475">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-475">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-476">为获得可接受的质量, 它应小于 35 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-476">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="d2912-477">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-477">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRecvNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>被叫方收到的音频的“模拟后增益控制”音频噪声电平。该指标的单位为 dBmo。为获得可接受的质量，该值应低于 35 dBmo。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-478">CalleeRecvNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-478">CalleeRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-479">int</span><span class="sxs-lookup"><span data-stu-id="d2912-479">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-480">被呼叫方接收的音频的模拟后增益控制音频噪音级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-480">Post-Analog Gain Control audio noise level for the audio the callee received.</span></span> <span data-ttu-id="d2912-481">此指标的单位为 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-481">The unit for this metric is dBmo.</span></span> <span data-ttu-id="d2912-482">为获得可接受的质量, 它应小于 35 dBmo。</span><span class="sxs-lookup"><span data-stu-id="d2912-482">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="d2912-483">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-483">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoReturn</p></td>
-<td><p>int</p></td>
-<td><p>被叫方的“回声往返损耗增强”。该指标的单位为 dB。数值越小，代表回声越小。A/V 会议服务器或 IP 电话不会报告该指标。</p></td>
+<td><p><span data-ttu-id="d2912-484">CalleeEchoReturn</span><span class="sxs-lookup"><span data-stu-id="d2912-484">CalleeEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="d2912-485">int</span><span class="sxs-lookup"><span data-stu-id="d2912-485">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-486">被调用方的回音返回损失增强。</span><span class="sxs-lookup"><span data-stu-id="d2912-486">Echo Return Loss Enhancement for the callee.</span></span> <span data-ttu-id="d2912-487">此指标的单位为 dB。</span><span class="sxs-lookup"><span data-stu-id="d2912-487">The unit for this metric is dB.</span></span> <span data-ttu-id="d2912-488">较低的值表示较少的回声。</span><span class="sxs-lookup"><span data-stu-id="d2912-488">Lower values represent less echo.</span></span> <span data-ttu-id="d2912-489">A/V 会议服务器或 IP 电话不报告此指标。</span><span class="sxs-lookup"><span data-stu-id="d2912-489">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>被叫方的扬声器呈现音频时每五分钟出现的平均故障次数。为获得良好的质量，该值应低于每五分钟一次。A/V 会议服务器、中介服务器或 IP 电话不会报告该值。</p></td>
+<td><p><span data-ttu-id="d2912-490">CalleeSpeakerGlitchRate</span><span class="sxs-lookup"><span data-stu-id="d2912-490">CalleeSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-491">int</span><span class="sxs-lookup"><span data-stu-id="d2912-491">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-492">被调用方的扬声器呈现每五分钟的平均故障。</span><span class="sxs-lookup"><span data-stu-id="d2912-492">Average glitches per five minutes for the callee’s loudspeaker rendering.</span></span> <span data-ttu-id="d2912-493">为了获得良好的质量, 这应该小于每五分钟一次。</span><span class="sxs-lookup"><span data-stu-id="d2912-493">For good quality, this should be less than one per five minutes.</span></span> <span data-ttu-id="d2912-494">不由 A/V 式会议服务器、中介服务器或 IP 电话报告。</span><span class="sxs-lookup"><span data-stu-id="d2912-494">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeMicGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>被叫方的麦克风捕获音频时每五分钟出现的平均故障次数。为获得良好的质量，该值应低于每五分钟一次。A/V 会议服务器、中介服务器或 IP 电话不会报告该值。</p></td>
+<td><p><span data-ttu-id="d2912-495">CalleeMicGlitchRate</span><span class="sxs-lookup"><span data-stu-id="d2912-495">CalleeMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d2912-496">int</span><span class="sxs-lookup"><span data-stu-id="d2912-496">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-497">被呼叫者的麦克风捕获每五分钟的平均故障。</span><span class="sxs-lookup"><span data-stu-id="d2912-497">Average glitches per five minutes for the callee’s microphone capture.</span></span> <span data-ttu-id="d2912-498">为了获得良好的质量, 这应该小于每五分钟一次。</span><span class="sxs-lookup"><span data-stu-id="d2912-498">For good quality this should be less than one per five minutes.</span></span> <span data-ttu-id="d2912-499">不由 A/V 式会议服务器、中介服务器或 IP 电话报告。</span><span class="sxs-lookup"><span data-stu-id="d2912-499">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeTimestampDriftRateMic</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>被叫方的麦克风设备时钟相对于 CPU 时钟的偏移率。</p></td>
+<td><p><span data-ttu-id="d2912-500">CalleeTimestampDriftRateMic</span><span class="sxs-lookup"><span data-stu-id="d2912-500">CalleeTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="d2912-501">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-501">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-502">被呼叫者的麦克风设备时钟偏移速率, 相对于 CPU 时钟。</span><span class="sxs-lookup"><span data-stu-id="d2912-502">Callee’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeTimestampDriftRateSpk</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>被叫方的扬声器设备时钟相对于 CPU 时钟的偏移率。</p></td>
+<td><p><span data-ttu-id="d2912-503">CalleeTimestampDriftRateSpk</span><span class="sxs-lookup"><span data-stu-id="d2912-503">CalleeTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="d2912-504">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-504">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-505">被呼叫者的扬声器设备时钟偏移速率, 相对于 CPU 时钟。</span><span class="sxs-lookup"><span data-stu-id="d2912-505">Callee’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeTimestampErrorMicMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>在呼叫的最后 20 秒内，麦克风捕获流量的平均时间戳错误（以毫秒计）。</p></td>
+<td><p><span data-ttu-id="d2912-506">CalleeTimestampErrorMicMs</span><span class="sxs-lookup"><span data-stu-id="d2912-506">CalleeTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="d2912-507">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-507">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-508">在呼叫的最后20秒内, 麦克风捕获流时间戳的平均时间戳错误 (以毫秒为单位)。</span><span class="sxs-lookup"><span data-stu-id="d2912-508">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeTimestampErrorSpkMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>在呼叫的最后 20 秒内，被叫方的扬声器呈现流量的平均时间戳错误（以毫秒计）。</p></td>
+<td><p><span data-ttu-id="d2912-509">CalleeTimestampErrorSpkMs</span><span class="sxs-lookup"><span data-stu-id="d2912-509">CalleeTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="d2912-510">十进制 (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-510">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-511">在呼叫的最后20秒内, 被调用方的扬声器的平均呈现流时间戳错误 (以毫秒为单位)。</span><span class="sxs-lookup"><span data-stu-id="d2912-511">Average of the callee’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVsEntryCauses</p></td>
-<td><p>smallint</p></td>
-<td><p>语音切换采用具有减少中断功能的半双工模式。有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-512">CalleeVsEntryCauses</span><span class="sxs-lookup"><span data-stu-id="d2912-512">CalleeVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="d2912-513">smallint</span><span class="sxs-lookup"><span data-stu-id="d2912-513">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-514">语音开关是一种具有更低中断能力的半双工模式。</span><span class="sxs-lookup"><span data-stu-id="d2912-514">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="d2912-515">有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-515">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoEventCauses</p></td>
-<td><p>tinyint</p></td>
-<td><p>被叫方的回声事件的原因。有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p><span data-ttu-id="d2912-516">CalleeEchoEventCauses</span><span class="sxs-lookup"><span data-stu-id="d2912-516">CalleeEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="d2912-517">tinyint</span><span class="sxs-lookup"><span data-stu-id="d2912-517">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d2912-518">被调用方的 echo 事件的原因。</span><span class="sxs-lookup"><span data-stu-id="d2912-518">Causes of an echo event for the callee.</span></span> <span data-ttu-id="d2912-519">有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="d2912-519">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeEchoPercentMicIn</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>在被叫方的麦克风捕获流量中检测回声时的时间百分比。如果使用耳机，则该值应该较小。</p></td>
+<td><p><span data-ttu-id="d2912-520">CalleeEchoPercentMicIn</span><span class="sxs-lookup"><span data-stu-id="d2912-520">CalleeEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="d2912-521">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-521">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-522">在被呼叫者的麦克风捕获流中检测到回显的时间百分比。</span><span class="sxs-lookup"><span data-stu-id="d2912-522">Percentage of time when echo is detected in the callee’s microphone capture stream.</span></span> <span data-ttu-id="d2912-523">如果使用耳机, 则该值应较低。</span><span class="sxs-lookup"><span data-stu-id="d2912-523">If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoPercentSend</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>在被叫方发送流量中检测回声时的时间百分比。如果发送流量中的回声百分比值较高，则表明回声泄漏。</p></td>
+<td><p><span data-ttu-id="d2912-524">CalleeEchoPercentSend</span><span class="sxs-lookup"><span data-stu-id="d2912-524">CalleeEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="d2912-525">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-525">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-526">在被调用方的发送流中检测到回显的时间的百分比。</span><span class="sxs-lookup"><span data-stu-id="d2912-526">Percentage of time when echo is detected in the callee’s sent stream.</span></span> <span data-ttu-id="d2912-527">发送流中的高回显百分比表示回声泄漏。</span><span class="sxs-lookup"><span data-stu-id="d2912-527">High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>在中介服务器上收到的来自被叫方音频网关的信号电平；该值仅适用于中介服务器。该指标的单位为 dBoV。为获得良好的质量，可接受的范围应为 [-30 至 -18] dBoV。</p></td>
+<td><p><span data-ttu-id="d2912-528">CalleeRxAGCSignalLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-528">CalleeRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-529">int</span><span class="sxs-lookup"><span data-stu-id="d2912-529">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-530">在中介服务器上从被呼叫方的音频的网关接收的信号级别;这仅适用于中介服务器。</span><span class="sxs-lookup"><span data-stu-id="d2912-530">Received signal level on the Mediation Server from the Gateway for the callee’s audio; this applies only to the Mediation Server.</span></span> <span data-ttu-id="d2912-531">此指标的单位为 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-531">The unit of this metric is dBoV.</span></span> <span data-ttu-id="d2912-532">为了获得良好的质量, 可接受的范围应为 [-30 至-18] dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-532">For good quality, the acceptable range should be [-30 to -18] dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>在中介服务器上收到的来自被叫方音频网关的信号电平。该值仅适用于中介服务器。该指标的单位为 dBoV。为获得良好的质量，可接受的范围应小于 -50 dBoV。</p></td>
+<td><p><span data-ttu-id="d2912-533">CalleeRxAGCNoiseLevel</span><span class="sxs-lookup"><span data-stu-id="d2912-533">CalleeRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d2912-534">int</span><span class="sxs-lookup"><span data-stu-id="d2912-534">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-535">在中介服务器上从被呼叫方的音频的网关接收的信号级别。</span><span class="sxs-lookup"><span data-stu-id="d2912-535">Received signal level on the Mediation Server from the Gateway for the callee’s audio.</span></span> <span data-ttu-id="d2912-536">这仅适用于中介服务器。</span><span class="sxs-lookup"><span data-stu-id="d2912-536">This applies only to the Mediation Server.</span></span> <span data-ttu-id="d2912-537">此指标的单位为 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-537">The unit of this metric is dBoV.</span></span> <span data-ttu-id="d2912-538">为了获得优质, 可接受范围应小于-50 dBoV。</span><span class="sxs-lookup"><span data-stu-id="d2912-538">For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRxAGCGain</p></td>
-<td><p>int</p></td>
-<td><p>应用到被叫方音频的中介服务器方的自动增益控制 (AGC)。</p></td>
+<td><p><span data-ttu-id="d2912-539">CalleeRxAGCGain</span><span class="sxs-lookup"><span data-stu-id="d2912-539">CalleeRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="d2912-540">int</span><span class="sxs-lookup"><span data-stu-id="d2912-540">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-541">在中介服务器端应用于被呼叫方的音频的自动增益控制 (AGC)。</span><span class="sxs-lookup"><span data-stu-id="d2912-541">Automatic gain control (AGC) on the Mediation Server side applied to the callee’s audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
-<td><p>呼叫（最多）前 30 秒钟至被叫方的传入信号的均方根 (RMS)。</p></td>
+<td><p><span data-ttu-id="d2912-542">CalleeInitialSignalLevelRMS</span><span class="sxs-lookup"><span data-stu-id="d2912-542">CalleeInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-543">float</span><span class="sxs-lookup"><span data-stu-id="d2912-543">float</span></span></p></td>
+<td><p><span data-ttu-id="d2912-544">到达呼叫的前30秒内被呼叫方的传入信号的根平均值方块 (RMS)。</span><span class="sxs-lookup"><span data-stu-id="d2912-544">Root mean square (RMS) of the incoming signal to the callee for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RatioConcealedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>典型样本数的音频修复生成的隐藏样本数的平均比率。</p></td>
+<td><p><span data-ttu-id="d2912-545">RatioConcealedSamplesAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-545">RatioConcealedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-546">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-546">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-547">通过音频康复为典型示例生成的隐藏样本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="d2912-547">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RatioStretchedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>典型样本数的音频修复生成的拉伸样本数的平均比率。</p></td>
+<td><p><span data-ttu-id="d2912-548">RatioStretchedSamplesAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-548">RatioStretchedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-549">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-549">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-550">通过音频康复为典型示例生成的拉伸样本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="d2912-550">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RatioCompressedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>典型样本数的音频修复生成的压缩样本数的平均比率。</p></td>
+<td><p><span data-ttu-id="d2912-551">RatioCompressedSamplesAvg</span><span class="sxs-lookup"><span data-stu-id="d2912-551">RatioCompressedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d2912-552">十进制 (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-552">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-553">从音频修复到典型示例生成的压缩样本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="d2912-553">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RoundTrip</p></td>
-<td><p>int</p></td>
-<td><p>RTCP 统计信息中的来回行程时间。</p></td>
+<td><p><span data-ttu-id="d2912-554">RoundTrip</span><span class="sxs-lookup"><span data-stu-id="d2912-554">RoundTrip</span></span></p></td>
+<td><p><span data-ttu-id="d2912-555">int</span><span class="sxs-lookup"><span data-stu-id="d2912-555">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-556">从 RTCP 统计数据往返的时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-556">Round trip time from RTCP statistics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RoundTripMax</p></td>
-<td><p>int</p></td>
-<td><p>音频流的最大来回行程时间。</p></td>
+<td><p><span data-ttu-id="d2912-557">RoundTripMax</span><span class="sxs-lookup"><span data-stu-id="d2912-557">RoundTripMax</span></span></p></td>
+<td><p><span data-ttu-id="d2912-558">int</span><span class="sxs-lookup"><span data-stu-id="d2912-558">int</span></span></p></td>
+<td><p><span data-ttu-id="d2912-559">音频流的最大往返行程时间。</span><span class="sxs-lookup"><span data-stu-id="d2912-559">Maximum round trip time for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>OverallAvgNetworkMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>呼叫的平均宽带网络 MOS。此指标取决于数据包丢失、抖动和使用的编解码器。范围是 1.0 到 5.0。</p></td>
+<td><p><span data-ttu-id="d2912-560">OverallAvgNetworkMOS</span><span class="sxs-lookup"><span data-stu-id="d2912-560">OverallAvgNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-561">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-561">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-562">通话的平均宽带网络 MOS。</span><span class="sxs-lookup"><span data-stu-id="d2912-562">Average wideband Network MOS for the call.</span></span> <span data-ttu-id="d2912-563">此指标取决于所使用的数据包丢失、抖动和编解码器。</span><span class="sxs-lookup"><span data-stu-id="d2912-563">This metric depends on the packet loss, jitter, and codec used.</span></span> <span data-ttu-id="d2912-564">范围为1.0 到5.0。</span><span class="sxs-lookup"><span data-stu-id="d2912-564">Range is 1.0 to 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>OverallMinNetworkMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>呼叫的最小宽带网络 MOS。</p></td>
+<td><p><span data-ttu-id="d2912-565">OverallMinNetworkMOS</span><span class="sxs-lookup"><span data-stu-id="d2912-565">OverallMinNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-566">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-566">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-567">通话最少宽带网络 MOS。</span><span class="sxs-lookup"><span data-stu-id="d2912-567">Minimum wideband Network MOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SendListenMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>已发送音频的平均预测宽带倾听 MOS 得分，包括语音级别、噪音级别和捕获设备特征。</p></td>
+<td><p><span data-ttu-id="d2912-568">SendListenMOS</span><span class="sxs-lookup"><span data-stu-id="d2912-568">SendListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-569">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-569">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-570">平均预测宽带为已发送音频的 MOS 分数, 包括语音级别、噪声级别和捕获设备特征。</span><span class="sxs-lookup"><span data-stu-id="d2912-570">Average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SendListenMOSMin</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>呼叫的最小 SendListenMOS。</p></td>
+<td><p><span data-ttu-id="d2912-571">SendListenMOSMin</span><span class="sxs-lookup"><span data-stu-id="d2912-571">SendListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="d2912-572">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-572">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-573">通话的最低 SendListenMOS。</span><span class="sxs-lookup"><span data-stu-id="d2912-573">Minimum SendListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RecvListenMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>音频从网络接收的平均预测宽带倾听 MOS 得分，包括语音级别、噪音级别、编解码器、网络条件和捕获设备特征。</p></td>
+<td><p><span data-ttu-id="d2912-574">RecvListenMOS</span><span class="sxs-lookup"><span data-stu-id="d2912-574">RecvListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="d2912-575">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-575">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-576">平均预测宽带从网络接收的音频的 MOS 分数, 包括语音级别、噪音级别、编解码器、网络条件和捕获设备特征。</span><span class="sxs-lookup"><span data-stu-id="d2912-576">Average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RecvListenMOSMin</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>呼叫的最小 RecvListenMOS。</p></td>
+<td><p><span data-ttu-id="d2912-577">RecvListenMOSMin</span><span class="sxs-lookup"><span data-stu-id="d2912-577">RecvListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="d2912-578">十进制 (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d2912-578">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d2912-579">通话的最低 RecvListenMOS。</span><span class="sxs-lookup"><span data-stu-id="d2912-579">Minimum RecvListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AudioFECUsed</p></td>
-<td><p>bit</p></td>
-<td><p>指示音频 FEC 是否已用于呼叫。</p></td>
+<td><p><span data-ttu-id="d2912-580">AudioFECUsed</span><span class="sxs-lookup"><span data-stu-id="d2912-580">AudioFECUsed</span></span></p></td>
+<td><p><span data-ttu-id="d2912-581">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-581">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-582">指示是否已将音频 FEC 用于呼叫。</span><span class="sxs-lookup"><span data-stu-id="d2912-582">Indicates whether audio FEC was used for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SenderIsCallerPAI</p></td>
-<td><p>bit</p></td>
-<td><p>指示 p 已断言标识信息的方向；1 表示流方向从呼叫者到被叫方；0 表示流方向从被叫方到呼叫者。</p></td>
+<td><p><span data-ttu-id="d2912-583">SenderIsCallerPAI</span><span class="sxs-lookup"><span data-stu-id="d2912-583">SenderIsCallerPAI</span></span></p></td>
+<td><p><span data-ttu-id="d2912-584">bit</span><span class="sxs-lookup"><span data-stu-id="d2912-584">bit</span></span></p></td>
+<td><p><span data-ttu-id="d2912-585">指示 p 声明的标识信息的方向;1表示流方向从调用方到被调用方;0表示流方向来自被调用方的调用方。</span><span class="sxs-lookup"><span data-stu-id="d2912-585">Indicates direction of the p-asserted identify information; 1 means the stream direction is from the caller to the callee; 0 means the stream direction is from the callee to the caller.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

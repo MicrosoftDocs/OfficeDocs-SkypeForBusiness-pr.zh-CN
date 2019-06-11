@@ -1,62 +1,69 @@
-﻿---
-title: 使用用户标识和标记作用域的 Cmdlet
-TOCTitle: 使用用户标识和标记作用域的 Cmdlet
-ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn362781(v=OCS.15)
-ms:contentKeyID: 56271131
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# 使用用户标识和标记作用域的 Cmdlet
+title: Skype for Business Online 中使用用户标识和标记作用域的 cmdlet
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity and the tag scope
+ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362781(v=OCS.15)
+ms:contentKeyID: 56558838
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ab087388feb37ca8299cae8e4246484e4c23a88
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837091"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a><span data-ttu-id="0b9df-102">Skype for Business Online 中使用用户标识和标记作用域的 cmdlet</span><span class="sxs-lookup"><span data-stu-id="0b9df-102">Cmdlets in Skype for Business Online that use a user identity and the tag scope</span></span>
 
  
 
-_**上一次修改主题：** 2015-06-22_
 
-**Grant-Cs** cmdlet（用于向用户分配策略）需要两种标识符：用户标识（Identity 参数）和每用户策略的标识（PolicyName 参数）。例如，要向用户 Ken Myer 分配语音策略 RedmondVoicePolicy，请使用下列命令：
+<span data-ttu-id="0b9df-103">**授权-Cs** cmdlet (用于为用户分配策略) 需要两个标识符: 用户标识 (identity 参数) 和每用户策略的标识 (PolicyName 参数)。</span><span class="sxs-lookup"><span data-stu-id="0b9df-103">The **Grant-Cs** cmdlets (used for assigning policies to users) require two identifiers: a user identity (the Identity parameter) and the identity of a per-user policy (the PolicyName parameter).</span></span> <span data-ttu-id="0b9df-104">例如, 若要向用户 Ken Myer 分配语音策略 RedmondVoicePolicy, 请使用以下命令:</span><span class="sxs-lookup"><span data-stu-id="0b9df-104">For example, to assign the voice policy, RedmondVoicePolicy, to the user Ken Myer, you use the following command:</span></span>
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-向用户分配策略时，请记住两项内容。首先，只能分配每用户策略。不能向用户分配全局策略。例如，此命令将失败：
+<span data-ttu-id="0b9df-105">向用户分配策略时需要注意两个事项。</span><span class="sxs-lookup"><span data-stu-id="0b9df-105">There are two things to keep in mind when assigning policies to users.</span></span> <span data-ttu-id="0b9df-106">首先, 只能分配每个用户的策略。</span><span class="sxs-lookup"><span data-stu-id="0b9df-106">First, only per-user policies can be assigned.</span></span> <span data-ttu-id="0b9df-107">不能将全局策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="0b9df-107">You cannot assign the global policy to a user.</span></span> <span data-ttu-id="0b9df-108">例如, 此命令将失败:</span><span class="sxs-lookup"><span data-stu-id="0b9df-108">For example, this command will fail:</span></span>
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "global"
 
-此命令失败是因为无需分配全局策略。如果希望使用全局策略管理用户，请确保不要向该用户分配每用户策略。如果未向用户分配每用户策略，则将使用全局策略自动管理用户。
-
-> [!NOTE]
-> 如果以前向用户分配了每用户策略，而您希望取消分配该策略并通过全局策略管理该用户，该怎么办？在这种情况下，请首先使用以下语法，它将通过授予该用户 null 策略来取消分配每用户策略：<br />
-> Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
+<span data-ttu-id="0b9df-109">此命令失败, 因为无需分配全局策略。</span><span class="sxs-lookup"><span data-stu-id="0b9df-109">This command fails because there is no need to assign the global policy.</span></span> <span data-ttu-id="0b9df-110">如果想要使用全局策略管理用户, 请确保不要为该用户分配每用户策略。</span><span class="sxs-lookup"><span data-stu-id="0b9df-110">If you want to manage a user by using the global policy, just be sure that you do not assign that user a per-user policy.</span></span> <span data-ttu-id="0b9df-111">如果没有为用户分配每用户策略, 则将通过使用全局策略自动管理该用户。</span><span class="sxs-lookup"><span data-stu-id="0b9df-111">If no per-user policy has been assigned to a user, the user will automatically be managed by using the global policy.</span></span>
 
 
-其次，请记住，每用户策略是在标记作用域创建的。但是，在指定策略名称时，您可以忽略标记 **prefix**。这两个命令是一致的：
+> [!NOTE]  
+> <span data-ttu-id="0b9df-112">如果用户以前已分配了每用户策略, 并且想要取消分配该策略, 并且用户改为由全局策略管理的用户, 该怎么办？</span><span class="sxs-lookup"><span data-stu-id="0b9df-112">What if the user has previously been assigned a per-user policy, and you want to unassign that policy and have the user managed by the global policy instead?</span></span> <span data-ttu-id="0b9df-113">在这种情况下, 你将首先使用以下语法, 该语法通过向该用户授予 null 策略来取消每用户策略:</span><span class="sxs-lookup"><span data-stu-id="0b9df-113">In that case, you’ll first use the following syntax, which unassigns a per-user policy by granting that user a null policy:</span></span><BR><span data-ttu-id="0b9df-114">授权-CsVoicePolicy-身份 "Ken Myer"-PolicyName $Null</span><span class="sxs-lookup"><span data-stu-id="0b9df-114">Grant-CsVoicePolicy –Identity "Ken Myer" –PolicyName $Null</span></span>
+
+
+
+<span data-ttu-id="0b9df-115">其次, 请记住, 每个用户的策略是在标记作用域创建的。</span><span class="sxs-lookup"><span data-stu-id="0b9df-115">Second, keep in mind that per-user policies are created at the tag scope.</span></span> <span data-ttu-id="0b9df-116">但是, 你可以在指定策略名称时省略标记**前缀**。</span><span class="sxs-lookup"><span data-stu-id="0b9df-116">However, you can omit the tag **prefix** when specifying a policy name.</span></span> <span data-ttu-id="0b9df-117">这两个命令相同:</span><span class="sxs-lookup"><span data-stu-id="0b9df-117">These two commands are identical:</span></span>
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "tag:RedmondVoicePolicy"
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-如果您想要返回所有每用户策略（或者至少指定类型的所有每用户策略，如语音策略）的标识，请使用以下类似命令：
+<span data-ttu-id="0b9df-118">如果你想要为你的所有每用户策略 (或者至少是指定类型的每个用户策略, 如语音策略) 返回标识, 请使用类似下面的命令:</span><span class="sxs-lookup"><span data-stu-id="0b9df-118">If you would like to return the identities for all your per-user policies (or, at least, all the per-user policies of specified type, such as voice policies), use a command similar to this:</span></span>
 
     Get-CsVoicePolicy -Filter "tag:*"
 
-以下 cmdlet 使用用户标识和标记作用域：
+<span data-ttu-id="0b9df-119">以下 cmdlet 使用用户标识和标记作用域:</span><span class="sxs-lookup"><span data-stu-id="0b9df-119">The following cmdlets make use of both a user Identity and the tag scope:</span></span>
 
-  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
+  - <span data-ttu-id="0b9df-120">[授权-Set-csclientpolicy](https://technet.microsoft.com/en-us/library/gg412942\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-120">[Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/gg412942\(v=ocs.15\))</span></span>
 
-  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
+  - <span data-ttu-id="0b9df-121">[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-121">[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\))</span></span>
 
-  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
+  - <span data-ttu-id="0b9df-122">[Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/gg398547\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-122">[Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/gg398547\(v=ocs.15\))</span></span>
 
-  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
+  - <span data-ttu-id="0b9df-123">[授权-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425942\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-123">[Grant-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425942\(v=ocs.15\))</span></span>
 
-  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
+  - <span data-ttu-id="0b9df-124">[授权-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg412829\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-124">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg412829\(v=ocs.15\))</span></span>
 
-  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
+  - <span data-ttu-id="0b9df-125">[授权-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-125">[Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\))</span></span>
 
-## 另请参阅
+## <a name="see-also"></a><span data-ttu-id="0b9df-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0b9df-126">See Also</span></span>
 
-#### 概念
 
-[标识、作用域和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[<span data-ttu-id="0b9df-127">Skype for Business Online 中的身份、范围和租户</span><span class="sxs-lookup"><span data-stu-id="0b9df-127">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="0b9df-128">[Lync Online Cmdlet](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="0b9df-128">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 
