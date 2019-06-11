@@ -1,25 +1,59 @@
-﻿---
-title: 管理响应组队列
-TOCTitle: 管理响应组队列
-ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg520960(v=OCS.15)
-ms:contentKeyID: 49312203
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 管理响应组队列'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Response Group queues
+ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520960(v=OCS.15)
+ms:contentKeyID: 48183576
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c000bb475d97f933d1038e9ef727264e5672644b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827807"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 管理响应组队列
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-02_
+# <a name="managing-response-group-queues-in-lync-server-2013"></a>在 Lync Server 2013 中管理响应组队列
 
-队列将保留对响应组的呼叫，直到代理应答呼叫。管理队列时，需向队列分配一个或多个代理组并指定队列设置，如执行溢出操作前队列可以保留的呼叫数，以及执行超时操作前呼叫等待代理应答的时间长度。响应组应用程序搜索空闲代理时，将按照代理组的列出顺序进行搜索。
+</div>
 
-## 本部分内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+在工程师应答呼叫之前, 队列将对响应组的通话保持通话。 管理队列时, 将一个或多个代理组分配给队列并指定队列设置, 例如, 在执行溢出操作之前队列可以保留的呼叫数, 以及在执行超时前呼叫等待代理的时间长度。ction. 当响应组应用程序搜索可用代理时, 它将按列出的顺序搜索代理组。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [在 Lync Server 2013 中创建或修改队列](lync-server-2013-create-or-modify-a-queue.md)
 
-  - [删除响应组队列](lync-server-2013-delete-a-response-group-queue.md)
+  - [在 Lync Server 2013 中删除响应组队列](lync-server-2013-delete-a-response-group-queue.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

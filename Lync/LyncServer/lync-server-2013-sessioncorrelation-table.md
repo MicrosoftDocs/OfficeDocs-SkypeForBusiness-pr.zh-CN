@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：SessionCorrelation 表
-TOCTitle: SessionCorrelation 表
-ms:assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398091(v=OCS.15)
-ms:contentKeyID: 49311843
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：SessionCorrelation 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SessionCorrelation table
+ms:assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398091(v=OCS.15)
+ms:contentKeyID: 48183267
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c588a58126fb83df08550a6300ca8db36cceb647
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821948"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 SessionCorrelation 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Lync Server 2013 中的 SessionCorrelation 表
 
-SessionCorrelation 表是一个支持表。每条记录代表一个用于关联多个会话的 CorrelationID。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+SessionCorrelation 表是支持表。 每条记录表示一个 CorrelationID, 用于关联多个会话。
 
 
 <table>
@@ -35,22 +55,22 @@ SessionCorrelation 表是一个支持表。每条记录代表一个用于关联�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Checksum</strong></p></td>
+<td><p><strong>检查</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
-<td><p>标识该 A/V 会议服务器的唯一编号。</p></td>
+<td><p>Primary</p></td>
+<td><p>标识此 A/V 会议服务器的唯一号码。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CorrelationID</strong></p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p><strong>True&correlationid</strong></p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>唯一</p></td>
-<td><p>关联的会话将具有同一关联 ID。</p></td>
+<td><p>关联的会话将具有相同的相关性 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
@@ -60,4 +80,15 @@ SessionCorrelation 表是一个支持表。每条记录代表一个用于关联�
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,67 @@
-﻿---
-title: 用于通讯簿管理的 Remove-CsWebServiceConfiguration
-TOCTitle: 用于通讯簿管理的 Remove-CsWebServiceConfiguration
-ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg429713(v=OCS.15)
-ms:contentKeyID: 49313610
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 删除通讯簿管理的 CsWebServiceConfiguration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove-CsWebServiceConfiguration for Address Book management
+ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429713(v=OCS.15)
+ms:contentKeyID: 48184848
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 206c47ebb272f6ab637f4f07e9bb54a7fd1d40e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823173"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 用于通讯簿管理的 Remove-CsWebServiceConfiguration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="remove-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>CsWebServiceConfiguration 在 Lync Server 2013 中删除通讯簿管理
 
-谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Remove-CsWebServiceConfiguration cmdlet：RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+哪些人可以运行此 cmdlet: 默认情况下, 已授权以下组的成员运行 CsWebServiceConfiguration cmdlet (本地: RTCUniversalServerAdmins)。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsWebServiceConfiguration"}
 
-通过 Remove-CsWebServiceConfiguration cmdlet，管理员可以删除之前创建的 Web 服务配置。该 cmdlet 无法删除全局 Web 服务配置。
+CsWebServiceConfiguration cmdlet 允许管理员删除以前创建的 Web 服务配置。 Cmdlet 无法删除全局 Web 服务配置。
 
 例如：
 
     Remove-CsWebServiceConfiguration -Identity site:Redmond
 
-有关完整命令的详细说明，请参阅主 Lync Server Windows PowerShell RTCCmdlets 参考中的以下内容。
+<div>
 
-## 另请参阅
+## <a name="see-also"></a>另请参阅
 
-#### 其他资源
 
-[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)
+[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

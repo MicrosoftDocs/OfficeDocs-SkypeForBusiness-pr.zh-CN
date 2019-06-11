@@ -1,43 +1,65 @@
-﻿---
-title: Lync Server 2013：响应组呼叫列表报告
-TOCTitle: 响应组呼叫列表报告
-ms:assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg615443(v=OCS.15)
-ms:contentKeyID: 49313794
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 响应组通话列表报告'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Response Group Call List Report
+ms:assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615443(v=OCS.15)
+ms:contentKeyID: 48184954
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cf2c45167b5e5c437a3ff755115aa54d34c74a87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823278"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的响应组呼叫列表报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的响应组呼叫列表报告
 
-响应组应用程序提供一种可使 Microsoft Lync Server 2013 根据所拨打的号码，以及选择性地根据呼叫者对一系列问题的响应，来应答和路由电话呼叫。通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。例如，如果某人呼叫技术支持的电话号码， Lync Server 2013 可以自动将该呼叫路由到第一个可用的技术支持代理。或者， Lync Server 可能会问一系列问题（“如果您有硬件问题，请按 1。如果您有软件问题，请按 2。如果您有网络问题，请按 3。”），然后根据对这些问题的回答，将呼叫路由到最合适的技术支持代理。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-22_
+
+"响应组" 应用程序为 Microsoft Lync Server 2013 提供了一种方法, 可根据所拨打的号码和呼叫者对一系列问题的响应 (可选) 应答和路由电话呼叫。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如, 如果某人呼叫帮助台的电话号码, 则 Lync Server 2013 可以自动将呼叫路由到第一个可用的技术支持代理。 或者, Lync Server 可以询问一系列问题 (如果遇到硬件问题, 请按1。 如果您有软件问题，请按 2。 如果出现网络问题, 请按3。)然后根据这些问题的答案, 将呼叫路由到最合适的技术支持代理。
 
 响应组呼叫列表报告代表针对指定的时间段和指定的呼叫类型所进行的呼叫集合。响应组使用报告（必需先打开该报告，才能打开响应组呼叫列表报告）可识别以下呼叫类型：
 
   - **收到的呼叫**。响应组应用程序的所有实例收到的呼叫总数。
 
-  - **成功呼叫**。响应组应用程序所接听的呼叫总数。
+  - **成功的呼叫**。响应组应用程序所接听的呼叫总数。
 
-  - **提供的呼叫** 。已转接给响应组代理的呼叫总数。
+  - **提供的呼叫**。已转接给响应组代理的呼叫总数。
 
-  - **应答的呼叫** 。响应组代理实际应答的呼叫总数。
+  - **应答的呼叫**。响应组代理实际应答的呼叫总数。
 
-  - 放弃的呼叫的百分比。响应组应用程序已收到但代理未应答的呼叫的百分比。此值的计算方式为：”收到的呼叫“减去”应答的呼叫“，然后用所得的值除以收到的呼叫数。例如，如果收到了 10 个呼叫，但应答了 7 个，则计算方式是 10 减去 7，得出未应答的呼叫是 3 个。然后用该值除以 10，得出放弃的呼叫的百分比为 30%。
+  - 放弃的呼叫的百分比。 响应组应用程序已收到但代理未应答的呼叫的百分比。 此值的计算方法是用“收到的呼叫数”减去“应答的呼叫数”，然后用所得的值除以收到的呼叫数。 例如，如果收到 10 个呼叫，但应答了 7 个，则计算方法是 10 减去 7，得出未应答的呼叫是 3 个。 然后用该值除以 10，得出放弃的呼叫的百分比为 30%。
 
-  - **转接的呼叫** 。因队列超时或队列溢出而转接的响应组呼叫总数。
+  - **转接的呼叫**。因队列超时或队列溢出而转接的响应组呼叫总数。
 
-## 访问响应组呼叫列表报告
+<div>
 
-只能通过单击在 [Lync Server 2013 中的响应组使用情况报告](lync-server-2013-response-group-usage-report.md)上找到的以下其中一个指标来访问响应组呼叫列表报告：
+## <a name="accessing-the-response-group-call-list-report"></a>访问响应组呼叫列表报告
+
+只有通过单击在[Lync Server 2013 的 "响应组使用情况" 报告中](lync-server-2013-response-group-usage-report.md)找到的以下指标之一, 才能访问 "响应组呼叫列表" 报告:
 
   - 收到的呼叫
 
-  - 成功呼叫
+  - 成功的呼叫
 
   - 提供的呼叫
 
@@ -45,11 +67,15 @@ _**上一次修改主题：** 2015-03-09_
 
   - 转接的呼叫
 
-## 充分利用响应组呼叫列表报告
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-response-group-call-list-report"></a>充分利用响应组呼叫列表报告
 
 响应组呼叫列表报告允许您将所显示的数据限制为涉及特定响应组工作流的呼叫。为执行此操作，需要在“工作流 URI”框中输入工作流 URI（工作流的 SIP 地址）。但是，您必须实际上能够看到“工作流 URI”框，才能执行此操作。要显示响应组呼叫列表报告的筛选选项，请单击报告窗口左上部分的“显示/隐藏参数”按钮。
 
-请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。如果您需要更多信息，则可以注释“响应代码”和/或“诊断 ID”，然后在[Lync Server 2013 中的主要故障报告](lync-server-2013-top-failures-report.md)中搜索这些值。
+请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果你需要详细信息, 你可能会注意到响应代码和/或诊断 ID, 然后在[Lync Server 2013 的 "热门故障" 报告](lync-server-2013-top-failures-report.md)中搜索这些值。
 
 对于类似如下的问题：“哪个个别工作流收到的呼叫数最多？”，您可以执行以下操作：
 
@@ -59,7 +85,7 @@ _**上一次修改主题：** 2015-03-09_
 
 3.  使用 Windows PowerShell 运行您的分析。
 
-例如，如果已将数据保存到名为 C:\\Data\\Response\_Group\_Call\_List\_Report.csv 的文件，则可以使用以下命令，针对报告中所列出的每个工作流返回收到的呼叫总数：
+例如, 如果已将数据保存到名为 C\\: data\\Response\_Group\_Call\_List\_Report .csv 的文件, 则可以使用以下命令返回每个工作流的已接收通话的总数在报表中列出:
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -74,11 +100,15 @@ _**上一次修改主题：** 2015-03-09_
        16    EMEA Customer Support
        14    Employment Opportunities
 
-## 筛选器
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于响应组呼叫列表报告的筛选器。
 
-### 响应组呼叫列表报告筛选器
+### <a name="response-group-call-list-report-filters"></a>响应组呼叫列表报告筛选器
 
 <table>
 <colgroup>
@@ -93,20 +123,20 @@ _**上一次修改主题：** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>开始日期</strong></p></td>
+<td><p><strong>从</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>结束日期</strong></p></td>
+<td><p><strong>到</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
@@ -122,7 +152,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>可以选择以下呼叫类型之一：</p>
 <ul>
 <li><p>收到的呼叫</p></li>
-<li><p>成功呼叫</p></li>
+<li><p>成功的呼叫</p></li>
 <li><p>提供的呼叫</p></li>
 <li><p>应答的呼叫</p></li>
 <li><p>转接的呼叫</p></li>
@@ -132,11 +162,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 指标
+</div>
+
+<div>
+
+## <a name="metrics"></a>指标
 
 下表列出了响应组应用程序收到的每个呼叫的响应组呼叫列表报告中提供的信息。
 
-### 响应组呼叫列表报告指标
+### <a name="response-group-call-list-report-metrics"></a>响应组呼叫列表报告指标
 
 <table>
 <colgroup>
@@ -148,7 +182,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -184,4 +218,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

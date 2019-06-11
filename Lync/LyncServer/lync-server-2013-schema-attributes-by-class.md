@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013 中的按类分组的架构属性
-TOCTitle: Lync Server 2013 中的按类分组的架构属性
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 49313231
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 按类分类的架构属性'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822039"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的按类分组的架构属性
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Lync Server 2013 中按类分类的架构属性
 
-本节列出了可包含在每个 Lync Server 2013 类中的架构属性和可包含在其他类中的类。有关所有类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。有关所有属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
+</div>
 
-## 按类分组的属性
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-08-29_
+
+此部分列出了可以包含在每个 Lync Server 2013 类中的架构属性以及可以包含在其他类中的类。 有关所有类及其说明的列表, 请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表, 请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
+
+<div>
+
+## <a name="attributes-by-class"></a>按类分类的属性
 
 
 <table>
@@ -27,14 +49,14 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类</th>
-<th>可包含以下属性</th>
+<th>种类</th>
+<th>可能包含这些属性</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contact</p></td>
-<td><p>msDS-SourceObjectDN</p>
+<td><p>联系人</p></td>
+<td><p>SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
 <p>msRTCSIP-ApplicationOptions</p>
@@ -45,7 +67,7 @@ _**上一次修改主题：** 2015-03-09_
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-行</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -67,7 +89,7 @@ _**上一次修改主题：** 2015-03-09_
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
+<td><p>邮件-收件人</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -95,10 +117,10 @@ _**上一次修改主题：** 2015-03-09_
 <p>msRTCSIP-DefaultCWAInternalURL</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
+<td><p>msRTCSIP-域</p></td>
+<td><p>msRTCSIP-默认值</p>
 <p>msRTCSIP-DomainData</p>
-<p>msRTCSIP-DomainName</p></td>
+<p>msRTCSIP-域名</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-EdgeProxy</p></td>
@@ -161,7 +183,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>msRTCSIP-MCUFactoryPath</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Mobility</p></td>
+<td><p>msRTCSIP-移动性</p></td>
 <td><p>msRTCSIP-MobilityFlags</p>
 <p>msRTCSIP-MobilityPolicy</p></td>
 </tr>
@@ -189,7 +211,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>msRTCSIP-FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
+<td><p>msRTCSIP-状态</p></td>
 <td><p>msRTCSIP-PresenceFlags</p>
 <p>msRTCSIP-PresencePolicy</p></td>
 </tr>
@@ -217,7 +239,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="even">
 <td><p>msRTCSIP-TrustedService</p></td>
 <td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
+<p>msRTCSIP-可路由</p>
 <p>msRTCSIP-RoutingPoolDN</p>
 <p>msRTCSIP-ServerBL</p>
 <p>msRTCSIP-TrustedServerFQDN</p>
@@ -243,7 +265,7 @@ _**上一次修改主题：** 2015-03-09_
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>User</p></td>
+<td><p>用户</p></td>
 <td><p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationOptions</p>
 <p>msRTCSIP-ArchivingEnabled</p>
@@ -251,7 +273,7 @@ _**上一次修改主题：** 2015-03-09_
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-行</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -274,7 +296,9 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 包含在其他类中的类
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>包含在其他类中的类
 
 
 <table>
@@ -284,29 +308,29 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>类</th>
-<th>可包含以下类</th>
+<th>种类</th>
+<th>可能包含此类</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-Server</p>
+<td><p>msRTCSIP-服务器</p>
 <p>msRTCSIP-PoolService</p>
 <p>msRTCSIP-MCU</p>
 <p>msRTCSIP-MCUFactoryService</p>
 <p>msRTCSIP-WebComponents</p>
 <p>msRTCSIP-WebComponentsService</p>
 <p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-Service</p>
+<p>msRTCSIP-服务</p>
 <p>msRTCSIP-ConnectionPoint</p>
 <p>msRTCSIP-MediationServer</p>
 <p>msRTCSIP-ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Service</p></td>
+<td><p>msRTCSIP-服务</p></td>
 <td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pools</p>
+<p>msRTCSIP-池</p>
 <p>msRTCSIP-MCUFactories</p>
 <p>msRTCSIP-TrustedMCUs</p>
 <p>msRTCSIP-TrustedWebComponentsServers</p>
@@ -319,13 +343,13 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-Domain</p>
+<td><p>msRTCSIP-域</p>
 <p>msRTCSIP-TrustedServer</p>
 <p>msRTCSIP-EdgeProxy</p>
 <p>msRTCSIP-MonitoringServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
+<td><p>msRTCSIP-池</p></td>
 <td><p>msRTCSIP-Pool</p></td>
 </tr>
 <tr class="odd">
@@ -362,4 +386,19 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

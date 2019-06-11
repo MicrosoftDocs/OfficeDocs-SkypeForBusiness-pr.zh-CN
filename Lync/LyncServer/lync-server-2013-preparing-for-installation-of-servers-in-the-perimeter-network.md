@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：准备在外围网络中安装服务器
-TOCTitle: 准备在外围网络中安装服务器
-ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398416(v=OCS.15)
-ms:contentKeyID: 49312989
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 准备在外围网络中安装服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing for installation of servers in the perimeter network
+ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)
+ms:contentKeyID: 48184292
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8474ea56062a89952001850b1a78fd86f5843cc1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823880"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 准备针对 Lync Server 2013 在外围网络中安装服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-08_
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>准备针对 Lync Server 2013 在外围网络中安装服务器
 
-设置边缘服务器组件之前，需要确保所设置的计算机满足系统要求，并完成部署边缘服务器组件所需的其他先决步骤。
+</div>
 
-开始之前，请查看要部署的参考体系结构的规划文档中下列主题的详细信息：
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-08_
+
+在设置边缘服务器组件之前, 你需要确保你设置的计算机满足系统要求并完成部署 Edge 服务器组件所需的其他先决条件步骤。
+
+开始之前, 请查看有关要部署的参考体系结构的计划文档中的以下主题中的详细信息:
 
   - [Lync Server 2013 中使用专用 IP 地址和 NAT 的单一合并边缘](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
@@ -29,7 +49,9 @@ _**上一次修改主题：** 2012-09-08_
 
   - [Lync Server 2013 中使用硬件负载平衡器的扩展的合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-## 本部分内容
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [在 Lync Server 2013 中配置边缘支持的 DNS](lync-server-2013-configure-dns-for-edge-support.md)
 
@@ -40,4 +62,16 @@ _**上一次修改主题：** 2012-09-08_
   - [确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
   - [在 Lync Server 2013 中请求边缘组件的证书](lync-server-2013-request-certificates-for-edge-components.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

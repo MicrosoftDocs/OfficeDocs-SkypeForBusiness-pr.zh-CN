@@ -1,27 +1,49 @@
-﻿---
-title: 移动性能计数器
-TOCTitle: 移动性能计数器
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 49314322
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 移动性能计数器'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827114"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 移动性能计数器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 中的移动性能计数器
 
-下表列出了可用于监视运行统一通信 Web API (UCWA) 和 Lync Server 2013 Mcx Mobility Service 的服务器的性能计数器的名称和说明。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-22_
+
+下表列出了可用于监视运行统一通信 Web API (UCWA) 和 Lync Server 2013 Mcx 移动服务的服务器的性能计数器的名称和说明。
 
 UCWA 表中计数器的类别名称为 **LS:WEB – UCWA**。
 
 Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communication Service**。
 
-## UCWA 性能计数器
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>UCWA 性能计数器
 
 
 <table>
@@ -32,7 +54,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 <thead>
 <tr class="header">
 <th>计数器</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +163,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 <td><p>反序列化的总失败次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of HD Photo Get Failures</p></td>
+<td><p>HD 照片获取失败的次数</p></td>
 <td><p>从 Exchange 中检索 HD 照片的总失败次数</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +234,11 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 </table>
 
 
-### Mcx Mobility Service 性能计数器
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx Mobility Service 性能计数器
 
 <table>
 <colgroup>
@@ -222,7 +248,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 <thead>
 <tr class="header">
 <th>计数器</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -352,4 +378,17 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

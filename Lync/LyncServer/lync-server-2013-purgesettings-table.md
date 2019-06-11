@@ -1,25 +1,45 @@
-﻿---
-title: Lync Server 2013 中的 PurgeSettings 表
-TOCTitle: Lync Server 2013 中的 PurgeSettings 表
-ms:assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205121(v=OCS.15)
-ms:contentKeyID: 49313772
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: PurgeSettings 表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PurgeSettings table
+ms:assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205121(v=OCS.15)
+ms:contentKeyID: 48184932
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 18b9fc0aa03596677cb73641ed46e86ea133f308
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823768"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 PurgeSettings 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="purgesettings-table-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表
 
-PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。请注意，还可以通过运行以下命令从 Microsoft Lync Server 2013 命令行管理程序中获得与清除相关的信息：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-28_
+
+PurgeSettings 表包含指定是否 (和何时) 过期的呼叫详细记录将从 CDR 数据库中自动删除的信息。 请注意, 通过运行以下命令, 还可以从 Microsoft Lync Server 2013 管理程序外壳中获取清除相关信息:
 
     Get-CsCdrConfiguration
 
-管理员应将 PurgeSettings 表视为只读：应仅使用 [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) 或 [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 更改呼叫详细信息清除设置。
+管理员应将 PurgeSettings 表视为只读: 仅应使用[新的-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 进行对呼叫详细信息清除设置的更改。
 
 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -41,35 +61,46 @@ PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ID</strong></p></td>
+<td><p><strong>标识号</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
-<td><p>CDR 清除设置集的唯一标识符。</p></td>
+<td><p>Primary</p></td>
+<td><p>CDR 清除设置集合的唯一标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>如果设置为 True (1)，则 Microsoft Lync Server 2013 将定期清除 CDR 数据库中的过时记录。每天都将在 PurgeHour 设置所指定的时间执行清除。如果设置为 False (0)，则不会自动清除数据库中的记录。默认值为 True。</p></td>
+<td></td>
+<td><p>当设置为 True (1) 时, Microsoft Lync Server 2013 将定期从 CDR 数据库中清除过时的记录。 将在 PurgeHour 设置指定的圣多美中每天进行清除。 如果设置为 False (0), 将不会从数据库中自动清除记录。 默认值为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>指定将从数据库中清除的 CDR 记录的时限（以天为单位）：如果启用清除，则将从数据库中清除时限超过此值的 CDR 记录。默认值为 60 天。</p></td>
+<td></td>
+<td><p>指定将从数据库中清除的 CDR 记录的保留时间 (以天为单位): 如果启用清除, 则早于此值的 CDR 记录将从数据库中删除。 默认值为60天。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>指定将从数据库中清除的错误报告记录的时限（以天为单位）：如果启用清除，则将从数据库中清除时限超过此值的错误报告记录。默认值为 60 天。</p></td>
+<td></td>
+<td><p>指定将从数据库中清除的错误报告记录的保留时间 (以天为单位): 如果启用清除, 则早于此值的错误报告记录将从数据库中删除。 默认值为60天。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>指定将执行数据库清除的本地时间。时间以 24 小时制的形式指定，0 表示午夜 (12:00 AM)，23 表示 11:00 PM。请注意，您只能指定小时时间：允许值 10（指示 10:00 AM），但不允许值 10.5（指示 10:30 AM）。默认值为 2 (2:00 AM)。</p></td>
+<td></td>
+<td><p>指定每天执行数据库清除的本地时间。 该时间使用 24 小时制格式指定，0 表示午夜（晚上 12:00），23 表示晚上 11:00。 请注意, 你只能指定一天中的小时数: 值 10 (表示 10:00 AM) 是允许的值, 但不允许值 10.5 10:30 (表示 10:30 AM)。 默认值为 2 (2:00 AM)。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

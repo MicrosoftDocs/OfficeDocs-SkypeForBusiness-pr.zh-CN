@@ -1,58 +1,104 @@
-﻿---
-title: 复制 Cmdlet
-TOCTitle: 复制 Cmdlet
-ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415677(v=OCS.15)
-ms:contentKeyID: 49314504
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 复制 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Replication cmdlets
+ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)
+ms:contentKeyID: 48185527
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 46652100e421fba8935454f2832e258a9fb2203f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823145"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 复制 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="replication-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的复制 cmdlet
 
-复制 cmdlet 为您提供了监控和管理 Lync Server 复制的方法。使用这些 cmdlet 可以：配置复制设置；监控复制进度；并在服务器上手动强制进行复制。
+</div>
 
-## 复制 Cmdlet
+<div id="mainSection">
 
-以下是与管理复制直接相关的 cmdlet 列表：
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-09_
+
+复制 cmdlet 提供了一种监视和管理 Lync Server 复制的方式。 你可以使用这些 cmdlet 配置复制设置;监视复制进度;并在服务器上手动强制执行复制。
+
+<div>
+
+## <a name="replication-cmdlets"></a>复制 Cmdlet
+
+以下是与管理复制直接相关的 cmdlet 的列表:
 
 **复制**
 
-  -   
-    [Debug-CsInterPoolReplication](debug-csinterpoolreplication.md)
+  - <span></span>  
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
 
-  -   
-    [Invoke-CsManagementStoreReplication](invoke-csmanagementstorereplication.md)
+<!-- end list -->
 
-  -   
-    [Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+  - <span></span>  
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
 
-  -   
-    [Enable-CsReplica](enable-csreplica.md)
+<!-- end list -->
 
-  -   
-    [Test-CsReplica](test-csreplica.md)
+  - <span></span>  
+    [CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
 
-  -   
-    [Get-CsUserReplicatorConfiguration](get-csuserreplicatorconfiguration.md)
+<!-- end list -->
 
-  -   
-    [New-CsUserReplicatorConfiguration](new-csuserreplicatorconfiguration.md)
+  - <span></span>  
+    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
 
-  -   
-    [Remove-CsUserReplicatorConfiguration](remove-csuserreplicatorconfiguration.md)
+  - <span></span>  
+    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
 
-  -   
-    [Set-CsUserReplicatorConfiguration](set-csuserreplicatorconfiguration.md)
+<!-- end list -->
 
-## 另请参阅
+  - <span></span>  
+    [CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
 
-#### 其他资源
+  - <span></span>  
+    [新-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

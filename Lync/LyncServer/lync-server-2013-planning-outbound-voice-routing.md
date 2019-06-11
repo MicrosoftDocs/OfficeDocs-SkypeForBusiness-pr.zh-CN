@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：规划出站语音路由
-TOCTitle: 规划出站语音路由
-ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425853(v=OCS.15)
-ms:contentKeyID: 49312498
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：规划出站语音路由
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning outbound voice routing
+ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
+ms:contentKeyID: 48183835
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中规划出站语音路由
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>在 Lync Server 2013 中规划出站语音路由
 
-出站呼叫路由适用于发往公用电话交换网 (PSTN) 网关、中继或专用交换机 (PBX) 的呼叫。当用户发出呼叫时，服务器会在必要时将电话号码规范化为 E.164 格式，并尝试将其与 SIP URI 进行匹配。如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。通过配置下表中所述的服务器设置定义该逻辑。
+</div>
 
-### Lync Server 出站呼叫路由设置
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-21_
+
+出站呼叫路由适用于发往公共交换电话网络 (PSTN) 网关、主干或专用分支 exchange (PBX) 的呼叫。 当用户发出呼叫时, 服务器会将电话号码标准化为164格式 (如有必要), 并尝试将其与 SIP URI 匹配。 如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。 通过配置下表中所述的服务器设置定义该逻辑。
+
+### <a name="lync-server-outbound-call-routing-settings"></a>Lync Server 出站呼叫路由设置
 
 <table>
 <colgroup>
@@ -26,8 +46,8 @@ _**上一次修改主题：** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名称</th>
-<th>说明</th>
+<th>对象</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -55,22 +75,44 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 本部分内容
+<div>
 
-本节提供配置以下出站呼叫路由服务器设置的指南：
+## <a name="in-this-section"></a>本节内容
 
-  - [Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)
+本部分提供了配置以下出站呼叫路由服务器设置的指南:
 
-  - [Lync Server 2013 中的语音策略](lync-server-2013-voice-policies.md)
+  - <span></span>  
+    [Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  - [Lync Server 2013 中的 PSTN 用法记录](lync-server-2013-pstn-usage-records.md)
+  - <span></span>  
+    [Lync Server 2013 中的语音策略](lync-server-2013-voice-policies.md)
 
-  - [Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)
+  - <span></span>  
+    [Lync Server 2013 中的 PSTN 用法记录](lync-server-2013-pstn-usage-records.md)
 
-## 另请参阅
+  - <span></span>  
+    [Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)
 
-#### 概念
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [Lync Server 2013 中的 SIP 中继](lync-server-2013-sip-trunking.md)  
-[Lync Server 2013 中的直接 SIP 连接](lync-server-2013-direct-sip-connections.md)
+[Lync Server 2013 中的直接 SIP 连接](lync-server-2013-direct-sip-connections.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

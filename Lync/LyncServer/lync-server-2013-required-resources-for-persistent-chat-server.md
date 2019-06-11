@@ -1,49 +1,89 @@
-﻿---
-title: Lync Server 2013：持久聊天服务器所需的资源
-TOCTitle: 所需资源
-ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205211(v=OCS.15)
-ms:contentKeyID: 49314075
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：持久聊天服务器所需的资源
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Required resources
+ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
+ms:contentKeyID: 48185255
+ms.date: 02/05/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823250"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 持久聊天服务器所需的资源
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-02-05_
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 持久聊天服务器所需的资源
 
-持久聊天服务器的高可用性和灾难恢复需要执行完整操作通常所需的资源之外的额外资源。在配置 持久聊天服务器以实现高可用性和灾难恢复之前，请确保您不仅拥有标准 持久聊天服务器操作所需的资源，还拥有以下资源。有关其他配置信息，请参阅 [在 Lync Server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
+</div>
 
-  - 一个专用数据库实例，位于 持久聊天服务器服务的主前端所在的同一物理数据中心。此数据库将用作主 持久聊天数据库的 SQL Server 镜像。（可选）如果您希望自动故障转移到镜像数据库，请指定其他 SQL Server 以用作镜像见证服务器。
+<div id="mainSection">
 
-  - 一个位于其他物理数据中心的专用数据库实例。此数据库将用作主数据中心内的数据库的 SQL Server 日志传送辅助数据库。
+<div id="mainBody">
 
-  - 一个专用数据库实例，用作辅助数据库的 SQL Server 镜像。（可选）指定其他 SQL Server 以用作镜像见证服务器。它们都必须位于辅助数据库所在的同一物理数据中心。
+<span> </span>
 
-  - 如果已启用 持久聊天服务器合规性，则需要额外三个专用数据库实例。其分布与之前概述的 持久聊天数据库的实例的分布相同。尽管合规性数据库可以与 持久聊天数据库共享相同的 SQL Server 实例，但我们建议使用独立的实例，以实现高可用性和灾难恢复。
+_**主题上次修改时间:** 2016-02-05_
 
-  - 还必须为 SQL Server 日志传送事务日志创建并指定文件共享。两个数据中心中所有运行持久聊天 数据库的 SQL Server 必须对此文件共享具有读/写权限。此共享不会定义为 FileStore 角色的一部分。
+持久聊天服务器的高可用性和灾难恢复需要更多资源, 而不是完全操作所需的资源。 在为高可用性和灾难恢复配置持久聊天服务器之前, 请确保除了标准持久聊天服务器操作所需的内容外, 还可以使用以下资源。 有关其他配置信息, 请参阅[在 Lync server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
 
-  - 辅助数据库服务器上的一个文件共享，用作从主服务器文件共享中复制的 SQL Server 事务日志的目标文件夹。
+  - 一个专用数据库实例, 位于永久聊天服务器服务的主前端所在的同一物理数据中心。 此数据库将用作主持久聊天数据库的 SQL Server 镜像。 (可选) 如果希望自动故障转移到镜像数据库, 请指定要用作镜像见证的其他 SQL Server。
 
-下图提供了有关如何在两个不同的扩展池拓扑中配置整个 持久聊天服务器池的示例：
+  - 一个位于其他物理数据中心的专用数据库实例。 此数据库将用作主数据中心中数据库的 SQL Server 日志传送辅助数据库。
 
-  - 数据中心按地理位置分布时的扩展 持久聊天服务器池（高带宽/低延迟）。
+  - 一个专用数据库实例用作辅助数据库的 SQL Server 镜像。 (可选) 将其他 SQL Server 指定为镜像见证服务器。 它们都必须位于辅助数据库所在的同一物理数据中心。
 
-  - 数据中心按地理位置分布时的扩展 持久聊天服务器池（低带宽/高延迟）。
+  - 如果启用了持久聊天服务器合规性, 则需要另外三个专用数据库实例。 其分布与以前为持久聊天数据库所概括的一样。 虽然合规性数据库可能与持久聊天数据库共享相同的 SQL Server 实例, 但我们建议将独立实例用于高可用性和灾难恢复。
 
-下图显示了数据中心按地理位置分布的高带宽/低延迟的扩展 持久聊天服务器池拓扑。
+  - 必须为 SQL Server 日志传送事务日志创建和指定文件共享。 运行持久聊天数据库的两个数据中心中的所有 SQL 服务器都必须具有对此文件共享的读/写访问权限。 此共享不会定义为 FileStore 角色的一部分。
 
-**数据中心按地理位置分布时的扩展持久聊天服务器池（高带宽/低延迟）。**
+  - 辅助数据库服务器上的文件共享, 用作从主服务器文件共享复制的 SQL Server 事务日志的目标文件夹。
 
-![持久聊天服务器池 HBW 配置示例](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "持久聊天服务器池 HBW 配置示例")
+<div>
 
-下图显示了数据中心按地理位置分布的低带宽/高延迟的扩展 持久聊天服务器池拓扑。
 
-**数据中心按地理位置分布时的扩展持久聊天服务器池（低带宽/高延迟）。**
+> [!NOTE]  
+> 持久聊天服务器池中的活动持久聊天服务器必须与拓扑中定义的下一个跃点 Lync 池驻留在同一个时区中。
 
-![持久聊天服务器池 LBW 配置示例](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "持久聊天服务器池 LBW 配置示例")
+
+
+</div>
+
+下图提供了有关如何在两个不同的延伸池拓扑中配置整个持久聊天服务器池的示例:
+
+  - 延长的持久聊天服务器池当数据中心位于具有高带宽/低延迟的地域时。
+
+  - 延长的持久聊天服务器池, 在数据中心位于具有低带宽/高延迟的地域时。
+
+下图显示了一种持续的持久聊天服务器池拓扑, 其中数据中心具有高带宽/低延迟的地理位置。
+
+**延长的持久聊天服务器池当数据中心位于具有高带宽/低延迟的地域时。**
+
+![持久聊天服务器池 HBW 配置测试](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "持久聊天服务器池 HBW 配置测试")
+
+下图显示了永久的持久聊天服务器池拓扑, 其中数据中心具有低带宽/高延迟的地理位置。
+
+**延长的持久聊天服务器池, 在数据中心位于具有低带宽/高延迟的地域时。**
+
+![持久聊天服务器池 LBW 配置测试](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "持久聊天服务器池 LBW 配置测试")
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

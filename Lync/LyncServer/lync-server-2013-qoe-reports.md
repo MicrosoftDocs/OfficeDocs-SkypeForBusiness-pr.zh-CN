@@ -1,111 +1,161 @@
-﻿---
-title: 'Lync Server 2013: QoE reports'
+---
+title: 'Lync Server 2013: QoE 报表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn720913(v=OCS.15)
-ms:contentKeyID: 62246685
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:contentKeyID: 63969601
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823733"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# QoE reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-05-01_
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 报表
 
-## QoE summary/trend reports
+</div>
 
-The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient. Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.
+<div id="mainSection">
 
-QoE summary/trend reports consist of:
+<div id="mainBody">
 
-  - UC-to-UC Summary/Trend Report
+<span> </span>
 
-  - PSTN Summary/Trend Report
+_**主题上次修改时间:** 2014-05-01_
 
-  - Conference Summary/Trend Report
+<div>
 
-## QoE performance reports
+## <a name="qoe-summarytrend-reports"></a>QoE 摘要/趋势报告
 
-QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.
+QoE 摘要/趋势报表可用于查找每天的高峰使用时间和在这些时间内检查媒体质量, 以帮助确保你的组织的网络资源足够有效。 你的组织还可以使用报表中提供的许多筛选器来隔离特定位置、客户端和设备类型以及服务器的性能数字。
 
-## Mediation server performance report
+QoE 摘要/趋势报告包括:
 
-The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period. The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately. Use this report to compare the volume and performance of your organization's various Mediation Servers.
+  - UC 到 UC 摘要/趋势报告
 
-For each Mediation Server (and for each call leg), the report displays the following:
+  - PSTN 摘要/趋势报告
 
-  - Number of calls
+  - 会议摘要/趋势报告
 
-  - Packet Loss
+</div>
 
-  - Round Trip Time
+<div>
 
-  - Jitter
+## <a name="qoe-performance-reports"></a>QoE 性能报告
 
-  - Conversational mean opinion score (MOS)
+QoE 性能报告提供了有关三个报表的详细信息, 这些报表专注于中介服务器、A/V 会议服务器和终结点位置的 QoE 性能。
 
-  - Sending MOS
+</div>
 
-  - Listening MOS
+<div>
 
-  - Network MOS
+## <a name="mediation-server-performance-report"></a>中介服务器性能报告
 
-  - Network MOS Degradation
+中介服务器性能报告列出了在指定时间段内由一个或多个中介实现的指标。 统一通信 (UC) 到中介服务器腿的指标和每个通话的中介服务器到网关腿分别报告。 使用此报告比较组织的各种中介服务器的数量和性能。
 
-  - Echo Return
+对于每个中介服务器 (和每个呼叫腿), 报告将显示以下内容:
 
-  - Signal Level
+  - 通话的数量
 
-## A/V conferencing server performance report
+  - 丢包
 
-The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period. This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers. Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.
+  - 往返行程时间
 
-For each A/V Conferencing Server, the report displays the following:
+  - 抖动
 
-  - Number of conferences
+  - 按会话平均观点 (MOS)
 
-  - Packet Loss
+  - 发送 MOS
 
-  - Round Trip Time
+  - 侦听 MOS
 
-  - Jitter
+  - 网络 MOS
 
-  - Conversational mean opinion score (MOS)
+  - 网络 MOS 性能下降
 
-  - Sending MOS
+  - 回音返回
 
-  - Listening MOS
+  - 信号级别
 
-  - Network MOS
+</div>
 
-  - Network MOS Degradation
+<div>
 
-  - Echo Return
+## <a name="av-conferencing-server-performance-report"></a>A/V 会议服务器性能报告
 
-  - Signal Level
+A/V 会议服务器性能报告提供指定时间段内由一个或多个 A/V 会议服务器实现的指标的列表。 此报告可用于比较组织的各种 A/V 会议服务器的数量和性能。 你的组织还可以隔离报表以仅显示特定客户端类型 (如 Lync 客户端或 PSTN 客户端) 的体验。
 
-## Location-based performance report
+对于每个 A/V 会议服务器, 报表显示以下内容:
 
-The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality. The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.
+  - 会议数
 
-When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on. You can choose from the following metrics for this report:
+  - 丢包
 
-  - Conversational mean opinion score (MOS)
+  - 往返行程时间
 
-  - Network MOS
+  - 抖动
 
-  - Network MOS Degradation
+  - 按会话平均观点 (MOS)
 
-  - Sending MOS
+  - 发送 MOS
 
-  - Listening MOS
+  - 侦听 MOS
 
-  - Packet Loss
+  - 网络 MOS
 
-  - Jitter
+  - 网络 MOS 性能下降
 
-  - Latency
+  - 回音返回
+
+  - 信号级别
+
+</div>
+
+<div>
+
+## <a name="location-based-performance-report"></a>基于位置的性能报告
+
+基于位置的性能报告提供网络位置列表, 每个位置都显示了每个预定的质量范围内的通话次数。 此报告的目标是提供对不同位置的组织电话通话的媒体质量的深入了解, 以便您能够识别出较差的位置, 并在您的组织中查看不同等级的媒体质量不同的位置。
+
+显示报表时, 将显示不同的度量表, 即组织决定报告的每个指标的一个表。 你可以从此报表的以下指标中进行选择:
+
+  - 按会话平均观点 (MOS)
+
+  - 网络 MOS
+
+  - 网络 MOS 性能下降
+
+  - 发送 MOS
+
+  - 侦听 MOS
+
+  - 丢包
+
+  - 抖动
+
+  - 滞后
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

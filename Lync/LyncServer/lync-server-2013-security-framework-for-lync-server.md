@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013 的安全框架
-TOCTitle: Lync Server 2013 的安全框架
-ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn481316(v=OCS.15)
-ms:contentKeyID: 59682852
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync Server 的安全框架'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Security framework for Lync Server 2013
+ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
+ms:contentKeyID: 59893866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17900e0ca9db8f9dbc1bf66a1bd65aff62d9dd62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822074"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 的安全框架
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-11-08_
+# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013 的安全框架
 
-此部分概述构成 Microsoft Lync Server 2013 安全框架的基本要素。了解各要素协同工作的方式对于做出有关保护特定 Lync Server 2013 部署的明智决定至关重要。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-11-08_
+
+本部分概述了构成 Microsoft Lync Server 2013 安全框架的基本元素。 了解这些元素如何协同工作对于做出有关保护特定 Lync Server 2013 部署的明智决策至关重要。
 
 这些要素如下所示：
 
@@ -29,25 +49,39 @@ _**上一次修改主题：** 2013-11-08_
 
   - 用于用户身份验证的行业标准协议，如果可能。
 
-  - Windows PowerShell 提供默认启用的安全功能，这样用户便无法轻松或在不知情的情况下运行脚本。
+  - Windows PowerShell 提供默认启用的安全功能, 以便用户无法轻松或不知不觉地运行脚本。
 
-这些基本安全要素共同定义受信任用户、服务器、连接和操作，从而帮助确保建立安全的 Lync Server 2013 基础。
+这些基本的安全元素协同工作以定义受信任的用户、服务器、连接和操作, 以帮助确保 Lync Server 2013 的安全基础。
 
-## 本部分内容
+<div>
 
-本节中的主题介绍以上每个基本要素如何协同工作以增强 Lync Server 基础结构的安全性。
+## <a name="in-this-section"></a>本节内容
+
+本部分中的主题介绍了每个基本元素如何工作, 以增强 Lync 服务器基础结构的安全性。
 
   - [Lync Server 2013 的 Active Directory 域服务](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
   - [Lync Server 2013 的基于角色的访问控制 (RBAC)](lync-server-2013-role-based-access-control-rbac.md)
 
-  - [Lync Server 2013 的公钥基础结构](lync-server-2013-public-key-infrastructure.md)
+  - [Lync Server 2013 的公共密钥基础结构](lync-server-2013-public-key-infrastructure.md)
 
   - [Lync Server 2013 的 TLS 和 MTLS](lync-server-2013-tls-and-mtls.md)
 
-  - [Lync Server 2013 加密](lync-server-2013-encryption.md)
+  - [Lync Server 2013 的加密](lync-server-2013-encryption.md)
 
   - [Lync Server 2013 的用户和客户端身份验证](lync-server-2013-user-and-client-authentication.md)
 
   - [Windows PowerShell 和 Lync Server 2013 管理工具](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
