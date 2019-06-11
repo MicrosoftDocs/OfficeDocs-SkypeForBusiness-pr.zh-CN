@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：呼叫允许控制概述
-TOCTitle: 呼叫允许控制概述
-ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398529(v=OCS.15)
-ms:contentKeyID: 49313202
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 呼叫许可控制概述'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of call admission control
+ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
+ms:contentKeyID: 48184474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825840"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的呼叫允许控制概述
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-22_
+# <a name="overview-of-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的呼叫许可控制概述
 
-实时通信会受到拥堵网络上可能发生的延迟和数据包丢失情况的影响。呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。 Lync Server 2013 中的 CAC 设计提供了以下四种主要属性：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-22_
+
+实时通信对在拥挤的网络上可能出现的延迟和数据包损失敏感。 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。 Lync Server 2013 中的 CAC 设计提供了四个主要属性:
 
   - 不需要使用其他设备（如经过特殊配置的路由器），即可轻松部署和管理。
 
@@ -23,13 +43,13 @@ _**上一次修改主题：** 2012-09-22_
 
   - 除了语音呼叫，它还可以应用于其他通信，例如视频呼叫和音频/视频会议会话。
 
-  - 能够灵活地表示各种网络拓扑。有关示例，请参阅 [Lync Server 2013 中 CAC 的组件和拓扑](lync-server-2013-components-and-topologies-for-cac.md)。
+  - 能够灵活地表示各种网络拓扑。 有关示例, 请参阅[Lync Server 2013 中 CAC 的组件和拓扑](lync-server-2013-components-and-topologies-for-cac.md)。
 
 如果新语音会话或视频会话超出您在 WAN 链路上设置的带宽限制，该会话将被阻止或（仅在电话呼叫情况下）重新路由至 PSTN。
 
 CAC 仅控制实时语音和视频流量，不控制数据流量。
 
-管理员定义 CAC 策略，并由每个 前端池安装的带宽策略服务实施这些策略。CAC 设置将自动传播到网络中的所有 Lync Server前端服务器。
+管理员定义 CAC 策略, 这些策略由随每个前端池一起安装的带宽策略服务强制执行。 CAC 设置将自动传播到您的网络中的所有 Lync Server 前端服务器。
 
 对于因 CAC 策略而失败的呼叫，重新路由呼叫的优先顺序如下：
 
@@ -41,50 +61,89 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 呼叫详细信息记录 (CDR) 捕获有关重新路由至 PSTN 或语音邮件的呼叫的信息。CDR 不会捕获有关重新路由至 Internet 的呼叫的信息，因为 Internet 被视为备用路径而非次要选项。
 
+<div>
+
+
 > [!NOTE]  
 > 语音邮件处理不会因为带宽限制而被拒绝。
 
 
 
-带宽策略服务生成两种逗号分隔值 (CSV) 格式的日志文件。“检查失败”日志文件捕获带宽请求被拒绝时的信息。“链接利用率”日志文件捕获网络拓扑快照和 WAN 链路带宽用量。这两种日志文件都有助于根据利用率微调 CAC 策略。
+</div>
 
-## 呼叫允许控制注意事项
+带宽策略服务生成两种逗号分隔值 (CSV) 格式的日志文件。“**检查失败**”日志文件捕获带宽请求被拒绝时的信息。“**链接利用率**”日志文件捕获网络拓扑快照和 WAN 链路带宽用量。这两种日志文件都有助于根据利用率微调 CAC 策略。
 
-管理员选择将带宽策略服务安装在中央站点中配置的第一个池上。由于每个网络区域有一个中央站点，因此每个网络区域只有一个带宽策略服务，它管理用于该区域、其关联站点和到这些站点的链接的带宽策略。带宽策略服务作为 前端服务器的一部分运行，因此会在该池中内置高可用性。在每台 前端服务器上运行的带宽策略服务每 15 秒进行一次同步。如果 前端池出现故障，则不再将 CAC 策略强制用于该站点，直至 前端池然后是带宽策略服务恢复运行为止。这意味着，在带宽策略服务停用期间，所有呼叫都将通过。因此，在此期间可能会出现链接的带宽订阅过度的情况。
+<div>
 
-带宽策略服务在 前端池内提供了高可用性；但它不能跨 前端池提供冗余。带宽策略服务不能在不同 前端池之间进行故障转移。一旦恢复 前端池的服务，带宽策略服务也会恢复并可再次强制进行带宽策略检查。
+## <a name="call-admission-control-considerations"></a>呼叫允许控制注意事项
 
-## 网络注意事项
+管理员选择将带宽策略服务安装在中央站点中配置的第一个池上。 由于每个网络区域有一个中央站点，因此每个网络区域只有一个带宽策略服务，它管理用于该区域、其关联站点和到这些站点的链接的带宽策略。 带宽策略服务作为前端服务器的一部分运行, 因此在该池中内置了高可用性。 每台前端服务器上运行的带宽策略服务每15秒同步一次。 如果前端池出现故障, 在前端池之前, 不会为该站点强制使用 CAC 策略, 因此带宽策略服务将再次运行。 这意味着，在带宽策略服务停用期间，所有呼叫都将通过。 因此，在此期间可能会出现链接的带宽订阅过度的情况。
 
-尽管在 Lync Server 2013 中由带宽策略服务实施音频和视频带宽限制，但该限制不会在网络路由器（第 2 和第 3 层）上实施。 Lync Server 2010 CAC 无法阻止数据应用程序，例如，阻止占用 WAN 链路的整个网络带宽，包括 CAC 策略为音频和视频保留的带宽。要提供必需的网络带宽保护，您可以部署服务质量 (QoS) 协议，例如差分服务 (DiffServ)。因此，最佳实践是协调按照您可能部署的任何 QoS 设置定义的 CAC 带宽策略。
+带宽策略服务在前端池内提供高可用性;但是, 它不提供跨前端池的冗余。 带宽策略服务无法从一个前端池故障转移到另一个前端池。 在恢复对前端池的服务后, 将恢复带宽策略服务, 并可再次强制执行带宽策略检查。
 
-## VPN 上的媒体和信号路径
+<div>
+
+## <a name="network-considerations"></a>网络注意事项
+
+虽然 Lync Server 2013 中的带宽策略服务强制执行音频和视频的带宽限制, 但不会在网络路由器 (第2层和第3层) 上强制执行此限制。 Lync Server 2010 CAC 无法阻止数据应用程序, 例如, 在 WAN 链接上消耗整个网络带宽, 包括由 CAC 策略为音频和视频保留的带宽。 要提供必需的网络带宽保护，您可以部署服务质量 (QoS) 协议，例如差分服务 (DiffServ)。 因此，最佳实践是协调按照您可能部署的任何 QoS 设置定义的 CAC 带宽策略。
+
+</div>
+
+<div>
+
+## <a name="media-and-signaling-paths-over-vpn"></a>VPN 上的媒体和信号路径
 
 如果您的企业支持通过 VPN 的媒体，则请确保媒体流和信号流都能通过 VPN，或两者都通过 Internet 进行路由。默认情况下，媒体流和信号流通过 VPN 通道。
 
-## 外部用户的呼叫允许控制
+</div>
 
-不对通过 Internet 传输网络流量的远程用户实施呼叫允许控制。由于媒体流量要穿越 Internet，而这并非由 Lync Server 管理，因此无法应用 CAC。但是，仍将对通过企业网络的部分呼叫执行 CAC 检查。
+<div>
 
-## PSTN 连接的呼叫允许控制
+## <a name="call-admission-control-of-outside-users"></a>外部用户的呼叫允许控制
 
-无论 中介服务器是连接到 IP/PBX、PSTN 网关还是 SIP 中继，都可以在该服务器上实施呼叫允许控制。由于 中介服务器是一个背靠背用户代理 (B2BUA)，因此它将终止媒体。它有两个连接端：一端连接到 Lync Server，另一端为网关，连接到 PSTN 网关、IP/PBX 或 SIP 中继。有关 PSTN 连接的详细信息，请参阅 [在 Lync Server 2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)。
+对于网络流量通过 Internet 流动的远程用户, 不会强制执行呼叫许可控制。 由于媒体流量遍历 Internet (不受 Lync Server 管理), 因此无法应用 CAC。 但是, 将在流经企业网络的通话部分执行 CAC 检查。
 
-除非启用了媒体旁路，否则在 中介服务器的两端均可实施 CAC。如果启用媒体旁路，则媒体流量不会遍历 中介服务器，而是会直接在 Lync 客户端与网关之间流动。在这种情况下，不需要使用 CAC。有关详细信息，请参阅 [在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)。
+</div>
+
+<div>
+
+## <a name="call-admission-control-of-pstn-connections"></a>PSTN 连接的呼叫允许控制
+
+无论是连接到 IP/PBX、PSTN 网关还是 SIP 干线, 都可在中介服务器上强制使用呼叫许可控制。 由于中介服务器是后端到后端用户代理 (B2BUA), 因此它将终止媒体。 它有两个连接边: 连接到 Lync Server 和网关端的一侧, 连接到 PSTN 网关、IP/Pbx 或 SIP 中继。 有关 PSTN 连接的详细信息, 请参阅[在 Lync Server 2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)。
+
+除非启用 "媒体绕过", 否则在中介服务器的两面上都可以强制使用 CAC。 如果启用了媒体绕过, 媒体流量不会遍历中介服务器, 而是直接在 Lync 客户端和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息, 请参阅[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)。
 
 下图说明了如何在启用和不启用媒体旁路的情况下在 PSTN 连接上实施 CAC。
 
 **在 PSTN 连接上实施呼叫允许控制**
 
-![语音 CAC 媒体绕过连接强制实施](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "语音 CAC 媒体绕过连接强制实施")
+![语音 CAC 媒体绕过连接强制](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "语音 CAC 媒体绕过连接强制")
 
-## 呼叫允许控制与早期版本的 Office Communications Server 的兼容性
+</div>
 
-只能在已启用 Lync Server 2010 及更高版本的终结点上启用呼叫允许控制。
+<div>
 
-不能在运行 Office Communicator 2007 R2 或更低版本的终结点上启用呼叫允许控制。
+## <a name="compatibility-of-call-admission-control-with-earlier-versions-of-office-communications-server"></a>与早期版本的 Office 通信服务器的呼叫许可控制的兼容性
 
-**在不同版本的 Lync Server 上应用 CAC**
+只能在启用 Lync Server 2010 和更高版本的终结点上启用呼叫许可控制。
+
+无法在运行 Office Communicator 2007 R2 或更早版本的终结点上启用呼叫许可控制。
+
+**在不同的 Lync 服务器版本上应用 CAC**
 
 ![语音 CAC 版本比较图](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "语音 CAC 版本比较图")
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

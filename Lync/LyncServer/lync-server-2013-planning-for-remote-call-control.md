@@ -1,71 +1,118 @@
-﻿---
-title: Lync Server 2013：规划远程呼叫控制
-TOCTitle: 规划远程呼叫控制
-ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558658(v=OCS.15)
-ms:contentKeyID: 49313131
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 规划远程呼叫控制'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for remote call control
+ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558658(v=OCS.15)
+ms:contentKeyID: 48184371
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ede2b5d63c57864f478cb8fd9bcd4689a91ab3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824552"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中规划远程呼叫控制
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-05_
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中规划远程呼叫控制
 
-在 Lync Server 2013 中，支持远程呼叫控制方案可允许用户通过使用台式计算机上的 Lync 2013 控制专用交换机 (PBX) 电话。本节介绍远程呼叫控制功能以及部署远程呼叫控制的要求。
+</div>
 
-PBX 与 Lync Server 2013 之间的集成使启用了远程呼叫控制的用户可通过以下方式使用 Lync 2013 用户界面 (UI) 来控制 PBX 电话上的呼叫：
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-05_
+
+在 Lync Server 2013 中, 对远程呼叫控制方案的支持允许用户通过在其桌面计算机上使用 Lync 2013 控制其专用分支机构 (PBX) 手机。 本部分介绍了部署远程呼叫控制的远程呼叫控制功能和要求。
+
+通过 PBX 和 Lync Server 2013 之间的集成, 用户可以使用 Lync 2013 用户界面 (UI) 使用 Lync 用户界面 (UI) 通过以下方式控制其 PBX 手机上的呼叫:
+
+<div>
+
 
 > [!NOTE]  
-> 最终，承载用户 PBX 电话的 PBX 的功能将决定可供该用户使用的远程呼叫控制功能。
+> 最终, 承载用户 PBX 电话的 PBX 的功能决定了该用户可以使用的远程呼叫控制功能。
 
 
 
-  - 发出传出呼叫
+</div>
 
-  - 应答传入呼叫
+  - 进行拨出通话
+
+  - 接听来电
 
   - 使用即时消息应答传入呼叫
     
-    > [!NOTE]  
-	> 也就是说，呼叫者的电话号码可以与即时消息地址相关联，该地址可以来自组织的全局地址列表 (GAL)、被叫方的 Lync 联系人列表，或者联盟伙伴组织。
+    <div>
     
 
+    > [!NOTE]  
+    > 也就是说, 当呼叫者的电话号码可以与组织的全球通讯簿 (GAL) 中的即时消息地址关联时, 在被呼叫者的 Lync 联系人列表中, 或在联盟伙伴的组织中。
 
-  - 转接呼叫
+    
+    </div>
 
-  - 转接传入呼叫
+  - 转移来电
 
-  - 将呼叫置于保持状态
+  - 转发来电
 
-  - 交替处理多个并发呼叫
+  - 通话暂候
 
-  - 在呼叫过程中应答第二个呼叫（即，呼叫等待）
+  - 在多个并发通话之间切换
 
-  - 双音多频 (DTMF) 数字拨号
+  - 接听通话中的第二个呼叫 (即呼叫等待)
 
-  - 在“对话”窗口中，键入 Microsoft Office OneNote 的做笔记程序的注释
+  - 拨号双音调 multifrequency (DTMF) 数字
 
-此外，如果用户启用了远程呼叫控制，则 Lync 2013 将为用户提供以下呼叫信息：
+  - 在对话窗口中, 在 Microsoft Office OneNote 笔记记录程序中键入备注
 
-  - 通过名称识别呼叫者，前提是呼叫者的电话号码存在于启用了远程呼叫控制的用户的 Microsoft Office Outlook 消息和协作客户端的联系人列表、 Lync 联系人列表或组织的 GAL 中。
+此外, 当用户启用 "远程呼叫控制" 时, Lync 2013 向用户提供以下调用信息:
 
-  - 以前的传入和传出呼叫，保存在 Outlook 的“对话历史记录”文件夹中。
+  - 当呼叫者的电话号码位于启用远程呼叫控制的用户的 Microsoft Office Outlook 消息和协作客户端、Lync 联系人列表或组织的 GAL 的联系人列表中时, 按名称标识呼叫者。
 
-  - 未接来电通知，会发送到用户的 Outlook“收件箱”文件夹中，但是仅当接收传入呼叫时 Lync 正在运行，才会生成此通知。
+  - 过去拨入和拨出的电话, 它们保存在 Outlook 的 "对话历史记录" 文件夹中。
 
-## 远程呼叫控制和企业语音
+  - 未接来电通知将发送到用户的 Outlook 收件箱文件夹, 但仅当接收来电时, 才会生成 Lync。
 
-虽然远程呼叫控制功能独立于 企业语音功能且无法为用户同时启用这两组功能， 企业语音提供了对启用了远程呼叫控制的用户也可用的功能子集。如果部署了 企业语音，则启用了远程呼叫控制的用户可以使用 Lync 访问以下 企业语音功能：
+<div>
 
-  - 向另一个 Lync 客户端发起音频呼叫和接收音频呼叫
+## <a name="remote-call-control-and-enterprise-voice"></a>远程通话控制和企业语音
 
-  - 加入由启用了 企业语音的用户创建的会议的音频部分
+虽然远程呼叫控制功能与企业语音功能不同, 并且不能同时启用用户, 但企业语音还提供了一种可供启用远程呼叫控制的用户使用的功能子集。 如果部署了企业语音, 则启用远程呼叫控制的用户可以使用 Lync 访问下列企业语音功能:
 
-## 本节内容
+  - 拨打和接听其他 Lync 客户端的音频电话
+
+  - 加入由已启用企业语音的用户创建的会议的音频部分
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中远程呼叫控制的部署任务](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

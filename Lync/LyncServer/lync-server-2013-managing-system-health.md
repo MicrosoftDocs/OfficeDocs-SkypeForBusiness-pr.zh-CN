@@ -1,19 +1,49 @@
-﻿---
-title: Lync Server 2013：管理系统运行状况
-TOCTitle: 管理系统运行状况
-ms:assetid: b7d653ff-0b7a-4d27-97e8-63f87c9be62f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412897(v=OCS.15)
-ms:contentKeyID: 49314028
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：管理系统运行状况
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing system health
+ms:assetid: b7d653ff-0b7a-4d27-97e8-63f87c9be62f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412897(v=OCS.15)
+ms:contentKeyID: 48185201
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e48b31d063ca00c7b247c53d1e51b536a9b0bd8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827751"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中管理系统运行状况
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="managing-system-health-in-lync-server-2013"></a>在 Lync Server 2013 中管理系统运行状况
 
-系统运行状况管理和监控集成到整体 Lync Server 2013 运行状况管理和监控中。有关详细信息，请参阅 [Lync Server 2013 中的运行状况配置](lync-server-2013-health-configuration-in-lync-server.md)。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+系统运行状况管理和监视已集成到整个 Lync Server 2013 运行状况管理和监视。 有关详细信息, 请参阅[Lync Server 2013 中的 "健康配置](lync-server-2013-health-configuration-in-lync-server.md)"。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

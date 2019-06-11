@@ -1,19 +1,39 @@
-﻿---
-title: Lync Server 2013：（可选）验证电话拨入式会议
-TOCTitle: （可选）验证电话拨入式会议
-ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425905(v=OCS.15)
-ms:contentKeyID: 49312594
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：（可选）验证电话拨入式会议
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing
+ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
+ms:contentKeyID: 48183941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70a0b18ce596e4799c82a2843b5f3a008b5cb285
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825637"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# （可选）在 Lync Server 2013 中验证电话拨入式会议
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2011-01-21_
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>（可选）在 Lync Server 2013 中验证电话拨入式会议
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2011-01-21_
 
 要验证“电话拨入式会议设置”网页和拨入访问号码是否工作正常，您需要执行以下操作：
 
@@ -23,11 +43,13 @@ _**上一次修改主题：** 2011-01-21_
 
 此步骤是可选的。
 
-## 测试特定池的访问号码
+<div>
 
-1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+## <a name="to-test-access-numbers-for-a-specific-pool"></a>测试特定池的访问号码
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录计算机, 或者作为**Cs-ServerAdministrator**或**CsAdministrator**角色的成员登录到计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  在命令提示符下，运行以下内容：
     
@@ -37,4 +59,16 @@ _**上一次修改主题：** 2011-01-21_
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
     得出的报告将显示 Success 或 Failure，以及具体的诊断信息。–Verbose 标志提供有关查找到的访问号码数目及其详细信息的更多详情。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

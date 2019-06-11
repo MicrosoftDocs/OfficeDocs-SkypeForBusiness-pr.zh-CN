@@ -1,23 +1,53 @@
-﻿---
-title: Lync Server 2013：控制器概述
-TOCTitle: 控制器概述
-ms:assetid: cf9919b3-e16b-47c5-be1d-2c4bc64f44ea
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398879(v=OCS.15)
-ms:contentKeyID: 49314303
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：控制器概述
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of the Director
+ms:assetid: cf9919b3-e16b-47c5-be1d-2c4bc64f44ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398879(v=OCS.15)
+ms:contentKeyID: 48185393
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5e1c36cd556dcf641acb4571b5bb349466eb278d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825315"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的控制器概述
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-08_
+# <a name="overview-of-the-director-in-lync-server-2013"></a>Lync Server 2013 中的控制器概述
 
-控制器是运行 Lync Server 2013 的服务器，它对用户请求进行身份验证但不托管任何用户帐户。在以下两种方案中，可以选择部署 控制器：
+</div>
 
-  - 如果通过部署 边缘服务器启用外部用户的访问权限，则也应该部署 控制器。在此方案中， 控制器对外部用户进行身份验证，然后将他们的流量传递到内部服务器上。使用 控制器对外部用户进行身份验证时，可以减少 前端池服务器对这些用户执行身份验证时的开销。还有助于使内部 前端池免遭恶意流量（如拒绝服务攻击）的影响。如果网络受到此类攻击中无效外部流量的攻击，则这些流量将终止于控制器。
+<div id="mainSection">
 
-  - 如果在中央站点部署多个 前端池，则可以通过向该站点添加 控制器来简化身份验证请求并提高性能。在此方案中，所有请求首先到达 控制器，后者之后会将它们路由到正确的 前端池。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-08_
+
+Director 是运行 Lync Server 2013 的服务器, 用于验证用户请求, 但不会在家任何用户帐户。 您也可以在以下两种方案中部署控制器:
+
+  - 如果通过部署边缘服务器启用外部用户访问, 则还应部署 Director。 在此方案中, 控制器对外部用户进行身份验证, 然后将其流量传递到内部服务器。 当使用 Director 对外部用户进行身份验证时, 它将从执行这些用户的身份验证的开销中免除前端池服务器。 它还有助于将内部前端池与恶意流量 (如拒绝服务攻击) 隔离。 如果网络被此类攻击中的无效外部通信所淹没, 则该流量将在 Director 处结束。
+
+  - 如果在中心网站上部署多个前端池, 则通过向该网站添加 Director, 可以简化身份验证请求并提高性能。 在此方案中, 所有请求首先转到 Director, 然后将其路由到正确的前端池。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

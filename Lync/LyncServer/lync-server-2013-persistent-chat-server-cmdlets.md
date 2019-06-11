@@ -1,101 +1,159 @@
-﻿---
-title: 持久聊天服务器 Cmdlet
-TOCTitle: 持久聊天服务器 Cmdlet
-ms:assetid: 5aa59edb-db57-406f-9fbd-54bf1a55d31b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204920(v=OCS.15)
-ms:contentKeyID: 49312949
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 持久聊天服务器 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Persistent Chat Server cmdlets
+ms:assetid: 5aa59edb-db57-406f-9fbd-54bf1a55d31b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204920(v=OCS.15)
+ms:contentKeyID: 48184226
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8f71b1f87c236384bd8ec22485981222c05bf4f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825224"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 持久聊天服务器 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-06-27_
+# <a name="persistent-chat-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天服务器 cmdlet
 
-利用持久聊天 cmdlet，您可以管理和配置 Microsoft Lync Server 2013 持久聊天服务（以前称为群聊服务）。持久聊天支持用户参与联机即时消息会话。尽管这些会话可以实时进行，但每个会话的内容都是持久的；这意味着这些对话可随时由任何人恢复。
+</div>
 
-## 持久聊天 Cmdlet
+<div id="mainSection">
 
-利用持久聊天 cmdlet，您可以管理和配置 Lync Server 持久聊天服务。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-06-27_
+
+利用永久聊天 cmdlet, 你可以管理和配置 Microsoft Lync Server 2013 持久聊天服务 (以前称为群组聊天服务)。 持久聊天使用户能够参与联机即时消息会话。 虽然这些会话可以实时进行, 但每个会话的内容都是持久的;这意味着任何人都可以随时恢复这些对话。
+
+<div>
+
+## <a name="persistent-chat-cmdlets"></a>持久聊天 Cmdlet
+
+利用持久聊天 cmdlet, 你可以管理和配置 Lync Server 持久聊天服务。
 
 **持久聊天 Cmdlet**
 
-  - [Get-CsAdPrincipal](get-csadprincipal.md)
+  - [Get-CsAdPrincipal](https://technet.microsoft.com/en-us/library/JJ205326(v=OCS.15))
 
-  - [Set-CsPersistentChatActiveServer](set-cspersistentchatactiveserver.md)
+<!-- end list -->
 
-  - [Get-CsPersistentChatAddin](get-cspersistentchataddin.md)
+  - [Set-CsPersistentChatActiveServer](https://technet.microsoft.com/en-us/library/JJ205065(v=OCS.15))
 
-  - [New-CsPersistentChatAddin](new-cspersistentchataddin.md)
+<!-- end list -->
 
-  - [Remove-CsPersistentChatAddin](remove-cspersistentchataddin.md)
+  - [Get-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204670(v=OCS.15))
 
-  - [Set-CsPersistentChatAddin](set-cspersistentchataddin.md)
+  - [New-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204641(v=OCS.15))
 
-  - [Get-CsPersistentChatCategory](get-cspersistentchatcategory.md)
+  - [Remove-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ205350(v=OCS.15))
 
-  - [New-CsPersistentChatCategory](new-cspersistentchatcategory.md)
+  - [Set-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204721(v=OCS.15))
 
-  - [Remove-CsPersistentChatCategory](remove-cspersistentchatcategory.md)
+<!-- end list -->
 
-  - [Set-CsPersistentChatCategory](set-cspersistentchatcategory.md)
+  - [Get-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204771(v=OCS.15))
 
-  - [Get-CsPersistentChatComplianceConfiguration](get-cspersistentchatcomplianceconfiguration.md)
+  - [New-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204803(v=OCS.15))
 
-  - [New-CsPersistentChatComplianceConfiguration](new-cspersistentchatcomplianceconfiguration.md)
+  - [Remove-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204660(v=OCS.15))
 
-  - [Remove-CsPersistentChatComplianceConfiguration](remove-cspersistentchatcomplianceconfiguration.md)
+  - [Set-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204952(v=OCS.15))
 
-  - [Set-CsPersistentChatComplianceConfiguration](set-cspersistentchatcomplianceconfiguration.md)
+<!-- end list -->
 
-  - [Get-CsPersistentChatConfiguration](get-cspersistentchatconfiguration.md)
+  - [Get-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204625(v=OCS.15))
 
-  - [New-CsPersistentChatConfiguration](new-cspersistentchatconfiguration.md)
+  - [New-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ205163(v=OCS.15))
 
-  - [Remove-CsPersistentChatConfiguration](remove-cspersistentchatconfiguration.md)
+  - [Remove-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204767(v=OCS.15))
 
-  - [Set-CsPersistentChatConfiguration](set-cspersistentchatconfiguration.md)
+  - [Set-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204949(v=OCS.15))
 
-  - [Export-CsPersistentChatData](export-cspersistentchatdata.md)
+<!-- end list -->
 
-  - [Import-CsPersistentChatData](import-cspersistentchatdata.md)
+  - [Get-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205140(v=OCS.15))
 
-  - [Get-CsPersistentChatEligiblePrincipal](get-cspersistentchateligibleprincipal.md)
+  - [New-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205330(v=OCS.15))
 
-  - [Get-CsPersistentChatEndpoint](get-cspersistentchatendpoint.md)
+  - [Remove-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ204927(v=OCS.15))
 
-  - [New-CsPersistentChatEndpoint](new-cspersistentchatendpoint.md)
+  - [Set-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205122(v=OCS.15))
 
-  - [Remove-CsPersistentChatEndpoint](remove-cspersistentchatendpoint.md)
+<!-- end list -->
 
-  - [Remove-CsPersistentChatMessage](remove-cspersistentchatmessage.md)
+  - [Export-CsPersistentChatData](https://technet.microsoft.com/en-us/library/JJ205378(v=OCS.15))
 
-  - [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md)
+  - [Import-CsPersistentChatData](https://technet.microsoft.com/en-us/library/JJ204709(v=OCS.15))
 
-  - [Get-CsPersistentChatPolicy](get-cspersistentchatpolicy.md)
+<!-- end list -->
 
-  - [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md)
+  - [Get-CsPersistentChatEligiblePrincipal](https://technet.microsoft.com/en-us/library/JJ204891(v=OCS.15))
 
-  - [New-CsPersistentChatPolicy](new-cspersistentchatpolicy.md)
+<!-- end list -->
 
-  - [Remove-CsPersistentChatPolicy](remove-cspersistentchatpolicy.md)
+  - [Get-CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204764(v=OCS.15))
 
-  - [Set-CsPersistentChatPolicy](set-cspersistentchatpolicy.md)
+  - [New-CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204811(v=OCS.15))
 
-  - [Clear-CsPersistentChatRoom](clear-cspersistentchatroom.md)
+  - [Remove-CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204626(v=OCS.15))
 
-  - [Get-CsPersistentChatRoom](get-cspersistentchatroom.md)
+<!-- end list -->
 
-  - [New-CsPersistentChatRoom](new-cspersistentchatroom.md)
+  - [Remove-CsPersistentChatMessage](https://technet.microsoft.com/en-us/library/JJ204668(v=OCS.15))
 
-  - [Remove-CsPersistentChatRoom](remove-cspersistentchatroom.md)
+  - [Test-CsPersistentChatMessage](https://technet.microsoft.com/en-us/library/JJ204656(v=OCS.15))
 
-  - [Set-CsPersistentChatRoom](set-cspersistentchatroom.md)
+<!-- end list -->
 
-  - [Get-CsPersistentChatState](get-cspersistentchatstate.md)
+  - [Get-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ204673(v=OCS.15))
 
-  - [Set-CsPersistentChatState](set-cspersistentchatstate.md)
+  - [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ204907(v=OCS.15))
+
+  - [New-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205396(v=OCS.15))
+
+  - [Remove-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205301(v=OCS.15))
+
+  - [Set-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205192(v=OCS.15))
+
+<!-- end list -->
+
+  - [Clear-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204976(v=OCS.15))
+
+  - [Get-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ205123(v=OCS.15))
+
+  - [New-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ205166(v=OCS.15))
+
+  - [Remove-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204639(v=OCS.15))
+
+  - [Set-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204801(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPersistentChatState](https://technet.microsoft.com/en-us/library/JJ204915(v=OCS.15))
+
+  - [Set-CsPersistentChatState](https://technet.microsoft.com/en-us/library/JJ205109(v=OCS.15))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

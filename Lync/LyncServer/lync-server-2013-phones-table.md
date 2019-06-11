@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：Phones 表
-TOCTitle: Phones 表
-ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425923(v=OCS.15)
-ms:contentKeyID: 49312657
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Phones 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Phones table
+ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)
+ms:contentKeyID: 48183996
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 920454a5db71c1e6f3cd2ea2ae1134d149b4f297
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825175"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 Phones 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的 Phones 表
 
-Phones 表是一个支持表。表中的每条记录存储有关一个电话号码（在数据库中具有记录的 VoIP 呼叫涉及该号码）的信息。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-08-20_
+
+"电话" 表是支持表。 表中的每条记录存储了在具有数据库中的记录的 VoIP 呼叫中涉及的一个电话号码的相关信息。
 
 
 <table>
@@ -37,7 +57,7 @@ Phones 表是一个支持表。表中的每条记录存储有关一个电话号�
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
+<td><p>Primary</p></td>
 <td><p>标识此电话的唯一号码。</p></td>
 </tr>
 <tr class="even">
@@ -48,11 +68,22 @@ Phones 表是一个支持表。表中的每条记录存储有关一个电话号�
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>dateTime</p></td>
-<td><p></p></td>
-<td><p>时间戳（仅供内部使用）。</p>
-<p>Microsoft Lync Server 2013 中已引入了此字段。</p></td>
+<td><p>从中</p></td>
+<td></td>
+<td><p>时间戳 (仅供内部使用)。</p>
+<p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

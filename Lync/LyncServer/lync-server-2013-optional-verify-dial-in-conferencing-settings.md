@@ -1,27 +1,49 @@
-﻿---
-title: Lync Server 2013：（可选）验证电话拨入式会议设置
-TOCTitle: （可选）验证电话拨入式会议设置
-ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412789(v=OCS.15)
-ms:contentKeyID: 49313878
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：（可选）验证电话拨入式会议设置
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing settings
+ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412789(v=OCS.15)
+ms:contentKeyID: 48185027
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 177d8516dcb91272eca2a70b89026fc0e175a73a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825728"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# （可选）在 Lync Server 2013 中验证电话拨入式会议设置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2010-11-02_
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>（可选）在 Lync Server 2013 中验证电话拨入式会议设置
 
-最终验证电话拨入式会议配置后，您可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。此步骤是可选的。
+</div>
 
-## 查找具有尚未被访问号码使用的电话拨入式会议区域的拨号计划
+<div id="mainSection">
 
-1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+<div id="mainBody">
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+<span> </span>
+
+_**主题上次修改时间:** 2010-11-02_
+
+最终验证电话拨入式会议配置后，你可以搜索具有尚未被任何访问号码使用的电话拨入式会议区域的拨号计划，还可以搜索未指定电话拨入式会议区域的访问号码。 此步骤是可选的。
+
+<div>
+
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>使用未被访问号码使用的电话拨入式会议区域查找拨号计划
+
+1.  以 RTCUniversalServerAdmins 组成员的身份登录计算机, 或者作为**Cs-ServerAdministrator**或**CsAdministrator**角色的成员登录到计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  在命令提示符下，运行以下内容：
     
@@ -29,15 +51,31 @@ _**上一次修改主题：** 2010-11-02_
     
     此 cmdlet 返回具有尚未被访问号码使用的电话拨入式会议区域的所有拨号计划。
 
-## 查找未分配区域的访问号码
+</div>
 
-1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+<div>
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+## <a name="to-find-access-numbers-without-assigned-regions"></a>查找未分配区域的访问号码
+
+1.  以 RTCUniversalServerAdmins 组成员的身份登录计算机, 或者作为**Cs-ServerAdministrator**或**CsAdministrator**角色的成员登录到计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  在命令提示符下，运行以下内容：
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     
     此 cmdlet 返回尚未与区域关联的所有电话拨入式会议访问号码。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

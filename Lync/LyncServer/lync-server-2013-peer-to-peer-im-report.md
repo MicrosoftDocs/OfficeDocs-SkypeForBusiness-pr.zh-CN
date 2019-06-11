@@ -1,39 +1,69 @@
-﻿---
-title: Lync Server 2013：点对点 IM 报告
-TOCTitle: 点对点 IM 报告
-ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg558620(v=OCS.15)
-ms:contentKeyID: 49312152
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 对等 IM 报表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer IM Report
+ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)
+ms:contentKeyID: 48183533
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f44d25ec36788e6964ea81bde71e82f3746c5aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825350"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的点对点 IM 报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的对等 IM 报表
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
 
 对等 IM 报告提供了有关按池和身份验证类型分类的对等即时消息 (IM) 会话的趋势信息。该报告可以显示在指定时间段内（例如，每天或每小时）进行的会话总数或显示在该时间段内发送的即时消息总数。
 
-## 访问对等 IM 报告
+<div>
 
-只能通过打开[Lync Server 2013 中的点对点活动摘要报告](lync-server-2013-peer-to-peer-activity-summary-report.md)、然后单击以下指标之一来访问对等 IM 报告：
+## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
+
+只有[在 Lync Server 2013 中打开 "对等活动摘要" 报表](lync-server-2013-peer-to-peer-activity-summary-report.md), 然后单击以下任一度量值, 才能访问对等 IM 报表:
 
   - 对等 IM 会话总数
 
   - 对等 IM 消息总数
 
-## 充分利用对等 IM 报告
+</div>
 
-默认情况下，对等 IM 报告显示每小时（或每天，具体取决于设置）的消息计数。但是，还可以选择按每小时会话数来查看日期。为此，请单击“报告”窗口右上角的“隐藏/显示参数”，然后从“报告依据”列表中单击“会话计数”。
+<div>
 
-## 筛选器
+## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a>充分利用对等 IM 报告
+
+默认情况下，对等 IM 报告显示每小时（或每天，具体取决于设置）的消息计数。但是，还可以选择按每小时会话数来查看日期。为此，请单击“报告”窗口右上角的“**隐藏/显示参数**”，然后从“**报告依据**”列表中单击“**会话计数**”。
+
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
 
 利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于对等 IM 报告的筛选器。
 
-### 对等 IM 报告筛选器
+### <a name="peer-to-peer-im-report-filters"></a>对等 IM 报告筛选器
 
 <table>
 <colgroup>
@@ -48,20 +78,20 @@ _**上一次修改主题：** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>开始日期</strong></p></td>
+<td><p><strong>从</strong></p></td>
 <td><p>时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>结束日期</strong></p></td>
+<td><p><strong>到</strong></p></td>
 <td><p>时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
@@ -76,7 +106,7 @@ _**上一次修改主题：** 2015-03-09_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最大值数，则仅显示最大值数（从开始日期开始）。例如，如果选择“每天”间隔并且开始日期为 7/7/2012、结束日期为 2/28/2012，则显示从 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>报告依据</strong></p></td>
@@ -90,11 +120,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 按池列出的点对点 IM 会话的指标
+</div>
 
-下表列出了点对点 IM 报告中提供的信息。
+<div>
 
-### 按池列出的点对点 IM 会话的指标
+## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>按池列出的对等 IM 会话的指标
+
+下表列出了对等 IM 报告中提供的信息。
+
+### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>按池列出的对等 IM 会话的指标
 
 <table>
 <colgroup>
@@ -106,14 +140,14 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>池</strong></p></td>
 <td><p>否</p></td>
-<td><p>注册器池或边缘服务器的名称。</p></td>
+<td><p>注册机构池或边缘服务器的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>日期/时间</strong></p></td>
@@ -129,11 +163,15 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-## 按身份验证类型列出的对等 IM 会话的指标
+</div>
 
-下表列出了点对点会话中的参与者所用各个身份验证类型的点对点 IM 报告中提供的信息。
+<div>
 
-### 按身份验证类型列出的对等 IM 会话的指标
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>按身份验证类型列出的对等 IM 会话的指标
+
+下表列出了对等会话中的参与者所用各个身份验证类型的对等 IM 报告中提供的信息。
+
+### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>按身份验证类型列出的对等 IM 会话的指标
 
 <table>
 <colgroup>
@@ -145,7 +183,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -154,8 +192,8 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>否</p></td>
 <td><p>会话参与者使用的身份验证的类型。通常可指定下列值之一：</p>
 <ul>
-<li><p>企业</p></li>
-<li><p>联盟</p></li>
+<li><p>Enterprise</p></li>
+<li><p>Federated</p></li>
 <li><p>PIC</p></li>
 </ul></td>
 </tr>
@@ -171,4 +209,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

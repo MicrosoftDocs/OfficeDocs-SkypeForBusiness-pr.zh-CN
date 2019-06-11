@@ -1,47 +1,90 @@
-﻿---
-title: 在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟
-TOCTitle: 在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟
-ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205107(v=OCS.15)
-ms:contentKeyID: 49313642
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 为可扩展消息和状态协议 (XMPP) 联合进行规划
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
+ms:contentKeyID: 48184892
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2f4e1d8f9b7f164dd9e83f556dcc57809619278
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824867"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-22_
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联合
 
-之前的 Lync Server 和 Office Communications Server 版本中提供了可扩展消息传递和状态协议 (XMPP) 网关，可将该网关作为单独的服务器角色部署以允许与 XMPP 部署联盟。在 Microsoft Lync Server 2013 中，XMPP 功能可作为功能部署。XMPP 功能在两个部分中安装：在边缘服务器上运行的 XMPP 代理和在前端服务器上运行的 XMPP 网关。
+</div>
 
-[在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)中涵盖了 XMPP 的部署和配置。通过在防火墙上定义端口和协议规则、配置证书和添加 DNS 记录来规划组织中的 XMPP 支持。本节中的以下主题总结了成功为部署规划 XMPP 联盟所需的信息。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-22_
+
+以前版本的 Lync Server 和 Office 通信服务器提供了可扩展消息和状态协议 (XMPP) 网关, 可将其部署为单独的服务器角色, 以允许与 XMPP 部署进行联盟。 在 Microsoft Lync Server 2013 中, XMPP 功能可以部署为功能。 XMPP 功能在两个部分中安装: 在边缘服务器上运行的 XMPP 代理和在前端服务器上运行的 XMPP 网关。
+
+在[Lync Server 2013 中部署外部用户访问权限](lync-server-2013-deploying-external-user-access.md)涵盖 XMPP 的部署和配置在你的防火墙上部署外部用户访问时, 可通过在防火墙上定义端口和协议规则、配置证书以及添加 DNS 来支持 XMPP。记录. 本节中的以下主题概述了为部署成功规划 XMPP 联合所需的信息。
+
+<div>
+
 
 > [!IMPORTANT]
 > Microsoft 已测试 Lync Server 2013 的 XMPP 功能，并且支持该功能与 Google Talk 进行即时消息传递联盟。对于任何其他 XMPP 系统，请与第三方供应商联系，以确认它们是否支持与 Lync Server 2013 联盟以及获取任何部署或疑难解答建议。
 
 
-## 本部分内容
 
-  - [证书摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+</div>
 
-  - [端口摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+<div>
 
-  - [DNS 摘要 - 可扩展消息传递和状态协议 (XMPP) 联盟](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+## <a name="in-this-section"></a>本节内容
 
-## 另请参阅
+  - [证书摘要-Lync Server 2013 中的可扩展消息和状态协议 (XMPP) 联合](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-#### 任务
+  - [Lync Server 2013 中的端口摘要-可扩展消息和状态协议 (XMPP) 联合](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+  - [Lync Server 2013 中的 DNS 摘要-可扩展消息和状态协议 (XMPP) 联合](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [在 Lync Server 2013 中设置 XMPP 联盟](lync-server-2013-setting-up-xmpp-federation.md)  
 [在 Lync Server 2013 中配置策略以控制 XMPP 联盟用户访问](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
-#### 其他资源
 
 [在 Lync Server 2013 中管理组织的 XMPP 联盟伙伴](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
-[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
+[CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))  
+[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))  
+[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

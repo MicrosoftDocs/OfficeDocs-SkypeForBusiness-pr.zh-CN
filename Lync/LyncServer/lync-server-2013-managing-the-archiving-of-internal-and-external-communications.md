@@ -1,45 +1,83 @@
-﻿---
-title: 在 Lync Server 2013 中管理内部通信和外部通信的存档
-TOCTitle: 在 Lync Server 2013 中管理内部通信和外部通信的存档
-ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204977(v=OCS.15)
-ms:contentKeyID: 49313166
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 管理内部和外部通信的存档
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Archiving of internal and external communications
+ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204977(v=OCS.15)
+ms:contentKeyID: 48184417
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3a9e3c0a0708075eecc28282021f98724325ff6c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827723"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中管理内部通信和外部通信的存档
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-09_
+# <a name="managing-the-archiving-of-internal-and-external-communications-in-lync-server-2013"></a>在 Lync Server 2013 中管理内部和外部通信的存档
 
-在 Lync Server 2013 中，如果未使用 Microsoft Exchange 集成或您的用户未驻留在 Exchange 2013 上且其邮箱已被置于就地保留状态，则可使用存档策略为内部通信和外部通信启用和禁用存档。这包括以下存档策略：
+</div>
 
-  - 在部署 Lync Server 2013 时默认创建的全局策略。
+<div id="mainSection">
 
-  - 可创建并用于指定为特定站点或用户实现存档的方式的可选站点级和用户级策略。
+<div id="mainBody">
 
-您最初在部署存档时设置存档策略，但您可以在部署后更改、添加和删除策略。在 Lync Server 2013 控制面板中，可以使用“存档和监控”组的“存档策略”页来管理全局级、站点级和用户级的策略。如果将 Lync Server 存储与 Exchange 2013 存储集成，则 Exchange 用户策略将优先于 Lync Server 2013 存档策略。
+<span> </span>
 
-有关策略如何实现的详细信息（包括策略的层次结构），请参见规划文档、部署文档或操作文档中的[Lync Server 2013 的存档工作原理](lync-server-2013-how-archiving-works.md)。
+_**主题上次修改时间:** 2012-10-09_
 
-> [!NOTE]  
-> 若要控制存档的实现，您必须在存档配置中指定选项，例如，是否存档 IM 或会议、关键模式的用法和清除选项。默认情况下，在全局存档配置或任意站点或池存档配置中未启用任何选项。您应在存档配置中指定所有适当的选项，然后在存档策略中为内部或外部通信启用存档。有关详细信息，请参阅操作文档中的<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">在 Lync Server 2013 中管理组织、站点和池的存档配置选项</a>。<br />
-如果为部署启用 Microsoft Exchange 集成，则 Exchange 策略可控制是否为驻留在 Exchange 2013 上且其邮箱处于就地保留状态的用户启用存档。有关详细信息，请参阅部署文档中的<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange 服务器集成设置存档的策略</a>。
+在 Lync Server 2013 中, 如果你不使用 Microsoft Exchange 集成, 或者你的用户未托管在 Exchange 2013 上, 并且你的邮箱放在 Exchange 上, 则可以使用存档策略来启用和禁用对内部通信和外部通信的存档就地保留。 这包括以下存档策略:
+
+  - 部署 Lync Server 2013 时默认创建的全局策略。
+
+  - 可创建和使用的可选网站级和用户级策略, 用于指定如何为特定网站或用户实现存档。
+
+你在部署存档时最初设置存档策略, 但你可以在部署后更改、添加和删除策略。 在 Lync Server 2013 控制面板中, 你可以使用 "**存档和监视**" 组的 "**存档策略**" 页面管理全局级别、网站级别和用户级别的策略。 如果你将 Lync Server 存储与 Exchange 2013 存储集成, Exchange 用户策略将优先于 Lync Server 2013 存档策略。
+
+有关如何实施策略的详细信息 (包括策略的层次结构), 请参阅规划文档、部署文档或操作文档中的在[Lync Server 2013 中的存档的工作原理](lync-server-2013-how-archiving-works.md)。
+
+<div>
+
+
+> [!NOTE]
+> 若要控制存档的实现, 必须指定存档配置中的选项, 例如, 是存档 IM 还是会议、使用关键模式和清除选项。 默认情况下, 全局存档配置或任何网站或池存档配置中均未启用任何选项。 应在存档配置中指定所有适当的选项, 然后才能在存档策略中启用内部或外部通信的存档。 有关详细信息, 请参阅在<A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 中为你的组织、网站和池在操作文档中管理存档配置选项</A>。<BR>如果为你的部署启用 Microsoft Exchange 集成, Exchange 策略将控制是否为托管于 Exchange 2013 的用户启用存档, 并将其邮箱置于原地保留。 有关详细信息, 请参阅在部署文档中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 集成时在 Lync Server 2013 中设置存档策略</A>。
 
 
 
-## 本部分内容
+</div>
 
-  - [创建存档策略以启用或禁用特定站点或用户的内部或外部通信的存档](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
+<div>
 
-  - [更改存档策略以启用或禁用组织、站点或用户的内部或外部通信的存档](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
+## <a name="in-this-section"></a>本节内容
 
-  - [将存档策略应用于用户](lync-server-2013-applying-an-archiving-policy-to-users.md)
+  - [在 Lync Server 2013 中创建存档策略, 以启用或禁用特定网站或用户的内部或外部通信的存档](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
 
-  - [使用 Exchange 服务器集成设置存档的策略](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+  - [在 Lync Server 2013 中更改存档策略以启用或禁用组织、网站或用户的内部或外部通信的存档](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
 
-  - [删除存档策略](lync-server-2013-deleting-an-archiving-policy.md)
+  - [将存档策略应用于 Lync Server 2013 中的用户](lync-server-2013-applying-an-archiving-policy-to-users.md)
+
+  - [使用 Exchange Server 集成时, 在 Lync Server 2013 中设置存档策略](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+
+  - [在 Lync Server 2013 中删除存档策略](lync-server-2013-deleting-an-archiving-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

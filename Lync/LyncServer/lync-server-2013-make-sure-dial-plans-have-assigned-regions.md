@@ -1,31 +1,53 @@
-﻿---
-title: 'Lync Server 2013：确保已为拨号计划分配区域  '
-TOCTitle: '确保已为拨号计划分配区域  '
-ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg425903(v=OCS.15)
-ms:contentKeyID: 49312593
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：确保已为拨号计划分配区域
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Make sure dial plans have assigned regions
+ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425903(v=OCS.15)
+ms:contentKeyID: 48183937
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 75c5aa91470accf0f25478b9233e1efb90357251
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828367"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中确保已为拨号计划分配区域
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2010-11-02_
+# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>确保拨号计划 Lync Server 2013 已分配区域
 
-用于电话拨入式会议的拨号计划需要指定一个“电话拨入式会议区域”来将电话拨入式会议访问号码与相应的拨号计划相关联。设置拨号计划时，指定应用于拨号计划的电话拨入式会议区域。然后，在创建电话拨入式访问号码时，选择将访问号码与相应拨号计划相关联的区域。
+</div>
 
-因为为所有拨号计划指定区域非常重要，我们建议您使用此过程验证是否所有拨号计划均有区域。此步骤是可选的。
+<div id="mainSection">
 
-使用 **Get-CsDialPlan** cmdlet 验证是否为所有电话拨入式会议拨号计划设置了区域。如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。还可使用 Lync Server 控制面板更新现有拨号计划中的区域。有关使用 Lync Server 控制面板的详细信息，请参阅 [在 Lync Server 2013 中修改拨号计划](lync-server-2013-modify-a-dial-plan.md)。
+<div id="mainBody">
 
-## 验证拨号计划是否设置了 region 属性
+<span> </span>
 
-1.  以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator** 、 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+_**主题上次修改时间:** 2010-11-02_
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+用于电话拨入式会议的拨号计划需要具有指定的电话拨入式会议**区域**以将电话拨入式会议访问号码与相应的拨号计划关联。 创建拨号计划时，要指定适用于该拨号计划的电话拨入式会议区域。 然后, 当您创建拨入访问号码时, 您可以选择将访问号码与相应的拨号计划相关联的区域。
+
+由于为所有拨号计划指定区域很重要, 因此我们建议使用此过程验证所有拨号计划是否都有区域。 此步骤是可选的。
+
+使用**CsDialPlan** cmdlet 验证是否为所有电话拨入式会议拨号计划设置了区域。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您也可以使用 Lync Server "控制面板" 更新现有拨号计划中的区域。 有关使用 Lync Server 控制面板的详细信息, 请参阅[Lync server 2013 中的 "修改拨号计划](lync-server-2013-modify-a-dial-plan.md)"。
+
+<div>
+
+## <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>验证拨号计划是否设置了 region 属性
+
+1.  以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  在命令提示符下，运行以下内容：
     
@@ -37,13 +59,17 @@ _**上一次修改主题：** 2010-11-02_
     
     在此例中，返回为组织配置的所有拨号计划。
 
-4.  查看返回的拨号计划，标识缺少电话拨入式会议区域的任何拨号计划。有关详细信息，请参阅 Lync Server 命令行管理程序文档。
+4.  查看返回的拨号计划，标识缺少电话拨入式会议区域的任何拨号计划。 有关详细信息, 请参阅 Lync Server Management Shell 文档。
 
-## 设置拨号计划的 region 属性
+</div>
 
-1.  以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator** 、 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+<div>
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+## <a name="to-set-the-region-property-for-a-dial-plan"></a>设置拨号计划的 region 属性
+
+1.  以 RTCUniversalServerAdmins 组成员或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  对于缺少电话拨入式会议区域的任何拨号计划，请运行：
     
@@ -53,5 +79,17 @@ _**上一次修改主题：** 2010-11-02_
     
         Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
     
-    在此例中，对 Identity 为 Redmond 的拨号计划进行修改，将 DialinConferencingRegion 属性设置为“US West Coast”。有关详细信息，请参阅 Lync Server 命令行管理程序文档。
+    在此例中，对 Identity 为 Redmond 的拨号计划进行修改，将 DialinConferencingRegion 属性设置为“US West Coast”。 有关详细信息, 请参阅 Lync Server Management Shell 文档。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

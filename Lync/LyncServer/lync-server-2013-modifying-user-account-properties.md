@@ -1,32 +1,70 @@
-﻿---
-title: 修改用户帐户属性
-TOCTitle: 修改用户帐户属性
-ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ687961(v=OCS.15)
-ms:contentKeyID: 49888290
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 修改用户帐户属性'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modifying user account properties
+ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687961(v=OCS.15)
+ms:contentKeyID: 49733546
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a38245f0b1248bfa30cc06fa05c74424cdce101
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826785"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 修改用户帐户属性
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="modifying-user-account-properties-in-lync-server-2013"></a>在 Lync Server 2013 中修改用户帐户属性
 
-可以使用本节中的过程修改单个用户帐户属性。
+</div>
 
-## 本部分内容
+<div id="mainSection">
 
-  - [为用户配置电话](lync-server-2013-configure-telephony-for-a-user.md)
+<div id="mainBody">
 
-  - [在 Lync Server 2013 中将用户移至另一个池](lync-server-2013-move-users-to-another-pool.md)
+<span> </span>
 
-## 另请参阅
+_**主题上次修改时间:** 2012-11-01_
 
-#### 其他资源
+你可以使用本部分中的过程修改单个用户帐户属性。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
+
+  - [在 Lync Server 2013 中为用户配置电话服务](lync-server-2013-configure-telephony-for-a-user.md)
+
+  - [在 Lync Server 2013 中将用户移动到另一个池中](lync-server-2013-move-users-to-another-pool.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [为 Lync Server 2013 启用的用户帐户](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[分配每用户策略](lync-server-2013-assigning-per-user-policies.md)
+[在 Lync Server 2013 中分配每个用户的策略](lync-server-2013-assigning-per-user-policies.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,58 @@
-﻿---
-title: Lync Server 2013 中的端口摘要 - 自动发现
-TOCTitle: Lync Server 2013 中的端口摘要 - 自动发现
-ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945642(v=OCS.15)
-ms:contentKeyID: 52061058
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 端口摘要-自动发现'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Autodiscover
+ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945642(v=OCS.15)
+ms:contentKeyID: 51541497
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7a40d86799b4922a819642aedf2461f038330593
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824076"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的端口摘要 - 自动发现
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-04-06_
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>端口摘要-Lync Server 2013 中的自动发现
 
-Lync Server 2013 自动发现服务运行于控制器和前端池服务器上，当使用 `lyncdiscover.<domain>` 和 `lyncdiscoverinternal.<domain>` 主机记录在 DNS 中发布时，可供客户端用来定位 Lync Server 功能。为便于运行 Lync Mobile 的移动设备使用自动发现，可能需要先在所有运行自动发现服务的控制器和前端服务器上修改证书使用者替代名称列表。此外，可能还需要修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。
+</div>
 
-有关是否在反向代理上利用使用者替代名称列表的决定基于您是在端口 80 还是端口 443 上发布自动发现服务：
+<div id="mainSection">
 
-  - **在端口 80 上发布**   对于移动设备，如果对自动发现服务的初始查询发生在端口 80 上，则无需更改证书。这是因为运行 Lync 的移动设备将在外部端口 80 上访问反向代理，然后在内部端口 8080 上重定向至控制器或前端服务器。
+<div id="mainBody">
 
-  - **在端口 443 上发布**   外部 Web 服务发布规则使用的证书上的使用者替代名称列表必须为您组织中的每个 SIP 域包含一个 `lyncdiscover.<sipdomain>` 条目。
+<span> </span>
+
+_**主题上次修改时间:** 2013-03-05_
+
+Lync Server 2013 自动发现服务在 Director 和前端池服务器上运行, 并且当使用和`lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>`主机记录在 DNS 中发布时, 客户端可以使用该服务查找 Lync Server 功能。 为使 Lync Mobile 运行的移动设备使用自动发现, 你可能需要首先在运行自动发现服务的任何控制器和前端服务器上修改证书主题备用名称列表。 此外, 可能还需要修改用于反向代理上的外部 web 服务发布规则的证书上的使用者备用名称列表。
+
+有关是否在反向代理上使用主题备用名称列表的决策取决于你是在端口80还是在端口443上发布自动发现服务:
+
+  - **已在端口 80**   上发布对于移动设备, 如果对自动发现服务的初始查询通过端口80进行, 则不需要进行证书更改。 这是因为运行 Lync 的移动设备将外部访问端口80上的反向代理, 然后在内部将其重定向到端口8080上的 Director 或前端服务器。
+
+  - **在端口 443**   上发布在外部 web 服务发布规则使用的证书上的 "使用者备用名称" `lyncdiscover.<sipdomain>`列表中, 必须包含组织内每个 SIP 域的条目。
     
-    > [!IMPORTANT]
-    > 对于从已部署了 Mobility 的 Lync Server 2010 进行的新安装或升级，您或者已将端口 80 用于 Mobility Service 的自动发现，或者已重新颁发已具有适当使用者名称和使用者替代名称的证书。检查您的控制器和前端服务器上的证书来确认您选择了哪条路径。
+    <div>
+    
 
+    > [!IMPORTANT]  
+    > 对于部署了移动性的 Lync Server 2010 的全新安装或升级, 你可以使用端口80自动发现移动服务, 或者将证书重新颁发给适当的主题名称和主题备用名称。 查看控制器和前端服务器上的证书以确认您选择的路径。
 
-### 反向代理服务器的防火墙详细信息：外部接口
+    
+    </div>
+
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>反向代理服务器的防火墙详细信息: 外部接口
 
 <table>
 <colgroup>
@@ -41,7 +66,7 @@ Lync Server 2013 自动发现服务运行于控制器和前端池服务器上，
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>说明</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -49,19 +74,19 @@ Lync Server 2013 自动发现服务运行于控制器和前端池服务器上，
 <td><p>HTTP/TCP/80</p></td>
 <td><p>任意</p></td>
 <td><p>反向代理侦听器</p></td>
-<td><p>（可选）如果用户输入 http://<em>&lt;publishedSiteFQDN&gt;</em>，则重定向到 HTTPS。在组织不打算修改外部 Web 服务发布规则证书的情况下，如果将 Office Web Apps 用于会议，将自动发现服务用于运行 Lync 的移动设备，则此选项也是必需的。</p></td>
+<td><p>可选如果用户进入 http://&lt;publishedSiteFQDN&gt;, 则重定向到 HTTPS。 如果在组织不希望修改外部 Web 服务发布规则证书的情况下, 使用适用于会议的 Office Web Apps 和适用于运行 Lync 的移动设备的自动发现服务, 也需要使用此参数。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
 <td><p>任意</p></td>
 <td><p>反向代理侦听器</p></td>
-<td><p>通讯簿下载、通讯簿 Web 查询服务、自动发现、客户端更新、会议内容、设备更新、组扩展、会议用 Office Web Apps 和电话拨入式会议。</p></td>
+<td><p>通讯簿下载, 通讯簿 Web 查询服务, 自动发现, 客户端更新, 会议内容, 设备更新, 组扩展, 适用于会议的 Office Web Apps, 电话拨入式会议和会议。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### 反向代理服务器的防火墙详细信息：内部接口
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>反向代理服务器的防火墙详细信息: 内部接口
 
 <table>
 <colgroup>
@@ -75,22 +100,33 @@ Lync Server 2013 自动发现服务运行于控制器和前端池服务器上，
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>说明</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
 <td><p>内部反向代理接口</p></td>
-<td><p>前端服务器、前端池、控制器、控制器池、会议用 Office Web Apps</p></td>
-<td><p>在组织不打算修改外部 Web 服务发布规则证书的情况下，如果将自动发现服务用于运行 Lync 的移动设备，则此选项是必需的。发送到反向代理外部接口上的端口 80 的流量将从反向代理内部接口重定向到端口 8080 上的池，以便池 Web 服务可将其与内部 Web 流量区分开来。</p></td>
+<td><p>前端服务器、前端池、导演、控制器池、Office Web Apps for 电话会议</p></td>
+<td><p>如果在组织不希望修改外部 web 服务发布规则证书的情况下使用运行 Lync 的移动设备的自动发现服务, 则为必需。 发送到反向代理外部接口上的端口80的流量将从反向代理内部接口重定向到端口8080上的池, 以便池 Web 服务可以将其与内部 Web 流量区分开。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
 <td><p>内部反向代理接口</p></td>
-<td><p>前端服务器、前端池、控制器、控制器池、会议用 Office Web Apps</p></td>
-<td><p>发送到反向代理外部接口上的端口 443 的流量将从反向代理内部接口重定向到端口 4443 上的池，以便池 Web 服务可将其与内部 Web 流量区分开来。</p></td>
+<td><p>前端服务器、前端池、导演、控制器池、Office Web Apps for 电话会议</p></td>
+<td><p>发送到反向代理外部接口上的端口443的流量将从反向代理内部接口重定向到端口4443上的池, 以便池 web 服务可以将其与内部 web 流量区分开。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

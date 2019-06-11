@@ -1,35 +1,67 @@
-﻿---
-title: 用于通讯簿管理的 Set-CsClientPolicy
-TOCTitle: 用于通讯簿管理的 Set-CsClientPolicy
-ms:assetid: e7788bea-606f-481a-a3a4-1855ac028493
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg429723(v=OCS.15)
-ms:contentKeyID: 49314587
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Set-Set-csclientpolicy for 通讯簿管理'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set-CsClientPolicy for Address Book management
+ms:assetid: e7788bea-606f-481a-a3a4-1855ac028493
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429723(v=OCS.15)
+ms:contentKeyID: 48185726
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 248a04692327d93293e5bc5d37e650322b415ccb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821976"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 用于通讯簿管理的 Set-CsClientPolicy
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Set-csclientpolicy Lync Server 2013 中的通讯簿管理设置
 
-谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Set-CsClientPolicy cmdlet：RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+哪些人可以运行此 cmdlet: 默认情况下, 已授权以下组的成员运行本地 Set-csclientpolicy cmdlet: RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClientPolicy"}
 
-与 New-CsClientPolicy 类似，通过 Set-CsClientPolicy cmdlet，可以修改已配置的客户端设置。
+与 Set-csclientpolicy 类似, Set-csclientpolicy cmdlet 允许你修改已存在的客户端设置。
 
 例如：
 
     Set-CsClientPolicy -Identity RedmondClientPolicy -WebServicePollInterval "00:15:00" -AddressBookAvailability "WebSearchAndFileDownload"
 
-有关完整命令的详细说明，请参阅主 Lync Server Windows PowerShell RTCCmdlets 参考中的以下内容。
+<div>
 
-## 另请参阅
+## <a name="see-also"></a>另请参阅
 
-#### 其他资源
 
-[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)
+[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

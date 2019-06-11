@@ -1,59 +1,89 @@
-﻿---
-title: Lync Server 2013：点对点活动摘要报告
-TOCTitle: 点对点活动摘要报告
-ms:assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg615041(v=OCS.15)
-ms:contentKeyID: 49314597
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 对等活动摘要报告'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Activity Summary Report
+ms:assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615041(v=OCS.15)
+ms:contentKeyID: 48185884
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 62bdd1203db471de770ed56cf6377d7a3c651649
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825385"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的点对点活动摘要报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的对等活动摘要报告
 
-点对点活动摘要报告提供点对点通信会话的整体视图。点对点会话通常仅涉及两个用户，且不需要使用 Lync Server 会议服务。通过比较，会议通常涉及两个以上的用户并要求使用 Microsoft Lync Server 2013 会议服务。会议活动在会议摘要报告上进行报告。
+</div>
 
-点对点活动摘要报告帮助您回答诸如下列问题：
+<div id="mainSection">
 
-  - 在特定某一天，我的用户发送了多少点对点即时消息？
+<div id="mainBody">
 
-  - 我的任何用户是否确实利用 Lync Server 应用程序共享和文件转换功能？
+<span> </span>
 
-  - 用户曾报怨在一天的特定时间网络看上去很慢。在此期间点对点音频和视频会话占用了多少分钟时间？
+_**主题上次修改时间:** 2012-10-21_
 
-## 访问点对点活动摘要报告
+对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户, 不需要使用 Lync Server 会议服务。 通过比较, 会议通常涉及两个以上的用户, 并且需要使用 Microsoft Lync Server 2013 会议服务。 会议活动在会议摘要报告上进行报告。
 
-可从监视报告主页访问点对点活动摘要报告。通过单击下列任何指标打开 [Lync Server 2013 中的点对点 IM 报告](lync-server-2013-peer-to-peer-im-report.md)：
+对等活动摘要报告帮助您回答诸如下列问题：
 
-  - 点对点 IM 会话总数
+  - 在特定某一天，我的用户发送了多少对等即时消息？
 
-  - 点对点 IM 消息总数
+  - 是否有任何用户真正利用 Lync Server 应用程序共享和文件传输功能？
 
-同样，通过单击以下任何指标可打开点对点语音和视频报告：
+  - 用户曾报怨在一天的特定时间网络看上去很慢。在此期间对等音频和视频会话占用了多少分钟时间？
 
-  - 点对点音频会话总数
+<div>
 
-  - 点对点音频会话总分钟数
+## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问对等活动摘要报告
 
-  - 点对点音频会话总数
+可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标,[在 Lync Server 2013 中打开对等 IM 报告](lync-server-2013-peer-to-peer-im-report.md):
 
-  - 点对点音频会话总分钟数
+  - 对等 IM 会话总数
 
-## 充分利用点对点活动摘要报告
+  - 对等 IM 消息总数
 
-在点对点活动摘要报告的底部，您将找到总标准数，例如，总点对点 IM 会话数和总点对点 IM 消息。这提供了报告正文中找到的详细信息的快速摘要。
+同样，通过单击以下任何指标可打开对等语音和视频报告：
 
-## 筛选器
+  - 对等音频会话总数
 
-利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，点对点活动摘要报告允许您选择数据的分组方式。在此示例中，将按小时、日、周或月对活动进行分组。
+  - 对等音频会话总分钟数
 
-下表列出了可用于点对点活动摘要报告的筛选器。
+  - 对等音频会话总数
 
-### 点对点活动摘要报告筛选器
+  - 对等音频会话总分钟数
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-peer-to-peer-activity-summary-report"></a>充分利用对等活动摘要报告
+
+在对等活动摘要报告的底部，您将找到总标准数，例如，总对等 IM 会话数和总对等 IM 消息。这提供了报告正文中找到的详细信息的快速摘要。
+
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
+
+利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，对等活动摘要报告允许您选择数据的分组方式。在此示例中，将按小时、日、周或月对活动进行分组。
+
+下表列出了可用于对等活动摘要报告的筛选器。
+
+### <a name="peer-to-peer-activity-summary-report-filters"></a>对等活动摘要报告筛选器
 
 <table>
 <colgroup>
@@ -68,20 +98,20 @@ _**上一次修改主题：** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>开始日期</strong></p></td>
+<td><p><strong>从</strong></p></td>
 <td><p>时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
-<p>7/17/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将某个特定日的 12:00 AM 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>7/17/12012 1:00 PM</p>
+<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>结束日期</strong></p></td>
+<td><p><strong>到</strong></p></td>
 <td><p>时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/17/12012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
@@ -96,17 +126,21 @@ _**上一次修改主题：** 2015-03-09_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 7/17/2012 、结束日期为 2/28/2012、间隔为“每天”，则显示从 8/7/12012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/17/12012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/12012 12:00 AM 到 9/7/12012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## 指标
+</div>
 
-下表列出了点对点活动摘要报告中提供的信息。
+<div>
 
-### 点对点活动摘要报告指标
+## <a name="metrics"></a>指标
+
+下表列出了对等活动摘要报告中提供的信息。
+
+### <a name="peer-to-peer-activity-summary-report-metrics"></a>对等活动摘要报告指标
 
 <table>
 <colgroup>
@@ -118,7 +152,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -128,63 +162,76 @@ _**上一次修改主题：** 2015-03-09_
 <p><strong>每周</strong></p>
 <p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指示在筛选器工具栏上选择的时间间隔。如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。例如，如果使用“每天”间隔并单击 7/17/2012，可查看当日用户注册活动的每小时细分信息。</p></td>
+<td><p>指示在筛选器工具栏上选择的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如, 如果你使用的是每日间隔, 并且单击 "7/17/12012", 你将看到该日期的用户注册活动的每小时细目。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点会话总数</strong></p></td>
+<td><p><strong>对等会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>发起的点对点会话总数（无论是哪种会话类型）。</p></td>
+<td><p>发起的对等会话总数（无论是哪种会话类型）。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>点对点 IM 会话总数</strong></p></td>
+<td><p><strong>对等 IM 会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点即时消息 (IM) 会话总数。单击此项时，报告将显示所选时间段的点对点 IM 报告。</p></td>
+<td><p>对等即时消息 (IM) 会话总数。单击此项时，报告将显示所选时间段的对等 IM 报告。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点 IM 消息总数</strong></p></td>
+<td><p><strong>对等 IM 消息总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>在点对点会话中发送的即时消息总数。单击此项时，报告将显示所选时间段的点对点 IM 报告。</p></td>
+<td><p>在对等会话中发送的即时消息总数。单击此项时，报告将显示所选时间段的对等 IM 报告。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>点对点音频会话总数</strong></p></td>
+<td><p><strong>对等音频会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点音频呼叫总数。单击此字段时，报告将显示所选时间段的点对点语音和视频报告。</p></td>
+<td><p>对等音频呼叫总数。单击此字段时，报告将显示所选时间段的对等语音和视频报告。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点音频会话总分钟数</strong></p></td>
+<td><p><strong>对等音频会话总分钟数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点音频会话持续的总时间。单击此项时，报告将显示所选时间段的点对点语音和视频报告。</p></td>
+<td><p>对等音频会话持续的总时间。 单击此项时，报告将显示所选时间段的对等语音和视频报告。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>点对点音频会话平均分钟数</strong></p></td>
+<td><p><strong>对等音频会话平均分钟数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点音频会话持续的平均时间。计算方法是音频会话总时间除以音频会话总数。</p></td>
+<td><p>对等音频会话持续的平均时间。计算方法是音频会话总时间除以音频会话总数。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点视频会话总数</strong></p></td>
+<td><p><strong>对等视频会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点视频呼叫总数。请注意，视频会话还算作音频会话：每个视频会话算作一个视频会话和一个音频会话。单击此项时，报告将显示所选时间段的点对点语音和视频报告。</p></td>
+<td><p>对等视频呼叫总数。请注意，视频会话还算作音频会话：每个视频会话算作一个视频会话和一个音频会话。单击此项时，报告将显示所选时间段的对等语音和视频报告。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>点对点视频会话总分钟数</strong></p></td>
+<td><p><strong>对等视频会话总分钟数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点视频会话持续的总时间。单击此项时，报告将显示所选时间段的点对点语音和视频报告。</p></td>
+<td><p>对等视频会话持续的总时间。单击此项时，报告将显示所选时间段的对等语音和视频报告。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点视频会话平均分钟数</strong></p></td>
+<td><p><strong>对等视频会话平均分钟数</strong></p></td>
 <td><p>否</p></td>
-<td><p>点对点视频会话持续的平均时间。计算方法是视频会话总时间除以视频会话总数。</p></td>
+<td><p>对等视频会话持续的平均时间。计算方法是视频会话总时间除以视频会话总数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>点对点文件传输会话总数</strong></p></td>
+<td><p><strong>对等文件传输会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>包含文件传输的点对点会话总数。</p></td>
+<td><p>包含文件传输的对等会话总数。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>点对点应用程序共享会话总数</strong></p></td>
+<td><p><strong>对等应用程序共享会话总数</strong></p></td>
 <td><p>否</p></td>
-<td><p>包含应用程序共享的点对点会话总数。</p></td>
+<td><p>包含应用程序共享的对等会话总数。</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

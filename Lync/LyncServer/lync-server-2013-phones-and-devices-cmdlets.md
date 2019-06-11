@@ -1,122 +1,176 @@
-﻿---
-title: 电话和设备 Cmdlet
-TOCTitle: 电话和设备 Cmdlet
-ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415657(v=OCS.15)
-ms:contentKeyID: 49313198
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 电话和设备 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Phones and devices cmdlets
+ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415657(v=OCS.15)
+ms:contentKeyID: 48184467
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 67162d9d3c800040817fa26f1ab65788f2d4e995
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825168"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 电话和设备 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="phones-and-devices-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的电话和设备 cmdlet
 
-Microsoft Lync Server 2013 提供了许多使您能够管理电话和其他硬件设备的 cmdlet。其中包括以下各项：IP 语音 (VoIP) 电话、公用区域电话（例如，位于建筑物大厅、自助餐厅或其他公共场所的电话），甚至模拟电话（这些电话不能运行 Lync Phone Edition）。
+</div>
 
-## 电话和设备 Cmdlet
+<div id="mainSection">
 
-**CsDeviceUpdate** cmdlet 用于管理设备更新 Web 服务，此服务是 Lync Server 的一个组件，管理员通过它可向运行 Lync Phone Edition 的电话和其他设备分发固件更新。
+<div id="mainBody">
 
-  -   
-    [Get-CsAnalogDevice](get-csanalogdevice.md)
+<span> </span>
 
-  -   
-    [Move-CsAnalogDevice](move-csanalogdevice.md)
+_**主题上次修改时间:** 2012-06-28_
 
-  -   
-    [New-CsAnalogDevice](new-csanalogdevice.md)
+Microsoft Lync Server 2013 提供了许多 cmdlet, 可让你管理电话和其他硬件设备。 这包括诸如 IP 语音 (VoIP) 电话之类的内容;常见的区域电话 (例如, 建筑物大厅、自助或其他公共场所的电话);也可以是模拟电话, 不能运行 Lync Phone Edition 的电话。
 
-  -   
-    [Remove-CsAnalogDevice](remove-csanalogdevice.md)
+<div>
 
-  -   
-    [Set-CsAnalogDevice](set-csanalogdevice.md)
+## <a name="phones-and-devices-cmdlets"></a>电话和设备 Cmdlet
 
-  -   
-    [Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+**CsDeviceUpdate** cmdlet 用于管理设备更新 Web 服务, 这是一个 Lync 服务器组件, 使管理员能够将固件更新分发到运行 Lync Phone Edition 的电话和其他设备。
 
-  -   
-    [Move-CsCommonAreaPhone](move-cscommonareaphone.md)
+  - <span></span>  
+    [Get-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg398748(v=OCS.15))
 
-  -   
-    [New-CsCommonAreaPhone](new-cscommonareaphone.md)
+  - <span></span>  
+    [Move-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg398816(v=OCS.15))
 
-  -   
-    [Remove-CsCommonAreaPhone](remove-cscommonareaphone.md)
+  - <span></span>  
+    [New-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg412937(v=OCS.15))
 
-  -   
-    [Set-CsCommonAreaPhone](set-cscommonareaphone.md)
+  - <span></span>  
+    [Remove-CsAnalogDevice](rehttps://technet.microsoft.com/en-us/library/Gg398816(v=OCS.15))
 
-  -   
-    [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md)
+  - <span></span>  
+    [Set-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg412843(v=OCS.15))
 
-  -   
-    [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md)
+  - <span></span>  
+    [Get-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg412934(v=OCS.15))
 
-  -   
-    [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md)
+  - <span></span>  
+    [Move-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg412837(v=OCS.15))
 
-  -   
-    [Import-CsDeviceUpdate](import-csdeviceupdate.md)
+  - <span></span>  
+    [New-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg398430(v=OCS.15))
 
-  -   
-    [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md)
+  - <span></span>  
+    [Remove-CsCommonAreaPhone](rehttps://technet.microsoft.com/en-us/library/Gg412837(v=OCS.15))
 
-  -   
-    [New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md)
+  - <span></span>  
+    [Set-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg398579(v=OCS.15))
 
-  -   
-    [Remove-CsDeviceUpdateConfiguration](remove-csdeviceupdateconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md)
+  - <span></span>  
+    [CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398070(v=OCS.15))
 
-  -   
-    [Clear-CsDeviceUpdateFile](clear-csdeviceupdatefile.md)
+  - <span></span>  
+    [新-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398445(v=OCS.15))
 
-  -   
-    [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md)
+  - <span></span>  
+    [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15))
 
-  -   
-    [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md)
+  - <span></span>  
+    [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg413042(v=OCS.15))
 
-  -   
-    [Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsDeviceUpdateRule](remove-csdeviceupdaterule.md)
+  - <span></span>  
+    [Import-CsDeviceUpdate](https://technet.microsoft.com/en-us/library/Gg398861(v=OCS.15))
 
-  -   
-    [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md)
+<!-- end list -->
 
-  -   
-    [Restore-CsDeviceUpdateRule](restore-csdeviceupdaterule.md)
+  - <span></span>  
+    [CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg399030(v=OCS.15))
 
-  -   
-    [Test-CsPhoneBootstrap](test-csphonebootstrap.md)
+  - <span></span>  
+    [新-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg425761(v=OCS.15))
 
-  -   
-    [Get-CsTestDevice](get-cstestdevice.md)
+  - <span></span>  
+    [Remove-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg425933(v=OCS.15))
 
-  -   
-    [New-CsTestDevice](new-cstestdevice.md)
+  - <span></span>  
+    [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg398320(v=OCS.15))
 
-  -   
-    [Remove-CsTestDevice](remove-cstestdevice.md)
+<!-- end list -->
 
-  -   
-    [Set-CsTestDevice](set-cstestdevice.md)
+  - <span></span>  
+    [Clear-CsDeviceUpdateFile](https://technet.microsoft.com/en-us/library/Gg425835(v=OCS.15))
 
-## 另请参阅
+  - <span></span>  
+    [Clear-CsDeviceUpdateLog](https://technet.microsoft.com/en-us/library/Gg412738(v=OCS.15))
 
-#### 其他资源
+<!-- end list -->
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Approve-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398949(v=OCS.15))
+
+  - <span></span>  
+    [CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398215(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg425930(v=OCS.15))
+
+  - <span></span>  
+    [Reset-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398181(v=OCS.15))
+
+  - <span></span>  
+    [Restore-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398305(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsPhoneBootstrap](https://technet.microsoft.com/en-us/library/Gg412852(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [CsTestDevice](https://technet.microsoft.com/en-us/library/Gg398304(v=OCS.15))
+
+  - <span></span>  
+    [新-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg425899(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg398790(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg398156(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

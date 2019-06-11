@@ -1,73 +1,103 @@
-﻿---
-title: 具有多数据中心的大型组织的 Lync Server 2013 参考拓扑
-TOCTitle: 具有多数据中心的大型组织的参考拓扑
-ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398797(v=OCS.15)
-ms:contentKeyID: 49313717
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 具有多数据中心的大型组织的 Lync Server 2013 参考拓扑
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for large organizations with multiple data centers
+ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
+ms:contentKeyID: 48184887
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 具有多数据中心的大型组织中的 Lync Server 2013 参考拓扑
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-22_
+# <a name="reference-topology-for-lync-server-2013-in-large-organizations-with-multiple-data-centers"></a>具有多数据中心的大型组织中的 Lync Server 2013 参考拓扑
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-22_
 
 具有多个数据中心的大型组织的参考拓扑支持适用于具有多个中央站点的各种规模的组织。下图中的具体拓扑适用于具有 50,000 个用户的组织，其中 20,000 个用户位于中央站点 A，20,000 个用户位于中央站点 B，总共 10,000 个用户位于中央站点 C 和分支站点。该图中显示的拓扑类型可满足具有任意数量用户的组织。
 
-除了 前端服务器的池提供的高可用性之外，此拓扑还添加了灾难恢复支持。位于中央站点 A 和中央站点 B 的 前端池可配对在一起。如果其中一个池不可用，则管理员可将受影响用户的服务转移到位于不受影响的站点上的配对池中。
+除了由前端服务器池提供的高可用性外, 此拓扑还添加了灾难恢复支持。 中央站点 A 和 B 的前端池一起配对。 如果其中一个池不可用，则管理员可将受影响用户的服务转移到位于不受影响的站点上的配对池中。
 
 此拓扑分为多幅图显示，首先是概述，然后是中央站点的详细视图。
 
-**具有多个数据中心的大型组织的参考拓扑概述**
+**有多个数据中心的大型组织的参考拓扑概述**
 
-![用于多个数据中心的参考拓扑](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "用于多个数据中心的参考拓扑")
+![针对多个数据中心的参考拓扑](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "针对多个数据中心的参考拓扑")
 
 **大型组织的参考拓扑：中央站点 A 的详细视图**
 
-![规划参考拓扑 A](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "规划参考拓扑 A")
+![dab33f19-e77b-42da-9047-858fb9851264](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **大型组织的参考拓扑：中央站点 B 的详细视图**
 
-![规划参考拓扑 B](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "规划参考拓扑 B")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **大型组织的参考拓扑：中央站点 C 的详细视图**
 
-![规划参考拓扑 C](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "规划参考拓扑 C")
+![7238ca40-340c-491f-b497-ddc2665dadb6](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
-  - **配对 前端池以启用灾难恢复。**   将位于站点 A 和站点 B 的 前端池相互配对，以提供灾难恢复支持。如果一个站点中的某个池失败，管理员可将该站点的用户故障转移到另一站点的配对 前端池中，并且对用户服务的干扰可以忽略不计。两个前端池中的每一个池均具有 6 台服务器，这在故障转移时足够容纳两个池中的所有 40,000 个用户。有关详细信息，请参阅 [在 Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+  - **前端池已配对以启用灾难恢复。**   站点 A 和站点 B 中的前端池相互配对, 以提供灾难恢复支持。 如果一个网站上的池出现故障, 则管理员可以将该网站中的用户故障转移到其他网站上的配对的前端池, 同时对用户的服务中断最少。 Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. 有关详细信息, 请参阅[在 Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
-  - **后端服务器 进行镜像处理**   为了实现基础用户功能的更高可用性，此组织已为每个 前端池部署一个 后端服务器镜像对。这是一个可选拓扑，您可选择部署单个 后端服务器。
+  - **对后端服务器进行镜像**   以提供基本用户功能的更高可用性, 组织为每个前端池部署了镜像对后端服务器。 这是一个可选拓扑, 你可以选择部署一台后端服务器。
 
-  - **在分支站点上使用 标准版 Server。** 此组织考虑站点 C 作为分支站点，因为该站点上只有 600 个员工。但是，该站点上的用户之间有许多 A/V 会议。如果将该站点部署为 Lync Server 中的分支站点，则这些会议的媒体会通过广域网 (WAN) 往返于部署了前端服务器的中央站点。为避免这种潜在的带宽负载，组织在该站点安装了一对 标准版 Server，以承载这些会议。由于在站点上安装了 标准版 Server，根据定义， Lync Server 将其视为中央站点，并且 拓扑生成器和 规划工具也同样将其视为中央站点。
+  - **在分支站点上使用标准版服务器。**   此组织将网站 C 视为分支网站, 因为它只有600员工。 However, the users there have many A/V conferences among themselves. 如果它是作为分支网站在 Lync Server 中部署的, 则这些会议的媒体将跨广域网 (WAN) 和已部署前端服务器的中心网站运行。 为避免这种潜在的带宽负载, 他们已在此网站上安装了一对标准版服务器, 这将主持这些会议。 而且由于安装了标准版服务器, Lync Server 按定义将认为它是一个中心网站, 在拓扑生成器和规划工具中将其视为此类情况。
     
-    此处一台 标准版 Server 的性能已足够，但是组织部署了两台并将其进行配对以在一台服务器不可用时提供高可用性。
+    对于此处的性能而言, 只有一个标准版服务器是足够的, 但组织已将两个和成对的部署在一起, 以在一台服务器停机时提供高可用性。
     
     尽管站点 C 被视为中央站点，但不需要在其上部署边缘服务器。在本例中，站点 C 将使用站点 A 上部署的边缘服务器。
 
-  - **监控和存档**   此组织部署了监控和存档。部署监控或存档时，监控/存档将在每台前端服务器上运行。这些功能的数据库可与后端数据库并置，或位于单独的服务器上。此组织将这些数据库放置在中央站点 B 上分隔后端服务器的服务器上。数据库在此处接收来自所有站点上前端服务器的监控和存档数据。
+  - **监视和存档**   此组织已部署监视和存档。 部署监视或存档时, 它会在每台前端服务器上运行。 这些功能的数据库可以与后端数据库 collocated, 也可以位于单独的服务器上。 此组织已在中央站点 B 中的服务器上找到了这些数据库, 与后端服务器分开。此处的数据库从所有网站中的前端服务器接收监控和存档数据。
 
-  - **分支站点部署选项。**   此组织实际上具有 50 个以上的分支站点，但明细图中仅显示了其中的三个分支站点。分支站点 1 和 3 没有连接到中央站点的可恢复 WAN 链路，因此这两个站点部署了 Survivable Branch Appliance，以在连接到中央站点的 WAN 链路出现故障时提供电话服务。而分支站点 2 具有可恢复的 WAN 链路，因此只需一个公用电话交换网 (PSTN) 网关。这些站点上部署的 PSTN 网关支持媒体旁路功能，因此分支站点 B 上不需要中介服务器。有关决定在分支站点上安装哪些内容的详细信息，请参阅规划文档中的 [在 Lync Server 2013 中规划企业语音恢复能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+  - **分支站点部署选项。**   此组织实际具有超过50个分支网站, 详细信息图中仅显示三个。 分支站点1和3没有指向中心站点的弹性 WAN 链接, 因此他们已部署 Survivable 分支装置以提供电话服务, 以防指向中央站点的 WAN 链接断开。 分支站点2但是具有弹性 WAN 链接, 因此只需使用公共交换电话网络 (PSTN) 网关。 部署的 PSTN 网关支持媒体旁路, 因此分支站点 B 不需要任何中介服务器。有关决定在分支站点安装哪些内容的详细信息, 请参阅规划文档中[Lync Server 2013 中的 "规划企业语音恢复](lync-server-2013-planning-for-enterprise-voice-resiliency.md)"。
 
-  - **SIP 中继和中介服务器。** 请注意，在中央站点 B 上，中介服务器没有与前端服务器并置。这是因为对于使用 SIP 中继的站点，建议使用独立的中介服务器。在其他多数实例中，建议将中介服务器与前端服务器并置。有关中介服务器拓扑的详细信息，请参阅规划文档中的 [Lync Server 2013 中中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)。
+  - **SIP 中继和中介服务器。**   请注意, 在中央站点 B 上, 中介服务器与前端服务器不 collocated。 这是因为对于使用 SIP 中继的站点，建议使用独立的中介服务器。 在其他多数实例中，建议将中介服务器与前端服务器并置。 有关中介服务器拓扑的详细信息, 请参阅规划文档中[Lync server 2013 中的中介服务器组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)。
 
-  - **部署了持久聊天。**   此组织部署了启用持久聊天所需的服务器。它已部署多台持久聊天前端服务器以在处理池中用户数量的负载的同时提供高可用性。它还部署了持久聊天的合规性，并且将持久聊天存储和持久聊天合规性存储放置在各台服务器上。这些存储可进行并置，甚至可与后端服务器并置，但此组织选择将其分隔开以提供更好的性能。
+  - **已部署持久聊天。**   此组织已部署启用持久聊天所需的服务器。 它已部署多台持久聊天前端服务器以在处理池中用户数量的负载的同时提供高可用性。 它还部署了持久聊天的合规性，并且将持久聊天存储和持久聊天合规性存储放置在各台服务器上。 这些存储可进行并置，甚至可与后端服务器并置，但此组织选择将其分隔开以提供更好的性能。
 
-  - **DNS 负载平衡。** 前端池和边缘服务器池已经部署了用于 SIP 流量的 DNS 负载平衡。这就无需为边缘服务器内部接口部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器必须花费的时间，因为只有 HTTP 流量需要使用硬件负载平衡器。有关 DNS 负载平衡的详细信息，请参阅规划文档中的 [Lync Server 2013 中的 DNS 负载平衡](lync-server-2013-dns-load-balancing.md)。
+  - **DNS 负载平衡。**   前端池和边缘服务器池。 这就无需为边缘服务器内部接口部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器必须花费的时间，因为只有 HTTP 流量需要使用硬件负载平衡器。 有关 DNS 负载平衡的详细信息, 请参阅规划文档中[Lync Server 2013 中的 "DNS 负载平衡](lync-server-2013-dns-load-balancing.md)"。
 
-  - **Exchange UM 部署。**Lync Server 同时与 Exchange 统一消息 (UM) 的 *本地* 部署和 *托管* Exchange UM 协同工作。中央站点 A 中包含 Exchange 统一消息 (UM) 服务器，该服务器运行 Microsoft Exchange Server，而不是 Lync Server。 Lync Server 的 Exchange UM 功能在前端池中运行。
+  - **Exchange UM 部署。**  Lync Server 适用于 Exchange 统一消息 (UM) 和*托管*Exchange UM 的*本地*部署。 中心站点 A 包含 Exchange 统一消息 (UM) 服务器, 该服务器运行 Microsoft Exchange Server, 而不是 Lync Server。 Lync Server 的 Exchange UM 功能在前端池上运行。
     
     中央站点 B 使用托管 Exchange，因此也承载 Exchange UM 服务器功能。
     
-    有关 Exchange UM 的详细信息，请参阅规划文档中的 [在 Lync Server 2013 中规划 Exchange 统一消息集成](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)和 [Lync Server 2013 中的托管 Exchange 统一消息集成](lync-server-2013-hosted-exchange-unified-messaging-integration.md)。
+    有关 Exchange UM 的详细信息, 请参阅规划文档中的 lync [server 2013 中的 "规划 Exchange 统一消息集成](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)" 和 " [lync server 2013" 中的托管 exchange 统一消息集成](lync-server-2013-hosted-exchange-unified-messaging-integration.md)。
 
-  - **Office Web Apps 服务器。**   我们建议在每个使用 Web 会议的组织内部署一个 Office Web Apps 服务器或 Office Web Apps 服务器场。您可在一个站点上部署一个 Office Web Apps 服务器场，以通过所有站点提供流量，也可以在所有站点上部署该场。利用 Office Web Apps 服务器，可以在 Web 会议中演示 Powerpoint 幻灯片。有关详细信息，请参阅 [配置与 Office Web Apps Server 和 Lync Server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+  - **Office Web Apps Server。**   我们建议在每个使用 Web 会议的组织内部署一个 Office Web Apps 服务器或 Office Web Apps 服务器场。 你可以在一个网站中部署单个 Office Web Apps 服务器场, 该网站提供来自所有网站的流量, 或在每个网站中部署。 利用 Office Web Apps 服务器，可以在 Web 会议中演示 PowerPoint 幻灯片。 有关详细信息, 请参阅[配置与 Office Web Apps server 和 Lync server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
-  - **可添加控制器。**   如果此组织希望提高针对拒绝服务攻击的安全性，还可部署一个控制器的池。在 Lync Server 中， 控制器是一个可选的单独服务器角色，它不承载用户帐户，也不提供状态或会议服务。控制器可用作内部的下一跃点服务器， 边缘服务器会将发往内部服务器的入站 SIP 流量路由到它。 控制器预先对入站请求进行身份验证，并将其重定向至用户的主池或主服务器。控制器进行的预先身份验证允许放弃来自部署中未知的用户帐户的请求。 控制器有助于使前端服务器免遭恶意流量（如拒绝服务 (DoS) 攻击）的侵袭。如果在此类攻击中网络中涌入大量无效外部流量，则这些流量将会在 控制器处终止。
+  - **可以添加董事。**  如果此组织希望提高抵御拒绝服务攻击的安全性, 它还可以部署一个控制器池。 Director 是 Lync Server 中的一种独立的可选服务器角色, 它不会家庭用户帐户, 也不能提供状态或会议服务。 它充当一个内部下一个跃点服务器, 边缘服务器将入站 SIP 流量路由到内部服务器。 控制器对入站请求进行预身份验证, 并将其重定向到用户的主池或服务器。 控制器进行的预先身份验证允许放弃来自部署中未知的用户帐户的请求。 控制器可帮助将前端服务器与恶意流量 (如拒绝服务 (DoS) 攻击) 隔离。 如果网络被此类攻击中的无效外部通信所淹没, 则流量将在 Director 处结束。
 
-  - **部署了 System Center Operations Manager。**   建议您监控 Lync Server 部署的运行状况以确保最终用户的服务可用性。您可使用 Microsoft 作为免费下载提供的适用于 Lync 的 System Center Operations Manager 管理包监控 Lync。使用 Lync 管理包，您可在问题出现时主动获取实时警报、运行综合事务测试端到端的 Lync 功能以及获取服务可用性的报告等。这有助于您在最终用户遇到部署相关问题之前主动响应这些问题。
+  - **已部署 System Center Operations Manager。**  我们建议你监视 Lync Server 部署的运行状况, 以确保最终用户的服务可用性。 你可以使用适用于 Microsoft 的免费下载, 通过适用于 Lync 的 System Center Operations Manager 管理包监控 Lync。 使用 Lync 管理包, 你可以在出现问题时主动获得实时警报, 运行合成事务以测试端到端 Lync 功能, 获取有关服务可用性的报告等。 This helps you to proactively respond to issues with your deployment before end-users experience them.
     
-    此组织已在每个中央站点部署了 System Center Operations Manager 服务器。
+    此组织已在每个中心站点中部署 System Center Operations Manager 服务器。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

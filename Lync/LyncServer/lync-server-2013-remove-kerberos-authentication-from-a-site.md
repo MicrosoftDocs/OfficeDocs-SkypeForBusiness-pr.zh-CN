@@ -1,50 +1,100 @@
-﻿---
-title: Lync Server 2013：将 Kerberos 身份验证从站点中删除
-TOCTitle: 将 Kerberos 身份验证从站点中删除
-ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398749(v=OCS.15)
-ms:contentKeyID: 49313607
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：将 Kerberos 身份验证从站点中删除
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove Kerberos authentication from a site
+ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398749(v=OCS.15)
+ms:contentKeyID: 48184806
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f030083bc49822f1d41e297388f6ca7dbf66d397
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823117"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中将 Kerberos 身份验证从站点中删除
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-01-16_
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>在 Lync Server 2013 中将 Kerberos 身份验证从站点中删除
 
-要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。
+</div>
 
-如果需要从站点删除 Kerberos 身份验证或终止站点，则必须通过使用 **Remove-CsKerberosAccountAssignment** cmdlet 从站点删除 Kerberos 身份验证帐户分配。使用以下过程删除 Kerberos 身份验证帐户分配，此操作会从站点中的所有计算机删除分配。
+<div id="mainSection">
 
-> [!WARNING]
-> 如果永久终止已启用 Kerberos 的帐户，则删除分配之后，应使用 Active Directory 用户和计算机将其从 Active Directory 域服务 中删除。如果计划将来使用对象，您可能希望保留 Active Directory 对象。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-01-16_
+
+若要成功完成此过程, 你应以 RTCUniversalServerAdmins 组成员的用户身份登录。
+
+如果需要从网站中删除 Kerberos 身份验证或停用网站, 则必须使用**CsKerberosAccountAssignment** cmdlet 从网站中删除 kerberos 身份验证帐户分配。 使用以下过程删除 Kerberos 身份验证帐户分配, 这将从网站中的所有计算机中删除作业。
+
+<div class=" ">
 
 
-## 从站点删除 Kerberos 身份验证
+> [!WARNING]  
+> 如果你永久停止启用 Kerberos 的帐户, 则在删除作业后, 你应该使用 Active Directory 用户和计算机从 Active Directory 域服务中删除它。 如果计划将来使用该对象, 可能需要保留 Active Directory 对象。
 
-1.  以 RtcUniversalServerAdmins 组成员的身份，登录到域中运行 Lync Server 2013 的计算机，或登录到安装了管理工具的计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
 
-3.  通过命令行运行以下两个命令：
+</div>
+
+<div>
+
+## <a name="to-remove-kerberos-authentication-from-a-site"></a>从网站中删除 Kerberos 身份验证
+
+1.  作为 RTCUniversalServerAdmins 组的成员, 请登录到运行 Lync Server 2013 的域中的计算机或登录到安装了管理工具的计算机。
+
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+
+3.  从命令行运行以下两个命令:
     
+       ```
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-
-       &nbsp;
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
     例如：
     
+       ```
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-
-       &nbsp;
+       ```
     
+       ```
         Enable-CsTopology
+       ```
     
-    > [!IMPORTANT]
-    > 对 Kerberos 身份验证进行更改（例如，添加帐户或删除帐户）之后，必须通过 Lync Server 命令行管理程序命令提示符运行 <strong>Enable-CsTopology</strong>。
+    <div class=" ">
+    
+
+    > [!IMPORTANT]  
+    > 对 Kerberos 身份验证进行任何更改 (如添加帐户或删除帐户) 后, 必须从 Lync Server Management Shell 命令提示符运行<STRONG>Enable-CsTopology</STRONG> 。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

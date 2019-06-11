@@ -1,48 +1,91 @@
-﻿---
-title: 规划公共即时消息连接
-TOCTitle: 规划公共即时消息连接
-ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205349(v=OCS.15)
-ms:contentKeyID: 49314572
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 规划公共即时消息连接'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for public instant messaging connectivity
+ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205349(v=OCS.15)
+ms:contentKeyID: 48185698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4432484fbd6056d51a38090a18dbe106851d7c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824573"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 规划公共即时消息连接
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2017-03-09_
+# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中规划公共即时消息连接
 
-公共即时消息连接是一类联盟，配置该连接是为了允许内外部 Lync Server 2013 用户从以下任何用户中添加联系人：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-10-07_
+
+公用即时消息连接是一种联盟类, 并配置为允许您的内部和外部 Lync Server 2013 用户从以下任何内容添加联系人:
 
   - Messenger 联系人
 
   - Yahoo\! 联系人
 
-  - America Online (AOL) 联系人
+  - 美国在线 (AOL) 联系人
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>自 2012 年 9 月 1 日起，Microsoft Lync 公共 IM 连接用户订阅许可证 (PIC USL) 将不再用于购买新的或续订协议。具有活动许可证的客户将能继续与 Yahoo! Messenger 联盟，直到服务关闭日期。AOL 和 Yahoo! 的生命周期结束日期已宣布，为 2014 年 6 月。有关详细信息，请参阅 <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</a>。</p></li>
-> <li><p>PIC USL 是 Lync Server 或 Office Communications Server 与 Yahoo! Messenger 联盟所必需的每用户、每月订阅许可证。Microsoft 是否能够提供此服务视 Yahoo! 的支持而定，将不续订 Yahoo! 的底层协议。</p></li>
-> <li><p>与以往相比，Lync 是一个更强大的工具，可用于跨多个组织进行联系以及与世界各地的各个用户进行联系。与 Windows Live Messenger 联盟无需 Lync Standard CAL 之外的其他任何用户/设备许可证。Skype 联盟将添加到此列表，使 Lync 用户能够通过 IM 和语音与数亿人联系。</p></li>
-> </ul>
+> <UL>
+> <LI>
+> <P>从2012年9月1日起, Microsoft Lync 公共 IM 连接用户订购许可证 (PIC USL) 不再可用于购买新的或续订协议。 具有活动许可证的客户将能够继续与 Yahoo! 进行联盟 Messenger, 直到服务关闭日期。 AOL 和 Yahoo! 的有效期结束日期为2014年6月 已宣布。 有关详细信息, 请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</P>
+> <LI>
+> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo! 联合所需的每用户、每月订阅许可证。 Messenger. Microsoft 提供此服务的能力已由 Yahoo! 的支持 (将不会续订的底层协议) 提供。</P>
+> <LI>
+> <P>Lync 比以往更多, 是一种强大的工具, 用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。 Skype 联盟将添加到此列表, 使 Lync 用户可以通过 IM 和语音与成百上千人联系。</P></LI></UL>
 
-此类联盟需要规划以下注意事项：
 
-  - Windows Live Messenger 用户可与 Lync Server 2013 用户进行对等音频/可视通信以及即时消息传递。您的边缘服务器必须满足特定端口和协议要求。有关详细信息，请参阅[确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
 
-  - Yahoo 即时消息除通常在规划和部署提供联盟的典型边缘服务器时使用的要求之外，没有其他独特要求。
+</div>
 
-  - America Online 要求分配到 访问边缘服务 的 边缘服务器 证书具有一个客户端增强型密钥使用 (EKU)。
+此类联合需要以下规划注意事项:
 
-## 本部分内容
+  - 除了即时消息外, Windows Live Messenger 用户可以与 Lync Server 2013 用户进行对等音频/视频通信。 边缘服务器必须满足特定的端口和协议要求。 有关详细信息, 请参阅[确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
 
-  - [证书摘要 - 公共即时消息连接](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+  - Yahoo 即时消息没有独特的要求, 除了通常用于提供联合的典型边缘服务器的规划和部署中。
 
-  - [端口摘要 - 公共即时消息连接](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+  - 北美洲联机要求分配给 Access Edge 服务的 Edge 服务器证书具有客户端增强型密钥用法 (EKU)。
 
-  - [DNS 摘要 - 公共即时消息连接](https://technet.microsoft.com/zh-cn/library/jj618375\(v=ocs.15\))
+<div>
+
+## <a name="in-this-section"></a>本节内容
+
+  - [证书摘要-Lync Server 2013 中的公共即时消息连接](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+
+  - [端口摘要-Lync Server 2013 中的公共即时消息连接](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+
+  - [DNS 摘要-Lync Server 2013 中的公共即时消息连接](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

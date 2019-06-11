@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：操作
-TOCTitle: 操作
-ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398344(v=OCS.15)
-ms:contentKeyID: 49312847
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：操作
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Operations
+ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
+ms:contentKeyID: 48184155
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63fe79fbf30d41f3f365d3ae06027cb43e557b1f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825833"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的操作
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-01-26_
+# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 中的操作
 
-本节中的主题介绍如何使用管理工具来配置和管理 Lync Server 2013 部署。
+</div>
 
-## 本节内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2015-01-26_
+
+本部分中的主题介绍了如何使用管理工具配置和管理 Lync Server 2013 部署。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
 
@@ -59,16 +81,32 @@ _**上一次修改主题：** 2015-01-26_
 
   - [备份和还原 Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Lync Server 2013 中的监控和运行状况配置](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Lync Server 2013 中的监视和运行状况配置](lync-server-2013-monitoring-and-health-configuration.md)
 
-  - [Lync Server 命令行管理程序](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 命令行管理程序](lync-server-2013-lync-server-management-shell.md)
 
   - [Lync Server 2013 最佳做法分析器](lync-server-2013-lync-server-best-practices-analyzer.md)
 
-## 另请参阅
+</div>
 
-#### 其他资源
+<div>
 
-[部署](lync-server-2013-deployment.md)  
-[规划 Lync Server 2013](lync-server-2013-planning.md)
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 的部署](lync-server-2013-deployment.md)  
+[规划 Lync Server 2013](lync-server-2013-planning.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
