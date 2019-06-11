@@ -1,39 +1,73 @@
-﻿---
-title: 授权连接到 Office Communications Server 2007 R2 边缘服务器
-TOCTitle: 授权连接到 Office Communications Server 2007 R2 边缘服务器
-ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204702(v=OCS.15)
-ms:contentKeyID: 49312093
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 授权到 Office 通信服务器 2007 R2 Edge 服务器的连接
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
+ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
+ms:contentKeyID: 48183493
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f81d8aaf9a01fc73516778487f8cc9a2d28a04ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837106"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 授权连接到 Office Communications Server 2007 R2 边缘服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-28_
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授权到 Office 通信服务器 2007 R2 Edge 服务器的连接
 
-对于试点池中的每个 Lync Server 2013 前端服务器或标准版服务器，您必须更新已获准连接到 Office Communications Server 2007 R2 边缘服务器的内部服务器的列表。如果不进行这些更新，则用户使用旧边缘服务器加入的外部音频/视频 (A/V) 会议将不起作用。
+</div>
 
-## 授权连接到 Office Communications Server 2007 R2 边缘服务器
+<div id="mainSection">
 
-1.  从 Office Communications Server 2007 R2 边缘服务器中的“管理工具”组中，打开“计算机管理”管理单元。
+<div id="mainBody">
 
-2.  在控制台树中，展开“服务和应用程序”。
+<span> </span>
 
-3.  右键单击“Office Communications Server 2007 R2”，然后单击“属性”。
+_**主题上次修改时间:** 2012-09-28_
 
-4.  单击“内部”选项卡。
+对于你的试点池中的每个 Lync Server 2013 前端服务器或标准版服务器, 你必须更新授权连接到 Office 通信服务器 2007 R2 Edge 服务器的内部服务器的列表。 如果没有这些更新, 通过使用旧版 Edge 服务器加入的用户的外部音频/视频 (A/V) 会议将不起作用。
 
-5.  在“添加服务器”下，单击“添加”。
+<div>
 
-6.  在“添加 Office Communications Server”对话框中，输入相应的信息：
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授权到 Office 通信服务器 2007 R2 Edge 服务器的连接
+
+1.  从 Office 通信服务器 2007 R2 Edge 服务器的 "**管理工具**" 组中, 打开 "**计算机管理**" 管理单元。
+
+2.  在控制台树中, 展开 "**服务和应用程序**"。
+
+3.  右键单击 " **Office 通信服务器 2007 R2**", 然后单击 "**属性**"。
+
+4.  单击 "**内部**" 选项卡。
+
+5.  在 "**添加服务器**" 下, 单击 "**添加**"。
+
+6.  在 "**添加 Office 通信服务器**" 对话框中, 输入相应的信息:
     
-      - 指定每个 Lync Server 2013 前端服务器或标准版服务器以及 Lync Server 2013 池的完全限定的域名 (FQDN)。
+      - 指定每个 Lync Server 2013 前端服务器或标准版服务器的完全限定的域名 (FQDN), 以及 Lync Server 2013 池。
     
-      - 如果在用 Lync Server 2013 控制器的 FQDN 指定下一个跃点计算机的池中已配置静态路由，则指定该控制器的 FQDN。
+      - 如果在通过其 FQDN 指定下一跃点计算机的池中配置了静态路由, 请指定 Lync Server 2013 控制器的 FQDN。
 
-7.  为每个 Lync Server 2013 前端服务器、标准版服务器、池和控制器添加条目后，单击“**应用**”，然后单击“确定”关闭属性页。
+7.  为每个 Lync Server 2013、前端服务器、标准版服务器、池和控制器添加条目后, 单击 "**应用**", 然后单击 **"确定"** 以关闭 "属性" 页面。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

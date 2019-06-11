@@ -1,119 +1,157 @@
-﻿---
-title: Lync Online：Lync Online cmdlet
-TOCTitle: Lync Online cmdlet
-ms:assetid: 1d85a61f-80e5-49c6-be7f-971ff5fe4dbe
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994021(v=OCS.15)
-ms:contentKeyID: 52060974
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Online：Lync Online cmdlet
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Lync Online cmdlets
+ms:assetid: 1d85a61f-80e5-49c6-be7f-971ff5fe4dbe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994021(v=OCS.15)
+ms:contentKeyID: 51803930
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2892177104c9361e788ea94c9cb0960140cdb23
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837983"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Online cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="lync-online-cmdlets"></a>Lync Online cmdlet
 
-此页面列出对 Microsoft Lync Online 租户的管理员可用的所有 Windows PowerShell cmdlet。
+</div>
 
-## 仅对 Lync Online 管理员可用的 Cmdlet
+<div id="mainSection">
 
-以下 cmdlet 只能与 Skype for Business Online 一起使用。
+<div id="mainBody">
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+<span> </span>
 
-  - [Get-CsOnlineUser](get-csonlineuser.md)
+_**主题上次修改时间:** 2014-02-07_
 
-  - [Get-CsTenant](get-cstenant.md)
+此页面列出了 Microsoft Lync Online 租户的管理员可用的所有 Windows PowerShell cmdlet。
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+<div>
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+## <a name="cmdlets-available-only-to-lync-online-administrators"></a>仅适用于 Lync Online 管理员的 cmdlet
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+以下 cmdlet 只能与 Lync Online 一起使用:
 
-  - [Get-CsTenantPublicProvider](get-cstenantpublicprovider.md)
+  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/JJ994030(v=OCS.15))
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15))
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/JJ994044(v=OCS.15))
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/JJ994072(v=OCS.15))
 
-  - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/JJ994034(v=OCS.15))
 
-  - [Set-CsTenantHybridConfiguration](set-cstenanthybridconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/Dn362770(v=OCS.15))
 
-  - [Set-CsTenantPublicProvider](set-cstenantpublicprovider.md)
+  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/JJ994016(v=OCS.15))
 
-  - [Update-CsTenantMeetingUrl](update-cstenantmeetingurl.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/JJ994088(v=OCS.15))
 
-有关如何将您的计算机配置为使用 Windows PowerShell 管理 Skype for Business Online 的信息，请参阅帮助主题[使用 Windows PowerShell 管理 Lync Online](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)。
+  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/JJ994023(v=OCS.15))
 
-## 对 Lync Online 管理员可用的其他 Cmdlet
+  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/JJ994040(v=OCS.15))
 
-这些 cmdlet 可以与 Skype for Business Online 或 Lync Server 2013 的本地版本一起使用：
+  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/JJ994080(v=OCS.15))
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/JJ994046(v=OCS.15))
 
-  - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
+  - [Set-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/JJ994047(v=OCS.15))
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Update-CsTenantMeetingUrl](https://technet.microsoft.com/en-us/library/Dn424754(v=OCS.15))
 
-  - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
+有关如何将计算机配置为使用 Windows PowerShell 管理 Lync Online 的信息, 请参阅[使用 Windows Powershell 管理 Lync online](https://technet.microsoft.com/en-us/library/Dn362831(v=OCS.15))中的帮助主题。
 
-  - [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
+</div>
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+<div>
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+## <a name="other-cmdlets-available-to-lync-online-administrators"></a>Lync Online 管理员可用的其他 Cmdlet
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+这些 cmdlet 既可以与 Lync Online 一起使用, 也可以与 Lync Server 2013 的本地版本一起使用:
 
-  - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
 
-  - [Get-CsMeetingRoom](get-csmeetingroom.md)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205062(v=OCS.15))
 
-  - [Get-CsPresencePolicy](get-cspresencepolicy.md)
+  - [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/Gg398830(v=OCS.15))
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398293(v=OCS.15))
 
-  - [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)
+  - [CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))
 
-  - [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
 
-  - [Get-CsVoicePolicy](get-csvoicepolicy.md)
+  - [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398980(v=OCS.15))
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg425875(v=OCS.15))
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205277(v=OCS.15))
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg413002(v=OCS.15))
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690049(v=OCS.15))
 
-  - [Remove-CsExUmContact](remove-csexumcontact.md)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg398978(v=OCS.15))
 
-  - [Remove-CsUserAcp](remove-csuseracp.md)
+  - [CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
 
-  - [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
+  - [授权-Set-csclientpolicy](https://technet.microsoft.com/en-us/library/Gg412942(v=OCS.15))
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425937(v=OCS.15))
 
-  - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
+  - [授权-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425942(v=OCS.15))
 
-  - [Set-CsMeetingRoom](set-csmeetingroom.md)
+  - [授权-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [授权-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
 
-  - [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
 
-  - [Set-CsUser](set-csuser.md)
+  - [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg398982(v=OCS.15))
+
+  - [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+
+  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398648(v=OCS.15))
+
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204831(v=OCS.15))
+
+  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398484(v=OCS.15))
+
+  - [Set-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690013(v=OCS.15))
+
+  - [Set-Move-csuser](https://technet.microsoft.com/en-us/library/Gg398510(v=OCS.15))
+
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/Gg413018(v=OCS.15))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

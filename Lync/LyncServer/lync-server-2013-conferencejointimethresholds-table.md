@@ -1,31 +1,51 @@
-﻿---
-title: Lync Server 2013 中的 ConferenceJoinTimeThresholds 表
-TOCTitle: Lync Server 2013 中的 ConferenceJoinTimeThresholds 表
-ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204809(v=OCS.15)
-ms:contentKeyID: 49312512
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ConferenceJoinTimeThresholds 表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceJoinTimeThresholds table
+ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
+ms:contentKeyID: 48183855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66793cc3bd545d343198d00f7fb477c1f9b88fac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837489"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 ConferenceJoinTimeThresholds 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceJoinTimeThresholds 表
 
-ConferenceJoinTimeThresholds 表包含会议加入时间摘要报告使用的分类边界。会议加入时间摘要报告总结了用户成功加入会议所需的时间；这些时间值都报告为一个平均值，且采用以下类别之一：
+</div>
 
-  - 少于 2 秒。
+<div id="mainSection">
 
-  - 2 秒到 5 秒之间。
+<div id="mainBody">
 
-  - 5 秒到 10 秒之间。
+<span> </span>
 
-  - 长于 10 秒。
+_**主题上次修改时间:** 2012-09-28_
 
-ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。
+ConferenceJoinTimeThresholds 表包含 "会议加入时间摘要" 报表使用的分类边界。 "会议加入时间摘要" 报表汇总了用户成功加入会议所需的时间量;这些时间值以平均值和以下类别之一报告:
+
+  - 不到2秒。
+
+  - 介于2秒和5秒之间。
+
+  - 介于5秒和10秒之间。
+
+  - 10秒以上。
+
+ConferenceJoinTimeThresholds 表包含分类值2秒、5秒和10秒钟。
 
 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -49,14 +69,14 @@ ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。
 <tr class="odd">
 <td><p><strong>ThresholdId</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
+<td><p>Primary</p></td>
 <td><p>分类的唯一标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ThresholdValue</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>分类的上限。允许的值包括：</p>
+<td></td>
+<td><p>分类的上限。 允许的值包括：</p>
 <ol>
 <li><p>2</p></li>
 <li><p>5</p></li>
@@ -65,4 +85,15 @@ ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

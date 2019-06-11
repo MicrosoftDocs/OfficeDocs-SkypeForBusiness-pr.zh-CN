@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：CDR 表详细信息
-TOCTitle: CDR 表详细信息
-ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398693(v=OCS.15)
-ms:contentKeyID: 49313520
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：CDR 表详细信息
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CDR table details
+ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:contentKeyID: 48184730
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f87e681cc25f9ed64509ff3bdb31abc5fd77101d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837675"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 CDR 表详细信息
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-18_
+# <a name="cdr-table-details-in-lync-server-2013"></a>Lync Server 2013 中的 CDR 表详细信息
 
-以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
+</div>
 
-## 本部分内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-18_
+
+以下主题详细介绍每个 "呼叫详细记录" (CDR) 数据库架构表中的列。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中的 Application 表](lync-server-2013-application-table.md)
 
@@ -57,7 +79,7 @@ _**上一次修改主题：** 2012-10-18_
 
   - [Lync Server 2013 中的 FocusJoinsAndLeaves 表](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [FrontEnd 表](lync-server-2013-frontend-table.md)
+  - [Lync Server 2013 中的前端表](lync-server-2013-frontend-table.md)
 
   - [Lync Server 2013 中的 Gateways 表](lync-server-2013-gateways-table.md)
 
@@ -79,7 +101,7 @@ _**上一次修改主题：** 2012-10-18_
 
   - [Lync Server 2013 中的 MediationServers 表](lync-server-2013-mediationservers-table.md)
 
-  - [MSMQProcessing 表](lync-server-2013-msmqprocessing-table.md)
+  - [Lync Server 2013 中的 MSMQProcessing 表](lync-server-2013-msmqprocessing-table.md)
 
   - [Lync Server 2013 中的 Phones 表](lync-server-2013-phones-table.md)
 
@@ -99,11 +121,11 @@ _**上一次修改主题：** 2012-10-18_
 
   - [Lync Server 2013 中的 SIPResponseMetaData 表](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Syndicators 表](lync-server-2013-syndicators-table.md)
+  - [Lync Server 2013 中的 Syndicators 表](lync-server-2013-syndicators-table.md)
 
-  - [SyndicatorsTenantMap 表](lync-server-2013-syndicatorstenantmap-table.md)
+  - [Lync Server 2013 中的 SyndicatorsTenantMap 表](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [任务表](lync-server-2013-task-table.md)
+  - [Lync Server 2013 中的任务表](lync-server-2013-task-table.md)
 
   - [Lync Server 2013 中的 Tenants 表](lync-server-2013-tenants-table.md)
 
@@ -116,4 +138,16 @@ _**上一次修改主题：** 2012-10-18_
   - [Lync Server 2013 中的 UserStatistics 表](lync-server-2013-userstatistics-table.md)
 
   - [Lync Server 2013 中的 VoipDetails 表](lync-server-2013-voipdetails-table.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

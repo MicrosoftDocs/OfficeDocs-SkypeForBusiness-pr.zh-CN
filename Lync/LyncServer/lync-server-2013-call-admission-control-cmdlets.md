@@ -1,146 +1,203 @@
-﻿---
-title: 呼叫允许控制 Cmdlet
-TOCTitle: 呼叫允许控制 Cmdlet
-ms:assetid: dd9d3912-b562-4839-a337-bfc5277cfb62
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg415676(v=OCS.15)
-ms:contentKeyID: 49314462
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 呼叫许可控制 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call admission control cmdlets
+ms:assetid: dd9d3912-b562-4839-a337-bfc5277cfb62
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415676(v=OCS.15)
+ms:contentKeyID: 48185602
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6e192d30205a43d2bf13a347b7ee40f0ac424320
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837721"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 呼叫允许控制 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的呼叫许可控制 cmdlet
 
-呼叫允许控制 (CAC) 可确定是否有足够的网络带宽来建立质量可接受的实时音频或视频会话。您可以通过为网络、站点和子网及其相互之间的交互配置限制和设置来管理 CAC。
+</div>
 
-## 呼叫允许控制 Cmdlet
+<div id="mainSection">
 
-使用以下 cmdlet 从 Lync Server 命令行管理程序中管理 CAC。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-03-21_
+
+呼叫许可控制 (CAC) 确定是否有足够的网络带宽来建立可接受质量的实时音频或视频会话。 通过 configuraing 网络、网站和子网以及它们之间的交互的限制和设置来管理 CAC。
+
+<div>
+
+## <a name="call-admission-control-cmdlets"></a>呼叫许可控制 Cmdlet
+
+使用以下 cmdlet 从 Lync Server 命令行管理程序管理 CAC。
 
 **呼叫允许控制**
 
-  -   
-    [Get-CsBandwidthPolicyServiceConfiguration](get-csbandwidthpolicyserviceconfiguration.md)
+  - <span></span>  
+    [CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412727(v=OCS.15))
 
-  -   
-    [New-CsBandwidthPolicyServiceConfiguration](new-csbandwidthpolicyserviceconfiguration.md)
+  - <span></span>  
+    [新-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398175(v=OCS.15))
 
-  -   
-    [Remove-CsBandwidthPolicyServiceConfiguration](remove-csbandwidthpolicyserviceconfiguration.md)
+  - <span></span>  
+    [Remove-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398877(v=OCS.15))
 
-  -   
-    [Set-CsBandwidthPolicyServiceConfiguration](set-csbandwidthpolicyserviceconfiguration.md)
+  - <span></span>  
+    [Set-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412863(v=OCS.15))
 
-  -   
-    [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+<!-- end list -->
 
-  -   
-    [New-CsNetworkBandwidthPolicyProfile](new-csnetworkbandwidthpolicyprofile.md)
+  - <span></span>  
+    [Get-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg425815(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkBandwidthPolicyProfile](remove-csnetworkbandwidthpolicyprofile.md)
+  - <span></span>  
+    [New-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398675(v=OCS.15))
 
-  -   
-    [Set-CsNetworkBandwidthPolicyProfile](set-csnetworkbandwidthpolicyprofile.md)
+  - <span></span>  
+    [Remove-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398609(v=OCS.15))
 
-  -   
-    [New-CsNetworkBWAlternatePath](new-csnetworkbwalternatepath.md)
+  - <span></span>  
+    [Set-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398338(v=OCS.15))
 
-  -   
-    [New-CsNetworkBWPolicy](new-csnetworkbwpolicy.md)
+<!-- end list -->
 
-  -   
-    [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - <span></span>  
+    [New-CsNetworkBWAlternatePath](https://technet.microsoft.com/en-us/library/Gg398732(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+<!-- end list -->
 
-  -   
-    [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - <span></span>  
+    [New-CsNetworkBWPolicy](https://technet.microsoft.com/en-us/library/Gg412916(v=OCS.15))
 
-  -   
-    [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+<!-- end list -->
 
-  -   
-    [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - <span></span>  
+    [Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)
+  - <span></span>  
+    [Remove-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
 
-  -   
-    [Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)
+  - <span></span>  
+    [Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
 
-  -   
-    [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)
+<!-- end list -->
 
-  -   
-    [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)
+  - <span></span>  
+    [Get-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg425817(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)
+  - <span></span>  
+    [New-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398779(v=OCS.15))
 
-  -   
-    [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)
+  - <span></span>  
+    [Remove-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398743(v=OCS.15))
 
-  -   
-    [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - <span></span>  
+    [Set-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398410(v=OCS.15))
 
-  -   
-    [New-CsNetworkRegion](new-csnetworkregion.md)
+<!-- end list -->
 
-  -   
-    [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - <span></span>  
+    [Get-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg412769(v=OCS.15))
 
-  -   
-    [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - <span></span>  
+    [New-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398994(v=OCS.15))
 
-  -   
-    [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - <span></span>  
+    [Remove-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398963(v=OCS.15))
 
-  -   
-    [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - <span></span>  
+    [Set-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398772(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+<!-- end list -->
 
-  -   
-    [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - <span></span>  
+    [Get-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398406(v=OCS.15))
 
-  -   
-    [Get-CsNetworkSite](get-csnetworksite.md)
+  - <span></span>  
+    [New-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg425829(v=OCS.15))
 
-  -   
-    [New-CsNetworkSite](new-csnetworksite.md)
+  - <span></span>  
+    [Remove-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398466(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkSite](remove-csnetworksite.md)
+  - <span></span>  
+    [Set-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg413089(v=OCS.15))
 
-  -   
-    [Set-CsNetworkSite](set-csnetworksite.md)
+<!-- end list -->
 
-  -   
-    [Get-CsNetworkSubnet](get-csnetworksubnet.md)
+  - <span></span>  
+    [Get-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398972(v=OCS.15))
 
-  -   
-    [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - <span></span>  
+    [New-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398437(v=OCS.15))
 
-  -   
-    [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)
+  - <span></span>  
+    [Remove-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg413012(v=OCS.15))
 
-  -   
-    [Set-CsNetworkSubnet](set-csnetworksubnet.md)
+  - <span></span>  
+    [Set-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg412867(v=OCS.15))
 
-## 另请参阅
+<!-- end list -->
 
-#### 概念
+  - <span></span>  
+    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
 
-[Lync Server 2013 中的呼叫允许控制概述](lync-server-2013-overview-of-call-admission-control.md)  
+  - <span></span>  
+    [New-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
 
-#### 其他资源
+  - <span></span>  
+    [Remove-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+  - <span></span>  
+    [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412825(v=OCS.15))
+
+  - <span></span>  
+    [New-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg398226(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg425726(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412739(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 中的呼叫许可控制概述](lync-server-2013-overview-of-call-admission-control.md)  
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

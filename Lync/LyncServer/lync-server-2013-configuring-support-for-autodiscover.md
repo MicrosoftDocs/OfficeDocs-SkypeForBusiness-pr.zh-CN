@@ -1,37 +1,77 @@
-﻿---
-title: 为自动发现配置支持
-TOCTitle: 为自动发现配置支持
-ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945622(v=OCS.15)
-ms:contentKeyID: 52061001
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 配置自动发现的支持'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring support for Autodiscover
+ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
+ms:contentKeyID: 51541463
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8eb83156d319db96a4c6ed79768193a24e5cc3e0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837178"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为自动发现配置支持
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置自动发现支持
 
-Lync Server Web 服务**自动发现服务**首先出现在 2011 年 11 月版的 Lync Server 2010 累积更新中。此更新随 Lync Mobile 客户端的初版一起发布。自动发现服务公开了 Mobility Service（称为 Mcx 服务）。
+</div>
 
-自动发现服务充当所有客户端的共同位置，以请求关于哪些服务和功能可用以及如何联系服务（通过完全限定域名或 Web 统一资源定位器引用）的信息。自动发现公开了许多功能，并且每个客户端将基于客户端可以使用的功能来进行请求。例如，桌面 Lync 2013 客户端将使用自动发现来确定外部 Web 服务，但不会使用 Mobility Service (Mcx)。若要正确定义您的客户端并使其能够使用对其可用的功能，应定义允许客户端有效查找并使用自动发现条目的方案。若要使用自动发现，您的部署要求反向代理发布 Lync Server Web 服务、DNS 记录被配置为解析 Lync Server 自动发现服务和 Lync Server Web 服务的 DNS 查询，并且针对您的特定方案正确配置了证书服务。
+<div id="mainSection">
 
-> [!TIP]
-> 有关自动发现请求/响应中元素的用途的技术详细信息，请参阅<a href="lync-server-2013-understanding-autodiscover.md">了解自动发现</a>。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-01-21_
+
+Lync Server web 服务**自动发现服务**首先在 Lync Server 2010 累积更新中显示:11 月2011。 此更新附带了 Lync 移动客户端的初始版本。 自动发现服务公开了移动服务, 称为 Mcx 服务。
+
+自动发现服务用作所有客户端请求提供哪些服务和功能的相关信息的单个位置, 以及如何联系 sevices –通过完全限定的域名或 web 统一资源定位器参考。 自动发现公开了许多功能, 并且每个客户端将基于客户端可以使用的功能发出请求。 例如, 桌面 Lync 2013 客户端将使用 autodiscvoer 确定外部 web 服务, 但不会使用移动 (Mcx) 服务。 若要正确定义和启用客户端以使用它们可用的功能, 则应定义允许客户有效查找和使用自动发现条目的方案。 若要使用 autodoscover, 你的部署要求反向代理发布 Lync Server web 服务、DNS 记录配置为解析 Lync Server 自动发现服务和 Lync Server web 服务的 DNS 查询以及证书服务已针对你的特定方案正确配置。
+
+<div>
 
 
-下列信息和表定义了每个方案中您需要实施哪些配置（如果有）才能充分而高效地使用自动发现服务。下列主题中的信息特定于 Microsoft Lync Server 2013。如果您要查找关于如何规划 Lync Server 2010 的 Mobility 的指南，请参阅 <http://go.microsoft.com/fwlink/?linkid=275113>。若要部署 Lync Server 2010 的 Mobility，请参阅 <http://go.microsoft.com/fwlink/?linkid=275114>
+> [!TIP]  
+> 有关自动发现请求/响应中的元素的技术详细信息, 请参阅<A href="lync-server-2013-understanding-autodiscover.md">了解 Lync Server 2013 中的自动发现</A>。
 
-## 本部分内容
 
-  - [为自动发现配置 DNS](lync-server-2013-configuring-dns-for-autodiscover.md)
 
-  - [为自动发现配置证书](lync-server-2013-configuring-certificates-for-autodiscover.md)
+</div>
 
-  - [为自动发现配置反向代理](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
+以下信息和表根据方案定义需要实现哪些配置 (如果有) 才能提供自动发现服务的完整和有效使用。 以下主题中的信息特定于 Microsoft Lync Server 2013。 如果你正在寻找有关如何规划 Lync Server 2010 的移动的指南, 请参阅[http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)。 若要部署 Lync Server 2010 的移动版, 请参阅[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
 
-  - [为混合部署配置自动发现](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
+<div>
+
+## <a name="in-this-section"></a>本节内容
+
+  - [在 Lync Server 2013 中配置自动发现的 DNS](lync-server-2013-configuring-dns-for-autodiscover.md)
+
+  - [在 Lync Server 2013 中配置自动发现的证书](lync-server-2013-configuring-certificates-for-autodiscover.md)
+
+  - [在 Lync Server 2013 中配置自动发现的反向代理](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
+
+  - [在 Lync Server 2013 中为混合部署配置自动发现](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

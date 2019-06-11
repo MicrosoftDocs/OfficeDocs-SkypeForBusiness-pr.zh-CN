@@ -1,39 +1,83 @@
-﻿---
-title: 在 Lync Server 2013 中添加或删除前端服务器
-TOCTitle: 在 Lync Server 2013 中添加或删除前端服务器
-ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ205153(v=OCS.15)
-ms:contentKeyID: 49313910
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 添加或删除前端服务器'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add or remove a Front End Server
+ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205153(v=OCS.15)
+ms:contentKeyID: 48185050
+ms.date: 01/21/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1fe1e81d3983b89d4f68111179c3adc7409bee2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中添加或删除前端服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-01-21_
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
 
-将前端服务器添加到池，或者从池中删除前端服务器时，您需要重新启动池。为了防止对用户的服务造成任何中断，在添加或删除前端服务器时，请使用以下过程。
+</div>
 
-## 添加或删除前端服务器
+<div id="mainSection">
 
-1.  如果要删除任何前端服务器，请首先停止与这些服务器的新连接。为此，您可以使用以下 cmdlet：
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2016-01-21_
+
+将前端服务器添加到池中或从池中删除前端服务器时, 您需要重新启动池。 若要防止向用户提供任何服务中断, 请在添加或删除前端服务器时使用以下过程。
+
+<div>
+
+
+> [!NOTE]  
+> 如果将新服务器添加到池，请将您的新池服务器更新为与池中的现有服务器相同的累积更新级别。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-add-or-remove-front-end-servers"></a>添加或删除前端服务器
+
+1.  如果您要删除任何前端服务器, 请首先停止与这些服务器的新连接。 为此，您可以使用以下 cmdlet：
     
-        Stop -CsWindowsServices -Graceful
+        Stop-CsWindowsServices -Graceful
 
-2.  当所删除的服务器没有当前会话时，请停止这些服务器上的 Lync Server 服务。
+2.  当要删除的服务器没有当前会话时, 请在这些服务器上停止 Lync Server 服务。
 
-3.  打开拓扑生成器，然后添加或删除所需的服务器。
+3.  打开拓扑生成器, 然后添加或删除必要的服务器。
 
 4.  发布拓扑。
 
-5.  如果池从具有两个前端服务器变为具有两个以上的服务器，或者从两个以上的服务器变为恰好有两个，则需要键入以下 cmdlet：
+5.  如果池已有两个前端服务器的两个前端服务器, 或者从两个以上的服务器到两个服务器, 则需要键入以下 cmdlet:
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    如果池具有三个或更多的服务器，则在键入此 cmdlet 时，其中必须至少有三个服务器正在运行。
+    如果池具有三个或更多个服务器, 则在键入此 cmdlet 时, 至少有三个服务器必须处于运行状态。
 
-6.  重新启动池中的所有前端服务器，一次启动一个。
+6.  重新启动池中的所有前端服务器, 一次一个。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

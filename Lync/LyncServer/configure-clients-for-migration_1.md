@@ -1,35 +1,57 @@
-﻿---
-title: 配置用于迁移的客户端
-TOCTitle: 配置用于迁移的客户端
-ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ688130(v=OCS.15)
-ms:contentKeyID: 49888508
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 配置客户端以进行迁移
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure clients for migration
+ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
+ms:contentKeyID: 49733729
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 399320fd840391b8d0483b3dc45b62c83311d91f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837082"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 配置用于迁移的客户端
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="configure-clients-for-migration"></a>配置客户端以进行迁移
 
-本主题包含在迁移到 Lync Server 2013 之前应采取的推荐客户端部署步骤。这些配置更改应在 Office Communications Server 2007 R2 上进行。在迁移之前必须执行这些步骤，这一点非常重要。有关详细信息，请参阅 [规划 Lync Server 2013 中的客户端和设备](lync-server-2013-planning-for-clients-and-devices.md)。
+</div>
 
-## 在迁移之前配置客户端
+<div id="mainSection">
 
-1.  部署最新的 Office Communications Server 2007 R2 服务器、客户端和设备更新（修补程序）：
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-11-21_
+
+本主题包含在迁移到 Lync Server 2013 之前应执行的推荐的客户端部署步骤。 应在 Office 通信服务器 2007 R2 上进行这些配置更改。 在迁移之前执行这些步骤非常重要。 有关详细信息, 请参阅[在 Lync Server 2013 中规划客户端和设备](lync-server-2013-planning-for-clients-and-devices.md)。
+
+<div>
+
+## <a name="to-configure-clients-prior-to-migration"></a>在迁移之前配置客户端
+
+1.  部署最新的 Office 通信服务器 2007 R2 服务器、客户端和设备更新 (修补程序):
     
-      - [应用 Office Communications Server 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
+      - [应用 Office 通信服务器 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Communicator 2007 R2 的累积更新程序包描述](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [有关 Communicator 2007 R2 的累积更新包的说明](http://go.microsoft.com/fwlink/p/?linkid=335808)
     
       - [获取设备的软件更新](http://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  在 Office Communications Server 2007 R2 上，使用客户端版本筛选以便仅允许安装了最新更新的 Office Communications Server 2007 R2 客户端登录。
+2.  在 Office 通信服务器 2007 R2 上, 使用客户端版本筛选仅允许具有已安装最新更新的 Office 通信服务器 2007 R2 客户端登录。
 
-3.  在 Office Communications Server 2007 R2 上，使用客户端版本筛选来阻止 Lync Server 2013 客户端登录。按照 [http://go.microsoft.com/fwlink/?linkid=202488\&clcid=0x804](http://go.microsoft.com/fwlink/?linkid=202488%26clcid=0x804) 上的“配置客户端版本筛选”中所述的步骤添加下表中列出的版本筛选器。为每个版本筛选器分配“阻止”操作。
+3.  在 Office 通信服务器 2007 R2 上, 使用客户端版本筛选阻止 Lync Server 2013 客户端登录。 按照**配置客户端版本筛选** [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488)中介绍的步骤添加下表中列出的版本筛选器。 对于每个版本筛选器, 分配操作**块**。
     
     
     <table>
@@ -41,7 +63,7 @@ _**上一次修改主题：** 2016-12-08_
     <thead>
     <tr class="header">
     <th>客户端</th>
-    <th>用户代理标头</th>
+    <th>用户代理标题</th>
     <th>版本</th>
     </tr>
     </thead>
@@ -49,18 +71,31 @@ _**上一次修改主题：** 2016-12-08_
     <tr class="odd">
     <td><p>Lync 2013</p></td>
     <td><p>OC</p></td>
-    <td><p>15.*.*.*</p></td>
+    <td><p>15 ...***</p></td>
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
     <td><p>CWA</p></td>
-    <td><p>5.*.*.*</p></td>
+    <td><p>5 ...***</p></td>
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
     <td><p>OCPhone</p></td>
-    <td><p>4.*.*.*</p></td>
+    <td><p>4 ...***</p></td>
     </tr>
     </tbody>
     </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

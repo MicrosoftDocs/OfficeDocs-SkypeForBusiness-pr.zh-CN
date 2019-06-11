@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：配置拨入式会议
-TOCTitle: 配置拨入式会议
-ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398600(v=OCS.15)
-ms:contentKeyID: 49313326
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：配置拨入式会议
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring dial-in conferencing
+ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398600(v=OCS.15)
+ms:contentKeyID: 48184587
+ms.date: 10/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4ca8b82fe77e578f1ac513d00583c42dd56162a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837262"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中配置拨入式会议
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2014-10-03_
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中配置拨入式会议
 
-本节指导您完成 Lync Server 2013 电话拨入式会议的配置过程。
+</div>
 
-## 本部分内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-10-03_
+
+本部分将指导你完成 Lync Server 2013 拨入式会议的配置。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中电话拨入式会议配置的先决条件和权限](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
@@ -25,7 +47,7 @@ _**上一次修改主题：** 2014-10-03_
 
   - [在 Lync Server 2013 中配置电话拨入式会议的拨号计划](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [在 Lync Server 2013 中确保已为拨号计划分配区域](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [确保拨号计划 Lync Server 2013 已分配区域](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
   - [（可选）在 Lync Server 2013 中验证 PIN 策略设置](lync-server-2013-optional-verify-pin-policy-settings.md)
 
@@ -45,11 +67,27 @@ _**上一次修改主题：** 2014-10-03_
 
   - [在 Lync Server 2013 中配置用户帐户设置](lync-server-2013-configure-user-account-settings.md)
 
-  - [（建议）创建会议目录](recommended-create-conference-directories.md)
+  - [(Recommended) Create Conference Directories](recommended-create-conference-directories.md)
 
   - [（可选）在 Lync Server 2013 中欢迎用户参加电话拨入式会议](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
-## 相关部分
+</div>
+
+<div>
+
+## <a name="related-sections"></a>相关部分
 
 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

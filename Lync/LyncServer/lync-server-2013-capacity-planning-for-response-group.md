@@ -1,32 +1,65 @@
-﻿---
-title: Lync Server 2013：响应组的容量规划
-TOCTitle: 响应组的容量规划
-ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412754(v=OCS.15)
-ms:contentKeyID: 49313805
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：响应组的容量规划
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Response Group
+ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
+ms:contentKeyID: 48184951
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837671"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中响应组的容量规划
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的容量规划
 
-下表介绍可用作容量规划要求基础的 响应组用户模型。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-29_
+
+<div id="sectionSection0" class="section">
+
+下表介绍了可用作容量计划要求基础的 "响应组" 用户模型。
+
+<div>
+
 
 > [!NOTE]  
 > 下表中的数值假定所有响应组音频文件使用的是 16 kHz、单声道、16 位的 Wave (.wav) 文件。如果使用其他文件格式（如 Windows Media 音频 (.wma)），则数值可能会有所不同。
 
 
 
+</div>
+
+<div>
+
+
 > [!IMPORTANT]  
 > 请记住，对于灾难恢复容量规划，一对池中的每一个池都应能处理这两个池中的所有响应组的工作负荷。
 
 
-### 响应组用户模型
+
+</div>
+
+### <a name="response-group-user-model"></a>响应组用户模型
 
 <table>
 <colgroup>
@@ -37,14 +70,14 @@ _**上一次修改主题：** 2015-03-09_
 <thead>
 <tr class="header">
 <th>指标</th>
-<th>每个 Enterprise Edition 池 （具有 8 台前端服务器）</th>
+<th>每个企业版池 (具有8个前端服务器)</th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>每秒传入的呼叫数</p></td>
-<td><p>16</p></td>
+<td><p>utf-16</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +93,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="even">
 <td><p>并发的匿名会话数（具有 IM）</p></td>
 <td><p>64</p></td>
-<td><p>8</p></td>
+<td><p>个</p></td>
 </tr>
 <tr class="odd">
 <td><p>活动代理数（正式和非正式）</p></td>
@@ -79,4 +112,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：ConferenceMessageCount 表
-TOCTitle: ConferenceMessageCount 表
-ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398590(v=OCS.15)
-ms:contentKeyID: 49313310
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：ConferenceMessageCount 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceMessageCount table
+ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398590(v=OCS.15)
+ms:contentKeyID: 48184570
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d2994f02bf087ef55edff6b2153e7504f881b03
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837483"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 ConferenceMessageCount 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="conferencemessagecount-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceMessageCount 表
 
-此表中的每条记录分别表示一个 IM 会议中的一个用户，并包括该用户发送的消息数。每个会议由此表中的多条记录表示；每个用户一条记录。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-28_
+
+此表中的每条记录表示一个 IM 会议中的一个用户, 包括该用户发送的消息数。 每个会议都由该表中的多条记录表示;每个用户一条记录。
 
 
 <table>
@@ -37,20 +57,20 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>主、外</p></td>
-<td><p>会议实例的时间。与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会议实例。有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外</p></td>
-<td><p>用于标识会议实例的 ID 号。与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会议实例。有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a>。</p></td>
+<td><p>主、外部</p></td>
+<td><p>标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>从 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>引用的用于用于标识此用户的唯一编号。</p></td>
+<td><p>外表</p></td>
+<td><p>标识此用户的唯一号码, 从<a href="lync-server-2013-users-table.md">Lync Server 2013 的 "用户" 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MessageCount</strong></p></td>
@@ -60,4 +80,15 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
