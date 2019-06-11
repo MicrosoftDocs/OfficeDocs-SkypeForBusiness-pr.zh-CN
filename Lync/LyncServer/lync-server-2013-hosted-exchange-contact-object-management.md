@@ -1,59 +1,107 @@
-﻿---
-title: Lync Server 2013：托管 Exchange 联系人对象管理
-TOCTitle: 托管 Exchange 联系人对象管理
-ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412978(v=OCS.15)
-ms:contentKeyID: 49314672
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：托管 Exchange 联系人对象管理
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Contact object management
+ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)
+ms:contentKeyID: 48185748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c67438745ee7cbb9de0ccfdef1d5d8959bb4679c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的托管 Exchange 联系人对象管理
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-25_
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Lync Server 2013 中的托管 Exchange 联系人对象管理
 
-您需要为交叉部署中的每个自动助理号码和订阅者访问号码配置联系人对象。
+</div>
 
-为了与托管 Exchange UM 集成，ocsumutil.exe 不能用于管理联系人对象，因为它取决于 Active Directory Exchange UM 设置。在交叉部署中， Lync Server 2013 和托管 Exchange UM 安装在单独的林中，彼此之间不存在信任关系。由于安全原因， Lync Server 2013 管理员无法直接访问 Exchange UM Active Directory 设置。因此， Lync Server 2013 还提供了另外一个模型，用于管理 Lync Server 2013 和托管 Exchange UM 服务可访问的 *共享 SIP 地址空间* 中的联系人对象。
+<div id="mainSection">
 
-## 托管的联系人对象工作流
+<div id="mainBody">
 
-以下是托管的 Exchange 租户管理员用于管理联系人对象的常规步骤：
+<span> </span>
 
-1.  Exchange 管理员为 Exchange UM 订阅者访问和自动助理联系人对象请求电话号码。
+_**主题上次修改时间:** 2012-09-25_
 
-2.  Lync Server 2013 管理员为每个电话号码创建一个联系人对象，并将托管的语音邮件策略分配给每个联系人对象。
+您需要为您的跨平台部署中的每个自动助理号码和订户访问号码配置联系人对象。
+
+为了与托管 Exchange UM 集成, ocsumutil 无法用于管理联系人对象, 因为它依赖于 Active Directory Exchange UM 设置。 在跨平台部署中, Lync Server 2013 和托管 Exchange UM 安装在单独的林中, 它们之间不受信任。 出于安全原因, Lync Server 2013 管理员无法直接访问 Exchange UM Active Directory 设置。 因此, Lync Server 2013 提供了一种不同的模型来管理共享 SIP 地址空间中的联系人对象, 该*共享 SIP 地址空间*可同时用于 Lync Server 2013 和托管 Exchange UM 服务。
+
+<div>
+
+## <a name="hosted-contact-object-workflow"></a>托管联系人对象工作流
+
+以下是使用托管的 Exchange 租户管理员管理联系人对象的常规步骤:
+
+1.  Exchange 管理员请求 Exchange UM 订阅者访问和自动助理联系人对象的电话号码。
+
+2.  Lync Server 2013 管理员为每个电话号码创建一个 Contact 对象, 并为每个 Contact 对象分配一个托管语音邮件策略。
 
 3.  Lync Server 2013 管理员向 Exchange 管理员提供电话号码。
 
-4.  Exchange 管理员将电话号码分配给自动助理和订阅者访问的相应 Exchange UM 拨号计划。
+4.  Exchange 管理员将电话号码分配给合适的 Exchange UM 拨号计划, 以便自动助理和订阅者访问。
+
+<div>
+
 
 > [!NOTE]  
-> 由于存在内部部署，因此不需要在联系人对象上配置任何 Lync Server 2013 拨号计划设置。
+> 无需在联系人对象上配置任何 Lync Server 2013 拨号计划设置, 就像本地部署一样。
 
 
 
-## 配置托管的联系人对象
+</div>
+
+</div>
+
+<div>
+
+## <a name="configuring-hosted-contact-objects"></a>配置托管联系人对象
+
+<div>
+
 
 > [!NOTE]  
-> 必须先部署应用于 Lync Server 2013 联系人对象的托管语音邮件策略，然后才能为这些联系人对象启用托管 Exchange UM。策略可以是全局策略、站点级别策略或每用户策略，只要策略适用于要启用的联系人对象。有关详细信息，请参阅 <a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</a>。
+> 在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前, 必须部署适用于它们的托管语音邮件策略。 策略可以是全局、网站级或每用户范围, 只要它适用于要启用的联系人对象。 有关详细信息, 请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
 
 
 
-要在交叉部署中配置托管的自动助理和订阅者访问联系人对象，必须使用以下 cmdlet：
+</div>
 
-  - **New-CsExUmContact** 为托管的 UM 创建新的联系人对象。
+若要在跨平台部署中配置托管的自动助理和订阅者访问联系人对象, 必须使用以下 cmdlet:
 
-  - **Set-CsExUmContact** 为托管 Exchange UM 修改现有的联系人对象。
+  - **New-CsExUmContact**为托管 UM 创建新的联系人对象。
 
-以下示例创建一个自动助理联系人对象：
+  - **Set-CsExUmContact**修改托管 Exchange UM 的现有联系人对象。
+
+以下示例创建自动助理联系人对象:
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-此示例创建一个 SIP 地址为 sip:exumaa1@fabrikam.com 的新 Exchange UM 联系人对象。运行 Lync Server 2013 Registrar 服务的池名称为 RedmondPool.litwareinc.com。将用于存储此信息的 Active Directory 组织单位为 OU=ExUmContacts,DC=litwareinc,DC=com。联系人对象的电话号码为 2065554567。可选参数 -AutoAttendant $True 指定此对象为自动助理联系人对象。将 -AutoAttendant 参数设置为 False（默认值）可指定订阅者访问联系人对象。
+此示例使用 SIP 地址 sip:exumaa1@fabrikam.com 创建新的 Exchange UM 联系人对象。 Lync Server 2013 注册机构服务正在运行的池的名称为 RedmondPool.litwareinc.com。 将存储此信息的 Active Directory 组织单位为 OU = ExUmContacts、DC = litwareinc、DC = com。 联系人对象的电话号码是2065554567。 "可选-自动助理 $True" 参数指定此对象是自动助理联系人对象。 将-自动助理参数设置为 False (默认值) 指定订阅者访问联系人对象。
 
-有关 New-CsExUmContact 和 Set-CsExUmContact cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。
+有关新的 CsExUmContact 和 CsExUmContact cmdlet 的详细信息, 请参阅 Lync Server Management Shell 文档。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

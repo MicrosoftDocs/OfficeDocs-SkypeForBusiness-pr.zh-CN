@@ -1,46 +1,88 @@
-﻿---
-title: Lync Server 2013：导入语音路由测试用例
-TOCTitle: 导入语音路由测试用例
-ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398460(v=OCS.15)
-ms:contentKeyID: 49313065
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：导入语音路由测试用例
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Import voice routing test cases
+ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398460(v=OCS.15)
+ms:contentKeyID: 48184325
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d8b1aba05447904d4515df7ab6137743edb52ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830024"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中导入语音路由测试用例
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-21_
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中导入语音路由测试用例
 
-测试用例为您提供了在您的组织中测试语音路由的方法：将某些内容定义为要拨打的号码以及要使用的拨号计划和语音策略，之后 Lync Server 2013 便可验证，提供的号码在给定的条件下是否能成功路由到 PSTN 网络。
+</div>
 
-可使用 Lync Server 控制面板创建的测试用例一般仅保存在用例最初创建和运行的服务器上。但是，这些测试用例可导出为 XML 文件（使用 .vtest 扩展名），然后在其他服务器上导入。这使您可在位于拓扑中的不同点上的不同计算机上运行相同的测试。
+<div id="mainSection">
 
-## 导入语音路由测试用例
+<div id="mainBody">
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+<span> </span>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+_**主题上次修改时间:** 2013-02-21_
 
-3.  在左侧导航栏中，单击“语音路由”。
+测试用例为你提供了一种测试你的组织中的语音路由的方法: 定义要拨打的号码以及要使用的拨号计划和语音策略等内容, 并且 Lync Server 2013 可以验证所提供的号码是否可以 successfully 将路由到 PSTN 网络。
 
-4.  在“操作”菜单上，单击“导入测试用例”。
+可以使用 Lync Server "控制面板" 创建的测试用例通常仅保存在最初创建和运行该事例的服务器上。 但是, 这些测试用例可以导出为 XML 文件 (扩展名为 vtest), 然后在其他服务器上导入这些测试用例。 这使你能够在位于拓扑中不同点的不同计算机上运行相同的测试。
 
-5.  找到要导入的测试用例文件 (.vtest)，然后单击“打开”。
+<div>
 
-6.  单击“提交”，然后单击“全部提交”。
+## <a name="to-import-a-voice-routing-test-case"></a>导入语音路由测试案例
+
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+
+3.  在左侧导航栏中，单击“语音路由”****。
+
+4.  在 "**操作**" 菜单上, 单击 "**导入测试用例**"。
+
+5.  找到要导入的测试用例文件 (vtest), 然后单击 "**打开**"。
+
+6.  单击“提交”****，然后单击“全部提交”****。
     
+    <div>
+    
+
     > [!NOTE]  
-    > 任何时候导入 .vtest 文件，都必须运行“全部提交”命令才能发布测试用例。有关详细信息，请参阅操作文档中的<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">在 Lync Server 2013 中发布对语音路由配置所做的待处理更改</a>。
+    > 在导入 vtest 文件时, 必须运行 "<STRONG>全部提交</STRONG>" 命令以发布测试用例。 有关详细信息, 请参阅操作文档中的<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中的 "发布待处理的语音路由配置更改"</A> 。
+
     
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
 
 
-## 另请参阅
+[在 Lync Server 2013 中导出语音路由测试用例](lync-server-2013-export-voice-routing-test-cases.md)  
+  
 
-#### 任务
+</div>
 
-[在 Lync Server 2013 中导出语音路由测试用例](lync-server-2013-export-voice-routing-test-cases.md)
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

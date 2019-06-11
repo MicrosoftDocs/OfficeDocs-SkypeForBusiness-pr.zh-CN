@@ -1,21 +1,41 @@
-﻿---
-title: Lync Server 2013：Endpoint 表
-TOCTitle: Endpoint 表
-ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398327(v=OCS.15)
-ms:contentKeyID: 49312823
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：Endpoint 表
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Endpoint table
+ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)
+ms:contentKeyID: 48184098
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6cedf4d85cefd8a9fefb9f0ee4608f4a290fdc09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830214"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 Endpoint 表
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 中的 Endpoint 表
 
-Endpoint 表是一个支持表，用于存储有关参与数据库中所记录会话的终结点的信息。表中的每条记录都代表一个终结点。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-02_
+
+终结点表是一个支持表, 用于存储参与数据库中记录的会话的终结点的相关信息。 表中的每条记录表示一个终结点。
 
 
 <table>
@@ -37,52 +57,63 @@ Endpoint 表是一个支持表，用于存储有关参与数据库中所记录�
 <tr class="odd">
 <td><p><strong>EndpointKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>主</p></td>
+<td><p>Primary</p></td>
 <td><p>标识此终结点的唯一号码。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Name</strong></p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p><strong>名称</strong> - 按 WAN 链路进行筛选（筛选器位于图形右侧）。</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>唯一</p></td>
 <td><p>终结点名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OS</strong></p></td>
-<td><p>nvarchar (128)</p></td>
+<td><p>nvarchar</p></td>
 <td><p> </p></td>
 <td><p>终结点的操作系统 (OS)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUName</strong></p></td>
-<td><p>nvarchar (128)</p></td>
-<td><p></p></td>
+<td><p>nvarchar</p></td>
+<td></td>
 <td><p>终结点的 CPU 名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CPUNumberOfCores</strong></p></td>
 <td><p>smallint</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>终结点的 CPU 内核数。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>终结点的 CPU 处理器速度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VirtualizationFlag</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>指示系统是否在虚拟环境中运行的位标志：</p>
+<td></td>
+<td><p>指示系统是否在虚拟化环境中运行的位标志:</p>
 <ul>
-<li><p>0x0000 – 无</p></li>
-<li><p>0x0001 – HyperV</p></li>
-<li><p>0x0002 – VMWare</p></li>
-<li><p>0x0004 – 虚拟 PC</p></li>
-<li><p>0x0008 – Xen PC</p></li>
+<li><p>0x0000 –无</p></li>
+<li><p>0x0001-HyperV</p></li>
+<li><p>0x0002-VMWare</p></li>
+<li><p>0x0004-虚拟电脑</p></li>
+<li><p>0x0008-Xen 电脑</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

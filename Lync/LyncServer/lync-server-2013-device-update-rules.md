@@ -1,37 +1,71 @@
-﻿---
-title: Lync Server 2013 中的设备更新规则
-TOCTitle: Lync Server 2013 中的设备更新规则
-ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ994062(v=OCS.15)
-ms:contentKeyID: 52061090
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 设备更新规则'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Update rules
+ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994062(v=OCS.15)
+ms:contentKeyID: 51803973
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cce4b0be575665d23b2b09126905fc35791f61ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830423"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的设备更新规则
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-20_
+# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 中的设备更新规则
 
-Microsoft 针对 Lync Phone Edition 定期发布一套新的设备固件更新。*设备更新规则* 将固件更新与硬件设备（电话和运行 Lync Phone Edition 的其他设备）关联。
+</div>
 
-若要获取一套最新的设备更新规则，请转至 Microsoft 网站上的“帮助和支持”页面，搜索“Phone Edition”。下载更新包，将文件解压缩到计算机上要从中上载更新的文件夹中。解压缩文件后，导入在解压缩的 .CAB 文件（名称为 UCUpdates.cab）中包含的设备更新规则。然后，使用 Lync Server 控制面板或 Windows PowerShell cmdlet 查看和管理组织设备的各个规则。
+<div id="mainSection">
 
-下面的主题介绍如何导入、查看和管理设备更新规则。
+<div id="mainBody">
 
-## 本部分内容
+<span> </span>
 
-  - [查看有关设备更新规则的信息](lync-server-2013-view-information-about-device-update-rules.md)
+_**主题上次修改时间:** 2013-02-20_
 
-  - [导入设备更新规则](lync-server-2013-import-device-update-rules.md)
+Microsoft 会定期为 Lync Phone 版本发布一组新的设备固件更新。 *设备更新规则*将固件更新与硬件设备 (电话和其他运行 Lync Phone 版本的设备) 相关联。
 
-  - [批准设备更新规则](lync-server-2013-approve-a-device-update-rule.md)
+若要获取最新的设备更新规则集, 请转到 Microsoft 网站上的 "帮助和支持" 页, 然后搜索 "电话版本"。 下载更新程序包, 并将文件解压缩到要上载更新的计算机上的某个文件夹中。 提取文件后, 导入在解压缩中找到的设备更新规则。CAB 文件 (其名称为 UCUpdates)。 然后, 使用 Lync Server 控制面板或 Windows PowerShell cmdlet 查看和管理组织设备的这些规则。
 
-  - [删除设备更新规则](lync-server-2013-remove-a-device-update-rule.md)
+以下主题将告诉你如何导入、查看和管理设备更新规则。
 
-  - [重置设备更新规则](lync-server-2013-reset-a-device-update-rule.md)
+<div>
 
-  - [还原设备更新规则](lync-server-2013-restore-a-device-update-rule.md)
+## <a name="in-this-section"></a>本节内容
+
+  - [查看有关 Lync Server 2013 中的设备更新规则的信息](lync-server-2013-view-information-about-device-update-rules.md)
+
+  - [在 Lync Server 2013 中导入设备更新规则](lync-server-2013-import-device-update-rules.md)
+
+  - [在 Lync Server 2013 中批准设备更新规则](lync-server-2013-approve-a-device-update-rule.md)
+
+  - [在 Lync Server 2013 中删除设备更新规则](lync-server-2013-remove-a-device-update-rule.md)
+
+  - [重置 Lync Server 2013 中的设备更新规则](lync-server-2013-reset-a-device-update-rule.md)
+
+  - [在 Lync Server 2013 中还原设备更新规则](lync-server-2013-restore-a-device-update-rule.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

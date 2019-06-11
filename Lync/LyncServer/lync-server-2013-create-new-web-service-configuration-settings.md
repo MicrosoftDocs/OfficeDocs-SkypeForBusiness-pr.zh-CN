@@ -1,39 +1,61 @@
-﻿---
-title: 创建新的 Web 服务配置设置
-TOCTitle: 创建新的 Web 服务配置设置
-ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182605(v=OCS.15)
-ms:contentKeyID: 49314731
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建新的 Web 服务配置设置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create new Web Service configuration settings
+ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182605(v=OCS.15)
+ms:contentKeyID: 48185801
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86105e4dbf6b624f87844a68ebe5fca6bba02247
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830824"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 创建新的 Web 服务配置设置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建新的 Web 服务配置设置
 
-可以使用“Web 服务”页配置用于访问与 Lync Server 2013 相关的 Web 服务器和 Web 服务的身份验证方法。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+你可以使用**Web 服务**页面配置用于访问 Lync Server 2013 相关 web 服务器和 web 服务的身份验证方法。
 
 按照以下步骤创建新的 Web 服务策略。
 
-## 创建 Web 服务策略
+<div>
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到网络中部署了 Lync Server 2013 的任何计算机。
+## <a name="to-create-new-web-service-configuration-settings"></a>创建新的 Web 服务配置设置
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-3.  在左侧导航栏中，单击“安全性”，然后单击“Web 服务”。
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-4.  在“Web 服务”页上，单击“新建”，然后执行下列操作之一：
+3.  在左侧导航栏中，单击“安全性”****，然后单击“Web 服务”****。
+
+4.  在“Web 服务”**** 页上，单击“新建”****，然后执行下列操作之一：
     
-      - 要配置站点的 Web 服务，请单击“站点配置”。在“选择站点”中，单击将应用此 Web 服务策略的站点，然后单击“确定”。
+      - 要配置站点的 Web 服务，请单击“站点配置”****。在“选择站点”**** 中，单击将应用此 Web 服务策略的站点，然后单击“确定”****。
     
-      - 要配置池的 Web 服务，请单击“池配置”。在“选择服务”中，单击将应用此 Web 服务策略的服务，然后单击“确定”。
+      - 要配置池的 Web 服务，请单击“池配置”****。在“选择服务”**** 中，单击将应用此 Web 服务策略的服务，然后单击“确定”****。
 
-5.  在“新建 Web 服务设置”的“集成的 Windows 身份验证”中，选择“协商”、“集成的 Windows 身份验证”或“无”。
+5.  在“新建 Web 服务设置”**** 的“集成的 Windows 身份验证”**** 中，选择“协商”****、“集成的 Windows 身份验证”**** 或“无”****。
 
 6.  根据环境中的客户端功能和支持情况，选择下列一项或多项：
     
@@ -43,5 +65,17 @@ _**上一次修改主题：** 2012-11-01_
     
       - **启用证书链下载**，让具有身份验证证书的服务器下载该证书的证书链。
 
-7.  单击“提交”。
+7.  单击“**提交**”。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

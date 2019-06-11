@@ -1,163 +1,249 @@
-﻿---
-title: 基础结构和部署 Cmdlet
-TOCTitle: 基础结构和部署 Cmdlet
-ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398153(v=OCS.15)
-ms:contentKeyID: 49311949
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 基础结构和部署 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Infrastructure and deployment cmdlets
+ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
+ms:contentKeyID: 48183364
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 38d41545c7d128e57919c4a2bc66069e9a27b67c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830011"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 基础结构和部署 Cmdlet
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的基础结构和部署 cmdlet
 
-在产品的初始安装和部署过程中，Microsoft Lync Server 2013 中包含的基础结构和部署 cmdlet 非常有用。部署完 Lync Server 后，这些 cmdlet 可用于执行以下操作：验证组件是否按预期工作，管理复制设置，备份和还原 Lync Server 拓扑、策略和配置设置。
+</div>
 
-## 基础结构和部署 Cmdlet
+<div id="mainSection">
 
-管理员很少需要直接调用多个基础结构和部署。这是因为在运行安装程序或拓扑生成器时会自动调用这些 cmdlet。（一个主要的例外可能是 **Export-CsConfiguration** cmdlet，通过该 cmdlet，您可以创建 Lync Server 拓扑、策略和配置设置的备份副本。）但是，如有必要，还可以从 Lync Server 命令行管理程序或脚本中运行基础结构和部署 cmdlet。通过使用脚本，可以自动完成某些任务。以下是与基础结构和部署直接相关的 cmdlet 列表：
+<div id="mainBody">
 
-**[Active Directory Cmdlet](lync-server-2013-active-directory-cmdlets.md)**
+<span> </span>
 
-  -   
-    [Disable-CsAdDomain](disable-csaddomain.md)
+_**主题上次修改时间:** 2012-10-09_
 
-  -   
-    [Enable-CsAdDomain](enable-csaddomain.md)
+Microsoft Lync Server 2013 中包含的基础结构和部署 cmdlet 在产品的初始设置和部署中可能很有用;部署 Lync 服务器之后, 这些 cmdlet 可用于执行以下操作以验证组件是否按预期工作。管理复制设置;并备份和还原 Lync Server 拓扑、策略和配置设置。
 
-  -   
-    [Get-CsAdDomain](get-csaddomain.md)
+<div>
 
-  -   
-    [Disable-CsAdForest](disable-csadforest.md)
+## <a name="infrastructure-and-deployment-cmdlets"></a>基础结构和部署 Cmdlet
 
-  -   
-    [Enable-CsAdForest](enable-csadforest.md)
+管理员几乎不需要直接调用许多基础结构和部署。 这是因为, 当你运行安装程序或拓扑生成器时, 将自动调用这些 cmdlet。 (一个主要异常可能是**CsConfiguration** cmdlet, 可用于创建 Lync Server 拓扑、策略和配置设置的备份副本。)但是, 如果需要, 也可以从 Lync Server 命令行管理程序或脚本内部运行基础结构和部署 cmdlet;使用脚本可以自动执行某些任务。 以下是与基础结构和部署直接相关的 cmdlet 的列表:
 
-  -   
-    [Get-CsAdForest](get-csadforest.md)
+**[Lync Server 2013 中的 Active Directory cmdlet](lync-server-2013-active-directory-cmdlets.md)**
 
-  -   
-    [Get-CsAdServerSchema](get-csadserverschema.md)
+  - <span></span>  
+    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
 
-  -   
-    [Install-CsAdServerSchema](install-csadserverschema.md)
+  - <span></span>  
+    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
 
-**[复制 Cmdlet](lync-server-2013-replication-cmdlets.md)**
+  - <span></span>  
+    [CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
 
-  -   
-    [Debug-CsInterPoolReplication](debug-csinterpoolreplication.md)
+<!-- end list -->
 
-  -   
-    [Invoke-CsManagementStoreReplication](invoke-csmanagementstorereplication.md)
+  - <span></span>  
+    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
 
-  -   
-    [Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+  - <span></span>  
+    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
 
-  -   
-    [Enable-CsReplica](enable-csreplica.md)
+  - <span></span>  
+    [CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
 
-  -   
-    [Test-CsReplica](test-csreplica.md)
+<!-- end list -->
 
-  -   
-    [Get-CsUserReplicatorConfiguration](get-csuserreplicatorconfiguration.md)
+  - <span></span>  
+    [CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
 
-  -   
-    [New-CsUserReplicatorConfiguration](new-csuserreplicatorconfiguration.md)
+  - <span></span>  
+    [安装-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
 
-  -   
-    [Remove-CsUserReplicatorConfiguration](remove-csuserreplicatorconfiguration.md)
+**[Lync Server 2013 中的复制 cmdlet](lync-server-2013-replication-cmdlets.md)**
 
-  -   
-    [Set-CsUserReplicatorConfiguration](set-csuserreplicatorconfiguration.md)
+  - <span></span>  
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
 
-**[拓扑 Cmdlet](lync-server-2013-topology-cmdlets.md)**
+<!-- end list -->
 
-  -   
-    [Get-CsPool](get-cspool.md)
+  - <span></span>  
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
 
-  -   
-    [Get-CsSite](get-cssite.md)
+<!-- end list -->
 
-  -   
-    [Set-CsSite](set-cssite.md)
+  - <span></span>  
+    [CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
 
-  -   
-    [Enable-CsTopology](enable-cstopology.md)
+<!-- end list -->
 
-  -   
-    [Get-CsTopology](get-cstopology.md)
+  - <span></span>  
+    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
 
-  -   
-    [Publish-CsTopology](publish-cstopology.md)
+  - <span></span>  
+    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
 
-  -   
-    [Test-CsTopology](test-cstopology.md)
+<!-- end list -->
 
-  -   
-    [Export-CsConfiguration](export-csconfiguration.md)
+  - <span></span>  
+    [CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
 
-  -   
-    [Import-CsConfiguration](import-csconfiguration.md)
+  - <span></span>  
+    [新-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
 
-  -   
-    [Get-CsServerVersion](get-csserverversion.md)
+  - <span></span>  
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
 
-  -   
-    [Disable-CsComputer](disable-cscomputer.md)
+  - <span></span>  
+    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
 
-  -   
-    [Enable-CsComputer](enable-cscomputer.md)
+**[Jn Lync Server 2013 的拓扑 cmdlet](lync-server-2013-topology-cmdlets.md)**
 
-  -   
-    [Get-CsComputer](get-cscomputer.md)
+  - <span></span>  
+    [CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
 
-  -   
-    [Test-CsComputer](test-cscomputer.md)
+<!-- end list -->
 
-  -   
-    [Get-CsNetworkInterface](get-csnetworkinterface.md)
+  - <span></span>  
+    [CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
 
-**[备份和高可用性 Cmdlet](lync-server-2013-backup-and-high-availability-cmdlets.md)**
+  - <span></span>  
+    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
 
-  - [Get-CsBackupServiceConfiguration](get-csbackupserviceconfiguration.md)
+<!-- end list -->
 
-  - [Remove-CsBackupServiceConfiguration](remove-csbackupserviceconfiguration.md)
+  - <span></span>  
+    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
 
-  - [Set-CsBackupServiceConfiguration](set-csbackupserviceconfiguration.md)
+  - <span></span>  
+    [CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
 
-  - [Get-CsBackupServiceStatus](get-csbackupservicestatus.md)
+  - <span></span>  
+    [发布-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
 
-  - [Invoke-CsBackupServiceSync](invoke-csbackupservicesync.md)
+  - <span></span>  
+    [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
 
-  - [Debug-CsIntraPoolReplication](debug-csintrapoolreplication.md)
+<!-- end list -->
 
-  - [Backup-CsPool](backup-cspool.md)
+  - <span></span>  
+    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
 
-  - [Get-CsPoolBackupRelationship](get-cspoolbackuprelationship.md)
+  - <span></span>  
+    [Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
 
-  - [Get-CsPoolFabricState](get-cspoolfabricstate.md)
+<!-- end list -->
 
-  - [Invoke-CsPoolFailBack](invoke-cspoolfailback.md)
+  - <span></span>  
+    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
 
-  - [Invoke-CsPoolFailOver](invoke-cspoolfailover.md)
+<!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](get-cspoolupgradereadinessstate.md)
+  - <span></span>  
+    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
 
-  - [Invoke-CsStorageServiceFlush](invoke-csstorageserviceflush.md)
+  - <span></span>  
+    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
 
-  - [Sync-CsUserData](sync-csuserdata.md)
+  - <span></span>  
+    [CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
 
-  - [Remove-CsUserStoreBackupData](remove-csuserstorebackupdata.md)
+  - <span></span>  
+    [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
 
-## 另请参阅
+<!-- end list -->
 
-#### 其他资源
+  - <span></span>  
+    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x804)
+**[Lync Server 2013 中的 "备份" 和 "高可用性" cmdlet](lync-server-2013-backup-and-high-availability-cmdlets.md)**
+
+  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+
+  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+
+  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+
+<!-- end list -->
+
+  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+
+<!-- end list -->
+
+  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+
+<!-- end list -->
+
+  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

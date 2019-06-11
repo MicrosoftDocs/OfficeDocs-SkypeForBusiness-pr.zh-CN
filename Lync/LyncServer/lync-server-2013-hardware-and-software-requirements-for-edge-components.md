@@ -1,38 +1,80 @@
-﻿---
-title: Lync Server 2013：边缘组件的软硬件要求
-TOCTitle: 边缘组件的软硬件要求
-ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412931(v=OCS.15)
-ms:contentKeyID: 49314100
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：边缘组件的软硬件要求
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardware and software requirements for edge components
+ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412931(v=OCS.15)
+ms:contentKeyID: 48185273
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ff89566757d8e184e51854235ab4990a0b2bdeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中边缘组件的软硬件要求
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-03-14_
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中边缘组件的软硬件要求
 
-边缘组件的软硬件要求包括 Lync Server 2013 通信软件组件（包括边缘服务器和可选控制器）的软硬件要求。有关支持外部用户访问所需的组件和支持的拓扑的详细信息，请参阅[Lync Server 2013 中外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。
+</div>
 
-## 边缘服务器和控制器的硬件
+<div id="mainSection">
 
-“可支持性”部分中定义了硬件推荐和要求。对于边缘服务器和可选控制器，以下主题中详细介绍了推荐的硬件配置。对于规划，请参阅[适用于 Lync Server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
+<div id="mainBody">
 
-## 边缘服务器和控制器的软件要求
+<span> </span>
 
-边缘服务器和可选控制器的操作系统要求与其他 Lync Server 2013 角色一致。[Lync Server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)中详细介绍了支持的操作系统。
+_**主题上次修改时间:** 2013-03-14_
 
-[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)中详细介绍了 边缘服务器和可选控制器的其他组件和软件要求。
+Edge 组件的硬件和软件要求包括 Lync Server 2013 通信软件组件的硬件和软件要求, 包括边缘服务器和可选控制器。 有关支持外部用户访问和支持的拓扑所需的组件的详细信息, 请参阅[Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。
 
-## 另请参阅
+<div>
 
-#### 概念
+## <a name="hardware-for-edge-servers-and-directors"></a>适用于 Edge 服务器和控制器的硬件
+
+硬件建议和要求在 "可支持性" 部分中定义。 对于 "边缘服务器" 和 "可选控制器", 以下主题中详细介绍了推荐的硬件配置。 在规划中, 请参阅[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
+
+</div>
+
+<div>
+
+## <a name="software-requirements-for-edge-servers-and-directors"></a>边缘服务器和控制器的软件要求
+
+对 Edge 服务器和可选控制器的操作系统要求与其他 Lync Server 2013 角色保持一致。 [Lync server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)中详细介绍了受支持的操作系统。
+
+[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)中详细介绍了边缘服务器和可选控制器的其他组件和软件要求。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [Lync Server 2013 中外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)  
-[适用于 Lync Server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)  
 [Lync Server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)  
-[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)
+[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

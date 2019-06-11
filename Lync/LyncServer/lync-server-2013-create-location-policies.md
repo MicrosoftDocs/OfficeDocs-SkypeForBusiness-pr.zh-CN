@@ -1,27 +1,47 @@
-﻿---
-title: 在 Lync Server 2013 中创建位置策略
-TOCTitle: 在 Lync Server 2013 中创建位置策略
-ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg413006(v=OCS.15)
-ms:contentKeyID: 49314711
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建位置策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create location policies
+ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
+ms:contentKeyID: 48185794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830851"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建位置策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="create-location-policies-in-lync-server-2013"></a>在 Lync Server 2013 中创建位置策略
 
-在客户端注册过程中，Lync Server 使用位置策略为 Lync 客户端启用 E9-1-1。位置策略包含定义 E9-1-1 实现方式的设置。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-11_
+
+在客户端注册期间, Lync 服务器使用位置策略在 E9-1-1 中启用 Lync 客户端。 位置策略包含定义 E9-1-1 实现方式的设置。
 
 可以编辑全局位置策略，并创建新的带标记的位置策略。客户端所在的子网没有关联位置策略，或没有直接为客户端分配位置策略时，客户端会获取全局策略。向子网或用户分配带标记的策略。
 
 要创建位置策略，必须使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员的帐户，或者具有等效管理员权限的帐户。
 
-有关位置策略的完整说明，请参阅[为 Lync Server 2013 定义位置策略](lync-server-2013-defining-the-location-policy.md)。此过程中的 Cmdlet 使用下列值定义的位置策略：
+有关位置策略的完整说明, 请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 cmdlet 使用使用以下值定义的位置策略:
 
 
 <table>
@@ -45,7 +65,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p><strong>免责声明</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>增强型紧急服务免责声明</p></td>
+<td><p>EnhancedEmergencyServiceDisclaimer</p></td>
 <td><p>您的公司策略要求您设置一个位置。如果不设置位置，紧急情况下，紧急服务将无法找到您。请设置一个位置。</p></td>
 </tr>
 <tr class="even">
@@ -84,7 +104,7 @@ _**上一次修改主题：** 2015-03-09_
 </table>
 
 
-有关使用位置策略的详细信息，请参阅 Lync Server 命令行管理程序 文档中以下 cmdlet 的相关内容：
+有关使用位置策略的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
 
   - New-CsLocationPolicy
 
@@ -94,16 +114,22 @@ _**上一次修改主题：** 2015-03-09_
 
   - Remove-CsLocationPolicy
 
-  - Grant-CsLocationPolicy
+  - 授权-CsLocationPolicy
 
-## 创建位置策略
+<div>
 
-1.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+## <a name="to-create-location-policies"></a>创建位置策略
+
+1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
     
+    <div>
+    
+
     > [!NOTE]  
-    > 如果 PstnUsages 的全局列表中还没有 <strong>PstnUsage</strong> 设置，则 CsLocationPolicy 会失败。
-    
+    > 如果 PstnUsages 的全局列表中还没有 <STRONG>PstnUsage</STRONG> 设置，则 CsLocationPolicy 会失败。
 
+    
+    </div>
 
 2.  也可以选择运行以下 cmdlet 编辑全局位置策略：
     
@@ -116,4 +142,16 @@ _**上一次修改主题：** 2015-03-09_
 4.  运行以下 cmdlet 将步骤 3 中创建的带标记的位置策略应用于用户策略。
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

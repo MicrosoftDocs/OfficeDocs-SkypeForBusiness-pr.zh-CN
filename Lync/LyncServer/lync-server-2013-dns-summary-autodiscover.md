@@ -1,27 +1,53 @@
-﻿---
-title: Lync Server 2013 中的 DNS 摘要 - 自动发现
-TOCTitle: Lync Server 2013 中的 DNS 摘要 - 自动发现
-ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945644(v=OCS.15)
-ms:contentKeyID: 52061099
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: DNS 摘要-自动发现'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Autodiscover
+ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
+ms:contentKeyID: 51541504
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64e303ebecc42f03197f6502296c8a2708e97ebf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 DNS 摘要 - 自动发现
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的自动发现
 
-自动发现是一项灵活的服务，因为该服务允许通过 HTTP 或 HTTPS 进行通信。要实现此目的，必须正确配置承载自动发现服务的服务器所使用的域名系统 (DNS) 和证书。[证书摘要 - 自动发现](lync-server-2013-certificate-summary-autodiscover.md)中介绍了相关证书要求。
+</div>
 
-> [!IMPORTANT]
-> Lync Server 客户端的 DNS 查找逻辑遵循特定的解析顺序。您应该始终在您的 DNS 中包括 lyncdiscoverinternal.&lt;域&gt; 和 lyncdiscover.&lt;域&gt;。排除 lyncdiscoverinternal.&lt;域&gt; 记录将导致内部客户端无法连接到所需服务或接受错误的自动发现响应。
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-13_
+
+自动发现是一种灵活的服务, 它将通过 HTTP 或 HTTPS 接受通信。 若要实现此目的, 必须正确配置托管自动发现服务的服务器所使用的域名系统 (DNS) 和证书。 证书要求在 "[证书摘要-Lync Server 2013 中的自动发现](lync-server-2013-certificate-summary-autodiscover.md)" 中介绍。
+
+<div>
 
 
-### 内部 DNS 记录
+> [!IMPORTANT]  
+> Lync Server 客户端的 DNS 查找逻辑使用特定的解决方案顺序。 你应始终同时包含 lyncdiscoverinternal。&lt;域&gt;和 lyncdiscover。&lt;您&gt;的 DNS 中的域。 不包括 lyncdiscoverinternal。&lt;域&gt;记录将导致内部客户端无法连接到预期服务或接收不正确的自动发现响应。
+
+
+
+</div>
+
+### <a name="internal-dns-records"></a>内部 DNS 记录
 
 <table>
 <colgroup>
@@ -39,21 +65,21 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal.<em>&lt;内部域名&gt;</em></p></td>
-<td><p>控制器池（若有）或前端池（如果您没有控制器）的内部 Web 服务 FQDN。</p></td>
+<td><p>Lyncdiscoverinternal.&lt;内部域名&gt;</p></td>
+<td><p>如果你有控制器池的内部 Web 服务 FQDN, 或者如果你没有 Director, 则为你的前端池。</p></td>
 </tr>
 <tr class="even">
-<td><p>A（主机，如果是 IPv6，则为 AAAA）</p></td>
-<td><p>lyncdiscoverinternal.<em>&lt;内部域名&gt;</em></p></td>
-<td><p>控制器池（若有）或前端池（如果您没有控制器）的内部 Web 服务 IP 地址（如果您使用负载平衡器，则为虚拟 IP (VIP) 地址）。</p></td>
+<td><p>A (主机, 如果是 IPv6, AAAA)</p></td>
+<td><p>lyncdiscoverinternal.&lt;内部域名&gt;</p></td>
+<td><p>如果你有控制器池的内部 Web 服务 IP 地址 (VIP) 地址 (如果你有一个负载平衡器), 或者你的前端池 (如果你没有 Director), 请使用该地址。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-您需要创建下列外部 DNS 记录之一：
+您需要创建下列外部 DNS 记录之一:
 
-### 外部 DNS 记录
+### <a name="external-dns-records"></a>外部 DNS 记录
 
 <table>
 <colgroup>
@@ -71,35 +97,58 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. <em>&lt;sip 域&gt;</em></p></td>
-<td><p>控制器池（若有）或前端池（如果您没有 控制器）的外部 Web 服务 FQDN。</p></td>
+<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
+<td><p>如果你有控制器池的外部 Web 服务 FQDN, 或者如果你没有 Director, 则为你的前端池。</p></td>
 </tr>
 <tr class="even">
-<td><p>A（主机，如果是 IPv6，则为 AAAA）</p></td>
-<td><p>lyncdiscover. <em>&lt;sip 域&gt;</em></p></td>
-<td><p>反向代理的外部或公用 IP 地址。</p></td>
+<td><p>A (主机, 如果是 IPv6, AAAA)</p></td>
+<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
+<td><p>反向代理的外部或公共 IP 地址。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> 外部流量将通过反向代理。
-
+<div>
 
 
 > [!NOTE]  
-> 移动设备客户端不支持来自不同域的多个安全套接字层 (SSL) 证书。因此，不支持通过 HTTPS 对其他域进行 CNAME 重定向。例如，不支持通过 HTTPS 将 lyncdiscover.contoso.com 的 DNS CNAME 记录重定向到 director.contoso.net 地址。在此类拓扑中，移动设备客户端需要对第一个请求使用 HTTP，以便通过 HTTP 解析 CNAME 重定向。之后，后续请求会使用 HTTPS。若要支持此方案，您需要使用针对端口 80 (HTTP) 的 Web 发布规则配置反向代理。有关详细信息，请参阅<a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">在 Lync Server 2013 中配置反向代理以实现移动功能</a>中的“创建针对端口 80 的 Web 发布规则”。支持通过 HTTPS 对同一域进行 CNAME 重定向。在这种情况下，目标域的证书涵盖了原始域。
+> 外部流量通过反向代理。
 
 
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
+
+
+> [!NOTE]  
+> 移动设备客户端不支持来自不同域的多个安全套接字层 (SSL) 证书。 因此, 不支持通过 HTTPS 对不同域进行 CNAME 重定向。 例如, 不支持通过 HTTPS 重定向到 director.contoso.net 地址的 lyncdiscover.contoso.com 的 DNS CNAME 记录。 在此类拓扑中, 移动设备客户端需要对第一个请求使用 HTTP, 以便 CNAME 重定向通过 HTTP 进行解析。 随后的请求将使用 HTTPS。 若要支持此方案, 你需要使用端口 80 (HTTP) 的 web 发布规则配置反向代理。 有关详细信息, 请参阅在<A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 中配置反向代理</A>中的 "为端口80创建 web 发布规则"。 通过 HTTPS 支持到同一域的 CNAME 重定向。 在这种情况下, 目标域的证书覆盖了始发域。
+
+
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
 
 [在 Lync Server 2013 中配置反向代理以实现移动功能](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
-#### 概念
 
-[证书摘要 - 自动发现](lync-server-2013-certificate-summary-autodiscover.md)
+[证书摘要-Lync Server 2013 中的自动发现](lync-server-2013-certificate-summary-autodiscover.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

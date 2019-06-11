@@ -1,23 +1,43 @@
-﻿---
-title: Lync Server 2013：呼叫寄存的部署过程
-TOCTitle: 呼叫寄存的部署过程
-ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398283(v=OCS.15)
-ms:contentKeyID: 49312214
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 呼叫寄存的部署过程'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for Call Park
+ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)
+ms:contentKeyID: 48183586
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bab02c8cfbf0f1ca71aff85c8a71a2bcb20ee3fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830480"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中呼叫寄存的部署过程
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存的部署过程
 
-本节概述 呼叫寄存应用程序部署中涉及的步骤。必须先部署 企业语音的 Enterprise Edition 或 Standard Edition，然后才能配置 呼叫寄存。在部署 企业语音时，将安装并启用 呼叫寄存所需的组件。
+</div>
 
-### 呼叫寄存部署过程
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-25_
+
+本部分概述了部署通话寄存应用程序时所涉及的步骤。 您必须先部署企业版或具有企业语音的标准版, 然后才能配置呼叫寄存。 部署 "企业语音" 时, 将安装并启用 "呼叫寄存" 所需的组件。
+
+### <a name="call-park-deployment-process"></a>呼叫寄存部署过程
 
 <table>
 <colgroup>
@@ -37,7 +57,7 @@ _**上一次修改主题：** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p>在通道表中配置呼叫寄存通道范围</p></td>
-<td><p>使用 Lync Server 控制面板 或 <strong>New-CSCallParkOrbit</strong> cmdlet 在呼叫寄存通道表中创建通道范围，并将其与托管呼叫寄存应用程序的应用程序服务相关联。</p>
+<td><p>使用 Lync Server 控制面板或<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建轨道范围, 并将它们与托管呼叫寄存应用程序的应用程序服务相关联。</p>
 <div>
 
 > [!NOTE]  
@@ -49,11 +69,11 @@ _**上一次修改主题：** 2015-03-09_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">在 Lync Server 2013 中创建或修改呼叫寄存通道范围</a></p></td>
+<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">在 Lync Server 2013 中创建或修改呼叫寄存的轨道范围</a></p></td>
 </tr>
 <tr class="even">
 <td><p>配置呼叫寄存设置</p></td>
-<td><p>使用 <strong>Set-CsCpsConfiguration</strong> cmdlet 配置 呼叫寄存设置。建议至少配置 <strong>OnTimeoutURI</strong> 选项，以便配置在寄存呼叫超时时使用的回退目标。还可以配置以下设置：</p>
+<td><p>使用<strong>CsCpsConfiguration</strong> Cmdlet 配置呼叫寄存设置。 我们建议你将<strong>OnTimeoutURI</strong>选项配置为配置备用目标以在停止通话超时时使用。您还可以配置以下设置:</p>
 <ul>
 <li><p>（可选）配置 <strong>EnableMusicOnHold</strong> 以启用或禁用保持音乐。</p></li>
 <li><p>（可选）配置 <strong>MaxCallPickupAttempts</strong> 以确定将寄存呼叫转接到回退统一资源标识符 (URI) 之前该呼叫回拨应答电话的次数。</p></li>
@@ -72,15 +92,15 @@ _**上一次修改主题：** 2015-03-09_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">在 Lync Server 2013 中自定义保持呼叫寄存音乐</a></p></td>
+<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">在 Lync Server 2013 中自定义呼叫寄存音乐处于暂停状态</a></p></td>
 </tr>
 <tr class="even">
-<td><p>配置语音策略以为用户启用 呼叫寄存</p></td>
-<td><p>使用 Lync Server 控制面板或带有 <strong>EnableCallPark</strong> 选项的 <strong>Set-CSVoicePolicy</strong> cmdlet，在语音策略中为用户启用 呼叫寄存。</p>
+<td><p>配置语音策略以为用户启用呼叫寄存</p></td>
+<td><p>使用 "Lync Server 控制面板" 或<strong>CSVoicePolicy</strong> Cmdlet 和<strong>EnableCallPark</strong>选项为语音策略中的用户启用呼叫寄存。</p>
 <div>
 
 > [!NOTE]  
-> 默认情况下，对所有用户禁用呼叫寄存。
+> 默认情况下, 将对所有用户禁用 "呼叫寄存"。
 
 
 </div>
@@ -107,11 +127,22 @@ _**上一次修改主题：** 2015-03-09_
 <td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">在 Lync Server 2013 中验证呼叫寄存的规范化规则</a></p></td>
 </tr>
 <tr class="even">
-<td><p>验证呼叫寄存部署</p></td>
+<td><p>验证您的电话寄存部署</p></td>
 <td><p>测试寄存和取回呼叫以确保配置按预期工作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">（可选）在 Lync Server 2013 中验证呼叫寄存部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">可选在 Lync Server 2013 中验证呼叫寄存部署</a></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

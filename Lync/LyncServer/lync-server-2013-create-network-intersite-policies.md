@@ -1,45 +1,85 @@
-﻿---
-title: 在 Lync Server 2013 中创建网络站点间策略
-TOCTitle: 在 Lync Server 2013 中创建网络站点间策略
-ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412844(v=OCS.15)
-ms:contentKeyID: 49313940
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 创建网络站点间策略'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network intersite policies
+ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)
+ms:contentKeyID: 48185148
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b6309b27ddedb37c2c38e7d40e74e427f61b904a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建网络站点间策略
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-19_
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>在 Lync Server 2013 中创建网络站点间策略
 
-“网络站点间策略”定义其间具有直接 WAN 链路的站点间的带宽限制。
+</div>
 
-有关详细信息，请参阅 Lync Server 命令行管理程序文档中有关以下 cmdlet 的内容：
+<div id="mainSection">
 
-  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
+<div id="mainBody">
 
-  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+<span> </span>
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+_**主题上次修改时间:** 2012-10-19_
 
-  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+*网络站点间策略*定义具有直接 WAN 链接的站点之间的带宽限制。
 
-> [!IMPORTANT]
-> 仅当两个网络站点之间具有直接交叉链接时，才需要网络站点间策略。
+有关详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+
+  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
+
+  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+
+  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+
+  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+
+<div>
 
 
-在示例拓扑北美区域中，Reno 和 Albuquerque 站点之间具有直接链接。这两个站点需要可应用相应带宽策略配置文件的站点间策略。以下示例将应用 20Mb\_Link 配置文件。
+> [!IMPORTANT]  
+> 只有当两个网络站点之间有直接交叉链接时,<EM>才</EM>需要网络站点间策略。
 
-## 创建网络站点间策略
 
-1.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
 
-2.  运行 New-CsNetworkInterSitePolicy cmdlet 创建网络站点间策略并为两个具有直接交叉链接的站点应用相应的带宽策略配置文件。例如，运行：
+</div>
+
+在示例拓扑北美区域中，Reno 和 Albuquerque 站点之间具有直接链接。 这两个网站需要应用相应带宽策略配置文件的站点间策略。 下面的示例应用 20Mb\_链接配置文件。
+
+<div>
+
+## <a name="to-create-a-network-intersite-policy"></a>创建网络站点间策略
+
+1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+
+2.  运行 CsNetworkInterSitePolicy cmdlet 以创建网络站点间策略, 并为具有直接交叉链接的两个站点应用相应的带宽策略配置文件。 例如，运行：
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  根据需要重复步骤 2，以便为具有直接交叉链接的所有网络站点对创建网络站点间策略。
+3.  根据需要重复步骤 2, 以便为具有直接交叉链接的所有网络站点对创建网络站点间策略。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

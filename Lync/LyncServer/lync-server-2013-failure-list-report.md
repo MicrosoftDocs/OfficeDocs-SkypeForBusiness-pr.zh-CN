@@ -1,25 +1,47 @@
-﻿---
-title: Lync Server 2013：故障列表报告
-TOCTitle: 故障列表报告
-ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg615446(v=OCS.15)
-ms:contentKeyID: 49314023
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: "失败列表" 报表'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failure List Report
+ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
+ms:contentKeyID: 48185194
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 32c1c9c15b1f539aa1a5213989674dfea268a684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830163"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的故障列表报告
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2015-03-09_
+# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 中的 "故障列表" 报表
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-07-02_
 
 故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
 
-## 访问故障列表报告
+<div>
 
-可以通过单击 [Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)上的以下任一指标来访问故障列表报告：
+## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
+
+通过[在 Lync Server 2013 中的 "失败分发报告](lync-server-2013-failure-distribution-report.md)" 上单击以下任一指标可访问 "故障列表" 报告:
 
   - 主要诊断原因（会话）
 
@@ -37,15 +59,19 @@ _**上一次修改主题：** 2015-03-09_
 
   - 主要来源用户代理（会话）
 
-从故障列表报告中，您可以单击对等会话的”会话详细信息“指标，以访问 [Lync Server 2013 中的点对点会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。也可以单击会议的”会议“指标，以访问会议详细信息报告。
+在 "故障列表" 报表中, 通过单击对等会话的会话详细信息指标, 可以[在 Lync Server 2013 中访问对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
 
-## 充分利用故障列表报告
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
 在故障列表报告中，您只需将鼠标置于每个响应代码或每个诊断 ID 上，即可查看它们的说明。例如，如果您将鼠标置于诊断 ID 7025 上，则将会看到在工具提示中显示以下内容：
 
 为用户创建媒体时发生内部服务器错误。
 
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。（首先，故障列表报告没有筛选功能。）但是，如果导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 来查找类似上述问题的解答。例如，假设将数据保存到名为 C:\\Data\\Failure\_List.csv 的 .CSV 文件。根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户：
+务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 (对于一种情况, "失败列表" 报表没有筛选功能。)但是, 如果你导出数据, 然后将其转换为逗号分隔值文件, 则可以使用 Windows PowerShell 查找类似问题的答案。 例如, 假设您将数据保存到。名为 C:\\数据\\故障\_列表 .csv 的 CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户：
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -75,15 +101,23 @@ _**上一次修改主题：** 2015-03-09_
         16    Ken.Myero@litwareinc.com
         14    Henrik.Jensen@litwareinc.com
 
-## 筛选器
+</div>
+
+<div>
+
+## <a name="filters"></a>筛选器
 
 无。您无法筛选故障列表报告。
 
-## 指标
+</div>
+
+<div>
+
+## <a name="metrics"></a>指标
 
 下表列出了各失败呼叫的故障列表报告中提供的信息。
 
-### 故障列表报告指标
+### <a name="failure-list-report-metrics"></a>故障列表报告指标
 
 <table>
 <colgroup>
@@ -95,7 +129,7 @@ _**上一次修改主题：** 2015-03-09_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -120,7 +154,7 @@ _**上一次修改主题：** 2015-03-09_
 <td><p>附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>加入成本时间(毫秒)</strong></p></td>
+<td><p><strong>加入成本时间（毫秒）</strong></p></td>
 <td><p>否</p></td>
 <td><p>用户加入会议所需的时间量（以毫秒为单位）。</p></td>
 </tr>
@@ -141,4 +175,17 @@ _**上一次修改主题：** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

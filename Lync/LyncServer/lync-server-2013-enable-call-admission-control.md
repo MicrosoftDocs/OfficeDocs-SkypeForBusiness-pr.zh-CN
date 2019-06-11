@@ -1,33 +1,55 @@
-﻿---
-title: 启用呼叫允许控制
-TOCTitle: 启用呼叫允许控制
-ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398642(v=OCS.15)
-ms:contentKeyID: 49313399
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 启用呼叫许可控制'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable call admission control
+ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398642(v=OCS.15)
+ms:contentKeyID: 48184650
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 864de6f8ac456ad8a312b5c47af1f19124e7be3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830322"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 启用呼叫允许控制
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-19_
+# <a name="enable-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中启用呼叫许可控制
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-19_
 
 配置完呼叫允许控制部署的网络设置后，必须启用 CAC 来使带宽策略生效。
 
-有关详细信息，请参阅 Lync Server 命令行管理程序文档中有关以下 cmdlet 的内容：
+有关详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
 
-  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
+  - [Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
+  - [Set-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
+  - [Remove-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
 
-## 使用命令行管理程序启用呼叫允许控制
+<div>
 
-1.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+## <a name="to-enable-call-admission-control-by-using-management-shell"></a>使用命令行管理程序启用呼叫许可控制
+
+1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 2.  运行 Set-CsNetworkConfiguration cmdlet 以在网络中启用 CAC。例如，运行：
     
@@ -37,22 +59,42 @@ _**上一次修改主题：** 2012-10-19_
     
         Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
 
-## 使用 Lync Server 控制面板启用呼叫允许控制
+</div>
 
-1.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+<div>
 
-2.  在左侧导航栏中，单击“网络配置”。
+## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板启用 "呼叫许可控制"
 
-3.  单击“全局”导航按钮。
+1.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-4.  单击列表中的“全局”，然后在“编辑”菜单中选择“显示详细信息”。
+2.  在左侧导航栏中，单击“网络配置”****。
 
-5.  在“编辑全局设置”页上，选中“启用呼叫允许控制”复选框。
+3.  单击“全局”**** 导航按钮。
+
+4.  单击列表中的“全局”****，然后在“编辑”**** 菜单中选择“显示详细信息”****。
+
+5.  在“编辑全局设置”**** 页上，选中“启用呼叫允许控制”**** 复选框。
     
+    <div>
+    
+
     > [!NOTE]  
     > 如果要在整个部署中禁用呼叫允许控制，请清除此复选框。
+
     
+    </div>
 
+6.  单击“**提交**”。
 
-6.  单击“提交”。
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

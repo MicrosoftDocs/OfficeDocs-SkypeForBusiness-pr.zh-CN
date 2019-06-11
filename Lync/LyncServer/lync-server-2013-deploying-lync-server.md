@@ -1,23 +1,45 @@
-﻿---
-title: Lync Server 2013：部署 Lync Server
-TOCTitle: 部署 Lync Server 2013
-ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412892(v=OCS.15)
-ms:contentKeyID: 49314021
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：部署 Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013
+ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)
+ms:contentKeyID: 48185197
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce62d2cfa3d98bc982ea2ed2fa19ade6205a62ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830540"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 部署 Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-18_
+# <a name="deploying-lync-server-2013"></a>部署 Lync Server 2013
 
-Lync Server 2013 的部署过程是由决定要安装的 Lync Server 拓扑和组件确定的，包括是否要部署 前端池或 Standard Edition Server。本节中的主题可帮助您确定要部署的环境，并指导您完成部署过程。
+</div>
 
-## 本部分内容
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-18_
+
+Lync Server 2013 的部署过程由你决定要安装的 Lync Server 拓扑和组件决定, 包括你是要部署前端池还是标准版服务器。 本节中的主题帮助你确定要部署的环境, 并指导你完成部署过程。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 部署概述](lync-server-2013-deployment-overview.md)
 
@@ -36,4 +58,16 @@ Lync Server 2013 的部署过程是由决定要安装的 Lync Server 拓扑和�
   - [在 Lync Server 2013 中添加服务器角色](lync-server-2013-adding-server-roles.md)
 
   - [在 Lync Server 2013 中设置 Kerberos 身份验证](lync-server-2013-setting-up-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

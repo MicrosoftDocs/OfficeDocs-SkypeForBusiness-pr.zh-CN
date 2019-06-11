@@ -1,31 +1,65 @@
-﻿---
-title: Lync Server 2013：直接 SIP 连接
-TOCTitle: 直接 SIP 连接
-ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398151(v=OCS.15)
-ms:contentKeyID: 49311941
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 直接 SIP 连接'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Direct SIP connections
+ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398151(v=OCS.15)
+ms:contentKeyID: 48183357
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1decdfd4c755ea1788d088a4b539d8c555987f02
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830397"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的直接 SIP 连接
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-08-13_
+# <a name="direct-sip-connections-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 连接
 
-您可以使用*直接 SIP 连接*将 Lync Server 连接到以下任意一项：
+</div>
 
-  - IP-PBX（有关详细信息，请参阅[Lync Server 2013 中的直接 SIP 部署选项](lync-server-2013-direct-sip-deployment-options.md)）。
+<div id="mainSection">
 
-  - PSTN 网关（有关详细信息，请参阅[Lync Server 2013 中的 PSTN 网关部署选项](lync-server-2013-pstn-gateway-deployment-options.md)）。
+<div id="mainBody">
 
-要实现直接 SIP 连接，必须按照与实现 SIP 中继基本相同的部署步骤进行操作。在两种情况下，都可以使用 中介服务器的外部接口来实现连接。唯一的区别是，应将 SIP 中继连接到外部实体，如 ITSP 网关，而将直接 SIP 连接连接到本地网络中的内部实体，如 IP-PBX 或公用电话交换网 (PSTN) 网关。
+<span> </span>
 
-## 本节内容
+_**主题上次修改时间:** 2012-08-13_
+
+您可以使用*直接 SIP 连接*将 Lync Server 连接到下列任一操作:
+
+  - IP-PBX (有关详细信息, 请参阅[Lync Server 2013 中的直接 SIP 部署选项](lync-server-2013-direct-sip-deployment-options.md))。
+
+  - PSTN 网关 (有关详细信息, 请参阅[Lync Server 2013 中的 PSTN 网关部署选项](lync-server-2013-pstn-gateway-deployment-options.md))。
+
+若要实现直接 SIP 连接, 请遵循与实现 SIP 主干基本相同的部署步骤。 在这两种情况下, 通过使用中介服务器的外部接口实现连接。 唯一的区别是, 你可以将 SIP 中继连接到外部实体 (如 ITSP 网关), 并将直接 SIP 连接连接到本地网络内的内部实体, 如 IP PBX 或公共交换电话网络 (PSTN) 网关。
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
   - [Lync Server 2013 中的直接 SIP 部署选项](lync-server-2013-direct-sip-deployment-options.md)
 
   - [Lync Server 2013 中的 PSTN 网关部署选项](lync-server-2013-pstn-gateway-deployment-options.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

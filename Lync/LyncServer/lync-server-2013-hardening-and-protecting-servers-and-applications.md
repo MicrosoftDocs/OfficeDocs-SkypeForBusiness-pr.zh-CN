@@ -1,38 +1,73 @@
-﻿---
-title: Lync Server 2013：强化和保护服务器和应用程序
-TOCTitle: 强化和保护 Lync Server 2013 的服务器和应用程序
-ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Dn518331(v=OCS.15)
-ms:contentKeyID: 60505967
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：强化和保护服务器和应用程序
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardening and protecting servers and applications for Lync Server 2013
+ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518331(v=OCS.15)
+ms:contentKeyID: 62625491
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 00fea9bd192dedaf16567209798f12c7bff23e6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 强化和保护 Lync Server 2013 的服务器和应用程序
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>强化和保护 Lync Server 2013 的服务器和应用程序
 
-您应根据特定组件的最佳做法强化和保护操作系统及应用程序。本节介绍如何强化应用程序服务器和使用组策略来实现安全锁定。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-12-05_
+
+你应该根据该特定组件的最佳做法来加强和保护你的操作系统和应用程序。 本部分介绍了如何加强应用程序服务器以及如何使用组策略实现安全 lockdowns。
+
+<div>
+
 
 > [!NOTE]  
-> 您还可以强化和保护用于 Microsoft Lync Server 2013 部署的数据库。有关详细信息，请参阅 <a href="lync-server-2013-hardening-and-protecting-databases.md">强化和保护 Lync Server 2013 数据库</a>。
+> 你还可以加强和保护 Microsoft Lync Server 2013 部署所使用的数据库。 有关详细信息, 请参阅<A href="lync-server-2013-hardening-and-protecting-databases.md">强化和保护 Lync Server 2013 的数据库</A>。
 
 
 
-## 保护应用程序服务器
+</div>
 
-对于应用程序服务器，应强化操作系统和应用程序。例如，对于专门用来运行 Microsoft Internet Security and Acceleration (ISA) Server 2006 的 Windows Server 2008 计算机，应从操作系统和应用程序方面进行强化。应将尽量减少服务器提供的正在运行的服务数作为主要目标。
+<div>
 
-## 保护虚拟服务器
+## <a name="securing-application-servers"></a>保护应用程序服务器
 
-虚拟服务器快照包含服务器的数据磁盘的副本，还包含内存中的数据的转储，这两种都可能包含可能导致攻击的敏感加密数据。对于使用虚拟化实现的生产服务器，应禁用所有服务器快照或以受严格控制的方式管理它们。有关保护 Hyper-V 虚拟服务器的详细信息，请参阅以下位置中的“Hyper-V 安全指南”：[http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)。
+对于应用程序服务器, 应加强操作系统和应用程序。 例如, 专用于运行 Microsoft Internet 安全和加速 (ISA) Server 2006 的 Windows Server 2008 计算机应从操作系统和应用程序的角度进行加强。 将服务器运行和提供的服务数量减到最少应该是一个主要目标。
 
-## 组策略
+</div>
 
-在 Windows Server 2008 和 Windows Server 2008 R2 中，组策略提供基于目录的桌面配置管理。通过在组策略对象 (GPO) 中定义以下各项的"计算机和用户"设置，可以使用组策略来实现安全锁定：
+<div>
+
+## <a name="securing-virtual-servers"></a>保护虚拟服务器
+
+虚拟服务器快照包含服务器数据磁盘的副本, 还包含内存中数据的转储, 这两者都可能包含可能导致攻击的敏感加密数据。 对于使用虚拟化实现的生产服务器, 你应该禁用所有服务器快照或以一种非常受控制的方式管理它们。 有关保护 Hyper-v 虚拟服务器的详细信息, 请参阅以下位置的 Hyper-v 安全指南: [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)。
+
+</div>
+
+<div>
+
+## <a name="group-policy"></a>组策略
+
+在 Windows Server 2008 和 Windows Server 2008 R2 中, 组策略提供基于目录的桌面配置管理。 你可以通过在组策略对象 (GPO) 内定义计算机和用户设置来使用组策略来实现安全 lockdowns, 如下所示:
 
   - 基于注册表的策略
 
@@ -40,27 +75,47 @@ _**上一次修改主题：** 2016-12-08_
 
   - 软件安装
 
-  - 脚本
+  - 标
 
   - 文件夹重定向
 
   - 远程安装服务
 
-为了提供用户界面以便管理员能够配置这些设置，操作系统的发行版、Service Pack 版本和一些应用程序（包括 Lync Server 2013）都附带了管理模板。
+若要为管理员提供配置这些设置的用户界面, 管理模板随操作系统版本、service pack 版本和某些应用程序 (包括 Lync Server 2013) 一起提供。
 
-Communicator.adm 文件是 Lync Server 2013 附带的管理模板，安装在 *%windir%*\\inf\\ 目录中，并提供到组策略设置的接口。Communicator.adm 中的每项设置均与注册表中影响应用程序行为的设置对应。
+Communicator 文件是随 Lync Server 2013 提供的管理模板, 它安装在% windir%\\inf\\目录中, 并提供组策略设置的接口。 Communicator .adm 中的每个设置对应于注册表中影响应用程序行为的设置。
 
-利用 Active Directory 用户和计算机控制台以及组策略管理控制台 (GPMC) 中提供的 GPedit.dll，可以访问这些设置。
+可从 "Active Directory 用户和计算机" 控制台和 "组策略管理控制台 (GPMC)" 中访问该设置, 从 Gpedit.msc 访问这些设置。
 
-## 组策略安全设置
+</div>
 
-组策略包含 GPO 的安全设置，当通过 GPedit.dll 访问这些安全设置时，它们位于“计算机配置”/“Windows 设置”/“安全设置”下。可以导入安全模板以配置 GPO 的安全设置。[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 上的 Windows Server 2008 安全指南和 [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) 上的 Windows Server 2008 R2 安全合规性管理工具包包含大量示例模板，您可以修改这些模板以满足您的需求。
+<div>
 
-## 最佳做法
+## <a name="group-policy-security-settings"></a>组策略安全设置
+
+组策略包含从 Gpedit.msc 访问的 "计算机配置/Windows 设置/安全设置" 下的 GPO 的安全设置。 可以导入安全模板来配置 GPO 的安全设置。 Windows Server 2008 安全指南 (位于[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) ) 和 windows Server 2008 R2 安全合规性管理工具包[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)中包含多个示例模板, 可以修改这些模板来满足你的需求。
+
+</div>
+
+<div>
+
+## <a name="best-practices"></a>最佳做法
 
   - 强化所有服务器操作系统和应用程序。
 
-  - 保护服务器快照和增强所有虚拟服务器的安全性。
+  - 保护服务器快照并增强所有虚拟服务器的安全性。
 
-  - 使用组策略实现安全锁定。
+  - 使用组策略实现安全 lockdowns。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

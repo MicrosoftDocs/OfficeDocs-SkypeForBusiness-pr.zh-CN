@@ -1,62 +1,109 @@
-﻿---
-title: Lync Server 2013：为用户启用呼叫寄存
-TOCTitle: 为用户启用呼叫寄存
-ms:assetid: 9430763f-3394-467c-9c6d-426bf761604e
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398753(v=OCS.15)
-ms:contentKeyID: 49313619
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为用户启用呼叫寄存'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Call Park for users
+ms:assetid: 9430763f-3394-467c-9c6d-426bf761604e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398753(v=OCS.15)
+ms:contentKeyID: 48184814
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16538ba00571c429493a2bc0ce1ef14b0a331305
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830325"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中为用户启用呼叫寄存
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-11_
+# <a name="enable-call-park-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用呼叫寄存
 
-用户在语音策略中启用 呼叫寄存后，才能寄存呼叫或取回寄存的呼叫。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-11_
+
+用户不能寄存通话或检索寄存的呼叫, 直到它们在语音策略中被启用呼叫寄存。
+
+<div>
+
 
 > [!NOTE]  
-> 默认情况下，对所有用户禁用 呼叫寄存。
+> 默认情况下, 将对所有用户禁用 "呼叫寄存"。
 
 
 
-可以在全局作用域、站点作用域或用户作用域启用 呼叫寄存。用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。如果有多个语音策略，请检查所有要启用 呼叫寄存的策略，而不只是全局策略。
+</div>
 
-## 使用 Lync Server 控制面板为用户启用 呼叫寄存
+你可以在全局范围内或在网站范围或用户范围内启用呼叫寄存。 用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。 如果你有多个语音策略, 请查看所有策略以启用呼叫寄存, 而不仅仅是全局策略。
 
-1.  以 **RTCUniversalServerAdmins** 组成员或者 **CsVoiceAdministrator** 、 **CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。
+<div>
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+## <a name="to-use-lync-server-control-panel-to-enable-call-park-for-users"></a>使用 Lync Server "控制面板" 为用户启用呼叫寄存
 
-3.  在左侧导航栏中，单击“语音路由”。
+1.  以 **RTCUniversalServerAdmins** 组成员或者 **CsVoiceAdministrator**、**CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。
 
-4.  单击“语音策略”选项卡。
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-5.  双击现有语音策略以打开“编辑语音策略”对话框。
+3.  在左侧导航栏中，单击“语音路由”****。
 
-6.  在“呼叫功能”下，选择“启用呼叫寄存”。
+4.  单击“语音策略”**** 选项卡。
 
-7.  单击“确定”保存语音策略。
+5.  双击现有语音策略以打开“编辑语音策略”**** 对话框。
 
-## 使用 Cmdlet 为用户启用 呼叫寄存
+6.  在“呼叫功能”**** 下，选择“启用呼叫寄存”****。
+
+7.  单击“确定”**** 保存语音策略。
+
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>使用 Cmdlet 为用户启用呼叫寄存
 
 1.  以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 管理角色成员的身份登录计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击“开始”、“所有程序”和“Microsoft Lync Server 2013”，然后单击“Lync Server 命令行管理程序”。
+2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
 
 3.  运行：
     
         Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
     
-    例如，为默认全局语音策略启用 呼叫寄存：
+    例如, 若要为默认全局语音策略启用呼叫寄存, 请执行以下操作:
     
         Set-CsVoicePolicy -EnableCallPark $true
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
+## <a name="see-also"></a>另请参阅
+
+
+[在 Lync Server 2013 中创建语音策略和配置 PSTN 使用记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

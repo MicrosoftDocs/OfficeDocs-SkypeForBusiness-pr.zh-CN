@@ -1,48 +1,95 @@
-﻿---
-title: 删除现有的网络区域
-TOCTitle: 删除现有的网络区域
-ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ721882(v=OCS.15)
-ms:contentKeyID: 49888603
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 删除现有网络区域'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting existing network regions
+ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721882(v=OCS.15)
+ms:contentKeyID: 49733815
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ea9d08121a7d62d10b44f97ff46ff8d4a5ca129e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830583"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 删除现有的网络区域
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-02-21_
+# <a name="deleting-existing-network-regions-in-lync-server-2013"></a>在 Lync Server 2013 中删除现有网络区域
 
-网络区域将跨多个地理区域的网络的各个部分相互连接起来。每个网络区域都必须与中央站点关联。中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。您可以使用 Lync Server 控制面板配置网络区域。网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。在 Lync Server 控制面板中，可以创建、修改或删除网络区域。使用此主题可删除现有网络区域。有关创建或修改现有网络区域的详细信息，请参阅[创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)
+</div>
 
-## 删除网络区域
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-02-21_
+
+网络区域跨多个地理区域互连网络的各个部分。 每个网络区域必须与一个中心网站相关联。 中心网站是运行呼叫许可控制 (CAC) 带宽策略服务的数据中心网站。 可以使用 Lync Server "控制面板" 配置网络区域。 网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。 从 Lync Server 控制面板中, 您可以创建、修改或删除网络区域。 使用本主题删除现有网络区域。 有关创建或修改现有网络区域的详细信息, 请参阅[在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)。
+
+<div>
+
+## <a name="to-delete-a-network-region"></a>删除网络区域
 
 1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中，单击“网络配置”，然后单击“区域”。
+3.  在左侧导航栏中, 单击 "**网络配置**", 然后单击 "**区域**"。
 
-4.  在“区域”页上，单击要删除的区域。
+4.  在 "**区域**" 页面上, 单击要删除的区域。
     
+    <div>
+    
+
     > [!NOTE]  
-    > 可一次性删除多个区域。要执行此操作，请按住 Ctrl 键，同时选择多个区域。或者，要选择全部区域，请单击“编辑”菜单中的“全选”。
+    > 您可以一次删除多个区域。 若要执行此操作, 请在按住 CTRL 键的同时按 CTRL 并选择多个区域。 或者, 若要选择所有区域, 请单击 "<STRONG>编辑</STRONG>" 菜单上的 "<STRONG>全选</STRONG>"。
+
+    
+    </div>
+
+5.  在 "**编辑**" 菜单上, 单击 "**删除**"。
+
+6.  单击“**确定**”。
+    
+    <div>
     
 
+    > [!WARNING]  
+    > 如果网络区域与网络网站相关联, 则无法将其删除。 如果您尝试删除与网站相关联的区域, 您将收到一条错误消息。 若要查看某个区域是否与任何网站相关联, 请选择该区域, 然后单击 "<STRONG>编辑</STRONG>" 菜单上的 "<STRONG>显示详细信息</STRONG>"。
 
-5.  在“编辑”菜单上，单击“删除”。
-
-6.  单击“确定”。
     
-    > [!WARNING]
-    > 如果网络区域与某个网络站点关联，则不能删除该网络区域。如果尝试删除与某个站点关联的区域，您将收到错误消息。要查看区域是否与任何站点关联，请选择相应的区域，然后单击“编辑”菜单中的“显示详细信息”。
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
 
 
-## 另请参阅
+[在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)  
+  
 
-#### 任务
+</div>
 
-[创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

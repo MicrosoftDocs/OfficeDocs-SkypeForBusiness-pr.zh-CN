@@ -1,32 +1,71 @@
-﻿---
-title: Lync Server 2013：创建响应组代理组
-TOCTitle: 创建响应组代理组
-ms:assetid: 2a80de17-ead0-46e8-8a27-7a4e233dbde0
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg520969(v=OCS.15)
-ms:contentKeyID: 49312333
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：创建响应组代理组
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create Response Group agent groups
+ms:assetid: 2a80de17-ead0-46e8-8a27-7a4e233dbde0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520969(v=OCS.15)
+ms:contentKeyID: 48183688
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0d282c4d166702c9b329271d69ef2d59b2f77aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830767"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 在 Lync Server 2013 中创建响应组代理组
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-09-12_
+# <a name="create-response-group-agent-groups-lync-server-2013"></a>在 Lync Server 2013 中创建响应组代理组
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-09-12_
 
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。
 
-必须登录到组和从组注销（与登录到 Lync Server 或从中注销不同）的代理称为 *正式代理* 。正式代理必须登录到组，然后才能接收路由至该组的呼叫。这对于以兼职形式应答组中的呼叫的代理很有用。正式代理通过单击 Lync 2013 中的菜单项打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录到组或从组注销。
+必须登录和注销组的代理 (不同于登录或注销 Lync 服务器的代理) 称为*正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组, 以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
 
-不登录到组或从组注销的代理称为 *非正式代理* 。非正式代理登录到 Lync Server 后，将自动登录到组，但无法从组注销。
+不登录到组或从组注销的代理称为 *非正式代理*。 非正式代理在登录 Lync Server 时自动登录到该组, 并且不能注销该组。
+
+<div>
+
 
 > [!NOTE]  
-> 仅本地用户可成为代理。如果一个代理从本地移至联机，则 响应组呼叫将不会被路由到该代理。
+> 仅本地用户可成为代理。 如果代理从本地移动到联机, 则响应组调用将不会路由到该代理。
 
 
 
-## 本部分内容
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>本节内容
 
 [在 Lync Server 2013 中创建或修改代理组](lync-server-2013-create-or-modify-an-agent-group.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

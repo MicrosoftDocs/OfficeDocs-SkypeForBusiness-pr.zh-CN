@@ -1,31 +1,57 @@
-﻿---
-title: Lync Server 2013：IIS 配置
-TOCTitle: IIS 配置
-ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg412871(v=OCS.15)
-ms:contentKeyID: 49313984
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：IIS 配置
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IIS configuration
+ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
+ms:contentKeyID: 48185169
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830055"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 中的 IIS 配置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 配置
 
-要成功完成此过程，应至少以本地管理员身份和域用户身份登录服务器。
+</div>
 
-为 Lync Server 2013、 标准版 或池中第一台 前端服务器配置和安装 前端服务器之前，必须为 Internet Information Services (IIS) 安装和配置服务器角色和 Web 服务。
+<div id="mainSection">
 
-> [!IMPORTANT]
-> 如果组织需要您将 IIS 和所有 Web 服务定位到非系统驱动器上，您可以在最初安装 Lync Server 2013 管理工具时在“安装”对话框中更改 Lync Server 2013 文件的安装位置路径。安装 IIS 前，需要安装管理工具。如果您将安装文件（包括 OCSCore.msi）安装到此路径，则其余的 Lync Server 2013 文件也将部署到该驱动器。有关详细信息，请参阅<a href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</a>。有关如何在安装 IIS 时重新定位 Windows Server Manager 部署的 INETPUB 的详细信息，请参阅 <a href="http://go.microsoft.com/fwlink/?linkid=216888" class="uri">http://go.microsoft.com/fwlink/?linkid=216888</a>。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2014-02-17_
+
+若要成功完成此过程, 你应作为本地管理员和域用户至少登录到服务器。
+
+为 Lync Server 2013、标准版或池中的第一个前端服务器配置和安装前端服务器之前, 请为 Internet 信息服务 (IIS) 安装和配置服务器角色和 Web 服务。
+
+<div class=" ">
 
 
-下表指出了所需的 IIS 7.5 角色服务。
+> [!IMPORTANT]  
+> 如果你的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务, 你可以在初始安装 Lync Server 2013 时在 "设置" 对话框中更改 Lync Server 2013 文件的安装位置路径管理工具。 在安装 IIS 之前安装 "管理工具"。 如果将安装文件安装到此路径 (包括 OCSCore), 则其他 Lync Server 2013 文件也将同时部署到此驱动器。 有关 dtails, 请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</A>。 有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。
 
-### IIS 7.5 角色服务
+
+
+</div>
+
+下表指示所需的 IIS 7.5 角色服务。
+
+### <a name="iis-75-role-services"></a>IIS 7.5 角色服务
 
 <table>
 <colgroup>
@@ -40,21 +66,21 @@ _**上一次修改主题：** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>已安装的常见 HTTP 功能</p></td>
+<td><p>已安装常见的 HTTP 功能</p></td>
 <td><p>静态内容</p></td>
 </tr>
 <tr class="even">
-<td><p>已安装的常见 HTTP 功能</p></td>
+<td><p>已安装常见的 HTTP 功能</p></td>
 <td><p>默认文档</p></td>
 </tr>
 <tr class="odd">
-<td><p>已安装的常见 HTTP 功能</p></td>
+<td><p>已安装常见的 HTTP 功能</p></td>
 <td><p>HTTP 错误</p></td>
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
 <td><p>ASP.NET</p>
-<p>Windows Server 2012 还需要 ASP.NET4.5</p></td>
+<p>Windows Server 2012 还需要 ASP。 NET 4。5</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
@@ -62,7 +88,7 @@ _**上一次修改主题：** 2016-12-08_
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
-<td><p>Internet Server API (ISAPI) 扩展</p></td>
+<td><p>Internet 服务器 API (ISAPI) 扩展</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
@@ -82,7 +108,7 @@ _**上一次修改主题：** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>安全性</p></td>
-<td><p>匿名身份验证（默认情况下已安装并处于启用状态）</p></td>
+<td><p>匿名身份验证 (默认情况下已安装并启用)</p></td>
 </tr>
 <tr class="even">
 <td><p>安全性</p></td>
@@ -113,27 +139,39 @@ _**上一次修改主题：** 2016-12-08_
 </table>
 
 
-在 Windows Server 2008 R2 SP1 x64 操作系统上，您可以使用 Windows PowerShell 2.0。必须先导入 ServerManager 模块，然后才能安装 IIS 7.5 角色和角色服务。
+在 Windows Server 2008 R2 SP1 x64 操作系统上, 你可以使用 Windows PowerShell 2.0。 必须首先导入 ServerManager 模块, 然后安装 IIS 7.5 角色和角色服务。
 
+   ```
     Import-Module ServerManager
+   ```
 
-   &nbsp;
-
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+   ```
+
+<div class=" ">
+
 
 > [!NOTE]  
-> 默认情况下，匿名身份验证会随 IIS 服务器角色一起安装。安装 IIS 后，您可以管理匿名身份验证。有关详细信息，请参阅“启用匿名身份验证 (IIS 7)”，网址为 <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>。
+> 默认情况下, 使用 IIS 服务器角色安装匿名身份验证。 在安装 IIS 之后, 您可以管理匿名身份验证。 有关详细信息, 请参阅 "启用匿名身份验证 (IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>)"。
 
 
 
-下表指明 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服务。
+</div>
+
+下表指示 Windows Server 2012 和 Windows Server 2012 R2 所需的 IIS 8.0 和 IIS 8.5 角色服务。
+
+<div class=" ">
+
 
 > [!NOTE]  
-> 对于 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature cmdlet 已替换为 Install-WindowsFeature cmdlet。有关详细信息，请参阅 <a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>。
+> 对于 Windows Server 2012 和 Windows Server 2012 R2, add-windowsfeature cmdlet 已替换为 Install cmdlet。 有关详细信息, 请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">安装-add-windowsfeature</A>。
 
 
 
-### IIS 8.0 和 IIS 8.5 角色服务
+</div>
+
+### <a name="iis-80-and-iis-85-role-services"></a>IIS 8.0 和 IIS 8.5 角色服务
 
 <table>
 <colgroup>
@@ -205,19 +243,19 @@ _**上一次修改主题：** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
-<td><p>.Net Extensibility 3.5</p></td>
+<td><p>.Net 扩展性3。5</p></td>
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
-<td><p>.Net Extensibility 4.5</p></td>
+<td><p>.Net 扩展性4。5</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
-<td><p>ASP.Net 3.5</p></td>
+<td><p>ASP.Net 3。5</p></td>
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
-<td><p>ASP.Net 4.5</p></td>
+<td><p>ASP.Net 4。5</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
@@ -244,27 +282,27 @@ _**上一次修改主题：** 2016-12-08_
 <td><p>IIS 管理脚本和工具</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 3.5 Framework 功能</p></td>
+<td><p>.Net 3.5 框架功能</p></td>
 <td><p>.Net 3.5 Framework</p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>.Net Framework 4.5</p></td>
+<td><p>.Net 4.5 框架功能</p></td>
+<td><p>.Net Framework 4。5</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 功能</p></td>
-<td><p>ASP.Net 4.5</p></td>
+<td><p>.Net 4.5 框架功能</p></td>
+<td><p>ASP.Net 4。5</p></td>
 </tr>
 <tr class="even">
-<td><p>.Net 4.5 Framework 功能</p></td>
+<td><p>.Net 4.5 框架功能</p></td>
 <td><p>HTTP 激活</p></td>
 </tr>
 <tr class="odd">
-<td><p>.Net 4.5 Framework 功能</p></td>
+<td><p>.Net 4.5 框架功能</p></td>
 <td><p>TCP 端口共享</p></td>
 </tr>
 <tr class="even">
-<td><p>后台智能传输服务</p></td>
+<td><p>后台智能传送服务</p></td>
 <td><p>IIS 服务器扩展</p></td>
 </tr>
 <tr class="odd">
@@ -292,32 +330,54 @@ _**上一次修改主题：** 2016-12-08_
 <td><p>Windows Identity Foundation 3.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>进程模型</p></td>
+<td><p>Windows 进程激活服务</p></td>
+<td><p>流程模型</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Process Activation Service</p></td>
-<td><p>配置 API</p></td>
+<td><p>Windows 进程激活服务</p></td>
+<td><p>配置 Api</p></td>
 </tr>
 </tbody>
 </table>
 
 
-在 Windows Server 2012 和 Windows Server 2012 R2 中，您可以使用 Windows PowerShell 3.0 安装 IIS 要求。使用 Windows PowerShell 3.0 中的 ServerManager 模块时，请键入：
+在 Windows Server 2012 和 Windows Server 2012 R2 中, 你可以使用 Windows PowerShell 3.0 来安装 IIS 要求。 使用 Windows PowerShell 3.0 中的 ServerManager 模块, 请键入:
 
+   ```
     Import-Module ServerManager
+   ```
 
-   &nbsp;
-
+   ```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+   ```
 
-> [!IMPORTANT]
-> Windows Server 2012 的新增内容是 –Source 参数，该参数用来定义可找到 Windows Server 2012 源媒体的位置。该媒体可以定义为 DVD 驱动器（例如，D:\Sources\Sxs）或已复制媒体文件的网络共享（例如，\\fileserver\windows2012\sources\Sxs）。
+<div class=" ">
 
 
-## 另请参阅
+> [!IMPORTANT]  
+> Windows Server 2012 的新增功能是-Source 参数, 用于定义可在何处找到 Windows Server 2012 源媒体。 媒体可以定义为 DVD 驱动器 (例如, D:\Sources\Sxs), 或者将媒体文件复制到网络共享位置 (例如, \\fileserver\windows2012\sources\Sxs)。
 
-#### 概念
 
-[Lync Server 2013 中前端池和 Standard Edition 服务器的 IIS 要求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另请参阅
+
+
+[Lync Server 2013 中前端池和 Standard Edition 服务器的 IIS 要求](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

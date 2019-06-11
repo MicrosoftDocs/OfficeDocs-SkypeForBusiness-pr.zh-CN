@@ -1,25 +1,45 @@
-﻿---
-title: 为不基于 Windows 的设备启用 QoS
-TOCTitle: 为不基于 Windows 的设备启用 QoS
-ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204750(v=OCS.15)
-ms:contentKeyID: 49312298
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为不基于 Windows 的设备启用 QoS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoS for devices that are not based on Windows
+ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
+ms:contentKeyID: 48183661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d993a6905dfad9f5f2eda10a48553f2ae29b58ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为不基于 Windows 的设备启用 QoS
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>在 Lync Server 2013 中为不基于 Windows 的设备启用 QoS
 
-在您安装 Microsoft Lync Server 2013 时，不会为贵组织中使用除 Windows 之外的操作系统的任何设备启用服务质量 (QoS)。可通过从 Lync Server 2013 命令行管理程序中运行以下命令来验证这一点：
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+安装 Microsoft Lync Server 2013 时, 将不会为你的组织中使用 Windows 之外的操作系统的任何设备启用服务质量 (QoS)。 你可以通过从 Lync Server 2013 命令行管理程序中运行以下命令来验证此情况:
 
     Get-CsMediaConfiguration
 
-假设您尚未对媒体配置设置进行任何更改，您应获得如下返回信息：
+如果你未对媒体配置设置进行任何更改, 你应返回类似以下内容的信息:
 
     Identity                          : Global
     EnableQoS                         : False
@@ -30,30 +50,45 @@ _**上一次修改主题：** 2012-11-01_
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-如果 EnableQoS 属性设置为 False（如前面的输出所示），则意味着没有为使用除 Windows 外的操作系统的计算机和设备启用服务质量。默认情况下为 Lync Phone Edition 设备启用 QoS；但是，可以为 Lync Phone Edition 禁用服务质量。
+如果 EnableQoS 属性设置为 False (如前面的输出所示), 表示没有为使用 Windows 以外的操作系统的计算机和设备启用服务质量。 默认情况下, Lync Phone Edition 设备启用 QoS;但是, 可以禁用 Lync Phone Edition 的服务质量。
 
-若要在全局范围启用服务质量，请从 Lync Server 命令行管理程序中运行以下命令：
+若要在全局范围内启用服务质量, 请从 Lync Server 命令行管理程序中运行以下命令:
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-上面的命令在全局范围启用 QoS；但是，务必要注意媒体配置设置也可应用于站点范围。如果需要为站点启用服务质量，您必须在调用 Set-CsMediaConfiguration 时包括配置设置的标识。例如，此命令为 Redmond 站点启用 QoS：
+前面的命令在全局范围内启用 QoS;但是, 请务必注意, 媒体配置设置也可应用于网站范围。 如果需要为网站启用服务质量, 则必须在调用 CsMediaConfiguration 时包括配置设置的标识。 例如, 此命令为 Redmond 网站启用 QoS:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
+<div>
+
+
 > [!NOTE]  
-> 您是否需要在站点范围启用 QoS？要视情况而定。分配给站点范围的设置的优先于分配给全局范围的设置。假设您在全局范围启用了 QoS 但在站点范围（为 Redmond 站点）禁用了 QoS。在这种情况下，将为 Redmond 站点禁用服务质量；这是因为站点设置的优先级高。要为 Redmond 站点启用 QoS，您必须使用应用于该站点的媒体配置设置执行此操作。
+> 是否需要在网站范围内启用 QoS？ 这取决于。 分配给网站范围的设置优先于分配给全局范围的设置。 假设您已在全局范围内启用了 QoS, 但在网站范围内禁用了该服务 (对于雷德蒙的网站)。在这种情况下, 将为 Redmond 网站禁用服务质量;这是因为网站设置优先。 若要为 Redmond 网站启用 QoS, 您必须使用应用于该网站的媒体配置设置执行此操作。
 
 
 
-如果您要同时为所有媒体配置设置（不管范围为何）启用 QoS，请从 Lync Server 命令行管理程序中运行此命令：
+</div>
+
+如果你希望同时为所有媒体配置设置启用 QoS (无论范围如何), 请在 Lync Server Management Shell 中运行以下命令:
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-可以为使用除 Windows 之外的操作系统的设备禁用 QoS，方法是将 EnableQoS 属性的值设置为 False。例如：
+你可以通过将 EnableQoS 属性的值设置为 False 来禁用使用 Windows 以外操作系统的设备的 QoS。 例如：
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 
-这样，您就可以对您的网络的某些部分（例如对 Redmond 站点）实现 QoS，同时对您的网络的其他部分禁用服务质量。
+这使你能够在你的网络的某些部分 (例如, 在雷德蒙的网站上) 实现 QoS, 同时保留在网络的其他部分禁用的服务质量。
 
-只能使用 Lync Server 命令行管理程序启用和禁用 QoS。这些选项在 Lync Server 控制面板中不可用。
+QoS 只能使用 Windows PowerShell 启用和禁用这些选项在 Lync Server 控制面板中不可用。
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

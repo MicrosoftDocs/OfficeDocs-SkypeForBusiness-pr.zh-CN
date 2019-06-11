@@ -1,23 +1,57 @@
-﻿---
-title: Lync 2013 的组策略设置
-TOCTitle: Lync 2013 的组策略设置
-ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ204924(v=OCS.15)
-ms:contentKeyID: 49312923
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lync 2013 的组策略设置'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group Policy settings for Lync 2013
+ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
+ms:contentKeyID: 48184235
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e075af74fd081e49daad0768a33c9769e8a633bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830108"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync 2013 的组策略设置
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 的组策略设置
 
-在以前版本的 Lync 和 Office Communicator 中，独立的 Communicator.adm 管理模板可用于配置客户端组策略设置。对于 Lync 2013，新的管理模板文件（.admx 和 .adml 文件）与 Office 组策略管理模板包含在一起。如果 Lync 2013 .admx 和 .adml 文件可用，您便可以下载模板和集中管理所有 Office 程序和语言包的组策略设置。有关详细信息，请参阅 Office 2013 文档中的“Office 2013 管理模板文件（ADMX、ADML）”，网址为 [http://go.microsoft.com/fwlink/?linkid=267516\&clcid=0x804](http://go.microsoft.com/fwlink/?linkid=267516%26clcid=0x804)。
+</div>
 
-## 客户端引导策略
+<div id="mainSection">
 
-在用户首次登录到服务器之前，应该配置几个客户端引导策略。由于这些策略在客户端登录并开始接收带内设置前生效，因此您可以使用组策略配置它们。有关详细信息，请参阅部署文档中的[在 Lync Server 2013 中配置客户端引导策略](lync-server-2013-configuring-client-bootstrapping-policies.md)。
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-10-03_
+
+在早期版本的 Lync 和 Office Communicator 中, 有一个独立的 Communicator 管理模板可用于配置客户端组策略设置。 对于 Lync 2013, 新的管理模板文件 (admx 和 adml 文件) 与 Office 组策略管理模板一起附带。 Lync 2013 admx 和 adml 文件的可用性使你可以下载模板并集中管理所有 Office 程序和语言包的组策略设置。 有关详细信息, 请参阅 Office 2013 文档中的 "Office 2013 管理模板文件 (ADMX、ADML) <http://go.microsoft.com/fwlink/p/?linkid=267516>"。
+
+<div>
+
+## <a name="client-bootstrapping-policies"></a>客户端引导策略
+
+在用户首次登录到服务器之前, 应先配置几个客户端引导策略。 由于这些策略在客户端登录并开始从服务器接收带内预配设置后生效, 因此你可以使用组策略来配置它们。 有关详细信息, 请参阅部署文档中[Lync Server 2013 中的 "配置客户端引导策略](lync-server-2013-configuring-client-bootstrapping-policies.md)"。
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

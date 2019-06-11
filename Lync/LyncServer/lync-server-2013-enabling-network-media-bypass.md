@@ -1,63 +1,99 @@
-﻿---
-title: 启用网络媒体绕过
-TOCTitle: 启用网络媒体绕过
-ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg182552(v=OCS.15)
-ms:contentKeyID: 49313646
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 启用网络媒体旁路'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling network media bypass
+ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182552(v=OCS.15)
+ms:contentKeyID: 48184846
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ff18c69d6d257a520d2413bff266c97879d4963e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830256"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 启用网络媒体绕过
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-11-01_
+# <a name="enabling-network-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中启用网络媒体旁路
 
-媒体旁路设置会全局应用到整个 Microsoft Lync Server 2013 部署。媒体旁路功能允许呼叫绕过中介服务器。有关何时使用媒体旁路的详细信息，请参阅规划一节中的[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)。
+</div>
 
-可以通过 Lync Server 控制面板启用和配置媒体旁路。
+<div id="mainSection">
 
-## 启用和配置媒体旁路
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2012-11-01_
+
+媒体绕过设置在 Microsoft Lync Server 2013 部署中全局应用。 媒体绕过允许呼叫绕过中介服务器。 有关何时使用 "媒体绕过" 的详细信息, 请参阅 "规划" 部分中的 "[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)"。
+
+你可以从 Lync Server 控制面板启用和配置 "绕过媒体"。
+
+<div>
+
+## <a name="to-enable-and-configure-media-bypass"></a>启用和配置绕过媒体
 
 1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Lync Server 控制面板。有关可以用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[打开 Lync Server 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中，单击“网络配置”，然后单击“全局”。
+3.  在左侧导航栏中, 单击 "**网络配置**", 然后单击 "**全局**"。
 
-4.  在“全局”页上，单击“全局”配置。始终只有一个配置，且始终命名为“全局”。
+4.  在 "**全局**" 页面上, 单击 "**全局**配置"。 始终只有一种配置, 它始终名为 Global。
 
-5.  在“编辑”菜单上，单击“查看详细信息”。
+5.  在 "**编辑**" 菜单上, 单击 "**查看详细信息**"。
 
-6.  在“编辑全局设置”页上，单击“启用媒体旁路”复选框。
+6.  在 "**编辑全局设置**" 页面上, 单击 "**启用绕过媒体**" 复选框。
 
-7.  选择下列选项之一：
+7.  选择下列选项之一:
     
-      - **始终绕过** 选择此选项可对所有呼叫尝试媒体旁路。如果启用呼叫允许控制 (CAC)，则此选项将不可用。如果未启用 CAC，则在出现下列情况时选择此选项：
+      - **"始终绕过**   " 选择此选项可在所有呼叫中尝试媒体绕过。 如果启用了 "呼叫许可控制 (CAC)", 此选项将不可用。 如果未启用 CAC, 请在以下情况下选择此选项:
         
-          - 不需要带宽控制。
+          - 无需带宽控制。
         
-          - 不需要精确的配置以确定何时发生旁路。
+          - 不需要精确的配置来确定何时应发生绕过。
         
-          - 网关与客户端之间有完全连接。
+          - 网关和客户端之间存在完全连接。
     
-      - **使用站点和区域配置** 如果已启用 CAC，则默认情况下选择此选项，且无法更改。如果选择了此选项，则将使用网络配置站点和区域来确定何时可能发生媒体旁路。如果选择此选项，则可以选择为尚未映射的站点启用绕过。仅在具有一个或多个与没有带宽限制的同一区域关联的大型站点（例如大型中央站点），并且具有一些与有带宽限制的同一区域关联的分支站点时，单击“为非映射站点启用旁路”复选框。为未映射的站点启用绕过时可以简化配置，这是因为只需指定与分支站点关联的子网，而无需指定与所有站点关联的所有子网。如果启用了 CAC，则建议您不要选中“为非映射站点启用旁路”复选框。
+      - **使用网站和区域配置**   如果启用了 CAC, 则默认情况下此选项处于选中状态, 并且不能更改。 选中此选项时, 将使用网络配置网站和区域确定何时可能使用媒体绕过。 如果选择此选项, 则可以选择对未映射的网站启用 "绕过"。 仅当您有一个或多个大型网站与不具有带宽约束的同一区域 (例如, 大型中央网站) 相关联, 并且您还具有与之关联的一些分支网站时, 单击 "**为非映射网站启用旁路**" 复选框。具有带宽限制的同一区域。 为非映射网站启用 "绕过" 时, 将简化配置, 因为你只需指定与分支网站相关联的子网, 而无需指定与所有网站相关联的所有子网。 如果启用了 CAC, 我们建议您不要选中 "为**未映射的网站启用旁路**" 复选框。
 
-8.  单击“提交”保存所做的更改。
+8.  单击 "**提交**" 保存所做的更改。
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[禁用网络媒体旁路](lync-server-2013-disabling-network-media-bypass.md)  
+## <a name="see-also"></a>另请参阅
 
-#### 概念
 
-[全局媒体绕过选项](lync-server-2013-global-media-bypass-options.md)  
+[在 Lync Server 2013 中禁用网络媒体旁路](lync-server-2013-disabling-network-media-bypass.md)  
 
-#### 其他资源
 
-[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)
+[Lync Server 2013 中的全局媒体绕过选项](lync-server-2013-global-media-bypass-options.md)  
+
+
+[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
