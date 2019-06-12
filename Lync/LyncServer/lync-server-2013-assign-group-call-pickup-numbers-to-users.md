@@ -1,43 +1,86 @@
-﻿---
-title: 向用户分配组内呼叫应答号码
-TOCTitle: 向用户分配组内呼叫应答号码
-ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945647(v=OCS.15)
-ms:contentKeyID: 52061124
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为用户分配组呼叫装货号码'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign Group Call Pickup numbers to users
+ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
+ms:contentKeyID: 51541508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845941"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 向用户分配组内呼叫应答号码
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-01-30_
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="3217b-102">向 Lync Server 2013 中的用户分配组呼叫的装货号码</span><span class="sxs-lookup"><span data-stu-id="3217b-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
 
-将组内呼叫应答组号码添加到呼叫寄存轨道表后，可以向用户分配这些组。可使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具向用户分配呼叫应答组。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="3217b-103">_**主题上次修改时间:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="3217b-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+
+<span data-ttu-id="3217b-104">将组呼叫挑选组号码添加到 "呼叫公园轨道" 表后, 您可以将组分配给用户。</span><span class="sxs-lookup"><span data-stu-id="3217b-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="3217b-105">使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具向用户分配呼叫装货组。</span><span class="sxs-lookup"><span data-stu-id="3217b-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 在混合部署中，不要向在线驻留的用户分配组内呼叫应答组。在线驻留的用户无法参与组内呼叫应答。也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+> <span data-ttu-id="3217b-106">在混合部署中, 不要向处于联机状态的用户分配组呼叫装货组。</span><span class="sxs-lookup"><span data-stu-id="3217b-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="3217b-107">处于联机状态的用户不能参与组呼叫装货。</span><span class="sxs-lookup"><span data-stu-id="3217b-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="3217b-108">也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。</span><span class="sxs-lookup"><span data-stu-id="3217b-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
 
 
-## 向用户分配组内呼叫应答组
+</div>
 
-1.  使用管理员权限登录安装了 SEFAUtil 工具的计算机。
+<div>
 
-2.  在该命令行处，运行：
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="3217b-109">将组呼叫装货组分配给用户</span><span class="sxs-lookup"><span data-stu-id="3217b-109">To assign a Group Call Pickup group to a user</span></span>
+
+1.  <span data-ttu-id="3217b-110">使用管理员权限登录安装了 SEFAUtil 工具的计算机。</span><span class="sxs-lookup"><span data-stu-id="3217b-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+
+2.  <span data-ttu-id="3217b-111">在该命令行处，运行：</span><span class="sxs-lookup"><span data-stu-id="3217b-111">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    例如：
+    <span data-ttu-id="3217b-112">例如：</span><span class="sxs-lookup"><span data-stu-id="3217b-112">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[为用户启用组内呼叫应答](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[为用户禁用组内呼叫应答](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a><span data-ttu-id="3217b-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3217b-113">See Also</span></span>
+
+
+[<span data-ttu-id="3217b-114">在 Lync Server 2013 中为用户启用组呼叫装货</span><span class="sxs-lookup"><span data-stu-id="3217b-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="3217b-115">在 Lync Server 2013 中禁用用户的组呼叫装货</span><span class="sxs-lookup"><span data-stu-id="3217b-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

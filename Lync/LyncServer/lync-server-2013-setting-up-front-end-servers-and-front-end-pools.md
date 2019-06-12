@@ -1,38 +1,77 @@
-﻿---
-title: Lync Server 2013：设置前端服务器和前端池
-TOCTitle: 设置前端服务器和前端池
-ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398827(v=OCS.15)
-ms:contentKeyID: 49314216
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：设置前端服务器和前端池
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Front End Servers and Front End pools
+ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
+ms:contentKeyID: 48185381
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab21e5933623af58834d3b9effa5ba1e2beecc43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845918"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为 Lync Server 2013 设置前端服务器和前端池
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2012-10-01_
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a><span data-ttu-id="5dff5-102">为 Lync Server 2013 设置前端服务器和前端池</span><span class="sxs-lookup"><span data-stu-id="5dff5-102">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>
 
-本节指导您完成安装 Lync Server 2013 以及为 Standard Edition Server 和 前端池设置服务器角色的过程，其中包括 前端服务器和与 前端服务器并置的所有服务器角色。要安装和设置服务器角色，请在每台要安装服务器角色的计算机上运行 Lync Server 部署向导。使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装 前端服务器、配置证书和启动服务。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="5dff5-103">_**主题上次修改时间:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5dff5-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="5dff5-104">本部分将指导你安装 Lync Server 2013 并为标准版服务器和前端池设置服务器角色, 包括前端服务器和与前端服务器 collocated 的任何服务器角色。</span><span class="sxs-lookup"><span data-stu-id="5dff5-104">This section guides you through installing Lync Server 2013 and setting up the server roles for the Standard Edition server and the Front End pool, including the Front End Servers and any server roles that are collocated with the Front End Servers.</span></span> <span data-ttu-id="5dff5-105">若要安装和设置服务器角色, 请在要安装服务器角色的每台计算机上运行 Lync Server 部署向导。</span><span class="sxs-lookup"><span data-stu-id="5dff5-105">To install and set up server roles, you run the Lync Server Deployment Wizard on each computer on which you are installing a server role.</span></span> <span data-ttu-id="5dff5-106">使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。</span><span class="sxs-lookup"><span data-stu-id="5dff5-106">You use the Deployment Wizard to complete all four deployment steps, including installing the Local Configuration store, installing the Front End Servers, configuring certificates, and starting services.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 必须先成功发布拓扑，然后才能安装服务器角色。有关发布拓扑的详细信息，请参阅 <a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成和实施拓扑设计</a>。
+> <span data-ttu-id="5dff5-107">必须已成功发布拓扑, 您才能设置服务器角色。</span><span class="sxs-lookup"><span data-stu-id="5dff5-107">Before you can set up server roles, you must have successfully published a topology.</span></span> <span data-ttu-id="5dff5-108">有关发布拓扑的详细信息, 请参阅<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成和实施拓扑设计</A>。</span><span class="sxs-lookup"><span data-stu-id="5dff5-108">For details about publishing a topology, see <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizing and implementing the topology design in Lync Server 2013</A>.</span></span>
 
 
 
-## 本部分内容
+</div>
 
-  - [在 Lync Server 2013 中安装本地配置存储](lync-server-2013-install-the-local-configuration-store.md)
+<div>
 
-  - [安装适用于 Lync Server 2013 的服务器组件](lync-server-2013-install-lync-server-server-components.md)
+## <a name="in-this-section"></a><span data-ttu-id="5dff5-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="5dff5-109">In This Section</span></span>
 
-  - [在 Lync Server 2013 中为服务器配置证书](lync-server-2013-configure-certificates-for-servers.md)
+  - [<span data-ttu-id="5dff5-110">在 Lync Server 2013 中安装本地配置存储</span><span class="sxs-lookup"><span data-stu-id="5dff5-110">Install the Local Configuration store in Lync Server 2013</span></span>](lync-server-2013-install-the-local-configuration-store.md)
 
-  - [为 Lync Server 2013 启动服务器上的服务](lync-server-2013-start-services-on-servers.md)
+  - [<span data-ttu-id="5dff5-111">安装适用于 Lync Server 2013 的服务器组件</span><span class="sxs-lookup"><span data-stu-id="5dff5-111">Install server components for Lync Server 2013</span></span>](lync-server-2013-install-lync-server-server-components.md)
 
-  - [在 Lync Server 2013 中测试池部署](lync-server-2013-test-the-pool-deployment.md)
+  - [<span data-ttu-id="5dff5-112">在 Lync Server 2013 中为服务器配置证书</span><span class="sxs-lookup"><span data-stu-id="5dff5-112">Configure certificates for servers in Lync Server 2013</span></span>](lync-server-2013-configure-certificates-for-servers.md)
 
-  - [在 Lync Server 2013 中测试 Standard Edition 服务器](lync-server-2013-test-the-standard-edition-server.md)
+  - [<span data-ttu-id="5dff5-113">为 Lync Server 2013 启动服务器上的服务</span><span class="sxs-lookup"><span data-stu-id="5dff5-113">Start services on servers for Lync Server 2013</span></span>](lync-server-2013-start-services-on-servers.md)
+
+  - [<span data-ttu-id="5dff5-114">在 Lync Server 2013 中测试池部署</span><span class="sxs-lookup"><span data-stu-id="5dff5-114">Test the pool deployment in Lync Server 2013</span></span>](lync-server-2013-test-the-pool-deployment.md)
+
+  - [<span data-ttu-id="5dff5-115">在 Lync Server 2013 中测试 Standard Edition 服务器</span><span class="sxs-lookup"><span data-stu-id="5dff5-115">Test the Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-test-the-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

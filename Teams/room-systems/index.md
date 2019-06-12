@@ -25,7 +25,7 @@ ms.locfileid: "34433340"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>将会议空间从小型 huddle 区域转换为大型的会议室, 使用丰富的协作团队体验 that& # 39; s 易于使用、部署和管理。 </p>
+                        <p>将会议空间从小型 huddle 区域转换为大型的会议室, 使用丰富、协作的团队体验&#39;的简单使用、部署和管理。 </p>
                         <p>通过一次触摸的联接随时开始会议, 然后立即将其投影到聊天室中的显示, 并与远程参与者共享。 </p>
                         <p>从我们的一个合作伙伴中选择合适的系统和音频视频外设: Yealink、Logitech、Crestron、Polycom、联想和 HP。</p>
                         <p></p>
