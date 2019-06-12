@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219776"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857395"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -50,7 +50,7 @@ ms.locfileid: "32219776"
 <a name="debug-logs"></a>调试日志
 ---------------------------
 
-这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志所产生的 Windows 和 Mac 的桌面客户端以及基于浏览器客户端。 日志是基于文本的，可以自下而上读取。 可以使用任何基于文本的编辑器读取这些日志，登录客户端时会创建新日志。
+这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成调试日志。 日志是基于文本的，可以自下而上读取。 可以使用任何基于文本的编辑器读取这些日志，登录客户端时会创建新日志。
 
 调试日志显示以下数据流：
 
@@ -86,8 +86,12 @@ ms.locfileid: "32219776"
 
 |客户端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*博客         |
+|            |%appdata%\Microsoft\Teams\skylib\*博客
+|            |%appdata%\Microsoft\Teams\media-stack\*         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/application support 支持/Microsoft/团队/skylib\*         |
+
 
 
 <a name="desktop-logs"></a>桌面日志

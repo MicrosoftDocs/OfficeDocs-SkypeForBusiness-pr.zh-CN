@@ -82,7 +82,7 @@ ms.locfileid: "34432933"
 | 起 | 键结果 | 待办事项 |
 |---|---|---|
 | 在[仅协作模式下](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), 在 Skype for Business 与 Skype for business 一起的试点团队 | FY18Q2: 500-已执行和完成用户试点 | <ul><li>确定试点用户</li><li>创建试点测试计划</li><li>在团队中启用试验用户</li><li>实施试验</li><li>执行试点反馈调查</li><li>衡量试点成功</li></ul> |
-| 为组织中的所有用户和 Skype for Business 成功运行协作模式 | <ul><li>60% 的 Skype for business 用户在推出30天内使用团队</li><li>用户对团队的满意度是 & # 8805; 80%</li></ul> | <ul><li>设计和执行广泛的通信和培训计划</li><li>为仅协作模式的团队启用所有用户</li><li>每月跟踪使用情况</li><li>收集用户反馈</li><li>监视网络运行状况/质量</li><li>根据需要减少</li></ul> |
+| 为组织中的所有用户和 Skype for Business 成功运行协作模式 | <ul><li>60% 的 Skype for business 用户在推出30天内使用团队</li><li>团队的用户满意度 &#8805;80%</li></ul> | <ul><li>设计和执行广泛的通信和培训计划</li><li>为仅协作模式的团队启用所有用户</li><li>每月跟踪使用情况</li><li>收集用户反馈</li><li>监视网络运行状况/质量</li><li>根据需要减少</li></ul> |
 
 | 类型 | 关键成功指示器 | 衡量方式 | 成功标准 | 衡量时间 |
 |---|---|---|---|---|

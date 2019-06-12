@@ -33,7 +33,7 @@ ms.locfileid: "34277431"
   
 **Skype for Business 和 Microsoft Office 兼容性**
 
-|**功能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015 和 2016**|**Office 2016 For Mac** & # x2776; |
+|**功能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015 和 2016**|**Office 2016 For Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook 功能** ||||
 |自定义 Outlook 会议邀请（添加徽标、帮助 URL、免责声明、页脚文本）  |否  |是   |是|

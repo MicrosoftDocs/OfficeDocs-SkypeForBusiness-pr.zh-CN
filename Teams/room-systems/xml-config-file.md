@@ -73,40 +73,40 @@ ms.locfileid: "34305330"
 |元素|类型|等级|用法|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |所有元素的容器。   ||必需。   |
-| \<AutoScreenShare\>  |Boolean & # x2777;  |第一 & # x2776;  | 如果为 true，则启用自动屏幕共享。  |
-|\<HideMeetingName\>   |Boolean & # x2777;  |第一 & # x2776;  |如果为 true，则隐藏会议名称。   |
-|\<UserAccount\>   |容器   |第一 & # x2776;  |凭据参数的容器。   登录地址、Exchange 地址或电子邮件地址通常相同, 例如 RanierConf<span></span>@contoso .com。   |
-|\<SkypeMeetingsEnabled\>  |Boolean & # x2777;  |第一 & # x2776;  |默认为启用。   |
-|\<SkypeSignInAddress\>   |字符串 & # x2778;  ||控制台的 Skype for Business 设备帐户的登录名。   |
-|\<ExchangeAddress\>   |字符串 & # x2778;  ||控制台的 Exchange 设备帐户的登录名。   如果忽略 ExchangeAddress，则不会自动重用 SkypeSignInAddress。   |
-|\<DomainUsername\>   |字符串 & # x2778;  ||控制台设备的域和用户名，例如 Seattle\RanierConf。   |
+| \<AutoScreenShare\>  |布尔 &#x2777;  |第一 &#x2776;  | 如果为 true，则启用自动屏幕共享。  |
+|\<HideMeetingName\>   |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则隐藏会议名称。   |
+|\<UserAccount\>   |容器   |第一 &#x2776;  |凭据参数的容器。   登录地址、Exchange 地址或电子邮件地址通常相同, 例如 RanierConf<span></span>@contoso .com。   |
+|\<SkypeMeetingsEnabled\>  |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。   |
+|\<SkypeSignInAddress\>   |字符串 &#x2778;  ||控制台的 Skype for Business 设备帐户的登录名。   |
+|\<ExchangeAddress\>   |字符串 &#x2778;  ||控制台的 Exchange 设备帐户的登录名。   如果忽略 ExchangeAddress，则不会自动重用 SkypeSignInAddress。   |
+|\<DomainUsername\>   |字符串 &#x2778;  ||控制台设备的域和用户名，例如 Seattle\RanierConf。   |
 |\<口令\>   |String 3  || 密码参数是用于 Skype for Business 设备帐户登录的相同密码。  |
-| \<ConfigureDomain\>  |字符串 & # x2778;  ||你可以列出多个域，以逗号分隔。   |
-|\<TeamsMeetingsEnabled\>   |Boolean & # x2777;  |第一 & # x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>都被禁用, XML 文件的格式不正确, 但可接受同时启用这两个设置。   |
-|\<IsTeamsDefaultClient> |Boolean & # x2777;  |第一 & # x2776;  |默认情况下处于禁用状态。 |
-|\<BluetoothAdvertisementEnabled> |Boolean & # x2777;  |第一 & # x2776;  |默认为启用。 |
-|\<DualScreenMode\>  |Boolean & # x2777;  |第一 & # x2776;  |如果为 true, 则启用双屏幕模式。 否则设备将使用单屏模式。   |
-|\<SendLogs\>   |容器   |第一 & # x2776;  ||
-|\<EmailAddressForLogsAndFeedback\>   |字符串 & # x2778;  ||这会设置一个可选的电子邮件地址，当“提供反馈”窗口出现时，日志可发送到此地址。   |
-|\<SendLogsAndFeedback\>   |Boolean & # x2777;  || 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。  |
-| \<Devices\>  |容器   |第一 & # x2776;  | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。  |
-|\<MicrophoneForCommunication\>   |字符串 & # x2778;  ||设置将在会议中用作录音设备的麦克风。   |
-|\<SpeakerForCommunication\>   |字符串 & # x2778;  ||用作会议扬声器的设备。 此设置用于设置将在通话中用于接收音频的扬声器设备。   |
-|\<DefaultSpeaker\>   |字符串 & # x2778;  ||用于播放来自 HDMI 摄入源的音频的设备。   |
-| \<主题\>  |容器   |第一 & # x2776;  |可以使用 XML 文件应用的一项功能是为组织设置自定义主题。 你将能够指定主题名称、背景图像和颜色。   |
-|\<ThemeName\>   |字符串 & # x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称应始终使用 "*自定义*" 名称。 可以在控制台上将客户端 UI 设置为“默认”或预设主题之一，但应用自定义主题只能由管理员远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题, 请对 ThemeName 使用 "无主题"。  |
-|\<CustomThemeImageUrl\>   |字符串 & # x2778;  ||使用自定义主题时为必选，否则为可选。 有关自定义主题图像的详细信息, 请参阅下面的 "[自定义主题图像](xml-config-file.md#Themes)" 部分。  |
+| \<ConfigureDomain\>  |字符串 &#x2778;  ||你可以列出多个域，以逗号分隔。   |
+|\<TeamsMeetingsEnabled\>   |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>都被禁用, XML 文件的格式不正确, 但可接受同时启用这两个设置。   |
+|\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
+|\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
+|\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true, 则启用双屏幕模式。 否则设备将使用单屏模式。   |
+|\<SendLogs\>   |容器   |第一 &#x2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |字符串 &#x2778;  ||这会设置一个可选的电子邮件地址，当“提供反馈”窗口出现时，日志可发送到此地址。   |
+|\<SendLogsAndFeedback\>   |布尔 &#x2777;  || 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。  |
+| \<Devices\>  |容器   |第一 &#x2776;  | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。  |
+|\<MicrophoneForCommunication\>   |字符串 &#x2778;  ||设置将在会议中用作录音设备的麦克风。   |
+|\<SpeakerForCommunication\>   |字符串 &#x2778;  ||用作会议扬声器的设备。 此设置用于设置将在通话中用于接收音频的扬声器设备。   |
+|\<DefaultSpeaker\>   |字符串 &#x2778;  ||用于播放来自 HDMI 摄入源的音频的设备。   |
+| \<主题\>  |容器   |第一 &#x2776;  |可以使用 XML 文件应用的一项功能是为组织设置自定义主题。 你将能够指定主题名称、背景图像和颜色。   |
+|\<ThemeName\>   |字符串 &#x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称应始终使用 "*自定义*" 名称。 可以在控制台上将客户端 UI 设置为“默认”或预设主题之一，但应用自定义主题只能由管理员远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题, 请对 ThemeName 使用 "无主题"。  |
+|\<CustomThemeImageUrl\>   |字符串 &#x2778;  ||使用自定义主题时为必选，否则为可选。 有关自定义主题图像的详细信息, 请参阅下面的 "[自定义主题图像](xml-config-file.md#Themes)" 部分。  |
 |\<CustomThemeColor\>   |容器   ||\<\>RedComponent \<、\>GreenComponent 和\<BlueComponent\>值的容器。 如果使用自定义主题，这些值为必填。   |
 |\<RedComponent\>   |字节 (0-255)   ||代表红色组件。   |
 |\<GreenComponent\>   |字节 (0-255)   ||代表绿色组件。   |
 |\<BlueComponent\>   |字节 (0-255)   ||代表蓝色组件。   |
 | | | |
    
-&#x2776;所有第一级元素都是可选的。 如果省略第一级元素, 其所有子参数在设备上保持不变。
+&#x2776; 所有第一级元素都是可选的。 如果省略第一级元素, 其所有子参数在设备上保持不变。
   
-&#x2777;布尔标志可以是下列任意项: true、false、0或1。 Boolean 或留空的数值可能表示 XML 格式不正确，因此这些设置没有变化。
+&#x2777; boolean 标志可以是下列任一项: true、false、0或1。 Boolean 或留空的数值可能表示 XML 格式不正确，因此这些设置没有变化。
   
- &#x2778;如果存在字符串参数, 则为空, 并且空值为有效值, 则在设备上清除该参数。
+ &#x2778; 如果存在字符串参数, 则为空且为空, 则在设备上清除该参数。
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>使用 XML 配置文件管理控制台设置
 

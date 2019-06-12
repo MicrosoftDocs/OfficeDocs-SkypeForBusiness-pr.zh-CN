@@ -492,7 +492,7 @@ ms.locfileid: "33898751"
 
 **通过 GPO 和消息分析程序进行 QoS 配置验证**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp;
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -546,7 +546,7 @@ ms.locfileid: "33898751"
 
 **拆分隧道配置验证**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp;
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -597,7 +597,7 @@ ms.locfileid: "33898751"
 
 **位置: 西雅图 [内部有线] 客户端到 Office 365 的结果**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 
 
@@ -617,7 +617,7 @@ ms.locfileid: "33898751"
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">测试 lowlights  </th></tr> 
 <tr><td><strong>问题</strong>: 高延迟</td><td><strong>补救措施:</strong>调查数据包路由并实现理想的路由。</td></tr>
-<tr><td><strong>问题</strong>: 往返行程时间 isn& # 39; t 加倍延迟</td><td><strong>补救措施:</strong>调查可能的防火墙或路由器配置问题。 调查流量路径。</td></tr>
+<tr><td><strong>问题</strong>: 往返行程时间不&#39;t 两倍的延迟</td><td><strong>补救措施:</strong>调查可能的防火墙或路由器配置问题。 调查流量路径。</td></tr>
 <tr><td><strong>问题</strong>: 高数据包丢失 </td><td><strong>补救措施:</strong>通过网络 Planner 验证是否已分配足够的带宽。 </td></tr>
 <tr><td><strong>问题</strong>: 高抖动 </td><td> <strong>补救措施:</strong>调查是否正在使用正确的区分服务代码点 (DSCP) 值。 </td></tr>
 <tr><td><strong>问题</strong>: 高数据包丢失 </td><td><strong>补救措施:</strong>调查数据包丢失。 </td></tr>
@@ -718,7 +718,7 @@ ms.locfileid: "33898751"
 
 **服务号码移植**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -776,7 +776,7 @@ ms.locfileid: "33898751"
 | 带有呼叫计划的电话系统          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | 测试用例 ID                             | 测试用例标题              | 测试案例说明                                                                      | 测试案例结果摘要 | 分配的缺陷 ID (如果适用)                                         |
-| 1                                        | 拨出出站 PSTN 呼叫。 | 通过拨打国内10位号码拨出拨出的电话。                              |    &#9744;轮<br/>&#9744;部分<br/> &#9744;放弃                   | 当用户输入四位数字时, 发出到 PSTN 的呼叫失败。 |
+| 1                                        | 拨出出站 PSTN 呼叫。 | 通过拨打国内10位号码拨出拨出的电话。                              |    &#9744;传递<br/>&#9744;部分<br/> &#9744;失败                   | 当用户输入四位数字时, 发出到 PSTN 的呼叫失败。 |
 
 
 
@@ -798,7 +798,7 @@ ms.locfileid: "33898751"
 
 **具有通话计划的团队电话系统**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>

@@ -3,7 +3,7 @@ title: Microsoft Teams 的限制和规范
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802612"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857403"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -49,7 +49,6 @@ ms.locfileid: "34802612"
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人员数  | 250    |
-|私人聊天中的用户数  | 50    |
 
 ## <a name="storage"></a>Storage
 
@@ -67,7 +66,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |团队文件的存储空间 |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |
 |文件上载限制 (每个文件)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-团队中的每个文件选项卡都在 SharePoint Online 后端运行, 因此上述存储限制将应用于团队中的每个频道。
+频道由为团队创建的 SharePoint Online 网站集内的文件夹提供支持, 因此频道内的文件选项卡共享其所属团队的存储限制。
 
 有关详细信息, 请参阅[SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
 
@@ -77,11 +76,12 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 Microsoft 团队聊天功能适用于 Microsoft Exchange 后端, 因此你可以将 Exchange 邮件限制应用于 Microsoft 团队内的聊天功能。 如果用户想要向团队中的频道发送电子邮件, 他们将使用频道电子邮件地址。 一旦电子邮件是频道的一部分, 任何人都可以回复它以启动对话。 下面是向频道发送电子邮件的一些适用限制。 
 
-|功能  |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
-|---------|---------|---------|---------|---------|
-|邮件大小限制&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|文件附件限制&Dagger;  |10     |10     |10     |10    |
-|嵌入式图像限制&Dagger; |50   |50   |50   |50   |
+|功能  | 最大限制  |
+|---------|---------|
+|私人聊天中的用户数  | 100    |
+|邮件大小&dagger;  |25 KB   |
+|文件附件数&Dagger;  |10     |
+|内联图像的数量&Dagger; |50   |
 
 &dagger;如果邮件超过此限制, 将生成预览消息, 要求用户从提供的链接查看/下载原始电子邮件。
 

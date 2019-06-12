@@ -496,7 +496,7 @@ ms.locfileid: "33898724"
 
 **通过 GPO 和消息分析程序进行 QoS 配置验证**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp;
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -549,7 +549,7 @@ ms.locfileid: "33898724"
 
 **拆分隧道配置验证**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp;
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -599,7 +599,7 @@ ms.locfileid: "33898724"
 
 **位置: 西雅图 [内部有线] 客户端到 Office 365 的结果**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 
 
@@ -617,7 +617,7 @@ ms.locfileid: "33898724"
 <tr><th colspan="2">测试亮点 </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">测试 lowlights  </th></tr><br/><tr><td><strong>问题</strong>: 高延迟</td><td><strong>补救措施:</strong>调查数据包路由并实现理想的路由。</td></tr>
-<tr><td><strong>问题</strong>: 往返行程时间 isn& # 39; t 加倍延迟</td><td><strong>补救措施:</strong>调查可能的防火墙或路由器配置问题。 调查流量路径。</td></tr>
+<tr><td><strong>问题</strong>: 往返行程时间不&#39;t 两倍的延迟</td><td><strong>补救措施:</strong>调查可能的防火墙或路由器配置问题。 调查流量路径。</td></tr>
 <tr><td><strong>问题</strong>: 高数据包丢失 </td><td><strong>补救措施:</strong>通过网络 Planner 验证是否已分配足够的带宽。 </td></tr>
 <tr><td><strong>问题</strong>: 高抖动 </td><td> <strong>补救措施:</strong>调查是否正在使用正确的区分服务代码点 (DSCP) 值。 </td></tr>
 <tr><td><strong>问题</strong>: 高数据包丢失 </td><td><strong>补救措施:</strong>调查数据包丢失。 </td></tr>
@@ -655,7 +655,7 @@ ms.locfileid: "33898724"
 通常, 您可以从当前服务提供商的最新帐单或发票中查找所需的信息。
 
 > [!TIP]
-> 您可以在当前支持的所有国家/地区内移植或转移电话号码;但是, 你提交端口订单请求的方式可能会有所不同, 具体取决于电话号码来源所在的国家/地区。 有关当前受支持的国家/地区的最新列表, 请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 </Br/><br/>
+> 您可以在当前支持的所有国家/地区内移植或转移电话号码;但是, 你提交端口订单请求的方式可能会有所不同, 具体取决于电话号码来源所在的国家/地区。 有关当前受支持的国家/地区的最新列表, 请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 </br/><br/>
 >   有关将电话号码转移到音频会议 (以及潜在限制) 的其他信息, 请参阅[在 office 365 中](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)[将电话号码转移到 office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)和免费拨号限制。
 
 #### <a name="step-3"></a>步骤3
@@ -716,7 +716,7 @@ ms.locfileid: "33898724"
 
 **服务号码移植**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>
@@ -776,7 +776,7 @@ ms.locfileid: "33898724"
 
 | 测试用例 ID                             | 测试用例标题                             | 测试案例说明                                                                            | 测试案例结果摘要 | 分配的缺陷 ID (如果适用)                                                                          |
 |------------------------------------------|---------------------------------------------|---------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1                                        | 安排团队音频会议会议 | 安排联机会议并验证邀请中是否显示 "会议桥"。 |  &#9744;轮<br/>&#9744;部分<br/> &#9744;放弃   | 对于 RHM 启用的用户, 使用 Outlook 计划外接程序团队未填充拨号坐标 |
+| 1                                        | 安排团队音频会议会议 | 安排联机会议并验证邀请中是否显示 "会议桥"。 |  &#9744;传递<br/>&#9744;部分<br/> &#9744;失败   | 对于 RHM 启用的用户, 使用 Outlook 计划外接程序团队未填充拨号坐标 |
 
 
 <table>
@@ -796,7 +796,7 @@ ms.locfileid: "33898724"
 
 **团队音频会议**
 
-**结果摘要**:&nbsp;&nbsp;&nbsp;& # 9744;&nbsp; &nbsp; Pass&nbsp; & # 9744;&nbsp; &nbsp;部分&nbsp; & # 9744;放弃 
+**结果摘要**:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#9744;传递&nbsp; &#9744;&nbsp;部分&nbsp; &#9744;失败&nbsp; 
 
 <table>
 <tr><th colspan="2">测试亮点 </th></tr>

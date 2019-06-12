@@ -1,28 +1,55 @@
-﻿---
-title: 向用户分配组内呼叫应答号码
-TOCTitle: 向用户分配组内呼叫应答号码
-ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/JJ945647(v=OCS.15)
-ms:contentKeyID: 52061124
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: 为用户分配组呼叫装货号码'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign Group Call Pickup numbers to users
+ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
+ms:contentKeyID: 51541508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845941"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 向用户分配组内呼叫应答号码
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2013-01-30_
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>向 Lync Server 2013 中的用户分配组呼叫的装货号码
 
-将组内呼叫应答组号码添加到呼叫寄存轨道表后，可以向用户分配这些组。可使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具向用户分配呼叫应答组。
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主题上次修改时间:** 2013-01-30_
+
+将组呼叫挑选组号码添加到 "呼叫公园轨道" 表后, 您可以将组分配给用户。 使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具向用户分配呼叫装货组。
+
+<div>
+
 
 > [!NOTE]  
-> 在混合部署中，不要向在线驻留的用户分配组内呼叫应答组。在线驻留的用户无法参与组内呼叫应答。也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+> 在混合部署中, 不要向处于联机状态的用户分配组呼叫装货组。 处于联机状态的用户不能参与组呼叫装货。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
 
 
 
-## 向用户分配组内呼叫应答组
+</div>
+
+<div>
+
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>将组呼叫装货组分配给用户
 
 1.  使用管理员权限登录安装了 SEFAUtil 工具的计算机。
 
@@ -34,10 +61,26 @@ _**上一次修改主题：** 2013-01-30_
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
-## 另请参阅
+</div>
 
-#### 任务
+<div>
 
-[为用户启用组内呼叫应答](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[为用户禁用组内呼叫应答](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a>另请参阅
+
+
+[在 Lync Server 2013 中为用户启用组呼叫装货](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[在 Lync Server 2013 中禁用用户的组呼叫装货](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

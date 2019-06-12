@@ -32,7 +32,7 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 下表显示了适用于使用 Skype for business Server 2019 或 Skype for business Online 的每个客户端的功能。 您可能还希望参考适用于 Skype for Business 的智能手机和平板电脑客户端功能比较[的移动客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。 你的组织购买的客户端访问许可证或用户订阅许可证也将影响用户可以使用的功能。 向用户部署完整版还是基本版客户端取决于贵组织选择购买的许可证或计划。 有关详细信息, 请参阅[授权指南](https://products.office.com/en-us/skype-for-business/it-pros)。
 
 > [!IMPORTANT]
-> Skype for business Server 2019 和 skype for business Online 支持以下以前发布的客户端: Lync 2013、skype for business 2015 和 skype for business 2016, 以及 skype 2019 for business Online 客户端。 有关在与其他服务器配合使用时这些客户端的信息, 请参阅适用于 Skype for business 2015 的 Lync Server 2013 和[桌面客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)的[客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)。 
+> Skype for business Server 2019 和 Skype for business Online 支持以下以前发布的客户端: Lync 2013、Skype for business 2015 和 skype for business 2016, 以及 Skype 2019 for business Online 客户端。 有关在与其他服务器配合使用时这些客户端的信息, 请参阅适用于 Skype for business 2015 的 Lync Server 2013 和[桌面客户端功能比较](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)的[客户端比较表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)。 
 
 
 > [!NOTE]
@@ -46,14 +46,14 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 
 | 特性/功能                                                                                  | Skype for Business 2015、2016或2019客户端 | Mac 版 Skype for Business | Lync 2013 客户端 |
 |:----------------------------------------------------------------------------------------------------|:----------------------------------------------|:--------------------------|:-----------------|
-| 发布状态                                                                                      | &#x2714;                                      | &#x2714;&#x2776;         | &#x2714;         |
+| 发布状态                                                                                      | &#x2714;                                      | &#x2714; &#x2776;         | &#x2714;         |
 | 查看状态                                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 查看状态注释和外出消息                                                        | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 添加自定义位置                                                                               | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 添加自定义注释                                                                                   | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 对“我的图片”使用任何公共网站中的照片  <br/> (在 Skype for Business Online 中不可用) | &#x2714;                                      |                           | &#x2714;         |
 
- &#x2776; 不支持基于日历闲/忙信息的发布状态。
+ &#x2776; 不支持基于日历忙/闲信息的发布状态。
 
 ## <a name="contacts-and-contact-groups-support"></a>联系人和联系人组支持
 <a name="BKMK_Contacts"> </a>
@@ -88,7 +88,7 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 |:-----|:-----|:-----|:-----|  
 |启动与联系人的 IM 或向联系人发送电子邮件  |&#x2714;|&#x2714;|&#x2714;|  
 |在单个选项卡式窗口中在多个 IM 对话之间导航/跟踪多个对话   |&#x2714;|&#x2714;|&#x2714;| 
-|在 Outlook 中记录 IM 对话  |&#x2714;|&#x2714;如果已打开服务器端对话历史记录   |&#x2714;|   
+|在 Outlook 中记录 IM 对话  |&#x2714;|如果已打开服务器端对话历史记录 &#x2714;   |&#x2714;|   
 |检查拼写 |&#x2714;|&#x2714;||   
 |技能搜索（通过 SharePoint Server 集成）   <br/> (本地 Skype for Business 服务器和本地 SharePoint 2013 是技能搜索所必需的。)  |&#x2714;||&#x2714;|
 |持久聊天（群聊）集成  <br/> (Skype for business Online 不可用)|&#x2714;||&#x2714;|  
@@ -111,19 +111,19 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 
 |特性/功能 | Skype for Business 2016 客户端 | Mac 版 Skype for Business | Skype for Business Web App | Skype for Business 2015 客户端 | Lync 2013 客户端 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|添加计算机音频  |&#x2714;|&#x2714;|& # x2714; (需要插件)  |&#x2714;|&#x2714;| 
-|添加视频 |&#x2714;|&#x2714;|& # x2714; (需要插件) |&#x2714;|&#x2714;| 
+|添加计算机音频  |&#x2714;|&#x2714;|&#x2714; (需要插件)  |&#x2714;|&#x2714;| 
+|添加视频 |&#x2714;|&#x2714;|&#x2714; (需要插件) |&#x2714;|&#x2714;| 
 |查看多方视频（库视图）  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|基于视频的屏幕共享    |&#x2714;|&#x2714;|&#x2714;仅查看   ||| 
+|基于视频的屏幕共享    |&#x2714;|&#x2714;|&#x2714; 仅查看   ||| 
 |使用会议中演示者控件 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |访问详细的会议名单 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |参与多方 IM |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
-|共享桌面（如果已启用）  |&#x2714;|&#x2714;&#x2776; |&#x2714;&#x2776;(需要插件) |&#x2714;| &#x2714;|
-|共享程序（如果已启用） |&#x2714;|仅查看   |& # x2714; (需要插件)  |&#x2714;|&#x2714;|   
+|共享桌面（如果已启用）  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776;  (需要插件) |&#x2714;| &#x2714;|
+|共享程序（如果已启用） |&#x2714;|仅查看   |&#x2714; (需要插件)  |&#x2714;|&#x2714;|   
 |添加匿名参与者（如果已启用） |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|使用电话拨入式音频会议 & # x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
+|使用电话拨入式音频会议 &#x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |启动“立即开会”会议|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
-|添加和演示 Microsoft PowerPoint 文件 |&#x2714;| &#x2778;批注不可用   |&#x2714;|&#x2714;|&#x2714;| 
+|添加和演示 Microsoft PowerPoint 文件 |&#x2714;| &#x2778; 注释不可用   |&#x2714;|&#x2714;|&#x2714;| 
 |导航 Microsoft PowerPoint 文件 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |添加和编辑 OneNote 会议笔记  |&#x2714;||仅编辑（不添加）  |&#x2714;|&#x2714;|
 |使用白板 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -141,15 +141,15 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 |设置视频聚焦（锁定视频） |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |提供/获取对屏幕共享的控制  |&#x2714;||&#x2714;|||
 
- &#x2776; 参与者无法控制 Mac 版 Skype for Business、Lync for Mac 2011 或 Mac 2011 用户的 Communicator 共享的桌面。 Mac 版 Skype for business, Lync for mac 2011 和 Communicator for Mac 2011 用户无法控制由 Windows 用户共享的桌面。 这也不适用于最大 OSX 上的 Skype for business Web 应用。
+ &#x2776; 参与者无法控制 Mac 上的 Skype for Business、Lync for Mac 2011 或适用于 Mac 2011 用户的 Communicator 共享的桌面。 Mac 版 Skype for business, Lync for mac 2011 和 Communicator for Mac 2011 用户无法控制由 Windows 用户共享的桌面。 这也不适用于最大 OSX 上的 Skype for business Web 应用。
 
- &#x2777; 对于 Skype for Business Online, 此功能需要 Microsoft PSTN 会议、Exchange 统一消息或第三方音频会议提供商。
+ &#x2777; Skype for business Online, 此功能需要 Microsoft PSTN 会议、Exchange 统一消息或第三方音频会议提供商。
 
  &#x2778; Lync for Mac 2011 客户端无法在 Skype for Business Web 应用在会议中共享时查看 Microsoft Office 2013 PowerPoint 演示文稿。
 
-&#x2779; 对于 Skype for business 2016 应用, 你必须使用即点即用、内部版本16.0.4227 或更高版本。
+&#x2779; Skype for business 2016 应用, 必须使用即点即用、内部版本16.0.4227 或更高版本。
 
-&#x2780; 对于 Skype for business 2015 应用, 您必须安装9月更新、内部版本15.0.4747 或更高版本。
+&#x2780; Skype for business 2015 应用, 您必须安装9月更新、内部版本15.0.4747 或更高版本。
 
 ## <a name="voice-telephony-support"></a>语音（电话）支持
 <a name="BKMK_Telephony"> </a>
@@ -164,19 +164,19 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 |拨打电话 |&#x2714;|&#x2714;|&#x2714;|
 |单击以呼叫联系人 |&#x2714;|&#x2714;|&#x2714;|
 |转移来电 |&#x2714;|&#x2714;|&#x2714;|  
-|管理呼叫转接 |&#x2714;|&#x2714;|&#x2714;&#x2776; | 
-|管理团队呼叫设置 |&#x2714;||&#x2714;&#x2776; |
-|管理代理人 |&#x2714;|&#x2714;   |&#x2714;&#x2776; |
-|向响应组拨打电话|&#x2714;||&#x2714;&#x2776; |
-|支持紧急服务 (E-911) |&#x2714;|&#x2714; |&#x2714;&#x2776; |
+|管理呼叫转接 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|管理团队呼叫设置 |&#x2714;||&#x2714; &#x2776; |
+|管理代理人 |&#x2714;|&#x2714;   |&#x2714; &#x2776; |
+|向响应组拨打电话|&#x2714;||&#x2714; &#x2776; |
+|支持紧急服务 (E-911) |&#x2714;|&#x2714; |&#x2714; &#x2776; |
 |用于发送电子911呼叫的 SIP URI 的 IM 通知 |&#x2714;|&#x2714;|&#x2714;|
 |用于电子911呼叫的通讯组列表的 IM 通知|&#x2714;|&#x2714;|&#x2714;|
-|连接到语音邮件，设置或更改问候语 |&#x2714;|&#x2714;|&#x2714;&#x2776; | 
-|未接电话通知 |&#x2714;|&#x2714;|&#x2714;&#x2776; | 
-|代表其他联系人拨打电话（经理/代理人方案） |&#x2714;|&#x2714;|&#x2714;&#x2776; |
-|如果配置为代理人，则处理其他人的呼叫 |&#x2714;|&#x2714;|&#x2714;&#x2776; | 
-|呼叫寄存 |&#x2714;||&#x2714;&#x2776; |
-|群呼应答 |&#x2714;||&#x2714;&#x2776; |
+|连接到语音邮件，设置或更改问候语 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|未接电话通知 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|代表其他联系人拨打电话（经理/代理人方案） |&#x2714;|&#x2714;|&#x2714; &#x2776; |
+|如果配置为代理人，则处理其他人的呼叫 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|呼叫寄存 |&#x2714;||&#x2714; &#x2776; |
+|群呼应答 |&#x2714;||&#x2714; &#x2776; |
 |基于位置的路由 |&#x2714;|&#x2714;|&#x2714;| 
 |管理响应组/团队呼叫组 |&#x2714;||&#x2714;|
 
@@ -201,13 +201,13 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 
 | 特性/功能 | Skype for Business 2015、2016或2019客户端 | Mac 版 Skype for Business | Lync 2013 客户端 |   
 |:-----|:-----|:-----|:-----|  
-|在客户端录制音频、视频、应用共享、桌面共享和上载内容 |&#x2714;&#x2776; ||&#x2714;&#x2776; |
-|在客户端录制文件传输、共享的 OneNote 页面和 PowerPoint 批注| &#x2714;&#x2777; ||&#x2714;&#x2777; |
+|在客户端录制音频、视频、应用共享、桌面共享和上载内容 |&#x2714; &#x2776; ||&#x2714; &#x2776; |
+|在客户端录制文件传输、共享的 OneNote 页面和 PowerPoint 批注| &#x2714; &#x2777; ||&#x2714; &#x2777; |
 |选择首选的录制解决方案  |&#x2714;||&#x2714;|
 
  &#x2776; 录制在某些 Skype for Business Online 独立计划中不可用。 录制需要具有完整的 Skype for Business 客户端权限。
 
- &#x2777; 在 Skype for Business Online 中, 文件传输、共享 OneNote 页面和 PowerPoint 注释的录制不可用。
+ Skype for Business Online 中无法使用文件传输、共享 OneNote 页面和 PowerPoint 注释 &#x2777; 录制。
 
 ## <a name="modern-authentication"></a>现代化身份验证
 <a name="BKMK_Recording"> </a>
@@ -221,7 +221,7 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 |:-----|:-----|:-----|:-----|  
 |现代化身份验证 |&#x2714;|&#x2714;|&#x2714;|
 |多重身份验证|&#x2714;|&#x2714;|&#x2714;|
-|基于证书的身份验证 |& # x2714; (仅限域加入的设备) |&#x2714;|& # x2714; (仅限域加入的设备)  |
+|基于证书的身份验证 |&#x2714; (仅限域加入的设备) |&#x2714;|&#x2714; (仅限域加入的设备)  |
 |Kerberos 身份验证 |&#x2714;||&#x2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>存档、合规性和日志记录支持
@@ -232,12 +232,12 @@ Skype for business Server 2019 中提供的一些功能在 Skype for Business On
 
  | 特性/功能 | Skype for Business 2015、2016或2019客户端 | Mac 版 Skype for Business | Lync 2013 客户端 |  
 |:-----|:-----|:-----|:-----|  
-|Outlook 对话历史记录中 IM 对话的存档|&#x2714;&#x2776; |&#x2714;如果已打开服务器端对话历史记录  |&#x2714;&#x2776; | 
-|音频、视频、应用程序共享、桌面共享和上载的内容的客户端存档  |&#x2714;&#x2776; ||&#x2714;&#x2776; |
+|Outlook 对话历史记录中 IM 对话的存档|&#x2714; &#x2776; |如果已打开服务器端对话历史记录 &#x2714;  |&#x2714; &#x2776; | 
+|音频、视频、应用程序共享、桌面共享和上载的内容的客户端存档  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |文件传输、共享 OneNote 页面和 PowerPoint 注释的客户端存档 (在 Skype for Business Online 中不可用)  |&#x2714;||&#x2714;|
 |从任务栏中的 "Skype for Business" 图标访问登录日志 |&#x2714;||&#x2714;|
 
- &#x2776; 对于 Skype for Business Online 用户, 此功能需要 Exchange Online 且由用户的 Exchange 邮箱就地保留属性控制。
+ &#x2776; 适用于 Skype for Business Online 用户, 此功能需要 Exchange Online 且由用户的 Exchange 邮箱就地保留属性控制。
 
 ## <a name="client-limitations"></a>客户端限制 
 <a name="Types"> </a>

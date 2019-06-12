@@ -31,7 +31,7 @@ Skype for Business Server 2019 中的新增功能包括以下几项:
 
 将 Skype for business 2019 与 Exchange 2013 或 Exchange 2016 集成时, exchange UM 将在 Skype for business Server 2019 中保持可用。 由于 Exchange 2019 中的支持的更改, Exchange UM 集成已被取消重点, 取而代之的是云语音邮件和云自动助理功能。  
 
-云语音邮件支持所有 Skype for Business 2019 users& # x2014; 无论它们是托管在本地还是 online& # x2014; 都可以访问 Microsoft 云中相同的语音邮件服务。 云语音邮件为你的本地用户和联机用户提供以下好处:
+云语音邮件支持所有 Skype for Business 2019 用户&#x2014;他们是托管在本地还是联机&#x2014;才能访问 Microsoft 云中的同一语音邮件服务。 云语音邮件为你的本地用户和联机用户提供以下好处:
 
 - 通过使用 Skype for Business Online、团队或 Outlook 客户端访问其 Exchange 邮箱中的语音邮件
 - 能够使用基于 web 的门户管理其语音邮件选项

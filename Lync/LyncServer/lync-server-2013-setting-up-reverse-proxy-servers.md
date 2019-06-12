@@ -1,49 +1,75 @@
-﻿---
-title: Lync Server 2013：设置反向代理服务器
-TOCTitle: 设置反向代理服务器
-ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
-ms:mtpsurl: https://technet.microsoft.com/zh-cn/library/Gg398069(v=OCS.15)
-ms:contentKeyID: 49311801
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013：设置反向代理服务器
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up reverse proxy servers
+ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
+ms:contentKeyID: 48183225
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845880"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# 为 Lync Server 2013 设置反向代理服务器
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**上一次修改主题：** 2016-12-08_
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>为 Lync Server 2013 设置反向代理服务器
 
-对于 Microsoft Lync Server 2013 边缘服务器部署，在外围网络中必须有 HTTPS 反向代理，外部客户端才能访问控制器和用户的主池中的 Lync Server 2013 Web 服务（在 Office Communications Server 中称为 *Web 组件*）。需要通过反向代理进行外部访问的部分功能包括：
+</div>
 
-  - 允许外部用户下载会议的会议内容。
+<div id="mainSection">
 
-  - 允许外部用户展开通讯组。
+<div id="mainBody">
 
-  - 允许远程用户从通讯簿服务下载文件。
+<span> </span>
+
+_**主题上次修改时间:** 2014-05-08_
+
+对于 Microsoft Lync Server 2013 Edge 服务器部署, 外部客户端访问 Lync Server 2013 Web 服务 (称为 Office 通信服务器中的*Web 组件*) 的外部客户端需要在外围网络中使用 HTTPS 反向代理用户的主池。 需要通过反向代理进行外部访问的一些功能包括以下内容:
+
+  - 允许外部用户为你的会议下载会议内容。
+
+  - 使外部用户能够展开通讯组。
+
+  - 使远程用户能够从通讯簿服务下载文件。
 
   - 访问 Lync Web App 客户端。
 
-  - 访问“电话拨入式会议设置”网页。
+  - 访问 "电话拨入式会议设置" 网页。
 
-  - 允许外部设备连接到设备更新 Web 服务并获得更新。
+  - 启用外部设备连接到设备更新 web 服务并获取更新。
 
-  - 允许移动应用程序自动发现并使用来自 Internet 的移动 (Mcx) URL。
+  - 使移动应用程序能够自动发现和使用来自 Internet 的移动 (Mcx) Url。
 
-  - 允许 Lync 2013 客户端、Lync Windows 应用商店应用和 Lync 2013 移动客户端查找 Lync 发现（自动发现）URL 并使用统一通信 Web API (UCWA)。
+  - 启用 Lync 2013 客户端、Lync Windows 应用商店应用和 Lync 2013 移动客户端以找到 Lync 发现 (自动发现) Url 和使用统一通信 Web API (UCWA)。
 
-建议配置 HTTP 反向代理以在所有池中发布所有 Web 服务。发布 https:// *ExternalFQDN*/\* 时会发布池的所有 IIS 虚拟目录。组织中的每个标准版 服务器、前端池、控制器或控制器池都需要一个发布规则。
+我们建议你将 HTTP 反向代理配置为发布所有池中的所有 Web 服务。 发布 https://ExternalFQDN/\*发布池的所有 IIS 虚拟目录。 您的组织中的每个标准版服务器、前端池或控制器或控制器池都需要一个发布规则。
 
-此外，还需要发布简单 URL。如果组织中有 控制器 或 控制器池，HTTP 反向代理则会侦听对简单 URL 的 HTTP/HTTPS 请求，并且还会将它们代理到 控制器 或 控制器池 上的外部 Web 服务虚拟目录。如果尚未部署 控制器，则需要指定一个池来处理对简单 URL 的请求。（如果该池不是用户的主池，它会将这些请求重定向到用户主池上的 Web 服务。）简单 URL 可由专用 Web 发布规则进行处理，也可以将其添加到 控制器 Web 发布规则的公共名称中。您也需要发布外部自动发现服务 URL。
+此外, 你需要发布简单的 Url。 如果组织具有 Director 或控制器池, 则 HTTP 反向代理将侦听对简单 Url 的 HTTP/HTTPS 请求, 并将它们代理到 Director 或 Director 池中的外部 Web 服务虚拟目录。 如果尚未部署 Director, 则需要指定一个池来处理简单 Url 的请求。 (如果这不是用户的主池, 它将向前重定向到用户主池中的 Web 服务)。 简单 Url 可以由专用的 web 发布规则处理, 也可以将其添加到 Director web 发布规则的公共名称中。 你还需要发布外部自动发现服务 URL。
 
-可使用 Microsoft Forefront Threat Management Gateway 2010、Microsoft Internet Security and Acceleration (ISA) 服务器 2006 SP1 或者带有应用程序请求路由的 Internet Information Server 7.0、7.5 或 8.0 (IIS ARR) 作为反向代理。本节中的各步骤详细介绍了如何配置 Forefront Threat Management Gateway 2010，这与配置 ISA Server 2006 的步骤几乎完全相同。也针对 IIS ARR 提供了相关指导。如果您使用的是其他反向代理，请参阅该产品的相关文档，并将此处定义的要求映射至其他反向代理中的相关功能。
+你可以使用 Microsoft Forefront 威胁管理网关2010、Microsoft Internet 安全和加速 (ISA) Server 2006 SP1 或 Internet Information Server 7.0、7.5 或 8.0, 使用应用程序请求路由 (IIS ARR) 作为反向代理。 本部分中的详细步骤介绍了如何配置 Forefront 威胁管理网关 2010, 以及配置 ISA 服务器2006的步骤几乎完全相同。 还提供了有关 IIS ARR 的指南。 如果你使用的是不同的反向代理, 请参阅该产品的文档, 并将此处定义的要求映射到其他反向代理中的关联功能。
 
-> [!IMPORTANT]
-> Internet Information Server 应用程序请求路由 (IIS ARR) 经过充分测试，是用于为 Lync Server 2010 和 Lync Server 2013 实施反向代理的支持选项。2012 年 11 月，Microsoft 停止了 ForeFront Threat Management Gateway 2010 (TMG) 的许可证出售。TMG 仍是完全受支持的产品，仍可供第三方在设备上销售。此外，许多第三方硬件负载平衡器和防火墙都提供反向代理支持。对于提供反向代理功能的硬件负载平衡器和防火墙，请咨询您的供应商，了解有关如何配置其产品以便为 Lync Server 提供反向代理支持的具体说明。您也可以查看第三方已提交给 Microsoft 的有关其产品的文档。第三方针对其解决方案提供支持。要查看积极提供解决方案的第三方，请参阅<a href="http://go.microsoft.com/fwlink/?linkid=268730">适合于 Microsoft Lync 的基础结构</a>。
+<div>
 
 
-以下主题和过程使用 Forefront Threat Management Gateway 2010 和 IIS ARR 作为部署和配置过程的基础。
+> [!IMPORTANT]  
+> Internet 信息服务器应用程序请求路由 (IIS ARR) 是一种经过完全测试且受支持的选项, 可用于实现 Lync Server 2010 和 Lync Server 2013 的反向代理。 在2012年11月, Microsoft 对 ForeFront 威胁管理网关2010或 TMG 的许可证的销售不会不复存在。 TMG 仍是完全受支持的产品, 仍可在第三方销售的装置上销售。 另外, 许多第三方硬件负载平衡器和防火墙提供反向代理支持。 对于提供反向代理功能的硬件负载平衡器和防火墙, 请咨询您的供应商, 了解有关如何配置其产品以提供 Lync 服务器的反向代理支持的具体说明。 您还可以查看已向 Microsoft 提交其产品文档的第三方。 支持由第三方提供, 供其解决方案使用。 若要查看提供解决方案时处于活动状态的第三方, 请参阅<A href="http://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 合格的基础结构</A>。
+
+
+
+</div>
+
+以下主题和过程将 Forefront 威胁管理网关2010和 IIS ARR 用作部署和配置过程的基础。
 
   - [为 Lync Server 2013 配置 Web 场 FQDN](lync-server-2013-configure-web-farm-fqdns.md)
 
@@ -59,26 +85,53 @@ _**上一次修改主题：** 2016-12-08_
 
   - [在 Lync Server 2013 中验证能否通过反向代理进行访问](lync-server-2013-verify-access-through-your-reverse-proxy.md)
 
-## 开始之前
+<div>
 
-要将 Forefront Threat Management Gateway 2010 成功部署为反向代理，您需要使用 Forefront Threat Management Gateway 2010 文档中定义的先决条件和硬件要求安装和配置一台服务器。在继续之前，请参阅以下主题集以正确配置硬件以及在该服务器上安装 Forefront Threat Management Gateway 2010。
+## <a name="before-you-begin"></a>开始之前
 
-  - [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+若要成功将 Forefront 威胁管理网关2010作为反向代理部署, 你需要使用 Forefront 威胁管理网关2010文档中定义的先决条件和硬件要求设置和配置服务器。 在继续操作之前, 请参阅以下主题设置以正确配置硬件并在服务器上安装 Forefront 威胁管理网关2010。
 
-  - [Forefront TMG 2010 硬件建议](http://go.microsoft.com/fwlink/?linkid=291293)
+  - <span></span>  
+    [Forefront 威胁管理网关 (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-要成功地将 IIS ARR 部署为反向代理，请参阅以下主题以配置硬件和必备软件。
+  - <span></span>  
+    [Forefront TMG 2010 硬件建议](http://go.microsoft.com/fwlink/?linkid=291293)
 
-  - 要在 Windows Server 2008 或 Windows Server 2008 R2 上安装 IIS，请参阅[在 Windows Server 2008 或 Windows Server 2008 R2 上安装 IIS 7](http://go.microsoft.com/fwlink/?linkid=291296)
+若要将 IIS ARR 成功部署为反向代理服务器, 请参阅以下主题以配置硬件和必备软件。
 
-  - 要在 Windows Server 2012 上安装 IIS，请参阅[在 Windows Server 2012 上安装 IIS 8](http://go.microsoft.com/fwlink/?linkid=291297)
+  - <span></span>  
+    若要在 Windows Server 2008 或 Windows Server 2008 R2 上安装 IIS, 请参阅[在 Windows server 2008 或 Windows server 2008 r2 上安装 iis 7](http://go.microsoft.com/fwlink/?linkid=291296)
 
-  - 要在 Windows Server 2012 R2 上安装 IIS，请参阅[在 Windows Server 2012 R2 上安装 IIS 8.5](http://go.microsoft.com/fwlink/?linkid=330687)
+  - <span></span>  
+    若要在 Windows Server 2012 上安装 IIS, 请参阅[在 Windows server 2012 上安装 iis 8](http://go.microsoft.com/fwlink/?linkid=291297)
 
-  - 要下载适用于 IIS 的应用程序请求路由扩展插件，请按照[应用程序请求路由 v2.5 下载](http://go.microsoft.com/fwlink/?linkid=291298)中的说明进行操作
+  - <span></span>  
+    若要在 Windows Server 2012 R2 上安装 IIS, 请参阅[在 Windows server 上安装 iis 8.5 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
 
-  - 要安装 ARR，请按照[安装应用程序请求路由版本 2](http://go.microsoft.com/fwlink/?linkid=291299) 中的说明进行操作
+  - <span></span>  
+    若要下载 IIS 的应用程序请求路由扩展, 请按照[应用程序请求路由选择 v 2.5 下载](http://go.microsoft.com/fwlink/?linkid=291298)中的说明进行操作。
+
+  - <span></span>  
+    若要安装 ARR, 请参阅[安装应用程序请求路由版本 2](http://go.microsoft.com/fwlink/?linkid=291299)中的说明
     
-> [!NOTE]
-> 当前发布的说明适用于 ARR 2.0。对于扩展插件的安装，两个版本之间没有任何区别。
+    <div>
+    
+
+    > [!NOTE]  
+    > 当前发布的说明适用于 ARR 2.0。 对于扩展的安装, 两个版本之间没有区别。
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

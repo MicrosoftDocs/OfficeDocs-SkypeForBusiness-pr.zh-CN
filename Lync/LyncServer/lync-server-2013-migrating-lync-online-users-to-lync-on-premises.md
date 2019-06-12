@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8806610d8ede0932a9e1f6048d892a48f104d3
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34846012"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -212,7 +212,7 @@ _**主题上次修改时间:** 2015-11-13_
     <td><p>sip:userName@contoso.com</p></td>
     </tr>
     <tr class="odd">
-    <td><p>sRTCSIP-UserEnabled</p></td>
+    <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>已启用</p></td>
     <td><p>True</p></td>
     <td><p>True</p></td>

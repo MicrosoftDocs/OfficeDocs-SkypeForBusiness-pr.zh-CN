@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: ff59a1973b3a77ec38a2e8da6ef065e221892139
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802643"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857504"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -29,7 +29,7 @@ ms.locfileid: "34802643"
 
 ![组织范围选项的屏幕截图, 用于创建组织范围的团队](media/create-org-wide-team.png "组织范围选项的屏幕截图, 用于创建组织范围的团队")
 
-创建组织范围的团队后, 所有全局管理员都将添加为团队所有者, 并将所有活动用户添加为团队成员。 未经授权的用户也将添加到团队。 当未经授权的用户第一次登录团队时, 将为他们分配 Microsoft 团队商业云试用版许可证。 若要了解有关试用许可证的详细信息, 请查看[管理团队商业云试用版优惠](iw-trial-teams.md)。 对于团队、来宾用户和大多数聊天室禁用的用户不会添加到团队。 
+创建组织范围的团队后, 所有全局管理员都将添加为团队所有者, 并将所有活动用户添加为团队成员。 未经授权的用户也将添加到团队。 当未经授权的用户第一次登录团队时, 将为他们分配 Microsoft 团队商业云试用版许可证。 若要了解有关试用许可证的详细信息, 请查看[管理团队商业云试用版优惠](iw-trial-teams.md)。 这些类型的帐户不会添加到组织范围的团队: 阻止登录的帐户、来宾用户、服务帐户、会议室或设备帐户或共享邮箱支持的帐户。
 
 由于您的组织的目录已更新为包括新的活动用户, 或者如果用户在您的公司中不再工作, 并且他们的团队许可证已禁用, 则更改将自动同步, 并且用户将添加或从团队中删除。 工作组成员无法离开组织范围的团队。 作为团队所有者, 你可以根据需要手动添加或删除用户。
 
