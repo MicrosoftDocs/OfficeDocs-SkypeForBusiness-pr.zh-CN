@@ -56,7 +56,7 @@ ms.locfileid: "32238106"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re 此处以帮助</h3>
+                        <h3>我们&#39;此处提供帮助</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ ms.locfileid: "32238106"
 
 ---
 
-<h2>What& #39; s 新</h2>
+<h2>&#39;s 新增功能</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -182,7 +182,7 @@ ms.locfileid: "32238106"
 
 ---
 
-<h2>特色的文章</h2>
+<h2>特色文章</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -238,7 +238,7 @@ ms.locfileid: "32238106"
                 <div class="card">
                     <div class="cardText">
                         <h3>电话系统</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s 与 Office 365 中的电话系统获取的内容</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 中的电话系统是什么？</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">此处&#39;使用 Office 365 中的电话系统所获得的功能</a></p>
                </div>
                 </div>
             </div>
