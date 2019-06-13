@@ -37,7 +37,7 @@
 ### [概述](deploy-apps-microsoft-teams-landing-page.md)
 ### [应用权限和注意事项](app-permissions.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
-### [在 Teams 中为私人聊天和频道添加聊天机器人](add-bots.md)
+### [在 Teams 中添加私人聊天、群聊和频道机器人](add-bots.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [将应用发布至 Teams 租户应用目录](tenant-apps-catalog-teams.md)
