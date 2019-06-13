@@ -7,15 +7,15 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829919"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,10 +75,10 @@ _**主题上次修改时间:** 2017-02-07_
 <td><p>64位 Internet Explorer 10</p></td>
 <td><p>32位 Internet Explorer 9</p></td>
 <td><p>64位 Internet Explorer 9</p></td>
-<td><p>Firefox 32 位</p></td>
-<td><p>Firefox 64 位</p></td>
+<td><p>Firefox 32 位<sup>4</sup></p></td>
+<td><p>Firefox 64 位<sup>4</sup></p></td>
 <td><p>免费</p></td>
-<td><p>样式</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -88,98 +88,100 @@ _**主题上次修改时间:** 2017-02-07_
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
-<td><p>是</p></td>
 <td><p>否</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8.11</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>否</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (基于 Intel) 1</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>是</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>否</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-</tr>
-<tr class="odd">
-<td><p>带有 SP12 的 Windows 7</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>否</p></td>
-<td><p>不适用</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 与 SP12</p></td>
-<td><p>不适用</p></td>
-<td><p>是</p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
 <td><p>否</p></td>
 <td><p>不适用</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 with SP23</p></td>
+<td><p>Windows 8.1<sup>1</sup></p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
-<td><p>是 </p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
 <td><p>否</p></td>
-<td><p>是</p></td>
-<td><p>否</p></td>
-<td><p>是</p></td>
 <td><p>否</p></td>
 <td><p>不适用</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10.7 及更高版本 (基于 Intel) 2</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
-<td><p>不适用</p></td>
+<td><p>Windows 8 (基于 Intel)<sup>1</sup></p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
+<td><p>是</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
 <td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>不适用</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 与 SP1<sup>2</sup></p></td>
+<td><p>不适用</p></td>
 <td><p>是</p></td>
 <td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>不适用</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 与 SP1<sup>2</sup></p></td>
+<td><p>不适用</p></td>
+<td><p>是</p></td>
+<td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>是 </p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>不适用</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 与 SP2<sup>3</sup></p></td>
+<td><p>不适用</p></td>
+<td><p>是</p></td>
+<td><p>是 </p></td>
+<td><p>否</p></td>
+<td><p>是</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>不适用</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10.7 及更高版本 (基于 Intel)<sup>2</sup></p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>不适用</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>是</p></td>
+<td><p>否</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1在 Windows 8 和 Windows 8.1 上, 仅当你在运行 Internet Explorer 10 或 Internet Explorer 11 时, 才可以安装使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享所需的插件机. 这些功能在非桌面版本的 Internet Explorer 10 或 Internet Explorer 11 中不可用。
+<sup>1</sup>在 windows 8 和 windows 8.1 中, 需要使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享的插件, 才能在运行 Internet explorer 10 或 internet explorer 11 时进行安装桌面版。 这些功能在非桌面版本的 Internet Explorer 10 或 Internet Explorer 11 中不可用。
 
-2在支持的 Windows 7、Windows Server 2008 R2 和 Macintosh 操作系统上, 所有功能均可用, 包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能, 必须在出现提示时安装插件。 请注意, Mac OS X 版本10.6 已不再受支持。
+<sup>2</sup>在支持的 windows 7、windows Server 2008 R2 和 Macintosh 操作系统上, 所有功能均可用, 包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能, 必须在出现提示时安装插件。 请注意, Mac OS X 版本10.6 已不再受支持。
 
-3受支持的 Windows Server 2008 操作系统、基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
+<sup>3</sup>受支持的 Windows Server 2008 操作系统、基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
+
+<sup>4</sup>插件需要在浏览器中支持 NPAPI。 Firefox 已删除版本52.0 中的 NPAPI 支持, 并且 Chrome 已删除版本45中的支持, 因此在当前版本中不再支持这些浏览器。
 
 </div>
 

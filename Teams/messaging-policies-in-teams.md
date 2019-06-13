@@ -16,19 +16,18 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702702"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912853"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
 <!--- Add zone marker here--->
 
 邮件策略用于控制 Microsoft 团队中的用户可以使用哪些聊天和频道消息功能。 你可以使用为组织中的人员自动创建或创建一个或多个自定义消息策略的默认策略。 创建策略后, 您可以将其分配给组织中的用户或用户组。
-
 默认情况下, 将创建名为 Global 的策略 (组织范围的默认设置)。 默认情况下, 将为组织中的所有用户分配此邮件策略。 你可以更改此策略, 也可以创建一个或多个自定义策略并向其分配用户。 创建自定义策略时, 你可以允许或阻止你的用户使用某些功能, 然后将其分配给需要应用这些设置的一个或多个用户。 
 
 ## <a name="change-or-create-a-messaging-policy"></a>更改或创建邮件策略
@@ -72,7 +71,10 @@ ms.locfileid: "34702702"
 - **所有者可以删除已发送的邮件** 使用此设置可让所有者删除用户在聊天中发送的邮件。
 - **用户可以删除已发送的邮件**使用此设置可让用户删除他们在聊天中发送的邮件。
 - **用户可以编辑已发送的邮件**使用此设置可让用户编辑他们在聊天中发送的邮件。
-- 已**读回执**使用此设置指定 "已读" 回执是由用户控制、为所有人启用还是 "已禁用"。
+- 已**读回执**使用此设置可指定 "已读" 回执是由用户控制、针对所有人还是 "关闭"。 默认设置为 "由用户控制"。 
+    - **用户控制**这意味着用户可以决定是否要打开或关闭 "已读" 回执。 应用内的默认设置为 "打开"。 然后, 用户可以将其关闭。
+    - 对**所有人启用**这意味着租户中的每个人都将启用该功能, 而不选择将其关闭。 
+    - **对所有人关闭**这意味着该功能将被禁用, 并且租户中的任何人均未读回执, 也不能将其打开。 
 <a name="bkchat"> </a>
 
 - **聊天** 如果希望组织中的用户能够使用 "团队" 应用与其他人聊天, 请打开此设置。

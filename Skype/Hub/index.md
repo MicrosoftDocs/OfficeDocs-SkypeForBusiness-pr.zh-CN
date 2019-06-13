@@ -55,7 +55,7 @@ ms.locfileid: "33905691"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>混合解决方案</h3>
-                                                    <p>查找有关规划业务混合部署的 Skype 的信息。</p>
+                                                    <p>查找有关规划 Skype for Business 混合部署的信息。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "33905691"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>从 Skype for Business 到 Microsoft Teams 的旅程</h3>
-                                                    <p>查找指南和工具，可以为团队探索最佳路径。</p>
+                                                    <p>查找指导和工具以浏览最佳的团队途径。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "33905691"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>最终用户</h3>
-                                                    <p>寻找<a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>业务用户的帮助、 培训和 Skype 的技术支持。</p>
+                                                    <p>在<a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>上查找 Skype for business 用户的帮助、培训和技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>
