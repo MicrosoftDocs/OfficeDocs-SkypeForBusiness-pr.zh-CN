@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本文介绍如何监视直接路由配置并对其进行故障排除。
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290405"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915153"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 
@@ -46,7 +46,7 @@ Microsoft 正在致力于为疑难解答和监视提供更多工具。 请定期
 
 ![SIP 选项配置示例](media/sip-options-config-example.png)
 
-当用户拨打号码 + 1 425 \<的任何七个 digits> 时, 直接路由会评估路由。 路由中有两个 SBCs: sbc1.contoso.com 和 sbc2.contoso.com。 两个 SBCs 在路由中具有同等优先级。 在选取 SBC 之前, 路由机制会根据 SBC 何时发送 SIP 选项来评估 SBCs 的运行状况。 
+当用户拨打号码 + 1 425 \<> 任何七位数字时, 直接路由会评估路由。 路由中有两个 SBCs: sbc1.contoso.com 和 sbc2.contoso.com。 两个 SBCs 在路由中具有同等优先级。 在选取 SBC 之前, 路由机制会根据 SBC 何时发送 SIP 选项来评估 SBCs 的运行状况。 
 
 如果发送呼叫时统计信息显示 SBC 按固定间隔发送选项, 则该 SBC 被认为状态良好。  
 

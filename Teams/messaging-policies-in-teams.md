@@ -16,18 +16,19 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912853"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915145"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
 <!--- Add zone marker here--->
 
 邮件策略用于控制 Microsoft 团队中的用户可以使用哪些聊天和频道消息功能。 你可以使用为组织中的人员自动创建或创建一个或多个自定义消息策略的默认策略。 创建策略后, 您可以将其分配给组织中的用户或用户组。
+
 默认情况下, 将创建名为 Global 的策略 (组织范围的默认设置)。 默认情况下, 将为组织中的所有用户分配此邮件策略。 你可以更改此策略, 也可以创建一个或多个自定义策略并向其分配用户。 创建自定义策略时, 你可以允许或阻止你的用户使用某些功能, 然后将其分配给需要应用这些设置的一个或多个用户。 
 
 ## <a name="change-or-create-a-messaging-policy"></a>更改或创建邮件策略
