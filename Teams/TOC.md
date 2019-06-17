@@ -309,11 +309,15 @@
 ### [快速入门指南：配置通话套餐](configuring-teams-calling-quickstartguide.md)
 
 ## 电话系统直接路由
+
 ### [概述](direct-routing-landing-page.md)
 ### [规划直接路由](direct-routing-plan.md)
 ### [配置直接路由](direct-routing-configure.md)
 ### [迁移到直接路由](direct-routing-migrating.md)
-### [对直接路由进行监视和故障排除](direct-routing-monitor-and-troubleshoot.md)
+
+### 对直接路由进行监视和故障排除
+#### [概述](direct-routing-monitor-and-troubleshoot.md)
+#### [运行状况仪表板](direct-routing-health-dashboard.md)
 ### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 ### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
