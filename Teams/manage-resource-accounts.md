@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 58d3df08b871dcdcffd9e5d0f331870bb519d5e7
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548236"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957546"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -167,6 +167,22 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 ```
 
 执行此操作后, 您可以从 O365 管理门户删除资源帐户, 在 "用户" 选项卡下。
+
+## <a name="troubleshooting"></a>疑难解答
+
+如果您没有看到分配给团队管理中心中的资源帐户的电话号码, 并且您无法分配该号码, 请检查以下事项:
+
+``` Powershell
+Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
+```
+
+如果 "部门" 属性显示 Skype for Business 应用程序终结点, 请运行以下 cmdlet:
+
+``` Powershell
+Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+```
+> [!NOTE]
+> 在运行 cmldet 后刷新团队管理中心网页, 您应该能够正确分配号码。
 
 ## <a name="related-information"></a>相关信息
 

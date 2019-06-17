@@ -20,17 +20,17 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business Online 中向用户分配会议 ID, 以及会议 Id 参数应该是什么。 '
-ms.openlocfilehash: f7cfe83d77ce9d182eca0d28a0c2c37da5cccb16
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494213"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002833"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
 > [!Note]
-> 如需了解有关 Microsoft Teams 中用户会议 ID 的信息，请参阅[查看和重置 Microsoft Teasms  中分配给用户的会议 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
+> 有关 Microsoft 团队中的用户会议 Id 的信息, 请参阅[查看和重置 Microsoft 团队中分配给用户的会议 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
 
 A conferencing ID is automatically assigned to a Skype for Business user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
 

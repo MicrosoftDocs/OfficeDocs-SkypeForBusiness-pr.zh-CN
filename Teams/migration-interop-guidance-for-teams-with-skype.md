@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7885d08cd007ba94a655c85cd973b8442ea3b01d
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857473"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933831"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
 > [!Tip] 
 > 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 
-作为具有 Skype for Business 的组织开始采纳团队, 管理员可以使用共存 "模式" (它是 TeamsUpgradePolicy 的一个属性) 的概念来管理其组织中的用户体验。 使用模式, 管理员可管理互操作和迁移, 因为它们管理从 Skype for Business 到团队的过渡。  用户模式确定在哪种情况下, 客户端传入的聊天和呼叫世界, 以及安排新会议的服务 (团队或 Skype for business)。 在将来, 模式还将用于根据哪些功能可用来定义团队客户端行为。 
+作为具有 Skype for Business 的组织开始采纳团队, 管理员可以使用共存 "模式" (它是 TeamsUpgradePolicy 的一个属性) 的概念来管理其组织中的用户体验。 使用模式, 管理员可管理互操作和迁移, 因为它们管理从 Skype for Business 到团队的过渡。  用户模式确定在哪种情况下, 客户端传入的聊天和呼叫世界, 以及安排新会议的服务 (团队或 Skype for business)。 它还控制团队客户端中可用的功能。 
 
 
 ## <a name="fundamental-concepts"></a>基本概念
@@ -154,12 +154,6 @@ TeamsUpgradePolicy 控制传入联盟聊天和呼叫的路由。 *除 "孤岛" �
 
 > [!Note] 
 > - 在交付团队和频道的自动强制之前, SfbOnly 和 SfBWithTeamsCollab 模式的行为相同。
-
-
-
-## <a name="teamsinteroppolicy-has-been-retired"></a>TeamsInteropPolicy 已停用 
-
-TeamsInteropPolicy 已被 TeamsUpgradePolicy 替换。 以前遵守 TeamsInteropPolicy 的所有组件均已更新为遵守 TeamsUpgradePolicy。 Microsoft 以前在 TeamsUpgradePolicy 中引入了 "旧式" 模式, 以便于从 TeamsInteropPolicy 切换到 TeamsUpgradePolicy。 在旧模式下, 已理解 TeamsUpgradePolicy 的路由组件将还原为 TeamsInteropPolicy。 现在, 路由完全支持 TeamsUpgradePolicy。 旧版模式不再受支持, 因此无法再授予旧版模式。 TeamsInteropPolicy 的所有实例都处于删除过程中。
 
 
 ## <a name="detailed-mode-descriptions"></a>详细模式说明

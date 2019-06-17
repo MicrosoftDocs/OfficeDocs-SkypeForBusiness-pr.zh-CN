@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857496"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933846"
 ---
 ![升级旅行图, 强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
@@ -52,6 +52,9 @@ ms.locfileid: "34857496"
 在此共存模式 (名为 "**岛**") 中, 每个客户端应用程序都作为单独的岛运行。 Skype for business 与 Skype for Business 交谈, 团队与团队进行协作。 用户始终运行这两个客户端, 并且可以在发起通信的客户端中进行本机通信。 因此, 无需在**孤岛**模式下实现互操作。
 
 为避免令人困惑或 regressed 的 Skype for business 体验、外部 (联合) 通信、PSTN 语音服务和语音应用、Office 集成以及其他一些其他集成将继续由 Skype for Business 处理。
+
+> [!Important]
+> 在 "**孤岛**" 模式下, 来自联盟用户 (组织外部的人员) 的所有邮件都将发送到 Skype for business。 切换到 "**仅限团队**" 模式后, 您的组织外部的所有邮件都将发送给团队。
 
 > [!Tip]
 > Skype for Business Online 客户推荐的路径是从默认的**孤岛**模式开始, 推动团队在组织中采用饱和, 然后快速转到 "**仅团队**" 模式。 在本地和混合客户可以通过**团队协作模式将 Skype for** business 部署为一个起点, 而不是使用孤岛和**skype For business 通过团队协作和会议**模式进行部署, 从而获得好处。如果适用, 并且在组织准备好采纳团队时, 则为 "**仅限团队**" 模式。

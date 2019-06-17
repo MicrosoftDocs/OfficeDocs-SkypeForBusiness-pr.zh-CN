@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何管理租户范围和团队从团队转换期间的用户设置在 Microsoft 365 管理中心对新的 Microsoft 团队管理中心体验。
+description: 了解如何在从 Microsoft 365 管理中心的团队体验切换到新的 Microsoft 团队管理中心时管理团队的租户范围和用户设置。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827793"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933777"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -34,84 +34,111 @@ ms.locfileid: "33827793"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心？  
 
-新的管理中心体验将为您提供管理团队和 Skype for Business 的统一体验。 我们提供附加功能、 端到端见解和管理用户级别上的团队设置的功能。
+新的管理中心体验将为你提供统一的体验来管理团队和 Skype for business。 我们正在提供其他功能、端到端见解以及管理用户级别的团队设置的功能。
 
-![在管理中心内，Microsoft 团队的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Microsoft 团队管理中心的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>设置迁移到新的 Microsoft 团队管理中心
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>已迁移到新 Microsoft 团队管理中心的设置
 
-下表标识团队体验已迁移并显示新的管理门户中的当前设置和策略之间的关系的部分。
+下表标识了已迁移的团队体验部分, 并显示了当前设置与新管理门户中的策略之间的关系。
 
-|Microsoft 365 管理中心中的团队的部分  |设置名称 （租户级别）  |Microsoft 团队管理中心策略   |级别： 租户或用户   |
+|Microsoft 365 管理中心中的团队部分  |设置名称 (租户级别)  |Microsoft 团队管理员中心策略   |级别: 租户或用户   |
 |---------|---------|---------|---------|
-|常规     |显示个人配置文件中的组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
-|常规     |用于未设置团队收件人 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|电子邮件集成     |允许用户向通道发送电子邮件         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|电子邮件集成     |允许的发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
-|自定义云存储     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |收存箱        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |Google 驱动器        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|常规     |在个人资料中显示组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
+|常规     |对没有团队的收件人使用 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|电子邮件集成     |允许用户向频道发送电子邮件         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|电子邮件集成     |允许发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
+|自定义云存储     |箱         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|设置用户/许可证类型     |为所有用户打开或关闭的 Microsoft 团队          |已弃用的<sup>1</sup>        |         |
-|团队和频道     |         |重定向到 Azure Active Directory 组管理 （当前体验相同）。              |用户         |
-|团队和频道     |         |重定向到 AAD 组管理 （当前体验相同）。             |用户          |
-|应用|默认启用新的外部应用|组织范围应用程序设置|租户|
-|应用|允许外部应用程序|组织范围应用程序设置|租户|
-|应用|允许的外部应用程序<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|用户|
-|应用|默认应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
-|应用|外部应用程序<sup>3</sup>|TeamsAppPermissionPolicy|用户|
-|呼叫和会议     |允许专用会议日程安排         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许点对点通道 meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许通道会议日程安排         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |在会议中允许视频         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许在会议中共享的屏幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
-|呼叫和会议     |允许专用的呼叫         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |用户          |
-|消息     |启用 Giphy，以便用户可以向对话添加 gif 图像         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |内容评级         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |启用的用户可以编辑并将添加到对话的 memes         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |启用的用户可以编辑并将添加到对话的标签         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许所有者删除所有的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许用户编辑其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
-|消息     |允许用户删除其自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|按用户/许可证类型设置     |为所有用户打开或关闭 Microsoft 团队          |已弃用<sup>1</sup>        |         |
+|团队和频道     |         |重定向到 Azure Active Directory 组管理 (与当前体验相同)。              |用户         |
+|团队和频道     |         |重定向到 AAD 组管理 (与当前体验相同)。             |用户          |
+|应用|默认启用新的外部应用|组织范围内的应用设置|租户|
+|应用|允许外部应用|组织范围内的应用设置|租户|
+|应用|允许旁加载外部应用<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|用户|
+|应用|默认应用<sup>3</sup>|TeamsAppPermissionPolicy|用户|
+|应用|外部应用<sup>3</sup>|TeamsAppPermissionPolicy|用户|
+|通话和会议     |允许针对私人会议进行日程排定         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|通话和会议     |允许临时频道聚会         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|通话和会议     |允许针对频道会议进行日程安排         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|通话和会议     |允许会议中的视频         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|通话和会议     |允许在会议中共享屏幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |用户          |
+|通话和会议     |允许专用呼叫         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |用户          |
+|消息     |启用 Giphy, 以便用户可以将 gif 添加到对话         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |内容分级         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |启用用户可以编辑和添加到对话的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |启用用户可以编辑和添加到对话中的不干胶标签         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许所有者删除所有邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许用户编辑自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
+|消息     |允许用户删除自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 |消息     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
-<sup>1</sup>弃用的来宾。 在管理中心中的 Microsoft 团队可以立即托管启用/禁用来宾。 启用/禁用团队业务 enterprise，Edu 学生，并将很快弃用 Edu 教职员工。 这应该通过分配许可证 Microsoft 365 管理中心中的管理。 请参阅[Microsoft 团队管理用户访问](user-access.md)。
+<sup>1</sup>已弃用来宾。 现在可以在 Microsoft 团队管理中心中管理启用/禁用来宾。 启用/禁用团队 for Business 企业版、教育机构学生版和教育机构教职员工将很快被弃用。 这应该通过在 Microsoft 365 管理中心分配许可证来管理。 请参阅[管理用户对 Microsoft 团队的访问权限](user-access.md)。
 <br><br>
-<sup>2</sup> Sideloading 拆分，如下所示：
+<sup>2</sup>个旁加载按如下方式拆分:
 
-- 允许对 sideload 应用程序可以在用户级别[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中托管的用户。
-- 允许租户进行交互可在组织范围应用程序设置的租户级别管理的自定义应用程序中的用户。
+- 允许用户在[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的用户级别上管理可管理的应用旁加载应用。
+- 允许租户中的用户与可在组织范围内应用设置中的租户级别管理的自定义应用交互。
  
-<sup>3</sup>默认应用程序和外部应用程序可以启用和禁用 TeamsAppPermissionPolicy 用户级别。 此外，可以在组织范围应用程序设置将覆盖任何用户和租户级设置的租户级别阻止应用程序。 
+<sup>3</sup>在 TeamsAppPermissionPolicy 中的用户级别上, 可以启用和禁用默认应用和外部应用。 此外, 可以在组织范围内应用设置中的租户级别阻止应用, 这些应用会覆盖任何用户和租户级别的设置。 
 
 > [!NOTE]
-> 您将继续在 Microsoft 365 管理中心中配置与团队和频道使用组仪表板。 应用程序设置将保留在 Microsoft 365 管理中心的团队区域，并且将更高版本迁移。 
+> 对于与团队和频道相关的配置, 您将继续使用 Microsoft 365 管理中心中的组仪表板。 应用的设置将保留在 Microsoft 365 管理中心的 "团队" 区域中, 稍后将进行迁移。 
 
-## <a name="manage-settings-during-the-migration"></a>在迁移期间管理设置
+## <a name="manage-settings-during-the-migration"></a>在迁移过程中管理设置
 
-您可以继续修改 Microsoft 365 管理中心和业务管理中心的 Skype 中的设置，直到完成您的租户的节的迁移。 
+你可以继续修改 Microsoft 365 管理中心和 Skype for business 管理中心中的设置, 直到针对你的租户完成了分区的迁移。 
 
-下表显示了您可以在迁移期间管理功能。
+下表显示了在迁移期间可以管理功能的位置。
 
-|功能  |Microsoft 团队管理中心                      |Skype 的业务管理中心 （旧）  |Microsoft 365 管理中心  |
+|功能  |Microsoft 团队管理中心                      |Skype for business 管理中心 (旧版)  |Microsoft 365 管理中心  |
 |---------|:---------:|:---------:|:---------:|
-|团队消息、 会议和 Live 事件策略     |     X    |         |         |
+|团队消息、会议和实时事件策略     |     X    |         |         |
 |团队升级策略     |    X     |         |         |
-|来宾消息、 会议和语音设置     |   X      |         |         |
+|邮件、会议和语音的来宾设置     |   X      |         |         |
 |团队生命周期管理   |    X    |      |       |
 |团队设置   |    X    |      |       |
 |外部访问设置     |    X    |      |       |
 |用户管理    |         |         |    X     |    
 |音频会议     |    X     |    X     |         |
-|调用计划     |         |    X     |         |
+|通话计划     |         |    X     |         |
 |电话系统    |         |     X    |         |
 |电话号码管理     |         |   X      |         |
-|许可使用云语音功能     |         |         |    X     |
+|云语音功能的许可     |         |         |    X     |
 |自动助理     |         |    X     |         |
 |呼叫队列     |         |    X     |         |
 
 ## <a name="manage-settings-after-the-migration"></a>迁移后管理设置
 
-这些设置的迁移完成后，我们将在 Office 365 管理中心和业务管理中心中，为 Skype 中禁用这些和它们然后可以托管在新的 Microsoft 团队管理中心。
+完成这些设置的迁移后, 我们将在 Office 365 管理中心和 Skype for business 管理中心中禁用它们, 然后可以在新的 Microsoft 团队管理中心中管理它们。
 
 
+## <a name="edu-migration-june-july-2019"></a>教育机构迁移6月2019日
+
+在六月和七月2019中, 剩余的教育机构租户将从旧的管理员体验 (在 Microsoft 365 管理中心内) 迁移到团队管理中心。 检查 "消息中心" (在 Microsoft 365 管理中心内), 了解迁移时间。 下面是迁移后将看到的内容:
+
+|Microsoft 365 管理中心中的团队部分  |设置名称 (租户级别)  |Microsoft 团队管理员中心策略   |级别: 租户或用户   |
+|---------|---------|---------|---------|  
+| 消息  |所有者可以删除已发送的邮件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息 | 用户可以删除已发送的邮件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息  | 用户可以编辑已发送的邮件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |用户|
+| 消息 | 允许用户聊天 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息 | 在对话中使用 Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息 | Giphy 内容分级 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息 | 在对话中使用 meme  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+| 消息 | 在对话中使用贴纸 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+
+此外, 以下是仅适用于 Microsoft 团队管理中心的设置:
+
+|设置名称 | Microsoft 团队管理员中心策略 | 级别: 租户或用户
+|-------------|-------------------------------------|---------|
+|允许 URL 预览 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+|允许用户从群组聊天中删除用户 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+|允许沉浸式阅读器查看邮件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 用户 |
+|允许用户翻译邮件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 用户 |
+|已读回执 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+|用户可以发送优先级通知 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 用户 |
+|语音消息创建 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 用户 |
+|在移动设备上, 在最近的聊天上显示收藏频道 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 用户 |

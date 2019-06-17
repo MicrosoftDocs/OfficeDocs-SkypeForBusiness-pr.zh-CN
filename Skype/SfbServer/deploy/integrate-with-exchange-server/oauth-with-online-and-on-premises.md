@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 在 Exchange Online 和 Skype for business Online 之间配置 OAuth 身份验证可启用功能支持中所述的 Skype for Business 和 Exchange 集成功能。
-ms.openlocfilehash: be1fd4ae0c1a1046a8da1d9a30550ac238a4034a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278124"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933839"
 ---
-# <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>配置 Skype for Business Online 或 Microsoft 团队和 Exchange Server 之间的集成 
+# <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>在 Skype for Business Online 和 Exchange Server 之间配置集成和 OAuth 
 
 配置 Exchange server 和 Skype for business Online 之间的集成可启用[功能支持](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)中所述的 Skype for Business 和 Exchange 集成功能。
 
@@ -33,6 +33,8 @@ ms.locfileid: "34278124"
 
 - 有关可适用于本主题中的过程的键盘快捷方式的信息, 请参阅[Exchange 管理中心中的键盘快捷方式]( https://go.microsoft.com/fwlink/p/?LinkId=746512)。
 
+- 有关兼容性的信息, 请参阅[Skype for business 与 Office 应用的兼容性](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)。
+
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>配置 Exchange Server 和 O365 之间的集成
 
 ### <a name="step-1-configure-oauth-authentication-between-exchange-server-and-o365"></a>步骤 1: 在 Exchange Server 和 O365 之间配置 OAuth 身份验证
@@ -41,14 +43,14 @@ ms.locfileid: "34278124"
 
 [在 Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-or-teams-partner-application"></a>步骤 2: 为 Skype for Business Online 或团队合作伙伴应用程序创建新的邮件用户帐户
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>步骤 2: 为 Skype for Business Online 合作伙伴应用程序创建新的邮件用户帐户
 
 此步骤在 Exchange 服务器上执行。 它将创建一个邮件用户并为其分配合适的管理角色权限。 随后此用户将用于下一步骤。
 
 为您的 Exchange 组织指定经验证的域。 此域应该是用作本地 Exchange 帐户使用的主 SMTP 域的相同域。 此域在以下过程\<中称为 "\>已验证域"。 此外, \<DomainControllerFQDN\>应该是域控制器的 FQDN。
 
 ``` Powershell
-$user = New-MailUser -Name O365-ApplicationAccount -ExternalEmailAddress O365-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
+$user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 此命令将在地址列表中隐藏新的邮件用户。
@@ -67,7 +69,7 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online-or-teams"></a>步骤 3: 为 Skype for Business Online 或团队创建和启用合作伙伴应用程序
+### <a name="step-3-create-and-enable-a-partner-application-for-skype-for-business-online"></a>步骤 3: 为 Skype for business Online 创建和启用合作伙伴应用程序 
 
 创建新的合作伙伴应用程序，并且将使用你刚刚创建的帐户。 在您的本地 Exchange 组织中的 Exchange PowerShell 中运行以下命令。
 
@@ -75,13 +77,62 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
+### <a name="step-4-export-the-on-premises-authorization-certificate"></a>步骤 4: 导出本地授权证书
+
+运行 PowerShell 脚本以导出本地授权证书, 您将在下一步将这些证书导入到您的 Skype for Business Online 组织。
+
+请将以下文本保存到一个 PowerShell 脚本文件，例如名为 ExportAuthCert.ps1 的文件。
+
+``` Powershell
+$thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
+if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
+{
+md $env:SYSTEMDRIVE\OAuthConfig
+}
+cd $env:SYSTEMDRIVE\OAuthConfig
+$oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.Thumbprint -match $thumbprint}
+$certType = [System.Security.Cryptography.X509Certificates.X509ContentType]::Cert
+$certBytes = $oAuthCert.Export($certType)
+$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+[System.IO.File]::WriteAllBytes($CertFile, $certBytes)
+```
+
+在 Exchange PowerShell 中的本地 Exchange 组织中, 运行刚刚创建的 PowerShell 脚本。 例如: .\ExportAuthCert.ps1
+
+### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步骤 6：将本地授权证书上载到 Azure Active Directory ACS
+
+接下来，使用 Windows PowerShell 将你在上一步中导出的本地授权证书上载到 Azure Active Directory 访问控制服务 (ACS)。 要执行此操作，必须已经安装用于 Windows PowerShell cmdlet 的 Azure Active Directory 模块。 如果未安装, 请转到[https://aka.ms/aadposh](https://aka.ms/aadposh)安装适用于 Windows PowerShell 的 Azure Active Directory 模块。 在安装用于 Windows PowerShell 的 Azure Active Directory 模块之后，请完成以下步骤。
+
+1. 单击**用于 Windows PowerShell 的 Azure Active Directory 模块**快捷方式以打开安装了 Azure AD cmdlet 的 Windows PowerShell 工作区。此步骤中的所有命令都将使用 Windows PowerShell for Azure Active Directory 控制台运行。
+
+2. 将以下文本保存到一个名为的 PowerShell 脚本文件中, `UploadAuthCert.ps1`例如。
+
+   ``` Powershell
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
+
+3. 运行你在上一步中创建的 PowerShell 脚本。 例如:`.\UploadAuthCert.ps1`
+
+4. 在启动脚本之后，将显示凭据对话框。请输入你的 Microsoft Online Azure AD 组织的租户管理员帐户的凭据。在运行脚本之后，请将 Windows PowerShell for Azure AD 会话保持打开。你将使用此会话来在下一步中运行 PowerShell 脚本。
+
 ### <a name="verify-your-success"></a>验证是否成功
 
 通过验证某些功能是否已成功运行, 验证配置是否正确。 
 
-1. 确认 Outlook 日历委派工作 betweeen 两个团队用户使用 Exchange Server 2016 或2019邮箱。
+1. 确认移动客户的对话历史记录在 "Outlook 对话历史记录" 文件夹中可见。
 
-2. 确认移动客户的对话历史记录在 "Outlook 对话历史记录" 文件夹中可见。
+2. 使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)确认已存档的聊天邮件将在用户的本地邮箱中存入 "清除" 文件夹中。
 
 或者, 查看您的流量。 OAuth 握手中的流量非常特殊 (并且看起来不像基本身份验证), 特别是在领域内, 你将开始查看如下所示的颁发者流量: 00000004-0000-0ff1-ce00-000000000000 @ (有时有@ 符号), 位于正在传递的令牌中。 您将看不到用户名或密码, 这是 OAuth 的点。 但是, 你将看到 "Office" 颁发者-在本例中, "4" 是 Skype for Business-以及你的订阅领域。
 

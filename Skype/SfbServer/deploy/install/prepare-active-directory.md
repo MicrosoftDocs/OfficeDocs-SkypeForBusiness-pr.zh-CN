@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '摘要: 了解如何为安装 Skype for Business 服务器准备 Active Directory 域。 从 Microsoft 评估中心下载免费试用版 Skype for Business 服务器, 网址为: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306596"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002843"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>为 Skype for business 服务器准备 Active Directory
  
@@ -169,7 +169,7 @@ Skype for business 服务器与 Active Directory 域服务 (AD DS) 紧密集成�
   
 11. 注销, 然后重新登录到 Windows, 以便你的安全令牌通过新的 Skype for Business Server 安全组进行更新, 然后重新打开部署向导。
     
-12. 验证“**准备 Active Directory**”旁边是否存在绿色对勾以确认过程取得成功，如图所示。
+12. 验证是否在 "**准备 Active Directory** " 旁边看到绿色的复选标记以确认成功, 如图所示。
     
      ![Active Directory 准备工作已完成。](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   

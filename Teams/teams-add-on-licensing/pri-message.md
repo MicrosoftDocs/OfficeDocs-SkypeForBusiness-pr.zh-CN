@@ -18,24 +18,25 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解团队消息中的优先级通知。
-ms.openlocfilehash: a50e9413e83b59295d46fc98562f95b8a6ce7fda
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: f21d542630063312eaa24ed2d0d5c5e25e6ded90
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702693"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957530"
 ---
 # <a name="messaging-policies-licensing"></a>邮件策略授权
 
-从2020年1月1日起, 许可用户将能够根据其订阅条款发送优先级通知。 IT 管理员将获得有关优先级通知使用情况的报告, 以支持相应的用户许可。
+从2020年1月1日起, 许可用户将能够根据其订阅的条款发送紧急邮件 (优先级通知)。 IT 管理员将获得有关优先级通知使用情况的报告, 以支持相应的用户许可。 无论许可证如何, 用户都可以通过优先级通知收到不受限制的紧急邮件。 
 
 |字段| |每个用户最多发送5条消息| 发送每个用户每月无限长的消息|
 |---|---|---|---|
-|Enterprise|| Office 365 F1/Microsoft 365 F1<br> Office 365 E1 | Office 365 E3/Microsoft 365 E3 <br>Office 365 E5/Microsoft 365 E5
-|官方| | |
-||GCC|Office 365 F1/Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3/Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-高| Office 365 F1/Microsoft 365 F1<br> Office 365 G1| Office 365 G3/Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1/Microsoft 365 F1<br>Office 365 G1|Office 365 G3/Microsoft 365 G3|
-|教育版| |Office 365 A1/Microsoft 365 A1|Office 365 A3/Microsoft 365 A3<br> Office 365 A5/Microsoft 365 A5
-|中小型| |Office 365 商业协作版|Office 365 商业高级版/Microsoft 365 商业版|
+|Enterprise||Office 365 F1/Microsoft 365 F1<br> Office 365 E1 | Office 365 E3/Microsoft 365 E3 <br>Office 365 E5/Microsoft 365 E5
+|教育版 ||Office 365 A1/Microsoft 365 A1|Office 365 A3/Microsoft 365 A3<br> Office 365 A5/Microsoft 365 A5
+|中小型       ||Office 365 商业协作版|Office 365 商业高级版/Microsoft 365 商业版|
 |||||
+
+<!-- |Government| | |
+||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
+||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
+||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->

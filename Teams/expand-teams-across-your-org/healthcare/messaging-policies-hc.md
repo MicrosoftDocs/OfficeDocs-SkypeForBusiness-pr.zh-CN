@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的安全邮件入门
-ms.openlocfilehash: 86640eae696c424e7d6132b277dc0f6c2241ff04
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: d53a445cd7c13001fee8f365bc5d897a065de398
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915161"
+ms.locfileid: "34933854"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
@@ -52,7 +52,7 @@ ms.locfileid: "34915161"
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
-- ![数字2的图标, 在上一个屏幕截图](../../media/sfbcallout2.png)中引用标注**用户可以发送优先级通知**使用此设置允许用户向其他用户发送优先级聊天消息。 此功能可帮助医院人员在关键事件需要关注时通知另一个人。 与常规的 "重要" 消息不同, 优先级通知重复通知用户一段20分钟的时间, 或直到邮件被接收并阅读邮件, 最大程度地提高邮件的获取和操作操作的可能性。
+- ![数字2的图标, 在上一个屏幕截图](../../media/sfbcallout2.png)中引用标注**用户可以发送优先级通知**, 用户可在向其他用户发送聊天消息时将邮件标记为 "紧急"。 此功能可帮助医院人员在关键事件需要关注时通知另一个人。 与常规的 "重要" 消息不同, 优先级通知将每隔两分钟通知用户最多20分钟, 或者直到邮件被接收并阅读, 最大程度地提高邮件的处理可能性。
 
   管理员可以启用或禁用分配了此策略的用户发送优先级通知的能力。 默认情况下, 此功能处于打开状态。 优先级消息的收件人可能不具有相同的消息传递策略, 并且将不具有用于禁用优先级消息的选项。 对于医疗保健应用程序, 我们建议为至少某些用户启用该功能, 但你需要确定哪些用户。
 
