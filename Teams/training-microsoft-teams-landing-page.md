@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb60e7908a604e680682e7b12c75328410794879
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548339"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957538"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -133,6 +133,19 @@ ms.locfileid: "34548339"
                     <div class="cardText">
                         <h3>Microsoft 365 中的团队合作简介</h3>
                         <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    </li>
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Microsoft 365 认证：团队合作管理员协会</h3>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 团队合作管理员可配置、部署和管理 Office 365 工作负载，如 SharePoint（联机、本地和混合版本）、OneDrive 和 Teams。</a></p>
                     </div>
                 </div>
             </div>
