@@ -1,6 +1,6 @@
 ---
 title: 联系 PSTN 服务支持
-author: Tony Smith
+author: TonySmit
 ms.author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
@@ -22,16 +22,16 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: 当您获得您的组织的电话号码或移植 (转移) 号码时, 您可能需要在 PSTN 服务支持处获得帮助和支持。
-ms.openlocfilehash: 4517e798f5b3157ea3f5e121c9938bc46b6d6eab
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: ada0344c03476cd8d6582d29aed5a0c23226b111
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34868769"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012986"
 ---
-#<a name="pstn-service-desk"></a>PSTN 服务台
+# <a name="pstn-service-desk-help"></a>PSTN 服务支持帮助
 
-如果您仍需要帮助，请让我们知道我们可以如何帮助您。 在您的帮助请求中，包括您的组织 ID、域、您需要帮助的号码类型、所需数量、授权人帐户上以及有关您的问题的其他重要详细信息。
+如果您需要有关获取或转移号码给我们的帮助, 但需要帮助, 请告知我们我们可以通过电子邮件向您提供帮助, 并将其发送给我们。 在您的电子邮件帮助请求中, 请提供尽可能多的详细信息, 并包括详细信息, 例如组织 ID、域、需要帮助的号码类型、所需的数字类型、授权人员和有关问题的其他重要详细信息。
 
 然后将请求发送到以下电子邮件地址之一:
 

@@ -12,128 +12,128 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: 有关如何使用 PowerShell 团队以控制谁可以保留在您的组织和功能的实时事件的设置策略的示例有他们创建的事件
+description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204567"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012971"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
-可以使用以下 Windows PowerShell cmdlet 设置并分配的工作组中的实时事件的策略设置： 
-- [Get CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [设置 CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [新 CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [授予 CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+你可以使用以下 Windows PowerShell cmdlet 为团队中的实时事件设置和分配策略设置: 
+- [CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [新-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [授权-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 下面是一些示例。
 
-## <a name="allow-users-to-schedule-live-events"></a>允许用户安排 live 事件 
+## <a name="allow-users-to-schedule-live-events"></a>允许用户安排实时事件 
 
 > [!NOTE]
-> 这些示例供快速入门事件。 对于外部编码器事件，其他一些的步骤，您必须执行。 有关详细信息，请参阅[使用户能够安排外部编码器事件](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events)。
+> 这些示例适用于团队中生成的事件。 对于使用外部应用或设备生成的事件, 必须执行其他步骤。 有关详细信息, 请参阅[使用户能够计划使用外部应用或设备生成的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
 
-**允许用户安排 live 事件**
+**允许用户安排实时事件**
 
-如果该用户分配全局策略，则运行，并验证*AllowBroadcastScheduling*参数设置为*True*:
+如果向用户分配了全局策略, 请运行并验证*AllowBroadcastScheduling*参数是否设置为*True*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-然后将该用户分配到全局策略中，运行：
+然后, 将该用户分配给全局策略, 运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>用户方案
-**您希望组织能够安排 live 事件中的所有用户**
+**希望组织中的所有用户都能够安排实时事件**
 
-如果用户分配全局策略，运行并验证该*AllowBroadcastScheduling* * 设置为*True*:
+如果向用户分配了全局策略, 请运行并验证*AllowBroadcastScheduling* * 是否设置为*True*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-如果用户分配全局策略之外的策略，则运行，并验证 *-AllowBroadcastScheduling*设置为*True*:
+如果向用户分配了全局策略之外的策略, 请运行并验证 *-AllowBroadcastScheduling*是否设置为*True*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**要安排要禁用整个组织的 live 事件**
+**你希望在你的组织中禁用实时事件计划**
 
-禁用 live 事件计划，请运行：
+禁用实时事件调度, 运行:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-组织中的所有用户都分配全局策略，运行：
+将组织中的所有用户分配给全局策略, 请运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**您希望大量用户能够安排 live 事件和安排它们阻止用户组**
+**您希望大量用户能够安排实时事件, 并防止一组用户安排实时事件**
 
-运行并验证*AllowBroadcastScheduling*设置为*True*:
+运行并验证*AllowBroadcastScheduling*是否设置为*True*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-然后将一个用户分配给全局策略，运行：
+然后, 将一个或用户分配给全局策略, 运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-创建一个新的策略，不允许安排 live 事件，运行：
+创建不允许安排实时事件的新策略, 运行:
 ```
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
-禁用 live 事件计划，请运行：
+禁用实时事件调度, 运行:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-然后将用户分配给此策略，请运行：
+然后将用户分配给此策略, 运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**您想要禁用的大量用户安排 live 事件并允许用户安排一组**
+**您希望为大量用户禁用实时事件调度, 并允许一组用户安排它们**
 
-禁用 live 事件计划，请运行：
+禁用实时事件调度, 运行:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-然后将这些用户分配全局策略，运行：
+然后将这些用户分配给全局策略, 运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-创建策略，以允许安排 live 事件、 运行：
+创建允许实时事件调度的策略, 请运行:
 ```
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
-启用 live 事件日程安排，运行：
+启用实时事件调度, 运行:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-然后将用户分配给此策略，请运行：
+然后将用户分配给此策略, 运行:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
-## <a name="set-who-can-join-live-events"></a>设置可以加入 live 事件
+## <a name="set-who-can-join-live-events"></a>设置可以加入实时事件的人员
  
-设置全局策略以允许用户创建事件的任何人，包括匿名用户可以参加、 运行：
+将全局策略设置为允许用户创建所有人 (包括匿名用户) 都可以出席的事件, 请运行:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-## <a name="set-the-recording-option-for-live-events"></a>设置的实时事件录音选项
+## <a name="set-the-recording-option-for-live-events"></a>设置实时事件的录制选项
 > [!NOTE]
-> 此设置只应用于快速入门事件。
+> 此设置仅适用于团队中产生的事件。
 
-设置要禁用的实时事件记录的全局策略：
+将全局策略设置为禁用实时事件的录制:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>在 live 事件 （即将推出） 中设置转录和翻译
+## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>在实时事件中设置脚本和翻译 (即将推出)
 > [!NOTE]
-> 此设置只应用于快速入门事件。 
+> 此设置仅适用于团队中产生的事件。 
 
-设置全局策略以启用转录和转换为事件与会者：
+设置全局策略以为事件参与者启用脚本和翻译:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

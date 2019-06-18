@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 40c334a1a0159614b77de11f8eb3e5a0e3dcc1b5
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857403"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012924"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -49,6 +49,16 @@ ms.locfileid: "34857403"
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人员数  | 250    |
+
+## <a name="teams-live-events"></a>团队活动事件
+
+|功能     | 最大限制 |
+|------------|---------------|
+|受众大小 | 10000与会者 |
+|事件的持续时间 | 4小时 |
+|Office 365 租户中的并发实时事件 | 岁 |
+
+有关实时事件和团队实时事件与 Skype 会议直播比较的详细信息, 请转到[团队实时事件和 Skype 会议](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)直播。
 
 ## <a name="storage"></a>Storage
 

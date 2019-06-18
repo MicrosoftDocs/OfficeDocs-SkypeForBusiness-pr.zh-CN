@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 在 Exchange Online 和 Skype for business Online 之间配置 OAuth 身份验证可启用功能支持中所述的 Skype for Business 和 Exchange 集成功能。
-ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: ab778279996bd9439eaad9f13b373b206abf2662
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933839"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012979"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>在 Skype for Business Online 和 Exchange Server 之间配置集成和 OAuth 
 
@@ -126,13 +126,23 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. 在启动脚本之后，将显示凭据对话框。请输入你的 Microsoft Online Azure AD 组织的租户管理员帐户的凭据。在运行脚本之后，请将 Windows PowerShell for Azure AD 会话保持打开。你将使用此会话来在下一步中运行 PowerShell 脚本。
 
+### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>步骤 7: 验证证书是否已上载到 Skype for Business 服务主体
+1. 在已打开并验证到 Azure Active Directory 的 PowerShell 中, 运行以下
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. 出现提示时按 Enter ReturnKeyValues
+3. 确认看到列出了与 Exchange Oauth 证书开始和结束日期相匹配的 "开始日期" 和 "结束数据" 的键
+
 ### <a name="verify-your-success"></a>验证是否成功
 
 通过验证某些功能是否已成功运行, 验证配置是否正确。 
 
-1. 确认移动客户的对话历史记录在 "Outlook 对话历史记录" 文件夹中可见。
+1. 在具有混合 Exchange 服务器配置的组织中确认使用云语音邮件服务的 Skype for Business 用户可以成功更改其语音邮件问候语。
 
-2. 使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)确认已存档的聊天邮件将在用户的本地邮箱中存入 "清除" 文件夹中。
+2. 确认移动客户的对话历史记录在 "Outlook 对话历史记录" 文件夹中可见。
+
+3. 使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)确认已存档的聊天邮件将在用户的本地邮箱中存入 "清除" 文件夹中。
 
 或者, 查看您的流量。 OAuth 握手中的流量非常特殊 (并且看起来不像基本身份验证), 特别是在领域内, 你将开始查看如下所示的颁发者流量: 00000004-0000-0ff1-ce00-000000000000 @ (有时有@ 符号), 位于正在传递的令牌中。 您将看不到用户名或密码, 这是 OAuth 的点。 但是, 你将看到 "Office" 颁发者-在本例中, "4" 是 Skype for Business-以及你的订阅领域。
 

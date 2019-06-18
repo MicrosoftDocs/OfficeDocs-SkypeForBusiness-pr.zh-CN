@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428750"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013026"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -29,16 +29,17 @@ ms.locfileid: "34428750"
 用户需要具备以下先决条件才能安排团队实时事件。
 
 以下是必须分配的许可证:  
-- Office 365 企业版 E1、E3 或 E5 许可证或 Office 365 A3 或 A5 许可证。 
-- Microsoft 团队和 Microsoft Stream 许可证。
+- Office 365 企业版 E1、E3 或 E5 许可证或 Office 365 A3 或 A5 许可证
+- Microsoft 团队许可
+- Microsoft Stream 许可证
 
 > [!IMPORTANT]
 > 创建和安排实时事件的用户必须具有 Exchange Online 邮箱。
 
-请务必了解, Office 365 许可证是作为经过身份验证的用户参与的实时事件所必需的, 具体取决于所使用的生产方法:
+请务必了解, 需要 Office 365 许可证作为经过身份验证的用户参与实时事件, 但此要求取决于所使用的生产方法:
 
-- **对于 "快速入门" 生产** 必须为用户分配 Microsoft 团队许可证。
-- **对于外部编码器生产**必须为用户分配 Microsoft Stream 许可证。
+- **对于团队中产生的事件** 必须为用户分配团队许可证。
+- **对于使用外部应用或设备生成的事件**必须为用户分配流许可证。
 
 有关许可的详细信息, 请参阅[Microsoft 团队加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -47,14 +48,14 @@ ms.locfileid: "34428750"
 - 团队会议中启用了视频共享 (*TeamsMeetingPolicy-AllowIPVideo 参数 = True*)。
 - 团队会议中启用了屏幕共享 (*TeamsMeetingPolicy-ScreenSharingMode 参数 = EntireScreen*)。
 - 启用团队中的实时事件调度 (*TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling 参数 = True*)。
-- 在 Microsoft Stream 中创建实时事件 (用于外部编码器生产) 的权限。
+- 在流中创建实时事件 (适用于外部应用或设备生产) 的权限。
 
 > [!IMPORTANT]
 > Office 365 来宾、联合和匿名用户不能被邀请为团队实时事件中的生产者或演示者。 Office 365 来宾和联合用户只能以匿名方式观看实时事件。 
  
 ## <a name="who-can-watch-live-events"></a>哪些人可以观看实时事件？
 
-|**与会者可见性**       |**快速入门**  |**外部编码器**  |
+|**与会者可见性**       |**团队生产**  |**外部应用或设备生产**  |
 |------------------------------|-----------------|----------------------|
 |公共 (匿名用户)      |  是            |  否                  |
 |来宾用户                   |  否<sup>1</sup> |  否                  |
@@ -68,7 +69,7 @@ ms.locfileid: "34428750"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>团队实况活动和 Skype 会议直播
 下表重点介绍实时事件中提供的核心功能和功能以及它们与 Skype 会议直播有何区别。 
 
-|**能**   |**Skype 会议直播** |**Microsoft 团队中生成的事件** |**在外部应用或设备中生成的事件** |
+|**能**   |**Skype 会议直播** |**团队中产生的事件** |**在外部应用或设备中生成的事件** |
 |---------|---------|---------|---------|
 |最大受众大小 |10000与会者 |10000与会者 * |10000与会者 * |
 |实时事件的最长持续时间 |4小时 |4小时 |4小时 |
@@ -87,7 +88,7 @@ ms.locfileid: "34428750"
 |演示屏幕 |X |&#x2714; (团队) |不适用 |
 |演示 PowerPoint (PPT 共享) |&#x2714; |X (通过屏幕共享缓解) |不适用 |
 |基于云的会议录制 |&#x2714; |&#x2714; |&#x2714; |
-|将录制自动发布到 Microsoft Stream |X |X |&#x2714; |
+|自动发布录制到流 |X |X |&#x2714; |
 |实时标题和翻译 |&#x2714; |&#x2714; (即将推出) |X |
 |实时事件录制中的标题 |&#x2714; |&#x2714; (即将推出) |&#x2714; |
 |与会者 DVR 控件 (暂停、后退) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ ms.locfileid: "34428750"
 - 前往本地加拿大
 
 **排除和注意事项**
-- **转到本地:** 英国、印度、澳大利亚、日本和其他 Microsoft 团队现在不支持本地。
+- **转到本地:** 英国、印度、澳大利亚、日本和其他团队目前不支持本地。
 - **中国:** 活动团队成员和与会者将无法使用团队实时事件, 因为 Azure CDN 在中国不可访问。 解决方法是使用公司 VPN 连接, 它通过客户的公司网络获取连接到 CDN 的客户端。
 
 ## <a name="next-steps"></a>后续步骤
