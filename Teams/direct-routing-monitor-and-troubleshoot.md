@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本文介绍如何监视直接路由配置并对其进行故障排除。
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915153"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062376"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 
@@ -66,6 +66,8 @@ Microsoft 正在致力于为疑难解答和监视提供更多工具。 请定期
 降级意味着不会首先尝试 SBC。 例如, 我们有具有同等优先级的 sbc1.contoso.com 和 sbc2.contoso.com。  
 
 如果 sbc1.contoso.com 不按上述方式发送 SIP 选项, 则会将其降级。 接下来, sbc2.contoso.com 尝试通话。 如果 sbc2 无法送达呼叫, 则会在生成故障之前再次尝试 sbc1.contoso.com (已降级)。 
+
+如果一个路线中的两个 (或更多) SBCs concidered 完好且相等, Fisher-Yates 的无序应用以 distrubute SBCs 之间的通话。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>监控通话质量分析仪表板和 SBC 日志 
  

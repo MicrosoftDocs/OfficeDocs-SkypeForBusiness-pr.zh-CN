@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: 5392359307d97e010f86d3bb71f2f7c3f3d1ffb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290466"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062392"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -80,7 +80,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX (Microsoft Phone S
 
 下图总结了基本域、子域和联系人标头的要求。
 
-![基本域、子域和联系人标题的要求](media/direct-routing-1-sbc-requirements.png)
+![显示域和联系人标题要求的图表](media/direct-routing-1-sbc-requirements.png)
 
 SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案, 运营商需要使用* \*base_domain (例如, \*customers.adatum.biz)* 申请一个证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
 
@@ -114,17 +114,17 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 1.  在 Microsoft 365 管理中心中, 转到 "**设置** > **域** > **添加域**"。
 2.  在 "**输入您拥有的域**" 框中, 键入基础域的 FQDN。 在以下示例中, 基本域为*customers.adatum.biz*。
 
-    ![添加基础域](media/direct-routing-2-sbc-add-domain.png)
+    ![显示 "添加域" 页面的屏幕截图]](media/direct-routing-2-sbc-add-domain)
 
 3. 单击" **下一步**"。
 4. 在此示例中, 租户已将 adatum.biz 作为已验证的域名。 由于 customers.adatum.biz 是已注册名称的子域, 该向导不会要求进行其他验证。 但是, 如果你添加以前未验证的 FQDN, 你将需要完成验证过程。 验证过程[如下所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
-    ![确认已验证的域名](media/direct-routing-3-sbc-verify-domain.png)
+    ![显示验证的域名确认的屏幕截图](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  单击 "**下一步**", 然后在 "**更新 DNS 设置**" 页面上, 选择**我将自己添加 DNS 记录**, 然后单击 "**下一步**"。
 6.  在下一页上, 清除所有值 (除非要使用 Exchange、SharePoint 或团队/Skype for Business 的域名), 单击 "**下一步**", 然后单击 "**完成**"。 请确保您的新域处于 "设置完成" 状态。
 
-    ![显示 "设置" 状态的域已完成](media/direct-routing-14-sbc-setup-complete.png)
+    ![显示 "设置状态" 为 "完成" 的域的屏幕截图](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>激活域名
 
@@ -134,7 +134,7 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 
 例如: test@customers.adatum.biz
 
-![基础域激活页面](media/direct-routing-4-sbc-domain-activation.png)
+!["基本域激活" 页面的屏幕截图](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>在客户租户中注册子域名称
 
@@ -154,39 +154,39 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 1. 在 Microsoft 365 管理中心中, 转到 "**设置** > **域** > **添加域**"。
 2. 在 "**输入你拥有的域**" 框中, 键入此租户的子域的 FQDN。 在下面的示例中, 子域是 sbc1.customers.adatum.biz。
 
-    ![添加客户子域](media/direct-routing-5-sbc-add-customer-domain.png)
+    !["添加域" 页面的屏幕截图](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. 单击" **下一步**"。
 4. FQDN 从未在租户中注册。 在下一步中, 你将需要验证域。 选择 "**添加 TXT 记录**"。 
 
-    !["验证域" 页面上的选项](media/direct-routing-6-sbc-verify-customer-domain.png)
+    !["验证域" 页面的屏幕截图](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. 单击 "**下一步**", 记下生成的 TXT 值以验证域名。
 
-    !["验证域" 页面上的文本记录](media/direct-routing-7-sbc-verify-domain-txt.png)
+    !["验证域" 页面上的文本记录的屏幕截图](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. 利用运营商的 DNS 托管提供商的上一步中的值创建 TXT 记录。
 
-    ![在运营商的 DNS 托管提供商中创建 TXT 记录](media/direct-routing-8-sbc-txt-record.png)
+    ![显示创建 TXT 记录的屏幕截图](media/direct-routing-8-sbc-txt-record.png)
 
     有关详细信息, 请参阅[在任何 dns 托管提供商处为 Office 365 创建 DNS 记录](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
 7. 返回客户的 Microsoft 365 管理中心, 然后单击 "**验证**"。 
 8. 在下一页上, 选择 "**我将自行添加 DNS 记录**", 然后单击 "**下一步**"。
 
-    !["更新 DNS 设置" 页面上的选项](media/direct-routing-9-sbc-update-dns.png)
+    !["更新 DNS 设置" 页面上选项的屏幕截图](media/direct-routing-9-sbc-update-dns.png)
 
 9. 在 "**选择联机服务**" 页面上, 清除 "所有选项", 然后单击 "**下一步**"。
 
-    !["选择您的在线服务" 页面](media/direct-routing-10-sbc-choose-services.png)
+    !["选择您的联机服务" 页面的屏幕截图](media/direct-routing-10-sbc-choose-services.png)
 
 10. 在 "**更新 DNS 设置**" 页面上单击 "**完成**"。
 
-    !["更新 DNS 设置" 页面](media/direct-routing-11-sbc-update-dns-finish.png)
+    !["更新 DNS 设置" 页面的屏幕截图](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. 确保状态为 "**设置完成**"。 
     
-    ![显示设置完成状态的页面](media/direct-routing-12-sbc-setup-complete.png)
+    ![显示设置完成状态的页面的屏幕截图](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>激活子域名
 
@@ -196,33 +196,39 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 
 例如: test@sbc1.customers.adatum.biz
 
-!["子域" 页面的激活](media/direct-routing-13-sbc-activate-subdomain.png)
+!["子域" 页面的激活屏幕截图](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>创建主干和预配用户
 
-> [!NOTE]
-> 根据我们在技术采纳计划中收到的反馈, Microsoft 可能会更改在客户租户中创建中继的过程以简化流程。 请观看此页面上的文档更新, 并关注 Microsoft 技术社区博客, 了解详细信息。 
+通过直接路由的初始发布, Microsoft 需要使用新的 CSOnlinePSTNGateway 将主干添加到每个服务的租户 (客户租户)。
 
-使用 "新建-CSonlinePSTNGateway" 命令在 customer 域中创建主干。 主干 FQDN**必须**与为客户创建的子域匹配。
+但是, 这种情况尚未证明最佳原因:
+ 
+•**开销管理**。 例如, 卸载或排出 SBC 将更改某些参数, 例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数 (通过运行 Set-CSonlinePSTNGateway), 但实际上是同一个 SBC。 •**费用处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项, 实际上, 同一 SBC 和相同的物理干线会减缓路由数据的处理。
+ 
 
-例如：
+根据此反馈, Microsoft 将引入新的逻辑来为客户租户设置中继。
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+引入了两个新实体: •使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继, 例如, CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
+•派生的主干, 不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建, 并且与运营商主干的关联基于 FQDN 名称 (请参阅下面的详细信息)。
 
-创建主干时, 你可能会收到以下错误消息:
+预配逻辑和示例。
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+•运营商仅需要使用 Set-CSOnlinePSTNGateway 命令设置和管理单个中继 (运营公司域中的载波干线)。 在上面的示例中, 它是 adatum.biz;•在客户租户中, 运营商只需将派生的干线 FQDN 添加到用户的 "语音路由策略"。 无需为主干运行新的 CSOnlinePSTNGateway。
+•派生的主干, 如名称所述, 继承或派生载波主干中的所有配置参数。 示例: • Customers.adatum.biz-需要在运营商租户中创建的运营商主干。
+• Sbc1.customers.adatum.biz-不需要在 PowerShell 中创建的客户租户中的派生主干。  您只需在 "联机语音路由策略" 中添加派生的主干的名称, 而无需创建它。
 
-请留出一些时间进行域注册和激活以进行复制, 然后重试。
+•对载体主干 (在运营商租户上) 所做的任何更改都将自动应用于派生的中继。 例如, 运营商可以更改载波主干上的 SIP 端口, 此更改将应用于所有派生的中继。 用于配置中继的新逻辑可简化管理, 因为无需转到每个租户并在每个主干上更改参数。
+•选项仅发送给载波中继 FQDN。 载波干线的运行状况将应用于所有派生的中继, 并用于路由决策。 了解有关[直接路由选项](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的详细信息。
+•运营商可以排出载波主干, 所有衍生的中继也将排出。 
+ 
 
-为用户预配电话号码和配置语音路由。
+从以前的模型迁移到运营商主干
+ 
+对于从运营商托管模型的当前实现迁移到新模型, 运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnluinePSTNGateway (离开运营商租户中的主干) 从客户租户中删除中继。
 
-有关新 CSOnlinePSTNGateway、预配用户和配置语音路由的详细信息, 请参阅[配置直接路由](direct-routing-configure.md)。
-
+我们强烈建议您尽快迁移到新的解决方案, 因为我们将使用运营商和衍生中继模型增强监控和资源调配。
+ 
 
 请参阅[SBC 供应商的说明](#deploy-and-configure-the-sbc), 了解如何在联系人标头中配置子域的 FQDN 名称。
 

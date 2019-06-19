@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题, 了解如何在 Exchange 和 Skype for Business 中配置 Microsoft 团队聊天室的帐户。
-ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe9413c8da7c50479ddceaa524813d4ab68d8c6
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305398"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062320"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>为 Microsoft 团队聊天室配置帐户
  
@@ -52,7 +52,7 @@ ms.locfileid: "34305398"
 - 你的基础结构必须配置为允许 Microsoft 团队聊天室验证设备帐户, 并访问相应的 Microsoft 服务。
     
 > [!IMPORTANT]
-> 强烈建议你在实际安装硬件之前完成帐户创建。 理想情况下，应在安装之前两至三周开始帐户准备工作。 在混合环境中, 用于 Microsoft 团队聊天室的帐户必须在 AAD 同步中启用密码同步, 因为 Microsoft 团队聊天室身份验证需要 0ffice 365 身份验证。
+> 强烈建议你在实际安装硬件之前完成帐户创建。 理想情况下，应在安装之前两至三周开始帐户准备工作。 在混合环境中, 用于 Microsoft 团队聊天室的帐户必须在 AAD 同步中启用密码同步, 因为 Microsoft 团队聊天室身份验证需要 Office 365 身份验证。
   
 你可以将设备帐户视为用户将其识别为会议室或会议空间的帐户的资源帐户。 当你要使用该会议室安排会议时，可邀请帐户加入该会议。 为了最有效地使用 Microsoft 团队聊天室, 您可以使用分配给每个团队聊天室的设备帐户执行相同操作。
   

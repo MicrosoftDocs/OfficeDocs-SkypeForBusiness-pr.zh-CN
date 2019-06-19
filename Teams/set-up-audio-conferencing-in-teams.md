@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432814"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062416"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -121,7 +121,7 @@ ms.locfileid: "34432814"
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>第 8 步：设置会议邀请（可选）
 <a name="__top"> </a>
  
-为用户设置的拨入号码将自动添加到发送给会议与会者的会议邀请中。 但是, 如果需要, 您可以添加自己的帮助和法律链接、文本消息和小型公司图形。 请参阅[自定义会议邀请](customize-meeting-invitations.md)。
+为用户设置的拨入号码将自动添加到发送给会议与会者的会议邀请中。 但是, 如果需要, 您可以添加自己的帮助和法律链接、文本消息和小型公司图形。 请参阅[自定义会议邀请](meeting-settings-in-teams.md#customize-meeting-invitations)。
    
 ## <a name="related-topics"></a>相关主题
 

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433148"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062384"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -49,8 +49,10 @@ ms.locfileid: "34433148"
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示  
 
 1. 创建宽度不188超过30像素的图像 (相当小)。
-2. 以 JPG 格式保存图像。
+2. 以 JPG 或 PNG 格式保存图像。
 3. 将图像存储在你的组织中的每个人都可以访问的中心位置, 例如网络共享。
+
+    现在, 您可以将其添加到会议邀请。 请参阅后续步骤。
 
 ### <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 

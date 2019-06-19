@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: 阅读本主题, 了解如何在大规模部署中部署 Microsoft 团队聊天室。
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305440"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062368"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
 
@@ -129,6 +129,9 @@ ms.locfileid: "34305440"
 > 你可以创建可启动 USB 媒体, 以针对没有 PXE 支持的环境启动基于配置管理器任务序列的部署。 可启动媒体仅包含启动映像、可选预启动命令及其所需的文件, 以及配置管理器二进制文件以支持启动到 Windows PE 并连接到配置管理器以执行其余的部署过程。 有关详细信息, 请参阅[如何创建可启动媒体](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)。
 
 ## <a name="create-configuration-manager-packages"></a>创建 Configuration Manager 程序包
+
+> [!IMPORTANT]
+> 每个 SRS 安装程序版本所需的操作系统版本随每个 MSI 版本更改。 若要确定给定 MSI 的最佳操作系统版本, 请运行一次控制台安装脚本。 若要了解详细信息, 请参阅[使用 System Center Configuration Manager 部署 Microsoft 团队聊天室](room-systems-scale.md)。
 
 配置管理器需要多个程序包来部署和配置 Microsoft 团队聊天室单元。
 

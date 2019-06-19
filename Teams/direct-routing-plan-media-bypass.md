@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493913"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062352"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -47,7 +47,7 @@ ms.locfileid: "34493913"
 
 ![显示媒体绕过的信号和媒体流](media/direct-routing-media-bypass-2.png)
 
-媒体旁路利用在 SBC 上的团队客户端上称为交互式连接建立 (ICE) 的协议和 ICE。 这些协议使直接路由能够使用最直接的媒体路径来获得最佳质量。 冰和 ICE Lite 是 WebRTC 标准。 有关这些协议的详细信息, 请参阅 RFC 5245。
+媒体旁路利用在 SBC 上的团队客户端和 ICE lite 上称为交互式连接建立 (ICE) 的协议。 这些协议使直接路由能够使用最直接的媒体路径来获得最佳质量。 冰和 ICE Lite 是 WebRTC 标准。 有关这些协议的详细信息, 请参阅 RFC 5245。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>通话流程和防火墙规划

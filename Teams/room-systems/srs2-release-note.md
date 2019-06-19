@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: 8461c3c7f1a3b132e3cabad81eeb211c28e8ef3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288457"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062408"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -54,14 +54,14 @@ ms.locfileid: "34288457"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
 
-### <a name="40850-0482018"></a>4.0.85.0 (04/8/2018)
+### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
 此更新中引入的内容:
 
 - 修复了 "提供反馈" 功能的问题 
 - 准备即将即将推出的 MTR 设备升级到 Windows 10 版本1809的优化
 
-### <a name="40780-03142018"></a>4.0.78.0 (03/14/2018)
+### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 此更新中引入的内容:
 

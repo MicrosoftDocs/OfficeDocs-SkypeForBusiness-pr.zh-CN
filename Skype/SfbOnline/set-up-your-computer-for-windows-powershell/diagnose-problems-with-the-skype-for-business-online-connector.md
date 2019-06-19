@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 有关创建用于连接到 Skype for business Online 的远程 PowerShell 会话的疑难解答, 包括导入模块、并发 shell、实时 ID 和权限错误。
-ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667369"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062205"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -32,6 +32,8 @@ ms.locfileid: "34667369"
 - [Windows PowerShell 执行策略导致的导入模块错误](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
 - [由不正确版本的 Windows PowerShell 导致的导入模块错误](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+    
+- [禁用 WinRM Basic 身份验证时, 新式验证失败](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [无法连接到 Live ID 服务器](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -69,6 +71,13 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 
 - **解决方案**: 修复此问题的唯一方法是安装 Windows PowerShell 3.0, 可从 Microsoft 下载中心获取该功能[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
   
+## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>禁用 WinRM Basic 身份验证时, 新式验证失败
+<a name="BKMKWinRMBasicAuth"> </a>
+
+最新版本的 Skype for Business Online 连接器模块使用新式验证, 但基础 Windows 远程管理 (WinRM) 客户端必须配置为允许基本身份验证。  新式验证使用通常在授权中传递的载荷令牌 *: 载荷*标头。 在其上构建 Skype for business PowerShell 的 Windows PowerShell 不允许对此标题进行操作。  相反, Skype for Business PowerShell 使用*授权: 基本*报头来传递载荷令牌。
+
+有关如何为基本身份验证启用 WinRM 的说明, 请参阅[下载和安装 Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) 。
+
 ## <a name="failed-to-connect-to-live-id-server"></a>无法连接到 Live ID 服务器
 <a name="BKMKFailedConnect"> </a>
 
