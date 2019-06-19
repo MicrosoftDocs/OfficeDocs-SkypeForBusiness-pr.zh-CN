@@ -3,7 +3,7 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/25/2019
+ms.date: 5/10/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 586e928692068070c23a682dbcf5f38259990dc0
-ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
+ms.openlocfilehash: f45556f88513d7f35aec7fda8f0ded40848eece8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34430662"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062312"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
