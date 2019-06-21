@@ -13,16 +13,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548307"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115990"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 若要参与私人预览版, 请参阅[注册私人预览版](#enroll-in-the-private-preview)。
 
@@ -71,7 +71,16 @@ ms.locfileid: "34548307"
 4. 托管一致性语句的元数据终结点应取消身份验证, 它应该在没有身份验证令牌的情况下可以访问。
 5. 合作伙伴服务提供患者应用的令牌终结点, 以使用客户端凭据流请求访问令牌。 按授权服务器的令牌 url 应该是从 FHIR 服务器上的元数据中提取的 FHIR 一致性 (功能) 语句的一部分, 如下例所示:
 
-![代码示例中的令牌 URL 的屏幕截图](../../media/Patient-app-5.png)
+* * *
+    {"resourceType": "CapabilityStatement",。
+        .
+        .
+        "剩余": [{"模式": "服务器", "安全": {"extension": [{"扩展": [{"url": "令牌", "valueUrihttps://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token": ""}, {"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorizeurl": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris" "}]," 服务 ": [{' 编码": [{"系统": "http://hl7.org/fhir/ValueSet/restful-security-service", "代码": "OAuth"} ] } ] }, .
+                .
+                .
+            } ] }
+
+* * *
 
 访问令牌的请求包含以下参数:
 
@@ -153,6 +162,6 @@ ms.locfileid: "34548307"
 
     ![患者应用服务器设置的屏幕截图](../../media/patients-server.png)
 
-5. 开始使用应用从 FHIR 服务器/EHR 搜索病人, 并将其添加到列表中, 如果不起作用, 请[向我们提供反馈](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外, 若要建立患者应用 > FHIR 服务器流的经完全验证的版本, 请使用 Microsoft 团队 for 医疗保健产品工程与 Microsoft 团队进行脱机对话, 以明确要求, 我们将根据上述 FHIR 界面文档中所述的身份验证要求, 帮助为你启用此项。  
+5. 开始使用应用从 FHIR 服务器/EHR 搜索病人, 并将其添加到列表中, 如果不起作用, 请[向我们提供反馈](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外, 若要建立患者应用的经过完全验证的版本, > FHIR 服务器流, 请通过之前提及的电子邮件请求来与 Microsoft 团队协作处理医疗保健产品工程, 并将根据上述 FHIR 界面文档中所述的身份验证要求, 帮助为你启用此项。  
 
 

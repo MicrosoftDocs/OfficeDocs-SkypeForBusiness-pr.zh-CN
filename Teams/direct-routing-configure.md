@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667495"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116014"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -114,7 +114,8 @@ Enabled               : True
 |否|ForwardPAI|指示 P-Asserted-Identity (PAI) 标头是否随呼叫一起转移。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用, 则隐私: ID 标头也会发送。 默认值为**False** ($False)。|False|True<br/>False|Boolean|
 |否|SendSIPOptions |定义 SBC 是否将发送 SIP 选项。 如果禁用, 将从监视和通知系统中排除 SBC。 强烈建议你启用 SIP 选项。 默认值为**True**。 |True|True<br/>False|Boolean|
 |否|MaxConcurrentSessions |由警报系统使用。 如果设置了任何值, 则当并发会话的数量为 90% 或高于此值时, 警报系统将向租户管理员生成警报。 如果未设置参数, 则不会生成警报。 但是, 监视系统将每隔24小时报告并发会话的数量。 |Null|Null<br/>1到100000 ||
-|否|处于|用于为出站呼叫启用此 SBC。 可用于在其更新或维护期间临时删除 SBC。 |False|True<br/>False|Boolean|
+|否|MediaRelayRoutingLocationOverride |允许手动选择媒体的路径。 直接路由根据 SBC 的公共 IP 为媒体路径分配一个数据中心。 我们始终选择最接近于 SBC 数据中心的数据。 但是, 在某些情况下, 可以将美国范围的公共 IP 分配给位于欧洲的 SBC。 在这种情况下, 我们将使用非最佳媒体路径。 此参数允许手动设置媒体流量的首选区域。 仅当通话记录明确指明 "自动分配媒体路径的数据中心" 不会向 SBC 数据中心分配最接近的数据中心时, 我们才建议设置此参数。 |无|ISO 格式的国家代码||
+|否|已启用|用于为出站呼叫启用此 SBC。 可用于在其更新或维护期间临时删除 SBC。 |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>验证 SBC 配对 
 
