@@ -639,10 +639,11 @@
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [适用于医疗保健业的 Teams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [在状态消息中设置代理](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
