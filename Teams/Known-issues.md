@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45556f88513d7f35aec7fda8f0ded40848eece8
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062312"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115951"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -211,10 +211,6 @@ ms.locfileid: "35062312"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |在 Intune 管理的移动设备上，用户可能无法切换帐户  <br/> |在 Intune 管理的移动设备上，用户可能无法切换帐户。  <br/> |无解决方法。  <br/> |9/20/17  <br/>|
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|无法在移动应用中使用有趣的选取器、Giphy 和贴纸  <br/> |用户无法在移动客户端上使用 GIF、表情符号和贴纸。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
