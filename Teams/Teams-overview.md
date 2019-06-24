@@ -15,29 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957473"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133857"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
 
-如果你未使用过 Teams，并且想要了解详细信息，请继续阅读。 观看此短视频：[欢迎使用 Teams](https://youtu.be/s3aQV3T0D6c)。 
+若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”****，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
-如果你要查找最终用户 Teams 帮助，请单击应用左侧的“**帮助**”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 有关培训，请访问 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
+
+
+如果是第一次使用 Teams 且想要了解详细信息，请观看短视频“欢迎使用 Teams”。
+
+> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+
 
 ## <a name="teams-architecture"></a>Teams 体系结构
 
 Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 
 
-若要了解 Teams 在 Microsoft 365 中的位置，请查看此体系结构海报：[作为 Microsoft 365 一部分的 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
-
-[![Teams 逻辑体系结构海报缩略图](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
-
-
+若要了解 Teams 在 Microsoft 365 上下文中的位置，请查看以下体系结构海报：[作为 Microsoft 365 一部分的 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 创建团队时，将会创建以下各项：
 - 新 [Office 365 组](office-365-groups.md)
@@ -48,9 +49,7 @@ Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品�
 
 从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 要了解详细信息，请查看此海报：[面向 IT 架构师的 Microsoft 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-[![组信息图的缩略图](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
-
-若要自定义和扩展 Teams，请通过[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
+若要自定义和扩展 Teams，请通过[应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
 
 > [!TIP]
 > 如需深入了解 Teams 体系结构，请观看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 中的视频。

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: 73ba9a0f3627cf744679bf46d07019b1d7aa644b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: feaa7972766ffeb21517080e97ee67dcd597edb4
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329547"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134249"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -66,7 +66,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > 通过登录到**Office 365 管理中心**并在 "**组织配置文件**" 下查看, 可以找到您的组织的国家或地区位置。 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
+> 由于在委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国 (UAE) 中的收费电话号码的可用性有限, 这些国家/地区的组织不会自动为其分配音频会议收费号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   

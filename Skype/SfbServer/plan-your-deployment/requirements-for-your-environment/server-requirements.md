@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '摘要: 准备本主题的 Skype for business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议均可用于帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: af739cd01fcb2071ad271d7932483d1bf37e2bf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296817"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134259"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ ms.locfileid: "34296817"
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (需要 Skype for Business 累积更新5或更高版本。 有关详细信息, 请检查[KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)  <br/> ||
+|Windows Server 2019 (需要 Skype for Business 累积更新9或更高版本)。 <br/> |Windows Server 2016 (需要 Skype for Business 累积更新5或更高版本。 有关详细信息, 请检查[KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)  <br/> ||
 |Windows Server 2012 R2 Datacenter OS 已安装所有必需的更新。  <br/> |Windows Server 2012 R2 标准操作系统安装了所有必需的更新。  <br/> |
 |Windows Server 2012 Datacenter OS 已安装所有必需的更新。  <br/> |Windows Server 2012 标准操作系统安装了所有必需的更新。  <br/> |
    
@@ -92,10 +92,10 @@ ms.locfileid: "34296817"
   
 Skype for Business Server 2015 企业版的版本稍有复杂, 但受支持的列表如下所示 (所有内容都是64位版本, 你会注意到, 请不要使用32位版本):
   
-|||||
+||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2017 企业版 (64 位版), 我们建议通过最新的服务包运行。 <br/> |Microsoft SQL Server 2016 Enterprise (64 位版) Service Pack 1 或更高版本, 必须运行 Skype for Business 累积更新7或更高版本 ([下载 skype for Business 累积更新](https://support.microsoft.com/en-us/help/3061064))。  <br/> |Microsoft SQL Server 2014 企业版 (64 位版), 必须运行累积更新6或更高版本 ([下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/))。  <br/> |Microsoft SQL Server 2012 企业版 (64 位版), 我们建议通过最新的服务包运行。  <br/> |
-|Microsoft SQL Server 2017 标准版 (64 位版), 我们建议通过最新的 service pack 运行。 <br/> |Microsoft SQL Server 2016 标准版 (64 位版) Service Pack 1 或更高版本, 必须运行 Skype for Business 累积更新7或更高版本 ([下载 skype for Business 累积更新](https://support.microsoft.com/en-us/help/3061064))。  <br/> |Microsoft SQL Server 2014 标准版 (64 位版), 必须运行累积更新6或更高版本 ([下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/))。  <br/> |Microsoft SQL Server 2012 标准版 (64 位版), 我们建议通过最新的 service pack 运行。  <br/> |
+|Microsoft SQL Server 2019 企业版 (64 位版), 我们建议通过最新的服务包运行。 <br/> |Microsoft SQL Server 2017 企业版 (64 位版), 我们建议通过最新的服务包运行。 <br/> |Microsoft SQL Server 2016 Enterprise (64 位版) Service Pack 1 或更高版本, 必须运行 Skype for Business 累积更新7或更高版本 ([下载 skype for Business 累积更新](https://support.microsoft.com/en-us/help/3061064))。  <br/> |Microsoft SQL Server 2014 企业版 (64 位版), 必须运行累积更新6或更高版本 ([下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/))。  <br/> |Microsoft SQL Server 2012 企业版 (64 位版), 我们建议通过最新的服务包运行。  <br/> |
+|Microsoft SQL Server 2019 标准版 (64 位版), 我们建议通过最新的 service pack 运行。 <br/> |Microsoft SQL Server 2017 标准版 (64 位版), 我们建议通过最新的 service pack 运行。 <br/> |Microsoft SQL Server 2016 标准版 (64 位版) Service Pack 1 或更高版本, 必须运行 Skype for Business 累积更新7或更高版本 ([下载 skype for Business 累积更新](https://support.microsoft.com/en-us/help/3061064))。  <br/> |Microsoft SQL Server 2014 标准版 (64 位版), 必须运行累积更新6或更高版本 ([下载累积更新 6](https://support.microsoft.com/en-us/kb/3031047/))。  <br/> |Microsoft SQL Server 2012 标准版 (64 位版), 我们建议通过最新的 service pack 运行。  <br/> |
    
 如果在此处看不到要使用的 SQL Server 版本, 则无法使用它。
   
@@ -134,6 +134,8 @@ Meeting content files, such as PowerPoint presentations, are archived as attachm
   
 双节点：
   
+- Microsoft SQL Server 2019 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
+
 - Microsoft SQL Server 2017 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
 
 - Microsoft SQL Server 2016 标准版 (64 位版) Service Pack 1 或更高版本。 我们建议通过最新的服务包运行。
@@ -143,6 +145,8 @@ Meeting content files, such as PowerPoint presentations, are archived as attachm
 -  Microsoft SQL Server 2012 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
 
 16 节点：
+
+- Microsoft SQL Server 2019 企业版 (64 位版), 我们建议通过最新的服务包运行。
 
 - Microsoft SQL Server 2017 企业版 (64 位版), 我们建议通过最新的服务包运行。
 

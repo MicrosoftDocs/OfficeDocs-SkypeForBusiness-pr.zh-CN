@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421992"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116022"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -40,7 +40,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>应用
 
-应用为选项卡、连接器、机器人或这三者的任意组合，它们由 Teams（第一方应用，亦称为默认应用）或第三方（亦称为外部应用）提供。在“应用”**** 下，可以启用和禁用默认应用，并配置用于控制外部应用的设置。若要详细了解如何在 Teams 中推出应用、机器人、连接器和选项卡，请参阅(应用、机器人和连接器)[deploy-apps-microsoft-teams-landing-page.md]。
+应用为选项卡、连接器、机器人或这三者的任意组合，它们由 Teams（第一方应用，亦称为默认应用）或第三方（亦称为外部应用）提供。在“应用”**** 下，可以启用和禁用默认应用，并配置用于控制外部应用的设置。若要详细了解如何在 Teams 中推出应用、机器人、连接器和选项卡，请参阅[应用、机器人和连接器](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page)。
 
 #### <a name="default-apps"></a>默认应用
 

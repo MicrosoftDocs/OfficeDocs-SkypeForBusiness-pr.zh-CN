@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298755"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131509"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -54,6 +54,26 @@ ms.locfileid: "34298755"
 > 不需要电话系统许可证。 许可证包含在公共区域电话许可证中。
 
 有关许可证的详细信息, 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+
+通用区域电话许可证支持: 
+
+
+|   |  公共区域电话  |
+|---------|---------|
+|Skype for Business |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|电话系统 |    &#x2714; |
+|音频会议 |       &#x2718; &sup1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|全球可用性 |    &#x2714; |
+|频道可用性 |    EA、EAS、CSP、GCC、EES、Web Direct  |
+|      |         |
+
+&sup1;常见的区域电话可以通过会议组织者提供的拨入号码加入音频会议
+
+&sup2;在主权云中不可用  
+
+
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 

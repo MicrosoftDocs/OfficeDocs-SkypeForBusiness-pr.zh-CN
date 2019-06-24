@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '摘要: 通过本主题准备 Skype for Business Server 2019 服务器和域基础结构。 硬件、操作系统、数据库、软件、所有系统要求和建议, 以及证书 DNS、文件共享和 Active Directory 信息, 可帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: 94b95f97021a4633a6dbcbf300426731cefc85fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283918"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134281"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for business Server 2019 的系统要求
  
@@ -194,8 +194,8 @@ Skype for Business Server 2019 企业版将需要完整的 SQL Server, 如下所
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64 位版), 您必须运行最新的更新。  <br/> |
-Microsoft SQL Server 2017 (64 位版), 您必须运行最新的更新。|
+|Microsoft SQL Server 2019 (64 位版), 您必须运行最新的更新。  <br/> |Microsoft SQL Server 2017 (64 位版), 您必须运行最新的更新。  <br/> |
+Microsoft SQL Server 2016 (64 位版), 您必须运行最新的更新。|
  |
 
 如果在此处看不到要使用的 SQL Server 版本, 则无法使用它。
@@ -213,13 +213,15 @@ Microsoft SQL Server 2017 (64 位版), 您必须运行最新的更新。|
   
 双节点：
   
-- Microsoft SQL Server 2016 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
+- Microsoft SQL Server 2019 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
 - Microsoft SQL Server 2017 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
+- Microsoft SQL Server 2016 标准版 (64 位版), 我们建议通过最新的 service pack 运行。
 
 16 节点：
   
-- Microsoft SQL Server 2016 企业版 (64 位版), 我们建议通过最新的服务包运行。
+- Microsoft SQL Server 2019 企业版 (64 位版), 我们建议通过最新的服务包运行。
 - Microsoft SQL Server 2017 企业版 (64 位版), 我们建议通过最新的服务包运行。
+- Microsoft SQL Server 2016 企业版 (64 位版), 我们建议通过最新的服务包运行。
 
 SQL Always On 受支持, 你可以在[Skype for Business server 2019 的后端服务器高可用性](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)中阅读更多相关信息。
   

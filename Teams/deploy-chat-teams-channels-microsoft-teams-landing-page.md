@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667487"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133904"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -77,7 +77,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 |询问你自己|操作 |
 |------------|-------|
-|<ul><li>是否要为我的组织启用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要启用外部访问，请参阅[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。|
+|<ul><li>是否要为我的组织启用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要启用外部访问，请参阅[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization)。|
 |||
 
 ### <a name="guest-access"></a>来宾访问

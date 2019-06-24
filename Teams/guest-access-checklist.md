@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280922"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131414"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -49,7 +49,7 @@ ms.locfileid: "34280922"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的客人看到许可证错误
 
-Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 和其许可模型。 如果您看到授权错误, 请确保阅读 B2B 授权指南以了解您的组织拥有的授权要求, 以便用户能够邀请来宾加入您的组织。
+Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 和其许可模型。 如果您看到授权错误, 请确保阅读[B2B 授权指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)以了解您的组织拥有的授权要求, 以便用户能够邀请来宾加入您的组织。
 
 需要注意的一些事项:
 
@@ -78,7 +78,7 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 
 
 ## <a name="-step-2-configure-office-365-groups"></a>□步骤 2: 配置 Office 365 组
 
-1. 在 Microsoft 365 管理中心, 转到 "**设置** > **服务 &" 加载项** > **Office 365 组**。
+1. 在 Microsoft 365 管理中心, 转到 "**设置** > **服务" & "加载项** > "**Office 365 组**。
 2. 确保将 **"组织" 访问组内容外的组成员**设置为 **"开"**。 如果此设置处于关闭状态, 则来宾将无法访问任何组内容。
 3. 确保**组所有者将组织外部的人员添加到 "组**" 设置为 **"开**"。 如果此设置处于关闭状态, 则团队所有者将无法添加新来宾。 此设置至少必须启用才能支持来宾访问。
 

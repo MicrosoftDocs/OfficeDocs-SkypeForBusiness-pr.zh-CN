@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/30/2019
+ms.date: 06/19/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,17 +14,32 @@ search.appverid: MET150
 description: IT 管理员可以为其他域 (联盟) 配置外部访问以允许这些域中的用户参与团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f6a3dc6016eb52d58e82e9e9022d1bb8575404b
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702717"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133920"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 ======================================================
 
-通过 Microsoft 团队外部访问, 其他域中的用户可以参与您的聊天和通话。 您还可以允许仍在使用 Skype for Business Online 或 Skype for business 本地的外部用户参与。 
+通过 Microsoft 团队外部访问, 其他域中的用户可以参与您的聊天和通话。 您还可以允许仍在使用 Skype for Business Online 或 Skype for business 本地的外部用户参与。
+
+在下列情况下，请按照本文的步骤进行操作：
+  
+- 您的企业中有不同域的用户: 例如, Rob@ContosoEast.com 和 Ann@ContosoWest.com。
+
+- 您希望组织中的人员可以使用团队与组织外部的特定企业中的人员联系。
+
+- 您希望世界上任何其他使用团队的人都能够使用您的电子邮件地址查找和与您联系。 如果您和其他用户都启用了外部访问并允许彼此的域, 则这将起作用。 如果不起作用, 另一用户应确保他或她的配置不会阻止您的域。
+
+外部访问允许外部用户查找、呼叫和发送即时消息, 以及设置会议。 但是, 如果希望外部用户有权访问团队和频道, 来宾访问可能是更好的途径。 有关外部访问和来宾访问之间的区别的详细信息, 请参阅下面的[外部访问与来宾访问](#external-access-vs-guest-access)。 若要启用来宾访问, 请参阅[启用来宾访问](set-up-guests.md), 以便用户可以进行通信。
+
+> [!IMPORTANT]
+> 当前, 若要将 Microsoft 团队客户端中的外部用户与你的组织外部的外部用户 (当前不是 Azure Active Directory (Azure AD) 或租户的来宾) 联合, 则必须为混合正确设置, 并将其移动到 Skype for business Online。 从2/25/2019 起, 团队不支持不带 SIP 档案用户在 Skype for business Online 中托管的本机联合身份验证。 有关设置混合帐户和迁移到团队的详细信息, 请参阅将[Skype For business 混合部署升级到团队](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
+
+## <a name="external-access-vs-guest-access"></a>外部访问与来宾访问
 
 外部访问 (联盟) 和来宾访问不同:
 
@@ -68,42 +83,70 @@ ms.locfileid: "34702717"
 > [!NOTE]
 > 有关来宾功能和来宾体验的详细信息, 请参阅[打开或关闭来宾对 Microsoft 团队的访问权限](https://docs.microsoft.com/microsoftteams/set-up-guests)和[来宾体验等](https://docs.microsoft.com/microsoftteams/guest-experience)。
 
-## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>打开或关闭外部访问 (用户可以与 Skype for Business 和团队用户通信)
+## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-organization"></a>让你的团队用户与其他组织中的用户进行聊天和通信
 
-你可以使用 Microsoft 团队 & Skype for Business 管理中心来管理外部访问。
+外部访问允许你的团队和 Skype for business 用户与你的组织外部的其他用户进行通信。 默认情况下, 你的组织可以与所有外部域通信。 如果添加被阻止的域, 则允许所有其他域, 但如果您添加允许的域, 所有其他域都将被阻止。 您可以轻松地为您的组织设置外部访问。 有三种设置方案:
 
-1. 在 "Microsoft 团队 & Skype for business 管理中心" 中, 选择 "**组织范围的设置** > **外部访问**"。
+- **方案 1** -您可以使用**开放联盟**。 这是默认设置, 可让你的组织中的人员查找、呼叫和发送即时消息, 以及与你的组织外部的人员设置会议。
 
-     ![组织范围设置外部访问的屏幕截图](media/manage-external-access-1.png).
+    使用此设置时, 你的用户可以与运行团队的所有外部域通信, 但已将其域/组织设置为允许你的域。
 
-2. 切换**用户可以与 Skype For business 和团队用户进行通信**切换到 **"打开" 或 "** **关闭**"。
+- **方案 2** -您可以将域或域添加到 "**允许**" 列表。 若要执行此操作, 请单击 "**添加域**", 添加域名, 单击 "**操作" 以在此域上执行操作**, 然后选择 "**允许**"。 请务必知道, 如果执行此操作, 它将**阻止**所有其他域。
+
+- **情形 3** -您可以将一个或多个域添加到**阻止**列表。 若要执行此操作, 请单击 "**添加域**", 添加域名, 单击 "**操作" 以在此域上执行操作**, 然后选择 "已**阻止**"。 请务必知道, 如果您这样做, 它将**允许**所有其他域。
+
+请按照以下步骤操作以允许或阻止域。
+
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>步骤 1-使你的组织能够与另一个团队组织通信
+
+![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+
+1. 在左侧导航中, 转到 "**组织范围的设置** > **外部访问**"。
+
+2. 切换**用户可以与 Skype For business 和团队用户进行通信,** 切换到 **"打开"**。
 
      ![打开了外部访问切换器的屏幕截图](media/manage-external-access-2.png).
 
-3. 单击“**保存**”。 
+3. 如果你希望允许所有团队组织与你的组织中的用户进行通信, 请跳至步骤5。
 
-## <a name="add-or-block-a-domain"></a>添加或阻止域
+4. 如果你想要限制可与组织中的用户进行通信的组织, 你可以允许除某些域之外的所有域, 或者你只能允许特定的域。 
 
-请按照以下步骤添加域或关闭域的外部访问。
+    - 若要允许除某些域之外的所有域, 请单击 "**添加域**" 以添加要阻止的域。 在 "**添加域**" 窗格中, 键入域名, 单击 "已**阻止**", 然后 clik "**完成**"。 
+    - 若要限制特定组织的通信, 请将这些域添加到状态为 "**允许**" 的列表中。 将任何域添加到 "允许" 列表后, 与其他组织的通信将仅限于其域位于 "允许" 列表中的组织。 
 
-1. 在 "Microsoft 团队 & Skype for business 管理中心" 中, 选择 "**组织范围的设置** > **外部访问**"。
+5. 单击“**保存**”。
 
-2. 选择“**添加域**”。 
- 
-    ![带有 "添加域" 链接的外部访问页面的屏幕截图](media/manage-external-access-3.png).
+6. 请确保其他团队组织中的管理员完成这些相同步骤。 例如, 在 "**允许的域**" 列表中, 他们的管理员需要为您的企业输入域, 前提是他们限制了可以与他们的用户进行通信的组织。
 
-   将显示 "**添加域**" 窗格。
+### <a name="step-2---test-it"></a>步骤 2-测试
 
-    !["添加域" 窗格的屏幕截图](media/manage-external-access-4.png).
+若要测试你的设置, 你需要一个不在防火墙后面的团队用户。
+  
+1. 当您和组织的管理员更改了**外部访问**设置后, 您应该可以继续。
 
+2. 在 "团队" 应用中, 按电子邮件地址搜索人员, 然后发送聊天请求。
 
-3. 在 "**添加域**" 下, 键入域的名称;例如, 键入 Contoso.com。
+3. 让您的团队联系人向您发送聊天请求。 如果你未收到其请求，那么你的防火墙有问题（假设他们已确认其防火墙设置正确）。
 
-4. 选择“**已允许**”或“**已阻止**”。 您可以随时更改此设置。
+4. 测试问题是否是你的防火墙的另一种方法是转到不在防火墙后面的 wifi 位置。 例如咖啡店, 使用团队将请求发送给您的联系人进行聊天。 如果邮件通过 wifi 位置, 但未在工作, 则您知道问题是您的防火墙。
 
-2. 选择 "**完成**"。
+## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>与 Skype for Business Online 组织中的用户进行通信
 
-添加域后, 您将看到添加到外部访问页面上的域列表中的域名和状态。
+如果你要设置外部访问权限, 让你的团队用户找到并联系 Skype for business 组织中的用户以限制谁可以联系他们的用户, 请按照以下步骤设置从你的域到其他组织的域的外部访问。 然后, 让其他组织中的管理员按照以下步骤配置 Skype for business Online 的外部访问。
+
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+
+让该组织中的管理员执行以下步骤:
+
+1. 在 Microsoft 365 管理中心, 转到 "**管理中心** > "**团队 & Skype** > **旧版门户**。
+  
+2. 在 **Skype for Business 管理中心**，选择“**组织**” > “**外部通信**”。
+
+3. 若要设置与特定企业或与其他域中的用户的通信, 请在下拉框中选择 **"仅针对允许的域"**。
+
+    或者, 如果他们想要与世界上的所有其他人 (具有打开的 Skype for Business 策略) 进行通信, 请选择 **"开" (阻止的域除外**)。 这是默认设置。
+
+4. 在 "已**阻止或允许**的**+** 域" 下, 选择, 然后添加要允许的域的名称。
 
 ## <a name="more-information"></a>详细信息
 

@@ -15,16 +15,14 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591717"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131517"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 作业是指分配给课程中的学生或团队成员的任务或工作单元, 作为其研究的一部分。 可以在团队类中创建作业。
 
@@ -36,6 +34,8 @@ ms.locfileid: "34591717"
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每周监护人电子邮件摘要
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 监护人电子邮件是发送给学生的家长或监护人的每周电子邮件。 该电子邮件将包含有关上一周和未来一周的作业的信息, 并将通过周末发送。 管理员需要使用学校数据同步功能来更新电子邮件。
 
 默认情况下, 此设置处于关闭状态。
@@ -48,10 +48,11 @@ MakeCode 是一种基于块的编码平台, 让所有学生都能使用电脑科
 
 默认情况下, 此设置处于关闭状态。
 
-[了解有关 MakeCode 的详细信息](https://www.microsoft.com/${locale}/makecode)
+[了解有关 MakeCode 的详细信息](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin 是一种 plagiarism 检测服务。 这是由其自身条款和隐私政策制约的第三方产品或服务。 您负责使用第三方产品和服务。
 
