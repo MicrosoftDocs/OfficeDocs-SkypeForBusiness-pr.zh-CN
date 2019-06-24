@@ -27,7 +27,6 @@
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [状态](presence-admins.md)
-## [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 
 
@@ -70,7 +69,7 @@
 ### [批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
-### [与其他组织中的 Teams 用户通信](let-your-teams-users-communicate-with-other-people.md)
+### [管理外部访问](manage-external-access.md)
 ### [使用内联消息翻译](inline-message-translation-teams.md)
 ### [使用 Microsoft Teams 范围目录搜索](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [在状态消息中设置代理](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
