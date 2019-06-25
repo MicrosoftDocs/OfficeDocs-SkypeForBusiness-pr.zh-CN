@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6893dbda1c8f9ecf61319d19a24b896ff67de20b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830576"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,7 +141,7 @@ _**主题上次修改时间:** 2016-06-13_
                   -MissedCallOption <Option> -MissedCallForwardTarget
                   <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     
-    以下示例指定将未接来电转发到名为`sla_forward_number`的用户。 `-MissedCallOption`参数的有效选项为`Forward`、 `BusySignal`或`Disconnect`。 如果选择`Forward`"", 则还必须包括`-MissedCallForwardTarget `参数, 将用户或电话号码用作目标:
+    以下示例指定将未接来电转发到名为`sla_forward_number`的用户。 `-MissedCallOption`参数的有效选项为`Forward`、 `BusySignal`或`Disconnect`。 如果选择`Forward`"", 则还必须包括`-MissedCallForwardTarget`参数, 将用户或电话号码用作目标:
     
         Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
                   Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 

@@ -10,12 +10,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d62cef3870e7134a628e0d5cedf20bb16200a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837543"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -133,7 +133,7 @@ Microsoft Lync Server 2013 中的流量的默认建议和设置是在受信任�
 
 Microsoft Lync Server 2013 可能会通过可能会链接到个人的公共网络泄漏信息。 这些信息类型具体可分为两大类：
 
-  - **增强的状态数据 **增强的状态数据是指用户可以选择共享或不共享到联盟伙伴或组织内联系人的链接的信息。 不与公用 IM 网络上的用户共享此数据。 客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。 在 Lync Server 2013 中, 可以为单个用户配置增强的状态隐私模式, 以防止 Lync 用户查看用户的 "联系人" 列表中的用户状态信息。 增强的状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户的状态信息。 有关详细信息, 请参阅在 "入门" 文档中的 "入门" 文档和[配置增强状态隐私模式](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)(位于部署文档中的 lync server 2013) 中的[适用于 lync server 2013 中的客户端](lync-server-2013-what-s-new-for-clients.md)。
+  - **增强的状态数据**增强的状态数据是指用户可以选择共享或不共享到联盟伙伴或组织内联系人的链接的信息。 不与公用 IM 网络上的用户共享此数据。 客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。 在 Lync Server 2013 中, 可以为单个用户配置增强的状态隐私模式, 以防止 Lync 用户查看用户的 "联系人" 列表中的用户状态信息。 增强的状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户的状态信息。 有关详细信息, 请参阅在 "入门" 文档中的 "入门" 文档和[配置增强状态隐私模式](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)(位于部署文档中的 lync server 2013) 中的[适用于 lync server 2013 中的客户端](lync-server-2013-what-s-new-for-clients.md)。
 
   - **必需数据**必需数据是服务器或客户端的正常操作所必需的, 不受客户端或系统管理的控制。 这是服务器或网络级别所必需的信息, 用于路由、状态维护和发送信号。
 
