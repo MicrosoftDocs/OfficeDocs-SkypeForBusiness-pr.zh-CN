@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548850"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131406"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -107,9 +107,9 @@ Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天�
    
 为了实现完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置选择 **“开启”**：
 
-- 在 SharePoint Online 中：**仅允许与已在目录中的外部用户共享**
+- 在 SharePoint Online 中：“现有来宾”****、“新来宾和现有来宾”**** 或“任何人”****
     
-    有关详细信息，请参阅[管理 SharePoint Online 环境的外部共享](https://docs.microsoft.com/sharepoint/external-sharing-overview)。
+    有关详细信息，请参阅[启用或禁用外部共享](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)。
     
 - 在 Office 365 组中：**允许组所有者将组织外部的人员添加到组**
     

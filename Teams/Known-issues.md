@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115951"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131429"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -30,7 +30,7 @@ ms.locfileid: "35115951"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|    
 |:-----|:-----|:-----|:-----|
-|资源帐户配置错误部门 <br/> |与 2019 年 1 月之前创建的自动助理或呼叫队列关联的资源帐户可能没有正确设置“部门”参数, 这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/> |若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> |2019/5/8 <br/> |
+|资源帐户配置错误部门 <br/> |与 2019 年 1 月之前创建的自动助理或呼叫队列关联的资源帐户可能没有正确设置“部门”参数, 这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 为 Skype for Business Server 配置的资源帐户不会正确设置 Department 参数，进而导致无法在 Skype for Business Online 中创建资源帐户。 在这种情况下，需要在同步到 Skype for Business Online 前，先在 Active Directory 中配置部门名称。|若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> |2019/5/8 <br/> |
 
 
 
@@ -270,9 +270,13 @@ ms.locfileid: "35115951"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|文件下载失败 <br/> |在使用 Microsoft Teams 桌面客户端尝试下载文件路径包含撇号的文件时，将触发“文件未下载”故障。 <br/> |从 Web 客户端或 SharePoint Online 下载文件 <br/> |2019/5/10  <br/> |
+|文件下载失败 <br/> |在使用 Microsoft Teams 桌面客户端尝试下载文件路径包含撇号的文件时，将触发“文件未下载”故障。 <br/> |从 Web 客户端或 SharePoint Online 下载文件 <br/> |2019 年 5 月 10 日  <br/> |
 
-## <a name="teams"></a>团队
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法上传或下载 OneNote 文件 <br/> |无法使用 Microsoft Teams 尝试上传或下载 OneNote 文件或笔记本。 <br/> |直接在 SharePoint Online 中下载或上传文件 <br/> |2019 年 5 月 7 日  <br/> |
+
+## <a name="teams"></a>Teams
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
