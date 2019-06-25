@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548881"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198274"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -47,16 +47,13 @@ _图1。组织的网络和 Office 365 服务之间的关系_
 
 ## <a name="verify-your-network-is-ready"></a>验证网络是否已准备好
 
-如果你正在考虑 QoS 实施, 你应该已确定带宽要求和其他[网络要求](prepare-network.md)。 Microsoft 团队的带宽计算非常复杂, 为此需要帮助, 已创建了一个计算器。 若要访问计算器, 请转到 MyAdvisor 中的[网络 Planner](https://aka.ms/bwcalc/) 。
+如果你正在考虑 QoS 实施, 你应该已确定带宽要求和其他[网络要求](prepare-network.md)。 
   
   网络上的流量拥塞将显著影响媒体质量。 缺少带宽会导致性能下降和用户体验较差。 当团队采纳和使用增加时, 请使用 "报告"、"[呼叫分析" 和 "呼叫质量" 仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)来识别问题, 然后使用 QoS 和选择性带宽增加进行调整。
 
 ### <a name="vpn-considerations"></a>VPN 注意事项
 
 仅当在调用方之间的所有链接上实现时, QoS 才按预期工作。 如果在内部网络上使用 QoS, 并且用户从远程位置登录, 则只能在内部托管网络中设置优先级。 虽然远程位置可以通过实施虚拟专用网络 (VPN) 接收托管连接, 但 VPN 本身会增加数据包开销并在实时流量中产生延迟。 我们建议你避免通过 VPN 运行实时通信流量。
-
-> [!NOTE]
-> VPN 连接的远程用户应实现拆分隧道以最大程度地提高用户体验的质量。 文档[部署指南-VPN 拆分隧道](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 )可通过 MyAdvisor 提供, 并提供详细信息。
 
 在具有跨大洲的托管链接的全球组织中, 我们强烈建议使用 QoS, 因为与 LAN 相比, 这些链接的带宽受到限制。
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344499"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203990"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -51,20 +51,6 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
 |Surface Pro (第五代)  |核心 i5  |8GB 或4GB  |128GB 或更多  |
 |Surface Pro 4          |核心 i5  |8GB 或4GB  |128GB 或更多  |
 
-> [!NOTE]
-> 不支持核心 M3 处理器。
-
-**支持的控制台**
-
-|控制台|Processor|RAM|磁盘|固件版本|
-|:-----|:-----|:-----|:-----|:----|
-|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|双核 i7|s |128GB|1.0.16.490|
-|[会议室 G2 的 HP 精英扇面](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |核心 i5  |s  |128GB  | |
-|[联想 ThinkSmart 中心500](https://www3.lenovo.com/us/en/hub500) |核心 i5  |s  |128GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|核心 i5|s|128GB|音频-92.10.0.15</br>视频-92.10.0.15|
-|
- 
-
 - 以下扩展坞选项之一, 用于将平板电脑固定到会议室表。 
 
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
@@ -74,11 +60,25 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
   - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
+**支持的控制台**
+
+|控制台|Processor|RAM|磁盘|固件版本|
+|:-----|:-----|:-----|:-----|:----|
+|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|双核 i7|s |128GB|1.0.16.490|
+|[会议室 G2 的 HP 精英扇面](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |核心 i5  |s  |128GB  | |
+|[HP 精英扇区将 G2 与 Microsoft 团队会议室一起准备的音频](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |核心 i5 |s |128GB | |
+|[联想 ThinkSmart 中心500](https://www3.lenovo.com/us/en/hub500) |核心 i5  |s  |128GB  |  |
+|[适用于视频会议室的 Logitech 点击触摸控制器](https://www.logitech.com/en-us/product/tap) |核心 i5  |s  |240GB  |  |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|核心 i5|s|128GB|音频-92.10.0.15</br>视频-92.10.0.15|
+|
+> [!NOTE]
+> 不支持核心 M3 处理器。
 
 **适用于 USB 音频和视频外设的认证固件版本**
 
 |Microsoft 团队会议室外围设备|针对 Microsoft 团队聊天室认证的固件版本|
 |:-----|:-----|
+|[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech 聚会](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |音频-1.0.172  <br/> 视频-1.0.156  <br/> |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
@@ -86,10 +86,10 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Polycom Eagle 眼主任 II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -148,6 +148,7 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
 此外, 你可能需要[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)的副本, 你可以使用该副本预配 Microsoft 团队聊天室帐户。
 
 ## <a name="see-also"></a>另请参阅
+[浏览所有捆绑包](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
 [规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 

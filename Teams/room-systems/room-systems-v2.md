@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft 团队聊天室。
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4af4412d65fa74532b04ad5abb63326ee4c7c58b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305390"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198474"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -44,21 +44,12 @@ AV techs 可用于最后一项任务, 但你所在组织的 IT 部门将需要�
 -   [证书](srs-v2-prep.md#certificates)
 -   [代理](srs-v2-prep.md#proxy)
 
-**Pro 提示**-如果你打算使用代理服务器提供对 Microsoft 团队或 Skype For business Online 的访问权限, 请先[查看本文](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。 请注意, 当通过代理服务器上的 Skype for business 通信时, 我们建议完全跳过代理服务器。 Skype for business 通信已加密, 因此代理服务器不会使其更安全。 作为更宽部署的一部分, 我们建议你遵循[评估我的环境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)以进行带宽规划和评估网络对实时流量的适用性的指南。 对于所有带宽计划, 请使用[MyAdvisor 网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)。 (我们建议你创建一个 Microsoft 团队聊天室角色, 以反映所需的 Microsoft 团队聊天室使用 [视频、屏幕共享、音频] 和分配多个与要部署到每个网站的 Microsoft 团队会议室单元数匹配的用户。) 
+**Pro 提示**-如果你打算使用代理服务器提供对 Microsoft 团队或 Skype For business Online 的访问权限, 请先[查看本文](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。 请注意, 当通过代理服务器上的 Skype for business 通信时, 我们建议完全跳过代理服务器。 Skype for business 通信已加密, 因此代理服务器不会使其更安全。 作为更宽部署的一部分, 我们建议你遵循[评估我的环境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)以进行带宽规划和评估网络对实时流量的适用性的指南。
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确认您的网站满足 Microsoft 团队聊天室的关键要求。</li><li>确认您是否为每个网站都提供了足够的带宽。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始规划设备部署和配置。</li></ul>| 
-
-**Pro 提示-** 从网站规划角度来看, 你可能会发现以下资源很有用。 它们涵盖的内容不仅仅是 Microsoft 团队聊天室, 并且可以在 Skype for business Online 的完全推出中使用:
-
--   [网站推出/迁移规划交付指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [网站推出和迁移规划-行动手册](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > 在行动手册中, 完成计划在其中部署 Microsoft 团队聊天室设备的每个网站的 "4-终结点" 工作区中的 "4.3-> 会议室" 部分中的任务。 这将使你能够在稍后的过程中使用批量帐户预配脚本。 
 
 ## <a name="service-readiness"></a>服务就绪
 
@@ -129,9 +120,6 @@ _Microsoft 团队聊天室服务帐户规划表示例_
 
 **Pro 提示**-使这些帐户的显示名称具有描述性且易于理解。 这些是用户在搜索和将 Microsoft 团队聊天室系统添加到会议时将看到的名称。 某些组织使用约定*网站*-*聊天室名称*(*最大房间容量*)-rs, 例如 Curie ———伦敦的12人会议室, 可能会有显示名称 LON-Curie (12)-RS。 
 
-如果您的组织有多个会议室需要多个已设置的帐户, 您可能需要使用[Skype 会议室系统帐户预配脚本](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)以一种自动方式批量预配多个服务帐户。
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 团队聊天室帐户的命名约定。</li><li>确定是创建单个帐户还是使用批量预配脚本。</li></ul>| 
@@ -200,9 +188,7 @@ _示例部署表_
 
 我们建议作为常规团队或 Skype for business 推出的一部分, 配置为通话质量仪表板 (CQD) 生成文件、监控质量趋势以及参与体验审核流程。 有关详细信息, 请参阅[体验质量检查指南](https://aka.ms/qerguide)。 
 
-**Pro 提示**- [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)中可用的[测试矩阵](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)包含一个选项卡, 其中包含许多 Microsoft 团队聊天室测试, 你应在测试中使用这些测试。 
-
-### <a name="asset-management"></a>资产管理 
+### <a name="asset-management"></a>资产管理
 
 作为部署的一部分, 你将需要使用房间名称、Microsoft 团队聊天室设备名称、登录的 Microsoft 团队聊天室资源帐户和分配的外围设备 (以及它们使用的 USB 端口) 更新资产注册。 
 

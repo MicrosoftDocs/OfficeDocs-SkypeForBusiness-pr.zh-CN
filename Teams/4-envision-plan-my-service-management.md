@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548109"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198338"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -72,25 +72,23 @@ ms.locfileid: "34548109"
 |Exchange 运营|管理 Exchange 环境|TBA|TBA|
 |电话服务操作|管理 SBC 和电话号码|TBA|TBA|
 
-为了便于完成更加详细的运营角色映射（包括与每个运营角色关联的任务），你可以使用[运营角色映射工作簿](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)获取将明确角色和职责的详细信息以支持云语音工作负荷。
-
 <!--ENDOFSECTION-->
 
 ## <a name="the-quality-champion-role"></a>质量支持者角色
 
 在所有组织中，都需要小组或个人为质量负责。
-这是服务管理中最重要的角色。 质量支持者是分配给关心其用户体验的个人或小组的客户角色。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。
-质量支持者的最佳候选人通常是客户服务所有者，根据组织的规模和复杂程度，可以是关心用户体验的任何个人或小组。
+这是服务管理中最重要的角色。 质量专家是分配给热心用户体验的人员或组的客户角色。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。
+优质拥护者的最佳候选人通常是客户服务所有者, 他们可以是热心用户体验的任何人员或组, 具体取决于组织的大小和复杂性。
 
-质量支持者利用现有的工具和记录的流程（例如通话质量仪表板 (CQD) 和《体验质量评审指南》）来监控用户体验、识别质量趋势以及在需要的情况下推动修正。 质量支持者与各个团队合作以推动采取修正措施，并就进度和未解决的问题向指导委员会报告。
+质量专家利用现有工具和已记录的流程 (如通话质量仪表板 (CQD) 和质量体验检查指南) 监控用户体验、识别质量趋势和在需要的情况下进行补救。 质量拥护者与各自的团队协作处理补救措施, 向指导委员会报告进度和打开的问题。
 
-《操作指南》中记录了与该角色关联的任务和活动。 应在展望阶段早期分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
+操作指南中记录了与角色相关联的任务和活动。 应在展望阶段早期分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>《体验质量评审指南》简介
 
-《体验质量评审指南》中包含一组活动，用于评估影响最大的主要方面并提供修正指导以改进用户体验，如下图所示。
+质量体验审阅指南包含一组活动, 这些活动在对改善用户体验产生影响的关键区域中具有评估和提供补救指南, 如下图所示。
 
 ![在质量体验评审期间要检查的关键区域的插图]在(media/plan-my-service-management-image2.png "质量体验审核期间要检查的关键方面: 音频、可靠性和用户调查结果。")
 
@@ -110,13 +108,13 @@ ms.locfileid: "34548109"
 
 《体验质量评审指南》主要指导如何将通话质量仪表板 (CQD) 作为主要工具进行在线使用来报告和调查所述的每个方面，且重点在音频方面，以最大限度地提高采用率和作用。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-强烈建议尽早指定质量支持者。 在被指定为质量支持者后，这些人应开始了解[《体验质量评审指南》](https://aka.ms/qerguide)中的内容。
+我们强烈建议您提前提名本《质量专家提名。 在进行命名后, 他们应开始熟悉[质量体验审核指南](https://aka.ms/qerguide)中的内容。
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定负责贵组织的云语音操作的人员。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载规划服务质量完整指南。</li><li>下载《体验质量评审指南》。</li><li>仔细查看操作指南。</li><li>向所有操作团队成员提供所有指南以进行查看并熟悉操作要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定负责组织中的云语音操作的人员。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载 "服务管理规划" 完整指南。</li><li>下载 "质量体验考核指南"。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供要查看的所有指南, 并熟悉操作要求。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

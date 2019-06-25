@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694744"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203931"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -32,7 +32,7 @@ ms.locfileid: "34694744"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Outlook for Windows 中的团队会议外接程序
 
-对于在其 Windows PC 上安装了 Microsoft Teams 和 Office 2013 或 Office 2016 的用户，会自动安装 Teams 会议外接程序。 用户将在其 Outlook 日历功能区中看到 Teams 会议外接程序。
+将为在 Windows 电脑上安装了 Microsoft 团队以及 Office 2010、Office 2013 或 Office 2016 的用户自动安装团队会议加载项。 用户将在其 Outlook 日历功能区中看到 Teams 会议外接程序。
 
 ![Outlook 功能区上的团队会议外接程序的屏幕截图](media/Teams-add-in-for-Outlook.png)
 

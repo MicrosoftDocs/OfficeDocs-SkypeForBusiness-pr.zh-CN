@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28c8a9bd073e9c2311b7cf9bb250a28ea7988d31
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 820bf06c280498f9ebf6378c70c79d7850bff82e
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34381743"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198266"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>在 Microsoft 团队中配置云语音工作负荷
 
@@ -49,7 +49,7 @@ ms.locfileid: "34381743"
 | 3  | 获取电话号码 | 了解可与团队通话计划一起使用的订户号码。 <br/><br/>从 Microsoft 获取新的电话号码, 或为用户电话号码安排号码移植。 <br/><br/>如果你要从 Microsoft 获取新的订户号码, 请确定你是否将请求地理或非地理号码。 <br/><br/>**注意:** 根据服务提供商, 号码移植过程最多可能需要30天。 请务必考虑你的计划。 | | [用于通话套餐的不同类型的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans) <br/><br/>[获取新的用户电话号码申请表](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms) <br/><br/>[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users) <br/><br/>[将电话号码转接到 Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) <br/><br/>[转接电话号码常见问题](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions) <br/><br/>[管理组织的电话号码](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) |
 | 4  | 配置拨号计划 | 通过拨号计划, 用户可以按其使用的方式拨打电话号码, 例如省略本地呼叫的区号、忽略国内电话的国家/地区代码, 或者甚至在会议期间使用短数字拨号拨出其他用户。 <br/><br/>服务拨号计划 (默认值) 基于用户的 Office 365 使用位置, 不能更改。 <br/><br/>如果默认服务计划不能满足你的需求, 你可以在租户或用户级别配置租户拨号计划。 检查是否已完成音频会议的此步骤。 | | [带有呼叫计划的电话系统](calling-plan-landing-page.md) <br/><br/>[Office 365 通话计划拨号计划](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | 5  | 配置紧急位置 | 要将号码分配给语音用户, 您还必须为其分配一个紧急位置以供使用911。 <br/><br/>我们建议使用 PowerShell 自动创建位置服务。| | [紧急位置、地址和呼叫路由](what-are-emergency-locations-addresses-and-call-routing.md) |
-| 6  | 为用户分配许可证、电话号码、租户-用户拨号计划和紧急位置 | 将 E5 许可证分配给你的用户。 如果使用 E3/E4 Sku, 则为最终用户分配电话系统加载项。 <br/><br/>分配许可证后, 请通过分配电话号码、拨号计划和紧急位置来继续。 使用用户启用脚本轻松配置多个用户。 | | [MyAdvisor –用户启用脚本](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_6,5_2_0_3)|
+| 6  | 为用户分配许可证、电话号码、租户-用户拨号计划和紧急位置 | 将 E5 许可证分配给你的用户。 如果使用 E3/E4 Sku, 则为最终用户分配电话系统加载项。 <br/><br/>分配许可证后, 请通过分配电话号码、拨号计划和紧急位置来继续。 使用用户启用脚本轻松配置多个用户。 | | |
 | 7  | 配置 Azure 语音邮件 | 如果用户的邮箱托管在 Exchange Online 上, 其语音邮箱将自动预配。 <br/><br/>但是, 对于 Exchange Server 的内部部署, 你需要确保拥有受支持的版本和拓扑。 按照 "**其他信息**" 列中的步骤操作。 你可以为你的组织打开或关闭语音邮件功能。| | [Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[设置云语音邮件](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
 | 个  | 可选: 为传入和传出呼叫配置呼叫者 ID | 默认情况下, 所有出站呼叫均使用分配的电话号码呼叫标识 (呼叫者 ID)。 <br/><br/>您可以选择更改或阻止用户的来电显示。 <br/><br/>**注意:** 紧急呼叫始终以来电显示方式发送用户的电话号码。 | | [如何在您的组织中使用呼叫者 ID？](/microsoftteams/how-can-caller-id-be-used-in-your-organization) <br/><br/>[为用户设置来电显示](/microsoftteams/set-the-caller-id-for-a-user)|
 | db-9  | 可选: 配置 Skype for Business 的互操作性 | 如果您的组织从 Skype for Business 迁移到团队, 请配置互操作策略。 <br/><br/>互操作性使 Skype for business 和团队用户能够相互聊天和通话。 <br/><br/>你的现有部署和你预期的团队推出策略将影响你的计划。 查看互操作性选项、要求和限制, 并相应地配置策略。 <br/><br/>**注意:** 仅当你的组织仍在 Skype for Business Online 上托管用户时, 这些步骤才适用。 | | [Microsoft Teams 和 Skype for Business 互操作性](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) <br/><br/>[快速入门指南：在 Microsoft Teams 中配置通话套餐](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide) |

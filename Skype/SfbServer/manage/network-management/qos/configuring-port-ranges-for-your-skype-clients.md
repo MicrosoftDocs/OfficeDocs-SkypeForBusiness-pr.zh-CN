@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何为在 Windows 10 上运行的客户端在 Skype for Business Server 中配置客户端的端口范围和配置服务质量策略。
-ms.openlocfilehash: 2eaf7eb6b10f2aba2665704f973a4dfcddbd4885
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279422"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204012"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>为 Skype for Business Server 中的客户端配置端口范围和服务质量策略
 
@@ -187,7 +187,7 @@ ms.locfileid: "34279422"
 
 6.  在 "**基于策略的 QoS** " 对话框中的 "开始" 页面上, 在 "**名称**" 框中键入新策略的名称。 选择 "**指定 DSCP 值**" 并将值设置为**46**。 "退出"**指定出站阻止率**未选中, 然后单击 "**下一步**"。
 
-7.  在下一页上, 确保已选中 "**所有应用程序**", 然后单击 "**下一步**"。 此设置指示网络查找 DSCP 标记为46的所有数据包, 而不仅仅是由特定应用程序创建的数据包。
+7.  在下一页上, 选择 "**仅限具有此可执行名称的应用程序**", 输入**Lync**作为名称, 然后单击 "**下一步**"。 此设置指示策略仅优先考虑 Skype for Business 客户端中匹配的流量。
 
 8.  在第三页上, 确保选中了 "**任何来源 ip 地址**" 和 "**任何目标 ip 地址**", 然后单击 "**下一步**"。 这两个设置确保数据包将被管理, 无论哪台计算机 (IP 地址) 发送这些数据包以及哪台计算机 (IP 地址) 将接收这些数据包。
 

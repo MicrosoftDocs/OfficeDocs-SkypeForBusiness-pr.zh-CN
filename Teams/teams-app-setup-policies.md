@@ -19,12 +19,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用, 以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 21e56f9b2910180295e996f12c899e153551a8a3
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681972"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198625"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -44,6 +44,8 @@ ms.locfileid: "34681972"
 你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队, 请创建并分配一个或多个自定义策略。 如果向用户分配了自定义策略, 则该策略将应用于用户。 如果未向用户分配自定义策略, 则全局策略将应用于该用户。
 
 ![显示应用设置策略页面的屏幕截图](media/app-setup-policies.png)
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 > [!NOTE]
 > 如果你有团队教育版, 请务必了解, 默认情况下, 作业应用固定在全局策略中, 即使当前, 你也看不到全局策略中列出了该应用。 它将是团队客户端上的固定应用列表中的第四个应用。

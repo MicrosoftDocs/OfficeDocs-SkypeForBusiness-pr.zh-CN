@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b29d51d2e92659b7fbae9eb86863a2e4f205a061
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344826"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198545"
 ---
 # <a name="prepare-my-service"></a>准备服务
 
@@ -112,7 +112,7 @@ ms.locfileid: "34344826"
 
 有关其他信息, 请参阅:
 
-- [音频会议的技术规划](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [音频会议的技术规划](cloud-voice-deployment.md)
 
 - [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
 

@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d66d410677b4cdf31d21777bfc8963f5c25168ad
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 799d2f61562bdd0c484b31e670b73051f634147d
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681839"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198258"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -34,7 +34,9 @@ ms.locfileid: "34681839"
 
 在 Microsoft 团队管理中心的**团队应用**中, 你可以设置策略以管理你的组织的应用。 例如, 你可以通过固定对你的用户最重要的应用来设置策略来自定义团队。
 
-我们正在不断改进团队中的应用体验, 并添加功能和功能。 随着时间的推移, 我们将构建其他应用管理功能, 以便查看有关应用策略的最新信息。
+我们正在不断改进团队中的应用体验, 并添加功能和功能。 随着时间的推移, 我们将构建其他应用管理功能, 请查看有关应用策略的最新信息。
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 ## <a name="app-setup-policies"></a>应用设置策略
 

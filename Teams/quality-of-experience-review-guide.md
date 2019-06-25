@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2573cbd19d0f5b5d71aa85309ebad49697a5dec8
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b29506a30f20056b422b7780896d5661326986e0
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548403"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198657"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -801,9 +801,6 @@ _图 17-缺少生成报告_
 
 虽然网络规划器不会完全自动自动生成映射过程, 但在将网络信息输入网络 Planner 后, 可以将其导出到准备上载的构建文件。
 
-我们强烈建议你在网络上部署媒体工作负荷时利用网络 Planner 评估整体影响。 有关网络 Planner 的详细信息, 请访问[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)。
-
-
 ## <a name="diagnostic-alerts"></a>诊断警报
 
 Microsoft 主动监控 CQD 遥测, 为对用户体验产生负面影响的已知问题创建诊断警报。 然后, 通过消息中心将这些警报自动发送给服务管理员。 下表概述了 "消息中心" 中显示的诊断警报以及指向详细信息的链接。
@@ -969,10 +966,10 @@ _表 9-通话丢弃补救措施的后续步骤_
 
 | 修正                              | 指引                      |
 |------------------------------------------|-------------------------------|
-| **网络/互联网**                         | **拥塞**: 与你的网络团队协作以监控特定建筑物/子网的带宽, 以确认是否存在使用过度的问题。 如果你确认存在网络拥塞, 请考虑增加生成或应用 QoS 的带宽。 使用 "包含[质量较差的流摘要" 报表](#quality-investigations)查看问题子网中是否存在抖动、延迟和数据包丢失问题, 因为它们通常位于放置的流之前。<br><br>您也可以使用[网络规划器工具](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)帮助更好地了解组织的带宽需求。<br><br>**QoS**: 如果增加的带宽不切实际或成本不受制约, 请考虑实施 QoS。 此工具在管理拥塞的流量时非常有效, 可确保托管网络上的媒体数据包优先于非媒体流量。 或者, 如果没有明确的证据表明带宽是有原因的, 请考虑以下解决方案:<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype for Business QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**执行网络准备情况评估**: 网络评估提供有关预期带宽使用情况的详细信息, 以及如何处理带宽和网络更改, 以及团队和 Skype for business 的推荐联网做法。 将上一个表用作源, 您有一个建筑物或子网的列表, 它非常适合于评估。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business 网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具:** 使用此工具可对网络性能进行简单的测试, 以确定网络对于团队或 Skype for business Online 呼叫的性能。 该工具可帮助你评估子网的性能, 并根据 Microsoft 性能[要求](https://aka.ms/performancerequirements)验证网络的准备情况。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
+| **网络/互联网**                         | **拥塞**: 与你的网络团队协作以监控特定建筑物/子网的带宽, 以确认是否存在使用过度的问题。 如果你确认存在网络拥塞, 请考虑增加生成或应用 QoS 的带宽。 使用 "包含[质量较差的流摘要" 报表](#quality-investigations)查看问题子网中是否存在抖动、延迟和数据包丢失问题, 因为它们通常位于放置的流之前。<br><br>**QoS**: 如果增加的带宽不切实际或成本不受制约, 请考虑实施 QoS。 此工具在管理拥塞的流量时非常有效, 可确保托管网络上的媒体数据包优先于非媒体流量。 或者, 如果没有明确的证据表明带宽是有原因的, 请考虑以下解决方案:<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li></ul><br>**执行网络准备情况评估**: 网络评估提供有关预期带宽使用情况的详细信息, 以及如何处理带宽和网络更改, 以及团队和 Skype for business 的推荐联网做法。 将上一个表用作源, 您有一个建筑物或子网的列表, 它非常适合于评估。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft 网络评估工具:** 使用此工具可对网络性能进行简单的测试, 以确定网络对于团队或 Skype for business Online 呼叫的性能。 该工具可帮助你评估子网的性能, 并根据 Microsoft 性能[要求](https://aka.ms/performancerequirements)验证网络的准备情况。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **客户端 (仅限 Skype for Business Online)** | 某些较旧的客户端存在媒体可靠性的已知、已记录的问题。 查看来自多个受影响用户的呼叫分析报告, 或在 CQD 中创建自定义客户端版本表报表, 筛选到具有总呼叫中断故障百分比的特定建筑物或子网。 此信息将帮助你了解该特定建筑物和特定版本的客户端之间的通话中断之间是否存在关系。     |
 | **Devices**                                  | 我们建议, 任何有呼叫中断的用户 (一般情况下, 使用集成设备) 都应预配[经认证的耳机或免提电话](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs), 以将其排除在质量和可靠性较差的潜在来源。 |
-| **用户行为**                            | 如果你确定不是网络、设备或客户都有问题, 请考虑将[我的顾问](https://aka.ms/myadvisor)用于开发用户采纳策略, 以指导用户如何最大程度地加入和退出会议。 更智能的团队和 Skype for business 用户将为会议中的所有参与者提供更好的用户体验。 将笔记本电脑置于睡眠状态 (通过关闭盖子) 而不退出会议的用户将被归类为意外的呼叫丢弃。   |
+| **用户行为**                            | 如果你确定不是网络、设备或客户端出现问题, 请考虑制定用户采用策略来教育用户如何最大程度地加入和退出会议。 更智能的团队和 Skype for business 用户将为会议中的所有参与者提供更好的用户体验。 将笔记本电脑置于睡眠状态 (通过关闭盖子) 而不退出会议的用户将被归类为意外的呼叫丢弃。   |
 
 ## <a name="quality-investigations"></a>质量调查
 
@@ -1051,13 +1048,13 @@ _表 10-高 PSR.EXE 的常见参与者_
 
 | 修正                              | 指引                         |
 |------------------------------------------|----------------------------------|
-| **网络**                                 | **拥塞**: 过度使用或未预配的网络可能会导致媒体质量问题。 与网络团队协作, 确定从用户到 internet 传出点的网络连接是否有足够的带宽来支持媒体。 [网络规划](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)器可以帮助您更好地了解组织的带宽需求。<br><br>**执行网络准备情况评估**: 网络评估提供有关预期带宽使用情况的详细信息, 以及如何处理带宽和网络更改, 以及团队和 Skype for business 的推荐联网做法。 将上一个表用作源, 您有一个建筑物或子网的列表, 它非常适合于评估。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business 网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft 网络评估工具:** 使用此工具可对网络性能进行简单的测试, 以确定网络对于团队或 Skype for business Online 呼叫的性能。 该工具可帮助你评估子网的性能, 并根据 Microsoft 性能[要求](https://aka.ms/performancerequirements)验证网络的准备情况。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
-| **服务质量 (QoS)**  | QoS 是一种经验证的工具, 可帮助在拥挤的网络上优先处理数据包, 确保它们的目标时间和时间保持不变。 考虑在整个组织中实施 QoS, 最大程度地提高用户在带宽受到限制的体验的质量。 QoS 将帮助解决与数据包丢失较高的问题 (通常与较低程度) 相关的问题: 抖动和往返行程时间。<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li><li>[Skype for Business QoS 指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
+| **网络**                                 | **拥塞**: 过度使用或未预配的网络可能会导致媒体质量问题。 与网络团队协作, 确定从用户到 internet 传出点的网络连接是否有足够的带宽来支持媒体。 <br><br>**执行网络准备情况评估**: 网络评估提供有关预期带宽使用情况的详细信息, 以及如何处理带宽和网络更改, 以及团队和 Skype for business 的推荐联网做法。 将上一个表用作源, 您有一个建筑物或子网的列表, 它非常适合于评估。<ul><li>[Microsoft 团队网络准备情况评估](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft 网络评估工具:** 使用此工具可对网络性能进行简单的测试, 以确定网络对于团队或 Skype for business Online 呼叫的性能。 该工具可帮助你评估子网的性能, 并根据 Microsoft 性能[要求](https://aka.ms/performancerequirements)验证网络的准备情况。<ul><li>[下载网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
+| **服务质量 (QoS)**  | QoS 是一种经验证的工具, 可帮助在拥挤的网络上优先处理数据包, 确保它们的目标时间和时间保持不变。 考虑在整个组织中实施 QoS, 最大程度地提高用户在带宽受到限制的体验的质量。 QoS 将帮助解决与数据包丢失较高的问题 (通常与较低程度) 相关的问题: 抖动和往返行程时间。<ul><li>[Microsoft 团队 QoS 指南](qos-in-teams.md)</li></ul> |
 | **Wi-Fi**               | Wi-fi 可能会对通话质量产生重大影响。 Wi-fi 部署通常不考虑 VoIP 服务的网络要求, 并且通常是质量较差的来源。 有关优化 Wlan 基础结构的详细信息, 请参阅[有关 wi-fi 计划的文章](/skypeforbusiness/certification/plan-wifi)。<br><br>**无线驱动程序**: 确保无线驱动程序是最新的。 这将有助于减少与过时驱动程序相关的任何不良用户体验。 许多组织不在其修补程序周期内包含无线驱动程序, 这些驱动程序可能会在几年后再进行修补。 通过确保无线驱动程序处于最新状态, 解决了许多无线问题。<br><br>**WMM**: 无线多媒体扩展 (WMM) (也称为 wi-fi 多媒体) 为无线网络提供基本 QoS 功能。 新式无线网络必须支持许多设备。 这些设备争用带宽, 并且可能会导致 VoIP 服务的质量问题, 其中的速度和延迟非常重要。 有关详细信息, 请咨询您的无线供应商, 并考虑在无线网络上实施 WMM, 以确定 Skype for business 和团队媒体的优先级。<br><br>**接入点密度**: 接入点可能会在理想位置中相隔太远或不在理想位置。 若要最大程度地减少潜在干扰, 请在会议室中以及不受墙壁或其他物体阻碍的位置 (即 Wi-fi 信号较弱的位置) 放置额外的访问点。<br><br>**2.4 ghz 与 5 ghz**: 5 ghz 提供较少的后台干扰和更高的速度, 并且应在通过 Wi-fi 部署 VoIP 时进行优先级划分。 但是, 5 GHz 不像 2.4 GHz 那样强大, 并且不会很轻松地穿透墙壁。 查看建筑物布局以确定你可以为最佳连接所依赖的频率。 |
 |**网络设备** | 较大的组织可能会在网络上分布数百个设备。 与您的网络团队协作, 确保从用户到 internet 的网络设备保持最新。 |
-| **VPN**  | VPN 装置传统上不会用于处理实时媒体工作负荷。 某些 VPN 配置禁止使用 UDP (这是媒体的首选协议), 并且仅依赖于 TCP。 请考虑实现[vpn 拆分隧道解决方案](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9), 以帮助将 vpn 减少为质量较差的源。 |
-| **客户端** <br>(仅限 Skype for Business Online) | 已知较旧的客户端会导致媒体出现问题。 确保在发布六个月内修补客户。 使用[MyAdvisor](https://aka.ms/myadvisor)获取有关开发客户端准备策略和部署[即点即](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)用的指南。 |
-| **Devices** | 使用优化的[设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog)可帮助显著改善用户体验。 随着所有方面的要求, 优化的设备旨在最大限度地提高团队和 Skype for business 的用户体验, 并产生优质的质量。 有关开发设备准备情况策略的指南, 请使用[MyAdvisor](https://aka.ms/myadvisor) 。 |
+| **VPN**  | VPN 装置传统上不会用于处理实时媒体工作负荷。 某些 VPN 配置禁止使用 UDP (这是媒体的首选协议), 并且仅依赖于 TCP。 请考虑实现 VPN 拆分隧道解决方案, 以帮助将 VPN 减少为质量较差的源。 |
+| **客户端** <br>(仅限 Skype for Business Online) | 确保定期更新所有客户端。 |
+| **Devices** | 使用优化的[设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog)可帮助显著改善用户体验。 随着所有方面的要求, 优化的设备旨在最大限度地提高团队和 Skype for business 的用户体验, 并产生优质的质量。 |
 | **设备** | 修补网络 (以太网和 Wi-fi)、音频、视频和 USB 驱动程序应该是整个修补程序管理策略的一部分。 通过更新驱动程序解决了许多质量问题。 |
 | **Wi-fi 上的会议室** | 我们强烈建议使用至少 1 Gbps 以太网连接将会议室设备连接到网络。 会议室设备通常包括多个音频和视频流以及会议内容 (如屏幕共享), 并且比其他团队或 Skype for business 终结点具有更高的网络要求。 根据定义, 会议室在安装期间仅提供一个福利的固定设备。<br><br>会议室需要进行额外的关注, 以确保使用这些设备的体验达到或超过预期。 会议室的质量问题通常会快速升级, 因为它们通常由高级人员使用。<br><br>所有内容相等 (除了方便), Wi-fi 性能通常小于有线连接。 随着 "携带您自己的设备" 政策和笔记本电脑的普及, Wi-fi 接入点通常会过度使用。 实时媒体可能不会在 Wi-fi 网络上优先, 这可能会导致在高峰使用时间内出现质量问题。 这种繁重的用法可能会与会议中可能有十二个人的会议相符, 每个人都有自己的膝上型电脑和智能手机, 并且均连接到与会议室设备相同的 Wi-fi 接入点。<br><br>仅在手机安装时, 也应将 wi-fi 视为临时解决方案, 或者在已正确设置 Wi-fi 以支持企业级的实时媒体时。 |
 
@@ -1358,7 +1355,7 @@ _表 12-网络性能要求_
 
 ### <a name="devices"></a>设备
 
--   [Skype for Business 解决方案目录个人外围设备 & 电脑](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype for Business 解决方案目录个人外围设备 & Pc](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>租户报告
 

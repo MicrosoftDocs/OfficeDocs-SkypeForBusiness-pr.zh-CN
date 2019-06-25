@@ -16,19 +16,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6706fc789ed4a5e8a33e88059319d298791f84dd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 435c35ce982ce18b93091f1832645c2c626228b4
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400683"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198402"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>视频 Microsoft Teams 中的音频会议
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-敬请参阅 [Microsoft Teams 中的音频会议](audio-conferencing.md)。
 
 > [!NOTE]
 > 音频会议以前称为 PSTN 会议

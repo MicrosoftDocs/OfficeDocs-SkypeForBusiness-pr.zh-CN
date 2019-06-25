@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '摘要: 了解 Skype for Business Server 中 Edge 服务器的环境要求。'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277172"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203954"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器环境要求
  
@@ -81,8 +81,8 @@ Skype for Business 服务器边缘服务器拓扑可以使用:
 |:-----|:-----|:-----|:-----|:-----|
 |使用专用 IP 地址和 NAT 的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
 |使用公用 IP 地址的单一合并边缘  <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
-|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |Yes&sup1;  <br/> |
+|使用专用 IP 地址和 NAT 的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |是&sup1;  <br/> |
+|使用公用 IP 地址的扩展合并边缘（DNS 负载平衡）  <br/> |是  <br/> |是  <br/> |是  <br/> |是&sup1;  <br/> |
 |使用硬件负载平衡器的扩展合并边缘  <br/> |是  <br/> |不支持（每个 VIP 一个 DNS A 记录）  <br/> |是  <br/> |是  <br/> |
    
 &sup1;Exchange 统一消息 (UM) 使用 DNS 负载平衡的远程用户故障转移需要使用 Exchange 2013 或更高版本。
@@ -143,7 +143,7 @@ Skype for Business 服务器边缘服务器拓扑可以使用:
 
 这些记录将是你需要用于使用 NAT 的公共 Ip 或专用 Ip 的单个边缘服务器的 DNS 记录。 因为这是示例数据，所以我们将提供示例 IP，便于你更容易地制定出自己的条目：
   
-- 内部网络适配器：172.25.33.10（未分配默认网关的地址）
+- 内部网络适配器: 172.25.33.10 (未分配默认网关)
     
     > [!NOTE]
     > 确保有一个从网络中包含边缘内部接口的网络路由, 这些网络包含运行 Skype for business Server 或 Lync Server 2013 客户端的服务器 (例如从172.25.33.0 到 192.168.10.0)。 

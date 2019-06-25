@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548275"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198418"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 
@@ -118,7 +118,7 @@ The content you will find below can be used as supplemental background informati
 |  |  |  |
 |---------|---------|---------|
 |![表示决策点的图标](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |决策点         |您是否对支持实时媒体的网络功能进行了评估？<br></br>如果您的网络未正确评估, 或者您知道它不支持实时媒体, 您是否将禁用视频和屏幕共享功能来减少网络影响和不良团队体验？         |
-|![表示后续步骤的图标](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |后续步骤         |网络质量未知: 按照[网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)指南确定你的网络是否已准备好进行实时媒体。<br></br>网络质量差: 执行网络修复步骤, 为高质量实时媒体提供合适的环境。<br></br>网络满意: 确保所有 IP 地址和端口均可正确访问。           |
+|![表示后续步骤的图标](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |后续步骤         |网络质量未知: 执行网络准备情况评估以确定网络是否已准备好使用实时媒体。<br></br>网络质量差: 执行网络修复步骤, 为高质量实时媒体提供合适的环境。<br></br>网络满意: 确保所有 IP 地址和端口均可正确访问。           |
 
 ## <a name="related-topics"></a>相关主题
 

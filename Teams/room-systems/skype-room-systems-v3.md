@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Microsoft 团队聊天室的管理概述。
-ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01b2550c1a0ad691acf48c58f6c13a37f2b4b7e6
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288568"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198633"
 ---
 # <a name="management-overview"></a>管理概述 
 
@@ -62,7 +62,7 @@ ms.locfileid: "34288568"
 
 我们建议你在部署中实现持续运营质量和可靠性监视过程, 以监控通话的趋势分析和会议质量以及可靠性, 从而确定任何需要考虑的问题并努力解决问题。 
 
-将生成信息上载到 CQD 时, 你可以在每个建筑物级别上调查通话质量和可靠性趋势, 这使你可以轻松地比较建筑物并将注意力集中在特定问题上。 有关详细信息, 请下载[CQD For Skype for Business Online-交付和操作指南](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15)。 
+将生成信息上载到 CQD 时, 你可以在每个建筑物级别上调查通话质量和可靠性趋势, 这使你可以轻松地比较建筑物并将注意力集中在特定问题上。
 
 我们建议你查看并按照[体验质量检查指南](https://aka.ms/qerguide)来确定质量和可靠性趋势, 并创建行动计划来解决这些问题。 
 

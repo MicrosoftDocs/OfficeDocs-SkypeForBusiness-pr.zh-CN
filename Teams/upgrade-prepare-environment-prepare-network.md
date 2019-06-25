@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d18d7641c56ae2c8f84777e408133fef1cb35610
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548618"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198641"
 ---
 ![升级旅行图, 强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
 
@@ -76,10 +76,10 @@ ms.locfileid: "34548618"
 |---|---|---|
 |**延迟 (一种方法)** |< 50 ms |< 30 ms |
 |**延迟 (往返行程时间或 RTT)** |< 100 ms |< 60 ms |
-|**爆发数据包丢失** |任何 200 ms 间隔期间的 <10% |任何 200 ms 间隔期间的 <1% |
-|**数据包丢失** |任何15秒间隔期间的 <1% |在任何15秒的时间间隔内 < 0.1% |
-|**数据包内部到达抖动** |任何15秒间隔期间的 <30 ms |任何15秒间隔期间的 <15 ms |
-|**数据包重新排序** |< 0.05% 的订单数据包 |< 0.01% 的订单数据包 |
+|**爆发数据包丢失** |在任何200毫秒的时间间隔内 <10% |在任何200毫秒的时间间隔内 <1% |
+|**数据包丢失** |在任何15秒的时间间隔内 <1% |在任何15秒的时间间隔内 <0.1% |
+|**数据包内部到达抖动** |在任何15秒的时间间隔内 <30 ms |在任何15秒的时间间隔内 <15 毫秒 |
+|**数据包重新排序** |<0.05% 的订单外数据包 |<0.01% 的订单外数据包 |
 
 若要测试这两个网络段, 可以使用 "[网络评估" 工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可直接在客户端 PC 上和连接到客户网络边缘的 PC 上部署。 该工具包含有限的文档, 但有关该工具用法的更深入的文档可在此处找到:[网络准备情况评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过运行此网络准备情况评估, 你可以验证你的网络是否已准备好运行实时媒体应用程序, 例如 Microsoft 团队。
 
@@ -195,7 +195,7 @@ Microsoft 团队连接到 Microsoft Online 服务, 并且需要 internet 连接�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>谁将负责在所有网段和组织位置完成正确的网络评估？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>你可以执行详细的网络评估, 以帮助确保你的网络为你的 Microsoft 团队部署做好准备。 有关详细信息, 请参阅<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">网络准备情况评估</a>。</li><li>基于每个网络段的网络准备情况评估的结果执行网络修正。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>你可以执行详细的网络评估, 以帮助确保你的网络为你的 Microsoft 团队部署做好准备。 </li><li>基于每个网络段的网络准备情况评估的结果执行网络修正。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -208,7 +208,7 @@ Microsoft 团队连接到 Microsoft Online 服务, 并且需要 internet 连接�
 
 - 打开从将使用团队的客户端传出的 UDP 端口3478到3481。
 
-- 通过完成[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner), 确保您有足够的带宽来部署团队。
+- 确保您有足够的带宽来部署团队。
 
 - 运行[网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885), 确保满足从边缘段和客户端段的[媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中所述的要求。
 
