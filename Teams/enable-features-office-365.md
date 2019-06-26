@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116022"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221533"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -44,13 +44,13 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 #### <a name="default-apps"></a>默认应用
 
-这些应用（例如 Planner、Praise 和 Weather）由 Teams 提供。 要打开某个应用，请选中该应用对应的复选框。 要关闭某个应用，请取消选中相应的复选框。 
+默认应用（例如 Planner、Praise 和 Weather）由 Teams 提供。 要打开某个应用，请选中该应用对应的复选框。 要关闭某个应用，请取消选中相应的复选框。
 
 ![“默认应用”部分屏幕截图。](media/teams-manage-features-in-office365-image1.png "“默认应用”部分屏幕截图")
 
 #### <a name="external-apps"></a>外部应用
 
-这些应用由第三方提供。 你可以为外部应用配置以下设置。
+外部应用由第三方提供。 你可以为外部应用配置以下设置。
 
 ![“外部应用”部分屏幕截图。](media/teams-manage-features-in-office365-image2.png "“外部应用”部分屏幕截图，显示了你可以打开和关闭的设置")
 
@@ -65,7 +65,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="external-access"></a>外部访问
 
-利用**外部访问**功能，你的 Teams 和 Skype for Business 用户可以与贵组织外部的用户通信。要配置外部访问，请访问[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。
+利用**外部访问**功能，你的 Teams 和 Skype for Business 用户可以与你的组织或域之外的用户通信。 若要配置外部访问，请访问[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。
 
 要添加或阻止某个域：
 
@@ -118,7 +118,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 你可以使用这些设置来配置你的用户从 Skype for Business 到 Microsoft Teams 的升级方式。 
 
 #### <a name="coexistence-mode"></a>共存模式
-你可以指定共存模式：“**仅 Teams**”、“**群岛**”（Teams 和 Skype for Business 将共存）或“**仅 Skype for Business**”。你选择的共存模式将决定传入呼叫和聊天的路由方式，以及用户用于启动聊天和通话或安排会议的应用。有关共存模式的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
+你可以指定共存模式：“**仅 Teams**”、“**并行**”（Teams 和 Skype for Business 将共存）或“**仅 Skype for Business**”。 你选择的共存模式将决定传入通话和聊天的路由方式，以及用户用于启动聊天和通话或安排会议的应用。 有关共存模式的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 #### <a name="app-preferences"></a>应用首选项
 

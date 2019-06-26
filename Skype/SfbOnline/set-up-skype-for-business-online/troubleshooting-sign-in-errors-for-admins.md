@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285031"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221488"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 
@@ -48,7 +48,7 @@ ms.locfileid: "34285031"
 > 
 > [更新 Active Directory 中的用户设置](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
 > 
-> [使用 Microsoft Support 疑难解答指南](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
+> [使用 Microsoft 支持疑难解答指南](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
 > 
 > [收集更多信息并寻求进一步帮助](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
@@ -75,7 +75,7 @@ ms.locfileid: "34285031"
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  这些说明主要适用于 Microsoft Office 365 Plan E 客户。 如果你是 Office 365 Plan P 客户，请继续下面的部分， [收集更多信息并寻求进一步帮助 ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)。
+>  这些说明主要适用于 Microsoft Office 365 Plan E 客户。 如果你是 Office 365 Plan P 客户，请继续阅读下一节：[收集更多信息并寻求进一步帮助](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)。
 
 如果尝试了前一节中的建议之后用户仍然无法登录，可以基于错误类型执行其他疑难解答。 下表列出了最常见的错误消息和可能的原因。 表后面提供了解决各个问题的详细过程。
 

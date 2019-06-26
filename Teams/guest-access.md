@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748385"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221665"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
-
-## <a name="guest-access-overview"></a>来宾访问概述
 
 “来宾访问”是客户需求最强烈的的功能之一。 你可按此处所述了解来宾访问功能的最新进展并将你的想法告诉我们：
 
@@ -34,6 +32,8 @@ ms.locfileid: "34748385"
 - 请在 [Teams 路线图](https://aka.ms/teamsroadmap)中了解即将发布的新功能或更新功能。
 - 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中将你想要的功能告诉我们。
 - 在下面的“注释”部分中分享你的体验。
+
+## <a name="guest-access-overview"></a>来宾访问概述
 
 借助“来宾访问”功能，你组织中的团队可通过在你的一个或多个租户中向组织外部人员授予现有团队和频道的访问权限，与他们进行协作。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
 
@@ -59,7 +59,7 @@ Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资�
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>详细信息
-    
+
 [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Office 365 组的来宾访问](https://support.office.com/zh-CN/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 

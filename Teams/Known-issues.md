@@ -3,7 +3,7 @@ title: Microsoft Teams 的已知问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131429"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222074"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -215,6 +215,10 @@ ms.locfileid: "35131429"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |移动客户端团队布局差异  <br/> |在移动客户端上，团队按字母顺序列出，频道无法折叠。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|使用 iOS 13 测试版时可能遇到的问题  <br/> |1. 不触发 Teams 通知。  其中包括聊天、提及和通话。  2. 测试版无法使用文件预览功能。  <br/> |目前没有解决方法。  我们正在与 Apple 开发人员一起寻找解决这些问题的方法。  <br/> | 2019 年 6 月 25 日  <br/>|
 
 
 ## <a name="people"></a>人员
