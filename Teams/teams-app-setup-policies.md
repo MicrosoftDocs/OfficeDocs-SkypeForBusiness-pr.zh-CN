@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/18/2019
+ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -19,19 +19,19 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用, 以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 21e56f9b2910180295e996f12c899e153551a8a3
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198625"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221803"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 > [!NOTE]
 > 如果启用了组织范围的应用权限策略设置,**允许与自定义应用交互**, 则你可能看不到 Microsoft 团队管理中心中的应用安装策略。 它目前正在推出, 即将在您的组织中提供。
 
-作为管理员, 你可以使用应用设置策略自定义 Microsoft 团队, 以突出显示对你的用户最重要的应用。 你可以选择要固定的应用, 并设置它们的显示顺序。 应用设置策略允许你展示组织中的用户所需的应用, 包括由第三方或你的组织中的开发人员构建的应用。 你还可以使用应用设置策略来管理内置功能的显示方式。
+作为管理员, 你可以使用应用设置策略自定义 Microsoft 团队, 以突出显示对你的用户最重要的应用。 你可以选择要固定的应用, 并设置它们的显示顺序。 应用设置策略允许你展示你的组织需要的用户所需的应用, 包括由第三方或你组织中的开发人员构建的应用。 你还可以使用应用设置策略来管理内置功能的显示方式。
 
 应用程序将固定到应用栏。 这是团队桌面客户端和团队移动客户端 (iOS 和 Android) 底部的栏。 
 

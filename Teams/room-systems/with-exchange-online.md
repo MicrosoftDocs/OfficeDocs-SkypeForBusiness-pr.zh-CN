@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题, 了解如何通过 Exchange Online 部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: e90767c6209fdb13eb7a4c6d0794865aa88e65c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74cff1934e47cc8f4a621ad380bfb8e48f311666
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288425"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221368"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -33,7 +33,10 @@ ms.locfileid: "34288425"
 
 在使用 Exchange Online 部署 Microsoft 团队聊天室之前, 请确保满足这些要求。 有关详细信息, 请参阅[Microsoft 团队会议室要求](requirements.md)。
   
-若要通过 Exchange Online 部署 Microsoft 团队聊天室, 请按照下面的步骤操作。 确保你有合适的权限来运行相关 cmdlet。
+若要通过 Exchange Online 部署 Microsoft 团队聊天室, 请按照下面的步骤操作。 确保你有合适的权限来运行相关 cmdlet。 
+
+   > [!NOTE]
+   >  此部分中的[适用于 Windows PowerShell cmdlet 的 Azure Active Directory 模块](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)(例如, Set-MsolUser) 已在为 Microsoft 团队聊天室设备设置帐户中进行了测试。 其他 cmdlet 可能有效, 但尚未在此特定方案中对其进行测试。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>创建帐户并设置 Exchange 属性
 
@@ -79,7 +82,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     > 选择 "**密码永不过期**" 是 Microsoft 团队聊天室上的 Skype For business 服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样, 你将需要为每个 Microsoft 团队聊天室用户帐户创建一个例外。
   
 4. 单击“**完成**”创建帐户。
-5. 创建该帐户后，运行目录同步。完成后，转至用户页面并验证在上述步骤中创建的两个帐户是否已合并。
+5. 创建帐户后, 运行目录同步。 这可以通过在 PowerShell 中使用[MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)来实现。 完成后, 转到 "用户" 页面并验证之前步骤中创建的两个帐户是否已合并。
 
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 

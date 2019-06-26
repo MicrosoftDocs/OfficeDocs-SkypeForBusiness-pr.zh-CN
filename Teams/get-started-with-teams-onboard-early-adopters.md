@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245688"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221206"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 
@@ -64,7 +64,7 @@ Teams 桌面客户端为 Windows 和 Mac 用户提供最佳整体体验。 若�
 3. 安装完成后启动 Teams。
 
 > [!NOTE]
-> 以后，如果你考虑在整个组织中更正式地大规模部署 Teams，请观看 [Teams Windows 桌面客户端](http://aka.ms/teams-clients)视频，了解如何规划和部署 Teams。 
+> 以后，如果你考虑在整个组织中更正式地大规模部署 Teams，请观看 [Teams Windows 桌面客户端](https://aka.ms/teams-clients)视频，了解如何规划和部署 Teams。 
 
 #### <a name="teams-for-mac"></a>Mac 版 Teams 
 安装 Mac 桌面客户端的最简单方法是：

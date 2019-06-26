@@ -1,13 +1,13 @@
 ---
-title: 将应用发布到 Microsoft Teams 租户应用目录
+title: 在 Microsoft 团队租户应用目录中发布应用
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2019
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
-description: 面向 Microsoft 团队租户的应用程序目录中发布应用程序的指南。
+description: 有关在 Microsoft 团队租户应用目录中发布应用的指南。
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
@@ -16,65 +16,65 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226688"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221322"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>将应用发布到 Microsoft Teams 租户应用目录
+<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
 =======================================================
 
-您可以使用 Microsoft 团队租户的应用程序目录以测试和分发到您的组织的业务线应用程序。 
+你可以使用 Microsoft 团队租户应用目录来测试和分配业务线应用程序到你的组织。
 
-团队租户的应用程序目录允许您分发您生成专门针对您的组织的业务线应用程序和所依赖的完成向用户的关键业务功能。 
- 
-登录到您的团队客户端使用全局管理员凭据和发布您的组织的应用程序。 
+"团队租户应用" 目录使你可以分配专为你的组织构建的业务线应用程序, 以及你依赖于完成关键业务功能的业务线应用程序。
 
-## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>从工作组客户端租户的应用程序目录发布应用程序
+若要为你的组织发布应用, 请使用全局管理员凭据登录到团队客户端, 然后按照下面的说明进行操作。
 
-注意： 您需要登录到 Microsoft 团队客户端使用您的全局管理员凭据发布您的组织的应用程序。
+## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>从团队客户端发布租户应用目录中的应用
 
-### <a name="get-a-teams-app-package"></a>获取团队应用程序包
+> [!NOTE]
+> 你需要使用全局管理员凭据登录到 Microsoft 团队客户端, 以便为你的组织发布应用。
 
-使用[团队应用程序 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建团队应用程序包。 在应用程序包后，您可以将其添加到企业应用程序目录。 时为租户中的所有用户视图应用程序目录，当前仅全局管理员可以发布和管理它的功能。 （最终，团队 admins 都将能够执行此操作以及。）
+### <a name="get-a-teams-app-package"></a>获取团队应用包
 
-### <a name="go-to-the-tenant-apps-catalog"></a>转到租户的应用程序目录
+团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 拥有应用程序包后, 即可将其添加到企业应用目录。 虽然租户中的所有用户都可以查看应用程序目录, 但目前只有全局管理员能够发布和管理它。 (最终, 团队管理员也将能够执行此操作。)
 
-启动 Microsoft 团队客户端并使用全局管理员凭据登录。 从 Microsoft 团队存储区中，选择用于组织特定 （在此示例中为 Contoso） 的名为新建部分。 您的组织中的用户可以在目录中查看应用程序，并安装到团队的成员。 
+### <a name="go-to-the-tenant-apps-catalog"></a>转到租户应用目录
 
-![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image01.png)
+启动 Microsoft 团队客户端并使用全局管理员凭据登录。 从 "Microsoft 团队存储" 中, 选择为特定组织 (在本例中为 "Contoso") 指定的新分区。 您的组织中的用户可以查看目录中的应用, 并为他们所属的团队安装这些应用。
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a>将应用程序添加到租户的应用程序目录
+![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image01.png)
 
-从存储区中，选择**上载自定义应用程序** > **上载 contoso**。
+### <a name="add-an-app-to-the-tenant-apps-catalog"></a>将应用添加到租户应用目录
 
-![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image02.png)
+1. 在应用商店中, 选择 "上载**适用于 Contoso**的**自定义应用** > 上传"。
 
-（您还可以选择**上载我或我的团队**，该数据库称为 sideloading，使应用程序仅适用于您或您的所选团队。） 
+    ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image02.png)
 
-导航到应用程序包并选择它。
+    (您也可以选择 **"向我上载" 或 "我的团队**" (称为*旁加载*)。 旁加载使应用仅可供你的团队或你选择的团队使用。)
 
-![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image03.png)
+2. 导航到应用包并将其选中, 然后单击 "**打开**"。
 
-当您返回到您的租户的应用程序目录中时，就有新的企业应用程序。 请记住，只有您和您的组织的成员有权访问此应用程序目录。
+    ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image03.png)
 
-### <a name="update-an-app-in-the-tenant-apps-catalog"></a>更新应用程序中租户的应用程序目录
+当你返回到租户应用目录时, 新的企业应用将位于此处。 请记住, 只有你和你的组织的成员才有权访问此应用程序目录。
 
-1. 从租户的应用程序目录，选择"**...**" 在右上您要更新的应用程序。
-2. 导航到更新的应用程序包并选择它。
+### <a name="update-an-app-in-the-tenant-apps-catalog"></a>更新租户应用目录中的应用
 
-![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image04.png)
+1. 从租户应用目录中, 选择 "**...**" 在要更新的应用的右上角。
 
-应用程序将为版本 2.0 进行了修订。 您还可以从该菜单整个公司的删除应用程序。
+2. 导航到已更新的应用包并将其选中, 然后单击 "**打开**"。
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理门户管理租户的应用程序目录
+    ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image04.png)
 
-如果您有需要 bug 修补程序的应用程序，您可以暂时禁用应用程序通过 Office 365 管理门户，选择**设置** > **服务 & 加载项** > **Microsoft 团队**。 除了前面的设置是，现在有部分专用于贵公司的应用程序。 您可以选择您想要启用或禁用的应用程序。
+该应用将被修改为版本2.0。 您也可以从此菜单中删除整个公司的应用。
 
-![显示屏幕截图团队应用程序商店的应用程序目录。](media/private-app-store-teams-image05.png)
+## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理门户管理租户应用目录
 
-这会阻止用户从与该应用程序，而不完全删除应用程序进行交互。 这些控件为管理员提供更大的灵活性和控制时您企业中的应用程序的管理。 
+如果你有需要 bug 修复的应用, 你可以通过 Office 365 管理门户暂时禁用应用。 选择 "**设置** > **服务" & 加载项** > **Microsoft 团队**。 除了以前的设置, 现在还有一个专用于贵公司的应用的部分。 你可以选择要启用或禁用的应用。
 
+![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image05.png)
 
+禁用应用将阻止用户与应用交互, 而无需完全删除应用。 在企业中管理应用时, 这些控件可为你提供额外的灵活性和控制。

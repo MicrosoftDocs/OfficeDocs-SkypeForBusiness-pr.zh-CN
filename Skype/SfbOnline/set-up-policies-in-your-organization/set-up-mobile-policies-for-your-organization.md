@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online, 例如允许用户通过其工作电话号码 (而不是移动电话号码) 在手机上拨打和接听电话的功能。mber. 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 844328425daa8076f0d861911ba989594ff832e6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5acf0f7f331e7836e5bab785f9726cfd921b619d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297695"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221140"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "34297695"
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
@@ -128,7 +128,7 @@ ms.locfileid: "34297695"
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [为何想使用 Windows PowerShell 管理 Office 365 的 6 个理由）](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
     

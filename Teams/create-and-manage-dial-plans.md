@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何在 Office 365 中创建呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。 '
-ms.openlocfilehash: 10a05c9d4c16f7c5681f0c7c6fcc931e041426f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281829"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221919"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -43,7 +43,7 @@ ms.locfileid: "34281829"
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 Restart your computer when you are prompted.
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     

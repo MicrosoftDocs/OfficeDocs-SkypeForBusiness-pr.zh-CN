@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 团队管理员角色可以管理团队
+title: 使用 Microsoft 团队管理员角色管理团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,58 +13,58 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8b2d1c9f1dccc12f630625d880dad54b0497f12
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108736"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221214"
 ---
-# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色可以管理团队
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 
-使用 Azure Active Directory (Azure AD)，您可以指定用于管理的 Microsoft 团队需要不同的访问级别的管理员。 管理员可以管理整个团队工作负荷，或者他们可以具有委派权限的疑难解答呼叫质量问题或管理需要组织的电话。 
+使用 Azure Active Directory (Azure AD), 你可以将需要不同级别的访问权限的管理员指定为管理 Microsoft 团队。 管理员可以管理整个团队工作负荷, 也可以具有委派权限, 用于解决呼叫质量问题或管理组织的电话需求。 
 
-## <a name="teams-roles-and-capabilities"></a>工作组角色和功能
+## <a name="teams-roles-and-capabilities"></a>团队角色和功能
 
-有四个团队管理员角色可用： 团队服务管理员、 团队 communications 管理员、 团队 communications 支持专家、 和团队 communications 支持工程师。 查看下表了解每个角色可以执行的操作，并且该工具管理员可以使用中的 Microsoft 团队管理中心和 PowerShell。
+有四个团队管理员角色可用: 团队服务管理员、团队通信管理员、团队通信支持专家和团队通信支持工程师。 查看下表, 了解每个角色可以执行的操作以及管理员可在 Microsoft 团队管理中心和 PowerShell 中使用的工具。
 
 <!-- add Global admin role? -->
 
-| 角色 | 可以执行这些任务 | 可以访问以下工具 |
+| 角色 | 可以执行这些任务 | 可访问以下工具 |
 |----- | ------------------ | ------------------------------ |
-| Teams 服务管理员 | 管理 Microsoft 团队服务，管理和创建 Office 365 组 | 中的 Microsoft 团队管理中心和关联的 PowerShell 控件，包括的所有内容：<br><br> 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 管理消息传递，包括消息策略<sup>1、 3</sup><br><br> 管理所有组织范围的设置，包括联合身份验证、 团队升级和团队客户端设置<sup>1、 3</sup><br><br> 管理组织及其关联的设置，包括成员资格 （支持通过 PowerShell 中，团队管理团队管理中心中管理组） <sup>23</sup>中的团队<br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) 的数据。 创建新的报表、 更新和删除报告，根据需要。 上载并更新 CQD 构建数据 |
-| Teams 通信管理员 | 管理呼叫和团队服务中的会议功能 | 管理会议，包括会议策略、 配置和会议网桥<sup>1、 3</sup><br><br> 管理语音，包括调用策略和电话号码的清单和分配<sup>1</sup><br><br> 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) 的数据。 创建新的报表、 更新和删除报告，根据需要。 上载并更新 CQD 构建数据 |
-| Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户配置文件页和解决用户呼叫质量问题使用高级故障排除工具集<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用数据质量欠佳的呼叫质量受影响的用户公开中呼叫质量仪表板 (CQD) |
-| 团队 Communications 支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页的疑难解答呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup> <br><br> 访问、 监视和解决租户的呼叫质量和可靠性使用公开中呼叫质量仪表板 (CQD) 的数据。  
+| Teams 服务管理员 | 管理团队服务, 管理和创建 Office 365 组 | Microsoft 团队管理中心和关联的 PowerShell 控件中的所有内容, 包括:<ul><li> 管理会议, 包括会议策略、配置和会议桥。<sup>1、3</sup></li><li>管理语音, 包括呼叫策略和电话号码库存和作业。<sup>1</sup></li><li>管理消息服务, 包括消息策略。<sup>1、3</sup></li><li>管理所有组织范围的设置, 包括联盟、团队升级和团队客户端设置。 s<sup>1, 3</sup></li><li>管理组织中的团队及其关联的设置, 包括成员身份 (通过 PowerShell 支持的组管理、团队管理中心中的团队管理)。<sup>23 日</sup></li><li>查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> </li><li> 使用呼叫质量仪表板 (CQD) 中的数据向受不良呼叫质量影响的用户进行访问、监控和解决租户的通话质量和可靠性。 根据需要创建新报表、更新和删除报表。 上载和更新 CQD 生成数据。</li></ul> |
+| Teams 通信管理员 | 管理团队服务内的通话和会议功能。 | 管理会议, 包括会议策略、配置和会议桥。<sup>1、3</sup><br><br> 管理语音, 包括呼叫策略和电话号码库存和作业。<sup>1</sup><br><br> 查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> <br><br> 使用呼叫质量仪表板 (CQD) 中的数据向受不良呼叫质量影响的用户访问、监视和解决租户的通话质量和可靠性。 根据需要创建新报表、更新和删除报表。 上载和更新 CQD 生成数据。|
+| Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> <br><br> 使用呼叫质量仪表板 (CQD) 中的数据向受不良呼叫质量影响的用户访问、监视和解决租户的通话质量和可靠性。 |
+| 团队沟通支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页面, 用于解决呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup> <br><br> 使用在通话质量仪表板 (CQD) 中公开的数据访问、监控租户的通话质量和可靠性并进行故障排除。  
 
-<sup>1</sup> [PowerShell-商业模块的 Skype](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
-<sup>2</sup> [PowerShell 的 Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [的 Microsoft 团队管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
+<sup>1</sup> [PowerShell-Skype for business 模块](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>2</sup> [PowerShell-Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
+<sup>3</sup> [Microsoft 团队管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-有关可用于管理的 Microsoft 团队的管理工具的详细信息，请参阅[管理 Microsoft 团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
+有关可用于管理 Microsoft 团队的管理员工具的详细信息, 请参阅[管理 Microsoft 团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
 
-有关限制、 规格和适用于团队的其他要求的详细信息，请参阅[限制和规格的 Microsoft 团队](limits-specifications-teams.md)。
+有关适用于团队的限制、规范和其他要求的详细信息, 请参阅[Microsoft 团队的限制和规范](limits-specifications-teams.md)。
 
-## <a name="assign-users-to-each-role"></a>向每个角色分配用户
+## <a name="assign-users-to-each-role"></a>为用户分配每个角色
 
-您可以将用户分配这些角色在 Azure Active Directory 中。 若要了解如何将管理角色分配给 Azure Active Directory 中的用户，请参阅[为用户在 Azure Active Directory 中的管理员角色分配](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+你可以在 Azure AD 中向用户分配这些角色。 若要了解如何在 Azure AD 中向用户分配管理角色, 请参阅向[Azure Active Directory 中的管理员角色分配用户](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
-## <a name="cmdlets-available-for-each-role"></a>适用于每个角色 Cmdlet
+## <a name="cmdlets-available-for-each-role"></a>适用于每个角色的 cmdlet
 
-大部分这些管理员角色的 PowerShell 工具中的业务 PowerShell 模块，Skype live 和务必注意这些管理员角色可以访问控件的 cmdlet 的一些共享业务 online 还利用的 Skype 的设置。 若要查看中的业务 PowerShell 模块 Skype cmdlet 的当前给定角色的完整列表，请按照下列步骤：
+适用于这些管理员角色的大多数 PowerShell 工具都在 Skype for business PowerShell 模块中运行, 因此请务必注意, 这些管理员角色的一些 cmdlet 有权控制也用于 Skype for business Online 的共享设置。 若要查看 Skype for Business PowerShell 模块中当前对给定角色可用的 cmdlet 的完整列表, 请按照下列步骤操作:
 
-1. 将该角色分配给用户 （并确保用户具有没有其他角色）。
-2. 连接到业务 PowerShell 模块 Skype:<br>
-   a. $session = 新 csonlinesession<br>
-   b. 导入 pssession $session<br>
-   c. 使用**Get-模块**来标识导入的会话 （将是随机生成的名称） 的名称。<br>
-3. 使用**Get-command-模块** <*上面名称*> 标识所有可用的 cmdlet
+1. 将该角色分配给用户 (并确保用户没有其他角色)。
+2. 连接到 Skype for Business PowerShell 模块:<br>
+   a. $session = new-csonlinesession<br>
+   b. Import-pssession $session<br>
+   c. 使用 "**获取模块**" 标识导入会话的名称 (它将是随机生成的名称)。<br>
+3. 使用上述> 的**Get Command Module** <*name*标识所有可用 cmdlet
 
 ### <a name="related-topics"></a>相关主题
 
-- [Microsoft 团队 PowerShell 概述 （英文)](teams-powershell-overview.md)
+- [Microsoft 团队 PowerShell 概述](teams-powershell-overview.md)
 - [Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 - [在 Microsoft Teams 中分配团队所有者和成员](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

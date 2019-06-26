@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 在组织中的人员可以使用 Skype 会议直播之前, 您需要启用它。 若要执行此操作, 您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591626"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221639"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
@@ -48,7 +48,7 @@ ms.locfileid: "34591626"
     
 3. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-4. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+4. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 5. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息, 请参阅 SQL Server 2008 Service Pack 1 的累积更新程序包9。
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298537"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222114"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在 Skype for business server 2015 中部署 SQL 镜像以实现后端服务器高可用性
 
 
-为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息, 请参阅[SQL Server 2008 Service Pack 1 的累积更新程序包 9 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
+为了能够部署 SQL 镜像，你的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主服务器、镜像服务器和见证服务器。 有关详细信息, 请参阅[SQL Server 2008 Service Pack 1 的累积更新程序包 9](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
 
@@ -50,7 +50,7 @@ ms.locfileid: "34298537"
 > 仅当主映像、镜像和见证 (如果需要) 服务器都属于同一域时, 才支持使用拓扑生成器或 cmdlet 来设置和删除 SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
 
 > [!IMPORTANT]
-> 只要更改了后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 > 对于镜像更改 (如更改镜像的位置), 必须使用拓扑生成器执行以下三个步骤:
+> 只要更改了后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 > 进行镜像更改 (例如更改镜像的位置) 时, 必须使用拓扑生成器执行以下三个步骤:
 
 1. 从旧镜像服务器中删除镜像。
 
@@ -59,7 +59,7 @@ ms.locfileid: "34298537"
 3. 发布拓扑。
 
 > [!NOTE]
-> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果 SQL Server 服务在网络服务上下文下运行, 则可以将 "主体" \<和\>\\"\>镜像 SQL" 服务器的域 <SQLSERVERNAME $ 添加到 "共享" 权限。 $ 非常重要，可用于标识这是一个计算机帐户。
+> 必须为要写入到的镜像文件创建文件共享，SQL Server 和 SQL 代理在其下运行的服务需要读取/写入访问权限。 如果 SQL Server 服务在网络服务上下文下运行, 则\<可以将域\> \\<SQLSERVERNAME\>$ 和镜像 SQL server 添加到共享权限。 $ 非常重要，可用于标识这是一个计算机帐户。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>在拓扑生成器中创建池时配置 SQL 镜像
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198274"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222035"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -180,9 +180,9 @@ _推荐的初始端口范围_
 
 3. 停止捕获。
 
-4. 在 "**显示筛选器**" 字段中, 使用发出呼叫的 PC 的源 IP 地址, 并通过将 DSCP 值 46 (十六进制 0xb8) 定义为搜索条件来优化筛选器, 如以下示例所示:
+4. 在 "**显示筛选器**" 字段中, 使用发出呼叫的 PC 的源 IP 地址, 并通过将 DSCP 值 46 (十六进制 0x2E) 定义为搜索条件来优化筛选器, 如以下示例所示:
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source = = "192.168.137.201" 和 DifferentiatedServicesField = = 0x2E
 
     !["显示筛选器" 对话框中的屏幕截图筛选器。](media/Qos-in-Teams-Image4.png "网络监视器中的 \"显示筛选\" 对话框, 显示要应用的筛选器。")
 

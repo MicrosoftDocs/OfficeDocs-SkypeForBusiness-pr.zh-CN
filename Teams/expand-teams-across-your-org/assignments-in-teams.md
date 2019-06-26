@@ -15,12 +15,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131517"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221254"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
@@ -66,7 +66,7 @@ Turnitin 是一种 plagiarism 检测服务。 这是由其自身条款和隐私�
 下面是帮助你获取此信息的一些说明。
 
 TurnitinApiUrl 是您的管理员控制台的主机地址。
-上例. https:[]()//your-tenant-name.turnitin.com
+上例. `https://your-tenant-name.turnitin.com`
 
 管理员控制台是你可以在其中创建集成和与集成相关联的 API 密钥。
 

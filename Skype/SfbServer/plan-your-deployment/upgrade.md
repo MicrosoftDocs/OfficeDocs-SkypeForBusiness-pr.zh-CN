@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '摘要: 了解在计划升级到 Skype for Business 服务器2015时应考虑的事项。 从 Microsoft 评估中心的以下位置下载 Skype for business Server 2015 的免费试用版https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:。'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296782"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222129"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>规划升级到 Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ ms.locfileid: "34296782"
 1. 对当前拓扑的理解。
     
     > [!NOTE]
-    > 请确保卸载 Lync Server 2013 的 LRS 管理工具, 然后再运行就地升级。 Lync Server 2013 的 LRS 管理工具无法与 Skype for Business Server 2015 共存。 运行就地升级后, 安装新的 LRS 管理工具, 请参阅[Microsoft Lync 会议室系统管理 Web 门户 For Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > 请确保卸载 Lync Server 2013 的 LRS 管理工具, 然后再运行就地升级。 Lync Server 2013 的 LRS 管理工具无法与 Skype for Business Server 2015 共存。 运行就地升级后, 安装新的 LRS 管理工具。 有关详细信息, 请参阅[Microsoft Lync 会议室系统管理 Web 门户 For Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) 。
   
 2. 升级的主池。
     
@@ -148,7 +148,7 @@ ms.locfileid: "34296782"
    - 对于非前端服务器，使用 Start-CSWindowsService。
     
 > [!NOTE]
->  如果不想升级现有存档和监控数据库，请在升级拓扑之前移除依赖关系。 如果想创建新的存档和监控数据库，在升级过程中，可以创建新的 SQL 存储，并将其与池关联。 你可以在主题 "[升级到 Skype for Business 服务器 2015](../deploy/upgrade-to-skype-for-business-server.md)" 中找到有关如何执行此操作的步骤。 > 就地升级不支持 Skype for business Server 的高可用性或灾难恢复。 为避免中断用户的服务, 请使用 "[移动用户" 方法 (无用户停机)](upgrade.md#bkmk_MoveUsersMethod)升级过程中的 >。在升级过程中, xds-副本将放在具有最大可用空间的磁盘驱动器上的本地共享文件夹中。 如果该磁盘以后被删除，则您可以遇到服务未启动等问题。
+>  如果不想升级现有存档和监控数据库，请在升级拓扑之前移除依赖关系。 如果想创建新的存档和监控数据库，在升级过程中，可以创建新的 SQL 存储，并将其与池关联。 你可以在主题 "[升级到 Skype for Business 服务器 2015](../deploy/upgrade-to-skype-for-business-server.md)" 中找到有关如何执行此操作的步骤。 > 就地升级不支持 Skype for business 服务器的高可用性或灾难恢复。 为避免中断用户的服务, 请使用 "[移动用户" 方法 (无用户停机)](upgrade.md#bkmk_MoveUsersMethod)进行升级。升级过程中的 > 在升级过程中, xds 将放置在具有最大可用空间的磁盘驱动器上的本地共享文件夹中。 如果该磁盘以后被删除，则您可以遇到服务未启动等问题。
   
 ### <a name="upgrade-order"></a>升级顺序
 

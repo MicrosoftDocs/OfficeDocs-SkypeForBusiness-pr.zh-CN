@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 你可以使用本部分中的过程修改单个用户帐户属性。
-ms.openlocfilehash: d0e1a3ac02f5696e91e07c0f08cf0cf10e09f98e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275071"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222059"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义 Skype for Business 服务器的用户帐户属性
  

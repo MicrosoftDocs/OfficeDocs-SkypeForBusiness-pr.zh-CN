@@ -3,7 +3,7 @@ title: 来宾体验介绍
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/18
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 52ad89d253c58d8c840698c32f697d91d7d69695
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748377"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221896"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -29,9 +29,11 @@ ms.locfileid: "34748377"
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队屏幕截图中所示，横幅显示“This team has guests”，每个来宾的姓名旁边显示“GUEST”标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示, 横幅显示 "此团队拥有来宾", 并且每个来宾的名称旁边会显示一个 "(来宾)" 标签。
     
 ![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分, 并在顶部横幅中显示通知, 表明该团队拥有来宾和来宾用户 (其姓名旁边的 \"WORD 来宾\" 标识)。")
+
+## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
 
 下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
 
@@ -95,10 +97,10 @@ ms.locfileid: "34748377"
 ## <a name="frequently-asked-questions"></a>常见问题
 
 问： 如何离开已被邀请的组织？<br>
-答： 如果您已被邀请加入某个组织, 并且您不希望成为来宾, 您可以自行退出组织。 有关详细信息, 请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者, 您也可以要求组织的管理员将您从其租户中删除。 请注意, 在这两种情况下, 如果想要在将来访问组织, 则需要重新邀请租户。
+答： 如果您已被邀请到您不希望作为其来宾的组织, 您可以选择离开该组织。 有关详细信息, 请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者, 您可以要求组织的管理员将您从其租户中删除。 请注意, 在这两种情况下, 如果你想要在将来访问组织, 则需要重新邀请租户。
 
 问： 来宾与团队成员享有同样的功能吗？<br>
-答： 不。 要详细了解来宾可执行/不可执行哪些操作，请转到 [Teams 中的来宾功能](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b)。
+答： 不能。 有关来宾可以执行和不能执行的操作的详细信息, 请参阅本文中[的团队成员和来宾功能的比较](#comparison-of-team-member-and-guest-capabilities)。
 
 问： 可邀请多少位来宾？<br>
 答： 每位许可用户最多可添加 5 名来宾。
@@ -113,8 +115,10 @@ ms.locfileid: "34748377"
 答： 不能。
 
 问： 来宾能否附加文件？<br>
-答： 能，来宾可按两种方式附加文件：•   在左侧窗格中选择“文件”，然后浏览到文件位置。
-•   从其计算机上传。
+答： 是的, 来宾可通过以下两种方式附加文件:
+
+   - 在左窗格中选择 "文件", 然后浏览到文件位置。
+   - 从计算机上传文件。
 
 问： 来宾可下载私密聊天中的文件吗？<br>
 答： 能，他们可接收来自私密聊天中的成员的文件，然后将其下载到桌面上。

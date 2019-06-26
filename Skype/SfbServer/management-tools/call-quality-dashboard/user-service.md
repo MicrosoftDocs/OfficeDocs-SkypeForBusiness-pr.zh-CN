@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '摘要: 了解用户服务, 它是 "呼叫质量" 仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。'
-ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e0a6a58be98469458a8c8e7063402ff6477c35f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274518"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221308"
 ---
 # <a name="user-service-for-cqd"></a>CQD 用户服务
  
@@ -39,7 +39,7 @@ ms.locfileid: "34274518"
   
 此外, 知识库 API 将在 Uri 中的 {userId} 处接受两个特殊的用户 Id。
   
--  *默认值*-表示当前与 API 交互的用户。 这允许应用程序访问当前用户的内容, 而无需跟踪实际的用户 ID 值。 示例: ` https://<portal>/QoERepositoryService/repository/user/default`。
+-  *默认值*-表示当前与 API 交互的用户。 这允许应用程序访问当前用户的内容, 而无需跟踪实际的用户 ID 值。 示例: `https://<portal>/QoERepositoryService/repository/user/default`。
     
 -  *system* -表示系统用户。 这使应用程序无需知道实际的用户 ID 值即可访问系统用户的内容。 示例: `https://<portal>/QoERepositoryService/repository/user/system`。
     

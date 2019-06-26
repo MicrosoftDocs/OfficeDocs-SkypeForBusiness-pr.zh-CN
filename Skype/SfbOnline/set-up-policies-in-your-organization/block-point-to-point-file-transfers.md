@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 在 Skype for Business Online 中, 你可以控制作为现有会议策略设置的一部分的点对点 (P2P) 文件传输。 但是, 这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤, 你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297813"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221186"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
@@ -58,7 +58,7 @@ ms.locfileid: "34297813"
     
 2. 通过在**Windows PowerShell**窗口中键入_Get Host_检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理员可以为其他域 (联盟) 配置外部访问以允许这些域中的用户参与团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133920"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221270"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 ======================================================
@@ -67,13 +67,13 @@ ms.locfileid: "35133920"
 | 支持 @mentions | 否 | 是 |
 | 拨打私人电话 | 是 | 是  |
 | 允许 IP 视频 | 是 | 是  |
-| 屏幕共享模式 | 是 | 是  |
+| 屏幕共享模式 | 否 | 是 |
 | 允许立即开会 | 否 | 是 |
-| 编辑已发送的邮件 | 是 | 是  |
-| 可以删除已发送的邮件 | 是 | 是  |
-| 在对话中使用 Giphy | 是 | 是  |
-| 在对话中使用 Meme | 是 | 是  |
-| 在对话中使用贴纸 | 是 | 是  |
+| 编辑已发送的邮件 | 否 | 是 |
+| 可以删除已发送的邮件 | 否 | 是 |
+| 在对话中使用 Giphy | 否 | 是 |
+| 在对话中使用 meme | 否 | 是 |
+| 在对话中使用贴纸 | 否 | 是 |
 ||||
 
 <sup>1</sup>假设已将用户添加为来宾, 并以来宾身份登录到来宾租户。<br>

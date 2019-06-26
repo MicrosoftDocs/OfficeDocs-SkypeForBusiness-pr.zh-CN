@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 3508ab081535ced2cad1610fcb1f7195aaeb3dfa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283399"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221680"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
 当您购买**音频会议**许可证时, Microsoft 将为您的组织托管您的音频会议桥。 音频会议网桥提供来自不同位置的拨入电话号码, 以便会议组织者和参与者可以使用电话加入 Skype for business 或 Microsoft 团队会议。
   
-除了已分配给您的会议网桥的电话号码, 您还可以从其他位置[获取其他服务号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)(用于音频会议的收费和免费电话号码), 然后将其分配给会议桥, 以便您可以展开您的用户的覆盖范围。
+除了已分配给您的会议网桥的电话号码, 您还可以从其他位置[获取其他服务号码](/microsoftteams/getting-service-phone-numbers)(用于音频会议的收费和免费电话号码), 然后将其分配给会议桥, 以便您可以展开您的用户的覆盖范围。
   
 > [!NOTE]
 > 为能够分配/取消分配会议网桥的电话号码, 电话号码必须是 "*服务*" 号码。 你可以通过导航到旧版门户中的**语音** > **电话号码**并在 "**数字类型**" 列中查看, 来查看号码的类型。 为了让用户拨入免费电话号码上的网桥，应首先设置 Office 365 通信点数。
@@ -153,7 +153,8 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 2. 在 _ Windows PowerShell_ 窗口中键入 **Get-Host** ，以检查版本。
 
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。
+出现提示时，请重启计算机。
 
 4. 你还需要安装适用于 Skype for business Online 的 Windows PowerShell 模块, 使你能够创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 此模块仅在64位计算机上受支持, 并且可从[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下载中心下载。
 出现提示时，请重启计算机。

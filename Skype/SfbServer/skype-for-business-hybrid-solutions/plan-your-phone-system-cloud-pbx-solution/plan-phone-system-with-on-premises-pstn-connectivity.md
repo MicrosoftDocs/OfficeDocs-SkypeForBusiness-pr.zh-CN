@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解有关本地 PSTN 连接的 Office 365 (云 PBX) 中的电话系统规划注意事项。
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287018"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221041"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在 Skype for business Server 中通过本地 PSTN 连接计划 Office 365 中的电话系统
 
@@ -110,7 +110,7 @@ ms.locfileid: "34287018"
 
     如果您使用的是 Lync Server 2013, 请参阅[Lync server 2013 混合](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)。
 
-- **(推荐) Active Directory 联合身份验证服务 (AD FS)** 我们建议部署 AD FS 以支持单一登录。 有关详细信息, 请参阅[Active Directory 联合身份验证服务 (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)。
+- **建议您使用Active Directory 联合身份验证服务 (AD FS)。** 我们建议部署 AD FS 以支持单一登录。 有关详细信息, 请参阅[Active Directory 联合身份验证服务 (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)。
 
 有关在 Office 365 中部署电话系统的信息, 请参阅在[Skype for Business 服务器中使用本地 PSTN 连接在 office 365 中启用电话系统的用户](enable-users-for-phone-system.md)。
 

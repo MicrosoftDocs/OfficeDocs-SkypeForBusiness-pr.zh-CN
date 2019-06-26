@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype for business Online 允许您创建其他外部访问策略。 与客户端或会议策略 (你可以有多个组合) 不同, 有三个预定义的外部访问策略可涵盖大多数方案。
-ms.openlocfilehash: 0ffd39559e4bc45a7d70466d48fb9ae838660af9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe23e3cded24078f1d6baedba3a800aa24a5fbd
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297803"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221416"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
@@ -56,7 +56,7 @@ Skype for business Online 允许您创建其他外部访问策略。 与客户�
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0 ](https://www.microsoft.com/en-us/download/details.aspx?id=40855) 以下载 Windows PowerShell 并将其更新到 4.0 版本。出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=40855)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681816"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221856"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -119,9 +119,9 @@ ms.locfileid: "34681816"
 |[Lync Server 2013 资源工具包工具](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |2014 年 1 月 |
 |[Lync Server 2013 压力和性能工具](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |2013 年 3 月 |
 |[Lync Server 2013 白板存档查看器](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |2013 年 2 月 |
-|[Lync VDI 2013 插件（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012 年 10 月 |
-|[Lync VDI 2013 插件（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
-|[全新 Office Visio 模具](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016 年 7 月 |
+|[Lync VDI 2013 插件 (32 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012 年 10 月 |
+|[Lync VDI 2013 插件 (64 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
+|[新的 Office Visio 模具](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016 年 7 月 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下载文档
 
@@ -184,9 +184,9 @@ ms.locfileid: "34681816"
 |[Lync Server 2010 容量计算器](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|2012 年 2 月 |
 |[Lync Server 2010 规划工具](https://www.microsoft.com/download/en/details.aspx?id=19711)|2011 年 2 月 |
 |[Lync Server 2010 资源工具包工具](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|2012 年 5 月 |
-|[Lync Server 2010 压力和性能工具](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|2011 年 3 月 |
+|[Lync Server 2010 应力和性能工具](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|2011 年 3 月 |
 |[Lync Server 2010 Visio 模具](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|2011 年 2 月 |
-|[Lync Server 2010 Web Scheduler](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|2011 年 4 月 |
+|[Lync Server 2010 Web 计划程序](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|2011 年 4 月 |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 可下载文档
 
@@ -194,11 +194,11 @@ ms.locfileid: "34681816"
 |:--- |:--- |
 |[Lync Server 2010 文档帮助文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
 |[Lync Server 2010 欢迎页面](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
-|[适用于 Microsoft Lync Server 2010 的 IM an Expert 文档](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
+|[向 Microsoft Lync Server 2010 文档专家发送即时消息](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
 |[Lync 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011 年 1 月 |
 |[Lync Server 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
 |[Lync Server 2010 规划工具自述文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|2011 年 1 月 |
-|[Lync Server 2010 边缘服务器参考结构图](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011 年 3 月 |
+|[Lync Server 2010 Edge 服务器参考体系结构图表](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011 年 3 月 |
 
 ### <a name="resource-kit-technical-reference"></a>资源工具包（技术参考）
 
@@ -208,9 +208,9 @@ ms.locfileid: "34681816"
 
 软件包名称/链接|发布日期|
 |:--- |:--- |
-|[Lync Server 2010 群聊](https://www.microsoft.com/download/en/details.aspx?id=12480) |2010 年 11 月 |
-|[Lync Server 2010 群聊管理工具](https://www.microsoft.com/download/en/details.aspx?id=3610) |2010 年 11 月 |
-|[Lync 2010 群聊](https://www.microsoft.com/download/en/details.aspx?id=2651) |2010 年 11 月 |
+|[Lync Server 2010 群组聊天](https://www.microsoft.com/download/en/details.aspx?id=12480) |2010 年 11 月 |
+|[Lync Server 2010 群组聊天管理员工具](https://www.microsoft.com/download/en/details.aspx?id=3610) |2010 年 11 月 |
+|[Lync 2010 群组聊天](https://www.microsoft.com/download/en/details.aspx?id=2651) |2010 年 11 月 |
 
 ### <a name="trial-software"></a>试用版软件
 

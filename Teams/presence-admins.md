@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748440"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222090"
 ---
 # <a name="user-presence-in-teams"></a>团队中的用户状态
 
-联机状态是 Microsoft 团队 (以及整个 Office 365) 中的用户配置文件的一部分-并指示用户的当前可用性和组织中其他用户的状态。 默认情况下, 使用团队的组织中的任何人都可以在几乎实时查看-无论其他用户是否在线提供。
+联机状态是 Microsoft 团队 (以及整个 Office 365) 中的用户配置文件的一部分-并指示用户的当前可用性和组织中其他用户的状态。 默认情况下, 使用团队的组织中的任何人都可以几乎实时看到-无论其他用户是否在线提供。
 
 ## <a name="presence-states-in-teams"></a>团队中的状态
 
@@ -56,10 +56,11 @@ ms.locfileid: "34748440"
 
 用户可以指定谁可以断开连接 (联系他们替代 "请勿打扰" 设置)。 这些设置在应用内可用。
 
-## <a name="teams-is-not-skype-for-business"></a>团队不是 Skype for business
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>与 Skype for business 相比, 团队中的管理员设置
 
-Skype for Business 中的以下管理员设置在团队中有所不同:
-- 组织中的用户始终可以在团队中启用联机状态共享。 隐私 (决定谁可以查看状态) 配置在团队中不可用。
+以下管理员设置 Skype for business 在团队中有所不同:
+
+- 在团队中, 始终为组织中的用户启用联机状态共享。 隐私 (决定谁可以查看状态) 配置在团队中不可用。
 - 始终为团队中的用户启用与每个人 (包括联合服务) 的联机状态共享。 他们的联系人列表 (如果他们在 Skype for Business 中) 在 "**聊天 > 联系人**" 或 "**通话 > 联系人**" 下可见。
 - 对于团队中的用户, 将始终启用客户端 "请勿打扰" 和 "特许" 功能。
 - 日历 (包括外出和其他日历信息) 对于团队中的用户, 如果与 Outlook 集成, 则始终为其启用集成。
@@ -67,7 +68,6 @@ Skype for Business 中的以下管理员设置在团队中有所不同:
 
 > [!NOTE]
 > 团队管理员自定义这些设置的能力目前不受支持。
-
 
 ## <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

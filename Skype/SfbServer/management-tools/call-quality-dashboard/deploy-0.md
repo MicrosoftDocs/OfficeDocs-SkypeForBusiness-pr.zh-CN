@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '摘要: 了解呼叫质量仪表板的部署过程。 通话质量仪表板是 Skype for business 服务器的工具。'
-ms.openlocfilehash: 3cc3b81180453454f8615d31f57911c0958553c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274840"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221564"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>部署 Skype for business 服务器的通话质量仪表板
  

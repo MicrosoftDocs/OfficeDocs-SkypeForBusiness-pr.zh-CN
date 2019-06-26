@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957538"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221330"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -120,7 +120,7 @@ ms.locfileid: "34957538"
                 <div class="card">
                     <div class="cardText">
                         <h3>采用专家认证</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Microsoft 服务采用专家认证课程以 Teams 为特色。请了解如何促使 Microsoft 服务在你组织中的采用。</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">Microsoft 服务采用专家认证课程以 Teams 为特色。请了解如何促使 Microsoft 服务在你组织中的采用。</a></p>
                     </div>
                 </div>
             </div>

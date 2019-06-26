@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/13/2018
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e61033cc0d201d0477bec2ff9ec66df0541d1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 4786d6464eb1264da442aba056f2e93508a3bea4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432917"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221848"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
 
-选项卡允许团队成员访问频道内或聊天中的专用画布上的服务。 这使团队可以直接使用工具和数据, 并在频道或聊天的上下文中与他们进行对话。 
+选项卡允许团队成员在频道内或在聊天中访问服务和内容。 这使团队可以直接使用工具和数据, 并在频道或聊天的上下文中提供有关工具和数据的对话。
 
 所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 可添加选项卡以帮助用户轻松访问和管理他们需要的数据或与大多数用户进行交互。 这可以是 Power BI 报表、仪表板，甚至可以是 [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) 视频频道，你可以在此发布培训视频。
 
@@ -32,16 +32,16 @@ ms.locfileid: "34432917"
 
 ## <a name="work-with-tabs"></a>使用选项卡
 
-- 在每个新频道中, 默认设置两个选项卡: "对话" 和 "文件"。 
+- 在每个新频道中, 默认设置两个选项卡: "对话" 和 "文件"。
 
     ![Marketing 团队的“对话”部分屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- 通过每个私人聊天, 默认情况下, 可以设置四个选项卡、对话、文件、组织和活动。
+- 通过每个私人聊天, 默认设置四个选项卡: "对话"、"文件"、"组织" 和 "活动"。
 
     ![聊天中的选项卡的屏幕截图。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
 - 所有者和团队成员可以通过单击 "添加选项卡" 按钮的**选项卡** ![屏幕截图 (显示一个 + 符号), 将更多选项卡添加到频道或聊天。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在频道或聊天的顶部。
 
-- Excel、PowerPoint、Word 和 PDF 文件必须先上载到 "**文件**" 选项卡, 然后才能转换为选项卡。 或者, 任何现有的上载文件都可以通过单击转换为选项卡, 如下所示。
+- Excel、PowerPoint、Word 和 PDF 文件必须先上载到 "**文件**" 选项卡, 然后才能转换为选项卡。 任何现有的上载文件都可以通过单击转换为选项卡, 如下所示。
 
     ![选择了一个 PowerPoint 文件的“文件”选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "34432917"
 
 除了内置选项卡, 还可以设计和开发自己的选项卡, 以便集成到团队或与社区中的其他人共享。 您可以通过配置相应的 Office 365 组来[控制对您的自定义选项卡的访问](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access)。
 
-Microsoft 开发人员网络提供有关设计和构建你自己的选项卡和 Microsoft (可供你下载) 开发的[示例选项卡](https://go.microsoft.com/fwlink/?linkid=855787)的[详细说明](https://go.microsoft.com/fwlink/?linkid=855786)。
+Microsoft 开发人员网络提供 Microsoft 开发的[示例选项卡](https://go.microsoft.com/fwlink/?linkid=855787), 您可以下载这些选项卡以及设计和构建自己的选项卡的[详细说明](https://go.microsoft.com/fwlink/?linkid=855786)。
 
 ![Microsoft Teams 中的示例自定义选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

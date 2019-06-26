@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解 Skype for Business 服务器中的前端池管理, 包括管理池、仲裁损失以及仅有两个前端服务器的池的特殊步骤。
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297468"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221721"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  
@@ -70,7 +70,7 @@ ms.locfileid: "34297468"
 |8-9  <br/> |前 7 台服务器中的任意 4 台  <br/> |
 |10-12  <br/> |前 9 台服务器中的任意 5 台  <br/> |
    
-在上表中, "第一台服务器" 是第一次启动池时的服务器。 若要确定这些服务器, 可以将`Get-CsComputer` cmdlet 与` -PoolFqdn`选项结合使用。 此 cmdlet 将按服务器在池中的出现顺序显示服务器，列表最上方的服务器就是前几台服务器。
+在上表中, "第一台服务器" 是第一次启动池时的服务器。 若要确定这些服务器, 可以将`Get-CsComputer` cmdlet 与`-PoolFqdn`选项结合使用。 此 cmdlet 将按服务器在池中的出现顺序显示服务器，列表最上方的服务器就是前几台服务器。
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>确保池正常工作的其他步骤
 

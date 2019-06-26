@@ -3,7 +3,7 @@ title: 使用 Microsoft Teams 范围目录搜索
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -13,48 +13,46 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: 了解如何使用 Microsoft 团队作用域的目录搜索来提供目录的自定义的视图。
+description: 了解如何使用 Microsoft 团队范围的目录搜索以提供目录的自定义视图。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3b51b56b8cc8a1f08d756cdab245915a2ac6824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bf65cec72c21e34e0aab8338d20ae36549497846
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226646"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221728"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
-Microsoft 团队作用域的目录搜索允许组织创建虚拟控制如何查找用户并与其他组织中的用户进行通信的边界。 
+Microsoft 团队范围目录搜索允许组织创建虚拟边界, 以控制用户如何与组织中的其他用户进行查找和通信。 
 
-Microsoft 团队允许组织为用户提供的目录的自定义视图。 Microsoft 团队使用[Exchange 通讯簿策略](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)以支持这些自定义视图。 一旦启用了策略，将根据配置的策略作用域 （例如，若要启动聊天，或添加到团队的成员） 的其他用户搜索返回的结果。 用户不能搜索或有效限定的搜索时发现团队。 
+Microsoft 团队允许组织向其用户提供目录的自定义视图。 Microsoft 团队使用[Exchange 通讯簿策略](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)来支持这些自定义视图。 启用策略后, 搜索其他用户 (例如启动聊天或向团队添加成员) 所返回的结果将按配置的策略确定范围。 当范围搜索生效时, 用户将无法搜索或发现团队。 
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>您应该何时使用作用域的目录搜索？
+## <a name="when-should-you-use-scoped-directory-searches"></a>何时应使用目录搜索范围？
 
-受益于作用域的目录搜索的方案在类似于通讯簿策略方案。 例如，您可能想要在下列情况下使用作用域的目录搜索：
+从作用域目录搜索中受益的方案类似于通讯簿策略方案。 例如, 你可能希望在以下情况下使用限定的目录搜索:
 
 - 贵组织的租户中有多家你要保持独立的公司。 
 - 贵学校要限制教职员工与学生之间的聊天。 
  
-若要了解如何使用通讯簿策略，请阅读[通讯簿策略在 Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)。
+若要了解如何使用通讯簿策略, 请[在 Exchange Online 中阅读 "通讯簿策略](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)"。
 
 > [!IMPORTANT]
-> 通讯簿策略提供分隔的用户从目录角度仅虚拟。 通过提供完整的电子邮件地址，用户仍然可以发起与其他人进行通信。 务必还请注意，有已缓存之前的新的或更新通讯簿策略，强制, 的任何用户数据将保留对用户可用的最多 30 天。
+> 通讯簿策略仅提供用户从目录角度进行虚拟分离。 通过提供完整的电子邮件地址, 用户仍然可以发起与其他人的通信。 另外, 请务必注意, 在实施新的或更新的通讯簿策略之前, 已缓存的任何用户数据在30天内仍可供用户使用。
 
-## <a name="enable-scoped-directory-search"></a>启用作用域的目录搜索
+## <a name="turn-on-scoped-directory-search"></a>打开范围的目录搜索
 
-1.  使用通讯簿策略来配置您的组织到虚拟组子组。 有关详细信息，请参阅[通讯簿策略的过程](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)。
+1. 使用通讯簿策略将您的组织配置为虚拟子组。 有关详细信息, 请参阅[通讯簿策略的过程](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)。
 
-2.  登录到 Microsoft 365 管理中心，选择**管理中心**、，然后选择**工作组 & Skype**。
- 
-3.  在 Microsoft 团队管理中心，选择**组织范围设置** > **团队设置**。
+2. 在 "Microsoft 团队管理中心" 中, 选择 "**组织范围设置** > "**团队设置**。
 
-4.  在**搜索****作用域目录搜索团队使用 Exchange 通讯簿策略 (APB) 中的**，旁边的下启用**上**的切换。 
+3. 在 "**搜索**" 下, 在**使用 Exchange 通讯簿策略 (APB) 的团队中的 "范围目录搜索**" 旁边, 打开 "打开"。 ****
 
-    ![范围的 Microsoft 团队管理中心中的目录搜索](media/teams-scoped-directory-search-image1.png)
+    ![Microsoft 团队管理中心中的范围目录搜索](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
-> 混合配置 （与 Exchange 内部部署团队） 不支持限定的搜索模式。 
+> 混合配置 (具有 Exchange 内部部署的团队) 不支持范围搜索模式。 
 

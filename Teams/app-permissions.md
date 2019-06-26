@@ -15,23 +15,23 @@ description: 了解贵组织要求的数据和权限应用。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167e8d8e628927e470422bf9d0a21adb06e48b53
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 598fd2d9dc8c8942a2d82e136c8367afa4d8495e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859733"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221942"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
 通过 Microsoft Teams 应用可以将一项或多项功能汇聚到一个可以安装、升级和卸载的_应用包_。 这些功能包括：
 
--   聊天机器人
--   消息传递扩展
--   选项卡
--   连接器
+- 聊天机器人
+- 消息传递扩展
+- 选项卡
+- 连接器
 
-从策略角度来看，应用由用户许可并由 IT 管理。 但是，大多数情况下，应用的权限和风险配置文件由其包含的功能的权限和风险配置文件定义。 因此，本文主要介绍功能级别的权限和考虑事项。
+从策略角度来看，应用由用户许可并由 IT 管理。 但是, 大多数情况下, 应用的权限和风险配置文件由应用所包含功能的权限和风险配置文件定义。 因此，本文主要介绍功能级别的权限和考虑事项。
 
 下文所列大写字母的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）未出现在 [Microsoft Teams 开发人员文档](https://aka.ms/teamsdevdocs)或 [Microsoft Graph 的权限](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)中的任何地方。 使用它们只是为了在本文中进行简要说明。
 

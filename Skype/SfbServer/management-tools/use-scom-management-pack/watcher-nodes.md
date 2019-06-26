@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '摘要: 为 Skype for business Server 合成事务安装和配置观察程序节点。'
-ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277620"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221516"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安装和配置观察程序节点
  
@@ -27,7 +27,7 @@ ms.locfileid: "34277620"
   
 - **默认**观察程序节点默认运行的合成事务。 创建新的观察程序节点时，可以指定该节点将运行哪些综合事务。 (这是 CsWatcherNodeConfiguration cmdlet 使用的测试参数的用途。)如果在创建观察程序节点时未使用 "测试" 参数, 则它将自动运行所有默认的合成事务, 并且不会运行任何非默认的合成事务。 这意味着，例如，观察程序节点将配置为运行 Test-CsAddressBookService 测试，但不会配置为运行 Test-CsExumConnectivity 测试。
     
-- **非默认值**测试观察程序节点在默认情况下不运行。 (有关详细信息, 请参阅默认类型的说明。)但是, 可以启用观察程序节点来运行任何非默认的合成事务。 在创建观察程序节点 (通过使用 CsWatcherNodeConfiguration cmdlet) 时, 或者在创建了观察程序节点之后的任何时间, 都可以执行此操作。 请注意, 许多非默认的合成事务需要额外的设置步骤。 有关这些步骤的详细信息, 请参阅综合事务的特殊设置说明。 有关这些步骤的更多详细信息, 请参阅[综合事务的特殊设置说明](test-users-and-settings.md#special_synthetictrans)。
+- **非默认值**测试观察程序节点在默认情况下不运行。 (有关详细信息, 请参阅默认类型的说明。)但是, 可以启用观察程序节点来运行任何非默认的合成事务。 在创建观察程序节点 (通过使用 CsWatcherNodeConfiguration cmdlet) 时, 或者在创建了观察程序节点之后的任何时间, 都可以执行此操作。 请注意, 许多非默认的合成事务需要额外的设置步骤。 有关这些步骤的更多详细信息, 请参阅[综合事务的特殊设置说明](test-users-and-settings.md#special_synthetictrans)。
     
 - **扩展**一种特殊类型的非默认综合事务。 与其他合成事务不同, 扩展测试可以在每次传递期间运行多次。 这在验证行为 (如用于池的多个公共交换电话网络 (PSTN) 语音路由) 时很有用。 只需将一个扩展测试的多个实例添加到观察程序节点即可配置此操作。
     

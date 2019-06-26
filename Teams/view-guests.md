@@ -16,24 +16,24 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f86ef6a8bc152400b8f845b926b24b07b00067e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e068e6e754ab28f3c068c59c92c7a27d13e2da1d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884800"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220891"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================
-团队中的任何人都可以看到的工作组，包括来宾，通过**管理团队**中的 Microsoft 团队所有成员。 [了解谁处于团队或通道中](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)具有更多详细信息。
+团队中的任何人都可以通过 Microsoft 团队中的 "**管理团队**" 来查看团队的所有成员, 包括来宾。 有关详细信息, 请参阅[查看团队或频道中的人员](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)。
 
-标识来宾用户：
+要标识来宾用户, 请执行以下操作:
 
 1.  登录到 Microsoft 365 管理中心。
-2.  选择**管理中心** > **团队**。
-3.  在 Microsoft 团队管理中心中，选择**用户**。 您将看到**来宾**追加到任何来宾用户的显示名称。
+2.  选择 "**管理中心** > **团队**"。
+3.  在 "Microsoft 团队管理中心" 中, 选择 "**用户**"。 您将看到**来宾**附加到任何来宾用户的显示名称。
   
-您还可以标识来宾用户从在您拥有一个团队。  
+你还可以在你拥有的团队内标识来宾用户。  
 
 ## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 

@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933777"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221950"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "34933777"
 
 |Microsoft 365 管理中心中的团队部分  |设置名称 (租户级别)  |Microsoft 团队管理员中心策略   |级别: 租户或用户   |
 |---------|---------|---------|---------|
-|常规     |在个人资料中显示组织聊天        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
+|常规     |在个人资料中显示组织结构图        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
 |常规     |对没有团队的收件人使用 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |电子邮件集成     |允许用户向频道发送电子邮件         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |电子邮件集成     |允许发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '摘要: 在实施 Skype for Business 服务器之前, 请查看本主题中的 DNS 注意事项。'
-ms.openlocfilehash: 13dd8b65c52329ff2db0ac3d7d57eeba990e29f6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297062"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221222"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for business 服务器的 DNS 要求
 

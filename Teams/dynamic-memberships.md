@@ -14,25 +14,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748432"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221433"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
-Microsoft 团队支持使用动态成员身份与 Office 365 组相关联的团队。 动态成员资格允许团队的成员身份由一个或多个在 Azure Active Directory (AAD) 中检查特定用户属性的规则定义。 当用户属性发生更改或用户加入并离开租户时, 用户将自动添加或删除到正确的团队。
+Microsoft 团队支持使用*动态成员身份*与 Office 365 组相关联的团队。 动态成员资格允许团队的成员身份由一个或多个在 Azure Active Directory (Azure AD) 中检查特定用户属性的规则定义。 当用户属性发生更改或用户加入并离开租户时, 用户将自动添加或删除到正确的团队。
 
 利用动态成员身份, 你可以为组织中的某些用户设置团队 cohorts。 可能的方案包括:
 - 医院可以为护士、医生和 surgeons 创建独特的团队来广播通信。 如果医院依靠 temp 员工, 这一点尤其重要。
 - 大学可以为特定大学中的所有教职员创建团队, 包括经常变动的附属教职员。
 - 航空公司希望为每个航班 (如星期二下午不停从芝加哥到亚特兰大) 创建团队, 并且经常更改的航班职员会根据需要自动分配或删除。
 
-使用此功能时, 给定团队的成员会根据一组特定条件自动更新, 而不是手动管理成员身份。 执行此操作需要使用 Azure AD Premium P1 许可证, 并且团队成员可以[由租户管理员分配](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)给任何用户的 AAD 属性 (前提是你有租户和管理员帐户)。 
+使用此功能时, 给定团队的成员会根据一组特定条件自动更新, 而不是手动管理成员身份。 执行此操作需要使用 Azure AD Premium P1 许可证, 并且团队成员可以[由租户管理员分配](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)给任何用户的 Azure AD 属性 (前提是你有租户和管理员帐户)。
 
-在团队的 Office 365 组中, Microsoft 团队可能会从几分钟到最多2小时的时间来反映动态成员身份更改。 
+在团队的 Office 365 组中, Microsoft 团队可能会从几分钟到最多2小时的时间来反映动态成员身份更改。
 
 > [!NOTE]
 > - 规则可定义团队成员, 但不能定义团队所有者。

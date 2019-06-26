@@ -15,12 +15,12 @@ f1keywords:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245055"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221353"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>批量编辑 Microsoft 团队用户设置
 
@@ -33,7 +33,7 @@ ms.locfileid: "32245055"
 1. 在 Microsoft 团队管理中心的左侧导航中, 选择 "**用户**"。
 2. 搜索要编辑的用户或筛选视图以显示要编辑的用户。
 3. 在 " **&#x2713;** " (复选标记) 列中, 通过执行下列操作之一选择 "用户":
-    - 一次选择一个用户。 将在您选择的每个用户旁显示一个 **&#x2713;** 。 如果你选择超过20个用户, 则不会被阻止, 但请记住, 你选择的用户越多, 操作将需要较长时间才能完成。
+    - 一次选择一个用户。 将在您选择的每个用户旁显示一个 **&#x2713;** 。 如果你选择超过20个用户, 则不会被阻止, 但请记住, 你选择的用户越多, 完成操作所需的时间就越长。
 
         ![显示用户选择的 "用户" 页面的屏幕截图](media/bulk-edit-user-settings-select-users.png)
 

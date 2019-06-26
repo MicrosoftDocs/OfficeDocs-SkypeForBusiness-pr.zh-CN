@@ -3,7 +3,7 @@ title: Microsoft Teams 来宾访问清单
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131414"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221657"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -39,7 +39,7 @@ ms.locfileid: "35131414"
 - 创建或修订团队
 - 浏览团队
 - 将文件上传到人员间聊天
-- 如果用户知道他们的完整电子邮件 ID, 则来宾仍可搜索和查找其团队外的用户。 为避免这种情况, IT 管理员可以使用具有[范围的目录搜索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)的模式, 这些模式能够将来宾限制在自己的虚拟 GAL 中。
+- 如果用户知道用户的完整电子邮件 ID, 则来宾仍可搜索和查找他们的团队外的用户。 为避免这种情况, IT 管理员可以使用具有[范围的目录搜索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)的模式, 这些模式能够将来宾限制在自己的虚拟 GAL 中。
 
 有关更多详细信息, 请参阅[来宾体验](guest-experience.md)和[Office 365 组中的来宾访问](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
@@ -49,7 +49,7 @@ ms.locfileid: "35131414"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的客人看到许可证错误
 
-Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 和其许可模型。 如果您看到授权错误, 请确保阅读[B2B 授权指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)以了解您的组织拥有的授权要求, 以便用户能够邀请来宾加入您的组织。
+Microsoft 团队中的来宾访问使用 Azure Active Directory (Azure AD) 商业到企业 (B2B) 和其许可模型。 如果您看到授权错误, 请确保阅读[B2B 授权指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)以了解您的组织拥有的授权要求, 以便用户能够邀请来宾加入您的组织。
 
 需要注意的一些事项:
 
@@ -60,18 +60,18 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□步骤 1: 在 Azure AD 企业到企业中配置设置
 
-1. 登录到https://portal.azure.com
-2. 在左窗格中单击 " **Azure Active directory** "。
+1. 登录到https://portal.azure.com。
+2. 在左窗格中单击 " **Azure Active Directory** "。
 3. 在 "**管理**" 下, 单击 "**用户设置**"。
 4. 在 "**外部用户**" 下, 单击 "**管理外部协作设置**"。
 5. 在 "**外部协作设置**" 页面上, 确保 "**成员可邀请**" 设置为 **"是"**。
 
       ![屏幕截图显示 AAD 设置切换的示例。 ](media/guest-access-checklist-AADSettings1.png)
 
-    若要支持来宾, "**成员可以邀请**" 必须设置为 **"是"**。 
-   
-> [!NOTE] 
-> 如果您设置的**成员可以邀请**"**否**", 然后在 Office 365 组和 Microsoft 团队中启用来宾访问, 则管理员可以控制您的目录的来宾邀请。 来宾位于目录中后, 可通过非管理员成员的团队所有者将其添加到团队。
+    若要支持来宾, "**成员可以邀请**" 必须设置为 **"是"**。
+
+    > [!NOTE] 
+    > 如果您设置的**成员可以邀请**"**否**", 然后在 Office 365 组和 Microsoft 团队中启用来宾访问, 则管理员可以控制您的目录的来宾邀请。 来宾位于目录中后, 可通过非管理员成员的团队所有者将其添加到团队。
 
 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
 
@@ -84,7 +84,7 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory 商业版 (B2B) 
 
      ![屏幕截图显示 Office 365 组的切换](media/guest-access-checklist-office365.png)
 
-有关配置这些设置的详细说明, 请参阅在[Office 365 组中管理来宾访问](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和在[Microsoft 团队中授权来宾访问](Teams-dependencies.md)部分中的 "Office 365 组" 部分。
+有关配置这些设置的详细说明, 请参阅[在 office 365 组中管理来宾访问](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 office 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
  
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□步骤 3: 在租户级别启用来宾访问

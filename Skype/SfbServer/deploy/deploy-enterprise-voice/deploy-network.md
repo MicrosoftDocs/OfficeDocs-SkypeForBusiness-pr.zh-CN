@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: '在 Skype for Business 服务器中创建或修改网络区域、网络站点和关联网络子网。 所有这些都用于高级企业语音功能: "绕过媒体"、"呼叫许可控制" 和 "基于位置的路由"。'
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291198"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221481"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在 Skype for Business 中部署网络区域、网站和子网
 
 在 Skype for Business 服务器中创建或修改网络区域、网络站点和关联网络子网。 所有这些都用于高级企业语音功能: "绕过媒体"、"呼叫许可控制" 和 "基于位置的路由"。
 
-高级企业语音功能是[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 这些功能全都需要您创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 有关这些项目的更多信息，请参阅[Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+高级企业语音功能是[呼叫许可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[媒体旁路](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[基于位置的路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 这些功能全都需要您创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，每个网络站点必须与网络区域关联。 有关这些术语的详细信息, 请参阅[Skype For Business 服务器中的高级企业语音功能的网络设置](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
 
 呼叫允许控制和 E9-1-1 对网络站点具有其他配置要求：
 
