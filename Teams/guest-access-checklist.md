@@ -15,17 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221657"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253692"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
 
 使用此清单可帮助你根据你的组织的首选项, 在 Microsoft 团队中启用和配置来宾访问功能。
+
+> [!NOTE] 
+> 有关协作限制, 请参阅[启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 ## <a name="understand-the-limitations-for-guests"></a>了解对来宾的限制
 
@@ -46,6 +49,9 @@ ms.locfileid: "35221657"
 ### <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> 目前, Microsoft 团队不支持来宾 inviter 角色。 至少, "成员可邀请" 开关必须设置为 "是", 才能使来宾 access 在 Microsoft 团队中工作。 如果将 "成员可以邀请" 设置为 "否", 然后在 Office 365 组和 Microsoft 团队中启用来宾访问, 则管理员可以控制你的目录的来宾邀请。 来宾位于目录中后, 可通过非管理员成员的团队所有者将其添加到团队。
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的客人看到许可证错误
 

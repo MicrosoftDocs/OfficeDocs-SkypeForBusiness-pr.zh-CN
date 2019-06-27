@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本主题定义了 Skype for Business Online 服务的网络性能要求集, 以及如何选择使用 Internet 或 ExpressRoute 在网络与 Skype for business Online 之间建立连接, 从而了解网络的评估互连. 如果你已决定将 Azure ExpressRoute 部署到 Office 365 的专用连接, 此文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指南。
-ms.openlocfilehash: 2ec74fb3137b8eac048187ac4015f857428b0851
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297833"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253716"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online 中的媒体质量和网络连接性能
 
@@ -129,10 +129,10 @@ Skype for Business 实时媒体通过许多不同的设备、客户端应用、�
 |**指标** <br/> |**目标** <br/> |
 |延迟 (一种方法)  <br/> |< 50ms  <br/> |
 |延迟 (RTT 或往返时间)  <br/> |< 100ms  <br/> |
-|爆发数据包丢失  <br/> |任何200ms 时间间隔内的 <10%  <br/> |
-|数据包丢失  <br/> |任何15s 时间间隔内的 <1%  <br/> |
-|数据包内部到达抖动  <br/> |任何15s 时间间隔内的 <30ms  <br/> |
-|数据包重新排序  <br/> |< 0.05% 的订单数据包  <br/> |
+|爆发数据包丢失  <br/> |在任何200ms 时间间隔内 <10%  <br/> |
+|数据包丢失  <br/> |任何15s 时间间隔内 <1%  <br/> |
+|数据包内部到达抖动  <br/> |在任何15s 时间间隔内 <30ms  <br/> |
+|数据包重新排序  <br/> |<0.05% 的订单外数据包  <br/> |
    
  **其他性能目标要求:**
   
@@ -155,10 +155,10 @@ Skype for Business 实时媒体通过许多不同的设备、客户端应用、�
 |**指标** <br/> |**目标** <br/> |
 |延迟 (一种方法)  <br/> |< 30ms  <br/> |
 |延迟 (RTT)  <br/> |< 60ms  <br/> |
-|爆发数据包丢失  <br/> |任何 200 ms 间隔期间的 <1%  <br/> |
-|数据包丢失  <br/> |任何15s 时间间隔中的 < 0.1%  <br/> |
-|数据包内部到达抖动  <br/> |任何15s 时间间隔内的 <15ms  <br/> |
-|数据包重新排序  <br/> |< 0.01% 的订单数据包  <br/> |
+|爆发数据包丢失  <br/> |在任何 200 ms 间隔期间 <1%  <br/> |
+|数据包丢失  <br/> |任何15s 时间间隔内 <0.1%  <br/> |
+|数据包内部到达抖动  <br/> |在任何15s 时间间隔内 <15ms  <br/> |
+|数据包重新排序  <br/> |<0.01% 的订单外数据包  <br/> |
    
  **其他性能目标要求:**
   
@@ -288,7 +288,7 @@ Azure ExpressRoute 提供以下附加好处:
 
 如果你的所有用户都使用 Skype for Business Online 服务, 并且你的分支位于单个物理位置的中心, 并且你决定要部署 Azure ExpressRoute, 则应在你的公司网站之间将单一 ExpressRoute 连接设置为最接近的[ExpressRoute 对等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。
   
-下图显示了此类型部署的示例。 对于本示例, Contoso 是一个大学, 位于佛罗里达州的奥兰多。 Contoso 拥有10000教职员工成员和学生。 从其位置到 Microsoft edge 网站的 Internet 测试显示的数据包在高峰时段内损失超过 5%。 已决定使用 ExpressRoute 通过预配的带宽获取与 Office 365 的专用连接, 以便他们可以避免 Office 365 的网络拥塞, 尤其是 Skype for business Online 实时流量。 他们通过 ExpressRoute 在亚特兰大、GA MeetMe 网站上连接到 Microsoft 云。
+下图显示了此类型部署的示例。 对于本示例, Contoso 是一个大学, 位于佛罗里达州的奥兰多。 Contoso 拥有10000教职员工成员和学生。 从其位置到 Microsoft edge 网站的 Internet 测试显示的数据包在高峰时段内损失超过 5%。 他们已决定使用 ExpressRoute 和预配的带宽获取与 Office 365 的专用连接, 以便他们可以避免 Office 365 的网络拥塞, 尤其是 Skype for Business Online 实时流量。 他们通过 ExpressRoute 在亚特兰大、GA MeetMe 网站上连接到 Microsoft 云。
   
 ![ExpressRoute 单站点。](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   

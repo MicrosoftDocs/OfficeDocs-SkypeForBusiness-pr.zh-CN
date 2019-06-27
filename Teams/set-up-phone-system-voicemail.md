@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
-ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
+ms.openlocfilehash: 8417d8338f8ba25b9f3c92d9fc4547ed861f8b8e
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2019
-ms.locfileid: "34808022"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253799"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -57,12 +57,9 @@ ms.locfileid: "34808022"
 
 4. 对语音邮件脚本的支持已添加到2017年3月, 并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-5. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件, 请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置。 [使用连接器配置邮件流](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。
+5. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件, 请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置;[使用连接器配置邮件流](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
-6. 若要启用语音邮件功能 (如自定义问候语) 和 Skype for business 客户端中的视觉语音邮件, 需要通过 Exchange Web 服务将来自 Office 365 的连接到 Exchange server 邮箱。 若要启用此连接, 你必须配置[exchange 和 Exchange Online 组织之间的配置 Oauth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中的新 Exchange Oauth 身份验证协议说明 
-
-> [!NOTE]
-> 从 Exchange 2013 CU5 或更高版本运行的 Exchange 混合向导将自动处理步骤5和步骤6中的要求。 
+6. 若要启用语音邮件功能 (如自定义问候语) 和 Skype for business 客户端中的视觉语音邮件, 需要通过 Exchange Web 服务将来自 Office 365 的连接到 Exchange server 邮箱。 若要启用此连接, 必须配置[exchange 和 Exchange Online 组织之间的配置 Oauth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述的新 Exchange Oauth 身份验证协议, 或从 EXCHANGE 2013 CU5 运行 Exchange 混合向导或等于. 此外, 你必须在 Skype for business [online 和 Exchange server 之间配置集成和 oauth](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中介绍的 Skype For business Online 和 exchange server 之间配置集成和 oauth。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
