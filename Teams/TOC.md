@@ -19,14 +19,14 @@
 # 聊天、团队、频道和应用
 ## [规划部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [团队和频道概述](teams-channels-overview.md)
-## [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)
+## [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
+## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
 ## [在团队中共享文件](sharing-files-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
-## [团队的动态成员资格概述](dynamic-memberships.md)
-## [状态](presence-admins.md)
+## [Teams 中的用户状态](presence-admins.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 
 
@@ -39,17 +39,17 @@
 ### [在 Teams 中添加私人聊天、群聊和频道机器人](add-bots.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
-### [将应用发布至 Teams 租户应用目录](tenant-apps-catalog-teams.md)
+### [在 Teams 租户应用目录中发布应用](tenant-apps-catalog-teams.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 ## 来宾访问权限
-### [概述](guest-access.md)
+### [关于来宾访问权限](guest-access.md)
 ### [来宾加入团队的方式](guest-joins.md)
 ### [来宾体验介绍](guest-experience.md)
 ### [管理对 Teams 的来宾访问](teams-dependencies.md)
-### [开启或关闭对 Microsoft Teams 的来宾访问](set-up-guests.md)
+### [开启或关闭 Teams 的来宾访问权](set-up-guests.md)
 ### [管理对 Teams 的来宾访问](manage-guests.md)
 ### [向团队添加来宾](add-guests.md)
 ### [在团队中查看来宾用户](view-guests.md)
