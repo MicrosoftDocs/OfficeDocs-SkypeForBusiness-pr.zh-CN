@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击用于通话计划的不同类型的电话号码, 了解 Skype for business Online 中使用的不同电话号码。
-ms.openlocfilehash: 1051eea164cdee1c9582bf0226c1bd54620f502a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击用于通话计划的不同类型的电话号码, 了解 Microsoft 团队中使用的不同电话号码。
+ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299962"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347913"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 
-在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击[用于通话计划的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md), 了解 Skype For business Online 中使用的不同电话号码。
+在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击[用于通话计划的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md), 了解 Microsoft 团队中使用的不同电话号码。
   
-您可以在 Skype for Business 管理中心查看**电话号码**页面上的电话号码数, 也可以运行[CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet。
+你可以在 Microsoft 团队管理中心的 "**获取电话号码**" 页面上查看你可以获取的电话号码的数量, 也可以运行[CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet。
   
 > [!IMPORTANT]
 > [!重要信息] 以下限制不包括你已经转网或转移到 Microsoft 的电话号码。 
@@ -58,7 +58,7 @@ ms.locfileid: "34299962"
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

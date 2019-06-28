@@ -13,26 +13,25 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 使用此表查找有关在澳大利亚 for Skype for business Online 和 Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: d70fcddf777aa08c71d366431eb033940668816a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 使用此表查找有关在澳大利亚 for Microsoft 团队中获取和管理电话号码的信息。
+ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302711"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35348000"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 在澳大利亚，我们已与 Telstra 合作购买和提供Calling Plan通话计划。 Telstra 将销售通话计划，并向用户和自动语音与呼叫队列号码提供支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。
 
 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
-使用此表查找有关在澳大利亚 for Skype for business Online 和 Microsoft 团队中获取和管理电话号码的信息。
+使用此表查找有关在澳大利亚 for Microsoft 团队中获取和管理电话号码的信息。
 
 有关详细信息, 请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization.md)。
   

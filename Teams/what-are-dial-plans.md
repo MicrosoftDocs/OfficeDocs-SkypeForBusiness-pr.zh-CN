@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 提供了哪些类型的拨号计划 (PSTN 呼叫拨号计划), 以及如何为你的组织选择一个类型的拨号呼叫计划。  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288163"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347992"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -38,15 +38,15 @@ ms.locfileid: "34288163"
 
 ## <a name="tenant-dial-plan-scope"></a>租户拨号计划范围
 
-拨号计划范围确定可以应用拨号计划的层次结构级别。 范围与在本地部署 Skype for business 服务器不同。 客户端可通过用户登录 Skype for Business Online 时自动提供的配置设置获得相应的拨号计划。 作为管理员，你可以使用 Remote PowerShell 管理和分配拨号计划范围级别。
+拨号计划范围确定可以应用拨号计划的层次结构级别。 范围与在本地部署 Skype for business 服务器不同。 客户通过预配设置来获取相应的拨号计划, 用户可在用户登录到团队或 Skype for Business Online 时自动提供这些设置。 作为管理员，你可以使用 Remote PowerShell 管理和分配拨号计划范围级别。
 
-在 Skype for Business Online 中, 有两种类型的拨号计划: 服务范围和租户 (适用于你的组织) 的范围。 服务范围内的拨号计划是为可用 Office 365 电话系统的每个国家/地区定义的。 系统会自动为每位用户分配与分配给用户的 Office 365 使用位置相匹配的服务国家/地区拨号计划。 您无法更改服务的国家/地区拨号计划, 但您可以创建租户范围内的拨号计划, 这将补充该服务的国家/地区拨号计划。 在客户端预配时, 它们将获得 "有效的拨号计划", 它是服务国家/地区拨号计划和适当范围的租户拨号计划的组合。 因此，在租户拨号计划中不必定义所有规范化规则，因为这些规则已经存在于服务国家/地区拨号计划中。
+在团队和 Skype for business Online 中, 有两种类型的拨号计划: 服务范围和租户 (适用于你的组织) 的范围。 服务范围内的拨号计划是为可用 Office 365 电话系统的每个国家或地区定义的。 系统会自动为每位用户分配与分配给用户的 Office 365 使用位置相匹配的服务国家/地区拨号计划。 您无法更改服务的国家/地区拨号计划, 但您可以创建租户范围内的拨号计划, 这将补充该服务的国家/地区拨号计划。 在客户端预配时, 它们将获得 "有效的拨号计划", 它是服务国家/地区拨号计划和适当范围的租户拨号计划的组合。 因此，在租户拨号计划中不必定义所有规范化规则，因为这些规则已经存在于服务国家/地区拨号计划中。
 
 租户拨号计划可进一步划分为两种范围 - 租户范围或用户范围。如果租户定义并分配了用户范围的拨号计划，那么会为该用户配置由用户的服务国家/地区拨号计划和已分配的用户拨号计划构成的有效拨号计划。如果租户定义租户范围拨号计划但没有分配用户范围的拨号计划，那么会为该用户配置由用户的服务国家/地区拨号计划和租户拨号计划构成的有效拨号计划。
 
-下面是 Skype for Business Online 中拨号计划的继承模型。
+以下是团队和 Skype for business Online 中的拨号计划的继承模型。
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![如何在团队和 Skype for business Online 中继承拨号计划](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 下面是可能的有效拨号计划：
 
@@ -85,9 +85,6 @@ ms.locfileid: "34288163"
 建议输入对应的拨号计划要应用到的地理位置或用户组的通用可识别名称。
 
 ### <a name="external-access-prefix"></a>外部访问前缀
-
-> [!CAUTION]
-> [!警告] 当前不支持外部访问前缀。 
 
 如果用户需要拨打一个或多个附加的前导数位（例如，9）来获取外线，则可指定最多包含四个字符（#、* 和 0-9）的外部访问前缀。
 
@@ -158,4 +155,4 @@ ms.locfileid: "34288163"
 [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

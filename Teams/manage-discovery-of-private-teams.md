@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中管理对私人团队的发现
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,16 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何通过团队库和搜索结果控制 Microsoft 团队用户是否可以通过建议发现专用团队。
-ms.openlocfilehash: c938830f4f59345863d3f84570b387f07f4b08fc
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221229"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347873"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft Teams 中管理对私人团队的发现
 
-> [!INCLUDE [preview feature](includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 管理员和团队所有者可以控制你的组织中的 Microsoft 团队用户是否可以发现专用团队。 当私人团队可发现时, 它将显示在搜索结果中, 并包含在团队的团队库和团队中的公共团队的建议中。 这使用户可以轻松地搜索和查找他们想要加入的专用团队。 用户可以请求加入专用团队, 然后团队所有者可以批准或拒绝该请求。
 
@@ -64,7 +63,7 @@ ms.locfileid: "35221229"
 
 ![现有专用团队的发现设置的屏幕截图](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>使用 PowerShell (即将推出)
+### <a name="using-powershell"></a>使用 PowerShell
 
 使用 "**[设置团队](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** cmdlet" 关闭或打开现有专用团队的发现设置。 下面是如何让团队易于发现的示例:
 ```
@@ -80,7 +79,7 @@ ms.locfileid: "35221229"
 
 默认情况下, 对于组织中的所有用户, **AllowPrivateTeamDiscovery**设置为**true** 。
 
-在此示例中, 我们创建一个名为 VendorPolicy 的策略, 该策略阻止用户发现任何已被发现的专用团队, 然后我们将该策略分配给名为 vendoruser1 的用户。 
+在此示例中, 我们创建一个名为 VendorPolicy 的策略, 该策略阻止用户发现任何已被发现的专用团队, 然后我们将该策略分配给名为 vendoruser1 的用户。
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
