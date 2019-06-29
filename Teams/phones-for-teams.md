@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表, 以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304439"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394560"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -29,7 +29,7 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 
 ## <a name="teams-certified-ip-phones"></a>团队认证的 IP 电话
 
-为在手机上提供高质量和可靠的 Microsoft 团队体验, 我们将与 Yealink、Crestron、Polycom 和 Audiocodes 进行合作并主动处理, 以开发和认证一系列桌面手机和会议室音频设备。 请参阅当前[经过认证的 IP 电话](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones)以获取当前受支持的设备。
+为在手机上提供高质量和可靠的 Microsoft 团队体验, 我们将与 Yealink、Crestron、Polycom 和 Audiocodes 进行合作并主动处理, 以开发和认证一系列桌面手机和会议室音频设备。 请参阅当前[经过认证的 IP 电话](teams-ip-phones.md#currently-certified-ip-phones)以获取当前受支持的设备。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 团队手机功能集
 
@@ -68,27 +68,27 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 
 **用户使用凭据登录**
 
-![通过凭据登录](media/sign-in-with-credentials.png)
+![通过凭据登录的屏幕截图](media/sign-in-with-credentials.png)
 
 **通过 PC/智能手机进行用户登录**
 
-![通过其他设备登录](media/sign-in-with-device.jpg)
+![通过其他设备登录的屏幕截图](media/sign-in-with-device.jpg)
 
 ## <a name="personalshared-mode"></a>个人/共享模式
 
 登录成功后, 用户可以选择是将设备用于个人使用还是共享会议室。
 
-!["个人或共享帐户" 选项](media/personal-vs-shared-mode.jpg)
+!["个人" 或 "共享帐户" 选项的屏幕截图](media/personal-vs-shared-mode.jpg)
 
 "团队手机体验" 根据用户的选择进行了优化。
 
 **个人模式**
 
-![个人模式下的帐户](media/personal-mode.png)
+![个人模式下的帐户的屏幕截图](media/personal-mode.png)
 
 **共享模式**
 
-![共享模式下的帐户](media/shared-mode.png)
+![共享模式下的帐户的屏幕截图](media/shared-mode.png)
 
 ## <a name="calling-experience"></a>通话体验
 
@@ -96,11 +96,11 @@ Microsoft 团队用户可以抬起话筒或按扬声器按钮, 在通话屏幕�
 
 **屏幕上的拨号盘**
 
-![屏幕上的拨号盘](media/on-screen-dial-pad.png)
+![屏幕上拨号盘的屏幕截图](media/on-screen-dial-pad.png)
 
 **通话屏幕**
 
-![通话屏幕](media/calling-screen.png)
+![通话屏幕的屏幕截图](media/calling-screen.png)
 
 ## <a name="meeting-experience"></a>会议体验
 
@@ -108,24 +108,24 @@ Microsoft 团队用户可以导航到 "会议" 选项卡以查看其会议, 并�
 
 **日历视图**
 
-![日历视图中的会议](media/calendar-view.png)
+![日历视图中会议的屏幕截图](media/calendar-view.png)
 
 **会议联接视图**
 
-!["加入" 视图中的会议](media/meeting-join-view.png)
+!["加入" 视图中会议的屏幕截图](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>语音邮件
 
 Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问他们的语音邮件。
 
-!["语音邮件" 选项卡](media/voicemail-tab.png)
+!["语音邮件" 选项卡的屏幕截图](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>用户注销
 
 工作组电话用户可以从左上方菜单中选择 "**注销**" 选项来选择注销。
 
-![注销团队](media/teams-sign-out.png)
+![注销团队的屏幕截图](media/teams-sign-out.png)
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>在移动设备上查找固件版本
 
@@ -133,11 +133,11 @@ Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问�
 
 **团队登录页面**
 
-![团队登录页面](media/teams-sign-in-page.jpg)
+![团队登录页面的屏幕截图](media/teams-sign-in-page.jpg)
 
 **设置页面**
 
-!["团队设置" 页面](media/teams-settings-page.jpg)
+!["团队设置" 页面的屏幕截图](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>所需的许可证
 
@@ -149,4 +149,4 @@ Microsoft 团队许可证可以作为其[Office 365 订阅](Office-365-licensing
 
 [团队市场](http://office.com/teamsdevices)
 
-[适用于 Microsoft 团队的 IP 手机认证](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[适用于 Microsoft 团队的 IP 手机认证](teams-ip-phones.md)

@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用 "电话系统直接路由" 配置 "绕过媒体"。
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290450"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394568"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 
@@ -30,7 +29,7 @@ ms.locfileid: "34290450"
 
 1.  确保你的会话边框控制器 (SBC) 供应商选择支持媒体旁路, 并提供有关如何在 SBC 上配置旁路的说明。 请参阅证书页面, 了解有关 SBCs、支持媒体旁路的信息以及相关说明。
 
-2.  您需要使用以下命令打开主干上的媒体旁路: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
+2.  您需要使用以下命令打开 trunk 上的媒体旁路: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
 
 3.  请确保打开所需的端口。 
 

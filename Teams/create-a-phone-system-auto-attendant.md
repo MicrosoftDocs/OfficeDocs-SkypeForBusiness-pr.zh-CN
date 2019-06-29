@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 了解如何为您的组织设置和测试云自动助理以实现高效的呼叫处理。
-ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: 了解如何为 Microsoft 团队设置和测试云自动助理。
+ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432893"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394610"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -37,22 +37,20 @@ ms.locfileid: "34432893"
 > [!NOTE]
 > 本文适用于 Microsoft 团队和 Skype for business Online。
 
-
-
 ## <a name="step-1---get-started"></a>步骤 1-入门
 
 - 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户的详细信息, 请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。
 - 如果你计划分配直接路由号码, 你需要使用手机系统加载项获取以下许可证并将其分配给\(你的资源帐户 Office 365 企业版 E1、E3 或 E5\)。
-- 如果你改为分配 Microsoft 服务号码, 你需要使用手机系统加载项和呼叫计划\(\)获取并将以下许可证分配给你的资源帐户 Office 365 企业版 E1、E3 或 E5。
+- 如果你改为分配 Microsoft 服务号码, 则需要使用手机系统加载项获取以下许可证并将其分配\(给你的资源帐户 Office 365 Enterprise E1、E3 或 E5\)。
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft 正在致力于应用程序 (如云自动助理和呼叫队列) 的无成本许可模型, 现在您需要使用用户许可模型。
 
 > [!CAUTION]
 > 若要获取并使用免费电话号码，则需要设置通信点数。 若要执行此操作，请参阅 [通信点数是什么？](what-are-communications-credits.md) 和 [为组织设置通信点数](set-up-communications-credits-for-your-organization.md) 。
 
 > [!TIP]
-> 要将呼叫重定向到是具有**电话系统**许可证的联机用户的操作员或菜单选项, 您需要为企业语音启用它们或在 Office 365 中为其分配呼叫计划。 请参阅[分配 Skype For business 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如, 运行:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 要将呼叫重定向到使用**电话系统**许可证的联机用户的操作员或菜单选项, 您需要为企业语音启用它们。 请参阅[分配 Skype For business 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如, 运行:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>第 2 步 - 创建新的自动助理
 
@@ -211,7 +209,7 @@ ms.locfileid: "34432893"
   - 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作, 请选择**您的公司中的人员**, 并将其呼叫直接转发到语音邮件。
 
     > [!Note]
-    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 
+    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。
     - 另一个**自动助理**
 
        可以使用现有的自动助理来创建包含子菜单的第二级菜单选项。 These are called nested auto attendants. 若要将呼叫发送到嵌套的自动助理, 请选择 "**公司" 中**的 "人员", 然后分配一个已具有关联的自动助理的资源帐户, 或者在完成创建此自动助理后将与自动助理关联的帐户。
@@ -226,7 +224,6 @@ ms.locfileid: "34432893"
 ![数字5的图标, 引用上一个屏幕截图中的标注](media/sfbcallout5.png)
 
 **按名称拨号**如果选择此选项, 将使使用目录搜索在你的组织中搜索人员的人员可以使用此选项。 在 **拨号范围** 页面上设置这些选项便可为“按名称拨号”选择哪些作为可选人列出或者哪些不作为可选人列出。 使用“按名称拨号”可找到任何拥有 **电话系统** 许可证的联机用户或任何使用Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。
-
 
 * * *
 
@@ -278,7 +275,7 @@ ms.locfileid: "34432893"
   - 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员 **。 你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作, 请选择**公司中的人员**, 并将其设置为将呼叫直接转发到语音邮件。
 
     > [!Note]
-    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。 
+    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。
 
   - 将呼叫转移到已设置的现有通话队列的**呼叫队列**。
   - 另一个**自动助理**, 用于创建包含子菜单的第二级菜单选项。 These are called nested auto attendants.
@@ -321,31 +318,27 @@ ms.locfileid: "34432893"
 
 您还可以使用 "操作" 窗格中的 "**测试**" 按钮, 快速将测试呼叫置于自动助理。
 
-## <a name="want-to-know-more"></a>希望了解更多信息吗？
+## <a name="auto-attendant-cmdlets"></a>自动助理 cmdlet
 
-还可以使用 Windows PowerShell 来创建和设置自动助理。
-
-### <a name="auto-attendant-cmdlets"></a>自动助理 cmdlet
-
-以下是管理自动助理时需要使用的 cmdlet。
+还可以使用 Windows PowerShell 来创建和设置自动助理。 下面是管理自动助理所需的 cmdlet:
 
 - [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
-- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
 - [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
 - [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 

@@ -306,7 +306,7 @@
 
 ## 法律和监管
 ### [法国 Skype for Business Online 辅助功能合规性声明](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [法国 Skype for Business Online 辅助功能解决方案](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [法国 Skype for Business Online 辅助功能解决方案](/microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [加拿大的 IP 中继 - 注册](../legal-and-regulatory/ip-relay-canada-email-signup.md)
 ### [加拿大 IP 中继 - 用户指南](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [免费拨出时段](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

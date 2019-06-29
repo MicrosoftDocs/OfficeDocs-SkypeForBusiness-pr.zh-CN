@@ -14,12 +14,12 @@ description: 了解实时事件如何使用户能够将视频和内容广播到�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013004"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394536"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -75,6 +75,9 @@ ECDN 的目标是从 internet 获取视频内容, 并在整个企业中分发内
 与会者体验是实时事件的最重要的方面, 并且很重要的是与会者无需任何问题即可参与实时事件。 与会者体验使用 Azure Media Player (适用于团队中生成的事件) 和流播放器 (对于在外部应用或设备中生成的事件), 并跨桌面版、浏览器和移动设备 (iOS、Android) 工作。 Office 365 将 Yammer 和团队作为两个协作中心提供, 并将 live 与会者体验集成到这些协作工具中。 
 
 ![显示实时事件与会者体验的屏幕截图](../media/teams-live-events-attendee.png "显示实时事件与会者体验的屏幕截图")
+
+### <a name="live-event-usage-report"></a>实时事件使用率报告 
+租户管理员可在 Microsoft 团队管理中心中查看实时事件的实时使用情况分析。  实时事件使用情况报表显示组织中保留的实时事件的活动概述。  管理员可以查看事件使用信息, 包括事件状态、开始时间、视图和生产类型。  
 
 ## <a name="next-steps"></a>后续步骤
 转到 "[规划团队实时事件](plan-for-teams-live-events.md)"。

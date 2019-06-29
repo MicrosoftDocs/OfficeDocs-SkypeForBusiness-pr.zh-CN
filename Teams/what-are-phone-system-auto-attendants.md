@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330353"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394544"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -55,8 +55,9 @@ Office 365 中的电话系统提供自动助理, 可用于让外部呼叫者和�
 要开始使用自动助理，记住以下几点至关重要：
 
 - 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户的详细信息, 请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。
-- 如果你计划分配直接路由号码, 你需要使用手机系统加载项获取以下许可证并将其分配给\(你的资源帐户 Office 365 企业版 E1、E3 或 E5\)。
-- 如果你改为分配 Microsoft 服务号码, 你需要使用手机系统加载项和呼叫计划\(\)获取并将以下许可证分配给你的资源帐户 Office 365 企业版 E1、E3 或 E5。
+- 如果你计划将电话号码分配给你的自动助理, 你需要获取以下许可证之一并将其分配给你的资源帐户: 
+    - 添加了手机系统的 Office 365 企业版 E1 或 E3
+    - 包含电话系统的 Office 365 企业版 E5
 - 您只需向分配了电话号码的资源帐户授予许可证。 在嵌套的自动助理或呼叫队列中, 如果自动助理或呼叫队列没有与之关联的电话号码, 则无需向其授予许可证。 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Key 0 和 voice 命令 "Operator" 默认情况下, 将呼叫定向到指定的�
 - 您也可以：
   - 将呼叫重定向到具有 "企业语音启用" 或 "已分配呼叫计划" 的**电话系统**许可证的 Microsoft 团队用户。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
 
-  
   - 将呼叫重定向到呼叫队列。 若要查看有关通话队列的详细信息, 请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
   - 将呼叫重定向到已设置的其他自动助理。
-- 创建菜单选项并为呼叫者播放菜单提示。例如："请按 1 选择销售，按 2 选择服务。如需联系接线员，请随时按 0。"
+  - 创建菜单选项并为呼叫者播放菜单提示。例如："请按 1 选择销售，按 2 选择服务。如需联系接线员，请随时按 0。"
 
 ### <a name="menu-options"></a>菜单选项
 
@@ -234,9 +234,9 @@ Key 0 和 voice 命令 "Operator" 默认情况下, 将呼叫定向到指定的�
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>为自动助理分配电话号码
 
-您可以将 Microsoft 通话计划服务号码或直接路由混合号码分配给自动助理。 有关详细信息, 请参阅[规划直接路由](direct-routing-plan.md)。
+您可以为您的自动助理分配 Microsoft 服务号码、直接银行代号或混合号码。 有关详细信息, 请参阅[规划直接路由](direct-routing-plan.md)。
 
-要分配服务号码, 您需要购买或转移您现有的收费或免费服务号码。 获得收费或免费服务电话号码后, 这些电话号码将显示在 <!-- validate nav path --> **Skype for business 管理中心** > **语音** > **电话号码**, 列出的**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码, 请参阅将[电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+要分配服务号码, 您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后, 这些电话号码将显示在 <!-- validate nav path --> **Skype for business 管理中心** > **语音** > **电话号码**, 列出的**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码, 请参阅将[电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
   
 > [!NOTE]
 > 如果您在美国以外, 则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何操作。
