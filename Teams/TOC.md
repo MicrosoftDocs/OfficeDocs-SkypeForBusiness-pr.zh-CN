@@ -740,6 +740,7 @@
 ### [Teams 电话](phones-for-teams.md)
 ### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会议室设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Microsoft Teams 认证的 IP 电话](teams-ip-phones.md)
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## 安全性和合规性
@@ -758,7 +759,7 @@
 #### [保留策略已知问题](retention-policies-known-issues.md)
 ### [Teams 中的数据位置](location-of-data-in-teams.md)
 ### [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
 ###  [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [数据收集做法](data-collection-practices.md)
