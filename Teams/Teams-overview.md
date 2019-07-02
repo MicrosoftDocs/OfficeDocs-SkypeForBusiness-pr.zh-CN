@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: c4b0b404fae8d9142333bed60de80697e350b4ab
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221980"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417921"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -68,7 +68,7 @@ Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品�
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>从 Skype for Business 升级到 Teams
 Teams 是 Office 365 中的主要智能通信客户端，将逐渐取代 Skype for Business Online。 若要了解要添加到 Teams 的新功能，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。 为了补充持久聊天和消息传递功能，Teams 通过完全集成的内置语音和视频功能提供全面的会议和通话体验。 请查看 Microsoft Teams 博客中的 [Teams 现在是完整的会议和通话解决方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
 
-如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](journey-skypeforbusiness-teams.md)。
+如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork-and-office-365"></a>团队合作和 Office 365
 每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。 
