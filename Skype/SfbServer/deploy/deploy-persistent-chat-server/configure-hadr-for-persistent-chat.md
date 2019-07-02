@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '摘要: 阅读本主题, 了解如何在 Skype for business Server 2015 中配置持久聊天服务器的高可用性和灾难恢复。'
-ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 813ea29d8ea8b75c866e12c056b40e237173922c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282292"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418165"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置高可用性和灾难恢复
  
@@ -28,7 +28,7 @@ Skype for Business 服务器支持对后端服务器的多个高可用性模式,
 > 永久聊天服务器不支持 AlwaysOn 可用性组。 
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
   
 在为高可用性和灾难恢复配置持久聊天部署之前, 请确保熟悉适用于[Skype for Business server 2015 中持久聊天服务器的高可用性和灾难恢复](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)的概念。 这些主题中所述的持久聊天服务器的灾难恢复解决方案是基于持续持续的持久聊天服务器池构建的。 规划内容介绍资源要求和延长的池拓扑, 该拓扑支持持久聊天服务器的高可用性和灾难恢复, 包括使用 SQL Server 镜像实现高可用性和 SQL Server 日志传送灾难恢复。
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '摘要: 已从 Skype for Business Server 2019 中删除这些功能。'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278110"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418359"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Skype for Business Server 2019 中的弃用内容
 
@@ -35,7 +35,7 @@ Skype for Business Server 2015 及其前置任务允许你在 Edge 服务器上�
 
 持久聊天服务器是一种可选角色, 允许组织中的多个用户参与不断保持的聊天室对话。 Skype for Business Server 2019 不能部署持久聊天。 此服务器角色将从拓扑生成器和代码中删除。 
 
-团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。
+团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Skype for business Server 的 SQL 镜像
 

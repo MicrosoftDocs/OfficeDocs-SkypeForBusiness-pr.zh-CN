@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '摘要: 阅读本主题, 了解如何创建持久聊天服务器管理员角色, 以便在 Skype for Business Server 2015 中启用持久聊天服务的初始配置和管理。'
-ms.openlocfilehash: 1b593f1de776f1896d43bab35a15af7b6bcf7245
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b0edd3e1f10bf040be18242bfa600bb694169257
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273880"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418141"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建持久聊天管理员
  
@@ -27,7 +27,7 @@ ms.locfileid: "34273880"
 在配置和管理持久聊天服务器之前，请确保已分配相应的用户权限，并将充当持久聊天管理员的任何用户添加到持久聊天管理员安全组中。
   
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
 
 ## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 

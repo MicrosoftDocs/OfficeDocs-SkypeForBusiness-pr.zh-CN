@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '摘要: 了解如何在 Skype for Business Server 2015 中管理持久聊天服务器聊天室。'
-ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279345"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417944"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理持久聊天服务器内的聊天室
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279345"
 通过正确使用类别，创建和管理聊天室的过程可以大大简化。 类别定义可以创建或加入聊天室的人员。 在尝试管理聊天室之前, 请务必阅读 Skype for business [server 2015 中的持久聊天类别、聊天室和用户角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md), 并在[Skype for business Server 2015 的持久聊天服务器中管理类别](categories.md)。
   
 > [!NOTE]
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
 
 你可以使用 Windows PowerShell 命令行界面配置和管理聊天室, 或者通过使用 Skype for Business 客户端 (如果你是聊天室的成员) 来配置和管理聊天室。 本主题介绍了如何使用 Windows PowerShell 命令行界面管理聊天室。 如果想要使用 Skype for Business 客户端管理聊天室, 请参阅客户端帮助。 
   

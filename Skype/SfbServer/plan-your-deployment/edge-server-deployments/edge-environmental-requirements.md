@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '摘要: 了解 Skype for Business Server 中 Edge 服务器的环境要求。'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203954"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414987"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器环境要求
  
@@ -285,7 +285,7 @@ Skype for business 服务器在服务器之间和从服务器到客户端都使�
   
 ### <a name="external-certificates"></a>外部证书
 
-至少, 分配给外部边缘服务器接口的证书需要由公共证书颁发机构 (CA) 提供。 我们无法向你推荐特定的 CA, 但我们确实拥有一个 Ca、[统一通信证书合作伙伴](https://support.microsoft.com/en-us/kb/929395)列表, 你可以查看你的首选 CA 是否已列出。
+至少, 分配给外部边缘服务器接口的证书需要由公共证书颁发机构 (CA) 提供。 我们无法向你推荐特定的 CA, 但我们确实拥有一个 Ca、[统一通信证书合作伙伴](/SkypeForBusiness/certification/services-ssl)列表, 你可以查看你的首选 CA 是否已列出。
   
 你什么时候需要向 CA 提出申请，索要这份公共证书，如何提出申请？有几种方式可以完成申请：
   

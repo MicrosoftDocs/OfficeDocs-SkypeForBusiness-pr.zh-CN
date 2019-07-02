@@ -14,12 +14,12 @@ description: 了解实时事件如何使用户能够将视频和内容广播到�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394536"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420049"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -77,7 +77,7 @@ ECDN 的目标是从 internet 获取视频内容, 并在整个企业中分发内
 ![显示实时事件与会者体验的屏幕截图](../media/teams-live-events-attendee.png "显示实时事件与会者体验的屏幕截图")
 
 ### <a name="live-event-usage-report"></a>实时事件使用率报告 
-租户管理员可在 Microsoft 团队管理中心中查看实时事件的实时使用情况分析。  实时事件使用情况报表显示组织中保留的实时事件的活动概述。  管理员可以查看事件使用信息, 包括事件状态、开始时间、视图和生产类型。  
+租户管理员可在 Microsoft 团队管理中心中查看实时事件的实时使用情况分析。  [实时事件使用情况报表](../teams-analytics-and-reports/teams-live-event-usage-report.md)显示组织中保留的实时事件的活动概述。  管理员可以查看事件使用信息, 包括事件状态、开始时间、视图和生产类型。  
 
 ## <a name="next-steps"></a>后续步骤
 转到 "[规划团队实时事件](plan-for-teams-live-events.md)"。

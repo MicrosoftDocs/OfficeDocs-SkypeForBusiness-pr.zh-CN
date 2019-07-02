@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '摘要: 阅读本主题, 了解 Skype for Business Server 2015 中的持久聊天服务器组件和拓扑。'
-ms.openlocfilehash: edbc0184efe19e662c9ce8933b47c32f7e6fdd1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297083"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418271"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>规划持久聊天服务器拓扑
  
@@ -25,7 +25,7 @@ ms.locfileid: "34297083"
 持久聊天服务器支持单服务器和多服务器配置。 你可以在 Skype for Business Server 2015 Enterprise Edition 或 Standard Edition 服务器上安装持久聊天服务器。 
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
   
 ## <a name="persistent-chat-server-components"></a>持久聊天服务器组件
 

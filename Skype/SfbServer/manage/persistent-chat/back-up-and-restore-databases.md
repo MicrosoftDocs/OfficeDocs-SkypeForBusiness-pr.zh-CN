@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '摘要: 了解如何在 Skype for Business Server 2015 中备份和还原持久聊天服务器数据库。'
-ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279359"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417958"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中备份和还原持久聊天数据库
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279359"
 持久聊天服务器要求 SQL Server 数据库软件存储聊天室数据, 如历史记录和内容、配置、用户预配和其他相关元数据。 此外, 如果你的组织具有要求存档持久聊天活动的法规, 并且启用了可选合规性服务, 则 SQL Server 数据库软件用于存储合规性数据, 包括聊天内容和事件, 例如加入和离开聊天室。 聊天室内容存储在持久聊天数据库 (mgc) 中。 合规性数据存储在合规性数据库 (mgccomp) 中。 这是应定期备份的业务关键型数据。 
   
 > [!NOTE]
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
 
 ## <a name="back-up-the-databases"></a>备份数据库
 

@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams 预览中的信息障碍
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.date: 06/17/2019
+ms.date: 07/01/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013018"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418285"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Microsoft Teams 预览中的信息障碍
 
@@ -61,9 +61,9 @@ ms.locfileid: "35013018"
 当以下团队事件发生时, 将检查信息障碍策略:
 
 - 将**成员添加到团队**-每当您将用户添加到团队时, 用户的策略必须根据其他团队成员的信息屏障策略进行评估。 成功添加用户后, 用户可以执行团队中的所有功能, 而无需进一步检查。 如果用户的策略阻止将他们添加到团队, 则该用户将不会显示在 "搜索" 中。
-- **请求新的聊天**-每次在两个或更多用户之间请求新的聊天时, 将对聊天进行评估以确保它不违反任何信息障碍策略。 如果对话违反了 "信息屏障" 策略, 则不会启动对话, 并且将显示一条错误消息。
-- **邀请用户加入会议**-当用户被邀请加入会议时, 将根据其他团队成员的策略评估用户的策略, 如果发生冲突, 则不允许用户加入会议, 并将看到错误消息。。
-- **在两个或更多用户之间共享屏幕**-无论何时在两个或更多用户之间共享屏幕, 都必须评估屏幕共享以确保它不违反其他用户的信息屏障策略。 如果违反了信息障碍策略, 则不允许屏幕共享, 并且将显示一条错误消息。
+- **请求新的聊天**-每次在两个或更多用户之间请求新的聊天时, 将对聊天进行评估以确保它不违反任何信息障碍策略。 如果对话违反了 "信息屏障" 策略, 则不会启动对话。
+- **邀请用户加入会议**-当用户被邀请加入会议时, 将根据其他团队成员的策略评估用户的策略, 如果发生冲突, 则不允许用户加入会议中。。
+- **在两个或更多用户之间共享屏幕**-无论何时在两个或更多用户之间共享屏幕, 都必须评估屏幕共享以确保它不违反其他用户的信息屏障策略。 如果违反了信息障碍策略, 则不允许使用屏幕共享。
 - **用户在团队中放置电话呼叫 (VOIP)** -只要用户向另一个用户或一组用户发起语音呼叫, 就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突, 将阻止语音通话。
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>更改策略时对现有聊天线程有何影响？

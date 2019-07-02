@@ -3,7 +3,6 @@ title: Microsoft Teams 分析和报告
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: 了解 Microsoft 团队管理中心提供的团队报表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253791"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420033"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -46,6 +45,7 @@ Microsoft 团队管理中心提供了适用于 Microsoft 团队的新分析和�
 |[Teams 使用情况报告](teams-usage-report.md)  |  活动用户<br/>团队和频道中的活动用户<br/>活动频道<br/>彩信<br/>团队的隐私设置<br/>团队中的来宾   |
 |[Teams 用户活动报告](user-activity-report.md)  |  1:1 呼叫用户参与<br/>在团队聊天中发布的用户的消息<br/>在私人聊天中发布的用户的消息<br/>用户的上次活动日期     |
 |[Teams 设备使用报告](device-usage-report.md)   |  Windows 用户<br/>Mac 用户<br/>iOS 用户<br/>Android 手机用户     |
+|[团队实时事件使用率报告](teams-live-event-usage-report.md)   |  总视图数<br>开始时间<br>事件状态<br>组织者<br>演示者<br>者<br>录制设置<br>生产类型    |
 
 > [!NOTE]
 > 团队报表显示活动用户和活动团队的数据。 例如, 如果您的组织中的用户在您为报表指定的日期范围内没有在团队中处于活动状态, 则该报表中不会包含该用户的数据。

@@ -19,12 +19,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 551d164bc875de40ac7e372472e9a97a4e1114f1
-  ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+  ms.openlocfilehash: 0dc6e62694492947f627b00fc92c8e782e020c1d
+  ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/24/2019
-  ms.locfileid: "34433069"
+  ms.lasthandoff: 07/02/2019
+  ms.locfileid: "35417929"
 items:
 - durationInMinutes: 1
   content: "本教程介绍了 Skype for Business 到 Microsoft 团队升级历程和我们的端到端升级成功框架。 无论你是刚开始规划、已在 Skype for Business 中运行团队, 还是准备好升级到团队, 本教程都将快速为你推荐推荐的升级途径和可用资源, 以支持你的旅程。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\n此培训面向以下人员：\n-   负责规划、部署或管理 Skype for Business 的 IT 专业人员。\n-   负责在组织内规划用户更改管理。\n-   对了解如何从 Skype for Business 成功升级到组织的团队感兴趣。\n\n我们将详细介绍这两种产品如何协同工作, 并介绍为团队准备现有 Skype for business 环境所可以采取的步骤。 \n\n我们将讨论可帮助你规划和执行升级的框架, 并概括介绍了在技术和用户准备就绪期间推动最佳体验的关键活动。\n\n本教程的关键目标是:\n-   浏览可帮助你规划升级的升级途径。\n-   了解准备和实施升级所需的关键步骤。\n-   确定可帮助您在旅行中帮助的深入指南、模板和资源。\n-   若要开始使用我们的指南, 请分享后续步骤。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\n如果您对本培训有任何疑问或反馈, 请在本教程的 \"后续步骤\" 页面底部的 \"评论\" 部分进行发布。\n\n要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n"
@@ -67,7 +67,7 @@ items:
     项目范围通常由以下组件组成
 
 
-    -   **项目远景**: 回答问题的 "大图片" 或最终状态, "为什么要执行此 project?" 一个理想的愿景可解决你的组织的业务驱动因素和用户价值-添加视角。
+    -   **项目远景**: 回答问题的 "大图片" 或最终状态, "为什么要执行此项目？" 一个理想的愿景可解决你的组织的业务驱动因素和用户价值-添加视角。
 
 
     -   **项目范围**: 你的愿景可能仅在一段时间内通过各种阶段实现。 项目范围此时定义项目的焦点, 让你的项目团队重点关注其当前任务, 使你能够实现长期愿景。
@@ -98,4 +98,4 @@ items:
   content: "\n现在, 你已将所有用户移到团队, 你需要确保服务提供优质和用户实际使用。 [使用 Microsoft 团队](https://aka.ms/SkypeToTeams-Operate)(估计的阅读时间3分钟) 了解出色的驱动器操作, 了解团队的使用情况和质量。\n"
 - title: 了解更多信息
   durationInMinutes: 1
-  content: "此培训涵盖了以下主要学习内容：\n-   浏览可帮助你规划升级的升级途径。\n-   了解准备和实施升级所需的关键步骤。\n-   确定可帮助您在旅行中帮助的深入指南、模板和资源。\n-   若要开始使用我们的指南, 请分享后续步骤。\n\n### <a name=\"next-steps\"></a>后续步骤\n1.  访问 [http://SkypeandTeams.com](http://skypeandteams.com/) 以了解有关 Skype for Business 和 Teams 的最新信息\n2.  规划从 Skype for Business 迁移到团队\n3.  向我们发送反馈\n    -    在此页面底部的“评论”部分发布。\n    -   要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)\n \n 如果需要有关规划和部署的帮助, 您可以从[FastTrack](https://fasttrack.microsoft.com/en-us/portal.html#/register)请求帮助 (您必须登录)。\n\n 返回[从 Skype For Business 升级到团队](journey-skypeforbusiness-teams.md)。"
+  content: "此培训涵盖了以下主要学习内容：\n-   浏览可帮助你规划升级的升级途径。\n-   了解准备和实施升级所需的关键步骤。\n-   确定可帮助您在旅行中帮助的深入指南、模板和资源。\n-   若要开始使用我们的指南, 请分享后续步骤。\n\n### <a name=\"next-steps\"></a>后续步骤\n1.  访问 [http://SkypeandTeams.com](http://skypeandteams.com/) 以了解有关 Skype for Business 和 Teams 的最新信息\n2.  规划从 Skype for Business 迁移到团队\n3.  向我们发送反馈\n    -    在此页面底部的“评论”部分发布。\n    -   要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)\n \n 如果需要有关规划和部署的帮助, 您可以从[FastTrack](https://fasttrack.microsoft.com/en-us/portal.html#/register)请求帮助 (您必须登录)。\n\n 返回[从 Skype For Business 升级到团队](upgrade-start-here.md)。"

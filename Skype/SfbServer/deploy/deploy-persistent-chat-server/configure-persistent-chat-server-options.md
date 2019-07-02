@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '摘要: 了解如何在 Skype for business Server 2015 中的全球版、网站或池级别配置持久聊天服务器选项。'
-ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273866"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418125"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天服务器选项
  
@@ -33,7 +33,7 @@ ms.locfileid: "34273866"
 - 会议室管理 URL。 用于自定义聊天室管理的 URL。 该设置允许使用自定义聊天室管理解决方案。 
    
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
  
 ## <a name="configure-persistent-chat-server-global-options"></a>配置持久聊天服务器全局选项
 

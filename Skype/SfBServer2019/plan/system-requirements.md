@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '摘要: 通过本主题准备 Skype for Business Server 2019 服务器和域基础结构。 硬件、操作系统、数据库、软件、所有系统要求和建议, 以及证书 DNS、文件共享和 Active Directory 信息, 可帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: c1703c28f7c095810044145c6b3e9512b017e901
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134281"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35415002"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for business Server 2019 的系统要求
  
@@ -439,7 +439,7 @@ Skype for business 服务器2019需要 DNS, 原因如下:
   
 ### <a name="certificates-for-your-internal-servers"></a>内部服务器的证书
 
-你将需要大多数内部服务器的证书, 并且很可能会收到来自内部 CA 的证书 (这是您的域中的 CA)。 如果需要, 您可以从外部 CA (位于 Internet 上的 CA) 申请这些证书。 如果想知道应该转到的公共 CA, 可以查看 "[统一通信证书合作伙伴](https://support.microsoft.com/kb/929395/en-us)" 列表。
+你将需要大多数内部服务器的证书, 并且很可能会收到来自内部 CA 的证书 (这是您的域中的 CA)。 如果需要, 您可以从外部 CA (位于 Internet 上的 CA) 申请这些证书。 如果想知道应该转到的公共 CA, 可以查看 "[统一通信证书合作伙伴](/SkypeForBusiness/certification/services-ssl)" 列表。
   
 当 Skype for Business Server 2019 与其他应用程序和服务器 (如 Microsoft Exchange Server) 通信时, 你还将需要证书。 显然, 这将需要成为其他这些应用和服务器可以以受支持的方式使用的证书。 Skype for Business Server 2019 和其他 Microsoft 产品支持用于服务器到服务器身份验证和授权的开放授权 (OAuth) 协议。 如果你对此感兴趣, 我们将为 OAuth 和 Skype for business Server 2019 添加一个计划文章。
   

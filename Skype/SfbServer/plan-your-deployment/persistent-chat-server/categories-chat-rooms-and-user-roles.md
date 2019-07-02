@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '摘要: 阅读本主题, 了解 Skype for business Server 2015 中持久聊天服务器的类别、聊天室和用户和管理员角色。'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297111"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418467"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
  
@@ -31,7 +31,7 @@ ms.locfileid: "34297111"
 - 管理员角色
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>用于组织聊天室的类别
 

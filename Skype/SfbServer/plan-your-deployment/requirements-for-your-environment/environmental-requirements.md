@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '摘要: 配置 Skype for business Server 2015 的非服务器要求。 在部署之前, 您需要配置各种内容, 包括 Active Directory、DNS、证书和 Fileshares。'
-ms.openlocfilehash: b547d6c4e99f0b29a4e415a15e9c1307165245b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296859"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414980"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -255,7 +255,7 @@ Skype for business 服务器2015需要 DNS, 原因如下:
   
 ### <a name="certificates-for-your-internal-servers"></a>内部服务器的证书
 
-你将需要大多数内部服务器的证书, 并且很可能会收到来自内部 CA (位于你的域中的 CA) 的证书。 如果愿意，你可以从外部 CA（位于互联网上）请求这些证书。 如果想知道应该转到的公共 CA, 可以查看 "[统一通信证书合作伙伴](https://support.microsoft.com/kb/929395/en-us)" 列表。
+你将需要大多数内部服务器的证书, 并且很可能会收到来自内部 CA (位于你的域中的 CA) 的证书。 如果愿意，你可以从外部 CA（位于互联网上）请求这些证书。 如果想知道应该转到的公共 CA, 可以查看 "[统一通信证书合作伙伴](/SkypeForBusiness/certification/services-ssl)" 列表。
   
 当 Skype for Business Server 2015 与其他应用程序和服务器 (如 Microsoft Exchange Server) 通信时, 你还将需要证书。 显然，这必须是其他这些应用程序与服务器能够以受支持的方式使用的证书。 Skype for Business Server 2015 和其他 Microsoft 产品支持用于服务器到服务器身份验证和授权的开放授权 (OAuth) 协议。 如果你对此感兴趣, 我们将为 OAuth 和 Skype for business Server 2015 添加一个计划文章。
   

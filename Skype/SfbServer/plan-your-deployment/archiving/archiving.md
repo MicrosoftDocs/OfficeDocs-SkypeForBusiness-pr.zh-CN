@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '摘要: 阅读本主题, 了解如何在 Skype for Business Server 中规划存档。'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277599"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417872"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>在 Skype for Business 服务器中规划存档
  
@@ -69,7 +69,7 @@ Skype for business 服务器使用以下存档组件:
     Skype for business 服务器也不会存档持久聊天对话。 若要存档持久聊天对话, 您必须启用和配置合规性服务, 该服务是可以使用持久聊天服务器部署的组件。 有关详细信息, 请参阅[在 Skype for Business server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)。
 
     > [!NOTE] 
-    > Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+    > Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
     
 - **存档材料应保留多长时间**。 存档数据库不是为了长期保留, 而 Skype for Business 服务器不提供用于存档数据的电子发现 (搜索) 解决方案, 因此需要将数据移动到其他存储。 Skype for Business 服务器提供了一种会话导出工具, 可用于导出已存档的数据, 并可创建已存档数据的可搜索脚本。 
     

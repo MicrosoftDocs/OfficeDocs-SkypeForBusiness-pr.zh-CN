@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '了解当你的服务迁移到另一个 Microsoft 数据中心时, 你可以和不能在 Skype for Business 管理中心中使用的功能和其他功能。 '
-ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284874"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411566"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么我现在无法使用 Skype for Business Online 管理中心？
 
@@ -45,7 +45,7 @@ ms.locfileid: "34284874"
     
 - **迁移**这非常类似于 "移动"。 在这种情况下, 这意味着我们将您的 Skype for Business Online 用户和设置从一个数据中心移动到另一个更接近你的服务。
     
-- **延迟**这是你访问 Office 365 管理中心所需的时间, 请更改设置, 然后保存这些更改。
+- **延迟**这是你访问 Microsoft 365 管理中心、设置更改和保存这些更改所需的时间量。
     
 - **相关 ID**您可能已看到您刚刚收到的邮件中列出的内容。 Microsoft 支持工程师将使用此信息来帮助你解决错误。 如果您联系 Microsoft 支持部门, 可能会要求您提供相关 ID。
     

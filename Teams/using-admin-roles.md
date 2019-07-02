@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221214"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417979"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 
@@ -27,6 +27,8 @@ ms.locfileid: "35221214"
 ## <a name="teams-roles-and-capabilities"></a>团队角色和功能
 
 有四个团队管理员角色可用: 团队服务管理员、团队通信管理员、团队通信支持专家和团队通信支持工程师。 查看下表, 了解每个角色可以执行的操作以及管理员可在 Microsoft 团队管理中心和 PowerShell 中使用的工具。
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ ms.locfileid: "35221214"
 
 ## <a name="cmdlets-available-for-each-role"></a>适用于每个角色的 cmdlet
 
-适用于这些管理员角色的大多数 PowerShell 工具都在 Skype for business PowerShell 模块中运行, 因此请务必注意, 这些管理员角色的一些 cmdlet 有权控制也用于 Skype for business Online 的共享设置。 若要查看 Skype for Business PowerShell 模块中当前对给定角色可用的 cmdlet 的完整列表, 请按照下列步骤操作:
+适用于这些管理员角色的大多数 PowerShell 工具都在 Skype for business PowerShell 模块中运行, 因此请务必注意, 这些管理员角色的一些 cmdlet 有权控制也用于 Skype for business Online 的共享设置。 Skype for Business 管理员角色还可以访问 Skype for business PowerShell 模块中的所有 cmdlet。
+
+若要查看 Skype for Business PowerShell 模块中当前对给定角色可用的 cmdlet 的完整列表, 请按照下列步骤操作:
 
 1. 将该角色分配给用户 (并确保用户没有其他角色)。
 2. 连接到 Skype for Business PowerShell 模块:<br>

@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: '了解在 Skype for Business Online 服务计划无效的情况下为用户分配有效服务计划的位置。 '
-ms.openlocfilehash: bae00d6d7646abb82931f9293444e7c86fc5a59a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285061"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411539"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>用户的 Skype for Business Online 服务计划无效
 
 很抱歉, 分配给此用户的 Skype for Business Online 服务计划无法识别或无效。
   
-转到**Office 365 管理中心** > **活动用户**并将有效的服务计划分配给此用户。
+转到*Microsoft 365 管理中心** >**活动用户**并将有效的服务计划分配给此用户。
 
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

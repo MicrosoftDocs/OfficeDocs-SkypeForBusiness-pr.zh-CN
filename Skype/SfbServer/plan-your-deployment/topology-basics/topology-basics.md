@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '摘要: 选择 Skype for business 服务器的拓扑。 了解 Skype for business 服务器的服务器 collocation。'
-ms.openlocfilehash: 5c8c4b7cc2a0bf1c392e3fad70a179b838a64606
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296621"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418009"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Skype for Business 服务器的拓扑基础知识
 
@@ -184,7 +184,7 @@ Skype for Business 服务器支持可根据高可用性和位置要求进行缩�
 ### <a name="persistent-chat-server-roles"></a>持久聊天服务器角色
 
 > [!NOTE]
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
+> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
 
 利用持久聊天，用户可以参加持续进行的、基于主题的多方对话。持久聊天前端服务器可运行持久聊天服务。持久聊天后端服务器可存储聊天历史记录数据以及有关类别和聊天室的信息。可选持久聊天合规性后端服务器可存储聊天内容和合规性事件以实现合规性。
 
@@ -239,7 +239,7 @@ Skype for Business 服务器还支持用于后端服务器高可用性的多个�
 由于 SQL Server Express 在标准版服务器上 collocated, 因此不能移动, 这相当简单。 此外, 如果在标准版服务器上部署持久聊天服务器, 你也可以在标准版服务器上 collocate 持久聊天和持久聊天合规性数据库, 但不必这样做。
 
     > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
 
 这些不能在标准版服务器上 collocated, 但可以在单个数据库服务器上执行以下操作:
 
@@ -272,7 +272,7 @@ Skype for Business 服务器还支持用于后端服务器高可用性的多个�
 - 数据库服务器无法支持多个企业版前端池、一个运行存档的服务器、一个运行监视的服务器、单个持久聊天数据库和单个持久聊天合规性数据库, 但它可以支持其中一个无论数据库使用的是相同的 SQL Server 实例还是 SQL Server 的单独实例。
 
     > [!NOTE]
-    > Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[从 Skype For Business 迁移到 Microsoft 团队](/microsoftteams/journey-skypeforbusiness-teams)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
+    > Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。
 
 ### <a name="file-shares"></a>文件共享
 
