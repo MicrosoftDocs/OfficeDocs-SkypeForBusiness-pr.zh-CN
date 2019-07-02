@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
-description: 获取所需管理您的组织中的 Microsoft 团队的培训
+description: 获取管理组织中的 Microsoft 团队所需的培训
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896239"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417835"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
-了解如何为组织管理团队。
+了解如何管理组织的团队。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ ms.locfileid: "33896239"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新建： 教师授课实况培训团队</h3>
+                        <h3>新增: 团队的讲师指导培训</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ ms.locfileid: "33896239"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
