@@ -332,6 +332,7 @@
 
 ### 直接路由技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
+#### [媒体路径国家/地区代码](direct-routing-country-codes.md)
 
 ## 电话号码
 ### [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -630,7 +631,8 @@
 # 
 # 
 
-# [在组织中推广 Teams](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# 行业和政府指南
+## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +668,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# 中小型企业指南
+## [适用于中小型企业的 Teams 模板](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# 安全性和合规性
+## [概述](security-compliance-overview.md)
+## [Teams 中的信息障碍](information-barriers-in-teams.md)
+## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
+## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
+## [使用现代身份验证登录到 Teams](sign-in-teams.md)
+## [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
+## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
+## [在 Teams 中使用内容搜索](content-search.md)
+## [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
+## Teams 中的保留策略
+### [概述](retention-policies.md)
+### [保留策略常见问题解答](retention-policies-FAQ.md)
+### [保留策略已知问题](retention-policies-known-issues.md)
+## [Teams 中的数据位置](location-of-data-in-teams.md)
+## [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
+##  [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [数据收集做法](data-collection-practices.md)
+## [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [培训](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # 参考
@@ -743,27 +774,6 @@
 ### [Microsoft Teams 认证的 IP 电话](teams-ip-phones.md)
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## 安全性和合规性
-### [概述](security-compliance-overview.md)
-### [Teams 中的信息障碍](information-barriers-in-teams.md)
-### [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
-### [Teams 中的标识模式和身份验证](identify-models-authentication.md)
-### [使用现代身份验证登录到 Teams](sign-in-teams.md)
-### [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
-### [在 Teams 中搜索事件的审核日志](audit-log-events.md)
-### [在 Teams 中使用内容搜索](content-search.md)
-### [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
-### Teams 中的保留策略
-#### [概述](retention-policies.md)
-#### [保留策略常见问题解答](retention-policies-FAQ.md)
-#### [保留策略已知问题](retention-policies-known-issues.md)
-### [Teams 中的数据位置](location-of-data-in-teams.md)
-### [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
-###  [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [数据收集做法](data-collection-practices.md)
-### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 
 ## 故障排除与支持
