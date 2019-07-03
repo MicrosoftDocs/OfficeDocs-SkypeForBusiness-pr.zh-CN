@@ -15,12 +15,12 @@ localization_priority: Priority
 description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a00b87dbe3f29ce6588d4ff84302df2f07ce69
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a176ccf4eb6a35b9a4cbff9dcd8be663f5630d8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221631"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418474"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
@@ -31,6 +31,10 @@ ms.locfileid: "35221631"
 
 作为管理员，你可以通过以下几种方式向组织添加新的来宾用户：
 - 身为团队所有者的全局管理员和团队所有者可以通过 Microsoft Teams 桌面客户端或 Web 客户端将来宾添加到团队。 有关更多详细信息，请参阅[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)
+
+> [!NOTE] 
+> 这在启用**只有管理员和具有“来宾邀请者”角色的用户可以邀请**时不适用。 这是因为在 Teams 中不支持来宾邀请者角色。
+
 - 通过 Azure Active Directory (Azure AD) B2B 协作将来宾添加到贵组织。 利用 AD B2B 协作，全局管理员可以通过将不超过 2,000 行的逗号分隔值 (CSV) 文件上载到 B2B 协作门户来邀请和授权一组外部用户。 有关更多详细信息，请参阅 [Azure Active Directory B2B 协作](https://go.microsoft.com/fwlink/p/?linkid=826383)。
 
 利用 AD B2B 协作，组织可以对 B2B 用户强制应用条件访问和多重身份验证 (MFA) 策略。 可以在租户、应用或个人用户级别强制实施这些策略，与针对全职员工和组织成员启用这些策略的方式相同。 此类策略在资源组织上强制应用。 有关详细信息，请参阅 [B2B 协作用户的条件访问](https://go.microsoft.com/fwlink/?linkid=857454)。 无法阻止单个来宾用户。
