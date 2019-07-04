@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1aeefb4ed99e25b163cc91330e410b69c8d01282
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652751"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535873"
 ---
 ![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
@@ -34,6 +34,8 @@ ms.locfileid: "34652751"
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
+
+Microsoft 团队最终会取代 Skype for Business Online, 因此你需要立即为团队做好准备, 以便你做好准备。
 
 作为现有的 Skype for Business 客户, 您对团队的完全过渡可能需要一段时间。 但是, 你现在可以通过让你的用户与 Skype for Business 一起使用团队, 开始实现团队的价值。 假设两个应用之间存在一些重叠的功能, 我们建议你查看可用的共存和升级模式, 以帮助确定适合你的组织的路径。 例如, 你可以选择在不具有互操作性的两个解决方案上启用所有工作负荷。 或者, 你可以决定管理用户体验, 方法是逐步引入团队功能或面向用户组选择功能, 直到你的组织准备好将每个人升级到团队。 使用试点结果帮助评估适合您的组织的升级旅程。
 
@@ -59,7 +61,7 @@ ms.locfileid: "34652751"
 |群岛 |较小或更简单的 Skype for business 部署<br><br>能够更快地管理一些短期的复杂性, 更快地迁移到团队 |尽快转到完整的团队体验<br><br>开展团队的概念证明 (PoC)<br><br>适用于采用 Skype for Business Online 的组织的推荐升级途径 |操作简单<br><br>所有功能的最丰富的团队体验 |需要进行良好的用户通信以避免混乱和推动团队使用<br><br>退出策略要求用户在开始升级到 "仅团队" 阶段之前拥有完全采纳的团队<br><br>在孤岛模式下没有用户互操作;当用户的 Skype for Business 帐户在本地托管时, 也没有来自团队的联盟|
 |具有团队协作的 Skype for Business |使用团队尚未满足的要求进行 Skype for business 部署 (例如, 高级合规性)<br><br>长期需要和/或 Skype for business 承诺|快速开始团队开始, 首先关注组协作<br><br>希望立即在 Skype for Business 上保留所有统一通信工作负荷<br><br>建议用作组织开始从本地 (或混合) Skype for business 开始进行旅行的起点|团队和 Skype for business 之间没有重叠的功能<br><br>即时消息聊天和会议安排将驻留在 Skype for Business 中 (绑定到通话)<br><br>仅与团队中的用户进行互操作|
 |具有团队协作和会议的 Skype for business |通过大量使用企业语音和要求的 Skype for business 部署, 团队通话尚不满足这些要求<br><br>长期需要和/或 Skype for business 承诺<br><br>可能使用的是第三方会议服务|快速开始团队发展, 超越组协作<br><br>改善用户的会议体验<br><br>建议用于需要在准备好进行完全升级 (通常是由于企业内部部署的企业语音) 之前利用团队会议的本地组织。 |没有重叠的功能<br><br>团队的出色会议。 功能路线图、UX 和跨平台、质量和可靠性<br><br>在 Skype for Business 和团队之间 "更好地协作" 体验<br><br>团队中的互操作性用户。|即时消息和聊天将驻留在 Skype for Business 中 (绑定到通话)|
-|仅限团队 |某些用户需要保留在 Skype for Business 上<br><br>您正在将 skype for business Online 用户升级到团队, 同时在 Skype for business 服务器上保持 Skype for business 本地用户<br><br>你可能已经在孤岛模式下部署了用户, 并且已准备好注销用户组的 Skype for Business |减少 Skype for Business (本地服务器操作、外包合同等) 的可变成本<br><br>尽快转到完整的团队体验, 至少对于某些用户|通过仅向 Skype for Business 中的用户提供一个客户端来限制用户混乱, 使用团队协作与 skype for business 进行协作, 使用团队协作和会议与 Skype for business 进行协作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话, 以及用于桌面共享和多方聊天和通话的互操作性升级方案|
+|仅限团队 |团队仅为所有用户最终的目标。<br><br>某些用户需要保留在 Skype for Business 上<br><br>您正在将 skype for business Online 用户升级到团队, 同时在 Skype for business 服务器上保持 Skype for business 本地用户<br><br>你可能已经在孤岛模式下部署了用户, 并且已准备好注销用户组的 Skype for Business |减少 Skype for Business (本地服务器操作、外包合同等) 的可变成本<br><br>尽快转到完整的团队体验, 至少对于某些用户|通过仅向 Skype for Business 中的用户提供一个客户端来限制用户混乱, 使用团队协作与 skype for business 进行协作, 使用团队协作和会议与 Skype for business 进行协作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话, 以及用于桌面共享和多方聊天和通话的互操作性升级方案|
 |仅限 Skype for business |某些用户需要保留在 Skype for Business 上<br><br>|通过仅提供一个客户端来限制用户混乱<br><br>用户仍可参与受邀参加的团队会议|继续满足目前只能由 Skype for business 满足的业务要求<br><br>仅与团队中的用户进行互操作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话, 以及用于桌面共享和多方聊天和通话的互操作性升级方案|
 
 ## <a name="upgrade-journeys"></a>升级慷慨
@@ -71,8 +73,6 @@ ms.locfileid: "34652751"
 
 > [!IMPORTANT]
 > 对于这两种类型的升级, 如果你的组织当前仅是 Skype for business 内部部署部署, 则在将用户升级到 "**仅团队**" 模式之前, 你需要开始计划以实施 skype for business 混合。 这还有助于促进与团队的互操作。
->
-> 使用[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)指导您的 Skype for business 混合实施。
 
 > [!NOTE]
 > "**仅限团队**" 模式要求属于 cohorts 的用户托管在 skype For business Online 中, 并且您需要使用 Skype For business online 部署和 skype For business Online 租户之间的混合关系来简化Skype for Business 和团队之间的互操作性。 在升级到 "**仅限团队**" 模式之前, 必须为属于 cohorts 的用户完成 "移动到 Skype For business Online"。 Skype for business Server 2019 和具有 CU8 更新的 Skype for Business Server 2015 可以通过管理到 Skype for business Online 的迁移并在一个步骤中将用户升级到 "**仅团队**" 模式来简化将本地用户升级到团队的机制。.

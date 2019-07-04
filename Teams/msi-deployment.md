@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 711018e754f64960fc7b120baad13966ebf1a1ac
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694726"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535889"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 =================================
@@ -70,11 +70,11 @@ ms.locfileid: "34694726"
 
 2. 运行以下命令, 将 MSI 安装到 VDI VM (或完成更新)。
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
     这将把团队安装到程序文件。 此时, 将完成黄金图像设置。
 
-    下一个交互式登录会话将启动团队并要求提供凭据。 请注意, 在 VDI 上使用 ALLUSERS 属性安装团队时, 不可能禁用团队的自动启动。
+    下一个交互式登录会话将启动团队并要求提供凭据。 请注意, 在 VDI 上使用 ALLUSER 属性安装团队时, 不可能禁用团队的自动启动。
 
 3. 运行以下命令以从 VDI VM 卸载 MSI (或准备更新它)。
 

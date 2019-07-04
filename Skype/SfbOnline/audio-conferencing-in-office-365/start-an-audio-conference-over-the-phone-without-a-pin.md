@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用或禁用从 Skype for Business Online 管理中心或使用 PowerShell 脚本参加会议的匿名呼叫者。 '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302767"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535863"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>通过电话在 Skype for Business Online 开始音频会议而无 PIN
 
@@ -65,13 +65,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - 如果要重置 PIN, 请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin.md)。
     
-- 如果启用匿名访问或不需要 PIN 来启动会议, 则启用:
+- 如果已禁用匿名访问或不需要 PIN 才能启动会议, 请执行以下操作:
     
   - 如果会议尚未启动 (会议中尚无人): 如果是组织者, 则会提示呼叫者;如果他显示 "是", 系统将提示他输入 PIN, 在用户输入 PIN 后, 会议将启动, 并且用户将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-- 如果已禁用匿名访问或不需要 PIN 才能启动会议, 请执行以下操作:
+- 如果启用匿名访问或不需要 PIN 来启动会议, 则启用:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
