@@ -15,22 +15,18 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
+ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222074"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "35541061"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
 本文按功能区域列出了 Microsoft Teams 的已知问题。
 
 ## <a name="administration"></a>管理
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|    
-|:-----|:-----|:-----|:-----|
-|资源帐户配置错误部门 <br/> |与 2019 年 1 月之前创建的自动助理或呼叫队列关联的资源帐户可能没有正确设置“部门”参数, 这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 为 Skype for Business Server 配置的资源帐户不会正确设置 Department 参数，进而导致无法在 Skype for Business Online 中创建资源帐户。 在这种情况下，需要在同步到 Skype for Business Online 前，先在 Active Directory 中配置部门名称。|若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> |2019/5/8 <br/> |
 
 
 
@@ -226,6 +222,35 @@ ms.locfileid: "35222074"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |用户个人资料照片  <br/> | 当前，Teams 没有阻止用户更改照片的机制。BTS 团队已与提交考虑实现以下功能的开发团队会面交流：功能 108874：用于禁止上载个人资料照片的 IT 策略   <br/> | 如果你的客户希望能够在 Teams 中阻止上载个人资料照片，请让其在以下位置投票并添加业务案例： https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |2017 年 3 月 1 日 <br/> |
+
+
+
+## <a name="phone-system"></a>电话系统
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|资源帐户配置错误部门 <br/> |与 2019 年 1 月之前创建的自动助理或呼叫队列关联的资源帐户可能没有正确设置“部门”参数, 这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 为 Skype for Business Server 配置的资源帐户不会正确设置 Department 参数，进而导致无法在 Skype for Business Online 中创建资源帐户。 在这种情况下，需要在同步到 Skype for Business Online 前，先在 Active Directory 中配置部门名称。|若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> |2019/5/8 <br/> |
+
+
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|资源帐户同步延迟|无法向资源帐户分配电话号码，或收到错误“BVD 中不存在以下应用程序实例”。|允许 24 小时的同步时间。 如果已过去 24 小时，请删除分配的电话号码，删除资源帐户，然后创建一个使用其他名称的新帐户。|2019 年 5 月 18 日|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法从 Teams 管理中心分配收费服务号码|尝试在 Teams 管理中心分配收费服务号码时，收到“你需要电话系统许可证”错误。|改为使用 PowerShell cmdlet 分配收费服务号码。|2019 年 5 月 18 日|
+
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|资源帐户损坏|资源帐户无法正常运行|以下操作将导致资源帐户损坏：删除或替换资源帐户的许可证，或者使用与先前删除的帐户相同的 SIP URI 创建新资源帐户。|2019 年 5 月 18 日|
+
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|电话号码被阻止：|电话号码被阻止：在删除电话号码前删除资源帐户将会导致相应电话号码被阻止。|请与 Microsoft 支持人员联系，以解禁相应电话号码。|2019 年 5 月 18 日|
+
 
 ## <a name="provisioning"></a>预配
 
