@@ -78,6 +78,7 @@
 #### [Teams 使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams 设备使用报告](teams-analytics-and-reports/device-usage-report.md)
+#### [Teams 实时事件使用情况报表](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理中心的 Teams 活动报告](teams-activity-reports.md)
 
 
@@ -96,6 +97,7 @@
 ## [在 Teams 中配置桌面共享](configure-desktop-sharing.md)
 ## [Teams 云会议录制](cloud-recording.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
+## [为用户设置“致电我”功能](set-up-the-call-me-feature-for-your-users.md)
 ## [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams 会议室](room-systems/index.md)
 ## [在 Teams 中管理白板](manage-whiteboard.md)
