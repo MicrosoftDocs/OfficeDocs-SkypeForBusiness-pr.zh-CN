@@ -68,6 +68,7 @@
 ### [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ### [批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
+### [在 Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 ### [管理外部访问](manage-external-access.md)
 ### [使用内联消息翻译](inline-message-translation-teams.md)
@@ -717,6 +718,7 @@
 ## 准备好推广 Teams
 ### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
+### [使用适用于 Teams 的 Network Planner](network-planner.md)
 ### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
 ### [Teams 限制和规范](limits-specifications-teams.md)
 ### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
