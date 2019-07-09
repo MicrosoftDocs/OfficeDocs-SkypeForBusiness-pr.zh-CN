@@ -1,5 +1,5 @@
 ---
-title: 团队更新过程
+title: 团队更新
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,35 +14,36 @@ search.appverid: MET150
 description: 了解如何更新团队桌面客户端。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970273"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588180"
 ---
-# <a name="teams-update-process"></a><span data-ttu-id="b77b0-103">团队更新过程</span><span class="sxs-lookup"><span data-stu-id="b77b0-103">Teams update process</span></span>
+# <a name="teams-update-process"></a><span data-ttu-id="98647-103">团队更新流程</span><span class="sxs-lookup"><span data-stu-id="98647-103">Teams update process</span></span>
 
-<span data-ttu-id="b77b0-104">每周更新团队 web 应用程序。</span><span class="sxs-lookup"><span data-stu-id="b77b0-104">The Teams web app is updated weekly.</span></span>
+<span data-ttu-id="98647-104">每周更新团队 web 应用。</span><span class="sxs-lookup"><span data-stu-id="98647-104">The Teams web app is updated weekly.</span></span>
 
-<span data-ttu-id="b77b0-105">团队桌面客户端发布更新后严格的内部测试和验证每两周通过我们技术应用程序 （点击）。</span><span class="sxs-lookup"><span data-stu-id="b77b0-105">Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP).</span></span> <span data-ttu-id="b77b0-106">这通常发生于星期二。</span><span class="sxs-lookup"><span data-stu-id="b77b0-106">This usually takes place on a Tuesday.</span></span> <span data-ttu-id="b77b0-107">如果需要关键更新，则团队将绕过此计划，并为可用发布更新。</span><span class="sxs-lookup"><span data-stu-id="b77b0-107">If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.</span></span>
+<span data-ttu-id="98647-105">团队桌面客户端更新在经过我们的技术采纳计划 (点击) 严格内部测试和验证后每两周发布一次。</span><span class="sxs-lookup"><span data-stu-id="98647-105">Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP).</span></span> <span data-ttu-id="98647-106">这通常发生在星期二。</span><span class="sxs-lookup"><span data-stu-id="98647-106">This usually takes place on a Tuesday.</span></span> <span data-ttu-id="98647-107">如果需要关键更新, 团队将绕过此计划, 并在更新推出后立即发布更新。</span><span class="sxs-lookup"><span data-stu-id="98647-107">If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.</span></span>
 
-<span data-ttu-id="b77b0-108">桌面客户端自动更新本身。</span><span class="sxs-lookup"><span data-stu-id="b77b0-108">The desktop client updates itself automatically.</span></span> <span data-ttu-id="b77b0-109">团队检查更新后台每隔几小时，将其，下载，然后等待以无提示方式安装更新之前处于空闲状态的计算机。</span><span class="sxs-lookup"><span data-stu-id="b77b0-109">Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.</span></span>
+<span data-ttu-id="98647-108">桌面客户端会自动更新。</span><span class="sxs-lookup"><span data-stu-id="98647-108">The desktop client updates itself automatically.</span></span> <span data-ttu-id="98647-109">团队会在后台每隔几小时检查一次更新, 下载它, 然后等待计算机处于空闲状态, 然后再进行无提示安装更新。</span><span class="sxs-lookup"><span data-stu-id="98647-109">Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.</span></span>
 
-<span data-ttu-id="b77b0-110">用户可以通过单击顶部的**配置文件**下拉列表菜单上的**检查更新**手动下载更新应用程序的权限。</span><span class="sxs-lookup"><span data-stu-id="b77b0-110">Users can also manually download updates by clicking **Check for updates** on the **Profile** drop-down menu on the top right of the app.</span></span> <span data-ttu-id="b77b0-111">如果提供更新，则它将下载并以无提示方式安装在计算机空闲时。</span><span class="sxs-lookup"><span data-stu-id="b77b0-111">If an update is available, it will be downloaded and silently installed when the computer is idle.</span></span>
+<span data-ttu-id="98647-110">用户还可以通过在应用的右上角的 "**配置文件**" 下拉菜单上单击 "**检查更新**", 手动下载更新。</span><span class="sxs-lookup"><span data-stu-id="98647-110">Users can also manually download updates by clicking **Check for updates** on the **Profile** drop-down menu on the top right of the app.</span></span> <span data-ttu-id="98647-111">如果有可用更新, 则会在计算机空闲时下载并自动安装该更新。</span><span class="sxs-lookup"><span data-stu-id="98647-111">If an update is available, it will be downloaded and silently installed when the computer is idle.</span></span>
 
-<span data-ttu-id="b77b0-112">用户需要更新下载登录。</span><span class="sxs-lookup"><span data-stu-id="b77b0-112">Users need to be signed in for updates to be downloaded.</span></span>
+<span data-ttu-id="98647-112">用户需要登录才能下载更新。</span><span class="sxs-lookup"><span data-stu-id="98647-112">Users need to be signed in for updates to be downloaded.</span></span> <span data-ttu-id="98647-113">从2019年7月9日开始, 团队客户端更新在更新期间使用显著降低网络带宽。</span><span class="sxs-lookup"><span data-stu-id="98647-113">Starting July 9, 2019, Teams client updates use significantly lower network bandwidth during the update.</span></span> <span data-ttu-id="98647-114">默认情况下, 此项处于打开状态, 不需要管理员或用户执行任何操作。</span><span class="sxs-lookup"><span data-stu-id="98647-114">This is turned on by default and requires no action from admins or users.</span></span>
 
-## <a name="what-about-updates-to-office-365-proplus"></a><span data-ttu-id="b77b0-113">更新 Office 365 ProPlus 呢？</span><span class="sxs-lookup"><span data-stu-id="b77b0-113">What about updates to Office 365 ProPlus?</span></span>
 
-<span data-ttu-id="b77b0-114">团队是默认安装的新安装的 Office 365 ProPlus[与 Office 365 ProPlus 部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。</span><span class="sxs-lookup"><span data-stu-id="b77b0-114">Teams is installed by default with new installations of Office 365 ProPlus as described in [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install).</span></span> 
+## <a name="what-about-updates-to-office-365-proplus"></a><span data-ttu-id="98647-115">Office 365 专业增强版的更新有哪些更新？</span><span class="sxs-lookup"><span data-stu-id="98647-115">What about updates to Office 365 ProPlus?</span></span>
 
-<span data-ttu-id="b77b0-115">团队遵循上述，自己更新过程，并不其他办公室应用程序，例如 Word 和 Excel 的更新过程。</span><span class="sxs-lookup"><span data-stu-id="b77b0-115">Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel.</span></span>
+<span data-ttu-id="98647-116">默认情况下, 团队通过 office 365 专业增强版的全新安装进行安装, 如[使用 office 365 专业增强版部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。</span><span class="sxs-lookup"><span data-stu-id="98647-116">Teams is installed by default with new installations of Office 365 ProPlus as described in [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install).</span></span> 
 
-## <a name="what-about-updates-to-teams-on-vdi"></a><span data-ttu-id="b77b0-116">向工作组 VDI 上更新呢？</span><span class="sxs-lookup"><span data-stu-id="b77b0-116">What about updates to Teams on VDI?</span></span>
+<span data-ttu-id="98647-117">团队关注其自己的更新过程 (如上文所述), 而不是其他分支应用 (如 Word 和 Excel) 的更新过程。</span><span class="sxs-lookup"><span data-stu-id="98647-117">Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel.</span></span> <span data-ttu-id="98647-118">若要了解详细信息, 请参阅[Office 365 专业增强版更新频道概述](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)</span><span class="sxs-lookup"><span data-stu-id="98647-118">To learn more, read [Overview of update channels for Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)</span></span>
 
-<span data-ttu-id="b77b0-117">团队客户端上虚拟桌面基础结构 (VDI) 不会自动更新 VDI 团队客户端的方式。</span><span class="sxs-lookup"><span data-stu-id="b77b0-117">Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are.</span></span> <span data-ttu-id="b77b0-118">您必须通过向[VDI 上安装的工作组](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)的说明中所述安装新的 MSI 来更新虚拟机映像。</span><span class="sxs-lookup"><span data-stu-id="b77b0-118">You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi).</span></span> <span data-ttu-id="b77b0-119">您必须先卸载要更新为新版本的当前版本。</span><span class="sxs-lookup"><span data-stu-id="b77b0-119">You must uninstall the current version to update to a newer version.</span></span>
+## <a name="what-about-updates-to-teams-on-vdi"></a><span data-ttu-id="98647-119">对 VDI 的团队更新有何区别？</span><span class="sxs-lookup"><span data-stu-id="98647-119">What about updates to Teams on VDI?</span></span>
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a><span data-ttu-id="b77b0-120">可以 admins 部署更新而不是团队自动更新？</span><span class="sxs-lookup"><span data-stu-id="b77b0-120">Can admins deploy updates instead of Teams auto-updating?</span></span>
+<span data-ttu-id="98647-120">虚拟桌面基础结构 (VDI) 上的团队客户端不会自动更新非 VDI 团队客户端的方式。</span><span class="sxs-lookup"><span data-stu-id="98647-120">Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are.</span></span> <span data-ttu-id="98647-121">你必须通过安装新 MSI 来更新 VM 映像, 如在[VDI 上安装团队](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)的说明中所述。</span><span class="sxs-lookup"><span data-stu-id="98647-121">You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi).</span></span> <span data-ttu-id="98647-122">必须卸载当前版本才能更新到较新版本。</span><span class="sxs-lookup"><span data-stu-id="98647-122">You must uninstall the current version to update to a newer version.</span></span>
 
-<span data-ttu-id="b77b0-121">团队不使管理员能够通过任何交付机制部署更新。</span><span class="sxs-lookup"><span data-stu-id="b77b0-121">Teams does not give admins the ability to deploy updates through any delivery mechanism.</span></span>
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a><span data-ttu-id="98647-123">管理员是否可以部署更新, 而不是团队自动更新？</span><span class="sxs-lookup"><span data-stu-id="98647-123">Can admins deploy updates instead of Teams auto-updating?</span></span>
+
+<span data-ttu-id="98647-124">团队不会授予管理员通过任何交付机制部署更新的能力。</span><span class="sxs-lookup"><span data-stu-id="98647-124">Teams does not give admins the ability to deploy updates through any delivery mechanism.</span></span>
