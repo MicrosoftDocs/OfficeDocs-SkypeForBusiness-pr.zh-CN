@@ -15,19 +15,18 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
-ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
+ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "35541061"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588084"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
 本文按功能区域列出了 Microsoft Teams 的已知问题。
 
 ## <a name="administration"></a>管理
-
 
 
 

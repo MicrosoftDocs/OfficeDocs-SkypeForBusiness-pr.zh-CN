@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何通过团队库和搜索结果控制 Microsoft 团队用户是否可以通过建议发现专用团队。
-ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 0c75d0e08290b12cf658b2a84eef609e2d15dc86
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347873"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588204"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft Teams 中管理对私人团队的发现
 
@@ -67,7 +67,7 @@ ms.locfileid: "35347873"
 
 使用 "**[设置团队](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** cmdlet" 关闭或打开现有专用团队的发现设置。 下面是如何让团队易于发现的示例:
 ```
-    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
+    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 你可以在脚本中使用此 cmdlet 来批量设置现有专用团队的发现设置。
 

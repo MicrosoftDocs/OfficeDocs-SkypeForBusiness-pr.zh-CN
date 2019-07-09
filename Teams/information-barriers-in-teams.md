@@ -1,9 +1,9 @@
 ---
-title: Microsoft Teams 预览中的信息障碍
+title: Microsoft 团队中的信息障碍
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418285"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588124"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Microsoft Teams 预览中的信息障碍
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
 信息屏障是管理员可以配置以防止个人或组相互通信的策略。 例如, 如果一个部门处理的信息不应与其他部门共享, 或者需要防止或独立地与该组外的任何人进行通信, 则这将非常有用。
 
@@ -47,14 +45,14 @@ ms.locfileid: "35418285"
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
-信息屏障策略通过安全 & 合规性中心 (SCC) PowerShell cmdlet 进行管理。 有关使用这些 cmdlet 的详细信息, 请参阅[定义信息障碍 (预览版) 策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
+信息屏障策略在使用 PowerShell cmdlet 的 Office 365 安全 & 合规中心 (SCC) 中进行管理。 有关详细信息, 请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
-> 在设置或定义策略之前,**必须在 Microsoft 团队中启用范围的目录搜索**。 在为信息障碍设置或定义策略之前, 在启用范围目录搜索后至少等待24小时。
+> 在设置或定义策略之前,**必须在 Microsoft 团队中启用范围的目录搜索**。 在为信息障碍设置或定义策略之前, 在启用范围目录搜索后至少等待24小时。 [了解有关信息障碍的先决条件的详细信息](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>信息障碍管理员角色
 
-信息屏障管理员角色 (IB 合规性管理) 负责管理信息屏障策略。 有关此角色的详细信息, 请参阅[Office 365 安全 & 合规中心中的权限](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详细信息, 请参阅[Office 365 安全 & 合规中心中的权限](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="when-are-information-barrier-policies-checked"></a>何时检查信息障碍策略？
 
@@ -102,7 +100,7 @@ ms.locfileid: "35418285"
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
-目前, 信息障碍功能位于公共预览版中。 当这些功能通常可用时, 它们将包含在套餐中, 例如:
+信息障碍现在即将推出, 包括在套餐中, 例如:
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -113,6 +111,8 @@ ms.locfileid: "35418285"
 
 ## <a name="more-information"></a>详细信息
 
-- 若要了解有关信息障碍的详细信息, 请参阅[信息障碍 (预览版)](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
+- 若要了解有关信息障碍的详细信息, 请参阅[信息障碍](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
 
-- 若要设置信息障碍策略, 请参阅[定义信息障碍策略 (预览版)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- 若要设置信息障碍策略, 请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+
+- 若要编辑或删除信息障碍策略, 请参阅[编辑 (或删除) 信息屏障策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)

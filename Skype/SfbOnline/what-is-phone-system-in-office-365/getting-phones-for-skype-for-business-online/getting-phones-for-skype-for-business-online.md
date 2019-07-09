@@ -21,26 +21,27 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297995"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587931"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
-  
-若要获取有关受支持设备的最新更新和最新信息, 请参阅[Skype For Business 设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+
+> [!NOTE]
+> 在 Office 365 中, Skype For business 将慢慢地替换为 Microsoft 团队的主要通信方法。  有关详细信息, 请参阅[Office 365 中智能通信的新愿景](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
+>
+>若要获取有关受支持设备的最新更新和最新信息, 请参阅[Microsoft 团队设备以进行智能通信](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>支持的电话
-
-对于 Skype for Business Online 用户, 您可以从在 skype for business 设备的 Skype for business Online 类别下列出的已*认证的 skype for Business 电话*和电话 (LPE) 中选择多个型号[目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
 Microsoft 致力于与 Polycom、Yealink 和 AudioCodes 密切合作, 通过 Office 365 和 Skype for business 服务器中的 "合作伙伴 IP 电话计划" (PIP) 为各种设备进行开发和认证。
   
-When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+对 Skype for business 的新电话进行排序时, 购买具有*正确产品 ID*的手机非常重要。 这些产品 Id 将确保你收到的手机已安装 Skype for business Online 合格的版本。
   
 |||
 |:-----|:-----|
@@ -56,9 +57,9 @@ When ordering new phones for Skype for Business, it is important to buy phones w
 有关 AudioCodes 电话的更多详细信息, 请参阅[Skype for BUSINESS IP 手机](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
-> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
+> Lync Phone Edition 支持 Skype for Business Online，但不支持 Microsoft Teams。 对 LPE 平台的主流支持于 2014 年 4 月 10 日结束，扩展支持将持续到 2023 年 4 月 11 日，以便与 Lync Server 2013 的产品支持生命周期保持一致。 有关 LPE 生命周期的详细信息，请参阅 [Microsoft 产品生命周期](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE CAP 型号不支持 Skype for Business Online。
 >
-> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
+> 今年晚些时候, Office 365 将不支持低于1.2 的任何 TLS 版本。 由于 LPE 底层操作系统不支持 TLS 1.2，将不支持 LPE 连接到 Office 365。 如需了解更多信息，请参阅[为 TLS 1.2 在 Office 365 中的强制使用做准备](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 。
   
 ## <a name="supported-firmware"></a>支持的固件
 
@@ -90,24 +91,24 @@ Skype for business Online 不需要除用户许可证之外的任何其他 Micro
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
-|通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|使用（Web 登录）登录  <br/>  <br/> **注意:** 检查部署指南中的 "可支持性" 矩阵。           |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
-|通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|可视语音邮件  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|电话锁定  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|QoE  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
-|日志上传  <br/> <br/> **注意:** 目前, 所有日志仅上载到 Microsoft 支持团队;客户对电话日志的访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|现代化身份验证  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
+|使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|使用（Web 登录）登录  <br/>  <br/> **注意:** 检查部署指南中的 "可支持性" 矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|可视语音邮件  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|电话锁定  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|设备更新  <br/> |是  <br/> |是  <br/> |是   <br/> |是   <br/> |
+|带内配置  <br/> |是  <br/> |是   <br/> |是   <br/> |是   <br/> |
+|QoE  <br/> |是  <br/> |是   <br/> |是   <br/> |否  <br/> |
+|日志上传  <br/> <br/> **注意:** 目前, 所有日志仅上载到 Microsoft 支持团队;客户对电话日志的访问尚不可用。           |是  <br/> |是   <br/> |是   <br/> |是   <br/> |
+|现代化身份验证  <br/> |是  <br/> |是   <br/> |是   <br/> |否  <br/> |
 |多个紧急号码  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是   <br/> |是   <br/> <br/> **注意:** 需要 PC tethering           |
-|状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|委派  <br/> |是  <br/> |是  <br/> |是   <br/> |否  <br/> |
+|Exchange 日历集成*  <br/> |是  <br/> |是   <br/> |是   <br/> |是   <br/> <br/> **注意:** 需要 PC tethering           |
+|状态集成  <br/> |是  <br/> |是   <br/> |是   <br/> |是   <br/> |
+|公司目录  <br/> |是  <br/> |是   <br/> |是   <br/> |是  <br/> |
+|委派  <br/> |是  <br/> |是   <br/> |是   <br/> |否  <br/> |
 |联系人图片集成  <br/> |否  <br/> |是  <br/> |否  <br/> |是  <br/> |
 ||||||
 

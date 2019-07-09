@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 11378d35e042a69c2eff8f171cdc266108505774
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34422000"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588116"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -52,6 +52,9 @@ ms.locfileid: "34422000"
  - Skype for business 租户托管于韩国 **,** 组织要求团队数据存储在韩国。 目前, 存储在韩国的 Skype for business 数据的组织将其团队数据存储在亚洲数据中心区域, 而不是在韩国数据中心区域中。
 
 **特定于用户的注意事项**: 某些用户方案仍在发展, 管理员可能决定在升级组织中的其他用户时临时推迟某些用户的升级。 我们正在努力解决这些情形;请监控[Office 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)网站, 了解公告。
+
+> [!NOTE]
+> 在移动到 "仅团队" 模式之前, 你需要替换或更新不支持团队的设备。 
 
 | 应用场景 | 注释 |
 |----------|-------|

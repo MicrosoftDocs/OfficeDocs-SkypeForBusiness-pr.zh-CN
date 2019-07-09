@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548945"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588172"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -224,9 +224,9 @@ Before you can create and set up your call queues, you will need to get or trans
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-若要创建新的自动助理, 请在 Skype for business 管理中心中, 单击 "**呼叫路由** > **自动助理**", 单击 "**添加新**", 然后按照**步骤 2**中的每个页面上[设置云自动助理的说明进行操作。](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+若要创建新的自动助理, 请在 Skype for business 管理中心中, 单击 "**呼叫路由** > **自动助理**", 单击 "**添加新**", 然后按照**步骤 2**中的每个页面上[设置云自动助理的说明进行操作。](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**有关云自动助理的更多详细信息, 请参阅[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)。**
+**有关云自动助理的更多详细信息, 请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步骤 9：获取服务电话号码 （音频会议呼叫的队列，自动助理）
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - 对于自动助理, 你可以通过转到**Microsoft 365 管理中心** > **管理中心** > 的**Skype for** > business**呼叫路由** > **自动助理, 将专用号码分配给自动助理**并单击 "自动助理"。 在 **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)。
 
-- 对于呼叫队列, 您可以通过转到**Microsoft 365 管理中心** > **管理中心** > **Skype for** > business**呼叫路由** > **呼叫队列**, 将专用号码分配给呼叫队列, 然后单击通话队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[创建云呼叫队列](/SkypeForBusiness/create-a-phone-system-call-queue)。
+- 对于呼叫队列, 您可以通过转到**Microsoft 365 管理中心** > **管理中心** > **Skype for** > business**呼叫路由** > **呼叫队列**, 将专用号码分配给呼叫队列, 然后单击通话队列。 在  **常规** 页上您已经拥有的服务号码将在 **电话号码** 中下拉列表中列出。 有关详细信息, 请参阅[创建云呼叫队列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)。
 
 **有关获取新服务号码和移植现有服务号码的详细信息，请参阅 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers) 。**
 

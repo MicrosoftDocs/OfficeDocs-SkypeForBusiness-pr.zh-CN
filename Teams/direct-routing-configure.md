@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116014"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588148"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -83,7 +83,9 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 1. 强烈建议使用 SBC 文档中提供的信息, 在 SBC 中设置最大通话限制。 如果 SBC 处于容量级别, 则该限制将触发通知。
   > 2. 仅当 FQDN 的域部分与你的租户中注册的一个域 (onmicrosoft.com 除外\*) 匹配时, 你才可以对 SBC 进行配对。 SBC \*FQDN 名称不支持使用 onmicrosoft.com 域名。 例如, 如果您有两个域名:<br/><br/>
   > **contoso**<br/>**** onmicrosoft.com<br/><br/>
-  > 对于 SBC 名称, 你可以使用名称 sbc.contoso.com。 如果你尝试将 SBC 与名称 SBC 对应, 则系统将不会允许你, 因为域不属于此租户。
+  > 对于 SBC 名称, 你可以使用名称 sbc.contoso.com。 如果你尝试将 SBC 与名称 SBC 对应, 则系统将不会允许你, 因为域不属于此租户。<br/>
+  > 除了在租户中注册的域, 还必须有一个具有该域的用户以及分配的 E3 或 E5 许可证。 如果不是, 您将收到以下错误:<br/>
+  `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 

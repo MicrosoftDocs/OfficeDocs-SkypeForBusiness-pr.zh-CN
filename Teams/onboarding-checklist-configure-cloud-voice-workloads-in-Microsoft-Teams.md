@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 820bf06c280498f9ebf6378c70c79d7850bff82e
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: dea6cc2f8c24d53d18f80904b297ff3f2e8ac31c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198266"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587923"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>在 Microsoft 团队中配置云语音工作负荷
 
@@ -35,7 +35,7 @@ ms.locfileid: "35198266"
 | 5  | 为会议桥电话号码设置语言 | 为您的会议桥电话号码配置主要和辅助语言。 <br/><br/>确认为区域会议桥接电话号码分配了合适的语言来支持您的用户。 | | [为音频会议设置自动助理语言](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) |
 | 6  | 配置会议桥设置 | 配置会议加入体验、PIN 长度和会议进入/退出通知设置。 将这些会议桥设置与组织的目标对齐。 | | [更改音频会议网桥的设置](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge) |
 | 7  | 自定义会议邀请 | 作为管理员, 你可以在会议邀请中包括链接到帮助或法律信息的 Url。 你还可以更新徽标并向邀请添加页脚文本。 | | [自定义会议邀请](https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) |
-| 个  | 配置拨号计划 | 通过拨号计划, 用户可以按其使用的方式拨打电话号码, 例如省略本地呼叫的区号、忽略国内电话的国家/地区代码, 或者甚至在会议期间使用短数字拨号拨出其他用户。 <br/><br/>服务拨号计划 (默认值) 基于用户的 Office 365 使用位置, 不能更改。 <br/><br/>如果默认的服务拨号计划不能满足您的需要, 您可以在租户或用户级别配置租户拨号计划。 | | [Microsoft 团队音频会议中的拨号计划](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing#dial-plans) <br/><br/>[Office 365 通话计划拨号计划](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
+| 个  | 配置拨号计划 | 通过拨号计划, 用户可以按其使用的方式拨打电话号码, 例如省略本地呼叫的区号、忽略国内电话的国家/地区代码, 或者甚至在会议期间使用短数字拨号拨出其他用户。 <br/><br/>服务拨号计划 (默认值) 基于用户的 Office 365 使用位置, 不能更改。 <br/><br/>如果默认的服务拨号计划不能满足您的需要, 您可以在租户或用户级别配置租户拨号计划。 | | [Microsoft 团队音频会议中的拨号计划](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/>[Office 365 通话计划拨号计划](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | db-9  | 将会议号码和 Pin 分配给用户 | 默认情况下, 将根据选定的默认 "团队管理员" 将会议号码分配给用户。 根据引脚策略随机生成初始用户 Pin。<br/><br/> 用户将在电子邮件中收到会议号码和 Pin 码。 用户可以更改其引脚。 <br/><br/>作为管理员, 你可以使拨入用户能够使用不同于默认号码的会议号码和本地号码。 | | |
 | 10 | 准备和执行用户验收测试 | 准备和执行用户验收测试, 包括拨入和拨出方案。 | | [音频会议的测试计划](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) |
 | 11 | 报表使用情况、运行状况、关键成功指示器和质量 | 在 Envision 阶段中定义的情况下报告使用情况、运行状况、KSIs 和质量。 | | [《操作指南》](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290383"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588196"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290383"
 
 Microsoft 手机系统直接路由允许你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。  例如, 利用此功能, 你可以配置与 Microsoft 团队客户端的本地 PSTN 连接, 如下图所示: 
 
-![显示与 Microsoft 团队客户端的本地 PSTN 连接的配置](media/PlanDirectRouting1-PSTNwithTeams.png)
+![显示本地 PSTN 连接配置的图表](media/PlanDirectRouting1-PSTNwithTeams.png "与 Microsoft 团队客户端的本地 PSTN 连接配置")
 
   > [!NOTE]
   > Skype for Business Online 还允许你与客户提供的 SBC 配对, 但这需要一个本地 Skype for business 服务器部署或特殊版本的 Skype for business (称为云连接器), 它位于 SBC 和 Microsoft 云之间。 此方案称为混合语音。 相比之下, 直接路由允许受支持的 SBC 和 Microsoft 云之间的直接连接。 
@@ -89,10 +89,14 @@ Microsoft 还提供了所有云语音解决方案, 例如呼叫计划。  但是
 - Microsoft Teams 
 - Microsoft 音频会议 
 
-将外部参与者添加到计划会议需要使用音频会议许可证, 方法是通过拨出或提供拨入号码。 
- 
-  > [!NOTE]
-  > E5 许可证包括电话系统和音频会议。   
+> [!NOTE]
+> 当您从1:1 通话升级时, 需要音频会议许可证
+
+> [!IMPORTANT]
+>  如果你想要将外部参与者添加到计划会议, 请通过拨出或提供拨入号码来向其添加外部参与者,*需要*音频会议许可证。
+
+> [!NOTE]
+> E5 许可证包括电话系统和音频会议。   
 
 此外, 必须确保以下内容:
  

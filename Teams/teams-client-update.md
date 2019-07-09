@@ -1,5 +1,5 @@
 ---
-title: 团队更新过程
+title: 团队更新
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,35 +14,36 @@ search.appverid: MET150
 description: 了解如何更新团队桌面客户端。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970273"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588180"
 ---
-# <a name="teams-update-process"></a>团队更新过程
+# <a name="teams-update-process"></a>团队更新流程
 
-每周更新团队 web 应用程序。
+每周更新团队 web 应用。
 
-团队桌面客户端发布更新后严格的内部测试和验证每两周通过我们技术应用程序 （点击）。 这通常发生于星期二。 如果需要关键更新，则团队将绕过此计划，并为可用发布更新。
+团队桌面客户端更新在经过我们的技术采纳计划 (点击) 严格内部测试和验证后每两周发布一次。 这通常发生在星期二。 如果需要关键更新, 团队将绕过此计划, 并在更新推出后立即发布更新。
 
-桌面客户端自动更新本身。 团队检查更新后台每隔几小时，将其，下载，然后等待以无提示方式安装更新之前处于空闲状态的计算机。
+桌面客户端会自动更新。 团队会在后台每隔几小时检查一次更新, 下载它, 然后等待计算机处于空闲状态, 然后再进行无提示安装更新。
 
-用户可以通过单击顶部的**配置文件**下拉列表菜单上的**检查更新**手动下载更新应用程序的权限。 如果提供更新，则它将下载并以无提示方式安装在计算机空闲时。
+用户还可以通过在应用的右上角的 "**配置文件**" 下拉菜单上单击 "**检查更新**", 手动下载更新。 如果有可用更新, 则会在计算机空闲时下载并自动安装该更新。
 
-用户需要更新下载登录。
+用户需要登录才能下载更新。 从2019年7月9日开始, 团队客户端更新在更新期间使用显著降低网络带宽。 默认情况下, 此项处于打开状态, 不需要管理员或用户执行任何操作。
 
-## <a name="what-about-updates-to-office-365-proplus"></a>更新 Office 365 ProPlus 呢？
 
-团队是默认安装的新安装的 Office 365 ProPlus[与 Office 365 ProPlus 部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。 
+## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 专业增强版的更新有哪些更新？
 
-团队遵循上述，自己更新过程，并不其他办公室应用程序，例如 Word 和 Excel 的更新过程。
+默认情况下, 团队通过 office 365 专业增强版的全新安装进行安装, 如[使用 office 365 专业增强版部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。 
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>向工作组 VDI 上更新呢？
+团队关注其自己的更新过程 (如上文所述), 而不是其他分支应用 (如 Word 和 Excel) 的更新过程。 若要了解详细信息, 请参阅[Office 365 专业增强版更新频道概述](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-团队客户端上虚拟桌面基础结构 (VDI) 不会自动更新 VDI 团队客户端的方式。 您必须通过向[VDI 上安装的工作组](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)的说明中所述安装新的 MSI 来更新虚拟机映像。 您必须先卸载要更新为新版本的当前版本。
+## <a name="what-about-updates-to-teams-on-vdi"></a>对 VDI 的团队更新有何区别？
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>可以 admins 部署更新而不是团队自动更新？
+虚拟桌面基础结构 (VDI) 上的团队客户端不会自动更新非 VDI 团队客户端的方式。 你必须通过安装新 MSI 来更新 VM 映像, 如在[VDI 上安装团队](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi)的说明中所述。 必须卸载当前版本才能更新到较新版本。
 
-团队不使管理员能够通过任何交付机制部署更新。
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理员是否可以部署更新, 而不是团队自动更新？
+
+团队不会授予管理员通过任何交付机制部署更新的能力。

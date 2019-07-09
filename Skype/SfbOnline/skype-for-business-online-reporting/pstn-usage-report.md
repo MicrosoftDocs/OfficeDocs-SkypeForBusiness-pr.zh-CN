@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息, 包括通话费用, 以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493984"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587913"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -76,7 +76,7 @@ ms.locfileid: "34493984"
      **统一通信应用程序 (UCAP)** 
      *    **ucap_in**(对 UC 应用程序 (如自动助理或呼叫队列) 的入站 PSTN 呼叫 
      *    **ucap_out**(来自 UC 应用程序的出站 PSTN 呼叫, 如自动助理或呼叫队列)
-     *    **注意:** 从 UC 应用程序 (如自动助理或呼叫队列) 转移到用户的呼叫不会显示在 PSTN 使用报告中, 因为这些呼叫条是对等 (P2P) 音频呼叫。 你可以在 "Tools > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫, 并按用户名或 SIP 地址进行搜索, 按日期/时间和/或发起 CLID (呼叫行 ID) 关联呼叫。 
+     *    **注意:** 从 UC 应用程序 (如自动助理或呼叫队列) 转移到用户的呼叫不会显示在 PSTN 使用报告中, 因为这些呼叫条是对等 (P2P) 音频呼叫。 你可以在 "工具 > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫, 并按用户名或 SIP 地址进行搜索, 按日期/时间和/或始发 CLID (呼叫行 ID) 将呼叫关联起来。 
 *     
      "**国内/国际**" 告诉您所拨的电话是否被视为国内 (在国家/地区内) 还是国际 (国家/地区外) 的电话 (基于用户的位置)。 
 *    "**目的地已拨**" 表示拨打的国家/地区目的地的名称, 如法国、德国或美国 (美国)。 
@@ -104,7 +104,7 @@ ms.locfileid: "34493984"
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
-![第三](../images/sfbcallout3.png)<br/>您也可以通过单击或点击 "**导出到 excel** " 按钮, 将报告数据导出到带标签的 excel 文件。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
+![第三](../images/sfbcallout3.png)<br/>您也可以通过单击或点击 "**导出到 excel** " 按钮, 将报告数据导出到带标签的 excel 文件。 您最多可以从当前日期导出一年的数据。<br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

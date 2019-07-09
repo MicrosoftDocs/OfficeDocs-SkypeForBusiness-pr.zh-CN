@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何为团队获取新的、移植或转移现有号码, 以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347921"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588212"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -64,7 +64,7 @@ ms.locfileid: "35347921"
   
 - 如果您需要999或更少的用户电话号码, 则可以在 Microsoft 团队管理中心中使用旧版门户。 按照将[电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)中的步骤将您的电话号码转移到团队。
     
-- 如果需要移植超过999的电话号码, 请参阅[手动提交自定义服务请求](/skypeforbusiness/manually-submit-a-custom-service-request)以提交 "订单订单服务请求" 或 "订单" 以获取所有这些电话号码均已移植到 Office 365。
+- 如果需要移植超过999的电话号码, 请参阅[管理服务管理器中的服务请求](https://docs.microsoft.com/system-center/scsm/service-requests)以提交 "订单订单服务请求" 或 "订单" 以获取所有这些电话号码均已移植到 Office 365。
     
 ## <a name="show-phone-numbers-for-your-organization"></a>显示你的组织的电话号码
 
