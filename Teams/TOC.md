@@ -739,7 +739,7 @@
 ### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
-### [Teams 客户端更新过程](teams-client-update.md)
+### [Teams 客户端更新](teams-client-update.md)
 
 ## 许可
 ### [管理对 Teams 的用户访问](user-access.md)
