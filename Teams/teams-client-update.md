@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解如何更新团队桌面客户端。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588180"
+ms.locfileid: "35602268"
 ---
 # <a name="teams-update-process"></a>团队更新流程
 
@@ -31,7 +31,9 @@ ms.locfileid: "35588180"
 
 用户还可以通过在应用的右上角的 "**配置文件**" 下拉菜单上单击 "**检查更新**", 手动下载更新。 如果有可用更新, 则会在计算机空闲时下载并自动安装该更新。
 
-用户需要登录才能下载更新。 从2019年7月9日开始, 团队客户端更新在更新期间使用显著降低网络带宽。 默认情况下, 此项处于打开状态, 不需要管理员或用户执行任何操作。
+用户需要登录才能下载更新。 
+
+从2019年7月9日开始, 团队客户端更新在更新期间使用显著降低网络带宽。 默认情况下, 此项处于打开状态, 不需要管理员或用户执行任何操作。
 
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 专业增强版的更新有哪些更新？

@@ -1,9 +1,9 @@
 ---
 title: 使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,12 +15,12 @@ MS.collection:
 description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 825fe7e7e80b2653d35c8b0752124b50386395d6
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012971"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602260"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -129,11 +129,11 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>在实时事件中设置脚本和翻译 (即将推出)
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>在实时事件中设置实时字幕和副标题
 > [!NOTE]
 > 此设置仅适用于团队中产生的事件。 
 
-设置全局策略以为事件参与者启用脚本和翻译:
+设置全局策略, 为活动与会者打开实时字幕和副标题 (脚本):
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

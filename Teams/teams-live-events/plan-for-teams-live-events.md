@@ -1,8 +1,9 @@
 ---
 title: 在 Microsoft Teams 中规划实时事件
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013026"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602252"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -51,7 +52,7 @@ ms.locfileid: "35013026"
 - 在流中创建实时事件 (适用于外部应用或设备生产) 的权限。
 
 > [!IMPORTANT]
-> Office 365 来宾、联合和匿名用户不能被邀请为团队实时事件中的生产者或演示者。 Office 365 来宾和联合用户只能以匿名方式观看实时事件。 
+> Office 365 来宾、联合和匿名用户不能被邀请为团队实时事件中的生产者或演示者。 Office 365 来宾和联盟用户只能以匿名方式观看实时事件。 
  
 ## <a name="who-can-watch-live-events"></a>哪些人可以观看实时事件？
 
@@ -59,11 +60,12 @@ ms.locfileid: "35013026"
 |------------------------------|-----------------|----------------------|
 |公共 (匿名用户)      |  是            |  否                  |
 |来宾用户                   |  否<sup>1</sup> |  否                  |
-|联合公司中的每个人 |  否<sup>1</sup> |  否                  |
+|联合公司中的每个人 |  无<sup>2</sup> |  否                  |
 |公司中的每个人           |  是            |  是                 |
 |特定组/人员      |  是            |  是                 |
 
-<sup>1</sup>只能以匿名用户身份观看实时事件。
+如果实时事件是使用**组织范围**选项设置的, 则<sup>1</sup>可以观看实时事件。<br>
+<sup>2</sup>只能以匿名用户身份观看实时事件。
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>团队实况活动和 Skype 会议直播
@@ -89,8 +91,8 @@ ms.locfileid: "35013026"
 |演示 PowerPoint (PPT 共享) |&#x2714; |X (通过屏幕共享缓解) |不适用 |
 |基于云的会议录制 |&#x2714; |&#x2714; |&#x2714; |
 |自动发布录制到流 |X |X |&#x2714; |
-|实时标题和翻译 |&#x2714; |&#x2714; (即将推出) |X |
-|实时事件录制中的标题 |&#x2714; |&#x2714; (即将推出) |&#x2714; |
+|实时字幕和副标题 |&#x2714; |&#x2714; |X |
+|实时事件录制中的标题 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件 (暂停、后退) |&#x2714; |&#x2714; |&#x2714; |
 |合作伙伴 eCDN 支持 |&#x2714; (蜂巢、Kollective、斜坡) |&#x2714; (蜂巢、Kollective、斜坡) |&#x2714; (蜂巢、Kollective、斜坡) |
 |针对生产者的后置广播出席报告 |&#x2714; |&#x2714; |X |
