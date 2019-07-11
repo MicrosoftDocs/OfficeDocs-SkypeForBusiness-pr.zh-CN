@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418214"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614249"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -73,6 +73,7 @@ Microsoft 团队聊天室可以通过附件根据音频和视频外围设备缩�
 |[Logitech 点击 + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|核心 i5|s |128GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|核心 i5|s|128GB|
 |[适用于视频会议室的 Logitech 点击触摸控制器](https://www.logitech.com/en-us/product/tap) |核心 i5  |s  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|核心 i5|s |128GB |
 |||||
 
 > [!NOTE]

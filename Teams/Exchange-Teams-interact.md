@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591652"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614202"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -63,6 +63,9 @@ Microsoft 团队与多个 Office 365 服务协同工作, 为用户提供丰富�
 
 - 若要让 Microsoft 团队使用本地 Exchange, 必须按照在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述配置新的 Exchange OAuth 身份验证协议。
 
+> [!NOTE]
+>对于 Exchange 本地和团队集成, 需要为 AAD 同步用户分配所需的许可证。
+
 ## <a name="additional-considerations"></a>其他注意事项
 
 下面是在组织中实施 Microsoft 团队时要考虑的一些额外事项。
@@ -73,7 +76,7 @@ Microsoft 团队与多个 Office 365 服务协同工作, 为用户提供丰富�
 
 - 如果你的组织具有合规性要求以确保所有会议讨论均可发现, 则应禁用私人会议 (如果组织者具有 Exchange 本地邮箱)。
 
-- 在 Exchange 混合部署中, 无论聊天参与者是否具有基于云的邮箱或本地邮箱, 都可以搜索聊天消息中的内容。 若要了解详细信息, 请阅读[在 Office 365 中搜索本地用户的基于云的邮箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关在团队中搜索内容的信息, 请阅读[Office 365 安全 _AMP_ 合规中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合部署中, 无论聊天参与者是否具有基于云的邮箱或本地邮箱, 都可以搜索聊天消息中的内容。 若要了解详细信息, 请阅读[在 Office 365 中搜索本地用户的基于云的邮箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关在团队中搜索内容的信息, 请阅读[Office 365 安全 & 合规中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 > [!TIP]
 > 有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息, 请参阅[将本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/?linkid=854600)。
