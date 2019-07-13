@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062408"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643128"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -27,6 +27,7 @@ ms.locfileid: "35062408"
 
 | 新版 | 已发布到 <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ ms.locfileid: "35062408"
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+此更新中引入的内容:
+- Skype 会议室系统应用商店应用 rebranding 为 "Microsoft 团队聊天室"
+- Microsoft 团队聊天室控制台用户界面与 Microsoft 团队的协调
+- 主题更新: 将自定义背景图像保留在文件室前面, 在使控制台 UI 控件满足颜色对比度辅助功能要求时显示
+- 适用于团队通话/会议的会议内呼叫控件的通用栏, 用于为 Microsoft 团队 PC/Web/移动客户端提供一致的体验<sup>1</sup>
+- 团队通话/会议<sup>1</sup>之后的通话质量反馈评级
+- 当从 PC/Web/移动团队共享 Whitebord 时, 在 Microsoft 球队的会议室前面接收/呈现 Microsoft<sup></sup><sup></sup>  
+- 已删除对 Windows 10 版本1809的升级支持, 因为 Microsoft 团队聊天室客户端发现了兼容性问题。 将在未来版本中添加 Windows 10 版本19H1 支持
+
+<sup>1</sup> Microsoft 团队使用团队的响铃服务推出。 此功能可在4.0.105.0 客户端更新之前或之后使用
+
+<sup>2</sup>要求 IT 管理员打开 Microsoft 白板 web。 此外, 如果您在房间内显示, 则必须使用 Windows 设置校准多个触摸屏输入, 使用 Windows 设置进行设备管理员登录, 以开始使用 Microsoft 白板进行 collboration 从会议室显示共享到团队会议
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 

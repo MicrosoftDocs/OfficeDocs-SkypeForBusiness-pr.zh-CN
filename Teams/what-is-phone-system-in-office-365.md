@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解手机系统可以为你执行的操作。 '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548953"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643136"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 
@@ -41,9 +41,9 @@ ms.locfileid: "34548953"
   
 - 通过购买适用于 Office 365 的通话计划 (国内或国内和国际)。 查看[电话系统和通话计划](calling-plan-landing-page.md)
     
-- 使用本地 PSTN 连接, 其中的软件在此处与现有的电话基础结构连接。 请参阅[规划您的电话系统](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)。
 
-![描述云 PBX 产品的图表](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- 使用本地 PSTN 连接, 其中的软件在此处与现有的电话基础结构连接。 请参阅[Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+
 
 ## <a name="more-about-calling-plans"></a>有关通话计划的详细信息
 

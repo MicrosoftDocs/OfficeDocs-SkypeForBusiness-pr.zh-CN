@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '摘要: 了解如何将 Skype for business 服务器与 Skype 消费者连接。 也称为 Skype 连接。'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302829"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643176"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 Skype 连接
- 
+
 **摘要:** 了解如何将 Skype for business 服务器与 Skype 消费者连接。 也称为 Skype 连接。
   
 本文介绍了 Skype 连接的部署。
@@ -96,49 +96,48 @@ Skype for business 服务器使用联盟访问体系结构来支持与 Skype 的
 > [!NOTE]
 > 如果 Skype for Business Server 已配置为通过使用公共即时消息连接 (PIC) 连接 Windows Messenger，则您的部署已配置好了 Skype 连接。您可能希望作出的唯一更改是将您的现有 Messenger PIC 条目重命名为 Skype。 
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>从 Skype for Business 服务器访问 Skype for Business Server 公共 IM 连接设置网站
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Skype for Business 服务器公共 IM 连接设置网站已不再可用
 
-此设置过程最多需要 30 天才能完成，但也可能仅花费几天时间，具体取决于请求量。建议您在完成文档中的其余步骤之前先开始此过程。在为您的帐户完成 Skype 设置过程后，该帐户将被激活，并且将为符合资格的用户启用公共 IM 连接。 
+以前用于手动设置 Skype for Business 内部部署和 Skype 之间的联盟的网站不再需要, 并且将在8/15/2019 上关闭。 使用 Skype 的联盟现在利用联盟合作伙伴发现, 这与与 Skype for business Online 联盟所需的机制相同。
+
+任何本地 Skype for Business 部署和 Skype 用户之间通过现有公共 IM 基础结构进行通信现在需要内部部署边缘服务器配置才能与 Skype for Business Online 兼容。
+
+> [!NOTE]
+> 大多数客户不需要执行任何操作, 包括与 Skype for Business Online 联合的所有部署。
   
-要设置 Skype 连接，您需要以下信息：
-  
-- Microsoft 协议编号
-    
-- 访问边缘服务完全限定的域名 (FQDN)
-    
-- 会话初始协议 (SIP) 域
-    
-- 任何其他访问边缘服务 FQDN
-    
-- 联系信息
-    
-要启动 Skype 连接的设置过程，请执行下列操作：
-  
-1. 使用您的 Microsoft Windows Live https://pic.lync.comID 登录到网站。
-    
-2. 选择 Microsoft 许可协议类型。
-    
-3. 选中复选框，确保您已阅读并接受 Skype for Business Server 的产品使用权利。
-    
-4. 在“启动设置请求”页面上，单击合适的链接以启动设置请求：
-    
-5. 在“指定设置信息”页面上，输入访问边缘服务 FQDN。 例如，sip.contoso.com。
-    
-    > [!IMPORTANT]
-    > 2017 年 7 月 1 日后，Microsoft 会另外要求客户部署联盟 DNS SRV 记录，以使公共 IM 连接继续有效。 
-  
-6. 输入至少一个或多个 SIP 域名，然后单击“添加”。
-    
-    > [!NOTE]
-    > 需要至少一个访问边缘服务器才能完成设置过程。虽然单个访问边缘 FQDN 可支持多个 SIP 域，但是单个 SIP 域不能由多个访问边缘 FQDN 来表示。SIP 域和访问边缘服务器必须处于活动状态、正在运行，并且在网络上可访问。 
-  
-7. 在“公共 IM 服务提供商”列表中，选择“Skype”，然后单击“下一步”以添加联系信息并提交设置请求。
-    
-在提交设置请求之后，可能需要多达 30 天帐户才能激活并且才能为用户启用 Skype 连接，但此过程也可能只需耗费几天时间，具体取决于队列。
-  
+要为其托管的每个域发布联合身份验证 DNS SRV 记录, 需要内部部署。 指南在[DNS 规划](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)中可用。 每个域必须由 DNS SRV 查询解析为满足域的顶级后缀匹配的边缘服务器 FQDN。 例如, 请考虑域 "contoso.com":
+
+|**有效 Fqdn**|**注释**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |在每种情况下, 确切的 FQDN 都必须存在于安装在边缘服务器上的外部证书的 SN 或 SAN 中。   |
+|access.contoso.com   ||
+|**无效 Fqdn**|**原因**|
+|sip.contoso-edge.com   |不匹配后缀。  |
+|sip.it.contoso.com   |不是最高级别后缀匹配项。   |
+
+有关外部证书的进一步指导可在[证书规划](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)中找到。
+
+#### <a name="faqs"></a>常见问题
+
+**为什么正在关闭预配网站？**
+在2006中部署的公共 IM (PIC) 设置机制 (pic.lync.com) 将不再维修, 并且将在8/15/2019 上关闭。 相反, 公共 IM 联盟将采用 Skype for Business Online (称为 "合作伙伴发现") 所使用的相同联盟模型, 因此内部部署部署可通过其联合 DNS SRV 记录公开发现。
+
+**此更改是否意味着已弃用公共 IM 联合身份验证？**
+不能。 公共 IM 联盟将继续支持许多年, 直到 Skype for Business 内部部署产品达到寿命结束。
+
+**我们的公司与 Skype for Business Online 有混合关系 (共享地址空间), 我们受到影响？**
+不能, 因为您已经与 Skype for Business Online 联盟, 所以此更改不会影响您。
+ 
+**此更改意味着我们的公司必须启用与 Skype for Business Online 的联盟？**
+不能。 如果你的 edge 服务器代理设置未启用与 Skype for Business Online 托管提供商 (sipfed.online.lync.com) 的联盟, 此更改将不会影响。 但是, 用于与 Skype for Business Online 进行联盟的相同 DNS 和证书要求现在也适用于与 Skype 用户联盟。
+ 
+**我们的公司规模较大, 因此不能更改其边缘配置, 因为管理法规/合规性或等理由我们可以执行哪些操作？**
+任何不能根据指定更改其边缘服务器配置的本地组织都应尽早联系产品支持人员。
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>启用联盟和公共 IM 连接 (PIC)
 
-提交设置请求后，您可以将注意力放在 Skype for Business Server 环境和配置 Skype 连接所需的管理任务上。在此部分，我们假定管理员已部署了 Skype for Business Server 并配置了外部访问（即边缘服务器）。 
+现在重点介绍 Skype for Business 服务器环境和配置 Skype 连接所需的管理任务。 在此部分，我们假定管理员已部署了 Skype for Business Server 并配置了外部访问（即边缘服务器）。 
   
 要启用联盟和 PIC，需要执行三个主要步骤。包括：
   
@@ -153,7 +152,7 @@ Skype for business 服务器使用联盟访问体系结构来支持与 Skype 的
 需要联盟，Skype 用户才能与您的组织中的 Skype for Business 用户进行通信。公共即时消息连接 (PIC) 是一种联盟类别，必须配置它，您的 Skype for Business 用户才能够与 Skype 用户进行通信。联盟和 PIC 可使用 Skype for Business Server 控制面板进行配置。
   
 > [!NOTE]
-> Live Communication Server 2005 SP1 或 Office Communications Server 2007 不再支持 PIC 联盟。 PIC 联盟支持的平台包括 Skype for business Server、Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2。 
+> Lync Server 2010 (实时通信服务器、Office 通信服务器) 之前的产品版本不再支持 PIC 联盟。 PIC 联盟支持的平台包括 Skype for Business Server、Lync Server 2013 和 Lync Server 2010。 
   
 需要联盟，Skype 用户才能与您的组织中的 Skype for Business 用户进行通信。公共即时消息连接 (PIC) 是一种联盟类别，必须配置它，您的 Skype for Business Server 用户才能够与 Skype 用户进行通信。联盟和 PIC 可使用 Skype for Business Server 控制面板的边缘配置对话框进行配置，如图所示。
   

@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理外部访问权限（联合身份验证）
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/19/2019
+ms.date: 07/12/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -11,24 +11,27 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
+f1keywords:
+- ms.teamsadmincenter.externalaccess.overview
 description: IT 管理员可以为其他域 (联盟) 配置外部访问以允许这些域中的用户参与团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+localization_priority: Normal
+ms.openlocfilehash: 706e4641824808cfea493f87a4d0c4b859a43369
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221270"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643146"
 ---
-<a name="manage-external-access-federation-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问权限（联合身份验证）
+<a name="manage-external-access-in-microsoft-teams"></a>管理 Microsoft 团队中的外部访问
 ======================================================
 
-通过 Microsoft 团队外部访问, 其他域中的用户可以参与您的聊天和通话。 您还可以允许仍在使用 Skype for Business Online 或 Skype for business 本地的外部用户参与。
+使用 Microsoft 团队外部访问, 其他域中的团队用户可以参与您的聊天和通话。 你还可以允许仍在使用 Skype for Business Online 的 othe 外部用户、本地的 Skype for business 或甚至 Skype for business 参与。
 
 在下列情况下，请按照本文的步骤进行操作：
   
-- 您的企业中有不同域的用户: 例如, Rob@ContosoEast.com 和 Ann@ContosoWest.com。
+- 您的企业中有不同域的用户: 例如, Rob@contoso.com 和 Ann@northwindtraders.com。
 
 - 您希望组织中的人员可以使用团队与组织外部的特定企业中的人员联系。
 
@@ -37,7 +40,7 @@ ms.locfileid: "35221270"
 外部访问允许外部用户查找、呼叫和发送即时消息, 以及设置会议。 但是, 如果希望外部用户有权访问团队和频道, 来宾访问可能是更好的途径。 有关外部访问和来宾访问之间的区别的详细信息, 请参阅下面的[外部访问与来宾访问](#external-access-vs-guest-access)。 若要启用来宾访问, 请参阅[启用来宾访问](set-up-guests.md), 以便用户可以进行通信。
 
 > [!IMPORTANT]
-> 当前, 若要将 Microsoft 团队客户端中的外部用户与你的组织外部的外部用户 (当前不是 Azure Active Directory (Azure AD) 或租户的来宾) 联合, 则必须为混合正确设置, 并将其移动到 Skype for business Online。 从2/25/2019 起, 团队不支持不带 SIP 档案用户在 Skype for business Online 中托管的本机联合身份验证。 有关设置混合帐户和迁移到团队的详细信息, 请参阅将[Skype For business 混合部署升级到团队](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
+> 当前, 若要将 Microsoft 团队应用内的外部用户联合到你的组织外部的外部用户 (当前不是 Azure Active Directory (Azure AD) 或租户的来宾), 你必须为混合正确设置, 并将其移动到 Skype for business Online。 从2/25/2019 起, 团队不支持不带 SIP 档案用户在 Skype for business Online 中托管的本机联合身份验证。 有关设置混合帐户和迁移到团队的详细信息, 请参阅将[Skype For business 混合部署升级到团队](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
 
 ## <a name="external-access-vs-guest-access"></a>外部访问与来宾访问
 
@@ -80,8 +83,27 @@ ms.locfileid: "35221270"
 <sup>2</sup>仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup>仅限1:1 的外部 (联合) 聊天。
 
-> [!NOTE]
-> 有关来宾功能和来宾体验的详细信息, 请参阅[打开或关闭来宾对 Microsoft 团队的访问权限](https://docs.microsoft.com/microsoftteams/set-up-guests)和[来宾体验等](https://docs.microsoft.com/microsoftteams/guest-experience)。
+有关来宾功能和来宾体验的详细信息, 请参阅[打开或关闭来宾对 Microsoft 团队的访问权限](https://docs.microsoft.com/microsoftteams/set-up-guests)和[来宾体验等](https://docs.microsoft.com/microsoftteams/guest-experience)。
+
+有关团队的免费版本以及它如何处理在外部 Access 中找到的功能的详细信息, 请参阅[Microsoft 团队和 Microsoft 团队之间的差异免费](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US)。
+
+## <a name="quick-steps-for-scenarios"></a>方案的快速步骤
+
+|**您需要 .。。**  |**快速步骤**  |
+|---------|-----------------------|
+|你希望让你的组织中的**团队用户**与另一个 (外部) 组织中的**团队用户**通信。|在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。 <p>然后让其他团队组织中的管理员执行相同操作。      |
+|您希望让您的组织中的**团队用户**与同一组织中的**Skype for business Online 用户**通信。  |启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。   |
+|你希望让你的组织中的**团队用户**与另一个 (外部) 组织中的**Skype for business Online 用户**通信。      |在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。  <p>打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。 <p>然后让其他团队组织中的管理员执行相同操作。 <p>**注意**: 具有 Skype for business 用户的外部域必须启用共存模式, 或者选择 "孤岛" 升级模式以支持该组织中的 Skype for business 用户。|
+|您希望让您的组织中的**团队用户**与您的组织内部或外部的**Skype**用户进行通信。   | 目前不支持的方案。 <p>**重要提示**: 你的团队用户无法与 Skype 用户通信, 但你的组织中的 Skype for business 用户可以与组织内部或外部的 skype 用户进行通信, 前提是满足这两项要求: <p>1) 打开**用户可以与 skype For business 和团队用户通信**, 并且**skype for business 用户可以与外部 Access 中的 skype 用户设置通信**。 <p> 2) 你的组织正在共存模式下运行。 |
+|您希望让**团队用户**与**Skype for business Online 用户**通过本地组织和**skype 用户**与 skype for business Online 用户进行通信。   |在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。 . <p>打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。 <p>打开 Skype for business 用户可以在外部访问中**与 skype 用户进行通信**。 <p> 然后让本地组织中的管理员执行相同操作。<p>**重要提示**在此方案中, 你的团队用户无法与 Skype 用户通信, 但你的组织中的 Skype for business 用户可以与你的组织内部或外部的 Skype 用户通信 (如果你打开**用户可以与 skype For business 通信)和团队用户**和**Skype for business 用户可以与外部 Access 中的 skype 用户设置进行通信**。|
+|您希望让**Skype For Business Online 用户**与其他 Office 365 组织中的**团队用户**进行通信。|启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。 <p>在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。  <p> 打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。 <p>然后让其他团队组织中的管理员执行相同操作。 |
+|您希望让**skype For Business online 用户**与其他 Office 365 组织中的**Skype for business online 用户**进行通信。    | 启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。 <p>在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。 <p> 打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。<p>然后让其他团队组织中的管理员执行所有相同操作。 |
+|您希望让**skype For Business online 用户**与本地组织中的**Skype for business online 用户**进行通信。     |启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。 <p>在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。  <p>打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。  <p> 然后让本地组织中的管理员执行相同操作。 |
+|您希望让**skype For Business Online 用户**与**skype 用户**(在您的组织内部或外部) 进行通信。   |启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。 <p>打开**skype For business 用户可以在外部访问中与 skype 用户进行通信**。         |
+|您希望让**skype For Business online 用户**与其他组织中的**Skype for business online 用户**和您的组织内部或外部的**skype 用户**进行通信。    |启用共存模式或选择 "孤岛" 升级模式以支持组织中的 Skype for business 用户。 <p>在 "外部访问" 中, 将外部域添加到 "允许列表" 或 "使用开放联盟"。  <p> 打开**用户可与 skype For business 和团队用户通信**, 并且**skype for business 用户可以在外部访问中与 skype 用户进行通信**。 <p>然后让其他团队组织中的管理员执行相同操作。       <p> **注意**: 其他外部域的管理员无需打开 skype for business 用户可以在外部访问中**与 skype 用户进行通信**。|
+
+> [!IMPORTANT]
+> 您不必将任何 **"Skype 域"** 添加为 "允许的域", 使团队或 Skype For business Online 用户能够与组织内部或外部的 skype 用户进行通信。 所有**Skype 域**均为白名单, 这意味着所有这些域均被视为允许。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-organization"></a>让你的团队用户与其他组织中的用户进行聊天和通信
 
@@ -99,7 +121,7 @@ ms.locfileid: "35221270"
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>步骤 1-使你的组织能够与另一个团队组织通信
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![](media/teams-logo-30x30.png)**使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标  
 
 1. 在左侧导航中, 转到 "**组织范围的设置** > **外部访问**"。
 
@@ -148,6 +170,6 @@ ms.locfileid: "35221270"
 
 4. 在 "已**阻止或允许**的**+** 域" 下, 选择, 然后添加要允许的域的名称。
 
-## <a name="more-information"></a>详细信息
+## <a name="related-topics"></a>相关主题
 
 有关 Microsoft 团队中的来宾访问的信息, 请参阅[管理 Microsoft 团队中的来宾访问](manage-guests.md)。

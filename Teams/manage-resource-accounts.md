@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 4dcb9327efba7be70628ad71a90734940fc3317e
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394497"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643168"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -38,13 +38,17 @@ ms.locfileid: "35394497"
 
 如果您的电话系统服务需要服务号码, 则可以按以下顺序满足各种相关性:
 
-1. 获取服务号码
-2. 购买电话系统许可证 (已添加手机系统的 Office 365 企业版 E1 或 E3, 或包含电话系统的 Office 365 企业版 E5)
-3. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
-4. 将电话系统许可证分配给资源帐户。
-5. 为资源帐户分配一个电话号码。
-6. 创建电话系统服务 (呼叫队列或自动助理)
-7. 将资源帐户与服务关联: (CsApplicationInstanceAssociation)
+1. 获取服务号码。
+2. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
+3. 获取电话系统或电话系统虚拟用户许可证。
+4. 购买国内或国际通话计划。
+5. 将电话系统或电话系统虚拟用户许可证分配给资源帐户。
+6. 将呼叫计划许可证分配给资源帐户。
+7. 为资源帐户分配通讯信用许可证。
+8. 为你的组织设置通信信用点数并设置自动重新充电。
+9. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
+10. 创建电话系统服务 (呼叫队列或自动助理)。
+11. 将资源帐户与服务链接。
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下方, 并且如果你希望将多个点输入到自动助理的结构中并调用队列, 则关联的资源帐户仅需要电话号码。
 
@@ -64,18 +68,20 @@ ms.locfileid: "35394497"
 
    将电话号码分配给资源帐户之前, 您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后, 这些电话号码将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中, 并且列出的**号码类型**将按**服务免费**列出。 若要获取你的服务号码, 请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码, 请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
 
-2. 购买电话系统许可证。 参阅  
-   - [Office 365 企业版（E1 和 E3）](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Office 365 企业版 E5 商业版软件](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   如果您要为资源帐户分配电话号码, 您现在可以使用免费的电话系统虚拟用户许可证。 这将为组织级别的电话号码提供电话系统功能, 并允许你创建自动助理和呼叫队列功能。
 
-3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
-4. 将电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
-5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
-6. 设置下列内容之一:
+2. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
+3. 获取电话系统或电话系统虚拟用户许可证。 从 Microsoft 365 管理中心, 转到 "**计费** > **购买服务** > **附加订阅**", 然后滚动到 "结束"-您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。
+4. 购买国内或国际[通话计划](calling-plans-for-office-365.md)。
+5. 将电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+6. 将呼叫计划许可证分配给资源帐户。 有关详细信息, 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+7. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
+8. 为你的组织设置通信信用点数并设置自动重新充电。 为资源帐户[分配通讯信用许可证](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users)。
+9. [将服务电话号码分配](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge)给您刚向其分配许可证的资源帐户。 
+10. 设置下列内容之一:
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
-7. 将资源帐户分配给服务。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+11. 将资源帐户链接到自动助理或呼叫队列。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>创建不带电话号码的资源帐户
 
@@ -89,7 +95,7 @@ ms.locfileid: "35394497"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
 
-购买电话系统许可证和呼叫计划之后, 使用 Microsoft 团队管理中心, 导航到**组织范围的设置** > **资源帐户**。
+购买电话系统许可证后, 使用 Microsoft 团队管理中心导航到**组织范围的设置** > **资源帐户**。
 
 !["资源帐户" 页面的屏幕截图](media/r-a-master.png)
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588172"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643160"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -224,7 +224,8 @@ Before you can create and set up your call queues, you will need to get or trans
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-若要创建新的自动助理, 请在 Skype for business 管理中心中, 单击 "**呼叫路由** > **自动助理**", 单击 "**添加新**", 然后按照**步骤 2**中的每个页面上[设置云自动助理的说明进行操作。](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+若要创建新的自动助理, 请在 Skype for business 管理中心中, 单击 "**呼叫路由** > **自动助理**", 单击 "**添加新**", 然后按照创建云自动助理的**步骤 2**中的每个页面上的说明进行操作。 [](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+
 
 **有关云自动助理的更多详细信息, 请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。**
 

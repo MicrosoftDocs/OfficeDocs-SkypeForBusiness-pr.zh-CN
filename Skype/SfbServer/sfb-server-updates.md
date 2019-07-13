@@ -10,19 +10,26 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 在同一位置查找并管理 Skype for Business Server 2015 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
+ms.openlocfilehash: dcc267be9c7a77ea0a472941ff298d993c08ae7c
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221856"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638579"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
-在一个位置查找和管理[Skype for Business Server 2015](#skype-for-business-server-2015-update-history)、 [lync Server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
+在一个位置查找和管理[skype for Business server 2019](#skype-for-business-server-2019-update-history)、 [Skype for business server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
 
 有关最新的 Skype for Business Online 和 Office 365 更新, 请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+
+## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新历史记录
+
+|软件包名称|KB 编号|发布日期|
+|:--- |:--- |:--- |
+|Skype for Business Server 2019 累积更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
+| | | |
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新历史记录
 
