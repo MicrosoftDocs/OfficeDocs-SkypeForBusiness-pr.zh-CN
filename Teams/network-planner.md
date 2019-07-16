@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214820"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701564"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 Planner
 
@@ -36,6 +36,8 @@ ms.locfileid: "35214820"
     > 根据团队最佳使用方案和典型使用模式中的数据开发了推荐的角色。 但是, 除了三个推荐的角色外, 你还可以创建最多三个自定义角色。
 
 - 生成报表并计算团队使用情况的带宽要求。
+
+若要使用网络 Planner, 您必须是全局管理员、团队服务管理员或团队通信管理员。
 
 ## <a name="create-a-custom-persona"></a>创建自定义角色
 
@@ -95,3 +97,7 @@ ms.locfileid: "35214820"
     - 其他视图将显示具有建议的整体带宽需求。
 
 4. 单击“**保存**”。 报表将在 "报表" 列表中提供, 供以后查看。
+
+## <a name="example-scenario"></a>示例方案
+
+有关如何使用网络计划程序设置网络计划并使用这些步骤生成报表的示例, 请下载[网络 Planner 的操作方法 PowerPoint 幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)(仅限英语版)。

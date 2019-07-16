@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下载、安装, 然后使用 Windows PowerShell 5.1 创建连接到 Skype for Business Online 的远程 PowerShell 会话。
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285111"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701549"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下载并安装 Windows PowerShell 5。1
 
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> 运行上述命令时, 你可能会收到以下错误消息: > *Set-set-executionpolicy:\\Access 注册表 key'HKEY_LOCAL_MACHINE 软件\\Microsoft\\PowerShell\\1 ShellIds\\\\"Micrsoft" 被拒绝。* 如果你未在 "管理员凭据" 下运行 PowerShell, 通常会出现此错误消息。 关闭 PowerShell 会话, 并以管理员身份启动新会话。
+> 运行上述命令时, 你可能会收到以下错误消息: > *Set-set-executionpolicy:\\访问注册表 key'HKEY_LOCAL_MACHINE 软件\\Microsoft\\PowerShell\\1 ShellIds\\\\"Micrsoft" 被拒绝。* 如果你未在 "管理员凭据" 下运行 PowerShell, 通常会出现此错误消息。 关闭 PowerShell 会话, 并以管理员身份启动新会话。
  
 若要验证是否已正确配置执行策略, 请在 PowerShell 提示符处键入以下内容, 然后按 ENTER:
   
@@ -93,7 +93,7 @@ Get-ExecutionPolicy
 
 如果不确定运行的是哪个版本的 Windows, 或者不确定是否已安装 Windows 7 Service Pack 1, 请单击 "**开始**", 右键单击 "**计算机**", 然后单击 "**属性**"。 此信息将在 "系统" 对话框中报告。
   
-若要安装 Windows Management Framework 5.1, 请完成[安装和配置 WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)中的过程
+若要安装 Windows Management Framework 5.1, 请完成[安装和配置 WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure)中的过程。
   
 重新启动计算机后, 请验证 Windows PowerShell 是否可以启动, 并且该应用程序可以在 "管理凭据" 下运行。 为此, 请执行以下操作:
   
