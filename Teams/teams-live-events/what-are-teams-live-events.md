@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 实时事件是什么？
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ description: 了解实时事件如何使用户能够将视频和内容广播到�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
+ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420049"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756919"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -29,9 +29,9 @@ ms.locfileid: "35420049"
 
 Microsoft 365 实时事件将实时视频流转到新的级别, 在整个服务生命周期中与与会者在实时事件之前、期间和之后鼓励其连接。 你可以使用 Microsoft Stream、团队或 Yammer 在你的受众、团队或社区所驻留的任何位置创建实时事件。  
 
-团队提供基于聊天的协作、通话、会议和实时事件, 因此您可以展开您的会议的受众。 团队活动事件是团队会议的扩展, 使用户能够将视频和会议内容广播给较大的联机受众。 这些内容适用于一对多通信, 其中事件的主机在移动时主要是查看由主机共享的内容。 与会者可以在 Yammer、团队和/或流中观看实时或录制的事件, 并且可以使用 & 或 Yammer 对话中的 "审核" 问答与演示者交互。 
+团队提供基于聊天的协作、通话、会议和实时事件, 因此您可以展开您的会议的受众。 团队活动事件是团队会议的扩展, 使用户能够将视频和会议内容广播给较大的联机受众。 这些内容适用于一对多通信, 其中事件的主机在移动时主要是查看由主机共享的内容。 与会者可以在 Yammer、团队和/或流中观看实时或录制的事件, 并且可以使用 & 或 Yammer 对话中的 "审核" 问答与演示者交互。
 
-团队活动事件被视为下一版本的 Skype 会议直播, 最终将替换 Skype 会议直播中提供的功能。 在此情况下, Microsoft 将继续为在其组织中使用 Skype for Business 的用户继续支持 Skype 会议直播, 而不会中断新事件或将来事件的服务。 但是, 我们鼓励你尝试使用团队实时事件来利用所有全新的激动人心的功能, 包括屏幕共享和对外部硬件/软件编码器的支持。 
+团队活动事件被视为下一版本的 Skype 会议直播, 最终将替换 Skype 会议直播中提供的功能。 在此情况下, Microsoft 将继续为在其组织中使用 Skype for Business 的用户继续支持 Skype 会议直播, 而不会中断新事件或将来事件的服务。 但是, 我们鼓励你尝试使用团队实时事件来利用所有全新的激动人心的功能, 包括屏幕共享和对外部硬件/软件编码器的支持。
 
 因此, 让我们开始吧。 首先, 看看下图显示了 Microsoft 365 实时事件中涉及的高级组件以及它们的连接方式。 
 
@@ -42,6 +42,9 @@ Microsoft 365 实时事件将实时视频流转到新的级别, 在整个服务�
 
 ## <a name="key-components"></a>关键组件
 您可以从上面的图片中看到, 有四个关键组件与团队中的实时事件一起使用。
+
+> [!NOTE]
+> 有关如何设置实时事件和与会者体验的概述, 请查看这些简短[视频](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
 
 ### <a name="scheduling"></a>级
 团队使组织者能够使用相应的与会者权限创建事件、指定事件团队成员、选择生产方法和邀请与会者。 如果实时事件是从 Yammer 组内创建的, 则实时事件参与者将能够使用 Yammer 对话与事件中的人员交互。 
