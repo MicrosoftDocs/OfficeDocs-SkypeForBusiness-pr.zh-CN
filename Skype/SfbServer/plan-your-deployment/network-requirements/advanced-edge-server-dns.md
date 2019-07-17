@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '摘要: 查看 Skype for business 服务器部署选项的方案。 无论您是需要单个服务器, 还是希望使用 DNS 或 HLB 的服务器池, 本主题都应有所帮助。'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297069"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758940"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server 的高级边缘服务器 DNS 规划
  
@@ -112,7 +112,7 @@ Skype for business 客户端与以前版本的 Lync 客户端类似于他们在 
     
 - 您的外围网络中的所有 Skype for Business 服务器内部边缘接口都使用此内部 DNS 区域将查询解析到 contoso.com。
     
-- 运行 Skype for Business 的所有服务器均可用于企业网络中运行 Skype for business 服务器的客户端, 指向内部 DNS 服务器以将查询解析到 contoso.com, 或者使用每台边缘服务器上的主机文件和列表 A 和 AAAA (如果使用的是IPv6 寻址) 下一个跃点服务器 (专用于 Director 或 Director pool VIP、前端池 VIP 或标准版服务器) 的记录。
+- 运行 Skype for Business 服务器的所有服务器以及运行企业网络中 Skype for business 服务器的客户端, 指向内部 DNS 服务器以将查询解析到 contoso.com, 或者使用每台边缘服务器上的主机文件和列表 A 和 AAAA (如果使用的是IPv6 寻址) 下一个跃点服务器 (专用于 Director 或 Director pool VIP、前端池 VIP 或标准版服务器) 的记录。
     
 ### <a name="external-dns"></a>外部 DNS
 

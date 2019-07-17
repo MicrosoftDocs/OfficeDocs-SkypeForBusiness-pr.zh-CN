@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解从 Skype for Business Online 和团队配置角度迁移到直接路由需要做什么。
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290420"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759005"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
@@ -72,7 +72,7 @@ OnPremLineURI |不适用|电话号码必须从本地广告同步。 |可以在�
 - [CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-建议你删除 previouslycconfigured 授权计划信息, 如下所示:
+建议你删除以前配置的授权计划信息, 如下所示:
  
 ```
 $companyname = “contoso” 

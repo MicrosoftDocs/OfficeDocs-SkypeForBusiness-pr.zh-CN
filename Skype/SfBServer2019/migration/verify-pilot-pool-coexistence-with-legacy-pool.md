@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 用于验证与旧版池共存的引导池的过程。
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280651"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758902"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>验证试点池与旧池的共存情况
 
@@ -65,7 +65,7 @@ ms.locfileid: "34280651"
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>不要尝试在旧版拓扑生成器中打开拓扑
 <a name="sectionSection2"> </a>
 
-如果尝试使用旧版拓扑生成器打开拓扑, 则会遇到以下错误。 拓扑仅可使用 Skype for Business Server 2019 拓扑生成器查看。 必须使用 Skype for business Server 2019 拓扑生成器为 Skype for business Server 2019 和旧式安装创建池。
+拓扑仅可使用 Skype for Business Server 2019 拓扑生成器查看。 必须使用 Skype for business Server 2019 拓扑生成器为 Skype for business Server 2019 和旧式安装创建池。
 
   
 

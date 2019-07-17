@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '摘要: 准备本主题的 Skype for business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议均可用于帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134259"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758947"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ ms.locfileid: "35134259"
 如果它不在此列表中, 它将无法正常工作, 请不要尝试安装 Skype for business Server 2015 的新安装。
   
 > [!NOTE]
-> 你可能已注意到 Windows Server 2008 R2 不在此列表中。 这是因为我们建议将所有新服务器的 Windows Server 2012 R2 用于 SFB。 只有安装了安装了 Lync Server 2013 的现有服务器, 并且你想要执行它们的就地升级时, 才应使用 Windows Server 2008 R2。 Windows Server 2008 R2 已达到1/13/2015 上主流支持生命周期的结尾。 
+> 你可能已注意到 Windows Server 2008 R2 不在此列表中。 这是因为我们建议将所有新服务器的 Windows Server 2012 R2 用于 SFB。 只有安装了安装了 Lync Server 2013 的现有服务器, 并且你想要执行它们的就地升级时, 才应使用 Windows Server 2008 R2。 Windows Server 2008 R2 已达到1/13/2015 的主流支持生命周期结束时间, 将在1/14/2020 的支持生命周期结束。
   
 除了最新的 Service Pack 外，您还应确保在相关的地方安装以下更新：
   
