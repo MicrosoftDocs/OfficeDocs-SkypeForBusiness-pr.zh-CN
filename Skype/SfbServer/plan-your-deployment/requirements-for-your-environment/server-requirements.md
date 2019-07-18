@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '摘要: 准备本主题的 Skype for business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议均可用于帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 34e00f3b53dbec6699b7cc5980f7c608cf5e883b
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758947"
+ms.locfileid: "35768045"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -88,6 +88,7 @@ ms.locfileid: "35758947"
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>将与 Skype for Business Server 2015 配合工作的后端数据库
 <a name="DBs"> </a>
 
+
 安装 Skype for Business Server 2015 标准版时, 将同时自动安装 SQL Server 2014 Express (64 位)。
   
 Skype for Business Server 2015 企业版的版本稍有复杂, 但受支持的列表如下所示 (所有内容都是64位版本, 你会注意到, 请不要使用32位版本):
@@ -99,8 +100,9 @@ Skype for Business Server 2015 企业版的版本稍有复杂, 但受支持的�
    
 如果在此处看不到要使用的 SQL Server 版本, 则无法使用它。
   
-> [!NOTE]
-> 你还需要为监视服务器角色安装 SQL Server Reporting Services。
+- 你还需要为监视服务器角色安装 SQL Server Reporting Services。
+- 对于连接良好的 SQL 后端, 与 Skype for business 前端的连接应该是本地的, 而不是通过低速链接。 
+- 不支持在两个或多个池之间共享 SQL 后端。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 存储
 Meeting content files, such as PowerPoint presentations, are archived as attachments. 如果要将 Skype for Business 存档数据与 Exchange 合规性数据一起存储, 则必须将 Exchange 用于 Exchange 部署, 并确保最大存储空间支持存储会议内容文件。 必须先部署 Exchange, 然后才能使用 Microsoft Exchange 集成选项部署和启用存档。 

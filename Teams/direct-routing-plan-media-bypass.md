@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394576"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768169"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -234,7 +234,7 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒体处理器的要求
 
-媒体处理器始终位于语音应用程序的媒体路径中。 要求与非绕过配置相同。
+媒体处理者始终位于语音应用程序和 Web cleints 的媒体路径中 (对于 exampe, 团队 cleint 为 Edge 或 Google Chrome)。 要求与非绕过配置相同。
 
 
 媒体流量的 IP 范围是 52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)。
@@ -282,9 +282,9 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒体绕过支持的客户端终结点
 
-除团队 Web 客户端外的其他通知外, 所有团队终结点都支持媒体绕过。 
+所有团队终结点都支持媒体绕过。
 
-如果你的用户喜欢 Microsoft Edge 中的 "团队" Web 应用、Google Chrome 或 Mozilla Firefox, 则此类用户的媒体旁路必须处于关闭状态。 我们将在将来使用已启用媒体旁路的主干进行呼叫。   
+注意对于 webcleints (Microsoft Edge 中的 "团队" Web 应用、Google Chrome 或 Mozilla Firefox), 我们会将调用转换为非绕过, 即使它是绕过调用就开始。 这会自动发生, 不需要管理员执行任何操作。 
  
 ## <a name="see-also"></a>另请参阅
 

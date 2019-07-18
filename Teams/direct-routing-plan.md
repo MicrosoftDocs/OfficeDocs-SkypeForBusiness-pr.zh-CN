@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588196"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768161"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -89,14 +89,15 @@ Microsoft 还提供了所有云语音解决方案, 例如呼叫计划。  但是
 - Microsoft Teams 
 - Microsoft 音频会议 
 
-> [!NOTE]
-> 当您从1:1 通话升级时, 需要音频会议许可证
 
 > [!IMPORTANT]
 >  如果你想要将外部参与者添加到计划会议, 请通过拨出或提供拨入号码来向其添加外部参与者,*需要*音频会议许可证。
 
 > [!NOTE]
-> E5 许可证包括电话系统和音频会议。   
+> *需要*音频会议许可证才能执行以下操作:
+> - 从1:1 调用升级到组呼叫。
+> - 将外部参与者添加到计划会议, 方法是拨出或提供拨入号码。 
+
 
 此外, 必须确保以下内容:
  

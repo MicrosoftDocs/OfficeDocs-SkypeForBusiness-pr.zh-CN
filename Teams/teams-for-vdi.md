@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e88a5fb4e8522a94389e3bad24ddc3da8283a53
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 132bd532ae8f7da98edb38a81363b4d5b6501532
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588140"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768145"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -215,7 +215,7 @@ ms.locfileid: "35588140"
 
 - **加入由其他用户创建的呼叫和会议**: 虽然这些策略限制用户创建会议, 但如果其他用户通过会议拨出, 他们仍可以加入会议。 在这些会议中, 用户共享视频的能力, 使用白板和其他功能取决于是否使用 TeamsMeetingPolicy 禁用了这些功能。  
 - **缓存的内容**: 如果运行团队的虚拟环境不是永久性的 (在每个用户会话结束时清除数据), 用户可能会因内容刷新而发现性能下降, 无论用户是否访问以前会话中的内容。
-- **客户端更新**: vdi 上的团队不会像非 VDI 团队客户的那样自动更新。  你必须按照 "在[VDI 上安装团队](#install-teams-on-vdi)" 部分中的说明, 通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
+- **客户端更新**: 不会通过每计算机 MSI 安装自动更新 VDI 上的团队。 你必须按照 "在[VDI 上安装团队](#install-teams-on-vdi)" 部分中的说明, 通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
 - **用户体验**: VDI 环境中的团队用户体验可能与非 VDI 环境不同。 这些差异可能是由于环境中的策略设置和/或功能支持而造成的。
 
 对于不与 VDI 无关的团队已知问题, 请参阅[Microsoft 团队的已知问题](Known-issues.md)。

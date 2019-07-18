@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中授权来宾访问
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3808a587de81c9d32fec15fce7bd942594b3aa82
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222011"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758917"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -122,3 +121,7 @@ Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天�
 ## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="related-topics"></a>相关主题
+
+- [Microsoft 365 来宾共享设置参考](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)

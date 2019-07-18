@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '摘要: 了解有关在 Skype for Business 服务器中规划统一语音和通信解决方案的选项。'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602167"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768030"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>在 Skype for Business 服务器中规划企业语音解决方案
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602167"
   
 Skype for Business 服务器提供两个本地企业语音选项 (企业语音和通话通过工作), 让你能够将组织的电话系统与 Skype for Business 服务器部署集成, 从而实现真正的统一通信办法. 这两个选项使用户能够使用其 Skype for Business 客户端与其他用户 (在你的组织内部和外部) 发起语音呼叫。
   
-你还可以通过将本地电话基础结构连接到 Skype for business Online 提供的服务, 利用 Microsoft Cloud PBX 服务, 包括 PBX 服务和 PSTN 呼叫。 有关详细信息, 请参阅[Microsoft 团队中的云语音](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)。
+你还可以通过将本地电话基础结构连接到 Skype for business Online 提供的服务, 利用 Microsoft Cloud PBX 服务, 包括 PBX 服务和 PSTN 呼叫。 有关详细信息, 请参阅[Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
   
 您也可以通过协同工作使用企业语音和通话。
   
