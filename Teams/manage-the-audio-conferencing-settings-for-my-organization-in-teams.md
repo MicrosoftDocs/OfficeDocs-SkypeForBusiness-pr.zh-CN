@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: b8a93b9f6ad47b4b1f4203e4611331bfe3c13b59
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343911"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793193"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -54,7 +54,7 @@ ms.locfileid: "34343911"
 4. 在“**产品许可证**”页面上，开启“**音频会议**”，然后单击“**保存**”。 有关许可的详细信息, 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 > [!NOTE]
-> 在分配许可证后，Microsoft 最初可能不会作为音频会议提供商显示在下拉列表中。 如果发生这种情况，请注销 Office 365 管理中心或按 Ctrl+F5 刷新浏览器窗口。 
+> 在分配许可证后，Microsoft 最初可能不会作为音频会议提供商显示在下拉列表中。 如果出现这种情况, 请注销管理中心或按 CTRL + F5 刷新浏览器窗口。 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用向音频会议用户发送电子邮件
 

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解加载项许可证、每个许可证将获得哪些功能、如何为你的产品购买它们以及如何将现有运营商与他们配合使用。 您可以获取有关 Office 365、通讯信用和通话计划的定价和计划详细信息。
-ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298576"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793069"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -74,7 +74,7 @@ Microsoft 团队许可旨在为您提供最大限度的灵活性。 例如, 在�
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格并购买附加许可证
 <a name="bkmk_how"> </a>
 
- **购买 Office 365 计划后，可通过 Office 365 管理中心** 查看价格和购买附加许可证。
+ **购买 Office 365 计划后, 您可以通过管理中心查看价格和购买加载项**。
 
 根据你所需要的附加许可证，我们建议你[比较一下更改为已经包含这些功能的某项计划是否更加划算](https://go.microsoft.com/fwlink/?linkid=844053)。
 

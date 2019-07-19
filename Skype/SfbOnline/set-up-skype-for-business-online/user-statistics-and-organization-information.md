@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。
-ms.openlocfilehash: 9aaef735dff56de1a5e55e109255e76b4437e91c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284894"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792112"
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 
@@ -61,7 +61,7 @@ ms.locfileid: "34284894"
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

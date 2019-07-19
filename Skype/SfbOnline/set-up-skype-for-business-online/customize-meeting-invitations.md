@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: '通过图形徽标、帮助和合法 Url 以及页脚文本自定义 Skype 会议邀请。 '
-ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494116"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792828"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -49,7 +49,7 @@ ms.locfileid: "34494116"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 从 Office 365 管理中心, 选择 "**管理中心** > "**Skype for**business。
+2. 从管理中心, 选择 "**管理中心** > "**Skype for business**。
     
 3. 在 Skype for Business 管理中心中, 选择 "**联机会议**"。 
     

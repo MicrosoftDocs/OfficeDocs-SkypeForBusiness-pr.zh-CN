@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0858373bebabdb9df6c8a00463ac5a3db1834843
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493752"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792132"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -41,7 +41,7 @@ ms.locfileid: "34493752"
 
 为用户分配 E3 或 E5 等许可证 SKU 时，会自动分配 Microsoft Teams 许可证，并为用户启用 Microsoft Teams。 管理员可以对所有 Office 365 服务和许可证进行精细的控制，可以针对特定用户或一组用户启用或禁用 Microsoft Teams 许可证。
 
-![Office 365 管理中心中的“产品许可证”部分屏幕截图。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+![管理中心中产品许可证部分的屏幕截图。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
 团队用户许可证可随时禁用。 禁用许可证后, 将阻止用户访问 Microsoft 团队, 并且用户将无法再查看 Office 365 应用启动器和主页中的团队。
 
@@ -50,7 +50,7 @@ ms.locfileid: "34493752"
 ## <a name="manage-via-powershell"></a>通过 PowerShell 管理
 
 > [!IMPORTANT]
-> 新 MsolLicenseOptions 将启用之前已禁用的所有服务, 除非你的自定义脚本中 explictitly identitied。 例如, 如果你希望在 additonally 禁用团队期间禁用这两个 Exchange & Sway, 你需要在脚本中 inlcude 此操作, 或者这两个 Exchange & Sway 将对你已标识的用户启用。 如果你希望使用 GUI 来管理此功能, 请参阅: [Office 365 许可证报告和管理工具-批量分配删除许可证](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> 新 MsolLicenseOptions 将启用之前已禁用的所有服务, 除非你的自定义脚本中 explictitly identitied。 例如, 如果你希望在 additonally 禁用团队期间禁用这两个 Exchange & Sway, 你需要在脚本中 inlcude 此操作, 或者将为已标识的用户启用 Exchange & Sway。 如果你希望使用 GUI 来管理此功能, 请参阅: [Office 365 许可证报告和管理工具-批量分配删除许可证](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
 正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于 GCC, 服务计划名称为 TEAMS_GOV。 对于 GCC 高版, 服务计划名称为 TEAMS_GCCHIGH。 对于 DoD, 服务计划名称为 TEAMS_DOD (有关详细信息, 请参阅[禁用 Office 365 PowerShell 的服务访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)。)
 

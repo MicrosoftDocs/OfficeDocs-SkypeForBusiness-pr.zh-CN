@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '了解如何在小型、中型和大型组织中规划和部署 Skype for Business, 并让你的用户可以使用它。 '
-ms.openlocfilehash: b6895a45f59de2c73e445c7c26345f3b3d191a5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dedf142e316f502185bc2de0d0e37fee0513d2c3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285281"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792180"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>在 Office 365 中部署 Skype for Business 客户端
 
@@ -44,21 +44,21 @@ ms.locfileid: "34285281"
 
 作为[管理员](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US), 你可以选择是否将 Skype for business 应用程序提供给你的用户。
   
-- **控制公司中的每个人是否获取软件**: 登录到 Office 365 管理中心, 请转到 "**安装我的软件**", 然后选择要供用户使用的软件。
+- **控制公司中的每个人是否获取软件**: 登录到 Microsoft 365 管理中心, 请转到 "**安装我的软件**", 然后选择要为用户提供的软件。
     
     ![选择您希望为公司中的人员提供的软件。](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **若要控制贵公司中的特定人员是否获取软件**, 请执行以下操作: 登录到 Office 365 管理中心, 转到 "**用户** > **活动用户**", 选择要向其授予软件访问权限的人员, 然后单击 "**编辑**"在 "**产品许可证**" 旁边, 打开或关闭许可证。
+- **若要控制公司中的特定人员是否获取软件**, 请执行以下操作: 登录到 Microsoft 365 管理中心, 转到 "**用户** > **活动用户**", 选择要向其授予软件访问权限的人员, 然后单击 "**编辑"** 在 "**产品许可证**" 旁边, 打开或关闭许可证。
     
     ![选择希望用户访问的软件。](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 如果需要查看为组织中的人员分配了哪些计划, 请登录到新的 Office 365 管理中心 >**用户** > **活动用户**。 从列表中选择人员, 然后在 "**产品许可证**" 下查看。 如果您使用的是经典 Office 365 管理中心, 请在 "**分配的许可证**" 下查看。 
+> 如果需要查看为组织中的人员分配了哪些计划, 请登录 Microsoft 365 管理中心 >**用户** > **活动用户**。 从列表中选择人员, 然后在 "**产品许可证**" 下查看。 如果您使用的是经典管理中心, 请在 "**分配的许可证**" 下查看。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>手动为用户部署 Skype for Business
 <a name="bkmk_manual_1"> </a>
 
-如果希望用户从网络上的某个位置 (而不是从 Internet) 安装 Skype for Business 应用, 可以下载安装程序文件。 若要执行此操作, 请转到 Office 365 管理中心的 "**手动部署用户软件**" 部分。 然后, 您可以选择 "**安装**并将 setup.exe 文件保存到网络位置"。
+如果希望用户从网络上的某个位置 (而不是从 Internet) 安装 Skype for Business 应用, 可以下载安装程序文件。 若要执行此操作, 请转到 Microsoft 365 管理中心的 "**手动部署用户软件**" 部分。 然后, 您可以选择 "**安装**并将 setup.exe 文件保存到网络位置"。
   
 另一种方法是为你的用户下载 Skype for Business Basic 应用。 您可以下载[Microsoft Skype For Business Basic (32 或64位)](https://www.microsoft.com/en-us/download/details.aspx?id=49440)。
   
@@ -75,11 +75,11 @@ ms.locfileid: "34285281"
   
 使用 Office 365, 如果要控制安装 Skype for Business 应用的位置, 则可以使用多个选项来部署 Skype for Business 应用。 其中一些选项包括以下内容:
   
-- 将 Skype for Business 应用从 Office 365 管理中心下载到您的本地网络, 如[手动向用户部署 Skype for](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)business 中所述。
+- 将 Skype for Business 应用从 Microsoft 365 管理中心下载到您的本地网络, 如[手动向用户部署 Skype for](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)business 中所述。
     
 - 使用**[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)** 将 Office 365 专业增强版或 Skype for business 应用下载到您的本地网络。 然后, 使用 Office 部署工具将应用部署到你的用户。 Office 部署工具使你能够控制部署的某些方面, 例如语言和版本 (32 位或64位)。
     
-- 使用现有软件部署工具和进程 (如 System Center Configuration Manager) 将 Office 365 专业增强版或 Skype for Business 应用部署到你的用户。 你可以将现有工具和进程与[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)或从 office 365 管理中心下载的软件结合使用。
+- 使用现有软件部署工具和进程 (如 System Center Configuration Manager) 将 Office 365 专业增强版或 Skype for Business 应用部署到你的用户。 你可以将现有工具和进程与[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)或从 Microsoft 365 管理中心下载的软件结合使用。
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>有关使用 Office 部署工具的详细信息
 
@@ -103,7 +103,7 @@ ms.locfileid: "34285281"
     
 ### <a name="more-info-on-using-system-center-configuration-manager"></a>有关使用 System Center Configuration Manager 的详细信息
 
-你可以使用现有软件部署工具和进程 (如 System Center Configuration Manager) 部署 Skype for Business 应用。 你可以将这些工具和进程与从 Office 365 管理中心或 Office 部署工具下载的软件配合使用。
+你可以使用现有软件部署工具和进程 (如 System Center Configuration Manager) 部署 Skype for Business 应用。 你可以将这些工具和进程与从 Microsoft 365 管理中心或 Office 部署工具下载的软件配合使用。
   
 有关使用 Configuration Manager 部署软件的详细信息, 请参阅以下文章:
   

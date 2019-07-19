@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如, 你可以使用 "Skype for Business 设备使用情况" 报表查看设备 (包括基于 Windows 的操作系统和移动设备), 其中安装了 Skype for Business 应用并将其用于即时消息和会议。 签出 Office 365 管理中心中的活动报表以了解详细信息。
-ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如, 你可以使用 "Skype for Business 设备使用情况" 报表查看设备 (包括基于 Windows 的操作系统和移动设备), 其中安装了 Skype for Business 应用并将其用于即时消息和会议。 查看管理中心中的活动报表以了解详细信息。
+ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280770"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793117"
 ---
 # <a name="device-usage-report"></a>设备使用报告
 
@@ -35,11 +35,11 @@ ms.locfileid: "34280770"
 此报告以及其他 Skype for Business 报告提供了有关在你的组织中使用的客户端/设备类型的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>如何访问 Skype for Business 设备使用情况报告
 
-1. 转到**Office 365 管理中心** > **报告** > **使用率**。
+1. 转到管理中心 >**报告** > **使用情况**。
     
 2. 在 "**使用情况**" 页面上, 单击左侧的 "**选择报表" 列表**中的 " **Skype for business 设备使用情况**"。 或者, 单击 " **skype For business 活动**" 小组件, 然后单击 "skype for business**活动**" 列表上的 " **skype for business 设备使用情况**"。
     
@@ -84,7 +84,7 @@ ms.locfileid: "34280770"
 *    如果用户已在 iPhone 上安装了 Skype for business 客户端应用程序并使用它, 则选择 " **iphone** "。 
 *    如果用户在 iPad 上安装了 Skype for business 客户端应用并使用它, 则选择 " **ipad** "。 
 
-如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[Office 365 管理中心的活动报表中](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)的 "**如何隐藏用户级别的详细信息？** " 部分。 
+如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[管理中心的活动报表中](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)的 "**如何隐藏用户级别的详细信息？** " 部分。 
 ***
 ![数字8](../images/sfbcallout8.png)<br/>单击或点击任何列中的 "**列**" 图标, 在报表中添加或删除列。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -109,7 +109,7 @@ ms.locfileid: "34280770"
 - [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
     
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

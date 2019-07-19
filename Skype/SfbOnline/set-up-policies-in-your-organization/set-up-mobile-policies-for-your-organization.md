@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online, 例如允许用户通过其工作电话号码 (而不是移动电话号码) 在手机上拨打和接听电话的功能。mber. 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 5acf0f7f331e7836e5bab785f9726cfd921b619d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221140"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792462"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
@@ -130,7 +130,7 @@ ms.locfileid: "35221140"
     
   - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

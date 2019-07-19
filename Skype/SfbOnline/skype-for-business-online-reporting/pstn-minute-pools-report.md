@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如, 您可以使用 Skype for Business PSTN 分钟池报告查看您的组织内当前月份内消耗的分钟数。
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494012"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793087"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -37,13 +37,13 @@ ms.locfileid: "34494012"
 此报告以及其他 Skype for Business 报表提供了有关组织内活动的详细信息。 在调查、规划和为组织制定其他业务决策以及设置[通信信用点数](/microsoftteams/what-are-communications-credits)时, 这些详细信息非常有用。
   
 > [!NOTE]
-> [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何访问 Skype for Business PSTN 分钟池报告
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-- 转到**Office 365 管理中心** > **管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 分钟池**。
+- 转到管理中心 >**管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 分钟池**。
     
 > [!NOTE]
 > 根据你拥有的 Office 365 订阅, 你可能看不到此处显示的所有相同详细信息。 
@@ -62,7 +62,7 @@ ms.locfileid: "34494012"
 ![第一](../images/sfbcallout1.png)<br/>该表显示按许可证 (功能) 和使用位置对分钟池的细分。 
 *    **功能**是用于通话的许可证/服务计划。 您可能在此报告中看到的许可证/服务计划包括:
      * MCOPSTN1-国内通话计划 (3000-minute/1200-欧盟计划
-     * MCOPSTN2-国内 & 国际通话计划, 您将从该计划中看到一个国内版池 (3000-minute/加拿大/PR, 1200-1-1-1-分钟) 和国际池子 (600-分钟)。 只要在日历月份内达到国内或国际 cap, 就会达到分钟上限。 
+     * MCOPSTN2-国内 & 国际通话计划, 您将从该计划中看到一个国内版池 (3000-minute/加拿大/PR, 1200-1 分钟的国家/地区) 和国际通用池 (600-分钟)。 只要在日历月份内达到国内或国际 cap, 就会达到分钟上限。 
      * MCOPSTN5-国内通话计划 (120 分钟通话计划)
      * MCOPSTN6-国内通话计划 (240 分钟通话计划)
      * MCOMEETADD-音频会议
@@ -93,7 +93,7 @@ ms.locfileid: "34494012"
 - [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
     
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

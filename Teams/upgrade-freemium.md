@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何升级免费版本的 Microsoft 团队
+description: 了解如何升级 Microsoft 团队的免费版本
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -17,82 +17,82 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9ccc20ae70b21e5a6738c8a0956b7c73cff8b7b9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227613"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792699"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================
 
-如果您的组织使用免费版本的 Microsoft 团队，您可以轻松地升级到完整版，通过购买针对您的用户的 Office 365 订阅计划。 完整版提供了其他团队功能 — like 日程安排、 音频会议、 增强的管理和安全功能 — 免费版不提供。 Office 365 与基于云的版本的 Microsoft 的下一代通信和协作服务结合使用熟悉的 Microsoft Office 桌面套件 — 包括 Exchange Online、 SharePoint Online 和 Office Online — 可帮助用户工作效率从任何地方通过 internet。 升级团队时，您现有的团队数据将不会丢失;所有您团队、 通道、 聊天、 文件和权限附带您。 
+如果你的组织使用的是免费版本的 Microsoft 团队, 则可以通过为你的用户购买 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能, 如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 新一代通信和协作服务 (包括 Exchange Online、SharePoint Online 和 Office) 结合在一起, 帮助用户提高工作效率随时随地通过 internet 进行访问。 升级团队时, 现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 
 
 > [!NOTE]
-> 如果您已有的 Office 365 订阅，您是否有资格团队的试用版 （与您公司的标识），不是免费的版本。 试用团队提供完整版的团队有限的时间。 有关详细信息，请参阅[管理商业云试用版的 Microsoft 团队提供](iw-trial-teams.md)。
+> 如果您已经有 Office 365 订阅, 则可以使用团队试用版 (使用您的公司标识), 而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息, 请参阅[管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
 
-## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>团队免费比较完整版的团队？
+## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>团队与团队的完全版本有何区别？
 
-团队免费专为小型到中型企业具有以下功能：
+团队免费适用于中小型企业, 具有以下功能:
 
-- 300 最大用户数
-- 不受限制的聊天消息和搜索
+- 300最大用户数
+- 无限制聊天消息和搜索
 - 来宾访问权限
-- 与应用程序和服务，包括 Word、 Excel、 PowerPoint 和 OneNote 的联机版本的集成
-- 2 GB 存储每个用户和 10 GB 的共享存储
-- 1:1 和组 online 音频和视频呼叫
-- 通道会议
+- 与应用和服务集成, 包括 Word、Excel、PowerPoint 和 OneNote 的联机版本
+- 每个用户 2 GB 的存储空间和 10 GB 的共享存储空间
+- 1:1 和群组在线音频和视频通话
+- 频道会议
 - 屏幕共享
 
-完整版的 Office 365 订阅中包含的团队提供以下功能除了团队免费提供的功能：
+除了团队免费提供的功能之外, Office 365 订阅附带的团队的完整版本还提供以下功能:
 
-- （具有企业版许可证） 没有用户限制
+- 无用户限制 (使用企业许可证)
 - Exchange 电子邮件托管和自定义电子邮件域
-- OneDrive、 SharePoint、 计划工具、 Yammer，和更多 Office 365 服务
-- 1 TB 的每个用户的存储
-- 安排的会议
+- OneDrive、SharePoint、Planner、Yammer 和更多 Office 365 服务
+- 每个用户 1 TB 的存储空间
+- 计划会议
 - 音频会议
-- 增强的安全性和遵从性功能，包括多因素身份验证，单一登录和高级审核和报告
-- 管理控件和支持功能，包括全天候电话和 web 的支持，用于管理用户、 应用程序的 Office 365 服务、 服务级别协议，并可配置用户设置和策略使用率报告的管理工具
+- 增强的安全性和合规性功能, 包括多重身份验证、单一登录和高级审核和报告
+- 管理控制和支持功能, 包括 24 x 7 电话和 web 支持、用于管理用户和应用的管理工具、Office 365 服务的使用情况报告、服务级别协议以及可配置的用户设置和策略
 
-免费的团队和团队功能的详细比较，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
+有关团队免费和团队功能的详细比较, 请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
 
 ## <a name="upgrade-requirements"></a>升级要求
 
-如果满足以下要求，您可以升级到完整版的团队：
+如果满足下列要求, 则可以升级到团队的完整版本:
 
-- 您是已注册的现有的团队免费订阅的人员。
-- 如果要将您自己的域，尚未将其与 Azure Active Directory （通过试用版或购买 O365 订阅） 相关联。
+- 您是注册现有团队免费订阅的人员。
+- 如果你正在携带自己的域, 则它尚未与 Azure Active Directory 相关联 (通过试用版或已购买的 O365 订阅)。
 
 > [!NOTE]
-> 若要升级，并将数据传输，您必须购买您的订阅通过团队应用程序中的升级过程。 如果您购买 Office 365 with 团队而不经由升级过程，不能传输数据，因为您已具有单独的租户。
+> 若要升级和传输数据, 必须通过团队应用程序中的升级过程购买订阅。 如果你在不执行升级过程的情况下向团队购买了 Office 365, 则无法传输你的数据, 因为你已经有了单独的租户。
 
-## <a name="limitations"></a>限制
+## <a name="limitations"></a>优缺点
 
-请记住以下限制：
+请记住以下限制:
 
-- 在升级后，无法切换到团队免费。
-- 您不能将多个团队免费租户合并到单个付费租户。
-- 所有用户都必须位于同一个域。 (所有用户都会在格式*用户名*登录@*domain.com*。)
-- 必须升级所有用户： 不支持在同一租户中的闲和付费订阅用户的工作组的组合。
+- 升级后, 您不能再切换回团队。
+- 无法将多个团队免费租户合并到单个付费租户中。
+- 所有用户都必须位于同一个域中。 (所有用户都将通过格式*用户名*@*domain.com*获取登录。)
+- 必须升级所有用户: 不支持与同一租户中的免费和付费订阅用户混合的团队。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>如何升级我的组织？
 
-若要升级到完整版的团队，选择团队中的**升级**。
+若要升级到团队的完整版本, 请选择 "在团队中**升级**"。
 
-![屏幕截图显示升级按钮](media/teams-freemium-upgrade-image1.png)
+![显示 "升级" 按钮的屏幕截图](media/teams-freemium-upgrade-image1.png)
 
-输入您用于登录到团队的电子邮件地址，然后购买 Office 365 企业高级版计划。 如果您想要购买 Office 365 业务 Essentials 或 Enterprise edition 的 Office 365，[与支持部门联系](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
+输入用于登录团队的电子邮件地址, 然后购买 Office 365 商业高级版计划。 如果你想要购买 Office 365 商业版 Essentials 或 Office 365 的企业版, 请[联系支持人员](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
 
-## <a name="whats-next"></a>下一步是什么？
+## <a name="whats-next"></a>下一步做什么？
 
-完成升级后，请参阅[入门的 Microsoft 团队](get-started-with-teams-quick-start.md)的第一个步骤和[采用 Microsoft 团队](adopt-microsoft-teams-landing-page.md)的团队应用的阶段性方法在整个组织。
+升级完成后, 请参阅[Microsoft 团队开始使用](get-started-with-teams-quick-start.md)的第一步, 并[采纳 microsoft 团队](adopt-microsoft-teams-landing-page.md)以分阶段方式使用组织中的团队采纳。
 
-## <a name="more-information"></a>更多信息
+## <a name="more-information"></a>详细信息
 
-- 若要找出有关团队版本和及其功能的详细信息，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
-- 有关升级到完整版的团队的详细信息，请参阅[从团队免费向工作组升级](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)。
-- 有关升级包括添加用户许可证的用户相关联的其他管理任务更改用户的用户名和分配临时密码，请参阅[对于管理员从团队免费为付费订阅升级](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)。
-- 有关管理团队免费组织中的信息，请参阅[Manage 免费版本的 Microsoft 团队](manage-freemium.md)。
+- 若要了解有关团队版本及其功能的详细信息, 请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
+- 有关升级到团队的完整版的详细信息, 请参阅[从团队免费升级到团队](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)。
+- 有关与升级用户相关联的其他管理员任务, 包括添加用户许可证、更改用户名和分配临时密码, 请参阅[用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)。
+- 有关在组织中管理团队免费的信息, 请参阅[管理 Microsoft 团队的免费版本](manage-freemium.md)。
 

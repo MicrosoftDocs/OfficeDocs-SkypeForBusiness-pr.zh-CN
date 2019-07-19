@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '摘要: 有关不使用 Office 365 且需要访问由组织托管的会议的组织的信息。'
-ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277480"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792854"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会议应用的最低网络要求
  
@@ -35,8 +35,8 @@ ms.locfileid: "34277480"
  
 |应用 |目标 FQDN  |IP 地址  |端口  |
 |---|---------|---------|---------|
-|**Skype 会议应用** | \*。 lync.com <br/>\*。 infra.lync.com<br/>\*。 pipe.aria.microsoft.com<br/>\*。 sfbassets.com<br/>\*。 msecnd.net<br/>\*<span></span>officeapps.live.com <br/>\*<span></span>officeapps.live.com <br/>\*。 office.live.com<br/>\*。 cdn.office.net<br/>*.s-microsoft.com<br/>        |   这些 IP 地址经常更新。  请参阅[Skype For BUSINESS ip 范围](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)以及[Office Online ip 范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP:80 &amp; 443<br/>UDP：3478-3481<br/>
-|**Teams**    | \*<span></span>。 microsoft.com <br/>\*<span></span>。 skype.com | 这些 IP 地址经常更新。  请参阅[Skype For BUSINESS ip 范围](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)以及[Office Online ip 范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP：443 <br/> UDP：3478-3481
+|**Skype 会议应用** | \*。 lync.com <br/>\*。 infra.lync.com<br/>\*。 pipe.aria.microsoft.com<br/>\*。 sfbassets.com<br/>\*。 msecnd.net<br/>\*<span></span>officeapps.live.com <br/>\*<span></span>officeapps.live.com <br/>\*。 office.live.com<br/>\*。 cdn.office.net<br/>*.s-microsoft.com<br/>        |   这些 IP 地址经常更新。  请参阅[Skype For BUSINESS ip 范围](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)和[Office IP 范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP:80 &amp; 443<br/>UDP：3478-3481<br/>
+|**Teams**    | \*<span></span>。 microsoft.com <br/>\*<span></span>。 skype.com | 这些 IP 地址经常更新。  请参阅[Skype For BUSINESS ip 范围](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip)和[Office IP 范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP：443 <br/> UDP：3478-3481
 
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_Conferencing"> </a>

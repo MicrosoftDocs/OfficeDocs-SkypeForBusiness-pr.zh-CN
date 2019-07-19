@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344557"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792681"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -56,7 +56,7 @@ ms.locfileid: "34344557"
   
 1. 通过 Office 365 管理员帐户登录。 
     
-2. 在 Office 365 管理中心中, 转到 "**管理中心** > "**团队**。
+2. 在管理中心, 转到 "**管理中心** > "**团队**。
     
     ![选择 "团队管理员"。](../images/MS-Teams-Admin.png)
   
@@ -126,7 +126,7 @@ ms.locfileid: "34344557"
   
 1. 通过 Office 365 管理员帐户登录。
     
-2. 在 Office 365 管理中心中, 转到 "**用户** > **活动用户**"。
+2. 在管理中心中, 转到 "**用户** > **活动用户**"。
     
 3. 在用户列表中，选择用户，然后在" **其他设置**"下单击" **编辑 Skype for Business 属性**"。
     

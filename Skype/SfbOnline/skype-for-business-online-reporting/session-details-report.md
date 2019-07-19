@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
-ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302084"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793059"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
@@ -34,11 +34,11 @@ ms.locfileid: "34302084"
 此报告以及其他 Skype for Business 报表提供有关活动的详细信息, 包括组织内的会话详细信息。 在调查、规划和为组织制定其他业务决策以及设置[通信信用点数](/microsoftteams/what-are-communications-credits)时, 这些详细信息非常有用。
   
 > [!NOTE]
-> [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>如何访问 Skype for Business 会话详细信息报告
 
-1. 转到**Office 365 管理中心** > **报告**
+1. 转到管理中心 >**报表**
     
 2. 从左侧菜单中选择 "**报表**", 然后单击 "**使用情况**"。
     
@@ -118,7 +118,7 @@ ms.locfileid: "34302084"
 - [Skype For BUSINESS PSTN 分钟池报告](pstn-minute-pools-report.md)您可以查看在您的组织内的当前月份内消耗的分钟数。
     
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

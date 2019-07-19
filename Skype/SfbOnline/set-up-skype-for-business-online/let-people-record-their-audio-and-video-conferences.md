@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494078"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792597"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -32,7 +32,7 @@ ms.locfileid: "34494078"
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-1. 转到**Office 365 管理中心** > **Skype for business**, 然后单击 "**用户**"。
+1. 转到 "管理中心" > " **Skype For business**", 然后单击 "**用户**"。
     
 2. 在 "**用户**" 页面上, 从列表中选择一个或用户, 然后单击 "**编辑**"。
     

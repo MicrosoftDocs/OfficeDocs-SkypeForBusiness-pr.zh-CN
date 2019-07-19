@@ -18,21 +18,21 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 386a449bae262ac073433d487f57570ae0cf9f7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302418"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793039"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online 报告
 
 作为您的组织的管理员, 拥有 Skype for Business Online 中提供的所有不同报表的完整列表将非常方便。 其中包括所有不同报告以及每个报告提供的信息。
   
-要访问 Skype for Business Online 报告，请使用你的用户帐户和密码登录到 Office 365 管理中心。用于登录的帐户必须分配有全局管理员角色或委派 Skype for Business 服务管理员角色，才能查看报告。
+若要访问 Skype for Business Online 报表, 请使用你的用户帐户和密码登录到 Microsoft 365 管理中心。 用于登录的帐户必须分配有全局管理员角色或委派 Skype for Business 服务管理员角色，才能查看报告。
   
 > [!NOTE]
-> To verify permissions, in the Office 365 admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> 若要验证权限, 请在管理中心 >**用户** > **活动用户**。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online 报告参考
 
@@ -40,7 +40,7 @@ ms.locfileid: "34302418"
   
  **查看报表**
   
-1. 转到 " **Office 365 管理中心**" 或 " **Skype for business 管理中心** > "**报表**。
+1. 转到 "管理中心" 或 " **Skype for business 管理中心** > "**报表**。
     
 2. 在仪表板窗口中，单击报告小组件或从列表中进行选择，以选择所需的报告。
     
@@ -58,7 +58,7 @@ ms.locfileid: "34302418"
 |[Skype for Business 会话详细信息报告](session-details-report.md) <br/> | 用户别名 <br/> 对话框 ID  <br/> 媒体类型  <br/> 开始时间和结束时间 <br/> From 和 from URI <br/> 会议 URL <br/> 电话号码 <br/> |
  
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

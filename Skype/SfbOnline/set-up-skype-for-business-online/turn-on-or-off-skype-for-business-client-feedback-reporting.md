@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 你可以使 Skype for Business 用户能够使用内置的 Skype for business 应用反馈工具, 让用户能够直接向 Microsoft 报告问题并向 Microsoft 提供反馈, 以了解他们的体验。
-ms.openlocfilehash: a15ef9f8c29b98dc4012800716380e6979d2874e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d7d80110be63b60fcfa1581c806d01ab0f056077
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221811"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792664"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
@@ -87,7 +87,7 @@ ms.locfileid: "35221811"
     
   - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

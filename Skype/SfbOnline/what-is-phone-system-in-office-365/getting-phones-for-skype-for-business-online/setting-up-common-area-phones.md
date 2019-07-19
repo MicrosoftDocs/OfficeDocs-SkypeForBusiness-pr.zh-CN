@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新它、分配许可证以及配置通用区域电话的设置。
-ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493854"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792452"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -49,7 +49,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 你需要按照以下步骤操作：
 
 ### <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
-1. 在 Office 365 管理中心，转至**账单** > **购买服务**，然后添加**其他计划**。
+1. 在管理中心, 转到 "**帐单** > **购买服务**", 然后添加**其他计划**。
 
     ![CAP-license.png](../../images/cap-license.png)
 2. 在** 结账**页面上点击 >  **  公共区域电话**** ** 立即购买，点击** 立即购买** 。
@@ -61,7 +61,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 有关许可证的更多信息，请参阅 [Skype for Business 和 Microsoft Teams 外接程序许可](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
-1. 在 Office 365 管理中心，转至**用户** > **活动用户** > **添加用户**。
+1. 在管理中心, 转到 "**用户** > **活动用户** > "**添加用户**。
 2. 输入**用户名**，如“Main”为第一个词，“Reception”为第二个词。
 3. 如果没有自动生成“Main Reception”用户名，则输入**显示名称**。
 4. 输入一个**用户名**，如“MainReception”或“Mainlobby”。
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![显示 Skype for Business 徽标](../../images/sfb-logo-30x30.png)的图标使用**skype for business 管理中心**向用户分配电话号码
 
-1. 在 Office 365 管理中心 > **admin** > center**Skype for**business。
+1. 在管理中心 >**管理中心** > **Skype**for business。
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
 3. 从电话号码列表中选择一个号码，然后点击**分配**。
 4. 在**分配**页面的**语音用户**框中，输入用于电话的用户名称，然后在**选择语音用户**下拉列表中选择一个用户。

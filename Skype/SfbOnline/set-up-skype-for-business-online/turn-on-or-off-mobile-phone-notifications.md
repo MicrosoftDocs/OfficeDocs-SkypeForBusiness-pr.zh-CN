@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 了解如何打开或关闭移动电话通知, 以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
-ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494050"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792122"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
@@ -39,7 +39,7 @@ ms.locfileid: "34494050"
 
 1. 登录到 Office 365。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到 "管理中心" > " **Skype For business**"。
     
 3. Go to **Organization** > **General**. 
     

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: df46f6a8fa029936911d8cafd463e683d25b4551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298015"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793241"
 ---
 # <a name="activity-report"></a>活动报告
 
@@ -35,11 +35,11 @@ ms.locfileid: "34298015"
 此报告以及其他 Skype for Business 报表提供了有关组织内活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> 在 Office 365 管理中心中以管理员身份登录时, 你可以看到所有 Skype for Business 报告。 
+> 在 Microsoft 365 管理中心中以管理员身份登录时, 你可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>如何访问 Skype for Business 活动报告
 
-1. 转到**Office 365 管理中心** > **报告** > **使用率**。
+1. 转到管理中心 >**报告** > **使用情况**。
     
 2. 在 "**使用情况**" 页面上, 单击左侧的 "**选择报表" 列表**中的 " **Skype for business 活动**", 或单击 " **skype for business 活动**" 小组件。
     
@@ -94,7 +94,7 @@ ms.locfileid: "34298015"
 * " **参与会议**"显示该用户参与的会议总数。
 * " **分配的产品**"表示分配给此用户的 Office 365 产品。<br/>
 
-如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[Office 365 管理中心的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)中 "报表" 部分中的 "**隐藏用户详细信息**"。
+如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[管理中心中活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)**的 "报表" 部分中的 "隐藏用户详细信息**"。
 ***
 ![数字8](../images/sfbcallout8.png)<br/>
 单击或点击任何列中的 "**列**" 图标, 在报表中添加或删除列。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -120,7 +120,7 @@ ms.locfileid: "34298015"
 
     
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

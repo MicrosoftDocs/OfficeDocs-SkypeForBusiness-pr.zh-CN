@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息, 包括通话费用, 以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587913"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793077"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -34,13 +34,13 @@ ms.locfileid: "35587913"
 此报告以及其他 Skype for Business 报告提供了有关活动的详细信息, 包括您的组织内的通话使用情况。 在调查、规划和为组织制定其他业务决策以及设置[通信信用点数](/microsoftteams/what-are-communications-credits)时, 这些详细信息非常有用。
   
 > [!NOTE]
-> [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>如何获取 Skype for Business PSTN 使用详细信息报告
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-- 转到**Office 365 管理中心** > **管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 使用详细信息**。
+- 转到管理中心 >**管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 使用详细信息**。
     
     > [!NOTE]
     > [!重要信息] 你可能无法看到此处所示的所有产品和报告，具体取决于你拥有的 Office 365 订阅。 
@@ -127,7 +127,7 @@ ms.locfileid: "35587913"
 - [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
     
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
  

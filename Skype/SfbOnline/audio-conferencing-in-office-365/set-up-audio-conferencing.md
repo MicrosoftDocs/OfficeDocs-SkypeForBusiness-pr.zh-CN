@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494193"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792170"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 Skype for business 设置音频会议
 
@@ -94,7 +94,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标:
 
-1. 转到**Office 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
+1. 转**** > 到管理中心团队 > "管理中心"**团队** > "**旧版门户**"。
 2. 选择 "**音频会议** > "**Microsoft 网桥**。 
 3. 选择 "会议桥接电话号码", 选择 "**设置语言**", 然后选择默认语言。
 

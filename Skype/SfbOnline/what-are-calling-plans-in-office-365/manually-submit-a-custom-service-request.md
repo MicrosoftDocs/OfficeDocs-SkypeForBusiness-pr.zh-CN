@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 498f69070e7dfed8d367effd83715fa3ee8001cd
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293780"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793351"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>手动提交自定义服务请求
 
@@ -38,7 +38,7 @@ ms.locfileid: "34293780"
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>如果需要创建和提交服务请求, 请执行以下步骤:
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
-1. 在 **Office 365 管理中心**选择“**需要帮助?**”
+1. 在管理中心, 选择 "**需要帮助**？"
 2. 在“**需要帮助?**”窗格中，告诉我们你需要什么帮助，然后选择“**获取帮助**”。
 3. 如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：
     - **允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。 “**需要帮助?**”窗格中会显示回拨的预期等待时间。
@@ -46,9 +46,9 @@ ms.locfileid: "34293780"
 
 ### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>对于具有超过150用户的组织, 请按照以下步骤创建服务请求:
 
-1. 使用你的工作或学校帐户以管理员身份登录 Office 365。
+1. 使用你的工作或学校帐户，以管理员身份登录 Office 365。
     
-2. 在 Office 365 管理中心的左侧导航中，单击“**支持**” > “**新服务请求**”。
+2. 在管理中心的左侧导航中, 单击 "**支持** > **新服务请求**"。
     
 3. 在“**服务请求**”下，单击“**添加**”。
     
@@ -98,7 +98,7 @@ ms.locfileid: "34293780"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 将在 Office 365 管理中心的“**服务请求**”页面上列出参考编号。
+> 参考编号将在 Microsoft 365 管理中心的 "**服务请求**" 页面上列出。
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>你还应该知道有关订单移植的哪些信息？
 

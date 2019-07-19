@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在 Skype for business Online 中向用户发送其音频会议信息的电子邮件。
-ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302094"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792265"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>通过 Skype for Business Online 中的音频会议信息向用户发送电子邮件
 
@@ -56,7 +56,7 @@ ms.locfileid: "34302094"
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Office 365 管理中心** > **Skype for**business, 然后在左侧导航中单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for**business, 然后在左侧导航中单击 "**音频会议**"。
     
 3. 单击 "**用户**", 然后选择用户。
     
@@ -110,7 +110,7 @@ ms.locfileid: "34302094"
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在使用 Office 365 管理中心的速度、简洁性和效率方面具有许多优势, 例如, 当您同时为多个用户设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

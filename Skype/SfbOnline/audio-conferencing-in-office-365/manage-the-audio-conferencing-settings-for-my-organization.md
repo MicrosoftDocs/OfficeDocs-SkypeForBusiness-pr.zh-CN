@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype for business Online 步骤, 将电话拨入式会议许可证和会议 ID 分配给用户以及其他许多电话拨入式会议设置。 '
-ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
-ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
+ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35638561"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792315"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -38,13 +38,13 @@ ms.locfileid: "35638561"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> 您不能使用**Skype For business 管理中心**分配许可证。 您必须使用 Microsoft 365 管理中心。 请参阅[分配 Skype for Business 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
  **为用户分配许可证**
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 在**Office 365 管理中心**的左侧导航中, 转到 "**用户** > **活动用户**", 然后从可用的用户列表中选择一个或一组用户。
+2. 在管理中心的左侧导航中, 转到 "**用户** > **活动用户**", 然后从可用的用户列表中选择一个或一组用户。
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -54,7 +54,7 @@ ms.locfileid: "35638561"
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.
+> 分配许可证后, Microsoft 可能不会以音频会议提供商的形式最初显示在列表中。 如果出现这种情况, 请注销管理中心或按 CTRL + F5 刷新浏览器窗口。
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
@@ -62,7 +62,7 @@ ms.locfileid: "35638561"
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 在  **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**   。
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. 在**Skype for Business 管理中心**，在左侧导航窗格中，转到 **音频会议**，并在 **会议 ID**下的操作窗格中，单击 **重置**。
 
@@ -129,7 +129,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 单击 "**用户**", 然后选择要为其重置 PIN 的用户。
 
@@ -143,7 +143,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 单击 "**用户**", 然后选择要为其重置 PIN 的用户。
 
@@ -158,7 +158,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
@@ -176,7 +176,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
 
@@ -196,7 +196,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
 
@@ -210,7 +210,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. 转到**Office 365 管理中心** > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for** business, 然后在左侧导航中, 单击 "**音频会议**"。
 
 3. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
 
@@ -227,7 +227,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**", 然后单击 " **Microsoft bridge**"。
 
@@ -241,7 +241,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
@@ -259,7 +259,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. 使用你的工作或学校帐户登录 Office 365。
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 转到管理中心 > **Skype For business**。
 
 3. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**>" 和 "**用户**"。
 
@@ -320,7 +320,7 @@ There are several settings that you can manage at the organization level using W
 
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用管理中心, 例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
 

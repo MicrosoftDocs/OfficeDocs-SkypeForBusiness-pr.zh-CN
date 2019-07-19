@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
-ms.openlocfilehash: 3d03b9db85d14797a161d781f5bee16edeb581b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279080"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792627"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的呼叫流
 
@@ -80,7 +80,7 @@ Skype for business Online 的网络流量分为两大类别, 在呼叫流程中�
 
 有关该流量的目标，请参阅适用于所有 Office 365 服务的 [Office 365 URL 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 每个 URL 会指示此部分流量是否可能通过用于 Office 365 的 ExpressRoute。 对于显示启用 ExpressRoute 时, Internet 仍用于某些通信流的图表, 请参阅[适用于 Office 365 的 Azure ExpressRoute](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd)。 请务必了解, 即使被列为通过 ExpressRoute 路由的 Url, 也可通过 Internet 进行路由。 这意味着在某些情况下, 确定是否将使用 Internet 或 ExpressRoute 取决于代理服务器和防火墙的客户端和配置的位置。 还有一点很重要, 因为并非所有与 Office 365 关联的 Url 都能够使用 ExpressRoute, 即使您是从 ExpressRoute 合作伙伴购买 ExpressRoute, 也需要 Internet 连接。
 
-只能通过 Internet 发送的流量包括常见的 Internet 依赖项, 例如证书吊销列表 (Crl)、DNS 查找和名称解析、共享 Office 365 服务的 Url (例如 Office 365 管理中心) 和某些非实时Skype for business Online 的通信功能, 例如用于与 Skype 消费者进行互操作的遥测和联盟, 以及用于 Skype 会议直播流处理的媒体。 如果需要帮助你作出决定，请参阅[使用适用于 Office 365 的 ExpressRoute 进行路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)，了解规划网络路由时需要考虑的其他因素。
+仅可通过 Internet 发送的流量包括常见的 Internet 依赖关系, 例如证书吊销列表 (Crl)、DNS 查找和名称解析、共享 Office 365 服务的 Url, 例如 Microsoft 365 管理中心的 Url 以及一些Skype for business Online 的非实时通信功能, 例如用于与 Skype 消费者进行互操作的遥测和联盟, 以及用于 Skype 会议直播流处理的媒体。 如果需要帮助你作出决定，请参阅[使用适用于 Office 365 的 ExpressRoute 进行路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)，了解规划网络路由时需要考虑的其他因素。
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Skype for Business 通话流程的原则
 

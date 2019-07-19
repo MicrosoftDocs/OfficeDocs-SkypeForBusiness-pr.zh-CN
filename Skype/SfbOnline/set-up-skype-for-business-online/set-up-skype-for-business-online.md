@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何为你的组织设置你的域、用户、IM 和状态, 以供你的组织安装 Skype for Business。 另请参阅如何设置音频会议、电话系统和通话计划以及 Skype 会议直播。 '
-ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285251"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792617"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -59,9 +59,9 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
     ![在你注册 Skype for Business Online 之后收到的欢迎电子邮件的示例。 它包含你的 Office 365 用户 ID。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 登录到 Office 365 管理中心, 然后输入您的 Office 365 用户 ID 和密码。 登录后，你将看到 Office 365 管理中心：
+2. 登录管理中心并输入您的 Office 365 用户 ID 和密码。 登录后, 您将看到 Microsoft 365 管理中心:
 
-    ![当你有 Skype for Business Online 计划时 Office 365 管理中心的外观的示例。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+    ![使用 Skype for Business Online 计划时, 管理中心的外观的示例。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 设置你的域和用户
 <a name="bkmk_users"> </a>

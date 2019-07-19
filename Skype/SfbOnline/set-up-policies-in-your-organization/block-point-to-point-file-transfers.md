@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 在 Skype for Business Online 中, 你可以控制作为现有会议策略设置的一部分的点对点 (P2P) 文件传输。 但是, 这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤, 你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221186"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792511"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
@@ -112,7 +112,7 @@ ms.locfileid: "35221186"
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- 例如当你一次对多个用户更改设置时，Windows PowerShell 比起仅使用 Office 365 管理中心，在速度、简明性和效率方面具有许多优势。通过以下主题了解这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

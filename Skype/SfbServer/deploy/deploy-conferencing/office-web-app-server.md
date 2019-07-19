@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '摘要: 阅读本主题, 了解如何配置 Office Web Apps 服务器与 Skype for business 服务器之间的集成, 以启用适用于 Web 会议的 PowerPoint 演示文稿。'
-ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be69b24b2ae64763b1f9b0d324b812b60f69434
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289109"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793287"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>在 Skype for Business Server 中配置与 Office Web Apps 服务器的集成
  
@@ -50,7 +50,7 @@ Skype for business 服务器使用 Office Web Apps 服务器处理适用于 Web 
     
    - 如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“**在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器**”。
     
-7. 在“**定义新的 Office Web Apps Server**”对话框中，单击“**确定**”，然后在“**编辑属性**”对话框中单击“**确定**”。Office Online 发现 URL 将作为池的关联之一列出。
+7. 在“**定义新的 Office Web Apps Server**”对话框中，单击“**确定**”，然后在“**编辑属性**”对话框中单击“**确定**”。 然后, 发现 URL 将列出为池的关联之一。
     
 您必须对需要与您的 Office Web Apps 服务器关联的每个池重复此过程。
   

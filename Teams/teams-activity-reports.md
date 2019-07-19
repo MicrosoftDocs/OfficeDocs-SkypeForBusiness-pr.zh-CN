@@ -16,12 +16,12 @@ MS.collection:
 description: 了解如何使用活动报表查看组织中的用户使用的是 Microsoft 团队的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85184f1de59338282ddd676009f000794b1b4b07
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 18076fd3aeb47e0afadaf7eb1917369a1a55ea3b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548674"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792820"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 ========================================
@@ -45,7 +45,7 @@ ms.locfileid: "34548674"
 
 "团队用户活动" 报表为你提供用户在团队中执行的最常见活动的视图。 这包括在频道中参与聊天的人数、通过私人聊天消息进行通信的次数以及参与通话或会议的次数。 你可以查看整个组织和每个个人用户的此信息。
 
-![Office 365 管理中心中的 "用户活动" 报表的屏幕截图。](media/teams-user-activity-report.png)
+![管理中心中的用户活动报表的屏幕截图。](media/teams-user-activity-report.png)
 
 #### <a name="interpret-the-microsoft-teams-user-activity-report"></a>解释 "Microsoft 团队用户活动" 报表
 

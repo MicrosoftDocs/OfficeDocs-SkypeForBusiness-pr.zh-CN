@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29506a30f20056b422b7780896d5661326986e0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198657"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793271"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -74,7 +74,7 @@ _图 1-本指南中涵盖的关键操作区域_
 
 或者, 你可以将以下角色分配给 Office 365 用户帐户, 以仅允许访问报告功能。
 
--   **报表读者:** 可以查看 Office 365 管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)、 [Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的任何报表和 CQD 报表。
+-   **报表读者:** 可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)、 [Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的任何报表和 CQD 报表。
 
 ## <a name="what-is-quality"></a>什么是质量？
 

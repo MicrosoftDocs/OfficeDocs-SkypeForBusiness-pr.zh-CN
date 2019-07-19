@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290070"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792889"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 
@@ -61,7 +61,7 @@ ms.locfileid: "34290070"
 
  **若要获取音频会议和通信点数：**
 
-1. 登录 Office 365 管理中心。
+1. 登录管理中心。
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -73,7 +73,7 @@ ms.locfileid: "34290070"
 
 1. 切换到 E1 或 E3 计划。
 
-2. 转到 Office 365 管理中心 > **开单** > **订阅**。
+2. 转到管理中心 >**帐单** > **订阅**。
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

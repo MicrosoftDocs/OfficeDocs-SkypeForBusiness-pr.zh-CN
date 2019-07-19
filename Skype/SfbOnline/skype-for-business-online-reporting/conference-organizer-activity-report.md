@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 52d063d4457459efe888b90a072081eb05c94bcf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280780"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793183"
 ---
 # <a name="conference-organizer-activity-report"></a>会议组织者活动报告
 
@@ -35,11 +35,11 @@ ms.locfileid: "34280780"
 此报告以及其他 Skype for Business 报告提供了有关组织中的组织内会议活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。 
   
 > [!NOTE]
-> [!注释] 以管理员身份登录 Office 365 管理中心后，可以查看所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>如何访问 Skype for Business 会议组织者报告
 
-1. 转到**Office 365 管理中心** > **报告** > **使用率**。
+1. 转到管理中心 >**报告** > **使用情况**。
     
 2. 在 "**使用情况**" 页面上, 单击左侧的 "**选择报表" 列表**中的 " **Skype for business 会议组织者活动**"。 或者, 单击 " **skype For business 活动**" 小组件, 然后单击 "skype for business**活动**" 列表上的 " **skype for business 会议组织者活动**"。
     
@@ -97,7 +97,7 @@ ms.locfileid: "34280780"
 * **"拨入 Microsoft 分钟**数" 显示使用 Microsoft 作为音频会议提供商组织的会议中使用的拨入分钟总数。 
 * **拨出 Microsoft 分钟**数显示在组织中使用 Microsoft 作为音频会议提供商的会议中使用的拨出分钟总数。 
 
-如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[Office 365 管理中心的活动报表中](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)的 "**如何隐藏用户级别的详细信息？** " 部分。
+如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[管理中心的活动报表中](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)的 "**如何隐藏用户级别的详细信息？** " 部分。
 ***
 ![数字9](../images/sfbcallout9.png)<br/>你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> !["Skype for business 报告导出" 按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
 ***
@@ -122,7 +122,7 @@ ms.locfileid: "34280780"
 - [Skype For business 会话详细信息报告](session-details-report.md)你可以查看有关单个用户的呼叫体验的详细信息。
 
 ## <a name="related-topics"></a>相关主题
-[Office 365 管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

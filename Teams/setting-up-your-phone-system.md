@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统 (云 PBX)。 '
-ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643160"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793165"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -252,7 +252,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. 使用你的工作或学校帐户登录 Microsoft 365。
 
-2. 在 Office 365 管理中心的左侧导航窗格中，转到 **帐单** > **订阅** > **加载项** > **购买加载项**，然后选择 **通信点数** > **立即购买**。
+2. 在管理中心的左侧导航中, 转到 "**计费** > **订阅** > **加载项** > **购买加载项**", 然后选择 "**立即购买**的**通讯点数** > "。
 
 3. 在**通信点数**订阅页中，填写您的信息，然后单击**下一步**。
 

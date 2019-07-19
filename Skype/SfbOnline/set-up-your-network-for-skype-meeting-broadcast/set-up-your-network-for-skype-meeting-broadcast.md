@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: f9a85a1f64f88b55d99c7a27694a46b7ea885849
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301285"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792917"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>设置 Skype 会议直播网络
 
@@ -39,9 +39,9 @@ ms.locfileid: "34301285"
 
 ## #
 
- **方法 1: 使用 Office 365 管理中心**
+ **方法 1: 使用管理中心**
 
-1. 转到**Office 365 管理中心**, 然后在左侧导航栏中, 单击 "**设置** > **服务&amp;加载项**", 然后选择 " **Skype for**business"。
+1. 转到管理中心, 然后在左侧导航栏中, 单击 "**设置** > **服务&amp;加载项**", 然后选择 " **Skype for**business"。
 
 2. 在 "**外部共享**" 页面上的 "**域例外**" 下, 选择 "**所有域均被阻止, 但不**包括", 然后输入以逗号 (,) 分隔的以下域:
 

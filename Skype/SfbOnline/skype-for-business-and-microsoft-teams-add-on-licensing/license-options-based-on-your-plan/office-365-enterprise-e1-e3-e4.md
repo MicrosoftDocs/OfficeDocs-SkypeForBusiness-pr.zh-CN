@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290053"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792879"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
@@ -44,7 +44,7 @@ ms.locfileid: "34290053"
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 和 E3 客户：如何查看价格并购买
 <a name="bkmk_buypremium"> </a>
 
-1. 登录 Office 365 管理中心。
+1. 登录管理中心。
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -59,14 +59,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Sign in to the Office 365 admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
+2. 登录管理中心, 然后转到 "**计费** > **订阅** > "**加载项**。
 
     现在, 你将看到购买**电话系统**和**音频会议**加载项的价格和选项。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>为什么我没有看到用于购买附加许可证的选项？
 <a name="bkmk_how"> </a>
 
-少数情况下，在 Skype for Business中看不到用于购买 Office 365 管理中心 附加许可证的选项。
+在某些情况下, 在 Microsoft 365 管理中心中看不到用于购买 Skype for Business 加载项的选项。
 
 - **你已通过 GoDaddy 购买了 Office 365 商业高级版** 。 在这种情况下，你无法购买 Skype for Business 附加许可证。 您需要切换到 E3 计划 (GoDaddy 不销售的计划), 然后您可以购买它们。 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解有关引脚以及如何在 Skype for Business Online 中重置它们的信息。 '
-ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299083"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792275"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在 Skype for Business Online 中重置音频会议 PIN
 
@@ -40,7 +40,7 @@ PIN 是由为每个启用了音频会议的 Skype for business 用户创建的�
 
 1. 使用你的工作或学校帐户登录 Office 365。
     
-2. 转到**Office 365 管理中心** > **Skype for**business, 然后在左侧导航中单击 "**音频会议**"。
+2. 转到管理中心 > **Skype for**business, 然后在左侧导航中单击 "**音频会议**"。
     
 3. 单击 "**用户**", 选择要为其重置 PIN 的用户。
     
@@ -91,7 +91,7 @@ PIN 是由为每个启用了音频会议的 Skype for business 用户创建的�
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在使用 Office 365 管理中心的速度、简洁性和效率方面具有许多优势, 例如, 当您在一次为多个用户进行设置更改时。 请在以下主题中了解这些优点：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你在一次为多个用户进行设置更改时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
