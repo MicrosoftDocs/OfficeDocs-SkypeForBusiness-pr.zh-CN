@@ -41,6 +41,7 @@
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [在 Teams 租户应用目录中发布应用](tenant-apps-catalog-teams.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 
