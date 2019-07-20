@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652743"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804758"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -117,3 +117,4 @@ ms.locfileid: "34652743"
 
 - [利用 Microsoft 团队实现团队协作](https://aka.ms/edx-cld267x-about)
 - [Microsoft 服务采纳专家](https://aka.ms/AdoptionCert)
+- [30交互式培训中的团队](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
