@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c139efb2079a010c802b1c49ab18e0297cd8520
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5c9c0986053fbfa5df2369205f75718abf5f114a
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221904"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804870"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -51,15 +51,19 @@ ms.locfileid: "35221904"
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>仅允许团队所有者发布到常规频道
 
-只需将团队所有者发布到常规频道, 即可减少频道噪音。 转到团队, 然后单击 "**更多选项** > **管理团队**"。 在 "**设置**" 选项卡上, 单击 "**成员权限**", 然后选择 "**仅所有者可以发布邮件**"。
+只需将团队所有者发布到常规频道, 即可减少频道噪音。 转到团队, 然后单击 " **̇̇̇更多选项** > "**管理团队**。 在 "**设置**" 选项卡上, 单击 "**成员权限**" > 选择 "**仅所有者可以发布邮件**"。
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>关闭 @team 和 @ [团队名称] 提及
 
-减少 @mentions 使其避免整个组织的过载。 转到团队, 然后单击 "**更多选项** > **管理团队**"。 在 "**设置**" 选项卡上, 单击 " <strong>@mentions</strong>", 然后关闭 **"显示成员" 选项 @team 或 @ [团队名称]**。
+ 减少 @mentions 使其避免整个组织的过载。 转到团队, 然后单击 " **̇̇̇更多选项** > "**管理团队**。 在 "**设置**" 选项卡上, 单击 " <strong>@mentions</strong> " > 关闭 **"显示成员" 选项 @team 或 @ [团队名称]**。 
 
 ### <a name="automatically-favorite-important-channels"></a>自动收藏重要频道
 
 收藏的重要频道, 确保您的组织中的每个人都参与特定对话。 若要了解详细信息, 请参阅[整个团队的自动常用频道](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)。
+
+### <a name="set-up-channel-moderation"></a>设置频道裁决
+
+考虑设置渠道裁决并向特定团队成员提供版主功能。 (如果设置了 "裁决", 团队所有者将自动获得仲裁人功能。)审阅人可以控制哪些人可以在频道中开始新文章、添加和删除审阅人、控制团队成员是否可以答复现有频道邮件以及控制机器人和连接器是否可以提交频道消息。 有关详细信息, 请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
 
 ### <a name="remove-accounts-that-might-not-belong"></a>删除可能不属于的帐户
 

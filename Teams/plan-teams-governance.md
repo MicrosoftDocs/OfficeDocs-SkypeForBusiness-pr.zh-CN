@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10fb80667a957ac4f4a7d9e25713a9232129b0b7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344377"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804862"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -62,11 +62,11 @@ ms.locfileid: "34344377"
 
 确定你的要求后, 你可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南, 请参阅:
 
--   [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
+- [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
--   [在 Azure Active Directory 中强制使用 Office 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+- [在 Azure Active Directory 中强制使用 Office 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
 
--   [Office 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Office 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
@@ -94,11 +94,11 @@ ms.locfileid: "34344377"
 
 有关如何实现这些设置的技术指南, 请参阅:
 
--   [设置 Office 365 组过期时间](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
+- [设置 Office 365 组过期时间](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
--   [设置团队保留策略](retention-policies.md)。
+- [设置团队保留策略](retention-policies.md)。
 
--   [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
+- [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
 
 
 ## <a name="teams-feature-management"></a>团队功能管理
@@ -117,10 +117,12 @@ ms.locfileid: "34344377"
 
 有关所有设置的详细列表, 包括有关如何为你的组织实施它们的技术指南, 请参阅以下文章:
 
--   [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
--   [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
--   [管理团队中的会议策略](meeting-policies-in-teams.md)
+- [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
+- [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [管理团队中的会议策略](meeting-policies-in-teams.md)
+- [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
 
+此外, 你可以为频道设置裁决, 并向特定用户提供审阅者的功能, 以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息, 请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
 
 ## <a name="security-and-compliance"></a>安全性和合规性
 
