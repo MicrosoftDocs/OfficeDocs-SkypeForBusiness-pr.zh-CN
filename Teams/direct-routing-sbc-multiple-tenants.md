@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062392"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821067"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -114,7 +114,7 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 1.  在 Microsoft 365 管理中心中, 转到 "**设置** > **域** > **添加域**"。
 2.  在 "**输入您拥有的域**" 框中, 键入基础域的 FQDN。 在以下示例中, 基本域为*customers.adatum.biz*。
 
-    ![显示 "添加域" 页面的屏幕截图]](media/direct-routing-2-sbc-add-domain)
+    ![显示 "添加域" 页面的屏幕截图](media/direct-routing-2-sbc-add-domain.png)
 
 3. 单击" **下一步**"。
 4. 在此示例中, 租户已将 adatum.biz 作为已验证的域名。 由于 customers.adatum.biz 是已注册名称的子域, 该向导不会要求进行其他验证。 但是, 如果你添加以前未验证的 FQDN, 你将需要完成验证过程。 验证过程[如下所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。

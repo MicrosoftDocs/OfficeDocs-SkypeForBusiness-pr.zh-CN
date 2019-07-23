@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818173"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820982"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -43,7 +43,7 @@ _图1。组织的网络和 Office 365 服务之间的关系_
 
 ![网络和服务之间的关系的插图](media/Qos-in-Teams-Image1.png "组织的网络和 Office 365 服务之间的关系: 本地网络和设备与互连网络连接, 后者又与 Office 365 云语音和音频会议服务连接。")
 
-在大多数情况下, 将你的企业连接到云的网络将是无法可靠地设置 QoS 选项的非托管网络。 用于解决端到端 QoS 的一个选择是[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), 但我们仍建议你在本地网络上实现 QoS。 这将提高整个部署中实时通信工作负荷的质量并减少 chokepoints。
+在大多数情况下, 将你的企业连接到云的网络将是无法可靠地设置 QoS 选项的非托管网络。 用于解决端到端 QoS 的一个选择是[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), 但我们仍建议你在本地网络上为入站和出站流量实现 QoS。 这将提高整个部署中实时通信工作负荷的质量并减少 chokepoints。
 
 ## <a name="verify-your-network-is-ready"></a>验证网络是否已准备好
 

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818213"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821059"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -213,16 +213,16 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 
    [规划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [规划云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [规划云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [配置本地资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [配置本地资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 对于团队或 Skype for Business Online 中的实施:
 
    [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
 
-   [设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [设置云自动助理](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)
 

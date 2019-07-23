@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4af2c6870cb636703ae35a9d3c7c5c19bd2f3105
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221665"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804681"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -37,7 +37,7 @@ ms.locfileid: "35221665"
 
 借助“来宾访问”功能，你组织中的团队可通过在你的一个或多个租户中向组织外部人员授予现有团队和频道的访问权限，与他们进行协作。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。
 
-所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能（没有额外的许可要求）。 最多可租户上对每个许可用户添加 5 名来宾。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/zh-CN/azure/active-directory/b2b/licensing-guidance)。 
+许多 Office 365 订阅都包含来宾访问功能，而无额外的许可要求。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 来宾访问是 Microsoft Teams 中的租户级别设置且默认关闭。 来宾访问受制于 Azure AD 和 Office 365 服务限制。
 

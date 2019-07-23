@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队共享文件
+title: 在 Microsoft Teams 中共享文件
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,57 +8,58 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Microsoft 团队使用 OneDrive 和 SharePoint 中的设置来控制共享。
+description: Microsoft 团队使用 OneDrive 和 SharePoint 中的设置控制共享。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f4ee036c951197e697c1f74bffb5c079d85bc3
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 8ddb342af669f710bfd9d05c8b21290ebc6e0451
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835072"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821044"
 ---
-# <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft 团队共享文件
+# <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-文件共享中团队功能使用户可以与其他组织中的团队用户共享内容。 团队中的共享基于以便任何您为 SharePoint 和设置 OneDrive 以及共享团队将控制 SharePoint 和 OneDrive 中配置的设置。
+团队中的文件共享功能允许用户与组织中的其他团队用户共享内容。 团队中的共享基于 SharePoint 和 OneDrive 中配置的设置, 因此你为 SharePoint 和 OneDrive 设置的任何内容也将控制团队中的共享。
+![图表指示文件共享在团队和 OneDrive for business 和 SharePoint 之间的工作方式](media/sharing-files-in-teams-image1.png)
 
-团队共享允许用户执行下列操作：
+团队共享允许用户执行下列操作:
 
-- 共享 OneDrive 的文件。
+- 从 OneDrive 共享文件。
 
-- 为要与其他人共享的文件设置权限。
+- 设置要与其他人共享的文件的权限。
 
-- 通过团队共享文件。
+- 跨团队共享文件。
 
-- 共享他们的最近访问的文件列表中的文件 （通常情况下，这些是用户最感兴趣共享的文件）。
+- 从其最近访问的文件列表中共享文件 (通常, 这些文件是用户最感兴趣的共享文件)。
 
-- 保持团队中，当他们单击打开文件的文件名。
+- 在团队中单击文件名以打开文件时, 请将其保留在团队内。
 
-团队缩短长 SharePoint URL 和浏览器指向文件的 URL。 团队使用是文件名链接到的文件。 此外，**获取链接**选项已更改为**复制链接**以消除混乱用户可能需要有关允许其他人访问文件。
+团队缩短了指向文件的长 SharePoint URL 和浏览器 URL。 团队只使用文件名链接到文件。 此外, "**获取链接**" 选项已更改为 "**复制链接**", 以消除用户对文件的访问权限所产生的任何混乱。
 
-## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>配置 OneDrive 和 SharePoint 中共享
+## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>在 OneDrive 和 SharePoint 中配置共享
 
-有关共享文件中的 OneDrive 和 SharePoint 的详细信息，包括如何配置共享以及如何启用共享的打开和关闭，请参阅：
+有关在 OneDrive 和 SharePoint 中共享文件的详细信息, 包括如何配置共享以及如何打开和关闭共享, 请参阅:
 
-- [外部共享概述](https://docs.microsoft.com/sharepoint/external-sharing-overview)-介绍用户共享，具体取决于他们正在共享和与之联系时，会发生什么情况。
+- [外部共享概述](https://docs.microsoft.com/sharepoint/external-sharing-overview)-介绍用户共享时所发生的情况, 具体取决于他们共享的内容和用户。
 
-- [启用外部打开或关闭共享](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)-介绍如何全局和 SharePoint 管理员可以更改 SharePoint 和 OneDrive 其组织级共享设置。
+- [启用或禁用外部共享](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)-介绍全局管理员和 sharepoint 管理员如何更改其组织级别的 SharePoint 和 OneDrive 共享设置。
 
-- [外部共享网站更改](https://docs.microsoft.com/sharepoint/change-external-sharing-site)– 介绍如何全局和 SharePoint 管理员可以启用外部打开或关闭共享网站。
+- [更改网站的外部共享](https://docs.microsoft.com/sharepoint/change-external-sharing-site)-介绍全局管理员和 SharePoint 管理员如何为网站打开或关闭外部共享。
 
-- [更改时用户获取共享链接的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)-介绍如何设置的默认链接类型，以使它位于限制更加严格。
+- [更改用户获取用于共享的链接时的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)-介绍如何设置默认链接类型, 以使其更具限制性。
 
 ## <a name="more-information"></a>详细信息
 
 - [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](sharepoint-onedrive-interact.md)
 
-- [SharePoint 和团队： 携手共赢](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+- [SharePoint 和团队: 更好地协作](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 
 - [共享 OneDrive 文件和文件夹](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 

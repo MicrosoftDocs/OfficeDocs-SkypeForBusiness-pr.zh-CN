@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221330"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804838"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -93,6 +93,17 @@ ms.locfileid: "35221330"
 经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。
 <ul class="panelContent cardsW">
     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>在 30 天内掌握 Teams 的用法</h3>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">现场互动研讨会旨在让你在短短 30 天内掌握 Teams 的用法。</a></p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
