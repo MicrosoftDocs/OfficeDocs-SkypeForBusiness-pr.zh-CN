@@ -13,12 +13,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: c5bdee072b36b455afa109113a143a472a10726d
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 828bd8195a00fc54c9c20ffa45cf72cebfb92002
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548228"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804846"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -148,7 +148,7 @@ ms.locfileid: "34548228"
                                     </div>
                                 </div>
                             </a>
-                        </li>
+                        </li> 
                         <li>
                             <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
                                 <div class="cardSize">

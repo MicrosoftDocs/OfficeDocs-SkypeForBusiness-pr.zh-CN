@@ -18,41 +18,41 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643168"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818213"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
-资源帐户在 Azure Active Directory 中也称为已禁用的用户对象, 并且可用于表示常规资源。 例如, 在 Exchange 中, 它可能用于表示会议室, 并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
+资源帐户在 Azure Active Directory 中也称为*已禁用的用户对象*, 并且可用于表示常规资源。 例如, 在 Exchange 中, 它可能用于表示会议室, 并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
 
-在 Microsoft 团队或 Skype for business Online 中, 每个呼叫队列或自动助理都必须具有关联的资源帐户。 资源帐户是否需要分配的电话号码取决于关联呼叫队列或自动助理的预期用途。 在将电话号码分配给资源帐户之前, 请参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
+在 Microsoft 团队或 Skype for business Online 中, 每个电话系统呼叫队列或自动助理都必须具有关联的资源帐户。 资源帐户是否需要分配的电话号码取决于关联呼叫队列或自动助理的预期用途。 在将电话号码分配给资源帐户之前, 请参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
 
 > [!NOTE]
 > 本文适用于 Microsoft 团队和 Skype for business Online。 对于驻留在 Skype for business Server 2019 上的资源帐户, 请参阅[配置资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra)。
 
+
 ## <a name="overview"></a>概述
 
-如果您的电话系统服务需要服务号码, 则可以按以下顺序满足各种相关性:
+假设您的组织至少使用一个电话系统许可证, 若要为电话号码分配电话号码, 您需要按以下顺序解决各种相关性:
 
 1. 获取服务号码。
-2. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
-3. 获取电话系统或电话系统虚拟用户许可证。
-4. 购买国内或国际通话计划。
-5. 将电话系统或电话系统虚拟用户许可证分配给资源帐户。
-6. 将呼叫计划许可证分配给资源帐户。
-7. 为资源帐户分配通讯信用许可证。
-8. 为你的组织设置通信信用点数并设置自动重新充电。
-9. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
-10. 创建电话系统服务 (呼叫队列或自动助理)。
-11. 将资源帐户与服务链接。
+2. 获取用于资源帐户的电话系统[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或普通电话系统许可证。
+3. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
+4. 将电话系统或电话系统虚拟用户许可证分配给资源帐户。
+5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
+6. 创建电话系统服务 (呼叫队列或自动助理)。
+7. 将资源帐户与服务链接。
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下方, 并且如果你希望将多个点输入到自动助理的结构中并调用队列, 则关联的资源帐户仅需要电话号码。
 
 若要将呼叫重定向到您的组织中联机的人员, 他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话计划。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 要为他们启用企业语音，可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+
+> [!WARNING]
+> 为了避免资源帐户出现问题, 请按照此顺序执行这些步骤。
 
 如果你要创建的电话系统服务将嵌套, 并且不需要电话号码, 则过程如下:
 
@@ -70,18 +70,16 @@ ms.locfileid: "35643168"
 
    如果您要为资源帐户分配电话号码, 您现在可以使用免费的电话系统虚拟用户许可证。 这将为组织级别的电话号码提供电话系统功能, 并允许你创建自动助理和呼叫队列功能。
 
-2. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
-3. 获取电话系统或电话系统虚拟用户许可证。 从 Microsoft 365 管理中心, 转到 "**计费** > **购买服务** > **附加订阅**", 然后滚动到 "结束"-您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。
-4. 购买国内或国际[通话计划](calling-plans-for-office-365.md)。
-5. 将电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
-6. 将呼叫计划许可证分配给资源帐户。 有关详细信息, 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
-7. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
-8. 为你的组织设置通信信用点数并设置自动重新充电。 为资源帐户[分配通讯信用许可证](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users)。
-9. [将服务电话号码分配](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge)给您刚向其分配许可证的资源帐户。 
-10. 设置下列内容之一:
+2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。 
+
+   若要获取虚拟许可证, 请从 Microsoft 365 管理中心转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束", 你将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零, 但仍需按照这些步骤获取许可证。
+3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
+4. 将[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
+6. 设置下列内容之一:
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
-11. 将资源帐户链接到自动助理或呼叫队列。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+7. 将资源帐户链接到自动助理或呼叫队列。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>创建不带电话号码的资源帐户
 
@@ -119,9 +117,16 @@ ms.locfileid: "35643168"
 若要将直接路由或混合号码分配给资源帐户, 您需要使用 PowerShell, 请参阅以下部分。
 
 > [!IMPORTANT]
-> 如果你的租户没有电话系统许可证, 则当你尝试将电话号码分配给资源帐户时, 内部检查将导致失败。 您无法分配该号码或将资源帐户与服务相关联。
+> 如果你的资源帐户没有虚拟用户或电话系统许可证, 则当你尝试将电话号码分配给资源帐户时, 内部检查将导致失败。 您无法分配该号码或将资源帐户与服务相关联。
 
 !["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
+
+## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>更改现有资源帐户以使用虚拟用户许可证
+
+如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证, 你需要 aquire "免费虚拟用户" 许可证, 然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到不同的订阅](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+
+> [!WARNING]
+> 始终删除完整的电话系统许可证, 并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证, 请保存帐户更改, 添加新许可证, 然后再次保存帐户设置, 资源帐户可能不再按预期运行。 如果发生这种情况, 我们建议你为虚拟用户许可证创建新的资源帐户, 并删除断开的资源帐户。 
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
@@ -198,6 +203,7 @@ Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 ``` Powershell
 Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
 ```
+
 > [!NOTE]
 > 在运行 cmldet 后刷新团队管理中心网页, 您应该能够正确分配号码。
 
@@ -205,20 +211,25 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 
 对于与 Skype for business 服务器混合的实现:
 
-[规划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+   [规划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+  
+   [规划云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   
+   [配置本地资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
 
-[配置云自动助理](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 对于团队或 Skype for Business Online 中的实施:
 
-[什么是云自动助理？](what-are-phone-system-auto-attendants.md)
+   [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
 
-[设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [设置云自动助理](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)
+   [小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)
 
-[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+   [创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [新-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)

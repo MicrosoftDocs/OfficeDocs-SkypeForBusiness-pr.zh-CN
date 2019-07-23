@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222035"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818173"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -37,7 +37,7 @@ QoS 是一种允许实时网络流量 (如语音或视频流) 对网络延迟 (�
 
 解决这些问题的最简单的方法是在内部和 internet 上增加数据连接的大小。 由于这通常是成本不受影响的, 因此 QoS 提供了一种更高效地管理您所拥有的资源 (而不是添加新资源) 的方法。 若要完全解决质量问题, 请在实现中使用 QoS, 然后仅在绝对必要的位置添加连接。
 
-为了使 QoS 有效, 您必须在您的组织中应用一致的 QoS 设置端到端 (包括所有用户电脑、网络开关和 internet 的路由器), 因为无法支持 QoS 优先级的路径的任何部分可能会降低通话、视频和屏幕共享的质量。
+为了使 QoS 生效, 你的组织中的一致 QoS 设置将在你的组织中最终应用, 因为无法支持 QoS 优先级的路径的任何部分可能会降低呼叫、视频和屏幕共享的质量。 这包括将设置应用到所有用户电脑或设备、网络交换机、互联网路由器以及团队联机服务。
 
 _图1。组织的网络和 Office 365 服务之间的关系_
 
