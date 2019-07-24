@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本文介绍如何为在 Windows 10 上运行的客户端在 Skype for Business Server 中配置客户端的端口范围和配置服务质量策略。
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204012"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841467"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>为 Skype for Business Server 中的客户端配置端口范围和服务质量策略
 
@@ -221,7 +221,7 @@ ms.locfileid: "35204012"
 
 在客户端计算机上刷新组策略之前, 你创建的新策略将不会生效。 尽管组策略会自己定期刷新，但你可以在需要刷新组策略的每台计算机上运行以下命令，强制立即刷新：
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 此命令可以从在管理员凭据下运行的任何命令窗口运行。 若要在管理员凭据下运行命令窗口，请单击“**开始**”，右键单击“**命令提示符**”，然后单击“**以管理员身份运行**”。
 

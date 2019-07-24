@@ -18,18 +18,20 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821059"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841474"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
 资源帐户在 Azure Active Directory 中也称为*已禁用的用户对象*, 并且可用于表示常规资源。 例如, 在 Exchange 中, 它可能用于表示会议室, 并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
 
-在 Microsoft 团队或 Skype for business Online 中, 每个电话系统呼叫队列或自动助理都必须具有关联的资源帐户。 资源帐户是否需要分配的电话号码取决于关联呼叫队列或自动助理的预期用途。 在将电话号码分配给资源帐户之前, 请参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
+在 Microsoft 团队或 Skype for business Online 中, 每个电话系统呼叫队列或自动助理都必须具有关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于关联呼叫队列或自动助理的预期用途, 如下图所示。 在将电话号码分配给资源帐户之前, 还可以参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
+
+![资源帐户和用户许可证的示例](media/resource-account.png)
 
 > [!NOTE]
 > 本文适用于 Microsoft 团队和 Skype for business Online。 对于驻留在 Skype for business Server 2019 上的资源帐户, 请参阅[配置资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra)。
@@ -37,12 +39,12 @@ ms.locfileid: "35821059"
 
 ## <a name="overview"></a>概述
 
-假设您的组织至少使用一个电话系统许可证, 若要为电话号码分配电话号码, 您需要按以下顺序解决各种相关性:
+假设您的组织已使用至少一个电话系统许可证, 若要为电话号码分配电话号码, 您需要按以下顺序处理各种相关性:
 
 1. 获取服务号码。
-2. 获取用于资源帐户的电话系统[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或普通电话系统许可证。
+2. 获取一个免费的电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或一个付费电话系统许可证, 以便与资源帐户一起使用。
 3. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
-4. 将电话系统或电话系统虚拟用户许可证分配给资源帐户。
+4. 为资源帐户分配电话系统或电话系统-虚拟用户许可证。
 5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
 6. 创建电话系统服务 (呼叫队列或自动助理)。
 7. 将资源帐户与服务链接。
@@ -62,7 +64,7 @@ ms.locfileid: "35821059"
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>使用电话号码创建资源帐户
 
-创建使用电话号码的资源帐户需要按以下顺序执行以下任务:
+顶级自动助理或呼叫队列将要求将电话号码链接到其自动助理。 创建使用电话号码的资源帐户需要按以下顺序执行以下任务:
 
 1. 或获取收费或免费服务号码。 该号码不能分配给任何其他语音服务或资源帐户。
 
@@ -72,9 +74,9 @@ ms.locfileid: "35821059"
 
 2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。 
 
-   若要获取虚拟许可证, 请从 Microsoft 365 管理中心转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束", 你将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零, 但仍需按照这些步骤获取许可证。
+   若要获取虚拟用户许可证, 从 Microsoft 365 管理中心开始, 请转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束", 您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零, 但仍需按照这些步骤获取许可证。
 3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
-4. 将[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+4. 为资源帐户分配电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 6. 设置下列内容之一:
    - [云自动助理](create-a-phone-system-auto-attendant.md)
@@ -83,13 +85,14 @@ ms.locfileid: "35821059"
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>创建不带电话号码的资源帐户
 
-创建不需要电话号码的资源帐户需要按以下顺序执行以下任务:
+嵌套的自动助理或呼叫队列将需要资源帐户, 但在许多情况下, 相应的资源帐户不需要电话号码和支持电话号码所需的许可。  创建不需要电话号码的资源帐户需要按以下顺序执行以下任务:
 
 1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
 2. 设置下列内容之一:
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
 3. 将资源帐户分配给服务。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
 
@@ -232,4 +235,4 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 
 [新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
+[电话系统-虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
