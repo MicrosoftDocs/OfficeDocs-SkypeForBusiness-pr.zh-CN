@@ -759,6 +759,7 @@
 ### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
 ### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
 ### [消息策略许可](teams-add-on-licensing/pri-message.md)
+### [虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
 
 
 ## 与 Office 365 的互操作性
