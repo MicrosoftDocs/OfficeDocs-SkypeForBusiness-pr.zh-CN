@@ -484,6 +484,8 @@
 ### [用户帐户](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [自定义属性](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [管理服务](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [备份 RGS 数据](../backup-rgs-data.md)
+### [使用 SEFAUtil](../sefautil-functionality.md)
 ## [管理工具](../management-tools-2019.md)
 ### [Skype for Business Server 的呼叫质量仪表板](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [呼叫质量仪表板规划](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
