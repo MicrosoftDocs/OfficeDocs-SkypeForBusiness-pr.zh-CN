@@ -18,43 +18,43 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2a87feab04e28f2219acc31cce1d4c60a76a530
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32190180"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851496"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-以下 Office 365 订阅将为用户启用团队。
+以下 Office 365 订阅使用户可以使用团队。
 
 |小型企业版计划  |企业版计划  |教育版计划  |开发人员计划 |
 |---------|---------|---------|---------|
 |Office 365 商业协作版     |Office 365 企业版 E1  |Office 365 教育版 |Office 365 开发人员     |
 |Office 365 商业高级版     |Office 365 企业版 E3         |Office 365 教育增强版         |      |
-|     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |  |
+|Microsoft 365 for business     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |  |
 |     |Office 365 企业版 E5         |Office 365 教育版 E5  | 
 |     |Office 365 企业版 F1 |    |     | 
 
-有关获取团队的详细信息，请查看[如何获取 Microsoft 团队访问？](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+有关获取团队的详细信息, 请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> Teams 也适用于非盈利组织。 团队将开始推出的美国政府云社区 (GCC) 在年 7 月 17 日，并可供所有合格客户年 8 月 2018年结束。 我们正在置于的其他美国政府云 （GCC 高和 DoD） 的 Microsoft 团队即将提供。 更多的 Microsoft 团队博客中阅读[此处](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
+> Teams 也适用于非盈利组织。 团队将于7月17日开始推出美国政府云社区 (GCC), 并在2018年8月结束时供所有符合条件的客户使用。 我们正在努力将 Microsoft 团队带入其他美国政府群 (即 GCC 高级版和 DoD)。 请在[此处](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)阅读有关 Microsoft 团队博客的详细信息。
 
 > [!NOTE]
-> 启动年 10 月 1 2018年 500 座位或更少的新 Office 365 客户将向工作组 onboarded，并且将无法访问 Skype 业务 online。 已使用 Skype 的业务联机都将能够继续进行的租户 （包括设置新的用户） 是直至其过渡到团队。 若要了解详细信息，请参阅[Microsoft 团队现在主客户端的会议和 Office 365 中调用](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
+> 从2018年10月1日开始, 将向团队 onboarded 或更少500的新 Office 365 客户, 并且无法访问 Skype for Business Online。 已使用 Skype for Business Online 的租户将能够继续执行此操作 (包括预配新用户), 直到他们完成到团队的过渡。 若要了解详细信息, 请参阅[Microsoft 团队现在是会议的主要客户和 Office 365 中的通话](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
         
-团队核心功能方面没有任何区别的 Office 365 订阅。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 每个订阅中可用的功能的详细列表，请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
+在团队核心功能方面, Office 365 订阅之间没有区别。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 有关每个订阅中可用的功能的详细列表, 请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 
-**云语音功能**： 的音频会议中，您的组织需要购买并将音频会议许可证分配给每个用户都将设置电话拨入式会议。 对于调用计划，每个用户将需要电话系统以及国内或国内和国际呼叫规划。 若要了解详细信息，请参阅[Microsoft 团队加载项授权](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+**云语音功能**: 对于音频会议, 你的组织将需要为每个将要设置电话拨入式会议的用户购买和分配一个音频会议许可证。 对于呼叫计划, 每个用户都需要一个电话系统以及一个国内或国内和国际呼叫计划。 若要了解详细信息, 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 所有支持的订阅计划都符合访问 Teams 的 Web 客户端、桌面客户端和移动应用的条件。
 
 Teams 不作为独立服务提供。
 
 > [!TIP]
-> 若要管理用户级授权，请参阅[管理用户的 Microsoft 团队访问](user-access.md)。
+> 若要管理用户级许可, 请参阅[管理用户对 Microsoft 团队的访问权限](user-access.md)。

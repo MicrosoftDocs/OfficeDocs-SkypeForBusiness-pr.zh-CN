@@ -17,12 +17,12 @@ description: IT 管理员可以为其他域 (联盟) 配置外部访问以允许
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc8d737ada80e6cd7e62e795e820e47246c29715
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 406805760829c2246f47fe9641606eea5b0eadc2
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841459"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861869"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>管理 Microsoft 团队中的外部访问
 ======================================================
@@ -109,9 +109,9 @@ ms.locfileid: "35841459"
 
 外部访问允许你的团队和 Skype for business 用户与你的组织外部的其他用户进行通信。 默认情况下, 你的组织可以与所有外部域通信。 如果添加被阻止的域, 则允许所有其他域, 但如果您添加允许的域, 所有其他域都将被阻止。 您可以轻松地为您的组织设置外部访问。 有三种设置方案:
 
-- **方案 1** -您可以使用**开放联盟**。 这是默认设置, 可让你的组织中的人员查找、呼叫和发送即时消息, 以及与你的组织外部的人员设置会议。
+- **方案 1** -您可以使用**开放联盟**。 这是默认设置, 可让你的组织中的人员查找、呼叫和发送即时消息/聊天, 以及与你的组织外部的人员设置会议。
 
-    使用此设置时, 你的用户可以与运行团队的所有外部域通信, 但已将其域/组织设置为允许你的域。
+    使用此设置时, 你的用户可以与运行团队或 Skype for business 的所有外部域通信, 并且使用开放联盟或已将你的域添加到允许列表。
 
 - **方案 2** -您可以将域或域添加到 "**允许**" 列表。 若要执行此操作, 请单击 "**添加域**", 添加域名, 单击 "**操作" 以在此域上执行操作**, 然后选择 "**允许**"。 请务必知道, 如果执行此操作, 它将**阻止**所有其他域。
 

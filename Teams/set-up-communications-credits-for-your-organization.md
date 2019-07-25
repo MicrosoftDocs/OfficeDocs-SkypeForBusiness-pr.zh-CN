@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298731"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861838"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -35,7 +35,7 @@ ms.locfileid: "34298731"
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。 
   
-## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>步骤 1: 为用户分配音频会议和呼叫计划许可证
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>步骤 1: 为用户分配音频会议或呼叫计划许可证
 
 当您注册时, 您将获得一定的分钟数, 具体取决于您所在的国家/地区。 您可以在此处看到您将在[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)搜索国家或地区的分钟数。 使用这些分钟数后, 通话将断开。 要防止这种情况发生, 您需要设置通讯信用点数。
   

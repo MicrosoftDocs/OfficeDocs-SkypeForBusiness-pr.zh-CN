@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文介绍了部署 Microsoft 团队聊天室的相关规划注意事项, 以及下一代 Skype 会议室系统。
-ms.openlocfilehash: 7b71969358e17b98dbfe5e5437ed4b421c27ea85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288590"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851543"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划 Microsoft 团队聊天室
 
@@ -51,12 +51,13 @@ Microsoft 团队聊天室包含以下关键组件, 可提供出色的用户体�
 
 通常情况下, 捆绑和集成设备包括预安装软件, 而如果您为 Surface Pro 系统单独购买支持的组件, 则需要安装软件。 有关说明, 请参阅[本文了解如何在设备上安装软件](room-systems-scale.md)。 
 
-你可以通过 Microsoft 团队、Skype for business Online 或 Skype for business 混合或内部部署部署 Microsoft 团队聊天室。  有关所需许可证的信息, 请参阅[Microsoft 团队聊天室许可](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。
+你可以通过 Microsoft 团队、Skype for business Online 或 Skype for business 混合或内部部署部署 Microsoft 团队聊天室。  有关所需许可证的信息, 请参阅[团队会议会议室授权更新](skype-room-systems-v2.md)。
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否将在你的组织中部署 Microsoft 团队聊天室？ </li><li>如何购买 Microsoft 团队房间系统-捆绑、作为单独的组件或作为集成单元？</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>确定将在整个部署中执行关键活动的人员。</li><li>查看你拥有的会议室 (并计划设置), 了解你希望在何处部署 Microsoft 团队聊天室以及适合会议室大小的外围设备。</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>确定在整个部署过程中谁将承担关键活动
 
@@ -102,8 +103,6 @@ _会议/会议室库存示例_
 | 伦敦总部 | Curie         | 中        | 6&ndash;12                  | 是          | 话筒                        | 1屏幕, 音频和视频以及演示文稿<br>PSTN 访问 |
 | 悉尼总部 | 山          | 大         | 12&ndash;16                 | 是          | 旧式 AV 设备、1屏幕和照相机 | 2屏、音频和视频以及演示文稿<br>PSTN 访问 |
 
-**Pro 提示**-如果您有多个网站要清点, 您可能希望下载和使用[网站推出和迁移规划-网站调查表](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15)。
-
 ## <a name="device-selection"></a>设备选择 
 
 根据你希望的会议室的未来功能, 评估哪些 Microsoft 团队聊天室解决方案最适合于每个房间。 根据空间大小和布局, 确定哪些 AV 外围设备最合适。 
@@ -128,7 +127,7 @@ _适用于你的组织的 Microsoft 团队聊天室部署模板示例_
 | 中等深浅 18 "x 20"    | 6&ndash;12                  |                                  |                         |                 |
 | 大 15 "x 32"     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro 提示-** 现在是开始收集有关您所选的 Microsoft 团队聊天室解决方案的信息的好时机。 我们建议您与供应商协作, 讨论完成设计模板以捕获将与您的部署相关的信息;您可以从 MyAdvisor[下载此便利模板](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11)。 
+**Pro 提示-** 现在是开始收集有关您所选的 Microsoft 团队聊天室解决方案的信息的好时机。
 
 ## <a name="procurement"></a>无论 
 

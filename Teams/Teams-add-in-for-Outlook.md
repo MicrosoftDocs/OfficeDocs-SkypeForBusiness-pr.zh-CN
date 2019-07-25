@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc685ac4a283d9db1d99b6d766026c5240b2431
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d4d2cb57738083b299a9f43786bdf28f86741a99
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222019"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861674"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -122,6 +122,8 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 重新启动 Outlook 桌面客户端。 (请确保 Outlook 未在管理员模式下运行。)
 - 请确保登录的用户帐户名称不包含空格。 (这是一个已知问题, 将在将来的更新中修复。)
 - 请确保启用单一登录 (SSO)。
+
+如果管理员已将 Microsoft Exchange 配置为[控制对 Exchange Web 服务器 (EWS) 的访问](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), 代理人将无法代表上司安排团队会议。 此配置的解决方案正在开发中, 将在将来发布。 
 
 有关如何禁用外接程序的一般指导，请参阅[在 Office 程序中查看、管理和安装外接程序](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
 

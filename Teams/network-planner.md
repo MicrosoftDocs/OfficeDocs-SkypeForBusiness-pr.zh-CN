@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 4ea6a4a5989df0a780f75220ec314439f7dafcbe
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701564"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861877"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 Planner
 
-欢迎使用网络 Planner。 通过以下几个步骤, 网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时, 网络 Planner 会计算你的网络要求, 以便在组织的物理位置部署团队和云语音。
+网络规划器是团队管理中心提供的新工具。 可通过转到**组织范围内的设置** > **网络 planner**找到它。 通过以下几个步骤, 网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时, 网络 Planner 会计算你的网络要求, 以便在组织的物理位置部署团队和云语音。
 
 ![网络 Planner 的屏幕截图](media/network-planner.png)
 

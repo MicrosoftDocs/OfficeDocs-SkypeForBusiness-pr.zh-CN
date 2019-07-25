@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841474"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861892"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -39,15 +39,17 @@ ms.locfileid: "35841474"
 
 ## <a name="overview"></a>概述
 
-假设您的组织已使用至少一个电话系统许可证, 若要为电话号码分配电话号码, 您需要按以下顺序处理各种相关性:
+假设你的组织已使用至少一个电话系统许可证、分配电话系统呼叫队列或自动助理电话号码, 你将需要按以下顺序解决各种依赖关系:
 
 1. 获取服务号码。
 2. 获取一个免费的电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或一个付费电话系统许可证, 以便与资源帐户一起使用。
 3. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
 4. 为资源帐户分配电话系统或电话系统-虚拟用户许可证。
-5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
-6. 创建电话系统服务 (呼叫队列或自动助理)。
-7. 将资源帐户与服务链接。
+5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。 
+6. 创建电话系统呼叫队列或自动助理
+7. 将资源帐户与呼叫队列或自动助理链接。
+
+
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下方, 并且如果你希望将多个点输入到自动助理的结构中并调用队列, 则关联的资源帐户仅需要电话号码。
 
@@ -56,11 +58,11 @@ ms.locfileid: "35841474"
 > [!WARNING]
 > 为了避免资源帐户出现问题, 请按照此顺序执行这些步骤。
 
-如果你要创建的电话系统服务将嵌套, 并且不需要电话号码, 则过程如下:
+如果您正在创建的电话系统呼叫队列或自动助理将嵌套, 并且不需要电话号码, 则流程如下所示:
 
 1. 创建资源帐户  
-2. 创建电话系统服务
-3. 将资源帐户与电话系统服务相关联
+2. 创建电话系统呼叫队列或自动助理
+3. 将资源帐户与电话系统呼叫队列或自动助理相关联
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>使用电话号码创建资源帐户
 
@@ -91,7 +93,7 @@ ms.locfileid: "35841474"
 2. 设置下列内容之一:
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
-3. 将资源帐户分配给服务。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+3. 将资源帐户分配给呼叫队列或自动助理。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
@@ -120,7 +122,7 @@ ms.locfileid: "35841474"
 若要将直接路由或混合号码分配给资源帐户, 您需要使用 PowerShell, 请参阅以下部分。
 
 > [!IMPORTANT]
-> 如果你的资源帐户没有虚拟用户或电话系统许可证, 则当你尝试将电话号码分配给资源帐户时, 内部检查将导致失败。 您无法分配该号码或将资源帐户与服务相关联。
+> 如果你的资源帐户没有有效的许可证, 则当你尝试将电话号码分配给资源帐户时, 内部检查将导致失败。 您无法分配号码或将资源帐户与呼叫队列或自动助理相关联。
 
 !["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
 
