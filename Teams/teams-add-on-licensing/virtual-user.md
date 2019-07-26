@@ -1,5 +1,5 @@
 ---
-title: '虚拟用户许可证 '
+title: '电话系统-虚拟用户许可证 '
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -18,38 +18,58 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解免费的虚拟用户许可证。
-ms.openlocfilehash: c369624e894bcf3870210d38509d7f5e517bad82
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 73edbae2fce7cdb2ed1fd5c499d58153d91e7086
+ms.sourcegitcommit: 5f3c8ea2b3d68704885d212c8f2787c6bc7d1cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818205"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35907670"
 ---
-# <a name="virtual-user-license"></a><span data-ttu-id="e121a-103">虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e121a-103">Virtual User license</span></span>  
+# <a name="phone-systemvirtual-user-license"></a><span data-ttu-id="e4fde-103">电话系统-虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e4fde-103">Phone System–Virtual User license</span></span> 
 
-<span data-ttu-id="e121a-104">从2019年7月2日开始, 使用电话系统授权用户的组织现在可以为与呼叫队列或需要电话号码的自动助理一起使用的资源帐户分配免费的虚拟用户许可证或全电话系统用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e121a-104">Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user license to resource accounts that are used with Call Queues or Auto Attendants that require a phone number.</span></span>  <span data-ttu-id="e121a-105">不再需要通话计划。</span><span class="sxs-lookup"><span data-stu-id="e121a-105">A Calling Plan is no longer required.</span></span> 
+<span data-ttu-id="e4fde-104">从2019年7月2日起, 具有电话系统许可用户的组织现在可以获取并为资源帐户获取并分配一个免费的电话系统-虚拟用户许可证或付费电话系统用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-104">As of July 2, 2019, an organization with Phone System licensed users can now obtain and assign either a free Phone System–Virtual User license or a paid Phone System user license to resource accounts.</span></span> <span data-ttu-id="e4fde-105">不再需要通话计划。</span><span class="sxs-lookup"><span data-stu-id="e4fde-105">A Calling Plan is no longer required.</span></span> <span data-ttu-id="e4fde-106">所有自动助理或呼叫队列都需要关联的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="e4fde-106">All auto attendants or call queues require an associated resource account.</span></span> <span data-ttu-id="e4fde-107">需要电话号码的资源帐户需要一个免费电话系统-虚拟用户许可证或付费电话系统用户许可证, 然后才能将电话号码应用于资源帐户。</span><span class="sxs-lookup"><span data-stu-id="e4fde-107">Resource accounts that need a phone number need a free Phone System–Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.</span></span>
 
-## <a name="free-virtual-license-scaling"></a><span data-ttu-id="e121a-106">免费的虚拟许可证缩放</span><span class="sxs-lookup"><span data-stu-id="e121a-106">Free Virtual license scaling</span></span>
+> [!TIP]
+> <span data-ttu-id="e4fde-108">对于将与未分配电话号码的嵌套自动助理或通话队列一起使用的资源帐户, 不需要许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-108">No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned.</span></span> <span data-ttu-id="e4fde-109">有关参考, 请参阅下图:</span><span class="sxs-lookup"><span data-stu-id="e4fde-109">See the following diagram for reference:</span></span> 
 
-<span data-ttu-id="e121a-107">你的组织已 alotted 许多免费的虚拟用户许可证, 具体取决于其总体大小。</span><span class="sxs-lookup"><span data-stu-id="e121a-107">Your organization is alotted a number of free Virtual User licenses depending on its overall size.</span></span> <span data-ttu-id="e121a-108">对于至少有一个包含电话系统或已添加电话系统的许可证的组织, 有25个免费许可证可用。</span><span class="sxs-lookup"><span data-stu-id="e121a-108">There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added.</span></span> <span data-ttu-id="e121a-109">对于你的组织中的每个额外10个电话系统用户许可证, 提供了一个额外的免费虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e121a-109">For every additional 10 Phone System user licenses in your organization, an additional free Virtual User license is made available.</span></span>
+![虚拟用户许可证](../media/resource-account.png)
 
-<span data-ttu-id="e121a-110">如果您的组织在创建自动助理或呼叫队列节点时使用其免费许可证, 您仍然可以将常规电话系统许可证与资源帐户一起使用, 但大多数组织都有足够的免费虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e121a-110">If your organization uses up its free licenses in creating auto attendant or call queue nodes, you can still use the regular Phone system licenses with a resource account, but most organizations will have enough free Virtual User licenses.</span></span>  
+## <a name="virtual-user-license-allocation"></a><span data-ttu-id="e4fde-111">虚拟用户许可证分配</span><span class="sxs-lookup"><span data-stu-id="e4fde-111">Virtual User license allocation</span></span>
 
-## <a name="how-to-aquire-virtual-user-licenses"></a><span data-ttu-id="e121a-111">如何 aquire 虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e121a-111">How to aquire Virtual User licenses</span></span> 
+<span data-ttu-id="e4fde-112">您的组织已分配电话系统-根据其总体大小, 虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-112">Your organization is allotted Phone System–Virtual User licenses depending on its overall size.</span></span> <span data-ttu-id="e4fde-113">对于至少有一个包含电话系统或已添加电话系统的许可证的组织, 有25个虚拟用户许可证可用。</span><span class="sxs-lookup"><span data-stu-id="e4fde-113">There are 25 Virtual User licenses available to any organization that has at least one license that includes Phone System or has Phone System added.</span></span> <span data-ttu-id="e4fde-114">当您的组织中添加10个电话系统用户许可证时, 一个更多的电话系统-虚拟用户许可证将变为可用。</span><span class="sxs-lookup"><span data-stu-id="e4fde-114">When you add 10 Phone System user licenses in your organization, one more Phone System–Virtual User license becomes available.</span></span>
 
-1. <span data-ttu-id="e121a-112">登录到 Microsoft 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="e121a-112">Sign in to the Microsoft 365 admin center.</span></span>
-2. <span data-ttu-id="e121a-113">转到**帐单** > **购买服务** > **附加订阅**</span><span class="sxs-lookup"><span data-stu-id="e121a-113">Go to **Billing** > **Purchase services** > **Add-on subscriptions**</span></span>
-3. <span data-ttu-id="e121a-114">滚动到末尾-你将看到 "电话系统-虚拟用户" 许可证。</span><span class="sxs-lookup"><span data-stu-id="e121a-114">Scroll to the end - you will see a "Phone System - Virtual User" license.</span></span> <span data-ttu-id="e121a-115">选择 "**立即购买**"。</span><span class="sxs-lookup"><span data-stu-id="e121a-115">Select **Buy now**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="e4fde-115">电话系统是 Office 365 F1、E1、E3 和 Office Premium 许可证提供的附加许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-115">Phone System is an add-on license available with Office 365 F1, E1, E3, and Office Premium licenses.</span></span> <span data-ttu-id="e4fde-116">电话系统还包含在 Office 365 E5 许可证中。</span><span class="sxs-lookup"><span data-stu-id="e4fde-116">Phone System is also included as part of Office 365 E5 licenses.</span></span>
 
-<span data-ttu-id="e121a-116">请注意, 您仍然需要**购买**许可证, 即使其成本为零。</span><span class="sxs-lookup"><span data-stu-id="e121a-116">Keep in mind you still need to **Buy** the license even though it has a cost of zero.</span></span> 
+<span data-ttu-id="e4fde-117">如果您的组织使用可用的免费电话系统-创建自动助理或呼叫队列节点的虚拟用户许可证, 您仍然可以将付费电话系统许可证用于资源帐户。</span><span class="sxs-lookup"><span data-stu-id="e4fde-117">If your organization uses up the available free Phone System–Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account.</span></span> <span data-ttu-id="e4fde-118">大多数组织都有足够的虚拟用户许可证, 具体取决于缩放计划。</span><span class="sxs-lookup"><span data-stu-id="e4fde-118">Most organizations will have enough Virtual User licenses based on the scaling plan.</span></span> 
 
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a><span data-ttu-id="e121a-117">更改现有资源帐户以使用虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e121a-117">Change an existing resource account to use a Virtual User license</span></span>
+### <a name="license-allocation-example"></a><span data-ttu-id="e4fde-119">许可证分配示例</span><span class="sxs-lookup"><span data-stu-id="e4fde-119">License allocation example</span></span>
 
-<span data-ttu-id="e121a-118">如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证, 你需要 aquire "免费虚拟用户" 许可证, 然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到不同的订阅](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。</span><span class="sxs-lookup"><span data-stu-id="e121a-118">If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to  aquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription).</span></span> 
+<span data-ttu-id="e4fde-120">Contoso、Inc. 购买了包括电话系统的600许可证 (每个员工一个), 因此他们分配了一个初始25和一个额外的60电话系统-虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-120">Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System–Virtual User licenses.</span></span> <span data-ttu-id="e4fde-121">Contoso 总共有85手机系统-虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-121">Contoso has a total of 85 Phone System–Virtual User licenses.</span></span> <span data-ttu-id="e4fde-122">其组织拥有具有电话号码的90通话队列和自动助理。</span><span class="sxs-lookup"><span data-stu-id="e4fde-122">Their organization has 90 call queues and auto attendants that have phone numbers.</span></span> <span data-ttu-id="e4fde-123">他们需要分配所有电话系统-虚拟用户许可证, 并获得五个常规价格的电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-123">They need to assign all the Phone System–Virtual User licenses and obtain five regular-priced Phone System licenses.</span></span> 
+
+<span data-ttu-id="e4fde-124">Contoso 应考虑重新设计自动助理和呼叫队列系统, 以使用较少的电话号码和更多不需要电话号码或任何许可证的嵌套节点。</span><span class="sxs-lookup"><span data-stu-id="e4fde-124">Contoso should consider redesigning the auto attendant and call queue system to use fewer phone numbers and more nested nodes that don't need a phone number or any license.</span></span> <span data-ttu-id="e4fde-125">删除不必要的电话号码可简化实施并降低成本。</span><span class="sxs-lookup"><span data-stu-id="e4fde-125">Removing unnecessary phone numbers simplifies the implementation and reduces costs.</span></span> 
+
+## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a><span data-ttu-id="e4fde-126">如何获取电话系统-虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e4fde-126">How to acquire Phone System–Virtual User licenses</span></span> 
+
+1. <span data-ttu-id="e4fde-127">登录到 Microsoft 365 管理中心。</span><span class="sxs-lookup"><span data-stu-id="e4fde-127">Sign in to the Microsoft 365 admin center.</span></span>
+2. <span data-ttu-id="e4fde-128">转到**帐单** > **购买服务** > **附加订阅**</span><span class="sxs-lookup"><span data-stu-id="e4fde-128">Go to **Billing** > **Purchase services** > **Add-on subscriptions**</span></span>
+3. <span data-ttu-id="e4fde-129">滚动到末尾查找 **"电话系统-虚拟用户"** 许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-129">Scroll to the end to find the **"Phone System–Virtual User"** license.</span></span> <span data-ttu-id="e4fde-130">选择 "**立即购买**"。</span><span class="sxs-lookup"><span data-stu-id="e4fde-130">Select **Buy now**.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="e121a-119">始终删除完整的电话系统许可证, 并在同一许可证活动中分配虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e121a-119">Always remove a full Phone System License and assign the Virtual User license in the same license activity.</span></span> <span data-ttu-id="e121a-120">如果删除旧许可证, 请保存帐户更改, 添加新许可证, 然后再次保存帐户设置, 资源帐户可能不再按预期运行。</span><span class="sxs-lookup"><span data-stu-id="e121a-120">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="e121a-121">如果发生这种情况, 我们建议你为虚拟用户许可证创建新的资源帐户, 并删除断开的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="e121a-121">If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.</span></span>  
+> <span data-ttu-id="e4fde-131">请注意, 您仍然需要**购买**许可证, 即使其成本为零。</span><span class="sxs-lookup"><span data-stu-id="e4fde-131">Keep in mind you still need to **Buy** the license even though it has a cost of zero.</span></span> 
 
-## <a name="related-information"></a><span data-ttu-id="e121a-122">相关信息</span><span class="sxs-lookup"><span data-stu-id="e121a-122">Related information</span></span>
+## <a name="change-an-existing-resource-account-to-use-a-phone-systemvirtual-user-license"></a><span data-ttu-id="e4fde-132">更改现有资源帐户以使用手机系统–虚拟用户许可证</span><span class="sxs-lookup"><span data-stu-id="e4fde-132">Change an existing resource account to use a Phone System–Virtual User license</span></span>
 
-[<span data-ttu-id="e121a-123">自动助理和通话队列服务更新</span><span class="sxs-lookup"><span data-stu-id="e121a-123">Auto Attendant and Call Queues Service Update</span></span>](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+<span data-ttu-id="e4fde-133">如果你决定将资源帐户中的许可证从电话系统许可证切换到电话系统-虚拟用户许可证:</span><span class="sxs-lookup"><span data-stu-id="e4fde-133">If you decide to switch the licenses on your resource account from a Phone System license to a Phone System–Virtual User license:</span></span> 
+
+1. <span data-ttu-id="e4fde-134">获取新的电话系统-虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-134">Get the new Phone System–Virtual User license.</span></span> 
+2. <span data-ttu-id="e4fde-135">按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。</span><span class="sxs-lookup"><span data-stu-id="e4fde-135">Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription).</span></span> 
+
+> [!WARNING]
+> <span data-ttu-id="e4fde-136">始终删除完整的电话系统许可证, 并在同一许可证活动中分配电话系统-虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="e4fde-136">Always remove a full Phone System License and assign the Phone System–Virtual User license in the same license activity.</span></span> <span data-ttu-id="e4fde-137">如果删除旧许可证, 请保存帐户更改, 添加新许可证, 然后再次保存帐户设置, 资源帐户可能不再按预期运行。</span><span class="sxs-lookup"><span data-stu-id="e4fde-137">If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.</span></span> <span data-ttu-id="e4fde-138">如果发生这种情况, 我们建议你为手机系统创建新的资源帐户-虚拟用户许可证并删除断开的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="e4fde-138">If this happens, we recommend you create a new resource account for the Phone System–Virtual User license and remove the broken resource account.</span></span> 
+
+## <a name="related-information"></a><span data-ttu-id="e4fde-139">相关信息</span><span class="sxs-lookup"><span data-stu-id="e4fde-139">Related information</span></span>
+
+[<span data-ttu-id="e4fde-140">自动助理和通话队列服务更新</span><span class="sxs-lookup"><span data-stu-id="e4fde-140">Auto Attendant and Call Queues Service Update</span></span>](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+
+[<span data-ttu-id="e4fde-141">在 Microsoft Teams 中管理资源帐户</span><span class="sxs-lookup"><span data-stu-id="e4fde-141">Manage resource accounts in Microsoft Teams</span></span>](../manage-resource-accounts.md)
