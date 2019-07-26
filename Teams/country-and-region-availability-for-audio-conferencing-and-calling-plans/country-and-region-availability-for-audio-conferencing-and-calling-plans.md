@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数, 以及收费和免费电话号码是否可用。
-ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
+ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330889"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "35908224"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -126,7 +126,7 @@ ms.locfileid: "34330889"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-**如果您要查找包含所有国家和地区的电子表格, 请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**。
+**如果您要查找包含所有国家和地区的电子表格, 请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)**。
 
 ***
 
