@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588084"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925331"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -250,6 +250,10 @@ ms.locfileid: "35588084"
 |:-----|:-----|:-----|:-----|
 |电话号码被阻止：|电话号码被阻止：在删除电话号码前删除资源帐户将会导致相应电话号码被阻止。|请与 Microsoft 支持人员联系，以解禁相应电话号码。|2019 年 5 月 18 日|
 
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法将未应答呼叫配置为转到桌面应用的语音邮件|当用户处于“仅 Teams”模式下时，其 Exchange 邮箱处于本地，如果他们在 Teams 桌面应用中访问“**设置**” > “**呼叫**”，则无法选择将呼叫转发到语音邮件的选项（未应答呼叫或所有呼叫）。 如果已经配置了任一选项，则打开“设置”中的“呼叫”选项卡将禁用转发到语音邮件。|使用 Teams 移动应用配置转发到语音邮件。|2019 年 5 月 27 日|
+
 
 ## <a name="provisioning"></a>预配
 
@@ -344,4 +348,8 @@ ms.locfileid: "35588084"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|编辑后无法移动、删除或重命名文件  <br/> |在 Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |03/12/19  <br/> |
+|编辑后无法移动、删除或重命名文件  <br/> |在 Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |2019 年 3 月 12 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|Symantec DLP 和 Teams 之间的互操作性问题 <br/> |Symantec DLP 终结点代理可能会干扰 Teams 流程，继而可能会导致启动或退出失败。  <br/> |如本 <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec 支持文章</a>中所述，从 Symantec DLP 的终结点代理中排除（白名单）Teams.exe。 <br/> |2019 年 7 月 15 日  <br/> |
