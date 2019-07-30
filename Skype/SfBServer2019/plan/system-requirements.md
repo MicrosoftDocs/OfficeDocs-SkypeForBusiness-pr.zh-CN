@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '摘要: 通过本主题准备 Skype for Business Server 2019 服务器和域基础结构。 硬件、操作系统、数据库、软件、所有系统要求和建议, 以及证书 DNS、文件共享和 Active Directory 信息, 可帮助确保成功安装和部署你的服务器场。'
-ms.openlocfilehash: ab7062e3629c4638c68198f19e061c31cba4ac67
-ms.sourcegitcommit: a3eb0032c21e88fce4c16b625f8cbb7c31efd0dc
+ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35904302"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925324"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for business Server 2019 的系统要求
  
@@ -112,7 +112,7 @@ ms.locfileid: "35904302"
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |所有 Skype for business 服务器服务器都需要安装 Windows PowerShell 3.0。  <br/> •默认情况下应安装 Windows Server 2016。<br/> |
-|Microsoft .NET Framework  <br/> |WCF 服务是作为 Windows 功能安装的**功能**, 在**服务器管理器**下, 无需下载。 <br/> •你需要确保在安装此功能时, 或者在已安装此功能且正在进行检查时, 也会检查和安装**HTTP 激活**选项, 如下所示: <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这是正常的;单击 "确定", 然后继续。 如果您没有看到此弹出窗口, 则可以假设已安装这些项目并继续。  <br/> 安装 Windows Server 2016 时, 通常会安装 Microsoft .NET Framework。 Skype for business 服务器适用于以下 Microsoft .NET Framework 版本:  <br/> • .NET 3。5  <br/> • .NET 4。5  <br/> • .NET 4.6 x  <br/> • .NET 4。7 <br/> |
+|Microsoft .NET Framework  <br/> |WCF 服务是一种作为 Windows 功能安装的**功能**, 在 "**服务器管理器**" 下, 最初不需要下载。 <br/> •你需要确保在安装此功能时, 或者在已安装此功能且正在进行检查时, 也会检查和安装**HTTP 激活**选项, 如下所示: <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这是正常的;单击 "确定", 然后继续。 如果您没有看到此弹出窗口, 则可以假设已安装这些项目并继续。  <br/> 安装 Windows Server 2016 时, 通常会安装 Microsoft .NET Framework。 虽然 Skype for business 服务器需要 Microsoft .NET Framework 4.7, 但你可能需要对其进行更新。 您可以在[此处](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)找到更新<br/> |
 |媒体基础  <br/> |对于 Windows Server 2016, Windows Media 格式运行时将与 Microsoft Media Foundation 一起安装。  <br/> 用于会议的所有前端服务器和标准版服务器都需要 Windows Media 格式运行时运行 Windows Media 音频 (.wma) 文件, 该文件中的 "呼叫驻留"、"通知" 和 "响应" 组应用程序将在公告和音乐中播放。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 以支持 Skype for business Server 2019 的服务器到服务器身份验证方案。  <br/> •适用于 Windows Server 2016, 无需下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果已选中, 则很好。 否则选择它, 然后单击 "**下一步**" 以到达 "**安装**" 按钮。 <br/> |
 |远程服务器管理工具  <br/> |角色管理工具：AD DS 和 AD LDS 工具  <br/> |

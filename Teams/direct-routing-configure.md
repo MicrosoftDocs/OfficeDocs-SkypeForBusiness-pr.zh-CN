@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588148"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925494"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -34,7 +34,9 @@ ms.locfileid: "35588148"
 我们建议你确认你的 SBC 已按照 SBC 供应商的建议进行配置: 
 
 - [AudioCodes 部署文档](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle 部署文档](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能区通信部署文档](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-系统 (anynode) 部署文档](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 你可以配置 Microsoft Phone 系统并使用户能够使用直接路由, 然后通过完成以下过程将 Microsoft 团队设置为首选调用客户端: 
 

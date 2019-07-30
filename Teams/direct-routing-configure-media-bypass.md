@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用 "电话系统直接路由" 配置 "绕过媒体"。
-ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 47b537a9feff22a24b97fa5c54669359992b8a31
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394568"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925470"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 
@@ -48,9 +48,10 @@ ms.locfileid: "35394568"
 
 有关如何配置中继和执行迁移的说明, 请参阅来自 SBC 供应商的文档:
 
-- AudioCodes
-- 带
-- TE-系统 (AnyNode)    
+- [AudioCodes 部署文档](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle 部署文档](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [功能区通信部署文档](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-系统 (anynode) 部署文档](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 有关直接路由认证的会话边框控制器 (SBCs) 的列表, 请参阅为[直接路由认证的会话 Broder 控制器列表](direct-routing-border-controllers.md)。
 

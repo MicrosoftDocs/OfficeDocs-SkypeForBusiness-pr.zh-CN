@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 65b3ec1b12f4e5074513378671044177a2ad9a6d
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494813"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925452"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
@@ -46,7 +46,7 @@ ms.locfileid: "34494813"
 
 最佳做法: 为您的内部拥护的团队召开月度团队会议。 在 "讲授新功能"、"解决反馈" 和 "为员工社区提供自助服务工具" 之间拆分日程。
 
-最佳做法: 使用内部支持部门的平均代表或 IT 帮助台加入你的冠军社区, 随时了解有关团队使用情况的新信息。 
+最佳做法: 拥有内部支持部门的代表或 IT 帮助台加入您的冠军社区, 随时了解有关团队使用情况的新信息。 
 
 ## <a name="service-reporting"></a>服务报告
 

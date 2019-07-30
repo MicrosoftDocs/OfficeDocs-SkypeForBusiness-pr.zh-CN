@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821067"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925478"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -58,6 +58,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX (Microsoft Phone S
 
 - **AudioCodes:**[直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), 在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中介绍的 SBC 托管方案的配置。 
 - **功能区通信:** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe), 了解有关如何配置功能区内核系列 SBCs 和此页面[功能区的文档最佳做法-配置 Microsoft 团队直接路由 SBC 的运营商边缘](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **TE-系统 (anynode):** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册, 了解有关如何为多个租户配置 anynode SBC 的文档和示例。
 
 > [!NOTE]
 > 请注意如何配置 "联系人" 标头。 联系人页眉用于查找传入邀请消息上的客户租户。 
