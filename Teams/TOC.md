@@ -76,7 +76,7 @@
 ### [使用内联消息翻译](inline-message-translation-teams.md)
 ### [使用 Microsoft Teams 范围目录搜索](teams-scoped-directory-search.md)
 
-### Microsoft Teams 管理中心的 Tearms 分析和报告
+### Teams 管理中心中的分析和报告 
 #### [概述](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +626,6 @@
 ### [监控质量](upgrade-monitor-quality.md)
 ### [增强服务](upgrade-enhance-my-service.md)
 
-## [教程：从 Skype for Business 到 Teams 的升级旅程](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [常见问题解答](FAQ-journey.md)
 ## 其他信息
 ### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
