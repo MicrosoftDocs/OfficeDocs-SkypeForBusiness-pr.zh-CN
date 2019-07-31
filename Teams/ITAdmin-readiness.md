@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804758"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934483"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -108,7 +108,6 @@ ms.locfileid: "35804758"
 
 <h2>讲解</h2>
 
-- [教程：从 Skype for Business 到 Teams 的升级旅程](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [教程：Teams 中的会议](tutorial-meetings-in-teams.yml)
 - [教程：Teams 中的音频会议](tutorial-audio-conferencing.yml)
 - [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ ms.locfileid: "35804758"
 
 - [利用 Microsoft 团队实现团队协作](https://aka.ms/edx-cld267x-about)
 - [Microsoft 服务采纳专家](https://aka.ms/AdoptionCert)
-- [30交互式培训中的团队](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
