@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344111"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934491"
 ---
 ![升级旅行阶段, 突出显示用户准备情况阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段, 重点关注用户准备阶段")
 
@@ -47,7 +47,7 @@ ms.locfileid: "34344111"
 <table>
 <tbody>
 <tr><th>您将利用哪些通信信道？</th><th>您将利用哪些培训渠道？</th><th>将使用哪些支持信道？</th></tr>
-<tr><td><ul><li>电子邮件<br><strong>提示:</strong>使用我们的示范、共存和升级电子邮件, 自定义您的电子邮件市场活动。</li><li>海报和数字告示</li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队/频道</li><li>Gamification</li></ul></td><td><ul><li>Microsoft 发布的联机文章和视频</li><li>资源：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到团队</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">团队视频培训</a></li></ul></li><li>产品内帮助 (帮助)</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助服务 (intranet 网站)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环 (调查、评级)</li></ul></td></tr>
+<tr><td><ul><li>电子邮件<br><strong>提示:</strong>使用我们的示范、共存和升级电子邮件, 自定义您的电子邮件市场活动。</li><li>海报和数字告示</li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队/频道</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Microsoft 讲师指导培训</a></li><li>Microsoft 发布的联机文章和视频</li><li>资源：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到团队</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">团队视频培训</a></li></ul></li><li>产品内帮助 (帮助)</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助服务 (intranet 网站)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环 (调查、评级)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

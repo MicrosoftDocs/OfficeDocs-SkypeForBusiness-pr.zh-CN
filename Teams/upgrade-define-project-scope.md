@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432933"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934571"
 ---
 ![升级旅行图, 突出显示项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
@@ -81,7 +81,7 @@ ms.locfileid: "34432933"
 
 | 起 | 键结果 | 待办事项 |
 |---|---|---|
-| 在[仅协作模式下](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), 在 Skype for Business 与 Skype for business 一起的试点团队 | FY18Q2: 500-已执行和完成用户试点 | <ul><li>确定试点用户</li><li>创建试点测试计划</li><li>在团队中启用试验用户</li><li>实施试验</li><li>执行试点反馈调查</li><li>衡量试点成功</li></ul> |
+| 在[仅协作模式下](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), 在 Skype for Business 与 Skype for business 一起的试点团队 | FY19Q2: 500-已执行和完成用户试点 | <ul><li>确定试点用户</li><li>创建试点测试计划</li><li>在团队中启用试验用户</li><li>实施试验</li><li>执行试点反馈调查</li><li>衡量试点成功</li></ul> |
 | 为组织中的所有用户和 Skype for Business 成功运行协作模式 | <ul><li>60% 的 Skype for business 用户在推出30天内使用团队</li><li>团队的用户满意度 &#8805;80%</li></ul> | <ul><li>设计和执行广泛的通信和培训计划</li><li>为仅协作模式的团队启用所有用户</li><li>每月跟踪使用情况</li><li>收集用户反馈</li><li>监视网络运行状况/质量</li><li>根据需要减少</li></ul> |
 
 | 类型 | 关键成功指示器 | 衡量方式 | 成功标准 | 衡量时间 |
@@ -119,3 +119,5 @@ ms.locfileid: "34432933"
 作为参考点, 为[升级 Pro 旅程](https://aka.ms/UpgradePro)的升级前、升级和升级后阶段提供了一个示例时间线, 我们鼓励你根据需要进行调整, 以便与你的组织的特定需求保持一致。
 
 完成上述活动后, 你的项目应具有坚实的基础。 继续执行[技术准备](https://aka.ms/SkypeToTeams-TechnicalReadiness)工作和[组织准备工作](https://aka.ms/SkypeToTeams-UserReadiness)计划活动。
+
+请记住: Skype for Business Online 将于2021年7月31日停用。 此后, Skype for Business Online 服务将无法再访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间来完成升级, 我们鼓励你立即开始迁移到 Microsoft 团队。

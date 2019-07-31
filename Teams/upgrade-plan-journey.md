@@ -1,12 +1,12 @@
 ---
-title: Plan for Business 的 Skype Microsoft 团队升级 |应用框架
+title: 将 Skype for business 计划升级到 Microsoft 团队升级 |采纳框架
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 首先，登记利益干系人和然后范围项目规划您的升级。
+description: 通过首先登记利益干系人来规划升级, 然后设置项目范围。
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -15,19 +15,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885615"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934555"
 ---
-为与右项目团队成功设置![确保您的项目。定义项目范围、 目标和日程表。确认技术和用户准备情况。执行套推广计划。维护 momentum 以最大限度地结果。](media/upgrade-banner-main.png "开始您升级旅程")
+![团队升级旅程的示意图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
 
 # <a name="plan-for-your-upgrade"></a>规划升级
 
-正常运行的技术环境、 持续的用户采用和所有业务目标的实现适当的规划开头。 可靠的计划升级项目提供一个框架，并确保所有利益干系人正在向同一目标。 按照时间正确定义成功，您可以通过部署为您进行测量结果，并验证您正在实现的输出，应该怎么做。 规划您旅程包括：
+正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架, 确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功, 你可以在你的部署过程中测量结果, 并验证你是否正在获得所需的结果。 规划旅行包括:
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)。
-- [定义您的项目的范围](https://aka.ms/SkypetoTeams-Scope)。
-- [了解共存和业务和团队的 Skype 的互操作性](https://aka.ms/SkypeToTeams-Coexist)。
+- [定义项目的范围](https://aka.ms/SkypetoTeams-Scope)。
+- [了解 Skype For business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)。
+
+> [!TIP]
+> 加入我们的现场互动式研讨会, 我们将分享指导、最佳做法和资源, 旨在开始升级规划和实施。
+>
+> 首先加入[升级](https://aka.ms/SkypeToTeamsPlanning)会话的计划以开始使用。

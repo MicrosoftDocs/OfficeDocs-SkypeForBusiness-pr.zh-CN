@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9994bb8efa862cc66cb1e081d0ca8136b4fb1871
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548506"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934499"
 ---
 ![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
@@ -39,11 +39,11 @@ ms.locfileid: "34548506"
 如果已部署了完全部署的 Skype for business Online, 并且想要将用户从 Skype for Business 升级到团队, 请按照本文中的指南操作。 通过为用户分配适当的共存和升级模式, 你可以有选择地或从你的组织选择的升级历程升级用户。
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级, 我们鼓励你立即开始迁移到 Microsoft 团队。 请记住, 成功升级会使技术和用户准备相一致, 因此, 在您向 Microsoft 团队导航旅行时, 请务必利用本指南。
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>分配共存和升级模式
 
-你可以通过分配 TeamsUpgradePolicy 的 UpgradeToTeams 实例将你的用户升级到 TeamsOnly 模式, 这可以通过使用 Microsoft 团队管理中心或 Skype for business 远程 Windows Powershell 会话来执行。 你可以基于每个用户执行此操作, 也可以在租户范围内执行此操作, 前提是你希望在一个步骤中 ugprade 整个租户。 
+你可以通过分配 TeamsUpgradePolicy 的 UpgradeToTeams 实例将你的用户升级到 TeamsOnly 模式, 这可以通过使用 Microsoft 团队管理中心或 Skype for business 远程 Windows Powershell 会话来执行。 你可以基于每个用户执行此操作, 也可以在租户范围内执行此操作, 前提是要在一个步骤中升级整个租户。 
 
 有关详细信息, 请参阅[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy: 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
 
@@ -69,7 +69,7 @@ ms.locfileid: "34548506"
 
 组织通常可以选择在用户成功的用户的成功波上升级其组织。  你将首先确定这些用户, 以便可以在 Microsoft 团队管理中心轻松搜索它们。 或者, 你可能希望使用 PowerShell 更高效地执行此操作。 一旦确定了给定升级 wave 的用户集, 请继续执行剩余步骤。
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>步骤 2: 为当前 ugprade wave 中的用户设置通知 (可选)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>步骤 2: 为当前升级浪潮中的用户设置通知 (可选)
 
 如果使用的是 Microsoft 团队管理中心, 则可以同时为多达20个用户配置 TeamsUpgradePolicy:
 1. 在 Microsoft 团队管理中心, 选择 "**用户**", 然后找到多达20个应升级的用户的复选框, 然后多选。 

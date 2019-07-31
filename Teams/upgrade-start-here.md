@@ -3,11 +3,10 @@ title: 开始 Microsoft Teams 升级
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/30/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 了解为什么应考虑将业务的 Skype 升级到 Microsoft 团队。
+description: 了解如何从 Skype for Business 升级到 Microsoft 团队。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,45 +15,51 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314bb9488b1ff503dea9c725054463e276e1b33c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d56297c472736df70ac7b794de0ad8b2090b58
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884951"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934595"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
+祝贺您从 Skype for Business 到 Microsoft 团队的待升级版本。 无论您是刚开始使用团队、已与 Skype for Business 一起使用团队还是准备好升级, 我们都希望确保您拥有必要的一切才能将成功的旅行转到团队。
+
 ## <a name="why-upgrade-to-microsoft-teams"></a>为什么要升级到 Microsoft 团队？
 
-Microsoft 团队扩展业务的 Skype 的功能组合在一起聊天、 会议、 呼叫、 协作、 应用程序集成和文件存储到一个界面。 此新的中心位置的团队协作可以帮助您优化用户获取完成工作，提高用户满意度和提高业务产出的方式。 为业务客户现有 Skype，我们邀请您升级到 Microsoft 团队体验此全套通信和协作功能在单个客户端体验。
+Microsoft 团队扩展了 Skype for Business 的功能, 将聊天、会议、通话、协作、应用集成和文件存储合并到单个界面中。 这一用于团队协作的新中心中心可帮助简化用户完成工作的方式, 改善用户满意度并加快业务成果的实现。 我们将不断扩大团队的功能, 让您能够以新的方式进行沟通和协作, 分解组织和地理障碍, 并推动流程和决策制定。 了解有关升级到 Forrester 报表中的团队的好处的详细信息: [Microsoft 团队的总体经济影响](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)。  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>何时我的组织应向工作组升级？
+## <a name="when-should-my-organization-upgrade-to-teams"></a>我的组织应该何时升级到团队？
 
-Microsoft 鼓励客户尽快为可行优化福利总的说来升级到团队。 如果您的组织不是非常准备升级，您可以部署团队业务的 Skype 旁。 这允许用户熟悉团队今天促进随着时间的推移升级时。 事实上，我们的许多客户看到该库到团队 shift 其通信活动的用户。
+Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 虽然 Skype for Business Online 服务将在2021年7月31日起正常运行, 但 Microsoft 鼓励客户立即开始升级, 这样就可以在退休日期之前完成升级。  请阅读我们的[退休通知](https://aka.ms/sfboannounce), 了解详情。
+
+## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>我们是否可以继续使用 Skype for Business 在线, 我们正在为团队准备和执行升级？
+
+是的, Microsoft 提供了多个用于将 Skype for Business Online 和团队一起运行的选项。 这些共存模式使你的用户能够熟悉今天的团队, 同时帮助你更快地升级到团队。 有关详细信息, 请[https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)参阅。
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>如何为 Microsoft 帮助客户使用其升级到团队？ 
+## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft 如何帮助客户升级到团队？ 
 
-Microsoft 致力于您成功，并提供了稳固围绕旨在帮助您规划和执行升级到团队的经验证、 端到端升级成功框架的指南。 我们指南旨在为升级旅程，每个阶段刚入门规划，已在运行团队旁 Skype for Business，还是准备好升级到团队。
+Microsoft 致力于帮助您将 Skype for Business 过渡到成功的团队。 Microsoft 提供了针对经验证的端到端升级成功框架构建的强大指南, 旨在帮助你规划和执行团队升级。 我们的指南适用于升级旅行的每个阶段, 无论你是刚开始规划、已在 Skype for Business 中运行团队, 还是准备好升级到团队。
 
-为了方便您升级规划和实施，Microsoft 承载互补旨在快速熟悉我们升级框架、 共享见解升级的准备您的用户和定向到您的联机培训各种共存选项您的组织可以承担您旅程向工作组。 升级规划概述会话的加入我们： [https://aka.ms/Upgrade101](https://aka.ms/upgrade101)。
+为了帮助升级规划和实施, Microsoft 托管了免费的实时、交互式升级规划研讨会, 旨在熟悉我们的升级框架, 分享见解, 为您的用户准备用户升级和确定你的组织在团队中的正确路径。 加入我们的升级规划概述会话: [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)。
  
-## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>为什么需要升级指南？ 不能我刚删除/停用 Skype for Business？ 
+## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>为什么需要升级指南？ 我不能只是删除/解除 Skype for business 的准备吗？ 
 
-从 for Business 的 Skype 升级到团队是多个技术迁移。 它表示在用户如何进行通信和协作，转换，并更改并不总是轻松。 理想的升级方法应升级的技术方面的地址以及鼓励用户接受和采用团队，驱动良好的用户体验和业务结果实现。 
+从 Skype for Business 升级到团队不仅仅是技术迁移。 它表示用户进行通信和协作的方式的转换, 更改并不总是很简单。 理想的升级方法应解决你的升级的技术方面的问题, 并鼓励用户接受和接受团队, 从而促进积极的用户体验和业务成果实现。 
 
-## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>从开始规划团队 / 我升级到团队？ 
+## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>在哪里开始为团队/我升级到团队的计划？ 
 
-首先您旅程您熟悉我们升级成功框架和关联的资源。 本指南充当用于导航 for Business 的 Skype 从您迁移到团队的基础。
+通过我们的升级成功框架和相关的资源, 让您开始 familiarizing。 本指南用作从 Skype for Business 前往团队导航旅行的基础。
 
-[了解升级框架](upgrade-framework.md)。
+[了解升级框架](upgrade-framework.md), 并加入我们的[实时升级计划概述](https://aka.ms/SkypeToTeamsPlanning)会话。
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> 请记住, 成功的升级可确保技术和用户准备就绪, 因此, 请务必在将旅行转到 Microsoft 团队时利用本指南。
 
 > [!Tip]
-> 观看下面的会话了解从 for Business 的 Skype 升级到 Microsoft 团队：
+> 观看以下会话, 了解如何从 Skype for Business 升级到 Microsoft 团队:
 > - [升级简介](https://aka.ms/teams-upgrade-intro)
 > - [规划升级](https://aka.ms/teams-upgrade-plan)
-> - [共存及互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [管理员体验](https://aka.ms/teams-upgrade-admin)

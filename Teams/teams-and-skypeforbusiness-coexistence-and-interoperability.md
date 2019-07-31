@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933846"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934627"
 ---
 ![升级旅行图, 强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
@@ -31,10 +31,14 @@ ms.locfileid: "34933846"
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
-如果您的组织目前使用 Skype for business, 并且您打算开始将团队与 Skype for Business 一起使用, 或者您打算开始升级到团队, 那么很重要的一点是了解两个应用程序是如何共存、何时以及如何互操作, 以及如何将用户的迁移一直从 Skype for Business 升级到团队。
+如果您的组织目前使用 Skype for Business, 并且您开始使用多个团队和 Skype for business, 或者您开始升级到团队, 那么了解这两个应用程序是如何共存、何时以及如何进行互操作, 以及如何管理用户的迁移一直到最终从 Skype for Business 升级到团队。
 
 > [!Tip]
-> 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)。
+>
+> 此外, 您可以加入我们的实时交互式研讨会, 我们将分享指南、最佳做法和资源, 以便开始开始升级规划和实施。
+>
+> 首先加入[升级](https://aka.ms/SkypeToTeamsPlanning)会话的计划以开始使用。
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>团队和 Skype for business 的共存
 
@@ -81,12 +85,15 @@ ms.locfileid: "34933846"
 
 除了协作功能外, 还可使用此共存模式加速团队会议功能的可用性, 使用户能够充分利用出色的团队会议体验-优质创新功能 (如设备和翻译或后台模糊处理) 和跨所有平台 (包括移动设备和浏览器) 的卓越用户体验。
 
-在此模式下, 与团队和基于频道的对话一起使用团队, 用户将使用团队安排和开展会议。 私人聊天和通话保留在 Skype for Business 上。 团队和 Skype for business 受益于一系列 "更好地协作" 功能, 如状态对、自动保留/unhold 以及在两个应用程序中支持 HID 设备支持。 
+在此模式下, 与团队和基于频道的对话一起使用团队, 用户将使用团队安排和开展会议。 Skype for Business 上的私人聊天和通话保持。 团队和 Skype for business 受益于一系列 "更好地协作" 功能, 如状态对、自动保留/unhold 以及在两个应用程序中支持 HID 设备支持。 
 
 此共存模式对于使用企业语音的 Skype for business 本地部署中的用户非常有用, 这些用户可能需要花费一些时间来升级到团队, 并且希望尽快获得高级团队会议。
 
 > [!Note]
 > 当在特定共存模式下部署时, 团队和 Skype for business 可以进行[互操作](#interoperability-of-teams-and-skype-for-business), 使用户可以与他人进行聊天, 并确保在升级到团队期间通信在你的组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如, 如果接收器处于一种模式下, 聊天仅在一台客户端 (如团队) 中可用, 则在发起方使用其他客户端 (在此情况下为 Skype for Business) 开始聊天时, 聊天互操作性通常将可用。 另一方面, 如果接收器处于可在两个客户端 (即孤岛模式) 中均可使用的模式, 则不能对聊天提供互操作。 接收方将在发起聊天的同一客户端中接收消息。 因此, 在 "孤岛" 模式下正确通信需要团队采用饱和。也就是说, 所有用户主动使用和监视这两个客户端。
+
+> [!TIP]
+> 若要帮助在 Skype for Business 仍在使用时根据希望在团队中启用的功能确定推荐的升级模式, 请利用[skype To 团队升级向导](https://aka.ms/SkypeToTeamsWizard)。
 
 有关共存模式、先决条件和管理的更多详细信息, 请参阅使用团队与 Skype for Business 结合使用和[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)[的组织的迁移和互操作指南](https://aka.ms/SkypeToTeams-Interop)。
 

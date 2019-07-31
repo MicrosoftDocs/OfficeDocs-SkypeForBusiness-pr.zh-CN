@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493976"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934515"
 ---
 ![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
@@ -40,7 +40,7 @@ ms.locfileid: "34493976"
 如果你已部署 Skype for business 或 Microsoft Lync 本地版, 并且你的组织希望通过使用多个共存模式 (或全部) 升级到团队, 请按照本文中的指南操作。 第一步是设置与 Office 365 租户的混合连接, 然后将用户移动到 Skype for business Online, 并为他们分配适当的共存和升级模式。 
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级, 我们鼓励你立即开始迁移到 Microsoft 团队。 请记住, 成功升级会使技术和用户准备相一致, 因此, 在您向 Microsoft 团队导航旅行时, 请务必利用本指南。
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>步骤 1: 部署混合连接 
 

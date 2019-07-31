@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535873"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934396"
 ---
 ![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 
@@ -35,12 +35,18 @@ ms.locfileid: "35535873"
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
-Microsoft 团队最终会取代 Skype for Business Online, 因此你需要立即为团队做好准备, 以便你做好准备。
-
 作为现有的 Skype for Business 客户, 您对团队的完全过渡可能需要一段时间。 但是, 你现在可以通过让你的用户与 Skype for Business 一起使用团队, 开始实现团队的价值。 假设两个应用之间存在一些重叠的功能, 我们建议你查看可用的共存和升级模式, 以帮助确定适合你的组织的路径。 例如, 你可以选择在不具有互操作性的两个解决方案上启用所有工作负荷。 或者, 你可以决定管理用户体验, 方法是逐步引入团队功能或面向用户组选择功能, 直到你的组织准备好将每个人升级到团队。 使用试点结果帮助评估适合您的组织的升级旅程。
 
 > [!IMPORTANT]
-> 本文概述了各种模式, 使你能够管理 Skype for Business 和团队的哪些形式可供你的用户使用。 与任何部署一样, 我们强烈建议你在将组织升级到团队之前使用选定的一组用户[试验你的预定计划](pilot-essentials.md)。 请记住, 新技术的引入会使用户中断。 在实施此处所述的任何模式之前, 请花一些时间来评估用户准备情况并实施通信和培训计划。
+> Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级, 我们鼓励你立即开始迁移到 Microsoft 团队。
+
+本文概述了各种模式, 使你能够管理 Skype for Business 和团队的哪些形式可供你的用户使用。 与任何部署一样, 我们强烈建议你在将组织升级到团队之前使用选定的一组用户[试验你的预定计划](pilot-essentials.md)。 请记住, 新技术的引入会使用户中断。 在实施此处所述的任何模式之前, 请花一些时间来评估用户准备情况并实施通信和培训计划。
+
+> [!TIP]
+> 加入我们的现场互动式研讨会, 我们将分享指导、最佳做法和资源, 旨在开始升级规划和实施。
+>
+>首先加入[升级](https://aka.ms/SkypeToTeamsPlanning)会话的计划以开始使用。
+
 
 ## <a name="upgrade-journey-building-blocks"></a>升级旅程构建基块
 
@@ -63,6 +69,9 @@ Microsoft 团队最终会取代 Skype for Business Online, 因此你需要立即
 |具有团队协作和会议的 Skype for business |通过大量使用企业语音和要求的 Skype for business 部署, 团队通话尚不满足这些要求<br><br>长期需要和/或 Skype for business 承诺<br><br>可能使用的是第三方会议服务|快速开始团队发展, 超越组协作<br><br>改善用户的会议体验<br><br>建议用于需要在准备好进行完全升级 (通常是由于企业内部部署的企业语音) 之前利用团队会议的本地组织。 |没有重叠的功能<br><br>团队的出色会议。 功能路线图、UX 和跨平台、质量和可靠性<br><br>在 Skype for Business 和团队之间 "更好地协作" 体验<br><br>团队中的互操作性用户。|即时消息和聊天将驻留在 Skype for Business 中 (绑定到通话)|
 |仅限团队 |团队仅为所有用户最终的目标。<br><br>某些用户需要保留在 Skype for Business 上<br><br>您正在将 skype for business Online 用户升级到团队, 同时在 Skype for business 服务器上保持 Skype for business 本地用户<br><br>你可能已经在孤岛模式下部署了用户, 并且已准备好注销用户组的 Skype for Business |减少 Skype for Business (本地服务器操作、外包合同等) 的可变成本<br><br>尽快转到完整的团队体验, 至少对于某些用户|通过仅向 Skype for Business 中的用户提供一个客户端来限制用户混乱, 使用团队协作与 skype for business 进行协作, 使用团队协作和会议与 Skype for business 进行协作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话, 以及用于桌面共享和多方聊天和通话的互操作性升级方案|
 |仅限 Skype for business |某些用户需要保留在 Skype for Business 上<br><br>|通过仅提供一个客户端来限制用户混乱<br><br>用户仍可参与受邀参加的团队会议|继续满足目前只能由 Skype for business 满足的业务要求<br><br>仅与团队中的用户进行互操作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话, 以及用于桌面共享和多方聊天和通话的互操作性升级方案|
+
+> [!TIP]
+> 若要帮助在 Skype for Business 仍在使用时根据希望在团队中启用的功能确定推荐的升级模式, 请利用[skype To 团队升级向导](https://aka.ms/SkypeToTeamsWizard)。
 
 ## <a name="upgrade-journeys"></a>升级慷慨
 

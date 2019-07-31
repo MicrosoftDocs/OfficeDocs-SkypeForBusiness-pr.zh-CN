@@ -3,7 +3,6 @@ title: 关于升级框架
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432973"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934563"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
@@ -125,5 +124,4 @@ ms.locfileid: "34432973"
 > 我们的升级内容不断发展。 请务必查看最新指南, 并阅读[团队博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> 如果你是 Office 365 租户上的管理员, 则可能会在 PowerShell cmdlet 或 Microsoft 团队管理中心中查看升级选项。 具有用于升级的选项并不一定意味着贵组织已准备好进行此项变更。 为获得最佳用户体验, 请确认团队满足你的协作和通信要求, 验证你的网络是否已准备好支持团队, 并在将用户升级到团队之前实施你的用户准备情况计划。
- 
+> Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级, 我们鼓励你立即开始迁移到 Microsoft 团队。 请记住, 成功升级会使技术和用户准备相一致, 因此, 在您向 Microsoft 团队导航旅行时, 请务必利用本指南。
