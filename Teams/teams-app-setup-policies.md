@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,13 +17,13 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用, 以便为你的组织中的用户自定义团队。
 f1keywords:
-- ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221803"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171078"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -45,8 +44,6 @@ ms.locfileid: "35221803"
 
 ![显示应用设置策略页面的屏幕截图](media/app-setup-policies.png)
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 > [!NOTE]
 > 如果你有团队教育版, 请务必了解, 默认情况下, 作业应用固定在全局策略中, 即使当前, 你也看不到全局策略中列出了该应用。 它将是团队客户端上的固定应用列表中的第四个应用。
 
@@ -55,9 +52,9 @@ ms.locfileid: "35221803"
 你可以使用 Microsoft 团队管理中心创建自定义策略。
 
 1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **设置策略**"。
-2. 选择 "**新建策略**"。
-3. 输入策略的描述性名称, 然后单击 "**添加应用程序**"。
-4. 打开或关闭 "**允许上载自定义应用**", 具体取决于是否希望允许用户将自定义应用程序上载到团队。
+2. 单击“添加”****。
+3. 输入策略的名称和说明, 然后单击 "**添加应用程序**"。
+4. 打开或关闭 "**允许上载自定义应用**", 具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果在应用权限策略中[组织范围内的应用设置](teams-app-permission-policies.md#manage-org-wide-app-settings)中禁用 "**允许第三方" 或 "自定义应用**", 你将无法更改此设置。
 5. 在 "**添加固定的应用**" 窗格中, 搜索要添加的应用, 然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后, 单击 "**添加**"。
 
      ![显示 "添加固定应用" 窗格的屏幕截图](media/app-setup-policies-add-apps.png)
@@ -71,7 +68,7 @@ ms.locfileid: "35221803"
 你可以使用 Microsoft 团队管理中心编辑策略, 包括全局 (组织范围默认) 策略和你创建的自定义策略。
 
 1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **设置策略**"。
-2. 选择要编辑的策略。 
+2. 通过单击策略名称左侧, 然后单击 "**编辑**", 选择策略。
 3. 在此处进行所需的更改。 你可以添加、删除和更改应用的顺序。
 4. 单击“**保存**”。
 
@@ -79,24 +76,21 @@ ms.locfileid: "35221803"
 
 你可以使用 Microsoft 团队管理中心向单个用户或 Skype for business PowerShell 模块分配自定义策略, 以将自定义策略分配给用户组, 如安全组或通讯组。
 
-> [!IMPORTANT]
-> 我们建议仅使用 PowerShell 为用户分配策略。 使用 Microsoft 团队管理中心创建、编辑和管理策略。
-
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>向单个用户分配自定义应用设置策略
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
 
 1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**用户**", 然后单击 "用户"。
-2. 在 "**分配的策略**" 旁边, 选择 "**编辑**"。
-3. 在 "**团队应用设置策略**" 下, 选择要分配的应用设置策略, 然后选择 "**保存**"。
+2. 通过单击用户名左侧的用户选择用户, 然后单击 "**编辑设置**"。
+3. 在 "**应用设置策略**" 下, 选择要分配的应用设置策略, 然后单击 "**应用**"。
 
-    ![显示 "编辑用户策略" 窗格的屏幕截图](media/app-setup-policies-assign-policy.png)
+若要一次为多个用户分配策略, 请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
 
-你还可以将应用设置策略分配给一个或多个用户, 如下所示:
+或者, 您也可以执行以下操作:
 
-1. 转到**Microsoft 团队管理中心** > **团队应用** > **设置策略**。
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **设置策略**"。
 2. 通过单击策略名称的左侧, 选择策略。
 3. 选择 "**管理用户**"。
 4. 在 "**管理用户**" 窗格中, 按 "显示名称" 或 "按用户名搜索用户", 选择名称, 然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
-5. 完成添加用户后, 请选择 "**保存**"。
+5. 添加完用户后, 请选择 "**保存**"。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>为组中的用户分配自定义应用设置策略
 

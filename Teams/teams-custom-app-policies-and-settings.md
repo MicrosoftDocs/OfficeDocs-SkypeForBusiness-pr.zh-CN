@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中管理自定义应用策略和设置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/18/2019
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,20 +16,23 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理自定义应用策略和设置, 以控制你的组织中可在 Microsoft 团队中上载自定义应用的人员。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 443bc9390634d19590baa736a8f005aeeb1d15a4
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+f1keywords:
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
+ms.openlocfilehash: e892b5e7fa8fa1886de8d22fc93bd4cc49725fc0
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681964"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171654"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 > [!NOTE]
-> 有关在 Microsoft 团队中管理应用的当前方法, 请参阅[管理你的组织的 Microsoft 团队设置](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)。
+> 若要使用应用 Studio, 请参阅[Microsoft 团队平台上使用 c #/.NET 和应用 studio 的入门](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)。最后一步尚不起作用, 因此你需要下载 zip 并在将[应用包上载到 Microsoft 团队](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)时以旧方式安装它。
 
 作为管理员, 你可以使用自定义应用策略和设置来控制你的组织中哪些人可以将自定义应用上载到 Microsoft 团队。 管理员决定哪些用户可以上载自定义应用, 管理员和团队所有者可以确定你的组织中的特定团队是否允许将自定义应用添加到其中。  
 
@@ -70,7 +72,7 @@ ms.locfileid: "34681964"
 #### <a name="set-a-user-custom-app-policy"></a>设置用户自定义应用策略
 
 1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **设置策略**"。
-2. 选择 "**新建策略**"。
+2. 单击“添加”****。
 3. 打开或关闭 "**允许上载自定义应用**"。
 4. 为策略选择所需的任何其他设置。
 5. 单击“**保存**”。
@@ -131,5 +133,3 @@ ms.locfileid: "34681964"
 
  ## <a name="related-topics"></a>相关主题
 - [Teams 中适用于应用的管理设置](admin-settings.md)
-- [在 Microsoft Teams 中管理应用设置策略](teams-app-setup-policies.md)
-- [在 Microsoft Teams 中管理应用权限策略](teams-app-permission-policies.md)

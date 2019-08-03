@@ -4,85 +4,90 @@ author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何设置和管理 Firstline 工作者您的组织中的团队中的班次应用程序。
+description: 了解如何在组织中的一线工作人员的团队中设置和管理倒班应用。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f773cc2ee3aa8a1e98d139f55067c9205355611
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245925"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171638"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
 > [!IMPORTANT]
-> 有效 2019 年 10 月 1，，Microsoft StaffHub 将要停用。 我们 StaffHub 功能构建到 Microsoft 团队。 如今，团队包括日程管理引进相关应用程序和其他功能将随着时间的推移推出。 StaffHub 上 2019 年 10 月 1，将停止的所有用户的工作。 尝试打开 StaffHub 的任何人都将显示一条消息，来下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 要停用](microsoft-staffhub-to-be-retired.md)。  
+> 2019年10月1日生效, Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天, 团队包括 "倒班" 应用, 用于计划管理, 而其他功能将随着时间的推移而推出。 StaffHub 将停止为2019年10月1日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息, 指导他们下载团队。 若要了解详细信息, 请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
-## <a name="overview-of-shifts"></a>班次的概述
-引进应用程序中的 Microsoft 团队保持 Firstline 工作者连接和同步。它是移动首先生成 fast 和有效时间管理和团队的通信。 引进允许 Firstline 工作者和经理使用其移动设备管理计划并保持联系。 
+## <a name="overview-of-shifts"></a>倒班概述
+Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步。它首先构建了移动, 为团队提供快速、有效的时间管理和沟通。 倒班让一线工作者和他们的经理使用自己的移动设备管理计划和保持联系。 
 
-- 管理员创建、 更新和管理团队 shift 计划。 他们可以向一个人发送邮件 （"没有防泼上讲席"） 或整个团队 （"区域 GM 到达 20 分钟"）。 他们还可以发送策略文档、 新闻公告和视频。 
-- 员工查看其即将开始的引进、 可以查看其他还有谁已安排在一天、 请求交换或提供 shift 键，并关闭请求的时间。 
+- 经理负责创建、更新和管理团队的倒班计划。 他们可以向一个人发送消息 ("在地面上有溢出") 或整个团队 ("区域 GM 在20分钟内送达")。 他们还可以发送策略文档、新闻公告和视频。 
+- 员工查看他们的即将到来的班次, 可查看当天安排的其他人、请求交换或提供班次, 以及请求下班时间。 
 
-务必要了解的引进当前不支持来宾用户。 这意味着来宾团队无法添加到或团队中开启来宾访问时，使用 shift 计划。 
+请务必知道当前班次不支持来宾用户。 这意味着在团队中启用来宾访问时, 无法将团队中的来宾添加到或使用倒班计划。 
 
-## <a name="availability-of-shifts"></a>班次的可用性
+## <a name="availability-of-shifts"></a>倒班的可用性
 
-引进可用于所有 Office 365 订阅包括团队，与几个例外。 例外情况是美国政府云社区 (GCC) 和团队免费。 Office 365 美国政府引进不可或团队忙产品。
+倒班在所有包含团队的 Office 365 订阅中均可用, 有几个例外。 例外情况是美国政府云社区 (GCC) 和团队免费。 班次在 Office 365 中不可用。美国政府或团队免费服务。
 
-进一步了解许可团队，包括 Office 365 订阅的列表，包括团队，请参阅[Office 365 许可团队](../../Office-365-licensing.md)。
+若要了解有关团队授权的详细信息, 包括包含团队的 Office 365 订阅的列表, 请参阅[团队的 office 365 许可](../../Office-365-licensing.md)。
 
-## <a name="location-of-shifts-data"></a>引进数据的位置
+## <a name="location-of-shifts-data"></a>倒班数据的位置
 
-北美、 西欧和亚太地区中的数据中心中的 Azure 中当前存储引进数据。 有关存储数据的详细信息，请参阅[其中是我的数据](http://o365datacentermap.azurewebsites.net/)？
+倒班数据当前存储在北美、西欧和亚太地区数据中心的 Azure 中。 有关存储数据的位置的详细信息, 请参阅[我的数据在哪里](http://o365datacentermap.azurewebsites.net/)？
 
-## <a name="set-up-shifts"></a>设置引进
+## <a name="set-up-shifts"></a>设置倒班
 
-### <a name="enable-or-disable-shifts-in-your-organization"></a>启用或禁用组织中的变化
+### <a name="enable-or-disable-shifts-in-your-organization"></a>启用或禁用组织中的班次
 
-默认情况下，为您的组织中的所有工作组用户启用引进。 您可以关闭或打开 Microsoft 365 管理中心中的组织的应用程序。
+默认情况下, 将为组织中的所有团队用户启用倒班。 你可以通过在 Microsoft 团队管理中心的应用权限策略中使用组织范围内的设置来关闭或打开应用组织。
 
-1. 登录到 Microsoft 365 管理中心，使用您的 Office 365 管理员帐户。
-2. 转到**设置** > **服务 & 加载项** > **Microsoft 团队**。 
-3. **租户范围的设置**下选择**应用程序**，然后在**默认应用程序**，清除或选择**班次**复选框，以关闭或打开应用程序。 
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **权限策略**"。
+2. 单击 "**组织范围的设置**"。
+3. 在 "**组织范围设置**" 面板的 "已**阻止的应用**" 下, 执行下列操作之一:
 
-    ![默认应用程序部分的屏幕截图](../../media/firstline-worker-enable-disable-shifts.png "Microsoft 365 管理中心内，显示的应用程序，包括引进应用程序列表中的默认应用程序部分的屏幕截图")
+    - 若要为你的组织关闭班次, 请搜索 "倒班" 应用, 然后单击 "**添加**" 以将其添加到 "阻止的应用" 列表。
+    - 若要为你的组织启用班次, 请从 "阻止的应用" 列表中删除 "倒班" 应用。
+4. 单击“**保存**”。 
 
-### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 pin 引进向工作组到 Firstline 工作人员应用程序安装程序策略
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>启用或禁用组织中特定用户的班次
 
-应用程序设置策略允许您自定义团队以突出显示您的组织中的用户的最重要的应用程序。 在策略中设置的应用程序固定到应用程序栏&mdash;团队桌面客户端的一侧和底部的团队移动客户端的栏&mdash;其中用户可以快速、 轻松地访问它们。 
+若要允许或阻止组织中的特定用户使用倒班, 请确保在组织范围的设置中为你的组织启用了倒班, 然后创建自定义应用权限策略并将其分配给这些用户。 若要了解详细信息, 请参阅[管理团队中的应用权限策略](../../teams-app-permission-policies.md)。
+
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 应用设置策略固定对团队的倒班
+
+应用设置策略允许你自定义团队, 以突出显示你的组织中的用户最重要的应用。 策略中设置的应用将固定到应用程序栏,&mdash;应用栏位于团队桌面客户端和团队移动客户&mdash;端的底部, 用户可在其中快速轻松地访问它们。 
  
-团队包括您可以在组织中分配给 Firstline 工作者内置 Firstline 工作人员应用程序设置策略。 默认情况下，该策略包括活动、 引进、 聊天和调用应用程序。 
+团队包括一个内置的 FirstlineWorker 应用设置策略, 可分配给你的组织中的一线工作人员。 默认情况下, 该策略包括活动、班次、聊天和呼叫应用。 
 
-若要查看 Firstline 工作者策略中，Microsoft 团队管理中心的左侧窗格中，转到**团队应用程序** > **应用程序设置策略**。
+若要查看 FirstlineWorker 策略, 请在 Microsoft 团队管理中心的左侧导航中, 转到 "**团队应用** > **应用" 设置策略**。
 
-![Microsoft 团队管理中心中的 Firstline 工作人员应用程序设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 Firstline 工作人员应用程序设置策略的屏幕截图")
+![FirstlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstlineWorker 应用设置策略的屏幕截图")
 
-#### <a name="assign-the-firstline-worker-policy-to-individual-users"></a>将 Firstline 工作者策略分配给各个用户
+#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>将 FirstlineWorker 策略分配给单个用户
 
-1. 在 Microsoft 团队管理中心的左侧导航窗格中，转到**用户**，，然后单击用户。
-2. 旁边**分配策略**，选择**编辑**。
-3. **团队应用程序设置策略**，下选择**FirstlineWorker**，，然后选择**保存**。
+1. 在 Microsoft 团队管理中心的左侧导航中, 转到 "**用户**", 然后单击 "用户"。
+2. 在 "**分配的策略**" 旁边, 选择 "**编辑**"。
+3. 在 "**团队应用设置策略**" 下, 选择 " **FirstlineWorker**", 然后选择 "**保存**"。
 
-#### <a name="assign-the-firstline-worker-app-setup-policy-to-users-in-a-group"></a>将 Firstline 工作人员应用程序安装策略分配给组中的用户
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>将 FirstlineWorker 应用设置策略分配给组中的用户
 
-您可以 Firstline 工作人员应用程序安装程序将策略分配给组，例如安全组中的用户连接到图模块 Azure Active Directory PowerShell 和业务 PowerShell 模块 Skype。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell Overview](../../teams-powershell-overview.md)。
+你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块, 将 FirstlineWorker 应用设置策略分配给组中的用户 (如安全组)。 有关使用 PowerShell 管理团队的详细信息, 请参阅[团队 PowerShell 概述](../../teams-powershell-overview.md)。
 
-本示例中，我们 Firstline 工作人员应用程序安装程序将策略分配给 Contoso Firstline 团队组中的所有用户。
+在此示例中, 我们将 FirstlineWorker 应用设置策略分配给 Contoso 一线团队组中的所有用户。
 
 > [!NOTE]
-> 请确保您首次[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤通过连接到图模块 Azure Active Directory PowerShell 和业务 PowerShell 模块的 Skype。
+> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤, 确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
-获取特定的组的 GroupObjectId。
+获取特定组的 GroupObjectId。
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
@@ -90,11 +95,11 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-组中的所有用户都分配 FirstlineWorker 应用程序设置策略。
+将组中的所有用户分配到 FirstlineWorker 应用设置策略。
 ```
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
-根据组中成员的数目，此命令可能需要几分钟才能执行。
+此命令可能需要几分钟才能执行, 具体取决于组中的成员数量。
 
 ## <a name="related-topics"></a>相关主题
-- [移 Firstline 工作者的帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [倒班一线工作者的帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

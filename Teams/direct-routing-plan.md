@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。
-ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
+ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768161"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36166279"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -234,8 +234,8 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 适用于媒体旁路情况和非绕过情况
 
 会话边界控制器和云媒体处理器 (没有媒体旁路) 或团队客户端与 SBC 之间 (如果启用了媒体旁路) 之间的直接路由接口, 可以使用以下编解码器:
-- 非媒体旁路 (SBC 到云媒体处理器): 绞丝、711、722、G、729
-- 媒体绕过 (SBC 到团队客户端): 711、722、g、729、OPUS
+- 非媒体旁路 (SBC 到云媒体处理器): 绞丝、711、722、G 729
+- 媒体绕过 (SBC 到团队客户端): 绞丝、711、722、729、OPUS
 
 你可以通过从优惠中排除不需要的编解码器来强制使用会话边界控制器上的特定编解码器。
 
