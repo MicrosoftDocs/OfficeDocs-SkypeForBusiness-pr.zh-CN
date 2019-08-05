@@ -3,7 +3,6 @@ title: 为你的组织管理 Microsoft Teams 设置
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -17,50 +16,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: cd6a2193023b728710df8ad09c10fa0bd7280c94
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221533"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171646"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
-所有 Teams 设置将很快迁移到新的 Microsoft Teams 管理中心。在 Microsoft 365 管理中心进行管理的唯一 Teams 功能是“应用”。 
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心内的“Teams 应用”设置
 
-除非另有说明，否则选项的默认值为“**开启**”。
+可以在 Microsoft Teams 管理中心内的“Teams 应用”**** 中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
 
-## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心的租户范围设置
-
-你可以在 Microsoft 365 管理中心的“**租户范围的设置**”中关闭或打开 Teams 的应用功能。 
-
-要编辑 Teams 的**租户范围的设置**，请访问 Microsoft 365 管理中心，然后选择“**设置**” > “**服务和外接程序**” > “**Microsoft Teams**”。如果你已使用 Office 365 管理员身份登录，单击此链接应该能转到相应位置： 
-
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
-
-### <a name="apps"></a>应用
-
-应用为选项卡、连接器、机器人或这三者的任意组合，它们由 Teams（第一方应用，亦称为默认应用）或第三方（亦称为外部应用）提供。在“应用”**** 下，可以启用和禁用默认应用，并配置用于控制外部应用的设置。若要详细了解如何在 Teams 中推出应用、机器人、连接器和选项卡，请参阅[应用、机器人和连接器](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page)。
-
-#### <a name="default-apps"></a>默认应用
-
-默认应用（例如 Planner、Praise 和 Weather）由 Teams 提供。 要打开某个应用，请选中该应用对应的复选框。 要关闭某个应用，请取消选中相应的复选框。
-
-![“默认应用”部分屏幕截图。](media/teams-manage-features-in-office365-image1.png "“默认应用”部分屏幕截图")
-
-#### <a name="external-apps"></a>外部应用
-
-外部应用由第三方提供。 你可以为外部应用配置以下设置。
-
-![“外部应用”部分屏幕截图。](media/teams-manage-features-in-office365-image2.png "“外部应用”部分屏幕截图，显示了你可以打开和关闭的设置")
-
-- **在 Microsoft Teams 中允许外部应用**：打开此设置后，用户可以添加贵组织可用的外部应用。 
-
-- **允许外部应用的旁加载**：如果你希望打开一些外部应用并关闭其他外部应用，请关闭此设置，然后在外部应用列表中，关闭你不希望用户访问的应用。 打开此设置后，团队所有者和被授予权限的成员可以向 Teams 旁加载应用。 
-
-- **默认启用新的外部应用**：打开此设置后，用户可以在新应用添加到 Teams 应用目录后立即激活它们。 如果你希望控制新应用，请关闭此设置。 当然，如果你关闭此设置，必须记得定期查看新应用，以免贵组织错过新应用。 
+若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 组织范围设置
+
 你可以在 Microsoft Teams 管理中心中控制组织范围内的用户设置。若要编辑组织范围内的设置，请转到 Microsoft Teams 管理中心，然后选择“**组织范围的设置**”。你可以配置以下设置。
 
 ### <a name="external-access"></a>外部访问
