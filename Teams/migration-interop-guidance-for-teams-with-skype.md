@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e6656cab6918cfa0b04da28f0197137a300bbf79
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933831"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207188"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
@@ -162,7 +162,7 @@ TeamsUpgradePolicy 控制传入联盟聊天和呼叫的路由。 *除 "孤岛" �
 
 |众|解释|
 |---|---|
-|**群岛**</br>默认|用户并排运行 Skype for business 和团队。 此用户:</br><ul><li>可以在 Skype for Business 或团队客户端中发起聊天和 VoIP 呼叫。 注意: 无论收件人的模式如何, 使用 Skype for business 托管内部部署的用户都无法从团队发起, 从而访问其他 Skype for Business 用户。<li>接收 skype for business 客户端中其他用户在 Skype for Business 中发起的聊天 &。<li>在团队客户端中的其他用户 (如果它们位于*同一租户*中) 中接收 & VoIP 呼叫的聊天。<li>如果其他用户在*联盟租户*中, 则在其他用户的 Skype for business 客户端中发起的 VoIP 呼叫 & 的聊天。 <li>具有如下所述的 PSTN 功能:<ul><li>如果用户托管在本地 Skype for business 且具有企业语音, 则在 Skype for Business 中始终发起和接收 PSTN 呼叫。<li>当用户托管在 Skype for business Online 且拥有 Microsoft 手机系统时, 用户将始终在 Skype for Business 中启动并接收 PSTN 呼叫:<ul><li>无论用户是否具有 Microsoft 通话计划, 或者通过 skype for business 云连接器版或 Skype for business Server 的本地部署 (混合语音), 都将发生 IThis。<li>注意: Microsoft 团队手机系统直接路由在孤岛模式下不受支持。</ul></ul><li>•在 Skype for Business 中接收 Microsoft 通话队列和自动助理通话<li>可以在团队或 Skype for business 中安排会议 (并且默认情况下将看到两个插件)。<li>可以加入任何 Skype for Business 或团队会议;会议将在相应的客户端中打开。</ul>|
+|**群岛**</br>默认|用户并排运行 Skype for business 和团队。 此用户:</br><ul><li>可以在 Skype for Business 或团队客户端中发起聊天和 VoIP 呼叫。 注意: 无论收件人的模式如何, 使用 Skype for business 托管内部部署的用户都无法从团队发起, 从而访问其他 Skype for Business 用户。<li>接收 skype for business 客户端中其他用户在 Skype for Business 中发起的聊天 &。<li>在团队客户端中的其他用户 (如果它们位于*同一租户*中) 中接收 & VoIP 呼叫的聊天。<li>如果其他用户在*联盟租户*中, 则在其他用户的 Skype for business 客户端中发起的 VoIP 呼叫 & 的聊天。 <li>具有如下所述的 PSTN 功能:<ul><li>如果用户托管在本地 Skype for business 且具有企业语音, 则在 Skype for Business 中始终发起和接收 PSTN 呼叫。<li>当用户托管在 Skype for business Online 且拥有 Microsoft 手机系统时, 用户将始终在 Skype for Business 中启动并接收 PSTN 呼叫:<ul><li>无论用户是否具有 Microsoft 通话计划, 都是如此, 还是通过 skype for business 云连接器版或 Skype for business Server 的内部部署 (混合语音) 连接到 PSTN 网络。<li>**注意: Microsoft 团队手机系统直接路由在孤岛模式下不受支持。**</ul></ul><li>在 Skype for Business 中接收 Microsoft 通话队列和自动助理通话。<li>可以在团队或 Skype for business 中安排会议 (并且默认情况下将看到两个插件)。<li>可以加入任何 Skype for Business 或团队会议;会议将在相应的客户端中打开。</ul>|
 |**SfBOnly**|用户仅运行 Skype for Business。 此用户:</br><ul><li>只能从 Skype for Business 发起聊天和通话。<li>在其 Skype for Business 客户端中接收任何聊天/呼叫, 除非发起人是具有 Skype for business 托管内部部署的团队用户。*只能安排 skype for business 会议, 但可以加入 skype for business 或团队会议。 <li></br>* 将 SfBOnly 模式中的其他用户结合使用时, 不建议将孤岛模式与本地用户结合使用。 如果使用 Skype for Business 托管内部部署的团队用户发起呼叫或与 SfBOnly 用户聊天, 则无法访问 SfBOnly 用户并收到错过的聊天/呼叫电子邮件。 *|
 |**SfBWithTeamsCollab**|用户并排运行 Skype for business 和团队。 此用户:</br><ul><li>在 SfBOnly 模式下具有用户的功能。<li>只有组协作 (频道) 才启用团队;聊天/通话/会议计划已禁用。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|用户并排运行 Skype for business 和团队。 此用户:<ul><li>在 SfBOnly 模式下具有用户的聊天和通话功能。<li>已为组协作启用团队 (频道-包括频道对话);已禁用聊天和通话。<li>只能安排团队会议, 但可以加入 Skype for Business 或团队会议。</ul>|

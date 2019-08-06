@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198418"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206954"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 
@@ -58,10 +58,7 @@ Teams 组合了三种形式的流量：
 
 网络性能目标采用正确的带宽和/或[QoS 规划](QoS-in-Teams.md)。 换句话说, 当网络连接处于峰值负载时, 要求直接适用于团队实时媒体流量。
 
-若要测试这两个网络段, 可以使用 "[网络评估" 工具](https://go.microsoft.com/fwlink/?linkid=855799)。 此工具可直接在客户端 PC 上和连接到客户网络边缘的 PC 上部署。 该工具包含有限的文档, 但有关该工具用法的更深入的文档可在此处找到:[网络准备情况评估](https://go.microsoft.com/fwlink/?linkid=855800)。 通过运行此网络准备情况评估, 你可以验证你的网络是否已准备好运行实时媒体应用程序, 例如 Microsoft 团队。
-
-> [!NOTE]
-> 这是相同的网络准备情况评估, 建议针对希望成功部署 Skype for Business 的客户运行。
+有关为团队准备网络的更多帮助, 请查看[网络 Planner](https://docs.microsoft.com/microsoftteams/network-planner)。
 
 
 ## <a name="bandwidth-requirements"></a>带宽要求

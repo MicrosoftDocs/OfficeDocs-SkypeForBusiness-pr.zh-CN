@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 将云自动助理与 Skype for Business Server 2019 结合使用的概述
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36160465"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207024"
 ---
 # <a name="plan-cloud-auto-attendants"></a>规划云自动助理
 
@@ -45,7 +45,7 @@ Exchange 统一消息 (Exchange Server 2013 或 Exchange Server 2016) 使用的�
 
 以下要求假定您已在受支持的拓扑中部署了 Skype for Business Server 2019。  您的要求取决于您的方案:
 
-- 如果您已在使用 Exchange UM online 或内部部署, 并且升级到 Skype for Business 2019, 则需要捕获自动助理的结构, 并使用云自动助理在云中重新创建它们。 有关详细信息, 请参阅[将 EXCHANGE UM 自动助理或呼叫队列移动到电话系统](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)。
+- 如果你已在使用 Exchange UM online 或本地, 并且升级到 Skype for Business 2019, 你将需要捕获自动助理的结构, 并使用云自动助理在云中重新创建它们。 有关详细信息, 请参阅[将 EXCHANGE UM 自动助理或呼叫队列移动到电话系统](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)。
 
 - 对于云自动助理的新配置, 请按照[Configure resource accounts](configure-onprem-ra.md)中所述的步骤操作。
 
@@ -56,14 +56,14 @@ Exchange 统一消息 (Exchange Server 2013 或 Exchange Server 2016) 使用的�
    有关详细信息, 请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
 - 如果你要向自动助理分配电话号码, 你将需要[Office 365 企业版 E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)许可证。
-- 为每个自动助理创建本地[资源帐户](/MicrosoftTeams/manage-resource-accounts.md), 并分配电话号码和许可证。 
+- 为每个自动助理创建一个联机[资源帐户](/MicrosoftTeams/manage-resource-accounts.md)或本地[资源帐户](configure-onprem-ra.md), 并分配电话号码和许可证。 
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
 如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019, 则必须仔细规划迁移, 以确保自动助理的持续支持。 请注意以下几点：
 
 - Exchange Server 2019 不再提供 Exchange UM 功能
-- Exchange 统一消息联机处于退休模式
+- Exchange 统一消息处于退休模式
 - Skype for Business Server 2019 不再与 Exchange Online UM 集成
 
 可以使用 Skype for Business Server 2019、2015和2013配置云自动助理。
@@ -91,7 +91,7 @@ Microsoft 建议采用以下迁移途径:
 
 ## <a name="additional-planning-resources"></a>其他规划资源
 
-标题为 "[小型企业" 的教程示例-设置自动助理, 以](/microsoftteams/tutorial-org-aa)收集有关用户需求的信息、规划自动助理和用户的结构 (以及可能的呼叫队列)、编写菜单提示以及在联机管理中心实施计划。 查看教程并使用此处的练习来创建您的计划。
+标题为 "[小型企业" 的教程示例-设置自动助理, 以](/microsoftteams/tutorial-org-aa)收集有关用户需求的信息、规划自动助理和用户的结构 (以及可能的呼叫队列)、编写菜单提示以及在团队管理中心实施计划。 查看教程并使用此处的练习来创建您的计划。
 
 如果您具有满足需求的实体结构和指导客户有效的脚本, 请继续[配置资源帐户](configure-onprem-ra.md)。
 

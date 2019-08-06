@@ -1,6 +1,6 @@
 ---
 title: 在对 Microsoft Teams 进行故障排除时使用日志文件
-ms.reviewer: ''
+ms.reviewer: tejeshs
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857395"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206946"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================

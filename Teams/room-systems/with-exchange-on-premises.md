@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: 阅读本主题, 了解如何使用 Exchange on on-premises 在混合环境中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a16b56c6886215f46ca40a7898353af010c840b3
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288480"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207139"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
@@ -141,7 +141,13 @@ Skype for Business Online PowerShell 用于管理 Microsoft 团队和 Skype for 
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. 若要启用 Microsoft 团队聊天室帐户, 请运行以下命令:
+2. 获取帐户的 SIP 地址:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. 若要启用 Microsoft 团队聊天室帐户, 请运行以下命令:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

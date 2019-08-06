@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820982"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206962"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS)
 
@@ -101,7 +101,7 @@ DSCP 值会将相应的配置的网络通知到相应配置的网络, 提供数�
 
 不同实时流工作负荷的端口范围的相对大小设置专用于该工作负荷的总可用带宽的比例。 若要返回到我们以前的邮政编码, 请执行以下操作: 带有 "Air Mail" 图章的信函可能会在一个小时内进入最接近的机场, 而标记为 "大宗邮件" 的小程序包可以在一天前等待一天。
 
-下表显示了具有 ExpressRoute 的团队的必需 DSCP 标记以及工作负荷队列的关联端口。 对于不确定在其自己的环境中使用哪些内容的客户, 这些范围可能是一个良好的起点。 要了解详细信息，请阅读 [ExpressRoute QoS 要求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)。
+下表显示了所需的 DSCP 标记以及团队和 ExpressRoute 使用的建议的相应媒体端口范围。 对于不确定在其自己的环境中使用哪些内容的客户, 这些范围可能是一个良好的起点。 要了解详细信息，请阅读 [ExpressRoute QoS 要求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)。
 
 _推荐的初始端口范围_
 
