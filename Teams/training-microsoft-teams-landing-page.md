@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 088b684608d4b53cc90373bb018055da24cb2b3c
+ms.sourcegitcommit: 2e47053604211e4387d76ffa9ec61db4c08650fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804838"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "36045319"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -93,28 +93,6 @@ ms.locfileid: "35804838"
 经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。
 <ul class="panelContent cardsW">
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>在 30 天内掌握 Teams 的用法</h3>
-                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">现场互动研讨会旨在让你在短短 30 天内掌握 Teams 的用法。</a></p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>从 Skype for Business 到 Teams 的旅程</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">教程：从 Skype for Business 到 Teams 的升级旅程</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
