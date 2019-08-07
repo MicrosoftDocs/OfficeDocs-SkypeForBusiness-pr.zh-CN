@@ -19,10 +19,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d4d2cb57738083b299a9f43786bdf28f86741a99
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35861674"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序

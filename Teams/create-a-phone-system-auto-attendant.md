@@ -3,7 +3,7 @@ title: 设置云自动助理
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614265"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35807533"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -39,12 +39,7 @@ ms.locfileid: "35614265"
 
 ## <a name="step-1---get-started"></a>步骤 1-入门
 
-- 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户的详细信息, 请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。
-- 如果你计划分配直接路由号码, 你需要使用手机系统加载项获取以下许可证并将其分配给\(你的资源帐户 Office 365 企业版 E1、E3 或 E5\)。
-- 如果你改为分配 Microsoft 服务号码, 则需要使用手机系统加载项获取以下许可证并将其分配\(给你的资源帐户 Office 365 Enterprise E1、E3 或 E5\)。
-
-> [!CAUTION]
-> 若要获取并使用免费电话号码，则需要设置通信点数。 若要执行此操作，请参阅 [通信点数是什么？](what-are-communications-credits.md) 和 [为组织设置通信点数](set-up-communications-credits-for-your-organization.md) 。
+- 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户和所需的所有许可证的详细信息, 请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。
 
 > [!TIP]
 > 要将呼叫重定向到使用**电话系统**许可证的联机用户的操作员或菜单选项, 您需要为企业语音启用它们。 请参阅[分配 Skype For business 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如, 运行:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -206,7 +201,7 @@ ms.locfileid: "35614265"
   - 拥有 **电话系统** 许可证，启用了企业语音或在 Office 365 中分配了呼叫计划的 **公司人员** 。 你可以通过此设置将呼叫者直接转到语音邮件。 若要执行此操作, 请选择**您的公司中的人员**, 并将其呼叫直接转发到语音邮件。
 
     > [!Note]
-    > **公司人员** 可以是联机用户或者是使用 Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。
+    > **公司中的人员**可以是联机用户, 也可以是使用 Skype For business Server 或 Lync server 2013 的本地托管用户。
     - 另一个**自动助理**
 
        可以使用现有的自动助理来创建包含子菜单的第二级菜单选项。 These are called nested auto attendants. 若要将呼叫发送到嵌套的自动助理, 请选择 "**公司" 中**的 "人员", 然后分配一个已具有关联的自动助理的资源帐户, 或者在完成创建此自动助理后将与自动助理关联的帐户。
@@ -214,13 +209,13 @@ ms.locfileid: "35614265"
         > [!Note]
         > 还将使用嵌套 (或二级) 自动助理的**工作时间**, 包括从已设置的其他自动助理发送的呼叫。
 
-<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+     - **通话队列**使用呼叫队列选项允许将呼叫转移到已设置的现有呼叫队列。 
 
 * * *
 
 ![数字5的图标, 引用上一个屏幕截图中的标注](media/sfbcallout5.png)
 
-**按名称拨号**如果选择此选项, 将使使用目录搜索在你的组织中搜索人员的人员可以使用此选项。 在 **拨号范围** 页面上设置这些选项便可为“按名称拨号”选择哪些作为可选人列出或者哪些不作为可选人列出。 使用“按名称拨号”可找到任何拥有 **电话系统** 许可证的联机用户或任何使用Skype for Business Server 2015 或者 Lync Server 2013 的本地托管用户。
+**按名称拨号**如果选择此选项, 将使使用目录搜索在你的组织中搜索人员的人员可以使用此选项。 在 **拨号范围** 页面上设置这些选项便可为“按名称拨号”选择哪些作为可选人列出或者哪些不作为可选人列出。 使用**电话系统**许可证的任何联机用户或任何使用 Skype For business 服务器或 Lync server 2013 的本地托管用户均可通过 "按名称拨号" 找到。
 
 * * *
 
@@ -290,7 +285,7 @@ ms.locfileid: "35614265"
 
 ![数字1的图标, 在上一个屏幕截图](media/sfbcallout1.png)中使用 "**包括**" 选项引用标注, 你有两个选项:
 
-- **所有在线用户** 使用此选项可以将组织中的所有人包含在目录搜索中。 将列出拥有 **电话系统** 许可证的所有联机用户，以及使用 Skype for Business Server 2015 或者 Lync Server 2013 ，并在 Office 365 中拥有呼叫计划的本地托管用户。
+- **所有在线用户** 使用此选项可以将组织中的所有人包含在目录搜索中。 所有具有**电话系统**许可证的联机用户, 以及使用 Office 365 中具有呼叫计划的 Skype For business 服务器或 Lync server 2013 的用户托管的用户。
 - **自定义用户组**如果使用此选项, 则可以搜索在你的组织中创建的 Office 365 组、通讯组列表或安全组, 以及添加到此 Office 365 组、通讯组列表或安全组的人员, 这些**用户是使用电话系统许可证**或使用 Skype For Business server 2015 或 Lync Server 2013 内部托管。 你可以添加多个 Office 365 组、通讯组列表和安全组。
 
 * * *

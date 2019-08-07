@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206946"
+ms.locfileid: "36212610"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -86,11 +86,11 @@ ms.locfileid: "36206946"
 
 |客户端 |位置 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*博客         |
-|            |%appdata%\Microsoft\Teams\skylib\*博客
-|            |%appdata%\Microsoft\Teams\media-stack\*         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/application support 支持/Microsoft/团队/skylib\*         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. 博客         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. 博客
+|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Mac OSX     |~/Library/application support 支持/Microsoft/团队/media-stack/*. 博客         |
+|            |~/Library/application support 支持/Microsoft/团队/skylib/*. 博客         |
 
 
 

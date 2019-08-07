@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344622"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433476"
 ---
-![升级旅程的阶段, 重点是收集项目利益干系人团队](media/upgrade-banner-stakeholders.png "升级旅程的阶段, 重点是收集项目利益干系人团队")
+![显示升级历程的利益干系人状态的插图](media/upgrade-banner-stakeholders.png "升级旅程的阶段, 重点是收集项目利益干系人团队")
 
 本文是你的升级过程的项目利益干系人阶段的一部分, 你为项目成功完成的第一个和最基本的活动。
 

@@ -20,10 +20,10 @@ ms.custom:
 hideEdit: true
 description: 2021年7月31日, 生命期结束计划将结束与第三方音频会议提供商 (第三方 ACP) 的 Skype for Business 的集成。
 ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36170990"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>将 Skype for Business 与第三方音频会议提供商集成的生命周期结束 

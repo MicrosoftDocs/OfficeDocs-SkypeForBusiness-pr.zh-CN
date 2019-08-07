@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: c86fa96418f22ebc9dba0d6497e3ef09487a7d7f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433117"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35638635"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 
 如果是大型组织、拥有混合或本地 Skype for Business 配置、有严格的规章或合规性要求，或者你想要部署会议或语音功能（例如呼叫计划或电话系统），请首先阅读[如何部署 Teams](how-to-roll-out-teams.md)。 我们建议你仍然从**入门**这一部分着手，并开始规划组织范围内的部署。 “用 Teams 来规划 Teams。” 首先利用聊天、团队、频道和应用小规模部署 Teams，然后逐步扩大规模。 这些最初的经验将帮助你宣传 Teams，在整个组织内激发兴奋情绪，为你的下一投放阶段做好准备。 
 
-如果是小型企业，你使用这一入门指引或许就能够在组织内完全部署 Teams。 小型企业可能不需要进行分阶段 Teams 部署。
+如果是小型企业，你使用这一入门指引或许就能够在组织内完全部署 Teams。 小型企业可能不需要进行分阶段 Teams 部署。 请务必查看专为小型业务提供、便于在组织中更轻松更简便地进行部署的模板。 请参阅[适用于中小型企业的 Teams 模板](https://docs.microsoft.com/microsoftteams/smb-templates)。
 
 ## <a name="before-you-get-started"></a>开始之前
 

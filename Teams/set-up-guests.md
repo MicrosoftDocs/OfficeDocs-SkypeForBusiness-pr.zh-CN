@@ -18,10 +18,10 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessart
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 240e93d5f6329090940e6bf49cb2d6a4ee46ce2f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35221448"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问

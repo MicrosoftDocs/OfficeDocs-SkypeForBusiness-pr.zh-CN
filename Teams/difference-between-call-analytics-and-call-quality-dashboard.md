@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 了解 "呼叫分析" 和 "呼叫质量" 仪表板以及何时使用它们监视和解决呼叫质量问题。
-ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281875"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433596"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通话分析和通话质量仪表板
 
@@ -42,11 +42,11 @@ Microsoft 团队和 Skype for business 为你提供了两种监视和解决通�
 
 若要在 Microsoft 团队管理中心中查看用户的此信息, 请单击用户详细信息页面中该用户的 "**通话记录**" 选项卡, 显示用户在过去30天内参与的所有呼叫和会议。
 
-![调用分析用户数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![所有分析用户数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 若要获取有关给定会话的其他信息 (包括详细媒体和网络统计信息), 请单击某个会话以查看详细信息。
 
-![呼叫分析用户会话数据。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![呼叫分析用户会话数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 如果您希望非管理员 (例如来自外部供应商的支持人员) 使用呼叫分析, 您可以分配权限以便他们可以使用呼叫分析, 但不能访问 Microsoft 团队管理中心的其余部分: 
   
@@ -70,11 +70,11 @@ Microsoft 团队和 Skype for business 为你提供了两种监视和解决通�
   
 用户的通话质量可能很差是由于网络问题也会影响其他许多用户。 个人通话体验在 CQD 中不可见, 但捕获使用 Microsoft 团队或 Skype for business 进行的整体通话质量。 有了 CQD, 整体模式可能会变得显而易见, 使网络工程师能够做出明智的通话质量评估。 CQD 提供了通话质量指标的报告, 可帮助你深入了解整个通话质量、服务器客户端流、客户端客户端流和语音质量[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)。
   
-![通话质量仪表板的屏幕截图。 显示的选项卡是整体通话质量、服务器客户端、客户端客户端和语音质量 SLA。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![通话质量仪表板的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
 通过 CQD 的位置增强的报表, 可以评估用户建筑物内的聚合呼叫质量和可靠性, 以确定问题是独立于单个用户还是影响更大的用户段。
 
-![通话质量仪表板的位置增强的报表的屏幕截图。 显示的选项卡概述、建筑物-有线、建筑物-WiFi 和手机 (LTE)。 应用筛选器以查看特定建筑物内的流。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![通话质量仪表板的位置增强的报表的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > 若要在 CQD 中启用生成或特定于终结点的视图, 管理员必须在 CQD 租户数据上载页面上[上载生成或终结点信息](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)。 

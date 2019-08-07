@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '摘要: 在你的环境中准备和实现禁用 TLS 1.0 和1.1。'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275239"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中禁用 TLS 1.0/1。1
@@ -451,7 +451,7 @@ Windows Registry Editor Version 5.00
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>验证工作负荷是否按预期运行
 
-一旦 TLS 1.0 和1.1 在你的环境中被禁用, 请确保你的所有主工作负载均按预期运行, 例如 IM & 状态、P2P 呼叫、企业语音等。
+一旦 TLS 1.0 和1.1 在你的环境中被禁用, 请确保你的所有主工作负荷正常运行, 例如 IM & 状态、P2P 呼叫、企业语音等。
 
 **仅验证正在使用的 TLS 1。2**
 
@@ -480,8 +480,8 @@ Windows Registry Editor Version 5.00
 
 **选项 2:** 预安装本地 SQL 实例 (RTCLOCAL 和 LYNCLOCAL)
 
-1. 将 SQL Express 2014 SP2 (SQLEXPR_x64) 下载并复制到 FE 上的本地文件夹。 假设 "文件夹路径 <SQL_FOLDER_PATH>"。
-2. 启动 PowerShell 或命令提示符并导航到 <SQL_FOLDER_PATH>。
+1. 将 SQL Express 2014 SP2 (SQLEXPR_x64) 下载并复制到 FE 上的本地文件夹。 假设 "文件夹路径" <SQL_FOLDER_PATH> "。
+2. 启动 PowerShell 或命令提示符并导航到 <SQL_FOLDER_PATH ">。
 3. 通过运行下面的命令创建 RTCLOCAL SQL 实例。 请等到 SQLEXPR_x64 完成后再继续操作:
 
     SQLEXPR_x64/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = 安装/FEATURES = SQLEngine, Tools/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "内置 \管理员 "/BROWSERSVCSTARTUPTYPE =" 自动 "/AGTSVCACCOUNT =" NTAUTHORITY\NetworkService "/SQLSVCSTARTUPTYPE = Automati

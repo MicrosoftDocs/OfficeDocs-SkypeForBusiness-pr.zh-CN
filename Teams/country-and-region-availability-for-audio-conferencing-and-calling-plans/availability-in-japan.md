@@ -25,18 +25,21 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 569456a611082d9383b630ae545fa2fb22e3d6f9
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331689"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35602324"
 ---
 # <a name="availability-in-japan"></a>在日本的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+
+> [!IMPORTANT]
+> 在日本使用 SoftBank 进行通话目前仅适用于早期的采纳者 (EA)。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -56,19 +59,26 @@ ms.locfileid: "34331689"
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
+> [!IMPORTANT]
+> 仅可通过 SoftBank 使用基于日语的租户。 有关详细信息, 请参阅[Office 365 的 SoftBank 呼叫](https://aka.ms/SoftBankVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |否  <br/> |
-|通话套餐的可用分钟数  <br/> |不适用  <br/> |
-|是否可以拨打呼出电话？  <br/> |不适用  <br/> |
-   
+|是否可购买通话套餐？  <br/> |是的, 请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。  <br/> |
+|通话套餐的可用分钟数  <br/> |请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。 <br/> |
+|是否可以拨打呼出电话？  <br/> |请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。 <br/> |
+
+> [!IMPORTANT]
+> 若要删除日本 (由 SoftBank 提供) 中的用户 (订阅者) 号码, 请直接联系 SoftBank。
+> 若要更新日本 (由 SoftBank 提供) 中用户 (订阅者) 号码的紧急地址信息, 请直接联系 SoftBank。
+> 有关详细信息, 请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |北京  <br/> |
-|是否提供收费电话号码？  <br/> |是  <br/> |
+|是否提供收费电话号码？  <br/> |是 <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
