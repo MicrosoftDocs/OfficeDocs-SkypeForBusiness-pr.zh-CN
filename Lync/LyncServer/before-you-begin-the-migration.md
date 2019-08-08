@@ -3,6 +3,7 @@ title: 开始迁移之前的准备工作
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Before you begin the migration
 ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204634(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7ab2e365e8653695b88b1e7b12ee1104edd115d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0efc35dab497b2525344f5d4723d30c9684b517c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837101"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +24,7 @@ ms.locfileid: "34837101"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a><span data-ttu-id="5868f-102">开始迁移之前的准备工作</span><span class="sxs-lookup"><span data-stu-id="5868f-102">Before you begin the migration</span></span>
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="07b06-102">开始迁移之前的准备工作</span><span class="sxs-lookup"><span data-stu-id="07b06-102">Before you begin the migration</span></span>
 
 </div>
 
@@ -33,25 +34,25 @@ ms.locfileid: "34837101"
 
 <span> </span>
 
-<span data-ttu-id="5868f-103">_**主题上次修改时间:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="5868f-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="07b06-103">_**主题上次修改时间:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="07b06-103">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="5868f-104">开始之前, 我们建议您阅读本文档和以下指南, 以熟悉如何部署相应的 Lync Server 2013 角色:</span><span class="sxs-lookup"><span data-stu-id="5868f-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
+<span data-ttu-id="07b06-104">开始之前, 我们建议您阅读本文档和以下指南, 以熟悉如何部署相应的 Lync Server 2013 角色:</span><span class="sxs-lookup"><span data-stu-id="07b06-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
 
-  - [<span data-ttu-id="5868f-105">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5868f-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+  - [<span data-ttu-id="07b06-105">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07b06-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
-  - [<span data-ttu-id="5868f-106">将 Lync Server 2013 Standard Edition 部署到现有 Lync Server 2013 Enterprise 中</span><span class="sxs-lookup"><span data-stu-id="5868f-106">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="07b06-106">将 Lync Server 2013 Standard Edition 部署到现有 Lync Server 2013 Enterprise 中</span><span class="sxs-lookup"><span data-stu-id="07b06-106">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [<span data-ttu-id="5868f-107">在 Lync Server 2013 中部署外部用户访问</span><span class="sxs-lookup"><span data-stu-id="5868f-107">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+  - [<span data-ttu-id="07b06-107">在 Lync Server 2013 中部署外部用户访问</span><span class="sxs-lookup"><span data-stu-id="07b06-107">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
 
-  - [<span data-ttu-id="5868f-108">在 Lync Server 2013 中部署客户端和设备</span><span class="sxs-lookup"><span data-stu-id="5868f-108">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
+  - [<span data-ttu-id="07b06-108">在 Lync Server 2013 中部署客户端和设备</span><span class="sxs-lookup"><span data-stu-id="07b06-108">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5868f-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="5868f-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="07b06-109">本节内容</span><span class="sxs-lookup"><span data-stu-id="07b06-109">In This Section</span></span>
 
-  - [<span data-ttu-id="5868f-110">迁移过程</span><span class="sxs-lookup"><span data-stu-id="5868f-110">Migration process</span></span>](migration-process.md)
+  - [<span data-ttu-id="07b06-110">迁移过程</span><span class="sxs-lookup"><span data-stu-id="07b06-110">Migration process</span></span>](migration-process.md)
 
-  - [<span data-ttu-id="5868f-111">迁移阶段</span><span class="sxs-lookup"><span data-stu-id="5868f-111">Migration phases</span></span>](migration-phases.md)
+  - [<span data-ttu-id="07b06-111">迁移阶段</span><span class="sxs-lookup"><span data-stu-id="07b06-111">Migration phases</span></span>](migration-phases.md)
 
 </div>
 
