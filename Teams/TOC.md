@@ -644,7 +644,6 @@
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Microsoft Teams 即将推出一线员工功能](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [运行报告以显示活动 StaffHub 的使用情况](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)

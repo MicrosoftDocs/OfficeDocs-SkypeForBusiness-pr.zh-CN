@@ -7,18 +7,19 @@ manager: serdars
 description: 注册参加讲师引导式课程来全面了解 Microsoft Teams。
 localization_priority: Priority
 author: lanachin
+audience: admin
 ms.topic: hub-page
 ms.author: v-lanac
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: a1a5cf0f588e04c556ba1deb1347e5f4eda66f2c
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: 344f47847abc909f9bea2561821ba8778382e615
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861853"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245324"
 ---
 <div id="main" class="v2">
     <div class="container">
