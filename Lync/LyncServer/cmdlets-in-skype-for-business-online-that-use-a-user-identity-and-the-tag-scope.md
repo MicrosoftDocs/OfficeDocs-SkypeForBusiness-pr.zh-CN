@@ -3,6 +3,7 @@ title: Skype for Business Online 中使用用户标识和标记作用域的 cmdl
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Cmdlets that use a user identity and the tag scope
 ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362781(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ab087388feb37ca8299cae8e4246484e4c23a88
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31f6b76b6c63b39bf22f456260f084736d481513
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233125"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Skype for Business Online 中使用用户标识和标记作用域的 cmdlet
 
