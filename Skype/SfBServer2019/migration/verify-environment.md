@@ -5,84 +5,84 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在共存状态中部署 Skype for Business Server 2019 之前, 你需要验证是否已配置并启动旧式服务。 在部署 Skype for business Server 2019 试验池之前, 请务必确定旧版环境中存在的关键服务和功能。 在使用旧版 XMPP 部署部署 Microsoft Skype for Business Server 2019 XMPP 之前, 你需要验证旧的 XMPP 服务是否已配置并启动, 并确定旧版 XMPP 配置是哪个联盟伙伴证明.
-ms.openlocfilehash: 9495c68085f3fc3495d4c2ced05be8b20039eb4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280658"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243773"
 ---
-# <a name="verify-the-legacy-environment"></a><span data-ttu-id="50b8b-105">验证旧环境</span><span class="sxs-lookup"><span data-stu-id="50b8b-105">Verify the legacy environment</span></span>
+# <a name="verify-the-legacy-environment"></a><span data-ttu-id="506e7-105">验证旧环境</span><span class="sxs-lookup"><span data-stu-id="506e7-105">Verify the legacy environment</span></span>
 
-<span data-ttu-id="50b8b-106">在共存状态中部署 Skype for Business Server 2019 之前, 你需要验证是否已配置并启动旧式服务。</span><span class="sxs-lookup"><span data-stu-id="50b8b-106">Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started.</span></span> <span data-ttu-id="50b8b-107">在部署 Skype for business Server 2019 试验池之前, 请务必确定旧环境中存在的关键服务和功能。</span><span class="sxs-lookup"><span data-stu-id="50b8b-107">It is important to identify key services and features that exist in your legacy environment prior to deploying a Skype for Business Server 2019 pilot pool.</span></span> <span data-ttu-id="50b8b-108">在使用旧版 XMPP 部署在共存状态中部署 Microsoft Skype for Business Server 2019 XMPP 之前, 你需要验证是否已配置并启动旧版 XMPP 服务, 并确定旧 XMPP 的联盟合作伙伴配置支持。</span><span class="sxs-lookup"><span data-stu-id="50b8b-108">Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify that the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="50b8b-109">验证旧部署需要执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="50b8b-109">Verifying your legacy deployment entails the following:</span></span>
+<span data-ttu-id="506e7-106">在共存状态中部署 Skype for Business Server 2019 之前, 你需要验证是否已配置并启动旧式服务。</span><span class="sxs-lookup"><span data-stu-id="506e7-106">Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started.</span></span> <span data-ttu-id="506e7-107">在部署 Skype for business Server 2019 试验池之前, 请务必确定旧环境中存在的关键服务和功能。</span><span class="sxs-lookup"><span data-stu-id="506e7-107">It is important to identify key services and features that exist in your legacy environment prior to deploying a Skype for Business Server 2019 pilot pool.</span></span> <span data-ttu-id="506e7-108">在使用旧版 XMPP 部署在共存状态中部署 Microsoft Skype for Business Server 2019 XMPP 之前, 你需要验证是否已配置并启动旧版 XMPP 服务, 并确定旧 XMPP 的联盟合作伙伴配置支持。</span><span class="sxs-lookup"><span data-stu-id="506e7-108">Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify that the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="506e7-109">验证旧部署需要执行以下操作:</span><span class="sxs-lookup"><span data-stu-id="506e7-109">Verifying your legacy deployment entails the following:</span></span>
   
-- <span data-ttu-id="50b8b-110">验证是否已启动旧式服务</span><span class="sxs-lookup"><span data-stu-id="50b8b-110">Verifying that the legacy services are started</span></span>
+- <span data-ttu-id="506e7-110">验证是否已启动旧式服务</span><span class="sxs-lookup"><span data-stu-id="506e7-110">Verifying that the legacy services are started</span></span>
     
-- <span data-ttu-id="50b8b-111">查看拓扑和用户</span><span class="sxs-lookup"><span data-stu-id="50b8b-111">Reviewing the topology and users</span></span>
+- <span data-ttu-id="506e7-111">查看拓扑和用户</span><span class="sxs-lookup"><span data-stu-id="506e7-111">Reviewing the topology and users</span></span>
     
-- <span data-ttu-id="50b8b-112">验证联盟和边缘服务器设置</span><span class="sxs-lookup"><span data-stu-id="50b8b-112">Verifying the federation and Edge server settings</span></span>
+- <span data-ttu-id="506e7-112">验证联盟和边缘服务器设置</span><span class="sxs-lookup"><span data-stu-id="506e7-112">Verifying the federation and Edge server settings</span></span>
     
-- <span data-ttu-id="50b8b-113">验证 XMPP 服务和联盟合作伙伴</span><span class="sxs-lookup"><span data-stu-id="50b8b-113">Verifying XMPP services and federated partners</span></span>
+- <span data-ttu-id="506e7-113">验证 XMPP 服务和联盟合作伙伴</span><span class="sxs-lookup"><span data-stu-id="506e7-113">Verifying XMPP services and federated partners</span></span>
     
-## <a name="verify-that-legacy-services-are-started"></a><span data-ttu-id="50b8b-114">验证是否已启动旧式服务</span><span class="sxs-lookup"><span data-stu-id="50b8b-114">Verify that legacy services are started</span></span>
+## <a name="verify-that-legacy-services-are-started"></a><span data-ttu-id="506e7-114">验证是否已启动旧式服务</span><span class="sxs-lookup"><span data-stu-id="506e7-114">Verify that legacy services are started</span></span>
 
-1. <span data-ttu-id="50b8b-115">从旧前端服务器, 导航到 "管理 Tools\Services" 小程序。</span><span class="sxs-lookup"><span data-stu-id="50b8b-115">From the legacy Front End Server, navigate to the Administrative Tools\Services applet.</span></span>
+1. <span data-ttu-id="506e7-115">从旧前端服务器, 导航到 "管理 Tools\Services" 小程序。</span><span class="sxs-lookup"><span data-stu-id="506e7-115">From the legacy Front End Server, navigate to the Administrative Tools\Services applet.</span></span>
     
-2. <span data-ttu-id="50b8b-116">验证以下服务是否在前端服务器上运行:</span><span class="sxs-lookup"><span data-stu-id="50b8b-116">Verify that the following services are running on the Front End Server:</span></span>
+2. <span data-ttu-id="506e7-116">验证以下服务是否在前端服务器上运行:</span><span class="sxs-lookup"><span data-stu-id="506e7-116">Verify that the following services are running on the Front End Server:</span></span>
     
      ![前端服务器上运行的服务列表](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a><span data-ttu-id="50b8b-118">查看 Skype for Business Server 控制面板中的旧版拓扑</span><span class="sxs-lookup"><span data-stu-id="50b8b-118">Review the legacy topology in Skype for Business Server Control Panel</span></span>
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a><span data-ttu-id="506e7-118">查看 Skype for Business Server 控制面板中的旧版拓扑</span><span class="sxs-lookup"><span data-stu-id="506e7-118">Review the legacy topology in Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="50b8b-119">使用具有 RTCUniversalServerAdmins 组成员身份或 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到前端服务器。</span><span class="sxs-lookup"><span data-stu-id="50b8b-119">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1. <span data-ttu-id="506e7-119">使用具有 RTCUniversalServerAdmins 组成员身份或 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到前端服务器。</span><span class="sxs-lookup"><span data-stu-id="506e7-119">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
     
-2. <span data-ttu-id="50b8b-120">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="50b8b-120">Open the Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="506e7-120">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="506e7-120">Open the Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="50b8b-121">选择 "**拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="50b8b-121">Select **Topology**.</span></span> <span data-ttu-id="50b8b-122">验证是否列出了旧版部署中的各种服务器。</span><span class="sxs-lookup"><span data-stu-id="50b8b-122">Verify that the various servers in your legacy deployment are listed.</span></span>
+3. <span data-ttu-id="506e7-121">选择 "**拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="506e7-121">Select **Topology**.</span></span> <span data-ttu-id="506e7-122">验证是否列出了旧版部署中的各种服务器。</span><span class="sxs-lookup"><span data-stu-id="506e7-122">Verify that the various servers in your legacy deployment are listed.</span></span>
     
      !["控制面板拓扑" 页面](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a><span data-ttu-id="50b8b-124">在 Skype for Business Server "控制面板" 中查看旧版用户</span><span class="sxs-lookup"><span data-stu-id="50b8b-124">Review legacy users in Skype for Business Server Control Panel</span></span>
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a><span data-ttu-id="506e7-124">在 Skype for Business Server "控制面板" 中查看旧版用户</span><span class="sxs-lookup"><span data-stu-id="506e7-124">Review legacy users in Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="50b8b-125">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="50b8b-125">Open the Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="506e7-125">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="506e7-125">Open the Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="50b8b-126">选择 "**用户**", 然后单击 "**查找**"。</span><span class="sxs-lookup"><span data-stu-id="50b8b-126">Select **Users**, and then click **Find**.</span></span>
+2. <span data-ttu-id="506e7-126">选择 "**用户**", 然后单击 "**查找**"。</span><span class="sxs-lookup"><span data-stu-id="506e7-126">Select **Users**, and then click **Find**.</span></span>
     
-3. <span data-ttu-id="50b8b-127">验证 "**注册机构池**" 列是否指向列出的每个用户的旧版池。</span><span class="sxs-lookup"><span data-stu-id="50b8b-127">Verify that the **Registrar Pool** column points to the legacy pool for each user listed.</span></span> 
+3. <span data-ttu-id="506e7-127">验证 "**注册机构池**" 列是否指向列出的每个用户的旧版池。</span><span class="sxs-lookup"><span data-stu-id="506e7-127">Verify that the **Registrar Pool** column points to the legacy pool for each user listed.</span></span> 
     
      !["控制面板", 其中列出了用户](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a><span data-ttu-id="50b8b-129">验证旧版边缘和联盟设置</span><span class="sxs-lookup"><span data-stu-id="50b8b-129">Verify legacy Edge and federation settings</span></span>
+## <a name="verify-legacy-edge-and-federation-settings"></a><span data-ttu-id="506e7-129">验证旧版边缘和联盟设置</span><span class="sxs-lookup"><span data-stu-id="506e7-129">Verify legacy Edge and federation settings</span></span>
 
-1. <span data-ttu-id="50b8b-130">启动拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="50b8b-130">Start Topology Builder.</span></span>
+1. <span data-ttu-id="506e7-130">启动拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="506e7-130">Start Topology Builder.</span></span>
     
-2. <span data-ttu-id="50b8b-131">**从现有部署中选择 "下载拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="50b8b-131">Select **Download Topology from existing deployment**.</span></span>
+2. <span data-ttu-id="506e7-131">**从现有部署中选择 "下载拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="506e7-131">Select **Download Topology from existing deployment**.</span></span>
     
-3. <span data-ttu-id="50b8b-132">选择文件名, 然后使用默认的 tbxml 文件类型保存拓扑。</span><span class="sxs-lookup"><span data-stu-id="50b8b-132">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
+3. <span data-ttu-id="506e7-132">选择文件名, 然后使用默认的 tbxml 文件类型保存拓扑。</span><span class="sxs-lookup"><span data-stu-id="506e7-132">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
     
-4. <span data-ttu-id="50b8b-133">展开 "旧版安装" 节点以显示部署中的各种服务器角色。</span><span class="sxs-lookup"><span data-stu-id="50b8b-133">Expand the legacy installs node to reveal the various server roles in the deployment.</span></span>
+4. <span data-ttu-id="506e7-133">展开 "旧版安装" 节点以显示部署中的各种服务器角色。</span><span class="sxs-lookup"><span data-stu-id="506e7-133">Expand the legacy installs node to reveal the various server roles in the deployment.</span></span>
     
-5. <span data-ttu-id="50b8b-134">选择 "网站" 节点并验证是否设置了 "**网站联合" 路由分配**值。</span><span class="sxs-lookup"><span data-stu-id="50b8b-134">Select the site node and verify that a **Site federation route assignment** value is set.</span></span> 
+5. <span data-ttu-id="506e7-134">选择 "网站" 节点并验证是否设置了 "**网站联合" 路由分配**值。</span><span class="sxs-lookup"><span data-stu-id="506e7-134">Select the site node and verify that a **Site federation route assignment** value is set.</span></span> 
     
      ![拓扑生成器、站点联合身份验证路线](../media/migration_lyncserver_w14_federation.jpg)
   
-6. <span data-ttu-id="50b8b-136">选择标准版服务器或企业版前端池。</span><span class="sxs-lookup"><span data-stu-id="50b8b-136">Select the Standard Edition Server or Enterprise Edition front end pool.</span></span> <span data-ttu-id="50b8b-137">确定是否已针对 "**关联**" 下的媒体配置了边缘池。</span><span class="sxs-lookup"><span data-stu-id="50b8b-137">Determine whether an Edge pool has been configured for media below **Associations**.</span></span> 
+6. <span data-ttu-id="506e7-136">选择标准版服务器或企业版前端池。</span><span class="sxs-lookup"><span data-stu-id="506e7-136">Select the Standard Edition Server or Enterprise Edition front end pool.</span></span> <span data-ttu-id="506e7-137">确定是否已针对 "**关联**" 下的媒体配置了边缘池。</span><span class="sxs-lookup"><span data-stu-id="506e7-137">Determine whether an Edge pool has been configured for media below **Associations**.</span></span> 
     
      ![拓扑生成器, 显示服务器和池](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. <span data-ttu-id="50b8b-139">选择 "边缘" 池并确定下一个跃点池是否在**下一个跃点选择**下配置。</span><span class="sxs-lookup"><span data-stu-id="50b8b-139">Select the Edge pool and identify whether a Next hop pool is configured below **Next hop selection**.</span></span>
+7. <span data-ttu-id="506e7-139">选择 "边缘" 池并确定下一个跃点池是否在**下一个跃点选择**下配置。</span><span class="sxs-lookup"><span data-stu-id="506e7-139">Select the Edge pool and identify whether a Next hop pool is configured below **Next hop selection**.</span></span>
     
      ![拓扑生成器, 下一跃点选择](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a><span data-ttu-id="50b8b-141">验证旧版 XMPP 联盟合作伙伴配置</span><span class="sxs-lookup"><span data-stu-id="50b8b-141">Verify legacy XMPP federated partner Configuration</span></span>
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a><span data-ttu-id="506e7-141">验证旧版 XMPP 联盟合作伙伴配置</span><span class="sxs-lookup"><span data-stu-id="506e7-141">Verify legacy XMPP federated partner Configuration</span></span>
 
-1. <span data-ttu-id="50b8b-142">从旧的 XMPP 服务器中, 导航到 "管理 Tools\Services" 小程序。</span><span class="sxs-lookup"><span data-stu-id="50b8b-142">From the legacy XMPP server, navigate to the Administrative Tools\Services applet.</span></span>
+1. <span data-ttu-id="506e7-142">从旧的 XMPP 服务器中, 导航到 "管理 Tools\Services" 小程序。</span><span class="sxs-lookup"><span data-stu-id="506e7-142">From the legacy XMPP server, navigate to the Administrative Tools\Services applet.</span></span>
     
-2. <span data-ttu-id="50b8b-143">验证是否已启动 Office 通信服务器 XMPP 网关服务。</span><span class="sxs-lookup"><span data-stu-id="50b8b-143">Verify that the Office Communications Server XMPP Gateway service is started.</span></span> 
+2. <span data-ttu-id="506e7-143">验证是否已启动 Office 通信服务器 XMPP 网关服务。</span><span class="sxs-lookup"><span data-stu-id="506e7-143">Verify that the Office Communications Server XMPP Gateway service is started.</span></span> 
     
      ![Office 通信服务器 XMPP 网关服务](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
