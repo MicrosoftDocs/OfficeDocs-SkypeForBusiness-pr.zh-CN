@@ -1,42 +1,43 @@
 ---
-title: Microsoft 团队转换电子邮件和调查 |基本的升级
+title: Microsoft 团队过渡电子邮件和调查 |基本升级
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 示例电子邮件和调查可以使用与加速的 10 步骤操作计划 conjunciton 来从 for Business 的 Skype 升级到团队
+audience: admin
+description: 在 conjunciton 中使用的电子邮件和调查示例, 以及从 Skype for Business 升级到团队的加速10步行动计划
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920363"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236383"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="209a2-103">示例电子邮件和调查的基本升级通信</span><span class="sxs-lookup"><span data-stu-id="209a2-103">Sample emails and surveys for Upgrade Basic communications</span></span>
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="79ce6-103">升级基本通信的电子邮件和调查示例</span><span class="sxs-lookup"><span data-stu-id="79ce6-103">Sample emails and surveys for Upgrade Basic communications</span></span>
 
-## <a name="sample-emails"></a><span data-ttu-id="209a2-104">示例电子邮件</span><span class="sxs-lookup"><span data-stu-id="209a2-104">Sample emails</span></span>
+## <a name="sample-emails"></a><span data-ttu-id="79ce6-104">电子邮件示例</span><span class="sxs-lookup"><span data-stu-id="79ce6-104">Sample emails</span></span>
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="209a2-105">利益干系人的电子邮件，第 1 步</span><span class="sxs-lookup"><span data-stu-id="209a2-105">Stakeholder email, for step 1</span></span>
+### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="79ce6-105">利益干系人电子邮件, 适用于步骤1</span><span class="sxs-lookup"><span data-stu-id="79ce6-105">Stakeholder email, for step 1</span></span>
 
-<span data-ttu-id="209a2-106">主题行：</span><span class="sxs-lookup"><span data-stu-id="209a2-106">Subject line:</span></span>
+<span data-ttu-id="79ce6-106">主题行:</span><span class="sxs-lookup"><span data-stu-id="79ce6-106">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="209a2-107">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-107">Body of email:</span></span>
+<span data-ttu-id="79ce6-107">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-107">Body of email:</span></span>
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -46,19 +47,19 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[<span data-ttu-id="209a2-108">返回到步骤 1</span><span class="sxs-lookup"><span data-stu-id="209a2-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
+[<span data-ttu-id="79ce6-108">返回到步骤1</span><span class="sxs-lookup"><span data-stu-id="79ce6-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="209a2-109">通知用户电子邮件，第 4 步</span><span class="sxs-lookup"><span data-stu-id="209a2-109">Notify users email, for step 4</span></span>
+### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="79ce6-109">在步骤4中通知用户电子邮件</span><span class="sxs-lookup"><span data-stu-id="79ce6-109">Notify users email, for step 4</span></span>
 
-<span data-ttu-id="209a2-110">主题行：</span><span class="sxs-lookup"><span data-stu-id="209a2-110">Subject line:</span></span>
+<span data-ttu-id="79ce6-110">主题行:</span><span class="sxs-lookup"><span data-stu-id="79ce6-110">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="209a2-111">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-111">Body of email:</span></span>
+<span data-ttu-id="79ce6-111">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-111">Body of email:</span></span>
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -75,19 +76,19 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[<span data-ttu-id="209a2-112">返回到步骤 4</span><span class="sxs-lookup"><span data-stu-id="209a2-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
+[<span data-ttu-id="79ce6-112">返回到步骤4</span><span class="sxs-lookup"><span data-stu-id="79ce6-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="209a2-113">提醒用户电子邮件，步骤 6</span><span class="sxs-lookup"><span data-stu-id="209a2-113">Remind users email, for step 6</span></span>
+### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="79ce6-113">在步骤6中提醒用户电子邮件</span><span class="sxs-lookup"><span data-stu-id="79ce6-113">Remind users email, for step 6</span></span>
 
-<span data-ttu-id="209a2-114">主题行： 提醒： 为升级到团队做好准备</span><span class="sxs-lookup"><span data-stu-id="209a2-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
+<span data-ttu-id="79ce6-114">主题行: 提醒: 准备好升级到团队</span><span class="sxs-lookup"><span data-stu-id="79ce6-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-<span data-ttu-id="209a2-115">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-115">Body of email:</span></span>
+<span data-ttu-id="79ce6-115">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-115">Body of email:</span></span>
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -106,19 +107,19 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="209a2-116">返回到步骤 6</span><span class="sxs-lookup"><span data-stu-id="209a2-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
+[<span data-ttu-id="79ce6-116">返回步骤6</span><span class="sxs-lookup"><span data-stu-id="79ce6-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="209a2-117">欢迎用户电子邮件从上级主管的步骤 7</span><span class="sxs-lookup"><span data-stu-id="209a2-117">Welcome users email from the executive sponsor, for step 7</span></span>
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="79ce6-117">欢迎用户从总经理主办方发送电子邮件, 步骤7</span><span class="sxs-lookup"><span data-stu-id="79ce6-117">Welcome users email from the executive sponsor, for step 7</span></span>
 
-<span data-ttu-id="209a2-118">主题行：</span><span class="sxs-lookup"><span data-stu-id="209a2-118">Subject line:</span></span>
+<span data-ttu-id="79ce6-118">主题行:</span><span class="sxs-lookup"><span data-stu-id="79ce6-118">Subject line:</span></span>
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-<span data-ttu-id="209a2-119">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-119">Body of email:</span></span>
+<span data-ttu-id="79ce6-119">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-119">Body of email:</span></span>
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -141,19 +142,19 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[<span data-ttu-id="209a2-120">返回到步骤 7</span><span class="sxs-lookup"><span data-stu-id="209a2-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
+[<span data-ttu-id="79ce6-120">返回到步骤7</span><span class="sxs-lookup"><span data-stu-id="79ce6-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a><span data-ttu-id="209a2-121">签入电子邮件，步骤 9</span><span class="sxs-lookup"><span data-stu-id="209a2-121">Check-in email, for step 9</span></span>
+### <a name="check-in-email-for-step-9"></a><span data-ttu-id="79ce6-121">步骤9的签入电子邮件</span><span class="sxs-lookup"><span data-stu-id="79ce6-121">Check-in email, for step 9</span></span>
 
-<span data-ttu-id="209a2-122">主题行：</span><span class="sxs-lookup"><span data-stu-id="209a2-122">Subject line:</span></span>
+<span data-ttu-id="79ce6-122">主题行:</span><span class="sxs-lookup"><span data-stu-id="79ce6-122">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-<span data-ttu-id="209a2-123">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-123">Body of email:</span></span>
+<span data-ttu-id="79ce6-123">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-123">Body of email:</span></span>
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -163,19 +164,19 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="209a2-124">返回到步骤 9</span><span class="sxs-lookup"><span data-stu-id="209a2-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="79ce6-124">返回到步骤9</span><span class="sxs-lookup"><span data-stu-id="79ce6-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="209a2-125">若要要求用户试试团队和频道的步骤 10 吧，电子邮件</span><span class="sxs-lookup"><span data-stu-id="209a2-125">Email to ask users to give teams and channels a try, for step 10</span></span>
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="79ce6-125">通过电子邮件向用户提供团队和频道 a 试用, 步骤10</span><span class="sxs-lookup"><span data-stu-id="79ce6-125">Email to ask users to give teams and channels a try, for step 10</span></span>
 
-<span data-ttu-id="209a2-126">主题行：</span><span class="sxs-lookup"><span data-stu-id="209a2-126">Subject line:</span></span>
+<span data-ttu-id="79ce6-126">主题行:</span><span class="sxs-lookup"><span data-stu-id="79ce6-126">Subject line:</span></span>
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-<span data-ttu-id="209a2-127">电子邮件的正文：</span><span class="sxs-lookup"><span data-stu-id="209a2-127">Body of email:</span></span>
+<span data-ttu-id="79ce6-127">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="79ce6-127">Body of email:</span></span>
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -190,42 +191,42 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="209a2-128">返回到步骤 10</span><span class="sxs-lookup"><span data-stu-id="209a2-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
+[<span data-ttu-id="79ce6-128">返回到步骤10</span><span class="sxs-lookup"><span data-stu-id="79ce6-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a><span data-ttu-id="209a2-129">示例调查</span><span class="sxs-lookup"><span data-stu-id="209a2-129">Sample surveys</span></span>
+## <a name="sample-surveys"></a><span data-ttu-id="79ce6-129">示例调查</span><span class="sxs-lookup"><span data-stu-id="79ce6-129">Sample surveys</span></span>
 
-<span data-ttu-id="209a2-130">指示您是在工作组和是否想要了解详细信息的一个或多个活动中执行以下活动熟练程度。</span><span class="sxs-lookup"><span data-stu-id="209a2-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
+<span data-ttu-id="79ce6-130">指明你在团队中执行以下活动的熟练程度以及你想要深入了解的一个或多个活动。</span><span class="sxs-lookup"><span data-stu-id="79ce6-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
 
-| &nbsp; | <span data-ttu-id="209a2-131">非常熟练</span><span class="sxs-lookup"><span data-stu-id="209a2-131">Very skilled</span></span> | <span data-ttu-id="209a2-132">有些熟练</span><span class="sxs-lookup"><span data-stu-id="209a2-132">Somewhat skilled</span></span> | <span data-ttu-id="209a2-133">根本不熟练</span><span class="sxs-lookup"><span data-stu-id="209a2-133">Not skilled at all</span></span> | <span data-ttu-id="209a2-134">要了解详细信息</span><span class="sxs-lookup"><span data-stu-id="209a2-134">Want to learn more</span></span> | <span data-ttu-id="209a2-135">不适用</span><span class="sxs-lookup"><span data-stu-id="209a2-135">N/A</span></span> | <span data-ttu-id="209a2-136">不确定/不熟悉</span><span class="sxs-lookup"><span data-stu-id="209a2-136">Unsure/not familiar</span></span> | | | | |
+| &nbsp; | <span data-ttu-id="79ce6-131">非常熟练</span><span class="sxs-lookup"><span data-stu-id="79ce6-131">Very skilled</span></span> | <span data-ttu-id="79ce6-132">稍有技能</span><span class="sxs-lookup"><span data-stu-id="79ce6-132">Somewhat skilled</span></span> | <span data-ttu-id="79ce6-133">根本不擅长</span><span class="sxs-lookup"><span data-stu-id="79ce6-133">Not skilled at all</span></span> | <span data-ttu-id="79ce6-134">希望了解详细信息</span><span class="sxs-lookup"><span data-stu-id="79ce6-134">Want to learn more</span></span> | <span data-ttu-id="79ce6-135">不适用</span><span class="sxs-lookup"><span data-stu-id="79ce6-135">N/A</span></span> | <span data-ttu-id="79ce6-136">不确定/不熟悉</span><span class="sxs-lookup"><span data-stu-id="79ce6-136">Unsure/not familiar</span></span> | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| <span data-ttu-id="209a2-137">使用小组 IM/聊天与其他人</span><span class="sxs-lookup"><span data-stu-id="209a2-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
-| <span data-ttu-id="209a2-138">团队用于联机会议</span><span class="sxs-lookup"><span data-stu-id="209a2-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
-| <span data-ttu-id="209a2-139">使用团队协作 （团队和通道）</span><span class="sxs-lookup"><span data-stu-id="209a2-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
-| <span data-ttu-id="209a2-140">在我的移动设备上使用团队</span><span class="sxs-lookup"><span data-stu-id="209a2-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
+| <span data-ttu-id="79ce6-137">使用团队进行 IM 通话/与他人聊天</span><span class="sxs-lookup"><span data-stu-id="79ce6-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
+| <span data-ttu-id="79ce6-138">为联机会议使用团队</span><span class="sxs-lookup"><span data-stu-id="79ce6-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
+| <span data-ttu-id="79ce6-139">使用团队协作 (团队和频道)</span><span class="sxs-lookup"><span data-stu-id="79ce6-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
+| <span data-ttu-id="79ce6-140">在我的移动设备上使用团队</span><span class="sxs-lookup"><span data-stu-id="79ce6-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
 
-| <span data-ttu-id="209a2-141">**内容、 如果任何内容，阻止您使用的 Microsoft 团队？**</span><span class="sxs-lookup"><span data-stu-id="209a2-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="209a2-142">**选择所有适用项**</span><span class="sxs-lookup"><span data-stu-id="209a2-142">**Select all that apply**</span></span> |
+| <span data-ttu-id="79ce6-141">**如果有任何内容, 将阻止你使用 Microsoft 团队？**</span><span class="sxs-lookup"><span data-stu-id="79ce6-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="79ce6-142">**选择所有适用的**</span><span class="sxs-lookup"><span data-stu-id="79ce6-142">**Select all that apply**</span></span> |
 |---|---|
-| <span data-ttu-id="209a2-143">我从未听说有关该产品</span><span class="sxs-lookup"><span data-stu-id="209a2-143">I’ve never heard about it</span></span> | <span data-ttu-id="209a2-144">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-144">&#9744;</span></span> |
-| <span data-ttu-id="209a2-145">我没有我的计算机上安装</span><span class="sxs-lookup"><span data-stu-id="209a2-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="209a2-146">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-146">&#9744;</span></span> |
-| <span data-ttu-id="209a2-147">我不知道如何，它会受益我使用的人员</span><span class="sxs-lookup"><span data-stu-id="209a2-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="209a2-148">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-148">&#9744;</span></span> |
-| <span data-ttu-id="209a2-149">我还没有时间评估我需求</span><span class="sxs-lookup"><span data-stu-id="209a2-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="209a2-150">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-150">&#9744;</span></span> |
-| <span data-ttu-id="209a2-151">我已经在使用满足我的沟通和协作需求其他应用程序</span><span class="sxs-lookup"><span data-stu-id="209a2-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="209a2-152">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-152">&#9744;</span></span> |
-| <span data-ttu-id="209a2-153">我需要经过培训才能使用该</span><span class="sxs-lookup"><span data-stu-id="209a2-153">I would need training before using it</span></span> | <span data-ttu-id="209a2-154">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-154">&#9744;</span></span> |
-| <span data-ttu-id="209a2-155">我已尝试使用它，但有技术问题或错误的体验</span><span class="sxs-lookup"><span data-stu-id="209a2-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="209a2-156">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-156">&#9744;</span></span> |
-| <span data-ttu-id="209a2-157">我们支持人员无法帮助我我问题</span><span class="sxs-lookup"><span data-stu-id="209a2-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="209a2-158">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-158">&#9744;</span></span> |
-| <span data-ttu-id="209a2-159">执行任何操作，我当前使用它</span><span class="sxs-lookup"><span data-stu-id="209a2-159">Nothing, I currently use it</span></span> | <span data-ttu-id="209a2-160">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-160">&#9744;</span></span> |
-| <span data-ttu-id="209a2-161">其他 （请指定）</span><span class="sxs-lookup"><span data-stu-id="209a2-161">Other (please specify)</span></span> | <span data-ttu-id="209a2-162">& #9744;</span><span class="sxs-lookup"><span data-stu-id="209a2-162">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-143">我从未听说过它</span><span class="sxs-lookup"><span data-stu-id="79ce6-143">I’ve never heard about it</span></span> | <span data-ttu-id="79ce6-144">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-144">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-145">我的计算机上没有安装它</span><span class="sxs-lookup"><span data-stu-id="79ce6-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="79ce6-146">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-146">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-147">我不知道它对我的好处或我使用的人</span><span class="sxs-lookup"><span data-stu-id="79ce6-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="79ce6-148">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-148">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-149">我没有时间针对我的需求进行评估</span><span class="sxs-lookup"><span data-stu-id="79ce6-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="79ce6-150">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-150">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-151">我已经使用了其他满足通信和协作需求的应用程序</span><span class="sxs-lookup"><span data-stu-id="79ce6-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="79ce6-152">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-152">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-153">我需要培训才能使用</span><span class="sxs-lookup"><span data-stu-id="79ce6-153">I would need training before using it</span></span> | <span data-ttu-id="79ce6-154">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-154">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-155">我尝试使用它, 但遇到技术问题或不好的体验</span><span class="sxs-lookup"><span data-stu-id="79ce6-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="79ce6-156">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-156">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-157">我们的支持台无法帮助我解决问题</span><span class="sxs-lookup"><span data-stu-id="79ce6-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="79ce6-158">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-158">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-159">我目前没有使用它</span><span class="sxs-lookup"><span data-stu-id="79ce6-159">Nothing, I currently use it</span></span> | <span data-ttu-id="79ce6-160">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-160">&#9744;</span></span> |
+| <span data-ttu-id="79ce6-161">其他 (请注明)</span><span class="sxs-lookup"><span data-stu-id="79ce6-161">Other (please specify)</span></span> | <span data-ttu-id="79ce6-162">&#9744;</span><span class="sxs-lookup"><span data-stu-id="79ce6-162">&#9744;</span></span> |
 
-<span data-ttu-id="209a2-163">**可能性有多大？ 您向朋友/同事推荐的 Microsoft 团队(0 = 不根本可能...10 非常可能 =)**</span><span class="sxs-lookup"><span data-stu-id="209a2-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
+<span data-ttu-id="79ce6-163">**你向朋友/同事推荐 Microsoft 团队的可能性有多大？(0 = 根本不可能 .。。10 = 极有可能)**</span><span class="sxs-lookup"><span data-stu-id="79ce6-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
 
-| <span data-ttu-id="209a2-164">0</span><span class="sxs-lookup"><span data-stu-id="209a2-164">0</span></span> | <span data-ttu-id="209a2-165">1</span><span class="sxs-lookup"><span data-stu-id="209a2-165">1</span></span> | <span data-ttu-id="209a2-166">2</span><span class="sxs-lookup"><span data-stu-id="209a2-166">2</span></span> | <span data-ttu-id="209a2-167">3</span><span class="sxs-lookup"><span data-stu-id="209a2-167">3</span></span> | <span data-ttu-id="209a2-168">4</span><span class="sxs-lookup"><span data-stu-id="209a2-168">4</span></span> | <span data-ttu-id="209a2-169">5</span><span class="sxs-lookup"><span data-stu-id="209a2-169">5</span></span> | <span data-ttu-id="209a2-170">6</span><span class="sxs-lookup"><span data-stu-id="209a2-170">6</span></span> | <span data-ttu-id="209a2-171">7</span><span class="sxs-lookup"><span data-stu-id="209a2-171">7</span></span> | <span data-ttu-id="209a2-172">8</span><span class="sxs-lookup"><span data-stu-id="209a2-172">8</span></span> | <span data-ttu-id="209a2-173">9</span><span class="sxs-lookup"><span data-stu-id="209a2-173">9</span></span> | <span data-ttu-id="209a2-174">10</span><span class="sxs-lookup"><span data-stu-id="209a2-174">10</span></span> |
+| <span data-ttu-id="79ce6-164">0</span><span class="sxs-lookup"><span data-stu-id="79ce6-164">0</span></span> | <span data-ttu-id="79ce6-165">1</span><span class="sxs-lookup"><span data-stu-id="79ce6-165">1</span></span> | <span data-ttu-id="79ce6-166">2</span><span class="sxs-lookup"><span data-stu-id="79ce6-166">2</span></span> | <span data-ttu-id="79ce6-167">3</span><span class="sxs-lookup"><span data-stu-id="79ce6-167">3</span></span> | <span data-ttu-id="79ce6-168">4</span><span class="sxs-lookup"><span data-stu-id="79ce6-168">4</span></span> | <span data-ttu-id="79ce6-169">5</span><span class="sxs-lookup"><span data-stu-id="79ce6-169">5</span></span> | <span data-ttu-id="79ce6-170">6</span><span class="sxs-lookup"><span data-stu-id="79ce6-170">6</span></span> | <span data-ttu-id="79ce6-171">7</span><span class="sxs-lookup"><span data-stu-id="79ce6-171">7</span></span> | <span data-ttu-id="79ce6-172">个</span><span class="sxs-lookup"><span data-stu-id="79ce6-172">8</span></span> | <span data-ttu-id="79ce6-173">db-9</span><span class="sxs-lookup"><span data-stu-id="79ce6-173">9</span></span> | <span data-ttu-id="79ce6-174">10</span><span class="sxs-lookup"><span data-stu-id="79ce6-174">10</span></span> |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[<span data-ttu-id="209a2-175">返回到步骤 9</span><span class="sxs-lookup"><span data-stu-id="209a2-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="79ce6-175">返回到步骤9</span><span class="sxs-lookup"><span data-stu-id="79ce6-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

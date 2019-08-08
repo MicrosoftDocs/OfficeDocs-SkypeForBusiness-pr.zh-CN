@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,50 +14,50 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '摘要: 了解如何使用 Skype for business 服务器控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。'
-ms.openlocfilehash: 1ff33dee1518581e4a94aac56ecae34d9bfd1159
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6a13c2a2b2b1221203fbed84948b803a6c2ea1db
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300885"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239920"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a><span data-ttu-id="83e8e-103">发布 Skype for Business 中的语音路由配置的待处理更改</span><span class="sxs-lookup"><span data-stu-id="83e8e-103">Publish pending changes to the voice routing configuration in Skype for Business</span></span>
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a><span data-ttu-id="34aa7-103">发布 Skype for Business 中的语音路由配置的待处理更改</span><span class="sxs-lookup"><span data-stu-id="34aa7-103">Publish pending changes to the voice routing configuration in Skype for Business</span></span>
  
-<span data-ttu-id="83e8e-104">**摘要:** 了解如何使用 Skype for business Server 控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。</span><span class="sxs-lookup"><span data-stu-id="83e8e-104">**Summary:** Learn how to review, publish, or cancel voice routing configuration changes in Skype for Business Server by using the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="34aa7-104">**摘要:** 了解如何使用 Skype for business Server 控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。</span><span class="sxs-lookup"><span data-stu-id="34aa7-104">**Summary:** Learn how to review, publish, or cancel voice routing configuration changes in Skype for Business Server by using the Skype for Business Server Control Panel.</span></span>
   
-<span data-ttu-id="83e8e-105">在“语音路由”\*\*\*\* 组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。</span><span class="sxs-lookup"><span data-stu-id="83e8e-105">After you make changes to any of the configuration settings in pages in the **Voice Routing** group, perform this procedure to review, publish, or cancel the pending changes.</span></span>
+<span data-ttu-id="34aa7-105">在“语音路由”\*\*\*\* 组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。</span><span class="sxs-lookup"><span data-stu-id="34aa7-105">After you make changes to any of the configuration settings in pages in the **Voice Routing** group, perform this procedure to review, publish, or cancel the pending changes.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="83e8e-106">确保每次只有一个用户修改语音路由配置设置。</span><span class="sxs-lookup"><span data-stu-id="83e8e-106">Be sure that only one user at a time modifies the Voice Routing configuration settings.</span></span> 
+> <span data-ttu-id="34aa7-106">确保每次只有一个用户修改语音路由配置设置。</span><span class="sxs-lookup"><span data-stu-id="34aa7-106">Be sure that only one user at a time modifies the Voice Routing configuration settings.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="83e8e-p101">必须通过运行“全部提交”\*\*\*\* 命令，同时发布所有待处理的更改。不能选择性地发布待处理的更改。发布待处理的更改前，运行“查看未提交的更改”\*\*\*\* 命令并取消任何不希望发布的配置更改。</span><span class="sxs-lookup"><span data-stu-id="83e8e-p101">All pending changes must be published at the same time by running the **Commit all** command. You cannot selectively publish pending changes. Before you publish pending changes, run the **Review uncommitted changes** command and cancel any configuration changes that you do not want to publish.</span></span>
+> <span data-ttu-id="34aa7-p101">必须通过运行“全部提交”\*\*\*\* 命令，同时发布所有待处理的更改。不能选择性地发布待处理的更改。发布待处理的更改前，运行“查看未提交的更改”\*\*\*\* 命令并取消任何不希望发布的配置更改。</span><span class="sxs-lookup"><span data-stu-id="34aa7-p101">All pending changes must be published at the same time by running the **Commit all** command. You cannot selectively publish pending changes. Before you publish pending changes, run the **Review uncommitted changes** command and cancel any configuration changes that you do not want to publish.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="83e8e-110">如果在提交待处理更改前离开“语音路由”\*\*\*\* 组中的页面，所有待处理更改都将丢失。</span><span class="sxs-lookup"><span data-stu-id="83e8e-110">If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost.</span></span> <span data-ttu-id="83e8e-111">但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。</span><span class="sxs-lookup"><span data-stu-id="83e8e-111">However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration.</span></span> <span data-ttu-id="83e8e-112">有关详细信息, 请参阅[在 Skype For business 中导出或导入语音路线配置文件](voice-route-configuration-import-export.md)。</span><span class="sxs-lookup"><span data-stu-id="83e8e-112">For details, see [Export or import a voice route configuration file in Skype for Business](voice-route-configuration-import-export.md).</span></span> 
+> <span data-ttu-id="34aa7-110">如果在提交待处理更改前离开“语音路由”\*\*\*\* 组中的页面，所有待处理更改都将丢失。</span><span class="sxs-lookup"><span data-stu-id="34aa7-110">If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost.</span></span> <span data-ttu-id="34aa7-111">但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。</span><span class="sxs-lookup"><span data-stu-id="34aa7-111">However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration.</span></span> <span data-ttu-id="34aa7-112">有关详细信息, 请参阅[在 Skype For business 中导出或导入语音路线配置文件](voice-route-configuration-import-export.md)。</span><span class="sxs-lookup"><span data-stu-id="34aa7-112">For details, see [Export or import a voice route configuration file in Skype for Business](voice-route-configuration-import-export.md).</span></span> 
   
-### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a><span data-ttu-id="83e8e-113">查看、发布或取消语音路由配置更改</span><span class="sxs-lookup"><span data-stu-id="83e8e-113">To review, publish, or cancel voice routing configuration changes</span></span>
+### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a><span data-ttu-id="34aa7-113">查看、发布或取消语音路由配置更改</span><span class="sxs-lookup"><span data-stu-id="34aa7-113">To review, publish, or cancel voice routing configuration changes</span></span>
 
-1. <span data-ttu-id="83e8e-114">以 RTCUniversalServerAdmins 组成员或者 **CsVoiceAdministrator**、**CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="83e8e-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
+1. <span data-ttu-id="34aa7-114">以 RTCUniversalServerAdmins 组成员或者 **CsVoiceAdministrator**、**CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="34aa7-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
     
-2. <span data-ttu-id="83e8e-115">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="83e8e-115">Open Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="34aa7-115">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="34aa7-115">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="83e8e-116">在左侧导航栏中，单击“语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-116">In the left navigation bar, click **Voice Routing**.</span></span>
+3. <span data-ttu-id="34aa7-116">在左侧导航栏中，单击“语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-116">In the left navigation bar, click **Voice Routing**.</span></span>
     
-4. <span data-ttu-id="83e8e-117">在“语音路由”\*\*\*\* 组的每个页面中，对设置做出所需的配置更改。</span><span class="sxs-lookup"><span data-stu-id="83e8e-117">Make the configuration changes you want to the settings on each page of the **Voice Routing** group.</span></span>
+4. <span data-ttu-id="34aa7-117">在“语音路由”\*\*\*\* 组的每个页面中，对设置做出所需的配置更改。</span><span class="sxs-lookup"><span data-stu-id="34aa7-117">Make the configuration changes you want to the settings on each page of the **Voice Routing** group.</span></span>
     
-5. <span data-ttu-id="83e8e-118">要在不发布更改的情况下查看待处理的更改，请从“提交”\*\*\*\* 菜单中选择“查看未提交的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-118">To review pending changes without publishing them, select **Review uncommitted changes** from the **Commit** menu.</span></span>
+5. <span data-ttu-id="34aa7-118">要在不发布更改的情况下查看待处理的更改，请从“提交”\*\*\*\* 菜单中选择“查看未提交的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-118">To review pending changes without publishing them, select **Review uncommitted changes** from the **Commit** menu.</span></span>
     
-6. <span data-ttu-id="83e8e-119">如果要取消任何待处理的更改，请执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="83e8e-119">If you want to cancel any of the pending changes, do one of the following:</span></span>
+6. <span data-ttu-id="34aa7-119">如果要取消任何待处理的更改，请执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="34aa7-119">If you want to cancel any of the pending changes, do one of the following:</span></span>
     
-   - <span data-ttu-id="83e8e-120">从“提交”\*\*\*\* 菜单中选择“取消所有未提交的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-120">Select **Cancel all uncommitted changes** from the **Commit** menu.</span></span>
+   - <span data-ttu-id="34aa7-120">从“提交”\*\*\*\* 菜单中选择“取消所有未提交的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-120">Select **Cancel all uncommitted changes** from the **Commit** menu.</span></span>
     
-   - <span data-ttu-id="83e8e-121">导航到包含要取消的待处理更改的“语音路由”\*\*\*\* 页的选项卡，选择包含待处理更改的项目，单击“提交”\*\*\*\*，然后单击“取消选择的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-121">Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.</span></span>
+   - <span data-ttu-id="34aa7-121">导航到包含要取消的待处理更改的“语音路由”\*\*\*\* 页的选项卡，选择包含待处理更改的项目，单击“提交”\*\*\*\*，然后单击“取消选择的更改”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-121">Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.</span></span>
     
-7. <span data-ttu-id="83e8e-122">查看所有待处理的更改并取消其中不希望发布的更改后，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-122">After you have reviewed all pending changes and canceled any that you do not want to publish, click **Commit**, and then click **Commit all**.</span></span>
+7. <span data-ttu-id="34aa7-122">查看所有待处理的更改并取消其中不希望发布的更改后，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-122">After you have reviewed all pending changes and canceled any that you do not want to publish, click **Commit**, and then click **Commit all**.</span></span>
     
-8. <span data-ttu-id="83e8e-123">在“未提交的语音配置设置”\*\*\*\* 对话框（其中显示所有待处理更改的列表）中，单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83e8e-123">In the **Uncommitted Voice Configuration Settings** dialog box, which displays a list of all of the pending changes, click **OK**.</span></span> 
+8. <span data-ttu-id="34aa7-123">在“未提交的语音配置设置”\*\*\*\* 对话框（其中显示所有待处理更改的列表）中，单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34aa7-123">In the **Uncommitted Voice Configuration Settings** dialog box, which displays a list of all of the pending changes, click **OK**.</span></span> 
     
-    <span data-ttu-id="83e8e-124">当 Skype for Business 服务器控制面板提交更改后, 将显示 "**成功发布的语音路由配置**" 消息。</span><span class="sxs-lookup"><span data-stu-id="83e8e-124">When Skype for Business Server Control Panel has committed the changes, the **Successfully published voice routing configuration** message appears.</span></span>
+    <span data-ttu-id="34aa7-124">当 Skype for Business 服务器控制面板提交更改后, 将显示 "**成功发布的语音路由配置**" 消息。</span><span class="sxs-lookup"><span data-stu-id="34aa7-124">When Skype for Business Server Control Panel has committed the changes, the **Successfully published voice routing configuration** message appears.</span></span>
     
 
