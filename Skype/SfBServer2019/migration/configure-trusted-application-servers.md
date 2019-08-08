@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在混合环境中, 如果你创建新的受信任的应用程序服务器, 则必须将下一个跃点池设置为 Skype for business Server 2019 池。 在混合环境中, 旧版池和 Skype for business Server 2019 池都将显示在下拉列表中。 不支持选择旧版池。
-ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b715cd7f3f067c5e54dbc085350fcc7f96b5c4be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289597"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239296"
 ---
 # <a name="configure-trusted-application-servers"></a>配置受信任应用程序服务器
 

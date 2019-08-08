@@ -5,62 +5,63 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/18/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: islubin
 search.appverid: MET150
-description: 了解如何存档或永久删除工作组。
+description: 了解如何存档或永久删除团队。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 125c7954eabcbf5f454d1e9bc96b1c33377ed23f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211062"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241958"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
 
-一段时间，团队中的 Microsoft 团队创建可能属于使用不足或可能想要存档或删除项目的末尾团队。 如果您的 Microsoft 团队管理，请按照本文存档或删除不再需要的团队中的步骤。 团队存档时，该团队的所有活动都停止，但仍可以添加或删除成员并更新角色和您仍然可以查看所有团队活动信道、 文件和聊天。 删除团队时，也将删除关联的通道、 文件和聊天中的团队活动。 
+随着时间的推移, 在 Microsoft 团队中创建的团队可能无法使用, 或者你可能希望在项目结束时存档或删除团队。 如果你是 Microsoft 团队管理员, 请按照本文中的步骤存档或删除不再需要的团队。 存档团队时, 该团队的所有活动将停止, 但你仍可以添加或删除成员和更新角色, 但仍可以查看频道、文件和聊天中的所有团队活动。 删除团队时, 也会删除关联频道、文件和聊天中的团队活动。 
 
 > [!IMPORTANT]
-> 存档的团队可以重新激活，但不能撤消删除已删除的团队。 请考虑存档团队首先，并推迟删除，直到您确信您不再需要团队。
+> 已存档的团队可以重新激活, 但不能撤消删除已删除的团队。 请考虑先存档团队, 然后推迟删除, 直到确定不再需要团队。
 
 ## <a name="archive-a-team"></a>存档团队
 
-按照以下步骤进行存档团队。
+请按照以下步骤存档团队。
 
-1. 在 Microsoft 团队管理中心中，选择**工作组**。
-2. 通过单击工作组名称，选择工作组。
-3. 选择**存档**。 将显示以下消息。
+1. 在 "Microsoft 团队管理中心" 中, 选择 "**团队**"。
+2. 通过单击团队名称选择团队。
+3. 选择 "**存档**"。 将显示以下消息。
 
-    ![屏幕截图的团队存档消息](media/teams-archive-message.png)
+    ![工作组档案邮件的屏幕截图](media/teams-archive-message.png)
 
-4. 如果您希望只读，使团队的 SharePoint 网站，请，选择复选框。
-5. 选择**存档**存档团队。 工作组的状态将更改为**已存档**。
+4. 如果要为团队的 SharePoint 网站设置为只读, 请选中该复选框。
+5. 选择 "**存档**" 以存档团队。 团队的状态将更改为 "已**存档**"。
 
-## <a name="make-an-archived-team-active"></a>激活存档的团队
+## <a name="make-an-archived-team-active"></a>使已存档的团队处于活动状态
 
-按照以下步骤可再次激活存档的团队。
+请按照以下步骤使已存档的团队再次处于活动状态。
 
-1. 在 Microsoft 团队管理中心中，选择**工作组**。
-2. 通过单击工作组名称，选择工作组。
-3. 选择**Unarchive**。 工作组的状态将更改为**活动**。
+1. 在 "Microsoft 团队管理中心" 中, 选择 "**团队**"。
+2. 通过单击团队名称选择团队。
+3. 选择 " **Unarchive**"。 团队的状态将更改为 "**活动**"。
 
 ## <a name="delete-a-team"></a>删除团队
 
-如果团队不需要将来，，则可以删除它一点，而不是存档它。 按照以下步骤来删除团队。
+如果将来不再需要该团队, 则可以删除它, 而不是将其存档。 请按照以下步骤删除团队。
 
-1.  在 Microsoft 团队管理中心中，选择**工作组**。
-2.  通过单击工作组名称，选择工作组。
-3.  选择**删除**。 将显示一条确认消息。
-4.  选择**删除**永久删除工作组。
+1.  在 "Microsoft 团队管理中心" 中, 选择 "**团队**"。
+2.  通过单击团队名称选择团队。
+3.  选择 "**删除**"。 将显示一条确认消息。
+4.  选择 "**删除**" 以永久删除团队。
 
 
 

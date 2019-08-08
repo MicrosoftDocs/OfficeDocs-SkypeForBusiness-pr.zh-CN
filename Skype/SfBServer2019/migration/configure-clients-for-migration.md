@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题包含迁移到 Skype for business Server 2019 之前应执行的推荐的客户端部署步骤。 应在 Lync Server 2013 或 Skype for business Server 2015 上进行这些配置更改。
-ms.openlocfilehash: d37fe866676042fe043eb2caf303e5dc813e7dbd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a674c6aa0d9082aa9887f618ab3a56dd12c2982
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300384"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239498"
 ---
 # <a name="configure-clients-for-migration"></a>配置客户端以进行迁移
 

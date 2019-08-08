@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '你可以使用 Skype for business Server 控制面板或 Skype for business Server Management Shell 将用户移动到新的 Skype for business Server 2019 部署。 必须满足某些要求才能确保顺利过渡到 Skype for business Server 2019。 有关完成本主题中的过程的先决条件的详细信息, 请参阅为迁移配置客户端。 有关移动用户的详细步骤, 请参阅第4阶段: 将测试用户移动到试验池。'
-ms.openlocfilehash: 67bc2d3b239e65b5b1c83e2dcda81a1610d5a31c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273957"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244563"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>将剩余用户移动到 Skype for business Server 2019
 

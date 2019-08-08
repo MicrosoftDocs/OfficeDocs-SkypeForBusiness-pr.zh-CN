@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '摘要: 了解如何为安装 Skype for Business 服务器准备 Active Directory 域。 从 Microsoft 评估中心下载免费试用版 Skype for Business 服务器, 网址为: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002843"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245285"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>为 Skype for business 服务器准备 Active Directory
  

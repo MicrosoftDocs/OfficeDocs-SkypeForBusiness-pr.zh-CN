@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602252"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243655"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 

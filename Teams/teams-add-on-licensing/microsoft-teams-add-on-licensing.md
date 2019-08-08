@@ -8,7 +8,7 @@ ms.reviewer: mikedav
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解加载项许可证、每个许可证将获得哪些功能、如何为你的产品购买它们以及如何将现有运营商与他们配合使用。 您可以获取有关 Office 365、通讯信用和通话计划的定价和计划详细信息。
-ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793069"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242737"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何衡量团队规模广泛启用的成果和成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548905"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242400"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
@@ -66,7 +66,7 @@ ms.locfileid: "34548905"
  
 通常情况下, 你应考虑使用以下方法聚合来为你的公司创建变更商:
 
-![由单个情绪平等变更商划分的有形度量值](media/teams-adoption-change-quotient.png)
+![由单个情绪划分的有形度量值 = 变更商](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>选择服务启用策略
 

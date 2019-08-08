@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 选择团队采纳的实验阶段的早期采纳者, 然后收集项目的反馈。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548754"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242301"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 

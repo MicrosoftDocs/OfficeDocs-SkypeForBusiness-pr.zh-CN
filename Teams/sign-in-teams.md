@@ -9,51 +9,51 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 如何使用现代身份验证登录到 Microsoft 团队。
+description: 如何使用新式身份验证登录到 Microsoft 团队。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201055"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242508"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
 
-Microsoft 团队使用现代身份验证以保持登录体验简单和安全。 若要查看用户登录到团队的方式，请阅读[登录到团队](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
+Microsoft 团队使用新式身份验证来保持登录体验简单而又安全。 若要查看用户如何登录到团队, 请阅读[登录团队](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
-## <a name="how-modern-authentication-works"></a>如何现代验证的工作原理
+## <a name="how-modern-authentication-works"></a>新式身份验证的工作原理
 
-现代身份验证是一个过程，可让团队知道用户已经输入其凭据 （如其工作电子邮件和密码中） 到其他位置，并且他们不应需要输入其再次启动应用程序。 体验异几个因素，如如果用户正在在 Windows 或 mac。 它还将有所不同，具体取决于您的组织是否已启用单双因素身份验证或多因素身份验证 (多因素身份验证通常需要验证凭据的电话，提供一个唯一的代码，输入 PIN，通过或演示指纹）。 以下是一个每种现代身份验证方案。
+新式验证是让团队知道用户已在其他位置输入其凭据 (如工作电子邮件和密码) 的过程, 并且不需要再次输入它们来启动应用。 根据几个因素 (如用户在 Windows 或在 Mac 上工作), 体验会有所不同。 它还会根据你的组织是否已启用单因素身份验证或多重身份验证而有所不同 (多重身份验证通常涉及通过电话验证凭据、提供唯一代码、输入 PIN 或演示指纹)。 下面是每个新式身份验证方案的一个断开。
 
 ### <a name="windows-users"></a>Windows 用户 
 
-- 如果用户具有已登录到其 Office 365 企业版帐户，通过其他 Office 应用程序启动团队时他们正在执行直线的应用程序。 则无需为他们输入其凭据。
+- 如果用户已通过其 Office 365 企业帐户登录到其他 Office 应用, 则当用户启动团队时, 他们将直接转到该应用。 无需他们输入其凭据。
 
-- 如果用户未登录到其他任何位置，其 Office 365 企业版帐户启动团队时，需要提供一元或多因素身份验证 （SFA 或 MFA），具体取决于什么您的组织已决定他们希望伴有过程。
+- 如果用户未登录到任何其他位置的 Office 365 企业帐户, 则当用户启动团队时, 系统会要求他们提供单因素或多重身份验证 (SFA 或 MFA), 具体取决于你的组织决定需要的流程。
 
-- 如果用户要登录到加入域的计算机上，启动团队，它们可能会要求穿过一个多个身份验证的步骤，具体取决于您的组织选择是否加入需要 MFA 或如果其计算机已需要 MFA 登录时。 如果其计算机已要求 MFA 登录，当其打开团队，应用程序自动启动。
+- 如果用户登录到加入域的计算机, 则当用户启动团队时, 可能会要求他们执行一个更多身份验证步骤, 具体取决于你的组织选择是需要 MFA 还是计算机已要求进行 MFA 登录。 如果其计算机已要求进行 MFA 登录, 则当用户打开团队时, 应用会自动启动。
 
 ### <a name="mac-users"></a>Mac 用户 
 
-当用户启动团队时，其计算机不能以打开其 Office 365 企业版客户或任何其他 Office 应用程序从其凭据。 相反，他们将看到一个提示，询问他们 SFA 或 MFA （具体取决于组织的设置）。 一旦用户输入凭据，它们不需要再次将它们提供。 从上的点，团队自动启动时正在同一台计算机上。
+用户启动团队时, 其计算机将无法从其 Office 365 企业帐户或任何其他 Office 应用程序中提取其凭据。 他们将看到一条提示, 要求他们提供 SFA 或 MFA (具体取决于您的组织的设置)。 用户输入其凭据后, 不需要再次提供它们。 从此时起, 团队会在它们在同一台计算机上工作时自动启动。
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>切换后完成现代身份验证的帐户
+## <a name="switching-accounts-after-completing-modern-authentication"></a>完成新式身份验证后切换帐户
 
-如果用户正在 （例如，如果其租户已启用 Kerberos） 的加入域的计算机上，他们不能在他们已完成现代身份验证之后切换用户帐户。 如果用户加入域的计算机上不工作，他们可以切换帐户。
+如果用户正在使用加入域的计算机 (例如, 如果其租户已启用 Kerberos), 则他们在完成新式身份验证后无法切换用户帐户。 如果用户不在已加入域的计算机上工作, 则他们可以切换帐户。
 
-## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>注销完成现代身份验证后的 Microsoft 团队
-要注销团队，用户可以单击顶部的应用程序，其配置文件图片，然后选择**注销**。它们可以右键单击其任务栏上，在应用程序图标，然后选择**注销**。一旦他们已超出团队登录，他们需要输入其凭据重新启动应用程序。
+## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>在完成新式身份验证后注销 Microsoft 团队
+若要注销团队, 用户可以单击应用顶部的个人资料图片, 然后选择 "**注销**"。他们还可以右键单击任务栏中的应用程序图标, 然后选择 "**注销**"。注销团队后, 他们需要再次输入其凭据以启动该应用。
 
-## <a name="troubleshooting-modern-authentication"></a>疑难解答现代的身份验证
+## <a name="troubleshooting-modern-authentication"></a>新式验证疑难解答
 
-现代身份验证是适用于每个组织使用团队，因此如果用户不是能够完成此过程，可能有错与您的域或组织的 Office 365 企业版帐户。 
+现代身份验证适用于使用团队的每个组织, 因此, 如果用户无法完成此过程, 则您的域或组织的 Office 365 企业帐户可能有问题。 
 
-有关详细信息，请参阅[为什么我不能登录到 Microsoft 团队？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
+有关详细信息, 请参阅[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
 

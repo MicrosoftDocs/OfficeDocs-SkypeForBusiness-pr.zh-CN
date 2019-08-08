@@ -10,52 +10,52 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何提高认知度并实现的 Microsoft 团队应用培训计划。
+description: 了解如何提高意识并实施适用于 Microsoft 团队采纳的培训计划。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eddb2789f33029b05f2cd593f21e03563cc4d05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8bda03900368e349e2a6579dfb32381af8c97b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896291"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242290"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
-认知度和培训是整体应用策略的市场营销和通信段。 这将确保您的员工，必须知道的 Microsoft 团队其基础的 Office 365 服务和应用程序的新功能。
+"意识" 和 "培训" 是整个采纳战略的营销和通信领域。 这将确保你的员工知道 Microsoft 团队及其基础 Office 365 服务和应用的新功能。
    
-对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括：
+对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括:
 
 - 内部认知材料，例如，海报、数字标志牌和活动。
-- 自助支持和培训信息在一个位置。
+- 在一个位置获取自助式帮助和培训信息。
 
 对于试点阶段，要获得成功，至少需要完成以下步骤：
 
 - 与你的项目利益干系人定期召开安排的会议以更新进展。
 - 提供自助文档，包括产品视频。
-- 与试点用户召开启动会议，激发他们的参与热情。 不能高估积极性与创建一种社区的重要性。
+- 与试点用户召开启动会议，激发他们的参与热情。 创建具有激情的社区感觉的重要性无法 overstated。
 
-一旦您通过初始试用过，您可以展开上述努力访问您的整个组织。 根据您的大小，这可能需要花费时间并按区域、 用户配置文件或组织最后阶段中。 在此更大规模推出，鼓励通信各方在组织中的参与。 我们建议这些人是涉及早期和通常使用的可用应用资料或设计自己。
+完成初始试验后, 您可以扩大上述工作范围以与您的整个组织联系。 根据你的大小, 这可能需要一些时间, 并且按区域、用户配置文件或组织的阶段进行处理。 在此规模较大的过程中, 请鼓励您的组织中的 communicators 参与。 我们建议, 在您使用可用的采纳材料或设计自己的材料时, 这些人会尽早参与。
 
-如果您的公司具有新闻、 信息或支持的中央 intranet 门户，您可以将其用作集线器，此推广有关的信息来使用。提供广泛使用自助信息、 培训和编写的指南允许很快就会板载的用户。 一旦团队可用并且我们鼓励这，许多用户只需将跳中。 我们也知道每个人学习以不同方式;管理中心的信息门户可以支持学习组织内的所有的样式。
+如果您的公司有用于新闻、信息或支持的中心 intranet 门户, 则您可以将其用作中心, 了解有关此次推出的信息。提供广泛可用的自助信息、培训和书面指南, 使用户能够快速开始使用板载技术。 许多用户只需在团队推出后立即跳转, 我们将鼓励这样做。 我们还知道每个人都以不同的方式进行学习;中心信息门户可以支持你的组织内的所有学习样式。
 
-## <a name="implement-end-user-training"></a>最终用户培训
+## <a name="implement-end-user-training"></a>实施最终用户培训
 
-使用我们的资源提供最终用户培训人员开始使用 Microsoft 团队和其他 Office 365 服务。 访问我们的资源页面以了解详细信息：
+在用户开始使用 Microsoft 团队和其他 Office 365 服务时, 可使用我们的资源提供最终用户培训。 请访问我们的资源页面, 了解详细信息:
 
-- [教师授课实况最终用户培训团队](instructor-led-training-teams-landing-page.md)
-- [培训团队的管理员](itadmin-readiness.md)
-- [Online 最终用户培训](enduser-training.md)
-- [在线培训拥护者 & IT 专业人员在云中咖啡](https://aka.ms/CoffeeintheCloud) 
-- [生命 Office 365 培训欺骗工作表中的一天](https://aka.ms/O365AdoptionTools)
+- [面向团队的讲师指导最终用户培训](instructor-led-training-teams-landing-page.md)
+- [团队的管理员培训](itadmin-readiness.md)
+- [在线最终用户培训](enduser-training.md)
+- [有关拥护 & IT 专业人员的云在线培训的咖啡](https://aka.ms/CoffeeintheCloud) 
+- [Office 365 培训中的一天是工作表](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功
 
-作为任何通信和采用市场活动，您需要以确定您成功度量前端。 请注意以下事项：
+与任何通信和采纳活动一样, 你将希望提前确定你的成功指标。 请考虑以下事项:
 
 - 产品中的活动用户数
 - 你的信息网页查看数
@@ -63,8 +63,8 @@ ms.locfileid: "33896291"
 - 你的培训视频查看数
 - 学习活动的出席人数
 
-共享您获得井号 #TeamsStories 以便于检索与您的反馈通道见解。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外共享其与我们 Microsoft 技术社区我们驱动应用论坛中。 共享您自己公司内的从这些宣传示例是实现随着时间推移而持续的更改与用户社区非常有用的。
+通过 "井号" #TeamsStories 分享您的反馈频道所获得的见解, 以便于检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 还可在 Microsoft 技术社区的 "推动采纳论坛" 中与我们分享。 从您自己的公司内部共享这些真实的示例非常有价值, 您可以通过您的用户群体实现持续不断的更改。
 
-[了解有关 Microsoft 365 管理中心中的 Microsoft 团队使用率报告。](teams-activity-reports.md)
+[了解有关 Microsoft 365 管理中心中的 Microsoft 团队使用情况报表的详细信息。](teams-activity-reports.md)
 
-![下一步步骤图标](media/teams-adoption-next-icon.png)下一步：[计划服务运行状况检查](teams-adoption-schedule-service-health-reviews.md)
+![描述后续步骤](media/teams-adoption-next-icon.png)的图标下一步:[计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)

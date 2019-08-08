@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '摘要: 配置 Exchange Server 2016 或 Exchange Server 2013 和 Skype for business 服务器的 IM 脚本。'
-ms.openlocfilehash: b24353a9742a48b35e21ac00df40a04fa60e444b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278068"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244148"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>配置 Skype for Business 服务器以使用 Exchange Server 存档
 

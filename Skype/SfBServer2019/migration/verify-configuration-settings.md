@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 你可以通过在中央管理存储所在的内部计算机上运行 Skype for Business Server 2019 For CsManagementStoreReplicationStatus cmdlet 验证配置信息到边缘服务器的复制, 或者在任何安装了 Skype for business Server 2019 核心组件 (OcsCore) 的加入域的计算机。
-ms.openlocfilehash: 0ea966652972a97dac3e807cef42ddeaa5136322
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5beb3c80bbc4c2f9a73fe68b9d99d7752598c680
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307033"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240936"
 ---
 # <a name="verify-configuration-settings"></a>验证配置设置
 

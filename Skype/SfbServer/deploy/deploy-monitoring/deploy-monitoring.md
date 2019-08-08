@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '摘要: 了解如何在 Skype for Business 服务器中部署监视。'
-ms.openlocfilehash: bd194e8f39130de7a02a56afa2fa1f82bb662c76
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282379"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239948"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署监视
 

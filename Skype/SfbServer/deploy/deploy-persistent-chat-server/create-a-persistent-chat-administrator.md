@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '摘要: 阅读本主题, 了解如何创建持久聊天服务器管理员角色, 以便在 Skype for Business Server 2015 中启用持久聊天服务的初始配置和管理。'
-ms.openlocfilehash: b0edd3e1f10bf040be18242bfa600bb694169257
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 3692169a65d73c3951ce58e77b132a4f118c54e9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418141"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239764"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中创建持久聊天管理员
  

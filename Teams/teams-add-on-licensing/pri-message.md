@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解团队消息中的优先级通知。
-ms.openlocfilehash: f21d542630063312eaa24ed2d0d5c5e25e6ded90
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: d4353ae5a4fbddd5a818dc73e3d7926ee4a8ebf3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957530"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242544"
 ---
 # <a name="messaging-policies-licensing"></a>邮件策略授权
 

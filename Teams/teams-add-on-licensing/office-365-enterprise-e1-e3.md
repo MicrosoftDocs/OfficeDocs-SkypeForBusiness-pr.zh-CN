@@ -8,7 +8,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 429435fe03578df149b8e141e30bfc894a528061
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 30a7f18382c6fcbc28d80089c5cd9f855c00aa8e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298476"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242643"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版（E1 和 E3）
 

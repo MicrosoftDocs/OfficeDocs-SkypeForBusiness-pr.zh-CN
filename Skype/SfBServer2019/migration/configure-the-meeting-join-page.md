@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: End User
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 当用户单击会议请求中的会议链接时, "会议加入" 页面将检测用户计算机上已安装的客户端。 如果已安装客户端, 该客户端将打开并加入会议。 如果未安装客户端, 则默认情况下将打开 Web 应用。
-ms.openlocfilehash: c5f6cd5b1d04b54f8db9f82080bc8dbabefdc11e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298275"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239324"
 ---
 # <a name="configure-the-meeting-join-page"></a>配置与会页面
 

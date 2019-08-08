@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '摘要: 阅读本主题, 了解如何在 Skype for business Server 2015 中为持久聊天服务器创建初始用户策略。 持久聊天用户策略确定是否允许用户访问聊天室。'
-ms.openlocfilehash: 3f2a55f3a411fc3020ebe9af57d456f00dd74ef4
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 83d6b49372f695be1a4db516eda6c7be357beed3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418120"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239753"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>配置 Skype for Business Server 2015 中的持久聊天用户策略
  

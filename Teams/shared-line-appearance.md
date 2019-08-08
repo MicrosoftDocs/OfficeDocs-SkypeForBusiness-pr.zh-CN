@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共享行的外观使用户可以选择代表代表他们应答或处理呼叫的代理人。
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298652"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243108"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -43,7 +43,12 @@ ms.locfileid: "34298652"
 
 委派和共享行的外观是用户驱动的功能: 没有要配置的管理员设置。 有关如何使用该功能的信息, 请参阅[与代理人共享电话线路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-租户管理员应通过**TeamsCallingPolicy AllowDelegation**设置启用委派, 此功能才能正常工作。
+租户管理员可通过**TeamsCallingPolicy AllowDelegation**设置或通过团队管理门户启用委派, 此功能将起作用。 
+
+租户管理员还可以为团队管理中心中的用户配置委派关系。 此外, 最终用户还可以直接在团队中配置其委派关系。 租户管理员或用户无法彼此阻止配置, 但团队管理中心和团队客户应在这两个位置中准确显示此关系。 
+
+> [!IMPORTANT]
+> 当租户管理员为用户关闭委派时 (在已启用) 时, 他们还需要清理团队管理中心中该用户的委派关系, 以避免不正确的呼叫路由。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共享行外观功能的可用性
 

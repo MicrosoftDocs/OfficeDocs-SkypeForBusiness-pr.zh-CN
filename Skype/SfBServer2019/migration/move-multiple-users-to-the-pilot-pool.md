@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 你可以使用 Skype for business Server 2019 控制面板或 Skype for business Server 2019 Management Shell, 将多个用户从旧版池移动到 Skype for business Server 2019 试验池。
-ms.openlocfilehash: 3798525145776c61eed6b1dabebe657538d7c9db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282222"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244570"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到 "引导" 池
 

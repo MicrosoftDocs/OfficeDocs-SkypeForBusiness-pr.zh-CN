@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要删除监视服务器, 你需要更改或清除关联的前端池、前端服务器、Survivable 分支设备和 Survivable 分支服务器上的依赖关系。 编辑前端池、前端服务器、Survivable 分支装置和 Survivable 分支服务器的属性以删除相关性。 清除相关性并在拓扑生成器中删除服务器后, 系统会通知你拓扑生成器中关联的数据库存储对象也将被删除。
-ms.openlocfilehash: 366bb67815df99542b893e9ced79c1fc1f0e3e9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ecad0a447bacacf2a894bdb735b97b3a8593b1c8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301095"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244121"
 ---
 # <a name="remove-the-monitoring-server-association"></a>删除监控服务器关联
 

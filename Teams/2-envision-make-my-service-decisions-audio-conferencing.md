@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 了解会议、许可和可用性、配置会议桥设置、获取或传输电话号码, 以及选择租户拨号计划。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d0155788ef4ba99a350be0043847edd5e705b75b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330593"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240572"
 ---
 # <a name="make-my-service-decisions"></a>作出我的服务决策
 
@@ -355,10 +356,10 @@ Office 365 的电话系统功能中的拨号计划是一组规范化规则, 可�
 > ||**AU-TollFree**<br>_澳大利亚免费电话号码规范化_|^ (1 [38] \d{4,8}) \d * $<br>+ 61 $ 1<br>False|
 > ||**AU-服务**<br>_澳大利亚的服务号码规范化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 > |**SG-新加坡-OMB**<br>_OMB 新加坡的 SG 拨号计划_|**SG-OMB-内部**<br>_内部号码 (x8000 "x8999"), 适用于 OMB office, 新加坡_|^ (8 \ d{3}) $<br>+ 656888 $ 1<br>True|
-> ||**SG-TollFree**<br>_适用于新加坡的免费电话号码规范化_|^ (1?800 \ d{7}) \d * $<br>+ 65 $ 1<br>False|
+> ||**SG-TollFree**<br>_适用于新加坡的免费电话号码规范化_|^ (1 – 800 \\ d{7}) \d * $<br>+ 65 $ 1<br>False|
 > ||**SG 服务**<br>_适用于新加坡的服务号码规范化_|^ (1 d{3,4}\|9 d{2}) $<br>$1<br>False|
 > |**FR-巴黎-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-果-Moulineaux, 法国拨号计划_|**FR-39qdPR-内部**<br>_内部号码 (x7000 "x7999) for 39 quai du Président Roosevelt office, Issy-果-Moulineaux, 法国_|^ (7 \ d{3}) $<br>+ 3319999 $ 1<br>True|
-> ||**FR-TollFree**<br>_法国免费电话号码规范化_|^ 0? (80 \ d{7}) \d * $<br>+ 33 $ 1<br>False|
+> ||**FR-TollFree**<br>_法国免费电话号码规范化_|^ 0？(80 \ d{7}) \d * $<br>+ 33 $ 1<br>False|
 > ||**FR-服务**<br>_法国的服务号码规范化_|^{1,2}\|(1 d 11 [68]{3}\|\d 10 \ d{2}\|3 \ d{3}) $<br>$1<br>False|
 
 <br>

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在部署试验池之前, 必须为试验池更新 DNS 主机的条目。 若要成功完成此过程, 你应作为域管理员组的成员或 DnsAdmins 组的成员登录到服务器或域。
-ms.openlocfilehash: 3b8485564f3ea7f37a06b5c4d13c9450ba0a2694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0de8e144ea8d77e7ffa86562c120a54e3ec61ae0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289621"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239439"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
 

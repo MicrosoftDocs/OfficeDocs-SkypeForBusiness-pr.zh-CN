@@ -7,20 +7,21 @@ ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e70313d83bfa7873e990a2d77bc165dfd8dfbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fabd8a853202f49fb66c9b796a84beff554afdb5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234935"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241901"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================
@@ -53,7 +54,7 @@ Microsoft Teams 支持在 Office 365 中可以使用的所有标识模式。 支
 
 Office 365 计划支持多重身份验证 (MFA)，这可提高用户登录 Office 365 服务的安全性。 Office 365 应用 MFA 时，在用户正确输入其密码后，需要用户在其智能手机上确认电话、短信或应用通知。 仅当通过此辅助身份验证因素后，用户才可以登录。
 
-包含 Microsoft 团队任何 Office 365 计划支持多因素身份验证。 包含 Microsoft Teams 的 Office 365 订阅计划稍后将在下面的“许可”一节中讨论。
+任何包含 Microsoft 团队的 Office 365 计划均支持多重因素身份验证。 包含 Microsoft Teams 的 Office 365 订阅计划稍后将在下面的“许可”一节中讨论。
 
 用户注册 MFA 后，下次登录时，他们将看到要求其设置辅助身份验证因素的消息。 支持的身份验证方法如下：
 

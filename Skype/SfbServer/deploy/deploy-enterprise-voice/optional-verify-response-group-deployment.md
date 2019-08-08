@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 在 Skype for Business Server Enterprise Voice 中验证您的响应组部署是否成功。
-ms.openlocfilehash: f2ff8a9cc4203c25a679d6c3326911f5a3b6d971
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 758836f7003d5f1473801eae4bef400b0e048891
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292834"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240382"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>可选在 Skype for Business 中验证响应组部署
  

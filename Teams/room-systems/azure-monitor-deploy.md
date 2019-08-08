@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文介绍如何使用 Azure 监视器以集成的端到端方式部署 Microsoft 团队聊天室设备的管理。
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433372"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243615"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>通过 Azure 监视器部署 Microsoft 团队聊天室管理
 
@@ -195,7 +195,7 @@ ms.locfileid: "34433372"
 ### <a name="create-a-tile-that-displays-active-devices"></a>创建显示活动设备的磁贴
 
 1.  选择 "**查看仪表板**" 以开始添加磁贴。
-2.  从库中选择 "**编号 & 列表**"
+2.  从库中选择 "**编号" & 列表**
 3.  定义**常规**属性:<br>
     **组标题:** 检测信号状态<br>
     **新组:** 处于
@@ -213,7 +213,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>创建显示有连接问题的设备的磁贴
 
-1.  从库中选择 "**编号 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**编号" & 列表**, 然后添加新磁贴。
 2.  定义**常规**属性:<br>
     **组标题:** 留空<br>
     **新组:** 未选中
@@ -231,7 +231,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>创建显示硬件出现错误的设备的磁贴
 
-1.  从库中选择 "**编号 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**编号" & 列表**, 然后添加新磁贴。
 2.  定义**常规**属性:<br>
     **组标题:** 硬件状态<br>
     **新组:** 处于
@@ -249,7 +249,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>创建显示 Microsoft 团队聊天室操作系统版本的磁贴
 
-1.  从库中选择 "**同心圆 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**同心圆 & 列表**", 然后添加新磁贴。
 2.  定义**常规**属性:<br>
     **组标题:** 操作系统详细信息<br>
     **新组:** 处于
@@ -273,7 +273,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>创建显示 Microsoft 团队聊天室应用程序版本的磁贴
 
-1.  从库中选择 "**同心圆 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**同心圆 & 列表**", 然后添加新磁贴。
 2.  定义**常规**属性:<br>
     **组标题:** Microsoft 团队聊天室应用程序详细信息<br>
     **新组:** 处于
@@ -297,7 +297,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>创建显示有应用程序错误的设备的磁贴
 
-1.  从库中选择 "**编号 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**编号" & 列表**, 然后添加新磁贴。
 2.  定义**常规**属性。<br>
     **组标题:** 留空<br>
     **新组:** 未选中
@@ -315,7 +315,7 @@ ms.locfileid: "34433372"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>创建显示已重新启动的设备的磁贴
 
-1.  从库中选择 "**编号 &" 列表**, 然后添加新磁贴。
+1.  从库中选择 "**编号" & 列表**, 然后添加新磁贴。
 2.  定义**常规**属性。<br>
     **组标题:** 留空<br>
     **新组:** 未选中

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 删除依赖于这些数据库的服务器或在将服务器重新配置为使用另一个数据库之后, 将删除该 Microsoft SQL Server 数据库和实例。 当你注销当前 SQL Server 或重新配置当前服务器时, 你需要执行本主题中的过程, 使其呈现数据库过时或不可用。
-ms.openlocfilehash: 2d0902293c675143609dd720cd33734edd538d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c526499e3036c9a10b8dc92ccc519f21ae8bc96
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301116"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244199"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>删除后端服务器上的 SQL Server 实例和数据库
 

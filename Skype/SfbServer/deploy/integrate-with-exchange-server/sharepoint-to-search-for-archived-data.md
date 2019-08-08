@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '摘要: 配置 SharePoint Server 以搜索 Exchange Server 和 Skype for business 服务器存档的数据。'
-ms.openlocfilehash: 2fb4b601e594ca48105afcf2e0c75107b2c6bceb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278075"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244138"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>配置 SharePoint Server 以搜索存档的 Skype for Business 数据
  

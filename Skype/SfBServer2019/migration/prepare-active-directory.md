@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在将 Skype for business Server 2019 部署到共存状态之前, 必须执行一些其他 Active Directory 任务来配置适用于 Skype for business Server 2019 的架构、林和域。 架构扩展添加 Skype for business Server 2019 所需的 Active Directory 类和属性。 有关其他信息, 请参阅为 Skype for Business Server 2019 准备 Active Directory 域服务主题。
-ms.openlocfilehash: 8cec6b6cfb7047a151f6dcd78d6bb42c21e4a959
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 286c4df4cc371a9869e6b84cf5048b21e6c54f6c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273795"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244370"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>为 Skype for business 服务器准备 Active Directory
 
