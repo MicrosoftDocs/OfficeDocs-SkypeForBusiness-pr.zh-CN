@@ -1,11 +1,12 @@
 ---
 title: Teams 教育版
-description: 使用这些资源充分利用团队获取您的组织内。
+description: 使用这些资源充分利用整个组织中的团队。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -13,16 +14,16 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20e186ac9ab0dc98dda503738160f09c4f55b07
-ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
+ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472553"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235355"
 ---
 # <a name="teams-for-education"></a>Teams 教育版
 
-与团队，教师和员工可以创建协作教室、 专业人员学习社区中连接和与学生和教师通信。 此处使用的管理资源可帮助您成功部署、 采用，和管理学校或机构中的团队。 
+通过团队, 教师和教职员工可以创建协作式教室、在专业学习社区中连接, 以及与学生和教师进行沟通。 在此处使用管理员资源可帮助您成功部署、采用和管理您的学校或机构的团队。 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,7 +33,7 @@ ms.locfileid: "33472553"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,11 +51,11 @@ ms.locfileid: "33472553"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>面向教育机构团队中的分配</h3>
+                        <h3>Teams 教育版中的分配</h3>
                     </div>
                 </div>
             </div>
@@ -68,11 +69,11 @@ ms.locfileid: "33472553"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>对于教育管理员团队资源</h3>
+                        <h3>面向教育版管理员的团队资源</h3>
                     </div>
                 </div>
             </div>
@@ -85,11 +86,11 @@ ms.locfileid: "33472553"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>调控常见问题团队教育管理员</h3>
+                        <h3>针对教育版管理员的团队的管理常见问题</h3>
                     </div>
                 </div>
             </div>

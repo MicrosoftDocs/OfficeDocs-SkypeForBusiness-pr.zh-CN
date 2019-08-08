@@ -1,31 +1,32 @@
 ---
 title: 用于采用的工具和下载
 ms.reviewer: karuanag
-description: 使用这些采纳资源可帮助您的 Microsoft 团队的推动采纳率和其他 Office 365 服务。
+description: 使用这些采纳资源帮助你推动 Microsoft 团队和其他 Office 365 服务的采用。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
+audience: admin
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902845"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236650"
 ---
-# <a name="tools-for-driving-adoption"></a>对于推动应用的工具 
+# <a name="tools-for-driving-adoption"></a>促进采纳的工具 
 
-使用下面的工具来支持您的服务应用计划每个阶段。  
+使用下面的工具来支持服务采用计划的每个阶段。  
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -40,8 +41,8 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>采用项目计划</h3>
-                        <p>Jumpstart 您规划使用我们应用计划文件</p>
+                        <h3>采纳项目计划</h3>
+                        <p>利用我们的采纳计划文件快速了解你的规划</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +61,8 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>示例角色和工作方式</h3>
-                        <p>使用这些模板映射什么是向员工重要<p>
+                        <h3>示例角色和工作样式</h3>
+                        <p>使用这些模板映射对员工重要的内容<p>
                     </div>
                 </div>
             </div>
@@ -80,7 +81,7 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>使用此模板将工作流分配给主要团队成员并与利益干系人通信</h3>
+                        <h3>使用此模板将工作流分配给关键团队成员并与利益干系人通信</h3>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>在生命 quicksheets 激发与这些日员工</h3>
+                        <h3>在生命 quicksheets 中使用这一天来吸引员工</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>拥护者和 ITPros 嵌入视频资源</h3>
+                        <h3>用于拥护和 ITPros 的嵌入式视频资源</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@ ms.locfileid: "33902845"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>准备与技术支持人员的 Microsoft 团队</h3>
+                        <h3>为 Microsoft 团队准备帮助台</h3>
                     </div>
                 </div>
             </div>
@@ -145,11 +146,11 @@ ms.locfileid: "33902845"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 拥护者程序
-Office 365 拥护者程序是一个免费程序，可帮助要获取更多来自 Microsoft 团队和其他 Office 365 服务的人员。 我们将我们在线社区[Microsoft 技术社区](https://aka.ms/DriveAdoption)中的与突出显示的新功能的最佳做法从调控驱动应用的所有组件的每月社区呼叫。 加入我们在社区https://aka.ms/O365Champions和获取早期版本的访问权限、 听到其他客户和了解从 Microsoft 专家。  
+### <a name="office-365-champions-program"></a>Office 365 拥护程序程序
+Office 365 拥护者程序是一个免费计划, 可帮助希望从 Microsoft 团队和其他 Office 365 服务获取更多信息的用户。 我们在[Microsoft 技术社区](https://aka.ms/DriveAdoption)中将我们的在线社区与每月社区通话结合起来, 重点介绍了推动采用从管理到最佳做法到新功能的所有组件。 加入我们的社区https://aka.ms/O365Champions , 获取早期版本的访问权限, 从其他客户处收听, 并从 Microsoft 专家中学。  
 
-### <a name="teams-adoption-guide"></a>团队应用指南
-签出[团队应用 flipbook](https://aka.ms/teamstoolkit)，联机向导将帮助您在贵公司推出团队。 它包括多个可下载的工具、 模板和其他资源以帮助您沿您团队应用过程。
+### <a name="teams-adoption-guide"></a>团队采纳指南
+查看[团队采纳 flipbook](https://aka.ms/teamstoolkit), 这是一个可帮助你在公司中推广团队的在线指南。 它包含许多可下载的工具、模板和其他资源, 可帮助您在团队中采纳旅行。
 
 ### <a name="teams-customer-success-kit"></a>团队客户成功工具包
-[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)提供了可帮助您在组织中推出团队的工具。 它包括通知、 传单海报、 倒计时和 & 提示和技巧的电子邮件模板。 它还包括入门指南团队领导和 IT 管理员。
+"[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)" 提供了帮助您在组织中部署团队的工具。 它包括通知、传单海报、倒计时和提示 & 技巧的电子邮件模板。 它还包括团队领导和 IT 管理员入门指南。
