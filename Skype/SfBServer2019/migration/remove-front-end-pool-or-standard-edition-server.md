@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题将指导你完成删除前端池或标准版前端服务器的过程。 删除前端池时, 将在池删除过程中删除属于该池的每个前端服务器。 删除标准版前端服务器时, 必须从拓扑生成器中删除 SQL 应用商店定义。
-ms.openlocfilehash: fd43682fca67b961ac93c01813ca6ea9e702b644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57679fb248c9281b79c12be98b7fd5246c9afd38
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301130"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244265"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>删除前端池或 Standard Edition Server
 

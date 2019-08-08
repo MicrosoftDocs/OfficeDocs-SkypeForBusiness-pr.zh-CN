@@ -2,25 +2,26 @@
 title: Microsoft Teams 操作指南
 author: rmw2890
 ms.author: Rowille
+audience: admin
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 description: 团队服务管理所需的任务和活动, 包括监视服务运行状况, 以及评估和确保网络质量和使用情况。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548244"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244071"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -355,14 +356,12 @@ NPS 是一个索引, 范围从-100 到 100, 用于衡量客户推荐公司产品
 | 提供建筑物数据                                          | 向质量专家 (或相关利益干系人) 提供更新的子网信息, 以确保[CQD 中的生成定义](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持最新状态。 | 根据需要              |               |
 | 实施更改                                               | 实施对网络的更改以支持不断变化的团队业务和技术要求。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul>     | 根据需要              |               |
 | 网络监控和报告                               | 通过使用您现有的第三方网络管理工具和您的网络提供商提供的报告功能, 监控网络端到端的可用性、利用率和容量趋势。 使用趋势数据进行网络容量规划。                                                                                                            | 每天、每周、每月 |               |
-| 容量规划                                              | 与团队服务所有者协作, 以了解不断改变的业务和技术要求可能会增加额外的容量。 利用[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)的结果, 确保有足够的带宽可供 Microsoft 团队使用。                               | 根据需要              |               |
+| 容量规划                                              | 与团队服务所有者协作, 以了解不断改变的业务和技术要求可能会增加额外的容量。                                | 根据需要              |               |
 | 网络故障排除和修正                        | 帮助团队人员、服务所有者和关键利益干系人诊断和解决与团队连接性、可靠性或质量相关的问题。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul>    | 根据需要              |               |
 | 灾难恢复和高可用性测试                | 在网络基础结构上执行常规高可用性和灾难恢复测试, 以确保它满足团队服务规定的服务级别目标 (Slo) 或服务级别协议 (Sla)。                                                                                                                                                  | 每月                |               |
 
 
 ### <a name="references"></a>References 
-
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
@@ -395,8 +394,6 @@ NPS 是一个索引, 范围从-100 到 100, 用于衡量客户推荐公司产品
 
 
 ### <a name="references"></a>References 
-
-[了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [上载租户数据信息](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

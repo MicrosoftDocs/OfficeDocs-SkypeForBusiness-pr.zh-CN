@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: 'Skype for Business 服务器提供高可用性: 服务器池、具有池配对的灾难恢复以及后台服务器高可用性的几种模式, 包括 AlwaysOn 可用性组、数据库镜像和 SQL 故障转移群集。'
-ms.openlocfilehash: 7997f71fb1f45801436caa50c4d6b258cc1b843b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb4d39df7f6a12a14c25533d8c6fb1ae95da24d4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306676"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240059"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和灾难恢复
  

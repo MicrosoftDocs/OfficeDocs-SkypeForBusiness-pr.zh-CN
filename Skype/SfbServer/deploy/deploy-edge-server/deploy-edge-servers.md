@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '摘要: 了解如何将 Edge 服务器部署到 Skype for Business 服务器环境中。'
-ms.openlocfilehash: b8b55d4aea048faeb4bb8bda3cc0bd17f89f9f66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306914"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233882"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署边缘服务器
  

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果旧版前端池是托管呼叫许可控制 (CAC), 则必须先将 CAC 托管版迁移到 Skype for business Server 2019 池, 然后才能删除旧的前端池。
-ms.openlocfilehash: 7b4aa42b20bfad5506d47c16038d1765f3ac8571
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 812391eda436906020c41b14a53c8ea18c4b1aee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307096"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241323"
 ---
 # <a name="reset-call-admission-control"></a>重置呼叫允许控制
 

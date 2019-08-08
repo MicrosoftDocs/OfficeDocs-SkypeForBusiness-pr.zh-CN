@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '摘要: 将服务器配置为 Exchange Server 2016 或 Exchange Server 2013 和 Skype for business 服务器的服务器身份验证。'
-ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306732"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245506"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在 Skype for Business Server 和 Exchange Server 中配置合作伙伴应用程序
  

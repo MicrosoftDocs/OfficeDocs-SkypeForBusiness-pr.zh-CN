@@ -4,35 +4,36 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
-description: 了解 Microsoft 团队以及如何针对通道对话 Exchange、 文件上载和修改 SharePoint、 从搜索中的内容搜索和 OneNote 更改。
+description: 了解 Microsoft 团队中的内容搜索以及如何搜索来自 Exchange 的频道对话、来自 SharePoint 的文件上载和修改以及 OneNote 更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7fe2528ab4f508af7840d820b54919d5b3a5faee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194667"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236416"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
 
-内容搜索提供跨 Exchange、 SharePoint Online 和 OneDrive for Business 的查询的 Microsoft 团队信息临时方法。
+内容搜索提供了一种临时方法, 用于查询 Microsoft 团队信息跨越 Exchange、SharePoint Online 和 OneDrive for business。
 
-若要了解详细信息，请阅读[Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+若要了解详细信息, 请阅读[Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
-例如，针对您的正式发布规格邮箱和正式发布规格 SharePoint 网站中使用**内容搜索**，可以对搜索 Exchange、 文件上载和修改从 SharePoint Online 和 OneNote 的团队通道对话更改。
+例如, 对您的制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**, 您可以从 Exchange、文件上传和 sharepoint Online 的修改以及 OneNote 中搜索团队频道对话发生.
 
-您还可以将查询条件添加到**内容搜索**范围缩小返回的结果。 在上述示例中，您可以查看内容其中关键字"**新工厂规格"** 使用。
+您还可以将查询条件添加到**内容搜索**, 以缩小返回的结果范围。 在上面的示例中, 你可以查找使用 "**新工厂规范"** 关键字的内容。
 
 > [!TIP]
-> 添加搜索条件之后, 可以将报表或数据导出到您的计算机进行分析。
+> 添加搜索条件后, 您可以将报表或数据导出到计算机进行分析。
 
 ## <a name="related-topics"></a>相关主题
-[Office 365 安全性 & 合规性中心中的电子数据展示事例](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+[Office 365 安全 & 合规中心中的电子数据展示事例](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

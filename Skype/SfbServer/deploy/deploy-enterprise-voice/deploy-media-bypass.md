@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: 在 Skype for Business Server Enterprise Voice 中部署媒体旁路。 包括先决条件和部署过程清单。
-ms.openlocfilehash: 37812ab6784167fd59f578e5f12560fbd7e9a08a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2cbb57499a4cdb38a83424b3c86445817b18b4c5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291226"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233265"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署媒体旁路
  

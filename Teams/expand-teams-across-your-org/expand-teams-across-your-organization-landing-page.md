@@ -1,23 +1,24 @@
 ---
 title: 在组织中推广 Microsoft Teams
-description: 使用这些资源充分利用团队获取您的组织内。
+description: 使用这些资源充分利用整个组织中的团队。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1772131042c80ca34991e44352ebf501527ac337
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246175"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232235"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在组织中推广 Microsoft Teams
 
@@ -30,7 +31,7 @@ ms.locfileid: "32246175"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ ms.locfileid: "32246175"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="health" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +67,7 @@ ms.locfileid: "32246175"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="education" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +85,7 @@ ms.locfileid: "32246175"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="business" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +103,7 @@ ms.locfileid: "32246175"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="blocks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
                         </div>
                     </div>
                     <div class="cardText">

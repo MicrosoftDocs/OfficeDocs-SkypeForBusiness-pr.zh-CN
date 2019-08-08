@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 1238e0e4d015a9216523c96e981e3f37ad54c131
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588124"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245359"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 你可以使用 Skype for Business Server 2019 控制面板或 Skype for business Server 2019 命令行管理程序将用户从旧版池中移动到 Skype for business Server 2019 试验池。 在下面的示例中, 在 "注册机构池" 列中, pool01.contoso.net 是旧版池, 并且所有六个用户都连接到该池。 使用以下过程, 使用 Skype for business Server 2019 控制面板和 Skype for business Server Management Shell 将用户移动到 Skype for business Server 2019 池。
-ms.openlocfilehash: 23ce56f8bcf759aeeaa9e9a9b64820958c656c6a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298132"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237763"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到 "引导" 池
 

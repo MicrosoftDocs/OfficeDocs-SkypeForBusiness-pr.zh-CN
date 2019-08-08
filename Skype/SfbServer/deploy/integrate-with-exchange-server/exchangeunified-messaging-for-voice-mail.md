@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '摘要: 为 Skype for business 服务器语音邮件配置 Exchange Server 统一消息。'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278183"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238003"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息
  
@@ -153,7 +153,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - 为每个 UM IP 网关创建一个 UM 查寻组。 每个查寻组的引导标识符指定与 UM IP 网关相关联的 Skype for Business Server 前端池或标准版服务器使用的 UM SIP URI 拨号计划。
 - 授予 Skype for Business 服务器读取 Active Directory UM 容器对象 (如 UM 拨号计划、自动助理、UM IP 网关和 UM 查寻组) 的权限。
   > [!IMPORTANT]
-  > 必须将每个 UM 林配置为信任在其中部署 Skype for Business 服务器的林, 并且必须将部署 Skype for business Server 2013 的林配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中, 则必须为每个 UM 林执行 Exchange Server 集成步骤, 否则你将必须指定 Skype for business 服务器域。 例如, ExchUcUtil-林: <lync-fqdn>。 
+  > 必须将每个 UM 林配置为信任在其中部署 Skype for Business 服务器的林, 并且必须将部署 Skype for business Server 2013 的林配置为信任每个 UM 林。 如果 Exchange UM 安装在多个林中, 则必须为每个 UM 林执行 Exchange Server 集成步骤, 否则你将必须指定 Skype for business 服务器域。 例如, ExchUcUtil-林: <lync 域控制器-fqdn>。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用外壳运行 ExchUcUtil 脚本
 
@@ -164,7 +164,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 > 您必须具有 Exchange 组织管理角色的权限, 或者是 Exchange 组织管理员安全组的成员才能运行脚本。 
 
 1. 打开 Exchange 命令行管理程序。
-2. 在 C:\Windows\System32 提示符处, 键入**cd \<drive letter>: \Program Files\Microsoft\Exchange Server\V15\Scripts>。ExchUcUtil**, 然后按 Enter。
+2. 在 C:\Windows\System32 提示符下, 键入**cd \<驱动器号>: \Program Files\Microsoft\Exchange Server\V15\Scripts>。ExchUcUtil**, 然后按 Enter。
 
 #### <a name="how-do-you-know-this-worked"></a>如何知道这是正常工作的？
 
@@ -189,7 +189,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 **要下载 CA 证书, 请执行以下操作:**
 
-1. 在运行 Exchange UM 的服务器上, 单击 "**开始**", 单击 "**运行**", 键入**发证 CA Server>/certsrv 的 Http://\<名称**, 然后单击 **"确定"**。
+1. 在运行 Exchange UM 的服务器上, 单击 "**开始**", 单击 "**运行**", 键入**发证\<CA 服务器的 http://名称> "/Certsrv**", 然后单击 **"确定"**。
 2. 在 "选择任务" 下, 单击 "**下载 CA 证书、证书链或 CRL**"。
 3. 在 "**下载 Ca 证书、证书链或 CRL**" 下, 选择 "**编码方法以基本 64**", 然后单击 "**下载 CA 证书**"。
    > [!NOTE]

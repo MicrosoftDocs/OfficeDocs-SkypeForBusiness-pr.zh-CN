@@ -7,21 +7,22 @@ ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+audience: admin
 description: 面向 IT 专业人士的指南, 用于驱动在处理受美国政府 DoD 法规制约的数据的实体中的 Office 365 部署。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29de55208f53988a5941d114f3e681fd217f1b7e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344353"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237702"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>规划 Microsoft 365 政府-DoD 部署
 

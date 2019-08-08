@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 将联盟路由转换为 Skype for business Server 2019 Edge 服务器之后, 你应该执行一些功能测试以验证联合身份验证是否按预期执行。 外部用户访问的测试应包括您的组织支持的每种类型的外部用户, 包括以下任何或所有类型的外部用户。
-ms.openlocfilehash: a07cbfc8596cfd49760af1fcee7df90eca362229
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea17cbc8643d864f464da8e8a582191504970059
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292170"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243766"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫, 以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283476"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237159"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -48,11 +48,13 @@ Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传�
 
 呼叫组创建和通知首选项是用户驱动的功能;管理员不必为其用户配置这些功能。 无法从安全组或 Office 365 组创建呼叫组;它们必须在团队中创建。
 
-管理员应通过用户的**TeamsCallingPolicy AllowCallGroups**设置启用呼叫组。 管理员只能控制此用户是否可以配置呼叫组。 一旦将该位设置为 true, 管理员就无法阻止用户配置和添加呼叫组用户选择的用户。
+管理员应通过用户的**TeamsCallingPolicy AllowCallGroups**设置启用呼叫组。 管理员还可以通过团队管理员门户启用此操作。  此外, 已配置的用户还可以直接通过客户端配置其呼叫组。 管理员或最终用户不能互相阻止配置, 但团队管理员门户和团队客户应在这两个位置准确地显示这种关系。 
+
+重要提示: 当管理员为用户关闭呼叫组时 (已启用和呼叫组关系已配置), 管理员必须清理团队管理中心中的用户的呼叫组关系, 以避免呼叫路由错误。 
 
 ## <a name="limitations"></a>优缺点
 
-一个租户最多可以包含32768个呼叫组。 每个呼叫组中最多只能有5个用户。 
+一个租户最多可以包含32768个呼叫组。 每个呼叫组中最多只能有25个用户。 
 
 ## <a name="more-information"></a>详细信息
 

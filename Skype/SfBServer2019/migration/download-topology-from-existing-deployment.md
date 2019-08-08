@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 创建 Skype for Business Server 2019 池时, 将使用与旧版安装关联的中央管理存储。 在首次使用时启动拓扑生成器和后续编辑会话时, 系统会提示你输入希望拓扑生成器加载当前配置文档的位置。 由于已定义拓扑, 并且已建立中央管理存储, 因此应选择从现有部署下载拓扑。 拓扑生成器将读取数据库并检索当前定义。
-ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280855"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238120"
 ---
 # <a name="download-topology-from-existing-deployment"></a>从现有部署下载拓扑
 

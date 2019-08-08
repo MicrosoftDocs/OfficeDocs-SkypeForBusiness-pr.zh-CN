@@ -3,24 +3,25 @@ title: 评估 Microsoft Teams 云语音和工作负载的环境
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 使用角色和网络分析来评估组织的准备情况, 打开正确的 TCP 和 UDP 端口, 然后执行任何网络修正。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a1500c9e10d3e8d951c465ce278595c5b17f7cc7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548379"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232313"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -42,7 +43,7 @@ ms.locfileid: "34548379"
 作为环境发现的一部分, 请包括与最终用户计算相关的所有事宜, 如电脑和移动设备的准备情况评估, 以支持音频会议和手机系统, 支持使用呼叫计划的业务使用案例, 从硬件要求到软件要求。
 
 环境发现还可以揭示是否需要将[电话号码转移到 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。
-了解此操作将帮助你的组织相应调整其项目计划, 并为数字移植准备必要的信息。 你可以使用 MyAdvisor 中的[Microsoft 团队推出环境发现](environmental-discovery-for-microsoft-teams-rollout.md)来执行环境发现。
+了解此操作将帮助你的组织相应调整其项目计划, 并为数字移植准备必要的信息。 你可以使用[Microsoft 团队推出的环境发现](environmental-discovery-for-microsoft-teams-rollout.md)来执行环境发现。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>谁将负责完成环境评估？</li></ol></td></tr>
@@ -83,7 +84,7 @@ ms.locfileid: "34548379"
 
 -   打开从将使用团队的客户端传出的 UDP 端口3478到3481。
 
--   通过完成[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner), 确保您有足够的带宽来部署团队。
+-   确保您有足够的带宽来部署团队。
 
 -   运行[网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885), 确保满足从边缘段和客户端段的[媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)中所述的要求。
 
@@ -106,8 +107,6 @@ ms.locfileid: "34548379"
 ## <a name="bandwidth-planning"></a>带宽规划
 
 网络准备情况的第一步是确保你的网络有足够的带宽可供形式团队提供给用户。 规划足够的带宽是一个非常简单的任务和一个非常低廉的起点, 可确保你的用户具有高质量的团队体验。
-
-在 "[我的顾问" 网站](https://myadvisor.fasttrack.microsoft.com/)上使用网络 Planner 开始为团队的带宽规划旅程。 网络 Planner 为团队提供每个网站的带宽规划, 并提供优化网络性能的建议。
 
 ### <a name="local-internet-egress"></a>本地 Internet 出口
 
@@ -219,7 +218,7 @@ Microsoft 团队连接到 Microsoft Online 服务, 并且需要 internet 连接�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>谁将负责在所有网段和组织位置完成正确的网络评估？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>你可以执行详细的网络评估, 以帮助确保你的网络为你的 Microsoft 团队部署做好准备。 有关详细信息, 请参阅<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">网络准备情况评估</a>。</li><li>基于每个网络段的网络准备情况评估的结果执行网络修正。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>你可以执行详细的网络评估, 以帮助确保你的网络为你的 Microsoft 团队部署做好准备。</li><li>基于针对每个网络段的评估结果执行网络修正。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

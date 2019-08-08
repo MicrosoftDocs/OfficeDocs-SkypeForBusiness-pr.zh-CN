@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ description: 了解如何管理组织中与团队一起使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b259b893f443a068b8156f2298613b0feb6d028
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344638"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237499"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
@@ -51,8 +52,8 @@ ms.locfileid: "34344638"
 |若要执行此操作 .。。  |执行此操作 |
 |---------|---------|
 |更改设备信息   | 选择 >**编辑**的设备。 你可以编辑设备名称、用户信息、资产标记和添加笔记等详细信息。     |
-|管理软件更新   |选择一个设备 >**更新**。 你可以查看适用于该设备的软件和固件更新的列表, 并选择要安装的更新。    |
-|重启设备   |选择一个设备 >**重启**。          |
+|管理软件更新   |选择 >**更新**的设备。 你可以查看适用于该设备的软件和固件更新的列表, 并选择要安装的更新。    |
+|重启设备   |选择 >**重新启动**的设备。          |
 |查看设备历史记录  | 选择一个设备 >**历史记录**。 你可以查看设备的更新历史记录。     |
 |查看诊断  | 选择一个设备 >**诊断**。        |
 
@@ -64,7 +65,7 @@ ms.locfileid: "34344638"
 
 ::: zone target="docs"
 
-![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队 & Skype for business 管理中心
+![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队 & Skype for Business 管理中心
 
 1. 在左侧导航中, 转到 "**设备** > **管理设备**"。
 
@@ -78,7 +79,7 @@ ms.locfileid: "34344638"
 
 ::: zone target="docs"
 
-![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队 & Skype for business 管理中心
+![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队 & Skype for Business 管理中心
 
 1. 在左侧导航中, 转到 "**设备** > **管理设备**"。
 

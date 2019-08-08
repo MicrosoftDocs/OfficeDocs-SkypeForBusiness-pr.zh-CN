@@ -5,105 +5,106 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
-description: 本文介绍如何规划和在您的组织中设置用户云视频互操作。
+description: 本文介绍如何为组织中的用户规划和设置云视频互操作。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198855"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237048"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
-[选择上您云视频互操作的合作伙伴](cloud-video-interop.md)后，您需要规划您的部署，提供设置的详细信息和合作伙伴租户密钥和同意您的组织中的视频互操作应用程序获取设置。 下图概述的过程。 
+[在云视频互操作合作伙伴上进行选择](cloud-video-interop.md)后, 你将需要规划你的部署、使用预配详细信息和合作伙伴租户密钥进行设置, 并同意你的组织中的视频互操作应用。 下图概括介绍了该过程。 
 
-![组织中部署 CVI](media/deploying-cvi.png)
+![在组织中部署 CVI](media/deploying-cvi.png)
 
 ## <a name="plan"></a>规划
 
-关于标识合作伙伴在组织中使用的信息，请参阅[Microsoft 团队的云视频互操作](cloud-video-interop.md)。 
+有关如何确定要在组织中使用的合作伙伴或合作伙伴的信息, 请参阅[Microsoft 团队的云视频互操作](cloud-video-interop.md)。 
 
-若要规划用户基于/并发/网站范围启用： 
+规划基于用户的/并行/网站范围的支持: 
 
-- 选取您使用的部署模型/承载模型
-- 选择适合您的组织的许可计划。 
-- 虚拟机的容量规划是将承载视频基础结构。
+- 选择部署模型/托管模型供你使用
+- 选择适用于你的组织的许可证计划。 
+- 对虚拟机的容量进行规划是您托管的视频基础结构。
 
 ## <a name="configure"></a>配置 
 
-若要配置云视频互操作，请按照下列步骤。 
+若要配置云视频互操作, 请按照下列步骤操作。 
 
-1. 从合作伙伴/合作伙伴必须获取所选 （租户密钥、 appIds...） 的配置信息。 您可以使用一个或多个视频互操作的合作伙伴组织 
+1. 从您选择的合作伙伴/合作伙伴获取配置信息 (租户密钥, appIds ...)。 你可以使用你的组织中的一个或多个视频互操作合作伙伴 
 
-2. 确保您的网络配置正确。 配置基于标准的视频防火墙的外围网络遍历支持。 例如： 
+2. 确保您的网络配置正确。 为支持的外围网络遍历配置基于标准的视频防火墙。 例如： 
     - Cisco VCS-e                  
     - Polycom RPAD
 
-3. 配置 exchange 和 OTD 集成的聊天室。 在大多数情况下，其他中继需要设置和配置您的环境中。
+3. 通过 exchange 和 OTD 配置集成会议室。 在大多数情况下, 需要在你的环境中设置和配置其他中继。
 
 
-## <a name="provision"></a>设置
+## <a name="provision"></a>提供
  
-租户密钥将与合作伙伴服务的拨出。 以下示例中，在 813878896@t.plcm.vc 是租户密钥。 
+租户密钥将是向合作伙伴服务拨出的电话。 在以下示例中, 813878896@t.plcm.vc 是租户密钥。 
 
 ![租户密钥示例](media/tenant-key-example.png) 
 
-您需要执行以下 cmdlet 设置的租户密钥，并还允许选择用户或整个组织使用视频互操作性坐标创建会议。
+你将需要执行以下 cmdlet 来设置租户密钥, 还可以启用选择用户或整个组织以使用视频互操作坐标创建会议。
 
  
-- ** [Get CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft 提供的预构建的策略用于每个允许您指定其中合作伙伴用于云视频互操作的支持合作伙伴。
+- ** [CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft 为每个受支持的合作伙伴提供预构建的策略, 允许你指定要用于云视频互操作的合作伙伴。
 
-    此 cmdlet，可以确定可以在组织中使用的预构建的策略。 您可以将此策略分配给一个或多个用户利用授予 CsTeamsVideoInteropServicePolicy cmdlet。
+    此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
  
-- **[授予 CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** 授予 CsTeamsVideoInteropServicePolicy cmdlet 可以分配组织中使用的预构建的策略或将策略分配给特定用户。
+- **[授权-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** CsTeamsVideoInteropServicePolicy cmdlet 允许你分配一个预构建的策略以供在你的组织中使用, 或将策略分配给特定用户。
  
-- **[新 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** 新建 CsVideoInteropServiceProvider 用于指定有关支持 CVI 合作伙伴组织希望使用的信息。
+- **[新-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** 使用 New-CsVideoInteropServiceProvider 指定你的组织要使用的受支持的 CVI 合作伙伴的相关信息。
  
-- **[集 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** 使用组 CsVideoInteropServiceProvider 更新您的组织使用的支持 CVI 合作伙伴的信息。
+- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** 使用 CsVideoInteropServiceProvider 更新你的组织使用的受支持的 CVI 合作伙伴的相关信息。
  
-- ** [Get CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** 获取组织中使用的所有已配置提供程序。
+- ** [CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** 获取已配置为在组织内使用的所有提供商。
  
-- **[删除 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** 使用删除 CsVideoInteropServiceProvider 删除有关您的组织不再使用的提供程序的所有提供商信息。  
+- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** 使用 Remove-CsVideoInteropServiceProvider 删除有关你的组织不再使用的提供程序的所有提供程序信息。  
  
-## <a name="consent"></a>同意
+## <a name="consent"></a>即
 
-您需要为远程视频会议设备 (VTCs) 加入您的组织会议，通过合作伙伴服务提供权限同意。 此外将由您的合作伙伴提供此同意链接。  
+你将需要为视频 teleconferencing 设备 (VTCs) 提供权限同意, 以便通过合作伙伴服务加入你的组织会议。 您的合作伙伴也将提供此同意链接。  
  
-完成这些步骤后，如果已启用租户，单独启用通过授予 cmdlet，或在组织中的用户的所有用户将他们安排的团队会议中具有 VTC 坐标。 任何 VTC 可以加入这些会议，通过这些坐标。
+完成这些步骤后, 通过上述授权 cmdlet 单独启用的用户或组织中的所有用户 (如果启用了租户) 将在其计划的所有团队会议中具有 VTC 坐标。 任何 VTC 都可以通过这些坐标加入这些会议。
 
 
-|名称|应用程序权限的简短说明| 说明|
+|名称|应用程序权限简短说明| 说明|
 |--|--|---|
-|Calls.JoinGroupCall.All|加入组呼叫和会议作为应用程序 （预览）|允许应用程序以在组织中，已登录的用户的情况下加入组呼叫和计划的会议。  应用程序将被加入的会议在您的租户中的目录用户权限。|
-|Calls.JoinGroupCallasGuest.All|作为来宾用户 （预览） 加入组呼叫和会议|允许应用程序以匿名方式加入您的组织，没有已登录的用户组呼叫和计划的会议。  将以来宾身份加入会议租户中加入应用程序。|
-|Calls.AccessMedia.All|访问呼叫作为应用程序 (preview) 中的媒体流|允许应用程序以获取对媒体流进行通话，已登录的用户的情况下直接访问。|
-|OnlineMeetings.Read.All|读取联机会议详细信息 （预览）|允许应用程序读取登录用户的情况下在组织中的联机会议详细信息。|
+|JoinGroupCall|将组呼叫和会议作为应用加入 (预览)|允许应用在你的组织中加入群组通话和计划会议, 无需登录用户。  应用将使用目录用户的权限加入租户中的会议。|
+|JoinGroupCallasGuest|以来宾用户身份加入群组呼叫和会议 (预览)|允许应用在没有登录用户的情况下匿名加入组织中的群组通话和计划会议。  该应用将作为来宾加入到租户中的会议。|
+|AccessMedia|在作为应用 (预览版) 的呼叫中访问媒体流|允许应用无需登录用户即可直接访问呼叫中的媒体流。|
+|OnlineMeetings 已读。所有|阅读联机会议详细信息 (预览)|允许应用在没有登录用户的情况下阅读您的组织中的联机会议详细信息。|
 
-## <a name="schedule"></a>计划
+## <a name="schedule"></a>安排
 
-接下来，安排团队会议视频互操作的坐标。 启用的用户可以安排通过团队会议：
-- [会议外接程序 Outlook 的团队](teams-add-in-for-outlook.md)
-- 桌面和移动的团队客户端
+接下来, 用视频互操作坐标安排团队会议。 已启用的用户可以通过以下方式安排团队会议:
+- [适用于 Outlook 的团队会议外接程序](teams-add-in-for-outlook.md)
+- 团队客户端桌面和移动版
 
 
 ## <a name="join"></a>Join
 
-您可以按以下方式与 VTC 设备加入团队会议：
+你可以通过以下方式与你的 VTC 设备加入团队会议:
  
-- IVR （互动语音响应）
-    - 您可以使用 tenantkey@domain 的合作伙伴的 IVR 拨入。 
-    - 伙伴 IVR 中后，将提示您输入 VTC conferenceId，其中将然后将您连接到团队会议。
+- IVR (交互式语音响应)
+    - 您可以使用 tenantkey @ 域拨入合作伙伴的 IVR。 
+    - 在合作伙伴 IVR 中, 系统将提示你输入 VTC conferenceId, 然后该将把你连接到团队会议。
 - 直接拨号
-    - 可以不使用 tenantkey 的完整字符串的直拨功能与合作伙伴的 IVR 交互直接拨入团队会议。VTC ConferenceId@domain。
-- 一站式拨号
-    - 如果您有集成的团队会议室，您可以使用 （而无需键入任何拨号串） 由您的合作伙伴提供的一站式拨号功能。
+    - 通过使用直接拨号功能 tenantkey 的完整字符串, 您可以直接拨入团队会议, 而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId @ domain。
+- 单点触控拨号
+    - 如果您有一个集成的团队聊天室, 则可以使用合作伙伴提供的一种触摸式拨号功能 (无需键入任何拨号字符串)。
 
-最后，使用与团队用户参加会议使用音频、 视频以及内容共享。 
+最后, 在会议中使用音频、视频和内容共享与团队用户接洽。 

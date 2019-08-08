@@ -7,8 +7,9 @@ ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
-description: 了解如何启用基于位置的路由，以便直接路由。
+description: 了解如何为直接路由启用基于位置的路由。
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,30 +17,30 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245251"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245124"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-在按照本文中的步骤之前，请确保您已阅读[Plan Location-Based 路由直接路由](location-based-routing-plan.md)并完成[配置的基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)中的步骤。
+在按照本文中的步骤操作之前, 请确保已阅读[基于计划位置的路由以进行直接路由](location-based-routing-plan.md), 并完成了为[基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)中的步骤。
 
-本文介绍如何启用基于位置的路由，以便直接路由。 在部署电话系统直接路由，并设置网络区域、 网站和子网后，您已准备好启用基于位置的路由。 若要完成本文中的步骤，您将需要一些熟悉 PowerShell cmdlet。 若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
+本文介绍如何为直接路由启用基于位置的路由。 部署手机系统直接路由和设置网络区域、网站和子网后, 您就可以启用基于位置的路由。 若要完成本文中的步骤, 你需要熟悉 PowerShell cmdlet。 若要了解详细信息, 请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
 
- 您必须启用以下基于位置的路由：
+ 您必须启用以下各项的基于位置的路由:
 - 用户
 - 网络站点
 - 网关配置
-- 调用策略
+- 通话政策
 
-## <a name="enable-location-based-routing-for-users"></a>启用的用户的基于位置的路由
+## <a name="enable-location-based-routing-for-users"></a>为用户启用基于位置的路由
 
-1. 使用[组 CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet 可设置 PSTN 用法。 使用多个实例，用逗号分隔每个使用率。
+1. 使用[CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) CMDLET 设置 PSTN 用法。 对于多种用途, 用逗号分隔每个用法。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,81 +49,81 @@ ms.locfileid: "32245251"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. [新建 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 用于创建语音路由策略，以将用户与相应的 PSTN 用法相关联。
+2. 使用[CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 创建语音路由策略, 以将用户与适当的 PSTN 用法关联起来。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
-    当您将 PSTN 用法分配语音路由策略时时，请确保您执行下列选项之一：
-    - 使用对网站使用本地 PSTN 网关的语音路由相关联的 PSTN 用法
-    - 使用与使用 PSTN 网关位于其中不需要基于位置的路由限制区域中的语音路由相关联的 PSTN 用法。
+    将 PSTN 使用分配给语音路由策略时, 请确保执行下列操作之一:
+    - 使用与使用网站本地的 PSTN 网关的语音路由相关联的 PSTN 用法
+    - 使用与使用不需要基于位置的路由限制的区域中的 PSTN 网关相关的语音路由的 PSTN 用法。
 
-    本示例中，我们将创建两个新的语音路由策略和 PSTN 用法分配给它们。 
+    在此示例中, 我们将创建两个新的语音路由策略, 并向其分配 PSTN 使用情况。 
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
-    下表显示了在此示例中定义的语音路由策略。 
+    下表显示了本示例中定义的语音路由策略。 
     
-    ||语音路由策略 1|语音路由策略 2|
+    ||语音路由策略1|语音路由策略2|
     |---------|---------|---------|
-    |Online 语音策略 ID   |德里联机语音路由策略   |海德拉巴联机语音路由策略    |
-    |联机 PSTN 用法  |长途电话  |Long Distance，Local，内部  |
+    |在线语音政策 ID   |新德里 online 语音路由策略   |Hyderabad online 语音路由策略    |
+    |联机 PSTN 使用  |长途  |长途、本地、内部  |
 
-3. 使用[授予 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 可以将用户需要路由限制以强制实施联机语音路由策略相关联。
+3. 使用[CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet 将联机语音路由策略与需要执行路由限制的用户相关联。
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>启用基于位置的路由的网络站点
-1.  [设置 CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet 用于启用基于位置的路由，并将语音路由策略给您需要强制执行路由限制的网络站点相关联。
+## <a name="enable-location-based-routing-for-network-sites"></a>为网络站点启用基于位置的路由
+1.  使用[CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) Cmdlet 启用基于位置的路由, 并将语音路由策略与你的网络站点进行关联, 以强制执行路由限制。
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
-    本示例中，我们启用德里网站和海德拉巴站点基于位置的路由。 
+    在此示例中, 我们为新德里网站和 Hyderabad 网站启用基于位置的路由。 
 
     ```
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    下表显示了在此示例基于位置的路由启用的网站。
+    下表显示了在此示例中为基于位置的路由启用的网站。
 
-    ||站点 1 （德里）  |站点 2 （海德拉巴）  |
+    ||站点 1 (新德里)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
-|站点名称    |站点 1 （德里）    |站点 2 （海德拉巴）   
+|站点名称    |站点 1 (新德里)    |Site 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |子网     |子网 1 （德里）     |子网 2 （海德拉巴）     |
+    |子网     |子网 1 (新德里)     |子网 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>启用基于位置的网关的路由
-1. [新建 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet 用于创建网关配置为每个网关或网络站点。 
+## <a name="enable-location-based-routing-for-gateways"></a>启用网关的基于位置的路由
+1. 使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet 为每个网关或网络网站创建网关配置。 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
-    如果多个网关相关联 （例如，网关或 PBX） 系统，修改每个网关，若要启用基于位置的路由限制。 
+    如果多个网关与系统 (例如网关或 PBX) 相关联, 请修改每个网关以启用基于位置的路由限制。 
 
-    本示例中，我们将创建一个网关配置，每个网关。 
+    在此示例中, 我们为每个网关创建一个网关配置。 
     ```
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
-    有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)。
+    有关详细信息, 请参阅[配置直接路由](direct-routing-configure.md)。
     
-2. [设置 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet 用于启用基于位置的路由需要强制执行路由限制您网关。 
+2. 使用[CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet 为你的网关启用需要强制使用路由限制的基于位置的路由。 
 
-    启用基于位置的路由到网关将呼叫路由到 PSTN 网关的呼叫路由到 PSTN，并将网关所在的网络站点相关联。
+    支持将呼叫路由到将呼叫路由到 PSTN 的 PSTN 网关的基于位置的路由, 并关联网关所在的网络站点。
 
     ```
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    本示例中，我们启用基于位置的每个网关关联到德里和海德拉巴站点中的 PSTN 网关的路由。 
+    在此示例中, 我们为与新德里和 Hyderabad 网站中的 PSTN 网关相关联的每个网关启用基于位置的路由。 
     ```
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
-    不启用基于位置的不将呼叫路由至 PSTN 网关的路由。 但是，您仍需要将的网关的系统所在的网络站点相关联。 这是因为需要达到通过此网关连接的终结点的 PSTN 呼叫的强制实施基于位置的路由限制。 本示例中，基于位置的路由到 PBX 系统的德里和海德拉巴站点中具有关联的每个网关未启用。
+    不要为不将调用路由到 PSTN 的网关启用基于位置的路由。 但是, 您仍然必须将网关与系统所在的网络站点相关联。 这是因为基于位置的路由限制需要强制实施 PSTN 呼叫, 从而达到通过此网关连接的终结点。 在此示例中, 没有为与新德里和 Hyderabad 网站中的 PBX 系统相关联的每个网关启用基于位置的路由。
 
     ```
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -136,27 +137,27 @@ ms.locfileid: "32245251"
     GatewaySiteLbrEnabled: $false 
     ```
 
-    连接到系统不将呼叫路由至 PSTN (例如，PBX) 的终结点将作为团队启用的用户的基于位置的路由的终结点具有类似的限制。 这意味着这些用户可以发起和接收呼叫与团队用户无论用户的位置。 此外可以发起和接收呼叫与其他系统不将呼叫路由至 PSTN 网络 （例如，连接到不同 PBX 终结点） 无论系统已关联的网络站点。 所有入站的呼叫、 出站呼叫、 呼叫转接和涉及 PSTN 终结点的呼叫转接将采用基于位置的路由执行进行。 这些呼叫必须使用仅 PSTN 网关定义为本地到这些系统。 
+    连接到不路由到 PSTN 的系统的终结点 (例如, PBX) 将具有类似于为基于位置的路由启用的团队用户的终结点的限制。 这意味着, 无论用户的位置如何, 这些用户都可以与团队用户进行呼叫和接收呼叫。 他们还可以在不将呼叫路由到 PSTN 网络的其他系统 (例如, 连接到其他 PBX 的终结点) 的情况下与其他系统进行呼叫和接收呼叫, 而不管与系统关联的网络站点。 所有入站呼叫、出站呼叫、呼叫转移以及涉及 PSTN 终结点的呼叫转移将受到基于位置的路由 enforcements。 这些调用必须仅使用定义为此类系统本地的 PSTN 网关。 
 
-    下表显示的四个网关的网关配置在两个不同的网络站点： 两个连接到 PSTN 网关和两个连接到 PBX 系统。 
+    下表显示两个不同网络站点中的四个网关的网关配置: 两个连接到 PSTN 网关的两个网关和连接到 PBX 系统的两个。 
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway:Gateway 1 DEL 网关    |    True     |   站点 1 （德里）      |
-    |PstnGateway:Gateway 2 HYD 网关     |   True      |      站点 2 （海德拉巴）   |
-    |PstnGateway:Gateway 3 DEL PBX    |    False     |     站点 1 （德里）    |
-    |PstnGateway:Gateway 4 HYD PBX    |    False     |    站点 2 （海德拉巴）     |
+    |PstnGateway: 网关 1 DEL-GW    |    True     |   站点 1 (新德里)      |
+    |PstnGateway: 网关 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
+    |PstnGateway: 网关 3 DEL-PBX    |    False     |     站点 1 (新德里)    |
+    |PstnGateway: 网关 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>启用基于位置的路由调用策略
+## <a name="enable-location-based-routing-for-calling-policies"></a>为呼叫策略启用基于位置的路由
 
-若要强制执行的特定用户的基于位置的路由，用户的语音策略，可防止 PTSN 收费电话设置，绕过。 
+若要为特定用户强制执行基于位置的路由, 请设置用户的语音策略, 以防止 PTSN 收费旁路。 
 
-[授予 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet 用于启用基于位置的路由通过防止 PSTN 收费绕过。
+通过阻止 PSTN 免绕过, 使用[CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) Cmdlet 启用基于位置的路由。
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
-本示例中，我们将禁止 PSTN 收费绕过为 User1 的调用策略。 
+在此示例中, 我们将阻止 PSTN 免绕过 User1's 呼叫策略。 
 
 ```
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 

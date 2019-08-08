@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '摘要: 部署与 Skype for Business 一起使用的 Skype for business Web 应用和 Skype 会议应用。'
-ms.openlocfilehash: cb0b4f34cb86b84cc033cfc14c5926bbaa839e74
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293632"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234390"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 Web 可下载的客户端
 

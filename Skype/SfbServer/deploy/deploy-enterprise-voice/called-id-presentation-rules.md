@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '摘要: 了解如何使用 Skype for Business Server 中的 "构建翻译规则" 工具定义翻译规则。'
-ms.openlocfilehash: 13e89fd836c971085a3a1fc40b7e60793e10eb68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c72e53044abe44660423bbd9bc1adbbeed2a3ed
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275869"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233782"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或修改呼叫 ID 演示文稿的翻译规则
 

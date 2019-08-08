@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 从 Skype for Business 混合或内部部署升级到团队的注意事项。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 873e15e5b1f64e82889bfda6fa30c5b9394dcf3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934515"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235868"
 ---
 ![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
 

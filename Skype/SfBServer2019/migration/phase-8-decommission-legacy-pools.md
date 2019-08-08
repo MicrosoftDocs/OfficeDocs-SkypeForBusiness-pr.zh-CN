@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: 以下主题提供了更新 DNS 条目、移动内容管理服务器、取消池以及从旧部署中停用和删除服务器和池的指南。 不需要本部分中列出的所有过程。 阅读文档并确定要使用的解除授权过程。
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273873"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236994"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
 

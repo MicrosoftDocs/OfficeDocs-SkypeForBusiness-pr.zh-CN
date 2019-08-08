@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 前端服务器不能作为独立计算机存在。 它必须定义为前端池, 即使池中只有一台计算机。
-ms.openlocfilehash: 5c1cd06e4cbe5cd6cecd8484e9c7874fb5ba590e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64f0c4134f690005815591bce88b8d058c1bd007
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301137"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244293"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>从池中删除前端服务器
 

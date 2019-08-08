@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '每个 Survivable 分支装置 (SBA) 都与一个前端池相关联, 该池充当 SBA 的备份注册机构。 当前端池迁移到 Skype for business Server 2019 时, SBA 必须在池升级时与前端池断开关联, 一旦池迁移到 Skype for business Server 2019 后, SBA 可以与升级的前 E 重新关联nd pool。 这包括从拓扑生成器中的旧版拓扑中删除 SBA, 然后将 SBA 添加到 Skype for business Server 2019 拓扑。 在从拓扑结构中删除 SBA 之前, 必须首先将驻留在旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for business Server 2019 拓扑后, 这些用户就可以移回 SBA。 下面总结了这些步骤:'
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275543"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239282"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
 

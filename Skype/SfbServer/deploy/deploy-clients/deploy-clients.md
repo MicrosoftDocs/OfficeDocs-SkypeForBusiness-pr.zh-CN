@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '摘要: Skype for business 的企业客户端安装方法概述。'
-ms.openlocfilehash: df9ac5356c05001df09168ca619ffc200b35ea4f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f40a4948deb495998debd033f449d9439fd8329b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282442"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234127"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>为 Skype for Business Server 部署客户端
  

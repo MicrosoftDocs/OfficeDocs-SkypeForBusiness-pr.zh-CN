@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype for Business 服务器2019支持多站点和多池部署。 将多个池迁移到 Skype for business 服务器2019的过程需要考虑以下事项:'
-ms.openlocfilehash: 05a94cb47568b9dfc3834f65f960353ad2933b03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2577b6af1430be90e30fff3236d7ea3cf473cd5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298181"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237872"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
 

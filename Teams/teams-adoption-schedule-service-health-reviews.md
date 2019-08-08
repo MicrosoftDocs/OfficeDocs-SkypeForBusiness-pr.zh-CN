@@ -10,27 +10,27 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用服务运行状况团队应用中的报告。
+description: 了解如何使用团队采纳中的服务运行状况报告。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f7958184946ec800c99c819d4707b7f37e9abf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d1dea1c27dbffb8efd0c71a4fb8b0bec02511a2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930417"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237823"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用安排服务运行状况检查
 
-在您的技术实施团队合作，计划为团队保留每月的服务运行状况检查。 这些审阅中将共享见解上以下措施：
+与你的技术实施团队协作, 计划为团队举行每月服务运行状况审核。 在这些评论中, 你将分享以下措施的见解:
 
-- **服务使用情况**– 活动的使用率数据，并且可能包括弃用的服务或消耗量减少由于移到工作组信息。 通常指示灯服务管理器或协作服务产品所有者。
-- **服务运行状况**– 呼叫质量会议运行状况和整体服务运行状况。 任何支持事件和支持人员票证级别的审查。 安全性和管理的主题。 通常由信息保护和支持团队领导。 
-- **功能/项目路线图**– 的安排的剩余员工入职培训或进一步协作改进项目是什么？ 您的组织打算允许哪些其他功能？ 通常指示灯服务管理器或与关键业务利益干系人协作的协作服务产品所有者。
-- **认知市场活动和培训成功测量更新**– 包括通、 参与、 键反馈主题和打开的问题。 包括关键 wins 和成功案例。 
+- **服务使用**–活动使用数据, 并且可能包括有关已弃用的服务或因迁移到团队而减少的消耗量的信息。 通常由服务经理或产品所有者负责协作服务。
+- **服务运行状况**-通话质量、会议运行状况和整体服务运行状况。 查看任何支持事件和帮助台票证级别。 安全和管理主题。 通常由信息保护和支持团队打头阵。 
+- **功能/项目路线图**-剩余员工加入或更多协作改进项目的计划是什么？ 您的组织要启用哪些其他功能？ 通常由服务经理或产品所有者发起协作服务, 与关键业务利益干系人协作。
+- **认知活动和培训成功测量更新**-包括 "达到"、"参与"、"关键反馈" 主题和开放问题。 包括关键的 wins 和成功案例。 
 
-此每月的审查可以非常正式在大型组织或小型企业中虚拟。 非常重要共享和监视这些数据，以确保正常和 Microsoft 团队的每个逐渐色彩鲜明实现。 
+此每月评论在大型组织或小型公司中的虚拟组织中可能非常正式。 共享和监视此数据非常重要, 以确保 Microsoft 团队的运行状况和每个日益生动的实现。 

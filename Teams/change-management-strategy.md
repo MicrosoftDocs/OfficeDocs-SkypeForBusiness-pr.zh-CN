@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3da1b3e5435c1503b52d958086a59f73dcb92e09
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15cb50ed0b6e6dbba80daf1ed7d045b3cc92d4f2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205554"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236880"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================

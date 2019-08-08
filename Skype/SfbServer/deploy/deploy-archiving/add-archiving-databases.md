@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '摘要: 阅读本主题, 了解如何将存档数据库添加到 Skype for Business 服务器部署。'
-ms.openlocfilehash: 2110a6c82aed473fdc07e5796075aabdb50c7086
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278995"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234373"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>将存档数据库添加到 Skype for Business 服务器中的现有部署
  
@@ -96,7 +96,7 @@ ms.locfileid: "34278995"
 5. 在“**创建数据库**”页上，确认已经选择了数据库，然后单击“**下一步**”。 
     
     > [!NOTE]
-    > 如果没有创建数据库所需的相应权限，则可以取消数据库的选择，并且具有相应权限的人可以创建数据库。 > 只能使用拓扑生成器安装专用 SQL Server 上的数据库。 与其他服务器组件并置的 SQL Server 上的数据库必须通过在该计算机上运行本地安装程序进行安装。 
+    > 如果没有创建数据库所需的相应权限，则可以取消数据库的选择，并且具有相应权限的人可以创建数据库。 > 只有专用 SQL Server 上的数据库才能使用拓扑生成器进行安装。 与其他服务器组件并置的 SQL Server 上的数据库必须通过在该计算机上运行本地安装程序进行安装。 
   
 6. 在“**发布向导完成**”页上，确认已成功发布拓扑，然后单击“**完成**”。
     

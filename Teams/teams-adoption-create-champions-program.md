@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何培训拥护团队, 促进团队采纳。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4945688e5d1cdd68f4555406f3abfb7a6feefeaf
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ac587cc8b7a1dd23911301f10edd76b60f456686
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548897"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242475"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 

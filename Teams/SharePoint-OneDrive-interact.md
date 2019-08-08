@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: 了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互，例如，如何存储私人聊天文件，以及团队、频道和文档库之间的关系。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95e43baa0e7cd03ef08b4c9737b859f4095a64bb
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d28a4a968fc9e478c3a13fb38acd1019221b5dcb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433109"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232275"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在 Skype for business Server 企业版中创建、修改或删除用于公告应用的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286181"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233223"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或修改未分配的号码范围
  
@@ -62,7 +62,7 @@ Skype for Business 服务器使您能够说拨入的电话号码对您的组织�
     
    - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
     
-   - 该号码必须匹配正则表达式 (电话: ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?。 这意味着该号码可能会以字符串电话开始: (如果不指定该字符串, 将自动为您添加该字符串)、加号 (+) 和数字1到9。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+   - 该号码必须与正则表达式 (电话:) 匹配？ (\+)?[1-9] \d{0,17}(; ext = [1-9] \d{0,9})？。 这意味着该号码可能会以字符串电话开始: (如果不指定该字符串, 将自动为您添加该字符串)、加号 (+) 和数字1到9。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
     
 6. 在“通知服务”**** 中，执行下列操作之一： 
     

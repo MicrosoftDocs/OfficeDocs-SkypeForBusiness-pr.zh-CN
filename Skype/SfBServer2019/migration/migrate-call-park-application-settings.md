@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '此呼叫驻留应用程序的迁移包括预配 Skype for Business Server 2019 池, 其中包含已在旧安装中上载的任何自定义音乐 "暂停" 文件, 还原服务级别设置和 retargeting 所有呼叫公园轨道式Skype for Business Server 2019 池。 如果已在池中配置了自定义的 "已保留的音乐" 文件, 则需要将这些文件复制到新的 Skype for Business Server 2019 池。 此外, 建议将任何呼叫寄存自定义的 "外出时" 文件从另一个目的地备份到另一个目的地, 以保留为呼叫寄存上载的任何自定义的已保留音乐文件的单独备份副本。 用于呼叫寄存应用程序的自定义的 "保留式音乐" 文件存储在该池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for business Server 2019 文件存储, 请使用 Xcopy 命令和以下参数:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280827"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238030"
 ---
 # <a name="migrate-call-park-application-settings"></a>迁移呼叫寄存应用程序设置
 

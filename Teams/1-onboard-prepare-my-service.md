@@ -3,6 +3,7 @@ title: 准备部署 Microsoft Teams 云语音服务
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 使用 "加入清单" 为团队准备 Office 365 并配置团队核心功能、网络和云语音工作负荷。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29d51d2e92659b7fbae9eb86863a2e4f205a061
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198545"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236195"
 ---
 # <a name="prepare-my-service"></a>准备服务
 

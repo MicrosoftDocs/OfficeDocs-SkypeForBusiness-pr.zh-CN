@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 管理员可以使用 Microsoft 团队管理中心将 Skype 会议应用配置为与团队协作
-MS.collection:
+ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221688"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236858"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 ===================================================

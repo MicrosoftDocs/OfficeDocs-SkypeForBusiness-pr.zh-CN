@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '摘要: 了解如何在 Skype for Business Server 的拓扑生成器中定义中介服务器与网关对等之间的其他主干。'
-ms.openlocfilehash: de6cfd45c9e5f8440fcbcf6b6098a82edda752f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303310"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245608"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>在 Skype for Business Server 的拓扑生成器中定义其他中继
  

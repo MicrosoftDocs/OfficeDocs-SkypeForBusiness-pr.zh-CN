@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 监视 Microsoft 团队的质量和使用所需的任务和活动
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a64e374e674fed4c6efe267d6559a260dce960e1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432909"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236424"
 ---
 ![图表突出显示升级旅程的操作卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
 

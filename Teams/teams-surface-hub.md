@@ -8,89 +8,89 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: 配置 Microsoft 团队面中心的管理设置。
+description: 配置 Microsoft 团队 Surface Hub 的管理员设置。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204458"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235034"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>为 Surface Hub 部署 Microsoft Teams
 ======================================
 
-为面集线器安装团队之前，请确保要执行下列操作：
+在安装 Surface Hub 团队之前, 请确保执行以下操作:
 
- 满足 □ 使确保硬件、 操作系统和其他要求。 有关详细信息，请参阅[Microsoft Surface 中心管理指南](https://docs.microsoft.com/surface-hub/)。<br>
- □ 请确保已安装团队所需的最低操作系统 update- [KB4343889](https://support.microsoft.com/help/4343889)。<br>
- □ 将团队许可证分配给集线器设备帐户。<br>
- □ 如果您从 Skype 转换的业务联机状态，确认团队许可证已分配给用户。
+ □确保满足硬件、操作系统和其他要求。 有关详细信息, 请参阅[Microsoft Surface Hub 管理员指南](https://docs.microsoft.com/surface-hub/)。<br>
+ □确保已安装团队所需的最低操作系统更新- [KB4343889](https://support.microsoft.com/help/4343889)。<br>
+ □将团队许可证分配给中心设备帐户。<br>
+ □如果你是从 Skype for Business Online 转换的, 请确认已向用户分配了团队许可证。
 
-## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft 存储的表面集线器安装团队 
+## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>从 Microsoft Store 安装 Surface Hub 团队 
 
-安装 Microsoft 存储中的图面集线器团队供以下说明。 
+这些说明用于从 Microsoft Store 安装 Surface Hub 团队。 
  
-1. 启动 Microsoft 存储：<br>
-   a. 点击**开始** > **所有应用程序** > **设置**。<br> b. 点击**面集线器设备帐户、 管理**。<br>
-   c. 在左侧，点击**应用程序 & 功能**选项卡。<br> d. 在右侧，点击**打开存储**按钮。 
-2. 从 Microsoft 存储，搜索*的 Microsoft 团队*。 将显示**图面中心的 Microsoft 团队**。 点击**获取应用程序**按钮以安装。  
-3. 安装完成后，重新启动面集线器。 
+1. 启动 Microsoft Store:<br>
+   a. 点击 "**开始** > **所有应用** > "**设置**。<br> b. 轻触**Surface Hub 设备帐户, 管理**。<br>
+   c. 在左侧, 点击 "**应用 & 功能**" 选项卡。<br> d. 在右侧, 点击 "**打开应用商店**" 按钮。 
+2. 在 Microsoft Store 中, 搜索*Microsoft 团队*。 将显示**Microsoft "Surface Hub 团队**"。 点击 "**获取应用"** 按钮进行安装。  
+3. 安装完成后, 重新启动 Surface Hub。 
 
 > [!NOTE]
-> 不点击从商店列表页的**启动**。
+> 请勿点击 "应用商店" 页面上的 "**启动**"。
 
-## <a name="make-teams-the-default-calling-and-meetings-application"></a>使团队默认呼叫和会议应用程序
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>使团队成为默认呼叫和会议应用程序
  
-有两种配置的默认呼叫和会议应用程序策略： 
+配置默认呼叫和会议应用程序策略有两个选项: 
 
-- **选项 1**： 配置通过 USB 键。 
-- **选项 2**： 通过如 Intune MDM 配置。
+- **选项 1**: 通过 USB 密钥进行配置。 
+- **选项 2**: 通过 MDM (如 Intune) 进行配置。
  
-### <a name="option-1-configure-via-usb-key"></a>选项 1： 配置通过 USB 键 
+### <a name="option-1-configure-via-usb-key"></a>选项 1: 通过 USB 密钥配置 
  
-此[下载页](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)上，可以找到包。 选择相应的包的安装，并将其复制到 usb 闪存盘您计划。 要使用的正确.ppkg 文件取决于您想要应用，如下所示的默认应用程序策略： 
+可以在此[下载页面](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)上找到程序包。 为你计划要安装的程序包选择合适的版本, 并将其复制到 USB 密钥。 要使用的正确的 ppkg 文件取决于你希望应用的默认应用程序策略, 如下所示: 
 
 |数字  |说明  |
 |---------|---------|
-|0     | Skype 团队会议可用的启动屏幕上的首选应用程序        |
-|1     | 团队 Skype 会议可用的启动屏幕上的首选应用程序        |
-|2     | 在开始屏幕 (Skype app 不可用) 团队专用应用程序        |
+|0     | "开始" 屏幕上的 Skype 首选应用, 团队会议可用        |
+|1     | 团队首选应用在 "开始" 屏幕上, Skype 会议可用        |
+|2     | "开始" 屏幕上的 "团队专用应用" (Skype 应用程序不可用)        |
  
-1. 将 usb 闪存盘附加到面集线器设备。 
-2. 打开面集线器设备上的**设置**应用程序。 
-3. **曲面集线器设备帐户管理**打开。
-4. 打开**设备管理**。 
-5. 单击**添加或删除设置包**。 
-6. 单击**添加包**。
-7. 从下拉列表菜单中选择**可移动媒体**选项。 
-8. 添加适当的<strong>TeamsRTMMode*.ppkg</strong>包以前复制到 usb 闪存盘。 
-9. 重新启动面集线器设备。 
-10. 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。 
+1. 将 USB 密钥附加到 Surface Hub 设备。 
+2. 在 Surface Hub 设备上打开 "**设置**" 应用。 
+3. 开放式**Surface Hub 设备帐户管理**。
+4. 打开 "**设备管理**"。 
+5. 单击 "**添加或删除预配包**"。 
+6. 单击 "**添加程序包**"。
+7. 从下拉菜单中选择 "**可移动媒体**" 选项。 
+8. 添加以前复制到 USB 密钥的相应<strong>TeamsRTMMode * ppkg</strong>程序包。 
+9. 重新启动 Surface Hub 设备。 
+10. 重新启动设备后, 你应该能够从 "开始" 屏幕启动 "团队" 应用, 并从日历中加入会议。 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2： 配置通过如 Intune MDM 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>选项 2: 通过 MDM (如 Intune) 进行配置 
 
-使用以下配置通过 Intune 的默认呼叫和会议应用程序策略。 另请参阅[Deploy 使用 Intune 的图面集线器应用程序的 Microsoft 团队](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)的博客。
+使用以下各项通过 Intune 配置默认呼叫和会议应用程序策略。 另请参阅[使用 Intune 部署 Microsoft 团队 For Surface Hub 应用](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)。
 
 |设置   |值    |说明    |
 |----------|---------|---------|
 |路径      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|数据类型 | 整数 (0-2)   |0-团队会议可用的启动屏幕上的 Skype 首选应用程序<br>1-团队 Skype 会议可用的启动屏幕上的首选应用程序<br>2-团队 （不可用 Skype 应用程序） 在开始屏幕上的专用应用程序 |
-|运营| 获取、 设置        |
+|数据类型 | 整数 (0-2)   |0-"开始" 屏幕上的 Skype 首选应用, 团队会议可用<br>1-团队首选应用在 "开始" 屏幕上, Skype 会议可用<br>2-"开始" 屏幕上的 "团队专用应用" (Skype 应用程序不可用) |
+|运营| 获取、设置        |
 
 |设置   |值    |
 |----------|---------|
 |路径      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|数据类型 | 字符串-团队应用程序包 ID 为**Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe 设置字符串 ！团队** |
-|运营| 获取、 设置        |
+|数据类型 | 字符串-将团队应用程序包 ID 的字符串设置为**MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!团队** |
+|运营| 获取、设置        |
 
-重新启动面集线器设备。 设备重新启动后，您应该能够从开始屏幕中启动团队应用程序并从日历加入会议。
+重新启动 Surface Hub 设备。 重新启动设备后, 你应该能够从 "开始" 屏幕启动 "团队" 应用, 并从日历中加入会议。
 

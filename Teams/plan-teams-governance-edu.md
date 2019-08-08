@@ -6,20 +6,21 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: 对使用团队的 Microsoft 教育组的管理员提出的常见问题的解答。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0faa5f24ea64ae0fcfc967281126a4852dd139cf
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b1bfa8f141f7aa8ce8dd258610ff8b510ff66aac
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35804830"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237647"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 

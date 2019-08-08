@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通过定义目标、了解所需的验收以及提供培训和支持, 创建一个计划来推动用户使用。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491a3cb7bd1a3b240e88bf90a721678aaaae1410
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548387"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245842"
 ---
 # <a name="prepare-my-users"></a>准备用户
 

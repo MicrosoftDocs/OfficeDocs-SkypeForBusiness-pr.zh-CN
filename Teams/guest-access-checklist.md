@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 description: 使用此清单可帮助设置 Microsoft 团队中的来宾访问。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925355"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244113"
 ---
 <a name="teams-guest-access-checklist"></a>团队来宾访问清单
 ==========================================
@@ -81,7 +82,7 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory (Azure AD) 商�
    
    - **来宾可以邀请**: 要允许来宾邀请其他来宾, 请将此策略设置为 **"是"**。
    - **启用来宾电子邮件一次性密码 (预览版)**: 有关一次性密码功能的详细信息, 请参阅[通过电子邮件发送一次性密码身份验证 (预览版)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
-   - **协作限制**: 有关允许或阻止特定域的邀请的详细信息, 请参阅[允许或阻止来自特定组织的 B2B 用户的邀请](allow-deny-list.md)。
+   - **协作限制**: 有关允许或阻止特定域的邀请的详细信息, 请参阅[允许或阻止来自特定组织的 B2B 用户的邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
 
 ## <a name="-step-2-configure-office-365-groups"></a>□步骤 2: 配置 Office 365 组
 

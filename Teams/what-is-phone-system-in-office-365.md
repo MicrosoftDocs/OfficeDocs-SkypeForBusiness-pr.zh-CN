@@ -20,16 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解手机系统可以为你执行的操作。 '
-ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643136"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237285"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
-
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Office 365 和 Skype for business 服务器中的电话系统
 
 **电话系统**是 Microsoft 技术, 可通过 Skype For business Online 和 Microsoft 团队在 Office 365 云中启用呼叫控制和 PBX 功能。 电话系统允许你将现有的 PBX 系统替换为 Office 365 提供的一组功能, 并与组织的云体验紧密集成。 有关这些功能的详细信息, 请参阅[在 Office 365 中使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。
   

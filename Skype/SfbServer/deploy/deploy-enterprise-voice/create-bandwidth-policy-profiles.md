@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略, 这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: c7fecafe5f036405088a3c6c62b70774b779e266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31bd61703fb652844b408c0a92c05fa1a29c7d5d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289018"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233501"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建带宽策略配置文件 
  
