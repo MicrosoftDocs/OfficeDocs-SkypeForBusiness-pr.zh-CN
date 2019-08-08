@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: 为早期采用者上线你在 Microsoft Teams 中创建的第一组团队和频道。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5fe0e1ea19a2aa9e6bd3c9dea49a26dafa4647dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221206"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241624"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 

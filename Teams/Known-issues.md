@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: marcl
+audience: admin
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8f848647119fa0efa87f3928430ffbd9f0e0af6e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925331"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235192"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 

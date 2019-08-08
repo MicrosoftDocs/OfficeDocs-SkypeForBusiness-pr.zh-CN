@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: 了解在何处查找适用于 Microsoft Teams 的深入部署和采用资源。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d64dba26ba492ffb792a7ad2a403845fdf2564a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3410dfc54521bea2ff7f29dfcc9046ea984a7cc6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245839"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241568"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>选择在组织范围内部署 Microsoft Teams 的途径
 

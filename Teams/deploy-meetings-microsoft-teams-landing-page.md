@@ -8,19 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232805"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240831"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -50,7 +51,9 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/zh-CN/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/zh-CN/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>
+  [为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/zh-CN/MicrosoftTeams/prepare-network)</li><li>
+  [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/zh-CN/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
