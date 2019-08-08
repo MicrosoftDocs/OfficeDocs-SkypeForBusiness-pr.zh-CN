@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 使用本指南了解有关正确评估当前环境以便升级到团队的要求。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494607"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236099"
 ---
 ![升级旅行图, 强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段, 重点介绍技术准备阶段")
 
@@ -138,15 +139,12 @@ ms.locfileid: "34494607"
 > | 如何 (或如何) 迁移范围内的用户 <br>是否在 office 中访问团队？ <br/>选择所有适用的。 | <input type="checkbox">路由 NAT 连接 <br/> <input type="checkbox">代理服务器 <br/> <input type="checkbox">公共 Wi-fi <br/> <input type="checkbox">托管 (非公共) Wi-fi <br/> <input type="checkbox">ExpressRoute (Microsoft 对等) ||
 > | 如果通过代理服务器访问 Office 365 <br>绕过代理的任何方法？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 目前是否使用 ExpressRoute？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 <br/> <input type="checkbox">否, 但正在计划 | |
-> | 是否已执行网络准备情况评估？ <br/>有关详细信息, 请参阅[网络准备情况评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
+> | 是否已执行网络准备情况评估？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 用户是否需要使用 VPN 才能连接到 <br>远程公司资源？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 如果使用 VPN, 则可以将团队流量排除在 <br>用于直接访问 Office 365 服务的 VPN？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 你的网络是否支持 QoS？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 你可以确定团队音频和视频流量的优先级 <br>要推动优质体验？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 区域内的所有位置都有 internet 出口, <br>或是否为整个地区集中了 internet 出口？ | <input type="checkbox">对 internet 的区域访问 <br/> <input type="checkbox">对 internet 的集中访问 | |
-
-> [!TIP]
-> 若要根据组织的详细信息和估计使用情况计算云语音部署的带宽和其他网络要求, 请访问[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)中的[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) 。
 
 ## <a name="endpoints"></a>终结点
 

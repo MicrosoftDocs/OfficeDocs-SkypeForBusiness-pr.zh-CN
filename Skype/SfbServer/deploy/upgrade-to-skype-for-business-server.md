@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '摘要: 了解如何从 Lync Server 2013 升级到 Skype for business Server 2015。 从 Microsoft 评估中心的以下位置下载 Skype for business Server 2015 的免费试用版https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:。'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275512"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237446"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -72,7 +72,7 @@ ms.locfileid: "34275512"
 开始升级过程之前, 必须为计划升级的池运行所有服务。 这是为了保证拓扑更改复制到池中服务器的本地数据库。
   
 > [!IMPORTANT]
->  在升级之前保存拓扑文件副本。 升级后, 你将无法降级拓扑。 > 如果你的服务与你的数据库位于同一台服务器上, 如永久聊天服务与持久聊天数据库位于同一台服务器上, 请跳过此步骤, 然后转到步骤4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
+>  在升级之前保存拓扑文件副本。 升级后, 你将无法降级拓扑。 > 如果你的服务与你的数据库在同一台服务器上, 如永久聊天服务与持久聊天数据库位于同一台服务器上, 请跳过此步骤, 然后转到步骤4。 停止服务后，请在每台服务器上运行就地升级安装以升级本地数据库。
   
 > [!NOTE]
 > 如果拓扑有镜像的后端数据库，那么在使用拓扑生成器**发布拓扑时**，您会看到主数据库和镜像数据库同时出现。发布拓扑时，请确保所有数据库都在主数据库上运行，同时只选择主数据库，而不是镜像数据库，否则，在发布拓扑后，您会看到警告。
@@ -180,7 +180,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>第 5 步：升级前端池和非前端池服务器
 
 > [!NOTE]
->  升级之前, 请安装 Skype for Business Server 2015 所需的所有新的先决条件, 其中包括: > 至少32GB 的可用空间, 然后再尝试升级。 此外, 请确保该驱动器是固定的本地驱动器、未通过 USB 或 Firewire 连接, 但未通过 NTFS 文件系统进行格式化, 也未压缩, 并且不包含页面文件。 > PowerShell 版本6.2.9200.0 或更高版本。 > 最新的 Lync Server 2013已安装累积更新。已安装 > SQL Server 2012 SP1。 > 安装了以下 KB (如果使用 Microsoft Update, 则自动安装): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)_GT_ windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windows服务器 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  升级之前, 请安装 Skype for Business Server 2015 所需的所有新的先决条件, 其中包括: 在尝试升级之前 > 至少32GB 可用空间。 此外, 请确保该驱动器是固定的本地驱动器、未通过 USB 或 Firewire 连接、使用 NTFS 文件系统进行格式设置、未压缩, 并且不包含页面文件。 > PowerShell 版本6.2.9200.0 或更高版本。 > 最新的 Lync Server 2013已安装累积更新。安装了 > SQL Server 2012 SP1。 > 安装了以下 KB (如果使用 Microsoft Update, 则自动安装): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windows服务器 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 在每台服务器上使用就地升级来更新前端池、边缘池、中介服务器和持久聊天池。
   

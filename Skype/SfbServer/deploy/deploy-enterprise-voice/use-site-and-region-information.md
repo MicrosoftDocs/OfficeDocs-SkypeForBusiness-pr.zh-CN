@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 将 "绕过媒体" 配置为仅用于 Skype for Business Server Enterprise Voice 中的特定网站和区域。
-ms.openlocfilehash: 3a9dc907dd516151e8b6ddd509a43b49c87e3b9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3bfb3dca6e53316d5c1de71abad976ae9223c787
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300928"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240042"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>在 Skype for Business 服务器中配置媒体绕过全局设置以使用网站和区域信息
  

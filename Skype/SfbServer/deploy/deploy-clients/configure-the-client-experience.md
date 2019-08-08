@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '摘要: 阅读本主题, 了解如何配置 Skype for business 用户的客户体验。'
-ms.openlocfilehash: bf6245b5b26875c7437990f09dd101ece01b1b47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298282"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234449"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>配置 Skype for Business 2015 的客户体验
  

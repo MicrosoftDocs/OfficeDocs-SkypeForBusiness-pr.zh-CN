@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 在 Skype for Business Server Enterprise Voice 中创建或修改组呼叫装货号码范围。
-ms.openlocfilehash: e81762e83598a9089e25536c74754bf11aae704f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3098d7cf1554586dd2fd2ace934682ae58a90489
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286230"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233466"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在 Skype for Business 中创建或修改组呼叫装货号码范围
 
@@ -44,7 +44,7 @@ ms.locfileid: "34286230"
 
 - 如果数字范围以字符\*或 # 开头, 则范围必须大于100。
 
-- 有效值: 必须匹配正则表达式字符串 ([\\* | #] ? [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
+- 有效值: 必须匹配正则表达式字符串 ([\\* | #]？ [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫应答组范围
 

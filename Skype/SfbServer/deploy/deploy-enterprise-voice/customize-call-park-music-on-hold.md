@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 在 Skype for Business Server Enterprise Voice 中自定义呼叫寄存音乐处于暂候状态。
-ms.openlocfilehash: 4111bcc42a3820e3957f526e360264aa7d098d05
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 834e6e811637c120e675a674f51ac0edeaf90542
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286174"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245625"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自定义呼叫驻留 inSkype for Business 的暂停音乐
  

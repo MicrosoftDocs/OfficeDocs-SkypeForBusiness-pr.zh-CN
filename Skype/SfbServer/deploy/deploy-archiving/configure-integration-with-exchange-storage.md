@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '摘要: 阅读本主题, 了解如何在 Skype for Business Server 中配置与 Exchange 存储的集成。'
-ms.openlocfilehash: b58aa090e4e6c51beb1f99ba5dc9020e029c8c39
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 72caf77c81dae538f793afe6f0a94ad6b61d0fa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286423"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234329"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>配置与 Skype for business Server 的 Exchange 存储的集成
  

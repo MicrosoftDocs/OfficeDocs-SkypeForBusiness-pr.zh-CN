@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,16 +16,16 @@ search.appverid: MET150
 description: 用于在团队中部署云语音的登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185321"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236975"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
-你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已经部署了[会议 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在, 你可以为你的用户添加云语音功能。 
+你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已将[会议部署 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在, 你可以为你的用户添加云语音功能。 
 
 云语音提供专用的分支交换 (PBX) 功能, 以及用于连接到公共交换式电话网络 (PSTN) 的选项。
 
@@ -99,7 +100,7 @@ ms.locfileid: "34185321"
 
 |询问你自己|操作 |
 |:------------|:-------|
-|我是否希望屏蔽或禁用来电显示？ | 若要更改或阻止呼叫方 ID, 请参阅[为用户设置来电显示](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)。 |
+|我是否希望屏蔽或禁用来电显示？ | 若要更改或阻止呼叫方 ID, 请参阅[为用户设置来电显示](set-the-caller-id-for-a-user.md)。 |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Microsoft 的电话号码

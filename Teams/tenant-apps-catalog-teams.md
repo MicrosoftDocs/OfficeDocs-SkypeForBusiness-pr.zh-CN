@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: 有关在 Microsoft 团队租户应用目录中发布应用的指南。
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221322"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235094"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
 =======================================================
@@ -30,20 +31,20 @@ ms.locfileid: "35221322"
 
 "团队租户应用" 目录使你可以分配专为你的组织构建的业务线应用程序, 以及你依赖于完成关键业务功能的业务线应用程序。
 
-若要为你的组织发布应用, 请使用全局管理员凭据登录到团队客户端, 然后按照下面的说明进行操作。
+若要为你的组织发布应用, 请使用具有全局管理员或团队服务管理员角色的帐户登录团队客户端, 然后按照下面的说明进行操作。
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>从团队客户端发布租户应用目录中的应用
 
 > [!NOTE]
-> 你需要使用全局管理员凭据登录到 Microsoft 团队客户端, 以便为你的组织发布应用。
+> 你需要使用已启用全局管理员或团队服务管理员角色的帐户登录到 Microsoft 团队客户端, 以便为你的组织发布应用。 了解有关[使用管理员角色管理团队](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)的详细信息。
 
 ### <a name="get-a-teams-app-package"></a>获取团队应用包
 
-团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 拥有应用程序包后, 即可将其添加到企业应用目录。 虽然租户中的所有用户都可以查看应用程序目录, 但目前只有全局管理员能够发布和管理它。 (最终, 团队管理员也将能够执行此操作。)
+团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 拥有应用程序包后, 即可将其添加到企业应用目录。 虽然租户中的所有用户都可以查看应用程序目录, 但只有全局管理员和团队服务管理员有权发布和管理它。
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>转到租户应用目录
 
-启动 Microsoft 团队客户端并使用全局管理员凭据登录。 从 "Microsoft 团队存储" 中, 选择为特定组织 (在本例中为 "Contoso") 指定的新分区。 您的组织中的用户可以查看目录中的应用, 并为他们所属的团队安装这些应用。
+启动 Microsoft 团队客户端并使用全局或团队服务管理员凭据登录。 从 "Microsoft 团队存储" 中, 选择为特定组织 (在本例中为 "Contoso") 指定的新分区。 您的组织中的用户可以查看目录中的应用, 并为他们所属的团队安装这些应用。
 
 ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image01.png)
 

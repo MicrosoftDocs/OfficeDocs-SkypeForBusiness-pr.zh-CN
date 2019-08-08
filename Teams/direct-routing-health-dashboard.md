@@ -4,7 +4,7 @@ ms.reviewer: nmurav
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何使用运行状况仪表板监视会话边界控制器与直接路由之间的连接。
-ms.openlocfilehash: 352b23f320a4e2adaa9819952a6e489791294630
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34920265"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237488"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的运行状况仪表板
 

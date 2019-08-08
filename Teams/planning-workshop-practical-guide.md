@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj, rowille
 description: 用于帮助组织开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400660"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237356"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -29,25 +30,25 @@ ms.locfileid: "33400660"
 
 - [Microsoft Teams 客户成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    该工具包包含各种各样的演示文稿、 电子邮件模板、 提示 & 技巧和可用于推出和驱动器中您的组织采用团队的海报。 为管理员和团队主管和的每个部门的使用案例示例，它包括两个快速入门指南。 使用这些资源充分利用您的组织，包括市场营销、 销售、 财务、 人力资源部门中的各种功能的团队 IT、 工程、 和项目管理。
+    此工具包包含多种演示文稿、电子邮件模板、提示 & 技巧和海报, 您可以使用它们来推广和推动组织中团队的采用。 它包括针对管理员和团队负责人的两个快速入门指南, 以及每个部门的使用案例示例。 使用这些资源为组织中的各种功能 (包括市场营销、销售、财务、人力资源、IT、工程和项目管理) 充分利用团队。
 
 
 - [管理员快速入门指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
 
-    本文档指导你完成用于成功启用 Teams 的五个实施阶段。 它包括技术的规划调查表捕获有关贵组织的当前 Office 365 环境的信息。 研讨会主持人可以使用此信息自定义研讨会演示文稿。 该调查表还用于从研讨会获取你的决策和后续步骤
+    本文档指导你完成用于成功启用 Teams 的五个实施阶段。 它包括一个技术规划问卷, 可捕获有关组织的当前 Office 365 环境的信息。 研讨会负责人可以使用此信息自定义研讨会演示文稿。 该调查表还用于从研讨会获取你的决策和后续步骤
 
 - [研讨会：规划、交付和运营 Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
 
-    使用此 PowerPoint 演示文稿与您的组织规划您的团队推出导致研讨会 （英文）。 研讨会介绍团队，并指导您的团队通过决策点及后续步骤。
+    使用此 PowerPoint 演示文稿向您的组织领导研讨会, 规划团队推出。 该研讨会介绍团队, 并通过决策点和后续步骤指导你的团队。
 
 - [Office 365 政府客户](plan-for-government-gcc.md)
 
-   向工作组您旅程非常类似于企业客户的体验。 为 Microsoft 团队变得通常供租户，我们建议您与我们的[Microsoft 365 政府版-GCC 部署规划](plan-for-government-gcc.md)文章和[管理快速入门指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)开始。 我们的[安全性和遵从性](security-compliance-overview.md)概述将帮助您确信有关工作组环境中。
+   您对团队的发展非常类似于我们的企业客户体验。 由于 Microsoft 团队一般适用于你的租户, 我们鼓励你从我们[的 microsoft 365 政府-GCC 部署](plan-for-government-gcc.md)文章和《[管理员快速入门指南》](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)的计划开始。 我们的[安全和合规性](security-compliance-overview.md)概述将帮助你对环境中的团队感到自信。
 
 ### <a name="see-also"></a>另请参阅
 
 [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)
 
-[采用的工具](adopt-tools-and-downloads.md)
+[采纳的工具](adopt-tools-and-downloads.md)
 
 

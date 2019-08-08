@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '摘要: 阅读本主题, 了解如何在 Skype for Business 服务器中配置电话拨入式会议。'
-ms.openlocfilehash: 7c62ef5ec984fe89033aa4813bca9674979c1c36
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298233"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234136"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置电话拨入式会议
  

@@ -7,20 +7,21 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: 在配置团队时, 请按照此清单中的核心、待办任务和活动进行操作。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c982132b3aea37e284731c69eadeea6e39ae50fa
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b1ee5e3ab901cb5bc0fb35aee9dbc03e9b636621
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792691"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238599"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队核心功能
 

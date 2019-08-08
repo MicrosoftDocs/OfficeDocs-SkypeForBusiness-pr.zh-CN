@@ -6,20 +6,21 @@ manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 了解基于 AAD 的动态团队成员身份。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a4a0a7d9487b7697bad5ac565b98e605c4cc81dc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221433"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237801"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 在 Skype for Business Server Enterprise Voice 中创建或修改呼叫寄存的 "轨道" 区域表。
-ms.openlocfilehash: 77be47597e5bbb674719ac2b3192efdf4217a3dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286261"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233459"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>在 Skype for Business 中创建或修改呼叫寄存的轨道范围
 
@@ -64,7 +64,7 @@ ms.locfileid: "34286261"
 
    - 如果轨道范围以字符\*或 # 开头, 则范围必须大于100。
 
-   - 有效值: 必须匹配正则表达式字符串 ([\\* | #] ? [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
+   - 有效值: 必须匹配正则表达式字符串 ([\\* | #]？ [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
 
    - 每个池不应包含 50,000 个以上的通道。每个通道范围包含的通道数通常不超过 100，但是该数目可以更大，只要不超过 10,000。例如，不要将起始号码指定为“7000000”并将结束号码指定为“8000000”，而考虑将起始号码指定为“7000000”并将结束号码指定为“7000100”。
 

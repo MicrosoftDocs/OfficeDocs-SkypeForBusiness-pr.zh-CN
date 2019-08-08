@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '摘要: 阅读本主题, 了解如何为 Skype for business Server 用户配置初始存档策略。'
-ms.openlocfilehash: 9d4fc7bd27440688f981ac9d05b1e47750ad7867
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4e1bf5d713201604df18db9d63c2057bfa5bb4e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286558"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234546"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>配置 Skype for Business 服务器的存档策略
  

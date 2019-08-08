@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 客户可以使用 Skype for Business Online 中允许的 Office 365 呼叫计划和 Office 365 音频会议, 并且 Microsoft 团队 PSTN 服务使用条款和客户批量许可协议。
-ms.openlocfilehash: 4dc642ce59343b9d8699f31951c3cbe02b72ba08
-ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
+ms.openlocfilehash: 4dcc4cbd85c8dbc9b821fd3cd1905c0270dce08c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35638586"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236940"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 

@@ -5,7 +5,8 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -15,12 +16,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 71417ccfc3387f030433a6b923e7fd21f32cd854
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221254"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232321"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 

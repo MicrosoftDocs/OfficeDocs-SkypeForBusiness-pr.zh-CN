@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本节中的主题介绍完成迁移到 Skype for business Server 2019 后需要执行的任务。
-ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273859"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244387"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>第 7 阶段：完成迁移后任务
 

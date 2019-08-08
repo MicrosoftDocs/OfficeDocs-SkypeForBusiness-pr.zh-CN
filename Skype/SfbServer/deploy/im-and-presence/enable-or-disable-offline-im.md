@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 了解如何在 Skype for Business 服务器中启用或禁用脱机即时消息 (IM)。
-ms.openlocfilehash: 77078b6092dc1d23dde1315c505c5baf26798b86
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 363f7c54d682dc619417a8d9601c7beafc8283c6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289705"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235543"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用或禁用脱机即时消息 (IM)
  

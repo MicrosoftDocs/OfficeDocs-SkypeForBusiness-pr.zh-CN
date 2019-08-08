@@ -7,6 +7,7 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
@@ -16,12 +17,12 @@ description: 为组织中的用户培训视频、教程和其他资源, 以便�
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c0d202a333cdb441761e645aa86fc916798617
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 148a9a325c38f575a6453ce5011aa605e1a10aa4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548093"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234926"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -185,7 +186,7 @@ ms.locfileid: "34548093"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>团队 & 频道</h3>
+                        <h3>& 频道的团队</h3>
                          <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">视频: 团队和频道概述</a></p>
                          <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">视频: 收藏和关注频道</a></p>
                          <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">视频: 在频道中工作</a></p>
@@ -200,7 +201,7 @@ ms.locfileid: "34548093"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>发布 & 消息</h3>
+                        <h3>发送 & 邮件</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">视频: 创建文章并设置其格式</a></p>
                          <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">视频: @mentions 时引起注意</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">视频: 保存文章或消息</a></p>
@@ -213,7 +214,7 @@ ms.locfileid: "34548093"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>聊天、呼叫 & 会议</h3>
+                        <h3>聊天、通话 & 会议</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">视频: 开始聊天和进行通话</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">视频: 通过 "立即开会" 创建即时会议</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">视频: 管理会议</a></p>
@@ -255,7 +256,7 @@ ms.locfileid: "34548093"
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams 提示和技巧</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">文章: 团队诀窍 & 诀窍</a></p>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">文章: & 诀窍的团队诀窍</a></p>
                     </div>
                 </div>
             </div>

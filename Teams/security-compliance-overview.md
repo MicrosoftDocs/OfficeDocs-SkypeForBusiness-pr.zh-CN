@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Microsoft 团队的安全和合规性功能概述, 包括审核和报告、合规性内容搜索、eDiscovery 等。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d9e9b07ed1ca995d673ef6ea79652cb880c4dff6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768037"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242780"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -121,10 +122,14 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 -------------------------
 
-Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目前, 团队支持澳大利亚、加拿大、法国、印度、日本、英国、美洲、APAC 和 EMEA 地区。 
+Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 目前, 团队支持澳大利亚、加拿大、法国、印度、日本、英国、韩国、南非、美洲、APAC 和 EMEA 地区。 
 
 > [!IMPORTANT]
-> 团队目前在澳大利亚、加拿大、法国、印度、日本和英国为新租户提供数据派驻服务。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 澳大利亚、印度和日本的现有租户将继续在 APAC 区域中存储其团队数据。 加拿大的现有租户将继续将其数据存储在美洲。 法国和英国的现有租户将继续将其数据存储在 EMEA 地区。
+> 团队目前在澳大利亚、加拿大、法国、印度、日本、英国、韩国和南非为新租户提供数据派驻服务。 新租户的定义是，该租户中没有任何一个用户登录过 Teams。 澳大利亚、印度、日本和韩国的现有租户将继续在 APAC 区域中存储其团队数据。 加拿大的现有租户将继续将其数据存储在美洲。 在法国、英国和南非的现有租户将继续将其数据存储在 EMEA 地区。
+
+有关在 Varun Sagar 的博客文章中可以找到有关团队的南非数据派驻服务的详细信息, [Microsoft 团队启动了南非数据派驻服务](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611)。
+
+有关团队的南亚朝鲜数据派驻服务的进一步阅读 Varun Sagar 的博客文章, [Microsoft 团队启动韩国数据派驻服务](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)。
 
 要详细了解为 Teams 启动英国和印度数据驻留的信息，请阅读 Ansuman Acharya 的博客文章 [Microsoft Teams 启动印度数据驻留，其他地理位置不久将启动](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)。 
 

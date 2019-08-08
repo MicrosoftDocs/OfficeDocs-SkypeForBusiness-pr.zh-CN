@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: daro
 description: 面向 IT 专业人士的指南, 用于驱动在处理受美国政府法规制约的数据的实体中的 Office 365 部署。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798381250386afd1bf92da0cf2207ea36a437ce7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344369"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237660"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>规划 Microsoft 365 政府-GCC 高部署
 

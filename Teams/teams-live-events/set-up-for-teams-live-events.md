@@ -1,31 +1,32 @@
 ---
 title: 在 Microsoft Teams 中为实时事件进行设置
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 03/06/2019
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解在团队中设置事件的活动的步骤, 包括准备网络、分配许可证、使用策略为用户启用实时事件功能和计划以及设置第三方分发提供商。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012994"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237364"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
-当您正在设置实时事件时, 必须执行以下几个步骤:
+当您正在设置实时事件时, 必须执行几个步骤。
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>步骤 1: 为团队中的实时事件设置网络
 在团队中生成的实时事件要求你为[团队准备组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)。  
@@ -37,7 +38,7 @@ ms.locfileid: "35012994"
 实时事件策略用于控制你的组织中的哪些人可以保存实时事件以及他们创建的事件中可用的功能。 你可以使用默认策略或创建一个或多个自定义实时事件策略。 创建自定义策略后, 将其分配给组织中的一个或多个用户组。
 
 > [!NOTE]
-> 除非你创建并分配自定义策略, 否则你组织中的用户将获取全局策略。 默认情况下, 全局策略会为团队用户启用实时事件调度, 而脚本将关闭, 组织中的每个人都可以加入实时事件, 并且录制设置将设置为 "始终录制"。 
+> 除非你创建并分配自定义策略, 否则你组织中的用户将获取全局策略。 默认情况下, 全局策略会为团队用户启用实时事件计划, 并且实时标题和字幕 (脚本) 已关闭, 组织中的每个人都可以加入实时事件, 并且录制设置将设置为 "始终录制"。 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑实时事件策略
 <a name="bkcreatepolicy"> </a>
@@ -59,8 +60,8 @@ ms.locfileid: "35012994"
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。     |这是 "实时事件策略" 页面上显示的策略的名称。 它不能超过64个字符, 也不能包含任何特殊字符。          |
 |**说明**    |使用此设置添加策略的友好描述。         |
 |**允许计划**     |打开此功能后, 您的组织中的用户可以创建和安排团队中的实时事件。 请务必知道, 如果你希望用户安排使用外部应用或设备生成的实时事件, 则必须执行其他步骤。 若要了解详细信息, 请参阅[使用户能够计划使用外部应用或设备生成的事件](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
-|**允许对与会者进行脚本输入**(即将推出) |此设置仅可应用于团队中产生的事件。 启用此功能将使实时事件参与者可以在事件期间查看实时标题和翻译。         |
-|**哪些人可以加入计划的实时事件**    |选择下列操作之一。<br><br>**所有人**用户可以创建实时事件, 每个人 (包括组织外部的人员) 都可以参加。 当用户安排实时事件时, 此设置将启用团队中的**公共**权限类型。<br> **组织中的每个人**用户可以创建只有组织中的人员可以参加的实时事件。 用户无法创建由匿名用户参与的实时事件。 当用户安排实时事件时, 此设置将启用团队中的**组织范围**权限类型。<br> **特定用户或组**用户可以创建仅限组织中的特定用户或组可以参加的实时事件。 用户无法创建由组织中的所有人或匿名用户出席的实时事件。 当用户安排实时事件时, 此设置将启用团队中的 "**人员和组**" 权限类型。       |
+|**允许对与会者进行脚本输入** |此设置仅可应用于团队中产生的事件。 启用此功能将使实时事件参与者可以在事件期间查看实时字幕和字幕。         |
+|**哪些人可以加入计划的实时事件**    |选择下列操作之一。<br><br>**所有人**用户可以创建实时事件, 每个人 (包括组织外部的人员) 都可以参加。 当用户安排实时事件时, 此设置将启用团队中的**公共**权限类型。<br> **组织中的每个人**用户可以创建你的组织中的人员 (包括添加到你的组织的[来宾用户](../add-guests.md)) 可以参加的实时事件。 用户无法创建由匿名用户参与的实时事件。 当用户安排实时事件时, 此设置将启用团队中的**组织范围**权限类型。<br> **特定用户或组**用户可以创建仅限组织中的特定用户或组可以参加的实时事件。 用户无法创建由组织中的所有人或匿名用户出席的实时事件。 当用户安排实时事件时, 此设置将启用团队中的 "**人员和组**" 权限类型。       |
 |**录制设置**  <br>     | 此设置仅可应用于团队中产生的事件。 选择下列操作之一。 <br><br> **始终录制**始终记录用户创建的实时事件。 在事件结束后, 事件团队成员可以下载录制, 与会者可以观看事件。 <br> **从不录制**不会记录用户创建的实时事件。 <br>**组织者可以录制**用户可以决定是否录制实时事件。 如果它已录制, 事件结束后, 事件团队成员可以下载录制, 并且与会者可以观看该事件。      
 
 也可以使用 Windows PowerShell 执行此操作。 有关详细信息, 请参阅[使用 PowerShell 设置团队中的实时事件策略](set-teams-live-events-policies-using-powershell.md)。 

@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 让支持人员在团队的实验阶段采纳。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb27e8ab8722324bbfbb9bd065c0675c6b4b1631
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 24ae06558ed159bbd691ce2e712f3b3206c179ce
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494821"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237975"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 

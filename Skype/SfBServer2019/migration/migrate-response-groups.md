@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 将用户移动到 Skype for business Server 2019 池后, 您可以迁移响应组。 迁移响应组包括将代理组、队列、工作流、音频文件和移动响应组联系人对象从旧部署复制到 Skype for business Server 2019 池。 迁移旧版响应组后, 对响应组的呼叫由 Skype for Business Server 2019 池中的响应组应用程序处理。 不再通过旧版池处理对响应组的调用。
-ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298202"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237968"
 ---
 # <a name="migrate-response-groups"></a>迁移响应组
 

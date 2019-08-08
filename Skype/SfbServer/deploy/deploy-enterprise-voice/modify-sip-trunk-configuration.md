@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '摘要: 了解如何使用 Skype for business 服务器控制面板修改 SIP 中继配置设置。'
-ms.openlocfilehash: 2ab461f94c5858558fad9b65f97fd1da672a0844
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db2ddcf0155a599d8604bce2e3d5b5d34d6df20
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297891"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240278"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中修改 SIP 中继配置设置
  

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '摘要: 为 Skype for Business 服务器配置支持媒体旁路的主干。 这将让你最大程度地减少你的 SIP 中继提供商支持的中介服务器数 presuming。'
-ms.openlocfilehash: 29fd1d4e978306f58e99b4a75cb5255863139888
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289102"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233669"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>在 Skype for Business 服务器中使用 "媒体绕过" 配置主干
 
@@ -53,7 +53,7 @@ ms.locfileid: "34289102"
    - **池 Trunk**：选择应用了此中继配置的中继的名称。 此主干可以是 "根主干" 或 "拓扑生成器" 中定义的任何其他中继。 从“选择服务”**** 中，单击“确定”****。 请注意，如果已为特定中继创建中继配置，则此中继不会显示在“选择服务”**** 中。
 
       > [!NOTE]
-      > 选择中继配置的范围后无法更改该范围。 > "**名称**" 字段已预填充了 trunk 配置的关联站点或服务的名称, 不能更改。
+      > 选择中继配置的范围后无法更改该范围。 > "**名称**" 字段中预填充了 trunk 配置的关联站点或服务的名称, 不能更改。
 
 4. 在“支持的最大早期对话数”**** 中指定一个值。这是公用电话交换网 (PSTN) 网关、IP-PBX 或 ITSP 会话边界控制器 (SBC) 可以接收的分叉响应的最大数目，这些响应针对的是发送到中介服务器的邀请。默认值为 20。
 

@@ -5,18 +5,18 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 阅读这些主题，了解如何为 Skype 会议室系统设置 Exchange 和 Skype 帐户。
-ms.openlocfilehash: 504c1551cdda30bef46ba30584de8a557c5a4941
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a7a5a860d00cc88b068e9e415f27da37c0bfc814
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287676"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234714"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>设置 Skype 会议室系统 Exchange 和 Skype 帐户
  

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题中概述的过程旨在指导你完成删除企业版前端池或标准版前端服务器的过程。 迁移到 Skype for business Server 2019 后, 这是解除旧版环境的第一步。
-ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 611f9c3129b46026c55c2184ea8416bbe8a1f26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301102"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244175"
 ---
 # <a name="remove-the-front-end-server"></a>删除前端服务器
 

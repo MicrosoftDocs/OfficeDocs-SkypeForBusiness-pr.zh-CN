@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '摘要: 配置不为 Skype for Business 服务器启用 "媒体绕过媒体" 的主干。'
-ms.openlocfilehash: 1e81f0d700d6dff90eb0bb0f6f61a8810f14bd97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289088"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233662"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置不使用媒体的主干
 
@@ -46,7 +46,7 @@ ms.locfileid: "34289088"
    - **池 Trunk**：在“选择服务”**** 中选择此中继配置应用于的中继的名称，然后单击“确定”****。 此主干可以是根主干, 也可以是拓扑生成器中定义的任何其他中继。 请注意，如果已经为特定中继创建了中继配置，则该中继不会显示在“选择服务”**** 中。
 
      > [!NOTE]
-     > 选择中继配置的范围后无法更改该范围。 > "**名称**" 字段预填充了中继配置的关联站点或服务的名称, 无法更改。
+     > 选择中继配置的范围后无法更改该范围。 > "**名称**" 字段中预填充了中继配置的关联站点或服务的名称, 无法更改。
 
 4. 选择以下“加密支持级别”**** 选项之一：
 

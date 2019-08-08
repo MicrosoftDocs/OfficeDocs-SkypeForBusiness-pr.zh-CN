@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主题重点介绍部署 Skype for Business Server 2019 Edge 服务器之前应注意的配置设置。 Skype for business Server 2019 的部署和配置过程非常类似于 Skype for business Server 2015。 本部分仅重点介绍您在试验池部署中应考虑的要点。 有关详细步骤, 请参阅部署文档中的 Skype for business Server 2019 中的部署外部用户访问 (介绍部署过程), 还提供外部用户访问的配置信息。
-ms.openlocfilehash: f692eb5ad4a24b47a8bab7a56be218eab04af7dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280915"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238386"
 ---
 # <a name="deploy-pilot-edge-server"></a>部署试点 Edge Server
 

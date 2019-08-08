@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 团队服务管理所需的任务和活动, 包括监视服务运行状况以及评估和确保网络质量和使用情况
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548530"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236490"
 ---
 ![升级旅行图, 强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
 
@@ -357,13 +358,11 @@ NPS 是一个介于-100 到100之间的索引, 用于衡量客户推荐公司产
 | 提供建筑物数据 | 向质量专家 (或相关利益干系人) 提供更新的子网信息, 以确保[CQD 中的生成定义](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持最新状态。 | 根据需要 | |
 | 实施更改 | 实施对网络的更改以支持不断变化的团队业务和技术要求。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
 | 网络监控和报告 | 通过使用您现有的第三方网络管理工具和您的网络提供商提供的报告功能, 监控网络端到端的可用性、利用率和容量趋势。 使用趋势数据进行网络容量规划。 | 每天、每周、每月 | |
-| 容量规划 | 与团队服务所有者协作, 以了解不断改变的业务和技术要求可能会增加额外的容量。 利用[网络 Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)的结果, 确保有足够的带宽可供 Microsoft 团队使用。 | 根据需要 | |
+| 容量规划 | 与团队服务所有者协作, 以了解不断改变的业务和技术要求可能会增加额外的容量。  | 根据需要 | |
 | 网络故障排除和修正 | 帮助团队人员、服务所有者和关键利益干系人诊断和解决与团队连接性、可靠性或质量相关的问题。 网络元素可以包括:<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
 | 灾难恢复和高可用性测试 | 在网络基础结构上执行常规高可用性和灾难恢复测试, 以确保它满足团队服务规定的服务级别目标 (Slo) 或服务级别协议 (Sla)。 | 每月 | |
 
 ### <a name="references"></a>References
-
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
@@ -394,8 +393,6 @@ NPS 是一个介于-100 到100之间的索引, 用于衡量客户推荐公司产
 | 填写质量拥护者角色 | 组织中的质量的端到端责任。 这包括:<ul><li>确保定期执行 QER。</li><li>向关键利益干系人报告质量状况。</li><li>确保生成数据定义是最新的。</li><li>协调整个组织中的补救措施, 确保用户对团队具有优质的体验。</li></ul> | 每天 | |
 
 ### <a name="references"></a>References
-
-[了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [上载建筑物信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 

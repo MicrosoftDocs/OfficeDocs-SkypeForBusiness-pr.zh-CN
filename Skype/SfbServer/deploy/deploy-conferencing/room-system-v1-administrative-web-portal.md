@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for business Server Skype 会议室系统 v1 (SRS v1, 以前称为 Lync 房间系统) 管理 Web 门户是一种 Web 门户, 组织可以使用该门户维护其 Skype 会议室系统会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况, 例如通过监视音频/视频设备进行监视。 通过此门户, 管理员可以远程收集诊断信息以监控会议室的运行状况。
-ms.openlocfilehash: 5ad4ffb08ecbc32feaa87aa2f7d48d82003e2e3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307159"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234171"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 SRS v1 管理 Web 门户
 
@@ -195,7 +195,7 @@ Skype for business Server Skype 会议室系统 v1 (SRS v1, 以前称为 Lync �
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>有关管理 Web 门户的其他说明
 
 > [!NOTE]
->  只有在 SRS 系统重新启动后才会应用设置更改。 > 如果 LRSApp 帐户密码过期, 您将无法看到聊天室的状态。 配置 LRSAppuser 帐户密码, 使其永不过期, 或者确保在密码即将过期时更新密码。 > 仅支持本地部署的 SRS 管理 web 门户。
+>  只有在 SRS 系统重新启动后才会应用设置更改。 > 如果 LRSApp 帐户密码过期, 您将无法看到聊天室的状态。 配置 LRSAppuser 帐户密码, 使其永不过期, 或者确保在密码即将到期时更新密码。 > SRS 管理 web 门户仅支持本地部署。
 
 ### <a name="bulk-management"></a>批量管理 
 

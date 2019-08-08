@@ -4,23 +4,23 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 04/08/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何安装和连接到 Microsoft StaffHub PowerShell 模块。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eab331c8d8b2213225ad8c7ee216f9f6ec2b51
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681878"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246175"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>安装 Microsoft StaffHub PowerShell 模块
 
@@ -32,7 +32,9 @@ ms.locfileid: "34681878"
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>安装 Microsoft StaffHub PowerShell 模块
 
 1. 下载[StaffHub PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)。 
-2. 以管理员身份打开 Windows PowerShell 3.0 或更高版本。 若要执行此操作, 请单击 "**开始**", 键入**windows powershell**, 右键单击 " **windows powershell**", 然后选择 "**以管理员身份运行**"。
+2. 以管理员身份打开 Windows PowerShell 3.0 或更高版本。若要执行此操作, 请单击 "**开始**", 键入**windows powershell**, 右键单击 " **windows powershell**", 然后选择 "**以管理员身份运行**"。
+    > [!NOTE]
+    > 若要获取最新版本的 Windows PowerShell, 请参阅[安装 Windows powershell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)。 
 3. 请运行以下命令：
 
     ```
@@ -43,16 +45,24 @@ ms.locfileid: "34681878"
 4. 检查输出中的文件夹路径, 并确保你的计算机上的所有文件夹都存在于你的计算机上, 然后再转到下一步。 如果文件夹丢失, 请创建它们。
 5. 运行以下内容以允许安装 StaffHub PowerShell 模块:
 
-```
-Set-ExecutionPolicy RemoteSigned
-```
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 6. 运行以下, 其中&lt;path&gt;是步骤2的输出中的路径。 例如, 路径可能如下所示 C:\Users\User1\Documents\WindowsPowerShell\Modules。
 
+    请确保单独运行每个命令。
+
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
+    Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    ```
+7. 退出 Windows PowerShell。
+8. 以全局管理员身份打开 Windows PowerShell 3.0 或更高版本, 然后运行以下操作:
+
+    ```
     Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
