@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '摘要: 配置 Skype for business Server 2015 的非服务器要求。 在部署之前, 您需要配置各种内容, 包括 Active Directory、DNS、证书和 Fileshares。'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414980"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253923"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -54,6 +54,8 @@ Skype for business Server 2015 的环境要求是什么？ 我们已将不直接
 ### <a name="os-for-domain-controllers"></a>域控制器的操作系统
 
 可以使用哪些域控制器操作系统？列表如下：
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ Skype for business Server 2015 的环境要求是什么？ 我们已将不直接
 - Windows Server 2008
     
 现在, 你将 Skype for business Server 2015 部署到的任何域的域功能级别以及你将 Skype for business Server 2015 部署到的任何林的林功能级别必须是以下各项之一:
+
+- Windows Server 2019
   
 - Windows Server 2016
     

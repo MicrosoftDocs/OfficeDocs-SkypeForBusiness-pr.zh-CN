@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237026"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271390"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -32,7 +32,7 @@ ms.locfileid: "36237026"
 对于要录制的团队用户的会议, 必须为租户启用 Microsoft Stream。 此外, 会议组织者和启动录制的人员需要以下先决条件:
 
 - 用户拥有 Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium 或 Business Essentials
-- 用户需要获得 Microsoft Stream 的许可
+- 用户需要获得 Microsoft Stream<sup>1</sup>的许可 
 - 用户拥有 Microsoft Stream 上载视频权限
 - 如果由管理员设置, 则用户同意公司指南
 - 用户在 Microsoft Stream 中有足够的存储空间, 以便保存录制
@@ -41,6 +41,8 @@ ms.locfileid: "36237026"
 
 > [!NOTE]
 > 此外, 若要允许启动录制的人员选择是否自动稍后将录制, 用户的 TeamsMeetingPolicy-AllowTranscription 设置必须设置为 true
+
+<sup>1</sup>用户需要获得授权才能将会议上载/下载到 Microsoft Stream, 但不需要许可证即可录制会议。 如果您希望阻止用户录制 Microsoft 团队会议, 则必须授予 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置团队云会议录制
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234188"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271276"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  
@@ -34,7 +34,7 @@ ms.locfileid: "36234188"
 
 | 关键字 | 类型 | 值 | 说明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）    |指定在登录期间 Skype for Business 如何识别要使用的传输和服务器。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 手动配置服务器  <br/> 1 = 自动检测服务器（默认）    |指定在登录期间 Skype for Business 如何识别要使用的传输和服务器。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
 |internalAutoDiscoveryURL    |String    |完全自动发现 URL    |内部自动发现 URL    |
 |externalAutoDiscoveryURL    |String    |完全自动发现 URL    |外部自动发现 URL    |
 |httpProxyDomain    |String    ||HTTP 代理域    |

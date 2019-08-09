@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925478"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36254016"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -205,7 +205,7 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 
 但是, 这种情况尚未证明最佳原因:
  
-•**开销管理**。 例如, 卸载或排出 SBC 将更改某些参数, 例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数 (通过运行 Set-CSonlinePSTNGateway), 但实际上是同一个 SBC。 •**费用处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项, 实际上, 同一 SBC 和相同的物理干线会减缓路由数据的处理。
+•**开销管理**。 例如, 卸载或排出 SBC 将更改某些参数, 例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数 (通过运行 Set-CSOnlinePSTNGateway), 但实际上是同一个 SBC。 •**费用处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项, 实际上, 同一 SBC 和相同的物理干线会减缓路由数据的处理。
  
 
 根据此反馈, Microsoft 将引入新的逻辑来为客户租户设置中继。
@@ -226,7 +226,7 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 
 从以前的模型迁移到运营商主干
  
-对于从运营商托管模型的当前实现迁移到新模型, 运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnluinePSTNGateway (离开运营商租户中的主干) 从客户租户中删除中继。
+对于从运营商托管模型的当前实现迁移到新模型, 运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnlinePSTNGateway (离开运营商租户中的主干) 从客户租户中删除中继。
 
 我们强烈建议您尽快迁移到新的解决方案, 因为我们将使用运营商和衍生中继模型增强监控和资源调配。
  

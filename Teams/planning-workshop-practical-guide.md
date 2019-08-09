@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237356"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253907"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -50,5 +50,11 @@ ms.locfileid: "36237356"
 [Teams 的 IT 管理员就绪](ITAdmin-readiness.md)
 
 [采纳的工具](adopt-tools-and-downloads.md)
+
+[面向团队的 Skype for Business 升级规划研讨会](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[将用户从本地移动到团队](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
 
 

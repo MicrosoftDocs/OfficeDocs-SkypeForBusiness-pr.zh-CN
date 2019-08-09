@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236595"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271442"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -155,9 +155,17 @@ IP 范围是 52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)。
 请确保你的 SBC 有权访问传输中继, 如下所述。    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 信号: Fqdn 和防火墙端口
+## <a name="sip-signaling-fqdns"></a>SIP 信号: Fqdn
 
 对于 SIP 信号, FQDN 和防火墙要求与非绕过事例的要求相同。 
+
+直接路由在以下 Office 365 环境中提供:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD 了解有关[Office 365 和美国政府环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)(如 GCC、gcc 高级版和 DoD) 的详细信息。
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
 
 直接路由的连接点是以下三个 Fqdn:
 
@@ -182,7 +190,43 @@ Fqdn " **sip.pstnhub.microsoft.com**"、" **sip2.pstnhub.microsoft.com**" 和 " 
 - 52.114.7.24
 - 52.114.14.70
 
-你将需要在防火墙中打开所有这些 IP 地址的端口, 以便能够传入和传出来自地址的传入和传出通信信号。 如果你的防火墙支持 DNS 名称, FQDN **sip-all.pstnhub.microsoft.com**将解析为上述所有 IP 地址。 您必须使用以下端口:
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。 如果你的防火墙支持 DNS 名称, FQDN **sip-all.pstnhub.microsoft.com**将解析为所有这些 IP 地址。 
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+
+直接路由的连接点是以下 FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** -全局 FQDN。 由于 Office 365 DoD 环境仅存在于美国数据中心, 因此没有第二个和第三个 Fqdn。
+
+Fqdn-sip.pstnhub.dod.teams.microsoft.us 将解析为以下 IP 地址之一:
+
+- 52.127.64.33
+- 52.127.68.34
+
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称, FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为所有这些 IP 地址。 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高环境
+
+直接路由的连接点是以下 FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** -全局 FQDN。 由于 GCC 的高环境仅存在于美国数据中心, 因此没有第二个和第三个 Fqdn。
+
+Fqdn-sip.pstnhub.gov.teams.microsoft.us 将解析为以下 IP 地址之一:
+
+- 52.127.88.59
+- 52.127.92.64
+
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称, FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为所有这些 IP 地址。 
+
+## <a name="sip-signaling-ports"></a>SIP 信号: 端口
+
+对于提供直接路由的所有 Office 365 环境, 端口要求是相同的:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+您必须使用以下端口:
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ UDP/SRTP | 客户端 | SBC | 50 000-50 019  | 在 SBC 上定义 |
 
 ### <a name="requirements-for-using-transport-relays"></a>使用传输中继的要求
 
-传输中继与媒体处理器位于同一范围内 (对于非绕过情况): 52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)。
+传输中继与媒体处理器位于同一范围内 (对于非绕过的情况): 
 
-团队传输中继的端口范围如下表所示:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
+
+-52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高环境
+
+- 52.127.88.0/21
+
+
+下表显示了团队传输中继的端口范围 (适用于所有环境):
 
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
@@ -236,9 +293,21 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 媒体处理者始终位于语音应用程序和 Web cleints 的媒体路径中 (对于 exampe, 团队 cleint 为 Edge 或 Google Chrome)。 要求与非绕过配置相同。
 
 
-媒体流量的 IP 范围是 52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)。
+媒体流量的 IP 范围是 
 
-下表显示了媒体处理器的端口范围:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
+
+-52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高环境
+
+- 52.127.88.0/21
+
+下表显示了媒体处理器的端口范围 (适用于所有环境):
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|

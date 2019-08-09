@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240803"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271431"
 ---
 # <a name="make-my-service-decisions"></a>作出我的服务决策
 
@@ -191,7 +191,7 @@ SBCs 需要双向连接才能与用于信号和媒体的云服务进行通信。
 
 你需要在每个 SBC 上为 SIP 信号和媒体定义特定的端口号, 并将防火墙配置为允许指向这些端口的双向通信以及与其关联的 IP 地址。
 
-有关更多详细信息, 请参阅[SIP 信号: fqdn 和防火墙端口](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)和[媒体流量: 端口范围](direct-routing-plan.md#media-traffic-port-ranges)。
+有关更多详细信息, 请参阅[SIP 信号: fqdn](direct-routing-plan.md#sip-signaling-fqdns)和[媒体流量: 端口范围](direct-routing-plan.md#media-traffic-port-ranges)。
 
 
 > [!NOTE]

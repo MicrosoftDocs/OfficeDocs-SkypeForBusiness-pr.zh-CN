@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207153"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253951"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
@@ -31,7 +31,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 如果电话系统自动助理或呼叫队列将需要服务号码, 则可以按以下顺序满足各种相关性:
 
 1. 获取服务号码
-2. 获取免费的电话系统-[虚拟用户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)或付费电话系统许可证以与资源帐户一起使用。
+2. 获取免费的电话系统-[虚拟用户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user)或付费电话系统许可证以与资源帐户一起使用。
 3. 创建资源帐户。 自动助理或呼叫队列必须具有关联的资源帐户。
 4. 在联机和本地之间等待 active directory 同步。
 5. 将电话系统许可证分配给资源帐户。

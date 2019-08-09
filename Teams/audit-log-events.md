@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从 Office 365 审核日志检索 Microsoft Teams 数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31db1ad74c0819e5dc9bcdb4f7e8e9fd6ae2291d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d6b0ddd0dc5064d484c8420b42daee1b4e16d0e
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236967"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253899"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 ==================================================
@@ -51,7 +51,7 @@ ms.locfileid: "36236967"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>从审核日志检索 Teams 数据
 
-1.  要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 "**搜索 & 调查**" 下, 选择 "**审核日志搜索**"。![审核日志搜索页面的屏幕截图](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 "**搜索 & 调查**" 下, 选择 "**审核日志搜索**"。
 
 2.  使用“**搜索**”按活动、日期和你要审核的用户进行筛选。
 

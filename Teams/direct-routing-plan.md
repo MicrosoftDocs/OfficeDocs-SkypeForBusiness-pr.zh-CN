@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166279"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271420"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -55,9 +55,10 @@ Microsoft 还提供了所有云语音解决方案, 例如呼叫计划。  但是
 - [许可和其他要求](#licensing-and-other-requirements)
 - [SBC 域名称](#sbc-domain-names)
 - [适用于 SBC 的公共受信任证书](#public-trusted-certificate-for-the-sbc)
-- [SIP 信号: Fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)
+- [SIP 信号: Fqdn](#sip-signaling-fqdns)
+- [SIP 信号: 端口](#sip-signaling-ports)
 - [媒体流量: 端口范围](#media-traffic-port-ranges)
-- [支持的 SBCs](#supported-session-border-controllers-sbcs)
+- [支持的会话边框控制器 (SBCs)](#supported-session-border-controllers-sbcs)
 
 有关配置直接路由的详细信息, 请参阅[配置直接路由](direct-routing-configure.md)。
 
@@ -75,7 +76,7 @@ Microsoft 还提供了所有云语音解决方案, 例如呼叫计划。  但是
 |适用于 SBC 的完全限定的域名 (FQDN)|SBC 的 FQDN, 其中 FQDN 的域部分是 Office 365 租户中注册的域之一。 有关详细信息, 请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |将 SBC FQDN 映射到公共 IP 地址的公共 DNS 条目。 |
 |适用于 SBC 的公共受信任证书 |用于 SBC 的证书, 用于与直接路由的所有通信。 有关详细信息, 请参阅[SBC 的公共受信任证书](#public-trusted-certificate-for-the-sbc)。|
-|直接路由的连接点 |直接路由的连接点是以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`-必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`-辅助 FQDN, 地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`-第三方 FQDN-地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息, 请参阅[SIP 信号: fqdn 和防火墙端口](#sip-signaling-fqdns-and-firewall-ports)。|
+|直接路由的连接点 |直接路由的连接点是以下三个 Fqdn:<br/><br/>`sip.pstnhub.microsoft.com`-必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`-辅助 FQDN, 地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`-第三方 FQDN-地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息, 请参阅[SIP 信号: fqdn](#sip-signaling-fqdns)。|
 |用于直接路由媒体的防火墙 IP 地址和端口 |SBC 与云中的以下服务进行通信:<br/><br/>负责处理信号的 SIP 代理<br/>处理媒体的媒体处理器-当媒体绕过时除外<br/><br/>这两个服务在 Microsoft 云中具有单独的 IP 地址, 如本文档后面部分所述。<br/><br/>有关详细信息, 请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的 " [Microsoft 团队" 部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 适用于 Microsoft 团队媒体的防火墙 IP 地址和端口 |有关详细信息, 请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
@@ -169,7 +170,17 @@ Microsoft 强烈建议你通过生成证书签名请求 (CSR) 来请求 SBC 的�
 
 Microsoft 正在努力根据客户请求添加其他认证机构。 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 信号: Fqdn 和防火墙端口 
+## <a name="sip-signaling-fqdns"></a>SIP 信号: Fqdn 
+
+直接路由在以下 Office 365 环境中提供:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+了解有关[Office 365 和美国政府环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)(如 GCC、gcc 高级版和 DoD) 的详细信息。
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
 
 直接路由的连接点是以下三个 Fqdn:
 
@@ -191,7 +202,44 @@ Fqdn (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.mi
 - 52.114.7.24 
 - 52.114.14.70
 
-你将需要在防火墙中打开所有这些 IP 地址的端口, 以便能够传入和传出来自地址的传入和传出通信信号。  如果你的防火墙支持 DNS 名称, FQDN sip-all.pstnhub.microsoft.com 将解析为上述所有 IP 地址。  您必须使用以下端口:
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称, FQDN sip-all.pstnhub.microsoft.com 将解析为所有这些 IP 地址。 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+
+直接路由的连接点是以下 FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** -全局 FQDN。 由于 Office 365 DoD 环境仅存在于美国数据中心, 因此没有第二个和第三个 Fqdn。
+
+Fqdn-sip.pstnhub.dod.teams.microsoft.us 将解析为以下 IP 地址之一:
+
+- 52.127.64.33
+- 52.127.68.34
+
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称, FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为所有这些 IP 地址。 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高环境
+
+直接路由的连接点是以下 FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** -全局 FQDN。 由于 GCC 的高环境仅存在于美国数据中心, 因此没有第二个和第三个 Fqdn。
+
+Fqdn-sip.pstnhub.gov.teams.microsoft.us 将解析为以下 IP 地址之一:
+
+- 52.127.88.59
+- 52.127.92.64
+
+您需要在防火墙中打开所有这些 IP 地址的端口, 以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称, FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为所有这些 IP 地址。 
+
+## <a name="sip-signaling-ports"></a>SIP 信号: 端口
+
+对于提供直接路由的所有 Office 365 环境, 端口要求是相同的:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+您必须使用以下端口:
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒体流量: 端口范围
-注意如果 ant 在没有媒体旁路的情况下部署直接路由, 则会应用以下要求。 有关媒体绕过的防火墙要求, 请参阅[使用直接路由规划媒体旁路](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+请注意, 如果你想要在不使用媒体绕过的情况下部署直接路由, 请应用以下要求。 有关媒体绕过的防火墙要求, 请参阅[使用直接路由规划媒体旁路](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)。
+
+
 
 媒体流量从 Microsoft 云中单独的服务流出。 媒体流量的 IP 范围:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
+
 - 52.112.0.0/14 (从52.112.0.1 到52.115.255.254 的 IP 地址)。
 
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高环境
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>端口范围 (适用于所有环境)
 下表显示了媒体处理器的端口范围: 
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|

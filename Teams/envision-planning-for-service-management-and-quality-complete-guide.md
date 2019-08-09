@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: rowille
 description: 通过管理服务、网络和终结点运行状况以及定义可操作的质量支持者角色，实现高质量的 Teams 用户体验。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094f6af6e1bec9cffcfaeecaabab42ec80d5ba04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76bac106b9655e2c7fe9df9984e455a14db46209
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895192"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235937"
 ---
 # <a name="plan-for-service-management-and-quality"></a>规划服务管理和质量
 
@@ -182,8 +183,6 @@ Microsoft Teams 支持各种终结点。 你可以在任何地方从 PC、平板
 > [!NOTE]
 > 监控网络利用率时，务必要避免使用每天的平均值。 这些平均值可能包含影响结果准确性的非核心时段数据。 平均值可能无法体现高峰时段的数据，并掩盖了基本问题。
 
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) 帮助你通过几个简单的步骤即可确定和整理你的部署的网络要求。 通过使用该工具收集组织的网络详细信息和云语音使用情况，可以获取你的云语音部署所需的网络要求的近似计算结果，管理并导出这些详细信息进行报告，以及查看相关方面以便进行进一步调查和后续步骤。
-
 #### <a name="quality-of-service-qos"></a>服务质量 (QoS)
 
 应对托管网络的所有部分实施 QoS，即使是在带宽方面充分预配的网络也是如此。 在后一种情况下，当出现意外网络负荷时，QoS 可以缓解风险。 实施 QoS 时，将优先处理语音流量，以避免这些意外事件影响质量。
@@ -261,7 +260,7 @@ VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设
 
 应该对所有建筑物中要用于支持 Teams 中云语音功能的有线和 Wi-Fi 网络进行网络评估。
 
-可以通过 Microsoft 合作伙伴、第三方工具或 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 进行网络评估。 我们还在[此处](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)的就绪指导中提供了有关如何使用 Microsoft Network Assessment Tool 运行评估的进一步指导。
+可以通过 Microsoft 合作伙伴、第三方工具或 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) 进行网络评估。 
 
 ## <a name="plan-for-endpoint-quality"></a>规划终结点质量
 
@@ -322,8 +321,6 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 
 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 要查找此计划认证的设备，请参阅[经过认证适用于 Skype for Business 的 USB 设备](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)解决方案目录。
 
-有关更多详细信息，请参阅 [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)（客户端和设备 - 就绪研讨会）
-
 ## <a name="client-updates"></a>客户端更新
 
 Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。 客户端下载大小大概为 100 MB。
@@ -337,18 +334,17 @@ Microsoft Teams 的主要优势之一是客户端会自动保持最新。 PC 和
 | 区域 | 详细信息 | References |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 规划服务管理 | 进行可操作的角色映射操作 <br/> 负责团队的签字认可 <br/> 角色就绪 | [《操作指南》](1-drive-value-operate-my-service.md) |
-| | 指定质量支持者 <br/> 质量支持者就绪| [了解 CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [《体验质量评审指南》](https://aka.ms/qerguide) |
+| | 指定质量支持者 <br/> 质量支持者就绪| [《体验质量评审指南》](https://aka.ms/qerguide) |
 | | 安装质量体验评审模板 <br/> 上载构建文件 | [QERLite 模板](https://aka.ms/qertemplates) <br/> [上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
-| 规划网络质量 | 运行 Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| 规划网络质量 | 执行网络规划 |  |
 | | 实施 QoS | [Microsoft Teams 中的服务质量](qos-in-teams.md) |
 | | 绕过代理服务器 | [代理指导](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | 实施拆分通道 VPN | [VPN 拆分通道指导](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | 实施拆分通道 VPN |  |
 | | 为实时媒体优化 Wi-Fi 网络  | 咨询第三方供应商 |
 | | 实施本地 Internet 出口 | [本地 Internet 出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | 实施网络连接 <br/> 验证网络连接 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
-| | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | 执行网络评估 | [网络就绪评估](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| | 执行网络评估 |[Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)   |
 | 规划终结点质量 | 更新终结点防火墙 | [Office 365 URL 和 IP 地址](https://aka.ms/o365ips) |
 | | 验证软件要求 | [获取 Microsoft Teams 客户端](get-clients.md) |
 | | 实施终结点 Wi-Fi 建议 | 咨询第三方供应商 |
-| | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [Client and Devices - Readiness Workshop（客户端和设备 - 就绪研讨会）](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | 进行角色-设备映射 <br/> 预配设备并对其进行试点 | [设备目录](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237660"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271377"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>规划 Microsoft 365 政府-GCC 高部署
 
@@ -78,14 +78,14 @@ Microsoft 365 政府-GCC 高环境为云服务的美国政府要求提供合规�
 |-----------------------------|-----------------------------|----------------|
 | Base64 | 登录 | 有空 |
 | | 状态 | 有空 |
-| | 统一状态 (Skype for Business 和团队统一) | 在政府待办事项中 |
+| | 统一状态 (Skype for Business 和团队统一) | 有空 |
 | 活动 | 源 | 有空 |
 |  | 我的活动 | 有空 |
 | 聊天 | 交谈 | 有空 |
 | | 文件 | 有空 |
 | | 组织结构图 | 有空 |
 | | 活动 | 有空 |
-| | 互操作 (1:1 团队-Skype for Business 聊天) | 在政府待办事项中 |
+| | 互操作 (1:1 团队-Skype for Business 聊天) | 有空 |
 | 团队 | 频道消息 | 有空 |
 | | 信道文件 | 有空 |
 | | OneNote 选项卡 | 在政府待办事项中 |
