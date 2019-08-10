@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
+ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235176"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36279164"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络
 
@@ -36,22 +36,20 @@ Teams 组合了三种形式的流量：
 
 这在两个级别上影响网络：对于点对点应用场景，流量在 Microsoft Teams 客户端之间直接传输；对于会议应用场景，流量在 Office 365 环境与 Microsoft Teams 客户端之间传输。 为了确保获得最佳通信流，必须允许在内部网络段（例如，WAN 上的站点）之间以及网络站点与 Office 365 之间传输流量。 如果未打开正确的端口或主动阻止特定端口，将会导致降低体验。
 
-> [!NOTE]
-> 在 iOS 和 Android 移动设备上支持会议。 
 
-要在 Microsoft 团队内获得实时媒体的最佳体验, 你的网络必须满足 Office 365 的网络要求。 有关详细信息，请参阅 [Skype for Business Online 的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
+要在 Microsoft 团队内获得实时媒体的最佳体验, 你的网络必须满足 Office 365 的网络要求。 有关详细信息, 请参阅[Skype for Business Online 的媒体质量和网络连接性能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
-对于两个定义网络段（客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge），请考虑以下建议：
+对于这两个定义网段 (客户端到 Microsoft Edge 和客户边缘到 Microsoft Edge), 请考虑以下建议。
 
 
 |值  |客户端到 Microsoft Edge  |客户边缘到 Microsoft Edge  |
 |:--- |:--- |:--- |
-|**延迟 (一种方法)**\*  |< 50 ms          |< 30 ms         |
-|**延迟 (RTT 或往返时间)**\* |< 100 ms   |< 60 ms |
-|**突发数据包丢失**    |< 10%，在任何 200 ms 时间间隔内         |< 1%，在任何 200 ms 时间间隔内         |
-|**数据包丢失**     |< 1%，在任何 15 s 时间间隔内          |< 0.1%，在任何 15 s 时间间隔内         |
-|**数据包中间间隔抖动**    |< 30 ms，在任何 15 s 时间间隔内         |< 15 ms，在任何 15 s 时间间隔内         |
-|**数据包重新排序**    |< 0.05% 无序数据包         |< 0.01% 无序数据包         |
+|**延迟 (一种方法)**\*  |< 50ms          |< 30ms         |
+|**延迟 (RTT 或往返时间)**\* |< 100ms   |< 60ms |
+|**爆发数据包丢失**    |在任何200ms 时间间隔内 <10%         |任何200ms 时间间隔内 <1%         |
+|**数据包丢失**     |任何15s 时间间隔内 <1%          |任何15s 时间间隔内 <0.1%         |
+|**数据包内部到达抖动**    |在任何15s 时间间隔内 <30ms         |在任何15s 时间间隔内 <15ms         |
+|**数据包重新排序**    |<0.05% 的订单外数据包         |<0.01% 的订单外数据包         |
 
 \*延迟指标目标假设您的公司网站或网站, Microsoft 边缘位于同一大陆。
 
@@ -86,7 +84,7 @@ The content you will find below can be used as supplemental background informati
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
 -->
 
-<a name="additional-network-considerations"></a>其他网络注意事项
+<a name="additional-network-considerations"></a>其他网络考虑事项
 ---------------
 
 #### <a name="external-name-resolution"></a>外部名称解析

@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237048"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286252"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
-[在云视频互操作合作伙伴上进行选择](cloud-video-interop.md)后, 你将需要规划你的部署、使用预配详细信息和合作伙伴租户密钥进行设置, 并同意你的组织中的视频互操作应用。 下图概括介绍了该过程。 
+[选择你的云视频互操作合作伙伴](cloud-video-interop.md)后, 你需要规划你的部署、使用预配详细信息和合作伙伴租户密钥进行设置, 并同意你的组织中的视频互操作应用。 下图概括介绍了该过程。 
 
 ![在组织中部署 CVI](media/deploying-cvi.png)
 

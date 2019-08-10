@@ -13,12 +13,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef856e7b15fee96a70a23e8af394b6c291407922
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235320"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286208"
 ---
 # <a name="teams-for-government"></a>Teams 政府版
 
@@ -73,6 +73,24 @@ ms.locfileid: "36235320"
                     </div>
                     <div class="cardText">
                         <h3>规划 Microsoft 365 政府-DOD 部署</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<li>
+        <a href="https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>具有适用于 GCC 高和 DoD 的直接路由的音频会议</h3>
                     </div>
                 </div>
             </div>
