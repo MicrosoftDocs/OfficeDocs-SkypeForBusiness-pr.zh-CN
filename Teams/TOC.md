@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [欢迎使用 Teams](teams-overview.md)
 # [如何部署 Teams](How-to-roll-out-teams.md)
-# [海报：Teams 体系结构和电话解决方案](teams-architecture-solutions-posters.md)
-#       
-#        
+# [海报：Teams 体系结构和电话解决方案](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -672,6 +670,7 @@
 ### [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
+### [适用于 GCC High 和 DoD 且含直接路由的音频会议](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 
