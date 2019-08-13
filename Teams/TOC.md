@@ -72,6 +72,7 @@
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 ### [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
+### [在 Teams 中管理策略包](manage-policy-packages.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 ### [管理外部访问](manage-external-access.md)
 ### [使用内联消息翻译](inline-message-translation-teams.md)
