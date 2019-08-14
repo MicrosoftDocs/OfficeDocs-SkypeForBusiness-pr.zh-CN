@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b0f3e24d38e877d923e52de3f1c7116853737dc7
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245080"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393345"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -29,28 +29,40 @@ ms.locfileid: "36245080"
 
 为了获得全面的 Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
 
-用户的 Exchange 邮箱可以托管在线上或本地。 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队与频道、创建和查看会议、通话和聊天、修改用户个人资料图片以及添加和配置连接器、选项卡与聊天机器人。
+用户的 Exchange 邮箱可以托管在线上或本地。 但是, 某些功能需要与你的 Office 365 租户进行混合部署。
 
-对于 Office 365，Exchange Online Dedicated - Legacy 或本地 Exchange 上托管的用户必须同步到 Azure Active Directory。 他们可以创建和加入团队与频道、添加和配置选项卡与聊天机器人以及聊天和通话。 但是，他们无法修改用户个人资料图片以及添加和配置连接器。 他们可以接收来自其他用户配置的连接器的消息。 对于创建和查看会议，这是一个混合包：Exchange 2016 累积更新3 (CU3) 和更高版本支持创建和查看会议，但 Exchange 2016 CU3 之前的版本不支持。
+Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片以及添加和配置连接器、选项卡和机器人。
 
-下表提供了适用于使用各种环境中托管的 Exchange Online 的用户的信息。
+托管在 Exchange Online 专用 (旧版) 上的用户必须同步到 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道, 添加和配置选项卡和机器人, 以及利用聊天和通话功能。 但是, 他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
+
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能, 此外还可以更改用户配置文件图片和管理会议, 提供 Exchange Server 2016 (累积更新 3) 或更高版本, 以在本地运行。
+
+下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
+
 
 **支持的操作：**
 
 | 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是 |是|
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是|是|是 |是|是|是|是 |是 |是 |
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2, 3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是|是 |是|
-|**本地 Exchange**（同步到所需 Azure AD）|是<sup>2</sup>| 是<sup>2, 3</sup> |是<sup>4|是|是 (Exchange 2016 CU3 +)|是 (Exchange 2016 CU3 +)|是|是 |否|是<sup>5|是|是 |是 |
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是 |
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2, 3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是<sup>6|是|是 |
+|**本地 Exchange**(需要同步至 Azure AD)|是<sup>2</sup>| 是<sup>2, 3</sup> |是<sup>4|是|是 (Exchange 2016 CU3 +)|是 (Exchange 2016 CU3 +)|是|是 |否|是<sup>5|是<sup>6|是|是 |
 
-<sup>1</sup> EXCHANGE 2016 CU3 及更高版本支持  
-所有托管选项均支持<sup>2</sup>个电子数据展示和对通道消息的法律封存。  
+<sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
+
+所有托管选项均支持<sup>2</sup>个电子数据展示和对通道消息的法律封存。
+
 <sup>3</sup>团队私人聊天消息尚不支持此托管选项的法律封存。
 
 <sup>4</sup>保留将使用用于联机用户存储消息的卷影邮箱。 [Microsoft 团队为 Exchange 混合环境中的团队用户支持电子数据展示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
 <sup>5</sup>个团队用户使用内部部署 Exchange 邮箱可能在 Outlook 中使用语音邮件和工作组接收语音邮件, 但语音邮件在团队客户端中不可用, 无法查看或播放语音邮件。
+
+<sup>6</sup>如果团队的其中一个所有者可以添加连接器, 则该团队中的其他所有人都可以执行此操作, 即使他们的邮箱在本地托管。
+
+
+其他信息：
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 团队的要求
 

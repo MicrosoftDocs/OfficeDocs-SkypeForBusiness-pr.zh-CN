@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237659"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393434"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划 Microsoft 365 政府版-GCC 部署
 
@@ -98,9 +98,9 @@ Microsoft 365 政府版-GCC 环境为云服务 (包括 FedRAMP 中等) 和针对
 | | 在共享中提供和获取控制权 | 有空 |
 | | 从会议室连接 | 有空 |
 | | 匿名联接 | 有空 |
-| | 云录制 | 在政府待办事项中 |
+| | 云录制 | 有空 |
 | | 会议笔记 | 有空 |
-| | 广播会议 | 在政府待办事项中 |
+| | 实时事件 | 有空 |
 | | 联盟会议 | 有空 |
 | | Surface Hub 支持 | 不可用 |
 | 呼叫 | 联系人 | 有空 |
