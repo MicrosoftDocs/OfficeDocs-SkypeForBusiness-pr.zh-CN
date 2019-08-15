@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236556"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404599"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -38,7 +38,7 @@ ms.locfileid: "36236556"
 1. 在左侧导航中, 转到 "**会议** > **会议设置**"。
 2. 在 "**参与者**" 下, 打开**匿名用户可以加入会议**。
 
-    ![管理中心中会议参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft 团队管理中心中团队会议的参与者设置的屏幕截图")
+    ![管理中心中的会议参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft 团队管理中心中团队会议的参与者设置的屏幕截图")
 
 如果您不希望匿名用户加入您的组织中的用户计划的会议, 请关闭此设置。
 
@@ -73,7 +73,10 @@ ms.locfileid: "36236556"
 
 <a name="bknetwork"> </a>
 
-如果你使用 "服务质量[(QoS)](qos-in-teams.md) " 来设置网络流量的优先级, 则可以启用 QoS 标记, 并且可以为每种类型的媒体流量设置端口范围。
+如果你使用 "服务质量[(QoS)](qos-in-teams.md) " 来设置网络流量的优先级, 则可以启用 QoS 标记, 并且可以为每种类型的媒体流量设置端口范围。 为不同的流量类型设置端口范围只是处理实时媒体的一个步骤;[在团队中查看服务质量 (QoS)](qos-in-teams.md) , 了解更多详细信息。
+
+> [!IMPORTANT]
+> 如果你在 microsoft 团队服务的 Microsoft 团队管理中心中启用 QoS 或更改设置, 你还需要[将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md)和所有内部网络设备, 以完全实现团队中的 QoS 的更改。
 
  ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
@@ -89,7 +92,7 @@ ms.locfileid: "36236556"
     >
     > 选择太窄的端口范围将导致呼叫中断和通话质量不佳。 下面的建议最少。
 
- 如果不确定要在环境中使用的端口范围, 以下设置是一个很好的起始点。 若要了解详细信息, 请参阅[Microsoft 团队中的实施服务质量 (QoS)](QoS-in-Teams.md)。 这些是所需的 DSCP 标记和建议的相应媒体端口范围 (由团队和 ExpressRoute 使用)。
+如果不确定要在环境中使用的端口范围, 以下设置是一个很好的起始点。 若要了解详细信息, 请参阅[Microsoft 团队中的实施服务质量 (QoS)](QoS-in-Teams.md)。 这些是所需的 DSCP 标记和建议的相应媒体端口范围 (由团队和 ExpressRoute 使用)。
 
 _端口范围和 DSCP 标记_
 
@@ -101,7 +104,5 @@ _端口范围和 DSCP 标记_
 | | | | |
 
 \*您分配的端口范围不能重叠, 并且必须彼此相邻。
-
-为不同的流量类型设置端口范围只是处理实时媒体的一个步骤;[在团队中查看服务质量 (QoS)](qos-in-teams.md) , 了解更多详细信息。 如果你启用或更改 Microsoft 团队管理中心中的设置, 你需要将[匹配设置应用到所有用户设备](QoS-in-Teams-clients.md)和内部网络设备, 以完全实现团队中的 QoS 的更改。
 
 在 QoS 已使用过一段时间后, 你将在每个这三个工作负荷的需求上获得使用信息, 你可以根据特定需要选择要进行的更改。 [通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)将非常有用。
