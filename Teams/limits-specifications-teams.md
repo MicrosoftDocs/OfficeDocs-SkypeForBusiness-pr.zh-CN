@@ -3,7 +3,6 @@ title: Microsoft Teams 的限制和规范
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244834"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407878"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -45,7 +44,19 @@ ms.locfileid: "36244834"
 
 &sup3; 删除的频道可以在30天内恢复。 在30天内, 已删除的频道将继续按每个团队限额的200频道计入。 30天后, 删除的频道及其内容将被永久删除, 频道不再按每个团队的每个团队限额的200频道计数。
 
-## <a name="meetings-and-calls"></a>会议和通话 
+## <a name="channel-names"></a>频道名称
+
+频道名称不能包含以下字符或字词。
+
+|||
+|---------|---------|
+|字符     | ~ #% & * {} +/\:  < > ？ &#124; "" .。。        |
+|这些区域中的字符数    | 0到1F<br>80到9F        |
+|字     | forms、CON、CONIN $、CONOUT $、PRN、AUX、NUL、COM1 到 COM9、LPT9、、&#95;vti&#95;|
+
+频道名称也不能以下划线 (_) 或句号 (.) 开头, 或以句点 (.) 结尾。
+
+## <a name="meetings-and-calls"></a>会议和通话
 
 |功能     | 最大限制 |
 |------------|---------------|
@@ -57,7 +68,12 @@ ms.locfileid: "36244834"
 |------------|---------------|
 |受众大小 | 10000与会者 |
 |事件的持续时间 | 4小时 |
-|Office 365 租户中的并发实时事件 | 岁 |
+|Column1  |Column2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+|Office 365 租户 | 中的并发实时事件 |15 |
 
 有关实时事件和团队实时事件与 Skype 会议直播比较的详细信息, 请转到[团队实时事件和 Skype 会议](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)直播。
 
