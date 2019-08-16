@@ -590,21 +590,18 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # 升级到 Teams
+
 ## [入门](upgrade-start-here.md)
 ## [关于升级框架](upgrade-framework.md)
 
-## 规划升级旅程
+## 规划你的升级之旅
+
 ### [升级规划概述](upgrade-plan-journey.md)
 ### [登记项目干系人](upgrade-enlist-stakeholders.md)
 ### [定义项目范围](upgrade-define-project-scope.md)
-
-### 了解共存和互操作性
-#### [共存和互操作性概述](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [规划质量](upgrade-plan-for-quality.md)
+### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## 针对 Teams 准备环境
 ### [技术准备概述](upgrade-prepare-environment.md)
@@ -618,9 +615,15 @@
 ### [组织准备概述](upgrade-prepare-organization.md)
 ### [评估组织更改是否就绪](upgrade-org-change-readiness.md)
 ### [准备用户就绪性计划](upgrade-user-readiness.md)
-## [执行用户试点](pilot-essentials.md)
-## [从 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [从 Skype for Business 混合或本地部署升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## 实现升级
+### [概述](upgrade-to-Teams.md)
+### [执行用户试点](pilot-essentials.md)
+### [将 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [将本地 Skype for Business 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## 运行、采用和优化
 ### [运营计划概述](continue-journey.md)
@@ -628,15 +631,69 @@
 ### [监控质量](upgrade-monitor-quality.md)
 ### [增强服务](upgrade-enhance-my-service.md)
 
+
 ## [常见问题解答](FAQ-journey.md)
-## 其他信息
+
+## 详细了解共存模式
 ### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# 混合连接 
+
+## 
+  [规划混合连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## 配置混合连接
+### 
+  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### 
+  [配置混合环境的 Azure AD 连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### 
+  [配置 Skype for Business 混合](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## 在本地与云之间移动用户
+### 
+  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### 
+  [将用户从本地移至团队](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### 
+  [将用户从本地迁移至 Skype for Business Online](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### 
+  [将用户从云中移动到本地](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### 
+  [管理会议迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## 
+  [禁用混合以完成到云的迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## 
+  [部署资源林拓扑](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## 针对 Teams 和 Skype for Business Online 的云合并
+### 
+  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation)
+### 
+  [更新 Microsoft Edge 证书](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### 
+  [将 AAD Connect 更新为包含多个林](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## 
+  [与 Exchange 和 SharePoint 集成](https://docs.microsoft.com/zh-CN/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
