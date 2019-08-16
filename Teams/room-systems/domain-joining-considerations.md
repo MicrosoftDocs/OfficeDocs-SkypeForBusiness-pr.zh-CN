@@ -4,19 +4,21 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: 02aa02cd0297a9f35db187c3b1b00d6615fbaa39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c9471fe07cdacd4bb9dbb26a4b4591ed9945d9f
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243450"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428063"
 ---
+<!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
+
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  
 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。

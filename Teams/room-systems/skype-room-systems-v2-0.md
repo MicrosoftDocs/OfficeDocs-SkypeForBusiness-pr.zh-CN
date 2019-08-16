@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文介绍了部署 Microsoft 团队聊天室的相关规划注意事项, 以及下一代 Skype 会议室系统。
-ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
-ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35851543"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428016"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划 Microsoft 团队聊天室
 

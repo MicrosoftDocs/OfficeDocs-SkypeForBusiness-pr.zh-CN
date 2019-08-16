@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 阅读本主题, 了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288560"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427939"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -80,7 +80,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
-  
+
+> [!NOTE]
+> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时, 设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队会议室不应将设备升级到 Windows 10 的下一版本手动或通过启用 Windows 更新 for Business (WUFB) 组策略 "选择要接收的更新的 Windows 准备情况级别" 和 "在预览版本中选择" 和 "功能更新通过 GPO 接收。 已启用这些组策略的设备已知通过 Microsoft 团队聊天室应用运行 Windows 10 操作系统更新时遇到的问题。
+
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
 

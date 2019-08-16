@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243285"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427650"
 ---
 # <a name="release-notes"></a>发行说明 
 
@@ -27,6 +27,7 @@ ms.locfileid: "36243285"
 
 |新版 |已发布到 <br> Microsoft Store |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ ms.locfileid: "36243285"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+此更新中引入的内容:
+- 新的内容照相机功能, 使用户能够智能地将传统白板添加到其团队会议中
+- 对控制台 UI 的其他改进, 可将混乱和移动的设置减少到通过更多的控制台访问的新侧栏中
+- 禁用 "共享任务栏" 按钮 (如果未连接本地内容电缆或未连接内容相机)
+- 修复了触摸键盘出现故障的问题, 该问题仅在 MTR 系统重启后首次出现
+- 质量和可靠性修复程序。
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 此更新中引入的内容:

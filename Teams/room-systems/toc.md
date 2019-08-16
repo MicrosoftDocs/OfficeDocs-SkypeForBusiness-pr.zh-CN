@@ -19,6 +19,7 @@
 ### [使用 System Center Configuration Manager](room-systems-scale.md)
 ### [利用 Azure Monitor 进行管理](azure-monitor-deploy.md)
 ### [迁移 SRS v1 或 LRS](lrs-migration.md)
+### [内容照相机](content-camera.md)
 
 ## 管理
 ### [管理概述](skype-room-systems-v2.md)

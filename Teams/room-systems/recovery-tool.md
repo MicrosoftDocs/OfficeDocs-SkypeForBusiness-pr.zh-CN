@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 本文介绍了如何使用 Microsoft 团队聊天室的恢复工具, 使用该工具可以将过时系统置于受支持状态。
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305481"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427983"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
  
@@ -33,7 +33,7 @@ ms.locfileid: "34305481"
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>验证 Windows 版本 
 
-1. 转到**Settings> Windows Setting> 管理员**从 Microsoft 团队聊天室设备登录, 登录到管理员帐户。 此选项可将您带入 "登录" 屏幕。
+1. 通过转到 "**设置"> Windows 设置 "> 管理员**从 Microsoft 团队聊天室设备登录, 登录到管理员帐户。 此选项可将您带入 "登录" 屏幕。
 2. 登录到管理员帐户, `admin`使用密码`sfb`的默认管理员帐户。
 3. 单击 "开始" 菜单并在`winver.exe`搜索框中键入, 然后在结果中单击 "**运行命令*"。
 4. 记下 "信息" 窗格第二行中 "版本" 之后的数字。

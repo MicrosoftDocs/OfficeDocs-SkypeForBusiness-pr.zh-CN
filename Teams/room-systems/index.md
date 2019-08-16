@@ -7,16 +7,16 @@ manager: serdars
 layout: LandingPage
 audience: ITPro
 ms.topic: landing-page
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 部署 Microsoft 团队聊天室以及如何部署和管理系统的相关规划注意事项。
-ms.openlocfilehash: cd1b3ea83eca22067ac489e5361b3737cd3a6b31
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433340"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428041"
 ---
 <h2>Microsoft Teams 会议室</h2>
 <ul class="panelContent cardsW cols cols2">

@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中规划实时事件
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243655"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429988"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -42,6 +42,9 @@ ms.locfileid: "36243655"
 
 - **对于团队中产生的事件** 必须为用户分配团队许可证。
 - **对于使用外部应用或设备生成的事件**必须为用户分配流许可证。
+
+> [!NOTE]
+> 团队实况活动现在可供美国政府云社区 (GCC) 组织使用。
 
 有关许可的详细信息, 请参阅[Microsoft 团队加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
