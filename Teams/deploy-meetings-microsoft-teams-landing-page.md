@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240831"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436350"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
 你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 现在你准备添加会议工作负载，其中包括[音频会议](deploy-audio-conferencing-teams-landing-page.md)、视频和分享。 方法如下。 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>会议部署决策
+## <a name="meetings-and-conferencing-deployment-decisions"></a>会议部署决策
 
 Teams 为组织提供了现成的出色体验，并且大多数组织发现默认设置即适合它们。 本文可帮助你决定是否要根据组织的情况和业务需求更改任何默认设置，然后引导你完成每项更改。 我们将这些设置分为两组：首先是[你更有可能更改的一组核心设置](#core-deployment-decisions)。 第二组包括你可能希望根据组织的需求配置的[其他设置](#additional-deployment-decisions)。
 
@@ -36,7 +36,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 > 观看下面的课程来详细了解会议：[Microsoft Teams 中的会议：面向 IT 专业人员的简介](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings--conferencing-prerequisites"></a>会议先决条件 
+## <a name="meetings-and-conferencing-prerequisites"></a>会议先决条件 
 
 在整个组织中大规模部署会议之前，请花时间检查并确认你的环境已准备好为用户提供最佳体验。 查看以下信息，并根据需要对你的环境进行任何必需的更改。
 
