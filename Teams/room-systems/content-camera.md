@@ -10,18 +10,18 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理, 包括应用自定义主题。
-ms.openlocfilehash: 70a45e7c5ec18a3f1383e9f9fb7ef1dd5e9cb657
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee4e674ff3d518e9f70ff17926bebf99eef65552
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428111"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436364"
 ---
 # <a name="content-cameras"></a>内容照相机
 
 现在, 您可以将内容照相机与 Microsoft 球队房间系统配合使用。 内容照相机与特殊图像处理软件和白板交互, 允许演示者在模拟白板上绘制, 并与远程参与者共享内容。
 
-[在一个位置查看视频工作, 其中包含 Microsoft 团队会议室, 其中包含](https://youtu.be/1XvgH2rNpmk?t=350)内容照相机功能的示例。
+[在一个位置查看视频工作, 使用 Microsoft 团队会议室](https://www.youtube.com/watch?v=1XvgH2rNpmk)获取内容照相机功能的示例。
 
 ## <a name="set-up-a-content-camera"></a>设置内容相机
 
