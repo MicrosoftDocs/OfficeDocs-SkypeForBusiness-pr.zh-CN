@@ -13,12 +13,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52716a2bb2ac60181775eecd985337f696c989cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aef6380f7f9408692a687ceb60564a11b8867511
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232213"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447888"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
@@ -39,6 +39,23 @@ ms.locfileid: "36232213"
                     </div>
                     <div class="cardText">
                         <h3>了解 StaffHub 退休和切换到团队中的倒班</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>计划将 StaffHub 团队移动到团队中的倒班</h3>
                     </div>
                 </div>
             </div>
