@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
+ms.sourcegitcommit: f053b3a51a89751453101978e265efefcb30849c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236165"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36437486"
 ---
-![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
+![升级旅行图, 强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段, 重点关注项目定义阶段")
 
-本文是升级过程的部署和实施阶段的一部分。 继续之前, 请确认你已完成以下活动:
+本文是升级历程的项目定义阶段的一部分。 继续之前, 请确认你已完成以下活动:
 
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
