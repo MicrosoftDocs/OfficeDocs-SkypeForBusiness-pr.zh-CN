@@ -702,6 +702,7 @@
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [运行报告以显示活动 StaffHub 的使用情况](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
+### [计划将 StaffHub 团队迁移到 Teams 中的班次](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
