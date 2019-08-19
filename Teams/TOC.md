@@ -645,46 +645,31 @@
 
 # 混合连接 
 
-## 
-  [规划混合连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [规划混合连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 配置混合连接
-### 
-  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### 
-  [配置混合环境的 Azure AD 连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### 
-  [配置 Skype for Business 混合](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [配置混合环境的 Azure AD 连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [配置 Skype for Business 混合](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## 在本地与云之间移动用户
-### 
-  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### 
-  [将用户从本地移至团队](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### 
-  [将用户从本地迁移至 Skype for Business Online](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### 
-  [将用户从云中移动到本地](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [将用户从本地移至团队](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [将用户从本地迁移至 Skype for Business Online](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [将用户从云中移动到本地](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### 
-  [管理会议迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [管理会议迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## 
-  [禁用混合以完成到云的迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [禁用混合以完成到云的迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## 
-  [部署资源林拓扑](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [部署资源林拓扑](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## 针对 Teams 和 Skype for Business Online 的云合并
-### 
-  [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation)
-### 
-  [更新 Microsoft Edge 证书](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### 
-  [将 AAD Connect 更新为包含多个林](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation)
+### [更新 Microsoft Edge 证书](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [将 AAD Connect 更新为包含多个林](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## 
-  [与 Exchange 和 SharePoint 集成](https://docs.microsoft.com/zh-CN/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [与 Exchange 和 SharePoint 集成](https://docs.microsoft.com/zh-CN/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 
 #       
