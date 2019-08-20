@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '摘要: 了解如何迁移用户设置并将用户移动到团队。'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160436"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464675"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移动到团队
 
@@ -38,6 +38,11 @@ ms.locfileid: "36160436"
     ![将用户重定向到团队的邮件](../media/go-to-teams-page.png)
 
 在移动任何用户之前, 请务必查看将用户移动到云的[先决条件](move-users-between-on-premises-and-cloud.md#prerequisites)。 此外, 请务必查看[与 Skype For business 一起使用团队的组织的迁移和互操作性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype)。
+
+
+> [!NOTE]
+> 应在本地 SfB 帐户上禁用统一联系人存储库, 以便将联系人移动到团队。
+
 
 有两种方法可以将用户从本地移动到团队:
 
@@ -86,6 +91,9 @@ Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell Powe
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>将即将推出的 Skype for business 本地用户通知给团队
 
 Skype for business Server 2015 中的本地管理员工具使用 CU8 以及 Skype for Business Server 2019 中的本地管理员工具, 您可以将即将到来的 Skype for Business 用户通知给团队。 启用这些通知后, 用户将在其 Skype for Business 客户端 (Win32、Mac、web 和手机) 中看到通知, 如下所示。 如果用户单击 "**尝试**" 按钮, 则团队客户端将在已安装的情况下启动;否则, 用户将在其浏览器中导航到团队的 web 版本。 默认情况下, 启用通知后, Win32 Skype for Business 客户端将以无提示方式下载团队客户端, 以便在用户仅将用户移动到 "仅工作组" 模式之前可以使用富客户端;但是, 也可以禁用此行为。  使用内部部署版本配置通知`TeamsUpgradePolicy`, 并通过内部部署`TeamsUpgradeConfiguration` cmdlet 控制 Win32 客户端的无提示下载。
+
+> [!TIP]
+> 某些服务器可能需要重新启动, 这样才能在 Skype for Business 2015 with CU8 中工作。
 
 ![即将到来的转到团队的通知](../media/teams-upgrade-notification.png)
 

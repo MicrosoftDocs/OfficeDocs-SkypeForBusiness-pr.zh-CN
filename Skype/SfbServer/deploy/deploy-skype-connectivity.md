@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '摘要: 了解如何将 Skype for business 服务器与 Skype 消费者连接。 也称为 Skype 连接。'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235701"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464597"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 Skype 连接
 
@@ -100,12 +100,12 @@ Skype for business 服务器使用联盟访问体系结构来支持与 Skype 的
 
 以前用于手动设置 Skype for Business 内部部署和 Skype 之间的联盟的网站不再需要, 并且将在8/15/2019 上关闭。 使用 Skype 的联盟现在利用联盟合作伙伴发现, 这与与 Skype for business Online 联盟所需的机制相同。
 
-任何本地 Skype for Business 部署和 Skype 用户之间通过现有公共 IM 基础结构进行通信现在需要内部部署边缘服务器配置才能与 Skype for Business Online 兼容。
+任何本地 Skype for Business 部署和 Skype 用户之间通过现有公共 IM 基础结构进行通信现在需要与 Skype for Business Online 兼容的本地边缘服务器配置。
 
 > [!NOTE]
 > 大多数客户不需要执行任何操作, 包括与 Skype for Business Online 联合的所有部署。
   
-要为其托管的每个域发布联合身份验证 DNS SRV 记录, 需要内部部署。 指南在[DNS 规划](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)中可用。 每个域必须由 DNS SRV 查询解析为满足域的顶级后缀匹配的边缘服务器 FQDN。 例如, 请考虑域 "contoso.com":
+要为其托管的每个域发布联合身份验证 DNS SRV 记录, 需要本地部署。 指南在[DNS 规划](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)中可用。 每个域必须由 DNS SRV 查询解析为满足域的顶级后缀匹配的边缘服务器 FQDN。 例如, 请考虑域 "contoso.com":
 
 |**有效 Fqdn**|**注释**|
 |:-----|:-----|
@@ -121,10 +121,10 @@ Skype for business 服务器使用联盟访问体系结构来支持与 Skype 的
 #### <a name="faqs"></a>常见问题
 
 **为什么正在关闭预配网站？**
-在2006中部署的公共 IM (PIC) 设置机制 (pic.lync.com) 将不再维修, 并且将在8/15/2019 上关闭。 相反, 公共 IM 联盟将采用 Skype for Business Online (称为 "合作伙伴发现") 所使用的相同联盟模型, 因此内部部署部署可通过其联合 DNS SRV 记录公开发现。
+在2006中部署的公共 IM (PIC) 设置机制 (pic.lync.com) 将不再维修, 并且将在8/15/2019 上关闭。 相反, 公共 IM 联盟将采用 Skype for Business Online (称为 "合作伙伴发现") 所使用的相同联盟模型, 因此本地部署可通过其联合 DNS SRV 记录公开发现。
 
 **此更改是否意味着已弃用公共 IM 联合身份验证？**
-不能。 公共 IM 联盟将继续支持许多年, 直到 Skype for Business 内部部署产品达到寿命结束。
+不能。 公共 IM 联合身份验证将继续支持许多年, 直到 Skype for Business 本地产品达到生命周期结束时间。
 
 **我们的公司与 Skype for Business Online 有混合关系 (共享地址空间), 我们受到影响？**
 不能, 因为您已经与 Skype for Business Online 联盟, 所以此更改不会影响您。
@@ -133,7 +133,7 @@ Skype for business 服务器使用联盟访问体系结构来支持与 Skype 的
 不能。 如果你的 edge 服务器代理设置未启用与 Skype for Business Online 托管提供商 (sipfed.online.lync.com) 的联盟, 此更改将不会影响。 但是, 用于与 Skype for Business Online 进行联盟的相同 DNS 和证书要求现在也适用于与 Skype 用户联盟。
  
 **我们的公司规模较大, 因此不能更改其边缘配置, 因为管理法规/合规性或等理由我们可以执行哪些操作？**
-任何不能根据指定更改其边缘服务器配置的本地组织都应尽早联系产品支持人员。
+任何不能根据指定更改边缘服务器配置的本地组织都应尽早联系产品支持人员。
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>启用联盟和公共 IM 连接 (PIC)
 

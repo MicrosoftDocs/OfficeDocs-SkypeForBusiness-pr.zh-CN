@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft Phone 系统。
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271420"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464575"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -87,8 +87,11 @@ Microsoft 还提供了所有云语音解决方案, 例如呼叫计划。  但是
 直接路由用户必须在 Office 365 中分配以下许可证: 
 
 - Microsoft Phone 系统 
-- Microsoft Teams 
+- Microsoft 团队 + Skype for Business 计划 2 (如果包含在许可 Sku 中)
 - Microsoft 音频会议 
+
+> [!NOTE]
+> 不应从包括它的任何授权 SKU 中删除 Skype for business 计划。 
 
 
 > [!IMPORTANT]

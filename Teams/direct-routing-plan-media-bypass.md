@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 阅读本主题, 了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271442"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464586"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -290,7 +290,7 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒体处理器的要求
 
-媒体处理者始终位于语音应用程序和 Web cleints 的媒体路径中 (对于 exampe, 团队 cleint 为 Edge 或 Google Chrome)。 要求与非绕过配置相同。
+媒体处理器始终位于语音应用程序和 Web 客户端 (如 Edge 或 Google Chrome 中的团队客户端) 的媒体路径中。 要求与非绕过配置相同。
 
 
 媒体流量的 IP 范围是 
@@ -353,7 +353,7 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 
 所有团队终结点都支持媒体绕过。
 
-注意对于 webcleints (Microsoft Edge 中的 "团队" Web 应用、Google Chrome 或 Mozilla Firefox), 我们会将调用转换为非绕过, 即使它是绕过调用就开始。 这会自动发生, 不需要管理员执行任何操作。 
+注意对于 web 客户端 (Microsoft Edge 中的 "团队" Web 应用、Google Chrome 或 Mozilla Firefox), 我们会将调用转换为非旁路, 即使它作为绕过调用启动也是如此。 这会自动发生, 不需要管理员执行任何操作。 
  
 ## <a name="see-also"></a>另请参阅
 

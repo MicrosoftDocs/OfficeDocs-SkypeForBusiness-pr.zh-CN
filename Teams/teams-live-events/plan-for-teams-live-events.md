@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中规划实时事件
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429988"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464547"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -73,11 +73,12 @@ ms.locfileid: "36429988"
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>团队实况活动和 Skype 会议直播
+
 下表重点介绍实时事件中提供的核心功能和功能以及它们与 Skype 会议直播有何区别。 
 
 |**能**   |**Skype 会议直播** |**团队中产生的事件** |**在外部应用或设备中生成的事件** |
 |---------|---------|---------|---------|
-|最大受众大小 |10000与会者 |10000与会者 * |10000与会者 * |
+|最大受众大小 |10000与会者 |10000与会者<sup>1</sup> |10000与会者<sup>1</sup> |
 |实时事件的最长持续时间 |4小时 |4小时 |4小时 |
 |每个 Office 365 租户的最大并发实时事件数 |岁  | 岁  | 岁  |
 |实时事件创建 |   Skype 会议直播门户 |团队, 通过团队进行 Yammer | 团队、Yammer (通过团队、流) |
@@ -102,8 +103,7 @@ ms.locfileid: "36429988"
 |针对生产者的后置广播出席报告 |&#x2714; |&#x2714; |X |
 |受众情绪分析-实时投票 & 投票 |&#x2714; (Microsoft 脉冲) |X |X |
 
-> [!IMPORTANT]
-> 设置的限制可能会更改。
+<sup>1</sup>设置的限制可能会更改。
 
 ## <a name="regional-availability"></a>区域可用性
 您可以在世界上的多个地区使用团队活动事件。 以下信息显示事件团队成员和与会者的可用性。 
@@ -118,7 +118,7 @@ ms.locfileid: "36429988"
 - 前往本地加拿大
 
 **排除和注意事项**
-- **转到本地:** 英国、印度、澳大利亚、日本和其他团队目前不支持本地。
+- **转到本地:** 英国和其他团队现在不支持局部变量。
 - **中国:** 活动团队成员和与会者将无法使用团队实时事件, 因为 Azure CDN 在中国不可访问。 解决方法是使用公司 VPN 连接, 它通过客户的公司网络获取连接到 CDN 的客户端。
 
 ## <a name="next-steps"></a>后续步骤

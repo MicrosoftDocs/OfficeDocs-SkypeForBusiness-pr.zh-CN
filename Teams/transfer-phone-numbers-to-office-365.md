@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 了解在将电话号码移植到团队之前需要了解和执行的操作, 以及如何创建用于转移它们的端口顺序。
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347791"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464564"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "35347791"
   > [!NOTE]
   > 我们只会在美国的工作日内 (而不是在公共假日或周末) 处理用于转移电话号码的港口订单。
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>如何创建一个端口顺序并将您的电话号码转移到 Teamss
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>如何创建一个端口顺序并将您的电话号码转移到团队
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]

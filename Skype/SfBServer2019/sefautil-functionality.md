@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '摘要: 在安装累积更新1之后, 了解如何使用 PowerShell 获取 Skype for Business Server 2019 中的 SEFAUtil 功能。'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821319"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464544"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 Skype for business Server 2019 中通过 PowerShell 使用 SEFAUtil 功能
 
-SEFAUtil (辅助扩展功能激活) 使 Skype for Business 服务器管理员和支持人员可以代表 Skype for business Server 用户配置代理响铃、呼叫转接和群组呼叫装货设置。 此工具还使管理员能够查询为特定用户发布的呼叫路由设置。 安装此更新后, 当前只能通过 SEFAUtil 管理的以下功能也将通过 PowerShell 进行管理:
+SEFAUtil (辅助扩展功能激活) 使 Skype for Business 服务器管理员和支持人员可以代表 Skype for business Server 用户配置代理响铃、呼叫转接和群组呼叫装货设置。 此工具还使管理员能够查询为特定用户发布的呼叫路由设置。 在7月累积更新后安装 Skype for Business Server 2019 后, 当前只能通过 SEFAUtil 管理的以下功能也将通过 PowerShell 进行管理:
 
 - [呼叫转接设置](#call-forwarding-settings)
 - [委派设置](#delegation-settings)
