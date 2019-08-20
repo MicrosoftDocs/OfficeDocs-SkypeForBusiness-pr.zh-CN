@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f848647119fa0efa87f3928430ffbd9f0e0af6e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235192"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464483"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -82,10 +82,6 @@ ms.locfileid: "36235192"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置或从控制面板进行以下更改：<br/><ol><li>在“**Internet 选项**”&gt;“**隐私**”&gt;“**高级**”下，接受第一方和第三方 Cookie，并选中“**总是允许会话 cookie**”复选框。</li><li>单击“**Internet 选项**”&gt;“**安全**”&gt;“**受信任的站点**”&gt;“**站点**”，然后添加下列所有站点：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|Outlook 外接程序限制  <br/> |要使用 Outlook 外接程序，必须使用多重身份验证 (MFA) 登录 Teams。如果在登录过程中 MFA 中途失败，你仍能够登录 Teams，但当你尝试使用外接程序时，会显示错误消息。  <br/> 目前，外接程序仅供 Windows 用户使用。  <br/> 如果你使用身份验证代理，将无法使用外接程序。  <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
