@@ -13,14 +13,16 @@ localization_priority: Priority
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 568a8beca02fdcae32bac417301d1a0bde7530b3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 56bef509fdff71a8890f85ec9aa465650daf570b
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240897"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483799"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 

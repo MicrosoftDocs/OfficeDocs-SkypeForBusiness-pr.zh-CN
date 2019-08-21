@@ -15,14 +15,17 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 596c3a3df6fc29706eea083859c65e1b1381e9ea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235344"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483286"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
