@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436312"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473328"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
 本文介绍适用于团队的一些限制、规范和其他要求。
 
-## <a name="teams-and-channels"></a>团队和频道 
+## <a name="teams-and-channels"></a>团队和频道
 
 |功能    | 最大限制 |
 |-----------|---------------|
@@ -113,6 +113,17 @@ Microsoft 团队聊天功能适用于 Microsoft Exchange 后端, 因此你可以
 > 邮件大小、文件附件和嵌入式图像限制在所有 Office 365 许可证中的大小相同。
 
 有关详细信息, 请参阅[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
+
+## <a name="contacts"></a>联系人
+
+团队使用以下联系人:
+
+- 您的组织的 Active Directory 中的联系人
+- 添加到用户的 Outlook 默认文件夹的联系人
+
+团队用户可以与组织的 active directory 中的任何人进行通信, 并可以通过**聊天** > **联系人**或**呼叫** > 将组织的 Active directory 中的任何人添加为联系人和联系人列表。**联系人**。
+
+团队用户也可以通过**呼叫** > **联系人**将不在组织的 Active Directory 中的人员添加为联系人。
 
 ## <a name="browsers"></a>上级
 
