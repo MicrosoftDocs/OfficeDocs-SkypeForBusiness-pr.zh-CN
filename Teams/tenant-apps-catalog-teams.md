@@ -11,18 +11,20 @@ audience: admin
 description: 有关在 Microsoft 团队租户应用目录中发布应用的指南。
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
+f1keywords:
+- ms.teamsadmincenter.apppermspolicies.publishtenantapps
+- ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35f15986fa5977a08cd91ce8cc5ca40ace0daca9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235094"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484066"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
 =======================================================

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: dfb7a9b65003442266cc6cf25ea59b7270aa1c9c
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 0a53b68af411ad7085ef3abf6e978565f9ea18f0
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207163"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483557"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -192,6 +192,12 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 ```
 
 执行此操作后, 您可以从 O365 管理门户删除资源帐户, 在 "用户" 选项卡下。
+
+若要解除直接路由电话号码与资源帐户的关联, 请使用以下 cmdlet:
+
+``` Powershell
+Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+```
 
 ## <a name="troubleshooting"></a>疑难解答
 

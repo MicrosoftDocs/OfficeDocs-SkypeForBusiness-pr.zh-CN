@@ -16,16 +16,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: 了解团队用于通话计划的不同电话号码类型。
-ms.openlocfilehash: ba328cdac6000c00d2d51f08b68b3092536557ec
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9dd6996a4ea455c30025b9430735e22079d870ac
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347984"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483755"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用于通话套餐的不同类型的电话号码
 

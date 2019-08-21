@@ -17,15 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理组织中的团队策略, 以控制用户可在团队和频道中执行的操作。
 f1keywords:
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
+- ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 243492b5429e34d42f6dd452e5fcf04a957cafd2
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166309"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483198"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 

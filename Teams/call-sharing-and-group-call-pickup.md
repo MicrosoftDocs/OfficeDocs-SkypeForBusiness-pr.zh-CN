@@ -16,16 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
+- ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 ms.custom:
 - Phone System
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫, 以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 23850f71986530a504cd6005142e3f5e89c3a54e
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237159"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483272"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 

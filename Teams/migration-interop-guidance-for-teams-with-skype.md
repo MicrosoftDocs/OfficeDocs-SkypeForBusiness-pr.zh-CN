@@ -10,18 +10,20 @@ ms.reviewer: bjwhalen
 description: 用于管理从 Skype for Business 切换到团队的指南
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.teamsupgrade.overview
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.coexistence
+- ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8cfe994510c8364b4421f45b48bedfb9f2888f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac2b42094484ce711760a793053bf619aab66884
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239303"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484000"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 

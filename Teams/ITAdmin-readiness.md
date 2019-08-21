@@ -13,15 +13,17 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e42d9ffb4f32faffd27fa4e0843b2d8df9055cb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236986"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483220"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 

@@ -18,17 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.phonenumbers.overview
+- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: 了解如何为你的组织获取和管理 Microsoft 团队的电话号码。
-ms.openlocfilehash: 4260e87a5efe16d3b59053e672be3a348e8a5bdf
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347857"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483678"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 
@@ -51,6 +53,7 @@ ms.locfileid: "35347857"
 > - [法国](phone-number-management-for-france.md)
 > - [德国](phone-number-management-for-germany.md)
 > - [爱尔兰](phone-number-management-for-ireland.md)
+> - [日本](phone-number-management-for-japan.md)
 > - [荷兰](phone-number-management-for-the-netherlands.md)
 > - [西班牙](phone-number-management-for-spain.md)
 > - [英国](phone-number-management-for-the-u-k.md)
@@ -79,7 +82,8 @@ ms.locfileid: "35347857"
 
 如果您仍然需要帮助, 请告诉我们我们可以为您提供哪些帮助。 在您的帮助请求中，包括您的组织 ID、域、您需要帮助的号码类型、所需数量、授权人帐户上以及有关您的问题的其他重要详细信息。
 - 有关美国内部电话号码的帮助， [发送您的请求](mailto:ptn@microsoft.com)  。
-- 有关美国以外的电话号码的帮助，  [发送您的请求](mailto:ptneu@microsoft.com) 。
+- 有关欧洲电话号码的帮助, 请[发送您的请求](mailto:ptneu@microsoft.com)。
+- 有关亚洲电话号码的帮助, 请[发送您的请求](mailto:ptnapac@microsoft.com)。
 
 #### <a name="additional-resources"></a>附加资源
 

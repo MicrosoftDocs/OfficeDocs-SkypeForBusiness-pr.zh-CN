@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: '了解 Office 365 提供了哪些类型的拨号计划 (PSTN 呼叫拨号计划), 以及如何为你的组织选择一个类型的拨号呼叫计划。  '
-ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347992"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483964"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 

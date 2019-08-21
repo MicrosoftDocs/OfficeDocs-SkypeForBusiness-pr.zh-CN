@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 f1keywords:
-- ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
+- ms.teamsadmincenter.devicemanagement.overview
 description: 了解如何管理组织中与团队一起使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b259b893f443a068b8156f2298613b0feb6d028
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237499"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483821"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 

@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击用于通话计划的不同类型的电话号码, 了解 Microsoft 团队中使用的不同电话号码。
-ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 33296e8b5be6137dd64d129dc3b5788576b3ee31
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347913"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483989"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 

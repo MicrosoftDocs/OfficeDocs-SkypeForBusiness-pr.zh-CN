@@ -13,18 +13,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: 428e3b9d68064beb70b80603df573aa7df9e59c3
-ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
+ms.openlocfilehash: f4d26caa54e3b3e7643d06f80a160feda561bcb3
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "35542362"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483261"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft 团队中的策略包是预定义策略和策略设置的集合, 可分配给在组织中具有类似角色的用户。 我们构建了策略程序包, 以便在管理组织内的用户组策略时提供简化、简化和帮助。  
 

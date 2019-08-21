@@ -12,15 +12,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: 了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234160"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483228"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
