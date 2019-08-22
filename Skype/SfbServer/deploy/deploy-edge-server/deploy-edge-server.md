@@ -13,26 +13,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '摘要: 了解如何将 Edge 服务器或边缘池部署到 Skype for business 服务器环境中。'
-ms.openlocfilehash: 39f308c13c3164c2fa46363723d5f3b1256595fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 03cb3f1bc4a938a698c28332b4781d08434bc52f
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233895"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36492970"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 Edge 服务器
  
 **摘要:** 了解如何将 Edge 服务器或边缘池部署到 Skype for business 服务器环境中。
   
-为什么要将 Edge 服务器或边缘池部署到 Skype for Business 服务器环境中？ 如果需要不登录到组织内部网络的外部用户能够与内部用户交互，那就有必要这样做。 这些外部用户可能是经过身份验证的远程用户和匿名远程用户、联盟伙伴或其他移动客户端。
+为什么要将 Edge 服务器或边缘池部署到 Skype for Business 服务器环境中？ 如果你需要未登录到组织内部网络的外部用户才能与内部用户交互, 则需要此操作。 这些外部用户可能是经过身份验证的远程用户和匿名远程用户、联盟伙伴或其他移动客户端。
   
 ## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>适用于 Skype for business 服务器的边缘部署核对清单
 
-如上所述, 许多 Skype for business 服务器的边缘服务器部署非常如此。 此清单概括介绍了你需要执行的任务, 以及指向更详细的步骤的链接。
+如上所述, 许多 Skype for business 服务器的边缘服务器部署非常如此。 此清单提供你需要执行的任务的概述, 以及指向更详细的步骤的链接。
   
 我们希望你已经开始在[Skype For Business server 部分中的 Edge 服务器部署计划](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)中开始。 如果没有，那里详细介绍了我们提到的很多内容。 部署小节只包含过程，所以如果想知道这些步骤背后的来龙去脉，可以从规划开始。
   
-本文档还假定你已经完成了 Skype for Business 服务器的基本部署。 你可能会与边缘并排执行部署, 但你需要先关注这些步骤, 然后你将能够对此处所述的边缘进行拓扑更改。
+本文档还假定你已完成 Skype for Business 服务器的基本部署。 你可能会与边缘并排执行部署, 但你需要先关注这些步骤, 然后你将能够对此处所述的边缘进行拓扑更改。
   
 以下是需要遵循的高级步骤，以及可找到这些步骤的位置：
   

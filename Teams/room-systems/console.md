@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Microsoft 团队聊天室控制台及其外围设备。
-ms.openlocfilehash: bb21bf6386164f65411a62870e86e1b1883560e1
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428052"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493050"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
 
@@ -91,7 +91,10 @@ CreateSrsMedia 脚本自动执行以下任务:
 8. 安装完成后, 系统将关闭。
     
 系统关闭后, 可以安全地删除 USB 安装盘。 此时, 你可以将目标设备放置在其 dock 中 (如果使用基于插接的产品), 附加会议室所需的外围设备, 并连接到网络。 请参阅制造商说明。
-  
+
+> [!NOTE]
+> Microsoft 团队聊天室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅[Microsoft Store For Business 和教育](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)版的先决条件, 以验证聊天室控制台是否能够访问应用商店和自我更新。  
+
 ### <a name="selecting-a-language"></a>选择语言 
 
 在创建者的更新中, 你需要使用 ApplyCurrentRegionAndLanguage 脚本, 其中隐式语言选择不向用户提供所需的实际应用程序语言 (例如, 他们希望控制台应用使用法语, 但它将以英语提供。

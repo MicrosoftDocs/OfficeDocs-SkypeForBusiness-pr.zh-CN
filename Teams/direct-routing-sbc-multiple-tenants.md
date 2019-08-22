@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271453"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493122"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -206,28 +206,34 @@ https://portal.office.com)若要验证你拥有的角色, 请登录到 Microsoft
 
 但是, 这种情况尚未证明最佳原因:
  
-•**开销管理**。 例如, 卸载或排出 SBC 将更改某些参数, 例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数 (通过运行 Set-CSOnlinePSTNGateway), 但实际上是同一个 SBC。 •**费用处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项, 实际上, 同一 SBC 和相同的物理干线会减缓路由数据的处理。
+- **开销管理**。 例如, 卸载或排出 SBC 将更改某些参数, 例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数 (通过运行 Set-CSOnlinePSTNGateway), 但实际上是同一个 SBC。 
+
+-  **开销处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项, 实际上, 同一 SBC 和相同的物理干线会减缓路由数据的处理。
  
 
 根据此反馈, Microsoft 将引入新的逻辑来为客户租户设置中继。
 
-引入了两个新实体: •使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继, 例如, CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
-•派生的主干, 不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建, 并且与运营商主干的关联基于 FQDN 名称 (请参阅下面的详细信息)。
+引入了两个新实体:
+-   使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继, 例如, CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
 
-预配逻辑和示例。
+-   派生的主干, 不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建, 并且与运营商主干的关联基于 FQDN 名称 (请参阅下面的详细信息)。
 
-•运营商仅需要使用 Set-CSOnlinePSTNGateway 命令设置和管理单个中继 (运营公司域中的载波干线)。 在上面的示例中, 它是 adatum.biz;•在客户租户中, 运营商只需将派生的干线 FQDN 添加到用户的 "语音路由策略"。 无需为主干运行新的 CSOnlinePSTNGateway。
-•派生的主干, 如名称所述, 继承或派生载波主干中的所有配置参数。 示例: • Customers.adatum.biz-需要在运营商租户中创建的运营商主干。
-• Sbc1.customers.adatum.biz-不需要在 PowerShell 中创建的客户租户中的派生主干。  您只需在 "联机语音路由策略" 中添加派生的主干的名称, 而无需创建它。
+**预配逻辑和示例**
 
-•对载体主干 (在运营商租户上) 所做的任何更改都将自动应用于派生的中继。 例如, 运营商可以更改载波主干上的 SIP 端口, 此更改将应用于所有派生的中继。 用于配置中继的新逻辑可简化管理, 因为无需转到每个租户并在每个主干上更改参数。
-•选项仅发送给载波中继 FQDN。 载波干线的运行状况将应用于所有派生的中继, 并用于路由决策。 了解有关[直接路由选项](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的详细信息。
-•运营商可以排出载波主干, 所有衍生的中继也将排出。 
+-   运营商仅需要使用 Set-CSOnlinePSTNGateway 命令设置和管理单个中继 (运营公司域中的载波干线)。 在上面的示例中, 它是 adatum.biz;
+-   在客户租户中, 运营商只需将派生的干线 FQDN 添加到用户的语音路由策略。 无需为主干运行新的 CSOnlinePSTNGateway。
+-    顾名思义, 派生的主干会继承或派生载波主干中的所有配置参数。 说明
+-   Customers.adatum.biz-需要在运营商租户中创建的运营商主干。
+-   Sbc1.customers.adatum.biz-不需要在 PowerShell 中创建的客户租户中的派生主干。  您只需在 "联机语音路由策略" 中添加派生的主干的名称, 而无需创建它。
+
+-   对载体主干 (在运营商租户上) 所做的任何更改都将自动应用于派生的中继。 例如, 运营商可以更改载波主干上的 SIP 端口, 此更改将应用于所有派生的中继。 用于配置中继的新逻辑可简化管理, 因为无需转到每个租户并在每个主干上更改参数。
+-   选项仅发送给载波中继 FQDN。 载波干线的运行状况将应用于所有派生的中继, 并用于路由决策。 了解有关[直接路由选项](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的详细信息。
+-   运营商可以排出载波主干, 所有衍生的中继也将排出。 
  
 
-从以前的模型迁移到运营商主干
+**从以前的模型迁移到运营商主干**
  
-对于从运营商托管模型的当前实现迁移到新模型, 运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnlinePSTNGateway (离开运营商租户中的主干) 从客户租户中删除中继。
+对于从运营商托管模型的当前实现迁移到新模型, 运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnlinePSTNGateway (离开运营商租户中的主干) 从客户租户中删除中继
 
 我们强烈建议您尽快迁移到新的解决方案, 因为我们将使用运营商和衍生中继模型增强监控和资源调配。
  

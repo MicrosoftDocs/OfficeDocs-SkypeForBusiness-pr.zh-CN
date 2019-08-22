@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文介绍了用于部署 Microsoft 团队聊天室的基础结构准备。
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427848"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493076"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -61,6 +61,9 @@ ms.locfileid: "36427848"
 
 > [!IMPORTANT]
 > 务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。
+
+> [!NOTE]
+> Microsoft 团队聊天室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅[Microsoft Store For Business 和教育](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)版的先决条件, 以验证聊天室控制台是否能够访问应用商店和自我更新。
   
 ### <a name="certificates"></a>证书
 
@@ -169,3 +172,5 @@ Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设
 [配置 Microsoft 团队聊天室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](skype-room-systems-v2.md)
+
+[Microsoft Store for Business 和教育版的先决条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

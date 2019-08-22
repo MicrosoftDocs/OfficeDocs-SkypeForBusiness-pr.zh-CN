@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473328"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36492999"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -43,6 +43,43 @@ ms.locfileid: "36473328"
 &sup2;此限制包括已存档的团队。
 
 &sup3; 删除的频道可以在30天内恢复。 在30天内, 已删除的频道将继续按每个团队限额的200频道计入。 30天后, 删除的频道及其内容将被永久删除, 频道不再按每个团队的每个团队限额的200频道计数。
+
+## <a name="messaging"></a>消息
+
+### <a name="chat"></a>聊天
+
+参与团队对话的用户在团队中必须具有 Exchange Online (基于云的) 邮箱, 管理员才能搜索聊天对话。 这是因为聊天列表中包含的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如, 在 Exchange 混合部署中, 具有本地邮箱的用户可能能够参与属于团队中的聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 (有关详细信息, 请参阅[Exchange 和 Microsoft 团队如何交互](exchange-teams-interact.md)。)
+
+团队聊天适用于 Microsoft Exchange 后端, 因此 Exchange 消息限制适用于团队内的聊天功能。
+
+|功能  | 最大限制  |
+|---------|---------|
+|私人聊天<sup>1</sup>中的用户数  | 100    |
+|文件附件数<sup>2</sup>  |10     |
+
+<sup>1</sup>如果您的聊天中有20多个用户, 则关闭以下聊天功能: Outlook 自动答复和团队状态消息;键入指示器;视频和音频通话;共享已读回执。
+
+<sup>2</sup>如果附件数超过此限制, 您将看到一条错误消息。
+
+### <a name="emailing-a-channel"></a>向频道发送电子邮件
+
+ 如果用户想要向团队中的频道发送电子邮件, 他们将使用频道电子邮件地址。 当电子邮件是频道的一部分时, 任何人都可以回复它以启动对话。 下面是向频道发送电子邮件的一些适用限制。
+
+|功能  | 最大限制  |
+|---------|---------|
+|邮件大小<sup>1<sup> | 24 KB |
+|文件附件数<sup>2</sup>  |名     |
+|每个文件附件的大小 | 小于 10 MB |
+|内联图像数<sup>2</sup> |50   |
+
+<sup>1</sup>如果邮件超过此限制, 将生成预览邮件, 并要求用户从提供的链接下载和查看原始电子邮件。
+
+<sup>2</sup>如果附件或图像的数量超过此限制, 您将看到一条错误消息。
+
+有关详细信息, 请参阅[Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
+
+> [!NOTE]
+> 邮件大小、文件附件和嵌入式图像限制在所有 Office 365 许可证中是相同的。
 
 ## <a name="channel-names"></a>频道名称
 
@@ -91,28 +128,6 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 频道由为团队创建的 SharePoint Online 网站集内的文件夹提供支持, 因此频道内的文件选项卡共享其所属团队的存储限制。
 
 有关详细信息, 请参阅[SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
-
-## <a name="messaging"></a>消息
-
-参与 Microsoft 团队中的聊天列表的对话的用户必须具有 Exchange Online (基于云的) 邮箱, 管理员才能搜索聊天对话。 这是因为属于聊天列表的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与属于 Microsoft Teams 中聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 (有关详细信息, 请参阅[Exchange 和 Microsoft 团队如何交互](exchange-teams-interact.md)。)
-
-Microsoft 团队聊天功能适用于 Microsoft Exchange 后端, 因此你可以将 Exchange 邮件限制应用于 Microsoft 团队内的聊天功能。 如果用户想要向团队中的频道发送电子邮件, 他们将使用频道电子邮件地址。 一旦电子邮件是频道的一部分, 任何人都可以回复它以启动对话。 下面是向频道发送电子邮件的一些适用限制。 
-
-|功能  | 最大限制  |
-|---------|---------|
-|私人聊天中的用户数  | 100    |
-|邮件大小&dagger;  |25 KB   |
-|文件附件数&Dagger;  |10     |
-|内联图像的数量&Dagger; |50   |
-
-&dagger;如果邮件超过此限制, 将生成预览消息, 要求用户从提供的链接查看/下载原始电子邮件。
-
-&Dagger;如果附件或图像的数量超过此限制, 将不会处理邮件, 并且会将 NDR 电子邮件发送回发送错误的发件人。
-
-> [!NOTE]
-> 邮件大小、文件附件和嵌入式图像限制在所有 Office 365 许可证中的大小相同。
-
-有关详细信息, 请参阅[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
 
 ## <a name="contacts"></a>联系人
 

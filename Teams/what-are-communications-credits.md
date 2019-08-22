@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288201"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493073"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -75,6 +75,9 @@ ms.locfileid: "34288201"
 每个组织都将有不同的通话计划的使用量和费率。 You will need to get this type of usage data from your current service provider. 对于使用 Skype for business 的组织已成为其服务提供商, 您可以通过在**Microsoft 365 管理中心** > **报告**或**Skype for business 管理中心** > 报告中查看使用情况数据获取使用情况数据**** PSTN 使用**详细信息。**  > 
   
 设置通讯信用点数时, 您需要调查组织的通话使用情况, 以确定需要投入的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报表允许你将调用数据记录导出到 Excel 并创建自定义报表。
+
+> [!NOTE]
+> 通讯信用点数也用于高级费率号码。 来电支付费用。
   
 ## <a name="recommended-funding-amounts"></a>推荐的存款金额
 
