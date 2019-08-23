@@ -1,0 +1,1 @@
+在 Microsoft Teams 管理中心中还未看到此功能？ 当前正在推出此功能，可能在贵组织中还不可用。 若要了解即将推出的 Teams 功能，请参阅 [Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
