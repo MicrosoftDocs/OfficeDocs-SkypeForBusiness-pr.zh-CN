@@ -23,18 +23,18 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
+ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483198"
+ms.lasthandoff: 08/24/2019
+ms.locfileid: "36622057"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
 作为管理员, 你可以使用 Microsoft 团队中的团队策略控制你的组织中的哪些用户可以在团队和频道中执行的操作。 例如, 你可以设置是否允许用户在搜索结果和团队库中发现专用团队以及是否允许用户创建专用频道。
 
-可在 Microsoft 团队管理中心中管理团队策略。 你可以使用全局 (组织范围默认) 策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略, 否则你组织中的用户将自动获取全局策略。
+通过转到 Microsoft 团队管理中心中的**团队** > **团队策略**管理团队策略。 你可以使用全局 (组织范围默认) 策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略, 否则你组织中的用户将自动获取全局策略。
 
 你可以编辑全局策略, 也可以创建并分配自定义策略。 如果向用户分配了自定义策略, 则该策略将应用于用户。 如果未向用户分配自定义策略, 则全局策略将应用于该用户。 编辑全局策略或分配策略后, 所做的更改可能需要长达24小时才能生效。
 
