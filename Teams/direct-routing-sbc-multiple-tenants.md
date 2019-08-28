@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493122"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645307"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -84,7 +84,8 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX (Microsoft Phone S
 
 ![显示域和联系人标题要求的图表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案, 运营商需要使用* \*base_domain (例如, \*customers.adatum.biz)* 申请一个证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
+SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案, 运营商需要使用* \*base_domain (例如\*customers.adatum.biz)* 申请一个证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
+
 
 下表是一个配置示例。
 
@@ -98,6 +99,9 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案, �
 ||         |         |         |         |         |
 
 要配置基本和子域, 请按照下面所述的步骤进行操作。 在此示例中, 我们将为一个客户 (Woodgrove Bank 租户中的 sbc1.customers.adatum.biz) 配置一个基本域名 (customers.adatum.biz) 和一个子域。
+
+> [!NOTE]
+> 使用 sbcX.customers.adatum.biz 启用运营商租户中的语音。
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>在运营商租户中注册基本域名
 

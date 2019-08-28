@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文概述了哪些受影响的客户应了解哪些内容, 并针对其业务连续性进行规划。
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243891"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645245"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -23,8 +23,7 @@ ms.locfileid: "36243891"
  
 ExchUMO 由客户针对语音邮件、自动助理、呼叫队列和传真集成服务进行部署。 Microsoft 计划帮助客户迁移到已在 Skype for Business Online 和 Microsoft 团队中支持数以千计客户的电话系统服务。 
 
-语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集, 将需要管理员参与和投资。 自动助理和通话队列具有管理员驱动的迁移;管理员需要在电话系统自动助理服务中重新创建现有的 ExchUMO 自动助理树。 将任何 ExchUMO 功能与第三方 PBX 配合使用的客户将不会迁移到手机系统云服务, 因为这些服务不支持第三方 PBX 系统。 第三方支持的退休计划是在[本博客](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)的最后一年宣布的, 此部署模型中的客户可将其用户迁移到 Microsoft 统一通信平台/服务之一或获得第三方语音邮件或自动适用于这些用户的助理解决方案。 手机系统不支持传真集成;客户将需要迁移到第三方解决方案。 
+语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集, 可能需要管理员参与和/或投资。 自动助理是管理员驱动的迁移;你将需要在云自动助理云服务中重新创建现有的 ExchUMO 自动助理树。 使用第三方 PBX 的任何 ExchUMO 功能的客户将不会迁移到 Skype 云服务, 因为它们不支持第三方 PBX 系统。 [本博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)已宣布推出第三方支持的退休计划, 此部署模型中的客户可以将其用户迁移到 Microsoft 的统一通信平台/服务之一, 或者获取第三方语音邮件和/或自动适用于这些用户的助理解决方案。 基于云的服务不支持传真集成;客户将需要迁移到第三方解决方案。
 
 ### <a name="who-is-affected"></a>哪些人受到影响？
 

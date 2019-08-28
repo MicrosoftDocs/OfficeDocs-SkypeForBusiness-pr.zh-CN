@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: f8c29d023e78758b3e6933a958d6efe1cf30f0b5
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427971"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645266"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -48,7 +48,7 @@ ms.locfileid: "36427971"
 
 |电脑|Processor|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6| |核心 i5||16 GB 或 8 GB |128 GB 或更高 |
+|Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 或更高 |
 |Surface Pro (第五代) |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
 |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
 
