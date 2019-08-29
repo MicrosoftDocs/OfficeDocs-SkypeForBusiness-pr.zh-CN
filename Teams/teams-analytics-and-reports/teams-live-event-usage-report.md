@@ -15,18 +15,16 @@ ms.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表大致了解组织中的团队活动事件活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239802"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667053"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 团队实时事件使用率报告
 
 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表显示组织中的实时事件的活动概述。 你可以查看每个事件的使用信息, 包括事件状态、开始时间、视图和生产类型。 你可以深入了解使用趋势, 并查看你的组织安排、提出和生成实时事件的人员。 
-
-![Microsoft 团队管理中心中的团队实时事件使用率报表的屏幕截图](../media/teams-live-event-usage-report.png "管理中心中 \"团队使用情况\" 报表的屏幕截图")
 
 ## <a name="view-the-report"></a>查看报告
 
@@ -35,9 +33,9 @@ Microsoft 团队管理中心中的 "团队实时事件使用率" 报表显示组
 3. 可选在 "**管理器**" 下, 你可以选择仅显示由特定用户组织的实时事件。
 4. 单击 "**运行报告**"。  
 
-## <a name="interpret-the-report"></a>解释报告
+    团队![管理中心中使用标注的团队实时事件使用率报表的屏幕截图]团队(../media/teams-live-event-usage-report-with-callouts.png "管理中心中使用标注的团队实时事件使用率报表的屏幕截图")
 
-![Microsoft 团队管理中心中的团队实时事件使用率报表的屏幕截图](../media/teams-live-event-usage-report-with-callouts.png "使用编号标注的管理中心的 \"团队实时事件使用率\" 报表的屏幕截图")
+## <a name="interpret-the-report"></a>解释报告
 
 |标注 |说明  |
 |--------|-------------|
@@ -56,5 +54,6 @@ Microsoft 团队管理中心中的 "团队实时事件使用率" 报表显示组
 如果您的组织已启用[蜂巢](https://www.hivestreaming.com/partners/integration-partners/microsoft/)ECDN 或[Kollective](https://kollective.com) eCDN, 则可以通过单击 "合作伙伴报告" 链接来获取其他与会者分析。
 
 ## <a name="related-topics"></a>相关主题
+
 - [Teams 分析和报告](teams-reporting-reference.md)
 - [什么是 Teams 实时事件？](../teams-live-events/what-are-teams-live-events.md)
