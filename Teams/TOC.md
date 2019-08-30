@@ -603,6 +603,7 @@
 ### [定义项目范围](upgrade-define-project-scope.md)
 ### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [会议优先](meetings-first.md)
 
 ## 针对 Teams 准备环境
 ### [技术准备概述](upgrade-prepare-environment.md)
