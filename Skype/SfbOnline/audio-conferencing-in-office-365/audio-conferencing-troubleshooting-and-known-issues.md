@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '获取在使用 Microsoft 作为其电话拨入式会议提供商、状态和某些解决方法时的已知问题列表。 '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289580"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675234"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>音频会议故障排除和已知问题
 
@@ -43,6 +43,7 @@ ms.locfileid: "34289580"
 |如果用户是通过分配一个 E5 许可证首次预配的, 则在未启用该邮箱的情况下, 不会向用户发送音频会议欢迎电子邮件。  <br/> |如果发生这种情况, 您始终可以使用 Skype for Business 管理中心中的**音频会议**或使用 PowerShell 重新发送用户的音频会议信息。 请参阅[在音频会议设置更改时启用或禁用发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change.md)。  <br/> **注意:** 为了将音频会议 PIN 重新发送给用户, 必须重置 PIN。 也可以在 Skype for Business 管理中心或使用 PowerShell 中使用**音频会议**来执行此操作。          |无解决方法。  <br/> |8/30/2017  <br/> |
 |音频会议呼叫可能需要长达24小时才能显示在使用情况报告中。  <br/> |我们期待在未来的服务更新中对此领域进行改进。  <br/> |无解决方法。  <br/> |8/30/2017  <br/> |
 |当呼叫者在会议已被 Skype for Business 用户锁定之后拨入会议桥后, Skype for business 应用程序中没有通知, 说明用户正在大厅中等待。  <br/> |当前此设置是特意为之，但我们会考虑此反馈以便在未来的服务更新中支持此功能。  <br/> |无解决方法。  <br/> |8/30/2017  <br/> |
+|Skype for Business 服务器 (本地) 用户分配音频会议许可证的用户在2019年3月1日之前, 可能看不到他们的会议邀请中的拨入坐标。  <br/> |预配 Skype for Business 服务器用户在该日期之前不支持团队音频会议。 它现在受支持, 是[会议的一个](https://docs.microsoft.com/microsoftteams/meetings-first)组件。 用户必须具有团队许可证。  <br/> |预配管道需要重新激活。 删除用户的音频会议许可证, 等待几个小时, 然后重新分配许可证。  <br/> |2019/3/1  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 

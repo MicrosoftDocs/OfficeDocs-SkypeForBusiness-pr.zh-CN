@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483311"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675402"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -173,7 +173,11 @@ ms.locfileid: "36483311"
 - 安全组
 - 通讯组列表
 
-所选的呼叫**** 代理必须是具有**电话系统**许可证和已启用企业语音的联机用户,**或者**有呼叫计划。
+所选呼叫代理必须是以下各项之一: 
+
+- 使用电话系统许可证和启用企业语音的联机用户 
+- 使用呼叫计划的在线用户
+- Businesss 服务器用户的本地 Skype
 
   > [!NOTE]
   > 如果您想要将呼叫重定向到您的组织中联机的人员, 也可以使用此操作。 这些人必须具有**电话系统**许可证, 并且已启用企业语音**或**有呼叫计划。 有关详细信息, 请参阅[分配 Skype for business 许可证](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)、[分配 Microsoft 团队许可证](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)或适合[您的通话计划？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
