@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483286"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699368"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -56,15 +56,19 @@ ms.locfileid: "36483286"
 
 ### <a name="teams-settings"></a>Teams 设置
 
-在 **Teams 设置**中，你可以设置电子邮件集成、云存储选项、Skype for Business 互操作性和设备。
+在“**Teams 设置**”中，你可以为团队设置各种功能，包括通知和源、电子邮件集成、云存储选项和设备。
+
+#### <a name="notifications-and-feeds"></a>通知和源
+
+可在此处控制是否在 Teams 的用户活动源中显示建议的源。 若要了解有关活动源的详细信息，请参阅[探究 Teams 中的活动源](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)。
 
 #### <a name="email-integration"></a>电子邮件集成
 
-开启此功能，以便用户可以使用频道电子邮件地址向 Teams 中的频道发送电子邮件。用户可以对属于其所属团队的任何频道执行此操作。用户还可以向为团队成员启用了添加连接器的团队中的任何频道发送电子邮件。要启用电子邮件集成，请确保“**允许用户向频道电子邮件地址发送电子邮件**”为“**打开**” 
+开启此功能，以便用户可以使用频道电子邮件地址向 Teams 中的频道发送电子邮件。用户可以对属于其所属团队的任何频道执行此操作。用户还可以向为团队成员启用了添加连接器的团队中的任何频道发送电子邮件。要启用电子邮件集成，请确保“**允许用户向频道电子邮件地址发送电子邮件**”为“**打开**”
 
 #### <a name="files"></a>文件
 
-你可以在此处打开或关闭文件共享和云文件存储选项。 
+你可以在此处打开或关闭文件共享和云文件存储选项。
 
 用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。Teams 中的云存储选项当前包括 ShareFile、Dropbox、Box 和 Google Drive。可打开贵组织要使用的云存储提供商对应的开关。
 
