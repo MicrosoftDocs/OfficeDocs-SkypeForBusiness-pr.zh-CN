@@ -62,6 +62,5 @@ Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资�
 ## <a name="more-information"></a>详细信息
 
 [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-
-  [Office 365 组的来宾访问](https://support.office.com/zh-CN/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Office 365 组的来宾访问](https://support.office.com/zh-CN/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
