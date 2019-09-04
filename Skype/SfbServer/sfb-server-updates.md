@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 7243c607f4855c431256335131f70cd080b6d00c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234605"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715709"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -37,6 +37,7 @@ ms.locfileid: "36234605"
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累积更新10修复程序1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
 |Skype for business Server 2015 的累积更新 9-Web 组件服务器|[KB 4487981](https://support.microsoft.com/kb/4487981)| 五月2019 |
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0804b3fb0783a588fdd79dfec1a8dd39e4d92f34
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447960"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715914"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -44,7 +44,7 @@ ms.locfileid: "36447960"
 |7     |确定日程表和标识 StaffHub 用户以转到团队       |[运行报告以显示活动 StaffHub 的使用情况](run-report-to-show-staffhub-usage.md) |
 |个     |确定没有 Azure AD 帐户的 StaffHub 用户 (在 StaffHub 中显示为 "非活动"), 并为其链接帐户     |[为没有联系人的 StaffHub 团队成员链接 Azure AD 帐户](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |db-9    |为您的组织量身定制的用户创建培训内容         |[为团队准备用户准备情况计划](../../upgrade-user-readiness.md)     |
-|10    |向 StaffHub 用户传达切换到团队中的倒班         |         |
+|10    |向 StaffHub 用户传达切换到团队中的倒班         |[StaffHub 到团队的示例向用户发送电子邮件通信](staffhub-to-teams-email-template.md)         |
 |11     |安装团队客户端         |[获取 Teams 客户端](../../get-clients.md) |
 |至    |将 FirstLineWorker 应用设置策略分配给用户 (或创建并分配自定义应用设置策略) 以将倒班应用固定到团队客户端  |[将 FirstlineWorker 应用设置策略分配给用户](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |13     |培训用户如何使用倒班和团队         |[向团队中的用户的板载用户](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[班次帮助文档](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 帮助文档](https://support.office.com/teams)<br><br>[Teams 培训视频](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |

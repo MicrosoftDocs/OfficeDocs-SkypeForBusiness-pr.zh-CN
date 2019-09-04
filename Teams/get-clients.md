@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245750"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715796"
 ---
 <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 ===========================
@@ -124,7 +124,7 @@ Microsoft Teams 移动应用的支持移动平台如下：
 > [!NOTE]
 > 移动版必须可供公众使用, 以便团队能够按预期工作。
 
-移动应用仅通过各个移动平台的应用商店分发和更新，不可通过 MDM（移动设备管理）解决方案或侧向加载分发。
+移动应用仅通过相应的移动平台的应用商店进行分发和更新。 Microsoft 不支持通过 MDM 或加载方传播移动应用。 在受支持的移动平台上安装了移动应用后, 只要版本在当前版本的三个月内, 就会支持团队移动应用本身。
 
 
 | | | |

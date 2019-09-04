@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 规划在 Skype for business Server 和 Skype for business Online 或团队之间实施混合连接的注意事项。
-ms.openlocfilehash: 2cca98740aeb991923683ce80b3b33a6ac49fbc6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160433"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715825"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划 Skype for Business Server 和 Office 365 之间的混合连接
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略控制组织中的团队用户是否可以向 Microsoft 提交有关团队的反馈。
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242148"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715814"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的反馈策略
 
@@ -49,7 +49,7 @@ ms.locfileid: "36242148"
 
 例如, 你希望允许组织中的所有用户通过**提供反馈**并接收除培训新员工之外的调查来发送反馈。 在此方案中, 创建自定义策略以关闭这两个功能, 并将其分配给新的员工。 组织中的所有其他用户均会在启用功能的情况中获得全局策略。  
 
-使用**CsTeamsFeedbackPolicy** cmdlet 创建自定义策略和**CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组, 如安全组或通讯组。
+使用**CsTeamsFeedbackPolicy** cmdlet (*可在[此处找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*) 创建自定义策略和**授予 CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组, 如安全组或通讯组。
 
 要关闭并打开这些功能, 请设置以下参数:
 

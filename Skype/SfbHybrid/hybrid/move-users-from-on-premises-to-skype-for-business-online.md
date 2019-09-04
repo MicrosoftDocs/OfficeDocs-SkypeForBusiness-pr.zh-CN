@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 了解如何将用户移动到 Skype for Business Online。
-ms.openlocfilehash: 90d225eb725690566f23b73b3626cbcf1f42c8c7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36160459"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715890"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>将用户从本地迁移到 Skype for Business Online
 

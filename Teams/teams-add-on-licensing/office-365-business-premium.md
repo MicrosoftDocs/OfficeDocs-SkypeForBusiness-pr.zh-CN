@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 商业高级版计划。 '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242654"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715903"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商业高级版
 
 如果您有[Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium), 则可以使用 Microsoft 团队与您的企业中的其他人进行通话, 这些人员属于您的订阅。 例如, 如果您的企业有10个人, 则可以使用团队互相呼叫和发送即时消息。
 
-**若要拨打和接收来自企业外部人员的呼叫, 您有三个选项**:
+**若要拨打和接收来自企业外部人员的呼叫, 您可以使用以下选项**:
 
 - **选项 1**。 使用[免费的团队应用](https://products.office.com/microsoft-teams/free)。 如果您有一个非常小的企业版 (例如, 1-2 人), 使用 "团队" 应用是更好的方法。 进行国内和国际呼叫的费用较低。 您仍然可以进行1:1 和群组音频和视频通话, 并共享演示文稿的桌面。 [比较功能、费率和支付选项](https://products.office.com/microsoft-teams/free)。
 
      我们建议从团队免费开始, 看看它是否满足你的需求。 但是, 如果不是, 您仍有两个选择。
-
-- **选项2。保留计划, 并购买电话系统和国内或国内和国际呼叫计划**。
-    1. 购买电话系统加载项。
     
-    2. 购买[适用于 Office 365 的通话计划](../calling-plans-for-office-365.md)-仅在购买 "电话系统" 加载项后才可以购买。
-    
-- **选项3。升级你的计划, 并购买电话系统和国内或国内和国际通话计划**。
+- **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
 
     1. [切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我们建议您评估企业 E5 套餐，以查看是否更划算。
 

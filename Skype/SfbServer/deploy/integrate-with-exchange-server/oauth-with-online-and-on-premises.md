@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 在 Exchange Online 和 Skype for business Online 之间配置 OAuth 身份验证可启用功能支持中所述的 Skype for Business 和 Exchange 集成功能。
-ms.openlocfilehash: 3c896e8b430276e5bb48bc425425292a382a1021
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244216"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715804"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>在 Skype for Business Online 和 Exchange Server 之间配置集成和 OAuth 
 
@@ -142,7 +142,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. 确认移动客户的对话历史记录在 "Outlook 对话历史记录" 文件夹中可见。
 
-3. 使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)确认已存档的聊天邮件将在用户的本地邮箱中存入 "清除" 文件夹中。
+3. 使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)确认在 "清除" 文件夹中将已存档的聊天消息保存到用户的本地邮箱中。
 
 或者, 查看您的流量。 OAuth 握手中的流量非常特殊 (并且看起来不像基本身份验证), 特别是在领域内, 你将开始查看如下所示的颁发者流量: 00000004-0000-0ff1-ce00-000000000000 @ (有时有@ 符号), 位于正在传递的令牌中。 您将看不到用户名或密码, 这是 OAuth 的点。 但是, 你将看到 "Office" 颁发者-在本例中, "4" 是 Skype for Business-以及你的订阅领域。
 
