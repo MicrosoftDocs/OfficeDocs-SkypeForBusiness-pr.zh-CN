@@ -7,91 +7,91 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
-description: 了解适用于 Microsoft 团队的限制、规范和其他要求。
-localization_priority: Normal
+description: 了解适用于 Microsoft Teams 的限制、规范和其他要求。
+localization_priority: Priority
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
-ms.translationtype: MT
+ms.openlocfilehash: 82fbaa955c080446619558a7a90410200f4be604
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36492999"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715679"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
-本文介绍适用于团队的一些限制、规范和其他要求。
+本文介绍了适用于 Teams 的一些限制、规范和其他要求。
 
 ## <a name="teams-and-channels"></a>团队和频道
 
 |功能    | 最大限制 |
 |-----------|---------------|
-|用户可以创建的团队数 | 受250对象限制的限制&sup1;         |
+|用户可创建的团队数 | 限制为 250 个对象&sup1;         |
 |团队中的成员数 | 5,000       |
 |租户中允许的组织范围内的团队数 | 5     |
-|[组织范围团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
-|全局管理员可以创建的团队数        |  500000   |
-|Office 365 租户可以拥有的团队数    | 500000&sup2;     |
-|每个团队的频道数    | 200 (包括删除的频道) &sup3;         |
+|[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
+|全局管理员可创建的团队数        |  500,000   |
+|Office 365 租户可拥有的团队数    | 500,000&sup2;     |
+|每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 
-&sup1;Azure Active Directory 中的任何目录对象都将计入此限制。 全局管理员不受此限制限制, 与使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样。
+&sup1;Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-&sup2;此限制包括已存档的团队。
+&sup2;此限制涵盖已存档的团队。
 
-&sup3; 删除的频道可以在30天内恢复。 在30天内, 已删除的频道将继续按每个团队限额的200频道计入。 30天后, 删除的频道及其内容将被永久删除, 频道不再按每个团队的每个团队限额的200频道计数。
+&sup3;已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
 
-## <a name="messaging"></a>消息
+## <a name="messaging"></a>消息传递
 
 ### <a name="chat"></a>聊天
 
-参与团队对话的用户在团队中必须具有 Exchange Online (基于云的) 邮箱, 管理员才能搜索聊天对话。 这是因为聊天列表中包含的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如, 在 Exchange 混合部署中, 具有本地邮箱的用户可能能够参与属于团队中的聊天列表的对话。 但是，在这种情况下，由于用户没有基于云的邮箱，这些对话中的内容不可搜索，也不可置于保留状态。 (有关详细信息, 请参阅[Exchange 和 Microsoft 团队如何交互](exchange-teams-interact.md)。)
+参与 Teams 中聊天列表内的对话的用户必须具有 Exchange Online（基于云）邮箱，这样管理员才能搜索聊天对话。 原因是聊天列表包含的对话存储在聊天参与者的基于云的邮箱中。 如果聊天参与者没有 Exchange Online 邮箱，管理员将无法搜索聊天对话，也无法将聊天对话中的内容置于保留状态。 例如，在 Exchange 混合部署中，具有本地邮箱的用户也许能参与 Teams 中聊天列表包含的对话。 但在这种情况下，这些对话中的内容不可搜索且不可进行法定保留，因为用户不具备基于云的邮箱。 （有关详细信息，请参阅 [Exchange 与 Microsoft Teams 如何交互](exchange-teams-interact.md)。）
 
-团队聊天适用于 Microsoft Exchange 后端, 因此 Exchange 消息限制适用于团队内的聊天功能。
+Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递限制适用于 Teams 中的聊天功能。
 
 |功能  | 最大限制  |
 |---------|---------|
-|私人聊天<sup>1</sup>中的用户数  | 100    |
+|私人聊天中的人员数<sup>1</sup>  | 100    |
 |文件附件数<sup>2</sup>  |10     |
 
-<sup>1</sup>如果您的聊天中有20多个用户, 则关闭以下聊天功能: Outlook 自动答复和团队状态消息;键入指示器;视频和音频通话;共享已读回执。
+<sup>1</sup>如果参与某次聊天的人数超过 20 人，则禁用以下聊天功能：Outlook 自动答复和 Teams 状态消息、键入指示器、视频和音频呼叫、共享、已读回执。
 
-<sup>2</sup>如果附件数超过此限制, 您将看到一条错误消息。
+<sup>2</sup>如果附件数超过此限制，你将看到一条错误消息。
 
 ### <a name="emailing-a-channel"></a>向频道发送电子邮件
 
- 如果用户想要向团队中的频道发送电子邮件, 他们将使用频道电子邮件地址。 当电子邮件是频道的一部分时, 任何人都可以回复它以启动对话。 下面是向频道发送电子邮件的一些适用限制。
+ 如果用户想要在 Teams 向频道发送电子邮件，可使用频道电子邮件地址。 如果电子邮件是频道的一部分，则任何人都可答复此邮件来发起对话。 下面是有关向频道发送电子邮件的一些适用限制。
 
 |功能  | 最大限制  |
 |---------|---------|
 |邮件大小<sup>1<sup> | 24 KB |
-|文件附件数<sup>2</sup>  |名     |
+|文件附件数<sup>2</sup>  |20     |
 |每个文件附件的大小 | 小于 10 MB |
-|内联图像数<sup>2</sup> |50   |
+|内嵌图像数<sup>2</sup> |50   |
 
-<sup>1</sup>如果邮件超过此限制, 将生成预览邮件, 并要求用户从提供的链接下载和查看原始电子邮件。
+<sup>1</sup>如果邮件数超过此限制，则会生成一封预览邮件，并要求用户通过所提供的链接下载和查看原始电子邮件。
 
-<sup>2</sup>如果附件或图像的数量超过此限制, 您将看到一条错误消息。
+<sup>2</sup>如果附件或图像数超过此限制，你将看到一条错误消息。
 
-有关详细信息, 请参阅[Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
+有关详细信息，请参阅 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 邮件大小、文件附件和嵌入式图像限制在所有 Office 365 许可证中是相同的。
+> 所有 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。
 
 ## <a name="channel-names"></a>频道名称
 
-频道名称不能包含以下字符或字词。
+频道名称不得包含以下字符或字词。
 
 |||
 |---------|---------|
-|字符     | ~ #% & * {} +/\:  < > ？ &#124; "" .。。        |
-|这些区域中的字符数    | 0到1F<br>80到9F        |
-|字     | forms、CON、CONIN $、CONOUT $、PRN、AUX、NUL、COM1 到 COM9、LPT9、、&#95;vti&#95;|
+|字符     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|下述范围内的字符    | 0 到 1F<br>80 到 9F        |
+|字词     | forms、CON、CONIN$, CONOUT$、PRN、AUX、NUL、COM1 到 COM9、LPT1 到 LPT9、desktop.ini、&#95;vti&#95;|
 
-频道名称也不能以下划线 (_) 或句号 (.) 开头, 或以句点 (.) 结尾。
+此外，频道名称不得以下划线 (_) 或句点 (.) 开头，也不得以句点 (.) 结尾。
 
 ## <a name="meetings-and-calls"></a>会议和通话
 
@@ -99,51 +99,51 @@ ms.locfileid: "36492999"
 |------------|---------------|
 |会议中的人员数  | 250    |
 
-## <a name="teams-live-events"></a>团队活动事件
+## <a name="teams-live-events"></a>Teams 实时事件
 
 |功能     | 最大限制 |
 |------------|---------------|
-|受众大小 | 10000与会者 |
-|事件的持续时间 | 4小时 |
-|Office 365 租户中的并发实时事件 | 岁 |
+|受众规模 | 10,000 名与会者 |
+|事件持续时间 | 4 小时 |
+|Office 365 租户中的并发实时事件数 | 15 |
 
-有关实时事件和团队实时事件与 Skype 会议直播比较的详细信息, 请转到[团队实时事件和 Skype 会议](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)直播。
+要详细了解实时事件以及 Teams 实时事件与 Skype 会议直播之间的比较情况，请转到 [Teams 实时事件和 Skype 会议直播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)。
 
-## <a name="storage"></a>Storage
+## <a name="storage"></a>存储空间
 
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
-如果你的租户中未启用 SharePoint Online, Microsoft 团队用户将无法始终共享团队中的文件。 私人聊天中的用户也无法共享文件, 因为 OneDrive for business (绑定到 SharePoint 许可证) 是该功能所必需的。
+如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户有时无法在团队中共享文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 
-通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 (有关详细信息, 请参阅[SharePoint Online 和 OneDrive For Business 如何与 Microsoft 团队交互](sharepoint-onedrive-interact.md)。)
+通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 （有关详细信息，请参阅 [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](sharepoint-onedrive-interact.md)。）
 
-由于团队运行于 SharePoint Online 后端进行文件共享, 因此 SharePoint 限制适用于团队中的 "文件" 部分。 下面是 SharePoint Online 适用的存储空间限制。
+由于 Teams 运行在 SharePoint Online 后端上来实现文件共享，因此 SharePoint 限制适用于团队中的“文件”部分。 下面是一些适用于 SharePoint Online 的存储限制。
 
-|功能                 |Office 365 商业协作版  |Office 365 商业高级版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
+|功能                 |Office 365 商业协作版  |Help and training   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Storage                 |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB 加上购买的每个许可证 10 GB   |每个组织 1 TB 加上购买的每个许可证 10 GB |每个组织 1 TB 加上购买的每个许可证 10 GB  |每个组织 1 TB           |
-|团队文件的存储空间 |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |每个网站集或组最多 25 TB |
-|文件上载限制 (每个文件)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
+|Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
+|文件上传限制（每个文件）    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-频道由为团队创建的 SharePoint Online 网站集内的文件夹提供支持, 因此频道内的文件选项卡共享其所属团队的存储限制。
+频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
-有关详细信息, 请参阅[SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
+有关详细信息，请参阅 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
 
 ## <a name="contacts"></a>联系人
 
-团队使用以下联系人:
+Teams 使用下述联系人：
 
-- 您的组织的 Active Directory 中的联系人
-- 添加到用户的 Outlook 默认文件夹的联系人
+- 组织的 Active Directory 中的联系人
+- 添加到用户的 Outlook 默认文件夹中的联系人
 
-团队用户可以与组织的 active directory 中的任何人进行通信, 并可以通过**聊天** > **联系人**或**呼叫** > 将组织的 Active directory 中的任何人添加为联系人和联系人列表。**联系人**。
+Teams 用户可与你所在组织的 Active Directory 中的任何人通信，并且可通过转到“**聊天**” > “**联系人**”或“**呼叫**” > “**联系人**”，将你组织的 Active Directory 中的任何人添加为联系人或添加到期联系人列表中。
 
-团队用户也可以通过**呼叫** > **联系人**将不在组织的 Active Directory 中的人员添加为联系人。
+通过转到“**聊天**” > “**联系人**”，Teams 用户还可将你组织的 Active Directory 中未包含的人员添加为联系人。
 
-## <a name="browsers"></a>上级
+## <a name="browsers"></a>浏览器
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
 ## <a name="operating-systems"></a>操作系统
 
-有关操作系统要求的信息, 请参阅[获取 Microsoft 团队客户端](get-clients.md)。
+要了解操作系统要求，请参阅[获取 Microsoft Teams 客户端](get-clients.md)。
