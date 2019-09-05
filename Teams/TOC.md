@@ -691,6 +691,7 @@
 ### [运行报告以显示活动 StaffHub 的使用情况](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [计划将 StaffHub 团队迁移到 Teams 中的班次](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [发至用户的电子邮件通函示例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 适用于医疗保健业的 Teams
