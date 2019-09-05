@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699368"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715922"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心内的“Teams 应用”设置
 
-可以在 Microsoft Teams 管理中心内的“Teams 应用”**** 中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
+可在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)内的“**Teams 应用**”中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
 
 若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。  
 
