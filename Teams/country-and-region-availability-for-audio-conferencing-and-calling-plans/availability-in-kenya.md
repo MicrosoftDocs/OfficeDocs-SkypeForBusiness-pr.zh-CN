@@ -3,7 +3,7 @@ title: 在肯尼亚的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于肯尼亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 1944e23ed179b94d5ff74203b38f6a91b209d9c9
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 2c59aeac4f48c9b36a0bf07ae3c4eb5a829814db
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331657"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775407"
 ---
 # <a name="availability-in-kenya"></a>在肯尼亚的可用性
 
@@ -67,8 +67,8 @@ ms.locfileid: "34331657"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |否  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Nairobi （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。

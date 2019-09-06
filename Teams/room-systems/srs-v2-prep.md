@@ -2,7 +2,7 @@
 title: 准备环境
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,58 +12,53 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文介绍了用于部署 Microsoft 团队聊天室的基础结构准备。
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493076"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775047"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
-本部分概括介绍了准备环境所需的步骤, 以便你可以使用 Microsoft 团队聊天室的所有功能。
+本部分概括介绍了准备环境所需的步骤，以便你可以使用 Microsoft 团队聊天室的所有功能。
   
-1. 为每个 Microsoft 团队聊天室控制台准备设备帐户。 有关详细信息, 请参阅[部署 Microsoft 团队聊天室](room-systems-v2.md)。
+1. 为每个 Microsoft 团队聊天室控制台准备设备帐户。 有关详细信息，请参阅[部署 Microsoft 团队聊天室](room-systems-v2.md)。
     
 2. 确保有运行良好的网络/Internet 连接可供设备使用。 
     
-   - 它必须能够使用 DHCP 接收 IP 地址。 (不能在第一台设备启动时使用静态 IP 地址配置 Microsoft 团队会议室, 但随后可以在设备上或在上游交换机或路由器上配置该设备的静态 IP。)
-    
-   - 它必须打开这些端口 (除了为媒体打开普通端口):
-    
+   - 它必须能够使用 DHCP 接收 IP 地址。 （不能在第一台设备启动时使用静态 IP 地址配置 Microsoft 团队会议室，但随后可以在设备上或在上游交换机或路由器上配置该设备的静态 IP。）
+   - 它必须打开这些端口（除了为媒体打开普通端口）：
    - HTTPS：443
-    
    - HTTP：80
-    
    - 如果你的网络通过代理运行，则还需要提供代理地址或脚本信息。
     
      > [!NOTE]
-     > Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采集功能（视频、音频）出现问题。 请确保连接到 Microsoft Teams 会议室的交换机禁用了 HDCP 选项。 
+     > Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采集功能（视频、音频）出现问题。 请确保连接到 Microsoft Teams 会议室的交换机禁用了 HDCP 选项。
   
-3. 为了改进你的体验，Microsoft 将收集数据。 为了收集数据，我们需要将以下网站列入允许名单：
-    
-   - 遥测客户端终结点:https://vortex.data.microsoft.com/
-    
-   - 遥测设置终结点:https://settings.data.microsoft.com/
+3. 为了改进你的体验，Microsoft 将收集数据。 若要允许 Microsoft 收集数据，请将这些网站列入白名单：
+
+   - 遥测客户端终结点：https://vortex.data.microsoft.com/
+   - 遥测设置终结点：https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>创建和测试设备帐户
 
-*设备帐户*是 Microsoft 团队聊天室客户端用于访问 Exchange 中的功能 (如日历) 和启用 Skype for business 的帐户。 有关详细信息, 请参阅[部署 Microsoft 团队聊天室](room-systems-v2.md)。
+*设备帐户*是 Microsoft 团队聊天室客户端用于访问 Exchange 中的功能（如日历）和启用 Skype for business 的帐户。 有关详细信息，请参阅[部署 Microsoft 团队聊天室](room-systems-v2.md)。
   
 ### <a name="check-network-availability"></a>检查网络可用性
 
-为了正常运行, Microsoft 团队聊天室设备必须具有满足这些要求的有线网络的访问权限:
+为了正常运行，Microsoft 团队聊天室设备必须具有满足这些要求的有线网络的访问权限：
   
 - 可访问 Active Directory 或 Azure Active Directory (Azure AD) 实例以及 Microsoft Exchange 和 Skype for Business 服务器。
 - 可访问能够使用 DHCP 提供 IP 地址的服务器。 不能使用静态 IP 地址配置 Microsoft 团队聊天室。
 - 访问 HTTP 端口 80 和 443。
-- TCP 和 UDP 端口配置为针对本地 Skype for Business 服务器实施或 Microsoft 团队或 Skype for business online 的[Office 365 url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的服务器的 "[端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)" 中所述60,000.
+- TCP 和 UDP 端口配置为针对本地 Skype for Business 服务器实施或 Microsoft 团队或 Skype for business online 的[Office 365 url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的服务器的 "[端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)" 中所述60，000.
 
 > [!IMPORTANT]
 > 务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。
 
 > [!NOTE]
-> Microsoft 团队聊天室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅[Microsoft Store For Business 和教育](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)版的先决条件, 以验证聊天室控制台是否能够访问应用商店和自我更新。
+> Microsoft 团队聊天室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅[Microsoft Store For Business 和教育](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)版的先决条件，以验证聊天室控制台是否能够访问应用商店和自我更新。
   
 ### <a name="certificates"></a>证书
 
@@ -72,39 +67,39 @@ Microsoft 团队聊天室设备使用 Exchange Web 服务、Microsoft 团队或 
 安装证书的方式与任何其他 Windows 客户端一样。 
   
 > [!NOTE]
-> 为了让 Microsoft 团队聊天室使用 Skype for Business 服务器, 可能需要证书。
+> 为了让 Microsoft 团队聊天室使用 Skype for Business 服务器，可能需要证书。
   
 ### <a name="proxy"></a>代理
 
 Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 通过以下方式访问 Windows OS：
   
-1. 在 Microsoft 球队会议室 UI 中, 单击 "设置" 齿轮图标, 系统将在此处提示您输入本地管理员密码 (默认密码为 " **sfb**")。
-2. 点击 "**设置**", 然后点击 "**转到 Windows** " 按钮, 然后点击 "**转到管理员登录**" 按钮, 然后单击 "**管理员**" 按钮 (如果计算机已加入域, 请选择 **"其他用户",** 然后使用.\admin 用户名)。
-3. 在 regedit 中的 "**搜索窗口**" 框左下角键入 (长按屏幕或右键单击, 然后选择 "**以管理员身份运行**")。
+1. 在 Microsoft 球队会议室 UI 中，单击 "设置" 齿轮图标，系统将在此处提示您输入本地管理员密码（默认密码为 " **sfb**"）。
+2. 点击 "**设置**"，然后点击 "**转到 Windows** " 按钮，然后点击 "**转到管理员登录**" 按钮，然后单击 "**管理员**" 按钮（如果计算机已加入域，请选择 **"其他用户"，** 然后使用.\admin 用户名）。
+3. 在 regedit 中的 "**搜索窗口**" 框左下角键入（长按屏幕或右键单击，然后选择 "**以管理员身份运行**"）。
 4. 单击 HKEY_USERS 文件夹（你将看到计算机用户 SID 列表），确保选择根文件夹 HKEY_USERS。
        
-5. 单击 "文件", 然后选择 "**加载配置单元"。**
-6. 浏览到**C:\Users\Skype**文件夹, 然后在 "文件名" 框中键入 NTUSER, 然后按 "打开" 按钮
+5. 单击 "文件"，然后选择 "**加载配置单元"。**
+6. 浏览到**C:\Users\Skype**文件夹，然后在 "文件名" 框中键入 NTUSER，然后按 "打开" 按钮
 
-7. 系统会提示你输入新加载的配置单元的密钥名称;在 Skype 中键入 (您现在应该可以看到 Skype 用户的注册表设置)。
+7. 系统会提示你输入新加载的配置单元的密钥名称;在 Skype 中键入（您现在应该可以看到 Skype 用户的注册表设置）。
  
-8. 打开 Skype 密钥并浏览到 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 设置, 然后确保输入以下设置: 
+8. 打开 Skype 密钥并浏览到 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 设置，然后确保输入以下设置： 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     如果 ProxyServer 不存在，你可能必须以字符串形式添加此注册表项，将 xx.xx.xx.xx:8080 更改为你的代理服务器的 IP/主机和端口。
     
-9. 完成更改后, 请突出显示 Skype 用户密钥 (Skype 的根文件夹), 然后从 "注册表文件" 菜单中选择 "卸载配置单元" (系统将提示您确认-选择 **"是"** )。
+9. 完成更改后，请突出显示 Skype 用户密钥（Skype 的根文件夹），然后从 "注册表文件" 菜单中选择 "卸载配置单元" （系统将提示您确认-选择 **"是"** ）。
     
 10. 现在可以关闭注册表编辑器并在 Windows 搜索框中键入“注销”。
     
-11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤均已成功, Microsoft 团队聊天室设备将成功登录。
+11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤均已成功，Microsoft 团队聊天室设备将成功登录。
     
 要使用此应用程序，你必须能够连接至下面所述的终结点。要查看 IP 地址，请展开描述通信流的表下面的 IP 地址部分。
   
@@ -123,7 +118,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
 |用于 iOS 设备中的 Lync Mobile 2010 的 Lync Mobile 推送通知 Android、Nokia Symbian 或 Windows Phone 移动设备不需要此功能。  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype Telemetry  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不适用  <br/> |TCP 443  <br/> |
 |Skype 客户端快速提示  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不适用  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > 用于 contoso.com 和 broadcast.skype.com 的通配符表示供 Office 365 独占使用的长节点列表。 
   
@@ -146,7 +141,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
-Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置\> , 可在本地更改密码。转到 Windows 或 AutoUnattend 文件 (使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改)。
+Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置\> ，可在本地更改密码。转到 Windows 或 AutoUnattend 文件（使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改）。
   
 > [!CAUTION]
 > 请务必尽快更改 Microsoft 团队聊天室密码。 
@@ -157,9 +152,9 @@ Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设
   
 ### <a name="machine-account"></a>计算机帐户
 
-与任何 Windows 设备很相似, 可通过右键单击 " \> \>重命名 PC" 的设置来重命名计算机名称。
+与任何 Windows 设备很相似，可通过右键单击 " \> \>重命名 PC" 的设置来重命名计算机名称。
   
- 如果您想要在将计算机加入到域之后重命名该计算机, 请使用 "重命名计算机 PowerShell" 命令, 后跟计算机的新名称。
+ 如果您想要在将计算机加入到域之后重命名该计算机，请使用 "重命名计算机 PowerShell" 命令，后跟计算机的新名称。
   
 ## <a name="see-also"></a>另请参阅
 

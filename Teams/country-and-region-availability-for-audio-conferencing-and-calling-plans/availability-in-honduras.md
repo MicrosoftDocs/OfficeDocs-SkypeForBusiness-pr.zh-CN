@@ -3,7 +3,7 @@ title: 在洪都拉斯的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是 Skype for business 和适用于洪都拉斯的 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 7bb9d48b9f988b66fdc1d547f6776d70d63bd7a1
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: dac59b3afa79252a9a91b48904935a225c4f55fa
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331833"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774413"
 ---
 # <a name="availability-in-honduras"></a>在洪都拉斯的可用性
 
@@ -67,9 +67,9 @@ ms.locfileid: "34331833"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |否  <br/> |
-|是否提供免费电话号码？  <br/> |是  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Tegucigalpa （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

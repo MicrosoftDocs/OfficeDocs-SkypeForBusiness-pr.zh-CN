@@ -2,7 +2,7 @@
 title: 已知问题
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: 6d924559f19aadec0d6d5634a000d7d10e1c2f58
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428030"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775190"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -54,19 +54,19 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 
 ***
 
-用作室内显示器正面的消费者电视必须支持 HDMI 的 "消费者电子设备" (CEC) 功能, 才能从待机模式自动切换到活动视频源。 并非所有电视都支持此功能。
+用作室内显示器正面的消费者电视必须支持 HDMI 的 "消费者电子设备" （CEC）功能，才能从待机模式自动切换到活动视频源。 并非所有电视都支持此功能。
 
 ***
 
-始终使用有线1至 Gbps 网络连接, 确保您有所需的带宽。 
+始终使用有线1至 Gbps 网络连接，确保您有所需的带宽。 
 
 ***
 
-如果你的 Microsoft 团队聊天室设备失去了与域的信任, 你将无法在设备上进行身份验证并打开 "设置"。 例如, 如果在域加入域后从域中删除 Microsoft 团队聊天室, 则信任将丢失。 解决方法是使用本地管理员帐户登录。 
+如果你的 Microsoft 团队聊天室设备失去了与域的信任，你将无法在设备上进行身份验证并打开 "设置"。 例如，如果在域加入域后从域中删除 Microsoft 团队聊天室，则信任将丢失。 解决方法是使用本地管理员帐户登录。 
 ***
 自 Microsoft Teams 会议室 3.0.12.0 版起，不再支持 64 位版本的 Windows 10 企业版 Anniversary Edition（英语版本 1607）。 
 ***
-Microsoft 团队会议室是一个多窗口应用程序, 需要将房间内的正面显示连接到设备的 HDMI 端口, 才能使应用正常运行。 请确保你已连接 HDMI 显示器, 或者使用虚拟 HDMI 插头 (如果你正在测试, 并且尚未购买显示器)。
+Microsoft 团队会议室是一个多窗口应用程序，需要将房间内的正面显示连接到设备的 HDMI 端口，才能使应用正常运行。 请确保你已连接 HDMI 显示器，或者使用虚拟 HDMI 插头（如果你正在测试，并且尚未购买显示器）。
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅

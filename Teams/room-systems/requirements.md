@@ -2,7 +2,7 @@
 title: Microsoft 团队会议室需求
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,48 +11,48 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 4a92ba051564800dace5eafec8e573d807c11d04
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645266"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775168"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
 本文概述了支持 Microsoft 团队聊天室的要求。
 
-你的部署包括[部署 Microsoft 团队聊天室](room-systems-v2.md)和设置会议控制台中所述的帐户创建, 如[配置 microsoft 团队聊天室控制台](console.md)中所述。
+你的部署包括[部署 Microsoft 团队聊天室](room-systems-v2.md)和设置会议控制台中所述的帐户创建，如[配置 microsoft 团队聊天室控制台](console.md)中所述。
 
-另请参阅:
+另请参阅：
 
 - [Skype for Business 加载项授权](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [基于你的计划的许可证选项: Microsoft 团队聊天室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [基于你的计划的许可证选项： Microsoft 团队聊天室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
 > Microsoft 球队会议室旨在与 Microsoft 团队、Skype for business Server 2019、Skype for business Server 2015 或 Skype for business Online 配合使用。
 >
-> 早期平台 (如 Lync Server 2013) 不希望与 Microsoft 团队聊天室一起使用。
+> 早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。
 >
-> 如果您有一个本地 Exchange 服务器, 则 Microsoft 团队聊天室需要使用 Exchange Server 2013 SP1 或更高版本。
+> 如果您有一个本地 Exchange 服务器，则 Microsoft 团队聊天室需要使用 Exchange Server 2013 SP1 或更高版本。
 
 ## <a name="hardware-requirements"></a>硬件要求
 
-根据音频和视频外围设备, Microsoft 团队聊天室可通过附件缩放到不同的空间大小。 本文中列出的硬件同时支持 Skype 和团队会议模式。 音频和视频外设通过插接设备上的 USB 或 HDMI 连接连接到 Microsoft 团队聊天室。 你还将需要：
+根据音频和视频外围设备，Microsoft 团队聊天室可通过附件缩放到不同的空间大小。 本文中列出的硬件同时支持 Skype 和团队会议模式。 音频和视频外设通过插接设备上的 USB 或 HDMI 连接连接到 Microsoft 团队聊天室。 你还将需要：
 
-- 32 GB 或更大的 USB 磁盘, 可配置为 Windows 10 企业版的可启动 Windows 安装媒体。
+- 32 GB 或更大的 USB 磁盘，可配置为 Windows 10 企业版的可启动 Windows 安装媒体。
 
-- 下列平板电脑或控制台之一:
+- 下列平板电脑或控制台之一：
 
 **支持的平板电脑**
 
 |电脑|Processor|RAM|磁盘|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 或更高 |
-|Surface Pro (第五代) |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
+|Surface Pro （第五代） |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
 |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
 
-- 以下扩展坞选项之一, 用于将平板电脑固定到会议室表。
+- 以下扩展坞选项之一，用于将平板电脑固定到会议室表。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
@@ -109,34 +109,34 @@ ms.locfileid: "36645266"
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 | |  | |
 
-- **USB 延长**器:
+- **USB 延长**器：
 
-  - 平板电脑上的 USB 端口兼容 USB 3.0。 你可以使用 USB 2 x 扩展器, 但这会限制你到最远的 USB 2 的速度, 不推荐 USB 3.0 外围设备使用。
+  - 平板电脑上的 USB 端口兼容 USB 3.0。 你可以使用 USB 2 x 扩展器，但这会限制你到最远的 USB 2 的速度，不推荐 USB 3.0 外围设备使用。
 
   - 扩展器必须符合 USB 2.0 或更高版本的规范。
 
-  - 平板电脑停靠支持外部 USB 集线器扩展的至少两个阶段。 如果需要在系列中连接两个以上的 USB 集线器, 请与 dock 制造商确认是否支持此操作。
+  - 平板电脑停靠支持外部 USB 集线器扩展的至少两个阶段。 如果需要在系列中连接两个以上的 USB 集线器，请与 dock 制造商确认是否支持此操作。
 
 - 聊天室中的有线 GbE 连接。 长度合适的以太网电缆。
 
-- 最多 2 1080-p 显示器, 附带 HDMI 连接。 合适长度的 HDMI 电缆。
+- 最多 2 1080-p 显示器，附带 HDMI 连接。 合适长度的 HDMI 电缆。
 
 > [!NOTE]
 > 用作会议室前端显示屏的消费者电视需要支持/启用 HDMI 的 Consumer Electronics Control (CEC) 功能，以使其可以自动从待机模式切换至活动视频源。 并非所有电视都支持此功能。
 
 > [!NOTE]
-> Microsoft 团队聊天室不使用键盘。 如果需要，管理员应使用屏幕键盘。 当图像处理 Microsoft 团队聊天室设备时, 将需要使用 USB 键盘或鼠标。
+> Microsoft 团队聊天室不使用键盘。 如果需要，管理员应使用屏幕键盘。 当图像处理 Microsoft 团队聊天室设备时，将需要使用 USB 键盘或鼠标。
 
-下表提供了基于房间大小的外围设备的建议:
+下表提供了基于房间大小的外围设备的建议：
 
 **Microsoft 团队聊天室认证的音频外围设备**
 
 |会议室类型|人数|建议的最大麦克风距离为扬声器|设备（按最大会议室大小）|备注|
 |:-----|:-----|:-----|:-----|:-----|
-|**焦距** <br/> 10 "x 9"   |2–4  |1.5 m  |Logitech Connect  |Logitech 连接设备包括一个相机, 因此它必须位于房间 (而不是表格中间) 的前面, 以捕获本地会议与会者。  |
+|**焦距** <br/> 10 "x 9"   |2–4  |1.5 m  |Logitech Connect  |Logitech 连接设备包括一个相机，因此它必须位于房间（而不是表格中间）的前面，以捕获本地会议与会者。  |
 |**小** <br/> 16 "x 16"  |4–6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |对于较大的会议室，播放音量可能会受到限制。  |
-|**中** <br/> 18 "x 20"  |6–12  |2.4 m  |Jabra evolve 710 <br/> Jabra 810 <br/> Logitech 聚会 <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech 聚会包括一个相机, 因此它必须位于会议室的前方 (而不是表中央才能捕获本地会议与会者)。 <br/> 通常, 具有长矩形或 u 形表格的房间可从卫星麦克风获益。 <br/> 菊花链配置中必须使用 SP 220 MS。  |
-|**大** <br/> 15 "x 32"  |12–16  |3 m <br/> 此距离还适用于连接到音频设备的每个附属麦克风所覆盖的区域。  |Logitech Group + 卫星麦克风 <br/> Polycom Trio + 卫星麦克风 <br/> Polycom CX5100 + 卫星麦克风 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 卫星麦克风  |此行列出的所有音频设备都支持卫星麦克风选项。 <br/> CX5100 包括内置的360度相机, 以便可以将设备放置在表的中心。 <br/> 菊花链配置中必须使用 SP 220 MS。  |
+|**中** <br/> 18 "x 20"  |6–12  |2.4 m  |Jabra evolve 710 <br/> Jabra 810 <br/> Logitech 聚会 <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech 聚会包括一个相机，因此它必须位于会议室的前方（而不是表中央才能捕获本地会议与会者）。 <br/> 通常，具有长矩形或 u 形表格的房间可从卫星麦克风获益。 <br/> 菊花链配置中必须使用 SP 220 MS。  |
+|**大** <br/> 15 "x 32"  |12–16  |3 m <br/> 此距离还适用于连接到音频设备的每个附属麦克风所覆盖的区域。  |Logitech Group + 卫星麦克风 <br/> Polycom Trio + 卫星麦克风 <br/> Polycom CX5100 + 卫星麦克风 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 卫星麦克风  |此行列出的所有音频设备都支持卫星麦克风选项。 <br/> CX5100 包括内置的360度相机，以便可以将设备放置在表的中心。 <br/> 菊花链配置中必须使用 SP 220 MS。  |
 
 **Microsoft 团队聊天室经认证的视频外设**
 
@@ -152,7 +152,7 @@ ms.locfileid: "36645266"
 
 ## <a name="required-software-downloads"></a>所需软件下载
 
-若要生成自己的 Microsoft 团队聊天室图像, 请按照[配置 Microsoft 团队聊天室控制台](console.md)中的说明进行操作。 这些说明将指导你下载安装过程所需的所有软件。
+若要生成自己的 Microsoft 团队聊天室图像，请按照[配置 Microsoft 团队聊天室控制台](console.md)中的说明进行操作。 这些说明将指导你下载安装过程所需的所有软件。
 
 > [!NOTE]
 > IT 专业人员将需要通过其批量许可协议访问 Windows 10 企业版 ISO 文件。

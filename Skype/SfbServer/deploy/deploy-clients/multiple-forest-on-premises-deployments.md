@@ -4,31 +4,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 7de5d285f36ddd1060ba53aa3e142a09a5d421e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb5aa2cbe3bef26602279ffa9d4a5dc38a7e7bc2
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234195"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775037"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype 会议室系统多林本地部署
  
 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
   
 > [!NOTE]
-> 为了在多个目录林中部署, Skype 会议室系统需要在2013年8月 26 2014 日发布的 Exchange Server CU6。 避免重新使用 Skype 会议室系统的现有邮箱。 为 Skype 会议室系统使用新的 (删除旧邮箱和重新创建) 资源邮箱。 若要还原通过删除邮箱而丢失的会议, 请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
+> 为了在多个目录林中部署，Skype 会议室系统需要在2013年8月 26 2014 日发布的 Exchange Server CU6。 避免重新使用 Skype 会议室系统的现有邮箱。 为 Skype 会议室系统使用新的（删除旧邮箱和重新创建）资源邮箱。 若要还原通过删除邮箱而丢失的会议，请参阅[连接或还原已删除的邮箱](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)。 
   
-在创建邮箱之后，你可以使用 Set-CalendarProcessing 配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 为 Skype 会议室系统创建 Exchange 资源邮箱后, 请按照在单个林本地部署中启用 Skype for business 的 Skype 会议室系统帐户中的步骤启用 Skype for business 帐户。
+在创建邮箱之后，你可以使用 Set-CalendarProcessing 配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 为 Skype 会议室系统创建 Exchange 资源邮箱后，请按照在单个林本地部署中启用 Skype for business 的 Skype 会议室系统帐户中的步骤启用 Skype for business 帐户。
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>方法 1：创建新的资源邮箱
 
-要在多林环境中部署 Skype 会议室系统, 请执行以下操作:
+要在多林环境中部署 Skype 会议室系统，请执行以下操作：
   
 1. 在 Active Directory（身份验证林）中创建链接用户 (LinkedRoomTest)。
     
@@ -39,7 +39,7 @@ ms.locfileid: "36234195"
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>选项 2: 将现有会议室邮箱更改为 Skype 会议室系统 (链接) 资源邮箱
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>选项2：将现有会议室邮箱更改为 Skype 会议室系统（链接）资源邮箱
 
 ```
 $cred=Get-Credential AuthForest\LinkedRoomTest1

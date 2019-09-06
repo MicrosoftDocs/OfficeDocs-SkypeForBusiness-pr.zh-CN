@@ -3,7 +3,7 @@ title: 在印度的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于印度的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 7a7afac460f8b74a7386293cca75d1f8720a20f6
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: fdb9c6ee9abdb68b605743dbfe77bb594fa68ad0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331793"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775418"
 ---
 # <a name="availability-in-india"></a>在印度的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "34331793"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 金奈<li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -67,11 +67,11 @@ ms.locfileid: "34331793"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |孟买  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈 <li>孟买<li>[请求的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)其他城市</ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 请注意，在印度，服务号码仅可用于音频会议。 因此，如果你想要获取音频会议的收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通信点数
 

@@ -3,7 +3,7 @@ title: 在约旦的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是可用于约旦的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0ec12ec7dfb4529a43ec1ebe9d758b6a20609239
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: bd3da6716a4449722fadd1b227e96fbe3032cc1e
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331697"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775429"
 ---
 # <a name="availability-in-jordan"></a>在约旦的可用性
 
@@ -67,9 +67,9 @@ ms.locfileid: "34331697"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |否  <br/> |
-|是否提供免费电话号码？  <br/> |是  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Amman （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

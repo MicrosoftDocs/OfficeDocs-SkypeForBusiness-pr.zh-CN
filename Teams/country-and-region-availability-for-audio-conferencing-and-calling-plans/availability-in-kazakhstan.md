@@ -1,11 +1,10 @@
 ---
-title: 在巴西的可用性
-author: CarolynRowe
-ms.author: crowe
+title: 哈萨克斯坦的可用性
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
-ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -24,34 +23,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于巴西的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
+description: 以下是适用于哈萨克斯坦的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+ms.openlocfilehash: a00cee6bd1ac0138c90fe8e8459e8f63f21cf689
 ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774594"
+ms.locfileid: "36775677"
 ---
-# <a name="availability-in-brazil"></a>在巴西的可用性
+# <a name="availability-in-kazakhstan"></a>哈萨克斯坦的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是适用于巴西的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+以下是适用于哈萨克斯坦的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 圣保罗</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
+|是否可购买音频会议？  <br/> |否  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |有空  <br/> |
+|自动助理 <br/> |有空  <br/> |
 |呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
@@ -63,30 +62,27 @@ ms.locfileid: "36774594"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
+## <a name="toll-and-toll-free-numbers-for-services"></a>适用于服务的免费电话号码和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>里约热内卢 de 里约热内卢 <li>  圣保罗 <li>[请求的](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)其他城市</ul> |
-|是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |是  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | Almaty （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）<br/> |
+|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通信点数
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |是  <br/> |
+|是否提供通信点数？  <br/> |否  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   
-## <a name="see-also"></a>另请参阅
-
-#### <a name="other-resources"></a>其他资源
-
 ## <a name="related-topics"></a>相关主题
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
