@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 更新
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -11,18 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715709"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766960"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
 在一个位置查找和管理[skype for Business server 2019](#skype-for-business-server-2019-update-history)、 [Skype for business server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
 
-有关最新的 Skype for Business Online 和 Office 365 更新, 请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+有关最新的 Skype for Business Online 和 Office 365 更新，请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新历史记录
 
@@ -37,11 +37,11 @@ ms.locfileid: "36715709"
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 累积更新10修复程序1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
+|Skype for Business Server 2015 累积更新10修复程序1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年9月 |
 |Skype for business Server 2015 的累积更新 9-Web 组件服务器|[KB 4487981](https://support.microsoft.com/kb/4487981)| 五月2019 |
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
-|累积更新6修复程序 2 (适用于 Skype for Business Server 2015)、前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 |
+|Skype for business Server 2015、前端服务器和边缘服务器的累积更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
+|累积更新6修复程序2（适用于 Skype for Business Server 2015）、前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 |
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新6修复程序1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 |
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 |
 |Skype for business Server 2015、前端服务器和边缘服务器的累积更新5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
@@ -127,8 +127,8 @@ ms.locfileid: "36715709"
 |[Lync Server 2013 资源工具包工具](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |2014 年 1 月 |
 |[Lync Server 2013 压力和性能工具](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |2013 年 3 月 |
 |[Lync Server 2013 白板存档查看器](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |2013 年 2 月 |
-|[Lync VDI 2013 插件 (32 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012 年 10 月 |
-|[Lync VDI 2013 插件 (64 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
+|[Lync VDI 2013 插件（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012 年 10 月 |
+|[Lync VDI 2013 插件（64位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012 年 10 月 |
 |[新的 Office Visio 模具](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016 年 7 月 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下载文档
@@ -203,7 +203,7 @@ ms.locfileid: "36715709"
 |[Lync Server 2010 文档帮助文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
 |[Lync Server 2010 欢迎页面](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
 |[向 Microsoft Lync Server 2010 文档专家发送即时消息](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
-|[Lync 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011 年 1 月 |
+|[Lync 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx）|2011 年 1 月 |
 |[Lync Server 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
 |[Lync Server 2010 规划工具自述文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|2011 年 1 月 |
 |[Lync Server 2010 Edge 服务器参考体系结构图表](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011 年 3 月 |
@@ -237,4 +237,4 @@ ms.locfileid: "36715709"
 
 - [安装 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [升级到 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-- [使用 Windows Installer (MSI) 的 Skype for Business 的最新版本更新](sfb-client-updates.md)
+- [使用 Windows Installer （MSI）的 Skype for Business 的最新版本更新](sfb-client-updates.md)

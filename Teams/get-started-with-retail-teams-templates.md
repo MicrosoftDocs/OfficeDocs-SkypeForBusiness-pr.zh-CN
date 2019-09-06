@@ -3,7 +3,6 @@ title: 开始使用 Teams 零售模板
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -13,54 +12,54 @@ ms.collection:
 - Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用工作组模板创建团队结构设计零售商需求。
+description: 了解如何使用团队模板创建针对零售商需求设计的团队结构。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245743"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767097"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>开始使用 Teams 零售模板 
 
-工作组模板允许您快速和轻松创建团队提供的预定义的模板的设置、 通道和预安装的应用程序。
+团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
-工作组模板具有预建的团队结构围绕零售商需求而设计的定义。 工作组模板可用于快速创建适用于零售商并将它们部署在整个组织的团队的类型。 您还可以扩展工作组模板创建适合您组织的特定需求的团队。
+团队模板具有围绕零售商需求设计的团队结构的预建定义。 你可以使用团队模板快速创建适用于零售商的团队类型，并在组织中部署这些团队。 您还可以扩展团队模板以创建根据您的特定组织需求量身定制的团队。
 
-本文中，我们将介绍每个工作组模板和我们建议使用它们。
+在本文中，我们将介绍每个团队模板以及我们建议如何使用它们。
 
-本文适用于您，如果您是负责规划、 部署和管理多个团队整个组织零售。
+本文适用于您负责在您的零售组织中规划、部署和管理多个团队的情况。 我们假定你的组织中已部署团队服务。 如果尚未推出团队，请先阅读[如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
 
-若要详细了解团队模板通常情况下，请参阅[入门工作组模板](get-started-with-teams-templates.md)。
+若要深入了解有关团队模板的详细信息，请参阅[团队模板入门](get-started-with-teams-templates.md)。
 
 ## <a name="store-template"></a>存储模板
 
-存储模板非常适合于创建团队表示单个零售存储位置。 使用存储模板时，可以创建您的组织中的每个零售店铺团队。
+应用商店模板是创建团队以表示单个零售商店位置的理想之选。 使用应用商店模板，您可以为您的组织中的每个零售商店位置创建一个团队。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 零售- <br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 频道 <ul><li>引进提交\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Public 工作组可见性</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除通道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
+| 面向 <br>储存 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 频道 <ul><li>班次切换\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为公共</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除频道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
 ||||
 
-建议使用自定义您的组织的存储区模板的方法：
+为你的组织自定义应用商店模板的建议方法：
 
-- 如果您的组织内每个存储有部门，添加为每个部门的通道。 这将有助于通信和部门的协作。
+- 如果您的组织在每个商店中都有部门，请为每个部门添加一个频道。 这将促进部门内的沟通和协作。
 
-- 如果您的组织有任何内部网站 （例如，SharePoint 网站），请考虑这些固定用作相关团队通道中的选项卡。 有关说明，请参阅[入门工作组模板](get-started-with-teams-templates.md)。
+- 如果您的组织具有任何内部网站（例如，SharePoint 网站），请考虑将它们固定为相关团队频道中的选项卡。 有关说明，请参阅[团队模板入门](get-started-with-teams-templates.md)。
 
-## <a name="manager-collaboration-template"></a>管理器协作模板
+## <a name="manager-collaboration-template"></a>经理协作模板
 
-另一个设计零售商周围的工作组模板需要的管理器协作模板。 管理器协作模板非常适合于创建一组管理跨存储/地区等协作的团队。例如，如果您的组织具有区域，您可能为加利福尼亚地区创建管理器协作工作组和包括在该区域中，所有存储区管理器，以及为该区域的区域管理器。
+经理协作模板是围绕零售商的需求而设计的另一个团队模板。 经理协作模板非常适合为一组经理创建团队，以便在商店/地区等协作。例如，如果您的组织拥有区域，则可以为加利福尼亚地区创建经理协作团队，并包括该地区的所有商店经理以及该地区的地区经理。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 零售- <br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>运营\*</li><li>学习\*</li></ul>\*自动 favorited 通道<br><br>团队属性 <ul><li>设置为 Private 工作组可见性</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除通道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
+| 面向 <br>储存 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>运营\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除频道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
 ||||
 
-建议使用自定义您的组织的管理器协作模板的方法：
+为你的组织自定义经理协作模板的推荐方法：
 
-- 如果您的组织相关经理任何内部网站 （例如，SharePoint 网站），请考虑这些固定用作相关团队通道中的选项卡 (参考文档[此处](get-started-with-teams-templates.md)的说明)。
+- 如果您的组织具有与经理相关的任何内部网站（例如 SharePoint 网站），请考虑将它们固定为相关团队频道中的选项卡（有关说明，请参阅[此处](get-started-with-teams-templates.md)的文档）。

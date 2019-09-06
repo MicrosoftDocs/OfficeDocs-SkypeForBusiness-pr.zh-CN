@@ -1,7 +1,7 @@
 ---
 title: 使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
-ms.author: v-lanac
-author: lanachin
+ms.author: phillipg
+author: PhillipGarding
 manager: serdars
 ms.reviewer: qingy
 audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 6ee633bf9aa35d79c6db83371a47a948da6e6bd3
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: d92c9a289742c54c766d22f4322e755699b478c3
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204019"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767201"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的 Skype for Business 版本的最新更新
 
@@ -98,7 +98,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 |Skype for business 2015/Lync 2013 的安全更新 |[KB 4022225](https://support.microsoft.com/kb/4022225) | 2018 年 7 月 |
 |Skype for business 2015/Lync 2013 更新 |[KB 4022170](https://support.microsoft.com/kb/4022170) | 2018年6月 |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4018377](https://support.microsoft.com/kb/4018377) | 五月2018 |
-|Skype for business 2015/Lync 2013 更新 |[KB 4018334](https://support.microsoft.com/kb/4018334) | 2018年4月) |
+|Skype for business 2015/Lync 2013 更新 |[KB 4018334](https://support.microsoft.com/kb/4018334) | 2018年4月） |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4018290](https://support.microsoft.com/kb/4018290) | 2018年3月 |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4011678](https://support.microsoft.com/kb/4011678) | 2018年2月 |
 |Skype for Business 2015/Lync 2013 更新 |[KB 4011638](https://support.microsoft.com/kb/4011638) | 2018年1月 |
@@ -227,7 +227,7 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 | Lync Phone Edition 的累积更新 Polycom CX700 和 LG Nortel IP Phone 8540 电话                  | [KB 3050590](https://support.microsoft.com/en-us/kb/3050590)   | 2015 年 5 月     |
 | Lync Phone Edition 的累积更新 Aastra 6721ip 和 Aastra 6725ip 电话                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014年4月   |
 | 适用于 HP 4110 和 HP 4120 电话的 Lync Phone Edition 累积更新                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014年4月   |
-| Lync Phone Edition 的累积更新, 适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014年4月   |
+| Lync Phone Edition 的累积更新，适用于 Polycom CX500、Polycom CX600 和 Polycom CX3000 电话           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014年4月   |
 | Lync Phone Edition 的累积更新 Polycom CX700 和 LG Nortel IP Phone 8540 电话                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014年4月   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>下载中心上的 Lync Phone Edition 客户端
@@ -242,8 +242,8 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 软件包名称|发布日期|
 |:--- |:--- |:--- |
-|[Lync Basic 2013 (32 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35451) | 2012 年 10 月 |
-|[Lync Basic 2013 (64 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35450) | 2012 年 10 月 |
+|[Lync Basic 2013 （32位）](https://www.microsoft.com/en-us/download/details.aspx?id=35451) | 2012 年 10 月 |
+|[Lync Basic 2013 （64位）](https://www.microsoft.com/en-us/download/details.aspx?id=35450) | 2012 年 10 月 |
 
 * * *
 
@@ -279,22 +279,22 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync 2010 与会者的安全更新 (管理员级别安装) |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017年9月|
-|Lync 2010 与会者的安全更新 (管理员级别安装) |[KB 4025866](https://support.microsoft.com/kb/4025866) |6 月 2017 日|
-|Lync 2010 与会者的安全更新 (用户级别安装) |[KB 4020734](https://support.microsoft.com/kb/4020734) |6 月 2017 日|
-|Lync 2010 与会者 (管理员级别安装) 上的 Microsoft 图形组件安全更新 |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017年3月|
-|Lync 2010 与会者的安全更新 (管理员级别安装) |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016年10月|
+|Lync 2010 与会者的安全更新（管理员级别安装） |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017年9月|
+|Lync 2010 与会者的安全更新（管理员级别安装） |[KB 4025866](https://support.microsoft.com/kb/4025866) |6 月 2017 日|
+|Lync 2010 与会者的安全更新（用户级别安装） |[KB 4020734](https://support.microsoft.com/kb/4020734) |6 月 2017 日|
+|Lync 2010 与会者（管理员级别安装）上的 Microsoft 图形组件安全更新 |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017年3月|
+|Lync 2010 与会者的安全更新（管理员级别安装） |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016年10月|
 |Lync 2010 与会者的累积更新说明-管理员级别安装 |[KB 3171502](https://support.microsoft.com/kb/3171502)|6 月 2016 日 |
 |Lync 2010 与会者的累积更新说明-用户级别安装 |[KB 3171496](https://support.microsoft.com/kb/3171496) |6 月 2016 日 |
-|Lync 2010 与会者的安全更新 (管理员级别安装) |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |
-|Lync 2010 与会者的安全更新 (用户级安装) |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015 年 9 月 |
+|Lync 2010 与会者的安全更新（管理员级别安装） |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |
+|Lync 2010 与会者的安全更新（用户级安装） |[KB 3081088](https://support.microsoft.com/kb/3081088) |2015 年 9 月 |
 
 ### <a name="attendant"></a>助理
 
 | **软件包名称/链接**                                                                       | 发布日期  |
 |:--------------------------------------------------------------------------------------------|:--------------|
-| [Lync 2010 助理 (32 位)](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
-| [Lync 2010 助理 (64 位)](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
+| [Lync 2010 助理（32位）](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
+| [Lync 2010 助理（64位）](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
 
 ### <a name="attendee"></a>与会者
 
@@ -307,8 +307,8 @@ Skype for Business 与 Office 365 和你的本地环境的兼容性取决于你�
 
 | **软件包名称/链接**                                                                       | 发布日期  |
 |:--------------------------------------------------------------------------------------------|:--------------|
-| [Lync 2010 试用版 (32 位)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
-| [Lync 2010 试用版 (64 位)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
+| [Lync 2010 试用版（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
+| [Lync 2010 试用版（64位）](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
 
 ## <a name="related-topics"></a>相关主题
 
