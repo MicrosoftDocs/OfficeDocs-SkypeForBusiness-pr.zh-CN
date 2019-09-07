@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766960"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790812"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -30,6 +30,16 @@ ms.locfileid: "36766960"
 |:--- |:--- |:--- |
 |Skype for Business Server 2019 累积更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019 工具
+
+|软件包名称/链接|发布日期|
+|:--- |:--- |
+|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019年6月       |
+|[统一通信托管 API 5.0 运行时](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018年6月        |
+|[Skype for Business Server 2019、Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018年6月        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新历史记录
 
@@ -54,7 +64,14 @@ ms.locfileid: "36766960"
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 工具
+
+|软件包名称/链接|发布日期|
+|:--- |:--- |
+|[UCMA 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
+|[统一通信托管 API 5.0 运行时](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   2015 年 5 月      |
+|[Skype for Business Server 2015、Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019年6月       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新历史记录
 
