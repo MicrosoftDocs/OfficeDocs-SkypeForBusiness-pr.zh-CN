@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790812"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838018"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -47,22 +47,9 @@ ms.locfileid: "36790812"
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 累积更新10修复程序1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年9月 |
-|Skype for business Server 2015 的累积更新 9-Web 组件服务器|[KB 4487981](https://support.microsoft.com/kb/4487981)| 五月2019 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
-|累积更新6修复程序2（适用于 Skype for Business Server 2015）、前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新6修复程序1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新4修复程序1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017年11月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |6 月 2016 日 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
-|Skype for business Server 2015、前端服务器和边缘服务器的累积更新1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
-|Skype for Business Server 2015 核心组件的累积更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
-|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 |
-||||
+|Skype for Business Server 2015 累积更新10修复程序1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年8月 |
+
+|Skype for Business Server 2015 累积更新 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019年7月 | |Skype for business Server 2015 的累积更新 9-Web 组件服务器 |[KB 4487981](https://support.microsoft.com/kb/4487981)|5月 2019 | |Skype for business Server 2015 （前端服务器和边缘服务器）的累积更新8[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018年7月 | |累积更新6修复程序2（适用于 Skype for Business Server 2015）、前端服务器和边缘服务器 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 | |累积更新6修复程序1适用于 Skype for business Server 2015、前端服务器和边缘服务器 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新 6 |[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新 5 |[KB 4012621](https://support.microsoft.com/kb/4012621) |5月 2017 | |Skype for business Server 2015 的累积更新4修复程序1、前端服务器和边缘服务器 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017年2月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新4[KB 3199093](https://support.microsoft.com/kb/3199093) |2017年11月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新3[KB 3149227](https://support.microsoft.com/kb/3149227) |2016年6月 | |Skype for business Server 2015 的累积更新2、前端服务器和边缘服务器 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016年3月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015年11月 | |Skype for business Server 2015 （核心组件）的累积更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015年9月 | |Skype for business Server 2015、前端服务器和边缘服务器的累积更新 |[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 | | | | |
 
 ### <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 工具
 
@@ -79,17 +66,19 @@ ms.locfileid: "36790812"
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync Server 2013 累积更新10修复程序1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|2019年1月|
-|Lync Server 2013 累积更新10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|2018 年 7 月 |
-|Lync Server 2013 累积更新 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |2017 年 7 月 |
-|Lync Server 2013 累积更新 8 修补程序 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |2017年3月 |
-|Lync Server 2013 累积更新8修复程序3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |2017年1月 |
-|Lync Server 2013 累积更新8修复程序2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |2016 年 12 月 |
-|Lync Server 2013 累积更新 8 修补程序 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |2016 年 11 月 |
+|Lync Server 2013 累积更新10修复程序3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019年9月|
+|Lync Server 2013 累积更新10修复程序2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019年6月|
+|Lync Server 2013 累积更新10修复程序1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019年1月|
+|Lync Server 2013 累积更新10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
+|Lync Server 2013 累积更新 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
+|Lync Server 2013 累积更新 8 修补程序 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |2017年3月 |
+|Lync Server 2013 累积更新8修复程序3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |2017年1月 |
+|Lync Server 2013 累积更新8修复程序2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |2016 年 12 月 |
+|Lync Server 2013 累积更新 8 修补程序 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |2016 年 11 月 |
 |Lync Server 2013 累积更新8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016 年 8 月 |
 |Lync Server 2013 累积更新7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
 |Lync Server 2013 累积更新6修复程序2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
-|Lync Server 2013 累积更新6修复程序1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|2015 年 12 月 |
+|Lync Server 2013 累积更新6修复程序1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|2015 年 12 月 |
 |Lync Server 2013 累积更新6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
 |Lync Server 2013 累积更新5修复程序10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015年7月 |
 |Lync Server 2013 累积更新5修复程序9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
