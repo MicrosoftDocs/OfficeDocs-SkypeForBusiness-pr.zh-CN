@@ -643,7 +643,7 @@
 ### [监控质量](upgrade-monitor-quality.md)
 ### [增强服务](upgrade-enhance-my-service.md)
 
-
+## [Skype for Business Online 停用](skype-for-business-online-retirement.md)
 ## [常见问题解答](FAQ-journey.md)
 
 ## 详细了解共存模式
