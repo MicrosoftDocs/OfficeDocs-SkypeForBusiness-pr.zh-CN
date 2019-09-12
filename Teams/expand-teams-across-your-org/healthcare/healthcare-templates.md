@@ -15,24 +15,24 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232246"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852835"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
-对于医疗保健组织而言, 模板非常强大, 因为它们为用户提供了如何有效地利用团队的结构。 模板还允许管理员在其组织中部署一致的团队。 本文适用于你负责在整个医疗保健组织中规划、部署和管理多个团队的情况。
+对于医疗保健组织而言，模板非常强大，因为它们为用户提供了如何有效地利用团队的结构。 模板还允许管理员在其组织中部署一致的团队。 本文适用于你负责在整个医疗保健组织中规划、部署和管理多个团队的情况。
 
-我们当前提供了两个第一方医疗保健模板, 您可以在各种情况下利用这些模板。 若要深入了解有关团队模板的详细信息, 请参阅[团队模板入门](../../get-started-with-teams-templates.md)。
+我们当前提供了两个第一方医疗保健模板，您可以在各种情况下利用这些模板。 若要深入了解有关团队模板的详细信息，请参阅[团队模板入门](../../get-started-with-teams-templates.md)。
 
 ## <a name="ward-template"></a>拖动模板
 
-拖动模板适用于拖动、pod 或部门中的通信和协作。 该模板可用于促进患者管理, 以及拖动的运行需要。 例如, 可以在*公告*频道中发布拖动公告, 并且可以在*人员配备*中管理班次。 如果你想要简化拖动操作, 则此模板适用于你。
+拖动模板适用于拖动、pod 或部门中的通信和协作。 该模板可用于促进患者管理，以及拖动的运行需要。 例如，可以在*公告*频道中发布拖动公告，并且可以在*人员配备*中管理班次。 如果你想要简化拖动操作，则此模板适用于你。
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
@@ -43,7 +43,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="hospital-template"></a>医院模板
 
-医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道, 包括*公告*、 *Custodial*和*药房*, 但我们还提供以下脚本, 该脚本将使用各种其他部门扩展模板, 或者可供您根据自己的喜好添加、删除或编辑的以专业为中心的频道。 例如, 如果您有一个*Endocrinology*部门, 但不需要*Ophthalmology*的频道, 则可以改编该脚本以包括*Endocrinology*频道和删除*Ophthalmology*频道。 我们建议, 这些专业或拖动建模的通道不是自动收藏, 以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
+医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道，包括*公告*、 *Custodial*和*药房*，但我们还提供以下脚本，该脚本将使用各种其他部门扩展模板，或者可供您根据自己的喜好添加、删除或编辑的以专业为中心的频道。 例如，如果您有一个*Endocrinology*部门，但不需要*Ophthalmology*的频道，则可以改编该脚本以包括*Endocrinology*频道和删除*Ophthalmology*频道。 我们建议，这些专业或拖动建模的通道不是自动收藏，以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
@@ -54,12 +54,12 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
-若要使用这些模板, 只需将请求正文中的 "template@odata.bind" 属性从 "standard" 更改为上面的 TemplateIDs。  有关如何部署团队模板的详细信息, 请参阅 Microsoft Graph[中有关创建团队的文章](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用这些模板，只需将请求正文中的 "template@odata.bind" 属性从 "standard" 更改为上面的 TemplateIDs。  有关如何部署团队模板的详细信息，请参阅 Microsoft Graph 有关如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)的文章。
 
 > [!NOTE]
 > 模板中的频道将在 "常规" 选项卡下自动创建。
 
-### <a name="example-hospital-template-extension-script"></a>示例: 医院模板扩展脚本
+### <a name="example-hospital-template-extension-script"></a>示例：医院模板扩展脚本
 
 ``` Powershell
 { 
