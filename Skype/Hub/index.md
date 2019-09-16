@@ -9,7 +9,7 @@ author: kenwith
 description: Skype for Business
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
 ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/02/2019
 ms.locfileid: "35418373"
@@ -111,7 +111,7 @@ ms.locfileid: "35418373"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft Teams</h3>
-                                                    <p>获取成功推出 Microsoft Teams 所需的计划、方式和实际指导。</p>
+                                                    <p>获取成功推出 Microsoft Teams 所需的计划、操作说明和实用指南。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "35418373"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>从 Skype for Business 到 Microsoft Teams 的旅程</h3>
-                                                    <p>查找指导和工具以浏览最佳的团队途径。</p>
+                                                    <p>查找探索 Teams 的最佳路径的指南和工具。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "35418373"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>最终用户</h3>
-                                                    <p>在<a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>上查找 Skype for business 用户的帮助、培训和技术支持。</p>
+                                                    <p>在 <a href='https://support.office.com/zh-CN/skype-for-business' target="_blank">support.office.com</a> 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>
