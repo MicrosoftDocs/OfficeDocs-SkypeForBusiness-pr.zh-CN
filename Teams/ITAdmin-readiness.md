@@ -18,12 +18,12 @@ f1keywords:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
+ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483220"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36993940"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -99,15 +99,16 @@ ms.locfileid: "36483220"
 | 网络规划 | [视频](https://aka.ms/teams-networking) | [幻灯片](https://aka.ms/teams-networking-deck) |
 | 通话质量概述 | [视频](https://aka.ms/teams-quality) | [幻灯片](https://aka.ms/teams-quality-deck) |
 | 会议简介 | [视频](https://aka.ms/teams-meetings-intro) | [幻灯片](https://aka.ms/teams-meetings-intro-deck) |
+| 媒体 |[视频](https://aka.ms/media-in-teams)  | [幻灯片](https://aka.ms/media-in-teams-deck)|
 | 实时事件 | [视频](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
 | 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [视频](https://aka.ms/teams-direct-routing) | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
-| 从 Skype for Business 升级到 Teams | [视频 1: 升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2: 规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3: 共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4: 管理员体验](https://aka.ms/teams-upgrade-admin) | [幻灯片](https://aka.ms/teams-upgrade-deck)|
+| 从 Skype for Business 升级到 Teams | [视频1：升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频2：规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频3：共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频4：管理员体验](https://aka.ms/teams-upgrade-admin) | [幻灯片](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入门指南</h2>
 
-- [快速入门: 面向教育版管理员的团队](teams-quick-start-edu.yml)
-- [快速入门: 配置团队中的呼叫计划](configuring-teams-calling-quickstartguide.md)
+- [快速入门：面向教育版管理员的团队](teams-quick-start-edu.yml)
+- [快速入门：配置团队中的呼叫计划](configuring-teams-calling-quickstartguide.md)
 
 <h2>讲解</h2>
 
