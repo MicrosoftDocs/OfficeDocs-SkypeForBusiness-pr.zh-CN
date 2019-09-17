@@ -27,6 +27,7 @@
 ## [在 Teams 中共享文件](sharing-files-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
+## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 
 
@@ -291,6 +292,7 @@
 #### [语音邮件问候和消息所使用的语言](languages-for-voicemail-greetings-and-messages.md)
 ### 来电显示
 #### [如何在你的组织中使用来电显示](how-can-caller-id-be-used-in-your-organization.md)
+#### [管理来电显示策略](caller-id-policies.md)
 #### [为用户设置来电显示](set-the-caller-id-for-a-user.md)
 #### [更多关于呼叫线路 ID 和主叫方名称的信息](more-about-calling-line-id-and-calling-party-name.md)
 ### 自动助理和呼叫队列 
@@ -304,7 +306,6 @@
 ### [呼叫寄存和检索](call-park-and-retrieve.md)
 ### [呼叫共享和组内呼叫应答](call-sharing-and-group-call-pickup.md)
 ### [呼叫策略](teams-calling-policy.md)
-### [呼叫者 ID 策略](caller-id-policies.md)
 ### [共享线路外观](shared-line-appearance.md)
 ### [了解用户如何阻止 Teams 客户端上的 PSTN 呼叫](block-pstn-calls-on-Teams-clients.md)
 
