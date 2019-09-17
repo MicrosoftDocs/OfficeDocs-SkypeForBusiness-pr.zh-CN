@@ -11,10 +11,10 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: '摘要: 浏览这些链接以了解如何实施 Skype for Business Server 2019。'
+description: 摘要：浏览这些链接，了解如何实施 Skype for Business Server 2019。
 ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
 ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/20/2019
 ms.locfileid: "34283904"
@@ -33,7 +33,7 @@ ms.locfileid: "34283904"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>规划</h3>
+                        <h3>计划</h3>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ ms.locfileid: "34283904"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>立即下载!</h3>
+                        <h3>立即下载！</h3>
                     </div>
                 </div>
             </div>
@@ -201,12 +201,12 @@ ms.locfileid: "34283904"
 </ul>
 -->
 
-### <a name="featured-articles"></a>特色文章
+### <a name="featured-articles"></a>特别推荐的文章
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **开始之前** <br>[系统要求](plan/system-requirements.md) <br>[网络要求](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **安装** <br>[安装 Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [迁移到 Skype for business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **企业语音**<br>[计划](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[部署](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **新增功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前的版本**<br/>  [Skype for Business Server 2015 文档](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 文档](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **准备工作** <br>[系统要求](plan/system-requirements.md) <br>[网络要求](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **安装** <br>[安装 Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [迁移到 Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **企业语音**<br>[计划](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[部署](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **新功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前的版本**<br/>  [Skype for Business Server 2015 文档](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 文档](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *
