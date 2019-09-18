@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6135a96e588c881f1f3548632da9e14182c9e53
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245394"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018830"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -47,7 +47,7 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 - Whiteboard
 - Yammer Enterprise 
 
-该试用版为你的整个组织提供为期一年的试用版订阅。 该试用版使 500,000 个许可证可用于分配。 对于分配的每个许可，该试用版将分配 2 GB 的 SharePoint Online 存储容量。 
+该试用版为你的整个组织提供为期一年的试用版订阅。 对于分配的每个许可，该试用版将分配 2 GB 的 SharePoint Online 存储容量。 
 
 ## <a name="who-is-eligible"></a>哪些人符合条件
 
@@ -146,6 +146,6 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 2019 年 4 月 22 日起，用户可以开始申请最新的 Microsoft Teams 商业云试用许可证。 如果要将组织中的用户从旧版试用许可证移到最新的试用许可证，则需要首先删除每个用户的旧版 Microsoft Teams 试用许可证。 删除旧版许可证后，每个受影响的用户都可以申请更新的 Microsoft Teams 商业云试用许可证。
 
-- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/zh-CN/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/zh-CN/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
