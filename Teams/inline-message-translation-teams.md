@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2eb68a06a24436b6c12e4ee5b59a24a0da92ca7e
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245342"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047078"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>在 Microsoft 团队中启用内联邮件翻译 
 =================================================
 
-内联消息翻译是 Microsoft Teams 的一项新功能，让用户可以自动将 Teams 消息翻译为由自己的 Office 365 个人语言设置指定的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
+内联邮件转换是一种新的 Microsoft 团队功能，可让用户将团队邮件转换为 Office 365 的个人语言设置所指定的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
 
-默认会为贵组织部署内联消息翻译。 如果您希望允许用户在团队客户端中使用此功能, 则必须启用此设置。
+默认会为贵组织部署内联消息翻译。 如果您希望允许用户在团队客户端中使用此功能，则必须启用此设置。
 
 > [!NOTE]
 >我们的 Office 365 政府社区云和 Office 365 德国环境中的 Office 365 订阅不包括此推出。
@@ -43,7 +43,7 @@ ms.locfileid: "36245342"
 
 ## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>使用 Microsoft 团队管理中心打开内联邮件翻译
 
-在**Microsoft 团队管理中心**中, 从左侧导航中选择 "**邮件策略**", 然后创建新策略或编辑现有策略, 并将 "**允许用户将邮件翻译**为" 选项设置为 **"打开**"。
+在**Microsoft 团队管理中心**中，从左侧导航中选择 "**邮件策略**"，然后创建新策略或编辑现有策略，并将 "**允许用户将邮件翻译**为" 选项设置为 **"打开**"。
 
 > [!NOTE]
-> 该服务执行翻译, 并将其传递给客户, 而不会影响合规性记录中捕获的内容。 若要了解有关翻译的详细信息, 请参阅[什么是 Microsoft Translator？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。
+> 该服务执行翻译，并将其传递给客户，而不会影响合规性记录中捕获的内容。 若要了解有关翻译的详细信息，请参阅[什么是 Microsoft Translator？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。
