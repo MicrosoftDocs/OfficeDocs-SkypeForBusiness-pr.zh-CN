@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790829"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047037"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -154,6 +154,10 @@ ms.locfileid: "36790829"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> |通过移动 `C:\users` 文件夹或使用符号链接更改默认位置 `C:\users\<user>\appData` 后，该应用启动时显示白屏。   <br/> |无已知解决方法。如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。   <br/> |2017 年 3 月 13 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|当用户移至“仅 Teams”体验后，Office 应用程序中的状态未显示。 <br/> |当用户移至“仅 Teams”体验并卸载 Skype for Business 客户端后，状态显示将停止工作。  <br/> |为了使状态显示在 Outlook 中工作，即使你只打算使用 Microsoft Teams，也必须将 Skype for Business 包含在 Office 部署中。  我们计划在未来删除 Skype for Business 依赖关系，但目前尚无安排。     <br/> |9/2019  <br/> |
 
 ## <a name="environment"></a>环境
 
