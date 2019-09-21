@@ -13,21 +13,22 @@ ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
-description: 实时、交互式的研讨会, 旨在让你在30天内与 Microsoft 团队保持协作并与他们保持协作。
+description: 实时、交互式的研讨会，旨在让你在30天内与 Microsoft 团队保持协作并与他们保持协作。
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4be855754f6a162016f23feadc0de34849ac2bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3036f50be02a5fdb0691a2895005fc373c4ac540
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243755"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062940"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>30个团队</h1>
-           <p>Microsoft 很高兴邀请您加入<strong>团队</strong>, 这是一系列实时、交互式的研讨会, 旨在帮助中等规模的组织 (500-5000 员工) 在30天内与 Microsoft 团队一起开始和运行。 请加入我们, 了解经过时间检验的指南和最佳做法, 并获得您的团队问题的答案。 研讨会参与者还将使用团队专家接收有关开放 mic 办公时间的独占邀请。
+           <p>Microsoft 很高兴邀请您加入<strong>团队</strong>，这是一系列实时、交互式的研讨会，旨在帮助中等规模的组织（500-5000 员工）在30天内与 Microsoft 团队一起开始和运行。 请加入我们，了解经过时间检验的指南和最佳做法，并获得您的团队问题的答案。 研讨会参与者还将使用团队专家接收有关开放 mic 办公时间的独占邀请。
            <p><font color="#6264A7">准备好了吗？</font> 我们鼓励你的项目团队的所有成员从30个会议开始开始<i>使用团队</i>。 单击下面的 "会话标题" 进行注册。
         <ul class="pivots">
             <li>
@@ -48,8 +49,8 @@ ms.locfileid: "36243755"
                     </div>
                     <div class="cardText">
                         <h3>从30开始使用团队</h3>
-                        <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划, 以及可用于确保你成功的资源。</P>
-                        <p>受众: 企业赞助商、IT 管理员、采纳和更改所有者</p>
+                        <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划，以及可用于确保你成功的资源。</P>
+                        <p>受众：企业赞助商、IT 管理员、采纳和更改所有者</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +70,7 @@ ms.locfileid: "36243755"
                     </div>
                     <div class="cardText">
                     <h3>准备环境-第一部分</h3>
-                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>受众: IT 管理员</p>
+                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>受众： IT 管理员</p>
 </div>
                 </div>
             </div>
@@ -87,7 +88,7 @@ ms.locfileid: "36243755"
                     </div>
                     <div class="cardText">
                         <h3>准备环境-第 II 部分</h3>
-                    <p>既然你已经掌握了基础知识, 请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>受众: IT 管理员</p>
+                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>受众： IT 管理员</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +107,7 @@ ms.locfileid: "36243755"
                     </div>
                     <div class="cardText">
                         <h3>准备好最终用户</h3>
-                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>受众: 采纳和更改所有者</p>
+                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>受众：采纳和更改所有者</p>
                     </div>
                 </div>
             </div>
@@ -126,7 +127,7 @@ ms.locfileid: "36243755"
                     <div class="cardText">
                     <h3>优化和扩展</h3>
                     <p>设计包括优化服务性能、扩大团队功能和加入新用户的计划。</p>
-                    <p>受众: 企业赞助商、IT 管理员、采纳和更改所有者</p>
+                    <p>受众：企业赞助商、IT 管理员、采纳和更改所有者</p>
                     </div>
                 </div>
             </div>
