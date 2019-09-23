@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047037"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062888"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -155,10 +155,6 @@ ms.locfileid: "37047037"
 |:-----|:-----|:-----|:-----|
 |将某个驱动器以符号方式链接或映射到 C:\users 会导致应用启动时显示白屏  <br/> |通过移动 `C:\users` 文件夹或使用符号链接更改默认位置 `C:\users\<user>\appData` 后，该应用启动时显示白屏。   <br/> |无已知解决方法。如果必须存在映射，则应使用 Web 版本的 Microsoft Teams。   <br/> |2017 年 3 月 13 日  <br/> |
 
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|当用户移至“仅 Teams”体验后，Office 应用程序中的状态未显示。 <br/> |当用户移至“仅 Teams”体验并卸载 Skype for Business 客户端后，状态显示将停止工作。  <br/> |为了使状态显示在 Outlook 中工作，即使你只打算使用 Microsoft Teams，也必须将 Skype for Business 包含在 Office 部署中。  我们计划在未来删除 Skype for Business 依赖关系，但目前尚无安排。     <br/> |9/2019  <br/> |
-
 ## <a name="environment"></a>环境
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -253,6 +249,12 @@ ms.locfileid: "37047037"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |无法将未应答呼叫配置为转到桌面应用的语音邮件|当用户处于“仅 Teams”模式下时，其 Exchange 邮箱处于本地，如果他们在 Teams 桌面应用中访问“**设置**” > “**呼叫**”，则无法选择将呼叫转发到语音邮件的选项（未应答呼叫或所有呼叫）。 如果已经配置了任一选项，则打开“设置”中的“呼叫”选项卡将禁用转发到语音邮件。|使用 Teams 移动应用配置转发到语音邮件。|2019 年 5 月 27 日|
+
+## <a name="presence"></a>状态
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|当用户移至“仅 Teams”**** 模式后，Outlook 和其他 Office 应用程序中的状态未显示。 <br/> |如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。  <br/> |要在 Outlook（和其他 Office 应用程序）中查看状态，即使是在“仅 Teams”**** 模式下运行 Teams，也必须安装 Skype for Business。 Microsoft 已发现此问题且正在开发修补程序。  <br/> |2019 年 9 月  <br/> |
+
 
 
 ## <a name="provisioning"></a>预配
