@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: 99e12ba4ee8bf983a62dee87a82f3bb7b9cb1ccc
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 644b551caaf8dbc2cabc0dd5ff4b4d0199aae766
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018851"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131632"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -68,7 +68,7 @@ ms.locfileid: "37018851"
 > 只有 Microsoft 团队用户和代理才支持直接路由呼叫队列服务号码。
 
 > [!NOTE]
-> 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话计划。 请参阅[分配 Skype For business 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话计划。 请参阅[分配 Skype For business 许可证](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - 若要了解有关 Office 365 呼叫计划的详细信息，请参阅[手机系统和通话计划](calling-plan-landing-page.md)和[Office 365 的呼叫计划](calling-plans-for-office-365.md)。
 

@@ -1,0 +1,44 @@
+### YamlMime:Tutorial
+title: 使用网络 Planner-示例方案
+metadata:
+  title: 使用网络 Planner-示例方案
+  description: 浏览使用网络 Planner 设置网络计划和生成报告。
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: serdars
+  manager: serdars
+  ms.date: 05/16/2019
+  ms.reviewer: rowille
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  ms.collection:
+  - M365-collaboration
+  ms.openlocfilehash: 1046ad4331e085609f2b412e6ff8abb3830ee330
+  ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 09/24/2019
+  ms.locfileid: "37131706"
+items:
+- durationInMinutes: 2
+  content: "\n\"网络规划器\" 工具在 \"团队管理中心\" 中可用。 它可帮助你确定你的组织的网络要求。 此示例方案显示了如何使用该工具创建名为 Contoso 的公司的网站、角色和运行报表。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定你已了解团队管理中心的相关方法，并且你熟悉为团队准备网络所需的操作。 如果这是您在网络 Planner 中看到的第一篇文章，我们建议您先阅读以下文章。\n\n- [为 Teams 准备贵组织的网络](prepare-network.md)\n- [使用 Microsoft 团队的网络 Planner](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 网络概述\n\nContoso 有三个位置：\n\n- **西雅图总部：** 这是 Contoso 的主要位置。 它有1000名员工，25名员工仅限通话。 该网站已连接到 internet，并且有本地电话连接（PSTN）。 Contoso 设置了直接路由，以便能够与团队一起使用本地电话连接。 \n- **Kirkland Office：** 此分支机构有400个员工，10只是通话。 网站对 internet 和电话（PSTN）流量使用与总部的连接。 此 office 使用 WAN 连接连接到西雅图总部。\n- **丹佛 Office：** 此 office 拥有250员工和50仅供通话。 该网站具有自己的本地 internet 连接，但没有直接电话连接（PSTN）。\n\n让我们开始吧！\n"
+- title: 添加网络计划
+  durationInMinutes: 2
+  content: "\n在 \"团队管理中心\" 中，展开 \"**组织范围的设置**\"，然后选择 \"**网络进度表**\"。 您需要做的第一件事就是创建一个网络计划。 \n\n1. 单击 \"**添加网络计划**\" \n2. 在 \"**新建网络计划**\" 窗格中，为您的网络计划添加名称和说明。 对于此示例，我们将使用*Contoso1*作为计划名称，并将*Contoso network 计划*用作描述。\n3. 单击 \"**保存**\"\n\n![添加新的网络计划](media/network-planner-new-network-plan.png)\n\n在你保存网络计划后，它将显示在你的网络计划列表中。 \n\n![网络计划列表](media/network-planner-network-plans.png)\n"
+- title: 创建自定义角色
+  durationInMinutes: 2
+  content: "\n接下来，你需要创建代表你的用户的必要角色。 由于每个位置都有专门的用户，这些用户只能进行电话呼叫，因此你需要创建该角色。\n\n1. 在 \"网络进度表\" 页面上，单击 \"**角色**\" 选项卡，然后单击 \" **+ 自定义角色**\"。 \n2. 为此角色添加名称和说明对于此示例，我们将仅调用它的*调用*。\n3. 打开 \"**音频**\" 并关闭其他所有内容，以便呼叫是唯一打开的权限。\n4. 单击 \"**保存**\" 以将角色添加到列表。\n\n![在网络 planner 中添加角色](media/network-planner-add-persona.png)\n"
+- title: 将网站添加到你的网络计划
+  durationInMinutes: 5
+  content: "\n现在，你需要将三个网站添加到你的网络计划。 下表总结了 Contoso 网络位置的特征。\n\n|位置       |员工总数|仅呼叫员工|互联网连接       |PSTN 连接                |\n|---------------|-------------------------|----------------------|--------------------------|-------------------------------|\n|西雅图总部     |1000                     |二十五                    |本地 Internet            |使用直接路由的本地 PSTN|\n|Kirkland Office|400                      |10                    |通过 HQ 远程互联网|远程 PSTN 至 HQ         |\n|丹佛 Office  |250                      |50                    |本地 Internet            |无 PSTN 连接             |\n\n1. 单击网络 Planner 中的网络计划。\n2. 选择 \"**网络站点**\" 选项卡，然后单击 \"**添加网络站点**\"。\n\n![添加网络网站](media/network-planner-add-network-site.png)\n\n3. 使用上面的表，填写西雅图总部网站的详细信息。\n\n![新网站详细信息](media/network-planner-add-network-site-2.png)\n\n4. 由于西雅图总部站点具有本地 internet 和本地 PSTN 连接，因此你需要正确指定这些特征。\n\n![新网站外出设置](media/network-planner-add-network-site-egress.png)\n\n5. 单击 \"**保存**\" 以完成添加西雅图总部网站的工作。\n6. 使用相同的流程创建丹佛网站。\n7. 由于 Kirkland 网站利用了与西雅图总部连接的互联网和 PSTN 连接，因此它被视为远程站点。 创建 Kirkland 网站时，你需要指定它已连接到 WAN，并为**Internet 出局**和**PSTN 出口**选择 \"*远程*\"。\n\n![远程网站外出设置](media/network-planner-add-remote-site-egress.png)\n"
+- title: 创建报表
+  durationInMinutes: 3
+  content: "\n现在已添加了您的网站，您可以创建报表。 你将在创建报表时定义你的用户分配。\n\n1. 选择 \"**报表**\" 选项卡，然后单击 \"**启动报表**\"。 这将打开 \"用户分发\" 页面。 首先为报表添加名称和说明。\n\n![创建网络 planner 报表](media/network-planner-add-report.png)  \n\n2. 第一次启动报表时，将自动分发每个网站的用户计数，例如 80% 到 office 工作人员，20% 到远程工作人员。 你可以在此处调整每个角色的用户数，使其与你的用户群体相匹配。 假设 Contoso 在每个站点的 office 工作人员和远程工作人员之间有相同的80/20 拆分。 请确保仅从 office 中的用户数中调用 \"角色\"。 生成的分布应如下图所示。\n\n![每个网站的不同角色之间的用户分配](media/network-planner-persona-distribution-2.png)\n"
+- title: 分析报表输出
+  durationInMinutes: 5
+  content: "\n生成报告后，你将看到一个屏幕显示你的带宽要求，同时显示整体和模态特定值。 默认情况下，允许的带宽设置为 30%。 通过更改此值并单击 \"**运行报告**\"，你可以看到对网络带宽的不同影响。 任何需要更多带宽的区域都将突出显示为红色。\n\n![报表分析](media/network-planner-report-output.png)\n\n网络规划器还根据计划对网络上的团队的影响提供建议。 单击 \"建议视图\" 图标，查看每个网站的建议（如果存在）。 下面的图像显示了示例建议视图。\n\n![建议视图](media/network-planner-recommendation-view.png)\n\n在此处，你可以看到当前 Kirkland 网站的带宽需要增加才能获得团队的最佳性能。 \n"
+- title: 附加资源
+  durationInMinutes: 1
+  content: "\n这将完成网络 Planner 的示例方案。 你可以[返回到网络 Planner 文章](network-planner.md)，或查看以下资源，了解有关如何为团队准备好组织的详细信息：\n\n - [检查 Teams 的环境准备情况](environment-readiness.md)\n - [为 Microsoft Teams 准备组织的网络](prepare-network.md)\n - [体验质量检查指南](quality-of-experience-review-guide.md)\n - [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
