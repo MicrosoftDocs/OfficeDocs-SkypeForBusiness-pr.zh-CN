@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774564"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142063"
 ---
 # <a name="content-cameras"></a>内容照相机
 
@@ -97,3 +97,7 @@ ms.locfileid: "36774564"
 [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](xml-config-file.md)
 
 [Microsoft 团队会议室需求](requirements.md)
+
+> [!NOTE]
+> 某些具有基于 Microsoft Surface Pro 的控制台（如 Logitech Smartdock 和 Crestron SR）的 Microsoft 团队房间设备尚不支持内容相机。 这些设备的支持稍后将在 CY2019 中添加。 
+>
