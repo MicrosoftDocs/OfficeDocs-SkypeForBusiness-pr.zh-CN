@@ -82,8 +82,10 @@
 ### Teams 管理中心中的分析和报告 
 #### [概述](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
-#### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams 设备使用报告](teams-analytics-and-reports/device-usage-report.md)
+#### [PSTN 阻止的用户报告](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN 使用报告](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams 实时事件使用情况报表](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理中心的 Teams 活动报告](teams-activity-reports.md)
 
@@ -779,7 +781,8 @@
 ## 准备好推广 Teams
 ### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
-### [使用适用于 Teams 的 Network Planner](network-planner.md)
+### [使用适用于 Teams 的 网络规划器](network-planner.md)
+### [演练](tutorial-network-planner-example.yml)
 ### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
 ### [Teams 限制和规范](limits-specifications-teams.md)
 ### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
