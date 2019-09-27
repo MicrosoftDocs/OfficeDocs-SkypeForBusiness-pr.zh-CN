@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285051"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275511"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 
@@ -31,9 +31,9 @@ ms.locfileid: "34285051"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>解决 Skype for Business Online 问题（管理员）
 
-你可以通过[检查 skype for Business online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)来获取大多数 skype For business online 问题的答案。 此知识库文章中还包括许多故障排除资源和错误代码参考：[如何解决 Skype for Business Online 中的登录问题](https://go.microsoft.com/fwlink/p/?LinkId=747952)。
+您可以在本文中查找有关 Skype for business [online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)的文章中的大部分 skype For business online 问题的答案。 以下知识库文章还包括许多疑难解答资源和错误代码引用：[针对管理员的 Skype for Business Online 登录错误进行故障排除](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)。
 
-有关电话拨入式会议问题, 请参阅[音频会议疑难解答和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
+有关电话拨入式会议问题，请参阅[音频会议疑难解答和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>有关 Skype for Business Online 管理员问题的其他帮助
 
