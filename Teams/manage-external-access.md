@@ -18,12 +18,12 @@ description: IT 管理员可以为其他域（联盟）配置外部访问以允�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838108"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305757"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>管理 Microsoft 团队中的外部访问
 ======================================================
@@ -70,7 +70,7 @@ ms.locfileid: "36838108"
 | 用户被标识为外部当事方 | 是 | 是  |
 | 显示状态 | 是 | 是  |
 | 显示 "外出" 消息 | 否 | 是 |
-| 可以阻止单个用户 | 否 | 是 |
+| 可以阻止单个用户 | 否 | 否 |
 | 支持 @mentions | 否 | 是 |
 | 拨打私人电话 | 是 | 是  |
 | 允许 IP 视频 | 是 | 是  |

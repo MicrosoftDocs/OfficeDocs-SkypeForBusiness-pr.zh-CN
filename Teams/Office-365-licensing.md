@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
-ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
+ms.openlocfilehash: a4bfa488500d6bd0fcea3c64e0d463003756d89c
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028249"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305635"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
 ========================================
@@ -48,7 +48,7 @@ ms.locfileid: "37028249"
 > Teams 也适用于非盈利组织。 团队将于7月17日开始推出美国政府云社区（GCC），并在2018年8月结束时供所有符合条件的客户使用。 我们正在努力将 Microsoft 团队带入其他美国政府群（即 GCC 高级版和 DoD）。 请在[此处](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)阅读有关 Microsoft 团队博客的详细信息。
 
 > [!NOTE]
-> 从2018年10月1日开始，将向团队 onboarded 或更少500的新 Office 365 客户，并且无法访问 Skype for Business Online。 已使用 Skype for Business Online 的租户将能够继续执行此操作（包括预配新用户），直到他们完成到团队的过渡。 若要了解详细信息，请参阅[Microsoft 团队现在是会议的主要客户和 Office 365 中的通话](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
+> 从2019年8月起，所有新的 Office 365 客户将 onboarded 到团队，并且将无法访问 Skype for Business Online。 已使用 Skype for Business Online 的租户将能够继续执行此操作（包括预配新用户），直到他们完成到团队的过渡。 若要了解详细信息，请参阅[Microsoft 团队现在是会议的主要客户和 Office 365 中的通话](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
 
 > [!NOTE]
 > 如果所选许可证的应用中列出了 Skype for Business Online，请不要将其删除。 如果它列出并被删除，团队用户设置将不会成功完成。 
