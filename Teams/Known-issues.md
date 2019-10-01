@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062888"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305683"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -76,6 +76,8 @@ ms.locfileid: "37062888"
 |拨出控件间歇性地不显示出来。  <br/> |拨出控件在“会议信息”面板中可能不可见。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |Microsoft Teams 会议不支持静态会议 ID。  <br/> |如果管理员将默认设置从动态会议 ID 更改为静态会议 ID，此设置对 Microsoft Teams 会议无效。请参阅[在组织中使用音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |PSTN 会议坐标不适用于 Skype for Business 本地部署用户。  <br/> |如果用户是 Skype for Business 本地部署用户，并分配有 Skype for Business Online、音频会议和 Teams 许可证，则使用 Teams 安排的所有会议都将不包括 PSTN 会议坐标。 <br/> |无解决方法。  <br/> |2018 年 2 月 1 日  <br/> |
+
+|“现在开会”中的云视频互操作性信息  <br/> |如果在 Microsoft Teams 中使用现有的 CVI 许可证创建一个“立即开会”会议实例，则不会填充 CVI 信息。 <br/> |建议通过安排会议来填充此信息。  <br/> |2019 年 6 月 11 日  <br/> |
 
 ## <a name="authentication"></a>身份验证
 
@@ -315,6 +317,10 @@ ms.locfileid: "37062888"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|如果是 sip 呼叫，则 Teams 语音邮件到达时 spf 将失败；如果对用户而言是 pstn 呼叫，则在语音邮件到达时 from 属性无正确值；如果客户有一条由客户自己分析 spf 的规则，则语音邮件将具有 etr 决定的操作。 <br/> | <br/> | 如果邮件是语音邮件，2019/08/29 解决方法将在 etr 中添加例外。
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
