@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: '了解如何设置 Skype for Busineses 以便将其他语言用于贵组织的默认语音邮箱问候语。 '
-ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: '了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。 '
+ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494567"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328338"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -41,17 +41,17 @@ ms.locfileid: "34494567"
     > [!NOTE]
     > 用户登录后，可以通过设置更改自己的问候语语言。 
   
-- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
+- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件设置
 
-- **是否要更改语音邮件提示语言？** 转到[https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) , 然后在 "**提示语言**" 下选择一种新语言。
+- **是否要更改语音邮件提示语言？** 对于 Skype for Business- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)并在 "**提示语言**" 下选择一种新语言。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件设置
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
 1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)通过[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录。 
     
-2. 在 Microsoft 365 管理中心, 选择 "**设置** > **组织配置文件**"。 
+2. 在 Microsoft 365 管理中心，选择 "**设置** > **组织配置文件**"。 
     
-     ![屏幕截图, 显示选择 "设置", 然后选择 "组织配置文件"。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![屏幕截图，显示选择 "设置"，然后选择 "组织配置文件"。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. 选择" **编辑**"。
     

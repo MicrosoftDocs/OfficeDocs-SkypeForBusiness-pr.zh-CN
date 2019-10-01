@@ -21,18 +21,18 @@ f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: 31948a8361d8ae5a15ce84549d982d0c7f9adf1b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5357ae8c19182329a7c82651ac74a6727228d03
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484033"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328306"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
   
-无论 PSTN 连接如何, 所有电话系统用户均可使用呼叫方 ID 功能:
+无论 PSTN 连接如何，所有电话系统用户均可使用呼叫方 ID 功能：
   
 - 在线 PSTN 连接
     
@@ -47,7 +47,7 @@ ms.locfileid: "36484033"
 
 出站 PSTN 来电显示有三个对应选项：
   
-- 分配给用户的电话号码 (默认值)。
+- 分配给用户的电话号码（默认值）。
     
 - A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
@@ -55,7 +55,7 @@ ms.locfileid: "36484033"
     
 但你不能为出站来电显示分配以下类型的电话号码：
   
-- 在您的通话计划中分类为*用户*的任何电话号码, 电话号码库存
+- 在您的通话计划中分类为*用户*的任何电话号码，电话号码库存
     
 - Skype for Business Server 内部部署电话号码
     
@@ -65,7 +65,7 @@ ms.locfileid: "36484033"
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**, 选择 "**呼叫最终用户**" (如果由管理员启用), 选择 "**隐藏所有呼叫的电话号码和配置文件信息"**.
+最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "**呼叫最终用户**" （如果由管理员启用），选择 "**隐藏所有呼叫的电话号码和配置文件信息"**.
   
 ||||
 |:-----|:-----|:-----|
@@ -78,7 +78,9 @@ The EnableUserOverride attribute enables single or multiple users to change thei
    
 ## <a name="inbound-caller-id"></a>入站来电显示
 
-The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
+如果数字与 Azure AD 中的用户关联，则电话系统将显示为外部电话号码调用的 ID。 如果电话号码不在 Azure AD 中，则将显示通讯提供的显示名称（如果可用）。
+
+BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。 你可以设置此属性，但你的最终用户无法在 "用户设置" 页面上使用该属性。 当前仅在使用在线 PSTN 连接时可用。
   
 要设置出站来电显示，请参见[为用户设置来电显示](/microsoftteams/set-the-caller-id-for-a-user)。
   

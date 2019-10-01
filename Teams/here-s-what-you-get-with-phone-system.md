@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305781"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328360"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -51,7 +51,7 @@ PBX 是企业内的电话系统。 Office 365 加载项中的电话系统提供�
 |[查找以前的 Lync 对话](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |不管对话是来自即时消息、电话呼叫还是即席会议和既定会议，都可以从一个位置跟踪所有这些对话。 对话记录在呼叫历史记录中。  <br/> |
 |保持呼叫/接回  <br/> | 用于同时出现多个呼叫的情况。 当接听下一个呼入电话或向外拨打电话时，当前通话会自动保持。 <br/> |
 |[转接 Skype for Business 呼叫](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |将呼叫转接至其他人。 或者，如果您需要离开您的 office，但想要继续对话，您可以将您的 PC 或 IP 手机的通话转移到您的手机或平板电脑。  <br/> |
-|呼叫者 ID  <br/> |来自公司内部的呼叫会显示详细的来电信息，系统会从公司目录中获取信息，为你显示图片和工作职务而不仅仅是电话号码。 对于来自外部电话号码的呼叫，将显示电话服务提供商提供的呼叫方 ID。   <br/> |
+|呼叫者 ID  <br/> |来自公司内部的呼叫会显示详细的来电信息，系统会从公司目录中获取信息，为你显示图片和工作职务而不仅仅是电话号码。 对于来自外部电话号码的呼叫，将显示电话服务提供商提供的呼叫方 ID。 如果外部电话号码是您的公司目录中的辅助号码，则将显示公司目录中的信息。  <br/> |
 |[创建云呼叫队列](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。  <br/> |
 |[在某人的状态更改时告诉我](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 利用此功能，你可以标记目前没有空的用户并在其状态更改且可以接听电话呼叫时获得通知。 <br/> |
 |适用于电脑、Mac 和手机的客户端  <br/> | 这使你可以在设备上通过平板电脑和手机与电脑和桌面 IP 手机的通话功能。 <br/> |

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790858"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328296"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
 Skype for Business Server 2019 混合实施仅使用电话系统提供的用于统一消息的云服务，不与 Exchange Online 集成。 在 Skype for Business Server 2019 中，你现在可以使用[Office 365 中的电话系统获取](/MicrosoftTeams/here-s-what-you-get-with-phone-system)的云呼叫队列和自动助理。
 
-若要将电话系统自动助理或呼叫队列与 Skype for Business Server 2019 一起使用，您需要创建充当应用程序终结点且可分配电话号码的资源帐户，然后使用联机团队管理中心配置呼叫队列或自动助理。 此资源帐户可以联机（请参阅[在 Microsoft 团队中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)以创建驻留在联机状态的资源帐户）或本地，如本文中所述。 通常，您将具有多个电话系统自动助理或呼叫队列节点，每个节点都映射到可联机或在 Skype for business Server 2019 中的资源帐户。
+若要将电话系统自动助理或呼叫队列与 Skype for Business Server 2019 一起使用，您需要创建充当应用程序终结点且可分配电话号码的资源帐户，然后使用联机团队管理中心配置呼叫队列或自动助理。 此资源帐户可以联机（请参阅[在 Microsoft 团队中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)以创建托管资源帐户）或本地部署，如本文中所述。 通常，您将具有多个电话系统自动助理或呼叫队列节点，每个节点都映射到可联机或在 Skype for business Server 2019 中的资源帐户。
 
 如果你有一个现有的 Exchange UM 自动助理和呼叫队列系统，则在切换到 Exchange Server 2019 或 Exchange online 之前，你需要手动记录详细信息，然后使用团队管理中心实施全新的系统.
 
@@ -74,7 +74,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-4. Optional创建资源帐户后，您可以等待 AD 在联机和本地之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
+4. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -133,7 +133,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-2. Optional创建资源帐户后，您可以等待 AD 在联机和本地之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
+2. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
