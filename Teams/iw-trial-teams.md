@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018830"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341864"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -71,9 +71,9 @@ Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队
 
 ## <a name="manage-the-trial"></a>管理试用版
 
-按分配管理员所获取的任何其他订阅的方式分配试用版许可证。 有关详细信息，请参阅[在 Office 365 商业版中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。 
+Teams 试用版设计为由单独的最终用户启动，你不能代表最终用户员工启动 Teams 试用版优惠。
 
-此外，管理员可以禁用最终用户在其组织中申请试用版应用和服务的功能。 目前，本文中描述的试用版是此类别中唯一的试用版，但它将来可能适用于其他类似的程序。 
+管理员可以禁用最终用户在其组织中申请试用版应用和服务的功能。 目前，本文中描述的试用版是此类别中唯一的试用版，但它将来可能适用于其他类似的程序。 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
