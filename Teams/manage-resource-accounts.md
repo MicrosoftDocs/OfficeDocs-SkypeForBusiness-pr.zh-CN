@@ -18,16 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 0508408fbf5bde620cefe9233df4aa62ecf880df
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349259"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375694"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
-
-<a name="bk">电话号码</a>
 
 资源帐户也称为 Azure AD 中*已禁用的用户对象*，可用于表示常规资源。 例如，在 Exchange 中，它可能用于表示会议室，并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
 
@@ -118,6 +116,7 @@ ms.locfileid: "37349259"
 ![数字2的图标，引用上一个屏幕截图](media/sfbcallout2.png)中的标注，您可以使用 "**编辑**" 选项编辑资源帐户的显示名称。 完成后单击 "**保存**"。
 !["编辑资源帐户" 选项的屏幕截图](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
 ![数字3的图标，在以前的屏幕截图](media/sfbcallout3.png)中引用标注一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户，或分配资源帐户到已存在的自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果您的通话队列或自动助理仍需创建，则可以在创建资源帐户时将其链接在一起。 完成后单击 "**保存**"。

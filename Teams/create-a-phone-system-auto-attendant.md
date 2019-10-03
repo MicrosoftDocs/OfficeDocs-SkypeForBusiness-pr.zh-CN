@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349245"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375705"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -211,14 +211,15 @@ ms.locfileid: "37349245"
 
     > [!Note]
     > **公司中的人员**可以是联机用户，也可以是使用 Skype For business Server 或 Lync server 2013 的本地托管用户。
-    - 另一个**自动助理**
+
+  - 另一个**自动助理**
 
        可以使用现有的自动助理来创建包含子菜单的第二级菜单选项。 These are called nested auto attendants. 若要将呼叫发送到嵌套的自动助理，请选择 "**公司" 中**的 "人员"，然后分配一个已具有关联的自动助理的资源帐户，或者在完成创建此自动助理后将与自动助理关联的帐户。
 
         > [!Note]
-        > 还将使用嵌套（或二级）自动助理的**工作时间**，包括从已设置的其他自动助理发送的呼叫。
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **语音应用程序**选择与已创建的呼叫队列或自动助理相关联的资源帐户的名称。
+    - **语音应用程序**选择与已创建的呼叫队列或自动助理相关联的资源帐户的名称。
 
 * * *
 
@@ -231,6 +232,8 @@ ms.locfileid: "37349245"
 完成选择后，单击 "**下一步**"。
 
 #### <a name="holiday-call-settings"></a>假期呼叫设置
+
+<a name="holidaygreetings"> </a>
 
 可以为每个自动助理添加最多 20 个计划假日。
 
@@ -283,6 +286,7 @@ ms.locfileid: "37349245"
     > [!Note]
     > 默认方式，将假日期间到达的所有呼叫设置为听到问候语（如果有）后断开连接，所以如果希望有不同的反应，则必须指定重定向。
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>"选择拨叫范围"页面
 
 在此页面上，你可以设置你的组织中的哪些用户将在你的目录中列出，并且当呼叫加入你的组织的人员可以使用名称进行拨号。
