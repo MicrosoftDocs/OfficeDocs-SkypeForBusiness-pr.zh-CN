@@ -1,5 +1,5 @@
 ---
-title: 添加和更新位置数据
+title: 添加和更新报告标签
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: 了解如何上传到网站。
+description: 了解如何上载包含要用作呼叫分析和通话质量仪表板报表的报告标签的物理位置列表和关联子网的文本文件。
 ms.custom:
 - NewAdminCenter_Update
 f1keywords:
@@ -21,33 +21,33 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bed4487a944bafb8092f63fb4582b165375a1e83
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
+ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484022"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37396428"
 ---
-<a name="adding-and-updating-locations-data"></a>添加和更新位置数据
+<a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 ============================
 
-在您的组织中使用位置来指示办公室、建筑物或组织网站的物理位置。 "位置" 页面使管理员能够提供包含物理位置列表及其关联网络子网的文本文件 (.csv 或 tsv)。 此文件由 "调用分析" 和 "呼叫质量" 仪表板用于生成报告。 当客户上载其子网映射时, 这些服务提供的报表将包含位置名称, 使报表更易于理解和用于修正任何潜在问题。
+报告标签用于你的组织中，指示办事处、建筑物或组织网站的物理位置。 Microsoft 团队管理中心中的 "报告标签" 页面允许你提供一个文本文件（.csv 或 tsv），其中包含物理位置列表及其关联的网络子网。 此文件由 "调用分析" 和 "呼叫质量" 仪表板用于生成报告。 当你上载子网映射时，这些服务提供的报表也将包含位置名称，使报表更易于理解和用于修正任何潜在问题。
 
-您提供的位置数据是单个数据结构-当前没有可用于对位置数据进行个别编辑的界面。 
+你提供的报表标签和位置数据是单个数据结构-当前没有可用于对数据进行个别编辑的界面。
 
 **编辑子网和位置表**
 
-1. 单击 "**替换位置数据**"。
-2. 在 "**替换位置数据**" 窗格中, 单击 "**选择文件**", 然后浏览到并上载已编辑的 .csv 或 tsv 文件。 
-3. 单击 "**上载**"。 
-
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**位置** > **报告标签**"。
+2. 单击 "**替换位置数据**"。
+3. 在 "**替换位置数据**" 窗格中，单击 "**选择文件**"，然后浏览到并上载已编辑的 .csv 或 tsv 文件。
+4. 单击 "**上载**"。
 
 可以[在此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下载示例模板。
 
-你可以使用以下示例来帮助创建数据文件。 
+使用以下示例可帮助创建数据文件。
 
 > [!IMPORTANT]
-> 数据文件不应包含列标题 (如 "网络"、"网络名称" 等)。 此处仅用于提供信息。 </br>
+> 数据文件不应包含列标题（如 "网络"、"网络名称" 等）。 此处仅用于提供信息。 <br>
 
 |网络|网络名称|网络范围|建筑物名称|所有权类型|建筑物类型|构建 Office 类型|城市|邮政编码|该国|省/市/自治区|区域|公司内部|快速路线|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,9 +56,7 @@ ms.locfileid: "36484022"
 |10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
 |10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
 
-
-有关设置数据文件格式的详细信息, 请参阅[租户数据文件格式和构建数据文件结构](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
-
+有关设置数据文件格式的详细信息，请参阅[租户数据文件格式和构建数据文件结构](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
 
 ## <a name="related-topics"></a>相关主题
 

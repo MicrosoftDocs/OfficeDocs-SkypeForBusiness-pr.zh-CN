@@ -18,18 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
-ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
+ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
+ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37375694"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37401844"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
-资源帐户也称为 Azure AD 中*已禁用的用户对象*，可用于表示常规资源。 例如，在 Exchange 中，它可能用于表示会议室，并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
+资源帐户也称为 Azure AD 中*已禁用的用户对象*，可用于表示常规资源。 例如，在 Exchange 中，它可能用于表示会议室，并允许他们拥有电话号码。 资源帐户可以托管在 Microsoft 365 或 Skype for business Server 2019 中。
 
-在 Microsoft 团队或 Skype for business Online 中，每个电话系统呼叫队列或自动助理都必须具有关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于关联呼叫队列或自动助理的预期用途，如下图所示。 在将电话号码分配给资源帐户之前，还可以参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
+在 Microsoft 团队或 Skype for business Online 中，每个电话系统呼叫队列或自动助理都必须至少有一个关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于关联呼叫队列或自动助理的预期用途，如下图所示。 在将电话号码分配给资源帐户之前，还可以参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
 
 > [!IMPORTANT]
 > 电话号码不会直接分配给自动助理或呼叫队列，而是与自动助理或呼叫队列相关联的资源帐户。
@@ -39,18 +39,19 @@ ms.locfileid: "37375694"
 > [!NOTE]
 > 本文适用于 Microsoft 团队和 Skype for business Online。 对于驻留在 Skype for business Server 2019 上的资源帐户，请参阅[配置资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra)。
 
-
 ## <a name="overview"></a>概述
 
-如果您的组织已使用至少一个电话系统许可证，要向电话系统呼叫队列或自动助理分配电话号码，该过程如下所示：
+如果您的组织已使用至少一个电话系统许可证，要向电话系统呼叫队列分配电话号码，该过程如下所示：
 
 1. 获取服务号码。
 2. 获取免费电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或付费电话系统许可证，以便与资源帐户或电话系统许可证配合使用。
 3. 创建资源帐户。 需要使用自动助理或呼叫队列才能拥有关联的资源帐户。
 4. 为资源帐户分配电话系统或电话系统-虚拟用户许可证。
-5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。 
+5. 将服务电话号码分配给您刚向其分配许可证的资源帐户。
 6. 创建电话系统呼叫队列或自动助理
 7. 将资源帐户与呼叫队列或自动助理链接。
+
+<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下方，并且如果你希望将多个点输入到自动助理的结构中并调用队列，则关联的资源帐户仅需要电话号码。
 
@@ -61,11 +62,16 @@ ms.locfileid: "37375694"
 
 如果您正在创建的电话系统呼叫队列或自动助理将被嵌套，并且不需要电话号码，则流程如下所示：
 
-1. 创建资源帐户 
+1. 创建资源帐户
 2. 创建电话系统呼叫队列或自动助理
 3. 将资源帐户与电话系统呼叫队列或自动助理相关联
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>使用电话号码创建资源帐户
+
+<a name="phonenumber"> </a>
+
+> [!IMPORTANT]
+> 电话号码不会直接分配给自动助理或呼叫队列，而是与自动助理或呼叫队列相关联的资源帐户。
 
 顶级自动助理或呼叫队列将要求将电话号码链接到其自动助理。 若要创建使用电话号码的资源帐户，该过程如下所示：
 
@@ -75,7 +81,7 @@ ms.locfileid: "37375694"
 
    如果您要为资源帐户分配电话号码，您现在可以使用免费的电话系统虚拟用户许可证。 这将为组织级别的电话号码提供电话系统功能，并允许你创建自动助理和呼叫队列功能。
 
-2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。 
+2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。
 
    若要获取虚拟用户许可证，从 Microsoft 365 管理中心开始，请转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束"，您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
 3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
@@ -85,6 +91,8 @@ ms.locfileid: "37375694"
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
 7. 将资源帐户链接到自动助理或呼叫队列。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+
+创建自动助理时创建资源帐户时，将自动应用许可证。
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>创建不带电话号码的资源帐户
 
@@ -137,11 +145,11 @@ ms.locfileid: "37375694"
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
-你需要通过管理员权限连接到相应的 Powershell 提示，具体取决于你的资源帐户是否位于联机或本地。
+你需要通过管理员权限连接到相应的 Powershell 提示，具体取决于你的资源帐户是联机还是位于 Skype for business Server 2019。
 
 - 以下 Powershell cmdlet 示例显示如何使用[CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)创建联机的资源帐户。 
 
-- 对于驻留在 Skype For business Server 2019 （可与云呼叫队列和云自动助理配合使用）的本地资源帐户，请参阅[配置云呼叫队列](/skypeforbusiness/hybrid/configure-call-queue.md)或[配置云自动助理](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)。 混合实现（直接路由上的号码）将使用[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
+- 对于驻留在可与云呼叫队列和云自动助理一起使用的 Skype For business Server 2019 上的资源帐户，请参阅[配置云呼叫队列](/skypeforbusiness/hybrid/configure-call-queue.md)或[配置云自动助理](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)。 混合实现（直接路由上的号码）将使用[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
 
 创建应用程序实例时需要使用的应用程序 ID 如下：
 
@@ -149,7 +157,9 @@ ms.locfileid: "37375694"
 - **呼叫队列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果希望呼叫队列或自动助理可由本地用户搜索，您应该在本地创建资源帐户，因为联机资源帐户未同步到 Active Directory。
+> 如果您希望呼叫队列或自动助理可由 Skype For Business Server 2019 用户搜索，则应在 Skype For business Server 2019 上创建资源帐户，因为联机资源帐户未同步到 Active Directory。 当 sipfederationtls 的 DNS SRV 记录解析到 Skype for business Server 2019 时，**必须**使用 SfB Management shell 并同步到 ONLINE Azure AD，在 Skype For business server 2019 上创建资源帐户。
+
+ 
 
 1. 若要创建联机的资源帐户以与自动助理配合使用，请使用以下命令：
 
@@ -171,7 +181,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
    > [!NOTE]
    > 最简单的方法是使用 Microsoft 团队管理中心设置在线电话号码，如上文所述。
 
-   若要将直接路由电话号码分配给资源帐户（通过联机或本地托管），请使用以下适用于 Skype for Business Online Powershell 的 cmdlet：
+   若要将直接路由电话号码分配给资源帐户（在 Microsoft 团队或 Skype For business Server 2019 中托管），请使用适用于 Skype for business Online Powershell 的以下 cmdlet：
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000

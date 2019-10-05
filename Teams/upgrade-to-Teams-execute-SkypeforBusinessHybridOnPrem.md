@@ -1,14 +1,14 @@
 ---
-title: 从 Skype for Business 混合或本地部署升级到 Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: 从 Skype for Business 内部部署升级到团队-Microsoft 团队
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: 从 Skype for Business 混合或内部部署升级到团队的注意事项。
+ms.reviewer: bjwhalen
+description: 从 Skype for Business 内部部署升级到团队的注意事项。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 873e15e5b1f64e82889bfda6fa30c5b9394dcf3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
+ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235868"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37396417"
 ---
-![升级旅行图, 强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
+![升级旅行图，]重点介绍(media/upgrade-banner-deployment.png "升级历程的部署和实施阶段，重点关注部署和实施阶段")
 
-本文是升级过程的部署和实施阶段的一部分。 继续之前, 请确认你已完成以下活动:
+本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
 
 -   [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 -   [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
@@ -36,34 +36,43 @@ ms.locfileid: "36235868"
 -   [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>从 Skype for Business 混合或内部部署升级到团队
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从本地 Skype for Business 升级到团队
 
-如果你已部署 Skype for business 或 Microsoft Lync 本地版, 并且你的组织希望通过使用多个共存模式 (或全部) 升级到团队, 请按照本文中的指南操作。 第一步是设置与 Office 365 租户的混合连接, 然后将用户移动到 Skype for business Online, 并为他们分配适当的共存和升级模式。 
+如果你已部署 Skype for Business 服务器或 Microsoft Lync 本地版，并且你的组织希望升级到团队，请按照本文中的指南操作。 你需要设置与 Office 365 租户的混合连接，并确定在阶段将用户移动到团队的共存要求。 
 
 > [!IMPORTANT]
-> Skype for Business Online 将于2021年7月31日停用, 之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级, 我们鼓励你立即开始迁移到 Microsoft 团队。 请记住, 成功升级会使技术和用户准备相一致, 因此, 在您向 Microsoft 团队导航旅行时, 请务必利用本指南。
+> Skype for Business Online 将于2021年7月31日停用，之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。 请记住，成功升级会使技术和用户准备相一致，因此，在您向 Microsoft 团队导航旅行时，请务必利用本指南。
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>步骤 1: 部署混合连接 
+## <a name="step-1-configure-hybrid-connectivity"></a>步骤1：配置混合连接 
 
-将用户升级到团队的关键先决条件是部署混合连接。 这可能涉及为现有 Skype for Business 或 Lync 部署部署新的外部连接, 或者只需配置与你的 Office 365 租户的混合关系。 
+将本地用户升级到团队的主要先决条件是为您的 Skype for Business Server 内部部署配置混合连接。 
 
-有关详细信息, 请参阅 [在 skype for Business 服务器与 skype for Business Online 之间部署混合连接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)。
+首先阅读 [计划混合连接](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)，然后按照[配置混合连接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中概述的任务操作。
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>步骤 2: 将用户移动到 Skype for Business Online 
 
-完成混合设置后, 将用户移动到 Skype for business Online。 
+## <a name="step-2-set-transitional-coexistence-mode-optional"></a>步骤2：设置过渡共存模式（可选）
 
-有关详细信息, 请参阅 [将用户从本地移动到 Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。 
+Skype for Business 和团队客户端和用户之间的共存和互操作性由团队升级模式定义。  默认情况下，组织处于 "孤岛" 模式，允许用户并排使用团队和 Skype for business 客户端。
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>步骤 3: 分配共存和升级模式
+对于迁移到团队的组织，TeamsOnly 模式是每个用户的最终目标，但并非所有用户都需要同时分配 TeamsOnly （或任何其他模式）。
 
-将用户移动到 Skype for Business Online 后, 您可以根据组织选择的升级历程为他们分配适当的共存模式。 有关详细信息, 请参阅[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy: 管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+在用户到达 TeamsOnly 模式之前，组织可以选择使用任何 Skype for Business 共存模式，以确保处于 TeamsOnly 模式的用户和尚未使用的用户之间可预测的通信。  Skype for Business 共存模式（SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings）的用途是为最终用户提供简单、可预测的体验，因为组织从 Skype for Business 过渡到团队。 
 
-> [!NOTE]
-> 使用 Skype for business Server 2019 和 Skype for Business Server 2015 的未来累积更新, 你将能够执行步骤 2 (将用户移动到 Skype for business Online) 和步骤 3 (在将用户升级到团队) 中执行一步操作。 在发布 Skype for Business Server 2019 后, 将提供详细信息。
+当用户处于任何 Skype for Business 模式时，所有传入聊天和通话都将路由到用户的 Skype for business 客户端。 为避免最终用户混淆和确保正确路由，当用户处于任何 Skype for Business 模式时，将禁用团队客户端中的 "调用和聊天" 功能。 同样，当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时，将显式禁用团队中的会议计划，并在用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用。
+
+根据你的需求，你可以根据你的组织选择的升级路径分配适当的共存模式。 有关详细信息，请参阅与 Skype for Business 一起使用团队和[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)[的组织的迁移和互操作指南](migration-interop-guidance-for-teams-with-skype.md)。
+
+
+## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>步骤3：仅将用户从本地 Skype for business 移动到团队
+
+最后，你需要将用户移动到 TeamsOnly 模式。 这可能会涉及一个或两个步骤，具体取决于您当前的本地环境。  
+
+有关详细信息，请参阅 [在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)以及[将用户从本地移动到团队](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
+
+
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 
-如果你正在将 Skype for Business 混合部署转换为带有呼叫计划的电话系统, Microsoft 将成为您的公共交换电话网络 (PSTN) 提供商, 并假设你已完成电话号码移植-升级你的用户以团队将向团队自动切换入站 PSTN 呼叫。
+如果您正在将 Skype for Business 部署转换为带有呼叫计划的电话系统，Microsoft 将成为您的公共交换电话网络（PSTN）提供商。 假设你已完成电话号码移植-将你的用户升级到团队会自动将入站 PSTN 呼叫转到团队。
 
-如果通话计划不可用, 则需要将企业语音部署切换到 Microsoft Phone 系统直接路由。 若要将用户升级到团队, 请参阅[手机系统直接路由的其他注意事项](2-envision-make-my-service-decisions-direct-routing.md)。
+如果你正在将 Skype for Business 部署转换为手机系统，但未使用通话计划，则需要将你的企业语音部署切换到 Microsoft Phone 系统直接路由。 有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。

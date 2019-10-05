@@ -1,0 +1,135 @@
+---
+title: 管理 Microsoft 团队中的紧急呼叫路由策略
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: jastark, roykuntz
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: 了解如何在 Microsoft 团队中使用和管理动态 E911 功能的紧急呼叫路由策略。
+f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.openlocfilehash: e7a1295d481db2d970fae2c77be2cff6834c6448
+ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37401828"
+---
+# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+如果您已在您的组织中部署了手机系统直接路由，则可以使用 Microsoft 团队中的紧急呼叫路由策略来设置紧急电话号码，并指定如何路由紧急电话。 紧急呼叫路由策略确定是否为分配了该策略的用户启用增强的紧急服务、用于呼叫紧急服务的号码（例如，911在美国），以及如何路由紧急服务通话。
+
+通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**，管理紧急呼叫路由策略。 可将策略分配给用户和[网络站点](location-based-routing-terminology.md)。
+
+对于用户，你可以使用全局（组织范围默认）策略或创建并分配自定义策略。 除非你创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。 对于网络站点，您可以创建和分配自定义策略。
+
+如果为某个网络网站和用户分配了紧急呼叫路由策略，并且该用户在该网络站点上，则分配给网络网站的策略将覆盖分配给该用户的策略。
+
+## <a name="create-a-custom-emergency-call-routing-policy"></a>创建自定义紧急呼叫路由策略
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
+2. 单击“添加”****。
+3. 输入策略的名称和说明。
+4. 若要启用增强的紧急服务，请打开**增强的紧急服务**。 启用 "增强紧急服务" 时，团队将从服务中检索策略和位置信息，并将该信息作为紧急呼叫的一部分包括在其中。
+5. 定义一个更紧急的号码。 若要执行此操作，请在 "**紧急电话号码**" 下执行下列操作：
+    1. **紧急拨号字符串**：输入 "紧急拨号" 字符串。 此拨号字符串表示呼叫是紧急呼叫。
+    2. **紧急拨号掩码**：对于每个紧急电话号码，您可以指定零个或多个紧急拨号掩码。 拨号掩码是要转换为 "紧急拨号字符串" 值的数字。 这允许拨打备用紧急号码，并且仍然可以拨打紧急服务。 <br>例如，您将112添加为 "紧急拨号掩码"，这是欧洲大多数欧洲的紧急服务号码，911作为 "紧急拨号" 字符串。 欧洲来访的团队用户可能不知道911是美国的紧急电话，当他们拨打112时，将拨打911。 若要定义多个拨号掩码，请用分号分隔每个值。 例如，112; 212。
+    3. **PSTN 使用**：选择公共交换电话网络（PSTN）使用。 PSTN 使用用于确定使用哪种路由从有权使用它们的用户路由紧急呼叫。 与此使用相关联的路由应指向专用于紧急呼叫的 SIP 中继，或者指向紧急位置标识号码（ELIN）网关，该网关将紧急呼叫路由到最近的公共安全应答点（PSAP）。
+
+    > [!NOTE]
+    > 拨号式字符串和拨号掩码在策略中必须是唯一的。 这意味着对于策略，你可以定义多个紧急号码，并且可以为拨号字符串设置多个拨号掩码，但每个拨号字符串和拨号掩码只能使用一次。
+
+6. 单击“**保存**”。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+请参阅[新-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy)。
+
+## <a name="edit-an-emergency-call-routing-policy"></a>编辑紧急呼叫路由策略
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+
+你可以编辑全局策略或你创建的任何自定义策略。
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
+2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
+3. 进行所需的更改，然后单击 "**保存**"。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+请参阅[设置-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy)。
+
+## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>为用户分配自定义紧急呼叫路由策略
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
+3. 在 "**紧急呼叫路由策略**" 下，选择要分配的策略，然后单击 "**保存**"。
+
+若要一次为多个用户分配自定义团队策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+
+或者，您也可以执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
+2. 通过单击策略名称的左侧，选择策略。
+3. 选择 "**管理用户**"。
+4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+5. 添加完用户后，单击 "**保存**"。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>为用户分配自定义紧急呼叫路由策略
+
+请参阅[授权-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
+
+### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>为组中的用户分配自定义紧急呼叫路由策略
+
+您可能希望将自定义紧急呼叫路由策略分配给已标识的多个用户。 例如，你可能想要向安全组或通讯组中的所有用户分配策略。 你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块来执行此操作。
+
+在此示例中，我们将名为 "HR 紧急呼叫路由策略" 的策略分配给 "Contoso HR" 组中的所有用户。  
+
+> [!NOTE]
+> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
+
+获取特定组的 GroupObjectId。
+```
+$group = Get-AzureADGroup -SearchString "Contoso HR"
+```
+获取指定组的成员。
+```
+$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
+```
+将组中的所有用户分配到特定团队策略。 在此示例中，它是 HR 紧急呼叫路由策略。
+```
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+``` 
+此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
+
+## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>为网络站点分配自定义紧急呼叫路由策略
+
+使用[CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) cmdlet 将紧急呼叫路由策略分配给网络站点。
+
+此示例显示了如何将名为 "紧急呼叫路由策略 1" 的策略分配给 Site1 网站。
+
+```
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
+```
+
+## <a name="related-topics"></a>相关主题
+
+- [管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)
+- [Teams PowerShell 概览](teams-powershell-overview.md)
