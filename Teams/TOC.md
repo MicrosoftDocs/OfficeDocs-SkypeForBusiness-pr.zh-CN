@@ -660,7 +660,7 @@
 
 # 混合连接 
 
-## [规划混合连接](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [规划混合连接](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 配置混合连接
 ### [概述](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -673,7 +673,7 @@
 ### [将用户从本地迁移至 Skype for Business Online](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [将用户从云中移动到本地](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [管理会议迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [管理会议迁移](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
 ## [禁用混合以完成到云的迁移](https://docs.microsoft.com/zh-CN/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -698,6 +698,7 @@
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
+## [适合一线员工的快速入门](firstline-workers-quickstart.yml)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
