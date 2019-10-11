@@ -1,0 +1,8 @@
+## <a name="definitions"></a><span data-ttu-id="11689-101">码</span><span class="sxs-lookup"><span data-stu-id="11689-101">Definitions</span></span>
+
+<span data-ttu-id="11689-102">团队报表显示活动用户和活动频道的数据。</span><span class="sxs-lookup"><span data-stu-id="11689-102">The Teams reports show data for active users and active channels.</span></span> <span data-ttu-id="11689-103">例如，如果您的组织中的用户在您为报表指定的日期范围内没有在团队中处于活动状态，则该报表中不会包含该用户的数据。</span><span class="sxs-lookup"><span data-stu-id="11689-103">For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.</span></span>
+
+|<span data-ttu-id="11689-104">项目</span><span class="sxs-lookup"><span data-stu-id="11689-104">Item</span></span>  |<span data-ttu-id="11689-105">定义</span><span class="sxs-lookup"><span data-stu-id="11689-105">Definition</span></span>  |
+|---------|---------|
+|<span data-ttu-id="11689-106">活动用户</span><span class="sxs-lookup"><span data-stu-id="11689-106">Active user</span></span>     |<span data-ttu-id="11689-107">度量在指定日期范围内执行团队中的操作的唯一用户数。</span><span class="sxs-lookup"><span data-stu-id="11689-107">Measures the number of unique users who perform an action in Teams during the specified date range.</span></span>    |
+|<span data-ttu-id="11689-108">活动频道</span><span class="sxs-lookup"><span data-stu-id="11689-108">Active channel</span></span>    |<span data-ttu-id="11689-109">度量用户在指定日期范围内执行操作的团队的通道数。</span><span class="sxs-lookup"><span data-stu-id="11689-109">Measures the number of channels of a team in which users perform an action during the specified date range.</span></span>           |

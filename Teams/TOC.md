@@ -85,6 +85,7 @@
 #### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams 设备使用报告](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN 阻止的用户报告](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN 分钟池报告](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [PSTN 使用报告](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams 实时事件使用情况报表](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 管理中心的 Teams 活动报告](teams-activity-reports.md)
@@ -361,13 +362,19 @@
 ## 呼叫路由
 ### [什么是拨号计划？](what-are-dial-plans.md)
 ### [创建并管理拨号计划](create-and-manage-dial-plans.md)
+### [添加和更新报告标签](learn-more-about-site-upload.md)
 ## 紧急呼叫
-### [什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
-### [为你的组织添加、更改或删除紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为你的组织添加、更改或删除紧急位置](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为用户分配或更改紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为用户分配或更改紧急位置](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [紧急呼叫标签](emergency-calling-labels.md)
+### [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)
+### 管理紧急地址
+#### [什么是紧急位置、地点和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
+#### [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
+#### [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)
+#### [为用户分配或更改紧急位置的地点](assign-change-emergency-place-user.md)
+#### [紧急呼叫标签](emergency-calling-labels.md)
+### [管理紧急呼叫策略](manage-emergency-calling-policies.md)
+### [管理紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
+
 
 
 ## 参考
