@@ -15,12 +15,12 @@ appliesto:
 search.appverid:
 - MET150
 description: '总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。 此外，了解用于 Teams 的电话解决方案。 '
-ms.openlocfilehash: 83ec3b36e3eaa0cdf83b4c5cb69791307febf7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3abd05e4a83f77708f7a392a3e005586e5381f4
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243912"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435224"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 体系结构和电话解决方案海报
 
@@ -42,8 +42,8 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 
 当你开始在 Microsoft 云中使用 Teams 时，Microsoft 支持多种选项。 此海报可帮助你确定哪种 Microsoft 电话解决方案（云端的电话系统或本地企业语音）适合你组织中的用户，以及你的组织如何连接到公用电话交换网 (PSTN)。
 
-[![Microsoft 电话服务解决方案海报缩略图](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
+[![Microsoft 电话服务解决方案海报缩略图](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.vsdx) 
 
 有关详细信息，请参阅此海报文章：[Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
   

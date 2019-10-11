@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305683"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435001"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -195,6 +195,10 @@ ms.locfileid: "37305683"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |在直播会议期间共享内容时无音频  <br/> |在直播会议期间共享内容时，参与者听不到共享内容（YouTube 链接或保存的视频文件）中的音频。  <br/> |无解决方法，因为这是特意设计的。  Teams 当前不支持在内容共享中播放音频  <br/> |2018 年 10 月 9 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|由于你可能滞留在虚拟大厅中，因此无法以组织者的身份从 Outlook 启动会议  <br/> |如果你的 Outlook 客户端和 Teams 客户端登录到不同的帐户，则可能会遇到此问题。 <br/> |当你加入会议时，请确保你的 Outlook 客户端和 Teams 客户端登录到从中安排会议的同一帐户。  <br/> |2018 年 11 月 5 日  <br/> |
 
 ## <a name="mobile"></a>移动
 

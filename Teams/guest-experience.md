@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241994"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434656"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -30,9 +30,9 @@ ms.locfileid: "36241994"
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示, 横幅显示 "此团队拥有来宾", 并且每个来宾的名称旁边会显示一个 "(来宾)" 标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示，横幅显示 "此团队拥有来宾"，并且每个来宾的名称旁边会显示一个 "（来宾）" 标签。
     
-![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分, 并在顶部横幅中显示通知, 表明该团队拥有来宾和来宾用户 (其姓名旁边的 \"WORD 来宾\" 标识)。")
+![显示横幅通知的屏幕截图用户](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分，并在顶部横幅中显示通知，表明团队拥有来宾和来宾用户名称旁边的 \"word 来宾\"。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
 
@@ -54,6 +54,7 @@ ms.locfileid: "36241994"
 |创建团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |发现和加入公用团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |查看组织结构图  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|使用内联转换  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 下表显示了可供来宾使用的呼叫和会议功能。
 
@@ -98,10 +99,10 @@ ms.locfileid: "36241994"
 ## <a name="frequently-asked-questions"></a>常见问题
 
 问： 如何离开已被邀请的组织？<br>
-答： 如果您已被邀请到您不希望作为其来宾的组织, 您可以选择离开该组织。 有关详细信息, 请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者, 您可以要求组织的管理员将您从其租户中删除。 请注意, 在这两种情况下, 如果你想要在将来访问组织, 则需要重新邀请租户。
+答： 如果您已被邀请到您不希望作为其来宾的组织，您可以选择离开该组织。 有关详细信息，请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者，您可以要求组织的管理员将您从其租户中删除。 请注意，在这两种情况下，如果你想要在将来访问组织，则需要重新邀请租户。
 
 问： 来宾与团队成员享有同样的功能吗？<br>
-答： 不能。 有关来宾可以执行和不能执行的操作的详细信息, 请参阅本文中[的团队成员和来宾功能的比较](#comparison-of-team-member-and-guest-capabilities)。
+答： 不能。 有关来宾可以执行和不能执行的操作的详细信息，请参阅本文中[的团队成员和来宾功能的比较](#comparison-of-team-member-and-guest-capabilities)。
 
 问： 可邀请多少位来宾？<br>
 答： 每位许可用户最多可添加 5 名来宾。
@@ -116,9 +117,9 @@ ms.locfileid: "36241994"
 答： 不能。
 
 问： 来宾能否附加文件？<br>
-答： 是的, 来宾可通过以下两种方式附加文件:
+答： 是的，来宾可通过以下两种方式附加文件：
 
-   - 在左窗格中选择 "文件", 然后浏览到文件位置。
+   - 在左窗格中选择 "文件"，然后浏览到文件位置。
    - 从计算机上传文件。
 
 问： 来宾可下载私密聊天中的文件吗？<br>

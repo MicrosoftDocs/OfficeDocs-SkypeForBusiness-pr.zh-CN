@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401902"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434960"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -44,7 +44,7 @@ ms.locfileid: "37401902"
 ## <a name="step-1--get-started"></a>步骤 1-入门
 
 - 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户和所需的所有许可证的详细信息，请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ ms.locfileid: "37401902"
      > [!Note]
      > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。
 
-- **语音功能** 选择链接到已创建的自动助理或通话队列的资源帐户的名称。 请求操作员的调用方将被重定向。  
+- **语音应用** 选择链接到已创建的自动助理或通话队列的资源帐户的名称。 请求操作员的调用方将被重定向。  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ ms.locfileid: "37401902"
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![数字3的图标（上一个屏幕截图](media/teamscallout3.png)<a name="timezone"> </a>  
-**时区**中的标注）您需要为自动助理设置时区。 该设置可以与为你的组织列出的主地址或不同时区的主地址的时区相同。 每个自动助理都可以具有不同的时区。 为自动助理设置的 "营业时间" 还使用 "时区"。
+<a name="timezone"> </a>
+
+![数字3的图标（上一个屏幕截图](media/teamscallout3.png) **时区**中的标注）您需要为自动助理设置时区。 该设置可以与为你的组织列出的主地址或不同时区的主地址的时区相同。 每个自动助理都可以具有不同的时区。 为自动助理设置的 "营业时间" 还使用 "时区"。
 
 * * *
 
@@ -147,7 +148,6 @@ ms.locfileid: "37401902"
 ![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注**键入问候消息**如果选择此选项，请在提供的字段中输入希望系统读取的文本（最多1000个字符）。 例如，输入 "欢迎使用 Contoso。 您的呼叫对我们非常重要。" 输出由文本到语音软件创建。
 
 * * *
-
 
 您可以从 "**发送呼叫**" 部分中选择 "呼叫" 下的 "呼叫" 旁边的内容。 设置为 "**断开连接**"、"**重定向呼叫**" 或 "**播放菜单" 选项**。
 
@@ -197,13 +197,9 @@ ms.locfileid: "37401902"
 > [!NOTE]
 > 键\* （重复）和\# （后退）由系统保留，无法重新分配。 如果启用语音识别，按 * 将与 "重复" 对应，并且 # 将与 "后退" 语音命令对应。
 
-![数字3的图标，上一个屏幕截图中的标注](media/teamscallout3.png)
+![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注若要设置菜单选项，请单击 "按 **+ 分配拨号键**"，然后输入以下选项的信息：
 
-若要设置菜单选项，请单击 "按 **+ 分配拨号键**"，然后输入以下选项的信息：
-
-![数字4的图标，上一个屏幕截图中的标注](media/teamscallout4.png) 
-
-选项的**语音命令**列最多可包含64个字符，并且可以包含多个词语，如 "客户服务" 或 "操作和使用情况"。 如果启用语音识别，将自动识别名称，并且呼叫者可以按3、说 "三" 或说出 "客户服务" 以选择映射到键3的选项。
+![数字4的图标，上一个屏幕截图](media/teamscallout4.png)的 "**语音命令**" 列中的标注长度最多可为64个字符，并且可以包含多个词语，如 "客户服务" 或 "操作和共线"。   如果启用语音识别，将自动识别名称，并且呼叫者可以按3、说 "三" 或说出 "客户服务" 以选择映射到键3的选项。 此文本还会由用于服务确认提示的文本（如 "将你的呼叫转移到操作员"）呈现为语音。
 
 ![数字5的图标，上一个屏幕截图](media/teamscallout5.png)中的标注。如果按下相应的键，或者使用语音识别选择选项，则调用将转到该选项集的 "**重定向到**" 选项集。 可以将呼叫发送至：
 
@@ -219,13 +215,14 @@ ms.locfileid: "37401902"
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![数字6的图标，上一个屏幕截图中的标注](media/teamscallout6.png) 
-
-**目录搜索**在此部分中，你可以启用 "**按姓名拨号**" 和 "自动助理" 的 "**通过分机拨号**"。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 默认情况下，目录搜索设置为 "**无**"。
+![数字6的图标（上一个屏幕截图](media/teamscallout6.png)  **目录**中的标注）在此部分中搜索，您可以启用 "**按姓名拨号**" 和 "自动助理的**分机**"。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 默认情况下，目录搜索设置为 "**无**"。
 
 **按名称拨号**如果启用此选项，则呼叫者可以使用 "**按名称拨号**" 搜索组织中的人员。 他们说出用户的姓名和语音识别将其与用户相匹配。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。
 
 **通过分机号码拨号**如果启用此选项，**则当你配置了使用扩展的拨号计划**时，呼叫者可以通过输入电话分机与你的组织中的用户连接。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
+
+> [!NOTE]
+> 如果想要同时使用 "**按姓名**拨号" 和 "**按分机号码拨号**" 功能，您可以创建主自动助理（**按名称进行拨号**），如果用户知道用户的扩展名，则会提示呼叫者选择菜单选项3，并将选项3设置为 "事务"。sfer 通过分机号码启用的自动助理呼叫。 
 
 * * *
 
@@ -328,7 +325,9 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Office 365 组、通讯组列表或安全组。 如果用户在所选的 Office 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Office 365 组、通讯组列表和安全组添加到目录中。
 
+<a name="dialscope"> </a>
 
+在此页面上，你可以设置你的组织中的哪些用户将在你的目录中列出，并且当呼叫加入你的组织的人员可以使用名称进行拨号。
 
 ![数字2的图标，上一个屏幕截图](media/teamscallout2.png)中的标注将**排除**本部分中的选项，使您可以从组织的目录中排除特定用户或用户组。
 

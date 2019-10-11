@@ -16,12 +16,12 @@ ms.collection:
 description: 了解 Microsoft 团队管理中心提供的团队报表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131569"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439536"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -45,10 +45,10 @@ Microsoft 团队管理中心提供了适用于 Microsoft 团队的新分析和�
 |[Teams 使用情况报告](teams-usage-report.md)  |  活动用户<br/>团队和频道中的活动用户<br/>活动频道<br/>彩信<br/>团队的隐私设置<br/>团队中的来宾   |
 |[Teams 用户活动报告](user-activity-report.md)  |  1:1 呼叫用户参与<br/>在团队聊天中发布的用户的消息<br/>在私人聊天中发布的用户的消息<br/>用户的上次活动日期     |
 |[Teams 设备使用报告](device-usage-report.md)   |  Windows 用户<br/>Mac 用户<br/>iOS 用户<br/>Android 手机用户     |
-|[团队实时事件使用率报告](teams-live-event-usage-report.md)   |  总视图数<br>开始时间<br>事件状态<br>组织者<br>演示者<br>者<br>录制设置<br>生产类型    |
+|[Teams 实时事件使用情况报表](teams-live-event-usage-report.md)   |  总视图数<br>开始时间<br>事件状态<br>组织者<br>演示者<br>者<br>录制设置<br>生产类型    |
 |[团队 PSTN 已阻止用户报告](pstn-blocked-users-report.md)   |  显示名称<br>电话号码<br>原因<br>操作类型<br>操作日期和时间   |
+|[团队 PSTN 分钟池报告](pstn-minute-pools-report.md) |  国家或地区<br>功能（许可证） <br>总分钟数<br>使用的分钟数<br>分钟可用|
 |[团队 PSTN 使用报告-通话计划](pstn-usage-report.md#calling-plans)|  时间戳<br>用户名<br>电话号码<br>呼叫类型 <br>调用到<br>至国家或地区 <br>调用 <br>从国家或地区<br>收费<br>货币<br>持续时间<br>国内/国际<br>通话 ID<br>号码类型<br>国家或地区<br>会议 ID<br>功能（许可证）|
-|[团队 PSTN 使用报告-直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话号码 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>失败时间<br>结束时间<br>持续时间<br>号码类型<br>媒体绕过<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>Coorelation ID  |
+|[团队 PSTN 使用报告-直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话号码 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>失败时间<br>结束时间<br>持续时间<br>号码类型<br>媒体绕过<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>相关 ID  |
 
-> [!NOTE]
-> 团队报表显示活动用户和活动团队的数据。 例如，如果您的组织中的用户在您为报表指定的日期范围内没有在团队中处于活动状态，则该报表中不会包含该用户的数据。
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

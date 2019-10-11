@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74de2c5cc6ae294b69f31f7c25e652da4ea397
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245072"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434717"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -31,17 +31,17 @@ ms.locfileid: "36245072"
 
 |**组件**|**要求**  |
 |---------|---------|
-|计算机和处理器    | 最低 1.6 GHz (或更高) (32 位或64位)。        |
+|计算机和处理器    | 最低 1.6 GHz （或更高）（32位或64位）。        |
 |内存     |    2.0 GB RAM     |
 |硬盘    | 3.0 GB 的可用磁盘空间        |
 |Display    |   1024 x 768 屏幕分辨率 |
 |图形硬件 |  最少 128 MB 图形内存
-|操作系统  |    在32位和64位中的 windows 10、Windows 8.1、Windows 8 或 Windows 7 Service Pack 1。 为获得最佳体验, 请使用最新版本的任何操作系统。|
+|操作系统  |    Windows 10、Windows 8.1 或32位和64位中的 Windows 7 Service Pack 1。 为获得最佳体验，请使用最新版本的任何操作系统。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
-|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选**模糊处理我的背景**视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
-|团队活动事件 | 如果你正在生成团队实时事件, 我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM (或更高版本) 和硬件编码器的计算机。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
+|视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选**模糊处理我的背景**视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
+|团队活动事件 | 如果你正在生成团队实时事件，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM （或更高版本）和硬件编码器的计算机。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的团队桌面应用的硬件要求
 
@@ -53,20 +53,20 @@ ms.locfileid: "36245072"
 |Display    | 1280 x 800 或更高分辨率    |
 |操作系统  |    Mac OS X 10.11 El Capitan 或更高版本     |
 |视频  |    兼容网络摄像头     |
-|语音    |  兼容的麦克风和扬声器, 带麦克风的耳机, 或等效设备       |
-|视频通话和会议 | 为获得更好的视频通话和联机会议体验, 我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM (或更高版本) 的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展 2 (AVX2) 支持的处理器 (支持最迟 2013 Mac 设备和更高版本)。 有关不支持的解码器和编码器的列表, 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。|
+|语音    |  兼容的麦克风和扬声器，带麦克风的耳机，或等效设备       |
+|视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器（支持最迟 2013 Mac 设备和更高版本）。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>移动设备上的团队应用的硬件要求
 
-你可以在这些移动平台上使用 Microsoft 团队:
+你可以在这些移动平台上使用 Microsoft 团队：
 
 - Android-需要 Android 4.4 或更高版本
 
 - iOS-需要 iOS 10.0 或更高版本。 与 iPhone、iPad 和 iPod touch 兼容。
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虚拟桌面基础结构 (VDI) 环境中的团队应用的硬件要求
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虚拟桌面基础结构（VDI）环境中的团队应用的硬件要求
 
-有关在虚拟化环境中运行团队的要求, 请参阅针对[虚拟桌面基础结构的团队](teams-for-vdi.md)。 
+有关在虚拟化环境中运行团队的要求，请参阅针对[虚拟桌面基础结构的团队](teams-for-vdi.md)。 
 
 ### <a name="related-topics"></a>相关主题
 - [获取团队应用](get-clients.md)

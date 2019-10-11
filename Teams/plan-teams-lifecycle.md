@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e59a33fc6b58f2b2ae41c666506ebb5eddb90e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237680"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435191"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -195,7 +195,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 
 当团队的工作完成时，务必要正式确认其已结束。 这是向团队成员告知结束，此外，也防止任何人访问已过时的陈旧信息。 你可以使用团队本身完成结束事项，例如，事后剖析和执行摘要。
 
-你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 团队实际上是通过“软删除”进行删除的，IT 最长可以在 21 天内将其恢复（Office 365 组是 30 天）。 删除团队不会影响按照合规性策略保留的任何聊天或内容。
+你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 团队实际上是通过“软删除”进行删除的，IT 最长可以在 21 天内将其恢复（Office 365 组是 30 天）。 删除团队不会影响按照合规性策略保留的任何聊天或内容。 频道也具有“软删除”，并且可在删除后的最长 21 天内恢复。
 
 你还可以使用过期和保留策略以及存档功能来减少公开不再使用或其所有者已离开组织的团队。
 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328360"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434860"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -35,7 +35,7 @@ PBX 是企业内的电话系统。 Office 365 加载项中的电话系统提供�
   
 使用电话系统加载项，您可以使用 Skype for Business 完成基本任务，如从几乎任何位置拨打和接听电话、转移呼叫以及静音或 unmuting 呼叫。 此功能全球通用！ 
   
-有关详细信息，请参阅[电话系统定价](https://products.office.com/skype-for-business/cloud-pbx#requirements)。
+有关详细信息，请参阅[电话系统定价](https://products.office.com/microsoft-teams/voice-calling#requirements)。
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 功能中的电话系统
 
@@ -80,7 +80,7 @@ PBX 是企业内的电话系统。 Office 365 加载项中的电话系统提供�
     
 请参阅以下文章，在您的企业中规划和设置电话系统：
 
-- [带有呼叫计划的电话系统](calling-plan-landing-page.md)
+- [具有通话套餐的电话系统](calling-plan-landing-page.md)
 
 - [设置通话计划](set-up-calling-plans.md)：本文提供了有关使用您的电话号码设置或将您的现有电话号码转移到 Skype for business 的分步说明。
     

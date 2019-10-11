@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018764"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434928"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -111,7 +111,7 @@ Enabled               : True
 |必填？|名称|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|FQDN|SBC 的 FQDN 名称 |无|NoneFQDN 名称，限制63个字符|字符串、[适用于计算机、域、网站和 ou 的 Active Directory 中的命名约定](https://support.microsoft.com/help/909264)的允许和不允许的字符列表|
-|否|MediaBypass |保留供将来使用的参数。 指示 SBC 的参数支持媒体绕过，并且管理员希望使用它。|无|True<br/>False|Boolean|
+|否|MediaBypass |指示 SBC 的参数支持媒体绕过，并且管理员希望使用它。|无|True<br/>False|Boolean|
 |是|SipSignallingPort |用于通过使用传输层安全性（TLS）协议与直接路由服务进行通信的侦听端口。|无|任何端口|0到65535 |
 |否|FailoverTimeSeconds |设置为10（默认值）时，在10秒内网关未接听的出站呼叫将被路由到下一个可用的中继;如果没有其他中继，则会自动删除呼叫。 在网络和网关响应较慢的组织中，这可能会导致不必要地放弃一些呼叫。 默认值为10。|10|数字|整形|
 |否|ForwardCallHistory |指示是否通过中继转移呼叫历史记录信息。 如果启用，则 Office 365 PSTN 代理将发送两个标头：历史记录信息和引用者。 默认值为**False** （$False）。 |False|True<br/>False|Boolean|
@@ -270,7 +270,7 @@ Microsoft 通话计划将自动应用为具有 Microsoft 呼叫计划许可证�
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |仅限美国|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|拨打的号码的活动路线 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
-|仅限美国|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|已呼叫号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
+|仅限美国|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|ppls-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|已呼叫号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
 |仅限美国|"其他 + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫号码 + 1 XXX XXX xx （除 + 1 425 XXX xx 或 + 1 206 XXX xx 之间）的路由|
 |||||||
 
@@ -448,7 +448,7 @@ John 的一对电话-允许拨打任何号码的电话。 当呼叫雷德蒙数�
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |仅限美国|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫方号码的活动路由 + 1 425 XXX XX XX 或 + 1 206 XXX xx xx|
-|仅限美国|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫方号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
+|仅限美国|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|ppls-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫方号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
 |仅限美国|"其他 + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6> contoso.biz|被呼叫方号码的路由 + 1 XXX XXX xx （除 + 1 425 XXX xx 或 + 1 206 XXX xx）|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何数字模式的路由 |
 
@@ -532,6 +532,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 直接路由要求用户仅在 "仅工作组" 模式下，以确保传入呼叫位于团队客户的土地。 若要将用户置于 "仅团队" 模式，请为他们分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例。 如果你的组织使用 Skype for business 服务器或 Skype for business Online，请参阅以下文章了解 Skype 和团队之间的信息互操作性：[与 skype 配合使用团队的组织的迁移和互操作性指南适用于企业](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
 
+
+## <a name="configuring-sending-calls-directly-to-voicemail"></a>配置将呼叫直接发送到语音邮件
+
+直接路由允许您结束呼叫用户并将其直接发送到用户的语音邮件。 如果您想要将呼叫直接发送到语音邮件，请将不透明 = app：语音邮件附加到请求 URI 标题。 例如，"sip： user@yourdomain.com; 不透明 = 应用：语音邮件"。
+在这种情况下，团队用户将不会收到呼叫通知，直接将呼叫连接到用户的语音邮件。
 
 ## <a name="see-also"></a>另请参阅
 

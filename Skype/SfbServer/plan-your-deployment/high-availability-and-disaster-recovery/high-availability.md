@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解 Skype for Business 服务器中的前端池管理，包括管理池、仲裁损失以及仅有两个前端服务器的池的特殊步骤。
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047089"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435175"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  
@@ -40,7 +40,7 @@ ms.locfileid: "37047089"
   
 |池中服务器的总数  <br/> |使池第一次启动所必须运行的服务器的数量  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|ppls-2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
 |5  <br/> |4  <br/> |
@@ -51,6 +51,9 @@ ms.locfileid: "37047089"
 |10  <br/> |个  <br/> |
 |11  <br/> |db-9  <br/> |
 |至  <br/> |10  <br/> |
+|**适用于 Skype for Business Server 2019 的**16 <br/> |至  <br/> |
+
+
    
 以后每次启动池时，都应启动 85% 的服务器（如上表所示）。 如果此数目的服务器无法启动（但可以启动足够的服务器，因此你不在池级别的仲裁丢失），则可以使用`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet 使池能够从该路由组级别仲裁丢失恢复并进行操作。 有关如何使用此 cmdlet 的详细信息，请参阅[Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
@@ -63,15 +66,19 @@ ms.locfileid: "37047089"
   
 |池中的前端服务器总数  <br/> |使池发挥作用所必须运行的服务器的数量  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|ppls-2  <br/> |1  <br/> |
 |3-4  <br/> |任意 2 台  <br/> |
 |5-6  <br/> |任意 3 台  <br/> |
 |7  <br/> |任意 4 台  <br/> |
 |8-9  <br/> |前 7 台服务器中的任意 4 台  <br/> |
 |10-12  <br/> |前 9 台服务器中的任意 5 台  <br/> |
+|**适用于 Skype for Business Server 2019 的**12-16  <br/> |前12个服务器中的任何7个  <br/> |
    
 在上表中，"第一台服务器" 是第一次启动池时的服务器。 若要确定这些服务器，可以将`Get-CsComputer` cmdlet 与`-PoolFqdn`选项结合使用。 此 cmdlet 将按服务器在池中的出现顺序显示服务器，列表最上方的服务器就是前几台服务器。
   
+> [!IMPORTANT]
+> [Skype For Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)中的最大前端服务器数已增加到16
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>确保池正常工作的其他步骤
 
 您应注意其他几项因素，以确保您的前端池仍正常工作。

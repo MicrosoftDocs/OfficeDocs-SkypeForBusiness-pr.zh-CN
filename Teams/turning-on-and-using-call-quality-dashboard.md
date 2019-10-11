@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328349"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435096"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -40,7 +40,7 @@ ms.locfileid: "37328349"
 
 ## <a name="latest-changes-and-updates"></a>最新更改和更新
 
-CQD 版本3提供接近实时的 CQD 仪表板（延迟接近30分钟），并使用最终用户可识别信息（EUII），从而使管理员能够放大到用户级别。 此外，还可通过报表交互来支持新方案，例如：
+CQD 版本3提供接近实时的 CQD 仪表板（延迟接近30分钟），并使用最终用户可识别信息（EUII），从而使管理员能够放大到用户级别。 还提供支持新方案的报表交互，例如：
 
 - 按地区呼叫质量：
   - 按区域日期
@@ -129,11 +129,11 @@ CQD v3 支持使用 SPD 报表中的钻取或向下钻取字段。 如果选择�
 
 例如，在通话质量的钻取报表中，用户可以单击想要 "钻取" 的日期，这将导致 "位置" 选项卡。
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![屏幕截图：显示钻取报表](media/CQD-drill-thru-report.png)
 
 可以从 "位置" 选项卡添加多个日期，例如将2019-09-22 添加到日期：2019-09-24： 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![屏幕截图：向钻取报表添加日期](media/CQD-add-date.png)
 
 > [!NOTE]
 > 不要直接跳转到最后一个选项卡。没有从以前的钻取中选择的筛选器，结果将太大，无法在表格上显示。
@@ -339,6 +339,8 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 ### <a name="building-data-file"></a>生成数据文件
 
 CQD 使用构建数据文件，这有助于提供有用的通话详细信息。 通过展开 "网络 + NetworkRange" 列，然后将 "子网" 列联接到呼叫记录的第一个子网或 "第二个子网" 列中，显示建筑物、城市、国家或地区信息，从而派生出子网列。 你上载的数据文件的格式必须满足以下条件才能在上载之前通过验证检查：
+
+可以[在此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下载示例模板
   
 - 文件必须是 tsv 文件（由制表符分隔列）或 .csv 文件（列由逗号分隔）。
 - 数据文件不包含表格标题行。 数据文件的第一行应为真实数据，而不是标题标签（如 "Network"）。
@@ -359,9 +361,7 @@ CQD 使用构建数据文件，这有助于提供有用的通话详细信息。 
 
 **示例行：**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > 网络范围可用于表示 supernet （具有单个路由前缀的若干子网的组合）。 将检查所有新的生成上载，查找任何重叠区域。 如果你以前上载了一个生成文件，则应下载当前文件，然后重新上载它以标识任何重叠，并在再次上载之前修复该问题。 以前上载的文件中的任何重叠都可能会导致向报表中的建筑物进行错误的子网映射。 某些 VPN 实现不能准确报告子网信息。 建议将 VPN 子网添加到生成文件，而不是子网的一个条目时，将 VPN 子网中每个地址的单独条目添加为单独的32位网络。 每一行可以有相同的建筑物元数据。 例如，对于 172.16.18.0/24，而不是一行，您应该有256行，每个地址对应于 172.16.18.0/32 和 172.16.18.255/32 之间（包括这两个地址）的一行。
@@ -382,11 +382,11 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
   **字段顺序：**
 
-  终结点、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+终结点、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **示例行：**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报告
 

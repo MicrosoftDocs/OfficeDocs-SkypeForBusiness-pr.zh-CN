@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的安全邮件入门
-ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306678"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434946"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
@@ -47,6 +47,8 @@ ms.locfileid: "37306678"
     已*读回执的用法示例：* Dewei Roth （一种高风险患者）获准给医院。Sofia Krause 是一位护士，其中包括不同专业团队的专业团队（IDT）（包括不同的专业人员），作为本患者的主要护理协调员分配。  Sofia 与一组医生和其他医护人员进行群组聊天，这些医生和其他医护人员将与患者合作，以协调护理并启动紧急会审。在整个护理协调流程中，护士和医生通过患者的护理计划进行沟通和协作。  重要和紧急邮件通过1:1 和群组聊天对话发送。 Sofia 使用 "已读" 回执功能确定已发送请求支持的邮件是否由目标医生或医护人员提供和阅读。 Dewei 的患者成果接近最佳，他将更快地开始，因为他的护理团队顺利进行沟通。
 
 ## <a name="priority-notifications"></a>优先级通知
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

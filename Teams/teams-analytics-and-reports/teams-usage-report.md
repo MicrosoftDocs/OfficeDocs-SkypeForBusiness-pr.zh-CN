@@ -15,12 +15,12 @@ ms.collection:
 description: 了解如何在 Microsoft Teams 管理中心使用 Teams 使用情况报告来概要了解组织中的 Teams 活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131590"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439568"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 
@@ -31,7 +31,7 @@ ms.locfileid: "37131590"
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队使用情况**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    ![团队管理员中心中带有标注的 "团队使用情况" 报表的屏幕截图](../media/teams-reports-teams-usage-with-callouts.png "团队管理员中心中带有标注的 \"团队使用情况\" 报表的屏幕截图")
+    团队管理中心中 "团队使用情况"![报表的屏幕截图]，其中包含(../media/teams-reports-teams-usage-with-callouts.png "标注的团队管理中心中的 \"团队使用情况\" 报表的标注屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 
@@ -44,6 +44,8 @@ ms.locfileid: "37131590"
 |**5**   |表格按团队细分显示了使用情况。 <ul><li>"**团队名称**" 是团队的显示名称。 你可以单击团队名称以转到 Microsoft 团队管理中心中的团队设置页面。 </li> <li>“**隐私**”表示团队是私人团队还是公共团队。</li> <li>“**活跃用户数**”是指定时间段内活跃用户的数量。</li><li>“**来宾数**”是指定时间段内团队中来宾的数量。</li> </li> </ul>请注意，如果用户帐户在 Azure AD 中不再存在，则用户名在表中显示为 "-"。 <br><br>要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
 |**6**   |选择“**编辑列**”可在表格中添加或删除列。|
 |**7**   |你可以将报表导出到 CSV 文件，以便脱机分析。 单击 "**导出到 Excel**"，然后在 "**下载**" 选项卡上，单击 "**下载**" 以在准备就绪后下载报告。<br><br>!["下载" 选项卡的屏幕截图，显示导出的下载报告](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>相关主题
 

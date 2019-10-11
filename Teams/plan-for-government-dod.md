@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767179"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435213"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>规划 Microsoft 365 政府-DoD 部署
 
@@ -85,7 +85,7 @@ Microsoft 365 政府-DoD 环境为云服务的美国政府要求提供合规性�
 | | 组织结构图 | 有空 |
 | | 活动 | 有空 |
 | | 互操作（1:1 团队-Skype for Business 聊天） | 在政府待办事项中 |
-| 团队 | 频道消息 | 有空 |
+| Teams | 频道消息 | 有空 |
 | | 信道文件 | 有空 |
 | | OneNote 选项卡 | 在政府待办事项中 |
 | | 通过电子邮件发送频道 | 不可用 |
@@ -108,7 +108,7 @@ Microsoft 365 政府-DoD 环境为云服务的美国政府要求提供合规性�
 | | VoIP 呼叫 | 有空 |
 | | Skype for Business-团队通话 | 可用 |
 | | 通话套餐 | 不可用 |
-| | 音频会议（通过允许会议参与者通过 PSTN 加入） | 在政府待办事项中 |
+| | 音频会议（通过允许会议参与者通过 PSTN 加入） | 有空 |
 | | Microsoft Phone 系统直接路由 | 在政府待办事项中 |
 | | PSTN 呼叫者的大厅 | 在政府待办事项中 |
 | | 通话队列 | 在政府待办事项中 |

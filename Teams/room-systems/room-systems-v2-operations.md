@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838074"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435143"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -43,7 +43,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 将会议室前端显示屏配置为扩展模式。 这样做可确保当你重启屏幕上的电源时，不会在该屏幕上复制控制台 UI。
   
 > [!NOTE]
-> 如果你希望在从待机模式唤醒源时自动切换到活动视频源（如 MTR 控制台），则必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内显示时使用的消费者电视需要支持 HDMI 的 "消费者电子设备控制" （CEC）功能。  根据所选的坞站或控制台（可能不支持 CEC，请参阅制造商支持文档），可能需要[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)之类的工作区控制器来启用所需的行为。 
+> 如果你希望在从待机模式唤醒源时自动切换到活动视频源（如 MTR 控制台），则必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内显示时使用的消费者电视需要支持 HDMI 的 "消费者电子设备控制" （CEC）功能。  根据所选的坞站或控制台（可能不支持 CEC，请参阅制造商支持文档），可能需要从 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的控制器（如[HD RX-201-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ）来启用所需的现象. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 团队会议室重置（出厂还原）
 <a name="Reset"> </a>

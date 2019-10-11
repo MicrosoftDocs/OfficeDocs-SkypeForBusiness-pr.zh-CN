@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: b05cb7638314ce583ce97d98e3bb5d56e264ca62
-ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
+ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37159737"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439524"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -32,7 +32,7 @@ ms.locfileid: "37159737"
 > [!NOTE]
 > Microsoft 球队会议室旨在与 Microsoft 团队、Skype for business Server 2019、Skype for business Server 2015 或 Skype for business Online 配合使用。
 >
-> 早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。
+> 早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。 在由世纪互联运营的 Office 365 中或在 GCC、GCC-高或 DoD 环境下，Microsoft 球队会议室不受支持。
 >
 > 如果您有一个本地 Exchange 服务器，则 Microsoft 团队聊天室需要使用 Exchange Server 2013 SP1 或更高版本。
 

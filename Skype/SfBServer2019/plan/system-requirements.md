@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：通过本主题准备 Skype for Business Server 2019 服务器和域基础结构。 硬件、操作系统、数据库、软件、所有系统要求和建议，以及证书 DNS、文件共享和 Active Directory 信息，可帮助确保成功安装和部署你的服务器场。
-ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838025"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434853"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for business Server 2019 的系统要求
  
@@ -106,6 +106,9 @@ ms.locfileid: "36838025"
 <a name="Software"> </a>
 
 对于运行 Skype for Business Server 2019 的任何服务器，你需要安装或配置一些事项。 下面列出了这些详细要求，后跟特定服务器角色的其他要求。
+
+> [!IMPORTANT]
+> Skype For Business 2019 支持 .Net Framework 4.8。 
   
  **所有服务器：**
   

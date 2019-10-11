@@ -18,21 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 998436e48acec3552bc88f960d12771d9f1e941b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401844"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435154"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
-资源帐户也称为 Azure AD 中*已禁用的用户对象*，可用于表示常规资源。 例如，在 Exchange 中，它可能用于表示会议室，并允许他们拥有电话号码。 资源帐户可以托管在 Microsoft 365 或 Skype for business Server 2019 中。
+资源帐户也称为 Azure AD 中*已禁用的用户对象*，可用于表示常规资源。 例如，在 Exchange 中，它可能用于表示会议室，并允许他们拥有电话号码。 资源帐户可以使用 Skype for Business Server 2019 托管于 Microsoft 365 或本地。
 
 在 Microsoft 团队或 Skype for business Online 中，每个电话系统呼叫队列或自动助理都必须至少有一个关联的资源帐户。 资源帐户是否需要分配的电话号码将取决于关联呼叫队列或自动助理的预期用途，如下图所示。 在将电话号码分配给资源帐户之前，还可以参阅本文底部的 "呼叫队列" 和 "自动助理" 中链接的文章。
-
-> [!IMPORTANT]
-> 电话号码不会直接分配给自动助理或呼叫队列，而是与自动助理或呼叫队列相关联的资源帐户。
 
 ![资源帐户和用户许可证的示例](media/resource-account.png)
 
@@ -124,7 +121,8 @@ ms.locfileid: "37401844"
 ![数字2的图标，引用上一个屏幕截图](media/sfbcallout2.png)中的标注，您可以使用 "**编辑**" 选项编辑资源帐户的显示名称。 完成后单击 "**保存**"。
 !["编辑资源帐户" 选项的屏幕截图](media/r-a-edit.png)
 
-<a name="phonenumber"></a>
+<a name="phonenumber"> </a>
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
 ![数字3的图标，在以前的屏幕截图](media/sfbcallout3.png)中引用标注一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户，或分配资源帐户到已存在的自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果您的通话队列或自动助理仍需创建，则可以在创建资源帐户时将其链接在一起。 完成后单击 "**保存**"。
@@ -133,6 +131,9 @@ ms.locfileid: "37401844"
 
 > [!IMPORTANT]
 > 如果你的资源帐户没有有效的许可证，则当你尝试将电话号码分配给资源帐户时，内部检查将导致失败。 您无法分配号码或将资源帐户与呼叫队列或自动助理相关联。
+
+> [!IMPORTANT]
+> 电话号码不会直接分配给自动助理或呼叫队列，而是与自动助理或呼叫队列相关联的资源帐户。
 
 !["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
 

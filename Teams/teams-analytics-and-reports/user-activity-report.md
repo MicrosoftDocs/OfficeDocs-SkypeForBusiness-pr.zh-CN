@@ -15,12 +15,12 @@ ms.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队用户活动" 报表查看组织中的用户使用团队的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131589"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439557"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -31,7 +31,7 @@ ms.locfileid: "37131589"
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队用户活动**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    ![团队管理员中心中带有标注的团队用户活动报表的屏幕截图](../media/teams-reports-user-activity-with-callouts.png "团队管理员中心中带有标注的团队用户活动报表的屏幕截图")
+    团队管理中心中 "团队"![用户活动报表的屏幕截图]，其中包含(../media/teams-reports-user-activity-with-callouts.png "标注的团队管理中心中的 \"团队用户活动\" 报表的标注屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 
@@ -44,6 +44,8 @@ ms.locfileid: "37131589"
 |**5**   |此表提供了用户的使用情况细目。   <ul><li>"**显示名称**" 是用户的显示名称。 你可以单击 "显示名称" 以转到 Microsoft 团队管理中心中的用户设置页面。</li><li>**1:1 通话**是指用户在指定时间段内参与的1:1 通话次数。</li><li>**信道消息**表示在指定时间段内用户在团队聊天中发布的唯一消息数。</li> <li>"**聊天消息**" 表示指定时间段内用户在私人聊天中发布的唯一消息数。</li>  <li>"**上次活动**" 是用户参与团队活动的最后日期（UTC）。</li> </ul>请注意，如果用户帐户在 Azure AD 中不再存在，则用户名在表中显示为 "-"。 <br><br>要查看希望在表格中显示的信息，请确保向表格添加了相关列。
 |**6**   |选择“**编辑列**”可在表格中添加或删除列。 |
 |**7**   |你可以将报表导出到 CSV 文件，以便脱机分析。 单击 "**导出到 Excel**"，然后在 "**下载**" 选项卡上，单击 "**下载**" 以在准备就绪后下载报告。<br><br>!["下载" 选项卡的屏幕截图，显示导出的下载报告](../media/teams-reports-export-to-csv.png) <br>在 Excel 中查看报表时，你还会看到一个**Id**列，它表示团队 Id。 团队 ID 通常是一个字母数字字符串。 如果**Id**列显示为**\n**，则表示用户请求删除其信息。 ||
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>相关主题
 

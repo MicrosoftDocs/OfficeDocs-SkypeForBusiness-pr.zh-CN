@@ -123,10 +123,6 @@
 
 ## [电话系统和通话套餐](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通话套餐已知问题](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
-### [为你的组织添加、更改或删除紧急位置](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [为你的组织添加、更改或删除紧急地址](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
-### [为用户分配或更改紧急地址](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [为用户分配或更改紧急位置](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [创建并管理拨号计划](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [如何获取 Office 365 的通话套餐](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [如何在你的组织中使用来电显示](/microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

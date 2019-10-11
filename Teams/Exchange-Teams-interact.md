@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2e605e86b91fc5d0ea2f22d2aec3941a3d31d9
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062880"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434648"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -47,7 +47,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是 |
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是|
 |**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是<sup>6|是|是 |
-|**本地 Exchange**（需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是 |否|是<sup>5|是<sup>6|是|是 |
+|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是 |否|是<sup>5|是<sup>6|是|是 |
 
 <sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
 
@@ -57,7 +57,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>4</sup>保留将使用用于联机用户存储消息的卷影邮箱。 [Microsoft 团队为 Exchange 混合环境中的团队用户支持电子数据展示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
-<sup>5</sup>个团队用户使用内部部署 Exchange 邮箱可能在 Outlook 中使用语音邮件和工作组接收语音邮件，但语音邮件在团队客户端中不可用，无法查看或播放语音邮件。
+<sup>5</sup>个团队使用本地 Exchange 邮箱的用户可能在 Outlook 中使用语音邮件和工作组接收语音邮件，但语音邮件在团队客户端中不可用，无法查看或播放语音邮件。
 
 <sup>6</sup>如果团队的其中一个所有者可以添加连接器，则该团队中的其他所有人都可以执行此操作，即使他们的邮箱在本地托管。
 
@@ -80,7 +80,7 @@ Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富�
 >对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
 
 > [!IMPORTANT]
-> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，联机状态将在 Outlook 和其他 Office 应用中停止工作。 联机状态在团队中可以正常工作。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已意识到此问题，正在努力解决问题。
+> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
 
 ## <a name="additional-considerations"></a>其他注意事项
 
