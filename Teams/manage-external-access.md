@@ -18,19 +18,19 @@ description: IT 管理员可以为其他域（联盟）配置外部访问以允�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305757"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468494"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>管理 Microsoft 团队中的外部访问
 ======================================================
 
 使用 Microsoft 团队外部访问，其他域中的团队用户可以参与您的聊天和通话。 您还可以允许仍在使用 Skype for business Online、Skype for business 本地的其他外部用户，甚至还可以参加 Skype for business。
 
-在下列情况下，请按照本文的步骤进行操作：
+在以下情况中使用外部访问：
   
 - 您的企业中有不同域的用户：例如，Rob@contoso.com 和 Ann@northwindtraders.com。
 

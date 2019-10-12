@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439524"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468472"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -111,7 +111,7 @@ Microsoft 团队会议室根据房间大小使用不同的音频和视频外围�
 
 #### <a name="usb-extenders"></a>USB 扩展器
 
-- 平板电脑上的 USB 端口兼容 USB 3.0。 可以使用 USB 2 x 扩展器。 这将限制您最远的 USB 2 的速度，不推荐 USB 3.0 外围设备使用。
+- 平板电脑上的 USB 端口兼容 USB 3.0。 你可以使用 USB 2. x 扩展器，但这样做会将你限制到最远的 USB 2 x-blade 速度。 对于 USB 3.0 外围设备，不推荐使用扩展程序。
 - 扩展器必须符合 USB 2.0 或更高版本的规范。
   - 平板电脑停靠支持外部 USB 集线器扩展的至少两个阶段。 如果您在系列中连接了两个以上的 USB 集线器，请与 dock 制造商确认他们是否支持系列连接。
   - 聊天室中的有线 GbE 连接。 长度合适的以太网电缆。

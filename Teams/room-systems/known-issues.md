@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775190"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468483"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -54,7 +54,7 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 
 ***
 
-用作室内显示器正面的消费者电视必须支持 HDMI 的 "消费者电子设备" （CEC）功能，才能从待机模式自动切换到活动视频源。 并非所有电视都支持此功能。
+如果你希望在从待机模式唤醒源时自动切换到活动视频源（如 MTR 控制台），则必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内显示时使用的消费者电视需要支持 HDMI 的 "消费者电子设备控制" （CEC）功能。  根据所选的坞站或控制台（可能不支持 CEC，请参阅制造商支持文档），可能需要[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)之类的工作区控制器来启用所需的行为。 
 
 ***
 
@@ -67,6 +67,9 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 自 Microsoft Teams 会议室 3.0.12.0 版起，不再支持 64 位版本的 Windows 10 企业版 Anniversary Edition（英语版本 1607）。 
 ***
 Microsoft 团队会议室是一个多窗口应用程序，需要将房间内的正面显示连接到设备的 HDMI 端口，才能使应用正常运行。 请确保你已连接 HDMI 显示器，或者使用虚拟 HDMI 插头（如果你正在测试，并且尚未购买显示器）。
+***
+由于图形驱动程序出现问题，尚未从 Crestron 中的 Microsoft 团队聊天室设备提供 Windows 10 1903。
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅

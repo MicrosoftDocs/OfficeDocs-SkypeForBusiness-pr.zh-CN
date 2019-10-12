@@ -11,40 +11,55 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
-ms.openlocfilehash: dbe90d4014439af3f0dc3eeb54d62c5ee5e64c98
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 89706c2459c8f27c71017cc4f2b19395afaf5ead
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775069"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468461"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
-Microsoft 计划每年对 Microsoft 团队会议室进行一次版本的更新，每个更新支持12（12）个月的每次更新（GA）发布日期。 为全12（12）个月提供技术支持。 但是，支持结构现在是动态的，它发展成两个截然不同的服务阶段，它们依赖于最新版本的可用性。
+Microsoft 团队聊天室应用每年更新几次。 每个更新的常规可用性（GA）发布日期均支持12（12）个月。 为全12（12）个月提供技术支持。 但是，支持结构是动态的，具有两个不同的阶段，它们依赖于最新版本的可用性：
 
-**服务和关键更新服务阶段**\-当运行最新版本的 Microsoft 团队聊天室时，将收到定期更新，其中包含安全和服务更新。
+- **服务和关键更新阶段** \-当你运行最新版本的 Microsoft 团队聊天室应用时，你将收到包含*安全和服务*更新的定期更新。
 
-**安全更新（仅限）服务阶段**\-发布新版本后，对较旧的分支的支持仅减少到12（12）个月的剩余服务更新支持生命周期的安全更新。
+- **仅安全更新阶段** \-当 Microsoft 团队聊天室应用版本的新版本时，较早版本的应用的支持级别将仅适用于12（12）个月的剩余生命周期的*安全更新*。
 
 > [!NOTE]
-> 最新版本始终位于 "服务" 和 "关键更新服务" 阶段。 这意味着，如果遇到可保证关键更新的代码缺陷，则必须安装最新版本才能接收修补程序。 所有其他支持的版本仅有资格接收安全更新。
+> 最新版本始终位于 "服务" 和 "关键更新" 阶段。 如果遇到可保证关键更新的代码缺陷，还必须安装最新版本才能接收修补程序。 所有其他支持的版本仅有资格接收安全更新。
 
 所有支持将在某版本的12（12）个月生命周期到期后，或者自那时起发布超过两个更新时结束。 然后，客户必须更新到受支持的版本。
 
 所有版本均在[Microsoft 团队聊天室发行说明](srs2-release-note.md)中列出。
 
-# <a name="os-version-support"></a>操作系统版本支持
+## <a name="windows-10-release-support"></a>Windows 10 版本支持
 
-对于运行 Microsoft 团队聊天室的设备，windows 10 的功能更新不会在 Windows 发布更新时的6个月内提供。 通过在 Windows 更新 for Business 频道（即半年频道）和应用设置中为 Microsoft 团队聊天室设备放置特殊的块来完成此操作。 在此阻止期间，Microsoft 将在内部和设备 OEM 合作伙伴之间执行各种测试，以确保新的 Windows 10 功能版本与连接到 Microsoft 团队聊天室应用和外围设备的协调配合工作。 这对确保设备安全性、一致的用户体验以及确保通过 Microsoft 团队聊天室应用提供的体验质量非常重要。 
+Microsoft 团队聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企业版 Sku 在半年度频道服务选项下。 不支持以下其他 Windows 10 版本：
 
-从时间块提升（即，将 Windows 10 功能更新提供给在这些设备上下载），Microsoft 团队聊天室支持特定的 Windows 10 功能版本，其中包含应用支持策略的12个月内的版本。 由于 Windows 10 功能更新是每六个月提供的，因此这还意味着 Microsoft 团队有两个更多的版本可在当前版本的时间支持结束时进行测试。 这还意味着，每隔六个月的 Windows 10 版本都将取消对所有 Microsoft 团队聊天室客户的阻止。 该应用在上次取消阻止的 Windows 版本中不断更改和开发。 为确保你在 Microsoft 团队聊天室设备上遇到的问题的应用修复，我们建议所有客户将这些设备升级到所提供的最新 Windows 10 功能更新，以保持受支持的 windows 版本指南。
+- Windows 10 企业长期服务分支（LTSB）/长期服务通道（LTSC）版本
+- Windows 10 互联网（IoT） Enterprise LTSB/LTSC edition
+- 任何其他 Windows 版本（如 Windows 10 专业版或家庭版）
 
-因此，Microsoft 团队聊天室设备需要 Windows 10 版本1709作为支持的最低版本（从5月2019开始）。 Windows 10 版本1703或更低版本上的系统不提供新的应用版本。
+Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能更新。 在[Windows 10 发布信息](https://docs.microsoft.com/windows/release-information/)页面上发布的常规可用日期后的六个月内的有意延迟。 延迟时间用于验证 Microsoft 团队聊天室应用程序、设备硬件和经过认证的音频视频外设的 Windows 10 发布兼容性。 在 Windows 10 的每个主要版本的活动开发期间，验证开始和继续。 需要额外的时间来验证所有设备制造商是否已为其设备生成了更新的图像，以及 Microsoft 团队验证并测试这些图像。 在验证周期内，Microsoft 团队聊天室应用使用[Windows 更新 For Business 组策略](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)延迟 windows 10 功能更新。 找到并解决任何兼容性问题后，将通过 Windows 应用商店中的新应用版本更新组策略来提升该块。 运行 Microsoft 团队聊天室应用的设备会在夜间维护重启期间自动更新到相应的 Windows 10 版本。 MSI 版本可供希望手动管理更新的客户使用。  
 
-> [!NOTE]
-> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时，设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队聊天室设备不应手动升级到下一版本的 Windows 10，或者通过启用 Windows 更新（WUFB）组策略，使用 "选择要接收的更新的 Windows 准备情况级别" 和 "当通过 GPO 接收 "预览内部版本" 和 "功能更新" 选项。 已知启用这些组策略会导致 Windows 10 操作系统更新和 Microsoft 团队聊天室应用之间出现问题。
- 
-<a name="See"> </a> 
+在验证周期内，Microsoft 团队会议室设备**不**应通过任何方式更新到下一版本的 Windows 10。 这包括替代组策略，或使用 System Center 或其他第三方设备管理服务。 任何这些都可能导致 Microsoft 团队聊天室应用程序出现问题，或者可能导致设备无法使用。  
+
+下表显示了受支持的 Windows 10 版本和支持的 Windows 10 版本，这些版本经过验证以支持 Microsoft 团队聊天室。 所有日期均以 ISO 8601 格式列出： YYYY MM。
+
+|版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
+|:---  |:---       |:---                |:---    |:--- |
+| 1903 |2019-05-21 |能 <br/>推荐 |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |路经 <br/>不推荐 &#x2780; |&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |支持           |4.1.22.0 |17134.191 |
+| 1709 |2018-01-18 |不支持       |&#x2014; |&#x2014;|
+| 1703 |2017-07-11 |否       |&#x2014; |&#x2014;|
+||||| |
+
+使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
+
+由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2780; Windows 10 1809 版本。 此特定问题导致在夜间重启后，Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 1903 版本中解决。  
+
 ## <a name="see-also"></a>另请参阅
 
 [Microsoft Teams 会议室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
