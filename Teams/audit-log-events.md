@@ -8,19 +8,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解如何从 Office 365 审核日志检索 Microsoft Teams 数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d6b0ddd0dc5064d484c8420b42daee1b4e16d0e
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 5d332880756c0173045fc1e5464bd889d0131301
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253899"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515809"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 ==================================================
@@ -41,7 +40,7 @@ ms.locfileid: "36253899"
 
 ## <a name="turn-on-auditing-in-teams"></a>在 Teams 中启用审核
 
-在你可以查看审核数据之前, 你必须先在**安全 & 合规中心**(https://protection.office.com)) 中打开审核。 有关启用审核的帮助，请阅读[启用或关闭 Office 365 审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+在你可以查看审核数据之前，你必须先在**安全 & 合规中心**（https://protection.office.com)）中打开审核。 有关启用审核的帮助，请阅读[启用或关闭 Office 365 审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
 
 
 > [!IMPORTANT]
@@ -51,7 +50,7 @@ ms.locfileid: "36253899"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>从审核日志检索 Teams 数据
 
-1.  要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 "**搜索 & 调查**" 下, 选择 "**审核日志搜索**"。
+1.  要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 "**搜索 & 调查**" 下，选择 "**审核日志搜索**"。
 
 2.  使用“**搜索**”按活动、日期和你要审核的用户进行筛选。
 

@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: '了解如何在 Microsoft 团队管理中心添加、更改或删除你的组织的紧急位置。 '
-ms.openlocfilehash: e0befb48ce5cc6c896db89d7defbde94d01c9278
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396467"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516827"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
@@ -62,6 +61,6 @@ ms.locfileid: "37396467"
 ## <a name="related-topics"></a>相关主题
 
 -[什么是紧急位置、位置和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
-- [为组织中的紧急位置添加、更改或删除位置](add-change-remove-emergency-place-organization.md)
+- [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
 - [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)

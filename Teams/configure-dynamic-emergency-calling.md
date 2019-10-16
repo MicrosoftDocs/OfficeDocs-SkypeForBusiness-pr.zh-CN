@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: 配置动态紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006f131183fe75b8246f0d2fa2d0ae28575e9e1d
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b166c93bb213fab6e8025a1837ef67baa65c884
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396466"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516929"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling-for-calling-plans"></a>规划和配置通话计划的动态紧急呼叫
 Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前位置配置和路由紧急呼叫的功能。  自动路由到相应的公共安全应答点（PSAP）或通知安全桌面人员的能力会有所不同，具体取决于团队用户使用的国家/地区。  

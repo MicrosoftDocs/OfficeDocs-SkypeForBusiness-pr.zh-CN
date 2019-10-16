@@ -9,27 +9,27 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 选择 "团队客户端应用", 规划终结点质量, 获取有关部署 Wi-fi 终结点和选择音频设备的建议。
+description: 选择 "团队客户端应用"，规划终结点质量，获取有关部署 Wi-fi 终结点和选择音频设备的建议。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235184"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515970"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
-本文概述了正确识别云语音服务部署中直接影响用户体验的元素的要求。 通过在部署之前准备这些项目, 你将提高为用户成功提供优质、可靠体验的机会。 
+本文概述了正确识别云语音服务部署中直接影响用户体验的元素的要求。 通过在部署之前准备这些项目，你将提高为用户成功提供优质、可靠体验的机会。 
 
 ## <a name="client-deployment"></a>客户端部署
 
-Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (Android 和 iOS) 的客户端。 有关如何安装桌面 (Windows 和 Mac) 和移动客户端的其他详细信息, 请参阅[获取 Microsoft 团队客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
+Microsoft 团队拥有适用于 web、桌面（Windows 和 Mac）和移动设备（Android 和 iOS）的客户端。 有关如何安装桌面（Windows 和 Mac）和移动客户端的其他详细信息，请参阅[获取 Microsoft 团队客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
 
 ## <a name="client-updates"></a>客户端更新
 
@@ -39,11 +39,11 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 ## <a name="plan-for-endpoint-quality"></a>规划终结点质量
 
-正如您可以从下图中看到的, 终结点是为用户提供质量体验的重要构建基块。
+正如您可以从下图中看到的，终结点是为用户提供质量体验的重要构建基块。
 
-![描述三个质量组件的图表](media/plan-my-users-experience-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
+描述三个质量组件的![质量图表的三个组件](media/plan-my-users-experience-image1.png "以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
 
-团队终结点可以在许多设备上运行, 包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备, 还包括用户如何连接到设备-例如, 使用设备的内置麦克风/扬声器、earbuds 或优化的耳机。 使用优化耳机可以丰富整体用户体验。
+团队终结点可以在许多设备上运行，包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备，还包括用户如何连接到设备-例如，使用设备的内置麦克风/扬声器、earbuds 或优化的耳机。 使用优化耳机可以丰富整体用户体验。
 
 以下有关终结点规划的指导将帮助你确保你的组织成功上线 Teams。
 
@@ -51,7 +51,7 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 规划的第一部分是确保组织中的所有 Pc 和其他设备都可以运行团队。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
 
-有关每个平台 (web、桌面和移动版) 上的团队客户端的软件要求的信息, 请参阅[获取 Microsoft 团队客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
+有关每个平台（web、桌面和移动版）上的团队客户端的软件要求的信息，请参阅[获取 Microsoft 团队客户端](https://docs.microsoft.com/microsoftteams/get-clients)。
 
 ## <a name="endpoint-firewalls"></a>终结点防火墙
 
@@ -63,12 +63,12 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>针对终结点的 Wi-Fi 建议
 
-部署已优化的 Wlan 网络以支持 Microsoft 团队中的实时工作负载, 这一计划需要进行重大计划。 以下各部分提供了一些常规指南, 可帮助你避免在规划终结点时遇到常见的缺陷。
+部署已优化的 Wlan 网络以支持 Microsoft 团队中的实时工作负载，这一计划需要进行重大计划。 以下各部分提供了一些常规指南，可帮助你避免在规划终结点时遇到常见的缺陷。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
 某些 Wi-fi 驱动程序可能会有问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。
-这不是一种常见情况, 但确保电脑上的 Wi-fi 驱动程序在部署之前已更新和测试非常重要。
+这不是一种常见情况，但确保电脑上的 Wi-fi 驱动程序在部署之前已更新和测试非常重要。
 
 ### <a name="wi-fi-bands"></a>Wi-Fi 频带
 
@@ -85,11 +85,11 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 ### <a name="80211-power-save-protocol"></a>802.11 节能协议
 
-如果您的组织使用不支持802.11 节能协议的无线访问点或路由器, 则在 Windows 设备上运行的 Microsoft 团队中, 可能会遇到呼叫中断或不好的通话质量。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
+如果您的组织使用不支持802.11 节能协议的无线访问点或路由器，则在 Windows 设备上运行的 Microsoft 团队中，可能会遇到呼叫中断或不好的通话质量。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>将在您的组织中部署哪些团队客户？</li><li>如何开始将团队客户端部署到你的用户？</li><li>谁负责评估终结点和设备以验证它们是否满足优质体验的团队要求？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署团队客户端所遵循的流程。</li><li>评估终结点和设备, 并执行所需的执行和更正。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署团队客户端所遵循的流程。</li><li>评估终结点和设备，并执行所需的执行和更正。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -98,7 +98,7 @@ Microsoft 团队拥有适用于 web、桌面 (Windows 和 Mac) 和移动设备 (
 
 Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能时，用于 Teams 的接口设备在用户体验中起到重要作用。
 
-使用内置 PC 扬声器和麦克风对具有该配置的用户而言可能会正常接受。 但通常情况下, 这些设备不会针对噪声取消进行优化, 并且任何类型的环境噪音都可能会对其他人在通话中产生下游影响。 利用针对这些情况优化的设备有助于确保获得高质量体验。
+使用内置 PC 扬声器和麦克风对具有该配置的用户而言可能会正常接受。 但通常情况下，这些设备不会针对噪声取消进行优化，并且任何类型的环境噪音都可能会对其他人在通话中产生下游影响。 利用针对这些情况优化的设备有助于确保获得高质量体验。
 
 每个设备都需要满足用户的需求。 你需要为你组织中的不同角色和用例定制设备（例如耳机）。
 应在规划流程中完成角色-设备映射操作。
@@ -106,7 +106,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
 > [!NOTE]
-> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备, 请参阅[经认证的适用于 Skype for](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) business 解决方案目录的 USB 设备。
+> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备，请参阅[经认证的适用于 Skype for](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) business 解决方案目录的 USB 设备。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定你的组织的整体设备策略以了解用户和会议室体验。</li></ul></td></tr>

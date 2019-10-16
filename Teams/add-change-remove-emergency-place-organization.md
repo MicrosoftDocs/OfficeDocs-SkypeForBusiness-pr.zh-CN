@@ -1,5 +1,5 @@
 ---
-title: 为组织中的紧急位置添加、更改或删除位置
+title: 在组织中添加、更改或删除紧急位置的地点
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -9,22 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: '了解如何在 Microsoft 团队管理中心中为你的组织添加、更改或删除紧急位置的位置。 '
-ms.openlocfilehash: c4b1cc7d3b133032bee471826f8606b600c0ce62
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b297d2c9253919c0ffa780bb8f035c273852036
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396474"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516819"
 ---
-# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>为组织中的紧急位置添加、更改或删除位置
+# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>在组织中添加、更改或删除紧急位置的地点
 
 根据您的组织中的物理位置数，您可以添加建筑物、楼层和办事处的位置，以创建更具体的紧急位置。 有关详细信息，请参阅[什么是紧急位置、位置和呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 。
   
@@ -52,6 +51,6 @@ ms.locfileid: "37396474"
     
 ## <a name="related-topics"></a>相关主题
 
-- [为组织中的紧急位置添加、更改或删除位置](add-change-remove-emergency-place-organization.md)
+- [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
 - [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions)

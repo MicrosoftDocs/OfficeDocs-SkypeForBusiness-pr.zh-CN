@@ -12,23 +12,22 @@ description: 了解 Microsoft Teams 中用户反馈方法的最佳做法以确�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 553d7e0ced2ac6f031018e6ccb640fcf27deade0
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236959"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515746"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams 中用户反馈方法的最佳做法
 ===========================================================
 
 获得新的协作体验就是要改变你的用户的行为。 用户行为的改变需要培训、鼓励和正面示例。 此外，在过渡过程中，让用户感觉被倾听这一点至关重要。 如果你以前在贵组织中建立了成功的反馈方法，请考虑将其扩展以应用于你的 Teams 实现。 如果你以前未建立成功的反馈方法，请考虑以下方法之一：
 
--   在 Microsoft 团队内创建一个公共团队, 任何用户都可以加入这些团队来提供有关其体验的反馈 (请记住, 公共组限制为5000用户)。
+-   在 Microsoft 团队内创建一个公共团队，任何用户都可以加入这些团队来提供有关其体验的反馈（请记住，公共组限制为5000用户）。
 
 -   使用 Yammer 提供一个开放社区，以实现最佳做法并支持改进体验。
 

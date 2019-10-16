@@ -9,7 +9,6 @@ ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,16 +21,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ebe95fcfb5982c3dd2a615fe46c80e091a181783
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283423"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515847"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国行为准则
 
-此代码适用于英国 (英国) 的小型企业客户 (即10名员工或更少的组织), 根据英国通信法规, 在英国 (英国) 的 Office 365 通话计划服务 ("服务") 中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于英国（英国）的小型企业客户（即10名员工或更少的组织），根据英国通信法规，在英国（英国）的 Office 365 通话计划服务（"服务"）中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="1-about-skype-for-business"></a>1 关于 Skype for Business
 
@@ -43,7 +42,7 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
 
 免费电话号码：0800 032 6417
 
-联机: 登录到 Microsoft 365 管理中心并通过选择 "**支持**" 下的 "**新服务请求**" 提交服务请求。
+联机：登录到 Microsoft 365 管理中心并通过选择 "**支持**" 下的 "**新服务请求**" 提交服务请求。
 
 正常营业时间是周一至周五上午 9:00 至下午 5:00。
 
@@ -63,9 +62,9 @@ Office 365 通话计划依赖于您的宽带连接。 如果宽带连接断电�
 
 ## <a name="6-emergency-calls"></a>6 紧急呼叫
 
-Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是, 拨打999或112的紧急电话与传统电话服务上的 Office 365 通话计划服务的运行方式有所不同。 客户需要通知每个用户这些差异的 Office 365 通话计划服务。
+Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，拨打999或112的紧急电话与传统电话服务上的 Office 365 通话计划服务的运行方式有所不同。 客户需要通知每个用户这些差异的 Office 365 通话计划服务。
 
-不同之处包括: (i) Skype for business 可能不知道呼叫方的实际位置, 这可能会导致紧急服务被 despatched 到错误的位置;(ii) 当 Skype for Business 用户拨打紧急电话时, 用户可能会被运营商要求提供他或她的当前位置, 以帮助正确地传送紧急呼叫和 despatching 紧急服务;(iii) 如果用户的设备没有电源, 或者由于任何原因而无法访问 Internet, 则用户无法通过 Office 365 通话计划服务进行紧急呼叫;和 (iv) 虽然可在 Internet 连接可用的世界任何地方使用 Office 365 通话计划服务, 但用户不应呼叫999或 112, 而不是英国、威尔士、苏格兰或北爱尔兰, 因为呼叫很可能不会被路由到相应的紧急服务。
+不同之处包括：（i） Skype for business 可能不知道呼叫方的实际位置，这可能会导致紧急服务被 despatched 到错误的位置;（ii）当 Skype for Business 用户拨打紧急电话时，用户可能会被运营商要求提供他或她的当前位置，以帮助正确地传送紧急呼叫和 despatching 紧急服务;（iii）如果用户的设备没有电源，或者由于任何原因而无法访问 Internet，则用户无法通过 Office 365 通话计划服务进行紧急呼叫;和（iv）虽然可在 Internet 连接可用的世界任何地方使用 Office 365 通话计划服务，但用户不应呼叫999或112，而不是英国、威尔士、苏格兰或北爱尔兰，因为呼叫很可能不会被路由到相应的紧急服务。
 
 每位客户应注册用户的位置并使此信息保持在最新状态下，以便向紧急服务中心提供此信息，这一点非常重要。你可以通过 Skype for Business 管理员门户在线更改位置信息。
 
@@ -131,21 +130,21 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 
 ### <a name="complaints"></a>投诉
 
-如果您希望使用 PhonepayPlus 对服务提供商的投诉进行归档, 您可以免费、在线或通过电话提交查询:
+如果您希望使用 PhonepayPlus 对服务提供商的投诉进行归档，您可以免费、在线或通过电话提交查询：
 
-- 电话: 0300 30 300 20 9:30 (从星期一到星期五, 上午5点至下午5点)
+- 电话： 0300 30 300 20 9:30 （从星期一到星期五，上午5点至下午5点）
 
-- 在线查询:[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- 在线查询：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
 
 ### <a name="dispute-resolution"></a>争议解决
 
-如果您认为您的 "特优费率服务费用" 上的费用是 Skype for Business 部件上的错误, 并且您希望获得退款, 您可以按照 Skype for Business 投诉处理代码对投诉进行归档。 如果您将投诉与 Skype for Business 一起归档, (a) 投诉在提交后的八 (8) 周内未得到解决, 或者 (b) 您收到一条来自美国的字母, 表明我们已达到最终决定, 您可能会将投诉 Ombudsman 服务, 这是由 Ofcom 批准的第三方, 用于处理有关通信服务的投诉。
+如果您认为您的 "特优费率服务费用" 上的费用是 Skype for Business 部件上的错误，并且您希望获得退款，您可以按照 Skype for Business 投诉处理代码对投诉进行归档。 如果您将投诉与 Skype for Business 一起归档，（a）投诉在提交后的八（8）周内未得到解决，或者（b）您收到一条来自美国的字母，表明我们已达到最终决定，您可能会将投诉 Ombudsman 服务，这是由 Ofcom 批准的第三方，用于处理有关通信服务的投诉。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 国家翻译服务、个人号码和0870号码
 
-国家翻译服务是以08或 0500 (Freephone 号码) 开头的电话号码, 并按国家电话号码计划归类为 "特殊服务号码"。 个人号码以数字070为前缀。
+国家翻译服务是以08或0500（Freephone 号码）开头的电话号码，并按国家电话号码计划归类为 "特殊服务号码"。 个人号码以数字070为前缀。
 
-美国翻译服务、个人号码和0870号码的费率在我们的[网站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上提供, 并且可能会因一天的时间和您的通话的一周中的某一天而波动。 拨打0800号码是免费的。
+美国翻译服务、个人号码和0870号码的费率在我们的[网站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上提供，并且可能会因一天的时间和您的通话的一周中的某一天而波动。 拨打0800号码是免费的。
 
 
 ## <a name="related-topics"></a>相关主题

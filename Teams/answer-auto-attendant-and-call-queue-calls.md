@@ -8,48 +8,48 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 介绍云自动助理和通话队列, 并介绍如何在团队中回答这些呼叫。
+description: 介绍云自动助理和通话队列，并介绍如何在团队中回答这些呼叫。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb58a945f1a5ff06c9f92c9440e783e4df9cde0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241249"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516791"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
 
-团队用户可以直接从其团队客户端接收和应答来自云自动助理的调用和调用队列。 对于团队用户, "自动助理" 功能现在通常可用, 并且呼叫队列功能位于 "预览" 中。 
+团队用户可以直接从其团队客户端接收和应答来自云自动助理的调用和调用队列。 对于团队用户，"自动助理" 功能现在通常可用，并且呼叫队列功能位于 "预览" 中。 
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理和呼叫队列？
 
-云自动助理提供一系列语音提示或音频文件, 当呼叫者呼叫组织时, 呼叫者将听到该提示, 而不是人工操作员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
+云自动助理提供一系列语音提示或音频文件，当呼叫者呼叫组织时，呼叫者将听到该提示，而不是人工操作员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
 
-云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能, 以及搜索下一个可用的呼叫代理以处理呼叫, 而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。
+云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理自动助理或呼叫队列呼叫
 
-用户在应答呼叫之前, 将能够在自动助理或呼叫队列中区分来电。 除了呼叫者的姓名和/或号码, 每个调用都将包含有关呼叫者试图访问的人员的信息, 从而为用户提供了更好的解决呼叫者的上下文。
+用户在应答呼叫之前，将能够在自动助理或呼叫队列中区分来电。 除了呼叫者的姓名和/或号码，每个调用都将包含有关呼叫者试图访问的人员的信息，从而为用户提供了更好的解决呼叫者的上下文。
 
 下图显示了来自自动助理或呼叫队列的传入呼叫如何显示给用户。
 
 ![传入呼叫通知的屏幕截图](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-应答自动助理或呼叫队列呼叫后, 用户可以像处理任何其他呼叫一样处理呼叫, &#x2014; 他们可以在其他用户中添加或加入会议, 或者将呼叫转接到另一方。 此外, 将根据用户的配置转发自动助理呼叫。
+应答自动助理或呼叫队列呼叫后，用户可以像处理任何其他呼叫一样处理呼叫，&#x2014; 他们可以在其他用户中添加或加入会议，或者将呼叫转接到另一方。 此外，将根据用户的配置转发自动助理呼叫。
 
 > [!NOTE] 
-> 呼叫队列呼叫不会根据用户的配置转发。 这是为了确保呼叫者保留在队列中, 直到工程师可以接听呼叫且呼叫者不会被意外转发。
+> 呼叫队列呼叫不会根据用户的配置转发。 这是为了确保呼叫者保留在队列中，直到工程师可以接听呼叫且呼叫者不会被意外转发。
 
 ## <a name="supported-clients"></a>支持的客户端
 
-自动助理和呼叫队列呼叫支持在以下客户端中可用:
+自动助理和呼叫队列呼叫支持在以下客户端中可用：
 
 -   Microsoft Teams Windows 客户端 （32 和 64 位版本）
 -   Microsoft Teams Mac 客户端
@@ -58,7 +58,7 @@ ms.locfileid: "36241249"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为 Microsoft 团队配置自动助理和呼叫队列支持
 
-若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫, 需要配置你的互操作性策略和升级策略。 请查看[与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列, 请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)和[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫，需要配置你的互操作性策略和升级策略。 请查看[与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列，请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)和[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="related-topics"></a>相关主题
 

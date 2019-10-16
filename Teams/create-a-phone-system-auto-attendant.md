@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434960"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522766"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -219,10 +218,20 @@ ms.locfileid: "37434960"
 
 **按名称拨号**如果启用此选项，则呼叫者可以使用 "**按名称拨号**" 搜索组织中的人员。 他们说出用户的姓名和语音识别将其与用户相匹配。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。
 
-**通过分机号码拨号**如果启用此选项，**则当你配置了使用扩展的拨号计划**时，呼叫者可以通过输入电话分机与你的组织中的用户连接。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**通过分机号码拨号**如果启用此选项（当前仅在某些租户中可用），则呼叫者可以通过输入其电话分机连接到组织中的用户。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
+
+> [!IMPORTANT]
+> 请注意以下事项：
+>- 您希望可供拨号使用的用户需要将扩展指定为在[Microsoft 365 管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)中分配的电话号码或移动电话号码的一部分。  在 "用户电话号码" 字段中输入扩展名所需的格式是 " `+<phonenumber>;ext=<extension>`或`x<extension>`"。
+>- 当前不支持在团队管理中心中分配扩展。 你必须使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 命令或 Microsoft 365 管理中心。
+>- 在对 AAD 电话号码和 MobilePhone 属性的更改可用之前，最多可能需要12小时。
+>- 请不要为用户的 LineUri 定义扩展名。 目前不支持这种情况。
+>- 自动助理可配置为通过名称拨号或通过分机号码拨号，但不能同时进行这两种操作。
 
 > [!NOTE]
-> 如果想要同时使用 "**按姓名**拨号" 和 "**按分机号码拨号**" 功能，您可以创建主自动助理（**按名称进行拨号**），如果用户知道用户的扩展名，则会提示呼叫者选择菜单选项3，并将选项3设置为 "事务"。sfer 通过分机号码启用的自动助理呼叫。 
+> 如果想要同时使用 "**按姓名**拨号" 和 "**按分机号码拨号**" 功能，您可以创建主自动助理（**按名称进行拨号**），如果用户知道用户的扩展名，则会提示呼叫者选择菜单选项，并将该选项设置为将呼叫转移到启用了 "通过分机拨号" 的自动助理。 
 
 * * *
 

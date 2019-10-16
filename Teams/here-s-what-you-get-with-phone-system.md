@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434860"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516860"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -84,7 +84,7 @@ PBX 是企业内的电话系统。 Office 365 加载项中的电话系统提供�
 
 - [设置通话计划](set-up-calling-plans.md)：本文提供了有关使用您的电话号码设置或将您的现有电话号码转移到 Skype for business 的分步说明。
     
-- [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)：本文介绍了所有部署选项。 其中还介绍了如何规划只有云的完整解决方案。 
+- [Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)：本文介绍了所有部署选项。 它还包含有关规划整个仅云的解决方案的信息。 
     
 - [Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)：了解需要购买哪些许可证才能获取 Office 365 中的电话系统。
     
@@ -100,7 +100,17 @@ PBX 是企业内的电话系统。 Office 365 加载项中的电话系统提供�
 |:-----|:-----|:-----|
 |**丰富客户端** <br/> |**移动客户端** <br/> |**IP 电话** <br/> |
 | 适用于在 Office 365 中受支持的所有电脑和 Mac 客户端。 <br/> [安装 Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [为 Office 365 设置 Lync for Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 我们提供针对以下操作系统的 Skype for Business 客户端： <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |从众多与 Skype for Business 兼容的桌面电话中选择。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。 <br/> |
-   
+
+## <a name="availability-in-gcc-high-and-dod-clouds"></a>在 GCC 高和 DoD 云中的可用性
+<a name="bkmk_setup"> </a>
+
+以下功能在 GCC 高和 DoD 云中尚不可用。 
+- [辅助铃声、语音邮件和增强委派的呼叫设置](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [转接到语音邮件中间电话](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- 从搜索栏呼叫电话号码
+- 保留音乐
+- AAD 反向数字查找
+
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 

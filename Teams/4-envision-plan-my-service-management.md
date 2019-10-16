@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 通过规划运营角色和分配质量支持者来交付和维护高质量的部署。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f68e258535959c164ae838c2c146a4a4b207d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232291"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516005"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -36,7 +36,7 @@ ms.locfileid: "36232291"
 服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。
 有关客户的 Teams 服务管理职责及其与用户体验质量所基于的主要组件的相关程度的详细讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
 
-![三个质量组件的图表](media/plan-my-service-management-image1.png "三个质量组件 (即 Office 365 服务、网络和终结点) 的图表, 以及服务管理与所有三方重叠的方式。")
+(media/plan-my-service-management-image1.png "三个质量组件（即 Office 365 服务、网络和终结点")）的质量图的![三个部分的图表]，以及服务管理与这三个部分重叠的方式。
 
 <!--ENDOFSECTION-->
 
@@ -79,9 +79,9 @@ ms.locfileid: "36232291"
 
 在所有组织中，都需要小组或个人为质量负责。
 这是服务管理中最重要的角色。 质量专家是分配给热心用户体验的人员或组的客户角色。 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。
-优质拥护者的最佳候选人通常是客户服务所有者, 他们可以是热心用户体验的任何人员或组, 具体取决于组织的大小和复杂性。
+优质拥护者的最佳候选人通常是客户服务所有者，他们可以是热心用户体验的任何人员或组，具体取决于组织的大小和复杂性。
 
-质量专家利用现有工具和已记录的流程 (如通话质量仪表板 (CQD) 和质量体验检查指南) 监控用户体验、识别质量趋势和在需要的情况下进行补救。 质量拥护者与各自的团队协作处理补救措施, 向指导委员会报告进度和打开的问题。
+质量专家利用现有工具和已记录的流程（如通话质量仪表板（CQD）和质量体验检查指南）监控用户体验、识别质量趋势和在需要的情况下进行补救。 质量拥护者与各自的团队协作处理补救措施，向指导委员会报告进度和打开的问题。
 
 操作指南中记录了与角色相关联的任务和活动。 应在展望阶段早期分配此角色。 执行质量支持者角色时的一个主要步骤是获取该角色所需的知识，以及确保在执行任务时满足先决条件。 此角色的一个主要任务是运行定期质量体验评审。
 
@@ -89,9 +89,9 @@ ms.locfileid: "36232291"
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>《体验质量评审指南》简介
 
-质量体验审阅指南包含一组活动, 这些活动在对改善用户体验产生影响的关键区域中具有评估和提供补救指南, 如下图所示。
+质量体验审阅指南包含一组活动，这些活动在对改善用户体验产生影响的关键区域中具有评估和提供补救指南，如下图所示。
 
-![在质量体验评审期间要检查的关键区域的插图]在(media/plan-my-service-management-image2.png "质量体验审核期间要检查的关键方面: 音频、可靠性和用户调查结果。")
+![在质量体验期间检查要检查的关键区域的插图查看](media/plan-my-service-management-image2.png "质量体验评审期间要检查的关键区域：音频、可靠性和用户调查结果。")
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
@@ -109,13 +109,13 @@ ms.locfileid: "36232291"
 
 《体验质量评审指南》主要指导如何将通话质量仪表板 (CQD) 作为主要工具进行在线使用来报告和调查所述的每个方面，且重点在音频方面，以最大限度地提高采用率和作用。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您提前提名本《质量专家提名。 在进行命名后, 他们应开始熟悉[质量体验审核指南](https://aka.ms/qerguide)中的内容。
+我们强烈建议您提前提名本《质量专家提名。 在进行命名后，他们应开始熟悉[质量体验审核指南](https://aka.ms/qerguide)中的内容。
 
 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定负责组织中的云语音操作的人员。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载 "服务管理规划" 完整指南。</li><li>下载 "质量体验考核指南"。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供要查看的所有指南, 并熟悉操作要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载 "服务管理规划" 完整指南。</li><li>下载 "质量体验考核指南"。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供要查看的所有指南，并熟悉操作要求。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435096"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522755"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -310,9 +310,15 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 - 每个无线 AP 及其 MAC 地址的地图
 - 终结点到终结点的映射/模型/类型等。
   
+> [!NOTE]
+> 你上载到 CQD 的报告标签将按你的 Office 365 协议下的*支持数据*进行处理，包括任何其他被视为*客户数据*或*个人资料*的信息。 请不要包含不希望作为*支持数据*提供给 microsoft 的数据，此信息将对 microsoft 工程师可见，以便于支持之用。
+
 ![屏幕截图：显示呼叫质量仪表板租户数据](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. 在 "**租户数据上载**" 页面上，使用下拉菜单选择要上传的数据文件类型。 "文件" 数据类型表示文件的内容（例如，"建筑物" 指的是 IP 地址和建筑物和其他地理信息的映射，"终结点" 指终结点名称和模型/类型信息的映射。 当前 CQD 支持 cqd.teams.microsoft.com 的 "建筑物" 和 "终结点" 数据类型（在预览阶段和尚未正式提供），cqd.lync.com 仅支持 "建筑物" 数据类型。
+
+
+
 2. 选择文件数据类型后，单击 "**浏览**" 以选择数据文件。
 
    - 数据文件必须为 tsv （以制表符分隔的值）文件或 .csv （以逗号分隔的值）文件。 使用 .csv 文件时，包含逗号的任何字段都必须用引号引起来，或者删除逗号。 例如，如果建筑物名称为 NY，则在 .csv 文件中输入 "纽约州，NY"。
