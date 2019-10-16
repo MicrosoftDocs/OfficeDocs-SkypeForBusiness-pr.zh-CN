@@ -346,6 +346,7 @@
 ### 直接路由技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 #### [媒体路径国家/地区代码](direct-routing-country-codes.md)
+#### [用于测试会话边界控制器连接的 PowerShell 脚本](sip-tester-powershell-script.md)
 
 ## 电话号码
 ### [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
