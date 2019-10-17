@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
-ms.openlocfilehash: 89706c2459c8f27c71017cc4f2b19395afaf5ead
-ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.openlocfilehash: ddbca7ce03fb361d591f72571804f547d7062612
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37468461"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553756"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -43,22 +43,25 @@ Microsoft 团队聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企业�
 
 Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能更新。 在[Windows 10 发布信息](https://docs.microsoft.com/windows/release-information/)页面上发布的常规可用日期后的六个月内的有意延迟。 延迟时间用于验证 Microsoft 团队聊天室应用程序、设备硬件和经过认证的音频视频外设的 Windows 10 发布兼容性。 在 Windows 10 的每个主要版本的活动开发期间，验证开始和继续。 需要额外的时间来验证所有设备制造商是否已为其设备生成了更新的图像，以及 Microsoft 团队验证并测试这些图像。 在验证周期内，Microsoft 团队聊天室应用使用[Windows 更新 For Business 组策略](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)延迟 windows 10 功能更新。 找到并解决任何兼容性问题后，将通过 Windows 应用商店中的新应用版本更新组策略来提升该块。 运行 Microsoft 团队聊天室应用的设备会在夜间维护重启期间自动更新到相应的 Windows 10 版本。 MSI 版本可供希望手动管理更新的客户使用。  
 
-在验证周期内，Microsoft 团队会议室设备**不**应通过任何方式更新到下一版本的 Windows 10。 这包括替代组策略，或使用 System Center 或其他第三方设备管理服务。 任何这些都可能导致 Microsoft 团队聊天室应用程序出现问题，或者可能导致设备无法使用。  
+> [!IMPORTANT]
+> 在验证周期内，Microsoft 团队会议室设备**不**应通过任何方式更新到下一版本的 Windows 10。 这包括替代组策略，或使用 System Center 或其他第三方设备管理服务。 任何这些都可能导致 Microsoft 团队聊天室应用程序出现问题，或者可能导致设备无法使用。  
 
 下表显示了受支持的 Windows 10 版本和支持的 Windows 10 版本，这些版本经过验证以支持 Microsoft 团队聊天室。 所有日期均以 ISO 8601 格式列出： YYYY MM。
 
 |版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
-|:---  |:---       |:---                |:---    |:--- |
-| 1903 |2019-05-21 |能 <br/>推荐 |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |路经 <br/>不推荐 &#x2780; |&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |支持           |4.1.22.0 |17134.191 |
-| 1709 |2018-01-18 |不支持       |&#x2014; |&#x2014;|
-| 1703 |2017-07-11 |否       |&#x2014; |&#x2014;|
-||||| |
+|:---  |:---       |:---                                  |:---     |:---     |
+| 1903 |2019-05-21 |支持的 &#x2780;， <br/>推荐  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |路经 <br/>不推荐 &#x2781;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |支持                             |4.1.22.0 |17134.191|
+| 1709 |2018-01-18 |不支持                         |&#x2014; |&#x2014; |
+| 1703 |2017-07-11 |否                         |&#x2014; |&#x2014; |
+||||||
+
+由于 Intel 图形设备驱动程序出现问题，&#x2780; Windows 10 1903 不适用于 Crestron Flex 设备。 Windows 10 1903 不会提供给这些设备。 用户不应将这些设备升级到1903，并将其保存在 Windows 10 1803 上，直到 Crestron 中的图形驱动程序更新可用。 
+
+由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2781; Windows 10 1809 版本。 此特定问题导致在夜间重启后，Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 1903 版本中解决。  
 
 使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
-
-由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2780; Windows 10 1809 版本。 此特定问题导致在夜间重启后，Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 1903 版本中解决。  
 
 ## <a name="see-also"></a>另请参阅
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 阅读本主题，了解适用于 Skype 会议室系统的管理工具。
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775323"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547255"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 会议室系统可管理性和工具
  
@@ -29,9 +29,6 @@ ms.locfileid: "36775323"
   
 - [在 Skype for Business 服务器中部署 SRS v1 管理 Web 门户](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-通过下载[Skype 会议室系统管理包](https://www.microsoft.com/download/details.aspx?id=42320)并在 SCOM 服务器上安装，可以通过 System Center Operations MANAGER （SCOM）监视 Skype 会议室系统。 你可以使用 SCOM 设置警报、监视 Skype 会议室系统的运行状况、生成正常运行时间报告以及更多其他内容。 Skype 会议室系统随附有一个预安装的监视代理，该代理可以配置为指向 SCOM 服务器。 请参阅 Skype 会议室系统制造商提供的《安装指南》，了解如何在 Skype 会议室系统上配置监视 agent。
   
 ## <a name="exchange-checklist"></a>Exchange 清单
 
