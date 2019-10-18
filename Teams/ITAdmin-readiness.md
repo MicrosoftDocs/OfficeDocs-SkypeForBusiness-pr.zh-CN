@@ -10,7 +10,6 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
 f1keywords:
@@ -18,12 +17,12 @@ f1keywords:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
-ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
+ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "36993940"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563876"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 

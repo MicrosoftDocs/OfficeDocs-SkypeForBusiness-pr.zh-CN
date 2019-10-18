@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器（SBC）来为多个租户提供服务。
-ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131643"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572131"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -56,8 +55,8 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 有关如何针对 SBC 托管方案部署和配置 SBCs 的详细步骤，请参阅 SBC 供应商的文档。
 
-- **AudioCodes：**[直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中介绍的 SBC 托管方案的配置。 
-- **Oracle：**[直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
+- **AudioCodes：** [直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中所述的 SBC 托管方案的配置。 
+- **Oracle：** [直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
 - **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)，了解有关如何配置功能区内核系列 SBCs 和此页面[功能区的文档最佳做法-配置 Microsoft 团队直接路由 SBC 的运营商边缘](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系统（anynode）：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
 

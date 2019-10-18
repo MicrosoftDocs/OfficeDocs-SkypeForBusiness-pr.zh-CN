@@ -11,16 +11,15 @@ description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434648"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563999"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -44,10 +43,10 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 | 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是 |
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是 |是 |是 |是 |是 |是 |是 |是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|是|是 |否|是<sup>5|是<sup>6|是|是 |
-|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是 |否|是<sup>5|是<sup>6|是|是 |
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是 |是 |是 |是 |是 |
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是 |是 |是 |是 |是|
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|必需|是|否|是<sup>5|是<sup>6|必需|是 |
+|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
 
 <sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
 

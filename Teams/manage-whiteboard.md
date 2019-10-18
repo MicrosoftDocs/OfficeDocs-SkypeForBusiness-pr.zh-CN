@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ef6e203f615f9ea4ed1b67fc9d5995713916367
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328391"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571908"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>在 Microsoft 团队中管理白板
 ==========================================
@@ -52,7 +51,7 @@ Microsoft 白板是一个可自由形成的数字画布，其中的人员、内�
 
 尝试使用 Microsoft 白板之前，请确保 Surface Hub 设备上已安装白板应用程序。 如果未安装白板，请在 Surface Hub 设备上转到 Microsoft Store 应用，然后获取[Microsoft 白板](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab)。 有关详细信息，请参阅[在 Surface Hub 上启用 Microsoft 白板](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)。
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
 有关详细信息，请参阅：
 

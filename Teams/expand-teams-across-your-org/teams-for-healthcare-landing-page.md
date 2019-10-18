@@ -9,20 +9,22 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38652aca1bf7a479821286597d5475be18e9ee7f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4cc058a0d23008ebb827f3a661baed3611207f24
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235308"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570321"
 ---
 # <a name="teams-for-healthcare"></a>适用于医疗保健业的 Teams
 
-团队为护理团队和医疗保健专业人士提供一种安全的沟通方式, 协调患者治疗和提高运营效率。 在这里, 你可以找到管理你的组织中的医疗保健团队的团队所需的管理员资源。
+团队为护理团队和医疗保健专业人士提供一种安全的沟通方式，协调患者治疗和提高运营效率。 在这里，你可以找到管理你的组织中的医疗保健团队的团队所需的管理员资源。
 
 <ul class="panelContent cardsFTitle">
     <li>

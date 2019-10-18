@@ -11,17 +11,16 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fabd8a853202f49fb66c9b796a84beff554afdb5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c7b5d619812284bc60aab7bcc2dbea6e9ec0173
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241901"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565036"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================

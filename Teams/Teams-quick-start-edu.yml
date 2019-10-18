@@ -15,19 +15,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_Help
-  - Teams_ITAdmin_Training
   - M365-collaboration
   ms.custom:
   - NewAdminCenter_Update
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7e3ad8e6b514a4287f6fa0e41cf0deaa8728f67c
-  ms.sourcegitcommit: 0ddb012849b3fcceed4c5c65d473dd19b68237c5
+  ms.openlocfilehash: 374a5d1c6d6298781f2aca8ccc6de8eac3db44e3
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/12/2019
-  ms.locfileid: "36877321"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37567013"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 团队](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12)是一种将对话、会议、文件和应用集中到同一位置的数字中心。 由于它是基于 Office 365 构建的，学校受益于与他们熟悉的 Office 应用和服务集成。 它提供了企业级的安全和合规性，可进行扩展和自定义以满足每个学校的需要。\n\n使用 Microsoft 团队，您的学校或机构可以创建协作式教室、在专业学习社区中进行连接、与学校员工进行沟通、跨机构协调研究，或者更轻松地促进学生生命活动，如俱乐部或 extracurricular 活动-从 Office 365 教育版的单一体验获得。\n\nMicrosoft 团队节省时间、deepens 连接并简化日常后勤。 这允许教职员工将其角色集中在你的学校或机构中的教师、研究人员和领导人。  \n\n本指南适用于教育版 IT 管理员，包括尚未部署团队的人员。 本指南将帮助您开始使用： \n- 为你的学校启用团队\n- 了解可用于管理你的学校内的团队的控件类型\n- 通过对外部文档的引用查找合作伙伴服务 \n\n本指南旨在帮助您快速开始使用特定于学校团队的配置建议。 它不是一个大小适合的解决方案，但它是一个很好的起点。 \n\n如果你已部署 Teams（作为试点或完整部署）并且正在查找有关如何使用 Teams 的提示，请参阅 [Microsoft Teams 教育版](https://support.office.com/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)。\n\n## <a name=\"before-you-begin\"></a>开始之前\n\n1. [查看团队的环境准备情况](environment-readiness.md)。\n2. [部署学校数据同步](https://docs.microsoft.com/SchoolDataSync)，让教师能够更轻松地自动创建团队。 请[https://aka.ms/sdssupport](https://aka.ms/sdssupport)联系以获取部署帮助。\n3. 为 Teams 配置正确的端口和协议。 请参阅 [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)。\n4. [为团队准备学校的网络](prepare-network.md)。\n5. 选择团队类型。 Teams 教育版提供三种类型的新 Teams（总共有四种）。 要了解每种类型的区别和用例，请参阅[选择要在 Teams 中协作的团队类型](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67)。\n"

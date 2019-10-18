@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是用于 Skype for business 的 Office 365 服务和可用于多米尼加共和国的 Microsoft 团队。
-ms.openlocfilehash: a40f2ebcf6cddb1334d102774a9c3712c131cb3a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 704d2ccd56863030896b0a034f04a6b1badab263
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331081"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571443"
 ---
 # <a name="availability-in-the-dominican-republic"></a>在多米尼加共和国的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34331081"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是的, 适用于圣地亚哥。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是的，适用于圣地亚哥。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统

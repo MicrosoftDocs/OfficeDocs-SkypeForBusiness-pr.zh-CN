@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何通过 Exchange Online 部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: d2e410eeb04ac65f7fc458bc6c1d8e67579c0f8b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774931"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573491"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 

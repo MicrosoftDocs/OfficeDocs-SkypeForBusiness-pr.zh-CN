@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,17 +21,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 5cd0c207841a6dce86a17cd6990433c3760eca44
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: 6117388d2dde3f502e524fecf21466b227f4c122
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34335123"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573006"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>中国的免费拨号限制 - 北部（10 800 714 XXXX 范围）
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
 |**详细信息**|**说明**|

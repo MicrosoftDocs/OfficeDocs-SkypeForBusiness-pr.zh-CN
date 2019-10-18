@@ -9,32 +9,33 @@ ms.topic: reference
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-description: 阅读本文, 查找用于直接路由的媒体路径国家代码。
-ms.openlocfilehash: 5956f538df5aefc356e960f8eb2817602ef99884
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 阅读本文，查找用于直接路由的媒体路径国家代码。
+ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237453"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572208"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家代码
 
-选择媒体的路由路径时, 直接路由默认情况下, 始终根据会话边界控制器 (SBC) 的公共 IP 地址分配数据中心, 并始终选择最接近于 SBC 数据中心的路径。
+选择媒体的路由路径时，直接路由默认情况下，始终根据会话边界控制器（SBC）的公共 IP 地址分配数据中心，并始终选择最接近于 SBC 数据中心的路径。
 
-但是, 在某些情况下, 默认媒体路径可能不是最佳媒体路径;例如, 美国范围内的公共 IP 可能分配给位于欧洲的 SBC。 
+但是，在某些情况下，默认媒体路径可能不是最佳媒体路径;例如，美国范围内的公共 IP 可能分配给位于欧洲的 SBC。 
 
-通过将-MediaRelayRoutingLocationOverride 参数与 CsOnlinePSTNGateway 和 CsOnlinePSTNGateway cmdlet 结合使用, 你可以指定媒体流量的首选区域。 例如, 以下命令指定首选区域为德国:
+通过将-MediaRelayRoutingLocationOverride 参数与 CsOnlinePSTNGateway 和 CsOnlinePSTNGateway cmdlet 结合使用，你可以指定媒体流量的首选区域。 例如，以下命令指定首选区域为德国：
 
 CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE 
 
-请注意, 如果通话记录明确指明媒体路径的数据中心的默认分配不使用与 SBC 数据中心最接近的路径, 则 Microsoft 仅建议设置此参数。 
+请注意，如果通话记录明确指明媒体路径的数据中心的默认分配不使用与 SBC 数据中心最接近的路径，则 Microsoft 仅建议设置此参数。 
  
 ## <a name="country-code-reference-table"></a>国家/地区代码引用表
 
-下表显示了-MediaRelayRoutingLocationOverride 参数的国家/地区代码值:
+下表显示了-MediaRelayRoutingLocationOverride 参数的国家/地区代码值：
 
 | 该国         | 条码 
 |-----------------|--------------------|
@@ -86,11 +87,11 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 智利           | CL |
 | 中国           | CN |
 | 圣诞岛 | CX |
-| 科科斯 (基林) 群岛 | 修 |
+| 科科斯（基林）群岛 | 修 |
 | 哥伦比亚        | CO |
 | 科摩罗         | KM-KH&PLATFORM |
 | 刚果           | CG |
-| 刚果 (金)     | LCD |
+| 刚果（金）     | LCD |
 | 库的岛    | CK 可以 |
 | 哥斯达黎加      | CR |
 | 科特迪瓦   | CI |
@@ -230,7 +231,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 圣基茨和尼维斯 | KN |
 | 圣卢西亚     | LC |
 | 法属圣马丁    | MF |
-| 圣皮埃尔和密克隆岛 | 12:00 |
+| 圣皮埃尔和密克隆岛 | 12：00 |
 | 圣文森特和格林纳丁斯 | VC |
 | 萨摩亚           | WS-TRUST |
 | 圣马力诺      | SM |

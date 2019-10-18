@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,17 +21,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 101de8c8d7594bcece03111738e4dbfef04f8050
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: 4deace83835e413598a79d4b62d5d607282979d7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330129"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562683"
 ---
 # <a name="toll-free-dialing-restrictions-in-peru"></a>秘鲁的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
 |**详细信息**|**说明**|

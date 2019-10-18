@@ -11,60 +11,58 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 localization_priority: Normal
-description: 本文介绍针对 microsoft 团队认证的手机的列表, 以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
+ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394560"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573305"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
-Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文介绍针对 microsoft 团队认证的手机的列表, 以及 Microsoft 团队的手机认证中支持的功能。 若要获取有关团队认证的设备的最新信息和最新信息, 请转到[团队市场](http://office.com/teamsdevices)。
+Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。 若要获取有关团队认证的设备的最新信息和最新信息，请转到[团队市场](http://office.com/teamsdevices)。
 
 ## <a name="teams-certified-ip-phones"></a>团队认证的 IP 电话
 
-为在手机上提供高质量和可靠的 Microsoft 团队体验, 我们将与 Yealink、Crestron、Polycom 和 Audiocodes 进行合作并主动处理, 以开发和认证一系列桌面手机和会议室音频设备。 请参阅当前[经过认证的 IP 电话](teams-ip-phones.md#currently-certified-ip-phones)以获取当前受支持的设备。
+为在手机上提供高质量和可靠的 Microsoft 团队体验，我们将与 Yealink、Crestron、Polycom 和 Audiocodes 进行合作并主动处理，以开发和认证一系列桌面手机和会议室音频设备。 请参阅当前[经过认证的 IP 电话](teams-ip-phones.md#currently-certified-ip-phones)以获取当前受支持的设备。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 团队手机功能集
 
 下表提供了团队认证的 IP 电话支持的高级功能集。
 
-|功能 |桌面电话 (个人模式) |会议室电话 (共享模式)|
+|功能 |桌面电话（个人模式） |会议室电话（共享模式）|
 |---------|---------|---------|
 |**身份验证** | |  |
-|使用用户凭据登录 |  是 | 是|
-|使用 PC/智能手机登录  | 是 |是|
-|现代化身份验证 | 是 |是 |
+|使用用户凭据登录 |  必需 | 是|
+|使用 PC/智能手机登录  | 必需 |是|
+|现代化身份验证 | 必需 |是 |
 |电话锁定/解锁 | 是 |否 |
 |**通话** |  |  |
-|传入/传出 P2P 呼叫 | 是  |是 |
-|通过 UI 进行的通话控制 (静音、保持/恢复、转移、结束呼叫)| 是  |是 |
-|PSTN 呼叫| 是  |是 |
+|传入/传出 P2P 呼叫 | 必需  |是 |
+|通过 UI 进行的通话控制（静音、保持/恢复、转移、结束呼叫）| 必需  |是 |
+|PSTN 呼叫| 必需  |是 |
 |可视语音邮件 | 是 | 否 |
-|911支持  | 是  |是 |
+|911支持  | 必需  |是 |
 |**日历和状态**|   | |
-|日历访问和会议详细信息|是 |是|
+|日历访问和会议详细信息|必需 |是|
 |状态集成 |是|是|
-|Exchange 日历集成 |是|是|
-|联系人图片集成  |是|是|
-|公司目录访问 | 是|是|
+|Exchange 日历集成 |必需|是|
+|联系人图片集成  |必需|是|
+|公司目录访问 | 必需|是|
 |**会议**|   ||
-|会议的一次单击加入  | 是  |是 |
-|加入 Skype for Business 会议 | 是  | 是|
-|会议呼叫控件 (静音/取消静音、保持/恢复、挂断、添加/删除参与者)|是|是|
+|会议的一次单击加入  | 必需  |是 |
+|加入 Skype for Business 会议 | 必需  | 是|
+|会议呼叫控件（静音/取消静音、保持/恢复、挂断、添加/删除参与者）|必需|是|
 |会议详细信息|是|否|
 
-我们正在努力不断添加功能, 以帮助我们的用户在手机上增强其团队体验。 下面的屏幕截图展示了我们目前支持的一些体验。
+我们正在努力不断添加功能，以帮助我们的用户在手机上增强其团队体验。 下面的屏幕截图展示了我们目前支持的一些体验。
 
 ## <a name="sign-in-experience"></a>登录体验
 
-当用户单击团队中的登录按钮时, 通过公司门户启动登录。 用户可以通过在手机上输入用户凭据或通过选择从其他设备登录来选择登录。 如果用户选择从其他设备登录, 则用户可以从其 PC 或智能手机完成身份验证。
+当用户单击团队中的登录按钮时，通过公司门户启动登录。 用户可以通过在手机上输入用户凭据或通过选择从其他设备登录来选择登录。 如果用户选择从其他设备登录，则用户可以从其 PC 或智能手机完成身份验证。
 
 **用户使用凭据登录**
 
@@ -76,7 +74,7 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 
 ## <a name="personalshared-mode"></a>个人/共享模式
 
-登录成功后, 用户可以选择是将设备用于个人使用还是共享会议室。
+登录成功后，用户可以选择是将设备用于个人使用还是共享会议室。
 
 !["个人" 或 "共享帐户" 选项的屏幕截图](media/personal-vs-shared-mode.jpg)
 
@@ -92,7 +90,7 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 
 ## <a name="calling-experience"></a>通话体验
 
-Microsoft 团队用户可以抬起话筒或按扬声器按钮, 在通话屏幕上启动拨号盘。 或者, 用户可以使用硬件按钮 (如果可用) 拨出号码。
+Microsoft 团队用户可以抬起话筒或按扬声器按钮，在通话屏幕上启动拨号盘。 或者，用户可以使用硬件按钮（如果可用）拨出号码。
 
 **屏幕上的拨号盘**
 
@@ -104,7 +102,7 @@ Microsoft 团队用户可以抬起话筒或按扬声器按钮, 在通话屏幕�
 
 ## <a name="meeting-experience"></a>会议体验
 
-Microsoft 团队用户可以导航到 "会议" 选项卡以查看其会议, 并使用 "**加入**" 按钮加入其团队会议。
+Microsoft 团队用户可以导航到 "会议" 选项卡以查看其会议，并使用 "**加入**" 按钮加入其团队会议。
 
 **日历视图**
 
@@ -129,7 +127,7 @@ Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问�
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>在移动设备上查找固件版本
 
-通过选择右上角的 "**设置**" 图标, 然后单击 "**关于**", 可以在团队登录页面上检查最低固件版本。
+通过选择右上角的 "**设置**" 图标，然后单击 "**关于**"，可以在团队登录页面上检查最低固件版本。
 
 **团队登录页面**
 
@@ -141,9 +139,9 @@ Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问�
 
 ## <a name="required-licenses"></a>所需的许可证
 
-Microsoft 团队许可证可以作为其[Office 365 订阅](Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息, 请参阅可用的[电话系统许可证](https://products.office.com/en-us/microsoft-teams/voice-calling)。
+Microsoft 团队许可证可以作为其[Office 365 订阅](Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/en-us/microsoft-teams/voice-calling)。
 
-有关获取团队的详细信息, 请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>另请参阅
 

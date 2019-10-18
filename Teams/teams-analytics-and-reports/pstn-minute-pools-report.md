@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 分钟池" 报表查看组织内当前月份内消耗的分钟数。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428332"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568385"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 团队 PSTN 分钟池报告
 
@@ -30,7 +29,7 @@ Microsoft 团队管理中心中的 "团队 PSTN 分钟池" 报表通过显示在
 
 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 分钟池**"，然后单击 "**运行报告**"。
 
-"团队" 的!["pstn 分钟池" 报表的屏幕截图]，其中(../media/teams-reports-pstn-minute-pools-with-callouts.png "包含编号标注的 \"Microsoft 团队管理中心\" 中的 \"团队 pstn 分钟池\" 报表")
+![管理中心中的 "团队 PSTN 分钟池" 报表的屏幕截图](../media/teams-reports-pstn-minute-pools-with-callouts.png "Microsoft 团队管理中心中具有编号标注的团队 PSTN 分钟池报告的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于格鲁吉亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 2618fb1142d3b88dc0fb18e64506dd42ffc2d0ae
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: c6745aac2f50e16d973f925e0b0da59744af7324
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331873"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572907"
 ---
 # <a name="availability-in-georgia"></a>在格鲁吉亚的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34331873"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 第比利斯</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 第比利斯</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统

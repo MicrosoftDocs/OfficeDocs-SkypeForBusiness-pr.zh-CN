@@ -12,27 +12,26 @@ description: 了解如何规划团队中实施管理功能。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237691"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573247"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
 团队提供了一组丰富的工具来实施你的组织可能需要的任何监管功能。 本文指导 IT 专业人员提出正确的问题来确定他们对公司治理的要求以及如何满足这些要求。 
 
 > [!Tip] 
-> 观看以下会话以了解有关 Microsoft 团队中的管理的详细信息: [Microsoft 团队中的管理、管理和生命周期](https://aka.ms/teams-governance)
+> 观看以下会话以了解有关 Microsoft 团队中的管理的详细信息： [Microsoft 团队中的管理、管理和生命周期](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、命名、分类和来宾访问
 
-你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式, 是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以使用 Azure Active Directory (Azure AD) 配置这些区域中的每个区域。 
+你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式，是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以使用 Azure Active Directory （Azure AD）配置这些区域中的每个区域。 
 
 <br>
 
@@ -53,15 +52,15 @@ ms.locfileid: "36237691"
 |团队创建 |将团队创建限制为安全组成员。 |P1 |TBD|
 
 > [!NOTE]
-> 为了帮助您提前计划, 请[了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 为了帮助您提前计划，请[了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制组和团队创建会降低用户的工作效率, 因为许多 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息, 请导航到并展开[控制创建 Office 365 组的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制组和团队创建会降低用户的工作效率，因为许多 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息，请导航到并展开[控制创建 Office 365 组的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他信息
 
-确定你的要求后, 你可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南, 请参阅:
+确定你的要求后，你可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南，请参阅：
 
 - [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
@@ -72,7 +71,7 @@ ms.locfileid: "36237691"
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
-你的组织可能对为过期、保留和存档团队和团队数据 (频道消息和频道文件) 设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期, 以根据需要保留或删除信息, 并且可以将团队存档 (设置为只读模式) 以保留团队的时间点视图不再处于活动状态。
+你的组织可能对为过期、保留和存档团队和团队数据（频道消息和频道文件）设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，并且可以将团队存档（设置为只读模式）以保留团队的时间点视图不再处于活动状态。
 
 |           |            |
 |-----------|------------|
@@ -85,15 +84,15 @@ ms.locfileid: "36237691"
 |能 |详细信息 |需要 Azure AD Premium 许可证 |作出 |
 |---------|---------|---------|---------|
 |过期策略 |通过设置过期策略来管理 Office 365 组的生命周期。 |P1 |TBD|
-|保留策略 |通过在安全 & 合规中心设置团队的保留策略来保留或删除特定时间段内的数据。 **注意**: 使用此功能需要 Office 365 企业版 E3 或更高版本的许可。 |否 |TBD |
-|存档和还原 |如果团队不再处于活动状态, 而您想要保留它以供参考或在将来重新激活, 请存档团队。 |否 |TBD |
+|保留策略 |通过在安全 & 合规中心设置团队的保留策略来保留或删除特定时间段内的数据。 **注意**：使用此功能需要 Office 365 企业版 E3 或更高版本的许可。 |否 |TBD |
+|存档和还原 |如果团队不再处于活动状态，而您想要保留它以供参考或在将来重新激活，请存档团队。 |否 |TBD |
 
 > [!Note]
-> 组过期是 Azure AD Premium 功能。 为使此功能可用, 你的租户必须对用于配置受影响组的设置和成员的管理员的 Azure AD Premium 和许可证进行订阅。
+> 组过期是 Azure AD Premium 功能。 为使此功能可用，你的租户必须对用于配置受影响组的设置和成员的管理员的 Azure AD Premium 和许可证进行订阅。
 
 #### <a name="additional-information"></a>其他信息
 
-有关如何实现这些设置的技术指南, 请参阅:
+有关如何实现这些设置的技术指南，请参阅：
 
 - [设置 Office 365 组过期时间](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
@@ -114,23 +113,23 @@ ms.locfileid: "36237691"
 
 ### <a name="teams-feature-management-focus-areas"></a>团队功能管理重点领域
 
-团队通过策略提供精确的功能, 用于控制消息、会议、通话和实时事件功能等。 默认情况下, 可根据组织的需要将不同的策略应用于所有用户。 
+团队通过策略提供精确的功能，用于控制消息、会议、通话和实时事件功能等。 默认情况下，可根据组织的需要将不同的策略应用于所有用户。 
 
-有关所有设置的详细列表, 包括有关如何为你的组织实施它们的技术指南, 请参阅以下文章:
+有关所有设置的详细列表，包括有关如何为你的组织实施它们的技术指南，请参阅以下文章：
 
 - [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
 - [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [管理团队中的会议策略](meeting-policies-in-teams.md)
 - [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
 
-此外, 你可以为频道设置裁决, 并向特定用户提供审阅者的功能, 以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息, 请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
+此外，你可以为频道设置裁决，并向特定用户提供审阅者的功能，以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息，请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
 
 ## <a name="security-and-compliance"></a>安全性和合规性
 
-团队基于 Office 365 的高级安全和合规性功能构建, 并支持审核和报告、合规性内容搜索、电子发现、法律封存和保留策略。 
+团队基于 Office 365 的高级安全和合规性功能构建，并支持审核和报告、合规性内容搜索、电子发现、法律封存和保留策略。 
 
 > [!Important]
-> 如果您的组织具有合规性和安全要求, 请查看本文中提供的有关[Microsoft 团队安全性和合规性概述](security-compliance-overview.md)中的本主题的深入内容。
+> 如果您的组织具有合规性和安全要求，请查看本文中提供的有关[Microsoft 团队安全性和合规性概述](security-compliance-overview.md)中的本主题的深入内容。
 
 <!--
 ## Teams lifecycle management

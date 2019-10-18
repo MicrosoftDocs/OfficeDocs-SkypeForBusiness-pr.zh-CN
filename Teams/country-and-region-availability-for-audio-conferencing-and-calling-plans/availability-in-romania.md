@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于罗马尼亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: d59af4f2def033e90142f001467533e1b5e52239
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 122cda2118353e2e8d208ce5d64c9ae60b02ea93
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331353"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562754"
 ---
 # <a name="availability-in-romania"></a>在罗马尼亚的可用性
 

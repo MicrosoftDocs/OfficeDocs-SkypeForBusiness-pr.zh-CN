@@ -1,6 +1,6 @@
 ---
 title: Teams 中的排班
-description: 获得管理员指南, 您需要在团队中设置和管理倒班、计划管理工具。
+description: 获得管理员指南，您需要在团队中设置和管理倒班、计划管理工具。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -9,20 +9,22 @@ audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aef6380f7f9408692a687ceb60564a11b8867511
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: fb63e908e1331977d5da02a7c8bada11313d986c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447888"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569217"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-团队为你的组织中的一线工作人员提供了他们进行通信和高效协作所需的工具, 并执行最佳工作。 在此处, 你将找到你需要设置和管理团队中的倒班、计划管理工具的管理指南。
+团队为你的组织中的一线工作人员提供了他们进行通信和高效协作所需的工具，并执行最佳工作。 在此处，你将找到你需要设置和管理团队中的倒班、计划管理工具的管理指南。
 
 ### <a name="move-from-staffhub-to-shifts-in-teams"></a>从 StaffHub 移到团队中的倒班
 
@@ -55,7 +57,7 @@ ms.locfileid: "36447888"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>计划将 StaffHub 团队移动到团队中的倒班</h3>
+                        <h3>计划将 StaffHub 团队迁移到 Teams 中的班次</h3>
                     </div>
                 </div>
             </div>

@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328327"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569991"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -33,7 +32,7 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 ## <a name="classifier-definitions"></a>分类器定义
 
-CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或未_分类_。 用于分类流的指标和条件在随后的表中显示。 CQD 的 "由于" 维度的 "差" 可用于了解哪些指标负责_较差_的分类。 有关这些维度的详细信息，请参阅[通话质量仪表板中可用的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或未_分类_。用于分类流的指标和条件在随后的表中显示。CQD 的 "由于" 维度的 "差" 可用于了解哪些指标负责_较差_的分类。有关这些维度的详细信息，请参阅[通话质量仪表板中可用的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
 ### <a name="audio-classifier"></a>音频分类器
 
@@ -41,7 +40,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 
 |指标|条件|解释|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1.0|关于流降级的网络平均意见得分的平均值。 网络损失和抖动对收到的音频质量有多大影响。|
+|Audio Degradation Avg|> 1.0|数据流的平均网络平均观点。网络损失和抖动对收到的音频质量有多大影响。|
 |Round Trip|> 500|平均往返行程网络传播时间，以毫秒为单位计算。 [根据 rfc3550](https://tools.ietf.org/html/rfc3550)中提供的详细信息。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
 |抖动|> 30|流的平均抖动值，以毫秒为单位。|
@@ -55,7 +54,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 |步骤编号|指标|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 平均值包括从网络丢失恢复的帧。|
-|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
+|ppls-2|Video Frame Rate Avg|< 7|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 |  |  |  |  |  |  |  |
 
@@ -66,7 +65,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 |步骤编号 |指标 |条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 平均值包括从网络丢失恢复的帧。|
-|2|Video Frame Rate Avg|<2|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
+|ppls-2|Video Frame Rate Avg|<2|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 | |  | | | |  ||
 

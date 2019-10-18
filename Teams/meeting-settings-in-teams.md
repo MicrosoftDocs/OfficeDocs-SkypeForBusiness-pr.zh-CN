@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767190"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564929"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 

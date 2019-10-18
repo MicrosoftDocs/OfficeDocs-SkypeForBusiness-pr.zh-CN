@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,19 +21,19 @@ f1keywords:
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
-description: 当您获得您的组织的电话号码或移植 (转移) 号码时, 您可能需要在 PSTN 服务支持处获得帮助和支持。
-ms.openlocfilehash: 147bc55a04e2dc28c6ff28d6e2416cd2ff0334ec
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+description: 当您获得您的组织的电话号码或移植（转移）号码时，您可能需要在 PSTN 服务支持处获得帮助和支持。
+ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483708"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570607"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN 服务支持帮助
 
-如果您需要有关获取或转移号码给我们的帮助, 但需要帮助, 请告知我们我们可以通过电子邮件向您提供帮助, 并将其发送给我们。 在您的电子邮件帮助请求中, 请提供尽可能多的详细信息, 并包括详细信息, 例如组织 ID、域、需要帮助的号码类型、所需的数字类型、授权人员和有关问题的其他重要详细信息。
+如果您需要有关获取或转移号码给我们的帮助，但需要帮助，请告知我们我们可以通过电子邮件向您提供帮助，并将其发送给我们。 在您的电子邮件帮助请求中，请提供尽可能多的详细信息，并包括详细信息，例如组织 ID、域、需要帮助的号码类型、所需的数字类型、授权人员和有关问题的其他重要详细信息。
 
-然后将请求发送到以下电子邮件地址之一:
+然后将请求发送到以下电子邮件地址之一：
 
 - 有关美国内部电话号码的帮助， [发送您的请求](mailto:ptn@microsoft.com)  。
 - 有关美国以外的电话号码的帮助，  [发送您的请求](mailto:ptneu@microsoft.com) 。

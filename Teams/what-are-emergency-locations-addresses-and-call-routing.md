@@ -1,5 +1,5 @@
 ---
-title: 什么是紧急位置、位置和呼叫路由？
+title: 什么是紧急位置、地点和呼叫路由？
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解紧急地点、地点和紧急呼叫路由的定义，以及如何规划和为用户分配。 '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396398"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568549"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>什么是紧急位置、位置和呼叫路由？
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>什么是紧急位置、地点和呼叫路由？
 
 配置呼叫计划时，当您获取电话号码或将其分配给用户以支持紧急呼叫时，您必须为每个电话号码分配紧急位置。 您必须先添加并验证紧急位置，然后才能将紧急地点分配给电话号码。 验证可确保已识别紧急位置，并且该位置采用紧急响应服务可以使用的正确格式。 或者，您可以在紧急位置中添加一个位置，以便为用户提供更具体的位置。 例如，位置可以是链接到特定紧急位置的楼层、翼形或办公室。 虽然紧急位置已经过验证，但不会出现任何地方。
   

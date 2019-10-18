@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数，以及收费和免费电话号码是否可用。
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774649"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573081"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -83,7 +83,7 @@ ms.locfileid: "36774649"
 > - [意大利](availability-in-italy.md)
 > - [日本](availability-in-japan.md)
 > - [约旦](availability-in-jordan.md)
-> - [哈萨克斯坦](availability-in-kazakhstan.md)
+> - [Kazakhstan（哈萨克斯坦）](availability-in-kazakhstan.md)
 > - [肯尼亚](availability-in-kenya.md)
 > - [科威特](availability-in-kuwait.md)
 > - [拉脱维亚](availability-in-latvia.md)

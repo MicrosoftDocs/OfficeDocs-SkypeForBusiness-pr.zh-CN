@@ -9,7 +9,6 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434717"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565066"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -41,7 +40,7 @@ ms.locfileid: "37434717"
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
 |视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选**模糊处理我的背景**视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
-|团队活动事件 | 如果你正在生成团队实时事件，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM （或更高版本）和硬件编码器的计算机。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
+|Teams 实时事件 | 如果你正在生成团队实时事件，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM （或更高版本）和硬件编码器的计算机。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的团队桌面应用的硬件要求
 

@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,16 +17,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解团队消息中的优先级通知。
-ms.openlocfilehash: d4353ae5a4fbddd5a818dc73e3d7926ee4a8ebf3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d5ef07a2aff31281d8d0429c74751bf53ec7e556
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242544"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572439"
 ---
-# <a name="messaging-policies-licensing"></a>邮件策略授权
+# <a name="messaging-policies-licensing"></a>消息策略许可
 
-从2020年1月1日起, 许可用户将能够根据其订阅的条款发送紧急邮件 (优先级通知)。 IT 管理员将获得有关优先级通知使用情况的报告, 以支持相应的用户许可。 无论许可证如何, 用户都可以通过优先级通知收到不受限制的紧急邮件。 
+从2020年1月1日起，许可用户将能够根据其订阅的条款发送紧急邮件（优先级通知）。 IT 管理员将获得有关优先级通知使用情况的报告，以支持相应的用户许可。 无论许可证如何，用户都可以通过优先级通知收到不受限制的紧急邮件。 
 
 |字段| |每个用户最多发送5条消息| 发送每个用户每月无限长的消息|
 |---|---|---|---|

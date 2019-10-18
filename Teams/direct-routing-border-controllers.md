@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925486"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572241"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -68,4 +67,4 @@ Microsoft 合作伙伴与选定的会话边界控制器 (SBC) 供应商认证其
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-若要向我们提供有关团队的产品反馈 (如新功能的创意), 请访问[Uservoice](https://microsoftteams.uservoice.com)注意授予主要版本的证书。 这意味着支持在主要版本之后的 SBC 固件中包含任何数字的固件。
+若要向我们提供有关团队的产品反馈（如新功能的创意），请访问[Uservoice](https://microsoftteams.uservoice.com)注意授予主要版本的证书。 这意味着支持在主要版本之后的 SBC 固件中包含任何数字的固件。

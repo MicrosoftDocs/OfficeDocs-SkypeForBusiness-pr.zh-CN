@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是 Skype for business 和适用于洪都拉斯的 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: dac59b3afa79252a9a91b48904935a225c4f55fa
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 0b02b165fbce211a6b9d92e59ecf2bf67a256aa5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774413"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568426"
 ---
 # <a name="availability-in-honduras"></a>在洪都拉斯的可用性
 

@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者在其会议中使用免费电话号码的情况。
-ms.openlocfilehash: 423aab1c942850c94385f4df15a07d3218dbe2da
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290330"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572098"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>对特定 Teams 用户禁用免费电话号码
 
@@ -46,13 +45,13 @@ ms.locfileid: "34290330"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>对特定用户禁用免费电话号码 
 
-从**Microsoft 团队管理中心**:
+从**Microsoft 团队管理中心**：
 
-1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
 2. 在“**音频会议**”旁边，单击“**编辑**”。
 
-3. 设置**包括来自此用户的会议请求中**的免费电话号码****。 
+3. 设置**包括来自此用户的会议请求中**的免费电话号码 **。** 
 
 4. 单击“**保存**”。 
 

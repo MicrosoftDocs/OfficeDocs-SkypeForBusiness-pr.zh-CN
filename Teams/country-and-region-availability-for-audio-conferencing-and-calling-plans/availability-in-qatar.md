@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于卡塔尔的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 8c95c24d74a8d30b5dbf0f44c5fb6d851f36fa56
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 464578e13491e41c31a1a948bd1f05a702193ce2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331377"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562809"
 ---
 # <a name="availability-in-qatar"></a>在卡塔尔的可用性
 

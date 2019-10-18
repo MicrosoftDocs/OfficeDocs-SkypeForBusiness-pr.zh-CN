@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于波多黎各的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 4432d8ce71fb15656948ceeae186c7d782159832
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1e3606e48a235d3208d429581b23ce2b78bf03c2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331361"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562820"
 ---
 # <a name="availability-in-puerto-rico"></a>在波多黎各的可用性
 

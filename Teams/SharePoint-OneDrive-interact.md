@@ -12,27 +12,26 @@ search.appverid: MET150
 description: 了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互，例如，如何存储私人聊天文件，以及团队、频道和文档库之间的关系。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28a4a968fc9e478c3a13fb38acd1019221b5dcb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232275"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567117"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
 > [!Tip]
-> 观看以下会话, 了解团队如何与 Azure Active Directory (AAD)、Office 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互: [Microsoft 团队基础](https://aka.ms/teams-foundations)
+> 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Office 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
 
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
 私人聊天文件存储在发送方的 OneDrive for Business 文件夹中，在文件共享过程中，系统会自动向所有参与者授予权限。
 
-如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在频道中工作, 但用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
+如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在频道中工作，但用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 
 
@@ -49,7 +48,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 > 当前无法替代默认 SharePoint 站点和文档库。 我们已经知道你的需求，我们正在考虑。 查看 [Teams 路线图](https://aka.ms/teamsroadmap)或 [Teams UserVoice](https://aka.ms/TeamsUserVoice)，以随时了解即将推出的功能。
 
 > [!TIP]
-> 若要向团队添加链接到现有 SharePoint 网站页面或现有 SharePoint 文档库的选项卡, 请执行以下操作:
+> 若要向团队添加链接到现有 SharePoint 网站页面或现有 SharePoint 文档库的选项卡，请执行以下操作：
 > 1. 选择选项卡旁边的加号。
 > 2. 为现有文档库的现有 SharePoint 网站页面或**文档库**选择任一**SharePoint** 。
 > 3. 选择相应的页面或文档库。
@@ -62,11 +61,11 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
 
-团队中的 "**文件**" 选项卡紧密类似于 SharePoint 文档视图。 在 "**文件**" 选项卡上, 用户可以:
+团队中的 "**文件**" 选项卡紧密类似于 SharePoint 文档视图。 在 "**文件**" 选项卡上，用户可以：
 
 - 在 "**新建**文件" 菜单中查看其他选项。
 - 将文件同步到其本地驱动器。
-- 在 "**所有文档**" 菜单上, 从**列表**视图切换到**压缩列表**到 "**磁贴**" 视图。
+- 在 "**所有文档**" 菜单上，从**列表**视图切换到**压缩列表**到 "**磁贴**" 视图。
 - 确定需要关注或有恶意软件的文件。
 - 立即查看文件是否为只读或已签出。
 - 签出和签入文件。
@@ -74,15 +73,15 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 - 确定需要元数据的文件
 - 从更多筛选选项中进行选择。
 - 基于列标题对文件进行分组。
-- 修改栏设置 (向左或向右移动、隐藏) 和列宽。
+- 修改栏设置（向左或向右移动、隐藏）和列宽。
 
 ## <a name="default-link-type-setting"></a>默认链接类型设置
 
-SharePoint 和 OneDrive 具有管理员设置, 用于指定为文件创建的链接的默认链接类型。 团队通过重复使用管理员为 SharePoint 和 OneDrive 设置的设置来采用相同的方法。 有关此方法的更多详细信息,[请参阅更改用户获取共享链接时的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)。 
+SharePoint 和 OneDrive 具有管理员设置，用于指定为文件创建的链接的默认链接类型。 团队通过重复使用管理员为 SharePoint 和 OneDrive 设置的设置来采用相同的方法。 有关此方法的更多详细信息，[请参阅更改用户获取共享链接时的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)。 
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
-有关 SharePoint 如何与团队协同工作的详细信息, 请参阅[sharepoint 和团队: 更好地协作](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+有关 SharePoint 如何与团队协同工作的详细信息，请参阅[sharepoint 和团队：更好地协作](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 
-若要了解有关团队中的来宾体验的详细信息, 请阅读[来宾体验](guest-experience.md)。
+若要了解有关团队中的来宾体验的详细信息，请阅读[来宾体验](guest-experience.md)。
 

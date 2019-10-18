@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于乌克兰的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 1a97f94ffe5c7ef08b948d99f1df72b0b829b993
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 28b16f46c420d8bc2e0bc221d3a76ff8d34424e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331049"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572539"
 ---
 # <a name="availability-in-the-ukraine"></a>在乌克兰的可用性
 
@@ -77,7 +76,7 @@ ms.locfileid: "34331049"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |是  <br/> |
+|是否提供通信点数？  <br/> |否  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

@@ -9,13 +9,15 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
+ms.collection:
+- M365-collaboration
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: be8fd60b67efb356e09678eef21fbfab425ce304
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 078bbf06496dcb5216e4e659bf6628d5791dad46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774638"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571396"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 

@@ -11,17 +11,14 @@ audience: admin
 description: 在为 Teams 配置 Office 365 时，按照此清单中的核心、待办任务和活动进行操作。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53d20128607a44a0c8a6a9ef520c2a3808e0d495
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c102a09e8c0249b9919769b6714b2382c33ccc30
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238393"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567848"
 ---
 # <a name="enable-office-365"></a>启用 Office 365
  

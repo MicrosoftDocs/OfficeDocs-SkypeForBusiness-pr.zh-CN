@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,16 +24,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于哥斯达黎加的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 7bb2082661e2d6618a0950c717c1ccdb14f791bd
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 18d5658250ab7e44715f6c7d8c205f44036113c5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332033"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570489"
 ---
 # <a name="availability-in-costa-rica"></a>在哥斯达黎加的可用性
 
-[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或了解有关音频会议和通话计划的国家和地区可用性的详细信息。适用于音频会议和通话计划。
+[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或了解有关音频会议和通话计划的国家和地区可用性的详细信息。适用于音频会议和通话计划。
 
 以下是适用于哥斯达黎加的 Skype for business 和 Microsoft 团队的 Office 365 服务。
   

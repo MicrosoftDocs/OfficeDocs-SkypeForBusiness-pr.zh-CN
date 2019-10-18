@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
@@ -16,12 +15,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接路由的登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: decbe74eaece7508c2118175bd25f8acab200cc2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018797"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572186"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 

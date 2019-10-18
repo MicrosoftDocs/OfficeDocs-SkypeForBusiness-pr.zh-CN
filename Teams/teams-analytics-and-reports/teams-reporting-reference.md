@@ -11,17 +11,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解 Microsoft 团队管理中心提供的团队报表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 43d31c24745bb0ceba26160c09a3d11b5db0905b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439536"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570979"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 

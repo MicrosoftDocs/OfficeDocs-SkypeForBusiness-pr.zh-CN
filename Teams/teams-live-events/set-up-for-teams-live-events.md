@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解在团队中设置事件的活动的步骤，包括准备网络、分配许可证、使用策略为用户启用实时事件功能和计划以及设置第三方分发提供商。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047067"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570153"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -53,7 +52,7 @@ ms.locfileid: "37047067"
 
     你可以更改这些设置以满足组织的需求。
 
-    ![实时事件策略设置的屏幕截图](../media/teams-live-events-policies.png "Microsoft 团队管理中心中实时事件策略设置的屏幕截图") 
+    ![实时事件策略设置的屏幕截图](../media/teams-live-events-policies.png "Microsoft 团队管理中心中的实时事件策略设置的屏幕截图") 
 
 |设置  |说明  |
 |---------|---------|

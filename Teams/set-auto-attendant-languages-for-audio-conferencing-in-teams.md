@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: e99892ad42a8e7340558b8f0db7daa1da025777a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344247"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571300"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
@@ -46,9 +45,9 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。
 
-2. 从列表中选择一个**专用**的音频会议电话号码, 然后在页面顶部, 单击 "**编辑**"。 仅可以更改专用音频会议号码的语言。 仅当选择了专用的音频会议号码时, 才会显示 "**编辑**" 选项。
+2. 从列表中选择一个**专用**的音频会议电话号码，然后在页面顶部，单击 "**编辑**"。 仅可以更改专用音频会议号码的语言。 仅当选择了专用的音频会议号码时，才会显示 "**编辑**" 选项。
 
-3. 在右侧窗格中, 选择所需的默认语言和任何备用语言。 
+3. 在右侧窗格中，选择所需的默认语言和任何备用语言。 
  
     > [!NOTE]
     > 将列出受支持的默认语言和备用语言。 在列表中选择它们的顺序将是向呼叫方提供的语言的顺序。 
@@ -66,7 +65,7 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
-有关详细信息, 请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+有关详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
   
 ## <a name="related-topics"></a>相关主题
 

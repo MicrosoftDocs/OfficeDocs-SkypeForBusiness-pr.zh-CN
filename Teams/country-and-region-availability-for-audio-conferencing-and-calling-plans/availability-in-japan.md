@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35602324"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571688"
 ---
 # <a name="availability-in-japan"></a>在日本的可用性
 
@@ -39,14 +38,14 @@ ms.locfileid: "35602324"
 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
 
 > [!IMPORTANT]
-> 在日本使用 SoftBank 进行通话目前仅适用于早期的采纳者 (EA)。
+> 在日本使用 SoftBank 进行通话目前仅适用于早期的采纳者（EA）。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 北京</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 北京</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -60,18 +59,18 @@ ms.locfileid: "35602324"
    
 ## <a name="calling-plans"></a>通话套餐
 > [!IMPORTANT]
-> 仅可通过 SoftBank 使用基于日语的租户。 有关详细信息, 请参阅[Office 365 的 SoftBank 呼叫](https://aka.ms/SoftBankVoicePlan)。
+> 仅可通过 SoftBank 使用基于日语的租户。 有关详细信息，请参阅[Office 365 的 SoftBank 呼叫](https://aka.ms/SoftBankVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是的, 请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。  <br/> |
+|是否可购买通话套餐？  <br/> |是的，请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。  <br/> |
 |通话套餐的可用分钟数  <br/> |请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。 <br/> |
 |是否可以拨打呼出电话？  <br/> |请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。 <br/> |
 
 > [!IMPORTANT]
-> 若要删除日本 (由 SoftBank 提供) 中的用户 (订阅者) 号码, 请直接联系 SoftBank。
-> 若要更新日本 (由 SoftBank 提供) 中用户 (订阅者) 号码的紧急地址信息, 请直接联系 SoftBank。
-> 有关详细信息, 请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。
+> 若要删除日本（由 SoftBank 提供）中的用户（订阅者）号码，请直接联系 SoftBank。
+> 若要更新日本（由 SoftBank 提供）中用户（订阅者）号码的紧急地址信息，请直接联系 SoftBank。
+> 有关详细信息，请参阅[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

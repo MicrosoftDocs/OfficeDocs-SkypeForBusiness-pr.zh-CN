@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何在 Microsoft Teams 管理中心使用 Teams 使用情况报告来概要了解组织中的 Teams 活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439568"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570968"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams 使用情况报告
 
@@ -31,7 +30,7 @@ ms.locfileid: "37439568"
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队使用情况**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    团队管理中心中 "团队使用情况"![报表的屏幕截图]，其中包含(../media/teams-reports-teams-usage-with-callouts.png "标注的团队管理中心中的 \"团队使用情况\" 报表的标注屏幕截图")
+    ![团队管理员中心中带有标注的 "团队使用情况" 报表的屏幕截图](../media/teams-reports-teams-usage-with-callouts.png "团队管理员中心中带有标注的 "团队使用情况" 报表的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 

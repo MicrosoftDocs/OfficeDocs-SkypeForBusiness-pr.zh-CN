@@ -10,7 +10,6 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
-ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391434"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564962"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 

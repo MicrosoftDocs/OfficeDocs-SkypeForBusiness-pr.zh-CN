@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328402"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572252"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -231,8 +232,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Audio Degradation Avg  | 范围（平均意见得分 0-5） | 关于流降级的网络平均意见得分的平均值。 表示网络损失和抖动对收到的音频质量有多大影响。 值按范围分组表示。 <br/> **示例值：** 015： [0.01-0.02） | &bull;接收流的终结点未报告任何网络 MOS 性能下降 <br/>&bull;流不是音频流。    |
 | Jitter  | 范围（毫秒）  | 流的平均抖动值，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 065： [2-3）  | &bull;接收流的终结点未报告抖动数据 |
 | Jitter Max  | 范围（毫秒）  | 流的最大抖动值，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 065： [2-3） | &bull;接收流的终结点未报告抖动数据   |
-| Packet Loss Rate  | 范围（比率）  | 流的平均丢包率。 值按范围分组表示。 0.1 表示丢失了 10% 的数据包。 <br/> **示例值：** 015： [0.01-0.02）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
-| Packet Loss Rate Max  | 范围（比率）  | 流的最大丢包率。 值按范围分组表示。 0.1 表示丢失了 10% 的数据包。 <br/> **示例值：** 023： [0.09-0.1）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
+| Packet Loss Rate  | 范围（比率）  | 流的平均丢包率。 值按范围分组表示。 0.1 表示丢失了10% 的数据包。 <br/> **示例值：** 015： [0.01-0.02）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
+| Packet Loss Rate Max  | 范围（比率）  | 流的最大丢包率。 值按范围分组表示。 0.1 表示丢失了10% 的数据包。 <br/> **示例值：** 023： [0.09-0.1）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
 | Overall Avg Network MOS  | 范围 (MOS)  | 流的网络 MOS 平均值。值按范围分组表示。<br/> **示例值：** 076： [4.4-4.5） | &bull;接收流的终结点未报告任何网络 MOS 性能下降 <br/>&bull;流不是音频流  |
 | Ratio Concealed Samples Avg  | 范围（比率）  | 含有丢包隐藏生成样本的音频帧数与总音频帧数的比率。值按范围分组表示。0.1 表示 10% 的帧包含隐藏样本。<br/> **示例值：** 015： [0.01-0.02） | &bull;流的接收方未报告此值 <br/>&bull;流不是音频流  |
 |隐藏比率最大值 |范围（比率） | 带有数据包丢失 concealment 生成的样本的音频帧的最大数量，包括音频帧总数。 值按范围分组表示。 0.1 表示 10% 的帧包含隐藏样本。 <br/> **示例值：** 015： [0.01-0.02）| |
@@ -290,7 +291,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Poor  | Boolean  | 如果流具有足够的数据可分类为正常或较差，并且流分类为较差，则为 True。 否则为 False。   |   |
 | Good  | Boolean  | 如果流具有足够的数据可分类为良好或较差，并且流分类为良好，则为 True。 否则为 False。   |   |
 | Unclassified  | Boolean  | 如果流有足够的数据被分类为好或较差，则为 False。 否则为 True。 <br/>**示例值：** 1 |   |
-| 百分之一丢包  | Boolean  | 如果数据包丢失超过 1%，则为 True，否则为 False。  |   |
+| 百分之一丢包  | Boolean  | 如果数据包丢失超过1%，则为 True，否则为 False。  |   |
 |**分级**|||
 | First Feedback Rating  | 用户评级 (1-5)  | 第一终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull;未向第一个终结点显示任何调查  |
 | Second Feedback Rating  | 用户评级 (1-5)  | 第二终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull;未向第二终结点显示任何调查   |
@@ -392,8 +393,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一个终结点产品名称|String|第一个终结点（Skype for Business 或 Microsoft 团队）的产品名称。|
 | 第二终结点产品名称|String|第二终结点（Skype for business 或 Microsoft 团队）的产品名称。|
 | 第一个 UserType|枚举字符串|第一个终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知**-如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**Pstn** -pstn 用户。 <br/>**匿名**-团队用户或 Skype for business 访问者。 <br/>**应用程序**-一个 bot。 <br/>**用户**-AAD 用户可以是 Skype For business 用户或团队用户。 <br/>**服务器**-对于会议，至少一方是服务器。 <br/>**语音邮件**-终结点由语音邮件服务应答。||
-| 第二 UserType|枚举字符串|第二终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知**-如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**Pstn** -pstn 用户。 <br/>**匿名**-团队用户或 Skype for business 访问者。 <br/>**应用程序**-一个 bot。 <br/>**用户**-AAD 用户可以是 Skype For business 用户或团队用户。 <br/>**服务器**-对于会议，至少一方是 "服务器"。
-<br/>**语音邮件**-终结点由语音邮件服务应答。||
+| 第二 UserType|枚举字符串|第二终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知**-如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**Pstn** -pstn 用户。 <br/>**匿名**-团队用户或 Skype for business 访问者。 <br/>**应用程序**-一个 bot。 <br/>**用户**-AAD 用户可以是 Skype For business 用户或团队用户。 <br/>**服务器**-对于会议，至少一方是 "服务器"。 <br/>**语音邮件**-终结点由语音邮件服务应答。||
 |**Datapair**|||
 | Network Connection Detail Pair  | 枚举对 <br/>**可能的值：** <br/> wifi : wifi <br/> wifi : 有线 <br/> 有线 : wifi <br/> 有线 : 有线 <br/> MobileBB : MobileBB <br/> MobileBB : 其他 <br/> MobileBB : 隧道 <br/> MobileBB : wifi <br/> MobileBB : 有线 <br/> 其他 : 其他 <br/> 其他 : wifi <br/> 其他 : 有线 <br/> 隧道 : 隧道 <br/> 隧道 : wifi <br/> 隧道 : 有线 <br/> : MobileBB <br/> : 其他 <br/> : 隧道 <br/> : wifi <br/> : 有线 <br/> :  | 表示第一和第二终结点的网络连接详情的成对值。  | &bull;终结点网络连接类型未知。 当无法建立通话时可能会出现这种情况。   |
 | User Agent Category Pair  | 枚举对  | 表示第一和第二终结点的用户代理类别的成对值。 <br/> **示例值：** AV-MCU： OC  | &bull;终结点用户代理不是已知类型  |
@@ -581,8 +581,8 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg Audio Degradation |平均意见得分 (0-5) |关于流降级的网络平均意见得分的平均值。 表示网络损失和抖动对收到的音频质量有多大影响。 |
 |Avg Jitter |毫秒 |流的平均网络抖动，以毫秒为单位。 |
 |Avg Jitter Max |毫秒 |流的最大网络抖动值，以毫秒为单位。 |
-|Avg Packet Loss Rate |比率 |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。 0.1 表示丢失了 10% 的数据包。 |
-|Avg Packet Loss Rate Max |比率 |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。 0.1 表示丢失了 10% 的数据包。 |
+|Avg Packet Loss Rate |比率 |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。 0.1 表示丢失了10% 的数据包。 |
+|Avg Packet Loss Rate Max |比率 |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。 0.1 表示丢失了10% 的数据包。 |
 | 平均发送侦听 MOS |数字 |从用户发送的音频流的宽带的预测质量平均观点（MOS-LQ）的平均值。 <br/>请参阅[Lync Monitoring Reports 解码器](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)中的 "平均发送 MOS"|
 |Avg Overall Avg Network MOS |平均意见得分 (0-5) |流的网络平均意见得分的平均值。表示通过考虑网络损耗、抖动和编解码器对所收到的音频质量的平均估计。 |
 |Avg Ratio Concealed Samples |比率 |含有丢包隐藏生成样本的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的帧包含隐藏样本。 |

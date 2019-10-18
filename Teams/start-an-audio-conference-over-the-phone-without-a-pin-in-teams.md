@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Teams 管理中心启用或禁用匿名呼叫者加入会议。 '
-ms.openlocfilehash: 522970533565673b3fc68bcd5138006a6f6cf9d0
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253823"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570002"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
@@ -60,13 +60,13 @@ ms.locfileid: "35253823"
 
 - 如果要重置 PIN，请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin-in-teams.md)。
     
-- 如果已禁用匿名访问或不需要 PIN 才能启动会议, 请执行以下操作:
+- 如果已禁用匿名访问或不需要 PIN 才能启动会议，请执行以下操作：
     
   - 如果会议尚未启动（会议中还没有人）：系统将提示呼叫者确认是否是组织者，如果呼叫者确认是，则系统将提示其输入自己 PIN，在呼叫者输入 PIN 后，会议将启动，用户将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-- 如果启用匿名访问或不需要 PIN 来启动会议, 则启用:
+- 如果启用匿名访问或不需要 PIN 来启动会议，则启用：
     
   - 如果尚未启动会议（还没有会议）：如果呼叫者是组织者，将不会收到提示，并且从不提示她提供 PIN。 由于组织者的设置设为关闭，会议将启动，匿名呼叫者将加入会议。
     

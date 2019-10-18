@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435202"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573280"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>规划 Microsoft 365 政府-GCC 高部署
 

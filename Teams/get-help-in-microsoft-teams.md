@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: 了解在 Microsoft 团队中获取帮助的所有方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245899"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565285"
 ---
 <a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中获取帮助
 ============================================
@@ -34,12 +33,12 @@ Microsoft 团队中的 "帮助" 按钮是你的用户和拥护人员可以在使
 
  - **浏览主题**-这将转到按团队功能组织的帮助内容。 帮助用户充分利用团队的简单明了的指南。 
 
- - **视频**-我们的点播视频内容使用户能够快速了解特定任务。 我们将不断生成新的视频, 因此请经常回来查看。 当然, 您需要有互联网访问权限。 
+ - **视频**-我们的点播视频内容使用户能够快速了解特定任务。 我们将不断生成新的视频，因此请经常回来查看。 当然，您需要有互联网访问权限。 
 
- - **新增功能**- 
-   针对新的或更新的团队功能的用户和团队所有者定期发行说明。
+ - 有关新的或更新的团队功能的用户和团队所有者的**新增** - 
+   定期发布说明。
 
- - **分享主意**-我们始终希望向你听取有关如何改进团队的信息。 此选项将让你转到我们的产品反馈论坛, 你可以在其中提交新的功能请求或对现有功能请求进行投票。 我们在计划新功能时经常查看此信息。 
+ - **分享主意**-我们始终希望向你听取有关如何改进团队的信息。 此选项将让你转到我们的产品反馈论坛，你可以在其中提交新的功能请求或对现有功能请求进行投票。 我们在计划新功能时经常查看此信息。 
 
 > [!NOTE]
 > 帮助替换团队中的 T 机器人。 某些用户可能会在聊天历史记录中看到 T 机器人的聊天图标。 单击此图标可将其转到新的 "帮助" 体验。 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在哥伦比亚可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: 348cdeadf532c3b2153c1f10506280f7dda8b0ec
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 339ecb3481c66f49d14c20b9c68c90a4e440d4ca
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332073"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570500"
 ---
 # <a name="availability-in-colombia"></a>哥伦比亚可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34332073"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 波哥大</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 波哥大</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统

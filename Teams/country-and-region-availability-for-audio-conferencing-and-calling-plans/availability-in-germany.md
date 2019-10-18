@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 745d73ffc54a027e10a428cf5d97d5cebf2e7207
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331849"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569878"
 ---
 # <a name="availability-in-germany"></a>在德国的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34331849"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 法兰克福</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 法兰克福</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -60,7 +59,7 @@ ms.locfileid: "34331849"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话计划可用的分钟数。 |每个日历月提供四个计划选项: <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际通话计划: 1200 分钟的国内呼叫或600分钟的国际通话 (在日历月份内首先达到)</li></li> 
+|通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际通话计划：1200分钟的国内呼叫或600分钟的国际通话（在日历月份内首先达到）</li></li> 
 |是否可以拨出电话拨出收费号码？ <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    

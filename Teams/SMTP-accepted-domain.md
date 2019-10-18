@@ -8,19 +8,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
-description: 了解如何将 Microsoft 团队 SMTP 域添加为 Exchange Online 中允许的发件人域, 以向团队成员发送通知。
+description: 了解如何将 Microsoft 团队 SMTP 域添加为 Exchange Online 中允许的发件人域，以向团队成员发送通知。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc4b72e973bf6763b817c9bc4f133961cd000f7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5ae8be5c4b596b8815b8677b6214163924cbb183
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245758"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567125"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>在 Exchange Online 中将 Microsoft Teams SMTP 域添加为允许的发件人域 
 =============================================================================
@@ -29,10 +28,10 @@ ms.locfileid: "36245758"
 
 ![显示添加到组中的用户的邮件头的屏幕截图。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-团队也使用 Microsoft Exchange Online 在添加团队成员时向这些成员发送通知。 不同于 SMTP 邮件的域 FQDN 是 @email "teams.microsoft.com" (对于商业/商业租户), "@GCC-email.teams.com" 适用于政府租户, 并且可能被垃圾邮件筛选器捕获。
+团队也使用 Microsoft Exchange Online 在添加团队成员时向这些成员发送通知。 不同于 SMTP 邮件的域 FQDN 是 @email "teams.microsoft.com" （对于商业/商业租户），"@GCC-email.teams.com" 适用于政府租户，并且可能被垃圾邮件筛选器捕获。
 
 ![显示添加到组中的用户的邮件头的屏幕截图。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-为获得最佳效果和无缝操作, 请考虑将 Microsoft 团队 SMTP 域添加到 Exchange Online 垃圾邮件配置中的 "允许的发件人域" 列表:
+为获得最佳效果和无缝操作，请考虑将 Microsoft 团队 SMTP 域添加到 Exchange Online 垃圾邮件配置中的 "允许的发件人域" 列表：
 
 ![垃圾邮件配置设置的 "允许列表" 部分的屏幕截图](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)

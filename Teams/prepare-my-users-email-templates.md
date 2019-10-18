@@ -8,36 +8,33 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 当您在团队或 Skype for business 中实施云语音功能时, 请使用模板向用户发送电子邮件。
+description: 当您在团队或 Skype for business 中实施云语音功能时，请使用模板向用户发送电子邮件。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237197"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567703"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>帮助用户采用全新的在线电话系统
 
-电话可以是用户的生命线。 从传统的电话系统切换到联机电话系统表示用户工作方式的重大更改, 并且可能会对工作效率产生负面影响。 通过此更改来通知、指导和支持用户需要花费一些时间, 从而有助于确保积极的用户体验并最大限度地提高投资回报。
+电话可以是用户的生命线。 从传统的电话系统切换到联机电话系统表示用户工作方式的重大更改，并且可能会对工作效率产生负面影响。 通过此更改来通知、指导和支持用户需要花费一些时间，从而有助于确保积极的用户体验并最大限度地提高投资回报。
 
-本文包含可自定义的电子邮件模板, 可帮助用户了解其新电话系统。 自定义和发送相应的电子邮件以与特定的语音部署保持一致。 我们已使用方括号指示分区以轻松进行个性化设置, 但我们建议你添加特定于组织的消息, 以使通知与你的用户最相关。 如果适用于你的部署, 请将对 "团队" 的所有引用替换为 "Skype for Business"。
+本文包含可自定义的电子邮件模板，可帮助用户了解其新电话系统。 自定义和发送相应的电子邮件以与特定的语音部署保持一致。 我们已使用方括号指示分区以轻松进行个性化设置，但我们建议你添加特定于组织的消息，以使通知与你的用户最相关。 如果适用于你的部署，请将对 "团队" 的所有引用替换为 "Skype for Business"。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>电子邮件号码 1: 启动前三周发送
+## <a name="email-number-1-send-three-weeks-before-launch"></a>电子邮件号码1：启动前三周发送
 
-主题行:
+主题行：
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +91,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>电子邮件号码 2: 在开始之前发送一周
+## <a name="email-number-2-send-one-week-before-launch"></a>电子邮件号码2：在开始之前发送一周
 
-主题行:
+主题行：
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +135,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>电子邮件号码 3: 在启动日时发送
+## <a name="email-number-3-send-on-launch-day"></a>电子邮件号码3：在启动日时发送
 
-主题行:
+主题行：
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +172,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>电子邮件号码 4: 启动后发送两周
+## <a name="email-number-4-send-two-weeks-after-launch"></a>电子邮件号码4：启动后发送两周
 
-主题行:
+主题行：
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

@@ -9,15 +9,16 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: 管理 Microsoft 团队聊天室的 Windows 更新
-ms.openlocfilehash: 15e71446e6c0e15630125fb0e0169141f74f5cd0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: d1de433ae68630073ac5310bb55f0ada34b366d3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775146"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573513"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 

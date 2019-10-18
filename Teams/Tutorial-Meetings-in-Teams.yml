@@ -15,17 +15,15 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 331483c565292d60587de834cbb086af1b956969
-  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+  ms.openlocfilehash: 058a4d04226869b94c1d3d12c62c95c9351a7b8b
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/24/2019
-  ms.locfileid: "35198434"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37563360"
 items:
 - durationInMinutes: 1
   content: >
@@ -109,7 +107,7 @@ items:
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
         - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
-    3.  保持最新状态:
+    3.  保持最新状态：
         - 关注[团队博客](https://aka.ms/teamsblog)。
         - 阅读[团队路线图](https://aka.ms/O365Roadmap)。
         - 了解[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中的最新已发布功能。

@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: 列出由于驱动程序问题而未启用硬件加速的操作系统、模型和驱动程序的组合。
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242190"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570759"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>硬件解码器和编码器驱动程序建议
 
@@ -31,11 +30,11 @@ Microsoft 支持除本文列出的所有解码器和编码器之外的所有解�
 
 ## <a name="hardware-decoder-driver-recommendations---intel"></a>硬件解码器驱动程序建议-英特尔
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
-|Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0116 | [2, 0, 11929] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0116 | [2，0，11929] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0126 | [0.0.0.0]-[8.15.10.2418] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 一切 | [0.0.0.0]-[8.15.10.2753] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x2772 | [8.15.10.1749] |
@@ -54,9 +53,9 @@ Microsoft 支持除本文列出的所有解码器和编码器之外的所有解�
 
 ## <a name="hardware-decoder-driver-recommendations---nvidia"></a>硬件解码器驱动程序建议-Nvidia
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0540 | [8.15.1.1243] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0A20 | [8.15.11.8627], [8.15.11.8634], [8.15.11.8642] |
@@ -73,27 +72,27 @@ Microsoft 支持除本文列出的所有解码器和编码器之外的所有解�
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1040 |[0.0.0.0]-[9.18.13.1106] |
 |Windows 10 | 一切 | [10.18.13.5891] - [10.18.13.6881] |
 |Windows 10 | 一切 | [21.21.13.6909], [21.21.13.7570] |
-|Windows 7 | 一切 | [21, 21, 13, 4201] |
+|Windows 7 | 一切 | [21，21，13，4201] |
 
 ## <a name="hardware-decoder-driver-recommendations---amd"></a>硬件解码器驱动程序建议-AMD
 
-对于旧版操作系统, 仅为硬件加速启用了以下 Device_ids。
+对于旧版操作系统，仅为硬件加速启用了以下 Device_ids。
 
-|操作系统           | 模型 (Device_id) |
+|操作系统           | 模型（Device_id） |
 |---------------------------|-------------------|
 |Windows 7/<br>Windows 8/<br>Windows 8.1 | 0x9874, 0x9851, 0x9853, 0x9854, 0x9855, 0x9856, 0x9857, 0x9858, 0x9857, 0x9858, 0x9859, 0x985A, 0x985B, 0x985C, 0x985D, 0x985E, 0x985F, 0x98E4, 0x67DF, 0x67C0, 0x67C2, 0x67C4, 0x67C7, 0x67D0, 0x67EF, 0x67FF, 0x67E0, 0x67E1, 0x67E8, 0x67E9, 0x67EB, 0x67DF,0x67EF, 0x67FF, 0x6981, 0x6987, 0x6900, 0x694C, 0x694E, 0x694F, 0x6860, 0x6861, 0x6862, 0x6863, 0x6864, 0x6867, 0x6868, 0x6869, 0x686A, 0x686B, 0x686C, 0x686D, 0x686E, 0x687F, 0x69A0, 0x69A1, 0x69A2, 0x69A3, 0x69AF, 0x66A0, 0x66A1, 0x66A2, 0x66AF |
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 一切 | [0.0.0.0] – [25.20.15017.1009] |
 
 ## <a name="hardware-encoder-driver-recommendations---intel"></a>硬件编码器驱动程序建议-英特尔
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
 |Windows 7 | 一切 | [8.15.10.2200] - [8.15.10.2600] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 一切 | [8.15.10.2653] - [8.15.10.2827] |
@@ -114,23 +113,23 @@ Microsoft 支持除本文列出的所有解码器和编码器之外的所有解�
 
 ## <a name="hardware-encoder-driver-recommendations---nvidia"></a>硬件编码器驱动程序建议-Nvidia
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 一切 | [0.0.0.0]-[21.21.13.7848] |
 
 ## <a name="hardware-encoder-driver-recommendations---amd"></a>硬件编码器驱动程序建议-AMD
 
-对于旧版操作系统, 仅为硬件加速启用了以下 Device_ids。
+对于旧版操作系统，仅为硬件加速启用了以下 Device_ids。
 
-|操作系统           | 模型 (Device_id) |
+|操作系统           | 模型（Device_id） |
 |---------------------------|-------------------|
 |Windows 7 | 0x9874, 0x9850, 0x9851, 0x9852, 0x9853, 0x9854, 0x9855, 0x9856, 0x9857, 0x9858, 0x9859, 0x985A, 0x985B, 0x985C, 0x985D, 0x985E, 0x985F, 0x98E4, 0x67C0, 0x67C1, 0x67C2, 0x67C3, 0x67C4, 0x67C5, 0x67C6, 0x67C7, 0x67C8, 0x67C9, 0x67CA, 0x67CB, 0x67CC, 0x67CD,0x67CE, 0x67CF, 0x67D0, 0x67D1, 0x67D2, 0x67D3, 0x67D4, 0x67D5, 0x67D6, 0x67D7, 0x67D8, 0x67D9, 0x67DA, 0x67DB, 0x67DC, 0x67DD, 0x67DE, 0x67DF, 0x67E0, 0x67E1, 0x67E2, 0x67E3, 0x67E4, 0x67E5, 0x67E6, 0x67E7, 0x67E8, 0x67E9, 0x67EA, 0x67EB, 0x67EC, 0x67ED,0x67EE, 0x67EF, 0x67F0, 0x67F1, 0x67F2, 0x67F3, 0x67F4, 0x67F5, 0x67F6, 0x67F7, 0x67F8, 0x67F9, 0x67FA, 0x67FB, 0x67FC, 0x67FD, 0x67FE, 0x67FF, 0x1304, 0x1305, 0x1306, 0x1307, 0x1308, 0x1309, 0x130A, 0x130B, 0x130C, 0x130D, 0x130E, 0x130F, 0x1310, 0x1311,0x1312, 0x1313, 0x1314, 0x1315, 0x1316, 0x1317, 0x1318, 0x1319, 0x131A, 0x131B, 0x131C, 0x131D, 0x131E, 0x131F, 0x66A0, 0x66A1, 0x66A2, 0x66A3, 0x66A4, 0x66A7, 0x66AF, 0x6860, 0x6861, 0x6862, 0x6863, 0x6864, 0x6867, 0x6868, 0x6869, 0x686A, 0x686B, 0x686D,0x686E, 0x687F, 0x69A0, 0x69A1, 0x69A2, 0x69A3, 0x69AF
 
-由于各种驱动程序问题, 无法为硬件加速启用以下操作系统、型号和驱动程序组合。
+由于各种驱动程序问题，无法为硬件加速启用以下操作系统、型号和驱动程序组合。
 
-|操作系统           | 模型 (Device_id) | 驱动程序/范围 |
+|操作系统           | 模型（Device_id） | 驱动程序/范围 |
 |---------------------------|-------------------|--------------|
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x674a | [0.0.0.0] – [99.9999.9999.9999] |
 |Windows 7 | 一切 | [0.0.0.0]-[16.199.9999.9999] |

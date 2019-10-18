@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,22 +21,22 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588188"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571487"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>为 Microsoft Teams 试用或购买 Office 365 中的音频会议
 
-您的组织中的人员有时需要使用电话拨入会议。 Microsoft 团队仅为此情况提供音频会议功能! 用户可以使用手机呼叫 Microsoft 团队会议, 而不是在移动设备或电脑上使用 Microsoft 团队应用。
+您的组织中的人员有时需要使用电话拨入会议。 Microsoft 团队仅为此情况提供音频会议功能！ 用户可以使用手机呼叫 Microsoft 团队会议，而不是在移动设备或电脑上使用 Microsoft 团队应用。
 
 您只需为计划安排或主持会议的人员设置音频会议。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
 如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤 1: 购买和分配音频会议许可证
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤1：购买和分配音频会议许可证
 
 您必须是[全局管理员或帐单管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
 
@@ -47,13 +46,13 @@ ms.locfileid: "35588188"
     
 2. 获取**音频会议**许可证。 如果想要：
 
-   - 在购买之前**试用**它: 您可以注册一个包括音频会议的 Office 365 企业版 E5 免费试用版。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - 在购买之前**试用**它：您可以注册一个包括音频会议的 Office 365 企业版 E5 免费试用版。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **购买**: 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+   - **购买**：请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 3. [如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)分配给贵组织中打算安排或主持会议的人。
 
-4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明, 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要购买和分配按分钟付费的音频会议许可证：
 
@@ -75,9 +74,9 @@ ms.locfileid: "35588188"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-将**音频会议**许可证分配给你的组织中没有与第三方音频会议提供商集成的 Skype for business 的人员时, 它们都将设置并准备就绪! （您无需设置其音频会议提供商。）
+将**音频会议**许可证分配给你的组织中没有与第三方音频会议提供商集成的 Skype for business 的人员时，它们都将设置并准备就绪！ （您无需设置其音频会议提供商。）
 
-如果你的用户已使用第三方音频会议提供商启用了用户, 则必须将这些用户的提供商更改为 Microsoft。 若要更改用户的提供商, 请参阅[将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+如果你的用户已使用第三方音频会议提供商启用了用户，则必须将这些用户的提供商更改为 Microsoft。 若要更改用户的提供商，请参阅[将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 

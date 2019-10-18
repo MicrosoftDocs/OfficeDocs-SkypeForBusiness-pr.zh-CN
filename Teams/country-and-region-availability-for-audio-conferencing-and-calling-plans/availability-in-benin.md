@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于 Benin 的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 97a2d67c4c1d72af006a818039fd69349cfebc57
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 1e2bac4e11ed428c2fe354603bdfe27758fad0bd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775629"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571102"
 ---
 # <a name="availability-in-benin"></a>Benin 中的可用性
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于阿拉伯联合酋长国的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 8f3c0172a238b59e8c55096f98a1304de7851231
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0dbc64e623bde870b4a694012b76202ec7de1225
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331025"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572528"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>在阿拉伯联合酋长国 (UAE) 的可用性
 

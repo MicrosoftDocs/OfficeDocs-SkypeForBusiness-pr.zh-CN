@@ -12,75 +12,74 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
-description: 了解如何使用团队模板来创建工作组使用预定义的通道。
+description: 了解如何使用团队模板创建具有预定义频道的团队。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245590"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569560"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
 
-工作组模板是预建的团队的结构围绕业务需要或项目设计的定义。 工作组模板可用于快速使用不同的主题的通道创建丰富的协作空格和预安装应用程序提取在任务关键型内容和服务。 工作组模板提供可帮助您轻松地在整个组织中创建一致的团队的预定义的团队结构。 
+团队模板是围绕业务需求或项目设计的团队结构的预建定义。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 
 
-本文中，我们将介绍可以在模板类型是，哪些基本模板定义的属性和如何使用了几个示例请求从模板创建工作组。
+在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求来从模板创建团队。
  
-本文适用于您，如果您是：
+本文适用于您的情况：
 
-- 负责规划、 部署和管理您的组织内的多个团队<br>
-- 开发人员希望以编程方式使用预定义的通道和应用程序创建团队 
+- 负责在整个组织中规划、部署和管理多个团队<br>
+- 希望使用预定义频道和应用以编程方式创建团队的开发人员 
 
-## <a name="teams-template-capabilities"></a>工作组模板功能
+## <a name="teams-template-capabilities"></a>团队模板功能
 
-包含和模板的支持团队中的大多数属性。 但有一些属性，当前不支持的功能。 下表提供了包含的组件和工作组模板中不包含内容的快速摘要。
+团队中的大多数属性都包含在模板中并受其支持。 但目前尚不支持一些属性和功能。 下表提供了包含哪些内容以及团队模板中不包含的内容的快速摘要。
 
-| **支持的工作组模板的团队属性** | **尚未支持的工作组模板的团队属性** |
+| **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 基本模板类型 | 团队成员资格 |
-| 团队名称 | 团队图片 |
-| 团队说明 | 通道设置 |
-| 工作组可见性 （公共或专用） | 连接器 |
-| 团队设置 （例如，成员、 来宾，@ 提及） | 文件和内容 |
-| 自动收藏夹通道 | |
-| 已安装应用程序 | |
+| 基本模板类型 | 团队成员身份 |
+| 团队名称 | 工作组图片 |
+| 团队说明 | 频道设置 |
+| 团队可见性（公共或专用） | 接口 |
+| 团队设置（例如，成员、来宾、@ 提及） | 文件和内容 |
+| 自动收藏的频道 | |
+| 已安装应用 | |
 | 固定的选项卡 | | 
 
 > [!NOTE]
-> 我们将为添加更多模板功能的将来版本中的 Microsoft 团队，因此检查返回有关支持的属性的最新信息。
+> 我们将在 Microsoft 团队的未来版本中添加更多模板功能，请查看有关支持的属性的最新信息。
 
-## <a name="what-are-base-template-types"></a>基本模板类型是什么？
+## <a name="what-are-base-template-types"></a>什么是基本模板类型？
 
-基本模板类型是 Microsoft 创建针对特定行业的特殊模板。 这些基本模板通常包含在尚不支持分别在工作组模板中存储和团队属性中不可用的专用应用程序。
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。
 
-定义基本模板类型后，您可以扩展或重写这些特殊模板与您想要指定的其他属性。 但某些基本模板类型包含不能重写的属性。 
+定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。 
 
-默认情况下基本模板设置为**标准**其不包含任何其他专用应用程序或特殊属性。 下面是可用的基本模板类型的当前列表。
+默认情况下，基本模板设置为 "**标准**"，其中不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 没有其他应用程序和属性 |
-| 培训-<br>类团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 应用程序：<ul><li>OneNote 类笔记本 （固定到**常规**选项卡） </li><li>分配应用程序 （固定到**常规**选项卡）</li></ul> 团队属性：<ul><li>工作组可见性设置为**HiddenMembership** （不能重写）</li></ul> |
-| 培训-<br>员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 应用程序：<ul><li>OneNote 员工笔记本 （固定到**常规**选项卡）</li></ul> |
-|培训-<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用程序：<ul><li>OneNote PLC 笔记本 （固定到**常规**选项卡）</ul></li>|
-| 零售-<br>存储 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性<ul><li>设置为 Public 工作组可见性</li></ul>成员权限<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul> |
-| 零售-<br>管理器协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 频道：<ul><li>Shift 提交</li><li>学习</li></ul>团队属性：<ul><li>设置为 Private 工作组可见性</li></ul>成员权限：<ul><li>阻止创建、 更新或删除通道成员成员</li><li>阻止添加或删除应用程序的成员</li><li>阻止从创建、 更新或删除连接器的成员</li></ul>|
-| 医疗保健-<br>行政区 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |频道： <ul><li>通知\*</li><li>Huddles\*</li><li>将舍入为</li><li>人员配备扁平化\*</li><li>培训\*</li></ul>\*自动 favorited 通道 |
-|医疗保健-<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |频道：<ul><li>通知\*</li><li>合规性\*</li><li>监控</li><li>人力资源</li></li><li>药房</li></ul>\*自动 favorited 通道|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
+| 教育版<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 识别<ul><li>OneNote 课堂笔记本（已固定到 "**常规**" 选项卡） </li><li>"分配" 应用（已固定到 "**常规**" 选项卡）</li></ul> 团队属性：<ul><li>团队可见性设置为**HiddenMembership** （不能重写）</li></ul> |
+| 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本（已固定到 "**常规**" 选项卡）</li></ul> |
+|教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本（已固定到 "**常规**" 选项卡）</ul></li>|
+| 面向<br>储存 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
+| 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
+| 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训班\*</li></ul>\*自动收藏频道 |
+|行业<br>给医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>符合\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
 |||
 
 > [!NOTE]
-> 我们将添加更多基本模板类型在将来版本的 Microsoft 团队，因此请检查以便获得最新信息支持属性。
+> 我们将在 Microsoft 团队的未来版本中添加更多基本模板类型，因此请查看有关支持的属性的最新信息。
 
 
 ## <a name="related-topics"></a>相关主题
 
-- [创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在预览）
+- [创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在预览中）
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [Teams 零售模板入门](get-started-with-retail-teams-templates.md)

@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读本主题，了解如何通过 Skype for Business 服务器部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 25a9759d4f61082f30a54b130d52d8fef0f9d299
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774942"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573469"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>通过 Skype for Business 服务器部署 Microsoft 团队聊天室
   

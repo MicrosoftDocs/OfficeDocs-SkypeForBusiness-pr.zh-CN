@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于 Skype for business 的 Office 365 服务和适用于萨尔瓦多的 Microsoft 团队。
-ms.openlocfilehash: 81bddbe4d62f5a0f8ba6ef67dd0332ebe7b43560
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a09dfc3d5ba65e3c5cba01b6d8c91381e04ee930
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331897"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570423"
 ---
 # <a name="availability-in-el-salvador"></a>在萨尔瓦多的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34331897"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |否  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 圣马力诺</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 圣马力诺</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统

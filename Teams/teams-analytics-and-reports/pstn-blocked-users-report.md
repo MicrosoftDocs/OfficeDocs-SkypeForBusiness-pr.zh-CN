@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: 了解如何使用 Microsoft 团队管理中心中的 PSTN "阻止的用户" 报表，大致了解组织中被阻止进行 PSTN 呼叫的团队用户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131674"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564894"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 团队 PSTN 已阻止用户报告
 

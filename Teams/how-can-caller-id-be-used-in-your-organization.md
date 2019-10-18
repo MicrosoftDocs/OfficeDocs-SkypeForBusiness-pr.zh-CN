@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: f5357ae8c19182329a7c82651ac74a6727228d03
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 671ee484cbb5cccd78f6512d714a4dd0954524b0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328306"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570745"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 

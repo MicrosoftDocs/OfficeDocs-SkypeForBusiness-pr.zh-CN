@@ -12,16 +12,16 @@ search.appverid: MET150
 description: 了解来宾用户可用的 Microsoft Teams 功能。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434656"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563472"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "37434656"
     
 所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示，横幅显示 "此团队拥有来宾"，并且每个来宾的名称旁边会显示一个 "（来宾）" 标签。
     
-![显示横幅通知的屏幕截图用户](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分，并在顶部横幅中显示通知，表明团队拥有来宾和来宾用户名称旁边的 \"word 来宾\"。")
+![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分，并在顶部横幅中显示通知，表明该团队拥有来宾和来宾用户（其姓名旁边的 "word 来宾" 标识）。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
 

@@ -9,8 +9,7 @@ ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
-ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
+ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37522755"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568505"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 

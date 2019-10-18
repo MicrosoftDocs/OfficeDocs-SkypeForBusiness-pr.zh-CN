@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理动态 E911 功能的紧急呼叫路由策略。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e7a1295d481db2d970fae2c77be2cff6834c6448
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401828"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570651"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 

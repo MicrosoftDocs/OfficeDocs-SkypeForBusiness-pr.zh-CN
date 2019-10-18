@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767119"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573269"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划 Microsoft 365 政府版-GCC 部署
 
@@ -84,7 +83,7 @@ Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针�
 | | 组织结构图 | 有空 |
 | | 活动 | 有空 |
 | | 互操作（1:1 团队-Skype for Business 聊天） | 有空 |
-| 团队 | 频道消息 | 有空 |
+| Teams | 频道消息 | 有空 |
 | | 信道文件 | 有空 |
 | | OneNote 选项卡 | 在政府待办事项中 |
 | | 通过电子邮件发送频道 | 不可用 |

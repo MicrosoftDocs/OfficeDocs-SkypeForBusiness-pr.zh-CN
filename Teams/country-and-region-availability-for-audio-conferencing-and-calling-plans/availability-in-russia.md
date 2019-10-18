@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于俄罗斯的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0e283296f2675dc50230a156f92e123a0975c4d5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7952890ff84c5e16f54eb37ebc80f9efff22c674
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775473"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562765"
 ---
 # <a name="availability-in-russia"></a>在俄罗斯的可用性
 

@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 本文介绍了部署 Microsoft 团队聊天室的相关规划注意事项，以及下一代 Skype 会议室系统。
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775102"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573579"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划 Microsoft 团队聊天室
 
@@ -65,7 +66,7 @@ Microsoft 团队聊天室包含以下关键组件，可提供出色的用户体�
 
 首先了解你拥有哪些会议室，构思未来最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。
 
-![首先了解你拥有的内容并构思哪些内容最适合你，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。](../media/room-systems-image2.png "首先了解你拥有的内容并构思哪些内容最适合你，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。")
+![首先了解你拥有的内容和展望最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。](../media/room-systems-image2.png "首先了解你拥有的内容和展望最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。")
 
 你可能需要跨多个团队协调这些活动。 我们提供了你应涵盖的主要活动的高级视图，还提供了有关团队（通常涉及到部署和管理会议室系统）的建议，可帮助你确定需要使用的人员。
 

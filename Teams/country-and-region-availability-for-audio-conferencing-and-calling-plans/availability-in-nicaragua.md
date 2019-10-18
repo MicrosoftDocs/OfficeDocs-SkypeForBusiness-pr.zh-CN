@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于尼加拉瓜的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 35841478859ec72eca856badf9bd2420d44905b8
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 5098ef117fec524b6119fe1a06307aec80bbc876
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775709"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571020"
 ---
 # <a name="availability-in-nicaragua"></a>尼加拉瓜中的可用性
 

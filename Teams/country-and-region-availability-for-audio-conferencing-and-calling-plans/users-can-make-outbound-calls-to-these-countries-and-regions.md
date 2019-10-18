@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 本主题包含所有国家/地区, 用户可以将出站呼叫放入这些国家/地区 (如果他们有通话计划)。
-ms.openlocfilehash: ab24f12098a01fbce9e31cb83819f1c10dc28389
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 本主题包含所有国家/地区，用户可以将出站呼叫放入这些国家/地区（如果他们有通话计划）。
+ms.openlocfilehash: fd876a66484101c58eaf65d3d78ca57576f2193f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330865"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572506"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家和地区进行出站呼叫
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>查看如果用户拥有国内和国际呼叫计划许可证, 用户可以向其拨出电话的国家/地区
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>查看如果用户拥有国内和国际呼叫计划许可证，用户可以向其拨出电话的国家/地区
 
 |**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
