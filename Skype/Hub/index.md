@@ -184,7 +184,7 @@ ms.locfileid: "35418373"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>最终用户</h3>
-                                                    <p>在 <a href='https://support.office.com/zh-CN/skype-for-business' target="_blank">support.office.com</a> 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
+                                                    <p>在 <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a> 上查找 Skype for Business 用户的帮助、培训和技术支持。</p>
                                                 </div>
                                             </div>
                                         </div>

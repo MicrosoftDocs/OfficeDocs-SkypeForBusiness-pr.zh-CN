@@ -194,7 +194,7 @@ ms.locfileid: "35221488"
 
 1. 将所有受影响用户的 **msRTCSIP-UserEnabled** 属性更新为 **TRUE**。
 
-2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](https://technet.microsoft.com/zh-CN/library/hh967642.aspx)。
+2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](https://technet.microsoft.com/en-us/library/hh967642.aspx)。
 
 要解答 Skype for Business Online 登录错误疑难问题，首先应消除登录困难的最常见原因。 如有必要, 可以根据错误类型执行特定的解决步骤。 如果用户仍然无法登录, 请收集其他信息, 然后寻求进一步帮助。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>使用 Microsoft 支持疑难解答指南
