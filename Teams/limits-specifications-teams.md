@@ -10,17 +10,16 @@ ms.reviewer: karuanag
 description: 了解适用于 Microsoft Teams 的限制、规范和其他要求。
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac62fd6549e90214834e1620bc0eb08a83936c7
-ms.sourcegitcommit: 74f8ed97eef1e4c78b829586b14d2a185b522b33
+ms.openlocfilehash: a5dc1dcdb679ff9629d5b2da495865b724e1401d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453530"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566517"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 

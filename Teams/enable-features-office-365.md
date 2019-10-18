@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 3fdb6994a1ae831ff37eb0e6ba3c17168686a4c7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715922"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568404"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -106,7 +105,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何了解提供了哪些功能？
 
-有关 Teams 新功能的信息，请参阅 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。有关新功能和即将推出的功能的详细信息，请参阅 Teams [新增功能](https://support.office.com/zh-CN/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)页面和适用于 Teams 的[技术社区 Microsoft Teams 博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
+有关 Teams 新功能的信息，请参阅 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。有关新功能和即将推出的功能的详细信息，请参阅 Teams [新增功能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)页面和适用于 Teams 的[技术社区 Microsoft Teams 博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
 
 ## <a name="more-information"></a>更多信息
 

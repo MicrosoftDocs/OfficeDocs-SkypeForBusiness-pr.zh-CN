@@ -13,16 +13,16 @@ description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的�
 localization_priority: Priority
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adf4f9068cffa2fa3af5026f1003075e57d98bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b1787d2f310ebf7ed0afafa41e8b730346a54ec
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244079"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565104"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -62,5 +62,5 @@ Teams 建立在 Office 365 组之上，为 Office 365 组提供访问共享资�
 ## <a name="more-information"></a>详细信息
 
 [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-[Office 365 组的来宾访问](https://support.office.com/zh-CN/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Office 365 组的来宾访问](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
