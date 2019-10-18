@@ -9,21 +9,22 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b4ee71b414f40895d34172ce214b6ab7f555830a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235355"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569640"
 ---
 # <a name="teams-for-education"></a>Teams 教育版
 
-通过团队, 教师和教职员工可以创建协作式教室、在专业学习社区中连接, 以及与学生和教师进行沟通。 在此处使用管理员资源可帮助您成功部署、采用和管理您的学校或机构的团队。 
+通过团队，教师和教职员工可以创建协作式教室、在专业学习社区中连接，以及与学生和教师进行沟通。 在此处使用管理员资源可帮助您成功部署、采用和管理您的学校或机构的团队。 
 
 <ul class="panelContent cardsFTitle">
     <li>

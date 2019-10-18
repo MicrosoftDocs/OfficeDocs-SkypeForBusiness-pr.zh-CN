@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,57 +19,57 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 了解 PIN 长度和要求的参数, 了解如何在 Microsoft 团队中设置会议的长度。
-ms.openlocfilehash: 938e8096cf39c482a2de9f143174e6c261c652d8
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+description: 了解 PIN 长度和要求的参数，了解如何在 Microsoft 团队中设置会议的长度。
+ms.openlocfilehash: 50c6ffe31e673dc7573ebb27f0eeb2ca78a30918
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344215"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571267"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a><span data-ttu-id="fa2ea-103">在 Microsoft Teams 中设置音频会议的 PIN 长度</span><span class="sxs-lookup"><span data-stu-id="fa2ea-103">Set the PIN length for Audio Conferencing meetings in Microsoft Teams</span></span>
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a><span data-ttu-id="ecd4b-103">在 Microsoft Teams 中设置音频会议的 PIN 长度</span><span class="sxs-lookup"><span data-stu-id="ecd4b-103">Set the PIN length for Audio Conferencing meetings in Microsoft Teams</span></span>
 
-<span data-ttu-id="fa2ea-104">当你为 Microsoft Teams 设置音频会议时，你将获得一个音频会议网桥。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-104">When you are setting up audio conferencing for Microsoft Teams, you will get an audio conferencing bridge.</span></span> <span data-ttu-id="fa2ea-105">会议网桥可以包含一个或多个电话号码。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-105">A conferencing bridge can contain one or more phone numbers.</span></span> <span data-ttu-id="fa2ea-106">你设置的电话号码将包含在 Microsoft Teams 应用的会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-106">The phone number you set will be included on the meeting invites for the Microsoft Teams app.</span></span>
+<span data-ttu-id="ecd4b-104">当你为 Microsoft Teams 设置音频会议时，你将获得一个音频会议网桥。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-104">When you are setting up audio conferencing for Microsoft Teams, you will get an audio conferencing bridge.</span></span> <span data-ttu-id="ecd4b-105">会议网桥可以包含一个或多个电话号码。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-105">A conferencing bridge can contain one or more phone numbers.</span></span> <span data-ttu-id="ecd4b-106">你设置的电话号码将包含在 Microsoft Teams 应用的会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-106">The phone number you set will be included on the meeting invites for the Microsoft Teams app.</span></span>
   
-<span data-ttu-id="fa2ea-107">会议网桥负责应答使用电话拨入会议的人员的呼叫。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-107">The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone.</span></span> <span data-ttu-id="fa2ea-108">它通过来自自动助理的语音提示应答呼叫者，然后根据你的设置，可以播放通知并让呼叫者录制其姓名。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-108">It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name.</span></span> <span data-ttu-id="fa2ea-109">在 **Microsoft 网桥设置**中，你可以更改会议通知和会议加入体验的设置，并设置会议组织者使用的 PIN 的长度。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-109">**Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers.</span></span> <span data-ttu-id="fa2ea-110">如果会议组织者无法使用 Microsoft Teams 应用加入会议，可使用 PIN 启动会议。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-110">Meeting organizers use PINs to start meetings if they can't join the meeting using the Microsoft Teams app.</span></span>
+<span data-ttu-id="ecd4b-107">会议网桥负责应答使用电话拨入会议的人员的呼叫。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-107">The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone.</span></span> <span data-ttu-id="ecd4b-108">它通过来自自动助理的语音提示应答呼叫者，然后根据你的设置，可以播放通知并让呼叫者录制其姓名。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-108">It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name.</span></span> <span data-ttu-id="ecd4b-109">在 **Microsoft 网桥设置**中，你可以更改会议通知和会议加入体验的设置，并设置会议组织者使用的 PIN 的长度。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-109">**Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers.</span></span> <span data-ttu-id="ecd4b-110">如果会议组织者无法使用 Microsoft Teams 应用加入会议，可使用 PIN 启动会议。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-110">Meeting organizers use PINs to start meetings if they can't join the meeting using the Microsoft Teams app.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-the-pin-length"></a><span data-ttu-id="fa2ea-111">设置 PIN 长度</span><span class="sxs-lookup"><span data-stu-id="fa2ea-111">Setting the PIN length</span></span>
+## <a name="setting-the-pin-length"></a><span data-ttu-id="ecd4b-111">设置 PIN 长度</span><span class="sxs-lookup"><span data-stu-id="ecd4b-111">Setting the PIN length</span></span>
 
-<span data-ttu-id="fa2ea-112">![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标</span><span class="sxs-lookup"><span data-stu-id="fa2ea-112">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="ecd4b-112">![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标</span><span class="sxs-lookup"><span data-stu-id="ecd4b-112">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="fa2ea-113">在左侧导航中，转到“**会议**” > “**会议网桥**”。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-113">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="ecd4b-113">在左侧导航中，转到“**会议**” > “**会议网桥**”。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-113">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="fa2ea-114">在“**会议网桥**”页面顶部，单击“**网桥设置**”。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-114">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
+2. <span data-ttu-id="ecd4b-114">在“**会议网桥**”页面顶部，单击“**网桥设置**”。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-114">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
 
-3. <span data-ttu-id="fa2ea-115">在 "**桥设置**" 窗格中的 " **PIN 长度**" 下, 选择要用于 pin 的数字位数。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-115">In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.</span></span>
+3. <span data-ttu-id="ecd4b-115">在 "**桥设置**" 窗格中的 " **PIN 长度**" 下，选择要用于 pin 的数字位数。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-115">In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.</span></span>
 
-4. <span data-ttu-id="fa2ea-116">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-116">Click **Save**.</span></span>
+4. <span data-ttu-id="ecd4b-116">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-116">Click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fa2ea-p103">[!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-p103">A PIN is different from a conference ID. Conference IDs are used by callers when they join the meeting. They are used to identify the meeting. The PIN is used to authenticate a caller as the meeting organizer.</span></span> 
+> <span data-ttu-id="ecd4b-p103">[!注释] PIN 与会议 ID 不同。 会议 ID 由呼叫者在加入会议时使用。 它们用于标识会议。 PIN 用于对作为会议组织者的呼叫者进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-p103">A PIN is different from a conference ID. Conference IDs are used by callers when they join the meeting. They are used to identify the meeting. The PIN is used to authenticate a caller as the meeting organizer.</span></span> 
 
-## <a name="want-to-know-more-about-pin-settings"></a><span data-ttu-id="fa2ea-121">想要了解有关 PIN 设置的详细信息？</span><span class="sxs-lookup"><span data-stu-id="fa2ea-121">Want to know more about PIN settings?</span></span>
+## <a name="want-to-know-more-about-pin-settings"></a><span data-ttu-id="ecd4b-121">想要了解有关 PIN 设置的详细信息？</span><span class="sxs-lookup"><span data-stu-id="ecd4b-121">Want to know more about PIN settings?</span></span>
 
-- <span data-ttu-id="fa2ea-122">引脚可以是4到12位数字;默认值为5。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-122">PINs can be from 4 to 12 digits; the default is 5.</span></span> <span data-ttu-id="fa2ea-123">在创建 PIN 时只能使用数字。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-123">Numbers are only used when creating PINs.</span></span> <span data-ttu-id="fa2ea-124">不能使用字母和特殊字符。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-124">Letters and special characters aren't used.</span></span>
+- <span data-ttu-id="ecd4b-122">引脚可以是4到12位数字;默认值为5。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-122">PINs can be from 4 to 12 digits; the default is 5.</span></span> <span data-ttu-id="ecd4b-123">在创建 PIN 时只能使用数字。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-123">Numbers are only used when creating PINs.</span></span> <span data-ttu-id="ecd4b-124">不能使用字母和特殊字符。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-124">Letters and special characters aren't used.</span></span>
     
-- <span data-ttu-id="fa2ea-125">只有当 Microsoft 团队用户尚未启动会议时, 会议组织者才需要 PIN。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-125">A PIN is only required for the meeting organizer when a Microsoft Teams user hasn't already started the meeting.</span></span> <span data-ttu-id="fa2ea-126">如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-126">If everyone is dialing in to the meeting, then the PIN is required for the meeting organizer to start the meeting.</span></span>
+- <span data-ttu-id="ecd4b-125">只有当 Microsoft 团队用户尚未启动会议时，会议组织者才需要 PIN。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-125">A PIN is only required for the meeting organizer when a Microsoft Teams user hasn't already started the meeting.</span></span> <span data-ttu-id="ecd4b-126">如果每个人都是拨号进入会议，则会议组织者需要 PIN 才能启动会议。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-126">If everyone is dialing in to the meeting, then the PIN is required for the meeting organizer to start the meeting.</span></span>
     
-- <span data-ttu-id="fa2ea-p106">PIN 安全设置适用于与 Microsoft 网桥相关联的所有电话号码。它们将应用于使用与给定网桥相关联的电话号码的所有会议。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-p106">PIN security settings are applied to all of the phone numbers that are associated with a Microsoft bridge. They will be applied to all meetings that use the phone numbers associated with a given bridge.</span></span> 
+- <span data-ttu-id="ecd4b-p106">PIN 安全设置适用于与 Microsoft 网桥相关联的所有电话号码。它们将应用于使用与给定网桥相关联的电话号码的所有会议。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-p106">PIN security settings are applied to all of the phone numbers that are associated with a Microsoft bridge. They will be applied to all meetings that use the phone numbers associated with a given bridge.</span></span> 
     
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="fa2ea-129">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="fa2ea-129">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="ecd4b-129">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="ecd4b-129">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="fa2ea-p107">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="fa2ea-p107">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="ecd4b-p107">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="ecd4b-p107">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="fa2ea-133">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="fa2ea-133">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="ecd4b-133">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="ecd4b-133">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="fa2ea-134">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="fa2ea-134">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="ecd4b-134">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="ecd4b-134">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="fa2ea-135">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="fa2ea-135">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="ecd4b-135">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="ecd4b-135">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
   
-## <a name="related-topics"></a><span data-ttu-id="fa2ea-136">相关主题</span><span class="sxs-lookup"><span data-stu-id="fa2ea-136">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ecd4b-136">相关主题</span><span class="sxs-lookup"><span data-stu-id="ecd4b-136">Related topics</span></span>
 
-[<span data-ttu-id="fa2ea-137">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="fa2ea-137">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="ecd4b-137">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="ecd4b-137">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

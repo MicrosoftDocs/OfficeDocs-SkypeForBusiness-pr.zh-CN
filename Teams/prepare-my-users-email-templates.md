@@ -8,36 +8,33 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 当您在团队或 Skype for business 中实施云语音功能时, 请使用模板向用户发送电子邮件。
+description: 当您在团队或 Skype for business 中实施云语音功能时，请使用模板向用户发送电子邮件。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237197"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567703"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="2bd65-103">帮助用户采用全新的在线电话系统</span><span class="sxs-lookup"><span data-stu-id="2bd65-103">Facilitate user adoption of your new online phone system</span></span>
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="9d072-103">帮助用户采用全新的在线电话系统</span><span class="sxs-lookup"><span data-stu-id="9d072-103">Facilitate user adoption of your new online phone system</span></span>
 
-<span data-ttu-id="2bd65-104">电话可以是用户的生命线。</span><span class="sxs-lookup"><span data-stu-id="2bd65-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="2bd65-105">从传统的电话系统切换到联机电话系统表示用户工作方式的重大更改, 并且可能会对工作效率产生负面影响。</span><span class="sxs-lookup"><span data-stu-id="2bd65-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="2bd65-106">通过此更改来通知、指导和支持用户需要花费一些时间, 从而有助于确保积极的用户体验并最大限度地提高投资回报。</span><span class="sxs-lookup"><span data-stu-id="2bd65-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
+<span data-ttu-id="9d072-104">电话可以是用户的生命线。</span><span class="sxs-lookup"><span data-stu-id="9d072-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="9d072-105">从传统的电话系统切换到联机电话系统表示用户工作方式的重大更改，并且可能会对工作效率产生负面影响。</span><span class="sxs-lookup"><span data-stu-id="9d072-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="9d072-106">通过此更改来通知、指导和支持用户需要花费一些时间，从而有助于确保积极的用户体验并最大限度地提高投资回报。</span><span class="sxs-lookup"><span data-stu-id="9d072-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
 
-<span data-ttu-id="2bd65-107">本文包含可自定义的电子邮件模板, 可帮助用户了解其新电话系统。</span><span class="sxs-lookup"><span data-stu-id="2bd65-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="2bd65-108">自定义和发送相应的电子邮件以与特定的语音部署保持一致。</span><span class="sxs-lookup"><span data-stu-id="2bd65-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="2bd65-109">我们已使用方括号指示分区以轻松进行个性化设置, 但我们建议你添加特定于组织的消息, 以使通知与你的用户最相关。</span><span class="sxs-lookup"><span data-stu-id="2bd65-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="2bd65-110">如果适用于你的部署, 请将对 "团队" 的所有引用替换为 "Skype for Business"。</span><span class="sxs-lookup"><span data-stu-id="2bd65-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
+<span data-ttu-id="9d072-107">本文包含可自定义的电子邮件模板，可帮助用户了解其新电话系统。</span><span class="sxs-lookup"><span data-stu-id="9d072-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="9d072-108">自定义和发送相应的电子邮件以与特定的语音部署保持一致。</span><span class="sxs-lookup"><span data-stu-id="9d072-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="9d072-109">我们已使用方括号指示分区以轻松进行个性化设置，但我们建议你添加特定于组织的消息，以使通知与你的用户最相关。</span><span class="sxs-lookup"><span data-stu-id="9d072-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="9d072-110">如果适用于你的部署，请将对 "团队" 的所有引用替换为 "Skype for Business"。</span><span class="sxs-lookup"><span data-stu-id="9d072-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="2bd65-111">电子邮件号码 1: 启动前三周发送</span><span class="sxs-lookup"><span data-stu-id="2bd65-111">Email number 1: Send three weeks before launch</span></span>
+## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="9d072-111">电子邮件号码1：启动前三周发送</span><span class="sxs-lookup"><span data-stu-id="9d072-111">Email number 1: Send three weeks before launch</span></span>
 
-<span data-ttu-id="2bd65-112">主题行:</span><span class="sxs-lookup"><span data-stu-id="2bd65-112">Subject line:</span></span>
+<span data-ttu-id="9d072-112">主题行：</span><span class="sxs-lookup"><span data-stu-id="9d072-112">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-<span data-ttu-id="2bd65-113">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="2bd65-113">Body of email:</span></span>
+<span data-ttu-id="9d072-113">电子邮件正文：</span><span class="sxs-lookup"><span data-stu-id="9d072-113">Body of email:</span></span>
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +91,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="2bd65-114">电子邮件号码 2: 在开始之前发送一周</span><span class="sxs-lookup"><span data-stu-id="2bd65-114">Email number 2: Send one week before launch</span></span>
+## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="9d072-114">电子邮件号码2：在开始之前发送一周</span><span class="sxs-lookup"><span data-stu-id="9d072-114">Email number 2: Send one week before launch</span></span>
 
-<span data-ttu-id="2bd65-115">主题行:</span><span class="sxs-lookup"><span data-stu-id="2bd65-115">Subject line:</span></span>
+<span data-ttu-id="9d072-115">主题行：</span><span class="sxs-lookup"><span data-stu-id="9d072-115">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-<span data-ttu-id="2bd65-116">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="2bd65-116">Body of email:</span></span>
+<span data-ttu-id="9d072-116">电子邮件正文：</span><span class="sxs-lookup"><span data-stu-id="9d072-116">Body of email:</span></span>
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +135,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="2bd65-117">电子邮件号码 3: 在启动日时发送</span><span class="sxs-lookup"><span data-stu-id="2bd65-117">Email number 3: Send on launch day</span></span>
+## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="9d072-117">电子邮件号码3：在启动日时发送</span><span class="sxs-lookup"><span data-stu-id="9d072-117">Email number 3: Send on launch day</span></span>
 
-<span data-ttu-id="2bd65-118">主题行:</span><span class="sxs-lookup"><span data-stu-id="2bd65-118">Subject line:</span></span>
+<span data-ttu-id="9d072-118">主题行：</span><span class="sxs-lookup"><span data-stu-id="9d072-118">Subject line:</span></span>
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-<span data-ttu-id="2bd65-119">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="2bd65-119">Body of email:</span></span>
+<span data-ttu-id="9d072-119">电子邮件正文：</span><span class="sxs-lookup"><span data-stu-id="9d072-119">Body of email:</span></span>
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +172,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="2bd65-120">电子邮件号码 4: 启动后发送两周</span><span class="sxs-lookup"><span data-stu-id="2bd65-120">Email number 4: Send two weeks after launch</span></span>
+## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="9d072-120">电子邮件号码4：启动后发送两周</span><span class="sxs-lookup"><span data-stu-id="9d072-120">Email number 4: Send two weeks after launch</span></span>
 
-<span data-ttu-id="2bd65-121">主题行:</span><span class="sxs-lookup"><span data-stu-id="2bd65-121">Subject line:</span></span>
+<span data-ttu-id="9d072-121">主题行：</span><span class="sxs-lookup"><span data-stu-id="9d072-121">Subject line:</span></span>
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-<span data-ttu-id="2bd65-122">电子邮件正文:</span><span class="sxs-lookup"><span data-stu-id="2bd65-122">Body of email:</span></span>
+<span data-ttu-id="9d072-122">电子邮件正文：</span><span class="sxs-lookup"><span data-stu-id="9d072-122">Body of email:</span></span>
 
 ```
 It's been a few weeks since you started using Microsoft Teams to
