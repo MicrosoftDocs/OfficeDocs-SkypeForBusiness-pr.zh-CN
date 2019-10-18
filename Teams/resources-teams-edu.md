@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: 团队资源列表, 它有助于教育版 IT 管理员。
+description: 团队资源列表，它有助于教育版 IT 管理员。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec791d3e5d712f1e9a35b23e5e89112aeca8a12
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243687"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569980"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 ==============================================
 
 ## <a name="adoption-content"></a>采纳内容
 
-通过学校的信息和徽标创建自定义的电子邮件、海报和传单。 或者使用现成的 "打印海报"、"传单" 和其他讲义, 让您的组织兴奋 Microsoft 团队。
+通过学校的信息和徽标创建自定义的电子邮件、海报和传单。 或者使用现成的 "打印海报"、"传单" 和其他讲义，让您的组织兴奋 Microsoft 团队。
 
 |可自定义电子邮件模板 |         |
 |---------|---------|
@@ -49,7 +48,7 @@ ms.locfileid: "36243687"
 ## <a name="call-to-action"></a>行动号召
 
 - 查看我们的动手操作 [Microsoft Teams 互动演示](https://teamsdemo.office.com/)（完成时间：5 分钟）
-- 在[microsoft 365 管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)中打开 microsoft 团队 (以 Office 365 管理员身份登录)
+- 在[microsoft 365 管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)中打开 microsoft 团队（以 Office 365 管理员身份登录）
 - 下载 Teams 客户端：[在所有设备上获取 Teams](https://teams.microsoft.com/downloads)
 - 在[教育版帮助中心](https://support.office.com/education)了解关于 Office 365 教育版的详细信息
 

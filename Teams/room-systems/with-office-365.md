@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Office 365 中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 8e41b06b8f5cf76a45fd09f4b8820fb2fcaaa6d5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 253f25de30d105361f53eeb34d3b6c78e6d41fa2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775026"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573480"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 

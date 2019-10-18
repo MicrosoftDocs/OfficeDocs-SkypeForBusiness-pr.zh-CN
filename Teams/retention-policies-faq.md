@@ -12,16 +12,15 @@ description: 有关 Microsoft 团队中的保留策略的常见问题。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018786"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569969"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保留策略常见问题解答
 

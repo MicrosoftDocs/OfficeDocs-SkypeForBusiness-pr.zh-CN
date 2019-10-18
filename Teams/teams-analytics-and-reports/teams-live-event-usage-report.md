@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表大致了解组织中的团队活动事件活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131610"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571143"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 团队实时事件使用率报告
 
@@ -33,7 +32,7 @@ Microsoft 团队管理中心中的 "团队实时事件使用率" 报表显示组
 3. 可选在 "**管理器**" 下，你可以选择仅显示由特定用户组织的实时事件。
 4. 单击 "**运行报告**"。  
 
-    团队![管理员中心中具有标注的团队实时事件使用率报表的屏幕截图]团队(../media/teams-live-event-usage-report-with-callouts.png "管理员中心中具有标注的团队实时事件使用率报表的屏幕截图")
+    ![团队管理员中心中具有标注的团队实时事件使用率报表的屏幕截图](../media/teams-live-event-usage-report-with-callouts.png "团队管理员中心中具有标注的团队实时事件使用率报表的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队设备使用情况" 报表来查看组织中的用户如何连接到团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131621"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568393"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
 
@@ -31,7 +30,7 @@ Microsoft 团队管理中心中的 "团队设备使用情况" 报表为你提供
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队设备使用情况**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    团队![管理员中心中使用标注的团队设备使用情况报告的屏幕截图]团队(../media/teams-reports-device-usage-with-callouts.png "管理员中心中使用标注的团队设备使用情况报告的屏幕截图")
+    ![团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图](../media/teams-reports-device-usage-with-callouts.png "团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 

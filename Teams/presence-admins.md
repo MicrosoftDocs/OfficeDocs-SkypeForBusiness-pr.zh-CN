@@ -1,5 +1,5 @@
 ---
-title: 团队中的用户状态
+title: Teams 中的用户状态
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,23 +12,22 @@ description: 有关工作组中的状态的管理员信息。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd57165cbb88df135827ae72fa3952dd8ddd452
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062957"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573213"
 ---
-# <a name="user-presence-in-teams"></a>团队中的用户状态
+# <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
 状态是 Microsoft 团队（以及整个 Office 365）中的用户配置文件的一部分，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用团队的组织中的任何人都可以在其他用户联机时查看（几乎实时）。
 
 > [!IMPORTANT]
-> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，联机状态将在 Outlook 和其他 Office 应用中停止工作。 联机状态在团队中可以正常工作。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已意识到此问题，正在努力解决问题。
+> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
 
 ## <a name="presence-states-in-teams"></a>团队中的状态
 

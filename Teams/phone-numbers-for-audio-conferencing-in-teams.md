@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299466"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573316"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 
-当你为 Microsoft Teams 设置**音频会议**时，会自动为贵组织分配拨入电话号码。 若要查看分配给你的音频会议桥的电话号码, 请转到 Microsoft 团队管理中心中的 "**会议** > **桥**"。 有关详细信息, 请转到[查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+当你为 Microsoft Teams 设置**音频会议**时，会自动为贵组织分配拨入电话号码。 若要查看分配给你的音频会议桥的电话号码，请转到 Microsoft 团队管理中心中的 "**会议** > **桥**"。 有关详细信息，请转到[查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音频会议覆盖范围和定价
@@ -40,7 +39,7 @@ ms.locfileid: "34299466"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会议邀请中的拨入电话号码
 
-Microsoft Teams 用户在 Outlook 或 Outlook Web App 中安排会议时，为该用户设置的默认音频会议号码会包含在会议邀请中。 如果要为一个或多个用户选择不同的默认号码, 您可以通过转到 "**用户**", 选择用户, 然后编辑用户的 "音频会议" 设置来更改该号码。 请参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+Microsoft Teams 用户在 Outlook 或 Outlook Web App 中安排会议时，为该用户设置的默认音频会议号码会包含在会议邀请中。 如果要为一个或多个用户选择不同的默认号码，您可以通过转到 "**用户**"，选择用户，然后编辑用户的 "音频会议" 设置来更改该号码。 请参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>在音频会议网桥上设置拨入电话号码
@@ -60,7 +59,7 @@ Microsoft Teams 用户在 Outlook 或 Outlook Web App 中安排会议时，为�
 若要查看支持给组织自动分配电话号码的国家/地区列表，请参阅 [音频会议和通话套餐所支持的国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
     
 > [!NOTE]
-> 通过登录到**Microsoft 365 管理中心**并查看 "**组织配置文件**", 可以找到您的组织的国家或地区位置。 
+> 通过登录到**Microsoft 365 管理中心**并查看 "**组织配置文件**"，可以找到您的组织的国家或地区位置。 
   
 > [!CAUTION]
 > 由于委内瑞拉、印度尼西亚和阿联酋 (UAE) 限制收费电话号码的使用，因此不会自动向这些国家/地区的组织分配音频会议收费电话号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 

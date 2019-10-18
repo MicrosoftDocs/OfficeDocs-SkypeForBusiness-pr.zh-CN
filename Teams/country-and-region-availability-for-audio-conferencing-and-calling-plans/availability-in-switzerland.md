@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,17 +24,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于瑞士的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 1164231a50d1e1f89a2e2decf841e47066ce2d99
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 607ef6b9182e4123ae8a8a8f35ac88be6aa7c580
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331145"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572318"
 ---
 # <a name="availability-in-switzerland"></a>在瑞士的可用性
 
 > [!NOTE]
-> 您可以在瑞士获取与会议、自动助理和通话队列配合使用的**服务**号码, 但不能在瑞士中获取**用户**号码, 因为通话计划不可用。
+> 您可以在瑞士获取与会议、自动助理和通话队列配合使用的**服务**号码，但不能在瑞士中获取**用户**号码，因为通话计划不可用。
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
@@ -46,7 +45,7 @@ ms.locfileid: "34331145"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于: <br/><ul><li> Zurich</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> Zurich</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统

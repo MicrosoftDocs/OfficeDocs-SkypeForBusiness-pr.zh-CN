@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于拉脱维亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 3c3b933e7dcbbf8ceee8a3863cb9303720468ec0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: d58ef8c99bf34fd7e2005e760e7127a836b875a9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775396"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571476"
 ---
 # <a name="availability-in-latvia"></a>在拉脱维亚的可用性
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。 '
-ms.openlocfilehash: 6062eb69f6ef27462a3ea9edc47f5e5647ef6d65
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 894761811bfc9c353c7a145c83c7a201a587f1e2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344582"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568363"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -38,13 +38,13 @@ ms.locfileid: "34344582"
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
-1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
 2. 单击 "**编辑**"。
 
-3. 在 "**音频会议**" 下, 单击 "**重置会议 ID**"。
+3. 在 "**音频会议**" 下，单击 "**重置会议 ID**"。
 
-2. 在 "**重置会议 ID** " 窗口中, 单击 "**重置**"。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下, 将向用户发送电子邮件, 但这可以被关闭。   
+2. 在 "**重置会议 ID** " 窗口中，单击 "**重置**"。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，将向用户发送电子邮件，但这可以被关闭。   
 
     
 > [!NOTE]
@@ -55,9 +55,9 @@ ms.locfileid: "34344582"
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 你可以在包含会议 ID 和拨入电话号码的电子邮件中, 通过单击 "**音频会议**" 部分中的用户**电子邮件中的 "发送会议信息**", 向用户发送所有会议信息。 它不会发送 PIN。
+- 你可以在包含会议 ID 和拨入电话号码的电子邮件中，通过单击 "**音频会议**" 部分中的用户**电子邮件中的 "发送会议信息**"，向用户发送所有会议信息。 它不会发送 PIN。
     
-- 会议 ID 将包含7位数字, 不能更改其长度。
+- 会议 ID 将包含7位数字，不能更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     

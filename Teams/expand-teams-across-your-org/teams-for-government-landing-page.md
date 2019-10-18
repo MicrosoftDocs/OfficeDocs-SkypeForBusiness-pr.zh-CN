@@ -8,16 +8,17 @@ ms.author: v-lanac
 manager: serdars
 audience: admin
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: ed301d7791dfffdb5da365d7131b5c114180e920
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767064"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569629"
 ---
 # <a name="teams-for-government"></a>Teams 政府版
 
@@ -89,7 +90,7 @@ ms.locfileid: "36767064"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>具有适用于 GCC 高和 DoD 的直接路由的音频会议</h3>
+                        <h3>适用于 GCC High 和 DoD 且含直接路由的音频会议</h3>
                     </div>
                 </div>
             </div>

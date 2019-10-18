@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,17 +21,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 34f495fb70dc215734537a5bb5b299218e128dbd
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: ef0adc764f7ebd8b1312b938de44b17f69719ced
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34335004"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570861"
 ---
 # <a name="toll-free-dialing-restrictions-in-finland"></a>芬兰的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
 |**详细信息**|**说明**|

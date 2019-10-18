@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于英国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0aa1735411aec77cca1ab26025a997477a1ecb1d
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 918a0b4013ae8e9d74c34e7a973d27ae3772567f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331033"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572517"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34331033"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于: <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -60,15 +59,15 @@ ms.locfileid: "34331033"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话计划可用的分钟数。 |每个日历月提供四个计划选项: <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划: 拨打国际长途电话的1200分钟 (600 即在日历月份内首先达到的分钟数)</li></li> 
-|是否可以拨出电话拨出收费号码？ <br/> | 部分受支持: 使用通信信用点数按分钟支付, 支持共享成本数字 (前缀44843、44844、44845、44870、44871、44872) 的通话。  不支持对449XX 前缀的调用。 <br/> |
+|通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划：拨打国际长途电话的1200分钟（600即在日历月份内首先达到的分钟数）</li></li> 
+|是否可以拨出电话拨出收费号码？ <br/> | 部分受支持：使用通信信用点数按分钟支付，支持共享成本数字（前缀44843、44844、44845、44870、44871、44872）的通话。  不支持对449XX 前缀的调用。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  Leicester <li>  Liverpool <li>  伦敦 <li>  曼彻斯特 <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-Trent <li>  Teesside (米德尔斯) </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  Leicester <li>  Liverpool <li>  伦敦 <li>  曼彻斯特 <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-Trent <li>  Teesside （米德尔斯） </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

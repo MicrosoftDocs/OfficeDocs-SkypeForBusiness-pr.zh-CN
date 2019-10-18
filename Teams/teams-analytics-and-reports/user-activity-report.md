@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队用户活动" 报表查看组织中的用户使用团队的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439557"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571374"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -31,7 +30,7 @@ ms.locfileid: "37439557"
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队用户活动**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    团队管理中心中 "团队"![用户活动报表的屏幕截图]，其中包含(../media/teams-reports-user-activity-with-callouts.png "标注的团队管理中心中的 \"团队用户活动\" 报表的标注屏幕截图")
+    ![团队管理员中心中带有标注的团队用户活动报表的屏幕截图](../media/teams-reports-user-activity-with-callouts.png "团队管理员中心中带有标注的团队用户活动报表的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 

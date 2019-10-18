@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于阿根廷的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 2a804d565ecf1fa41bdb4bc7bb5df5056fee2b4e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34332256"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570916"
 ---
 # <a name="availability-in-argentina"></a>在阿根廷的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34332256"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li>布宜诺斯艾利斯</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li>布宜诺斯艾利斯</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -71,7 +70,7 @@ ms.locfileid: "34332256"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
- 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码, 请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通信点数
 

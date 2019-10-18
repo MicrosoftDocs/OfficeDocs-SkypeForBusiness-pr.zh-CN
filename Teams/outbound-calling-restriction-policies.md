@@ -9,8 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: eb54a1c3cefb934c3523d915ab83b9e47b337d8b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34379231"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573327"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -39,7 +38,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 |最终用户 PSTN 呼叫|限制可以由用户 </br>拨打的呼叫类型。|国际和国内 （默认值）</br>版</br>无|
 
    > [!NOTE]
-   > 如果所拨打的号码位于与会议组织者 (如音频会议) 或最终用户 (如果最终用户 PSTN 呼叫) 的组织者相同的365国家内, 则会将呼叫视为国内呼叫。 
+   > 如果所拨打的号码位于与会议组织者（如音频会议）或最终用户（如果最终用户 PSTN 呼叫）的组织者相同的365国家内，则会将呼叫视为国内呼叫。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -48,7 +47,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
-1. 在左侧导航中, 单击 "**用户**", 然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
 2. 在页面的顶部，单击**编辑**。
 
@@ -58,9 +57,9 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. 单击“**保存**”。 
 
-![](media/sfb-logo-30x30.png) **使用 Skype for business 管理中心**sfb-logo-30x30
+![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-1.  在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **用户**", 然后从可用的用户列表中选择用户。
+1.  在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **用户**"，然后从可用的用户列表中选择用户。
 
 2.  在"操作"窗格中，单击" **编辑**"。
 

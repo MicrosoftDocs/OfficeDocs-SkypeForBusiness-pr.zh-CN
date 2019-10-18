@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,17 +21,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: f518e548c39b574a76350dd241c9672b940c0703
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241829"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570054"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>澳大利亚免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 |**详细信息**|**说明**|
 |:-----|:-----|

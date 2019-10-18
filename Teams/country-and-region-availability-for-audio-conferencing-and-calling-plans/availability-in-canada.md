@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在加拿大可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: ea09d8901f7659af5692739c0abbb1c30db3b5ca
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 01e0aae70bec5c565bbd8f5e2f6b376133d5b987
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332081"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570533"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34332081"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 多伦多</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 多伦多</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -60,7 +59,7 @@ ms.locfileid: "34332081"
 | **功能**                                        | **详细信息**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 是否可购买通话套餐？  <br/>    | 是  <br/>                                                                                                                                                                                                                                                                  |
-| 通话计划可用的分钟数。               | 每个日历月提供四个计划选项: <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>3000分钟国内通话计划</li></li><li>国内和国际长途计划: 拨打国际长途电话的3000分钟 (600 即在日历月份内首先达到的分钟数)</li>|
+| 通话计划可用的分钟数。               | 每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>3000分钟国内通话计划</li></li><li>国内和国际长途计划：拨打国际长途电话的3000分钟（600即在日历月份内首先达到的分钟数）</li>|
 | 是否可以拨出电话拨出收费号码？  <br/> | 目前不支持。<br/>                                                                                                                                                                                                                                            |
 | 是否可以拨打呼出电话？  <br/>                 | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                  |
 
@@ -78,7 +77,7 @@ ms.locfileid: "34332081"
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
 
 > [!Note] 
-> 当美国的呼叫计划 (国内或国内和国际) 用户拨打加拿大的电话号码时, 它将被视为国内呼叫。 如果加拿大的用户拨打美国号码, 也会出现这种情况。
+> 当美国的呼叫计划（国内或国内和国际）用户拨打加拿大的电话号码时，它将被视为国内呼叫。 如果加拿大的用户拨打美国号码，也会出现这种情况。
 
 ## <a name="communications-credits"></a>通信点数
 

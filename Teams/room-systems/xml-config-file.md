@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774909"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573458"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -131,7 +132,7 @@ ms.locfileid: "36774909"
 
 自定义主题图像文件必须放置在`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`文件夹中。 在\<CustomThemeImageUrl\>变量中输入文件名和扩展名。
   
-图像文件应正好3840X1080 像素，并且必须是以下文件格式之一： jpg、jpeg、png 和 bmp。 如果你的组织需要自定义图像，图形设计器可以使用[自定义主题 Photoshop 模板](https://go.microsoft.com/fwlink/?linkid=870441)。 它包含有关在主题图像中放置各种元素的位置以及控制台和显示器中显示哪些区域的更多详细信息。
+图像文件应正好3840X1080 像素，并且必须是以下文件格式之一： jpg、jpeg、png 和 bmp。 如果你的组织需要自定义图像，图形设计器可以使用[自定义主题 Photoshop 模板](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有关各种用户界面元素相对于其他主题图像的位置以及哪些区域显示在控制台和显示中的详细信息。
   
 XML 配置文件必须在设备启动时更新以识别主题图像。 处理并删除新的 XML 文件后，将从目录中删除主题图形文件。
   

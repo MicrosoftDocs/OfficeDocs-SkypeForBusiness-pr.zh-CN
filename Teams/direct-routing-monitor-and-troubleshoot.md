@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 本文介绍如何监视直接路由配置并对其进行故障排除。
-ms.openlocfilehash: e236a5cecb190d10082e06de24655bd722a410e5
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: b2afef2a8f02f6823be10d127c8efc7b4cd5d72d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018819"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572164"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,17 +21,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后, 将向您转到特定于国家/地区的页面, 其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码, 以拨打免费电话号码。
-ms.openlocfilehash: 1a30cad8469837a392509b0c263cbbe54dd9969f
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: ef43e1e818f7d57190d493344118d9f914a52485
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334948"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573180"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>印度尼西亚的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md), 或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
 |**详细信息**|**说明**|
@@ -44,7 +43,7 @@ ms.locfileid: "34334948"
 |未覆盖的岛/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |是  <br/> |
 |移动网络可用性  <br/> |部分。 请参阅注释。  <br/> |
-|批注、限制和访问问题  <br/> |在更大的范围内提供两种号码格式。 007 803 CCC XXXX 格式可通过 PT Telkom 网络 (包括 Telkomsel 和 XL mobile) 进行访问。 号码格式 001 803 CCC XXXX 可通过 Indosat 网络访问。 对于移动版: 矩阵手机网络版 (仅限前缀0855、0858、0815和 0816)。  <br/> |
+|批注、限制和访问问题  <br/> |在更大的范围内提供两种号码格式。 007 803 CCC XXXX 格式可通过 PT Telkom 网络（包括 Telkomsel 和 XL mobile）进行访问。 号码格式 001 803 CCC XXXX 可通过 Indosat 网络访问。 对于移动版：矩阵手机网络版（仅限前缀0855、0858、0815和0816）。  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 

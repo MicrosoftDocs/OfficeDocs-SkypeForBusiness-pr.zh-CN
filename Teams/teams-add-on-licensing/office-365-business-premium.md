@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 商业高级版 '
+title: 'Help and training '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,14 +17,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 商业高级版计划。 '
-ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040732"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571322"
 ---
-# <a name="office-365-business-premium"></a>Office 365 商业高级版
+# <a name="office-365-business-premium"></a>Help and training
 
 如果您有[Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Microsoft 团队与您的企业中的其他人进行通话，这些人员属于您的订阅。 例如，如果您的企业有10个人，则可以使用团队互相呼叫和发送即时消息。
 

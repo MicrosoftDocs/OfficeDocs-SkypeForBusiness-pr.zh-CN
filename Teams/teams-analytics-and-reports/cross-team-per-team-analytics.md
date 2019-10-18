@@ -1,5 +1,5 @@
 ---
-title: 查看团队中的跨团队和每个团队的分析
+title: 查看 Teams 中的跨团队和每团队分析
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,19 +10,18 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 了解团队中的跨团队分析和每个团队分析，这使用户可以查看他们是其成员的团队的使用数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978768"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569700"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>查看团队中的跨团队和每个团队的分析
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>查看 Teams 中的跨团队和每团队分析
 
 在 Microsoft 团队中，用户可以查看他们是其成员或所有者的团队的分析。 此信息使用户可以深入了解其团队的使用模式和活动。 他们可以查看每个团队中活动用户、来宾和邮件数等数据。
 

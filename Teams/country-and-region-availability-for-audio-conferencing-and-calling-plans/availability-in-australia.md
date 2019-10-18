@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于澳大利亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283351"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562702"
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -61,13 +60,13 @@ ms.locfileid: "34283351"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是的, 请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。  <br/> |
+|是否可购买通话套餐？  <br/> |是的，请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。  <br/> |
 |通话套餐的可用分钟数  <br/> |请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。 <br/> |
 |是否可以拨打呼出电话？  <br/> |请参阅[Office 365 的 Telstra 通话](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
 > [!IMPORTANT]
-> 若要删除澳大利亚订户号码 (由 Telstra 提供), 请直接联系 Telstra。
-> 若要更新澳大利亚订户号码的紧急地址信息 (由 Telstra 提供), 请直接联系 Telstra。
+> 若要删除澳大利亚订户号码（由 Telstra 提供），请直接联系 Telstra。
+> 若要更新澳大利亚订户号码的紧急地址信息（由 Telstra 提供），请直接联系 Telstra。
 > 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
@@ -78,7 +77,7 @@ ms.locfileid: "34283351"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
-如果您想要获得自动助理的收费电话号码和免费电话号码, 请拨打 "通话队列" 或 "音频会议服务号码",[请与我们联系](mailto:ptnapac@microsoft.com)。
+如果您想要获得自动助理的收费电话号码和免费电话号码，请拨打 "通话队列" 或 "音频会议服务号码"，[请与我们联系](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>通信点数
 
@@ -90,6 +89,6 @@ ms.locfileid: "34283351"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft 团队聊天室。
-ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f040c61bff6a756ab1fbbff5229c6ebc8a150b3c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775124"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573590"
 ---
 # <a name="deployment-overview"></a>部署概述
 

@@ -12,16 +12,15 @@ description: 了解检查你的环境是否为 Microsoft Teams 准备好时要�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0609efd8ac0286857b44996939378e57ce2702f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7988d286c7f75f880572f42793568eb083929e8e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234918"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567449"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>检查你的环境是否为 Microsoft Teams 准备好
 ===========================================
@@ -30,7 +29,7 @@ ms.locfileid: "36234918"
 
 强烈建议教育机构在部署 Microsoft 团队之前[部署学校数据同步](https://docs.microsoft.com/schooldatasync/)。 学校数据同步使用你的学校的 SIS 名单数据为 Microsoft 团队和其他应用程序自动创建类和组。
 
-为了获得使用 Teams 的最佳体验，贵组织必须已部署了 Exchange Online 和 SharePoint Online。 你还必须确保你的当前环境已准备好进行团队。  有关帮助, 请参阅以下链接:
+为了获得使用 Teams 的最佳体验，贵组织必须已部署了 Exchange Online 和 SharePoint Online。 你还必须确保你的当前环境已准备好进行团队。  有关帮助，请参阅以下链接：
 
 -   如果贵组织未部署任何 Office 365 工作负荷，请参阅[开始使用 Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
@@ -42,6 +41,6 @@ ms.locfileid: "36234918"
 
 -   如果贵组织没有 SharePoint Online，请参阅[了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](SharePoint-OneDrive-interact.md)。
 
-- 如果您的组织是教育机构, 并且您使用学生信息系统 (SIS), 请在部署 Microsoft 团队之前[部署学校数据同步](https://docs.microsoft.com/schooldatasync/)。
+- 如果您的组织是教育机构，并且您使用学生信息系统（SIS），请在部署 Microsoft 团队之前[部署学校数据同步](https://docs.microsoft.com/schooldatasync/)。
 
-- 如果你的组织具有现有的本地 Skype for business 服务器 (或 Lync Server) 部署, 则必须将 Azure AD Connect 配置为将本地目录与 Office 365 同步。  有关详细信息, 请参阅[配置团队和 Skype for business 的 AZURE AD 连接](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)。
+- 如果你的组织具有现有的本地 Skype for business 服务器（或 Lync Server）部署，则必须将 Azure AD Connect 配置为将本地目录与 Office 365 同步。  有关详细信息，请参阅[配置团队和 Skype for business 的 AZURE AD 连接](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)。

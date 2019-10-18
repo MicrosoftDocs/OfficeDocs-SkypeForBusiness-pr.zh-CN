@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 64ab051449357476d5e6421723d393622899263a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 10027fa5b1456bd744f14bae763939b395862d4b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793127"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571289"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -58,7 +57,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
 ## <a name="set-your-caller-id-policy-settings"></a>设置你的来电显示策略设置
 
 > [!NOTE]
-> 对于 Skype for Business Online 中的所有来电显示设置, 必须使用 Windows PowerShell, 并且**不能使用** **Skype for business 管理中心**。 
+> 对于 Skype for Business Online 中的所有来电显示设置，必须使用 Windows PowerShell，并且**不能使用** **Skype for business 管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -68,7 +67,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 Restart your computer when you are prompted.
+3. 如果你没有版本3.0 或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。出现提示时，请重新启动计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
@@ -90,21 +89,21 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     Import-PSSession $session
    ```
 
-如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看你组织中的所有来电显示策略设置
 
-- 若要查看组织中的所有来电显示策略设置, 请运行:
+- 若要查看组织中的所有来电显示策略设置，请运行：
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-  有关 CsCallingLineIdentity 的详细信息, 请参阅[获取](https://technet.microsoft.com/en-us/library/mt793856.aspx)更多示例和详细信息。
+  有关 CsCallingLineIdentity 的详细信息，请参阅[获取](https://technet.microsoft.com/en-us/library/mt793856.aspx)更多示例和详细信息。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>为你的组织创建新的来电显示策略
 
 
-- 若要创建将呼叫方 ID 设置为匿名的新来电显示策略, 请运行:
+- 若要创建将呼叫方 ID 设置为匿名的新来电显示策略，请运行：
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -112,27 +111,27 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
   > [!NOTE]  
   > 在所有情况下，在"服务号码"字段不应包含初始"+"。
 
-  有关详细信息, 请参阅[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)的更多示例和详细信息。
+  有关详细信息，请参阅[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)的更多示例和详细信息。
     
-- 若要将您创建的新策略应用于 Amos 大理石, 请运行:
+- 若要将您创建的新策略应用于 Amos 大理石，请运行：
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   请参阅有关 [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 的更多信息。
     
-如果你已创建策略, 你可以使用[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 对现有策略进行更改, 然后使用[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将设置应用到你的用户。
+如果你已创建策略，你可以使用[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet 对现有策略进行更改，然后使用[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>对其进行设置以阻止传入来电显示
 
-- 要阻止传入来电显示, 请运行:
+- 要阻止传入来电显示，请运行：
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
   请参阅[CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)的更多示例和详细信息。
     
-- 若要将您创建的策略设置应用于您的组织中的用户, 请运行:
+- 若要将您创建的策略设置应用于您的组织中的用户，请运行：
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -159,7 +158,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 Learn about these advantages in the following topics:
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

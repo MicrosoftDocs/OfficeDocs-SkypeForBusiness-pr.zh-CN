@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,28 +21,28 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: 了解在将电话号码移植到团队之前需要了解和执行的操作, 以及如何创建用于转移它们的端口顺序。
-ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 了解在将电话号码移植到团队之前需要了解和执行的操作，以及如何创建用于转移它们的端口顺序。
+ms.openlocfilehash: a876309f8404002a76f13913d64926132b315d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464564"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571509"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
-将您的电话号码从当前服务提供商转移到 Microsoft 团队非常简单。 将您的电话号码移植到团队后, Microsoft 将成为您的服务提供商, 并向您收取这些电话号码。
+将您的电话号码从当前服务提供商转移到 Microsoft 团队非常简单。将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。
   
-在您开始转移电话号码之前, 我们建议您查看有关[转移电话号码](transferring-phone-numbers-common-questions.md)的信息。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码, 或者您需要转移到团队的超过999用户 (订阅者) 电话号码, 请参阅[管理您的电话号码组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载正确的表单并将其发送给我们。
+在您开始转移电话号码之前，我们建议您查看有关[转移电话号码](transferring-phone-numbers-common-questions.md)的信息。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码，或者您需要转移到团队的超过999用户（订阅者）电话号码，请参阅[管理您的电话号码组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载正确的表单并将其发送给我们。
 
   > [!NOTE]
-  > 我们只会在美国的工作日内 (而不是在公共假日或周末) 处理用于转移电话号码的港口订单。
+  > 我们只会在美国的工作日内（而不是在公共假日或周末）处理用于转移电话号码的港口订单。
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>如何创建一个端口顺序并将您的电话号码转移到团队
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码或超过999个用户 (订阅者) 的电话号码, 您需要将其转移到团队, 请参阅[管理您的电话号码组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)选择正确的国家或地区, 然后下载正确的表单并将其发送给我们。
+  > 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码或超过999个用户（订阅者）的电话号码，您需要将其转移到团队，请参阅[管理您的电话号码组织](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)选择正确的国家或地区，然后下载正确的表单并将其发送给我们。
  
 ![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
@@ -84,7 +83,7 @@ ms.locfileid: "36464564"
 
 7. 单击" **继续**"。
 
-8. 在 "**转移日期**" 页面上, 在 "**天**" 下拉列表中, 选择日期, 在 "**开始时间**" 下拉列表中选择时间 (EST), 然后单击 "**下一步**"。
+8. 在 "**转移日期**" 页面上，在 "**天**" 下拉列表中，选择日期，在 "**开始时间**" 下拉列表中选择时间（EST），然后单击 "**下一步**"。
 
 9. 在" **授权书**"页面上，检查下面的每个框。然后在" **签名**"框下方，键入有权更改该帐户的人员。这是在" **帐户信息**"页面>" **授权人员**"上使用的相同名称。然后单击" **下一步**"。
 
@@ -102,7 +101,7 @@ Your port order request will be checked and updated daily and you will be notifi
 
  **服务地址与帐单地址不一样。我在订单上提交的地址与我的客户的帐单副本相匹配，为什么订单仍被拒绝？** 大多数运营商都根据服务地址信息而不是帐单地址来确认转网信息。由于帐单副本是付费记录，它所提供的信息可能与正转网的电话号码的服务地址不相同。
   
- **如果订单处理时间过长，该怎么办？** 我们希望数字移植成为非常简单且快速的过程。 如果您的订单花费的时间比您认为的要长, 并且在 Skype for Business 管理中心中状态仍不完整, 请打开支持票证并包括 "端口订单 ID"。
+ **如果订单处理时间过长，该怎么办？** 我们希望数字移植成为非常简单且快速的过程。 如果您的订单花费的时间比您认为的要长，并且在 Skype for Business 管理中心中状态仍不完整，请打开支持票证并包括 "端口订单 ID"。
 
    
 ## <a name="related-topics"></a>相关主题

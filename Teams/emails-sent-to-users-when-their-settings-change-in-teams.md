@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 575b2a77f216942213fa10caf5d95761e067ef1d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 47cd5812ab1abda51deca8b50d13765badc982e1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344159"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571875"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -44,7 +43,7 @@ ms.locfileid: "34344159"
 
      ![Skype for Business 验证许可证](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    若要了解有关许可的详细信息, 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+    若要了解有关许可的详细信息，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 - **更改了用户的会议 ID 或默认会议电话号码。**
 
@@ -77,7 +76,7 @@ ms.locfileid: "34344159"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改向用户发送的电子邮件
 
-您可以对自动发送给用户的电子邮件进行更改。 默认情况下, 电子邮件的发件人将来自 Office 365, 但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以对自动发送给用户的电子邮件进行更改。 默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不希望向用户发送电子邮件该怎么办？
 

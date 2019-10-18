@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于智利的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 95fe9f7b930ba5c848f8f08ca93189417bad28aa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: dd4e698a7b0c50a7695ba8b317176c0d4b80fddb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332065"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570522"
 ---
 # <a name="availability-in-chile"></a>在智利的可用性
 
@@ -43,7 +42,7 @@ ms.locfileid: "34332065"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是, 适用于:<br/><ul><li> 圣地亚哥 (仅适用于智利内的组织)</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 圣地亚哥（仅适用于智利内的组织）</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -67,8 +66,8 @@ ms.locfileid: "34332065"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣地亚哥  <br/> **注意:** 仅适用于智利内的组织。           |
-|是否提供收费电话号码？  <br/> |是  <br/> **注意:** 仅适用于智利内的组织。           |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣地亚哥  <br/> **注意：** 仅适用于智利内的组织。           |
+|是否提供收费电话号码？  <br/> |是  <br/> **注意：** 仅适用于智利内的组织。           |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。

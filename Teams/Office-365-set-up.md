@@ -14,16 +14,15 @@ ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 734a7ef020c36a38b43aad3d996b2eb6648a5442
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245826"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563825"
 ---
 # <a name="enable-teams-in-your-organization"></a>在你的组织中启用团队
 
@@ -33,7 +32,7 @@ ms.locfileid: "36245826"
 默认情况下，会为所有组织开启 Teams。 如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。 
 
 
-作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息, 请参阅针对你的组织的 "[管理 Microsoft 团队设置](enable-features-office-365.md) [" 或 "microsoft 团队中的应用的管理员设置"](admin-settings.md) 。 
+作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息，请参阅针对你的组织的 "[管理 Microsoft 团队设置](enable-features-office-365.md) [" 或 "microsoft 团队中的应用的管理员设置"](admin-settings.md) 。 
 
 
  

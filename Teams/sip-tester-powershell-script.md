@@ -10,16 +10,15 @@ audience: admin
 description: 使用此 PowerShell 脚本示例测试 Microsoft 团队中的直接路由会话边界控制器连接。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9910ac347b5e797ad30ac65e76173ba4024a87c4
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: c6df8ee654696ceef89c36a354d943c97139bf8b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547236"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568674"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>用于测试直接路由会话边框控制器连接的 PowerShell 脚本
 
