@@ -17,50 +17,50 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: 了解通过 Windows PowerShell 远程管理 Skype for Business Online 的要求, 包括支持的操作系统。
+description: 了解通过 Windows PowerShell 远程管理 Skype for Business Online 的要求，包括支持的操作系统。
 ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36645152"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a><span data-ttu-id="a44d5-103">为 Windows PowerShell 设置计算机</span><span class="sxs-lookup"><span data-stu-id="a44d5-103">Set up your computer for Windows PowerShell</span></span>
+# <a name="set-up-your-computer-for-windows-powershell"></a><span data-ttu-id="08023-103">为 Windows PowerShell 设置计算机</span><span class="sxs-lookup"><span data-stu-id="08023-103">Set up your computer for Windows PowerShell</span></span>
 
-<span data-ttu-id="a44d5-104">仅在运行以下操作系统之一的64位计算机上支持使用 Microsoft PowerShell 远程管理 Skype for Business Online:</span><span class="sxs-lookup"><span data-stu-id="a44d5-104">Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:</span></span>
+<span data-ttu-id="08023-104">仅在运行以下操作系统之一的64位计算机上支持使用 Microsoft PowerShell 远程管理 Skype for Business Online：</span><span class="sxs-lookup"><span data-stu-id="08023-104">Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:</span></span>
 
-- <span data-ttu-id="a44d5-105">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="a44d5-105">Windows Server 2016</span></span>
+- <span data-ttu-id="08023-105">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="08023-105">Windows Server 2016</span></span>
 
-- <span data-ttu-id="a44d5-106">Windows 10</span><span class="sxs-lookup"><span data-stu-id="a44d5-106">Windows 10</span></span>
+- <span data-ttu-id="08023-106">Windows 10</span><span class="sxs-lookup"><span data-stu-id="08023-106">Windows 10</span></span>
     
-- <span data-ttu-id="a44d5-107">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="a44d5-107">Windows 8.1</span></span>
+- <span data-ttu-id="08023-107">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="08023-107">Windows 8.1</span></span>
     
-- <span data-ttu-id="a44d5-108">Windows 8</span><span class="sxs-lookup"><span data-stu-id="a44d5-108">Windows 8</span></span>
+- <span data-ttu-id="08023-108">Windows 8</span><span class="sxs-lookup"><span data-stu-id="08023-108">Windows 8</span></span>
     
-- <span data-ttu-id="a44d5-109">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="a44d5-109">Windows Server 2012 R2</span></span>
+- <span data-ttu-id="08023-109">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="08023-109">Windows Server 2012 R2</span></span>
     
-- <span data-ttu-id="a44d5-110">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="a44d5-110">Windows Server 2012</span></span>
+- <span data-ttu-id="08023-110">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="08023-110">Windows Server 2012</span></span>
     
-- <span data-ttu-id="a44d5-111">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="a44d5-111">Windows Server 2008</span></span>
+- <span data-ttu-id="08023-111">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="08023-111">Windows Server 2008</span></span>
     
-- <span data-ttu-id="a44d5-112">Windows 7</span><span class="sxs-lookup"><span data-stu-id="a44d5-112">Windows 7</span></span>
+- <span data-ttu-id="08023-112">Windows 7</span><span class="sxs-lookup"><span data-stu-id="08023-112">Windows 7</span></span>
     
-<span data-ttu-id="a44d5-113">除了受支持的操作系统之外, 计算机还必须运行以下内容:</span><span class="sxs-lookup"><span data-stu-id="a44d5-113">In addition to the supported operating system, the computer must also be running the following:</span></span>
+<span data-ttu-id="08023-113">除了受支持的操作系统之外，计算机还必须运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="08023-113">In addition to the supported operating system, the computer must also be running the following:</span></span>
   
-- <span data-ttu-id="a44d5-114">PowerShell</span><span class="sxs-lookup"><span data-stu-id="a44d5-114">PowerShell</span></span>
+- <span data-ttu-id="08023-114">PowerShell</span><span class="sxs-lookup"><span data-stu-id="08023-114">PowerShell</span></span>
     
-- <span data-ttu-id="a44d5-115">Skype for Business Online 连接器模块</span><span class="sxs-lookup"><span data-stu-id="a44d5-115">Skype for Business Online Connector module</span></span>
+- <span data-ttu-id="08023-115">Skype for Business Online 连接器模块</span><span class="sxs-lookup"><span data-stu-id="08023-115">Skype for Business Online Connector module</span></span>
     
-<span data-ttu-id="a44d5-116">你可以在以下主题中找到有关下载和安装这些项目的信息:</span><span class="sxs-lookup"><span data-stu-id="a44d5-116">You can find information about downloading and installing these items in the following topics:</span></span>
+<span data-ttu-id="08023-116">你可以在以下主题中找到有关下载和安装这些项目的信息：</span><span class="sxs-lookup"><span data-stu-id="08023-116">You can find information about downloading and installing these items in the following topics:</span></span>
   
-- [<span data-ttu-id="a44d5-117">下载并安装 Skype for Business Online 连接器模块</span><span class="sxs-lookup"><span data-stu-id="a44d5-117">Download and install the Skype for Business Online Connector module</span></span>](download-and-install-the-skype-for-business-online-connector.md)
+- [<span data-ttu-id="08023-117">下载并安装 Skype for Business Online 连接器模块</span><span class="sxs-lookup"><span data-stu-id="08023-117">Download and install the Skype for Business Online Connector module</span></span>](download-and-install-the-skype-for-business-online-connector.md)
     
-- [<span data-ttu-id="a44d5-118">下载并安装 Windows PowerShell 5。1</span><span class="sxs-lookup"><span data-stu-id="a44d5-118">Download and install Windows PowerShell 5.1</span></span>](download-and-install-windows-powershell-5-1.md)
+- [<span data-ttu-id="08023-118">下载并安装 Windows PowerShell 5.1</span><span class="sxs-lookup"><span data-stu-id="08023-118">Download and install Windows PowerShell 5.1</span></span>](download-and-install-windows-powershell-5-1.md)
 
-- [<span data-ttu-id="a44d5-119">通过 Office 365 PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="a44d5-119">Manage Skype for Business Online with Office 365 PowerShell</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
+- [<span data-ttu-id="08023-119">通过 Office 365 PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="08023-119">Manage Skype for Business Online with Office 365 PowerShell</span></span>](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     
-## <a name="related-topics"></a><span data-ttu-id="a44d5-120">相关主题</span><span class="sxs-lookup"><span data-stu-id="a44d5-120">Related topics</span></span>
-[<span data-ttu-id="a44d5-121">诊断 skype for business online 连接器的连接问题</span><span class="sxs-lookup"><span data-stu-id="a44d5-121">Diagnose connection problems with the skype for business online connector</span></span>](diagnose-problems-with-the-skype-for-business-online-connector.md)
+## <a name="related-topics"></a><span data-ttu-id="08023-120">相关主题</span><span class="sxs-lookup"><span data-stu-id="08023-120">Related topics</span></span>
+[<span data-ttu-id="08023-121">诊断 skype for business online 连接器的连接问题</span><span class="sxs-lookup"><span data-stu-id="08023-121">Diagnose connection problems with the skype for business online connector</span></span>](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  
