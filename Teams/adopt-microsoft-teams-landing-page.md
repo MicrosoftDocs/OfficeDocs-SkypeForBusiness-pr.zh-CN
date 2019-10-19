@@ -20,15 +20,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483407"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
-如果你是小型企业版, 或者想要推出从聊天开始的团队, 团队 & 频道和会议, 请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md), 它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织, 或者想要推出语音功能 (如 Office 365 通话计划或电话系统), 则可以从我们的入门指南开始, 但你需要其他下面的指南, 在 "**更深采用指南**" 下。
+如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织，或者想要推出语音功能（如 Office 365 通话计划或电话系统），则可以从我们的入门指南开始，但你需要其他下面的指南，在 "**更深采用指南**" 下。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -144,7 +144,7 @@ ms.locfileid: "36483407"
 
 
 ### <a name="deeper-adoption-guidance"></a>更深入的采纳指南
-采纳计划很容易复杂, 具体取决于你的环境。 对于大规模部署, 请逐步查看以下指南, 以确保你的组织能够顺利过渡到团队。
+采纳计划很容易复杂，具体取决于你的环境。 对于大规模部署，请逐步查看以下指南，以确保你的组织能够顺利过渡到团队。
 
 <ul class="panelContent cardsF">
     <li>
@@ -157,7 +157,7 @@ ms.locfileid: "36483407"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">打开</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">开始</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">入门</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解团队和频道</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">创建第一个团队</a></p>
@@ -177,7 +177,7 @@ ms.locfileid: "36483407"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">反复</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">试验</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">创建冠军计划</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">管理快速入门</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">定义使用场景</a></p>
@@ -198,7 +198,7 @@ ms.locfileid: "36483407"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">评分</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">调整</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定义结果和成功</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">优化反馈和报告</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">提高认识度并实施培训</a></p>

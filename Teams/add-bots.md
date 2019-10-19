@@ -14,10 +14,10 @@ description: 了解如何在 Microsoft 团队中为个人聊天、群组聊天�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516158"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>在 Microsoft 团队中添加个人聊天、群组聊天和频道的 bot

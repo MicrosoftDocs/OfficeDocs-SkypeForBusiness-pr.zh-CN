@@ -18,10 +18,10 @@ description: 用于在团队中部署云语音的登陆页面
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37515828"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams

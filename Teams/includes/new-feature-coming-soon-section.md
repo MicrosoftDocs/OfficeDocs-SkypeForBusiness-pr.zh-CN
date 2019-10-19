@@ -1,1 +1,1 @@
-此功能不起作用尚未释放。 它已公布，并且即将提供。如果您是管理员，您可以了解此功能将发布 （在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)） 邮件中心时。
+此功能尚未发布。 已宣布，即将推出。如果您是管理员，则可以在邮件中心（在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)）中找到此功能的发布时间。

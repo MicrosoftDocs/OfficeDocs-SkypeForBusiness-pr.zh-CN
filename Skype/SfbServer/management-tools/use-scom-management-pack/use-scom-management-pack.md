@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：了解如何配置 Skype for Business Server 2015 基础结构以与 System Center Operations Manager 配合使用。
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790889"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824545"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2015
  
@@ -85,7 +85,7 @@ Skype for business Server 2015 的监视包包括以下文件：
 
 以下功能是 Skype for business Server 2015 管理包的新增功能。
 
-- ** [2019 年6月更新](https://www.microsoft.com/en-in/download/details.aspx?id=47364)中的更改**某些通知已删除特殊字符。 在某些情况下，特殊字符会干扰 SCOM 命令通道通知功能。
+- ** [9 月2019更新](https://www.microsoft.com/en-in/download/details.aspx?id=47364)中的更改**某些通知已删除特殊字符。 在某些情况下，特殊字符会干扰 SCOM 命令通道通知功能。
 
 - **客户端登录的自动发现**登录到 Skype for business Server 2015 的客户端应用程序通常会自动发现要登录到的服务器。 综合事务现在支持验证是否正确配置了自动发现。
     
@@ -127,7 +127,7 @@ Skype for Business Server 2015 管理包通过综合事务提供了更多的警�
 |支持的注册、状态和联系人综合事务|||
 |:-----|:-----|:-----|
 |1  <br/> |注册（用户登录）  <br/> |可用的 Lync Server 2010 和更高版本  <br/> |
-|2  <br/> |通讯簿服务（文件下载）  <br/> |可用的 Lync Server 2010 和更高版本  <br/> |
+|ppls-2  <br/> |通讯簿服务（文件下载）  <br/> |可用的 Lync Server 2010 和更高版本  <br/> |
 |3  <br/> |通讯簿 Web 查询  <br/> |可用的 Lync Server 2010 和更高版本  <br/> |
 |4  <br/> |状态  <br/> |可用的 Lync Server 2010 和更高版本  <br/> |
 |5  <br/> |统一联系人存储  <br/> |可用的 Lync Server 2013 和更高版本  <br/> |

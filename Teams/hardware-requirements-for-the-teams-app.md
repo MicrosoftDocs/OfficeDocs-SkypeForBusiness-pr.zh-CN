@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
+ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565066"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590135"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -57,11 +57,17 @@ ms.locfileid: "37565066"
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>移动设备上的团队应用的硬件要求
 
-你可以在这些移动平台上使用 Microsoft 团队：
+你可以在以下移动平台上使用团队：
 
-- Android-需要 Android 4.4 或更高版本
+- Android-需要 Android 5.0 或更高版本。 与 Android 手机和平板电脑兼容。
 
-- iOS-需要 iOS 10.0 或更高版本。 与 iPhone、iPad 和 iPod touch 兼容。
+  支持仅限于 Android 的最后四个主要版本。 发布新的 Android 主要版本时，正式支持新版本和前三个版本。
+
+- iOS-需要 iOS 10.0 或更高版本。 与 iPhone、iPad 和 iPod touch 兼容。 
+
+  支持仅限于最新版本 iOS 的两个主要版本。 当发布新的主要版本 iOS 时，正式支持新版本的 iOS 和早期版本。
+
+若要获得团队的最佳体验，请使用最新版本的 iOS 和 Android。
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虚拟桌面基础结构（VDI）环境中的团队应用的硬件要求
 

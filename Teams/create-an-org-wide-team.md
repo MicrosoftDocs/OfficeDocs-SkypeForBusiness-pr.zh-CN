@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516646"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
@@ -27,7 +27,7 @@ ms.locfileid: "37516646"
 
 有了组织范围的团队，全局管理员可以轻松地创建一个公共团队，在组织中的每个用户中提取，并在用户加入和离开组织时保持与 Active Directory 的成员身份保持最新。 只有全局管理员可以创建组织范围的团队，并且当前组织范围的团队仅限于不超过5000用户的组织。 每个租户也有五个组织范围的团队限制。 如果满足这些要求，当创建团队时，全局管理员会在选择 "**从头开始构建团队**" 时看到**组织范围**。 
 
-![组织范围选项的屏幕截图，用于创建]组织范围内选项的组织范围的屏幕(media/create-org-wide-team.png "截图，以创建组织范围的团队")
+![组织范围选项的屏幕截图，用于创建组织范围的团队](media/create-org-wide-team.png "组织范围选项的屏幕截图，用于创建组织范围的团队")
 
 创建组织范围的团队后，所有全局管理员都将添加为团队所有者，并将所有活动用户添加为团队成员。 未经授权的用户也将添加到团队。 当未经授权的用户第一次登录团队时，将为用户分配 Microsoft 团队商业云试用版许可证。 若要了解有关试用许可证的详细信息，请查看[管理团队商业云试用版优惠](iw-trial-teams.md)。 
 

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 装置 isdrained —即, 所有现有通话都将完成, 但拒绝新通话。
-ms.openlocfilehash: be57261b35cf5b5e6e8118c2a751eee1c8b5f2a7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 本装置将立即停止所有服务、停止任何正在进行的呼叫，并拒绝任何新呼叫。
+ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287438"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34740056"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
- 
-CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 装置已 "排出", 也就是说, 所有现有通话都将完成, 但新通话将被拒绝。 
+
+CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 本装置将立即停止所有服务、停止任何正在进行的呼叫，并拒绝任何新呼叫。
   
 ```
 Enter-CcUpdate
@@ -44,14 +44,14 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-CcUpdate cmdlet 将立即停止所有终止任何正在进行的通话的服务, 并且装置将拒绝任何新呼叫, 这些呼叫将被转移到其他生产装置。 你必须确保剩余的生产设备有足够的容量来处理你准备更新的装置的通话。
+CcUpdate cmdlet 将立即停止所有终止任何正在进行的通话的服务，并且装置将拒绝任何新呼叫，这些呼叫将被转移到其他生产装置。 你必须确保剩余的生产设备有足够的容量来处理你准备更新的装置的通话。
   
 如果你的设备启用了自动更新，例如，Microsoft 发布了关键修补程序，维护模式将很有用。如果你决定关闭自动更新，但会定期执行手动更新，维护模式也很有用。
   
-安装更新后, 设备可以通过运行 CcUpdate cmdlet 恢复到生产模式。
+安装更新后，设备可以通过运行 CcUpdate cmdlet 恢复到生产模式。
   
 > [!NOTE]
-> 如果你决定手动更新云连接器设备, 则需要在 Microsoft 发布下一个版本后的60天内更新它。 发布新版本后, Microsoft 支持以前发布的适用于60天的云连接器版本 
+> 如果你决定手动更新云连接器设备，则需要在 Microsoft 发布下一个版本后的60天内更新它。 发布新版本后，Microsoft 支持以前发布的适用于60天的云连接器版本 
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

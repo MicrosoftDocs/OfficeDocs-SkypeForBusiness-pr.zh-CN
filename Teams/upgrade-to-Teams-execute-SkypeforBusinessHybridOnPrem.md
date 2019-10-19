@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37396417"
 ---
-![升级旅行图，]重点介绍(media/upgrade-banner-deployment.png "升级历程的部署和实施阶段，重点关注部署和实施阶段")
+![升级旅行图，强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
 
@@ -41,7 +41,7 @@ ms.locfileid: "37396417"
 如果你已部署 Skype for Business 服务器或 Microsoft Lync 本地版，并且你的组织希望升级到团队，请按照本文中的指南操作。 你需要设置与 Office 365 租户的混合连接，并确定在阶段将用户移动到团队的共存要求。 
 
 > [!IMPORTANT]
-> Skype for Business Online 将于2021年7月31日停用，之后将不再可访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。 请记住，成功升级会使技术和用户准备相一致，因此，在您向 Microsoft 团队导航旅行时，请务必利用本指南。
+> Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之后它将不再可用或受支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。 请记住，成功升级会使技术和用户准备相一致，因此，在您向 Microsoft 团队导航旅行时，请务必利用本指南。
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>步骤1：配置混合连接 
 
