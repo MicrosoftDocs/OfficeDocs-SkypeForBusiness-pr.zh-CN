@@ -12,16 +12,15 @@ description: 了解如何在 Microsoft Teams 中创建首批团队和频道。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c70a6c7d344c656ab559031a369033774ef25dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a2dd779097119050e6aa9671b6f8ad248c9165d1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245877"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569593"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
@@ -63,7 +62,7 @@ ms.locfileid: "36245877"
 
 创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。 
 
-![显示团队名称和描述的示例团队屏幕截图](media/get-started-with-teams-create-team.png "显示团队名称和描述的示例“了解 Teams”团队屏幕截图") 
+![示例团队的屏幕截图，显示团队名称和说明](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明") 
 
 ### <a name="add-a-team-owner"></a>添加团队所有者
 找到你创建的团队，单击“**更多选项˙˙˙**” > “**管理团队**”。 然后转到“**成员**”选项卡。找到想要指定为团队所有者的人。 在“**角色**”下，单击“**所有者**”。
@@ -71,7 +70,7 @@ ms.locfileid: "36245877"
 ### <a name="create-a-channel-in-a-team"></a>在团队中创建频道
 找到你创建的团队，单击“**更多选项˙˙˙**” > “**添加频道**”。 也可以单击“**管理团队**”，并在“**频道**”选项卡中添加频道。 
 
-![单击“更多选项”时可用选项的屏幕截图](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项及其他选项的屏幕截图") 
+![打击“更多选项”时可用的选项的屏幕截图](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图") 
 
 为频道指定一个描述性名称，让用户能够更轻松地了解该频道的用途。 
 
@@ -79,7 +78,7 @@ ms.locfileid: "36245877"
 
 下面是“了解 Teams”团队中的“如何”频道的示例，显示链接到 Teams 网页的固定选项卡 &ndash; Teams 视频培训、Teams 帮助中心和 Teams 下载链接。 
 
-![固定到示例团队的选项卡的屏幕截图](media/get-started-with-teams-add-tabs.png "固定到示例“了解 Teams”团队的选项卡的屏幕截图。") 
+![固定到示例团队的选项卡的屏幕截图](media/get-started-with-teams-add-tabs.png "固定到“了解 Teams”示例团队的选项卡的屏幕截图。") 
 
 ## <a name="next-steps"></a>后续步骤
 转到[为早期采用者上线产品](get-started-with-teams-onboard-early-adopters.md)。
