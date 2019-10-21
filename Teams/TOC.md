@@ -347,6 +347,7 @@
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
 #### [媒体路径国家/地区代码](direct-routing-country-codes.md)
 #### [用于测试会话边界控制器连接的 PowerShell 脚本](sip-tester-powershell-script.md)
+#### [管理呼叫通知](direct-routing-call-notifications.md)
 
 ## 电话号码
 ### [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,6 +810,7 @@
 ### [硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)
 ### [使用 MSI 安装 Teams](msi-deployment.md)
 ### [在组织中打开 Teams](Office-365-set-up.md)
+### [要从防病毒扫描中排除的 Teams 文件和文件夹](teams-files-folders-antivirus-perf.md)
 ### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
