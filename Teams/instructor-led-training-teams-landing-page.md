@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484011"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570720"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>讲师引导式 Microsoft Teams 培训</h1>
-Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。如果你是业务决策制定者、管理员、IT 专业人员或最终用户，你会找到恰如你所需的课程。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 若要了解更多培训机会（包括实时培训的点播版本），请查看我们的<a href="https://docs.microsoft.com/microsoftteams/enduser-training">按需最终用户培训</a>。<br><br>单击下面的会话进行注册。
+Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。如果你是业务决策制定者、管理员、IT 专业人员或最终用户，你会找到恰如你所需的课程。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 要自行查看我们的培训课程，请访问我们的<a href="https://aka.ms/TeamsOnDemand">最终用户按需培训</a>。<br><br>单击下面的会话进行注册。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -145,7 +144,7 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
                     <div class="cardText">
                         <h3>适用于美国政府的 Teams (GCC)</h3>
                         <p>请与我们一起查看 Office 365 GCC 中的 Teams 互动式概览，了解协作最佳做法。</p>
-                    <p><i>受众：IT 专业人员、最终用户</i></p>
+                    <p><i>受众：全部</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>一线员工与 Teams</h3>
-                        <p>了解 Teams 中的一线员工功能。</p>
+                        <h3>了解如何使用 Teams 中的应用</h3>
+                        <p>了解如何使用应用加强团队协作。</p>
                         <p><i>受众：最终用户</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>一线员工与 Teams</h3>
+                        <p>了解 Teams 中的一线员工功能。</p>
+                        <p><i>受众：最终用户</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>

@@ -5,41 +5,36 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 06/18/2019
 audience: admin
 ms.reviewer: LolaJ
 description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Office 365 配合使用。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2f18cfb420c8bfa973f205541ec69e04a644c6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483155"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566994"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
 
 若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”****，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
-
-
 如果是第一次使用 Teams 且想要了解详细信息，请观看短视频“欢迎使用 Teams”（55 秒）。
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
-
 ## <a name="teams-architecture"></a>Teams 体系结构
 
-Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 
+Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 即使在你脱机或遇到网络时好时坏的情况时，Teams 也会继续工作。
 
 若要了解 Teams 在 Microsoft 365 上下文中的位置，请查看以下体系结构海报：[作为 Microsoft 365 一部分的 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -74,13 +69,13 @@ Teams 是 Office 365 中的主要智能通信客户端，将逐渐取代 Skype f
 如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork-and-office-365"></a>团队合作和 Office 365
-每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。 
+每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
 
 在决定要使用的 Office 365 应用和服务时，应考虑贵组织的工作内容以及你的团队需要采用的对话类型。 
 
 - 作为团队合作的中心，组织内外的人员可在 **Teams** 中主动联系和协作来完成工作。 无论是共同创作文档、举行会议还是在其他应用和服务中合作，都可以在开展工作的地方进行对话。 在 Teams 中，可以进行非正式聊天、快速对项目进行重复操作、处理团队文件以及对共享的可交付结果进行协作。 
 
-- **Outlook** 用于以熟悉的电子邮件环境和更加正式的结构化方式或在需要进行有目标的直接通信时进行协作。 
+- **Outlook** 用于以熟悉的电子邮件环境和更加正式的结构化方式或在需要进行有目标的直接通信时进行协作。
 
 - **SharePoint** 用于网站和门户、智能内容服务、业务流程自动化和企业搜索。 SharePoint 将内容保留在团队合作的中心位置，从而使所有类型的内容可在团队之间轻松共享和访问。 通过与 Outlook、Yammer 和 Teams 紧密集成，可在对话体验中实现无缝内容协作。
 

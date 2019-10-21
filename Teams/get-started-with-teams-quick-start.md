@@ -12,16 +12,15 @@ description: 通过推出你的第一个团队和频道来开始使用 Microsoft
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0607544da01d6dce094f64684a717d2704acee4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 62e7b361f47c802e626821a2d3c97bc20e7c933f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241591"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569571"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -30,7 +29,7 @@ ms.locfileid: "36241591"
 
 Teams 使你能将组织内外的人员快速集中到一起形成一个团队，与其他人聊天来推动快速包容性对话，安全地共享和共同创作文档，并不断完善项目。 通过为共享笔记、网页和应用添加即时访问权限来自定义 Teams。 无论用户身处何处，都可使用会议和呼叫进行实时协作。 Teams 将简化你对 Office 365 服务和第三方应用的访问，使之成为你的协作和沟通需求的新重心。 鼓励早期采用者同时安装桌面和移动应用以获得最佳体验和最准确的反馈。
 
-![显示桌面和移动客户端用户界面的屏幕截图](media/get-started-microsoft-teams.png "显示 Teams 桌面客户端和移动客户端用户界面的屏幕截图" ) 
+![显示桌面和移动客户端用户接口的屏幕截图](media/get-started-microsoft-teams.png "显示桌面客户端和移动客户端用户接口的屏幕截图" ) 
 
 下面介绍如何部署你的第一组团队和频道，以便早期采用者能够开始聊天、共享文件和进行协作。
 
