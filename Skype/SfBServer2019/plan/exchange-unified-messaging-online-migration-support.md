@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文概述了哪些受影响的客户应了解哪些内容, 并针对其业务连续性进行规划。
-ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
+ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645245"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616085"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
-有关2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)参考, Microsoft 将于 2 2020 月日停用 Exchange 统一消息服务联机 (ExchUMO) 服务。 本文简要介绍了受影响的客户应了解哪些内容, 并对其进行规划以实现其业务连续性。 
+有关2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)参考，Microsoft 将于 2 2020 月日停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文简要介绍了受影响的客户应了解哪些内容，并对其进行规划以实现其业务连续性。 
  
 ExchUMO 由客户针对语音邮件、自动助理、呼叫队列和传真集成服务进行部署。 Microsoft 计划帮助客户迁移到已在 Skype for Business Online 和 Microsoft 团队中支持数以千计客户的电话系统服务。 
 
-语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集, 可能需要管理员参与和/或投资。 自动助理是管理员驱动的迁移;你将需要在云自动助理云服务中重新创建现有的 ExchUMO 自动助理树。 使用第三方 PBX 的任何 ExchUMO 功能的客户将不会迁移到 Skype 云服务, 因为它们不支持第三方 PBX 系统。 [本博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)已宣布推出第三方支持的退休计划, 此部署模型中的客户可以将其用户迁移到 Microsoft 的统一通信平台/服务之一, 或者获取第三方语音邮件和/或自动适用于这些用户的助理解决方案。 基于云的服务不支持传真集成;客户将需要迁移到第三方解决方案。
+语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集，可能需要管理员参与和/或投资。 自动助理是管理员驱动的迁移;你将需要在云自动助理云服务中重新创建现有的 ExchUMO 自动助理树。 使用第三方 PBX 的任何 ExchUMO 功能的客户将不会迁移到 Skype 云服务，因为它们不支持第三方 PBX 系统。 [本博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)已宣布推出第三方支持的退休计划，此部署模型中的客户可以将其用户迁移到 Microsoft 的统一通信平台/服务之一，或者获取第三方语音邮件和/或自动适用于这些用户的助理解决方案。 基于云的服务不支持传真集成;客户将需要迁移到第三方解决方案。
 
 ### <a name="who-is-affected"></a>哪些人受到影响？
 
-使用 Exchange 统一消息在线服务的以下任何功能的客户将受到影响:
+使用 Exchange 统一消息在线服务的以下任何功能的客户将受到影响：
 
 - 语音邮件服务
 - 自动助理服务
@@ -41,62 +41,62 @@ ExchUMO 由客户针对语音邮件、自动助理、呼叫队列和传真集成
 
 ## <a name="migration-plan-overview"></a>迁移计划概述
 
-Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将根据以下计划帮助客户迁移。 
+Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署，并将根据以下计划帮助客户迁移。 
 
 |客户组 |上  |详细信息  |
 |---------|---------|---------|
-|准备迁移的客户<br><br>要迁移的功能:<br><ul><li>语音邮件</ul>   |   3月-5 月2019  |说明<ul><li>    具有简单语音邮件部署和使用情况的客户<li>已针对 Microsoft 执行迁移的所有要求均已建立的客户<ul>|
-|具有先决条件的客户<br><br>要迁移的功能:<br><ul><li>语音邮件<li>自动助理<li>通话队列</ul> |  五月-2019 年12月 |说明 <br><ul><li>混合配置不完整<li>未设置混合 PSTN 号码</ul>|
-|需要管理员参与 & 客户投资的客户<br><br>要迁移的功能:<ul><li>语音邮件<li>自动助理<li>通话队列<li>传真集成</ul>| 2020年2月  | 说明 <br><ul><li>ExchUMO 服务已由第三方 PBX 使用<li>具有 PSTN 订阅者访问要求的客户<li>SFB 2010 上的客户 (不支持)<li>传真集成</ul> |
+|准备迁移的客户<br><br>要迁移的功能：<br><ul><li>语音邮件</ul>   |   3月-5 月2019  |说明<ul><li>    具有简单语音邮件部署和使用情况的客户<li>已针对 Microsoft 执行迁移的所有要求均已建立的客户<ul>|
+|具有先决条件的客户<br><br>要迁移的功能：<br><ul><li>语音邮件<li>自动助理<li>通话队列</ul> |  五月-2019 年12月 |说明 <br><ul><li>混合配置不完整<li>未设置混合 PSTN 号码</ul>|
+|需要管理员参与 & 客户投资的客户<br><br>要迁移的功能：<ul><li>语音邮件<li>自动助理<li>通话队列<li>传真集成</ul>| 2020年2月  | 说明 <br><ul><li>ExchUMO 服务已由第三方 PBX 使用<li>具有 PSTN 订阅者访问要求的客户<li>SFB 2010 上的客户（不支持）<li>传真集成</ul> |
 
 ## <a name="migration-steps"></a>迁移步骤
 
 1.  **了解**
  
-    熟悉[博客公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)和本文, 以便为你的用户计划平稳迁移。 有关电话系统语音邮件功能的详细信息, 请参阅[查看 Skype for business 语音邮件和选项](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)。  
+    熟悉[博客公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)和本文，以便为你的用户计划平稳迁移。 有关电话系统语音邮件功能的详细信息，请参阅[查看 Skype for business 语音邮件和选项](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)。  
  
 2.  **建立 Skype for business 混合拓扑**
 
-    如果您没有建立 Skype for Business 混合拓扑, 则需要执行此操作以启用语音邮件用户的平滑迁移。 有关详细信息, 请参阅[配置 Skype For business 混合](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)。 
+    如果您没有建立 Skype for Business 混合拓扑，则需要执行此操作以启用语音邮件用户的平滑迁移。 有关详细信息，请参阅[配置 Skype For business 混合](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)。 
 
     > [!Note]
-    > 无需将用户迁移到语音邮件服务迁移。 但是, 为了让本地用户利用电话系统语音邮件服务, 必须建立混合拓扑。
+    > 无需将用户迁移到语音邮件服务迁移。 但是，为了让本地用户利用电话系统语音邮件服务，必须建立混合拓扑。
 
 3. **规划自动助理迁移**
     
-    管理员可以随时开始将其自动助理从 ExchUMO 迁移到云自动助理。 有关详细信息, 请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。 Microsoft 将继续提供客户可能考虑迁移所需的附加自动助理功能, 管理员应评估该功能集并相应地迁移其自动助理实例。 有关功能列表比较, 请参阅[基于 ExchUMO 和 Azure 云的服务功能表](#exchumo-and-azure-cloud-based-services-feature-matrix)。
+    管理员可以随时开始将其自动助理从 ExchUMO 迁移到云自动助理。 有关详细信息，请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。 Microsoft 将继续提供客户可能考虑迁移所需的附加自动助理功能，管理员应评估该功能集并相应地迁移其自动助理实例。 有关功能列表比较，请参阅[基于 ExchUMO 和 Azure 云的服务功能表](#exchumo-and-azure-cloud-based-services-feature-matrix)。
 
 4. **规划语音邮件迁移后验证和测试**
 
-    语音邮件迁移是 Microsoft 驱动的。 管理员无需执行任何操作, 前提是已建立必备的混合拓扑。 Microsoft 执行所需的验证和测试, 确保用户的语音邮件迁移不会中断。 管理员可以在自己的一侧执行测试和验证。 有关建议的测试计划, 请参阅[管理员的建议测试计划和迁移后验证](#suggested-test-plan-and-post-migration-validation-for-admins)。 
+    语音邮件迁移是 Microsoft 驱动的。 管理员无需执行任何操作，前提是已建立必备的混合拓扑。 Microsoft 执行所需的验证和测试，确保用户的语音邮件迁移不会中断。 管理员可以在自己的一侧执行测试和验证。 有关建议的测试计划，请参阅[管理员的建议测试计划和迁移后验证](#suggested-test-plan-and-post-migration-validation-for-admins)。 
 
     > [!Note]
-    > 不支持 Lync Server 2010。 如果您使用的是2010服务器部署, 则应规划服务器升级, 或者考虑将用户迁移到 Microsoft 团队或 Skype for business Online。  
+    > 不支持 Lync Server 2010。 如果您使用的是2010服务器部署，则应规划服务器升级，或者考虑将用户迁移到 Microsoft 团队或 Skype for business Online。  
 
 5. **监控管理员通知中心**
 
     在管理员通知中心查看有关用户迁移的详细信息和日程表的通知。 在迁移期前至少30天内发送通知。 
 
     > [!Note]
-    > 如果你收到一条通知, 告知用户的迁移时间线, 并且希望推迟你的迁移以满足业务关键型原因, 你可以通过联系 Microsoft 支持人员来执行此操作。 请注意, 您不能将迁移推迟到2020年2月的退休日期。 对于可能有更多问题的客户, 请与您的帐户团队或 Microsoft 支持部门联系。 已使用 Office 365 的客户可以通过 Office 365 管理门户提交支持案例。 
+    > 如果你收到一条通知，告知用户的迁移时间线，并且希望推迟你的迁移以满足业务关键型原因，你可以通过联系 Microsoft 支持人员来执行此操作。 请注意，您不能将迁移推迟到2020年2月的退休日期。 对于可能有更多问题的客户，请与您的帐户团队或 Microsoft 支持部门联系。 已使用 Office 365 的客户可以通过 Office 365 管理门户提交支持案例。 
 
 6. **考虑为计划迁移选择**
 
-    您可以选择加入计划的语音邮件服务迁移到 CVM。 在 "选择" 之前, 请查看本文的详细信息, 尤其是以下部分:
+    您可以选择加入计划的语音邮件服务迁移到 CVM。 在 "选择" 之前，请查看本文的详细信息，尤其是以下部分：
 
-    - 迁移步骤 (本部分)
+    - 迁移步骤（本部分）
     - ExchUMO 和基于 Azure 云的服务功能表
     - 用户体验影响
 
-    选择托管迁移时, 将不会在 Microsoft 365 管理门户消息中心收到预迁移30天的通知。
+    选择托管迁移时，将不会在 Microsoft 365 管理门户消息中心收到预迁移30天的通知。
  
-    若要为计划迁移选择, 请从管理员的电子邮件地址向[cvm@microsoft.com](mailto:cvm@microsoft.com)发送电子邮件请求, 其中包含以下信息:
+    若要为计划迁移选择，请从管理员的电子邮件地址向[cvm@microsoft.com](mailto:cvm@microsoft.com)发送电子邮件请求，其中包含以下信息：
 
-    - 首选日期 (星期二): 每星期二执行迁移波形。 请选择星期二之外的日期, 不超过12/3/2019。
+    - 首选日期（星期二）：每星期二执行迁移波形。 请选择星期二之外的日期，不超过12/3/2019。
  
-    - 租户 ID:32 0046728c-688a-4472-a38f-098fec60ac6x 格式的字符数。 你可以在 Microsoft 365 管理门户中的 Azure AD 下找到租户 ID, 或使用以下 PowerShell cmdlet:`Get-CsTenant | Select ObjectId`
+    - 租户 ID： 32 0046728c-688a-4472-a38f-098fec60ac6x 格式的字符数。 你可以在 Microsoft 365 管理门户中的 Azure AD 下找到租户 ID，或使用以下 PowerShell cmdlet：`Get-CsTenant | Select ObjectId`
  
-    一旦租户成功迁移, 您就会收到一封电子邮件确认。 
+    一旦租户成功迁移，您就会收到一封电子邮件确认。 
 
 ## <a name="appendix"></a>参见
 
@@ -104,7 +104,7 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 
 | 业务 | 功能级别 | 功能 | 注释  | 云 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VMNETWORK  | 服务功能| 支持第三方 PBX    | 包括第三方 PBX 提供的所有功能, 如 MWI (消息等待指示器), 使用 SIP 通知来自 Exchange UM 的联机消息 | 否   | 是    |
+| VMNETWORK  | 服务功能| 支持第三方 PBX    | 包括第三方 PBX 提供的所有功能，如 MWI （消息等待指示器），使用 SIP 通知来自 Exchange UM 的联机消息 | 否   | 是    |
 | VMNETWORK | 服务功能  | 支持 Skype for business 服务器   |  | Y | Y    |
 | VMNETWORK | 服务功能 | 支持 Microsoft 团队|  | 是 | 否    |
 | VMNETWORK | 服务功能 | 电子数据展示和保留  | 出于安全和合规性  | Y | Y    |
@@ -117,20 +117,20 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 | VMNETWORK | 用户功能 | 用于创建 OOF 问候的用户设置  |  | Y | Y    |
 | VMNETWORK | 用户功能 | 用于更改默认语言的用户设置  |  | Y | Y    |
 | VMNETWORK | 用户功能 | 使用 TTS 覆盖默认问候语的用户设置  |  | 是 | 否    |
-| VMNETWORK | 用户功能 | 录制个人问候语 (经过身份验证的设备) |  | Y | Y    |
-| VMNETWORK | 用户功能 | 录制个人问候语 (PSTN)-在手机上播放 |  | 否 | 是    |
+| VMNETWORK | 用户功能 | 录制个人问候语（经过身份验证的设备） |  | Y | Y    |
+| VMNETWORK | 用户功能 | 录制个人问候语（PSTN）-在手机上播放 |  | 否 | 是    |
 | VMNETWORK | 用户功能 | 用于禁用脚本的用户设置 |  | 否 | 是    |
 | VMNETWORK | 用户功能 | 转录  |  | Y | Y    |
-| VMNETWORK | 用户功能 | 所有终结点上的视觉语音邮件   | 在所有受支持的终结点上, 使用用户控件播放、删除、消息等待指示器和状态切换  | Y | Y    |
+| VMNETWORK | 用户功能 | 所有终结点上的视觉语音邮件   | 在所有受支持的终结点上，使用用户控件播放、删除、消息等待指示器和状态切换  | Y | Y    |
 | VMNETWORK | 用户功能 | Outlook 中的 MP3 音频文件格式    |  | 是 | Y    |
 | VMNETWORK | 用户功能 | 变速播放控制 |  | 是 | Y    |
 | VMNETWORK | 用户功能 | 转发语音邮件  | 将接收到的语音邮件转发给其他用户 | 是 | Y    |
 | VMNETWORK | 用户功能 | 向一组用户发送语音消息  |语音邮件直播   | 否 | 是   |
-| VMNETWORK | 用户功能 | 语音邮件通知, 使用短信    | 当用户收到新语音邮件时, 可收到一条短信    | 否 | 是    |
-| VMNETWORK | 用户功能 | 支持的问候语言 | 此处的详细信息:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 是 | Y    |
+| VMNETWORK | 用户功能 | 语音邮件通知，使用短信    | 当用户收到新语音邮件时，可收到一条短信    | 否 | 是    |
+| VMNETWORK | 用户功能 | 支持的问候语言 | 此处的详细信息：https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 是 | Y    |
 | VMNETWORK | 用户功能 | 呼叫应答规则 |  | 是 | Y    |
-| VMNETWORK | 用户功能 | 在手机 (PSTN) 上播放-播放消息 | 呼叫我的单元格以收听语音消息  | 否 | 是    |
-| VMNETWORK | 用户功能 | 在电话上播放 (Auth)-播放消息 | 在已验证身份的设备上呼叫我  | 是 | Y    |
+| VMNETWORK | 用户功能 | 在手机（PSTN）上播放-播放消息 | 呼叫我的单元格以收听语音消息  | 否 | 是    |
+| VMNETWORK | 用户功能 | 在电话上播放（Auth）-播放消息 | 在已验证身份的设备上呼叫我  | 是 | Y    |
 | VMNETWORK | 用户功能 | 在多个用户之间共享邮箱 |  | 是 | Y    |
 | VMNETWORK | 来电显示功能  | 呼叫者体验-受保护的语音邮件 | 呼叫者可以选择将录制的邮件标记为受保护的选项| 否 | 是    |
 | VMNETWORK | 来电显示功能  | 呼叫者体验-专用语音邮件 | 呼叫者可以选择将录制的邮件标记为私密的选项  | 否 | 是    |
@@ -138,7 +138,7 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | 是 | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | 是 | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改输入失败次数 | CVM: 硬编码为3 | 否 | 是    |
+| VMNETWORK | 租户-管理员功能 | 更改输入失败次数 | CVM：硬编码为3 | 否 | 是    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | 是 | Y    |
 | VMNETWORK | 租户-管理员功能 | 禁用/启用脚本关于 |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | 否 | 是    |
@@ -151,11 +151,11 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 | AA | 服务功能 | AA 支持第三方 PBX    |  | 否 | 是    |
 | AA | 服务功能 | 支持 Skype for business 服务器   |  | Y | Y    |
 | AA | 服务功能 | 支持 Microsoft 团队|  | 是 | 否    |
-| AA | 服务功能 | 按名称拨号, DTMF 输入    |  | Y | Y    |
+| AA | 服务功能 | 按名称拨号，DTMF 输入    |  | Y | Y    |
 | AA | 服务功能 | 按名称、语音输入拨号  |  | Y | Y    |
-| AA | 服务功能 | 多语言支持 | 此处为语言详细信息:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| AA | 服务功能 | 多语言支持 | 此处为语言详细信息：https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | 服务功能 | 转移到操作员、CQ 或用户 |  | Y | Y    |
-| AA | 服务功能 | 内部转到 PSTN 号码 (已 RNL)  |  | Y | Y    |
+| AA | 服务功能 | 内部转到 PSTN 号码（已 RNL）  |  | Y | Y    |
 | AA | 服务功能 | 从外部转移到 PSTN 号码  |  | Q3CY19 | Y    |
 | AA | 服务功能 | 工作时间 |  | Y | Y    |
 | AA | 服务功能 | 菜单选项 | IVR 菜单选项  | Y | Y    |
@@ -173,16 +173,16 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>适用于管理员的建议测试计划和迁移后验证
 
-若要验证用户是否已迁移到云语音邮件, 请将语音邮件保留给用户并在 Outlook 中查看邮件正文。  云语音邮件有一个页脚, 其中包含:
+若要验证用户是否已迁移到云语音邮件，请将语音邮件保留给用户并在 Outlook 中查看邮件正文。  云语音邮件有一个页脚，其中包含：
 
-**感谢您使用 "脚本"!如果在上述情况下看不到上述记录, 这是因为音频质量不够清晰, 无法稍后将。**
+**感谢您使用 "脚本"！如果在上述情况下看不到上述记录，这是因为音频质量不够清晰，无法稍后将。**
 
-在用户迁移后测试语音邮件功能时, 请确保考虑以下方案:
+在用户迁移后测试语音邮件功能时，请确保考虑以下方案：
 
-- 验证你的组织中的所有终结点类型的语音邮件访问: 应用和 IP 电话。 
+- 验证你的组织中的所有终结点类型的语音邮件访问：应用和 IP 电话。 
 - 通过向呼叫者播放配置的个性化问候语的示例用户进行验证。   
-- 如果你的组织具有对用户禁用脚本的法律或合规性要求, 请确保它已禁用迁移后。 有关更多详细信息, 请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail)。
-- 如果你以前配置了 Exchange VM 策略和规则, 请确保它们有效。
+- 如果你的组织具有对用户禁用脚本的法律或合规性要求，请确保它已禁用迁移后。 有关更多详细信息，请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail)。
+- 如果你以前配置了 Exchange VM 策略和规则，请确保它们有效。
 - 熟悉云语音邮件服务 PowerShell cmdlet 以更改用户设置。  
 
 ### <a name="user-experience-impact"></a>用户体验影响
@@ -192,19 +192,30 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署, 并将�
 
 |方面  |用户体验方面的更改|
 |---------|---------|
-|电子邮件通知 | 无更改<br>不会向用户发送电子邮件, 通知他们有关语音邮件帐户激活/迁移的信息。 |
+|电子邮件通知 | 无更改<br>不会向用户发送电子邮件，通知他们有关语音邮件帐户激活/迁移的信息。 |
 |访问以前的消息 | 无更改<br>用户可以在所有支持的终结点中访问其以前的语音邮件消息。 |
-|在 outlook 中接收 VM, SFB 应用| 无更改<br>用户将继续在所有支持的终结点中接收语音邮件消息。 |
+|在 outlook 中接收 VM，SFB 应用| 无更改<br>用户将继续在所有支持的终结点中接收语音邮件消息。 |
 |转录 | 更<br>CVM 脚本的精确度比率和支持语言比 ExchUMO 高得多。 |
-|用户设置 | 新体验<br>用户可以从用户设置门户 (USP) 更改其首选项。 用户可以通过其语音邮件中的超链接或其 SFB 客户端上的用户设置按钮访问其 USP;https://aka.ms/vmsettings.   
- |功能| 有关详细信息, 请参阅功能集比较。 |
-|适用于 VM 邮件的 Outlook 规则 | 无更改<br>迁移后, 以前创建的规则将应用于 CVM 消息。
+|用户设置 | 新体验<br>用户可以从用户设置门户（USP）更改其首选项。 用户可以通过其语音邮件中的超链接或其 SFB 客户端上的用户设置按钮访问其 USP;https://aka.ms/vmsettings.   
+ |功能| 有关详细信息，请参阅功能集比较。 |
+|适用于 VM 邮件的 Outlook 规则 | 无更改<br>迁移后，以前创建的规则将应用于 CVM 消息。
  |
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>CVM 中的用户管理和预配 
 
-新的 Skype for Business 用户将在创建时自动设置为云语音邮件。 设置新的语音邮件用户不需要额外的管理员工作或许可证。 请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail), 了解现有用户和新用户的策略管理。
+新的 Skype for Business 用户将在创建时自动设置为云语音邮件。 设置新的语音邮件用户不需要额外的管理员工作或许可证。 请参阅[设置云语音邮件](/microsoftteams/set-up-phone-system-voicemail)，了解现有用户和新用户的策略管理。
 
 #### <a name="admin-auto-attendant-management-experience"></a>管理员自动助理管理体验 
 
-若要了解有关自动助理的详细信息, 请参阅[设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)。 
+若要了解有关自动助理的详细信息，请参阅[设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)。 
+
+#### <a name="known-issues"></a>已知问题
+
+**共享邮箱：** 使用 Exchange UM Online 配置的共享邮箱将在迁移到 CVM 后继续接收邮件，并可通过 Outlook 继续供用户访问。 但是，迁移到 CVM 后，更改这些邮箱的问候语的权限将不可用。 使用共享邮箱捕获自动助理呼叫者的客户应该在发布后使用自动助理和呼叫队列共享邮箱功能（2006年10月2019）。
+  
+**升级到 SFB 客户端上的团队横幅：** CVM 服务基于 Microsoft 团队基础结构;从 Skype for Business 客户端对其进行调用可能会导致在客户端上显示信息横幅，读取： "用户名未使用 Skype for Business。 若要获得更丰富的体验，请切换到 "团队" 或 "启动 Skype 会议"。
+请确保将用户的 Skype for Business 客户端更新到最新的 C2R 客户端更新，以防出现此横幅。 
+  
+**设置语音邮件将把你转到 OWA：** 在迁移到 CVM 后，单击客户端上的 "设置语音邮件" 将继续将 Skype for business Server 2015/2013 客户转到 Office Web Access （OWA）门户页面。 所有设置都已从 OWA 中的 "语音邮件" 选项卡中删除，横幅将显示，其中包含用于将用户转到 CVM 用户设置门户的重定向链接。 
+ 
+**更改问候语移动访问：** PSTN 订户访问在 CVM 中不受支持。 对于需要远程更改其问候语的用户，将向移动客户端的语音邮件 IVR 服务添加 "更改问候语" 菜单选项。 用户可以通过在移动客户端拨号盘上按住 "1" 键来呼叫此服务。 
