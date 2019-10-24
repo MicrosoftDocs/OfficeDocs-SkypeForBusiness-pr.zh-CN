@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715922"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616066"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -98,11 +97,22 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 你可以使用这些设置来配置你的用户从 Skype for Business 到 Microsoft Teams 的升级方式。 
 
 #### <a name="coexistence-mode"></a>共存模式
-你可以指定共存模式：“**仅 Teams**”、“**并行**”（Teams 和 Skype for Business 将共存）或“**仅 Skype for Business**”。 你选择的共存模式将决定传入通话和聊天的路由方式，以及用户用于启动聊天和通话或安排会议的应用。 有关共存模式的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
+你可以指定共存模式： 
+
+- **仅 Teams**
+- **孤岛**（Teams 和 Skype for Business 将共存）
+- **仅 Skype for Business**
+- **Skype for Business，通过 Teams 协作**（用户在 Skype for Business 中收到聊天和呼叫并安排会议，但使用 Teams 进行团队协作）
+- **Skype for Business，通过 Teams 协作和安排会议**（用户在 Skype for Business 中收到聊天和呼叫，但使用 Teams 进行团队协作和安排会议）
+
+你选择的共存模式将决定传入通话和聊天的路由方式，以及用户用于启动聊天和通话或安排会议的应用。 有关共存模式的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 #### <a name="app-preferences"></a>应用首选项
 
 你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/zh-CN/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
+
+你还可以选择“在后台为 Skype for business 用户下载 Teams”选项。  此设置默认设为“开”。 通过启用此设置，它将在后台为在 Windows PC 上运行 Skype for Business 应用的用户下载 Teams 应用。 如果用户的“共存”模式为“仅 Teams”，或者在 Skype for Business 应用中启用了挂起的升级通知，则会发生这种情况。
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何了解提供了哪些功能？
 
