@@ -28,6 +28,7 @@
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
 ## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 
 
