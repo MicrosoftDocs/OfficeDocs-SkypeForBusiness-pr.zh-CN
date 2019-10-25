@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570299"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664967"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -48,7 +48,7 @@ ms.locfileid: "37570299"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
 2. 选择 "**组织范围的设置**"。 然后，你可以在面板中配置所需的设置。 
-    ![新应用权限策略的屏幕截图](media/app-permission-policies-org-wide-settings.png)
+    ![组织范围内的应用设置的屏幕截图](media/app-permission-policies-org-wide-settings.png)
 3. 在 "**第三方应用**" 下，关闭或打开这些设置以控制对第三方应用的访问：
 
     - **允许团队中的第三方或自定义应用**：这将控制用户是否可以使用第三方或自定义应用。
