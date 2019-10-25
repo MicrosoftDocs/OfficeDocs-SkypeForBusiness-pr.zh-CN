@@ -41,6 +41,7 @@
 ### [在 Teams 中添加私人聊天、群聊和频道机器人](add-bots.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
+### [管理业务线应用](manage-your-lob-apps.md)
 ### [在 Teams 租户应用目录中发布应用](tenant-apps-catalog-teams.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
