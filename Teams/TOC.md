@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [云视频互操作](cloud-video-interop.md)
 
 ## 实时事件
@@ -660,15 +654,16 @@
 ## [Skype for Business Online 停用](skype-for-business-online-retirement.md)
 ## [常见问题解答](FAQ-journey.md)
 
-## 详细了解共存模式
+## 技术库
+### [适用于 IT 管理员的升级指南](upgrade-to-teams-on-prem-overview.md)
 ### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # 混合连接 
 
 ## [规划混合连接](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
