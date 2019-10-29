@@ -3,7 +3,6 @@ title: 打开或关闭对 Microsoft 团队的来宾访问
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37566031"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753347"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 ===================================================
 
-作为 Office 365 管理员，你必须先启用来宾功能，你或贵组织的用户（具体来说是团队所有者）才能添加来宾。
+默认情况下，来宾访问处于关闭状态。 作为 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请使用[来宾访问清单](guest-access-checklist.md)。 
 
-在 Azure Active Directory 中设置来宾设置后， 更改在 Office 365 组织中生效需要 2 小时到 24 小时。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未启用或设置尚未生效。
+启用来宾访问后，更改将花费2-24 小时才能生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
 
 > [!IMPORTANT]
-> 要启用来宾访问功能的完全体验，非常重要的一点是理解 Microsoft Teams、Azure Active Directory 和 Office 365 之间的核心授权相关性。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
+> 打开来宾访问取决于 Azure Active Directory、Office 365、SharePoint Online 和团队中的设置。 有关详细信息，请参阅[授权团队中的来宾访问](Teams-dependencies.md)。
 
-## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心配置来宾访问
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>配置团队管理中心中的来宾访问
 
 1.  登录到 Microsoft 团队管理中心。
 
 2.  选择 "**组织范围设置** > "**来宾访问**。
 
-3. 将 "**允许 Microsoft 团队中的来宾访问**" 设置切换为 **"开**"。
+3. 将 "**允许 Microsoft 团队中的来宾访问**" 设置为 **"打开"**。
 
     ![允许来宾访问开关设置为 "开" ](media/set-up-guests-image1.png)
 
-4.  将 "**呼叫**"、"**会议**" 和 "**消息传递**" 下的开关设置为 **"打开**" 或 "**关闭**"，具体取决于你希望来宾用户允许的功能。
+4.  在 "**呼叫**、**会议**和**消息**" 下，为每个功能选择 **"开" 或 "** **关**"，具体取决于您希望来宾用户允许的功能。
 
     - **进行专用通话**–打开此设置可允许来宾**进行对等**呼叫。
     - **允许使用 IP 视频**-打开此**设置可允许来宾在其**呼叫和会议中使用视频。
@@ -73,45 +70,16 @@ ms.locfileid: "37566031"
 5.  单击“**保存**”。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
+已阅读["使用 PowerShell" 打开或关闭来宾访问](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  从下载 Skype for Business Online PowerShell 模块https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.  将 PowerShell 会话连接到 Skype for Business Online 终结点。
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  检查您的配置， `AllowGuestUser`如果`$False`是，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为`$True`。
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-您现在可以在组织的工作组中拥有来宾用户。
-
-## <a name="more-information"></a>更多信息
-
-观看以下视频，了解有关来宾访问的更多详细信息。
+## <a name="video-adding-guests-in-teams"></a>视频：在团队中添加来宾
 
 |  |  |
 |---------|---------|
 | 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>外部访问（联盟）与来宾访问
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

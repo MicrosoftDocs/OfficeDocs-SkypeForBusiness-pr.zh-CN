@@ -3,7 +3,6 @@ title: 来宾体验介绍
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -16,27 +15,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563472"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753427"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
 
-来宾受邀加入团队时，会收到欢迎电子邮件，其中包括有关团队的一些信息以及成为成员后应做些什么。 来宾必须接受电子邮件中的邀请才能访问团队及其频道。
+当来宾被邀请加入团队时，他们将收到欢迎电子邮件。 此消息包括有关团队的一些信息，以及现在所期望的成员。 来宾必须先通过在电子邮件中选择 "**打开 Microsoft 团队**" 来接受邀请，然后才能访问团队及其频道。
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示，横幅显示 "此团队拥有来宾"，并且每个来宾的名称旁边会显示一个 "（来宾）" 标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示，横幅指示 "此团队拥有来宾"，并且每个来宾的名称旁边显示一个 **（来宾）** 标签。
     
 ![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分，并在顶部横幅中显示通知，表明该团队拥有来宾和来宾用户（其姓名旁边的 "word 来宾" 标识）。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
 
-下表比较了组织的团队成员可用的 Microsoft Teams 功能和团队的来宾用户可用的功能。
+下表比较了适用于组织的团队成员及其来宾的团队功能。
 
 |**Teams 中的功能**|**组织中的 Teams 用户**|**来宾用户**|
 |:-----|:-----|:-----|
@@ -56,9 +55,9 @@ ms.locfileid: "37563472"
 |查看组织结构图  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |使用内联转换  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-下表显示了可供来宾使用的呼叫和会议功能。
+下表显示了与其他类型的用户相比，来宾可使用的呼叫和会议功能。
 
-| 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 EV 用户 |
+| 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和企业语音用户 |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 呼叫 | 是 | 是  | 是  |
 | 群组通话 | 是 | 是  | 是  |
@@ -70,8 +69,8 @@ ms.locfileid: "37563472"
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
 | 转发目标 | 否 | 是 | 是  |
 | 通话群组目标 | 否 | 是 | 是  |
-| 未应答目标 | 否 | 是 | 是  |
-| 可为联合呼叫的目标 | 否 | 是 | 是 |
+| 未应答目标 | 否 | 是 | 是 |
+| 可为联合呼叫的目标 | 否 | 是 | 是  |
 | 可进行联合呼叫 | 否 | 是 | 是  |
 | 可立即转发其呼叫 | 否 | 否 | 是 |
 | 拨打时可同时响铃 | 否 | 否 | 是 |
@@ -91,36 +90,29 @@ ms.locfileid: "37563472"
 
 > [!NOTE]
 > 由 Office 365 管理员控制可供来宾使用的功能。 
- 
-## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## <a name="frequently-asked-questions"></a>常见问题
 
-问： 如何离开已被邀请的组织？<br>
-答： 如果您已被邀请到您不希望作为其来宾的组织，您可以选择离开该组织。 有关详细信息，请转到[将组织作为来宾用户退出](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)。 或者，您可以要求组织的管理员将您从其租户中删除。 请注意，在这两种情况下，如果你想要在将来访问组织，则需要重新邀请租户。
+### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>如何离开已被邀请的组织？
+如果您已被邀请到您不希望作为其来宾的组织，您可以选择离开该组织。 有关详细信息，请转到[将组织作为来宾用户退出](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)。 或者，您可以要求组织的管理员将您从其租户中删除。 请注意，在这两种情况下，如果你想要在将来访问组织，则需要重新邀请租户。
 
-问： 来宾与团队成员享有同样的功能吗？<br>
-答： 不能。 有关来宾可以执行和不能执行的操作的详细信息，请参阅本文中[的团队成员和来宾功能的比较](#comparison-of-team-member-and-guest-capabilities)。
+### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>来宾与团队成员享有同样的功能吗？
+不能。 有关来宾可以执行和不能执行的操作的详细信息，请参阅本文中[的团队成员和来宾功能的比较](#comparison-of-team-member-and-guest-capabilities)。
 
-问： 可邀请多少位来宾？<br>
-答： 每位许可用户最多可添加 5 名来宾。
+### <a name="do-guests-have-access-to-onedrive-for-business"></a>来宾能否访问 OneDrive for Business？
+不能。
 
-问： 来宾能否访问 OneDrive for Business？<br>
-答： 不能。
+### <a name="do-guests-have-access-to-sharepoint-files"></a>来宾能否访问 SharePoint 文件？
+是。
 
-问： 来宾能否访问 SharePoint 文件？<br>
-答： 能。
+### <a name="can-guests-search-within-files"></a>来宾可在文件中进行搜索吗？
+不能。
 
-问： 来宾可在文件中进行搜索吗？<br>
-答： 不能。
+### <a name="can-guests-attach-files"></a>来宾能否附加文件？
+是的，来宾可通过以下两种方式附加文件：
 
-问： 来宾能否附加文件？<br>
-答： 是的，来宾可通过以下两种方式附加文件：
-
-   - 在左窗格中选择 "文件"，然后浏览到文件位置。
+   - 在左窗格中选择 "**文件**"，然后浏览到文件位置。
    - 从计算机上传文件。
 
-问： 来宾可下载私密聊天中的文件吗？<br>
-答： 能，他们可接收来自私密聊天中的成员的文件，然后将其下载到桌面上。
+### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>来宾可下载私密聊天中的文件吗？
+能，他们可接收来自私密聊天中的成员的文件，然后将其下载到桌面上。

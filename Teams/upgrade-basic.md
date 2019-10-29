@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664941"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749280"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>升级基本信息
+
+<a name="about-upgrade-basic"></a>
 
 升级基本清单是面向小型组织或使用 Skype for Business Online 传递即时消息（聊天）和召开会议的组织的加速行动计划，包括实现成功从 Skype for Business 迁移到 Teams 的核心建议活动及关联资源。
 
@@ -81,7 +81,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 **资源：**
 
 - [Teams 概述](Teams-overview.md)
-- Microsoft 团队入门（get-started-with-teams-quick-start.md）
+- [Microsoft Teams 入门指南](get-started-with-teams-quick-start.md)
 
 [返回顶部](#about-upgrade-basic)
 

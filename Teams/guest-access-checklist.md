@@ -16,55 +16,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7f019f2260b1e86b422f8b4238439fbd2f1607a
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 04594f578d2375f69c38243251ee64506880d00e
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37563488"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753317"
 ---
-<a name="teams-guest-access-checklist"></a>团队来宾访问清单
+<a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 ==========================================
 
-使用此清单可帮助你根据你的组织的首选项，在 Microsoft 团队中启用和配置来宾访问功能。
+使用此清单可帮助你打开和配置 Microsoft 团队中的来宾访问。
 
-> [!NOTE] 
-> 有关协作限制，请参阅[启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+> [!IMPORTANT]
+> 您可能需要等待24小时才能使更改生效。 
 
-## <a name="understand-the-limitations-for-guests"></a>了解对来宾的限制
 
-来宾体验由设计限制。 请确保你了解来宾体验，这样就不会尝试修复不存在问题的内容。 例如，下面列出了 Microsoft 团队中的来宾无法使用的一些功能：
 
-- OneDrive for Business
-- 在团队外搜索的人员
-- 日历、计划的会议或会议详细信息
-- PSTN
-- 组织结构图
-- 创建或修订团队
-- 浏览团队
-- 将文件上传到人员间聊天
-- 如果用户知道用户的完整电子邮件 ID，则来宾仍可搜索和查找他们的团队外的用户。 为避免这种情况，IT 管理员可以使用具有[范围的目录搜索](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search)的模式，这些模式能够将来宾限制在自己的虚拟 GAL 中。
+## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>步骤1：在团队的组织范围级别启用来宾访问
 
-有关更多详细信息，请参阅[来宾体验](guest-experience.md)和[Office 365 组中的来宾访问](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+若要启用来宾访问，请转到**Microsoft 团队管理中心**。 
 
-### <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
+1. 在 "团队管理中心" 中，选择 "**组织范围设置** > "**来宾访问**。
+2. 将 "**允许 Microsoft 团队中的来宾访问**" 切换到 **"开**"。
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+    ![屏幕截图显示团队设置切换的示例](media/guest-access-checklist-set-up-guests-image1.png)
 
-> [!NOTE] 
-> 目前，Microsoft 团队不支持来宾 inviter 角色。 至少，"成员可邀请" 开关必须设置为 "是"，才能使来宾 access 在 Microsoft 团队中工作。 如果将 "成员可以邀请" 设置为 "否"，然后在 Office 365 组和 Microsoft 团队中启用来宾访问，则管理员可以控制你的目录的来宾邀请。 来宾位于目录中后，可通过非管理员成员的团队所有者将其添加到团队。
+3. 在此同一页面上，打开或关闭来宾的**呼叫**、**会议**和**消息**设置。
+4. 单击“**保存**”。
 
-## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的客人看到许可证错误
+> [!TIP]
+> 如果你使用的是 Azure Active Directory、SharePoint Online 和 Office 365 组中的默认设置，则可能会完成来宾访问配置。 在这种情况下，您可以跳过其余步骤。 如果不确定，或者如果你使用的是 AAD、SharePoint Online 或 Office 365 组的自定义设置，请继续执行此清单中的其余步骤。
 
-Microsoft 团队中的来宾访问使用 Azure Active Directory （Azure AD）商业到企业（B2B）和其许可模型。 如果您看到授权错误，请确保阅读[B2B 授权指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)以了解您的组织拥有的授权要求，以便用户能够邀请来宾加入您的组织。
 
-需要注意的一些事项：
-
-- 来宾是您的组织外部的用户。 您的员工、现场承包商、现场工程师等不能添加为来宾。 这同样适用于您的会员。
-- 来宾许可证按邀请的组织计入。 当你计算所需的许可证数量时，请考虑此情况。
-- 根据您的组织统计许可证，无论受邀的来宾来自其他 Office 365 租户还是使用其个人电子邮件地址。
-
-## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□步骤1：在 Azure AD 企业到企业中配置设置
+## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>步骤2：配置 Azure AD 企业到企业版设置
 
 1. 以租户管理员身份登录到[Azure 门户](https://portal.azure.com)。
 2. 选择 " **Azure Active Directory** > **用户** > "**用户设置**。
@@ -79,13 +64,21 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory （Azure AD）�
    
        > [!NOTE]
        > 如果您设置的**成员可以邀请**"**否**"，然后在 Office 365 组和 Microsoft 团队中启用来宾访问，则管理员可以控制您的目录的来宾邀请。 来宾位于目录中后，可通过非管理员成员的团队所有者将其添加到团队。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
-   
+       > [!IMPORTANT]
+       > 若要使来宾访问完全在团队中工作，您必须将**成员**设置为 **"是"**。   
    - **来宾可以邀请**：要允许来宾邀请其他来宾，请将此策略设置为 **"是"**。
+       > [!IMPORTANT]
+       > 当前，团队不支持来宾 inviter 角色，因此即使你将来宾设置为 "**邀请" 可以邀请**为 **"是**"，来宾也无法邀请团队中的其他来宾。
    - **启用来宾电子邮件一次性密码（预览版）**：有关一次性密码功能的详细信息，请参阅[通过电子邮件发送一次性密码身份验证（预览版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
-
    - **协作限制**：有关允许或阻止特定域的邀请的详细信息，请参阅[允许或阻止来自特定组织的 B2B 用户的邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
-    
-## <a name="-step-2-configure-office-365-groups"></a>□步骤2：配置 Office 365 组
+      > [!NOTE]
+      > 有关协作限制，请参阅[启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+      
+ 
+要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+
+
+## <a name="step-3-configure-office-365-groups"></a>步骤3：配置 Office 365 组
 
 1. 在 Microsoft 365 管理中心，转到 "**设置** > **服务" & "加载项** > "**Office 365 组**。
 2. 确保将 **"组织" 访问组内容外的组成员**设置为 **"开"**。 如果此设置处于关闭状态，则来宾将无法访问任何组内容。
@@ -93,25 +86,10 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory （Azure AD）�
 
      ![屏幕截图显示 Office 365 组的切换](media/guest-access-checklist-office365.png)
 
-有关配置这些设置的详细说明，请参阅[在 office 365 组中管理来宾访问](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 office 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
+有关配置这些设置的详细说明，请参阅[在 office 365 组中管理来宾访问](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 office 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
  
 
-## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□步骤3：在租户级别启用来宾访问
-
-至少，你必须在**Microsoft 团队管理中心**下为 microsoft 团队启用来宾访问。 
-
-1. 在 "团队管理中心" 中，选择 "**组织范围设置** > "**来宾访问**。
-2. 将 "**允许 Microsoft 团队中的来宾访问**" 切换到 **"开**"。
-
-    ![屏幕截图显示团队设置切换的示例](media/guest-access-checklist-set-up-guests-image1.png)
-
-3. 在此同一页面上，配置所需的任何其他来宾设置。
-4. 单击“**保存**”。
-
-有关详细说明，请参阅[打开或关闭对 Microsoft 团队的来宾访问](set-up-guests.md)。
-
-
-## <a name="--step-4-configure-sharing-in-office-365"></a>□步骤4：在 Office 365 中配置共享 
+## <a name="step-4-configure-sharing-in-office-365"></a>步骤4：在 Office 365 中配置共享 
 
 请确保用户可以添加来宾。 操作方法如下：
 
@@ -131,7 +109,9 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory （Azure AD）�
 > 此设置等效于**成员可**在 Azure AD 中的**用户设置** > **外部用户**中邀请的设置。  
 
 
-## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□步骤5：验证 SharePoint 中的共享设置
+## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步骤5：验证 SharePoint 中的共享设置
+
+这一点是大脑 teaser。 如果在 SharePoint 管理中心内选中 "**不允许在组织外共享**" 设置，则团队中的来宾访问将不起作用。
 
 1. 登录到 Microsoft 365 管理中心。
 2. 单击 "**管理中心**"，然后选择 " **SharePoint**"。
@@ -141,17 +121,22 @@ Microsoft 团队中的来宾访问使用 Azure Active Directory （Azure AD）�
      ![屏幕截图显示 SparePoint 联机设置切换的示例。](media/guest-access-checklist-SPOSettings1.png)
 
 
-## <a name="-step-6-enable-specific-settings-for-channels"></a>□步骤6：启用频道的特定设置 
+## <a name="step-6-set-up-guest-user-permissions"></a>步骤6：设置来宾用户权限
 
-在 "团队" 应用程序中，在单个团队级别配置来宾权限，以便来宾可以创建、更新和删除频道。 除了管理员，团队所有者还可以配置此设置。
+在 "团队" 应用程序中，在单个团队级别配置用于控制来宾是否可以创建、更新或删除频道的来宾权限。 团队管理员和团队所有者可以配置这些设置。
 
 ![屏幕截图显示团队/频道设置切换的示例](media/guest-access-checklist-TeamsSettings2.png)
 
-有关详细信息，包括操作方法视频，请参阅[Microsoft 团队中的来宾访问](guest-access.md)。
+若要了解有关来宾访问的详细信息，请参阅[团队中的来宾访问](guest-access.md)和[打开或关闭 Microsoft 团队的来宾访问](set-up-guests.md)。
 
 
 ## <a name="troubleshooting"></a>疑难解答
 
-如果您在 Microsoft 团队中添加来宾时遇到问题，请参阅[来宾 Access 疑难解答指南](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797)。
+如果您在设置来宾访问或在团队中添加来宾时遇到问题，请使用以下资源帮助您：
+
+[解决 Microsoft 团队中的来宾访问问题](troubleshoot-guest-access.md)
+
+[团队疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
+
 
 

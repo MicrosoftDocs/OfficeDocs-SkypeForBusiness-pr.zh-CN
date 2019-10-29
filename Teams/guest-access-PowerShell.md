@@ -3,7 +3,6 @@ title: 使用 PowerShell 控制对团队的来宾访问
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: 使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cecceb81b967d4c6d2f4c9ca440e04d6fec9518
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563480"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753327"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -34,10 +33,48 @@ ms.locfileid: "37563480"
 - 在特定团队或 Office 365 组中允许或阻止来宾用户
 
 有关详细信息，请参阅在[Office 365 组中管理来宾访问](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)中的 "使用 PowerShell 控制来宾访问"。
+
   
 你还可以使用 PowerShell 根据来宾用户的域允许或阻止来宾用户。 例如，假定你的企业 (Contoso) 与另一家企业 (Fabrikam) 有合作关系。 你可以将 Fabrikam 添加到你的允许列表，以便你的用户可以将那些来宾添加到其组。 有关详细信息，请参阅[允许/阻止来宾访问 Office 365 组](https://go.microsoft.com/fwlink/?linkid=854001)。
   
 如果你想要阻止团队中的来宾，但仍希望允许他们访问 SharePoint 网站，则可以使用 Azure AD Powershell cmdlet 禁用公司对象上的 AllowGuestsToAccessGroups 参数，假设已为 SharePoint 网站启用外部共享.
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
+
+1.  从下载 Skype for Business Online PowerShell 模块https://www.microsoft.com/en-us/download/details.aspx?id=39366
+ 
+2.  将 PowerShell 会话连接到 Skype for Business Online 终结点。
+
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  检查您的配置， `AllowGuestUser`如果`$False`是，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为`$True`。
+
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
+    
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+您现在可以在组织的工作组中拥有来宾用户。
+
 
 ## <a name="guest-access-vs-external-access"></a>来宾访问和外部访问
 
