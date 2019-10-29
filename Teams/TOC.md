@@ -47,21 +47,30 @@
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
+## 与外部用户通信
+### [与其他组织的用户通信](communicate-with-users-from-other-organizations.md)
 
-## 来宾访问权限
-### [关于来宾访问权限](guest-access.md)
-### [来宾加入团队的方式](guest-joins.md)
-### [来宾体验介绍](guest-experience.md)
-### [管理对 Teams 的来宾访问](teams-dependencies.md)
-### [开启或关闭 Teams 的来宾访问权](set-up-guests.md)
-### [管理对 Teams 的来宾访问](manage-guests.md)
-### [向团队添加来宾](add-guests.md)
-### [在团队中查看来宾用户](view-guests.md)
-### [编辑来宾用户信息](edit-guests-information.md)
-### [使用 PowerShell 控制来宾对团队的访问](guest-access-PowerShell.md)
-### [来宾访问清单](guest-access-checklist.md)
+### 外部访问（联合身份验证）
+#### [管理外部访问](manage-external-access.md)
+#### [面向外部用户的本机 Teams 聊天](native-chat-for-external-users.md)
 
-## [外部访问（联合身份验证）](manage-external-access.md)
+
+### 来宾访问权限
+#### [关于来宾访问权限](guest-access.md)
+#### [来宾访问清单](guest-access-checklist.md)
+#### [来宾加入团队的方式](guest-joins.md)
+#### [来宾体验介绍](guest-experience.md)
+#### [管理对 Teams 的来宾访问](teams-dependencies.md)
+#### [开启或关闭 Teams 的来宾访问权](set-up-guests.md)
+#### [管理对 Teams 的来宾访问](manage-guests.md)
+#### [向团队添加来宾](add-guests.md)
+#### [在团队中查看来宾用户](view-guests.md)
+#### [编辑来宾用户信息](edit-guests-information.md)
+#### [使用 PowerShell 控制来宾访问](guest-access-PowerShell.md)
+#### [来宾访问疑难解答](troubleshoot-guest-access.md)
+
+
+
 
 ## 管理 Teams
 ### [管理员角色](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [患者应用概述](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
