@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590135"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772346"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590135"
 |视频  |    兼容网络摄像头     |
 |语音    |  兼容的麦克风和扬声器，带麦克风的耳机，或等效设备       |
 |视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器（支持最迟 2013 Mac 设备和更高版本）。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux 上的团队桌面应用的硬件要求
+
+|**组件**|**要求**  |
+|---------|---------|
+|计算机和处理器    | 最低 1.6 GHz （或更高）（32位或64位）。        |
+|内存     |    2.0 GB RAM     |
+|硬盘    | 3.0 GB 的可用磁盘空间        |
+|Display    |   1024 x 768 屏幕分辨率 |
+|图形硬件 |  最少 128 MB 图形内存
+|操作系统  | Linux 分发支持安装 DEB 包、贴靠或 RPM。 |
+|视频    |  USB 2.0 视频摄像头       |
+|设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
+|语音    |  兼容的麦克风和扬声器，带麦克风的耳机，或等效设备       |
+|视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器（支持最迟 2013 Mac 设备和更高版本）。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>移动设备上的团队应用的硬件要求
 

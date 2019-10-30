@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570109"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772328"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
@@ -56,4 +56,5 @@ Microsoft 团队允许组织向其用户提供目录的自定义视图。 Micros
     ![Microsoft 团队管理中心中的范围目录搜索](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> 此更改可能需要长达24小时才能进行复制。

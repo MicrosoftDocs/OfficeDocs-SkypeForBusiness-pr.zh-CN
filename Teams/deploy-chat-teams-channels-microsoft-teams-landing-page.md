@@ -11,18 +11,17 @@ search.appverid: MET150
 description: 在 Microsoft Teams 中部署聊天、团队、频道和应用的分步指导
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56bef509fdff71a8890f85ec9aa465650daf570b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: dcb22715a5dbb71239e1953b995933ab204255ec
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483799"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753437"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -89,10 +88,10 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 |询问你自己|操作 |
 |------------|-------|
-|<ul><li>是否要为我的组织启用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要启用外部访问，请参阅[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization)。|
+|<ul><li>是否要为我的组织启用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要启用外部访问，请参阅[规划外部访问](manage-external-access.md#plan-for-external-access)。|
 |||
 
-### <a name="guest-access"></a>来宾访问
+### <a name="guest-access"></a>来宾访问权限
 
 Teams 中的来宾访问可让组织外部的个人访问团队和频道。 可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。 默认情况下会关闭来宾访问。 若要了解详细信息，请参阅 [Teams 中的来宾访问](https://docs.microsoft.com/microsoftteams/guest-access)。
 

@@ -3,7 +3,6 @@ title: Microsoft 团队中的信息障碍
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572065"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772585"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -65,6 +64,7 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 - **邀请用户加入会议**-当用户被邀请加入会议时，将根据其他团队成员的策略评估用户的策略，如果发生冲突，则不允许用户加入会议中。。
 - **在两个或更多用户之间共享屏幕**-无论何时在两个或更多用户之间共享屏幕，都必须评估屏幕共享以确保它不违反其他用户的信息屏障策略。 如果违反了信息障碍策略，则不允许使用屏幕共享。
 - **用户在团队中放置电话呼叫（VOIP）** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
+- **团队中的来宾用户**-信息障碍策略也适用于团队中的来宾用户。 如果您的组织的全球通讯簿中需要发现来宾用户，请参阅[管理 Office 365 组中的来宾访问](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦来宾用户可发现，你可以[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>更改策略时对现有聊天线程有何影响？
 
@@ -117,4 +117,4 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 
 - 若要设置信息障碍策略，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
-- 若要编辑或删除信息障碍策略，请参阅[编辑（或删除）信息屏障策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)
+- 若要编辑或删除信息障碍策略，请参阅[编辑（或删除）信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)

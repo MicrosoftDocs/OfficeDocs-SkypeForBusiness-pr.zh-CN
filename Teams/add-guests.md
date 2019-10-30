@@ -4,7 +4,6 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 audience: ITPro
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.collection:
@@ -16,12 +15,12 @@ localization_priority: Priority
 description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b23ee82e90dea1bc302f14f305274d3ba64d471
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 78f495b10e953a8e416c8cadd755a098c8c948a7
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516117"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753247"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
@@ -31,10 +30,10 @@ ms.locfileid: "37516117"
 拥有企业或消费者电子邮件帐户（如 Outlook、Gmail 或其他）的任何人都可以作为来宾参与 Teams。
 
 作为管理员，你可以通过以下几种方式向组织添加新的来宾用户：
-- 身为团队所有者的全局管理员和团队所有者可以通过 Microsoft Teams 桌面客户端或 Web 客户端将来宾添加到团队。 有关更多详细信息，请参阅[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)
+- 全局管理员或 Teams 管理员和团队所有者在 Teams 客户端或 Teams 管理中心内团队添加来宾。 若要了解详细信息，请参阅[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果尚未设置来宾访问权限，请按照[来宾访问清单](guest-access-checklist.md)中的步骤进行操作。
 
 > [!NOTE] 
-> 这在启用**只有管理员和具有“来宾邀请者”角色的用户可以邀请**时不适用。 这是因为在 Teams 中不支持来宾邀请者角色。
+> 这在启用“**管理员和具有“来宾邀请者”角色的用户可以邀请**”的情况下不适用。 这是因为在 Teams 中不支持来宾邀请者角色。
 
 - 通过 Azure Active Directory (Azure AD) B2B 协作将来宾添加到贵组织。 利用 AD B2B 协作，全局管理员可以通过将不超过 2,000 行的逗号分隔值 (CSV) 文件上载到 B2B 协作门户来邀请和授权一组外部用户。 有关更多详细信息，请参阅 [Azure Active Directory B2B 协作](https://go.microsoft.com/fwlink/p/?linkid=826383)。
 
@@ -47,9 +46,6 @@ ms.locfileid: "37516117"
 
 你可以在 Azure AD 或 Office 365 安全性&amp;和合规性中心中跟踪来宾添加情况。 在 Microsoft Teams 中添加来宾会进行审核并记录为 Azure AD 组管理活动“已向组添加成员”。 有关更多详细信息，请参阅[审核和报告 B2B 协作用户](https://go.microsoft.com/fwlink/p/?linkid=858884)和[在 Office 365 安全性&amp;和合规性中心中搜索审核日志](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)。
 
-## <a name="guest-access-vs-external-access-federation"></a>来宾访问与外部访问（联合身份验证）
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>更多信息
 

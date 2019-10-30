@@ -2,7 +2,7 @@
 title: 将 StaffHub 团队迁移到 Microsoft Teams 中的排班
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569678"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775081"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -109,17 +109,29 @@ ms.locfileid: "37569678"
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>获取 StaffHub 团队中所有非活动帐户的列表
 
-运行以下操作以获取 StaffHub 团队上所有非活动帐户的列表，并将列表导出到 CSV 文件。
+运行以下命令系列以获取 StaffHub 团队中所有非活动帐户的列表，并将列表导出到 CSV 文件。 每个命令都应单独运行。
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>链接帐户
@@ -255,6 +267,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
