@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570343"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886435"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 
@@ -48,6 +48,17 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
 |医疗保健-医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 宣告\* <br> 符合\* <br> Custodial <br> 人力资源 <br> 药房 |
+| | |  |
+
+\*自动收藏 
+
+## <a name="care-coordination-template"></a>护理协调模板
+
+"护理协调" 模板旨在促进病人护理团队中的通信，其中包括 interdisciplinary 和学科团队等一些示例。 我们的专属患者应用程序预装在此模板中，并且位于常规频道中。 使用患者应用程序，您可以策展患者及其关联的价值和 vitals 的列表，以便对舍入和患者管理方案有用。 
+
+|基本模板类型 |baseTemplateId |基线模板通道|
+|:--- |:---|:---|
+|医疗保健-护理协调 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 处理后审阅\* <br> 级\* <br> 培训班\* |
 | | |  |
 
 \*自动收藏 

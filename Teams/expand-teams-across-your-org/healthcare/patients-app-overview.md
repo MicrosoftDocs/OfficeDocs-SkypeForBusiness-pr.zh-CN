@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749554"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885496"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
@@ -43,6 +43,30 @@ ms.locfileid: "37749554"
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>常见问题（FAQ）
+
+**患者应用数据存储在何处？**
+
+最终用户输入患者应用的所有数据，包括列/字段架构、输入列表和列表项（即病人）的实际数据均存储在安全且合规的 Exchange Online 基础结构中。 所有数据都存储在与团队相关联的组邮箱中。 此体系结构使患者应用能够轻松实现数据派驻、政府云支持（未来）和其他合规性/信息保护功能（如电子数据展示支持）。 患者应用在团队范围内运行。 你将需要为每个团队安装应用的实例。
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**从哪里可以获取患者应用？**
+
+如果患者应用由其管理员启用，则任何最终用户都可以转到 "团队" 应用商店，并将患者应用添加到他们所属的团队。 有关详细信息，请参阅[管理 Microsoft 团队中的应用设置策略](../../teams-app-setup-policies.md)。
+
+**我是否可以在团队中拥有患者应用的多个实例，因为这是我的拖动/单元的运营方式？**
+
+目前，您只能为给定团队安装一个患者应用实例，并且仅在 "常规" 频道中安装。 但是，在应用内，可以创建多个列表来处理多通道或隔离/隔离方案。 默认情况下，团队的所有成员都将有权访问常规频道中的 "患者" 选项卡。 
+
+**是否可以导出患者应用中的所有数据？**
+目前尚不能，但此功能即将推出。 
+
+**由于此应用适用于 PHI，因此是否有审核来防止未经授权的访问或遵守管理法规？**
+
+是的，有。 Microsoft 团队用户在患者应用上执行的每个单个 UI 操作都会在安全和合规中心进行审核和使用。 [下面](patients-audit.md)的文章中介绍了详细信息
+
 
 ## <a name="related-topics"></a>相关主题
 

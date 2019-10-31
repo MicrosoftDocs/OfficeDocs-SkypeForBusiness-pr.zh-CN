@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef0a06ceb37cdfff3e9e4952f10397e7ee9b698
-ms.sourcegitcommit: 876b576db1fee38c09ab3a0092116212e498eda7
+ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "37733089"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885536"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
 
@@ -227,6 +227,8 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - 如果你拥有本地 Skype for Business 帐户的任何用户，则不应在租户级别分配 TeamsOnly 模式，除非你将其他模式显式分配给具有本地 Skype for Business 帐户的所有用户。 
 
 - 你必须确保你的用户与正确的 Skype for Business 属性正确同步到 Azure AD。 这些属性都是带有 "msRTCSIP-" 的所有前缀。 如果用户未正确地与 Azure AD 同步，团队中的管理工具将无法管理这些用户。 有关详细信息，请参阅[配置团队和 Skype for business 的 AZURE AD 连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
+
+- 若要在混合组织中创建新的 TeamsOnly 或 Skype for business Online 用户，*必须先在本地 Skype for Business Server 中启用用户*，然后使用 move-csuser 将用户从本地移动到云。  首先在本地创建用户可确保其他任何其他本地 Skype for business 用户能够路由到新创建的用户。 在所有用户都已联机移动后，不再需要先在本地启用用户。
 
 - 当用户从本地移动到云时，按该用户组织的会议将迁移到 Skype for business Online 或团队中，具体取决于是否指定了-MoveToTeams 开关。
 

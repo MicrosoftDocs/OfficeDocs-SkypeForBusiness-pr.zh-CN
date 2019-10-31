@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: 1caa1606f330b92507342140efbfc144def8c547
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d9e18f662f96d4021cf4878ba5130decb40bb9e4
+ms.sourcegitcommit: b6e17a6690011917c8fc14e98a49af654441a204
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571941"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37889851"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -50,7 +50,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 每个单独策略都被授予策略程序包的名称，以便你可以轻松地识别链接到策略包的策略。
 例如，将 Education_Teacher 策略包分配给学校中的教师时，将为程序包中的每个策略创建一个名为 Education_Teacher 的策略。
 
-![Education_Teacher 策略包的屏幕截图](media/policy-packages-education_teacher.png)
+![Education_Teacher 策略程序包的屏幕截图](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>如何使用策略程序包
 
