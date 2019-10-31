@@ -83,7 +83,8 @@ ms.locfileid: "37563884"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|当你尝试从 Internet Explorer 或 Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置或从控制面板进行以下更改：<br/><ol><li>在“**Internet 选项**”&gt;“**隐私**”&gt;“**高级**”下，接受第一方和第三方 Cookie，并选中“**总是允许会话 cookie**”复选框。</li><li>单击“**Internet 选项**”&gt;“**安全**”&gt;“**受信任的站点**”&gt;“**站点**”，然后添加下列所有站点：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
+|当你尝试从 Internet Explorer 或 Microsoft Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。
+   <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置或从控制面板进行以下更改：<br/><ol><li>在“**Internet 选项**”&gt;“**隐私**”&gt;“**高级**”下，接受第一方和第三方 Cookie，并选中“**总是允许会话 cookie**”复选框。</li><li>单击“**Internet 选项**”&gt;“**安全**”&gt;“**受信任的站点**”&gt;“**站点**”，然后添加下列所有站点：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -286,7 +287,8 @@ ms.locfileid: "37563884"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。使用 Web 客户端时，可以加载这些选项卡。可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。 <br/> |2018 年 4 月 5 日  <br/>|
+|启用了条件访问后，选项卡无法正常使用 <br/> |对租户启用了条件访问后，在桌面客户端上无法加载一些选项卡。使用 Web 客户端时，可以加载这些选项卡。可能受影响的一些选项卡为：PowerBI、Forms、VSTS、PowerApps 和 SharePoint List。  <br/> |要查看受影响的选项卡，必须在 Microsoft Edge、IE 或安装了 Windows 10 Accounts 扩展程序的 Chrome 中使用 Teams。一些选项卡仍依赖于 Web 身份验证，而在启用了 CA 时无法在桌面客户端中进行 Web 身份验证。我们正在与合作伙伴合作以启用这些方案；到目前为止，我们已启用 Planner、OneNote 和 Stream。
+ <br/> |2018 年 4 月 5 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
