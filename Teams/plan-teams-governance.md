@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573247"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913036"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -130,6 +130,10 @@ ms.locfileid: "37573247"
 
 > [!Important]
 > 如果您的组织具有合规性和安全要求，请查看本文中提供的有关[Microsoft 团队安全性和合规性概述](security-compliance-overview.md)中的本主题的深入内容。
+
+## <a name="related-topics"></a>相关主题
+
+[团队的管理快速入门](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management
