@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 61e5bdf74d5874a5657b33aa6f469b0cf67beb58
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573092"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925463"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -73,7 +73,7 @@ ms.locfileid: "37573092"
 
 1. 或获取收费或免费服务号码。 该号码不能分配给任何其他语音服务或资源帐户。
 
-   将电话号码分配给资源帐户之前，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，这些电话号码将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+   将电话号码分配给资源帐户之前，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，这些电话号码将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
    如果您要为资源帐户分配电话号码，您现在可以使用免费的电话系统虚拟用户许可证。 这将为组织级别的电话号码提供电话系统功能，并允许你创建自动助理和呼叫队列功能。
 
@@ -138,7 +138,7 @@ ms.locfileid: "37573092"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>更改现有资源帐户以使用虚拟用户许可证
 
-如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费虚拟用户许可证，然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到不同的订阅](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费虚拟用户许可证，然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到不同的订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为虚拟用户许可证创建新的资源帐户，并删除断开的资源帐户。 

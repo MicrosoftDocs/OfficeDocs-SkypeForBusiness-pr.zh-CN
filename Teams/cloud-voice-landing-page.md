@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 用于在团队中部署云语音的登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515828"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925573"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "37515828"
 - [具有通话套餐的电话系统](calling-plan-landing-page.md)
 - [电话系统直接路由](direct-routing-landing-page.md)
 - [云语音部署](cloud-voice-deployment.md)
-- [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 观看以下会话以了解有关电话系统的详细信息： [Microsoft 团队中的电话系统简介](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ Microsoft 提供两种类型的电话号码：可以分配给您组织中的用�
 | :------------|:-------|
 | 哪些用户位置需要来自 Microsoft 的新电话号码？ | 有关获取电话号码的信息，请参阅[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)和[获取用户的电话号码](getting-phone-numbers-for-your-users.md)。 
 | 我需要哪种类型的电话号码（订阅者或服务）？ | 为帮助您选择所需的电话号码类型，请参阅[用于通话计划的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)。
-如何将现有电话号码移植到 Office 365？|有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+如何将现有电话号码移植到团队？|有关详细信息，请参阅[将电话号码转移给 Microsoft 团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 |||
 
 ### <a name="dial-plans"></a>拨号计划
@@ -134,7 +134,7 @@ Office 365 的电话系统功能中的拨号计划是一组规范化规则，可
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我的组织是否需要呼叫队列？ | 有关详细信息，请参阅[创建云呼叫队列](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)和[设置电话系统](setting-up-your-phone-system.md)。 |
+| 我的组织是否需要呼叫队列？ | 有关详细信息，请参阅[创建云呼叫队列](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)和[设置电话系统](setting-up-your-phone-system.md)。 |
 
 ### <a name="auto-attendants"></a>自动助理
 
@@ -149,8 +149,8 @@ Office 365 的电话系统功能中的拨号计划是一组规范化规则，可
 有关支持的设备的详细信息，请参阅以下内容：
 
 - [在 Microsoft Teams 中管理设备](device-management.md)
-- [IP 电话](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB 音频和视频设备](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [适用于设备的智能通信](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [IP 电话](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB 音频和视频设备](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [适用于设备的智能通信](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

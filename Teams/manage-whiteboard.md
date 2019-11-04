@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571908"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925173"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>在 Microsoft 团队中管理白板
 ==========================================
@@ -31,21 +31,7 @@ Microsoft 白板是一个可自由形成的数字画布，其中的人员、内�
 
 用户可以共享白板，使其可供团队会议中的所有参与者使用。 在 Windows 10、iOS 和 web app 上的所有白板应用程序中，都可以同时使用相同的白板。
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>打开或关闭白板应用程序
-
-若要打开或关闭白板 web 应用，请执行下列步骤：
-
-1. 转到 Microsoft 365 管理中心。
-
-2. 转至“**设置**” > “**服务和外接程序**”。
-
-3. 在 "**服务 & 加载项**" 页面上，向下滚动，然后选择 "**白板**"。
-
-4. 若要打开白板应用，请在 "**白板**" 窗格上，将**整个组织的 "打开" 或 "关闭白板"** 切换为 **"开**"。
-
-    若**要关闭**白板应用，请在 "**白板**" 窗格中切换为**整个组织打开或关闭白板**。
-
-5. 单击“**保存**”。
+若要打开或关闭白板应用，请参阅[为你的组织启用 Microsoft 白板](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)。 请记住，此设置将为整个组织启用或禁用白板，而不仅仅是针对团队的。
 
 ## <a name="whiteboard-on-surface-hub"></a>Surface Hub 上的白板
 

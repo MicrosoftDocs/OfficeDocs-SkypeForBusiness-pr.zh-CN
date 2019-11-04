@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 9b21f77c4b4558e6f08163173f587ef4956ed8d0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328296"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924953"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
@@ -56,7 +56,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 1. 端口或获取收费或免费服务号码。 该号码不能分配给任何其他语音服务或资源帐户。
 
-   在向资源帐户分配电话号码之前，需要获取或移植现有收费或免费服务号码。 获取收费或免费服务电话号码后，它们将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，并且列出的**号码类型**将列为 "**服务-免费**"。 若要获取服务号码，请参阅[获取服务电话号码](/MicrosoftTeams/getting-service-phone-numbers); 如果要转移现有服务号码，请参阅[将电话号码转移到 Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365)。
+   在向资源帐户分配电话号码之前，需要获取或移植现有收费或免费服务号码。 获取收费或免费服务电话号码后，它们将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，并且列出的**号码类型**将列为 "**服务-免费**"。 若要获取服务号码，请参阅[获取服务电话号码](/MicrosoftTeams/getting-service-phone-numbers); 如果要转移现有服务号码，请参阅[将电话号码转移给团队](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
    如果你在美国之外，则无法使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)"，以了解如何从美国以外的地区执行此操作。
 
@@ -175,7 +175,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     - 营业时间
     - 非工作时间
-    - Language
+    - 语言
     - 假日日程安排
 
 3. 按照前面所述，创建新的本地终结点。

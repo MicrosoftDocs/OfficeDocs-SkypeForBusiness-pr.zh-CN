@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885526"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931800"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -27,7 +27,7 @@ ms.locfileid: "37885526"
 > [!NOTE]
 > - 不能跨租户创建信息障碍组。
 > - 版本1不支持使用机器人添加用户。
-> - 信息障碍版本1不包括对 SharePoint 和 OneDrive for business 的支持。 我们正在努力在 SharePoint 中启用该功能，并将在其可用后进行通信。
+> - 新增：连接到团队的 SharePoint 网站的信息屏障支持现在处于私人预览版中。 请点击[此处](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)参与私人预览版。 .
 
 信息屏障策略还可防止查找和发现。 这意味着，如果你尝试与不应与之通信的人员进行通信，你将在人员选取器中找不到该用户。
 
@@ -76,45 +76,37 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 - **群组聊天**-如果不再允许从一个用户到组的通信（例如，如果用户更改了作业），则用户和其他违反该策略的用户可能会从群组聊天中删除，而与组的进一步通信将不会被有. 用户仍然可以查看旧对话（该对话将为只读），但无法查看或参与与组的任何新对话。 如果新的或已更改的策略阻止通信被应用到多个用户，则受该策略影响的用户可能会从群组聊天中被删除。 他们仍然可以看到旧的对话。 
 - **团队**-已从组中删除的任何用户都将从团队中删除，并且将无法查看或参与现有对话或新对话。
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>如果其他用户被阻止，用户会遇到什么情况？
 
 当前，如果信息屏障策略阻止其他用户，则用户会遇到以下情况：
 
-- "**人员" 选项卡**-用户可能会在 "**人员**" 选项卡上看到某些被阻止的用户。用户可以选择被阻止的用户。
-- **"活动" 选项卡**-如果用户访问被阻止用户的 "**活动**" 选项卡，则不会显示任何帖子。 （"**活动**" 选项卡仅显示频道发布，在两个用户之间不存在任何公共频道。）
-- **组织结构图**-如果用户访问显示被阻止的用户的组织结构图，用户将在图表上看到被阻止的用户，并且可以单击图表上的 "操作"，但操作（如 "调用"）将不会执行。
-- **人员卡片**-如果用户参与对话，后来被阻止，其他用户仍然可以看到被阻止用户看到的人员卡。 卡片上列出的所有操作（如 "通话和聊天"）都将可用，但操作将不会继续。
-- **建议的联系人**-在 "建议的联系人" 列表（为新用户显示的初始联系人列表）中，用户可以看到所有建议的联系人（包括被阻止的用户）。 但是，如果用户单击被阻止的用户的名称以打开 "聊天" 窗格，则邮件将被阻止。
-- **聊天联系人**-用户可以在聊天联系人列表中看到被阻止的用户。
-- **呼叫联系人**-用户可以在呼叫联系人列表中看到被阻止的用户，并且将显示呼叫和消息等操作，但当用户尝试呼叫或向被阻止的用户发送消息时，呼叫或消息将不会发送。
-- **Skype 到团队迁移**-在 Skype for Business 到团队迁移期间，所有用户（甚至是信息屏障策略阻止的用户）都将迁移到团队，然后按照上述说明进行处理。
-
-即将推出：如果信息障碍策略阻止另一个用户，则用户将会遇到以下情况：
-
 - "**人员" 选项卡**-用户在 "**人员**" 选项卡上看不到被阻止的用户。
+- **人员选取器**-阻止的用户将在人员选取器中不可见。
 - **"活动" 选项卡**-如果用户访问被阻止用户的 "**活动**" 选项卡，则不会显示任何帖子。 （"**活动**" 选项卡仅显示频道发布，在两个用户之间不存在任何公共频道。）
 - **组织结构图**-如果用户访问的组织结构图中出现被阻止的用户，则被阻止的用户将不会显示在组织结构图中，并且将显示一条错误消息。
 - **人员卡片**-如果用户参与对话，随后被阻止，则其他用户将在其悬停在阻止用户的名称上时看到错误消息，而不是人员卡。 卡片上列出的操作（如通话和聊天）将不可用。
 - **建议的联系人**-阻止的用户不会显示在 "建议的联系人" 列表中（为新用户显示的初始联系人列表）。
-- **聊天联系人**-用户在聊天联系人列表中看不到被阻止的用户。
+- **聊天联系人**-用户可以在聊天联系人列表中看到被阻止的用户，但将标识被阻止的用户，并且用户唯一可以执行的操作是将其删除。 用户也可以单击它们以查看其过去的对话。
 - **呼叫联系人**-用户可以在通话联系人列表中看到被阻止的用户，但将标识被阻止的用户，并且用户唯一可以执行的操作是将其删除。
 - **Skype 到团队迁移**-在 Skype for Business 到团队迁移期间，所有用户（甚至是信息屏障策略阻止的用户）都将迁移到团队，然后按照上述说明进行处理。
 
+
+
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
-信息障碍现在即将推出，包括在套餐中，例如：
+创建团队时，将预配 SharePoint 网站并将其与团队相关联以实现文件体验。 对此 SharePoint 网站和文件的访问将采用组织的 IB 策略，即，允许访问其具有每个 IB 策略的 IB 段匹配的用户。 即使在文件共享时，IB 策略也会生效。
 
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 高级合规性
-- Microsoft 365 E5 合规性
+例如：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于 "投资银行" 段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。 当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
 
-有关详细信息（包括计划和定价），请参阅[合规性解决方案](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1)。
+有关详细信息（包括计划和定价），请参阅[许可指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)。
+
 
 ## <a name="more-information"></a>更多信息
 
 - 若要了解有关信息障碍的详细信息，请参阅[信息障碍](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
 
-- 若要设置信息障碍策略，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- 若要设置信息障碍策略，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 - 若要编辑或删除信息障碍策略，请参阅[编辑（或删除）信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+

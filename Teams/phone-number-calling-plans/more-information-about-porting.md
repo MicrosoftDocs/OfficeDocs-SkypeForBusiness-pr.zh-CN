@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获得将电话号码移植到 Microsoft 团队所需的指南。
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886956"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925193"
 ---
 # <a name="more-information-about-porting"></a>有关移植的详细信息
 
 在这里，你可以找到有关将电话号码移植到 Microsoft 团队的详细信息。
 
-有关完整的分步说明，请参阅将电话号码转移给团队。
+有关完整的分步说明，请参阅[将电话号码转移给团队](transfer-phone-numbers-to-teams.md)。
 
 如果需要帮助，或者如果需要获取更多电话号码，请联系[PSTN 服务台帮助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
@@ -106,11 +106,11 @@ ms.locfileid: "37886956"
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何查看我的 "我的端口" 订单的状态？
 
-查看您的端口订单的状态是什么？
+查看[您的端口订单的状态是什么？](port-order-status.md)
 
 ## <a name="related-topics"></a>相关主题
 
-- 什么是端口订单？
+- [什么是端口订单？](port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37517039"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925593"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户通过电话拨入会议。 音频会议最多允许250个电话与会者。
@@ -86,7 +86,7 @@ Office 365 中的音频会议允许用户通过电话拨入会议。 音频会�
 
 - **使用 Skype for Business 管理中心。** 对于某些国家/地区，您可以使用 Skype for Business 管理中心获取您的会议桥的号码。 请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
     
-- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助您执行此操作。  
+- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以帮助你执行此操作。  
   
 - **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用 Skype for Business 管理中心获取新电话号码，或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

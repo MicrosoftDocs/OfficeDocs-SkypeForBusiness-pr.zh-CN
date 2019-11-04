@@ -17,19 +17,19 @@ description: 你的团队或 IT 管理员可以为其他域（联盟）配置外
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 071bb1523a0840a798edfe030a1dd52362695df2
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753527"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925043"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>管理 Microsoft 团队中的外部访问
 ======================================================
 
 外部访问是来自整个域的外部团队用户在团队中查找、呼叫、聊天和设置会议的一种方式。 您也可以使用外部访问与仍在使用 Skype for Business （联机和本地）和 Skype （即将在2020中推出）的外部用户进行通信。
 
-如果希望外部用户有权访问团队和频道，来宾访问可能是更好的途径。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
+如果希望外部用户拥有访问团队和频道的权限，则选择使用来宾访问可能是更好的方法。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
 在以下情况中使用外部访问：
   
@@ -132,7 +132,6 @@ ms.locfileid: "37753527"
 |让**skype For Business online 用户**与其他 Office 365 组织中的**Skype for business online 用户**通信。    | 如果你的用户处于以下升级模式之一，则你的 Skype for Business Online 用户可以与其他组织中的 Skype for business Online 用户通信： SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings;其他组织的 Skype for Business Online 用户处于以下升级模式之一： SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。<br><br>打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。 然后让其他团队组织中的管理员执行相同操作。|
 |让**skype For Business Online 用户**与本地组织中的**skype for business 用户**进行通信。     |如果你的用户处于以下升级模式之一，则你的 Skype for Business Online 用户可以与本地组织中的 Skype for business 用户进行通信： SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings;其他组织的 Skype for Business Online 用户处于以下升级模式之一： SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。<br><br>打开**用户可与 Skype For business 和团队用户进行通信**在外部访问中设置。 然后让其他团队组织中的管理员执行相同操作。|
 |让**skype For Business Online 用户**与**skype 用户**通信（在您的组织内部或外部）。   |打开**skype For business 用户可以在外部访问中与 skype 用户进行通信**。|
-|让你的组织中的**团队用户**与团队中的用户进行沟通，从你的组织外部**免费的用户**。 | 若要了解团队的免费版本如何与外部访问协同工作，请参阅[Microsoft 团队和 Microsoft 团队之间的差异免费](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c)。|
 
 > [!IMPORTANT]
 > 您不必将任何**Skype 域**添加为 "允许的域"，以便让团队或 Skype For business Online 用户能够与组织内部或外部的 skype 用户进行通信。 所有**Skype 域**均为白名单，这意味着所有这些域均被视为允许。

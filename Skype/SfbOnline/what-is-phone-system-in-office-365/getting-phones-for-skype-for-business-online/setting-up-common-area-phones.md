@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新它、分配许可证以及配置通用区域电话的设置。
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792452"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924893"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -36,10 +36,10 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - 购买公共区域电话许可证和通话套餐。
 - 搜索并购买批准的手机（[在此处](deploying-skype-for-business-online-phones.md)查看列表）。
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Polycom VVX 电话**: 转到 "**设置** > **状态** > **平台** > **应用程序** > **主**"。
-  - **Yealink 电话**: 转到主电话屏幕上的 "**状态**"。
-  - **AudioCodes 电话**: 从 "开始" 屏幕转到**菜单** > **设备状态** > **固件版本**。
-  - **Lync Phone Edition (LPE) 手机**: 转到 "开始" 屏幕中的**菜单** > "**系统信息**"。
+  - **Polycom VVX 电话**：转到 "**设置** > **状态** > **平台** > **应用程序** > **主**"。
+  - **Yealink 电话**：转到主电话屏幕上的 "**状态**"。
+  - **AudioCodes 电话**：从 "开始" 屏幕转到**菜单** > **设备状态** > **固件版本**。
+  - **Lync Phone Edition （LPE）手机**：转到 "开始" 屏幕中的**菜单** > "**系统信息**"。
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -49,7 +49,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 你需要按照以下步骤操作：
 
 ### <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
-1. 在管理中心, 转到 "**帐单** > **购买服务**", 然后添加**其他计划**。
+1. 在管理中心，转到 "**帐单** > **购买服务**"，然后添加**其他计划**。
 
     ![CAP-license.png](../../images/cap-license.png)
 2. 在** 结账**页面上点击 >  **  公共区域电话**** ** 立即购买，点击** 立即购买** 。
@@ -61,7 +61,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 有关许可证的更多信息，请参阅 [Skype for Business 和 Microsoft Teams 外接程序许可](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
-1. 在管理中心, 转到 "**用户** > **活动用户** > "**添加用户**。
+1. 在管理中心，转到 "**用户** > **活动用户** > "**添加用户**。
 2. 输入**用户名**，如“Main”为第一个词，“Reception”为第二个词。
 3. 如果没有自动生成“Main Reception”用户名，则输入**显示名称**。
 4. 输入一个**用户名**，如“MainReception”或“Mainlobby”。
@@ -97,7 +97,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 有关更多内容，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-如果你正在漫游，也可以把另一家电信公司的电话号码“*导出*”或转移到 Office 365。 请参阅[将电话号码转移到 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。
+如果你正在漫游，也可以把另一家电信公司的电话号码“*导出*”或转移到 Office 365。 请参阅[将电话号码转移给团队](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
 ### <a name="step-4---setting-up-your-phone"></a>第 4 步 - 设置电话
 
@@ -137,7 +137,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD, 并且你使用的是第三方 IDP 或 ADFS, CAP 设置将失败。 在这种情况下, 你只需要使用 Office 365/Azure Active Directory 帐户 (例如, 具有**onmicrosoft.com**域的帐户) 才能使用 CAP 预配。
+> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD，并且你使用的是第三方 IDP 或 ADFS，CAP 设置将失败。 在这种情况下，你只需要使用 Office 365/Azure Active Directory 帐户（例如，具有**onmicrosoft.com**域的帐户）才能使用 CAP 预配。
 
 
 ### <a name="related-topics"></a>相关主题

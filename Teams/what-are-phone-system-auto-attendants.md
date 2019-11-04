@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: 88a9282bc6f16d0fae5f2753b9f6612728eaf9dd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568538"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924883"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -230,7 +230,7 @@ Key 0 和 voice 命令 "Operator" 默认情况下，将呼叫定向到指定的�
 
 你可以将 Microsoft 服务号码、直接路由号码或混合号码分配给你的自动助理的链接资源帐户（或者，如果需要多个电话号码，还可以分配给多个资源帐户）。 有关其他详细信息，请参阅[规划直接路由](direct-routing-plan.md)。
 
-要分配服务号码，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，它们将显示在**Skype for business 管理中心** > 的**语音** > **电话号码**中。 **号码类型**列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码，请参阅将[电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+要分配服务号码，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，它们将显示在**Skype for business 管理中心** > 的**语音** > **电话号码**中。 **号码类型**列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
   
 > [!NOTE]
 > 如果您在美国以外，则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何操作。

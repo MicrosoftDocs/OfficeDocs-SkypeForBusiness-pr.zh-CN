@@ -19,10 +19,10 @@ ms.custom:
 - LIL_Placement
 description: 了解加载项许可证、每个许可证将获得哪些功能、如何为你的产品购买它们以及如何将现有运营商与他们配合使用。 您可以获取有关 Office 365、通讯信用和通话计划的定价和计划详细信息。
 ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37571198"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可

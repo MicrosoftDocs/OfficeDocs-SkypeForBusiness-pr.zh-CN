@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '了解紧急地点、地点和紧急呼叫路由的定义，以及如何规划和为用户分配。 '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901901"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925383"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>什么是紧急位置、地点和呼叫路由？
 
@@ -59,7 +59,7 @@ ms.locfileid: "37901901"
     > [!IMPORTANT]
     > 验证街道或市政地址涉及确保其合法且格式正确。 部分正确的紧急地址（如城市名称）可能仍然通过验证。 验证过程使用给定地址的所有部分来确定它是否包含足够的信息，以将呼叫路由到相应的紧急派遣中心。 如果是这样，它将按验证返回，然后可以分配给电话号码。
   
-3. **获取电话号码**。 下一步是为你的用户获取电话号码。 你可以通过从 Office 365 获取新的电话号码或通过将现有电话号码"转网"或转移到 Office 365 来获取号码。 若要查看完整步骤，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+3. **获取电话号码**。 下一步是为你的用户获取电话号码。 你可以通过从 Office 365 获取新的电话号码或通过将现有电话号码"转网"或转移到 Office 365 来获取号码。 若要查看完整步骤，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
     
 4. **分配电话号码**。 最后一步是使用户能够拨打和接听电话。 要执行此操作，你必须为每个用户分配电话号码。 请参阅为[用户分配、更改或删除电话](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)号码以分配电话号码。
 

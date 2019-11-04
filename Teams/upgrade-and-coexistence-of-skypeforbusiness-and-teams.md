@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "36437486"
 ---
 ![升级旅行图，强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段，重点关注项目定义阶段")
@@ -69,7 +69,7 @@ ms.locfileid: "36437486"
 |具有团队协作的 Skype for Business |使用团队尚未满足的要求进行 Skype for business 部署（例如，高级合规性）<br><br>长期需要和/或 Skype for business 承诺|快速开始团队开始，首先关注组协作<br><br>希望立即在 Skype for Business 上保留所有统一通信工作负荷<br><br>建议用作组织开始从本地（或混合） Skype for business 开始进行旅行的起点|团队和 Skype for business 之间没有重叠的功能<br><br>即时消息聊天和会议安排将驻留在 Skype for Business 中（绑定到通话）<br><br>仅与团队中的用户进行互操作|
 |具有团队协作和会议的 Skype for business |通过大量使用企业语音和要求的 Skype for business 部署，团队通话尚不满足这些要求<br><br>长期需要和/或 Skype for business 承诺<br><br>可能使用的是第三方会议服务|快速开始团队发展，超越组协作<br><br>改善用户的会议体验<br><br>建议用于需要在准备好进行完全升级（通常是由于企业内部部署的企业语音）之前利用团队会议的本地组织。 |没有重叠的功能<br><br>团队的出色会议。 功能路线图、UX 和跨平台、质量和可靠性<br><br>在 Skype for Business 和团队之间 "更好地协作" 体验<br><br>团队中的互操作性用户。|即时消息和聊天将驻留在 Skype for Business 中（绑定到通话）|
 |仅限团队 |团队仅为所有用户最终的目标。<br><br>某些用户需要保留在 Skype for Business 上<br><br>您正在将 skype for business Online 用户升级到团队，同时在 Skype for business 服务器上保持 Skype for business 本地用户<br><br>你可能已经在孤岛模式下部署了用户，并且已准备好注销用户组的 Skype for Business |减少 Skype for Business （本地服务器操作、外包合同等）的可变成本<br><br>尽快转到完整的团队体验，至少对于某些用户|通过仅向 Skype for Business 中的用户提供一个客户端来限制用户混乱，使用团队协作与 skype for business 进行协作，使用团队协作和会议与 Skype for business 进行协作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话，以及用于桌面共享和多方聊天和通话的互操作性升级方案|
-|仅限 Skype for business |某些用户需要保留在 Skype for Business 上<br><br>|通过仅提供一个客户端来限制用户混乱<br><br>用户仍可参与受邀参加的团队会议|继续满足目前只能由 Skype for business 满足的业务要求<br><br>仅与团队中的用户进行互操作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话，以及用于桌面共享和多方聊天和通话的互操作性升级方案|
+|仅 Skype for Business |某些用户需要保留在 Skype for Business 上<br><br>|通过仅提供一个客户端来限制用户混乱<br><br>用户仍可参与受邀参加的团队会议|继续满足目前只能由 Skype for business 满足的业务要求<br><br>仅与团队中的用户进行互操作|互操作性仅支持 Skype for Business 和团队之间的基本聊天和通话，以及用于桌面共享和多方聊天和通话的互操作性升级方案|
 
 > [!TIP]
 > 若要帮助在 Skype for Business 仍在使用时根据希望在团队中启用的功能确定推荐的升级模式，请利用[skype To 团队升级向导](https://aka.ms/SkypeToTeamsWizard)。

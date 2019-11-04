@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf965386ce471458ed47edb0083d2b6f18b4ba8a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573236"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913037"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -205,3 +205,6 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>定义团队到达其期限终点时的情况。</li><li>决定是否使团队的内容保留可用，以及保留多长时间。</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录最佳做法以及经验与教训。</li><li>存档数据（如果需要）。</li></ul>|
 
+## <a name="related-topics"></a>相关主题
+
+[Teams 的管控快速入门](teams-adoption-governance-quick-start.md)

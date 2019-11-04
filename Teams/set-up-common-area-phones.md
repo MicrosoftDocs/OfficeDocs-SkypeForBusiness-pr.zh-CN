@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571589"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925303"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -114,6 +114,6 @@ ms.locfileid: "37571589"
 
 有关详细信息，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-您还可以通过其他运营商和 "端口" 获取您的电话号码，或将其转移到 Office 365。 请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+您还可以通过其他运营商和 "端口" 获取您的电话号码，或将其转移到 Office 365。 请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 

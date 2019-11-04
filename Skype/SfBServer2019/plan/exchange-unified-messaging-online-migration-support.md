@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
 ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37616085"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持

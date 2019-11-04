@@ -19,30 +19,30 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: 805010aa16ca8159b5e274847ca7ca2b296f214d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160454"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924963"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成到云的迁移
 
-将所有用户从本地迁移到云后, 您可以停止本地 Skype for Business 部署。 除删除任何硬件之外, 关键步骤是在逻辑上将该本地部署与 Office 365 进行逻辑分离, 方法是禁用混合。 禁用混合的步骤包括三个步骤:
+将所有用户从本地迁移到云后，您可以停止本地 Skype for Business 部署。 除删除任何硬件之外，关键步骤是在逻辑上将该本地部署与 Office 365 进行逻辑分离，方法是禁用混合。 禁用混合的步骤包括三个步骤：
 
 1. 更新 DNS 记录以指向 Office 365。
 2. 在 Office 365 租户中禁用拆分域。
 3. 禁用本地中与 Office 365 通信的功能。
 
 
-这些步骤应作为一个单元一起完成。 下面提供了详细信息。
+这些步骤应作为一个单元一起完成。 下面提供了详细信息。 此外，在断开本地部署后，用于管理迁移用户的电话号码的准则。
 
 > [!Note] 
-> 在极少数情况下, 将 DNS 从指向 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作, 直到其他组织更新其联合配置:<ul><li>
-任何使用旧直接联盟模型 (也称为 "允许的伙伴服务器") 的联合组织都需要更新其组织的允许的域条目, 以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录, 因此一旦您的组织移动到云, 这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> 的托管提供程序的任何联合组织。<span>com 将需要更新其配置才能启用。 只有在联合组织纯粹在本地并且从未与任何混合或联机租户联合的情况下, 这种情况才可行。 在这种情况下, 与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟或与任何在线或混合组织联合, 我们建议您在准备完成到云的迁移时向其发送有关此的通信。
+> 在极少数情况下，将 DNS 从指向 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作，直到其他组织更新其联合配置：<ul><li>
+任何使用旧直接联盟模型（也称为 "允许的伙伴服务器"）的联合组织都需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> 的托管提供程序的任何联合组织。<span>com 将需要更新其配置才能启用。 只有在联合组织纯粹在本地并且从未与任何混合或联机租户联合的情况下，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟或与任何在线或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关此的通信。
 
 1.  *更新 DNS 以指向 Office 365。*
-组织的内部部署组织的外部 DNS 需要更新, 以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
+组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
 
     |记录类型|名称|TTL|值|
     |---|---|---|---|
@@ -59,9 +59,16 @@ ms.locfileid: "36160454"
     `Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false`
  
 3.  *禁用本地中与 Office 365 通信的功能。*  
-需要从内部部署 PowerShell 窗口执行以下命令。  如果您之前已导入 Skype for business Online 会话, 请启动新的 Skype for Business PowerShell 会话。
+需要从内部部署 PowerShell 窗口执行以下命令。  如果您之前已导入 Skype for business Online 会话，请启动新的 Skype for Business PowerShell 会话。
 
     `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>管理从本地迁移的用户的电话号码
+
+管理员可以管理以前从本地 Skype for Business 服务器移动到云的用户，即使在本地部署已停止后也是如此。 有两种不同的可能性：
+1.  如果用户在移动前有 lineURI 内部部署（大概是因为用户已启用企业语音），如果要更改 lineURI，则必须在本地 AD 中执行此操作，并允许值流向上到 AAD。 这不需要本地 Skype for Business Server。 相反，可以使用 Active Directory 用户和计算机 MMC 管理单元或通过 PowerShell 在内部部署 Active Directory 中直接编辑 msRTCSIP 行。 如果使用 MMC 管理单元，请打开用户的 "属性" 页，然后单击 "属性编辑器" 选项卡并找到 "msRTCSIP" 行。
+
+2.  如果用户在移动之前没有 lineURI on 本地的值，则可以使用 Skype for Business Online Powershell 模块中的 get-csuser cmdlet 中的-onpremLineUri 参数修改 LineURI。
 
 ## <a name="see-also"></a>另请参阅
 

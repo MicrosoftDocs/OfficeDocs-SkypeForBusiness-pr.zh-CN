@@ -14,10 +14,10 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 了解如何为组织中使用 Windows 之外的操作系统的设备启用 QoS。
 ms.openlocfilehash: 956fff0e7fc69b1950e35261c02f9f44977510ce
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37341938"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>在不基于 Windows 的设备的 Skype for Business 服务器中启用 QoS

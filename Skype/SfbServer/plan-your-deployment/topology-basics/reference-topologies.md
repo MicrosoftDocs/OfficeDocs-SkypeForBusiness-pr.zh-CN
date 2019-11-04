@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Skype for business 服务器的参考拓扑，包括为大型、中型和小型组织制定的图表和决策。
 ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37028279"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype for Business 服务器的参考拓扑

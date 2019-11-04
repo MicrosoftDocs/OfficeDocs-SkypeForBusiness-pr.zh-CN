@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516013"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925073"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -42,7 +42,7 @@ ms.locfileid: "37516013"
 
 作为环境发现的一部分，请包括与最终用户计算相关的所有事宜，如电脑和移动设备的准备情况评估，以支持音频会议和手机系统，支持使用呼叫计划的业务使用案例，从硬件要求到软件要求。
 
-环境发现还可以揭示是否需要将[电话号码转移到 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。
+环境发现还可以揭示是否需要将[电话号码转移到 Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 了解此操作将帮助你的组织相应调整其项目计划，并为数字移植准备必要的信息。 你可以使用[Microsoft 团队推出的环境发现](environmental-discovery-for-microsoft-teams-rollout.md)来执行环境发现。
 
 <table>
@@ -74,7 +74,7 @@ ms.locfileid: "37516013"
 
 团队使用音频和视频技术（编解码器），它可以在大多数网络条件下适应，从而性能更好。 为确保最佳性能，应为团队准备网络。
 
-描述三个质量组件的![质量图表的三个组件](media/evaluate-my-environment-image1.png "以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
+![描述三个质量组件的图表](media/evaluate-my-environment-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。将焦点放在网络上。")
 
 ## <a name="key-takeaways"></a>关键优势
 

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统（云 PBX）。 '
-ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 402ae5f92e72cd1bc7ab759d3706108480a27a7e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571531"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925293"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>设置组织内的电话系统
 
@@ -69,7 +69,7 @@ Sometimes (depending on your country/region) you won't be able to get your new n
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>将你的服务提供商或电话运营商提供的电话号码转网或转移
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
+- 如果您需要999或更少的用户电话号码，您可以使用 Skype for Business 管理中心中的 "**新的本地号码" 端口订单**向导。按照将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)转移电话号码中找到的步骤进行操作。
     
 - 如果您需要移植超过999的电话号码，请参阅[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以提交 "订单订单服务请求" 或 "订单" 以获取所有这些电话号码均已移植到 Office 365。 
 
@@ -187,7 +187,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
     - **Microsoft 作为您的音频会议提供商**： 如果您希望音频会议的最简单的解决方案，选择 Microsoft 作为您的音频会议提供商。
     
-    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
+    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).
  
 2. Assign the audio conferencing provider to people who lead or schedule meetings. See [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
@@ -210,7 +210,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。您可以为您的组织创建单个或多个通话队列。
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+在创建和设置呼叫队列之前，您需要获取或转移现有收费或免费服务号码。获得收费或免费服务电话号码后，他们将显示在**Skype for business 管理中心** > **的语音** > **电话号码**中，列出的**号码类型**将列为 "**服务-免费"**.若要获取你的服务号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)，如果你想要转移和现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.

@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：了解如何配置 Skype for Business Server 2019 基础结构以与 System Center Operations Manager 配合使用。
 ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37318954"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2019

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 通话计划登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d27169d5f65fb693ce49453f7e7c965f867198ad
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516995"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925583"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪种通话套餐适合你？ 
 
@@ -56,7 +56,7 @@ ms.locfileid: "37516995"
 
 ### <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
 
-将您的电话号码从当前服务提供商转移到团队非常简单。 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。
+将您的电话号码从当前服务提供商转移到团队非常简单。 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。 有关详细信息，请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置

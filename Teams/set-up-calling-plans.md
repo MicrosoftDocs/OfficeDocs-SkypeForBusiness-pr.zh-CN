@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571234"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925313"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
@@ -48,7 +48,7 @@ ms.locfileid: "37571234"
 
 - **使用 Skype for Business 管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
     
-- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md) 或[管理您的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助您执行此操作。  
+- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以帮助你执行此操作。  
   
 - **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用 Skype for Business 管理中心获取新电话号码，或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
