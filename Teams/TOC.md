@@ -16,6 +16,7 @@
 
 # 聊天、团队、频道和应用
 ## [规划部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [使用适于 Teams 的顾问来推出 Teams](use-advisor-teams-roll-out.md)
 ## [团队和频道概述](teams-channels-overview.md)
 ## [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ## [团队的动态成员资格概述](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [查看组织中的电话号码列表](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [为用户分配、更改或删除电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [获取服务电话号码](getting-service-phone-numbers.md)
-### [将电话号码转接到 Office 365](transfer-phone-numbers-to-office-365.md)
-### [转接电话号码常见问题](transferring-phone-numbers-common-questions.md)
+### 转接电话号码
+#### [什么是转网订单？](phone-number-calling-plans/port-order-overview.md)
+#### [将电话号码转接到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [手动提交转网订单](phone-number-calling-plans/manually-submit-port-order.md)
+#### [你的转网订单的状态是什么？](phone-number-calling-plans/port-order-status.md)
 
 ## 呼叫路由
 ### [什么是拨号计划？](what-are-dial-plans.md)
