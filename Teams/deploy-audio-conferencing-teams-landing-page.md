@@ -10,19 +10,18 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ed86a8989cc1664d2ff73111b85d2fe30dcad3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 81ba166d86fde3272131e1349551c6df0eab6376
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240925"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925083"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议
 
@@ -73,7 +72,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 |------------|-------|
 |是否需要添加新的会议网桥号码？| 若要添加新号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。|
 |是否需要修改网桥设置？|若要修改网桥设置，请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。|
-|是否需要移植号码以用于音频会议？|若要了解移植电话号码，请阅读[将电话号码转移到 Office 365](transfer-phone-numbers-to-office-365.md)。|
+|是否需要移植号码以用于音频会议？|若要了解移植电话号码，请阅读[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。|
 |||
 
 
