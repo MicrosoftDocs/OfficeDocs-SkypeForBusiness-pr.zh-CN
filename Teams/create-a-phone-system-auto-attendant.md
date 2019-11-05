@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
 ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37553778"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972473"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 

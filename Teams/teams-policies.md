@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570131"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968273"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
@@ -46,8 +46,8 @@ ms.locfileid: "37570131"
     ![团队策略设置的屏幕截图](media/teams-policies.png)
 4. 选择所需的设置：
 
-- [**发现专用团队**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams)：启用此设置可允许用户在搜索结果和团队库中发现个人团队。
-- [**创建专用通道**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels)：启用此设置可允许用户创建专用频道。
+- **发现专用团队**：<a name="discoverteams"> </a>启用此设置可允许用户在搜索结果和团队库中发现个人团队。
+- **创建专用通道**： <a name="createchannels"></a>启用此设置可允许用户创建专用频道。
 
 5. 单击“**保存**”。
 
@@ -105,3 +105,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>相关主题
 
 - [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
+- [团队中的专用频道](private-channels.md)

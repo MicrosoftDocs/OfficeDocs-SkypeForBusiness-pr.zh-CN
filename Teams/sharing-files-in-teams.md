@@ -14,14 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 4114444da68e7a18fe66f7d32e3f64ab98a0b00b
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931790"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962076"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
+
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 团队中的文件共享功能允许用户与组织中的其他团队用户共享内容。 团队中的共享基于 SharePoint 和 OneDrive 中配置的设置，因此你为 SharePoint 和 OneDrive 设置的任何内容也将控制团队中的共享。
 

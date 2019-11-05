@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931800"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968253"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -27,7 +27,8 @@ ms.locfileid: "37931800"
 > [!NOTE]
 > - 不能跨租户创建信息障碍组。
 > - 版本1不支持使用机器人添加用户。
-> - 新增：连接到团队的 SharePoint 网站的信息屏障支持现在处于私人预览版中。 请点击[此处](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)参与私人预览版。 .
+> - 专用频道符合您配置的信息屏障策略。
+> - 新增：连接到团队的 SharePoint 网站的信息屏障支持现在处于私人预览版中。 单击[此处](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)参与私人预览版。
 
 信息屏障策略还可防止查找和发现。 这意味着，如果你尝试与不应与之通信的人员进行通信，你将在人员选取器中找不到该用户。
 

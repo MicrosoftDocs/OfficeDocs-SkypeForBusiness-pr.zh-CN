@@ -17,14 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569560"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968313"
 ---
-# <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板 
+# <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板
+
+> [!NOTE]
+> 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。 
 
 团队模板是围绕业务需求或项目设计的团队结构的预建定义。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 
 
@@ -33,7 +36,7 @@ ms.locfileid: "37569560"
 本文适用于您的情况：
 
 - 负责在整个组织中规划、部署和管理多个团队<br>
-- 希望使用预定义频道和应用以编程方式创建团队的开发人员 
+- 希望使用预定义频道和应用以编程方式创建团队的开发人员
 
 ## <a name="teams-template-capabilities"></a>团队模板功能
 
@@ -48,7 +51,7 @@ ms.locfileid: "37569560"
 | 团队设置（例如，成员、来宾、@ 提及） | 文件和内容 |
 | 自动收藏的频道 | |
 | 已安装应用 | |
-| 固定的选项卡 | | 
+| 固定的选项卡 | |
 
 > [!NOTE]
 > 我们将在 Microsoft 团队的未来版本中添加更多模板功能，请查看有关支持的属性的最新信息。
@@ -57,7 +60,7 @@ ms.locfileid: "37569560"
 
 基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。
 
-定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。 
+定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。
 
 默认情况下，基本模板设置为 "**标准**"，其中不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
 
@@ -75,7 +78,6 @@ ms.locfileid: "37569560"
 
 > [!NOTE]
 > 我们将在 Microsoft 团队的未来版本中添加更多基本模板类型，因此请查看有关支持的属性的最新信息。
-
 
 ## <a name="related-topics"></a>相关主题
 

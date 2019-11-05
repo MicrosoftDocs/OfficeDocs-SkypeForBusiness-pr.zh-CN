@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 516d49c84efc43000597d74756c699012cacf28e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37515738"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968023"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -45,7 +45,11 @@ ms.locfileid: "37515738"
 
 了解有关最终用户的这些快速提示的详细信息，请查看有关[团队工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)的详细信息。 
 
-我们的最佳做法指南是使用更大的成员集和更多频道创建团队。 为保持高质量的用户体验，最大程度地减少需要人员参与的团队的数量会很有帮助。 团队中的频道应被视为主题或工作流，以帮助团队组织其工作以实现其加入目标。 不应创建特定数量的频道。 每个团队都应根据其工作、优先级和样式来手工创建频道。 较大的组织可能希望创建团队作为 "模板"，以便对其捕获的有关特定工作类型的信息进行标准化。 这对于战略客户管理、课堂管理、卫生保健方案、理赔管理、事件管理和适用于特定行业的其他方案非常有用。
+我们的最佳做法指南是使用更大的成员集和更多频道创建团队。  为保持高质量的用户体验，最大程度地减少需要人员参与的团队的数量会很有帮助。 团队中的频道应被视为主题或工作流，以帮助团队组织其工作以实现其加入目标。 不应创建特定数量的频道。 每个团队都应根据其工作、优先级和样式创建渠道。 
+
+使用标准频道进行对话，当团队成员的子集需要更多的协作空间时，团队中的每个人都可以参与和专用频道。 若要了解有关专用频道以及何时创建它们的详细信息，请参阅[团队中的专用频道](private-channels.md)。
+
+较大的组织可能希望创建团队作为 "模板"，以便对其捕获的有关特定工作类型的信息进行标准化。  这对于战略客户管理、课堂管理、卫生保健方案、理赔管理、事件管理和适用于特定行业的其他方案非常有用。
 
 ## <a name="use-the-general-channel"></a>使用常规频道
 

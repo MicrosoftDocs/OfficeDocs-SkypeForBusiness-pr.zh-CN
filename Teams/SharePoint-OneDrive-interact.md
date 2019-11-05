@@ -3,44 +3,46 @@ title: SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: 了解 SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互，例如，如何存储私人聊天文件，以及团队、频道和文档库之间的关系。
+description: 了解 SharePoint Online 和 OneDrive for Business 如何与 Microsoft 团队交互，例如如何存储私人聊天文件，以及团队、标准频道和文档库之间的关系。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37567117"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968243"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
 > [!Tip]
 > 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Office 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
 
-Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
+Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个标准频道都将获取默认工作组网站文档库中的一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
+
+> [!NOTE]
+> 本文仅适用于标准频道。 专用信道的体系结构与标准信道不同。 每个专用频道都有其自己的与父团队网站分开的 SharePoint 网站集。 若要了解详细信息，请参阅[Microsoft 团队中的专用频道](private-channels.md)。
 
 私人聊天文件存储在发送方的 OneDrive for Business 文件夹中，在文件共享过程中，系统会自动向所有参与者授予权限。
 
-如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在频道中工作，但用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
+如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在标准频道中工作，但是用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 
 
 > [!NOTE]
 > 目前不支持 Microsoft 团队与本地 SharePoint 的集成。
 
-下面是团队、频道和文档库之间的关系示例。
+下面是团队、标准频道和文档库之间的关系的示例。
 
-对于每个团队，创建 SharePoint 网站后，会为团队创建默认文件夹**共享文档**。 包括每个团队的默认频道“**常规**”频道在内的每个频道在“**共享文档**”下都有一个文件夹。
+对于每个团队，创建 SharePoint 网站后，会为团队创建默认文件夹**共享文档**。 每个标准频道（包括**常规**频道（每个团队的默认频道）在 "**共享文档**" 中都有一个文件夹。
 
 ![SharePoint Online 中的 "共享文档" 文件夹的图表。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 

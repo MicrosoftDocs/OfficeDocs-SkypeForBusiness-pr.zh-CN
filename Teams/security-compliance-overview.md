@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37568053"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968173"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -37,7 +37,10 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 我们还增加了以下支持：审核日志搜索、针对频道、聊天和文件的电子数据展示和法定保留，以及通过 Microsoft Intune 进行移动应用管理。 转到 Office 365 安全 & 合规中心以管理这些设置。 
 
-若要了解有关 Office 365 安全 & 合规性的详细信息，请阅读[配置 Office 365 租户以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+若要了解有关 Office 365 安全性和合规性的详细信息，请阅读[配置 Office 365 租户以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+
+> [!NOTE]
+> 目前，[专用通道](private-channels.md)支持有限的安全和合规性功能。 即将推出专用频道中整套安全和合规性功能的支持。
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
@@ -47,7 +50,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 可使用内容搜索通过丰富的筛选功能搜索所有团队数据，并将其导出到特定容器以实现合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集团队数据、查看和导出它以进行进一步处理。 请参阅此[链接](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)，了解有关如何在 Office 365 安全 & 合规中心中对 Microsoft 团队内容进行合规性内容搜索的详细信息。 
 
-提示： Microsoft 团队可用于筛选到仅限 Microsoft 团队的内容，例如聊天和频道消息、会议和通话。 
+提示： Microsoft 团队可用于筛选到仅限 Microsoft 团队的内容，例如聊天和频道消息、会议和通话。
 
 ## <a name="ediscovery"></a>电子数据展示
 

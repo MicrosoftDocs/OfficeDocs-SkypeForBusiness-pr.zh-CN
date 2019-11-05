@@ -17,15 +17,15 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886425"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37971658"
 ---
-<a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
-===========================
+# <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
+
 
 Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移动设备（Android 和 iOS）的客户端。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
@@ -34,8 +34,7 @@ Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移�
 >
 > 有关 Windows 10 S 模式的详细信息，请参阅[windows 10 的 s 模式简介](https://www.microsoft.com/windows/s-mode)。 
 
-<a name="desktop-client"></a>桌面客户端
---------------
+## <a name="desktop-client"></a>桌面客户端
 
 > [!Tip]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
@@ -125,8 +124,7 @@ Linux 用户可以使用 Debian `.deb`程序包或红色 Hat 程序包`.rpm`安�
 
 你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。
 
-<a name="web-client"></a>Web 客户端 
-----------
+## <a name="web-client"></a>Web 客户端 
 
 Web 客户端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)）是一种完整的功能客户端，可从各种浏览器使用。 Web 客户端通过使用 webRTC 支持呼叫和会议，因此在 web 浏览器中不需要使用插件或下载来运行团队。 浏览器必须配置为允许第三方 cookie。 
 
@@ -134,8 +132,7 @@ Web 客户端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 Web 客户端在连接到[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)时执行浏览器版本检测。 如果检测到不受支持的浏览器版本，它将阻止对 web 界面的访问，并建议用户下载桌面客户端或移动应用。
 
-<a name="mobile-clients"></a>移动客户端
---------------
+## <a name="mobile-clients"></a>移动客户端
 
 Microsoft 团队移动应用适用于 Android 和 iOS，并且适用于参与基于聊天的对话的用户和允许对等音频呼叫。 对于移动应用，请转到相关的移动应用商店 Google Play 和 Apple App Store。 Windows Phone 应用已于2018年7月20日停用，可能不再有效。 
 
@@ -156,25 +153,21 @@ Microsoft Teams 移动应用的支持移动平台如下：
 |![描述决策点的图标](media/Get_clients_for_Microsoft_Teams_image4.png)      |决策点         |是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？         |
 |![描述后续步骤的图标](media/Get_clients_for_Microsoft_Teams_image5.png)     |后续步骤         |如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。         |
 
-<a name="client-update-management"></a>客户端更新管理
-------------------------
+## <a name="client-update-management"></a>客户端更新管理
 
 当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果有可用更新，客户端将自动下载更新，并且当应用在一段时间内有 idled 时，将开始更新过程。
 
-<a name="client-side-configurations"></a>客户端配置
----------------------------
+## <a name="client-side-configurations"></a>客户端配置
 
 当前，未提供支持的选项来通过租户管理、PowerShell、组策略对象或注册表配置客户端。
 
-<a name="notification-settings"></a>通知设置
-----------------------------
+## <a name="notification-settings"></a>通知设置
 
 当前，未提供选项允许 IT 管理员配置客户端通知设置。 所有通知选项均由用户设置。 下图概括显示了默认客户端设置。
 
 ![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a>PowerShell 脚本示例
-----------------------------
+## <a name="sample-powershell-script"></a>PowerShell 脚本示例
 
 此示例脚本（需要在已提升的管理员帐户上下文中的客户端计算机上运行）将为在 c:\users. 中找到的每个用户文件夹创建新的入站防火墙规则。 当团队发现此规则时，它将阻止团队应用程序在用户第一次从团队发出呼叫时提示用户创建防火墙规则。 
 

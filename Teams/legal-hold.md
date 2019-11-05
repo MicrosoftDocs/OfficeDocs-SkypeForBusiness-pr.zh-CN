@@ -3,7 +3,6 @@ title: 将 Microsoft Teams 用户或团队置于法定保留状态
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ search.appverid: MET150
 description: 了解如何使用安全性和合规性中心将 Microsoft Teams 用户或团队置于法定保留状态，以及了解根据数据要求哪些内容需要法定保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe6418162d95ebfb14665e004c3aeb508c3baaf4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564984"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968033"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>将 Microsoft Teams 用户或团队置于法定保留状态
 ==================================================
@@ -29,10 +28,11 @@ ms.locfileid: "37564984"
 > [!NOTE]
 > 将用户置于保留状态并不会自动将组置于保留状态，反之亦然。
 
+> [!NOTE]
+> 我们尚不支持专用频道消息的法定保留配置。 支持在专用频道中共享的文件的法定保留。
+
 > [!IMPORTANT]
 > 当用户或组处于保留状态时，将保留所有邮件副本。 示例：Clay 在某个频道中发布了一条消息，之后修改了该消息。 在保留应用场景中，会保留该消息的两个副本。 如果未处于法定保留状态，则只保留最新消息。
-
-
 
 在下图中，有一个涉及 Clay 的调查。 Clay 是 Brokers-Dealers 团队的成员。
 

@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515910"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968263"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
 
-随着时间的推移，在 Microsoft 团队中创建的团队可能无法使用，或者你可能希望在项目结束时存档或删除团队。 如果你是 Microsoft 团队管理员，请按照本文中的步骤存档或删除不再需要的团队。 存档团队时，该团队的所有活动将停止，但你仍可以添加或删除成员和更新角色，但仍可以查看频道、文件和聊天中的所有团队活动。 删除团队时，也会删除关联频道、文件和聊天中的团队活动。
+随着时间的推移，在 Microsoft 团队中创建的团队可能无法使用，或者你可能希望在项目结束时存档或删除团队。 如果你是 Microsoft 团队管理员，请按照本文中的步骤存档或删除不再需要的团队。
+
+存档团队时，该团队的所有活动将停止。 存档团队还会在团队及其关联的网站集中存档专用频道。  但是，您仍然可以添加或删除成员和更新角色，但仍可以查看标准和专用频道、文件和聊天中的所有团队活动。
+
+删除团队时，还会删除标准和专用频道（以及关联的网站集）、文件和聊天中的团队活动。
 
 > [!IMPORTANT]
 > 已存档的团队可以重新激活，但不能直接撤消删除已删除的团队。 请考虑先存档团队，然后推迟删除，直到确定不再需要团队。
@@ -63,7 +67,9 @@ ms.locfileid: "37515910"
 
 ## <a name="restore-a-deleted-team"></a>还原已删除的团队
 
-通过还原与团队关联的 Office 365 组，请按照以下步骤还原已删除的团队。 默认情况下，已删除的 Office 365 组将保留30天。 此30天期限称为 "软删除"，因为你可以还原组。 若要了解详细信息，请参阅[还原已删除的 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
+通过还原与团队关联的 Office 365 组，请按照以下步骤还原已删除的团队。 为团队还原 Office 365 组，恢复团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
+
+默认情况下，已删除的 Office 365 组将保留30天。 此30天期限称为 "软删除"，因为你可以还原组。 若要了解详细信息，请参阅[还原已删除的 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安装 AzureADPreview 模块
 

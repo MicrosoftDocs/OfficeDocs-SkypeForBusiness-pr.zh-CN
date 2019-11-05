@@ -3,7 +3,6 @@ title: Microsoft Teams 中的保留策略
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569947"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968323"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
-默认情况下，团队对话保持不变并永久保留。 随着保留策略的推出，管理员可以在安全 & 合规性中心中配置保留策略（保留和删除），以便团队聊天和频道消息。 这有助于组织在特定时间段内保留数据以实现合规性（即保留策略）或删除数据（即删除策略）（如果在特定时间段后被视为负债）。 团队保留策略可确保在你删除数据时，团队服务上的所有永久数据存储位置都将删除该数据。 
+默认情况下，团队对话保持不变并永久保留。 随着保留策略的推出，管理员可以在安全 & 合规性中心中配置保留策略（保留和删除），以便团队聊天和频道消息。 这有助于组织在特定时间段内保留数据以实现合规性（即保留策略）或删除数据（即删除策略）（如果在特定时间段后被视为负债）。 团队保留策略可确保在你删除数据时，团队服务上的所有永久数据存储位置都将删除该数据。
+
+> [!NOTE]
+> 我们尚不支持保留专用频道消息的配置。 支持在专用频道中共享的文件的保留。
 
 若要管理团队保留策略，请在 "**数据管理** > **保留**" 下的 Office 365 安全 & 合规中心中使用设置和 cmdlet。
 

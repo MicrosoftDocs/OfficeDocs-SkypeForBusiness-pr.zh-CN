@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568505"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972483"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -60,7 +60,7 @@ CQD 版本3提供接近实时的 CQD 仪表板（延迟接近30分钟），并�
 - 客户端版本：查看每个客户端版本的会话和用户计数，或向下钻取以查看每个客户端版本的用户名。 产品和客户端类型的预生成筛选器帮助将版本集中到特定客户端。
 - 终结点：显示映射到电脑/Mac 的 "生成/模型" 的计算机终结点。 按 "生成/模型" 显示聚合质量。 映射数据的上载类似于生成数据。
 
-如果 EUII 访问不可用，则版本3还提供 RBAC 支持。  
+如果 EUII access 不可用，则高级 CQD （V3）还提供 RBAC 支持。  
 
 管理员可通过 CQD 版本3管理 Skype for business Server 2019 （不仅仅是 Skype for business Online 和 Microsoft 团队）。 这需要混合实现和使用 "调用数据" 连接器。 有关详细信息，请参阅[计划通话数据连接器](/SkypeForBusiness/hybrid/plan-call-data-connector)。
 
@@ -84,7 +84,7 @@ CQD 版本1已提供 Skype for Business Server 2015 管理员以下功能：
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD 近实时（NRT）数据
 
-CQD v3 利用近乎实时的数据馈送。 通话记录在通话结束后的30分钟内将在 CQD 门户中可用。 从 NRT 管道中调用记录仅在从数据集内删除几个月后才可用。 CQD v3 将当前 v2 管道中的数据与 v3 管道中的 NRT 数据合并。 来自存档周期的数据的 v2 和 v3 门户查询将产生相同的结果。 NRT 数据的 V2 和 v3 数据查询和 NRT Data + PII 期间将有所不同。
+高级 CQD （V3，发布2019年11月）使用近乎实时的数据馈送。 通话记录在通话结束后的30分钟内将在 CQD 门户中可用。 从 NRT 管道中调用记录仅在从数据集内删除几个月后才可用。 CQD v3 将当前 v2 管道中的数据与 v3 管道中的 NRT 数据合并。 来自存档周期的数据的 v2 和 v3 门户查询将产生相同的结果。 NRT 数据的 V2 和 v3 数据查询和 NRT Data + PII 期间将有所不同。
 
 ### <a name="piieuii-data"></a>PII/EUII 数据
 
@@ -170,7 +170,7 @@ CQD v3 支持使用 SPD 报表中的钻取或向下钻取字段。 如果选择�
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 CQD 摘要报告提供为详细报告规划的功能的子集。 此处概括介绍了版本之间的差异：
   
 |功能|摘要报告|详细报告|
@@ -211,7 +211,7 @@ CQD 的所有版本都为整体通话质量信息提供高级别的入口点，�
 - **语音质量 SLA** —提供有关 Skype For Business Online 语音质量 SLA 中所含通话的信息。
 
 > [!NOTE]
-> CQD 版本3适用于 Microsoft 团队、Skype for business Online 和 Skype for business 服务器。 要将 CQD 与 Skype for Business Server 2019 配合使用，您必须[配置 "呼叫数据连接器](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)"。 请参阅在开始之前[计划通话数据连接器](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector)。
+> CQD 版本3适用于 Microsoft 团队、Skype for business Online 和 Skype for business 服务器。 要将 CQD 与 Skype for Business Server 2019 配合使用，您必须[配置 "呼叫数据连接器](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)"。 请参阅在开始之前[计划通话数据连接器](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector)。
 
 - 按地区呼叫质量：
 

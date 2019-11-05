@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569969"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968303"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保留策略常见问题解答
+
+> [!NOTE]
+> 我们尚不支持保留专用频道消息的配置。 支持在专用频道中共享的文件的保留。
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>我可以在保留策略中设置哪些类型的策略以及它们的工作原理是什么？
 
@@ -40,7 +43,7 @@ ms.locfileid: "37569969"
 
 ### <a name="what-is-the-default-retention-policy"></a>默认保留策略是什么？ 
 
-默认情况下，团队聊天、频道和文件数据将永久保留。 用户可以删除某些内容，但在没有保留策略的情况下，团队数据始终存档到 Exchange online 邮箱（用户和组）中，并保留给电子数据展示。 
+默认情况下，团队聊天、频道和文件数据将永久保留。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>是否可以针对策略中的一组用户或团队设定目标？ 
 

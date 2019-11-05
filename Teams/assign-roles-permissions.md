@@ -11,16 +11,15 @@ search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中分配团队所有者和成员角色，包括创建团队的权限。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29619fce9f3f9d03f887f632d25b4ae7abe474c9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241718"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968063"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 =================================================
@@ -39,9 +38,12 @@ ms.locfileid: "36241718"
 |          **离开团队**           |    是     |     是     |
 |  **编辑团队名称/说明**   |    是     |     否      |
 |          **删除团队**          |    是     |     否      |
-|          **添加频道**          |    是     |    是<sup>2</sup>|
-| **编辑频道名称/说明** |    是     |    是<sup>2</sup>|
-|        **删除频道**         |    是     |    是<sup>2</sup>|
+|          **添加标准频道**          |    是     |    是<sup>2</sup>|
+| **编辑标准频道名称/说明** |    是     |    是<sup>2</sup>|
+|        **删除标准频道**         |    是     |    是<sup>2</sup>|
+|          ***添加专用频道**          |    是     |    是<sup>2</sup>|
+| ***编辑专用频道名称/说明** |    否     |    不适用|
+|        ***删除专用频道**         |    是     |    否|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加选项卡**            |    是     |    是<sup>2</sup>|
@@ -49,10 +51,12 @@ ms.locfileid: "36241718"
 |           **添加聊天机器人**            |    是     |    是<sup>2</sup>|
 
 <sup>1</sup> 团队所有者可创建团队，除非他们受到限制。 如下[创建团队的权限](#permissions-to-create-teams)。<br>
-><sup>2</sup> 所有者可以在团队级别关闭这些项目，在这种情况下，成员将不能访问它们。<br>
+<sup>2</sup> 所有者可以在团队级别关闭这些项目，在这种情况下，成员将不能访问它们。<br>
 <sup>3</sup> 向团队添加成员后，所有者也可以将成员提升到所有者状态。 此外，所有者也可以将自己的状态降级为成员。<br>
 <sup>4</sup> 团队成员可以向公共团队中添加其他成员。<br>
 <sup>5</sup> 尽管团队成员无法直接将成员添加到私人团队，但可以请求将某人添加到他们所属的团队。 当成员请求将某人添加到团队时，团队所有者将收到通知，告知他们有一个可接受或拒绝的待定请求。
+
+* 若要了解有关专用频道的权限的详细信息，请参阅[团队中的专用频道](private-channels.md)。
 
 > [!NOTE]
 > 所有者可以在“查看团队”**** 选项中将其他成员设为所有者。 一个团队可以拥有最多 100 个所有者。 建议至少指定几个所有者以帮助管理团队；这样也可以防止当唯一的所有者离开贵组织时出现孤立的群组。 有关孤立组的详细信息，请参阅[将新的所有者分配到孤立组](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)。

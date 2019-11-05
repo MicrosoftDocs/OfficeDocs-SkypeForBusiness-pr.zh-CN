@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569272"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968233"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -34,7 +34,7 @@ ms.locfileid: "37569272"
 
 ## <a name="change-or-create-a-messaging-policy"></a>更改或创建邮件策略
 
-你可以在 Microsoft 团队管理中心（http://admin.teams.microsoft.com)通过管理员凭据登录，然后在左侧导航窗格中选择**消息策略**）轻松管理消息策略。 若要编辑你的组织的现有默认消息策略，请选择 "**全局（组织范围默认）** " 行，然后进行更改。 若要创建新的自定义消息策略，请选择 "**新建策略**"，为新策略提供一个名称，然后选择您的设置。 完成后选择 "**保存**"。
+你可以在 Microsoft 团队管理中心（https://admin.teams.microsoft.com)通过管理员凭据登录，然后在左侧导航窗格中选择**消息策略**）轻松管理消息策略。 若要编辑你的组织的现有默认消息策略，请选择 "**全局（组织范围默认）** " 行，然后进行更改。 若要创建新的自定义消息策略，请选择 "**新建策略**"，为新策略提供一个名称，然后选择您的设置。 完成后选择 "**保存**"。
 
 例如，假设您想要确保已发送的邮件不会被删除或更改。 您将创建一个名为 "保留已发送邮件" 的新自定义策略，并关闭以下设置：
 
@@ -97,6 +97,9 @@ ms.locfileid: "37569272"
     - **已禁用**这意味着用户无法在聊天或频道中创建语音消息。  
 - **在移动设备上，在最近的聊天上显示收藏频道**启用此设置可将收藏频道移动到移动设备屏幕顶部，以便用户无需滚动即可找到它们。 
 - **允许用户从群组聊天中删除用户**启用此设置，让用户从群组聊天中删除其他用户。 利用此功能，您可以继续与一组较小的人进行聊天，而不会丢失聊天历史记录。
+
+> [!NOTE]
+> 某些设置（如使用 Giphy）也可以由团队所有者在团队级别配置，并由专用通道所有者在专用频道级别进行配置。
 
 ### <a name="related-topics"></a>相关主题
 [团队中的会议策略](meeting-policies-in-teams.md)
