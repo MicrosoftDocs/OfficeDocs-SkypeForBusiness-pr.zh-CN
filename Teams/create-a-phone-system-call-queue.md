@@ -22,10 +22,10 @@ ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
 ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37972493"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列

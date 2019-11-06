@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772346"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979705"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -64,7 +64,7 @@ ms.locfileid: "37772346"
 |硬盘    | 3.0 GB 的可用磁盘空间        |
 |Display    |   1024 x 768 屏幕分辨率 |
 |图形硬件 |  最少 128 MB 图形内存
-|操作系统  | Linux 分发支持安装 DEB 包、贴靠或 RPM。 |
+|操作系统  | Linux 分发支持安装 DEB 包或 RPM。 |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
 |语音    |  兼容的麦克风和扬声器，带麦克风的耳机，或等效设备       |

@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
 ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37925363"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>为 Microsoft 团队设置音频会议

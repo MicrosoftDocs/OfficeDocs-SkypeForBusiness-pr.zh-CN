@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '获取为呼叫者创建默认电话号码以加入 Microsoft 团队会议的步骤。 '
 ms.openlocfilehash: edaed53ddd25dee875753b76bb612888ebb45cef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571278"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码

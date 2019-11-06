@@ -1,7 +1,7 @@
 ---
 title: 升级到 Microsoft 团队 |Skype for Business 团队路线图
-author: lanachin
-ms.author: v-lanac
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235882"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "36437557"
 ---
-![升级旅程的阶段, 重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段, 重点介绍部署和实施阶段")
+![升级旅程的阶段，重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
-本文是升级过程的部署和实施阶段的一部分。 继续之前, 请确认你已完成以下活动:
+本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
 
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
@@ -33,15 +33,25 @@ ms.locfileid: "36235882"
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
-- [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="perform-your-upgrade-to-teams"></a>对团队执行升级
 
-根据 Skype for business 的当前部署选择升级旅程:
 
-- [从 Skype for Business Online 升级到 Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [从 Skype for Business 混合升级到团队](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [从本地 Skype for Business 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+# <a name="overview"></a>概述
+
+为团队执行升级所采取的步骤取决于 Skype for business 的当前部署：
+
+1. 升级开始之前，请务必[执行用户试点](pilot-essentials.md)。
+
+2.  接下来，根据当前环境，选择您的起始点：  
+
+    - **如果要从 skype For Business online 升级到团队**，请按照[从 Skype For business Online 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnline)中的步骤操作。
+
+    -  **如果要从 Skype For business 本地环境升级**，则需要执行一些额外的步骤，以便在你的本地和联机环境之间设置连接，然后再将你的用户移动到团队。 有关详细信息，请参阅[将本地 Skype for Business 升级到团队](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
+
+
+
+
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

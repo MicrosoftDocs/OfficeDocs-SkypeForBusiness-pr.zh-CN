@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何通过 Exchange Online 部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573491"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979785"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -86,10 +86,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -132,7 +132,7 @@ Import-PSSession $Session -DisableNameChecking
     如果你不确定要在你的环境中使用 RegistrarPool 参数的值，可以使用此命令从现有 Skype for Business 服务器用户获取该值
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>将 Skype for Business Server 许可证分配给你的 Microsoft 团队聊天室帐户

@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
 ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573327"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略

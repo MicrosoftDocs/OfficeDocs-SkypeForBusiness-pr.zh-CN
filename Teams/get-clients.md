@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 6f7a1cd3002135e2327ca4953ddfbb5b0393242d
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37971658"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "37979695"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -39,7 +39,7 @@ Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移�
 > [!Tip]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于 Windows （7 +）、32位和64位版本、macOS （10.10 +）和 Linux （Debian 程序包`.deb`、Red Hat 程序包管理器`.rpm`）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理器（如 apt 和 yum）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
+Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于 Windows （7 +）、32位和64位版本、macOS （10.10 +）和 Linux （"格式" 和`.deb` `.rpm` "格式"）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理器（如 apt 和 yum）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
 
 桌面客户端为团队会议、群组通话和私人一对一通话提供实时通信支持（音频、视频和内容共享）。
 
@@ -101,7 +101,7 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 
 ### <a name="linux"></a>厂商
 
-Linux 用户可以使用 Debian `.deb`程序包或红色 Hat 程序包`.rpm`安装团队。 
+用户将能够安装本机 Linux 程序包`.deb`并`.rpm`设置其格式。
 
 > [!NOTE] 
 > Linux 客户端上的团队在有限预览版中可用。 在客户端`Report a Problem`中使用从客户端提交的 bug。 对于已知问题，请参阅[已知问题](Known-issues.md)。
@@ -110,7 +110,7 @@ Linux 用户可以使用 Debian `.deb`程序包或红色 Hat 程序包`.rpm`安�
 
 1. 从https://aka.ms/getteams下载程序包。 （Linux 客户端处于有限的预览中，即将启动。 如果在 "下载" 页面上看不到 Linux 客户端，则它尚未启动。）
 2. 使用下列操作之一进行安装：  
-    - 使用 Ubuntu 软件工具打开程序包，并执行自引导 Linux 应用安装过程。
+    - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
     - 或者，如果您喜欢终端，请键入：`sudo apt install **teams download file**`
 
 你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。 
@@ -119,7 +119,7 @@ Linux 用户可以使用 Debian `.deb`程序包或红色 Hat 程序包`.rpm`安�
 
 1. 从https://aka.ms/getteams下载程序包。 （Linux 客户端处于有限的预览中，即将启动。 如果在 "下载" 页面上看不到 Linux 客户端，则它尚未启动。）
 2. 使用下列操作之一进行安装：
-    - 使用 Red Hat 程序包管理工具打开程序包，并执行自运行的 Linux 应用安装过程。
+    - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
     - 或者，如果您喜欢终端，请键入：`sudo yum install **teams download file**`
 
 你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。
