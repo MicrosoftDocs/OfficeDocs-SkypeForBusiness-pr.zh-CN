@@ -27,7 +27,6 @@
 ## [管理团队和频道策略](teams-policies.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
 ## [在 Teams 中设置频道审查](manage-channel-moderation-in-teams.md)
-## [在 Teams 中共享文件](sharing-files-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
 ## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
