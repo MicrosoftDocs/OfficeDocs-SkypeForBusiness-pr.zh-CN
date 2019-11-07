@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573213"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010595"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -28,6 +28,8 @@ ms.locfileid: "37573213"
 
 > [!IMPORTANT]
 > 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
+
+Outlook 中的团队状态在 Outlook 2013 桌面应用和更高版本上受支持。
 
 ## <a name="presence-states-in-teams"></a>团队中的状态
 
@@ -54,7 +56,7 @@ ms.locfileid: "37573213"
 || ![带箭头的紫色圆圈表示外出](media/Presence_OOF.png) 外出|
 |||
  
-用户可以手动将其当前状态设置为某些选项，其状态将反映给所有其他用户。 更多用户状态详细信息也会自动更新。 这些更改基于用户活动（可用、离开）、Outlook 日历状态（在会议中）或团队应用状态（正在进行的调用），以及列表中缩进的状态。
+用户可以手动将其当前状态设置为某些选项，其状态将反映给所有其他用户。 更多用户状态详细信息也会自动更新。 这些更改基于用户活动（可用、离开）、Outlook 日历状态（在会议中）或团队应用状态（正在进行的调用），以及列表中缩进的状态。 
 
 15分钟不活动超时，在这种情况下，当前状态将重置为 "离开"。
 

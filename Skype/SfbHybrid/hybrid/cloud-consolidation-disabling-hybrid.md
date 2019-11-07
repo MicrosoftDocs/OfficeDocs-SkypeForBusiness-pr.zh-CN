@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962047"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010575"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成到云的迁移
 
@@ -47,8 +47,8 @@ ms.locfileid: "37962047"
 
     |记录类型|名称|TTL|值|
     |---|---|---|---|
-    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync.com>。<span>com|
-    |SRV|_sip。。|3600|100 1 443 sipdir.online.lync.com>。<span>com|
+    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>。<span>com|
+    |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>。<span>com|
     |CNAME| lyncdiscover|   3600|   webdir。<span>com|
     |CNAME| sip|    3600|   sipdir.online.lync.com>。<span>com|
     |CNAME| 法规|   3600|   webdir。<span>com|
@@ -61,9 +61,8 @@ ms.locfileid: "37962047"
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *禁用本地中与 Office 365 通信的功能。*  
-需要从内部部署 PowerShell 窗口执行以下命令。  如果您之前已导入 Skype for Business Online 会话，请按如下所示启动新的 Skype for Business PowerShell 会话：
-
+3.  *禁用本地与 Office 365 通信的功能。*  
+需要从内部部署 PowerShell 窗口中执行以下命令：
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,13 +71,13 @@ ms.locfileid: "37962047"
 
 管理员可以管理以前从本地 Skype for Business 服务器移动到云的用户，即使在本地部署已停止后也是如此。 有两种不同的可能性：
 
-- 在移动前，用户没有 lineURI 内部部署的值。 
+- 在移动前，用户没有 LineURI 内部部署的值。 
 
-  在这种情况下，您可以在 Skype for Business Online Powershell 模块中使用[get-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中的-onpremLineUri 参数修改 LineURI。
+  在这种情况下，您可以在 Skype for Business Online PowerShell 模块中使用[get-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中的-onpremLineUri 参数修改 LineURI。
 
-- 用户在移动前有一个 lineURI 内部部署（大概是因为用户已启用企业语音）。 
+- 用户在移动前有一个 LineURI 内部部署（大概是因为用户已启用企业语音）。 
 
-  如果要更改 lineURI，则必须在本地 Active Directory 中执行此操作，并允许值流传递到 Azure AD。 这不需要本地 Skype for Business Server。 相反，可以使用 Active Directory 用户和计算机 MMC 管理单元或使用 PowerShell，直接在内部部署 Active Directory 中编辑此属性（msRTCSIP-Line）。 如果使用的是 MMC 管理单元，请打开到用户的 "属性" 页，单击 "属性编辑器" 选项卡，然后找到 "msRTCSIP" 行。
+  如果要更改 LineURI，则必须在本地 Active Directory 中执行此操作，并允许值流传递到 Azure AD。 这不需要本地 Skype for Business Server。 相反，可以使用 Active Directory 用户和计算机 MMC 管理单元或使用 PowerShell，直接在内部部署 Active Directory 中编辑此属性（msRTCSIP-Line）。 如果使用的是 MMC 管理单元，请打开到用户的 "属性" 页，单击 "属性编辑器" 选项卡，然后找到 "msRTCSIP" 行。
 
   ![Active Directory 用户和计算机工具](../media/disable-hybrid-1.png)
 

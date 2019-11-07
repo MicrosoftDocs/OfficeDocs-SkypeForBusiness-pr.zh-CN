@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885536"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010625"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
 
@@ -32,7 +32,7 @@ ms.locfileid: "37885536"
 >[!NOTE]
 >本文使用 "Skype for business Online"、"本地 Skype for business" 和 "Skype for business" 这一术语。  后一术语既指联机版本，也是本地版本。
 
-已迁移到团队的用户不再使用 Skype for business 客户端，除非加入 Skype for business 中托管的会议。  所有传入聊天和呼叫用户团队客户端中的土地，无论发件人是使用团队还是 Skype for business。 由迁移用户组织的任何新会议将计划为团队会议。 如果用户尝试使用 Skype for Business 客户端，则聊天和通话的启动将被阻止<sup>1</sup>。  但是，用户可以（且必须）使用 Skype for Business 客户端加入他们受邀参加的会议。
+已迁移到团队的用户不再使用 Skype for business 客户端，除非加入 Skype for business 中托管的会议。  所有传入聊天和呼叫用户团队客户端中的土地，无论发件人是使用团队还是 Skype for business。 由迁移用户组织的任何新会议将计划为团队会议。 如果用户尝试使用 Skype for Business 客户端，将阻止启动聊天和通话。  但是，用户可以（且必须）使用 Skype for Business 客户端加入他们受邀参加的会议。 （2017之前发运的旧版 Skype for business 客户端不提供 TeamsUpgradePolicy。 请确保您使用的是最新的 Skype for Business 客户端。）
  
 管理员使用[模式](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes)概念（ [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)的属性）管理其对团队的过渡。 按照上述说明迁移到团队的用户处于 "TeamsOnly" 模式。  对于迁移到团队的组织，最终目标是将所有用户移到 TeamsOnly 模式。
 
@@ -44,10 +44,6 @@ ms.locfileid: "37885536"
 
 本文通过描述两种方法并展示每个方法的优缺点，帮助你为你的组织选择正确的方法。 
 
-**注意：**
-<sup></sup>在2017之前发运的 Skype for business 客户不在 TeamsUpgradePolicy。 请确保您使用的是最新的 Skype for Business 客户端。
-
-
 ## <a name="side-by-side-method-using-islands-mode"></a>并行方法（使用孤岛模式）
 
 通过并行方法，用户可以使用团队和 Skype for Business 客户端进行聊天、VoIP 呼叫和会议。 此状态称为 "孤岛" 模式，因为 Skype for business 和团队的通信流量保持独立（即使对于同一用户），并且两个不同的客户端彼此之间不会相互通信（对于同一组织内的用户）。 例如，假设收件人用户 A 处于 "孤岛" 模式下：
@@ -56,7 +52,7 @@ ms.locfileid: "37885536"
 - 从另一个用户的团队客户端发起的通信将始终位于用户 A 的团队客户端（*如果其他用户位于同一组织中*）。 
 - 从另一个用户的团队客户发起的通信将始终位于用户 A 的 Skype for business 客户端中（*如果其他用户位于联合组织*中）。
 
-孤岛模式是 TeamsUpgradePolicy 尚未 TeamsOnly 的任何现有组织的默认模式。 分配 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。<sup>2</sup>事实上，如果您没有执行任何步骤来更改默认配置，您的组织中可能已有团队的大量使用。  这是并行方法的优点之一。 它允许在组织内快速、最终用户推动采用。
+孤岛模式是 TeamsUpgradePolicy 尚未 TeamsOnly 的任何现有组织的默认模式。 分配 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。 （即使用户在 Skype for Business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。事实上，如果您没有执行任何步骤来更改默认配置，您的组织中可能已有团队的大量使用。  这是并行方法的优点之一。 它允许在组织内快速、最终用户推动采用。
 
 为使此方法有效工作，它要求所有用户同时运行两个客户端。 在 "Skype for business" 或 "团队客户端" 中，组织内部的聊天和从组织内部进行的通话可以居住在 Skype for business 或团队客户端中，这不受收件人的控制。 这取决于发件人用于发起通信的客户端。 如果发件人和收件人位于不同组织中，则在 "岛" 模式下传入呼叫和聊天始终位于 Skype for Business 客户端中。  
 
@@ -69,7 +65,7 @@ ms.locfileid: "37885536"
 
 这意味着其他用户可能会看到用户 A 的不同状态，具体取决于其使用的客户端。 有关详细信息，请参阅[联机状态](#presence)。
 
-准备好将用户升级到 TeamsOnly 模式后，您可以单独升级用户，也可以使用租户范围内的策略<sup>3</sup>一次性升级整个租户。 用户升级到 TeamsOnly 模式后，他们将收到团队中的所有传入聊天和通话。 
+准备好将用户升级到 TeamsOnly 模式后，你可以单独升级用户，也可以使用租户范围的策略一次性升级整个租户。 用户升级到 TeamsOnly 模式后，他们将收到团队中的所有传入聊天和通话。 （请注意，仅当向单个用户应用 TeamsUpgradePolicy 时，才会触发将 Skype for Business 会议迁移到团队会议，而不是在每租户基础上进行。 有关详细信息，请参阅[会议迁移](#meeting-migration)。）
 
 但是，在孤岛模式下未升级的收件人可能会继续接收来自其 Skype for Business 或团队客户的 TeamsOnly 用户的聊天和呼叫。  这是因为团队客户为团队到团队和团队到 Skype for business 通信（即使是对于同一用户）维护单独的对话线程。  （请参阅[团队对话-互操作与本机线程](#teams-conversations---interop-versus-native-threads)。） 例如，假设 "岛用户 A" 使用团队向 TeamsOnly 用户 B 发送消息。当用户 B 回复该聊天时，通信将位于用户 A 的团队客户端。 现在，假设用户 A 将他的 Skype for Business 客户端用作 TeamsOnly 用户 B 的消息。用户 B 将在团队中接收聊天，但这将是用户 B 的团队客户端中与其他对话进行比较的单独对话。 如果用户 B 使用用户 A 答复此对话，则它将在用户 A 的 Skype for Business 客户端中居住。 
 
@@ -90,14 +86,6 @@ ms.locfileid: "37885536"
 | 允许用户在仍然拥有 Skype for business 的完全访问权限的情况下了解和熟悉团队。 | 由于未在用户运行两个客户端时丢失的消息，导致最终用户不满的可能性。 用户可能会抱怨他们没有收到消息。|
 | 在团队中开始的最少管理工作。 | 如果不是组织中的每个人都使用团队，尤其是当组织中的所有用户都未处于活动状态时，"使用孤岛" 模式非常有挑战性并移至 TeamsOnly 模式。 例如，一旦用户的子集升级到 TeamsOnly 模式，这些用户将仅在团队中发送。 对于在孤岛模式下填充的其余部分，这些消息将始终位于团队中。 但是，如果其中一些人口不运行团队，他们会将这些消息视为错过。 |
 |  | 使用团队时，Skype for Business 服务器中具有本地帐户的用户没有互操作或联合身份验证支持。  如果您有一种混合的孤岛用户，这可能会造成混乱，因为这种用户在 Skype for business Online 中托管，而有些在本地 Skype for business 中。   |
-
-**笔记**
-
-<sup>2</sup>即使用户在 Skype for Business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。
-
-<sup>3</sup>请注意，仅当向单个用户应用 TeamsUpgradePolicy 时，才会触发将 Skype for Business 会议迁移到团队会议，而不是在每租户基础上进行。 有关详细信息，请参阅[会议迁移](#meeting-migration)。 
-
-
 
 ## <a name="managed-transition-method-using-skype-for-business-modes"></a>托管转换方法（使用 Skype for Business 模式）
 
@@ -148,10 +136,9 @@ ms.locfileid: "37885536"
 
 对于上述任一方法，管理员使用[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)（用于控制用户的共存模式）管理到 TeamsOnly 的切换。 有关每种模式的详细信息，请参阅[共存模式](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes)。
 
-
 无论管理员是使用 Skype for Business 模式执行托管转换，还是仅从默认孤岛配置升级到 TeamsOnly 模式，TeamsUpgradePolicy 是主要工具。  与团队中的任何其他策略一样，TeamsUpgradePolicy 可以直接分配给用户，也可以设置为租户范围内的默认值。 对用户的任何分配都优先于租户默认设置。  它可以在团队管理员控制台和 PowerShell 中进行管理。
 
-管理员可以将用户的任何模式分配给用户，无论该用户是托管在 Skype for Business Online 还是在本地，除了只能将 TeamsOnly 模式分配给已驻留在 Skype for business Online 中的用户。<sup>4</sup>  
+管理员可以将用户的任何模式分配给用户，无论该用户是托管在 Skype for Business Online 还是在本地，除了只能将 TeamsOnly 模式分配给已驻留在 Skype for business Online 中的用户。 这是因为只有在用户托管在 Skype for business Online 的情况下，才可以使用 Skype for business 用户和联盟进行互操作。
 
 具有 Skype for business 帐户的 Skype for business 帐户的用户必须在 Skype for business 内部部署工具中使用移动 Move-csuser 在本地[移动](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)（到 skype For business online 或直接使用团队）。 这些用户可以通过1个或2个步骤移到 TeamsOnly：
 
@@ -187,8 +174,6 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 >[!NOTE]
 >如果你拥有本地 Skype for Business 帐户的任何用户，则不应在租户级别分配 TeamsOnly 模式，除非你将其他模式显式分配给具有本地 Skype for Business 帐户的所有用户。
 
-**注意：**
-<sup>4</sup>这是因为只有在用户托管在 skype for business Online 的情况下，才可以使用 skype for business 用户和联盟进行互操作。
 
 ### <a name="using-notifications-in-skype-for-business-clients"></a>在 Skype for Business 客户端中使用通知
 
@@ -209,7 +194,6 @@ New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
-
 
 ### <a name="meeting-migration"></a>会议迁移
 
@@ -498,7 +482,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 团队用户还没有驻留在本地的 Skype for business 帐户。 
 
-在互操作通信中，聊天仅为纯文本。 此外，不能*在互操作聊天本身中*进行文件共享和 screensharing。 但是，互操作对话中的用户可以通过创建按需会议（如下所述）轻松实现文件和/或 screensharing：
+在互操作通信中，聊天仅为纯文本。 此外，在*互操作聊天中*不能进行文件共享和屏幕共享。 但是，互操作对话中的用户可以通过创建按需会议（如下所述）轻松实现文件和/或屏幕共享。
 
 - 如果团队用户尝试共享其屏幕，将自动创建按需团队会议，并将邀请链接发送到 Skype for Business 用户的客户端。 单击该链接后，Skype for Business 用户将打开团队并加入会议。 两个用户现在都在团队会议中，可以根据需要进行共享。
 
@@ -508,7 +492,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 由于互操作通信不支持本机团队对话的所有功能，因此团队客户为团队到团队和团队到 Skype for business 通信保留单独的对话线程。 这些对话在用户界面中的呈现方式不同：互操作线程可以通过以下方式与常规本机团队线程区别：
 
-- 缺少格式文本、file/screensharing 的控件，无法添加用户。
+- 缺少格式文本、文件/屏幕共享的控件，无法添加用户。
 - 对目标用户的图标的修改，显示 Skype for business 的 "S"。
 
 以下屏幕截图显示了这些差异：
