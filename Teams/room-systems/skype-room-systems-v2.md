@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Microsoft 团队聊天室中可用的功能。 '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573568"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038731"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共享通信设备的授权解决方案
 
-Microsoft 拥有针对会议室设备（如 Microsoft 球队房间和 Microsoft Surface Hub）进行授权会议和呼叫的专用 SKU。
+Microsoft 有一个专用的 SKU，用于为会议室设备（如 Microsoft 球队房间和 Microsoft Surface Hub）授权会议和呼叫每台设备。
 
 ||Microsoft 聊天室 SKU |  
 |:--- |:---: |
@@ -57,13 +57,13 @@ Microsoft 拥有针对会议室设备（如 Microsoft 球队房间和 Microsoft 
 > [!NOTE]
 > [!注释] 要设置的会议室需为用户对象，并且要为其分配这些许可证。
 
-|  | 您有 Microsoft 团队或 Skype for business Online <br/> 需要购买的项目：   |您有 Skype for Business 服务器2015/2019 （本地或混合版）。 <br/> 需要购买的项目：|
+|  | 您有 Microsoft 团队或 Skype for business Online <br/> 您需要购买以下内容：   |您有 Skype for Business 服务器2015/2019 （本地或混合版）。 <br/> 您需要购买以下内容：|
 |:-----|:-----|:-----|
 |加入计划的会议  | 会议室 SKU  |Skype for Business Server 标准 CAL  |
 |启动临时会议 | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
-|启动临时会议并从会议拨打电话号码 |  会议室 SKU |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
+|启动临时会议并从会议拨出到电话号码 |  会议室 SKU |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |为会议室提供电话号码，使用电话号码拨打或接听会议室或加入音频会议  | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
-|通过 Microsoft Intune 管理你的会议室设备 |会议室 SKU  |Microsoft Intune 订阅与[内部部署 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|通过 Microsoft Intune 管理会议室设备 |会议室 SKU  |Microsoft Intune 订阅与[内部部署 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]

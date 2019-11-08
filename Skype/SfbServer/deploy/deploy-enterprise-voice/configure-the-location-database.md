@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233685"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038701"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置位置数据库
  
@@ -29,7 +29,7 @@ ms.locfileid: "36233685"
   
 要配置位置数据库，请执行下列任务：
   
-- 使用网络元素到位置的映射填充数据库。 如果您使用紧急位置识别号码 (ELIN) 网关, 则需要在 " \<公司名称\> " 字段中包含 ELIN。
+- 使用网络元素到位置的映射填充数据库。 如果您使用紧急位置识别号码（ELIN）网关，则需要在 " \<公司名称\> " 字段中包含 ELIN。
     
     如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
     
@@ -49,7 +49,7 @@ ms.locfileid: "36233685"
 |:-----|:-----|
 |**无线访问点** <br/> |\<BSSID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
 |**Subnet** <br/> |\<子\>网\<、\>说明\<、\>位置\<、\>公司\<名称\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
-|**端口** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<Description\>、\<Location\>、\<公司\>名称\<、\>HouseNumber\< 、HouseNumberSuffix\>,.。。  <br/> ...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<省\>/\<市\>/\<自治区、邮政编码该国\>  <br/> |
+|**端口** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix,.。。  <br/> ...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
 |**交换机** <br/> |\<ChassisID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
@@ -89,7 +89,7 @@ ms.locfileid: "36233685"
 3. 运行以下 cmdlet，以将交换机位置添加到位置数据库。
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    另外，可以运行以下 cmdlet，并使用名为“switches.csv”的文件批量更新交换机位置。
@@ -139,7 +139,7 @@ ms.locfileid: "36233685"
 
 只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。
   
-如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录, 并根据需要设置其格式。
+如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录，并根据需要设置其格式。
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 
