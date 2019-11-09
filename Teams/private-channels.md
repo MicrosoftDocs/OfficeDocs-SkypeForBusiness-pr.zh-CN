@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理专用频道。
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969380"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077425"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 团队中的专用频道
 
@@ -112,10 +112,10 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 |编辑设置|否|不适用|不适用|是|否|否|
 |管理选项卡和应用|否|不适用|不适用|是<sup>4</sup>|是<sup>5</sup>|否|
 
-<sup>1</sup>假设您（管理员）配置的策略允许用户创建专用频道。<br>
+<sup>1</sup>假设您的管理员已配置的策略允许用户创建专用频道。<br>
 <sup>2</sup>每个团队都有一个设置，工作组所有者可以打开或关闭该设置以允许工作组成员创建专用频道。 团队所有者始终可以创建专用频道。<br>
-<sup>3</sup>假设专用通道所有者不是频道的最后一个所有者。 <br>
-<sup>4</sup>需要团队为专用信道安装应用才能使用它。<br>
+<sup>3</sup>假设专用频道所有者不是频道的最后一个所有者。 <br>
+<sup>4</sup>要求团队为专用信道安装应用以供使用。<br>
 <sup>5</sup>专用频道所有者可以配置此操作。
 
 ### <a name="manage-private-channel-membership-and-settings"></a>管理专用频道成员身份和设置
@@ -126,7 +126,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 
 ![专用频道设置的屏幕截图](media/private-channels-in-teams-channel-settings.png)
 
-## <a name="manage-the-life-cycle-of-private-channels"></a>管理专用频道的生命周期
+## <a name="manage-the-life-cycle-of-private-channels"></a>管理私人频道的生命周期
 
 请参阅[管理团队中专用频道的生命周期](private-channels-life-cycle-management.md)，获取有关如何管理组织中专用频道生命周期的指南。 这包括如何控制你的组织中的用户是否可以创建专用频道、如何代表团队所有者创建专用通道、如何获取用于存档和审核用途的所有专用通道消息的列表以及其他管理任务。  
 

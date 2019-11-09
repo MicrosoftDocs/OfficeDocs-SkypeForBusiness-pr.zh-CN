@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573458"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074614"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -60,7 +60,7 @@ ms.locfileid: "37573458"
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ ms.locfileid: "37573458"
 |\<ContentCameraEnhancement>  | 布尔 &#x2777; | |当设置为 true （默认值）时，将对内容相机图像进行数字增强：检测白板边缘并选择相应的缩放，墨迹线条将得到增强，并且在白板上书写的人员将变为透明。  <br><br> 如果你打算向会议参与者发送不使用笔绘制白板的空间，而是使用摄像头来显示粘滞便笺、海报或其他媒体，则设置为 false。  |
 | \<主题\>  |容器 |第一 &#x2776;  |可与 XML 文件一起应用的功能之一是组织的自定义主题。 你可以指定主题名称、背景图像和颜色。 |
 |\<ThemeName\> |字符串 &#x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称始终使用 "*自定义*" 名称。 客户端 UI 可在控制台上设置为默认值或其中一个预设，但是使用自定义主题必须由管理员进行远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题，请对 ThemeName 使用 "无主题"。  |
-|\<CustomThemeImageUrl\> |字符串 &#x2778;  ||对于自定义主题是必需的，否则为可选。   |有关自定义主题图像的详细信息，请参阅[自定义主题图像](xml-config-file.md#Themes)部分。
+|\<CustomThemeImageUrl\> |字符串 &#x2778;  ||对于自定义主题是必需的，否则为可选。 仅输入文件名。   |有关自定义主题图像的详细信息，请参阅[自定义主题图像](xml-config-file.md#Themes)部分。
 |\<CustomThemeColor\> |容器 ||\<\>RedComponent \<、\>GreenComponent 和\<BlueComponent\>值的容器。 这些值是自定义主题所必需的。 |
 |\<RedComponent\> |字节 (0-255) ||代表红色组件。 |
 |\<GreenComponent\> |字节 (0-255) ||代表绿色组件。 |

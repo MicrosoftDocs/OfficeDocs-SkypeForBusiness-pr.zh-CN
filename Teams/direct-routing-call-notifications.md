@@ -16,12 +16,12 @@ description: 直接路由呼叫通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595333"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074604"
 ---
 # <a name="manage-call-notifications"></a>管理呼叫通知
 
@@ -43,7 +43,7 @@ ms.locfileid: "37595333"
 
 原因： SIP;原因 = 200; 文本 "通话在别处完成" 
 
-请注意，呼叫将不会在 Microsoft Phone 系统的呼叫详细记录中注册为成功通话。 该呼叫将注册为 "尝试"，最终 SIP 代码为 "487"、最终 Microsoft 子代码 "540200" 和最终 SIP 代码短语 "在别处完成通话"。   （若要查看呼叫详细记录，请转到团队管理员门户、分析和报表、使用情况报告，并选择 PSNT 用法。）
+请注意，呼叫将不会在 Microsoft Phone 系统的呼叫详细记录中注册为成功通话。 该呼叫将注册为 "尝试"，最终 SIP 代码为 "487"、最终 Microsoft 子代码 "540200" 和最终 SIP 代码短语 "在别处完成通话"。   （若要查看呼叫详细记录，请转到团队管理员门户、分析和报表、使用情况报告，并选择 PSTN 使用。）
 
 
 下图显示了分叉1的 SIP 阶梯、解释调用流以及取消消息中的预期原因。 
