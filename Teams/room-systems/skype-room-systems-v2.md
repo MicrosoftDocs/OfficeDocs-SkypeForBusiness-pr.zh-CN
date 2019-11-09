@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Microsoft 团队聊天室中可用的功能。 '
-ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038731"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077415"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
@@ -44,13 +44,16 @@ Microsoft 有一个专用的 SKU，用于为会议室设备（如 Microsoft 球�
 |频道可用性 | EA、EAS、CSP、 <br/>Web Direct |
 | | | |
 
-&sup1;可用性和包含的分钟数可能因地区而异。 若要验证服务可用性，请参阅[音频会议和通话计划的国家和地区可用性](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 对于其他服务（如免费电话、国内计划的国际通话等），可能会收取费用。客户可以禁用这些功能以避免额外帐单。  
+&sup1;可用性和包含的分钟数可能因地区而异。 若要验证服务可用性，请参阅[音频会议和通话计划的国家和地区可用性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 对于其他服务（如免费电话、国内计划的国际通话等），可能会收取费用。客户可以禁用这些功能以避免额外帐单。  
 
 &sup2;在主权云中不可用  
 
 
 > [!NOTE]
-> 如果当前使用的是 E1、E3、E4 和 E5 Sku，并且使用 Skype for Business 独立计划1或 Skype for business 计划2或使用 Office365 Phone 系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证到期后的表中，你应该考虑移到更简单的许可模型。  
+> 如果当前使用的是 E1、E3、E4 和 E5 Sku，并且使用 Skype for Business 独立计划1或 Skype for business 计划2或使用 Office365 Phone 系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证到期后的表中，你应该考虑移到更简单的许可模型。 
+
+> [!IMPORTANT]
+> 如果你使用的是 Skype for Business 计划2，则只能在 Skype for business 模式下使用 Microsoft 团队聊天室，这意味着你的所有会议都将是 Skype for business 会议。 为了为 Microsoft 团队会议启用会议室，我们建议你购买 Microsoft 会议室许可证。 
 
 下表列出了 Microsoft 团队聊天室中提供的功能以及为获得这些功能需要购买的许可证。
   
