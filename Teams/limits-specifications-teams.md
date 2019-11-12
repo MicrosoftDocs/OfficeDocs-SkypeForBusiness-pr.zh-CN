@@ -11,15 +11,16 @@ description: 了解适用于 Microsoft Teams 的限制、规范和其他要求�
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- SPO_Content
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010515"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231093"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -124,7 +125,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 由于 Teams 运行在 SharePoint Online 后端上来实现文件共享，因此 SharePoint 限制适用于团队中的“文件”部分。 下面是一些适用于 SharePoint Online 的存储限制。
 
-|功能                 |Office 365 商业协作版  |Help and training   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
+|功能                 |Office 365 商业协作版  | Office 365 商业高级版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
