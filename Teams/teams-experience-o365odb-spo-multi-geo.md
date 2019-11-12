@@ -12,19 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf2fac5249f2267c7813c1ba12aade279da094f3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe181e7ef55b386d4a6eb40bb7e383ca89a956d9
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570230"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231243"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验
 ===========================================
 
-Microsoft 团队是群组聊天软件，即 Office 365 中团队协作的中心。 它由 Office 365 组服务和 SharePoint Online 和 OneDrive for Business （适用于其文件体验）提供支持。 在 OneDrive for Business/SharePoint Online 多地域租赁中，租户已扩展到许多地理位置（如北美、欧洲和澳大利亚），基础文件体验是多地区感知，因此团队体验文件协作也是多地区感知。 这是团队在其本机文件体验中跨多个 Geos 托管的文件的关键前沿功能。
+Microsoft 团队是群组聊天软件，即 Office 365 中团队协作的中心。 它由 Office 365 组服务和 SharePoint Online 和 OneDrive for Business （适用于其文件体验）提供支持。 在 OneDrive for Business/SharePoint Online 多地域租赁中，租户已扩展到多个地理位置（如北美、欧洲和澳大利亚），基础文件体验是多地区感知，因此团队使用文件协作的体验也很多地区感知。 这是团队在其本机文件体验中跨多个 Geos 托管的文件的关键前沿功能。
 
 例如，在具有欧洲作为卫星地域和北美的 Contoso 租赁中，欧洲卫星用户将在左窗格中的 "文件" 选项卡下看到他或她的 OneDrive 文件，但这些文件在欧洲数据位置和美国托管es 是租户的中心位置。 此外，用户可以在 "最近查看" 视图下访问最近使用过的文件。 "最近使用的文件" 可能包括与用户共享的与其他 Geos 中的用户共享的文件，并且可能会在该租户扩展到的其他地域位置中使用。 
 

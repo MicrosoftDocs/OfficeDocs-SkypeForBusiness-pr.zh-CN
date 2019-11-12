@@ -12,14 +12,15 @@ description: 了解 SharePoint Online 和 OneDrive for Business 如何与 Micros
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968243"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231103"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 

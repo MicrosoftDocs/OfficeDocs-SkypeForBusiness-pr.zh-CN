@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: 了解 Microsoft 团队中的内容搜索以及如何搜索来自 Exchange 的频道对话、来自 SharePoint 的文件上载和修改以及 OneNote 更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968283"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231153"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
@@ -30,7 +31,7 @@ ms.locfileid: "37968283"
 
 若要了解详细信息，请阅读[Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
-例如，针对制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**，您可以从 Exchange、文件上载和 sharepoint Online 的修改中搜索团队标准频道对话。和 OneNote 更改。
+例如，针对制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**，您可以从 Exchange、文件上传和 sharepoint Online 的修改以及 OneNote 更改中搜索团队标准频道对话。
 
 您还可以将查询条件添加到**内容搜索**，以缩小返回的结果范围。 在上面的示例中，你可以查找使用 "**新工厂规范"** 关键字的内容。
 
