@@ -6,26 +6,28 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 4b0375a2710337e3c95755bdd2676bf730e26bad
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436350"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290962"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
-你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 现在你准备添加会议工作负载，其中包括[音频会议](deploy-audio-conferencing-teams-landing-page.md)、视频和分享。 方法如下。 
+你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 现在你准备添加会议工作负载，其中包括[音频会议](deploy-audio-conferencing-teams-landing-page.md)、视频和分享。 本文将引导你推广会议和音频会议。 首先观看我们的 Teams 会议、音频会议和设备视频（3:28 分钟）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
+
+*2019 年 11 月的新增功能*：你现在可以[使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
 
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>会议部署决策
@@ -51,7 +53,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/zh-CN/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/zh-CN/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
