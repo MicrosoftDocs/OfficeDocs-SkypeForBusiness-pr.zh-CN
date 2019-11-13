@@ -16,21 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566994"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290842"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
 
 若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”****，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
-如果是第一次使用 Teams 且想要了解详细信息，请观看短视频“欢迎使用 Teams”（55 秒）。
+如果是第一次使用 Teams 且想要了解详细信息，请观看短视频“[欢迎使用 Teams](https://www.youtube.com/embed/s3aQV3T0D6c)”（55 秒）。
 
-> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+不要错过我们的视频“欢迎使用 Teams（针对 Teams 管理员）”（3 分多钟）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## <a name="teams-architecture"></a>Teams 体系结构
 
