@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571930"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290932"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
 
 ## <a name="overview"></a>概述
+
+本文概述了 Microsoft 团队管理中心中的团队管理工具。 开始观看此简短视频（3分钟）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 作为管理员，你可能需要查看或更新你的组织为协作设置的团队，或者你可能需要执行补救操作，例如分配 ownerless 团队的所有者。 你可以通过 Microsoft 团队 PowerShell 模块和 Microsoft 团队管理中心管理组织中使用的团队。 对于使用这两个工具集的完全管理功能，您应该确保已为您分配了下列角色之一：
 
@@ -35,13 +39,13 @@ ms.locfileid: "37571930"
 
 可以在[使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)的团队中了解有关管理员角色的详细信息，还可以阅读有关如何使用 PowerShell cmdlet 来管理[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队的详细信息。
 
-本文概述了 Microsoft 团队管理中心中的团队管理工具。
+
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
 团队的管理工具位于 Microsoft 团队管理中心的 "**团队**" 节点下。 （在管理中心中，选择 "**团队** > **管理团队**"。）每个团队由 Office 365 组支持，并且此节点提供已在你的组织中启用了 Microsoft 团队的组的视图。
 
-![团队概述网格的屏幕截图](media/manage-teams-in-modern-portal-grid.png)  
+!["团队概述" 网格的屏幕截图](media/manage-teams-in-modern-portal-grid.png)  
 
 网格显示以下属性：
 
@@ -69,7 +73,7 @@ ms.locfileid: "37571930"
 
 ### <a name="archive"></a>存档
 
-您可以存档团队。 存档团队会将团队置于团队内的只读模式。 作为管理员，你可以在管理中心中代表你的组织存档和 unarchive 团队。 
+您可以存档团队。 存档团队会将团队置于团队内的只读模式。 作为管理员，你可以代表你的组织在管理中心中存档和取消存档团队。 
 
 ### <a name="delete"></a>删除
 
@@ -116,7 +120,7 @@ ms.locfileid: "37571930"
 
 在查询中使用 **"[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet 作为 "**ExternalDirectoryObjectId**" 属性替换 **{Groupid}** ，它可以通过 Exchange Online powershell 获得相关实际的 groupid。
 
-1. Access [Graph 资源管理器](https://developer.microsoft.com/en-us/graph/graph-explorer)。
+1. Access [Graph 资源管理器](https://developer.microsoft.com/graph/graph-explorer)。
 
 2. 在左侧菜单中登录到图形资源管理器。
 

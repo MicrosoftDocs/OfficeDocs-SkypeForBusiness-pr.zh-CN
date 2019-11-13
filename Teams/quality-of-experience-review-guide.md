@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568374"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290972"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -62,15 +62,17 @@ _图 1-本指南中涵盖的关键操作区域_
 
 使用本指南之前，请确保你已分配正确的租户[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)，以便你可以访问 CQD。
 
--   **Office 365 全局管理员角色** 
+-   **Office 365 全局管理员** 
 
--   **Skype for Business 管理员角色** 
+-   **Skype for Business 管理员** 
 
--   **团队服务管理员角色** 
+-   **Teams 服务管理员** 
 
--   **团队通信支持工程师角色** 
+-   **Teams 通信管理员** 
 
--   **团队沟通支持专家角色** 
+-   **Teams 通信支持工程师** 
+
+-   **团队沟通支持专家** 
 
 或者，你可以将以下角色分配给 Office 365 用户帐户，以仅允许访问报告功能。
 
@@ -227,7 +229,7 @@ _图 3-团队和 Skype for business Online 部署的关键类别_
 
 #### <a name="service-management-tasks"></a>服务管理任务
 
-在 cloud-first world 中，你必须执行某些服务管理任务来保持高质量的用户体验。 这些任务范围包括365：确保有足够的带宽来联系服务，但没有饱和 internet 链接，验证所有托管网络区域的服务质量（QoS）是否存在，以及-在[防火墙](https://aka.ms/o365ips)。
+在 cloud-first world 中，你必须执行某些服务管理任务来保持高质量的用户体验。 这些任务范围包括：确保有足够的带宽来联系服务，但没有饱和 internet 链接，验证所有托管网络区域的服务质量（QoS）是否存在，并在防火墙上的[Office 365 IP 范围](https://aka.ms/o365ips)内保持最高。
 
 #### <a name="network-tasks"></a>网络任务
 
@@ -265,9 +267,6 @@ _图 3-团队和 Skype for business Online 部署的关键类别_
 
 使用呼叫质量仪表板（CQD）可深入了解使用团队和 Skype for business 服务进行的通话的质量。 CQD 旨在帮助 Skype for business 和团队管理员和网络工程师优化网络，保持密切关注的质量、可靠性和用户体验。 CQD 查看整个组织的聚合遥测，其中整体模式可能会变得显而易见，使员工能够做出明智的评估和计划补救活动以最大限度地提高影响。 CQD 提供了有助于深入了解整体质量、可靠性和用户体验的指标的报告。
 
-> [!Note]
-> CQD 不包含任何个人身份信息（PII）。 PII 是可以自行使用或与其他信息一起使用的信息，用于标识、联系或查找单个人员，或者标识上下文中的单个人员。
-
 本指南将帮助您了解 CQD 的核心概念，以帮助最大程度地提高用户利用团队或 Skype for business 在线体验的影响。 在[附录](#other-resources)中可以找到其他 CQD 资源。
 
 ### <a name="expectations-using-cqd"></a>使用 CQD 的期望值
@@ -277,18 +276,15 @@ CQD 虽然对分析趋势和子网很有用，但并不总是为给定方案提�
 -   CQD 不会为每个方案提供根本原因。
 -   CQD 不能包含电话系统或音频会议流。
 -   CQD 将根据趋势分析要进一步调查的区域。
--   CQD 不包含任何 PII。
 
 ### <a name="report-editions"></a>报表版本
 
-CQD Online 中有两个报表版本： "摘要" 和 "详细信息"。 使用位于屏幕顶部的蓝色栏中的下拉菜单打开报告版本。 所选报告版本的名称将显示在屏幕顶部。
+CQD Online 中有两个报表版本： "摘要" 和 "详细信息"。 使用位于屏幕顶部的栏中的下拉菜单打开报告版本。 所选报告版本的名称将显示在屏幕顶部。
 
 -   摘要报表是静态报表，不能对其进行编辑、下载或导出。 
 -   详细报告可以完全自定义，并且可以下载到 CSV 文件、导出或克隆。
 
 有关这两个版本之间区别的完整说明，请参阅[本文](turning-on-and-using-call-quality-dashboard.md)。
-
-![已选中摘要报表的下拉菜单的屏幕截图](media/qerguide-image-reportcategories.png)
 
 _图 4-CQD 报表类别_
 
@@ -801,36 +797,6 @@ _图 17-缺少生成报告_
 
 虽然网络规划器不会完全自动自动生成映射过程，但在将网络信息输入网络 Planner 后，可以将其导出到准备上载的构建文件。
 
-## <a name="diagnostic-alerts"></a>诊断警报
-
-Microsoft 主动监控 CQD 遥测，为对用户体验产生负面影响的已知问题创建诊断警报。 然后，通过消息中心将这些警报自动发送给服务管理员。 下表概述了 "消息中心" 中显示的诊断警报以及指向详细信息的链接。
-
-_表 6-诊断警报_
-
-| 警报                                                                | 更多信息             |
-|----------------------------------------------------------------------|------------------------------|
-| 正在使用的已知性能不佳的客户端版本                   | [客户端版本](#client-versions)              |
-| 音频驱动程序导致呼叫中断                                 | [Devices](#devices)                      |
-| 防火墙中的限制导致呼叫设置失败         | [设置失败调查](#setup-failure-investigations) |
-| 深层数据包检测导致呼叫设置失败                | [设置失败调查](#setup-failure-investigations) |
-| Wi-fi 网络上的会议室设备导致通话质量不佳 | [质量调查](#quality-investigations)       |
-| UDP 流量受到限制，导致通话质量较差         | [TCP](#tcp)                          |
-| VPN 使用会影响呼叫质量                                  | [质量调查](#quality-investigations)       |
-
-
-### <a name="message-center"></a>消息中心
-
-消息中心会提醒你新的更新、功能或问题。 消息中心在 Microsoft 365 管理中心内提供给服务管理员。 每篇文章都提供了有关更新、功能或问题对用户的影响的高级概述，并提供了更详细信息的链接。
-
-若要打开 "消息中心"，请在 "Microsoft 365 管理中心" 中，转到 "**运行状况** > **消息中心**"，或在 "**开始**" 仪表板上选择 "消息中心" 卡。 仪表板显示最近三封已发布的邮件，并链接到完整的 "邮件中心" 页面。
- 
-
-![消息中心屏幕截图，显示最近三次发布的消息](media/qerguide-image-messagecentercard.png)
-
-_图 18-消息中心卡_
-
-你还可以使用移动设备上的[Office 365 管理应用](https://go.microsoft.com/fwlink/p/?linkid=627216)来查看消息中心，这是使用推送通知保持最新的绝佳方式。 有关详细信息，请参阅[本文](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093)。
-
 ## <a name="reliability-investigations"></a>可靠性调查
 
 提高质量的第一步是评估整个组织的可靠性状态。 由于可靠性对于积极的用户体验至关重要，因此我们从衡量可靠性的两个组件开始：
@@ -884,10 +850,6 @@ _图 19-音频可靠性流设置失败_
 ![显示设置失败的屏幕截图](media/qerguide-image-setupfailuresbysubnet.png)
 
 _图 20-子网的音频设置故障_
-
-##### <a name="diagnostic-alert"></a>诊断警报
-
-如果收到诊断警报 "防火墙中的限制导致呼叫设置失败" 或 "深入数据包检测导致呼叫设置失败"，请首先将补救措施集中在这些已识别的子网上。 警报已识别出对呼叫可靠性有负面影响的子网。 你可以使用 "可靠性" 部分中的 "安装失败" 报告来帮助解决此问题。
 
 ##### <a name="remediation"></a>修正 
 
@@ -956,7 +918,7 @@ _图22–通过子网丢弃故障_
 -   较旧的客户端版本
 -   用户行为
 
-发现你的问题区域后，你可以使用[调用分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)进一步查看该构建中特定问题的用户。 调用分析包含 PII 数据，并且对于进一步隔离放置失败的潜在原因也很有用。
+发现你的问题区域后，你可以使用[调用分析](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)进一步查看该构建中特定问题的用户。 调用分析包含其他 PII 数据，并且对于进一步隔离放置失败的潜在原因非常有用。
 
 无论您的下一步如何，都是将已发现特定建筑物或子网的问题通知帮助台的好做法。 通过这种方式，他们可以快速响应传入的呼叫并更高效地会审用户。 然后，可向工程团队报告已标记的用户，以便进一步调查。
 
@@ -1025,12 +987,6 @@ _图 23-音频质量-会议_
 ![显示较差音频流摘要的屏幕截图](media/qerguide-image-poorqualitysummary.png)
 
 _图 24-通过构建和子网会议进行不良音频流摘要_
-
-##### <a name="diagnostic-alert"></a>诊断警报
-
-如果收到诊断通知 "Wi-fi 网络上的会议室设备导致通话质量不佳，" 在您的补救措施中包括并确定这些设备的优先级。 此警报已确定 Wi-fi 上的会议室，这些会议室主动导致通话质量不佳。
-
-如果收到诊断通知 "VPN 使用影响呼叫质量"，请调查拆分隧道解决方案以绕过 VPN 装置，并允许媒体直接连接到该服务。 通知已确定 VPN 对呼叫质量有负面影响。
 
 ##### <a name="remediation"></a>修正
 
@@ -1116,10 +1072,6 @@ _图 26-TCP 与 UDP-会议_
 
 _图 27-通过构建和子网会议的 TCP 流_
 
-##### <a name="diagnostic-alert"></a>诊断警报
-
-如果收到诊断警报 "UDP 流量受到限制，导致通话质量较差"，请先将 TCP 补救措施重点放在这些子网上。 该警报已识别使用 TCP 对呼叫质量产生负面影响的子网。
-
 ##### <a name="remediation"></a>修正
 
 此报表标识对 TCP 使用量有影响的特定建筑物和子网。 还包含一个其他报告，用于识别在通话中使用的 Microsoft 中继 IP，以帮助隔离缺少的防火墙规则。 将您的补救措施集中在具有最高 TCP 流数量的建筑物上，以最大限度地提高影响。
@@ -1159,7 +1111,7 @@ _图 28-具有 HTTP 代理使用的音频流_
 
 如果你的组织中只有一个 internet 代理，请验证正确的[Office 365 url 和 IP 地址范围排除](https://aka.ms/o365ips)。 如果您的组织中配置了多个 internet 代理，请使用 HTTP 子报告隔离受影响的建筑物或子网。
 
-对于无法绕过代理的组织，请确保将 Skype for business 客户端配置为在代理之后正确登录，如下所述： [skype For business 应使用代理服务器登录，而不是直接尝试连接](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)。 
+对于无法绕过代理的组织，请确保将 Skype for business 客户端配置为在代理之后正确登录，如下所述： [skype For business 应使用代理服务器登录，而不是尝试直接连接](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)。 
 
 
 #### <a name="http-proxy-investigations"></a>HTTP 代理调查
@@ -1209,10 +1161,6 @@ HTTP 使用的最常见原因是代理中缺少异常规则。 通过使用提�
 ![客户端和设备报表的屏幕截图](media/qerguide-image-clientversionreport.png)
 
 _图 30-客户端版本报告_
-
-#### <a name="diagnostic-alert"></a>诊断警报
-
-如果收到诊断警报 "正在使用已知的性能较好的客户端版本"，请首先重点更新这些客户端。 此警报表明这些客户对您的通话质量有负面影响。 你可以使用客户端 & "设备" 报表（如上所示）来帮助确保不再更新存在已知问题的客户端。
 
 #### <a name="remediation"></a>修正
 
@@ -1265,10 +1213,6 @@ Skype for Business 的版本号可通过以下链接找到：
 ![设备（麦克风）报告的屏幕截图](media/qerguide-image-devicesmicrophone.png)
 
 _图 31-设备（麦克风）报告_
-
-##### <a name="diagnostic-alert"></a>诊断警报
-
-如果收到诊断警报 "音频驱动程序导致呼叫中断"，请首先重点纠正这些驱动程序。 警报已识别出已知的错误驱动程序导致呼叫中断，并且对呼叫可靠性有负面影响。 你可以使用 "客户端 & 设备" 部分中的麦克风驱动程序报告（如上所示）来帮助处理该过程。
 
 ##### <a name="remediation"></a>修正
 
