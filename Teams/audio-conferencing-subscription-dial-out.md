@@ -20,18 +20,22 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '客户已提供一项免费拨出功能，该功能将于2019年11月30日结束。  从2019年12月1日起，每个音频会议套餐将每月每个用户的60分钟数提供给本文档中所述的任何国家/地区。 '
-ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515877"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311267"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音频会议订阅 "拨出"/"呼叫我" 分钟数的好处
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft 团队和 Skype for business PSTN 音频会议
 
 客户已提供一[项免费拨出功能](complimentary-dial-out-period.md)，该功能将于2019年11月30日结束。 从2019年12月1日起，每个音频会议套餐每月提供60分钟，可用于拨打本文档中所述的任何区域中的非 premium 号码。 租户拨出分钟池大小取决于*分配*的许可证和未购买的许可证。 此优势适用于*每月*套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。 
+
+> [!NOTE]
+> 免费拨出期的结束时间将不会在音频会议订阅的2019年11月30日进行，但目前我们不提供设置通讯信用点数的功能。 这些特定国家是俄罗斯、韩国和台湾。
+
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>音频会议 "从会议拨出" & "详细信息，请致电我"
 
@@ -56,7 +60,7 @@ ms.locfileid: "37515877"
 
 ## <a name="how-are-minute-pools-calculated"></a>如何计算分钟池？
 
-请考虑以下示例。 客户已购买115音频会议套餐，在美国100、英国用户和津巴布韦的5名用户中有10名用户，并分配了 "音频会议订阅许可证"。 所有115用户共享一个（115用户 x 60 min = 6900 会议拨出分钟数分钟）将出站呼叫放入国家/地区的任何区域中的非 premium 号码，*无论*会议组织者的许可或物理位置如何后面. 例如，津巴布韦会议组织者将能够拨出到最大为分钟池限制的任何国家/地区的任何区域。 
+请考虑以下示例。 客户已购买115音频会议套餐，在美国100、英国用户和津巴布韦的5名用户中有10名用户，并分配了 "音频会议订阅许可证"。 所有115用户共享一个（115用户 x 60 min = 6900 会议拨出分钟数分钟）将出站呼叫放入国家/地区的任何区域中的非 premium 号码，*无论*会议组织者的许可或物理位置如何。 例如，津巴布韦会议组织者将能够拨出到最大为分钟池限制的任何国家/地区的任何区域。 
 
 - 每个日历月超过6900分钟的所有拨出通话均按分钟计费，使用通信信用点数按我们的已发布费率传输到目标。 （注意：客户必须设置[通讯信用点数](what-are-communications-credits.md)，并向会议组织者分配通讯信用许可证。）
 - 对不在区域中的目的地的所有拨出通话按分钟计费，使用通讯信用点数按分钟计费到目的地（前提是客户设置了通讯信用点数并分配了 "信用点数" 许可证会议组织者）。

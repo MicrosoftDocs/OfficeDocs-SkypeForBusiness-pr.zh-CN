@@ -1,7 +1,7 @@
 ---
 title: 设置云自动助理
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972473"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318116"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -103,7 +103,7 @@ ms.locfileid: "37972473"
 
 <a name="timezone"> </a>
 
-![数字3的图标（上一个屏幕截图](media/teamscallout3.png) **时区**中的标注）您需要为自动助理设置时区。 该设置可以与为你的组织列出的主地址或不同时区的主地址的时区相同。 每个自动助理都可以具有不同的时区。 为自动助理设置的 "营业时间" 还使用 "时区"。
+![数字3的图标（上一个屏幕截图](media/teamscallout3.png) **时区**中的标注）您需要为自动助理设置时区。 该设置可以与为你的组织列出的主地址或不同时区的主地址的时区相同。 每个自动助理都可以具有不同的时区。 为自动助理设置的 "营业时间" 还使用 "时区"。 请确保设置正确的时区以避免工作时间差异，因为并非所有地区都有夏时制。 
 
 * * *
 
@@ -249,7 +249,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 - 拨号作用域
 - 资源帐户
 
-由于自动助理需要拥有资源帐户，因此你可以选择继续到 "**资源帐户**" 页面并关联已配置的资源帐户，或者创建资源帐户并将其关联到 "自动"有关 "[管理 Microsoft 团队中的资源帐户"](manage-resource-accounts.md)中所述的助理。 您将无法使用此自动助理，直到它已与资源帐户相关联。 若要执行此操作，请单击屏幕底部的 "**下一步**" 按钮，然后单击左侧导航中的 "**资源帐户**" 以直接转到 "资源帐户" 页面，并将自动助理与资源帐户相关联。
+由于自动助理需要拥有资源帐户，因此你可以选择继续到 "**资源帐户**" 页面并关联已配置的资源帐户，或者创建资源帐户并将其与自动助理相关联，如 "[管理 Microsoft 团队中的资源帐户](manage-resource-accounts.md)" 中所述。 您将无法使用此自动助理，直到它已与资源帐户相关联。 若要执行此操作，请单击屏幕底部的 "**下一步**" 按钮，然后单击左侧导航中的 "**资源帐户**" 以直接转到 "资源帐户" 页面，并将自动助理与资源帐户相关联。
 
 #### <a name="advanced-settings-optional"></a>高级设置（可选）
 
@@ -273,7 +273,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注选择 "**清除所有小时**" 以完全清除该计划。 不建议选择此项并保留未设置的小时，因此，仅当你想要完全恢复你的工作时间时，请使用此选项。
 
-![数字4的图标，第4个屏幕截图](media/teamscallout4.png)  ![图标中的标注，前一个屏幕截图](media/teamscallout5.png)中的标注自定义一周中某一天的开始或结束时间，单击要重置的**开始**或**结束**时间，然后从显示的列表中选择新时间。 该列表允许你按15分钟的间隔选择营业时间，你在此处选择的工作时间基于你在 "**常规信息**" 页面上设置的时区。
+![数字4的图标，第4个屏幕截图](media/teamscallout4.png)![图标中的标注，第一个屏幕截图](media/teamscallout5.png)中的标注自定义一周中某一天的开始或结束时间，单击要重置的 "**开始**" 或 "结束" 时间，然后从显示的列表中选择新时间。 ****   该列表允许你按15分钟的间隔选择营业时间，你在此处选择的工作时间基于你在 "**常规信息**" 页面上设置的时区。
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 假日通话流名称最长可以为64个字符，并且对于组织必须是唯一的。 例如，在同一个组织中，您不能有两个假期通话流，名为 "感恩节"。 您的自动助理可以为您设置的每个假日都有一个呼叫流，但您可能希望具有计划的一组通用的行为，而不是自定义的问候语。
 
-![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注。可用于假日呼叫流的[问候语](#call-flow)选项与工作时间内可用的选项相同。 在播放问候语后执行的**操作**也类似，不同之处在于仅有的可用操作是 "**断开连接** **" 或 "重**定向到" 选项，并且当选择 "**重定向到**" 选项时，操作员不是可用选项之一. 您不能设置特定于节日流的菜单。
+![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注。可用于假日呼叫流的[问候语](#call-flow)选项与工作时间内可用的选项相同。 在播放问候语后执行的**操作**也类似，不同之处在于仅有的可用操作是 "**断开连接** **" 或 "重**定向到" 选项，并且当选择 "**重定向到**" 选项时，操作员不是可用选项之一。 您不能设置特定于节日流的菜单。
 
 > [!NOTE]
 > 默认情况下，节假日期间收到的所有通话均设置为在问候语后**断开**（如果有），因此，如果需要自定义行为，则必须指定重定向。
@@ -414,11 +414,11 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [为什么要使用 Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [为什么要使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如为多个用户同时进行设置更改。 通过以下主题了解这些优势：
 
-  - [通过 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [通过 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 了解如何启用 AppLocker 应用程序控制策略的团队桌面客户端应用程序。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516769"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311247"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 团队中的应用程序控制策略 AppLocker
 
@@ -38,11 +38,12 @@ AppLocker 规则组织为规则集合。 AppLocker 规则适用于目标应用�
 
 ### <a name="example-of-publisher-condition-rules"></a>Publisher 条件规则的示例
 
-对于团队客户端应用（所有文件，所有版本）：
+对于团队客户端应用（所有文件，所有版本），请将以下内容添加到可执行规则 & DLL 规则：
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
+Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>相关主题

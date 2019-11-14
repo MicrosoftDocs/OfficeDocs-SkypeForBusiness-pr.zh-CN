@@ -15,12 +15,12 @@ description: 获取有关解决和解决 Microsoft 团队中的来宾访问问�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754358"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311257"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>解决 Microsoft 团队中的来宾访问问题
 ======================================================
@@ -45,8 +45,11 @@ ms.locfileid: "37754358"
 - 来宾许可证按邀请的组织计入。 当你计算所需的许可证数量时，请考虑此情况。
 - 根据您的组织统计许可证，无论受邀的来宾来自其他 Office 365 租户还是使用其个人电子邮件地址。
 
+## <a name="support-for-b2b-user-types"></a>对 B2B 用户类型的支持
+当前团队仅支持[由 AZURE B2B 定义](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)的状态1和状态2类型的来宾用户。
+
 ## <a name="related-topics"></a>相关主题
 
-[团队中的来宾访问](guest-access.md)
+[Teams 中的来宾访问](guest-access.md)
 
 

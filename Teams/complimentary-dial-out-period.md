@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 客户可以使用 Skype for Business Online 中允许的 Office 365 呼叫计划和 Office 365 音频会议，并且 Microsoft 团队 PSTN 服务使用条款和客户批量许可协议。
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516893"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311227"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>试用拨出期结束
 
 从2019年12月1日起，即将结束免费拨出功能。 请参阅 "[音频会议套餐拨出" 并给我](audio-conferencing-subscription-dial-out.md)提供其他详细信息的好处。 
+
+此项更改不会在音频会议订阅可用的国家/地区进行，但目前还不提供设置通讯信用点数的功能。 这些特定国家是俄罗斯、韩国和台湾。
 
 ### <a name="complimentary-dial-out-period-details"></a>免费拨出期的详细信息
 
