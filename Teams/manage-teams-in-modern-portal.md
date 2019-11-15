@@ -16,21 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290932"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627028"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
 
 ## <a name="overview"></a>概述
 
-本文概述了 Microsoft 团队管理中心中的团队管理工具。 开始观看此简短视频（3分钟）：
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+本文概述了 Microsoft 团队管理中心中的团队管理工具。
 
 作为管理员，你可能需要查看或更新你的组织为协作设置的团队，或者你可能需要执行补救操作，例如分配 ownerless 团队的所有者。 你可以通过 Microsoft 团队 PowerShell 模块和 Microsoft 团队管理中心管理组织中使用的团队。 对于使用这两个工具集的完全管理功能，您应该确保已为您分配了下列角色之一：
 

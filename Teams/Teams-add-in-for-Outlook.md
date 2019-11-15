@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563319"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626978"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -36,9 +35,11 @@ ms.locfileid: "37563319"
 ![Outlook 功能区上的团队会议外接程序的屏幕截图](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 执行 Regsvr32 文件的用户权限是在计算机上安装团队会议加载项的最低要求。
 > - 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
 > - Windows 7 用户必须在 Windows for windows 中安装适用于 windows 的[通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，团队会议外接程序才能正常工作。
-> - 如果您使用的是 Microsoft Store 中的 Office Outlook 安装，则不支持团队会议加载项。 建议使用此加载项的用户安装即点即用版本的 Office，如[Windows 10 中的 office On S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。 
+> - 如果您使用的是 Microsoft Store 中的 Office Outlook 安装，则不支持团队会议加载项。 建议使用此加载项的用户安装即点即用版本的 Office，如[Windows 10 中的 office On S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac 中的团队会议外接程序
 
@@ -99,10 +100,10 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 | 团队管理中心中的共存模式 | Outlook mobile 中的默认会议提供商 |
 | --------------------------------------|---------------------------------------------|
 | 群岛 | Skype for Business |
-| 仅限 Skype for business | Skype for Business |
+| 仅 Skype for Business | Skype for Business |
 | 具有团队协作的 Skype for Business | Skype for Business |
 | 具有团队协作和会议的 Skype for business | Teams |
-| 仅限团队 | Teams |
+| 仅 Teams | Teams |
 
 ## <a name="other-considerations"></a>其他考虑事项
 
@@ -123,7 +124,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 请确保登录的用户帐户名称不包含空格。 （这是一个已知问题，将在将来的更新中修复。）
 - 请确保启用单一登录（SSO）。
 
-如果管理员已将 Microsoft Exchange 配置为[控制对 Exchange Web 服务器（EWS）的访问](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人将无法代表上司安排团队会议。 此配置的解决方案正在开发中，将在将来发布。 
+如果管理员已将 Microsoft Exchange 配置为[控制对 Exchange Web 服务器（EWS）的访问](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人将无法代表上司安排团队会议。 此配置的解决方案正在开发中，将在将来发布。 
 
 有关如何禁用外接程序的一般指导，请参阅[在 Office 程序中查看、管理和安装外接程序](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
 

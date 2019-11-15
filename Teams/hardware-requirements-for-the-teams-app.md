@@ -17,14 +17,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979705"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638702"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
+
+以下部分中的所有要求均适用于团队桌面应用和团队 Web 应用。
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Windows 电脑上的团队桌面应用的硬件要求
 
