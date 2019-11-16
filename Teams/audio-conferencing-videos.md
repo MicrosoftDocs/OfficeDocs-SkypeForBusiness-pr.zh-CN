@@ -17,26 +17,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37515962"
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="4bf75-103">视频 Microsoft Teams 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="4bf75-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="23588-103">视频 Microsoft Teams 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="23588-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> <span data-ttu-id="4bf75-104">音频会议以前称为 PSTN 会议</span><span class="sxs-lookup"><span data-stu-id="4bf75-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="23588-104">音频会议以前称为 PSTN 会议</span><span class="sxs-lookup"><span data-stu-id="23588-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
-### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="4bf75-105">音频会议简介</span><span class="sxs-lookup"><span data-stu-id="4bf75-105">Introduction to Audio Conferencing</span></span>
+### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="23588-105">音频会议简介</span><span class="sxs-lookup"><span data-stu-id="23588-105">Introduction to Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AGPvaW4Vg0o]
 
-### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="4bf75-106">规划音频会议</span><span class="sxs-lookup"><span data-stu-id="4bf75-106">Plan for Audio Conferencing</span></span>
+### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="23588-106">规划音频会议</span><span class="sxs-lookup"><span data-stu-id="23588-106">Plan for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AWbuvcWcYIc]
 
-### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="4bf75-107">音频会议的携号转网</span><span class="sxs-lookup"><span data-stu-id="4bf75-107">Number porting for Audio Conferencing</span></span>
+### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="23588-107">音频会议的携号转网</span><span class="sxs-lookup"><span data-stu-id="23588-107">Number porting for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/5k0C21KAsns]
