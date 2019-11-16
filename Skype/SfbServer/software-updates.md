@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 查找并管理 Skype for Business Server 或 Lync 2013 的更新。 使用链接获取详细信息，然后下载更新。
-ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35746447"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38311217"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business 下载和更新
 
@@ -24,12 +24,12 @@ ms.locfileid: "35746447"
 
 - 包含以下部分的 [Skype for Business 客户端更新](sfb-client-updates.md)：
     - [Skype for Business 2016 客户端更新](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Skype for Business 2015 客户端更新](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mac 版 Skype for Business 客户端更新](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
-    - [Lync 2013 客户端更新](sfb-client-updates.md#lync-2013-client-updates)
+    - [Skype for Business 2015 客户端更新](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Mac 版 Skype for Business 客户端更新](sfb-client-updates.md)
+    - [Lync 2013 客户端更新](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
         - [Lync Phone Edition 更新](sfb-client-updates.md#lync-phone-edition-updates)
         - [下载中心上的 Lync Phone Edition 客户端](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
-        - [Lync Basic 2013 试用版软件](sfb-client-updates.md#trial-software)
+        - [Lync Basic 2013 试用版软件](sfb-client-updates.md)
     - [Lync for Mac 2011 客户端更新](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 客户端更新](sfb-client-updates.md#lync-2010-client-updates)
         - [Lync 2010 Attendant 更新](sfb-client-updates.md#lync-2010-attendant-updates)
