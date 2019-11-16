@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: 24dcec21b9bc2fdb65f63fa21412bbf0f5503c1f
-ms.sourcegitcommit: c782999728e8adae51c52d122700d3e8fa651fdb
+ms.openlocfilehash: 21f60c95c556e9fd006d378a0ff7b48dd0b1b6c2
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38019945"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675760"
 ---
 # <a name="content-cameras"></a>内容照相机
 
@@ -24,7 +24,7 @@ ms.locfileid: "38019945"
 
 有关内容照相机功能的示例，请参阅以下视频。
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>设置内容相机
 

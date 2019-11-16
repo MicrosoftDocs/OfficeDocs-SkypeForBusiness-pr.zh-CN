@@ -15,10 +15,10 @@ description: 了解团队中的跨团队分析和每个团队分析，这使用�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569700"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>查看 Teams 中的跨团队和每团队分析

@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37567957"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
@@ -27,7 +27,7 @@ ms.locfileid: "37567957"
 > [!Tip]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
-若要使用 System Center Configuration Manager 或组策略或任何第三方分发机制进行广泛的部署，Microsoft 提供了 MSI 文件（ [32 位](https://aka.ms/teams32bitmsi)和[64 位](https://aka.ms/teams64bitmsi)），管理员可使用这些文件批量部署团队进行选择用户或计算机。 管理员可以使用这些文件远程部署团队，以便用户不必手动下载团队应用。 部署后，团队将为登录到该计算机的所有用户自动启动。 （您可以在安装应用后禁用自动启动。 [请参阅下文](#disable-auto-launch-for-the-msi-installer)。）我们建议你将程序包部署到计算机，以便计算机的所有新用户也将受益于此部署。 
+若要使用 System Center Configuration Manager 或组策略或任何第三方分发机制进行广泛的部署，Microsoft 提供了 MSI 文件（ [32 位](https://aka.ms/teams32bitmsi)和[64 位](https://aka.ms/teams64bitmsi)），管理员可以使用这些文件批量部署团队以选择用户或计算机。 管理员可以使用这些文件远程部署团队，以便用户不必手动下载团队应用。 部署后，团队将为登录到该计算机的所有用户自动启动。 （您可以在安装应用后禁用自动启动。 [请参阅下文](#disable-auto-launch-for-the-msi-installer)。）我们建议你将程序包部署到计算机，以便计算机的所有新用户也将受益于此部署。 
 
 团队还可以包含在 Office 365 专业增强版的部署中。 有关详细信息，请参阅[部署 Microsoft 团队和 Office 365 专业增强版](https://docs.microsoft.com/deployoffice/teams-install)。
  

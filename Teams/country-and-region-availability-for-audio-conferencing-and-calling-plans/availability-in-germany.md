@@ -25,10 +25,10 @@ ms.custom:
 - Calling Plans
 description: 以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
 ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569878"
 ---
 # <a name="availability-in-germany"></a>在德国的可用性

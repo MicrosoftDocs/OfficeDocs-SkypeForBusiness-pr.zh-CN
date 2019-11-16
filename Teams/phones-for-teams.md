@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 的电话功能
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -14,16 +14,16 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573305"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675386"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
-Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。 若要获取有关团队认证的设备的最新信息和最新信息，请转到[团队市场](http://office.com/teamsdevices)。
+Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。 若要获取有关团队认证的设备的最新信息和最新信息，请转到[团队市场](https://office.com/teamsdevices)。
 
 ## <a name="teams-certified-ip-phones"></a>团队认证的 IP 电话
 
@@ -139,12 +139,12 @@ Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问�
 
 ## <a name="required-licenses"></a>所需的许可证
 
-Microsoft 团队许可证可以作为其[Office 365 订阅](Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/en-us/microsoft-teams/voice-calling)。
+Microsoft 团队许可证可以作为其[Office 365 订阅](Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>另请参阅
 
-[团队市场](http://office.com/teamsdevices)
+[团队市场](https://office.com/teamsdevices)
 
 [适用于 Microsoft 团队的 IP 手机认证](teams-ip-phones.md)

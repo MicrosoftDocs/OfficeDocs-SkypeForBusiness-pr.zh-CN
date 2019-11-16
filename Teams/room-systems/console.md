@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Microsoft 团队聊天室控制台及其外围设备。
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569903"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675770"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
 
@@ -99,7 +99,7 @@ CreateSrsMedia 脚本自动执行以下任务：
 在创建者的更新中，你需要使用 ApplyCurrentRegionAndLanguage 脚本，其中隐式语言选择不向用户提供所需的实际应用程序语言（例如，他们希望控制台应用使用法语，但它将以英语提供。
   
 > [!NOTE]
-> 以下说明仅适用于使用 Windows 创建者更新创建的控制台。 未使用新预配系统的媒体设置的旧/市场系统将无法使用这些说明，但也不会受到需要此手动干预的初始问题（周年纪念版本允许你选择在安装程序中显式应用语言。
+> 以下说明仅适用于使用 Windows 创建者更新创建的控制台。 未使用新预配系统的媒体设置的旧/市场系统将无法使用这些说明，但也不会受到需要此手动干预的初始问题（周年纪念版本允许你在设置过程中显式选择应用语言）。
   
 ### <a name="to-apply-your-desired-language"></a>应用你需要的语言
 
@@ -142,7 +142,7 @@ CreateSrsMedia 脚本自动执行以下任务：
 
 安装 Windows 后，Microsoft 团队聊天室控制台应用将在下一次启动时转到其初始设置过程或选择了/reboot 选项。
   
-1. 将显示“用户帐户”屏幕。 输入要与控制台一起使用的房间帐户的 Skype 登录地址（用户 @ 域格式）。
+1. 将显示“用户帐户”屏幕。 输入要与控制台一起使用的房间帐户的 Skype 登录地址（user@domain 格式）。
     
 2. 输入会议室帐户的密码，再重新输入以进行确认。
     
@@ -162,7 +162,7 @@ CreateSrsMedia 脚本自动执行以下任务：
     
 6. 单击“**完成**”。
     
-Microsoft 团队聊天室控制台应用应立即开始使用上面输入的凭据登录到 Skype for Business 服务器，还应开始使用这些相同的凭据与 Exchange 同步其日历。 有关使用控制台应用的详细信息，请参阅[Microsoft 团队聊天室帮助](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft 团队聊天室控制台应用应立即开始使用上面输入的凭据登录到 Skype for Business 服务器，还应开始使用这些相同的凭据与 Exchange 同步其日历。 有关使用控制台应用的详细信息，请参阅[Microsoft 团队聊天室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Microsoft 团队聊天室依赖于已验证的控制台硬件的存在。 即使在未检测到控制台硬件的情况中，即使创建了包含 Microsoft 团队聊天室控制台应用的正确创建的图像，也不会超过初始设置过程启动。 对于基于 Surface Pro 的解决方案，Surface Pro 必须连接到其随附的 dock 硬件才能传递此检查。

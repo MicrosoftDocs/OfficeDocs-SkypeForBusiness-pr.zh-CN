@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
-ms.openlocfilehash: 736933c2c47d42073d2f8b90bce6af6755c89338
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573535"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675790"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -66,7 +66,7 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft Teams 会议室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 团队聊天室发行说明](srs2-release-note.md)
 

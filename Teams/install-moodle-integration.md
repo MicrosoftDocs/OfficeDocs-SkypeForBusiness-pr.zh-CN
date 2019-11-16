@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572054"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装与 Microsoft 团队的 Moodle 集成
@@ -151,7 +151,7 @@ Microsoft 团队的免费 Moodle 助理机器人可帮助教师和学生在 Mood
 1. 单击 "**生成新密码**" 按钮。 复制生成的密码，并将其粘贴到 "**团队设置**" 页面上的 " **Bot 应用程序密码**" 字段中。
 1. 滚动到窗体底部，然后单击 "**保存更改**"。
 
-既然你已生成你的应用程序 Id 和密码，现在是将机器人部署到 Azure 的时候了。 单击 "**部署到 Azure** " 按钮，并填写包含必要信息的表单（Bot 应用 Id、Bot 应用程序密码和 Moodle 机密位于 "**团队设置**" 页面上，并且 Azure 信息位于 "**设置**" 页面上）. 填写完表单后，单击复选框以接受条款和条件，然后单击 "**购买**" 按钮（所有 Azure 资源都部署到免费层）。
+既然你已生成你的应用程序 Id 和密码，现在是将机器人部署到 Azure 的时候了。 单击 "**部署到 Azure** " 按钮，并填写包含必要信息的表单（Bot 应用 Id、Bot 应用程序密码和 Moodle 机密位于 "**团队设置**" 页面上，Azure 信息位于 "**设置**" 页面上）。 填写完表单后，单击复选框以接受条款和条件，然后单击 "**购买**" 按钮（所有 Azure 资源都部署到免费层）。
 
 将资源部署到 Azure 后，你需要将 Office 365 Moodle 插件配置为其消息传递终结点。 首先，你需要在 Azure 中从你的 Bot 获取终结点。 为此，请执行以下操作：
 

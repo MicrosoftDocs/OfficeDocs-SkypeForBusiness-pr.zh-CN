@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 部署 Microsoft 团队聊天室以及如何部署和管理系统的相关规划注意事项。
 ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "36428041"
 ---
 <h2>Microsoft Teams 会议室</h2>
@@ -60,7 +60,7 @@ ms.locfileid: "36428041"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>套餐</h3>
+                        <h3>规划</h3>
                     </div>
                 </div>
             </div>

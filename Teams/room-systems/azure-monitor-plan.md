@@ -1,7 +1,7 @@
 ---
 title: 通过 Azure 监视器规划 Microsoft 团队聊天室管理
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: 本文介绍使用 Azure 监视器管理 Skype for Business 或团队实现中的 Microsoft 团队聊天室设备时的规划注意事项。
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569914"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675780"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>通过 Azure 监视器规划 Microsoft 团队聊天室管理
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569914"
   
 [Azure 监视器](https://docs.microsoft.com/azure/azure-monitor/overview)是从开始就在云中设计的管理服务的集合。 Azure 监视器组件完全托管在 Azure 中，而不是部署和管理本地资源。 只需进行最少的配置，即可在几分钟内开机运行。 有了一些自定义工作，它可以帮助管理 Microsoft 团队会议室会议系统，方法是为单个房间系统提供系统运行状况或故障的实时通知，并且可能会扩展到管理数以千计的 Microsoft 团队会议室会议室。
   
-本文提供了有关实现 Microsoft 团队聊天室会议设备的基于 Azure 监视器的管理所需的要求、设计/体系结构和实施最佳做法的讨论，并提供了有关的详细文章的链接为 Microsoft 团队聊天室实施 Azure 监视器和关键参考信息，以便对 Microsoft 团队会议室的持续监控。 
+本文提供了有关实现 Microsoft 团队聊天室会议设备的基于 Azure 监视器的管理所需的要求、设计/体系结构和实施最佳做法的讨论，并提供了有关为 microsoft 团队聊天室实施 Azure 监视器的详细文章的链接，以及有关实时监视 Microsoft 团队会议室的关键参考信息。 
   
 ## <a name="functional-overview"></a>功能概述
 

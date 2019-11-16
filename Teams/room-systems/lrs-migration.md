@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 阅读本主题，了解如何将 Lync 会议室系统设备迁移到使用 Microsoft 团队聊天室软件。
-ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573656"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675356"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>将 Lync 会议室系统（LRS）设备迁移到 Microsoft 团队聊天室
 
-[在2018年10月9日，](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)具有 Skype 会议室系统版本1（SRS v1）软件的 Lync 会议室系统（LRS）设备已达到支持的结束。 这意味着 Skype 会议室系统 v1 软件不再获取任何产品更新或修复。 建议使用具有 Skype 会议室系统版本 v1 软件的 Lync 会议室系统设备的客户将其设备升级到 Microsoft 团队聊天室。
+[在2018年10月9日，](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)具有 Skype 会议室系统版本1（SRS v1）软件的 Lync 会议室系统（LRS）设备已达到支持的结束。 这意味着 Skype Room Systems v1 软件将不再获得任何产品更新或修补程序。 建议安装有 Skype Room System v1 软件的 Lync Room System 设备的用户将其设备升级到 Microsoft Teams 会议室。
 
 Microsoft 团队会议室软件除了适用于 office 的 Skype for business 服务器和在线服务，还可与 Microsoft 团队一起使用，并可在所有 Microsoft 团队会议室支持的设备上通话。
 
@@ -32,7 +32,7 @@ Microsoft 团队会议室软件除了适用于 office 的 Skype for business 服
 下面是受此更改影响的设备的列表：
 
 - Crestron RL
-- [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
+- [Crestron RL2](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
 - [智能房间系统](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
@@ -42,11 +42,11 @@ Microsoft 团队会议室软件除了适用于 office 的 Skype for business 服
 
 ### <a name="crestron-hardware-trade-in-program"></a>Crestron 硬件贸易计划
 
-Crestron 将为所有非 Crestron Lync 会议室系统客户（如 Smart 或 Polycom LRS）提供对[CRESTRON SR 系统](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)或等效项的升级。 [在此处](https://support.crestron.com/app/answers/answer_view/a_id/1000220)查看此程序的详细信息或 <!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com)Crestron LRS 支持。  
+Crestron 将为所有非 Crestron Lync 会议室系统客户（如 Smart 或 Polycom LRS）提供对[CRESTRON SR 系统](https://www.crestron.com/products/featured-solutions/crestron-sr)或等效项的升级。 [在此处](https://support.crestron.com/app/answers/answer_view/a_id/1000220)查看此程序的详细信息或 <!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com)Crestron LRS 支持。  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Crestron RL2 升级到 Microsoft 团队聊天室
 
-现有的 Crestron RL2 （也称为 Crestron RL200）客户可以获取升级工具包，以便使用每个设备的最低成本将当前 RL2 升级到 RL3。 请[在此处](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)查看该程序的详细信息。
+现有的 Crestron RL2 （也称为 Crestron RL200）客户可以获取升级工具包，以便使用每个设备的最低成本将当前 RL2 升级到 RL3。 请[在此处](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)查看该程序的详细信息。
 
 ### <a name="smart-room-systems-upgrade"></a>智能房间系统升级
 

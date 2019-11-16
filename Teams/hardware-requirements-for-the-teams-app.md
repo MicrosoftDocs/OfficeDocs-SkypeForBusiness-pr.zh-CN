@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
+ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638702"
+ms.locfileid: "38670189"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -71,6 +71,14 @@ ms.locfileid: "38638702"
 |设备    |   标准笔记本电脑相机、麦克风和扬声器    | 
 |语音    |  兼容的麦克风和扬声器，带麦克风的耳机，或等效设备       |
 |视频通话和会议 | 为获得更好的视频通话和联机会议体验，我们建议使用具有 2.0 GHz 处理器和 4.0 GB RAM （或更高版本）的计算机。 "可选模糊处理我的背景视频" 效果需要具有高级矢量扩展2（AVX2）支持的处理器（支持最迟 2013 Mac 设备和更高版本）。 有关不支持的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。
+|支持的 Linux 发行版 | Ubuntu 16.04 LTS *、18.04 LTS、Fedora 30 Workstation、RHEL 8 工作站、CentOS 8
+
+* 在 Ubuntu 16.04 LTS 上安装的先决条件步骤将添加具有较新版本的 libc + + （和编译器等）和更新 libc + + 的安装库：
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>移动设备上的团队应用的硬件要求
 

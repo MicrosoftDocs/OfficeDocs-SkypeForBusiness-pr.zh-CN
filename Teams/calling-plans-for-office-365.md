@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516743"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
@@ -39,12 +39,12 @@ ms.locfileid: "37516743"
   
 - **国内呼叫计划**：授权用户可以拨打在 Office 365 中分配给他们的国家/地区内的号码。
     
-- **国内和国际呼叫计划**：授权的用户可以拨打基于用户所在位置的国家/365 地区内的号码，以及[196 国家/地区的国际号码。](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **国内和国际呼叫计划**：授权用户可以拨打基于用户所在位置的国家/365 地区内的号码，以及[196 国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)的国际号码的号码。
     
 每个组织的可用月分钟数，每个国家/地区均位于[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 > [!IMPORTANT]
-> 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置，而**不**是基于 microsoft 365 管理员**组织配置文件**中列出的帐单地址**中心**。   
+> 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置，而**不**是基于在**microsoft 365 管理中心**的**组织配置文件**下列出的帐单地址。   
 ![用户许可证位置的屏幕截图](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有关使用限制和使用条款的详细信息，请参阅[音频会议免费拨出期](complimentary-dial-out-period.md)。
@@ -58,7 +58,7 @@ ms.locfileid: "37516743"
     > [!NOTE]
     > 根据你的计划，你可能需要购买更多加载项，然后才能购买电话系统许可证。 若要了解详细信息，请参阅[Microsoft 团队附加](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)许可证中的 "基于你的计划的许可证选项"。
   
-2. 购买电话系统许可证后，您可以通过登录到**Microsoft 365 管理中心**来购买呼叫计划，选择 "**计费** > **购买服务** > **附加订阅**"，然后单击 "立即购买"。 ****. 您将在那里看到通话计划。
+2. 购买电话系统许可证后，您可以通过登录到**Microsoft 365 管理中心**来购买呼叫计划，选择 "**计费** > **购买服务** > **附加订阅**"，然后单击 "**立即购买**"。 您将在那里看到通话计划。
     
     ![显示语音通话计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   

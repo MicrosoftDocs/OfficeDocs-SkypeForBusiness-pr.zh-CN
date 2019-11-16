@@ -1,7 +1,7 @@
 ---
 title: 适用于团队的电话和设备
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 适用于 Microsoft 团队的 IP 桌面和手机认证
-ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570197"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675820"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -43,7 +43,8 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 |电话模型|固件版本|发布日期 |
 |:---|:---|:---|
-|Audiocodes C450HD | C450HD_TEAMS_0.225 | 2019年3月|
+|Audiocodes C450HD | C450HD_TEAMS_0. 225 | 2019年3月|
+|Audiocodes C448HD （仅限 CAP 模式） | C450HD_TEAMS_0. 225 | 2019年3月|
 |Crestron M100|2.3875.00068|2018年12月|
 |Crestron Flex UC-P100 & UC-t  | 58.15.91.6 |2019年1月|
 |Poly Trio 8500/8800 （仅限共享模式）| 5.9.0.10869|2019年6月|
@@ -51,7 +52,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 |Yealink T55 | 58.15.0.36 |五月2019|
 |Yealink CP 960 |73.15.0.20|2018年12月|
 |Yealink T58 & T56 系列 |58.15.0.20|2018年12月|
-||||
+
 
 有关这些设备支持的功能的信息，请参阅[Microsoft 团队手机功能设置](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set)。
 
@@ -63,10 +64,10 @@ Microsoft 团队许可证可以作为其[Office 365 订阅](/MicrosoftTeams/Offi
 
 * * *
 
-如果您是希望加入认证计划的供应商，请参阅[如何加入](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join)要求和可用程序。
+如果您是希望加入认证计划的供应商，请参阅[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)要求和可用程序。
 
 ## <a name="additional-resources"></a>附加资源
 
 了解[Skype For business 和 Microsoft 团队认证计划](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
-[了解 Microsoft 团队的手机和认证设备。](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[了解 Microsoft 团队的手机和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)

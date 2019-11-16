@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队聊天室的管理概述
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft 团队聊天室的管理概述。
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573557"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675810"
 ---
 # <a name="management-overview"></a>管理概述
 
@@ -43,7 +43,7 @@ ms.locfileid: "37573557"
 |电源管理-\>通过交流，10分钟后关闭屏幕  <br/> 电源管理-\>在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
 
-在 "[配置文件" 项目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
+在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
   
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
@@ -83,7 +83,7 @@ Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版�
 
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft Teams 会议室帮助](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [规划 Microsoft 团队聊天室](skype-room-systems-v2-0.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft 团队聊天室的 Windows 更新
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 管理 Microsoft 团队聊天室的 Windows 更新
-ms.openlocfilehash: d1de433ae68630073ac5310bb55f0ada34b366d3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5f0942efc1b503589412a1de6852d83e42a3b03e
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573513"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675416"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 

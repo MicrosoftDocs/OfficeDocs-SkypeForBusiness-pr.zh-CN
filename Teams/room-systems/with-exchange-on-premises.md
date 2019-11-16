@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 阅读本主题，了解如何使用 Exchange on on-premises 在混合环境中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: c361b6f09bd3acbdf6d8448d168798306cc49ff8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573502"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675406"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
@@ -103,10 +103,10 @@ Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink
 
 ### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
 
-1. 连接到 Azure Active Directory。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+1. 连接到 Azure Active Directory。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
 
 2. 设备帐户需要拥有有效的 Office 365 许可证，否则 Exchange 和 Microsoft 团队将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索可用 Sku 的列表。
 

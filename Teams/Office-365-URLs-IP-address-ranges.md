@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5fc8d5bc41f7cf7a28140b30dd4a488c05b9b876
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37563868"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 和 IP 地址范围
@@ -32,4 +32,4 @@ Teams 通话和会议体验建立在下一代基于云的基础结构之上，�
 
 对于所有 Office 365 工作负荷，建议的 Teams 服务连接方法是尽可能不使用正向代理。 客户端与 Office 365 数据中心之间存在代理服务器时，可能会强制采用 TCP 而非 UDP 传输媒体，这可能会影响媒体质量。 可以从[管理 Office 365 终结点](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)下载可用于配置流量旁路的示例代理 PAC 文件。
 
-如果你的网络和安全策略需要 Office 365 流量以流过代理服务器，请确保在将团队部署到生产之前已满足上述要求（查看[团队或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)）指南）。
+如果你的网络和安全策略需要 Office 365 流量以流过代理服务器，请确保在将团队部署到生产之前已满足上述要求（查看[团队或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)的指南）。

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Office 365 中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 253f25de30d105361f53eeb34d3b6c78e6d41fa2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573480"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675436"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 
@@ -62,7 +62,7 @@ ms.locfileid: "37573480"
 
      - 帐户： ProjectRigel01@contoso.onmicrosoft.com
 
-     - 帐户密码： P @ $ $W 0rd5959
+     - 帐户密码： P@ $ $W 0rd5959
 
      ``` PowerShell
      New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -74,7 +74,7 @@ ms.locfileid: "37573480"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此示例启用具有 alias 值 ProjectRigel02 的现有聊天室邮箱的帐户，并将密码设置为 9898P @ $ $W 0rd。 请注意，由于现有的别名值，该帐户将 ProjectRigel02@contoso.onmicrosoft.com。
+     此示例启用具有 alias 值 ProjectRigel02 的现有聊天室邮箱的帐户，并将密码设置为 9898P@ $ $W 0rd。 请注意，由于现有的别名值，该帐户将 ProjectRigel02@contoso.onmicrosoft.com。
 
      ``` PowerShell
      Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -107,10 +107,10 @@ ms.locfileid: "37573480"
 
    有关详细的语法和参数信息，请参阅[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 通过运行`Connect-MsolService -Credential $cred` PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 通过运行`Connect-MsolService -Credential $cred` PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
 
 5. 如果不希望密码过期，请使用以下语法：
 
@@ -205,7 +205,7 @@ ms.locfileid: "37573480"
 
 4. 单击“**许可证**”选项。
 
-5. 在 "**分配许可证**" 部分中，你需要选择 "Skype For business Online （计划2）" 或 "skype For business Online （计划3）"，具体取决于你的许可以及你根据需要企业语音确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。
+5. 在 "**分配许可证**" 部分中，你需要选择 "Skype For business Online （计划2）" 或 "skype For business Online （计划3）"，具体取决于你的许可以及你根据需要企业语音确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。
 
 6. 单击“**保存**”完成任务。
 
