@@ -25,6 +25,7 @@
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
 ## [管理团队和频道策略](teams-policies.md)
+## [Teams 的敏感度标签](sensitivity-labels.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
 ## [在 Teams 中设置频道审查](manage-channel-moderation-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
+### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
 ### [安装 Moodle 集成](install-moodle-integration.md)
 
