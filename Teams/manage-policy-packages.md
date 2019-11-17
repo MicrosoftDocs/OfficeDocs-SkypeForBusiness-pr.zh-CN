@@ -3,7 +3,7 @@ title: 管理 Microsoft 团队中的策略程序包
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972433"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679821"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -41,12 +41,13 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 |Education_PrimaryStudent 程序包    |创建一组适用于主要学生的策略和策略设置。|
 |Education_SecondaryStudent 程序包    |创建一组适用于次要学生的策略和策略设置。         |
 |Education_HigherEducationStudent 程序包    |创建一组适用于更高教育学生的策略和策略设置。|
+|SmallMediumBusiness_BusinessVoice 程序包    |创建包含商业语音体验应用的应用安装策略。|
 
 > [!NOTE]
 > 我们将在未来版本的团队中添加更多策略程序包，请查看最新信息。  
 
 每个单独策略都被授予策略程序包的名称，以便你可以轻松地识别链接到策略包的策略。
-例如，将 Education_Teacher 策略包分配给学校中的教师时，将为程序包中的每个策略创建一个名为 Education_Teacher 的策略。
+例如，当你将 Education_Teacher 策略包分配给学校中的教师时，将为程序包中的每个策略创建一个名为 Education_Teacher 的策略。
 
 ![Education_Teacher 策略程序包的屏幕截图](media/policy-packages-education_teacher.png)
 
@@ -101,3 +102,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 **分配策略包时收到错误**
 
 如果程序包中的一个或多个策略未成功创建或应用，可能会发生这种情况。 将策略程序包重新分配给你的用户。 重试操作通常会修复此问题。
+
+## <a name="related-topics"></a>相关主题
+
+[适用于教育机构管理员的 Microsoft 团队策略包](policy-packages-edu.md)
