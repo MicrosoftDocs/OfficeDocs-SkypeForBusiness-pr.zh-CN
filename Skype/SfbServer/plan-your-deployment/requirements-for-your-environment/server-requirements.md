@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：利用本主题准备 Skype for Business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议均可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: 34e00f3b53dbec6699b7cc5980f7c608cf5e883b
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: 3ca52a6d7a61a3f6b06985bf507461fe9285e337
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768045"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38626988"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -68,7 +68,7 @@ ms.locfileid: "35768045"
   
 |||
 |:-----|:-----|
-|Windows Server 2019（需要 Skype for Business 累积更新 9 或更高版本）。 <br/> |Windows Server 2016（需要 Skype for Business 累积更新 5 或更高版本。 有关详细信息，请查看 [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)）  <br/> ||
+|Windows Server 2019（需要 Skype for Business 累积更新 9 或更高版本）。 <br/> |Windows Server 2016（需要 Skype for Business 累积更新 5 或更高版本。 有关详细信息，请查看 [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)）  <br/> ||
 |Windows Server 2012 R2 Datacenter OS，已安装所有必需的更新。  <br/> |Windows Server 2012 R2 Standard OS，已安装所有必需的更新。  <br/> |
 |Windows Server 2012 Datacenter OS，已安装所有必需的更新。  <br/> |Windows Server 2012 Standard OS，已安装所有必需的更新。  <br/> |
    
@@ -79,11 +79,11 @@ ms.locfileid: "35768045"
   
 除了最新的 Service Pack 外，您还应确保在相关的地方安装以下更新：
   
-- 对于 Windows Server 2012，应首先安装知识库文章 2858668 提供的更新，然后再进行升级。 [可在此处获取](https://support.microsoft.com/zh-CN/kb/2858668/)。
+- 对于 Windows Server 2012，应首先安装知识库文章 2858668 提供的更新，然后再进行升级。 [可在此处获取](https://support.microsoft.com/kb/2858668/)。
     
-- 如果使用的是 Windows Server 2012 R2，请首先安装知识库文章 2982006 提供的更新，然后再进行升级。 [可在此处查找](https://support.microsoft.com/zh-CN/kb/2982006/)。
+- 如果使用的是 Windows Server 2012 R2，请首先安装知识库文章 2982006 提供的更新，然后再进行升级。 [可在此处查找](https://support.microsoft.com/kb/2982006/)。
     
-- 如果是在 Windows Server 2008 R2 机器上进行升级（参阅上述备注），则应首先安装知识库文章 2533623 提供的更新。 [可通过此链接获取](https://support.microsoft.com/zh-CN/kb/2533623/)。
+- 如果是在 Windows Server 2008 R2 机器上进行升级（参阅上述备注），则应首先安装知识库文章 2533623 提供的更新。 [可通过此链接获取](https://support.microsoft.com/kb/2533623/)。
     
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>将与 Skype for Business Server 2015 配合工作的后端数据库
 <a name="DBs"> </a>
@@ -95,8 +95,8 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Enterprise（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/zh-CN/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Enterprise（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/zh-CN/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise（64 位版），建议运行最新 Service Pack。  <br/> |
-|Microsoft SQL Server 2019 Standard（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Standard（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Standard（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/zh-CN/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Standard（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/zh-CN/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard（64 位版），建议运行最新 Service Pack。  <br/> |
+|Microsoft SQL Server 2019 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Enterprise（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Enterprise（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise（64 位版），建议运行最新 Service Pack。  <br/> |
+|Microsoft SQL Server 2019 Standard（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Standard（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Standard（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Standard（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard（64 位版），建议运行最新 Service Pack。  <br/> |
    
 如果你想使用的 SQL Server 版本未列于此处，则不能使用。
   
@@ -136,7 +136,7 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
   
 双节点：
   
-- Microsoft SQL Server 2019 Standard（64 位版），建议运行最新 Service Pack。
+- Microsoft SQL Server 2019 标准版（64 位版本），建议运行最新的 Service Pack。
 
 - Microsoft SQL Server 2017 Standard（64 位版），建议运行最新 Service Pack。
 
@@ -148,7 +148,7 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
 
 16 节点：
 
-- Microsoft SQL Server 2019 Enterprise（64 位版），建议运行最新 Service Pack。
+- Microsoft SQL Server 2019 企业版（64 位版本），建议运行最新的 Service Pack。
 
 - Microsoft SQL Server 2017 Enterprise（64 位版），建议运行最新 Service Pack。
 
@@ -159,9 +159,9 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
 - Microsoft SQL Server 2012 Enterprise（64 位版），建议运行最新 Service Pack。
 
 > [!IMPORTANT]
-> 对于升级，我们希望你在进行升级前确保前端服务器上至少安装了 SQL Server 2012 SP1。 如果想立即下载 SP1，请单击[此处的链接](https://www.microsoft.com/en-us/download/details.aspx?id=35575)。
+> 对于升级，我们希望你在进行升级前确保前端服务器上至少安装了 SQL Server 2012 SP1。 如果想立即下载 SP1，请单击[此处的链接](https://www.microsoft.com/download/details.aspx?id=35575)。
   
-如果你需要进一步了解 SQL 镜像，我们在 Skype for Business Server 2015 主题中介绍了后端服务器高可用性。 为 Skype for Business Server 2015 配置 SQL Server 群集的过程包括准备群集的步骤。 此处还有 SQL 故障转移群集的更多链接：[2014](https://technet.microsoft.com/zh-CN/library/hh231721.aspx)、[2012](https://technet.microsoft.com/zh-CN/library/hh231721%28v=sql.110%29.aspx) 和 [2008](https://technet.microsoft.com/zh-CN/library/ms189134%28v=sql.105%29.aspx)。
+如果你需要进一步了解 SQL 镜像，我们在 Skype for Business Server 2015 主题中介绍了后端服务器高可用性。 为 Skype for Business Server 2015 配置 SQL Server 群集的过程包括准备群集的步骤。 此处还有 SQL 故障转移群集的更多链接：[2014](https://technet.microsoft.com/library/hh231721.aspx)、[2012](https://technet.microsoft.com/library/hh231721%28v=sql.110%29.aspx) 和 [2008](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx)。
   
 > [!NOTE]
 > 2015 版本新增了 SQL Always On 支持。 支持该功能，你可以在 [Skype for Business Server 2015 中的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)主题中了解更多相关信息。
@@ -174,12 +174,14 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
 
 要为任何运行 Skype for Business Server 2015 的服务器进行安装和配置，你需要满足一些条件，如下所示。 满足这些条件后，还要满足特定服务器角色的额外要求。
   
+> [注意！] Skype for Business Server 2015 不支持 .NET Framework 4.8。
+  
  **所有服务器：**
   
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |所有 Skype for Business Server 服务器均需安装 Windows PowerShell 3.0。  <br/> • 如果你在 Windows Server 2012 或 Windows Server 2012 R2 上执行安装，那么你就不必担心，因为其中已经包含了此功能。  <br/> • 如果你在 Windows Server 2008 R2 上执行升级，则可以下载 [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) 以获取它。 <br/> **提示**：安装正确的 PowerShell 后，请确认其内部版本号为 6.2.9200.0 或更高版本，方法是转至 PowerShell 命令提示符并键入 `$PSVersionTable`。 此操作将显示你所需的信息。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保已经选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)如果你看到另一个弹出框，指出还需要安装其他某些功能才能安装“HTTP 激活”，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 安装 Windows Server 2012 R2 或 Windows Server 2016 时，通常会安装 Microsoft .NET Framework。 Skype for Business Server 支持下列 Microsoft .NET Framework 版本：  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 及更高版本（适用于 Skype for Business Server CU 5 或更高版本）  <br/>  .NET Framework 3.5 很可能会默认安装在你的 Windows Server 2008 R2 计算机上（升级前请务必检查以进行确认），但实际不会位于 Windows Server 2012/Windows Server 2012 R2 服务器上（对于新安装）。 要进行添加，你需要访问安装驱动器或媒体（从其安装 Windows Server 的位置，或者安装文件现在所在的位置）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
+|Windows PowerShell 3.0  <br/> |所有 Skype for Business Server 服务器均需安装 Windows PowerShell 3.0。  <br/> • 如果你在 Windows Server 2012 或 Windows Server 2012 R2 上执行安装，那么你就不必担心，因为其中已经包含了此功能。  <br/> • 如果你在 Windows Server 2008 R2 上执行升级，则可以下载 [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) 以获取它。 <br/> **提示**：安装正确的 PowerShell 后，请确认其内部版本号为 6.2.9200.0 或更高版本，方法是转至 PowerShell 命令提示符并键入 `$PSVersionTable`。 此操作将显示你所需的信息。  <br/> |
+|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保还已选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)如果你看到另一个弹出框，指出还需要安装其他某些功能才能安装“HTTP 激活”，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，您可以继续操作。  <br/> 安装 Windows Server 2012 R2 或 Windows Server 2016 时，通常会安装 Microsoft .NET Framework。 Skype for Business Server 支持下列 Microsoft .NET Framework 版本：  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1（适用于 Skype for Business Server CU 5 或更高版本）  <br/>  .NET Framework 3.5 很可能会默认安装在你的 Windows Server 2008 R2 计算机上（升级前请务必检查以进行确认），但实际不会位于 Windows Server 2012/Windows Server 2012 R2 服务器上（对于新安装）。 要进行添加，你需要访问安装驱动器或媒体（从其安装 Windows Server 的位置，或者安装文件现在所在的位置）。 然后继续操作，并从服务器管理器将其作为功能进行安装，在提示时指向安装媒体（即 **\sources\sxs** 文件夹），然后继续安装。 <br/> |
 |媒体基础  <br/> |对于 Windows Server 2016、Windows Server 2012 和 Windows Server 2012 R2，Windows Media Format Runtime 随 Microsoft 媒体基础一起安装。  <br/> 所有用于会议的前端服务器和 Standard Edition 服务器都需要 Windows Media Format Runtime 来运行 Windows Media Audio (.wma) 文件，呼叫寄存、公告和响应组应用程序将通过该文件来播放公告和音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 来支持 Skype for Business Server 2015 的服务器到服务器身份验证情景。  <br/> • 对于 Windows Server 2012 和 Windows Server 2012 R2，不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果它已经处于选中状态，则没有问题。 否则请选中它，并单击“下一步”，然后单击**安装**按钮。 <br/> |
 |远程服务器管理工具  <br/> |角色管理工具：AD DS 和 AD LDS 工具  <br/> |
@@ -188,7 +190,7 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
   
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
-|Internet 信息服务 (IIS)  <br/> |所有前端服务器以及所有 Standard Edition 服务器都需要 IIS，并需要选择以下模块：  <br/> • 常用 HTTP 功能：默认文档、HTTP 错误、静态内容  <br/> • 运行状况和诊断：HTTP 日志记录、日志记录工具、跟踪  <br/> • 性能：静态内容压缩、动态内容压缩  <br/> • 安全性：请求筛选、客户端证书映射身份验证、Windows 身份验证  <br/> • 应用程序开发：.NET Extensibility 3.5、.NET Extensibility 4.5、ASP.NET 3.5、ASP.NET 4.5、ISAPI 扩展、ISAPI 筛选器  <br/> • 管理工具：IIS 管理控制台、IIS 管理脚本和工具  <br/> 我们还要提醒你，还需要使用匿名访问，但在安装 IIS 时即可安装此功能，因此该列表中未提供选择此项功能的选项。  <br/> |
+|Internet 信息服务 (IIS)  <br/> |所有前端服务器以及所有标准版服务器都需要 IIS，选择以下模块：  <br/> • 常用 HTTP 功能：默认文档、HTTP 错误、静态内容  <br/> • 运行状况和诊断：HTTP 日志记录、日志记录工具、跟踪  <br/> • 性能：静态内容压缩、动态内容压缩  <br/> • 安全性：请求筛选、客户端证书映射身份验证、Windows 身份验证  <br/> • 应用程序开发：.NET Extensibility 3.5、.NET Extensibility 4.5、ASP.NET 3.5、ASP.NET 4.5、ISAPI 扩展、ISAPI 筛选器  <br/> • 管理工具：IIS 管理控制台、IIS 管理脚本和工具  <br/> 我们还要提醒你，还需要使用匿名访问，但在安装 IIS 时即可安装此功能，因此该列表中未提供选择此项功能的选项。  <br/> |
 |Windows Media Format Runtime  <br/> | 对于 Windows Server 2016、Windows Server 2012 和 Windows Server 2012 R2，你需要在**服务器管理器**中安装**媒体基础**功能。 现在，你可以在无此项功能的情况下启动 Skype for Business Server 2015 安装，但系统会提示你安装此功能，随后重新启动服务器，之后才能继续安装 Skype for Business Server 2015。 因此最好提前安装。 <br/> |
 |Silverlight  <br/> |你可以通过[此链接](https://www.microsoft.com/silverlight/)安装最新版本的 Silverlight。  <br/> |
    
@@ -202,7 +204,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 ```
 
 > [!NOTE] 
-> 该命令会按特定顺序查找源文件。 如果您处于联机状态，该命令可访问 Windows Update。 但是，如果您处于脱机状态，则需要确保源文件可被该命令使用。 有关使用 PowerShell 安装角色和功能的详细信息，请参阅[安装或卸载角色、角色服务或功能](https://technet.microsoft.com/zh-CN/library/hh831809.aspx)。不要忘记在安装必备组件后再次运行 Windows Update，即便使用 PowerShell 命令也是如此。
+> 该命令会按特定顺序查找源文件。 如果您处于联机状态，该命令可访问 Windows Update。 但是，如果您处于脱机状态，则需要确保源文件可被该命令使用。 有关使用 PowerShell 安装角色和功能的详细信息，请参阅[安装或卸载角色、角色服务或功能](https://technet.microsoft.com/library/hh831809.aspx)。不要忘记在安装必备组件后再次运行 Windows Update，即便使用 PowerShell 命令也是如此。
 
  **控制器还需要：**
   
@@ -250,7 +252,7 @@ IIS，选择以下模块：
     
   - ISAPI 筛选器
     
-（你或许会感到好奇，此模块集合实际上与前端服务器和 Standard Edition 服务器相同，只是没有包含动态内容压缩和管理工具。）
+（你或许会感到好奇，此模块集合确实与前端服务器和标准版服务器相同，只是没有包含动态内容压缩和管理工具。）
   
 我们还为此提供了以下一些 PowerShell 代码：
   
@@ -260,7 +262,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **持久聊天服务器还需要：**
   
-消息队列，也称为 MSMQ。 这是一个 Windows Server 组件，你可以在“服务器管理器”的“功能”部分下安装。 如果想进一步了解相关信息，请参阅[安装和管理消息队列](https://technet.microsoft.com/zh-CN/library/cc771474.aspx)。
+消息队列，也称为 MSMQ。 这是一个 Windows Server 组件，你可以在“服务器管理器”的“功能”部分下安装。 如果想进一步了解相关信息，请参阅[安装和管理消息队列](https://technet.microsoft.com/library/cc771474.aspx)。
   
  **最后注意事项：**
   
