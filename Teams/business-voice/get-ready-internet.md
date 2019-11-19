@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972273"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653548"
 ---
 # <a name="check-your-internet-connection"></a>检查 Internet 连接。
 
@@ -57,17 +57,17 @@ ms.locfileid: "37972273"
 下面是需要完成的操作：
 
 1. 打开浏览器，转到 https://admin.teams.microsoft.com，然后使用拥有全局管理员权限的帐户登录。 用于注册 Office 365 的帐户便拥有这些权限。
-1. 打开“**组织范围的设置**”，然后选择“**网络规划器**”。
+1. 打开“计划”****，然后选择“网络规划器”****。
 1. 在“**网络计划**”下，选择“**添加**”。 为你的计划命名，然后选择“**应用**”。 网络计划应如下所示：
 
     ![网络规划器主屏幕](../media/network-planner-main.png)
 1. 单击网络计划的名称（上图中的“**主要办公室**”）。
 1. 在下一页上，选择“**网络站点**”选项卡下的“**添加网络站点**”。
-1. 填写以下信息，然后选择“**保存**”。
+1. 仅填写以下屏幕截图中所示的字段，然后选择“保存”****。 将此屏幕上的其他字段留空，不要选择“ExpressRoute”**** 或“已连接到 WAN”**** 选项。
 
     ![网络规划器站点信息](../media/network-planner-site-info.png)
 1. 在“**报告**”选项卡下，选择“**启动报告**”。
-1. 填写以下信息，然后选择“**生成报告**”
+1. 填写以下信息，然后选择“生成报表”****，创建一个显示 Teams 带宽要求的报表。 我们将在下一节中介绍如何阅读该报表。
 
     ![网络规划器报告信息](../media/network-planner-report-info.png)
 

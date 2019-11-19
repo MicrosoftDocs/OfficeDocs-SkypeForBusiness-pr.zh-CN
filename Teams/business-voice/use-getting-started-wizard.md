@@ -15,18 +15,18 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972193"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653528"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
 借助 Microsoft 365 商务语音的“入门”向导，用户可以轻松快速地开始在 Microsoft Teams 中接听和拨打电话。 如果是一家刚创立的小型企业，此向导可在几分钟内启动并运行电话号码、呼叫菜单、问候语等。 如果是已创建电话解决方案的大型企业，此向导可帮助设置商务语音试点，这样可以先对一些用户试用它，然后再面向所有人进行设置。 无论你的企业是哪种规模，都可以在完成向导后立刻开始使用商务语音！
 
-启动向导前，建议先阅读本文。 准备就绪时，可以从 [Microsoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)打开向导。 请务必使用创建订阅所用的帐户或作为全局管理员的其他帐户登录。
+启动向导前，建议先阅读本文。 准备就绪后，可以通过选择[开始使用 Microsoft 365 商务语音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)页面上的“入门”**** 打开该向导。 请务必使用创建订阅所用的帐户或作为全局管理员的其他帐户登录。
 
 > [!IMPORTANT]
 > 目前商务语音适用于加拿大和英国。 在 2020 年，它将适用于更多国家和地区。
@@ -56,7 +56,7 @@ ms.locfileid: "37972193"
 
 <table>
     <tr>
-        <td>除设置新的本地电话号码以外，还可以选择购买免付费号码，或将现有号码移植到 Microsoft 365。 如果选择设置免付费号码，必须购买通话套餐。 若要将号码移植到 Microsoft 365，在向导完成后，可选择在 [Teams 管理中心](https://admin.teams.microsoft.com)执行此操作。
+        <td>除设置新的本地电话号码以外，还可以选择购买免付费号码，或将现有号码移植到 Microsoft 365。 如果选择设置免付费号码，必须购买通话套餐。 若要将一个或多个号码移植到 Microsoft 365，在向导完成后，可选择在 [Teams 管理中心](https://admin.teams.microsoft.com)执行此操作。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ ms.locfileid: "37972193"
 </table>
 
 > [!IMPORTANT]
-> 如果选择将现有的电话号码移植到 Microsoft 365，向导仍然会显示临时电话号码。 这是正常的。 完成向导并完成移植过程后，你的电话号码将替代临时电话号码。
+> 如果选择将一个或多个现有的电话号码移植到 Microsoft 365，向导仍然会显示临时电话号码。 这是正常的。 完成向导并完成移植过程后，你的电话号码将替代临时电话号码。
 
 ## <a name="assigning-licenses-to-users"></a>将许可证分配给用户
 
@@ -96,12 +96,15 @@ ms.locfileid: "37972193"
 <table>
     <tr>
         <td>可以将所有呼叫转接到特定用户，也可以设置呼叫菜单供用户选择选项。 如果创建呼叫菜单，可以指定选项，使呼叫方可以通过在电话拨号键盘上按号码或通过语音命令读出选项进行选择。 每个菜单选项均可以转接到一位用户。 <br>
-可以选择是上传声音文件（MP3 或 WAV，最高达 5MB ）向呼叫方提供指令，还是输入指令。 Microsoft 365 将使用文本到语音转换向呼叫方播放指令。 可能需要根据发音拼写字词，以确保发音正确。
+        可以选择是上传声音文件（MP3 或 WAV，最高达 5MB ）向呼叫方提供指令，还是输入指令。 Microsoft 365 将使用文本到语音转换向呼叫方播放指令。 可能需要根据发音拼写字词，以确保发音正确。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> 入门向导可帮助你设置简单的呼叫菜单，让你快速启动并运行。 如果你有多个想要设置呼叫菜单的电话号码，或者如果想要设置更复杂的呼叫菜单（也称为自动助理），可在完成该向导后按照[设置云自动助理](set-up-auto-attendants.md)中的步骤执行此操作。
 
 <table>
     <tr>
