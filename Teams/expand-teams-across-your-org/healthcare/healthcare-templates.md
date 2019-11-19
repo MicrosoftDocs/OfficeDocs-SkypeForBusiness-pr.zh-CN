@@ -1,7 +1,7 @@
 ---
 title: 适用于医疗保健组织的 Teams 模板入门
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886435"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702313"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 
@@ -43,7 +43,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="hospital-template"></a>医院模板
 
-医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道，包括*公告*、 *Custodial*和*药房*，但我们还提供以下脚本，该脚本将使用各种其他部门扩展模板，或者可供您根据自己的喜好添加、删除或编辑的以专业为中心的频道。 例如，如果您有一个*Endocrinology*部门，但不需要*Ophthalmology*的频道，则可以改编该脚本以包括*Endocrinology*频道和删除*Ophthalmology*频道。 我们建议，这些专业或拖动建模的通道不是自动收藏，以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
+医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道，包括*公告*、 *Custodial*和*药房*，但我们还提供以下脚本，它将使用您可以添加到、删除或编辑的各种其他部门或以专业为中心的频道来扩展模板。 例如，如果您有一个*Endocrinology*部门，但不需要*Ophthalmology*的频道，则可以改编该脚本以包括*Endocrinology*频道和删除*Ophthalmology*频道。 我们建议，这些专业或拖动建模的通道不是自动收藏，以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 \*自动收藏 
 
-## <a name="care-coordination-template"></a>护理协调模板
-
-"护理协调" 模板旨在促进病人护理团队中的通信，其中包括 interdisciplinary 和学科团队等一些示例。 我们的专属患者应用程序预装在此模板中，并且位于常规频道中。 使用患者应用程序，您可以策展患者及其关联的价值和 vitals 的列表，以便对舍入和患者管理方案有用。 
-
-|基本模板类型 |baseTemplateId |基线模板通道|
-|:--- |:---|:---|
-|医疗保健-护理协调 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 处理后审阅\* <br> 级\* <br> 培训班\* |
-| | |  |
-
-\*自动收藏 
-
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
-若要使用这些模板，只需将请求正文中的 "template@odata.bind" 属性从 "standard" 更改为上面的 TemplateIDs。  有关如何部署团队模板的详细信息，请参阅 Microsoft Graph 有关如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)的文章。
+若要使用这些模板，只需将请求正文中的 "template@odata bind" 属性从 "standard" 更改为上述 TemplateIDs。  有关如何部署团队模板的详细信息，请参阅 Microsoft Graph 有关如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)的文章。
 
 > [!NOTE]
 > 模板中的频道将在 "常规" 选项卡下自动创建。

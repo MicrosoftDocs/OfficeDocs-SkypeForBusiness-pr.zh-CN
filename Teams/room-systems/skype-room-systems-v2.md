@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Microsoft 团队聊天室中可用的功能。 '
-ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: e02a59d4b1ec99872fd544ab4828e609a1e3ea80
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290922"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702323"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
@@ -50,7 +50,7 @@ Microsoft 有一个专用的 SKU，用于为会议室设备（如 Microsoft 球�
 
 
 > [!NOTE]
-> 如果当前使用的是 E1、E3、E4 和 E5 Sku，并且使用 Skype for Business 独立计划1或 Skype for business 计划2或使用 Office365 Phone 系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证到期后的表中，你应该考虑移到更简单的许可模型。 
+> 如果您当前使用的是 E1、E3、E4、E5 Sku 和 Skype for Business 计划2（带有音频会议或使用 Office 365 电话系统和通话计划），这些功能将继续有效。 但是，在当前许可证到期后的表中，你应该考虑移到更简单的许可模型。  
 
 > [!IMPORTANT]
 > 如果你使用的是 Skype for Business 计划2，则只能在 Skype for business 模式下使用 Microsoft 团队聊天室，这意味着你的所有会议都将是 Skype for business 会议。 为了为 Microsoft 团队会议启用会议室，我们建议你购买 Microsoft 会议室许可证。 

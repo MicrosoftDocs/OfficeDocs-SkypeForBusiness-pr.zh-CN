@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675366"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696812"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
-本文概述了支持 Microsoft 团队聊天室的要求。
+通过使用各种经认证的音频和视频外围设备（基于房间的大小和使用），Microsoft 团队会议室可缩放到不同的会议室大小。 通过选择合适的核心设备和控制台（与麦克风、扬声器、相机和显示器配合使用），你可以将 Microsoft 团队会议室从非常小的 huddle 空间从非常小的空间部署到非常大的会议空间和 boardrooms。  [设备展示](https://products.office.com/microsoft-teams/across-devices)中提供了可用于配置房间的所有可用的已认证音频和视频外设的完整集。
+
+本文概述了支持 Microsoft 团队聊天室的设备部署和配置要求。
 
 你的部署包括[部署 Microsoft 团队聊天室](room-systems-v2.md)和设置会议控制台中所述的帐户创建，如[配置 microsoft 团队聊天室控制台](console.md)中所述。
 
@@ -31,34 +33,18 @@ ms.locfileid: "38675366"
 - [基于你的计划的许可证选项： Microsoft 团队聊天室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft 球队会议室旨在与 Microsoft 团队、Skype for business Server 2019、Skype for business Server 2015 或 Skype for business Online 配合使用。
+> Microsoft 团队聊天室登录到 Microsoft 团队、Skype for Business Server 2019、Skype for business Server 2015 或 Skype for business Online，并可能加入由这些服务托管的会议。
 >
-> 早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。 在由世纪互联运营的 Office 365 中或在 GCC、GCC-高或 DoD 环境下，Microsoft 球队会议室不受支持。
+> Microsoft 团队聊天室不支持早期平台（如 Lync Server 2013）。 在由世纪互联运营的 Office 365 或在 GCC-高或 DoD 环境下，Microsoft 球队会议室不受支持。
 >
 > 如果您有一个本地 Exchange 服务器，则 Microsoft 团队聊天室需要使用 Exchange Server 2013 SP1 或更高版本。
 
 ## <a name="hardware-requirements"></a>硬件要求
+硬件部署包括一个 Microsoft 团队房间系统的选择、与认证的音频和视频外设结合以及用于将这些设备集成到一起的缆线解决方案。  下面介绍这些选项。
 
-Microsoft 团队会议室根据房间大小使用不同的音频和视频外围设备，可缩放到不同的房间大小。 本文中列出的硬件同时支持 Skype 和团队会议模式。 音频和视频外设通过插接设备上的 USB 或 HDMI 连接连接到 Microsoft 团队聊天室。 您还需要：
+**支持的 Microsoft 团队房间系统**
 
-- 32 GB 或更大的 USB 磁盘，可配置为 Windows 10 企业版的可启动 Windows 安装媒体。
-- 下列平板电脑或控制台之一：
-
-  **支持的平板电脑**
-
-  |电脑|Processor|RAM|磁盘|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 或更高 |
-  |Surface Pro </br>（第五代） |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
-  |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
-
-- 以下扩展坞选项之一，用于将平板电脑固定到会议室表。
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **其他支持的 Microsoft 团队聊天室控制台**
+[会议室系统产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中提供了所有当前的 Microsoft 团队聊天室设备和捆绑包。
 
   |控制台|Processor|RAM|磁盘|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Microsoft 团队会议室根据房间大小使用不同的音频和视频外围�
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|核心 i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> 不支持核心 M3 处理器。
+> - 不支持核心 M3 处理器。
+> - 您需要将 32 GB 或更大的 USB 驱动器配置为可启动 windows 10 企业版的 Windows 安装媒体。
+
+**支持用于停靠样式的系统的 Surface Pro 平板电脑**
+
+  |电脑|Processor|RAM|磁盘|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 或更高 |
+  |Surface Pro </br>（第五代） |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
+  |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
+
+- 以下扩展坞选项之一，用于将平板电脑固定到会议室表。
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>适用于 USB 音频和视频外设的认证固件版本
 
-这些设备在[aka.ms/teamsdevices](https://aka.ms/teamsdevices)中可用。
+这些设备在[房间系统附件产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)和[https://office.com/teamsdevices](https://office.com/teamsdevices)中可用。
 
 |Microsoft 团队聊天室外围设备|认证的固件版本 | 相机支持内容相机使用|
 |:--- |:--- | :--- |

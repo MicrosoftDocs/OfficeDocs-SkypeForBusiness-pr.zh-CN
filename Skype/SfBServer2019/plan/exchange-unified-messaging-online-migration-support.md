@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616085"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702303"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -23,7 +23,7 @@ ms.locfileid: "37616085"
  
 ExchUMO 由客户针对语音邮件、自动助理、呼叫队列和传真集成服务进行部署。 Microsoft 计划帮助客户迁移到已在 Skype for Business Online 和 Microsoft 团队中支持数以千计客户的电话系统服务。 
 
-语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集，可能需要管理员参与和/或投资。 自动助理是管理员驱动的迁移;你将需要在云自动助理云服务中重新创建现有的 ExchUMO 自动助理树。 使用第三方 PBX 的任何 ExchUMO 功能的客户将不会迁移到 Skype 云服务，因为它们不支持第三方 PBX 系统。 [本博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)已宣布推出第三方支持的退休计划，此部署模型中的客户可以将其用户迁移到 Microsoft 的统一通信平台/服务之一，或者获取第三方语音邮件和/或自动适用于这些用户的助理解决方案。 基于云的服务不支持传真集成;客户将需要迁移到第三方解决方案。
+语音邮件主要是 Microsoft 驱动的迁移;对于客户的子集，可能需要管理员参与和/或投资。 自动助理是管理员驱动的迁移;你将需要在云自动助理云服务中重新创建现有的 ExchUMO 自动助理树。 使用第三方 PBX 的任何 ExchUMO 功能的客户将不会迁移到 Skype 云服务，因为它们不支持第三方 PBX 系统。 [本博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)已宣布推出第三方支持的停用计划，此部署模型中的客户可以将其用户迁移到 Microsoft 的统一通信平台/服务之一，或者为这些用户获取第三方语音邮件和/或自动助理解决方案。 基于云的服务不支持传真集成;客户将需要迁移到第三方解决方案。
 
 ### <a name="who-is-affected"></a>哪些人受到影响？
 
@@ -156,7 +156,7 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署，并将�
 | AA | 服务功能 | 多语言支持 | 此处为语言详细信息：https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | 服务功能 | 转移到操作员、CQ 或用户 |  | Y | Y    |
 | AA | 服务功能 | 内部转到 PSTN 号码（已 RNL）  |  | Y | Y    |
-| AA | 服务功能 | 从外部转移到 PSTN 号码  |  | Q3CY19 | Y    |
+| AA | 服务功能 | 从外部转移到 PSTN 号码  |  | 请查看下面的 "已知问题" 部分 | Y    |
 | AA | 服务功能 | 工作时间 |  | Y | Y    |
 | AA | 服务功能 | 菜单选项 | IVR 菜单选项  | Y | Y    |
 | AA | 服务功能 | 将云 PSTN 编号分配给 AA |  | 是 | 否    |
@@ -210,6 +210,15 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署，并将�
 若要了解有关自动助理的详细信息，请参阅[设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)。 
 
 #### <a name="known-issues"></a>已知问题
+
+**自动助理呼叫转移到 PSTN**鼓励客户配置临时解决方法，以满足将自动助理呼叫转移到外部 PSTN 号码或 RGS 实例的要求。 
+ 
+通过转接到 PSTN 号码功能在质量保证期间发现了一个问题，该问题不会在客户的计划停用时间2月 2020 1 日之前从 Exchange UMO 服务开始迁移。 作为解决方法，管理员可以将自动助理呼叫者转移到具有活动呼叫转接设置的内部部署虚拟用户，以使用所需的 PSTN 电话号码或 RGS 电话号码。 
+ 
+预期体验
+- 管理员不需要为虚拟用户授权，因为这是一种替代解决方案 
+- 管理员可以通过将所需的号码分配给虚拟用户或使用 SBC 数字操作功能来处理 PSTN 接收器将看到的呼叫方 ID。 
+- PSTN 呼叫者在呼叫转移期间将不会遇到任何延迟，并且它们将在传输成功后继续看到自动助理的来电显示  
 
 **共享邮箱：** 使用 Exchange UM Online 配置的共享邮箱将在迁移到 CVM 后继续接收邮件，并可通过 Outlook 继续供用户访问。 但是，迁移到 CVM 后，更改这些邮箱的问候语的权限将不可用。 使用共享邮箱捕获自动助理呼叫者的客户应该在发布后使用自动助理和呼叫队列共享邮箱功能（2006年10月2019）。
   
