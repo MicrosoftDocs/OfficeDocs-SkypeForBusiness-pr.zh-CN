@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571578"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714238"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
-您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为呼叫计划（国内或国际）和需要拨出到**任何目的地**的音频会议用户设置通讯信用点数。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用帐单并为您的用户分配**通讯信用**许可证，而您的组织的分钟数（取决于您所在国家/地区的通话计划或音频会议计划），这些用户无法从音频会议会议进行呼叫或拨出。 您可以通过阅读[通讯信用点数](what-are-communications-credits.md)来获取详细信息（包括推荐的融资金额）？
+您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为呼叫计划（国内或国际）和需要拨出到**任何目的地**的音频会议用户设置通讯信用点数。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用帐单并为您的用户分配**通讯信用**许可证，而您的组织的分钟数（取决于您所在国家/地区的通话计划或音频会议计划），这些用户将无法通过音频会议会议进行呼叫或拨出。 您可以通过阅读[通讯信用点数](what-are-communications-credits.md)来获取详细信息（包括推荐的融资金额）？
   
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。 
@@ -44,7 +44,7 @@ ms.locfileid: "37571578"
     
     分配此许可证后，你将需要设置音频会议。 有关分步说明，请参阅[在 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 为你的用户分配**电话系统**和国内或国内和国际呼叫计划许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+- 为你的用户分配**电话系统**和**国内或国内和国际**呼叫计划许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
     
     > [!NOTE]
     > 虽然通信信用点数不是必需的，但您仍然需要分配**国内呼叫计划**或**国内和国际呼叫计划**许可证。
@@ -55,7 +55,7 @@ ms.locfileid: "37571578"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤2：为你的组织设置通讯信用点数
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录到新的 Office 365 门户。
     
 2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**帐单** > **订阅** > "**添加订阅**。
 

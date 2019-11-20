@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077405"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714478"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
 在这里，你将找到管理你的组织中的[专用频道](private-channels.md)的生命周期所需的指南。
 
 > [!IMPORTANT]
-> 如果你使用本文中的 PowerShell 步骤管理专用通道，则必须从 PowerShell 测试库安装并使用团队 PowerShell 模块的最新版本。 有关如何执行此操作的步骤，请参阅[从 PowerShell 测试库中安装最新团队 PowerShell 模块](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 团队 PowerShell 模块的最新公开可用版本（当前[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支持管理专用通道。
+> 如果你使用本文中的 PowerShell 步骤管理专用通道，则必须从 PowerShell 测试库安装并使用团队 PowerShell 模块的最新版本。 有关如何执行此操作的步骤，请参阅[从 PowerShell 测试库中安装最新团队 PowerShell 模块](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 团队 PowerShell 模块的最新公开可用版本（当前[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支持管理专用通道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>设置团队成员是否可以创建专用频道
 
@@ -292,7 +292,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>从 PowerShell 测试库安装最新团队 PowerShell 模块
 
-团队 PowerShell 模块的最新公开可用版本（当前[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支持管理专用通道。 使用以下步骤，使用 PowerShell 测试库中的专用通道支持（当前1.0.18）来安装最新版本的团队 PowerShell 模块。
+团队 PowerShell 模块的最新公开可用版本（当前[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支持管理专用通道。 使用以下步骤，使用 PowerShell 测试库中的专用通道支持（当前1.0.18）来安装最新版本的团队 PowerShell 模块。
 
 > [!NOTE]
 > 不要使用来自公共 PowerShell 库的模块版本并排从 PowerShell 测试库中安装团队 PowerShell 模块。 按照以下步骤，首先从公共 PowerShell 库中卸载团队 PowerShell 模块，然后从 PowerShell 测试库中安装最新版本的模块。

@@ -19,34 +19,30 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793241"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746305"
 ---
 # <a name="activity-report"></a>活动报告
 
-全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 它使您能够深入查看各个产品级别的报表, 让您更细致地了解每个产品内的活动。 例如, 你可以使用**Skype For business 活动**报表查看你的用户使用的是对等会议会话还是组织的会议会话的数量, 或者他们参与会议会话的数量。 
+Office 365 "**报表**" 仪表板显示组织中的 office 365 产品的活动概述。 它使您能够深入查看各个产品级别的报表，让您更细致地了解每个产品内的活动。 例如，你可以使用**Skype For business 活动**报表查看你的用户使用的是对等会议会话还是组织的会议会话的数量，或者他们参与会议会话的数量。 
 
 查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
 此报告以及其他 Skype for Business 报表提供了有关组织内活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> 在 Microsoft 365 管理中心中以管理员身份登录时, 你可以看到所有 Skype for Business 报告。 
+> 在 Microsoft 365 管理中心中以管理员身份登录时，你可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>如何访问 Skype for Business 活动报告
 
 1. 转到管理中心 >**报告** > **使用情况**。
     
-2. 在 "**使用情况**" 页面上, 单击左侧的 "**选择报表" 列表**中的 " **Skype for business 活动**", 或单击 " **skype for business 活动**" 小组件。
-    
-     ![Skype for Business DashBoard Widget.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > 根据你拥有的 Office 365 订阅, 你可能无法看到此处所示的所有产品和报告。 
+2. 在 "**使用情况**" 页面上，在左侧的 "**选择报表" 列表**中选择 " **skype for business** > **活动**"，或单击 " **skype for business 活动**" 小组件。
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>解释 Skype for Business 活动报告
 
@@ -56,10 +52,10 @@ ms.locfileid: "35793241"
   
 ***
 ![第一](../images/sfbcallout1.png)<br/>
-可以查看 " **Skype For Business 活动**电子邮件活动" 报表, 了解过去7天、30天、90天或180天的趋势。 但是, 如果你单击报表中的某一特定日, 则该表 (请参阅数字 7) 将显示当前日期最多28天 (而不是报告生成日期) 的数据。
+可以查看 " **Skype For Business 活动**电子邮件活动" 报表，了解过去7天、30天、90天或180天的趋势。 但是，如果你单击报表中的某一特定日，则该表（请参阅数字7）将显示当前日期最多28天（而不是报告生成日期）的数据。
 
 > [!NOTE]
-> 如果单击某一特定日的详细信息, 则该表将仅显示生成报表的日期之前30天内的数据。
+> 如果单击某一特定日的详细信息，则该表将仅显示生成报表的日期之前30天内的数据。
 
 ***
 ![第二](../images/sfbcallout2.png)<br/>
@@ -71,12 +67,12 @@ ms.locfileid: "35793241"
 使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议活动的唯一用户数。 它将向你显示用户总数以及**对等会话**的类型、**组织**的和**参与**会议会话的用户数。
 ***
 ![第五](../images/sfbcallout5.png)<br/>
-你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如, 在 "**活动**" 图表上, 单击或点击 "**对等会话**"、"已**组织**" 或 "已**参与**", 以仅查看与每个会话相关的信息。 更改此选择不会更改网格表中的信息。 
+你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在 "**活动**" 图表上，单击或点击 "**对等会话**"、"已**组织**" 或 "已**参与**"，以仅查看与每个会话相关的信息。 更改此选择不会更改网格表中的信息。 
 ***
 ![第六](../images/sfbcallout6.png)<br/>
 每个图表都具有"X"（水平）轴和"Y"（垂直）轴。
-*    在 "**活动**" 图表上, Y 轴表示已举行的会议会话的对等、组织和参与的总数。
-*    在 "**用户**" 活动图表上, Y 轴是参与每种类型的对等、组织和参与会议的唯一用户数。
+*    在 "**活动**" 图表上，Y 轴表示已举行的会议会话的对等、组织和参与的总数。
+*    在 "**用户**" 活动图表上，Y 轴是参与每种类型的对等、组织和参与会议的唯一用户数。
 
 这两个图表的 X 轴都表示此特定报表的所选日期范围。 
 ***
@@ -85,7 +81,7 @@ ms.locfileid: "35793241"
 * **用户名**是用户的名称。
 * " **已删除**"表示用户的许可证已删除。<br/><br/>
   > [!NOTE]
-  > 只要在所选时间段内有一段时间的许可, 已删除用户的活动仍将显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+  > 只要在所选时间段内有一段时间的许可，已删除用户的活动仍将显示在报表中。 The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
 * **Deleted date** is the date on which the user's license was removed.
 * " **上次活动日期(UTC)**"是该用户最近参与对等会话、组织或参与会议的时间。
@@ -94,17 +90,17 @@ ms.locfileid: "35793241"
 * " **参与会议**"显示该用户参与的会议总数。
 * " **分配的产品**"表示分配给此用户的 Office 365 产品。<br/>
 
-如果你的组织的策略阻止你查看用户信息可标识的报表, 你可以更改所有这些报表的隐私设置。 查看[管理中心中活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)**的 "报表" 部分中的 "隐藏用户详细信息**"。
+如果你的组织的策略阻止你查看用户信息可标识的报表，你可以更改所有这些报表的隐私设置。 查看[管理中心中活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)**的 "报表" 部分中的 "隐藏用户详细信息**"。
 ***
 ![数字8](../images/sfbcallout8.png)<br/>
-单击或点击任何列中的 "**列**" 图标, 在报表中添加或删除列。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+单击或点击任何列中的 "**列**" 图标，在报表中添加或删除列。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
 ![数字9](../images/sfbcallout9.png)<br/>
-你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> !["Skype for business 报告导出" 按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您的用户少于 2000, 则可以在报表本身的表中对其进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。 
+你还可以单击或点击" **导出**"按钮，将报告数据导出到 Excel .csv 文件中。           <br/> !["Skype for business 报告导出" 按钮。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您的用户少于2000，则可以在报表本身的表中对其进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
-- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看安装了 Skype for Business 应用并将其用于即时消息和会议的设备, 包括基于 Windows 的操作系统和移动设备。
+- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看安装了 Skype for Business 应用并将其用于即时消息和会议的设备，包括基于 Windows 的操作系统和移动设备。
     
 - [Skype for business 会议组织者活动报告](conference-organizer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享、Web、拨入/拨出和拨入/拨出的方式组织会议的程度。
     

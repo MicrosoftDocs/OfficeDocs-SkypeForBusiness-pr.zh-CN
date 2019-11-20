@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37275521"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714128"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -30,8 +30,8 @@ KB 4470124 是 Skype for business Server 2019 的主 KB，具有所有已发布�
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2019 累积更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 |Skype for Business Server 2019 累积更新1修复程序1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
+|Skype for Business Server 2019 累积更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019 工具
@@ -79,7 +79,7 @@ KB 4470124 是 Skype for business Server 2019 的主 KB，具有所有已发布�
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新历史记录
 
-[KB 2809243](http://support.microsoft.com/kb/2809243)包含所有已发布的累积更新。
+[KB 2809243](https://support.microsoft.com/kb/2809243)包含所有已发布的累积更新。
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
@@ -164,7 +164,7 @@ KB 4470124 是 Skype for business Server 2019 的主 KB，具有所有已发布�
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新历史记录
 
-[KB 2493736](http://support.microsoft.com/kb/2493736)包含所有已发布的累积更新。
+[KB 2493736](https://support.microsoft.com/kb/2493736)包含所有已发布的累积更新。
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
@@ -172,7 +172,7 @@ KB 4470124 是 Skype for business Server 2019 的主 KB，具有所有已发布�
 |Lync Server 2010 累积更新17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 年 4 月 |
 |Lync Server 2010 累积更新16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 年 5 月 |
 |Lync Server 2010 累积更新15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |2015 年 2 月|
-|Lync Server 2010 累积更新13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|2014年9月|
+|Lync Server 2010 累积更新13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|2014年9月|
 |Lync Server 2010 累积更新12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |2014年4月 |
 |Lync Server 2010 累积更新11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 年 1 月|
 |Lync Server 2010 累积更新10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |2013 年 10 月|

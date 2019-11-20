@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564929"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746445"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -32,7 +32,8 @@ ms.locfileid: "37564929"
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允许匿名用户加入会议
 
-通过匿名加入，任何人都可以通过单击会议邀请中的链接以匿名用户身份加入会议。
+通过匿名加入，任何人都可以通过单击会议邀请中的链接以匿名用户身份加入会议。 若要了解详细信息，请参阅[加入没有团队帐户的会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
+
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
