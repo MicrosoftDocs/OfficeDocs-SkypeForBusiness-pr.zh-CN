@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290852"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746285"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -79,9 +79,6 @@ ms.locfileid: "38290852"
 
 有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 要了解有关 Office 365 级别的来宾访问的更多信息，请参阅[将来宾添加到 Office 365 组](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>外部访问（联合身份验证）与来宾访问有何区别？
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>更多信息
 
