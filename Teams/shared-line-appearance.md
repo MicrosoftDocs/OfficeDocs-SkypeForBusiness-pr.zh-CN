@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 共享行的外观使用户可以选择代表代表他们应答或处理呼叫的代理人。
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571754"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753419"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -36,9 +36,9 @@ ms.locfileid: "37571754"
 
 ## <a name="license-required"></a>需要许可证
 
-用户必须是企业语音用户才能成为代理人或设置委派，并允许其他人代表他们进行或接收呼叫。
+用户必须使用具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）作为代理人，或者设置委派并允许其他人代表他们进行或接收呼叫。
 
-经理和代理人都需要具备企业语音功能。 共享行体验是委派的一部分，不需要额外许可证。 有关许可模型的其他详细信息，请参阅[Microsoft 团队的 Office 365 授权](office-365-licensing.md)。
+管理者和代理人都需要具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）。 共享线路体验是委派的一部分，并包含在电话系统中。 有关许可模型的其他详细信息，请参阅[Microsoft 团队的 Office 365 授权](office-365-licensing.md)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>配置委派和共享行的外观
 

@@ -15,12 +15,12 @@ ms.collection:
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931620"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753349"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================
@@ -55,7 +55,7 @@ Office 365 计划支持多重身份验证 (MFA)，这可提高用户登录 Offic
 
 任何包含 Microsoft 团队的 Office 365 计划均支持多重因素身份验证。 包含 Microsoft Teams 的 Office 365 订阅计划稍后将在下面的“许可”一节中讨论。
 
-用户注册 MFA 后，下次登录时，他们将看到要求其设置辅助身份验证因素的消息。 支持的身份验证方法如下：
+用户注册 MFA 后，下次用户登录时，他们将看到一条消息，询问他们是否设置其第二身份验证因素。 支持的身份验证方法如下：
 
 
 |租户类型  |可用的 MFA 辅助因素选项  |备注  |
