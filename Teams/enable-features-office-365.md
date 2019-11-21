@@ -19,12 +19,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 024ee4b0a75f2563eb281518ac098d12aaea3337
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37616066"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753359"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -110,6 +110,11 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 #### <a name="app-preferences"></a>应用首选项
 
 你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/zh-CN/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
+
+
+#### <a name="network-planner"></a>Network Planner
+
+Network Planner 可帮助你确定和组织网络要求，以便在组织中连接 Teams 用户。  了解如何[使用适用于 Microsoft Teams 的 Network Planner](https://docs.microsoft.com/microsoftteams/network-planner)。
 
 你还可以选择“在后台为 Skype for business 用户下载 Teams”选项。  此设置默认设为“开”。 通过启用此设置，它将在后台为在 Windows PC 上运行 Skype for Business 应用的用户下载 Teams 应用。 如果用户的“共存”模式为“仅 Teams”，或者在 Skype for Business 应用中启用了挂起的升级通知，则会发生这种情况。
 
