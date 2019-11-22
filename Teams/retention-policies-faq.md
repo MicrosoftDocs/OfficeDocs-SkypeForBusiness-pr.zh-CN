@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968303"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793498"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft Teams 保留策略常见问题解答
 
@@ -44,6 +44,10 @@ ms.locfileid: "37968303"
 ### <a name="what-is-the-default-retention-policy"></a>默认保留策略是什么？ 
 
 默认情况下，团队聊天、频道和文件数据将永久保留。
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>保留策略需要哪些许可？
+
+保留策略的最低许可要求是 Office 365 E3。 有关许可的详细信息，请阅读[Office 365 团队许可](office-365-licensing.md)。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>是否可以针对策略中的一组用户或团队设定目标？ 
 

@@ -18,16 +18,16 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573361"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793478"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 Planner
 
-网络规划器是团队管理中心提供的新工具。 可通过转到**组织范围内的设置** > **网络 planner**找到它。 通过以下几个步骤，网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时，网络 Planner 会计算你的网络要求，以便在组织的物理位置部署团队和云语音。
+网络规划器是团队管理中心提供的新工具。 可通过**planner** > **网络 planner**找到它。 通过以下几个步骤，网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时，网络 Planner 会计算你的网络要求，以便在组织的物理位置部署团队和云语音。
 
 ![网络 Planner 的屏幕截图](media/network-planner.png)
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570076"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793528"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
 =======================================================
@@ -45,13 +45,13 @@ ms.locfileid: "37570076"
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>转到租户应用目录
 
-启动 Microsoft 团队客户端并使用全局或团队服务管理员凭据登录。 从 "Microsoft 团队存储" 中，选择为特定组织（在本例中为 "Contoso"）指定的新分区。 您的组织中的用户可以查看目录中的应用，并为他们所属的团队安装这些应用。
+启动 Microsoft 团队客户端并使用全局或团队服务管理员凭据登录。 选择应用左侧的 "**应用**"，然后选择为特定组织指定的新分区（在本例中为 "Contoso"）。 您的组织中的用户可以查看目录中的应用，并为他们所属的团队安装这些应用。
 
 ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>将应用添加到租户应用目录
 
-1. 在应用商店中，选择 "上载**适用于 Contoso**的**自定义应用** > 上传"。
+1. 在 "**应用**" 页面上，选择 "上载**适用于 Contoso**的**自定义应用** > 上传"。
 
     ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "37570076"
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理门户管理租户应用目录
 
-如果你有需要 bug 修复的应用，你可以通过 Office 365 管理门户暂时禁用应用。 选择 "**设置** > **服务" & 加载项** > **Microsoft 团队**。 除了以前的设置，现在还有一个专用于贵公司的应用的部分。 你可以选择要启用或禁用的应用。
+如果你有需要 bug 修复的应用，你可以通过 Microsoft 365 管理中心临时禁用应用 >**团队管理中心** > **团队应用** > **权限策略** > <策略名称，例如 "全局（组织范围默认）" >**租户应用**> 阻止特定应用并允许所有其他应用，并将你的应用添加到列表。
 
 ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image05.png)
 

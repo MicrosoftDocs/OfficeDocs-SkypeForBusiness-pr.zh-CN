@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968053"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793388"
 ---
 > [!NOTE]
 > 查看以下信息以了解团队中的聊天、团队、频道 & 应用。 然后，转到 "[聊天"、"团队"、"频道"、"& 团队中的应用"，](deploy-chat-teams-channels-microsoft-teams-landing-page.md)浏览针对团队推出的重要决策列表。
@@ -46,6 +46,8 @@ ms.locfileid: "37968053"
 
     - 频道是指出现对话的地方以及工作实际完成的位置。 可以向所有团队成员开放频道，或者，如果你需要更多的选择受众，则可以使用专用。 标准频道用于与团队中的每个人都可以参与和[专用频道](private-channels.md)限制与团队中人员的子集进行通信的对话。
     - 通过包含选项卡、连接器和机器人的应用进行扩展时，通道最有价值，这些应用会将其值增加到团队成员。 若要了解详细信息，请参阅[团队中的应用、bot、& 连接器](deploy-apps-microsoft-teams-landing-page.md)。
+    
+有关使用团队和频道的帮助，请查看[团队和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
 观看此简短视频，了解有关创建团队和频道的最佳做法的详细信息。
 
