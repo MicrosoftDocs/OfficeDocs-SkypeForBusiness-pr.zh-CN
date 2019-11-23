@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c897a0833510689e8bd1100db5fdd3803d5fdc92
-ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
+ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753369"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209088"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -36,7 +36,7 @@ Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移�
 
 ## <a name="desktop-client"></a>桌面客户端
 
-> [!Tip]
+> [!TIP]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
 Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于 Windows （7 +）、32位和64位版本、macOS （10.10 +）和 Linux （"格式" 和`.deb` `.rpm` "格式"）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理器（如 apt 和 yum）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
@@ -171,10 +171,9 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 此示例脚本（需要在已提升的管理员帐户上下文中的客户端计算机上运行）将为在 c:\users. 中找到的每个用户文件夹创建新的入站防火墙规则。 当团队发现此规则时，它将阻止团队应用程序在用户第一次从团队发出呼叫时提示用户创建防火墙规则。 
 
-```
-
+```powershell
 <#
-.Synopsis
+.SYNOPSIS
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
@@ -186,15 +185,11 @@ Microsoft Teams 移动应用的支持移动平台如下：
 #Requires -Version 3
 
 $users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($users.Length -gt 0)
-{
-    foreach ($user in $users)
-    {
+if ($null -ne $users) {
+    foreach ($user in $users) {
         $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath)
-        {
-            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue))
-            {
+        if (Test-Path $progPath) {
+            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
                 $ruleName = "Teams.exe for user $($user.Name)"
                 "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
                 Clear-Variable ruleName
@@ -203,5 +198,4 @@ if ($users.Length -gt 0)
         Clear-Variable progPath
     }
 }
-
 ```

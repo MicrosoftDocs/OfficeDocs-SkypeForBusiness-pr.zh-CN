@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '了解如何为团队获取新的、移植或转移现有号码，以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925283"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209198"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925283"
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
     
-1. 在左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**获取新号码**"。
+1. 在左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**添加**"。
 2. 输入订单的名称，如果需要，请添加说明。
 3. 在 "位置和数量" 页面上，执行下列操作：
     1. 在 "**国家或地区**" 下，选择一个国家或地区。
@@ -75,7 +75,7 @@ ms.locfileid: "37925283"
     
 - 获得您的电话号码后，您需要为每个用户分配一个号码。 请参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
     
-- 你可以使用 Microsoft 团队管理中心中的 "**电话号码**" 页面查看 "**电话号码**" 列中可用电话号码的列表，请参阅是否已在 "**状态**" 列中分配了电话号码，并查看"**位置**" 列中的电话号码。 
+- 你可以使用 Microsoft 团队管理中心中的 "**电话号码**" 页面查看 "**电话号码**" 列中可用电话号码的列表，请参阅是否已在 "**状态**" 列中分配了电话号码，并在 "**位置**" 列中查看电话号码的位置。 
 
 > [!NOTE]
 > 如果您需要获得比这更多的电话号码，[请与 PSTN 服务支持人员联系](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。

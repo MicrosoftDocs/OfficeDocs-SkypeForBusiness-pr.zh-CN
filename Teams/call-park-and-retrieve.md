@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 使用呼叫驻留和检索将呼叫置于云中的团队服务中的 "暂候" 状态。
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517025"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209178"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -99,10 +99,10 @@ ms.locfileid: "37517025"
 如果用户尝试检索呼叫，但未成功，请检查以下事项：
 
 - 验证用户使用的是团队客户端还是启用团队的设备/电话
-- 分组–用户是否是呼叫驻留组的成员？
+- 分组-用户是呼叫驻留组的成员，它基于分配了寄存策略的相同团队调用。 
 - 岛模式-通话寄存和检索在团队岛模式下不可用。
 - 通话已被检索或终止。
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
 [在团队中寄存 a 通话](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
