@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37972493"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211933"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -105,7 +105,7 @@ ms.locfileid: "37972493"
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>步骤 2-获取或转移收费或免费服务电话号码
 
-在创建和设置呼叫队列之前，您需要获取或转移现有收费或免费服务号码。 获取收费或免费服务电话号码后，它们将显示在**Microsoft 团队管理中心** > **旧版门户** > **Voice** > **电话号码**中，并且**数字类型**将列为**服务-** 免费。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+在创建和设置呼叫队列之前，您需要获取或转移现有收费或免费服务号码。 获取收费或免费服务电话号码后，将在**Microsoft 团队管理中心** > **的语音** > **电话号码** > 中显示 "**添加**>，"**号码 "类型**将作为" 服务 "列出（免费 **）**。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到 Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 > [!NOTE]
 > 如果您在美国以外，则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何从美国以外的国家进行管理。
@@ -222,6 +222,10 @@ ms.locfileid: "37972493"
 
     > [!NOTE]
     > 使用 Skype for Business 桌面之外的应用或终结点的代理可以从 "用户设置" 门户[https://aka.ms/cqsettings](https://aka.ms/cqsettings)访问 "退出" 选项。
+    >
+    > 如果代理位于 Microsoft 团队桌面客户端，则他们可以使用呼叫设置选择退出。 
+
+![选择退出呼叫设置的屏幕截图](media/create-a-phone-system-call-queue-image1.png)
 
 ![数字2的图标，在上一个屏幕截图](media/sfbcallout2.png)
 中引用标注**Agent 警报设置**

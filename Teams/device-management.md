@@ -17,12 +17,12 @@ description: 了解如何管理组织中与团队一起使用的设备。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972453"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211932"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
@@ -30,7 +30,7 @@ ms.locfileid: "37972453"
 作为管理员，你可以管理来自 Microsoft 团队管理中心的组织中的团队使用的所有设备。 你可以查看和管理你的组织的设备清单，并执行一些任务，如更新、重启和监视设备诊断。 你还可以创建配置文件并将其分配给设备或设备组。 
 
 ## <a name="what-devices-can-you-manage"></a>可以管理哪些设备？
-设备必须经过认证，才能供团队和注册团队。 当用户第一次登录设备上的团队时，将自动注册设备。 有关可管理的认证设备的列表，请参阅[电话会议](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)和[桌面电话](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)。
+设备必须经过认证，才能供团队和注册团队。 当用户第一次登录设备上的团队时，将自动注册设备。 有关可管理的认证设备的列表，请参阅[电话会议](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16)和[桌面电话](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)。
 
 > [!NOTE]
 > 如果你有 Microsoft Intune，则会在 Intune 中自动注册设备。 注册设备后，将确认设备合规性，并将条件访问策略应用到设备。 
