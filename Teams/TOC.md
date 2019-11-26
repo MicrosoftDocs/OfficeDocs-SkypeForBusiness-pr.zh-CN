@@ -33,6 +33,7 @@
 ## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
+## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
 
 
 
@@ -820,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [培训](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
@@ -835,6 +836,7 @@
 ## 准备好推广 Teams
 ### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
+### [使用适于 Teams 的顾问来推出 Teams](use-advisor-teams-roll-out.md)
 ### [使用适用于 Teams 的 网络规划器](network-planner.md)
 ### [演练](tutorial-network-planner-example.yml)
 ### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
