@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572142"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257471"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -264,7 +264,7 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒体流量：端口范围
-请注意，如果你想要在不使用媒体绕过的情况下部署直接路由，请应用以下要求。 有关媒体绕过的防火墙要求，请参阅[使用直接路由规划媒体旁路](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)。
+请注意，如果你想要在不使用媒体绕过的情况下部署直接路由，请应用以下要求。 有关媒体绕过的防火墙要求，请参阅[使用直接路由规划媒体旁路](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)。
 
 
 
@@ -287,9 +287,8 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|媒体处理器|SBC|49 152-53 247|在 SBC 上定义|
-|UDP/SRTP|SBC|媒体处理器|在 SBC 上定义|49 152-53 247|
-|
+|UDP/SRTP|媒体处理器|SBC|49152-53247|在 SBC 上定义|
+|UDP/SRTP|SBC|媒体处理器|在 SBC 上定义|49152-53247|
 
   > [!NOTE]
   > Microsoft 建议在 SBC 上对每个并发调用至少有两个端口。

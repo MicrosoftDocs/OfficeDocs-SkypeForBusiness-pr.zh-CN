@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: 阅读本主题，了解如何在大规模部署中部署 Microsoft 团队聊天室。
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573623"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218029"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
 
@@ -489,7 +506,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 
 3.  在 Configuration Manager 控制台中，转到 "**软件库** \> **操作系统** \> **驱动程序**"，然后选择 "**导入驱动程序**"。
 
-4.  选择 **"导入以下网络路径（UNC）中的所有驱动程序**"，选择源文件夹（例如，\\C\\：\\_Sources 驱动程序 Surface Pro），然后选择 "**下一步**"。
+4.  选择 **"导入以下网络路径（UNC）中的所有驱动程序**"，选择源文件夹（例如，\\C\\：\\_Sources 驱动 Surface Pro），然后选择 "**下一步**"。
 
 5.  在 "**指定导入的驱动程序的详细信息**" 页面上，选择列出的所有驱动程序，然后选择 "**启用这些驱动程序并允许计算机安装它们**"。
 
@@ -633,7 +650,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
        -   编辑此步骤并更新命令行参数以指定你的**工作区 ID**和**工作区密钥**。
        -   有关获取 Operations Management Suite 工作区 ID 和主键的详细信息，请参阅[配置 Azure 监视的测试设备](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring)。
        -   验证**SRS v2-Microsoft Monitoring Agent 程序包**和 "**禁用64位文件系统重定向**" 是否已选中。
-       -   有关监视 Microsoft 团队聊天室部署的运行状况的详细信息，请参阅[通过 Azure 监视器规划 Microsoft 团队会议室管理](azure-monitor-plan.md)、[通过 Azure 监视器部署 microsoft 团队聊天室管理](azure-monitor-deploy.md)和[管理 Microsoft带有 Azure 监视器的团队聊天室设备](azure-monitor-manage.md)。
+       -   有关监视 Microsoft 团队聊天室部署的运行状况的详细信息，请参阅通过[azure 监视器规划 Microsoft 团队会议室管理](azure-monitor-plan.md)、通过[Azure 监视器部署 microsoft 团队聊天室管理](azure-monitor-deploy.md)和[利用 Azure 监视器管理 Microsoft 团队聊天室设备](azure-monitor-manage.md)。
 
    11. **复制 SRS V2 配置文件**：此步骤将所需的设置和配置文件从 Microsoft 团队聊天室部署工具包复制到本地硬盘。 此步骤不需要自定义。
        -   验证**srs v2 – Srs 应用程序包**和 "**禁用64位文件系统重定向**" 是否已选中。
@@ -742,8 +759,8 @@ SMSTS 文件存储在多条路径中，具体取决于生成过程的阶段。 �
 | **部署阶段**                                                            | **任务序列日志路径**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
 | 在 HDD 格式之前的 WinPE                                                        | X：\\Windows\\Temp\\smstslog\\smsts             |
-| 在 HDD 格式后进行 WinPE                                                         | C：\\_SMSTaskSequence\\log\\Smstslog\\smsts    |
-| 在安装 Configuration Manager 代理之前已部署操作系统 | c：\\_SMSTaskSequence\\log\\Smstslog\\smsts    |
+| 在 HDD 格式后进行 WinPE                                                         | C：\\_SMSTaskSequence\\日志\\Smstslog\\smsts    |
+| 在安装 Configuration Manager 代理之前已部署操作系统 | c：\\_SMSTaskSequence\\日志\\Smstslog\\smsts    |
 | 操作系统和配置管理器代理已部署                   | % windir%\\System32\\ccm\\log\\Smstslog\\smsts |
 | 任务序列执行完成                                                | % windir%\\System32\\ccm\\\\smsts 日志           |
 

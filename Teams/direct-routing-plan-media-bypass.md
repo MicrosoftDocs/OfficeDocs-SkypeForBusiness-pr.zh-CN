@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题，了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572153"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257481"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -145,15 +145,15 @@ IP 范围是 52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）�
 
 - 传输中继不是 B2BUA，这意味着在客户端和 SBC 之间不会更改编解码器-即使通信流通过中继流也是如此。
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>如果为媒体绕过配置了主干，则在升级方案中使用团队传输中继
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>如果为媒体绕过配置了主干，则使用团队媒体处理器
 
-在以下情况下，团队传输中继始终位于媒体路径中：
+在以下情况下，团队媒体处理器始终插入到媒体路径中：
 
 - 通话从1:1 升级到群组通话
 - 呼叫将转到联合团队用户
 - 呼叫将转发或转移到 Skype for Business 用户
 
-请确保你的 SBC 有权访问传输中继，如下所述。    
+确保你的 SBC 有权访问媒体处理器和传输中继范围，如下所述。    
 
 
 ## <a name="sip-signaling-fqdns"></a>SIP 信号： Fqdn
@@ -243,7 +243,7 @@ SIP/TLS| SIP 代理 | SBC | 1024-65535 | 在 SBC 上定义 |
 
 客户端必须具有对 SBC 公共 IP 地址的指定端口（见表）的访问权限。 
 
-注意：如果客户端在内部网络中，则媒体将流向 SBC 的公共 IP 地址。 你可以在 NAT 设备上配置 hairpinning，以使流量永不离开企业网络设备。
+注意：如果客户端在内部网络中，则媒体将流向 SBC 的公共 IP 地址。 你可以在你的 NAT 设备上配置头发固定，以便流量永远不会离开企业网络设备。
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
