@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570720"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621270"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>讲师引导式 Microsoft Teams 培训</h1>
-Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。如果你是业务决策制定者、管理员、IT 专业人员或最终用户，你会找到恰如你所需的课程。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 要自行查看我们的培训课程，请访问我们的<a href="https://aka.ms/TeamsOnDemand">最终用户按需培训</a>。<br><br>单击下面的会话进行注册。
+Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 不确定从哪里开始？ 参加我们的 <a href="https://aka.ms/TeamsKnowledgeCheck">Teams 知识检查</a>。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 要自行查看我们的培训课程，请访问我们的<a href="https://aka.ms/TeamsOnDemand">最终用户按需培训</a>。<br><br>单击下面的会话进行注册。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
