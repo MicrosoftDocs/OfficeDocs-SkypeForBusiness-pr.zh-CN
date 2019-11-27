@@ -3,7 +3,6 @@ title: 为基于位置的路由配置网络设置
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570695"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615842"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a><span data-ttu-id="6e2c9-103">为基于位置的路由配置网络设置</span><span class="sxs-lookup"><span data-stu-id="6e2c9-103">Configure network settings for Location-Based Routing</span></span>
+# <a name="configure-network-settings-for-location-based-routing"></a><span data-ttu-id="9e6ee-103">为基于位置的路由配置网络设置</span><span class="sxs-lookup"><span data-stu-id="9e6ee-103">Configure network settings for Location-Based Routing</span></span>
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-<span data-ttu-id="6e2c9-104">如果尚未执行此操作，请阅读[基于计划位置的路由，直接路由](location-based-routing-plan.md)以查看在为基于位置的路由配置网络设置之前需要执行的其他步骤。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-104">If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings for Location-Based Routing.</span></span>
+<span data-ttu-id="9e6ee-104">如果尚未执行此操作，请阅读[基于计划位置的路由，直接路由](location-based-routing-plan.md)以查看在为基于位置的路由配置网络设置之前需要执行的其他步骤。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-104">If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings for Location-Based Routing.</span></span>
 
-<span data-ttu-id="6e2c9-105">本文介绍如何为基于位置的路由配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-105">This article describes how to configure network settings for Location-Based Routing.</span></span> <span data-ttu-id="6e2c9-106">在组织中部署手机系统直接路由后，下一步是创建和设置网络区域、网络网站和网络子网。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-106">After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets.</span></span> <span data-ttu-id="6e2c9-107">若要完成本文中的步骤，你需要熟悉 PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-107">To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets.</span></span> <span data-ttu-id="6e2c9-108">若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-108">To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
+<span data-ttu-id="9e6ee-105">本文介绍如何为基于位置的路由配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-105">This article describes how to configure network settings for Location-Based Routing.</span></span> <span data-ttu-id="9e6ee-106">在组织中部署手机系统直接路由后，下一步是创建和设置网络区域、网络网站和网络子网。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-106">After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets.</span></span>
 
-## <a name="define-network-regions"></a><span data-ttu-id="6e2c9-109">定义网络区域</span><span class="sxs-lookup"><span data-stu-id="6e2c9-109">Define network regions</span></span>
- <span data-ttu-id="6e2c9-110">网络区域跨多个地理区域互连网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-110">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="6e2c9-111">使用[CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet 定义网络区域。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-111">Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet to define network regions.</span></span> <span data-ttu-id="6e2c9-112">请注意，RegionID 参数是一个逻辑名称，表示区域的地理位置，并且没有相关性或限制，并且 CentralSite &lt;site ID&gt;参数是可选的。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-112">Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.</span></span> 
+## <a name="define-network-regions"></a><span data-ttu-id="9e6ee-107">定义网络区域</span><span class="sxs-lookup"><span data-stu-id="9e6ee-107">Define network regions</span></span>
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
+<span data-ttu-id="9e6ee-108">网络区域包含网络站点集合，并跨多个地理区域互连网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-108">A network region contains a collection of network sites and interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="9e6ee-109">有关如何配置网络区域的步骤，请转到[管理团队中的云功能的网络拓扑](manage-your-network-topology.md)。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-109">For steps on how to configure network regions, go to [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).</span></span>
 
-<span data-ttu-id="6e2c9-113">在此示例中，我们创建一个名为 "印度" 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-113">In this example, we create a network region named India.</span></span> 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+## <a name="define-network-sites"></a><span data-ttu-id="9e6ee-110">定义网络站点</span><span class="sxs-lookup"><span data-stu-id="9e6ee-110">Define network sites</span></span>
 
-## <a name="define-network-sites"></a><span data-ttu-id="6e2c9-114">定义网络站点</span><span class="sxs-lookup"><span data-stu-id="6e2c9-114">Define network sites</span></span>
+<span data-ttu-id="9e6ee-111">网络站点表示您的组织有物理场所的位置，如办公室、一组建筑物或校园。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-111">A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus.</span></span> <span data-ttu-id="9e6ee-112">您必须将拓扑中的每个网络站点与网络区域相关联。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-112">You must associate each network site in your topology with a network region.</span></span> <span data-ttu-id="9e6ee-113">有关如何配置网络网站的步骤，请参阅[管理团队中的云功能的网络拓扑](manage-your-network-topology.md)。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-113">For steps on how to configure network sites, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).</span></span>
 
-<span data-ttu-id="6e2c9-115">使用[CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet 定义网络站点。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-115">Use the [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites.</span></span> 
+<span data-ttu-id="9e6ee-114">基于位置的路由的最佳做法是为每个具有唯一 PSTN 连接的位置创建单独的网站。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-114">A best practice for Location-Based Routing is to create a separate site for each location that has unique PSTN connectivity.</span></span> <span data-ttu-id="9e6ee-115">你可以创建为基于位置的路由或未启用基于位置的路由的网站启用的网站。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-115">You can create a site that's enabled for Location-Based Routing or a site that's not enabled for Location-Based Routing.</span></span> <span data-ttu-id="9e6ee-116">例如，你可能希望创建一个未启用基于位置的路由的网站，以便允许启用了基于位置的路由的用户在漫游到该站点时进行 PSTN 呼叫。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-116">For example, you may want to create a site that's not enabled for Location-Based Routing to allow users who are enabled for Location-Based Routing to make PSTN calls when they roam to that site.</span></span>
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-<span data-ttu-id="6e2c9-116">在此示例中，我们将在印度地区创建两个新的网络站点：新德里和 Hyderabad。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-116">In this example, we create two new network sites, Delhi and Hyderabad, in the India region.</span></span> 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-<span data-ttu-id="6e2c9-117">下表显示了本示例中定义的网络站点。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-117">The following table shows the network sites defined in this example.</span></span> 
+## <a name="define-network-subnets"></a><span data-ttu-id="9e6ee-117">定义网络子网</span><span class="sxs-lookup"><span data-stu-id="9e6ee-117">Define network subnets</span></span>
 
-||<span data-ttu-id="6e2c9-118">站点1</span><span class="sxs-lookup"><span data-stu-id="6e2c9-118">Site 1</span></span> |<span data-ttu-id="6e2c9-119">网站2</span><span class="sxs-lookup"><span data-stu-id="6e2c9-119">Site 2</span></span> |
-|---------|---------|---------|
-|<span data-ttu-id="6e2c9-120">网站 ID</span><span class="sxs-lookup"><span data-stu-id="6e2c9-120">Site ID</span></span>    |    <span data-ttu-id="6e2c9-121">站点1（新德里）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-121">Site 1 (Delhi)</span></span>     |  <span data-ttu-id="6e2c9-122">Site 2 （Hyderabad）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-122">Site 2 (Hyderabad)</span></span>       |
-|<span data-ttu-id="6e2c9-123">区域 ID</span><span class="sxs-lookup"><span data-stu-id="6e2c9-123">Region ID</span></span>  |     <span data-ttu-id="6e2c9-124">区域1（印度）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-124">Region 1 (India)</span></span>    |   <span data-ttu-id="6e2c9-125">区域1（印度）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-125">Region 1 (India)</span></span>      |
+<span data-ttu-id="9e6ee-118">每个子网都必须与特定的网络站点相关联。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-118">Each subnet must be associated with a specific network site.</span></span> <span data-ttu-id="9e6ee-119">你可以将多个子网与同一网络站点关联，但不能将多个站点与同一子网相关联。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-119">You can associate multiple subnets with the same network site but you can't associate multiple sites with the same subnet.</span></span> <span data-ttu-id="9e6ee-120">有关如何配置网络子网的步骤，请转到[管理团队中的云功能的网络拓扑](manage-your-network-topology.md)。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-120">For steps on how to configure network subnets, go to  [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).</span></span>
 
-## <a name="define-network-subnets"></a><span data-ttu-id="6e2c9-126">定义网络子网</span><span class="sxs-lookup"><span data-stu-id="6e2c9-126">Define network subnets</span></span>
+<span data-ttu-id="9e6ee-121">对于基于位置的路由，团队终结点可以连接到网络的位置上的 IP 子网必须定义并关联到已定义的网络，才能强制使用收费旁路。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-121">For Location-Based Routing, IP subnets at the location where Teams endpoints can connect to the network must be defined and associated to a defined network to enforce toll bypass.</span></span> <span data-ttu-id="9e6ee-122">这种子网的关联使基于位置的路由能够在地理位置找到终结点，以确定是否应允许给定的 PSTN 呼叫。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-122">This association of subnets enables Location-Based Routing to locate the endpoints geographically to determine whether a given PSTN call should be allowed.</span></span> <span data-ttu-id="9e6ee-123">IPv6 和 IPv4 子网均受支持。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-123">Both IPv6 and IPv4 subnets are supported.</span></span> <span data-ttu-id="9e6ee-124">确定团队终结点是否位于某个网站时，基于位置的路由首先检查匹配的 IPv6 地址。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-124">When determining whether a Teams endpoint is located at a site, Location-Based Routing first checks for a matching IPv6 address.</span></span> <span data-ttu-id="9e6ee-125">如果不存在 IPv6 地址，则基于位置的路由检查 IPv4 地址。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-125">If an IPv6 address isn't present, Location-Based Routing checks for an IPv4 address.</span></span>
 
-<span data-ttu-id="6e2c9-127">使用[CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet 定义网络子网并将其与网络站点相关联。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-127">Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites.</span></span> <span data-ttu-id="6e2c9-128">每个内部子网仅可与一个网站相关联。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-128">Each internal subnet can only be associated with one site.</span></span> 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-<span data-ttu-id="6e2c9-129">在此示例中，我们将创建子网192.168.0.0 和新德里网络站点之间以及子网2001之间的关联：4898： e8：25：844e：926f：85ad： dd8e 和 Hyderabad 网络站点。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-129">In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site.</span></span>
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-<span data-ttu-id="6e2c9-130">下表显示了在此示例中定义的子网。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-130">The following table shows the subnets defined in this example.</span></span> 
+## <a name="define-trusted-ip-addresses-external-subnets"></a><span data-ttu-id="9e6ee-126">定义受信任的 IP 地址（外部子网）</span><span class="sxs-lookup"><span data-stu-id="9e6ee-126">Define trusted IP addresses (external subnets)</span></span>
 
-||<span data-ttu-id="6e2c9-131">站点1</span><span class="sxs-lookup"><span data-stu-id="6e2c9-131">Site 1</span></span> |<span data-ttu-id="6e2c9-132">网站2</span><span class="sxs-lookup"><span data-stu-id="6e2c9-132">Site 2</span></span> |
-|---------|---------|---------|
-|<span data-ttu-id="6e2c9-133">子网 ID</span><span class="sxs-lookup"><span data-stu-id="6e2c9-133">Subnet ID</span></span>   |    <span data-ttu-id="6e2c9-134">含</span><span class="sxs-lookup"><span data-stu-id="6e2c9-134">192.168.0.0</span></span>     |  <span data-ttu-id="6e2c9-135">2001：4898： e8：25：844e：926f：85ad： dd8e</span><span class="sxs-lookup"><span data-stu-id="6e2c9-135">2001:4898:e8:25:844e:926f:85ad:dd8e</span></span>     |
-|<span data-ttu-id="6e2c9-136">Usm</span><span class="sxs-lookup"><span data-stu-id="6e2c9-136">Mask</span></span>  |     <span data-ttu-id="6e2c9-137">全</span><span class="sxs-lookup"><span data-stu-id="6e2c9-137">24</span></span>    |   <span data-ttu-id="6e2c9-138">120</span><span class="sxs-lookup"><span data-stu-id="6e2c9-138">120</span></span>      |
-|<span data-ttu-id="6e2c9-139">网站 ID</span><span class="sxs-lookup"><span data-stu-id="6e2c9-139">Site ID</span></span>  | <span data-ttu-id="6e2c9-140">站点（新德里）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-140">Site (Delhi)</span></span> | <span data-ttu-id="6e2c9-141">Site 2 （Hyderabad）</span><span class="sxs-lookup"><span data-stu-id="6e2c9-141">Site 2 (Hyderabad)</span></span> |
+<span data-ttu-id="9e6ee-127">"受信任的 IP 地址" 是企业网络的 internet 外部 IP 地址，用于确定用户的终结点是否位于企业网络内。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-127">Trusted IP addresses are the internet external IP addresses of the enterprise network and are used to determine whether the user's endpoint is inside the corporate network.</span></span> <span data-ttu-id="9e6ee-128">有关如何配置受信任 IP 地址的步骤，请转到[管理团队中的云功能的网络拓扑](manage-your-network-topology.md)。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-128">For steps on how to configure trusted IP addresses, go to  [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).</span></span>
 
-<span data-ttu-id="6e2c9-142">对于多个子网，您可以使用如下所示的脚本导入 CSV 文件。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-142">For multiple subnets, you can import a CSV file by using a script such as the following.</span></span>
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-<span data-ttu-id="6e2c9-143">在此示例中，CSV 文件的外观如下所示：</span><span class="sxs-lookup"><span data-stu-id="6e2c9-143">In this example, the CSV file looks something like this:</span></span>
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a><span data-ttu-id="6e2c9-144">定义外部子网</span><span class="sxs-lookup"><span data-stu-id="6e2c9-144">Define external subnets</span></span>
-<span data-ttu-id="6e2c9-145">使用[CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet 定义外部子网并将其分配给租户。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-145">Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant.</span></span> <span data-ttu-id="6e2c9-146">你可以为租户定义无限数量的子网。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-146">You can define an unlimited number of subnets for a tenant.</span></span> 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-<span data-ttu-id="6e2c9-147">例如：</span><span class="sxs-lookup"><span data-stu-id="6e2c9-147">For example:</span></span>
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+<span data-ttu-id="9e6ee-129">如果用户的外部 IP 地址与 "受信任的 IP 地址" 列表中的 IP 地址匹配，则基于位置的路由检查以确定用户终结点所在的内部子网。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-129">If the user’s external IP address matches an IP address that's in the trusted IP address list, Location-Based Routing checks to determine the internal subnet where the user’s endpoint is located.</span></span> <span data-ttu-id="9e6ee-130">如果用户的外部 IP 地址不匹配在 "信任的 IP 地址" 列表中定义的任何 IP 地址，终结点将被归类为处于未知位置，并且对启用了基于位置的路由的用户的任何 PSTN 呼叫都将被阻止。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-130">If the user’s external IP address doesn’t match any IP address that's defined in the trusted IP address list, the endpoint is classified as being at an unknown location and any PSTN calls to or from a user who is enabled for Location-Based Routing are blocked.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="6e2c9-148">后续步骤</span><span class="sxs-lookup"><span data-stu-id="6e2c9-148">Next steps</span></span>
-<span data-ttu-id="6e2c9-149">转到 "为[直接路由启用基于位置的路由](location-based-routing-enable.md)"。</span><span class="sxs-lookup"><span data-stu-id="6e2c9-149">Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).</span></span>
+## <a name="next-steps"></a><span data-ttu-id="9e6ee-131">后续步骤</span><span class="sxs-lookup"><span data-stu-id="9e6ee-131">Next steps</span></span>
 
-### <a name="related-topics"></a><span data-ttu-id="6e2c9-150">相关主题</span><span class="sxs-lookup"><span data-stu-id="6e2c9-150">Related topics</span></span>
-- [<span data-ttu-id="6e2c9-151">为直接路由计划基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="6e2c9-151">Plan Location-Based Routing for Direct Routing</span></span>](location-based-routing-plan.md)
-- [<span data-ttu-id="6e2c9-152">基于位置的路由术语</span><span class="sxs-lookup"><span data-stu-id="6e2c9-152">Location-Based Routing terminology</span></span>](location-based-routing-terminology.md)
+<span data-ttu-id="9e6ee-132">转到 "为[直接路由启用基于位置的路由](location-based-routing-enable.md)"。</span><span class="sxs-lookup"><span data-stu-id="9e6ee-132">Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="9e6ee-133">相关主题</span><span class="sxs-lookup"><span data-stu-id="9e6ee-133">Related topics</span></span>
+
+- [<span data-ttu-id="9e6ee-134">团队中云语音功能的网络设置</span><span class="sxs-lookup"><span data-stu-id="9e6ee-134">Network settings for cloud voice features in Teams</span></span>](cloud-voice-network-settings.md)

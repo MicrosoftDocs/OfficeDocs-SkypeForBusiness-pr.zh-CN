@@ -14,133 +14,196 @@ search.appverid: MET150
 description: 配置动态紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b166c93bb213fab6e8025a1837ef67baa65c884
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516929"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615852"
 ---
-# <a name="plan-and-configure-dynamic-emergency-calling-for-calling-plans"></a><span data-ttu-id="d70ff-103">规划和配置通话计划的动态紧急呼叫</span><span class="sxs-lookup"><span data-stu-id="d70ff-103">Plan and configure dynamic emergency calling for Calling Plans</span></span>
-<span data-ttu-id="d70ff-104">Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前位置配置和路由紧急呼叫的功能。</span><span class="sxs-lookup"><span data-stu-id="d70ff-104">Dynamic emergency calling for Microsoft Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client.</span></span>  <span data-ttu-id="d70ff-105">自动路由到相应的公共安全应答点（PSAP）或通知安全桌面人员的能力会有所不同，具体取决于团队用户使用的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="d70ff-105">The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.</span></span>  
+# <a name="plan-and-configure-dynamic-emergency-calling"></a><span data-ttu-id="36ca0-103">规划和配置动态紧急呼叫</span><span class="sxs-lookup"><span data-stu-id="36ca0-103">Plan and configure dynamic emergency calling</span></span> 
 
-> [!Note] 
-> <span data-ttu-id="d70ff-106">动态紧急呼叫目前仅在美国可用。</span><span class="sxs-lookup"><span data-stu-id="d70ff-106">Dynamic emergency calling is currently available only in the United States.</span></span> <span data-ttu-id="d70ff-107">但是，安全桌面通知在国家边界内受支持。</span><span class="sxs-lookup"><span data-stu-id="d70ff-107">Security desk notification, however, is supported across country boundaries.</span></span>
+<span data-ttu-id="36ca0-104">Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了配置和路由紧急呼叫的功能，并根据团队客户的当前位置通知安全人员。</span><span class="sxs-lookup"><span data-stu-id="36ca0-104">Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.</span></span>  
 
-<span data-ttu-id="d70ff-108">在**美国**，您可以配置动态紧急呼叫路由，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d70ff-108">**Within the United States**, you can configure dynamic emergency call routing as follows:</span></span>
-  
-- <span data-ttu-id="d70ff-109">如果团队客户端位于租户定义的动态紧急位置，则来自该客户端的紧急呼叫将自动路由到该地理位置的 PSAP 服务。</span><span class="sxs-lookup"><span data-stu-id="d70ff-109">If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.</span></span>  
+<span data-ttu-id="36ca0-105">根据租户管理员定义的网络拓扑，团队客户端在对位置信息服务（.LIS）的请求中提供网络连接信息。</span><span class="sxs-lookup"><span data-stu-id="36ca0-105">Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS).</span></span>  <span data-ttu-id="36ca0-106">如果存在匹配项，则 IIS 将向客户端返回一个位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-106">If there is a match, the LIS returns a location to the client.</span></span> <span data-ttu-id="36ca0-107">此位置数据将传回客户端。</span><span class="sxs-lookup"><span data-stu-id="36ca0-107">This location data is transmitted back to the client.</span></span>  
 
-- <span data-ttu-id="d70ff-110">如果团队客户端不在租户定义的动态紧急位置，则来自该客户端的紧急呼叫由全国呼叫中心进行筛选，以便在将呼叫转移到该地理位置的 PSAP 服务之前确定呼叫者的位置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-110">If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.</span></span>
+<span data-ttu-id="36ca0-108">团队客户端包括作为紧急呼叫的一部分的位置数据。</span><span class="sxs-lookup"><span data-stu-id="36ca0-108">The Teams client includes location data as part of an emergency call.</span></span> <span data-ttu-id="36ca0-109">这些数据随后由紧急服务提供商用于确定相应的公共安全应答点（PSAP），并将呼叫路由到该 PSAP，从而允许 PSAP dispatcher 获取呼叫者的位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-109">This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.</span></span>  
 
-<span data-ttu-id="d70ff-111">您可以配置安全桌面通知，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d70ff-111">You can configure security desk notification as follows:</span></span>
+<span data-ttu-id="36ca0-110">对于动态紧急呼叫，必须执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="36ca0-110">For dynamic emergency calling, the following must occur:</span></span>
 
-- <span data-ttu-id="d70ff-112">如果团队客户端位于租户定义的网络网站上，则为该网站配置的安全组成员将收到通知。</span><span class="sxs-lookup"><span data-stu-id="d70ff-112">If a Teams client is located at a tenant-defined network site, the security group members configured for that site will be notified.</span></span>
+1. <span data-ttu-id="36ca0-111">网络管理员配置网络设置和 .LIS 以创建网络/紧急位置映射。</span><span class="sxs-lookup"><span data-stu-id="36ca0-111">The network administrator configures network settings and the LIS to create a network/emergency location map.</span></span>
 
-- <span data-ttu-id="d70ff-113">如果团队客户端不在租户定义的网络网站上，将通知为该用户配置的安全组成员。</span><span class="sxs-lookup"><span data-stu-id="d70ff-113">If a Teams client is not located at a tenant-defined network site, the security group members configured for the user will be notified.</span></span>
+   <span data-ttu-id="36ca0-112">对于直接路由，需要进行额外的配置来路由紧急呼叫，并且可能需要进行合作伙伴连接。</span><span class="sxs-lookup"><span data-stu-id="36ca0-112">For Direct Routing, additional configuration is required for routing emergency calls and possibly for partner connectivity.</span></span> <span data-ttu-id="36ca0-113">管理员必须配置与紧急路由服务（ERS）提供商（美国）的连接，**或**为紧急位置识别号码（ELIN）应用程序配置会话边界控制器（SBC）。</span><span class="sxs-lookup"><span data-stu-id="36ca0-113">The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application.</span></span>
 
-<span data-ttu-id="d70ff-114">**在美国以外**，紧急电话将被路由到映射到分配给用户的电话号码的 PSAP。</span><span class="sxs-lookup"><span data-stu-id="d70ff-114">**Outside of the United States**, emergency calls are routed to the PSAP that is mapped to the phone number assigned to the user.</span></span>  <span data-ttu-id="d70ff-115">某些国家/地区（如英国和加拿大）在将呼叫者转移到相应的 PSAP 之前调用国内长途，而其他国家或地区直接路由到 PSAP，无论用户当前位于何处。</span><span class="sxs-lookup"><span data-stu-id="d70ff-115">Some countries, such as the Great Britain and Canada, screen the calls nationally before transferring the caller to the appropriate PSAP, while others route directly to the PSAP regardless of where the user is currently located.</span></span> 
+2. <span data-ttu-id="36ca0-114">在启动和以后定期，或者当网络连接更改时，团队客户端会将包含其网络连接信息的位置请求发送到网络设置和 .LIS。</span><span class="sxs-lookup"><span data-stu-id="36ca0-114">During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.</span></span>
 
-<span data-ttu-id="d70ff-116">请注意，您可以为所有呼叫计划用户配置动态安全桌面通知。</span><span class="sxs-lookup"><span data-stu-id="d70ff-116">Note that you can configure dynamic security desk notification for all Calling Plan users.</span></span>
+   - <span data-ttu-id="36ca0-115">如果存在网络设置网站匹配项，则会将紧急呼叫策略从该网站返回到团队客户端。</span><span class="sxs-lookup"><span data-stu-id="36ca0-115">If there is a network settings site match – emergency calling policies are returned to the Teams client from that site.</span></span> <span data-ttu-id="36ca0-116">（有关策略的详细信息，请参阅[配置紧急策略](#configure-emergency-policies)）。</span><span class="sxs-lookup"><span data-stu-id="36ca0-116">(For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).</span></span>
 
+   - <span data-ttu-id="36ca0-117">如果存在一个 IIS 匹配项-来自团队客户端连接到的网络元素的紧急位置将返回到团队客户端。</span><span class="sxs-lookup"><span data-stu-id="36ca0-117">If there is an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.</span></span>
 
-## <a name="supported-clients"></a><span data-ttu-id="d70ff-117">支持的客户端</span><span class="sxs-lookup"><span data-stu-id="d70ff-117">Supported clients</span></span>
+3. <span data-ttu-id="36ca0-118">当团队客户端进行紧急呼叫时，会将紧急位置传达给 PSTN 网络。</span><span class="sxs-lookup"><span data-stu-id="36ca0-118">When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.</span></span>
 
-<span data-ttu-id="d70ff-118">目前支持下列客户端。</span><span class="sxs-lookup"><span data-stu-id="d70ff-118">The following clients are currently supported.</span></span>  <span data-ttu-id="d70ff-119">经常回来查看此列表的更新。</span><span class="sxs-lookup"><span data-stu-id="d70ff-119">Check back often to see updates to this list.</span></span>
+   <span data-ttu-id="36ca0-119">对于直接路由，管理员必须将 SBC 配置为向 ERS 提供商发送紧急呼叫或配置 SBC ELIN 应用程序。</span><span class="sxs-lookup"><span data-stu-id="36ca0-119">For Direct Routing, the administrator must configure the SBC to send emergency calls to the ERS provider or configure the SBC ELIN application.</span></span>
 
-- <span data-ttu-id="d70ff-120">适用于 Windows 的团队桌面客户端</span><span class="sxs-lookup"><span data-stu-id="d70ff-120">Teams desktop client for Windows</span></span>
-- <span data-ttu-id="d70ff-121">适用于 Mac 的团队桌面客户端</span><span class="sxs-lookup"><span data-stu-id="d70ff-121">Teams desktop client for Mac</span></span>
+<span data-ttu-id="36ca0-120">本文包含以下部分。</span><span class="sxs-lookup"><span data-stu-id="36ca0-120">This article contains the following sections.</span></span>
 
-## <a name="configure-dynamic-emergency-calling"></a><span data-ttu-id="d70ff-122">配置动态紧急呼叫</span><span class="sxs-lookup"><span data-stu-id="d70ff-122">Configure dynamic emergency calling</span></span>
-
-<span data-ttu-id="d70ff-123">要配置动态紧急呼叫，您需要执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="d70ff-123">To configure dynamic emergency calling, you need to perform the following tasks:</span></span>
-
-- [<span data-ttu-id="d70ff-124">配置紧急地址</span><span class="sxs-lookup"><span data-stu-id="d70ff-124">Configure emergency addresses</span></span>](#configure-emergency-addresses)
-- [<span data-ttu-id="d70ff-125">配置网络设置</span><span class="sxs-lookup"><span data-stu-id="d70ff-125">Configure network settings</span></span>](#configure-network-settings)
-- [<span data-ttu-id="d70ff-126">配置位置信息服务</span><span class="sxs-lookup"><span data-stu-id="d70ff-126">Configure Location Information Service</span></span>](#configure-location-information-service)
-- [<span data-ttu-id="d70ff-127">配置紧急策略</span><span class="sxs-lookup"><span data-stu-id="d70ff-127">Configure emergency policies</span></span>](#configure-emergency-policies)
-- [<span data-ttu-id="d70ff-128">启用用户和网站</span><span class="sxs-lookup"><span data-stu-id="d70ff-128">Enable users and sites</span></span>](#enable-users-and-sites)
-- [<span data-ttu-id="d70ff-129">测试紧急电话</span><span class="sxs-lookup"><span data-stu-id="d70ff-129">Test emergency calling</span></span>](#test-emergency-calling)
+- [<span data-ttu-id="36ca0-121">配置紧急地址</span><span class="sxs-lookup"><span data-stu-id="36ca0-121">Configure emergency addresses</span></span>](#assign-emergency-addresses)
+- [<span data-ttu-id="36ca0-122">配置网络设置</span><span class="sxs-lookup"><span data-stu-id="36ca0-122">Configure network settings</span></span>](#configure-network-settings)
+- [<span data-ttu-id="36ca0-123">配置位置信息服务</span><span class="sxs-lookup"><span data-stu-id="36ca0-123">Configure Location Information Service</span></span>](#configure-location-information-service)
+- [<span data-ttu-id="36ca0-124">配置紧急策略</span><span class="sxs-lookup"><span data-stu-id="36ca0-124">Configure emergency policies</span></span>](#configure-emergency-policies)
+- [<span data-ttu-id="36ca0-125">启用用户和网站</span><span class="sxs-lookup"><span data-stu-id="36ca0-125">Enable users and sites</span></span>](#enable-users-and-sites)
+- [<span data-ttu-id="36ca0-126">测试紧急电话</span><span class="sxs-lookup"><span data-stu-id="36ca0-126">Test emergency calling</span></span>](#test-emergency-calling)
 
 
-### <a name="configure-emergency-addresses"></a><span data-ttu-id="d70ff-130">配置紧急地址</span><span class="sxs-lookup"><span data-stu-id="d70ff-130">Configure emergency addresses</span></span>
+<span data-ttu-id="36ca0-127">自动路由到相应的公共安全应答点（PSAP）的功能会有所不同，具体取决于团队用户使用的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="36ca0-127">The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.</span></span> 
 
-<span data-ttu-id="d70ff-131">若要支持美国的自动路由，必须完全配置分配给网络标识符的紧急位置部分的市政地址，并包括相关联的地域代码。</span><span class="sxs-lookup"><span data-stu-id="d70ff-131">To support automated routing within the United States, you must fully configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes.</span></span> <span data-ttu-id="d70ff-132">（不能将没有地理代码的紧急地址分配给动态位置所需的网络标识符。）</span><span class="sxs-lookup"><span data-stu-id="d70ff-132">(Emergency addresses without geo-codes cannot be assigned to the network identifiers that are required for dynamic locations.)</span></span>
+<span data-ttu-id="36ca0-128">有关紧急呼叫的详细信息-包括有关紧急地址和紧急呼叫路由的信息、特定于国家/地区的信息以及有关网络设置和网络拓扑的信息，请参阅以下内容：</span><span class="sxs-lookup"><span data-stu-id="36ca0-128">For more information about emergency calling--including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology--see the following:</span></span>
 
-- <span data-ttu-id="d70ff-133">如果通过 Microsoft 团队管理中心输入紧急地址，则如果找到匹配项，将自动包含 geo 代码。</span><span class="sxs-lookup"><span data-stu-id="d70ff-133">If you enter an emergency address via the Microsoft Teams admin center, the geo codes are automatically included if a match is found.</span></span>
-
-- <span data-ttu-id="d70ff-134">如果未自动找到匹配项，您将有机会手动创建紧急地址。</span><span class="sxs-lookup"><span data-stu-id="d70ff-134">If a match is not automatically found, you will have the opportunity to manually create an emergency address.</span></span>  
-
-<span data-ttu-id="d70ff-135">这意味着，如果为紧急呼叫配置了现有的紧急地址，则需要重新创建相同的地址以包括 geo 代码。</span><span class="sxs-lookup"><span data-stu-id="d70ff-135">This means that if an existing emergency address is configured for emergency calling, the same address needs to be re-created to include the geo codes.</span></span>  <span data-ttu-id="d70ff-136">若要区分这两个地址，应包含不同的说明。</span><span class="sxs-lookup"><span data-stu-id="d70ff-136">To distinguish between the two addresses, you should include a different description.</span></span> <span data-ttu-id="d70ff-137">新的紧急地址可以分配给具有旧地址的用户。</span><span class="sxs-lookup"><span data-stu-id="d70ff-137">The new emergency address can be assigned to the users who have the old address.</span></span> <span data-ttu-id="d70ff-138">完全迁移时，可以删除旧地址。</span><span class="sxs-lookup"><span data-stu-id="d70ff-138">When fully migrated, the old address can be deleted.</span></span> 
-
-<span data-ttu-id="d70ff-139">有关配置紧急地址的详细信息，请参阅[什么是紧急位置、位置和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="d70ff-139">For more information about configuring emergency addresses, see [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
-
-### <a name="configure-network-settings"></a><span data-ttu-id="d70ff-140">配置网络设置</span><span class="sxs-lookup"><span data-stu-id="d70ff-140">Configure network settings</span></span>
-
-<span data-ttu-id="d70ff-141">你需要配置网络设置以动态获取用于路由紧急呼叫的紧急位置，还可以选择提供安全桌面通知的动态配置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-141">You need to configure network settings to dynamically obtain an emergency location used for routing emergency calls and, optionally, to provide dynamic configuration of security desk notifications.</span></span> <span data-ttu-id="d70ff-142">所需的紧急呼叫体验将规定需要配置的网络设置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-142">The emergency calling experience desired will dictate which network settings need to be configured.</span></span> 
-
-<span data-ttu-id="d70ff-143">请记住以下定义：</span><span class="sxs-lookup"><span data-stu-id="d70ff-143">Keep the following definitions in mind:</span></span>
-
-- <span data-ttu-id="d70ff-144">受信任的 IP 包含企业网络的 Internet 外部 Ip 的集合，用于确定用户的终结点是否位于企业网络内。</span><span class="sxs-lookup"><span data-stu-id="d70ff-144">Trusted IP’s contain a collection of the Internet external IPs of the enterprise network and are used to determine if the user’s endpoint is inside the corporate network.</span></span> <span data-ttu-id="d70ff-145">仅当用户的外部 IP 与受信任的 IP 集合中的 IP 匹配时，才会启用动态位置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-145">Dynamic locations will only be enabled if the user’s external IP matches an IP in the Trusted IP collection.</span></span>  <span data-ttu-id="d70ff-146">可以针对 IPv4 或 IPv6 IP 地址进行匹配，取决于发送到网络设置的 IP 数据包的格式。</span><span class="sxs-lookup"><span data-stu-id="d70ff-146">A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.</span></span>
-
-- <span data-ttu-id="d70ff-147">网络区域包含网络站点的集合。</span><span class="sxs-lookup"><span data-stu-id="d70ff-147">A network region contains a collection of network sites.</span></span> 
-
-- <span data-ttu-id="d70ff-148">网络站点表示您的组织具有物理价值（如办公室、一组建筑物或校园）的位置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-148">A network site represents a location where your organization has a physical value, such as an office, a set of buildings, or a campus.</span></span> <span data-ttu-id="d70ff-149">这些网站定义为 IP 子网的集合。</span><span class="sxs-lookup"><span data-stu-id="d70ff-149">These sites are defined as a collection of IP subnets.</span></span>
-
-- <span data-ttu-id="d70ff-150">网络子网必须与特定的网络站点相关联。</span><span class="sxs-lookup"><span data-stu-id="d70ff-150">A network subnet must be associated with a specific network site.</span></span> <span data-ttu-id="d70ff-151">根据网络子网和关联的网络站点确定客户端的位置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-151">A client's location is determined based on the network subnet and the associated network site.</span></span>  
+- [<span data-ttu-id="36ca0-129">管理紧急电话</span><span class="sxs-lookup"><span data-stu-id="36ca0-129">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+- [<span data-ttu-id="36ca0-130">管理云语音功能的网络设置</span><span class="sxs-lookup"><span data-stu-id="36ca0-130">Manage network settings for cloud voice features</span></span>](cloud-voice-network-settings.md)
+- [<span data-ttu-id="36ca0-131">管理云语音功能的网络拓扑</span><span class="sxs-lookup"><span data-stu-id="36ca0-131">Manage your network topology for cloud voice features</span></span>](manage-your-network-topology.md)
 
 
-<span data-ttu-id="d70ff-152">对于呼叫计划用户：</span><span class="sxs-lookup"><span data-stu-id="d70ff-152">For Calling Plan users:</span></span>
+## <a name="supported-clients"></a><span data-ttu-id="36ca0-132">支持的客户端</span><span class="sxs-lookup"><span data-stu-id="36ca0-132">Supported clients</span></span>
 
-- <span data-ttu-id="d70ff-153">如果需要对 security 办公桌通知进行动态配置，则必须同时配置受信任的 IP 地址和网络站点。</span><span class="sxs-lookup"><span data-stu-id="d70ff-153">If dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.</span></span>
+<span data-ttu-id="36ca0-133">目前支持下列客户端。</span><span class="sxs-lookup"><span data-stu-id="36ca0-133">The following clients are currently supported.</span></span>  <span data-ttu-id="36ca0-134">经常回来查看此列表的更新。</span><span class="sxs-lookup"><span data-stu-id="36ca0-134">Check back often to see updates to this list.</span></span>
 
-- <span data-ttu-id="d70ff-154">如果仅需要动态位置，则必须仅配置受信任的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="d70ff-154">If only dynamic locations are required, then you must configure only Trusted IP addresses.</span></span> 
+- <span data-ttu-id="36ca0-135">适用于 Windows 的团队桌面客户端</span><span class="sxs-lookup"><span data-stu-id="36ca0-135">Teams desktop client for Windows</span></span>
+- <span data-ttu-id="36ca0-136">适用于 Mac 的团队桌面客户端</span><span class="sxs-lookup"><span data-stu-id="36ca0-136">Teams desktop client for Mac</span></span>
 
-- <span data-ttu-id="d70ff-155">如果两者都不是必需的，则不需要配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-155">If neither are required, then configuration of network settings is not required.</span></span> 
+## <a name="assign-emergency-addresses"></a><span data-ttu-id="36ca0-137">分配紧急地址</span><span class="sxs-lookup"><span data-stu-id="36ca0-137">Assign emergency addresses</span></span>
 
-<span data-ttu-id="d70ff-156">有关详细信息，请参阅[配置基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)，它介绍了如何配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-156">For more information, see [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md), which describes how to configure network settings.</span></span> <span data-ttu-id="d70ff-157">（本文中的信息既适用于通话计划，也适用于直接路由。）</span><span class="sxs-lookup"><span data-stu-id="d70ff-157">(The information in this article applies to both Calling Plans and Direct Routing.)</span></span>
+<span data-ttu-id="36ca0-138">你可以将紧急地址分配给呼叫计划用户和动态获取位置所需的网络标识符。</span><span class="sxs-lookup"><span data-stu-id="36ca0-138">You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location.</span></span> <span data-ttu-id="36ca0-139">（子网和 WiFi AP 受支持; 对以太网交换机/端口的支持处于挂起状态）。</span><span class="sxs-lookup"><span data-stu-id="36ca0-139">(Subnet and WiFi AP are supported; support for Ethernet switch/port is pending).</span></span>
+
+<span data-ttu-id="36ca0-140">若要支持在美国的紧急呼叫自动路由，必须确保分配给网络标识符的紧急位置包括关联的地域代码。</span><span class="sxs-lookup"><span data-stu-id="36ca0-140">To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes.</span></span> <span data-ttu-id="36ca0-141">（不能将没有地理代码的紧急地址分配给动态位置所需的网络标识符。）</span><span class="sxs-lookup"><span data-stu-id="36ca0-141">(Emergency addresses without geo codes cannot be assigned to the network identifiers that are required for dynamic locations.)</span></span>
+
+<span data-ttu-id="36ca0-142">Azure 映射用于基于位置的服务。</span><span class="sxs-lookup"><span data-stu-id="36ca0-142">Azure Maps is used for location-based services.</span></span>  <span data-ttu-id="36ca0-143">使用 Microsoft 团队管理中心输入紧急地址时，团队会检查该地址的 Azure 映射：</span><span class="sxs-lookup"><span data-stu-id="36ca0-143">When you enter an emergency address by using the Microsoft Teams admin center, Teams checks Azure Maps for the address:</span></span>
+
+- <span data-ttu-id="36ca0-144">如果找到匹配项，则自动包括 geo 代码。</span><span class="sxs-lookup"><span data-stu-id="36ca0-144">If a match is found, the geo codes are automatically included.</span></span>
+
+- <span data-ttu-id="36ca0-145">如果找不到匹配项，您将有机会手动创建紧急地址。</span><span class="sxs-lookup"><span data-stu-id="36ca0-145">If a match is not found, you will have the opportunity to manually create an emergency address.</span></span> <span data-ttu-id="36ca0-146">你可以使用 "固定放置" 功能执行此操作。</span><span class="sxs-lookup"><span data-stu-id="36ca0-146">You can use the PIN drop feature to do this.</span></span>   
+
+<span data-ttu-id="36ca0-147">这意味着，如果为分配给呼叫计划用户而创建的现有紧急位置适用于动态位置，则需要重新创建相同的地址以包括 geo 代码。</span><span class="sxs-lookup"><span data-stu-id="36ca0-147">This means that if an existing emergency location that is created for assigning to Calling Plan users is intended for a dynamic location, the same address needs to be re-created to include the geo codes.</span></span> <span data-ttu-id="36ca0-148">若要区分这两个位置，应包含不同的说明。</span><span class="sxs-lookup"><span data-stu-id="36ca0-148">To distinguish between the two locations, you should include a different description.</span></span> <span data-ttu-id="36ca0-149">新的紧急位置可分配给具有旧位置的用户。</span><span class="sxs-lookup"><span data-stu-id="36ca0-149">The new emergency location can be assigned to the users who have the old location.</span></span> <span data-ttu-id="36ca0-150">完全迁移时，可以删除旧位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-150">When fully migrated, the old location can be deleted.</span></span>
+
+<span data-ttu-id="36ca0-151">有关配置紧急地址的详细信息，请参阅为[你的组织添加紧急位置](add-change-remove-emergency-location-organization.md)和为[你的用户分配紧急位置](assign-change-emergency-location-user.md)。</span><span class="sxs-lookup"><span data-stu-id="36ca0-151">For more information about configuring emergency addresses, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for your user](assign-change-emergency-location-user.md).</span></span>
+
+## <a name="configure-network-settings"></a><span data-ttu-id="36ca0-152">配置网络设置</span><span class="sxs-lookup"><span data-stu-id="36ca0-152">Configure network settings</span></span>
+
+<span data-ttu-id="36ca0-153">网络设置用于确定团队客户端的位置，并动态获取紧急呼叫策略和紧急位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-153">Network settings are used to determine the location of a Teams client, and to dynamically obtain emergency calling policies and an emergency location.</span></span> <span data-ttu-id="36ca0-154">您可以根据组织希望的紧急呼叫功能来配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-154">You can configure network settings according to how your organization wants emergency calling to function.</span></span>
+
+<span data-ttu-id="36ca0-155">网络设置包括包含子网集合的网站-这些网站专门用于向用户分配动态策略。</span><span class="sxs-lookup"><span data-stu-id="36ca0-155">Network settings include sites that include a collection of subnets--these are used exclusively for dynamic policy assignment to users.</span></span>  <span data-ttu-id="36ca0-156">例如，TeamsEmergencyCalling 策略和 TeamsEmergencyCallRouting 策略可能分配给 "雷德蒙" 网站，以便从家庭或其他 Microsoft 位置漫游的任何用户都配置有紧急号码、路由和安全桌面特定于雷德蒙。</span><span class="sxs-lookup"><span data-stu-id="36ca0-156">For example, a TeamsEmergencyCalling Policy and TeamsEmergencyCallRouting Policy might be assigned to the “Redmond site” so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.</span></span>  
+
+>[!Note]
+><span data-ttu-id="36ca0-157">子网也可以在 .LIS 中定义，并且可以与紧急位置相关联。</span><span class="sxs-lookup"><span data-stu-id="36ca0-157">Subnets can also be defined in LIS and can be associated with an emergency location.</span></span>  
+
+<span data-ttu-id="36ca0-158">请记住以下定义：</span><span class="sxs-lookup"><span data-stu-id="36ca0-158">Keep the following definitions in mind:</span></span>
+
+- <span data-ttu-id="36ca0-159">受信任的 IP 包含企业网络的 Internet 外部 Ip 的集合，用于确定用户的终结点是否位于企业网络内。</span><span class="sxs-lookup"><span data-stu-id="36ca0-159">Trusted IP’s contain a collection of the Internet external IPs of the enterprise network and are used to determine if the user’s endpoint is inside the corporate network.</span></span> <span data-ttu-id="36ca0-160">仅当用户的外部 IP 与信任的 IP 地址中的 IP 相匹配时，才会尝试获取动态策略或位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-160">An attempt to obtain a dynamic policy or location will only be made if the user’s external IP matches an IP in the Trusted IP address.</span></span> <span data-ttu-id="36ca0-161">可以针对 IPv4 或 IPv6 IP 地址进行匹配，取决于发送到网络设置的 IP 数据包的格式。</span><span class="sxs-lookup"><span data-stu-id="36ca0-161">A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.</span></span>  <span data-ttu-id="36ca0-162">（如果公共 IP 地址同时具有 IPv4 和 IPv6，则你需要将两者都添加为受信任的 IP 地址。）</span><span class="sxs-lookup"><span data-stu-id="36ca0-162">(If a public IP address has both IPv4 and IPv6, you need to add both as trusted IP addresses.)</span></span>
+
+- <span data-ttu-id="36ca0-163">网络区域包含网络站点的集合。</span><span class="sxs-lookup"><span data-stu-id="36ca0-163">A network region contains a collection of network sites.</span></span> 
+
+- <span data-ttu-id="36ca0-164">网络站点表示您的组织具有物理价值（如办公室、一组建筑物或校园）的位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-164">A network site represents a location where your organization has a physical value, such as an office, a set of buildings, or a campus.</span></span> <span data-ttu-id="36ca0-165">这些网站定义为 IP 子网的集合。</span><span class="sxs-lookup"><span data-stu-id="36ca0-165">These sites are defined as a collection of IP subnets.</span></span>
+
+- <span data-ttu-id="36ca0-166">网络子网必须与特定的网络站点相关联。</span><span class="sxs-lookup"><span data-stu-id="36ca0-166">A network subnet must be associated with a specific network site.</span></span> <span data-ttu-id="36ca0-167">根据网络子网和关联的网络站点确定客户端的位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-167">A client's location is determined based on the network subnet and the associated network site.</span></span>  
+
+<span data-ttu-id="36ca0-168">有关详细信息，请参阅[云语音功能的网络设置](cloud-voice-network-settings.md)和[管理云语音功能的网络拓扑](manage-your-network-topology.md)。</span><span class="sxs-lookup"><span data-stu-id="36ca0-168">For more information, see [Network settings for cloud voice features](cloud-voice-network-settings.md) and [Manage your network topology for cloud voice features](manage-your-network-topology.md).</span></span>
+
+<span data-ttu-id="36ca0-169">请注意，对于网络设置（如新地址、网络标识符等）进行某些更改（如新地址、网络标识符等）以传播并供团队客户端使用，可能需要花费一些时间（长达几小时）。</span><span class="sxs-lookup"><span data-stu-id="36ca0-169">Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.</span></span>  
+
+<span data-ttu-id="36ca0-170">**对于呼叫计划用户：**</span><span class="sxs-lookup"><span data-stu-id="36ca0-170">**For Calling Plan users:**</span></span>
+
+- <span data-ttu-id="36ca0-171">如果需要对 security 办公桌通知进行动态配置，则必须同时配置受信任的 IP 地址和网络站点。</span><span class="sxs-lookup"><span data-stu-id="36ca0-171">If dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.</span></span>
+
+- <span data-ttu-id="36ca0-172">如果仅需要动态位置，则必须仅配置受信任的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="36ca0-172">If only dynamic locations are required, then you must configure only Trusted IP addresses.</span></span> 
+
+- <span data-ttu-id="36ca0-173">如果两者都不是必需的，则不需要配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-173">If neither are required, then configuration of network settings is not required.</span></span> 
+
+<span data-ttu-id="36ca0-174">**对于直接路由用户：**</span><span class="sxs-lookup"><span data-stu-id="36ca0-174">**For Direct Routing users:**</span></span>
+
+- <span data-ttu-id="36ca0-175">如果需要动态启用紧急呼叫或安全桌面通知的动态配置，则必须同时配置受信任的 IP 地址和网络站点。</span><span class="sxs-lookup"><span data-stu-id="36ca0-175">If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.</span></span>
+
+- <span data-ttu-id="36ca0-176">如果仅需要动态位置，则必须仅配置受信任的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="36ca0-176">If only dynamic locations are required, then you must configure only Trusted IP addresses.</span></span>
+
+- <span data-ttu-id="36ca0-177">如果两者都不是必需的，则不需要配置网络设置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-177">If neither are required, then configuration of network settings is not required.</span></span>
 
 
-### <a name="configure-location-information-service"></a><span data-ttu-id="d70ff-158">配置位置信息服务</span><span class="sxs-lookup"><span data-stu-id="d70ff-158">Configure Location Information Service</span></span>
+## <a name="configure-location-information-service"></a><span data-ttu-id="36ca0-178">配置位置信息服务</span><span class="sxs-lookup"><span data-stu-id="36ca0-178">Configure Location Information Service</span></span>
 
-<span data-ttu-id="d70ff-159">团队客户端从与不同网络标识符关联的紧急位置获取紧急地址。</span><span class="sxs-lookup"><span data-stu-id="d70ff-159">A Teams client obtains emergency addresses from the emergency locations associated with different network identifiers.</span></span>  <span data-ttu-id="d70ff-160">子网和无线访问点均受支持。</span><span class="sxs-lookup"><span data-stu-id="d70ff-160">Subnets and Wireless Access Points are both supported.</span></span> <span data-ttu-id="d70ff-161">（对以太网交换机/端口的支持已挂起。）</span><span class="sxs-lookup"><span data-stu-id="d70ff-161">(Support for Ethernet switch/port is pending.)</span></span>
+<span data-ttu-id="36ca0-179">团队客户端从与不同网络标识符关联的位置获取紧急地址。</span><span class="sxs-lookup"><span data-stu-id="36ca0-179">A Teams client obtains emergency addresses from the locations associated with different network identifiers.</span></span> <span data-ttu-id="36ca0-180">子网和无线访问点（WAPs）均受支持。</span><span class="sxs-lookup"><span data-stu-id="36ca0-180">Both subnets and Wireless Access Points (WAPs) are supported.</span></span> <span data-ttu-id="36ca0-181">（对以太网交换机/端口的支持已挂起。）</span><span class="sxs-lookup"><span data-stu-id="36ca0-181">(Support for Ethernet switch/port is pending.)</span></span>
 
-<span data-ttu-id="d70ff-162">要使用网络标识符和紧急位置配置位置信息服务（.LIS），请使用以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="d70ff-162">To configure the Location Information Service (LIS) with network identifiers and emergency locations, use the following cmdlets:</span></span>
-
-- <span data-ttu-id="d70ff-163">获取、设置、删除 CsOnlineLisPort</span><span class="sxs-lookup"><span data-stu-id="d70ff-163">Get, Set, Remove -CsOnlineLisPort</span></span>
-- <span data-ttu-id="d70ff-164">获取、设置、删除 CsOnlineLisSwitch</span><span class="sxs-lookup"><span data-stu-id="d70ff-164">Get, Set, Remove -CsOnlineLisSwitch</span></span>
-- <span data-ttu-id="d70ff-165">获取、设置、删除 CsOnlineLisSubnet</span><span class="sxs-lookup"><span data-stu-id="d70ff-165">Get, Set, Remove -CsOnlineLisSubnet</span></span>
-- <span data-ttu-id="d70ff-166">获取、设置、删除 CsOnlineLisWirelessAccessPoint</span><span class="sxs-lookup"><span data-stu-id="d70ff-166">Get, Set, Remove -CsOnlineLisWirelessAccessPoint</span></span> 
-
-> [!Important] 
-> <span data-ttu-id="d70ff-167">如果子网用作网络站点的一部分，则必须在位置信息服务中重新定义它们以呈现动态位置。</span><span class="sxs-lookup"><span data-stu-id="d70ff-167">If subnets are being used as part of network sites, they must be redefined in the Location Information Service to render dynamic locations.</span></span>
+<span data-ttu-id="36ca0-182">要获取位置的客户端，您必须使用以下 cmdlet 填充网络标识符和紧急位置的位置信息服务（.LIS）：</span><span class="sxs-lookup"><span data-stu-id="36ca0-182">For a client to obtain a location, you must populate the Location Information Service (LIS) with network identifiers and emergency locations by using the following cmdlets:</span></span>  
 
 
-### <a name="configure-emergency-policies"></a><span data-ttu-id="d70ff-168">配置紧急策略</span><span class="sxs-lookup"><span data-stu-id="d70ff-168">Configure emergency policies</span></span>
+- <span data-ttu-id="36ca0-183">[获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)CsOnlineLisPort</span><span class="sxs-lookup"><span data-stu-id="36ca0-183">[Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort</span></span>
+- <span data-ttu-id="36ca0-184">[获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)CsOnlineLisSwitch</span><span class="sxs-lookup"><span data-stu-id="36ca0-184">[Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch</span></span>
+- <span data-ttu-id="36ca0-185">[获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps)CsOnlineLisSubnet</span><span class="sxs-lookup"><span data-stu-id="36ca0-185">[Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet</span></span>
+- <span data-ttu-id="36ca0-186">[获取](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps
+)CsOnlineLisWirelessAccessPoint</span><span class="sxs-lookup"><span data-stu-id="36ca0-186">[Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps
+) -CsOnlineLisWirelessAccessPoint</span></span> 
 
-<span data-ttu-id="d70ff-169">紧急策略确定当组织中的用户进行紧急呼叫时发生的情况。</span><span class="sxs-lookup"><span data-stu-id="d70ff-169">Emergency policies determine what happens when a user in your organization makes an emergency call.</span></span>  <span data-ttu-id="d70ff-170">你可以设置通知人以及当用户呼叫紧急服务时如何通知他们。</span><span class="sxs-lookup"><span data-stu-id="d70ff-170">You can set who to notify and how they are notified when a user calls emergency services.</span></span> <span data-ttu-id="d70ff-171">例如，您可以将策略设置配置为自动通知组织的安全桌面，并让他们在紧急电话上侦听。</span><span class="sxs-lookup"><span data-stu-id="d70ff-171">For example, you can configure policy settings to automatically notify your organization's security desk and have them listen in on emergency calls.</span></span>
 
-<span data-ttu-id="d70ff-172">你可以使用新的、Set 和 Grant CsTeamsEmergencyCalling 策略 cmdlet 管理紧急策略。</span><span class="sxs-lookup"><span data-stu-id="d70ff-172">You manage emergency policies by using the New-, Set- and Grant-CsTeamsEmergencyCalling Policy cmdlets.</span></span>  <span data-ttu-id="d70ff-173">有关详细信息，请参阅[管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="d70ff-173">For more information, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).</span></span>
+>[!Important] 
+><span data-ttu-id="36ca0-187">如果子网用作网络站点的一部分，则必须在位置信息服务中重新定义它们以呈现动态位置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-187">If subnets are being used as part of network sites, they must be redefined in the Location Information Service to render dynamic locations.</span></span>
 
 
-### <a name="enable-users-and-sites"></a><span data-ttu-id="d70ff-174">启用用户和网站</span><span class="sxs-lookup"><span data-stu-id="d70ff-174">Enable users and sites</span></span>
+## <a name="configure-emergency-policies"></a><span data-ttu-id="36ca0-188">配置紧急策略</span><span class="sxs-lookup"><span data-stu-id="36ca0-188">Configure emergency policies</span></span>
 
-<span data-ttu-id="d70ff-175">当通话计划用户自动启用紧急呼叫时，您必须通过配置紧急呼叫策略来为用户启用安全桌面通知，如下例所示：</span><span class="sxs-lookup"><span data-stu-id="d70ff-175">While Calling Plan users are automatically enabled for emergency calling, you must enable users for security desk notification by configuring the emergency calling policy as shown in the following example:</span></span>
+<span data-ttu-id="36ca0-189">你可以使用以下策略配置紧急呼叫：</span><span class="sxs-lookup"><span data-stu-id="36ca0-189">You use the following policies to configure emergency calling:</span></span>
 
+- <span data-ttu-id="36ca0-190">**TeamsEmergencyCallRoutingPolicy** –仅适用于直接路由。</span><span class="sxs-lookup"><span data-stu-id="36ca0-190">**TeamsEmergencyCallRoutingPolicy** – Applies only to Direct Routing.</span></span> <span data-ttu-id="36ca0-191">此政策配置紧急号码、每个号码的掩码（如果需要），以及每个号码的 PSTN 路由。</span><span class="sxs-lookup"><span data-stu-id="36ca0-191">This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.</span></span>  <span data-ttu-id="36ca0-192">你可以将此策略分配给用户和/或网络站点。</span><span class="sxs-lookup"><span data-stu-id="36ca0-192">You can assign this policy to users, to network sites, or to both.</span></span> <span data-ttu-id="36ca0-193">（通话计划团队客户将根据其 Office 365 的使用位置，自动为紧急呼叫启用来自国家/地区的紧急电话号码。） 你可以使用新的-、Set 和 Grant CsTeamsEmergencyCallRouting cmdlet 管理此策略。</span><span class="sxs-lookup"><span data-stu-id="36ca0-193">(Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  You manage this policy by using the New-, Set-, and Grant-CsTeamsEmergencyCallRouting cmdlets.</span></span> 
+
+- <span data-ttu-id="36ca0-194">**TeamsEmergencyCallingPolicy** -适用于通话计划和直接路由。</span><span class="sxs-lookup"><span data-stu-id="36ca0-194">**TeamsEmergencyCallingPolicy** - Applies to Calling Plan and Direct Routing.</span></span> <span data-ttu-id="36ca0-195">此策略配置在进行紧急呼叫时的安全桌面通知体验。</span><span class="sxs-lookup"><span data-stu-id="36ca0-195">This policy configures the security desk notification experience when an emergency call is made.</span></span> <span data-ttu-id="36ca0-196">可以设置要通知的人员以及通知的方式。</span><span class="sxs-lookup"><span data-stu-id="36ca0-196">You can set who to notify and how they are notified.</span></span> <span data-ttu-id="36ca0-197">例如，自动通知组织的安全桌面并让他们在紧急电话上侦听。</span><span class="sxs-lookup"><span data-stu-id="36ca0-197">For example, to automatically notify your organization's security desk and have them listen in on emergency calls.</span></span>  <span data-ttu-id="36ca0-198">此策略既可以分配给用户，也可以同时分配给用户或网络站点。</span><span class="sxs-lookup"><span data-stu-id="36ca0-198">This policy can either be assigned to users or network sites or both.</span></span> <span data-ttu-id="36ca0-199">你可以使用新的-Set 和 CsTeamsEmergencyCallingPolicy cmdlet 管理此策略。</span><span class="sxs-lookup"><span data-stu-id="36ca0-199">You manage this policy by using the New-, Set- and Grant-CsTeamsEmergencyCallingPolicy  cmdlets.</span></span> 
+
+<span data-ttu-id="36ca0-200">有关详细信息，请参阅[管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)和[管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="36ca0-200">For more information, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md) and [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).</span></span>
+
+
+## <a name="enable-users-and-sites"></a><span data-ttu-id="36ca0-201">启用用户和网站</span><span class="sxs-lookup"><span data-stu-id="36ca0-201">Enable users and sites</span></span>
+
+<span data-ttu-id="36ca0-202">你可以将**TeamsEmergencyCalling**和**TeamsEmergencyCallROuting**策略分配给用户和网站。</span><span class="sxs-lookup"><span data-stu-id="36ca0-202">You can assign **TeamsEmergencyCalling** and **TeamsEmergencyCallROuting** policies to users and to sites.</span></span>  
+
+<span data-ttu-id="36ca0-203">TeamsEmergencyCallRouting 策略仅适用于直接路由。</span><span class="sxs-lookup"><span data-stu-id="36ca0-203">The TeamsEmergencyCallRouting policy applies to Direct Routing only.</span></span> <span data-ttu-id="36ca0-204">（虽然可以将此策略分配给通话计划用户，但该策略不起作用。）</span><span class="sxs-lookup"><span data-stu-id="36ca0-204">(Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)</span></span>
+
+<span data-ttu-id="36ca0-205">例如，若要为安全桌面通知启用特定用户，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="36ca0-205">For example, to enable a specific user for security desk notification, use the following command:</span></span>
 
 ```
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
-<span data-ttu-id="d70ff-176">您也可以将紧急呼叫策略分配给网络站点，如以下示例所示，它将名为 "Contoso 紧急呼叫策略 1" 的策略分配给站点1：</span><span class="sxs-lookup"><span data-stu-id="d70ff-176">You can also assign the emergency calling policy to a network site as shown in the following example, which assigns a policy called "Contoso Emergency Calling Policy 1" to Site 1:</span></span>
+<span data-ttu-id="36ca0-206">若要将名为 "Contoso 紧急呼叫策略 1" 的策略分配给站点1，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="36ca0-206">To assign a policy called "Contoso Emergency Calling Policy 1" to Site 1, use the following command:</span></span>
 
 ```
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-<span data-ttu-id="d70ff-177">如果你为网络网站和用户分配了紧急呼叫策略，并且如果该用户位于该网络站点，则分配给网络网站的策略将覆盖分配给该用户的策略。</span><span class="sxs-lookup"><span data-stu-id="d70ff-177">If you assigned an emergency calling policy to a network site and to a user, and if that user is at that network site, the policy that's assigned to the network site overrides the policy that's assigned to the user.</span></span>
+<span data-ttu-id="36ca0-207">若要启用特定直接路由用户进行紧急呼叫，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="36ca0-207">To enable a specific Direct Routing user for emergency calling, use the following command:</span></span>
+
+```
+Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
+```
+
+<span data-ttu-id="36ca0-208">若要将名为 "Contoso 纽约紧急呼叫路由" 的策略分配给站点1，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="36ca0-208">To assign a policy called "Contoso New York Emergency Call Routing" to Site 1, use the following command:</span></span>
+
+```
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
+```
+
+<span data-ttu-id="36ca0-209">如果你为网络网站和用户分配了紧急呼叫策略，并且如果该用户位于该网络站点，则分配给网络网站的策略将覆盖分配给该用户的策略。</span><span class="sxs-lookup"><span data-stu-id="36ca0-209">If you assigned an emergency calling policy to a network site and to a user, and if that user is at that network site, the policy that's assigned to the network site overrides the policy that's assigned to the user.</span></span>
 
 
-### <a name="test-emergency-calling"></a><span data-ttu-id="d70ff-178">测试紧急电话</span><span class="sxs-lookup"><span data-stu-id="d70ff-178">Test emergency calling</span></span>
+## <a name="test-emergency-calling"></a><span data-ttu-id="36ca0-210">测试紧急电话</span><span class="sxs-lookup"><span data-stu-id="36ca0-210">Test emergency calling</span></span>
 
-<span data-ttu-id="d70ff-179">要测试美国的紧急电话，请使用预定义的测试紧急号码933。</span><span class="sxs-lookup"><span data-stu-id="d70ff-179">To test emergency calling in the United States, use the predefined test emergency number 933.</span></span>  <span data-ttu-id="d70ff-180">此号码将路由到 bot，然后回显呼叫者电话号码（呼叫线路 ID）、紧急地址或位置，以及是否首先将呼叫自动路由到 PSAP 或筛选。</span><span class="sxs-lookup"><span data-stu-id="d70ff-180">This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call is automatically routed to the PSAP or screened first.</span></span>  
+<span data-ttu-id="36ca0-211">美国的一些紧急路线服务提供商（ERSPs）提供紧急呼叫测试机器人。</span><span class="sxs-lookup"><span data-stu-id="36ca0-211">Some Emergency Routing Service Providers (ERSPs) in the United States offer an emergency calling test bot.</span></span>
+
+- <span data-ttu-id="36ca0-212">**美国的通话计划用户**可以使用预定义的测试紧急号码933验证紧急呼叫配置。</span><span class="sxs-lookup"><span data-stu-id="36ca0-212">**Calling Plan users in the United States** can use the predefined test emergency number 933 to validate their emergency calling configuration.</span></span> <span data-ttu-id="36ca0-213">此号码将路由到机器人，然后回显呼叫者电话号码（呼叫线路 ID）、紧急地址或位置，以及是否会首先将呼叫自动路由到 PSAP 或筛选。</span><span class="sxs-lookup"><span data-stu-id="36ca0-213">This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.</span></span>
+
+- <span data-ttu-id="36ca0-214">**美国直接路由客户**应与他们的 ERSP 进行测试服务协调。</span><span class="sxs-lookup"><span data-stu-id="36ca0-214">**Direct Routing customers in the United States** should coordinate with their ERSP for a test service.</span></span>
+
+ ## <a name="related-topics"></a><span data-ttu-id="36ca0-215">相关主题</span><span class="sxs-lookup"><span data-stu-id="36ca0-215">Related topics</span></span>
+
+- [<span data-ttu-id="36ca0-216">管理紧急电话</span><span class="sxs-lookup"><span data-stu-id="36ca0-216">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+- [<span data-ttu-id="36ca0-217">管理紧急呼叫策略</span><span class="sxs-lookup"><span data-stu-id="36ca0-217">Manage emergency calling policies</span></span>](manage-emergency-calling-policies.md)
+- [<span data-ttu-id="36ca0-218">管理紧急呼叫路由策略</span><span class="sxs-lookup"><span data-stu-id="36ca0-218">Manage emergency call routing policies </span></span>](manage-emergency-call-routing-policies.md)
+- [<span data-ttu-id="36ca0-219">为你的组织添加、更改或删除紧急位置</span><span class="sxs-lookup"><span data-stu-id="36ca0-219">Add, change, or remove an emergency location for your organization</span></span>](add-change-remove-emergency-location-organization.md)
+- [<span data-ttu-id="36ca0-220">为用户分配或更改紧急位置</span><span class="sxs-lookup"><span data-stu-id="36ca0-220">Assign or change an emergency location for your user</span></span>](assign-change-emergency-location-user.md)
+- [<span data-ttu-id="36ca0-221">云语音功能的网络设置</span><span class="sxs-lookup"><span data-stu-id="36ca0-221">Network settings for cloud voice features</span></span>](cloud-voice-network-settings.md)
+- [<span data-ttu-id="36ca0-222">管理云语音功能的网络拓扑</span><span class="sxs-lookup"><span data-stu-id="36ca0-222">Manage your network topology for cloud voice features</span></span>](manage-your-network-topology.md)
