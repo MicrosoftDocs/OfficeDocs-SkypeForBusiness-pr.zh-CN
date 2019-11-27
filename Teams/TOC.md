@@ -115,6 +115,7 @@
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [在不受支持的浏览器上举行 Teams 会议](unsupported-browsers.md)
 ## [在 Teams 中配置桌面共享](configure-desktop-sharing.md)
 ## [Teams 云会议录制](cloud-recording.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 ### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
 ### 基于位置的路由
-#### [基于位置的路由术语](location-based-routing-terminology.md)
 #### [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 #### [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
 #### [为直接路由启用基于位置的路由](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [什么是拨号计划？](what-are-dial-plans.md)
 ### [创建并管理拨号计划](create-and-manage-dial-plans.md)
 ### [添加和更新报告标签](learn-more-about-site-upload.md)
+
+## 网络设置和拓扑
+### [云语音功能的网络设置](cloud-voice-network-settings.md)
+### [管理云语音功能的网络拓扑](manage-your-network-topology.md)
+
 ## 紧急呼叫
-### [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)
+### [概述](what-are-emergency-locations-addresses-and-call-routing.md)
+### [配置动态紧急呼叫](configure-dynamic-emergency-calling.md)
 ### 管理紧急地址
-#### [什么是紧急位置、地点和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
 #### [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
 #### [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)
