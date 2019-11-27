@@ -3,7 +3,6 @@ title: 为直接路由计划基于位置的路由
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570684"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615812"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -49,7 +48,7 @@ ms.locfileid: "37570684"
 
 基于位置的路由使用 Skype for Business 服务器使用的相同网络区域、站点和子网定义。 如果限制了某个位置的收费旁路，管理员会将该位置的每个 IP 子网和每个 PSTN 网关关联到一个网络站点。 用户的位置由用户的团队终结点在 PSTN 呼叫时连接到的 IP 子网确定。 用户可能有多个团队客户端位于不同的网站，在这种情况下，基于位置的路由会根据其终结点的位置单独强制执行每个客户端的路由。 
 
-若要熟悉本文中使用的一些网络术语，请参阅[基于位置的路由术语](location-based-routing-terminology.md)。
+若要熟悉本文中使用的一些网络术语，请参阅[团队中的云语音功能的网络设置](cloud-voice-network-settings.md)。
 
 ## <a name="apply-location-based-routing"></a>应用基于位置的路由
 
@@ -72,7 +71,7 @@ ms.locfileid: "37570684"
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN 网关上应用基于位置的路由 
 
-网关与网站相关联，以确定在其进行或接收 PSTN 呼叫时，可以使用基于位置的路由的用户所在的位置。 必须为基于位置的路由启用网关，以确保其位于 "收费回避" 限制下，并且不能由没有启用基于位置的路由的用户使用。 同一个网关可能与多个网站相关联，并且可以配置为启用基于位置的路由或不启用基于位置的路由，具体取决于网站。 
+网关与网站相关联，以确定在其进行或接收 PSTN 呼叫时，可以使用基于位置的路由的用户所在的位置。 必须为基于位置的路由启用网关，以确保其位于 "收费回避" 限制下，并且不能由没有启用基于位置的路由的用户使用。 同一个网关可能与多个网站相关联，并且可以配置为启用基于位置的路由或不启用基于位置的路由，具体取决于网站。
 
 ## <a name="scenarios-for-location-based-routing"></a>基于位置的路由的方案
 
@@ -250,8 +249,10 @@ ms.locfileid: "37570684"
 不允许在 PSTN 呼叫上启用基于位置的路由用户与其他用户或 PSTN 号码开始会议。 允许连接到自动助理或呼叫队列。 如果用户拥有会议许可证，则用户必须启动与相关用户的会议并通过会议桥呼叫 PSTN 才能开始电话会议。  
 
 ## <a name="next-steps"></a>后续步骤
+
 转到为[基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)。
 
-### <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题
+
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
-- [基于位置的路由术语](location-based-routing-terminology.md)
+- [团队中云语音功能的网络设置](cloud-voice-network-settings.md)

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理动态 E911 功能的紧急呼叫策略。
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4a1846217734142388fdf3466f68ccadea49c829
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573172"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615742"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
@@ -29,7 +29,7 @@ ms.locfileid: "37573172"
 
 如果您的组织使用呼叫计划或部署的电话系统直接路由，则可以使用 Microsoft 团队中的紧急呼叫策略定义当组织中的团队用户进行紧急呼叫时发生的情况。 你可以设置被分配了策略的用户呼叫紧急服务时通知的人员以及通知的方式。 例如，你可以将策略设置配置为自动通知组织的安全桌面，并让他们在紧急呼叫中进行侦听。  
 
-通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**来管理紧急呼叫策略。 可将策略分配给用户和[网络站点](location-based-routing-terminology.md)。
+通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**来管理紧急呼叫策略。 可将策略分配给用户和[网络站点](cloud-voice-network-settings.md)。
 
 对于用户，你可以使用全局（组织范围默认）策略或创建并分配自定义策略。 除非你创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。 对于网络站点，您可以创建和分配自定义策略。
 

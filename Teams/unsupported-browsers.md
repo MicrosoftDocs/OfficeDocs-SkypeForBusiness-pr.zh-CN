@@ -1,0 +1,47 @@
+---
+title: Microsoft 团队会议位于不支持的浏览器上
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+audience: admin
+MS.collection:
+- M365-collaboration
+ms.reviewer: nakulm
+localization_priority: Normal
+search.appverid: MET150
+description: 了解团队如何在不受支持的浏览器中支持音频和视频。
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 3412d195e560ee2be1e850d9fcb146d0a0f54d25
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615902"
+---
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft 团队会议位于不支持的浏览器上
+
+某些浏览器（如 Internet Explorer 11、Safari 和 Firefox）支持 Microsoft 团队 web 应用，但不支持某些团队通话和会议功能。 为了解决此限制，"团队" web 应用允许用户通过 PSTN 连接接收音频，并让用户以更低的显示费率查看所显示的内容（屏幕共享）。
+
+当团队检测到不受支持的浏览器时，它会自动显示一条消息，说明问题和会话限制。 该消息提供有关访问会议音频的进一步说明，例如，建议用户保留回拨号码，以便团队可以呼叫用户，或指示用户呼叫会议邀请中包含的会议号码。 该消息还鼓励用户下载和使用[团队桌面客户端](https://teams.microsoft.com/downloads)，以获得完整的团队体验。
+
+如果 PSTN 不可用，用户将看不到有关访问会议的说明，也不能加入会议。
+
+## <a name="browser-limitations"></a>浏览器限制
+
+在不受支持的浏览器上使用 "团队" web 应用的用户将遇到以下限制：
+
+- 只能通过 PSTN 连接使用音频。 用户不能使用其麦克风。
+- 用户不能共享其相机或查看其他参与者的视频，但可以通过基于图像的屏幕共享查看所呈现的内容。
+- 用户无法共享其屏幕，尽管他们可以看到另一个会议参与者共享的屏幕。
+- 用户在屏幕共享会话期间无法进行控制。
+- 用户不会收到来电通知。
+- 如果通话中断，会议不会自动重新连接。
+- 用户无法启动会议。
+
+## <a name="related-topics"></a>相关主题
+
+- [在不受支持的浏览器上加入团队会议](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [Teams 限制和规范](/microsoftteams/limits-specifications-teams#browsers)

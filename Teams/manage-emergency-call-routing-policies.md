@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理动态 E911 功能的紧急呼叫路由策略。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570651"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615802"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 
@@ -29,7 +29,7 @@ ms.locfileid: "37570651"
 
 如果您已在您的组织中部署了手机系统直接路由，则可以使用 Microsoft 团队中的紧急呼叫路由策略来设置紧急电话号码，并指定如何路由紧急电话。 紧急呼叫路由策略确定是否为分配了该策略的用户启用增强的紧急服务、用于呼叫紧急服务的号码（例如，911在美国），以及如何路由紧急服务通话。
 
-通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**，管理紧急呼叫路由策略。 可将策略分配给用户和[网络站点](location-based-routing-terminology.md)。
+通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**，管理紧急呼叫路由策略。 可将策略分配给用户和[网络站点](cloud-voice-network-settings.md)。
 
 对于用户，你可以使用全局（组织范围默认）策略或创建并分配自定义策略。 除非你创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。 对于网络站点，您可以创建和分配自定义策略。
 
