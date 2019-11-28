@@ -24,21 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
+ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571688"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631972"
 ---
 # <a name="availability-in-japan"></a>在日本的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-
-> [!IMPORTANT]
-> 在日本使用 SoftBank 进行通话目前仅适用于早期的采纳者（EA）。
   
 ## <a name="audio-conferencing"></a>音频会议
 
