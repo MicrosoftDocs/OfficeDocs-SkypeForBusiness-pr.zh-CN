@@ -15,25 +15,25 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd00c4baf7958926c2e27e8141630444e7df637c
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a789300c7b7b646ab7b7d288ce5679b6fe3dfff2
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972073"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218019"
 ---
 # <a name="create-and-license-users-and-assign-phone-numbers-to-them"></a>创建用户并为其授予许可并分配电话号码
 
-要使用 Microsoft 365 商务语音，用户需要 Microsoft 365 帐户，其中包含带有 SMS 许可证的 Microsoft 365 商务语音。 在创建包含带有 SMS 许可证的 Microsoft 365 商务语音的帐户后，可以向其分配电话号码。
+若要使用 :::no-loc text="Microsoft 365 Business Voice":::，用户需要具有 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 许可证的 :::no-loc text="Microsoft 365"::: 帐户。 在创建具有 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 许可证的帐户后，可以向其分配电话号码。
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
-1. 按照[将用户单独或批量添加到 Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)中的步骤添加一个或多个用户。
-2. 在“**分配产品许可证**”窗格中，确保选择“**具有 SMS 的 Microsoft 365 商务语音**。
+1. 按照[将用户单独或批量添加到 :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) 中的步骤添加一个或多个用户。
+2. 在“分配产品许可证”窗格中，确保选择 **:::no-loc text="Microsoft 365 Business Voice with SMS":::******。
 
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
-在创建用户并向其分配带有 SMS 许可证的 Microsoft 365 商务语音后，可以向其分配电话号码。 每个需要电话号码的用户需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
+在创建用户并向其分配 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 许可证后，可以向其分配电话号码。 每个需要电话号码的用户需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
 
 1. 转到 https://admin.teams.microsoft.com
 2. 输入电话号码请求的名称和说明
