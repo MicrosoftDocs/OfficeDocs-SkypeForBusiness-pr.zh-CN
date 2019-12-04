@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231093"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679232"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -38,12 +38,13 @@ ms.locfileid: "38231093"
 |全局管理员可创建的团队数        |  500,000   |
 |Office 365 租户可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
+|各团队专用频道数    |30|
 
-&sup1;Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
+&sup1; Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-&sup2;此限制涵盖已存档的团队。
+&sup2; 此限制涵盖已存档的团队。
 
-&sup3;已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
+&sup3; 已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
 
 ## <a name="messaging"></a>消息传递
 
