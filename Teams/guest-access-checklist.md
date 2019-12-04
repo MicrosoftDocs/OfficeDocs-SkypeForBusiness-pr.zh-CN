@@ -16,20 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04594f578d2375f69c38243251ee64506880d00e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
+ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753317"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39813772"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 ==========================================
 
-使用此清单可帮助你打开和配置 Microsoft 团队中的来宾访问。
+使用此清单可帮助你打开和配置 Microsoft 团队中的来宾访问。 您必须是全局管理员或团队管理员才能进行这些更改。
 
 > [!IMPORTANT]
 > 您可能需要等待24小时才能使更改生效。 
+
+观看此简短视频（5:31 分钟），了解如何在整个 Microsoft 365 （包括团队）中打开来宾访问。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
 
 
@@ -58,24 +62,24 @@ ms.locfileid: "37753317"
    > 此外，还可从 "**组织关系**" 页面获取**外部协作设置**。 在 Azure Active Directory 中的 "**管理**" 下，转到 "**组织关系** > "**设置**。
 4. 在 "**外部协作设置**" 页面上，选择要启用的策略。
 
-  - **来宾用户权限受到限制**：此策略确定你的目录中的来宾的权限。 选择 **"是"** 阻止来自某些目录任务的来宾，例如枚举用户、组或其他目录资源。 选择 "**否**"，为来宾提供与目录中普通用户相同的访问目录数据。
-   - **来宾 inviter 角色中的管理员和用户可以邀请**：要允许管理员和 "来宾 inviter" 角色中的用户邀请来宾，请将此策略设置为 **"是"**。
-   - **成员可以邀请**：若要允许你的目录的非管理员成员邀请来宾，请将此策略设置为 **"是"**。
-   
-       > [!NOTE]
-       > 如果您设置的**成员可以邀请**"**否**"，然后在 Office 365 组和 Microsoft 团队中启用来宾访问，则管理员可以控制您的目录的来宾邀请。 来宾位于目录中后，可通过非管理员成员的团队所有者将其添加到团队。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
-       > [!IMPORTANT]
-       > 若要使来宾访问完全在团队中工作，您必须将**成员**设置为 **"是"**。   
-   - **来宾可以邀请**：要允许来宾邀请其他来宾，请将此策略设置为 **"是"**。
-       > [!IMPORTANT]
-       > 当前，团队不支持来宾 inviter 角色，因此即使你将来宾设置为 "**邀请" 可以邀请**为 **"是**"，来宾也无法邀请团队中的其他来宾。
-   - **启用来宾电子邮件一次性密码（预览版）**：有关一次性密码功能的详细信息，请参阅[通过电子邮件发送一次性密码身份验证（预览版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
-   - **协作限制**：有关允许或阻止特定域的邀请的详细信息，请参阅[允许或阻止来自特定组织的 B2B 用户的邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
-      > [!NOTE]
-      > 有关协作限制，请参阅[启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+    - **来宾用户权限受到限制**：此策略确定你的目录中的来宾的权限。 选择 **"是"** 阻止来自某些目录任务的来宾，例如枚举用户、组或其他目录资源。 选择 "**否**"，为来宾提供与目录中普通用户相同的访问目录数据。
+     - **来宾 inviter 角色中的管理员和用户可以邀请**：要允许管理员和 "来宾 inviter" 角色中的用户邀请来宾，请将此策略设置为 **"是"**。
+     - **成员可以邀请**：若要允许你的目录的非管理员成员邀请来宾，请将此策略设置为 **"是"**。
+
+         > [!NOTE]
+         > 如果您设置的**成员可以邀请**"**否**"，然后在 Office 365 组和 Microsoft 团队中启用来宾访问，则管理员可以控制您的目录的来宾邀请。 来宾位于目录中后，可通过非管理员成员的团队所有者将其添加到团队。 有关详细信息，请参阅[在 Microsoft Teams 中授权来宾访问](Teams-dependencies.md)。
+         > [!IMPORTANT]
+         > 要让来宾访问可在 Teams 中正常工作，必须将“**成员可邀请**”设置为“**是**”。   
+     - **来宾可以邀请**：要允许来宾邀请其他来宾，请将此策略设置为 **"是"**。
+         > [!IMPORTANT]
+         > 目前，Teams 不支持来宾邀请者角色，因此即使你将“**来宾可邀请**”设置为“**是**”，来宾也不能邀请 Teams 中的其他来宾。
+     - **启用来宾电子邮件一次性密码（预览版）**：有关一次性密码功能的详细信息，请参阅[通过电子邮件发送一次性密码身份验证（预览版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
+     - **协作限制**：有关允许或阻止特定域的邀请的详细信息，请参阅[允许或阻止来自特定组织的 B2B 用户的邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
+        > [!NOTE]
+        > 有关协作限制，请参阅[启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
       
  
-要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+    要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 
 ## <a name="step-3-configure-office-365-groups"></a>步骤3：配置 Office 365 组
@@ -105,8 +109,8 @@ ms.locfileid: "37753317"
 
      ![屏幕截图显示共享设置切换的示例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
-> [!NOTE]
-> 此设置等效于**成员可**在 Azure AD 中的**用户设置** > **外部用户**中邀请的设置。  
+    > [!NOTE]
+    > 此设置等效于**成员可**在 Azure AD 中的**用户设置** > **外部用户**中邀请的设置。  
 
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步骤5：验证 SharePoint 中的共享设置

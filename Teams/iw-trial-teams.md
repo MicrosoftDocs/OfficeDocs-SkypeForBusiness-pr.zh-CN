@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572043"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679302"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
 
-Microsoft Teams 是组织的一个很好的协作工具。 它使人们和团队能够使用 Office 365 的强大功能进行讨论、创新和共享创意。 Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。 
+Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。 
 
 > [!IMPORTANT]
 > Microsoft Teams 商业云试用版已更新，现有额外的服务计划针对增加的 Teams 功能，并且现由你组织的账单管理员拥有和控制。这使得试用版更易管理并与所有其他 Microsoft 365 产品/服务相一致。 
