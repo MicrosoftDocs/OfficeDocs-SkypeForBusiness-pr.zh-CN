@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本文，查找用于直接路由的媒体路径国家代码。
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572208"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837564"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家代码
 
@@ -46,7 +46,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 美属萨摩亚  | 方式 |
 | 安道尔         | AD |
 | 安哥拉          | AO |
-| 安圭拉        | 谭 |
+| 安圭拉        | AI |
 | Antarctica      | AQ | 
 | 安提瓜和巴布达 | 集团 |
 | 阿根廷       | AR |

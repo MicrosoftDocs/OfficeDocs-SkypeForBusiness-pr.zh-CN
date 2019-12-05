@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675336"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842474"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -49,10 +49,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 团队会议室重置（出厂还原）
 <a name="Reset"> </a>
 
-如果 Microsoft 团队聊天室运行不好，则执行恢复恢复可能会有所帮助。 可在 "**恢复**" 选项卡上的 "设置" 应用中执行此操作。在 "**重置此电脑**" 下，选择 "**开始**"，然后**删除所有内容**。 按照其余提示重置设备。
-  
+如果 Microsoft 团队聊天室运行不好，则执行恢复恢复可能会有所帮助。 若要执行此操作，请使用[Microsoft 团队房间恢复工具](recovery-tool.md)，并按照出厂还原说明进行操作。
+
 > [!NOTE]
-> 如果**保留我的文件-删除应用和设置，但**在 Windows 重置过程中选中了 "保留你的个人文件" 选项，则 Microsoft 团队聊天室可能会变得不可用的已知问题。 请勿_使用此_选项。
+> 如果**保留我的文件-删除应用和设置，但**在 Windows 重置过程中选中了 "保留你的个人文件" 选项，则 Microsoft 团队聊天室可能会变得不可用的已知问题。 请勿*使用此*选项。
   
 ## <a name="supported-remote-options"></a>支持的远程选项
 <a name="RemoteOptions"> </a>

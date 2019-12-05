@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: 41517a8995aadab9b490781089fd587c5c295544
-ms.sourcegitcommit: 45d35d0e7c00bda309e53fe331be2c8b264b60f6
-ms.translationtype: HT
+ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "36571897"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37572175"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 

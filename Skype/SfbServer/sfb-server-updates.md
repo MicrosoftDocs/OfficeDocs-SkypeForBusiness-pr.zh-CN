@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找和管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 可使用此页面上的链接获取有关更新的详细信息，以及下载更新。
-ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714128"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837504"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -30,6 +30,7 @@ KB 4470124 是 Skype for business Server 2019 的主 KB，具有所有已发布�
 
 |软件包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business 服务器2019累积更新2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年12月 |
 |Skype for Business Server 2019 累积更新1修复程序1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
 |Skype for Business Server 2019 累积更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |

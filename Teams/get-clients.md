@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
+ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209088"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831595"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -102,6 +102,11 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 ### <a name="linux"></a>厂商
 
 用户将能够安装本机 Linux 程序包`.deb`并`.rpm`设置其格式。
+安装 DEB 包或 RPM 程序包将自动安装程序包存储库
+- DEB 包`https://packages.microsoft.com/repos/ms-teams stable main`
+- 转`https://packages.microsoft.com/yumrepos/ms-teams` 
+
+使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，还可以在以下位置找到：（https://packages.microsoft.com/keys/microsoft.asc)。 Microsoft 团队按月付费，如果存储库已正确安装，则系统程序包管理器应以与系统上其他程序包相同的方式处理自动更新。
 
 > [!NOTE] 
 > Linux 客户端上的团队在有限预览版中可用。 在客户端`Report a Problem`中使用从客户端提交的 bug。 对于已知问题，请参阅[已知问题](Known-issues.md)。

@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何为你的组织设置域、用户、即时消息和状态以安装 Skype for Business。另请参阅如何设置音频会议、电话系统和通话套餐以及 Skype 会议直播。 '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: HT
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792617"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746315"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -40,7 +40,7 @@ ms.locfileid: "35792617"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 规划 Skype for Business
 
-如果有 **[Office 365 商业高级版](https://products.office.com/zh-CN/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
+如果有 **[Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
 
 如果你想使用 Skype for Business 与组织 **外部** 的用户进行 *通话*  ，则有下列选项：
 
@@ -59,9 +59,7 @@ Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Sk
 
     ![在你注册 Skype for Business Online 之后收到的欢迎电子邮件的示例。 它包含你的 Office 365 用户 ID。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 登录管理中心并输入你的 Office 365 用户 ID 和密码。 登录后，你将看到 Microsoft 365 管理中心：
-
-    ![当你有 Skype for Business Online 计划时管理中心的外观的示例。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. 登录[管理中心](https://admin.microsoft.com)并输入您的 Office 365 用户 ID 和密码。 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 设置域和用户
 <a name="bkmk_users"> </a>

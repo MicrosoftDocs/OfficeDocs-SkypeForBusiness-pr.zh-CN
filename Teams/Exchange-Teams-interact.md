@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563999"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842424"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -79,7 +79,7 @@ Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富�
 >对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
 
 > [!IMPORTANT]
-> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
+> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 "**设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "**注册团队作为 Office 的聊天应用（需要重启 office 应用程序）**"。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
 
 ## <a name="additional-considerations"></a>其他注意事项
 
