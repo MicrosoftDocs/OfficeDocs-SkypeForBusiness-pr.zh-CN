@@ -3,10 +3,9 @@ title: 适用于虚拟化桌面基础结构的 Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi
+ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: 了解如何在虚拟桌面基础结构（VDI）环境中运行 Microsoft 团队。
 localization_priority: Normal
@@ -15,233 +14,343 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdac909139a225d622098df5d7df44516edac7bd
-ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
+ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39669240"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837576"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="33ffd-103">适用于虚拟化桌面基础结构的 Teams</span><span class="sxs-lookup"><span data-stu-id="33ffd-103">Teams for Virtualized Desktop Infrastructure</span></span>
+# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="53dd4-103">适用于虚拟化桌面基础结构的 Teams</span><span class="sxs-lookup"><span data-stu-id="53dd4-103">Teams for Virtualized Desktop Infrastructure</span></span>
 
-<span data-ttu-id="33ffd-104">本文介绍在虚拟化环境中使用 Microsoft 团队的要求和限制。</span><span class="sxs-lookup"><span data-stu-id="33ffd-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
+<span data-ttu-id="53dd4-104">本文介绍在虚拟化环境中使用 Microsoft 团队的要求和限制。</span><span class="sxs-lookup"><span data-stu-id="53dd4-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
 
-## <a name="what-is-vdi"></a><span data-ttu-id="33ffd-105">什么是 VDI？</span><span class="sxs-lookup"><span data-stu-id="33ffd-105">What is VDI?</span></span>
+## <a name="what-is-vdi"></a><span data-ttu-id="53dd4-105">什么是 VDI？</span><span class="sxs-lookup"><span data-stu-id="53dd4-105">What is VDI?</span></span>
 
-<span data-ttu-id="33ffd-106">虚拟桌面基础结构（VDI）是在数据中心的集中式服务器上托管桌面操作系统和应用程序的虚拟化技术。</span><span class="sxs-lookup"><span data-stu-id="33ffd-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="33ffd-107">这使具有完全安全和合规的集中源的用户能够获得完全个性化的桌面体验。</span><span class="sxs-lookup"><span data-stu-id="33ffd-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span>
+<span data-ttu-id="53dd4-106">虚拟桌面基础结构（VDI）是在数据中心的集中式服务器上托管桌面操作系统和应用程序的虚拟化技术。</span><span class="sxs-lookup"><span data-stu-id="53dd4-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="53dd4-107">这使具有完全安全和合规的集中源的用户能够获得完全个性化的桌面体验。</span><span class="sxs-lookup"><span data-stu-id="53dd4-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span>
+ 
+<span data-ttu-id="53dd4-108">虚拟环境中的 Microsoft 团队支持聊天和协作，并且通过 Citrix 平台，还支持调用和会议功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-108">Microsoft Teams in a virtualized environment supports chat and collaboration, and with the Citrix platform, calling and meeting functionality are also supported.</span></span>
 
-<span data-ttu-id="33ffd-108">目前，虚拟化环境中的团队可通过专用永久性虚拟机（VM）支持协作和聊天功能。</span><span class="sxs-lookup"><span data-stu-id="33ffd-108">Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM).</span></span> <span data-ttu-id="33ffd-109">若要确保获得最佳的用户体验，请按照本文中的指南操作。</span><span class="sxs-lookup"><span data-stu-id="33ffd-109">To ensure an optimal user experience, follow the guidance in this article.</span></span>
+<span data-ttu-id="53dd4-109">虚拟环境中的团队支持多个配置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-109">Teams in a virtualized environment supports multiple configurations.</span></span> <span data-ttu-id="53dd4-110">其中包括 VDI、专用、共享、持久和非持久模式。</span><span class="sxs-lookup"><span data-stu-id="53dd4-110">These include VDI, dedicated, shared, persistent and non-persistent modes.</span></span> <span data-ttu-id="53dd4-111">功能在连续开发中且定期添加，并且功能将在未来的几个月和几年内扩展。</span><span class="sxs-lookup"><span data-stu-id="53dd4-111">Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.</span></span>
+ 
+<span data-ttu-id="53dd4-112">在虚拟化环境中使用团队可能与在非虚拟化环境中使用团队稍有不同。</span><span class="sxs-lookup"><span data-stu-id="53dd4-112">Using Teams in a virtualized environment may be somewhat different from using Teams in a non-virtualized environment.</span></span> <span data-ttu-id="53dd4-113">例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。</span><span class="sxs-lookup"><span data-stu-id="53dd4-113">For example, some advanced features may not be available in a virtualized environment and video resolution may differ.</span></span> <span data-ttu-id="53dd4-114">若要确保获得最佳的用户体验，请按照本文中的指南操作。</span><span class="sxs-lookup"><span data-stu-id="53dd4-114">To ensure an optimal user experience, follow the guidance in this article.</span></span>
 
-## <a name="teams-requirements"></a><span data-ttu-id="33ffd-110">团队要求</span><span class="sxs-lookup"><span data-stu-id="33ffd-110">Teams requirements</span></span>
+## <a name="teams-on-vdi-components"></a><span data-ttu-id="53dd4-115">VDI 组件上的团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-115">Teams on VDI components</span></span>
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a><span data-ttu-id="33ffd-111">设置策略以关闭团队中的呼叫和会议功能</span><span class="sxs-lookup"><span data-stu-id="33ffd-111">Set policies to turn off calling and meeting functionality in Teams</span></span>
+<span data-ttu-id="53dd4-116">在虚拟化环境中使用团队需要以下组件。</span><span class="sxs-lookup"><span data-stu-id="53dd4-116">Using Teams in a virtualized environment requires the following components.</span></span>
 
-<span data-ttu-id="33ffd-112">团队通话和会议体验未针对 VDI 环境进行优化（即将推出）。</span><span class="sxs-lookup"><span data-stu-id="33ffd-112">The Teams calling and meeting experience isn't optimized for a VDI environment (coming soon).</span></span> <span data-ttu-id="33ffd-113">我们建议你设置用户级策略以关闭团队中的呼叫和会议功能。</span><span class="sxs-lookup"><span data-stu-id="33ffd-113">We recommend you set user-level policies to turn off calling and meeting functionality in Teams.</span></span>
+- <span data-ttu-id="53dd4-117">**虚拟化代理**：针对虚拟化提供程序的资源和连接管理器，例如 Azure</span><span class="sxs-lookup"><span data-stu-id="53dd4-117">**Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure</span></span>
+- <span data-ttu-id="53dd4-118">**虚拟桌面**：运行 Microsoft 团队的虚拟机（VM）堆栈</span><span class="sxs-lookup"><span data-stu-id="53dd4-118">**Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams</span></span>
+- <span data-ttu-id="53dd4-119">**瘦客户端**：用户使用物理接口的终结点</span><span class="sxs-lookup"><span data-stu-id="53dd4-119">**Thin client**: The endpoint that the user physically interfaces with</span></span>
+- <span data-ttu-id="53dd4-120">**团队桌面应用**：这是团队桌面客户端应用程序</span><span class="sxs-lookup"><span data-stu-id="53dd4-120">**Teams desktop app**: This is the Teams desktop client app</span></span>
 
-<span data-ttu-id="33ffd-114">你仍然可以选择使用团队桌面应用或 web 应用在 VDI 中完全运行团队。</span><span class="sxs-lookup"><span data-stu-id="33ffd-114">You can still choose to run Teams fully in VDI using either the Teams desktop app or web app.</span></span> <span data-ttu-id="33ffd-115">但是，我们建议你设置策略以避免损害用户体验。</span><span class="sxs-lookup"><span data-stu-id="33ffd-115">However, we recommend that you set the policies to avoid compromising the user experience.</span></span>
+## <a name="teams-on-vdi-requirements"></a><span data-ttu-id="53dd4-121">VDI 要求的团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-121">Teams on VDI requirements</span></span>
 
-<span data-ttu-id="33ffd-116">需要花费一些时间（几个小时）才能传播策略更改。</span><span class="sxs-lookup"><span data-stu-id="33ffd-116">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="33ffd-117">如果你没有立即看到给定帐户的更改，请在几个小时后重试。</span><span class="sxs-lookup"><span data-stu-id="33ffd-117">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
+### <a name="virtualization-provider-requirements"></a><span data-ttu-id="53dd4-122">虚拟化提供商要求</span><span class="sxs-lookup"><span data-stu-id="53dd4-122">Virtualization provider requirements</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="33ffd-118">当团队通话和会议被优化为在虚拟桌面环境中使用时，您可以还原这些策略，并允许用户按正常方式使用团队。</span><span class="sxs-lookup"><span data-stu-id="33ffd-118">When Teams calling and meetings are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would.</span></span>
+<span data-ttu-id="53dd4-123">团队桌面应用已通过主流虚拟化解决方案提供商进行验证。</span><span class="sxs-lookup"><span data-stu-id="53dd4-123">The Teams desktop app was validated with leading virtualization solution providers.</span></span> <span data-ttu-id="53dd4-124">有了多个市场提供商，我们建议你咨询你的虚拟化解决方案提供商以确保满足最低要求。</span><span class="sxs-lookup"><span data-stu-id="53dd4-124">With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
+  
+<span data-ttu-id="53dd4-125">目前，带有音频/视频（AV）优化的团队在通过 Citrix 认证。</span><span class="sxs-lookup"><span data-stu-id="53dd4-125">Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix.</span></span> <span data-ttu-id="53dd4-126">查看本部分中的信息，确保同时满足 Citrix 和团队要求才能获得正确的功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-126">Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.</span></span>
 
-#### <a name="calling"></a><span data-ttu-id="33ffd-119">通话</span><span class="sxs-lookup"><span data-stu-id="33ffd-119">Calling</span></span>
+### <a name="citrix-virtual-apps-and-desktops-requirements"></a><span data-ttu-id="53dd4-127">Citrix 虚拟应用和桌面要求</span><span class="sxs-lookup"><span data-stu-id="53dd4-127">Citrix Virtual Apps and Desktops requirements</span></span>
 
-<span data-ttu-id="33ffd-120">使用**CSTeamsCallingPolicy** cmdlet 控制是否允许用户在私人聊天和群组聊天中使用呼叫和呼叫选项。</span><span class="sxs-lookup"><span data-stu-id="33ffd-120">Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats.</span></span> <span data-ttu-id="33ffd-121">下面是策略设置和推荐值的列表。</span><span class="sxs-lookup"><span data-stu-id="33ffd-121">Here's the list of policy settings and recommended values.</span></span>
+<span data-ttu-id="53dd4-128">Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于 VDI 的团队提供 AV 优化。</span><span class="sxs-lookup"><span data-stu-id="53dd4-128">Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI.</span></span> <span data-ttu-id="53dd4-129">通过 Citrix 虚拟应用和桌面，VDI 上的团队不仅支持聊天和协作，还支持呼叫和会议功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-129">With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.</span></span>
 
-|<span data-ttu-id="33ffd-122">策略名称</span><span class="sxs-lookup"><span data-stu-id="33ffd-122">Policy name</span></span>  |<span data-ttu-id="33ffd-123">说明</span><span class="sxs-lookup"><span data-stu-id="33ffd-123">Description</span></span> |<span data-ttu-id="33ffd-124">推荐值</span><span class="sxs-lookup"><span data-stu-id="33ffd-124">Recommended value</span></span>  |
+<span data-ttu-id="53dd4-130">你可以在[此处](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下载 Citrix 虚拟应用和桌面的最新版本。</span><span class="sxs-lookup"><span data-stu-id="53dd4-130">You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/).</span></span> <span data-ttu-id="53dd4-131">（您需要首先登录。）默认情况下，必要的组件捆绑到[Citrix 工作区应用（CWA）](https://www.citrix.com/downloads/workspace-app/)和虚拟交付代理（VDA）中。</span><span class="sxs-lookup"><span data-stu-id="53dd4-131">(You'll need to sign in first.) The necessary components are bundled into the [Citrix Workspace app (CWA)](https://www.citrix.com/downloads/workspace-app/) and Virtual Delivery Agent (VDA) by default.</span></span> <span data-ttu-id="53dd4-132">无需在 CWA 或 VDA 上安装任何其他组件或插件。</span><span class="sxs-lookup"><span data-stu-id="53dd4-132">You don't need to install any additional components or plugins on CWA or the VDA.</span></span>
+
+<span data-ttu-id="53dd4-133">有关最新的服务器和客户端要求，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-133">For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).</span></span>
+
+## <a name="install-the-teams-desktop-app-on-vdi"></a><span data-ttu-id="53dd4-134">在 VDI 上安装团队桌面应用</span><span class="sxs-lookup"><span data-stu-id="53dd4-134">Install the Teams desktop app on VDI</span></span>
+
+<span data-ttu-id="53dd4-135">你可以使用 MSI 程序包使用每台计算机安装或每用户安装来部署适用于 VDI 的团队桌面应用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-135">You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI package.</span></span> <span data-ttu-id="53dd4-136">决定使用哪种方法取决于您使用的是持久设置还是非持久设置以及您的组织的相关功能需求。</span><span class="sxs-lookup"><span data-stu-id="53dd4-136">Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.</span></span>
+<span data-ttu-id="53dd4-137">对于专用的永久设置，这两种方法都适用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-137">For a dedicated persistent setup, either approach would work.</span></span>  <span data-ttu-id="53dd4-138">但是，对于非持久设置，团队需要每计算机安装才能高效工作。</span><span class="sxs-lookup"><span data-stu-id="53dd4-138">However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently.</span></span> <span data-ttu-id="53dd4-139">请参阅[非持久设置](#non-persistent-setup)部分。</span><span class="sxs-lookup"><span data-stu-id="53dd4-139">See the [Non-persistent setup](#non-persistent-setup) section.</span></span>
+
+<span data-ttu-id="53dd4-140">对于每台计算机安装，自动更新已禁用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-140">With per-machine installation, automatic updates is disabled.</span></span> <span data-ttu-id="53dd4-141">这意味着，若要更新团队应用，必须卸载当前版本才能更新到较新的版本。</span><span class="sxs-lookup"><span data-stu-id="53dd4-141">This means that to update the Teams app, you must uninstall the current version to update to a newer version.</span></span> <span data-ttu-id="53dd4-142">对于每用户安装，自动更新已启用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-142">With per-user installation, automatic updates is enabled.</span></span> <span data-ttu-id="53dd4-143">对于大多数 VDI 部署，建议使用每台计算机安装部署团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-143">For most VDI deployments, we recommend you deploy Teams using per-machine installation.</span></span>
+
+<span data-ttu-id="53dd4-144">为了使 VDI 环境中的团队防病毒优化正常工作，瘦客户端终结点必须有权访问 internet。</span><span class="sxs-lookup"><span data-stu-id="53dd4-144">For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet.</span></span> <span data-ttu-id="53dd4-145">如果在瘦客户端终结点上无法访问 internet，优化启动将不会成功。</span><span class="sxs-lookup"><span data-stu-id="53dd4-145">If internet access isn't available at the thin client endpoint, optimization startup won't be successful.</span></span> <span data-ttu-id="53dd4-146">这意味着用户处于非优化的媒体状态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-146">This means that the user is in a non-optimized media state.</span></span>
+
+#### <a name="dedicated-persistent-setup"></a><span data-ttu-id="53dd4-147">专用永久设置</span><span class="sxs-lookup"><span data-stu-id="53dd4-147">Dedicated persistent setup</span></span>
+
+<span data-ttu-id="53dd4-148">在专用的永久设置中，用户注销后，将保留用户的本地操作系统更改。</span><span class="sxs-lookup"><span data-stu-id="53dd4-148">In a dedicated persistent setup, users' local operating system changes are retained after users log off.</span></span>  <span data-ttu-id="53dd4-149">对于永久设置，团队同时支持每用户和每计算机安装。</span><span class="sxs-lookup"><span data-stu-id="53dd4-149">For persistent setup, Teams support both per-user and per-machine installation.</span></span>
+
+<span data-ttu-id="53dd4-150">以下是推荐的最低 VM 配置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-150">The following is the recommended minimum VM configuration.</span></span>
+
+|<span data-ttu-id="53dd4-151">参数</span><span class="sxs-lookup"><span data-stu-id="53dd4-151">Parameter</span></span>  |<span data-ttu-id="53dd4-152">工作站操作系统</span><span class="sxs-lookup"><span data-stu-id="53dd4-152">Workstation operating system</span></span>  |<span data-ttu-id="53dd4-153">服务器操作系统</span><span class="sxs-lookup"><span data-stu-id="53dd4-153">Server operation system</span></span>  |
 |---------|---------|---------|
-|<span data-ttu-id="33ffd-125">AllowCalling</span><span class="sxs-lookup"><span data-stu-id="33ffd-125">AllowCalling</span></span>|<span data-ttu-id="33ffd-126">控制互操作调用功能。</span><span class="sxs-lookup"><span data-stu-id="33ffd-126">Controls interop calling capabilities.</span></span> <span data-ttu-id="33ffd-127">启用此功能将允许 Skype for Business 用户与团队用户进行一对一呼叫，反之亦然。</span><span class="sxs-lookup"><span data-stu-id="33ffd-127">Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.</span></span>|<span data-ttu-id="33ffd-128">设置为 False 以阻止来自团队的 Skype for Business 用户的呼叫。</span><span class="sxs-lookup"><span data-stu-id="33ffd-128">Set to False to prevent calls from Skype for Business users landing in Teams.</span></span>|
-|<span data-ttu-id="33ffd-129">AllowPrivateCalling</span><span class="sxs-lookup"><span data-stu-id="33ffd-129">AllowPrivateCalling</span></span>| <span data-ttu-id="33ffd-130">控制呼叫应用是否在团队客户端左侧的应用栏中可用，以及用户是否可以在私人聊天中看到呼叫和视频通话选项。</span><span class="sxs-lookup"><span data-stu-id="33ffd-130">Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat.</span></span> |<span data-ttu-id="33ffd-131">设置为 False 可从团队左侧的应用栏中删除呼叫应用，并删除私人聊天中的呼叫和视频通话选项。</span><span class="sxs-lookup"><span data-stu-id="33ffd-131">Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat.</span></span>|
+|<span data-ttu-id="53dd4-154">vCPU</span><span class="sxs-lookup"><span data-stu-id="53dd4-154">vCPU</span></span>   |    <span data-ttu-id="53dd4-155">2核</span><span class="sxs-lookup"><span data-stu-id="53dd4-155">2 cores</span></span>     |  <span data-ttu-id="53dd4-156">4、6或8</span><span class="sxs-lookup"><span data-stu-id="53dd4-156">4,6, or 8</span></span><br><span data-ttu-id="53dd4-157">了解基础非统一内存访问（NUMA）配置和相应配置 Vm 非常重要。</span><span class="sxs-lookup"><span data-stu-id="53dd4-157">It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.</span></span>     |
+|<span data-ttu-id="53dd4-158">RAM</span><span class="sxs-lookup"><span data-stu-id="53dd4-158">RAM</span></span>     |   <span data-ttu-id="53dd4-159">4 GB</span><span class="sxs-lookup"><span data-stu-id="53dd4-159">4 GB</span></span>      | <span data-ttu-id="53dd4-160">每个用户512到 1024 MB</span><span class="sxs-lookup"><span data-stu-id="53dd4-160">512 to 1024 MB per user</span></span>        |
+|<span data-ttu-id="53dd4-161">存储空间</span><span class="sxs-lookup"><span data-stu-id="53dd4-161">Storage</span></span>    | <span data-ttu-id="53dd4-162">8 GB</span><span class="sxs-lookup"><span data-stu-id="53dd4-162">8 GB</span></span>        | <span data-ttu-id="53dd4-163">40到 60 GB</span><span class="sxs-lookup"><span data-stu-id="53dd4-163">40 to 60 GB</span></span>        |
 
-#### <a name="create-and-assign-a-calling-policy"></a><span data-ttu-id="33ffd-132">创建和分配呼叫策略</span><span class="sxs-lookup"><span data-stu-id="33ffd-132">Create and assign a calling policy</span></span>
+#### <a name="non-persistent-setup"></a><span data-ttu-id="53dd4-164">非持久设置</span><span class="sxs-lookup"><span data-stu-id="53dd4-164">Non-persistent setup</span></span>
 
-1. <span data-ttu-id="33ffd-133">以管理员身份启动 Windows PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="33ffd-133">Start a Windows PowerShell session as an administrator.</span></span>
-2. <span data-ttu-id="33ffd-134">连接到 Skype Online 连接器。</span><span class="sxs-lookup"><span data-stu-id="33ffd-134">Connect to the Skype Online Connector.</span></span>
+<span data-ttu-id="53dd4-165">在非持久设置中，用户注销后将不保留用户的本地操作系统更改。</span><span class="sxs-lookup"><span data-stu-id="53dd4-165">In a non-persistent setup, users' local operating system changes are not retained after users log off.</span></span> <span data-ttu-id="53dd4-166">此类设置通常共享多用户会话。</span><span class="sxs-lookup"><span data-stu-id="53dd4-166">Such setups are commonly shared multi-user sessions.</span></span> <span data-ttu-id="53dd4-167">VM 配置根据用户数量和可用的物理箱资源而有所不同。</span><span class="sxs-lookup"><span data-stu-id="53dd4-167">VM configuration varies based on the number of users and available physical box resources.</span></span>
 
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
+<span data-ttu-id="53dd4-168">对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。</span><span class="sxs-lookup"><span data-stu-id="53dd4-168">For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image.</span></span> <span data-ttu-id="53dd4-169">（若要了解详细信息，请参阅在[VDI 部分安装 "团队桌面应用](#install-the-teams-desktop-app-on-vdi)" 部分）。</span><span class="sxs-lookup"><span data-stu-id="53dd4-169">(To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section).</span></span> <span data-ttu-id="53dd4-170">这可确保在用户会话期间有效地启动团队应用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-170">This ensures an efficient launch of the Teams app during a user session.</span></span> <span data-ttu-id="53dd4-171">将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。</span><span class="sxs-lookup"><span data-stu-id="53dd4-171">Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.</span></span>  <span data-ttu-id="53dd4-172">有多种可用的缓存管理器解决方案。</span><span class="sxs-lookup"><span data-stu-id="53dd4-172">There are variety of caching manager solutions available.</span></span> <span data-ttu-id="53dd4-173">例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-173">For example, [FSLogix](https://docs.microsoft.com/fslogix/overview).</span></span> <span data-ttu-id="53dd4-174">有关特定配置说明，请咨询您的缓存管理器提供程序。</span><span class="sxs-lookup"><span data-stu-id="53dd4-174">Consult your caching manager provider for specific configuration instructions.</span></span>
 
-3. <span data-ttu-id="33ffd-135">查看通话策略选项列表。</span><span class="sxs-lookup"><span data-stu-id="33ffd-135">View a list of calling policy options.</span></span>
+##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a><span data-ttu-id="53dd4-175">用于非持久设置的工作组缓存的内容排除列表</span><span class="sxs-lookup"><span data-stu-id="53dd4-175">Teams cached content exclusion list for non-persistent setup</span></span>
 
-      ```powershell
-      Get-CsTeamsCallingPolicy
-      ```
+<span data-ttu-id="53dd4-176">从 "团队缓存" 文件夹（% appdata%/Microsoft/Teams.）中排除以下项</span><span class="sxs-lookup"><span data-stu-id="53dd4-176">Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.</span></span>  <span data-ttu-id="53dd4-177">排除这些帮助将减少用户缓存大小，以进一步优化非持久设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-177">Excluding these help reduce the user caching size to further optimize your non-persistent setup.</span></span>
 
-4. <span data-ttu-id="33ffd-136">查找已禁用所有呼叫策略的内置策略选项。</span><span class="sxs-lookup"><span data-stu-id="33ffd-136">Look for the built-in policy option where all calling policies are disabled.</span></span> <span data-ttu-id="33ffd-137">其外观如下所示。</span><span class="sxs-lookup"><span data-stu-id="33ffd-137">It looks like this.</span></span>
+- <span data-ttu-id="53dd4-178">.txt 文件</span><span class="sxs-lookup"><span data-stu-id="53dd4-178">.txt files</span></span>
+- <span data-ttu-id="53dd4-179">媒体堆叠文件夹</span><span class="sxs-lookup"><span data-stu-id="53dd4-179">Media-stack folder</span></span>
 
-        Identity                        : Tag:DisallowCalling
-        AllowCalling                    : False
-        AllowPrivateCalling             : False
-        AllowVoicemail                  : False
-        AllowCallGroups                 : False
-        AllowDelegation                 : False
-        AllowUserControl                : False
-        AllowCallForwardingToUser       : False
-        AllowCallForwardingToPhone      : False
-        PreventTollBypass               : False
+### <a name="office-365-proplus-considerations"></a><span data-ttu-id="53dd4-180">Office 365 专业增强版注意事项</span><span class="sxs-lookup"><span data-stu-id="53dd4-180">Office 365 ProPlus considerations</span></span>
 
-5. <span data-ttu-id="33ffd-138">将 DisallowCalling 内置策略选项应用于将在虚拟化环境中使用团队的所有用户。</span><span class="sxs-lookup"><span data-stu-id="33ffd-138">Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
+<span data-ttu-id="53dd4-181">在 VDI 上部署具有 Office 365 专业增强版的团队时，请考虑以下事项。</span><span class="sxs-lookup"><span data-stu-id="53dd4-181">Consider the following when you deploy Teams with Office 365 ProPlus on VDI.</span></span>
 
-      ```powershell
-      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
-      ```
+#### <a name="new-deployments-of-teams-through-office-365-proplus"></a><span data-ttu-id="53dd4-182">通过 Office 365 专业增强版的新部署团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-182">New deployments of Teams through Office 365 ProPlus</span></span>
 
-<span data-ttu-id="33ffd-139">有关团队调用策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="33ffd-139">For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+<span data-ttu-id="53dd4-183">在通过 Office 365 专业增强版部署团队之前，必须先卸载任何预先存在的团队应用（如果它们是使用按计算机安装部署的）。</span><span class="sxs-lookup"><span data-stu-id="53dd4-183">Before you deploy Teams through Office 365 ProPlus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.</span></span>
 
-#### <a name="meetings"></a><span data-ttu-id="33ffd-140">会议</span><span class="sxs-lookup"><span data-stu-id="33ffd-140">Meetings</span></span>
+<span data-ttu-id="53dd4-184">通过 Office 365 专业增强版的团队将针对每个用户进行安装。</span><span class="sxs-lookup"><span data-stu-id="53dd4-184">Teams through Office 365 ProPlus is installed per-user.</span></span> <span data-ttu-id="53dd4-185">若要了解详细信息，请参阅[在 VDI 部分安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-185">To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span>
 
-<span data-ttu-id="33ffd-141">使用**CsTeamsMeetingPolicy** cmdlet 控制用户可以创建的会议类型、会议期间可以访问的功能以及匿名用户和外部用户可用的会议功能。</span><span class="sxs-lookup"><span data-stu-id="33ffd-141">Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users.</span></span> <span data-ttu-id="33ffd-142">下面是策略设置和推荐值的列表。</span><span class="sxs-lookup"><span data-stu-id="33ffd-142">Here's the list of policy settings and recommended values.</span></span>
+#### <a name="teams-deployments-through-office-365-proplus-updates"></a><span data-ttu-id="53dd4-186">通过 Office 365 专业增强版更新的团队部署</span><span class="sxs-lookup"><span data-stu-id="53dd4-186">Teams deployments through Office 365 ProPlus updates</span></span>
 
-|<span data-ttu-id="33ffd-143">策略名称</span><span class="sxs-lookup"><span data-stu-id="33ffd-143">Policy Name</span></span> |<span data-ttu-id="33ffd-144">说明</span><span class="sxs-lookup"><span data-stu-id="33ffd-144">Description</span></span>|<span data-ttu-id="33ffd-145">推荐值</span><span class="sxs-lookup"><span data-stu-id="33ffd-145">Recommended Value</span></span>                   |
-|-------------------|-----------------|-----------------------|
-|<span data-ttu-id="33ffd-146">AllowPrivateMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="33ffd-146">AllowPrivateMeetingScheduling</span></span>  | <span data-ttu-id="33ffd-147">确定是否允许用户安排私人会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-147">Determines whether a user is allowed to schedule private meetings.</span></span>| <span data-ttu-id="33ffd-148">设置为 False 将禁止用户安排私人会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-148">Set to False to prohibit the user from being able to schedule private meetings.</span></span> |
-|<span data-ttu-id="33ffd-149">AllowChannelMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="33ffd-149">AllowChannelMeetingScheduling</span></span>  | <span data-ttu-id="33ffd-150">确定是否允许用户安排频道会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-150">Determines whether a user is allowed to schedule channel meetings.</span></span> | <span data-ttu-id="33ffd-151">设置为 False 可禁止用户安排频道会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-151">Set to False to prohibit the user from being able to schedule channel meetings.</span></span>|
-|<span data-ttu-id="33ffd-152">AllowMeetNow</span><span class="sxs-lookup"><span data-stu-id="33ffd-152">AllowMeetNow</span></span> |<span data-ttu-id="33ffd-153">确定是否允许用户创建或启动临时会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-153">Determines whether a user is allowed to create or start ad-hoc meetings.</span></span> | <span data-ttu-id="33ffd-154">将此值设置为 False 可禁止用户启动临时会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-154">Set this to False to prohibit the user from being able to start ad-hoc meetings.</span></span> |
-|<span data-ttu-id="33ffd-155">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="33ffd-155">ScreenSharingMode</span></span> | <span data-ttu-id="33ffd-156">确定允许用户在通话或会议中共享其屏幕的模式。</span><span class="sxs-lookup"><span data-stu-id="33ffd-156">Determines the mode in which a user is allowed to share their screen in calls or meetings.</span></span> | <span data-ttu-id="33ffd-157">设置为 "已禁用"，禁止用户共享其屏幕。</span><span class="sxs-lookup"><span data-stu-id="33ffd-157">Set to Disabled to prohibit the user from sharing their screens.</span></span> |
-|<span data-ttu-id="33ffd-158">AllowIPVideo</span><span class="sxs-lookup"><span data-stu-id="33ffd-158">AllowIPVideo</span></span> |<span data-ttu-id="33ffd-159">确定是否在用户的会议或呼叫中启用视频。</span><span class="sxs-lookup"><span data-stu-id="33ffd-159">Determines whether video is enabled in a user's meetings or calls.</span></span> | <span data-ttu-id="33ffd-160">设置为 False 以禁止用户共享其视频。</span><span class="sxs-lookup"><span data-stu-id="33ffd-160">Set to False to prohibit the user from sharing their video.</span></span> |
-| <span data-ttu-id="33ffd-161">AllowAnonymousUsersToDialOut</span><span class="sxs-lookup"><span data-stu-id="33ffd-161">AllowAnonymousUsersToDialOut</span></span> | <span data-ttu-id="33ffd-162">确定是否允许匿名用户拨出到 PSTN 号码。</span><span class="sxs-lookup"><span data-stu-id="33ffd-162">Determines whether anonymous users are allowed to dial out to a PSTN number.</span></span> | <span data-ttu-id="33ffd-163">设置为 False 以禁止匿名用户拨出。</span><span class="sxs-lookup"><span data-stu-id="33ffd-163">Set to False to prohibit anonymous users from dialing out.</span></span> |
-| <span data-ttu-id="33ffd-164">AllowAnonymousUsersToStartMeeting</span><span class="sxs-lookup"><span data-stu-id="33ffd-164">AllowAnonymousUsersToStartMeeting</span></span> | <span data-ttu-id="33ffd-165">确定匿名用户是否可以启动会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-165">Determines whether anonymous users can start a meeting.</span></span> | <span data-ttu-id="33ffd-166">设置为 False 以禁止用户启动会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-166">Set to False to prohibit users from starting a meeting.</span></span> |
-| <span data-ttu-id="33ffd-167">AllowOutlookAddIn</span><span class="sxs-lookup"><span data-stu-id="33ffd-167">AllowOutlookAddIn</span></span> |<span data-ttu-id="33ffd-168">确定用户是否可以在 Outlook 桌面客户端中安排团队会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-168">Determines whether a user can schedule Teams meetings in the Outlook desktop client.</span></span> | <span data-ttu-id="33ffd-169">设置为 False 可禁止用户在 Outlook 桌面客户端中安排团队会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-169">Set to False to prohibit a user from  scheduling Teams meetings in the Outlook desktop client.</span></span> |
-| <span data-ttu-id="33ffd-170">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="33ffd-170">AllowParticipantGiveRequestControl</span></span>|<span data-ttu-id="33ffd-171">确定参与者是否可以请求或提供屏幕共享的控制权。</span><span class="sxs-lookup"><span data-stu-id="33ffd-171">Determines whether participants can request or give control of screen sharing.</span></span>| <span data-ttu-id="33ffd-172">设置为 False 以禁止用户在会议中授予和请求控件。</span><span class="sxs-lookup"><span data-stu-id="33ffd-172">Set to False to prohibit the user from giving and requesting control in a meeting.</span></span> |
-| <span data-ttu-id="33ffd-173">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="33ffd-173">AllowExternalParticipantGiveRequestControl</span></span> | <span data-ttu-id="33ffd-174">确定外部参与者是否可以请求或提供屏幕共享的控制权。</span><span class="sxs-lookup"><span data-stu-id="33ffd-174">Determines whether external participants can request or give control of screen sharing.</span></span> | <span data-ttu-id="33ffd-175">设置为 False 以禁止外部用户授予，请求在会议中控制。</span><span class="sxs-lookup"><span data-stu-id="33ffd-175">Set to False to prohibit an external user from giving, requesting control in a meeting.</span></span> |
-| <span data-ttu-id="33ffd-176">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="33ffd-176">AllowPowerPointSharing</span></span> |<span data-ttu-id="33ffd-177">确定用户的会议中是否允许 PowerPoint 共享。</span><span class="sxs-lookup"><span data-stu-id="33ffd-177">Determines whether PowerPoint sharing is allowed in a user’s meetings.</span></span> |<span data-ttu-id="33ffd-178">设置为 False 可禁止用户在会议中共享 PowerPoint 文件。</span><span class="sxs-lookup"><span data-stu-id="33ffd-178">Set to False to prohibit a user from sharing PowerPoint files in a meeting.</span></span> |
-| <span data-ttu-id="33ffd-179">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="33ffd-179">AllowWhiteboard</span></span> | <span data-ttu-id="33ffd-180">确定用户的会议中是否允许白板。</span><span class="sxs-lookup"><span data-stu-id="33ffd-180">Determines whether whiteboard is allowed in a user’s meetings.</span></span> | <span data-ttu-id="33ffd-181">设置为 False 以在会议中禁用白板。</span><span class="sxs-lookup"><span data-stu-id="33ffd-181">Set to False to prohibit whiteboard in a meeting.</span></span> |
-| <span data-ttu-id="33ffd-182">AllowTranscription</span><span class="sxs-lookup"><span data-stu-id="33ffd-182">AllowTranscription</span></span> |<span data-ttu-id="33ffd-183">确定用户的会议中是否允许实时和/或后期会议标题和转录。</span><span class="sxs-lookup"><span data-stu-id="33ffd-183">Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.</span></span> | <span data-ttu-id="33ffd-184">设置为 False 将禁止会议中的脚本和字幕。</span><span class="sxs-lookup"><span data-stu-id="33ffd-184">Set to False to prohibit transcription and captions in a meeting.</span></span> |
-| <span data-ttu-id="33ffd-185">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="33ffd-185">AllowSharedNotes</span></span> | <span data-ttu-id="33ffd-186">确定是否允许用户接受共享笔记。</span><span class="sxs-lookup"><span data-stu-id="33ffd-186">Determines whether users are allowed to take shared notes.</span></span> | <span data-ttu-id="33ffd-187">设置为 False 以禁止用户接受共享笔记。</span><span class="sxs-lookup"><span data-stu-id="33ffd-187">Set to False to prohibit users from taking shared notes.</span></span> |
-| <span data-ttu-id="33ffd-188">MediaBitRateKB</span><span class="sxs-lookup"><span data-stu-id="33ffd-188">MediaBitRateKB</span></span> |<span data-ttu-id="33ffd-189">确定会议中音频/视频/应用共享传输的媒体比特率。</span><span class="sxs-lookup"><span data-stu-id="33ffd-189">Determines the media bit rate for audio/video/app sharing transmissions in meetings.</span></span> | <span data-ttu-id="33ffd-190">建议值为5000（5 MB）。</span><span class="sxs-lookup"><span data-stu-id="33ffd-190">Suggested value is 5000 (5 MB).</span></span> <span data-ttu-id="33ffd-191">您可以根据组织的需要对其进行更改。</span><span class="sxs-lookup"><span data-stu-id="33ffd-191">You can change it based on your organization’s needs.</span></span> |
+<span data-ttu-id="53dd4-187">团队也将添加到 Office 365 专业增强版的现有安装。</span><span class="sxs-lookup"><span data-stu-id="53dd4-187">Teams is also being added to existing installations of Office 365 ProPlus.</span></span> <span data-ttu-id="53dd4-188">由于 Office 365 专业增强版仅为每位用户安装团队，请参阅在[VDI 部分安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-188">Since Office 365 ProPlus installs Teams per-user only, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span>
 
-#### <a name="create-and-assign-a-meeting-policy"></a><span data-ttu-id="33ffd-192">创建和分配会议策略</span><span class="sxs-lookup"><span data-stu-id="33ffd-192">Create and assign a meeting policy</span></span>
+#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a><span data-ttu-id="53dd4-189">对每台计算机安装使用团队和 Office 365 专业增强版</span><span class="sxs-lookup"><span data-stu-id="53dd4-189">Using Teams with per-machine installation and Office 365 ProPlus</span></span>
 
-1. <span data-ttu-id="33ffd-193">以管理员身份启动 Windows PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="33ffd-193">Start a Windows PowerShell session as an administrator.</span></span>
-1. <span data-ttu-id="33ffd-194">连接到 Skype Online 连接器。</span><span class="sxs-lookup"><span data-stu-id="33ffd-194">Connect to the Skype Online Connector.</span></span>
+<span data-ttu-id="53dd4-190">Office 365 专业增强版不支持团队的每计算机安装。</span><span class="sxs-lookup"><span data-stu-id="53dd4-190">Office 365 ProPlus doesn't support per-machine installations of Teams.</span></span> <span data-ttu-id="53dd4-191">若要使用每台计算机安装，必须从 Office 365 专业增强版中排除团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-191">To use per-machine installation, you must exclude Teams from Office 365 ProPlus.</span></span> <span data-ttu-id="53dd4-192">请参阅将[团队桌面应用部署到 VM](#deploy-the-teams-desktop-app-to-the-vm)和[如何通过 Office 365 专业增强版部分排除团队部署](#how-to-exclude-teams-deployment-through-office-365-proplus)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-192">See the [Deploy the Teams desktop app to the VM](#deploy-the-teams-desktop-app-to-the-vm) and [How to exclude Teams deployment through Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) sections.</span></span>
 
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
+#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a><span data-ttu-id="53dd4-193">如何通过 Office 365 专业增强版排除团队部署</span><span class="sxs-lookup"><span data-stu-id="53dd4-193">How to exclude Teams deployment through Office 365 ProPlus</span></span>
 
-1. <span data-ttu-id="33ffd-195">查看会议策略选项列表。</span><span class="sxs-lookup"><span data-stu-id="33ffd-195">View a list of meeting policy options.</span></span>
+<span data-ttu-id="53dd4-194">若要了解有关团队和 Office 365 专业增强版的详细信息，请参阅[如何从 Office 365 专业增强版的新安装中排除团队](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)，并[使用组策略来控制团队的安装](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-194">To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from new installations of Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).</span></span>
 
-      ```powershell
-      Get-CsTeamsMeetingPolicy
-      ```
+### <a name="deploy-the-teams-desktop-app-to-the-vm"></a><span data-ttu-id="53dd4-195">将团队桌面应用部署到 VM</span><span class="sxs-lookup"><span data-stu-id="53dd4-195">Deploy the Teams desktop app to the VM</span></span>
 
-1. <span data-ttu-id="33ffd-196">查找已禁用所有会议策略的内置策略选项。</span><span class="sxs-lookup"><span data-stu-id="33ffd-196">Look for the built-in policy option where all meeting policies are disabled.</span></span> <span data-ttu-id="33ffd-197">其外观如下所示。</span><span class="sxs-lookup"><span data-stu-id="33ffd-197">It looks like this.</span></span>
+1. <span data-ttu-id="53dd4-196">使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包。</span><span class="sxs-lookup"><span data-stu-id="53dd4-196">Download the Teams MSI package that matches your VDI VM operating system using one of the following links.</span></span>
 
-        Identity                                    : Tag:AllOff
-        Description                                 :
-        AllowChannelMeetingScheduling               : False
-        AllowMeetNow                                : False
-        AllowIPVideo                                : False
-        AllowAnonymousUsersToDialOut                : False
-        AllowAnonymousUsersToStartMeeting           : False
-        AllowPrivateMeetingScheduling               : False
-        AutoAdmittedUsers                           : False
-        AllowCloudRecording                         : False
-        AllowOutlookAddIn                           : False
-        AllowPowerPointSharing                      : False
-        AllowParticipantGiveRequestControl          : False
-        AllowExternalParticipantGiveRequestControl  : False
-        AllowSharedNotes                            : False
-        AllowWhiteboard                             : False
-        AllowTranscription                          : False
-        MediaBitRateKb                              : False
-        ScreenSharingMode                           : False
+    - [<span data-ttu-id="53dd4-197">32位版本</span><span class="sxs-lookup"><span data-stu-id="53dd4-197">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [<span data-ttu-id="53dd4-198">64位版本</span><span class="sxs-lookup"><span data-stu-id="53dd4-198">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-1. <span data-ttu-id="33ffd-198">将 AllOff 内置策略选项应用于将在虚拟化环境中使用团队的所有用户。</span><span class="sxs-lookup"><span data-stu-id="33ffd-198">Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
+    <span data-ttu-id="53dd4-199">所需的团队桌面应用的最低版本是1.2.00.31357 版本。</span><span class="sxs-lookup"><span data-stu-id="53dd4-199">The minimum version of the Teams desktop app that's required is version 1.2.00.31357.</span></span>
 
-      ```powershell
-      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
-      ```
+2. <span data-ttu-id="53dd4-200">通过运行以下命令之一将 MSI 安装到 VDI VM：</span><span class="sxs-lookup"><span data-stu-id="53dd4-200">Install the MSI to the VDI VM by running one of the following commands:</span></span>
 
- <span data-ttu-id="33ffd-199">有关团队会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="33ffd-199">For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+    - <span data-ttu-id="53dd4-201">每用户安装（默认）</span><span class="sxs-lookup"><span data-stu-id="53dd4-201">Per-user installation  (default)</span></span>
+  
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        <span data-ttu-id="53dd4-202">这是默认安装，可将团队安装到% AppData% 用户文件夹。</span><span class="sxs-lookup"><span data-stu-id="53dd4-202">This is the default installation, which installs Teams to the %AppData% user folder.</span></span> <span data-ttu-id="53dd4-203">此时，将完成黄金图像设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-203">At this point, the golden image setup is complete.</span></span> <span data-ttu-id="53dd4-204">在非持久设置中，团队将不会在每用户安装中正常工作。</span><span class="sxs-lookup"><span data-stu-id="53dd4-204">Teams will not work properly with per-user installation on a non-persistent setup.</span></span>
+    
+    - <span data-ttu-id="53dd4-205">每计算机安装</span><span class="sxs-lookup"><span data-stu-id="53dd4-205">Per-machine installation</span></span>
 
-### <a name="virtualization-provider-requirements"></a><span data-ttu-id="33ffd-200">虚拟化提供商要求</span><span class="sxs-lookup"><span data-stu-id="33ffd-200">Virtualization provider requirements</span></span>
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-<span data-ttu-id="33ffd-201">团队应用已在主流虚拟化解决方案提供商处验证。</span><span class="sxs-lookup"><span data-stu-id="33ffd-201">The Teams app has been validated on leading virtualization solution providers.</span></span> <span data-ttu-id="33ffd-202">有了多个市场提供商，请咨询您的虚拟化解决方案提供商以确保满足最低要求。</span><span class="sxs-lookup"><span data-stu-id="33ffd-202">With multiple market providers, consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
+        <span data-ttu-id="53dd4-206">这会将团队安装到64位操作系统上的 "程序文件（x86）" 文件夹和32位操作系统上的 "程序文件" 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="53dd4-206">This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system.</span></span> <span data-ttu-id="53dd4-207">此时，将完成黄金图像设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-207">At this point, the golden image setup is complete.</span></span> <span data-ttu-id="53dd4-208">对于非持久设置，需要针对每台计算机安装团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-208">Installing Teams per-machine is required for non-persistent setups.</span></span>
+ 
+        <span data-ttu-id="53dd4-209">下一个交互式登录会话将启动团队并要求提供凭据。</span><span class="sxs-lookup"><span data-stu-id="53dd4-209">The next interactive logon session starts Teams and asks for credentials.</span></span>
 
-### <a name="virtual-machine-requirements"></a><span data-ttu-id="33ffd-203">虚拟机要求</span><span class="sxs-lookup"><span data-stu-id="33ffd-203">Virtual Machine requirements</span></span>
+3. <span data-ttu-id="53dd4-210">从 VDI VM 卸载 MSI</span><span class="sxs-lookup"><span data-stu-id="53dd4-210">Uninstall the MSI from the VDI VM</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="33ffd-204">以下要求适用于团队桌面应用和团队 Web 应用。</span><span class="sxs-lookup"><span data-stu-id="33ffd-204">The following requirements apply to both the Teams desktop app and the Teams Web app.</span></span>
-
-<span data-ttu-id="33ffd-205">利用虚拟化环境中的各种工作负载和用户需求，以下是推荐的最低 VM 配置。</span><span class="sxs-lookup"><span data-stu-id="33ffd-205">With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.</span></span>
-
-|<span data-ttu-id="33ffd-206">参数</span><span class="sxs-lookup"><span data-stu-id="33ffd-206">Parameter</span></span> |<span data-ttu-id="33ffd-207">测度</span><span class="sxs-lookup"><span data-stu-id="33ffd-207">Measure</span></span> |
-|---------|---------|
-|<span data-ttu-id="33ffd-208">vCPU</span><span class="sxs-lookup"><span data-stu-id="33ffd-208">vCPU</span></span> | <span data-ttu-id="33ffd-209">2核</span><span class="sxs-lookup"><span data-stu-id="33ffd-209">2 cores</span></span> |
-|<span data-ttu-id="33ffd-210">RAM</span><span class="sxs-lookup"><span data-stu-id="33ffd-210">RAM</span></span> | <span data-ttu-id="33ffd-211">4 GB</span><span class="sxs-lookup"><span data-stu-id="33ffd-211">4 GB</span></span> |
-|<span data-ttu-id="33ffd-212">存储空间</span><span class="sxs-lookup"><span data-stu-id="33ffd-212">Storage</span></span> | <span data-ttu-id="33ffd-213">8 GB</span><span class="sxs-lookup"><span data-stu-id="33ffd-213">8 GB</span></span> |
-
-### <a name="virtual-machine-operating-system-requirements"></a><span data-ttu-id="33ffd-214">虚拟机操作系统要求</span><span class="sxs-lookup"><span data-stu-id="33ffd-214">Virtual Machine operating system requirements</span></span>
-
-<span data-ttu-id="33ffd-215">适用于 VM 的受支持的操作系统是：</span><span class="sxs-lookup"><span data-stu-id="33ffd-215">The supported operating systems for VM are:</span></span>
-
-- <span data-ttu-id="33ffd-216">Windows 10 及更高版本</span><span class="sxs-lookup"><span data-stu-id="33ffd-216">Windows 10 and later</span></span>
-- <span data-ttu-id="33ffd-217">Windows Server 2012 R2 及更高版本</span><span class="sxs-lookup"><span data-stu-id="33ffd-217">Windows Server 2012 R2 and later</span></span>
-
-## <a name="install-teams-on-vdi"></a><span data-ttu-id="33ffd-218">在 VDI 上安装团队</span><span class="sxs-lookup"><span data-stu-id="33ffd-218">Install Teams on VDI</span></span>
-
-<span data-ttu-id="33ffd-219">下面是部署团队桌面应用的过程和工具。</span><span class="sxs-lookup"><span data-stu-id="33ffd-219">Here's the process and tools to deploy the Teams desktop app.</span></span>
-
-1. <span data-ttu-id="33ffd-220">根据环境，使用下列链接之一下载团队 MSI 程序包。</span><span class="sxs-lookup"><span data-stu-id="33ffd-220">Download the Teams MSI package using one of the following links depending on the environment.</span></span> <span data-ttu-id="33ffd-221">我们建议使用64位操作系统的 VDI VM 64 位版本。</span><span class="sxs-lookup"><span data-stu-id="33ffd-221">We recommend the 64-bit version for a VDI VM with a 64-bit operating system.</span></span>
-
-    - [<span data-ttu-id="33ffd-222">32位版本</span><span class="sxs-lookup"><span data-stu-id="33ffd-222">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [<span data-ttu-id="33ffd-223">64位版本</span><span class="sxs-lookup"><span data-stu-id="33ffd-223">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
-
-1. <span data-ttu-id="33ffd-224">运行以下命令，将 MSI 安装到 VDI VM （或完成更新）。</span><span class="sxs-lookup"><span data-stu-id="33ffd-224">Run the following command to install the MSI to the VDI VM (or complete updating it).</span></span>
-
-      ```
-      msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-      ```
-
-    <span data-ttu-id="33ffd-225">这将把团队安装到程序文件。</span><span class="sxs-lookup"><span data-stu-id="33ffd-225">This installs Teams to Program Files.</span></span> <span data-ttu-id="33ffd-226">此时，将完成黄金图像设置。</span><span class="sxs-lookup"><span data-stu-id="33ffd-226">At this point, the golden image setup is complete.</span></span>
-
-    <span data-ttu-id="33ffd-227">下一个交互式登录会话将启动团队并要求提供凭据。</span><span class="sxs-lookup"><span data-stu-id="33ffd-227">The next interactive logon session starts Teams and asks for credentials.</span></span> <span data-ttu-id="33ffd-228">请注意，在 VDI 上使用 ALLUSER 属性安装团队时，不可能禁用团队的自动启动。</span><span class="sxs-lookup"><span data-stu-id="33ffd-228">Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.</span></span>
-
-1. <span data-ttu-id="33ffd-229">运行以下命令以从 VDI VM 卸载 MSI （或准备更新它）。</span><span class="sxs-lookup"><span data-stu-id="33ffd-229">Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).</span></span>
-
+    <span data-ttu-id="53dd4-211">可通过两种方式卸载团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-211">There are two ways to uninstall Teams.</span></span>  
+  
+    - <span data-ttu-id="53dd4-212">PowerShell 脚本（推荐）：你可以使用此[PowerShell 脚本](scripts/powershell-script-teams-deployment-clean-up.md)清理目标计算机或用户的团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-212">PowerShell script (recommended): You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users.</span></span> <span data-ttu-id="53dd4-213">应针对目标计算机上的每个用户执行该应用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-213">It should be executed for every user on a targeted machine.</span></span> 
+    
+    - <span data-ttu-id="53dd4-214">命令行：此方法删除团队，但阻止团队重新安装。</span><span class="sxs-lookup"><span data-stu-id="53dd4-214">Command line: This approach removes Teams, yet prevents re-installation of Teams.</span></span>  
+    <span data-ttu-id="53dd4-215">运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="53dd4-215">Run the following command:</span></span>
+  
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+      <span data-ttu-id="53dd4-216">这将从 "程序文件（x86）" 文件夹或 "程序文件" 文件夹中卸载团队，具体取决于操作系统环境。</span><span class="sxs-lookup"><span data-stu-id="53dd4-216">This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.</span></span>
 
-    <span data-ttu-id="33ffd-230">这将从程序文件中卸载团队。</span><span class="sxs-lookup"><span data-stu-id="33ffd-230">This uninstalls Teams from Program Files.</span></span>
+## <a name="teams-on-vdi-performance-considerations"></a><span data-ttu-id="53dd4-217">VDI 性能注意事项的团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-217">Teams on VDI performance considerations</span></span>
 
-## <a name="known-issues-and-limitations"></a><span data-ttu-id="33ffd-231">已知问题和限制</span><span class="sxs-lookup"><span data-stu-id="33ffd-231">Known issues and limitations</span></span>
+<span data-ttu-id="53dd4-218">有多种虚拟化设置配置，每个配置都具有不同的优化焦点。</span><span class="sxs-lookup"><span data-stu-id="53dd4-218">There are variety of virtualized setup configurations, each with a different focus for optimization.</span></span> <span data-ttu-id="53dd4-219">例如，用户密度。</span><span class="sxs-lookup"><span data-stu-id="53dd4-219">For example, user density.</span></span> <span data-ttu-id="53dd4-220">规划时，请考虑以下事项，以帮助根据组织的工作负载需求优化设置：</span><span class="sxs-lookup"><span data-stu-id="53dd4-220">When planning, consider the following to help optimize your setup based on the workload needs of your organization:</span></span>
 
-<span data-ttu-id="33ffd-232">以下是 VDI 上团队的已知问题和限制。</span><span class="sxs-lookup"><span data-stu-id="33ffd-232">The following are known issues and limitations for Teams on VDI.</span></span>
+- <span data-ttu-id="53dd4-221">最低要求：某些工作负荷可能需要使用高于最低要求的资源进行设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-221">Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.</span></span> <span data-ttu-id="53dd4-222">例如，使用需要更多计算资源的应用程序的开发人员的工作负荷。</span><span class="sxs-lookup"><span data-stu-id="53dd4-222">For example, workloads for developers who use applications that demand more computing resources.</span></span>
+- <span data-ttu-id="53dd4-223">依赖关系：包括有关基础架构、工作量以及团队桌面应用之外的其他环境注意事项的依赖关系。</span><span class="sxs-lookup"><span data-stu-id="53dd4-223">Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.</span></span>
+- <span data-ttu-id="53dd4-224">VDI 上已禁用的功能：团队禁用适用于 VDI 的 GPU 密集型功能，这有助于提高暂时 CPU 的利用率。</span><span class="sxs-lookup"><span data-stu-id="53dd4-224">Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization.</span></span> <span data-ttu-id="53dd4-225">已禁用以下功能：</span><span class="sxs-lookup"><span data-stu-id="53dd4-225">The following features are disabled:</span></span>
+    - <span data-ttu-id="53dd4-226">团队 CSS 动画</span><span class="sxs-lookup"><span data-stu-id="53dd4-226">Teams CSS animation</span></span>
+    - <span data-ttu-id="53dd4-227">Giphy 自动启动</span><span class="sxs-lookup"><span data-stu-id="53dd4-227">Giphy auto-start</span></span>
 
-- <span data-ttu-id="33ffd-233">**共享会话主机类型部署**：共享会话主机类型部署（例如，共享非永久性 VM 配置）不在作用域内。</span><span class="sxs-lookup"><span data-stu-id="33ffd-233">**Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.</span></span>
-- <span data-ttu-id="33ffd-234">**通话和会议**：</span><span class="sxs-lookup"><span data-stu-id="33ffd-234">**Calling and meetings**:</span></span>
+## <a name="teams-on-vdi-with-calling-and-meetings"></a><span data-ttu-id="53dd4-228">VDI 上的团队与呼叫和会议</span><span class="sxs-lookup"><span data-stu-id="53dd4-228">Teams on VDI with calling and meetings</span></span>
 
-  - <span data-ttu-id="33ffd-235">不会针对 VDI 优化通话和会议方案。</span><span class="sxs-lookup"><span data-stu-id="33ffd-235">Calling and meeting scenarios aren't optimized for VDI.</span></span> <span data-ttu-id="33ffd-236">这些方案的性能将较差。</span><span class="sxs-lookup"><span data-stu-id="33ffd-236">These scenarios will perform poorly.</span></span> <span data-ttu-id="33ffd-237">我们建议使用用户级策略，如在团队部分中[关闭呼叫和会议功能的 "设置策略](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams)" 中所述。</span><span class="sxs-lookup"><span data-stu-id="33ffd-237">We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.</span></span>  
-  - <span data-ttu-id="33ffd-238">应用本文中所述的策略会影响使用呼叫和会议功能的能力，这取决于其他策略可能会影响组织中的其他用户。</span><span class="sxs-lookup"><span data-stu-id="33ffd-238">Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization.</span></span> <span data-ttu-id="33ffd-239">如果你的组织中的用户使用非 VDI 客户端，你可以选择不应用策略。</span><span class="sxs-lookup"><span data-stu-id="33ffd-239">If users in your organization use non-VDI clients, you can choose to not apply the policies.</span></span>  
+<span data-ttu-id="53dd4-229">除了聊天和协作，使用基于 Citrix 的平台提供与呼叫和会议支持的 VDI 团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-229">In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms.</span></span> <span data-ttu-id="53dd4-230">支持的功能基于 WebRTC 媒体堆栈和特定于 Citrix 的实现。</span><span class="sxs-lookup"><span data-stu-id="53dd4-230">Supported features are based on the WebRTC media stack and Citrix-specific implementation.</span></span> <span data-ttu-id="53dd4-231">下图概括介绍了体系结构。</span><span class="sxs-lookup"><span data-stu-id="53dd4-231">The following diagram provides an overview of the architecture.</span></span>
 
-- <span data-ttu-id="33ffd-240">**加入由其他用户创建的呼叫和会议**：虽然这些策略限制用户创建会议，但如果其他用户通过会议拨出，他们仍可以加入会议。</span><span class="sxs-lookup"><span data-stu-id="33ffd-240">**Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting.</span></span> <span data-ttu-id="33ffd-241">在这些会议中，用户共享视频的能力，使用白板和其他功能取决于是否使用 TeamsMeetingPolicy 禁用了这些功能。</span><span class="sxs-lookup"><span data-stu-id="33ffd-241">In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.</span></span>
+![显示 VDI 体系结构上的团队的图表](media/teams-on-vdi-architecture.png)
 
-- <span data-ttu-id="33ffd-242">**缓存的内容**：如果运行团队的虚拟环境不是永久性的（在每个用户会话结束时清除数据），用户可能会注意到由于内容刷新导致性能下降，无论用户是否在之前的会话中访问了相同的内容。</span><span class="sxs-lookup"><span data-stu-id="33ffd-242">**Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.</span></span>
+<span data-ttu-id="53dd4-233">不支持以下呼叫和会议功能：</span><span class="sxs-lookup"><span data-stu-id="53dd4-233">These calling and meeting features are not supported:</span></span>
 
-- <span data-ttu-id="33ffd-243">**客户端更新**：不会通过每计算机 MSI 安装自动更新 VDI 上的团队。</span><span class="sxs-lookup"><span data-stu-id="33ffd-243">**Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation.</span></span> <span data-ttu-id="33ffd-244">你必须按照 "在[VDI 上安装团队](#install-teams-on-vdi)" 部分中的说明，通过安装新 MSI 来更新 VM 映像。</span><span class="sxs-lookup"><span data-stu-id="33ffd-244">You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section.</span></span> <span data-ttu-id="33ffd-245">必须卸载当前版本才能更新到较新版本。</span><span class="sxs-lookup"><span data-stu-id="33ffd-245">You must uninstall the current version to update to a newer version.</span></span>
+- <span data-ttu-id="53dd4-234">增强的紧急服务</span><span class="sxs-lookup"><span data-stu-id="53dd4-234">Enhanced emergency services</span></span>
+- <span data-ttu-id="53dd4-235">团队应用和设备之间的 HID 按钮和 LED 控件</span><span class="sxs-lookup"><span data-stu-id="53dd4-235">HID buttons and LED controls between the Teams app and devices</span></span>
+- <span data-ttu-id="53dd4-236">背景模糊和效果</span><span class="sxs-lookup"><span data-stu-id="53dd4-236">Background blur and effects</span></span>
+- <span data-ttu-id="53dd4-237">广播/实时事件</span><span class="sxs-lookup"><span data-stu-id="53dd4-237">Broadcast/live events</span></span>
+- <span data-ttu-id="53dd4-238">基于位置的路由（LBR）</span><span class="sxs-lookup"><span data-stu-id="53dd4-238">Location-Based Routing (LBR)</span></span>
+- <span data-ttu-id="53dd4-239">呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="53dd4-239">Call park</span></span>
+- <span data-ttu-id="53dd4-240">通话队列</span><span class="sxs-lookup"><span data-stu-id="53dd4-240">Call queue</span></span>
 
-- <span data-ttu-id="33ffd-246">**用户体验**： VDI 环境中的团队用户体验可能与非 VDI 环境不同。</span><span class="sxs-lookup"><span data-stu-id="33ffd-246">**User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment.</span></span> <span data-ttu-id="33ffd-247">这些差异可能是由于环境中的策略设置和/或功能支持而造成的。</span><span class="sxs-lookup"><span data-stu-id="33ffd-247">The differences may be because of policy settings and/or feature support in the environment.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="53dd4-241">如果当前在 VDI 中运行团队没有 AV 优化，并且你使用尚不支持的功能（例如，在应用共享时授予和控制），则必须设置 Citrix 策略以关闭团队重定向。</span><span class="sxs-lookup"><span data-stu-id="53dd4-241">If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set Citrix policies to turn off Teams redirection.</span></span> <span data-ttu-id="53dd4-242">这意味着不会优化团队媒体会话。</span><span class="sxs-lookup"><span data-stu-id="53dd4-242">This means that Teams media sessions won’t be optimized.</span></span> <span data-ttu-id="53dd4-243">有关如何设置策略以关闭团队重定向的步骤，请参阅此[Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-243">For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).</span></span>
 
-<span data-ttu-id="33ffd-248">对于不与 VDI 无关的团队已知问题，请参阅[Microsoft 团队的已知问题](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="33ffd-248">For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).</span></span>
+<span data-ttu-id="53dd4-244">我们正在努力添加目前仅在非 VDI 环境中可用的呼叫和会议功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-244">We're working on adding calling and meeting features that are currently only available in non-VDI environments.</span></span> <span data-ttu-id="53dd4-245">这些功能可能包括对质量、其他屏幕共享方案以及最近添加到团队的高级功能的更多管理控制。</span><span class="sxs-lookup"><span data-stu-id="53dd4-245">These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams.</span></span> <span data-ttu-id="53dd4-246">联系你的团队代表了解有关即将推出的功能的详细信息。</span><span class="sxs-lookup"><span data-stu-id="53dd4-246">Contact your Teams representative to learn more about upcoming features.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="33ffd-249">相关主题</span><span class="sxs-lookup"><span data-stu-id="33ffd-249">Related topics</span></span>
+### <a name="network-requirements"></a><span data-ttu-id="53dd4-247">网络要求</span><span class="sxs-lookup"><span data-stu-id="53dd4-247">Network requirements</span></span>
 
-- [<span data-ttu-id="33ffd-250">使用 MSI 安装 Microsoft 团队</span><span class="sxs-lookup"><span data-stu-id="33ffd-250">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
+<span data-ttu-id="53dd4-248">我们建议你对环境进行评估，以确定任何风险和要求，这些风险和要求会影响你的整体云语音和视频部署。</span><span class="sxs-lookup"><span data-stu-id="53dd4-248">We recommend that you evaluate your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment.</span></span> <span data-ttu-id="53dd4-249">使用[Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)测试您的网络是否已准备好使用团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-249">Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.</span></span>
+
+<span data-ttu-id="53dd4-250">若要了解有关如何为团队准备网络的详细信息，请参阅[为团队准备组织的网络](prepare-network.md)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-250">To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).</span></span>
+
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a><span data-ttu-id="53dd4-251">在 vdi 上从 Skype for Business 迁移到 VDI 上的团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-251">Migrate from Skype for Business on VDI to Teams on VDI</span></span>
+
+<span data-ttu-id="53dd4-252">如果你要从 VDI 的 Skype for Business 迁移到 VDI 上的团队，除了两个应用程序之间的区别之外，还有一些差异。</span><span class="sxs-lookup"><span data-stu-id="53dd4-252">If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented.</span></span> <span data-ttu-id="53dd4-253">Skype for Business VDI 中的团队 VDI 目前不支持的某些功能如下所示：</span><span class="sxs-lookup"><span data-stu-id="53dd4-253">Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:</span></span>
+
+- <span data-ttu-id="53dd4-254">利用限制媒体比特率的策略控制 VDI 呼叫体验</span><span class="sxs-lookup"><span data-stu-id="53dd4-254">Control of VDI calling experiences with policies for limiting media bitrate</span></span>
+- <span data-ttu-id="53dd4-255">用于禁用 VDI 中的某些 AV 功能的每个平台策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-255">Per-platform policy to disable some AV features in VDI</span></span>
+- <span data-ttu-id="53dd4-256">在应用共享时提供和获取控制权</span><span class="sxs-lookup"><span data-stu-id="53dd4-256">Give and take control when app sharing</span></span>
+- <span data-ttu-id="53dd4-257">不带音频聊天的屏幕共享</span><span class="sxs-lookup"><span data-stu-id="53dd4-257">Screen share from chat without audio</span></span>
+- <span data-ttu-id="53dd4-258">同时视频和屏幕共享发送和接收</span><span class="sxs-lookup"><span data-stu-id="53dd4-258">Simultaneous video and screen sharing send and receive</span></span>
+
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a><span data-ttu-id="53dd4-259">Chrome 浏览器上的团队与 VDI 的团队桌面应用</span><span class="sxs-lookup"><span data-stu-id="53dd4-259">Teams on Chrome browser versus Teams desktop app for VDI</span></span>
+
+<span data-ttu-id="53dd4-260">Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队桌面应用的替代项。</span><span class="sxs-lookup"><span data-stu-id="53dd4-260">Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization.</span></span> <span data-ttu-id="53dd4-261">聊天和协作体验按预期工作。</span><span class="sxs-lookup"><span data-stu-id="53dd4-261">The chat and collaboration experience works as expected.</span></span> <span data-ttu-id="53dd4-262">需要媒体时，有一些体验可能无法在 Chrome 浏览器中满足用户的预期。</span><span class="sxs-lookup"><span data-stu-id="53dd4-262">When media is needed, there are some experiences that may not meet user expectations on the Chrome browser.</span></span>
+
+- <span data-ttu-id="53dd4-263">音频和视频流体验可能不是最佳的。</span><span class="sxs-lookup"><span data-stu-id="53dd4-263">The audio and video streaming experience may not be optimal.</span></span> <span data-ttu-id="53dd4-264">用户可能会遇到延迟或降低质量。</span><span class="sxs-lookup"><span data-stu-id="53dd4-264">Users may experiences delays or reduced quality.</span></span>
+- <span data-ttu-id="53dd4-265">"设备设置" 在浏览器设置中不可用。</span><span class="sxs-lookup"><span data-stu-id="53dd4-265">Device settings aren't available in browser settings.</span></span>
+- <span data-ttu-id="53dd4-266">设备管理通过浏览器进行处理，并在浏览器网站设置中需要多个设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-266">Device management is handled through the browser and requires multiple settings in browser site settings.</span></span>
+- <span data-ttu-id="53dd4-267">可能还需要在 Windows 设备管理中设置设备设置。</span><span class="sxs-lookup"><span data-stu-id="53dd4-267">Device settings may also need to be set in Windows device management.</span></span>
+
+## <a name="teams-on-vdi-with-chat-and-collaboration"></a><span data-ttu-id="53dd4-268">具有聊天和协作功能的 VDI 团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-268">Teams on VDI with chat and collaboration</span></span>
+
+<span data-ttu-id="53dd4-269">如果你的组织希望仅使用团队中的聊天和协作功能，你可以设置用户级策略以关闭团队中的呼叫和会议功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-269">If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.</span></span> <span data-ttu-id="53dd4-270">此功能级别不需要 Citrix 虚拟应用和桌面。</span><span class="sxs-lookup"><span data-stu-id="53dd4-270">This feature level doesn't require Citrix Virtual Apps and Desktops.</span></span>
+
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a><span data-ttu-id="53dd4-271">设置用于关闭呼叫和会议功能的策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-271">Set policies to turn off calling and meeting functionality</span></span>
+
+<span data-ttu-id="53dd4-272">你可以使用 Microsoft 团队管理中心或 PowerShell 设置策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-272">You can set policies by using the Microsoft Teams admin center or PowerShell.</span></span> <span data-ttu-id="53dd4-273">需要花费一些时间（几个小时）才能传播策略更改。</span><span class="sxs-lookup"><span data-stu-id="53dd4-273">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="53dd4-274">如果你没有立即看到给定帐户的更改，请在几个小时后重试。</span><span class="sxs-lookup"><span data-stu-id="53dd4-274">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
+
+<span data-ttu-id="53dd4-275">[**通话策略**](teams-calling-policy.md)：团队包括内置的 DisallowCalling 呼叫策略，其中所有的通话功能均处于关闭状态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-275">[**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off.</span></span> <span data-ttu-id="53dd4-276">将 DisallowCalling 策略分配给组织中使用虚拟环境中的团队的所有用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-276">Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment.</span></span>
+
+<span data-ttu-id="53dd4-277">[**会议策略**](meeting-policies-in-teams.md)：团队包括内置的 AllOff 会议策略，其中所有会议功能均处于关闭状态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-277">[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off.</span></span> <span data-ttu-id="53dd4-278">将 AllOff 策略分配给组织中使用虚拟环境中的团队的所有用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-278">Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.</span></span>
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a><span data-ttu-id="53dd4-279">使用 Microsoft 团队管理中心分配策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-279">Assign policies using the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="53dd4-280">要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-280">To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:</span></span>
+
+1. <span data-ttu-id="53dd4-281">在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-281">In the left navigation of the Microsoft Teams admin center, go to **Users**.</span></span>
+2. <span data-ttu-id="53dd4-282">通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-282">Select the user by clicking to the left of the user name, and then click **Edit settings**.</span></span>
+3. <span data-ttu-id="53dd4-283">请执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-283">Do the following:</span></span>
+    1.  <span data-ttu-id="53dd4-284">在 "**呼叫策略**" 下，单击 " **DisallowCalling**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-284">Under **Calling policy**, click **DisallowCalling**.</span></span>
+    2.  <span data-ttu-id="53dd4-285">在 "**会议策略**" 下，单击 " **AllOff**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-285">Under **Meeting policy**, click **AllOff**.</span></span>
+4. <span data-ttu-id="53dd4-286">单击“**应用**”。</span><span class="sxs-lookup"><span data-stu-id="53dd4-286">Click **Apply**.</span></span>
+
+<span data-ttu-id="53dd4-287">若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-287">To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).</span></span>
+
+<span data-ttu-id="53dd4-288">或者，您也可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-288">Or, you can also do the following:</span></span>
+
+1. <span data-ttu-id="53dd4-289">在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-289">In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign.</span></span> <span data-ttu-id="53dd4-290">例如：</span><span class="sxs-lookup"><span data-stu-id="53dd4-290">For example:</span></span>
+    - <span data-ttu-id="53dd4-291">转到 "**语音** > **呼叫策略**"，然后单击 " **DisallowCalling**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-291">Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.</span></span>
+    - <span data-ttu-id="53dd4-292">转到 "**会议** > **会议策略**"，然后单击 " **AllOff**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-292">Go to **Meetings** > **Meeting policies**, and then click **AllOff**.</span></span>
+3. <span data-ttu-id="53dd4-293">选择 "**管理用户**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-293">Select **Manage users**.</span></span>
+4. <span data-ttu-id="53dd4-294">在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-294">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**.</span></span> <span data-ttu-id="53dd4-295">对要添加的每个用户重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="53dd4-295">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="53dd4-296">添加完用户后，单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-296">When you're finished adding users, click **Save**.</span></span>
+
+#### <a name="assign-policies-using-powershell"></a><span data-ttu-id="53dd4-297">使用 PowerShell 分配策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-297">Assign policies using PowerShell</span></span>
+
+<span data-ttu-id="53dd4-298">以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 DisallowCalling 调用策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-298">The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.</span></span>
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
+<span data-ttu-id="53dd4-299">若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-299">To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+
+<span data-ttu-id="53dd4-300">以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOff 会议策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-300">The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.</span></span>
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
+
+<span data-ttu-id="53dd4-301">若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-301">To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a><span data-ttu-id="53dd4-302">通过通话和会议将团队与聊天和协作迁移到 Citrix</span><span class="sxs-lookup"><span data-stu-id="53dd4-302">Migrate Teams on VDI with chat and collaboration to Citrix with calling and meetings</span></span>
+
+<span data-ttu-id="53dd4-303">如果您在 VDI 上有一个现有团队的实现，其中你已设置了用户级策略以关闭呼叫和会议功能，并且你要使用 AV 优化功能迁移到 Citrix，则必须设置策略以启用呼叫和适用于 VDI 用户的团队的会议功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-303">If you have an existing implementation of Teams on VDI with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.</span></span>
+
+### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a><span data-ttu-id="53dd4-304">设置启用呼叫和会议功能的策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-304">Set policies to turn on calling and meeting functionality</span></span>
+
+<span data-ttu-id="53dd4-305">你可以使用 Microsoft 团队管理中心或 PowerShell 为你的用户设置和分配呼叫和会议策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-305">You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.</span></span> <span data-ttu-id="53dd4-306">需要花费一些时间（几个小时）才能传播策略更改。</span><span class="sxs-lookup"><span data-stu-id="53dd4-306">It can take some time (a few hours) for policy changes to propagate.</span></span> <span data-ttu-id="53dd4-307">如果你没有立即看到给定帐户的更改，请过几个小时后重试。</span><span class="sxs-lookup"><span data-stu-id="53dd4-307">If you don’t see changes for a given account immediately, try again after a few hours.</span></span>
+
+<span data-ttu-id="53dd4-308">[**通话策略**](teams-calling-policy.md)：在团队中调用策略控制用户可以使用哪些通话功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-308">[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users.</span></span> <span data-ttu-id="53dd4-309">团队包括内置的 AllowCalling 呼叫策略，其中所有的通话功能均处于打开状态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-309">Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on.</span></span> <span data-ttu-id="53dd4-310">若要打开所有通话功能，请分配 AllowCalling 策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-310">To turn on all calling features, assign the AllowCalling policy.</span></span> <span data-ttu-id="53dd4-311">或者，创建自定义呼叫策略以打开所需的通话功能，并将其分配给用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-311">Or, create a custom calling policy to turn on the calling features that you want and assign it to users.</span></span> 
+
+<span data-ttu-id="53dd4-312">[**会议策略**](meeting-policies-in-teams.md)：团队中的会议策略控制用户可以创建的会议类型，以及由组织中的用户安排的可供会议参与者使用的功能。</span><span class="sxs-lookup"><span data-stu-id="53dd4-312">[**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization.</span></span> <span data-ttu-id="53dd4-313">团队包括内置的 AllOn 会议策略，其中所有会议功能均处于打开状态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-313">Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on.</span></span> <span data-ttu-id="53dd4-314">若要打开所有会议功能，请分配 AllOn 策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-314">To turn on all meeting features, assign the AllOn policy.</span></span> <span data-ttu-id="53dd4-315">或者，创建自定义会议策略以打开所需的会议功能，并向其分配用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-315">Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.</span></span>
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a><span data-ttu-id="53dd4-316">使用 Microsoft 团队管理中心分配策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-316">Assign policies using the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="53dd4-317">要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-317">To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:</span></span>
+
+1. <span data-ttu-id="53dd4-318">在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-318">In the left navigation of the Microsoft Teams admin center, go to **Users**.</span></span>
+2. <span data-ttu-id="53dd4-319">通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-319">Select the user by clicking to the left of the user name, and then click **Edit settings**.</span></span>
+3. <span data-ttu-id="53dd4-320">请执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-320">Do the following:</span></span>
+    1.  <span data-ttu-id="53dd4-321">在 "**呼叫策略**" 下，单击 " **AllowCalling**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-321">Under **Calling policy**, click **AllowCalling**.</span></span>
+    2.  <span data-ttu-id="53dd4-322">在 "**会议策略**" 下，单击 " **AllOn**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-322">Under **Meeting policy**, click **AllOn**.</span></span>
+4. <span data-ttu-id="53dd4-323">单击“**应用**”。</span><span class="sxs-lookup"><span data-stu-id="53dd4-323">Click **Apply**.</span></span>
+
+<span data-ttu-id="53dd4-324">若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-324">To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).</span></span>
+
+<span data-ttu-id="53dd4-325">或者，您也可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="53dd4-325">Or, you can also do the following:</span></span>
+
+1. <span data-ttu-id="53dd4-326">在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-326">In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign.</span></span> <span data-ttu-id="53dd4-327">例如：</span><span class="sxs-lookup"><span data-stu-id="53dd4-327">For example:</span></span>
+    - <span data-ttu-id="53dd4-328">转到 "**语音** > **呼叫策略**"，然后单击 " **AllowCalling**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-328">Go to **Voice** > **Calling policies**, and then click **AllowCalling**.</span></span>
+    - <span data-ttu-id="53dd4-329">转到 "**会议** > **会议策略**"，然后单击 " **AllOn**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-329">Go to **Meetings** > **Meeting policies**, and then click **AllOn**.</span></span>
+3. <span data-ttu-id="53dd4-330">选择 "**管理用户**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-330">Select **Manage users**.</span></span>
+4. <span data-ttu-id="53dd4-331">在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-331">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**.</span></span> <span data-ttu-id="53dd4-332">对要添加的每个用户重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="53dd4-332">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="53dd4-333">添加完用户后，单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="53dd4-333">When you're finished adding users, click **Save**.</span></span>
+
+#### <a name="assign-policies-using-powershell"></a><span data-ttu-id="53dd4-334">使用 PowerShell 分配策略</span><span class="sxs-lookup"><span data-stu-id="53dd4-334">Assign policies using PowerShell</span></span>
+
+<span data-ttu-id="53dd4-335">以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 AllowCalling 调用策略。</span><span class="sxs-lookup"><span data-stu-id="53dd4-335">The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.</span></span>
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+```
+
+<span data-ttu-id="53dd4-336">若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-336">To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+
+<span data-ttu-id="53dd4-337">以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOn 会议策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="53dd4-337">The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to a user.</span></span>
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+```
+
+<span data-ttu-id="53dd4-338">若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-338">To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+
+## <a name="known-issues-and-limitations"></a><span data-ttu-id="53dd4-339">已知问题和限制</span><span class="sxs-lookup"><span data-stu-id="53dd4-339">Known issues and limitations</span></span>
+
+### <a name="client-deployment-installation-and-setup"></a><span data-ttu-id="53dd4-340">客户端部署、安装和设置</span><span class="sxs-lookup"><span data-stu-id="53dd4-340">Client deployment, installation, and setup</span></span>
+
+- <span data-ttu-id="53dd4-341">对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。</span><span class="sxs-lookup"><span data-stu-id="53dd4-341">With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.</span></span> <span data-ttu-id="53dd4-342">你必须按照 "在[VDI 中安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)" 部分中所述，通过安装新 MSI 来更新 VM 映像。</span><span class="sxs-lookup"><span data-stu-id="53dd4-342">You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span> <span data-ttu-id="53dd4-343">必须卸载当前版本才能更新到较新版本。</span><span class="sxs-lookup"><span data-stu-id="53dd4-343">You must uninstall the current version to update to a newer version.</span></span>
+- <span data-ttu-id="53dd4-344">Citrix 目前不支持基于 MacOs 和 Linux 的客户端。</span><span class="sxs-lookup"><span data-stu-id="53dd4-344">MacOs and Linux-based clients are not supported by Citrix at this time.</span></span>
+- <span data-ttu-id="53dd4-345">Citrix 不支持使用终结点上定义的显式 HTTP 代理。</span><span class="sxs-lookup"><span data-stu-id="53dd4-345">Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.</span></span> 
+
+### <a name="calling-and-meetings"></a><span data-ttu-id="53dd4-346">通话和会议</span><span class="sxs-lookup"><span data-stu-id="53dd4-346">Calling and meetings</span></span>
+
+- <span data-ttu-id="53dd4-347">与 Skype for business 的互操作性仅限于音频通话，无视频模态。</span><span class="sxs-lookup"><span data-stu-id="53dd4-347">Interoperability with Skype for Business is limited to audio calls, no video modality.</span></span>
+- <span data-ttu-id="53dd4-348">目前不支持双音频多频率（DTMF）与电话系统交互。</span><span class="sxs-lookup"><span data-stu-id="53dd4-348">Dual Tone Multi Frequency (DTMF) interaction with telephony systems  is currently not supported.</span></span>
+- <span data-ttu-id="53dd4-349">以匿名用户身份加入团队会议并非 AV 优化。</span><span class="sxs-lookup"><span data-stu-id="53dd4-349">Joining Teams meetings as an anonymous user isn't AV-optimized.</span></span> <span data-ttu-id="53dd4-350">用户可以加入会议并具有非优化的体验。</span><span class="sxs-lookup"><span data-stu-id="53dd4-350">The user can join the meeting and have a non-optimized experience.</span></span>
+- <span data-ttu-id="53dd4-351">会议或群组通话仅支持单个传入视频流。</span><span class="sxs-lookup"><span data-stu-id="53dd4-351">Only a single incoming video stream is supported in meetings or group calls.</span></span> <span data-ttu-id="53dd4-352">当多人发送视频时，在任何给定时间仅显示主要演讲者的视频。</span><span class="sxs-lookup"><span data-stu-id="53dd4-352">When multiple people send video, only the dominant speaker's video is shown at any given time.</span></span>  
+- <span data-ttu-id="53dd4-353">传入和传出视频流分辨率仅限于720p 分辨率。</span><span class="sxs-lookup"><span data-stu-id="53dd4-353">Incoming and outgoing video stream resolution is limited to 720p resolution.</span></span> <span data-ttu-id="53dd4-354">这是一个 WebRTC 限制。</span><span class="sxs-lookup"><span data-stu-id="53dd4-354">This is a WebRTC limitation.</span></span>
+- <span data-ttu-id="53dd4-355">仅支持来自传入相机或屏幕共享流的一个视频流。</span><span class="sxs-lookup"><span data-stu-id="53dd4-355">Only one video stream from an incoming camera or screen share stream is supported.</span></span> <span data-ttu-id="53dd4-356">当存在传入屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。</span><span class="sxs-lookup"><span data-stu-id="53dd4-356">When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.</span></span>
+- <span data-ttu-id="53dd4-357">出站屏幕共享：</span><span class="sxs-lookup"><span data-stu-id="53dd4-357">Outgoing screen sharing:</span></span>
+    - <span data-ttu-id="53dd4-358">不支持应用程序共享。</span><span class="sxs-lookup"><span data-stu-id="53dd4-358">Application sharing is not supported.</span></span>
+- <span data-ttu-id="53dd4-359">授予控制权并获得控制权：</span><span class="sxs-lookup"><span data-stu-id="53dd4-359">Give control and take control:</span></span>  
+    - <span data-ttu-id="53dd4-360">在屏幕共享或应用程序共享会话期间不受支持。</span><span class="sxs-lookup"><span data-stu-id="53dd4-360">Not supported during a screen sharing or application sharing session.</span></span>
+    - <span data-ttu-id="53dd4-361">在 PowerPoint 共享会话期间受支持。</span><span class="sxs-lookup"><span data-stu-id="53dd4-361">Supported during a PowerPoint sharing session.</span></span>  
+- <span data-ttu-id="53dd4-362">不支持 CWA 上的高 DPI 缩放。</span><span class="sxs-lookup"><span data-stu-id="53dd4-362">High DPI scaling on CWA is not supported.</span></span>
+
+<span data-ttu-id="53dd4-363">对于不与 VDI 无关的团队已知问题，请参阅[团队的已知问题](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-363">For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).</span></span>
+
+## <a name="troubleshooting"></a><span data-ttu-id="53dd4-364">疑难解答</span><span class="sxs-lookup"><span data-stu-id="53dd4-364">Troubleshooting</span></span>
+
+#### <a name="troubleshoot-citrix-components"></a><span data-ttu-id="53dd4-365">Citrix 组件疑难解答</span><span class="sxs-lookup"><span data-stu-id="53dd4-365">Troubleshoot Citrix components</span></span>
+
+<span data-ttu-id="53dd4-366">有关如何解决 VDA 和 CWA 问题的信息，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。</span><span class="sxs-lookup"><span data-stu-id="53dd4-366">For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="53dd4-367">相关主题</span><span class="sxs-lookup"><span data-stu-id="53dd4-367">Related topics</span></span>
+
+- [<span data-ttu-id="53dd4-368">使用 MSI 安装 Microsoft 团队</span><span class="sxs-lookup"><span data-stu-id="53dd4-368">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
+- [<span data-ttu-id="53dd4-369">Teams PowerShell 概览</span><span class="sxs-lookup"><span data-stu-id="53dd4-369">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
