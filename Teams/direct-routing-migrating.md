@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572175"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871708"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
@@ -94,6 +94,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> 如果配置了全局 CsVoiceRoutingPolicy，建议你删除与此全局策略关联的任何 PSTN 用法。 
+
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>通过云连接器版本使用本地 PSTN 连接从 Office 365 电话系统迁移
  
 

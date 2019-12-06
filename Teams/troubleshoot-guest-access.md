@@ -15,18 +15,18 @@ description: 获取有关解决和解决 Microsoft 团队中的来宾访问问�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311257"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871728"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>解决 Microsoft 团队中的来宾访问问题
 ======================================================
 
 > [!IMPORTANT]
-> [!注释] 你可能必须等待长达 24 小时，更改才会生效。 
+> 您可能需要等待24小时才能使更改生效。 
 
 
 - 若要使用团队中的来宾访问权限检查当前支持问题，请转到[团队疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)。
