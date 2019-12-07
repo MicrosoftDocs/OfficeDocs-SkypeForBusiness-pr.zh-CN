@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842464"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890576"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -99,7 +99,7 @@ Microsoft 已确定从 ExchUMO 消耗各种功能的各种客户部署，并将�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自动助理迁移指南
 
-Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并在2020年2月1日之前切换他们的本地电话号码，这是 Exchange UMO 服务将退役. 这是成功迁移和测试新云自动助理的推荐指南。 如果你有大量的自动助理，则可以将[EXCHANGE UM 自动助理用于云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
+Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并在2020（）之前切换他们的本地电话号码，这是 Exchange UMO 服务将退役. 这是成功迁移和测试新云自动助理的推荐指南。 如果你有大量的自动助理，则可以将[EXCHANGE UM 自动助理用于云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
 
 ### <a name="setup"></a>设置
 

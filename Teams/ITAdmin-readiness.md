@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563876"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886179"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -91,6 +90,7 @@ ms.locfileid: "37563876"
 
 | 模块 | 视频 | PowerPoint 幻灯片 |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft 结构-IT YouTube 频道的团队基础](https://aka.ms/MicrosoftTeamsforIT) | [视频：团队重点适用于 IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) （10:13 分钟）<br>[视频：部署 & 配置团队-简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分钟）  ||
 | 基础-核心组件 | [视频](https://aka.ms/teams-foundations) | [幻灯片](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面客户端 | [视频](https://aka.ms/teams-clients) | [幻灯片](https://aka.ms/teams-clients-deck) |
 | 管理、管理和生命周期 | [视频](https://aka.ms/teams-governance) | [幻灯片](https://aka.ms/teams-governance-deck) |

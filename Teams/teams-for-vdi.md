@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837576"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890597"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -51,6 +51,14 @@ ms.locfileid: "39837576"
 团队桌面应用已通过主流虚拟化解决方案提供商进行验证。 有了多个市场提供商，我们建议你咨询你的虚拟化解决方案提供商以确保满足最低要求。
   
 目前，带有音频/视频（AV）优化的团队在通过 Citrix 认证。 查看本部分中的信息，确保同时满足 Citrix 和团队要求才能获得正确的功能。
+
+### <a name="partners-certified-for-teams"></a>合作伙伴认证的团队
+
+以下合作伙伴拥有团队的虚拟桌面基础结构解决方案。
+
+|配偶|合作伙伴解决方案|
+|----|---|
+|![表示 Citrix 的徽标](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虚拟应用和桌面</a> |
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 虚拟应用和桌面要求
 
@@ -120,8 +128,8 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包。
 
-    - [32位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32位版本](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64位版本](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     所需的团队桌面应用的最低版本是1.2.00.31357 版本。
 
