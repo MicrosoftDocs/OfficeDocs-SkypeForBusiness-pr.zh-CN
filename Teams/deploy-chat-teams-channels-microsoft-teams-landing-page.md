@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290952"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886241"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -31,7 +31,9 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019 年 11 月的新增功能*：你现在可以[使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）为你提供 Teams 推出的分步指导。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。
+*2019年11月新增功能*
+ - 现在可[使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）为你提供 Teams 推出的分步指导。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。
+ - [Microsoft YouTube 频道 IT 团队基础知识](https://aka.ms/MicrosoftTeamsforIT)，包括简短（8-10 分钟）的视频，显示如何推出、配置和管理团队。
 
 > [!TIP]
 > 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
