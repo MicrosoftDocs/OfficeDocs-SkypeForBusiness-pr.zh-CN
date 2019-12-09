@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679302"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871688"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679302"
 Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。 
 
 > [!IMPORTANT]
-> Microsoft Teams 商业云试用版已更新，现有额外的服务计划针对增加的 Teams 功能，并且现由你组织的账单管理员拥有和控制。这使得试用版更易管理并与所有其他 Microsoft 365 产品/服务相一致。 
+> 从 2020 年 1 月开始，Microsoft Teams Exploratory 将取代 Microsoft Teams 商业云试用版。 要了解此新产品/服务，请参阅[管理 Teams Exploratory 许可证](teams-exploratory.md)。
 
 ## <a name="whats-in-the-offer"></a>此优惠的内容
 
