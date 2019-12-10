@@ -3,81 +3,6 @@
 
 
 
-## <a name="week-of-october-28-2019"></a>2019年10月28日的周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 10/28/2019 | [为 Microsoft Teams 采用定义结果和成功](/MicrosoftTeams/teams-adoption-define-outcomes) | 修改内容 |
-| 10/28/2019 | [升级清单\| 从 Skype Business 升级到 Teams \| 基本步骤](/MicrosoftTeams/upgrade-basic) | 修改内容 |
-| 10/28/2019 | [在 Microsoft Teams 中授权来宾访问](/MicrosoftTeams/teams-dependencies) | 修改内容 |
-| 10/28/2019 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改内容 |
-| 10/28/2019 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改内容 |
-| 10/28/2019 | [编辑来宾用户信息](/MicrosoftTeams/edit-guests-information) | 修改内容 |
-| 10/28/2019 | [使用 PowerShell 控制来宾对团队的访问](/MicrosoftTeams/guest-access-powershell) | 修改内容 |
-| 10/28/2019 | [Microsoft Teams 来宾访问清单](/MicrosoftTeams/guest-access-checklist) | 修改内容 |
-| 10/28/2019 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 10/28/2019 | [来宾体验介绍](/MicrosoftTeams/guest-experience) | 修改内容 |
-| 10/28/2019 | [来宾加入团队的方式](/MicrosoftTeams/guest-joins) | 修改内容 |
-| 10/28/2019 | [在 Microsoft Teams 中管理外部访问权限（联合身份验证）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 10/28/2019 | [在 Microsoft Teams 中管理来宾访问](/MicrosoftTeams/manage-guests) | 修改内容 |
-| 10/28/2019 | [打开或关闭对 Microsoft 团队的来宾访问](/MicrosoftTeams/set-up-guests) | 修改内容 |
-| 10/28/2019 | [在团队中查看来宾用户](/MicrosoftTeams/view-guests) | 修改内容 |
-| 10/29/2019 | [Microsoft Teams \| 评估环境 \| 采用、发现](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 修改内容 |
-| 10/29/2019 | [快速入门 - Microsoft Teams 教育版管理员](/MicrosoftTeams/teams-quick-start-edu) | 修改内容 |
-| 10/29/2019 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 10/29/2019 | [硬件解码器和编码器驱动程序建议](/MicrosoftTeams/hardware-decoders-and-encoders) | 修改内容 |
-| 10/29/2019 | [Microsoft Teams 应用的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
-| 10/29/2019 | [Microsoft 团队中的信息障碍](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 10/29/2019 | [使用 Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-activity-reports) | 修改内容 |
-| 10/29/2019 | [Microsoft Teams 设备使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 修改内容 |
-| 10/29/2019 | [使用 Microsoft Teams 范围目录搜索](/MicrosoftTeams/teams-scoped-directory-search) | 修改内容 |
-| 10/29/2019 | [Microsoft 团队升级\|环境评估，发现问题](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 修改内容 |
-| 10/29/2019 | [安装 StaffHub PowerShell 模块](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 修改内容 |
-| 10/29/2019 | [将 StaffHub 团队迁移到 Microsoft Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
-| 10/30/2019 | [适用于团队管理员的患者应用](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 修改内容 |
-| 10/30/2019 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 10/30/2019 | [以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
-| 10/30/2019 | [Microsoft 团队中的信息障碍](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 10/30/2019 | [管理 Microsoft 团队中的策略程序包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
-| 10/30/2019 | [从 Skype for Business 内部部署升级到团队-Microsoft 团队](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 修改内容 |
-| 10/30/2019 | [适用于医疗保健组织的 Teams 模板入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 修改内容 |
-| 10/31/2019 | [什么是紧急位置、地点和呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
-| 10/31/2019 | [管理 Microsoft 团队中的策略程序包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
-| 10/31/2019 | [在 Teams 中规划管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 修改内容 |
-| 10/31/2019 | [在 Teams 中规划生命周期管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | 修改时间 |
-| 10/31/2019 | [Microsoft Teams 管理快速入门](/MicrosoftTeams/teams-adoption-governance-quick-start) | 修改内容 |
-| 11/1/2019 | [评估 Microsoft Teams 云语音和工作负载的环境](/MicrosoftTeams/3-envision-evaluate-my-environment) | 修改内容 |
-| 11/1/2019 | [了解 Microsoft Teams 中的通话功能](/MicrosoftTeams/tutorial-calling-in-teams) | 修改内容 |
-| 11/1/2019 | [Office 365 中的音频会议](/MicrosoftTeams/audio-conferencing-in-office-365) | 修改内容 |
-| 11/1/2019 | [Microsoft Teams 中的通话套餐](/MicrosoftTeams/calling-plan-landing-page) | 修改内容 |
-| 11/1/2019 | [Cloud voice in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 修改内容 |
-| 11/1/2019 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 11/1/2019 | [Microsoft Teams 中的音频会议](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 修改内容 |
-| 11/1/2019 | [为用户获取电话号码](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 修改内容 |
-| 11/1/2019 | [在 Microsoft Teams 中管理外部访问权限（联合身份验证）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 11/1/2019 | [加拿大的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修改内容 |
-| 11/1/2019 | [美国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修改时间 |
-| 11/1/2019 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
-| 11/1/2019 | [在 Microsoft 团队中管理白板](/MicrosoftTeams/manage-whiteboard) | 修改内容 |
-| 11/1/2019 | [用于在 Microsoft Teams 中配置云语音工作负载的上线清单](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 修改内容 |
-| 11/1/2019 | [有关移植的详细信息](/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting) | 修改内容 |
-| 11/1/2019 | [设置 Microsoft Teams 的音频会议](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 修改内容 |
-| 11/1/2019 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改内容 |
-| 11/1/2019 | [为 Microsoft Teams 设置公共区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改内容 |
-| 11/1/2019 | [设置组织内的电话系统](/MicrosoftTeams/setting-up-your-phone-system) | 修改内容 |
-| 11/1/2019 | 将电话号码转接到 Office 365 | 删除内容 |
-| 11/1/2019 | 转接电话号码常见问题 | 删除内容 |
-| 11/1/2019 | [将本地 Skype for business 升级到 Microsoft 团队\|部署 Lync \|](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | 修改内容 |
-| 11/1/2019 | [什么是紧急位置、地点和呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
-| 11/1/2019 | [什么是云自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修改日期 |
-| 11/1/2019 | Teams 中我的转网订单的状态是什么？ | 删除内容 |
-| 11/1/2019 | [Microsoft Teams 中的身份模型和身份验证](/MicrosoftTeams/identify-models-authentication) | 修改内容 |
-| 11/1/2019 | [Microsoft 团队中的信息障碍](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 11/1/2019 | [在 Microsoft Teams 中共享文件](/MicrosoftTeams/sharing-files-in-teams) | 修改内容 |
-| 11/1/2019 | [从 Skype for Business 升级到 Microsoft Teams\| 模式，共存](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 修改内容 |
-
-
 ## <a name="week-of-november-04-2019"></a>2019年11月4日
 
 
@@ -97,7 +22,7 @@
 | 11/4/2019 | [Microsoft 团队中的信息障碍](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
 | 11/4/2019 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改内容 |
 | 11/4/2019 | [在 Teams 中管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改内容 |
-| 11/4/2019 | [Microsoft Teams 保留策略常见问题解答](/MicrosoftTeams/retention-policies-faq) | 修改内容 |
+| 11/4/2019 | [Microsoft Teams 保留策略常见问题解答](/MicrosoftTeams/retention-policies-faq) | 修改日期 |
 | 11/4/2019 | [Microsoft Teams 中保留策略的已知问题](/MicrosoftTeams/retention-policies-known-issues) | 修改内容 |
 | 11/4/2019 | [Microsoft Teams 中的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
 | 11/4/2019 | [Microsoft Teams 中的安全性和合规性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
@@ -136,7 +61,7 @@
 | 11/11/2019 | [在 Microsoft Teams 中执行对内容的电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
 | 11/11/2019 | [将 StaffHub 团队迁移到 Microsoft Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
 | 11/11/2019 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 11/11/2019 | [Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 修改内容 |
+| 11/11/2019 | [Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 修改日期 |
 | 11/12/2019 | [欢迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 修改内容 |
 | 11/12/2019 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改内容 |
 | 11/12/2019 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
@@ -147,8 +72,8 @@
 | 11/12/2019 | [Microsoft 团队会议室需求](/MicrosoftTeams/room-systems/requirements) | 修改内容 |
 | 11/13/2019 | [Microsoft 团队中的应用程序控制策略 AppLocker](/MicrosoftTeams/applocker-in-teams) | 修改内容 |
 | 11/13/2019 | [音频会议订阅“拨出”/“给我打电话”的好处](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 修改内容 |
-| 11/13/2019 | [免费拨出时段](/MicrosoftTeams/complimentary-dial-out-period) | 修改内容 |
-| 11/13/2019 | [设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改日期 |
+| 11/13/2019 | [免费拨出时段](/MicrosoftTeams/complimentary-dial-out-period) | 修改时间 |
+| 11/13/2019 | [设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
 | 11/13/2019 | [解决 Microsoft 团队中的来宾访问问题](/MicrosoftTeams/troubleshoot-guest-access) | 修改内容 |
 | 11/14/2019 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改内容 |
 | 11/14/2019 | [在 Microsoft Teams 管理中心中管理团队](/MicrosoftTeams/manage-teams-in-modern-portal) | 修改内容 |
@@ -194,7 +119,7 @@
 | 11/19/2019 | [在 Microsoft 团队中管理专用频道的生命周期](/MicrosoftTeams/private-channels-life-cycle-management) | 修改内容 |
 | 11/19/2019 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 修改内容 |
 | 11/19/2019 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改日期 |
-| 11/19/2019 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改时间 |
+| 11/19/2019 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
 | 11/19/2019 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
 | 11/20/2019 | [与 Microsoft Teams 中其他组织的用户通信](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
 | 11/20/2019 | [为你的组织管理 Microsoft Teams 设置](/MicrosoftTeams/enable-features-office-365) | 修改内容 |
@@ -210,7 +135,7 @@
 | 11/21/2019 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
 | 11/21/2019 | [在 Microsoft 团队租户应用目录中发布应用](/MicrosoftTeams/tenant-apps-catalog-teams) | 修改内容 |
 | 11/22/2019 | [欢迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 修改内容 |
-| 11/22/2019 | [在 Microsoft Teams 中使用内置选项卡和自定义选项卡](/MicrosoftTeams/built-in-custom-tabs) | 修改时间 |
+| 11/22/2019 | [在 Microsoft Teams 中使用内置选项卡和自定义选项卡](/MicrosoftTeams/built-in-custom-tabs) | 修改内容 |
 | 11/22/2019 | [Microsoft Teams 中的呼叫寄存和取回](/MicrosoftTeams/call-park-and-retrieve) | 修改内容 |
 | 11/22/2019 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
 | 11/22/2019 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
@@ -226,7 +151,7 @@
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
 | 11/25/2019 | [使用直接路由规划媒体旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 修改内容 |
-| 11/25/2019 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改日期 |
+| 11/25/2019 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改时间 |
 | 11/25/2019 | [Microsoft 团队 PSTN 使用报告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 修改内容 |
 | 11/26/2019 | [打开 Office 365 组织中的 Microsoft Teams](/MicrosoftTeams/office-365-set-up) | 修改内容 |
 | 11/26/2019 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
@@ -239,3 +164,35 @@
 | 11/26/2019 | [计划紧急呼叫、紧急地址、紧急呼叫路由、动态紧急呼叫](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
 | 11/26/2019 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
 | 11/27/2019 | [在日本的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 修改内容 |
+
+
+## <a name="week-of-december-02-2019"></a>2019年12月2日的第一周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 12/2/2019 | [与 Microsoft Teams 中其他组织的用户通信](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
+| 12/2/2019 | [配置 Microsoft 团队聊天室控制台](/MicrosoftTeams/room-systems/console) | 修改内容 |
+| 12/2/2019 | [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](/MicrosoftTeams/room-systems/content-camera) | 修改内容 |
+| 12/2/2019 | [将 Lync 会议室系统设备迁移到 Microsoft 团队聊天室](/MicrosoftTeams/room-systems/lrs-migration) | 修改内容 |
+| 12/2/2019 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 12/3/2019 | [Microsoft Teams 来宾访问清单](/MicrosoftTeams/guest-access-checklist) | 修改内容 |
+| 12/3/2019 | [管理 Microsoft Teams Commercial Cloud Trial 产品](/MicrosoftTeams/iw-trial-teams) | 修改时间 |
+| 12/3/2019 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 12/3/2019 | [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 修改内容 |
+| 12/3/2019 | [在 Microsoft Teams 中管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
+| 12/4/2019 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 12/4/2019 | [直接路由国家代码](/MicrosoftTeams/direct-routing-country-codes) | 修改内容 |
+| 12/4/2019 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 12/4/2019 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
+| 12/4/2019 | [Microsoft 团队会议室维护和操作](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 修改内容 |
+| 12/5/2019 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
+| 12/5/2019 | [迁移到直接路由](/MicrosoftTeams/direct-routing-migrating) | 修改内容 |
+| 12/5/2019 | [管理 Microsoft Teams Commercial Cloud Trial 产品](/MicrosoftTeams/iw-trial-teams) | 修改时间 |
+| 12/5/2019 | [解决 Microsoft 团队中的来宾访问问题](/MicrosoftTeams/troubleshoot-guest-access) | 修改内容 |
+| 12/6/2019 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
+| 12/6/2019 | [欢迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 修改内容 |
+| 12/6/2019 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改日期 |
+| 12/6/2019 | [Microsoft Teams 培训](/MicrosoftTeams/training-microsoft-teams-landing-page) | 修改内容 |
+| 12/6/2019 | [Microsoft 团队会议室需求](/MicrosoftTeams/room-systems/requirements) | 修改内容 |
+| 12/6/2019 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
