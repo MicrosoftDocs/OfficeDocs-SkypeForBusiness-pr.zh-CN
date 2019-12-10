@@ -10,24 +10,25 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f51d443444c439d2d2e453805542282d8f55b7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c808c8a44a649a37f6d13d31538dd08797d56b24
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240943"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909448"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
 应用使你能通过收藏夹服务查找内容，并就在 Teams 中分享内容。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
+
+此外，还提供用于创建自定义应用程序的选项。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/overview)”。
 
 ## <a name="apps-deployment-decisions"></a>应用部署决策
 

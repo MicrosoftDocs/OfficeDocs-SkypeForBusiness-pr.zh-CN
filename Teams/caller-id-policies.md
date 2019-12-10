@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的呼叫者 ID 策略更改或阻止组织中的团队用户的来电显示 ID。
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517006"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919366"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的呼叫者 ID 策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "37517006"
 4. 在此处，选择所需的设置：
 
     - **阻止来电呼叫者 id**：启用此设置可阻止显示传入呼叫的来电显示。
-    - **用户可以替代呼叫方 ID 策略**：启用此设置可让用户替代策略中的设置。 这意味着用户可以选择是显示呼叫者 ID 还是阻止来电呼叫程序。
+    - **用户可以替代呼叫方 ID 策略**：启用此设置可让用户替代策略中的设置，将其号码显示为 callees。 这意味着用户可以选择是否要显示其呼叫者 ID。
     - **替换呼叫者 id**：通过选择下列操作之一，设置要为用户显示的来电显示：
 
         - **用户号码**：显示用户的号码。 

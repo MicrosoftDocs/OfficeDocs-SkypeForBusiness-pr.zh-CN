@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 连接器通过将你常用的服务中的内容和更新传输到频道，使你的团队持续获得最新信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563852"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909328"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
 =======================================================
@@ -52,24 +52,6 @@ Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，�
     ![Teams 界面屏幕截图，显示一个频道中的一个对话。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>开发自定义连接器
------------------------------
+----------------------------
 
-开发可与业务线（LOB）应用程序集成的自定义连接线非常简单。 你可以使用内置的**传入 Webhook**连接器为通道创建终结点，该终结点从使用 HTTP post 方法的任何应用程序提取数据。
-
-1. 像任何其他连接器一样添加**传入 Webhook**。
-
-    ![用于添加传入 Webhook 连接器的选项屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
-
-2. 要创建 Webhook，请指定**名称**、更新 Webhook 图片（如果需要），然后单击 **“创建”**。
-
-    ![传入 Webhook 连接器的配置页面的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
-
-3. 将数据推送到此通道的应用程序需要 Webhook 连接器 URL。 创建 Webhook 时会创建唯一的 URL。 与你的开发人员共享此 URL，以便他们可以根据需要将其应用程序配置为推送数据。
-
-    ![Webhook 的唯一 URL 屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
-
-4. 外部应用向连接器推送数据时，将在频道对话列表中显示消息，这是名为**连接器卡**消息的特殊消息。
-
-    ![Teams 界面屏幕截图，显示一条连接器卡消息。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
-
-     开发人员可以通过将具有简单 JSON 负载的 HTTP 请求发送到团队的 Webhook 地址（该终结点是由向导提供的唯一 URL），将其应用程序配置为创建这些卡。 让你的开发人员参考 microsoft 开发人员网络上[Office 365 连接器的](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors)入门，其中详细说明和连接器示例。 其他资源包括[在 Outlook 中将应用连接到你的组](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)和 [Office 开发人员中心 - Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784)。
+您还可以构建自定义连接器以及传入和传出 webhooks。 有关详细信息，请参阅我们的[开发人员文档](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。

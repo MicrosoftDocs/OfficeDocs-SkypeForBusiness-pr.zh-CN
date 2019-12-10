@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：在你的环境中准备和实现禁用 TLS 1.0 和1.1。
-ms.openlocfilehash: ce158aeaa84e00367b265404fe3d3407606f4759
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077435"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919306"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中禁用 TLS 1.0/1。1
 
@@ -140,11 +140,11 @@ PIC （公共 IM 连接）到 Skype 消费者服务：我们不希望禁用 TLS 
 - Skype for Business Server 2015 CU9 6.0.9319.548 （五月2019）或更高版本
 - [.Net Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167)或更高版本在注册表中启用了 SchUseStrongCrypto （如下所示）
 - 必须在所有 Skype for Business 2015 服务器和 backends 上更新 SQL。 首先更新企业版池 SQL Backends，然后再更新其各自的 FEs。 
-    - SQL Server 2014 SP1 + CU5 （[link](https://support.microsoft.com/help/3130926)）或更高版本/sql SERVER 2012 SP2 + CU16 或更高版本/sql SERVER 2014 RTM + CU12 （[link](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)）或更高版本/sql server 2014 SP2
-     - SQL server 的 SQL Server Native 客户端2012（[链接](https://www.microsoft.com/download/details.aspx?id=50402)）
-     - Microsoft ODBC Driver 11 for SQL Server （[链接](https://www.microsoft.com/download/details.aspx?id=36434)）或更高版本
-     - SQL Server 2014 SP2 的共享管理对象（[链接](https://www.microsoft.com/download/details.aspx?id=42295)）
-     - SQL server 2014 SP2 的 SQLSysClrTypes （[链接](https://www.microsoft.com/download/details.aspx?id=42295)）
+    - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)或更高版本/sql SERVER 2012 SP2 + CU16 或更高版本/ [SQL server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)或更高版本/sql server 2014 SP2
+     - [SQL server 的 SQL Server Native Client 2012](https://www.microsoft.com/download/details.aspx?id=50402)
+     - [MICROSOFT ODBC Driver 11 FOR SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)或更高版本
+     - [SQL Server 2014 SP2 的共享管理对象](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [SQL server 2014 SP2 的 SQLSysClrTypes](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>安装先决条件的基本步骤，以推荐的操作顺序
 
