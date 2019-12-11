@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78e5a420bdadf7417388aef48679b28e438aeec4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563884"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919154"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -37,7 +37,7 @@ ms.locfileid: "37563884"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/zh-CN/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[自定义漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/zh-CN/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[启用漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ ms.locfileid: "37563884"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/zh-CN/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
+|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -173,6 +173,44 @@ ms.locfileid: "37563884"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |对于来宾创建的频道未创建 Wiki  <br/> |来宾创建新频道时，未创建“**Wiki**”选项卡。无法手动将“**Wiki**”选项卡附加到频道。 <br/> |无解决方法。  <br/> |9/20/17  <br/>|
+
+## <a name="linux"></a>Linux
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|Linux 上的 AutoStart 无法正常运行。 <br/> |Linux 上的 AutoStart 不能启动 Teams 应用程序。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|自睡眠/挂起恢复时白屏。 <br/> |计算机从睡眠或挂起模式中恢复/唤醒时，网络可能会发生更改（尤其是计算机进入睡眠/挂起前连接到 VPN时），而且需要一些时间来让计算机重新获得连接。 这些情况的组合可能导致 Teams出现白屏。 <br/> |重新启动 Teams 客户端将会解决问题。  <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|共享屏幕时光标消失。 <br/> |共享屏幕时，对方不能看到共享方的光标。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|与 VMWare 工作站并行运行时出错。 <br/> |与 VMWare 工作站并行运行时， Teams 应用程序会遇到问题。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|KDE 通知新建任务栏。<br/> |KDE 的通知在任务栏中创建新窗口。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|程序包管理器未显示更改列表。 <br/> |程序包管理器不显示更改列表。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法在脱机模式下启动 Teams 客户端。 <br/> |无法在 Linux 客户端中脱机启动 Teams。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|会议中设置设备。 <br/> |开会和更改设置时，麦克风指示器不会注册选定的内容。 <br/> | <br/> |2019/12/5  <br/>|
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|无法使用键盘关闭 Teams 应用程序。 <br/> |无法使用默认 `$mod + shift + q` 或单击应用程序中的 "关闭" 按钮来关闭 Teams 应用程序。 <br/> | <br/> |2019/12/5  <br/>|
 
 ## <a name="meetings"></a>会议
 
