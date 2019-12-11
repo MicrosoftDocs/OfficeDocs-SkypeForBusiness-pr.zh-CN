@@ -42,7 +42,6 @@
 ### [概述](deploy-apps-microsoft-teams-landing-page.md)
 ### [应用权限和注意事项](app-permissions.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
-### [在 Teams 中添加私人聊天、群聊和频道机器人](add-bots.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
 ### [管理业务线应用](manage-your-lob-apps.md)
@@ -866,6 +865,7 @@
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
 ### [Teams 客户端更新](teams-client-update.md)
+### [解决安装和更新问题](troubleshoot-installation.md)
 
 ## 许可
 ### [管理对 Teams 的用户访问](user-access.md)
