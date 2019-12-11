@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890597"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966775"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -131,7 +131,7 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
     - [32位版本](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [64位版本](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    所需的团队桌面应用的最低版本是1.2.00.31357 版本。
+    所需的团队桌面应用的最低版本是1.2.00.31357 版本。 （在早期版本中不支持 PSTN 保留）
 
 2. 通过运行以下命令之一将 MSI 安装到 VDI VM：
 

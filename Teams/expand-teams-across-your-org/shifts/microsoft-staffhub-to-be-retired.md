@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568704"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961597"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
@@ -28,7 +28,7 @@ ms.locfileid: "37568704"
 
 这些更改是我们继续努力的一部分，可通过 Microsoft 365 为每位员工提供支持。 通过在团队中使用一线工作人员的功能，组织中的每个员工都可以使用团队来简化其 workday、与同事协作以及访问信息和专业知识，以帮助他们完成最佳工作。
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
 ### <a name="about-staffhub-retirement"></a>关于 StaffHub 退休
 
@@ -64,14 +64,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="which-plans-is-shifts-available-in"></a>哪些计划在哪些计划中可用？
 
-倒班在以下计划中作为团队的一部分提供，无需任何额外费用：
-
-- Help and training 
-- Office 365 企业 F1、E1、E3、E5
-- Office 365 教育版
-- Microsoft 365 F1、E1、E3、E5
-
-有关详细信息，请参阅[倒班的可用性](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts)。
+倒班在所有企业版 Sku 可用，其中有团队可用。
 
 #### <a name="how-do-i-get-shifts"></a>如何获得班次？ 
 

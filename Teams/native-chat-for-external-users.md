@@ -12,17 +12,15 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解 Microsoft 团队中的外部访问（联合）用户的本机团队聊天体验，在两个用户均处于 TeamsOnly 升级模式的外部用户之间可用。
-ms.openlocfilehash: a7a66693bbff98aa707c369a9da08d0ccfe48f69
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754338"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966755"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 团队外部（联合）用户的本机聊天体验
 ======================================
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 当 Microsoft 团队用户与外部（联合）用户聊天时，聊天体验仅限于文本。 但是，如果你的团队租户和外部用户的 TeamsOnly 升级模式，你可以拥有 "本机团队聊天体验"，其中包括丰富的格式、@mentions 和其他聊天功能。 换句话说，你可以与符合条件的外部用户进行相同的丰富的1:1 团队聊天体验，就像在你的组织中的用户一样。 与外部用户的本机团队聊天仅限于1:1 聊天（外部用户无法进行群组聊天）。
 

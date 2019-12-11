@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568715"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961607"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -37,9 +37,7 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ## <a name="availability-of-shifts"></a>倒班的可用性
 
-倒班在所有包含团队的 Office 365 订阅中均可用，有几个例外。 例外情况是美国政府云社区（GCC）和团队免费。 班次在 Office 365 中不可用。美国政府或团队免费服务。
-
-若要了解有关团队授权的详细信息，包括包含团队的 Office 365 订阅的列表，请参阅[团队的 office 365 许可](../../Office-365-licensing.md)。
+倒班在所有企业版 Sku 可用，其中有团队可用。
 
 ## <a name="location-of-shifts-data"></a>倒班数据的位置
 
