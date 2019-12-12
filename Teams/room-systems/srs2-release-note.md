@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
+ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676110"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39987855"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -27,6 +27,7 @@ ms.locfileid: "38676110"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.3.21.0 |12/09/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -56,6 +57,16 @@ ms.locfileid: "38676110"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+
+### <a name="43210-12092019"></a>4.3.21.0 （12/09/2019）
+
+此更新中引入的内容：
+
+- 自动应答邻近呼叫和管理设置以控制此
+- 通过在 "关于" 选项卡下添加设备配置来刷新设备管理员设置 UI
+- 将聊天室控件移回到主屏幕
+- 在 GCC 中可用的会议室 SKU
+- 对基于 Surface Pro 的系统的内容照相机支持 
 
 ### <a name="4240-10072019"></a>4.2.4.0 （10/07/2019）
 

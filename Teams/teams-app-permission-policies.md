@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
+ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664967"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39984532"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -130,7 +130,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 将组中的所有用户分配到特定应用权限策略。 在此示例中，它是 HR 应用权限策略。
 ```
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 
