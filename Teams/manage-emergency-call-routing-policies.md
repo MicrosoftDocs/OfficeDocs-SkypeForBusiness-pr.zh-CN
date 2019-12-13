@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理紧急呼叫路由策略。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
-ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
+ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/12/2019
-ms.locfileid: "39986953"
+ms.locfileid: "39998800"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "39986953"
 5. 定义一个更紧急的号码。 若要执行此操作，请在 "**紧急电话号码**" 下执行下列操作：
     1. **紧急拨号字符串**：输入 "紧急拨号" 字符串。 此拨号字符串表示呼叫是紧急呼叫。
         > [!NOTE]
-        > 对于直接路由，我们将通过 "+" 在 "紧急拨号" 字符串前面的 "+" 发送紧急呼叫的团队客户进行转移。 在转换完成之前，与紧急拨号字符串匹配的语音路线模式应确保对具有前面没有 "+" （如911和 + 911）的字符串进行匹配。 例如，^\+？911或. *。
+        > 对于直接路由，我们将通过 "+" 在 "紧急拨号" 字符串前面的 "+" 发送紧急呼叫的团队客户进行转移。 在转换完成之前，与紧急拨号字符串匹配的语音路线模式应确保对具有前面没有 "+" （如911和 + 911）的字符串进行匹配。 例如，^\\+？911或. *。
     2. **紧急拨号掩码**：对于每个紧急电话号码，您可以指定零个或多个紧急拨号掩码。 拨号掩码是要转换为 "紧急拨号字符串" 值的数字。 这允许拨打备用紧急号码，并且仍然可以拨打紧急服务。 <br>例如，您将112添加为 "紧急拨号掩码"，这是欧洲大多数欧洲的紧急服务号码，911作为 "紧急拨号" 字符串。 欧洲来访的团队用户可能不知道911是美国的紧急电话，当他们拨打112时，将拨打911。 若要定义多个拨号掩码，请用分号分隔每个值。 例如，112; 212。
     3. **PSTN 使用**：选择公共交换电话网络（PSTN）使用。 PSTN 使用用于确定使用哪种路由从有权使用它们的用户路由紧急呼叫。 与此使用相关联的路由应指向专用于紧急呼叫的 SIP 中继，或者指向紧急位置标识号码（ELIN）网关，该网关将紧急呼叫路由到最近的公共安全应答点（PSAP）。
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 将组中的所有用户分配到特定团队策略。 在此示例中，它是 HR 紧急呼叫路由策略。
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 

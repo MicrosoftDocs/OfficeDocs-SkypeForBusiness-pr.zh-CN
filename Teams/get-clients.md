@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919144"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002236"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -99,7 +99,7 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 > [!NOTE]
 > 如果您安装 INSTALLER.PKG 时遇到问题，请告知我们。 在本文末尾的 "**反馈**" 部分中，单击 "**产品反馈**"。
 
-### <a name="linux"></a>厂商
+### <a name="linux"></a>Linux
 
 用户将能够安装本机 Linux 程序包`.deb`并`.rpm`设置其格式。
 安装 DEB 包或 RPM 程序包将自动安装程序包存储库
@@ -110,7 +110,7 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 
 > [!NOTE] 
 > 如果发现 bug，请使用`Report a Problem`客户端中的进行提交。 对于已知问题，请参阅[已知问题](Known-issues.md)。
-> 对于支持 Linux 的团队，你可以使用 Microsoft 问答中的（Linux 论坛支持频道&A）https://docs.microsoft.com/answers/topics/teams.html[]。 请确保在发布问题`teams-linux`时使用该标记。 
+> 对于支持 Linux 的团队，您可以使用[Microsoft 问答中的 Linux 论坛支持频道&](https://docs.microsoft.com/answers/topics/teams.html)。 请确保在发布问题`teams-linux`时使用该标记。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 包程序包安装团队
 

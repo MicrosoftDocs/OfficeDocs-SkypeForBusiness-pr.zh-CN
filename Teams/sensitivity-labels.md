@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 3a0c40a51653a525587a0662949a3fdd4e63faf4
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 899bf8c3dc187df6fa5e035817458a10330c66a6
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38653563"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002316"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -34,9 +34,41 @@ ms.locfileid: "38653563"
 
 另一方面，灵敏度标签和其策略通过组平台、安全 & 合规中心和团队服务的组合自动实施端到端。 灵敏度标签提供强大的基础结构支持以保护组织的敏感数据。  
 
-## <a name="create-and-publish-sensitivity-labels-for-teams"></a>创建和发布团队的灵敏度标签
+## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>为团队创建、管理和发布灵敏度标签
 
 有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[将敏感度标签与 Microsoft 团队、Office 365 组和 SharePoint 网站结合使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+
+>[!IMPORTANT]
+>创建、更新和删除灵敏度标签需要对用户发布标签的仔细排序。 序列中的任何偏差都可能会导致所有用户的持久团队创建错误。 因此，在<a href="#createpublishlabels">创建和发布标签</a>、<a href="#modifydeletelabels">修改和删除已发布标签</a>以及<a href="#manageerrors">管理团队创建错误</a>时，执行以下操作非常重要。
+
+**创建和发布标签** <a name="createpublishlabels"></a>
+
+在安全 & 合规中心创建和发布标签时，该标签最多可能需要24小时才能在团队创建界面中变为可见。 使用以下步骤为租户中的所有用户发布标签：
+1. 创建标签并将其发布到租户中的几个选择用户帐户。
+2. 当标签发布时，请等待24小时。
+3. 24小时后，请尝试使用有权访问标签的用户帐户创建带有标签的团队。
+4. 如果团队在步骤3中成功创建，则继续并为租户中的其余用户发布标签。
+
+**修改和删除已发布的标签** <a name="modifydeletelabels"></a>
+
+删除或修改与灵敏度策略相关联的标签可能会导致整个租户中的团队创建失败。 因此，在删除或修改标签之前，必须首先解除标签与其关联的策略的关联。 使用以下步骤  
+要删除或修改标签，请执行以下操作：
+1. 从使用该标签的所有策略中删除标签。 或者，也可以删除策略本身。
+2. 当从策略中删除标签或策略本身被删除时，请等待48小时，然后再继续。
+3. 48小时后，启动团队创建界面并确保该标签对于租户中的任何用户不再可见。
+4. 现在，您可以安全地删除或修改标签。
+
+**管理团队创建错误** <a name="manageerrors"></a>
+
+如果团队创建在公共预览版中的任何时候开始失败，您有两种选择：
+ - 确保在创建团队期间对任何用户不强制使用灵敏度标签。
+ - 使用 "[启用此预览](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)" 中的脚本关闭灵敏度标签。
+
+请注意，EnableMIPLabels 设置必须设置为 false，如下所示：
+
+```
+$setting["EnableMIPLabels"] = "False"
+ ```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>将灵敏度标签与团队配合使用
 
