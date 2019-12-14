@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966775"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020056"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -68,12 +68,14 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 有关最新的服务器和客户端要求，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装团队桌面应用
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新团队桌面应用
 
 你可以使用 MSI 程序包使用每台计算机安装或每用户安装来部署适用于 VDI 的团队桌面应用。 决定使用哪种方法取决于您使用的是持久设置还是非持久设置以及您的组织的相关功能需求。
 对于专用的永久设置，这两种方法都适用。  但是，对于非持久设置，团队需要每计算机安装才能高效工作。 请参阅[非持久设置](#non-persistent-setup)部分。
 
 对于每台计算机安装，自动更新已禁用。 这意味着，若要更新团队应用，必须卸载当前版本才能更新到较新的版本。 对于每用户安装，自动更新已启用。 对于大多数 VDI 部署，建议使用每台计算机安装部署团队。
+
+若要更新到最新的团队版本，请从卸载过程开始，后跟最新的团队版本部署。
 
 为了使 VDI 环境中的团队防病毒优化正常工作，瘦客户端终结点必须有权访问 internet。 如果在瘦客户端终结点上无法访问 internet，优化启动将不会成功。 这意味着用户处于非优化的媒体状态。
 
@@ -93,7 +95,7 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 在非持久设置中，用户注销后将不保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置根据用户数量和可用的物理箱资源而有所不同。
 
-对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅在[VDI 部分安装 "团队桌面应用](#install-the-teams-desktop-app-on-vdi)" 部分）。 这可确保在用户会话期间有效地启动团队应用。 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。  有多种可用的缓存管理器解决方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 有关特定配置说明，请咨询您的缓存管理器提供程序。
+对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)）。 这可确保在用户会话期间有效地启动团队应用。 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。  有多种可用的缓存管理器解决方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 有关特定配置说明，请咨询您的缓存管理器提供程序。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>用于非持久设置的工作组缓存的内容排除列表
 
@@ -110,11 +112,11 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 在通过 Office 365 专业增强版部署团队之前，必须先卸载任何预先存在的团队应用（如果它们是使用按计算机安装部署的）。
 
-通过 Office 365 专业增强版的团队将针对每个用户进行安装。 若要了解详细信息，请参阅[在 VDI 部分安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)。
+通过 Office 365 专业增强版的团队将针对每个用户进行安装。 若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>通过 Office 365 专业增强版更新的团队部署
 
-团队也将添加到 Office 365 专业增强版的现有安装。 由于 Office 365 专业增强版仅为每位用户安装团队，请参阅在[VDI 部分安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)。
+团队也将添加到 Office 365 专业增强版的现有安装。 由于 Office 365 专业增强版仅为每位用户安装团队，请参阅在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>对每台计算机安装使用团队和 Office 365 专业增强版
 
@@ -331,7 +333,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
-- 对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。 你必须按照 "在[VDI 中安装团队桌面应用](#install-the-teams-desktop-app-on-vdi)" 部分中所述，通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
+- 对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。 你必须按照在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)中所述，通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
+- 应按每个用户或每台计算机来部署团队。 不支持针对每个用户和每台计算机并行部署团队。  若要从每台计算机或每用户迁移到这些模式之一，请按照卸载过程进行，然后重新部署到任一模式。
 - Citrix 目前不支持基于 MacOs 和 Linux 的客户端。
 - Citrix 不支持使用终结点上定义的显式 HTTP 代理。 
 

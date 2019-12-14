@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理专用频道。
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077425"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020046"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 团队中的专用频道
 
@@ -101,7 +101,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 
 下表概述了哪些操作所有者、成员和来宾可以在专用频道中执行的操作。
 
-|操作  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
+|Action  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
 |---------|---------|---------|---------|---------|---------|---------|
 |创建专用频道|是<sup>1</sup>|是<sup>1，2</sup>|否|不适用|不适用|不适用|
 |删除专用频道|是|否|否|是|否|否|
@@ -139,6 +139,12 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 团队管理专用通道 SharePoint 网站集的生命周期。 如果在团队外删除网站集，后台作业将在四个小时内恢复网站，只要专用通道仍处于活动状态。 如果网站已删除并已硬删除，则为专用频道设置新的网站集。
 
 如果已还原专用频道或包含专用频道的团队，则网站集将随之还原。 如果专用通道网站集已还原，并且超出专用通道的30天软删除窗口，则网站集将作为独立的网站集进行操作。
+
+## <a name="private-channel-message-compliance-records"></a>专用频道消息合规性记录
+
+在专用频道中发送的邮件的记录被发送到所有专用通道成员的邮箱，而不是发送到组邮箱。 对记录的标题进行格式设置，以指示发送的专用频道。
+
+有关对专用信道消息执行电子数据展示搜索的详细信息，请参阅[电子数据展示的专用信道的电子数据展示](ediscovery-investigation.md#ediscovery-of-private-channels)。
 
 ## <a name="considerations-around-access-in-private-channels"></a>有关专用通道中的访问权限的注意事项
 

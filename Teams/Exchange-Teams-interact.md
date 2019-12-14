@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842424"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019966"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -41,7 +41,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 **支持的操作：**
 
-| 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是 |是 |是 |是 |是 |
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是 |是 |是 |是 |是|

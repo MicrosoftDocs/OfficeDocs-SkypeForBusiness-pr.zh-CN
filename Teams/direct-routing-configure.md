@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002296"
+ms.locfileid: "40020066"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -105,7 +105,7 @@ Enabled               : True
 </pre>
 在配对过程中，可以设置其他选项。 但是，在前面的示例中，仅显示所需的最低参数。 
  
-下表列出了可用于设置参数的其他参数`New-CsOnlinePstnGateway`
+下表列出了可在为```New-CsOnlinePstnGateway```设置参数时使用的其他参数。
 
 |必填？|名称|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -130,7 +130,7 @@ Enabled               : True
 
 对 SBC 进行配对后，通过在远程 PowerShell 会话中运行以下命令验证 SBC 是否存在于成对的 SBCs 列表中：`Get-CSOnlinePSTNGateway`
 
-配对网关应显示在列表中，如下面的示例所示，并验证*启用*的参数是否显示值**True**。 键
+配对网关应显示在列表中，如下面的示例所示，并验证**Enabled**参数是否显示值**True**。 键
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -293,10 +293,11 @@ Get-CSOnlinePSTNUsage
 ``` 
 这将返回可能被截断的名称的列表：
 ```
-  Identity  : Global
-  Usage     : {testusage, US and Canada, International, karlUsage. . .}
+Identity    : Global
+Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
-在下面的示例中，你可以查看运行 PowerShell 命令`(Get-CSOnlinePSTNUsage).usage`的结果以显示完整名称（未截断）。 
+在下面的示例中，你可以查看运行 PowerShell 命令`(Get-CSOnlinePSTNUsage).usage`的结果以显示完整名称（未截断）。
+
 <pre>
  testusage
  US and Canada
@@ -313,20 +314,20 @@ Get-CSOnlinePSTNUsage
 
 要创建 "Redmond 1" 路线，请输入：
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
-  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-  ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
 
 返回：
 <pre>
 Identity                : Redmond 1
-Priority            : 1
-Description         :
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}
+Priority                : 1
+Description             :
+NumberPattern           : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
-Name            : Redmond 1
+Name                    : Redmond 1
 </pre>
 若要创建雷德蒙2路线，请输入：
 
@@ -347,14 +348,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 在某些情况下，需要将所有调用路由到同一 SBC;请使用-NumberPattern ". *"
 
-- 将所有呼叫路由到同一 SBC
+将所有呼叫路由到同一个 SBC。
 
-    ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
-     -OnlinePstnGatewayList sbc1.contoso.biz
-    ```
+```
+Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
+```
 
-通过使用如下所示的选项运行`Get-CSOnlineVoiceRoute` PowerShell 命令验证是否已正确配置路由： 
+通过使用如下所示的选项运行`Get-CSOnlineVoiceRoute` PowerShell 命令验证是否已正确配置路由：
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -398,7 +398,7 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 此示例中显示了结果：
 
 <pre>
-Identity        : Tag:US only
+Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
@@ -406,20 +406,23 @@ RouteType           : BYOT
 
 **步骤4：** 使用 PowerShell 向用户授予 Spencer 低的语音路由策略。
 
-- 在 Skype for Business Online 的 PowerShell 会话中，键入：
+在 Skype for Business Online 的 PowerShell 会话中，键入：
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+```
 
-- 通过输入以下命令验证策略分配：
+通过输入以下命令验证策略分配：
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
+
 返回：
 <pre>
-    OnlineVoiceRoutingPolicy
-    ---------------------
-    US Only
+OnlineVoiceRoutingPolicy
+---------------------
+US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>创建具有多个 PSTN 用法的语音路由策略
@@ -461,68 +464,76 @@ John 的一对电话-允许拨打任何号码的电话。 当呼叫雷德蒙数�
 创建 PSTN 使用 "国际"、语音路由 "国际"、"语音路由策略" 无限制，然后将其分配给用户 "John （John）" 的步骤如下所示。
 
 
-1. 首先，创建 PSTN 使用 "国际"。 在 Skype for Business Online 中的远程 PowerShell 会话中，输入：
+**步骤 1**：创建 PSTN 使用 "国际"。 
 
-   ```
-   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
-   ```
+在 Skype for Business Online 中的远程 PowerShell 会话中，输入：
 
-2. 接下来，创建新的语音路线 "国际"。
+```
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+```
 
-   ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-   ```
-   返回：
+**步骤 2**：创建新的语音路由 "国际"。
 
-   <pre>
-   Identity                  : International 
-   Priority                      : 5
-   Description                   : 
-   NumberPattern                 : .*
-   OnlinePstnUsages          : {International} 
-   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-   Name                            : International
-   </pre>
-3. 接下来，创建语音路由策略 "无限制"。 PSTN 使用 "Redmond 1" 和 "Redmond" 在此语音路由策略中重复使用，以保留对号码 "+ 1 425 XXX xx" 和 "+ 1 206 XXX xx xx" 的特殊处理，作为本地或本地呼叫。
+```
+New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+```
+返回：
+
+<pre>
+Identity                  : International
+Priority                  : 5
+Description               :
+NumberPattern             : .*
+OnlinePstnUsages          : {International}
+OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                      : International
+</pre>
+
+**步骤 3**：创建语音路由策略 "无限制"。 
+
+PSTN 使用 "Redmond 1" 和 "Redmond" 在此语音路由策略中重复使用，以保留对号码 "+ 1 425 XXX xx" 和 "+ 1 206 XXX xx xx" 的特殊处理，作为本地或本地呼叫。
 
    ```
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
-    记下 PSTN 用法的顺序：
+记下 PSTN 用法的顺序：
 
-    a. 如果对数字 "+ 1 425 XXX XX XX" 的调用配置为以下示例中所示的使用实例，则呼叫将遵循 "美国和加拿大" 使用中设置的路由，并应用特殊路由逻辑。 也就是说，将首先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由呼叫，然后 sbc3.contoso.biz 和 sbc4.contoso.biz 作为备份路由。 
+a. 如果对数字 "+ 1 425 XXX XX XX" 的调用配置为以下示例中所示的使用实例，则呼叫将遵循 "美国和加拿大" 使用中设置的路由，并应用特殊路由逻辑。 也就是说，将首先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由呼叫，然后 sbc3.contoso.biz 和 sbc4.contoso.biz 作为备份路由。
 
-    b.  如果 "国际" PSTN 使用早于 "美国和加拿大"，则对 + 1 425 XXX xx 的调用将作为路由逻辑的一部分路由到 sbc2.contoso.biz 和 sbc5.contoso.biz。 输入命令：
+b. 如果 "国际" PSTN 使用早于 "美国和加拿大"，则对 + 1 425 XXX xx 的调用将作为路由逻辑的一部分路由到 sbc2.contoso.biz 和 sbc5.contoso.biz。 输入命令：
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+```
 
-   返回的
-
-  <pre>
-   Identity     : International 
-   OnlinePstnUsages     : {US and Canada, International}     
-   Description      :  
-   RouteType        : BYOT
-  </pre>
-
-4. 使用以下命令将语音路由策略分配给用户 "John 的工作"。
-
-   ```
-   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-   ```
-
-   然后使用以下命令验证作业： 
-
-   ```
-   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
-   ```
-   返回：
+返回的
 
 <pre>
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
+Identity              : International 
+OnlinePstnUsages : {US and Canada, International}    
+Description      :  
+RouteType             : BYOT
+</pre>
+
+**步骤 4**：使用以下命令将语音路由策略分配给用户 "John 的工作"。
+
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
+
+然后使用以下命令验证作业： 
+
+```
+Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+```
+
+返回：
+
+<pre>
+OnlineVoiceRoutingPolicy
+------------------------
+No Restrictions
 </pre>
 
 结果是，应用到 John 54777 的语音政策不受限制，并且将遵循可用于美国、加拿大和国际通话的呼叫路线逻辑。
@@ -531,11 +542,90 @@ John 的一对电话-允许拨打任何号码的电话。 当呼叫雷德蒙数�
 
 直接路由要求用户仅在 "仅工作组" 模式下，以确保传入呼叫位于团队客户的土地。 若要将用户置于 "仅团队" 模式，请为他们分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例。 如果你的组织使用 Skype for business 服务器或 Skype for business Online，请参阅以下文章了解 Skype 和团队之间的信息互操作性：[与 skype for business 配合使用团队的组织的迁移和互操作性指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。 
 
-
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>配置将呼叫直接发送到语音邮件
 
 直接路由允许您结束呼叫用户并将其直接发送到用户的语音邮件。 如果您想要将呼叫直接发送到语音邮件，请将不透明 = app：语音邮件附加到请求 URI 标题。 例如，"sip： user@yourdomain .com; 不透明 = 应用：语音邮件"。
 在这种情况下，团队用户将不会收到呼叫通知，直接将呼叫连接到用户的语音邮件。
+
+## <a name="translate-caller-and-callee-numbers-for-outbound-and-inbound-calls-to-an-alternate-format"></a>将出站和入站呼叫的呼叫者和被叫方的数字转换为备用格式
+
+有时，租户管理员可能希望根据其创建的模式更改被呼叫方或呼叫者电话，以确保以 SBCs 的互操作性。 您可以设置一个 "数字翻译规则" 策略，以将被呼叫者或呼叫者号码转换为备用格式。 你可以使用该策略来为以下项转换数字：
+
+- 入站呼叫：从 PSTN 终结点（呼叫方）到团队客户端（被调用方）的呼叫。
+- 出站呼叫：从团队客户端（呼叫者）到 PSTN 终结点（被呼叫方）的呼叫。
+
+该策略将应用于 SBC 级别。 你可以将多个翻译规则分配给 SBC，这些规则按照在 PowerShell 中列出它们时的显示顺序进行应用。 您还可以更改策略中规则的顺序。
+
+若要创建、修改、查看和删除数字操作规则，请使用 TeamsTranslationRule、TeamsTranslationRule、TeamsTranslationRule 和 Remove-TeamsTranslationRule cmdlet。
+
+若要在 SBCs 上分配、配置和列出数字操作规则，请[将 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)和[CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet 与```InboundTeamsNumberTranslationRules```、 ```InboundPSTNNumberTranslationRules``` ```OutboundTeamsNumberTranslationRules``` ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```、、、、、和```OutboundPSTNNumberTranslationRulesList```参数一起使用。
+
+### <a name="examples"></a>示例
+
+#### <a name="example-sbc-configuration"></a>SBC 配置示例
+
+对于示例方案，我们将运行```New-CsOnlinePSTNGateway``` cmdlet 以创建以下 SBC 配置。
+
+```
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+```
+
+下表汇总了分配给 SBC 的转换规则。
+
+|名称  |模式 |转换  |
+|---------|---------|---------|
+|AddPlus1     |^ （\d{10}） $          |+1$1          |
+|AddE164SeattleAreaCode      |^ （\d{4}） $          | + 1206555 $ 1         |
+|AddSeattleAreaCode    |^ （\d{4}） $          | 425555 $ 1         |
+|StripPlus1    |^ + 1 （\d{10}） $          | $1         |
+
+在这些示例方案中，我们有两个用户： Alice 和 Bob。 Alice 是团队用户，她的电话号码是 + 1 206 555 0100。 小明是 PSTN 用户，其号码是 + 1 425 555 0100。
+
+#### <a name="example-1-inbound-call-to-a-ten-digit-number"></a>示例1：对十位数字的入站呼叫
+
+小明使用非 E-164 10 位数字调用刘爱琳。 Bob 拨打2065550100以联系 Alice。
+SBC 在 RequestURI 中使用2065550100，在 "来自" 头中使用 "页眉" 和 "4255550100"。
+
+|接头  |源语言 |已翻译页眉 |已应用参数和规则  |
+|---------|---------|---------|---------|
+|RequestURI  |邀请 sip:2065550100@sbc.contoso.com|邀请 sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
+|自    |收件人： \<sip:2065550100@sbc.contoso.com>|收件人： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
+|从   |发件\<自： sip:4255550100@sbc.contoso.com>|发件\<自： sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+
+#### <a name="example-2-inbound-call-to-a-four-digit-number"></a>示例2：对四位数数字的入站呼叫
+
+小明使用四位数字调用刘爱琳。 Bob 拨打0100以联系 Alice。
+SBC 在 RequestURI 中使用0100，在 "来自" 头中使用 "页眉" 和 "4255550100"。
+
+|接头  |源语言 |已翻译页眉 |已应用参数和规则  |
+|---------|---------|---------|---------|
+|RequestURI  |邀请 sip:0100@sbc.contoso.com          |邀请 sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
+|自    |收件人： \<sip:0100@sbc.contoso.com>|收件人： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
+|从   |发件\<自： sip:4255550100@sbc.contoso.com>|发件\<自： sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+
+#### <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>示例3：使用10位非 E 的非 n 位数字的出站呼叫
+
+Alice 使用十位数字呼叫 Bob。 Alice 拨打 425 555 0100 以联系 Bob。
+对于团队和 PSTN 用户，SBC 配置为使用非 E. 164 10 位数字。
+
+在这种情况下，拨号计划会在将数字发送到直接路由界面之前对其进行转换。 当 Alice 在团队客户端中输入 425 555 0100 时，将按国家/地区的拨号计划将该号码转换为 + 14255550100。 生成的数字是拨号计划规则和团队翻译规则的累积规范化。 团队翻译规则删除由拨号计划添加的 "+ 1"。
+
+|接头  |源语言 |已翻译页眉 |已应用参数和规则  |
+|---------|---------|---------|---------|
+|RequestURI  |邀请 sip:+14255550100@sbc.contoso.com          |邀请 sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
+|自    |收件人： \<sip:+14255550100@sbc.contoso.com>|收件人： \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
+|从   |发件\<自： sip:+12065550100@sbc.contoso.com>|发件\<自： sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+
+#### <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>示例4：使用四位非 n 位数字的拨出电话
+
+Alice 使用四位数字调用 Bob。 Alice 使用0100与来自呼叫或通过联系人的 Bob 联系。
+SBC 配置为为团队用户使用非 E 的4位数字，对于 PSTN 用户使用10位数字。 这种情况下不会应用拨号计划。
+
+|接头  |源语言 |已翻译页眉 |已应用参数和规则  |
+|---------|---------|---------|---------|
+|RequestURI  |邀请 sip:0100@sbc.contoso.com           |邀请 sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
+|自    |收件人： \<sip:0100@sbc.contoso.com>|收件人： \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|从   |发件\<自： sip:+12065550100@sbc.contoso.com>|发件\<自： sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
 
 ## <a name="see-also"></a>另请参阅
 
