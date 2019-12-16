@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: 使用 Advisor for Teams（预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
+ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909468"
+ms.lasthandoff: 12/14/2019
+ms.locfileid: "40032809"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -31,72 +31,86 @@ ms.locfileid: "39909468"
 
 Advisor for Teams（预览版）为你提供 Microsoft Teams 推出的分步指导。 它将评估 Office 365 租户环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
 
-Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 若要首次使用 Advisor for Teams，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Advisor**”。
+Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少需要 Office 365 商业协作版许可证，才能利用 Teams 顾问与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Advisor**”。
 
 > [!IMPORTANT]
 > Advisor for Teams 不适用于 Microsoft 365 政府版 - GCC High 或 DoD 部署。
 
-请观看“[部署和配置团队简介](https://youtu.be/o2mlsUubIO4?t=44)”视频了解  Advisor for Teams（Advisor for Teams在 0:50-3:15 分钟）。
+有关 Teams 顾问体验的指导性概述，请查看 [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics 视频。
 
 ## <a name="using-advisor-for-teams-preview"></a>使用 Advisor for Teams（预览版）
 
-要使用 Advisor for Teams，不需要是 Teams 管理员 - 组织中的任何人都可使用它。 我们设置了特殊权限，使非管理员用户可以使用 Advisor for Teams，即使它位于团队管理中心，也是如此。 必须是 Teams 管理员、Teams 服务管理员或全局管理员才能打开租户就绪性评估。
+要使用 Advisor for Teams，不需要是 Teams 管理员 - 组织中的任何人都可使用它。 我们设置了特殊权限，使非管理员用户可以使用 Advisor for Teams，即使它位于团队管理中心，也是如此。 只有 Teams 管理员、Teams 服务管理员或全局管理员才能打开租户就绪性评估（这是因为特殊的非管理员角色无法访问位于评估底层的 Microsoft Graph API）。
 
-第一次使用 Advisor for Teams 时，它将在 Teams 中为你创建一个部署团队。 它为你要推出的每个工作负载添加频道。 
+第一次使用 Teams 顾问时，它将在 Teams 中为你创建一个部署团队。 它为你选择的每个工作负载添加一个频道。
 
+> [!IMPORTANT]
+> 如果已创建部署团队，而另一个用户尝试创建该团队，他们将收到一条错误消息，告知他们联系支持团队。 这可防止 Teams 意外泄露关于现有团队及其成员的信息。 请让部署团队的所有者添加你，或与支持人员联系以获取帮助。
 
-## <a name="available-advisor-for-teams-plans"></a>可用的 Advisor for Teams 计划
+## <a name="available-advisor-for-teams-plans"></a>可用的 Teams 顾问计划
 
-在 Advisor for Teams 处于预览阶段时，我们提供以下两种计划：
+在 Teams 顾问处于预览阶段时，我们提供以下两种计划：
 
 1. 聊天、团队、频道和应用
     - 租户评估
     - Planner 计划，包括采用任务
     - Forms 用户调查
+    - Teams 顾问机器人
 1. 会话和会议
     - 租户评估
     - Planner 计划，包括采用任务
     - Forms 用户调查
+    - Teams 顾问机器人
 
-建议从“聊天”、“团队”、“频道”和“应用计划”开始。 工作负载部署完成后，请返回到 Advisor，然后单击“**添加频道**”以开始下一个工作负载。 
+建议从“聊天、团队、频道和应用”计划开始。 该工作负载部署完成后，请返回到 Teams 顾问，然后单击“**添加频道**”以开始下一个工作负载。
 
 ## <a name="tenant-assessment"></a>租户评估
-每个计划都包括租户就绪性评估，可用于在推出 Teams 前识别并补救环境中的任何缺陷。 下面是每个评估的检查内容：
+每个计划都包括租户就绪性评估，可用于在推出 Teams 前快速识别任何可能需要修正的环境问题。 评估包括先决条件和最佳做法。 每个评估测试都会显示绿色勾号或橙色警告三角形。 
 
-### <a name="chat-teams-channels-and-apps"></a>聊天、团队、频道和应用
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>绿色勾号表示你的租户已通过特定测试。 
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我们建议你跟进，确定是否需要执行任何操作（例如，推荐使用 Office 365 组过期策略，但不是必需的）。
 
+> [!IMPORTANT]
+> 拥有管理角色的用户启动 Teams 顾问后，所有评估都将在后台运行。 如果你进行某种更新或修正，这些内容可能在长达 24 小时内都不会反映到评估中。 这种情况是暂时的；只要 Teams 顾问脱离预览版并公开发布，届时评估将几乎实时更新。
 
-|评估  |结果  |
+下面各节将介绍每项评估，包括某一项是否是先决条件或最佳做法、每项评估检查所执行的操作和理由以及有关修正（如需要）的指导。
+
+### <a name="assessment-tests-for-all-workloads"></a>针对所有工作负载的评估测试
+
+|评估测试  |提供的信息  |
 |---------|---------|
-|Teams 许可证     |你是否有具有可用 Teams 许可证的活动订阅 |
-|Exchange 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。         |
-|SharePoint Online 许可证     | 你是否有具有可用 SharePoint Online 许可证的活动订阅。 对于文件存储、频道协作和聊天，每个用户需要一个 SharePoint Online 许可证。 
-|已启用来宾访问     |Teams 中的来宾访问是否已启用。 不会审核来宾访问的 Azure Active Directory 设置。   |
-|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域  |
-|已配置 Office 365 组命名标准     | 是否已为 Office 365 组配置命名标准        |
-|已配置 Office 365 组到期     |  是否已为 Office 365 组定义组到期策略。 如果没有，则该值设置为“从不”。        |
-|已配置外部访问     |如果已启用外部访问，则可与 Teams 中的外部组织进行通信。          |
+|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域（例如，@contoso.onmicrosoft.com）。 当然，你可以使用 @onmicrosoft.com 域，或者也可以配置虚域，由你选择。 有关详细信息，请阅读[将域添加到 Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
+|Teams 许可证     |这是先决条件；你**必须具有** Teams 许可证才能推出 Teams。 此测试查询 Microsoft Graph 以了解你是否拥有 Teams 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读[适用于 Teams 的 Office 365 许可](https://docs.microsoft.com/microsoftteams/office-365-licensing)。    |
+|Exchange Online 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。 此测试查询 Microsoft Graph 以分析与租户关联的订阅并验证你是否有具有合格 Exchange Online 许可证的订阅（至少有一个可用的许可证可供分配）。 有关详细信息，请阅读 [Exchange 与 Teams 如何交互](exchange-teams-interact.md)。    |
+|SharePoint Online 许可证     |你是否有具有可用 SharePoint Online 许可证的活动订阅。 建议采用基于每个用户的 SharePoint Online 许可证，以便提供 OneDrive for Business 在聊天中用于文件存储。 此测试查询 Microsoft Graph 以了解你是否拥有 SharePoint Online 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
+|已启用来宾访问     |是否已启用[来宾访问](guest-access.md)。 通过来宾访问可邀请外部用户加入你的团队。 请使用 [Teams 来宾访问清单](guest-access-checklist.md)了解在 Teams 中启用来宾访问的详细步骤；该清单包含所需的 Azure AD 配置。 |
+|已配置外部访问     |是否已启用[外部访问](manage-external-access.md)。 默认情况下会启用此项并采用开放式联合身份验证。 |
 
-### <a name="meetings-and-conferencing"></a>会话和会议
+### <a name="assessments-for-chat-teams-channels-and-apps"></a>有关聊天、团队、频道和应用的评估
 
+除了[针对所有工作负载的评估测试](#assessment-tests-for-all-workloads)之外，还会针对聊天、团队、频道和应用工作负载运行以下额外评估：
 
-|评估  |结果  |
+|评估测试  |提供的信息  |
 |---------|---------|
-|Teams 许可证     |你是否有具有可用 Teams 许可证的活动订阅 |
-|Exchange 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。 |
-|音频会议许可证    |你是否有具有音频会议许可证的活动订阅 |
-|流式传输许可证     |你是否有具有流式传输许可证的活动订阅（如果需要会议录制可以使用此许可证）。 |
-|来宾访问权限     |Teams 中的来宾访问是否已启用。 不会审核来宾访问的 Azure Active Directory 设置。|
-|虚域     |是否为你的租户配置了非 @onmicrosoft.com 域。  |
-|外部访问     |如果已启用外部访问，则可与 Teams 中的外部组织进行通信。 |
+|已配置 Office 365 组命名策略     |是否已为 Office 365 组配置命名标准。 Office 365 组命名策略使你的组织能够对用户创建的团队应用一致的命名策略，并且也适用于其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）。 此测试通过 Microsoft Graph 查询 Azure AD，检查是否存在适用于 Office 365 组的命名策略。 有关详细信息，请阅读 [Office 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已配置 Office 365 组过期策略     |是否已为 Office 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Office 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
+### <a name="assessments-for-meetings-and-conferencing"></a>有关会话和会议的评估
 
-### <a name="advisor-bot"></a>Advisor 机器人
-Advisor 创建部署团队后，Advisor 机器人就会发送以下消息。
+除了[针对所有工作负载的评估测试](#assessment-tests-for-all-workloads)之外，还会针对会话和会议工作负载运行以下额外评估：
+
+|评估测试  |提供的信息  |
+|---------|---------|
+|音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
+|Stream 许可证     |你是否有具有 Microsoft Stream 许可证的活动订阅。 如果你想要启用“会议录制”，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有 Microsoft Stream 许可证（至少有一个许可证可供分配）。 有关 Stream 及其启用方法的详细信息，请阅读 [Teams 云会议录制](cloud-recording.md)。
+
+### <a name="advisor-for-teams-bot"></a>Teams 顾问机器人
+
+Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道中提供以下消息：
 
 >**欢迎使用 Microsoft Teams 中的部署团队！**
 >  
->此团队的目的是为你提供组织的 Teams 推出的分步指导，方法是为你提供所需的所有资源，并为项目团队提供协作空间。 使用 Advisor for Teams 创建的每个频道包括分步 Planner 计划和其他资源，例如可在整个推出过程中使用的 Forms 用户调查。 可随时返回并查看租户就绪性评估或使用 Teams 管理中心添加其他工作负载计划。 
+>此团队的目的是为你提供组织的 Teams 推出的分步指导，方法是为你提供所需的所有资源，并为项目团队提供协作空间。 使用 Advisor for Teams 创建的每个频道包括分步 Planner 计划和其他资源，例如可在整个推出过程中使用的 Forms 用户调查。 可随时返回并查看租户就绪性评估或使用 Teams 管理中心添加其他工作负载计划。
 > 
 >**行动号召** 
 >- 如果你不熟悉 Teams 或 Planner，请查看我们的 [Teams 演练](https://teamsdemo.office.com/)并观看 [Planner 快速入门视频](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)。 
@@ -104,19 +118,19 @@ Advisor 创建部署团队后，Advisor 机器人就会发送以下消息。
 > 
 >若要了解有关 Advisor for Teams 的详细信息，请参阅[使用 Advisor for Teams 推出 Microsoft Teams](use-advisor-teams-roll-out.md)。
 >
+
 > [!IMPORTANT]
 > Advisor for Teams 机器人仅用于向部署团队发送欢迎消息。 不会收集额外的数据。
 
 > [!IMPORTANT]
-> 默认情况下启用 Advisor for Teams。 如果你使用或计划使用 Advisor for Teams，请不要禁用此项。
-
+> 默认情况下会启用 Teams 顾问机器人。 如果你使用或计划使用 Teams 顾问，请不要将其禁用。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams 的许可要求是什么？
-除获得 Teams 许可之外，没有其他许可要求。
+至少需要 Office 365 商业协作版，才能利用 Teams 顾问与 Forms 和 Planner 的集成。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我是否可以删除部署团队？
-在 Advisor for Teams 创建部署团队后，可以像管理任何其他团队那样管理该团队，包括可以删除该团队。 请注意，如果不使用 Teams 管理中心删除该团队，系统将报告该团队存在。
+在 Advisor for Teams 创建部署团队后，可以像管理任何其他团队那样管理该团队，包括可以删除该团队。 请注意，如果不使用 Teams 管理中心删除该团队，Teams 管理中心将显示该团队仍然存在。 这种情况是暂时的；当 Teams 顾问脱离预览版并公开发布时，将得到修复。
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>我是否可以在部署团队中添加或删除频道？
 可以，创建部署团队后，你将按照管理任何其他团队的方式管理频道。
@@ -126,7 +140,6 @@ Advisor 创建部署团队后，Advisor 机器人就会发送以下消息。
 
 ### <a name="can-i-modify-the-planner-plans"></a>能否修改 Planner 计划？
 可以，Advisor for Teams 创建部署团队后，你应更新 Planner 计划，使其可以为你的 Teams 推出提供最佳支持。 可以像任何其他 Planner 计划那样修改任何项 - 存储桶、任务和任务详细信息。
-
 
 ### <a name="can-i-modify-the-forms-survey"></a>能否修改 Forms 调查？
 可以，Advisor for Teams 创建部署团队后，可以按需修改 Forms 调查。
@@ -149,3 +162,6 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 ## <a name="related-topics"></a>相关主题
 
 [如何部署 Teams](How-to-roll-out-teams.md)
+
+[用于许可的产品名称和服务计划标识符](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
+) 
