@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解手机系统可以为你执行的操作。 '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568527"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069393"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 

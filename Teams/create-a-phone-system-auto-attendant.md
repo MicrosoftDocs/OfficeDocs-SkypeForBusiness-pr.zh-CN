@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318116"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070239"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -218,9 +218,8 @@ ms.locfileid: "38318116"
 
 **按名称拨号**如果启用此选项，则呼叫者可以使用 "**按名称拨号**" 搜索组织中的人员。 他们说出用户的姓名和语音识别将其与用户相匹配。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**按分机号码拨号**（此预览功能尚不可用于常规公共）如果启用此选项，则呼叫者可以通过输入其电话分机与您的组织中的用户进行连接。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
+**通过分机号码拨号**如果启用此选项，则呼叫者可以通过输入其电话分机连接到您的组织中的用户。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
 
 > [!IMPORTANT]
 > 请注意以下事项：

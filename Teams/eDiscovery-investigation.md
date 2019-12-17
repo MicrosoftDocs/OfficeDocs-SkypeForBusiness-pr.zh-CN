@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231113"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069183"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================
@@ -42,6 +42,8 @@ ms.locfileid: "38231113"
 3.  若要查看用户邮箱中的私人聊天，他们还位于 "对话历史记录" 下的团队聊天文件夹内。
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>电子数据展示的来宾到来宾聊天
+
+目前，对于只有来宾参与1:1 或1： N 聊天的方案，我们不支持这些聊天消息的电子数据展示。 
 
 如果没有邮箱，来宾至来宾聊天（没有家乡租户用户的1xN 聊天）将不会被编制索引，因此不会包含在电子数据展示中。 为了方便电子数据展示用于来宾到来宾聊天，创建了一个基于云的邮箱（或幻影邮箱）来存储1xN 数据。 团队聊天数据存储在基于云的邮箱中后，将为电子数据展示和合规性内容搜索编制索引。
 

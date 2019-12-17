@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515970"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069193"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -41,7 +41,7 @@ Microsoft 团队拥有适用于 web、桌面（Windows 和 Mac）和移动设备
 
 正如您可以从下图中看到的，终结点是为用户提供质量体验的重要构建基块。
 
-描述三个质量组件的![质量图表的三个组件](media/plan-my-users-experience-image1.png "以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
+![描述三个质量组件的图表](media/plan-my-users-experience-image1.png "描述三种质量组件以及服务管理如何与所有三个组件重叠的图表。重点关注终结点。")
 
 团队终结点可以在许多设备上运行，包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备，还包括用户如何连接到设备-例如，使用设备的内置麦克风/扬声器、earbuds 或优化的耳机。 使用优化耳机可以丰富整体用户体验。
 
@@ -106,7 +106,9 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
 > [!NOTE]
-> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备，请参阅[经认证的适用于 Skype for](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) business 解决方案目录的 USB 设备。
+> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备，请参阅[Microsoft 团队设备](https://products.office.com/en-us/microsoft-teams/across-devices/devices)和[USB 音频和视频设备](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定你的组织的整体设备策略以了解用户和会议室体验。</li></ul></td></tr>

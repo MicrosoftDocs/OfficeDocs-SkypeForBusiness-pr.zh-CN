@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746445"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069453"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -52,7 +52,7 @@ ms.locfileid: "38746445"
 
 1. 创建宽度不188超过30像素的图像（相当小）。
 2. 以 JPG 或 PNG 格式保存图像。
-3. 将图像存储在你的组织中的每个人都可以访问的中心位置，例如网络共享。
+3. 将图像存储在接收邀请的每个人都可以访问的位置，例如公共网站。
 
     现在，您可以将其添加到会议邀请。 请参阅后续步骤。
 
