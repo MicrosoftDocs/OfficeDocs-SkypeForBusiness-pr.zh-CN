@@ -3,7 +3,7 @@ title: 在伯利兹的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是 Skype for business 的 Office 365 服务和适用于伯利兹的 Microsoft 团队。
-ms.openlocfilehash: 0a0f1de71a64c0bd9c1cd11cd7570442626a5073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571110"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741346"
 ---
 # <a name="availability-in-belize"></a>在伯利兹的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37571110"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md) <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
@@ -50,7 +50,7 @@ ms.locfileid: "37571110"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |有空  <br/> |
+|自动助理 <br/> |有空  <br/> |
 |呼叫队列  <br/> |有空  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
@@ -76,7 +76,7 @@ ms.locfileid: "37571110"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |否  <br/> |
+|是否提供通信点数？  <br/> |是  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

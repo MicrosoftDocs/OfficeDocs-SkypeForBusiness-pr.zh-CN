@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564962"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744866"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -95,7 +95,7 @@ ms.locfileid: "37564962"
 ## <a name="meeting-policy-settings---general"></a>会议策略设置-常规
 
 - [允许在频道中立即开会](#allow-meet-now-in-channels)
-- [允许私人开会现在（即将推出）](#allow-private-meet-now-coming-soon)
+- [允许私人开会立即开会](#allow-private-meet-now)
 - [允许 Outlook 加载项](#allow-the-outlook-add-in)
 - [允许频道会议安排](#allow-channel-meeting-scheduling)
 - [允许安排私人会议](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ ms.locfileid: "37564962"
 
 ![显示邮件下方的 "立即开会" 图标的屏幕截图](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>允许私人开会现在（即将推出）
+### <a name="allow-private-meet-now"></a>允许私人开会立即开会
 
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以启动 ad hoc 私人会议。  
 
@@ -387,8 +387,6 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |   | 您的组织中的每个人     |在大厅中等待         |
 |   | 组织和联盟组织中的每个人      | 在大厅中等待         |
 
-
-[整篇文章](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>相关主题
 [团队中的消息传递策略](messaging-policies-in-teams.md)

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573280"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744856"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>规划 Microsoft 365 政府-GCC 高部署
 
@@ -40,7 +40,7 @@ Microsoft 365 政府-GCC 高环境为云服务的美国政府要求提供合规�
 
 您可以在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)（包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有关 Microsoft 365 政府版（适用于美国政府客户的 GCC）的详细信息。
 
-[Office 365 美国政府服务说明](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍了平台的优势，这些优势在美国的满足合规性要求的中心。
+[Office 365 美国政府服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍了平台的优势，这些优势在美国的满足合规性要求的中心。
 
 
 > [!Tip]
@@ -109,7 +109,7 @@ Microsoft 365 政府-GCC 高环境为云服务的美国政府要求提供合规�
 | | Skype for Business-团队通话 | 可用 |
 | | 通话套餐 | 不可用 |
 | | 音频会议（通过允许会议参与者通过 PSTN 加入） | 有空 |
-| | Microsoft Phone 系统直接路由 | 在政府待办事项中 |
+| | Microsoft Phone 系统直接路由 | 有空 |
 | | PSTN 呼叫者的大厅 | 在政府待办事项中 |
 | | 通话队列 | 在政府待办事项中 |
 | | 老板和代理人支持 | 在政府待办事项中 |

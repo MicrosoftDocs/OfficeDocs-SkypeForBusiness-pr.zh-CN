@@ -3,7 +3,7 @@ title: 在洪都拉斯的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是 Skype for business 和适用于洪都拉斯的 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0b02b165fbce211a6b9d92e59ecf2bf67a256aa5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 666e162de569aefb163a137e30926cf5b30a6a38
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568426"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741096"
 ---
 # <a name="availability-in-honduras"></a>在洪都拉斯的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37568426"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md)  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
    
@@ -66,9 +66,9 @@ ms.locfileid: "37568426"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Tegucigalpa （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|是否提供免费电话号码？  <br/> |否  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Tegucigalpa <br/> |
+|是否提供收费电话号码？  <br/> |是 <br/> |
+|是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
@@ -76,7 +76,7 @@ ms.locfileid: "37568426"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |否  <br/> |
+|是否提供通信点数？  <br/> |是  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

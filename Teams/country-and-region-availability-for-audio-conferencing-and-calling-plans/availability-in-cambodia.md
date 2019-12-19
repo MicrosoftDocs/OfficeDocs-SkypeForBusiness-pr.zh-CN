@@ -3,7 +3,7 @@ title: 柬埔寨中的可用性
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于柬埔寨的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 6d758a5171ecd8af006a6c8afd466b2a0aab5f2d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570544"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741366"
 ---
 # <a name="availability-in-cambodia"></a>柬埔寨中的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "37570544"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md)  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    
@@ -65,9 +65,9 @@ ms.locfileid: "37570544"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | Phnom Penh （[请求时](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） |
-|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
-|是否提供免费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | Phnom Penh |
+|是否提供收费电话号码？  <br/> |是 <br/> |
+|是否提供免费电话号码？  <br/> |否 <br/> |
    
  如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
@@ -75,7 +75,7 @@ ms.locfileid: "37570544"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |否  <br/> |
+|是否提供通信点数？  <br/> |是  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 适用于 Microsoft 团队的 IP 桌面和手机认证
-ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: bf14bed7846b8c1b3dea1d79f3ecae99706dc034
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675820"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744846"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -48,6 +48,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 |Crestron M100|2.3875.00068|2018年12月|
 |Crestron Flex UC-P100 & UC-t  | 58.15.91.6 |2019年1月|
 |Poly Trio 8500/8800 （仅限共享模式）| 5.9.0.10869|2019年6月|
+|Poly CCX500 | 1.0.0.2535| 2019年12月|
 |Yealink VP59 | 91.15.0.16 |2019年6月|
 |Yealink T55 | 58.15.0.36 |五月2019|
 |Yealink CP 960 |73.15.0.20|2018年12月|

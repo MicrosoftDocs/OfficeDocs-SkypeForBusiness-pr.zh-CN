@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数，以及收费和免费电话号码是否可用。
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573081"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741386"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -39,21 +39,26 @@ ms.locfileid: "37573081"
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>选择您所在的国家或地区以查看您的组织的可用功能
 
 > [!div class="op_single_selector"]
-> - [阿尔及利亚](availability-in-algeria.md)    
+> - [阿尔及利亚](availability-in-algeria.md)
+> - [安提瓜和巴布达](availability-in-antigua-and-barbuda.md)
 > - [阿根廷](availability-in-argentina.md)
 > - [澳大利亚](availability-in-australia.md)
 > - [Austria（奥地利）](availability-in-austria.md)
+> - [巴哈马](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
-> - [Belarus（白俄罗斯）](availability-in-belarus.md)
+> - [巴巴多斯](availability-in-barbados.md)
+> - [白俄罗斯](availability-in-belarus.md)
 > - [Belgium（比利时）](availability-in-belgium.md)
 > - [伯利兹](availability-in-belize.md)
 > - [贝宁](availability-in-benin.md)
+> - [百慕大](availability-in-bermuda.md)
 > - [波斯尼亚和黑塞哥维那](availability-in-bosniaherzegovina.md)
 > - [巴西](availability-in-brazil.md)
 > - [文莱](availability-in-brunei.md)
 > - [保加利亚](availability-in-bulgaria.md)
 > - [柬埔寨](availability-in-cambodia.md)
 > - [加拿大](availability-in-canada.md)
+> - [开曼群岛](availability-in-the-cayman-islands.md)
 > - [智利](availability-in-chile.md)
 > - [中国](availability-in-china.md)
 > - [哥伦比亚](availability-in-colombia.md)
@@ -62,6 +67,7 @@ ms.locfileid: "37573081"
 > - [塞浦路斯](availability-in-cyprus.md)
 > - [捷克共和国](availability-in-the-czech-republic.md)
 > - [丹麦](availability-in-denmark.md)
+> - [多米尼克](availability-in-dominica.md)
 > - [多米尼加共和国](availability-in-the-dominican-republic.md)
 > - [Ecuador（厄瓜多尔）](availability-in-ecuador.md)
 > - [埃及](availability-in-egypt.md)
@@ -73,6 +79,8 @@ ms.locfileid: "37573081"
 > - [Germany（德国）](availability-in-germany.md)
 > - [加纳](availability-in-ghana.md)
 > - [希腊](availability-in-greece.md)
+> - [格林纳达](availability-in-grenada.md)
+> - [关岛](availability-in-guam.md)
 > - [洪都拉斯](availability-in-honduras.md)
 > - [香港特别行政区](availability-in-hong-kong.md)
 > - [匈牙利](availability-in-hungary.md)
@@ -81,6 +89,7 @@ ms.locfileid: "37573081"
 > - [爱尔兰](availability-in-ireland.md)
 > - [以色列](availability-in-israel.md)
 > - [意大利](availability-in-italy.md)
+> - [牙买加](availability-in-jamaica.md)
 > - [日本](availability-in-japan.md)
 > - [约旦](availability-in-jordan.md)
 > - [Kazakhstan（哈萨克斯坦）](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ ms.locfileid: "37573081"
 > - [卡塔尔](availability-in-qatar.md)
 > - [罗马尼亚](availability-in-romania.md)
 > - [Russia（俄罗斯）](availability-in-russia.md)
+> - [圣基茨和尼维斯](availability-in-saint-kitts-and-nevis.md)
+> - [圣卢西亚](availability-in-saint-lucia.md)
 > - [沙特阿拉伯](availability-in-saudi-arabia.md)
 > - [塞尔维亚](availability-in-serbia.md)
 > - [新加坡](availability-in-singapore.md)
@@ -136,7 +147,7 @@ ms.locfileid: "37573081"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-**如果您要查找包含所有国家和地区的电子表格，请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**。
+**如果您要查找包含所有国家和地区的电子表格，请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**。
 
 ***
 
@@ -188,7 +199,7 @@ ms.locfileid: "37573081"
 您还可以查看[电话系统和通话计划许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)获取许可信息。
 
 > [!NOTE]
-> 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置，而**不**是基于 microsoft 365 管理员**组织配置文件**中列出的帐单地址**中心**。 
+> 国家/地区基于**microsoft 365 管理中心** > **活动用户**的用户许可证的位置，而**不**是基于在**microsoft 365 管理中心**的**组织配置文件**下列出的帐单地址。 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>适用于服务的收费和免费电话号码
 

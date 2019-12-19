@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020066"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741376"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -556,7 +556,7 @@ No Restrictions
 
 该策略将应用于 SBC 级别。 你可以将多个翻译规则分配给 SBC，这些规则按照在 PowerShell 中列出它们时的显示顺序进行应用。 您还可以更改策略中规则的顺序。
 
-若要创建、修改、查看和删除数字操作规则，请使用 TeamsTranslationRule、TeamsTranslationRule、TeamsTranslationRule 和 Remove-TeamsTranslationRule cmdlet。
+若要创建、修改、查看和删除数字操作规则，请使用 CsTeamsTranslationRule、CsTeamsTranslationRule、CsTeamsTranslationRule 和 Remove-CsTeamsTranslationRule cmdlet。
 
 若要在 SBCs 上分配、配置和列出数字操作规则，请[将 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)和[CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet 与```InboundTeamsNumberTranslationRules```、 ```InboundPSTNNumberTranslationRules``` ```OutboundTeamsNumberTranslationRules``` ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```、、、、、和```OutboundPSTNNumberTranslationRulesList```参数一起使用。
 
