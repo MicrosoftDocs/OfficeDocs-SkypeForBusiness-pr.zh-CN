@@ -1,10 +1,21 @@
 <!-- ============================================================ -->
+
 # [欢迎使用 Teams](teams-overview.md)
+
+# [体系结构和电话解决方案海报](teams-architecture-solutions-posters.md)  
+
+# 培训 
+## [概述](training-microsoft-teams-landing-page.md)
+## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
+## [Teams 管理员培训](itadmin-readiness.md)
+## [Teams 的最终用户培训](enduser-training.md)
+<!-- ============================================================ -->
+#       
+#    
+
 # [如何部署 Teams](How-to-roll-out-teams.md)
-# [海报：Teams 体系结构和电话解决方案](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
-
 # 入门
 ## [概述](get-started-with-teams-quick-start.md)
 ## [第 1 步：创建第一个团队和频道](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -34,6 +45,7 @@
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
+## [适用于中小型企业的 Teams 模板](smb-templates.md)
 
 
 
@@ -173,101 +185,11 @@
 #### [设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [在没有 PIN 的情况下通过电话启动音频会议](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
 
-
+### [音频会议的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ### 参考
 #### [音频会议支持的语言](audio-conferencing-supported-languages.md)
-
 #### [音频会议电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
-
-#### 音频会议和通话套餐的国家/地区可用性
-##### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-##### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
-##### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
-##### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
-##### [巴林](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-##### [Belarus（白俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
-##### [Belgium（比利时）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
-##### [伯利兹](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-##### [波斯尼亚和黑塞哥维那](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
-##### [巴西](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
-##### [文莱](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
-##### [保加利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
-##### [加拿大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
-##### [智利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
-##### [中国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
-##### [哥伦比亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
-##### [哥斯达黎加](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
-##### [Croatia（克罗地亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
-##### [塞浦路斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
-##### [捷克共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
-##### [丹麦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
-##### [多米尼加共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
-##### [Ecuador（厄瓜多尔）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
-##### [埃及](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-##### [萨尔瓦多](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
-##### [爱沙尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
-##### [Finland（芬兰）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
-##### [France（法国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
-##### [格鲁吉亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-##### [Germany（德国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
-##### [希腊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
-##### [洪都拉斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
-##### [香港特别行政区](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
-##### [匈牙利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
-##### [India（印度）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
-##### [Indonesia（印度尼西亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
-##### [爱尔兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
-##### [以色列](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
-##### [意大利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
-##### [日本](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
-##### [约旦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
-##### [肯尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
-##### [拉脱维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
-##### [Lithuania（立陶宛）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
-##### [卢森堡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-##### [马其顿](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
-##### [马来西亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
-##### [马耳他](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
-##### [墨西哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-##### [摩尔多瓦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-##### [Monaco（摩纳哥）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
-##### [荷兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
-##### [新西兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
-##### [挪威](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
-##### [Pakistan（巴基斯坦）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
-##### [巴拿马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
-##### [巴拉圭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
-##### [Peru（秘鲁）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
-##### [菲律宾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
-##### [波兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
-##### [Portugal（葡萄牙）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
-##### [波多黎各](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
-##### [卡塔尔](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
-##### [罗马尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
-##### [Russia（俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
-##### [沙特阿拉伯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
-##### [塞尔维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
-##### [新加坡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
-##### [斯洛伐克](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
-##### [斯洛文尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-##### [南非](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
-##### [韩国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
-##### [西班牙](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
-##### [斯里兰卡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
-##### [瑞典](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
-##### [Switzerland（瑞士）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
-##### [台湾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
-##### [泰国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-##### [特立尼达和多巴哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
-##### [土耳其](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
-##### [乌克兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
-##### [阿拉伯联合酋长国 (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
-##### [英国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
-##### [美国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
-##### [Uruguay（乌拉圭）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
-##### [委内瑞拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
-##### [Vietnam（越南）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 #### [Teams 中的视频 - 音频会议](audio-conferencing-videos.md)
 
 
@@ -330,6 +252,7 @@
 ### [如何购买通话套餐](calling-plans-for-office-365.md)
 ### [为组织设置通话套餐](set-up-calling-plans.md)
 ### [快速入门指南：配置通话套餐](configuring-teams-calling-quickstartguide.md)
+### [通话套餐的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## 电话系统直接路由
 
@@ -405,105 +328,6 @@
 
 
 ## 参考
-### 通话套餐的国家和地区可用性
-
-#### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-#### [阿尔及利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
-#### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
-#### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
-#### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
-#### [巴林](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-#### [Belarus（白俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
-#### [Belgium（比利时）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
-#### [伯利兹](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-#### [贝宁](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md)
-#### [波斯尼亚和黑塞哥维那](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
-#### [巴西](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
-#### [文莱](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
-#### [保加利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
-#### [柬埔寨](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
-#### [加拿大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
-#### [智利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
-#### [中国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
-#### [哥伦比亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
-#### [哥斯达黎加](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
-#### [Croatia（克罗地亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
-#### [塞浦路斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
-#### [捷克共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
-#### [丹麦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
-#### [多米尼加共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
-#### [Ecuador（厄瓜多尔）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
-#### [埃及](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-#### [萨尔瓦多](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
-#### [爱沙尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
-#### [Finland（芬兰）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
-#### [France（法国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
-#### [格鲁吉亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-#### [Germany（德国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
-#### [加纳](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
-#### [希腊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
-#### [洪都拉斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
-#### [香港特别行政区](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
-#### [匈牙利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
-#### [India（印度）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
-#### [Indonesia（印度尼西亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
-#### [爱尔兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
-#### [以色列](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
-#### [意大利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
-#### [日本](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
-#### [约旦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
-#### [Kazakhstan（哈萨克斯坦）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kazakhstan.md)
-#### [肯尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
-#### [科威特](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md)
-#### [拉脱维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
-#### [Lithuania（立陶宛）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
-#### [卢森堡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-#### [马其顿](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
-#### [马来西亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
-#### [马耳他](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
-#### [墨西哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-#### [摩尔多瓦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-#### [Monaco（摩纳哥）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
-#### [摩洛哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
-#### [荷兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
-#### [新西兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
-#### [尼加拉瓜](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md)
-#### [尼日利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
-#### [挪威](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
-#### [Pakistan（巴基斯坦）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
-#### [巴拿马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
-#### [巴拉圭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
-#### [Peru（秘鲁）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
-#### [菲律宾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
-#### [波兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
-#### [Portugal（葡萄牙）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
-#### [波多黎各](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
-#### [卡塔尔](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
-#### [罗马尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
-#### [Russia（俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
-#### [沙特阿拉伯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
-#### [塞尔维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
-#### [新加坡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
-#### [斯洛伐克](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
-#### [斯洛文尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-#### [南非](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
-#### [韩国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
-#### [西班牙](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
-#### [斯里兰卡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
-#### [瑞典](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
-#### [Switzerland（瑞士）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
-#### [台湾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
-#### [泰国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-#### [特立尼达和多巴哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
-#### [突尼斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
-#### [土耳其](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
-#### [乌克兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
-#### [阿拉伯联合酋长国 (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
-#### [英国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
-#### [美国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
-#### [Uruguay（乌拉圭）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
-#### [委内瑞拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
-#### [Vietnam（越南）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 ### 国家/地区电话号码管理 
 #### [澳大利亚的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [比利时的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
@@ -688,11 +512,10 @@
 ### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
 
 <!-- ============================================================ -->
-#       
-#    
 # 混合连接 
 
 ## [规划混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -760,8 +583,6 @@
 <!-- ============================================================ -->
 
 
-
-
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
@@ -805,13 +626,6 @@
 
 <!-- ============================================================ -->
 
-# 中小型企业指南
-## [适用于中小型企业的 Teams 模板](smb-templates.md)
-#    
-#    
-
-<!-- ============================================================ -->
-
 # 安全性和合规性
 ## [概述](security-compliance-overview.md)
 ## [Teams 中的信息障碍](information-barriers-in-teams.md)
@@ -836,18 +650,28 @@
 
 
 <!-- ============================================================ -->
-#       
-#          
-# [培训](training-microsoft-teams-landing-page.md)
-## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
-## [Teams 管理员培训](itadmin-readiness.md)
-## [Teams 的最终用户培训](enduser-training.md)
+# 监视、维护和疑难解答
+## [监视和管理通话质量](monitor-call-quality-qos.md)
+### [体验质量检查指南](quality-of-experience-review-guide.md)
+### [在 Teams 中设置 QoS](QoS-in-Teams.md)
+#### [在 Windows 客户端上设置 QoS](QoS-in-Teams-clients.md)
+### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [设置通话分析](set-up-call-analytics.md)
+### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
+### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
+## [解决安装和更新问题](troubleshoot-installation.md)
+## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
+## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
+## [验证 Teams 的服务运行状况](service-health.md)
+## [Teams 的已知问题](Known-issues.md)
+## [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
-
+#       
+#    
 # 参考
-
 
 ## 准备好推广 Teams
 ### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
@@ -861,10 +685,6 @@
 ### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ### [在 Teams 中规划管理](plan-teams-governance.md)
 ### [使用网络测试助理](use-network-testing-companion.md)
-
-
-
-
 
 ## 安装 Teams
 ### [获取 Teams 客户端](get-clients.md)
@@ -899,7 +719,7 @@
 
 
 ## 与 Office 365 的互操作性
-### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+
 ### [Office 365 组和团队](office-365-groups.md)
 ### [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
 ### [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
@@ -907,7 +727,6 @@
 #### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
 ### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
 ### [Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
-
 
 
 ## 支持的设备
@@ -919,26 +738,6 @@
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-
-## 故障排除与支持
-### [Teams 的已知问题](Known-issues.md)
-### [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
-### [在对 Teams 进行故障排除时使用日志文件](log-files.md)
-### [验证 Teams 的服务运行状况](service-health.md)
-### [Teams 策略中的特殊字符限制](special-character-restrictions-in-policy-names.md)
-
-### [监视通话质量](monitor-call-quality-qos.md)
-#### [体验质量检查指南](quality-of-experience-review-guide.md)
-#### [在 Teams 中设置 QoS](QoS-in-Teams.md)
-##### [在 Windows 客户端上设置 QoS](QoS-in-Teams-clients.md)
-#### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [设置通话分析](set-up-call-analytics.md)
-#### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
-#### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
-
 ## Teams PowerShell
 ### [概述](teams-powershell-overview.md)
 ### [Teams 的 Cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
@@ -946,3 +745,107 @@
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中获取帮助](get-help-in-microsoft-teams.md)
 ## [Teams 内容更新](teams-updates.md)
+
+
+## 音频会议和通话套餐的国家/地区可用性
+### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [阿尔及利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
+### [安提瓜和巴布达](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
+### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
+### [澳大利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
+### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
+### [巴哈马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
+### [巴林](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
+### [巴巴多斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
+### [Belarus（白俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
+### [Belgium（比利时）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
+### [伯利兹](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
+### [贝宁](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md)
+### [百慕大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md)
+### [波斯尼亚和黑塞哥维那](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
+### [巴西](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
+### [文莱](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
+### [保加利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
+### [柬埔寨](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
+### [加拿大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
+### [开曼群岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
+### [智利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
+### [中国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
+### [哥伦比亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
+### [哥斯达黎加](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
+### [Croatia（克罗地亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
+### [塞浦路斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
+### [捷克共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
+### [丹麦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
+### [多米尼克](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md)
+### [多米尼加共和国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
+### [Ecuador（厄瓜多尔）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
+### [埃及](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
+### [萨尔瓦多](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
+### [爱沙尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
+### [Finland（芬兰）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
+### [France（法国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
+### [格鲁吉亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
+### [Germany（德国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [希腊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
+### [格林纳达](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
+### [关岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
+### [洪都拉斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
+### [香港特别行政区](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
+### [匈牙利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
+### [India（印度）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
+### [Indonesia（印度尼西亚）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
+### [爱尔兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
+### [以色列](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
+### [意大利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
+### [牙买加](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md)
+### [日本](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
+### [约旦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
+### [肯尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
+### [拉脱维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
+### [Lithuania（立陶宛）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
+### [卢森堡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
+### [马其顿](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
+### [马来西亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
+### [马耳他](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
+### [墨西哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
+### [摩尔多瓦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
+### [Monaco（摩纳哥）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [荷兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
+### [新西兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
+### [挪威](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
+### [Pakistan（巴基斯坦）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
+### [巴拿马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
+### [巴拉圭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
+### [Peru（秘鲁）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
+### [菲律宾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
+### [波兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
+### [Portugal（葡萄牙）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
+### [波多黎各](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
+### [卡塔尔](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
+### [罗马尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
+### [Russia（俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
+### [圣基茨和尼维斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md)
+### [圣卢西亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md)
+### [沙特阿拉伯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
+### [塞尔维亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
+### [新加坡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
+### [斯洛伐克](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
+### [斯洛文尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
+### [南非](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
+### [韩国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
+### [西班牙](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
+### [斯里兰卡](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
+### [瑞典](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
+### [Switzerland（瑞士）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
+### [台湾](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
+### [泰国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
+### [特立尼达和多巴哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+### [土耳其](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
+### [乌克兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
+### [阿拉伯联合酋长国 (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
+### [英国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
+### [美国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
+### [Uruguay（乌拉圭）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
+### [委内瑞拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
+### [Vietnam（越南）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
