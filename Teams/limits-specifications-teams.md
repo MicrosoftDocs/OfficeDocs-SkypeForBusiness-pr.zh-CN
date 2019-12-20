@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679232"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823907"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -101,6 +101,18 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |------------|---------------|
 |会议中的人员数  | 250    |
 |PowerPoint 文件的最大大小 | 2GB|
+
+### <a name="meeting-expiration"></a>会议过期时间
+
+|会议类型  |会议将在此时间后过期  |每次发起或更新会议时，过期时间都延长此时间  |
+|---------|---------|---------|
+|立即开会     |开始时间 + 8 小时         |不适用         |
+|常规，无结束时间     |开始时间 + 60 天         | 60 天        |
+|常规，设有结束时间     |结束时间 + 60 天         |60 天         |
+|定期，无结束时间     |开始时间 + 60 天         |60 天         |
+|定期，设有结束时间     |上次会议的结束时间 + 60 天         |60 天         |
+
+
 
 ## <a name="teams-live-events"></a>Teams 实时事件
 
