@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240032"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "39254391"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for business Server 中部署用于灾难恢复的配对的前端池
  
@@ -25,9 +25,9 @@ ms.locfileid: "36240032"
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署配对前端池
 
-1. 如果池是新的且尚未定义, 请使用拓扑生成器创建池。
+1. 如果池是新的且尚未定义，请使用拓扑生成器创建池。
     
-2. 在拓扑生成器中, 右键单击两个池之一, 然后单击 "**编辑属性**"。
+2. 在拓扑生成器中，右键单击两个池之一，然后单击 "**编辑属性**"。
     
 3. 在左侧窗格中单击“**复原**”，然后在右侧窗格中选择“**关联的备份池**”。
     
@@ -39,25 +39,27 @@ ms.locfileid: "36240032"
     
 6. 使用拓扑生成器发布拓扑。
     
-7. 如果尚未部署两个池，请立即部署它们，配置随即完成。你可以跳过此过程的最后两步。
+7. 如果尚未部署两个池，请立即部署它们，配置随即完成。 你可以跳过此过程中的最后一个步骤。
     
-    但是，如果在定义配对关系之前已部署池，那么必须完成以下两个最终步骤。
+    但是，如果在定义配对关系之前已部署了池，则必须完成以下最后步骤。
     
 8. 在两个池的每个前端服务器上，运行以下命令：
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     这将配置确保备份配对正常运行所需的其他服务。
     
-9. 从 Skype for Business 服务器管理外壳命令提示符处, 运行以下命令: 
+9. 在两个池中的每台前端服务器上，一旦引导程序完成安装备份配对所需的组件，请确保重新应用之前在两个池中的这些前端服务器上应用的任何现有累积更新，然后继续下一步行动。
+
+10. 从 Skype for Business 服务器管理外壳命令提示符处，运行以下命令： 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
+11. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>

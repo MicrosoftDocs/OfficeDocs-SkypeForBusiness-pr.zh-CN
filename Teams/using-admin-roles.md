@@ -19,10 +19,10 @@ description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97288109f7998a8d29520169e229a5546da94bc5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 12/20/2019
 ms.locfileid: "37616053"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
