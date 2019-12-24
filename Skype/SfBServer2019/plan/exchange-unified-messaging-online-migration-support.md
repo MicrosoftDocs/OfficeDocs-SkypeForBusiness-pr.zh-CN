@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890576"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854087"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -185,7 +185,7 @@ Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创�
 | AA | 服务功能 | 工作时间和假日处理后  |  | Y | Y    |
 | AA | 服务功能 | 使用文本到语音的自定义问候语  |  | Y | Y    |
 | AA | 服务功能 | 分机号码   | 通过拨入分机来联系用户  | Y   | Y    |
-| AA | 服务功能 | 用于 AA 呼叫者的邮箱离开消息    |  | CY19   | Y    |
+| AA | 服务功能 | 用于 AA 呼叫者的邮箱离开消息    |  | Y   | Y    |
 | AA | 服务功能 | 将多个 PSTN 号码分配给 AA|  | Y | Y    |
 | AA | 租户-管理员功能 | Web 门户管理   |  | 是 | 否    |
 | AA | 租户-管理员功能 | PowerShell cmdlet  |  | Y | Y    |
