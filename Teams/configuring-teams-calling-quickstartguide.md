@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516477"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910000"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -44,12 +44,12 @@ ms.locfileid: "37516477"
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>启用团队中的**拨号键盘**的先决条件
 若要启用团队中的 "**拨号盘**" 选项卡并允许用户拨打和接收 PSTN 呼叫，您需要为用户预配电话系统和通话计划。 若要了解如何设置通话计划，请参阅[设置通话计划](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)。
-
+此外，对于仅限团队的用户，您必须确保在团队呼叫策略中启用 "允许私人通话"。 有关详细信息，请参阅[切换到新的 Microsoft 团队管理中心期间管理团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
 > [!NOTE]
 > 您还可以使用直接路由允许用户拨打和接收 PSTN 呼叫。 若要了解如何设置直接路由，请参阅[配置直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure)。
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>使用 TeamsUpgradePolicy 控制呼叫所在的位置
-若要控制团队或 Skype for business 中的传入呼叫（和聊天）领域，管理员是否使用[Microsoft 团队管理中心](https://aka.ms/teamsadmincenter)或使用与[Skype for](https://docs.microsoft.com/powershell/module/skype) Business 的远程 Windows PowerShell 会话使用 TeamsUpgradePolicypowershell.
+若要控制团队或 Skype for business 中的传入呼叫（和聊天）土地，管理员是否使用[Microsoft 团队管理中心](https://aka.ms/teamsadmincenter)或使用与[Skype for](https://docs.microsoft.com/powershell/module/skype) Business Cmdlet 的远程 Windows PowerShell 会话使用 TeamsUpgradePolicy。
 
 
 TeamsUpgradePolicy 的默认配置为 "孤岛" 模式，它旨在确保现有业务工作流在团队部署期间不会中断。 默认情况下，对你的用户的 VoIP、PSTN 和联合呼叫将继续路由到 Skype for business，直到你更新策略以启用到团队的入站呼叫。  当收件人处于 "孤岛" 模式时：

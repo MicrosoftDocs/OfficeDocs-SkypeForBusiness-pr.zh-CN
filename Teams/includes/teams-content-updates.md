@@ -3,59 +3,19 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>2019年11月18日的周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 11/18/2019 | [Microsoft 团队中的信息障碍](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 11/18/2019 | [Microsoft 团队会议室需求](/MicrosoftTeams/room-systems/requirements) | 修改内容 |
-| 11/18/2019 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 11/18/2019 | [适用于医疗保健组织的 Teams 模板入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 修改内容 |
-| 11/18/2019 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 修改内容 |
-| 11/19/2019 | [Teams 中的用户状态](/MicrosoftTeams/presence-admins) | 修改内容 |
-| 11/19/2019 | [在 Microsoft 团队中管理专用频道的生命周期](/MicrosoftTeams/private-channels-life-cycle-management) | 修改内容 |
-| 11/19/2019 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 修改内容 |
-| 11/19/2019 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改内容 |
-| 11/19/2019 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 11/19/2019 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
-| 11/20/2019 | [与 Microsoft Teams 中其他组织的用户通信](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
-| 11/20/2019 | [为你的组织管理 Microsoft Teams 设置](/MicrosoftTeams/enable-features-office-365) | 修改内容 |
-| 11/20/2019 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 11/20/2019 | [Microsoft Teams 中的身份模型和身份验证](/MicrosoftTeams/identify-models-authentication) | 修改内容 |
-| 11/20/2019 | [Microsoft Teams 中的共享线路外观](/MicrosoftTeams/shared-line-appearance) | 修改内容 |
-| 11/21/2019 | [在 Microsoft Teams 中搜索审核日志查找事件](/MicrosoftTeams/audit-log-events) | 修改内容 |
-| 11/21/2019 | [从 Slack 迁移到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 修改内容 |
-| 11/21/2019 | [使用 Microsoft 团队的网络 Planner](/MicrosoftTeams/network-planner) | 修改内容 |
-| 11/21/2019 | [Microsoft Teams 保留策略常见问题解答](/MicrosoftTeams/retention-policies-faq) | 修改内容 |
-| 11/21/2019 | [Microsoft Teams 中的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
-| 11/21/2019 | [版本支持](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 修改内容 |
-| 11/21/2019 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
-| 11/21/2019 | [在 Microsoft 团队租户应用目录中发布应用](/MicrosoftTeams/tenant-apps-catalog-teams) | 修改内容 |
-| 11/22/2019 | [欢迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 修改内容 |
-| 11/22/2019 | [在 Microsoft Teams 中使用内置选项卡和自定义选项卡](/MicrosoftTeams/built-in-custom-tabs) | 修改内容 |
-| 11/22/2019 | [Microsoft Teams 中的呼叫寄存和取回](/MicrosoftTeams/call-park-and-retrieve) | 修改内容 |
-| 11/22/2019 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 11/22/2019 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
-| 11/22/2019 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 11/22/2019 | [为用户获取电话号码](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 修改内容 |
-| 11/22/2019 | [使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 修改内容 |
-| 11/22/2019 | [管理 Microsoft Teams 的用户访问](/MicrosoftTeams/user-access) | 修改内容 |
-
-
 ## <a name="week-of-november-25-2019"></a>2019年11月25日的周
 
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
 | 11/25/2019 | [使用直接路由规划媒体旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 修改内容 |
-| 11/25/2019 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改日期 |
+| 11/25/2019 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
 | 11/25/2019 | [Microsoft 团队 PSTN 使用报告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 修改内容 |
 | 11/26/2019 | [打开 Office 365 组织中的 Microsoft Teams](/MicrosoftTeams/office-365-set-up) | 修改内容 |
 | 11/26/2019 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
 | 11/26/2019 | [为基于位置的路由配置网络设置](/MicrosoftTeams/location-based-routing-configure-network-settings) | 修改内容 |
 | 11/26/2019 | [为直接路由启用基于位置的路由](/MicrosoftTeams/location-based-routing-enable) | 修改内容 |
-| 11/26/2019 | [为直接路由计划基于位置的路由](/MicrosoftTeams/location-based-routing-plan) | 修改时间 |
+| 11/26/2019 | [为直接路由计划基于位置的路由](/MicrosoftTeams/location-based-routing-plan) | 修改内容 |
 | 11/26/2019 | 基于位置的路由术语 | 删除内容 |
 | 11/26/2019 | [管理 Microsoft 团队中的紧急呼叫路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
 | 11/26/2019 | [管理 Microsoft 团队中的紧急呼叫策略](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
@@ -91,7 +51,7 @@
 | 12/6/2019 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
 | 12/6/2019 | [欢迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 修改内容 |
 | 12/6/2019 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改内容 |
-| 12/6/2019 | [Microsoft Teams 培训](/MicrosoftTeams/training-microsoft-teams-landing-page) | 修改内容 |
+| 12/6/2019 | [Microsoft Teams 培训](/MicrosoftTeams/training-microsoft-teams-landing-page) | 修改时间 |
 | 12/6/2019 | [Microsoft 团队会议室需求](/MicrosoftTeams/room-systems/requirements) | 修改内容 |
 | 12/6/2019 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
 
@@ -128,7 +88,7 @@
 | 12/12/2019 | [管理 Microsoft 团队中的紧急呼叫路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
 | 12/12/2019 | [管理 Microsoft 团队中的紧急呼叫策略](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
 | 12/12/2019 | [管理 Microsoft 团队中的反馈策略](/MicrosoftTeams/manage-feedback-policies-in-teams) | 修改内容 |
-| 12/12/2019 | [通过 SCCM 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改时间 |
+| 12/12/2019 | [通过 SCCM 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
 | 12/12/2019 | [Microsoft 团队的灵敏度标签](/MicrosoftTeams/sensitivity-labels) | 修改内容 |
 | 12/12/2019 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
 | 12/12/2019 | [管理 Microsoft 团队中的团队策略](/MicrosoftTeams/teams-policies) | 修改内容 |
@@ -172,4 +132,12 @@
 | 12/18/2019 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
 | 12/18/2019 | [Microsoft 365 政府版规划 - GCC High 部署 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
 | 12/18/2019 | [适用于团队的电话和设备](/MicrosoftTeams/teams-ip-phones) | 修改内容 |
-| 12/19/2019 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 12/19/2019 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改时间 |
+
+
+## <a name="week-of-december-23-2019"></a>2019年12月23日的某一周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 12/27/2019 | [什么是拨号计划？](/MicrosoftTeams/what-are-dial-plans) | 修改内容 |

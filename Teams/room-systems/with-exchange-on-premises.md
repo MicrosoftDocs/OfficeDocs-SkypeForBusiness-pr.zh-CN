@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 阅读本主题，了解如何使用 Exchange on on-premises 在混合环境中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675406"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910050"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
@@ -44,11 +44,11 @@ Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink
 
   - 您需要在 Office 365 计划中安装 Skype for Business Online （计划2）或更高版本。 该计划需要支持会议功能。
   
-  - - 如果您需要使用适用于 Microsoft 团队聊天室的电话服务提供商的企业语音（PSTN 电话），您需要 Skype for Business Online （计划3）。
+  - 如果您需要使用适用于 Microsoft 团队聊天室的电话服务提供商的企业语音（PSTN 电话），您需要 Skype for Business Online （计划3）。
   
-  - - 租户用户必须具有 Exchange 邮箱。
+  - 租户用户必须具有 Exchange 邮箱。
   
-  - - 您的 Microsoft 团队会议室帐户需要 Skype for business Online （计划2）或 Skype for business Online （计划3）许可证，但不需要 Exchange Online 许可证。
+  - 您的 Microsoft 团队会议室帐户需要 Skype for business Online （计划2）或 Skype for business Online （计划3）许可证，但不需要 Exchange Online 许可证。
 
 - 将 Skype for Business Server 许可证分配给你的 Microsoft 团队聊天室帐户。
 
@@ -144,9 +144,9 @@ Skype for Business Online PowerShell 用于管理 Microsoft 团队和 Skype for 
 
 2. 获取帐户的 SIP 地址：
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. 若要启用 Microsoft 团队聊天室帐户，请运行以下命令：
 
