@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理专用频道。
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020046"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929558"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 团队中的专用频道
 
@@ -132,7 +132,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 
 ## <a name="private-channel-sharepoint-sites"></a>专用频道 SharePoint 网站
 
-每个专用频道都有自己的 SharePoint 网站集，针对文件共享和快速资源调配进行了优化。 单独的网站集是确保仅限于专用频道的成员与团队所有者有权访问网站集内的所有资产的团队网站的成员。 默认情况下，这些网站集是使用文档库创建的，并且可以通过[网站管理界面](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松地增强到功能齐全的网站集。 每个网站集在与父团队的网站集相同的地理区域中创建。 这些轻量级网站具有自定义模板 ID "TEAMCHANNEL # 0"，以便通过 PowerShell 和 Graph API 更轻松地进行管理。
+每个专用频道都有自己的 SharePoint 网站集，针对文件共享和快速资源调配进行了优化。 单独的网站集是确保仅限于专用频道的成员与团队所有者有权访问网站集内的所有资产的团队网站的成员。 默认情况下，这些网站集是使用文档库创建的，并且可以通过[网站管理界面](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松地增强到功能齐全的网站集。 每个网站集在与父团队的网站集相同的地理区域中创建。 这些轻量级网站具有自定义模板 ID "TEAMCHANNEL # 0"，以便通过 PowerShell 和 Graph API 更轻松地进行管理。  按照设计，它们在 SharePoint 管理中心中不可见。
 
 为了容纳每个租户的更多网站集，该限制已从500000增加到2000000。 专用频道网站集同步数据分类，并从父团队的网站集继承来宾访问权限。  网站集所有者和成员组的成员身份与团队中的专用频道的成员身份保持同步。 对 SharePoint Online 中的所有者或成员组的成员身份所做的任何更改都将在四个小时内自动还原到专用通道成员身份。 在某些用户需要访问文档而无需访问专用频道消息的情况下，将它们添加到网站上的 "访问者" 组或与 "所有者" 和 "成员" 不同的新组中。
 
