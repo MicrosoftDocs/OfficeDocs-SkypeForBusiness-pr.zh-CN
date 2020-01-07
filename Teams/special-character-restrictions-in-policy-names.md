@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 查看策略名称中有特殊字符以及可以执行哪些操作来修复这些问题。
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568652"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952755"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 
@@ -40,7 +40,7 @@ ms.locfileid: "37568652"
 
 **步骤 1-使用 PowerShell 进行远程连接。**
 如果尚未[安装 Windows PowerShell，请设置计算机](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ ms.locfileid: "37568652"
 > [!NOTE]
 > 此示例适用于[消息](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)策略。  对于其他策略类型，步骤是相同的，但你必须使用正确的 cmdlet。 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ ms.locfileid: "37568652"
 
 运行此操作将为你创建新策略，但你需要添加正确的设置，方法是先查看 "[设置-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) "，然后运行它：
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **步骤 4-分配策略。**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 有关此 cmdlet 的详细信息，请参阅、[授权 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 。
@@ -76,14 +76,14 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
 **步骤 5-删除旧策略。**
 
 这将删除具有特殊字符的旧策略。
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 有关此 cmdlet 的详细信息，请参阅[CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 。
 
 如果此命令成功，您就已完成。 如果上面的命令返回错误，则是因为旧策略已分配给用户，因此你需要运行以从策略中删除所有分配的用户：
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？

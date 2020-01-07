@@ -31,12 +31,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: c8d460f4ad94adaccce9fb84b12e37ab5adc0cc6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218029"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952745"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
 
@@ -299,7 +299,7 @@ ms.locfileid: "39218029"
 1.  在 " **SRS V2 SRSComputerName 包**" 文件夹中，创建名为**SET-SRSCOMPUTERNAME**的新 HTML 应用程序。
 
 2.  将以下脚本复制到**Set-SRSComputerName**文件中。 或者，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载 Set-SRSComputerName 文件。
-    ```
+    ```HTML
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -409,7 +409,7 @@ ms.locfileid: "39218029"
 1. 在**SRS v2-Sysprep 程序包**文件夹中，创建名为**UNATTEND.XML**的新 XML 文件。
 
 2. 将以下文本复制到**unattend.xml**文件中。 或者，您可以从[此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)下载 unattend.xml 文件。
-   ```
+   ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
    <settings pass="specialize">

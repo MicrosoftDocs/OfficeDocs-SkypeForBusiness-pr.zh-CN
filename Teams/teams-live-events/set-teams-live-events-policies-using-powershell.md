@@ -15,12 +15,12 @@ ms.collection:
 description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 0d734cd4a92f3ebd32e2d0e6a24292ae50b456e7
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37570164"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952875"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -40,11 +40,11 @@ ms.locfileid: "37570164"
 **允许用户安排实时事件**
 
 如果向用户分配了全局策略，请运行并验证*AllowBroadcastScheduling*参数是否设置为*True*：
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 然后，将该用户分配给全局策略，运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
@@ -52,73 +52,73 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 **希望组织中的所有用户都能够安排实时事件**
 
 如果向用户分配了全局策略，请运行并验证*AllowBroadcastScheduling* * 是否设置为*True*：
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 如果向用户分配了全局策略之外的策略，请运行并验证 *-AllowBroadcastScheduling*是否设置为*True*：
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
 **你希望在你的组织中禁用实时事件计划**
 
 禁用实时事件调度，运行：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 将组织中的所有用户分配给全局策略，请运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 **您希望大量用户能够安排实时事件，并防止一组用户安排实时事件**
 
 运行并验证*AllowBroadcastScheduling*是否设置为*True*：
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
 然后，将一个或用户分配给全局策略，运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 创建不允许安排实时事件的新策略，运行：
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 禁用实时事件调度，运行：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 然后将用户分配给此策略，运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **您希望为大量用户禁用实时事件调度，并允许一组用户安排它们**
 
 禁用实时事件调度，运行：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 然后将这些用户分配给全局策略，运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 创建允许实时事件调度的策略，请运行：
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
 启用实时事件调度，运行：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
 然后将用户分配给此策略，运行：
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 ## <a name="set-who-can-join-live-events"></a>设置可以加入实时事件的人员
  
 将全局策略设置为允许用户创建所有人（包括匿名用户）都可以出席的事件，请运行：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>设置实时事件的录制选项
@@ -126,7 +126,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 > 此设置仅适用于团队中产生的事件。
 
 将全局策略设置为禁用实时事件的录制：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>在实时事件中设置实时字幕和副标题
@@ -134,7 +134,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > 此设置仅适用于团队中产生的事件。 
 
 设置全局策略，为活动与会者打开实时字幕和副标题（脚本）：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 

@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074614"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952455"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -30,7 +30,7 @@ ms.locfileid: "38074614"
 
 任何文本编辑器都可用于创建设置文件。 **XML 元素**表说明了此示例 SkypeSettings （必需文件名）配置文件中所示的元素。
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
@@ -93,7 +93,7 @@ ms.locfileid: "38074614"
 |\<SendLogs\> |容器 |第一 &#x2776;  ||
 |\<EmailAddressForLogsAndFeedback\> |字符串 &#x2778;  || 设置可在出现 "提供反馈" 窗口时向其发送日志的可选电子邮件地址。 |
 |\<SendLogsAndFeedback\> |布尔 &#x2777;  || 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。  |
-| \<Devices\>  |容器 |第一 &#x2776;  | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。  |
+| \<设备\>  |容器 |第一 &#x2776;  | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。  |
 |\<MicrophoneForCommunication\> |字符串 &#x2778;  ||设置在会议中用作录制设备的麦克风。 |
 |\<SpeakerForCommunication\> |字符串 &#x2778;  ||用作会议扬声器的设备。 此设置用于设置通话中使用的扬声器设备。 |
 |\<DefaultSpeaker\> |字符串 &#x2778;  ||用于播放来自 HDMI 摄入源的音频的设备。 |

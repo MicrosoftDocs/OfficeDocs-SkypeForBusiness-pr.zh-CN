@@ -3,7 +3,7 @@ title: 在白俄罗斯的可用性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于白俄罗斯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: ce623271b3a619271ba9c89b860b0944e19719de
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 7c5df54c4aec7b621dc8ff2f4cb775268d4efe0b
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571132"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952895"
 ---
 # <a name="availability-in-belarus"></a>在白俄罗斯的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37571132"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md) <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |使用通讯信用点数每分钟支付  <br/> |
    
@@ -76,7 +76,7 @@ ms.locfileid: "37571132"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |否  <br/> |
+|是否提供通信点数？  <br/> |是  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

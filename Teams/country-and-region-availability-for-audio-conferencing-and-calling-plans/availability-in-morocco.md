@@ -3,7 +3,7 @@ title: 摩洛哥的可用性
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于摩洛哥的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0287bf37364e82227ed9fe7b459d889d1f1ae456
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ac89283080c66fbcf3d89541fff93e67750dbd34
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571039"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952415"
 ---
 # <a name="availability-in-morocco"></a>摩洛哥的可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571039"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md)  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否 <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    
@@ -65,8 +65,8 @@ ms.locfileid: "37571039"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | Casablanca （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|是否提供收费电话号码？  <br/> |是（[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | Casablanca  <br/> |
+|是否提供收费电话号码？  <br/> |是 <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
@@ -75,7 +75,7 @@ ms.locfileid: "37571039"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否提供通信点数？  <br/> |否  <br/> |
+|是否提供通信点数？  <br/> |是  <br/> |
    
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290972"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952805"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -83,7 +83,7 @@ _图 1-本指南中涵盖的关键操作区域_
 在团队和 Skype for business 中讨论质量时，定义术语以实现共同的理解非常重要。 在此处定义的质量是服务指标和用户体验的组合。
 
 <!-- Note: need to update graphic-->
-![服务指标和用户体验的插图](media/qerguide-image-whatisquality.png "Service 指标由较差的流比率、可靠性、终结点/设备和客户端版本组成。用户体验由用户对服务质量的理解构成。)
+![服务指标和用户体验的插图](media/qerguide-image-whatisquality.png "服务指标由较差的流比率、可靠性、终结点/设备和客户端版本组成。用户体验由用户对服务质量的理解构成。")
 
 _图 2-什么是质量？_
 
@@ -225,7 +225,7 @@ _图 3-团队和 Skype for business Online 部署的关键类别_
 第一次执行这些任务比后续迭代需要更多的工作，因为其中许多类别都要求您验证部署配置。 通过满足你定义的目标实现所需的状态后，执行这些任务将帮助你维护该状态。
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![每个质量类别的每周任务列表](media/qerguide-image-tasks.png "L每个质量类别的每周任务的 ist)
+![每个质量类别的每周任务列表](media/qerguide-image-tasks.png "每个质量类别的每周任务列表")
 
 #### <a name="service-management-tasks"></a>服务管理任务
 
@@ -323,7 +323,7 @@ _图 4-CQD 报表类别_
 
 2. 出现提示时，打开 Azure PowerShell 命令窗口并运行以下脚本，输入 Office 365 凭据： 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ _图 4-CQD 报表类别_
 
 2. 运行以下命令：
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _图 5-选择产品筛选器_
 
 若要筛选所有详细报表，请在浏览器栏中将以下内容追加到 URL 的末尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ _图 11-查询编辑器_
 
 若要实现 URL 筛选器，请在浏览器地址栏中将以下内容追加到 URL 的末尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ _图 11-查询编辑器_
 
 若要筛选团队或 Skype for business 的报表，请将以下内容附加到 URL 的末尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 

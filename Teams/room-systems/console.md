@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置 Microsoft 团队聊天室控制台及其外围设备。
-ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 2c88dc5ba754e907ab32b41ea1731dc6f367d5a9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665435"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952735"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
 
@@ -133,7 +133,7 @@ CreateSrsMedia 脚本自动执行以下任务：
 11. 启动提升的命令提示符。
     
 12. 运行以下命令： 
-    ```
+    ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
@@ -190,7 +190,7 @@ Microsoft 团队聊天室控制台需要信任其连接的服务器所使用的�
     
 3. 运行以下命令：
     
-   ```
+   ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
@@ -207,13 +207,13 @@ Microsoft 团队聊天室控制台需要信任其连接的服务器所使用的�
     
 3. 在 Powershell 中输入以下命令：
     
-   ```
+   ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
 例如，如果你的完全限定的域是 redmond.corp.microsoft.com，而你希望 Microsoft 团队聊天室控制台位于 "Microsoft 团队聊天室" OU 中，而该 OU 是 "Resources" OU 的子 ou，则该命令将是：
   
-```
+```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 

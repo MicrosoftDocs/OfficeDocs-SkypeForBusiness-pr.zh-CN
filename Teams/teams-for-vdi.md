@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069343"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952845"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -262,7 +262,7 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 
 以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 DisallowCalling 调用策略。
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 ```
 
@@ -270,7 +270,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email i
 
 以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOff 会议策略分配给用户。
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 ```
 
@@ -314,7 +314,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
 以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 AllowCalling 调用策略。
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
 ```
 
@@ -322,7 +322,7 @@ Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id�
 
 以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOn 会议策略分配给用户。
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 ```
 

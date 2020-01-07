@@ -1,6 +1,5 @@
 ---
 title: 音频会议和通话套餐的国家/地区可用性
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以选择一个国家/地区来查看音频会议、电话系统、通话计划、通讯信用点数，以及收费和免费电话号码是否可用。
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741386"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952435"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -47,7 +46,7 @@ ms.locfileid: "40741386"
 > - [巴哈马](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
 > - [巴巴多斯](availability-in-barbados.md)
-> - [白俄罗斯](availability-in-belarus.md)
+> - [Belarus（白俄罗斯）](availability-in-belarus.md)
 > - [Belgium（比利时）](availability-in-belgium.md)
 > - [伯利兹](availability-in-belize.md)
 > - [贝宁](availability-in-benin.md)
@@ -147,7 +146,7 @@ ms.locfileid: "40741386"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-**如果您要查找包含所有国家和地区的电子表格，请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**。
+**如果您要查找包含所有国家和地区的电子表格，请下载并保存[云语音功能国家/地区可用性电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**。
 
 ***
 

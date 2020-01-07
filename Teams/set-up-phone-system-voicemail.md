@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: f53ae3ac948c7b50fa2e68a3fc10cf619299fd16
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e0ddeac2230d057ac64237a6728e8e707f5d8958
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571553"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952475"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571553"
   
 1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 您可能还需要购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [分配或删除 Office 365 for business 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。 分配完成后，他们将能够接收语音邮件消息！
+2. [分配或删除 Office 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。 分配完成后，他们将能够接收语音邮件消息！
     
 3. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
@@ -50,15 +50,15 @@ ms.locfileid: "37571553"
   
 1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 您还需要购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [分配或删除 Office 365 for business 的许可证](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。
+2. [分配或删除 Office 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。
     
-3. 按照为你的用户部署的本地 PSTN 呼叫解决方案匹配说明。 对于云连接器版本，请按照 "[配置 Skype for Business 云连接器](https://technet.microsoft.com/library/mt605228.aspx)的**用户电话语音和语音邮件服务**" 部分中的说明操作。 对于使用 Skype for Business 服务器的 PSTN 呼叫，请遵循[启用企业内部部署企业语音的用户](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 对于团队直接路由，请按照配置电话号码和启用 "[配置直接路由](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)" 部分中的 "**启用企业语音和语音邮件**" 部分。
+3. 按照为你的用户部署的本地 PSTN 呼叫解决方案匹配说明。 对于云连接器版本，请按照 "[配置 Skype for Business 云连接器](https://technet.microsoft.com/library/mt605228.aspx)的**用户电话语音和语音邮件服务**" 部分中的说明操作。 对于使用 Skype for Business 服务器的 PSTN 呼叫，请遵循[启用企业内部部署企业语音的用户](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 对于团队直接路由，请按照配置电话号码和启用 "[配置直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)" 部分中的 "**启用企业语音和语音邮件**" 部分。
 
 4. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-5. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件，请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置;[使用连接器配置邮件流](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
+5. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件，请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置;[使用连接器配置邮件流](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
-6. 若要启用语音邮件功能（如自定义问候语）和 Skype for business 客户端中的视觉语音邮件，需要通过 Exchange Web 服务将来自 Office 365 的连接到 Exchange server 邮箱。 若要启用此连接，必须配置[exchange 和 Exchange Online 组织之间的配置 Oauth 身份验证](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)中所述的新 Exchange Oauth 身份验证协议，或从 EXCHANGE 2013 CU5 运行 Exchange 混合向导或等于. 此外，你必须在 Skype for business [online 和 Exchange server 之间配置集成和 oauth](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中介绍的 Skype For business Online 和 exchange server 之间配置集成和 oauth。 
+6. 若要启用语音邮件功能（如自定义问候语）和 Skype for business 客户端中的视觉语音邮件，需要通过 Exchange Web 服务将来自 Office 365 的连接到 Exchange server 邮箱。 若要启用此连接，必须配置[exchange 和 Exchange Online 组织之间的 "配置 Oauth 身份验证](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)" 中介绍的新 Exchange Oauth 身份验证协议，或者从 EXCHANGE 2013 CU5 或更高版本运行 Exchange 混合向导。 此外，你必须在 Skype for business [online 和 Exchange server 之间配置集成和 oauth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中介绍的 Skype For business Online 和 exchange server 之间配置集成和 oauth。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
@@ -70,7 +70,7 @@ ms.locfileid: "37571553"
 您的组织中的用户收到的语音邮件是 transcribed 在托管 Office 365 租户的区域中。 租户的托管区域可能与接收语音邮件消息的用户所在的区域不同。 若要查看租户的托管区域，请转到 "[组织配置文件](https://go.microsoft.com/fwlink/p/?linkid=2067339)" 页面，然后单击 "**数据位置**" 旁边的 "**查看详细信息**"。
 
 > [!IMPORTANT]
-> 您不能使用**且**cmdlet 创建用于脚本和脚本猥亵的新策略实例，并且不能使用**且**cmdlet 删除现有策略实例.
+> 您不能使用**且**cmdlet 创建用于脚本的新策略实例并使用脚本猥亵屏蔽，并且不能使用**且**cmdlet 删除现有策略实例。
 
 可以使用语音邮件策略为用户管理转录设置。 若要查看所有可用的语音邮件策略实例，可以使用[且](https://technet.microsoft.com/library/mt798311.aspx)cmdlet。
 
@@ -82,7 +82,7 @@ ms.locfileid: "37571553"
 
 由于脚本的默认设置适用于你的组织，你可能希望通过使用[且将](https://technet.microsoft.com/library/mt798310.aspx)其禁用。 若要执行此操作，请运行：
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
@@ -90,7 +90,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 启用转录亵渎屏蔽。 若要执行此操作，请运行：
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
@@ -100,7 +100,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 要为单个用户禁用转录，请运行：
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
@@ -110,7 +110,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 要为单个用户启用转录亵渎屏蔽，请运行：
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
 ```
 
@@ -130,6 +130,6 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 [以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
 
-[Skype for Business Server 和 Exchange Server 迁移规划](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
+[Skype for Business Server 和 Exchange Server 迁移规划](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
 
 
