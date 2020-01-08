@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 配置被动身份验证'
+title: Lync Server 2013：配置被动身份验证
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c85bd20222a5fa70d052b21f62d0c19c76eea46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590a196ca0e34c0c063b10703c7edd131eb82c50
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +23,7 @@ ms.locfileid: "34837195"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a><span data-ttu-id="d17ef-102">配置 Lync Server 2013 被动身份验证</span><span class="sxs-lookup"><span data-stu-id="d17ef-102">Configuring Lync Server 2013 passive authentication</span></span>
+# <a name="configuring-lync-server-2013-passive-authentication"></a><span data-ttu-id="d4ea5-102">配置 Lync Server 2013 被动身份验证</span><span class="sxs-lookup"><span data-stu-id="d4ea5-102">Configuring Lync Server 2013 passive authentication</span></span>
 
 </div>
 
@@ -33,15 +33,15 @@ ms.locfileid: "34837195"
 
 <span> </span>
 
-<span data-ttu-id="d17ef-103">_**主题上次修改时间:** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="d17ef-103">_**Topic Last Modified:** 2013-07-11_</span></span>
+<span data-ttu-id="d4ea5-103">_**主题上次修改时间：** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="d4ea5-103">_**Topic Last Modified:** 2013-07-11_</span></span>
 
-<span data-ttu-id="d17ef-104">以下部分介绍了如何通过累积更新配置 Lync Server 2013: 7 月2013以支持被动身份验证。</span><span class="sxs-lookup"><span data-stu-id="d17ef-104">The following section describes how to configure Lync Server 2013 with Cumulative Updates: July 2013 to support passive authentication.</span></span> <span data-ttu-id="d17ef-105">启用了双因素身份验证后, 将需要启用了双因素身份验证的 Lync 用户才能使用使用 Lync 2013 和累积更新进行登录的 Lync: 2013 客户端。</span><span class="sxs-lookup"><span data-stu-id="d17ef-105">Once enabled, Lync users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Lync 2013 with Cumulative Updates: July 2013 client.</span></span>
+<span data-ttu-id="d4ea5-104">以下部分介绍了如何通过累积更新配置 Lync Server 2013：7月2013以支持被动身份验证。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-104">The following section describes how to configure Lync Server 2013 with Cumulative Updates: July 2013 to support passive authentication.</span></span> <span data-ttu-id="d4ea5-105">启用了双因素身份验证后，将需要启用了双因素身份验证的 Lync 用户才能使用使用 Lync 2013 和累积更新进行登录的 Lync：2013客户端。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-105">Once enabled, Lync users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Lync 2013 with Cumulative Updates: July 2013 client.</span></span>
 
 <div class="">
 
 
 > [!NOTE]  
-> <span data-ttu-id="d17ef-106">强烈建议用户在服务级别为注册机构和 Web 服务启用被动身份验证。</span><span class="sxs-lookup"><span data-stu-id="d17ef-106">It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level.</span></span> <span data-ttu-id="d17ef-107">如果为全局级别的注册机构和 Web 服务启用了被动身份验证, 则对于未使用 Lync 2013 使用累积更新进行登录的用户而言, 这可能会导致组织范围内的身份验证失败: 2013 客户端桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="d17ef-107">If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the Lync 2013 with Cumulative Updates: July 2013 client desktop client.</span></span>
+> <span data-ttu-id="d4ea5-106">强烈建议用户在服务级别为注册机构和 Web 服务启用被动身份验证。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-106">It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level.</span></span> <span data-ttu-id="d4ea5-107">如果为全局级别的注册机构和 Web 服务启用了被动身份验证，则对于未使用 Lync 2013 使用累积更新进行登录的用户而言，这可能会导致组织范围内的身份验证失败：2013客户端桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-107">If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the Lync 2013 with Cumulative Updates: July 2013 client desktop client.</span></span>
 
 
 
@@ -49,70 +49,71 @@ ms.locfileid: "34837195"
 
 <div>
 
-## <a name="web-service-configuration"></a><span data-ttu-id="d17ef-108">Web 服务配置</span><span class="sxs-lookup"><span data-stu-id="d17ef-108">Web Service Configuration</span></span>
+## <a name="web-service-configuration"></a><span data-ttu-id="d4ea5-108">Web 服务配置</span><span class="sxs-lookup"><span data-stu-id="d4ea5-108">Web Service Configuration</span></span>
 
-<span data-ttu-id="d17ef-109">以下步骤介绍了如何为将启用被动身份验证的控制器、企业池和 Standard Edition 服务器创建自定义 Web 服务配置。</span><span class="sxs-lookup"><span data-stu-id="d17ef-109">The following steps describe how to create a custom web service configuration for Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
+<span data-ttu-id="d4ea5-109">以下步骤介绍了如何为将启用被动身份验证的控制器、企业池和 Standard Edition 服务器创建自定义 Web 服务配置。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-109">The following steps describe how to create a custom web service configuration for Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
 
-<span data-ttu-id="d17ef-110">**创建自定义 Web 服务配置**</span><span class="sxs-lookup"><span data-stu-id="d17ef-110">**To create a custom web service configuration**</span></span>
+<span data-ttu-id="d4ea5-110">**创建自定义 Web 服务配置**</span><span class="sxs-lookup"><span data-stu-id="d4ea5-110">**To create a custom web service configuration**</span></span>
 
-1.  <span data-ttu-id="d17ef-111">使用 Lync 管理员帐户, 通过累积更新登录 Lync Server 2013: 年 7 2013 月的前端服务器。</span><span class="sxs-lookup"><span data-stu-id="d17ef-111">Log in to your Lync Server 2013 with Cumulative Updates: July 2013 Front End server using a Lync administrator account.</span></span>
+1.  <span data-ttu-id="d4ea5-111">使用 Lync 管理员帐户，通过累积更新登录 Lync Server 2013：年 7 2013 月的前端服务器。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-111">Log in to your Lync Server 2013 with Cumulative Updates: July 2013 Front End server using a Lync administrator account.</span></span>
 
-2.  <span data-ttu-id="d17ef-112">启动 Lync Server 2013 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="d17ef-112">Launch the Lync Server 2013 Management Shell.</span></span>
+2.  <span data-ttu-id="d4ea5-112">启动 Lync Server 2013 命令行管理程序。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-112">Launch the Lync Server 2013 Management Shell.</span></span>
 
-3.  <span data-ttu-id="d17ef-113">在 Lync Server Management Shell 命令行中, 通过运行以下命令为要启用被动身份验证的每个 Director、企业版池和标准版服务器创建新的 Web 服务配置:</span><span class="sxs-lookup"><span data-stu-id="d17ef-113">From the Lync Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:</span></span>
-    
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-    
+3.  <span data-ttu-id="d4ea5-113">在 Lync Server Management Shell 命令行中，通过运行以下命令为要启用被动身份验证的每个 Director、企业版池和标准版服务器创建新的 Web 服务配置：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-113">From the Lync Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:</span></span>
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
     <div class="">
     
 
     > [!WARNING]  
-    > <span data-ttu-id="d17ef-p103">WsFedPassiveMetadataUri FQDN 的值是您的 AD FS 2.0 服务器的联合身份验证服务名称。可通过从导航窗格右键单击“服务”<STRONG></STRONG>，然后选择“编辑联合身份验证服务属性”<STRONG></STRONG>在 AD FS 2.0 管理控制台中找到联合身份验证服务名称值。</span><span class="sxs-lookup"><span data-stu-id="d17ef-p103">The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on <STRONG>Service</STRONG> from the navigation pane and then selecting <STRONG>Edit Federation Service Properties</STRONG>.</span></span>
+    > <span data-ttu-id="d4ea5-p103">WsFedPassiveMetadataUri FQDN 的值是您的 AD FS 2.0 服务器的联合身份验证服务名称。可通过从导航窗格右键单击“服务”<STRONG></STRONG>，然后选择“编辑联合身份验证服务属性”<STRONG></STRONG>在 AD FS 2.0 管理控制台中找到联合身份验证服务名称值。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-p103">The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on <STRONG>Service</STRONG> from the navigation pane and then selecting <STRONG>Edit Federation Service Properties</STRONG>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="d17ef-116">通过运行以下命令来验证 UseWsFedPassiveAuth 和 WsFedPassiveMetadataUri 值是否设置正确：</span><span class="sxs-lookup"><span data-stu-id="d17ef-116">Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:</span></span>
-    
-        Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-
-5.  <span data-ttu-id="d17ef-117">对于客户端，被动身份验证是 Web 票证身份验证最少首选的身份验证方法。</span><span class="sxs-lookup"><span data-stu-id="d17ef-117">For clients, Passive Authentication is the least preferred authentication method for webticket authentication.</span></span> <span data-ttu-id="d17ef-118">对于将为被动身份验证启用的所有控制器、企业版池和标准版服务器, 必须通过运行以下命令在 Lync Web 服务中禁用所有其他身份验证类型:</span><span class="sxs-lookup"><span data-stu-id="d17ef-118">For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Lync Web Services by running the following command:</span></span>
-    
-        Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-
-6.  <span data-ttu-id="d17ef-119">通过运行以下命令验证是否已成功禁用所有其他身份验证类型:</span><span class="sxs-lookup"><span data-stu-id="d17ef-119">Verify that all other authentication types have been successfully disabled by running the following command:</span></span>
-    
-        Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-
+4.  <span data-ttu-id="d4ea5-116">通过运行以下命令来验证 UseWsFedPassiveAuth 和 WsFedPassiveMetadataUri 值是否设置正确：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-116">Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:</span></span>
+     ```powershell
+     Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+     ```
+5.  <span data-ttu-id="d4ea5-117">对于客户端，被动身份验证是 Web 票证身份验证最少首选的身份验证方法。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-117">For clients, Passive Authentication is the least preferred authentication method for webticket authentication.</span></span> <span data-ttu-id="d4ea5-118">对于将为被动身份验证启用的所有控制器、企业版池和标准版服务器，必须通过运行以下命令在 Lync Web 服务中禁用所有其他身份验证类型：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-118">For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Lync Web Services by running the following command:</span></span>
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+     ```
+6.  <span data-ttu-id="d4ea5-119">通过运行以下命令验证是否已成功禁用所有其他身份验证类型：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-119">Verify that all other authentication types have been successfully disabled by running the following command:</span></span>
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+     ```
 </div>
 
 <div>
 
-## <a name="proxy-configuration"></a><span data-ttu-id="d17ef-120">代理配置</span><span class="sxs-lookup"><span data-stu-id="d17ef-120">Proxy Configuration</span></span>
+## <a name="proxy-configuration"></a><span data-ttu-id="d4ea5-120">代理配置</span><span class="sxs-lookup"><span data-stu-id="d4ea5-120">Proxy Configuration</span></span>
 
-<span data-ttu-id="d17ef-121">当为 Lync Web 服务禁用证书身份验证时, Lync 客户端将使用较少的首选身份验证类型 (如 Kerberos 或 NTLM) 对注册机构服务进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="d17ef-121">When certificate authentication is disabled for Lync Web Services, the Lync client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service.</span></span> <span data-ttu-id="d17ef-122">仍然需要证书身份验证以允许 Lync 客户端检索 webticket, 但是注册机构服务必须禁用 Kerberos 和 NTLM。</span><span class="sxs-lookup"><span data-stu-id="d17ef-122">Certificate authentication is still needed to allow the Lync client to retrieve a webticket, however, Kerberos and NTLM must be disabled for the Registrar service.</span></span>
+<span data-ttu-id="d4ea5-121">当为 Lync Web 服务禁用证书身份验证时，Lync 客户端将使用较少的首选身份验证类型（如 Kerberos 或 NTLM）对注册机构服务进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-121">When certificate authentication is disabled for Lync Web Services, the Lync client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service.</span></span> <span data-ttu-id="d4ea5-122">仍然需要证书身份验证以允许 Lync 客户端检索 webticket，但是注册机构服务必须禁用 Kerberos 和 NTLM。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-122">Certificate authentication is still needed to allow the Lync client to retrieve a webticket, however, Kerberos and NTLM must be disabled for the Registrar service.</span></span>
 
-<span data-ttu-id="d17ef-123">以下步骤介绍了如何为将启用被动身份验证的边缘池、企业池和 Standard Edition 服务器创建自定义代理配置。</span><span class="sxs-lookup"><span data-stu-id="d17ef-123">The following steps describe how to create a custom proxy configuration for Edge Pools, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
+<span data-ttu-id="d4ea5-123">以下步骤介绍了如何为将启用被动身份验证的边缘池、企业池和 Standard Edition 服务器创建自定义代理配置。</span><span class="sxs-lookup"><span data-stu-id="d4ea5-123">The following steps describe how to create a custom proxy configuration for Edge Pools, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication.</span></span>
 
-<span data-ttu-id="d17ef-124">**创建自定义代理配置**</span><span class="sxs-lookup"><span data-stu-id="d17ef-124">**To create a custom proxy configuration**</span></span>
+<span data-ttu-id="d4ea5-124">**创建自定义代理配置**</span><span class="sxs-lookup"><span data-stu-id="d4ea5-124">**To create a custom proxy configuration**</span></span>
 
-1.  <span data-ttu-id="d17ef-125">在 Lync Server Management Shell 命令行中, 使用累积更新为每个 Lync Server 2013 创建新的代理配置: 将通过运行 "6 月 2013 Edge"、"企业版池" 和 "标准版" 服务器启用 "被动身份验证"以下命令:</span><span class="sxs-lookup"><span data-stu-id="d17ef-125">From the Lync Server Management Shell command-line, create a new proxy configuration for each Lync Server 2013 with Cumulative Updates: July 2013 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:</span></span>
+1.  <span data-ttu-id="d4ea5-125">在 Lync Server Management Shell 命令行中，使用累积更新为每个 Lync Server 2013 创建新的代理配置：将通过运行 "6 月 2013 Edge"、"企业版池" 和 "标准版" 服务器启用 "被动身份验证"以下命令：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-125">From the Lync Server Management Shell command-line, create a new proxy configuration for each Lync Server 2013 with Cumulative Updates: July 2013 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:</span></span>
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
-2.  <span data-ttu-id="d17ef-126">通过运行以下命令来验证所有其他代理身份验证类型是否已成功禁用：</span><span class="sxs-lookup"><span data-stu-id="d17ef-126">Verify that all other proxy authentication types have been successfully disabled by running the following command:</span></span>
-    
-        Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
+2.  <span data-ttu-id="d4ea5-126">通过运行以下命令来验证所有其他代理身份验证类型是否已成功禁用：</span><span class="sxs-lookup"><span data-stu-id="d4ea5-126">Verify that all other proxy authentication types have been successfully disabled by running the following command:</span></span>
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+     ```
 </div>
 
 </div>
