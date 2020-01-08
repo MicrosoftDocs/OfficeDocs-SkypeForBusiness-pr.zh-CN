@@ -10,12 +10,12 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6a388c602d30e6f60eac0c575d7640f63993f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a11b24fc8d4be54f5645853c050891d3821945e4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837462"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,59 +33,61 @@ ms.locfileid: "34837462"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-22_
+_**主题上次修改时间：** 2012-09-22_
 
-远程呼叫控制要求每个 Lync 服务器池都配置了一个从该池中的路径到连接到专用分支交换 (PBX) 的 SIP/CSTA 网关。 此路径要求每个池对每个网关都有一个静态路由, 池将向该网关发送与 PBX 调用相关联的 SIP 呼叫控制消息。 如果为远程呼叫控制配置全局静态路由, 则未使用池级别的静态路由配置的每个池都将使用全局静态路由。
+远程呼叫控制要求每个 Lync 服务器池都配置了一个从该池中的路径到连接到专用分支交换（PBX）的 SIP/CSTA 网关。 此路径要求每个池对每个网关都有一个静态路由，池将向该网关发送与 PBX 调用相关联的 SIP 呼叫控制消息。 如果为远程呼叫控制配置全局静态路由，则未使用池级别的静态路由配置的每个池都将使用全局静态路由。
 
 <div>
 
 ## <a name="to-configure-a-static-route-for-remote-call-control"></a>为远程呼叫控制配置静态路由
 
-1.  登录到安装了 Lync Server Management Shell 的计算机作为 RTCUniversalServerAdmins 组的成员或为其分配了**CsStaticRoute** cmdlet 的基于角色的访问控制 (RBAC) 角色。
+1.  登录到安装了 Lync Server Management Shell 的计算机作为 RTCUniversalServerAdmins 组的成员或为其分配了**CsStaticRoute** cmdlet 的基于角色的访问控制（RBAC）角色。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
-3.  若要创建静态路由并将其放在 $TLSRoute 或 $TCPRoute 的变量中, 请执行下列操作之一:
+3.  若要创建静态路由并将其放在 $TLSRoute 或 $TCPRoute 的变量中，请执行下列操作之一：
     
     <div class="">
     
 
     > [!TIP]  
-    > 若要匹配域的子域, 可以在 MatchUri 参数中指定一个通配符值。 例如, <STRONG>*. contoso.net</STRONG>。 该值匹配以后缀<STRONG>contoso.net</STRONG>结尾的任何域。
+    > 若要匹配域的子域，可以在 MatchUri 参数中指定一个通配符值。 例如， <STRONG>*. contoso.net</STRONG>。 该值匹配以后缀<STRONG>contoso.net</STRONG>结尾的任何域。
 
     
     </div>
     
-      - 对于传输层安全 (TLS) 连接, 请在命令提示符处键入以下内容:
+      - 对于传输层安全（TLS）连接，请在命令提示符处键入以下内容：
         
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
+        ```
         例如：
-        
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
-        
-        如果 UseDefaultCertificate 设置为 False, 则必须指定 TLSCertIssuer 和 TLSCertSerialNumber 参数。 这些参数指示颁发证书的证书颁发机构 (CA) 的名称, 该证书颁发机构 (CA) 分别用于在静态路由中使用的证书以及该 TLS 证书的序列号。 有关这些参数的详细信息, 请参阅 Lync Server Management Shell 帮助, 方法是在命令提示符处键入以下命令:
-        
-            Get-Help New-CsStaticRoute -Full
-    
-      - 对于传输控制协议 (TCP) 连接, 请在命令提示符处键入以下内容:
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
+        ```
+        如果 UseDefaultCertificate 设置为 False，则必须指定 TLSCertIssuer 和 TLSCertSerialNumber 参数。 这些参数指示颁发证书的证书颁发机构（CA）的名称，该证书颁发机构（CA）分别用于在静态路由中使用的证书以及该 TLS 证书的序列号。 有关这些参数的详细信息，请参阅 Lync Server Management Shell 帮助，方法是在命令提示符处键入以下命令：
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
+      - 对于传输控制协议（TCP）连接，请在命令提示符处键入以下内容：
         
         <div class="">
         
 
         > [!NOTE]  
-        > 如果你指定完全限定的域名 (FQDN), 则必须首先配置域名系统 (DNS) A 记录。
+        > 如果你指定完全限定的域名（FQDN），则必须首先配置域名系统（DNS） A 记录。
 
         
         </div>
         
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
+        ```
         例如：
-        
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
-        
-        以下是静态路由的可选参数的默认值:
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
+        ```
+        以下是静态路由的可选参数的默认值：
         
           - Enabled = True
         
@@ -93,17 +95,17 @@ _**主题上次修改时间:** 2012-09-22_
         
           - ReplaceHostInRequestUri = False
         
-        我们强烈建议您不要更改这些默认值。 但是, 如果必须更改这些参数中的任何一个, 请参阅 Lync Server Management Shell 帮助, 方法是在命令提示符处键入以下命令:
-        
-            Get-Help New-CsStaticRoute -Full
-
-4.  若要在中央管理存储中保留新创建的静态路由, 请根据需要运行下列操作之一:
+        我们强烈建议您不要更改这些默认值。 但是，如果必须更改这些参数中的任何一个，请参阅 Lync Server Management Shell 帮助，方法是在命令提示符处键入以下命令：
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
+4.  若要在中央管理存储中保留新创建的静态路由，请根据需要运行下列操作之一：
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
        ```
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
        ```
 

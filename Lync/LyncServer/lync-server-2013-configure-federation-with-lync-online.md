@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 配置与 Lync Online 的联盟'
+title: Lync Server 2013：配置与 Lync Online 的联盟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837369"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34837369"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-08-15_
+_**主题上次修改时间：** 2016-08-15_
 
 按照本部分中的步骤配置本地部署和 Skype for Business Online 之间的互操作性。
 
@@ -43,13 +43,13 @@ _**主题上次修改时间:** 2016-08-15_
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>为具有 Skype for business Online 的联盟配置本地边缘服务
 
-联合身份验证允许本地部署中的用户与你的组织中的 Office 365 用户通信。 若要配置联盟, 请运行以下 cmdlet:
+联合身份验证允许本地部署中的用户与你的组织中的 Office 365 用户通信。 若要配置联盟，请运行以下 cmdlet：
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -61,37 +61,37 @@ _**主题上次修改时间:** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>为共享 SIP 地址空间配置 Skype for Business Online 租户
 
-会话初始协议 (SIP) 地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地移动到 Skype for Business Online 之前, 你需要将 Office 365 租户配置为与本地部署共享共享会话启动协议 (SIP) 地址空间。 如果未进行此配置，您可能会看到以下错误消息：
+会话初始协议 (SIP) 地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地移动到 Skype for Business Online 之前，你需要将 Office 365 租户配置为与本地部署共享共享会话启动协议（SIP）地址空间。 如果未进行此配置，您可能会看到以下错误消息：
 
 Move-CsUser : HostedMigration 错误: Error=(510), 描述=(没有为此用户的租户启用共享 sip 地址空间。)
 
-若要配置共享 SIP 地址空间, 请建立与 Skype for Business Online 的远程 PowerShell 会话, 然后运行以下 cmdlet:
-
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
-
-若要建立与 Skype for Business Online 的远程 PowerShell 会话, 首先需要安装适用于 Windows PowerShell 的 Skype for Business Online 模块, 可在此处下载: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)。
+若要配置共享 SIP 地址空间，请建立与 Skype for Business Online 的远程 PowerShell 会话，然后运行以下 cmdlet：
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
+若要建立与 Skype for Business Online 的远程 PowerShell 会话，首先需要安装适用于 Windows PowerShell 的 Skype for Business Online 模块，可在此处下载： [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)。
 
 安装该模块后，您可以使用下列 cmdlet 建立远程会话：
 
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 
-有关如何建立与 Skype for Business Online 的远程 PowerShell 会话的详细信息, 请参阅[使用 Windows PowerShell 连接到 skype for Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+有关如何建立与 Skype for Business Online 的远程 PowerShell 会话的详细信息，请参阅[使用 Windows PowerShell 连接到 skype for Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
-有关使用 Skype for Business Online PowerShell 模块的详细信息, 请参阅[使用 Windows PowerShell 管理 skype For Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+有关使用 Skype for Business Online PowerShell 模块的详细信息，请参阅[使用 Windows PowerShell 管理 skype For Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 </div>
 

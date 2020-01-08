@@ -18,27 +18,27 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: 本附录包括更新边缘证书的详细步骤, 作为团队和 Skype for business 的云合并的一部分。
-ms.openlocfilehash: 1c3aaa8859db530ceccbebc68ae76f21e8d4a77f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 本附录包括更新边缘证书的详细步骤，作为团队和 Skype for business 的云合并的一部分。
+ms.openlocfilehash: 52ab646387acb6901798f215f9677f16978e87fb
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160453"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963050"
 ---
 # <a name="update-the-edge-certificate"></a>更新边缘证书
 
-更新边缘证书是确保具有 SipDomain1 的本地环境可以加入具有 SipDomain2 的云环境并确保在两个 SIP 域之间的共享地址空间环境中正确路由的关键步骤。 请参阅[针对团队和 Skype for business 的云合并](cloud-consolidation.md)中可执行此步骤的上下文的步骤14。 在我们的示例中, SipDomain1 是 AcquiredCompany。<span>Com 和 SipDomain2 是 OriginalCompany。<span>com。
+更新边缘证书是确保具有 SipDomain1 的本地环境可以加入具有 SipDomain2 的云环境并确保在两个 SIP 域之间的共享地址空间环境中正确路由的关键步骤。 请参阅[针对团队和 Skype for business 的云合并](cloud-consolidation.md)中可执行此步骤的上下文的步骤14。 在我们的示例中，SipDomain1 是 AcquiredCompany。<span>Com 和 SipDomain2 是 OriginalCompany。<span>com。
 
-必须更新本地环境中所有边缘服务器上的证书的使用者备用名称 (SAN), 以包含纯 online 租户中存在的所有 SIP 域 (不包括任何 .onmicrosoft。<span>com 域) 的形式, 格式为 "sip。\<域> "。  在我们的示例中, 这是 sip。OriginalCompany.<span>com。 在将任何用户迁移到云中之前, 执行此步骤至关重要。
+必须更新本地环境中所有边缘服务器上的证书的使用者备用名称（SAN），以包含纯 online 租户中存在的所有 SIP 域（不包括任何 .onmicrosoft。<span>com 域）的形式，格式为 "sip。\<域> "。  在我们的示例中，这是 sip。OriginalCompany.<span>com。 在将任何用户迁移到云中之前，执行此步骤至关重要。
 
-**步骤：**
+**引导**
 
-1.  获取一个新的外部边缘证书, 该证书包含所有现有条目以及 SAN 中所有 SIP 域 (不包括 * onmicrosoft.com 域) 中的所有 SIP 域 (格式为 "sip") 的所有现有条目和其他条目。<DomainName>"。
-2.  在每台边缘服务器上本地安装证书, 并在每个边缘服务上将其分配给 Skype 边缘服务。  有关详细步骤, 请参阅[Skype For Business Server 2015 中的部署边缘服务](https://technet.microsoft.com/en-us/library/dn951368.aspx)中的 "外部边缘接口证书" 部分。
-3.  在每台边缘服务器上重新启动边缘服务。 您可以使用以下 PowerShell 命令为单个框执行此操作:
+1.  获取一个新的外部边缘证书，该证书包含所有现有条目以及 SAN 中所有 SIP 域（不包括 * onmicrosoft.com 域）中的所有 SIP 域（格式为 "sip"）的所有现有条目和其他条目。<DomainName>"。
+2.  在每台边缘服务器上本地安装证书，并在每个边缘服务上将其分配给 Skype 边缘服务。  有关详细步骤，请参阅[Skype For Business Server 2015 中的部署边缘服务](https://technet.microsoft.com/library/dn951368.aspx)中的 "外部边缘接口证书" 部分。
+3.  在每台边缘服务器上重新启动边缘服务。 您可以使用以下 PowerShell 命令为单个框执行此操作：
 
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     Start-CsWindowsService
     ```

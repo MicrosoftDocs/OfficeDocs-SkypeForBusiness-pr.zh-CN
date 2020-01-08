@@ -16,19 +16,19 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 了解如何将用户从 Skype for Business Online 迁移到本地。
-ms.openlocfilehash: ec3aa727753ed9ac6564712d591ab6d2beac4ebf
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434725"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963010"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>将用户从云移动到本地 
 
 如果需要，您可以将以前从本地迁移的用户移动到云（无论是仅使用 Skype for Business Online 还是仅将团队）回本地。 若要将用户从 Skype for Business Online 或 TeamsOnly 模式移回 Skype for Business Server 的本地部署，请使用 Get-csuser cmdlet 或 Skype for Business Server 控制面板，这两个控制面板都是本地工具。 将用户移回本地部署时，必须决定将用户移动到哪个池。
 
 > [!Important]
-> 如果用户以前在 TeamsOnly 模式下，而您使用的是 Skype for Business Server 2015 with CU8 的早期版本，则还必须为该用户删除 TeamsUpgradePolicy 的 TeamsOnly 模式分配。 本地用户不能具有 mode = TeamsOnly。  后续版本的 Skype for Business Server 将自动删除此工作分配。 有关更多详细信息，请参阅[CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy)。
+> 如果用户以前在 TeamsOnly 模式下，而您使用的是 Skype for Business Server 2015 with CU8 的早期版本，则还必须为该用户删除 TeamsUpgradePolicy 的 TeamsOnly 模式分配。 本地用户不能具有 mode = TeamsOnly。  后续版本的 Skype for Business Server 将自动删除此工作分配。 有关更多详细信息，请参阅[CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -47,7 +47,7 @@ ms.locfileid: "37434725"
 
 ### <a name="move-users-with-move-csuser"></a>将用户移动到 Get-csuser
 
-Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定 Office 365 的凭据具有必要的 Office 365 管理角色的帐户。
+Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
 
 使用 Get-csuser 将用户移动到本地的步骤：
 
@@ -58,7 +58,7 @@ Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell Powe
 
 可以使用以下 cmdlet 序列将用户移动到 Skype for business Server，并假定 Office 365 凭据是单独的帐户并作为 Get Credential 提示的输入提供。
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
 Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred -HostedMigrationOverrideUrl $url
@@ -88,4 +88,4 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 
 ## <a name="see-also"></a>另请参阅
 
-[移动-Get-csuser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[移动-Get-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

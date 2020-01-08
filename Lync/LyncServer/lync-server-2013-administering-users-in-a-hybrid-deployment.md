@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 管理混合部署中的用户'
+title: Lync Server 2013：管理混合部署中的用户
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd4f53eaa611d130291b1a42c798a8d5589968c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7804aacb226d06fbf239939658b6592d438a84f9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838020"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838020"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-05-29_
+_**主题上次修改时间：** 2014-05-29_
 
 你可以使用 Microsoft Office 365 Online 门户中提供的用户管理功能管理迁移到 Lync Online 的用户的用户设置和策略。 您必须使用租户管理员帐户登录才能执行管理任务。
 
@@ -45,19 +45,19 @@ _**主题上次修改时间:** 2014-05-29_
 
 
 > [!IMPORTANT]  
-> 此部分仅适用于为本地 Lync 创建和启用的用户, 然后从本地部署移动到 Lync Online。 如果你想要移动在 Lync Online 中创建的用户 (在本地部署中未启用 Lync), 请参阅<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">在 Lync Server 2013 中将用户从 Lync Online 移动到本地 lync</A>。
+> 此部分仅适用于为本地 Lync 创建和启用的用户，然后从本地部署移动到 Lync Online。 如果你想要移动在 Lync Online 中创建的用户（在本地部署中未启用 Lync），请参阅<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">在 Lync Server 2013 中将用户从 Lync Online 移动到本地 lync</A>。
 
 
 
 </div>
 
-  - 运行以下 cmdlet, 将用户从 Lync Online 移回本地 Lync:
+  - 运行以下 cmdlet，将用户从 Lync Online 移回本地 Lync：
     
-       ```
+       ```PowerShell
         $cred=Get-Credential
        ```
     
-       ```
+       ```PowerShell
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
@@ -71,7 +71,7 @@ Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc。 您可以通
 
 2.  打开**Lync 管理中心**。
 
-3.  在显示**Lync 管理中心**的情况下, 在地址栏中选择并将 URL 复制到**lync.com**。 示例 URL 如下所示：
+3.  在显示**Lync 管理中心**的情况下，在地址栏中选择并将 URL 复制到**lync.com**。 示例 URL 如下所示：
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 

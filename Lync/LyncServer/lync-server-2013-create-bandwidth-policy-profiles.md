@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 创建带宽策略配置文件'
+title: Lync Server 2013：创建带宽策略配置文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9464e83370690e018374c4ffb60e0b61c30fe300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 69aa99d94843c6daa1483911325d45ede0a39f4a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830854"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +33,13 @@ ms.locfileid: "34830854"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
 “带宽策略”** 定义对实时音频和视频内容的带宽使用量的限制。带宽策略应用于“带宽策略配置文件”**，后者可以应用于多个网络站点以进行呼叫允许控制。
 
-有关应在 CAC 部署中设置哪些带宽限制的指南, 请参阅计划文档中的在[Lync Server 2013 中定义呼叫许可控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md)。
+有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅计划文档中的在[Lync Server 2013 中定义呼叫许可控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md)。
 
-有关使用带宽策略和策略配置文件的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关使用带宽策略和策略配置文件的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - [New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
@@ -49,7 +49,7 @@ _**主题上次修改时间:** 2012-10-19_
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。 例如, 5Mb\_链接带宽策略配置文件设置以下限制:
+以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。 例如，5Mb\_链接带宽策略配置文件设置以下限制：
 
   - 音频限制：2,000 kbps
 
@@ -73,23 +73,23 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>使用命令行管理程序创建带宽策略配置文件
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。 例如，运行：
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
        ```
     
-       ```
+       ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
        ```
 
@@ -99,7 +99,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建带宽策略配置文件
 
-1.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 

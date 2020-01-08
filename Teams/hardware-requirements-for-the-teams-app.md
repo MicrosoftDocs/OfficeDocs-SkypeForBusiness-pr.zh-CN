@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019956"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970960"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams 应用的硬件要求
 
@@ -78,11 +78,11 @@ ms.locfileid: "40019956"
 
 你可以在以下移动平台上使用团队：
 
-- Android-需要 Android 5.0 或更高版本。 与 Android 手机和平板电脑兼容。
+- Android：与 Android 手机和平板电脑兼容。
 
   支持仅限于 Android 的最后四个主要版本。 发布新的 Android 主要版本时，正式支持新版本和前三个版本。
 
-- iOS-需要 iOS 10.0 或更高版本。 与 iPhone、iPad 和 iPod touch 兼容。 
+- iOS：与 iPhone、iPad 和 iPod touch 兼容。 
 
   支持仅限于最新版本 iOS 的两个主要版本。 当发布新的主要版本 iOS 时，正式支持新版本的 iOS 和早期版本。
 

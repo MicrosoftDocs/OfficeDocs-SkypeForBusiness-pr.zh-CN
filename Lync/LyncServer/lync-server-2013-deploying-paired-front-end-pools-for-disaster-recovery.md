@@ -10,12 +10,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78c0d6b266f6401c9ba48bfe38ee54b7b4281717
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830528"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34830528"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
 你可以使用拓扑生成器轻松部署配对的前端池的灾难恢复拓扑。
 
@@ -41,9 +41,9 @@ _**主题上次修改时间:** 2013-02-21_
 
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署配对前端池
 
-1.  如果池是新的且尚未定义, 请使用拓扑生成器创建池。
+1.  如果池是新的且尚未定义，请使用拓扑生成器创建池。
 
-2.  在拓扑生成器中, 右键单击两个池之一, 然后单击 "**编辑属性**"。
+2.  在拓扑生成器中，右键单击两个池之一，然后单击 "**编辑属性**"。
 
 3.  在左侧窗格中单击“**复原**”，然后在右侧窗格中选择“**关联的备份池**”。
 
@@ -62,32 +62,32 @@ _**主题上次修改时间:** 2013-02-21_
     但是，如果在定义配对关系之前已部署池，那么必须完成以下两个最终步骤。
 
 8.  在两个池的每个前端服务器上，运行以下命令：
-    
-        <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
-    
+    ```console
+    <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
+    ```
     这将配置确保备份配对正常运行所需的其他服务。
 
-9.  从 Lync Server Management Shell 命令提示符处, 运行以下命令:
-    
-        Start-CsWindowsService -Name LYNCBACKUP
-
+9.  从 Lync Server Management Shell 命令提示符处，运行以下命令：
+    ```powershell
+    Start-CsWindowsService -Name LYNCBACKUP
+    ```
 10. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
     同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
        ```
 

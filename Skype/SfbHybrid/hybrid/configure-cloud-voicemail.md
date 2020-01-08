@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616065"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963000"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -64,7 +64,7 @@ ms.locfileid: "37616065"
 例如，在 Skype for Business 命令行管理程序中，以下 cmdlet 将云语音邮件配置为承载提供程序：
 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -74,7 +74,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 若要修改全局策略，请在更新组织和 TenantID 之后在 Skype for Business Server 命令行管理程序中运行以下命令：
 
-```
+```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
@@ -88,7 +88,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 若要确保已成功创建托管的语音邮件策略，请运行以下命令：
 
-```
+```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
@@ -99,7 +99,7 @@ Get-CsHostedVoicemailPolicy
 例如，以下命令可向用户分配非全局托管的语音邮件策略：
 
 
-```
+```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 

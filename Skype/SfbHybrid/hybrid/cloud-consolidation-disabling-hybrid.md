@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010575"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963070"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成到云的迁移
 
@@ -57,13 +57,13 @@ ms.locfileid: "38010575"
 2.  *在 Office 365 租户中禁用共享 SIP 地址空间。*
 下面的命令需要从 Skype for business Online PowerShell 窗口中执行。
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *禁用本地与 Office 365 通信的功能。*  
 需要从内部部署 PowerShell 窗口中执行以下命令：
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
