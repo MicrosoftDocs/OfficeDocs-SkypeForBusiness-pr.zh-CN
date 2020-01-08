@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: 28da70d829972a7b9d3659290652c2482d409364
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d4947012e98c45e108a2cc8d9f84bb4f16a24d3c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792325"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962710"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -34,15 +34,15 @@ ms.locfileid: "35792325"
 
 Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
   
-如果您禁用发送电子邮件, 则不会将音频会议电子邮件发送给您的用户, 包括为用户启用或禁用音频会议时的电子邮件、重置 PIN 以及会议 ID 和默认会议电话号码更改的时间.
+如果您禁用发送电子邮件，则不会将音频会议电子邮件发送给您的用户，包括为用户启用或禁用音频会议时的电子邮件、重置 PIN 以及会议 ID 和默认会议电话号码更改的时间.
   
-下面是在用户启用音频会议时发送给用户的电子邮件示例:
+下面是在用户启用音频会议时发送给用户的电子邮件示例：
   
 ![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
-- 在为您的组织中的用户启用音频会议后, 会向他们发送多封电子邮件:
+- 在为您的组织中的用户启用音频会议后，会向他们发送多封电子邮件：
     
   - 向其分配**音频会议**许可证时。
     
@@ -64,7 +64,7 @@ Users are automatically notified by email when they are enabled for Audio Confer
  
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
     
-1. 在**Skype For business 管理中心**的左侧导航中, 单击 "**音频会议**"。
+1. 在**Skype For business 管理中心**的左侧导航中，单击 "**音频会议**"。
     
 2. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
     
@@ -78,9 +78,9 @@ Users are automatically notified by email when they are enabled for Audio Confer
 
 **使用 Windows PowerShell**
   
-- 运行以下操作以禁用发送电子邮件: 
+- 运行以下操作以禁用发送电子邮件： 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
@@ -110,7 +110,7 @@ Users are automatically notified by email when they are enabled for Audio Confer
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。了解以下主题中的这些优势： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

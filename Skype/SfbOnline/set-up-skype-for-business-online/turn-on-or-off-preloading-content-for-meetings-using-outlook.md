@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 61e57b39954df8931b9612e853fccf1e74e9623f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f876519ba7d3cf25e61f4f6458129d724d1bcb84
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792981"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962780"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>打开或关闭允许使用 Outlook 为会议预加载内容
 
-用户可以将附加到 Outlook 会议邀请的内容、文件或附件预加载到 Skype for business Online 会议, 但您可以打开或关闭它。 默认情况下, 它为使用 Skype for Business Online 的所有组织打开。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
+用户可以将附加到 Outlook 会议邀请的内容、文件或附件预加载到 Skype for business Online 会议，但您可以打开或关闭它。 默认情况下，它为使用 Skype for Business Online 的所有组织打开。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
 > [!NOTE]
-> 目前, Skype for Business Online 中没有可用的 cmdlet, 无法设置或查看_MaxContentStorageMB_和_MaxUploadFileMB_的在线值。 它们仅适用于本地部署。 如果附件内容超过_MaxUploadFileSizeMB_或_MaxContentStorageMB_限额, 请务必知道内容不会上载到会议。
+> 目前，Skype for Business Online 中没有可用的 cmdlet，无法设置或查看_MaxContentStorageMB_和_MaxUploadFileMB_的在线值。 它们仅适用于本地部署。 如果附件内容超过_MaxUploadFileSizeMB_或_MaxContentStorageMB_限额，请务必知道内容不会上载到会议。
   
 ## <a name="to-get-you-started"></a>开始使用
 
@@ -46,7 +46,7 @@ ms.locfileid: "35792981"
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
-如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
   
 ### 
 
@@ -59,31 +59,31 @@ ms.locfileid: "35792981"
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 $credential = Get-Credential
 $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-如果需要有关启动 Windows PowerShell 的详细信息, 请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/EN-US/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="turning-it-on-or-off"></a>打开或关闭该功能
 
-默认情况下, 可以预加载到 Skype for business Online 会议邀请的 Outlook 会议邀请的内容处于打开状态, 但你可能需要阻止组织中的用户在其会议中预加载内容。
+默认情况下，可以预加载到 Skype for business Online 会议邀请的 Outlook 会议邀请的内容处于打开状态，但你可能需要阻止组织中的用户在其会议中预加载内容。
   
 > [!IMPORTANT]
 > 此设置仅可为您的整个组织打开或关闭;不能为单个用户打开或关闭该功能。 
   
  **若要将其关闭，请打开 Windows PowerShell 并执行下列操作：**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphDisabled 
 ```
 
  **如果想要将其重新打开，请打开 Windows PowerShell 并执行下列操作：**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 
@@ -95,7 +95,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

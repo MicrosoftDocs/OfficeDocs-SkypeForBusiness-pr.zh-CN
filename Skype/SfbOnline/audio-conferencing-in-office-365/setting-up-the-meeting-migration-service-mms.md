@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务（MMS）是一种在后台运行的服务，可自动更新用户的 Skype for business 和 Microsoft 团队会议。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890526"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962540"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务（MMS）
 
@@ -133,7 +133,7 @@ ms.locfileid: "39890526"
 
 下面的示例演示了如何为用户 ashaw@contoso.com 启动会议迁移，以便将所有会议迁移到团队：
 
-```
+```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
@@ -149,7 +149,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 
 - 若要获取所有 MMS 迁移的摘要状态，请运行以下命令，其中提供了所有迁移状态的表格视图：
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 
     State      UserCount
@@ -161,19 +161,19 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     ```
 - 若要获取特定时间段内所有迁移的完整详细信息，请`StartTime`使用`EndTime` "和" 参数。 例如，以下命令将返回从2018年10月1日到2018年10月8日的所有迁移的完整详细信息。
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
 - 若要检查特定用户的迁移状态，请使用该`Identity`参数。 例如，运行以下命令会返回用户 ashaw@contoso.com 的状态：
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
 如果你看到任何失败的迁移，请尽快采取措施解决这些问题，因为用户无法在你解决这些问题之前使用这些用户进行组织。 如果`Get-CsMeetingMigrationStatus`显示处于失败状态的任何迁移，请执行以下步骤：
  
 1. 确定受影响的用户。 运行以下命令获取受影响的用户列表，以及报告的具体错误：
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 对于每个受影响的用户，运行会议迁移工具以手动迁移其会议。
@@ -194,17 +194,17 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 例如，你可能希望手动迁移所有会议或暂时禁用 MMS，同时对你的组织的音频会议设置进行重大更改
 
 若要查看你的组织是否已启用 MMS，请运行以下命令。 如果`MeetingMigrationEnabled`参数为`$true`，则启用 MMS。
-```
+```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
 若要完全启用或禁用 MMS，请`Set-CsTenantMigrationConfiguration`使用命令。 例如，若要禁用 MMS，请运行以下命令：
 
-```
+```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
 如果组织中已启用 MMS，并且你想要检查它是否已启用音频会议更新，请在的 "输出" `AutomaticallyMigrateUserMeetings`中检查该参数的`Get-CsOnlineDialInConferencingTenantSettings`值。 若要启用或禁用音频会议的 MMS， `Set-CsOnlineDialInConferencingTenantSettings`请使用。 例如，若要为音频会议禁用 MMS，请运行以下命令：
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 

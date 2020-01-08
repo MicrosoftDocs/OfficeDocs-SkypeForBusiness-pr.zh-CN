@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010625"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963080"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
 
@@ -148,25 +148,25 @@ ms.locfileid: "38010625"
 
 与其他策略不同，不能在 Office 365 中创建新的 TeamsUpgradePolicy 实例。 所有现有实例都内置在该服务中。  （请注意，mode 是 TeamsUpgradePolicy 内的一个属性，而不是策略实例的名称。）在某些（但不是全部）情况下，策略实例的名称与模式相同。 特别是，若要为用户分配 TeamsOnly 模式，请将 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例授予该用户。 若要查看所有实例的列表，可以运行以下命令：
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 若要将联机用户升级到 TeamsOnly 模式，请分配 "UpgradeToTeams" 实例： 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 若要将内部部署的 Skype for business 用户升级到 TeamsOnly 模式，请在本地工具集中使用移动 Move-csuser：
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 若要为租户中的所有用户更改模式（具有明确的每用户授权的用户除外），请运行以下命令：
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 如果你的用户托管在本地 Skype for business 服务器中，你需要使用本地工具集，你需要使用 skype for business server 2019 或 CU8 for Skype for business Server 2015。 在本地 PowerShell 窗口中，使用 NotifySfbUsers = true 创建 TeamsUpgradePolicy 的新实例：
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 然后，使用相同的本地 PowerShell 窗口，将该新策略分配给所需的用户：
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 将租户范围的默认值设置为 mode SfbWithTeamsCollab，如下所示：
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    - 如果用户已联机：
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - 如果用户在本地：
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 2. 对于在步骤1中发现的每个活动团队用户，请在远程 PowerShell 中为其分配孤岛模式。 这允许你转到下一步，并确保不更改用户体验。  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 3. 将租户范围内的策略设置为 SfbWithTeamsCollab：
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    对于驻留在 Skype for business Online 中的用户：  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    对于驻留在本地 Skype for business 服务器的用户：  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 如果现有的 TeamsOnly 或 Skype for business Online 用户分配有电话系统许可证，则默认情况下，启用 EV 不会设置为 true。  如果在分配电话系统许可证之前将本地用户移到云，也会出现这种情况。 在任何一种情况下，管理员都必须指定以下 cmdlet： 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 

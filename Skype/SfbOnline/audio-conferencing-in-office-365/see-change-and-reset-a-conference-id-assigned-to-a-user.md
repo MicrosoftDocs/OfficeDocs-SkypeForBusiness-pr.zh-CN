@@ -19,18 +19,18 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '了解如何在 Skype for Business Online 中向用户分配会议 ID, 以及会议 Id 参数应该是什么。 '
-ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: '了解如何在 Skype for Business Online 中向用户分配会议 ID，以及会议 Id 参数应该是什么。 '
+ms.openlocfilehash: 4932eb9a7124f0ddefcf9f6dc7ffeb8b9e29c162
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793001"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962680"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
 > [!Note]
-> 有关 Microsoft 团队中的用户会议 Id 的信息, 请参阅[查看和重置 Microsoft 团队中分配给用户的会议 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
+> 有关 Microsoft 团队中的用户会议 Id 的信息，请参阅[查看和重置 Microsoft 团队中分配给用户的会议 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
 
 A conferencing ID is automatically assigned to a Skype for Business user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
 
@@ -58,13 +58,13 @@ An email will be sent to the user with the conference ID and the default audio c
 4. 在操作页面，查看**会议 ID** 下方。
 
     > [!TIP]
-    > 在 "**用户**" 页面上选择用户后, 通过单击 "**通过电子邮件发送会议信息**" 链接, 可以在包含会议 ID 和音频电话号码的电子邮件中向用户发送所有会议信息。
+    > 在 "**用户**" 页面上选择用户后，通过单击 "**通过电子邮件发送会议信息**" 链接，可以在包含会议 ID 和音频电话号码的电子邮件中向用户发送所有会议信息。
 
 **使用 Windows PowerShell**
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```
+  ```PowerShell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
@@ -81,7 +81,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 2. 转到管理中心 > **Skype For business**。
 
-3. 在**Skype for business 管理中心**> **音频会议** > **用户**的 "操作" 窗格中的 "**会议 ID**" 下, 单击 "**重置**"。
+3. 在**Skype for business 管理中心**> **音频会议** > **用户**的 "操作" 窗格中的 "**会议 ID**" 下，单击 "**重置**"。
 
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -89,7 +89,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
@@ -102,7 +102,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
 - The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
 
-- 默认情况下, 所有音频会议用户的会议 ID 都是7位数字, 并且位数不能更改。
+- 默认情况下，所有音频会议用户的会议 ID 都是7位数字，并且位数不能更改。
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 Learn about these advantages in the following topics:
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
 
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
 

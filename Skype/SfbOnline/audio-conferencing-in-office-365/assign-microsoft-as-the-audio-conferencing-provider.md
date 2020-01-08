@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432600"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962730"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
@@ -43,14 +43,14 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 1. 转到**Microsoft 团队管理中心** > **旧版门户**。
     
-2. 在**Skype For business 管理中心**的左侧导航中, 转到 "**音频会议**"。
+2. 在**Skype For business 管理中心**的左侧导航中，转到 "**音频会议**"。
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. 在用户的属性页上, 在 "**提供商名称**" 下的下拉列表中选择 " **Microsoft** "。
+4. 在用户的属性页上，在 "**提供商名称**" 下的下拉列表中选择 " **Microsoft** "。
     
     > [!NOTE]
-    > 由于你使用 Microsoft 作为音频会议提供商, 并且有多个电话号码, 你可以使用 "**默认收费号码**" 下拉列表选择用户的默认音频号码。
+    > 由于你使用 Microsoft 作为音频会议提供商，并且有多个电话号码，你可以使用 "**默认收费号码**" 下拉列表选择用户的默认音频号码。
   
 5. 单击“**保存**”。
 
@@ -59,17 +59,17 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>对少量用户使用 Windows PowerShell 脚本
 
-为节省时间或自动执行此操作, 你可以使用以下 PowerShell 脚本将 Microsoft 设置为适用于少数用户的音频会议提供商。
+为节省时间或自动执行此操作，你可以使用以下 PowerShell 脚本将 Microsoft 设置为适用于少数用户的音频会议提供商。
 
 > [!NOTE]
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
 
   
-若要为少量用户将提供商更改为 Microsoft, 你可以使用[get-csonlinedialinconferencinguser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet。
+若要为少量用户将提供商更改为 Microsoft，你可以使用[get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx) cmdlet。
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>对大量用户使用 Windows PowerShell 脚本
-为了节省时间或自动执行此操作, 你可以使用以下 PowerShell 脚本将 Microsoft 设置为大量用户的音频会议提供商。
+为了节省时间或自动执行此操作，你可以使用以下 PowerShell 脚本将 Microsoft 设置为大量用户的音频会议提供商。
 
 When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
@@ -77,27 +77,27 @@ When the provider is changed from another provider to **Microsoft**, the audio c
 
 **示例 1：** 你可以通过提供你希望更新的用户列表来运行此脚本。
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **示例 2：** 你可以通过提供一个 .csv 文件来运行此脚本，该文件中包含你希望更新的每个用户的电子邮件地址（别名）。
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**示例 3:** 在此示例中, 你可以使用此脚本将音频会议提供商从 Intercall (或另一个提供商) 更改为你组织中的大量用户的**Microsoft** 。
+**示例3：** 在此示例中，你可以使用此脚本将音频会议提供商从 Intercall （或另一个提供商）更改为你组织中的大量用户的**Microsoft** 。
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   这里就是脚本：
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 

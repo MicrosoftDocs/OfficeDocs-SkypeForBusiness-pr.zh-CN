@@ -19,22 +19,22 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221506"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962880"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
-对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验, 你可以通过执行本主题后面的步骤来管理首次启动客户端行为以显示 Lync 用户界面。
+对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验，你可以通过执行本主题后面的步骤来管理首次启动客户端行为以显示 Lync 用户界面。
   
 > [!NOTE]
 > [!注释] Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
 > [!TIP]
-> 如果你想要轻松切换用户界面, 并且不希望执行手动步骤, 请参阅用于 PowerShell 脚本的[Microsoft 下载中心](https://go.microsoft.com/fwlink/?LinkId=532431), 以便更轻松地进行操作。
+> 如果你想要轻松切换用户界面，并且不希望执行手动步骤，请参阅用于 PowerShell 脚本的[Microsoft 下载中心](https://go.microsoft.com/fwlink/?LinkId=532431)，以便更轻松地进行操作。
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>切换用户的 Skype for Business 用户界面
 
@@ -43,7 +43,7 @@ ms.locfileid: "35221506"
 > [!IMPORTANT]
 > [!重要信息] 用于切换用户界面的  _Global_ 策略设置不会应用于已经应用了自定义设置的用户。 需要为已经应用了自定义策略的每位用户运行下面的命令，才能更改其用户界面：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,27 +52,27 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 要让贵组织中的所有用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 如果策略设置正确，您将看到：
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell： SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 要让贵组织中的所有用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令： 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
 如果策略设置正确，您将看到：
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell： SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 要让贵组织中的单个用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 要让贵组织中的单个用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 要让贵组织中的多个用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 要让贵组织中的多个用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 要让贵组织中的一组用户使用 Skype for Business 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 要让贵组织中的一组用户使用 Skype for Business (Lync) 客户端，请打开 Remote PowerShell 并键入以下命令：
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -132,17 +132,17 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |:-----|:-----|
 |未设置策略。 |用户将继续使用 Skype for Business 客户端用户界面。|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|用户将继续使用 Skype for Business 客户端用户界面。|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|将要求用户切换到 Skype for Business (Lync) 客户端用户界面。 他们可以以后切换。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|将要求用户切换到 Skype for Business （Lync）客户端用户界面。 他们可以以后切换。|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|用户将使用 Skype for Business 客户端用户界面。 |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|将要求用户切换到 Skype for Business (Lync) 客户端用户界面。 管理员可以在以后更改用于将用户切换到 Skype for Business 客户端用户界面的设置。 |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|将要求用户切换到 Skype for Business （Lync）客户端用户界面。 管理员可以在以后更改用于将用户切换到 Skype for Business 客户端用户界面的设置。 |
    
 此表显示更改了策略之后的用户体验：
   
 |**管理员策略设置**|**Skype for Business (Lync) 用户界面**|**Skype for Business 用户界面**|
 |:-----|:-----|:-----|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|将要求用户切换到 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|用户将继续使用 Skype for Business (Lync) 界面。  <br/> |将要求用户切换到 Skype for Business (Lync) 客户端用户界面。  <br/> |
-|未设置策略。  <br/> |如果未设置该策略, 用户将看不到 Skype for Business (Lync) 客户端用户界面。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|用户将继续使用 Skype for Business （Lync）界面。  <br/> |将要求用户切换到 Skype for Business （Lync）客户端用户界面。  <br/> |
+|未设置策略。  <br/> |如果未设置该策略，用户将看不到 Skype for Business （Lync）客户端用户界面。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用 Skype for Business 客户端用户界面。  <br/> |
    
 此表显示所有可用的联机自定义策略。 已创建新的策略来让管理员能够在 EnableSkypeUI 标志之间切换同时灵活保留旧的自定义策略。 请使用上面的 cmdlet 来向用户授予以下策略之一。
   
@@ -172,7 +172,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 ## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 
-默认情况下, 当用户首次启动 Skype for business 时, 他们将始终看到 Skype for business 用户界面, 即使你已通过将客户端策略设置为 Lync 客户端体验 () 来选择 Lync 客户端体验`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`(如所述)。次. 几分钟时间后，系统将要求用户切换到 Lync 模式。
+默认情况下，当用户首次启动 Skype for business 时，他们将始终看到 Skype for business 用户界面，即使你已通过将客户端策略设置为 Lync 客户端体验（）来选择 Lync 客户端体验`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`（如上文所述）。 几分钟时间后，系统将要求用户切换到 Lync 模式。
   
 如果你希望在用户首次启动 Skype for Business 客户端时显示 Lync 用户界面，请在客户端更新后首次启动前执行以下步骤：
   
@@ -188,19 +188,19 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     [HKEY_CURRENT_USER\\软件\\Microsoft\\Office\\Lync]
     
-    "CanSharePptInCollab" = dword: 00000001
+    "CanSharePptInCollab" = dword：00000001
     
-    "CanShareOneNoteInCollab" = dword: 00000001
+    "CanShareOneNoteInCollab" = dword：00000001
     
-    "CanAppShareInCollab" = dword: 00000001
+    "CanAppShareInCollab" = dword：00000001
     
-    "EnableSkypeUI" = 十六进制:00、00、00、00
+    "EnableSkypeUI" = 十六进制：00、00、00、00
     
 当用户首次启动 Skype for Business 客户端时，现在将显示 Lync 用户界面。
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制欢迎屏幕教程的显示
 
-当用户打开 Skype for Business 客户端时, 默认行为是显示 "欢迎" 屏幕, 其中包含*大多数人所要求的7个快速提示*。 你可以关闭欢迎屏幕的显示，同时仍允许用户通过在客户端计算机上添加以下注册表值来访问教程：
+当用户打开 Skype for Business 客户端时，默认行为是显示 "欢迎" 屏幕，其中包含*大多数人所要求的7个快速提示*。 你可以关闭欢迎屏幕的显示，同时仍允许用户通过在客户端计算机上添加以下注册表值来访问教程：
   
 在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** 注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **IsBasicTutorialSeenByUser**，" **值数据**"必须设为 **1**。
   
@@ -214,7 +214,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 在 **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** 注册表项中，创建新的 **DWORD（32 位）值**。 " **值名称**"必须为 **TutorialFeatureEnabled**，" **值数据**"必须设为 **0**。
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用，以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910040"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40955306"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -101,15 +101,15 @@ ms.locfileid: "40910040"
 > 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 获取指定组的成员。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 将组中的所有用户分配到特定应用设置策略。 在此示例中，它是 HR 应用设置策略。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。

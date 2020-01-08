@@ -3,7 +3,6 @@ title: Microsoft Teams 来宾访问清单
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813772"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962530"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 ==========================================
@@ -84,11 +83,11 @@ ms.locfileid: "39813772"
 
 ## <a name="step-3-configure-office-365-groups"></a>步骤3：配置 Office 365 组
 
-1. 在 Microsoft 365 管理中心，转到 "**设置** > **服务" & "加载项** > "**Office 365 组**。
-2. 确保将 **"组织" 访问组内容外的组成员**设置为 **"开"**。 如果此设置处于关闭状态，则来宾将无法访问任何组内容。
-3. 确保**组所有者将组织外部的人员添加到 "组**" 设置为 **"开**"。 如果此设置处于关闭状态，则团队所有者将无法添加新来宾。 此设置至少必须启用才能支持来宾访问。
+1. 在 Microsoft 365 管理中心中，转到 "**设置** > **服务 & 加载项**"，然后选择 " **Office 365 组**"。
 
      ![屏幕截图显示 Office 365 组的切换](media/guest-access-checklist-office365.png)
+2. 确保选中 "**允许组织访问组内容之外的成员进行分组**" 复选框。 如果未选择此设置，来宾将无法访问任何组内容。
+3. 确保已选中 "**允许组所有者将组织外部人员添加到组**" 复选框。 如果未选择此设置，则团队所有者将无法添加新来宾。 此设置至少必须启用才能支持来宾访问。
 
 有关配置这些设置的详细说明，请参阅[在 office 365 组中管理来宾访问](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 office 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
  
@@ -115,14 +114,16 @@ ms.locfileid: "39813772"
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步骤5：验证 SharePoint 中的共享设置
 
-这一点是大脑 teaser。 如果在 SharePoint 管理中心内选中 "**不允许在组织外共享**" 设置，则团队中的来宾访问将不起作用。
-
 1. 登录到 Microsoft 365 管理中心。
-2. 单击 "**管理中心**"，然后选择 " **SharePoint**"。
-3. 在 SharePoint 管理中心中，选择 "**共享**"。
-4. 请确保*未*选中 "**不允许在组织外部共享**" 选项。
+2. 在 "**管理中心**" 下，选择 " **SharePoint**"。
+3. 在新的 SharePoint 管理中心的 "**网站**" 下，选择 "**活动网站**"。
+
+    ![SharePoint 管理中心中的活动网站](media/guest-access-checklist-SPOSettings0.png)
+
+3. 选择 "网站"，然后单击 "**共享**"。
+4. 请确保已将该选项设置为 "**任何人**" 或 "**现有来宾**"。
  
-     ![屏幕截图显示 SparePoint 联机设置切换的示例。](media/guest-access-checklist-SPOSettings1.png)
+     ![屏幕截图显示 SharePoint Online 设置切换的示例](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>步骤6：设置来宾用户权限

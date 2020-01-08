@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 02c7258ebc316d5e08c77698e18935eb51b5b43d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998810"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962980"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
@@ -89,15 +89,15 @@ ms.locfileid: "39998810"
 > 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
 获取指定组的成员。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 将组中的所有用户分配到特定团队策略。 在此示例中，它是市场营销团队政策。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。

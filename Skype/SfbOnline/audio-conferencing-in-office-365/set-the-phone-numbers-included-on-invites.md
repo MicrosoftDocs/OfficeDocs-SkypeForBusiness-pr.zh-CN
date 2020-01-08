@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792150"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962510"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>设置包含在 Skype for Business Online 邀请中的电话号码
 
@@ -55,7 +55,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![在 Skype for Business 管理中心显示选择用户](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
-4. 选择要编辑的用户:
+4. 选择要编辑的用户：
     
    - 要选择单个用户，请选择该用户的名称。
     
@@ -81,7 +81,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>重置音频会议的电话号码
 
-1. 在**Skype For business 管理中心**, 选择 "**音频会议**"。
+1. 在**Skype For business 管理中心**，选择 "**音频会议**"。
     
 2. 在页面顶部，选择**用户**。
     
@@ -100,34 +100,34 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
     若要更改用户的默认免费电话号码，请运行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
 - 使用 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet 可基于用户的原始默认电话号码或位置来更改其默认收费电话号码或免费电话号码。
     
     > [!NOTE]
-    > 若要查找 BridgeID, 请使用**get-csonlinedialinconferencingbridge** cmdlet。
+    > 若要查找 BridgeID，请使用**get-csonlinedialinconferencingbridge** cmdlet。
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - 若要为所有用户设置默认免费电话号码, 而不是 + 18005551234, 请运行:
+  - 若要为所有用户设置默认免费电话号码，而不是 + 18005551234，请运行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - 若要将具有 + 18005551234 的所有用户的默认免费电话号码更改为 + 18005551239 的默认免费号码, 请运行:
+  - 若要将具有 + 18005551234 的所有用户的默认免费电话号码更改为 + 18005551239 的默认免费号码，请运行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 若要将美国所有用户的默认免费号码设置为 + 18005551234, 请运行:
+  - 若要将美国所有用户的默认免费号码设置为 + 18005551234，请运行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
@@ -137,7 +137,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 Learn about these advantages in the following topics:
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
