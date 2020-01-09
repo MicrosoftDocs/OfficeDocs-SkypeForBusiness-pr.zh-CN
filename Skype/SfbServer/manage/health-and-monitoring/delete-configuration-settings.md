@@ -9,67 +9,67 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: '摘要: 了解如何在 Skype for Business Server 中删除 CDR 配置设置。'
-ms.openlocfilehash: 91ee9676b3087c5b125c6cfe935f706bbfb22812
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中删除 CDR 配置设置。
+ms.openlocfilehash: 16b797fb59e16038411c722ce064e14ab756cdfa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305829"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992429"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="eed5e-103">在 Skype for Business Server 中删除 CDR 配置设置的现有集合</span><span class="sxs-lookup"><span data-stu-id="eed5e-103">Delete an existing collection of CDR configuration settings in Skype for Business Server</span></span>
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="68012-103">在 Skype for Business Server 中删除 CDR 配置设置的现有集合</span><span class="sxs-lookup"><span data-stu-id="68012-103">Delete an existing collection of CDR configuration settings in Skype for Business Server</span></span>
  
-<span data-ttu-id="eed5e-104">**摘要:** 了解如何在 Skype for Business Server 中删除 CDR 配置设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-104">**Summary:** Learn how to remove CDR configuration settings in Skype for Business Server.</span></span>
+<span data-ttu-id="68012-104">**摘要：** 了解如何在 Skype for Business Server 中删除 CDR 配置设置。</span><span class="sxs-lookup"><span data-stu-id="68012-104">**Summary:** Learn how to remove CDR configuration settings in Skype for Business Server.</span></span>
   
-<span data-ttu-id="eed5e-p101">利用呼叫详细信息记录 (CDR)，可以跟踪对等即时消息会话、IP 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。</span><span class="sxs-lookup"><span data-stu-id="eed5e-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
+<span data-ttu-id="68012-p101">利用呼叫详细信息记录 (CDR)，可以跟踪对等即时消息会话、IP 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。</span><span class="sxs-lookup"><span data-stu-id="68012-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
   
-<span data-ttu-id="eed5e-107">安装 Skype for Business 服务器时, 将为你创建单个的 CDR 配置设置的全局集合。</span><span class="sxs-lookup"><span data-stu-id="eed5e-107">When you install Skype for Business Server, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="eed5e-108">管理员还可以选择可应用于各个站点的自定义设置集合。</span><span class="sxs-lookup"><span data-stu-id="eed5e-108">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="eed5e-109">根据设计，在站点范围配置的设置优先于在全局范围配置的设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-109">By design, settings configured at the site scope take precedence over settings configured at the global scope.</span></span> <span data-ttu-id="eed5e-110">如果您删除站点范围的设置，则在该站点中使用全局设置管理 CDR。</span><span class="sxs-lookup"><span data-stu-id="eed5e-110">If you delete site-scoped settings, then CDR will be managed in that site by using the global settings.</span></span>
+<span data-ttu-id="68012-107">安装 Skype for Business 服务器时，将为你创建单个的 CDR 配置设置的全局集合。</span><span class="sxs-lookup"><span data-stu-id="68012-107">When you install Skype for Business Server, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="68012-108">管理员还可以选择可应用于各个站点的自定义设置集合。</span><span class="sxs-lookup"><span data-stu-id="68012-108">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="68012-109">根据设计，在站点范围配置的设置优先于在全局范围配置的设置。</span><span class="sxs-lookup"><span data-stu-id="68012-109">By design, settings configured at the site scope take precedence over settings configured at the global scope.</span></span> <span data-ttu-id="68012-110">如果您删除站点范围的设置，则在该站点中使用全局设置管理 CDR。</span><span class="sxs-lookup"><span data-stu-id="68012-110">If you delete site-scoped settings, then CDR will be managed in that site by using the global settings.</span></span>
   
-<span data-ttu-id="eed5e-111">请注意, 您也可以 "删除" 全局设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-111">Note that you can also "delete" the global settings.</span></span> <span data-ttu-id="eed5e-112">但将不会实际删除全局设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-112">However, the global settings will not actually be removed.</span></span> <span data-ttu-id="eed5e-113">不过，该集合中的所有属性将重置为其默认值。</span><span class="sxs-lookup"><span data-stu-id="eed5e-113">Instead, all the properties in that collection will be reset to their default values.</span></span> <span data-ttu-id="eed5e-114">例如, 默认情况下, 在 CDR 配置设置的集合中启用清除。</span><span class="sxs-lookup"><span data-stu-id="eed5e-114">For example, by default purging is enabled in a collection of CDR configuration settings.</span></span> <span data-ttu-id="eed5e-115">假定您修改了全局集合，这样就会禁用清除功能。</span><span class="sxs-lookup"><span data-stu-id="eed5e-115">Suppose you modify the global collection so that purging is disabled.</span></span> <span data-ttu-id="eed5e-116">如果稍后删除全局设置，则会将这些属性全部重置为其默认值。</span><span class="sxs-lookup"><span data-stu-id="eed5e-116">If you later delete the global settings, all the properties will be reset to their default values.</span></span> <span data-ttu-id="eed5e-117">在这种情况下，这意味着又重新启用清除功能。</span><span class="sxs-lookup"><span data-stu-id="eed5e-117">In this case, that means that purging will once again be enabled.</span></span>
+<span data-ttu-id="68012-111">请注意，您也可以 "删除" 全局设置。</span><span class="sxs-lookup"><span data-stu-id="68012-111">Note that you can also "delete" the global settings.</span></span> <span data-ttu-id="68012-112">但将不会实际删除全局设置。</span><span class="sxs-lookup"><span data-stu-id="68012-112">However, the global settings will not actually be removed.</span></span> <span data-ttu-id="68012-113">不过，该集合中的所有属性将重置为其默认值。</span><span class="sxs-lookup"><span data-stu-id="68012-113">Instead, all the properties in that collection will be reset to their default values.</span></span> <span data-ttu-id="68012-114">例如，默认情况下，在 CDR 配置设置的集合中启用清除。</span><span class="sxs-lookup"><span data-stu-id="68012-114">For example, by default purging is enabled in a collection of CDR configuration settings.</span></span> <span data-ttu-id="68012-115">假定您修改了全局集合，这样就会禁用清除功能。</span><span class="sxs-lookup"><span data-stu-id="68012-115">Suppose you modify the global collection so that purging is disabled.</span></span> <span data-ttu-id="68012-116">如果稍后删除全局设置，则会将这些属性全部重置为其默认值。</span><span class="sxs-lookup"><span data-stu-id="68012-116">If you later delete the global settings, all the properties will be reset to their default values.</span></span> <span data-ttu-id="68012-117">在这种情况下，这意味着又重新启用清除功能。</span><span class="sxs-lookup"><span data-stu-id="68012-117">In this case, that means that purging will once again be enabled.</span></span>
   
-<span data-ttu-id="eed5e-118">你可以使用 Skype for Business Server 控制面板或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) CMDLET 删除 CDR 配置设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-118">You can remove CDR configuration settings by using the Skype for Business Server Control Panel or the [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="68012-118">你可以使用 Skype for Business Server 控制面板或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) CMDLET 删除 CDR 配置设置。</span><span class="sxs-lookup"><span data-stu-id="68012-118">You can remove CDR configuration settings by using the Skype for Business Server Control Panel or the [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
   
-### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a><span data-ttu-id="eed5e-119">要删除 "Skype for Business 服务器" 控制面板中的 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="eed5e-119">To remove CDR configuration settings with Skype for Business Server Control Panel</span></span>
+### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a><span data-ttu-id="68012-119">要删除 "Skype for Business 服务器" 控制面板中的 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="68012-119">To remove CDR configuration settings with Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="eed5e-120">在 "Skype for Business 服务器控制面板" 中, 单击 "**监视和存档**"。</span><span class="sxs-lookup"><span data-stu-id="eed5e-120">In Skype for Business Server Control Panel, click **Monitoring and Archiving**.</span></span> 
+1. <span data-ttu-id="68012-120">在 "Skype for Business 服务器控制面板" 中，单击 "**监视和存档**"。</span><span class="sxs-lookup"><span data-stu-id="68012-120">In Skype for Business Server Control Panel, click **Monitoring and Archiving**.</span></span> 
     
-2. <span data-ttu-id="eed5e-p104">在“**呼叫详细信息记录**”选项卡上，选择要删除的 CDR 设置的集合。若要删除多个集合，请单击第一个集合，然后在按住 Ctrl 键的同时单击其他集合。</span><span class="sxs-lookup"><span data-stu-id="eed5e-p104">On the **Call Detail Recording** tab, select the collection (or collections) of CDR settings to be removed. To select multiple collections, click the first collection, hold down the Ctrl key, and click additional collections.</span></span>
+2. <span data-ttu-id="68012-p104">在“**呼叫详细信息记录**”选项卡上，选择要删除的 CDR 设置的集合。若要删除多个集合，请单击第一个集合，然后在按住 Ctrl 键的同时单击其他集合。</span><span class="sxs-lookup"><span data-stu-id="68012-p104">On the **Call Detail Recording** tab, select the collection (or collections) of CDR settings to be removed. To select multiple collections, click the first collection, hold down the Ctrl key, and click additional collections.</span></span>
     
-3. <span data-ttu-id="eed5e-123">单击“**编辑**”，然后单击“**删除**”。</span><span class="sxs-lookup"><span data-stu-id="eed5e-123">Click **Edit**, and then click **Delete**.</span></span>
+3. <span data-ttu-id="68012-123">单击“**编辑**”，然后单击“**删除**”。</span><span class="sxs-lookup"><span data-stu-id="68012-123">Click **Edit**, and then click **Delete**.</span></span>
     
-4. <span data-ttu-id="eed5e-124">在 "Skype for Business 服务器控制面板" 对话框中, 单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="eed5e-124">In the Skype for Business Server Control Panel dialog box, click **OK**.</span></span>
+4. <span data-ttu-id="68012-124">在 "Skype for Business 服务器控制面板" 对话框中，单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="68012-124">In the Skype for Business Server Control Panel dialog box, click **OK**.</span></span>
     
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="eed5e-125">使用 Windows PowerShell Cmdlet 删除 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="eed5e-125">Removing CDR configuration settings by using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="68012-125">使用 Windows PowerShell Cmdlet 删除 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="68012-125">Removing CDR configuration settings by using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="eed5e-126">你可以使用 Windows PowerShell 和**CsCdrConfiguration** cmdlet 删除呼叫详细信息录制配置设置。</span><span class="sxs-lookup"><span data-stu-id="eed5e-126">You can delete call detail recording configuration settings by using Windows PowerShell and the **Remove-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="eed5e-127">你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="eed5e-127">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="eed5e-128">有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。</span><span class="sxs-lookup"><span data-stu-id="eed5e-128">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="eed5e-129">在 Skype for Business 服务器中, 此过程是相同的。</span><span class="sxs-lookup"><span data-stu-id="eed5e-129">The process is the same in Skype for Business Server.</span></span>
+<span data-ttu-id="68012-126">你可以使用 Windows PowerShell 和**CsCdrConfiguration** cmdlet 删除呼叫详细信息录制配置设置。</span><span class="sxs-lookup"><span data-stu-id="68012-126">You can delete call detail recording configuration settings by using Windows PowerShell and the **Remove-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="68012-127">你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="68012-127">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="68012-128">有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。</span><span class="sxs-lookup"><span data-stu-id="68012-128">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="68012-129">在 Skype for Business 服务器中，此过程是相同的。</span><span class="sxs-lookup"><span data-stu-id="68012-129">The process is the same in Skype for Business Server.</span></span>
   
-### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a><span data-ttu-id="eed5e-130">删除指定的 CDR 配置设置集合</span><span class="sxs-lookup"><span data-stu-id="eed5e-130">To remove a specified collection of CDR configuration settings</span></span>
+### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a><span data-ttu-id="68012-130">删除指定的 CDR 配置设置集合</span><span class="sxs-lookup"><span data-stu-id="68012-130">To remove a specified collection of CDR configuration settings</span></span>
 
- <span data-ttu-id="eed5e-131">此命令删除适用于 Redmond 站点的 CDR 配置设置：</span><span class="sxs-lookup"><span data-stu-id="eed5e-131">This command removes the CDR configuration settings applied to the Redmond site:</span></span>
+ <span data-ttu-id="68012-131">此命令删除适用于 Redmond 站点的 CDR 配置设置：</span><span class="sxs-lookup"><span data-stu-id="68012-131">This command removes the CDR configuration settings applied to the Redmond site:</span></span>
     
-  ```
+  ```PowerShell
   Remove-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
-### <a name="to-remove-all-the-cdr-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="eed5e-132">删除适用于站点范围的所有 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="eed5e-132">To remove all the CDR configuration settings applied to the site scope</span></span>
+### <a name="to-remove-all-the-cdr-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="68012-132">删除适用于站点范围的所有 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="68012-132">To remove all the CDR configuration settings applied to the site scope</span></span>
 
- <span data-ttu-id="eed5e-133">此命令删除适用于站点范围的所有 CDR 配置设置：</span><span class="sxs-lookup"><span data-stu-id="eed5e-133">This command removes all the CDR configuration settings applied to the site scope:</span></span>
+ <span data-ttu-id="68012-133">此命令删除适用于站点范围的所有 CDR 配置设置：</span><span class="sxs-lookup"><span data-stu-id="68012-133">This command removes all the CDR configuration settings applied to the site scope:</span></span>
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
-  ```
+  ```PowerShell
 
-### <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a><span data-ttu-id="eed5e-134">删除禁用呼叫详细信息记录的 CDR 配置设置</span><span class="sxs-lookup"><span data-stu-id="eed5e-134">To remove all the CDR configuration settings that disable call detail recording</span></span>
+### To remove all the CDR configuration settings that disable call detail recording
 
- <span data-ttu-id="eed5e-135">此命令删除已禁用呼叫详细信息记录的所有 CDR 配置设置：</span><span class="sxs-lookup"><span data-stu-id="eed5e-135">This command removes all the CDR configuration settings where Call Detail recording has been disabled:</span></span>
+ This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-<span data-ttu-id="eed5e-136">有关详细信息, 请参阅[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="eed5e-136">For more information, see the help topic for the [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="68012-134">有关详细信息，请参阅[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="68012-134">For more information, see the help topic for the [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="eed5e-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="eed5e-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="68012-135">另请参阅</span><span class="sxs-lookup"><span data-stu-id="68012-135">See also</span></span>
 
-[<span data-ttu-id="eed5e-138">在 Skype for Business 服务器中手动清除呼叫详细信息录制和体验数据库的质量</span><span class="sxs-lookup"><span data-stu-id="eed5e-138">Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[<span data-ttu-id="68012-136">在 Skype for Business 服务器中手动清除呼叫详细信息录制和体验数据库的质量</span><span class="sxs-lookup"><span data-stu-id="68012-136">Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

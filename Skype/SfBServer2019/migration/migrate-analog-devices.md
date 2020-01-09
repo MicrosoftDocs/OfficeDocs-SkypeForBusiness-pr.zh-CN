@@ -8,34 +8,34 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype for Business 服务器提供模拟设备的支持。 具体说来, 受支持的模拟设备是模拟音频电话和模拟传真计算机。 你可以配置合格的网关以支持在 Skype for Business 服务器环境中使用模拟设备。 迁移到 Skype for business Server 2019 后, 还必须迁移与模拟设备相关联的联系人对象。 使用 Skype for Business Server Management Shell 首先检索与传统模拟设备相关联的所有联系人对象, 然后将这些对象移动到 Skype for business Server 2019 池。
-ms.openlocfilehash: 486c49c0ace00b798520ebae939c0c2070a99783
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: Skype for Business 服务器提供模拟设备的支持。 具体说来，受支持的模拟设备是模拟音频电话和模拟传真计算机。 你可以配置合格的网关以支持在 Skype for Business 服务器环境中使用模拟设备。 迁移到 Skype for business Server 2019 后，还必须迁移与模拟设备相关联的联系人对象。 使用 Skype for Business Server Management Shell 首先检索与传统模拟设备相关联的所有联系人对象，然后将这些对象移动到 Skype for business Server 2019 池。
+ms.openlocfilehash: 7ca36c92270685709c479a1d164f60d0960c526c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238037"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990087"
 ---
-# <a name="migrate-analog-devices"></a><span data-ttu-id="57eea-107">迁移模拟设备</span><span class="sxs-lookup"><span data-stu-id="57eea-107">Migrate analog devices</span></span>
+# <a name="migrate-analog-devices"></a><span data-ttu-id="1b4d6-107">迁移模拟设备</span><span class="sxs-lookup"><span data-stu-id="1b4d6-107">Migrate analog devices</span></span>
 
-<span data-ttu-id="57eea-108">Skype for Business 服务器提供模拟设备的支持。</span><span class="sxs-lookup"><span data-stu-id="57eea-108">Skype for Business Server provides support for analog devices.</span></span> <span data-ttu-id="57eea-109">具体说来, 受支持的模拟设备是模拟音频电话和模拟传真计算机。</span><span class="sxs-lookup"><span data-stu-id="57eea-109">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="57eea-110">你可以配置合格的网关以支持在 Skype for Business 服务器环境中使用模拟设备。</span><span class="sxs-lookup"><span data-stu-id="57eea-110">You can configure the qualified gateways to support the use of analog devices in your Skype for Business Server environment.</span></span> <span data-ttu-id="57eea-111">迁移到 Skype for business Server 2019 后, 还必须迁移与模拟设备相关联的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="57eea-111">After you migrate to Skype for Business Server 2019, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="57eea-112">使用 Skype for Business Server Management Shell 首先检索与传统模拟设备相关联的所有联系人对象, 然后将这些对象移动到 Skype for business Server 2019 池。</span><span class="sxs-lookup"><span data-stu-id="57eea-112">Use Skype for Business Server Management Shell to first retrieve all contact objects associated with the legacy analog devices, and then move those objects to the Skype for Business Server 2019 pool.</span></span>
+<span data-ttu-id="1b4d6-108">Skype for Business 服务器提供模拟设备的支持。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-108">Skype for Business Server provides support for analog devices.</span></span> <span data-ttu-id="1b4d6-109">具体说来，受支持的模拟设备是模拟音频电话和模拟传真计算机。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-109">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="1b4d6-110">你可以配置合格的网关以支持在 Skype for Business 服务器环境中使用模拟设备。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-110">You can configure the qualified gateways to support the use of analog devices in your Skype for Business Server environment.</span></span> <span data-ttu-id="1b4d6-111">迁移到 Skype for business Server 2019 后，还必须迁移与模拟设备相关联的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-111">After you migrate to Skype for Business Server 2019, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="1b4d6-112">使用 Skype for Business Server Management Shell 首先检索与传统模拟设备相关联的所有联系人对象，然后将这些对象移动到 Skype for business Server 2019 池。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-112">Use Skype for Business Server Management Shell to first retrieve all contact objects associated with the legacy analog devices, and then move those objects to the Skype for Business Server 2019 pool.</span></span>
 
-### <a name="to-migrate-analog-devices"></a><span data-ttu-id="57eea-113">迁移模拟设备</span><span class="sxs-lookup"><span data-stu-id="57eea-113">To migrate analog devices</span></span>
+### <a name="to-migrate-analog-devices"></a><span data-ttu-id="1b4d6-113">迁移模拟设备</span><span class="sxs-lookup"><span data-stu-id="1b4d6-113">To migrate analog devices</span></span>
 
-1. <span data-ttu-id="57eea-114">启动 Skype for Business Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft skype for business server 2019**", 然后单击 " **skype for business 服务器管理外壳**"。</span><span class="sxs-lookup"><span data-stu-id="57eea-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="1b4d6-114">启动 Skype for Business Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft skype for business server 2019**"，然后单击 " **skype for business 服务器管理外壳**"。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-2. <span data-ttu-id="57eea-115">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="57eea-115">At the command line, type:</span></span>
+2. <span data-ttu-id="1b4d6-115">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="1b4d6-115">At the command line, type:</span></span>
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
    ```
 
-3. <span data-ttu-id="57eea-116">验证是否已将所有联系人对象移动到 Skype for business Server 2019 池。</span><span class="sxs-lookup"><span data-stu-id="57eea-116">Verify that all contact objects have been moved to the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="57eea-117">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="57eea-117">At the command line, type:</span></span>
+3. <span data-ttu-id="1b4d6-116">验证是否已将所有联系人对象移动到 Skype for business Server 2019 池。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-116">Verify that all contact objects have been moved to the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="1b4d6-117">在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="1b4d6-117">At the command line, type:</span></span>
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 
-4. <span data-ttu-id="57eea-118">验证所有联系人对象现已与 Skype for Business Server 2019 池相关联。</span><span class="sxs-lookup"><span data-stu-id="57eea-118">Verify that all the contact objects are now associated with the Skype for Business Server 2019 pool.</span></span>
+4. <span data-ttu-id="1b4d6-118">验证所有联系人对象现已与 Skype for Business Server 2019 池相关联。</span><span class="sxs-lookup"><span data-stu-id="1b4d6-118">Verify that all the contact objects are now associated with the Skype for Business Server 2019 pool.</span></span>
 
 

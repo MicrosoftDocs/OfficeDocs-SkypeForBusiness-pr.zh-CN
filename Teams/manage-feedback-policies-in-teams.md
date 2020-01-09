@@ -15,83 +15,83 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略控制组织中的团队用户是否可以向 Microsoft 提交有关团队的反馈。
-ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998830"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991417"
 ---
-# <a name="manage-feedback-policies-in-microsoft-teams"></a><span data-ttu-id="7d18e-103">管理 Microsoft 团队中的反馈策略</span><span class="sxs-lookup"><span data-stu-id="7d18e-103">Manage feedback policies in Microsoft Teams</span></span>
+# <a name="manage-feedback-policies-in-microsoft-teams"></a><span data-ttu-id="698fb-103">管理 Microsoft 团队中的反馈策略</span><span class="sxs-lookup"><span data-stu-id="698fb-103">Manage feedback policies in Microsoft Teams</span></span>
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-<span data-ttu-id="7d18e-104">你的组织中的用户可以向 Microsoft 发送有关团队的反馈，让我们可以直接从团队桌面和 web 客户端中了解如何操作。</span><span class="sxs-lookup"><span data-stu-id="7d18e-104">Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients.</span></span> <span data-ttu-id="7d18e-105">我们正在不断改进团队体验，我们将使用此反馈提高团队的能力。</span><span class="sxs-lookup"><span data-stu-id="7d18e-105">We're continually improving the Teams experience and we use this feedback to make Teams better.</span></span>
+<span data-ttu-id="698fb-104">你的组织中的用户可以向 Microsoft 发送有关团队的反馈，让我们可以直接从团队桌面和 web 客户端中了解如何操作。</span><span class="sxs-lookup"><span data-stu-id="698fb-104">Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients.</span></span> <span data-ttu-id="698fb-105">我们正在不断改进团队体验，我们将使用此反馈提高团队的能力。</span><span class="sxs-lookup"><span data-stu-id="698fb-105">We're continually improving the Teams experience and we use this feedback to make Teams better.</span></span>
 
-<span data-ttu-id="7d18e-106">**"提供反馈" 功能**</span><span class="sxs-lookup"><span data-stu-id="7d18e-106">**The Give feedback feature**</span></span>
+<span data-ttu-id="698fb-106">**"提供反馈" 功能**</span><span class="sxs-lookup"><span data-stu-id="698fb-106">**The Give feedback feature**</span></span>
 
-<span data-ttu-id="7d18e-107">用户可通过**转到** > 团队**提供反馈**来向我们发送有关团队的评论和建议。</span><span class="sxs-lookup"><span data-stu-id="7d18e-107">Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams.</span></span> <span data-ttu-id="7d18e-108">通过 "**提供反馈**" 发送的数据在您的 Office 365 协议下被视为 "支持数据"，包括其他人被视为 "客户数据" 或 "个人资料" 的信息。</span><span class="sxs-lookup"><span data-stu-id="7d18e-108">Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".</span></span>
+<span data-ttu-id="698fb-107">用户可通过**转到** > 团队**提供反馈**来向我们发送有关团队的评论和建议。</span><span class="sxs-lookup"><span data-stu-id="698fb-107">Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams.</span></span> <span data-ttu-id="698fb-108">通过 "**提供反馈**" 发送的数据在您的 Office 365 协议下被视为 "支持数据"，包括其他人被视为 "客户数据" 或 "个人资料" 的信息。</span><span class="sxs-lookup"><span data-stu-id="698fb-108">Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".</span></span>
 
 ![团队中的 "提供反馈" 选项的屏幕截图](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-<span data-ttu-id="7d18e-110">**调查**</span><span class="sxs-lookup"><span data-stu-id="7d18e-110">**Surveys**</span></span>
+<span data-ttu-id="698fb-110">**调查**</span><span class="sxs-lookup"><span data-stu-id="698fb-110">**Surveys**</span></span>
 
-<span data-ttu-id="7d18e-111">用户还可以对团队的体验进行评级，并向我们发送有关他们所提供的评级的详细信息。</span><span class="sxs-lookup"><span data-stu-id="7d18e-111">Users can also rate their experience with Teams and send us details about the rating they give.</span></span> <span data-ttu-id="7d18e-112">此弹出调查将在团队中的时间内显示给用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-112">This pop-up survey is displayed to users from time-to-time in Teams.</span></span> <span data-ttu-id="7d18e-113">当用户单击通知中的 "**提供反馈**" 时，将显示调查以完成。</span><span class="sxs-lookup"><span data-stu-id="7d18e-113">When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.</span></span>
+<span data-ttu-id="698fb-111">用户还可以对团队的体验进行评级，并向我们发送有关他们所提供的评级的详细信息。</span><span class="sxs-lookup"><span data-stu-id="698fb-111">Users can also rate their experience with Teams and send us details about the rating they give.</span></span> <span data-ttu-id="698fb-112">此弹出调查将在团队中的时间内显示给用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-112">This pop-up survey is displayed to users from time-to-time in Teams.</span></span> <span data-ttu-id="698fb-113">当用户单击通知中的 "**提供反馈**" 时，将显示调查以完成。</span><span class="sxs-lookup"><span data-stu-id="698fb-113">When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.</span></span>
 
 ![团队中的调查通知和表单的屏幕截图](media/manage-feedback-policies-in-teams-survey.png)
 
-## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a><span data-ttu-id="7d18e-115">设置用户是否可以向 Microsoft 发送有关团队的反馈</span><span class="sxs-lookup"><span data-stu-id="7d18e-115">Set whether users can send feedback about Teams to Microsoft</span></span>
+## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a><span data-ttu-id="698fb-115">设置用户是否可以向 Microsoft 发送有关团队的反馈</span><span class="sxs-lookup"><span data-stu-id="698fb-115">Set whether users can send feedback about Teams to Microsoft</span></span>
 
-<span data-ttu-id="7d18e-116">作为管理员，你可以控制你的组织中的用户是否可以通过**提供反馈**以及是否收到调查来向 Microsoft 发送有关团队的反馈。</span><span class="sxs-lookup"><span data-stu-id="7d18e-116">As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey.</span></span> <span data-ttu-id="7d18e-117">默认情况下，组织中的所有用户都会自动分配全局（组织范围的默认）策略，并且在策略中启用 "**提供反馈**" 功能和 "调查"。</span><span class="sxs-lookup"><span data-stu-id="7d18e-117">By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy.</span></span> <span data-ttu-id="7d18e-118">例外情况是团队教育版，其中为教师启用了功能并对学生禁用了这些功能。</span><span class="sxs-lookup"><span data-stu-id="7d18e-118">The exception is Teams for Education, where the features are enabled for teachers and disabled for students.</span></span>
+<span data-ttu-id="698fb-116">作为管理员，你可以控制你的组织中的用户是否可以通过**提供反馈**以及是否收到调查来向 Microsoft 发送有关团队的反馈。</span><span class="sxs-lookup"><span data-stu-id="698fb-116">As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey.</span></span> <span data-ttu-id="698fb-117">默认情况下，组织中的所有用户都会自动分配全局（组织范围的默认）策略，并且在策略中启用 "**提供反馈**" 功能和 "调查"。</span><span class="sxs-lookup"><span data-stu-id="698fb-117">By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy.</span></span> <span data-ttu-id="698fb-118">例外情况是团队教育版，其中为教师启用了功能并对学生禁用了这些功能。</span><span class="sxs-lookup"><span data-stu-id="698fb-118">The exception is Teams for Education, where the features are enabled for teachers and disabled for students.</span></span>
 
-<span data-ttu-id="7d18e-119">你可以编辑全局策略，也可以创建并分配自定义策略。</span><span class="sxs-lookup"><span data-stu-id="7d18e-119">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="7d18e-120">如果向用户分配了自定义策略，则该策略将应用于用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-120">If a user is assigned a custom policy, that policy applies to the user.</span></span> <span data-ttu-id="7d18e-121">如果未向用户分配自定义策略，则全局策略将应用于该用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-121">If a user isn't assigned a custom policy, the global policy applies to the user.</span></span> <span data-ttu-id="7d18e-122">编辑全局策略或分配策略后，所做的更改可能需要长达24小时才能生效。</span><span class="sxs-lookup"><span data-stu-id="7d18e-122">After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.</span></span>
+<span data-ttu-id="698fb-119">你可以编辑全局策略，也可以创建并分配自定义策略。</span><span class="sxs-lookup"><span data-stu-id="698fb-119">You can edit the global policy or create and assign a custom policy.</span></span> <span data-ttu-id="698fb-120">如果向用户分配了自定义策略，则该策略将应用于用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-120">If a user is assigned a custom policy, that policy applies to the user.</span></span> <span data-ttu-id="698fb-121">如果未向用户分配自定义策略，则全局策略将应用于该用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-121">If a user isn't assigned a custom policy, the global policy applies to the user.</span></span> <span data-ttu-id="698fb-122">编辑全局策略或分配策略后，所做的更改可能需要长达24小时才能生效。</span><span class="sxs-lookup"><span data-stu-id="698fb-122">After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.</span></span>
 
-<span data-ttu-id="7d18e-123">例如，你希望允许组织中的所有用户通过**提供反馈**并接收除培训新员工之外的调查来发送反馈。</span><span class="sxs-lookup"><span data-stu-id="7d18e-123">Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training.</span></span> <span data-ttu-id="7d18e-124">在此方案中，创建自定义策略以关闭这两个功能，并将其分配给新的员工。</span><span class="sxs-lookup"><span data-stu-id="7d18e-124">In this scenario, you create a custom policy to turn off both features and assign it to new hires.</span></span> <span data-ttu-id="7d18e-125">组织中的所有其他用户均会在启用功能的情况中获得全局策略。</span><span class="sxs-lookup"><span data-stu-id="7d18e-125">All other users in your organization get the global policy with the features turned on.</span></span>  
+<span data-ttu-id="698fb-123">例如，你希望允许组织中的所有用户通过**提供反馈**并接收除培训新员工之外的调查来发送反馈。</span><span class="sxs-lookup"><span data-stu-id="698fb-123">Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training.</span></span> <span data-ttu-id="698fb-124">在此方案中，创建自定义策略以关闭这两个功能，并将其分配给新的员工。</span><span class="sxs-lookup"><span data-stu-id="698fb-124">In this scenario, you create a custom policy to turn off both features and assign it to new hires.</span></span> <span data-ttu-id="698fb-125">组织中的所有其他用户均会在启用功能的情况中获得全局策略。</span><span class="sxs-lookup"><span data-stu-id="698fb-125">All other users in your organization get the global policy with the features turned on.</span></span>  
 
-<span data-ttu-id="7d18e-126">使用**CsTeamsFeedbackPolicy** cmdlet （*可在[此处找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*）创建自定义策略和**授予 CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组，如安全组或通讯组。</span><span class="sxs-lookup"><span data-stu-id="7d18e-126">You use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.</span></span>
+<span data-ttu-id="698fb-126">使用**CsTeamsFeedbackPolicy** cmdlet （*可在[此处找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*）创建自定义策略和**授予 CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组，如安全组或通讯组。</span><span class="sxs-lookup"><span data-stu-id="698fb-126">You use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.</span></span>
 
-<span data-ttu-id="7d18e-127">要关闭并打开这些功能，请设置以下参数：</span><span class="sxs-lookup"><span data-stu-id="7d18e-127">To turn off and turn on the features, set the following parameters:</span></span>
+<span data-ttu-id="698fb-127">要关闭并打开这些功能，请设置以下参数：</span><span class="sxs-lookup"><span data-stu-id="698fb-127">To turn off and turn on the features, set the following parameters:</span></span>
 
- - <span data-ttu-id="7d18e-128">**提供反馈**：将**userInitiatedMode**参数设置为 "**已启用**"，以允许分配了该策略的用户提供反馈。</span><span class="sxs-lookup"><span data-stu-id="7d18e-128">**Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback.</span></span> <span data-ttu-id="7d18e-129">将参数设置为 "**已禁用**" 将关闭该功能，并且分配了该策略的用户没有提供反馈的选项。</span><span class="sxs-lookup"><span data-stu-id="7d18e-129">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.</span></span>
- - <span data-ttu-id="7d18e-130">**调查**：将**receiveSurveysMode**参数设置为 "**已启用**"，以允许分配了该策略的用户接收调查。</span><span class="sxs-lookup"><span data-stu-id="7d18e-130">**Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey.</span></span> <span data-ttu-id="7d18e-131">若要让用户收到调查并允许他们选择退出，请将参数设置为 " **enabledUserOverride**"。</span><span class="sxs-lookup"><span data-stu-id="7d18e-131">To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**.</span></span> <span data-ttu-id="7d18e-132">在团队中，用户可以转到 "**设置** > **隐私**" 并选择他们是否希望参与调查。</span><span class="sxs-lookup"><span data-stu-id="7d18e-132">In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys.</span></span> <span data-ttu-id="7d18e-133">将参数设置为 "**禁用**" 将关闭该功能，并且分配了该策略的用户将不会收到调查。</span><span class="sxs-lookup"><span data-stu-id="7d18e-133">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.</span></span>
+ - <span data-ttu-id="698fb-128">**提供反馈**：将**userInitiatedMode**参数设置为 "**已启用**"，以允许分配了该策略的用户提供反馈。</span><span class="sxs-lookup"><span data-stu-id="698fb-128">**Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback.</span></span> <span data-ttu-id="698fb-129">将参数设置为 "**已禁用**" 将关闭该功能，并且分配了该策略的用户没有提供反馈的选项。</span><span class="sxs-lookup"><span data-stu-id="698fb-129">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.</span></span>
+ - <span data-ttu-id="698fb-130">**调查**：将**receiveSurveysMode**参数设置为 "**已启用**"，以允许分配了该策略的用户接收调查。</span><span class="sxs-lookup"><span data-stu-id="698fb-130">**Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey.</span></span> <span data-ttu-id="698fb-131">若要让用户收到调查并允许他们选择退出，请将参数设置为 " **enabledUserOverride**"。</span><span class="sxs-lookup"><span data-stu-id="698fb-131">To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**.</span></span> <span data-ttu-id="698fb-132">在团队中，用户可以转到 "**设置** > **隐私**" 并选择他们是否希望参与调查。</span><span class="sxs-lookup"><span data-stu-id="698fb-132">In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys.</span></span> <span data-ttu-id="698fb-133">将参数设置为 "**禁用**" 将关闭该功能，并且分配了该策略的用户将不会收到调查。</span><span class="sxs-lookup"><span data-stu-id="698fb-133">Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.</span></span>
 
-## <a name="create-a-custom-feedback-policy"></a><span data-ttu-id="7d18e-134">创建自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="7d18e-134">Create a custom feedback policy</span></span>
+## <a name="create-a-custom-feedback-policy"></a><span data-ttu-id="698fb-134">创建自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="698fb-134">Create a custom feedback policy</span></span>
 
-<span data-ttu-id="7d18e-135">在此示例中，我们创建了一个名为 "新员工反馈" 策略的反馈策略，并关闭了**提供反馈和调查**的功能。</span><span class="sxs-lookup"><span data-stu-id="7d18e-135">In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.</span></span>
+<span data-ttu-id="698fb-135">在此示例中，我们创建了一个名为 "新员工反馈" 策略的反馈策略，并关闭了**提供反馈和调查**的功能。</span><span class="sxs-lookup"><span data-stu-id="698fb-135">In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.</span></span>
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a><span data-ttu-id="7d18e-136">分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="7d18e-136">Assign a custom feedback policy</span></span>
+## <a name="assign-a-custom-feedback-policy"></a><span data-ttu-id="698fb-136">分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="698fb-136">Assign a custom feedback policy</span></span>
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a><span data-ttu-id="7d18e-137">向用户分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="7d18e-137">Assign a custom feedback policy to a user</span></span>
+### <a name="assign-a-custom-feedback-policy-to-a-user"></a><span data-ttu-id="698fb-137">向用户分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="698fb-137">Assign a custom feedback policy to a user</span></span>
 
-<span data-ttu-id="7d18e-138">在此示例中，我们将名为 "新建员工反馈" 策略的自定义策略分配给名为 "user1" 的用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-138">In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.</span></span>
+<span data-ttu-id="698fb-138">在此示例中，我们将名为 "新建员工反馈" 策略的自定义策略分配给名为 "user1" 的用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-138">In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.</span></span>
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a><span data-ttu-id="7d18e-139">向组中的用户分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="7d18e-139">Assign a custom feedback policy to users in a group</span></span>
+### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a><span data-ttu-id="698fb-139">向组中的用户分配自定义反馈策略</span><span class="sxs-lookup"><span data-stu-id="698fb-139">Assign a custom feedback policy to users in a group</span></span>
 
-<span data-ttu-id="7d18e-140">你可能希望将自定义反馈策略分配给已标识的多个用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-140">You may want to assign a custom feedback policy to multiple users that you’ve already identified.</span></span> <span data-ttu-id="7d18e-141">例如，你可能想要向安全组中的所有用户分配策略。</span><span class="sxs-lookup"><span data-stu-id="7d18e-141">For example, you may want to assign a policy to all users in a security group.</span></span>
+<span data-ttu-id="698fb-140">你可能希望将自定义反馈策略分配给已标识的多个用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-140">You may want to assign a custom feedback policy to multiple users that you’ve already identified.</span></span> <span data-ttu-id="698fb-141">例如，你可能想要向安全组中的所有用户分配策略。</span><span class="sxs-lookup"><span data-stu-id="698fb-141">For example, you may want to assign a policy to all users in a security group.</span></span>
 
-<span data-ttu-id="7d18e-142">在此示例中，我们将名为 "新员工反馈" 策略的自定义反馈策略分配给 Contoso 新员工组中的所有用户。</span><span class="sxs-lookup"><span data-stu-id="7d18e-142">In this example, we assign a custom feedback policy called New Hire Feedback Policy to all users in the Contoso New Hires group.</span></span>  
+<span data-ttu-id="698fb-142">在此示例中，我们将名为 "新员工反馈" 策略的自定义反馈策略分配给 Contoso 新员工组中的所有用户。</span><span class="sxs-lookup"><span data-stu-id="698fb-142">In this example, we assign a custom feedback policy called New Hire Feedback Policy to all users in the Contoso New Hires group.</span></span>  
 
-<span data-ttu-id="7d18e-143">获取特定组的 GroupObjectId。</span><span class="sxs-lookup"><span data-stu-id="7d18e-143">Get the GroupObjectId of the particular group.</span></span>
-```
+<span data-ttu-id="698fb-143">获取特定组的 GroupObjectId。</span><span class="sxs-lookup"><span data-stu-id="698fb-143">Get the GroupObjectId of the particular group.</span></span>
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
-<span data-ttu-id="7d18e-144">获取指定组的成员。</span><span class="sxs-lookup"><span data-stu-id="7d18e-144">Get the members of the specified group.</span></span>
-```
+<span data-ttu-id="698fb-144">获取指定组的成员。</span><span class="sxs-lookup"><span data-stu-id="698fb-144">Get the members of the specified group.</span></span>
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-<span data-ttu-id="7d18e-145">将组中的所有用户分配给特定的反馈策略。</span><span class="sxs-lookup"><span data-stu-id="7d18e-145">Assign all users in the group to a particular feedback policy.</span></span> <span data-ttu-id="7d18e-146">在此示例中，它是新员工反馈策略。</span><span class="sxs-lookup"><span data-stu-id="7d18e-146">In this example, it's New Hire Feedback Policy.</span></span>
-```
+<span data-ttu-id="698fb-145">将组中的所有用户分配给特定的反馈策略。</span><span class="sxs-lookup"><span data-stu-id="698fb-145">Assign all users in the group to a particular feedback policy.</span></span> <span data-ttu-id="698fb-146">在此示例中，它是新员工反馈策略。</span><span class="sxs-lookup"><span data-stu-id="698fb-146">In this example, it's New Hire Feedback Policy.</span></span>
+```PowerShell
 $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
-<span data-ttu-id="7d18e-147">此命令可能需要几分钟才能执行，具体取决于组中的成员数量。</span><span class="sxs-lookup"><span data-stu-id="7d18e-147">Depending on the number of members in the group, this command may take several minutes to execute.</span></span>
+<span data-ttu-id="698fb-147">此命令可能需要几分钟才能执行，具体取决于组中的成员数量。</span><span class="sxs-lookup"><span data-stu-id="698fb-147">Depending on the number of members in the group, this command may take several minutes to execute.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7d18e-148">相关主题</span><span class="sxs-lookup"><span data-stu-id="7d18e-148">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="698fb-148">相关主题</span><span class="sxs-lookup"><span data-stu-id="698fb-148">Related topics</span></span>
 
-- [<span data-ttu-id="7d18e-149">Teams PowerShell 概览</span><span class="sxs-lookup"><span data-stu-id="7d18e-149">Teams PowerShell Overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="698fb-149">Teams PowerShell 概览</span><span class="sxs-lookup"><span data-stu-id="698fb-149">Teams PowerShell Overview</span></span>](teams-powershell-overview.md)
