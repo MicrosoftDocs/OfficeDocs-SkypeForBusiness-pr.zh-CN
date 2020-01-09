@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '摘要: 了解如何在 Skype for Business 服务器中管理会议加入和退出通知。'
-ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business 服务器中管理会议加入和退出通知。
+ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283793"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991827"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理会议加入和退出通知
  
-**摘要:** 了解如何在 Skype for Business 服务器中管理会议加入和退出通知。
+**摘要：** 了解如何在 Skype for Business 服务器中管理会议加入和退出通知。
   
-当拨入用户加入或离开会议时, 会议公告应用程序可以通过播放音频或说出其名称来宣布其进入或退出。 你可以通过使用 Skype for Business Server Management Shell 和**CsDialinConferencing** cmdlet 以及以下参数来更改通知的工作方式:
+当拨入用户加入或离开会议时，会议公告应用程序可以通过播放音频或说出其名称来宣布其进入或退出。 你可以通过使用 Skype for Business Server Management Shell 和**CsDialinConferencing** cmdlet 以及以下参数来更改通知的工作方式：
   
 - EnableNameRecording - 确定在匿名参与者进入会议之前是否要求参与者记录其姓名。默认值为“$true”，即系统会提示匿名参与者在加入会议时说出其姓名。（经过身份验证的参与者不会记录他们的姓名，因为将使用他们的显示名称。）
     
@@ -40,15 +40,15 @@ ms.locfileid: "34283793"
     
 3. 在命令提示符下，运行以下内容：
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
-此 cmdlet 检索有关参与者在加入会议时是否需要参与者记录其名称的信息, 以及 Skype for business 服务器在参与者加入或离开电话拨入式会议时如何响应。
+此 cmdlet 检索有关参与者在加入会议时是否需要参与者记录其名称的信息，以及 Skype for business 服务器在参与者加入或离开电话拨入式会议时如何响应。
     
 4. 在命令提示符下，运行以下内容：
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
@@ -57,13 +57,13 @@ ms.locfileid: "34283793"
 
 在以下示例中，在 site 作用域为 Redmond 配置设置。通知已打开，但在参与者加入会议时系统未提示他们说出姓名。参与者进入或离开会议时将播放提示音：
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-有关详细信息, 包括语法和参数的完整列表, 请参阅[Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
+有关详细信息，包括语法和参数的完整列表，请参阅[Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
   
 

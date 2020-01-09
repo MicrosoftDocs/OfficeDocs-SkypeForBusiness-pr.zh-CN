@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略控制组织中的团队用户是否可以向 Microsoft 提交有关团队的反馈。
-ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998830"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991417"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的反馈策略
 
@@ -59,7 +59,7 @@ ms.locfileid: "39998830"
 
 在此示例中，我们创建了一个名为 "新员工反馈" 策略的反馈策略，并关闭了**提供反馈和调查**的功能。
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
@@ -69,7 +69,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 在此示例中，我们将名为 "新建员工反馈" 策略的自定义策略分配给名为 "user1" 的用户。
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 ### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>向组中的用户分配自定义反馈策略
@@ -79,15 +79,15 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 在此示例中，我们将名为 "新员工反馈" 策略的自定义反馈策略分配给 Contoso 新员工组中的所有用户。  
 
 获取特定组的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
 获取指定组的成员。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 将组中的所有用户分配给特定的反馈策略。 在此示例中，它是新员工反馈策略。
-```
+```PowerShell
 $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。

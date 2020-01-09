@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: 122a704df184619591f121f088162a045733cf4b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775071"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992127"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>安装 Microsoft StaffHub PowerShell 模块
 
@@ -37,40 +37,41 @@ ms.locfileid: "37775071"
     > 若要获取最新版本的 Windows PowerShell，请参阅[安装 Windows powershell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)。
 3. 请运行以下命令：
 
-    ```
+    ```PowerShell
     $ENV:PSModulePath
     ```
 4. 检查输出中的文件夹路径，并确保你的计算机上的所有文件夹都存在于你的计算机上，然后再转到下一步。 如果文件夹丢失，请创建它们。
 5. 运行以下内容以允许安装 StaffHub PowerShell 模块：
 
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
 6. 运行以下，其中&lt;path&gt;是步骤3的输出中的路径。 例如，路径可能如下所示 C:\Users\User1\Documents\WindowsPowerShell\Modules。
 
     请确保单独运行每个命令。
 
-    ```
+    ```PowerShell
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     ```
 7. 退出 Windows PowerShell。
 8. 以全局管理员身份打开 Windows PowerShell 3.0 或更高版本，然后运行以下操作：
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftStaffHub
-
-## Connect to the Microsoft StaffHub PowerShell module
-
-1. Run the following:
-
     ```
+
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>连接到 Microsoft StaffHub PowerShell 模块
+
+1. 请运行以下命令：
+
+    ```PowerShell
     Connect-StaffHub
     ```
 
-2. When you're prompted, log in as a global admin.
+2. 出现提示时，以全局管理员身份登录。
 
-## Related topics
+## <a name="related-topics"></a>相关主题
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Microsoft StaffHub PowerShell 参考](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](move-staffhub-teams-to-shifts-in-teams.md)

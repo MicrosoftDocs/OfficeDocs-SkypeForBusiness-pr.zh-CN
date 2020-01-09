@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: '摘要: 了解如何在 Skype for Business Server 中修改会议配置设置。'
-ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中修改会议配置设置。
+ms.openlocfilehash: 2e9d8a737a2bfc48cdcbe39540a22e4c236003b3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280395"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992849"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中修改会议配置设置
  
-**摘要:** 了解如何在 Skype for Business Server 中修改会议配置设置。
+**摘要：** 了解如何在 Skype for Business Server 中修改会议配置设置。
   
 可以使用 Skype for Business Server 控制面板或使用 Skype for business Server 命令行管理器修改会议配置设置。
   
@@ -43,10 +43,10 @@ ms.locfileid: "34280395"
   
 下例所示的命令修改分配给 Redmond 站点 (-Identity site:Redmond) 的会议配置设置。在此示例中，DesignateAsPresenter 属性的值设置为 Everyone：
   
-```
+```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-有关详细信息, 包括参数的完整列表, 请参阅[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。
+有关详细信息，包括参数的完整列表，请参阅[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)。
   
 

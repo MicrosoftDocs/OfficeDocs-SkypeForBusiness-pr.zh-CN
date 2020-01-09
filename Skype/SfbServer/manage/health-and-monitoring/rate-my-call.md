@@ -9,31 +9,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: '摘要: 了解 Skype for Business 服务器中我的通话功能的费率。'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中我的通话功能的费率。
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279856"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991737"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在 Skype for Business 服务器中评价我的呼叫
 
-**摘要:** 了解有关 Skype for Business 服务器中我的通话功能的费率。
+**摘要：** 了解有关 Skype for Business 服务器中我的通话功能的费率。
 
-评价我的通话是 Skype for business 2015 和2016客户端的一项新功能, 可为企业提供从最终用户获得反馈的途径。
+评价我的通话是 Skype for business 2015 和2016客户端的一项新功能，可为企业提供从最终用户获得反馈的途径。
 
-"通话费率" 窗口为音频和视频呼叫提供 "star" 分级系统和预定义令牌。 此外, 管理员可以启用自定义域提供反馈。
+"通话费率" 窗口为音频和视频呼叫提供 "star" 分级系统和预定义令牌。 此外，管理员可以启用自定义域提供反馈。
 
 收集的“评价我的呼叫”数据当前不包含在现有监控报告中，但其具有单独的监控报告。 数据在可通过运行 SQL 查询进行访问的 SQL 表中收集。
 
 ## <a name="rate-my-call-prerequisites"></a>“评价我的呼叫”先决条件
 
-在 Skype for Business 服务器部署中的用户可以对我的呼叫功能进行评级之前, 必须部署和配置以下组件集:
+在 Skype for Business 服务器部署中的用户可以对我的呼叫功能进行评级之前，必须部署和配置以下组件集：
 
--  必须安装了 Skype for Business 服务器 (版本9160或更高版本)。
+-  必须安装了 Skype for Business 服务器（版本9160或更高版本）。
 
-- 让你的用户安装和更新到最新版本的 Skype for Business, 并让他们使用 Skype for Business UI。
+- 让你的用户安装和更新到最新版本的 Skype for Business，并让他们使用 Skype for Business UI。
 
 - 用户必须驻留在 Skype for business 服务器前端池。
 
@@ -43,15 +43,15 @@ ms.locfileid: "34279856"
 
 ## <a name="configure-rate-my-call"></a>配置“评价我的呼叫”
 
-默认情况下, 使用以下设置在客户端策略中启用 "我的通话" 功能的费率:
+默认情况下，使用以下设置在客户端策略中启用 "我的通话" 功能的费率：
 
 - 向我的通话显示百分比打分-10%
 
 - 对我的呼叫 "允许自定义用户反馈" 进行评分-已禁用
 
-但是, 若要启用基本功能, 则无需执行任何操作, 但是如果你需要自定义反馈, 你需要单独启用它。 以下 Windows PowerShell cmdlet 是启用自定义最终用户反馈和将间隔从 10% 更改为 80% 的示例。
+但是，若要启用基本功能，则无需执行任何操作，但是如果你需要自定义反馈，你需要单独启用它。 以下 Windows PowerShell cmdlet 是启用自定义最终用户反馈和将间隔从10% 更改为80% 的示例。
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -68,7 +68,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
+|ppls-2  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |回声  <br/> |
@@ -106,7 +106,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表包含 "Star" 投票和客户反馈 (如果已启用) 的轮询结果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表包含 "Star" 投票和客户反馈（如果已启用）的轮询结果。
 
 可以使用**select \* from [Table.Name]** 查询或使用 Microsoft SQL Server Management Studio 调用表中的数据。
 
@@ -114,7 +114,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
  **音频**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **视频**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -188,9 +188,9 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新令牌定义
 
-最新的 Skype for Business 客户端报告您的 [\> QoeMetrics] 中可能不存在的新问题令牌 id (100)。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的标记定义更新数据库表, 可使用 Microsoft SQL Server Management Studio 在监视数据库上运行以下 SQL 命令。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+最新的 Skype for Business 客户端报告您的 [\> QoeMetrics] 中可能不存在的新问题令牌 id （100）。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的标记定义更新数据库表，可使用 Microsoft SQL Server Management Studio 在监视数据库上运行以下 SQL 命令。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

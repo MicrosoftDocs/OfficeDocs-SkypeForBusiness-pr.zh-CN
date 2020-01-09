@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：为 Skype for business Server 混合环境配置服务器到服务器身份验证。
-ms.openlocfilehash: 2879a1acc35a2c8928a95af913476c26028d6e6c
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 5d56f098589355b85f942a6b1eb80d8ab6c03225
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305768"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992349"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>为 Skype for business Server 混合环境配置服务器到服务器身份验证。
 
@@ -24,7 +24,7 @@ ms.locfileid: "37305768"
 
 在混合配置中，你的某些用户驻留在本地安装 Skype for Business 服务器，而其他用户托管在 Office 365 版本的 Skype for Business 服务器上。 为了在混合环境中配置服务器到服务器的身份验证，必须首先配置 Skype for Business 服务器的本地安装，以信任 Office 365 授权服务器。 通过运行以下 Skype for Business Server Management Shell 脚本，可以执行此过程中的初始步骤：
 
-```
+```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 $sts = Get-CsOAuthServer microsoft.sts -ErrorAction SilentlyContinue
@@ -66,7 +66,7 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
 请记住，租户的领域名称通常与组织名称不同；实际上，领域名称几乎始终与租户 ID 相同。为此，脚本中的第一行用于返回指定租户（此示例中为 fabrikam.com）的 TenantId 属性的值，然后将该名称分配给变量 $TenantId：
 
-```
+```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
@@ -81,13 +81,13 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 获取 x.509 证书后，打开 PowerShell 控制台并导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
 
-```
+```PowerShell
 Import-Module MSOnline
 ```
 
 导入模块后，键入以下命令，然后按 ENTER 以连接到 Office 365：
 
-```
+```PowerShell
 Connect-MsolService
 ```
 
@@ -95,7 +95,7 @@ Connect-MsolService
 
 连接到 Office 365 后，你可以立即运行以下命令以返回有关你的服务主体的信息：
 
-```
+```PowerShell
 Get-MsolServicePrincipal
 ```
 
@@ -114,7 +114,7 @@ TrustedForDelegation : True
 
 下一步是导入、编码和分配 X.509 证书。 若要导入和编码证书，请使用以下 Windows PowerShell 命令，确保为你指定完整的文件路径。在调用 Import 方法时的 CER 文件：
 
-```
+```PowerShell
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
 $certificate.Import("C:\Certificates\Office365.cer")
 $binaryValue = $certificate.GetRawCertData()
@@ -123,7 +123,7 @@ $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
 在证书导入和编码后，你可以将证书分配给你的 Office 365 服务主体。 若要执行此操作，请首先使用 MsolServicePrincipal 检索 Skype for business 服务器和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值;AppPrincipalId 属性的值将用于标识分配了证书的服务主体。 使用 Skype for business 服务器的 AppPrincipalId 属性值，使用以下命令将证书分配到 Skype For business Online 版本：
 
-```
+```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
 ```
 
@@ -131,7 +131,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 如果您以后需要删除该证书（例如，它已过期），您可以通过首先检索证书的 KeyId 来执行此操作：
 
-```
+```PowerShell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 
@@ -148,7 +148,7 @@ Usage     : Verify
 
 然后，您可以使用与以下内容类似的命令删除该证书：
 
-```
+```PowerShell
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
@@ -156,7 +156,7 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 在以下示例中，Pool1ExternalWebFQDN.contoso.com 是 Skype for business 服务器池的外部 Web 服务 URL。 应重复这些步骤来添加部署中的所有外部 Web 服务 Url。
 
-```
+```PowerShell
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 有关创建用于连接到 Skype for business Online 的远程 PowerShell 会话的疑难解答，包括导入模块、并发 shell、实时 ID 和权限错误。
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615969"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991307"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -51,7 +51,7 @@ ms.locfileid: "37615969"
     
 
 > [!IMPORTANT]
-> 默认情况下，PowerShell 会话在60分钟后超时。 若要重新连接，您必须关闭会话并启动新的 PowerShell 会话。 新版本的[Skype For Business Online、Windows PowerShell 模块（2046.123-发布的10/2/2019）](https://www.microsoft.com/download/details.aspx?id=39366)已成功启动，其中包含一个名为**Enable-CsOnlineSessionForReconnection**的新 cmdlet，可减少60分钟数超时问题。
+> 默认情况下，PowerShell 会话在60分钟后超时。 若要重新连接，您必须关闭会话并启动新的 PowerShell 会话。 新版本的[Skype For Business Online、Windows PowerShell 模块（2046.123-发布的10/2/2019）](https://www.microsoft.com/download/details.aspx?id=39366)已成功启动，其中包含一个名为**Enable-CsOnlineSessionForReconnection**的新 cmdlet，可减少60分钟超时问题。
 > PowerShell 会话将重新连接并进行身份验证，从而允许重新使用，而无需启动新实例进行重新连接。
 
 
@@ -61,10 +61,10 @@ ms.locfileid: "37615969"
 
 PowerShell 执行策略有助于确定哪些配置文件可以加载到 PowerShell 控制台，以及用户可以从该控制台运行哪些脚本。 除非已将执行策略设置为 RemoteSigned，否则，至少无法导入 Skype for Business Online 连接器模块。 如果不是这样，当您尝试导入该模块时，您将收到以下错误消息：
   
-- **错误**：<em>导入-模块：文件 C\\：程序\\文件常见\\文件 Microsoft Lync Server\\2013\\模块\\LyncOnlineConnector LyncOnlineConnectorStartup。无法加载 psm1，因为运行在此系统上禁用了脚本。有关详细信息，请参阅 about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170。</em>
+- **错误**：<em>导入-模块：文件 C\\：程序\\文件常见\\文件 Microsoft Lync Server\\2013\\模块\\LyncOnlineConnector 无法加载 psm1，因为此系统上已禁用运行脚本。有关详细信息，请参阅 about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170。</em>
 
 - **解决方案**若要解决此问题，请以管理员身份启动 PowerShell，然后运行以下命令：
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     有关执行策略的详细信息，请参阅[关于执行策略](https://go.microsoft.com/fwlink/?LinkID=135170)。
@@ -93,11 +93,11 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
   - **错误**： *CsWebTicket：无法连接 live id 服务器。确保已启用代理，或者计算机具有与 live id 服务器的网络连接。*
 
 - **解决方案**：此错误通常表示 Microsoft Online Services 登录助手未运行。 你可以通过从 PowerShell 提示符运行以下命令来验证此服务的状态： 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     如果服务未运行，请使用以下命令启动服务：
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

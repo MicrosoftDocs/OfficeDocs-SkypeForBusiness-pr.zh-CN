@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: '摘要: 阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299693"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992509"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
-**摘要:** 阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。
+**摘要：** 阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。
   
 本主题介绍了如何通过描述你在应用程序事件日志中可能会看到的事件以及你可能采取的相应操作来解决你的统计信息管理器部署。 本主题包含以下部分：
   
@@ -35,22 +35,22 @@ ms.locfileid: "34299693"
 
 - **1000** - 无法设置处理器限制器（作业对象） - 未知原因
     
-- **1001** -流程不允许进程限制 (可能已在作业对象内)
+- **1001** -流程不允许进程限制（可能已在作业对象内）
     
     代理在 Windows 作业对象内以运行以自动限制其内存使用量。 如果代理无法启动，并且这些事件条目在事件日志中存在，则作业对象无法在在服务器上实例化。 要解决此问题，可以通过更改配置文件中的值来取消内存上限：
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    搜索 "MaxProcessMemoryMB" 并将值更改为 "0", 如下所示:
+    搜索 "MaxProcessMemoryMB" 并将值更改为 "0"，如下所示：
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > 如果进行此更改, 则该代理通常仍会占用\< 100 mb 的内存, 但它不会被强制限制为 300 mb (默认值)。 如果进行此更改, 我们建议密切监视内存使用情况, 以确保代理在其主机上不占用大量内存。 
+    > 如果进行此更改，则该代理通常仍会占用\< 100 mb 的内存，但它不会被强制限制为 300 mb （默认值）。 如果进行此更改，我们建议密切监视内存使用情况，以确保代理在其主机上不占用大量内存。 
   
 - **2000** - 客户端初始化失败
     
@@ -60,17 +60,17 @@ ms.locfileid: "34299693"
     
 1. 确保侦听器服务正在侦听器计算机上运行。 否则，请确保 Redis 正在服务器上运行，然后重新启动侦听器服务。
     
-    检查侦听器计算机上的统计信息管理器事件日志, 以确保统计信息管理器服务本身没有问题。
+    检查侦听器计算机上的统计信息管理器事件日志，以确保统计信息管理器服务本身没有问题。
     
 2. 使用连接工具（例如 telnet）验证正确端口上从代理计算机到侦听器的连接。
     
-    否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果监听器计算机未加入域, 则网络可能被列为 public, 并且在这种情况下, 使用 "统计信息管理器" 安装的防火墙规则默认情况下不会应用。
+    否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果监听器计算机未加入域，则网络可能被列为 public，并且在这种情况下，使用 "统计信息管理器" 安装的防火墙规则默认情况下不会应用。
     
 - **4000** - 无法从侦听器下载服务器信息（未知原因）
     
   - **4001** - 在侦听器拓扑未找到服务器
     
-    如果服务器成功连接到侦听器, 但未将服务器添加到侦听器缓存中的拓扑中, 将发生此错误。 解决办法选项：
+    如果服务器成功连接到侦听器，但未将服务器添加到侦听器缓存中的拓扑中，将发生此错误。 解决办法选项：
     
   - 	确保遵循导入拓扑的说明。请参阅[导入拓扑](deploy.md#BKMK_ImportTopology)。   
     
@@ -158,7 +158,7 @@ ms.locfileid: "34299693"
 ## <a name="website-issues"></a>网站问题
 <a name="BKMK_Website"> </a>
 
-- Chrome 中的重复登录提示-这是已在版本1.1 中解决的 bug。 如果在 Chrome 浏览器中看到重复的登录提示, 请确保已升级到最新版本的统计信息管理器。 要验证你正在运行的网站的版本，请执行以下操作：
+- Chrome 中的重复登录提示-这是已在版本1.1 中解决的 bug。 如果在 Chrome 浏览器中看到重复的登录提示，请确保已升级到最新版本的统计信息管理器。 要验证你正在运行的网站的版本，请执行以下操作：
     
   - 	在文件资源管理器中，打开默认目录
     

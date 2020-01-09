@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: '摘要: 了解 Skype for Business 服务器中的 IP 电话清点报告。'
-ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 IP 电话清点报告。
+ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305666"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992167"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Skype for Business 服务器中的 IP 电话清单报告
  
-**摘要:** 了解 Skype for Business 服务器中的 IP 电话清点报告。
+**摘要：** 了解 Skype for Business 服务器中的 IP 电话清点报告。
   
 IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话的信息。IP 清单报告提供了在指定的报告期间实际上所使用的详细 IP 电话列表。除此之外，管理员还可以通过此报告了解是否存在应进行替换但仍在使用中的任何旧的、过时的电话；该报告还可以就组织中存在很少使用的昂贵电话这一实际情况，向管理员发出警报。当应该购买新电话或重新分配现有的电话时，该类型的信息非常重要。（例如，可能要求很少使用其昂贵电话的用户与较为频繁使用其电话的用户交换电话。）
   
-值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先, IP 电话报告只列出在指定时间段内登录到 Skype for business 服务器的所有电话, 并按其上次登录时间进行排序。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想要查看 2015 年 7 月的所有电话清单。 假设您在2015年6月30日登录到 Skype for business 服务器的多个电话, 并且在7月1日仍在登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
+值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先，IP 电话报告只列出在指定时间段内登录到 Skype for business 服务器的所有电话，并按其上次登录时间进行排序。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想要查看 2015 年 7 月的所有电话清单。 假设您在2015年6月30日登录到 Skype for business 服务器的多个电话，并且在7月1日仍在登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
   
 还必须注意的是，清单报告可能包括您的组织不再使用的电话。例如，假设在 2015 年 7 月 1 日有许多 Fabrikam 电话登录到系统；5 天后，您的组织清除了所有这些 Fabrikam 电话并将它们替换为较新的 Contoso 模型。Fabrikam 电话仍会显示在“清单”报告中，原因很简单，就是它们在 7 月份已登录到系统。
   
@@ -40,7 +40,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 
 如果您只对某特定类型的电话的使用信息（例如，“用户多久使用一次 Polycom CX600 电话？”）感兴趣，则可以通过筛选该特定类型的电话，直接从 IP 电话清单报告中获取该信息。但是，如果您想要了解所有电话的摘要信息（多少人正在使用 Polycom CX600、多少人正在使用 LG-Nortel IP8540 等），则需要导出数据，然后使用另一个应用程序（如 Windows PowerShell）执行该类型的分析。例如，假设将数据导出到逗号分隔值文件 (C:\Data\IP_Phone_Inventory_Report.csv)。在这种情况下，您可以使用以下这两个命令提供所有电话的摘要数据：
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
@@ -65,7 +65,7 @@ Count    Name
 
 类似地，这两个命令会告诉您哪些电话已登录到系统，但实际上从未用来发出呼叫（“最后一次活动”指标的值为空白，表示没有任何最后一次活动）：
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```

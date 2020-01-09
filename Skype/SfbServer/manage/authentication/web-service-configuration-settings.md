@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: '摘要: 管理 Skype for Business 服务器中的 Web 服务配置设置。'
-ms.openlocfilehash: b2a7f287c9386c89d132e03e96aa25e9472f7008
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：管理 Skype for Business 服务器中的 Web 服务配置设置。
+ms.openlocfilehash: 383b85e156dfdbc6af7606da49d4cf89bf655698
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297573"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991927"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>管理 Skype for Business 服务器中的 Web 服务配置设置
  
-**摘要:** 管理 Skype for Business Server 中的 Web 服务配置设置。
+**摘要：** 管理 Skype for Business Server 中的 Web 服务配置设置。
   
 你可以使用**Web 服务**页面配置用于访问 Skype For business Server 相关 web 服务器和 web 服务的身份验证方法。
   
@@ -28,9 +28,9 @@ ms.locfileid: "34297573"
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>创建新的 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“安全性”****，然后单击“Web 服务”****。
     
@@ -60,9 +60,9 @@ ms.locfileid: "34297573"
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>修改现有的 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“安全性”****，然后单击“Web 服务”****。
     
@@ -86,9 +86,9 @@ ms.locfileid: "34297573"
   
 ### <a name="to-delete-web-service-configuration-settings"></a>删除 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你部署了 Skype for Business 服务器的网络中的任何计算机.
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“安全性”****，然后单击“Web 服务”****。
     
@@ -100,13 +100,13 @@ ms.locfileid: "34297573"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 删除 Web 服务配置设置
 
-你可以使用 Windows PowerShell 和**CsWebServiceConfiguration** cmdlet 删除 web 服务配置设置。 你可以从 Skype for Business Server Management Shell 或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
+你可以使用 Windows PowerShell 和**CsWebServiceConfiguration** cmdlet 删除 web 服务配置设置。 你可以从 Skype for Business Server Management Shell 或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中，此过程是相同的。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>删除特定的 Web 服务配置设置集合
 
 - 以下命令会删除应用到 Redmond 站点的 Web 服务安全设置：
     
-  ```
+  ```PowerShell
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
@@ -114,7 +114,7 @@ ms.locfileid: "34297573"
 
 以下命令会删除应用到服务范围的所有 Web 服务安全设置：
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
@@ -122,10 +122,10 @@ ms.locfileid: "34297573"
 
 以下命令会删除允许使用证书身份验证的所有 Web 服务安全设置：
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-有关详细信息, 请参阅[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。
+有关详细信息，请参阅[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。
   
 

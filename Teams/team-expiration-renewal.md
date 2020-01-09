@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 description: 了解有关团队过期和续订以及如何使用 Office 365 组过期策略自动清理 Microsoft 团队中未使用的团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fd7dfdececc9a490ff930bdba9948e9196c74f2
-ms.sourcegitcommit: fc7d5e812873b648b374eef23d02c914a56b51d1
+ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608715"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992809"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 团队中的团队过期和续订
 

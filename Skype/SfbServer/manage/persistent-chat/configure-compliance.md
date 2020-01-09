@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: '摘要: 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。'
-ms.openlocfilehash: 95418a814ac8f4796fbde561c90c5ac051c54725
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 摘要：了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
+ms.openlocfilehash: a02384c68c04798ea453b94bf736a2c6ff276397
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418696"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991987"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
 
-**摘要:** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
+**摘要：** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
 
-持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录和存档与每个持久聊天服务器对话相关的数据, 包括参与者:
+持久聊天合规性允许管理员保留持久聊天消息和活动的存档。 合规性服务记录和存档与每个持久聊天服务器对话相关的数据，包括参与者：
 
 - 加入持久聊天室
 
@@ -39,19 +39,19 @@ ms.locfileid: "35418696"
 可根据需要，从合规性 SQL 数据库检索此信息。 
 
 > [!NOTE]
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队，或继续使用 Skype for Business Server 2015。 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用 Windows PowerShell 配置合规性服务
 
 使用拓扑生成器启用合规性服务后，您可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置服务：
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 或者
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
@@ -71,19 +71,19 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 ## <a name="use-a-customized-compliance-adapter"></a>使用自定义的合规性适配器
 
-你可以编写自定义适配器, 而不是使用随永久聊天服务器一起安装的 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
+你可以编写自定义适配器，而不是使用随永久聊天服务器一起安装的 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
 
 该接口在命名空间`Microsoft.Rtc.Internal.Chat.Server.Compliance`中的合规 .dll 程序集中定义。 该接口定义您的自定义适配器必须实现的两种方法。
 
-在适配器首次加载时, 持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置:
+在适配器首次加载时，持久聊天合规性服务器将调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
 
-```
+```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-只要有要翻译的新数据, 永久聊天合规性服务器将按定期时间间隔调用以下方法。 此时间间隔等于持久聊天合规`RunInterval`性配置中的设置:
+只要有要翻译的新数据，永久聊天合规性服务器将按定期时间间隔调用以下方法。 此时间间隔等于持久聊天合规`RunInterval`性配置中的设置：
 
-```
+```cpp
 void Translate(ConversationCollection conversations)
 ```
 
@@ -97,7 +97,7 @@ void Translate(ConversationCollection conversations)
 
 合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示：
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Conversation>
@@ -114,7 +114,7 @@ void Translate(ConversationCollection conversations)
 
 一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示：
 
-```
+```XML
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
@@ -123,7 +123,7 @@ void Translate(ConversationCollection conversations)
 
 一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示：
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -156,7 +156,7 @@ void Translate(ConversationCollection conversations)
 
 加入-用户加入聊天室。
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -165,7 +165,7 @@ void Translate(ConversationCollection conversations)
 
 部分-用户离开聊天室。
 
-```
+```XML
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
@@ -174,7 +174,7 @@ void Translate(ConversationCollection conversations)
 
 聊天-发件人的电子邮件地址。
 
-```
+```XML
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
@@ -183,7 +183,7 @@ void Translate(ConversationCollection conversations)
 
 Backchat-用户从聊天历史记录请求内容。
 
-```
+```XML
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
@@ -192,7 +192,7 @@ Backchat-用户从聊天历史记录请求内容。
 
 文件上传-用户上传文件。
 
-```
+```XML
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
@@ -201,7 +201,7 @@ Backchat-用户从聊天历史记录请求内容。
 
 文件下载-用户下载文件。
 
-```
+```XML
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
@@ -212,7 +212,7 @@ Backchat-用户从聊天历史记录请求内容。
 
 以下代码示例包含合规性服务器中的默认输出：
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -311,7 +311,7 @@ Backchat-用户从聊天历史记录请求内容。
 
 以下代码示例包含一个示例 XSL 转换：
 
-```
+```XML
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 

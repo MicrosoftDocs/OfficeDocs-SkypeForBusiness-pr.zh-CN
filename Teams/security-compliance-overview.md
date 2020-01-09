@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968173"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988797"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和合规性概述
 ======================================================
@@ -31,7 +31,7 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 团队符合第 D 层。 这包括以下标准：ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及欧盟模型条款 (EUMC)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
 
-默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf)。 Teams 还支持云安全联盟合规性。
+默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)。 Teams 还支持云安全联盟合规性。
 
 Teams 还强制执行团队范围和组织范围的双重身份验证、通过 Active Directory 进行单一登录以及对正在传输的数据和静态数据加密。 文件存储在 SharePoint 中，并会进行 SharePoint 加密。 笔记存储在 OneNote 中，并会进行 OneNote 加密。 OneNote 数据存储在团队 SharePoint 网站中。 Wiki 选项卡还可以用于笔记记录，并且它的内容也存储在团队 SharePoint 网站中。
 
@@ -44,7 +44,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入到 Office 365 安全 & 合规性中心，并通过将工作负荷的特定事件集、导出工作负荷或常规事件集提供给管理员使用和调查，从而在无限制审核日程表。 所有审核日志数据均可用于在 Office 365 安全 & 合规中心中设置警报，以及用于进一步分析的筛选和导出。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)，了解有关如何在 Office 365 安全 & 合规中心中对 Microsoft 团队事件进行审核日志搜索的详细信息。 
+审核日志搜索直接插入到 Office 365 的安全 & 合规中心，并通过在无限制审核时间线上通过提供、导出工作负荷的特定事件集或常规事件集来为管理员使用和调查提供性能，从而为审核事件设置通知和/或报告。 所有审核日志数据均可用于在 Office 365 安全 & 合规中心中设置警报，以及用于进一步分析的筛选和导出。 请参阅此[链接](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)，了解有关如何在 Office 365 安全 & 合规中心中对 Microsoft 团队事件进行审核日志搜索的详细信息。 
 
 ## <a name="compliance-content-search"></a>合规性内容搜索
 
@@ -79,7 +79,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 
 ## <a name="legal-hold"></a>法定保留
 
-在诉讼期间，经常需要将与用户（保管人）或团队关联的所有数据保留永久，以便它可以用作案例的证据。 可通过将用户（用户邮箱）或团队置于法律封存来实现此目的。 当团队内的任何团队通过定向的查询或筛选的内容（邮箱或网站集的子集）或诉讼封存（整个邮箱或网站集）放置时，保留在组邮箱中。 这可确保即使最终用户删除或编辑 ingested 到组邮箱中的频道消息，该内容的不可变副本仍可在电子数据展示搜索中维护和使用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章，了解有关在 Office 365 安全 & 合规中心中保留和保留的详细信息。 
+在诉讼期间，经常需要将与用户（保管人）或团队相关联的所有数据保留为不可变，以便它可以用作案例的证据。 可通过将用户（用户邮箱）或团队置于法律封存来实现此目的。 当团队内的任何团队通过定向的查询或筛选的内容（邮箱或网站集的子集）或诉讼封存（整个邮箱或网站集）放置时，保留在组邮箱中。 这可确保即使最终用户删除或编辑 ingested 到组邮箱中的频道消息，该内容的不可变副本仍可在电子数据展示搜索中维护和使用。 通常在电子数据展示案例的上下文中应用法定保留。 请参阅[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)帮助文章，了解有关在 Office 365 安全 & 合规中心中保留和保留的详细信息。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Microsoft 团队的信息保护体系结构。 
 
@@ -100,7 +100,7 @@ Teams 还强制执行团队范围和组织范围的双重身份验证、通过 A
 涉及到信息保护功能时，Office 365 订阅和关联的单独许可证将确定功能集。
 
 
-| 信息保护功能 | Office 365 商业协作版 | Help and training | Office 365 企业版 E1 | Office 365 企业版 E3/E4 | Office 365 企业版 E5 |
+| 信息保护功能 | Office 365 商业协作版 |  Office 365 商业高级版 | Office 365 企业版 E1 | Office 365 企业版 E3/E4 | Office 365 企业版 E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
 |              存档              |               -                |              -              |            -             |             是             |           是            |
 |        就地电子数据展示        |               -                |              -              |            -             |             是             |           是            |

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 配置动态紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615852"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992087"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -164,25 +164,25 @@ TeamsEmergencyCallRouting 策略仅适用于直接路由。 （虽然可以将�
 
 例如，若要为安全桌面通知启用特定用户，请使用以下命令：
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 若要将名为 "Contoso 紧急呼叫策略 1" 的策略分配给站点1，请使用以下命令：
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 若要启用特定直接路由用户进行紧急呼叫，请使用以下命令：
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 若要将名为 "Contoso 纽约紧急呼叫路由" 的策略分配给站点1，请使用以下命令：
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 

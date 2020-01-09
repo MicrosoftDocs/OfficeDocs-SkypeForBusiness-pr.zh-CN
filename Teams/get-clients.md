@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970970"
+ms.locfileid: "40990847"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -114,7 +114,7 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 包程序包安装团队
 
-1. 从https://aka.ms/getteams下载程序包。 （Linux 客户端处于有限的预览中，即将启动。 如果在 "下载" 页面上看不到 Linux 客户端，则它尚未启动。）
+1. 从https://aka.ms/getteams下载程序包。
 2. 使用下列操作之一进行安装：  
     - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
     - 或者，如果您喜欢终端，请键入：`sudo apt install **teams download file**`
@@ -123,12 +123,50 @@ IT 管理员可以使用团队的托管部署将安装文件分发到其组织�
 
 #### <a name="install-teams-using-rpm-package"></a>使用 RPM 程序包安装团队
 
-1. 从https://aka.ms/getteams下载程序包。 （Linux 客户端处于有限的预览中，即将启动。 如果在 "下载" 页面上看不到 Linux 客户端，则它尚未启动。）
+1. 从https://aka.ms/getteams下载程序包。
 2. 使用下列操作之一进行安装：
     - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
     - 或者，如果您喜欢终端，请键入：`sudo yum install **teams download file**`
 
 你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。
+
+#### <a name="install-manually-from-the-command-line"></a>从命令行手动安装
+
+在 Debian 和 Ubuntu 分发设备上手动安装：
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+ 
+sudo apt update
+sudo apt install teams
+```
+
+在 RHEL、Fedora 和基于 CentOS 的分配上手动安装：
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
+ 
+sudo dnf check-update
+sudo dnf install teams
+```
+
+Aternatively，若要使用 yum，而不是 dnf：
+```
+yum check-update
+sudo yum install teams
+```
+
+在基于 openSUSE 的发行版上手动安装：
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
+ 
+sudo zypper refresh
+sudo zypper install teams
+```
 
 ## <a name="web-client"></a>Web 客户端 
 

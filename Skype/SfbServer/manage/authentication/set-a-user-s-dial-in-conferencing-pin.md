@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: '摘要: 为 Skype for business 服务器设置用户的电话拨入式会议 PIN 码。'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：为 Skype for business 服务器设置用户的电话拨入式会议 PIN 码。
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297580"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992279"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在 Skype for Business 服务器中设置用户的电话拨入式会议 PIN
  
-**摘要:** 为 Skype for business 服务器设置用户的电话拨入式会议 PIN 码。
+**摘要：** 为 Skype for business 服务器设置用户的电话拨入式会议 PIN 码。
   
-若要将电话拨入式会议作为经过身份验证的用户加入, 使用 Active Directory 域服务 (AD DS) 凭据的 Skype for business 服务器用户需要一个个人识别码 (PIN)。 如果用户忘记了电话拨入式会议 PIN 或未使用 Skype for business 服务器设置 PIN, 则可以从 Skype for business 服务器控制面板设置用户的 PIN。 可以自动生成 PIN，或手动创建 PIN。
+若要将电话拨入式会议作为经过身份验证的用户加入，使用 Active Directory 域服务（AD DS）凭据的 Skype for business 服务器用户需要一个个人识别码（PIN）。 如果用户忘记了电话拨入式会议 PIN 或未使用 Skype for business 服务器设置 PIN，则可以从 Skype for business 服务器控制面板设置用户的 PIN。 可以自动生成 PIN，或手动创建 PIN。
   
 > [!NOTE]
 > 可以将 PIN 的具体特征（如 PIN 的最小长度）配置为策略。除了全局策略，您还可以为各个站点或用户配置 PIN 策略。 
@@ -31,7 +31,7 @@ ms.locfileid: "34297580"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -63,7 +63,7 @@ ms.locfileid: "34297580"
     
 7. 在“设置 PIN”**** 对话框中，执行下列操作之一：
     
-   - 若要允许 Skype for business 服务器生成用户的 PIN, 请选择 "**自动生成有效的 pin** (默认值)"。
+   - 若要允许 Skype for business 服务器生成用户的 PIN，请选择 "**自动生成有效的 pin** （默认值）"。
     
    - 要创建您自己的 PIN，请单击“手动输入特定 PIN”****，单击文本框，然后键入满足 PIN 策略设置中指定的 PIN 要求的 PIN。
     
@@ -79,13 +79,13 @@ ms.locfileid: "34297580"
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配用户 PIN
 
-还可以使用 Set-CsClientPin cmdlet 分配 PIN 号码。 你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。 
+还可以使用 Set-CsClientPin cmdlet 分配 PIN 号码。 你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中，此过程是相同的。 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>自动为用户分配 PIN 号码
 
-以下命令可将 PIN 号码分配给用户 Ken Myer。 由于未包括引脚参数, 因此 Skype for Business 服务器将自动生成并分配 PIN 码。
+以下命令可将 PIN 号码分配给用户 Ken Myer。 由于未包括引脚参数，因此 Skype for Business 服务器将自动生成并分配 PIN 码。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -93,10 +93,10 @@ ms.locfileid: "34297580"
 
 此命令使用 Pin 参数为用户 Ken Myer 分配 PIN 号码 121989。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-有关详细信息, 请参阅[CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet 的帮助主题。
   
 

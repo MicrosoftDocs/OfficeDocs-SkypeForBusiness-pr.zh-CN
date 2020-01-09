@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288759"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990607"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
@@ -98,7 +98,7 @@ ms.locfileid: "34288759"
     
      可以通过使用证书管理器或通过使用以下 PowerShell 命令来查找证书指纹：
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -118,7 +118,7 @@ ms.locfileid: "34288759"
     
    - 如果运行状况检查页面显示，则表示已成功安装侦听器。
     
-   - 如果 KnownServerCount 为1或更高, 则建立与 Redis 的连接。
+   - 如果 KnownServerCount 为1或更高，则建立与 Redis 的连接。
     
    - 等待几分钟，且至少安装了一个代理后，检查 ValuesWritten 计数器是否在递增。
     
@@ -185,7 +185,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
     a. 运行以下命令： 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. 将“mypoolinfo.xml”文件复制到运行侦听器的服务器上。
@@ -196,25 +196,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    b. 导航到安装侦听器的目录。 默认值为： 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. 要确认添加和更新哪些服务器，请运行以下命令：
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 使用以下命令可以查看所有选项：
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 要查看你当前导入的服务器信息，请运行以下脚本： 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
   
 1. 以管理员身份登录时，在 PowerShell 控制台中键入以下内容：
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

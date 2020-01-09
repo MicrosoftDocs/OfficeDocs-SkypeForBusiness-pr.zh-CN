@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: '摘要: 阅读本主题, 了解如何升级 Skype for business 服务器的统计管理器。'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：阅读本主题，了解如何升级 Skype for business 服务器的统计管理器。
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299721"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992499"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 的统计信息管理器
  
-**摘要:** 阅读本主题, 了解如何升级 Skype for Business 服务器的统计管理器。
+**摘要：** 阅读本主题，了解如何升级 Skype for Business 服务器的统计管理器。
   
-本主题介绍了如何升级适用于 Skype for Business 服务器的统计信息管理器的现有安装, 这是一种功能强大的工具, 允许你实时查看 Skype for business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。 
+本主题介绍了如何升级适用于 Skype for Business 服务器的统计信息管理器的现有安装，这是一种功能强大的工具，允许你实时查看 Skype for business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。 
   
-有关统计信息管理器和版本2.0 中的新功能的详细信息, 请参阅规划适用于 Skype for business[服务器的统计管理器](plan.md)和[部署 Skype for Business 服务器的统计信息管理器](deploy.md)。
+有关统计信息管理器和版本2.0 中的新功能的详细信息，请参阅规划适用于 Skype for business[服务器的统计管理器](plan.md)和[部署 Skype for Business 服务器的统计信息管理器](deploy.md)。
   
 升级方法有两种：
   
-- **自动升级**。 此方法使用自动脚本。 这是最简单的方法, 并且应适用于所有升级方案。
+- **自动升级**。 此方法使用自动脚本。 这是最简单的方法，并且应适用于所有升级方案。
     
 - **手动升级**。 此方法在自动升级失败的异常情况下作为备份计划提供。
     
@@ -50,7 +50,7 @@ ms.locfileid: "34299721"
     
 2. 打开 PowerShell 管理窗口。 升级侦听器组件：
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -59,13 +59,13 @@ ms.locfileid: "34299721"
   
 1. 在运行脚本时，系统将提示您卸载产品的旧版本。 请单击“是”。
     
-2. 如果侦听器服务正在运行，系统将提示你关闭该应用程序，然后再继续。 允许应用程序关闭 (统计信息管理器侦听器服务将停止)。
+2. 如果侦听器服务正在运行，系统将提示你关闭该应用程序，然后再继续。 允许应用程序关闭（统计信息管理器侦听器服务将停止）。
     
 3. 继续执行安装过程。 您应该会注意到服务密码和证书指纹已预先填充。 如果不是，请添加您保存的值，然后继续。
     
 4. 打开 PowerShell 管理窗口。 升级网站组件：
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "34299721"
     
 8. 打开 PowerShell 管理窗口。 升级代理组件：
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：在为 "呼叫质量" 仪表板进行规划时，了解要考虑的事项。
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328434"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991407"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>为 Skype for business 服务器计划通话质量仪表板 
  
@@ -284,11 +284,11 @@ CQD 需要以下操作系统：
   
 若要使用 PowerShell 安装这些要求，请运行以下操作：
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 建议在最低权限原则上使用三个域服务帐户： 
   
-- 一个已具有 QoE 指标数据库（具有 db_datareader 权限）的登录安全主体的用户和 QoE 存档 SQL Server 实例中的登录安全主体（在设置过程中创建链接服务器对象所需）。 此帐户将用于运行 SQL Server 代理作业的 "QoE 存档数据" 步骤。
+- 已有一个 QoE 指标数据库的登录安全主体（使用 db_datareader 特权）和 QoE 存档 SQL Server 实例中的登录安全主体（在安装期间创建链接服务器对象所需）。 此帐户将用于运行 SQL Server 代理作业的 "QoE 存档数据" 步骤。
     
 - 将用于运行 SQL Server 代理作业的 "流程多维数据集" 步骤。 安装程序将创建一个登录安全主体来 QoE 存档数据库（具有 "读取" 和 "写入" 权限），还可在多维数据集的 QoE 角色（具有 "完全控制" 权限）中创建成员。
     

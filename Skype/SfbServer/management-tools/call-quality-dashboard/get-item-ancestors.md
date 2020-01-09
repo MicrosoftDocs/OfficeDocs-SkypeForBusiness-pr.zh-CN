@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: '摘要: 了解作为项目服务的一部分的 "获取项目上级" 操作。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。'
-ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解作为项目服务的一部分的 "获取项目上级" 操作。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+ms.openlocfilehash: c82ae699cab0bf812f281fc2f2ad54323bcf8f7f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274728"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992679"
 ---
 # <a name="get-item-ancestors"></a>获取项目上级
  
-**摘要:** 了解 "获取项目上级" 操作, 它是项目服务的一部分。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解 "获取项目上级" 操作，它是项目服务的一部分。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
   
 "获取项目上级" 操作是 "知识库 API for 通话质量" 仪表板中的项目服务的一部分。
   
@@ -41,13 +41,13 @@ ms.locfileid: "34274728"
   
  **响应**-响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码 200 (OK)。 如果找不到指定的用户 ID, 将返回状态代码 404 (未找到)。
+ **状态代码**-成功的操作返回状态代码200（OK）。 如果找不到指定的用户 ID，将返回状态代码404（未找到）。
   
  **响应标题**-无其他标题。
   
  **响应正文**-下面是 JSON 中的示例响应负载。
   
-```
+```json
 [{
 "item1": 1653,
 "item2": 0,

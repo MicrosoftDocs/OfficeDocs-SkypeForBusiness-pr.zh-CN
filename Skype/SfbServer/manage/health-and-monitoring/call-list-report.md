@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: '摘要: 了解 Skype for Business 服务器中的 "响应组" 应用程序。'
-ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 "响应组" 应用程序。
+ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289334"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992057"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Skype for Business 服务器中的响应组呼叫列表报告
 
-**摘要:** 了解 Skype for Business 服务器中的 "响应组" 应用程序。
+**摘要：** 了解 Skype for Business 服务器中的 "响应组" 应用程序。
 
-"响应组" 应用程序为 Skype for business 服务器提供了一种方法, 可根据所拨打的号码和呼叫者对一系列问题的响应 (可选) 应答和路由电话呼叫。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如, 如果某人呼叫帮助台的电话号码, Skype for Business 服务器可以自动将呼叫路由到第一个可用的技术支持代理。 或者, 如果遇到硬件问题, Skype for business 服务器可能会询问一系列问题 ("按1。 如果您有软件问题，请按 2。 如果出现网络问题, 请按3。)然后根据这些问题的答案, 将呼叫路由到最合适的技术支持代理。
+"响应组" 应用程序为 Skype for business 服务器提供了一种方法，可根据所拨打的号码和呼叫者对一系列问题的响应（可选）应答和路由电话呼叫。 通常，不会将响应组呼叫路由到个人，而是路由到称为代理组的一组人员。 例如，如果某人呼叫帮助台的电话号码，Skype for Business 服务器可以自动将呼叫路由到第一个可用的技术支持代理。 或者，如果遇到硬件问题，Skype for business 服务器可能会询问一系列问题（"按1。 如果您有软件问题，请按 2。 如果出现网络问题，请按3。）然后根据这些问题的答案，将呼叫路由到最合适的技术支持代理。
 
 响应组呼叫列表报告代表针对指定的时间段和指定的呼叫类型所进行的呼叫集合。响应组使用报告（必需先打开该报告，才能打开响应组呼叫列表报告）可识别以下呼叫类型：
 
@@ -39,7 +39,7 @@ ms.locfileid: "34289334"
 
 ## <a name="accessing-the-response-group-call-list-report"></a>访问响应组呼叫列表报告
 
-仅可通过单击[Skype For Business 服务器的 "响应组使用情况" 报告中](response-group-usage-report.md)的以下指标之一来访问响应组呼叫列表报告:
+仅可通过单击[Skype For Business 服务器的 "响应组使用情况" 报告中](response-group-usage-report.md)的以下指标之一来访问响应组呼叫列表报告：
 
 - 收到的呼叫
 
@@ -55,7 +55,7 @@ ms.locfileid: "34289334"
 
 响应组呼叫列表报告允许您将所显示的数据限制为涉及特定响应组工作流的呼叫。为执行此操作，需要在“工作流 URI”框中输入工作流 URI（工作流的 SIP 地址）。但是，您必须实际上能够看到“工作流 URI”框，才能执行此操作。要显示响应组呼叫列表报告的筛选选项，请单击报告窗口左上部分的“显示/隐藏参数”按钮。
 
-请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果你需要详细信息, 你可能会注意到响应代码和/或诊断 ID, 然后在[Skype for Business Server 的 "热门故障" 报告](top-failures-report.md)中搜索这些值。
+请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果你需要详细信息，你可能会注意到响应代码和/或诊断 ID，然后在[Skype for Business Server 的 "热门故障" 报告](top-failures-report.md)中搜索这些值。
 
 对于类似如下的问题：“哪个个别工作流收到的呼叫数最多？”，您可以执行以下操作：
 
@@ -67,7 +67,7 @@ ms.locfileid: "34289334"
 
 例如，如果已将数据保存到名为 C:\Data\Response_Group_Call_List_Report.csv 的文件，则可以使用以下命令，针对报告中所列出的每个工作流返回收到的呼叫总数：
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

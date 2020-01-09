@@ -17,17 +17,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: 在组织中的人员可以使用 Skype 会议直播之前, 您需要启用它。 若要执行此操作, 您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 在组织中的人员可以使用 Skype 会议直播之前，您需要启用它。若要执行此操作，您需要了解如何使用 Windows PowerShell。如果不知道 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴来为你执行此步骤。
+ms.openlocfilehash: edf9c372a98da9e09d7e9040c6d035e389c8b1ec
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793231"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989137"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
-在组织中的人员可以使用 Skype 会议直播之前, 您需要启用它。 若要执行此操作, 您需要了解如何使用 Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。
+在组织中的人员可以使用 Skype 会议直播之前，您需要启用它。若要执行此操作，您需要了解如何使用 Windows PowerShell。如果不知道 Windows PowerShell，请考虑聘用[Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)来为你执行此步骤。
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用 Skype for Business 管理中心启用 Skype 会议直播
@@ -36,9 +36,9 @@ ms.locfileid: "35793231"
 
 1. 在处[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登录 Office 365 全局管理员帐户或 Skype for business 管理员帐户。
     
-2. 在管理中心, 转到 "**管理中心** > "**团队**。
+2. 在管理中心，转到 "**管理中心** > "**团队**。
     
-3. 在 "**团队管理中心**" 中, 转到 "**旧版门户** > "**联机会议** > "**广播会议**", 然后选择 "**启用 Skype 会议直播**"。
+3. 在 "**团队管理中心**" 中，转到 "**旧版门户** > "**联机会议** > "**广播会议**"，然后选择 "**启用 Skype 会议直播**"。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>使用 PowerShell 启用 Skype 会议直播
 
@@ -52,11 +52,11 @@ ms.locfileid: "35793231"
     
 5. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
-6. 从 "**开始" 菜单**中, 选择 " **Windows PowerShell**"。
+6. 从 "**开始" 菜单**中，选择 " **Windows PowerShell**"。
     
 7. 在" **Windows PowerShell**"窗口，通过运行以下命令连接到你的 Office 365 组织：
     
-   ```
+   ```PowerShell
    $Credential = get-credential
    $O365Session = New-CsOnlineSession -Credential $credential
    Import-PSSession $O365Session
@@ -64,7 +64,7 @@ ms.locfileid: "35793231"
 
 8. 通过运行以下命令确认当前的 Skype 会议广播配置：
     
-   ```
+   ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "35793231"
   
 9. 通过运行以下命令为你的组织启用 Skype 会议广播：
     
-   ```
+   ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 

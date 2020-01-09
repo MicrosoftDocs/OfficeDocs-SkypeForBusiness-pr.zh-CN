@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516959"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992869"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
 当您购买**音频会议**许可证时，Microsoft 将为您的组织托管您的音频会议桥。音频会议网桥提供来自不同位置的拨入电话号码，以便会议组织者和参与者可以使用电话加入 Skype for business 或 Microsoft 团队会议。
   
-除了已分配给您的会议网桥的电话号码，您还可以从其他位置[获取其他服务号码](/microsoftteams/getting-service-phone-numbers)（用于音频会议的收费和免费电话号码），然后将其分配给会议桥，以便您可以展开您的用户的覆盖范围。
+除了已分配给您的会议网桥的电话号码，您还可以从其他位置[获取其他服务号码](/microsoftteams/getting-service-phone-numbers)（用于音频会议的收费和免费电话号码），然后将它们分配给会议桥，以便您可以为您的用户展开覆盖范围。
   
 > [!NOTE]
 > 为能够分配/取消分配会议网桥的电话号码，电话号码必须是 "*服务*" 号码。你可以通过导航到旧版门户中的**语音** > **电话号码**并在 "**数字类型**" 列中查看，来查看号码的类型。必须首先设置 Office 365 通讯信用点数，以便用户通过免费电话号码拨入网桥。
@@ -85,13 +85,13 @@ ms.locfileid: "37516959"
   
 - 为在步骤2中更改了默认电话号码的用户运行会议迁移服务（MMS）。 要执行此操作，请运行以下命令：
 
-```
+```PowerShell
     Start-CsExMeetingMigration user@contoso.com
 ```
 
 - 你还可以查看会议迁移状态。 一旦没有处于 *待处理*  或 *进行中*  状态的操作时，将会重新安排会议。
 
-```
+```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -108,7 +108,7 @@ ms.locfileid: "37516959"
 
 将具有要取消分配的号码的所有用户的默认收费或免费号码替换为默认号码，并开始重新安排其会议的过程。 要执行此操作，请运行以下命令：
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
@@ -123,7 +123,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 一旦没有任何操作处于*挂起*或*正在进行*状态，将重新安排所有会议。
 
-```
+```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -170,7 +170,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
 
 >
-  ```
+  ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -189,7 +189,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
   - 若要更改用户的默认免费电话号码，请运行：
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
   ```
 
@@ -200,19 +200,19 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
   - 若要为没有默认免费电话号码的所有用户将默认免费电话号码设置为 8005551234，请运行：
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - 若要为默认免费电话号码已设置为 8005551234 的所有用户将默认免费电话号码更改为 8005551239，并自动重新安排其会议，请运行：
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
   - 若要为位于美国的所有用户将默认免费电话号码设置为 8005551234，并自动重新安排其会议，请运行：
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
@@ -226,14 +226,14 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 您想要取消分配某个号码，但该按钮在 hoovering 上时呈灰显状态，如果在上，您将被重定向到联系支持人员，并显示以下消息： _"默认或共享号码可以储存从桥中取消分配。要取消分配专用的收费电话，请联系支持部门。_"。
 
 若要获取有关桥的详细信息，请运行以下 Powershell：
-```
+```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 结果，除了标识、名称和区域之类的其他信息之外，还应包含 DefaultServiceNumber。
 
 **例如**，若要取消分配，DefaultServiceNumber "8005551234"
-```
+```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```
 

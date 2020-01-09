@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '摘要: 了解 Skype for Business 服务器中的 "故障列表" 报表。'
-ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 "故障列表" 报表。
+ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305757"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992819"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business 服务器中的故障列表报告 
  
-**摘要:** 了解 Skype for Business 服务器中的 "故障列表" 报表。
+**摘要：** 了解 Skype for Business 服务器中的 "故障列表" 报表。
   
 故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
   
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过[在 Skype For Business Server 的 "失败分配" 报告中](failure-distribution-report.md)单击以下任一指标可访问 "故障列表" 报告:
+通过[在 Skype For Business Server 的 "失败分配" 报告中](failure-distribution-report.md)单击以下任一指标可访问 "故障列表" 报告：
   
 - 主要诊断原因（会话）
     
@@ -43,7 +43,7 @@ ms.locfileid: "34305757"
     
 - 主要来源用户代理（会话）
     
-从 "故障列表" 报告, 你可以通过单击对等会话的会话详细信息指标,[在 Skype For Business 服务器中访问对等会话详细信息报告](peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
+从 "故障列表" 报告，你可以通过单击对等会话的会话详细信息指标，[在 Skype For Business 服务器中访问对等会话详细信息报告](peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
@@ -51,9 +51,9 @@ ms.locfileid: "34305757"
   
 为用户创建媒体时发生内部服务器错误。
   
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 (对于一种情况, "失败列表" 报表没有筛选功能。)但是, 如果你导出数据, 然后将其转换为逗号分隔值文件, 则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设将数据保存到名为 C:\Data\Failure_List.csv 的 .CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户： 
+务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （对于一种情况，"失败列表" 报表没有筛选功能。）但是，如果你导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设将数据保存到名为 C:\Data\Failure_List.csv 的 .CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户： 
   
-```
+```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
@@ -72,7 +72,7 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 以下两个命令将返回涉及每个用户的失败会话总数：
   
-```
+```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```

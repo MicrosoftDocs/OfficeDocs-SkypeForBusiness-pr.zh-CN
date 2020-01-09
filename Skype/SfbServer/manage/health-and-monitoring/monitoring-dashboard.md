@@ -9,29 +9,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: '摘要: 了解 Skype for Business 服务器中的 "监视" 仪表板。'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 "监视" 仪表板。
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279926"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992027"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在 Skype for Business 服务器中使用 "监视" 仪表板
  
-**摘要:** 了解 Skype for Business 服务器中的 "监视" 仪表板。
+**摘要：** 了解 Skype for Business 服务器中的 "监视" 仪表板。
   
 "监视" 仪表板为管理员提供其 Skype for Business Server 系统运行状况和系统使用情况的快速概述。 该仪表板设计为显示关键系统指标的聚合视图，这通过显示以下内容来实现：
   
-- 当天汇总。 请注意，显示的当天数值表示从午夜开始记录到当前时间的数据（基于报告服务器的本地时间）。 这意味着您通常看到的是一天数据的一部分，而不是 24 小时的数据。 例如, 如果服务器的本地时间为 8:00 AM, 则会看到8小时的数据, 因为午夜和 8:00 AM 的当前时间之间有八个小时。
+- 当天汇总。 请注意，显示的当天数值表示从午夜开始记录到当前时间的数据（基于报告服务器的本地时间）。 这意味着您通常看到的是一天数据的一部分，而不是 24 小时的数据。 例如，如果服务器的本地时间为 8:00 AM，则会看到8小时的数据，因为午夜和 8:00 AM 的当前时间之间有八个小时。
     
 - 周汇总，以及过去六周的趋势汇总。
     
 - 月汇总，以及过去六个月的趋势汇总（仅限系统使用情况）。
     
-请注意, 你可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet 返回用于访问 Skype For Business Server Monitoring REPORTS 的 URL:
+请注意，你可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet 返回用于访问 Skype For Business Server Monitoring REPORTS 的 URL：
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 
@@ -177,7 +177,7 @@ Get-CsReportingConfiguration
     
 - Word
     
-要导出当前的仪表板视图（及其值），请单击所需的导出选项。 Skype for Business 服务器以指定的格式生成报表, 然后提供打开该报表或保存该报表的选项。 请注意, 默认情况下, Skype for business 服务器标题为 "报告**监视" 仪表板**, 并将其保存到 "下载" 文件夹。 要向报告赋予不同名称或将其存储到不同的文件夹，请单击“**保存**”按钮旁边的箭头，然后单击“**另存为**”。 如果您同意“**监控仪表板**”的名称并让报告保存在“下载”文件夹，只需单击“**保存**”按钮。
+要导出当前的仪表板视图（及其值），请单击所需的导出选项。 Skype for Business 服务器以指定的格式生成报表，然后提供打开该报表或保存该报表的选项。 请注意，默认情况下，Skype for business 服务器标题为 "报告**监视" 仪表板**，并将其保存到 "下载" 文件夹。 要向报告赋予不同名称或将其存储到不同的文件夹，请单击“**保存**”按钮旁边的箭头，然后单击“**另存为**”。 如果您同意“**监控仪表板**”的名称并让报告保存在“下载”文件夹，只需单击“**保存**”按钮。
   
 当您尝试导出仪表板数据时，可能会显示“**安全警报**”对话框连同消息“您的当前设置不允许下载此文件。”如果发生这种情况，请执行以下操作：
   
@@ -185,7 +185,7 @@ Get-CsReportingConfiguration
     
 - 在“**Internet 选项**”对话框中的“**安全**”选项卡上，单击“**受信任的站点**”，然后单击“**站点**”。
     
-- 在 "**受信任的站点**" 对话框中, 单击 "**添加**" 以将运行 Skype for Business 服务器报告的 skype for business 服务器添加到受信任的网站的集合。
+- 在 "**受信任的站点**" 对话框中，单击 "**添加**" 以将运行 Skype for Business 服务器报告的 skype for business 服务器添加到受信任的网站的集合。
     
 - 单击“**关闭**”，然后单击“**确定**”。
     

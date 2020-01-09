@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: '摘要: 了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用电话拨入式会议。'
-ms.openlocfilehash: 6723c3501b226d11977ad176a804210540f1a2bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用电话拨入式会议。
+ms.openlocfilehash: aed5f82678dce89190ba5449ada8eb988e1a1864
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294255"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991837"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用或禁用电话拨入式会议
  
-**摘要:** 了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用拨入式会议。
+**摘要：** 了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用拨入式会议。
   
 你可以使用 Skype for Business Server 控制面板或使用 Skype for Business Server 命令行管理器启用电话拨入式会议。
   
@@ -41,10 +41,10 @@ ms.locfileid: "34294255"
 
 若要启用或禁用电话拨入式会议，请如下使用带 EnableDialInConferencing 参数的 **Set-CsConferencingPolicy** cmdlet：
   
-```
+```PowerShell
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-有关详细信息, 请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+有关详细信息，请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
   
 

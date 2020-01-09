@@ -8,17 +8,17 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 你可以使用 Skype for business Server 2019 控制面板或 Skype for business Server 2019 Management Shell, 将多个用户从旧版池移动到 Skype for business Server 2019 试验池。
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 你可以使用 Skype for business Server 2019 控制面板或 Skype for business Server 2019 Management Shell，将多个用户从旧版池移动到 Skype for business Server 2019 试验池。
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244570"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988947"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到 "引导" 池
 
-你可以使用 Skype for business Server 2019 控制面板或 Skype for business Server 2019 Management Shell, 将多个用户从旧版池移动到 Skype for business Server 2019 试验池。
+你可以使用 Skype for business Server 2019 控制面板或 Skype for business Server 2019 Management Shell，将多个用户从旧版池移动到 Skype for business Server 2019 试验池。
 
  **在本文中**
   
@@ -34,30 +34,30 @@ ms.locfileid: "36244570"
 
 1. 打开 "Skype for Business 服务器" 控制面板。
     
-2. 单击 "**用户**", 单击 "**搜索**", 然后单击 "**查找**"。
+2. 单击 "**用户**"，单击 "**搜索**"，然后单击 "**查找**"。
     
-3. 选择要移动到 Skype for business Server 2019 池的两个用户。 在此示例中, 我们将用户移动 Chen's 的 Hansen 和 Claus。
+3. 选择要移动到 Skype for business Server 2019 池的两个用户。 在此示例中，我们将用户移动 Chen's 的 Hansen 和 Claus。
     
      ![将用户移动到特定注册池](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
-4. 从 "**操作**" 菜单中, 选择 "**将所选用户移至池**"。
+4. 从 "**操作**" 菜单中，选择 "**将所选用户移至池**"。
     
-5. 从下拉列表中, 选择 Skype for business Server 2019 池。
+5. 从下拉列表中，选择 Skype for business Server 2019 池。
     
-6. 单击 "**操作**", 然后单击 "**将所选用户移至池**"。 单击“**确定**”。
+6. 单击 "**操作**"，然后单击 "**将所选用户移至池**"。 单击“**确定**”。
     
      !["移动用户"、"目标注册机构池" 对话框](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. 验证用户的**注册池**列现在是否包含 Skype For business Server 2019 池, 这表示用户已成功移动。 
+7. 验证用户的**注册池**列现在是否包含 Skype For business Server 2019 池，这表示用户已成功移动。 
     
 ## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>使用 Skype for Business Server 2019 命令行管理程序移动多个用户
 <a name="sectionSection1"> </a>
 
 1. 打开 Skype for Business Server 2019 命令行管理程序。 
     
-2. 在命令行中, 键入以下内容并将**User1**和**** 用户2替换为要移动的特定用户名, 然后将**pool_FQDN**替换为目标池的名称。 在此示例中, 我们将在 Hao Chen's 和 Katie 约旦之间移动用户。 
+2. 在命令行中，键入以下内容并将**User1**和用户2替换为要**移动的特定**用户名，然后将**pool_FQDN**替换为目标池的名称。 在此示例中，我们将在 Hao Chen's 和 Katie 约旦之间移动用户。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,24 +65,24 @@ ms.locfileid: "36244570"
   
 3. 在命令行中键入： 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
-4. **注册机构池**标识现在应指向您在上一步中指定为**pool_FQDN**的池。 此标识的存在可确认用户已成功移动。 重复步骤以验证您**** 的服务2是否已被移动。 
+4. **注册机构池**标识现在应指向您在上一步中指定为**pool_FQDN**的池。 此标识的存在可确认用户已成功移动。 重复步骤以验证您**的服务2是否已**被移动。 
     
      ![PowerShell UsUser-Identity cmdlet 的输出](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>使用 Skype for Business Server 2019 命令行管理程序同时移动所有用户
 <a name="sectionSection2"> </a>
 
-在此示例中, 所有用户都已返回到旧版池 (pool01.contoso.net)。 使用 Skype for Business Server 2019 命令行管理程序, 我们将同时将所有用户同时移动到 Skype for business Server 2019 池 (pool02.contoso.net)。
+在此示例中，所有用户都已返回到旧版池（pool01.contoso.net）。 使用 Skype for Business Server 2019 命令行管理程序，我们将同时将所有用户同时移动到 Skype for business Server 2019 池（pool02.contoso.net）。
   
 1. 打开 Skype for Business Server 2019 命令行管理程序。
     
 2. 在命令行中键入： 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,13 +90,13 @@ ms.locfileid: "36244570"
   
 3. 为一个试验用户运行**move-csuser** 。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
 4. 每个用户的**注册池**标识现在指向您在上一步中指定为**pool_FQDN**的池。 此标识的存在可确认用户已成功移动。 
     
-5. 此外, 我们可以在 Skype for Business Server 2019 控制面板中查看用户列表, 并验证注册机构池值是否现在指向 Skype for business Server 2019 池。
+5. 此外，我们可以在 Skype for Business Server 2019 控制面板中查看用户列表，并验证注册机构池值是否现在指向 Skype for business Server 2019 池。
     
      ![Skype for Business 服务器2019控制面板用户列表](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   

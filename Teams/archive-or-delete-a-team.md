@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968263"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992902"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
@@ -33,7 +33,7 @@ ms.locfileid: "37968263"
 删除团队时，还会删除标准和专用频道（以及关联的网站集）、文件和聊天中的团队活动。
 
 > [!IMPORTANT]
-> 已存档的团队可以重新激活，但不能直接撤消删除已删除的团队。 请考虑先存档团队，然后推迟删除，直到确定不再需要团队。
+> 已存档的团队可以重新激活，但不能直接还原已删除的团队。 请考虑先存档团队，然后推迟删除，直到确定不再需要团队。
 
 ## <a name="archive-a-team"></a>存档团队
 
@@ -76,37 +76,37 @@ ms.locfileid: "37968263"
 1. 以管理员身份打开 Windows PowerShell。
 2. 如果安装了早期版本的 AzureADPreview 模块或安装了 AzureAD 模块，请通过运行下列操作之一将其卸载：
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. 通过运行以下内容安装最新版本的 AzureADPreview 模块：
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### <a name="restore-the-deleted-office-365-group"></a>还原已删除的 Office 365 组
 
 1. 通过运行以下内容连接到 Azure AD：
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     出现提示时，请使用管理员帐户和密码登录。  
 2. 运行以下操作以显示仍在30天保留期内的所有软删除 Office 365 组的列表。 如果你有大量的组，请使用 **-All $True**参数。
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. 找到要还原的组，然后记下该 Id。
 4. 运行以下操作以还原组，其中 [Id] 是组 Id。
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  运行以下操作以验证组是否已成功还原，其中 [Id] 是组 Id。
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

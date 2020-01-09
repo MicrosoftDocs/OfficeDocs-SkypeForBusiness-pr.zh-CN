@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：利用本主题准备 Skype for Business Server 2019 服务器和域基础结构。 这里提供了硬件、OS、数据库、软件、所有系统要求和建议以及证书 DNS、文件共享和 Active Directory 信息，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
-ms.translationtype: HT
+ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434853"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988807"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 的系统要求
  
@@ -115,7 +115,7 @@ ms.locfileid: "37434853"
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |所有 Skype for Business Server 服务器均需安装 Windows PowerShell 3.0。  <br/> • 默认情况下，它应随 Windows Server 2016 一起安装。<br/> |
-|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，最初无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保已经选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果你看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，你可以继续操作。  <br/> 如果已安装 Windows Server 2016，通常会安装 Microsoft .NET Framework。 但是，Skype for Business Server 需要 Microsoft .NET Framework 4.7 或 4.8，因此你可能需要更新它。 可在[此处](https://support.microsoft.com/zh-CN/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)查找更新<br/> |
+|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，最初无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保已经选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果你看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，你可以继续操作。  <br/> 如果已安装 Windows Server 2016，通常会安装 Microsoft .NET Framework。 但是，Skype for Business Server 需要 Microsoft .NET Framework 4.7 或 4.8，因此你可能需要更新它。 可在[此处](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)查找更新<br/> |
 |媒体基础  <br/> |对于 Windows Server 2016，请使用 Microsoft 媒体基础安装 Windows Media Format Runtime。  <br/> 所有用于会议的前端服务器和标准版服务器都需要 Windows Media Format Runtime 来运行 Windows Media Audio (.wma) 文件，呼叫寄存、公告和响应组应用程序将通过该文件来播放公告和音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 来支持 Skype for Business Server 2019 的服务器到服务器身份验证情景。  <br/> • 对于 Windows Server 2016，不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果它已选中，则没有问题。 否则请选中它，并单击“**下一步**”，然后单击“**安装**”按钮。 <br/> |
 |远程服务器管理工具  <br/> |角色管理工具：AD DS 和 AD LDS 工具  <br/> |
@@ -130,7 +130,7 @@ ms.locfileid: "37434853"
    
 为帮助你了解相关过程，我们提供了一个示例 PowerShell 脚本，你可以运行此脚本以自动执行此流程：
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
@@ -184,7 +184,7 @@ IIS，选择以下模块：
   
 我们还为此提供了以下一些 PowerShell 代码：
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
 ```
 
@@ -541,7 +541,7 @@ Skype for Business Server 2019 支持为访问和 Web 会议边缘外部接口�
 
 Skype for Business Server 2019 可以对所有文件存储使用相同的文件共享。 但您需要注意以下事项：
   
-- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 有关 Windows Server 2012 的 DFS 的更多信息，请查看[此 DFS 页面](https://technet.microsoft.com/zh-CN/library/jj127250.aspx)。
+- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 有关 Windows Server 2012 的 DFS 的更多信息，请查看[此 DFS 页面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
     
 - 建议为文件共享使用共享群集。 如果你已有共享群集，应该将 Windows Server 2012 或更高版本加入群集
 

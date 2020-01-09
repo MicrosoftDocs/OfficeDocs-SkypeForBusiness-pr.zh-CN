@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 94b7be4f67906ad5df2fe23b01cc2bdce662a8cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989837"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -45,7 +45,7 @@ ms.locfileid: "37753327"
  
 2.  将 PowerShell 会话连接到 Skype for Business Online 终结点。
 
-    ```
+    ```PowerShell
     Import-Module SkypeOnlineConnector
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
@@ -53,7 +53,7 @@ ms.locfileid: "37753327"
     ```
 3.  检查您的配置， `AllowGuestUser`如果`$False`是，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为`$True`。
 
-    ```
+    ```PowerShell
     Get-CsTeamsClientConfiguration
 
     Identity                         : Global

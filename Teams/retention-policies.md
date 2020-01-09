@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 73d8de57b7b47ced8217e0f7aca384f4b55b0468
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793518"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988977"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -39,7 +39,6 @@ ms.locfileid: "38793518"
 团队保留策略尚不支持：
 
 - 高级保留策略不适用于团队聊天和团队频道消息位置
-- 持续时间少于30天
 
 管理员可以为团队私人聊天（1:1 或1：许多聊天）和团队频道消息设置单独的保留策略。 在许多情况下，组织将专用聊天数据视为比频道消息更多的责任，这通常是更多与项目相关的对话。 在安全 & 合规性中心（**信息管理** > **保留**）中设置这些策略。 打开**团队频道消息**和**团队聊天**，然后定义这些位置的保留策略（也显示在下图中）。 
 

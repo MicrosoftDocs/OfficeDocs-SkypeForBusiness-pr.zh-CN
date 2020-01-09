@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257471"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995112"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -116,6 +116,14 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。  但�
 有关电话系统许可的详细信息，请参阅[使用 office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 计划选项](https://technet.microsoft.com/library/office-365-plan-options.aspx)充分利用 office。 
 
 有关电话系统许可的详细信息，请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+
+## <a name="supported-end-points"></a>支持的终结点 
+
+您可以使用用作终点：
+- 任何团队 cleintg。 
+- 常见的区域电话，plese 请参阅[设置 Microsoft 团队的通用区号许可证](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones)。 注意在通过直接路由设置普通区域电话时，不需要呼叫计划许可证。
+- Skype for Business 3PIP 手机。 请阅读[Microsoft 团队的 Skype for business 电话（3PIP）支持](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## <a name="sbc-domain-names"></a>SBC 域名称
 

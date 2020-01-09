@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: '摘要: 锁定或解锁 Skype for business Server 的用户电话拨入式会议 PIN。'
-ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：锁定或解锁 Skype for business Server 的用户电话拨入式会议 PIN。
+ms.openlocfilehash: bbf082fd85780972387cf014573e22996a9edcf0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294277"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992309"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>在 Skype for Business 服务器中锁定或解锁用户 PIN
  
-**摘要:** 锁定或解锁 Skype for business Server 的用户电话拨入式会议 PIN。
+**摘要：** 锁定或解锁 Skype for business Server 的用户电话拨入式会议 PIN。
   
 您可以从 Skype for Business Server 控制面板的 "**用户**" 部分锁定或解除锁定用户的 PIN。
   
@@ -28,7 +28,7 @@ ms.locfileid: "34294277"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -59,7 +59,7 @@ ms.locfileid: "34294277"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -88,22 +88,22 @@ ms.locfileid: "34294277"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 锁定和解锁用户 Pin
 
-你可以使用 Windows PowerShell 和 Lock-CsClientPin 和 CsClientPin cmdlet 锁定和解锁用户 Pin。 你可以从 Skype for Business Server 命令行管理程序或 Windows PowerShell 的远程会话运行这些 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
+你可以使用 Windows PowerShell 和 Lock-CsClientPin 和 CsClientPin cmdlet 锁定和解锁用户 Pin。 你可以从 Skype for Business Server 命令行管理程序或 Windows PowerShell 的远程会话运行这些 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中，此过程是相同的。
   
 ### <a name="to-lock-a-user-pin"></a>锁定用户 PIN
 
-- 若要锁定用户的 PIN, 请使用 CsClientPin cmdlet。 例如：
+- 若要锁定用户的 PIN，请使用 CsClientPin cmdlet。 例如：
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
 ### <a name="to-unlock-a-user-pin"></a>解锁用户 PIN
 
-- 若要解锁用户的 PIN, 请使用 CsClientPin cmdlet。 例如：
+- 若要解锁用户的 PIN，请使用 CsClientPin cmdlet。 例如：
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-有关详细信息, 请参阅[Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps)和[CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps)和[CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet 的帮助主题。

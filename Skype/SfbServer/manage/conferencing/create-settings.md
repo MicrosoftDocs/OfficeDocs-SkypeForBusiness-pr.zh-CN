@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '摘要: 了解如何在 Skype for Business Server 中创建会议配置设置。'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中创建会议配置设置。
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293842"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991877"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建会议配置设置
  
-**摘要:** 了解如何在 Skype for Business Server 中创建会议配置设置。
+**摘要：** 了解如何在 Skype for Business Server 中创建会议配置设置。
   
 可以使用 Skype for Business Server 控制面板或使用 Skype for business Server 命令行管理器创建会议配置设置。
   
@@ -51,7 +51,7 @@ ms.locfileid: "34293842"
     
 8. 若要阻止自动允许匿名（未经身份验证）用户参加会议，请清除“**默认允许匿名用户**”复选框。默认情况下，自动允许匿名用户参加会议。
     
-9. 若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 除了“**帮助 URL**”外，如果不指定自定义的值，则它们不会包括在会议中。 如果不包含自定义帮助 URL, 将在邀请中显示 Skype for Business 的默认帮助 URL。 
+9. 若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 除了“**帮助 URL**”外，如果不指定自定义的值，则它们不会包括在会议中。 如果不包含自定义帮助 URL，将在邀请中显示 Skype for Business 的默认帮助 URL。 
     
    - 若要自定义会议邀请中显示的徽标，请在“**徽标 URL**”中输入徽标的位置。徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
     
@@ -69,7 +69,7 @@ ms.locfileid: "34293842"
   
 以下命令为 Redmond 站点创建一组新的会议配置设置：
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,16 +77,16 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
   
 要创建使用不同属性值的设置，只需包含相应的参数和参数值。例如，要创建在默认情况下允许所有人以演示者身份加入会议的会议配置设置集合，请使用如下命令：
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 可以通过包含多个参数来设置多个属性值。例如，以下命令允许所有人以演示者身份加入会议，同时强制 PSTN 用户在会议厅等待，直至他们被正式允许加入会议：
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-有关详细信息, 包括参数的完整列表, 请参阅[CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。
+有关详细信息，包括参数的完整列表，请参阅[CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。
   
 

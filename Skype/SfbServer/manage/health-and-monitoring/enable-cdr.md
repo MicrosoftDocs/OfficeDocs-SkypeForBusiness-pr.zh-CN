@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要：了解如何在 Skype for Business 服务器中启用呼叫详细记录（CDR）记录。
-ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767054"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992942"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用呼叫详细记录
 
@@ -49,7 +49,7 @@ ms.locfileid: "36767054"
 
  若要启用 CDR，请将 EnableCDR 参数设置为 True ($True)。
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "36767054"
 
  若要禁用 CDR，请将 EnableCDR 参数设置为 False ($False)。禁用 CDR 不会卸载监控。而只会暂停 CDR 数据的收集和存储。
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "36767054"
 
  此命令将为当前在组织中使用的所有 CDR 配置设置启用 CDR。
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

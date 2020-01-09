@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下载、安装并使用 Windows PowerShell 5.1 创建连接到 Skype for Business Online 的远程 PowerShell 会话。
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
-ms.translationtype: HT
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701549"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992952"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下载并安装 Windows PowerShell 5.1
 
@@ -36,7 +36,7 @@ ms.locfileid: "35701549"
     
 2. 在 PowerShell 控制台中，键入以下命令，然后按 ENTER：
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "35701549"
 3. 如果显示“**用户帐户控制**”对话框，单击“**是**”确定要通过管理员凭据运行 PowerShell。
     
 在 PowerShell 运行后，必须更改执行策略以允许运行远程脚本。 在 PowerShell 控制台中，键入以下命令，然后按 ENTER：
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
@@ -75,7 +75,7 @@ Set-ExecutionPolicy RemoteSigned -Force
  
 要验证是否已正确配置执行策略，请在 PowerShell 提示符处键入以下内容，然后按 Enter：
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Get-ExecutionPolicy
     
 当 PowerShell 控制台出现时，应该验证 WinRM 服务是否正在运行并且已正确配置。 要验证服务是否正在运行，请在 PowerShell 提示符处键入以下命令，然后按 Enter：
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 如果服务状态不是“正在运行”，请通过键入以下命令并按 Enter 来启动 WinRM 服务：
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 服务启动后，请运行以下命令以确保 WinRM 使用基本身份验证：
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

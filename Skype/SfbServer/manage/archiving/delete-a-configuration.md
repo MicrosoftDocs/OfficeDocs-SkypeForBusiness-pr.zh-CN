@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: '摘要: 了解如何在 Skype for Business Server 中删除存档配置。'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中删除存档配置。
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992369"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除 Skype for Business 服务器中的存档配置
 
-**摘要:** 了解如何在 Skype for Business 服务器中删除存档配置。
+**摘要：** 了解如何在 Skype for Business 服务器中删除存档配置。
   
 可以删除站点配置或池配置，但无法删除全局配置。如果删除全局配置，该配置将自动重置为默认值。
   
@@ -29,7 +29,7 @@ ms.locfileid: "34286195"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -46,26 +46,26 @@ ms.locfileid: "34286195"
   
 例如，以下命令可删除应用于 Redmond 站点的存档配置设置。删除在站点范围内配置的策略后，先前受站点策略管理的用户将自动受到全局存档策略的管理：
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 以下命令会删除应用到服务范围的所有存档配置设置：
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 下一条命令会删除在其中已禁用 Exchange 存档的所有存档配置设置：
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 您也可以使用 **Remove-CsArchivingConfiguration** cmdlet 将全局设置重置为默认值。 例如，假设您已在全局级别启用 IM 会话存档；以下命令会将该值重置为默认值 None，这将在全局级别禁用存档：
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-有关详细信息, 请参阅[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。

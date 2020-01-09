@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 43105db9a4e12d658bf5cf2e9c2c8897fdc918e3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069183"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989787"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 ============================
@@ -67,18 +67,18 @@ ms.locfileid: "40069183"
 
 1. 运行以下操作以获取与团队中的专用通道相关联的所有 SharePoint 网站集的列表。
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. 运行以下 PowerShell 脚本，获取与团队和父团队组 ID 中的专用通道相关联的所有 SharePoint 网站集 Url 的列表。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. 对于每个团队或组 ID，运行以下 PowerShell 脚本来标识所有相关专用通道网站，其中 $groupID 是团队的组 ID。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -90,12 +90,12 @@ ms.locfileid: "40069183"
 
 1. 运行以下操作以获取团队中的专用通道的列表。
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. 运行以下操作以获取专用通道成员的列表。
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. 将团队中每个专用频道的所有成员的邮箱添加为电子数据展示搜索查询的一部分。

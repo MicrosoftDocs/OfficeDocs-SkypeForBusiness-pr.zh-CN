@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-description: '摘要: 了解 Skype for Business 服务器中的用户注册报告。'
-ms.openlocfilehash: efdb701a61f527e3dd56c1f1e0662f3f1b7f0f8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的用户注册报告。
+ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279667"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991687"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Skype for Business 服务器中的用户注册报告
  
-**摘要:** 了解 Skype for Business 服务器中的用户注册报告。
+**摘要：** 了解 Skype for Business 服务器中的用户注册报告。
   
-"用户注册" 报表提供用户登录活动概述, 有关登录到 Skype for business 服务器的用户数 (每小时、每天、每周、每月) 的详细信息。 请记住, 报表仅告诉您登录的用户数。 它不会告诉您登录的用户。 监视报告不提供有关哪些特定用户正在使用 Skype for Business 服务器的信息 (以及哪些用户不提供)。 但是, 你可以使用 "用户活动" 报表大致估计用户信息。
+"用户注册" 报表提供用户登录活动概述，有关登录到 Skype for business 服务器的用户数（每小时、每天、每周、每月）的详细信息。 请记住，报表仅告诉您登录的用户数。 它不会告诉您登录的用户。 监视报告不提供有关哪些特定用户正在使用 Skype for Business 服务器的信息（以及哪些用户不提供）。 但是，你可以使用 "用户活动" 报表大致估计用户信息。
   
-在提供有关用户登录的信息时，用户注册报告会进行两项重要区分。 首先，它将登录细分为两个主要类别：内部登录和外部登录。 内部登录表示从组织防火墙内登录（即，在连接至企业网络时）的用户。 外部登录表示从防火墙外部通过边缘服务器登录的用户 (例如, 从 Internet 咖啡馆登录的用户咖啡馆将计数为外部登录)。 如果需要了解从防火墙外登录的用户数，用户注册报告可为您提供此信息。
+在提供有关用户登录的信息时，用户注册报告会进行两项重要区分。 首先，它将登录细分为两个主要类别：内部登录和外部登录。 内部登录表示从组织防火墙内登录（即，在连接至企业网络时）的用户。 外部登录表示从防火墙外部通过边缘服务器登录的用户（例如，从 Internet 咖啡馆登录的用户咖啡馆将计数为外部登录）。 如果需要了解从防火墙外登录的用户数，用户注册报告可为您提供此信息。
   
-此外，用户注册报告还会记录在给定时间段内在线的活动用户数。 活动用户是在即时消息 (IM) 会话中参与的用户, 参与了 Skype for Business 服务器会议、拨打或接听电话呼叫或在这段时间内使用 Skype for business 服务器的情况。 这与登录但从未实际使用系统的用户不同。
+此外，用户注册报告还会记录在给定时间段内在线的活动用户数。 活动用户是在即时消息（IM）会话中参与的用户，参与了 Skype for Business 服务器会议、拨打或接听电话呼叫或在这段时间内使用 Skype for business 服务器的情况。 这与登录但从未实际使用系统的用户不同。
   
 ## <a name="accessing-the-user-registration-report"></a>访问用户注册报告
 
@@ -33,9 +33,9 @@ ms.locfileid: "34279667"
   
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>充分利用用户注册报告
 
-部署 Skype for Business 服务器后, 一个常见问题是: 如何知道我的用户是否确实在使用此新技术？ 尽管对于这一点仍存在一些限制，但用户注册报告可以帮助您回答此问题。 若要确定用户是否正在使用 Skype for Business 服务器, 您需要执行两个操作。 首先，从用户注册报告中获取“唯一登录用户”指标的值。 此值告诉你登录到 Skype for Business 服务器的不同个人的人数。
+部署 Skype for Business 服务器后，一个常见问题是：如何知道我的用户是否确实在使用此新技术？ 尽管对于这一点仍存在一些限制，但用户注册报告可以帮助您回答此问题。 若要确定用户是否正在使用 Skype for Business 服务器，您需要执行两个操作。 首先，从用户注册报告中获取“唯一登录用户”指标的值。 此值告诉你登录到 Skype for Business 服务器的不同个人的人数。
   
-通过比较, "总登录" 指标显示任何人登录到 Skype for business 服务器的总次数。 例如, 在一天内, 假设 Ken Myer 登录到 Skype for Business 服务器五个不同的时间。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如, 用户可以使用她的台式计算机 (她的膝上型电脑) 登录, 并且她可以拥有自动登录到 Skype for Business 服务器的 IP 电话。 在此示例中，一个唯一用户登录三次。
+通过比较，"总登录" 指标显示任何人登录到 Skype for business 服务器的总次数。 例如，在一天内，假设 Ken Myer 登录到 Skype for Business 服务器五个不同的时间。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如，用户可以使用她的台式计算机（她的膝上型电脑）登录，并且她可以拥有自动登录到 Skype for Business 服务器的 IP 电话。 在此示例中，一个唯一用户登录三次。
   
 为了进一步解释登录总数和唯一登录之间的差别，请考虑下表中给定时间段的登录数。
   
@@ -49,24 +49,24 @@ ms.locfileid: "34279667"
    
 请注意，总共有五次登录；但只有两个唯一登录用户：Ken Myer（登录三次）和 Pilar Ackerman（登录两次）。这就是登录用户和唯一登录用户之间的差异。
   
-除了了解唯一登录次数外, 你还需要了解已启用 Skype for business 服务器的用户总数。 可通过打开 Skype for Business Server 命令行管理器并运行以下 Windows PowerShell 命令来检索该值:
+除了了解唯一登录次数外，你还需要了解已启用 Skype for business 服务器的用户总数。 可通过打开 Skype for Business Server 命令行管理器并运行以下 Windows PowerShell 命令来检索该值：
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 
-如果前面的命令返回值1236和唯一的登录用户度量值, 则返回平均值 667, 这表示对于 Skype for business 而言, 每个用户的一小部分用户每日实际登录到系统 (这是667除以 1236, 约 54%。
+如果前面的命令返回值1236和唯一的登录用户度量值，则返回平均值667，这表示对于 Skype for business 而言，每个用户的一小部分用户每日实际登录到系统（这是667除以1236，约54%。
   
 > [!CAUTION]
-> 请记住, 登录指标记录在指定时间段内实际登录的用户。 他们不跟踪已登录到系统的用户。 例如, 如果唯一的登录用户指标显示667登录, 并且您有1236用户, 则表示您的用户登录到系统的一半。 但是, 假设您开始检查登录数据时, 300 用户已登录到系统。 这意味着您实际上拥有登录到 Skype for Business 服务器的将近1000用户, 这意味着更接近 80% 的用户已登录。 
+> 请记住，登录指标记录在指定时间段内实际登录的用户。 他们不跟踪已登录到系统的用户。 例如，如果唯一的登录用户指标显示667登录，并且您有1236用户，则表示您的用户登录到系统的一半。 但是，假设您开始检查登录数据时，300用户已登录到系统。 这意味着您实际上拥有登录到 Skype for Business 服务器的将近1000用户，这意味着更接近80% 的用户已登录。 
   
-还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户" 指标告诉你实际使用 Skype for Business 服务器的唯一用户数: 他们进行了电话呼叫, 他们加入了 Skype for Business 服务器会议, 或者他们参与了 IM 会话。 这是有用的信息, 因为 Skype for business 服务器可以配置为在用户每次启动 Windows 时自动启动。 因此, 你可能有大量用户在每天登录到 Windows 时自动登录到 Skype for business, 但在该时间段内, 不会实际使用 Skype for business 服务器。
+还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户" 指标告诉你实际使用 Skype for Business 服务器的唯一用户数：他们进行了电话呼叫，他们加入了 Skype for Business 服务器会议，或者他们参与了 IM 会话。 这是有用的信息，因为 Skype for business 服务器可以配置为在用户每次启动 Windows 时自动启动。 因此，你可能有大量用户在每天登录到 Windows 时自动登录到 Skype for business，但在该时间段内，不会实际使用 Skype for business 服务器。
   
-"唯一活动用户" 指标还会在组织中提供更有意义的数据, 用户通常不会在一天结束时注销 Windows。 相反, 他们只是锁定自己的计算机, 让 Windows 和 Skype for Business 保持运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是, 唯一的活动用户告诉你用户是否正在使用 Skype for business 或其他 Skype for business 服务器客户端。
+"唯一活动用户" 指标还会在组织中提供更有意义的数据，用户通常不会在一天结束时注销 Windows。 相反，他们只是锁定自己的计算机，让 Windows 和 Skype for Business 保持运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是，唯一的活动用户告诉你用户是否正在使用 Skype for business 或其他 Skype for business 服务器客户端。
   
 ## <a name="filters"></a>筛选器
 
-利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。 例如, 用户注册报告可让你查看所有注册机构池和边缘服务器的数据, 或者查看单个池的数据。 您还可以选择数据的分组方式。 在此示例中，将按小时、日、周或月对注册进行分组。
+利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。 例如，用户注册报告可让你查看所有注册机构池和边缘服务器的数据，或者查看单个池的数据。 您还可以选择数据的分组方式。 在此示例中，将按小时、日、周或月对注册进行分组。
   
 下表列出了可用于用户注册报告的筛选器。
   

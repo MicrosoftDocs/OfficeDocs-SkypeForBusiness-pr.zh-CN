@@ -9,27 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: '摘要: 了解如何在 Skype for Business Server 中管理会议服务器配置设置。'
-ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中管理会议服务器配置设置。
+ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288997"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991897"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中管理会议服务器配置设置
  
-**摘要:** 了解如何在 Skype for Business Server 中管理会议服务器配置设置。
+**摘要：** 了解如何在 Skype for Business Server 中管理会议服务器配置设置。
   
-本主题描述如何管理会议配置设置。 有关如何规划和部署会议的详细信息, 请参阅在 skype for business[服务器中规划会议](../../plan-your-deployment/conferencing/conferencing.md)和[在 Skype for Business 服务器中部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主题描述如何管理会议配置设置。 有关如何规划和部署会议的详细信息，请参阅在 skype for business[服务器中规划会议](../../plan-your-deployment/conferencing/conferencing.md)和[在 Skype for Business 服务器中部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 会议配置设置决定了会议内容和讲义的最大允许大小;应用程序共享会议服务的最大带宽量;存储限额和到期期;支持的客户端的内部和外部下载的 Url;指向用户可获取会议帮助和资源的内部和外部 Url 的指针;以及用于应用程序共享、客户端音频、文件传输和媒体流量的端口。 这些设置可让你管理实际服务器本身。 可以使用 Skype for Business Server 命令行管理程序设置这些设置。
   
-安装 Skype for Business 服务器时, 系统会为你提供单个会议配置设置集合 (全局集合)。 如果需要为站点或服务创建自定义设置，可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，只能在站点范围或服务范围应用新设置；你无法创建新的会议配置设置全局集合，但是可以使用 **Set-CsConferencingConfiguration** 来修改全局集合。 此外，站点和服务都不能托管多个设置集合。 如果你尝试为 Redmond 站点创建新设置，而 Redmond 站点已托管一个会议配置设置集合，则命令将会失败。
+安装 Skype for Business 服务器时，系统会为你提供单个会议配置设置集合（全局集合）。 如果需要为站点或服务创建自定义设置，可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，只能在站点范围或服务范围应用新设置；你无法创建新的会议配置设置全局集合，但是可以使用 **Set-CsConferencingConfiguration** 来修改全局集合。 此外，站点和服务都不能托管多个设置集合。 如果你尝试为 Redmond 站点创建新设置，而 Redmond 站点已托管一个会议配置设置集合，则命令将会失败。
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序管理会议配置设置
 
-若要使用 Skype for Business Server Management Shell 管理会议配置设置, 请使用以下 cmdlet:
+若要使用 Skype for Business Server Management Shell 管理会议配置设置，请使用以下 cmdlet：
   
 **会议配置设置**
 
@@ -42,7 +42,7 @@ ms.locfileid: "34288997"
    
 下面的命令为 Redmond 站点 (site:Redmond) 创建新的会议配置设置集合。在此示例中，包括一个额外的参数 (Organization)，该参数用于将 Organization 属性的值设置为 Litwareinc： 
   
-```
+```PowerShell
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 ```
 
@@ -56,7 +56,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 最后，第三个命令使用 **Set-CsConferencingConfiguration** cmdlet 将新设置实际应用于 Redmond 站点：
   
-```
+```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x

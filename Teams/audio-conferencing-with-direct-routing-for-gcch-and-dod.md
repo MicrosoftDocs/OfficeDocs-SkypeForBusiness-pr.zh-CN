@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 了解如何在 GCCH 和 DoD 环境中通过直接路由使用音频会议。
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516732"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992892"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
@@ -64,12 +64,12 @@ ms.locfileid: "37516732"
 
 你可以使用 csHybridTelephoneNumber PowerShell cmdlet 定义租户中的服务电话号码，这些电话号码可用于通过直接路由将呼叫路由到音频会议服务。 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 例如：
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ ms.locfileid: "37516732"
 
 你可以使用 Set-csonlinedialinconferencingservicenumber PowerShell cmdlet 将服务电话号码分配给你的组织的音频会议桥。
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 你可以使用 Get-csonlinedialinconferencingbridge 查看音频会议桥的 ID。 例如：
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

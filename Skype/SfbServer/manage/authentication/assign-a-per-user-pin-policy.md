@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: '摘要: 暂存 Skype for business 服务器的 AV 和 OAuth 证书。'
-ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：暂存 Skype for business 服务器的 AV 和 OAuth 证书。
+ms.openlocfilehash: 7591464d55970a9aee4fb1f7ddbb28c2efbac601
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278354"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992719"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在 Skype for Business 服务器中分配每用户 PIN 策略
 
-**摘要:** 暂存 Skype for business 服务器的 AV 和 OAuth 证书。
+**摘要：** 暂存 Skype for business 服务器的 AV 和 OAuth 证书。
   
-电话拨入式会议个人识别号 (PIN) 策略是可在 Skype for Business Server 控制面板中配置的用户帐户的个人设置之一。
+电话拨入式会议个人识别号（PIN）策略是可在 Skype for Business Server 控制面板中配置的用户帐户的个人设置之一。
   
 部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。
   
@@ -32,7 +32,7 @@ ms.locfileid: "34278354"
 
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左导航栏中，单击“用户”****。
     
@@ -65,9 +65,9 @@ ms.locfileid: "34278354"
 7. 在“分配策略”**** 中的“PIN 策略”**** 下，执行下列操作之一：
     
     > [!NOTE]
-    > 由于有多个策略可以使用 "**分配策略**" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " ** \<保持\> **原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "**分配策略**" 对话框进行配置，因此默认情况下为对话框中的每个策略选中 " ** \<保持\> **原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
-   - 允许 Skype for business 服务器自动选择全局级别策略或网站级策略 (如果已定义)。
+   - 允许 Skype for business 服务器自动选择全局级别策略或网站级策略（如果已定义）。
     
    - 单击之前在“PIN 策略”**** 页中定义的每用户 PIN 策略的名称。
     
@@ -78,21 +78,21 @@ ms.locfileid: "34278354"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户 PIN 策略
 
-你可以使用 Windows PowerShell 和**CsPinPolicy** cmdlet 分配每用户 PIN 策略。 你可以从 Skype for Business Server Management Shell 或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息, 请参阅博客文章["快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中, 此过程是相同的。
+你可以使用 Windows PowerShell 和**CsPinPolicy** cmdlet 分配每用户 PIN 策略。 你可以从 Skype for Business Server Management Shell 或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中，此过程是相同的。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 
 - 以下命令为用户 Ken Myer 分配每用户 PIN 策略 RedmondPinPolicy。
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
   ```
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>为多个用户分配每用户 PIN 策略
 
-- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息, 请参阅[move-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
+- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[move-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
     
-  ```
+  ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
   ```
 
@@ -100,11 +100,11 @@ ms.locfileid: "34278354"
 
 - 以下命令取消分配之前分配给 Ken Myer 的任何每用户 PIN 策略。取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果存在）管理 Ken Myer。站点策略优先于全局策略。
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-有关详细信息, 请参阅[授权-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
+有关详细信息，请参阅[授权-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
   
 ## <a name="see-also"></a>另请参阅
 
