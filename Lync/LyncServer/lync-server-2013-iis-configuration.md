@@ -10,12 +10,12 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29b9803fdb6c4a048fdf072b5ba2e5722b863640
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830055"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +33,17 @@ ms.locfileid: "34830055"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-17_
+_**主题上次修改时间：** 2014-02-17_
 
-若要成功完成此过程, 你应作为本地管理员和域用户至少登录到服务器。
+若要成功完成此过程，你应作为本地管理员和域用户至少登录到服务器。
 
-为 Lync Server 2013、标准版或池中的第一个前端服务器配置和安装前端服务器之前, 请为 Internet 信息服务 (IIS) 安装和配置服务器角色和 Web 服务。
+为 Lync Server 2013、标准版或池中的第一个前端服务器配置和安装前端服务器之前，请为 Internet 信息服务（IIS）安装和配置服务器角色和 Web 服务。
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> 如果你的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务, 你可以在初始安装 Lync Server 2013 时在 "设置" 对话框中更改 Lync Server 2013 文件的安装位置路径管理工具。 在安装 IIS 之前安装 "管理工具"。 如果将安装文件安装到此路径 (包括 OCSCore), 则其他 Lync Server 2013 文件也将同时部署到此驱动器。 有关 dtails, 请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</A>。 有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。
+> 如果你的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，你可以在初始安装 Lync Server 2013 时在 "设置" 对话框中更改 Lync Server 2013 文件的安装位置路径管理工具。 在安装 IIS 之前安装 "管理工具"。 如果将安装文件安装到此路径（包括 OCSCore），则其他 Lync Server 2013 文件也将同时部署到此驱动器。 有关 dtails，请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">安装 Lync Server 2013 管理工具</A>。 有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息， <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。
 
 
 
@@ -88,7 +88,7 @@ _**主题上次修改时间:** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
-<td><p>Internet 服务器 API (ISAPI) 扩展</p></td>
+<td><p>Internet 服务器 API （ISAPI）扩展</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
@@ -108,7 +108,7 @@ _**主题上次修改时间:** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>安全性</p></td>
-<td><p>匿名身份验证 (默认情况下已安装并启用)</p></td>
+<td><p>匿名身份验证（默认情况下已安装并启用）</p></td>
 </tr>
 <tr class="even">
 <td><p>安全性</p></td>
@@ -139,13 +139,13 @@ _**主题上次修改时间:** 2014-02-17_
 </table>
 
 
-在 Windows Server 2008 R2 SP1 x64 操作系统上, 你可以使用 Windows PowerShell 2.0。 必须首先导入 ServerManager 模块, 然后安装 IIS 7.5 角色和角色服务。
+在 Windows Server 2008 R2 SP1 x64 操作系统上，你可以使用 Windows PowerShell 2.0。 必须首先导入 ServerManager 模块，然后安装 IIS 7.5 角色和角色服务。
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
    ```
 
@@ -153,7 +153,7 @@ _**主题上次修改时间:** 2014-02-17_
 
 
 > [!NOTE]  
-> 默认情况下, 使用 IIS 服务器角色安装匿名身份验证。 在安装 IIS 之后, 您可以管理匿名身份验证。 有关详细信息, 请参阅 "启用匿名身份验证 (IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>)"。
+> 默认情况下，使用 IIS 服务器角色安装匿名身份验证。 在安装 IIS 之后，您可以管理匿名身份验证。 有关详细信息，请参阅 "启用匿名身份验证（IIS 7 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>）"。
 
 
 
@@ -165,7 +165,7 @@ _**主题上次修改时间:** 2014-02-17_
 
 
 > [!NOTE]  
-> 对于 Windows Server 2012 和 Windows Server 2012 R2, add-windowsfeature cmdlet 已替换为 Install cmdlet。 有关详细信息, 请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">安装-add-windowsfeature</A>。
+> 对于 Windows Server 2012 和 Windows Server 2012 R2，add-windowsfeature cmdlet 已替换为 Install cmdlet。 有关详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">安装-add-windowsfeature</A>。
 
 
 
@@ -186,7 +186,7 @@ _**主题上次修改时间:** 2014-02-17_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Web 服务器 (IIS)</p></td>
+<td><p>Web 服务器（IIS）</p></td>
 <td><p>Web 服务器</p></td>
 </tr>
 <tr class="even">
@@ -341,13 +341,13 @@ _**主题上次修改时间:** 2014-02-17_
 </table>
 
 
-在 Windows Server 2012 和 Windows Server 2012 R2 中, 你可以使用 Windows PowerShell 3.0 来安装 IIS 要求。 使用 Windows PowerShell 3.0 中的 ServerManager 模块, 请键入:
+在 Windows Server 2012 和 Windows Server 2012 R2 中，你可以使用 Windows PowerShell 3.0 来安装 IIS 要求。 使用 Windows PowerShell 3.0 中的 ServerManager 模块，请键入：
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
    ```
 
@@ -355,7 +355,7 @@ _**主题上次修改时间:** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Windows Server 2012 的新增功能是-Source 参数, 用于定义可在何处找到 Windows Server 2012 源媒体。 媒体可以定义为 DVD 驱动器 (例如, D:\Sources\Sxs), 或者将媒体文件复制到网络共享位置 (例如, \\fileserver\windows2012\sources\Sxs)。
+> Windows Server 2012 的新增功能是-Source 参数，用于定义可在何处找到 Windows Server 2012 源媒体。 媒体可以定义为 DVD 驱动器（例如，D:\Sources\Sxs），或者将媒体文件复制到网络共享位置（例如， \\fileserver\windows2012\sources\Sxs）。
 
 
 

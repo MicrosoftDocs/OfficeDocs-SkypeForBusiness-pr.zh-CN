@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 更新-通讯簿管理的 CsAddressBook'
+title: Lync Server 2013：更新-通讯簿管理的 CsAddressBook
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22923d0227c75ee6f2055d4a2ac350a6df6b37bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7e10f9d52d9e4090601330cad44d5da03e69540
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845518"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +33,19 @@ ms.locfileid: "34845518"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-哪些人可以运行此 cmdlet: 默认情况下, 以下组的成员授权在本地运行 CsAddressBook cmdlet: RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:
+哪些人可以运行此 cmdlet：默认情况下，以下组的成员授权在本地运行 CsAddressBook cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制（RBAC）角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-CsAddressBook cmdlet 替换 Office 通信服务器中的**abserver-syncNow**命令。 该 cmdlet 的用途是立即启动同步, 而不是等待计划的时间。 第一个示例命令将更新组织中的所有通讯簿。 第二个更新仅更新与已定义服务器相关联的通讯簿。
+CsAddressBook cmdlet 替换 Office 通信服务器中的**abserver-syncNow**命令。 该 cmdlet 的用途是立即启动同步，而不是等待计划的时间。 第一个示例命令将更新组织中的所有通讯簿。 第二个更新仅更新与已定义服务器相关联的通讯簿。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中, Lync Server 用户复制程序将从 Active Directory 中获取更改, 并根据配置的间隔更新 Lync Server 用户数据库。 Lync Server 用户复制程序还将在无需运行 CSAddressBook 的情况下快速将更改传播到 RTCab 数据库。 只有当通讯簿文件下载已启用时, 管理员才需要运行 CSAddressBook 更新。
+> 在 Lync Server 2013 中，Lync Server 用户复制程序将从 Active Directory 中获取更改，并根据配置的间隔更新 Lync Server 用户数据库。 Lync Server 用户复制程序还将在无需运行 CSAddressBook 的情况下快速将更改传播到 RTCab 数据库。 只有当通讯簿文件下载已启用时，管理员才需要运行 CSAddressBook 更新。
 
 
 
@@ -53,11 +53,11 @@ CsAddressBook cmdlet 替换 Office 通信服务器中的**abserver-syncNow**命�
 
 例如：
 
-   ```
+   ```PowerShell
     Update-CsAddressBook
    ```
 
-   ```
+   ```PowerShell
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
    ```
 
