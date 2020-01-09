@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919154"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990647"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -29,15 +29,9 @@ ms.locfileid: "39919154"
 
 ## <a name="administration"></a>管理
 
-
-
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/zh-CN/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[启用漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) 中的 EAF 策略可能会将 Chromium 沙盒优化错误地标识为威胁。 <br/> |Chromium 沙盒存在问题，即 Enhanced Mitigation Experience Toolkit (EMET) 和 Windows Defender 高级威胁防护 (ATP) 中的导出地址表访问筛选 (EAF) 策略可能会将 Chromium 沙盒优化错误地标识为威胁。这会导致 Teams 无法正常运行。  <br/> | 要解决此问题，请对 Teams 关闭 EAF。有关此问题的详细信息，请参阅 [EMET 缓解准则](https://support.microsoft.com/help/2909257/emet-mitigations-guidelines)。有关 Windows Defender ATP 和 EAF 策略的详细信息，请参阅[启用漏洞利用保护](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |2018 年 10 月 11 日 <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -61,10 +55,6 @@ ms.locfileid: "39919154"
 |:-----|:-----|:-----|:-----|
 |“作业”应用在禁用后仍可见  <br/> |在管理中心禁用了“作业”应用后，此应用在获得教育版许可的用户的 Teams 客户端中仍可见。在禁用的情况下选择此应用时，将返回错误：“烦躁! 出现错误...”  <br/> |无解决方法。  <br/> |2017 年 12 月 29 日  <br/> |
 
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|无法以团队所有者身份删除连接器。  <br/> |在禁用了“允许成员创建、更新和删除连接器”的情况下，尝试以所有者身份删除连接器时（可以其他方式添加连接器），会引发错误，指示用户无权执行此操作。 <br/> |临时启用“允许成员创建、更新和删除连接器”可允许所有者删除连接器。  <br/> |2018 年 7 月 27 日  <br/> |
-
 ## <a name="audio-conferencing"></a>音频会议
 
 |**问题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -76,7 +66,6 @@ ms.locfileid: "39919154"
 |拨出控件间歇性地不显示出来。  <br/> |拨出控件在“会议信息”面板中可能不可见。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |Microsoft Teams 会议不支持静态会议 ID。  <br/> |如果管理员将默认设置从动态会议 ID 更改为静态会议 ID，此设置对 Microsoft Teams 会议无效。请参阅[在组织中使用音频会议动态 ID](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)。  <br/> |无解决方法。  <br/> |2017 年 9 月 25 日  <br/> |
 |PSTN 会议坐标不适用于 Skype for Business 本地部署用户。  <br/> |如果用户是 Skype for Business 本地部署用户，并分配有 Skype for Business Online、音频会议和 Teams 许可证，则使用 Teams 安排的所有会议都将不包括 PSTN 会议坐标。 <br/> |无解决方法。  <br/> |2018 年 2 月 1 日  <br/> |
-
 |“现在开会”中的云视频互操作性信息  <br/> |如果在 Microsoft Teams 中使用现有的 CVI 许可证创建一个“立即开会”会议实例，则不会填充 CVI 信息。 <br/> |建议通过安排会议来填充此信息。  <br/> |2019 年 6 月 11 日  <br/> |
 
 ## <a name="authentication"></a>身份验证
@@ -140,8 +129,6 @@ ms.locfileid: "39919154"
 
 ## <a name="client"></a>客户端
 
-
-
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |无法从 Microsoft Store 启动 Teams for Surface Hub |在 Microsoft Store 中单击“**启动**”时，Microsoft Teams for Surface Hub 不会启动。 | 在 Surface Hub 上，Windows 不支持从 Microsoft Store 列表启动 Teams for Surface Hub 应用。 <br> <br/> 请在安装 Teams 之后重启 Surface Hub。 | 18/2/27 |
@@ -170,10 +157,6 @@ ms.locfileid: "39919154"
 |:-----|:-----|:-----|:-----|
 |欧盟地区和亚太地区的客户在从其他租户添加来宾用户时收到错误    <br/> | 欧盟地区和亚太地区的客户遇到 Microsoft Teams 与 Azure Active Directory 之间出现复制延迟的问题。当来自欧盟地区或亚太地区某个租户的用户尝试从任何其他租户添加来宾用户时，收到要求他们重试的错误消息。   <br/> |再次单击重试按钮以执行来宾用户添加操作。  <br/> |11/8/17  <br/> |
 
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|对于来宾创建的频道未创建 Wiki  <br/> |来宾创建新频道时，未创建“**Wiki**”选项卡。无法手动将“**Wiki**”选项卡附加到频道。 <br/> |无解决方法。  <br/> |9/20/17  <br/>|
-
 ## <a name="linux"></a>Linux
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -198,7 +181,7 @@ ms.locfileid: "39919154"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|程序包管理器未显示更改列表。 <br/> |程序包管理器不显示更改列表。 <br/> | <br/> |2019/12/5  <br/>|
+|程序包管理器未显示更改列表。 <br/> |程序包管理器不显示更改列表。 <br/> | <br/> |2019 年 12 月 5 日  <br/>|
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -251,10 +234,6 @@ ms.locfileid: "39919154"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|移动客户端团队布局差异  <br/> |在移动客户端上，团队按字母顺序列出，频道无法折叠。  <br/> |无解决方法。  <br/> |2017 年 3 月 13 日  <br/>|
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
 |使用 iOS 13 测试版时可能遇到的问题  <br/> |1. 不触发 Teams 通知。  其中包括聊天、提及和通话。  2. 测试版无法使用文件预览功能。  <br/> |目前没有解决方法。  我们正在与 Apple 开发人员一起寻找解决这些问题的方法。  <br/> | 2019 年 6 月 25 日  <br/>|
 
 
@@ -290,10 +269,6 @@ ms.locfileid: "39919154"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |电话号码被阻止：|电话号码被阻止：在删除电话号码前删除资源帐户将会导致相应电话号码被阻止。|请与 Microsoft 支持人员联系，以解禁相应电话号码。|2019 年 5 月 18 日|
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|无法将未应答呼叫配置为转到桌面应用的语音邮件|当用户处于“仅 Teams”模式下时，其 Exchange 邮箱处于本地，如果他们在 Teams 桌面应用中访问“**设置**” > “**呼叫**”，则无法选择将呼叫转发到语音邮件的选项（未应答呼叫或所有呼叫）。 如果已经配置了任一选项，则打开“设置”中的“呼叫”选项卡将禁用转发到语音邮件。|使用 Teams 移动应用配置转发到语音邮件。|2019 年 5 月 27 日|
 
 ## <a name="presence"></a>状态
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
@@ -360,11 +335,8 @@ ms.locfileid: "39919154"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|从团队中删除某人时，审核日志中报告的发起人用户名可能不正确。  <br/> |Teams 团队是 AAD 中的新式组。当你通过 Teams 用户界面添加/删除成员时，流程会准确知道发起更改的用户，并且审核日志中会反映正确的信息。但是，如果通过 AAD 添加/删除用户，更改会在后端同步到 Teams，但不会告诉 Teams 发起该操作的人员。Microsoft Teams 会选择相应团队的第一个所有者作为发起人，此情况最终也反映在审核日志中。    <br/> |  <br/> |2018 年 5 月 11 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
 |如果是 sip 呼叫，则 Teams 语音邮件到达时 spf 将失败；如果对用户而言是 pstn 呼叫，则在语音邮件到达时 from 属性无正确值；如果客户有一条由客户自己分析 spf 的规则，则语音邮件将具有 etr 决定的操作。 <br/> | <br/> | 如果邮件是语音邮件，2019/08/29 解决方法将在 etr 中添加例外。
+
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -377,10 +349,6 @@ ms.locfileid: "39919154"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |包含特殊字符的团队名称可能会导致创建会议时出错。  <br/> |用户尝试为名称包含特殊字符的团队创建会议时会收到红色的“**出现错误**”消息。   <br/> |将团队重命名为不含 "/" 的名称或重新创建名称不含 "/" 的团队。  <br/> |2017 年 7 月 13 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|包含 &amp; 符号的团队名称中断连接器功能  <br/> |创建的团队名称中包含 &amp; 符号时，无法在团队/组中建立连接器。  <br/> |请勿在团队名称中使用特殊字符。  <br/> |2017 年 6 月 21 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -400,8 +368,8 @@ ms.locfileid: "39919154"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|编辑后无法移动、删除或重命名文件  <br/> |在 Teams 中对文件进行编辑后，无法立即移动、重命名或删除文件 <br/> |目前这是一个已知的问题，解决方法是在做出管理更改之前等待一段时间。  <br/> |2019 年 3 月 12 日  <br/> |
+|Symantec DLP 和 Teams 之间的互操作性问题 <br/> |Symantec DLP 终结点代理可能会干扰 Teams 流程，继而可能会导致启动或退出失败。  <br/> |如本 <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec 支持文章</a>中所述，从 Symantec DLP 的终结点代理中排除（白名单）Teams.exe。 <br/> |2019 年 7 月 15 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Symantec DLP 和 Teams 之间的互操作性问题 <br/> |Symantec DLP 终结点代理可能会干扰 Teams 流程，继而可能会导致启动或退出失败。  <br/> |如本 <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec 支持文章</a>中所述，从 Symantec DLP 的终结点代理中排除（白名单）Teams.exe。 <br/> |2019 年 7 月 15 日  <br/> |
+|Dell Encryption 可能阻止 Teams启动 <br/> |Dell Encryption（以前称为 Dell Data Protection Encryption）可能会在更新过程中损坏 Teams 的安装，从而导致启动应用程序永久失败。 <br/> |从加密策略中排除 %LocalAppData%\Microsoft\Teams 下的 Teams 文件夹。 <br/> |2019 年 11 月 21 日  <br/> |
