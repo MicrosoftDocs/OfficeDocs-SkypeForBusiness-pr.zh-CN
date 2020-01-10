@@ -11,60 +11,60 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287158"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003082"
 ---
-# <a name="publish-ccappliance"></a><span data-ttu-id="f0052-103">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="f0052-103">Publish-CcAppliance</span></span>
+# <a name="publish-ccappliance"></a><span data-ttu-id="e7a4c-103">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="e7a4c-103">Publish-CcAppliance</span></span>
  
-<span data-ttu-id="f0052-104">Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。</span><span class="sxs-lookup"><span data-stu-id="f0052-104">The Publish-CcAppliance cmdlet gets high availability information from the online tenant configuration and publishes it to the Skype for Business Cloud Connector Edition appliance on the host server.</span></span> 
+<span data-ttu-id="e7a4c-104">Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。</span><span class="sxs-lookup"><span data-stu-id="e7a4c-104">The Publish-CcAppliance cmdlet gets high availability information from the online tenant configuration and publishes it to the Skype for Business Cloud Connector Edition appliance on the host server.</span></span> 
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f0052-105">参数</span><span class="sxs-lookup"><span data-stu-id="f0052-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e7a4c-105">参数</span><span class="sxs-lookup"><span data-stu-id="e7a4c-105">Parameters</span></span>
 
-<span data-ttu-id="f0052-106">无</span><span class="sxs-lookup"><span data-stu-id="f0052-106">None</span></span>
+<span data-ttu-id="e7a4c-106">无</span><span class="sxs-lookup"><span data-stu-id="e7a4c-106">None</span></span>
   
-## <a name="examples"></a><span data-ttu-id="f0052-107">示例</span><span class="sxs-lookup"><span data-stu-id="f0052-107">Examples</span></span>
-<span data-ttu-id="f0052-108"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="f0052-108"></span></span>
+## <a name="examples"></a><span data-ttu-id="e7a4c-107">示例</span><span class="sxs-lookup"><span data-stu-id="e7a4c-107">Examples</span></span>
+<span data-ttu-id="e7a4c-108"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="e7a4c-108"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="f0052-109">示例 1</span><span class="sxs-lookup"><span data-stu-id="f0052-109">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="e7a4c-109">示例 1</span><span class="sxs-lookup"><span data-stu-id="e7a4c-109">Example 1</span></span>
 
-<span data-ttu-id="f0052-110">以下示例从联机租户配置获取高可用性信息, 并将其发布到主机服务器上的云连接器设备:</span><span class="sxs-lookup"><span data-stu-id="f0052-110">The following example gets high availability information from the online tenant configuration and publishes it to the Cloud Connector appliance on the host server:</span></span>
+<span data-ttu-id="e7a4c-110">以下示例从联机租户配置获取高可用性信息，并将其发布到主机服务器上的云连接器设备：</span><span class="sxs-lookup"><span data-stu-id="e7a4c-110">The following example gets high availability information from the online tenant configuration and publishes it to the Cloud Connector appliance on the host server:</span></span>
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="f0052-111">详细说明</span><span class="sxs-lookup"><span data-stu-id="f0052-111">Detailed Description</span></span>
-<span data-ttu-id="f0052-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="f0052-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="e7a4c-111">详细说明</span><span class="sxs-lookup"><span data-stu-id="e7a4c-111">Detailed Description</span></span>
+<span data-ttu-id="e7a4c-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="e7a4c-112"></span></span>
 
-<span data-ttu-id="f0052-p101">高可用性信息包括 PSTN 站点的中介服务器 FQDN 和 IP 地址。向 AD 服务器添加有关中介服务器 IP 地址的新 DNS A 记录。用新拓扑项来更新中央管理存储中的中介服务器 FQDN 和 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f0052-p101">High availability information contains the Mediation Server FQDNs and IP addresses of the PSTN site. New DNS A records are added to the AD Server for Mediation Server IP addresses. New topology items are updated to the Central Management Store for the Mediation Server FQDNs and IP addresses.</span></span> 
+<span data-ttu-id="e7a4c-p101">高可用性信息包括 PSTN 站点的中介服务器 FQDN 和 IP 地址。向 AD 服务器添加有关中介服务器 IP 地址的新 DNS A 记录。用新拓扑项来更新中央管理存储中的中介服务器 FQDN 和 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="e7a4c-p101">High availability information contains the Mediation Server FQDNs and IP addresses of the PSTN site. New DNS A records are added to the AD Server for Mediation Server IP addresses. New topology items are updated to the Central Management Store for the Mediation Server FQDNs and IP addresses.</span></span> 
   
-## <a name="input-types"></a><span data-ttu-id="f0052-116">输入类型</span><span class="sxs-lookup"><span data-stu-id="f0052-116">Input Types</span></span>
-<span data-ttu-id="f0052-117"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="f0052-117"></span></span>
+## <a name="input-types"></a><span data-ttu-id="e7a4c-116">输入类型</span><span class="sxs-lookup"><span data-stu-id="e7a4c-116">Input Types</span></span>
+<span data-ttu-id="e7a4c-117"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="e7a4c-117"></span></span>
 
-<span data-ttu-id="f0052-118">无。</span><span class="sxs-lookup"><span data-stu-id="f0052-118">None.</span></span> <span data-ttu-id="f0052-119">Publish-CcAppliance cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="f0052-119">The Publish-CcAppliance cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="e7a4c-118">无。</span><span class="sxs-lookup"><span data-stu-id="e7a4c-118">None.</span></span> <span data-ttu-id="e7a4c-119">Publish-CcAppliance cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="e7a4c-119">The Publish-CcAppliance cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="f0052-120">返回类型</span><span class="sxs-lookup"><span data-stu-id="f0052-120">Return Types</span></span>
-<span data-ttu-id="f0052-121"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="f0052-121"></span></span>
+## <a name="return-types"></a><span data-ttu-id="e7a4c-120">返回类型</span><span class="sxs-lookup"><span data-stu-id="e7a4c-120">Return Types</span></span>
+<span data-ttu-id="e7a4c-121"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="e7a4c-121"></span></span>
 
-<span data-ttu-id="f0052-122">无</span><span class="sxs-lookup"><span data-stu-id="f0052-122">None</span></span>
+<span data-ttu-id="e7a4c-122">无</span><span class="sxs-lookup"><span data-stu-id="e7a4c-122">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f0052-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f0052-123">See also</span></span>
-<span data-ttu-id="f0052-124"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="f0052-124"></span></span>
+## <a name="see-also"></a><span data-ttu-id="e7a4c-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e7a4c-123">See also</span></span>
+<span data-ttu-id="e7a4c-124"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="e7a4c-124"></span></span>
 
-[<span data-ttu-id="f0052-125">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="f0052-125">Install-CcAppliance</span></span>](install-ccappliance.md)
+[<span data-ttu-id="e7a4c-125">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="e7a4c-125">Install-CcAppliance</span></span>](install-ccappliance.md)
   
-[<span data-ttu-id="f0052-126">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="f0052-126">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
+[<span data-ttu-id="e7a4c-126">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="e7a4c-126">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
   
-[<span data-ttu-id="f0052-127">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="f0052-127">Register-CcAppliance</span></span>](register-ccappliance.md)
+[<span data-ttu-id="e7a4c-127">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="e7a4c-127">Register-CcAppliance</span></span>](register-ccappliance.md)
   
-[<span data-ttu-id="f0052-128">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="f0052-128">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
+[<span data-ttu-id="e7a4c-128">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="e7a4c-128">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
   
 

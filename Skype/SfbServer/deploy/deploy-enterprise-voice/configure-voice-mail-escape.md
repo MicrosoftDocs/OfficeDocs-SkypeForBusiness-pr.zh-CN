@@ -13,40 +13,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '摘要: 了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。'
-ms.openlocfilehash: c9a858ead9261944c162cb10fda63840f8de86d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。
+ms.openlocfilehash: 27f283f4bfb64aa950bd9e72a9d6fdc17df91ba0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233572"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001212"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="de8ba-103">在 Skype for Business 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="de8ba-103">Configure voice mail escape in Skype for Business</span></span>
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="6217c-103">在 Skype for Business 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="6217c-103">Configure voice mail escape in Skype for Business</span></span>
 
-<span data-ttu-id="de8ba-104">**摘要:** 了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。</span><span class="sxs-lookup"><span data-stu-id="de8ba-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="6217c-104">**摘要：** 了解如何使用 Skype for business Server 命令行管理程序在 Skype for Business 服务器中配置语音邮件转义。</span><span class="sxs-lookup"><span data-stu-id="6217c-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
 
-<span data-ttu-id="de8ba-105">当用户配置与移动电话的同时拨打时, 如果移动电话已关闭、电池电量不足或超出范围, 呼叫者通常会被路由到用户的个人语音邮件。</span><span class="sxs-lookup"><span data-stu-id="de8ba-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="de8ba-106">使用 Skype for Business 服务器, 用户可以选择将与业务相关的呼叫路由到其企业语音邮件系统。</span><span class="sxs-lookup"><span data-stu-id="de8ba-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="de8ba-107">具体而言, 可以配置计时器, 并且如果运营商的语音邮件在定义的时间范围内由该运营商的语音邮件应答, 则 Skype for business 服务器将断开与运营商的语音邮件系统 (和用户的个人语音邮件) 的连接, 而用户的公司系统中的剩余终结点继续拨打。</span><span class="sxs-lookup"><span data-stu-id="de8ba-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="de8ba-108">这样, 呼叫者将自动路由到用户的公司语音邮件。</span><span class="sxs-lookup"><span data-stu-id="de8ba-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
+<span data-ttu-id="6217c-105">当用户配置与移动电话的同时拨打时，如果移动电话已关闭、电池电量不足或超出范围，呼叫者通常会被路由到用户的个人语音邮件。</span><span class="sxs-lookup"><span data-stu-id="6217c-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="6217c-106">使用 Skype for Business 服务器，用户可以选择将与业务相关的呼叫路由到其企业语音邮件系统。</span><span class="sxs-lookup"><span data-stu-id="6217c-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="6217c-107">具体而言，可以配置计时器，并且如果运营商的语音邮件在定义的时间范围内由该运营商的语音邮件应答，则 Skype for business 服务器将断开与运营商的语音邮件系统（和用户的个人语音邮件）的连接，而用户的公司系统中的剩余终结点继续拨打。</span><span class="sxs-lookup"><span data-stu-id="6217c-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="6217c-108">这样，呼叫者将自动路由到用户的公司语音邮件。</span><span class="sxs-lookup"><span data-stu-id="6217c-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
 
-<span data-ttu-id="de8ba-109">使用以下参数, 在语音策略级别使用 Skype for Business Server Management Shell cmdlet ( **CsVoicePolicy**) 执行此配置。</span><span class="sxs-lookup"><span data-stu-id="de8ba-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="6217c-109">使用以下参数，在语音策略级别使用 Skype for Business Server Management Shell cmdlet （ **CsVoicePolicy**）执行此配置。</span><span class="sxs-lookup"><span data-stu-id="6217c-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
 
-### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="de8ba-110">配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="de8ba-110">To configure voice mail escape</span></span>
+### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="6217c-110">配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="6217c-110">To configure voice mail escape</span></span>
 
-1. <span data-ttu-id="de8ba-111">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="de8ba-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="6217c-111">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="6217c-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-2. <span data-ttu-id="de8ba-112">指定 **Set-CsVoicePolicy** 的以下参数：</span><span class="sxs-lookup"><span data-stu-id="de8ba-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2. <span data-ttu-id="6217c-112">指定 **Set-CsVoicePolicy** 的以下参数：</span><span class="sxs-lookup"><span data-stu-id="6217c-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
 
-   - <span data-ttu-id="de8ba-113">**EnableVoicemailEscapeTimer** - 启用或禁用转义计时器。</span><span class="sxs-lookup"><span data-stu-id="de8ba-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+   - <span data-ttu-id="6217c-113">**EnableVoicemailEscapeTimer** - 启用或禁用转义计时器。</span><span class="sxs-lookup"><span data-stu-id="6217c-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
 
-   - <span data-ttu-id="de8ba-p102">**PSTNVoicemailEscapeTimer** - 指定超时值（以毫秒为单位）。默认值为 1500 毫秒，该值的范围可介于 0 到 8000 毫秒之间。</span><span class="sxs-lookup"><span data-stu-id="de8ba-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+   - <span data-ttu-id="6217c-p102">**PSTNVoicemailEscapeTimer** - 指定超时值（以毫秒为单位）。默认值为 1500 毫秒，该值的范围可介于 0 到 8000 毫秒之间。</span><span class="sxs-lookup"><span data-stu-id="6217c-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
 
-## <a name="example"></a><span data-ttu-id="de8ba-116">示例</span><span class="sxs-lookup"><span data-stu-id="de8ba-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6217c-116">示例</span><span class="sxs-lookup"><span data-stu-id="6217c-116">Example</span></span>
 
-```
+```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a><span data-ttu-id="de8ba-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="de8ba-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6217c-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6217c-117">See also</span></span>
 
-[<span data-ttu-id="de8ba-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span><span class="sxs-lookup"><span data-stu-id="de8ba-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[<span data-ttu-id="6217c-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span><span class="sxs-lookup"><span data-stu-id="6217c-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

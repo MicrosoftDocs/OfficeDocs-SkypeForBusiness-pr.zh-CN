@@ -10,22 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
-ms.openlocfilehash: 77aa3a621cbc1220b71782f2067c8923cad31e5f
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b2a6d0ce02e233492ac04a198c2bf2220f4de998
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775341"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003002"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="d2313-103">Skype 会议室系统会议室设置脚本</span><span class="sxs-lookup"><span data-stu-id="d2313-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="848b4-103">Skype 会议室系统会议室设置脚本</span><span class="sxs-lookup"><span data-stu-id="848b4-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="d2313-104">阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。</span><span class="sxs-lookup"><span data-stu-id="d2313-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="848b4-104">阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。</span><span class="sxs-lookup"><span data-stu-id="848b4-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="d2313-105">本部分介绍了可用于设置 Skype 会议室系统帐户的示例脚本。</span><span class="sxs-lookup"><span data-stu-id="d2313-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="d2313-106">这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。</span><span class="sxs-lookup"><span data-stu-id="d2313-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="848b4-105">本部分介绍了可用于设置 Skype 会议室系统帐户的示例脚本。</span><span class="sxs-lookup"><span data-stu-id="848b4-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="848b4-106">这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。</span><span class="sxs-lookup"><span data-stu-id="848b4-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="d2313-107">示例安装脚本： Skype for business 和 Exchange Server （内部部署）</span><span class="sxs-lookup"><span data-stu-id="d2313-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="848b4-107">示例安装脚本： Skype for business 和 Exchange Server （内部部署）</span><span class="sxs-lookup"><span data-stu-id="848b4-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
-```
+```powershell
 # On Exchange 
 Set-Mailbox -Identity confroom@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a 
 Lync Meeting to take advantage of enhanced meeting experience from LRS"
@@ -37,19 +37,19 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="d2313-108">示例安装脚本： Skype for business 和 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="d2313-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="848b4-108">示例安装脚本： Skype for business 和 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="848b4-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="d2313-109">在运行脚本之前，请务必查看以下先决条件：</span><span class="sxs-lookup"><span data-stu-id="d2313-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="848b4-109">在运行脚本之前，请务必查看以下先决条件：</span><span class="sxs-lookup"><span data-stu-id="848b4-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="d2313-110">适用于 IT 专业人员 BETA 的 Microsoft Online Services 登录助手</span><span class="sxs-lookup"><span data-stu-id="d2313-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="848b4-110">适用于 IT 专业人员 BETA 的 Microsoft Online Services 登录助手</span><span class="sxs-lookup"><span data-stu-id="848b4-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="d2313-111">用于 Windows PowerShell 的 Windows Azure Active Directory 模块（64 位版本）或（32 位版本）</span><span class="sxs-lookup"><span data-stu-id="d2313-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="848b4-111">用于 Windows PowerShell 的 Windows Azure Active Directory 模块（64 位版本）或（32 位版本）</span><span class="sxs-lookup"><span data-stu-id="848b4-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="d2313-112">用于 Lync Online 的 Windows PowerShell 模块</span><span class="sxs-lookup"><span data-stu-id="d2313-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="848b4-112">用于 Lync Online 的 Windows PowerShell 模块</span><span class="sxs-lookup"><span data-stu-id="848b4-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="d2313-113">根据需要重启</span><span class="sxs-lookup"><span data-stu-id="d2313-113">Reboot if needed</span></span>
+- <span data-ttu-id="848b4-113">根据需要重启</span><span class="sxs-lookup"><span data-stu-id="848b4-113">Reboot if needed</span></span>
     
-```
+```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
 $rm="LyncRoom"
 $org='YourTenantName.onmicrosoft.com'
