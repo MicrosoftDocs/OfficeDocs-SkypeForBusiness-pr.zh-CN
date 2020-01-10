@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211933"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005159"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -36,6 +36,7 @@ ms.locfileid: "39211933"
 - 在呼叫者保持等待时播放的音乐。
 - 使用启用邮件的通讯组列表和安全组将呼叫重定向到呼叫代理。
 - 设置不同的参数，例如队列最大大小、超时和通话处理选项。
+- 面向呼叫者的共享语音邮件为组织留下消息。
 
 您可以使用[资源帐户](manage-resource-accounts.md)将电话号码与呼叫队列相关联。 可通过自动助理上的选择直接拨打或访问呼叫队列。
 
@@ -165,9 +166,11 @@ ms.locfileid: "39211933"
 
 ### <a name="select-the-call-answering-options"></a>选择呼叫应答选项
 
-![带有编号标注的呼叫应答选项的屏幕截图](media/5d249515-d532-4af2-90da-011404028b89.png)
+![呼叫应答选项的屏幕截图](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![数字1的图标，引用上一个屏幕截图中的标注](media/sfbcallout1.png)
+若要直接添加单个代理而不将其添加到组中，请单击 "**添加用户**"。 按希望接收呼叫的顺序放置单个代理。 您最多可以添加20个单独的代理（若要添加20个以上的代理，请将它们放在一个组中）。
+
+调用首先路由到单个代理，然后路由到组中的代理。 
 
 你可以选择多达200个呼叫代理，该代理属于以下任意邮件列表或组：
 

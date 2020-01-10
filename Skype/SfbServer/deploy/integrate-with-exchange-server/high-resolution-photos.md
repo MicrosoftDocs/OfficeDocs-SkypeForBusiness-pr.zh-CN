@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 摘要：在 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和 Skype for Business 服务器中配置高分辨率照片的使用。
-ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 598490cfc80b8885a570317a7559bfc4cdd3caf5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434907"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001172"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置高分辨率照片的使用
  
@@ -36,7 +36,7 @@ ms.locfileid: "37434907"
   
 高分辨率照片（使用 Exchange Web 服务访问）可由运行 Outlook 2013 Web App 的用户上传;仅允许用户更新其自己的照片。 但是，管理员可以使用 Exchange 命令行管理器和一系列类似于以下内容的 Windows PowerShell 命令更新任何用户的照片：
   
-```
+```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
@@ -49,13 +49,13 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
   
 上载照片并不等同于将照片分配给 Ken Myer 的用户帐户。相反，上载照片只是会生成将显示在“Outlook Web App 选项”页上的照片预览。若要将照片实际分配给用户帐户，用户必须在“选项”页上单击“**保存**”或管理员必须执行本示例中的第三个命令。此第三个命令使用 Save 参数将照片分配给 Ken Myer 的用户帐户：
   
-```
+```powershell
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
 若要验证是否已将新照片分配给用户帐户，Ken Myer 可以登录到 Skype for business，选择 "**选项**"，然后选择 **"我的图片**"。 新上载的照片应显示为 Ken 的个人照片。 此外，管理员可通过启动 Internet Explorer 并导航到与以下 URL 类似的 URL 来验证任何用户的照片：
   
-```
+```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 

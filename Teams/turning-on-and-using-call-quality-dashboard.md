@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972483"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005157"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -35,11 +35,13 @@ ms.locfileid: "37972483"
   
 通话质量仪表板（CQD）可深入了解使用 Microsoft 团队和 Skype for business Online 服务进行的通话的质量。 本主题介绍了开始收集可用于解决通话质量问题的数据的步骤。
 
-目前，CQD 版本3和 CQD 版本2都可供使用。 CQD v3 可在<span>https://cqd.teams.microsoft.com</span>。 用您的 Microsoft 团队管理员凭据登录。
+目前，高级 CQD 和 CQD 都可供使用。 可在<span>https://cqd.teams.microsoft.com</span>使用高级 CQD。 新 URL，但具有管理员凭据的相同日志。
 
 ## <a name="latest-changes-and-updates"></a>最新更改和更新
 
-CQD 版本3提供接近实时的 CQD 仪表板（延迟接近30分钟），并使用最终用户可识别信息（EUII），从而使管理员能够放大到用户级别。 还提供支持新方案的报表交互，例如：
+
+更新后的 CQD （2019年11月早些时候）提供接近实时 CQD 仪表板的时间。 CQD 数据现在将在30分钟内可用（与上一个 CQD 相比，它平均为24小时）。  已更新的 CQD 使用最终用户可识别信息（EUII），使管理员能够向下钻取并放大到用户级别。 还提供支持新方案的报表交互，例如：
+
 
 - 按地区呼叫质量：
   - 按区域日期
@@ -387,11 +389,11 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
   **字段顺序：**
 
-终结点、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+终结点、EndpointMake、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **示例行：**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+"1409W3534，123制造商，Fabrikam 型号123，笔记本电脑，已指定2018笔记本电脑、资产标签5678、购买2018
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报告
 

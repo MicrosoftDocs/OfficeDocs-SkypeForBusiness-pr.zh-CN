@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 阅读本主题，了解如何为 Skype 会议室系统帐户分配会议策略。
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775365"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003542"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 会议室系统帐户的会议策略
  
@@ -71,7 +71,7 @@ Skype 会议室系统在用户使用会议加入链接加入受限会议时提�
   
 通过以下命令，管理员能够要求对所有会议进行身份验证，包括不受限制的会议在内： 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

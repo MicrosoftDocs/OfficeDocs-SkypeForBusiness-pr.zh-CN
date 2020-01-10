@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286892"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003142"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。 
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -31,32 +31,32 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例从主服务器中耗尽和卸载云连接器装置:
+下面的示例从主服务器中耗尽和卸载云连接器装置：
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
 ### <a name="example-2"></a>示例 2
 
-下一个示例将排出并强制卸载主机服务器上正在运行的云连接器装置, 即使排出过程失败:
+下一个示例将排出并强制卸载主机服务器上正在运行的云连接器装置，即使排出过程失败：
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
 ### <a name="example-3"></a>示例 3
 
-下一示例在没有用户确认的情况下卸载云连接器备份版本:
+下一示例在没有用户确认的情况下卸载云连接器备份版本：
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果你卸载的是当前运行的云连接器版本, 将首先在中介服务器和 Edge 服务器上运行排水管服务, 以便在卸载虚拟机之前, 让并发调用完成。 如果你要卸载备份版本，则不执行排出操作。
+如果你卸载的是当前运行的云连接器版本，将首先在中介服务器和 Edge 服务器上运行排水管服务，以便在卸载虚拟机之前，让并发调用完成。 如果你要卸载备份版本，则不执行排出操作。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>

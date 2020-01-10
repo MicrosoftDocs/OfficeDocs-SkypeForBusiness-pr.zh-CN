@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 创建或修改网络 interregional 路由, 这些路由由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: 6bf455236dc825023cc3c8ce94ee329a464fdde4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 创建或修改网络 interregional 路由，这些路由由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
+ms.openlocfilehash: 6d9517796b2f418c39873850ee596a5effdba4e6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233487"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001752"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建网络 interregional 路由
  
-创建或修改网络 interregional 路由, 这些路由由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
+创建或修改网络 interregional 路由，这些路由由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
   
 网络区域间路由定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域间路由。 这样部署中的每个网络区域便能够访问任何其他区域。
   
@@ -37,15 +37,15 @@ ms.locfileid: "36233487"
     
 2. 运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。 例如，运行：
     
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
    ```
 

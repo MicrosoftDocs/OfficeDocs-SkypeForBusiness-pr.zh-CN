@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 将 Skype for Business Cloud Connector Edition 配置从本地文件导入到云连接器主机服务器。
-ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287277"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003332"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
 将 Skype for Business Cloud Connector Edition 配置从本地文件导入到云连接器主机服务器。
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
@@ -31,9 +31,9 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例将 CloudConnector 从云连接器实例的装置目录复制到%SystemDrive%\ProgramData\CloudConnector 目录:
+下面的示例将 CloudConnector 从云连接器实例的装置目录复制到%SystemDrive%\ProgramData\CloudConnector 目录：
   
-```
+```powershell
 Import-CcConfiguration
 ```
 
@@ -47,7 +47,7 @@ Import-CcConfiguration
 
 |**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |在%SystemDrive%\ProgramData\CloudConnector 中覆盖现有文件, 但不发出通知。  <br/> |
+|Force  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |在%SystemDrive%\ProgramData\CloudConnector 中覆盖现有文件，但不发出通知。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="Examples"> </a>

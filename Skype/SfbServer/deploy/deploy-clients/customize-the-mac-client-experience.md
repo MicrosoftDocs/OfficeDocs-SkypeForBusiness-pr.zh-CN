@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍 Mac 客户端上对 Skype for Business 可用的客户端首选项和默认值，以及如何在应用外部对其进行编辑。
-ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 582c9a1b12cf6dd687eff5fe0cb829e1aca98df7
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271276"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002652"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
  
@@ -23,11 +23,11 @@ ms.locfileid: "36271276"
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 客户端上的 Skype for Business 首选项设置
 
-适用于 Mac 客户端的 Skype for business 的某些功能和行为由客户端上的首选项设置确定。 Mac 上的 Skype for Business 首选项位于已安装 Skype for Business 客户端的文件中, 该文件位于以下路径中: 
+适用于 Mac 客户端的 Skype for business 的某些功能和行为由客户端上的首选项设置确定。 Mac 上的 Skype for Business 首选项位于已安装 Skype for Business 客户端的文件中，该文件位于以下路径中： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-若要设置这些首选项, 请转到客户端 Mac 上的终端提示, 并根据需要使用下表中所述的首选项输入 SkypeForBusiness 键命令。
+若要设置这些首选项，请转到客户端 Mac 上的终端提示，并根据需要使用下表中所述的首选项输入 SkypeForBusiness 键命令。
   
 **客户端首选项关键字**
 
@@ -43,13 +43,13 @@ ms.locfileid: "36271276"
 |trustedDomainList    |数组    ||HTTP 重定向的受信任域列表。    |
 |autoAcceptTimeout    |数字    |300（默认值）    |无服务器端对话历史记录时，用户的自动接受超时时间。    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
-|sipAddress    |String    ||用于登录 Skype for Business 的 SIP 地址 (电子邮件)。    |
-|userName    |字符串    ||用于登录 Skype for Business 的 UPN (用户名)。    |
-|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕上和 "高级属性" 对话框中显示 "用户名" 字段  <br/> 1 = 仅显示 "高级属性" 对话框中的 "用户名" 字段 (默认值)    |指定登录期间 "用户名" 字段的显示位置。    |
+|sipAddress    |String    ||用于登录 Skype for Business 的 SIP 地址（电子邮件）。    |
+|userName    |字符串    ||用于登录 Skype for Business 的 UPN （用户名）。    |
+|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕上和 "高级属性" 对话框中显示 "用户名" 字段  <br/> 1 = 仅显示 "高级属性" 对话框中的 "用户名" 字段（默认值）    |指定登录期间 "用户名" 字段的显示位置。    |
    
 ### <a name="usage-examples"></a>使用示例
 
-若要向受信任域列表添加单个域 (Contoso.com), 请使用 trustedDomainList 键, 如下所示:
+若要向受信任域列表添加单个域（Contoso.com），请使用 trustedDomainList 键，如下所示：
   
 默认值 write SkypeForBusiness trustedDomainList-add "Contoso.com"
   
@@ -61,7 +61,7 @@ ms.locfileid: "36271276"
 
 如需参考，此处是仅使用默认设置的设置文件示例： 
   
-```
+```console
 {
     BITApplicationDidEnterBackgroundTime = "1496164840.505589";
     BITApplicationWasLaunched = 1;

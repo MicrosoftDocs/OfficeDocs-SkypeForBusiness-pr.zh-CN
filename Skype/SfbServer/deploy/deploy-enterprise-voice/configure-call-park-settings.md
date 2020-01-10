@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 在 Skype for Business Server Enterprise Voice 中修改呼叫寄存设置。
-ms.openlocfilehash: df7334734784a773abd1df66a7544c3141a9aec9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5ce9d15c4d233e620c5eb12c18688b5df958defb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233705"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001362"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>在 Skype for Business 中配置呼叫寄存设置
 
 在 Skype for Business Server Enterprise Voice 中修改呼叫寄存设置。
 
-如果您不想使用默认呼叫寄存设置, 您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时, 默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
+如果您不想使用默认呼叫寄存设置，您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时，默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
 > [!NOTE]
 > 寄存呼叫超时且回拨失败时，我们建议您至少为要使用的回退目标配置 **OnTimeoutURI** 选项。
@@ -38,7 +38,7 @@ ms.locfileid: "36233705"
 | **CallPickupTimeoutThreshold** <br/> | 呼叫寄存后到回拨此前应答呼叫的电话之前等待的时间。  <br/> 该值必须采用 hh:mm:ss 的格式输入，以便指定小时数、分钟数和秒数。最小值为 10 秒，最大值为 10 分钟。默认值为 00:01:30。  <br/> |
 | **EnableMusicOnHold** <br/>          | 寄存呼叫时是否向呼叫者播放音乐。  <br/> 值为 True 或 False。默认值为 True。  <br/>                                                                                                                                                                                                                 |
 | **MaxCallPickupAttempts** <br/>      | 在将寄存呼叫转接到为 **OnTimeoutURI** 指定的回退统一资源标识符 (URI) 之前该寄存呼叫回拨应答电话的次数。默认值为 1。<br/>                                                                                                                         |
-| **OnTimeoutURI** <br/>               | 当超过**MaxCallPickupAttempts**时, 未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。 <br/> 值必须是以字符串 sip 开头的 SIP URI:。 例如, sip:bob@contoso.com。 默认为无转发地址。  <br/>                                                   |
+| **OnTimeoutURI** <br/>               | 当超过**MaxCallPickupAttempts**时，未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。 <br/> 值必须是以字符串 sip 开头的 SIP URI：。 例如，sip:bob@contoso.com。 默认为无转发地址。  <br/>                                                   |
 
 ### <a name="to-configure-call-park-settings"></a>配置呼叫寄存设置
 
@@ -46,16 +46,16 @@ ms.locfileid: "36233705"
 
 2. 运行：
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > 使用**CsSite** cmdlet 标识该网站。 有关详细信息, 请参阅 Skype for Business 服务器管理外壳文档。
+   > 使用**CsSite** cmdlet 标识该网站。 有关详细信息，请参阅 Skype for Business 服务器管理外壳文档。
 
     例如：
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。
-ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038701"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001302"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置位置数据库
  
@@ -56,52 +56,52 @@ ms.locfileid: "38038701"
 
 1. 运行以下 cmdlet，以将子网位置添加到位置数据库。
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     对于 ELIN 网关，将 ELIN 放在 CompanyName 字段中。可以包括多个 ELIN。例如：
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     另外，可以运行以下 cmdlet，并使用名为“subnets.csv”的文件批量更新子网位置。
     
-   ```
+   ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
 2. 运行以下 cmdlet，以将无线位置添加到位置数据库。
     
-   ```
+   ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
    另外，可以运行以下 cmdlet，并使用名为“waps.csv”的 文件批量更新无线位置。
     
-   ```
+   ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
 3. 运行以下 cmdlet，以将交换机位置添加到位置数据库。
     
-   ```
+   ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    另外，可以运行以下 cmdlet，并使用名为“switches.csv”的文件批量更新交换机位置。
     
-   ```
+   ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
 4. 运行以下 cmdlet，以将端口位置添加到位置数据库
     
-   ```
+   ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
@@ -109,7 +109,7 @@ ms.locfileid: "38038701"
     
    另外，可以运行以下 cmdlet，并使用名为“ports.csv”的文件批量更新端口位置。
     
-   ```
+   ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
@@ -122,14 +122,14 @@ ms.locfileid: "38038701"
     
 2. 运行以下 cmdlet 配置紧急服务提供商连接。
     
-   ```
+   ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
 3. 运行以下 cmdlet 验证位置数据库中的地址。
     
-   ```
+   ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
@@ -147,7 +147,7 @@ ms.locfileid: "38038701"
     
 - 运行以下 cmdlet 发布位置数据库。
     
-  ```
+  ```powershell
   Publish-CsLisConfiguration
   ```
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070239"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005161"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -162,6 +162,11 @@ ms.locfileid: "40070239"
   > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。
 
   - **语音应用**选择已设置的自动助理或呼叫队列。 按与服务关联的资源帐户的名称搜索自动助理或呼叫队列。
+  - **语音邮件**选择代表你组织中需要访问此语音邮件的用户的 Office 365 组。 您也可以在这里打开语音邮件设备。 需要 Office 365 组。
+
+  > [!NOTE]
+> 从该自动助理语音邮件帐户发送给用户的语音消息无法在团队中访问。 他们将获得电子邮件。
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ ms.locfileid: "40070239"
 - **运算符**如果已设置操作员，则该选项将自动映射到 key 0，但也可以删除或重新分配给其他密钥。 选择此选项的呼叫者将被发送到指定的操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。 
 - **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 用户必须具有在 Office 365 中启用企业语音或已分配呼叫计划的电话系统许可证。 在 "**按名称搜索**" 字段中搜索人员。
 
-  - **语音应用**选择已设置的自动助理或呼叫队列。 按与应用程序关联的资源帐户的名称搜索自动助理或呼叫队列。
+- **语音应用**选择已设置的自动助理或呼叫队列。 按与应用程序关联的资源帐户的名称搜索自动助理或呼叫队列。
+
+- **语音邮件**选择代表你组织中需要访问此语音邮件的用户的 Office 365 组。 您也可以在这里打开语音邮件设备。 需要 Office 365 组。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

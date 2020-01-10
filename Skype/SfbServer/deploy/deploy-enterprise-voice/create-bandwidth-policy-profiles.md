@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: 创建或修改带宽策略, 这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: 31bd61703fb652844b408c0a92c05fa1a29c7d5d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 创建或修改带宽策略，这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
+ms.openlocfilehash: 86ab5d7fc7ae46223118250626d12107c35b9ef8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233501"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001762"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建带宽策略配置文件 
  
-创建或修改带宽策略, 这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
+创建或修改带宽策略，这些策略由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
   
-“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略被应用 tobandwidth 策略配置文件, 这些配置文件可应用于多个网络网站, 用于呼叫许可控制。
+“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略被应用 tobandwidth 策略配置文件，这些配置文件可应用于多个网络网站，用于呼叫许可控制。
   
-有关应在 CAC 部署中设置哪些带宽限制的指南, 请参阅[在 Skype For Business 服务器中计划呼叫许可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅[在 Skype For Business 服务器中计划呼叫许可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   
@@ -48,19 +48,19 @@ ms.locfileid: "36233501"
     
 2. 对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。 例如，运行：
     
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 

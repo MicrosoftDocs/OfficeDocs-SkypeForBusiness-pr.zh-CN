@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 阅读本主题，了解如何在单林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775259"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002942"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 会议室系统单林本地部署
  
@@ -31,13 +31,13 @@ ms.locfileid: "36775259"
   
 1. 运行以下 Exchange 管理 PowerShell 命令：
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. 如果你计划创建新邮箱，对于单林本地 Exchange 组织，请运行以下命令：
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ ms.locfileid: "36775259"
     
 3. 请将帐户配置为通过接受/拒绝会议来自动解决冲突。 Skype 会议室系统-在 Exchange 中配备的会议室帐户可以由个人管理，但请注意，在个人接受会议之前，它不会显示在 Skype 会议室系统主屏幕日历中。
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ ms.locfileid: "36775259"
     
    若要提醒会议组织者在 Outlook 中使会议成为联机 Skype for Business 会议，请运行以下命令以设置新帐户的邮件提醒： 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. 请使用以下命令配置本地化字符串。 如果你的组织要求，你还可以添加自定义转换： 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ ms.locfileid: "36775259"
 
 5. 可选：配置会议接受文本，向用户提供有关 Skype for Business 会议室的信息，以及他们安排和加入会议时预期的内容。 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "36775259"
   
 1. 在 Active Directory 中，运行以下命令来启用帐户登录： 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ ms.locfileid: "36775259"
     
 2. 在设置密码后，请运行以下命令来启用帐户： 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,13 +100,13 @@ ms.locfileid: "36775259"
   
 1. 运行以下命令，在 Skype for business 服务器池中启用 Skype 会议室系统帐户：
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. 可选：通过为帐户启用企业语音来允许此帐户拨打和接听 PSTN 电话呼叫。 Skype 会议室系统不需要企业语音，但是如果不为企业语音启用企业语音，则 Skype 会议室系统客户端将无法提供 PSTN 拨号功能：
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```

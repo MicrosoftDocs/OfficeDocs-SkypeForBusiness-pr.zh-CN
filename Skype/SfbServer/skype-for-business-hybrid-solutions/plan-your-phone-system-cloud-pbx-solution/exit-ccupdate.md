@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: Exit-CcUpdate cmdlet 用于在 Skype for Business 云连接器版本主机服务器上退出更新维护模式。
-ms.openlocfilehash: b3558a81e1d4bc6c833cca157c2b31f2f252b595
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f79023c50e951e6678abdccc29b12cb30a329dfc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287424"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003442"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
@@ -24,7 +24,7 @@ Exit-CcUpdate cmdlet 用于在 Skype for Business 云连接器版本主机服务
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 以下命令将运行它的设备恢复到生产模式： 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 

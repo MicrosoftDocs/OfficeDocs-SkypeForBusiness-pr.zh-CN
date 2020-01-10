@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: 在 Skype for business Server 企业版中, 在响应组中创建或修改代理组。
-ms.openlocfilehash: 09a49acfe1fe86ffa3c1bce3d6ed889c8666a7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在 Skype for business Server 企业版中，在响应组中创建或修改代理组。
+ms.openlocfilehash: a919c1a25f3f4aa5a2d8648d782ea329f1e70d60
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233324"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001682"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在 Skype for Business 中创建或修改代理组
  
-在 Skype for business Server 企业版中, 在响应组中创建或修改代理组。
+在 Skype for business Server 企业版中，在响应组中创建或修改代理组。
   
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。 
   
-必须登录和注销组 (不同于登录或注销 Skype for Business) 的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项来登录和注销其组, 打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
+必须登录和注销组（不同于登录或注销 Skype for Business）的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项来登录和注销其组，打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
   
-不登录到组或从组注销的代理称为 非正式代理。 当用户登录到 Skype for Business 时, 非正式代理会自动登录到该组, 并且不能注销该组。
+不登录到组或从组注销的代理称为 非正式代理。 当用户登录到 Skype for Business 时，非正式代理会自动登录到该组，并且不能注销该组。
   
-仅本地用户可成为代理。 如果代理从本地移动到联机, 则响应组调用将不会路由到该代理。
+仅本地用户可成为代理。 如果代理从本地移动到联机，则响应组调用将不会路由到该代理。
   
 使用下列过程之一可创建或修改代理组。
   
@@ -45,7 +45,7 @@ ms.locfileid: "36233324"
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可创建组并在管理的工作流中使用这些组。 
   
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。  
     
 3. 在左侧导航栏中，单击“响应组”****，然后单击“组”****。
     
@@ -61,9 +61,9 @@ ms.locfileid: "36233324"
     
 7. 在“参与策略”**** 中，选择下列操作之一，从而设置组的登录行为：
     
-   - 选择“非正式”**** 指定组中的代理无需登录组和从组中注销。 当代理登录到 Skype for Business 时, 会自动登录到该组。
+   - 选择“非正式”**** 指定组中的代理无需登录组和从组中注销。 当代理登录到 Skype for Business 时，会自动登录到该组。
     
-   - 选择“正式”**** 指定组中的代理必须登录到组和从组中注销。 选择此选项时, 代理将单击 Skype for Business 中的菜单项以打开 Internet Explorer, 并显示用于登录和注销组的网页控制台。
+   - 选择“正式”**** 指定组中的代理必须登录到组和从组中注销。 选择此选项时，代理将单击 Skype for Business 中的菜单项以打开 Internet Explorer，并显示用于登录和注销组的网页控制台。
     
 8. 在“警报时间(秒)”**** 中，指定将呼叫转至下一个空闲的代理之前，向某位代理响铃的秒数（默认为 20 秒）。
     
@@ -72,7 +72,7 @@ ms.locfileid: "36233324"
   
 9. 在“路由方法”**** 中，选择将呼叫路由至组中代理的方法，具体如下：
     
-   - 若要首先向已闲置时间最长的工程师 (在 Skype for Business 中有最长的**可用**或**非活动**状态) 提供新呼叫, 请单击 "**最长空闲**"。 
+   - 若要首先向已闲置时间最长的工程师（在 Skype for Business 中有最长的**可用**或**非活动**状态）提供新呼叫，请单击 "**最长空闲**"。 
     
    - 若要将新呼叫同时路由至所有空闲的代理，请单击“并行”****。呼叫将发往第一个接受该呼叫的代理。
     
@@ -80,7 +80,7 @@ ms.locfileid: "36233324"
     
    - 若要将新呼叫始终按照“代理”**** 列表中代理的排列顺序路由至代理，请单击“串行”****。 
     
-   - 若要为所有登录到 Skype for Business 和响应组应用程序的代理提供新的呼叫, 而不考虑其当前状态, 请单击 "**助理**"。 配置为代理的用户可查看所有正在等待的呼叫，并可以按任意顺序应答等待中的呼叫。 呼叫将发往第一个接受该呼叫的代理，之后，其他代理不会再看到此呼叫。
+   - 若要为所有登录到 Skype for Business 和响应组应用程序的代理提供新的呼叫，而不考虑其当前状态，请单击 "**助理**"。 配置为代理的用户可查看所有正在等待的呼叫，并可以按任意顺序应答等待中的呼叫。 呼叫将发往第一个接受该呼叫的代理，之后，其他代理不会再看到此呼叫。
     
 10. 在“代理”**** 中，指定创建代理列表要采用的方式：
     
@@ -105,13 +105,13 @@ ms.locfileid: "36233324"
       - 如果通讯组列表包含已启用 Lync Server 2010 但未启用企业语音的用户，它们将作为不正常的代理添加到代理组。确保通信组列表的所有成员已为其用户帐户启用企业语音。
     
     > [!IMPORTANT]
-    > 如果您使用电子邮件通讯组列表, 响应组管理员或用户可能会看到隐藏的成员身份或隐藏的列表。 
+    > 如果您使用电子邮件通讯组列表，响应组管理员或用户可能会看到隐藏的成员身份或隐藏的列表。 
   
     在下列情况中，可以看见隐藏成员身份或隐藏列表：
     
-     - 如果配置了通讯组列表以使成员身份处于隐藏状态, 并且响应组管理员将通讯组列表分配给代理列表, 则用户可以调用该组以查明成员的成员。 
+     - 如果配置了通讯组列表以使成员身份处于隐藏状态，并且响应组管理员将通讯组列表分配给代理列表，则用户可以调用该组以查明成员的成员。 
     
-     - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏, 则响应组管理员可能能够查看通讯组列表并将其分配给代理列表 (如果响应组进程具有相应的用户权限), 并且权限, 即使管理员没有相应的用户权利和权限也是如此。
+     - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可能能够查看通讯组列表并将其分配给代理列表（如果响应组进程具有相应的用户权限），并且权限，即使管理员没有相应的用户权利和权限也是如此。
     
 11. 单击“**提交**”。
     
@@ -123,13 +123,13 @@ ms.locfileid: "36233324"
     
 3. 使用  **New-CsRgsAgentGroup** 可创建新代理组。 使用  **Set-CsRgsAgentGroup** 可修改现有代理组。 在命令行中运行：
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     例如：
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -138,7 +138,7 @@ ms.locfileid: "36233324"
   
 4. 确认是否已创建代理组。运行：
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

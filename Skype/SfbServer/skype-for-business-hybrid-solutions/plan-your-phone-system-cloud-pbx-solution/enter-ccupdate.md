@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 本装置将立即停止所有服务、停止任何正在进行的呼叫，并拒绝任何新呼叫。
-ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34740056"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003452"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
 CcUpdate cmdlet 通过将其置于维护模式来为更新过程准备 Skype for business 云连接器 Edition 主机服务器。 本装置将立即停止所有服务、停止任何正在进行的呼叫，并拒绝任何新呼叫。
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
@@ -37,7 +37,7 @@ Enter-CcUpdate
 
 以下示例通过进入维护模式来为更新过程准备设备：
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 

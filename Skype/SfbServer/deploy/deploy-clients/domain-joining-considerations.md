@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774660"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003512"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  
@@ -53,7 +53,7 @@ ms.locfileid: "36774660"
     
 如果你计划将 Skype 会议室系统计算机加入到域，以避免将 Skype 会议室系统计算机从无意中加入非有意的 OU （这可能并非来自 Gpo），请确保加入正确的 OU。 你可以使用 Skype 会议室系统计算机中的以下 cmdlet 加入正确的 OU，并且不会收到可能会阻止 LRS 功能的 Gpo。 请联系你的系统管理员或 OEM 合作伙伴以运行这些 cmdlet：
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: 'Update-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 '
-ms.openlocfilehash: e32b910d07aa4f2370af72d0a04bb939b80b3034
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15be5d4518d7e375b4804ed2d9f22bd35a45ca7e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286843"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003122"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
 Update-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。  
   
-```
+```powershell
 Update-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Update-CcCACertificate
 
 以下示例续订根 CA 证书： 
   
-```
+```powershell
 Update-CcCACertificate 
 ```
 

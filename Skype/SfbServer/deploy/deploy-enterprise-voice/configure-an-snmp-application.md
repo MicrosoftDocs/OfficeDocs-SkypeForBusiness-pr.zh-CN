@@ -14,20 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。
-ms.openlocfilehash: 2462c7af4473f8c29cf0e068ddc86b391d7e1df2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5941a7fee85b486577df4c79848274528ddab952
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233719"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001372"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置 SNMP 应用程序
  
 在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。 
   
-Skype for Business 服务器包括一个标准的 web 服务接口, 可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议 (SNMP) 应用程序。 
+Skype for Business 服务器包括一个标准的 web 服务接口，可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议（SNMP）应用程序。 
   
-如果已安装 SNMP 应用程序, 并且位置信息服务无法在位置数据库中找到匹配项, 则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后, 位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
+如果已安装 SNMP 应用程序，并且位置信息服务无法在位置数据库中找到匹配项，则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后，位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
   
 > [!NOTE]
 > MAC 地址在运行 Windows 8 的计算机上不可用。 
@@ -38,7 +38,7 @@ Skype for Business 服务器包括一个标准的 web 服务接口, 可用于将
     
 2. 运行以下 cmdlet 为 SNMP 应用程序配置 URL。 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 

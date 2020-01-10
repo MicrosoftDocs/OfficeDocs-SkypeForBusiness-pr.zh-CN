@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: '摘要: 在 Skype for Business 服务器中配置视频互操作服务器 (VIS) 角色。'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：在 Skype for Business 服务器中配置视频互操作服务器（VIS）角色。
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235678"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003052"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置视频互操作服务器
  
-**摘要:** 在 Skype for Business 服务器中配置视频互操作服务器 (VIS) 角色。
+**摘要：** 在 Skype for Business 服务器中配置视频互操作服务器（VIS）角色。
   
  配置 VIS 将与使用 Windows PowerShell 的视频中继关联的设置。 安装 VIS 服务后，将创建全局范围的视频中继配置。 如果中继的视频中继配置不具有更加具体的范围，VIS 将对其应用此视频中继配置。 请注意，视频中继配置是一组适用于视频中继的设置。
   
@@ -32,33 +32,33 @@ ms.locfileid: "36235678"
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>使用 Windows PowerShell 配置 VIS
 
-1. 使用以下 Windows PowerShell cmdlet 在 VIS 和 Cisco 统一通信管理器 (CallManager 或 CUCM) 之间的主干上创建新的视频中继配置 (设置的集合):
+1. 使用以下 Windows PowerShell cmdlet 在 VIS 和 Cisco 统一通信管理器（CallManager 或 CUCM）之间的主干上创建新的视频中继配置（设置的集合）：
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    如果存在需要修改的现有视频主干, 请使用以下 Windows PowerShell cmdlet:
+    如果存在需要修改的现有视频主干，请使用以下 Windows PowerShell cmdlet：
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
-    若要查看与特定视频中继配置相关联的设置, 请使用以下 Windows PowerShell cmdlet:
+    若要查看与特定视频中继配置相关联的设置，请使用以下 Windows PowerShell cmdlet：
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    若要删除特定的视频中继配置, 请使用以下 Windows PowerShell cmdlet (请注意, 如果特定主干的视频中继配置更明确), 将应用全局范围的视频干线配置:
+    若要删除特定的视频中继配置，请使用以下 Windows PowerShell cmdlet （请注意，如果特定主干的视频中继配置更明确），将应用全局范围的视频干线配置：
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. 使用以下 Windows PowerShell cmdlet 建立与主干相关联的拨号计划:
+2. 使用以下 Windows PowerShell cmdlet 建立与主干相关联的拨号计划：
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"
@@ -69,20 +69,20 @@ ms.locfileid: "36235678"
 > [!NOTE]
 > [Remove-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-csdialplan?view=skype-ps)可用于删除拨号计划。
   
-对于来自视频网关的视频 SIP 中继呼叫, 其请求 URI 包含非 e. 164 个号码, VIS 将读取与关联主干相关联的拨号计划的名称, 并将拨号计划名称包含在邀请中的请求 URI 的电话上下文部分中, 这是 VIS 发送到前端。 然后前端的转换应用程序会提取与拨号计划关联的规范化规则并将其应用于请求 URI。
+对于来自视频网关的视频 SIP 中继呼叫，其请求 URI 包含非 e. 164 个号码，VIS 将读取与关联主干相关联的拨号计划的名称，并将拨号计划名称包含在邀请中的请求 URI 的电话上下文部分中，这是 VIS 发送到前端。 然后前端的转换应用程序会提取与拨号计划关联的规范化规则并将其应用于请求 URI。
 ## <a name="trunk-configuration-options"></a>中继配置选项
 
 以前提到的视频干线配置的 Windows PowerShell cmdlet 是 Skype for business Server 2015 的新增。 需要对与视频中继配置关联的设置进行简要说明。
   
- **GatewaySendsRtcpForActiveCalls**此参数确定是否将 RTCP 数据包从 VTC 发送到 VIS, 以进行活动呼叫。 此情况下的活动呼叫是指允许媒体沿至少一个方向流动的呼叫。 如果 GatewaySendsRtcpForActiveCalls 设置为 True, 则 VIS 可以在超过30秒的时间段内收到 RTCP 数据包时终止呼叫。 默认值为**True**。
+ **GatewaySendsRtcpForActiveCalls**此参数确定是否将 RTCP 数据包从 VTC 发送到 VIS，以进行活动呼叫。 此情况下的活动呼叫是指允许媒体沿至少一个方向流动的呼叫。 如果 GatewaySendsRtcpForActiveCalls 设置为 True，则 VIS 可以在超过30秒的时间段内收到 RTCP 数据包时终止呼叫。 默认值为**True**。
   
- **GatewaySendsRtcpForCallsOnHold**此参数确定 RTCP 数据包是否会继续在主干上发送, 以便呼叫已置于保持状态, 没有任何媒体数据包预期的方向。 如果通话处于暂停状态, 则 VIS 可以终止呼叫 (如果没有 RTCP 数据包从 VTC 流向 VIS。 默认值为**True**。 当 SIPTransport 协议设置为 TCP 时, 将忽略此设置。
+ **GatewaySendsRtcpForCallsOnHold**此参数确定 RTCP 数据包是否会继续在主干上发送，以便呼叫已置于保持状态，没有任何媒体数据包预期的方向。 如果通话处于暂停状态，则 VIS 可以终止呼叫（如果没有 RTCP 数据包从 VTC 流向 VIS。 默认值为**True**。 当 SIPTransport 协议设置为 TCP 时，将忽略此设置。
   
- **EnableMediaEncryptionForSipOverTls**当 SIPTransport 协议设置为 TLS 时, 此参数启用或禁用媒体的 SRTP。 默认值为**True**。 当 SIPTransport 协议设置为 TCP 时, 将忽略此设置。
+ **EnableMediaEncryptionForSipOverTls**当 SIPTransport 协议设置为 TLS 时，此参数启用或禁用媒体的 SRTP。 默认值为**True**。 当 SIPTransport 协议设置为 TCP 时，将忽略此设置。
   
  **EnableSessionTimer**此参数为与视频 SIP 主干相关联的每个 SIP 对话框启用或禁用 VIS 端的会话计时器。 默认值为**False**。
   
- **ForwardErrorCorrectionType**此参数用于确定视频流的转发纠错 (FEC) 是否将应用于视频互操作服务器和视频网关之间的腿。 将 ForwardErrorCorrectionType 设置为 "None" 将关闭 VIS 和视频网关/VTC 之间的 FEC。 将 ForwardErrorCorrectionType 设置为 "Cisco" 可支持 Cisco 的 FEC 兼容视频网关, 如 Cisco 统一通信管理器 (CUCM)。 默认值为 "**无**"。
+ **ForwardErrorCorrectionType**此参数用于确定视频流的转发纠错（FEC）是否将应用于视频互操作服务器和视频网关之间的腿。 将 ForwardErrorCorrectionType 设置为 "None" 将关闭 VIS 和视频网关/VTC 之间的 FEC。 将 ForwardErrorCorrectionType 设置为 "Cisco" 可支持 Cisco 的 FEC 兼容视频网关，如 Cisco 统一通信管理器（CUCM）。 默认值为 "**无**"。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: 了解如何配置云连接器与 Office 365 租户的集成。
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508807"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002852"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -69,7 +69,7 @@ Skype for Business Cloud Connector Edition 安装完成后，执行本节中的�
   
 此 cmdlet 会设置访问边缘外部 FQDN。 在第一个命令中， \<外部访问边缘 FQDN 应该是\> SIP 访问边缘角色的 FQDN。 默认情况下，此名称\<\>应为 "ap"。
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 - 为你的用户分配策略，并配置用户的商业语音电话号码，使用**Identity**参数的值指定该电话号码：
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 然后，可以使用以下脚本验证是否已添加并启用用户：
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ $user.VoicePolicy
   
 要按用户禁用国际呼叫，请在 Skype for Business Online PowerShell 中运行以下 cmdlet：
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
 
 使用租户远程 PowerShell 向用户分配站点，即使只部署了一个站点也需要执行此操作。 若要了解如何建立远程 PowerShell 会话，请参阅：[设置适用于 Windows PowerShell 的计算机](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     将 Cloud Connector （.ini 文件中的第一个 SIP 域）的默认 SIP 域用作用户域。
     
     请注意，仅当用户传播到 Skype for Business online 目录中时，才需要许可证分配。 将 Office 365 许可证（如 E5）分配给你创建的帐户，允许更改传播的时间最多为1个小时，请通过运行以下 cmdlet 验证用户帐户是否已正确设置到 Skype for business online 目录中，然后删除此帐户的许可证。
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. 使用全局或用户管理员凭据启动租户 Azure AD 远程 PowerShell 会话，然后运行以下 cmdlet 以将步骤1中配置的 Azure AD 用户帐户的部门设置为 "HybridMediationServer"：
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 使用 Skype for business 租户管理员凭据启动租户 Skype for business 远程 PowerShell 会话，然后运行以下 cmdlet，将中介服务器和 Edge 服务器 FQDN 设置为该用户帐户，替换\<DisplayName\>对于您在步骤1中创建的帐户，使用用户的显示名称：
+3. 使用您的 Skype for business 租户管理员凭据启动租户 Skype for business 远程 PowerShell 会话，然后运行以下 cmdlet，将中介服务器和 Edge 服务器 FQDN 设置为该用户帐户，将显示名称\<替换\>为您在步骤1中创建的帐户的显示名称：
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

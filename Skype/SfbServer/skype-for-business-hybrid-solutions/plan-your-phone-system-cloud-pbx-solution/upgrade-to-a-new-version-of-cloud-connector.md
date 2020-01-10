@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级你的云连接器版本部署。
-ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286625"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002042"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
@@ -27,7 +27,7 @@ ms.locfileid: "34286625"
   
 如果已设置联机管理租户帐户并启用自动更新，则现有 Skype for Business 云连接器版本的部署将根据你的自动更新时间窗口配置自动升级到较新版本。你也可以执行手动升级。 
   
-云连接器版本1.4.1 和更高版本在默认情况下会执行自动更新。 如果要手动升级到最新版本 (2.1), 请参阅本主题后面的[将单个网站升级到新版本](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)。
+云连接器版本1.4.1 和更高版本在默认情况下会执行自动更新。 如果要手动升级到最新版本（2.1），请参阅本主题后面的[将单个网站升级到新版本](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)。
   
 自动更新要求云连接器服务正在运行。 以下步骤介绍了自动更新过程：
   
@@ -37,13 +37,13 @@ ms.locfileid: "34286625"
     
   - 检查并下载所有云连接器 Vm 的操作系统更新。 
     
-  - 逐个安装和更新所有云连接器 Vm, 然后重新启动。
+  - 逐个安装和更新所有云连接器 Vm，然后重新启动。
     
-  - 重新启动云连接器 Vm 后, 请检查是否需要重启其他重启。
+  - 重新启动云连接器 Vm 后，请检查是否需要重启其他重启。
     
-  - 成功修补云连接器 Vm 后, 请为云连接器主机计算机重复此过程。
+  - 成功修补云连接器 Vm 后，请为云连接器主机计算机重复此过程。
     
-  - 成功启动云连接器主机后, 将完成任何未完成的操作系统更新任务。
+  - 成功启动云连接器主机后，将完成任何未完成的操作系统更新任务。
     
 - 云连接器更新任务
     
@@ -62,7 +62,7 @@ ms.locfileid: "34286625"
   - 排出旧设备，并将网络连接切换到新设备。
     
 > [!NOTE]
->  当云连接器更新到新版本时, 可能不会更新云连接器 cmdlet。 例如, 如果在自动更新发生时 PowerShell 窗口保持打开, 则可能会发生这种情况。 若要加载更新的 cmdlet, 你可以执行以下任一步骤: > 在云连接器设备上关闭 PowerShell, 然后重新打开 > 或, 你可以运行导入模块 CloudConnector-Force。
+>  当云连接器更新到新版本时，可能不会更新云连接器 cmdlet。 例如，如果在自动更新发生时 PowerShell 窗口保持打开，则可能会发生这种情况。 若要加载更新的 cmdlet，你可以执行以下任一步骤： > 在云连接器设备上关闭 PowerShell，然后重新打开 PowerShell。 > 或者，你可以运行 Import-Module CloudConnector-Force。
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>将单个站点升级到新版本
 <a name="BKMK_Upgrade"> </a>
@@ -73,37 +73,37 @@ ms.locfileid: "34286625"
     
 2. 从[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)安装 CloudConnector 的新版本。
     
-3. 请确认你具有要安装的版本对应的 CloudConnector.ini 文件，并且已更新环境所需的所有值。 不能使用上一个版本中的 .ini 文件。 如果你要升级云连接器, 请参阅主题[准备云连接器设备](prepare-your-cloud-connector-appliance.md), 确保 SiteName 和 EnableReferSupport 在 CloudConnector 文件中设置为正确的值。
+3. 请确认你具有要安装的版本对应的 CloudConnector.ini 文件，并且已更新环境所需的所有值。 不能使用上一个版本中的 .ini 文件。 如果你要升级云连接器，请参阅主题[准备云连接器设备](prepare-your-cloud-connector-appliance.md)，确保 SiteName 和 EnableReferSupport 在 CloudConnector 文件中设置为正确的值。
     
 4. 以管理员身份启动 PowerShell 控制台，然后运行以下 cmdlet 以注册当前设备：
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. 运行以下 cmdlet 以下载最新版本：
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. 运行以下 cmdlet 以开始安装： 
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. 运行以下 cmdlet 以激活新部署并禁用上一版本：
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
 如果站点中有多个设备，请按照上述步骤逐个升级各设备。
   
-如果你想要更新域管理员、虚拟机管理员、安全模式管理员和租户管理员凭据, 你可以通过_UpdateAllCredentials_参数运行 cmdlet 来重置所有凭据:
+如果你想要更新域管理员、虚拟机管理员、安全模式管理员和租户管理员凭据，你可以通过_UpdateAllCredentials_参数运行 cmdlet 来重置所有凭据：
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -111,7 +111,7 @@ Install-CcAppliance -UpdateAllCredentials
   
 如果只想重置租户管理员凭据，请运行以下 cmdlet：
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

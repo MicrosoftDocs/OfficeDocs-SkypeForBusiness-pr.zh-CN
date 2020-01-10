@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: 若要让用户在 Office 365 (云 PBX) 中使用电话系统, 必须首先启用企业语音, 并为其分配电话号码。 你可以使用本地部署执行此操作, 同时用户仍托管在本地部署中。
-ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要让用户在 Office 365 （云 PBX）中使用电话系统，必须首先启用企业语音，并为其分配电话号码。 你可以使用本地部署执行此操作，同时用户仍托管在本地部署中。
+ms.openlocfilehash: 8bf8720896aa8115cb24d3b632b4ae576f466bcc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287508"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003472"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>为企业内部部署的用户启用企业语音
  
-若要让用户在 Office 365 (云 PBX) 中使用电话系统, 必须首先启用企业语音, 并为其分配电话号码。 你可以使用本地部署执行此操作, 同时用户仍托管在本地部署中。
+若要让用户在 Office 365 （云 PBX）中使用电话系统，必须首先启用企业语音，并为其分配电话号码。 你可以使用本地部署执行此操作，同时用户仍托管在本地部署中。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>允许用户在内部部署企业语音并分配电话号码
 
@@ -40,7 +40,7 @@ ms.locfileid: "34287508"
     
 4. 在“搜索用户”**** 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”****。
     
-5. 在表中, 单击要为企业语音启用的 Skype for Business Online 用户帐户。
+5. 在表中，单击要为企业语音启用的 Skype for Business Online 用户帐户。
     
 6. 在“**编辑**”菜单上，单击“**显示详细信息**”。
     
@@ -50,27 +50,27 @@ ms.locfileid: "34287508"
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>为企业内部部署的用户启用的特殊注意事项
 
-在某些情况下，可能需要修改为用户启用企业语音的方式来确保他们可以成功地发出和接听呼叫。 如果你的部署中有满足以下条件的用户, 请执行所包含的步骤以启用企业语音用户。
+在某些情况下，可能需要修改为用户启用企业语音的方式来确保他们可以成功地发出和接听呼叫。 如果你的部署中有满足以下条件的用户，请执行所包含的步骤以启用企业语音用户。
   
-- 如果用户是在本地广告中创建的, 然后与 Skype for business Online 同步, 而不启用 Skype for business 或企业语音, 并且没有 LineURI 集, 请为每个受影响的用户运行以下 cmdlet, 替换 <c0 > <b1></b1>环境的实际值:
+- 如果用户在本地广告中创建，然后与 skype for business Online 同步，而不启用 skype for business 或企业语音，并且没有 LineURI 集，请为每个受影响的用户运行以下 cmdlet， \< \>并用你的环境的实际值替换其中的值：
     
-  ```
+  ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
   ```
 
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- 如果用户已针对本地 Skype for business 启用, 但未启用企业语音或在移动到 Skype for business Online 之前分配了 LineURI, 请为每个用户运行以下 cmdlet:
+- 如果用户已针对本地 Skype for business 启用，但未启用企业语音或在移动到 Skype for business Online 之前分配了 LineURI，请为每个用户运行以下 cmdlet：
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- 如果用户已在本地 Skype for Business 中启用, 但未启用企业语音, 即使已分配了 LineURI, 也为每个受影响的用户运行以下 cmdlet:
+- 如果用户已在本地 Skype for Business 中启用，但未启用企业语音，即使已分配了 LineURI，也为每个受影响的用户运行以下 cmdlet：
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
 

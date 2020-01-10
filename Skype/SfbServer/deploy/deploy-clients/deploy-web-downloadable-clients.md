@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：部署与 Skype for Business 一起使用的 Skype for business Web 应用和 Skype 会议应用。
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972873"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003522"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 Web 可下载的客户端
 
@@ -52,19 +52,19 @@ Skype for business Web 应用、Skype 会议应用和 Mac 版 Skype for Business
 
 3. 从 Windows PowerShell 命令行界面中，运行以下命令：
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. 通过运行以下命令来建立合作关系：
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. 设置以下信赖方规则：
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -123,13 +123,13 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰 Sk
 
 1. 当你启用对内容交付网络（CDN）的访问时，用户可以连接到 CDN online 并获取 Skype for Mac 应用（在 Windows 上）和 Skype for business for Mac （Mac），并且将使用简化的会议加入体验。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. 允许客户端从会议加入网页或 Skype 会议应用发送到 Microsoft 服务器的客户端日志记录遥测（该命令默认为 false）。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰 Sk
 
 3. 如果 CDN 不可用，则在回退到本地托管的 Skype for business Web 应用体验之前设置超时。 默认值是 6 秒。 如果将该值设置为 0，则没有超时。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 

@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 在 Skype for Business Server 企业版中管理应用程序级别的响应组设置, 如 "音乐暂停" 和 "ringback 设置"。
-ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在 Skype for Business Server 企业版中管理应用程序级别的响应组设置，如 "音乐暂停" 和 "ringback 设置"。
+ms.openlocfilehash: 4c5964d84e5fb84bf1c20c3e43bb0cc4aa25ae17
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240288"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001272"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理 Skype for Business 中的应用程序级响应组设置
  
-在 Skype for Business Server 企业版中管理应用程序级别的响应组设置, 如 "音乐暂停" 和 "ringback 设置"。
+在 Skype for Business Server 企业版中管理应用程序级别的响应组设置，如 "音乐暂停" 和 "ringback 设置"。
   
 响应组应用程序的应用程序级别设置包括默认的 "保留音乐" 配置、默认的 "保留音乐" 音频文件、代理 ringback 宽限期和 "呼叫上下文配置"。 你只能针对每个池定义一组应用程序级别设置。 若要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 若要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
   
@@ -37,19 +37,19 @@ ms.locfileid: "36240288"
     
 3. 在命令行中运行：
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
     例如：
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
     要指定一个音频文件以用作默认的保持音乐，您需要首先导入该音频文件。例如：
     
-   ```
+   ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```

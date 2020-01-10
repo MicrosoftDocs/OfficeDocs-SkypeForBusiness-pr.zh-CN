@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Unregister-CcAppliance cmdlet 在联机租户配置中从 PSTN 站点注销 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2bd8f3a3ef4ac2b29ab9e7d766836d7a3555c0f4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286871"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003132"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 Unregister-CcAppliance cmdlet 在联机租户配置中从 PSTN 站点注销 Skype for Business 云连接器版本设备。
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 以下示例从联机租户配置中注销当前设备：
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 以下示例检查用于在本地注销的配置，而不必连接到联机租户配置：
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 以下示例向 PSTN 站点“Site1”注销名称为“Appliance1”的当前设备：
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 与 Register-CcAppliance cmdlet 类似，CloudConnector.ini 文件中与边缘服务器外部 FQDN 组合在一起的 SiteName 被视为 PSTN 站点标识。同样，CloudConnector.ini 文件中与中介服务器 FQDN 组合在一起的 ApplianceName 被视为设备标识。
   
-设备注销后, 重新启动云连接器管理服务, 并以 NetworkService 帐户登录。
+设备注销后，重新启动云连接器管理服务，并以 NetworkService 帐户登录。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>

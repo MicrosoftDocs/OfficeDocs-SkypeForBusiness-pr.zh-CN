@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'Switch-CcVersion cmdlet 可将正在运行的设备断开连接，并切换到新部署的设备或备份设备。 '
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286927"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003152"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
 Switch-CcVersion cmdlet 可将正在运行的设备断开连接，并切换到新部署的设备或备份设备。  
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 以下示例将排出当前正在运行的设备的服务，然后切换到新部署的设备或备份设备：
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 下一个示例将排出当前正在运行的设备的服务，并在排出服务失败时强制停止服务。 然后，该命令将切换到新部署的设备或备份设备。
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 

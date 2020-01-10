@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: 了解如何准备云连接器设备以便在 Office 365 (云 PBX) 中部署和使用电话系统。
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 了解如何准备云连接器设备以便在 Office 365 （云 PBX）中部署和使用电话系统。
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286997"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001942"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
 
-了解如何准备云连接器设备以便在 Office 365 (云 PBX) 中部署和使用电话系统。
+了解如何准备云连接器设备以便在 Office 365 （云 PBX）中部署和使用电话系统。
 
-本节介绍如何获取 Skype for Business 云连接器版本安装文件、安装云连接器软件以及准备云连接器设备以便进行部署。 完成本节中的所有步骤后，便可为单个站点或多个站点部署云连接器。 如果你有现有云连接器部署, 但尚未升级到云连接器版本 2.1, 请参阅[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。
-
-> [!NOTE]
-> Microsoft 支持最新版本的云连接器版本2.1。 如果你配置了自动更新，云连接器将自动更新。 如果您配置了手动更新, 您需要60在版本2.1 中升级到版本。 Microsoft 将在2.1 发布后的60天内支持以前的版本, 从而允许你升级。 
+本节介绍如何获取 Skype for Business 云连接器版本安装文件、安装云连接器软件以及准备云连接器设备以便进行部署。 完成本节中的所有步骤后，便可为单个站点或多个站点部署云连接器。 如果你有现有云连接器部署，但尚未升级到云连接器版本2.1，请参阅[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。
 
 > [!NOTE]
-> 对于云连接器版本2.1 和更高版本, 主机装置必须安装 .NET Framework 4.6.1 或更高版本。 
+> Microsoft 支持最新版本的云连接器版本2.1。 如果你配置了自动更新，云连接器将自动更新。 如果您配置了手动更新，您需要60在版本2.1 中升级到版本。 Microsoft 将在2.1 发布后的60天内支持以前的版本，从而允许你升级。 
+
+> [!NOTE]
+> 对于云连接器版本2.1 和更高版本，主机装置必须安装 .NET Framework 4.6.1 或更高版本。 
 
 > [!IMPORTANT]
-> 对于成功部署, 运行 cmdlet 以配置 Skype for business 云连接器版本时, 请始终使用与启动时相同的控制台会话。 避免在部署和配置期间切换到不同的会话。 
+> 对于成功部署，运行 cmdlet 以配置 Skype for business 云连接器版本时，请始终使用与启动时相同的控制台会话。 避免在部署和配置期间切换到不同的会话。 
 
 > [!NOTE]
 > 只需为部署中的第一台设备执行的一些步骤包括：为站点目录创建共享、下载 bits 以及通过 Windows Server ISO 映像准备虚拟硬盘 (VHDX) 文件。 
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>下载 Skype for Business 云连接器版本安装程序
 
-1. 在将运行云连接器 Vm 的主机服务器上, 下载安装文件: [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。 
+1. 在将运行云连接器 Vm 的主机服务器上，下载安装文件： [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。 
 
     > [!IMPORTANT]
     > 在安装云连接器期间，主机服务器必须能够访问 Internet，因为在安装过程中会下载其他文件。 
@@ -52,9 +52,9 @@ ms.locfileid: "34286997"
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>验证安装并配置环境
 
-1. 以管理员身份打开 PowerShell 控制台, 并确认使用以下 cmdlet 可以使用 Skype for Business 云连接器版本 cmdlet:
+1. 以管理员身份打开 PowerShell 控制台，并确认使用以下 cmdlet 可以使用 Skype for Business 云连接器版本 cmdlet：
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ ms.locfileid: "34286997"
 
     你可以使用以下 cmdlet 找到**网站目录**的位置：
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,29 +78,29 @@ ms.locfileid: "34286997"
 
      要将**网站目录**设置为默认位置以外的位置，请运行以下 cmdlet：
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
     如果要为站点部署高可用性 (HA)，请确保运行该 cmdlet 以将站点中每个主机服务器上的**网站目录**设置为相同位置。
 
-    当您登录并在网站中部署每个设备时, 请确保您当前的登录帐户有权访问**网站目录**。
+    当您登录并在网站中部署每个设备时，请确保您当前的登录帐户有权访问**网站目录**。
 
-3. **装置目录**是 Skype For Business 云连接器版本的本地工作根目录, 以及保存外部证书、实例和日志的位置。 默认位置为：%USERPROFILE%\CloudConnector\ApplianceRoot。
+3. **装置目录**是 Skype For Business 云连接器版本的本地工作根目录，以及保存外部证书、实例和日志的位置。 默认位置为：%USERPROFILE%\CloudConnector\ApplianceRoot。
 
     要找到**设备目录**的位置，请运行以下 cmdlet：
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     要将**设备目录**设置为默认位置以外的位置，请运行以下 cmdlet：
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
-    设备目录应该设置为设备上的本地文件夹。 在开始 Skype for Business 云连接器版本部署之前, 你应该仅设置**装置目录**。 如果在部署之后更改了该目录，则需要重新部署主机服务器。
+    设备目录应该设置为设备上的本地文件夹。 在开始 Skype for Business 云连接器版本部署之前，你应该仅设置**装置目录**。 如果在部署之后更改了该目录，则需要重新部署主机服务器。
 
     > [!IMPORTANT]
     > **设备目录**的路径中不得包含任何空格。
@@ -109,7 +109,7 @@ ms.locfileid: "34286997"
 
 - 运行以下 cmdlet 以设置外部边缘证书的路径，包括文件名。例如：C:\certs\cce\ap.contoso.com.pfx。证书必须包含私钥。
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -123,9 +123,9 @@ ms.locfileid: "34286997"
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>设置外部 PSTN 网关/SBC 证书的路径
 
-如果你要在中介服务器与 PSTN 网关/SBC 之间使用 TLS，请运行以下 cmdlet 来设置网关证书的路径（包括文件名）。 例如: C:\certs\cce\sbc.contoso.com.cer。 证书必须包含分配给网关的证书的根 CA 和中间链。
+如果你要在中介服务器与 PSTN 网关/SBC 之间使用 TLS，请运行以下 cmdlet 来设置网关证书的路径（包括文件名）。 例如： C:\certs\cce\sbc.contoso.com.cer。 证书必须包含分配给网关的证书的根 CA 和中间链。
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -134,13 +134,13 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>在 Hyper-V 管理器中创建虚拟交换机
 
-1. 打开**hyper-v 管理** > 器**虚拟交换机管理器**, 然后选择 "**新建虚拟交换机管理器**"。
+1. 打开**hyper-v 管理** > 器**虚拟交换机管理器**，然后选择 "**新建虚拟交换机管理器**"。
 
 2. 创建外部虚拟交换机并将其绑定到与你的内部网络域连接的物理网络适配器：
 
     为该虚拟交换机选择“**允许管理操作系统共享此网络适配器**”。
 
-3. 创建一个外部虚拟交换机, 并将其绑定到路由到 Internet 的物理网络适配器:
+3. 创建一个外部虚拟交换机，并将其绑定到路由到 Internet 的物理网络适配器：
 
     取消选择 "**允许管理操作系统为此虚拟交换机共享此网络适配器**"。
 
@@ -150,11 +150,11 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>更新 CloudConnector.ini 配置文件
 
-使用收集的信息准备 CloudConnector 文件, 在 "[针对 Skype for business 的计划" 云连接器版本](plan-skype-for-business-cloud-connector-edition.md)主题中[确定部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)。
+使用收集的信息准备 CloudConnector 文件，在 "[针对 Skype for business 的计划" 云连接器版本](plan-skype-for-business-cloud-connector-edition.md)主题中[确定部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)。
 
 要更新文件，应首先运行以下 cmdlet 以获取示例模板 (CloudConnector.Sample.ini)：
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -165,15 +165,15 @@ Export-CcConfigurationSampleFile
 更新 .ini 文件时，请考虑以下内容：
 
 > [!NOTE]
-> 本节并未讨论 .ini 文件中的所有值，只涵盖了需要特别注意的值。 有关完整列表, 请参阅[适用于 Skype for Business 云连接器的计划](plan-skype-for-business-cloud-connector-edition.md)的 "[确定部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)" 部分。 有关需要为其他设备或新站点更改哪些值的详细信息，请参阅[主题中的](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)支持高可用性 (HA) 的单站点部署与多站点部署比较[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)。 
+> 本节并未讨论 .ini 文件中的所有值，只涵盖了需要特别注意的值。 有关完整列表，请参阅[适用于 Skype for Business 云连接器的计划](plan-skype-for-business-cloud-connector-edition.md)的 "[确定部署参数](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)" 部分。 有关需要为其他设备或新站点更改哪些值的详细信息，请参阅[主题中的](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)支持高可用性 (HA) 的单站点部署与多站点部署比较[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)。 
 
 - **SiteName：** 默认值为 **Site1**。你必须在部署云连接器之前更新该值，因为当通过运行 **Register-CcAppliance** 将设备注册到现有站点或新站点时，该 cmdlet 将使用 **SiteName** 来确定要注册到的站点。
 
-     如果要将设备注册到新站点，**SiteName** 值必须唯一，并且与现有站点不同。 如果要将设备注册到现有网站, 则位于 .ini 文件中的**SiteName**的值必须与 Office 365 租户配置中定义的名称相匹配。 如果要将配置文件从一个站点复制到另一个站点，请确保相应地更新每个站点的 **SiteName** 值。
+     如果要将设备注册到新站点，**SiteName** 值必须唯一，并且与现有站点不同。 如果要将设备注册到现有网站，则位于 .ini 文件中的**SiteName**的值必须与 Office 365 租户配置中定义的名称相匹配。 如果要将配置文件从一个站点复制到另一个站点，请确保相应地更新每个站点的 **SiteName** 值。
 
 - **ServerName：** 服务器名称不应包含域名，且不应超过 15 个字符。
 
-- **HardwareType:** 如果未将该值设置或保留为 null, 则将使用默认值 "**正常**"。 如果你计划部署较大版本的云连接器以支持每台主机的500同时拨打[Skype for Business 云连接器版本](plan-skype-for-business-cloud-connector-edition.md), 请使用**Normal** 。 对支持50同时进行调用的较小部署使用 "**最小**化"。
+- **HardwareType：** 如果未将该值设置或保留为 null，则将使用默认值 "**正常**"。 如果你计划部署较大版本的云连接器以支持每台主机的500同时拨打[Skype for Business 云连接器版本](plan-skype-for-business-cloud-connector-edition.md)，请使用**Normal** 。 对支持50同时进行调用的较小部署使用 "**最小**化"。
 
 - **Internet/公司网络/管理虚拟交换机**：添加已创建的虚拟交换机的名称。 对于管理虚拟交换机，只需保留默认值即可。 部署脚本将在部署开始时创建管理虚拟交换机，在部署结束时将其删除。
 
@@ -205,7 +205,7 @@ Export-CcConfigurationSampleFile
 
 - **外部 IP：**
 
-  - 对于尊敬的公共 IP: 为 NAT 指定 ExternalMRIPs 或 ExternalMRPublicIPs。
+  - 对于尊敬的公共 IP：为 NAT 指定 ExternalMRIPs 或 ExternalMRPublicIPs。
 
   - ExternalSIPIPs 和 ExternalMRIPs 可以是相同的。
 
@@ -219,15 +219,15 @@ Export-CcConfigurationSampleFile
 
   - 请确保网关的 IP 地址和端口正确无误。
 
-  - 要支持 PSTN 网关级别高可用性，请保留辅助网关，然后添加将使用的任何其他网关。 您可以复制和粘贴现有条目, 然后对其进行更新。
+  - 要支持 PSTN 网关级别高可用性，请保留辅助网关，然后添加将使用的任何其他网关。 您可以复制和粘贴现有条目，然后对其进行更新。
 
-- 或者, 您可以更新 LocalRoute 值以限制出站呼叫号码。
+- 或者，您可以更新 LocalRoute 值以限制出站呼叫号码。
 
 ## <a name="download-the-bits-to-the-site-directory"></a>将 bits 下载到“网站目录”
 
 运行以下 cmdlet，将 bits 和版本信息文件下载到**站点目录**：
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -236,7 +236,7 @@ Start-CcDownload
 
 ## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>通过下载的 ISO 文件准备基本虚拟磁盘 (VHDX)
 
-此步骤将通过 Windows Server 2012 ISO 映像准备虚拟硬盘 (VHDX) 文件。 在部署期间，将使用 VHDX 创建虚拟机。 将创建一个临时虚拟机 (基本 VM), 并且将从 ISO 文件安装 Windows Server 2012。 创建虚拟机后，将安装一些必要组件，并应用最新的 Windows 更新。 最后，集中 (sysprep) 并清理基本虚拟机，仅保留生成的虚拟磁盘文件。
+此步骤将通过 Windows Server 2012 ISO 映像准备虚拟硬盘 (VHDX) 文件。 在部署期间，将使用 VHDX 创建虚拟机。 将创建一个临时虚拟机（基本 VM），并且将从 ISO 文件安装 Windows Server 2012。 创建虚拟机后，将安装一些必要组件，并应用最新的 Windows 更新。 最后，集中 (sysprep) 并清理基本虚拟机，仅保留生成的虚拟磁盘文件。
 
 > [!NOTE]
 > 只需对第一台设备执行此步骤。 
@@ -255,7 +255,7 @@ Start-CcDownload
 
 以管理员身份启动 PowerShell 控制台，然后运行以下 cmdlet 以将 ISO 映像转换为虚拟硬盘 (VHD)：
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -264,7 +264,7 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 创建的 VHD 文件存储在 "**网站目录**\Bits\VHD" 文件夹中。 可以通过运行 **Get-CcSiteDirectory** 获取**网站目录**的路径。
 
 > [!IMPORTANT]
-> 默认情况下，不在基本虚拟机上配置代理设置。 如果你的网络环境中需要代理以通过 Windows 更新更新 VM, 则应在运行 "Convert-CcIsoToVhdx" 时添加-PauseBeforeUpdate 开关。 该脚本将在 Windows 更新之前暂停, 你将有机会在 VM 上手动设置代理。 在设置代理并且虚拟机可以访问 Internet 后，可恢复脚本以完成剩余的步骤。 
+> 默认情况下，不在基本虚拟机上配置代理设置。 如果你的网络环境中需要代理以通过 Windows 更新更新 VM，则应在运行 "Convert-CcIsoToVhdx" 时添加-PauseBeforeUpdate 开关。 该脚本将在 Windows 更新之前暂停，你将有机会在 VM 上手动设置代理。 在设置代理并且虚拟机可以访问 Internet 后，可恢复脚本以完成剩余的步骤。 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>为多站点部署创建 VHD
 
@@ -272,19 +272,19 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 如果要部署多站点部署，不需要为每个站点将 ISO 转换的 VHD。你可以将为第一个站点创建的 VHDX 复制到第二个站点的主机服务器。
 
- 将文件复制到同一文件位置 (**网站目录**\Bits\VHD 文件夹), 并使用相同的文件名在主机服务器上添加其他网站。
+ 将文件复制到同一文件位置（**网站目录**\Bits\VHD 文件夹），并使用相同的文件名在主机服务器上添加其他网站。
 
 ## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>将 PowerShell 执行策略设置为 RemoteSigned
 
 提供的 PowerShell 脚本要求将执行策略设置为 RemoteSigned。要查看当前设置，请以管理员身份打开 PowerShell 控制台，然后运行以下 cmdlet：
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 如果执行策略未设置为“RemoteSigned”，则运行以下 cmdlet 进行更改：
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
@@ -293,7 +293,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > 对于云连接器 1.4.2 版及更高版本，不需要执行此任务。 
 
-在部署 Skype for Business 云连接器版本时已创建 CceService 帐户。 它运行云连接器管理服务, 并且需要具有卸载 cloudconnector 的权限。 你必须更改云连接器主机上的组策略设置，指定用户注销时不会卸载用户注册表。 请执行以下步骤：
+在部署 Skype for Business 云连接器版本时已创建 CceService 帐户。 它运行云连接器管理服务，并且需要具有卸载 cloudconnector 的权限。 你必须更改云连接器主机上的组策略设置，指定用户注销时不会卸载用户注册表。 请执行以下步骤：
 
 ### <a name="to-change-the-group-policy-setting"></a>更改组策略设置
 
@@ -307,8 +307,8 @@ Set-ExecutionPolicy RemoteSigned
 
 需要 Office 365 中包含 Skype for Business Online 和手机系统的 Office 365 租户。 请确保在尝试使用云连接器之前设置并配置租户。
 
-某些 Office 365 设置步骤需要你使用租户远程 PowerShell (TRPS) 来配置你的 Office 365 租户。 **它应安装在主机服务器上。** 您可以从以下平台下载用于 PowerShell 的 Skype for business Online 模块: Skype for business [online、Windows PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。
+某些 Office 365 设置步骤需要你使用租户远程 PowerShell （TRPS）来配置你的 Office 365 租户。 **它应安装在主机服务器上。** 您可以从以下平台下载用于 PowerShell 的 Skype for business Online 模块： Skype for business [online、Windows PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)。
 
-为云连接器联机管理创建专用的 Skype for Business 管理员帐户, 例如 CceOnlineManagmentAdministrator。 设备将使用该帐户添加或删除设备、启用或禁用操作系统自动更新、启用或禁用二进制文件自动更新。 请将该帐户的密码设置为永不过期，从而无需在每次过期时为服务更改密码。
+为云连接器联机管理创建专用的 Skype for Business 管理员帐户，例如 CceOnlineManagmentAdministrator。 设备将使用该帐户添加或删除设备、启用或禁用操作系统自动更新、启用或禁用二进制文件自动更新。 请将该帐户的密码设置为永不过期，从而无需在每次过期时为服务更改密码。
 
 

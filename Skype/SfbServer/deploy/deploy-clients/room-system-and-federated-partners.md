@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 阅读本主题，了解如何为 Skype for Business 联盟伙伴设置 Skype 会议室系统。
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775271"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002992"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype 会议室系统和 Skype for Business 联盟伙伴
  
@@ -27,7 +27,7 @@ Skype 会议室系统依赖于日历会议请求中的 "加入 Skype for Busines
   
 此限制的原因是 Outlook 和 Microsoft Exchange 不使用特殊方法来打包用于跨 Internet 发送邮件的信息。 对于从 Exchange 组织外部发送的邮件，此方法（称为传输中立封装格式 (TNEF)）默认情况下被禁用。 若要在远程 Skype 会议室系统上显示会议加入链接，发送组织必须使用以下命令启用 TNEF：
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```

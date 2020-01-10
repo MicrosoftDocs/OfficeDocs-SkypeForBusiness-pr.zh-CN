@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570175"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001262"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -55,7 +55,7 @@ ms.locfileid: "37570175"
 - 在流中创建实时事件（适用于外部应用或设备生产）的权限。
 
 > [!IMPORTANT]
-> Office 365 来宾、联合和匿名用户不能被邀请为团队实时事件中的生产者或演示者。 Office 365 来宾和联盟用户只能以匿名方式观看实时事件。 
+> 未验证身份的匿名用户不能被邀请为团队实时事件中的生产者或演示者。 
  
 ## <a name="who-can-watch-live-events"></a>哪些人可以观看实时事件？
 

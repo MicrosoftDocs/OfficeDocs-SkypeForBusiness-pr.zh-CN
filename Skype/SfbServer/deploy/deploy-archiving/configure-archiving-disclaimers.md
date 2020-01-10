@@ -9,29 +9,29 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: '摘要: 阅读本主题, 了解如何配置 Skype for Business 服务器的存档免责声明。'
-ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：阅读本主题，了解如何配置 Skype for Business 服务器的存档免责声明。
+ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234356"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001052"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>为 Skype for Business Server 中的外部用户配置存档免责声明
  
-**摘要:** 阅读本主题, 了解如何配置 Skype for Business 服务器的存档免责声明。
+**摘要：** 阅读本主题，了解如何配置 Skype for Business 服务器的存档免责声明。
   
-如果您的组织与外部合作伙伴通信，您需要让他们知道，您会存档与他们之间的通信。 当你部署边缘服务器并为你的组织启用联盟时, 系统会询问你是否要将存档免责声明自动发送给外部合作伙伴。 
+如果您的组织与外部合作伙伴通信，您需要让他们知道，您会存档与他们之间的通信。 当你部署边缘服务器并为你的组织启用联盟时，系统会询问你是否要将存档免责声明自动发送给外部合作伙伴。 
   
-如果需要更改此配置, 您可以使用 Skype for Business 服务器控制面板或 Windows PowerShell **CsAccessEdgeConfiguration** cmdlet。 可以从 Skype for Business Server management shell 或 Windows PowerShell 的远程会话运行 cmdlet。
+如果需要更改此配置，您可以使用 Skype for Business 服务器控制面板或 Windows PowerShell **CsAccessEdgeConfiguration** cmdlet。 可以从 Skype for Business Server management shell 或 Windows PowerShell 的远程会话运行 cmdlet。
   
-若要使外部用户能够与 Skype for Business Server 部署中的用户协作, 还必须至少配置一个外部访问策略以支持外部用户访问。 有关详细信息, 请参阅管理你的组织的 XMPP 联盟合作伙伴。 有关控制特定联盟域的访问的详细信息，请参阅“控制各个联盟域的访问”。
+若要使外部用户能够与 Skype for Business Server 部署中的用户协作，还必须至少配置一个外部访问策略以支持外部用户访问。 有关详细信息，请参阅管理你的组织的 XMPP 联盟合作伙伴。 有关控制特定联盟域的访问的详细信息，请参阅“控制各个联盟域的访问”。
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>使用控制面板启用或禁用存档免责声明
 
 1. 使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“**联盟和外部访问**”，然后单击“**访问边缘配置**”。
     
@@ -45,13 +45,13 @@ ms.locfileid: "36234356"
 
 要启用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 True ($True)：
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 要禁用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 False ($False)：
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

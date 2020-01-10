@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287333"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003382"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。 
   
-使用版本2.0 和更高版本, 你还可以使用-DisplayPassword 参数显示 TenantAdmin、DomainAdmin 和 VMAdmin 的密码。
+使用版本2.0 和更高版本，你还可以使用-DisplayPassword 参数显示 TenantAdmin、DomainAdmin 和 VMAdmin 的密码。
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 以下示例返回云连接器虚拟机域的域管理员凭据：
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
@@ -48,7 +48,7 @@ Get-CcCredential cmdlet 返回 System.Management.Automation.PSCredential 对象�
   
 如果你希望获得域管理员密码的明文，请确保密码由你的当前登录帐户在主机服务器上输入，然后以管理员身份打开 PowerShell 控制台并运行以下脚本：
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**参数**|**必需**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin: 云连接器虚拟机的本地管理员。 <br/>  DomainAdmin：云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
+| AccountType <br/> |必需  <br/> | System.String <br/> | AccountType 值可以是以下项之一： <br/>  VmAdmin：云连接器虚拟机的本地管理员。 <br/>  DomainAdmin：云连接器虚拟机域的域管理员。 <br/>  SafeModeAdmin：云连接器虚拟机域控制器的 SafeModeAdmin。 <br/>  ExternalCert：边缘服务器上安装的外部证书的帐户。 <br/>  TenantAdmin：O365 租户的管理员。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 'Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。 '
-ms.openlocfilehash: 611eeb648c88411afa5d74cc7564703a5e37e9bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 47f2bbefa6510ae49e2e4a3ddc321e288dee266e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287060"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003262"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
 Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。  
   
-```
+```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -33,7 +33,7 @@ Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 以下示例在中央管理存储、中介服务器和边缘服务器的证书即将过期或已过期时续订这些证书：
   
-```
+```powershell
 Renew-CcServerCertificate
 ```
 
@@ -41,7 +41,7 @@ Renew-CcServerCertificate
 
 以下示例在中介服务器和边缘服务器的证书即将过期或已过期时续订这些证书：
   
-```
+```powershell
 Renew-CcServerCertificate-Roles @("MS", "Edge")
 ```
 

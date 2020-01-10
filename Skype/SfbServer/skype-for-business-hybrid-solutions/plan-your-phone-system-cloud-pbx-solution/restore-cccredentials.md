@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Restore Cc-凭据 cmdlet 用于还原当前 Skype for business Cloud Connector Edition 部署的所有凭据。
-ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287081"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003242"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
@@ -24,13 +24,13 @@ Restore Cc-凭据 cmdlet 用于还原当前 Skype for business Cloud Connector E
   
 此 cmdlet 适用于 Skype for Business 云连接器版本2.1。
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
 ## <a name="detailed-description"></a>详细说明
 
-Restore-CcCredentials cmdlet 将清理所有凭据, 并提示你重新输入用于当前 Skype for Business 云连接器部署的所有凭据。
+Restore-CcCredentials cmdlet 将清理所有凭据，并提示你重新输入用于当前 Skype for Business 云连接器部署的所有凭据。
   
 ## <a name="parameters"></a>参数
 
@@ -46,9 +46,9 @@ Restore-CcCredentials cmdlet 将清理所有凭据, 并提示你重新输入用�
   
 ## <a name="example"></a>示例
 
-以下示例将还原当前云连接器部署的所有凭据:
+以下示例将还原当前云连接器部署的所有凭据：
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 

@@ -14,20 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 在 Skype for business Server Enterprise Voice 中启用呼叫寄存的用户。
-ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240373"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002552"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>为 Skype for Business 中的用户启用呼叫寄存
  
 在 Skype for business Server Enterprise Voice 中启用呼叫寄存的用户。
   
-默认情况下, 将对所有用户禁用 "呼叫寄存"。 用户不能寄存通话或检索寄存的呼叫, 直到它们在语音策略中被启用呼叫寄存。
+默认情况下，将对所有用户禁用 "呼叫寄存"。 用户不能寄存通话或检索寄存的呼叫，直到它们在语音策略中被启用呼叫寄存。
   
-你可以在全局范围内或在网站范围或用户范围内启用呼叫寄存。 用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。 如果你有多个语音策略, 请查看所有策略以启用呼叫寄存, 而不仅仅是全局策略。
+你可以在全局范围内或在网站范围或用户范围内启用呼叫寄存。 用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。 如果你有多个语音策略，请查看所有策略以启用呼叫寄存，而不仅仅是全局策略。
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用 Skype for Business 服务器 "控制面板" 为用户启用呼叫寄存
 
@@ -53,13 +53,13 @@ ms.locfileid: "36240373"
     
 3. 运行：
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    例如, 若要为默认全局语音策略启用呼叫寄存, 请执行以下操作:
+    例如，若要为默认全局语音策略启用呼叫寄存，请执行以下操作：
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

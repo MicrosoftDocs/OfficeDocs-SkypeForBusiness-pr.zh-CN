@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 在 Skype for Business Server Enterprise Voice 中创建或修改组呼叫装货号码范围。
-ms.openlocfilehash: 3098d7cf1554586dd2fd2ace934682ae58a90489
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 546fefd996286678aae77338b4e0867285670a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233466"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001712"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在 Skype for Business 中创建或修改组呼叫装货号码范围
 
 在 Skype for Business Server Enterprise Voice 中创建或修改组呼叫装货号码范围。
 
-组呼叫分拣基于呼叫寄存应用程序。 当您部署组呼叫时, 您必须配置 "呼叫驻留" 轨道表, 其中包含指定为 "呼叫装货组号码" 的电话号码范围。 这些组号码是用户拨打以应答为另一个用户响铃的呼叫的号码。
+组呼叫分拣基于呼叫寄存应用程序。 当您部署组呼叫时，您必须配置 "呼叫驻留" 轨道表，其中包含指定为 "呼叫装货组号码" 的电话号码范围。 这些组号码是用户拨打以应答为另一个用户响铃的呼叫的号码。
 
 与呼叫寄存轨道号码类似，呼叫应答组号码需要是没有为其分配用户或电话的虚拟分机号。 你在其中部署组呼叫装货的每个前端池都可以具有一个或多个呼叫装货组编号范围。 组号码范围在部署中必须是全局唯一的，并且必须作为 **GroupPickup** 类型分配。
 
@@ -42,13 +42,13 @@ ms.locfileid: "36233466"
 
 - 号码范围必须是唯一的。该范围不能与其他任何范围重叠。
 
-- 如果数字范围以字符\*或 # 开头, 则范围必须大于100。
+- 如果数字范围以字符\*或 # 开头，则范围必须大于100。
 
-- 有效值: 必须匹配正则表达式字符串 ([\\* | #]？ [1-9] \d{0,7}) |([1-9] \d{0,8})。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串 (第一个字符不能为零)。 如果第一个字符是\*或 #, 则以下字符必须是1到9的数字 (不能为零)。 后续字符可以是0到9的任何数字, 最多可有7个附加字符 (例如, "\*#6000"、"\*92000"、"95551212" 和 "915551212")。 如果第一个字符不\*是或 #, 则第一个字符必须是数字1到 9 (不能为零), 后跟八个字符, 每个字符都是数字0到 9 (例如, "915551212"、"41212"、"300")。
+- 有效值：必须匹配正则表达式字符串（[\\* | #]？ [1-9] \d{0,7}） |（[1-9] \d{0,8}）。 这意味着该值必须是以字符\*或 # 或数字1到9开头的字符串（第一个字符不能为零）。 如果第一个字符是\*或 #，则以下字符必须是1到9的数字（不能为零）。 后续字符可以是0到9的任何数字，最多可有7个附加字符（例如，"\*#6000"、"\*92000"、"95551212" 和 "915551212"）。 如果第一个字符不\*是或 #，则第一个字符必须是数字1到9（不能为零），后跟八个字符，每个字符都是数字0到9（例如，"915551212"、"41212"、"300"）。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫应答组范围
 
-1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限 (如 "**委派设置权限**" 中所述) 进行安装的计算机。
+1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限（如 "**委派设置权限**" 中所述）进行安装的计算机。
 
 2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
 
@@ -56,24 +56,24 @@ ms.locfileid: "36233466"
 
     在命令行中运行：
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
    ```
 
     例如：
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
    ```
 
     下面的示例演示如何将号码范围从呼叫寄存轨道更改为呼叫应答组。
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
    ```
 
     > [!IMPORTANT]
-    > 仅在你最初指定了错误的类型并且组范围尚未使用时，才能使用此 cmdlet 更改分配到号码范围的类型。 如果你将号码范围从 CallPark 更改为 GroupPickup 或相反，并且号码范围已在使用中，则呼叫寄存或组内呼叫应答将不再对该号码范围起作用。 例如, 如果将数字范围从 CallPark 更改为 GroupPick, 则调用寄存应用程序无法再将该范围的轨道式转到寄存通话。
+    > 仅在你最初指定了错误的类型并且组范围尚未使用时，才能使用此 cmdlet 更改分配到号码范围的类型。 如果你将号码范围从 CallPark 更改为 GroupPickup 或相反，并且号码范围已在使用中，则呼叫寄存或组内呼叫应答将不再对该号码范围起作用。 例如，如果将数字范围从 CallPark 更改为 GroupPick，则调用寄存应用程序无法再将该范围的轨道式转到寄存通话。
 
 ## <a name="see-also"></a>另请参阅
 

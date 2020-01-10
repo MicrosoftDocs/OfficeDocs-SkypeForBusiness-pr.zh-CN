@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中, 此命令已更改为更新-CcCACertificate。
-ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中，此命令已更改为更新-CcCACertificate。
+ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287102"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003272"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中, 此命令已更改为更新-CcCACertificate。
+Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中，此命令已更改为更新-CcCACertificate。
   
-```
+```powershell
 Renew-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Renew-CcCACertificate
 
 以下示例续订根 CA 证书： 
   
-```
+```powershell
 Renew-CcCACertificate 
 ```
 

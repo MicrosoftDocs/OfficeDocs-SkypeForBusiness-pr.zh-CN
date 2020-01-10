@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: 阅读本主题，了解如何管理 Skype 会议室系统帐户。
-ms.openlocfilehash: ab82780617ba8fc6304bb97f56a319c7898bff44
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7594532e5da42ac9f1b41444052ec51c3779ee2b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774894"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001482"
 ---
 # <a name="manage-skype-room-system-accounts"></a>管理 Skype 会议室系统帐户
  
@@ -29,7 +29,7 @@ ms.locfileid: "36774894"
 
 如果需要将 Skype 会议室系统帐户从一个 Skype for business 服务器池移动到另一个（例如，在升级期间），请使用以下命令移动 Skype 会议室系统帐户池： 
   
-```
+```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
@@ -37,7 +37,7 @@ Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 
 如果您需要从 Skype for business 服务器池上的 Skype for Business 服务禁用现有 Skype 会议室系统帐户，请使用以下命令禁用帐户： 
   
-```
+```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 

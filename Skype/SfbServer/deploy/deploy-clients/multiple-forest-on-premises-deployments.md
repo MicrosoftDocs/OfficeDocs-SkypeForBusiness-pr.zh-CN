@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: eb5aa2cbe3bef26602279ffa9d4a5dc38a7e7bc2
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 13ff6b1dbf1c6ba0cf9c8effddaaae8f097de9ea
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775037"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003502"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype 会议室系统多林本地部署
  
@@ -34,14 +34,14 @@ ms.locfileid: "36775037"
     
 2. 在 Exchange Server 命令行管理程序中运行以下命令：
     
-   ```
+   ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
 ## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>选项2：将现有会议室邮箱更改为 Skype 会议室系统（链接）资源邮箱
 
-```
+```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1
 Set-mailbox -Alias LinkedRoomTest1 -LinkedMasterAccount AuthForest\LinkedRoomTest1 -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -Name LinkedRoomTest1 -LinkedCredential $cred -Identity LinkedRoomTest1
 ```

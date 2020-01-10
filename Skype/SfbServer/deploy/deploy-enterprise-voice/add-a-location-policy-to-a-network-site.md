@@ -14,20 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 在 Skype for business Server Enterprise Voice 中向网络站点分配 E9-1-1 位置策略。
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233865"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001422"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>在 Skype for Business 服务器中将位置策略添加到网络网站
  
 在 Skype for business Server Enterprise Voice 中向网络站点分配 E9-1-1 位置策略。 
   
-以下示例显示了如何将在[Skype For Business Server 的 "创建位置策略" 中](create-location-policies.md)定义的**Redmond**位置策略添加到现有网络网站, 以及如何创建使用**Redmond**位置策略的新网络网站。
+以下示例显示了如何将在[Skype For Business Server 的 "创建位置策略" 中](create-location-policies.md)定义的**Redmond**位置策略添加到现有网络网站，以及如何创建使用**Redmond**位置策略的新网络网站。
   
-有关使用网络站点的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关使用网络站点的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
   
 - **New-CsNetworkSite**
     
@@ -45,7 +45,7 @@ ms.locfileid: "36233865"
     
     将带 **Redmond** 标记的位置策略分配给名为 **Redmond** 的现有网络站点。
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "36233865"
     
     在网络区域中创建新的网络站点，并分配带 **Redmond** 标记的位置策略。
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

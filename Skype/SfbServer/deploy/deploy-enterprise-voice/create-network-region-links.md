@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 创建或修改网络区域链接, 这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: 2b2eb99fa59125c93d97b902b6fbaad122ffdcdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 创建或修改网络区域链接，这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
+ms.openlocfilehash: 3c40488c3cbb4d5116f9b242bb198ba20f13bd58
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233473"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001732"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建网络区域链接
  
-创建或修改网络区域链接, 这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
+创建或修改网络区域链接，这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
   
 网络内的区域通过物理 WAN 连接进行链接。 网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并为这两个区域之间的音频和视频流量设置带宽限制。
   
-示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 其中每个区域链接均受 WAN 带宽的约束, 如区域链接带宽信息表中所述[: 在 Skype For Business 服务器中收集呼叫许可控制的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 其中每个区域链接均受 WAN 带宽的约束，如区域链接带宽信息表中所述[：在 Skype For Business 服务器中收集呼叫许可控制的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business 服务器命令行管理程序创建网络区域链接
 
@@ -35,11 +35,11 @@ ms.locfileid: "36233473"
     
 2. 运行 New-CsNetworkRegionLink cmdlet 创建区域链接并应用相应的带宽策略配置文件。 例如，运行：
     
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
    ```
 
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287158"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003082"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 Publish-CcAppliance cmdlet 从联机租户配置中获取高可用性信息，并将其发布到主机服务器上的 Skype for Business 云连接器版本设备。 
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -35,9 +35,9 @@ Publish-CcAppliance
 
 ### <a name="example-1"></a>示例 1
 
-以下示例从联机租户配置获取高可用性信息, 并将其发布到主机服务器上的云连接器设备:
+以下示例从联机租户配置获取高可用性信息，并将其发布到主机服务器上的云连接器设备：
   
-```
+```powershell
 Publish-CcAppliance
 ```
 

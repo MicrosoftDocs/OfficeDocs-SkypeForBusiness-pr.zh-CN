@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "39254391"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002902"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for business Server 中部署用于灾难恢复的配对的前端池
  
@@ -45,7 +45,7 @@ ms.locfileid: "39254391"
     
 8. 在两个池的每个前端服务器上，运行以下命令：
     
-   ```
+   ```powershell
    <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
@@ -55,27 +55,27 @@ ms.locfileid: "39254391"
 
 10. 从 Skype for Business 服务器管理外壳命令提示符处，运行以下命令： 
     
-   ```
+   ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
 11. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
     
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
     同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
     
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
     ```
 
