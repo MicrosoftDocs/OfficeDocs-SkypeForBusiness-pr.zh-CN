@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952595"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023386"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 
@@ -81,14 +81,21 @@ ms.locfileid: "40952595"
 > [!TIP]
 > 你可以使用[Microsoft 团队部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)脚本，通过 SCCM 完成步骤1和2。
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>禁用 MSI 安装程序的自动启动
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止团队在安装后自动启动
 
-MSI 的默认行为是在用户登录后立即安装团队客户端，然后自动启动团队。 你可以按如下方式修改此行为，如下所示：
+MSI 的默认行为是在用户登录后立即安装团队应用，然后自动启动团队。 如果您不希望团队在用户安装后自动启动，则可以使用组策略来设置策略设置或禁用 MSI 安装程序的自动启动。
 
-- 当用户登录到 Windows 时，将使用 MSI 安装团队
-- 但是，团队客户端将不会启动，直到用户手动开始团队
-- 将在用户桌面上添加开始团队的快捷方式
-- 手动启动后，团队将在用户登录时自动启动
+#### <a name="use-group-policy-recommended"></a>使用组策略（推荐）
+
+启用 "**阻止 Microsoft 团队在安装组策略设置后自动启动**"。 可以在用户 Configuration\Policies\Administrative Templates\Microsoft 团队中找到此策略设置。 这是推荐的方法，因为你可以根据组织的需要关闭或打开策略设置。
+
+如果在安装团队之前启用此策略设置，则当用户登录到 Windows 时不会自动启动团队。 用户首次登录到团队后，团队将在下次用户登录时自动启动。
+
+若要了解详细信息，请参阅[使用组策略防止团队在安装后自动启动](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)。
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>禁用 MSI 安装程序的自动启动
+
+你可以通过使用**选项 = "noAutoStart = true"** 参数来禁用 MSI 安装程序的自动启动，如下所示。  
 
 对于32位版本
 ```PowerShell
@@ -99,5 +106,7 @@ msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
+当用户登录到 Windows 时，团队与 MSI 一起安装，并将启动团队的快捷方式添加到用户的桌面。 在用户手动启动团队之前，团队将不会启动。 用户手动启动团队后，团队会在用户登录时自动启动。
+
 > [!Note]
-> 如果手动运行 MSI，请确保以提升的权限运行 MSI。 即使以管理员身份运行它，而不以提升的权限运行它，安装程序也无法将该选项配置为禁用自动启动。
+> 如果手动运行 MSI，请确保以提升的权限运行 MSI。 即使以管理员身份运行它，并且不使用提升的权限运行它，安装程序也无法将该选项配置为禁用自动启动。

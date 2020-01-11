@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022287"
+ms.locfileid: "41023416"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -176,15 +176,7 @@ Enabled               : True
 
 如果您的 Skype for Business Online 部署与 Skype for business 2015 或 Lync 2010/2013 本地部署并存，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户与云同步（选项1）。 
 
-所需的许可证： 
-
-- Office 365 企业版 E3 （包括 SfB Plan2、Exchange Plan2 和团队） + 电话系统
-- Office 365 企业版 E5 （包括 SfB Plan2、Exchange Plan2、团队和手机系统） 
-
-可选许可证： 
-
-- 通话计划 
-- 音频会议 
+有关许可证要求的信息，请参阅[计划直接路由](direct-routing-plan.md)中的[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>确保用户托管在 Skype for Business Online 中 
 
