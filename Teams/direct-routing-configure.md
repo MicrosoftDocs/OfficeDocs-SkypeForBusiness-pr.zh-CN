@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
+ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992589"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022287"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -193,9 +193,9 @@ Enabled               : True
 1. 连接到远程 PowerShell。
 2. 发出命令： 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>配置电话号码并启用企业语音和语音邮件 
 
@@ -206,9 +206,9 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. 连接到远程 PowerShell 会话。 
 2. 输入命令： 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 例如，若要为用户 "Spencer Low" 添加电话号码，请输入以下内容： 
 
@@ -556,7 +556,7 @@ No Restrictions
 
 该策略将应用于 SBC 级别。 你可以将多个翻译规则分配给 SBC，这些规则按照在 PowerShell 中列出它们时的显示顺序进行应用。 您还可以更改策略中规则的顺序。
 
-若要创建、修改、查看和删除数字操作规则，请使用 CsTeamsTranslationRule、CsTeamsTranslationRule、CsTeamsTranslationRule 和 Remove-CsTeamsTranslationRule cmdlet。
+若要创建、修改、查看和删除数字操作规则，请使用[CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)和[Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlet。
 
 若要在 SBCs 上分配、配置和列出数字操作规则，请[将 CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)和[CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet 与```InboundTeamsNumberTranslationRules```、 ```InboundPSTNNumberTranslationRules``` ```OutboundTeamsNumberTranslationRules``` ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```、、、、、和```OutboundPSTNNumberTranslationRulesList```参数一起使用。
 
