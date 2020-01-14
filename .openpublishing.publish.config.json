@@ -39,6 +39,7 @@
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
       "locale": "zh-CN",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
