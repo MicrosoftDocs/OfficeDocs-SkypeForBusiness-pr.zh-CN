@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744866"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111706"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -262,6 +262,9 @@ ms.locfileid: "40744866"
 |Babek    | Location1MeetingPolicy        | False   |
 
 Daniela 可以将共享桌面或窗口的控制权交给 Babek 组织的会议中的其他参与者，Babek 无法将控制权授予其他参与者。
+
+> [!NOTE]
+> 若要在共享期间提供和控制共享内容，双方都必须使用团队桌面客户端。 当任何一方在浏览器中运行团队时，不支持控件。 这是由于我们计划修复的技术限制导致的。 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>允许外部参与者授予或请求控制
 

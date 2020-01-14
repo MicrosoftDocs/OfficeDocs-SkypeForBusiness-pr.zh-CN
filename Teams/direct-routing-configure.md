@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023416"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111726"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -453,7 +453,7 @@ John 的一对电话-允许拨打任何号码的电话。 当呼叫雷德蒙数�
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>用户 John 的 "语音路由策略" 的示例
 
-创建 PSTN 使用 "国际"、语音路由 "国际"、"语音路由策略" 无限制，然后将其分配给用户 "John （John）" 的步骤如下所示。
+创建 PSTN 使用 "国际"、语音路由 "国际"、"语音路由策略" 无限制，然后将其分配给用户 "John （John）" 的步骤如下所示。   
 
 
 **步骤 1**：创建 PSTN 使用 "国际"。 

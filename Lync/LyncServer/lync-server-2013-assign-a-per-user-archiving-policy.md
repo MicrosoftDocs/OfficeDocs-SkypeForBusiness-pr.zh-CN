@@ -1,21 +1,21 @@
 ---
-title: 'Lync Server 2013: 分配每用户存档策略'
+title: Lync Server 2013：分配每用户存档策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111576"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户存档策略
 
@@ -24,17 +24,17 @@ ms.locfileid: "34837758"
 
 存档策略是您可以在 Lync Server 2013 "控制面板" 中配置的用户帐户的个人设置之一。
 
-部署一个或多个每用户存档策略是可选的。 你还可以仅部署全局级别的存档策略或网站级别的存档策略。 如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。 当未分配特定的网站级或每用户策略时, 将自动为全局级别的会议策略中定义的存档要求默认设置。
+部署一个或多个每用户存档策略是可选的。 你还可以仅部署全局级别的存档策略或网站级别的存档策略。 如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。 当未分配特定的网站级或每用户策略时，将自动为全局级别的会议策略中定义的存档要求默认设置。
 
-创建了至少一个每用户存档策略后, 请使用本主题中的过程分配适当指定特定用户的内部通信 (外部通信, 或两者) 是否将由服务器存档的策略。
+创建了至少一个每用户存档策略后，请使用本主题中的过程分配适当指定特定用户的内部通信（外部通信，或两者）是否将由服务器存档的策略。
 
-有关创建每用户存档策略的详细信息, 请参阅[在 Lync Server 2013 中创建存档策略, 以启用或禁用特定网站或用户的内部或外部通信的存档](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)。
+有关创建每用户存档策略的详细信息，请参阅[在 Lync Server 2013 中创建存档策略，以启用或禁用特定网站或用户的内部或外部通信的存档](lync-server-2013-create-archiving-policy-sites-users.md)。
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>分配每个用户的存档策略
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左导航栏中，单击“用户”****。
 
@@ -65,24 +65,24 @@ ms.locfileid: "34837758"
     
 
     > [!TIP]  
-    > 如果想要将同一每用户存档策略应用于多个用户, 请在搜索结果中选择 "多个用户", 然后单击 "<STRONG>操作</STRONG>", 然后单击 "<STRONG>分配策略</STRONG>"。
+    > 如果想要将同一每用户存档策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
 
 
 
-7.  在 "**分配策略**" 下的 "**存档策略**" 下, 执行下列操作之一:
+7.  在 "**分配策略**" 下的 "**存档策略**" 下，执行下列操作之一：
     
 
     > [!NOTE]  
-    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
-      - 允许 Lync Server 2013 自动选择全局级别策略或网站级别策略 (如果已定义)。
+      - 允许 Lync Server 2013 自动选择全局级别策略或网站级别策略（如果已定义）。
     
       - 单击您以前在 "**存档策略**" 页面上定义的每用户存档策略的名称。
         
 
         > [!TIP]  
-        > 若要帮助你确定要分配的策略, 请在单击策略名称后单击 "<STRONG>查看</STRONG>" 以查看策略中定义的用户权利和权限。
+        > 若要帮助你确定要分配的策略，请在单击策略名称后单击 "<STRONG>查看</STRONG>" 以查看策略中定义的用户权利和权限。
 
 
 
@@ -90,7 +90,7 @@ ms.locfileid: "34837758"
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户存档策略
 
-你可以使用 Windows PowerShell 和**CsArchivingPolicy** cmdlet 分配每用户存档策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你可以使用 Windows PowerShell 和**CsArchivingPolicy** cmdlet 分配每用户存档策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>将每用户存档策略分配给单个用户
 
@@ -100,7 +100,7 @@ ms.locfileid: "34837758"
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>将每用户存档策略分配给多个用户
 
-  - 此命令将每用户存档策略 RedmondArchivingPolicy 分配给所有帐户驻留在注册机构池 atl-cs-001.litwareinc.com 的用户。 有关此命令中使用的 Filter 参数的详细信息, 请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令将每用户存档策略 RedmondArchivingPolicy 分配给所有帐户驻留在注册机构池 atl-cs-001.litwareinc.com 的用户。 有关此命令中使用的 Filter 参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ ms.locfileid: "34837758"
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息, 请参阅[CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中创建存档策略, 以启用或禁用特定网站或用户的内部或外部通信的存档](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[在 Lync Server 2013 中创建存档策略，以启用或禁用特定网站或用户的内部或外部通信的存档](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [在 Lync Server 2013 中分配每个用户的策略](lync-server-2013-assigning-per-user-policies.md)

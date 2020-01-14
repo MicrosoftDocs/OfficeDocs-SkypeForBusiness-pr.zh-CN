@@ -1,5 +1,5 @@
 ---
-title: 'Help and training '
+title: " Office 365 商业高级版 "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,23 +17,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 商业高级版计划。 '
-ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e9c71da15938bb35956dbbeb2f35288e900623d
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571322"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111696"
 ---
-# <a name="office-365-business-premium"></a>Help and training
+# <a name="office-365-business-premium"></a> Office 365 商业高级版
 
 如果您有[Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Microsoft 团队与您的企业中的其他人进行通话，这些人员属于您的订阅。 例如，如果您的企业有10个人，则可以使用团队互相呼叫和发送即时消息。
 
+
 **若要拨打和接收来自企业外部人员的呼叫，您可以使用以下选项**：
 
-- **选项 1**。 使用[免费的团队应用](https://products.office.com/microsoft-teams/free)。 如果您有一个非常小的企业版（例如，1-2 人），使用 "团队" 应用是更好的方法。 进行国内和国际呼叫的费用较低。 您仍然可以进行1:1 和群组音频和视频通话，并共享演示文稿的桌面。 [比较功能、费率和支付选项](https://products.office.com/microsoft-teams/free)。
+- **选项 1**。 使用[计划中](https://products.office.com/microsoft-teams/free)的 "团队" 应用。 如果您有一个非常小的企业版（例如，1-2 人），使用 "团队" 应用是更好的方法。 这是免费的，您可以通过聊天交流1:1，进行群组音频和视频通话，并分享桌面演示文稿的桌面。 [比较功能、费率和支付选项](https://products.office.com/microsoft-teams/free)。
 
-     我们建议从团队免费开始，看看它是否满足你的需求。 但是，如果不是，您仍有两个选择。
-    
 - **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
 
     1. [切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我们建议您评估企业 E5 套餐，以查看是否更划算。
@@ -41,6 +40,12 @@ ms.locfileid: "37571322"
     2. 如果您决定购买企业版 E5 许可证，它将包含电话系统许可证。 如果您使用企业版 E1 或 E3 许可证，则需要购买 "电话系统" 加载项。
     
     3. 购买[适用于 Office 365 的呼叫计划](../calling-plans-for-office-365.md)：仅在购买 "电话系统" 加载项后，才能购买此套餐。
+
+
+ > [!IMPORTANT]
+ > 如果你已有 O365 Business Premium 许可证，则从门户下载 O365 时，它已包含 Microsoft 团队，以便你可以使用与旧的 Skype for Business 相似的同事和外部人员交谈。 但是，除非获得至少两个附加的许可证，否则您无法从电话接收或拨打电话：
+ >- **电话系统**
+ >- **国内呼叫计划**或**国内和国际呼叫计划**。
 
 ## <a name="how-to-see-prices-and-buy"></a>如何查看价格和购买
 <a name="bkmk_buypremium"> </a>
@@ -76,4 +81,4 @@ ms.locfileid: "37571322"
 
     您将看到电话系统的价格和购买的选项。
 
-4. 购买**电话系统**许可证后，你将看到购买呼叫计划的价格和选项。
+4. 购买**电话系统**许可证后，你将看到通话套餐的价格及其购买选项。

@@ -17,24 +17,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息, 包括通话费用, 以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793077"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111446"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
-新的 Skype for Business 管理中心**报告**区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表, 让您更细致地了解每个用户的活动。 例如，你可以使用 **Skype for Business PSTN 使用详细信息**报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息, 包括通话费用, 以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
+新的 Skype for Business 管理中心**报告**区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 **Skype for Business PSTN 使用详细信息**报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
   
-有关可用报表的详细信息, 请查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
+有关可用报表的详细信息，请查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
-此报告以及其他 Skype for Business 报告提供了有关活动的详细信息, 包括您的组织内的通话使用情况。 在调查、规划和为组织制定其他业务决策以及设置[通信信用点数](/microsoftteams/what-are-communications-credits)时, 这些详细信息非常有用。
+此报告以及其他 Skype for Business 报告提供了有关活动的详细信息，包括您的组织内的通话使用情况。 在调查、规划和为组织制定其他业务决策以及设置[通信信用点数](/microsoftteams/what-are-communications-credits)时，这些详细信息非常有用。
   
 > [!NOTE]
-> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时，您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>如何获取 Skype for Business PSTN 使用详细信息报告
 
@@ -59,60 +59,58 @@ ms.locfileid: "35793077"
 *    " **用户 ID**"是用户的登录名。
 *    "**电话号码**" 是接收入站通话呼叫或拨出拨出电话的号码的 Skype for business 电话号码。
 *    **用户位置**是用户所在的国家/地区。
-*    呼叫**方 ID**是呼叫者的电话号码 (来电显示), 用于拨入呼叫、呼叫发出的号码或 Skype for business 号码, 呼叫来自该电话拨出的电话。
-*    **呼叫类型**指示呼叫是 PSTN 传出还是传入呼叫, 以及呼叫类型, 例如由用户或音频会议发出的呼叫。 您可能看到的呼叫类型如下: 
+*    呼叫**方 ID**是呼叫者的电话号码（来电显示），用于拨入呼叫、呼叫发出的号码或 Skype for business 号码，呼叫来自该电话拨出的电话。
+*    **呼叫类型**指示呼叫是 PSTN 传出还是传入呼叫，以及呼叫类型，例如由用户或音频会议发出的呼叫。 您可能看到的呼叫类型如下： 
 
      **通话计划呼叫类型** 
-     *    **user_in**(用户收到入站 PSTN 呼叫) 
-     *    **user_out**(用户发出了出站 PSTN 呼叫) 
-     *    **user_out_conf**(用户向呼叫添加2个或更多 PSTN 参与者, 如3路会议呼叫) 
-     *    **user_out_transfer**(用户已将呼叫转移到 PSTN 号码) 
-     *    **user_out_forwarding**(用户将呼叫转移到 PSTN 号码)
+     *    **user_in** （用户收到入站 PSTN 呼叫） 
+     *    **user_out** （用户发出出站 PSTN 呼叫） 
+     *    **user_out_conf** （用户向呼叫添加2个或更多 PSTN 参与者，如 "3 路会议呼叫"） 
+     *    **user_out_transfer** （用户已将呼叫转移到 PSTN 号码） 
+     *    **user_out_forwarding** （用户将呼叫转接到 PSTN 号码）
 
      **音频会议呼叫类型**
-     *    **conf_in**(对音频会议网桥的入站呼叫) 
-     *    **conf_out**(来自音频会议网桥的出站呼叫通常用于向会议添加 PSTN 号码)
+     *    **conf_in** （对音频会议网桥的入站呼叫） 
+     *    **conf_out** （来自音频会议桥的出站呼叫，通常是向会议添加 PSTN 号码）
 
-     **统一通信应用程序 (UCAP)** 
-     *    **ucap_in**(对 UC 应用程序 (如自动助理或呼叫队列) 的入站 PSTN 呼叫 
-     *    **ucap_out**(来自 UC 应用程序的出站 PSTN 呼叫, 如自动助理或呼叫队列)
-     *    **注意:** 从 UC 应用程序 (如自动助理或呼叫队列) 转移到用户的呼叫不会显示在 PSTN 使用报告中, 因为这些呼叫条是对等 (P2P) 音频呼叫。 你可以在 "工具 > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫, 并按用户名或 SIP 地址进行搜索, 按日期/时间和/或始发 CLID (呼叫行 ID) 将呼叫关联起来。 
+     **统一通信应用程序（UCAP）** 
+     *    **ucap_in** （对 UC 应用程序（如自动助理或呼叫队列）的入站 PSTN 呼叫 
+     *    **ucap_out** （来自 UC 应用程序的出站 PSTN 呼叫，如自动助理或呼叫队列）
+     *    **注意：** 从 UC 应用程序（如自动助理或呼叫队列）转移到用户的呼叫不会显示在 PSTN 使用报告中，因为这些呼叫条是对等（P2P）音频呼叫。 你可以在 "工具 > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫，并按用户名或 SIP 地址进行搜索，按日期/时间和/或始发 CLID （呼叫行 ID）将呼叫关联起来。 
 *     
-     "**国内/国际**" 告诉您所拨的电话是否被视为国内 (在国家/地区内) 还是国际 (国家/地区外) 的电话 (基于用户的位置)。 
-*    "**目的地已拨**" 表示拨打的国家/地区目的地的名称, 如法国、德国或美国 (美国)。 
+     "**国内/国际**" 告诉您所拨的电话是否被视为国内（在国家/地区内）还是国际（国家/地区外）的电话（基于用户的位置）。 
+*    "**目的地已拨**" 表示拨打的国家/地区目的地的名称，如法国、德国或美国（美国）。 
 *    **Number type**指由用户电话号码、服务或免费电话号码组成的电话号码类型。  
 *    " **开始时间(UTC)**"是开始或拨打呼叫的时间。 
 *    " **持续时间**"是接听呼叫的时间。  
 *    **ConfID**是音频会议的会议 ID。 
 *    "**费用**" 表示支付给您的帐户的通话的金额或费用。 
 *    **货币**是用于计算通话费用的货币类型。 
-*    **功能**是用于通话的许可证。 你可能会看到的许可证类型如下: 
-     *    **MCOPSTNPP** -通讯信用点数 <br/> **MCOPSTN1** -国内通话计划 (3000, 美国/1200 最少欧盟计划) 
+*    **功能**是用于通话的许可证。 你可能会看到的许可证类型如下： 
+     *    **MCOPSTNPP** -通讯信用点数 <br/> **MCOPSTN1** -国内通话计划（3000，美国/1200 最少欧盟计划） 
      *    **MCOPSTN2** -国际通话计划 
-     *    **MCOPSTN5** -国内通话计划 (120 分钟通话计划) 
-     *    **MCOPSTN6** -国内通话计划 (240 min 通话计划) 注意: 可用性有限
+     *    **MCOPSTN5** -国内通话计划（120分钟通话计划） 
+     *    **MCOPSTN6** -国内通话计划（240 min 通话计划）注意：可用性有限
      *    **MCOMEETADD** -音频会议
      *    **MCOMEETACPEA** -每分钟支付的音频会议
 > [!NOTE]
-> 如果您想要运行报告以仅包括您的通话或会议订阅中未包括的每分钟费率通话, 请使用 "MCOPSTNPP" 功能筛选报告。 这样做将提供所有按分钟付费通话的明细。  对于每分钟支付的音频会议, 请按 "MCOMEETACPEA" 而不是 "MCOPSTNPP" 进行筛选。  
+> 如果您想要运行报告以仅包括您的通话或会议订阅中未包括的每分钟费率通话，请使用 "MCOPSTNPP" 功能筛选报告。 这样做将提供所有按分钟付费通话的明细。  对于每分钟支付的音频会议，请按 "MCOMEETACPEA" 而不是 "MCOPSTNPP" 进行筛选。  
 ***
 > [!NOTE]
-> 在某些字段中, 您可能还会看到 "无数据"。 "无数据" 表示该字段不适用于通话类型或功能。 
+> 在某些字段中，您可能还会看到 "无数据"。 "无数据" 表示该字段不适用于通话类型或功能。 
 ***
 > [!NOTE]
-> 如果您有 Telstra 呼叫计划, 则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 以满足您的报告需求。 
+> 如果您有 Telstra 呼叫计划，则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 以满足您的报告需求。 
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
-![第三](../images/sfbcallout3.png)<br/>您也可以通过单击或点击 "**导出到 excel** " 按钮, 将报告数据导出到带标签的 excel 文件。 您最多可以从当前日期导出一年的数据。<br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![第三](../images/sfbcallout3.png)<br/>还可以通过单击或点击 "**导出到 excel** " 按钮，将报告数据导出为逗号分隔的 excel 文件。 您可以从当前日期导出一年的数据，除非国家特定的规定禁止将数据保留12个月。<br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
 - [Skype For business 活动报告](activity-report.md)你可以查看你的用户使用对等、组织和参与会议会话的数量。
     
-- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看设备, 包括安装了 Skype for Business 应用的基于 Windows 的操作系统和移动设备并将其用于即时消息和会议。
+- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看设备，包括安装了 Skype for Business 应用的基于 Windows 的操作系统和移动设备并将其用于即时消息和会议。
     
 - [Skype for business 会议组织者活动报告](conference-organizer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享、Web、/dial 外接程序和/dial 注销的方式组织的会议量。
     

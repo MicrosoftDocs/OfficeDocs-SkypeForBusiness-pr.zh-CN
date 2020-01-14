@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：为 Skype for business Server 合成事务安装和配置观察程序节点。
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992439"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104481"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安装和配置观察程序节点
  
@@ -192,7 +192,7 @@ New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqd
 Enable-CsTopology
 ```
 
-运行 Enable-CsTopology 后，重新启动计算机。
+观察程序节点计算机帐户要求能够查询某些合成事务的 CMS。 若要允许此功能，请将观察程序节点的计算机帐户添加到 RTCUniversalReadOnlyAdmins 安全组。 广告复制发生后，重新启动计算机。
   
 若要验证是否已创建新的受信任的应用程序，请在 Skype for Business Server Management Shell 提示符处键入以下内容：
   

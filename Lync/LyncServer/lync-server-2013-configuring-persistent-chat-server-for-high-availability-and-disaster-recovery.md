@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205364(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205364(v=OCS.15)
 ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c42edb14102b9bbf91b06804c365980a6e19345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9ceda51485b0f4f9fde33a9499ca05998176b3
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837191"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中为持久聊天服务器配置高可用性和灾难恢复
 
@@ -33,9 +33,9 @@ ms.locfileid: "34837191"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-Lync Server 2013、持久聊天服务器服务使用*扩展池*配置进行灾难恢复。 延伸池是一种池, 它具有在两个物理数据中心之间分布但位于单个逻辑 Lync 服务器网站内的计算机。
+Lync Server 2013、持久聊天服务器服务使用*扩展池*配置进行灾难恢复。 延伸池是一种池，它具有在两个物理数据中心之间分布但位于单个逻辑 Lync 服务器网站内的计算机。
 
 <div>
 
@@ -51,7 +51,7 @@ Lync Server 2013、持久聊天服务器服务使用*扩展池*配置进行灾�
 
   - [在 Lync Server 2013 中为持久聊天服务器主数据库设置 SQL Server 日志传送](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [在 Lync Server 2013 中在主镜像和日志传送辅助数据库之间设置 SQL Server 日志传送](lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md)
+  - [在 Lync Server 2013 中在主镜像和日志传送辅助数据库之间设置 SQL Server 日志传送](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

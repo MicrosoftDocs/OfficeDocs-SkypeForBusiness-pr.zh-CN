@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：利用本主题准备 Skype for Business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议均可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: a028ce7265718c0ce14b103bca8dcdb416e72885
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8a3771f66a2fe83f8772a8a5a07f643d372d7c1d
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989277"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104421"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的服务器要求
  
@@ -72,7 +72,7 @@ ms.locfileid: "40989277"
 |Windows Server 2012 R2 Datacenter OS，已安装所有必需的更新。  <br/> |Windows Server 2012 R2 Standard OS，已安装所有必需的更新。  <br/> |
 |Windows Server 2012 Datacenter OS，已安装所有必需的更新。  <br/> |Windows Server 2012 Standard OS，已安装所有必需的更新。  <br/> |
    
-如果操作系统不在此列表中，则不会正常运行，请勿对新安装的 Skype for Business Server 2015 进行尝试。
+如果它不在此列表中，它将无法正常工作，请不要尝试安装 Skype for business Server 2015 的新安装。 请注意，Lync Server 2013 不支持就地升级操作系统。  必须部署单独的池并将用户迁移到具有不同操作系统的新池。
   
 > [!NOTE]
 > 你或许已经注意到，此列表中未包含 Windows Server 2008 R2。 因为我们建议为所有用于 SFB 的新服务器使用 Windows Server 2012 R2。 只有在现有服务器已经安装 Lync Server 2013，并且希望对其执行就地升级的情况下，才应使用 Windows Server 2008 R2。 Windows Server 2008 R2 已于 2015 年 1 月 13 日终止主流支持生命周期，并将于 2020 年 1 月 14 日终止支持生命周期。
@@ -95,8 +95,8 @@ Skype for Business Server 2015 Enterprise Edition 略为复杂，但下方给出
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Enterprise（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Enterprise（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise（64 位版），建议运行最新 Service Pack。  <br/> |
-|Microsoft SQL Server 2019 Standard（64 位版），建议运行最新 Service Pack。 <br/> |Microsoft SQL Server 2017 Standard（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Standard（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Standard（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard（64 位版），建议运行最新 Service Pack。  <br/> |
+|Microsoft SQL Server 2019 企业版（64 位版本），建议运行最新的 Service Pack。 <br/> |Microsoft SQL Server 2017 Enterprise（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Enterprise（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Enterprise（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Enterprise（64 位版），建议运行最新 Service Pack。  <br/> |
+|Microsoft SQL Server 2019 标准版（64 位版本），建议运行最新的 Service Pack。 <br/> |Microsoft SQL Server 2017 Standard（64 位版），建议运行最新 Service Pack。 <br/> |带有 Service Pack 1 或更高版本的 Microsoft SQL Server 2016 Standard（64 位版），并且必须运行 Skype for Business 累积更新 7 或更高版本（[下载 Skype for Business 累积更新](https://support.microsoft.com/help/3061064)）。  <br/> |Microsoft SQL Server 2014 Standard（64 位版），并且必须运行累积更新 6 或更高版本（[下载累积更新 6](https://support.microsoft.com/kb/3031047/)）。  <br/> |Microsoft SQL Server 2012 Standard（64 位版），建议运行最新 Service Pack。  <br/> |
    
 如果你想使用的 SQL Server 版本未列于此处，则不能使用。
   

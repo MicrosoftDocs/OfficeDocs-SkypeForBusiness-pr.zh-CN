@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：利用本主题准备 Skype for Business Server 2019 服务器和域基础结构。 这里提供了硬件、OS、数据库、软件、所有系统要求和建议以及证书 DNS、文件共享和 Active Directory 信息，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988807"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111376"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 的系统要求
  
@@ -92,7 +92,7 @@ ms.locfileid: "40988807"
 |Windows Server 2016 <br/> ||
 ||
    
-除此处列出的操作系统外，其他任何操作系统均无法正常工作；请不要尝试使用其他操作系统来安装 Skype for Business Server 2019。 例如，“服务器核心”选项未列出，因此它不受支持。
+除此处列出的操作系统外，其他任何操作系统均无法正常工作；请不要尝试使用其他操作系统来安装 Skype for Business Server 2019。 例如，“服务器核心”选项未列出，因此它不受支持。  注意： Lync Server 2013 不支持操作系统就地升级。  必须部署单独的池并将用户迁移到具有不同操作系统的新池。
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ ms.locfileid: "40988807"
 |**软件/角色**|**详细信息**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |所有 Skype for Business Server 服务器均需安装 Windows PowerShell 3.0。  <br/> • 默认情况下，它应随 Windows Server 2016 一起安装。<br/> |
-|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，最初无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保已经选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果你看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，你可以继续操作。  <br/> 如果已安装 Windows Server 2016，通常会安装 Microsoft .NET Framework。 但是，Skype for Business Server 需要 Microsoft .NET Framework 4.7 或 4.8，因此你可能需要更新它。 可在[此处](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)查找更新<br/> |
+|Microsoft .NET Framework  <br/> |WCF 服务**功能**作为**服务器管理器**下的 Windows 功能安装，最初无需下载。 <br/> • 在安装此功能时，或者在系统中已经安装此功能而你在执行检查时，务必确保已经选中并且安装了 **HTTP 激活**选项，如下所示： <br/> ![屏幕截图显示 .NET Framework 4.5 功能下的 HTTP 激活选项。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果你看到另一则弹出信息，表示要安装“HTTP 激活”，还需要安装其他某些功能，请不必担心。 这种情况非常正常，只要单击“确定”，继续操作即可。 如果未看到此弹出信息，则可以假设这些功能均已安装，你可以继续操作。  <br/> 如果已安装 Windows Server 2016，通常会安装 Microsoft .NET Framework。 但是，Skype for Business Server 需要 Microsoft .NET Framework 4.7 或 4.8，因此你可能需要更新它。 可在[此处](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)查找更新<br/> |
 |媒体基础  <br/> |对于 Windows Server 2016，请使用 Microsoft 媒体基础安装 Windows Media Format Runtime。  <br/> 所有用于会议的前端服务器和标准版服务器都需要 Windows Media Format Runtime 来运行 Windows Media Audio (.wma) 文件，呼叫寄存、公告和响应组应用程序将通过该文件来播放公告和音乐。  <br/> |
 |Windows Identity Foundation  <br/> |我们需要 Windows Identity Foundation 3.5 来支持 Skype for Business Server 2019 的服务器到服务器身份验证情景。  <br/> • 对于 Windows Server 2016，不需要下载任何内容。 打开**服务器管理器**，转到**添加角色和功能向导**。 **Windows Identity Foundation 3.5** 在**功能**部分列出。 如果它已选中，则没有问题。 否则请选中它，并单击“**下一步**”，然后单击“**安装**”按钮。 <br/> |
 |远程服务器管理工具  <br/> |角色管理工具：AD DS 和 AD LDS 工具  <br/> |
@@ -273,7 +273,7 @@ Microsoft SQL Server 2016（64 位版本），并且必须运行最新更新。|
     
 这些环境中能否有只读域控制器？ 当然可以，只要另外有可写入的域控制器即可。
   
-请务必知悉，Skype for Business Server 2019 不支持单标签域。 单标签域是什么？ 如果一个根域带有 contoso.local 标签，那么不会有任何问题。 而如果一个根域直接命名为 local，则无法工作，也就是说不支持这种命名方式。 [知识库中的这篇文章](https://support.microsoft.com/kb/300684/en-us)略为详细地介绍了相关内容。
+请务必知悉，Skype for Business Server 2019 不支持单标签域。 单标签域是什么？ 如果一个根域带有 contoso.local 标签，那么不会有任何问题。 而如果一个根域直接命名为 local，则无法工作，也就是说不支持这种命名方式。 [知识库中的这篇文章](https://support.microsoft.com/kb/300684/)略为详细地介绍了相关内容。
   
 Skype for Business Server 2019 也不支持重命名域。 如果确实必须重命名域，则需要卸载 Skype for Business Server 2019，重命名域，然后重新安装 Skype for Business Server 2019。
   
@@ -468,7 +468,7 @@ Skype for Business Server 2019 还支持（但并非必要）使用 SHA-256 加�
   
 |**证书**|**使用者名称/公用名称**|**使用者替代名称**|**示例**|**批注**|
 |:-----|:-----|:-----|:-----|:-----|
-|默认值  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
+|默认  <br/> |池的 FQDN  <br/> |池的 FQDN 和服务器的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者可选名称中。  <br/> 也可将此证书用于服务器到服务器身份验证。  <br/> |
 |Web 内部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 内部 Web FQDN（与服务器的 FQDN 不同）  <br/> • 服务器 FQDN  <br/> • Skype for Business 池 FQDN  <br/> 和  <br/> • 会议简单 URL  <br/> • 拨入简单 URL  <br/> • 管理简单 URL  <br/> 或  <br/> • 简单 URL 的通配符条目  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |如果您有多个会议简单 URL，则必须将它们作为使用者可选名称全部添加。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
 |Web 外部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> • 外部 Web FQDN  <br/> 和  <br/> • 拨入简单 URL  <br/> • 管理简单 URL  <br/> 或  <br/> • 简单 URL 的通配符条目  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> 使用通配符证书：  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |如果您有多个会议简单 URL，则必须将它们作为使用者可选名称全部添加。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
@@ -541,7 +541,7 @@ Skype for Business Server 2019 支持为访问和 Web 会议边缘外部接口�
 
 Skype for Business Server 2019 可以对所有文件存储使用相同的文件共享。 但您需要注意以下事项：
   
-- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 有关 Windows Server 2012 的 DFS 的更多信息，请查看[此 DFS 页面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
+- 文件共享需要置于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，其中包括分布式文件系统 (DFS) 以及文件存储的独立磁盘冗余阵列 (RAID)。 有关 Windows Server 2012 的 DFS 的更多信息，请查看[此 DFS 页面](https://technet.microsoft.com/library/jj127250.aspx)。
     
 - 建议为文件共享使用共享群集。 如果你已有共享群集，应该将 Windows Server 2012 或更高版本加入群集
 

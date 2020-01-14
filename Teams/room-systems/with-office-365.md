@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Office 365 中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675436"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104471"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 
@@ -205,7 +205,7 @@ ms.locfileid: "38675436"
 
 4. 单击“**许可证**”选项。
 
-5. 在 "**分配许可证**" 部分中，你需要选择 "Skype For business Online （计划2）" 或 "skype For business Online （计划3）"，具体取决于你的许可以及你根据需要企业语音确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。
+5. 在 "**分配许可证**" 部分中，你需要选择 "Skype For business Online （计划2）" 或 "skype For business Online （计划3）"，具体取决于你的许可以及你根据需要企业语音确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](skype-room-systems-v2.md)。
 
 6. 单击“**保存**”完成任务。
 
@@ -263,4 +263,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [管理 Microsoft Teams 会议室](skype-room-systems-v2.md)
 
-[Microsoft 团队聊天室许可](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft 团队聊天室许可](skype-room-systems-v2.md)

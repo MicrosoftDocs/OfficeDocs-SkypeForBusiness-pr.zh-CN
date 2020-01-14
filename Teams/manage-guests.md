@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753287"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111356"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753287"
 > [!IMPORTANT]
 > 您可能需要等待24小时才能使更改生效。 
 
-**来宾**是 Microsoft 团队中的一种用户类型，包含在所有 Office 365 Business Premium、Office 365 企业版和 Office 365 教育版订阅中。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
+**来宾**是 Microsoft 团队中的一种用户类型，其中包括所有 Office 365 Business Premium、Office 365 企业版、Office 365 Business Essentials 和 Office 365 教育版订阅。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
 
 Teams 来宾访问是租户级别设置，默认情况下关闭。 有关如何启用来宾访问的详细信息，请参阅[打开或关闭对团队的来宾访问](set-up-guests.md)，或使用[来宾访问清单](guest-access-checklist.md)引导你完成设置。
 
@@ -47,7 +47,7 @@ IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策�
 
 ## <a name="guest-access-licensing-limits"></a>来宾访问许可限制
 
-团队不会限制可添加的来宾数量。 但是，可添加到租户的来宾的总数基于你的 Azure AD 授权所允许的数量-通常是每个许可用户的5位来宾。 有关详细信息，请参阅[AZURE AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+Teams 不限制可添加的来宾数量。 但是，可添加到租户的来宾总数取决于 Azure AD 许可所允许的数量（通常为每个许可用户可添加 5 个来宾）。 有关详细信息，请参阅 [Azure AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 由于这些许可限制（并使你的租户保持最新），你应定期查看来宾访问权限，以确定具有不再需要的访问权限的用户。 你可以使用 Azure AD 为组成员或分配到应用程序的用户创建访问审核。 创建定期访问评论可节省您的时间。 如果需要定期查看有权访问应用程序或组成员的用户，您可以定义这些评论的频率。 
 
@@ -64,7 +64,7 @@ Access 评论适用于 Azure AD 高级 P2 版本，它包含在 Microsoft 企业
 对于 Azure Active Directory 中的来宾访问设置，更改会在你的 Office 365 组织中生效2-24 小时。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未打开，或者设置尚未生效。 有关设置来宾访问时出现问题的帮助，请阅读[团队中的来宾访问的疑难解答](troubleshoot-guest-access.md)。
 
   
-## <a name="external-access-federation-vs-guest-access"></a>外部访问（联盟）与来宾访问
+## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
