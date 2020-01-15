@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111706"
+ms.locfileid: "41120391"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -120,7 +120,7 @@ ms.locfileid: "41111706"
 
 ### <a name="allow-channel-meeting-scheduling"></a>允许频道会议安排
 
-这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中安排会议。  如果关闭此功能，则当用户在团队频道中启动会议时，"**安排会议**" 选项将不可用，并且当用户在团队中安排会议时，不会向用户提供 "**选择要满足的频道**" 选项。
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中安排会议。  如果关闭此功能，则当用户在团队频道中启动会议，并且为团队中的用户禁用 "**添加频道**" 选项时，"**安排会议**" 选项将不可用。
 
 ![显示团队中的 "安排会议" 选项的屏幕截图](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "41111706"
 
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队中安排私人会议。 当会议未发布到团队中的频道时，它是私有的。
 
-请注意，如果关闭 "**允许安排私人会议**" 和 "**允许频道会议计划**"，则 "**安排会议**" 选项将不可用，并且用户将无法在团队中安排会议。
+请注意，如果关闭 "**允许安排私人会议**" 和 "**允许频道会议计划**"，则会为团队中的用户禁用 "**添加必需与会者**" 和 "**添加频道**" 选项。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,8 +263,10 @@ ms.locfileid: "41111706"
 
 Daniela 可以将共享桌面或窗口的控制权交给 Babek 组织的会议中的其他参与者，Babek 无法将控制权授予其他参与者。
 
+若要使用 PowerShell 控制哪些人可以授予控制请求或接受控制请求，请使用 AllowParticipantGiveRequestControl cmdlet。
+
 > [!NOTE]
-> 若要在共享期间提供和控制共享内容，双方都必须使用团队桌面客户端。 当任何一方在浏览器中运行团队时，不支持控件。 这是由于我们计划修复的技术限制导致的。 
+> 若要在共享期间提供和控制共享内容，双方都必须使用团队桌面客户端。 如果任何一方在浏览器中运行 Teams，则不支持控制。 这是由我们计划修复的一个技术限制造成。 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>允许外部参与者授予或请求控制
 
@@ -276,6 +278,8 @@ Daniela 可以将共享桌面或窗口的控制权交给 Babek 组织的会议�
    - 联合用户  
 
 联盟用户是否可以向外部用户授予控制权，同时共享受允许外部参与者在其组织中**授予或请求控制**设置的控制。
+
+若要使用 PowerShell 控制外部参与者是否可以授予控制或接受控制请求，请使用 AllowExternalParticipantGiveRequestControl cmdlet。
 
 ### <a name="allow-powerpoint-sharing"></a>允许 PowerPoint 共享
 
