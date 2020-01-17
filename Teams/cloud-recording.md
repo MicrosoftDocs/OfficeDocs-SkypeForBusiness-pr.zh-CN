@@ -14,14 +14,17 @@ search.appverid: MET150
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7c2a3cac9c61851f9b4c7a6026d94058568b1667
+ms.sourcegitcommit: f1df996a7368fb8f447af877bc2e9f4d4d925f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516937"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41217695"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
+
+> [!IMPORTANT]
+> **将来，我们正在进行配置更改**，在这种情况下，将为团队数据存储在全国范围内的客户打开团队会议录制功能，即使 Microsoft Stream 在国内数据派驻区域中不可用。 当此更改生效时，默认情况下，会议录制将存储在最接近的 Microsoft Stream 区域中。 如果你的团队数据存储在国家/地区，并且你希望在国家/地区存储会议录制，我们建议你关闭会议录制，然后在将 Microsoft Stream 部署到你的国内区域后将其打开。 若要了解详细信息，请参阅[会议录制的存储位置](#where-your-meeting-recordings-are-stored)。
 
 在 Microsoft 团队中，用户可以记录其团队会议和群组通话，以捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制将在云中发生，并保存到[Microsoft Stream](https://docs.microsoft.com/stream/)，以便用户可以安全地在其组织中共享它。
 
@@ -64,9 +67,13 @@ Microsoft Stream 作为符合条件的 Office 365 订阅的一部分或作为独
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>打开或关闭云录制
 
-使用团队 PowerShell 中 TeamsMeetingPolicy 中的设置 AllowCloudRecording 来控制是否允许录制用户的会议。 你可以在[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)了解有关管理 TeamsMeetingPolicy 365 的详细信息。
+你可以使用 Microsoft 团队管理中心或 PowerShell 设置团队会议策略，以控制是否可以录制用户的会议。
 
-请注意，会议组织者和录制发起人都需要拥有录制会议的录制权限。 除非已向用户分配了自定义策略，否则用户将获取全局策略，默认情况下，AllowTranscription 禁用该策略。
+在 Microsoft 团队管理中心，打开或关闭会议策略中的 "**允许云录制**" 设置。 若要了解详细信息，请参阅[管理团队中的会议策略](meeting-policies-in-teams.md#allow-cloud-recording)。
+
+使用 PowerShell，在 TeamsMeetingPolicy 中配置 AllowCloudRecording 设置。 若要了解详细信息，请参阅[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)和[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
+
+请注意，会议组织者和录制发起人都需要拥有录制会议的录制权限。 除非已向用户分配了自定义策略，否则用户将获取全局策略，默认情况下，AllowCloudRecording 禁用该策略。
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
@@ -85,15 +92,37 @@ Microsoft Stream 作为符合条件的 Office 365 订阅的一部分或作为独
 | 我希望大多数用户能够录制他们的会议，但有选择地禁用不允许录制的特定用户 |        <ol><li>确认 GlobalCsTeamsMeetingPolicy 具有 AllowCloudRecording = True<li>大多数用户都具有全局 CsTeamsMeetingPolicy 或具有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一<li>所有其他用户均已被授予 CsTeamsMeetingPolicy 策略之一，其中 AllowCloudRecording = False</ol>         |
 |                                                   我想将录制的内容禁用100%                                                   |                                                                <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>所有用户均已被授予全局 CsTeamsMeetingPolicy 或 CsTeamsMeetingPolicy 策略之一，AllowCloudRecording = False                                                                 |
 |      我希望为大多数用户禁用录制，但有选择地启用允许录制的特定用户       | <ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowCloudRecording = False<li>大多数用户已被授予全局 CsTeamsMeetingPolicy 或 CsTeamsMeetingPolicy 策略之一，AllowCloudRecording = False<li>所有其他用户均已被授予 CsTeamsMeetingPolicy 策略之一，其中 AllowCloudRecording = True <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+#### <a name="where-your-meeting-recordings-are-stored"></a>会议录制的存储位置
+
+会议录制存储在 Microsoft Stream 云存储中。 当前，如果在存储数据的国内数据派驻区域中未提供 Microsoft Stream，则团队数据存储在国家/地区的客户的会议录制功能将处于关闭状态。 将来，如果客户的数据存储在全国，即使 Microsoft Stream 在国内数据派驻区域中不可用，该会议录制功能也将被打开。
+
+当此更改生效时，默认情况下，会议录制将存储在 Microsoft Stream 最近的地理区域中。 如果你的团队数据存储在国家/地区，并且你希望在国家/地区存储会议录制，我们建议你关闭该功能，然后在将 Microsoft Stream 部署到你的国家数据派驻区域后将其打开。 若要为组织中的所有用户关闭该功能，请在 Microsoft 团队管理中心的 "全局团队会议策略" 中关闭 "**允许云录制**" 设置。
+
+下面是当你在此更改生效时打开会议录制时所发生的情况的摘要：
+
+|如果打开会议录制 .。。 |已存储会议录制 .。。  |
+|---------|---------|
+|在您的国内数据派驻区域中使用 Microsoft Stream 之前    |在最接近的 Microsoft Stream 区域中         |
+|Microsoft Stream 在您的国内数据派驻区域中可用后    | 在您所在国家/地区内数据派驻区域        |
+
+对于尚未启用会议录制的新的和现有租户，在国内数据派驻区域中提供 Microsoft Stream 后，新的录制将存储在国家/地区。 但是，在 Microsoft Stream 在国内数据派驻区域中可用之前启用会议录制的任何租户将继续使用 Microsoft Stream 存储（对于现有的和新的录制），即使 Microsoft Stream 在国内数据派驻区域。
+
+若要查找存储 Microsoft Stream 数据的区域，请在 Microsoft Stream 中单击 **？** 在右上角，单击 "**关于 Microsoft Stream**"，然后单击**存储数据**。  若要了解有关 Microsoft Stream 存储数据的地区的详细信息，请参阅[Microsoft STREAM 常见问题](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
+
+若要了解有关在 Office 365 中跨服务存储数据的位置的详细信息，请参阅[您的数据位于何处？](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制脚本
 
-当用户记录其团队会议时，他们可以确认是否应在录制会议后自动生成记录。 如果管理员已禁用会议组织者和录制发起人的脚本功能，则录制发起人将不会获得稍后将会议录制的选择。
+当用户记录其团队会议时，他们可以确认是否应在录制会议后自动生成记录。 如果为会议组织者和录制发起人禁用了脚本功能，则录制发起人将无法选择稍后将会议录制。
 
-使用团队 PowerShell 中 TeamsMeetingPolicy 中的设置 AllowTranscription 来控制录制发起人是否可以选择稍后将会议录制。 你可以在[此处](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)了解有关管理 TeamsMeetingPolicy 365 的详细信息。
+你可以使用 Microsoft 团队管理中心或 PowerShell 设置团队会议策略，以控制录制发起人是否可以选择稍后将会议录制。
 
-除非已向用户分配了自定义策略，否则他们将获得全局策略，默认情况下，AllowTranscription 禁用该策略。
+在 Microsoft 团队管理中心，打开或关闭会议策略中的 "**允许**脚本安装" 设置。 若要了解详细信息，请参阅[管理团队中的会议策略](meeting-policies-in-teams.md#allow-transcription)。
+
+使用 PowerShell，在 TeamsMeetingPolicy 中配置 AllowTranscription 设置。 若要了解详细信息，请参阅[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)和[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
+
+除非已向用户分配了自定义策略，否则用户将获取全局策略，默认情况下，AllowTranscription 禁用该策略。
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
@@ -118,15 +147,13 @@ Microsoft Stream 作为符合条件的 Office 365 订阅的一部分或作为独
 1小时录制的大小为 400 MB。 请确保你了解录制的文件所需的容量，并在 Microsoft Stream 中提供足够的存储空间。  阅读[本文](https://docs.microsoft.com/stream/license-overview)以了解订阅中包含的基本存储以及如何购买更多存储空间。
 
 ## <a name="manage-meeting-recordings"></a>管理会议录制
+
 会议录制被视为租户拥有的内容。 如果录制的所有者离开公司，管理员可以在 "管理员模式" 下的 Microsoft Stream 中打开录制视频 URL。 管理员可以删除录制、更新任何录制元数据或更改录制视频的权限。 了解有关[流中的管理员功能的](https://docs.microsoft.com/stream/manage-content-permissions)详细信息。
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>适用于会议录制的合规性和电子数据展示
+
 会议录制存储在 Microsoft Stream 中，该流是 Office 365 与第 C 版兼容的 Office。 若要支持针对 Microsoft 流感兴趣的合规性管理员的电子查询请求，请在 Microsoft 团队的合规性内容搜索功能中提供录制已完成消息。 合规性管理员可以在合规性内容搜索预览中查找项目主题行中的关键字 "录制"，并发现组织中的会议和呼叫录制。 他们查看所有录制的先决条件是需要在 Microsoft Stream 中使用管理员访问设置。 了解有关[在流中分配管理员权限的](https://docs.microsoft.com/stream/assign-administrator-user-role)详细信息。
 
-## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
+## <a name="related-topics"></a>相关主题
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。 若要开始使用 Windows PowerShell，请参阅下列主题：
-
-- [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-- [为 Windows PowerShell 设置计算机](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+- [Teams PowerShell 概览](teams-powershell-overview.md)
