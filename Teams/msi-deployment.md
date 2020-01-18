@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4a14876f359b2742a04461671ccaefd523ef3f1
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
+ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111536"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233271"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "41111536"
 3. 将 MSI 程序包重新部署到该特定计算机。
 
 > [!TIP]
-> 你可以使用[Microsoft 团队部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)脚本，通过 SCCM 完成步骤1和2。
+> 你可以使用[Microsoft 团队部署清理](scripts/powershell-script-teams-deployment-clean-up.md)脚本，通过 SCCM 完成步骤1和2。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止团队在安装后自动启动
 
@@ -93,6 +93,9 @@ MSI 的默认行为是在用户登录后立即安装团队应用，然后自动�
 如果在安装团队之前启用此策略设置，则当用户登录到 Windows 时不会自动启动团队。 用户首次登录到团队后，团队将在下次用户登录时自动启动。
 
 若要了解详细信息，请参阅[使用组策略防止团队在安装后自动启动](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)。
+
+> [!CAUTION]
+> 如果已部署团队并希望将此策略设置为禁用团队 autostart，请首先将组策略设置设置为所需的值，然后运行团队 "在每个用户基础上[自动启动脚本重置脚本](scripts/powershell-script-teams-reset-autostart.md)"。
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>禁用 MSI 安装程序的自动启动
 
