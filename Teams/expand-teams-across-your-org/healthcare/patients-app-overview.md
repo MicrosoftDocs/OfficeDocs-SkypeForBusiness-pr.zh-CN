@@ -11,30 +11,29 @@ localization_priority: Normal
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 7f451f212bdb289d19588a2b908394d7673ee69f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
+ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38001325"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259061"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
-患者应用程序是适用于所有团队用户的 Microsoft 团队应用商店应用程序。 该应用支持由临床工作者（如护士、医生、社会工作者）组成的患者护理团队，可策展和查看患者的列表，这些方案包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。   
+患者应用程序是适用于所有团队用户的 Microsoft 团队应用商店应用程序。 该应用支持由临床工作者（如护士、医生、社会工作者）组成的患者护理团队，可策展和查看患者的列表，这些方案包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。
 
-应用具有两种模式： 
+应用具有两种模式：
 
-- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在 teamsforhealthcare@service.microsoft.com 中删除 Microsoft 电子邮件，获取有关 Office 365 租户的信息，请求对应用的访问权限。 
+- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在 teamsforhealthcare@service.microsoft.com 中删除 Microsoft 电子邮件，获取有关 Office 365 租户的信息，请求对应用的访问权限。
 - 允许护理团队手动添加/添加患者信息的手动模式。 应用程序位于团队应用商店中，供最终用户在默认情况下下载并处于公共预览版中。 使用[Microsoft 团队中的应用设置策略](../../teams-app-setup-policies.md)，可以将应用限制到特定部分的用户
-
-
 
 ## <a name="usage-example"></a>用法示例
 
-在医疗 wards 中每个班次的舍入期内，临床医生在 nursing 工作站上进行收集，以便在拖动中讨论患者的最新更新。  他们突出显示关键指标（不一定是医疗或对患者病历的明确指标），并确保患者在合适的 glide 路径上，以根据其诊断而放电。 为了围绕这些患者，"费用" 护士在一个团队中设置患者应用，其中添加了所有临床医生，并将患者添加到患者列表。 在舍入期间，护士和其他护理 givers 在其移动设备上的患者 access Microsoft 团队和患者应用，并在其设备上更新相关的患者信息，并且在护理团队中的其他人可以看到这些更新和笔记以及保持同步。一天两次，在班次的开始和结束时间，他们还拥有多 displicinary 团队会议，让他们能够通过患者列表，并使用患者应用在大型显示屏上使用患者应用共享有关每个患者的信息。 通常情况下，某些临床医生可能还会远程拨入这些团队会议，并且仍是讨论的一部分。 
+在医疗 wards 中每个班次的舍入期内，临床医生在 nursing 工作站上进行收集，以便在拖动中讨论患者的最新更新。  他们突出显示关键指标（不一定是医疗或对患者病历的明确指标），并确保患者在合适的 glide 路径上，以根据其诊断而放电。 为了围绕这些患者，"费用" 护士在一个团队中设置患者应用，其中添加了所有临床医生，并将患者添加到患者列表。 在舍入期间，护士和其他护理 givers 在其移动设备上的患者 access Microsoft 团队和患者应用，并在其设备上更新相关的患者信息，并且在护理团队中的其他人可以看到这些更新和笔记以及保持同步。一天两次，在班次的开始和结束时间，他们也有多个专业的团队会议可以通过患者列表，并使用患者应用在大型显示屏上使用患者应用共享有关每个患者的信息。 通常情况下，某些临床医生可能还会远程拨入这些团队会议，并且仍是讨论的一部分。
 
 ## <a name="configure-patients-app"></a>配置患者应用
 
@@ -66,7 +65,6 @@ ms.locfileid: "38001325"
 **由于此应用适用于 PHI，因此是否有审核来防止未经授权的访问或遵守管理法规？**
 
 是的，有。 Microsoft 团队用户在患者应用上执行的每个单个 UI 操作都会在安全和合规中心进行审核和使用。 [下面](patients-audit.md)的文章中介绍了详细信息
-
 
 ## <a name="related-topics"></a>相关主题
 
