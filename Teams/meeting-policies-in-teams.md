@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120391"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554339"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -105,10 +105,10 @@ ms.locfileid: "41120391"
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中启动临时会议。 如果启用此操作，当用户在团队频道中发布消息时，用户可以单击 "撰写" 框下方的 "**立即开会**" 以在频道中启动临时会议。
 
 ![显示邮件下方的 "立即开会" 图标的屏幕截图](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>允许私人开会立即开会
 
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以启动 ad hoc 私人会议。  
+
 
 ### <a name="allow-the-outlook-add-in"></a>允许 Outlook 加载项
 
@@ -140,7 +140,6 @@ ms.locfileid: "41120391"
 - [允许云录制](#allow-cloud-recording)
 - [允许 IP 视频](#allow-ip-video)
 - [媒体比特率（KBs）](#media-bit-rate-kbs)
-- [启用实时字幕（预览）](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>允许脚本
 
@@ -197,20 +196,6 @@ ms.locfileid: "41120391"
 
 对于需要最高质量视频体验的会议（如 CEO 董事会会议和团队现场活动），我们建议您将带宽设置为 10 Mbps。 即使设置了最大体验，团队媒体堆栈也会在检测到某些网络条件时适应低带宽条件，具体取决于方案。 
 
-### <a name="enable-live-captions-preview"></a>启用实时字幕（预览）
-
-这是每用户策略，在会议期间应用。 此设置控制用户是否可以使用 "**打开实时标题**" 选项来打开和关闭用户出席的会议中的实时字幕。  
-
-![显示 "打开实时字幕" 选项的屏幕截图](media/meeting-policies-live-captions.png)
-
-|设置值 |行为  |
-|---------|---------|
-|**已禁用，用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出（**...**）" 菜单中看到 "**打开实时标题**" 选项以将其打开。 这是默认设置。 |
-|**已禁用**     | 会议期间，用户已禁用实时字幕。 用户不能选择将其打开。          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>会议策略设置-内容共享
 
 - [屏幕共享模式](#screen-sharing-mode)
@@ -219,7 +204,6 @@ ms.locfileid: "41120391"
 - [允许 PowerPoint 共享](#allow-powerpoint-sharing)
 - [允许白板](#allow-whiteboard)
 - [允许共享笔记](#allow-shared-notes)
-- [允许在会议中聊天（即将推出）](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>屏幕共享模式
 
@@ -320,19 +304,16 @@ Amanda 无法在会议中共享白板，即使她是会议组织者也是如此�
 
 Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中做笔记。
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>允许在会议中聊天（即将推出）
-
-这是每个组织者的策略。 此设置控制是否允许在用户的会议中使用会议聊天。 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>会议策略设置-参与者 & 来宾
 
 这些设置控制在会议厅中等待的会议参与者，以及他们在会议中允许的参与级别。
 
 - [自动允许人员](#automatically-admit-people)
 - [允许匿名用户启动会议](#allow-anonymous-people-to-start-a-meeting)
-- [允许拨入用户绕过大厅](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [允许拨入用户绕过大厅](#allow-dial-in-users-to-bypass-the-lobby)
+- [允许私人开会立即开会](#allow-private-meet-now)
+- [启用实时字幕](#enable-live-captions)
+- [允许在会议中聊天](#allow-chat-in-meetings)
 
 > [!NOTE]
 >用于加入会议的选项会有所不同，具体取决于每个团队组的设置和连接方法。 如果你的组具有音频会议，并使用它进行连接，请参阅[Office 365 中的音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果你的团队组没有音频会议，请参阅[在团队中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
@@ -379,7 +360,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |   | 您的组织中的每个人     |在大厅中等待         |
 |   | 组织和联盟组织中的每个人      | 在大厅中等待         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>允许拨入用户绕过大厅（即将推出）
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
 这是每个组织者的策略。 此设置控制通过电话拨入的用户是否直接加入会议或在会议厅中等待，而不管 "是否**自动允许人员**" 设置。
 
@@ -394,6 +375,29 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |   | 您的组织中的每个人     |在大厅中等待         |
 |   | 组织和联盟组织中的每个人      | 在大厅中等待         |
 
+### <a name="allow-private-meet-now"></a>允许私人开会立即开会
+
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以启动 ad hoc 私人会议。 
+
+### <a name="enable-live-captions"></a>启用实时字幕
+
+这是每用户策略，在会议期间应用。 此设置控制用户是否可以使用 "**打开实时标题**" 选项来打开和关闭用户出席的会议中的实时字幕。  
+
+![显示 "打开实时字幕" 选项的屏幕截图](media/meeting-policies-live-captions.png)
+
+|设置值 |行为  |
+|---------|---------|
+|**已禁用，用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出（**...**）" 菜单中看到 "**打开实时标题**" 选项以将其打开。 这是默认设置。 |
+|**已禁用**     | 会议期间，用户已禁用实时字幕。 用户不能选择将其打开。          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>允许在会议中聊天
+
+这是每个组织者的策略。 此设置控制是否允许在用户的会议中使用会议聊天。 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>相关主题
 [团队中的消息传递策略](messaging-policies-in-teams.md)

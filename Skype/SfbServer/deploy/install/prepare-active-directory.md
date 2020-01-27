@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：了解如何为安装 Skype for Business 服务器准备 Active Directory 域。 从 Microsoft 评估中心的以下位置下载 Skype for Business Server 的免费试用版：https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000882"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554049"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>为 Skype for business 服务器准备 Active Directory
  
@@ -35,7 +35,7 @@ Skype for business 服务器与 Active Directory 密切协作。 必须准备 Ac
 Skype for business 服务器与 Active Directory 域服务（AD DS）紧密集成。 第一次安装 Skype for Business 服务器之前，必须准备 Active Directory。 名为 "**准备 Active directory** " 的部署向导部分准备了用于 Skype For business 服务器的 Active directory 环境。
   
 > [!NOTE]
-> Skype for Business 服务器使用（AD DS）跟踪拓扑中的所有服务器并与之通信。 每台服务器必须加入域，以便 Skype for Business 服务器可以正常工作。 
+> Skype for Business 服务器使用（AD DS）跟踪拓扑中的所有服务器并与之通信。 这些服务器中的大部分必须加入域，以便 Skype for Business 服务器可以正常工作。 请记住，"边缘" 和 "反向代理" 等服务器不应加入域。
   
 > [!IMPORTANT]
 > 应仅为部署中的每个域运行一次“准备 Active Directory”过程。 
