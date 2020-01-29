@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871688"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554219"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
 
-Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。 
+Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许可的现有 Office 365 用户提供该产品的 1 年期试用版。 管理员可以为组织中的用户打开或关闭此功能。
 
 > [!IMPORTANT]
 > 从 2020 年 1 月开始，Microsoft Teams Exploratory 将取代 Microsoft Teams 商业云试用版。 要了解此新产品/服务，请参阅[管理 Teams Exploratory 许可证](teams-exploratory.md)。
@@ -78,13 +78,13 @@ Teams 试用版设计为由单独的最终用户启动，你不能代表最终�
 
 你可以关闭用户安装试用版应用和服务的功能。
 
-1. 从“[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)”，转到“**设置**” > “**服务和外接程序**” > “**用户拥有的应用和服务**”。
+1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
 
-    ![管理中心中“服务和加载项”页面的屏幕截图](media/iw-trial-enable-1.png)
+    ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
 
-2. 关闭**让用户安装试用版应用和服务**。
+2. 清除**允许用户安装试用版应用和服务**复选框。
 
-    ![管理中心中“用户拥有的应用和服务”页面的屏幕截图](media/iw-trial-enable-2.png)
+    ![管理中心中“用户自有应用和服务”页面的屏幕截图](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理试用版可用性
@@ -119,8 +119,8 @@ Teams 试用版设计为由单独的最终用户启动，你不能代表最终�
 
     ![许可证窗格上 Teams 试用版许可证设置的屏幕截图](media/iW-trial-enable-4.png)
     
->[!Note]
->在组织中的首位用户注册试用版后，就会出现 Microsoft Teams 试用版切换开关。
+    >[!Note]
+    >在组织中的首位用户注册试用版后，就会出现 Microsoft Teams 试用版切换开关。
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>为拥有试用版许可证的用户管理 Teams
 

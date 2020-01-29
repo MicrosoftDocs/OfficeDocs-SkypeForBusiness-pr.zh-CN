@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e0d94948d735786fd1775fc803c6017bd3100
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 0d37ed8412e30c20d676c29507451500e5f0c9d2
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019976"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554039"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -60,10 +60,7 @@ Azure AD 包含用于配置外部用户的以下设置：
 
 - **限制来宾用户权限**：“**是**”表示来宾无权处理某些目录任务，例如枚举用户、组或其他目录资源。 此外，未将来宾分配到你目录中的管理角色。 “**否**”表示来宾与目录中的常规用户具有相同的目录数据访问权限。
 - **管理员和具有“来宾邀请者”角色的用户可以邀请**：“**是**”表示管理员和具有“来宾邀请者”角色的用户将能够邀请来宾加入租户。 “**否**”表示管理员和用户不可邀请来宾加入租户。
-- **成员可邀请**：“**是**”表示目录的非管理员成员可邀请来宾协作处理受到 Azure AD 保护的资源，例如 SharePoint 网站或 Azure 资源。 “**否**”表示只有管理员可邀请来宾到你的目录。</br>
-      
-    > [!IMPORTANT]
-    > 要让来宾访问可在 Teams 中正常工作，必须将“**成员可邀请**”设置为“**是**”。
+- **成员可邀请**：要允许目录的非管理员成员邀请来宾，请将此策略设置为**是**（建议设置）。 如果你希望仅管理员能够添加来宾，可以将此策略设置为**否**。 请记住，设置为**否**将会限制非管理员团队所有者的来宾体验；他们只能向管理员已在 AAD 中添加的团队添加来宾。
 - **来宾可邀请**：“**是**”表示目录中的来宾可邀请其他来宾协作处理受到 Azure AD 保护的资源，例如 SharePoint 网站或 Azure 资源。 “**否**”表示来宾不可邀请其他来宾与你的组织协作。
     > [!IMPORTANT]
     > 目前，Teams 不支持来宾邀请者角色，因此即使你将“**来宾可邀请**”设置为“**是**”，来宾也不能邀请 Teams 中的其他来宾。
