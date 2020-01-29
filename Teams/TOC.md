@@ -132,7 +132,7 @@
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [为用户设置“致电我”功能](set-up-the-call-me-feature-for-your-users.md)
 ## [设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams 会议室](room-systems/index.md)
+## [Microsoft Teams 会议室](rooms/index.md)
 ## [在 Teams 中管理白板](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [将患者应用连接到 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
@@ -692,6 +692,7 @@
 ### [使用 MSI 安装 Teams](msi-deployment.md)
 ### [在组织中打开 Teams](Office-365-set-up.md)
 ### [要从防病毒扫描中排除的 Teams 文件和文件夹](teams-files-folders-antivirus-perf.md)
+### [Microsoft Teams 如何使用内存](teams-memory-usage-perf.md)
 ### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
