@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 商务语音
 description: 了解如何规划、部署和使用 Microsoft 365 商务语音。
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972333"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268678"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 商务语音资源</h1>
-        <P>了解如何在组织中规划、设置和使用 Microsoft 365 商务语音。 借助商务语音，中小型组织可以轻松地设置功能强大、灵活的电话系统，从而避免内部解决方案的费用和复杂性。 </p>
+        <P>了解如何在组织中规划、设置和使用 Microsoft 365 商务语音。 借助商务语音，中小型组织可以轻松地设置功能强大、灵活的电话系统，从而避免内部解决方案的费用和复杂性。</p>
         <P></p>
         <ul class="pivots">
             <li>

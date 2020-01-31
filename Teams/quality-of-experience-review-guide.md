@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8a25b7db3a254c4bc1c1266b6b9be48ed798f331
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580899"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634885"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -288,7 +288,7 @@ CQD Online 中有两个报表版本： "摘要" 和 "详细信息"。 使用位�
 
 有关这两个版本之间区别的完整说明，请参阅[本文](turning-on-and-using-call-quality-dashboard.md)。
 
-2020年1月[的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
+2020年1月[的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
 
 _图 4-CQD 报表类别_
 
