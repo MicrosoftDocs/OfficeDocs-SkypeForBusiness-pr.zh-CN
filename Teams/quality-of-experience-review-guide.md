@@ -3,7 +3,6 @@ title: Microsoft Teams 体验质量概述指南
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952805"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580899"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -58,25 +57,28 @@ _图 1-本指南中涵盖的关键操作区域_
 
 本指南还旨在供指定的质量专家使用。 有关详细信息，请参阅[质量拥护者角色](4-envision-plan-my-service-management.md#the-quality-champion-role)。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="assign-roles-for-accessing-cqd"></a>为访问 CQD 分配角色
 
 使用本指南之前，请确保你已分配正确的租户[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)，以便你可以访问 CQD。
 
--   **Office 365 全局管理员** 
+下表显示了每个角色在 CQD 中可以执行的操作：
 
--   **Skype for Business 管理员** 
 
--   **Teams 服务管理员** 
+|  |查看报表  |查看 EUII 字段  |创建报表  |上载构建数据  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 全局管理员     |必需         |是          |是          |是          |
+|Teams 服务管理员     |必需         |是          |是          |是          |
+|Teams 通信管理员     |必需         |是          |是          |是          |
+|Teams 通信支持工程师     |必需         |是          |是         |否         |
+|团队沟通支持专家     |是         |否         |是         |否         |
+|Skype for Business 管理员     |必需         |是          |是          |是          |
+|Azure AD 全局阅读器 |必需         |是          |是         |否         |
+|Office 365 报告阅读器<sup>1</sup>     |是         |否         |是         |否         |
 
--   **Teams 通信管理员** 
+<sup>1</sup>除了阅读 CQD 报表，Office 365 报表读者还可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)和[Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有报表。
 
--   **Teams 通信支持工程师** 
-
--   **团队沟通支持专家** 
-
-或者，你可以将以下角色分配给 Office 365 用户帐户，以仅允许访问报告功能。
-
--   **报表读者：** 可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)、 [Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的任何报表和 CQD 报表。
+> [!NOTE]
+> 如果您没有看到 EUII （最终用户的可识别信息），并且您拥有允许查看此信息的角色之一，请记住 CQD 仅保留30天的 EUII。 将删除30天之前的任何内容。
 
 ## <a name="what-is-quality"></a>什么是质量？
 
@@ -286,6 +288,8 @@ CQD Online 中有两个报表版本： "摘要" 和 "详细信息"。 使用位�
 
 有关这两个版本之间区别的完整说明，请参阅[本文](turning-on-and-using-call-quality-dashboard.md)。
 
+2020年1月[的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
+
 _图 4-CQD 报表类别_
 
 汇总报表分为四个类别：
@@ -331,7 +335,7 @@ _图 4-CQD 报表类别_
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype for Business Online 管理中心
 
-1.  转到<https://portal.office.com>。
+1.  转到 <https://portal.office.com>。
 
 2.  通过租户管理员组织帐户登录。
 
@@ -466,7 +470,7 @@ CQD 中的许多维度和度量值都属于第一或第二。 CQD 不使用 "调
 
 您可以通过以下三种方式之一访问 CQD：
 
--   转到<https://cqd.lync.com>。
+-   转到 <https://cqd.lync.com>。
 
 -   转到 " **Microsoft 团队管理中心**" 并选择指向 CQD 的链接，如下图所示。
 
@@ -585,7 +589,7 @@ _表 4-报表筛选器_
 
 **若要导入模板（。CQDX）进入 CQD Online**
 
-1. 转到<https://cqd.lync.com>。
+1. 转到 <https://cqd.lync.com>。
 
 2. 使用 Office 365 管理凭据进行身份验证。
 

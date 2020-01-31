@@ -19,22 +19,22 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925303"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628388"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
 > 常见的区域电话不支持语音邮件。
 
-常用的区域电话通常放置在一个类似于大厅或另一个区域的区域中，供许多用户进行呼叫。例如，接收区域、会议厅或会议电话。 常用的区域电话设置为设备，而不是用户，并且可以自动登录到网络。
+常用的区域电话通常放置在一个区域中，该区域类似于供许多用户进行呼叫的前厅浏览区域或其他区域。例如，接收区域、会议厅或会议电话。 常用的区域电话设置为设备，而不是用户，并且可以自动登录到网络。
 
 在下面的步骤中，我们将帮助你设置电话系统的帐户，以便为你的组织部署公共的区域电话。 要获得更完整的会议室体验（包括音频会议），请考虑使用会议室设备购买专用的会议室许可证。 
 
-您需要做的第一件工作是购买一个通用的区域电话（CAP）许可证，并确保您有经过认证的电话。 若要搜索并了解有关已认证手机的详细信息，请转到 " [Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)"。 
+首先，您需要购买一个通用的区域电话（CAP）许可证，并确保您有经过认证的电话。 若要搜索并了解有关已认证手机的详细信息，请转到 " [Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)"。 
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
@@ -44,7 +44,7 @@ ms.locfileid: "37925303"
 
 2. 选择 "**通用区域电话** > **立即购买**"。
 
-3. 在 "**签出**" 页面上，单击 "**立即购买**"。
+3. 在 "签出" 页面上，单击 "**立即购买**"。
 
 4. 展开 **"加载项订阅**"，然后单击 "购买呼叫计划"。 选择 "**国内呼叫计划**" 或 "**国内和国际通话计划**"。
 
@@ -93,17 +93,15 @@ ms.locfileid: "37925303"
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-使用 Skype for Business 管理中心为用户分配一个号码。
+使用 "团队管理中心" 为用户分配一个号码。
 
-1. 在 Microsoft 365 管理中心，选择 "**管理中心** > "**团队 & Skype** > **旧版门户**。
-
-2. 在 Skype for business 管理中心，选择 "**语音** > **电话号码**"。
+1. 在 "团队" 管理中心中，选择 "**语音** > **电话号码**"。
 
 3.  从电话号码列表中选择一个号码，然后点击**分配**。
 
 4. 在 "**分配**" 页面上的 "语音用户" 框中，键入将使用该电话的用户的名称，然后在 "**选择语音用户**" 下拉列表中选择用户。
 
-5. 此时你还需要添加一个紧急联系地址。 选择 "**按城市搜索**"、"**按说明搜索**" 或从下拉列表中选择 "**按位置搜索**"，然后在文本框中输入 "城市"、"说明" 或 "位置"。 搜索后，请在 "**选择紧急地址**" 下查看，选择合适的 "紧急地址"。
+5. 接下来，你需要添加紧急地址。 选择 "**按城市搜索**"、"**按说明搜索**" 或从下拉列表中选择 "**按位置搜索**"，然后在文本框中输入 "城市"、"说明" 或 "位置"。 搜索后，请在 "**选择紧急地址**" 下查看，选择合适的 "紧急地址"。
 
 6. 点击**保存**，你的用户将显示如下：
 
@@ -112,7 +110,7 @@ ms.locfileid: "37925303"
 > [!NOTE]
 > 仅当用户已应用电话系统许可证时，用户才会显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
-有关详细信息，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
+有关详细信息，请参阅[为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
 
 您还可以通过其他运营商和 "端口" 获取您的电话号码，或将其转移到 Office 365。 请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 

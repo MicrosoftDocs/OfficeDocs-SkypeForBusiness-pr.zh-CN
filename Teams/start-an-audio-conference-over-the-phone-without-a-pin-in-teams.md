@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Teams 管理中心启用或禁用匿名呼叫者加入会议。 '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570002"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580839"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
@@ -48,9 +48,9 @@ ms.locfileid: "37570002"
 
 3. 在“**音频会议**”旁边，单击“**编辑**”。
 
-4. 在“**音频会议**”窗格中，启用或禁用“**未经身份验证的呼叫者可以是第一个参加会议的人**”。
+4. 在 "**音频会议**" 窗格中，启用或禁用**拨入呼叫者可以成为会议中的第一个人员**。
     
-4. 单击“**保存**”。 
+4. 单击“**应用**”。 
 
 **使用 Windows PowerShell**
   

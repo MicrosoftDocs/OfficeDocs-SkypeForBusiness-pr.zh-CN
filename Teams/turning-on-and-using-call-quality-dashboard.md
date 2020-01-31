@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005157"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41619994"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -188,13 +188,15 @@ CQD 摘要报告提供为详细报告规划的功能的子集。 此处概括介
 |报表集自定义（添加、删除、修改报表）   | 否   | 是   |
 |基于视频的屏幕共享指标   | 否   | 是   |
 |视频指标   | 否   | 是   |
-|可用数据量   | 过去6个月   | 过去6个月   |
+|可用数据量   | 过去12个月   | 过去12个月   |
 |Microsoft 团队数据   | 是   | 是    |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>现成的报表
 
 所有版本的 CQD 都提供了一种可提供通话质量指标的体验，无需创建新报表。 在后端处理完数据后，您将在报告中看到通话质量数据。
+
+2020年1月[的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
   
 ### <a name="overview-reports"></a>概述报表
 
@@ -395,6 +397,17 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
 "1409W3534，123制造商，Fabrikam 型号123，笔记本电脑，已指定2018笔记本电脑、资产标签5678、购买2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>从早期版本的 CQD 迁移报表
+
+如果你为 Skype for Business 将报表或已上载的租户数据（映射）文件创建https://cqd.lync.com)到 CQD （并希望将它们迁移到团队https://cqd.teams.microsoft.com)的 CQD （），请执行以下操作：
+
+1.  转到[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)并浏览到要导出的报表集。 
+2.  将鼠标悬停在报表上，然后在 "..."菜单上，选择 "**导出报表树**"。 保存导出文件。
+3.  转到[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)并浏览到要导入报表的位置。
+4.  从左侧的链接中，单击 "**导入**"，然后选择导出的文件。 
+5.  导入报告后，您将看到以下消息： "报告导入成功。 新报表已添加到报表集末尾。 " 
+
+
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报告
 
 如果您想要创建一个特定报表，使其关注所提供的详细报表所提供的数据的维度，请创建一个自定义报表。
@@ -445,7 +458,17 @@ CQD v2 和 CQD v3 具有不同的总数，因为 CQD v3 具有 CQD v2 中不存�
   - 有线 : wifi
   - 公司网络：家庭网络
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>为什么我在 CQD 中看不到 EUII？
 
+这些管理员角色可以访问 CQD，但不能查看 EUII （最终用户身份信息）：
+- Office 365 报表阅读器
+- 团队沟通支持专家
+
+若要了解有关可访问 CQD 的角色的详细信息-包括 EUII-读取[分配角色以访问 CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)。
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么我仅当我筛选了团队时，我在 CQD 中看到 Skype for Business 信息？
+
+当仅在 CQD 报表（isTeams = 1）中筛选团队时，将筛选*第一个终结点*为团队的所有调用。 如果*第二个终结点*是 Skype for business，则该信息将显示在您的 CQD 报告中。
 
 ## <a name="related-topics"></a>相关主题
 

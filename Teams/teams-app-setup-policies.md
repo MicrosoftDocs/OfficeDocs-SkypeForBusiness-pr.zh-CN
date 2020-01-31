@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin
+ms.reviewer: lajin,rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,21 +17,21 @@ search.appverid: MET150
 description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用，以便为你的组织中的用户自定义团队。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40955306"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573782"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 > [!NOTE]
 > 如果启用了组织范围的应用权限策略设置，**允许与自定义应用交互**，则你可能看不到 Microsoft 团队管理中心中的应用安装策略。 它目前正在推出，即将在您的组织中提供。
 
-作为管理员，你可以使用应用设置策略自定义 Microsoft 团队，以突出显示对你的用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 应用设置策略允许你展示你的组织需要的用户所需的应用，包括由第三方或你组织中的开发人员构建的应用。 你还可以使用应用设置策略来管理内置功能的显示方式。
+作为管理员，你可以使用应用设置策略自定义 Microsoft 团队，以突出显示对你的用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 应用设置策略允许你展示你的组织需要的用户所需的应用，包括由第三方或你组织中的开发人员构建的应用。 你还可以使用应用设置策略来控制用户是否可以将应用固定到团队并管理内置功能的显示方式。
 
-应用程序将固定到应用栏。 这是团队桌面客户端和团队移动客户端（iOS 和 Android）底部的栏。 
+应用程序将固定到应用栏。 这是团队桌面客户端和团队移动客户端（iOS 和 Android）底部的栏。
 
 |团队桌面客户端  |团队移动客户端 |
 |---------|---------|
@@ -52,13 +52,16 @@ ms.locfileid: "40955306"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
 2. 单击“添加”****。
-3. 输入策略的名称和说明，然后单击 "**添加应用程序**"。
-4. 打开或关闭 "**允许上载自定义应用**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果在应用权限策略中[组织范围内的应用设置](teams-app-permission-policies.md#manage-org-wide-app-settings)中禁用 "**允许第三方" 或 "自定义应用**"，你将无法更改此设置。
-5. 在 "**添加固定的应用**" 窗格中，搜索要添加的应用，然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后，单击 "**添加**"。
+    ![显示 "添加应用设置策略" 页面的屏幕截图](media/app-setup-policies-add.png)
+3. 输入策略的名称和说明。
+4. 打开或关闭 "**上载自定义应用程序**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果在应用权限策略的[组织范围内应用设置](teams-app-permission-policies.md#manage-org-wide-app-settings)中禁用 "**允许第三方应用**"，你将无法更改此设置。
+5. 打开或关闭 "**允许用户固定**"，具体取决于是否希望让用户通过将应用固定到应用栏来对其应用栏进行个性化设置。
+6. 单击 "**添加应用程序**"。
+7. 在 "**添加固定的应用**" 窗格中，搜索要添加的应用，然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后，单击 "**添加**"。
 
      ![显示 "添加固定应用" 窗格的屏幕截图](media/app-setup-policies-add-apps.png)
 
-6. 按希望在团队中显示的顺序排列应用，然后单击 "**保存**"。
+8. 按希望在团队中显示的顺序排列应用，然后单击 "**保存**"。
 
     ![显示 "固定的应用" 部分的屏幕截图](media/app-setup-policies-new-policy-setup.png)
 

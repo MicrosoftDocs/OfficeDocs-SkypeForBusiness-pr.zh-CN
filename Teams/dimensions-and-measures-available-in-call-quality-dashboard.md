@@ -19,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572252"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580889"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -167,7 +167,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First User Agent  | String  | 第一终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第一个终结点未报告任何用户代理   |
 | Second User Agent  | String  | 第二终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第二终结点未报告用户代理   |
 | Conference Type  | 枚举 <br/>**可能的值：** <br/>&bull;会议： applicationsharing <br/>&bull;会议：音频-视频 <br/>&bull;会议：焦点 | 会议 URI 的类型。  <br/> **示例值：** 会议：音频-视频 | &bull;非会议方案。   |
-| Conference Id  | 字符串  | 与流关联的会议 ID。 此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值：** 0001P6GK  | &bull;非会议方案。 |
+| 会议 ID （在 lync.cqd.com 中）<br/>通话 ID （在 cqd.teams.microsoft.com 中）  | String  | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都具有呼叫 Id，无论它们是人到人员（P2P）呼叫还是电话会议。  此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值：** 0001P6GK  | &bull;非会议方案。 |
 | First Client App Version  | String  | 第一终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。   |
 | Second Client App Version  | 字符串  | 第二终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。 |
 |会议 Id|String |会议的标识符，在创建会议时生成。 | |
@@ -319,7 +319,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一次收到的噪声级别  | 范围（dB、分贝）  | 第一个终结点收到的单声道噪音或立体声左声道噪音的平均能量级别。 值按范围分组表示。 <br/> **示例值：** 048： [-50--45）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
 | 第二已接收噪音级别  | 范围（dB、分贝）  | 第二终结点收到的单声道噪音或立体声左声道噪音的平均能量级别。 值按范围分组表示。 <br/> **示例值：** 048： [-50--45）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 |第一初始信号级别 RMS | 范围（dB、分贝） | 第一次终结点调用的前30秒的接收信号的根平均值-平方（RMS）。 请参阅[2.2.1.28.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)  | |
-| 第二初始信号级别 RMS |范围（dB、分贝） | 第二终结点呼叫的前30秒内收到的信号的根平均值-平方（RMS）。 有关详细信息，请参阅[2.2.1.28.1 子元素](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)。||
+| 第二初始信号级别 RMS |范围（dB、分贝） | 第二终结点呼叫的前30秒内收到的信号的根平均值-平方（RMS）。 有关详细信息，请参阅[2.2.1.28.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)。||
 | 第一 RxAGC 信号级别 |范围（dB、分贝）| 在第一个入站音频流的自动增益控制（AGC）处收到的信号级别。| |
 | 第二 RxAGC 信号级别 |范围（dB、分贝）|在第二个入站音频流的自动增益控制（AGC）处收到的信号级别。|| 
 | 第一 RxAGC 噪音级别|范围（dB、分贝）|在第一个入站音频流的自动增益控制（AGC）处收到的噪音级别。 ||
@@ -550,7 +550,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg Second Echo Percent Mic In |百分比 |在流持续期间，第二终结点在消除回声之前通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。 |
 |Avg First Echo Percent Send |百分比 |在流持续期间，第一终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。 |
 |Avg Second Echo Percent Send |百分比 |在流持续期间，第二终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。 |
-| 第一初始信号级别 RMS 平均级别| 范围（分贝） |第一次终结点呼叫的前30秒内收到的信号的平均平均值平方（RMS）。  有关详细信息，请参阅[2.2.1.28.1 子元素](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)|
+| 第一初始信号级别 RMS 平均级别| 范围（分贝） |第一次终结点呼叫的前30秒内收到的信号的平均平均值平方（RMS）。  有关详细信息，请参阅[2.2.1.28.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)|
 | 平均第二次初始信号级别 RMS|范围（分贝） |第二终结点呼叫的前30秒内收到的信号的平均平均值平方（RMS）。||
 | 平均第一个 RxAGC 信号级别|范围（分贝）  |在第一个入站音频流的自动增益控制处收到的平均信号级别。 | |
 | 平均第二 RxAGC 信号级别|范围（分贝） |第二个入站音频流的自动增益控制收到的平均信号级别。| |

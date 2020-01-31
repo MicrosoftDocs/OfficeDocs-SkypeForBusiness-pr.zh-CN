@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 配置动态紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1a19a7f3459fb30f4f162c849e52be8f6ed07f4
-ms.sourcegitcommit: 842279933cc38931f025eebc028efc5094380d03
+ms.openlocfilehash: a282d8c5cd923f6881a04da7f2569a5dca11421b
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41122923"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634805"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -72,6 +72,7 @@ Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了�
 - 适用于 Mac 的团队桌面客户端
 - IOS 客户端的团队移动客户端版本1.0.92.2019121004 和应用商店版本1.0.92 及更高版本
 - 适用于 Android 客户端的团队移动客户端和应用商店版本 1416/1.0.0.2019121201 及更高版本
+- 工作组电话版本 1449/1.0.94.2019110802 及更高版本
 
 ## <a name="assign-emergency-addresses"></a>分配紧急地址
 

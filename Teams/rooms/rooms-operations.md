@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268802"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628658"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -61,9 +61,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作组 |未加入域|加入域|
 |:-----|:-----|:-----|
-|重新启动  <br/> |远程桌面  <br/> 远程 PowerShell  <br/> |远程桌面（需要进一步配置）  <br/> 远程 Powershell （需要进一步配置）  <br/> SCCM  <br/> |
+|重新启动  <br/> |远程桌面  <br/> 远程 PowerShell  <br/> |远程桌面（需要进一步配置）  <br/> 远程 Powershell （需要进一步配置）  <br/> 配置管理器  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
-|应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> SCCM  <br/> |
+|应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> 配置管理器  <br/> |
 |Skype 帐户配置  <br/> |当前不支持  <br/> |当前不支持  <br/> |
 |访问日志  <br/> |当前不支持  <br/> |当前不支持  <br/> |
    
@@ -166,7 +166,7 @@ Copy-Item $movefile $targetDevice
   
 默认情况下，Microsoft 团队聊天室将连接到 Windows 更新以检索操作系统和 USB 外围设备固件更新，并将其安装在已配置的工作时间之外。 你可以通过登录管理员帐户并运行“设置”应用来配置办公时间。
   
-如果你希望手动管理更新，并且无法按照[Microsoft Store For Business](https://businessstore.microsoft.com/store) [分发脱机应用](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的常规过程进行操作，你可以从[部署工具包](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项（从[配置 Microsoft 团队聊天室控制台](console.md)的说明），可与 SCCM 一起使用。 部署工具包版本滞后于应用商店版本，因此它可能不会始终与最新的可用内部版本匹配。
+如果你希望手动管理更新，并且无法按照[Microsoft Store For Business](https://businessstore.microsoft.com/store) [分发脱机应用](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的常规过程进行操作，你可以从[部署工具包](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项（从[配置 Microsoft 团队聊天室控制台](console.md)的说明），可与 Configuration Manager 配合使用。 部署工具包版本滞后于应用商店版本，因此它可能不会始终与最新的可用内部版本匹配。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 

@@ -1,5 +1,5 @@
 ---
-title: 使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
+title: 使用 Microsoft 终结点配置管理器部署 Microsoft 团队聊天室
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268821"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628638"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 团队聊天室
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器部署 Microsoft 团队聊天室
 
-本文提供使用 System Center Configuration Manager 创建 Microsoft 团队聊天室部署的所有必要信息。
+本文提供使用 Microsoft 终结点配置管理器创建 Microsoft 团队聊天室部署的所有必要信息。
 
-利用 System Center Configuration Manager 提供的易于使用的方法，你可以将操作系统和其他应用程序部署到多台目标设备。
+通过配置管理器提供的易于使用的方法，你可以将操作系统和其他应用程序部署到多台目标设备。
 
 使用下面所示的方法指导你完成 Configuration Manager 配置，并根据组织的需要自定义本指南中提供的示例程序包和脚本。
 
@@ -54,17 +54,17 @@ ms.locfileid: "41268821"
 
 若要通过 Configuration Manager 部署 Microsoft 团队聊天室，请确保满足以下先决条件和要求。
 
-### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager 要求
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft 终结点配置管理器要求
 
--   System Center Configuration Manager 版本必须至少为1706或更高版本。 我们建议使用1710或更高版本。 查看[System Center Configuration manager 中的 windows 10 支持](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)，了解 Configuration Manager 支持的 windows 10 版本。
+-   Microsoft 终结点配置管理器版本必须至少为1706或更高版本。 我们建议使用1710或更高版本。 请查看[配置管理器中的 windows 10 支持](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)，了解 configuration manager 支持的 windows 10 版本。
 
--   必须安装支持的 windows 10 版本的 Windows 评估和部署工具包（ADK）。 查看可用于不同版本的 Configuration Manager 的[Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk)版本，并确保你的部署包含正确的版本。
+-   必须安装支持的 windows 10 版本的 Windows 评估和部署工具包（ADK）。 查看可用于不同版本的 Configuration Manager 的[Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk)版本，并确保你的部署包含正确的版本。
 
--   必须为站点系统服务器分配分发点角色，并且应为[预启动执行环境（PXE）支持](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)启用启动映像以启用网络启动的部署。 如果未启用 PXE 支持，你可以将[可启动媒体](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)用于你的部署。
+-   必须为站点系统服务器分配分发点角色，并且应为[预启动执行环境（PXE）支持](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)启用启动映像以启用网络启动的部署。 如果未启用 PXE 支持，你可以将[可启动媒体](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)用于你的部署。
 
--   必须将网络访问帐户配置为支持新计算机（裸机）部署方案。 若要了解有关网络访问帐户配置的详细信息，请参阅[管理 System Center Configuration Manager 中的 "管理帐户以访问内容](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)"。
+-   必须将网络访问帐户配置为支持新计算机（裸机）部署方案。 若要了解有关网络访问帐户配置的详细信息，请参阅[配置管理器中使用的帐户](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
 
--   如果你可能同时将同一 Microsoft 团队会议室图像部署到多个单元，我们建议你启用[多路广播支持](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)。
+-   如果你可能同时将同一 Microsoft 团队会议室图像部署到多个单元，我们建议你启用[多路广播支持](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)。
 
 ### <a name="networking-requirements"></a>网络要求
 
@@ -73,14 +73,14 @@ ms.locfileid: "41268821"
     > [!NOTE]
     > DHCP 租用期必须设置为比映像部署持续时间更长的值。 否则，部署可能失败。
 
--   您的网络（包括交换机和虚拟 Lan （Vlan））应配置为支持 PXE。 有关 IP 帮助程序和 PXE 配置的详细信息，请参阅您的网络供应商。 或者，如果未启用 PXE 支持，你可以将[可启动媒体](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)用于部署。
+-   您的网络（包括交换机和虚拟 Lan （Vlan））应配置为支持 PXE。 有关 IP 帮助程序和 PXE 配置的详细信息，请参阅您的网络供应商。 或者，如果未启用 PXE 支持，你可以将[可启动媒体](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)用于部署。
 
     > [!NOTE]
     > 对于 Surface Pro 设备，仅在使用以太网适配器或来自 Microsoft 的插接站时，才支持从网络启动（PXE 启动）。 第三方以太网适配器不支持与 Surface Pro 进行 PXE 启动。 有关详细信息，请参阅[以太网适配器和 Surface 部署](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)。
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>为操作系统部署配置 System Center Configuration Manager
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>为操作系统部署配置 Microsoft 终结点配置管理器
 
-本文假定你已具有正常的 System Center Configuration Manager 部署，并且不详细介绍了从头开始部署和配置 Configuration Manager 所需的所有步骤。 System Center Configuration Manager 上的[文档和配置指南](https://docs.microsoft.com/sccm/)是一个很好的资源;如果尚未部署配置管理器，建议您从这些资源开始。
+本文假定你已具有正常的 Configuration Manager 部署，并且不详细介绍了从头开始部署和配置 Configuration Manager 所需的所有步骤。 Microsoft 终结点配置管理器上的[文档和配置指南](https://docs.microsoft.com/configmgr/)是一个很好的资源;如果尚未部署配置管理器，建议您从这些资源开始。
 
 按照以下说明验证是否正确配置了操作系统部署（OSD）功能。
 
@@ -90,7 +90,7 @@ ms.locfileid: "41268821"
 
 2.  检查已安装的内部版本和适用的更新（尚未安装）。
 
-3.  查看[System Center Configuration Manager 中对 Windows 10 的支持](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client);如果需要升级你的部署，请选择要安装的更新，然后选择 "**下载**"。
+3.  [在配置管理器中查看 Windows 10 的支持](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client);如果需要升级你的部署，请选择要安装的更新，然后选择 "**下载**"。
 
 4.  下载完成后，选择更新，然后选择 "**安装更新包**"。
 
@@ -118,7 +118,7 @@ ms.locfileid: "41268821"
 3.  选择 "**网络访问帐户**" 选项卡。设置一个或多个帐户，然后选择 **"确定"**。
 
 > [!NOTE]
-> 帐户不需要任何特殊权利，除非分发点服务器上的 "**从网络访问此计算机**" 权利除外。 常规域用户帐户将非常合适。 有关详细信息，请参阅[在 System Center Configuration Manager 中管理用于访问内容的帐户](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
+> 帐户不需要任何特殊权利，除非分发点服务器上的 "**从网络访问此计算机**" 权利除外。 常规域用户帐户将非常合适。 有关详细信息，请参阅[配置管理器中使用的帐户](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)。
 
 ### <a name="configure-a-boot-image"></a>配置启动映像
 
@@ -140,15 +140,15 @@ ms.locfileid: "41268821"
 
 6.  当系统询问时，选择 **"是"** ，然后将更新后的启动映像分发到分发点。
 
-有关详细信息，请参阅[通过 System Center Configuration Manager 管理启动映像](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images)。
+有关详细信息，请参阅[通过 Configuration Manager 管理启动映像](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)。
 
 > [!NOTE]
-> 你可以创建可启动 USB 媒体，以针对没有 PXE 支持的环境启动基于配置管理器任务序列的部署。 可启动媒体仅包含启动映像、可选预启动命令及其所需的文件，以及配置管理器二进制文件以支持启动到 Windows PE 并连接到配置管理器以执行其余的部署过程。 有关详细信息，请参阅[如何创建可启动媒体](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)。
+> 你可以创建可启动 USB 媒体，以针对没有 PXE 支持的环境启动基于配置管理器任务序列的部署。 可启动媒体仅包含启动映像、可选预启动命令及其所需的文件，以及配置管理器二进制文件以支持启动到 Windows PE 并连接到配置管理器以执行其余的部署过程。 有关详细信息，请参阅[创建可启动媒体](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)。
 
 ## <a name="create-configuration-manager-packages"></a>创建 Configuration Manager 程序包
 
 > [!IMPORTANT]
-> 每个 SRS 安装程序版本所需的操作系统版本随每个 MSI 版本更改。 若要确定给定 MSI 的最佳操作系统版本，请运行一次控制台安装脚本。 若要了解详细信息，请参阅[使用 System Center Configuration Manager 部署 Microsoft 团队聊天室](rooms-scale.md)。
+> 每个 SRS 安装程序版本所需的操作系统版本随每个 MSI 版本更改。 若要确定给定 MSI 的最佳操作系统版本，请运行一次控制台安装脚本。 若要了解详细信息，请参阅[使用 Microsoft 终结点配置管理器部署 Microsoft 团队聊天室](rooms-scale.md)。
 
 配置管理器需要多个程序包来部署和配置 Microsoft 团队聊天室单元。
 
@@ -168,13 +168,13 @@ ms.locfileid: "41268821"
 | Surface Pro                          | 驱动程序包         | 适用于 Microsoft Surface Pro 的设备驱动程序和固件的程序包                     |
 | Surface Pro 4                        | 驱动程序包         | 适用于 Microsoft Surface Pro 4 的设备驱动程序和固件的程序包                   |
 
-有关详细信息，请参阅[System Center Configuration Manager 中的程序包和程序](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
+有关详细信息，请参阅[Configuration Manager 中的程序包和程序](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)。
 
 ### <a name="create-folders-for-the-package-source-files"></a>为程序包源文件创建文件夹
 
 配置管理器要求程序包源文件在首次创建时和更新时组织在特定文件夹结构中。
 
-在 System Center Configuration Manager 管理中心网站或主网站上创建以下文件夹结构，或者在用于托管程序包源文件的服务器共享上创建以下文件夹结构：
+在 Microsoft 终结点配置管理器管理中心网站或主网站上创建以下文件夹结构，或者在用于托管程序包源文件的服务器共享上创建以下文件夹结构：
 
 -   SRS v2-Microsoft Monitoring Agent 程序包
 -   SRS v2-OS 更新程序包
@@ -486,7 +486,7 @@ ms.locfileid: "41268821"
 
 6.  选择 "**关闭**"。
 
-有关详细信息，请参阅[用 System Center Configuration Manager 管理操作系统映像](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images)。
+有关详细信息，请参阅[通过 Configuration Manager 管理 OS 映像](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images)。
 
 ### <a name="create-surface-pro-device-driver-packages"></a>创建 Surface Pro 设备驱动程序包
 
@@ -524,7 +524,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 12. 将所有导入的驱动程序移动到新创建的文件夹，以便更轻松地进行导航和操作。
 
 > [!NOTE]
-> 对您可能拥有的其他 Surface Pro 模型重复相同步骤。 有关详细信息，请参阅[管理 System Center Configuration Manager 中的驱动程序](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)。
+> 对您可能拥有的其他 Surface Pro 模型重复相同步骤。 有关详细信息，请参阅[在 Configuration Manager 中管理驱动程序](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers)。
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>创建 Microsoft 团队聊天室配置包
 
@@ -591,7 +591,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 
 ## <a name="configuration-manager-task-sequences"></a>配置管理器任务序列
 
-将任务序列与 System Center Configuration Manager 配合使用，以自动执行将操作系统映像部署到目标计算机的步骤。 若要以自动方式部署 Microsoft 团队会议室，请创建一个任务序列，该序列引用用于启动目标 Microsoft 团队聊天室计算机的启动映像、要安装的 Windows 10 企业操作系统映像以及任何其他其他内容，如其他应用程序或软件更新。
+使用 "配置管理器" 的任务序列自动执行将操作系统映像部署到目标计算机的步骤。 若要以自动方式部署 Microsoft 团队会议室，请创建一个任务序列，该序列引用用于启动目标 Microsoft 团队聊天室计算机的启动映像、要安装的 Windows 10 企业操作系统映像以及任何其他其他内容，如其他应用程序或软件更新。
 
 ### <a name="import-the-sample-task-sequence"></a>导入示例任务序列
 
@@ -708,9 +708,9 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 <a name="validate-and-troubleshoot-the-solution"></a>验证和解决解决方案
 --------------------------------------
 
-完成 System Center Configuration Manager 任务序列后，你需要执行测试运行以验证任务序列是否可以部署和配置 Microsoft 团队会议室单元。
+完成 Microsoft 终结点配置管理器任务序列后，需要执行测试运行以验证任务序列是否可以部署和配置 Microsoft 团队会议室单元。
 
-1.  使用受支持的以太网适配器之一或使用 Surface dock 将测试设备连接到有线网络。 如果尚未针对你的环境配置 PXE 启动功能，你可以使用[之前创建](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media)的 usb 闪存驱动器上的启动映像从 usb 启动并连接到 Configuration Manager。
+1.  使用受支持的以太网适配器之一或使用 Surface dock 将测试设备连接到有线网络。 如果尚未针对你的环境配置 PXE 启动功能，你可以使用[之前创建](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media)的 usb 闪存驱动器上的启动映像从 usb 启动并连接到 Configuration Manager。
 
 2.  访问固件并启动 PXE 启动：
 
@@ -772,4 +772,4 @@ SMSTS 文件存储在多条路径中，具体取决于生成过程的阶段。 �
 
 -   **Smspxe**，位于 Configuration Manager 管理点（MP）日志目录中
 
-有关可用于进一步排除 Configuration Manager 安装故障的日志文件的完整列表，请参阅[System Center Configuration Manager 中的日志记录文件](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files)。
+有关可用于进一步对 Configuration Manager 安装进行故障排除的日志文件的完整列表，请参阅 Microsoft 终结点配置管理器[日志文件参考](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)。

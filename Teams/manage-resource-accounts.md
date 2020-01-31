@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 中管理资源帐户
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925463"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628358"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -107,24 +107,34 @@ ms.locfileid: "37925463"
 
 !["资源帐户" 页面的屏幕截图](media/r-a-master.png)
 
-![数字1的图标，引用上一个屏幕截图中的标注](media/sfbcallout1.png)
+![数字1的图标，引用上一个屏幕截图中的标注](media/teamscallout1.png)
 
-若要创建新的资源帐户，请单击 " **+ 新建帐户**"。 在弹出窗口中，填写资源帐户的 "显示名称" 和 "用户名" （域名应自动填充），然后单击 "**保存**"。
+若要创建新的资源帐户，请单击 " **+ 添加**"。 在弹出窗口中，填写 "**显示名称**"、"**用户名**" （域名应自动填充）和资源帐户**类型**。 资源帐户类型可以是**自动助理**或**呼叫队列**，具体取决于你想要关联到资源帐户的应用。 准备就绪后，单击 "**保存**"。
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
 
 接下来，在 O365 管理中心中对资源帐户应用许可证，如在[Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述。
 
-### <a name="edit-resource-account-name"></a>编辑资源帐户名称
+### <a name="edit-resource-account"></a>编辑资源帐户 
 
-![数字2的图标，引用上一个屏幕截图](media/sfbcallout2.png)中的标注，您可以使用 "**编辑**" 选项编辑资源帐户的显示名称。 完成后单击 "**保存**"。
+![](media/teamscallout2.png)数字2的图标，引用上一个屏幕截图中的标注，您可以使用 "**编辑**" 选项编辑资源帐户的 "**显示名称**" 和 "**资源帐户**" 类型。 完成后单击 "**保存**"。
+
 !["编辑资源帐户" 选项的屏幕截图](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
-![数字3的图标，在以前的屏幕截图](media/sfbcallout3.png)中引用标注一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户，或分配资源帐户到已存在的自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果您的通话队列或自动助理仍需创建，则可以在创建资源帐户时将其链接在一起。 完成后单击 "**保存**"。
+![数字3的图标在以前的屏幕截图](media/teamscallout3.png)中引用标注一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户、设置电话号码类型或将资源帐户分配给已存在的特定自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果尚未创建要与资源帐户关联的呼叫队列或自动助理，请将该字段留空。 你可以在创建资源帐户时将其链接到该帐户。 完成后单击 "**保存**"。
+
+**电话号码类型**选项包括：
+
+- 无
+- Online
+- 免费
+- 本地部署
+
+!["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
 
 若要将直接路由或混合号码分配给资源帐户，您需要使用 PowerShell，请参阅以下部分。
 
@@ -134,11 +144,11 @@ ms.locfileid: "37925463"
 > [!IMPORTANT]
 > 电话号码不会直接分配给自动助理或呼叫队列，而是与自动助理或呼叫队列相关联的资源帐户。
 
-!["分配/取消分配" 选项的屏幕截图](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>更改现有资源帐户以使用虚拟用户许可证
 
-如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费虚拟用户许可证，然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到不同的订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为虚拟用户许可证创建新的资源帐户，并删除断开的资源帐户。 
@@ -149,7 +159,7 @@ ms.locfileid: "37925463"
 
 - 以下 Powershell cmdlet 示例显示如何使用[CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)创建联机的资源帐户。 
 
-- 对于驻留在可与云呼叫队列和云自动助理一起使用的 Skype For business Server 2019 上的资源帐户，请参阅[配置云呼叫队列](/skypeforbusiness/hybrid/configure-call-queue.md)或[配置云自动助理](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)。 混合实现（直接路由上的号码）将使用[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
+- 对于驻留在可与云呼叫队列和云自动助理一起使用的 Skype For business Server 2019 上的资源帐户，请参阅[配置云呼叫队列](/skypeforbusiness/hybrid/configure-call-queue.md)或[配置云自动助理](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)。 混合实现（以直接路由方式托管的号码）使用本地 Skype for business Server 2019 服务器上的[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet 进行配置。
 
 创建应用程序实例时需要使用的应用程序 ID 如下：
 

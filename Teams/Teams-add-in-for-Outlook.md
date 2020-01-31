@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626978"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573618"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -40,10 +40,9 @@ ms.locfileid: "38626978"
 > - Windows 7 用户必须在 Windows for windows 中安装适用于 windows 的[通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，团队会议外接程序才能正常工作。
 > - 如果您使用的是 Microsoft Store 中的 Office Outlook 安装，则不支持团队会议加载项。 建议使用此加载项的用户安装即点即用版本的 Office，如[Windows 10 中的 office On S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac 中的团队会议外接程序
 
-如果 Outlook 运行的是 "生产内部版本 16.24.414.0" 和更高版本，outlook for Mac 中的 "团队会议" 按钮将显示在 Outlook for Mac 功能区中。
+Outlook for Mac 中的 "团队会议" 按钮将在 outlook for Mac 功能区中显示，前提是 Outlook 正在运行生产内部版本16.24.414.0 和更高版本，并使用 Office 365 客户端订阅激活。
 
 用户单击 "**发送**" 后，会议坐标（团队加入链接和拨入号码）将添加到会议邀请中。  
 

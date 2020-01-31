@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft 团队聊天室。
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268779"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628258"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -133,7 +133,8 @@ _Microsoft 团队聊天室服务帐户规划表示例_
 |-------------------------|-----------------------|   
 |部署少量 Microsoft 团队聊天室设备（<10）。 | 如果使用基于 Surface Pro 的 Microsoft 团队会议室，请遵循针对[每台设备安装的安装说明](console.md)。 [此方便的视频可引导你完成此过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成的解决方案，请使用供应商映像部署，并根据需要配置设置。 |
 | 从单个供应商的10和50设备之间进行部署。     | 创建基于 WIM 的映像，[在指南中的步骤 6](console.md)之后暂停，并捕获要与你的克隆分发技术一起使用的分发映像。    |
-| 部署50多个 Microsoft 团队聊天室设备，从多个供应商处部署设备，或者要求组织特定的代理作为部署的一部分。 | 使用基于任务排序器的软件内部版本和分发平台，如[System Center Configuration Manager](rooms-scale.md)。  |
+| 部署50多个 Microsoft 团队聊天室设备，从多个供应商处部署设备，或者要求组织特定的代理作为部署的一部分。 | 使用基于任务排序器的软件内部版本和分发平台，如[Microsoft 终结点配置管理器](rooms-scale.md)。  |
+
 
 **Pro 提示**-每个 Microsoft 团队聊天室必须在您的网络上拥有一个有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此为 Microsoft 团队聊天室部署开发命名约定非常重要，这使支持人员能够轻松找到已标记的 Microsoft 团队聊天室为需要操作。 示例可能使用了*MTR*-的模式 *（MTR* -CURIE）。 
 

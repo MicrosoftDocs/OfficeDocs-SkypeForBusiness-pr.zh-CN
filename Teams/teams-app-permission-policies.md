@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 8c42b4e2a8bf569d5aee6b2b822e81fc39ebfd81
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952825"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573752"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -42,6 +42,9 @@ ms.locfileid: "40952825"
 
 例如，你希望阻止所有第三方应用，并允许 Microsoft 针对你的组织中的人力资源团队应用特定应用。 你将创建名为 HR App 权限策略的自定义策略，将其设置为阻止并允许你所需的应用，然后将其分配给 HR 团队上的用户。
 
+> [!NOTE]
+> 如果你在 Microsoft 365 政府-GCC 环境中部署团队，请参阅适用于 gcc 的[应用权限策略](#app-permission-policies-for-gcc)，了解有关特定于 GCC 的第三方应用设置的详细信息。
+
 ## <a name="manage-org-wide-app-settings"></a>管理组织范围内的应用设置
 
 使用组织范围内的应用设置来控制哪些应用在你的组织中可用。 组织范围内的应用设置控制所有用户的行为，并替代分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意或有问题的应用。
@@ -51,7 +54,7 @@ ms.locfileid: "40952825"
     ![组织范围内的应用设置的屏幕截图](media/app-permission-policies-org-wide-settings.png)
 3. 在 "**第三方应用**" 下，关闭或打开这些设置以控制对第三方应用的访问：
 
-    - **允许团队中的第三方或自定义应用**：这将控制用户是否可以使用第三方或自定义应用。
+    - **允许团队中的第三方**：这将控制用户是否可以使用第三方应用。
     - **默认情况下允许发布到应用商店的任何新第三方应用**：这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时，你才能设置此选项。
 
 4. 在 "**自定义应用**" 下，关闭或打开 "**允许与自定义应用交互**"。 此设置控制用户是否可以与自定义（旁加载）应用交互。 请记住，这与允许用户*上载*自定义应用程序不同。
@@ -134,6 +137,28 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 
+## <a name="app-permission-policies-for-gcc"></a>适用于 GCC 的应用权限策略
+
+在 Microsoft 365 政府版团队部署中，请务必了解以下有关适用于 GCC 的第三方应用设置的信息。
+
+在 GCC 中，默认情况下将阻止所有第三方应用。 此外，在 Microsoft 团队管理中心的 "应用权限策略" 页面上，你将看到以下有关管理第三方应用的说明。
+
+![GCC 中的应用权限策略的屏幕截图](media/app-permission-policies-gcc.png)
+
+若要为你的组织中的一个用户或一组用户启用第三方应用，请执行下列操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
+2. 确认要为一组用户允许的第三方应用在组织级别被阻止。 若要执行此操作，请单击 "**组织范围的设置**"，然后在 "已**阻止的应用**" 下，检查以确保应用已列出。
+3. 编辑全局策略以阻止第三方应用。 要执行此操作：
+    1. 在 "应用权限策略" 页面上，单击 "**全局（组织范围默认）**"，然后单击 "**编辑**"。
+    2. 在 "**第三方应用**" 下，选择 "**阻止特定应用并允许所有其他**应用"，添加应用，然后单击 "**保存**"。
+
+    > [!NOTE]
+    > 请务必先执行此操作，然后再转到下一步，以便在组织级别允许应用。 这是因为如果全局策略中未阻止第三方应用，则全局策略适用的所有用户都可以在组织级别允许访问第三方应用。
+
+4. 允许在组织级别的第三方应用。 若要执行此操作，请单击 "**组织范围设置**" 下的 "已**阻止的应用**"，从列表中删除应用，然后单击 "**保存**"。
+5. [创建自定义应用权限策略](#create-a-custom-app-permission-policy)以允许应用，然后[将策略分配](#assign-a-custom-app-permission-policy-to-users)给所需的用户。
+
 ## <a name="faq"></a>常见问题解答
 
 ### <a name="working-with-app-permission-policies"></a>使用应用权限策略
@@ -149,7 +174,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 在应用权限策略中使用组织范围内的设置来限制为你的组织上载自定义应用。  
 
-若要限制特定用户上载自定义应用程序，请使用自定义应用策略（即将推出）。 若要了解详细信息，请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
+若要限制特定用户上载自定义应用程序，请使用自定义应用策略。 若要了解详细信息，请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
 
 #### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>阻止应用是否会应用到团队移动客户端？
 

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111476"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628538"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -45,7 +45,7 @@ Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 3
 
 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)如果最终用户拥有相应的本地权限（在电脑上安装团队客户端，但在 Mac 上需要管理员权限），则最终用户可以直接下载和安装桌面客户端。
 
-IT 管理员可以选择其首选方法将安装文件分发给组织中的计算机。 一些示例包括 System Center Configuration Manager （Windows）或 Jamf Pro （macOS）。 若要获取适用于 Windows 分发的 MSI 程序包，请参阅[使用 Msi 安装 Microsoft 团队](msi-deployment.md)。  
+IT 管理员可以选择其首选方法将安装文件分发给组织中的计算机。 一些示例包括 Microsoft 终结点配置管理器（Windows）或 Jamf Pro （macOS）。 若要获取适用于 Windows 分发的 MSI 程序包，请参阅[使用 Msi 安装 Microsoft 团队](msi-deployment.md)。  
 
 > [!NOTE]
 > 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。

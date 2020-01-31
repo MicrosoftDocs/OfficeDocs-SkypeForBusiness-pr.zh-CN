@@ -1,5 +1,5 @@
 ---
-title: 通过 SCCM 使用 MSI 安装 Microsoft Teams
+title: 通过 Microsoft 终结点配置管理器使用 MSI 安装 Microsoft 团队
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233271"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628128"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安装 Microsoft Teams
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器安装 Microsoft 团队
 
 > [!Tip]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
-若要使用 System Center Configuration Manager 或组策略或任何第三方分发机制进行广泛的部署，Microsoft 提供了 MSI 文件（32位和64位），管理员可以使用这些文件批量部署团队以选择用户或计算机。 管理员可以使用这些文件远程部署团队，以便用户不必手动下载团队应用。 部署后，团队将为登录到该计算机的所有用户自动启动。 （您可以在安装应用后禁用自动启动。 [请参阅下文](#disable-auto-launch-for-the-msi-installer)。）我们建议你将程序包部署到计算机，以便计算机的所有新用户也将受益于此部署。
+若要使用 Microsoft 终结点配置管理器、组策略或用于广泛部署的任何第三方分发机制，Microsoft 提供了 MSI 文件（32位和64位），管理员可以使用它们批量部署团队来选择用户或笔记本电脑. 管理员可以使用这些文件远程部署团队，以便用户不必手动下载团队应用。 部署后，团队将为登录到该计算机的所有用户自动启动。 （您可以在安装应用后禁用自动启动。 [请参阅下文](#disable-auto-launch-for-the-msi-installer)。）我们建议你将程序包部署到计算机，以便计算机的所有新用户也将受益于此部署。
 
 以下是指向 MSI 文件的链接：
 
@@ -41,7 +41,7 @@ ms.locfileid: "41233271"
 团队还可以包含在 Office 365 专业增强版的部署中。 有关详细信息，请参阅[部署 Microsoft 团队和 Office 365 专业增强版](https://docs.microsoft.com/deployoffice/teams-install)。
 
 > [!Note]
-> 若要了解有关 SCCM 的详细信息，请参阅[System Center Configuration Manager 简介](https://docs.microsoft.com/sccm/core/understand/introduction)。
+> 若要了解有关 Microsoft 终结点配置管理器的详细信息，请参阅[什么是配置管理器？](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署过程（推荐）
 
@@ -80,7 +80,7 @@ ms.locfileid: "41233271"
 3. 将 MSI 程序包重新部署到该特定计算机。
 
 > [!TIP]
-> 你可以使用[Microsoft 团队部署清理](scripts/powershell-script-teams-deployment-clean-up.md)脚本，通过 SCCM 完成步骤1和2。
+> 你可以使用[Microsoft 团队部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)脚本，通过 Configuration Manager 完成步骤1和步骤2。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止团队在安装后自动启动
 

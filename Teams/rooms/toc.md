@@ -16,7 +16,7 @@
 ### [使用 Exchange Online（混合）](with-exchange-online.md)
 ### [使用 Exchange 内部部署（混合）](with-exchange-on-premises.md)
 ### [配置控制台](console.md)
-### [使用 System Center Configuration Manager](rooms-scale.md)
+### [使用 Microsoft 终结点配置管理器](rooms-scale.md)
 ### [利用 Azure Monitor 进行管理](azure-monitor-deploy.md)
 ### [迁移 SRS v1 或 LRS](lrs-migration.md)
 ### [内容照相机](content-camera.md)

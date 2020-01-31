@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于澳大利亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ce9e45a4f2addbe35c0a853c6c009d58998d336
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562702"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573738"
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
@@ -55,8 +55,6 @@ ms.locfileid: "37562702"
 |语音邮件  <br/> |可用  <br/> |
 
 ## <a name="calling-plans"></a>通话套餐
-> [!IMPORTANT]
-> 仅适用于基于澳大利亚的租户的 Telstra。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
@@ -66,8 +64,20 @@ ms.locfileid: "37562702"
 
 > [!IMPORTANT]
 > 若要删除澳大利亚订户号码（由 Telstra 提供），请直接联系 Telstra。
-> 若要更新澳大利亚订户号码的紧急地址信息（由 Telstra 提供），请直接联系 Telstra。
+> 若要更新澳大利亚订户号码（由 Telstra 提供）的紧急地址信息，请直接联系 Telstra。
 > 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
+
+### <a name="if-your-tenant-is-located-outside-australia"></a>如果你的租户位于澳大利亚之外
+
+从2019年9月1日开始，如果你的租户位于澳大利亚之外，你可以为位于澳大利亚的用户购买呼叫计划。 此功能适用于以下国家和地区。
+
+|||
+|---------|---------|
+|地区    |美国外部岛      |
+|APAC     |孟加拉、不丹、文莱、柬埔寨、中国香港、印度尼西亚、老挝、澳门、马来西亚、马尔代夫、缅甸、尼泊尔、菲律宾、新加坡、东帝汶、东帝汶、越南|
+|EMEA    |芬兰语、安道尔、奥地利、比利时、布维岛、保加利亚、克罗地亚、塞浦路斯、捷克语、爱沙尼亚、法罗群岛、芬兰、法国、德国、直布罗陀、希腊、格陵兰、Guernsey、匈牙利、冰岛、、匈牙利、冰岛、爱尔兰、曼岛、意大利、Jan 马泽、拉脱维亚、列支敦士登、立陶宛、卢森堡、马耳他、摩纳哥、荷兰、挪威、波兰、葡萄牙、罗马尼亚、圣马力诺、斯洛伐克、斯洛文尼亚、西班牙、斯瓦尔巴、瑞典、瑞士、英国、梵蒂冈城  |
+
+请注意，通过 Telstra 预配，Telstra 呼叫 Office 365 将显示为仅限位于澳大利亚和上面列出的国家和地区的用户的加载项。 对于其他地理区域的用户，他们将继续附加 Microsoft 通话计划或直接路由（如果适用）。 有关详细信息，请参阅 [Telstra Call for Office 365](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

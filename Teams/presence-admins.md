@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714488"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580919"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -39,9 +39,9 @@ Outlook 2013 桌面版及更高版本支持 Outlook 中的 Teams 状态。
 | ![稳定绿色复选标记，指示可用状态](media/Presence_Available.png) 有空|![稳定绿色复选标记，指示可用状态](media/Presence_Available.png) 有空|
 || ![打开绿色复选标记，表示可用的 oof](media/Presence_Available_OOF.png) 可用，外出 |
 |  ![红色实心圆圈表示占线](media/Presence_Busy.png) / |  ![红色实心圆圈表示占线](media/Presence_Busy.png) /  |
-|| ![红色实心圆圈表示通话中的占线](media/Presence_Busy.png) 在通话中|
+|| ![红色实心圆圈表示通话中的占线](media/Presence_Busy.png) 通话时|
 || ![纯红色圆圈表示会议中的忙](media/Presence_Busy.png) 在会议中 |
-|| ![打开红色圆圈，表示占线](media/Presence_Busy_OOF.png) 在通话中，外出|
+|| ![打开红色圆圈，表示占线](media/Presence_Busy_OOF.png) 通话时，外出|
 |  ![带白线的红色圆圈表示 "请勿打扰"](media/Presence_DND.png) 请勿打扰 ||
 || ![带有白色线的红色圆圈表示演示](media/Presence_DND.png) 演示|
 || ![带白线的红色圆圈表示焦点](media/Presence_DND.png) 介绍|

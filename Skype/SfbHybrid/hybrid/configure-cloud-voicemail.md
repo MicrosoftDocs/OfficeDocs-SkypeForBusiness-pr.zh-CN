@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
-ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
+ms.openlocfilehash: 5dee8259cd994e4d83b92aa2f68c7f6b4a11df27
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230352"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580829"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>为用户启用云语音邮件

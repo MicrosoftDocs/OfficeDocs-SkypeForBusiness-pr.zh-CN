@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要：了解如何在 Skype for Business 服务器中部署监视。
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001142"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634845"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署监视
 
@@ -29,7 +29,7 @@ ms.locfileid: "41001142"
 
 2. 使监控存储（即，监控数据库）与新池关联。请注意，一个监控存储可与多个池关联。根据驻留在注册器池中的用户数，这意味着，您不必为每个池设置单独的监控数据库。一个监控存储可供多个池使用。
 
-尽管在创建新池的同时启用监控通常更为简单，但也可以创建新池并禁用监控。如果执行此操作，以后可以使用拓扑生成器启用该服务：拓扑生成器提供为池启用或禁用监控或将池与不同监控存储关联的方式。请记住，即使不再存在监控服务器角色，你仍需要创建一个或多个监控存储：用于存储监控服务所收集数据的后端数据库。可以使用 Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012 或 Microsoft SQL Server 2014 创建这些后端数据库。
+尽管在创建新池的同时启用监控通常更为简单，但也可以创建新池并禁用监控。 如果执行此操作，以后可以使用拓扑生成器启用该服务：拓扑生成器提供为池启用或禁用监控或将池与不同监控存储关联的方式。 请记住，即使不再存在监控服务器角色，你仍需要创建一个或多个监控存储：用于存储监控服务所收集数据的后端数据库。 可以使用 Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012、Microsoft SQL Server 2014 或 Microsoft SQL Server 2019 创建这些后端数据库。
 
 > [!NOTE]
 > 如果已为池启用监视，则可以禁用收集监视数据的过程，而无需更改拓扑： Skype for Business Server 提供了一种禁用（稍后重新启用）呼叫详细记录（CDR）或质量的方法体验（QoE）数据收集。 有关详细信息，请参阅本文的“配置呼叫详细记录和用户体验质量设置”部分。

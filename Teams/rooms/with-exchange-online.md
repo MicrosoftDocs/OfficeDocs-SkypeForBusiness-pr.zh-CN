@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何通过 Exchange Online 部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: fc403e2553fce157737b1bdda75c821563e6b0dd
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268815"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628418"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -41,13 +41,13 @@ ms.locfileid: "41268815"
 
 1. 在电脑上启动远程 Windows PowerShell 会话并连接到 Exchange Online，如下所示：
 
-``` Powershell
-Set-ExecutionPolicy Unrestricted
-$org='contoso.microsoft.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-Import-PSSession $Session -DisableNameChecking
-```
+    ``` Powershell
+    Set-ExecutionPolicy Unrestricted
+    $org='contoso.microsoft.com'
+    $cred=Get-Credential $admin@$org
+    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 2. 建立会话后，你将创建一个新邮箱并将其作为 RoomMailboxAccount 启用，或更改现有会议室邮箱的设置。 这将允许帐户在 Microsoft 团队聊天室中进行身份验证。
 
@@ -91,27 +91,27 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
+    ``` PowerShell
+   Connect-MsolService -Credential $cred
+    ```
+  <!--   ``` Powershell
+     Connect-AzureAD -Credential $cred
+     ``` -->
 
 2. 用户帐户需要拥有有效的 Office 365 许可证，才能确保 Exchange 和 Skype for business 服务器能够正常工作。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将按以下步骤进行分配。
 3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Office 365 租户的可用 Sku 列表。
 4. 列出 Sku 后，您可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
 
-  ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-  ```
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ``` -->
+    ```PowerShell
+      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+    ```
+  <!--   ``` Powershell
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-AzureADSubscribedSku
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>使用 Skype for Business 服务器启用用户帐户
 
@@ -145,6 +145,12 @@ Import-PSSession $Session -DisableNameChecking
 6. 单击“**保存**”。
 
 对于验证，你应该能够使用任何 Skype for Business 客户端登录到此帐户。
+
+> [!NOTE]
+> 如果您当前使用的是 E1、E3、E4 或 E5 Sku，并且使用具有音频会议或 Office 365 电话系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证过期后，应考虑移动到 "[团队会议会议室许可更新](rooms-licensing.md)" 中描述的更简单的许可模型。
+
+> [!IMPORTANT]
+> 如果你使用的是 Skype for Business 计划2，则只能在 Skype for business 模式下使用 Microsoft 团队聊天室，这意味着你的所有会议都将是 Skype for business 会议。 为了为 Microsoft 团队会议启用会议室，我们建议你购买会议室许可证。
   
 ## <a name="see-also"></a>另请参阅
 

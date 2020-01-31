@@ -20,20 +20,22 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+description: 对于 Office 365 呼叫计划，了解如何购买和设置许可证、获取电话号码、为用户添加紧急位置和电话号码，以及告诉用户有关其新电话号码的信息。
+ms.openlocfilehash: b77db0169eedf1250ff7ddc8ea83c208e2b91849
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925313"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628408"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
-对其他 Skype for Business 用户的通话是免费的，但如果你希望你的用户能够在你的企业外部呼叫电话，请在 Office 365 中获取国内呼叫计划或国际呼叫计划。 为您的企业设置这一点很简单。 
+与其他团队的通话是免费的，但如果您希望您的用户能够呼叫您的企业外部的电话，请在 Office 365 中获取国内呼叫计划或国际呼叫计划。 为您的企业设置通话计划非常简单。  有关通话计划的详细信息，请参阅[哪些通话计划适合您？](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步骤1：确定通话计划是否在您所在的国家/地区可用
-转到[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，选择您所在国家或地区，获取有关通话计划的可用性信息，以及有关音频会议、电话系统、收费和免费电话的信息号码和通讯信用点数。
+转到[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，选择您所在国家或地区，获取有关通话计划的可用性信息，以及有关音频会议、电话系统、收费和免费电话号码的信息以及通讯信用点数。
+
+如果通话计划不适用于您所在的国家或地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步骤2：购买和分配许可证
 1. 如果你的计划中未包括 Office 365 功能中的电话系统，你可能需要购买 "**电话系统**加载项" 许可证。 在您拥有**电话系统**许可证后，请购买[适用于 Office 365 的通话计划](calling-plans-for-office-365.md)。 请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)和购买许可证和计划。 
@@ -46,90 +48,46 @@ ms.locfileid: "37925313"
 ## <a name="step-3-get-phone-numbers"></a>步骤3：获取电话号码
 有三种方法，以获得新的用户数：
 
-- **使用 Skype for Business 管理中心。** 某些国家/地区内，您可以获取用户使用 Skype 业务管理中心的号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
+- **使用 "团队" 管理中心。** 对于某些国家/地区，你可以使用团队管理中心为你的用户获取数字，请参阅[为你的用户获取电话号码](getting-phone-numbers-for-your-users.md)。
     
-- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以帮助你执行此操作。  
+- **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
-- **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用 Skype for Business 管理中心获取新电话号码，或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用团队管理中心获取您的新电话号码，或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤4：为你的组织添加紧急地址和位置
-<a name="bkmk_add_addresses"></a>紧急地址必须与电话号码相关联;此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 
+<a name="bkmk_add_addresses"></a>紧急地址必须与电话号码相关联。 此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 
 
-**为您的组织添加紧急地址**
-
-![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
-
-在 Skype for business 管理中心中，转到 "**语音** > **紧急位置** > "**添加新地址**。 有关详细信息，请参阅为[您的组织添加或删除和紧急地址](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)。
-
-**为您的组织添加紧急位置** 
-
-![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
-
-在 Skype for business 管理中心中，转到 "**语音** > **紧急位置** > "**添加新地址**。 有关详细信息，请参阅[为您的组织添加、更改或删除紧急位置](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)。
-
+有关紧急呼叫和管理紧急地址的信息，请参阅[管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)和[添加、更改或删除您的组织的紧急位置](add-change-remove-emergency-location-organization.md)。
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤5：为用户分配紧急地址和电话号码
-<a name="bkmk_add_addresses"></a>在 Office 365 中设置呼叫计划时，必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。 
+<a name="bkmk_add_addresses"></a>在 Office 365 中设置呼叫计划时，必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。  有关详细信息，请参阅[分配或更改紧急地址](assign-change-emergency-location-user.md)。
 
-**为用户添加紧急地址** 
 
-![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+> [!TIP]
+> [!提示] 如果在执行此步骤前刚刚向企业添加了更多人员，这些人员可能需要 **几小时** 才会显示在" **语音用户**"页面。 系统存在延迟。
 
-在 Skype for business 管理中心中，转到**语音** > **语音用户** > **紧急位置** > **分配号码** > **更改位置**。 有关详细信息，请参阅[为用户分配或更改紧急地址](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)。
 
-   > [!NOTE]
-   > 您还可以在分配电话号码时分配一个紧急地址。
-
-**为用户分配电话号码**
-
-![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
-
-在 Skype for business 管理中心中，转到**语音** > **语音用户** > **分配号码** > **更改位置**。 有关详细信息，请参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步骤6：向用户介绍其新电话号码
-<a name="bkmk_add_addresses"> </a>
 
-我们建议通过发送邮件或使用企业的首选通信方式，将新电话号码告知用户。 
-
-下面介绍了他们在**Skype For business**应用中可以看到的电话号码：
-  
-1. 登录到桌面上的 Skype for Business。
-    
-2. 选择 **设置** > **工具选项** > **选项**。 
-    
-     !["工具" 菜单上选项的屏幕截图](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
-  
-3. 然后，选择" **电话**"。 
-    
-    ![选择 "电话" 选项的屏幕截图](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+Microsoft 建议发送邮件或使用企业的首选通信方法告诉用户有关其新电话号码的信息。
  
 在**Microsoft Teams** 中，用户通过单击左侧导航窗格中的**呼叫**，可以看到他们的电话号码。 电话号码显示在拨号板上方。
 
-![在左侧导航中选择 "呼叫" 的屏幕截图。](media/teams-phone-number.png)
+![单击 "呼叫" 后可用选项的屏幕截图](media/teams-phone-number.png)
 
-## <a name="what-else-do-you-need-to-know"></a>你还需要了解哪些信息？
-<a name="bkmk_add_addresses"> </a>
 
-- 紧急地址通常称为市镇地址、街道地址或物理地址。 它是你的组织业务经营场所的街道或市镇地址。
-    
-- 不会验证紧急位置，仅验证紧急地址。
-    
-- 如果你想要了解有关紧急地址的详细信息，请参阅[什么是紧急位置、地址和呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
-    
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>想要自动分配电话号码？
 <a name="bkmk_add_addresses"> </a>
 
 如果了解 Windows PowerShell，可以使用以下 cmdlet 为用户自动分配电话号码。 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx)：从企业语音目录检索电话号码。
+- [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsOnlineTelephoneNumber?redirectedfrom=MSDN&view=skype-ps)：从企业语音目录检索电话号码。
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx)： 设置电话号码。
+- [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?redirectedfrom=MSDN&view=skype-ps)： 设置电话号码。
     
-要了解更多信息，请参阅[快速参考：使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx)。
+若要了解详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
   
-   > [!NOTE]
-   > 如果您需要获得比这更多的电话号码，请[联系企业产品支持-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
-
 
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
@@ -138,9 +96,13 @@ ms.locfileid: "37925313"
 
 [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
+[管理紧急电话](what-are-emergency-locations-addresses-and-call-routing.md) 
+
+[为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
+
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[团队：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解 Microsoft 团队聊天室中可用的功能。 '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268773"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628248"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
@@ -66,7 +66,7 @@ Microsoft 有一个专用的 SKU，用于为会议室设备（如 Microsoft 球�
 |启动临时会议 | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |启动临时会议并从会议拨出到电话号码 |  会议室 SKU |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |为会议室提供电话号码，使用电话号码拨打或接听会议室或加入音频会议  | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
-|通过 Microsoft Intune 管理会议室设备 |会议室 SKU  |Microsoft Intune 订阅与[内部部署 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|通过 Microsoft Intune 管理会议室设备 |会议室 SKU  |包含[本地 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm)的 Microsoft Intune 订阅 |
 | |||
 
 > [!NOTE]

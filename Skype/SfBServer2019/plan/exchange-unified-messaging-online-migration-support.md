@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854087"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628668"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -233,7 +233,7 @@ Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创�
 
 **自动助理呼叫转移到 PSTN**鼓励客户配置临时解决方法，以满足将自动助理呼叫转移到外部 PSTN 号码或 RGS 实例的要求。 
  
-通过转接到 PSTN 号码功能在质量保证期间发现了一个问题，该问题不会在客户的计划停用时间2月 2020 1 日之前从 Exchange UMO 服务开始迁移。 作为解决方法，管理员可以将自动助理呼叫者转移到具有活动呼叫转接设置的内部部署虚拟用户，以使用所需的 PSTN 电话号码或 RGS 电话号码。 
+通过转接到 PSTN 号码功能在质量保证期间发现了一个问题，该问题不会及时修复，以便客户在2月28日（即第28日2020）的计划退休日期之前开始迁移 Exchange UMO 服务。 作为解决方法，管理员可以将自动助理呼叫者转移到具有活动呼叫转接设置的内部部署虚拟用户，以使用所需的 PSTN 电话号码或 RGS 电话号码。 
  
 预期体验
 - 管理员不需要为虚拟用户授权，因为这是一种替代解决方案 

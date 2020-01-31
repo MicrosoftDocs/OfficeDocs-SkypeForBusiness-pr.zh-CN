@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259061"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634835"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
@@ -28,8 +28,8 @@ ms.locfileid: "41259061"
 
 应用具有两种模式：
 
-- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在 teamsforhealthcare@service.microsoft.com 中删除 Microsoft 电子邮件，获取有关 Office 365 租户的信息，请求对应用的访问权限。
-- 允许护理团队手动添加/添加患者信息的手动模式。 应用程序位于团队应用商店中，供最终用户在默认情况下下载并处于公共预览版中。 使用[Microsoft 团队中的应用设置策略](../../teams-app-setup-policies.md)，可以将应用限制到特定部分的用户
+- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)中删除 Microsoft 电子邮件，获取有关 Office 365 租户的信息，请求对应用的访问权限。
+- 允许护理团队手动添加/添加患者信息的手动模式。 应用程序位于团队应用商店中，最终用户可在私人预览版中下载。 可使用团队中的[应用设置策略](../../teams-app-setup-policies.md)将应用限制到特定部分的用户。 若要获取对应用的访问权限，你的租户需要是技术采纳计划（点击）的一部分。 请在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)上向我们发送电子邮件，以启动请求访问的流程。
 
 ## <a name="usage-example"></a>用法示例
 

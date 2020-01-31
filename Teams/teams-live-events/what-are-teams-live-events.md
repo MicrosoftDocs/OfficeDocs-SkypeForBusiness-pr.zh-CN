@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992799"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634875"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -73,7 +73,7 @@ Microsoft 365 实时事件将实时视频流转到新的级别，在整个服务
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络（eCDN）
 ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发内容，而不会影响网络性能。 您可以使用以下认证的 eCDN 合作伙伴之一来优化您的网络，以便在您的组织内保持实时事件：
 - [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/microsoft-pilot/)
+- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [渐变](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>与会者体验 

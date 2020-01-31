@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: HT
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792879"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573628"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
-如果你已购买 [Office 365 企业版 E1](https://products.office.com/zh-CN/business/office-365-enterprise-e1-business-software)、[E3](https://products.office.com/zh-CN/business/office-365-enterprise-e3-business-software) 或 E4 计划，以下是获得更多 Skype for Business 功能需要购买的附加许可证。
+如果你已购买 [Office 365 企业版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) 或 E4 计划，以下是获得更多 Skype for Business 功能需要购买的附加许可证。
 
 |||
 |:-----|:-----|
@@ -40,6 +40,8 @@ ms.locfileid: "35792879"
 |**云语音邮件** <br/> |对于 E1 和 E4 计划，购买 Exchange Online 计划 2。 <br/>或者，切换到 Exchange Online 计划 2 附带的 Office 套件，如 Office 365 E3。 |
 |**通话套餐** <br/> |1. **电话系统**加载项 <br/> 2. [通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您只能在购买**电话系统**加载项后购买。 <br/> |
    
+ > [!IMPORTANT]
+ > Office 365 E4 许可证已正式停用。 有关详细信息，请参阅[Office 365 企业版 E4 客户的重要信息](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147)。
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 和 E3 客户：如何查看价格和购买
 <a name="bkmk_buypremium"> </a>
