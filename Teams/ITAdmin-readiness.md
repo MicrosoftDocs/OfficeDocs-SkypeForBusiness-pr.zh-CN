@@ -16,12 +16,12 @@ f1keywords:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165602"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573608"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -90,7 +90,7 @@ ms.locfileid: "41165602"
 
 | 模块 | 视频 | PowerPoint 幻灯片 |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 结构-IT YouTube 频道的团队基础](https://aka.ms/MicrosoftTeamsforIT) | [视频：团队重点适用于 IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) （10:13 分钟）<br>[视频：部署 & 配置团队-简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分钟）  <br>[视频：安全和合规性](https://youtu.be/91lHNKVVvQ4)（12:42 分钟）||
+| [Microsoft 结构-IT YouTube 频道的团队基础](https://aka.ms/MicrosoftTeamsforIT) | [视频：团队重点适用于 IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) （10:13 分钟）<br>[视频：部署 & 配置团队-简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分钟）  <br>[视频：安全和合规性](https://youtu.be/91lHNKVVvQ4)（12:42 分钟）<br>[视频：针对安全和合规性的团队控制](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分钟）||
 | 基础-核心组件 | [视频](https://aka.ms/teams-foundations) | [幻灯片](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面客户端 | [视频](https://aka.ms/teams-clients) | [幻灯片](https://aka.ms/teams-clients-deck) |
 | 管理、管理和生命周期 | [视频](https://aka.ms/teams-governance) | [幻灯片](https://aka.ms/teams-governance-deck) |
