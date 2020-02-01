@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570310"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628718"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 
@@ -54,7 +54,7 @@ Teams 具有适用于桌面（Windows 和 Mac）、Web 和移动设备（iOS 和
 Teams 桌面客户端为 Windows 和 Mac 用户提供最佳整体体验。 若要了解详细信息，请参阅[获取 Teams 客户端（桌面客户端）](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)和 [Microsoft Teams 应用的硬件要求](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)。
 
 > [!NOTE]
-> 作为管理员，你可以选择为组织中的计算机分发安装文件的方法，例如 System Center Configuration Manager (Windows) 或 Jamf Pro (macOS)。
+> 作为管理员，你可以选择为组织中的计算机分发安装文件的方法，例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。
 
 #### <a name="teams-for-windows"></a>Windows 版 Teams 
 安装 Windows 桌面客户端的最简单方法是：

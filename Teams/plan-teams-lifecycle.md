@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913037"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628368"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -55,7 +55,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 团队用户类型确定团队成员拥有的控制权限：
 
 -   _团队创建者_有权在目录中创建组或团队。 管理员可以将此用户类型限定于一部分管理员或用户。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。 
--   _团队所有者_管理团队的成员身份和设置。 每个团队的团队所有者可以多达 10 人。
+-   _团队所有者_管理团队的成员身份和设置。 每个团队的团队所有者可以多达 100 人。
 -   _团队成员_是组织中加入团队的成员。
 -   _来宾_是组织外部的用户。 如果组织启用了[来宾访问](guest-access.md)，则可以邀请有电子邮件地址的任何人作为来宾。
 

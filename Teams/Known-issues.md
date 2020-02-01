@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990647"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628528"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -314,6 +314,14 @@ ms.locfileid: "40990647"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |Teams Planner 与 Planner online 集成 <br/> |用户使用 Planner online 时，Planner 中的任务桶不显示出来。  <br/> |无解决方法。 <br/> |2017 年 2 月 28 日  <br/>|
+
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|Teams Planner 与 Planner online 集成 <br/> |所有者无法从现有 office 365 组创建的团队中创建计划。  <br/> |向组所有者授予成员权限。 <br/> |2020 年 1 月 14 日  <br/>|
+
+
+
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
