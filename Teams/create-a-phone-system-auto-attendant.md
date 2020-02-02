@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005161"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664337"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -162,22 +162,9 @@ ms.locfileid: "41005161"
   > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。
 
   - **语音应用**选择已设置的自动助理或呼叫队列。 按与服务关联的资源帐户的名称搜索自动助理或呼叫队列。
-  - **语音邮件**选择代表你组织中需要访问此语音邮件的用户的 Office 365 组。 您也可以在这里打开语音邮件设备。 需要 Office 365 组。
+  - **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Office 365 组。 语音邮件将发送到您指定的 Office 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
 
-  > [!NOTE]
-> 从该自动助理语音邮件帐户发送给用户的语音消息无法在团队中访问。 他们将获得电子邮件。
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      切换**到** **"打开"** 以支持语音语音语音消息。
 
  * * *
 
@@ -214,7 +201,9 @@ ms.locfileid: "41005161"
 
 - **语音应用**选择已设置的自动助理或呼叫队列。 按与应用程序关联的资源帐户的名称搜索自动助理或呼叫队列。
 
-- **语音邮件**选择代表你组织中需要访问此语音邮件的用户的 Office 365 组。 您也可以在这里打开语音邮件设备。 需要 Office 365 组。
+- **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Office 365 组。 语音邮件将发送到您指定的 Office 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
+
+    切换**到** **"打开"** 以支持语音语音语音消息。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
