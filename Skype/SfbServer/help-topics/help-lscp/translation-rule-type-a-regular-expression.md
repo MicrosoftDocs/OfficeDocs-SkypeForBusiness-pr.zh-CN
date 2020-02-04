@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceRuleRegexEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
-description: 在 "匹配此模式" 字段中, 指定将用于匹配要转换的数字的模式。 在 "翻译规则" 字段中, 为已翻译数字的格式指定一个模式。 例如, 如果在 "匹配此\+模式"{9}字段中输入 "^" (\d \d +) $ 和 "翻译规则" 字段中的 011 $ 1, 则规则会将 + 441235551010 转换为011441235551010。
-ms.openlocfilehash: ae3e952aaf002df019fc93de4fa763481d7f563a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 "匹配此模式" 字段中，指定将用于匹配要转换的数字的模式。 在 "翻译规则" 字段中，为已翻译数字的格式指定一个模式。 例如，如果在 "匹配此\+模式"{9}字段中输入 "^" （\d \d +） $ 和 "翻译规则" 字段中的 011 $ 1，则规则会将 + 441235551010 转换为011441235551010。
+ms.openlocfilehash: 98a04d3c7346557bcb095e7187a13f2e93646075
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293044"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699342"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="8af90-105">转换规则：键入正则表达式</span><span class="sxs-lookup"><span data-stu-id="8af90-105">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="a79e1-105">转换规则：键入正则表达式</span><span class="sxs-lookup"><span data-stu-id="a79e1-105">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="8af90-106">在 "**匹配此模式**" 字段中, 指定将用于匹配要转换的数字的模式。</span><span class="sxs-lookup"><span data-stu-id="8af90-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="8af90-107">在 "**翻译规则**" 字段中, 为已翻译数字的格式指定一个模式。</span><span class="sxs-lookup"><span data-stu-id="8af90-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="8af90-108">例如, 如果在 "**匹配此模式**"{9}字段中输入 "^\+" (\d \D +) $ 和 "**翻译规则**" 字段中的 011 $ 1, 则规则会将 + 441235551010 转换为011441235551010。</span><span class="sxs-lookup"><span data-stu-id="8af90-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
+<span data-ttu-id="a79e1-106">在 "**匹配此模式**" 字段中，指定将用于匹配要转换的数字的模式。</span><span class="sxs-lookup"><span data-stu-id="a79e1-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="a79e1-107">在 "**翻译规则**" 字段中，为已翻译数字的格式指定一个模式。</span><span class="sxs-lookup"><span data-stu-id="a79e1-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="a79e1-108">例如，如果在 "**匹配此模式**"{9}字段中输入 "^\+" （\d \D +） $ 和 "**翻译规则**" 字段中的 011 $ 1，则规则会将 + 441235551010 转换为011441235551010。</span><span class="sxs-lookup"><span data-stu-id="a79e1-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
   
-<span data-ttu-id="8af90-109">有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="8af90-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a79e1-109">有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。</span><span class="sxs-lookup"><span data-stu-id="a79e1-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
