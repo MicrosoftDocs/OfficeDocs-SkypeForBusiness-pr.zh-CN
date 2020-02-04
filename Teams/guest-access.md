@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746285"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707547"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -74,7 +74,6 @@ ms.locfileid: "38746285"
 - 创建或修订团队
 - 浏览团队
 - 将文件上传到个人对个人聊天
-- 如果来宾知道用户的完整电子邮件 ID，则他们仍可搜索和查找（其团队之外的）用户。 为了防止发生这种情况，IT 管理员可以使用[范围目录搜索](teams-scoped-directory-search.md)之类的模式，以能够将来宾限制到自己的虚拟 GAL 的模式。
 - 目前，Teams 仅支持 [Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 定义的状态 1 和状态 2 类来宾用户。
 
 有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 要了解有关 Office 365 级别的来宾访问的更多信息，请参阅[将来宾添加到 Office 365 组](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。

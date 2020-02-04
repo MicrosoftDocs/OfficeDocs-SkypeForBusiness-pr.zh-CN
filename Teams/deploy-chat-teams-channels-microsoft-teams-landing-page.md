@@ -12,16 +12,16 @@ description: 在 Microsoft Teams 中部署聊天、团队、频道和应用的�
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: ee1c3c7e9c897c08b47925d64edca56bd3654899
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886241"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680519"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 

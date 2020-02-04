@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221488"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692767"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 
@@ -194,7 +195,7 @@ ms.locfileid: "35221488"
 
 1. 将所有受影响用户的 **msRTCSIP-UserEnabled** 属性更新为 **TRUE**。
 
-2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](https://technet.microsoft.com/en-us/library/hh967642.aspx)。
+2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](https://technet.microsoft.com/zh-CN/library/hh967642.aspx)。
 
 要解答 Skype for Business Online 登录错误疑难问题，首先应消除登录困难的最常见原因。 如有必要, 可以根据错误类型执行特定的解决步骤。 如果用户仍然无法登录, 请收集其他信息, 然后寻求进一步帮助。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>使用 Microsoft 支持疑难解答指南
