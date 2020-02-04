@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 持久聊天服务器的组件和拓扑'
+title: Lync Server 2013：持久聊天服务器的组件和拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34837526"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="3297e-102">Lync Server 2013 中持久聊天服务器的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="3297e-102">Components and topologies for Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="1581e-102">Lync Server 2013 中持久聊天服务器的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="1581e-102">Components and topologies for Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,145 +35,145 @@ ms.locfileid: "34837526"
 
 <span> </span>
 
-<span data-ttu-id="3297e-103">_**主题上次修改时间:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="3297e-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="1581e-103">_**主题上次修改时间：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="1581e-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="3297e-104">持久聊天服务器支持单服务器配置和多服务器配置。</span><span class="sxs-lookup"><span data-stu-id="3297e-104">Persistent Chat Server supports both single-server configurations and multiple-server configurations.</span></span> <span data-ttu-id="3297e-105">持久聊天服务器也可以在 Lync Server 2013 标准版服务器上运行。</span><span class="sxs-lookup"><span data-stu-id="3297e-105">Persistent Chat Server can also run on a Lync Server 2013 Standard Edition server.</span></span> <span data-ttu-id="3297e-106">这些配置包含以下持久聊天服务器组件和拓扑。</span><span class="sxs-lookup"><span data-stu-id="3297e-106">These configurations consist of the following Persistent Chat Server components and topologies.</span></span>
+<span data-ttu-id="1581e-104">持久聊天服务器支持单服务器配置和多服务器配置。</span><span class="sxs-lookup"><span data-stu-id="1581e-104">Persistent Chat Server supports both single-server configurations and multiple-server configurations.</span></span> <span data-ttu-id="1581e-105">持久聊天服务器也可以在 Lync Server 2013 标准版服务器上运行。</span><span class="sxs-lookup"><span data-stu-id="1581e-105">Persistent Chat Server can also run on a Lync Server 2013 Standard Edition server.</span></span> <span data-ttu-id="1581e-106">这些配置包含以下持久聊天服务器组件和拓扑。</span><span class="sxs-lookup"><span data-stu-id="1581e-106">These configurations consist of the following Persistent Chat Server components and topologies.</span></span>
 
 <div>
 
-## <a name="persistent-chat-server-components"></a><span data-ttu-id="3297e-107">持久聊天服务器组件</span><span class="sxs-lookup"><span data-stu-id="3297e-107">Persistent Chat Server Components</span></span>
+## <a name="persistent-chat-server-components"></a><span data-ttu-id="1581e-107">持久聊天服务器组件</span><span class="sxs-lookup"><span data-stu-id="1581e-107">Persistent Chat Server Components</span></span>
 
-<span data-ttu-id="3297e-108">安装持久聊天服务器的最新版本需要以下组件:</span><span class="sxs-lookup"><span data-stu-id="3297e-108">Installing the latest version of Persistent Chat Server requires the following components:</span></span>
+<span data-ttu-id="1581e-108">安装持久聊天服务器的最新版本需要以下组件：</span><span class="sxs-lookup"><span data-stu-id="1581e-108">Installing the latest version of Persistent Chat Server requires the following components:</span></span>
 
-  - <span data-ttu-id="3297e-109">运行持久聊天服务器并提供以下服务的一个或多个计算机:</span><span class="sxs-lookup"><span data-stu-id="3297e-109">One or more computers running Persistent Chat Server and providing the following services:</span></span>
+  - <span data-ttu-id="1581e-109">运行持久聊天服务器并提供以下服务的一个或多个计算机：</span><span class="sxs-lookup"><span data-stu-id="1581e-109">One or more computers running Persistent Chat Server and providing the following services:</span></span>
     
-      - <span data-ttu-id="3297e-110">持久聊天服务</span><span class="sxs-lookup"><span data-stu-id="3297e-110">Persistent Chat service</span></span>
+      - <span data-ttu-id="1581e-110">持久聊天服务</span><span class="sxs-lookup"><span data-stu-id="1581e-110">Persistent Chat service</span></span>
     
-      - <span data-ttu-id="3297e-111">合规性服务，在启用合规性时打开</span><span class="sxs-lookup"><span data-stu-id="3297e-111">Compliance service, which is turned on if compliance is enabled</span></span>
+      - <span data-ttu-id="1581e-111">合规性服务，在启用合规性时打开</span><span class="sxs-lookup"><span data-stu-id="1581e-111">Compliance service, which is turned on if compliance is enabled</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="3297e-112">在 Lync Server 2013 中, 用于文件上传/下载的持久聊天 Web 服务现在与 Lync Server 2013&nbsp;前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-112">In Lync Server 2013, the Persistent Chat Web Services for File Upload/Download is now collocated with Lync Server 2013&nbsp;Front End Server.</span></span><BR><span data-ttu-id="3297e-113">适用于聊天室管理的持久聊天 Web 服务也与 Lync Server 2013&nbsp;前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-113">The Persistent Chat Web Services for Chat Room Management is also collocated with Lync Server 2013&nbsp;Front End Server.</span></span>
+    > <span data-ttu-id="1581e-112">在 Lync Server 2013 中，用于文件上传/下载的持久聊天 Web 服务现在与 Lync Server 2013&nbsp;前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-112">In Lync Server 2013, the Persistent Chat Web Services for File Upload/Download is now collocated with Lync Server 2013&nbsp;Front End Server.</span></span><BR><span data-ttu-id="1581e-113">适用于聊天室管理的持久聊天 Web 服务也与 Lync Server 2013&nbsp;前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-113">The Persistent Chat Web Services for Chat Room Management is also collocated with Lync Server 2013&nbsp;Front End Server.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="3297e-114">服务器 (如果使用了镜像, 则会有多个服务器) 托管 SQL Server 后端数据库, 用于托管持久聊天内容数据库, 其中存储了聊天室内容、会议室和类别。</span><span class="sxs-lookup"><span data-stu-id="3297e-114">Server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.</span></span>
+  - <span data-ttu-id="1581e-114">服务器（如果使用了镜像，则会有多个服务器）托管 SQL Server 后端数据库，用于托管持久聊天内容数据库，其中存储了聊天室内容、会议室和类别。</span><span class="sxs-lookup"><span data-stu-id="1581e-114">Server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3297e-115">后端数据库存储聊天历史记录数据, 包括有关已创建的类别和持续聊天室的信息。</span><span class="sxs-lookup"><span data-stu-id="3297e-115">The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created.</span></span>
+    > <span data-ttu-id="1581e-115">后端数据库存储聊天历史记录数据，包括有关已创建的类别和持续聊天室的信息。</span><span class="sxs-lookup"><span data-stu-id="1581e-115">The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="3297e-116">如果启用了合规性, 则为托管持久聊天合规性数据库的 SQL Server 后端数据库托管 SQL Server 后端数据库的服务器 (多个服务器) (将存储合规性事件和聊天内容)。</span><span class="sxs-lookup"><span data-stu-id="3297e-116">If compliance was enabled, a server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.</span></span>
+  - <span data-ttu-id="1581e-116">如果启用了合规性，则为托管持久聊天合规性数据库的 SQL Server 后端数据库托管 SQL Server 后端数据库的服务器（多个服务器）（将存储合规性事件和聊天内容）。</span><span class="sxs-lookup"><span data-stu-id="1581e-116">If compliance was enabled, a server(s) (more than one server if mirroring is used) that host the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.</span></span>
 
-<span data-ttu-id="3297e-117">若要从单独的计算机 (如管理控制台) 管理持久聊天服务器, 请使用计算机上的 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="3297e-117">To administer Persistent Chat Server from a separate computer (such as an administrative console), use the Lync Server Control Panel on the computer.</span></span> <span data-ttu-id="3297e-118">然后, 此计算机必须部署在 Active Directory 域服务域中, 并且林根中至少有一个全局编录服务器。</span><span class="sxs-lookup"><span data-stu-id="3297e-118">This computer must then be deployed in an Active Directory Domain Services domain, with at least one global catalog server in the forest root.</span></span>
+<span data-ttu-id="1581e-117">若要从单独的计算机（如管理控制台）管理持久聊天服务器，请使用计算机上的 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="1581e-117">To administer Persistent Chat Server from a separate computer (such as an administrative console), use the Lync Server Control Panel on the computer.</span></span> <span data-ttu-id="1581e-118">然后，此计算机必须部署在 Active Directory 域服务域中，并且林根中至少有一个全局编录服务器。</span><span class="sxs-lookup"><span data-stu-id="1581e-118">This computer must then be deployed in an Active Directory Domain Services domain, with at least one global catalog server in the forest root.</span></span>
 
-<span data-ttu-id="3297e-119">有关持久聊天服务器的硬件和软件要求的详细信息, 请参阅[Lync server 2013 中持久聊天服务器的技术要求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)、 [lync server 2013 支持的硬件](lync-server-2013-supported-hardware.md)以及[服务器软件和基础结构可支持文档中的 Lync Server 2013 支持](lync-server-2013-server-software-and-infrastructure-support.md)。</span><span class="sxs-lookup"><span data-stu-id="3297e-119">For details about hardware and software requirements for Persistent Chat Server, see [Technical requirements for Persistent Chat Server in Lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [Supported hardware for Lync Server 2013](lync-server-2013-supported-hardware.md), and [Server software and infrastructure support in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="1581e-119">有关持久聊天服务器的硬件和软件要求的详细信息，请参阅[lync server 2013 中持久聊天服务器的技术要求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)、lync [server 2013 支持的硬件](lync-server-2013-supported-hardware.md)，以及支持文档[中的 Lync server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)。</span><span class="sxs-lookup"><span data-stu-id="1581e-119">For details about hardware and software requirements for Persistent Chat Server, see [Technical requirements for Persistent Chat Server in Lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [Supported hardware for Lync Server 2013](lync-server-2013-supported-hardware.md), and [Server software and infrastructure support in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in the Supportability documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a><span data-ttu-id="3297e-120">支持的 Collocation</span><span class="sxs-lookup"><span data-stu-id="3297e-120">Supported Collocation</span></span>
+## <a name="supported-collocation"></a><span data-ttu-id="1581e-120">支持的 Collocation</span><span class="sxs-lookup"><span data-stu-id="1581e-120">Supported Collocation</span></span>
 
-<span data-ttu-id="3297e-121">Lync Server 2013 支持各种 collocation 方案, 让你可以通过在一台服务器 (如果有一个小型组织) 上运行多个组件来灵活地保存硬件成本, 或在不同的服务器上运行单个组件 (如果你有需要可伸缩性和性能的较大组织。</span><span class="sxs-lookup"><span data-stu-id="3297e-121">Lync Server 2013 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance).</span></span> <span data-ttu-id="3297e-122">在决定是否 collocate 组件之前, 一定要考虑可伸缩性因素。</span><span class="sxs-lookup"><span data-stu-id="3297e-122">Scalability factors should certainly be considered before you decide whether to collocate components.</span></span>
+<span data-ttu-id="1581e-121">Lync Server 2013 支持各种 collocation 方案，让你可以通过在一台服务器（如果有一个小型组织）上运行多个组件来灵活地保存硬件成本，或在不同的服务器上运行单个组件（如果你有需要可伸缩性和性能的较大组织。</span><span class="sxs-lookup"><span data-stu-id="1581e-121">Lync Server 2013 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance).</span></span> <span data-ttu-id="1581e-122">在决定是否 collocate 组件之前，一定要考虑可伸缩性因素。</span><span class="sxs-lookup"><span data-stu-id="1581e-122">Scalability factors should certainly be considered before you decide whether to collocate components.</span></span>
 
-<span data-ttu-id="3297e-123">如果合规性已启用, 则持久聊天合规性服务将与 Lync Server 2013 前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-123">The Persistent Chat Compliance service, if compliance is enabled, is collocated with the Lync Server 2013 Front End Server.</span></span>
+<span data-ttu-id="1581e-123">如果合规性已启用，则持久聊天合规性服务将与 Lync Server 2013 前端服务器 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-123">The Persistent Chat Compliance service, if compliance is enabled, is collocated with the Lync Server 2013 Front End Server.</span></span>
 
-<span data-ttu-id="3297e-124">可在标准版服务器上部署持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="3297e-124">Persistent Chat Server can be deployed on the Standard Edition server.</span></span> <span data-ttu-id="3297e-125">永久性聊天服务器后端服务器和持久聊天合规性数据库可在本地 SQL Server Express 后端服务器上的标准版服务器上 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-125">The Persistent Chat Server Back End Server and the Persistent Chat Compliance database can be collocated on the Standard Edition server on the local SQL Server Express Back End Server.</span></span> <span data-ttu-id="3297e-126">有关可在此处 collocated 的组件的详细信息, 请参阅支持文档中的[Lync server 2013 中的支持的服务器 collocation](lync-server-2013-supported-server-collocation.md) 。</span><span class="sxs-lookup"><span data-stu-id="3297e-126">For details about components that can be collocated there, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="1581e-124">可在标准版服务器上部署持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="1581e-124">Persistent Chat Server can be deployed on the Standard Edition server.</span></span> <span data-ttu-id="1581e-125">永久性聊天服务器后端服务器和持久聊天合规性数据库可在本地 SQL Server Express 后端服务器上的标准版服务器上 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-125">The Persistent Chat Server Back End Server and the Persistent Chat Compliance database can be collocated on the Standard Edition server on the local SQL Server Express Back End Server.</span></span> <span data-ttu-id="1581e-126">有关可在此处 collocated 的组件的详细信息，请参阅支持文档中的[Lync server 2013 中的支持的服务器 collocation](lync-server-2013-supported-server-collocation.md) 。</span><span class="sxs-lookup"><span data-stu-id="1581e-126">For details about components that can be collocated there, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="3297e-127">对于 Lync Server 2013 企业版, 不能在企业版服务器上 collocated 持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="3297e-127">For Lync Server 2013 Enterprise Edition, Persistent Chat Servers cannot be collocated on the Enterprise Edition server.</span></span> <span data-ttu-id="3297e-128">持久聊天服务器的 SQL Server 数据库可与企业版前端池的后端服务器数据库 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-128">The SQL Server database for Persistent Chat Server can be collocated with the Back End Server database of an Enterprise Edition Front End pool.</span></span> <span data-ttu-id="3297e-129">适用于持久聊天合规性的 SQL Server 数据库也可与企业版池的后端服务器数据库 collocated。</span><span class="sxs-lookup"><span data-stu-id="3297e-129">The SQL Server database for Persistent Chat compliance can also be collocated with the Back End Server database of an Enterprise Edition pool.</span></span>
+<span data-ttu-id="1581e-127">对于 Lync Server 2013 企业版，不能在企业版服务器上 collocated 持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="1581e-127">For Lync Server 2013 Enterprise Edition, Persistent Chat Servers cannot be collocated on the Enterprise Edition server.</span></span> <span data-ttu-id="1581e-128">持久聊天服务器的 SQL Server 数据库可与企业版前端池的后端服务器数据库 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-128">The SQL Server database for Persistent Chat Server can be collocated with the Back End Server database of an Enterprise Edition Front End pool.</span></span> <span data-ttu-id="1581e-129">适用于持久聊天合规性的 SQL Server 数据库也可与企业版池的后端服务器数据库 collocated。</span><span class="sxs-lookup"><span data-stu-id="1581e-129">The SQL Server database for Persistent Chat compliance can also be collocated with the Back End Server database of an Enterprise Edition pool.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3297e-130">托管持久聊天数据库的服务器可以托管其他数据库。</span><span class="sxs-lookup"><span data-stu-id="3297e-130">The server hosting the Persistent Chat database can host other databases.</span></span> <span data-ttu-id="3297e-131">但是, 当你考虑将持久聊天数据库与其他数据库一起使用时, 请注意, 如果你存储的消息超过了几个用户, 则持久聊天数据库所需的磁盘空间会变得非常大。</span><span class="sxs-lookup"><span data-stu-id="3297e-131">However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large.</span></span> <span data-ttu-id="3297e-132">因此, 我们不建议将持久聊天数据库与后端数据库 collocating。</span><span class="sxs-lookup"><span data-stu-id="3297e-132">For this reason, we do not recommend collocating the Persistent Chat database with the back-end database.</span></span>
+> <span data-ttu-id="1581e-130">托管持久聊天数据库的服务器可以托管其他数据库。</span><span class="sxs-lookup"><span data-stu-id="1581e-130">The server hosting the Persistent Chat database can host other databases.</span></span> <span data-ttu-id="1581e-131">但是，当你考虑将持久聊天数据库与其他数据库一起使用时，请注意，如果你存储的消息超过了几个用户，则持久聊天数据库所需的磁盘空间会变得非常大。</span><span class="sxs-lookup"><span data-stu-id="1581e-131">However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large.</span></span> <span data-ttu-id="1581e-132">因此，我们不建议将持久聊天数据库与后端数据库 collocating。</span><span class="sxs-lookup"><span data-stu-id="1581e-132">For this reason, we do not recommend collocating the Persistent Chat database with the back-end database.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3297e-133">如果您使用后端数据库 collocate 持久聊天数据库, 则可以对任何或所有数据库使用一个 SQL Server 实例, 也可以为每个数据库使用单独的 SQL Server 实例, 但有以下限制:</span><span class="sxs-lookup"><span data-stu-id="3297e-133">If you collocate the Persistent Chat database with the back-end database, you can either use a single instance of SQL Server for any or all of the databases, or you can use a separate instance of SQL Server for each database, with the following limitation:</span></span>
+<span data-ttu-id="1581e-133">如果您使用后端数据库 collocate 持久聊天数据库，则可以对任何或所有数据库使用一个 SQL Server 实例，也可以为每个数据库使用单独的 SQL Server 实例，但有以下限制：</span><span class="sxs-lookup"><span data-stu-id="1581e-133">If you collocate the Persistent Chat database with the back-end database, you can either use a single instance of SQL Server for any or all of the databases, or you can use a separate instance of SQL Server for each database, with the following limitation:</span></span>
 
-  - <span data-ttu-id="3297e-134">每个 SQL Server 实例只能包含一个后端数据库和一个持久聊天数据库。</span><span class="sxs-lookup"><span data-stu-id="3297e-134">Each instance of SQL Server can contain only a single back-end database and a single Persistent Chat database.</span></span>
+  - <span data-ttu-id="1581e-134">每个 SQL Server 实例只能包含一个后端数据库和一个持久聊天数据库。</span><span class="sxs-lookup"><span data-stu-id="1581e-134">Each instance of SQL Server can contain only a single back-end database and a single Persistent Chat database.</span></span>
 
-<span data-ttu-id="3297e-135">有关所有服务器角色和数据库的 collocation 的详细信息, 请参阅支持文档中的[Lync server 2013 中的支持的服务器 collocation](lync-server-2013-supported-server-collocation.md) 。</span><span class="sxs-lookup"><span data-stu-id="3297e-135">For details about collocation of all server roles and databases, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
-
-</div>
-
-<div>
-
-## <a name="persistent-chat-server-topologies"></a><span data-ttu-id="3297e-136">持久聊天服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="3297e-136">Persistent Chat Server Topologies</span></span>
-
-<span data-ttu-id="3297e-137">持久聊天服务器支持下列拓扑:</span><span class="sxs-lookup"><span data-stu-id="3297e-137">Persistent Chat Server supports the following topologies:</span></span>
-
-  - <span data-ttu-id="3297e-138">Lync Server 2013 企业版单服务器持久聊天服务器前端服务器</span><span class="sxs-lookup"><span data-stu-id="3297e-138">Lync Server 2013 Enterprise Edition single server Persistent Chat Server Front End Server</span></span>
-
-  - <span data-ttu-id="3297e-139">Lync Server 2013 企业版多服务器持久聊天服务器前端服务器</span><span class="sxs-lookup"><span data-stu-id="3297e-139">Lync Server 2013 Enterprise Edition multiple server Persistent Chat Server Front End Server</span></span>
-
-  - <span data-ttu-id="3297e-140">使用 SQL Server Express 的 Lync Server 2013 标准版服务器</span><span class="sxs-lookup"><span data-stu-id="3297e-140">Lync Server 2013 Standard Edition server using SQL Server Express</span></span>
-
-  - <span data-ttu-id="3297e-141">使用标准版服务器作为下一个跃点服务器的单独服务器上的 Lync Server 2013 标准版服务器和持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="3297e-141">Lync Server 2013 Standard Edition server and Persistent Chat Server on a separate server using Standard Edition server as the next hop server.</span></span>
-
-<span data-ttu-id="3297e-142">你可以使用拓扑生成器将持久聊天服务器添加到 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="3297e-142">You can add Persistent Chat Server to your Lync Server 2013 deployment by using Topology Builder.</span></span> <span data-ttu-id="3297e-143">你可以将单个服务器或多台服务器持久聊天服务器池添加到你的拓扑。</span><span class="sxs-lookup"><span data-stu-id="3297e-143">You can add a single server or a multiple server Persistent Chat Server pool to your topology.</span></span>
-
-<div>
-
-
-> [!IMPORTANT]  
-> <span data-ttu-id="3297e-144">使用拓扑生成器创建单个服务器的持久聊天服务器池后, 不能将其他服务器添加到池中。</span><span class="sxs-lookup"><span data-stu-id="3297e-144">After you create a Persistent Chat Server pool with a single server by using Topology Builder, you cannot add additional servers to the pool.</span></span>
-
-
+<span data-ttu-id="1581e-135">有关所有服务器角色和数据库的 collocation 的详细信息，请参阅支持文档中的[Lync server 2013 中的支持的服务器 collocation](lync-server-2013-supported-server-collocation.md) 。</span><span class="sxs-lookup"><span data-stu-id="1581e-135">For details about collocation of all server roles and databases, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="single-server-topology"></a><span data-ttu-id="3297e-145">单服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="3297e-145">Single-Server Topology</span></span>
+## <a name="persistent-chat-server-topologies"></a><span data-ttu-id="1581e-136">持久聊天服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="1581e-136">Persistent Chat Server Topologies</span></span>
 
-<span data-ttu-id="3297e-146">持久聊天服务器的最低配置和最简单的部署是单个持久聊天服务器前端服务器拓扑。</span><span class="sxs-lookup"><span data-stu-id="3297e-146">The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology.</span></span> <span data-ttu-id="3297e-147">此部署需要运行持久聊天服务器的单个服务器 (可选择运行合规性服务)、托管 SQL Server 数据库的服务器以及是否需要合规性、SQL Server 数据库 (用于存储合规性数据。</span><span class="sxs-lookup"><span data-stu-id="3297e-147">This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.</span></span>
+<span data-ttu-id="1581e-137">持久聊天服务器支持下列拓扑：</span><span class="sxs-lookup"><span data-stu-id="1581e-137">Persistent Chat Server supports the following topologies:</span></span>
+
+  - <span data-ttu-id="1581e-138">Lync Server 2013 企业版单服务器持久聊天服务器前端服务器</span><span class="sxs-lookup"><span data-stu-id="1581e-138">Lync Server 2013 Enterprise Edition single server Persistent Chat Server Front End Server</span></span>
+
+  - <span data-ttu-id="1581e-139">Lync Server 2013 企业版多服务器持久聊天服务器前端服务器</span><span class="sxs-lookup"><span data-stu-id="1581e-139">Lync Server 2013 Enterprise Edition multiple server Persistent Chat Server Front End Server</span></span>
+
+  - <span data-ttu-id="1581e-140">使用 SQL Server Express 的 Lync Server 2013 标准版服务器</span><span class="sxs-lookup"><span data-stu-id="1581e-140">Lync Server 2013 Standard Edition server using SQL Server Express</span></span>
+
+  - <span data-ttu-id="1581e-141">使用标准版服务器作为下一个跃点服务器的单独服务器上的 Lync Server 2013 标准版服务器和持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="1581e-141">Lync Server 2013 Standard Edition server and Persistent Chat Server on a separate server using Standard Edition server as the next hop server.</span></span>
+
+<span data-ttu-id="1581e-142">你可以使用拓扑生成器将持久聊天服务器添加到 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="1581e-142">You can add Persistent Chat Server to your Lync Server 2013 deployment by using Topology Builder.</span></span> <span data-ttu-id="1581e-143">你可以将单个服务器或多台服务器持久聊天服务器池添加到你的拓扑。</span><span class="sxs-lookup"><span data-stu-id="1581e-143">You can add a single server or a multiple server Persistent Chat Server pool to your topology.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3297e-148">不能将其他服务器添加到在拓扑生成器中作为单服务器部署启动的持久聊天服务器池。</span><span class="sxs-lookup"><span data-stu-id="3297e-148">You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder.</span></span> <span data-ttu-id="3297e-149">我们建议你使用多服务器池拓扑, 即使你使用的是单个服务器, 也可以稍后添加更多服务器 (如果需要)。</span><span class="sxs-lookup"><span data-stu-id="3297e-149">We recommend using the multiple-server pool topology, even if you’re using a single server, so that you can add more servers later, if needed..</span></span>
+> <span data-ttu-id="1581e-144">使用拓扑生成器创建单个服务器的持久聊天服务器池后，不能将其他服务器添加到池中。</span><span class="sxs-lookup"><span data-stu-id="1581e-144">After you create a Persistent Chat Server pool with a single server by using Topology Builder, you cannot add additional servers to the pool.</span></span>
 
 
-
-</div>
-
-<span data-ttu-id="3297e-150">下图显示了具有合规性的单个持久聊天服务器前端服务器的拓扑的所有必需和可选组件。</span><span class="sxs-lookup"><span data-stu-id="3297e-150">The following figure shows all required and optional components of a topology for a single Persistent Chat Server Front End Server with compliance.</span></span>
-
-<span data-ttu-id="3297e-151">**单个持久聊天服务器**</span><span class="sxs-lookup"><span data-stu-id="3297e-151">**Single Persistent Chat Server**</span></span>
-
-<span data-ttu-id="3297e-152">![具有合规性服务的单服务器拓扑](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "具有合规性服务的单服务器拓扑")</span><span class="sxs-lookup"><span data-stu-id="3297e-152">![Single server topology with Compliance service](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Single server topology with Compliance service")</span></span>
 
 </div>
 
 <div>
 
-## <a name="multiple-server-topology"></a><span data-ttu-id="3297e-153">多服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="3297e-153">Multiple-Server Topology</span></span>
+## <a name="single-server-topology"></a><span data-ttu-id="1581e-145">单服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="1581e-145">Single-Server Topology</span></span>
 
-<span data-ttu-id="3297e-154">为了提供更大的容量和可靠性, 你可以部署多服务器拓扑, 如在[Lync server 2013 中规划持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="3297e-154">To provide greater capacity and reliability, you can deploy a multiple-server topology, as described in [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span></span> <span data-ttu-id="3297e-155">多服务器拓扑可以包括多达四个运行持久聊天服务器的活动计算机 (高可用性和灾难恢复配置最多允许八个, 但只有四个可以激活, 并且其余四个处于待机状态)。</span><span class="sxs-lookup"><span data-stu-id="3297e-155">The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby).</span></span> <span data-ttu-id="3297e-156">每台服务器可支持多达20000并行用户, 总共可支持连接到具有4台服务器的持久聊天服务器池的80000个并发用户。</span><span class="sxs-lookup"><span data-stu-id="3297e-156">Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers.</span></span> <span data-ttu-id="3297e-157">多服务器拓扑与单服务器拓扑相同, 不同之处在于多台服务器托管持久聊天服务器, 并且可以更高的比例。</span><span class="sxs-lookup"><span data-stu-id="3297e-157">A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher.</span></span> <span data-ttu-id="3297e-158">运行持久聊天服务器的多台计算机应位于与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。</span><span class="sxs-lookup"><span data-stu-id="3297e-158">Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Lync Server and the Compliance service.</span></span>
+<span data-ttu-id="1581e-146">持久聊天服务器的最低配置和最简单的部署是单个持久聊天服务器前端服务器拓扑。</span><span class="sxs-lookup"><span data-stu-id="1581e-146">The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology.</span></span> <span data-ttu-id="1581e-147">此部署需要运行持久聊天服务器的单个服务器（可选择运行合规性服务）、托管 SQL Server 数据库的服务器以及是否需要合规性、SQL Server 数据库（用于存储合规性数据。</span><span class="sxs-lookup"><span data-stu-id="1581e-147">This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.</span></span>
 
-<span data-ttu-id="3297e-159">下图显示多服务器拓扑的所有组件, 其中包含运行持久聊天服务器的多台计算机、可选合规性服务和单独的合规性数据库。</span><span class="sxs-lookup"><span data-stu-id="3297e-159">The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.</span></span>
+<div>
 
-<span data-ttu-id="3297e-160">**多个持久聊天服务器**</span><span class="sxs-lookup"><span data-stu-id="3297e-160">**Multiple Persistent Chat Servers**</span></span>
 
-<span data-ttu-id="3297e-161">![多服务器拓扑](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多服务器拓扑")</span><span class="sxs-lookup"><span data-stu-id="3297e-161">![Multiple server topology](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Multiple server topology")</span></span>
+> [!IMPORTANT]  
+> <span data-ttu-id="1581e-148">不能将其他服务器添加到在拓扑生成器中作为单服务器部署启动的持久聊天服务器池。</span><span class="sxs-lookup"><span data-stu-id="1581e-148">You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder.</span></span> <span data-ttu-id="1581e-149">我们建议你使用多服务器池拓扑，即使你使用的是单个服务器，也可以稍后添加更多服务器（如果需要）。</span><span class="sxs-lookup"><span data-stu-id="1581e-149">We recommend using the multiple-server pool topology, even if you’re using a single server, so that you can add more servers later, if needed..</span></span>
 
-<span data-ttu-id="3297e-162">多服务器拓扑提供了服务器池功能。</span><span class="sxs-lookup"><span data-stu-id="3297e-162">Multiple-server topologies provide pooling of server functionality.</span></span> <span data-ttu-id="3297e-163">在服务器池中, 持久聊天服务与数据进行通信和共享。</span><span class="sxs-lookup"><span data-stu-id="3297e-163">In a server pool, the Persistent Chat services communicate and share data.</span></span> <span data-ttu-id="3297e-164">例如, 您可以从系统中的任何持续聊天服务获取最初发布到一个持久聊天服务的聊天历史记录。</span><span class="sxs-lookup"><span data-stu-id="3297e-164">For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system.</span></span> <span data-ttu-id="3297e-165">通过一个持久聊天服务上载的文件可由任何永久聊天服务访问。</span><span class="sxs-lookup"><span data-stu-id="3297e-165">A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service.</span></span> <span data-ttu-id="3297e-166">用户可以连接到不同的持久聊天服务器前端服务器, 并且可以互相聊天和通信。</span><span class="sxs-lookup"><span data-stu-id="3297e-166">Users can be connected to different Persistent Chat Server Front End Servers and can be chatting and communicating with each other.</span></span>
 
-<span data-ttu-id="3297e-167">TCP 8011 的默认端口将服务器连接到服务器池, 并由永久聊天服务用于自身通信, 或用于管理用途。</span><span class="sxs-lookup"><span data-stu-id="3297e-167">The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat service to communicate between themselves, or for administrative purposes.</span></span>
+
+</div>
+
+<span data-ttu-id="1581e-150">下图显示了具有合规性的单个持久聊天服务器前端服务器的拓扑的所有必需和可选组件。</span><span class="sxs-lookup"><span data-stu-id="1581e-150">The following figure shows all required and optional components of a topology for a single Persistent Chat Server Front End Server with compliance.</span></span>
+
+<span data-ttu-id="1581e-151">**单个持久聊天服务器**</span><span class="sxs-lookup"><span data-stu-id="1581e-151">**Single Persistent Chat Server**</span></span>
+
+<span data-ttu-id="1581e-152">![具有合规性服务的单服务器拓扑](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "具有合规性服务的单服务器拓扑")</span><span class="sxs-lookup"><span data-stu-id="1581e-152">![Single server topology with Compliance service](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Single server topology with Compliance service")</span></span>
+
+</div>
+
+<div>
+
+## <a name="multiple-server-topology"></a><span data-ttu-id="1581e-153">多服务器拓扑</span><span class="sxs-lookup"><span data-stu-id="1581e-153">Multiple-Server Topology</span></span>
+
+<span data-ttu-id="1581e-154">为了提供更大的容量和可靠性，你可以部署多服务器拓扑，如在[Lync server 2013 中规划持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="1581e-154">To provide greater capacity and reliability, you can deploy a multiple-server topology, as described in [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span></span> <span data-ttu-id="1581e-155">多服务器拓扑可以包括多达四个运行持久聊天服务器的活动计算机（高可用性和灾难恢复配置最多允许八个，但只有四个可以激活，并且其余四个处于待机状态）。</span><span class="sxs-lookup"><span data-stu-id="1581e-155">The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby).</span></span> <span data-ttu-id="1581e-156">每台服务器可支持多达20000并行用户，总共可支持连接到具有4台服务器的持久聊天服务器池的80000个并发用户。</span><span class="sxs-lookup"><span data-stu-id="1581e-156">Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers.</span></span> <span data-ttu-id="1581e-157">多服务器拓扑与单服务器拓扑相同，不同之处在于多台服务器托管持久聊天服务器，并且可以更高的比例。</span><span class="sxs-lookup"><span data-stu-id="1581e-157">A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher.</span></span> <span data-ttu-id="1581e-158">运行持久聊天服务器的多台计算机应位于与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。</span><span class="sxs-lookup"><span data-stu-id="1581e-158">Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Lync Server and the Compliance service.</span></span>
+
+<span data-ttu-id="1581e-159">下图显示多服务器拓扑的所有组件，其中包含运行持久聊天服务器的多台计算机、可选合规性服务和单独的合规性数据库。</span><span class="sxs-lookup"><span data-stu-id="1581e-159">The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.</span></span>
+
+<span data-ttu-id="1581e-160">**多个持久聊天服务器**</span><span class="sxs-lookup"><span data-stu-id="1581e-160">**Multiple Persistent Chat Servers**</span></span>
+
+<span data-ttu-id="1581e-161">![多服务器拓扑](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多服务器拓扑")</span><span class="sxs-lookup"><span data-stu-id="1581e-161">![Multiple server topology](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Multiple server topology")</span></span>
+
+<span data-ttu-id="1581e-162">多服务器拓扑提供了服务器池功能。</span><span class="sxs-lookup"><span data-stu-id="1581e-162">Multiple-server topologies provide pooling of server functionality.</span></span> <span data-ttu-id="1581e-163">在服务器池中，持久聊天服务与数据进行通信和共享。</span><span class="sxs-lookup"><span data-stu-id="1581e-163">In a server pool, the Persistent Chat services communicate and share data.</span></span> <span data-ttu-id="1581e-164">例如，您可以从系统中的任何持续聊天服务获取最初发布到一个持久聊天服务的聊天历史记录。</span><span class="sxs-lookup"><span data-stu-id="1581e-164">For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system.</span></span> <span data-ttu-id="1581e-165">通过一个持久聊天服务上载的文件可由任何永久聊天服务访问。</span><span class="sxs-lookup"><span data-stu-id="1581e-165">A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service.</span></span> <span data-ttu-id="1581e-166">用户可以连接到不同的持久聊天服务器前端服务器，并且可以互相聊天和通信。</span><span class="sxs-lookup"><span data-stu-id="1581e-166">Users can be connected to different Persistent Chat Server Front End Servers and can be chatting and communicating with each other.</span></span>
+
+<span data-ttu-id="1581e-167">TCP 8011 的默认端口将服务器连接到服务器池，并由永久聊天服务用于自身通信，或用于管理用途。</span><span class="sxs-lookup"><span data-stu-id="1581e-167">The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat service to communicate between themselves, or for administrative purposes.</span></span>
 
 </div>
 

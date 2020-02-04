@@ -3,6 +3,8 @@ title: Lync Server 2013：CAC 的组件和拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for CAC
 ms:assetid: 83a2ee45-fa96-48da-8a34-f1aced92b3fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398663(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e1875f5a0027584a388b4908b5ac97812e9f07a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837517"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34837517"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="8e8f4-102">Lync Server 2013 中 CAC 的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="8e8f4-102">Components and topologies for CAC in Lync Server 2013</span></span>
+# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="d11fd-102">Lync Server 2013 中 CAC 的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="d11fd-102">Components and topologies for CAC in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34837517"
 
 <span> </span>
 
-<span data-ttu-id="8e8f4-103">_**主题上次修改时间:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="8e8f4-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="d11fd-103">_**主题上次修改时间：** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="d11fd-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="8e8f4-104">本节中的主题提供了有关通过各种类型的网络拓扑部署呼叫允许控制 (CAC) 的特殊注意事项的信息。</span><span class="sxs-lookup"><span data-stu-id="8e8f4-104">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
+<span data-ttu-id="d11fd-104">本节中的主题提供了有关通过各种类型的网络拓扑部署呼叫允许控制 (CAC) 的特殊注意事项的信息。</span><span class="sxs-lookup"><span data-stu-id="d11fd-104">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8e8f4-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="8e8f4-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d11fd-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="d11fd-105">In This Section</span></span>
 
-  - [<span data-ttu-id="8e8f4-106">使用 Lync Server 2013 在 MPLS 网络上呼叫许可控制</span><span class="sxs-lookup"><span data-stu-id="8e8f4-106">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
+  - [<span data-ttu-id="d11fd-106">使用 Lync Server 2013 在 MPLS 网络上呼叫许可控制</span><span class="sxs-lookup"><span data-stu-id="d11fd-106">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
 
-  - [<span data-ttu-id="8e8f4-107">Lync Server 2013 中 SIP 中继上的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="8e8f4-107">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
+  - [<span data-ttu-id="d11fd-107">Lync Server 2013 中 SIP 中继上的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="d11fd-107">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [<span data-ttu-id="8e8f4-108">使用第三方 PSTN 网关或 PBX 时 Lync Server 2013 中的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="8e8f4-108">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [<span data-ttu-id="d11fd-108">使用第三方 PSTN 网关或 PBX 时 Lync Server 2013 中的呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="d11fd-108">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

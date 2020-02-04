@@ -3,6 +3,8 @@ title: 组呼叫装货配置先决条件和用户权限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group Call Pickup configuration prerequisites and user rights
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2eb0af5b78d5d391ba055e557ad71da79484b5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830113"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34830113"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="df113-102">组呼叫在 Lync Server 2013 中的装货配置先决条件和用户权限</span><span class="sxs-lookup"><span data-stu-id="df113-102">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="0c3fe-102">组呼叫在 Lync Server 2013 中的装货配置先决条件和用户权限</span><span class="sxs-lookup"><span data-stu-id="0c3fe-102">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,53 +35,53 @@ ms.locfileid: "34830113"
 
 <span> </span>
 
-<span data-ttu-id="df113-103">_**主题上次修改时间:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="df113-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="0c3fe-103">_**主题上次修改时间：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="0c3fe-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="df113-104">组呼叫装货是在部署企业语音时默认安装的通话管理功能。</span><span class="sxs-lookup"><span data-stu-id="df113-104">Group Call Pickup is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="df113-105">本主题介绍了在配置组呼叫前需要准备的内容以及执行配置任务所需的用户权限。</span><span class="sxs-lookup"><span data-stu-id="df113-105">This topic describes what you need to have in place before you can configure Group Call Pickup and the user rights that you need to perform configuration tasks.</span></span>
+<span data-ttu-id="0c3fe-104">组呼叫装货是在部署企业语音时默认安装的通话管理功能。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-104">Group Call Pickup is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="0c3fe-105">本主题介绍了在配置组呼叫前需要准备的内容以及执行配置任务所需的用户权限。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-105">This topic describes what you need to have in place before you can configure Group Call Pickup and the user rights that you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="df113-106">本部分假设你已阅读与组呼叫分拣相关的计划文档 (请参阅[在 Lync Server 2013 中规划组呼叫装货](lync-server-2013-planning-for-group-call-pickup.md))。</span><span class="sxs-lookup"><span data-stu-id="df113-106">This section assumes that you have read the planning documentation related to Group Call Pickup (see [Planning for Group Call Pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span></span>
+<span data-ttu-id="0c3fe-106">本部分假设你已阅读与组呼叫分拣相关的计划文档（请参阅[在 Lync Server 2013 中规划组呼叫装货](lync-server-2013-planning-for-group-call-pickup.md)）。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-106">This section assumes that you have read the planning documentation related to Group Call Pickup (see [Planning for Group Call Pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span></span>
 
 <div>
 
-## <a name="group-call-pickup-configuration-prerequisites"></a><span data-ttu-id="df113-107">组呼叫装货配置先决条件</span><span class="sxs-lookup"><span data-stu-id="df113-107">Group Call Pickup Configuration Prerequisites</span></span>
+## <a name="group-call-pickup-configuration-prerequisites"></a><span data-ttu-id="0c3fe-107">组呼叫装货配置先决条件</span><span class="sxs-lookup"><span data-stu-id="0c3fe-107">Group Call Pickup Configuration Prerequisites</span></span>
 
-<span data-ttu-id="df113-108">群组呼叫分拣需要以下组件:</span><span class="sxs-lookup"><span data-stu-id="df113-108">Group Call Pickup requires the following components:</span></span>
+<span data-ttu-id="0c3fe-108">群组呼叫分拣需要以下组件：</span><span class="sxs-lookup"><span data-stu-id="0c3fe-108">Group Call Pickup requires the following components:</span></span>
 
-  - <span data-ttu-id="df113-109">应用程序服务</span><span class="sxs-lookup"><span data-stu-id="df113-109">Application service</span></span>
+  - <span data-ttu-id="0c3fe-109">应用程序服务</span><span class="sxs-lookup"><span data-stu-id="0c3fe-109">Application service</span></span>
 
-  - <span data-ttu-id="df113-110">呼叫寄存应用程序</span><span class="sxs-lookup"><span data-stu-id="df113-110">Call Park application</span></span>
+  - <span data-ttu-id="0c3fe-110">呼叫寄存应用程序</span><span class="sxs-lookup"><span data-stu-id="0c3fe-110">Call Park application</span></span>
 
-<span data-ttu-id="df113-111">部署企业语音时, 将自动安装这些组件。</span><span class="sxs-lookup"><span data-stu-id="df113-111">These components are installed automatically when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="0c3fe-111">部署企业语音时，将自动安装这些组件。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-111">These components are installed automatically when you deploy Enterprise Voice.</span></span>
 
 </div>
 
 <div>
 
-## <a name="group-call-pickup-configuration-user-rights"></a><span data-ttu-id="df113-112">组呼叫装货配置用户权限</span><span class="sxs-lookup"><span data-stu-id="df113-112">Group Call Pickup Configuration User Rights</span></span>
+## <a name="group-call-pickup-configuration-user-rights"></a><span data-ttu-id="0c3fe-112">组呼叫装货配置用户权限</span><span class="sxs-lookup"><span data-stu-id="0c3fe-112">Group Call Pickup Configuration User Rights</span></span>
 
-<span data-ttu-id="df113-113">你可以使用以下管理工具配置组呼叫装货:</span><span class="sxs-lookup"><span data-stu-id="df113-113">You use the following administrative tools to configure Group Call Pickup:</span></span>
+<span data-ttu-id="0c3fe-113">你可以使用以下管理工具配置组呼叫装货：</span><span class="sxs-lookup"><span data-stu-id="0c3fe-113">You use the following administrative tools to configure Group Call Pickup:</span></span>
 
-  - <span data-ttu-id="df113-114">Lync Server 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="df113-114">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="0c3fe-114">Lync Server 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="0c3fe-114">Lync Server Management Shell</span></span>
 
-  - <span data-ttu-id="df113-115">SEFAUtil 资源工具包工具</span><span class="sxs-lookup"><span data-stu-id="df113-115">SEFAUtil resource kit tool</span></span>
+  - <span data-ttu-id="0c3fe-115">SEFAUtil 资源工具包工具</span><span class="sxs-lookup"><span data-stu-id="0c3fe-115">SEFAUtil resource kit tool</span></span>
 
-<span data-ttu-id="df113-116">使用 Lync Server Management Shell 在 "呼叫公园轨道" 表中创建和管理呼叫装货组。</span><span class="sxs-lookup"><span data-stu-id="df113-116">Use Lync Server Management Shell to create and manage call pickup groups in the Call Park orbit table.</span></span> <span data-ttu-id="df113-117">使用 SEFAUtil 资源工具包工具分配呼叫装货组, 并为用户启用组呼叫分拣, 或为用户禁用组呼叫装货。</span><span class="sxs-lookup"><span data-stu-id="df113-117">Use the SEFAUtil resource kit tool to assign a call pickup group and enable Group Call Pickup for users or to disable Group Call Pickup for users.</span></span>
+<span data-ttu-id="0c3fe-116">使用 Lync Server Management Shell 在 "呼叫公园轨道" 表中创建和管理呼叫装货组。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-116">Use Lync Server Management Shell to create and manage call pickup groups in the Call Park orbit table.</span></span> <span data-ttu-id="0c3fe-117">使用 SEFAUtil 资源工具包工具分配呼叫装货组，并为用户启用组呼叫分拣，或为用户禁用组呼叫装货。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-117">Use the SEFAUtil resource kit tool to assign a call pickup group and enable Group Call Pickup for users or to disable Group Call Pickup for users.</span></span>
 
-<span data-ttu-id="df113-118">配置组呼叫分拣需要以下任何管理角色, 具体取决于任务:</span><span class="sxs-lookup"><span data-stu-id="df113-118">Configuring Group Call Pickup requires any of the following administrative roles, depending on the task:</span></span>
+<span data-ttu-id="0c3fe-118">配置组呼叫分拣需要以下任何管理角色，具体取决于任务：</span><span class="sxs-lookup"><span data-stu-id="0c3fe-118">Configuring Group Call Pickup requires any of the following administrative roles, depending on the task:</span></span>
 
-  - <span data-ttu-id="df113-119">**CsVoiceAdministrator:** 管理员角色可以创建、配置和管理所有语音相关设置和策略。</span><span class="sxs-lookup"><span data-stu-id="df113-119">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
+  - <span data-ttu-id="0c3fe-119">**CsVoiceAdministrator：** 管理员角色可以创建、配置和管理所有语音相关设置和策略。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-119">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
 
-  - <span data-ttu-id="df113-120">**CsUserAdministrator:** 管理员角色可以为用户启用组呼叫装货。</span><span class="sxs-lookup"><span data-stu-id="df113-120">**CsUserAdministrator:** This administrator role can enable Group Call Pickup for users.</span></span> <span data-ttu-id="df113-121">此管理员角色还具有对所有语音配置的只读视图访问权限。</span><span class="sxs-lookup"><span data-stu-id="df113-121">This administrator role also has read-only view access to all voice configurations.</span></span>
+  - <span data-ttu-id="0c3fe-120">**CsUserAdministrator：** 管理员角色可以为用户启用组呼叫装货。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-120">**CsUserAdministrator:** This administrator role can enable Group Call Pickup for users.</span></span> <span data-ttu-id="0c3fe-121">此管理员角色还具有对所有语音配置的只读视图访问权限。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-121">This administrator role also has read-only view access to all voice configurations.</span></span>
 
-  - <span data-ttu-id="df113-122">**CsServerAdministrator:** 此管理员角色可以管理和监视服务器和服务并对其进行故障排除。</span><span class="sxs-lookup"><span data-stu-id="df113-122">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
+  - <span data-ttu-id="0c3fe-122">**CsServerAdministrator：** 此管理员角色可以管理和监视服务器和服务并对其进行故障排除。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-122">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
 
-  - <span data-ttu-id="df113-123">**CsAdministrator:** 此管理员角色可以执行 CsVoiceAdministrator、CsServerAdministrator 和 CsUserAdministrator 的所有任务。</span><span class="sxs-lookup"><span data-stu-id="df113-123">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
+  - <span data-ttu-id="0c3fe-123">**CsAdministrator：** 此管理员角色可以执行 CsVoiceAdministrator、CsServerAdministrator 和 CsUserAdministrator 的所有任务。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-123">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="df113-124">有关管理权限的详细信息, 请参阅规划文档中的在<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A>。</span><span class="sxs-lookup"><span data-stu-id="df113-124">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="0c3fe-124">有关管理权限的详细信息，请参阅规划文档中的在<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A>。</span><span class="sxs-lookup"><span data-stu-id="0c3fe-124">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -89,13 +91,13 @@ ms.locfileid: "34830113"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="df113-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="df113-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c3fe-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0c3fe-125">See Also</span></span>
 
 
-[<span data-ttu-id="df113-126">在 Lync Server 2013 中部署企业语音</span><span class="sxs-lookup"><span data-stu-id="df113-126">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+[<span data-ttu-id="0c3fe-126">在 Lync Server 2013 中部署企业语音</span><span class="sxs-lookup"><span data-stu-id="0c3fe-126">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[<span data-ttu-id="df113-127">在 Lync Server 2013 中规划呼叫管理功能</span><span class="sxs-lookup"><span data-stu-id="df113-127">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="0c3fe-127">在 Lync Server 2013 中规划呼叫管理功能</span><span class="sxs-lookup"><span data-stu-id="0c3fe-127">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

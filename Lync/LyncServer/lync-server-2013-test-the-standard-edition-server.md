@@ -3,6 +3,8 @@ title: Lync Server 2013：测试 Standard Edition 服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test the Standard Edition server
 ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412890(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a960451ebdd1e6e8728bf3b6c7df6e267c49c3f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 00918643fcc59efc33d12dc3f8f77c7d3ac69815
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845649"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845649"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-the-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="60ba4-102">在 Lync Server 2013 中测试 Standard Edition 服务器</span><span class="sxs-lookup"><span data-stu-id="60ba4-102">Test the Standard Edition server in Lync Server 2013</span></span>
+# <a name="test-the-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="55538-102">在 Lync Server 2013 中测试 Standard Edition 服务器</span><span class="sxs-lookup"><span data-stu-id="55538-102">Test the Standard Edition server in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,47 +35,47 @@ ms.locfileid: "34845649"
 
 <span> </span>
 
-<span data-ttu-id="60ba4-103">_**主题上次修改时间:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="60ba4-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="55538-103">_**主题上次修改时间：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="55538-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="60ba4-104">以下过程介绍了如何测试标准版服务器的部署。</span><span class="sxs-lookup"><span data-stu-id="60ba4-104">The following procedure describes how to test the deployment of a Standard Edition server.</span></span>
+<span data-ttu-id="55538-104">以下过程介绍了如何测试标准版服务器的部署。</span><span class="sxs-lookup"><span data-stu-id="55538-104">The following procedure describes how to test the deployment of a Standard Edition server.</span></span>
 
 <div>
 
-## <a name="to-test-the-deployment-of-a-standard-edition-server"></a><span data-ttu-id="60ba4-105">测试标准版服务器的部署</span><span class="sxs-lookup"><span data-stu-id="60ba4-105">To test the deployment of a Standard Edition Server</span></span>
+## <a name="to-test-the-deployment-of-a-standard-edition-server"></a><span data-ttu-id="55538-105">测试标准版服务器的部署</span><span class="sxs-lookup"><span data-stu-id="55538-105">To test the deployment of a Standard Edition Server</span></span>
 
-1.  <span data-ttu-id="60ba4-106">使用 Active Directory 计算机和用户将 Lync Server 2013 部署 (安装了 Lync Server 控制面板) 的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。</span><span class="sxs-lookup"><span data-stu-id="60ba4-106">Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Lync Server 2013 deployment (on which Lync Server Control Panel is installed) to the **CSAdministrator** group.</span></span>
+1.  <span data-ttu-id="55538-106">使用 Active Directory 计算机和用户将 Lync Server 2013 部署（安装了 Lync Server 控制面板）的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。</span><span class="sxs-lookup"><span data-stu-id="55538-106">Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Lync Server 2013 deployment (on which Lync Server Control Panel is installed) to the **CSAdministrator** group.</span></span>
 
-2.  <span data-ttu-id="60ba4-107">如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。</span><span class="sxs-lookup"><span data-stu-id="60ba4-107">If the user object is currently logged on, log off and then log on again to register the new group assignment.</span></span>
+2.  <span data-ttu-id="55538-107">如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。</span><span class="sxs-lookup"><span data-stu-id="55538-107">If the user object is currently logged on, log off and then log on again to register the new group assignment.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="60ba4-108">用户帐户不能是运行 Lync Server 2013 标准版的服务器的本地管理员。</span><span class="sxs-lookup"><span data-stu-id="60ba4-108">The user account cannot be the local administrator of the server running Lync Server 2013, Standard Edition.</span></span> <span data-ttu-id="60ba4-109">如果不将相应的用户和组添加到 CsAdministors 组, 则打开 Lync Server 2013 控制面板时将收到错误, 其中指出 "未经授权: 由于基于角色的访问控制 (RBAC) 授权失败, 访问被拒绝。"</span><span class="sxs-lookup"><span data-stu-id="60ba4-109">If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when opening Lync Server 2013 Control Panel, which states that “Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure.”</span></span>
+    > <span data-ttu-id="55538-108">用户帐户不能是运行 Lync Server 2013 标准版的服务器的本地管理员。</span><span class="sxs-lookup"><span data-stu-id="55538-108">The user account cannot be the local administrator of the server running Lync Server 2013, Standard Edition.</span></span> <span data-ttu-id="55538-109">如果不将相应的用户和组添加到 CsAdministors 组，则打开 Lync Server 2013 控制面板时将收到错误，其中指出 "未经授权：由于基于角色的访问控制（RBAC）授权失败，访问被拒绝。"</span><span class="sxs-lookup"><span data-stu-id="55538-109">If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when opening Lync Server 2013 Control Panel, which states that “Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure.”</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="60ba4-110">使用 "管理" 帐户登录到安装了 "Lync Server 控制面板" 的计算机。</span><span class="sxs-lookup"><span data-stu-id="60ba4-110">Use the administrative account to log on to the computer where Lync Server Control Panel is installed.</span></span>
+3.  <span data-ttu-id="55538-110">使用 "管理" 帐户登录到安装了 "Lync Server 控制面板" 的计算机。</span><span class="sxs-lookup"><span data-stu-id="55538-110">Use the administrative account to log on to the computer where Lync Server Control Panel is installed.</span></span>
 
-4.  <span data-ttu-id="60ba4-111">如果出现提示, 请启动 Lync Server 控制面板并提供凭据。</span><span class="sxs-lookup"><span data-stu-id="60ba4-111">Start Lync Server Control Panel and provide credentials, if prompted.</span></span> <span data-ttu-id="60ba4-112">Lync Server 2013 "控制面板" 显示部署信息。</span><span class="sxs-lookup"><span data-stu-id="60ba4-112">Lync Server 2013 Control Panel displays deployment information.</span></span>
+4.  <span data-ttu-id="55538-111">如果出现提示，请启动 Lync Server 控制面板并提供凭据。</span><span class="sxs-lookup"><span data-stu-id="55538-111">Start Lync Server Control Panel and provide credentials, if prompted.</span></span> <span data-ttu-id="55538-112">Lync Server 2013 "控制面板" 显示部署信息。</span><span class="sxs-lookup"><span data-stu-id="55538-112">Lync Server 2013 Control Panel displays deployment information.</span></span>
 
-5.  <span data-ttu-id="60ba4-113">在左侧导航栏中, 单击 "**拓扑**", 然后确认服务状态是带有绿色箭头的计算机图标, 并且已部署并联机的每个 Lync server 服务器角色旁边都有一个绿色复选标记。</span><span class="sxs-lookup"><span data-stu-id="60ba4-113">In the left navigation bar, click **Topology**, and then confirm that the service status is a computer icon with a green arrow and there is a green check mark next to each Lync Server server role that has been deployed and brought online.</span></span>
+5.  <span data-ttu-id="55538-113">在左侧导航栏中，单击 "**拓扑**"，然后确认服务状态是带有绿色箭头的计算机图标，并且已部署并联机的每个 Lync server 服务器角色旁边都有一个绿色复选标记。</span><span class="sxs-lookup"><span data-stu-id="55538-113">In the left navigation bar, click **Topology**, and then confirm that the service status is a computer icon with a green arrow and there is a green check mark next to each Lync Server server role that has been deployed and brought online.</span></span>
 
-6.  <span data-ttu-id="60ba4-114">在左侧导航栏中, 单击 "**用户**", 然后启用 "Lync Server 2013 的两个用户"。</span><span class="sxs-lookup"><span data-stu-id="60ba4-114">In the left navigation bar, click **Users**, and then enable the two users for Lync Server 2013.</span></span>
+6.  <span data-ttu-id="55538-114">在左侧导航栏中，单击 "**用户**"，然后启用 "Lync Server 2013 的两个用户"。</span><span class="sxs-lookup"><span data-stu-id="55538-114">In the left navigation bar, click **Users**, and then enable the two users for Lync Server 2013.</span></span>
 
-7.  <span data-ttu-id="60ba4-115">将一位用户登录到加入域的计算机, 另一用户登录到域中的另一台计算机。</span><span class="sxs-lookup"><span data-stu-id="60ba4-115">Log one user on to a computer that is joined to the domain, and the other user on to another computer in the domain.</span></span>
+7.  <span data-ttu-id="55538-115">将一位用户登录到加入域的计算机，另一用户登录到域中的另一台计算机。</span><span class="sxs-lookup"><span data-stu-id="55538-115">Log one user on to a computer that is joined to the domain, and the other user on to another computer in the domain.</span></span>
 
-8.  <span data-ttu-id="60ba4-116">在两台客户端计算机上安装 Lync Server 2013, 然后验证这两个用户都可以登录 Lync Server 2013, 并且可以互相发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="60ba4-116">Install Lync Server 2013 on each of the two client computers, and then verify that both users can sign in to Lync Server 2013 and can send instant messages to each other.</span></span>
+8.  <span data-ttu-id="55538-116">在两台客户端计算机上安装 Lync Server 2013，然后验证这两个用户都可以登录 Lync Server 2013，并且可以互相发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="55538-116">Install Lync Server 2013 on each of the two client computers, and then verify that both users can sign in to Lync Server 2013 and can send instant messages to each other.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="60ba4-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="60ba4-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55538-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="55538-117">See Also</span></span>
 
 
-[<span data-ttu-id="60ba4-118">在 Lync Server 2013 中部署客户端和设备</span><span class="sxs-lookup"><span data-stu-id="60ba4-118">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
+[<span data-ttu-id="55538-118">在 Lync Server 2013 中部署客户端和设备</span><span class="sxs-lookup"><span data-stu-id="55538-118">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
   
 
 </div>
