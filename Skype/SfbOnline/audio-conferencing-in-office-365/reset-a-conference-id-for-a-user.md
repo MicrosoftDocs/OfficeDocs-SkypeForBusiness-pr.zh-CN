@@ -16,73 +16,74 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '了解在 Skype for Business Online 中重置用户的会议 ID 以及获取会议更新和迁移工具的链接的步骤。 '
-ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792102"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707147"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a><span data-ttu-id="c8f56-103">在 Skype for Business Online 中重置用户的会议 ID</span><span class="sxs-lookup"><span data-stu-id="c8f56-103">Reset a conference ID for a user in Skype for Business Online</span></span>
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a><span data-ttu-id="8673d-103">在 Skype for Business Online 中重置用户的会议 ID</span><span class="sxs-lookup"><span data-stu-id="8673d-103">Reset a conference ID for a user in Skype for Business Online</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c8f56-104">有关重置 Microsoft Teams 中的会议 ID 的信息，请参阅[在 Microsoft  Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)。</span><span class="sxs-lookup"><span data-stu-id="c8f56-104">For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).</span></span>
+> <span data-ttu-id="8673d-104">有关重置 Microsoft Teams 中的会议 ID 的信息，请参阅[在 Microsoft  Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)。</span><span class="sxs-lookup"><span data-stu-id="8673d-104">For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).</span></span>
 
-<span data-ttu-id="c8f56-p101">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span><span class="sxs-lookup"><span data-stu-id="c8f56-p101">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span></span>
+<span data-ttu-id="8673d-p101">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span><span class="sxs-lookup"><span data-stu-id="8673d-p101">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c8f56-107">如果你的会议提供商是 Microsoft, 你的用户的会议 Id 将设置为 "仅动态"。</span><span class="sxs-lookup"><span data-stu-id="c8f56-107">If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only.</span></span> <span data-ttu-id="c8f56-108">此操作无法更改。</span><span class="sxs-lookup"><span data-stu-id="c8f56-108">This cannot be changed.</span></span> <span data-ttu-id="c8f56-109">仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。</span><span class="sxs-lookup"><span data-stu-id="c8f56-109">Conference IDs are automatically set only for Skype for Business users enabled for Audio Conferencing.</span></span> 
+> <span data-ttu-id="8673d-p102">如果你的会议提供商是 Microsoft，你的用户的会议 Id 将设置为 "仅动态"。此操作无法更改。仅为启用音频会议的 Skype for business 用户自动设置会议 Id。</span><span class="sxs-lookup"><span data-stu-id="8673d-p102">If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only. This cannot be changed. Conference IDs are automatically set only for Skype for Business users enabled for Audio Conferencing.</span></span> 
 
-## <a name="resetting-the-conference-id-for-a-user"></a><span data-ttu-id="c8f56-110">重置用户的会议 ID</span><span class="sxs-lookup"><span data-stu-id="c8f56-110">Resetting the conference ID for a user</span></span>
+## <a name="resetting-the-conference-id-for-a-user"></a><span data-ttu-id="8673d-110">重置用户的会议 ID</span><span class="sxs-lookup"><span data-stu-id="8673d-110">Resetting the conference ID for a user</span></span>
    
-1. <span data-ttu-id="c8f56-111">在**Skype for business 管理中心**中, 单击 "**音频会议** > **用户**", 选择用户, 然后在 "**会议 ID** " 下的 "操作" 窗格中单击 "**重置**"。</span><span class="sxs-lookup"><span data-stu-id="c8f56-111">In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.</span></span>
+1. <span data-ttu-id="8673d-111">在**Skype for business 管理中心**中，单击 "**音频会议** > **用户**"，选择用户，然后在 "**会议 ID** " 下的 "操作" 窗格中单击 "**重置**"。</span><span class="sxs-lookup"><span data-stu-id="8673d-111">In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.</span></span>
     
-2. <span data-ttu-id="c8f56-p103">In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.</span><span class="sxs-lookup"><span data-stu-id="c8f56-p103">In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.</span></span>
+2. <span data-ttu-id="8673d-p103">In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.</span><span class="sxs-lookup"><span data-stu-id="8673d-p103">In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="c8f56-p104">[!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。</span><span class="sxs-lookup"><span data-stu-id="c8f56-p104">After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings.</span></span> 
+> <span data-ttu-id="8673d-p104">[!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。此电子邮件将发送到主电子邮件地址，大多数情况下是其 Office 365 邮箱。电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。</span><span class="sxs-lookup"><span data-stu-id="8673d-p104">After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings.</span></span> 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a><span data-ttu-id="c8f56-118">我还需了解哪些信息？</span><span class="sxs-lookup"><span data-stu-id="c8f56-118">What else should I know?</span></span>
+## <a name="what-else-should-i-know"></a><span data-ttu-id="8673d-118">我还需了解哪些信息？</span><span class="sxs-lookup"><span data-stu-id="8673d-118">What else should I know?</span></span>
 
-- <span data-ttu-id="c8f56-p105">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.</span><span class="sxs-lookup"><span data-stu-id="c8f56-p105">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.</span></span>
+- <span data-ttu-id="8673d-p105">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.</span><span class="sxs-lookup"><span data-stu-id="8673d-p105">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.</span></span>
     
-- <span data-ttu-id="c8f56-121">会议 ID 将包含7位数字, 并且不能在 Skype for Business 管理中心或使用 Windows PowerShell 中更改其长度。</span><span class="sxs-lookup"><span data-stu-id="c8f56-121">A conference ID will contain 7 digits, and you can't change its length in the Skype for Business admin center or by using Windows PowerShell.</span></span>
+- <span data-ttu-id="8673d-121">会议 ID 将包含7位数字，并且不能在 Skype for Business 管理中心或使用 Windows PowerShell 中更改其长度。</span><span class="sxs-lookup"><span data-stu-id="8673d-121">A conference ID will contain 7 digits, and you can't change its length in the Skype for Business admin center or by using Windows PowerShell.</span></span>
     
-- <span data-ttu-id="c8f56-122">重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。</span><span class="sxs-lookup"><span data-stu-id="c8f56-122">After it has been reset, you can see the new conference ID listed under **Conference ID**.</span></span>
+- <span data-ttu-id="8673d-122">重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。</span><span class="sxs-lookup"><span data-stu-id="8673d-122">After it has been reset, you can see the new conference ID listed under **Conference ID**.</span></span>
     
-- <span data-ttu-id="c8f56-123">当你在 "**用户**" 页面上选择用户时, 可以在操作窗格的底部查看音频\*\*\*\* 会议的用户的会议 ID。</span><span class="sxs-lookup"><span data-stu-id="c8f56-123">The conference ID for a user for audio conferencing can be viewed at the bottom of the Action pane under **Audio conferencing** when you select the user on the **Users** page.</span></span>
+- <span data-ttu-id="8673d-123">当你在 "**用户**" 页面上选择用户时，可以在操作窗格的底部**查看音频会议**的用户的会议 ID。</span><span class="sxs-lookup"><span data-stu-id="8673d-123">The conference ID for a user for audio conferencing can be viewed at the bottom of the Action pane under **Audio conferencing** when you select the user on the **Users** page.</span></span>
     
-- <span data-ttu-id="c8f56-p106">After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:</span><span class="sxs-lookup"><span data-stu-id="c8f56-p106">After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:</span></span>
+- <span data-ttu-id="8673d-p106">After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:</span><span class="sxs-lookup"><span data-stu-id="8673d-p106">After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:</span></span>
     
-  - [<span data-ttu-id="c8f56-128">Skype for Business 和 Lync 的会议更新工具</span><span class="sxs-lookup"><span data-stu-id="c8f56-128">Meeting Update Tool for Skype for Business and Lync</span></span>](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
+  - [<span data-ttu-id="8673d-128">Skype for Business 和 Lync 的会议更新工具</span><span class="sxs-lookup"><span data-stu-id="8673d-128">Meeting Update Tool for Skype for Business and Lync</span></span>](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
-  - [<span data-ttu-id="c8f56-129">Skype for Business Online、会议迁移工具（64 位）</span><span class="sxs-lookup"><span data-stu-id="c8f56-129">Skype for Business Online, Meeting Migration Tool (64-bit)</span></span>](https://go.microsoft.com/fwlink/?LinkID=626047)
+  - [<span data-ttu-id="8673d-129">Skype for Business Online、会议迁移工具（64 位）</span><span class="sxs-lookup"><span data-stu-id="8673d-129">Skype for Business Online, Meeting Migration Tool (64-bit)</span></span>](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [<span data-ttu-id="c8f56-130">Skype for Business Online、会议迁移工具（32 位）</span><span class="sxs-lookup"><span data-stu-id="c8f56-130">Skype for Business Online, Meeting Migration Tool (32-bit)</span></span>](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [<span data-ttu-id="8673d-130">Skype for Business Online、会议迁移工具（32 位）</span><span class="sxs-lookup"><span data-stu-id="8673d-130">Skype for Business Online, Meeting Migration Tool (32-bit)</span></span>](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
     
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="c8f56-131">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="c8f56-131">Want to know how to manage with Windows PowerShell?</span></span>
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="8673d-131">想知道如何使用 Windows PowerShell 进行管理吗？</span><span class="sxs-lookup"><span data-stu-id="8673d-131">Want to know how to manage with Windows PowerShell?</span></span>
 
-- <span data-ttu-id="c8f56-p107">对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="c8f56-p107">When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+- <span data-ttu-id="8673d-p107">对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="8673d-p107">When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="c8f56-135">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="c8f56-135">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [<span data-ttu-id="8673d-135">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="8673d-135">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [<span data-ttu-id="c8f56-136">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="c8f56-136">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="8673d-136">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="8673d-136">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- <span data-ttu-id="c8f56-137">Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。</span><span class="sxs-lookup"><span data-stu-id="c8f56-137">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="c8f56-138">Learn about these advantages in the following topics:</span><span class="sxs-lookup"><span data-stu-id="c8f56-138">Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="8673d-p108">Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：</span><span class="sxs-lookup"><span data-stu-id="8673d-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
     
-  - [<span data-ttu-id="c8f56-139">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="c8f56-139">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="8673d-139">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="8673d-139">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-  - [<span data-ttu-id="c8f56-140">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="c8f56-140">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [<span data-ttu-id="8673d-140">使用 Windows PowerShell 管理 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="8673d-140">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [<span data-ttu-id="c8f56-141">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="c8f56-141">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="8673d-141">使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="8673d-141">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a><span data-ttu-id="c8f56-142">相关主题</span><span class="sxs-lookup"><span data-stu-id="c8f56-142">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8673d-142">相关主题</span><span class="sxs-lookup"><span data-stu-id="8673d-142">Related topics</span></span>
 
-[<span data-ttu-id="c8f56-143">重置音频会议 PIN</span><span class="sxs-lookup"><span data-stu-id="c8f56-143">Reset the Audio Conferencing PIN</span></span>](reset-the-audio-conferencing-pin.md)
+[<span data-ttu-id="8673d-143">重置音频会议 PIN</span><span class="sxs-lookup"><span data-stu-id="8673d-143">Reset the Audio Conferencing PIN</span></span>](reset-the-audio-conferencing-pin.md)
