@@ -3,6 +3,8 @@ title: Lync Server 2013：配置推送通知
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring for push notifications
 ms:assetid: d77f2c06-0fe6-45d5-8f08-808ab871b3e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08492aaa6fc8c9fb6569ad6ad642a5cc1157a2ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c34b49d6c968effa46005a01df286d14fcff394c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837250"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,25 +35,25 @@ ms.locfileid: "34837250"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-12_
+_**主题上次修改时间：** 2013-02-12_
 
-即使移动应用处于非活动状态, 推送通知 (以锁屏提醒、图标或警报形式) 也可以发送到移动设备。 推送通知通知用户诸如新的或错过的 IM 邀请和语音邮件等事件。 Lync Server 2013 移动服务将通知发送到基于云的 Lync Server 推送通知服务, 然后将通知发送到 Apple 推送通知服务 (APNS) (适用于运行 Lync 2010 移动客户端的 Apple 设备) 或Microsoft 推送通知服务 (MPNS) (适用于运行 Lync 2010 手机或 Lync 2013 移动客户端的 Windows Phone 设备)。
+即使移动应用处于非活动状态，推送通知（以锁屏提醒、图标或警报形式）也可以发送到移动设备。 推送通知通知用户诸如新的或错过的 IM 邀请和语音邮件等事件。 Lync Server 2013 移动服务将通知发送到基于云的 Lync Server 推送通知服务，然后将通知发送到 Apple 推送通知服务（APNS）（适用于运行 Lync 2010 移动客户端的 Apple 设备）或Microsoft 推送通知服务（MPNS）（适用于运行 Lync 2010 手机或 Lync 2013 移动客户端的 Windows Phone 设备）。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您将 Windows Phone 与 Lync 2010 移动版或 Lync 2013 移动客户端配合使用, 推送通知是重要的考虑因素。<BR>如果在 Apple 设备上使用 Lync 2010 Mobile, 推送通知是重要的考虑因素。<BR>如果在 Apple 设备上使用 Lync 2013 Mobile, 则不再需要推送通知。
+> 如果您将 Windows Phone 与 Lync 2010 移动版或 Lync 2013 移动客户端配合使用，推送通知是重要的考虑因素。<BR>如果在 Apple 设备上使用 Lync 2010 Mobile，推送通知是重要的考虑因素。<BR>如果在 Apple 设备上使用 Lync 2013 Mobile，则不再需要推送通知。
 
 
 
 </div>
 
-通过执行下列操作配置拓扑以支持推送通知:
+通过执行下列操作配置拓扑以支持推送通知：
 
-  - 如果你的环境具有 Lync Server 2010 或 Lync Server 2013 Edge 服务器, 你需要添加新的托管提供商和 Microsoft Lync Online, 然后在你的组织和 Lync Online 之间设置托管提供商联合身份验证。
+  - 如果你的环境具有 Lync Server 2010 或 Lync Server 2013 Edge 服务器，你需要添加新的托管提供商和 Microsoft Lync Online，然后在你的组织和 Lync Online 之间设置托管提供商联合身份验证。
 
-  - 如果你的环境具有 Office 通信服务器 2007 R2 Edge 服务器, 你需要使用 push.lync.com 设置直接 SIP 联合身份验证。
+  - 如果你的环境具有 Office 通信服务器 2007 R2 Edge 服务器，你需要使用 push.lync.com 设置直接 SIP 联合身份验证。
     
     <div>
     
@@ -62,7 +64,7 @@ _**主题上次修改时间:** 2013-02-12_
     
     </div>
 
-  - 若要启用推送通知, 你需要运行**CsPushNotificationConfiguration** cmdlet。 默认情况下，推送通知已关闭。
+  - 若要启用推送通知，你需要运行**CsPushNotificationConfiguration** cmdlet。 默认情况下，推送通知已关闭。
 
   - 测试联合身份验证配置和推送通知。
 
@@ -72,7 +74,7 @@ _**主题上次修改时间:** 2013-02-12_
 
 1.  登录到安装了 Lync Server 命令行管理器和 Ocscore 的计算机作为 RtcUniversalServerAdmins 组的成员。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  添加 Lync Server online 托管提供商。 在命令行中键入：
     
@@ -86,7 +88,7 @@ _**主题上次修改时间:** 2013-02-12_
     
 
     > [!NOTE]  
-    > 一个托管提供程序不能有多个联合关系。 也就是说, 如果你已设置与 sipfed.online.lync.com 的联合关系的托管提供商, 请不要为其添加另一个托管提供程序, 即使托管提供程序的标识是 LyncOnline 以外的其他内容。
+    > 一个托管提供程序不能有多个联合关系。 也就是说，如果你已设置与 sipfed.online.lync.com 的联合关系的托管提供商，请不要为其添加另一个托管提供程序，即使托管提供程序的标识是 LyncOnline 以外的其他内容。
 
     
     </div>
@@ -103,17 +105,17 @@ _**主题上次修改时间:** 2013-02-12_
 
 1.  以 RtcUniversalServerAdmins 组成员的身份登录到边缘服务器。
 
-2.  单击 "**开始**", 单击 "**所有程序**", 单击 "**管理工具**", 然后单击 "**计算机管理**"。
+2.  单击 "**开始**"，单击 "**所有程序**"，单击 "**管理工具**"，然后单击 "**计算机管理**"。
 
-3.  在控制台树中, 展开 "**服务和应用程序**", 右键单击 " **Microsoft Office 通信服务器 2007 R2**", 然后单击 "**属性**"。
+3.  在控制台树中，展开 "**服务和应用程序**"，右键单击 " **Microsoft Office 通信服务器 2007 R2**"，然后单击 "**属性**"。
 
-4.  在 "**允许**" 选项卡上, 单击 "**添加**"。
+4.  在 "**允许**" 选项卡上，单击 "**添加**"。
 
-5.  在 "**添加联盟合作伙伴**" 对话框中, 执行下列操作:
+5.  在 "**添加联盟合作伙伴**" 对话框中，执行下列操作：
     
-      - 在 "**联盟伙伴域名**" 中, 键入**push.lync.com**。
+      - 在 "**联盟伙伴域名**" 中，键入**push.lync.com**。
     
-      - 在 "**联盟伙伴访问边缘服务器**" 中, 键入**sipfed.online.lync.com**。
+      - 在 "**联盟伙伴访问边缘服务器**" 中，键入**sipfed.online.lync.com**。
     
       - 单击“**确定**”。
 
@@ -125,7 +127,7 @@ _**主题上次修改时间:** 2013-02-12_
 
 1.  登录到 Lync Server Management Shell 和 Ocscore 作为 CsAdministrator 角色的成员进行安装的计算机。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  启用推送通知。 在命令行中键入：
     
@@ -143,7 +145,7 @@ _**主题上次修改时间:** 2013-02-12_
 
 1.  登录到 Lync Server Management Shell 和 Ocscore 作为 CsAdministrator 角色的成员进行安装的计算机。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  测试联合身份验证配置。 在命令行中键入：
     

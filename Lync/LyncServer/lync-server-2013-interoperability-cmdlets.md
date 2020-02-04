@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 互操作性 cmdlet'
+title: Lync Server 2013：互操作性 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Interoperability cmdlets
 ms:assetid: 18444a0b-7b66-4540-a262-775ea10b3b7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204714(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9360a9366c5358c30dbf2cb007af990125dcb15
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4fba07f35836e6b8ac5025b887c69bea283846b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829957"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34829957"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-27_
+_**主题上次修改时间：** 2012-06-27_
 
-互操作性 cmdlet 用于配置 Microsoft Lync Server 2013 和其他服务器产品 (如 Microsoft Exchange Server 2013) 之间的服务器到服务器身份验证和授权。 服务器到服务器身份验证和授权使这些服务器可以无缝交换和共享数据。
+互操作性 cmdlet 用于配置 Microsoft Lync Server 2013 和其他服务器产品（如 Microsoft Exchange Server 2013）之间的服务器到服务器身份验证和授权。 服务器到服务器身份验证和授权使这些服务器可以无缝交换和共享数据。
 
 <div>
 
 ## <a name="interoperability-cmdlets"></a>互操作性 Cmdlet
 
-以下是与配置和管理 Microsoft Lync Server 2013 和其他服务器产品之间的互操作性相关的 cmdlet 的列表:
+以下是与配置和管理 Microsoft Lync Server 2013 和其他服务器产品之间的互操作性相关的 cmdlet 的列表：
 
 **互操作性 Cmdlet**
 

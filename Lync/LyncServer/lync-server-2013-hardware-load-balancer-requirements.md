@@ -3,6 +3,8 @@ title: Lync Server 2013 硬件负载平衡器要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware load balancer requirements
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b10a91f469bf4688de06e836e0bdeffae1112
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830091"
 
 <span> </span>
 
-_**主题上次修改时间:** 2015-05-11_
+_**主题上次修改时间：** 2015-05-11_
 
-Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负载平衡, 主要与使用 Lync Server 的其他组织联盟。 如果以下任何方案需要高可用性, 则必须在 Edge 服务器池中使用硬件负载平衡器才能执行以下操作:
+Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负载平衡，主要与使用 Lync Server 的其他组织联盟。 如果以下任何方案需要高可用性，则必须在 Edge 服务器池中使用硬件负载平衡器才能执行以下操作：
 
   - 与使用 Office 通信服务器 2007 R2 或 Office 通信服务器2007的组织进行联盟
 
@@ -67,19 +69,19 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持直接服务器返回 (DSR) NAT。
+> Lync Server 2013 不支持直接服务器返回（DSR） NAT。
 
 
 
 </div>
 
-若要确定你的硬件负载平衡器是否支持 Lync Server 2013 所需的功能, 请参阅 at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
+若要确定你的硬件负载平衡器是否支持 Lync Server 2013 所需的功能，请参阅 at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
 
 <div>
 
 ## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>运行 A/V 边缘服务的边缘服务器的硬件负载平衡器要求
 
-以下是运行 A/V 边缘服务的边缘服务器的硬件负载平衡器要求:
+以下是运行 A/V 边缘服务的边缘服务器的硬件负载平衡器要求：
 
   - 对内部和外部端口 443 关闭 TCP nagling。Nagling 是将若干小数据包整合到单个大数据包以提高传输效率的过程。
 
@@ -87,9 +89,9 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
   - 请不要对内部或外部防火墙使用 NAT。
 
-  - Edge 内部接口必须位于不同的网络上, 而不是边缘服务器外部接口和必须禁用它们之间的路由。
+  - Edge 内部接口必须位于不同的网络上，而不是边缘服务器外部接口和必须禁用它们之间的路由。
 
-  - 运行 A/V 边缘服务的边缘服务器的外部接口必须使用可公开路由的 IP 地址, 并且任何边缘外部 IP 地址上没有 NAT 或端口转换。
+  - 运行 A/V 边缘服务的边缘服务器的外部接口必须使用可公开路由的 IP 地址，并且任何边缘外部 IP 地址上没有 NAT 或端口转换。
 
 </div>
 
@@ -97,7 +99,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 ## <a name="hardware-load-balancer-requirements"></a>硬件负载平衡器要求
 
-在 Lync Server 2013 for Web 服务中, 基于 Cookie 的相关性要求大大减少。 如果你要部署 Lync Server 2013, 并且不会保留任何 Lync Server 2010 前端服务器或前端池, 则不需要基于 cookie 的持久性。 但是, 如果你将临时或永久保留任何 Lync Server 2010 前端服务器或前端池, 你仍然使用基于 cookie 的持久性, 因为它是为 Lync Server 2010 部署和配置的。
+在 Lync Server 2013 for Web 服务中，基于 Cookie 的相关性要求大大减少。 如果你要部署 Lync Server 2013，并且不会保留任何 Lync Server 2010 前端服务器或前端池，则不需要基于 cookie 的持久性。 但是，如果你将临时或永久保留任何 Lync Server 2010 前端服务器或前端池，你仍然使用基于 cookie 的持久性，因为它是为 Lync Server 2010 部署和配置的。
 
 <div>
 
@@ -129,7 +131,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 
 > [!NOTE]  
-> 典型的硬件负载平衡器配置使用源地址相关性和20分钟 TCP 会话生存期, 这对于 Lync Server 和 Lync 2013 客户端来说非常合适, 因为会话状态是通过客户端使用和/或应用程序交互维护的。
+> 典型的硬件负载平衡器配置使用源地址相关性和20分钟 TCP 会话生存期，这对于 Lync Server 和 Lync 2013 客户端来说非常合适，因为会话状态是通过客户端使用和/或应用程序交互维护的。
 
 
 
@@ -141,7 +143,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 
 > [!WARNING]  
-> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息, 请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -149,7 +151,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 以下是控制器和前端池 Web 服务的硬件负载平衡器要求：
 
-  - 对于内部 Web 服务 Vip, 请在\_硬件负载平衡器上设置源地址持久性 (内部端口 80, 443)。 对于 Lync Server 2013, 源\_地址持久性意味着来自单个 IP 地址的多个连接始终发送到一台服务器, 以维护会话状态。
+  - 对于内部 Web 服务 Vip，请在\_硬件负载平衡器上设置源地址持久性（内部端口80，443）。 对于 Lync Server 2013，源\_地址持久性意味着来自单个 IP 地址的多个连接始终发送到一台服务器，以维护会话状态。
 
   - 使用 TCP 空闲超时 1800 秒。
 
@@ -159,7 +161,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 
 > [!IMPORTANT]  
-> 有关硬件负载平衡器配置的进一步阅读, 请参阅<A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">端口摘要-在 Lync Server 2013 中通过硬件负载平衡器进行缩放的合并边缘</A>。
+> 有关硬件负载平衡器配置的进一步阅读，请参阅<A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">端口摘要-在 Lync Server 2013 中通过硬件负载平衡器进行缩放的合并边缘</A>。
 
 
 
@@ -187,19 +189,19 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Web App (内部和外部用户)</p>
+<td><p>Lync Web App （内部和外部用户）</p>
 <p>移动设备（内部和外部用户）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App (仅限外部用户)</p>
+<td><p>Lync Web App （仅限外部用户）</p>
 <p>移动设备（内部和外部用户）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Web App (仅限内部用户)</p>
+<td><p>Lync Web App （仅限内部用户）</p>
 <p>移动设备（未部署）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
@@ -214,7 +216,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 
 ## <a name="port-monitoring-for-hardware-load-balancers"></a>硬件负载平衡器的端口监控
 
-在硬件负载平衡器上定义端口监控来确定特定服务何时由于硬件或通信故障而不再可用。 例如, 如果前端服务器服务 (RTCSRV) 因前端服务器或前端池出现故障而停止, 则 HLB 监视还应停止接收 Web 服务的流量。 可在 HLB 上实施端口监控来监控以下各项：
+在硬件负载平衡器上定义端口监控来确定特定服务何时由于硬件或通信故障而不再可用。 例如，如果前端服务器服务（RTCSRV）因前端服务器或前端池出现故障而停止，则 HLB 监视还应停止接收 Web 服务的流量。 可在 HLB 上实施端口监控来监控以下各项：
 
 ### <a name="front-end-server-user-pool--hlb-internal-interface"></a>前端服务器用户池-HLB 内部接口
 
@@ -237,7 +239,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;pool&gt;web-int_mco_443_vs</p>
+<td><p>&lt;池&gt;web-int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>前端</p>
@@ -246,7 +248,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;pool&gt;web-int_mco_80_vs</p>
+<td><p>&lt;池&gt;web-int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>前端</p>
@@ -279,7 +281,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;pool&gt;web_mco_443_vs</p>
+<td><p>&lt;池&gt;web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>前端</p>
@@ -288,7 +290,7 @@ Lync Server 2013 缩放的合并边缘拓扑已针对新部署优化了 DNS 负�
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;pool&gt;web_mco_80_vs</p>
+<td><p>&lt;池&gt;web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>前端</p>

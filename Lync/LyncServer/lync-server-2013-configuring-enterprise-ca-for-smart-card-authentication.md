@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 为智能卡身份验证配置企业 CA'
+title: Lync Server 2013：为智能卡身份验证配置企业 CA
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Enterprise CA for smart card authentication
 ms:assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308571(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 890a69d1c863702db0a70cfb2ce3d61f6a75eeae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837258"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837258"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-03_
+_**主题上次修改时间：** 2013-07-03_
 
-以下部分介绍了如何配置企业根证书颁发机构 (CA) 以支持智能卡身份验证。 有关如何安装企业根 CA 的详细信息, 请参阅在以下位置[http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)安装企业根证书颁发机构。
+以下部分介绍了如何配置企业根证书颁发机构（CA）以支持智能卡身份验证。 有关如何安装企业根 CA 的详细信息，请参阅在以下位置[http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)安装企业根证书颁发机构。
 
 <div>
 

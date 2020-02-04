@@ -3,6 +3,8 @@ title: Lync Server 2013：规划响应组
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response groups
 ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398617(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b9e0bd7da85a06295819955b77916f419e2a0f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824286"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824286"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-19_
+_**主题上次修改时间：** 2012-06-19_
 
-如果您的组织有多个用户组, 他们可以回答和管理特定类型的呼叫 (如客户服务、内部技术支持或部门的常规电话支持), 则可以部署 Lync Server 响应组应用程序来管理这些类型的通话。 响应组应用程序将传入呼叫路由和排队给称为代理的指定人员。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。 本部分介绍响应组的规划注意事项。
+如果您的组织有多个用户组，他们可以回答和管理特定类型的呼叫（如客户服务、内部技术支持或部门的常规电话支持），则可以部署 Lync Server 响应组应用程序来管理这些类型的通话。 响应组应用程序将传入呼叫路由和排队给称为代理的指定人员。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。 本部分介绍响应组的规划注意事项。
 
 <div>
 

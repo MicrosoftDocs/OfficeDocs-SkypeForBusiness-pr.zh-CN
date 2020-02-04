@@ -3,6 +3,8 @@ title: Lync Server 2013：用于 Lync Server 的 Windows Update
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows Update for Lync Server 2013
 ms:assetid: fe26ab32-b1a9-421d-9227-506703d4b834
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518337(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8df575ac6c42bd62db57ed4e6595ced0af32014a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57949b051468241e18d8a121e9d79bc1fdb378f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34845236"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-12-05_
+_**主题上次修改时间：** 2013-12-05_
 
-使用 Windows Update 服务经常检查并应用更新和安全更新。 这样做有助于防止其他系统组件中的漏洞, 这可能会导致攻击者能够使用管理员权限访问运行 Microsoft Lync Server 2013 的服务器, 从而危害 Lync 服务器2013。
+使用 Windows Update 服务经常检查并应用更新和安全更新。 这样做有助于防止其他系统组件中的漏洞，这可能会导致攻击者能够使用管理员权限访问运行 Microsoft Lync Server 2013 的服务器，从而危害 Lync 服务器2013。
 
-Microsoft SQL Server 2008 Express (64 位版本) 的更新在每个 Lync Server 2013 标准版服务器 (适用于后端数据库) 和所有其他 Lync Server 2013 服务器角色 (对于本地配置存储) 上运行, 除非已升级这些数据库到 SQL Server 2008 R2 Express。 应将这些数据库视为常规安全更新维护的一部分, 如前端池、监视数据库和存档数据库的后端数据库上的 SQL Server。
+Microsoft SQL Server 2008 Express （64位版本）的更新在每个 Lync Server 2013 标准版服务器（适用于后端数据库）和所有其他 Lync Server 2013 服务器角色（对于本地配置存储）上运行，除非已升级这些数据库到 SQL Server 2008 R2 Express。 应将这些数据库视为常规安全更新维护的一部分，如前端池、监视数据库和存档数据库的后端数据库上的 SQL Server。
 
 <div>
 

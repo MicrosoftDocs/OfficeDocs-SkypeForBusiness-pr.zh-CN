@@ -3,6 +3,8 @@ title: Lync Server 2013：删除旧版授权主机（可选）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a legacy authorized host (optional)
 ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558603(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e149a95bdb9111aee4b92afde8842a5871ca4f0c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d10b9c9bf31328f5008a8be84fe3c10c901b668
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823131"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-05_
+_**主题上次修改时间：** 2012-09-05_
 
-将远程呼叫控制迁移到 Lync Server 部署时, 必须在旧版部署中删除适用于任何 SIP/CSTA 网关的旧版授权主机条目 (在 Lync Server 中称为 "*受信任的应用程序条目*")。 必须使用管理工具分别从这些部署中删除授权的主机条目。
+将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除适用于任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。 必须使用管理工具分别从这些部署中删除授权的主机条目。
 
 <div>
 

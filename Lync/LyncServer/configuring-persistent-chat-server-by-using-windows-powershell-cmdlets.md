@@ -3,6 +3,8 @@ title: 使用 Windows PowerShell Cmdlet 配置持久聊天服务器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Persistent Chat Server by using Windows PowerShell cmdlets
 ms:assetid: 4c1d1ad7-b6bd-476f-9c5b-f0c1756d5aa8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204877(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c18111987d7f0c567eab0cab8bad60934ec7d36d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837841"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-06_
+_**主题上次修改时间：** 2012-10-06_
 
 使用以下 Windows PowerShell cmdlet 配置 Lync Server 2013、永久聊天服务器中的管理。
 

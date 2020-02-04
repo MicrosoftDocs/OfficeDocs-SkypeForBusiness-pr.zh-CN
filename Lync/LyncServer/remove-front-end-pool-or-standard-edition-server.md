@@ -3,6 +3,8 @@ title: 删除前端池或 Standard Edition Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Front End pool or Standard Edition server
 ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845106"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845106"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-04_
+_**主题上次修改时间：** 2012-10-04_
 
-本主题将指导你完成删除前端池或标准版前端服务器的过程。 删除前端池时, 将在池删除过程中删除属于该池的每个前端服务器。 删除标准版前端服务器时, 必须从拓扑生成器中删除 SQL 应用商店定义。
+本主题将指导你完成删除前端池或标准版前端服务器的过程。 删除前端池时，将在池删除过程中删除属于该池的每个前端服务器。 删除标准版前端服务器时，必须从拓扑生成器中删除 SQL 应用商店定义。
 
 <div>
 
@@ -45,9 +47,9 @@ _**主题上次修改时间:** 2012-10-04_
 
 2.  导航到 Lync Server 2010 节点。
 
-3.  展开 "**企业版前端池**", 展开 "前端池", 右键单击要删除的前端池, 然后单击 "**删除**"。
+3.  展开 "**企业版前端池**"，展开 "前端池"，右键单击要删除的前端池，然后单击 "**删除**"。
 
-4.  发布拓扑, 检查复制状态, 然后根据需要运行 Lync Server 部署向导。
+4.  发布拓扑，检查复制状态，然后根据需要运行 Lync Server 部署向导。
 
 </div>
 
@@ -59,9 +61,9 @@ _**主题上次修改时间:** 2012-10-04_
 
 2.  导航到 Lync Server 2010 节点。
 
-3.  展开**标准版前端服务器**, 右键单击要删除的前端服务器, 然后单击 "**删除**"。
+3.  展开**标准版前端服务器**，右键单击要删除的前端服务器，然后单击 "**删除**"。
 
-4.  展开 " **sql 存储**", 右键单击与标准版前端服务器关联的 SQL Server 数据库, 然后单击 "**删除**"。
+4.  展开 " **sql 存储**"，右键单击与标准版前端服务器关联的 SQL Server 数据库，然后单击 "**删除**"。
     
     <div>
     
@@ -72,7 +74,7 @@ _**主题上次修改时间:** 2012-10-04_
     
     </div>
 
-5.  发布拓扑, 检查复制状态, 然后根据需要运行 Lync Server 部署向导。
+5.  发布拓扑，检查复制状态，然后根据需要运行 Lync Server 部署向导。
 
 </div>
 

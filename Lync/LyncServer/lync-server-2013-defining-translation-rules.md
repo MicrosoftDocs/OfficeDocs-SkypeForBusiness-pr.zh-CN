@@ -3,6 +3,8 @@ title: Lync Server 2013：定义转换规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining translation rules
 ms:assetid: 4f6b975a-77e6-474c-9171-b139d84138c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398322(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fd10438fa469b7c6d6285a616d9b9f5f3a262c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bd6b46dbe0362f81cdaf6a1bf52a27112604a46
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830700"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830700"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-22_
+_**主题上次修改时间：** 2013-02-22_
 
-Lync Server 2013 企业版语音路由基于规范化为164格式的电话号码进行呼叫。 这意味着, 所有已拨打的字符串都必须规范化为 RNL 格式, 以便执行反向数字查找 (), 以便可以将其转换为匹配的 SIP URI。 Lync Server 2013 提供操作被呼叫的 ID 和来电显示演示文稿的功能。
+Lync Server 2013 企业版语音路由基于规范化为164格式的电话号码进行呼叫。 这意味着，所有已拨打的字符串都必须规范化为 RNL 格式，以便执行反向数字查找（），以便可以将其转换为匹配的 SIP URI。 Lync Server 2013 提供操作被呼叫的 ID 和来电显示演示文稿的功能。
 
 本部分讨论如何操纵已调用的 ID 和来电显示 ID。
 

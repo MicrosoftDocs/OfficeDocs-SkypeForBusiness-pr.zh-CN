@@ -3,6 +3,8 @@ title: Lync Server 2013：定义呼叫允许控制要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7737d303c7239df451c71b4f92d4dcd8dfe5b2e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba23e34099ed75f61f8025711189c60d36ca18f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830720"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830720"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-10-28_
+_**主题上次修改时间：** 2013-10-28_
 
 规划呼叫允许控制 (CAC) 需要有关企业网络拓扑的详细信息。为了帮助您规划呼叫允许控制策略，请执行以下步骤。
 
@@ -60,7 +62,7 @@ _**主题上次修改时间:** 2013-10-28_
 
 **呼叫允许控制的示例拓扑**
 
-![广通公司公司网络拓扑示例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "广通公司公司网络拓扑示例")
+![Litware Inc. 网络拓扑示例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. 网络拓扑示例")
 
 <div>
 
@@ -72,7 +74,7 @@ _**主题上次修改时间:** 2013-10-28_
 
 </div>
 
-以下各节将介绍此示例拓扑的组件。 有关如何计划此拓扑的详细信息, 包括带宽限制, 请参阅[示例: 在 Lync Server 2013 中收集呼叫许可控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
+以下各节将介绍此示例拓扑的组件。 有关如何计划此拓扑的详细信息，包括带宽限制，请参阅[示例：在 Lync Server 2013 中收集呼叫许可控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
 
 <div>
 
@@ -96,7 +98,7 @@ CAC 要求为每个网络区域定义 Lync Server 中心网站。 从该网络�
 
 
 > [!NOTE]  
-> 中央站点不一定与网络站点对应。 在本文档的示例中，某些中央站点（芝加哥、伦敦和北京）与网络站点共享同一名称。 但是, 即使中心网站和网络网站共享相同的名称, 中心网站也是 Lync Server 拓扑的一个元素, 而网络站点是 Lync Server 拓扑所在的整个网络的一部分。
+> 中央站点不一定与网络站点对应。 在本文档的示例中，某些中央站点（芝加哥、伦敦和北京）与网络站点共享同一名称。 但是，即使中心网站和网络网站共享相同的名称，中心网站也是 Lync Server 拓扑的一个元素，而网络站点是 Lync Server 拓扑所在的整个网络的一部分。
 
 
 
@@ -200,7 +202,7 @@ CAC 带宽策略可定义下列任何内容或所有内容：
 
 
 > [!NOTE]  
-> Lync Server 2013 语音策略功能提供替代传入呼叫的带宽策略检查的功能 (不适用于用户发出的传出呼叫)。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息, 请参阅在<A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Lync server 2013 中创建语音策略和配置 pstn 使用记录</A>或在部署文档的<A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">lync Server 2013 中修改语音策略和配置 pstn 使用记录</A>。
+> Lync Server 2013 语音策略功能提供替代传入呼叫的带宽策略检查的功能（不适用于用户发出的传出呼叫）。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅在<A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Lync server 2013 中创建语音策略和配置 pstn 使用记录</A>或在部署文档的<A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">lync Server 2013 中修改语音策略和配置 pstn 使用记录</A>。
 
 
 
@@ -208,11 +210,11 @@ CAC 带宽策略可定义下列任何内容或所有内容：
 
 要基于每个会话优化带宽用量，请考虑将要使用的音频和视频编解码器的类型。特别要避免出现为预期要频繁使用的编解码器分配的带宽不足的情况。相反，如果要阻止媒体使用需要更多带宽的编解码器，则应将每个会话的最大带宽设置为足以阻止此类使用的较低值。对于音频，并不是每一种编解码器都适用于每一种方案。例如：
 
-  - 当你考虑编解码器的带宽和优先级时, Lync 终结点之间的对等音频通话将使用 RTAudio (8kHz) 或 RTAudio (16kHz)。
+  - 当你考虑编解码器的带宽和优先级时，Lync 终结点之间的对等音频通话将使用 RTAudio （8kHz）或 RTAudio （16kHz）。
 
   - Lync 终结点和 A/V 会议服务之间的电话会议将使用722或 Siren。
 
-  - 与 Lync 终结点或来自 Lync 终结点的公共交换电话网络 (PSTN) 的调用将使用711或 RTAudio (8kHz)。
+  - 与 Lync 终结点或来自 Lync 终结点的公共交换电话网络（PSTN）的调用将使用711或 RTAudio （8kHz）。
 
 借助下表优化每个会话的最大带宽设置。
 
@@ -283,13 +285,13 @@ CAC 带宽策略可定义下列任何内容或所有内容：
 
 G.722.1 和 Siren 编解码器类似，但是它们提供不同的比特率。
 
-722是 Lync Server 会议的默认编解码器, 与722.1 和 Siren 编解码器完全不同。
+722是 Lync Server 会议的默认编解码器，与722.1 和 Siren 编解码器完全不同。
 
-在以下情况下, 在 Lync Server 中使用 Siren 编解码器:
+在以下情况下，在 Lync Server 中使用 Siren 编解码器：
 
   - 带宽策略设置太低而无法使用 G.722 时。
 
-  - 如果通信服务器2007或通信服务器 2007 R2 客户端连接到 Lync Server 会议服务 (因为这些客户端不支持722编解码器)。
+  - 如果通信服务器2007或通信服务器 2007 R2 客户端连接到 Lync Server 会议服务（因为这些客户端不支持722编解码器）。
 
 ### <a name="bandwidth-utilization-by-scenario"></a>不同方案的带宽用量要求
 
@@ -322,19 +324,19 @@ G.722.1 和 Siren 编解码器类似，但是它们提供不同的比特率。
 <td><p>165 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 呼叫 (Lync 2013 和 PSTN 网关之间, 使用媒体旁路)</p></td>
+<td><p>PSTN 呼叫（Lync 2013 和 PSTN 网关之间，使用媒体旁路）</p></td>
 <td><p>97 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN 呼叫 (Lync 2013 和中介服务器之间, 无需媒体旁路)</p></td>
+<td><p>PSTN 呼叫（Lync 2013 和中介服务器之间，无需媒体旁路）</p></td>
 <td><p>45 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN 呼叫 (中介服务器和 PSTN 网关之间, 无需媒体旁路)</p></td>
+<td><p>PSTN 呼叫（中介服务器和 PSTN 网关之间，无需媒体旁路）</p></td>
 <td><p>97 kbps</p></td>
 <td><p>97 kbps</p></td>
 <td><p>161 kbps</p></td>
@@ -363,7 +365,7 @@ G.722.1 和 Siren 编解码器类似，但是它们提供不同的比特率。
 
 
 > [!WARNING]  
-> 在服务器上的网络配置期间指定的 IP 子网必须与客户端计算机提供的格式匹配, 才能正确用于媒体绕过。 Lync 客户端使用其本地 IP 地址并使用关联的子网掩码屏蔽 IP 地址。 确定与每个客户端关联的绕过 ID 时, 注册机构会将与每个网络站点相关联的 IP 子网的列表与客户端提供的子网进行比较, 以精确匹配。 出于此原因, 在服务器上的网络配置期间输入的子网必须是实际的子网, 而不是虚拟子网。 (如果您部署了 "呼叫许可控制", 但没有媒体旁路, 则即使配置了虚拟子网, 呼叫许可控制也能正常运行。)<BR>例如, 如果客户在具有 ip 地址为255.255.255.0 的 ip 地址为172.29.81.57 的计算机上登录, Lync 2013 将请求与子网172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此, 管理员按 Lync 客户端提供的完全方式输入子网 (静态或通过 DHCP 在网络配置期间预配子网) 非常重要。
+> 在服务器上的网络配置期间指定的 IP 子网必须与客户端计算机提供的格式匹配，才能正确用于媒体绕过。 Lync 客户端使用其本地 IP 地址并使用关联的子网掩码屏蔽 IP 地址。 确定与每个客户端关联的绕过 ID 时，注册机构会将与每个网络站点相关联的 IP 子网的列表与客户端提供的子网进行比较，以精确匹配。 出于此原因，在服务器上的网络配置期间输入的子网必须是实际的子网，而不是虚拟子网。 （如果您部署了 "呼叫许可控制"，但没有媒体旁路，则即使配置了虚拟子网，呼叫许可控制也能正常运行。）<BR>例如，如果客户在具有 ip 地址为255.255.255.0 的 ip 地址为172.29.81.57 的计算机上登录，Lync 2013 将请求与子网172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此，管理员按 Lync 客户端提供的完全方式输入子网（静态或通过 DHCP 在网络配置期间预配子网）非常重要。
 
 
 

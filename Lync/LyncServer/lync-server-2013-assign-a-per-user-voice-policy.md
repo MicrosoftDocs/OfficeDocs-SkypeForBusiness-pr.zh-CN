@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 分配每个用户的语音策略'
+title: Lync Server 2013：分配每个用户的语音策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user voice policy
 ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e74bebc202a9e8d9fbc7b925c14bbe030e4c577
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3818ae60cd9ae3e8537bf17bee01508e32dfa26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845943"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723402"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户语音策略
 
@@ -28,13 +30,13 @@ ms.locfileid: "34845943"
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“**用户**”，然后搜索要配置的用户帐户。
 
 4.  在列出搜索结果的表中，单击相应的用户帐户，再单击“**编辑**”，然后单击“**显示详细信息**”。
 
-5.  在 "在**语音策略**中**编辑 Lync 服务器用户**" 下, 选择要应用的用户策略。
+5.  在 "在**语音策略**中**编辑 Lync 服务器用户**" 下，选择要应用的用户策略。
     
 
     > [!NOTE]  
@@ -44,7 +46,7 @@ ms.locfileid: "34845943"
 
 ## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户语音策略
 
-你可以使用 Windows PowerShell 和**CsVoicePolicy** cmdlet 分配每用户语音策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你可以使用 Windows PowerShell 和**CsVoicePolicy** cmdlet 分配每用户语音策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 ## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>将每用户语音策略分配给单个用户
 
@@ -54,7 +56,7 @@ ms.locfileid: "34845943"
 
 ## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>将每个用户的语音策略分配给多个用户
 
-  - 此命令将每用户语音策略 FinanceVoicePolicy 分配给在 Active Directory 的财务 OU 中拥有帐户的所有用户。 有关此命令中使用的 OU 参数的详细信息, 请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令将每用户语音策略 FinanceVoicePolicy 分配给在 Active Directory 的财务 OU 中拥有帐户的所有用户。 有关此命令中使用的 OU 参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -64,7 +66,7 @@ ms.locfileid: "34845943"
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息, 请参阅[CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 

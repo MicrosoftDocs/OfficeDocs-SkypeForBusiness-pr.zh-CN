@@ -3,6 +3,8 @@ title: Lync Server 2013：Internet Information Services (IIS) 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Internet Information Services (IIS) requirements
 ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcb0350178a19a75ac821a452ef90e10da297677
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34829958"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-19_
+_**主题上次修改时间：** 2012-06-19_
 
-多个 Lync Server 2013 组件需要 Internet 信息服务 (IIS)。 本主题介绍支持 Lync Server 所需的特定 IIS 功能。 本部分中的主题介绍 IIS 的特定组件的要求。
+多个 Lync Server 2013 组件需要 Internet 信息服务（IIS）。 本主题介绍支持 Lync Server 所需的特定 IIS 功能。 本部分中的主题介绍 IIS 的特定组件的要求。
 
-如果在 Windows Server 2008 上启用了 Web 服务器 (IIS) 角色, 则默认情况下会安装各种角色服务。 下表介绍了在 Windows Server 2008 上启用 Web 服务器 (IIS) 角色时必须安装的其他角色服务。
+如果在 Windows Server 2008 上启用了 Web 服务器（IIS）角色，则默认情况下会安装各种角色服务。 下表介绍了在 Windows Server 2008 上启用 Web 服务器（IIS）角色时必须安装的其他角色服务。
 
 
 <table>
@@ -105,12 +107,12 @@ _**主题上次修改时间:** 2012-06-19_
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全说明:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全说明：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>如果在 Windows Server 2008 操作系统上使用 IIS 7.0, 则 Lync Server 设置将在 IIS 中禁用内核模式身份验证。</td>
+<td>如果在 Windows Server 2008 操作系统上使用 IIS 7.0，则 Lync Server 设置将在 IIS 中禁用内核模式身份验证。</td>
 </tr>
 </tbody>
 </table>

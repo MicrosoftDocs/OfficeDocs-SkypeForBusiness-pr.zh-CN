@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 分配每用户持久聊天策略'
+title: Lync Server 2013：分配每用户持久聊天策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
@@ -10,25 +12,25 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 081e6724f5df2389a8ef89e83b2df91b49a1b991
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 616a171d4aedcc6014ddea3c5993a097d410a5e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845947"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722822"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户持久聊天策略
 
  
 
 
-你可以使用 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳程序分配每用户持久聊天策略。 有关创建持久聊天服务器的用户策略的详细信息, 请参阅[在 Lync Server 2013 中创建持久聊天的用户策略](lync-server-2013-create-a-user-policy-for-persistent-chat.md)。
+你可以使用 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳程序分配每用户持久聊天策略。 有关创建持久聊天服务器的用户策略的详细信息，请参阅[在 Lync Server 2013 中创建持久聊天的用户策略](lync-server-2013-create-a-user-policy-for-persistent-chat.md)。
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-with-lync-server-control-panel"></a>使用 Lync Server "控制面板" 分配每用户持久聊天策略
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左导航栏中，单击“用户”****。
 
@@ -59,18 +61,18 @@ ms.locfileid: "34845947"
     
 
     > [!TIP]  
-    > 如果想要将同一每用户持久聊天策略应用于多个用户, 请在搜索结果中选择 "多个用户", 然后单击 "<STRONG>操作</STRONG>", 然后单击 "<STRONG>分配策略</STRONG>"。
+    > 如果想要将同一每用户持久聊天策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
 
 
 
-7.  在 "**分配策略**" 下的 "**持久聊天策略**" 下, 执行下列操作之一:
+7.  在 "**分配策略**" 下的 "**持久聊天策略**" 下，执行下列操作之一：
     
 
     > [!NOTE]  
-    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
-      - 选择** \<"\>自动**" 允许 Lync Server 2013 自动选择全局级别策略, 或选择 "网站级别策略" (如果已定义)。
+      - 选择** \<"\>自动**" 允许 Lync Server 2013 自动选择全局级别策略，或选择 "网站级别策略" （如果已定义）。
     
       - 单击以前在**永久聊天策略**页面上定义的每用户持久聊天策略的名称。
         
@@ -84,7 +86,7 @@ ms.locfileid: "34845947"
 
 ## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户持久聊天策略
 
-你还可以使用**CsPersistentChatPolicy** cmdlet 分配每用户持久聊天策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你还可以使用**CsPersistentChatPolicy** cmdlet 分配每用户持久聊天策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>将每用户持久聊天策略分配给单个用户
 
@@ -94,7 +96,7 @@ ms.locfileid: "34845947"
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-multiple-users"></a>将每用户持久聊天策略分配给多个用户
 
-  - 此命令将每用户持久聊天策略 RedmondUsersPersistentChatPolicy 分配给所有适用于 IT 部门的用户。 有关此命令中使用的 LdapFilter 参数的详细信息, 请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令将每用户持久聊天策略 RedmondUsersPersistentChatPolicy 分配给所有适用于 IT 部门的用户。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -104,7 +106,7 @@ ms.locfileid: "34845947"
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息, 请参阅[CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/jj204907\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/jj204907\(v=ocs.15\)) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 

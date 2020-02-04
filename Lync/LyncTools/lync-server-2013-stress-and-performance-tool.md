@@ -3,6 +3,8 @@ title: Lync Server 2013 压力和性能工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Stress and Performance Tool
 ms:assetid: dc03db19-d104-402e-9951-240681b3fb69
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945609(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65eca3f14f58dbe2c6824f06baf7b8bdf32ff823
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1dd1aff9eda1d40ba231a5c23e47e77c1c19858
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846004"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-01-25_
+_**主题上次修改时间：** 2013-01-25_
 
-Lync Server 2013 应力和性能工具包括简化 Lync Server 2013 的容量规划的工具。 Lync Server 2013 应力和性能工具将帮助你:
+Lync Server 2013 应力和性能工具包括简化 Lync Server 2013 的容量规划的工具。 Lync Server 2013 应力和性能工具将帮助你：
 
   - 简化 Lync Server 2013 的硬件规划。
 

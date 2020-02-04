@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划和部署统一联系人存储'
+title: Lync Server 2013：规划和部署统一联系人存储
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning and deploying unified contact store
 ms:assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205283(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 366dfb5eb5502d16c7c68361571e23af6b01c398
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825126"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825126"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-14_
+_**主题上次修改时间：** 2012-06-14_
 
-统一联系人存储是在 Microsoft Office 产品中提供一致的联系人体验的一项功能。 此功能使用户能够将所有联系人信息存储在 Exchange 2013 中, 以便信息在 Lync、Exchange、Outlook 和 Outlook Web Access 中全局可用。
+统一联系人存储是在 Microsoft Office 产品中提供一致的联系人体验的一项功能。 此功能使用户能够将所有联系人信息存储在 Exchange 2013 中，以便信息在 Lync、Exchange、Outlook 和 Outlook Web Access 中全局可用。
 
 <div>
 

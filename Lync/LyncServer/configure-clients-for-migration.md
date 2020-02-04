@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure clients for migration
 ms:assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205263(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ec5c462489036a3b77be2fb104877ac32a22770
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ebfba9142aca4981f02b0dca7e8e0b16a2cde446
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233073"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233073"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-24_
+_**主题上次修改时间：** 2012-09-24_
 
 本主题包含迁移到 Lync Server 2013 之前应执行的推荐的客户端部署步骤。 应在 Lync Server 2010 上进行这些配置更改。
 
@@ -42,9 +44,9 @@ _**主题上次修改时间:** 2012-09-24_
 
 ## <a name="to-configure-clients-before-migration"></a>在迁移之前配置客户端
 
-1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新 (修补程序)。 有关 Lync Server 2010 的最新信息, 请参阅更新 Lync 的资源中心<http://go.microsoft.com/fwlink/p/?linkid=232630>。
+1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新（修补程序）。 有关 Lync Server 2010 的最新信息，请参阅更新 Lync 的资源中心<http://go.microsoft.com/fwlink/p/?linkid=232630>。
 
-2.  在 Lync Server 2010 上, 使用客户端版本筛选仅允许已安装最新更新的客户端。
+2.  在 Lync Server 2010 上，使用客户端版本筛选仅允许已安装最新更新的客户端。
 
 </div>
 

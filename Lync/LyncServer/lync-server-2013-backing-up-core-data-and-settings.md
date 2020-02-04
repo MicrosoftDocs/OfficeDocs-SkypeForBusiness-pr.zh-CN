@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 备份核心数据和设置'
+title: Lync Server 2013：备份核心数据和设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up core data and settings
 ms:assetid: 278bc95a-7b8d-4e01-a872-a844830459de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1737dac3369361b0937e6b870839e11e5706e41a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4185c02bc85077b0f68ca76d83fd48203e0e5fd9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837895"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-23_
+_**主题上次修改时间：** 2014-04-23_
 
-以下过程使用 Lync Server Management Shell cmdlet 为核心服务的设置和数据创建备份文件。 有关本部分中使用的工具的详细信息 (包括它们所在的位置), 请参阅[Lync Server 2013 中的备份和还原要求: 工具和权限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 有关备份存档和监视数据的详细信息, 请参阅[在 Lync Server 2013 中备份存档和监视数据库](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
+以下过程使用 Lync Server Management Shell cmdlet 为核心服务的设置和数据创建备份文件。 有关本部分中使用的工具的详细信息（包括它们所在的位置），请参阅[Lync Server 2013 中的备份和还原要求：工具和权限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 有关备份存档和监视数据的详细信息，请参阅[在 Lync Server 2013 中备份存档和监视数据库](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
 
 <div>
 
@@ -55,9 +57,9 @@ _**主题上次修改时间:** 2014-04-23_
 
 1.  从 RTCUniversalServerAdmins 组成员的用户帐户登录到内部部署中的任何计算机。
 
-2.  要将创建的备份存储在以下步骤中, 请创建一个新的共享文件夹, 并将 **$Backup**引用的路径更新为新的共享文件夹。
+2.  要将创建的备份存储在以下步骤中，请创建一个新的共享文件夹，并将 **$Backup**引用的路径更新为新的共享文件夹。
 
-3.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+3.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 4.  备份中央管理存储配置文件。 在命令行中键入：
     
@@ -98,7 +100,7 @@ _**主题上次修改时间:** 2014-04-23_
 
 9.  将已备份的用户文件复制到\\$Backup。
 
-10. 在运行响应组应用程序的每个池上, 备份响应组配置。 请执行下列操作：
+10. 在运行响应组应用程序的每个池上，备份响应组配置。 请执行下列操作：
     
     1.  在命令行中键入：
         

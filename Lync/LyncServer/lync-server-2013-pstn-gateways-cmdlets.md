@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: PSTN 网关 cmdlet'
+title: Lync Server 2013： PSTN 网关 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateways cmdlets
 ms:assetid: 6a8aa6ea-f349-4b95-b3ce-c28d2ae0a84b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416491(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3481d274f71ac5a0458e5ed1db018fc456f213
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82b4cd1a5458fac6b2d5ade712fcfeeaf120208
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823565"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823565"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-03-21_
+_**主题上次修改时间：** 2012-03-21_
 
-PSTN 网关使您的企业语音用户可以拨打 PSTN 网络 (即公共交换电话网络) 上的用户拨打和接听电话。 这些网关充当中介服务器和 PSTN 网络之间的桥梁。
+PSTN 网关使您的企业语音用户可以拨打 PSTN 网络（即公共交换电话网络）上的用户拨打和接听电话。 这些网关充当中介服务器和 PSTN 网络之间的桥梁。
 
 <div>
 

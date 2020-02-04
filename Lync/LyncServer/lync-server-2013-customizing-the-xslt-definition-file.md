@@ -3,6 +3,8 @@ title: Lync Server 2013：自定义 XSLT 定义文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing the XSLT definition file
 ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830743"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-09-11_
+_**主题上次修改时间：** 2014-09-11_
 
-合规性服务记录和存档与每个 Lync Server 2013 和持久聊天服务器对话相关的数据, 包括参与者:
+合规性服务记录和存档与每个 Lync Server 2013 和持久聊天服务器对话相关的数据，包括参与者：
 
   - 加入持久聊天室
 
@@ -49,13 +51,13 @@ _**主题上次修改时间:** 2014-09-11_
 
   - 下载文件
 
-数据以 XML 形式传递, 您可以使用 XSLT 定义文件, 将其转换为最适合您的组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
+数据以 XML 形式传递，您可以使用 XSLT 定义文件，将其转换为最适合您的组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
 
 <div>
 
 ## <a name="output-format"></a>输出格式
 
-合规性服务输出按对话 (对话元素) 分类, 然后按消息 (Messages 元素) 分类, 如以下代码示例中所示。
+合规性服务输出按对话（对话元素）分类，然后按消息（Messages 元素）分类，如以下代码示例中所示。
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -70,14 +72,14 @@ _**主题上次修改时间:** 2014-09-11_
       </Conversation>
     </Conversations>
 
-一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。 StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间, 如以下代码示例中所示。
+一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。 StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例中所示。
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。 Sender 元素表示发送消息的用户, 而 DateTimeUTC 元素表示事件发生的时间, 如以下代码示例中所示。
+一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。 Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例中所示。
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 

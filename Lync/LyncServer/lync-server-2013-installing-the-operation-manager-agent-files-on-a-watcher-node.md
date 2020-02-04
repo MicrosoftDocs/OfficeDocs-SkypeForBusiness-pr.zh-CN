@@ -3,6 +3,8 @@ title: 在观察程序节点上安装 Operation Manager 代理文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Operation Manager agent files on a watcher node
 ms:assetid: 39014de3-aec2-4954-a148-64c9d0af3c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d0c8f4a8692e8a46600ce5719e45492b8bc8a7b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2d50bbcb6397888308424e5140913680ab89995e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34829973"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-20_
+_**主题上次修改时间：** 2012-10-20_
 
-与设置 Lync 服务器以报告组件警报类似, Lync Server 2013 观察程序节点需要安装 System Center Operations Manager 代理文件。 这将允许运行合成事务, 并将警报报告给 System Center Operations Manager 根管理服务器。
+与设置 Lync 服务器以报告组件警报类似，Lync Server 2013 观察程序节点需要安装 System Center Operations Manager 代理文件。 这将允许运行合成事务，并将警报报告给 System Center Operations Manager 根管理服务器。
 
-若要安装代理文件, 请按照以下部分中列出的相同过程进行操作:
+若要安装代理文件，请按照以下部分中列出的相同过程进行操作：
 
 1.  [在 Lync Server 2013 外围网络外部的观察程序节点上安装证书](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
 

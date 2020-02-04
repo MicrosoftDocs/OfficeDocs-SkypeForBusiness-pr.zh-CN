@@ -3,6 +3,8 @@ title: Lync Server 2013：安装规划工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Planning Tool
 ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e528062d5fd04e1a11df934cbc01b2dc8c92aa4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7a427ab99368d74180e1d0321741117a9ed97e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829969"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829969"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-11-07_
+_**主题上次修改时间：** 2013-11-07_
 
-在使用 Microsoft Lync Server 2013 (计划工具) 开始设计和规划 Lync Server 2013 基础结构之前, 必须首先安装规划工具。 规划工具不需要部署到属于你计划安装 Lync Server 2013 的域或基础结构的一部分的工作站或服务器。 规划工具附带的自述文件详细介绍了有关安装和使用该工具的重要信息。 Some of the information in the Readme file is duplicated here for clarity.
+在使用 Microsoft Lync Server 2013 （计划工具）开始设计和规划 Lync Server 2013 基础结构之前，必须首先安装规划工具。 规划工具不需要部署到属于你计划安装 Lync Server 2013 的域或基础结构的一部分的工作站或服务器。 规划工具附带的自述文件详细介绍了有关安装和使用该工具的重要信息。 Some of the information in the Readme file is duplicated here for clarity.
 
 <div>
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2013-11-07_
 
 </div>
 
-规划工具的安装和操作支持的操作系统包括:
+规划工具的安装和操作支持的操作系统包括：
 
   - Windows 8
 
@@ -63,9 +65,9 @@ _**主题上次修改时间:** 2013-11-07_
 
   - Windows Server 2008 R2，使用 WOW
 
-此外, 规划工具需要 Microsoft .NET Framework 4.5。
+此外，规划工具需要 Microsoft .NET Framework 4.5。
 
-满足预安装要求后, 即可安装规划工具。
+满足预安装要求后，即可安装规划工具。
 
 <div>
 
@@ -73,15 +75,15 @@ _**主题上次修改时间:** 2013-11-07_
 
 1.  以 Administrators 组成员的身份登录本地计算机。
 
-2.  使用 Windows 资源管理器或命令窗口, 找到您下载规划工具安装文件的目录。
+2.  使用 Windows 资源管理器或命令窗口，找到您下载规划工具安装文件的目录。
 
 3.  找到 LyncPlanningTool。 在 Windows 资源管理器中双击该文件。 在命令窗口中，键入文件的名称，然后按 **Enter** 运行该文件。
 
-4.  在**Microsoft Lync Server 2013**的 "欢迎" 页面上, 选择 "规划工具设置向导", 然后单击 "**下一步**"。
+4.  在**Microsoft Lync Server 2013**的 "欢迎" 页面上，选择 "规划工具设置向导"，然后单击 "**下一步**"。
 
 5.  查看“**最终用户许可协议**”，如果选择接受许可协议中的使用条款，则选择“**我接受许可协议中的条款**”，然后单击“**下一步**”。
 
-6.  选择安装规划工具文件的位置。 默认位置是 C:\\Program Files (x86)\\Microsoft Lync Server 2013\\计划工具。 如果要更改安装位置，请单击“**更改**”。 在“**更改目标文件夹**”上，浏览或键入要安装这些文件的位置，单击“**确定**”，然后单击“**下一步**”。
+6.  选择安装规划工具文件的位置。 默认位置是 C：\\Program Files （x86）\\Microsoft Lync Server 2013\\计划工具。 如果要更改安装位置，请单击“**更改**”。 在“**更改目标文件夹**”上，浏览或键入要安装这些文件的位置，单击“**确定**”，然后单击“**下一步**”。
 
 7.  安装程序现在已准备好安装规划工具。 单击“安装”**** 开始安装过程。
 

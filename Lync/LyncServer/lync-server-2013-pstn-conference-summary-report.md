@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: PSTN 会议摘要报告'
+title: Lync Server 2013： PSTN 会议摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN Conference Summary Report
 ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b98628ea56fb36ec594e5ea4ff9915e9785b3cfa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823803"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823803"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
-在 Microsoft Lync Server 2013 中, PSTN 会议是指至少有一位参与者通过使用 PSTN (公共交换电话网络) 电话拨入音频部分的任何会议。 (PSTN 电话是一种 "座机"、一种手机或任何其他未使用通过 IP 语音的电话。)尽管在监视报告中称为 PSTN 会议, 但这些会议可能更常见, 也称为拨入式会议。
+在 Microsoft Lync Server 2013 中，PSTN 会议是指至少有一位参与者通过使用 PSTN （公共交换电话网络）电话拨入音频部分的任何会议。 （PSTN 电话是一种 "座机"、一种手机或任何其他未使用通过 IP 语音的电话。）尽管在监视报告中称为 PSTN 会议，但这些会议可能更常见，也称为拨入式会议。
 
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
 
@@ -51,9 +53,9 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包括拨入用户的所有会议的百分比, 请将 PSTN 会议总指标的值与[Lync Server 2013 中 "会议摘要" 报表](lync-server-2013-conference-summary-report.md)上的 "总会议跃点数" 进行比较。
+若要确定包括拨入用户的所有会议的百分比，请将 PSTN 会议总指标的值与[Lync Server 2013 中 "会议摘要" 报表](lync-server-2013-conference-summary-report.md)上的 "总会议跃点数" 进行比较。
 
-如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 你可以通过从 Lync Server 命令行管理程序中运行以下命令, 快速验证你的会议策略 (如果有) 允许用户安排 PSTN 会议:
+如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 你可以通过从 Lync Server 命令行管理程序中运行以下命令，快速验证你的会议策略（如果有）允许用户安排 PSTN 会议：
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
@@ -122,7 +124,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -158,7 +160,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <p><strong>每周</strong></p>
 <p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如, 如果你使用的是每日间隔, 并且单击 "7/7/2012", 你将看到该日期的用户注册活动的每小时细目。</p></td>
+<td><p>指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果你使用的是每日间隔，并且单击 "7/7/2012"，你将看到该日期的用户注册活动的每小时细目。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PSTN 会议总数</strong></p></td>

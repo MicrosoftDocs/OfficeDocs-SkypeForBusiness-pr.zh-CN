@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置企业语音'
+title: Lync Server 2013：配置企业语音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Enterprise Voice
 ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e46bd64efd8aa2eb6e1aead17083aa8593c8544
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837260"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837260"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-03-12_
+_**主题上次修改时间：** 2013-03-12_
 
-若要部署企业语音, 需要配置下列内容:
+若要部署企业语音，需要配置下列内容：
 
   - 创建主干
 
@@ -49,9 +51,9 @@ _**主题上次修改时间:** 2013-03-12_
 
 ## <a name="create-a-trunk"></a>创建主干
 
-您必须在您的企业语音部署中定义中继。 对于基于位置的路由, 必须为每个主干创建中继配置。 使用 Lync Server 拓扑生成器定义你的中继, 并使用 Lync Server Windows PowerShell 命令、新 New-cstrunkconfiguration 或 Lync Server 控制面板定义相应的 trunk 配置。 有关如何在中继配置上启用基于位置的路由的详细信息, 请参阅本部分中的 "在[Lync Server 2013 中启用基于位置的路由](lync-server-2013-enabling-location-based-routing.md)" 中继中的 "基于位置的路由"。 对于此示例, 下表介绍了此方案中使用的中继。
+您必须在您的企业语音部署中定义中继。 对于基于位置的路由，必须为每个主干创建中继配置。 使用 Lync Server 拓扑生成器定义你的中继，并使用 Lync Server Windows PowerShell 命令、新 New-cstrunkconfiguration 或 Lync Server 控制面板定义相应的 trunk 配置。 有关如何在中继配置上启用基于位置的路由的详细信息，请参阅本部分中的 "在[Lync Server 2013 中启用基于位置的路由](lync-server-2013-enabling-location-based-routing.md)" 中继中的 "基于位置的路由"。 对于此示例，下表介绍了此方案中使用的中继。
 
-有关详细信息, 请参阅[在 Lync Server 2013 的拓扑生成器中定义其他中继](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
+有关详细信息，请参阅[在 Lync Server 2013 的拓扑生成器中定义其他中继](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
 
 
 <table>
@@ -115,9 +117,9 @@ _**主题上次修改时间:** 2013-03-12_
 
 ## <a name="defines-voice-policies"></a>定义语音策略
 
-您必须为您的企业语音部署定义语音策略。 定义语音策略, 以便对用户的子集强制使用基于位置的路由限制 (如果只有它们的子集才能使用基于位置的路由)。 对于此示例, 下表介绍了此方案中使用的语音策略。 只有特定于基于位置的路由的设置才会包含在表中, 以便进行图解。
+您必须为您的企业语音部署定义语音策略。 定义语音策略，以便对用户的子集强制使用基于位置的路由限制（如果只有它们的子集才能使用基于位置的路由）。 对于此示例，下表介绍了此方案中使用的语音策略。 只有特定于基于位置的路由的设置才会包含在表中，以便进行图解。
 
-有关详细信息, 请参阅[配置语音策略和 PSTN 使用记录以在 Lync Server 2013 中授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
+有关详细信息，请参阅[配置语音策略和 PSTN 使用记录以在 Lync Server 2013 中授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
 
 
 <table>
@@ -141,8 +143,8 @@ _**主题上次修改时间:** 2013-03-12_
 </tr>
 <tr class="even">
 <td><p>PSTN 用法</p></td>
-<td><p>新德里使用, PBX Del 用法, PBX Hyd 用法</p></td>
-<td><p>Hyderabad 使用, PBX Hyd 使用, PBX Del 使用</p></td>
+<td><p>新德里使用，PBX Del 用法，PBX Hyd 用法</p></td>
+<td><p>Hyderabad 使用，PBX Hyd 使用，PBX Del 使用</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
@@ -164,9 +166,9 @@ _**主题上次修改时间:** 2013-03-12_
 
 ## <a name="define-voice-routes"></a>定义语音路由
 
-您必须为您的企业语音部署定义语音路由。 对于此示例, 下表介绍了在此方案中使用的语音路线。 只有特定于基于位置的路由的设置才会包含在表中, 以便进行图解。
+您必须为您的企业语音部署定义语音路由。 对于此示例，下表介绍了在此方案中使用的语音路线。 只有特定于基于位置的路由的设置才会包含在表中，以便进行图解。
 
-有关详细信息, 请参阅[在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
+有关详细信息，请参阅[在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
 
 <table>
@@ -223,9 +225,9 @@ _**主题上次修改时间:** 2013-03-12_
 
 ## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
 
-为用户启用企业语音, 并为他们分配你以前定义的语音策略。 对于此示例, 下表介绍了此方案中使用的作业。 只有特定于基于位置的路由的设置才会包含在表中, 以便进行图解。
+为用户启用企业语音，并为他们分配你以前定义的语音策略。 对于此示例，下表介绍了此方案中使用的作业。 只有特定于基于位置的路由的设置才会包含在表中，以便进行图解。
 
-有关详细信息, 请参阅[在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)。
+有关详细信息，请参阅[在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
 
 <table>
@@ -250,7 +252,7 @@ _**主题上次修改时间:** 2013-03-12_
 <tr class="even">
 <td><p>示例用户</p></td>
 <td><p>DEL-LYNC-1、DEL-LYNC-2、DEL-LYNC-3</p></td>
-<td><p>HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</p></td>
+<td><p>HYD-LYNC-1，HYD-LYNC-2，HYD-LYNC-3</p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: 准备在外围网络中安装服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for installation of servers in the perimeter network
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8474ea56062a89952001850b1a78fd86f5843cc1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823880"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823880"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-08_
+_**主题上次修改时间：** 2012-09-08_
 
-在设置边缘服务器组件之前, 你需要确保你设置的计算机满足系统要求并完成部署 Edge 服务器组件所需的其他先决条件步骤。
+在设置边缘服务器组件之前，你需要确保你设置的计算机满足系统要求并完成部署 Edge 服务器组件所需的其他先决条件步骤。
 
-开始之前, 请查看有关要部署的参考体系结构的计划文档中的以下主题中的详细信息:
+开始之前，请查看有关要部署的参考体系结构的计划文档中的以下主题中的详细信息：
 
   - [Lync Server 2013 中使用专用 IP 地址和 NAT 的单一合并边缘](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 

@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204735(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cab126429fc5ec77a2308fdc1e1f8965fdfccb5b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fee8a8894285a321a4a0bc51a7cdf0462be7af85
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,25 +36,25 @@ ms.locfileid: "36233181"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-11_
+_**主题上次修改时间：** 2012-10-11_
 
-在混合环境中, 如果你创建新的受信任的应用程序服务器, 则必须将下一个跃点池设置为 Lync Server 2013 池。 在混合环境中, 旧版 Lync Server 2010 池和 Lync Server 2013 池都将显示在下拉列表中。 不支持选择旧版池。
+在混合环境中，如果你创建新的受信任的应用程序服务器，则必须将下一个跃点池设置为 Lync Server 2013 池。 在混合环境中，旧版 Lync Server 2010 池和 Lync Server 2013 池都将显示在下拉列表中。 不支持选择旧版池。
 
-**创建受信任的应用服务器时, 选择 Lync Server 2013 作为下一个跃点**
+**创建受信任的应用服务器时，选择 Lync Server 2013 作为下一个跃点**
 
 1.  打开拓扑生成器。
 
-2.  在左窗格中, 右键单击 "**受信任的应用程序服务器**", 然后单击 "**新建受信任应用程序池**"
+2.  在左窗格中，右键单击 "**受信任的应用程序服务器**"，然后单击 "**新建受信任应用程序池**"
 
-3.  输入受信任的应用程序池的**池 FQDN** , 并选择它是单服务器还是多服务器。
+3.  输入受信任的应用程序池的**池 FQDN** ，并选择它是单服务器还是多服务器。
 
 4.  单击" **下一步**"。
 
-5.  在 "**选择下一个跃点**" 页面上, 从列表中选择 "Lync Server 2013 前端池"。
+5.  在 "**选择下一个跃点**" 页面上，从列表中选择 "Lync Server 2013 前端池"。
 
 6.  单击“**完成**”。
 
-7.  选择顶部节点**Lync 服务器**, 然后从 "**操作**" 菜单中, 选择 "**发布**"。
+7.  选择顶部节点**Lync 服务器**，然后从 "**操作**" 菜单中，选择 "**发布**"。
     
     验证**受信任的应用程序池**已成功创建并且与正确的前端池相关联。
 

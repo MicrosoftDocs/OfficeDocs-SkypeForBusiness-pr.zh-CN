@@ -3,6 +3,8 @@ title: 删除企业版前端服务器或标准版前端服务器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d8add7525f5855f63dec0b18d29bd6c496aa178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845103"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845103"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-10_
+_**主题上次修改时间：** 2012-10-10_
 
-本主题中概述的过程旨在指导你完成删除 Microsoft Lync Server 2010 Enterprise Edition 前端池或标准版前端服务器的过程。 迁移到 Lync Server 2013 后, 这是解除旧版 Lync Server 2010 环境的第一步。
+本主题中概述的过程旨在指导你完成删除 Microsoft Lync Server 2010 Enterprise Edition 前端池或标准版前端服务器的过程。 迁移到 Lync Server 2013 后，这是解除旧版 Lync Server 2010 环境的第一步。
 
 <div>
 

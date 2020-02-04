@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划移动客户端'
+title: Lync Server 2013：规划移动客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8693c35d43ec70cbff8badd16b51d0b0c68b52fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824636"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34824636"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-04-02_
+_**主题上次修改时间：** 2013-04-02_
 
-Lync 2013 移动客户端通过 Internet 或手机网络连接提供增强的状态、即时消息、Lync 会议以及语音和视频通话。 对于列出移动客户端的功能和功能并将它们与桌面客户端进行比较的矩阵, 请参阅[Lync Server 2013 的移动客户端比较表](lync-server-2013-mobile-client-comparison-tables.md)。
+Lync 2013 移动客户端通过 Internet 或手机网络连接提供增强的状态、即时消息、Lync 会议以及语音和视频通话。 对于列出移动客户端的功能和功能并将它们与桌面客户端进行比较的矩阵，请参阅[Lync Server 2013 的移动客户端比较表](lync-server-2013-mobile-client-comparison-tables.md)。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 还支持 Lync 2010 移动客户端。 有关详细信息, 请参阅 Lync Server 2010 TechNet 库中的 "规划移动客户端" <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。
+> Lync Server 2013 还支持 Lync 2010 移动客户端。 有关详细信息，请参阅 Lync Server 2010 TechNet 库中的 "规划移动客户端" <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。
 
 
 

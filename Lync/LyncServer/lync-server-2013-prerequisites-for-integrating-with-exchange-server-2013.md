@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 与 Exchange Server 2013 集成的先决条件'
+title: Lync Server 2013：与 Exchange Server 2013 集成的先决条件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51bc3ce48756f746b2f2f5c0ce65d08567fea74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a381f765c9c91e9c5e218d66320d542a11bf878
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724832"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34823747"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-22_
+_**主题上次修改时间：** 2014-04-22_
 
-在集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 之前, 必须确保所有必备步骤均已完成。 正如你所料, 在 Exchange 2013 和 Lync Server 2013 完全安装并运行时, 集成无法进行。 有关安装 Exchange 的详细信息, 请参阅中的 Exchange 2013 规划和[http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)部署文档。 有关安装 Lync Server 2013 的详细信息, 请参阅中的 "规划[http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)和部署" 文档。
+在集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 之前，必须确保所有必备步骤均已完成。 正如你所料，在 Exchange 2013 和 Lync Server 2013 完全安装并运行时，集成无法进行。 有关安装 Exchange 的详细信息，请参阅中的 Exchange 2013 规划和[http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)部署文档。 有关安装 Lync Server 2013 的详细信息，请参阅中的 "规划[http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)和部署" 文档。
 
-在服务器启动并运行后, 您必须将服务器到服务器身份验证证书分配给 Lync Server 2013 和 Exchange 2013;这些证书允许 Lync Server 和 Exchange 交换信息, 并与其他人进行通信。 安装 Exchange 2013 时, 将为你创建一个名称为 Microsoft Exchange Server 身份验证证书的自签名证书。 此证书 (可在本地计算机证书存储中找到) 应用于 Exchange 2013 上的服务器到服务器身份验证。 有关在 Exchange 2013 中分配证书的详细信息, 请参阅的[http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)"配置邮件流和客户端访问"。
+在服务器启动并运行后，您必须将服务器到服务器身份验证证书分配给 Lync Server 2013 和 Exchange 2013;这些证书允许 Lync Server 和 Exchange 交换信息，并与其他人进行通信。 安装 Exchange 2013 时，将为你创建一个名称为 Microsoft Exchange Server 身份验证证书的自签名证书。 此证书（可在本地计算机证书存储中找到）应用于 Exchange 2013 上的服务器到服务器身份验证。 有关在 Exchange 2013 中分配证书的详细信息，请参阅的[http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)"配置邮件流和客户端访问"。
 
-对于 Lync Server 2013, 你可以将现有 Lync Server 证书用作服务器到服务器身份验证证书;例如, 你的默认证书也可以用作 OAuthTokenIssuer 证书。 Lync Server 2013 允许你将任何 Web 服务器证书用作服务器到服务器身份验证的证书, 前提是:
+对于 Lync Server 2013，你可以将现有 Lync Server 证书用作服务器到服务器身份验证证书;例如，你的默认证书也可以用作 OAuthTokenIssuer 证书。 Lync Server 2013 允许你将任何 Web 服务器证书用作服务器到服务器身份验证的证书，前提是：
 
   - 该证书包括主题字段中 SIP 域的名称。
 
@@ -47,9 +49,9 @@ _**主题上次修改时间:** 2014-04-22_
 
   - 该证书长度至少为 2048 字节。
 
-有关 Microsoft Lync Server 2013 的服务器到服务器身份验证证书的详细信息, 请参阅[向 Microsoft Lync server 2013 分配服务器到服务器身份验证证书](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)。
+有关 Microsoft Lync Server 2013 的服务器到服务器身份验证证书的详细信息，请参阅[向 Microsoft Lync server 2013 分配服务器到服务器身份验证证书](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)。
 
-分配证书后, 必须在 Exchange 2013 上配置自动发现服务。 在 Exchange 2013 中, 自动发现服务配置用户配置文件, 并在用户登录到系统时提供对 Exchange 服务的访问权限。 用户为自动发现服务提供其电子邮件地址和密码，而这些服务为用户提供诸如以下信息：
+分配证书后，必须在 Exchange 2013 上配置自动发现服务。 在 Exchange 2013 中，自动发现服务配置用户配置文件，并在用户登录到系统时提供对 Exchange 服务的访问权限。 用户为自动发现服务提供其电子邮件地址和密码，而这些服务为用户提供诸如以下信息：
 
   - Exchange 2013 的内部和外部连接的连接信息。
 
@@ -59,7 +61,7 @@ _**主题上次修改时间:** 2014-04-22_
 
   - Outlook 无处不在服务器设置。
 
-必须先配置自动发现服务, 然后才能集成 Lync Server 2013 和 Exchange 2013。 你可以通过从 Exchange Management Shell 运行以下命令并检查 AutoDiscoverServiceInternalUri 属性的值来验证是否已配置自动发现服务:
+必须先配置自动发现服务，然后才能集成 Lync Server 2013 和 Exchange 2013。 你可以通过从 Exchange Management Shell 运行以下命令并检查 AutoDiscoverServiceInternalUri 属性的值来验证是否已配置自动发现服务：
 
     Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 
@@ -71,9 +73,9 @@ _**主题上次修改时间:** 2014-04-22_
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-有关自动发现服务的详细信息, 请参阅中的 "了解自动[http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)发现服务"。
+有关自动发现服务的详细信息，请参阅中的 "了解自动[http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)发现服务"。
 
-配置自动发现服务之后, 必须修改 Lync Server OAuth 配置设置;这可确保 Lync 服务器知道发现自动发现服务的位置。 若要在 Lync Server 2013 中修改 OAuth 配置设置, 请在 Lync Server 命令行管理程序中运行以下命令。 运行此命令时, 请确保指定你的 Exchange 服务器上运行的自动发现服务的 URI, 并使用**自动发现**来指向服务位置 (而不是 "**自动发现")。 XML** (指向 xml 文件)由服务使用):
+配置自动发现服务之后，必须修改 Lync Server OAuth 配置设置;这可确保 Lync 服务器知道发现自动发现服务的位置。 若要在 Lync Server 2013 中修改 OAuth 配置设置，请在 Lync Server 命令行管理程序中运行以下命令。 运行此命令时，请确保指定你的 Exchange server 上运行的自动发现服务的 URI，并使用**自动发现**来指向服务位置（而不是 "自动发现"），而不是 "**自动发现" xml** （指向服务使用的 xml 文件）：
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 
@@ -87,7 +89,7 @@ _**主题上次修改时间:** 2014-04-22_
 
 </div>
 
-除了配置自动发现服务, 你还必须为指向 Exchange server 的服务创建 DNS 记录。 例如, 如果你的自动发现服务位于 autodiscover.litwareinc.com, 你将需要为解析为你的 Exchange server 的完全限定域名的 autodiscover.litwareinc.com 创建 DNS 记录 (例如atl-exchange-001.litwareinc.com)。
+除了配置自动发现服务，你还必须为指向 Exchange server 的服务创建 DNS 记录。 例如，如果你的自动发现服务位于 autodiscover.litwareinc.com，你将需要为解析为你的 Exchange server 的完全限定域名的 autodiscover.litwareinc.com 创建 DNS 记录（例如atl-exchange-001.litwareinc.com）。
 
 </div>
 

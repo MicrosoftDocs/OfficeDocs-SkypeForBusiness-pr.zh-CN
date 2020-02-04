@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 复制 cmdlet'
+title: Lync Server 2013：复制 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replication cmdlets
 ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46652100e421fba8935454f2832e258a9fb2203f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823145"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
 复制 cmdlet 提供了一种监视和管理 Lync Server 复制的方式。 你可以使用这些 cmdlet 配置复制设置;监视复制进度;并在服务器上手动强制执行复制。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-10-09_
 
 ## <a name="replication-cmdlets"></a>复制 Cmdlet
 
-以下是与管理复制直接相关的 cmdlet 的列表:
+以下是与管理复制直接相关的 cmdlet 的列表：
 
 **复制**
 

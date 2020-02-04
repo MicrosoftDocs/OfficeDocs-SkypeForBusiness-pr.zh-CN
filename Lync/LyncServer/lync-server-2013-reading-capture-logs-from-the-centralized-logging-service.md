@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 从集中式日志记录服务读取捕获日志'
+title: Lync Server 2013：从集中式日志记录服务读取捕获日志
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34823726"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-12-28_
+_**主题上次修改时间：** 2016-12-28_
 
-在运行搜索并拥有可用于跟踪报告的问题的文件后, 您就能充分利用集中式日志记录服务的真正优势。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题, 你可以使用 Snooper 之类的工具, 它旨在从集中式日志记录服务读取和分析日志记录输出。 Snooper 包含在 Lync Server 2013 调试工具中, 可单独下载。 可在此处下载 Lync Server 2013 调试工具: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)。 安装 Lync Server 2013 调试工具时, 不会创建短剪切和菜单项。 安装 Lync Server 2013 调试工具后, 打开 Windows 资源管理器、命令行窗口或 Lync Server 命令行管理程序, 然后转到目录 (默认位置) C:\\程序文件\\Microsoft Lync Server 2013\\调试工具。 双击 Snooper 或键入 Snooper, 如果使用的是命令行或 Lync Server 命令行管理程序, 请按 ENTER。
+在运行搜索并拥有可用于跟踪报告的问题的文件后，您就能充分利用集中式日志记录服务的真正优势。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题，你可以使用 Snooper 之类的工具，它旨在从集中式日志记录服务读取和分析日志记录输出。 Snooper 包含在 Lync Server 2013 调试工具中，可单独下载。 可在此处下载 Lync Server 2013 调试工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)。 安装 Lync Server 2013 调试工具时，不会创建短剪切和菜单项。 安装 Lync Server 2013 调试工具后，打开 Windows 资源管理器、命令行窗口或 Lync Server 命令行管理程序，然后转到目录（默认位置） C：\\程序文件\\Microsoft Lync Server 2013\\调试工具。 双击 Snooper 或键入 Snooper，如果使用的是命令行或 Lync Server 命令行管理程序，请按 ENTER。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷疑难解答的详细信息, 请参阅 Microsoft Lync Server 2010 资源<A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>工具包手册。 流程和过程仍适用于 Lync Server 2013。
+> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷疑难解答的详细信息，请参阅 Microsoft Lync Server 2010 资源<A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>工具包手册。 流程和过程仍适用于 Lync Server 2013。
 
 
 
 </div>
 
-Lync Server 2013 引入了 Snooper 的更新版本, 其中包含一些新功能。 以下屏幕截图显示了 Office 通信服务器2007中的 Snooper 版本。
+Lync Server 2013 引入了 Snooper 的更新版本，其中包含一些新功能。 以下屏幕截图显示了 Office 通信服务器2007中的 Snooper 版本。
 
 ![Office 通信2007版本的 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office 通信2007版本的 Snooper。")
 
@@ -59,11 +61,11 @@ Lync Server 2013 引入了 Snooper 的更新版本, 其中包含一些新功能�
 
 ![Snooper 2013 工具栏。](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 工具栏。")
 
-而且, 添加值的最新功能是流程图 ("调用流程") 图表视图。 在 "**邮件**" 选项卡中选择邮件流, 然后单击 "**呼叫流**" 按钮。 在邮件中执行操作时, 将使用新数据更新调用流程图表。
+而且，添加值的最新功能是流程图（"调用流程"）图表视图。 在 "**邮件**" 选项卡中选择邮件流，然后单击 "**呼叫流**" 按钮。 在邮件中执行操作时，将使用新数据更新调用流程图表。
 
 ![Snooper 2013 通话流程图表。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 通话流程图表。")
 
-你可以将鼠标悬停在关系图视图上, 获取有关流和消息以及服务器元素的消息和内容的详细信息。 单击任意 "调用流" 箭头, 转到 "邮件" 视图中的邮件。
+你可以将鼠标悬停在关系图视图上，获取有关流和消息以及服务器元素的消息和内容的详细信息。 单击任意 "调用流" 箭头，转到 "邮件" 视图中的邮件。
 
 ![通话流程图表消息详细信息。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通话流程图表消息详细信息。")
 
@@ -73,7 +75,7 @@ Lync Server 2013 引入了 Snooper 的更新版本, 其中包含一些新功能�
 
 1.  要使用 Snooper 并打开日志文件，您需要具有日志文件的读取权限。要使用 Snooper 并访问日志文件，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。
 
-2.  安装 Lync Server 调试工具 (LyncDebugTools) 后, 使用 Windows 资源管理器或从命令行将目录更改为 Snooper 的位置。 默认情况下, 调试工具位于 C:\\Program 文件\\中 Microsoft Lync Server 2013\\调试工具中。 双击或运行 Snooper.exe。
+2.  安装 Lync Server 调试工具（LyncDebugTools）后，使用 Windows 资源管理器或从命令行将目录更改为 Snooper 的位置。 默认情况下，调试工具位于 C：\\Program 文件\\中 Microsoft Lync Server 2013\\调试工具中。 双击或运行 Snooper.exe。
 
 3.  打开 Snooper 后，右键单击“**文件**”，单击“**打开文件**”，查找日志文件，在“**打开**”对话框中选择文件，然后单击“**打开**”。
 

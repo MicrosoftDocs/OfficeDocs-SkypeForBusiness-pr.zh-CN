@@ -3,6 +3,8 @@ title: Lync Server 2013：统一联系人存储的要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for unified contact store
 ms:assetid: dab47e4d-6fc7-47a8-aefd-1499bf0d8c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205317(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e183b83457f11358539c5d7f7a315d53093a72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823236"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-下表介绍了在 Lync Server 2013 中实施 "统一联系人存储" 的要求:
+下表介绍了在 Lync Server 2013 中实施 "统一联系人存储" 的要求：
 
   - 您必须运行 Microsoft Lync Server 2013 和 Exchange 2013。
 
@@ -49,7 +51,7 @@ _**主题上次修改时间:** 2012-10-01_
     
 
     > [!NOTE]  
-    > 有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求, 请参阅在操作文档中<A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理 Lync server 2013 中的服务器到服务器身份验证 (OAuth) 和合作伙伴应用程序</A>。
+    > 有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求，请参阅在操作文档中<A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序</A>。
 
     
     </div>

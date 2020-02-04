@@ -3,6 +3,8 @@ title: Lync Server 2013 规划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning
 ms:assetid: 6398cd91-8773-41bc-9b66-725d65ba9d66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398447(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fc737ff9b3a457d8227892b6e74575e332d20ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eba5a563612a395a7f252aecb5992a64d04b5221
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824104"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824104"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-12-09_
+_**主题上次修改时间：** 2014-12-09_
 
 本部分中的主题介绍了如何为成功的 Lync 服务器部署进行规划。
 

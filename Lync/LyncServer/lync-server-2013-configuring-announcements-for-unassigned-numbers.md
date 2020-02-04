@@ -3,6 +3,8 @@ title: Lync Server 2013：配置未分配号码的通知
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring announcements for unassigned numbers
 ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8375e3481703078013d85060d20d0e9f500374b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52d7e8ad1aa4fcfe3db9aabee61e317810707194
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837283"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34837283"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-11_
+_**主题上次修改时间：** 2012-09-11_
 
-"发布" 应用程序是一种企业语音功能, 可让你配置调用未分配的扩展 (对你的组织有效, 但未分配给某个人或手机的扩展) 所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
+"发布" 应用程序是一种企业语音功能，可让你配置调用未分配的扩展（对你的组织有效，但未分配给某个人或手机的扩展）所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
 
-在部署企业语音时, "发布" 应用程序作为 "响应组应用程序" 的一项功能安装在前端服务器或标准版服务器上。 需要上载音频文件或配置文本到语音转换 (TTS)，并配置未分配号码表来配置通知。
+在部署企业语音时，"发布" 应用程序作为 "响应组应用程序" 的一项功能安装在前端服务器或标准版服务器上。 需要上载音频文件或配置文本到语音转换 (TTS)，并配置未分配号码表来配置通知。
 
-本部分将指导你完成 Lync Server 公告的配置。 它假设你已阅读与公告相关的规划部分, 并使用企业语音部署企业版服务器或标准版服务器。
+本部分将指导你完成 Lync Server 公告的配置。 它假设你已阅读与公告相关的规划部分，并使用企业语音部署企业版服务器或标准版服务器。
 
 <div>
 

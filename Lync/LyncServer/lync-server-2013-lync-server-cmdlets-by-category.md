@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 按类别分类的 Lync Server cmdlet'
+title: Lync Server 2013：按类别分类的 Lync Server cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets by category
 ms:assetid: 4ce274d7-b0ec-40b8-b85e-9a0613916ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c7a5e0b3fa81d6730caed1f4ce2f89adf0d7d96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829923"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,25 +35,25 @@ ms.locfileid: "34829923"
 
 <span> </span>
 
-_**主题上次修改时间:** 2017-09-20_
+_**主题上次修改时间：** 2017-09-20_
 
-Microsoft Lync Server 2013 随附了几乎 550 cmdlet, 专门设计用于允许管理员从命令行管理 Lync Server。 可从 Lync Server 命令行管理程序访问 cmdlet。 你可以通过键入类似如下的命令, 直接从命令行检索有关 cmdlet 的帮助:
+Microsoft Lync Server 2013 随附了几乎 550 cmdlet，专门设计用于允许管理员从命令行管理 Lync Server。 可从 Lync Server 命令行管理程序访问 cmdlet。 你可以通过键入类似如下的命令，直接从命令行检索有关 cmdlet 的帮助：
 
     Get-Help New-CsVoicePolicy -Full
 
 前面的命令将检索**CsVoicePolicy** cmdlet 的所有可用帮助。 将对**CsVoicePolicy**的引用替换为要检索帮助的 cmdlet 的名称。
 
-若要检索可用于管理 Microsoft Lync Server 2013 的 cmdlet 的完整列表, 请在 Lync Server Management Shell 命令提示符处键入以下内容:
+若要检索可用于管理 Microsoft Lync Server 2013 的 cmdlet 的完整列表，请在 Lync Server Management Shell 命令提示符处键入以下内容：
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-如果您不确定需要哪些 cmdlet, 我们还提供了一组分类的 cmdlet 及其帮助主题。 你将发现, 某些 cmdlet 显示在多个类别中, 这是应用于产品的多个区域的故意。 以下是类别列表:
+如果您不确定需要哪些 cmdlet，我们还提供了一组分类的 cmdlet 及其帮助主题。 你将发现，某些 cmdlet 显示在多个类别中，这是应用于产品的多个区域的故意。 以下是类别列表：
 
 <div>
 
 
 > [!NOTE]
-> Skype for Business cmdlet 参考已移至 docs.microsoft.com。 单击下面的链接将转至新的 docs.microsoft.com 页面。 内容现在是开源的，可通过 GitHub 用于社区投稿。 对投稿感兴趣？ 查看存储库中的自述文件:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business cmdlet 参考已移至 docs.microsoft.com。 单击下面的链接将转至新的 docs.microsoft.com 页面。 内容现在是开源的，可通过 GitHub 用于社区投稿。 对投稿感兴趣？ 查看存储库中的自述文件：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 

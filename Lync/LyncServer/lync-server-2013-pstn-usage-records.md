@@ -3,6 +3,8 @@ title: Lync Server 2013：PSTN 用法记录
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN usage records
 ms:assetid: b5f624aa-abe8-455b-a8e3-c228be230463
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412878(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32000f1664591a3e054d058ced4f996a98f27cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823579"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724672"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823579"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-23_
+_**主题上次修改时间：** 2012-09-23_
 
-规划 PSTN 用法记录的主要任务是列出当前在贵组织中对从 CEO 到临时工、顾问在内的所有员工实施的所有呼叫权限。 此过程还提供了一个重新检查现有呼叫权限并进行修改的机会。 你可以仅为适用于你预期的企业语音用户的呼叫权限创建 PSTN 使用记录, 但更好的长期解决方案可能是为所有呼叫权限创建 PSTN 使用记录, 而不管当前是否有可能适用于启用企业语音的用户组。 如果呼叫权限发生变化或者添加了具有不同呼叫权限的新用户，会创建所需的 PSTN 用法记录。
+规划 PSTN 用法记录的主要任务是列出当前在贵组织中对从 CEO 到临时工、顾问在内的所有员工实施的所有呼叫权限。 此过程还提供了一个重新检查现有呼叫权限并进行修改的机会。 你可以仅为适用于你预期的企业语音用户的呼叫权限创建 PSTN 使用记录，但更好的长期解决方案可能是为所有呼叫权限创建 PSTN 使用记录，而不管当前是否有可能适用于启用企业语音的用户组。 如果呼叫权限发生变化或者添加了具有不同呼叫权限的新用户，会创建所需的 PSTN 用法记录。
 
 下表显示了典型的 PSTN 用法表。
 
@@ -91,7 +93,7 @@ PSTN 用法记录本身不执行任何操作。为了使它们正常工作，必
 
   - 将它们与分配给电话号码的路由相关联。
 
-有关语音策略和路由的详细信息, 请参阅[lync server 2013 中的语音策略](lync-server-2013-voice-policies.md)和[lync server 2013 中的语音路由](lync-server-2013-voice-routes.md)。 有关如何创建和配置它们的详细信息, 请参阅[在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
+有关语音策略和路由的详细信息，请参阅[lync server 2013 中的语音策略](lync-server-2013-voice-policies.md)和[lync server 2013 中的语音路由](lync-server-2013-voice-routes.md)。 有关如何创建和配置它们的详细信息，请参阅[在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
 </div>
 

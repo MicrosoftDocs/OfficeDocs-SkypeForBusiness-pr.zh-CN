@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划私人电话线'
+title: Lync Server 2013：规划私人电话线
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for private telephone lines
 ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412728(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4287e4b80b146e26fe5e548c07e5df189b1960e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0df93d8a8de73a3119e7ca9a1a7abd76e9157a17
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824566"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824566"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-11_
+_**主题上次修改时间：** 2013-02-11_
 
 Lync Server 2013 引入了一种除了主要电话线之外为用户提供第二条专用电话线的功能。 专用电话线路通常分配给需要一个未列出的电话号码以便他人直接与其取得联系的高管和其他人员。
 
@@ -87,7 +89,7 @@ Lync Server 2013 引入了一种除了主要电话线之外为用户提供第二
 
   - 专用电话线路的电话号码记录在呼叫详细信息记录中，方式与用户主要电话线路的电话号码相同，但会指明这是专用电话号码。
 
-  - 用户应答专用电话线路上的呼叫后，该呼叫的处理方式与该用户的主要电话线路上的呼叫相同。 例如, 如果通过专用电话线接收呼叫的用户转发呼叫或邀请其他人加入电话会议, 则用户的名称将显示在 Lync 2013 中, 并且用户的主电话线的电话号码将显示在 "来电显示" 中。
+  - 用户应答专用电话线路上的呼叫后，该呼叫的处理方式与该用户的主要电话线路上的呼叫相同。 例如，如果通过专用电话线接收呼叫的用户转发呼叫或邀请其他人加入电话会议，则用户的名称将显示在 Lync 2013 中，并且用户的主电话线的电话号码将显示在 "来电显示" 中。
 
   - 用户可以转接来自于专用电话线路的呼叫（应答前，将呼叫重定向到其他目标，如移动电话或家庭电话），方式与主要电话线路相同。
     
@@ -133,13 +135,13 @@ Lync Server 2013 引入了一种除了主要电话线之外为用户提供第二
 
 ## <a name="assigning-telephone-numbers"></a>分配电话号码
 
-对于需要私人电话线的新用户, 其帐户的创建方式与没有私人电话线的帐户相同, 使用 Lync Server 控制面板或 Lync Server 命令行管理程序。
+对于需要私人电话线的新用户，其帐户的创建方式与没有私人电话线的帐户相同，使用 Lync Server 控制面板或 Lync Server 命令行管理程序。
 
-使用 Lync Server Management Shell 中的**move-csuser** cmdlet 为用户将电话号码分配给专用电话线, 例如, **move-csuser-Identity "Sip:joe@contoso.com"-PrivateLine "电话: + 14255551212"**。
+使用 Lync Server Management Shell 中的**move-csuser** cmdlet 为用户将电话号码分配给专用电话线，例如， **move-csuser-Identity "Sip:joe@contoso.com"-PrivateLine "电话： + 14255551212"**。
 
-专用电话线的电话号码长度可以介于3到15个号码之间, 并且前面必须带有 "电话:" 前缀。 这些号码可以具有任何区号和国家/地区代码，前提是您的组织有该区号和国家/地区代码的外线直拨分机。
+专用电话线的电话号码长度可以介于3到15个号码之间，并且前面必须带有 "电话：" 前缀。 这些号码可以具有任何区号和国家/地区代码，前提是您的组织有该区号和国家/地区代码的外线直拨分机。
 
-有关 cmdlet 和 Lync Server 命令行管理程序的详细信息, 请参阅[Lync server 2013 管理外壳](lync-server-2013-lync-server-management-shell.md)文档。
+有关 cmdlet 和 Lync Server 命令行管理程序的详细信息，请参阅[Lync server 2013 管理外壳](lync-server-2013-lync-server-management-shell.md)文档。
 
 </div>
 
@@ -147,7 +149,7 @@ Lync Server 2013 引入了一种除了主要电话线之外为用户提供第二
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>混合部署中的专用电话线路
 
-专用电话线应仅针对 Lync Server 的部署进行配置。 在具有 Lync Server 和 Office 通信服务器2007或 Office 通信服务器 2007 R2 服务器的部署中, 如果早期版本的用户尝试呼叫专用电话线, 则呼叫路由失败的原因是服务器无法在专用电话线路上执行反向号码查找。
+专用电话线应仅针对 Lync Server 的部署进行配置。 在具有 Lync Server 和 Office 通信服务器2007或 Office 通信服务器 2007 R2 服务器的部署中，如果早期版本的用户尝试呼叫专用电话线，则呼叫路由失败的原因是服务器无法在专用电话线路上执行反向号码查找。
 
 </div>
 

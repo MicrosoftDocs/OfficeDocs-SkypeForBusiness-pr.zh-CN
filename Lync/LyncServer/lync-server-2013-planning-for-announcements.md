@@ -3,6 +3,8 @@ title: Lync Server 2013：规划通知
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for announcements
 ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e112429af7d3778755585e2bcb90bbe604170a85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825077"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825077"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-13_
+_**主题上次修改时间：** 2012-09-13_
 
-Lync Server 公告应用程序让你可以配置当拨出的号码对你的组织有效, 但未分配给用户或电话时对传入电话呼叫的处理。 可以将这些呼叫转换到预确定的目标（电话号码、SIP URI 或语音邮件）和/或播放音频通知。 该通知应用程序帮助您可以避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。 本部分包含特定于公告应用程序的规划信息。
+Lync Server 公告应用程序让你可以配置当拨出的号码对你的组织有效，但未分配给用户或电话时对传入电话呼叫的处理。 可以将这些呼叫转换到预确定的目标（电话号码、SIP URI 或语音邮件）和/或播放音频通知。 该通知应用程序帮助您可以避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。 本部分包含特定于公告应用程序的规划信息。
 
 <div>
 

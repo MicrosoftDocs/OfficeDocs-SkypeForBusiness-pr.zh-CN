@@ -3,6 +3,8 @@ title: Lync Server 2013：准备 Active Directory 域服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing Active Directory Domain Services for Lync Server 2013
 ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99e1d7285d743da2270121389bbb5a510fe3b12d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da033b8b7589b5257a73d77f3cd618236a2e4747
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823894"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823894"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
-在部署和操作 Lync Server 2013 之前, 必须通过扩展架构, 然后创建和配置对象来准备 Active Directory 域服务。 架构扩展添加 Lync Server 所需的 Active Directory 类和属性。
+在部署和操作 Lync Server 2013 之前，必须通过扩展架构，然后创建和配置对象来准备 Active Directory 域服务。 架构扩展添加 Lync Server 所需的 Active Directory 类和属性。
 
-本部分中的主题介绍如何准备用于部署 Lync Server 的 AD DS 以及如何分配设置和组织单位 (OU) 权限。 有关 Lync Server 所需的架构更改的详细信息, 请参阅[Lync server 2013 使用的 Active Directory 架构扩展、类和属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)。
+本部分中的主题介绍如何准备用于部署 Lync Server 的 AD DS 以及如何分配设置和组织单位（OU）权限。 有关 Lync Server 所需的架构更改的详细信息，请参阅[Lync server 2013 使用的 Active Directory 架构扩展、类和属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)。
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 用于通讯簿管理的 Windows PowerShell cmdlet'
+title: Lync Server 2013：用于通讯簿管理的 Windows PowerShell cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell cmdlets for Address Book management
 ms:assetid: 73bfa949-5628-4156-ad20-fe07a0dc6216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429708(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737496bbb6db1e003ec09a05980c3ef474c69924
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ec10f3e3d3d58a790ddc60fd1af1d1b09765685
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845238"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-Lync 服务器提供了许多 Windows PowerShell 命令行界面 cmdlet 来管理和配置通讯簿服务。 某些 cmdlet 是以前版本的 Office 通信服务器中使用的 ABServer 命令的替换部分。 在以下主题中, 用于设置、创建和检索有关通讯簿服务的的 cmdlet、其配置和有关当客户端检索通讯簿服务时, 通讯簿服务使用的 Web 服务的相关信息文件和设置。
+Lync 服务器提供了许多 Windows PowerShell 命令行界面 cmdlet 来管理和配置通讯簿服务。 某些 cmdlet 是以前版本的 Office 通信服务器中使用的 ABServer 命令的替换部分。 在以下主题中，用于设置、创建和检索有关通讯簿服务的的 cmdlet、其配置和有关当客户端检索通讯簿服务时，通讯簿服务使用的 Web 服务的相关信息文件和设置。
 
 所有这些 cmdlet 均通过在安装了管理工具的服务器或工作站上的 Lync server 工具中找到的 Lync Server Management Shell 发出。
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 修改体验质量设置'
+title: Lync Server 2013：修改体验质量设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify Quality of Experience settings
 ms:assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182563(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ce6041e6512714f10785cf2976727788e105f70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2cf4745f76fa4667d14c9da5ca2b4e5309767b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826869"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826869"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-23_
+_**主题上次修改时间：** 2013-02-23_
 
 默认情况下，用户体验质量 (QoE) 数据会在 60 天后清除。可以使用“**用户体验质量数据**”页上的设置将该数据保留更长或更短的时间。如果禁用 QoE，则在启用 QoE 之前捕获的数据也将清除。
 
@@ -53,9 +55,9 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="to-specify-retention-of-qoe-data-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 指定 QoE 数据的保留
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
 
@@ -73,7 +75,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 QoE 保留
 
-你可以使用 Windows PowerShell 和**CsQoEConfiguration** Cmdlet 创建 QoE 保留设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你可以使用 Windows PowerShell 和**CsQoEConfiguration** Cmdlet 创建 QoE 保留设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
@@ -95,7 +97,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 </div>
 
-有关详细信息, 请参阅[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration) cmdlet 的帮助主题。
 
 </div>
 

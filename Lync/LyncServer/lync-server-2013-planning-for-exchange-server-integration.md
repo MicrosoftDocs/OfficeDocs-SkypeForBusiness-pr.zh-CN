@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划 Exchange Server 集成'
+title: Lync Server 2013：规划 Exchange Server 集成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Exchange Server integration
 ms:assetid: 75152a25-f3cd-4134-9be7-7a0e6c5d0ed8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688094(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 664f328dbf3bf85fab1bc0af9b56a32d9c155332
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824832"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824832"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-20_
+_**主题上次修改时间：** 2012-09-20_
 
-当您在组织中部署 Exchange 和 Lync 服务器时, 两个产品中的许多功能都得到了增强。 本部分包含有关这些功能的信息。
+当您在组织中部署 Exchange 和 Lync 服务器时，两个产品中的许多功能都得到了增强。 本部分包含有关这些功能的信息。
 
 <div>
 

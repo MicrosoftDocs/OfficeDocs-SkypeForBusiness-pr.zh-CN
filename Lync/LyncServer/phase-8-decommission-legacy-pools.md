@@ -3,6 +3,8 @@ title: 第 8 阶段：停用旧池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
 ms:assetid: 1c68e5d8-fb5f-45e6-b6e3-27f5e830c966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204724(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df23d085a63cf67736b038b120fc294aa376f962
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845127"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34845127"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-12-08_
+_**主题上次修改时间：** 2016-12-08_
 
 以下主题提供了更新 DNS 条目、移动内容管理服务器、取消池以及从 Lync Server 2010 的旧式部署中停用和删除服务器和池的指南。 不需要本部分中列出的所有过程。 阅读文档并确定要使用的解除授权过程。
 
-有关删除 Lync Server 2010 服务器和服务器角色以及解除 Lync Server 2010 部署的分步指南, 请参阅 "卸载 Microsoft Lync Server 2010 和删除服务器角色", 可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)此处下载.
+有关删除 Lync Server 2010 服务器和服务器角色以及解除 Lync Server 2010 部署的分步指南，请参阅可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)其中下载的 "卸载 Microsoft Lync server 2010 和删除服务器角色"。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 有关迁移和升级 Microsoft 统一通信托管 API (UCMA) 应用程序的信息, 在取消旧环境之前, 请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 有关迁移和升级 Microsoft 统一通信托管 API （UCMA）应用程序的信息，在取消旧环境之前，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 

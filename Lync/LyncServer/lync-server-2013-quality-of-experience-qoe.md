@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 体验质量 (QoE)'
+title: Lync Server 2013：体验质量（QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Quality of Experience (QoE)
 ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2501293a8c8b0fce27ad6495c33b45fbf380594f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823908"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34823908"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Lync Server 2013 中的体验质量 (QoE)
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Lync Server 2013 中的体验质量（QoE）
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823908"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 安装 Lync Server 2013 时, 你还将安装 QoE 的全局配置设置的预定义集合。 使用本节中的主题配置 QoE 设置。
+用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 安装 Lync Server 2013 时，你还将安装 QoE 的全局配置设置的预定义集合。 使用本节中的主题配置 QoE 设置。
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 安装可选软件'
+title: Lync Server 2013：安装可选软件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing optional software
 ms:assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615032(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6723d005a41b52025c7e3e475bc3b3a108f2c3d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a493fed33fff897ea2cccc2a89c0d55c5b8a8097
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829974"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
-Microsoft Lync Server 2013、计划工具设计用于导出到 Microsoft Excel 和 Microsoft Visio。 虽然这些应用程序不是规划工具运行所必需的, 但它们确实为设计的部署和文档增加了重要价值。
+Microsoft Lync Server 2013、计划工具设计用于导出到 Microsoft Excel 和 Microsoft Visio。 虽然这些应用程序不是规划工具运行所必需的，但它们确实为设计的部署和文档增加了重要价值。
 
 <div>
 
@@ -73,7 +75,7 @@ Microsoft Lync Server 2013、计划工具设计用于导出到 Microsoft Excel �
 
 
 > [!NOTE]  
-> 如果你的设计足够大, 需要超过三个前端服务器, 将为前端池、前端服务器、运行 SQL Server 的计算机、IP 地址和 Fqdn 创建一个额外页面。
+> 如果你的设计足够大，需要超过三个前端服务器，将为前端池、前端服务器、运行 SQL Server 的计算机、IP 地址和 Fqdn 创建一个额外页面。
 
 
 
@@ -81,9 +83,9 @@ Microsoft Lync Server 2013、计划工具设计用于导出到 Microsoft Excel �
 
   - 全局拓扑-已配置 Lync Server 2013 网站的图表。
 
-  - "网站名称" 选项卡-显示 "边缘服务器"、"防火墙"、"公共交换电话网络" (PSTN) 和内部服务器部署的站点配置拓扑。 内部部署包括配置的服务器和池, 包括前端池、基于 SQL Server 的服务器、Active Directory 域服务、控制器、Exchange 统一消息 (UM) 服务器、Exchange 邮箱服务器、Office Web Apps 服务器中介服务器和持久聊天服务器。
+  - "网站名称" 选项卡-显示 "边缘服务器"、"防火墙"、"公共交换电话网络" （PSTN）和内部服务器部署的站点配置拓扑。 内部部署包括配置的服务器和池，包括前端池、基于 SQL Server 的服务器、Active Directory 域服务、控制器、Exchange 统一消息（UM）服务器、Exchange 邮箱服务器、Office Web Apps 服务器中介服务器和持久聊天服务器。
 
-  - 边缘网络图-详细介绍边缘服务器配置以及关联的 IP 地址和 Fqdn 的图表。 还包括 DNS 负载平衡和硬件负载平衡器。 此外, 将显示 Director 和前端服务器或前端池, 其中关联的 DNS LB 或 HLB 以及分配的 IP 地址 (计划工具支持 IPv4 和 IPv6 地址) 和 FQDN。
+  - 边缘网络图-详细介绍边缘服务器配置以及关联的 IP 地址和 Fqdn 的图表。 还包括 DNS 负载平衡和硬件负载平衡器。 此外，将显示 Director 和前端服务器或前端池，其中关联的 DNS LB 或 HLB 以及分配的 IP 地址（计划工具支持 IPv4 和 IPv6 地址）和 FQDN。
 
 </div>
 
