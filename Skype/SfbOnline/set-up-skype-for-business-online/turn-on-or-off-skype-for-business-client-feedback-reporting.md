@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 你可以使 Skype for Business 用户能够使用内置的 Skype for business 应用反馈工具，让用户能够直接向 Microsoft 报告问题并向 Microsoft 提供反馈，以了解他们的体验。
-ms.openlocfilehash: 984fcfb7b327eb36e66df7d1ab6508d96c429481
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962740"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706287"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 

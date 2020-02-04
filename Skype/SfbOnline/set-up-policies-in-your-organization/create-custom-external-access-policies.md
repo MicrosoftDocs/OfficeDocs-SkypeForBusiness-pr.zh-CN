@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Skype for business Online 允许您创建其他外部访问策略。 与客户端或会议策略（你可以有多个组合）不同，有三个预定义的外部访问策略可涵盖大多数方案。
-ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962500"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706657"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: ClientsMobility 策略页面显示部署中可用的移动策略。
-ms.openlocfilehash: b475a50495c2056c7559982dc6ac1db1aa9edc05
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ef7329456fe1a39e00edb1dced8fe368736a9b7d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300387"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705097"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 
@@ -26,7 +26,7 @@ ms.locfileid: "34300387"
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-你可以在**移动策略**页面上执行以下任务:
+你可以在**移动策略**页面上执行以下任务：
 
 - 查看现有移动策略
 
@@ -42,13 +42,13 @@ ms.locfileid: "34300387"
 
 - **搜索字段**在文本框中键入字符串以筛选所显示的策略。
 
-- **新**单击 "**新建**", 然后选择 "**网站**" 或 "**用户**" 以创建新的移动策略。
+- **新**单击 "**新建**"，然后选择 "**网站**" 或 "**用户**" 以创建新的移动策略。
 
-- **编辑**选择一个策略, 然后单击 "**编辑**" 以编辑所选策略的属性。
+- **编辑**选择一个策略，然后单击 "**编辑**" 以编辑所选策略的属性。
 
-- **刷新**刷新显示的策略列表。 单击 "**刷新**" 时, 将清除搜索筛选器字符串并显示所有现有策略。
+- **刷新**刷新显示的策略列表。 单击 "**刷新**" 时，将清除搜索筛选器字符串并显示所有现有策略。
 
-有关配置移动策略的详细信息, 请参阅[配置移动策略](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)。
+有关配置移动策略的详细信息，请参阅[配置移动策略](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)。
 
 ## <a name="see-also"></a>另请参阅
 

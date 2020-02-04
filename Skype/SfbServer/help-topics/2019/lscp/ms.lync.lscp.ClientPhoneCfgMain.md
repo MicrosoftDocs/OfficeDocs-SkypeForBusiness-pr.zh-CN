@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: 设备配置是用于管理 Skype for Business Phone Edition 设备 (全局或网站内) 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 7a4e956e1831b8ac7fb34b6574af996484f04faf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 设备配置是用于管理 Skype for Business Phone Edition 设备（全局或网站内）的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+ms.openlocfilehash: 05cd530c86453a71583137dc1029f6ed4ad56da8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300348"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705057"
 ---
 # <a name="device-configuration"></a>设备配置
  
-设备配置是用于管理 Skype for Business Phone Edition 设备 (全局或网站内) 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
+设备配置是用于管理 Skype for Business Phone Edition 设备（全局或网站内）的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -36,15 +36,15 @@ ms.locfileid: "34300348"
 
 下表介绍了该页上的菜单、命令、字段和属性。
   
-- **新**你可以添加具有以下范围的新设备配置:
+- **新**你可以添加具有以下范围的新设备配置：
     
   - 全局
     
   - 站点
     
-- **编辑**可以在列表中更改设备配置的选项。 使用此选项, 您可以执行以下操作:
+- **编辑**可以在列表中更改设备配置的选项。 使用此选项，您可以执行以下操作：
     
-  - **显示详细信息**此选项将打开一个对话框, 你可以在其中更改设备配置的选项。
+  - **显示详细信息**此选项将打开一个对话框，你可以在其中更改设备配置的选项。
     
   - **全选**此选项选择列表中的所有设备配置。
     

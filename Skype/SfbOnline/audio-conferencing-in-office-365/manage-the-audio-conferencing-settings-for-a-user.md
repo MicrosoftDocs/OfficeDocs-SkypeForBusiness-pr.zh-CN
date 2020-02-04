@@ -16,21 +16,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '作为 Office 365 管理员，您可以为组织中的单个用户编辑 Skype for Business Online 音频会议设置，例如提供程序、默认收费或免费电话号码、会议 ID 或 PIN。 '
-ms.openlocfilehash: ee60b8fc97313e38fd680b8deb42bc991e03b0f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c9a5f90d0c7577571188764393ecc667a243cd56
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290080"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707177"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在 Skype for business Online 中管理用户的音频会议设置
 
 > [!Note]
-> 如果要在 Microsoft 团队中管理用户设置, 请参阅[在 Microsoft 团队中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
+> 如果要在 Microsoft 团队中管理用户设置，请参阅[在 Microsoft 团队中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
 
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
@@ -39,7 +40,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 2. 选择 **管理中心** > **Skype for Business** 。
     
-3. 在 Skype for Business 管理中心, 选择 "**用户**"。
+3. 在 Skype for Business 管理中心，选择 "**用户**"。
     
 4. 选择要为其管理设置的用户，然后在“操作”窗格中单击**编辑**![显示编辑图标](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png)。
     

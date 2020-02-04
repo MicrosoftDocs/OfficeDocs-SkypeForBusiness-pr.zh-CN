@@ -1,5 +1,5 @@
 ---
-title: 您的端口订单的状态是什么？
+title: 你的转网订单的状态是什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925627"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708628"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>您的端口订单的状态是什么？
+# <a name="whats-the-status-of-your-port-orders"></a>你的转网订单的状态是什么？
 
 若要查看你的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 > 的**语音** > **端口订单**，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925627"
 
 ## <a name="related-topics"></a>相关主题
 
-- [什么是端口订单？](port-order-overview.md)
+- [什么是转网订单？](port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

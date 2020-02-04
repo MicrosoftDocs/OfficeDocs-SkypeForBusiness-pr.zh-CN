@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 676217cbd9101884e01cef1afd39203efc090f16
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991557"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707277"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 

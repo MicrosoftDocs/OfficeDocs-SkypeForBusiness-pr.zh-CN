@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 了解如何创建和管理呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。
-ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e61fb8c2ffd5c13816ff0093fc117dfadb251594
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991657"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707257"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 

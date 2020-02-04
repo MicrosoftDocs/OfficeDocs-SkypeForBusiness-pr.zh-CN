@@ -13,17 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 适用于 Microsoft 团队的 IP 桌面和手机认证
-ms.openlocfilehash: 8d1cfa4a1cde87791d1770cad05f5b0e644948c3
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 4dbacc0804b7981a990d9401113965b4cb01ba4c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506844"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708438"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 

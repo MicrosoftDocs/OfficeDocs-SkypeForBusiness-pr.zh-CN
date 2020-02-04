@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在比利时 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: cd8db5b009464c60997f8dff81644dfe69d81609
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e1f3085258da2e0e2102ada6b09141fa1d58349f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570596"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707087"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利时的电话号码管理
 

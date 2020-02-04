@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '了解如何在小型、中型和大型组织中规划和部署 Skype for Business，并让你的用户可以使用它。 '
-ms.openlocfilehash: 38c35344b6a19f99b153f214c42eacecb71d7c8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 052cc4cb8aa1242628e0f57a57a3fe5532be3d71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628448"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706497"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>在 Office 365 中部署 Skype for Business 客户端
 

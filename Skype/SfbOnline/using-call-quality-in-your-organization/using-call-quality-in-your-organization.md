@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
-description: 设置和使用呼叫分析来识别 Skype for Business 和 Microsoft 团队通话质量问题, 并对其进行故障排除。
-ms.openlocfilehash: d6428afc9fc15bc94dbb2e5b1c3aae44a4f96500
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 设置和使用呼叫分析来识别 Skype for Business 和 Microsoft 团队通话质量问题，并对其进行故障排除。
+ms.openlocfilehash: 865e8fddbf67e8aae85b7f38ee263c86ecf96716
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303848"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705907"
 ---
 # <a name="using-call-quality-in-your-organization"></a>在组织中使用通话质量
 

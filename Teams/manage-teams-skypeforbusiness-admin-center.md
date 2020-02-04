@@ -12,18 +12,18 @@ description: 了解如何在从 Microsoft 365 管理中心的团队体验切换�
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 1a914fbfe393c01d7f2024c2890e11e0d8678e23
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679242"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708370"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================

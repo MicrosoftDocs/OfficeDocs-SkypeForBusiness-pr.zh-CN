@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 了解在团队中设置事件的活动的步骤，包括准备网络、分配许可证、使用策略为用户启用实时事件功能和计划以及设置第三方分发提供商。
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570153"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708328"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -107,9 +107,9 @@ ms.locfileid: "37570153"
 
 - **配置单元流**为实时和点播的企业视频分发提供了一个简单且功能强大的解决方案。 Hive 是基于软件的解决方案，无需额外的硬件或带宽，也可提供一种安全的方法来启用数以千计的同时视频查看器，而不影响你的网络。 对于希望在购买 SDN/eCDN 解决方案之前了解视频影响的客户在其网络上的影响，蜂巢流还为 Microsoft 客户提供了基于浏览器的分析解决方案。 [了解详细信息](https://www.hivestreaming.com/partners/integration-partners/microsoft/)。
  
-- **Kollective**是一种基于云的智能对等分发平台，可利用你的现有网络基础结构以更快的形式（实时流视频、按需视频、软件更新、安全修补程序等）提供内容可靠且带宽更少。 我们的安全平台受世界上最大的金融机构的信任，没有其他硬件、设置和维护非常简单。 [了解详细信息](https://kollective.com/microsoft-pilot/)。
+- **Kollective**是一种基于云的智能对等分发平台，可利用你的现有网络基础结构，以更快、更可靠的方式以及更低的带宽提供内容（实时流视频、按需视频、软件更新、安全修补程序等）。 我们的安全平台受世界上最大的金融机构的信任，没有其他硬件、设置和维护非常简单。 [了解详细信息](https://kollective.com/microsoft-pilot/)。
  
-- **斜坡 OmniCache**提供下一代网络分发，确保跨全球 wan 的视频内容无缝传递，帮助事件发生器优化网络带宽并支持成功的实时事件广播和按需式. 即将推出针对团队中产生的实时事件的快速起步 OmniCache 支持。 [了解详细信息](http://www.ramp.com)。 
+- **斜 OmniCache**提供下一代网络分发，确保跨全球 wan 的视频内容无缝传递，帮助事件发生器优化网络带宽并支持成功的实时事件广播和按需流。 即将推出针对团队中产生的实时事件的快速起步 OmniCache 支持。 [了解详细信息](http://www.ramp.com)。 
  
 > [!NOTE] 
 > 所选的 SDN 或 eCDN 解决方案须遵守所选的**第三方提供商的服务条款和隐私策略**，这些条款将控制提供商的解决方案的使用。 您对提供商的解决方案的使用将不受 Microsoft 批量许可条款或在线服务条款的制约。 如果您不同意**第三方提供商的条款**，则不要在团队中启用该解决方案。 

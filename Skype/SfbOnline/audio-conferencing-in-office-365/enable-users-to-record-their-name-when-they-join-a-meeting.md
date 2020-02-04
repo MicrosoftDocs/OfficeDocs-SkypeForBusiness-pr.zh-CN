@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 了解如何启用或禁用当用户在 Skype for Business Online 中加入会议时是否可以记录他们的姓名。
-ms.openlocfilehash: 19fad95c0775663db799a59da159ed145aedda6b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 88c1a24acc6d623410ec8048a7e41d5c9f17d637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792295"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707207"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>允许用户在 Skype for Business Online 中加入会议时记录其名称
 
@@ -38,13 +39,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
     
-1. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥设置**"。
+1. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **Microsoft 网桥设置**"。
     
 2. 在 **会议的与会体验**中，请参阅标记为**打开启用会议加入和退出通知**的复选框。
     
    - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
     
-   - 已**清除**在进入会议之前, 不会要求呼叫者录制其姓名。
+   - 已**清除**在进入会议之前，不会要求呼叫者录制其姓名。
     
 3. 完成更改后，单击" **保存**"。
     
@@ -61,7 +62,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。了解以下主题中的这些优势： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

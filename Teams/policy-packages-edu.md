@@ -1,5 +1,5 @@
 ---
-title: 适用于教育机构管理员的 Microsoft 团队策略包
+title: 用于 EDU 管理员的 Microsoft Teams 政策包
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676250"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708658"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>适用于教育机构管理员的 Microsoft 团队策略包
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>用于 EDU 管理员的 Microsoft Teams 政策包
 
 Microsoft 团队中的策略程序包会收集预定义策略和策略设置，你可以分配给你的机构中具有类似角色的用户。 策略程序包简化、优化和帮助在管理策略时提供一致性。 在正常做法中，你将为每个用户分配一个策略程序包，并根据需要重新定义每个程序包中的策略以满足该用户组的需求。 更新程序包中的设置时，分配到该程序包的所有用户都将更改为批量更新。
 

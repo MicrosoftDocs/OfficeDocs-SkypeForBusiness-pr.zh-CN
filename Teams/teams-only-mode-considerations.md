@@ -12,18 +12,18 @@ description: 准备升级到 "仅 Microsoft 团队" 模式
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81609298a580594e8c54d185d7dea3be86824139
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 89aded4747bc0a3f41fd78ce1bdced7b3363775b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435107"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708308"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 

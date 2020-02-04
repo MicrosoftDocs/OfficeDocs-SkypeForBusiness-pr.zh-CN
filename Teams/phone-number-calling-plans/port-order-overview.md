@@ -1,5 +1,5 @@
 ---
-title: 什么是端口订单？
+title: 什么是转网订单？
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: 大致了解哪些端口订单，以及如何将电话号码从服务提供商转移到团队。
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925623"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708758"
 ---
-# <a name="whats-a-port-order"></a>什么是端口订单？
+# <a name="whats-a-port-order"></a>什么是转网订单？
 
 如果您当前有电话服务提供商或运营商，并且您的用户或服务已有电话号码，则需要创建 "*端口顺序*" 以将这些电话号码转移到 Microsoft 团队。 当号码被移植时，您可以将这些电话号码分配给您的用户和服务，例如音频会议（适用于会议桥）、自动助理和通话队列。
   
@@ -161,7 +161,7 @@ ms.locfileid: "37925623"
 
 ## <a name="related-topics"></a>相关主题
 
-- [您的端口订单的状态是什么？](port-order-status.md)
+- [你的转网订单的状态是什么？](port-order-status.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

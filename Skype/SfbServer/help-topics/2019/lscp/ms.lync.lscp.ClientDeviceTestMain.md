@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
-description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时, 它将显示在 "Skype for Business 服务器" 控制面板的 "测试设备" 页面上的列表中。
-ms.openlocfilehash: fd38e168d1d58c0bf1e330d08ae1d74c8d781221
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 "Skype for Business 服务器" 控制面板的 "测试设备" 页面上的列表中。
+ms.openlocfilehash: f9a512c2546dcef3865e2d8b75ecf2f05c0c9db9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300425"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705157"
 ---
 # <a name="test-device"></a>测试设备
 
-可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时, 它将显示在 "Skype for Business 服务器" 控制面板的 "**测试设备**" 页面上的列表中。
+可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 "Skype for Business 服务器" 控制面板的 "**测试设备**" 页面上的列表中。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以在 "**测试设备**" 页面上执行以下任务:
+可以在 "**测试设备**" 页面上执行以下任务：
 
 - 全局添加测试设备或为特定网站添加测试设备。
 
@@ -36,21 +36,21 @@ ms.locfileid: "34300425"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新**你可以添加具有以下范围的新测试设备:
+- **新**你可以添加具有以下范围的新测试设备：
 
   - 全局
 
   - 站点
 
-- **编辑**可以在列表中更改测试设备的选项。 使用此选项, 您可以执行以下操作:
+- **编辑**可以在列表中更改测试设备的选项。 使用此选项，您可以执行以下操作：
 
-  - **显示详细信息**此选项将打开一个对话框, 你可以在其中更改测试设备的选项。
+  - **显示详细信息**此选项将打开一个对话框，你可以在其中更改测试设备的选项。
 
   - **全选**此选项将选择列表中的所有测试设备。
 
   - **Delete**此选项将删除所有选定的测试设备。
 
-- **刷新**你可以刷新测试设备列表, 以验证所有测试设备的选项的状态。
+- **刷新**你可以刷新测试设备列表，以验证所有测试设备的选项的状态。
 
 有关测试设备的详细信息，请参阅操作文档中的[Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)。
 ## <a name="see-also"></a>另请参阅

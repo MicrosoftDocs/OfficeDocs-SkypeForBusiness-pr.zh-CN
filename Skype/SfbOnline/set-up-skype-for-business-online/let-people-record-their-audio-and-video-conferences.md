@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792597"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706487"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -32,11 +32,11 @@ ms.locfileid: "35792597"
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
-1. 转到 "管理中心" > " **Skype For business**", 然后单击 "**用户**"。
+1. 转到 "管理中心" > " **Skype For business**"，然后单击 "**用户**"。
     
-2. 在 "**用户**" 页面上, 从列表中选择一个或用户, 然后单击 "**编辑**"。
+2. 在 "**用户**" 页面上，从列表中选择一个或用户，然后单击 "**编辑**"。
     
-3. 在 "**选项" 页面**上, 单击 "**录制对话和会议**", 然后单击 "**保存**"。
+3. 在 "**选项" 页面**上，单击 "**录制对话和会议**"，然后单击 "**保存**"。
     
 打开录制功能后，组织者或演示者可以录制 Skype for Business Online 会议或电话会议。打开或关闭录制功能会影响组织中的每个人。
   
@@ -44,7 +44,7 @@ ms.locfileid: "35792597"
 |:-----|:-----|
 |音频和 HD 视频  <br/> PowerPoint 和白板演示  <br/> 桌面或程序共享会话  <br/> |共享 OneNote 页面  <br/> PowerPoint 批注  <br/> 共享文件（附件）  <br/> |
    
-有关详细信息, 请参阅[Lync 录制 "保存并发布](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)" 和 " [Lync 录制管理器](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)"。 
+有关详细信息，请参阅[Lync 录制 "保存并发布](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)" 和 " [Lync 录制管理器](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)"。 
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

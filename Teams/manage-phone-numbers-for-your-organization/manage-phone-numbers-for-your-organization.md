@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何为你的组织获取和管理 Microsoft 团队的电话号码。
-ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571985"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707187"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 

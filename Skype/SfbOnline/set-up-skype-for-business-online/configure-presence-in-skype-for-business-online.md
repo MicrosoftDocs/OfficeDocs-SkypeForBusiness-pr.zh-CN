@@ -14,40 +14,40 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
-description: '了解如何设置 Skype for business, 以便你可以查看同事的可用性。 '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: '了解如何设置 Skype for business，以便你可以查看同事的可用性。 '
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793341"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706517"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>在 Skype for Business Online 中配置状态
 
-默认情况下, 可以使用 Skype for Business 与组织中的某个人进行通信的任何人都可以查看该人员是否处于联机状态。 Skype for business 显示人员是否可以在线、在会议、脱机或另一个指示器中使用。
+默认情况下，可以使用 Skype for Business 与组织中的某个人进行通信的任何人都可以查看该人员是否处于联机状态。 Skype for business 显示人员是否可以在线、在会议、脱机或另一个指示器中使用。
 
 ![Skype for Business 中人员的联机状态的示例。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-作为企业中每个人的**[管理员](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 您可以选择哪些人可以在 Skype for business 中看到其联机状态。
+作为企业中每个人的**[管理员](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**，您可以选择哪些人可以在 Skype for business 中看到其联机状态。
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
 
 1. 转到管理中心 >**管理中心** > "**Skype for**business。
 
-2. 在**Skype For business 管理中心**中, 选择 "**组织**"。
+2. 在**Skype For business 管理中心**中，选择 "**组织**"。
 
-3. 在 "**状态隐私模式**" 下, 选择下列设置之一, 然后选择 "**保存**"。
+3. 在 "**状态隐私模式**" 下，选择下列设置之一，然后选择 "**保存**"。
 
 |**设置**|**谁可以查看用户的状态**|
 |:-----|:-----|
 |**自动显示联机状态信息** <br/> |您的企业中尚未添加到其他人的**外部**或**阻止**列表的任何 Skype for business 用户都将能够看到该用户的联机状态。 <br/> |
-|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中未添加到其**外部**或**阻止**列表的任何人。 <br/> 个人可在其 Skype for business 应用中替代默认设置: "**设置** > **工具** > "**选项**。 <br/> |
+|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中未添加到其**外部**或**阻止**列表的任何人。 <br/> 个人可在其 Skype for business 应用中替代默认设置： "**设置** > **工具** > "**选项**。 <br/> |
 
-有关您的用户可以在 Skype for Business 中更改的内容的信息, 请参阅以下文章:
+有关您的用户可以在 Skype for Business 中更改的内容的信息，请参阅以下文章：
 
 - [在 Skype for Business 中控制对您的状态信息的访问](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 

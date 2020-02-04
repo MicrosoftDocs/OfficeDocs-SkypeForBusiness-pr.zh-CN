@@ -16,15 +16,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 查看策略名称中有特殊字符以及可以执行哪些操作来修复这些问题。
-ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a3b7c8dfcba8d88f0428711a913344b33b431c37
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952755"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707587"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 

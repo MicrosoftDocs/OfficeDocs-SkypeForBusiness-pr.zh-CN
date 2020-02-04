@@ -14,21 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: 了解如何打开或关闭移动电话通知, 以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
-ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 了解如何打开或关闭移动电话通知，以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
+ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792122"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706317"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
-作为你的组织的**[Office 365 for business 中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, 你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。
+作为你的组织的**[Office 365 for business 中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**，你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。
   
 在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。
   

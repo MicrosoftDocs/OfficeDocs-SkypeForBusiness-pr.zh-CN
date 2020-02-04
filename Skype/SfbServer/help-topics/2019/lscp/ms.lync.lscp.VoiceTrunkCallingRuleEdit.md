@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
-description: '你可以使用新的 Trunk 配置: 新的通话编号转换规则以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：'
-ms.openlocfilehash: 87247e641826615f030f1204dac83bb678cd4d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 你可以使用新的 Trunk 配置：新的通话编号转换规则以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
+ms.openlocfilehash: 95e96825d4fa81839dac44d0f644ae8694c8d62c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290883"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703827"
 ---
 # <a name="new-calling-number-translation-rule"></a>新的呼叫号码转换规则
 
-你可以使用**新的 Trunk 配置**:**新的通话编号转换规则**以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
+你可以使用**新的 Trunk 配置**：**新的通话编号转换规则**以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
 
 1. [在 Skype for Business Server 中创建或修改呼叫 ID 演示文稿的翻译规则](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 

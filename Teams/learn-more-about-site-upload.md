@@ -14,18 +14,18 @@ ms.collection:
 description: 了解如何上载包含要用作呼叫分析和通话质量仪表板报表的报告标签的物理位置列表和关联子网的文本文件。
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572032"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707855"
 ---
 <a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 ============================

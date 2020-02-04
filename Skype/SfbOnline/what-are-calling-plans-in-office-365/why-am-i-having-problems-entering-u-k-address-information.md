@@ -16,30 +16,30 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: 下面是当您的地址或地址无法在英国 (英国) 正确验证时遇到问题的一些原因。
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290685"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705857"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国时遇到问题 地址信息？
 
-下面是当您的地址或地址无法在英国 (英国) 正确验证时遇到问题的一些原因。
+下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
   
 ## <a name="whats-wrong-with-the-company-name"></a>公司名称有什么问题？
 
-如果您在输入公司名称时遇到问题, 请记住:
+如果您在输入公司名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _ 
+- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 在英国 (英国), 公司名称不能有 + 号。 
+    > 在英国（英国），公司名称不能有 + 号。 
   
 - 它必须是80个字符或更少。
     
@@ -47,9 +47,9 @@ ms.locfileid: "34290685"
     
 ## <a name="whats-wrong-with-the-house-number"></a>房屋号码有什么问题？
 
-如果输入房屋号码时遇到问题, 请记住:
+如果输入房屋号码时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符:-/[]
+- 它可以包含字母、数字和下列特殊字符：-/[]
     
 - 它必须以数字开头。
     
@@ -59,9 +59,9 @@ ms.locfileid: "34290685"
     
 ## <a name="whats-wrong-with-the-house-name"></a>住宅名有什么问题？
 
-如果您在输入房屋名称时遇到问题, 请记住:
+如果您在输入房屋名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _
+- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _
     
 - 它必须是50个字符或更少。
     
@@ -69,9 +69,9 @@ ms.locfileid: "34290685"
     
 ## <a name="whats-wrong-with-the-street-name"></a>街道名称有什么问题？
 
-如果您在输入街道名称时遇到问题, 请记住:
+如果您在输入街道名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _ 
+- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _ 
     
 - 它必须是50个字符或更少。
     
@@ -79,9 +79,9 @@ ms.locfileid: "34290685"
     
 ## <a name="whats-wrong-with-the-city-or-town"></a>城市或城镇有什么问题？
 
-如果您在输入城市或城镇的名称时遇到问题, 请记住:
+如果您在输入城市或城镇的名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符:,/-+。 ' &amp; " _
+- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _
     
 - 它必须是50个字符或更少。
     
@@ -89,13 +89,13 @@ ms.locfileid: "34290685"
     
 ## <a name="whats-wrong-with-the-postal-code"></a>邮政编码有什么问题？
 
-如果您在输入邮政编码时遇到问题, 请记住:
+如果您在输入邮政编码时遇到问题，请记住：
   
 - 它只能包含字母、数字或空格。
     
-- 它必须包含8个或更少的字母, 包括数字和空格。
+- 它必须包含8个或更少的字母，包括数字和空格。
     
-- **请记住, 如果您使用的是英国 (英国)**, 则**必须**以下列格式之一放置邮政编码, 其中字母 A = 字符 a-z, # 符号 = 0-9 的一个数字, 而 _ (下划线) = a 空格。 下面是一些示例:
+- **请记住，如果您使用的是英国（英国）**，则**必须**以下列格式之一放置邮政编码，其中字母 A = 字符 a-z，# 符号 = 0-9 的一个数字，而 _ （下划线） = a 空格。 下面是一些示例：
     
 |**编排**|**示例**|
 |:-----|:-----|

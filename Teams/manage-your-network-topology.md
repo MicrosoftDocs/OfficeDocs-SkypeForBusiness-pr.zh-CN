@@ -10,18 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1keywords: ms.teamsadmincenter.networktopology.overview
+f1.keywords: ms.teamsadmincenter.networktopology.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何为 Microsoft 团队中的云语音功能配置网络设置。
-ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d7ed6780edf578c15580f1f9690fcbf5d9e9658e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991637"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708498"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft 团队中管理云语音功能的网络拓扑
 

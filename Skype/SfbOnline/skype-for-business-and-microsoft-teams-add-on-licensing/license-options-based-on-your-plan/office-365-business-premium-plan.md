@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 商业高级版 '
+title: " Office 365 商业高级版 "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792889"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706107"
 ---
-# <a name="office-365-business-premium"></a>Office 365 商业高级版
+# <a name="office-365-business-premium"></a> Office 365 商业高级版
 
 如果你拥有 [Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for Business 呼叫企业内部包含在订阅中的其他人。例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
 
@@ -52,7 +53,7 @@ ms.locfileid: "35792889"
 
 2. 购买**电话系统**加载项。
     
-3. 购买[适用于 Office 365 的呼叫计划](/MicrosoftTeams/calling-plans-for-office-365): 仅在购买 "**电话系统**" 加载项后, 才能购买此套餐。
+3. 购买[适用于 Office 365 的呼叫计划](/MicrosoftTeams/calling-plans-for-office-365)：仅在购买 "**电话系统**" 加载项后，才能购买此套餐。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
@@ -61,11 +62,11 @@ ms.locfileid: "35792889"
 
  **若要获取音频会议和通信点数：**
 
-1. 登录管理中心。
+1. 登录到管理中心。
 
-2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
+2. 转到“**账单**” > “**订阅**” > “**加载项**” > “**购买加载项**”。
 
-   ![要购买附加设备许可证, 请选择 "购买加载项"。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![若要购买加载项许可证，请选择“购买加载项”。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. 现在，您将看到的价格和选择购买音频会议和安装通信点数。
 
@@ -77,4 +78,4 @@ ms.locfileid: "35792889"
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. 购买**电话系统**许可证后, 你将看到购买呼叫计划的价格和选项。
+4. 购买**电话系统**许可证后，你将看到通话套餐的价格及其购买选项。

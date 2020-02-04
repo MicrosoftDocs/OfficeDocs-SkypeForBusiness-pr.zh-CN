@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在澳大利亚 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573158"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707127"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 在澳大利亚，我们已与 Telstra 合作，为使用澳大利亚帐单地址的客户购买和预配通话计划。 Telstra 将销售通话计划、提供澳大利亚用户号码，同时为自动助理和呼叫队列提供用户和服务号码的电话号码管理支持。 但是，服务号码和音频会议的许可证仍由 Office 365 负责销售和管理。

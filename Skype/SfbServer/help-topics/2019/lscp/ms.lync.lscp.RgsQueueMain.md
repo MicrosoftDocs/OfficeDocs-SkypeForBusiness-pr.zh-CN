@@ -6,29 +6,29 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
-description: 响应组由代理组、队列和工作流组成。 响应组队列将呼叫保留到响应组, 直到工程师应答呼叫。
-ms.openlocfilehash: 3ab0e8d8aaf44c5debece47a0507ae47c3d661f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 响应组由代理组、队列和工作流组成。 响应组队列将呼叫保留到响应组，直到工程师应答呼叫。
+ms.openlocfilehash: fcd0e916cf57fa1ee1830e9d64c540b2dca3a20d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292568"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704381"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 
-响应组由代理组、队列和工作流组成。 响应组队列将呼叫保留到响应组, 直到工程师应答呼叫。
+响应组由代理组、队列和工作流组成。 响应组队列将呼叫保留到响应组，直到工程师应答呼叫。
 
 "**响应组** - "**队列**页面显示为你的组织定义的所有响应组队列的列表。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-你可以从 "**响应组** - "**队列**页面执行以下任务:
+你可以从 "**响应组** - "**队列**页面执行以下任务：
 
 - 创建新队列
 
@@ -54,6 +54,6 @@ ms.locfileid: "34292568"
 
 - **说明**队列的说明。
 
-有关响应组功能和功能的详细信息, 请参阅计划文档中的[Skype For Business 服务器中的 "响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)"。 有关使用响应组队列的详细信息, 请参阅在操作文档中[管理响应组队列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
+有关响应组功能和功能的详细信息，请参阅计划文档中的[Skype For Business 服务器中的 "响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)"。 有关使用响应组队列的详细信息，请参阅在操作文档中[管理响应组队列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
 
 

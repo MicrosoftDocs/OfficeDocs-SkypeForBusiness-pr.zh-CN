@@ -1,5 +1,5 @@
 ---
-title: 手动提交一个端口订单
+title: 手动提交转网订单
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 了解如何手动提交端口订单请求。
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925625"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708736"
 ---
-# <a name="manually-submit-a-port-order"></a>手动提交一个端口订单
+# <a name="manually-submit-a-port-order"></a>手动提交转网订单
 
 在某些国家和地区，您可能需要手动提交服务请求以获取电话号码、转移电话号码、释放电话号码或更改地址。 若要查看每个国家和地区所需的内容或了解有关号码移植的详细信息，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -60,7 +60,7 @@ ms.locfileid: "37925625"
 
 ## <a name="related-topics"></a>相关主题
 
-- [什么是端口订单？](port-order-overview.md)
+- [什么是转网订单？](port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

@@ -6,31 +6,31 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
-description: '若要定义中介服务器, 请指定将中介服务器与前端服务器以及边缘服务器或池相关联的设置。 若要将中介服务器或池与边缘服务器或边缘服务器池相关联, 请执行下列操作:'
-ms.openlocfilehash: 5fb1c23fc53e0352c42360aac1dd38115209d739
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要定义中介服务器，请指定将中介服务器与前端服务器以及边缘服务器或池相关联的设置。 若要将中介服务器或池与边缘服务器或边缘服务器池相关联，请执行下列操作：
+ms.openlocfilehash: a575586ba31a92b81da47e4e0fe1014b290570e7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281225"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702457"
 ---
 # <a name="associate-mediation-server-with-edge"></a>将中介服务器与 Edge 关联
  
-若要定义中介服务器, 请指定将中介服务器与前端服务器以及边缘服务器或池相关联的设置。 若要将中介服务器或池与边缘服务器或边缘服务器池相关联, 请执行下列操作:
+若要定义中介服务器，请指定将中介服务器与前端服务器以及边缘服务器或池相关联的设置。 若要将中介服务器或池与边缘服务器或边缘服务器池相关联，请执行下列操作：
   
-1. 从下拉列表中, 选择要与中介服务器相关联的边缘池或边缘服务器。
+1. 从下拉列表中，选择要与中介服务器相关联的边缘池或边缘服务器。
     
 2. 单击“**下一步**”继续。
     
 > [!NOTE]
-> 如果你尚未在部署中定义 Edge 服务器或边缘服务器池, 下拉列表将不包含条目。 在将边缘服务器或池添加到部署之后, 你可以单击 "**下一步**" 继续并编辑中介服务器的设置。
+> 如果你尚未在部署中定义 Edge 服务器或边缘服务器池，下拉列表将不包含条目。 在将边缘服务器或池添加到部署之后，你可以单击 "**下一步**" 继续并编辑中介服务器的设置。
   
-有关其他详细信息, 请参阅[在 Skype For Business 服务器的拓扑生成器中部署中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
+有关其他详细信息，请参阅[在 Skype For Business 服务器的拓扑生成器中部署中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
   
 

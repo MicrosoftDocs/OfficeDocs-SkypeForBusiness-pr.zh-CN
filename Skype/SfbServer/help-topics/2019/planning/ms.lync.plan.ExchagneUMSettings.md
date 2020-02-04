@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成, 以将语音消息和电子邮件合并到单个消息传递基础结构中。
-ms.openlocfilehash: 97bc33b8e2b8fdffc09422467eb80f51a0a3118c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Skype for Business Server 2015 支持与 Exchange 统一消息（UM）集成，以将语音消息和电子邮件合并到单个消息传递基础结构中。
+ms.openlocfilehash: fd5dcf4a92300928a901a316c1b05e8223d7eac9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288259"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703737"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Skype for Business 2015 中的 Exchange 统一消息设置 (计划工具)
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Skype for Business 2015 中的 Exchange 统一消息设置（计划工具）
 
 > [!NOTE]
-> Exchange 2019 中不再提供 exchange 统一消息, 但您仍然可以使用 "电话系统" 录制语音邮件, 然后将录制内容保留在用户的 Exchange 邮箱中。 有关详细信息, 请参阅[规划云语音邮件服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
+> Exchange 2019 中不再提供 exchange 统一消息，但您仍然可以使用 "电话系统" 录制语音邮件，然后将录制内容保留在用户的 Exchange 邮箱中。 有关详细信息，请参阅[规划云语音邮件服务](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。
 
-Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成, 以将语音消息和电子邮件合并到单个消息传递基础结构中。
+Skype for Business Server 2015 支持与 Exchange 统一消息（UM）集成，以将语音消息和电子邮件合并到单个消息传递基础结构中。
 
 有关详细信息，请参阅：
 

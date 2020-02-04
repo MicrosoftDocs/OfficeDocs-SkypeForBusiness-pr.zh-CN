@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: df588b2bd920a66b7d44d3dbaedd01478a2229f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573316"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708618"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 

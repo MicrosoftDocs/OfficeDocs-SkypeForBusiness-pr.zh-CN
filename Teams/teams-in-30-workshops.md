@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: 实时、交互式的研讨会，旨在让你在30天内与 Microsoft 团队保持协作并与他们保持协作。
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570208"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708448"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -70,7 +70,7 @@ ms.locfileid: "37570208"
                     </div>
                     <div class="cardText">
                     <h3>准备环境-第一部分</h3>
-                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>受众： IT 管理员</p>
+                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>受众：IT 管理员</p>
 </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "37570208"
                     </div>
                     <div class="cardText">
                         <h3>准备环境-第 II 部分</h3>
-                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>受众： IT 管理员</p>
+                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>受众：IT 管理员</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "37570208"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>准备好最终用户</h3>
+                        <h3>最终用户准备就绪：</h3>
                     <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>受众：采纳和更改所有者</p>
                     </div>
                 </div>

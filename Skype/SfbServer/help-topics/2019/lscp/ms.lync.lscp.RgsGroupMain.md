@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 代理组是指定用来回答响应组呼叫的一组人员。
-ms.openlocfilehash: 279a8cbedebdefef64aebd887092d73cc3cd5c3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f9caf3ec7296ace681a753c401e0a55da874f559
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292582"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704377"
 ---
 # <a name="response-groups-group"></a>响应组：组
 
@@ -28,7 +28,7 @@ ms.locfileid: "34292582"
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从 "**响应组** - "**组**页面执行以下任务:
+可以从 "**响应组** - "**组**页面执行以下任务：
 
 - 创建新代理组
 
@@ -54,6 +54,6 @@ ms.locfileid: "34292582"
 
 - **说明**代理组的说明。
 
-有关响应组功能和功能的详细信息, 请参阅计划文档中的[Skype For Business 服务器中的 "响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)"。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
+有关响应组功能和功能的详细信息，请参阅计划文档中的[Skype For Business 服务器中的 "响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)"。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
 
 

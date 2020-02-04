@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在 Microsoft 团队的英国（英国）获取和管理电话号码的信息。
-ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571952"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706937"
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国的电话号码管理
 

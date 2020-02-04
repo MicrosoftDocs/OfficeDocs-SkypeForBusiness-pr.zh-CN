@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync 服务器节点列出拓扑中的中心网站。 可以执行以下操作：
-ms.openlocfilehash: ab055210f70395d426b56cb11aae824944e3d0e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7deac280f0de13dc5f199347190a28a1ad64d0dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277809"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701567"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  
@@ -40,7 +40,7 @@ ms.locfileid: "34277809"
     
 - **安装数据库**。允许您创建部署所需的数据库。
     
-- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具将收集有关以前的 Office 通信服务器环境的信息, 包括边缘服务器信息, 并将该信息发布到共享数据库。 
+- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具将收集有关以前的 Office 通信服务器环境的信息，包括边缘服务器信息，并将该信息发布到共享数据库。 
     
 - **删除部署**。启动“删除部署”向导，通过该向导可开始删除整个部署。
     

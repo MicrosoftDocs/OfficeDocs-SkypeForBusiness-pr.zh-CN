@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 了解在使用 "新的本地号码" 外接程序时，为什么需要添加可对帐户进行更改的授权人员。
-ms.openlocfilehash: 833bb27aa34b16601485437be9e25e2e41c2bf4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573375"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708798"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>更多关于呼叫线路 ID 和主叫方名称的信息
 

@@ -15,21 +15,21 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
 description: '了解在 Skype for Business Online 服务计划无效的情况下为用户分配有效服务计划的位置。 '
-ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 2c3137cb5e8873c1416d7fac2d20930c8f378844
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411539"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706437"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>用户的 Skype for Business Online 服务计划无效
 
-很抱歉, 分配给此用户的 Skype for Business Online 服务计划无法识别或无效。
+很抱歉，分配给此用户的 Skype for Business Online 服务计划无法识别或无效。
   
 转到*Microsoft 365 管理中心** >**活动用户**并将有效的服务计划分配给此用户。
 

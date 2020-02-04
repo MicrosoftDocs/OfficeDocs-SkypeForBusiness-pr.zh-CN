@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792305"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707157"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -63,10 +64,10 @@ While the default audio conferencing number that is assigned to an organizer is 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> 通过登录到 Microsoft 365 管理中心并查看 "**组织配置文件**", 可以找到您的组织的国家或地区位置。 
+> 通过登录到 Microsoft 365 管理中心并查看 "**组织配置文件**"，可以找到您的组织的国家或地区位置。 
   
 > [!CAUTION]
-> 由于在委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国 (UAE) 中的收费电话号码的可用性有限, 这些国家/地区的组织不会自动为其分配音频会议收费号码。 将根据可用免费电话号码的存量，为这些地区的用户提供免费电话号码。 
+> 由于在委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国（UAE）中的收费电话号码的可用性有限，这些国家/地区的组织不会自动为其分配音频会议收费号码。根据可用库存，来自这些地点的免费号码可用。 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
@@ -74,7 +75,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
   
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 若要查看音频会议的受支持语言的列表, 请参阅[音频会议支持的语言](/MicrosoftTeams/audio-conferencing-supported-languages)。
+- 若要查看音频会议的受支持语言的列表，请参阅[音频会议支持的语言](/MicrosoftTeams/audio-conferencing-supported-languages)。
     
 - 你可以使用[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet 查看你的组织的音频会议的专用电话号码。
     
@@ -82,7 +83,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- 若要为用户设置拨入电话号码, 请参阅[设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites.md)。
+- 若要为用户设置拨入电话号码，请参阅[设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites.md)。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
