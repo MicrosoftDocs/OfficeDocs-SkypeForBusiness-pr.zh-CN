@@ -3,6 +3,8 @@ title: Lync Server 2013：将子网与网络站点相关联
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associate a subnet with a network site
 ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec5a896af6312fecf53259ac10e72f99598d4a7e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f54ba8be2be6ae042633e519c5d7d27bde834162
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837915"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
-你的网络中的每个子网都必须与特定的网络站点相关联, 因为子网信息用于确定在启动新会话时终结点所在的网络站点。 当会话中每个方的位置已知时, 高级企业语音功能可以应用该信息来确定如何处理呼叫设置或路由。
+你的网络中的每个子网都必须与特定的网络站点相关联，因为子网信息用于确定在启动新会话时终结点所在的网络站点。 当会话中每个方的位置已知时，高级企业语音功能可以应用该信息来确定如何处理呼叫设置或路由。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 必须将部署中音频/视频边缘服务器的所有已配置公用 IP 地址添加到网络配置设置中。 这些 IP 地址是作为掩码为 32 的子网进行添加的。 关联的网络站点应与相应的已配置网络站点相对应。 例如, 与中央站点芝加哥的 A/V 边缘服务器对应的公共 IP 地址将为 NetworkSiteID 芝加哥。 有关公共 IP 地址的详细信息, 请参阅在规划文档中<A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">确定 Lync Server 2013 的外部 A/V 防火墙和端口要求</A>。
+> 必须将部署中音频/视频边缘服务器的所有已配置公用 IP 地址添加到网络配置设置中。 这些 IP 地址是作为掩码为 32 的子网进行添加的。 关联的网络站点应与相应的已配置网络站点相对应。 例如，与中央站点芝加哥的 A/V 边缘服务器对应的公共 IP 地址将为 NetworkSiteID 芝加哥。 有关公共 IP 地址的详细信息，请参阅在规划文档中<A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">确定 Lync Server 2013 的外部 A/V 防火墙和端口要求</A>。
 
 
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 
 > [!NOTE]  
-> 生成关键运行状况指示器 (KHI) 警报，指定存在于网络中但不与子网关联的 IP 地址列表，或指定包含 IP 地址的子网不与网络站点相关联。该警报在 8 小时内只产生一次。相关的警报信息和示例如下所示：<BR><STRONG>来源:</STRONG>CS 带宽策略服务 (核心)<BR><STRONG>事件号码:</STRONG> 36034<BR><STRONG>级别:</STRONG> 2<BR><STRONG>说明:</STRONG>以下 IP 地址的子网: &lt;IP 地址&gt;列表未配置或子网未与网络站点关联。<BR><STRONG>原因:</STRONG>网络配置设置中缺少对应 IP 地址的子网, 或者子网未与网络站点关联。<BR><STRONG>解决方案:</STRONG>将对应于 IP 地址列表的子网添加到网络配置设置中, 并将每个子网关联到网络站点。<BR>例如，如果警报中的 IP 地址列表指定 10.121.248.226 和 10.121.249.20，则可能是这些 IP 地址没有与子网关联，或者与其关联的子网不属于网络站点。如果 10.121.248.0/24 和 10.121.249.0/24 是与这些地址对应的子网，则可按如下所示解决此问题： 
+> 生成关键运行状况指示器 (KHI) 警报，指定存在于网络中但不与子网关联的 IP 地址列表，或指定包含 IP 地址的子网不与网络站点相关联。该警报在 8 小时内只产生一次。相关的警报信息和示例如下所示：<BR><STRONG>来源：</STRONG>CS 带宽策略服务（核心）<BR><STRONG>事件号码：</STRONG> 36034<BR><STRONG>级别：</STRONG> 2<BR><STRONG>说明：</STRONG>以下 IP 地址的子网： &lt;IP 地址&gt;列表未配置或子网未与网络站点关联。<BR><STRONG>原因：</STRONG>网络配置设置中缺少对应 IP 地址的子网，或者子网未与网络站点关联。<BR><STRONG>解决方案：</STRONG>将对应于 IP 地址列表的子网添加到网络配置设置中，并将每个子网关联到网络站点。<BR>例如，如果警报中的 IP 地址列表指定 10.121.248.226 和 10.121.249.20，则可能是这些 IP 地址没有与子网关联，或者与其关联的子网不属于网络站点。如果 10.121.248.0/24 和 10.121.249.0/24 是与这些地址对应的子网，则可按如下所示解决此问题： 
 > <OL>
 > <LI>
 > <P>确保 IP 地址 10.121.248.226 与子网 10.121.248.0/24 相关联，IP 地址 10.121.249.20 与子网 10.121.249.0/24 相关联。</P>
@@ -62,7 +64,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 </div>
 
-有关使用网络子网的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关使用网络子网的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)
 
@@ -76,7 +78,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 
 > [!TIP]  
-> 如果你正在使用大量子网, 我们建议使用逗号分隔值 (CSV) 文件将子网与网站相关联。 CSV 文件必须具有以下四列: <STRONG>IPAddress</STRONG>、 <STRONG>mask</STRONG>、 <STRONG>description</STRONG>、 <STRONG>NetworkSiteID</STRONG>。
+> 如果你正在使用大量子网，我们建议使用逗号分隔值（CSV）文件将子网与网站相关联。 CSV 文件必须具有以下四列： <STRONG>IPAddress</STRONG>、 <STRONG>mask</STRONG>、 <STRONG>description</STRONG>、 <STRONG>NetworkSiteID</STRONG>。
 
 
 
@@ -86,7 +88,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-associate-a-subnet-with-a-network-site-by-using-management-shell"></a>使用命令行管理程序将子网与网络站点相关联
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  运行 **New-CsNetworkSubnet** cmdlet 将子网与网络站点相关联：
     
@@ -118,9 +120,9 @@ _**主题上次修改时间:** 2012-10-19_
     
     `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
-3.  运行以下 cmdlet 以导入**子网 .csv**, 然后将其内容存储在 Lync Server 管理存储中:
+3.  运行以下 cmdlet 以导入**子网 .csv**，然后将其内容存储在 Lync Server 管理存储中：
     
         import-csv subnet.csv | foreach {New-CSNCSSubnet  _.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
 
@@ -130,7 +132,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-associate-a-subnet-with-a-network-site-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 将子网与网络站点相关联
 
-1.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 
@@ -148,7 +150,7 @@ _**主题上次修改时间:** 2012-10-19_
     
 
     > [!NOTE]  
-    > 如果尚未创建网络站点，该列表将为空。 有关此过程的详细信息, 请参阅<A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync Server 2013 中创建或修改网络网站</A>。 还可以通过运行 <STRONG>Get-CsNetworkSite</STRONG> cmdlet 检索部署的站点 ID。 有关详细信息, 请参阅 Lync Server Management Shell 文档。
+    > 如果尚未创建网络站点，该列表将为空。 有关此过程的详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync Server 2013 中创建或修改网络网站</A>。 还可以通过运行 <STRONG>Get-CsNetworkSite</STRONG> cmdlet 检索部署的站点 ID。 有关详细信息，请参阅 Lync Server Management Shell 文档。
 
     
     </div>

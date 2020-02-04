@@ -3,6 +3,8 @@ title: Lync Server 2013：规划前端池配对
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Front End pool pairing
 ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824965"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34824965"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-为了获得 Lync Server 2013 中的最佳灾难恢复能力, 请跨两个地理位置分散的网站部署前端池对。 每个网站都包含一个与另一个网站中的对应前端池配对的前端池。 两个网站都处于活动状态, 并且 Lync Server 备份服务提供实时数据复制以保持池同步。 备份服务是 Lync Server 2013 中的一项新功能, 旨在支持灾难恢复解决方案。 当您将池与另一个前端池配对时, 它将安装在前端池。
+为了获得 Lync Server 2013 中的最佳灾难恢复能力，请跨两个地理位置分散的网站部署前端池对。 每个网站都包含一个与另一个网站中的对应前端池配对的前端池。 两个网站都处于活动状态，并且 Lync Server 备份服务提供实时数据复制以保持池同步。 备份服务是 Lync Server 2013 中的一项新功能，旨在支持灾难恢复解决方案。 当您将池与另一个前端池配对时，它将安装在前端池。
 
-如果某个网站中的池出现故障, 则可以将用户从该池中故障转移到另一个网站中的池, 然后在两个池中的所有用户提供服务。 对于容量规划, 每个池都应设计为在发生灾难时处理两个池中所有用户的工作负荷。
+如果某个网站中的池出现故障，则可以将用户从该池中故障转移到另一个网站中的池，然后在两个池中的所有用户提供服务。 对于容量规划，每个池都应设计为在发生灾难时处理两个池中所有用户的工作负荷。
 
 <div>
 

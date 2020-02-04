@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 客户端管理 cmdlet'
+title: Lync Server 2013：客户端管理 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client management cmdlets
 ms:assetid: 0384f8ab-453d-49d6-aaa7-52439e27b7e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c40ad68a228f06c1275460a38aa1f6fbfff53f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 023b7c165d1366d42303f4b609401fcc7bbe6a1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837555"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-27_
+_**主题上次修改时间：** 2012-09-27_
 
-客户端管理主要包括确定允许哪些客户端应用程序 (如 Microsoft Lync 2013) 登录 Lync Server 2013 并确定这些客户端应用程序在登录后可使用的功能。
+客户端管理主要包括确定允许哪些客户端应用程序（如 Microsoft Lync 2013）登录 Lync Server 2013 并确定这些客户端应用程序在登录后可使用的功能。
 
 <div>
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息, 请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-09-27_
 
 ## <a name="client-management-cmdlets"></a>客户端管理 Cmdlet
 
-大多数适用于客户端管理的管理任务都可以从 Lync Server 2013 控制面板执行。 可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行这些相同的任务。 通过使用脚本, 您可以自动执行某些任务。 以下是与客户端管理直接相关的 cmdlet 的列表:
+大多数适用于客户端管理的管理任务都可以从 Lync Server 2013 控制面板执行。 可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行这些相同的任务。 通过使用脚本，您可以自动执行某些任务。 以下是与客户端管理直接相关的 cmdlet 的列表：
 
   - <span></span>  
     [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/Gg398830(v=OCS.15))

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建位置策略'
+title: Lync Server 2013：创建位置策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create location policies
 ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830851"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830851"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-11_
+_**主题上次修改时间：** 2012-09-11_
 
-在客户端注册期间, Lync 服务器使用位置策略在 E9-1-1 中启用 Lync 客户端。 位置策略包含定义 E9-1-1 实现方式的设置。
+在客户端注册期间，Lync 服务器使用位置策略在 E9-1-1 中启用 Lync 客户端。 位置策略包含定义 E9-1-1 实现方式的设置。
 
 可以编辑全局位置策略，并创建新的带标记的位置策略。客户端所在的子网没有关联位置策略，或没有直接为客户端分配位置策略时，客户端会获取全局策略。向子网或用户分配带标记的策略。
 
 要创建位置策略，必须使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员的帐户，或者具有等效管理员权限的帐户。
 
-有关位置策略的完整说明, 请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 cmdlet 使用使用以下值定义的位置策略:
+有关位置策略的完整说明，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 cmdlet 使用使用以下值定义的位置策略：
 
 
 <table>
@@ -104,7 +106,7 @@ _**主题上次修改时间:** 2012-09-11_
 </table>
 
 
-有关使用位置策略的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关使用位置策略的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - New-CsLocationPolicy
 
@@ -120,7 +122,7 @@ _**主题上次修改时间:** 2012-09-11_
 
 ## <a name="to-create-location-policies"></a>创建位置策略
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
     
     <div>
     

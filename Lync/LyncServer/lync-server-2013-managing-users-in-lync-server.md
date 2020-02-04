@@ -3,6 +3,8 @@ title: Lync Server 2013：在 Lync Server 中管理用户
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing users in Lync Server 2013
 ms:assetid: 16b2d276-f0ea-4be6-ac61-673be6f37cad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ649974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf066982dadfffc6d5adbb00da7e65ead9c87026
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827653"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756056"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827653"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-17_
+_**主题上次修改时间：** 2012-10-17_
 
 你可以使用 Lync Server 2013 控制面板和 Lync Server 2013 管理程序外壳在 Lync Server 2013 中管理用户帐户。 本部分中的过程将指导你了解如何查看帐户信息和配置用户帐户的设置。
 

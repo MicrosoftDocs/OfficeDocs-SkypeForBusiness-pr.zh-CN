@@ -3,6 +3,8 @@ title: Lync Server 2013：在分支站点提供 PSTN 连接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823621"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34823621"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
-我们建议使用 Microsoft Lync Server 2013、计划工具将分支站点添加到你的拓扑, 并在分支站点中设置你的语音基础结构。
+我们建议使用 Microsoft Lync Server 2013、计划工具将分支站点添加到你的拓扑，并在分支站点中设置你的语音基础结构。
 
-如果你没有使用计划工具, 请先使用本部分中的主题中的过程-首先添加分支站点, 然后通过定义 IP/公共交换式电话网络 (PSTN) 网关和/或配置 SIP 来设置你的语音基础结构干线 (带或不带媒体旁路)。 将专用分支 exchange (PBX) 连接到分支站点是另一个选项。
+如果你没有使用计划工具，请先使用本部分中的主题中的过程（首先）添加分支站点，然后通过定义 IP/公共交换式电话网络（PSTN）网关和/或通过配置 SIP 主干（带或不带媒体旁路）来设置你的语音基础结构。 将专用分支 exchange （PBX）连接到分支站点是另一个选项。
 
 <div>
 
 
 > [!NOTE]  
-> 如果要提供分支站点弹性, 必须在分支站点部署 Survivable 分支装置、Survivable 分支服务器或标准版服务器。 有关详细信息, 请参阅部署文档中的使用 Lync Server 2013 或<A href="lync-server-2013-deploying-lync-server.md">部署 Lync server 2013</A>的<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Survivable 分支装置或服务器</A>。
+> 如果要提供分支站点弹性，必须在分支站点部署 Survivable 分支装置、Survivable 分支服务器或标准版服务器。 有关详细信息，请参阅部署文档中的使用 Lync Server 2013 或<A href="lync-server-2013-deploying-lync-server.md">部署 Lync server 2013</A>的<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Survivable 分支装置或服务器</A>。
 
 
 

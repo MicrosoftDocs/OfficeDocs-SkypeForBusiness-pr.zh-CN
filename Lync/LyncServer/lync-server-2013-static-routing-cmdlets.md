@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 静态路由 cmdlet'
+title: Lync Server 2013：静态路由 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Static routing cmdlets
 ms:assetid: 71d5e0cd-8412-4383-818a-95b851a4da4b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416492(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca2171e66c9441dc2f2f0ff2a8475e03becefd1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845800"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845800"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-使用静态路由, 管理员可以预先确定 SIP 消息所占用的网络路由。 当服务器收到邮件时, 服务器会检查邮件地址, 然后将该邮件转发到由管理员预配置的下一个跃点服务器。 如果配置正确，静态路由将有助于确保及时、准确地传送消息，并在服务器上消耗最少的开销。
+使用静态路由，管理员可以预先确定 SIP 消息所占用的网络路由。 当服务器收到邮件时，服务器会检查邮件地址，然后将该邮件转发到由管理员预配置的下一个跃点服务器。 如果配置正确，静态路由将有助于确保及时、准确地传送消息，并在服务器上消耗最少的开销。
 
 <div>
 
 ## <a name="static-routing-cmdlets"></a>静态路由 Cmdlet
 
-除非 Microsoft 支持人员另有说明, 否则应使用[CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) cmdlet 创建为 Microsoft Lync Server 2013 配置的静态路由。 创建路由后, 你可以使用 CsStaticRoutingConfiguration cmdlet 将该路由添加到静态路由集合。
+除非 Microsoft 支持人员另有说明，否则应使用[CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) cmdlet 创建为 Microsoft Lync Server 2013 配置的静态路由。 创建路由后，你可以使用 CsStaticRoutingConfiguration cmdlet 将该路由添加到静态路由集合。
 
 **静态路由**
 

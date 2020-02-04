@@ -3,6 +3,8 @@ title: Lync Server 2013：配置呼叫寄存
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Call Park
 ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69e2a1c6ef9da447688ea1ca7d0308afc0b4ab9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34837271"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-30_
+_**主题上次修改时间：** 2012-10-30_
 
-"呼叫驻留" 使企业语音用户可以通过一条电话将呼叫置于保持状态, 然后通过从任何电话拨入内部号码 (称为呼叫公园*轨道*), 稍后检索呼叫。
+"呼叫驻留" 使企业语音用户可以通过一条电话将呼叫置于保持状态，然后通过从任何电话拨入内部号码（称为呼叫公园*轨道*），稍后检索呼叫。
 
-当部署企业语音时, 将在前端服务器或标准版服务器上自动安装和启用调用寄存使用的组件。 但是, 你必须先配置呼叫寄存, 然后才能向用户提供。
+当部署企业语音时，将在前端服务器或标准版服务器上自动安装和启用调用寄存使用的组件。 但是，你必须先配置呼叫寄存，然后才能向用户提供。
 
 本部分将指导你完成通话寄存的配置。
 

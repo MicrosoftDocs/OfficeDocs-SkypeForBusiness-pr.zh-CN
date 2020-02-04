@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 安装 Lync Server 2013 监视报告'
+title: Lync Server 2013：安装 Lync Server 2013 监视报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync Server 2013 Monitoring Reports
 ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5908e4eb8f18ef464a4c69cc31bffdc33a10416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6b5f9832ddc10d3cea46d09aee6b047595db0f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829996"
 
 <span> </span>
 
-_**主题上次修改时间:** 2015-02-27_
+_**主题上次修改时间：** 2015-02-27_
 
-Microsoft Lync Server 2013 监视报告为你提供了有关组织中发生的通信会话的质量和数量的大量信息。 但是, 安装 Lync Server 2013 时不会自动安装监视报告;而是必须单独安装监视报告, 并且仅在计算机上安装了 Lync Server 后才进行安装。
+Microsoft Lync Server 2013 监视报告为你提供了有关组织中发生的通信会话的质量和数量的大量信息。 但是，安装 Lync Server 2013 时不会自动安装监视报告;而是必须单独安装监视报告，并且仅在计算机上安装了 Lync Server 后才进行安装。
 
 <div>
 
@@ -47,11 +49,11 @@ Microsoft Lync Server 2013 监视报告为你提供了有关组织中发生的�
 
 </div>
 
-Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 IM 会话、用户注册、响应组应用程序等详细信息。 对于2013版本, Lync Server Monitoring 报表包含许多增强功能:
+Lync Server 监视报告包括30多个报告，旨在提供有关会议、对等 IM 会话、用户注册、响应组应用程序等详细信息。 对于2013版本，Lync Server Monitoring 报表包含许多增强功能：
 
-  - **新增了语音质量报告**。 这些新报表包括[Lync Server 2013 中的 "媒体质量比较" 报告](lync-server-2013-media-quality-comparison-report.md), 该报告比较不同类型的呼叫 (例如, 有线呼叫和无线呼叫之间) 的质量。[Lync Server 2013 中的 "会议加入时间" 报表](lync-server-2013-conference-join-time-report.md), 提供有关需要用户加入会议的时间量的信息。
+  - **新增了语音质量报告**。 这些新报表包括[Lync Server 2013 中的 "媒体质量比较" 报告](lync-server-2013-media-quality-comparison-report.md)，该报告比较不同类型的呼叫（例如，有线呼叫和无线呼叫之间）的质量。[Lync Server 2013 中的 "会议加入时间" 报表](lync-server-2013-conference-join-time-report.md)，提供有关需要用户加入会议的时间量的信息。
 
-  - **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Lync server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)提供了一种方法来分析视频和应用程序共享呼叫, 而[lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)将详细介绍生成这些调用的服务器的性能。 视频和应用程序共享指标现在也由[Lync server 2013 中的 "对等会话详细信息" 报告](lync-server-2013-peer-to-peer-session-detail-report.md)和[lync server 2013 中的 "会议详细信息](lync-server-2013-conference-detail-report.md)" 报告进行报告。
+  - **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Lync server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)提供了一种方法来分析视频和应用程序共享呼叫，而[lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)将详细介绍生成这些调用的服务器的性能。 视频和应用程序共享指标现在也由[Lync server 2013 中的 "对等会话详细信息" 报告](lync-server-2013-peer-to-peer-session-detail-report.md)和[lync server 2013 中的 "会议详细信息](lync-server-2013-conference-detail-report.md)" 报告进行报告。
 
   - **改进了报告性能**。这包括更短的响应和数据检索时间，以及更快且更轻松的报告导航。
 
@@ -67,7 +69,7 @@ Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 
 
 </div>
 
-安装 Lync Server 监视报告有两种方法: 您可以使用 Lync Server 部署向导, 也可以使用 Lync Server 2013 安装文件附带的 Windows PowerShell 脚本。 无论您使用哪种方法安装此报告，都必须先确保：
+安装 Lync Server 监视报告有两种方法：您可以使用 Lync Server 部署向导，也可以使用 Lync Server 2013 安装文件附带的 Windows PowerShell 脚本。 无论您使用哪种方法安装此报告，都必须先确保：
 
   - 具有向监控数据库中的用户帐户添加数据库角色的权限。
 
@@ -75,13 +77,13 @@ Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 
 
 若要使用部署向导安装监控报告，请完成下列步骤：
 
-1.  单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft Lync server 2013**", 然后单击 " **Lync server 部署向导**"。
+1.  单击 "**开始**"，单击 "**所有程序**"，单击 " **Microsoft Lync server 2013**"，然后单击 " **Lync server 部署向导**"。
 
 2.  在部署向导中，单击“**部署监控报告**”以便启动部署监控报告向导。
 
 3.  在部署监控报告向导中的“**指定监控数据库**”页上，确保承载您的监控存储的计算机的完全限定域名显示在“**监控数据库**”下拉列表中。（如果您具有多个监控存储，则需要从该下拉列表中选择适当的服务器。）确认“**SQL Server Reporting Services (SSRS)实例**”框中显示了正确的 SQL Server 实例（例如，“**atl-sql-001.litwareinc.com/archinst**”），然后单击“**下一步**”。
 
-4.  在 "**指定凭据**" 页面上的 "**用户名**" 框中, 键入访问监视报告时要使用的帐户的域名和用户名 (例如, **\\litwareinc kenmyer**)。 如果不使用此格式 (域\\用户名), 将出现错误。
+4.  在 "**指定凭据**" 页面上的 "**用户名**" 框中，键入访问监视报告时要使用的帐户的域名和用户名（例如， **\\litwareinc kenmyer**）。 如果不使用此格式（域\\用户名），将出现错误。
     
     在“**密码**”框中键入用户帐户密码，然后单击“**下一步**”。请注意，此帐户不需要特殊权限。设置完成时，将自动向该帐户授予所需的登录和数据库权限。
 
@@ -89,7 +91,7 @@ Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 
 
 6.  在“**正在执行命令**”页上，单击“**完成**”。
 
-通过运行脚本 DeployReports, 还可以从 Lync Server Management Shell 安装监控报告。此 Windows PowerShell 脚本可在 Lync Server 安装媒体上的 "设置\\\\ReportingSetup" 文件夹中找到。 要使用 DeployReports.ps1 安装监控报告，请在命令行管理程序提示符处键入与以下内容类似的命令：
+通过运行脚本 DeployReports，还可以从 Lync Server Management Shell 安装监控报告。此 Windows PowerShell 脚本可在 Lync Server 安装媒体上的 "设置\\\\ReportingSetup" 文件夹中找到。 要使用 DeployReports.ps1 安装监控报告，请在命令行管理程序提示符处键入与以下内容类似的命令：
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -144,7 +146,7 @@ Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 
 </table>
 
 
-安装监视报告后, 必须使用 CsReportingConfiguration cmdlet 配置用于访问这些报表的 URL。 可通过运行以下 Windows PowerShell 命令, 从 Lync Server Management Shell 执行此任务。 请注意，建议（但不要求）你在配置报告 URL 时使用 HTTPS 协议：
+安装监视报告后，必须使用 CsReportingConfiguration cmdlet 配置用于访问这些报表的 URL。 可通过运行以下 Windows PowerShell 命令，从 Lync Server Management Shell 执行此任务。 请注意，建议（但不要求）你在配置报告 URL 时使用 HTTPS 协议：
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 
@@ -156,7 +158,7 @@ Lync Server 监视报告包括30多个报告, 旨在提供有关会议、对等 
 
 3.  在“Reporting Services 配置管理器”中，单击“报告管理器 URL”。“报告管理器 URL”窗格中应显示一个或多个 URL。虽然可将其中的任一 URL 用作报告 URL，但再次建议 ReportingUrl 使用 HTTPS 协议。
 
-如果已为您的监控数据库设置镜像数据库，您也必须将监控报告与镜像数据库相关联。 有关详细信息, 请参阅[在 Lync Server 2013 中将监视报告与镜像数据库相关联](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)的文章。
+如果已为您的监控数据库设置镜像数据库，您也必须将监控报告与镜像数据库相关联。 有关详细信息，请参阅[在 Lync Server 2013 中将监视报告与镜像数据库相关联](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)的文章。
 
 </div>
 

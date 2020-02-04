@@ -3,6 +3,8 @@ title: Lync Server 2013：Pool 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Pool table
 ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f878b9eefef86fba0fed4dd039b9a60b6f035d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31fd637ac4d612d53804f679b82f1de53b327772
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824230"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824230"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-Pool 表是一个支持表, 用于存储各种前端池的相关信息。 表中的每条记录表示一个池。
+Pool 表是一个支持表，用于存储各种前端池的相关信息。 表中的每条记录表示一个池。
 
 
 <table>

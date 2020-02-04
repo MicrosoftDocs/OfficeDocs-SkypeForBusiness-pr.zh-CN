@@ -3,6 +3,8 @@ title: Lync Server 2013：管理组织的 SIP 联盟域
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage SIP federated domains for your organization
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4022edf2509d0fe75ec8cc91b8f1e3a519f1f21c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828248"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34828248"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
 
-若要管理和配置可以与联盟的 SIP 域, 可以执行以下操作:
+若要管理和配置可以与联盟的 SIP 域，可以执行以下操作：
 
   - 创建或编辑 SIP 联盟伙伴域的允许域列表。
 
   - 创建或编辑 SIP 联盟域的阻止域列表。
 
-若要执行这些任务, 请使用本节中的过程。
+若要执行这些任务，请使用本节中的过程。
 
 <div>
 

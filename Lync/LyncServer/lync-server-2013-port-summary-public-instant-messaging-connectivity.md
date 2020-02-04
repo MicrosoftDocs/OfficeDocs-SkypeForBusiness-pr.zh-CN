@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 端口摘要-公共即时消息连接'
+title: Lync Server 2013：端口摘要-公共即时消息连接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824244"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824244"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-16_
+_**主题上次修改时间：** 2013-02-16_
 
-若要为支持公共即时消息连接所需的端口和协议配置防火墙, 请首先注意 SIP/MTLS/TCP 5061 是双向的, 以确保公共 IM 提供商联系 Lync 客户端的能力, 或将 Lync 的联系人联系公共 IM 联系人。
+若要为支持公共即时消息连接所需的端口和协议配置防火墙，请首先注意 SIP/MTLS/TCP 5061 是双向的，以确保公共 IM 提供商联系 Lync 客户端的能力或 Lync 联系公共 IM 联系人。
 
 Windows Live Messenger 可参与 Lync 客户端的音频/视频通信。 此帐户适用于通常在防火墙上支持 Lync 客户端作为外部用户的防火墙端口和协议配置。
 
@@ -43,7 +45,7 @@ Windows Live Messenger 可参与 Lync 客户端的音频/视频通信。 此帐�
 
 
 > [!IMPORTANT]  
-> Lync 比以往更多, 是一种强大的工具, 用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟要求除 Lync 标准客户端访问许可证 (CAL) 之外没有其他用户/设备许可证。 Skype 联盟将添加到此列表, 使 Lync 用户可以通过 IM 和语音与成百上千人联系。<BR>与 Messenger 客户联系人的联盟将于2013年3月15日 (中国大陆除外) 正式结束。 Skype 将成为以前使用 Messenger 的联盟用户的联合身份验证客户端。
+> Lync 比以往更多，是一种强大的工具，用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟要求除 Lync 标准客户端访问许可证（CAL）之外没有其他用户/设备许可证。 Skype 联盟将添加到此列表，使 Lync 用户可以通过 IM 和语音与成百上千人联系。<BR>与 Messenger 客户联系人的联盟将于2013年3月15日（中国大陆除外）正式结束。 Skype 将成为以前使用 Messenger 的联盟用户的联合身份验证客户端。
 
 
 
@@ -71,19 +73,19 @@ Windows Live Messenger 可参与 Lync 客户端的音频/视频通信。 此帐�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Access/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
 <td><p>公共 IM 连接合作伙伴</p></td>
 <td><p>Edge 服务器访问接口</p></td>
 <td><p>对于使用 SIP 的联盟和公共 IM 连接。</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
 <td><p>Edge 服务器访问接口</p></td>
 <td><p>公共 IM 连接合作伙伴</p></td>
 <td><p>对于使用 SIP 的联盟和公共 IM 连接。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/SIP (TLS)/TCP/443</p></td>
+<td><p>Access/SIP （TLS）/TCP/443</p></td>
 <td><p>客户端</p></td>
 <td><p>Edge 服务器访问接口</p></td>
 <td><p>外部用户访问的客户端到服务器 SIP 通信。</p></td>
@@ -92,19 +94,19 @@ Windows Live Messenger 可参与 Lync 客户端的音频/视频通信。 此帐�
 <td><p>A/V/RTP/TCP/50000-59999</p></td>
 <td><p>Edge 服务器访问接口</p></td>
 <td><p>实时 Messenger 客户端</p></td>
-<td><p>如果配置了公用 IM 连接, 则用于带有 Windows Live Messenger 的 A/V 会话。</p></td>
+<td><p>如果配置了公用 IM 连接，则用于带有 Windows Live Messenger 的 A/V 会话。</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
 <td><p>Edge 服务器访问接口</p></td>
 <td><p>实时 Messenger 客户端</p></td>
-<td><p>对于具有 Windows Live Messenger 的公共 IM 连接, 则是必需的。</p></td>
+<td><p>对于具有 Windows Live Messenger 的公共 IM 连接，则是必需的。</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
 <td><p>实时 Messenger 客户端</p></td>
 <td><p>Edge 服务器访问接口</p></td>
-<td><p>对于具有 Windows Live Messenger 的公共 IM 连接, 则是必需的。</p></td>
+<td><p>对于具有 Windows Live Messenger 的公共 IM 连接，则是必需的。</p></td>
 </tr>
 </tbody>
 </table>

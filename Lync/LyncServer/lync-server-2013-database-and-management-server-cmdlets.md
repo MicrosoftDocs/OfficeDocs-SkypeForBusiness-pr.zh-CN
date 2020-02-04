@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 数据库和管理服务器 cmdlet'
+title: Lync Server 2013：数据库和管理服务器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database and Management Server cmdlets
 ms:assetid: b323bd59-8f71-4f03-af94-f3afb8620f4e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415671(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53b970f55a8389af757d2a55a2255e8028bb78a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830733"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-数据库和管理服务器 cmdlet 用于管理 Microsoft Lync Server 2013 后端数据库和前端管理服务。 除了为中央管理存储配置 Active Directory 服务控制点之外, 你可以使用这些 cmdlet 来安装或卸载 Lync Server 2013 使用的任何数据库。
+数据库和管理服务器 cmdlet 用于管理 Microsoft Lync Server 2013 后端数据库和前端管理服务。 除了为中央管理存储配置 Active Directory 服务控制点之外，你可以使用这些 cmdlet 来安装或卸载 Lync Server 2013 使用的任何数据库。
 
 <div>
 
 ## <a name="database-and-management-server-cmdlets"></a>数据库和管理服务器 Cmdlet
 
-以下是与管理数据库和管理服务器直接相关的 cmdlet 的列表:
+以下是与管理数据库和管理服务器直接相关的 cmdlet 的列表：
 
 **数据库和管理服务器**
 

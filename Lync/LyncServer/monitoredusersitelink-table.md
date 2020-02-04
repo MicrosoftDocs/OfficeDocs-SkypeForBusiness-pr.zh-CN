@@ -3,6 +3,8 @@ title: MonitoredUserSiteLink 表
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: MonitoredUserSiteLink table
 ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398233(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5de189abc64271a915cfe88ae450dc349709e0d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 17c7996b4c06496a39bc7db5f4cd5b4adbb83c2d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845188"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845188"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
 MonitoredUserSiteLink 表是支持表。 每条记录表示两个用户网站之间的一个链接。
 

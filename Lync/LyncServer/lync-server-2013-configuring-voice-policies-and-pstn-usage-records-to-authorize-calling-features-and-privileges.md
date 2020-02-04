@@ -3,6 +3,8 @@ title: Lync Server 2013：配置语音策略和 PSTN 用法记录以授权呼叫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring voice policies and PSTN usage records to authorize calling features and privileges
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398450(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a14a9b7c3014fef3ecffdcff3aec4db8d6665e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b9f7da3f8560ae0a897211405d686d9ed35101e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837160"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34837160"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-10_
+_**主题上次修改时间：** 2012-10-10_
 
-*语音策略*支持一组呼叫功能, 并关联一个或多个 PSTN 使用记录, 以定义分配了该策略的用户的呼叫功能和权限。
+*语音策略*支持一组呼叫功能，并关联一个或多个 PSTN 使用记录，以定义分配了该策略的用户的呼叫功能和权限。
 
-语音策略作用域可以是*网站*(定义网络站点的默认功能和权限) 或*用户*(定义要在每用户或组基础上分配的功能和权限)。 未分配到语音策略的用户将自动分配给全局策略, 该策略是随产品一起安装的默认语音策略。
+语音策略作用域可以是*网站*（定义网络站点的默认功能和权限）或*用户*（定义要在每用户或组基础上分配的功能和权限）。 未分配到语音策略的用户将自动分配给全局策略，该策略是随产品一起安装的默认语音策略。
 
 <div>
 
 
 > [!NOTE]  
-> 有关详细信息, 请参阅规划文档中<A href="lync-server-2013-voice-policies.md">Lync Server 2013 中的语音策略</A>。
+> 有关详细信息，请参阅规划文档中<A href="lync-server-2013-voice-policies.md">Lync Server 2013 中的语音策略</A>。
 
 
 

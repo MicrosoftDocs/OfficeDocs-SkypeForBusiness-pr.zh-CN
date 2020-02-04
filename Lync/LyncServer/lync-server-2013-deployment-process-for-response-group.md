@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 响应组的部署过程'
+title: Lync Server 2013：响应组的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Response Group
 ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205270(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2151532b31f3c1660be98d11ac9d9c337ffecb64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830458"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-27_
+_**主题上次修改时间：** 2012-09-27_
 
 本部分概述了部署响应组应用程序时所涉及的阶段和步骤。
 
@@ -57,19 +59,19 @@ _**主题上次修改时间:** 2012-09-27_
 <tbody>
 <tr class="odd">
 <td><p>安装响应组应用程序</p></td>
-<td><p>部署企业语音时, 将默认安装并激活 "响应组" 应用程序。</p></td>
+<td><p>部署企业语音时，将默认安装并激活 "响应组" 应用程序。</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-deploying-enterprise-voice.md">在 Lync Server 2013 中部署企业语音</a></p></td>
 </tr>
 <tr class="even">
 <td><p>为响应组安装组件</p></td>
-<td><p>Lync Server cmdlet、Lync Server 控制面板、响应组配置工具、代理的登录和注销控制台, 以及响应组客户端 Web 服务作为 Web 服务的一部分进行安装。 在部署企业版池或标准版服务器时, 将安装 Web 服务。</p></td>
+<td><p>Lync Server cmdlet、Lync Server 控制面板、响应组配置工具、代理的登录和注销控制台，以及响应组客户端 Web 服务作为 Web 服务的一部分进行安装。 在部署企业版池或标准版服务器时，将安装 Web 服务。</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>为 Lync 2013 和企业语音启用用户</p></td>
-<td><p>启用将用作 Lync Server 和企业语音的代理的用户。 必须先启用用户，然后才能将其添加到代理组。 通常, 在企业版或标准版服务器部署期间启用 Lync Server 的用户。 在企业语音部署期间, 用户可用于企业语音。</p></td>
+<td><p>启用将用作 Lync Server 和企业语音的代理的用户。 必须先启用用户，然后才能将其添加到代理组。 通常，在企业版或标准版服务器部署期间启用 Lync Server 的用户。 在企业语音部署期间，用户可用于企业语音。</p></td>
 <td><p>RTCUniversalUserAdmins</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -79,13 +81,13 @@ _**主题上次修改时间:** 2012-09-27_
 <tr class="even">
 <td><p>创建和配置由代理组、队列和工作流构成的响应组</p></td>
 <td><ol>
-<li><p>使用 Lync Server 控制面板或 Lync Server 命令行管理程序执行下列操作:</p>
+<li><p>使用 Lync Server 控制面板或 Lync Server 命令行管理程序执行下列操作：</p>
 <ol>
 <li><p>创建和配置代理组。</p></li>
 <li><p>创建和配置队列。</p></li>
 </ol></li>
-<li><p>(可选) 使用 Lync Server Management Shell 创建预定义的响应组业务时间和假日。</p></li>
-<li><p>使用 "响应组配置" 工具或 Lync Server Management Shell 创建工作流 (查寻组或交互式语音响应 (IVR) 调用流), 包括自定义响应组的业务时间和假日。</p>
+<li><p>（可选）使用 Lync Server Management Shell 创建预定义的响应组业务时间和假日。</p></li>
+<li><p>使用 "响应组配置" 工具或 Lync Server Management Shell 创建工作流（查寻组或交互式语音响应（IVR）调用流），包括自定义响应组的业务时间和假日。</p>
 <div>
 
 > [!NOTE]  
@@ -118,7 +120,7 @@ _**主题上次修改时间:** 2012-09-27_
 </tr>
 <tr class="even">
 <td><p>（可选）委派响应组的管理</p></td>
-<td><p>为用户分配 CsResponseGroupManager 角色以委派响应组的配置。 然后, 响应组管理员可以配置分配给他们的响应组。</p></td>
+<td><p>为用户分配 CsResponseGroupManager 角色以委派响应组的配置。 然后，响应组管理员可以配置分配给他们的响应组。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
 <p>CsVoiceAdministrator</p>

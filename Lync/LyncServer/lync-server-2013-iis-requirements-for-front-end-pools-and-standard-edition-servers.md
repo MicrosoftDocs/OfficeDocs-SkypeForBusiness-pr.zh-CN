@@ -3,6 +3,8 @@ title: 前端池和 Standard Edition 服务器的 IIS 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d804df614eab49eeabe82cca9d304e082d9ced3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00ffe97b77f20107fc3351a678c71e28bbc6675
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830040"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-19_
+_**主题上次修改时间：** 2012-06-19_
 
-对于标准版服务器和前端服务器以及控制器, Lync Server 2013 安装程序将在 Internet Information Services (IIS) 中创建虚拟目录, 以实现以下目的:
+对于标准版服务器和前端服务器以及控制器，Lync Server 2013 安装程序将在 Internet Information Services （IIS）中创建虚拟目录，以实现以下目的：
 
   - 允许用户从通讯簿服务下载文件
 
@@ -51,24 +53,24 @@ _**主题上次修改时间:** 2012-06-19_
 
   - 启用响应组功能
 
-此外, Lync Server 2010 的累积更新: 2011 安装程序在 IIS 中创建虚拟目录的目的如下:
+此外，Lync Server 2010 的累积更新：2011安装程序在 IIS 中创建虚拟目录的目的如下：
 
-  - 在移动设备上支持移动功能的前端服务器或标准版服务器 (如即时消息 (IM) 和联机状态)
+  - 在移动设备上支持移动功能的前端服务器或标准版服务器（如即时消息（IM）和联机状态）
 
-  - 在前端服务器或标准版服务器和控制器上, 使移动设备能够自动发现移动资源
+  - 在前端服务器或标准版服务器和控制器上，使移动设备能够自动发现移动资源
 
 
 
 > [!NOTE]
-> 如果要部署移动性, 建议使用 IIS 7.5。 Lync Server 移动服务安装程序设置一些 ASP.NET 标志以提高性能。 默认情况下, IIS 7.5 在 Windows Server 2008 R2 上安装, 移动服务安装程序会自动更改 ASP.NET 设置。 如果在 Windows Server 2008 上使用 IIS 7.0, 则需要手动更改这些设置。
+> 如果要部署移动性，建议使用 IIS 7.5。 Lync Server 移动服务安装程序设置一些 ASP.NET 标志以提高性能。 默认情况下，IIS 7.5 在 Windows Server 2008 R2 上安装，移动服务安装程序会自动更改 ASP.NET 设置。 如果在 Windows Server 2008 上使用 IIS 7.0，则需要手动更改这些设置。
 
 
 
-Lync Server 要求安装以下 IIS 模块:
+Lync Server 要求安装以下 IIS 模块：
 
 
 > [!IMPORTANT]
-> 如果你的组织要求在除系统驱动器之外的驱动器上找到 IIS 和所有 Web 服务, 则可以在 "设置" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径 (包括 OCSCore), 则其他 Lync Server 文件也将同时部署到此驱动器。 有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。
+> 如果你的组织要求在除系统驱动器之外的驱动器上找到 IIS 和所有 Web 服务，则可以在 "设置" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径（包括 OCSCore），则其他 Lync Server 文件也将同时部署到此驱动器。 有关如何重新定位 Windows Server Manager 在安装 IIS 时部署的 INETPUB 的详细信息， <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>请参阅。
 
 
   - 静态内容
@@ -81,7 +83,7 @@ Lync Server 要求安装以下 IIS 模块:
 
   - .NET 扩展性
 
-  - Internet 服务器 API (ISAPI) 扩展
+  - Internet 服务器 API （ISAPI）扩展
 
   - ISAPI 筛选器
 
@@ -103,7 +105,7 @@ Lync Server 要求安装以下 IIS 模块:
 
   - IIS 管理脚本和工具
 
-  - 匿名身份验证 (安装 IIS 时默认安装)
+  - 匿名身份验证（安装 IIS 时默认安装）
 
   - 客户端证书映射身份验证
 
@@ -148,7 +150,7 @@ Lync Server 要求安装以下 IIS 模块:
 <tr class="odd">
 <td><p>设备更新</p></td>
 <td><p>http://&lt;内部 FQDN&gt;/DeviceUpdateFiles_Int</p></td>
-<td><p>适用于内部 UC 设备的统一通信 (UC) 设备更新文件的位置。</p></td>
+<td><p>适用于内部 UC 设备的统一通信（UC）设备更新文件的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>符合</p></td>
@@ -163,7 +165,7 @@ Lync Server 要求安装以下 IIS 模块:
 <tr class="even">
 <td><p>组扩展和通讯簿 Web 查询服务</p></td>
 <td><p>http://&lt;内部 FQDN&gt;/GroupExpansion/int/service.asmx</p></td>
-<td><p>为内部用户启用组扩展的 Web 服务的位置。 此外, 还可向内部 Lync Mobile Microsoft Lync 2010 移动客户端提供全局地址列表信息的通讯簿 Web 查询服务的位置。</p></td>
+<td><p>为内部用户启用组扩展的 Web 服务的位置。 此外，还可向内部 Lync Mobile Microsoft Lync 2010 移动客户端提供全局地址列表信息的通讯簿 Web 查询服务的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>电话会议</p></td>
@@ -186,13 +188,13 @@ Lync Server 要求安装以下 IIS 模块:
 
 
 > [!NOTE]
-> 对于合并配置中的前端池, 必须先部署 IIS, 然后才能将服务器添加到池中。
+> 对于合并配置中的前端池，必须先部署 IIS，然后才能将服务器添加到池中。
 
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全说明:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="安全" alt="security" />安全说明：</th>
 </tr>
 </thead>
 <tbody>

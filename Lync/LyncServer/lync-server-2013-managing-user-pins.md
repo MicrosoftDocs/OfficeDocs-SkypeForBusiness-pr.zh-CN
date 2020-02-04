@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理用户 Pin'
+title: Lync Server 2013：管理用户 Pin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing user PINs
 ms:assetid: 806a813c-bdd4-49eb-9923-0dbb03968d8a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8649efa43d89dc15d848c838c5c1093070542b8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827681"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827681"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-15_
+_**主题上次修改时间：** 2012-10-15_
 
 使用以下过程从 Lync Server 2013 控制面板的 "**用户**" 部分管理用户的电话拨入式会议 pin。
 

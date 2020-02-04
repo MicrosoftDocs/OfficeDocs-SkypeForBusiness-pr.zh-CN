@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: "失败列表" 报表'
+title: Lync Server 2013： "失败列表" 报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failure List Report
 ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c1c9c15b1f539aa1a5213989674dfea268a684
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830163"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830163"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-07-02_
+_**主题上次修改时间：** 2012-07-02_
 
 故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-07-02_
 
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过[在 Lync Server 2013 中的 "失败分发报告](lync-server-2013-failure-distribution-report.md)" 上单击以下任一指标可访问 "故障列表" 报告:
+通过[在 Lync Server 2013 中的 "失败分发报告](lync-server-2013-failure-distribution-report.md)" 上单击以下任一指标可访问 "故障列表" 报告：
 
   - 主要诊断原因（会话）
 
@@ -59,7 +61,7 @@ _**主题上次修改时间:** 2012-07-02_
 
   - 主要来源用户代理（会话）
 
-在 "故障列表" 报表中, 通过单击对等会话的会话详细信息指标, 可以[在 Lync Server 2013 中访问对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
+在 "故障列表" 报表中，通过单击对等会话的会话详细信息指标，可以[在 Lync Server 2013 中访问对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
 
 </div>
 
@@ -71,7 +73,7 @@ _**主题上次修改时间:** 2012-07-02_
 
 为用户创建媒体时发生内部服务器错误。
 
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 (对于一种情况, "失败列表" 报表没有筛选功能。)但是, 如果你导出数据, 然后将其转换为逗号分隔值文件, 则可以使用 Windows PowerShell 查找类似问题的答案。 例如, 假设您将数据保存到。名为 C:\\数据\\故障\_列表 .csv 的 CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户：
+务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （对于一种情况，"失败列表" 报表没有筛选功能。）但是，如果你导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设您将数据保存到。名为 C：\\数据\\故障\_列表 .csv 的 CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户：
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique

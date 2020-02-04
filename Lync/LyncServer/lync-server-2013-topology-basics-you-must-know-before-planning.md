@@ -3,6 +3,8 @@ title: 规划之前必须知道的 Lync Server 2013 拓扑基础知识
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topology basics you must know before planning
 ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398552(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2076d6db4c2d3702eac6882277595fd81e2572d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845546"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34845546"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-25_
+_**主题上次修改时间：** 2012-09-25_
 
-您不必是 Lync 服务器上的专家即可运行规划工具。 实际上, 多次运行计划工具, 以不同的方式回答问题, 并比较输出是了解 Lync 服务器的好方法。
+您不必是 Lync 服务器上的专家即可运行规划工具。 实际上，多次运行计划工具，以不同的方式回答问题，并比较输出是了解 Lync 服务器的好方法。
 
-深入了解各种组件之前, 应了解 Lync Server 2013 拓扑的以下基本方面。
+深入了解各种组件之前，应了解 Lync Server 2013 拓扑的以下基本方面。
 
 <div>
 

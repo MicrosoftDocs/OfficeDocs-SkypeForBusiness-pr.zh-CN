@@ -3,6 +3,8 @@ title: 管理计算机、站点和全局集中日志记录服务配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828157"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828157"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-04_
+_**主题上次修改时间：** 2014-02-04_
 
-集中式日志记录服务可以在包含单个计算机的范围 (即计算机池) 所在的范围内运行 (即, 定义的网站 (如网站 Redmond), 其中包含你的部署中的计算机和池的集合, 或者在全局范围内、部署中的所有计算机和池)。
+集中式日志记录服务可以在包含单个计算机的范围（即计算机池）所在的范围内运行（即，定义的网站（如网站 Redmond），其中包含你的部署中的计算机和池的集合，或者在全局范围内、部署中的所有计算机和池）。
 
-若要使用 Lync Server 命令行管理器配置集中式日志记录服务范围, 你必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制 (RBAC) 安全组的成员, 或者是包含以下项的自定义 RBAC 角色这两个组中的任何一个。 若要返回此 cmdlet 已分配到的所有 RBAC 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Lync Server 命令行管理程序或 Windows PowerShell 提示中运行以下命令:
+若要使用 Lync Server 命令行管理器配置集中式日志记录服务范围，你必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制（RBAC）安全组的成员，或者是包含以下项的自定义 RBAC 角色这两个组中的任何一个。 若要返回此 cmdlet 已分配到的所有 RBAC 角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Lync Server 命令行管理程序或 Windows PowerShell 提示中运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -49,7 +51,7 @@ _**主题上次修改时间:** 2014-02-04_
 
 
 > [!NOTE]
-> Windows PowerShell 通过使用 CLSController 提供了更多选项和其他不可用的配置选项。 CLSController 提供了一种快速、简洁的方法来运行命令, 但仅限于可用于 CLSController 的命令集。 Windows PowerShell 不仅限于 CLSController 的命令处理器可用的命令, 并提供了更多的命令集和更丰富的选项集。 例如, CLSController 将为你提供-计算机和-池的范围选项。 使用 Windows PowerShell, 你可以在大多数命令中指示计算机或池, 并且当你定义新方案时 (CLSController 具有的用户不能更改的有限数量的方案), 你可以定义一个网站或全局范围。 Windows PowerShell 的这一强大功能允许你定义网站或全局范围的方案, 但将实际日志记录限制到计算机或池。<BR>可以在 Windows PowerShell 或 CLSController 中运行的命令行命令之间存在基本差异。 Windows PowerShell 提供了一种丰富的方法来配置和定义方案, 并以一种有意义的方式重复使用这些方案来解决你的故障排除方案。 尽管 CLSController 提供了快速有效的发出命令和获得结果的方法，但 CLSController 的命令集受到您从命令行获得的有限数量的命令的限制。 与 Windows PowerShell cmdlet 不同, CLSController 无法定义新方案、网站或全局级别的管理范围, 以及无法动态配置的有限命令集的许多其他限制。 虽然 CLSController 提供快速执行的方法, 但 Windows PowerShell 提供了一种方法来扩展集中式日志记录服务功能, 而不是 CLSController 的可能性。
+> Windows PowerShell 通过使用 CLSController 提供了更多选项和其他不可用的配置选项。 CLSController 提供了一种快速、简洁的方法来运行命令，但仅限于可用于 CLSController 的命令集。 Windows PowerShell 不仅限于 CLSController 的命令处理器可用的命令，并提供了更多的命令集和更丰富的选项集。 例如，CLSController 将为你提供-计算机和-池的范围选项。 使用 Windows PowerShell，你可以在大多数命令中指示计算机或池，并且当你定义新方案时（CLSController 具有的用户不能更改的有限数量的方案），你可以定义一个网站或全局范围。 Windows PowerShell 的这一强大功能允许你定义网站或全局范围的方案，但将实际日志记录限制到计算机或池。<BR>可以在 Windows PowerShell 或 CLSController 中运行的命令行命令之间存在基本差异。 Windows PowerShell 提供了一种丰富的方法来配置和定义方案，并以一种有意义的方式重复使用这些方案来解决你的故障排除方案。 尽管 CLSController 提供了快速有效的发出命令和获得结果的方法，但 CLSController 的命令集受到您从命令行获得的有限数量的命令的限制。 与 Windows PowerShell cmdlet 不同，CLSController 无法定义新方案、网站或全局级别的管理范围，以及无法动态配置的有限命令集的许多其他限制。 虽然 CLSController 提供快速执行的方法，但 Windows PowerShell 提供了一种方法来扩展集中式日志记录服务功能，而不是 CLSController 的可能性。
 
 
 
@@ -83,7 +85,7 @@ _**主题上次修改时间:** 2014-02-04_
 
 ## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>检索当前集中式日志记录服务配置
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
@@ -93,7 +95,7 @@ _**主题上次修改时间:** 2014-02-04_
 
 当运行 **Get-CsClsConfiguration** 时，它将显示类似于下面的屏幕快照的信息，其中，部署当前具有默认的全局配置，但未定义站点配置：
 
-![CsClsConfiguration 的示例输出。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "CsClsConfiguration 的示例输出。")
+![来自 Get-CsClsConfiguration 的示例输出。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "来自 Get-CsClsConfiguration 的示例输出。")
 
 </div>
 
@@ -101,13 +103,13 @@ _**主题上次修改时间:** 2014-02-04_
 
 ## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>从计算机本地应用商店检索当前集中式日志记录服务配置
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
         Get-CsClsConfiguration -LocalStore
 
-使用**CsClsConfiguration**未指定任何参数的第一个示例时, 该命令将引用数据的中央管理存储。 如果你指定参数-LocalStore, 该命令将引用计算机 LocalStore, 而不是中央管理存储。
+使用**CsClsConfiguration**未指定任何参数的第一个示例时，该命令将引用数据的中央管理存储。 如果你指定参数-LocalStore，该命令将引用计算机 LocalStore，而不是中央管理存储。
 
 </div>
 
@@ -115,7 +117,7 @@ _**主题上次修改时间:** 2014-02-04_
 
 ## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>检索当前定义的方案的列表
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
@@ -133,7 +135,7 @@ cmdlet **Get-CsClsConfiguration** 始终显示作为给定作用域的配置的�
 
 ## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>使用 Windows PowerShell 更新集中日志记录服务的全局范围
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
@@ -151,7 +153,7 @@ cmdlet **Get-CsClsConfiguration** 始终显示作为给定作用域的配置的�
 
 ## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>使用 Windows PowerShell 更新集中日志记录服务的网站范围
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
@@ -178,7 +180,7 @@ cmdlet **Get-CsClsConfiguration** 始终显示作为给定作用域的配置的�
 
 ## <a name="to-create-a-new-centralized-logging-service-configuration"></a>创建新的集中式日志记录服务配置
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
@@ -188,7 +190,7 @@ cmdlet **Get-CsClsConfiguration** 始终显示作为给定作用域的配置的�
     
 
     > [!NOTE]
-    > 利用 New-CsClsConfiguration，可以访问大量可选配置设置。 有关配置选项的详细信息, 请参阅<A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">CsClsConfiguration</A>和<A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">了解 Lync Server 2013 中的集中日志记录服务配置设置</A>。
+    > 利用 New-CsClsConfiguration，可以访问大量可选配置设置。 有关配置选项的详细信息，请参阅<A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">CsClsConfiguration</A>和<A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">了解 Lync Server 2013 中的集中日志记录服务配置设置</A>。
 
     
     </div>
@@ -205,13 +207,13 @@ cmdlet **Get-CsClsConfiguration** 始终显示作为给定作用域的配置的�
 
 ## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>删除现有的集中日志记录服务配置
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  在命令行提示符处键入以下内容：
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    例如, 若要删除你创建的集中日志记录服务配置以增加日志文件滚动更新时间, 请增加滚动更新日志文件大小, 并将日志文件缓存位置设置为网络共享, 如下所示:
+    例如，若要删除你创建的集中日志记录服务配置以增加日志文件滚动更新时间，请增加滚动更新日志文件大小，并将日志文件缓存位置设置为网络共享，如下所示：
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
