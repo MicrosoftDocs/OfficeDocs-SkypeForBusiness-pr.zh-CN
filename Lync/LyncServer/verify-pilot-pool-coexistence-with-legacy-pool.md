@@ -3,6 +3,8 @@ title: 验证试点池与旧池的共存情况
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845071"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="0f28c-102">验证试点池与旧池的共存情况</span><span class="sxs-lookup"><span data-stu-id="0f28c-102">Verify pilot pool coexistence with legacy pool</span></span>
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="e3411-102">验证试点池与旧池的共存情况</span><span class="sxs-lookup"><span data-stu-id="e3411-102">Verify pilot pool coexistence with legacy pool</span></span>
 
 </div>
 
@@ -33,61 +35,61 @@ ms.locfileid: "34845071"
 
 <span> </span>
 
-<span data-ttu-id="0f28c-103">_**主题上次修改时间:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="0f28c-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="e3411-103">_**主题上次修改时间：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="e3411-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="0f28c-104">部署试验池后, 您需要通过使用管理工具查看池信息来验证两个池的共存。</span><span class="sxs-lookup"><span data-stu-id="0f28c-104">After you deploy the pilot pool, you need to verify the coexistence of the two pools by using the administrative tools to view the pool information.</span></span> <span data-ttu-id="0f28c-105">对于 Lync Server 2013 池和旧版池, 必须使用 Lync Server 2013 控制面板和拓扑生成器工具。</span><span class="sxs-lookup"><span data-stu-id="0f28c-105">For the Lync Server 2013 pools and legacy pools, you must use the Lync Server 2013 Control Panel and Topology Builder tools.</span></span>
+<span data-ttu-id="e3411-104">部署试验池后，您需要通过使用管理工具查看池信息来验证两个池的共存。</span><span class="sxs-lookup"><span data-stu-id="e3411-104">After you deploy the pilot pool, you need to verify the coexistence of the two pools by using the administrative tools to view the pool information.</span></span> <span data-ttu-id="e3411-105">对于 Lync Server 2013 池和旧版池，必须使用 Lync Server 2013 控制面板和拓扑生成器工具。</span><span class="sxs-lookup"><span data-stu-id="e3411-105">For the Lync Server 2013 pools and legacy pools, you must use the Lync Server 2013 Control Panel and Topology Builder tools.</span></span>
 
 <div>
 
-## <a name="verify-that-lync-server-2013-services-have-started"></a><span data-ttu-id="0f28c-106">验证 Lync Server 2013 服务是否已启动</span><span class="sxs-lookup"><span data-stu-id="0f28c-106">Verify that Lync Server 2013 services have started</span></span>
+## <a name="verify-that-lync-server-2013-services-have-started"></a><span data-ttu-id="e3411-106">验证 Lync Server 2013 服务是否已启动</span><span class="sxs-lookup"><span data-stu-id="e3411-106">Verify that Lync Server 2013 services have started</span></span>
 
-1.  <span data-ttu-id="0f28c-107">从 Lync Server 2013 前端服务器, 导航到 "管理工具\\服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="0f28c-107">From the Lync Server 2013 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
+1.  <span data-ttu-id="e3411-107">从 Lync Server 2013 前端服务器，导航到 "管理工具\\服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="e3411-107">From the Lync Server 2013 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
 
-2.  <span data-ttu-id="0f28c-108">验证以下服务是否在前端服务器上运行:</span><span class="sxs-lookup"><span data-stu-id="0f28c-108">Verify that the following services are running on the Front End Server:</span></span>
+2.  <span data-ttu-id="e3411-108">验证以下服务是否在前端服务器上运行：</span><span class="sxs-lookup"><span data-stu-id="e3411-108">Verify that the following services are running on the Front End Server:</span></span>
 
-<span data-ttu-id="0f28c-109">**Lync Server 2013 服务**</span><span class="sxs-lookup"><span data-stu-id="0f28c-109">**Lync Server 2013 services**</span></span>
+<span data-ttu-id="e3411-109">**Lync Server 2013 服务**</span><span class="sxs-lookup"><span data-stu-id="e3411-109">**Lync Server 2013 services**</span></span>
 
-<span data-ttu-id="0f28c-110">![Lync Server 服务已启动列表](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lync Server 服务已启动列表")</span><span class="sxs-lookup"><span data-stu-id="0f28c-110">![List of Lync Server Services Started](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "List of Lync Server Services Started")</span></span>
+<span data-ttu-id="e3411-110">![Lync Server 服务已启动列表](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lync Server 服务已启动列表")</span><span class="sxs-lookup"><span data-stu-id="e3411-110">![List of Lync Server Services Started](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "List of Lync Server Services Started")</span></span>
 
 </div>
 
 <div>
 
-## <a name="open-the-lync-server-2013-control-panel"></a><span data-ttu-id="0f28c-111">打开 "Lync Server 2013 控制面板"</span><span class="sxs-lookup"><span data-stu-id="0f28c-111">Open the Lync Server 2013 Control Panel</span></span>
+## <a name="open-the-lync-server-2013-control-panel"></a><span data-ttu-id="e3411-111">打开 "Lync Server 2013 控制面板"</span><span class="sxs-lookup"><span data-stu-id="e3411-111">Open the Lync Server 2013 Control Panel</span></span>
 
-<span data-ttu-id="0f28c-112">在 Lync Server 2013 部署的前端服务器中, 打开 Lync Server 2013 控制面板, 然后选择 "Lync Server 2010" 池。</span><span class="sxs-lookup"><span data-stu-id="0f28c-112">From the Front End Server in your Lync Server 2013 deployment, open the Lync Server 2013 Control Panel and select the Lync Server 2010 pool.</span></span> <span data-ttu-id="0f28c-113">重复该过程以打开 Lync Server 2013 池。</span><span class="sxs-lookup"><span data-stu-id="0f28c-113">Repeat the procedure to open the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="e3411-112">在 Lync Server 2013 部署的前端服务器中，打开 Lync Server 2013 控制面板，然后选择 "Lync Server 2010" 池。</span><span class="sxs-lookup"><span data-stu-id="e3411-112">From the Front End Server in your Lync Server 2013 deployment, open the Lync Server 2013 Control Panel and select the Lync Server 2010 pool.</span></span> <span data-ttu-id="e3411-113">重复该过程以打开 Lync Server 2013 池。</span><span class="sxs-lookup"><span data-stu-id="e3411-113">Repeat the procedure to open the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="0f28c-114">**打开 Lync Server 2013 控制面板**</span><span class="sxs-lookup"><span data-stu-id="0f28c-114">**Open Lync Server 2013 Control Panel**</span></span>
+<span data-ttu-id="e3411-114">**打开 Lync Server 2013 控制面板**</span><span class="sxs-lookup"><span data-stu-id="e3411-114">**Open Lync Server 2013 Control Panel**</span></span>
 
-<span data-ttu-id="0f28c-115">!["选择 URL" 对话框](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "\"选择 URL\" 对话框")</span><span class="sxs-lookup"><span data-stu-id="0f28c-115">![Select URL dialog box](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Select URL dialog box")</span></span>
+<span data-ttu-id="e3411-115">!["选择 URL" 对话框](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png ""选择 URL" 对话框")</span><span class="sxs-lookup"><span data-stu-id="e3411-115">![Select URL dialog box](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Select URL dialog box")</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="0f28c-116">在 Lync Server 2013 上, 必须先将 Silverlight 升级到 Silverlight 版本 5, 然后再使用 Lync Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="0f28c-116">On Lync Server 2013, you must upgrade Silverlight to Silverlight version 5 prior to using the Lync Server Control Panel.</span></span>
+> <span data-ttu-id="e3411-116">在 Lync Server 2013 上，必须先将 Silverlight 升级到 Silverlight 版本5，然后再使用 Lync Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="e3411-116">On Lync Server 2013, you must upgrade Silverlight to Silverlight version 5 prior to using the Lync Server Control Panel.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="0f28c-117">此拓扑现在包括 Lync Server 2010 和 Lync Server 2013 服务器角色。</span><span class="sxs-lookup"><span data-stu-id="0f28c-117">This topology now includes Lync Server 2010 and Lync Server 2013 server roles.</span></span>
+<span data-ttu-id="e3411-117">此拓扑现在包括 Lync Server 2010 和 Lync Server 2013 服务器角色。</span><span class="sxs-lookup"><span data-stu-id="e3411-117">This topology now includes Lync Server 2010 and Lync Server 2013 server roles.</span></span>
 
-<span data-ttu-id="0f28c-118">**Lync Server 2013 控制面板拓扑页面**</span><span class="sxs-lookup"><span data-stu-id="0f28c-118">**Lync Server 2013 Control Panel Topology page**</span></span>
+<span data-ttu-id="e3411-118">**Lync Server 2013 控制面板拓扑页面**</span><span class="sxs-lookup"><span data-stu-id="e3411-118">**Lync Server 2013 Control Panel Topology page**</span></span>
 
-<span data-ttu-id="0f28c-119">![Lync Server "控制面板"-拓扑页面](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server \"控制面板\"-拓扑页面")</span><span class="sxs-lookup"><span data-stu-id="0f28c-119">![Lync Server Control Panel - Topology page](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server Control Panel - Topology page")</span></span>
+<span data-ttu-id="e3411-119">![Lync Server "控制面板"-拓扑页面](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server "控制面板"-拓扑页面")</span><span class="sxs-lookup"><span data-stu-id="e3411-119">![Lync Server Control Panel - Topology page](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server Control Panel - Topology page")</span></span>
 
 </div>
 
 <div>
 
-## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a><span data-ttu-id="0f28c-120">不要尝试在 Lync Server 2010 拓扑生成器中打开拓扑</span><span class="sxs-lookup"><span data-stu-id="0f28c-120">Don’t attempt to open the topology in Lync Server 2010 Topology Builder</span></span>
+## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a><span data-ttu-id="e3411-120">不要尝试在 Lync Server 2010 拓扑生成器中打开拓扑</span><span class="sxs-lookup"><span data-stu-id="e3411-120">Don’t attempt to open the topology in Lync Server 2010 Topology Builder</span></span>
 
-<span data-ttu-id="0f28c-121">如果您尝试使用 Lync Server 2010 拓扑生成器打开拓扑, 则会遇到以下错误。</span><span class="sxs-lookup"><span data-stu-id="0f28c-121">If you attempt to open the topology using Lync Server 2010 Topology Builder, you will encounter the error below.</span></span> <span data-ttu-id="0f28c-122">拓扑仅可使用 Lync Server 2013 拓扑生成器进行查看。</span><span class="sxs-lookup"><span data-stu-id="0f28c-122">The topology can only be viewed using Lync Server 2013 Topology Builder.</span></span> <span data-ttu-id="0f28c-123">Lync server 2013 拓扑生成器必须用于为 Lync Server 2013 和 Lync Server 2010 创建池。</span><span class="sxs-lookup"><span data-stu-id="0f28c-123">The Lync Server 2013 Topology Builder must be used to create pools for both Lync Server 2013 and Lync Server 2010.</span></span>
+<span data-ttu-id="e3411-121">如果您尝试使用 Lync Server 2010 拓扑生成器打开拓扑，则会遇到以下错误。</span><span class="sxs-lookup"><span data-stu-id="e3411-121">If you attempt to open the topology using Lync Server 2010 Topology Builder, you will encounter the error below.</span></span> <span data-ttu-id="e3411-122">拓扑仅可使用 Lync Server 2013 拓扑生成器进行查看。</span><span class="sxs-lookup"><span data-stu-id="e3411-122">The topology can only be viewed using Lync Server 2013 Topology Builder.</span></span> <span data-ttu-id="e3411-123">Lync server 2013 拓扑生成器必须用于为 Lync Server 2013 和 Lync Server 2010 创建池。</span><span class="sxs-lookup"><span data-stu-id="e3411-123">The Lync Server 2013 Topology Builder must be used to create pools for both Lync Server 2013 and Lync Server 2010.</span></span>
 
-<span data-ttu-id="0f28c-124">**Lync Server 2010 拓扑生成器错误消息**</span><span class="sxs-lookup"><span data-stu-id="0f28c-124">**Lync Server 2010 Topology Builder error message**</span></span>
+<span data-ttu-id="e3411-124">**Lync Server 2010 拓扑生成器错误消息**</span><span class="sxs-lookup"><span data-stu-id="e3411-124">**Lync Server 2010 Topology Builder error message**</span></span>
 
-<span data-ttu-id="0f28c-125">![Lync Server 拓扑生成器 MMC 贴靠错误](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 拓扑生成器 MMC 贴靠错误")</span><span class="sxs-lookup"><span data-stu-id="0f28c-125">![Lync Server Topology Builder MMC Snap Error](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server Topology Builder MMC Snap Error")</span></span>
+<span data-ttu-id="e3411-125">![Lync Server 拓扑生成器 MMC 贴靠错误](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 拓扑生成器 MMC 贴靠错误")</span><span class="sxs-lookup"><span data-stu-id="e3411-125">![Lync Server Topology Builder MMC Snap Error](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server Topology Builder MMC Snap Error")</span></span>
 
 </div>
 

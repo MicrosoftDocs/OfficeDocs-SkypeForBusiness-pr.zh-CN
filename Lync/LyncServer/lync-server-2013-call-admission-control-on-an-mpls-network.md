@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 在 MPLS 网络上呼叫许可控制'
+title: Lync Server 2013：在 MPLS 网络上呼叫许可控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control on an MPLS network
 ms:assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398168(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee138a0f61bace067db12c9df4f06338aa13ac8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ff730e64b7c7a63e277e73fa082f6d9d4e1ca3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837707"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34837707"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a><span data-ttu-id="95ec1-102">使用 Lync Server 2013 在 MPLS 网络上呼叫许可控制</span><span class="sxs-lookup"><span data-stu-id="95ec1-102">Call admission control on an MPLS network with Lync Server 2013</span></span>
+# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a><span data-ttu-id="ec94c-102">使用 Lync Server 2013 在 MPLS 网络上呼叫许可控制</span><span class="sxs-lookup"><span data-stu-id="ec94c-102">Call admission control on an MPLS network with Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34837707"
 
 <span> </span>
 
-<span data-ttu-id="95ec1-103">_**主题上次修改时间:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="95ec1-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="ec94c-103">_**主题上次修改时间：** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="ec94c-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="95ec1-p101">在多协议标签交换 (MPLS) 网络中，所有站点均以全连通的方式连接。也就是说，所有站点都直接连接到 Internet 服务提供商的 MPLS 主干线，并且每个站点都设置了带宽，以用于通过 WAN 链路连接到 MPLS 云。没有控制 IP 路由的网络集线器或中心站点。下图显示了基于 MPLS 技术的简单网络。</span><span class="sxs-lookup"><span data-stu-id="95ec1-p101">In a Multiprotocol Label Switching (MPLS) network, all sites are connected by a full-mesh. That is, all sites are connected directly to the MPLS backbone of the Internet service provider, and each site is provisioned bandwidth to be used across a WAN link to the MPLS cloud. There is no network hub or central site to control IP routing. The following figure shows a simple network based on MPLS technology.</span></span>
+<span data-ttu-id="ec94c-p101">在多协议标签交换 (MPLS) 网络中，所有站点均以全连通的方式连接。也就是说，所有站点都直接连接到 Internet 服务提供商的 MPLS 主干线，并且每个站点都设置了带宽，以用于通过 WAN 链路连接到 MPLS 云。没有控制 IP 路由的网络集线器或中心站点。下图显示了基于 MPLS 技术的简单网络。</span><span class="sxs-lookup"><span data-stu-id="ec94c-p101">In a Multiprotocol Label Switching (MPLS) network, all sites are connected by a full-mesh. That is, all sites are connected directly to the MPLS backbone of the Internet service provider, and each site is provisioned bandwidth to be used across a WAN link to the MPLS cloud. There is no network hub or central site to control IP routing. The following figure shows a simple network based on MPLS technology.</span></span>
 
-<span data-ttu-id="95ec1-108">**MPLS 网络示例**</span><span class="sxs-lookup"><span data-stu-id="95ec1-108">**Example MPLS network**</span></span>
+<span data-ttu-id="ec94c-108">**MPLS 网络示例**</span><span class="sxs-lookup"><span data-stu-id="ec94c-108">**Example MPLS network**</span></span>
 
-<span data-ttu-id="95ec1-109">![带有 MPLS 的 CAC](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "带有 MPLS 的 CAC")</span><span class="sxs-lookup"><span data-stu-id="95ec1-109">![CAC with MPLS](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "CAC with MPLS")</span></span>
+<span data-ttu-id="ec94c-109">![使用 MPLS 的 CAC](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "使用 MPLS 的 CAC")</span><span class="sxs-lookup"><span data-stu-id="ec94c-109">![CAC with MPLS](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "CAC with MPLS")</span></span>
 
-<span data-ttu-id="95ec1-p102">要在 MPLS 网络中部署呼叫允许控制 (CAC)，需创建代表 MPLS 云的网络区域，以及代表每个 MPLS 分支站点的网络站点。下图说明如何配置代表上图中的示例 MPLS 网络的网络区域和网络站点。之后，总体带宽限制和带宽会话限制将取决于从每个网络站点连接到代表 MPLS 云的网络区域的 WAN 链路容量。</span><span class="sxs-lookup"><span data-stu-id="95ec1-p102">To deploy call admission control (CAC) in an MPLS network, you create a network region to represent the MPLS cloud, and create a network site to represent each MPLS satellite site. The following figure illustrates how the network region and network sites should be configured to represent the example MPLS network in the previous figure. The overall bandwidth limits and bandwidth session limits are then based on the capacity of the WAN link from each network site to the network region that represents the MPLS cloud.</span></span>
+<span data-ttu-id="ec94c-p102">要在 MPLS 网络中部署呼叫允许控制 (CAC)，需创建代表 MPLS 云的网络区域，以及代表每个 MPLS 分支站点的网络站点。下图说明如何配置代表上图中的示例 MPLS 网络的网络区域和网络站点。之后，总体带宽限制和带宽会话限制将取决于从每个网络站点连接到代表 MPLS 云的网络区域的 WAN 链路容量。</span><span class="sxs-lookup"><span data-stu-id="ec94c-p102">To deploy call admission control (CAC) in an MPLS network, you create a network region to represent the MPLS cloud, and create a network site to represent each MPLS satellite site. The following figure illustrates how the network region and network sites should be configured to represent the example MPLS network in the previous figure. The overall bandwidth limits and bandwidth session limits are then based on the capacity of the WAN link from each network site to the network region that represents the MPLS cloud.</span></span>
 
-<span data-ttu-id="95ec1-113">**MPLS 网络的网络区域和网络站点**</span><span class="sxs-lookup"><span data-stu-id="95ec1-113">**Network region and network sites for an MPLS network**</span></span>
+<span data-ttu-id="ec94c-113">**MPLS 网络的网络区域和网络站点**</span><span class="sxs-lookup"><span data-stu-id="ec94c-113">**Network region and network sites for an MPLS network**</span></span>
 
-<span data-ttu-id="95ec1-114">![通过 MPLS 图呼叫许可控制 (CAC)](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "通过 MPLS 图呼叫许可控制 (CAC)")</span><span class="sxs-lookup"><span data-stu-id="95ec1-114">![Call Admission Control (CAC) with MPLS diagram](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Call Admission Control (CAC) with MPLS diagram")</span></span>
+<span data-ttu-id="ec94c-114">![使用 MPLS 的呼叫允许控制 (CAC) 图](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "使用 MPLS 的呼叫允许控制 (CAC) 图")</span><span class="sxs-lookup"><span data-stu-id="ec94c-114">![Call Admission Control (CAC) with MPLS diagram](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Call Admission Control (CAC) with MPLS diagram")</span></span>
 
 </div>
 
