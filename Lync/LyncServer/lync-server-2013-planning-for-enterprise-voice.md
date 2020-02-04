@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划企业语音'
+title: Lync Server 2013：规划企业语音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Enterprise Voice
 ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29732d1690e1934f811df6fc448596e987205791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 83b0ec944ad857ffccb419cf9ed36fbca92306c8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824846"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41753252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824846"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="265ab-102">在 Lync Server 2013 中规划企业语音</span><span class="sxs-lookup"><span data-stu-id="265ab-102">Planning for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="a8e17-102">在 Lync Server 2013 中规划企业语音</span><span class="sxs-lookup"><span data-stu-id="a8e17-102">Planning for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,49 +35,49 @@ ms.locfileid: "34824846"
 
 <span> </span>
 
-<span data-ttu-id="265ab-103">_**主题上次修改时间:** 2013-11-01_</span><span class="sxs-lookup"><span data-stu-id="265ab-103">_**Topic Last Modified:** 2013-11-01_</span></span>
+<span data-ttu-id="a8e17-103">_**主题上次修改时间：** 2013-11-01_</span><span class="sxs-lookup"><span data-stu-id="a8e17-103">_**Topic Last Modified:** 2013-11-01_</span></span>
 
-<span data-ttu-id="265ab-104">企业语音的部署过程取决于你的现有拓扑、基础结构和你希望支持的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="265ab-104">The deployment process for Enterprise Voice depends on your existing topology, infrastructure, and the Enterprise Voice functionality that you want to support.</span></span> <span data-ttu-id="265ab-105">所需过程将取决于您选择的功能，但还有另一些规划注意事项需要您重点关注。</span><span class="sxs-lookup"><span data-stu-id="265ab-105">The required procedures will depend on what features you choose, but there are other planning considerations that you must make at a high level.</span></span>
+<span data-ttu-id="a8e17-104">企业语音的部署过程取决于你的现有拓扑、基础结构和你希望支持的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="a8e17-104">The deployment process for Enterprise Voice depends on your existing topology, infrastructure, and the Enterprise Voice functionality that you want to support.</span></span> <span data-ttu-id="a8e17-105">所需过程将取决于您选择的功能，但还有另一些规划注意事项需要您重点关注。</span><span class="sxs-lookup"><span data-stu-id="a8e17-105">The required procedures will depend on what features you choose, but there are other planning considerations that you must make at a high level.</span></span>
 
-<span data-ttu-id="265ab-106">通常, 请考虑要部署的网站的类型和数量以及它们的地理位置、每个网站的调用卷、连接网站的网络链接的类型, 无论你是否希望为每个网站提供语音功能的冗余和故障转移网站, 以及是否希望使用现有的 PBX 设备。</span><span class="sxs-lookup"><span data-stu-id="265ab-106">In general, consider the type and number of sites that you want to deploy and their geographical locations, the call volume at each site, the types of network links that connect sites, whether you want to provide redundancy and failover for voice functionality for each site, and whether you want to use existing PBX equipment.</span></span> <span data-ttu-id="265ab-107">在规划 Lync Server 通信软件的整体时, 应考虑以下一些事项 (如高可用性)。</span><span class="sxs-lookup"><span data-stu-id="265ab-107">There are certain considerations, such as high availability, that you should consider when you plan for Lync Server  communications software as a whole.</span></span> <span data-ttu-id="265ab-108">这些注意事项将根据需要在本部分中的主题中进行讨论。</span><span class="sxs-lookup"><span data-stu-id="265ab-108">These considerations are discussed in topics throughout this section, as needed.</span></span>
+<span data-ttu-id="a8e17-106">通常，请考虑要部署的网站的类型和数量以及它们的地理位置、每个网站的调用卷、连接网站的网络链接的类型，无论你是否希望为每个网站提供语音功能的冗余和故障转移网站，以及是否希望使用现有的 PBX 设备。</span><span class="sxs-lookup"><span data-stu-id="a8e17-106">In general, consider the type and number of sites that you want to deploy and their geographical locations, the call volume at each site, the types of network links that connect sites, whether you want to provide redundancy and failover for voice functionality for each site, and whether you want to use existing PBX equipment.</span></span> <span data-ttu-id="a8e17-107">在规划 Lync Server 通信软件的整体时，应考虑以下一些事项（如高可用性）。</span><span class="sxs-lookup"><span data-stu-id="a8e17-107">There are certain considerations, such as high availability, that you should consider when you plan for Lync Server  communications software as a whole.</span></span> <span data-ttu-id="a8e17-108">这些注意事项将根据需要在本部分中的主题中进行讨论。</span><span class="sxs-lookup"><span data-stu-id="a8e17-108">These considerations are discussed in topics throughout this section, as needed.</span></span>
 
 <div>
 
-## <a name="planning-considerations"></a><span data-ttu-id="265ab-109">规划注意事项</span><span class="sxs-lookup"><span data-stu-id="265ab-109">Planning Considerations</span></span>
+## <a name="planning-considerations"></a><span data-ttu-id="a8e17-109">规划注意事项</span><span class="sxs-lookup"><span data-stu-id="a8e17-109">Planning Considerations</span></span>
 
-<span data-ttu-id="265ab-110">有关特定企业语音功能或组件部署的计划决策, 请参阅本部分中的主题。</span><span class="sxs-lookup"><span data-stu-id="265ab-110">For planning decisions that pertain to the deployment of a particular Enterprise Voice capability or deployment scenario or component, consult the topics in this section.</span></span>
+<span data-ttu-id="a8e17-110">有关特定企业语音功能或组件部署的计划决策，请参阅本部分中的主题。</span><span class="sxs-lookup"><span data-stu-id="a8e17-110">For planning decisions that pertain to the deployment of a particular Enterprise Voice capability or deployment scenario or component, consult the topics in this section.</span></span>
 
-  - [<span data-ttu-id="265ab-111">在 Lync Server 2013 中定义企业语音要求</span><span class="sxs-lookup"><span data-stu-id="265ab-111">Defining your requirements for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
+  - [<span data-ttu-id="a8e17-111">在 Lync Server 2013 中定义企业语音要求</span><span class="sxs-lookup"><span data-stu-id="a8e17-111">Defining your requirements for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="265ab-112">估计 Lync Server 2013 的语音使用和流量</span><span class="sxs-lookup"><span data-stu-id="265ab-112">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [<span data-ttu-id="a8e17-112">估计 Lync Server 2013 的语音使用和流量</span><span class="sxs-lookup"><span data-stu-id="a8e17-112">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [<span data-ttu-id="265ab-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="265ab-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [<span data-ttu-id="a8e17-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8e17-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [<span data-ttu-id="265ab-114">Components required for Enterprise Voice in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="265ab-114">Components required for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [<span data-ttu-id="a8e17-114">Components required for Enterprise Voice in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8e17-114">Components required for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-components-required-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="265ab-115">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="265ab-115">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="a8e17-115">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="a8e17-115">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="265ab-116">在 Lync Server 2013 中规划 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="265ab-116">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="a8e17-116">在 Lync Server 2013 中规划 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="a8e17-116">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [<span data-ttu-id="265ab-117">在 Lync Server 2013 中规划呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="265ab-117">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
+  - [<span data-ttu-id="a8e17-117">在 Lync Server 2013 中规划呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="a8e17-117">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [<span data-ttu-id="265ab-118">在 Lync Server 2013 中规划紧急服务 (E9-1-1)</span><span class="sxs-lookup"><span data-stu-id="265ab-118">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [<span data-ttu-id="a8e17-118">在 Lync Server 2013 中规划紧急服务 (E9-1-1)</span><span class="sxs-lookup"><span data-stu-id="a8e17-118">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [<span data-ttu-id="265ab-119">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="265ab-119">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
+  - [<span data-ttu-id="a8e17-119">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="a8e17-119">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
 
-  - [<span data-ttu-id="265ab-120">在 Lync Server 2013 中规划私人电话线路</span><span class="sxs-lookup"><span data-stu-id="265ab-120">Planning for private telephone lines with Lync Server 2013</span></span>](lync-server-2013-planning-for-private-telephone-lines.md)
+  - [<span data-ttu-id="a8e17-120">在 Lync Server 2013 中规划私人电话线路</span><span class="sxs-lookup"><span data-stu-id="a8e17-120">Planning for private telephone lines with Lync Server 2013</span></span>](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [<span data-ttu-id="265ab-121">在 Lync Server 2013 中规划基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="265ab-121">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)
+  - [<span data-ttu-id="a8e17-121">在 Lync Server 2013 中规划基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="a8e17-121">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)
 
-  - [<span data-ttu-id="265ab-122">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="265ab-122">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="a8e17-122">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="a8e17-122">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="265ab-123">Lync Server 2013 中的企业语音部署准则</span><span class="sxs-lookup"><span data-stu-id="265ab-123">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
+  - [<span data-ttu-id="a8e17-123">Lync Server 2013 中的企业语音部署准则</span><span class="sxs-lookup"><span data-stu-id="a8e17-123">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="265ab-124">Lync Server 2013 中的企业语音部署过程概述</span><span class="sxs-lookup"><span data-stu-id="265ab-124">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
+  - [<span data-ttu-id="a8e17-124">Lync Server 2013 中的企业语音部署过程概述</span><span class="sxs-lookup"><span data-stu-id="a8e17-124">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="265ab-125">在 Lync Server 2013 中将用户迁移至企业语音</span><span class="sxs-lookup"><span data-stu-id="265ab-125">Moving users to Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-moving-users-to-enterprise-voice.md)
+  - [<span data-ttu-id="a8e17-125">在 Lync Server 2013 中将用户迁移至企业语音</span><span class="sxs-lookup"><span data-stu-id="a8e17-125">Moving users to Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [<span data-ttu-id="265ab-126">Lync Server 2013 中的 lync PreCall 诊断工具</span><span class="sxs-lookup"><span data-stu-id="265ab-126">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [<span data-ttu-id="a8e17-126">Lync Server 2013 中的 lync PreCall 诊断工具</span><span class="sxs-lookup"><span data-stu-id="a8e17-126">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>](lync-server-2013-lync-precall-diagnostics-tool.md)
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置 CAC 的网络区域'
+title: Lync Server 2013：配置 CAC 的网络区域
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network regions for CAC
 ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 773bae62596143c0e974ae02f2bd643172a99ac3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80a5ec8d02376ae084f1973f47690259cac364d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837344"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34837344"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a><span data-ttu-id="9ee0c-102">在 Lync Server 2013 中配置 CAC 的网络区域</span><span class="sxs-lookup"><span data-stu-id="9ee0c-102">Configure network regions for CAC in Lync Server 2013</span></span>
+# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a><span data-ttu-id="8a658-102">在 Lync Server 2013 中配置 CAC 的网络区域</span><span class="sxs-lookup"><span data-stu-id="8a658-102">Configure network regions for CAC in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,27 +35,27 @@ ms.locfileid: "34837344"
 
 <span> </span>
 
-<span data-ttu-id="9ee0c-103">_**主题上次修改时间:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="9ee0c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="8a658-103">_**主题上次修改时间：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8a658-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="9ee0c-104">如果你已为 E9 或 media 旁路创建了网络区域, 则可以通过使用<STRONG>CsNetworkRegion</STRONG> cmdlet 添加特定于呼叫许可控制 (CAC) 的设置来修改现有网络区域。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-104">If you have already created network regions for E9-1-1 or media bypass, you can modify the existing network regions by adding settings specific to call admission control (CAC) by using the <STRONG>Set-CsNetworkRegion</STRONG> cmdlet.</span></span> <span data-ttu-id="9ee0c-105">有关如何修改网络区域的示例, 请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中创建或修改网络区域</A>。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-105">For an example of how to modify a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="8a658-104">如果你已为 E9 或 media 旁路创建了网络区域，则可以通过使用<STRONG>CsNetworkRegion</STRONG> cmdlet 添加特定于呼叫许可控制（CAC）的设置来修改现有网络区域。</span><span class="sxs-lookup"><span data-stu-id="8a658-104">If you have already created network regions for E9-1-1 or media bypass, you can modify the existing network regions by adding settings specific to call admission control (CAC) by using the <STRONG>Set-CsNetworkRegion</STRONG> cmdlet.</span></span> <span data-ttu-id="8a658-105">有关如何修改网络区域的示例，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中创建或修改网络区域</A>。</span><span class="sxs-lookup"><span data-stu-id="8a658-105">For an example of how to modify a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="9ee0c-106">*网络区域*是用于配置 CAC、E9-1 和媒体旁路的网络中心或 backbones。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-106">*Network regions* are the network hubs or backbones that are used in configuring CAC, E9-1-1, and media bypass.</span></span> <span data-ttu-id="9ee0c-107">在 CAC 的示例网络拓扑中, 使用以下过程创建与网络区域对齐的网络区域。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-107">Use the following procedure to create network regions that align to network regions in the example network topology for CAC.</span></span> <span data-ttu-id="9ee0c-108">若要查看示例网络拓扑, 请参阅: 在规划文档中[收集 Lync Server 2013 中的呼叫许可控制要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-108">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="8a658-106">*网络区域*是用于配置 CAC、E9-1 和媒体旁路的网络中心或 backbones。</span><span class="sxs-lookup"><span data-stu-id="8a658-106">*Network regions* are the network hubs or backbones that are used in configuring CAC, E9-1-1, and media bypass.</span></span> <span data-ttu-id="8a658-107">在 CAC 的示例网络拓扑中，使用以下过程创建与网络区域对齐的网络区域。</span><span class="sxs-lookup"><span data-stu-id="8a658-107">Use the following procedure to create network regions that align to network regions in the example network topology for CAC.</span></span> <span data-ttu-id="8a658-108">若要查看示例网络拓扑，请参阅：在规划文档中[收集 Lync Server 2013 中的呼叫许可控制要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="8a658-108">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="9ee0c-109">CAC 的示例网络拓扑有三个区域: 北美洲、EMEA 和 APAC。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-109">The example network topology for CAC has three regions: North America, EMEA, and APAC.</span></span> <span data-ttu-id="9ee0c-110">每个区域都有一个指定的中心网站。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-110">Each region has a specified central site.</span></span> <span data-ttu-id="9ee0c-111">对于北美地区, 指定的中心网站称为芝加哥。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-111">For the North America region, the designated central site is named CHICAGO.</span></span> <span data-ttu-id="9ee0c-112">以下过程显示了如何使用**CsNetworkRegion** Cmdlet 创建北美区域的示例。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-112">The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.</span></span>
+<span data-ttu-id="8a658-109">CAC 的示例网络拓扑有三个区域：北美洲、EMEA 和 APAC。</span><span class="sxs-lookup"><span data-stu-id="8a658-109">The example network topology for CAC has three regions: North America, EMEA, and APAC.</span></span> <span data-ttu-id="8a658-110">每个区域都有一个指定的中心网站。</span><span class="sxs-lookup"><span data-stu-id="8a658-110">Each region has a specified central site.</span></span> <span data-ttu-id="8a658-111">对于北美地区，指定的中心网站称为芝加哥。</span><span class="sxs-lookup"><span data-stu-id="8a658-111">For the North America region, the designated central site is named CHICAGO.</span></span> <span data-ttu-id="8a658-112">以下过程显示了如何使用**CsNetworkRegion** Cmdlet 创建北美区域的示例。</span><span class="sxs-lookup"><span data-stu-id="8a658-112">The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9ee0c-113">在以下过程中, Lync Server Management Shell 用于创建网络区域。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-113">In the following procedure, Lync Server Management Shell is used to create a network region.</span></span> <span data-ttu-id="9ee0c-114">有关使用 Lync Server "控制面板" 创建网络区域的详细信息, 请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync server 2013 中创建或修改网络区域</A>。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-114">For details about using Lync Server Control Panel to create a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="8a658-113">在以下过程中，Lync Server Management Shell 用于创建网络区域。</span><span class="sxs-lookup"><span data-stu-id="8a658-113">In the following procedure, Lync Server Management Shell is used to create a network region.</span></span> <span data-ttu-id="8a658-114">有关使用 Lync Server "控制面板" 创建网络区域的详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync server 2013 中创建或修改网络区域</A>。</span><span class="sxs-lookup"><span data-stu-id="8a658-114">For details about using Lync Server Control Panel to create a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
 
 
 
@@ -61,15 +63,15 @@ ms.locfileid: "34837344"
 
 <div>
 
-## <a name="to-create-a-network-region-for-call-admission-control"></a><span data-ttu-id="9ee0c-115">为 "呼叫许可控制" 创建网络区域</span><span class="sxs-lookup"><span data-stu-id="9ee0c-115">To create a network region for call admission control</span></span>
+## <a name="to-create-a-network-region-for-call-admission-control"></a><span data-ttu-id="8a658-115">为 "呼叫许可控制" 创建网络区域</span><span class="sxs-lookup"><span data-stu-id="8a658-115">To create a network region for call admission control</span></span>
 
-1.  <span data-ttu-id="9ee0c-116">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="8a658-116">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="8a658-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="9ee0c-117">对于你需要创建的每个区域, 请运行**CsNetworkRegion** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-117">For each region that you need to create, run the **New-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="9ee0c-118">例如, 若要创建北美地区, 请运行:</span><span class="sxs-lookup"><span data-stu-id="9ee0c-118">For example, to create the North America region, run:</span></span>
+2.  <span data-ttu-id="8a658-117">对于你需要创建的每个区域，请运行**CsNetworkRegion** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8a658-117">For each region that you need to create, run the **New-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="8a658-118">例如，若要创建北美地区，请运行：</span><span class="sxs-lookup"><span data-stu-id="8a658-118">For example, to create the North America region, run:</span></span>
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  <span data-ttu-id="9ee0c-119">重复步骤2创建网络区域、EMEA 和 APAC。</span><span class="sxs-lookup"><span data-stu-id="9ee0c-119">Repeat step 2 to create the network regions, EMEA and APAC.</span></span>
+3.  <span data-ttu-id="8a658-119">重复步骤2创建网络区域、EMEA 和 APAC。</span><span class="sxs-lookup"><span data-stu-id="8a658-119">Repeat step 2 to create the network regions, EMEA and APAC.</span></span>
 
 </div>
 

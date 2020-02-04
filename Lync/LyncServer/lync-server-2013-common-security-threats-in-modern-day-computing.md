@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 现代日期计算中的常见安全威胁'
+title: Lync Server 2013：现代日期计算中的常见安全威胁
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common security threats in modern day computing
 ms:assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn433220(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 99e17f9f6dbba30697c72fecf77fbff4bfbdc003
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "35221361"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="common-security-threats-in-modern-day-computing"></a><span data-ttu-id="1e80a-102">现代日常计算中的常见安全威胁</span><span class="sxs-lookup"><span data-stu-id="1e80a-102">Common security threats in modern day computing</span></span>
+# <a name="common-security-threats-in-modern-day-computing"></a><span data-ttu-id="d0b9e-102">现代日常计算中的常见安全威胁</span><span class="sxs-lookup"><span data-stu-id="d0b9e-102">Common security threats in modern day computing</span></span>
 
 </div>
 
@@ -33,113 +35,113 @@ ms.locfileid: "35221361"
 
 <span> </span>
 
-<span data-ttu-id="1e80a-103">_**主题上次修改时间:** 2013-09-10_</span><span class="sxs-lookup"><span data-stu-id="1e80a-103">_**Topic Last Modified:** 2013-09-10_</span></span>
+<span data-ttu-id="d0b9e-103">_**主题上次修改时间：** 2013-09-10_</span><span class="sxs-lookup"><span data-stu-id="d0b9e-103">_**Topic Last Modified:** 2013-09-10_</span></span>
 
-<span data-ttu-id="1e80a-104">由于 Lync Server 2013 是企业级通信系统, 因此你应该知道可能会影响其基础结构和通信的常见安全攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-104">Because Lync Server 2013 is an enterprise-class communications system, you should be aware of common security attacks that could affect its infrastructure and communications.</span></span>
+<span data-ttu-id="d0b9e-104">由于 Lync Server 2013 是企业级通信系统，因此你应该知道可能会影响其基础结构和通信的常见安全攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-104">Because Lync Server 2013 is an enterprise-class communications system, you should be aware of common security attacks that could affect its infrastructure and communications.</span></span>
 
 <div>
 
-## <a name="compromised-key-attack"></a><span data-ttu-id="1e80a-105">破解密钥攻击</span><span class="sxs-lookup"><span data-stu-id="1e80a-105">Compromised-Key Attack</span></span>
+## <a name="compromised-key-attack"></a><span data-ttu-id="d0b9e-105">破解密钥攻击</span><span class="sxs-lookup"><span data-stu-id="d0b9e-105">Compromised-Key Attack</span></span>
 
-<span data-ttu-id="1e80a-p101">密钥是用于加密、解密或验证机密信息的机密代码或数字。必须考虑以下两种在公钥基础结构 (PKI) 中使用的机密密钥：</span><span class="sxs-lookup"><span data-stu-id="1e80a-p101">A key is a secret code or number that is used to encrypt, decrypt, or validate secret information. There are two sensitive keys in use in public key infrastructure (PKI) that must be considered: .</span></span>
+<span data-ttu-id="d0b9e-p101">密钥是用于加密、解密或验证机密信息的机密代码或数字。必须考虑以下两种在公钥基础结构 (PKI) 中使用的机密密钥：</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p101">A key is a secret code or number that is used to encrypt, decrypt, or validate secret information. There are two sensitive keys in use in public key infrastructure (PKI) that must be considered: .</span></span>
 
-  - <span data-ttu-id="1e80a-108">每个证书持有者都拥有的私钥</span><span class="sxs-lookup"><span data-stu-id="1e80a-108">The private key that each certificate holder has</span></span>
+  - <span data-ttu-id="d0b9e-108">每个证书持有者都拥有的私钥</span><span class="sxs-lookup"><span data-stu-id="d0b9e-108">The private key that each certificate holder has</span></span>
 
-  - <span data-ttu-id="1e80a-109">在成功识别身份后使用的会话密钥和通信双方交换的会话密钥</span><span class="sxs-lookup"><span data-stu-id="1e80a-109">The session key that is used after a successful identification and session key exchange by the communicating partners</span></span>
+  - <span data-ttu-id="d0b9e-109">在成功识别身份后使用的会话密钥和通信双方交换的会话密钥</span><span class="sxs-lookup"><span data-stu-id="d0b9e-109">The session key that is used after a successful identification and session key exchange by the communicating partners</span></span>
 
-<span data-ttu-id="1e80a-p102">破解密钥攻击是指攻击者破解私钥或会话密钥的行为。攻击者在成功破解密钥之后，可以使用此密钥对已加密的数据进行解密，而数据的发送者对此毫不知情。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p102">A compromised-key attack occurs when the attacker determines the private key or the session key. When the attacker is successful in determining the key, the attacker can use the key to decrypt encrypted data without the knowledge of the sender.</span></span>
+<span data-ttu-id="d0b9e-p102">破解密钥攻击是指攻击者破解私钥或会话密钥的行为。攻击者在成功破解密钥之后，可以使用此密钥对已加密的数据进行解密，而数据的发送者对此毫不知情。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p102">A compromised-key attack occurs when the attacker determines the private key or the session key. When the attacker is successful in determining the key, the attacker can use the key to decrypt encrypted data without the knowledge of the sender.</span></span>
 
-<span data-ttu-id="1e80a-112">Lync Server 2013 使用 Windows Server 操作系统中的 PKI 功能保护用于加密传输层安全 (TLS) 连接的密钥数据。</span><span class="sxs-lookup"><span data-stu-id="1e80a-112">Lync Server 2013 uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="1e80a-113">用于媒体加密的密钥通过 TLS 连接进行交换。</span><span class="sxs-lookup"><span data-stu-id="1e80a-113">The keys used for media encryption are exchanged over TLS connections.</span></span>
+<span data-ttu-id="d0b9e-112">Lync Server 2013 使用 Windows Server 操作系统中的 PKI 功能保护用于加密传输层安全（TLS）连接的密钥数据。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-112">Lync Server 2013 uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="d0b9e-113">用于媒体加密的密钥通过 TLS 连接进行交换。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-113">The keys used for media encryption are exchanged over TLS connections.</span></span>
 
 </div>
 
 <div>
 
-## <a name="network-denial-of-service-attack"></a><span data-ttu-id="1e80a-114">网络拒绝服务攻击</span><span class="sxs-lookup"><span data-stu-id="1e80a-114">Network Denial-of-Service Attack</span></span>
+## <a name="network-denial-of-service-attack"></a><span data-ttu-id="d0b9e-114">网络拒绝服务攻击</span><span class="sxs-lookup"><span data-stu-id="d0b9e-114">Network Denial-of-Service Attack</span></span>
 
-<span data-ttu-id="1e80a-p104">当攻击者阻止有效用户正常使用和运行网络时，将发生*拒绝服务攻击*。这是攻击者通过合法请求淹没服务并且让合法用户无法使用服务来完成的。使用拒绝服务攻击，攻击者可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="1e80a-p104">The *denial-of-service attack* occurs when the attacker prevents normal network use and function by valid users. This is done when the attacker floods the service with legitimate requests that overwhelm the use of the service by legitimate users. By using a denial-of-service attack, the attacker can do the following:</span></span>
+<span data-ttu-id="d0b9e-p104">当攻击者阻止有效用户正常使用和运行网络时，将发生*拒绝服务攻击*。这是攻击者通过合法请求淹没服务并且让合法用户无法使用服务来完成的。使用拒绝服务攻击，攻击者可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p104">The *denial-of-service attack* occurs when the attacker prevents normal network use and function by valid users. This is done when the attacker floods the service with legitimate requests that overwhelm the use of the service by legitimate users. By using a denial-of-service attack, the attacker can do the following:</span></span>
 
-  - <span data-ttu-id="1e80a-118">向受到攻击的网络中正在运行的应用程序和服务发送无效数据，干扰它们的正常工作。</span><span class="sxs-lookup"><span data-stu-id="1e80a-118">Send invalid data to applications and services running in the attacked network to disrupt their normal function.</span></span>
+  - <span data-ttu-id="d0b9e-118">向受到攻击的网络中正在运行的应用程序和服务发送无效数据，干扰它们的正常工作。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-118">Send invalid data to applications and services running in the attacked network to disrupt their normal function.</span></span>
 
-  - <span data-ttu-id="1e80a-119">发送大量流量以造成系统过载，直到系统停止对合理请求做出响应或对合理请求做出响应的速度变得很慢。</span><span class="sxs-lookup"><span data-stu-id="1e80a-119">Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.</span></span>
+  - <span data-ttu-id="d0b9e-119">发送大量流量以造成系统过载，直到系统停止对合理请求做出响应或对合理请求做出响应的速度变得很慢。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-119">Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.</span></span>
 
-  - <span data-ttu-id="1e80a-120">隐藏攻击证据。</span><span class="sxs-lookup"><span data-stu-id="1e80a-120">Hide the evidence of the attacks.</span></span>
+  - <span data-ttu-id="d0b9e-120">隐藏攻击证据。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-120">Hide the evidence of the attacks.</span></span>
 
-  - <span data-ttu-id="1e80a-121">阻止用户访问网络资源。</span><span class="sxs-lookup"><span data-stu-id="1e80a-121">Prevent users from accessing network resources.</span></span>
-
-</div>
-
-<div>
-
-## <a name="eavesdropping-sniffing-snooping"></a><span data-ttu-id="1e80a-122">窃听（监听、窥探）</span><span class="sxs-lookup"><span data-stu-id="1e80a-122">Eavesdropping (Sniffing, Snooping)</span></span>
-
-<span data-ttu-id="1e80a-p105">在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生*窃听*。窃听也称为*监听*或*窥探*。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p105">*Eavesdropping* can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called *sniffing* or *snooping*. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.</span></span>
-
-<span data-ttu-id="1e80a-127">Microsoft Lync Server 2013 中的流量的默认建议和设置是在受信任的服务器之间使用相互 TLS (MTLS), 从客户端到服务器使用 TLS。</span><span class="sxs-lookup"><span data-stu-id="1e80a-127">The default recommendation and setting for traffic within Microsoft Lync Server 2013 is to use mutual TLS (MTLS) between trusted servers and TLS from client to server.</span></span> <span data-ttu-id="1e80a-128">这种保护措施使得在发生给定对话的时间段内很难实现或不可能实现攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-128">This protective measure would make an attack very difficult or impossible to achieve within the time period in which a given conversation occurs.</span></span> <span data-ttu-id="1e80a-129">TLS 可对各方执行身份验证，并对所有流量内容进行加密。</span><span class="sxs-lookup"><span data-stu-id="1e80a-129">TLS authenticates all parties and encrypts all traffic.</span></span> <span data-ttu-id="1e80a-130">这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。</span><span class="sxs-lookup"><span data-stu-id="1e80a-130">This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.</span></span>
-
-<span data-ttu-id="1e80a-p107">使用中继 NAT (TURN) 协议不要求对流量内容进行加密，其发送的信息受消息完整性保护。尽管其发送的信息易受到窃听攻击，但只需通过查看数据包的源地址和目标地址即可直接提取该信息（即 IP 地址和端口）。A/V 边缘服务可通过检查消息的消息完整性来确保数据有效，方法是使用从少数几项（包括从不以明文格式发送的 TURN 密码）派生的密钥。如果使用安全实时协议 (SRTP)，则还要对媒体流量内容进行加密。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p107">The Traversal Using Relay NAT (TURN) protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, the IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The A/V Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.</span></span>
+  - <span data-ttu-id="d0b9e-121">阻止用户访问网络资源。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-121">Prevent users from accessing network resources.</span></span>
 
 </div>
 
 <div>
 
-## <a name="identity-spoofing-ip-address-spoofing"></a><span data-ttu-id="1e80a-135">身份欺骗（IP 地址欺骗）</span><span class="sxs-lookup"><span data-stu-id="1e80a-135">Identity Spoofing (IP Address Spoofing)</span></span>
+## <a name="eavesdropping-sniffing-snooping"></a><span data-ttu-id="d0b9e-122">窃听（监听、窥探）</span><span class="sxs-lookup"><span data-stu-id="d0b9e-122">Eavesdropping (Sniffing, Snooping)</span></span>
 
-<span data-ttu-id="1e80a-136">当攻击者在未经授权的情况下确定和使用网络、计算机或网络组件的 IP 地址时，会发生*欺骗*。</span><span class="sxs-lookup"><span data-stu-id="1e80a-136">*Spoofing* occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so.</span></span> <span data-ttu-id="1e80a-137">一旦攻击成功，攻击者便可以假借 IP 地址通常标识的实体的身份执行操作。</span><span class="sxs-lookup"><span data-stu-id="1e80a-137">A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address.</span></span> <span data-ttu-id="1e80a-138">在 Microsoft Lync Server 2013 的上下文中, 仅当管理员已执行以下两项操作时, 才会播放此情况:</span><span class="sxs-lookup"><span data-stu-id="1e80a-138">Within the context of Microsoft Lync Server 2013, this situation comes into play only if an administrator has done both of the following:</span></span>
+<span data-ttu-id="d0b9e-p105">在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生*窃听*。窃听也称为*监听*或*窥探*。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p105">*Eavesdropping* can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called *sniffing* or *snooping*. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.</span></span>
 
-  - <span data-ttu-id="1e80a-139">已配置仅支持传输控制协议 (TCP) 的连接（建议不要这样做，因为 TCP 通信未经过加密）。</span><span class="sxs-lookup"><span data-stu-id="1e80a-139">Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted).</span></span>
+<span data-ttu-id="d0b9e-127">Microsoft Lync Server 2013 中的流量的默认建议和设置是在受信任的服务器之间使用相互 TLS （MTLS），从客户端到服务器使用 TLS。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-127">The default recommendation and setting for traffic within Microsoft Lync Server 2013 is to use mutual TLS (MTLS) between trusted servers and TLS from client to server.</span></span> <span data-ttu-id="d0b9e-128">这种保护措施使得在发生给定对话的时间段内很难实现或不可能实现攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-128">This protective measure would make an attack very difficult or impossible to achieve within the time period in which a given conversation occurs.</span></span> <span data-ttu-id="d0b9e-129">TLS 可对各方执行身份验证，并对所有流量内容进行加密。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-129">TLS authenticates all parties and encrypts all traffic.</span></span> <span data-ttu-id="d0b9e-130">这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-130">This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.</span></span>
 
-  - <span data-ttu-id="1e80a-140">将这些连接的 IP 地址标记为受信任的主机。</span><span class="sxs-lookup"><span data-stu-id="1e80a-140">Marked the IP addresses of those connections as trusted hosts.</span></span>
-
-<span data-ttu-id="1e80a-141">此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。</span><span class="sxs-lookup"><span data-stu-id="1e80a-141">This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic.</span></span> <span data-ttu-id="1e80a-142">使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-142">Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections).</span></span> <span data-ttu-id="1e80a-143">但是, 攻击者仍然可以欺骗 Lync Server 2013 使用的 DNS 服务器的地址。</span><span class="sxs-lookup"><span data-stu-id="1e80a-143">But an attacker could still spoof the address of the DNS server that Lync Server 2013 uses.</span></span> <span data-ttu-id="1e80a-144">但是, 由于 Lync 中的身份验证是使用证书执行的, 因此攻击者没有必要的有效证书来欺骗其中的一方通信。</span><span class="sxs-lookup"><span data-stu-id="1e80a-144">However, because authentication in Lync is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.</span></span>
+<span data-ttu-id="d0b9e-p107">使用中继 NAT (TURN) 协议不要求对流量内容进行加密，其发送的信息受消息完整性保护。尽管其发送的信息易受到窃听攻击，但只需通过查看数据包的源地址和目标地址即可直接提取该信息（即 IP 地址和端口）。A/V 边缘服务可通过检查消息的消息完整性来确保数据有效，方法是使用从少数几项（包括从不以明文格式发送的 TURN 密码）派生的密钥。如果使用安全实时协议 (SRTP)，则还要对媒体流量内容进行加密。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p107">The Traversal Using Relay NAT (TURN) protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, the IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The A/V Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.</span></span>
 
 </div>
 
 <div>
 
-## <a name="man-in-the-middle-attack"></a><span data-ttu-id="1e80a-145">中间人攻击</span><span class="sxs-lookup"><span data-stu-id="1e80a-145">Man-in-the-Middle Attack</span></span>
+## <a name="identity-spoofing-ip-address-spoofing"></a><span data-ttu-id="d0b9e-135">身份欺骗（IP 地址欺骗）</span><span class="sxs-lookup"><span data-stu-id="d0b9e-135">Identity Spoofing (IP Address Spoofing)</span></span>
 
-<span data-ttu-id="1e80a-146">当攻击者在发生通信的两个用户不知情的情况下，通过自己的计算机重新路由这两个用户之间的通信时，就会发生中间人攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-146">A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker’s computer without the knowledge of the two communicating users.</span></span> <span data-ttu-id="1e80a-147">攻击者可以在将通信内容发送到预期接收人之前监控和读取通信内容。</span><span class="sxs-lookup"><span data-stu-id="1e80a-147">The attacker can monitor and read the traffic before sending it on to the intended recipient.</span></span> <span data-ttu-id="1e80a-148">通信中的每个用户在不知情的情况下向攻击者发送通信和从攻击者接收通信，还以为自己只是在与预期用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="1e80a-148">Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user.</span></span> <span data-ttu-id="1e80a-149">如果攻击者可修改 Active Directory 域服务以将他（她）的服务器添加为受信任服务器或修改域名系统 (DNS) 以让客户端在与服务器通信时通过攻击者，则会发生这种情况。</span><span class="sxs-lookup"><span data-stu-id="1e80a-149">This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server.</span></span> <span data-ttu-id="1e80a-150">攻击者可以对两个客户端之间的媒体通信实施中间人攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-150">A man-in-the-middle attack can also occur with media traffic between two clients.</span></span> <span data-ttu-id="1e80a-151">但是, 在 Microsoft Lync Server 2013 的点到点音频、视频和应用程序共享中, 流使用 SRTP 进行了加密, 这些密钥在通过 TLS 使用会话初始协议 (SIP) 的对等方之间进行协商。</span><span class="sxs-lookup"><span data-stu-id="1e80a-151">However, in Microsoft Lync Server 2013 point-to-point audio, video, and application sharing, streams are encrypted with SRTP, using cryptographic keys that are negotiated between the peers that are using Session Initiation Protocol (SIP) over TLS.</span></span> <span data-ttu-id="1e80a-152">诸如 Group Chat 的服务器使用 HTTPS 来增强 Web 通信的安全性。</span><span class="sxs-lookup"><span data-stu-id="1e80a-152">Servers such as Group Chat make use of HTTPS to enhance the security of web traffic.</span></span>
+<span data-ttu-id="d0b9e-136">当攻击者在未经授权的情况下确定和使用网络、计算机或网络组件的 IP 地址时，会发生*欺骗*。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-136">*Spoofing* occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so.</span></span> <span data-ttu-id="d0b9e-137">一旦攻击成功，攻击者便可以假借 IP 地址通常标识的实体的身份执行操作。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-137">A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address.</span></span> <span data-ttu-id="d0b9e-138">在 Microsoft Lync Server 2013 的上下文中，仅当管理员已执行以下两项操作时，才会播放此情况：</span><span class="sxs-lookup"><span data-stu-id="d0b9e-138">Within the context of Microsoft Lync Server 2013, this situation comes into play only if an administrator has done both of the following:</span></span>
 
-</div>
+  - <span data-ttu-id="d0b9e-139">已配置仅支持传输控制协议 (TCP) 的连接（建议不要这样做，因为 TCP 通信未经过加密）。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-139">Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted).</span></span>
 
-<div>
+  - <span data-ttu-id="d0b9e-140">将这些连接的 IP 地址标记为受信任的主机。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-140">Marked the IP addresses of those connections as trusted hosts.</span></span>
 
-## <a name="rtp-replay-attack"></a><span data-ttu-id="1e80a-153">RTP 重播攻击</span><span class="sxs-lookup"><span data-stu-id="1e80a-153">RTP Replay Attack</span></span>
-
-<span data-ttu-id="1e80a-p111">*重播攻击*是指出于恶意目的截获并重新传输双方之间的有效媒体传输。通过允许接收人维护已收到的 RTP 数据包的索引并将每个新数据包与索引中已列出的数据包加以比较，安全信号协议连接中使用的 SRTP 可保护传输免受重播攻击。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p111">A *replay attack* occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SRTP used in connection with a secure signaling protocol protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.</span></span>
+<span data-ttu-id="d0b9e-141">此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-141">This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic.</span></span> <span data-ttu-id="d0b9e-142">使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-142">Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections).</span></span> <span data-ttu-id="d0b9e-143">但是，攻击者仍然可以欺骗 Lync Server 2013 使用的 DNS 服务器的地址。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-143">But an attacker could still spoof the address of the DNS server that Lync Server 2013 uses.</span></span> <span data-ttu-id="d0b9e-144">但是，由于 Lync 中的身份验证是使用证书执行的，因此攻击者没有必要的有效证书来欺骗其中的一方通信。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-144">However, because authentication in Lync is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.</span></span>
 
 </div>
 
 <div>
 
-## <a name="spim"></a><span data-ttu-id="1e80a-156">SPIM</span><span class="sxs-lookup"><span data-stu-id="1e80a-156">Spim</span></span>
+## <a name="man-in-the-middle-attack"></a><span data-ttu-id="d0b9e-145">中间人攻击</span><span class="sxs-lookup"><span data-stu-id="d0b9e-145">Man-in-the-Middle Attack</span></span>
 
-<span data-ttu-id="1e80a-p112">*Spim* 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p112">*Spim* is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.</span></span>
-
-</div>
-
-<div>
-
-## <a name="viruses-and-worms"></a><span data-ttu-id="1e80a-161">病毒和蠕虫</span><span class="sxs-lookup"><span data-stu-id="1e80a-161">Viruses and Worms</span></span>
-
-<span data-ttu-id="1e80a-p113">*病毒*是一个代码单元，其目的是为了复制更多类似的代码单元。病毒需要像文件、电子邮件或程序这样的宿主才能发挥作用。*蠕虫*是用于复制更多类似代码单元的代码单元，但它不需要宿主。病毒和蠕虫主要是在客户端之间传送文件期间或从其他用户发送 URL 时出现。例如，如果你的计算机上存在某种病毒，则该病毒可使用你的身份代表你发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="1e80a-p113">A *virus* is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. A *worm* is a unit of code whose purpose is to reproduce additional, similar code units, but it does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.</span></span>
+<span data-ttu-id="d0b9e-146">当攻击者在发生通信的两个用户不知情的情况下，通过自己的计算机重新路由这两个用户之间的通信时，就会发生中间人攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-146">A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker’s computer without the knowledge of the two communicating users.</span></span> <span data-ttu-id="d0b9e-147">攻击者可以在将通信内容发送到预期接收人之前监控和读取通信内容。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-147">The attacker can monitor and read the traffic before sending it on to the intended recipient.</span></span> <span data-ttu-id="d0b9e-148">通信中的每个用户在不知情的情况下向攻击者发送通信和从攻击者接收通信，还以为自己只是在与预期用户进行通信。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-148">Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user.</span></span> <span data-ttu-id="d0b9e-149">如果攻击者可修改 Active Directory 域服务以将他（她）的服务器添加为受信任服务器或修改域名系统 (DNS) 以让客户端在与服务器通信时通过攻击者，则会发生这种情况。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-149">This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server.</span></span> <span data-ttu-id="d0b9e-150">攻击者可以对两个客户端之间的媒体通信实施中间人攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-150">A man-in-the-middle attack can also occur with media traffic between two clients.</span></span> <span data-ttu-id="d0b9e-151">但是，在 Microsoft Lync Server 2013 的点到点音频、视频和应用程序共享中，流使用 SRTP 进行了加密，这些密钥在通过 TLS 使用会话初始协议（SIP）的对等方之间进行协商。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-151">However, in Microsoft Lync Server 2013 point-to-point audio, video, and application sharing, streams are encrypted with SRTP, using cryptographic keys that are negotiated between the peers that are using Session Initiation Protocol (SIP) over TLS.</span></span> <span data-ttu-id="d0b9e-152">诸如 Group Chat 的服务器使用 HTTPS 来增强 Web 通信的安全性。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-152">Servers such as Group Chat make use of HTTPS to enhance the security of web traffic.</span></span>
 
 </div>
 
 <div>
 
-## <a name="personally-identifiable-information"></a><span data-ttu-id="1e80a-167">个人身份信息</span><span class="sxs-lookup"><span data-stu-id="1e80a-167">Personally Identifiable Information</span></span>
+## <a name="rtp-replay-attack"></a><span data-ttu-id="d0b9e-153">RTP 重播攻击</span><span class="sxs-lookup"><span data-stu-id="d0b9e-153">RTP Replay Attack</span></span>
 
-<span data-ttu-id="1e80a-168">Microsoft Lync Server 2013 可能会通过可能会链接到个人的公共网络泄漏信息。</span><span class="sxs-lookup"><span data-stu-id="1e80a-168">Microsoft Lync Server 2013 has the potential to disclose information over a public network that might be able to be linked to an individual.</span></span> <span data-ttu-id="1e80a-169">这些信息类型具体可分为两大类：</span><span class="sxs-lookup"><span data-stu-id="1e80a-169">The information types can be broken down to two specific categories:</span></span>
+<span data-ttu-id="d0b9e-p111">*重播攻击*是指出于恶意目的截获并重新传输双方之间的有效媒体传输。通过允许接收人维护已收到的 RTP 数据包的索引并将每个新数据包与索引中已列出的数据包加以比较，安全信号协议连接中使用的 SRTP 可保护传输免受重播攻击。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p111">A *replay attack* occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SRTP used in connection with a secure signaling protocol protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.</span></span>
 
-  - <span data-ttu-id="1e80a-170">**增强的状态数据**增强的状态数据是指用户可以选择共享或不共享到联盟伙伴或组织内联系人的链接的信息。</span><span class="sxs-lookup"><span data-stu-id="1e80a-170">**Enhanced presence data** Enhanced presence data is information that a user can choose to share or not share over a link to a federated partner or with contacts within an organization.</span></span> <span data-ttu-id="1e80a-171">不与公用 IM 网络上的用户共享此数据。</span><span class="sxs-lookup"><span data-stu-id="1e80a-171">This data is not shared with users on a public IM network.</span></span> <span data-ttu-id="1e80a-172">客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。</span><span class="sxs-lookup"><span data-stu-id="1e80a-172">Client policies and other client configuration may put some control with the system administrator.</span></span> <span data-ttu-id="1e80a-173">在 Lync Server 2013 中, 可以为单个用户配置增强的状态隐私模式, 以防止 Lync 用户查看用户的 "联系人" 列表中的用户状态信息。</span><span class="sxs-lookup"><span data-stu-id="1e80a-173">In Lync Server 2013, enhanced presence privacy mode can be configured for an individual user to prevent Lync users not on the user’s Contacts list from seeing the user’s presence information.</span></span> <span data-ttu-id="1e80a-174">增强的状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户的状态信息。</span><span class="sxs-lookup"><span data-stu-id="1e80a-174">Enhanced presence privacy mode does not prevent users of Microsoft Office Communicator 2007 and Microsoft Office Communicator 2007 R2 from seeing a user’s presence information.</span></span> <span data-ttu-id="1e80a-175">有关详细信息, 请参阅在 "入门" 文档中的 "入门" 文档和[配置增强状态隐私模式](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)(位于部署文档中的 lync server 2013) 中的[适用于 lync server 2013 中的客户端](lync-server-2013-what-s-new-for-clients.md)。</span><span class="sxs-lookup"><span data-stu-id="1e80a-175">For details, see [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md) in the Getting Started documentation and [Configuring enhanced presence privacy mode in Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) in the Deployment documentation.</span></span>
+</div>
 
-  - <span data-ttu-id="1e80a-176">**必需数据**必需数据是服务器或客户端的正常操作所必需的, 不受客户端或系统管理的控制。</span><span class="sxs-lookup"><span data-stu-id="1e80a-176">**Mandatory data** Mandatory data is required for the proper operation of the server or the client and is NOT under the control of the client or system administration.</span></span> <span data-ttu-id="1e80a-177">这是服务器或网络级别所必需的信息, 用于路由、状态维护和发送信号。</span><span class="sxs-lookup"><span data-stu-id="1e80a-177">This is information that is necessary at a server or network level for the purposes of routing, state maintenance, and signaling.</span></span>
+<div>
 
-<span data-ttu-id="1e80a-178">下表列出了通过对公用网络公开的数据。</span><span class="sxs-lookup"><span data-stu-id="1e80a-178">The following tables list the data that is exposed over a public network.</span></span>
+## <a name="spim"></a><span data-ttu-id="d0b9e-156">SPIM</span><span class="sxs-lookup"><span data-stu-id="d0b9e-156">Spim</span></span>
 
-### <a name="enhanced-presence-data"></a><span data-ttu-id="1e80a-179">增强状态数据</span><span class="sxs-lookup"><span data-stu-id="1e80a-179">Enhanced Presence Data</span></span>
+<span data-ttu-id="d0b9e-p112">*Spim* 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p112">*Spim* is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viruses-and-worms"></a><span data-ttu-id="d0b9e-161">病毒和蠕虫</span><span class="sxs-lookup"><span data-stu-id="d0b9e-161">Viruses and Worms</span></span>
+
+<span data-ttu-id="d0b9e-p113">*病毒*是一个代码单元，其目的是为了复制更多类似的代码单元。病毒需要像文件、电子邮件或程序这样的宿主才能发挥作用。*蠕虫*是用于复制更多类似代码单元的代码单元，但它不需要宿主。病毒和蠕虫主要是在客户端之间传送文件期间或从其他用户发送 URL 时出现。例如，如果你的计算机上存在某种病毒，则该病毒可使用你的身份代表你发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-p113">A *virus* is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. A *worm* is a unit of code whose purpose is to reproduce additional, similar code units, but it does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.</span></span>
+
+</div>
+
+<div>
+
+## <a name="personally-identifiable-information"></a><span data-ttu-id="d0b9e-167">个人身份信息</span><span class="sxs-lookup"><span data-stu-id="d0b9e-167">Personally Identifiable Information</span></span>
+
+<span data-ttu-id="d0b9e-168">Microsoft Lync Server 2013 可能会通过可能会链接到个人的公共网络泄漏信息。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-168">Microsoft Lync Server 2013 has the potential to disclose information over a public network that might be able to be linked to an individual.</span></span> <span data-ttu-id="d0b9e-169">这些信息类型具体可分为两大类：</span><span class="sxs-lookup"><span data-stu-id="d0b9e-169">The information types can be broken down to two specific categories:</span></span>
+
+  - <span data-ttu-id="d0b9e-170">**增强的状态数据**增强的状态数据是指用户可以选择共享或不共享到联盟伙伴或组织内联系人的链接的信息。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-170">**Enhanced presence data** Enhanced presence data is information that a user can choose to share or not share over a link to a federated partner or with contacts within an organization.</span></span> <span data-ttu-id="d0b9e-171">不与公用 IM 网络上的用户共享此数据。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-171">This data is not shared with users on a public IM network.</span></span> <span data-ttu-id="d0b9e-172">客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-172">Client policies and other client configuration may put some control with the system administrator.</span></span> <span data-ttu-id="d0b9e-173">在 Lync Server 2013 中，可以为单个用户配置增强的状态隐私模式，以防止 Lync 用户查看用户的 "联系人" 列表中的用户状态信息。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-173">In Lync Server 2013, enhanced presence privacy mode can be configured for an individual user to prevent Lync users not on the user’s Contacts list from seeing the user’s presence information.</span></span> <span data-ttu-id="d0b9e-174">增强的状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户的状态信息。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-174">Enhanced presence privacy mode does not prevent users of Microsoft Office Communicator 2007 and Microsoft Office Communicator 2007 R2 from seeing a user’s presence information.</span></span> <span data-ttu-id="d0b9e-175">有关详细信息，请参阅在 "入门" 文档中的 "入门" 文档和[配置增强状态隐私模式](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)（位于部署文档中的 lync server 2013）中的[适用于 lync server 2013 中的客户端](lync-server-2013-what-s-new-for-clients.md)。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-175">For details, see [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md) in the Getting Started documentation and [Configuring enhanced presence privacy mode in Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) in the Deployment documentation.</span></span>
+
+  - <span data-ttu-id="d0b9e-176">**必需数据**必需数据是服务器或客户端的正常操作所必需的，不受客户端或系统管理的控制。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-176">**Mandatory data** Mandatory data is required for the proper operation of the server or the client and is NOT under the control of the client or system administration.</span></span> <span data-ttu-id="d0b9e-177">这是服务器或网络级别所必需的信息，用于路由、状态维护和发送信号。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-177">This is information that is necessary at a server or network level for the purposes of routing, state maintenance, and signaling.</span></span>
+
+<span data-ttu-id="d0b9e-178">下表列出了通过对公用网络公开的数据。</span><span class="sxs-lookup"><span data-stu-id="d0b9e-178">The following tables list the data that is exposed over a public network.</span></span>
+
+### <a name="enhanced-presence-data"></a><span data-ttu-id="d0b9e-179">增强状态数据</span><span class="sxs-lookup"><span data-stu-id="d0b9e-179">Enhanced Presence Data</span></span>
 
 <table>
 <colgroup>
@@ -148,32 +150,32 @@ ms.locfileid: "35221361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1e80a-180">披露的数据</span><span class="sxs-lookup"><span data-stu-id="1e80a-180">Data Disclosed</span></span></th>
-<th><span data-ttu-id="1e80a-181">可能的设置</span><span class="sxs-lookup"><span data-stu-id="1e80a-181">Possible Settings</span></span></th>
+<th><span data-ttu-id="d0b9e-180">披露的数据</span><span class="sxs-lookup"><span data-stu-id="d0b9e-180">Data Disclosed</span></span></th>
+<th><span data-ttu-id="d0b9e-181">可能的设置</span><span class="sxs-lookup"><span data-stu-id="d0b9e-181">Possible Settings</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1e80a-182">个人数据</span><span class="sxs-lookup"><span data-stu-id="1e80a-182">Personal Data</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-183">姓名、职务、公司、电子邮件地址、时区</span><span class="sxs-lookup"><span data-stu-id="1e80a-183">Name, Title, Company, Email Address, Time Zone</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-182">个人数据</span><span class="sxs-lookup"><span data-stu-id="d0b9e-182">Personal Data</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-183">姓名、职务、公司、电子邮件地址、时区</span><span class="sxs-lookup"><span data-stu-id="d0b9e-183">Name, Title, Company, Email Address, Time Zone</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e80a-184">电话号码</span><span class="sxs-lookup"><span data-stu-id="1e80a-184">Telephone Numbers</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-185">工作电话号码、手机号码、住宅电话号码</span><span class="sxs-lookup"><span data-stu-id="1e80a-185">Work, Mobile, Home</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-184">电话号码</span><span class="sxs-lookup"><span data-stu-id="d0b9e-184">Telephone Numbers</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-185">工作电话号码、手机号码、住宅电话号码</span><span class="sxs-lookup"><span data-stu-id="d0b9e-185">Work, Mobile, Home</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1e80a-186">日历信息</span><span class="sxs-lookup"><span data-stu-id="1e80a-186">Calendar Information</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-187">空闲/忙碌、出城通知、会议详细信息（显示给有权访问你的日历的用户）</span><span class="sxs-lookup"><span data-stu-id="1e80a-187">Free/Busy, Out-Of-Town Notice, Meeting Details (to those who have access to your calendar)</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-186">日历信息</span><span class="sxs-lookup"><span data-stu-id="d0b9e-186">Calendar Information</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-187">空闲/忙碌、出城通知、会议详细信息（显示给有权访问你的日历的用户）</span><span class="sxs-lookup"><span data-stu-id="d0b9e-187">Free/Busy, Out-Of-Town Notice, Meeting Details (to those who have access to your calendar)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e80a-188">状态</span><span class="sxs-lookup"><span data-stu-id="1e80a-188">Presence Status</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-189">离开、空闲、忙碌、请勿打扰、脱机</span><span class="sxs-lookup"><span data-stu-id="1e80a-189">Away, Available, Busy, Do Not Disturb, Offline</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-188">状态</span><span class="sxs-lookup"><span data-stu-id="d0b9e-188">Presence Status</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-189">离开、空闲、忙碌、请勿打扰、脱机</span><span class="sxs-lookup"><span data-stu-id="d0b9e-189">Away, Available, Busy, Do Not Disturb, Offline</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="mandatory-data"></a><span data-ttu-id="1e80a-190">必需数据</span><span class="sxs-lookup"><span data-stu-id="1e80a-190">Mandatory Data</span></span>
+### <a name="mandatory-data"></a><span data-ttu-id="d0b9e-190">必需数据</span><span class="sxs-lookup"><span data-stu-id="d0b9e-190">Mandatory Data</span></span>
 
 <table>
 <colgroup>
@@ -182,18 +184,18 @@ ms.locfileid: "35221361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1e80a-191">披露的数据</span><span class="sxs-lookup"><span data-stu-id="1e80a-191">Data Disclosed</span></span></th>
-<th><span data-ttu-id="1e80a-192">示例信息</span><span class="sxs-lookup"><span data-stu-id="1e80a-192">Example Information</span></span></th>
+<th><span data-ttu-id="d0b9e-191">披露的数据</span><span class="sxs-lookup"><span data-stu-id="d0b9e-191">Data Disclosed</span></span></th>
+<th><span data-ttu-id="d0b9e-192">示例信息</span><span class="sxs-lookup"><span data-stu-id="d0b9e-192">Example Information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1e80a-193">IP 地址</span><span class="sxs-lookup"><span data-stu-id="1e80a-193">IP Address</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-194">计算机的实际地址或经过 NAT 转换的地址</span><span class="sxs-lookup"><span data-stu-id="1e80a-194">Actual address of computer or NATed address</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-193">IP 地址</span><span class="sxs-lookup"><span data-stu-id="d0b9e-193">IP Address</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-194">计算机的实际地址或经过 NAT 转换的地址</span><span class="sxs-lookup"><span data-stu-id="d0b9e-194">Actual address of computer or NATed address</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e80a-195">SIP URI</span><span class="sxs-lookup"><span data-stu-id="1e80a-195">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="1e80a-196">jeremylos@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="1e80a-196">jeremylos@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-195">SIP URI</span><span class="sxs-lookup"><span data-stu-id="d0b9e-195">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="d0b9e-196">jeremylos@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d0b9e-196">jeremylos@litwareinc.com</span></span></p></td>
 </tr>
 </tbody>
 </table>

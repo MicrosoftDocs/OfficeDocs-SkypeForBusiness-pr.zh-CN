@@ -3,6 +3,8 @@ title: Lync Server 2013：规划出站语音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824153"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="96831-102">在 Lync Server 2013 中规划出站语音路由</span><span class="sxs-lookup"><span data-stu-id="96831-102">Planning outbound voice routing in Lync Server 2013</span></span>
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="8e842-102">在 Lync Server 2013 中规划出站语音路由</span><span class="sxs-lookup"><span data-stu-id="8e842-102">Planning outbound voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,11 +35,11 @@ ms.locfileid: "34824153"
 
 <span> </span>
 
-<span data-ttu-id="96831-103">_**主题上次修改时间:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="96831-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="8e842-103">_**主题上次修改时间：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8e842-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="96831-104">出站呼叫路由适用于发往公共交换电话网络 (PSTN) 网关、主干或专用分支 exchange (PBX) 的呼叫。</span><span class="sxs-lookup"><span data-stu-id="96831-104">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX).</span></span> <span data-ttu-id="96831-105">当用户发出呼叫时, 服务器会将电话号码标准化为164格式 (如有必要), 并尝试将其与 SIP URI 匹配。</span><span class="sxs-lookup"><span data-stu-id="96831-105">When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI.</span></span> <span data-ttu-id="96831-106">如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。</span><span class="sxs-lookup"><span data-stu-id="96831-106">If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string.</span></span> <span data-ttu-id="96831-107">通过配置下表中所述的服务器设置定义该逻辑。</span><span class="sxs-lookup"><span data-stu-id="96831-107">You define that logic by configuring the server settings that are described in the following table.</span></span>
+<span data-ttu-id="8e842-104">出站呼叫路由适用于发往公共交换电话网络（PSTN）网关、主干或专用分支 exchange （PBX）的呼叫。</span><span class="sxs-lookup"><span data-stu-id="8e842-104">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX).</span></span> <span data-ttu-id="8e842-105">当用户发出呼叫时，服务器会将电话号码标准化为164格式（如有必要），并尝试将其与 SIP URI 匹配。</span><span class="sxs-lookup"><span data-stu-id="8e842-105">When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI.</span></span> <span data-ttu-id="8e842-106">如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。</span><span class="sxs-lookup"><span data-stu-id="8e842-106">If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string.</span></span> <span data-ttu-id="8e842-107">通过配置下表中所述的服务器设置定义该逻辑。</span><span class="sxs-lookup"><span data-stu-id="8e842-107">You define that logic by configuring the server settings that are described in the following table.</span></span>
 
-### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="96831-108">Lync Server 出站呼叫路由设置</span><span class="sxs-lookup"><span data-stu-id="96831-108">Lync Server Outbound Call Routing Settings</span></span>
+### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="8e842-108">Lync Server 出站呼叫路由设置</span><span class="sxs-lookup"><span data-stu-id="8e842-108">Lync Server Outbound Call Routing Settings</span></span>
 
 <table>
 <colgroup>
@@ -46,30 +48,30 @@ ms.locfileid: "34824153"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="96831-109">对象</span><span class="sxs-lookup"><span data-stu-id="96831-109">Object</span></span></th>
-<th><span data-ttu-id="96831-110">描述</span><span class="sxs-lookup"><span data-stu-id="96831-110">Description</span></span></th>
+<th><span data-ttu-id="8e842-109">对象</span><span class="sxs-lookup"><span data-stu-id="8e842-109">Object</span></span></th>
+<th><span data-ttu-id="8e842-110">描述</span><span class="sxs-lookup"><span data-stu-id="8e842-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="96831-111">拨号计划</span><span class="sxs-lookup"><span data-stu-id="96831-111">Dial Plan</span></span></p></td>
-<td><p><span data-ttu-id="96831-112">拨号计划是一组指定的规范化规则，可将指定位置、单个用户或联系人对象的电话号码转换为统一标准 (E.164) 格式，以进行电话授权和呼叫路由。</span><span class="sxs-lookup"><span data-stu-id="96831-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
+<td><p><span data-ttu-id="8e842-111">拨号计划</span><span class="sxs-lookup"><span data-stu-id="8e842-111">Dial Plan</span></span></p></td>
+<td><p><span data-ttu-id="8e842-112">拨号计划是一组指定的规范化规则，可将指定位置、单个用户或联系人对象的电话号码转换为统一标准 (E.164) 格式，以进行电话授权和呼叫路由。</span><span class="sxs-lookup"><span data-stu-id="8e842-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96831-113">规范化规则</span><span class="sxs-lookup"><span data-stu-id="96831-113">Normalization rule</span></span></p></td>
-<td><p><span data-ttu-id="96831-p102">规范化规则定义如何针对每个指定的位置、用户或联系对象来路由以不同格式表示的电话号码。同一拨号串的解析和转换可能不同，具体取决于拨打该号码的位置，以及发出呼叫的人员或联系对象。一组与特定位置相关联的规范化规则构成一个拨号计划。</span><span class="sxs-lookup"><span data-stu-id="96831-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
+<td><p><span data-ttu-id="8e842-113">规范化规则</span><span class="sxs-lookup"><span data-stu-id="8e842-113">Normalization rule</span></span></p></td>
+<td><p><span data-ttu-id="8e842-p102">规范化规则定义如何针对每个指定的位置、用户或联系对象来路由以不同格式表示的电话号码。同一拨号串的解析和转换可能不同，具体取决于拨打该号码的位置，以及发出呼叫的人员或联系对象。一组与特定位置相关联的规范化规则构成一个拨号计划。</span><span class="sxs-lookup"><span data-stu-id="8e842-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96831-117">语音策略</span><span class="sxs-lookup"><span data-stu-id="96831-117">Voice policy</span></span></p></td>
-<td><p><span data-ttu-id="96831-p103">语音策略将一个或多个 PSTN 用法记录与一个用户或一组用户相关联。语音策略还提供了可以启用或禁用的呼叫功能列表。</span><span class="sxs-lookup"><span data-stu-id="96831-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
+<td><p><span data-ttu-id="8e842-117">语音策略</span><span class="sxs-lookup"><span data-stu-id="8e842-117">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="8e842-p103">语音策略将一个或多个 PSTN 用法记录与一个用户或一组用户相关联。语音策略还提供了可以启用或禁用的呼叫功能列表。</span><span class="sxs-lookup"><span data-stu-id="8e842-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96831-120">PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="96831-120">PSTN usage record</span></span></p></td>
-<td><p><span data-ttu-id="96831-121">PSTN 用法记录指定组织中各个用户或用户组所能进行的呼叫类别（如内部、本地或长途）。</span><span class="sxs-lookup"><span data-stu-id="96831-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
+<td><p><span data-ttu-id="8e842-120">PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="8e842-120">PSTN usage record</span></span></p></td>
+<td><p><span data-ttu-id="8e842-121">PSTN 用法记录指定组织中各个用户或用户组所能进行的呼叫类别（如内部、本地或长途）。</span><span class="sxs-lookup"><span data-stu-id="8e842-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96831-122">呼叫路由</span><span class="sxs-lookup"><span data-stu-id="96831-122">Call Route</span></span></p></td>
-<td><p><span data-ttu-id="96831-p104">呼叫路由将目标电话号码与特定中继和 PSTN 用法记录相关联。PSTN 网关被视为中继。</span><span class="sxs-lookup"><span data-stu-id="96831-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
+<td><p><span data-ttu-id="8e842-122">呼叫路由</span><span class="sxs-lookup"><span data-stu-id="8e842-122">Call Route</span></span></p></td>
+<td><p><span data-ttu-id="8e842-p104">呼叫路由将目标电话号码与特定中继和 PSTN 用法记录相关联。PSTN 网关被视为中继。</span><span class="sxs-lookup"><span data-stu-id="8e842-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -77,31 +79,31 @@ ms.locfileid: "34824153"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="96831-125">本节内容</span><span class="sxs-lookup"><span data-stu-id="96831-125">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8e842-125">本节内容</span><span class="sxs-lookup"><span data-stu-id="8e842-125">In This Section</span></span>
 
-<span data-ttu-id="96831-126">本部分提供了配置以下出站呼叫路由服务器设置的指南:</span><span class="sxs-lookup"><span data-stu-id="96831-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
-
-  - <span></span>  
-    [<span data-ttu-id="96831-127">Lync Server 2013 中的拨号计划和规范化规则</span><span class="sxs-lookup"><span data-stu-id="96831-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
+<span data-ttu-id="8e842-126">本部分提供了配置以下出站呼叫路由服务器设置的指南：</span><span class="sxs-lookup"><span data-stu-id="8e842-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="96831-128">Lync Server 2013 中的语音策略</span><span class="sxs-lookup"><span data-stu-id="96831-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
+    [<span data-ttu-id="8e842-127">Lync Server 2013 中的拨号计划和规范化规则</span><span class="sxs-lookup"><span data-stu-id="8e842-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
-    [<span data-ttu-id="96831-129">Lync Server 2013 中的 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="96831-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+    [<span data-ttu-id="8e842-128">Lync Server 2013 中的语音策略</span><span class="sxs-lookup"><span data-stu-id="8e842-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [<span data-ttu-id="96831-130">Lync Server 2013 中的语音路由</span><span class="sxs-lookup"><span data-stu-id="96831-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
+    [<span data-ttu-id="8e842-129">Lync Server 2013 中的 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="8e842-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+
+  - <span></span>  
+    [<span data-ttu-id="8e842-130">Lync Server 2013 中的语音路由</span><span class="sxs-lookup"><span data-stu-id="8e842-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="96831-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="96831-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e842-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8e842-131">See Also</span></span>
 
 
-[<span data-ttu-id="96831-132">Lync Server 2013 中的 SIP 中继</span><span class="sxs-lookup"><span data-stu-id="96831-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
-[<span data-ttu-id="96831-133">Lync Server 2013 中的直接 SIP 连接</span><span class="sxs-lookup"><span data-stu-id="96831-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
+[<span data-ttu-id="8e842-132">Lync Server 2013 中的 SIP 中继</span><span class="sxs-lookup"><span data-stu-id="8e842-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
+[<span data-ttu-id="8e842-133">Lync Server 2013 中的直接 SIP 连接</span><span class="sxs-lookup"><span data-stu-id="8e842-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
   
 
 </div>

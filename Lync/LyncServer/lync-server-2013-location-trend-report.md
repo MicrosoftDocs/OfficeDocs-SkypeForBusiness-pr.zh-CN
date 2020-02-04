@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 位置趋势报表'
+title: Lync Server 2013：位置趋势报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location Trend Report
 ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204941(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68c1eac461d65c2c0b023086422bb66505e9c929
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829940"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34829940"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="ef631-102">Lync Server 2013 中的 "位置趋势" 报表</span><span class="sxs-lookup"><span data-stu-id="ef631-102">Location Trend Report in Lync Server 2013</span></span>
+# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="90acc-102">Lync Server 2013 中的 "位置趋势" 报表</span><span class="sxs-lookup"><span data-stu-id="90acc-102">Location Trend Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34829940"
 
 <span> </span>
 
-<span data-ttu-id="ef631-103">_**主题上次修改时间:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="ef631-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="90acc-103">_**主题上次修改时间：** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="90acc-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="ef631-104">位置趋势报告提供网络位置的呼叫质量趋势信息。</span><span class="sxs-lookup"><span data-stu-id="ef631-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
+<span data-ttu-id="90acc-104">位置趋势报告提供网络位置的呼叫质量趋势信息。</span><span class="sxs-lookup"><span data-stu-id="90acc-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="ef631-105">筛选器</span><span class="sxs-lookup"><span data-stu-id="ef631-105">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="90acc-105">筛选器</span><span class="sxs-lookup"><span data-stu-id="90acc-105">Filters</span></span>
 
-<span data-ttu-id="ef631-p101">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，位置趋势报告使您能够按访问类型（即内部访问与外部访问）或有线/无线网络连接等条件来筛选返回的数据。您还可以选择数据的分组方式。在此示例中，将按小时、日或周对呼叫进行分组。</span><span class="sxs-lookup"><span data-stu-id="ef631-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
+<span data-ttu-id="90acc-p101">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，位置趋势报告使您能够按访问类型（即内部访问与外部访问）或有线/无线网络连接等条件来筛选返回的数据。您还可以选择数据的分组方式。在此示例中，将按小时、日或周对呼叫进行分组。</span><span class="sxs-lookup"><span data-stu-id="90acc-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
 
-<span data-ttu-id="ef631-110">下表列出了可用于位置趋势报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="ef631-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
+<span data-ttu-id="90acc-110">下表列出了可用于位置趋势报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="90acc-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
 
-### <a name="location-trend-report-filters"></a><span data-ttu-id="ef631-111">位置趋势报告筛选器</span><span class="sxs-lookup"><span data-stu-id="ef631-111">Location Trend Report Filters</span></span>
+### <a name="location-trend-report-filters"></a><span data-ttu-id="90acc-111">位置趋势报告筛选器</span><span class="sxs-lookup"><span data-stu-id="90acc-111">Location Trend Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -54,66 +56,66 @@ ms.locfileid: "34829940"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ef631-112">名称</span><span class="sxs-lookup"><span data-stu-id="ef631-112">Name</span></span></th>
-<th><span data-ttu-id="ef631-113">描述</span><span class="sxs-lookup"><span data-stu-id="ef631-113">Description</span></span></th>
+<th><span data-ttu-id="90acc-112">名称</span><span class="sxs-lookup"><span data-stu-id="90acc-112">Name</span></span></th>
+<th><span data-ttu-id="90acc-113">描述</span><span class="sxs-lookup"><span data-stu-id="90acc-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ef631-114"><strong>从</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-114"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p102">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="ef631-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="ef631-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="ef631-117">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="ef631-p103">如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="ef631-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="ef631-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="ef631-120">7/7/2012</span></span></p>
-<p><span data-ttu-id="ef631-121">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="ef631-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="ef631-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="ef631-122">7/3/2012</span></span></p>
-<p><span data-ttu-id="ef631-123">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="ef631-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="90acc-114"><strong>从</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-114"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p102">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="90acc-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="90acc-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="90acc-117">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="90acc-p103">如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="90acc-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="90acc-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="90acc-120">7/7/2012</span></span></p>
+<p><span data-ttu-id="90acc-121">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="90acc-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="90acc-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="90acc-122">7/3/2012</span></span></p>
+<p><span data-ttu-id="90acc-123">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="90acc-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ef631-124"><strong>到</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-124"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p104">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="ef631-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="ef631-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="ef631-127">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="ef631-p105">如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="ef631-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="ef631-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="ef631-130">7/7/2012</span></span></p>
-<p><span data-ttu-id="ef631-131">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="ef631-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="ef631-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="ef631-132">7/3/2012</span></span></p>
-<p><span data-ttu-id="ef631-133">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="ef631-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="90acc-124"><strong>到</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-124"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p104">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="90acc-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="90acc-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="90acc-127">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="90acc-p105">如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="90acc-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="90acc-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="90acc-130">7/7/2012</span></span></p>
+<p><span data-ttu-id="90acc-131">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="90acc-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="90acc-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="90acc-132">7/3/2012</span></span></p>
+<p><span data-ttu-id="90acc-133">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="90acc-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ef631-134"><strong>间隔</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-134"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p106">时间间隔。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="ef631-p106">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="90acc-134"><strong>间隔</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-134"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p106">时间间隔。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="90acc-p106">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="ef631-137">每小时（最多可显示 25 个小时）</span><span class="sxs-lookup"><span data-stu-id="ef631-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="ef631-138">每天（最多可显示 31 天）</span><span class="sxs-lookup"><span data-stu-id="ef631-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="ef631-139">每周（最多可显示 12 周）</span><span class="sxs-lookup"><span data-stu-id="ef631-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="90acc-137">每小时（最多可显示 25 个小时）</span><span class="sxs-lookup"><span data-stu-id="90acc-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="90acc-138">每天（最多可显示 31 天）</span><span class="sxs-lookup"><span data-stu-id="90acc-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="90acc-139">每周（最多可显示 12 周）</span><span class="sxs-lookup"><span data-stu-id="90acc-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="ef631-p107">如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 2011/1/1、结束日期为 2011/2/28、间隔为“每天”，则显示从 2011/8/1 12:00 AM 到 2011/9/1 12:00 AM 这些天的数据（即总共 31 天的数据）。</span><span class="sxs-lookup"><span data-stu-id="ef631-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="90acc-p107">如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 2011/1/1、结束日期为 2011/2/28、间隔为“每天”，则显示从 2011/8/1 12:00 AM 到 2011/9/1 12:00 AM 这些天的数据（即总共 31 天的数据）。</span><span class="sxs-lookup"><span data-stu-id="90acc-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ef631-142"><strong>访问类型</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-142"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p108">指示客户端在发起呼叫时已登录到内部网络还是外部网络。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="ef631-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="90acc-142"><strong>访问类型</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-142"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p108">指示客户端在发起呼叫时已登录到内部网络还是外部网络。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="90acc-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="ef631-145">[所有]</span><span class="sxs-lookup"><span data-stu-id="ef631-145">[All]</span></span></p></li>
-<li><p><span data-ttu-id="ef631-146">内部</span><span class="sxs-lookup"><span data-stu-id="ef631-146">Internal</span></span></p></li>
-<li><p><span data-ttu-id="ef631-147">外部</span><span class="sxs-lookup"><span data-stu-id="ef631-147">External</span></span></p></li>
+<li><p><span data-ttu-id="90acc-145">[所有]</span><span class="sxs-lookup"><span data-stu-id="90acc-145">[All]</span></span></p></li>
+<li><p><span data-ttu-id="90acc-146">内部</span><span class="sxs-lookup"><span data-stu-id="90acc-146">Internal</span></span></p></li>
+<li><p><span data-ttu-id="90acc-147">外部</span><span class="sxs-lookup"><span data-stu-id="90acc-147">External</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ef631-148"><strong>网络类型</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-148"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p109">指示客户端在发起呼叫时已连接到的网络的类型。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="ef631-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="90acc-148"><strong>网络类型</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-148"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p109">指示客户端在发起呼叫时已连接到的网络的类型。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="90acc-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="ef631-151">[所有]</span><span class="sxs-lookup"><span data-stu-id="ef631-151">[All]</span></span></p></li>
-<li><p><span data-ttu-id="ef631-152">有线</span><span class="sxs-lookup"><span data-stu-id="ef631-152">Wired</span></span></p></li>
-<li><p><span data-ttu-id="ef631-153">无线</span><span class="sxs-lookup"><span data-stu-id="ef631-153">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="90acc-151">[所有]</span><span class="sxs-lookup"><span data-stu-id="90acc-151">[All]</span></span></p></li>
+<li><p><span data-ttu-id="90acc-152">有线</span><span class="sxs-lookup"><span data-stu-id="90acc-152">Wired</span></span></p></li>
+<li><p><span data-ttu-id="90acc-153">无线</span><span class="sxs-lookup"><span data-stu-id="90acc-153">Wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ef631-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="ef631-154"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="ef631-p110">指示外部客户端在发起呼叫时是否使用了虚拟专用网 (VPN) 连接。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="ef631-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="90acc-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="90acc-154"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="90acc-p110">指示外部客户端在发起呼叫时是否使用了虚拟专用网 (VPN) 连接。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="90acc-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="ef631-157">[所有]</span><span class="sxs-lookup"><span data-stu-id="ef631-157">[All]</span></span></p></li>
-<li><p><span data-ttu-id="ef631-158">VPN</span><span class="sxs-lookup"><span data-stu-id="ef631-158">VPN</span></span></p></li>
-<li><p><span data-ttu-id="ef631-159">非 VPN</span><span class="sxs-lookup"><span data-stu-id="ef631-159">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="90acc-157">[所有]</span><span class="sxs-lookup"><span data-stu-id="90acc-157">[All]</span></span></p></li>
+<li><p><span data-ttu-id="90acc-158">VPN</span><span class="sxs-lookup"><span data-stu-id="90acc-158">VPN</span></span></p></li>
+<li><p><span data-ttu-id="90acc-159">非 VPN</span><span class="sxs-lookup"><span data-stu-id="90acc-159">Non-VPN</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

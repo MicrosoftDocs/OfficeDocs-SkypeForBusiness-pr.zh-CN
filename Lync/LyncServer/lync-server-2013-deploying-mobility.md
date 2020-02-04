@@ -3,6 +3,8 @@ title: Lync Server 2013：部署移动功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying mobility
 ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dc43742381bdbc9c40675039be12737d8208d3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34830530"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobility-in-lync-server-2013"></a><span data-ttu-id="c8274-102">在 Lync Server 2013 中部署移动功能</span><span class="sxs-lookup"><span data-stu-id="c8274-102">Deploying mobility in Lync Server 2013</span></span>
+# <a name="deploying-mobility-in-lync-server-2013"></a><span data-ttu-id="f4e35-102">在 Lync Server 2013 中部署移动功能</span><span class="sxs-lookup"><span data-stu-id="f4e35-102">Deploying mobility in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,31 +35,31 @@ ms.locfileid: "34830530"
 
 <span> </span>
 
-<span data-ttu-id="c8274-103">_**主题上次修改时间:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c8274-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="f4e35-103">_**主题上次修改时间：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="f4e35-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="c8274-104">部署 Lync Server 2013 移动功能时, 移动用户可以使用支持的移动设备进行 Lync 功能, 例如即时消息 (IM)、联机状态和联系人。</span><span class="sxs-lookup"><span data-stu-id="c8274-104">When you deploy the Lync Server 2013 mobility feature, mobile users can use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span>
+<span data-ttu-id="f4e35-104">部署 Lync Server 2013 移动功能时，移动用户可以使用支持的移动设备进行 Lync 功能，例如即时消息（IM）、联机状态和联系人。</span><span class="sxs-lookup"><span data-stu-id="f4e35-104">When you deploy the Lync Server 2013 mobility feature, mobile users can use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span>
 
-<span data-ttu-id="c8274-105">有关部署移动功能的要求的详细信息, 请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)。</span><span class="sxs-lookup"><span data-stu-id="c8274-105">For details about requirements for deploying the mobility feature, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md).</span></span>
+<span data-ttu-id="f4e35-105">有关部署移动功能的要求的详细信息，请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)。</span><span class="sxs-lookup"><span data-stu-id="f4e35-105">For details about requirements for deploying the mobility feature, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md).</span></span>
 
-<span data-ttu-id="c8274-106">本部分将指导你完成部署和验证移动性和自动发现功能的步骤。</span><span class="sxs-lookup"><span data-stu-id="c8274-106">This section guides you through the steps for deploying and verifying the mobility and automatic discovery features.</span></span>
+<span data-ttu-id="f4e35-106">本部分将指导你完成部署和验证移动性和自动发现功能的步骤。</span><span class="sxs-lookup"><span data-stu-id="f4e35-106">This section guides you through the steps for deploying and verifying the mobility and automatic discovery features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c8274-107">本节内容</span><span class="sxs-lookup"><span data-stu-id="c8274-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f4e35-107">本节内容</span><span class="sxs-lookup"><span data-stu-id="f4e35-107">In This Section</span></span>
 
-  - [<span data-ttu-id="c8274-108">在 Lync Server 2013 中为自动发现服务创建 DNS 记录</span><span class="sxs-lookup"><span data-stu-id="c8274-108">Creating DNS records for the Autodiscover Service in Lync Server 2013</span></span>](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
+  - [<span data-ttu-id="f4e35-108">在 Lync Server 2013 中为自动发现服务创建 DNS 记录</span><span class="sxs-lookup"><span data-stu-id="f4e35-108">Creating DNS records for the Autodiscover Service in Lync Server 2013</span></span>](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
-  - [<span data-ttu-id="c8274-109">在 Lync Server 2013 中修改证书以实现移动功能</span><span class="sxs-lookup"><span data-stu-id="c8274-109">Modifying certificates for mobility in Lync Server 2013</span></span>](lync-server-2013-modifying-certificates-for-mobility.md)
+  - [<span data-ttu-id="f4e35-109">在 Lync Server 2013 中修改证书以实现移动功能</span><span class="sxs-lookup"><span data-stu-id="f4e35-109">Modifying certificates for mobility in Lync Server 2013</span></span>](lync-server-2013-modifying-certificates-for-mobility.md)
 
-  - [<span data-ttu-id="c8274-110">在 Lync Server 2013 中配置反向代理以实现移动功能</span><span class="sxs-lookup"><span data-stu-id="c8274-110">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
+  - [<span data-ttu-id="f4e35-110">在 Lync Server 2013 中配置反向代理以实现移动功能</span><span class="sxs-lookup"><span data-stu-id="f4e35-110">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [<span data-ttu-id="c8274-111">在 Lync Server 2013 中使用混合部署配置移动性的自动发现</span><span class="sxs-lookup"><span data-stu-id="c8274-111">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [<span data-ttu-id="f4e35-111">在 Lync Server 2013 中使用混合部署配置移动性的自动发现</span><span class="sxs-lookup"><span data-stu-id="f4e35-111">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [<span data-ttu-id="c8274-112">在 Lync Server 2013 中验证您的移动功能部署</span><span class="sxs-lookup"><span data-stu-id="c8274-112">Verifying your mobility deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [<span data-ttu-id="f4e35-112">在 Lync Server 2013 中验证您的移动功能部署</span><span class="sxs-lookup"><span data-stu-id="f4e35-112">Verifying your mobility deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-mobility-deployment.md)
 
-  - [<span data-ttu-id="c8274-113">在 Lync Server 2013 中配置推送通知</span><span class="sxs-lookup"><span data-stu-id="c8274-113">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)
+  - [<span data-ttu-id="f4e35-113">在 Lync Server 2013 中配置推送通知</span><span class="sxs-lookup"><span data-stu-id="f4e35-113">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)
 
-  - [<span data-ttu-id="c8274-114">在 Lync Server 2013 中配置移动策略</span><span class="sxs-lookup"><span data-stu-id="c8274-114">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)
+  - [<span data-ttu-id="f4e35-114">在 Lync Server 2013 中配置移动策略</span><span class="sxs-lookup"><span data-stu-id="f4e35-114">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)
 
 </div>
 
