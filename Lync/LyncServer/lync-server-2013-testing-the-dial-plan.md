@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 测试拨号计划'
+title: Lync Server 2013：测试拨号计划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e0e39b88d7b6c90a55d236038d03cc4cc717319
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845570"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-dial-plan-in-lync-server-2013"></a><span data-ttu-id="84049-102">在 Lync Server 2013 中测试拨号计划</span><span class="sxs-lookup"><span data-stu-id="84049-102">Testing the dial plan in Lync Server 2013</span></span>
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a><span data-ttu-id="45286-102">在 Lync Server 2013 中测试拨号计划</span><span class="sxs-lookup"><span data-stu-id="45286-102">Testing the dial plan in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845570"
 
 <span> </span>
 
-<span data-ttu-id="84049-103">_**主题上次修改时间:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="84049-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="45286-103">_**主题上次修改时间：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="45286-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -43,17 +45,17 @@ ms.locfileid: "34845570"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="84049-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="84049-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="84049-105">每天</span><span class="sxs-lookup"><span data-stu-id="84049-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="45286-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="45286-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="45286-105">每天</span><span class="sxs-lookup"><span data-stu-id="45286-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="84049-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="84049-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="84049-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="84049-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="45286-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="45286-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="45286-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="45286-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="84049-108">需要权限</span><span class="sxs-lookup"><span data-stu-id="84049-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="84049-109">当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="84049-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="84049-110">使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行 CsDialPlan cmdlet 权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="84049-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet.</span></span> <span data-ttu-id="84049-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="84049-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="45286-108">需要权限</span><span class="sxs-lookup"><span data-stu-id="45286-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="45286-109">当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="45286-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="45286-110">使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsDialPlan cmdlet 权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="45286-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet.</span></span> <span data-ttu-id="45286-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="45286-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -62,73 +64,73 @@ ms.locfileid: "34845570"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="84049-112">说明</span><span class="sxs-lookup"><span data-stu-id="84049-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="45286-112">说明</span><span class="sxs-lookup"><span data-stu-id="45286-112">Description</span></span>
 
-<span data-ttu-id="84049-113">CsDialPlan cmdlet 使你能够查看将拨号计划应用到给定电话号码的结果。</span><span class="sxs-lookup"><span data-stu-id="84049-113">The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number.</span></span> <span data-ttu-id="84049-114">拨号计划提供有关如何应用规范化规则的信息, 从而使企业语音用户可以拨打电话。</span><span class="sxs-lookup"><span data-stu-id="84049-114">Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls.</span></span> <span data-ttu-id="84049-115">在给定一个已拨号码和拨号计划后, 此 cmdlet 将验证将应用拨号计划中的哪个规范化规则以及已翻译的号码。</span><span class="sxs-lookup"><span data-stu-id="84049-115">Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.</span></span>
+<span data-ttu-id="45286-113">CsDialPlan cmdlet 使你能够查看将拨号计划应用到给定电话号码的结果。</span><span class="sxs-lookup"><span data-stu-id="45286-113">The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number.</span></span> <span data-ttu-id="45286-114">拨号计划提供有关如何应用规范化规则的信息，从而使企业语音用户可以拨打电话。</span><span class="sxs-lookup"><span data-stu-id="45286-114">Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls.</span></span> <span data-ttu-id="45286-115">在给定一个已拨号码和拨号计划后，此 cmdlet 将验证将应用拨号计划中的哪个规范化规则以及已翻译的号码。</span><span class="sxs-lookup"><span data-stu-id="45286-115">Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.</span></span>
 
-<span data-ttu-id="84049-116">你可以使用此 cmdlet 解决数字翻译的问题, 或验证如何对某些号码应用规则。</span><span class="sxs-lookup"><span data-stu-id="84049-116">You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.</span></span>
+<span data-ttu-id="45286-116">你可以使用此 cmdlet 解决数字翻译的问题，或验证如何对某些号码应用规则。</span><span class="sxs-lookup"><span data-stu-id="45286-116">You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="84049-117">运行测试</span><span class="sxs-lookup"><span data-stu-id="84049-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="45286-117">运行测试</span><span class="sxs-lookup"><span data-stu-id="45286-117">Running the test</span></span>
 
-<span data-ttu-id="84049-118">CsDialPlan cmdlet 要求你执行两个操作。</span><span class="sxs-lookup"><span data-stu-id="84049-118">The Test-CsDialPlan cmdlet requires you to do two things.</span></span> <span data-ttu-id="84049-119">首先, 您必须获取正在测试的拨号计划的实例;可使用 CsDialPlan cmdlet 执行此操作。</span><span class="sxs-lookup"><span data-stu-id="84049-119">First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet.</span></span> <span data-ttu-id="84049-120">其次, 您必须指定必须规范化的电话号码。</span><span class="sxs-lookup"><span data-stu-id="84049-120">Second, you must specify the phone number that has to be normalized.</span></span> <span data-ttu-id="84049-121">电话号码所用的格式应与用户拨打/输入的号码相匹配。</span><span class="sxs-lookup"><span data-stu-id="84049-121">The format that is used for the phone number should match the number as dialed/entered by a user.</span></span> <span data-ttu-id="84049-122">例如, 此命令检索拨号计划的实例 RedmondDialPlan, 并检查电话号码12065551219是否可以正常化:</span><span class="sxs-lookup"><span data-stu-id="84049-122">For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:</span></span>
+<span data-ttu-id="45286-118">CsDialPlan cmdlet 要求你执行两个操作。</span><span class="sxs-lookup"><span data-stu-id="45286-118">The Test-CsDialPlan cmdlet requires you to do two things.</span></span> <span data-ttu-id="45286-119">首先，您必须获取正在测试的拨号计划的实例;可使用 CsDialPlan cmdlet 执行此操作。</span><span class="sxs-lookup"><span data-stu-id="45286-119">First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet.</span></span> <span data-ttu-id="45286-120">其次，您必须指定必须规范化的电话号码。</span><span class="sxs-lookup"><span data-stu-id="45286-120">Second, you must specify the phone number that has to be normalized.</span></span> <span data-ttu-id="45286-121">电话号码所用的格式应与用户拨打/输入的号码相匹配。</span><span class="sxs-lookup"><span data-stu-id="45286-121">The format that is used for the phone number should match the number as dialed/entered by a user.</span></span> <span data-ttu-id="45286-122">例如，此命令检索拨号计划的实例 RedmondDialPlan，并检查电话号码12065551219是否可以正常化：</span><span class="sxs-lookup"><span data-stu-id="45286-122">For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:</span></span>
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-<span data-ttu-id="84049-123">如果你具有自动添加国家/地区代码 (在本例中为 1) 和区号 (206) 的规范化规则, 则你可能需要检查电话号码 5551219, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="84049-123">If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:</span></span>
+<span data-ttu-id="45286-123">如果你具有自动添加国家/地区代码（在本例中为1）和区号（206）的规范化规则，则你可能需要检查电话号码5551219，如下所示：</span><span class="sxs-lookup"><span data-stu-id="45286-123">If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:</span></span>
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-<span data-ttu-id="84049-124">有关详细信息, 请参阅[CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="84049-124">For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) cmdlet.</span></span>
+<span data-ttu-id="45286-124">有关详细信息，请参阅[CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="45286-124">For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="84049-125">确定成功还是失败</span><span class="sxs-lookup"><span data-stu-id="84049-125">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="45286-125">确定成功还是失败</span><span class="sxs-lookup"><span data-stu-id="45286-125">Determining success or failure</span></span>
 
-<span data-ttu-id="84049-126">Test-CsDialPlan 不同于许多 Lync Server 测试 cmdlet, 因为它仅间接指示测试是成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="84049-126">Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed.</span></span> <span data-ttu-id="84049-127">使用 Test-CsDialPlan 时, 您不会收到与此类似的输出结果, 并明确标记结果:</span><span class="sxs-lookup"><span data-stu-id="84049-127">When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:</span></span>
+<span data-ttu-id="45286-126">Test-CsDialPlan 不同于许多 Lync Server 测试 cmdlet，因为它仅间接指示测试是成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="45286-126">Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed.</span></span> <span data-ttu-id="45286-127">使用 Test-CsDialPlan 时，您不会收到与此类似的输出结果，并明确标记结果：</span><span class="sxs-lookup"><span data-stu-id="45286-127">When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:</span></span>
 
-<span data-ttu-id="84049-128">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="84049-128">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="45286-128">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="45286-128">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="84049-129">结果: 成功</span><span class="sxs-lookup"><span data-stu-id="84049-129">Result : Success</span></span>
+<span data-ttu-id="45286-129">结果：成功</span><span class="sxs-lookup"><span data-stu-id="45286-129">Result : Success</span></span>
 
-<span data-ttu-id="84049-130">延迟:00:00: 06.8630376</span><span class="sxs-lookup"><span data-stu-id="84049-130">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="45286-130">延迟：00：00：06.8630376</span><span class="sxs-lookup"><span data-stu-id="45286-130">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="84049-131">时发生</span><span class="sxs-lookup"><span data-stu-id="84049-131">Error :</span></span>
+<span data-ttu-id="45286-131">时发生</span><span class="sxs-lookup"><span data-stu-id="45286-131">Error :</span></span>
 
-<span data-ttu-id="84049-132">自检</span><span class="sxs-lookup"><span data-stu-id="84049-132">Diagnosis :</span></span>
+<span data-ttu-id="45286-132">自检</span><span class="sxs-lookup"><span data-stu-id="45286-132">Diagnosis :</span></span>
 
-<span data-ttu-id="84049-133">相反, 如果 CsDialPlan 成功, 则你将收到有关能够成功转换和使用指定电话号码的规范化规则的信息:</span><span class="sxs-lookup"><span data-stu-id="84049-133">Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:</span></span>
+<span data-ttu-id="45286-133">相反，如果 CsDialPlan 成功，则你将收到有关能够成功转换和使用指定电话号码的规范化规则的信息：</span><span class="sxs-lookup"><span data-stu-id="45286-133">Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:</span></span>
 
-<span data-ttu-id="84049-134">TranslatedNumber: + 12065551219</span><span class="sxs-lookup"><span data-stu-id="84049-134">TranslatedNumber : +12065551219</span></span>
+<span data-ttu-id="45286-134">TranslatedNumber： + 12065551219</span><span class="sxs-lookup"><span data-stu-id="45286-134">TranslatedNumber : +12065551219</span></span>
 
-<span data-ttu-id="84049-135">MatchingRule: Description =;模式 = ^ (\\d (11)) $;转换 = + $ 1;</span><span class="sxs-lookup"><span data-stu-id="84049-135">MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;</span></span>
+<span data-ttu-id="45286-135">MatchingRule： Description =;模式 = ^ （\\d （11）） $;转换 = + $ 1;</span><span class="sxs-lookup"><span data-stu-id="45286-135">MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;</span></span>
 
-<span data-ttu-id="84049-136">Name = Prefix All;IsInternalExtension = False</span><span class="sxs-lookup"><span data-stu-id="84049-136">Name=Prefix All; IsInternalExtension=False</span></span>
+<span data-ttu-id="45286-136">Name = Prefix All;IsInternalExtension = False</span><span class="sxs-lookup"><span data-stu-id="45286-136">Name=Prefix All; IsInternalExtension=False</span></span>
 
-<span data-ttu-id="84049-137">如果测试 CsDialPlan 失败 (即, 如果拨号计划没有可以翻译指定电话号码的规范化规则), 您将只收到 "empty" 输出, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="84049-137">If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:</span></span>
+<span data-ttu-id="45286-137">如果测试 CsDialPlan 失败（即，如果拨号计划没有可以翻译指定电话号码的规范化规则），您将只收到 "empty" 输出，如下所示：</span><span class="sxs-lookup"><span data-stu-id="45286-137">If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:</span></span>
 
-<span data-ttu-id="84049-138">TranslatedNumber :</span><span class="sxs-lookup"><span data-stu-id="84049-138">TranslatedNumber :</span></span>
+<span data-ttu-id="45286-138">TranslatedNumber :</span><span class="sxs-lookup"><span data-stu-id="45286-138">TranslatedNumber :</span></span>
 
-<span data-ttu-id="84049-139">MatchingRule :</span><span class="sxs-lookup"><span data-stu-id="84049-139">MatchingRule :</span></span>
+<span data-ttu-id="45286-139">MatchingRule :</span><span class="sxs-lookup"><span data-stu-id="45286-139">MatchingRule :</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="84049-140">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="84049-140">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="45286-140">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="45286-140">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="84049-141">下面是测试 CsDialPlan 可能失败的一些常见原因:</span><span class="sxs-lookup"><span data-stu-id="84049-141">Here are some common reasons why Test-CsDialPlan might fail:</span></span>
+<span data-ttu-id="45286-141">下面是测试 CsDialPlan 可能失败的一些常见原因：</span><span class="sxs-lookup"><span data-stu-id="45286-141">Here are some common reasons why Test-CsDialPlan might fail:</span></span>
 
-  - <span data-ttu-id="84049-142">在指定电话号码时, 您可能使用了不正确的格式。</span><span class="sxs-lookup"><span data-stu-id="84049-142">You might have used an incorrect format when specifying the phone number.</span></span> <span data-ttu-id="84049-143">拨号计划包括允许 Lync Server 转换用户拨打或输入的电话号码的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="84049-143">Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user.</span></span> <span data-ttu-id="84049-144">因此, 您的拨号计划应具有与用户可能拨打的号码相匹配的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="84049-144">Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial.</span></span> <span data-ttu-id="84049-145">例如, 如果用户可能先拨打国家/地区代码、区号, 然后拨打电话号码, 则表示您的拨号计划应具有用于处理电话号码的规范化规则, 如下所示:</span><span class="sxs-lookup"><span data-stu-id="84049-145">For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:</span></span>
+  - <span data-ttu-id="45286-142">在指定电话号码时，您可能使用了不正确的格式。</span><span class="sxs-lookup"><span data-stu-id="45286-142">You might have used an incorrect format when specifying the phone number.</span></span> <span data-ttu-id="45286-143">拨号计划包括允许 Lync Server 转换用户拨打或输入的电话号码的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="45286-143">Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user.</span></span> <span data-ttu-id="45286-144">因此，您的拨号计划应具有与用户可能拨打的号码相匹配的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="45286-144">Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial.</span></span> <span data-ttu-id="45286-145">例如，如果用户可能先拨打国家/地区代码、区号，然后拨打电话号码，则表示您的拨号计划应具有用于处理电话号码的规范化规则，如下所示：</span><span class="sxs-lookup"><span data-stu-id="45286-145">For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:</span></span>
     
-    <span data-ttu-id="84049-146">12065551219</span><span class="sxs-lookup"><span data-stu-id="84049-146">12065551219</span></span>
+    <span data-ttu-id="45286-146">12065551219</span><span class="sxs-lookup"><span data-stu-id="45286-146">12065551219</span></span>
     
-    <span data-ttu-id="84049-147">但是, 如果输入错误的电话号码 (例如, 退出最终数字), 则 CsDialPlan 将失败。</span><span class="sxs-lookup"><span data-stu-id="84049-147">However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail.</span></span> <span data-ttu-id="84049-148">这是因为拨号计划有问题, 但您输入的电话号码不能解释。</span><span class="sxs-lookup"><span data-stu-id="84049-148">That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.</span></span>
+    <span data-ttu-id="45286-147">但是，如果输入错误的电话号码（例如，退出最终数字），则 CsDialPlan 将失败。</span><span class="sxs-lookup"><span data-stu-id="45286-147">However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail.</span></span> <span data-ttu-id="45286-148">这是因为拨号计划有问题，但您输入的电话号码不能解释。</span><span class="sxs-lookup"><span data-stu-id="45286-148">That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.</span></span>
 
 </div>
 
