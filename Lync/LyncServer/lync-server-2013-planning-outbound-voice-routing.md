@@ -3,6 +3,8 @@ title: Lync Server 2013：规划出站语音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824153"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-21_
+_**主题上次修改时间：** 2012-09-21_
 
-出站呼叫路由适用于发往公共交换电话网络 (PSTN) 网关、主干或专用分支 exchange (PBX) 的呼叫。 当用户发出呼叫时, 服务器会将电话号码标准化为164格式 (如有必要), 并尝试将其与 SIP URI 匹配。 如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。 通过配置下表中所述的服务器设置定义该逻辑。
+出站呼叫路由适用于发往公共交换电话网络（PSTN）网关、主干或专用分支 exchange （PBX）的呼叫。 当用户发出呼叫时，服务器会将电话号码标准化为164格式（如有必要），并尝试将其与 SIP URI 匹配。 如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。 通过配置下表中所述的服务器设置定义该逻辑。
 
 ### <a name="lync-server-outbound-call-routing-settings"></a>Lync Server 出站呼叫路由设置
 
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2012-09-21_
 
 ## <a name="in-this-section"></a>本节内容
 
-本部分提供了配置以下出站呼叫路由服务器设置的指南:
+本部分提供了配置以下出站呼叫路由服务器设置的指南：
 
   - <span></span>  
     [Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)

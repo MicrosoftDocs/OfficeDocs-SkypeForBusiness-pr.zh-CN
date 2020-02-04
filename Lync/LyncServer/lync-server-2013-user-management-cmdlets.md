@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 用户管理 cmdlet'
+title: Lync Server 2013：用户管理 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User management cmdlets
 ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a841daae6a811b6668c61ac1befca045fb73b03f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845504"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-18_
+_**主题上次修改时间：** 2013-02-18_
 
 Microsoft Lync Server 2013 中包含的用户管理 cmdlet 允许你启用、禁用和修改 Lync Server 用户帐户。
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 中包含的用户管理 cmdlet 允许你启用、禁
 
 ## <a name="user-management-cmdlets"></a>用户管理 Cmdlet
 
-大多数适用于用户和用户帐户的管理任务都可以从 Lync Server 控制面板执行。 主要例外是与音频会议提供商进行交易的 cmdlet。 可使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行用户管理任务。 通过使用脚本, 您可以自动执行某些任务。 以下是与管理用户和用户帐户直接相关的 cmdlet 的列表:
+大多数适用于用户和用户帐户的管理任务都可以从 Lync Server 控制面板执行。 主要例外是与音频会议提供商进行交易的 cmdlet。 可使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行用户管理任务。 通过使用脚本，您可以自动执行某些任务。 以下是与管理用户和用户帐户直接相关的 cmdlet 的列表：
 
   - <span></span>  
     [CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)

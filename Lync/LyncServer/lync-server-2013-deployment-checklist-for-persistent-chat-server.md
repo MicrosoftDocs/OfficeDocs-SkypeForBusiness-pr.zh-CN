@@ -3,6 +3,8 @@ title: Lync Server 2013：持久聊天服务器的部署清单
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e539a1aa6883863228aaab19ddaa38300ae45591
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80122534739d443dedaeeb203ab09da94cb0067
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830506"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-16_
+_**主题上次修改时间：** 2012-10-16_
 
-将 Lync Server 2013 部署为持久聊天服务器需要按正确的顺序部署它, 并完成所有所需的部署步骤。
+将 Lync Server 2013 部署为持久聊天服务器需要按正确的顺序部署它，并完成所有所需的部署步骤。
 
 <div>
 
 ## <a name="deployment-sequence"></a>部署序列
 
-部署初始拓扑 (包括至少一个 Lync Server 2013、前端池或一个 Lync Server 2013、标准版服务器) 之后, 你可以部署持久聊天服务器。 本主题介绍了如何通过将持久聊天服务器添加到现有部署来部署它。
+部署初始拓扑（包括至少一个 Lync Server 2013、前端池或一个 Lync Server 2013、标准版服务器）之后，你可以部署持久聊天服务器。 本主题介绍了如何通过将持久聊天服务器添加到现有部署来部署它。
 
 </div>
 
@@ -49,7 +51,7 @@ _**主题上次修改时间:** 2012-10-16_
 
 ## <a name="deployment-process"></a>部署过程
 
-下表列出了部署持久聊天服务器的基本步骤, 并提供了更多详细信息的链接。
+下表列出了部署持久聊天服务器的基本步骤，并提供了更多详细信息的链接。
 
 ### <a name="persistent-chat-server-deployment-process"></a>持久聊天服务器部署过程
 
@@ -73,14 +75,14 @@ _**主题上次修改时间:** 2012-10-16_
 <td><p><strong>安装必备硬件和软件</strong></p></td>
 <td><p>在满足系统要求的硬件上安装以下内容：</p>
 <ul>
-<li><p>在持久聊天服务器前端服务器上:</p></li>
+<li><p>在持久聊天服务器前端服务器上：</p></li>
 </ul>
 <ul>
 <li><p>满足系统要求的操作系统</p></li>
 <li><p>运行 Lync Server 2013 的计算机的软件先决条件</p></li>
 <li><p>将托管持久聊天服务器数据库的服务器上的 SQL Server</p></li>
 </ul>
-<p>如果需要持久聊天服务器合规性, 请执行以下操作:</p>
+<p>如果需要持久聊天服务器合规性，请执行以下操作：</p>
 <ul>
 <li><p>服务器上将托管持久聊天服务器合规性数据库的 SQL Server</p></li>
 </ul></td>
@@ -91,11 +93,11 @@ _**主题上次修改时间:** 2012-10-16_
 <p><a href="lync-server-2013-technical-requirements-for-persistent-chat-server.md">Lync Server 2013 中持久聊天服务器的技术要求</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>创建适当的内部拓扑以支持持久聊天服务器 (以及持续聊天合规性)</strong></p></td>
-<td><p>运行拓扑生成器以将持久聊天服务器池添加到拓扑中:</p>
+<td><p><strong>创建适当的内部拓扑以支持持久聊天服务器（以及持续聊天合规性）</strong></p></td>
+<td><p>运行拓扑生成器以将持久聊天服务器池添加到拓扑中：</p>
 <ul>
 <li><p>向拓扑添加持久聊天服务器组件</p></li>
-<li><p>为持久聊天服务器存储创建 SQL Server 数据库 (以及用于灾难恢复的备份 SQL Server)</p></li>
+<li><p>为持久聊天服务器存储创建 SQL Server 数据库（以及用于灾难恢复的备份 SQL Server）</p></li>
 <li><p>定义新的 Lync 文件存储或对持久聊天服务器文件使用现有 Lync 文件存储</p></li>
 <li><p>关联可将请求路由到此持久聊天服务器池的 Lync Server 2013 池</p></li>
 </ul>
@@ -105,14 +107,14 @@ _**主题上次修改时间:** 2012-10-16_
 <li><p>单击 "持久聊天服务器池定义" 复选框以启用合规性</p></li>
 <li><p>发布拓扑</p></li>
 </ul>
-<p>如果在标准版上安装持久聊天服务器, 则持久聊天服务器池的完全限定的域名 (FQDN) 必须与标准版服务器匹配, 并且 SQL Server 数据库在标准版的 SQL Server Express 实例上 collocatedEdition 服务器</p></td>
+<p>如果在标准版上安装持久聊天服务器，则持久聊天服务器池的完全限定的域名（FQDN）必须与标准版服务器匹配，并且 SQL Server 数据库在标准版的 SQL Server Express 实例上 collocatedEdition 服务器</p></td>
 <td><p>要定义拓扑，需要具有本地 Users 组成员身份的帐户。</p>
-<p>若要发布拓扑 (属于 "域管理员" 组和 "RTCUniversalServerAdmins" 组的成员), 用户还应该对永久聊天服务器文件具有 "Lync 文件存储" 的 "完全控制" 权限 (读/写/修改), 以便该拓扑生成器可以配置所需的 Dacl)。</p></td>
+<p>若要发布拓扑（属于 "域管理员" 组和 "RTCUniversalServerAdmins" 组的成员），并且用户还应该对永久聊天服务器文件具有 "Lync 文件存储" 的 "完全控制" 权限（读/写/修改），以便拓扑生成器可以配置所需的 Dacl。</p></td>
 <td><p>在部署文档的<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync Server 2013 中将持久聊天服务器添加到你的部署</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>部署持久聊天服务器</strong></p></td>
-<td><p>在运行持久聊天服务器的所有计算机上运行 Lync Server 设置。 永久性聊天服务器设置集成到 Lync Server 2013 部署向导中, 该向导提供以下说明:</p>
+<td><p>在运行持久聊天服务器的所有计算机上运行 Lync Server 设置。 永久性聊天服务器设置集成到 Lync Server 2013 部署向导中，该向导提供以下说明：</p>
 <ul>
 <li><p>部署本地管理存储</p></li>
 <li><p>安装持久聊天服务器服务</p></li>
@@ -146,7 +148,7 @@ _**主题上次修改时间:** 2012-10-16_
 
 
 > [!IMPORTANT]  
-> 你可以部署一个或多个持久聊天服务器池。 我们支持多个持久聊天服务器池的原因是, 在给定区域生成的数据需要保留在该区域中。 例如, 如果在芝加哥部署持久聊天服务器池, 而另一个在苏黎世中遵守了瑞士数据的规章, 则用户可以在持久聊天服务器池中连接到聊天室, 前提是他们有权访问。
+> 你可以部署一个或多个持久聊天服务器池。 我们支持多个持久聊天服务器池的原因是，在给定区域生成的数据需要保留在该区域中。 例如，如果在芝加哥部署持久聊天服务器池，而另一个在苏黎世中遵守了瑞士数据的规章，则用户可以在持久聊天服务器池中连接到聊天室，前提是他们有权访问。
 
 
 

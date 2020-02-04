@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 持久聊天服务器 cmdlet'
+title: Lync Server 2013：持久聊天服务器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat Server cmdlets
 ms:assetid: 5aa59edb-db57-406f-9fbd-54bf1a55d31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f71b1f87c236384bd8ec22485981222c05bf4f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5609939fa28a68e53f3b24cf469df4665bbaaa0b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825224"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34825224"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-27_
+_**主题上次修改时间：** 2012-06-27_
 
-利用永久聊天 cmdlet, 你可以管理和配置 Microsoft Lync Server 2013 持久聊天服务 (以前称为群组聊天服务)。 持久聊天使用户能够参与联机即时消息会话。 虽然这些会话可以实时进行, 但每个会话的内容都是持久的;这意味着任何人都可以随时恢复这些对话。
+利用永久聊天 cmdlet，你可以管理和配置 Microsoft Lync Server 2013 持久聊天服务（以前称为群组聊天服务）。 持久聊天使用户能够参与联机即时消息会话。 虽然这些会话可以实时进行，但每个会话的内容都是持久的;这意味着任何人都可以随时恢复这些对话。
 
 <div>
 
 ## <a name="persistent-chat-cmdlets"></a>持久聊天 Cmdlet
 
-利用持久聊天 cmdlet, 你可以管理和配置 Lync Server 持久聊天服务。
+利用持久聊天 cmdlet，你可以管理和配置 Lync Server 持久聊天服务。
 
 **持久聊天 Cmdlet**
 

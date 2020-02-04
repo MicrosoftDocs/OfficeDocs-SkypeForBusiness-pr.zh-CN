@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: PSTN 连接 cmdlet'
+title: Lync Server 2013： PSTN 连接 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN connectivity cmdlets
 ms:assetid: b19ba43c-3987-410d-a704-aba0a4fb0498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7271622dbfefee9c0c96063b242015ab7f7225b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cf6adeec7b2a1cd3e73d60b918a68b2d31c48f3c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823712"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823712"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-企业语音提供的设置允许呼叫和从公共交换电话网络 (PSTN) 呼叫, 而不会拒绝任何服务质量 (QoS)。 你可以通过 Lync Server 命令行管理程序中提供的 cmdlet 配置这些设置。
+企业语音提供的设置允许呼叫和从公共交换电话网络（PSTN）呼叫，而不会拒绝任何服务质量（QoS）。 你可以通过 Lync Server 命令行管理程序中提供的 cmdlet 配置这些设置。
 
 <div>
 

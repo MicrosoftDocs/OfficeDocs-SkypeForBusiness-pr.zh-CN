@@ -3,6 +3,8 @@ title: 适用于 A/V 会议的 Lync Server 2013 部署清单
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for A/V conferencing
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d787cbc1e2bbefcc2cb125e64ab7143ddbd6cf2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 736719475d77f67932b350e1684b4af26ca2fbd6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830507"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-30_
+_**主题上次修改时间：** 2012-09-30_
 
-与其他 Lync Server 2013 组件的部署一样, 部署 A/V 会议需要使用拓扑生成器创建和发布合并会议的拓扑。
+与其他 Lync Server 2013 组件的部署一样，部署 A/V 会议需要使用拓扑生成器创建和发布合并会议的拓扑。
 
 <div>
 
 ## <a name="deployment-sequence"></a>部署序列
 
-在部署初始拓扑时, 或者在部署了至少一个前端池或标准版服务器之后, 你可以部署会议。
+在部署初始拓扑时，或者在部署了至少一个前端池或标准版服务器之后，你可以部署会议。
 
 </div>
 
@@ -74,7 +76,7 @@ _**主题上次修改时间:** 2012-09-30_
 <div>
 
 > [!NOTE]  
-> Lync Server 2013 使用 Office Web Apps 和 Office Web Apps 服务器处理 PowerPoint 演示文稿的共享和呈现。 有关安装和配置 Office Web Apps 服务器的详细信息, 请参阅<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office web Apps server 和 Lync server 2013 的集成</A>。
+> Lync Server 2013 使用 Office Web Apps 和 Office Web Apps 服务器处理 PowerPoint 演示文稿的共享和呈现。 有关安装和配置 Office Web Apps 服务器的详细信息，请参阅<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office web Apps server 和 Lync server 2013 的集成</A>。
 
 
 </div></td>
@@ -86,15 +88,15 @@ _**主题上次修改时间:** 2012-09-30_
 </tr>
 <tr class="even">
 <td><p><strong>创建相应的内部拓扑以支持会议</strong></p></td>
-<td><p>运行拓扑生成器以将会议添加到拓扑, 然后发布拓扑。</p></td>
+<td><p>运行拓扑生成器以将会议添加到拓扑，然后发布拓扑。</p></td>
 <td><p>若要定义拓扑，需具有本地 Users 组成员的帐户</p>
-<p>若要发布拓扑, 是域管理员组和 RTCUniversalServerAdmins 组的成员的帐户, 并且具有对 Lync Server 2013 文件存储使用的文件共享的完全控制权限 (读/写/修改), 以便拓扑生成器可以配置所需的 Dacl)</p></td>
-<td><p>在部署文档中, 在<a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Lync Server 2013 的拓扑生成器中定义和配置拓扑</a>。</p></td>
+<p>若要发布拓扑，是域管理员组和 RTCUniversalServerAdmins 组的成员的帐户，并且具有对 Lync Server 2013 文件存储使用的文件共享的完全控制权限（读/写/修改），以便拓扑生成器可以配置所需的 Dacl。</p></td>
+<td><p>在部署文档中，在<a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Lync Server 2013 的拓扑生成器中定义和配置拓扑</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>配置会议策略和支持</strong></p></td>
 <td><p>使用 Lync Server 2013 控制面板或 Lync Server Management Shell 配置会议设置。</p></td>
-<td><p>RTCUniversalServerAdmins 组 (仅限 Windows PowerShell) 或将用户分配到 [] 或 CSAdministrator 角色</p></td>
+<td><p>RTCUniversalServerAdmins 组（仅限 Windows PowerShell）或将用户分配到 [] 或 CSAdministrator 角色</p></td>
 <td><p><a href="lync-server-2013-conferencing-policies.md">Lync Server 2013 中的会议策略</a>在操作文档中。</p></td>
 </tr>
 </tbody>

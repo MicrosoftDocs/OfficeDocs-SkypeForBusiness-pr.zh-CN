@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 发布位置数据库'
+title: Lync Server 2013：发布位置数据库
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the location database
 ms:assetid: dd032b5b-df0e-4017-ac46-e17570c1ab1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2afc13a67ccdad3d27328107e095f1bffa66fdcf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4e42d73a5b7ac36439aca673ff68c03cc13f50f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823950"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34823950"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-30_
+_**主题上次修改时间：** 2012-10-30_
 
 只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。
 
-有关详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - **Publish-CsLisConfiguration**
 
-如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录, 并根据需要设置其格式。
+如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录，并根据需要设置其格式。
 
 <div>
 
 ## <a name="to-publish-the-location-database"></a>发布位置数据库
 
-  - 启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+  - 启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
   - 运行以下 cmdlet 发布位置数据库。
     

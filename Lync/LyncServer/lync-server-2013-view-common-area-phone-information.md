@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看常见的区域电话信息'
+title: Lync Server 2013：查看常见的区域电话信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View common area phone information
 ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900beb4f96fd71e0e6a4ded40d776f1e7d356529
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845363"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845363"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-20_
+_**主题上次修改时间：** 2013-02-20_
 
-你可以使用**CsCommonAreaPhone** cmdlet 查看配置为在你的组织中使用的公共区域电话的相关信息。 如果在没有任何参数的情况下使用, 此 cmdlet 将返回有关所有公共区域电话的信息。 可选参数提供不同的筛选信息的方式。 例如, 您可以返回在指定的组织单位 (OU) 中具有联系人对象的所有公共区域电话或位于指定建筑物内的所有联系人对象。 有关**CsCommonAreaPhone**参数的详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)。
+你可以使用**CsCommonAreaPhone** cmdlet 查看配置为在你的组织中使用的公共区域电话的相关信息。 如果在没有任何参数的情况下使用，此 cmdlet 将返回有关所有公共区域电话的信息。 可选参数提供不同的筛选信息的方式。 例如，您可以返回在指定的组织单位（OU）中具有联系人对象的所有公共区域电话或位于指定建筑物内的所有联系人对象。 有关**CsCommonAreaPhone**参数的详细信息，请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)。
 
 从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行**CsCommonAreaPhone** 。
 
@@ -46,11 +48,11 @@ _**主题上次修改时间:** 2013-02-20_
 
 ## <a name="viewing-information-about-all-your-common-area-phones"></a>查看有关所有常用区域电话的信息
 
-  - 若要查看有关所有常用区域电话的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 Enter:
+  - 若要查看有关所有常用区域电话的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 Enter：
     
         Get-CsCommonAreaPhone
     
-    您将获得类似以下内容的信息:
+    您将获得类似以下内容的信息：
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -72,7 +74,7 @@ _**主题上次修改时间:** 2013-02-20_
 
 </div>
 
-有关详细信息, 请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) Cmdlet 的帮助主题。
+有关详细信息，请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) Cmdlet 的帮助主题。
 
 </div>
 

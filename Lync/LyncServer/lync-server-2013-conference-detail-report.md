@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 会议详细信息报告'
+title: Lync Server 2013：会议详细信息报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Detail Report
 ms:assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204728(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac598c3f85211ad97f2d6266b74b6c524d76d006
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e8e2cd992e83adb29c43935d4b4c7f223580d53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837494"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
 会议详细信息报告提供有关参与会议的所有用户的详细信息。例如，您可以查看用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的端点的用户代理等信息。还可以查看用户在每个会议中的角色的信息（例如，演示者或与会者）。可能最重要的是，您可以快速查看哪些用户成功加入和完成会议，哪些用户无法成功加入和完成会议。
 
@@ -43,13 +45,13 @@ _**主题上次修改时间:** 2012-10-22_
 
 可从以下报告中访问会议详细信息报告：
 
-  - [Lync Server 2013 中的呼叫许可控制报告](lync-server-2013-call-admission-control-report.md)(通过单击会议的详细信息指标)
+  - [Lync Server 2013 中的呼叫许可控制报告](lync-server-2013-call-admission-control-report.md)（通过单击会议的详细信息指标）
 
-  - [Lync Server 2013 中的 "失败列表" 报表](lync-server-2013-failure-list-report.md)(通过单击会议跃点数)
+  - [Lync Server 2013 中的 "失败列表" 报表](lync-server-2013-failure-list-report.md)（通过单击会议跃点数）
 
-  - [Lync Server 2013 中的用户活动报表](lync-server-2013-user-activity-report.md)(通过单击会议 URI 跃点数)
+  - [Lync Server 2013 中的用户活动报表](lync-server-2013-user-activity-report.md)（通过单击会议 URI 跃点数）
 
-在 "会议详细信息报告" 中, 可以通过单击诊断报告 (详细信息) 指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。
+在 "会议详细信息报告" 中，可以通过单击诊断报告（详细信息）指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。
 
 </div>
 

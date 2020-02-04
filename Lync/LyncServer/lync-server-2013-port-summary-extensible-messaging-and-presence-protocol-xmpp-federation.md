@@ -1,8 +1,10 @@
 ---
-title: 端口摘要-可扩展消息传递和状态协议 (XMPP) 联合身份验证
+title: 端口摘要-可扩展消息传递和状态协议（XMPP）联合身份验证
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary -  Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b36a74393a8c61d5281bb009d212ee0bb12cf0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a18129fce98b3bb9bc613f4fc752daadfb6c5ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824188"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824188"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-可扩展消息和状态协议 (XMPP) 联合
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-可扩展消息和状态协议（XMPP）联合
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824188"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-20_
+_**主题上次修改时间：** 2012-10-20_
 
-为在 Edge 服务器上部署的可扩展消息和状态协议 (XMPP) 代理定义的端口和协议允许从 XMPP 联盟合作伙伴到边缘服务器的通信, 还允许从边缘服务器到 XMPP 的通信。联盟合作伙伴。 规则还在面向内部的防火墙上定义, 从前端服务器或前端池到边缘服务器或边缘池。
+为在 Edge 服务器上部署的可扩展消息和状态协议（XMPP）代理定义的端口和协议允许从 XMPP 联盟合作伙伴到边缘服务器的通信，还允许从边缘服务器到 XMPP 的通信。联盟合作伙伴。 规则还在面向内部的防火墙上定义，从前端服务器或前端池到边缘服务器或边缘池。
 
 <div>
 
@@ -52,8 +54,8 @@ _**主题上次修改时间:** 2012-10-20_
 <thead>
 <tr class="header">
 <th>协议/TCP 或 UDP/端口</th>
-<th>源 (IP 地址)</th>
-<th>目标 (IP 地址)</th>
+<th>源（IP 地址）</th>
+<th>目标（IP 地址）</th>
 <th>备注</th>
 </tr>
 </thead>

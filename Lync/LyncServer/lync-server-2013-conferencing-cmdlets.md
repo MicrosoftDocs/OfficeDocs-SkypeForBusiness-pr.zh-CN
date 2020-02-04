@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 会议 cmdlet'
+title: Lync Server 2013：会议 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd951904e14d864c165ff98c50088b96e42f04f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837475"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-Microsoft Lync Server 2013 允许用户通过两种不同的方式加入会议: 通过使用诸如 Lync 2013 之类的会议应用程序或使用电话拨打电话。 拨入用户不能执行查看幻灯片或 exchange 即时消息等操作, 但他们能够完全参与会议的音频部分。
+Microsoft Lync Server 2013 允许用户通过两种不同的方式加入会议：通过使用诸如 Lync 2013 之类的会议应用程序或使用电话拨打电话。 拨入用户不能执行查看幻灯片或 exchange 即时消息等操作，但他们能够完全参与会议的音频部分。
 
 <div>
 
 ## <a name="conferencing-cmdlets"></a>会议 Cmdlet
 
-**CsDialInConferencing** cmdlet 用于配置电话拨入式会议属性, 包括指定用户可以呼叫的电话号码的所有内容, 以便将会议加入到会议 (例如, 按6将电话静音或取消静音。 会议的大多数其他功能 (例如, 用户可以录制会议、用户在会议期间共享应用程序等) 通过使用**CsConferencingPolicy** cmdlet 进行管理。
+**CsDialInConferencing** cmdlet 用于配置电话拨入式会议属性，包括从指定用户可以呼叫的电话号码到用户在加入会议后可用的电话号码的所有内容（例如，按6键静音或取消静音）。 会议的大多数其他功能（例如，用户可以录制会议、用户在会议期间共享应用程序等）通过使用**CsConferencingPolicy** cmdlet 进行管理。
 
 **[Lync Server 2013 中的电话拨入式会议 cmdlet](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 组呼叫装货的技术要求'
+title: Lync Server 2013：组呼叫装货的技术要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Group Call Pickup
 ms:assetid: acbabe3d-359a-4936-b7bf-320312101d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65fcf0fd63d16a59cd9f0a78f1e0b9a2c77520d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a24f9e5b3950f45804a816e44e13382fc7d3cc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845687"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845687"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-01-30_
+_**主题上次修改时间：** 2013-01-30_
 
 组呼叫装货具有与呼叫寄存应用程序相同的硬件、软件和端口要求。 组呼叫分拣不使用音频文件。
 

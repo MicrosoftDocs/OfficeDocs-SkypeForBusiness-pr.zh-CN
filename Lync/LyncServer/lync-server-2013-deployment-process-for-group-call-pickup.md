@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 组呼叫装货的部署过程'
+title: Lync Server 2013：组呼叫装货的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Group Call Pickup
 ms:assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945615(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ff5eda01c5436240c0baca2b1711bba8e9c996
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 015aa2817b7d829d1714288182775b42ba2bb1f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830472"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830472"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-25_
+_**主题上次修改时间：** 2013-02-25_
 
-本部分概述了部署组呼叫时所涉及的步骤。 您必须先部署企业版企业版或标准版, 然后再配置群组呼叫装货。 当您部署企业语音时, 将安装并启用组呼叫挑选所需的组件。
+本部分概述了部署组呼叫时所涉及的步骤。 您必须先部署企业版企业版或标准版，然后再配置群组呼叫装货。 当您部署企业语音时，将安装并启用组呼叫挑选所需的组件。
 
 ### <a name="group-call-pickup-deployment-process"></a>组内呼叫应答部署过程
 
@@ -69,7 +71,7 @@ _**主题上次修改时间:** 2013-02-25_
 </tr>
 <tr class="even">
 <td><p>在呼叫寄存通道表中配置呼叫应答号码范围</p></td>
-<td><p>使用<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建呼叫装货号码范围, 并将 "呼叫装货" 范围分配给类型 GroupPickup。</p>
+<td><p>使用<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建呼叫装货号码范围，并将 "呼叫装货" 范围分配给类型 GroupPickup。</p>
 <div>
 
 > [!NOTE]  
@@ -91,14 +93,14 @@ _**主题上次修改时间:** 2013-02-25_
 <td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">在 Lync Server 2013 中配置呼叫装货组号码</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>为用户分配呼叫装货号码, 并为用户启用组呼叫装货</p></td>
-<td><p>使用 SEFAUtil 资源工具包工具中的/enablegrouppickup 参数启用组呼叫装货, 并为用户分配呼叫装货号码。</p></td>
+<td><p>为用户分配呼叫装货号码，并为用户启用组呼叫装货</p></td>
+<td><p>使用 SEFAUtil 资源工具包工具中的/enablegrouppickup 参数启用组呼叫装货，并为用户分配呼叫装货号码。</p></td>
 <td><p>-</p></td>
 <td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">为 Lync Server 2013 中的用户启用组呼叫装货和分配组号码</a></p></td>
 </tr>
 <tr class="even">
 <td><p>通知用户其分配的呼叫应答号码和任何其他相关号码</p></td>
-<td><p>由于任何用户都可以检索对组调用 Pickup 用户的呼叫, 因此用户可能希望监视多个组。</p></td>
+<td><p>由于任何用户都可以检索对组调用 Pickup 用户的呼叫，因此用户可能希望监视多个组。</p></td>
 <td><p>-</p></td>
 <td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">向 Lync Server 2013 中的用户传达组呼叫装货作业</a></p></td>
 </tr>

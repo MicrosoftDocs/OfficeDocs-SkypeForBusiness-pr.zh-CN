@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 语音规范化规则 cmdlet'
+title: Lync Server 2013：语音规范化规则 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice normalization rules cmdlets
 ms:assetid: 8d500ccb-318b-4bb3-87fe-63bff4d8d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415662(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72574e59c51ae623629596bfef46da371072bbc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845288"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-语音规范化规则用于将电话拨号要求 (例如, 拨打9的外线) 转换为 Microsoft Lync Server 2013 使用的 E: 164 个电话号码格式。
+语音规范化规则用于将电话拨号要求（例如，拨打9的外线）转换为 Microsoft Lync Server 2013 使用的 E：164个电话号码格式。
 
 <div>
 

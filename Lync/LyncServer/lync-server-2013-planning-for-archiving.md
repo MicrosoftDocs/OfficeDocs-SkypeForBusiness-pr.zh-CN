@@ -3,6 +3,8 @@ title: Lync Server 2013：规划存档
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Archiving
 ms:assetid: 898b83c1-007b-43be-9484-08fe49c10951
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488c45c3dc917a4161ed6e606c2fc3bd4d47a71b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825112"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825112"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-公司和其他组织需要服从数量不断增多的行业规定和政府法规，这些规定和法规要求保留特定类型的通信。 如果你的组织具有此类要求, 你可以使用 Lync Server 2013 中的存档来存档即时消息 (IM) 和通过 Lync Server 发送的会议 (会议) 通信, 以帮助支持某些符合性要求。
+公司和其他组织需要服从数量不断增多的行业规定和政府法规，这些规定和法规要求保留特定类型的通信。 如果你的组织具有此类要求，你可以使用 Lync Server 2013 中的存档来存档即时消息（IM）和通过 Lync Server 发送的会议（会议）通信，以帮助支持某些符合性要求。
 
 <div>
 

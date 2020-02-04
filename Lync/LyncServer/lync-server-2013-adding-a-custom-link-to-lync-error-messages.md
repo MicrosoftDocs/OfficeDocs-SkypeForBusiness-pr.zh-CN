@@ -3,6 +3,8 @@ title: Lync Server 2013：向 Lync 错误消息添加自定义链接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding a custom link to Lync error messages
 ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f62dd7841f77a519653a658131423a89f77ed012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63523013d8df74a52fee307192d3f60eb5232121
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837939"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837939"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-20_
+_**主题上次修改时间：** 2013-02-20_
 
-通过添加您自己的疑难解答或技术支持信息的链接, 自定义 Lync 2013 错误消息。 若要执行此操作, 请将**set-csclientpolicy**或**set-csclientpolicy** Lync Server Management Shell cmdlet 与 CustomLinkInErrorMessages 参数一起使用。 自定义链接的文本为 "单击此处获取来自管理员的支持主题", 无法对其进行自定义。
+通过添加您自己的疑难解答或技术支持信息的链接，自定义 Lync 2013 错误消息。 若要执行此操作，请将**set-csclientpolicy**或**set-csclientpolicy** Lync Server Management Shell cmdlet 与 CustomLinkInErrorMessages 参数一起使用。 自定义链接的文本为 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。
 
-例如, 以下命令会使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中, 并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:
+例如，以下命令会使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-使用**Grant-set-csclientpolicy**将此新策略分配给用户。 有关详细信息, 请参阅 Lync Server Management Shell 文档中的 "**新建-set-csclientpolicy** " 和 "**授予" set-csclientpolicy** 。
+使用**Grant-set-csclientpolicy**将此新策略分配给用户。 有关详细信息，请参阅 Lync Server Management Shell 文档中的 "**新建-set-csclientpolicy** " 和 "**授予" set-csclientpolicy** 。
 
 </div>
 

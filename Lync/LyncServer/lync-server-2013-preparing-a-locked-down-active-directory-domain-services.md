@@ -3,6 +3,8 @@ title: Lync Server 2013：准备锁定的 Active Directory 域服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing a locked-down Active Directory Domain Services
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398492(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 482c5a59c6dc53fc712db7e77430367dd9c37af5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d589fbc6b7d31b38bc788ba9851edf4386294ea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823936"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34823936"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-05-14_
+_**主题上次修改时间：** 2012-05-14_
 
-组织通常会锁定 Active Directory 域服务以帮助降低安全风险。 但是, 锁定的活动目录环境可以限制 Lync Server 2013 所需的权限。 正确为 Lync Server 2013 准备锁定的活动目录环境涉及一些其他注意事项和步骤。
+组织通常会锁定 Active Directory 域服务以帮助降低安全风险。 但是，锁定的活动目录环境可以限制 Lync Server 2013 所需的权限。 正确为 Lync Server 2013 准备锁定的活动目录环境涉及一些其他注意事项和步骤。
 
-在锁定的活动目录环境中, 权限受到限制的两种常见方式如下所示:
+在锁定的活动目录环境中，权限受到限制的两种常见方式如下所示：
 
-  - 已从容器中删除经过身份验证的用户访问控制项 (Ace)。
+  - 已从容器中删除经过身份验证的用户访问控制项（Ace）。
 
   - 在用户、联系人、InetOrgPerson 或计算机对象的容器上禁用权限继承。
 

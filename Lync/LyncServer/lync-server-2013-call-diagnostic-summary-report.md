@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 调用诊断摘要报告'
+title: Lync Server 2013：调用诊断摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837708"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-06_
+_**主题上次修改时间：** 2012-06-06_
 
 呼叫诊断摘要报告提供失败的对等会话和会议会话的整体情况。该报告显示了两种类型的会话的整体故障率，并按以下会话形式类型进一步为故障信息分类：
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-06-06_
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 通过 "呼叫诊断摘要" 报告, 你可以通过单击报告的对等会话摘要部分下的 "失败率" 指标来访问[Lync Server 2013 中的对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)。 您也可以通过单击以下任一会议指标,[在 Lync Server 2013 中访问会议诊断报告](lync-server-2013-conference-diagnostic-report.md):
+呼叫诊断摘要报告是从监控报告主页访问的。 通过 "呼叫诊断摘要" 报告，你可以通过单击报告的对等会话摘要部分下的 "失败率" 指标来访问[Lync Server 2013 中的对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)。 您也可以通过单击以下任一会议指标，[在 Lync Server 2013 中访问会议诊断报告](lync-server-2013-conference-diagnostic-report.md)：
 
   - 总体会话故障率
 
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2012-06-06_
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>充分利用呼叫诊断摘要报告
 
-"呼叫诊断摘要" 报表包含的图表用于比较 Microsoft Lync Server 2013 中使用的各种形式的故障率。 这些图表中的列实际上是 hotlinks;例如, 如果您单击对等会话的 "即时消息" 列, 您将[在 Lync Server 2013 中](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)向下钻取到对等活动诊断报告的实例, 该报告提供有关所有即时的其他详细信息呼叫诊断摘要报告中包含的消息传递会话。
+"呼叫诊断摘要" 报表包含的图表用于比较 Microsoft Lync Server 2013 中使用的各种形式的故障率。 这些图表中的列实际上是 hotlinks;例如，如果单击对等会话的 "即时消息" 列，您将[在 Lync Server 2013 中向下钻取到对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)的实例，该报告提供有关 "呼叫诊断摘要" 报告中包含的所有即时消息会话的其他详细信息。
 
 </div>
 
@@ -120,7 +122,7 @@ _**主题上次修改时间:** 2012-06-06_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>池</strong></p></td>

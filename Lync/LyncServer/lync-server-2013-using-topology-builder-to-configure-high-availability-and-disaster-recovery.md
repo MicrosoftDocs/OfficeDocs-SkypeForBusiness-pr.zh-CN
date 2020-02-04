@@ -3,6 +3,8 @@ title: 使用拓扑生成器配置高可用性和灾难恢复
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Topology Builder to configure high availability and disaster recovery
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34845405"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-06_
+_**主题上次修改时间：** 2012-10-06_
 
-在拓扑生成器中执行以下步骤, 以配置持久聊天服务器的高可用性和灾难恢复。
+在拓扑生成器中执行以下步骤，以配置持久聊天服务器的高可用性和灾难恢复。
 
 1.  添加镜像数据库和日志传送辅助数据库 SQL Server 存储。
 
-2.  将持久聊天服务器服务属性编辑为:
+2.  将持久聊天服务器服务属性编辑为：
     
     1.  为主数据库启用镜像。
     

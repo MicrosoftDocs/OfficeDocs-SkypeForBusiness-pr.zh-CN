@@ -3,6 +3,8 @@ title: Lync Server 2013：配置 Active Directory 联合身份验证服务（AD 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Active Directory Federation Services (AD FS 2.0)
 ms:assetid: 0ba8657f-55b8-41b3-960c-fdc5eeee6978
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308561(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 68864b6e5773bcd1cb9f063b400015697285ba36
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

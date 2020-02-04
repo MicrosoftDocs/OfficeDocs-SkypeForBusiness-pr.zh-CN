@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 媒体质量指标分布报告'
+title: Lync Server 2013：媒体质量指标分布报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1d814fd001f3510a7ae83e63746bdc1265932e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827387"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827387"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-06_
+_**主题上次修改时间：** 2012-06-06_
 
 通过媒体质量指标分布报告可以查看显示用户体验质量指标（如抖动或数据包丢失）分布值的图形。例如，假设您的用户总共进行 10 次电话呼叫；这 10 次呼叫报告以下往返时间：
 
@@ -46,7 +48,7 @@ _**主题上次修改时间:** 2012-06-06_
 <thead>
 <tr class="header">
 <th>呼叫编号</th>
-<th>往返时间 (毫秒)</th>
+<th>往返时间（毫秒）</th>
 </tr>
 </thead>
 <tbody>
@@ -55,7 +57,7 @@ _**主题上次修改时间:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
@@ -94,9 +96,9 @@ _**主题上次修改时间:** 2012-06-06_
 </table>
 
 
-这些往返时间的平均值是500毫秒 (5000 除以 10)。 500毫秒是非常大的往返时间;因此, 你可能会认为你遇到了网络拥塞的严重问题。 (长往返时间通常是超载网络的结果。)
+这些往返时间的平均值是500毫秒（5000除以10）。 500毫秒是非常大的往返时间;因此，你可能会认为你遇到了网络拥塞的严重问题。 （长往返时间通常是超载网络的结果。）
 
-当然，实际上 90% 的呼叫有良好的往返时间；仅仅有一次呼叫不佳歪曲了整体结果。 如果您仅查看平均往返时间, 可能会跳转到一个非常错误的结论。
+当然，实际上 90% 的呼叫有良好的往返时间；仅仅有一次呼叫不佳歪曲了整体结果。 如果您仅查看平均往返时间，可能会跳转到一个非常错误的结论。
 
 媒体质量指标分布报告可显示指定指标（如往返时间）的图形分布，帮助您避免得出错误结论。这些图形有助于清楚表明有 9 次非常好的呼叫而只有 1 次非常不良的呼叫。无可否认地，您可能仍然想进一步调查那一次呼叫；但是，10 次呼叫中有 9 次非常好，表明没有理由对网络进行任何重大更改，至少此时不应更改。
 

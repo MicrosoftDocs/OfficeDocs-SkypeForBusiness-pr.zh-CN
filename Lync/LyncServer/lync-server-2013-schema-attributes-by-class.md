@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 按类分类的架构属性'
+title: Lync Server 2013：按类分类的架构属性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes by class
 ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 160a148705ececfcbe105dcbc3fca819d4790a0d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822039"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34822039"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-29_
+_**主题上次修改时间：** 2012-08-29_
 
-此部分列出了可以包含在每个 Lync Server 2013 类中的架构属性以及可以包含在其他类中的类。 有关所有类及其说明的列表, 请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表, 请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
+此部分列出了可以包含在每个 Lync Server 2013 类中的架构属性以及可以包含在其他类中的类。 有关所有类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置呼叫驻留设置'
+title: Lync Server 2013：配置呼叫驻留设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Call Park settings
 ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425886(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9acbd44acf2ca78042452d2c1f52d4c5fa26056f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837429"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-如果您不想使用默认呼叫寄存设置, 您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时, 默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
+如果您不想使用默认呼叫寄存设置，您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时，默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
 <div>
 
@@ -78,8 +80,8 @@ _**主题上次修改时间:** 2012-11-01_
 </tr>
 <tr class="even">
 <td><p><strong>OnTimeoutURI</strong></p></td>
-<td><p>当超过<strong>MaxCallPickupAttempts</strong>时, 未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。</p>
-<p>值必须是以字符串 sip 开头的 SIP URI:。 例如, sip:bob@contoso.com。 默认为无转发地址。</p></td>
+<td><p>当超过<strong>MaxCallPickupAttempts</strong>时，未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。</p>
+<p>值必须是以字符串 sip 开头的 SIP URI：。 例如，sip:bob@contoso.com。 默认为无转发地址。</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,9 +91,9 @@ _**主题上次修改时间:** 2012-11-01_
 
 ## <a name="to-configure-call-park-settings"></a>配置呼叫寄存设置
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机, 如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  运行：
     
@@ -101,7 +103,7 @@ _**主题上次修改时间:** 2012-11-01_
     
 
     > [!TIP]  
-    > 使用<STRONG>CsSite</STRONG> cmdlet 标识该网站。 有关详细信息, 请参阅 Lync Server 命令行管理程序文档。
+    > 使用<STRONG>CsSite</STRONG> cmdlet 标识该网站。 有关详细信息，请参阅 Lync Server 命令行管理程序文档。
 
     
     </div>

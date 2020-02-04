@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 删除响应组队列'
+title: Lync Server 2013：删除响应组队列
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a Response Group queue
 ms:assetid: 67c7a489-8c5f-4c6b-9387-9d4c11d43695
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f713407756863e1976be536cf16e9557c93a56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830642"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 使用以下过程之一删除队列。
 
@@ -43,13 +45,13 @@ _**主题上次修改时间:** 2012-11-01_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“队列”****。
 
-4.  在 "搜索" 字段中, 键入要删除的队列的部分或全部名称。
+4.  在 "搜索" 字段中，键入要删除的队列的部分或全部名称。
 
-5.  在队列列表中, 单击所需的队列, 单击 "**编辑**", 然后单击 "**删除**"。
+5.  在队列列表中，单击所需的队列，单击 "**编辑**"，然后单击 "**删除**"。
 
 6.  单击“**确定**”。
 
@@ -61,7 +63,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  在命令行中运行：
     

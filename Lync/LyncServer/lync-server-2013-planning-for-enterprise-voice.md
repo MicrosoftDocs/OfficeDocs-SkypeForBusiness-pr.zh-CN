@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 规划企业语音'
+title: Lync Server 2013：规划企业语音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Enterprise Voice
 ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29732d1690e1934f811df6fc448596e987205791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 83b0ec944ad857ffccb419cf9ed36fbca92306c8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824846"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41753252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34824846"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-11-01_
+_**主题上次修改时间：** 2013-11-01_
 
 企业语音的部署过程取决于你的现有拓扑、基础结构和你希望支持的企业语音功能。 所需过程将取决于您选择的功能，但还有另一些规划注意事项需要您重点关注。
 
-通常, 请考虑要部署的网站的类型和数量以及它们的地理位置、每个网站的调用卷、连接网站的网络链接的类型, 无论你是否希望为每个网站提供语音功能的冗余和故障转移网站, 以及是否希望使用现有的 PBX 设备。 在规划 Lync Server 通信软件的整体时, 应考虑以下一些事项 (如高可用性)。 这些注意事项将根据需要在本部分中的主题中进行讨论。
+通常，请考虑要部署的网站的类型和数量以及它们的地理位置、每个网站的调用卷、连接网站的网络链接的类型，无论你是否希望为每个网站提供语音功能的冗余和故障转移网站，以及是否希望使用现有的 PBX 设备。 在规划 Lync Server 通信软件的整体时，应考虑以下一些事项（如高可用性）。 这些注意事项将根据需要在本部分中的主题中进行讨论。
 
 <div>
 
 ## <a name="planning-considerations"></a>规划注意事项
 
-有关特定企业语音功能或组件部署的计划决策, 请参阅本部分中的主题。
+有关特定企业语音功能或组件部署的计划决策，请参阅本部分中的主题。
 
   - [在 Lync Server 2013 中定义企业语音要求](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 

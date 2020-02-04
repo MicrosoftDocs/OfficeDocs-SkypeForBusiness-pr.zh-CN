@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 填充位置数据库'
+title: Lync Server 2013：填充位置数据库
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824048"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824048"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-17_
+_**主题上次修改时间：** 2012-09-17_
 
 要在网络中自动定位客户端，首先需要使用网络*线路映射*填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
 
@@ -66,8 +68,8 @@ _**主题上次修改时间:** 2012-09-17_
 </tr>
 <tr class="odd">
 <td><p><strong>端口</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt; 、HouseNumberSuffix&gt;,.。。</p>
-<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;省&gt;/&lt;市&gt;/&lt;自治区、邮政编码该国&gt;</p></td>
+<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix,.。。</p>
+<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>交换机</strong></p></td>
@@ -80,7 +82,7 @@ _**主题上次修改时间:** 2012-09-17_
 
 如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
 
-有关填充位置数据库的详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关填充位置数据库的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - **CsLisSubnet**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 位置报告'
+title: Lync Server 2013：位置报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location Report
 ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4bb42f32313acd3609b21180ddaef90c53c27564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829943"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34829943"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
 位置报告提供按网络位置（即，按网络子网）分组的呼叫质量指标信息。如果您的用户在呼叫时遇到问题，此报告可帮助您确定这些问题是普遍存在还是主要限制在特定网段。
 
@@ -174,7 +176,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="even">
 <td><p><strong>性能降低 (MOS)</strong></p></td>
 <td><p>是</p></td>
-<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中, Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
+<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中，Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
 <p>高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
@@ -185,7 +187,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="even">
 <td><p><strong>抖动</strong></p></td>
 <td><p>是</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

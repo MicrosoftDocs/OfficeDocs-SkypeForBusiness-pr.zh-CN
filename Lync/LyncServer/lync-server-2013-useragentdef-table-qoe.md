@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: UserAgentDef table (QoE)'
+title: Lync Server 2013： UserAgentDef table （QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table (QoE)
 ms:assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205259(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3adfe05a24d2a45cf5d6d279b29d77b1c7654012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845474"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgentDef 表 (QoE)
+# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgentDef 表（QoE）
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845474"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-03-25_
+_**主题上次修改时间：** 2014-03-25_
 
 UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Microsoft Lync Server 2013 的软件客户端。
 
@@ -58,7 +60,7 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
@@ -99,17 +101,17 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_ 1。0</p></td>
+<td><p>Conferencing_Announcement_Service_1 0</p></td>
 <td><p>而言</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_ 1。0</p></td>
+<td><p>Conferencing_Attendant_1 0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_ 1。0</p></td>
+<td><p>Conference_Auto_Attendant_1 0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
@@ -119,7 +121,7 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_ 1。0</p></td>
+<td><p>Call_Park_Service_1 0</p></td>
 <td><p>方面</p></td>
 </tr>
 <tr class="odd">

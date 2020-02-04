@@ -3,6 +3,8 @@ title: 使用集中日志记录服务创建的捕获日志的搜索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using search on capture logs created by the Centralized Logging Service
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47b9d11713e874915fac0e4b67099ce3f7456546
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edfc176934479aef04d6850a8ebbae3b38a553a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845410"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845410"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
-集中日志记录服务中的搜索功能非常有用且功能强大, 原因如下:
+集中日志记录服务中的搜索功能非常有用且功能强大，原因如下：
 
   - 根据您定义的条件，搜索和结果可在单台计算机、池、站点或全局范围运行。
 
@@ -47,9 +49,9 @@ _**主题上次修改时间:** 2013-02-21_
 
 在每次搜索后，**Sync-CsClsLogging** cmdlet 都会运行并且它会刷新搜索使用的缓存（不要与 CLSAgent 维护的缓存文件混淆）。 刷新缓存有助于确保在 CLSController 中存在用于下一次搜索操作的干净日志和跟踪文件捕获缓冲区。
 
-若要从集中式日志记录服务获得最大好处, 你需要了解如何配置搜索以仅从计算机和池日志中返回跟踪消息, 这些消息与你正在研究的问题相关。 故障
+若要从集中式日志记录服务获得最大好处，你需要了解如何配置搜索以仅从计算机和池日志中返回跟踪消息，这些消息与你正在研究的问题相关。 故障
 
-若要使用 Lync Server Management Shell 运行集中式日志记录服务搜索功能, 您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制 (RBAC) 安全组的成员, 或者是包含以下项的自定义 RBAC 角色这两个组中的任何一个。 若要返回已分配此 cmdlet 的所有 RBAC 角色 (包括你自己创建的任何自定义 RBAC 角色) 的列表, 请从 Lync Server 命令行管理程序或 Windows PowerShell 提示中运行以下命令:
+若要使用 Lync Server Management Shell 运行集中式日志记录服务搜索功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制（RBAC）安全组的成员，或者是包含以下项的自定义 RBAC 角色这两个组中的任何一个。 若要返回已分配此 cmdlet 的所有 RBAC 角色（包括你自己创建的任何自定义 RBAC 角色）的列表，请从 Lync Server 命令行管理程序或 Windows PowerShell 提示中运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -63,7 +65,7 @@ _**主题上次修改时间:** 2013-02-21_
 
 ## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>使用集中式日志记录服务运行基本搜索
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  确保 AlwaysOn 方案在部署中的全局范围内运行，然后在命令提示符处键入以下内容：
     
@@ -73,7 +75,7 @@ _**主题上次修改时间:** 2013-02-21_
     
 
     > [!NOTE]
-    > 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件, 请使用– OutputFilePath &lt;字符串完全限定的文件路径。&gt; 若要定义 –OutputFilePath 参数，请在参数中以用引号括起的字符串格式提供路径和文件名（例如；C:\LogFiles\SearchOutput.txt）。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。
+    > 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件，请使用– OutputFilePath &lt;字符串完全限定的文件路径。&gt; 若要定义 –OutputFilePath 参数，请在参数中以用引号括起的字符串格式提供路径和文件名（例如；C:\LogFiles\SearchOutput.txt）。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。
 
     
     </div>
@@ -106,7 +108,7 @@ _**主题上次修改时间:** 2013-02-21_
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
-4.  使用搜索命令时, 池可以是部署中的任何池, 例如前端池、边缘池、持久聊天服务器池或在部署中定义为池的其他池。
+4.  使用搜索命令时，池可以是部署中的任何池，例如前端池、边缘池、持久聊天服务器池或在部署中定义为池的其他池。
     
     例如：
     
@@ -118,11 +120,11 @@ _**主题上次修改时间:** 2013-02-21_
 
 ## <a name="to-run-a-search-by-using-time-parameters"></a>使用时间参数运行搜索
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
-2.  默认情况下, 搜索的时间特定参数的开始时间是开始搜索之前30分钟的时间。 换言之, 如果你在 4:00:00 PM 启动搜索, 搜索将在 pm 3:30:00 中搜索你定义的计算机和池的日志, 直到 4:00:00 PM。 如果需要在当前时间之前搜索 60 分钟或 3 小时，请使用 –StartTime 参数，并设置日期和时间字符串，以指示希望搜索开始的时间。
+2.  默认情况下，搜索的时间特定参数的开始时间是开始搜索之前30分钟的时间。 换言之，如果你在 4:00:00 PM 启动搜索，搜索将在 pm 3:30:00 中搜索你定义的计算机和池的日志，直到 4:00:00 PM。 如果需要在当前时间之前搜索 60 分钟或 3 小时，请使用 –StartTime 参数，并设置日期和时间字符串，以指示希望搜索开始的时间。
     
-    例如，通过使用 –StartTime 和 –EndTime 定义时间和日期范围，可以定义在 11/20/2012 的 8 AM 到 9 AM 之间对池执行的搜索。 你可以将输出路径设置为将结果写入到名为 c:\\logfile 的文件, 如下所示:
+    例如，通过使用 –StartTime 和 –EndTime 定义时间和日期范围，可以定义在 11/20/2012 的 8 AM 到 9 AM 之间对池执行的搜索。 你可以将输出路径设置为将结果写入到名为 c：\\logfile 的文件，如下所示：
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
@@ -153,7 +155,7 @@ _**主题上次修改时间:** 2013-02-21_
 
 ## <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>使用其他条件和匹配选项运行高级搜索
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  若要运行命令以收集特定组件的跟踪，请键入以下命令：
     
@@ -165,7 +167,7 @@ _**主题上次修改时间:** 2013-02-21_
     
     生成的搜索将返回在过去 30 分钟内，在部署中的所有计算机和池中具有 SIPStack、S4 和 UserServices 的跟踪组件的所有日志条目。
 
-3.  若要将包含相同组件的搜索限制为仅限名为 pool01.contoso.net 的前端池, 请键入:
+3.  若要将包含相同组件的搜索限制为仅限名为 pool01.contoso.net 的前端池，请键入：
     
         Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
 

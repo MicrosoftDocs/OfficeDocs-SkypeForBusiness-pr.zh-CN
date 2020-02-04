@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: AppSharingStream 表'
+title: Lync Server 2013： AppSharingStream 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AppSharingStream table
 ms:assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204808(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56f23e214ffcffad8613d413924a53ffe571883d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00a606981ab09d370d5aac390aa244a31063f24
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837783"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-21_
+_**主题上次修改时间：** 2014-02-21_
 
 AppSharingStream 表包含用于应用程序共享的网络流的体验指标的质量。 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -88,13 +90,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在 RTP 数据包到达之间检测到最大抖动。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到最大抖动。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RoundTrip</strong></p></td>
@@ -107,7 +109,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>RoundTripMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>实时传输协议数据包传送到另一个终结点和后端所需的最大值 (以毫秒为单位)。 来回行程的时间小于或等于 200 毫秒被视为质量可接受。</p>
+<td><p>实时传输协议数据包传送到另一个终结点和后端所需的最大值（以毫秒为单位）。 来回行程的时间小于或等于 200 毫秒被视为质量可接受。</p>
 <p>高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。</p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +122,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>PacketLossRateMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>实时传输协议 (RTP) 数据包丢失的最大速率。 (当 RTP 数据包 (用于在 Internet 上传输音频和视频的协议) 无法访问目标时, 将发生数据包丢失。)高损失率通常由拥塞引起;缺少带宽;无线拥挤或干扰;或重载的媒体服务器。 数据包丢失通常导致音频失真或丢失。</p></td>
+<td><p>实时传输协议（RTP）数据包丢失的最大速率。 （当 RTP 数据包（用于在 Internet 上传输音频和视频的协议）无法访问目标时，将发生数据包丢失。）高损失率通常由拥塞引起;缺少带宽;无线拥挤或干扰;或重载的媒体服务器。 数据包丢失通常导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketUtilization</strong></p></td>
@@ -162,151 +164,151 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>总单向爆发次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总单向爆发次数。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总单向脉冲密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总单向脉冲密度。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总的单向脉冲持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总的单向脉冲持续时间。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>总的单向间隔发生次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总的单向间隔发生次数。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总单向间距密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总单向间距密度。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总的单间隔持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
+<td><p>总的单间隔持续时间。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationSharingType</strong></p></td>
-<td><p>varChar (256)</p></td>
+<td><p>varChar （256）</p></td>
 <td></td>
-<td><p>应用程序角色 (共享者或查看者) 和内容类型。</p></td>
+<td><p>应用程序角色（共享者或查看者）和内容类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyTotal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理总时间。 较高的总计等于查看体验中较长的延迟。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理总时间。 较高的总计等于查看体验中较长的延迟。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverage</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的平均处理时间。 较高的总计等于查看体验中较长的延迟。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的平均处理时间。 较高的总计等于查看体验中较长的延迟。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的最长处理时间。 较高的总计等于查看体验中较长的延迟。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的最长处理时间。 较高的总计等于查看体验中较长的延迟。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理时间内的爆发次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理时间内的爆发次数。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理时间中的爆发密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理时间中的爆发密度。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理时间内的爆发持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理时间内的爆发持续时间。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在远程桌面协议 (RDP) 磁贴的处理时间内出现间隙的情况。</p></td>
+<td><p>在远程桌面协议（RDP）磁贴的处理时间内出现间隙的情况。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理时间方面的差距密度。 低间隙密度相当于更好的观看体验。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理时间方面的差距密度。 低间隙密度相当于更好的观看体验。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>远程桌面协议 (RDP) 磁贴的处理时间中的差距持续时间。 短间隙持续时间等于更好的观看体验。</p></td>
+<td><p>远程桌面协议（RDP）磁贴的处理时间中的差距持续时间。 短间隙持续时间等于更好的观看体验。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateTotal</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>捕获的磁贴的总速率 (以平铺/秒为单位)。</p></td>
+<td><p>捕获的磁贴的总速率（以平铺/秒为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateAverage</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>捕获的图块的平均速率 (以平铺/秒为单位)。</p></td>
+<td><p>捕获的图块的平均速率（以平铺/秒为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>捕获的磁贴的最大速率 (以平铺/秒为单位)。</p></td>
+<td><p>捕获的磁贴的最大速率（以平铺/秒为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateBurstOccurrences</strong></p></td>
 <td><p>在 t</p></td>
 <td></td>
-<td><p>在捕获的磁贴 (每秒的平铺) 的速率中的爆发次数。</p></td>
+<td><p>在捕获的磁贴（每秒的平铺）的速率中的爆发次数。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>已捕获磁贴 (以平铺/秒为单位) 的速率的脉冲密度。</p></td>
+<td><p>已捕获磁贴（以平铺/秒为单位）的速率的脉冲密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>以捕获的磁贴的速率 (在每秒的平铺中) 的爆发持续时间。</p></td>
+<td><p>以捕获的磁贴的速率（在每秒的平铺中）的爆发持续时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在捕获的磁贴 (每秒平铺) 的速率中的间隙发生次数。</p></td>
+<td><p>在捕获的磁贴（每秒平铺）的速率中的间隙发生次数。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>在捕获的图块 (每秒平铺) 的速率中的间隙密度。</p></td>
+<td><p>在捕获的图块（每秒平铺）的速率中的间隙密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>以捕获的磁贴的速率 (以平铺/秒为单位) 为单位的间隙持续时间。</p></td>
+<td><p>以捕获的磁贴的速率（以平铺/秒为单位）为单位的间隙持续时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotal</strong></p></td>
@@ -324,7 +326,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>SpoiledTilePercentMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>未到达查看的内容的最大百分比, 而是丢弃并被新内容覆盖。</p></td>
+<td><p>未到达查看的内容的最大百分比，而是丢弃并被新内容覆盖。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentBurstOccurrences</strong></p></td>
@@ -336,19 +338,19 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>SpoiledTilePercentBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>未到达查看器的内容的爆发密度, 但已被新内容放弃和覆盖。</p></td>
+<td><p>未到达查看器的内容的爆发密度，但已被新内容放弃和覆盖。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>未到达查看器的内容的爆发期, 而是丢弃并被新内容覆盖。</p></td>
+<td><p>未到达查看器的内容的爆发期，而是丢弃并被新内容覆盖。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>未到达查看器的内容的间隙出现次数, 但已被新内容放弃和覆盖。</p></td>
+<td><p>未到达查看器的内容的间隙出现次数，但已被新内容放弃和覆盖。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentGapDensity</strong></p></td>
@@ -360,7 +362,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>SpoiledTilePercentGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>未到达查看器的内容的间距持续时间, 但已被新内容放弃和覆盖。</p></td>
+<td><p>未到达查看器的内容的间距持续时间，但已被新内容放弃和覆盖。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateTotal</strong></p></td>
@@ -396,7 +398,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>ScrapingFrameRateBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>帧 scraped 中的爆发持续时间 (来自图形源)。</p></td>
+<td><p>帧 scraped 中的爆发持续时间（来自图形源）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateGapOccurrences</strong></p></td>
@@ -636,25 +638,25 @@ AppSharingStream 表包含用于应用程序共享的网络流的体验指标的
 <td><p><strong>AverageRectangleHeight</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>平均视频分辨率高度 (以像素为单位)。</p></td>
+<td><p>平均视频分辨率高度（以像素为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AverageRectangleWidth</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>平均视频分辨率宽度 (以像素为单位)。</p></td>
+<td><p>平均视频分辨率宽度（以像素为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>封</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>入站传输的平均帧速率 (以每秒帧数为单位)。</p></td>
+<td><p>入站传输的平均帧速率（以每秒帧数为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>出站</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>出站传输的平均帧速率 (以每秒帧数为单位)。</p></td>
+<td><p>出站传输的平均帧速率（以每秒帧数为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SenderIsCallerPAI</strong></p></td>

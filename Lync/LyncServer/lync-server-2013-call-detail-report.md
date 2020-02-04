@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 呼叫详细信息报告'
+title: Lync Server 2013：呼叫详细信息报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Detail Report
 ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837712"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837712"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-05_
+_**主题上次修改时间：** 2014-02-05_
 
-通话详细信息报告提供单个通话的详细信息, 请参阅。此报告包括由 Lync Server 收集的几乎所有经验的质量指标和统计信息, 分为如下报表部分:
+通话详细信息报告提供单个通话的详细信息，请参阅。此报告包括由 Lync Server 收集的几乎所有经验的质量指标和统计信息，分为如下报表部分：
 
   - 呼叫信息
 
@@ -65,17 +67,17 @@ _**主题上次修改时间:** 2014-02-05_
 
 可以从下列任意报告中访问呼叫详情报告：
 
-  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)(通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
+  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)（通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标）
 
-  - [Lync Server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)(通过单击 "呼叫" 或 "差通话百分比" 指标)
+  - [Lync Server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)（通过单击 "呼叫" 或 "差通话百分比" 指标）
 
-  - [Lync server 2013 中的 "媒体质量比较" 报表](lync-server-2013-media-quality-comparison-report.md)(单击[lync server 2013 中的 "呼叫列表" 报表](lync-server-2013-call-list-report.md), 然后单击 "详细信息跃点数")。
+  - [Lync server 2013 中的 "媒体质量比较" 报表](lync-server-2013-media-quality-comparison-report.md)（单击[lync server 2013 中的 "呼叫列表" 报表](lync-server-2013-call-list-report.md)，然后单击 "详细信息跃点数"）。
 
-  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)(通过单击 "呼叫" 卷或 "不良呼叫百分比" 指标)
+  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（通过单击 "呼叫" 卷或 "不良呼叫百分比" 指标）
 
-  - [Lync Server 2013 中的通话清单报告](lync-server-2013-call-list-report.md)(单击详细信息指标)
+  - [Lync Server 2013 中的通话清单报告](lync-server-2013-call-list-report.md)（单击详细信息指标）
 
-从 "呼叫详细信息" 报告中, 您可以通过单击以下任一指标[在 Lync Server 2013 中访问设备报告](lync-server-2013-device-report.md):
+从 "呼叫详细信息" 报告中，您可以通过单击以下任一指标[在 Lync Server 2013 中访问设备报告](lync-server-2013-device-report.md)：
 
   - 捕获设备
 
@@ -91,7 +93,7 @@ _**主题上次修改时间:** 2014-02-05_
 
 呼叫详情报告通常包括 250 多个不同的指标，其中包括麦克风时间戳偏移、低 SNR 时间和近端回声时间等项目。如果您不记得所有这些指标实际度量的内容，请尝试将鼠标指针置于指标标签上方；通常，将显示描述该指标的工具提示。
 
-如果查找指标时遇到问题, 请在 "搜索" 框中键入 "指标" 标签的一部分, 然后单击 "查找"。 例如, 如果找不到低 SNR 时间度量值, 请在 "搜索" 框中键入 "SNR", 然后单击 "查找"。
+如果查找指标时遇到问题，请在 "搜索" 框中键入 "指标" 标签的一部分，然后单击 "查找"。 例如，如果找不到低 SNR 时间度量值，请在 "搜索" 框中键入 "SNR"，然后单击 "查找"。
 
 请注意，报告仅跟踪关于呼叫的信息。不记录呼叫本身。
 

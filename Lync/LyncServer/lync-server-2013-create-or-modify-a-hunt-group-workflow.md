@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建或修改查寻组工作流'
+title: Lync Server 2013：创建或修改查寻组工作流
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a hunt group workflow
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c927b10107626c1d40c33290b30f331f660e45e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e56a93ae0be1fd6f047dc6cde724afbea7aa4064
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837072"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758056"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837072"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-09-11_
+_**主题上次修改时间：** 2013-09-11_
 
 使用以下过程之一创建或修改查寻组工作流。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2013-09-11_
 
 
 > [!NOTE]  
-> 可以使用 Lync Server Management Shell 或 "响应组配置" 工具创建和修改查寻组工作流。 你可以从 Lync Server 控制面板访问响应组配置工具, 或者通过键入以下 URL 直接从 web 浏览器打开网页: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
+> 可以使用 Lync Server Management Shell 或 "响应组配置" 工具创建和修改查寻组工作流。 你可以从 Lync Server 控制面板访问响应组配置工具，或者通过键入以下 URL 直接从 web 浏览器打开网页： <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
 
 
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2013-09-11_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“工作流”****。
 
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 此时将打开 "响应组配置" 工具。 您也可以通过键入以下 URL 直接从 web 浏览器打开 "响应组配置" 工具: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
+    > 此时将打开 "响应组配置" 工具。 您也可以通过键入以下 URL 直接从 web 浏览器打开 "响应组配置" 工具： <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
 
     
     </div>
@@ -93,7 +95,7 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 全局外部访问策略适用于响应组应用程序。 你可以使用 Lync Server 控制面板或通过使用<STRONG>CsExternalAccessPolicy</STRONG> Cmdlet 将 EnableOutsideAccess 参数设置为 True, 为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关如何将策略应用于用户的详细信息, 请参阅<A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">在 Lync Server 2013 中管理外部访问策略</A>。 有关联盟设置的详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>。
+    > 全局外部访问策略适用于响应组应用程序。 你可以使用 Lync Server 控制面板或通过使用<STRONG>CsExternalAccessPolicy</STRONG> Cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关如何将策略应用于用户的详细信息，请参阅<A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">在 Lync Server 2013 中管理外部访问策略</A>。 有关联盟设置的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>。
 
     
     </div>
@@ -124,12 +126,12 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 工作流的主 URI 是标识和引用工作流的方式。 您输入的 SIP URI 在 Active Directory 域服务中创建为联系人对象。 若要创建 URI, 对象在 Active Directory 中必须是唯一的。
+    > 工作流的主 URI 是标识和引用工作流的方式。 您输入的 SIP URI 在 Active Directory 域服务中创建为联系人对象。 若要创建 URI，对象在 Active Directory 中必须是唯一的。
 
     
     </div>
 
-11. 在 "**显示名称**" 中, 键入要为工作流显示的名称 (例如, "销售" 响应组)。
+11. 在 "**显示名称**" 中，键入要为工作流显示的名称（例如，"销售" 响应组）。
     
     <div>
     
@@ -144,9 +146,9 @@ _**主题上次修改时间:** 2013-09-11_
 
 13. 在“显示号码”**** 下，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14. 可选在 "**说明**" 中, 键入要在 Lync 客户端的联系人卡片上显示的工作流的说明。
+14. 可选在 "**说明**" 中，键入要在 Lync 客户端的联系人卡片上显示的工作流的说明。
 
-15. 如果此工作流将由响应组管理员管理，则在“工作流类型”**** 中选择“托管”****。 执行以下操作以将响应组管理器分配给工作流:
+15. 如果此工作流将由响应组管理员管理，则在“工作流类型”**** 中选择“托管”****。 执行以下操作以将响应组管理器分配给工作流：
     
     1.  键入此工作流的管理员的 SIP URI，单击“添加”****。
     
@@ -171,7 +173,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 不要在输入的文本中包含 HTML 标记。 如果包含 HTML 标记, 则会收到一条错误消息。
+        > 不要在输入的文本中包含 HTML 标记。 如果包含 HTML 标记，则会收到一条错误消息。
 
         
         </div>
@@ -182,7 +184,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息, 请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
 
         
         </div>
@@ -206,7 +208,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet 来定义预设日程表。 有关详细信息, 请参阅<A href="lync-server-2013-optional-define-response-group-business-hours.md">Lync Server 2013 中的 "(可选) 定义响应组工作时间</A>"。
+        > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用  <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet 来定义预设日程表。 有关详细信息，请参阅<A href="lync-server-2013-optional-define-response-group-business-hours.md">Lync Server 2013 中的 "（可选）定义响应组工作时间</A>"。
 
         
         </div>
@@ -254,7 +256,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息, 请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
 
         
         </div>
@@ -263,11 +265,11 @@ _**主题上次修改时间:** 2013-09-11_
     
       - 要断开呼叫，请单击“断开呼叫”****。
     
-      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式是用户名\>@\<域名\> (例如, bob@contoso.com)。
+      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式是用户名\>@\<域名\> （例如，bob@contoso.com）。
     
       - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入用户地址。 用户\<地址的格式是用户名\>@\<域名。\>
     
-      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式\<为\>@\<"域名域名\> " (例如 + 14255550121@contoso.com)。 域名可用来将呼叫者路由至正确的目标。
+      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式\<为\>@\<"域名域名\> " （例如 + 14255550121@contoso.com）。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”**** 下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
     
@@ -275,7 +277,7 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 <STRONG>New-CsRgsHoliday</STRONG> 和 <STRONG>New-CsRgsHolidaySet</STRONG> cmdlet 可定义假日和假日集。 有关详细信息, 请参阅 " <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">(可选)" 在 Lync Server 2013 中定义 "响应组" 假日集</A>。
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 <STRONG>New-CsRgsHoliday</STRONG> 和 <STRONG>New-CsRgsHolidaySet</STRONG> cmdlet 可定义假日和假日集。 有关详细信息，请参阅 " <A href="lync-server-2013-optional-define-response-group-holiday-sets.md">（可选）" 在 Lync Server 2013 中定义 "响应组" 假日集</A>。
 
     
     </div>
@@ -299,7 +301,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息, 请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
 
         
         </div>
@@ -308,11 +310,11 @@ _**主题上次修改时间:** 2013-09-11_
     
       - 要断开呼叫，请单击“断开呼叫”****。
     
-      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式是用户名\>@\<域名\> (例如, bob@contoso.com)。
+      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式是用户名\>@\<域名\> （例如，bob@contoso.com）。
     
       - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入用户地址。 用户\<地址的格式是用户名\>@\<域名。\>
     
-      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式\<为\>@\<"域名域名\> " (例如 + 14255550121@contoso.com)。 域名可用来将呼叫者路由至正确的目标。
+      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式\<为\>@\<"域名域名\> " （例如 + 14255550121@contoso.com）。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置队列”**** 下的“选择将接收呼叫的队列”**** 中，选择在出现可以应答的代理之前，使呼叫者处于保持状态的队列。
 
@@ -326,7 +328,7 @@ _**主题上次修改时间:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息, 请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中的 "响应" 组技术要求</A>。
 
         
         </div>
@@ -341,7 +343,7 @@ _**主题上次修改时间:** 2013-09-11_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  为欢迎消息创建要播放的提示，然后将其保存在变量中。在命令行中运行：
     
@@ -355,7 +357,7 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">导入-CsRgsAudioFile</A>。
+    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">导入-CsRgsAudioFile</A>。
 
     
     </div>
@@ -364,7 +366,7 @@ _**主题上次修改时间:** 2013-09-11_
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    有关创建队列的详细信息, 请参阅[CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。
+    有关创建队列的详细信息，请参阅[CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)。
 
 5.  定义在工作时间打开工作流时要执行的默认操作，并将其保存在变量中。在命令行中运行：
     
@@ -383,11 +385,11 @@ _**主题上次修改时间:** 2013-09-11_
     
         $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
 
-6.  如果要定义工作时间和假日，则需要在创建或修改工作流之前创建工作时间和假日。 有关详细信息, 请参阅[(可选) 在 Lync server 2013 中定义响应组的工作时间](lync-server-2013-optional-define-response-group-business-hours.md)和[(可选) 在 lync Server 2013 中定义 "响应组" 假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。
+6.  如果要定义工作时间和假日，则需要在创建或修改工作流之前创建工作时间和假日。 有关详细信息，请参阅[（可选）在 Lync server 2013 中定义响应组的工作时间](lync-server-2013-optional-define-response-group-business-hours.md)和[（可选）在 lync Server 2013 中定义 "响应组" 假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)。
 
-7.  如果您希望在工作时间之外或在假日收到的呼叫带有提示，请使用  **New-CsRgsPrompt** cmdlet 定义该提示，并使用  **New-CsRgsCallAction** 定义要在提示后执行的操作。 有关详细信息, 请参阅[CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)和[CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。
+7.  如果您希望在工作时间之外或在假日收到的呼叫带有提示，请使用  **New-CsRgsPrompt** cmdlet 定义该提示，并使用  **New-CsRgsCallAction** 定义要在提示后执行的操作。 有关详细信息，请参阅[CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)和[CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)。
 
-8.  检索 Lync Server 响应组服务的服务名称, 并将其分配给变量。 在命令行中运行：
+8.  检索 Lync Server 响应组服务的服务名称，并将其分配给变量。 在命令行中运行：
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
 
@@ -412,7 +414,7 @@ _**主题上次修改时间:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 有关其他可选参数的详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">CsRgsWorkflow</A>或<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
+    > 有关其他可选参数的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsWorkflow">CsRgsWorkflow</A>或<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>
 
     
     </div>

@@ -3,6 +3,8 @@ title: 第 2 阶段：准备迁移
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
 ms:assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205405(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a757dd9ff77259b690bdc97f795305b36d86ec3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85db7e4aea8405bf1ec3f94e491c7007ae8b51ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845171"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845171"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-17_
+_**主题上次修改时间：** 2012-09-17_
 
-从 Lync Server 2010 开始迁移到 Lync Server 2013 之前, 请按照本部分中所述的步骤进行操作。
+从 Lync Server 2010 开始迁移到 Lync Server 2013 之前，请按照本部分中所述的步骤进行操作。
 
 <div>
 

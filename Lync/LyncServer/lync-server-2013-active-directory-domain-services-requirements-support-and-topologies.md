@@ -3,6 +3,8 @@ title: Active Directory 域服务要求、支持和拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services requirements, support, and topologies
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398760(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a929309c876f37631e6dfc7a48b43c54d0e872cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95251144f6876adb7bd31cf5ae2926e53560976f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837961"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837961"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
-在 Lync Server 2010 之前, Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync 服务器所需的所有全局设置和组。 现在, 大部分信息存储在中央管理存储中, 而不是 AD DS 中。 但是, 用户对象架构扩展 (包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展) 仍存储在 AD DS 中。
+在 Lync Server 2010 之前，Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync 服务器所需的所有全局设置和组。 现在，大部分信息存储在中央管理存储中，而不是 AD DS 中。 但是，用户对象架构扩展（包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展）仍存储在 AD DS 中。
 
 <div>
 

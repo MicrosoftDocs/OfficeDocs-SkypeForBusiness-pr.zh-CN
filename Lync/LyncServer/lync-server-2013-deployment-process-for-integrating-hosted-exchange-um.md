@@ -3,6 +3,8 @@ title: Lync Server 2013：集成托管 Exchange UM 的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating hosted Exchange UM with Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6269efd85261c702c77568fac67c96034ba01a71
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b314ea3bd7a88264a72c804c7c67ed3baa819972
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830469"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830469"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-25_
+_**主题上次修改时间：** 2012-09-25_
 
-将 Lync Server 2013 与托管 Exchange 统一消息 (UM) 集成的有效规划要求考虑以下事项:
+将 Lync Server 2013 与托管 Exchange 统一消息（UM）集成的有效规划要求考虑以下事项：
 
   - 将 Lync Server 2013 与托管 Exchange UM 集成的先决条件
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-09-25_
 
 ## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>与托管 Exchange UM 集成的部署先决条件
 
-在开始集成过程之前, 你必须已部署 Lync Server 2013 (至少是前端池或标准版服务器)、边缘服务器以及 Lync 2013 或 Lync 2010 客户端。
+在开始集成过程之前，你必须已部署 Lync Server 2013 （至少是前端池或标准版服务器）、边缘服务器以及 Lync 2013 或 Lync 2010 客户端。
 
 </div>
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-09-25_
 
 ## <a name="integration-process"></a>集成过程
 
-下表提供了托管 Exchange UM 集成过程的概述。 有关部署步骤的详细信息, 请参阅在部署文档中向[Lync Server 2013 用户提供托管 EXCHANGE UM 上的语音邮件](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)。
+下表提供了托管 Exchange UM 集成过程的概述。 有关部署步骤的详细信息，请参阅在部署文档中向[Lync Server 2013 用户提供托管 EXCHANGE UM 上的语音邮件](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)。
 
 
 <table>
@@ -85,8 +87,8 @@ _**主题上次修改时间:** 2012-09-25_
 <tr class="even">
 <td><p>配置托管语音邮件策略。</p></td>
 <td><ol>
-<li><p>修改全局托管语音邮件策略, 或使用网站或每用户范围创建新的托管语音邮件策略。</p></li>
-<li><p>对于具有每用户范围的策略, 请将策略分配给用户或组。</p></li>
+<li><p>修改全局托管语音邮件策略，或使用网站或每用户范围创建新的托管语音邮件策略。</p></li>
+<li><p>对于具有每用户范围的策略，请将策略分配给用户或组。</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">在 Lync Server 2013 中管理托管的语音邮件策略</a></p></td>
@@ -109,7 +111,7 @@ _**主题上次修改时间:** 2012-09-25_
 <div>
 
 > [!NOTE]  
-> 若要创建、修改或删除联系人对象, 运行 CsExUmContact、CsExUmContact 或 Remove CsExUmContact cmdlet 的用户必须对存储新联系人对象的 Active Directory 组织单位具有正确的权限。 可以通过运行 Grant-CsOUPermission cmdlet 授予此权限。 有关详细信息, 请参阅 Lync Server Management Shell 文档。
+> 若要创建、修改或删除联系人对象，运行 CsExUmContact、CsExUmContact 或 Remove CsExUmContact cmdlet 的用户必须对存储新联系人对象的 Active Directory 组织单位具有正确的权限。 可以通过运行 Grant-CsOUPermission cmdlet 授予此权限。 有关详细信息，请参阅 Lync Server Management Shell 文档。
 
 
 </div></td>

@@ -3,6 +3,8 @@ title: 配置 Lync Server 以与 System Center Operations Manager 配合使用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server to work with System Center Operations Manager
 ms:assetid: b55a24ab-648b-4142-b3cd-3792860ba872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205188(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a6f26d4701cf1ed48f0069bcf7994e20ef0b2af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f0cf422ddab501acf521c26c36d8f373bd42dbf9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837223"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
-为了将 Microsoft Lync Server 2013 基础结构配置为使用 System Center Operations Manager, 您必须执行以下三项操作:
+为了将 Microsoft Lync Server 2013 基础结构配置为使用 System Center Operations Manager，您必须执行以下三项操作：
 
-  - 确定和配置你的主 System Center Operations Manager 管理服务器。 配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2, 以及使用 SQL Server 设置后端数据库。 你需要使用的 SQL Server 的实际版本取决于你所使用的 System Center Operations Manager 版本。 有关详细信息, 请参阅[在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。
+  - 确定和配置你的主 System Center Operations Manager 管理服务器。 配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，以及使用 SQL Server 设置后端数据库。 你需要使用的 SQL Server 的实际版本取决于你所使用的 System Center Operations Manager 版本。 有关详细信息，请参阅[在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。
 
-  - 标识和配置要监视的 Lync Server 计算机。 若要使用 System Center Operations Manager 监视 Lync Server 计算机, 必须安装 System Center Operations Manager 代理文件, 并将每台服务器配置为充当代理。
+  - 标识和配置要监视的 Lync Server 计算机。 若要使用 System Center Operations Manager 监视 Lync Server 计算机，必须安装 System Center Operations Manager 代理文件，并将每台服务器配置为充当代理。
 
-  - 标识和配置要充当 Lync Server*观察程序节点*的计算机。 观察程序节点是定期运行 Lync Server 合成事务的计算机, 它是验证关键 Lync 服务器组件 (如登录到系统或 exchange 即时消息的功能) 的 Windows PowerShell cmdlet。按预期工作。
+  - 标识和配置要充当 Lync Server*观察程序节点*的计算机。 观察程序节点是定期运行 Lync Server 合成事务的计算机，它是验证关键 Lync 服务器组件（如登录到系统或 exchange 即时消息的功能）的 Windows PowerShell cmdlet。按预期工作。
 
 本部分中的主题包含有关如何执行这些任务的说明。
 

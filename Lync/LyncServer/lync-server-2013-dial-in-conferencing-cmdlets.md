@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 电话拨入式会议 cmdlet'
+title: Lync Server 2013：电话拨入式会议 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing cmdlets
 ms:assetid: 0718f82a-91c4-466f-8443-a85002deaa48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42e39081eef29da8d33b693bd4e319564c7be9a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 110bd0b96f16c986cffeaffc58085e597a44bd47
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830399"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830399"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-03-21_
+_**主题上次修改时间：** 2012-03-21_
 
-电话拨入式会议为用户提供了一种使用 "常规" 电话 (即公共交换电话网络上的设备) 来加入会议音频部分的方式。
+电话拨入式会议为用户提供了一种使用 "常规" 电话（即公共交换电话网络上的设备）来加入会议音频部分的方式。
 
 <div>
 
 ## <a name="dial-in-conferencing-cmdlets"></a>电话拨入式会议 Cmdlet
 
-如果您不想允许拨入式会议, 您可以使用 CsConferencingPolicy cmdlet 禁用此功能, 并将 EnableDialInConferencing 属性设置为 False。 默认情况下, 允许所有用户主持包括拨入式会议的会议。
+如果您不想允许拨入式会议，您可以使用 CsConferencingPolicy cmdlet 禁用此功能，并将 EnableDialInConferencing 属性设置为 False。 默认情况下，允许所有用户主持包括拨入式会议的会议。
 
 **电话拨入式会议**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 对等活动摘要报告'
+title: Lync Server 2013：对等活动摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Activity Summary Report
 ms:assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62bdd1203db471de770ed56cf6377d7a3c651649
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d55c3d84fe48158490473c31e9782dc63e298310
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825385"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825385"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-21_
+_**主题上次修改时间：** 2012-10-21_
 
-对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户, 不需要使用 Lync Server 会议服务。 通过比较, 会议通常涉及两个以上的用户, 并且需要使用 Microsoft Lync Server 2013 会议服务。 会议活动在会议摘要报告上进行报告。
+对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户，不需要使用 Lync Server 会议服务。 通过比较，会议通常涉及两个以上的用户，并且需要使用 Microsoft Lync Server 2013 会议服务。 会议活动在会议摘要报告上进行报告。
 
 对等活动摘要报告帮助您回答诸如下列问题：
 
@@ -49,7 +51,7 @@ _**主题上次修改时间:** 2012-10-21_
 
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问对等活动摘要报告
 
-可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标,[在 Lync Server 2013 中打开对等 IM 报告](lync-server-2013-peer-to-peer-im-report.md):
+可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标，[在 Lync Server 2013 中打开对等 IM 报告](lync-server-2013-peer-to-peer-im-report.md)：
 
   - 对等 IM 会话总数
 
@@ -126,7 +128,7 @@ _**主题上次修改时间:** 2012-10-21_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/17/12012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/12012 12:00 AM 到 9/7/12012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/17/12012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/12012 12:00 AM 到 9/7/12012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +164,7 @@ _**主题上次修改时间:** 2012-10-21_
 <p><strong>每周</strong></p>
 <p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指示在筛选器工具栏上选择的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如, 如果你使用的是每日间隔, 并且单击 "7/17/12012", 你将看到该日期的用户注册活动的每小时细目。</p></td>
+<td><p>指示在筛选器工具栏上选择的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果你使用的是每日间隔，并且单击 "7/17/12012"，你将看到该日期的用户注册活动的每小时细目。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>对等会话总数</strong></p></td>

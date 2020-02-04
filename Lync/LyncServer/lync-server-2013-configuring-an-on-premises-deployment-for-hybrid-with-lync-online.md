@@ -3,6 +3,8 @@ title: 使用 Lync Online 配置本地混合部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring an on-premises deployment for hybrid with Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205237(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63620dc86a0249556d94491ec690989fa1dc835
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837291"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-05-28_
+_**主题上次修改时间：** 2014-05-28_
 
-混合部署是一种部署, 其中某些用户在本地托管, 某些用户处于联机状态, 但所有用户共享相同的域, 如 user@contoso.com。 本部分将指导你部署混合部署所需的应用程序, 然后配置你的部署以启用它。
+混合部署是一种部署，其中某些用户在本地托管，某些用户处于联机状态，但所有用户共享相同的域，如 user@contoso.com。 本部分将指导你部署混合部署所需的应用程序，然后配置你的部署以启用它。
 
 <div>
 

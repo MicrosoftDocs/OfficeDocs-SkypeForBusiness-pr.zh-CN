@@ -3,6 +3,8 @@ title: Lync Server 2013：ConferenceMessageCount 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceMessageCount table
 ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398590(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2994f02bf087ef55edff6b2153e7504f881b03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837483"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-此表中的每条记录表示一个 IM 会议中的一个用户, 包括该用户发送的消息数。 每个会议都由该表中的多条记录表示;每个用户一条记录。
+此表中的每条记录表示一个 IM 会议中的一个用户，包括该用户发送的消息数。 每个会议都由该表中的多条记录表示;每个用户一条记录。
 
 
 <table>
@@ -58,19 +60,19 @@ _**主题上次修改时间:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主、外部</p></td>
-<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外部</p></td>
-<td><p>标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>标识此用户的唯一号码, 从<a href="lync-server-2013-users-table.md">Lync Server 2013 的 "用户" 表中</a>引用。</p></td>
+<td><p>标识此用户的唯一号码，从<a href="lync-server-2013-users-table.md">Lync Server 2013 的 "用户" 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MessageCount</strong></p></td>

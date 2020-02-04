@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理呼叫寄存'
+title: Lync Server 2013：管理呼叫寄存
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Call Park
 ms:assetid: 9554cdf6-8e7c-48c8-94dd-f28e2befefdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688140(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30a92ef7f6f3cba14577e50f33fd1215f94711bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828108"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828108"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-10_
+_**主题上次修改时间：** 2012-09-10_
 
-"呼叫驻留" 应用程序使企业语音用户可以通过一条电话将呼叫置于保持状态, 然后稍后通过任何电话检索呼叫。 当用户公园呼叫时, Lync 服务器将呼叫转移到一个名为 "*轨道*" 的临时号码上, 呼叫将一直保持, 直到有人检索它或超时。
+"呼叫驻留" 应用程序使企业语音用户可以通过一条电话将呼叫置于保持状态，然后稍后通过任何电话检索呼叫。 当用户公园呼叫时，Lync 服务器将呼叫转移到一个名为 "*轨道*" 的临时号码上，呼叫将一直保持，直到有人检索它或超时。
 
-本节中的主题提供了可执行的任务的分步过程, 可用于自定义和维护部署中的调用寄存应用程序。
+本节中的主题提供了可执行的任务的分步过程，可用于自定义和维护部署中的调用寄存应用程序。
 
 <div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：UserSite 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserSite table
 ms:assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398256(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dfb3e3d99775405ce4a09df706bec8eea59f6f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845465"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845465"
 
 <span> </span>
 
-_**主题上次修改时间:** 2010-11-09_
+_**主题上次修改时间：** 2010-11-09_
 
 UserSite 表是支持表。 每条记录表示网络配置设置中定义的一个用户网站。
 

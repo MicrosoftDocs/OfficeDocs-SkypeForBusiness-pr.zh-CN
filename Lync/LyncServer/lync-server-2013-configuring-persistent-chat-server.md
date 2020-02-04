@@ -3,6 +3,8 @@ title: Lync Server 2013：配置持久聊天服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Persistent Chat Server
 ms:assetid: d90a4049-b268-4e8e-9f24-0cef08c8d9ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36696d27c9d97c28d043aaffaa313a5cd4e0b066
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5afdd0a77cdba7c770a15adc549758db2a07af8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837190"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837190"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-04-12_
+_**主题上次修改时间：** 2012-04-12_
 
-在拓扑生成器中部署对 Lync Server 2013 和持久聊天服务器的支持后, 您可以使用 Lync Server 2013 控制面板配置永久聊天服务器在部署中的实现方式。
+在拓扑生成器中部署对 Lync Server 2013 和持久聊天服务器的支持后，您可以使用 Lync Server 2013 控制面板配置永久聊天服务器在部署中的实现方式。
 
 <div>
 

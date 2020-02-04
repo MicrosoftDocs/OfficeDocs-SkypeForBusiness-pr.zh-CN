@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 呼叫寄存的部署过程'
+title: Lync Server 2013：呼叫寄存的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Call Park
 ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bab02c8cfbf0f1ca71aff85c8a71a2bcb20ee3fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a00c354aa29a3c9a431b18a686105ab16d94c54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830480"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830480"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-25_
+_**主题上次修改时间：** 2013-02-25_
 
-本部分概述了部署通话寄存应用程序时所涉及的步骤。 您必须先部署企业版或具有企业语音的标准版, 然后才能配置呼叫寄存。 部署 "企业语音" 时, 将安装并启用 "呼叫寄存" 所需的组件。
+本部分概述了部署通话寄存应用程序时所涉及的步骤。 您必须先部署企业版或具有企业语音的标准版，然后才能配置呼叫寄存。 部署 "企业语音" 时，将安装并启用 "呼叫寄存" 所需的组件。
 
 ### <a name="call-park-deployment-process"></a>呼叫寄存部署过程
 
@@ -57,7 +59,7 @@ _**主题上次修改时间:** 2013-02-25_
 <tbody>
 <tr class="odd">
 <td><p>在通道表中配置呼叫寄存通道范围</p></td>
-<td><p>使用 Lync Server 控制面板或<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建轨道范围, 并将它们与托管呼叫寄存应用程序的应用程序服务相关联。</p>
+<td><p>使用 Lync Server 控制面板或<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建轨道范围，并将它们与托管呼叫寄存应用程序的应用程序服务相关联。</p>
 <div>
 
 > [!NOTE]  
@@ -73,7 +75,7 @@ _**主题上次修改时间:** 2013-02-25_
 </tr>
 <tr class="even">
 <td><p>配置呼叫寄存设置</p></td>
-<td><p>使用<strong>CsCpsConfiguration</strong> Cmdlet 配置呼叫寄存设置。 我们建议你将<strong>OnTimeoutURI</strong>选项配置为配置备用目标以在停止通话超时时使用。您还可以配置以下设置:</p>
+<td><p>使用<strong>CsCpsConfiguration</strong> Cmdlet 配置呼叫寄存设置。 我们建议你将<strong>OnTimeoutURI</strong>选项配置为配置备用目标以在停止通话超时时使用。您还可以配置以下设置：</p>
 <ul>
 <li><p>（可选）配置 <strong>EnableMusicOnHold</strong> 以启用或禁用保持音乐。</p></li>
 <li><p>（可选）配置 <strong>MaxCallPickupAttempts</strong> 以确定将寄存呼叫转接到回退统一资源标识符 (URI) 之前该呼叫回拨应答电话的次数。</p></li>
@@ -100,7 +102,7 @@ _**主题上次修改时间:** 2013-02-25_
 <div>
 
 > [!NOTE]  
-> 默认情况下, 将对所有用户禁用 "呼叫寄存"。
+> 默认情况下，将对所有用户禁用 "呼叫寄存"。
 
 
 </div>

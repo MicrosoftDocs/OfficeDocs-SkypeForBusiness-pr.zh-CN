@@ -3,6 +3,8 @@ title: Lync Server 2013：部署移动功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying mobility
 ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dc43742381bdbc9c40675039be12737d8208d3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830530"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-08_
+_**主题上次修改时间：** 2012-09-08_
 
-部署 Lync Server 2013 移动功能时, 移动用户可以使用支持的移动设备进行 Lync 功能, 例如即时消息 (IM)、联机状态和联系人。
+部署 Lync Server 2013 移动功能时，移动用户可以使用支持的移动设备进行 Lync 功能，例如即时消息（IM）、联机状态和联系人。
 
-有关部署移动功能的要求的详细信息, 请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)。
+有关部署移动功能的要求的详细信息，请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)。
 
 本部分将指导你完成部署和验证移动性和自动发现功能的步骤。
 

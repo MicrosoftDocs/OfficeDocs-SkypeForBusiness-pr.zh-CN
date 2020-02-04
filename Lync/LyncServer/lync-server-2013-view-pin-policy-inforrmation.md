@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看 PIN 策略 inforrmation'
+title: Lync Server 2013：查看 PIN 策略 inforrmation
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PIN policy inforrmation
 ms:assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687985(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad912c4442a243beaaa4410d8931f0940d743177
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5f63b2abcc1278211b70fd575bbead8ae875332
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845340"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845340"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-23_
+_**主题上次修改时间：** 2013-02-23_
 
-你可以使用 "**固定策略**" 选项卡查看使用 IP 电话连接到 Lync 2013 的用户的个人识别码 (PIN) 身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息, 请参阅[在 Lync Server 2013 中修改现有 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
+你可以使用 "**固定策略**" 选项卡查看使用 IP 电话连接到 Lync 2013 的用户的个人识别码（PIN）身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改现有 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
 
 按照以下步骤修改用户级别或站点级别的 PIN 策略。
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="to-view-information-about-a-pin-policy-in-lync-server-control-panel"></a>在 Lync Server "控制面板" 中查看有关 PIN 策略的信息
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“PIN 策略”****。
 
@@ -57,13 +59,13 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看 PIN 策略
 
-你还可以使用 Windows PowerShell 和 CsPinPolicy cmdlet 查看 PIN 策略。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你还可以使用 Windows PowerShell 和 CsPinPolicy cmdlet 查看 PIN 策略。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
 ## <a name="to-view-pin-policies"></a>查看 PIN 策略
 
-  - 若要查看有关所有 PIN 策略的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 ENTER:
+  - 若要查看有关所有 PIN 策略的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：
     
         Get-CsPinPolicy
     
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 </div>
 
-有关详细信息, 请参阅[CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsPinPolicy) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsPinPolicy) cmdlet 的帮助主题。
 
 </div>
 
