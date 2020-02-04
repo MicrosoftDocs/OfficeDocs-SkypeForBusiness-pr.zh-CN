@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: '了解如何为企业中需要使用电话加入电话会议的人员设置电话拨入式会议或音频会议。 '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924973"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680359"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 Skype for business 设置音频会议
 
@@ -77,7 +78,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标：
 
  1. 转到**Microsoft 365 管理中心** > **管理中心** > **团队** > **旧版门户**。
- 2. 选择 "**语音** > **电话号码**"。
+ 2. 选择“**语音**” > “**电话号码**”。
  3. 选择电话号码，然后单击 "**分配**"。
 
 有关更多详细信息，请参阅[在音频会议网桥上更改电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。

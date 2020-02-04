@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于塞尔维亚的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: becd913144ebbdb839224f16b7d91e61357e9b82
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 49756b51fe721af8deaadab58471bf6a61647b1b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572417"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683575"
 ---
 # <a name="availability-in-serbia"></a>在塞尔维亚的可用性
 

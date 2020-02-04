@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中, 持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户), 该主体具有特定类别的聊天室成员/创建者的访问权限。 持久聊天管理员还可以将 DeniedMembers 添加到类别中, 并将它们显式排除在 "允许列表" 中。 DeniedMembers 替代 AllowedMembers 中的内容。
-ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中，持久聊天管理员可以配置主体（Active Directory 域服务组/容器/用户），该主体具有特定类别的聊天室成员/创建者的访问权限。 持久聊天管理员还可以将 DeniedMembers 添加到类别中，并将它们显式排除在 "允许列表" 中。 DeniedMembers 替代 AllowedMembers 中的内容。
+ms.openlocfilehash: c8b357abe49d794283b7165d9c5decdffaece275
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294078"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685876"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
 
-持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中, 持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户), 该主体具有特定类别的聊天室成员/创建者的访问权限。 持久聊天管理员还可以将 DeniedMembers 添加到类别中, 并将它们显式排除在 "允许列表" 中。 DeniedMembers 替代 AllowedMembers 中的内容。
+持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中，持久聊天管理员可以配置主体（Active Directory 域服务组/容器/用户），该主体具有特定类别的聊天室成员/创建者的访问权限。 持久聊天管理员还可以将 DeniedMembers 添加到类别中，并将它们显式排除在 "允许列表" 中。 DeniedMembers 替代 AllowedMembers 中的内容。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -32,14 +32,14 @@ ms.locfileid: "34294078"
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在****"**拒绝成员**" 部分中, 在 "拒绝的成员" 部分中, 添加或删除与从聊天室拒绝的成员关联的用户和其他 Active Directory 主体。
+在 "**拒绝成员**" 部分**中，在**"拒绝的成员" 部分中，添加或删除与从聊天室拒绝的成员关联的用户和其他 Active Directory 主体。
 
 
-有关持久聊天服务器功能和功能的详细信息, 请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息, 请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
+有关持久聊天服务器功能和功能的详细信息，请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息，请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
 
 ## <a name="see-also"></a>另请参阅
 

@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0164fae84025f3bdb9949b0da0d7be6db03bdd81
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3b7661f3aa2dd79144e8e5080799aea8d0c9de9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570927"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684085"
 ---
 # <a name="availability-in-algeria"></a>阿尔及利亚中的可用性
 

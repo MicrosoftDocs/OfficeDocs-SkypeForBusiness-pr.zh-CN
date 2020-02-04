@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于日本的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
-ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
+ms.openlocfilehash: 97545051e444dc8fda082b99353238dc8eaed71f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39631972"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683785"
 ---
 # <a name="availability-in-japan"></a>在日本的可用性
 

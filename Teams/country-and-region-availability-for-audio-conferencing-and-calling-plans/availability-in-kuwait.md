@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于 Skype for business 的 Office 365 服务和适用于科威特的 Microsoft 团队。
-ms.openlocfilehash: 84baa73a7111aee2783dced09d5d2113deffb412
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: c7032d8066660bf2982f14e4bf84b6e584b66767
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952445"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683755"
 ---
 # <a name="availability-in-kuwait"></a>以科威特为可行性
 

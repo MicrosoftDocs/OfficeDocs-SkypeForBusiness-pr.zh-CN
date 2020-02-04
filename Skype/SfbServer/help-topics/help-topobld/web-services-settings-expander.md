@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
-description: 从拓扑生成器内, 你可以修改用于内部和外部 web 服务的端口设置。 此外, 如果你要部署域名系统 (DNS) 负载平衡, 可以使用拓扑生成器来配置池的完全限定的域名 (FQDN), 该域名解析为该池中所有服务器的物理 IP 地址。
-ms.openlocfilehash: 8b68a2318434c8849c180bdde188e0fe69dfd61f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 从拓扑生成器内，你可以修改用于内部和外部 web 服务的端口设置。 此外，如果你要部署域名系统（DNS）负载平衡，可以使用拓扑生成器来配置池的完全限定的域名（FQDN），该域名解析为该池中所有服务器的物理 IP 地址。
+ms.openlocfilehash: 3304be3e4e8442e3ce100bd57c8ea75bd8a6c7ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282061"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684265"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  
-从拓扑生成器内, 你可以修改用于内部和外部 web 服务的端口设置。 此外, 如果你要部署域名系统 (DNS) 负载平衡, 可以使用拓扑生成器来配置池的完全限定的域名 (FQDN), 该域名解析为该池中所有服务器的物理 IP 地址。
+从拓扑生成器内，你可以修改用于内部和外部 web 服务的端口设置。 此外，如果你要部署域名系统（DNS）负载平衡，可以使用拓扑生成器来配置池的完全限定的域名（FQDN），该域名解析为该池中所有服务器的物理 IP 地址。
   
 ### <a name="editing-web-services-settings"></a>编辑 Web 服务设置
 
@@ -31,7 +31,7 @@ ms.locfileid: "34282061"
 2. 在“**编辑属性**”对话框中，单击“**Web 服务**”选项卡。
     
     > [!CAUTION]
-    > 如果您有多个前端池或前端服务器, 则外部 Web 服务 FQDN 必须是唯一的。 例如, 如果你将前端服务器的外部 Web 服务 FQDN 定义为**pool01.contoso.com**, 则不能将**Pool01.contoso.com**用于其他前端池或前端服务器。 如果你还部署控制器, 则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须是任何其他 Director 或控制器池以及任何前端池或前端服务器的唯一。 如果你决定使用自定义的 FQDN 替代内部 web 服务, 则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。
+    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果你将前端服务器的外部 Web 服务 FQDN 定义为**pool01.contoso.com**，则不能将**Pool01.contoso.com**用于其他前端池或前端服务器。 如果你还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须是任何其他 Director 或控制器池以及任何前端池或前端服务器的唯一。 如果你决定使用自定义的 FQDN 替代内部 web 服务，则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。
   
 3. 如果要编辑 Enterprise Edition 池的属性，则可以选择“**覆盖 FQDN**”。 仅在使用域名系统 (DNS) 负载平衡时，才能选择此选项。 如果正在使用 DNS 负载平衡，请选择“**覆盖 FQDN**”，然后在文本框中键入池的 FQDN，该 FQDN 会解析为该池中所有服务器的物理 IP 地址。 如果没有使用 DNS 负载平衡且没有选择“**覆盖 FQDN**”，则无法更改内部 Web 服务 FQDN。 内部 web 服务 FQDN 是内部用户用于连接到 Skype for Business 服务器的 URL。
     

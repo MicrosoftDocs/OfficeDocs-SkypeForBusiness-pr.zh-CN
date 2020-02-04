@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: '“拓扑: 状态”页将显示 Skype for Business 拓扑中服务器的状态。'
-ms.openlocfilehash: 4804c75e75817bdecf260a5fc03f2df5a93bf3a2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0097bedfcaf005b0264b16f1465148089a2d23e3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293156"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685735"
 ---
 # <a name="topology-status"></a>拓扑：状态
 
@@ -36,6 +36,6 @@ ms.locfileid: "34293156"
 
 - [Prevent New Connections to Services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 

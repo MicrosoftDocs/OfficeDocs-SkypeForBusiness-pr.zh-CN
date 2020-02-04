@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 请参阅如何在 Skype for Business Online 中为音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 753efca2117363774865817d3095d8b981b4342c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35220899"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680379"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议自动助理语言
 
@@ -46,11 +47,11 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 你必须是[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或 [Skype for Business 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此步骤。
     
-1. 在**Skype For business 管理中心**的左侧导航中, 转到 "**旧版门户**"。 在旧版门户中, 选择 "**音频会议**", 然后单击 " **Microsoft bridge**"。
+1. 在**Skype For business 管理中心**的左侧导航中，转到 "**旧版门户**"。 在旧版门户中，选择 "**音频会议**"，然后单击 " **Microsoft bridge**"。
     
-2. 从列表中选择音频会议电话号码, 然后在 "操作" 窗格中, 单击 "**设置语言**"。 仅可以更改专用音频会议号码的语言。  
+2. 从列表中选择音频会议电话号码，然后在 "操作" 窗格中，单击 "**设置语言**"。 仅可以更改专用音频会议号码的语言。  
     
-3. 在 "**设置语言**" 页面上, 单击 "**主要语言**" 列表以查看可用语言的完整列表。 如果需要, 请单击每个**次要语言**列表以选择 "辅助语言"。
+3. 在 "**设置语言**" 页面上，单击 "**主要语言**" 列表以查看可用语言的完整列表。 如果需要，请单击每个**次要语言**列表以选择 "辅助语言"。
     
     > [!NOTE]
     > [!注释] 则会显示所支持的主要和辅助语言。 在列表中选择它们的顺序将是向呼叫方提供的语言的顺序。 
@@ -67,9 +68,9 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
-若要自动执行此步骤, 你可以使用[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
+若要自动执行此步骤，你可以使用[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617689)和[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlet。
   
-若要了解详细信息, 请参阅[使用 Windows PowerShell 执行常见的 Skype For Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+若要了解详细信息，请参阅[使用 Windows PowerShell 执行常见的 Skype For Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>相关主题
 

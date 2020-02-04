@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-description: 在 "编辑移动策略" 对话框中, 您可以编辑移动策略的详细信息。
-ms.openlocfilehash: 8cffac19cd91fd90e93035d3ef705a254958aa98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 "编辑移动策略" 对话框中，您可以编辑移动策略的详细信息。
+ms.openlocfilehash: 4a765125023af51b1e54d6af50901e54836cca34
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285853"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686771"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 
-在 "**编辑移动策略**" 对话框中, 您可以编辑移动策略的详细信息。
+在 "**编辑移动策略**" 对话框中，您可以编辑移动策略的详细信息。
 
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -37,7 +37,7 @@ ms.locfileid: "34285853"
 
 - **说明**移动策略的说明。
 
-有关移动策略的详细信息, 请参阅[移动策略](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)。
+有关移动策略的详细信息，请参阅[移动策略](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)。
 
 ## <a name="see-also"></a>另请参阅
 

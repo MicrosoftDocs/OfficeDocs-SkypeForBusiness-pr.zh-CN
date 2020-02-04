@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于巴拿马的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: f8cbc14fb7a2ca98193c6f788e97fc6ac30a7a94
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b41d1f19b31733ef3fae89521d82fc6fc09d3b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570990"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683645"
 ---
 # <a name="availability-in-panama"></a>在巴拿马的可用性
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563119"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678966"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -38,6 +38,11 @@ Microsoft 团队使用新式身份验证来保持登录体验简单而又安全�
 - 如果用户未登录到任何其他位置的 Office 365 企业帐户，则当用户启动团队时，系统会要求他们提供单因素或多重身份验证（SFA 或 MFA），具体取决于你的组织决定需要的流程。
 
 - 如果用户登录到加入域的计算机，则当用户启动团队时，可能会要求他们执行一个更多身份验证步骤，具体取决于你的组织选择是需要 MFA 还是计算机已要求进行 MFA 登录。 如果其计算机已要求进行 MFA 登录，则当用户打开团队时，应用会自动启动。
+
+- 如果用户登录到加入域的计算机，并且不希望其用户名预填充到团队登录屏幕上，则管理员可以将以下 Windows 注册表设置为关闭用户名的预填充：计算机 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams DisableUpnSuffixCheck （REG_DWORD）0x00000001 （1）
+
+  注意：在默认情况下，跳过以 "本地" 或 "corp" 结尾的用户名的用户名预填。因此无需设置注册表项即可将其关闭。 
+
 
 ### <a name="mac-users"></a>Mac 用户 
 

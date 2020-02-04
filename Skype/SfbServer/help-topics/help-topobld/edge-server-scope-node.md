@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 此节点显示此边缘池的池完全限定域名 (FQDN) 以及其他基本设置。可以执行以下操作：
-ms.openlocfilehash: 515502b12ce4cc59f854f7266fa27d792ecf9518
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae1c6af147934898f636f6afbd206911008f9872
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282566"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684745"
 ---
 # <a name="edge-server-scope-node"></a>边缘服务器范围节点
  

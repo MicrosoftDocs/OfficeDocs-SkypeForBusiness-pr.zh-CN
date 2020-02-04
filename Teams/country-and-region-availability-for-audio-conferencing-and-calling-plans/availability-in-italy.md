@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于意大利的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: cbaa5ad8157975be005e4e4601987fddc29430bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4c402c0cbb376ceacebd39f8618100b503827651
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571699"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683795"
 ---
 # <a name="availability-in-italy"></a>在意大利的可用性
 

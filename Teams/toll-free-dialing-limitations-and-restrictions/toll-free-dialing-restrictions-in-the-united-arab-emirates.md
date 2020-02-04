@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向您显示每个国家/地区内所需的访问代码，以拨打免费号码。
-ms.openlocfilehash: e934fdd2d3d4330d44e7fa1bc95df94f1f96bece
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4d8d138a1b7d8ab89bdae366e610b3b623bd9ab1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572636"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680739"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>阿拉伯联合酋长国的免费拨号限制
 

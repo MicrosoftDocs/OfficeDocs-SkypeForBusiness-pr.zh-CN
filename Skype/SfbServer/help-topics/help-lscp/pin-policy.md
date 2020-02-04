@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 1d380df67e2323c1be2005e8fb300e40d23319b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 13599dd1e68c98dc4d9197e546a62c9a20381130
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291037"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686165"
 ---
 # <a name="pin-policy"></a>PIN 策略
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 
- **使用 IP 电话的 PIN 策略**此个人识别码 (PIN) 策略支持使用 IP 电话连接到 Skype for business 服务器的用户的身份验证。
+ **使用 IP 电话的 PIN 策略**此个人识别码（PIN）策略支持使用 IP 电话连接到 Skype for business 服务器的用户的身份验证。
 - [在 Skype for Business Server 2015 中创建新的 PIN 策略](../../manage/authentication/create-a-new-pin-policy.md)
 
 - [在 Skype for Business Server 2015 中修改现有 PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
@@ -38,5 +38,5 @@ ms.locfileid: "34291037"
 
 - [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 

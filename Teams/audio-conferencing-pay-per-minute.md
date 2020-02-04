@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 除了标准的音频会议每用户许可证之外，使用 Microsoft 批量许可的组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515888"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684135"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -41,7 +42,7 @@ ms.locfileid: "37515888"
   
 ## <a name="need-some-details"></a>需要一些详细信息？
 
-音频会议每用户许可证提供包括电话拨入式使用和某些拨出使用，每分钟收费会议**允许您每分钟支付所有音频会议使用情况，而无需按每个用户每月付款许可证**。 这样，所有拨入和拨出通话将按分钟收费，包括：
+音频会议每用户许可证提供包括电话拨入式使用和某些拨出使用，因此每分钟收费的音频会议**允许您每分钟购买所有音频会议，而无需支付每个用户每月许可证**。 这样，所有拨入和拨出通话将按分钟收费，包括：
   
 - 拨入到您的组织的收费音频会议号码。
     

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: 右键单击拓扑生成器层次结构树中的共享组件以创建新的共享组件或访问拓扑级别选项。
-ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a1a00265f4c5c53df2a1d045a1ac31eaef2d48d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291369"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684385"
 ---
 # <a name="shared-components-scope-node"></a>共享组件范围节点
  
@@ -33,7 +33,7 @@ ms.locfileid: "34291369"
   
 ![共享组件范围节点](../../media/Shared_Components_Scope_NodeB.jpg)
   
-选择 "**拓扑**" 以单击 "选项" 以打开新的拓扑文档。 打开现有拓扑文档, 从中央管理存储下载当前拓扑, 保存当前拓扑文档的副本, 发布当前拓扑文档, 安装数据库以创建当前配置的数据库配置。将 Office 通信服务器 2007 R2 合并到当前部署中, 或删除部署。
+选择 "**拓扑**" 以单击 "选项" 以打开新的拓扑文档。 打开现有拓扑文档，从中央管理存储下载当前拓扑，保存当前拓扑文档的副本，发布当前拓扑文档，安装数据库以创建当前配置的数据库配置。将 Office 通信服务器 2007 R2 合并到当前部署中，或删除部署。
   
 ![共享组件范围节点 C](../../media/Shared_Components_Scope_NodeC.jpg)
   

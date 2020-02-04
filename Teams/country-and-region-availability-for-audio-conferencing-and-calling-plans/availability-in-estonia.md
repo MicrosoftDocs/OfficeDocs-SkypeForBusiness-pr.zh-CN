@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是适用于爱沙尼亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 355ccfa805159a09348dcb4b4fa8fd589c7ee8df
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5e1d8c3b2696e040d85584605ff0c0bb3cf9fbf8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570398"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683915"
 ---
 # <a name="availability-in-estonia"></a>在爱沙尼亚的可用性
 

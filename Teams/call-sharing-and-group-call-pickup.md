@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 ms.custom:
 - Phone System
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: 0f61039fc2027da83472f042c723a43d249da080
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a39ed0a606b38a159473fbab9c35d21ae461c34b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517014"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684115"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -57,6 +57,6 @@ Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传�
 
 一个租户最多可以包含32768个呼叫组。 每个呼叫组中最多只能有25个用户。 
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
 [团队中的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

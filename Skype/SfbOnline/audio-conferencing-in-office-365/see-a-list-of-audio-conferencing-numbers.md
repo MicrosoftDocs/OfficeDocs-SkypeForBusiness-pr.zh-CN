@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for business Online 中查找电话拨入式会议号码。 '
-ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792442"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680509"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>请参阅  Skype for Business Online 中的音频会议号码列表
 
@@ -41,7 +42,7 @@ When you set up Audio Conferencing for Skype for Business users, you can view th
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
-您可以查看[邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md), 以更改单个用户的拨入电话号码。
+您可以查看[邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)，以更改单个用户的拨入电话号码。
   
 > [!NOTE]
 > [!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。 
@@ -55,11 +56,11 @@ If there is only one phone number available in your organization, it will be use
     
 2. 转到管理中心 > **Skype For business**。
     
-3. 在**Skype for business 管理中心**的左侧导航中, 转到 "**音频会议** > **Microsoft 网桥**", 然后:
+3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **Microsoft 网桥**"，然后：
     
    - 您可以查看音频会议可用的电话号码。
     
-   - 您还可以查看该位置, 以及音频会议自动助理将使用的主要和辅助语言。
+   - 您还可以查看该位置，以及音频会议自动助理将使用的主要和辅助语言。
     
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
@@ -75,7 +76,7 @@ If there is only one phone number available in your organization, it will be use
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。了解以下主题中的这些优势：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     

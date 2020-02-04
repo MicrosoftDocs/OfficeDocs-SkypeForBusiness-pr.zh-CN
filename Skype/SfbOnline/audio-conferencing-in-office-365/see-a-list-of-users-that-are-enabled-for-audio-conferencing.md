@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Skype for Business 业务管理中心查看组织中启用了拨入音频会议 的用户列表。 '
-ms.openlocfilehash: 2d48d628f77f651477287ff0b22701a2e7fd74e5
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ffc5649a4dc37428fb64915ce6a8b38d0869f388
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792335"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680419"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中查看已启用音频会议的用户的列表
 
@@ -44,11 +45,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 当你查看已启用用户的列表时, 你可以从列表中选择用户并使用操作窗格编辑该用户的音频会议设置。
+- 当你查看已启用用户的列表时，你可以从列表中选择用户并使用操作窗格编辑该用户的音频会议设置。
     
-- 当你选择配置为使用 Microsoft 作为音频会议提供商的单个用户时, 你可以查看默认电话号码以及你的组织是否已启用动态会议 Id, 你可以重置会议的会议 ID用户进行组织。
+- 当你选择配置为使用 Microsoft 作为音频会议提供商的单个用户时，你可以查看默认电话号码以及你的组织是否已启用动态会议 Id，你可以重置会议的会议 ID用户进行组织。
     
-- 当你选择配置为使用第三方音频会议提供商的单个用户时, 你可以查看音频会议提供商的名称、收费电话号码和免费电话号码 (如果已设置)。
+- 当你选择配置为使用第三方音频会议提供商的单个用户时，你可以查看音频会议提供商的名称、收费电话号码和免费电话号码（如果已设置）。
     
 - 可以使用筛选选项来显示具有以下设置的用户：
     
@@ -68,7 +69,7 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - 通过将提供程序更改为 "**无**" 来关闭用户的音频会议。
     
-  - 如果用户已分配**音频会议**许可证, 则切换到 Microsoft 作为音频会议提供商。
+  - 如果用户已分配**音频会议**许可证，则切换到 Microsoft 作为音频会议提供商。
     
   - 允许/禁止匿名用户激活选定用户的电话会议。
     
@@ -80,7 +81,7 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势, 仅限于使用 Microsoft 365 管理中心, 例如当你同时为多个用户设置更改时。 Learn about these advantages in the following topics:
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

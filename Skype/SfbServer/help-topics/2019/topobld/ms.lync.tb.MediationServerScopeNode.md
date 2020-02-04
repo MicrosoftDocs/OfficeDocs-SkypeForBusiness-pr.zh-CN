@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该中介池的侦听端口和关联的公用电话交换网 (PSTN) 网关。可以执行以下操作：
-ms.openlocfilehash: ec3a58d9868788010a653effa022b73320434b5d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74adcdf400afe2e1a21f758f8885fb1574b34216
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299200"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688185"
 ---
 # <a name="mediation-server-scope-node"></a>中介服务器范围节点
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: “A/V 会议池”节点列出了拓扑中的 A/V 会议池。 可以执行以下操作：
-ms.openlocfilehash: 99301cc1af11207cd9c371f605e07cdefe5f5116
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fe3b1a3713e6f687ff08cf0dae40f7d01537afdc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306044"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684885"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 范围节点
  

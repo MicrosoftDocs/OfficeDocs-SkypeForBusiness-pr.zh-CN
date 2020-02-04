@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于法国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 3c29d4188e7e49e7a0f5a49d916bbc4c333b5270
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5d9532cfb10e4968866d57ed2b0fece3b04312ab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569261"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683895"
 ---
 # <a name="availability-in-france"></a>在法国的可用性
 

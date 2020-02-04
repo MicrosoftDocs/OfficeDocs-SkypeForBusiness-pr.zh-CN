@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: bd4cbb507bff025f7133673c25f59beada37aeb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8533d8be1e128b34d1fd8bf9280c1704a585fd46
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284408"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684675"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -101,7 +101,7 @@ ms.locfileid: "34284408"
 对于“**内部 Web 服务**”，请指定以下内容：
 
 > [!CAUTION]
-> 如果您有多个前端池或前端服务器, 则外部 Web 服务 FQDN 必须是唯一的。 例如, 如果你将前端服务器的外部 Web 服务 FQDN 定义为**pool01.contoso.com**, 则不能将**Pool01.contoso.com**用于其他前端池或前端服务器。 如果你还部署控制器, 则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须是任何其他 Director 或控制器池以及任何前端池或前端服务器的唯一。 如果你决定使用自定义的 FQDN 替代内部 web 服务, 则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。
+> 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果你将前端服务器的外部 Web 服务 FQDN 定义为**pool01.contoso.com**，则不能将**Pool01.contoso.com**用于其他前端池或前端服务器。 如果你还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须是任何其他 Director 或控制器池以及任何前端池或前端服务器的唯一。 如果你决定使用自定义的 FQDN 替代内部 web 服务，则每个 FQDN 都必须与任何其他前端池、Director 或控制器池唯一。
 
 - 如果选择“**覆盖 FQDN**”，则可以为池上的“**内部 Web 服务**”标识指定不同的 FQDN。默认情况下，该设置是为前端池定义的当前池名称。
 
@@ -111,7 +111,7 @@ ms.locfileid: "34284408"
 
 - 外部 Web 服务的 FQDN。此处指定的 FQDN 通常由外部连接要求（如反向代理）定义。
 
-- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常情况下, 不需要更改这些项, 除非对池的端口要求有冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
+- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常情况下，不需要更改这些项，除非对池的端口要求有冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
 
 ### <a name="mediation-server"></a>中介服务器
 

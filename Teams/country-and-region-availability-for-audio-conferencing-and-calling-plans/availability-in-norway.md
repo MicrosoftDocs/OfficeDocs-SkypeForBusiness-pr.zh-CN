@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于挪威的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 97093fde4fe1b4276cb953c2431ec3077a68af0e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bbaa4c2176d040578bc57b19c9e1d42bac2e4d60
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569319"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683655"
 ---
 # <a name="availability-in-norway"></a>在挪威的可用性
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 6fa3ca3f59756c8a6fedb9fd8f1f457ca3f2df40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ac3174c367b4c6b23ab224a6eedf20399136302
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686935"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -57,7 +57,7 @@ ms.locfileid: "34277928"
 |适用于 Android 的 Lync 2010  <br/> |AndroidLync  <br/> |
 |Mobility Service  <br/> |McxService  <br/> |
 
-- **版本号**你可以指定以下字段的版本号, 或使用通配符指示客户端版本号。
+- **版本号**你可以指定以下字段的版本号，或使用通配符指示客户端版本号。
 
   - **主要版本**指定与客户端的主版本相对应的数字。
 
@@ -67,7 +67,7 @@ ms.locfileid: "34277928"
 
   - **更新**指定与客户端更新版本对应的数字。
 
-- **比较操作**你可以为你在前面的步骤中指定的客户端版本指定匹配操作。 以下操作可用:
+- **比较操作**你可以为你在前面的步骤中指定的客户端版本指定匹配操作。 以下操作可用：
 
   - **相同**
 
@@ -81,20 +81,20 @@ ms.locfileid: "34277928"
 
   - **更低或相同**
 
-- **操作**你可以指定在满足前面步骤中的条件时要执行的操作。 以下操作可用:
+- **操作**你可以指定在满足前面步骤中的条件时要执行的操作。 以下操作可用：
 
   - **允许**允许客户端登录。
 
-  - **允许和升级**允许客户端登录并接收来自 Windows Server 更新服务或 Microsoft Update 的更新。 仅当选择了 "用户代理**OC** " 时, 此操作才可用。
+  - **允许和升级**允许客户端登录并接收来自 Windows Server 更新服务或 Microsoft Update 的更新。 仅当选择了 "用户代理**OC** " 时，此操作才可用。
 
     > [!NOTE]
     > 选择此操作会导致在用户下次登录 Skype for Business 时显示通知。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
 
-  - **允许 URL**允许客户端登录, 并显示有关从何处下载另一个客户端版本的消息。 可以在“**URL**”字段中指定 URL。
+  - **允许 URL**允许客户端登录，并显示有关从何处下载另一个客户端版本的消息。 可以在“**URL**”字段中指定 URL。
 
   - **阻止**阻止客户端登录。
 
-  - **阻止和升级**阻止客户端登录, 并允许客户从 Windows Server 更新服务或 Microsoft 更新接收更新。 仅当选择了 "用户代理**OC** " 时, 此操作才可用。
+  - **阻止和升级**阻止客户端登录，并允许客户从 Windows Server 更新服务或 Microsoft 更新接收更新。 仅当选择了 "用户代理**OC** " 时，此操作才可用。
 
   - **使用 URL 阻止**   阻止客户端登录并显示有关下载其他客户端版本的位置的消息。可以在“**URL**”字段中指定 URL。
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于委内瑞拉的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 64f27937908c54005445668278039f0c4cd4611d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d55508df24c9e37ca26e28cabd94aa715416cda5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572274"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682529"
 ---
 # <a name="availability-in-venezuela"></a>在委内瑞拉的可用性
 

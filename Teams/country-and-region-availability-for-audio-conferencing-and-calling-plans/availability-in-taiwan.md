@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于台湾的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 1824853b31da73578963c50f0e768fbf4ebbbed9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cf80de134bad169d6fb55b8f07820873cfb5fb44
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572307"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683525"
 ---
 # <a name="availability-in-taiwan"></a>在中国台湾的可用性
 

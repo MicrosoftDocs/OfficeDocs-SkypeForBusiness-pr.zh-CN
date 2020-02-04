@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
-description: '你可以使用新的 Trunk 配置: 新的通话编号转换规则以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：'
-ms.openlocfilehash: f617fa91755b5f63bc5f0caba02c49fa45d29d38
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 你可以使用新的 Trunk 配置：新的通话编号转换规则以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
+ms.openlocfilehash: 29ca0e48ca77469961e016c43b05b58c3ab3b05d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286632"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686246"
 ---
 # <a name="new-calling-number-translation-rule"></a>新的呼叫号码转换规则
 
-你可以使用**新的 Trunk 配置**:**新的通话编号转换规则**以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
+你可以使用**新的 Trunk 配置**：**新的通话编号转换规则**以创建新的翻译规则。 有关转换规则的详细信息，请参阅以下主题：
 
 1. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 

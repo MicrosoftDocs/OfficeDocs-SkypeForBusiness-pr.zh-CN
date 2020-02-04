@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: '右键单击拓扑生成器中的 Office Web Apps 服务器以执行以下操作:'
-ms.openlocfilehash: ad6d8dad7131dc24f3bfc3a99cc917b0a88b991e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 右键单击拓扑生成器中的 Office Web Apps 服务器以执行以下操作：
+ms.openlocfilehash: 25efc9019a0ae25d4751d36542bc8f429ffcb190
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302250"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688135"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps 服务器范围节点扩展器
  
-右键单击拓扑生成器中的**Office Web Apps 服务器**以执行以下操作:
+右键单击拓扑生成器中的**Office Web Apps 服务器**以执行以下操作：
   
-- **新的 Office Web Apps 服务器**: 启动 "**定义新的 office Web apps" 服务器**向导, 用于定义新的 office web apps 服务器。
+- **新的 Office Web Apps 服务器**：启动 "**定义新的 office Web apps" 服务器**向导，用于定义新的 office web apps 服务器。
     
-除了 "新的 Office Web Apps" 服务器选项之外, 您还可以执行以下常规任务:
+除了 "新的 Office Web Apps" 服务器选项之外，您还可以执行以下常规任务：
   
 ![Office WebApps Server 范围节点](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

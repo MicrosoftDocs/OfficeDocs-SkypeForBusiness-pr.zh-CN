@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示完全限定的域名 (FQDN)、关联的中介服务器以及有关此公共交换电话网络 (PSTN) 网关的其他基本信息。 可以执行以下操作：
-ms.openlocfilehash: 2130d22a1fac820c8e092e43244f3b1075f3de27
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 此节点显示完全限定的域名（FQDN）、关联的中介服务器以及有关此公共交换电话网络（PSTN）网关的其他基本信息。 可以执行以下操作：
+ms.openlocfilehash: 43d30600ab9dbccf3d73b8fb70daa5b76527a80e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307152"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688075"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  
-此节点显示完全限定的域名 (FQDN)、关联的中介服务器以及有关此公共交换电话网络 (PSTN) 网关的其他基本信息。 可以执行以下操作：
+此节点显示完全限定的域名（FQDN）、关联的中介服务器以及有关此公共交换电话网络（PSTN）网关的其他基本信息。 可以执行以下操作：
   
 - **编辑属性**。打开该网关的“**编辑属性**”页，在其中可以更改其 FQDN（如果尚未发布拓扑）、侦听端口、传输协议和备用媒体 IP 地址。
     

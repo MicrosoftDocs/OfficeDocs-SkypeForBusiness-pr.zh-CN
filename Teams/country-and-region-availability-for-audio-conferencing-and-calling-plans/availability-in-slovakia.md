@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于斯洛伐克的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: ea3e52121ad320e2b237ea1283e74ac9c54e2429
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 47f30db5bc6873afecbc3b76648b84a317e27e4b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683565"
 ---
 # <a name="availability-in-slovakia"></a>在斯洛伐克的可用性
 
