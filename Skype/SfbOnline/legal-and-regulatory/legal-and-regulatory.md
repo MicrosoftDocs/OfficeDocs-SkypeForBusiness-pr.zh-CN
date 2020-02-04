@@ -15,15 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: '这是必须发布以满足法国 Skype for business Online 的辅助功能、合规性和法规要求的内容。 '
-ms.openlocfilehash: 1ee076a9890dd7aa66b3e1ff1d89c3f5c9d6e10c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301221"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693097"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="7bd33-103">法律和监管</span><span class="sxs-lookup"><span data-stu-id="7bd33-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="0151e-103">法律和监管</span><span class="sxs-lookup"><span data-stu-id="0151e-103">Legal and regulatory</span></span>

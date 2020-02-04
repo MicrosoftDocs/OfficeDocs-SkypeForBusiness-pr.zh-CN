@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
-description: 你必须为访问边缘服务指定完全限定的域名 (FQDN)。 如果未在 "选择功能" 页面上选择&amp; "使用单个 FQDN IP 地址" 选项, 则还必须为 Web 会议 Edge 服务和 a/V 边缘服务指定一个 fqdn。
-ms.openlocfilehash: fa9513d222c41cb4232832a9d6d3ba4273b6828c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 你必须为访问边缘服务指定完全限定的域名（FQDN）。 如果未在 "选择功能" 页面上选择&amp; "使用单个 FQDN IP 地址" 选项，则还必须为 Web 会议 Edge 服务和 a/V 边缘服务指定一个 fqdn。
+ms.openlocfilehash: 9169958646476b18f822f8c178e640c810bd28c1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302477"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685255"
 ---
-# <a name="add-edge-server-fqdn"></a><span data-ttu-id="d69e2-104">添加 Edge Server FQDN</span><span class="sxs-lookup"><span data-stu-id="d69e2-104">Add Edge Server FQDN</span></span>
+# <a name="add-edge-server-fqdn"></a><span data-ttu-id="9e3a4-104">添加 Edge Server FQDN</span><span class="sxs-lookup"><span data-stu-id="9e3a4-104">Add Edge Server FQDN</span></span>
  
-<span data-ttu-id="d69e2-105">你必须为访问边缘服务指定完全限定的域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="d69e2-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="d69e2-106">如果未在 "**选择功能**" 页面上选择 "**使用单个&amp; FQDN IP 地址**" 选项, 则还必须为 Web 会议 Edge 服务和 A/V 边缘服务指定一个 fqdn。</span><span class="sxs-lookup"><span data-stu-id="d69e2-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
+<span data-ttu-id="9e3a4-105">你必须为访问边缘服务指定完全限定的域名（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="9e3a4-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="9e3a4-106">如果未在 "**选择功能**" 页面上选择 "**使用单个&amp; FQDN IP 地址**" 选项，则还必须为 Web 会议 Edge 服务和 A/V 边缘服务指定一个 fqdn。</span><span class="sxs-lookup"><span data-stu-id="9e3a4-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
   
-<span data-ttu-id="d69e2-107">同样, 如果你选择了 "**使用单个 FQDN &amp; IP 地址**" 选项, 则必须为每个 Edge 服务指定不同的端口号 (推荐的端口设置: 444 用于访问边缘服务, 8057 用于 Web 会议 Edge 服务, 443 适用于 a/V)Edge 服务)。</span><span class="sxs-lookup"><span data-stu-id="d69e2-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="d69e2-108">如果未选择此选项, 则可以对所有三种服务使用相同的端口号 (如 443)。</span><span class="sxs-lookup"><span data-stu-id="d69e2-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
+<span data-ttu-id="9e3a4-107">同样，如果你选择 "**使用单个 FQDN &amp; IP 地址**" 选项，则必须为每个 Edge 服务指定不同的端口号（推荐的端口设置：444用于访问边缘服务，8057用于 Web 会议 Edge 服务，443用于 a/V 边缘服务）。</span><span class="sxs-lookup"><span data-stu-id="9e3a4-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="9e3a4-108">如果未选择此选项，则可以对所有三种服务使用相同的端口号（如443）。</span><span class="sxs-lookup"><span data-stu-id="9e3a4-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
   
 

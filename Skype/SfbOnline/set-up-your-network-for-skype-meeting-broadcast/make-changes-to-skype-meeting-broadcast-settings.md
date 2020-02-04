@@ -14,35 +14,35 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: 您可以启用 Skype 会议直播, 并对这些会议的设置和策略进行更改。
-ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以启用 Skype 会议直播，并对这些会议的设置和策略进行更改。
+ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280790"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692607"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="55508-103">对您的组织的 Skype 会议直播设置进行更改</span><span class="sxs-lookup"><span data-stu-id="55508-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="d8f8f-103">对您的组织的 Skype 会议直播设置进行更改</span><span class="sxs-lookup"><span data-stu-id="d8f8f-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
 
-<span data-ttu-id="55508-104">您可以启用 Skype 会议直播, 并对这些会议的设置和策略进行更改。</span><span class="sxs-lookup"><span data-stu-id="55508-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
+<span data-ttu-id="d8f8f-104">您可以启用 Skype 会议直播，并对这些会议的设置和策略进行更改。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
   
-- <span data-ttu-id="55508-105">**启用 Skype 会议直播**启用 Skype 会议直播。</span><span class="sxs-lookup"><span data-stu-id="55508-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="55508-106">启用 Skype 会议直播后, 您需要为[Skype 会议直播设置您的网络](set-up-your-network-for-skype-meeting-broadcast.md)。</span><span class="sxs-lookup"><span data-stu-id="55508-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="55508-107">如果要为您的企业外部的人员保留网络研讨会和其他广播, 请执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="55508-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
+- <span data-ttu-id="d8f8f-105">**启用 Skype 会议直播**启用 Skype 会议直播。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="d8f8f-106">启用 Skype 会议直播后，您需要为[Skype 会议直播设置您的网络](set-up-your-network-for-skype-meeting-broadcast.md)。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="d8f8f-107">如果要为您的企业外部的人员保留网络研讨会和其他广播，请执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
     
-- <span data-ttu-id="55508-108">**为我的组织启用 Skype 会议直播预览功能**Skype for Business 客户计划使您能够及早访问新产品和功能。</span><span class="sxs-lookup"><span data-stu-id="55508-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="55508-109">这让你的组织 sneak 了解即将推出的内容, 以及在我们将产品内部版本发布到公众之前提供反馈的机会。</span><span class="sxs-lookup"><span data-stu-id="55508-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="55508-110">Skype for business 预览版</span><span class="sxs-lookup"><span data-stu-id="55508-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
+- <span data-ttu-id="d8f8f-108">**为我的组织启用 Skype 会议直播预览功能**Skype for Business 客户计划使您能够及早访问新产品和功能。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="d8f8f-109">这让你的组织 sneak 了解即将推出的内容，以及在我们将产品内部版本发布到公众之前提供反馈的机会。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="d8f8f-110">Skype for business 预览版</span><span class="sxs-lookup"><span data-stu-id="d8f8f-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
     
-- <span data-ttu-id="55508-111">**允许组织者安排匿名会议**这允许组织者创建允许组织外部的任何人无需登录即可加入的广播事件。</span><span class="sxs-lookup"><span data-stu-id="55508-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
+- <span data-ttu-id="d8f8f-111">**允许组织者安排匿名会议**这允许组织者创建允许组织外部的任何人无需登录即可加入的广播事件。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
     
-- <span data-ttu-id="55508-112">**允许录制广播会议**这将允许演示者或组织者记录任何会议。</span><span class="sxs-lookup"><span data-stu-id="55508-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
+- <span data-ttu-id="d8f8f-112">**允许录制广播会议**这将允许演示者或组织者记录任何会议。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
     
-- <span data-ttu-id="55508-113">**面向与会者的帮助台支持 URL**输入会议直播与会者在连接或参加广播会议需要帮助时使用的链接。</span><span class="sxs-lookup"><span data-stu-id="55508-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
+- <span data-ttu-id="d8f8f-113">**面向与会者的帮助台支持 URL**输入会议直播与会者在连接或参加广播会议需要帮助时使用的链接。</span><span class="sxs-lookup"><span data-stu-id="d8f8f-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="55508-114">相关主题</span><span class="sxs-lookup"><span data-stu-id="55508-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d8f8f-114">相关主题</span><span class="sxs-lookup"><span data-stu-id="d8f8f-114">Related topics</span></span>
 
-[<span data-ttu-id="55508-115">设置 Skype 会议直播网络</span><span class="sxs-lookup"><span data-stu-id="55508-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
+[<span data-ttu-id="d8f8f-115">设置 Skype 会议直播网络</span><span class="sxs-lookup"><span data-stu-id="d8f8f-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
  
