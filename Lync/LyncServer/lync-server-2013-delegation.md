@@ -3,6 +3,8 @@ title: Lync Server 2013：委派
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegation
 ms:assetid: 89e76e5c-3cfb-4504-8d0d-7509c8ba9815
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82be0bdc382440cc8a4307dc0ba981f31c5a9313
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830660"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830660"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-03-09_
+_**主题上次修改时间：** 2013-03-09_
 
-Lync 中的委派功能受基于位置的路由以下列方式受到影响:
+Lync 中的委派功能受基于位置的路由以下列方式受到影响：
 
-  - 当为基于位置的路由启用代理人代表经理呼叫时, 代理人的语音政策将用于授权呼叫, 代理人的网站语音路由策略将用于路由呼叫
+  - 当为基于位置的路由启用代理人代表经理呼叫时，代理人的语音政策将用于授权呼叫，代理人的网站语音路由策略将用于路由呼叫
 
   - 对于打给经理的传入 PSTN 呼叫，适用于呼叫转接或同时响铃的相同规则将按照呼叫转接和同时响铃主题所述进行应用。
 

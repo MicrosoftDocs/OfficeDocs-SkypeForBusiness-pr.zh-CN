@@ -3,6 +3,8 @@ title: Lync Server 2013：验证您的移动功能部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying your mobility deployment
 ms:assetid: 72f9b4d3-57b0-4705-9480-cfdca313a70c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b38e87a8266763085c74bf7119cc996f793ca93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845372"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34845372"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-12_
+_**主题上次修改时间：** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-部署 Lync Server 移动服务和 Lync Server 自动发现服务之后, 运行测试事务以验证你的部署是否正常工作。 你可以运行**Test CsUcwaConference**来测试两个正在使用 Lync 2013 移动客户端的用户在会议中创建、加入和沟通的能力。 若要使用此测试事务, 需要两个实际用户或测试用户及其完整凭据。
+部署 Lync Server 移动服务和 Lync Server 自动发现服务之后，运行测试事务以验证你的部署是否正常工作。 你可以运行**Test CsUcwaConference**来测试两个正在使用 Lync 2013 移动客户端的用户在会议中创建、加入和沟通的能力。 若要使用此测试事务，需要两个实际用户或测试用户及其完整凭据。
 
-使用**CsMcxP2PIM**测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与**CsUcwaConference 测试**类似, 你可以使用两个实际用户或两个预定义的测试用户。
+使用**CsMcxP2PIM**测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与**CsUcwaConference 测试**类似，你可以使用两个实际用户或两个预定义的测试用户。
 
 <div>
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2013-02-12_
 
 1.  以 CsAdministrator 角色的成员身份登录任何安装了 Lync Server 命令行管理程序和 Ocscore 的计算机。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  在命令行中键入：
     
@@ -65,11 +67,11 @@ _**主题上次修改时间:** 2013-02-12_
 
 <div>
 
-## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>要测试 Lync 2010 Mobile 的人至个人即时消息 (IM)
+## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>要测试 Lync 2010 Mobile 的人至个人即时消息（IM）
 
 1.  以 CsAdministrator 角色的成员身份登录任何安装了 Lync Server 命令行管理程序和 Ocscore 的计算机。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  在命令行中键入：
     

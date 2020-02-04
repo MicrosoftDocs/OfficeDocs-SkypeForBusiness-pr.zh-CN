@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 对 Lync 客户端使用双因素身份验证'
+title: Lync Server 2013：对 Lync 客户端使用双因素身份验证
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5af9e9b5268fd218bfe5856473124514cfe34945
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 25b5d3305c5d9825342c0293325c9afca96c5a97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845398"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845398"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-11_
+_**主题上次修改时间：** 2013-07-11_
 
 本主题介绍了如何利用 Lync 2013 客户端的双重身份验证。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2013-07-11_
 
 ## <a name="sign-in-to-lync-2013-for-the-first-time"></a>第一次登录 Lync 2013
 
-在安装 Lync 2013 时, 通常会自动配置您的 Lync 登录信息。 但首次使用 Lync 时, 您可能必须手动启动客户端。
+在安装 Lync 2013 时，通常会自动配置您的 Lync 登录信息。 但首次使用 Lync 时，您可能必须手动启动客户端。
 
 **首次登录 Lync**
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2013-07-11_
     
       - 如果登录地址框已经填充，请确认显示的地址是否正确。
     
-      - 如果不正确, 或者如果该框为空, 请输入您的 Lync 登录地址 (这通常与您的电子邮件地址相同)。
+      - 如果不正确，或者如果该框为空，请输入您的 Lync 登录地址（这通常与您的电子邮件地址相同）。
     
       - 如果显示空密码框，请添加您的密码。
 
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2013-07-11_
 
 ## <a name="sign-out-of-lync"></a>注销 Lync
 
-使用完 Lync 后, 您可以从 "文件" 菜单中关闭显示、注销会话或退出程序。 下表说明了这些选项之间的差异。
+使用完 Lync 后，您可以从 "文件" 菜单中关闭显示、注销会话或退出程序。 下表说明了这些选项之间的差异。
 
 
 <table>
@@ -84,17 +86,17 @@ _**主题上次修改时间:** 2013-07-11_
 <tbody>
 <tr class="odd">
 <td><p>关闭</p></td>
-<td><p>关闭 Lync 显示, 但让使用你的用户 ID 标识的 Lync 会话继续运行。 因此，您可以继续接收通知并与其他人互动。</p>
+<td><p>关闭 Lync 显示，但让使用你的用户 ID 标识的 Lync 会话继续运行。 因此，您可以继续接收通知并与其他人互动。</p>
 <p>你可以随时通过单击任务栏上的 Lync 图标或屏幕底部的通知区域来恢复显示。</p></td>
-<td><p>在 Lync 主窗口中, 执行下列操作之一:</p>
+<td><p>在 Lync 主窗口中，执行下列操作之一：</p>
 <ol>
-<li><p>选择 "<strong>选项</strong>" 按钮, 然后选择 "<strong>文件</strong> &gt; <strong>关闭</strong>"。</p></li>
+<li><p>选择 "<strong>选项</strong>" 按钮，然后选择 "<strong>文件</strong> &gt; <strong>关闭</strong>"。</p></li>
 <li><p>单击窗口右上角的“关闭”<strong></strong>按钮 (X)。</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p>注销</p></td>
-<td><p>结束与你的用户 ID 相关联的 Lync 会话, 但 Lync 会继续在后台运行。 注销时，登录窗口将会出现。</p>
+<td><p>结束与你的用户 ID 相关联的 Lync 会话，但 Lync 会继续在后台运行。 注销时，登录窗口将会出现。</p>
 <div>
 
 > [!TIP]  
@@ -102,12 +104,12 @@ _**主题上次修改时间:** 2013-07-11_
 
 
 </div></td>
-<td><p>在 Lync 主窗口中, 选择 "<strong>选项</strong>" 按钮, 然后选择 "<strong>文件</strong> &gt; <strong></strong>注销"。</p></td>
+<td><p>在 Lync 主窗口中，选择 "<strong>选项</strong>" 按钮，然后选择 "<strong>文件</strong> &gt; <strong>注销"。</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>退出</p></td>
-<td><p>结束 Lync 会话并在计算机上关闭 Lync。 退出后, 如果要重新启动 Lync, 请选择 "<strong>启动</strong> &gt; <strong>所有程序</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>"。</p></td>
-<td><p>在 Lync 主窗口中, 选择 "<strong>选项</strong>" 按钮, 然后选择 "<strong>文件</strong> &gt; <strong>退出</strong>"。</p></td>
+<td><p>结束 Lync 会话并在计算机上关闭 Lync。 退出后，如果要重新启动 Lync，请选择 "<strong>启动</strong> &gt; <strong>所有程序</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>"。</p></td>
+<td><p>在 Lync 主窗口中，选择 "<strong>选项</strong>" 按钮，然后选择 "<strong>文件</strong> &gt; <strong>退出</strong>"。</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,11 +121,11 @@ _**主题上次修改时间:** 2013-07-11_
 
 ## <a name="sign-in-to-lync-with-a-smart-card"></a>使用智能卡登录 Lync
 
-某些组织现在使用一个称为双因素身份验证的多步骤登录过程来提高其 Lync 2013 用户的安全性。 如果你希望使用此选项, 则需要 "智能卡" 才能登录 Lync。 智能卡分为两种种类, 物理和虚拟:
+某些组织现在使用一个称为双因素身份验证的多步骤登录过程来提高其 Lync 2013 用户的安全性。 如果你希望使用此选项，则需要 "智能卡" 才能登录 Lync。 智能卡分为两种种类，物理和虚拟：
 
   - ****   有关信用卡大小的实物。 登录时请将其插入到智能卡读卡器中。
 
-  - **虚拟**   非物理对象, 而是写入计算机上的特殊芯片的电子标识符, 其实质上是将智能卡构建到计算机中。 仅适用于包含 TPM (受信任的平台模块) 芯片的 Windows 8 计算机。
+  - **虚拟**   非物理对象，而是写入计算机上的特殊芯片的电子标识符，其实质上是将智能卡构建到计算机中。 仅适用于包含 TPM （受信任的平台模块）芯片的 Windows 8 计算机。
 
 <div>
 
@@ -135,7 +137,7 @@ _**主题上次修改时间:** 2013-07-11_
 
 
 > [!NOTE]  
-> 由于每个虚拟智能卡仅与安装它的设备相关联, 因此需要为你使用的每个 Windows 8 计算机注册一个单独的卡。
+> 由于每个虚拟智能卡仅与安装它的设备相关联，因此需要为你使用的每个 Windows 8 计算机注册一个单独的卡。
 
 
 
@@ -147,7 +149,7 @@ _**主题上次修改时间:** 2013-07-11_
 
 2.  使用 Internet Explorer，浏览到您的组织的“证书颁发机构 Web 注册”页面。
     
-    如果尚不具备此资源的 web 地址, 请询问您的 Lync Server 管理员。 URL 将如下所示: https://MyCA.\[公司名称\]/certsrv。
+    如果尚不具备此资源的 web 地址，请询问您的 Lync Server 管理员。 URL 将如下所示： https://MyCA.\[公司名称\]/certsrv。
     
     <div>
     
@@ -220,7 +222,7 @@ _**主题上次修改时间:** 2013-07-11_
 
 ## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>通过智能卡凭据登录 Lync
 
-首次使用智能卡之前, 建议在 Lync 登录页面上单击 "**删除我的登录信息**"。 这样做可清除您的计算机上存储的任何登录凭据，并消除可能的错误源。
+首次使用智能卡之前，建议在 Lync 登录页面上单击 "**删除我的登录信息**"。 这样做可清除您的计算机上存储的任何登录凭据，并消除可能的错误源。
 
 **若要通过智能卡凭据登录 Lync**
 

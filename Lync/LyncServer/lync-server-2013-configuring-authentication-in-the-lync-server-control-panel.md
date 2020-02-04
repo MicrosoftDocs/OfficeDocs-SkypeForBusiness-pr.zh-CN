@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 在 Lync Server "控制面板" 中配置身份验证'
+title: Lync Server 2013：在 Lync Server "控制面板" 中配置身份验证
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring authentication in the Lync Server Control Panel
 ms:assetid: ceede642-a6cb-4916-8731-e34ac42394e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182588(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fef18fe22c0039f7150149ebf8bfdb37479576d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837278"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837278"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
 本部分中的主题提供了可使用 Lync Server 2013 控制面板中的 "**安全**组" 执行的任务的分步过程。
 

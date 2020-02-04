@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 通讯簿服务器 cmdlet'
+title: Lync Server 2013：通讯簿服务器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Address Book Server cmdlets
 ms:assetid: 33da45da-3c57-4d04-9679-f0e5a0cfd37e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 634e6ae86a68cece6472d04ba1870159dc9b866f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5117b7a17d607ec995df371fd0cd80fd7c05aeab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837920"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837920"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-26_
+_**主题上次修改时间：** 2012-06-26_
 
-通讯簿服务器是 Active Directory 域服务和 Microsoft Lync Server 2013 之间的媒介。 通讯簿服务器确保存储在 Lync Server 2013 中的用户信息与 Active Directory 中存储的用户信息同步。 这是通过使用存储在用户数据库中的信息定期同步通讯录文件完成的。 因此, Lync Server 包含许多用于管理通讯簿服务器的 cmdlet。
+通讯簿服务器是 Active Directory 域服务和 Microsoft Lync Server 2013 之间的媒介。 通讯簿服务器确保存储在 Lync Server 2013 中的用户信息与 Active Directory 中存储的用户信息同步。 这是通过使用存储在用户数据库中的信息定期同步通讯录文件完成的。 因此，Lync Server 包含许多用于管理通讯簿服务器的 cmdlet。
 
 <div>
 
 ## <a name="address-book-server-cmdlets"></a>通讯簿服务器 Cmdlet
 
-不能在 Lync Server "控制面板" 中配置通讯簿服务器设置。 Windows PowerShell 是用于管理这些设置的主要工具。 以下是与管理通讯簿服务器直接相关的 cmdlet 的列表:
+不能在 Lync Server "控制面板" 中配置通讯簿服务器设置。 Windows PowerShell 是用于管理这些设置的主要工具。 以下是与管理通讯簿服务器直接相关的 cmdlet 的列表：
 
 **通讯簿服务器**
 

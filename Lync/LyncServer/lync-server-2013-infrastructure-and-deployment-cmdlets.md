@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 基础结构和部署 cmdlet'
+title: Lync Server 2013：基础结构和部署 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Infrastructure and deployment cmdlets
 ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d41545c7d128e57919c4a2bc66069e9a27b67c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830011"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830011"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-Microsoft Lync Server 2013 中包含的基础结构和部署 cmdlet 在产品的初始设置和部署中可能很有用;部署 Lync 服务器之后, 这些 cmdlet 可用于执行以下操作以验证组件是否按预期工作。管理复制设置;并备份和还原 Lync Server 拓扑、策略和配置设置。
+Microsoft Lync Server 2013 中包含的基础结构和部署 cmdlet 在产品的初始设置和部署中可能很有用;部署 Lync 服务器之后，这些 cmdlet 可用于执行以下操作以验证组件是否按预期工作。管理复制设置;并备份和还原 Lync Server 拓扑、策略和配置设置。
 
 <div>
 
 ## <a name="infrastructure-and-deployment-cmdlets"></a>基础结构和部署 Cmdlet
 
-管理员几乎不需要直接调用许多基础结构和部署。 这是因为, 当你运行安装程序或拓扑生成器时, 将自动调用这些 cmdlet。 (一个主要异常可能是**CsConfiguration** cmdlet, 可用于创建 Lync Server 拓扑、策略和配置设置的备份副本。)但是, 如果需要, 也可以从 Lync Server 命令行管理程序或脚本内部运行基础结构和部署 cmdlet;使用脚本可以自动执行某些任务。 以下是与基础结构和部署直接相关的 cmdlet 的列表:
+管理员几乎不需要直接调用许多基础结构和部署。 这是因为，当你运行安装程序或拓扑生成器时，将自动调用这些 cmdlet。 （一个主要异常可能是**CsConfiguration** cmdlet，可用于创建 Lync Server 拓扑、策略和配置设置的备份副本。）但是，如果需要，也可以从 Lync Server 命令行管理程序或脚本内部运行基础结构和部署 cmdlet;使用脚本可以自动执行某些任务。 以下是与基础结构和部署直接相关的 cmdlet 的列表：
 
 **[Lync Server 2013 中的 Active Directory cmdlet](lync-server-2013-active-directory-cmdlets.md)**
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：DNS 摘要 - 扩展的控制器池、硬件负载平�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled Director pool, hardware load balancer
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ff76d69952d08db72e5647b58e38a43b4181c8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 891b69339416c81d81e72e43edf5f09bbf9da3e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830342"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830342"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-20_
+_**主题上次修改时间：** 2012-10-20_
 
-下表包含支持硬件负载平衡控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在 Director 证书所需的主题备用名称中。 与前端服务器不同, 控制器池不托管用户帐户或托管移动服务。
+下表包含支持硬件负载平衡控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在 Director 证书所需的主题备用名称中。 与前端服务器不同，控制器池不托管用户帐户或托管移动服务。
 
 ### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a>使用硬件负载平衡器和 DNS 负载平衡的控制器池所需的 DNS 记录
 
@@ -71,7 +73,7 @@ _**主题上次修改时间:** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>控制器池 HLB VIP</p></td>
-<td><p>来自边缘服务器的内部接口的入站会话初始协议 (SIP)</p></td>
+<td><p>来自边缘服务器的内部接口的入站会话初始协议（SIP）</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
