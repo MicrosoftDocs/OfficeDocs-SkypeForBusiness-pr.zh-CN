@@ -3,6 +3,8 @@ title: Lync Server 2013：SIP 中继概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of SIP trunking
 ms:assetid: 204f2c21-436f-4b2d-93ea-d6db98fa2952
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398285(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e2c79261923456575e208aa472daae4aaab5f55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825343"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
 部署 SIP 中继对于简化组织的电信和准备实时通信的最新增强功能来说可能是重要的一步。SIP 中继的主要优点之一是可以在中央站点中合并组织的公用电话交换网 (PSTN) 连接，与早期的时分多路复用 (TDM) 中继相反，后者通常要求在每个分支站点部署单独的中继。
 
@@ -41,11 +43,11 @@ _**主题上次修改时间:** 2012-10-05_
 
 ## <a name="sip-trunking-in-lync-server"></a>Lync Server 中的 SIP 中继
 
-Lync Server 2013 SIP 中继功能支持以下功能:
+Lync Server 2013 SIP 中继功能支持以下功能：
 
-  - 企业用户 (无论是在企业防火墙内部还是外部), 都可以通过在 PSTN 上终止的以164为单位的服务提供商的服务来指定本地呼叫或长途呼叫。
+  - 企业用户（无论是在企业防火墙内部还是外部），都可以通过在 PSTN 上终止的以164为单位的服务提供商的服务来指定本地呼叫或长途呼叫。
 
-  - 任何 PSTN 订阅者都可以通过拨打与该企业用户相关联的直接向内拨号 (已完成) 号码, 与企业防火墙内部或外部的企业用户联系。
+  - 任何 PSTN 订阅者都可以通过拨打与该企业用户相关联的直接向内拨号（已完成）号码，与企业防火墙内部或外部的企业用户联系。
 
 </div>
 
@@ -75,9 +77,9 @@ Lync Server 2013 SIP 中继功能支持以下功能:
 
 ## <a name="expanded-voip-services"></a>扩展的 VoIP 服务
 
-语音功能通常是部署 SIP 中继的主要动机，但是语音支持只是第一步。 使用 SIP 中继, 您可以扩展 VoIP 功能并启用 Lync Server 2013 以提供一组更丰富的服务。 例如：
+语音功能通常是部署 SIP 中继的主要动机，但是语音支持只是第一步。 使用 SIP 中继，您可以扩展 VoIP 功能并启用 Lync Server 2013 以提供一组更丰富的服务。 例如：
 
-  - 未运行 Lync Server 2013 的设备的增强状态检测可提供与移动电话的更好集成, 让你能够查看用户何时使用手机呼叫。
+  - 未运行 Lync Server 2013 的设备的增强状态检测可提供与移动电话的更好集成，让你能够查看用户何时使用手机呼叫。
 
   - 通过使用 E9-1-1 紧急呼叫，应答 911 呼叫的机构可以通过电话号码确定呼叫者的位置。
 

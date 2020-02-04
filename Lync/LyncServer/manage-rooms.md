@@ -3,6 +3,8 @@ title: 管理聊天室
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage rooms
 ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f611b3cb6d54711557c8a172b1213127696c9b3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845234"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845234"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
 创建新的持久聊天服务器聊天室
 
@@ -62,7 +64,7 @@ _**主题上次修改时间:** 2013-02-21_
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: 成员、经理和演示者可以同时进行设置。 它们都应是主机类别的 AllowedMembers 减去 DeniedMembers 的子集。 类型为 normal 的聊天室不能包含演示者。
+Windows PowerShell：成员、经理和演示者可以同时进行设置。 它们都应是主机类别的 AllowedMembers 减去 DeniedMembers 的子集。 类型为 normal 的聊天室不能包含演示者。
 
 <div>
 
@@ -84,7 +86,7 @@ Windows PowerShell: 成员、经理和演示者可以同时进行设置。 它�
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-其中-筛选器仅支持名称和说明, 并可帮助你查找名称/描述与关键字字符串匹配的聊天室。 PoolFqdn 在给定的持久聊天服务器池中进行搜索。
+其中-筛选器仅支持名称和说明，并可帮助你查找名称/描述与关键字字符串匹配的聊天室。 PoolFqdn 在给定的持久聊天服务器池中进行搜索。
 
 清除聊天室并从聊天室中清除消息
 

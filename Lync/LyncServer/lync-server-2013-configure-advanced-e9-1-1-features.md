@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置高级 E9-1-1 功能'
+title: Lync Server 2013：配置高级 E9-1-1 功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure advanced E9-1-1 features
 ms:assetid: 80412a02-88f0-4b8a-a187-cc5f38797dd6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398645(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7b837d18c2134c2a2586dbaf91e9e430eec4736
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837438"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837438"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-06_
+_**主题上次修改时间：** 2012-06-06_
 
-Lync Server 2013 包含以下功能, 可用于自定义 E9 部署:
+Lync Server 2013 包含以下功能，可用于自定义 E9 部署：
 
   - 用于将位置信息服务器连接到 SNMP 应用程序的 web 服务接口。
 

@@ -3,6 +3,8 @@ title: 创建或修改会议配置设置的集合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of meeting configuration settings
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b948d5aded2447e5319378a613fdf474c3e5450
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830814"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-23_
+_**主题上次修改时间：** 2013-02-23_
 
-你可以使用会议配置页面上的设置来定义会议加入体验的各种特征。 默认情况下, 全局设置定义连接体验。 您还可以创建网站级和池级会议联接设置。 如果创建池级别的设置，则这些设置将应用于由该池托管的所有会议。 如果未创建池级别的设置，则应用站点级别的设置（如果存在）。 如果未定义站点级别的设置，则全局设置将应用于所有会议。
+你可以使用会议配置页面上的设置来定义会议加入体验的各种特征。 默认情况下，全局设置定义连接体验。 您还可以创建网站级和池级会议联接设置。 如果创建池级别的设置，则这些设置将应用于由该池托管的所有会议。 如果未创建池级别的设置，则应用站点级别的设置（如果存在）。 如果未定义站点级别的设置，则全局设置将应用于所有会议。
 
 <div>
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中, 单击 "**会议**", 然后单击 "**会议配置**"。
+3.  在左侧导航栏中，单击 "**会议**"，然后单击 "**会议配置**"。
 
 4.  在“**会议配置**”页上，单击“**新建**”，然后执行以下操作之一：
     
@@ -67,7 +69,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 8.  若要阻止自动允许匿名（未经身份验证）用户参加会议，请清除“**默认允许匿名用户**”复选框。默认情况下，自动允许匿名用户参加会议。
 
-9.  若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 除了“**帮助 URL**”外，如果不指定自定义的值，则它们不会包括在会议中。 如果不包含自定义帮助 URL, 则会在邀请中显示 Lync 的默认帮助 URL。
+9.  若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 除了“**帮助 URL**”外，如果不指定自定义的值，则它们不会包括在会议中。 如果不包含自定义帮助 URL，则会在邀请中显示 Lync 的默认帮助 URL。
     
       - 若要自定义会议邀请中显示的徽标，请在“**徽标 URL**”中输入徽标的位置。
         
@@ -96,9 +98,9 @@ _**主题上次修改时间:** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中, 单击 "**会议**", 然后单击 "**会议配置**"。
+3.  在左侧导航栏中，单击 "**会议**"，然后单击 "**会议配置**"。
 
 4.  在会议配置列表中，单击要更改的配置，再单击“**编辑**”，然后单击“**显示详细信息**”。
 
@@ -112,13 +114,13 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建新会议配置设置
 
-可以使用 Windows PowerShell 和 CsMeetingConfiguration cmdlet 创建会议配置设置 (仅限在网站范围内)。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 CsMeetingConfiguration cmdlet 创建会议配置设置（仅限在网站范围内）。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
 ## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>创建使用默认值的会议配置设置
 
-  - 此命令为 Redmond 网站创建一组新的会议配置设置:
+  - 此命令为 Redmond 网站创建一组新的会议配置设置：
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
@@ -140,13 +142,13 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>创建会议配置设置时更改多个属性值
 
-  - 可以通过包含多个参数来修改多个属性值。 例如, 此命令将准许每个人作为演示者加入会议, 并且还强制 PSTN 用户在大厅中等待, 直到他们正式获准参加会议:
+  - 可以通过包含多个参数来修改多个属性值。 例如，此命令将准许每个人作为演示者加入会议，并且还强制 PSTN 用户在大厅中等待，直到他们正式获准参加会议：
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
 </div>
 
-有关详细信息, 请参阅[CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15)) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15)) cmdlet 的帮助主题。
 
 </div>
 

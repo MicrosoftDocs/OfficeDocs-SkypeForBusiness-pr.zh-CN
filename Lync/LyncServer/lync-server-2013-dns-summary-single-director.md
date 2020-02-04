@@ -3,6 +3,8 @@ title: Lync Server 2013：DNS 摘要 - 单一控制器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single Director
 ms:assetid: 790ecb56-92cd-41f4-baf6-c290a707aa4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca7fea825267dcdc5aa03a2e6c3c9fb3fc26a84b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71fb3052de36a92afb4ed9076820f7fcb2b54997
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830340"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830340"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-20_
+_**主题上次修改时间：** 2012-10-20_
 
-下表包含支持单个控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在 Director 证书所需的主题备用名称中。 与前端服务器不同, 控制器不会托管用户帐户或托管移动服务。
+下表包含支持单个控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在 Director 证书所需的主题备用名称中。 与前端服务器不同，控制器不会托管用户帐户或托管移动服务。
 
 ### <a name="dns-records-required-for-the-director"></a>Director 所需的 DNS 记录
 
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>控制器</p></td>
-<td><p>来自边缘服务器的内部边缘接口的入站会话初始协议 (SIP)</p></td>
+<td><p>来自边缘服务器的内部边缘接口的入站会话初始协议（SIP）</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>

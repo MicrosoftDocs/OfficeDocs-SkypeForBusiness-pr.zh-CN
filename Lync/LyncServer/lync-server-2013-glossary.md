@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 术语表'
+title: Lync Server 2013：术语表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Glossary
 ms:assetid: 3d3efa39-df4a-43fc-b639-9fb10a150258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh393341(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e30d9637b4fa378cd69ee20245620a26c7126389
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d43f0641d61b60d05c11176fe38866a137e7fc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763916"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830145"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-14_
+_**主题上次修改时间：** 2014-02-14_
 
 本主题包含适用于 Microsoft Lync Server 2013 和 Microsoft Lync 2013 的术语和定义。
 
@@ -178,7 +180,7 @@ _**主题上次修改时间:** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>长消息</p></td>
-<td><p>持久聊天聊天室中超过字符数限制的消息。 如果超过字符限制, 邮件将显示为&quot;长消息。&quot;</p></td>
+<td><p>持久聊天聊天室中超过字符数限制的消息。 如果超过字符限制，邮件将显示为&quot;长消息。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI 插件</p></td>

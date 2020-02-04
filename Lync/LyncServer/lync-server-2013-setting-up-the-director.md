@@ -3,6 +3,8 @@ title: Lync Server 2013：设置控制器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up the Director
 ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18de0fe7b06bbeed714aca444e75086fba9579e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58d0b309e87dddb621d6c3a90b16b6c2e02845df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845915"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-05-05_
+_**主题上次修改时间：** 2014-05-05_
 
-如果你通过部署 Edge 服务器为外部用户启用访问权限, 则可以选择部署 Director。 Director 是运行 Microsoft Lync Server 2013 的服务器, 用于验证用户请求, 但不会在家任何用户帐户。 现在, 这不是必需的, 但如果担心性能并希望帮助简化身份验证请求, 它将非常有用。 如果你认为这对你的组织来说是个好主意, 则设置 Director 或主管池的步骤类似于设置企业版前端池或标准版服务器。 在拓扑生成器中定义导演后, 您需要执行本部分中的步骤。
+如果你通过部署 Edge 服务器为外部用户启用访问权限，则可以选择部署 Director。 Director 是运行 Microsoft Lync Server 2013 的服务器，用于验证用户请求，但不会在家任何用户帐户。 现在，这不是必需的，但如果担心性能并希望帮助简化身份验证请求，它将非常有用。 如果你认为这对你的组织来说是个好主意，则设置 Director 或主管池的步骤类似于设置企业版前端池或标准版服务器。 在拓扑生成器中定义导演后，您需要执行本部分中的步骤。
 
 <div>
 

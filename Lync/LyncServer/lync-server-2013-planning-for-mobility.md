@@ -3,6 +3,8 @@ title: Lync Server 2013：规划移动功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobility
 ms:assetid: 12000359-09b5-48f0-986d-fab3a1487f9c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689981(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c7de3d146de392723376a2036452c8e05f1d0fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0ff59b46cf9c3df8206a3c5a0ebc8fb65568b4f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824594"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824594"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-14_
+_**主题上次修改时间：** 2013-02-14_
 
-通过 Lync Server 2013, 你可以部署移动功能, 以便在移动设备上提供 Lync 2013 功能。 本部分提供有关移动功能的详细信息, 以及如何为你的部署进行规划。
+通过 Lync Server 2013，你可以部署移动功能，以便在移动设备上提供 Lync 2013 功能。 本部分提供有关移动功能的详细信息，以及如何为你的部署进行规划。
 
 <div>
 

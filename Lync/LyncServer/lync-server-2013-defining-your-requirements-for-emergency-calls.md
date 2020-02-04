@@ -3,6 +3,8 @@ title: Lync Server 2013：定义紧急呼叫要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for emergency calls
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53543d815519dc440ba038999e5fc531173551f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: beb4b1e196a95d19a06c502cc9aeb989d6806b06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830695"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-06_
+_**主题上次修改时间：** 2012-06-06_
 
-在开始使用 Microsoft Lync Server 2013 E9-1 部署之前, 你应该首先能够回答以下部分中详细介绍的问题。 您需要执行的规划取决于选择部署的 E9-1-1 解决方案的类型 - SIP 中继 E9-1-1 服务提供商或紧急位置标识符号 (ELIN) 网关。 下表确定了本规划工作簿中您需要针对上述每个解决方案回顾的部分。
+在开始使用 Microsoft Lync Server 2013 E9-1 部署之前，你应该首先能够回答以下部分中详细介绍的问题。 您需要执行的规划取决于选择部署的 E9-1-1 解决方案的类型 - SIP 中继 E9-1-1 服务提供商或紧急位置标识符号 (ELIN) 网关。 下表确定了本规划工作簿中您需要针对上述每个解决方案回顾的部分。
 
 ### <a name="planning-steps-by-type-of-e9-1-1-solution"></a>按 E9-1-1 解决方案的类型显示的规划步骤
 

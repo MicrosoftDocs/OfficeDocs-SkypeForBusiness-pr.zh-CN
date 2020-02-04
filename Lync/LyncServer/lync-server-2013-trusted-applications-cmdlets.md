@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 受信任的应用程序 cmdlet'
+title: Lync Server 2013：受信任的应用程序 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trusted applications cmdlets
 ms:assetid: 4d6ae0dc-e3e0-4519-8b74-9e941dea21e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415652(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8738855f7784e5586659eb80a4a42e5de43adf00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 878ce959b10c6868f415ec86d717de590b9c8c29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845526"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-受信任的应用程序是由具有受信任状态的第三方开发的应用程序, 该应用程序作为 Microsoft Lync Server 2013 的一部分运行, 但不是产品的内置部分。 Lync Server 2013 提供了可用于配置和管理受信任的应用程序的 cmdlet。
+受信任的应用程序是由具有受信任状态的第三方开发的应用程序，该应用程序作为 Microsoft Lync Server 2013 的一部分运行，但不是产品的内置部分。 Lync Server 2013 提供了可用于配置和管理受信任的应用程序的 cmdlet。
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 会议加入时间报表'
+title: Lync Server 2013：会议加入时间报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Join Time Report
 ms:assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fac854b9e296d744473593562f32430c6e21fc87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cce80d3c61e94752423c70de9827d41243da7119
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837493"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-23_
+_**主题上次修改时间：** 2014-04-23_
 
 会议加入时间摘要可使您确定用户要花多长时间才能加入会议。该报告显示平均加入时间（以毫秒计），同时提供一个细目，让您知道有多少用户在 2 秒或更少时间内加入了会议，有多少用户要求在 2 秒和 5 秒间加入会议等。
 
@@ -94,7 +96,7 @@ _**主题上次修改时间:** 2014-04-23_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>池</strong></p></td>
@@ -156,12 +158,12 @@ _**主题上次修改时间:** 2014-04-23_
 <td><p>参与者加入会议花费的平均时间量（以毫秒计）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>会话&lt; 2 秒, 卷</strong></p></td>
+<td><p><strong>会话&lt; 2 秒，卷</strong></p></td>
 <td><p>否</p></td>
 <td><p>在不到 2 秒的时间内加入会议的参与者的人数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>会话&lt; 2 秒, 百分比</strong></p></td>
+<td><p><strong>会话&lt; 2 秒，百分比</strong></p></td>
 <td><p>否</p></td>
 <td></td>
 </tr>
@@ -186,12 +188,12 @@ _**主题上次修改时间:** 2014-04-23_
 <td><p>在 5 秒到 10 秒间加入会议的总呼叫参与者的百分比。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>会话&gt; 10 秒, 卷</strong></p></td>
+<td><p><strong>会话&gt; 10 秒，卷</strong></p></td>
 <td><p>否</p></td>
 <td><p>需要 10 秒之上加入会议的参与者人数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>会话&gt; 10 秒, 百分比</strong></p></td>
+<td><p><strong>会话&gt; 10 秒，百分比</strong></p></td>
 <td><p>否</p></td>
 <td><p>需要 10 秒之上加入会议的总呼叫参与者百分比。</p></td>
 </tr>

@@ -3,6 +3,8 @@ title: 管理内部和外部通信的存档
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Archiving of internal and external communications
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
 ms:mtpsurl: https://technet.microsoft.com/library/JJ204977(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 891318ba677891916af678b74365026d20d69016
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ff349fcb7b012ed2604c4e75fe0f4bdd5ed99fc6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111516"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

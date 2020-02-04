@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置 Microsoft Exchange Server 2013 适用于 Lync Server 的统一消息2013语音邮件'
+title: Lync Server 2013：配置 Microsoft Exchange Server 2013 适用于 Lync Server 的统一消息2013语音邮件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687983(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e1d2bac84183e6cc274d6bb297c17401b3ff7f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 367f4cc517771f51d7a1452293ad9803075d285f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755926"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,26 +35,26 @@ ms.locfileid: "34837210"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-04_
+_**主题上次修改时间：** 2013-02-04_
 
-Microsoft Lync Server 2013 允许你在 Microsoft Exchange Server 2013 中存储语音邮件消息;这些语音邮件将以电子邮件形式显示在用户的收件箱中。 在 Lync Server 和 Exchange 的2010版本中也可以找到此功能;但是, 由于 UM 呼叫路由器组件的推出, 配置此 "统一消息" 的过程在2013版本中已得到简化。 此组件安装在 Exchange 2013 客户端访问服务器上, 并且所有对 Exchange 统一消息 (如语音邮件) 的呼叫首先通过呼叫路由器路由, 然后被重定向到相应的邮箱服务器。
+Microsoft Lync Server 2013 允许你在 Microsoft Exchange Server 2013 中存储语音邮件消息;这些语音邮件将以电子邮件形式显示在用户的收件箱中。 在 Lync Server 和 Exchange 的2010版本中也可以找到此功能;但是，由于 UM 呼叫路由器组件的推出，配置此 "统一消息" 的过程在2013版本中已得到简化。 此组件安装在 Exchange 2013 客户端访问服务器上，并且所有对 Exchange 统一消息（如语音邮件）的呼叫首先通过呼叫路由器路由，然后被重定向到相应的邮箱服务器。
 
-如果您已在 Lync Server 2013 和 Exchange 2013 之间配置了服务器到服务器的身份验证, 则已准备好设置统一消息。 若要执行此操作, 必须首先在 Exchange 服务器上创建并分配新的统一邮件拨号计划。 例如, 这两个命令 (从 Exchange 命令行管理程序中运行) 为 Exchange 配置新的3位数拨号计划:
+如果您已在 Lync Server 2013 和 Exchange 2013 之间配置了服务器到服务器的身份验证，则已准备好设置统一消息。 若要执行此操作，必须首先在 Exchange 服务器上创建并分配新的统一邮件拨号计划。 例如，这两个命令（从 Exchange 命令行管理程序中运行）为 Exchange 配置新的3位数拨号计划：
 
     New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
     Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 
 在该示例的第一个命令中，VoIPSecurity 参数和参数值“Secured”指示信号通道用传输层安全性 (TLS) 加密。URIType“SipName”指示将使用 SIP 协议发送和接收消息，CountryOrRegionCode 为 1 指示拨号计划适用于美国。
 
-在第二个命令中，传递给 ConfiguredInCountryOrRegionGroups 参数的参数值指定可在此拨号计划中使用的国家/地区组。 参数值 "Anywhere,\*,"\*,\*"设置以下各项:
+在第二个命令中，传递给 ConfiguredInCountryOrRegionGroups 参数的参数值指定可在此拨号计划中使用的国家/地区组。 参数值 "Anywhere，\*，"\*，\*"设置以下各项：
 
   - 组名 ("Anywhere")
 
-  - AllowedNumberString (\*, 通配符表示允许使用任何数字字符串)
+  - AllowedNumberString （\*，通配符表示允许使用任何数字字符串）
 
-  - DialNumberString (\*, 表示允许任何拨出号码的通配符)
+  - DialNumberString （\*，表示允许任何拨出号码的通配符）
 
-  - TextComment (\*, 表示允许使用任何文本命令的通配符)
+  - TextComment （\*，表示允许使用任何文本命令的通配符）
 
 <div>
 
@@ -64,11 +66,11 @@ Microsoft Lync Server 2013 允许你在 Microsoft Exchange Server 2013 中存储
 
 </div>
 
-在创建和配置新拨号计划后，必须将新拨号计划添加至统一消息服务器中，然后修改该服务器的启动模式；特别需要指出的是，必须将启动模式设置为“双”。 你可以从 Exchange 管理外壳程序中执行这两个任务:
+在创建和配置新拨号计划后，必须将新拨号计划添加至统一消息服务器中，然后修改该服务器的启动模式；特别需要指出的是，必须将启动模式设置为“双”。 你可以从 Exchange 管理外壳程序中执行这两个任务：
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-配置统一消息服务器之后, 您应该下一步运行 ExchangeCertificate cmdlet 以确保 Exchange 证书应用于统一消息服务:
+配置统一消息服务器之后，您应该下一步运行 ExchangeCertificate cmdlet 以确保 Exchange 证书应用于统一消息服务：
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 
@@ -91,7 +93,7 @@ Microsoft Lync Server 2013 允许你在 Microsoft Exchange Server 2013 中存储
 
 在前一个命令中，Extensions 参数表示用户的电话分机号。在该示例中，用户的分机号为 100。
 
-在启用其邮箱后，用户 kenmyer@litwareinc.com 应该能够使用 Exchange 统一消息。 你可以通过在 Lync Server Management Shell 中运行[CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) cmdlet 来验证用户是否可以连接到 Exchange UM:
+在启用其邮箱后，用户 kenmyer@litwareinc.com 应该能够使用 Exchange 统一消息。 你可以通过在 Lync Server Management Shell 中运行[CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) cmdlet 来验证用户是否可以连接到 Exchange UM：
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

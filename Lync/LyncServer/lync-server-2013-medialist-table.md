@@ -3,6 +3,8 @@ title: Lync Server 2013：MediaList 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaList table
 ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398279(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4fa53ff1ce4ce419a4e7a29124593c7b01006a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827268"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827268"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-07-12_
+_**主题上次修改时间：** 2016-07-12_
 
 MediaList 表是一个静态表，用于存储各种媒体类型的列表。
 

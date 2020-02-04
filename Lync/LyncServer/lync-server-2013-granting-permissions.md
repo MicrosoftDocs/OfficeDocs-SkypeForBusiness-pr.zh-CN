@@ -3,6 +3,8 @@ title: Lync Server 2013：授予权限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting permissions
 ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61c8afde42a231124648824fbf8fbae07b0beedc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830117"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-15_
+_**主题上次修改时间：** 2012-10-15_
 
-对于设置, 你可以向特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组授予权限, 从而允许该 OU 中的 RTCUniversalServerAdmins 组成员在指定域中安装 Lync Server 2013。 为 OU 授予权限时, 授予以下权限:
+对于设置，你可以向特定 Active Directory 组织单位（OU）的 RTCUniversalServerAdmins 通用组授予权限，从而允许该 OU 中的 RTCUniversalServerAdmins 组成员在指定域中安装 Lync Server 2013。 为 OU 授予权限时，授予以下权限：
 
   - 继续
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-10-15_
 
   - WriteSPN
 
-对于 "管理", 你可以向指定的 Ou 添加权限, 以便林准备创建的 RTC 通用组的成员可以访问 Ou, 而无需成为域管理员组的成员。 添加到指定 OU 的权限与**Enable CsAdDomain** cmdlet 添加到计算机和用户 OU 容器的权限相同。
+对于 "管理"，你可以向指定的 Ou 添加权限，以便林准备创建的 RTC 通用组的成员可以访问 Ou，而无需成为域管理员组的成员。 添加到指定 OU 的权限与**Enable CsAdDomain** cmdlet 添加到计算机和用户 OU 容器的权限相同。
 
 <div>
 

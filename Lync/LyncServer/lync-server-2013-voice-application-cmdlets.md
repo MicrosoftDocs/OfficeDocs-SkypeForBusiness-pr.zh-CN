@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 语音应用程序 cmdlet'
+title: Lync Server 2013：语音应用程序 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice application cmdlets
 ms:assetid: 0d73ace6-1185-484a-980a-4b3d63ba507b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183404
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83ada9177e86c88349214d5d7191de15c4ecab81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 895a61ef12eec2ceef8f994b1d0b9ba1e529c840
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757196"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845284"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-语音应用程序在前端服务器上的应用程序服务上运行。 这些应用程序通过允许您停止呼叫、处理未分配的号码、与 Exchange 统一消息 (UM) 和运行响应组应用程序, 帮助您管理传入和传出电话呼叫。
+语音应用程序在前端服务器上的应用程序服务上运行。 这些应用程序通过允许您停止呼叫、处理未分配的号码、与 Exchange 统一消息（UM）和运行响应组应用程序，帮助您管理传入和传出电话呼叫。
 
 <div>
 
 ## <a name="voice-application-cmdlets"></a>语音应用程序 Cmdlet
 
-下面是用于处理语音应用程序的 cmdlet 的列表:
+下面是用于处理语音应用程序的 cmdlet 的列表：
 
 **[在 Lync Server 2013 中调用寄存应用程序 cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
 

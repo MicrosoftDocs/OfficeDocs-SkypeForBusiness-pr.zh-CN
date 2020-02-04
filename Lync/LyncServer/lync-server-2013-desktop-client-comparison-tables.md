@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 桌面客户端比较表'
+title: Lync Server 2013：桌面客户端比较表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Desktop client comparison tables
 ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bb1313e320b78bf22964bc0a35a6d8c07e9733
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830508"
 
 <span> </span>
 
-_**主题上次修改时间:** 2018-01-23_
+_**主题上次修改时间：** 2018-01-23_
 
-下表比较了 Lync 2013 客户端的功能和以下类别中的功能:
+下表比较了 Lync 2013 客户端的功能和以下类别中的功能：
 
   - 增强的状态支持
 
@@ -53,13 +55,13 @@ _**主题上次修改时间:** 2018-01-23_
 
   - 新式验证
 
-这些表指示 lync Server 2013 的本地部署中的 Lync 用户可用的功能。 Skype for Business Online 和 Office 365 用户也可以使用相同的功能, 除非另有指示。
+这些表指示 lync Server 2013 的本地部署中的 Lync 用户可用的功能。 Skype for Business Online 和 Office 365 用户也可以使用相同的功能，除非另有指示。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 有关 Lync 2013 移动客户端中的功能可用性的详细信息, 请参阅<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的移动客户端比较表</A>。
+> 有关 Lync 2013 移动客户端中的功能可用性的详细信息，请参阅<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的移动客户端比较表</A>。
 
 
 
@@ -71,11 +73,11 @@ _**主题上次修改时间:** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>有关 Skype for Business Online 订阅计划的详细信息, 请参阅中的 Skype for business Online <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>服务说明。</P>
+> <P>有关 Skype for Business Online 订阅计划的详细信息，请参阅中的 Skype for business Online <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>服务说明。</P>
 > <LI>
-> <P>Lync Server 2013 支持以下以前发布的客户端: Lync 2010、Lync 2010 手机、Lync Phone Edition 和 Lync 2010 助理。 有关这些客户端的信息, 请参阅位于<A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>的客户端比较表的 Lync 2010 版本。</P>
+> <P>Lync Server 2013 支持以下以前发布的客户端： Lync 2010、Lync 2010 手机、Lync Phone Edition 和 Lync 2010 助理。 有关这些客户端的信息，请参阅位于<A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>的客户端比较表的 Lync 2010 版本。</P>
 > <LI>
-> <P>Lync 2013 客户端支持虚拟桌面基础结构 (VDI) 环境中的音频和视频。 有关 VDI 环境中 Lync 2013 功能的详细信息, 请参阅<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">受支持的虚拟技术和 Lync Server 2013 中的已知限制</A>。</P></LI></UL>
+> <P>Lync 2013 客户端支持虚拟桌面基础结构（VDI）环境中的音频和视频。 有关 VDI 环境中 Lync 2013 功能的详细信息，请参阅<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">受支持的虚拟技术和 Lync Server 2013 中的已知限制</A>。</P></LI></UL>
 
 
 
@@ -449,9 +451,9 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for business Online 和/或 Office 365 用户, 此功能不可用。
+2对于 Skype for business Online 和/或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -666,11 +668,11 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
-要进行技能搜索, 需要2本地 Lync Server 2013 和本地 SharePoint 2013。
+要进行技能搜索，需要2本地 Lync Server 2013 和本地 SharePoint 2013。
 
-3对于 Skype for business Online 和/或 Office 365 用户, 持续聊天不可用。
+3对于 Skype for business Online 和/或 Office 365 用户，持续聊天不可用。
 
 </div>
 
@@ -688,9 +690,9 @@ _**主题上次修改时间:** 2018-01-23_
 > <LI>
 > <P>Skype for Business Online 独立计划1中不支持 Lync 会议功能。</P>
 > <LI>
-> <P>在 Lync 至 Lync 会话中, 如果具有共享功能访问权限的用户邀请了桌面共享和应用程序共享, 则 Skype for business Online 计划1用户可以参与桌面共享和应用程序共享。</P>
+> <P>在 Lync 至 Lync 会话中，如果具有共享功能访问权限的用户邀请了桌面共享和应用程序共享，则 Skype for business Online 计划1用户可以参与桌面共享和应用程序共享。</P>
 > <LI>
-> <P>有关详细信息, 请参阅的 Skype for business Online 服务<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>说明。</P></LI></UL>
+> <P>有关详细信息，请参阅的 Skype for business Online 服务<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>说明。</P></LI></UL>
 
 
 
@@ -899,7 +901,7 @@ _**主题上次修改时间:** 2018-01-23_
 <td></td>
 <td></td>
 <td></td>
-<td><p>仅查看, 不 available4 的批注</p></td>
+<td><p>仅查看，不 available4 的批注</p></td>
 </tr>
 <tr class="odd">
 <td><p>导航 Microsoft PowerPoint 文件</p></td>
@@ -1070,7 +1072,7 @@ _**主题上次修改时间:** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>在 UNRESOLVED_TOKEN_VAL (skypeforbusiness) 和 Outlook 之间同步委托</p></td>
+<td><p>在 UNRESOLVED_TOKEN_VAL （skypeforbusiness）和 Outlook 之间同步代理人</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1115,13 +1117,13 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
 2个参与者无法控制由 Skype for Business 在 Mac 上共享的桌面、Lync for Mac 2011 或 Mac 2011 用户的 Communicator。 Mac 用户可以控制由 Windows 用户共享的桌面。
 
-3对于 Skype for business Online 和/或 Office 365 用户, 此功能需要音频会议提供商。
+3对于 Skype for business Online 和/或 Office 365 用户，此功能需要音频会议提供商。
 
-4 Lync for Mac 2011 客户端在 Lync Web App 2013 客户端共享到会议中时, 无法查看 Microsoft Office 2013 PowerPoint 演示文稿。
+4 Lync for Mac 2011 客户端在 Lync Web App 2013 客户端共享到会议中时，无法查看 Microsoft Office 2013 PowerPoint 演示文稿。
 
 </div>
 
@@ -1129,13 +1131,13 @@ _**主题上次修改时间:** 2018-01-23_
 
 <div>
 
-## <a name="voice-telephony-support"></a>语音 (电话) 支持
+## <a name="voice-telephony-support"></a>语音（电话）支持
 
 <div>
 
 
 > [!NOTE]  
-> Lync 语音功能仅限于某些 Skype for Business Online 订阅计划。 有关详细信息, 请参阅 Skype for Business Online 服务说明中的 "Lync 语音功能" 主题<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>。
+> Lync 语音功能仅限于某些 Skype for Business Online 订阅计划。 有关详细信息，请参阅 Skype for Business Online 服务说明中的 "Lync 语音功能" 主题<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>。
 
 
 
@@ -1273,7 +1275,7 @@ _**主题上次修改时间:** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>支持紧急服务 (E911)</p></td>
+<td><p>支持紧急服务（E911）</p></td>
 <td><p>●3</p></td>
 <td><p>●</p>
 <p>需要 Lync Server 2013 CU8 HF1 或更高版本</p></td>
@@ -1417,11 +1419,11 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for business Online 和/或 Office 365 用户, 此功能仅适用于 PC 到 PC 的通话。
+2对于 Skype for business Online 和/或 Office 365 用户，此功能仅适用于 PC 到 PC 的通话。
 
-3对于 Skype for business Online 和/或 Office 365 用户, 此功能不可用。
+3对于 Skype for business Online 和/或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -1505,9 +1507,9 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for business Online 和/或 Office 365 用户, 此功能不可用。
+2对于 Skype for business Online 和/或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -1594,9 +1596,9 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for business Online 和/或 Office 365 用户, 录制在某些 Skype for Business Online 独立计划中不可用。 录制需要完整的 Lync 2013 客户端权限。 有关详细信息, 请参阅的 Skype for business Online 服务[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)说明。
+1对于 Skype for business Online 和/或 Office 365 用户，录制在某些 Skype for Business Online 独立计划中不可用。 录制需要完整的 Lync 2013 客户端权限。 有关详细信息，请参阅的 Skype for business Online 服务[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)说明。
 
-2对于 Skype for Business Online 和/或 Office 365 用户, 文件传输、共享 OneNote 页面和 PowerPoint 注释的录制不可用。
+2对于 Skype for Business Online 和/或 Office 365 用户，文件传输、共享 OneNote 页面和 PowerPoint 注释的录制不可用。
 
 </div>
 
@@ -1699,11 +1701,11 @@ _**主题上次修改时间:** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户, 不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for business Online 和/或 Office 365 用户, 此功能需要 Exchange Online 且由用户的 Exchange 邮箱就地保留属性控制。
+2对于 Skype for business Online 和/或 Office 365 用户，此功能需要 Exchange Online 且由用户的 Exchange 邮箱就地保留属性控制。
 
-3对于 Skype for business Online 和/或 Office 365 用户, 文件传输、共享 OneNote 页面和 PowerPoint 注释的存档不可用。
+3对于 Skype for business Online 和/或 Office 365 用户，文件传输、共享 OneNote 页面和 PowerPoint 注释的存档不可用。
 
 </div>
 
@@ -1745,7 +1747,7 @@ _**主题上次修改时间:** 2018-01-23_
 
 ## <a name="online-or-hybrid-user-account-limitations"></a>联机或混合用户帐户限制
 
-用户帐户可以联机形式存在或在本地存在，这将影响用户可以使用的功能。 在 Skype for Business Online 帐户上使用帐户的用户将无法访问以下功能, 即使是完全的客户端:
+用户帐户可以联机形式存在或在本地存在，这将影响用户可以使用的功能。 在 Skype for Business Online 帐户上使用帐户的用户将无法访问以下功能，即使是完全的客户端：
 
   - 增强状态：对“我的图片”使用任何公共网站中的照片
 
@@ -1753,7 +1755,7 @@ _**主题上次修改时间:** 2018-01-23_
 
   - IM 支持：持久聊天（群聊）集成
 
-  - IM 支持: 只单击一次即可将持久聊天室提升到会议
+  - IM 支持：只单击一次即可将持久聊天室提升到会议
 
   - 外部用户：进行与外部用户的双方或多方呼叫
 

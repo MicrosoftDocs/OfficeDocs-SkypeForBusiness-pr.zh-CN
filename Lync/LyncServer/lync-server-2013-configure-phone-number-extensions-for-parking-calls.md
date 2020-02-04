@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置停车通话的电话号码扩展'
+title: Lync Server 2013：配置停车通话的电话号码扩展
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure phone number extensions for parking calls
 ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0a0fd55b851715fe8aef238797392af6317dff0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba64f4f622a6f9ae9e134b2447abe21bc99ec62c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837338"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-10_
+_**主题上次修改时间：** 2012-09-10_
 
-呼叫驻留应用程序将 "呼叫驻留" 轨道表中的分机号码用于寄存呼叫。 您需要配置 "呼叫驻留" 轨道表, 其中包含您的组织为寄存通话保留的分机号码范围。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 在其中部署和配置呼叫驻留应用程序的每个 Lync 服务器池都可以有一个或多个轨道范围。 在 Lync 服务器部署中, 轨道范围必须全局唯一。
+呼叫驻留应用程序将 "呼叫驻留" 轨道表中的分机号码用于寄存呼叫。 您需要配置 "呼叫驻留" 轨道表，其中包含您的组织为寄存通话保留的分机号码范围。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 在其中部署和配置呼叫驻留应用程序的每个 Lync 服务器池都可以有一个或多个轨道范围。 在 Lync 服务器部署中，轨道范围必须全局唯一。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您必须先选中语音策略中的 "<STRONG>启用呼叫驻留</STRONG>" 复选框, 然后才能使用呼叫寄存。 默认情况下, 此选项处于未选中状态。
+> 您必须先选中语音策略中的 "<STRONG>启用呼叫驻留</STRONG>" 复选框，然后才能使用呼叫寄存。 默认情况下，此选项处于未选中状态。
 
 
 

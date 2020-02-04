@@ -3,6 +3,8 @@ title: Lync Server 2013：配置媒体绕过
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass
 ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413028(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 465a949ca1581933f96f18cfe2977d400fa7a152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8be022e5b1b16bff432873e27ddda5f388db02f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34837360"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-24_
+_**主题上次修改时间：** 2013-02-24_
 
-本部分假设你已发布和配置至少一个中介服务器 (如在[Lync server 2013 的拓扑生成器中定义中介服务器](lync-server-2013-define-a-mediation-server-in-topology-builder.md)和在[lync Server 2013 中发布拓扑](lync-server-2013-publish-the-topology.md), 或者在[在 Lync server 2013 中定义和配置前端池或标准版服务器](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md), 并分别在所有部署文档中[发布 lync server 2013 中的拓扑](lync-server-2013-publish-the-topology.md)。
+本部分假设你已经发布和配置了至少一个或多个中介服务器（如在[lync server 2013 的拓扑生成器中定义中介服务器](lync-server-2013-define-a-mediation-server-in-topology-builder.md)和在 lync server [2013 中发布拓扑](lync-server-2013-publish-the-topology.md)，或者在 Lync server [2013](lync-server-2013-publish-the-topology.md)中[定义和配置前端池或标准版2013服务器](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)）中，分别在部署文档中使用。
 
-此部分还假定你至少已定义一个网关对等, 以便提供 PSTN 连接, 如在[Lync Server 2013 的拓扑生成器中定义网关](lync-server-2013-define-a-gateway-in-topology-builder.md)中所述。 如果您连接到的对等方是 SIP 中继提供商的 SBC，请确保该提供商是合格的提供商，且支持媒体旁路。 例如，很多 SIP 中继提供商仅允许其 SBC 接收来自中介服务器的流量。 如果这样，则不得为出现故障的中继启用旁路。 同时，只有您的组织向 SIP 中继提供商显示其内部网络 IP 地址后，您才能启用媒体旁路。
+此部分还假定你至少已定义一个网关对等，以便提供 PSTN 连接，如在[Lync Server 2013 的拓扑生成器中定义网关](lync-server-2013-define-a-gateway-in-topology-builder.md)中所述。 如果您连接到的对等方是 SIP 中继提供商的 SBC，请确保该提供商是合格的提供商，且支持媒体旁路。 例如，很多 SIP 中继提供商仅允许其 SBC 接收来自中介服务器的流量。 如果这样，则不得为出现故障的中继启用旁路。 同时，只有您的组织向 SIP 中继提供商显示其内部网络 IP 地址后，您才能启用媒体旁路。
 
 <div>
 
@@ -49,15 +51,15 @@ _**主题上次修改时间:** 2013-02-24_
 
 </div>
 
-本部分介绍如何启用 "绕过媒体", 以减少中介服务器所需的处理。 启用 "绕过媒体" 之前, 请确保你的环境满足支持媒体绕过所需的条件, 如规划文档中的[Lync Server 2013 中的 "在媒体中跳过](lync-server-2013-planning-for-media-bypass.md)" 中所述。 此外, 请确保你使用了在[Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)的信息, 以决定是否启用媒体绕过全局设置, 以始终绕过中介服务器, 或在确定是否要执行站点和区域信息绕过中介服务器。
+本部分介绍如何启用 "绕过媒体"，以减少中介服务器所需的处理。 启用 "绕过媒体" 之前，请确保你的环境满足支持媒体绕过所需的条件，如规划文档中的[Lync Server 2013 中的 "在媒体中跳过](lync-server-2013-planning-for-media-bypass.md)" 中所述。 此外，请确保你使用了在[Lync server 2013 中规划媒体绕过](lync-server-2013-planning-for-media-bypass.md)的信息，以决定是否启用媒体绕过全局设置，以便在确定是否绕过中介服务器时始终绕过中介服务器或使用站点和区域信息。
 
 如果您已选择配置呼叫允许控制 (CAC)（企业语音的另一种高级功能），请注意，呼叫允许控制所执行的带宽保留不会应用于已应用媒体旁路的任何呼叫。首先验证是否应用了媒体旁路，如果已经应用，则不会对该呼叫使用呼叫允许控制；仅当媒体旁路检查失败时，才会检查呼叫允许控制。因此，对于路由至 PSTN 的任何特定呼叫，这两种功能是相互排斥的。这是符合逻辑的，因为媒体旁路假设呼叫中的媒体终结点间不存在带宽约束；无法在带宽受限的链接上执行媒体旁路。因此，会将以下情形之一应用于 PSTN 呼叫：a) 媒体绕过中介服务器，呼叫允许控制不为呼叫保留带宽；或者，b) 呼叫允许控制将带宽保留应用于呼叫，媒体由呼叫中涉及的中介服务器处理。
 
 <div>
 
-## <a name="next-steps-enable-media-bypass-on-the-trunk-connection"></a>后续步骤: 在中继连接上启用绕过媒体
+## <a name="next-steps-enable-media-bypass-on-the-trunk-connection"></a>后续步骤：在中继连接上启用绕过媒体
 
-为 PSTN 连接 (拨号计划、语音策略、PSTN 使用记录、出站呼叫路由和翻译规则) 配置初始设置后, 通过使用在[Lync 中使用媒体旁路配置主干中的步骤开始启用媒体绕过的过程。服务器 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)。
+为 PSTN 连接（拨号计划、语音策略、PSTN 使用记录、出站呼叫路由和翻译规则）配置初始设置后，通过使用在[Lync Server 2013 中使用 "媒体绕过" 配置主干](lync-server-2013-configure-a-trunk-with-media-bypass.md)中的步骤开始启用媒体绕过的过程。
 
 </div>
 

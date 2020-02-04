@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: TraceRoute 表'
+title: Lync Server 2013： TraceRoute 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: TraceRoute table
 ms:assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1dd0f9bc3bd900d71a316bf2ff1ab7612a51194
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 691b7576d59511428400d14a3ff21109525dc5a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845536"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845536"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-21_
+_**主题上次修改时间：** 2014-02-21_
 
 TraceRoute 表包含来自呼叫的路由信息。 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -100,7 +102,7 @@ TraceRoute 表包含来自呼叫的路由信息。 此表是在 Microsoft Lync S
 <td><p><strong>RTT</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>往返时间。 往返时间测量语音数据包到达其目标所需的时间量, 然后发送发送回收到通知的时间。</p></td>
+<td><p>往返时间。 往返时间测量语音数据包到达其目标所需的时间量，然后发送发送回收到通知的时间。</p></td>
 </tr>
 </tbody>
 </table>

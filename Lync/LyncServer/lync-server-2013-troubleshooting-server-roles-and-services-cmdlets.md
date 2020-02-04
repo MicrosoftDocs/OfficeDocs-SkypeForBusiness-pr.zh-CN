@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 服务器角色和服务 cmdlet 疑难解答'
+title: Lync Server 2013：服务器角色和服务 cmdlet 疑难解答
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting server roles and services cmdlets
 ms:assetid: 03be4cae-bf35-40b2-8e02-477b64afa4c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415628(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c4e8a69a87df5454a9e23cb75d2da85a8ae920
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845537"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845537"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-27_
+_**主题上次修改时间：** 2012-08-27_
 
-疑难解答 cmdlet 提供不同的方法来验证 Microsoft Lync Server 2013 是否按预期工作。 例如, CsHealthMonitoringConfiguration cmdlet 使你能够为注册机构和控制器池设置测试帐户。 然后, 你可以使用这些测试帐户验证用户是否能够成功完成常见任务, 如登录到系统、交换即时消息或呼叫位于公共交换电话网络 (PSTN) 的电话。
+疑难解答 cmdlet 提供不同的方法来验证 Microsoft Lync Server 2013 是否按预期工作。 例如，CsHealthMonitoringConfiguration cmdlet 使你能够为注册机构和控制器池设置测试帐户。 然后，你可以使用这些测试帐户验证用户是否能够成功完成常见任务，如登录到系统、交换即时消息或呼叫位于公共交换电话网络（PSTN）的电话。
 
 <div>
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息, 请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-08-27_
 
 ## <a name="server-roles-and-services-cmdlets"></a>服务器角色和服务 Cmdlet
 
-以下是与服务器角色和服务疑难解答直接相关的 cmdlet 的列表:
+以下是与服务器角色和服务疑难解答直接相关的 cmdlet 的列表：
 
 **服务器角色和服务疑难解答**
 

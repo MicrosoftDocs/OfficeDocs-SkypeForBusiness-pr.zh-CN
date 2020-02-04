@@ -3,6 +3,8 @@ title: Lync Server 2013：配置故障转移路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a failover route
 ms:assetid: 76e48df4-3b78-4fb7-b1f7-c1e604b81bad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398581(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e65070326c82e3a30977b3512bd2785d6bb4bd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837302"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-21_
+_**主题上次修改时间：** 2012-09-21_
 
 以下示例显示在 Dallas-GW1 因维护而关闭或因其他原因不可用时，管理员如何定义故障转移路由以供使用。下面的表显示了所需的配置更改。
 
@@ -91,7 +93,7 @@ _**主题上次修改时间:** 2012-09-21_
 <tbody>
 <tr class="odd">
 <td><p>Redmond 本地路由</p></td>
-<td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
+<td><p>^\+1（425 | 206 | 253）（\d{7}） $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
@@ -101,14 +103,14 @@ _**主题上次修改时间:** 2012-09-21_
 </tr>
 <tr class="even">
 <td><p>Dallas 本地路由</p></td>
-<td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
+<td><p>^\+1（972 | 214 | 469）（\d{7}） $</p></td>
 <td><p>Local</p></td>
 <td><p>Trunk3</p></td>
 <td><p>Dallas-GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>通用路由</p></td>
-<td><p>^\+?(\d *) $</p></td>
+<td><p>^\+?（\d *） $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
@@ -119,7 +121,7 @@ _**主题上次修改时间:** 2012-09-21_
 </tr>
 <tr class="even">
 <td><p>Dallas 用户路由</p></td>
-<td><p>^\+?(\d *) $</p></td>
+<td><p>^\+?（\d *） $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
 <td><p>Dallas-GW1</p></td>

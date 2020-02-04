@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理组呼叫装货'
+title: Lync Server 2013：管理组呼叫装货
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Group Call Pickup
 ms:assetid: 85846a25-e175-4854-b31f-528f219f9a05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945640(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11d6968f6ac75ea9d560acff5845b1b61523f684
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 314623577888576a502baa29cc83ba11d8d1f71d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828017"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34828017"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-22_
+_**主题上次修改时间：** 2013-02-22_
 
-Lync Server 2013 的累积更新: 2 月2013将组呼叫挑选引入为新的企业语音功能。 组呼叫允许企业语音用户通过拨打呼叫装货组号码来通过拨打另一位用户的通话。
+Lync Server 2013 的累积更新：2月2013将组呼叫挑选引入为新的企业语音功能。 组呼叫允许企业语音用户通过拨打呼叫装货组号码来通过拨打另一位用户的通话。
 
 本部分中的主题提供了为在部署中配置组呼叫拾取而执行的任务的分步过程。
 

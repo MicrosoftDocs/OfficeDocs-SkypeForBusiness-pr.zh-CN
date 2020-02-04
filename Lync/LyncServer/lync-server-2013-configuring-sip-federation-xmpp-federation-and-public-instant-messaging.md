@@ -3,6 +3,8 @@ title: 配置 SIP 联盟、XMPP 联盟和公共即时消息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82e154347c0a77dd4367678fefd518b1abf2fc7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45abe0b4c32cf236912ad1a0e39f842653817e59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34837180"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-10-07_
+_**主题上次修改时间：** 2013-10-07_
 
-联盟、公共即时消息连接和可扩展消息和状态协议 (XMPP) 定义不同的外部用户类-联合用户。 联合 Lync Server 部署或 XMPP 部署的用户有权访问有限的一组服务, 并通过外部部署进行身份验证。 远程用户是 Lync Server 部署的成员, 并且有权访问你的部署提供的所有服务。
+联盟、公共即时消息连接和可扩展消息和状态协议（XMPP）定义不同的外部用户类-联合用户。 联合 Lync Server 部署或 XMPP 部署的用户有权访问有限的一组服务，并通过外部部署进行身份验证。 远程用户是 Lync Server 部署的成员，并且有权访问你的部署提供的所有服务。
 
 <div>
 
 
 > [!NOTE]
-> AOL 和 Yahoo! 的有效期结束日期为2014年6月 已宣布。 有关详细信息, 请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。
+> AOL 和 Yahoo！的有效期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。
 
 
 
 </div>
 
-公共即时消息连接是一种特殊类型的联盟, 允许 Lync Server 客户端使用 Lync 2013 访问配置的公共即时消息合作伙伴。 当前公共即时消息连接合作伙伴包括:
+公共即时消息连接是一种特殊类型的联盟，允许 Lync Server 客户端使用 Lync 2013 访问配置的公共即时消息合作伙伴。 当前公共即时消息连接合作伙伴包括：
 
   - <span></span>  
     美洲在线
@@ -58,7 +60,7 @@ _**主题上次修改时间:** 2013-10-07_
   - <span></span>  
     Yahoo\!
 
-公共即时消息连接配置允许 Lync 用户通过以下方式访问公共即时消息连接用户:
+公共即时消息连接配置允许 Lync 用户通过以下方式访问公共即时消息连接用户：
 
   - IM 和状态
 
@@ -68,13 +70,13 @@ _**主题上次修改时间:** 2013-10-07_
 
   - 与 Windows Live 用户进行音频和视频通话
 
-Lync 服务器联合在 Lync Server 部署和其他 Office 通信服务器 2007 R2 或 Lync Server 部署之间定义协议。 Lync 服务器联合配置允许 Lync 用户通过以下方式访问联盟用户:
+Lync 服务器联合在 Lync Server 部署和其他 Office 通信服务器 2007 R2 或 Lync Server 部署之间定义协议。 Lync 服务器联合配置允许 Lync 用户通过以下方式访问联盟用户：
 
   - IM 和状态
 
   - 在 Lync 客户端中创建联盟联系人
 
-XMPP 联合身份验证基于可扩展消息和状态协议定义外部部署。 XMPP 配置允许 Lync 用户通过以下方式访问允许的 XMPP 域用户:
+XMPP 联合身份验证基于可扩展消息和状态协议定义外部部署。 XMPP 配置允许 Lync 用户通过以下方式访问允许的 XMPP 域用户：
 
   - IM 和状态-仅限人员
 
@@ -119,7 +121,7 @@ XMPP 联合身份验证基于可扩展消息和状态协议定义外部部署。
 
 
 > [!NOTE]
-> 你可以使用本地 users 组的成员帐户编辑拓扑, 但发布拓扑需要一个帐户, 该帐户是域管理员组和 RTCUniversalServerAdmins 组的成员
+> 你可以使用本地 users 组的成员帐户编辑拓扑，但发布拓扑需要一个帐户，该帐户是域管理员组和 RTCUniversalServerAdmins 组的成员
 
 </td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">在 Lync Server 2013 中构建边缘和控制器拓扑</a></p></td>
@@ -128,11 +130,11 @@ XMPP 联合身份验证基于可扩展消息和状态协议定义外部部署。
 <td><p>准备安装</p></td>
 <td><ol>
 <li><p>确保满足系统先决条件。</p></li>
-<li><p>配置内部和外部 DNS 记录, 以支持公共即时消息连接、Lync 联合身份验证和 XMPP 联合身份验证</p></li>
+<li><p>配置内部和外部 DNS 记录，以支持公共即时消息连接、Lync 联合身份验证和 XMPP 联合身份验证</p></li>
 <li><p>在防火墙上配置端口和协议以支持要部署的联合身份验证类型</p></li>
-<li><p>获取并安装公共证书。 获取证书所需的时间取决于证书颁发机构 (CA) 颁发的证书。 此步骤在部署中的这一点是可选的。 如果此时不执行此步骤, 则必须在边缘服务器配置期间执行此操作。 在获取证书之前无法启动 Edge 服务器服务</p></li>
+<li><p>获取并安装公共证书。 获取证书所需的时间取决于证书颁发机构（CA）颁发的证书。 此步骤在部署中的这一点是可选的。 如果此时不执行此步骤，则必须在边缘服务器配置期间执行此操作。 在获取证书之前无法启动 Edge 服务器服务</p></li>
 </ol></td>
-<td><p>根据你的组织的需要, 因为这些角色通常会拆分到多个工作组中</p></td>
+<td><p>根据你的组织的需要，因为这些角色通常会拆分到多个工作组中</p></td>
 <td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">在 Lync Server 2013 中规划 SIP、XMPP 联盟和公共即时消息</a></p></td>
 </tr>
 <tr class="odd">
@@ -165,7 +167,7 @@ XMPP 联合身份验证基于可扩展消息和状态协议定义外部部署。
 <tr class="odd">
 <td><p>验证 Edge 服务器配置</p></td>
 <td><p>验证服务器连接和来自内部服务器的配置数据的复制</p></td>
-<td><p>对于复制的验证, RTCUniversalServerAdmins 组或分配给 CSAdministrator roleFor 验证用户连接的用户帐户, 每种类型的联合用户的用户</p></td>
+<td><p>对于复制的验证，RTCUniversalServerAdmins 组或分配给 CSAdministrator roleFor 验证用户连接的用户帐户，每种类型的联合用户的用户</p></td>
 <td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">在 Lync Server 2013 中验证边缘部署</a></p>
 <p><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Lync Server 2013 中的示例 XMPP 配置 –  与 Google Talk 的 XMPP 联盟</a></p></td>
 </tr>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建新的 PIN 策略'
+title: Lync Server 2013：创建新的 PIN 策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new PIN policy
 ms:assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182547(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 958952a0fdac0ddd198c1952fc2e55ef4845976b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c381e33c54f38bfdb00f968885dafa85184018b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837088"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-19_
+_**主题上次修改时间：** 2012-06-19_
 
-你可以使用 "**固定策略**" 页面向使用 IP 电话连接到 Lync 2013 的用户提供个人识别码 (PIN) 身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息, 请参阅[在 Lync Server 2013 中修改现有 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
+你可以使用 "**固定策略**" 页面向使用 IP 电话连接到 Lync 2013 的用户提供个人识别码（PIN）身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改现有 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
 
 按照以下步骤创建用户级别或站点级别的 PIN 策略。
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2012-06-19_
 
 ## <a name="to-create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“PIN 策略”****。
 

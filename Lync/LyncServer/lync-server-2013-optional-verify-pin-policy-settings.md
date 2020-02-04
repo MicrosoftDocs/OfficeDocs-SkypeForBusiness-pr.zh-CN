@@ -3,6 +3,8 @@ title: Lync Server 2013：（可选）验证 PIN 策略设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify PIN policy settings
 ms:assetid: d000d2e7-dfd8-4dea-b1ff-f5385d0cfff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 745fdcdcd432b770f897b6e419d60859a00e2742
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825581"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34825581"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-具有 Active Directory 域服务凭据的 Lync Server 2013 用户可以输入个人识别码 (PIN) 以将电话拨入式会议作为经过身份验证的用户加入。 PIN 策略定义电话拨入式会议 Pin 如何工作的规则。
+具有 Active Directory 域服务凭据的 Lync Server 2013 用户可以输入个人识别码（PIN）以将电话拨入式会议作为经过身份验证的用户加入。 PIN 策略定义电话拨入式会议 Pin 如何工作的规则。
 
-当你部署电话拨入式会议时, 应验证默认全局 PIN 策略是否满足你的要求。 如果需要进行更改, 可以修改默认全局策略, 也可以创建新的 PIN 策略。 你可以创建适用于特定网站、特定用户或特定用户组的 PIN 策略。
+当你部署电话拨入式会议时，应验证默认全局 PIN 策略是否满足你的要求。 如果需要进行更改，可以修改默认全局策略，也可以创建新的 PIN 策略。 你可以创建适用于特定网站、特定用户或特定用户组的 PIN 策略。
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 备份数据和设置'
+title: Lync Server 2013：备份数据和设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up data and settings
 ms:assetid: 21d07888-3dd0-4c17-8a11-34df83a864a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202168(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 908fd004b6dd41a64465d83cfea7339a615a6fee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5208036edc4b552c94583b115ccc6b274add74c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837894"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837894"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-17_
+_**主题上次修改时间：** 2013-02-17_
 
-以下主题中所述的备份过程适用于所有企业版服务器和标准版服务器, 无论它们的位置如何。
+以下主题中所述的备份过程适用于所有企业版服务器和标准版服务器，无论它们的位置如何。
 
 <div>
 

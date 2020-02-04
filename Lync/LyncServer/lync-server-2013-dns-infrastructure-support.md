@@ -3,6 +3,8 @@ title: Lync Server 2013：DNS 基础结构支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Domain Name System (DNS) infrastructure support
 ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425850(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa9670761e16032abf0c205bbb740cbe1f43c4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d192388d03bb96a5d630a230ab4bd35e22c3217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830374"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830374"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-03-08_
+_**主题上次修改时间：** 2013-03-08_
 
-Lync Server 2013 需要域名系统 (DNS), 并通过以下方式使用它:
+Lync Server 2013 需要域名系统（DNS），并通过以下方式使用它：
 
   - 发现内部服务器或池以进行服务器至服务器的通信。
 
@@ -43,11 +45,11 @@ Lync Server 2013 需要域名系统 (DNS), 并通过以下方式使用它:
 
   - 将会议的简单 Url 与托管这些会议的服务器相关联。
 
-  - 允许外部服务器和客户端连接到边缘服务器, 或使用 HTTP 反向代理发送即时消息 (IM) 或会议。
+  - 允许外部服务器和客户端连接到边缘服务器，或使用 HTTP 反向代理发送即时消息（IM）或会议。
 
-  - 若要启用未登录的统一通信 (UC) 设备以发现前端池或运行设备更新 Web 服务的标准版服务器, 请获取更新和发送日志。
+  - 若要启用未登录的统一通信（UC）设备以发现前端池或运行设备更新 Web 服务的标准版服务器，请获取更新和发送日志。
 
-  - 使移动客户端能够自动发现 Web 服务资源, 而无需用户在设备设置中手动输入 Url。
+  - 使移动客户端能够自动发现 Web 服务资源，而无需用户在设备设置中手动输入 Url。
 
   - 用于 DNS 负载平衡。
 
@@ -55,7 +57,7 @@ Lync Server 2013 需要域名系统 (DNS), 并通过以下方式使用它:
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持国际化域名 (IDNs)。
+> Lync Server 2013 不支持国际化域名（IDNs）。
 
 
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 移动 cmdlet'
+title: Lync Server 2013：移动 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility cmdlets
 ms:assetid: 42a30a34-d66b-4c91-b596-a6fc7666e600
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690019(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b62a35da2d289bee1a08abe354ed990c75e6fb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e1f5339f2c47a611fa29d9511d4d73148afcda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826967"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-引入了移动性 cmdlet 以管理 Lync Server 2010 的累积更新中添加的移动功能:11 月2011。 使用这些 cmdlet 管理移动性服务 (如移动服务配置和用户策略) 的设置。
+引入了移动性 cmdlet 以管理 Lync Server 2010 的累积更新中添加的移动功能：11月2011。 使用这些 cmdlet 管理移动性服务（如移动服务配置和用户策略）的设置。
 
 <div>
 
 ## <a name="mobility-cmdlets"></a>移动性 Cmdlet
 
-配置移动功能的 cmdlet 允许你从 Lync Server 命令行管理程序运行命令, 或者编写脚本以配置和测试各种移动设置。
+配置移动功能的 cmdlet 允许你从 Lync Server 命令行管理程序运行命令，或者编写脚本以配置和测试各种移动设置。
 
   - <span></span>  
     [Get-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690014(v=OCS.15))

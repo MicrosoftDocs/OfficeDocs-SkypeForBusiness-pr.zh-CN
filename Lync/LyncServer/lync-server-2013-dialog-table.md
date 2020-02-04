@@ -3,6 +3,8 @@ title: Lync Server 2013：Dialog 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dialog table
 ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830391"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830391"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-对话框表是支持表;每条记录表示一个会话初始协议 (SIP) 对话框。
+对话框表是支持表;每条记录表示一个会话初始协议（SIP）对话框。
 
 
 <table>
@@ -58,17 +60,17 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Primary</p></td>
-<td><p>优质 (QoE) agent 接收来自呼叫方或被叫方的第一个报告的时间。 与 SessionSeq 结合使用以唯一标识会话。</p></td>
+<td><p>优质（QoE） agent 接收来自呼叫方或被叫方的第一个报告的时间。 与 SessionSeq 结合使用以唯一标识会话。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>序列号, 以便在具有相同的 ConferenceDateTime 时区分会话。</p></td>
+<td><p>序列号，以便在具有相同的 ConferenceDateTime 时区分会话。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
-<td><p>varchar (256)</p></td>
+<td><p>varchar （256）</p></td>
 <td></td>
 <td><p>全局唯一的对话框 ID。</p></td>
 </tr>

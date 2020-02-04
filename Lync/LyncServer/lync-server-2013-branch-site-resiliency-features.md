@@ -3,6 +3,8 @@ title: Lync Server 2013：分支站点恢复能力功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency features
 ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398715(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e452dc297a79525b587d13aa58ed1e1270d41aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837737"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-10_
+_**主题上次修改时间：** 2014-02-10_
 
 如果提供分支站点恢复能力，当分支站点到中央站点的 WAN 连接出现故障，或者当中央站点无法访问时，以下语音功能应该仍然可用：
 
@@ -54,11 +56,11 @@ _**主题上次修改时间:** 2014-02-10_
 
   - 使用会议自动助理的 PSTN 电话拨入式会议
 
-  - 语音邮件功能，前提是配置了语音邮件重新路由设置。 (有关详细信息, 请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。)
+  - 语音邮件功能，前提是配置了语音邮件重新路由设置。 （有关详细信息，请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。）
 
   - 用户身份验证和授权
 
-仅当你的复原解决方案是分支站点上的完全规模的 Lync 服务器部署时, 以下功能才可用:
+仅当你的复原解决方案是分支站点上的完全规模的 Lync 服务器部署时，以下功能才可用：
 
   - IM、Web 会议和 A/V 会议
 
@@ -68,11 +70,11 @@ _**主题上次修改时间:** 2014-02-10_
 
   - 响应组应用程序和调用寄存应用程序
 
-  - 预配新的手机和客户端, 但仅当分支站点上存在 Active Directory 域服务时。
+  - 预配新的手机和客户端，但仅当分支站点上存在 Active Directory 域服务时。
 
   - 增强型 9-1-1 (E9-1-1)
     
-    如果已部署 E9-1, 并且中心站点上的 SIP 主干不可用, 因为 WAN 链接处于关闭状态, 则 Survivable 分支装置将 E9-1 呼叫路由到本地分支网关。 要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。
+    如果已部署 E9-1，并且中心站点上的 SIP 主干不可用，因为 WAN 链接处于关闭状态，则 Survivable 分支装置将 E9-1 呼叫路由到本地分支网关。 要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。
 
 <div>
 

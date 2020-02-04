@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: ErrorCategory 表'
+title: Lync Server 2013： ErrorCategory 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorCategory table
 ms:assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204675(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9bd9cebf26a147b00873c17372eca77f0a11f2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830207"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-20_
+_**主题上次修改时间：** 2012-08-20_
 
-ErrorCategory 表包含每个 Microsoft Lync Server 2013 诊断分类的友好名称。 默认情况下, Lync Server 2013 使用以下分类:
+ErrorCategory 表包含每个 Microsoft Lync Server 2013 诊断分类的友好名称。 默认情况下，Lync Server 2013 使用以下分类：
 
   - 0--成功
 

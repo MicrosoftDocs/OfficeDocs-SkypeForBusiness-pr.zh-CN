@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 用于通讯簿管理的 CsService'
+title: Lync Server 2013：用于通讯簿管理的 CsService
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsService for Address Book management
 ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830136"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,49 +35,49 @@ ms.locfileid: "34830136"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-哪些人可以运行此 cmdlet: 默认情况下, 授权以下组的成员在本地运行 CsService cmdlet: RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:
+哪些人可以运行此 cmdlet：默认情况下，授权以下组的成员在本地运行 CsService cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制（RBAC）角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService 可用于检索和显示基础结构定义的 Web 服务的当前配置。 通过定义池的完全限定的域名 (FQDN) 和参数 Web 服务器, cmdlet 将返回由你的服务器提供的基于 web 的服务, 包括通讯簿处理程序和通讯组列表扩展 Uri。
+Get-CsService 可用于检索和显示基础结构定义的 Web 服务的当前配置。 通过定义池的完全限定的域名（FQDN）和参数 Web 服务器，cmdlet 将返回由你的服务器提供的基于 web 的服务，包括通讯簿处理程序和通讯组列表扩展 Uri。
 
 例如：
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-此 cmdlet 返回以下内容:
+此 cmdlet 返回以下内容：
 
-标识: Web 站点:pool01
+标识： Web 站点:pool01
 
-:Dc01:
+:Dc01：
 
-UserServer: UserServer:pool01
+UserServer： UserServer:pool01
 
-PrimaryHttpPort:80
+PrimaryHttpPort：80
 
-PrimaryHttpsPort: 443
+PrimaryHttpsPort：443
 
-ExternalHttpPort: 8080
+ExternalHttpPort：8080
 
-ExternalHttpsPort: 4443
+ExternalHttpsPort：4443
 
-PublishedPrimaryHttpPort:80
+PublishedPrimaryHttpPort：80
 
-PublishedPrimaryHttpsPort: 443
+PublishedPrimaryHttpsPort：443
 
-PublishedExternalHttpPort:80
+PublishedExternalHttpPort：80
 
-PublishedExternalHttpsPort: 443
+PublishedExternalHttpsPort：443
 
-ReachPrimaryPsomServerPort: 8060
+ReachPrimaryPsomServerPort：8060
 
-ReachExternalPsomServerPort: 8061
+ReachExternalPsomServerPort：8061
 
-AppSharingPortStart: 49152
+AppSharingPortStart：49152
 
-AppSharingPortCount: 16383
+AppSharingPortCount：16383
 
 LIServiceInternalUri :https://internalweb.contoso.net/locationinformation/liservice.svc
 
@@ -123,21 +125,21 @@ WebTicketExternalUri :https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
 WebTicketInternalUri :https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
-ExternalFqdn: csweb.contoso.com
+ExternalFqdn： csweb.contoso.com
 
-InternalFqdn: internalweb.contoso.net
+InternalFqdn： internalweb.contoso.net
 
-DependentServiceList: {注册:pool01, ConferencingServer:pool01}
+DependentServiceList： {注册:pool01，ConferencingServer:pool01}
 
-ServiceId: 1-WebServices-1
+ServiceId： 1-WebServices-1
 
-SiteId: 网站: 雷德蒙
+SiteId：网站：雷德蒙
 
-PoolFqdn: pool01.contoso.net
+PoolFqdn： pool01.contoso.net
 
-版本: 5
+版本：5
 
-角色: Web 还是 Web
+角色： Web 还是 Web
 
 <div>
 

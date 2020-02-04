@@ -3,6 +3,8 @@ title: Lync Server 2013：修改默认电话拨入式会议 PIN 设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default dial-in conferencing PIN settings
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425780(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee196fae24ba4a6b7bf8e0ede0bbc0b35a7b3fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7a7b9d07e9fad4eb4e59411c9332f0933bd321b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826834"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34826834"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-全局 PIN 策略在林级别定义电话拨入式会议 PIN 的规则。 请按照以下步骤修改全局电话拨入式会议 PIN 策略。 有关在网站或用户级别创建或修改电话拨入式会议 PIN 策略的详细信息, 请参阅[在 Lync Server 2013 中为网站或用户组创建或修改电话拨入式会议 pin 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。
+全局 PIN 策略在林级别定义电话拨入式会议 PIN 的规则。 请按照以下步骤修改全局电话拨入式会议 PIN 策略。 有关在网站或用户级别创建或修改电话拨入式会议 PIN 策略的详细信息，请参阅[在 Lync Server 2013 中为网站或用户组创建或修改电话拨入式会议 pin 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。
 
 <div>
 
 ## <a name="to-modify-the-global-pin-policy"></a>修改全局 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“**会议**”，然后单击“**PIN 策略**”。
 

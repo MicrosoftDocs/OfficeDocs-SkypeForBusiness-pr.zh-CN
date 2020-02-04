@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Syndicators 表'
+title: Lync Server 2013： Syndicators 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Syndicators table
 ms:assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205102(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f3ce4d4380a652fe8f9c8064554997312fcf0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7c8187e8a38108216ae7b16b555356949acb8dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845760"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-20_
+_**主题上次修改时间：** 2012-08-20_
 
 SyndicatorsTable 仅供内部使用。 此表是在 Microsoft Lync Server 2013 中引入的。
 

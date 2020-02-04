@@ -3,6 +3,8 @@ title: Lync Server 2013 支持的池配对选项和最佳做法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported pool pairing options and best practices
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204697(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00202aeb4db74ec81671e557a0679a9f41046b98
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9090fefba4b80f14382b9b43b5e9ced7cb36b2e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845780"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34845780"
 
 <span> </span>
 
-_**主题上次修改时间:** 2017-03-09_
+_**主题上次修改时间：** 2017-03-09_
 
-对两个数据中心之间的距离没有限制, 包括彼此配对的前端池。 我们建议你在同一世界地区使用两个数据中心, 并在它们之间使用高速链接。 最好将两个数据中心分开, 以避免一次灾难碰到这两个数据中心。
+对两个数据中心之间的距离没有限制，包括彼此配对的前端池。 我们建议你在同一世界地区使用两个数据中心，并在它们之间使用高速链接。 最好将两个数据中心分开，以避免一次灾难碰到这两个数据中心。
 
-可以在世界各地有两个数据中心, 但由于数据复制中的延迟, 可能会导致更高的数据丢失。
+可以在世界各地有两个数据中心，但由于数据复制中的延迟，可能会导致更高的数据丢失。
 
 当您计划对池进行配对时，必须谨记仅支持以下配对法：
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2017-03-09_
 
 每个池中的每个池都应具有在发生灾难时为来自两个池的所有用户提供服务的容量。
 
-如果你对企业版池进行了配对, 你也可以在后端服务器上实现高可用性, 但对于标准版池, 只有灾难恢复措施可用。
+如果你对企业版池进行了配对，你也可以在后端服务器上实现高可用性，但对于标准版池，只有灾难恢复措施可用。
 
 </div>
 

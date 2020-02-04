@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置 SNMP 应用程序'
+title: Lync Server 2013：配置 SNMP 应用程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an SNMP application
 ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412972(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15a911abc614ff30c4130fb2a35886458fcb1dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837431"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34837431"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-03_
+_**主题上次修改时间：** 2012-10-03_
 
-Lync Server 2013 包含一个标准的 web 服务接口, 可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议 (SNMP) 应用程序。
+Lync Server 2013 包含一个标准的 web 服务接口，可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议（SNMP）应用程序。
 
-如果已安装 SNMP 应用程序, 并且位置信息服务无法在位置数据库中找到匹配项, 则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后, 位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
+如果已安装 SNMP 应用程序，并且位置信息服务无法在位置数据库中找到匹配项，则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后，位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
 
-有关详细信息, 请参阅[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)。
+有关详细信息，请参阅[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)。
 
 <div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 包含一个标准的 web 服务接口, 可用于将 Location �
 
 ## <a name="to-configure-the-snmp-application-url"></a>配置 SNMP 应用程序 URL
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  运行以下 cmdlet 为 SNMP 应用程序配置 URL。
     

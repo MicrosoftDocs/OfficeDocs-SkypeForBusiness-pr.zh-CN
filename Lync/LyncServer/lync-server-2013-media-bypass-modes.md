@@ -3,6 +3,8 @@ title: Lync Server 2013：媒体绕过模式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass modes
 ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425862(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183898
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a08ec3ae6d985c18e20964a857a74ad40bc7668d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f92d45099f39ec96724f8d0f6025f58e2dbccb2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827450"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41761948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827450"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
 必须配置全局和每个单个 PSTN 中继的媒体旁路。在全局范围内启用媒体旁路时，有两种选择：“**始终绕过**”和“**使用站点和区域信息**”。
 

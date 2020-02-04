@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 支持组呼叫装货的客户端'
+title: Lync Server 2013：支持组呼叫装货的客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Group Call Pickup
 ms:assetid: f4d4975a-ba15-4be5-9078-7b3e0bf2d706
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afb529c7a06d8325783c7f6217fdd4429cb17f40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837544"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837544"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-12_
+_**主题上次修改时间：** 2013-02-12_
 
-以下任何客户端均可用于应答群组呼叫装货成员的呼叫:
+以下任何客户端均可用于应答群组呼叫装货成员的呼叫：
 
   - Lync 2013
 
@@ -47,13 +49,13 @@ _**主题上次修改时间:** 2013-02-12_
 
 
 > [!NOTE]  
-> 用户可以使用这些客户端中的任何一个向组呼叫成员应答呼叫, 但用户必须驻留在 lync server 2013 池中, 其中包含 Lync Server 2013 的累积更新: 2 月2013。
+> 用户可以使用这些客户端中的任何一个向组呼叫成员应答呼叫，但用户必须驻留在 lync server 2013 池中，其中包含 Lync Server 2013 的累积更新：2月2013。
 
 
 
 </div>
 
-在 Lync Server 2013 的累积更新中: 2 月 2013, 不支持以下客户端和设备接听组呼叫的呼叫成员:
+在 Lync Server 2013 的累积更新中：2月2013，不支持以下客户端和设备接听组呼叫的呼叫成员：
 
   - Lync Mobile
 

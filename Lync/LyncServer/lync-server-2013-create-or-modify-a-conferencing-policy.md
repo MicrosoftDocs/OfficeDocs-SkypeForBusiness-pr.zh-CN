@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建或修改会议策略'
+title: Lync Server 2013：创建或修改会议策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a conferencing policy
 ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 898ffb4473fadd4470ef7e1559fa3cc0c54185c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7f3dd712b94838382f6022de888383c0f47bee6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830810"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830810"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-07_
+_**主题上次修改时间：** 2013-02-07_
 
-请按照以下步骤创建用户级会议策略或网站级会议策略。 有关如何向用户分配用户级策略的详细信息, 请参阅[在 Lync Server 2013 中分配每用户会议策略](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 有关所有可用会议策略设置的列表, 请参阅[Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
+请按照以下步骤创建用户级会议策略或网站级会议策略。 有关如何向用户分配用户级策略的详细信息，请参阅[在 Lync Server 2013 中分配每用户会议策略](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 有关所有可用会议策略设置的列表，请参阅[Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
 <div>
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2013-02-07_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中, 单击 "**会议**", 然后单击 "**会议策略**"。
+3.  在左侧导航栏中，单击 "**会议**"，然后单击 "**会议策略**"。
 
 4.  单击“**新建**”，然后执行以下操作之一：
     
@@ -57,7 +59,7 @@ _**主题上次修改时间:** 2013-02-07_
         
 
         > [!NOTE]  
-        > 网站名称将成为会议策略名称, 不能更改。
+        > 网站名称将成为会议策略名称，不能更改。
 
         
         </div>
@@ -66,7 +68,7 @@ _**主题上次修改时间:** 2013-02-07_
 
 6.  在“**组织者策略**”下的“**最大会议大小**”中，键入允许参加一次会议的最大用户数。默认情况下，最大会议大小为 250。
 
-7.  若要阻止用户邀请匿名用户参加会议，请清除“**允许参与者邀请匿名用户**”复选框。 匿名用户是在组织的 Active Directory 域服务中没有凭据的用户, 因此没有经过身份验证的用户。 默认情况下，用户可以邀请匿名用户参加会议。
+7.  若要阻止用户邀请匿名用户参加会议，请清除“**允许参与者邀请匿名用户**”复选框。 匿名用户是在组织的 Active Directory 域服务中没有凭据的用户，因此没有经过身份验证的用户。 默认情况下，用户可以邀请匿名用户参加会议。
 
 8.  在“**录制**”中，执行下列操作之一：
     
@@ -90,7 +92,7 @@ _**主题上次修改时间:** 2013-02-07_
     
       - 如果你允许用户通过电话拨入加入会议并允许未经身份验证的（匿名）用户通过拨出式电话加入会议，请选中“**允许匿名参与者拨出**”复选框。通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。默认情况下，匿名用户无法通过拨出式电话加入会议。
 
-12. 如果您选择允许在**音频/视频**中使用视频, 请选中 "**允许多个视频流**"。
+12. 如果您选择允许在**音频/视频**中使用视频，请选中 "**允许多个视频流**"。
 
 13. 在“**数据协作**”中，执行下列操作之一：
     
@@ -104,7 +106,7 @@ _**主题上次修改时间:** 2013-02-07_
     
       - 要阻止文件传输，请清除“**允许参与者传输文件**”复选框。默认情况下，用户可以传输文件。
     
-      - 若要阻止使用批注，请清除“**启用批注**”复选框。 若要在 shard PowerPoint 演示文稿中使用注释, 请清除 "**启用 powerpoint 注释**"。 默认情况下，允许使用批注。
+      - 若要阻止使用批注，请清除“**启用批注**”复选框。 若要在 shard PowerPoint 演示文稿中使用注释，请清除 "**启用 powerpoint 注释**"。 默认情况下，允许使用批注。
     
       - 若要阻止使用投票，请清除“**启用投票**”复选框。默认情况下，允许使用投票。
 
@@ -144,9 +146,9 @@ _**主题上次修改时间:** 2013-02-07_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  在左侧导航栏中, 单击 "**会议**", 然后单击 "**会议策略**"。
+3.  在左侧导航栏中，单击 "**会议**"，然后单击 "**会议策略**"。
 
 4.  在会议策略列表中，单击要更改的策略，单击“**编辑**”，然后单击“**显示详细信息**”。
 

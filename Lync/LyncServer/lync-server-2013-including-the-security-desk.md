@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 包括安全桌面'
+title: Lync Server 2013：包括安全桌面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Including the security desk
 ms:assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398299(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c60b7f67f22393bf4a6972e68b2d0bdc2ca8a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830019"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,12 +35,12 @@ ms.locfileid: "34830019"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
 公司可能要求安全服务台参与紧急呼叫。为帮助确定如何将安全服务台集成到 E9-1-1 部署，应回答以下问题。
 
   - **发出紧急呼叫时，是否希望通知安全服务台？**  
-    你可以配置位置策略, 以便 Lync 服务器向一个或多个安全人员的 Lync SIP 地址发送即时消息 (IM) 警报。 这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。
+    你可以配置位置策略，以便 Lync 服务器向一个或多个安全人员的 Lync SIP 地址发送即时消息（IM）警报。 这些警报包含拨打紧急呼叫的人员的姓名、号码和位置，并可在紧急情况下实现安全性。
 
 <!-- end list -->
 

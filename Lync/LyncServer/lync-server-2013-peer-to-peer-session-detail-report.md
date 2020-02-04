@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 对等会话详细信息报告'
+title: Lync Server 2013：对等会话详细信息报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Session Detail Report
 ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825399"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825399"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-06_
+_**主题上次修改时间：** 2012-06-06_
 
 对等会话详细信息报告返回有关对等会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-06-06_
 
   - 故障列表报告
 
-从对等会话详细信息报告中, 可以通过单击诊断报告 (详细信息) 指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+从对等会话详细信息报告中，可以通过单击诊断报告（详细信息）指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
 
   - 响应
 

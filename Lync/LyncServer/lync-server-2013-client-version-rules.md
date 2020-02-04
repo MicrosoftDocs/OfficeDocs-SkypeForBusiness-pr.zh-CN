@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 客户端版本规则'
+title: Lync Server 2013：客户端版本规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client version rules
 ms:assetid: 8ed9d704-7bdd-41b3-89c6-daca8aa640b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898481(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3417328fcd0fad9d30c6eee8dbb2a95e883ebb4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837552"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-12-11_
+_**主题上次修改时间：** 2012-12-11_
 
 客户端版本策略由一组客户端版本策略规则组成。 这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。 使用以下过程配置 Lync Server 2013 的客户端版本策略规则
 

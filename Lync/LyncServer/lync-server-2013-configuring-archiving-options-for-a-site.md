@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置网站的存档选项'
+title: Lync Server 2013：配置网站的存档选项
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options for a site
 ms:assetid: 59b48fd9-d5fc-40b4-abae-e9cf89ee5573
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14b0e29a2796c23c13a16bfb3e8a202a0a535aaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb2b70242388ca00a7bf43ec535ae1231fb77644
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34837282"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
 你可以通过在每个网站的存档配置中创建和配置选项来指定要应用到特定网站的存档选项。 站点配置可覆盖全局配置，但它仅适用于站点配置中指定的站点。 池配置替代网站配置
 
-有关存档配置的工作原理的详细信息 (包括全局、网站和池配置的层次结构), 请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md).
+有关存档配置的工作原理的详细信息（包括全局、网站和池配置的层次结构），请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 在启用存档之前, 应在存档配置中指定所有适当的选项。
+> 在启用存档之前，应在存档配置中指定所有适当的选项。
 
 
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-10-09_
 
 
 > [!IMPORTANT]  
-> 若要启用存档，您必须指定存档策略以控制全局级别（适当情况下还包括站点和用户级别）的内部和外部通信的存档。 如果配置用户级别策略，还必须向特定用户分配用户策略。 有关创建和配置存档策略的详细信息, 请参阅在操作文档中<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">管理 Lync Server 2013 中的内部和外部通信的存档</A>。
+> 若要启用存档，您必须指定存档策略以控制全局级别（适当情况下还包括站点和用户级别）的内部和外部通信的存档。 如果配置用户级别策略，还必须向特定用户分配用户策略。 有关创建和配置存档策略的详细信息，请参阅在操作文档中<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">管理 Lync Server 2013 中的内部和外部通信的存档</A>。
 
 
 
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2012-10-09_
 
 1.  使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
 
@@ -85,7 +87,7 @@ _**主题上次修改时间:** 2012-10-09_
     
       - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-      - 若要使用 Microsoft Exchange Server 存储存档数据, 请单击 " **Microsoft exchange 集成**" 复选框。
+      - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。
     
       - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
         

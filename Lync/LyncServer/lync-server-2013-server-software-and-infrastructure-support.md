@@ -3,6 +3,8 @@ title: Lync Server 2013：服务器软件和基础结构支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server software and infrastructure support
 ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3df5a7c37c1b03cd5ce838721b6ef00fad9547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34821983"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-29_
+_**主题上次修改时间：** 2012-06-29_
 
-服务器组件的软件支持, 包括所有 Lync Server 2013 服务器角色和存储, 包括支持的操作系统、数据库软件、基础结构软件和支持特定功能所需的其他软件。 它还包括服务器组件的虚拟化。
+服务器组件的软件支持，包括所有 Lync Server 2013 服务器角色和存储，包括支持的操作系统、数据库软件、基础结构软件和支持特定功能所需的其他软件。 它还包括服务器组件的虚拟化。
 
 <div>
 

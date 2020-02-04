@@ -1,8 +1,10 @@
 ---
-title: '第1阶段: 规划从 Office 通信服务器 2007 R2 迁移'
+title: 第1阶段：规划从 Office 通信服务器 2007 R2 迁移
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
 ms:assetid: 43ad2a2c-7a55-4f11-baeb-57151ca09185
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204855(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f4118e99dcd1a622df38c9fade3de8954094972
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 593dfc97f73398dee5f627da1f534d324242845b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845173"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>第1阶段: 规划从 Office 通信服务器 2007 R2 迁移
+# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>第1阶段：规划从 Office 通信服务器 2007 R2 迁移
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845173"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-29_
+_**主题上次修改时间：** 2012-09-29_
 
 本部分介绍从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013 的计划主题。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：配置持久聊天服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Persistent Chat Server
 ms:assetid: 85028aff-a38e-4748-958e-59e707a47532
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205054(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8ff9c59efeb2eb8106a3fe823c8256c86474f51
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837339"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837339"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-06_
+_**主题上次修改时间：** 2012-10-06_
 
 创建新的持久聊天配置
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-10-06_
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-对于 Lync Server 2013, 所有 web 服务流量均受 Lync Server 2013 的前端服务器支持。 因此, 不需要持久聊天服务器上的 gcweb01 地址。 我们仍然支持内部 web 服务访问, 因为我们仅向*内部*网站提供文件上载/下载 web 服务 (不适用于远程用户的*外部*网站)。
+对于 Lync Server 2013，所有 web 服务流量均受 Lync Server 2013 的前端服务器支持。 因此，不需要持久聊天服务器上的 gcweb01 地址。 我们仍然支持内部 web 服务访问，因为我们仅向*内部*网站提供文件上载/下载 web 服务（不适用于远程用户的*外部*网站）。
 
 </div>
 

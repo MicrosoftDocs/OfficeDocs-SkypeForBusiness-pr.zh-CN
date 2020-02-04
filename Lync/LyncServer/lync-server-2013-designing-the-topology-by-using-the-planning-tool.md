@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 使用计划工具设计拓扑'
+title: Lync Server 2013：使用计划工具设计拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Designing the topology by using the Planning Tool
 ms:assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09cfa16103f4e6e2ebfa2327edbd330311753609
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590bfae33e12cca2e2305eab9d842f0e2f105838
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830445"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-03-04_
+_**主题上次修改时间：** 2013-03-04_
 
-Microsoft Lync Server 2013、计划工具是一个向导驱动的工具, 该工具会询问有关你正在设计的 Lync Server 2013 拓扑的问题。 规划工具使用所提供的信息和拓扑设计和容量的首选做法, 根据提供的答案演示推荐的拓扑。 您可以从 Microsoft 下载中心下载计划工具 ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725))。
+Microsoft Lync Server 2013、计划工具是一个向导驱动的工具，该工具会询问有关你正在设计的 Lync Server 2013 拓扑的问题。 规划工具使用所提供的信息和拓扑设计和容量的首选做法，根据提供的答案演示推荐的拓扑。 您可以从 Microsoft 下载中心下载计划工具（[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)）。
 
-最终, 规划工具的目标是减轻设计完整 Lync Server 2013 拓扑的潜在复杂性。 如果可以通过 Internet 连接来连接到 Microsoft TechNet 网站，该工具还会提供对工具内规划文档和部署文档的上下文引用。
+最终，规划工具的目标是减轻设计完整 Lync Server 2013 拓扑的潜在复杂性。 如果可以通过 Internet 连接来连接到 Microsoft TechNet 网站，该工具还会提供对工具内规划文档和部署文档的上下文引用。
 
-使用基础结构的 TCP/IP 地址和完全限定的域名 (Fqdn) 自定义拓扑后, 规划工具会提供一系列涵盖域名系统 (DNS) 命名、防火墙规则、证书等的报告。
+使用基础结构的 TCP/IP 地址和完全限定的域名（Fqdn）自定义拓扑后，规划工具会提供一系列涵盖域名系统（DNS）命名、防火墙规则、证书等的报告。
 
-规划工具还提供了以两种格式导出信息的功能:
+规划工具还提供了以两种格式导出信息的功能：
 
   - Microsoft Excel
 

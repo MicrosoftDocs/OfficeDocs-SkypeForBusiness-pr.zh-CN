@@ -3,6 +3,8 @@ title: 查看有关为 Lync Server 启用的用户帐户的信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing information about user accounts enabled for Lync Server 2013
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687980(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aad3b0d6f1367227ba8fb0d7d9525969ae071aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845329"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845329"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
 按照本部分中的步骤查看 Lync Server 2013 用户帐户的设置和策略信息。
 

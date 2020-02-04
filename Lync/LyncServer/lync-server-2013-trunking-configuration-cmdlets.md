@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 中继配置 cmdlet'
+title: Lync Server 2013：中继配置 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trunking configuration cmdlets
 ms:assetid: 2c36b03a-b80f-4321-a448-6ba26b9357f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416489(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec65e877d480924f3fcc312b3972cc329ad4ed34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26b3bb328b3567cb9a8826412838d7aad0ada386
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845529"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845529"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-08_
+_**主题上次修改时间：** 2012-10-08_
 
-中继配置 cmdlet 用于定义中继对等实体 (如公共交换电话网络 (PSTN) 网关、IP-公共分支 exchange (PBX) 或会话边界控制器 (SBC) 在服务提供商处的设置。 这些设置配置如下内容：是否在此中继上启用媒体旁路，是否在特定条件下发送实时传输控制协议 (RTCP) 数据包，以及是否需要安全实时协议 (SRTP) 加密。
+中继配置 cmdlet 用于定义中继对等实体（如公共交换电话网络（PSTN）网关、IP-公共分支 exchange （PBX）或会话边界控制器（SBC）在服务提供商处的设置。 这些设置配置如下内容：是否在此中继上启用媒体旁路，是否在特定条件下发送实时传输控制协议 (RTCP) 数据包，以及是否需要安全实时协议 (SRTP) 加密。
 
 <div>
 
