@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理 PIN 设置'
+title: Lync Server 2013：管理 PIN 设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing PIN settings
 ms:assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29043f92a447a926d901646216649a9150f4e4d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9b0b516f39fd407ceca5d4ab7a471056dc24847
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827835"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 使用以下部分中的过程管理 Lync Server 2013 中的 PIN 设置。
 

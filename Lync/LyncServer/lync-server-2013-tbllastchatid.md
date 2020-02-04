@@ -3,6 +3,8 @@ title: Lync Server 2013：tblLastChatId
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblLastChatId
 ms:assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bddc89952b544a71c469538cf11f65658e19e38d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845764"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-12_
+_**主题上次修改时间：** 2012-09-12_
 
-tblLastChatId 包含为每位用户生成 (并在 tblChat 表中使用) 的最后一个聊天 ID。
+tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最后一个聊天 ID。
 
 ### <a name="columns"></a>多
 
@@ -55,12 +57,12 @@ tblLastChatId 包含为每位用户生成 (并在 tblChat 表中使用) 的最�
 <tbody>
 <tr class="odd">
 <td><p>a</p></td>
-<td><p>int, not null</p></td>
-<td><p>节点 ID (聊天室-仅类型)。</p></td>
+<td><p>int，not null</p></td>
+<td><p>节点 ID （聊天室-仅类型）。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
-<td><p>bigint, not null</p></td>
+<td><p>bigint，not null</p></td>
 <td><p>上次使用的聊天 ID。</p></td>
 </tr>
 </tbody>
@@ -83,7 +85,7 @@ tblLastChatId 包含为每位用户生成 (并在 tblChat 表中使用) 的最�
 <tbody>
 <tr class="odd">
 <td><p>&lt;lastChatID&gt;</p></td>
-<td><p>主关键字 (仅一个参数 a 足以处理)。</p></td>
+<td><p>主关键字（仅一个参数 a 足以处理）。</p></td>
 </tr>
 <tr class="even">
 <td><p>a</p></td>

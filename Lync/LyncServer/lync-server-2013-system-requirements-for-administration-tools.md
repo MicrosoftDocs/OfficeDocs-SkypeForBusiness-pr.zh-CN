@@ -3,6 +3,8 @@ title: Lync Server 2013：管理工具的系统要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for administration tools
 ms:assetid: 327d3f1f-651d-4bb2-8c08-89186ee8135e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab37f868157ee2faf383f9d0071576a277d9a4f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40901f879af6de5066f210b84caea30f37485983
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845756"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845756"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-29_
+_**主题上次修改时间：** 2012-06-29_
 
 以下主题介绍了安装管理工具和发布拓扑的要求。
 

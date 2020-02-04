@@ -3,6 +3,8 @@ title: 查看和使用由最佳做法分析器创建的报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing and working with reports created by Best Practices Analyzer
 ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8261f5e2d474e30d919aa5bea1538ba8636be691
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845328"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845328"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-14_
+_**主题上次修改时间：** 2012-06-14_
 
-使用最佳做法分析程序扫描你的环境时, 最佳做法分析器会创建用于识别有关你的部署的问题和其他信息的报表。 你可以使用最佳做法分析器查看包含扫描结果的报表, 并了解报表中标识的问题。
+使用最佳做法分析程序扫描你的环境时，最佳做法分析器会创建用于识别有关你的部署的问题和其他信息的报表。 你可以使用最佳做法分析器查看包含扫描结果的报表，并了解报表中标识的问题。
 
 <div>
 

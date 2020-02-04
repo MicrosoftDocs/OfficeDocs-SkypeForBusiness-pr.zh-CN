@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: IM 和状态 cmdlet'
+title: Lync Server 2013： IM 和状态 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IM and presence cmdlets
 ms:assetid: 7b882480-f3d5-44a2-bb75-fffb7e5caede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5047a8fbb4d9533e7364ca0d566c0a9ce9660fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d96b8971bb25898e9e8b02403b0f8cd5447681c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830033"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830033"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-26_
+_**主题上次修改时间：** 2012-06-26_
 
-即时消息 (IM) 和状态 cmdlet 允许你通过 Windows PowerShell 管理这些客户端功能。 你可以在全局、网站或每用户范围内设置适用于用户的状态策略。 您还可以配置各种隐私和即时消息功能。
+即时消息（IM）和状态 cmdlet 允许你通过 Windows PowerShell 管理这些客户端功能。 你可以在全局、网站或每用户范围内设置适用于用户的状态策略。 您还可以配置各种隐私和即时消息功能。
 
 <div>
 
 ## <a name="im-and-presence-cmdlets"></a>IM 和状态 Cmdlet
 
-"配置 IM 和联机状态" 使用以下 cmdlet:
+"配置 IM 和联机状态" 使用以下 cmdlet：
 
   - <span></span>  
     [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))

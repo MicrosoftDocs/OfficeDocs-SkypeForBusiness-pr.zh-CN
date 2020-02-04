@@ -3,6 +3,8 @@ title: Lync Server 2013：托管 Exchange UM 体系结构和路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM architecture and routing
 ms:assetid: 4ea4a2ce-01d9-4209-bf8e-98fa9027fb7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398318(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab537c80d0d93785a0fb9a7a863fd5ba25966177
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830059"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830059"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-03-26_
+_**主题上次修改时间：** 2012-03-26_
 
-本节概述了内部部署和托管 Exchange UM 集成的体系结构, 包括支持的模式、共享 SIP 空间和路由考虑事项。
+本节概述了内部部署和托管 Exchange UM 集成的体系结构，包括支持的模式、共享 SIP 空间和路由考虑事项。
 
 <div>
 

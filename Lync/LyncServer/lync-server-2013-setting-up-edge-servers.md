@@ -3,6 +3,8 @@ title: Lync Server 2013：设置边缘服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Edge Servers
 ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398147(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c3de2695ef4e9dca538e8e0c6287a19c1a5035
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845926"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-08_
+_**主题上次修改时间：** 2012-09-08_
 
-设置边缘服务器所需的主要任务与安装单个边缘服务器或负载平衡的边缘服务器池相同, 只是硬件负载平衡的边缘服务器池需要部署负载平衡器和其他步骤在多台边缘服务器上复制设置。
+设置边缘服务器所需的主要任务与安装单个边缘服务器或负载平衡的边缘服务器池相同，只是硬件负载平衡的边缘服务器池需要部署负载平衡器和其他步骤在多台边缘服务器上复制设置。
 
 <div>
 

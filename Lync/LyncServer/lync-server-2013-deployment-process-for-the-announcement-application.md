@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 公告应用程序的部署过程'
+title: Lync Server 2013：公告应用程序的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for the Announcement application
 ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398545(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2b1e9f8dd78b299a8e89e958f5b1c03acdffb7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830449"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830449"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-12_
+_**主题上次修改时间：** 2012-09-12_
 
-本部分概述了部署公告应用程序所涉及的步骤。 您必须先部署企业语音, 然后才能配置公告。 部署 "企业语音" 时, 安装并启用公告应用程序所需的组件。
+本部分概述了部署公告应用程序所涉及的步骤。 您必须先部署企业语音，然后才能配置公告。 部署 "企业语音" 时，安装并启用公告应用程序所需的组件。
 
 ### <a name="announcement-deployment-process"></a>通知部署过程
 

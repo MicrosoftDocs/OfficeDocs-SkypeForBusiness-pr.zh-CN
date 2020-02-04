@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 注册智能卡身份验证的用户'
+title: Lync Server 2013：注册智能卡身份验证的用户
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enrolling users for smart card authentication
 ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11e74f35119a083aacd8440aec53594b8091b8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750e77b342b48d2c81bf05e160779ca5566f5a2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830210"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-03_
+_**主题上次修改时间：** 2013-07-03_
 
 通常，可通过两种方法为用户注册智能卡身份验证。较为轻松的方法涉及使用 Web 注册直接为用户注册智能卡身份验证，而较为复杂的方法涉及使用注册代理。本主题着重介绍自动注册智能卡证书。
 
-有关作为注册代理代表用户进行注册的详细信息, 请参阅在[http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)上代表其他用户注册证书。
+有关作为注册代理代表用户进行注册的详细信息，请参阅在[http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)上代表其他用户注册证书。
 
 <div>
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2013-07-03_
 
 2.  启动 Internet Explorer。
 
-3.  浏览到**证书颁发机构 Web 注册**页面 (例如https://MyCA.contoso.com/certsrv),
+3.  浏览到**证书颁发机构 Web 注册**页面（例如https://MyCA.contoso.com/certsrv)，
     
     <div>
     

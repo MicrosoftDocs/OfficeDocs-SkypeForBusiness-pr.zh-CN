@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 媒体质量比较报表'
+title: Lync Server 2013：媒体质量比较报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Comparison Report
 ms:assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205236(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6697e02d7b821ebd3dc3cabc3a95c8d00960a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bcec69db6154aa346fc4545dc3b50fcfe0f2d6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827443"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827443"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-22_
+_**主题上次修改时间：** 2014-04-22_
 
 媒体质量比较报告使您能够比较不同类型的音频呼叫（例如，通过无线网络发出的呼叫与通过有线连接发出的呼叫）的呼叫质量值。
 
@@ -131,7 +133,7 @@ _**主题上次修改时间:** 2014-04-22_
 <li><p>每天（最多可显示 31 天）</p></li>
 <li><p>每周（最多可显示 12 周）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -191,7 +193,7 @@ _**主题上次修改时间:** 2014-04-22_
 <tr class="even">
 <td><p><strong>抖动（毫秒）</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

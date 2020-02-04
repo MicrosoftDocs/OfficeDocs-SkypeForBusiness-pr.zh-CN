@@ -3,6 +3,8 @@ title: Lync Server 2013：用于 SIP 中继的组件和拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837509"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837509"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-21_
+_**主题上次修改时间：** 2012-09-21_
 
 下图描绘了 Lync Server 中的 SIP 中继拓扑。
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2012-09-21_
 
 
 > [!IMPORTANT]  
-> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如, 你只需要在每个中介服务器上配置一个 IP 地址和一个 SIP 中继, 还是需要在每个中介服务器上配置多个 SIP 中继？<BR>如果您有多个中心网站, 还询问服务提供商是否有能力启用与另一个中心站点的连接。
+> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，你只需要在每个中介服务器上配置一个 IP 地址和一个 SIP 中继，还是需要在每个中介服务器上配置多个 SIP 中继？<BR>如果您有多个中心网站，还询问服务提供商是否有能力启用与另一个中心站点的连接。
 
 
 
@@ -57,7 +59,7 @@ _**主题上次修改时间:** 2012-09-21_
 
 
 > [!NOTE]  
-> 对于 SIP 中继, 强烈建议你部署独立的中介服务器。 有关详细信息, 请参阅部署文档中的在<A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 中部署中介服务器和定义对等</A>。
+> 对于 SIP 中继，强烈建议你部署独立的中介服务器。 有关详细信息，请参阅部署文档中的在<A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 中部署中介服务器和定义对等</A>。
 
 
 
@@ -71,7 +73,7 @@ _**主题上次修改时间:** 2012-09-21_
 
 建议您遵循下列准则：
 
-  - 在外围网络 (也称为 DMZ、隔离区和屏蔽子网) 之间的中介服务器和 VPN 路由器之间设置虚拟 LAN (VLAN)。
+  - 在外围网络（也称为 DMZ、隔离区和屏蔽子网）之间的中介服务器和 VPN 路由器之间设置虚拟 LAN （VLAN）。
 
   - 不允许将广播数据包或多播数据包从路由器传输到 VLAN。
 

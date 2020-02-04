@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 监视性能移动性'
+title: Lync Server 2013：监视性能移动性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring mobility for performance
 ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690033(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3b6cbdefcb7c78f68fe8838109dea3be5b8203d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826631"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826631"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-14_
+_**主题上次修改时间：** 2013-02-14_
 
-Lync Server 移动服务 (Mcx) 和统一通信 Web API (UCWA) 增加前端服务器和前端池的负载。 即使在移动应用程序被最小化的情况下也保持与服务器的连接的移动设备 (如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备) 以及运行 Lync 2013 移动设备的 Android 和 Apple 设备的负载比当移动应用程序最小化时, 终止与服务器的连接。 随着移动性用途的增加, 您必须监视移动性性能以确定何时需要增加容量。
+Lync Server 移动服务（Mcx）和统一通信 Web API （UCWA）增加前端服务器和前端池的负载。 即使在移动应用程序被最小化的情况下也保持与服务器的连接的移动设备（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备）以及运行 Lync 2013 移动设备的 Android 和 Apple 设备的负载比当移动应用程序最小化时，终止与服务器的连接。 随着移动性用途的增加，您必须监视移动性性能以确定何时需要增加容量。
 
 有几项限制会影响移动性能：
 

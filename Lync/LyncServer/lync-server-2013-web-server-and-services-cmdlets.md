@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Web 服务器和服务 cmdlet'
+title: Lync Server 2013： Web 服务器和服务 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web server and services cmdlets
 ms:assetid: 07ce7fd4-4068-4957-9cb9-fd121b43858c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 754e8a96c240b99de7238c150fd60b37772bbd07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffd517f46d6d1793ad1f947f56b1d7e423bfb269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845249"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845249"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-18_
+_**主题上次修改时间：** 2013-02-18_
 
-许多 Microsoft Lync Server 2013 组件是基于 web 的: 这些组件使用 Web 服务或网页来执行其任务。 Web 服务器和 Web 服务 cmdlet 使你可以执行配置 Web 服务器设置和管理简单 Url 等操作。 简单的 Url 使用户可以更轻松地加入会议和会议, 并使管理员能够更轻松地登录 Lync Server 2013 控制面板。
+许多 Microsoft Lync Server 2013 组件是基于 web 的：这些组件使用 Web 服务或网页来执行其任务。 Web 服务器和 Web 服务 cmdlet 使你可以执行配置 Web 服务器设置和管理简单 Url 等操作。 简单的 Url 使用户可以更轻松地加入会议和会议，并使管理员能够更轻松地登录 Lync Server 2013 控制面板。
 
 <div>
 
 ## <a name="web-server-and-web-services-cmdlets"></a>Web 服务器和 Web 服务 Cmdlet
 
-以下是与管理 Web 服务器和 Web 服务直接相关的 cmdlet 的列表:
+以下是与管理 Web 服务器和 Web 服务直接相关的 cmdlet 的列表：
 
 **Web 服务器和服务**
 

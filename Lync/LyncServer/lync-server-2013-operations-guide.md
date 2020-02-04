@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 操作指南'
+title: Lync Server 2013：操作指南
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations Guide
 ms:assetid: dcb9ddff-6fe3-4077-a2e3-0ba64f65e264
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1259a66c4f7471538939a51610018e19231104c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825847"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34825847"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-08-18_
+_**主题上次修改时间：** 2014-08-18_
 
-本文档介绍维护 Microsoft Lync Server 2013 通信软件环境所需的操作过程、任务和工具。 它介绍了如何根据 Microsoft 操作框架 (MOF) 模型管理 Lync Server 2013, 它将帮助你设计高效的运营管理环境, 其中包括实施计划、流程和过程来维护高效的工作环境。
+本文档介绍维护 Microsoft Lync Server 2013 通信软件环境所需的操作过程、任务和工具。 它介绍了如何根据 Microsoft 操作框架（MOF）模型管理 Lync Server 2013，它将帮助你设计高效的运营管理环境，其中包括实施计划、流程和过程来维护高效的工作环境。
 
 <div>
 
 ## <a name="in-this-section"></a>本节内容
 
-包括以下部分:
+包括以下部分：
 
   - [Lync Server 2013 环境的最佳做法](lync-server-2013-best-practices-for-lync-server-environments.md)
 
@@ -61,7 +63,7 @@ _**主题上次修改时间:** 2014-08-18_
 
   - [Lync Server 2013 中的故障排除和关键运行状况指示器](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-假设您的 Microsoft Lync Server 2013 部署已完成。 如果不是这种情况, 请参阅 Microsoft Lync Server 2013 的规划和部署内容, 然后再继续。
+假设您的 Microsoft Lync Server 2013 部署已完成。 如果不是这种情况，请参阅 Microsoft Lync Server 2013 的规划和部署内容，然后再继续。
 
 </div>
 

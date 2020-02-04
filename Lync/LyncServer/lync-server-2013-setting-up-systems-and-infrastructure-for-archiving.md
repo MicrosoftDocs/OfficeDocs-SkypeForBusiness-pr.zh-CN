@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 设置用于存档的系统和基础结构'
+title: Lync Server 2013：设置用于存档的系统和基础结构
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up systems and infrastructure for Archiving
 ms:assetid: 34bc0414-bd20-436d-bfb8-e47a280d34ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04861e0c5e6223920b571900958488fd42df006f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 980b64dacbe623241aedfb3312156f5599c43bab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845901"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845901"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-23_
+_**主题上次修改时间：** 2012-06-23_
 
-在部署存档之前, 你需要部署相应的硬件和软件以支持存档并验证你的基础结构是否支持你的存档部署。
+在部署存档之前，你需要部署相应的硬件和软件以支持存档并验证你的基础结构是否支持你的存档部署。
 
 <div>
 

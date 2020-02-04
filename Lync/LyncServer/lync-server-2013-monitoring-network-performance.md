@@ -3,6 +3,8 @@ title: Lync Server 2013：监视网络性能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826715"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756796"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826715"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-04-27_
+_**主题上次修改时间：** 2016-04-27_
 
-Lync Server 2013 是一种实时通信技术, 它在很大程度上依赖于网络来启用用户之间的通信-通过即时消息 (IM)、语音呼叫或视频通信。 因此, 不断监视网络性能以帮助确保用户选择的通信模态可提供最佳体验非常重要。
+Lync Server 2013 是一种实时通信技术，它在很大程度上依赖于网络来启用用户之间的通信-通过即时消息（IM）、语音呼叫或视频通信。 因此，不断监视网络性能以帮助确保用户选择的通信模态可提供最佳体验非常重要。
 
-可以在两个级别测量网络性能:
+可以在两个级别测量网络性能：
 
-  - **总体网络性能**   这一级别的性能测量将使组织能够创建其网络的 "大型图片" 视图, 并且通常通过第三方网络监视系统实现。 这些系统将从远程网络设备 (如路由器) 接收性能和容量数据, 并在整个网络中切换, 从而允许管理员确定任何给定网络组件在一天内的运行状况。
+  - **总体网络性能**   这一级别的性能测量将使组织能够创建其网络的 "大型图片" 视图，并且通常通过第三方网络监视系统实现。 这些系统将从远程网络设备（如路由器）接收性能和容量数据，并在整个网络中切换，从而允许管理员确定任何给定网络组件在一天内的运行状况。
 
-  - **单个服务器性能**   此级别的性能测量值限制为特定服务器, 并将帮助管理员评估特定服务器的网络性能, 以帮助解决特定性能在某一给定时间段内处理其各个服务器的性能, 作为容量计划过程的一部分。
+  - **单个服务器性能**   此级别的性能度量限制为特定服务器，并将帮助管理员评估特定服务器的网络性能，以帮助解决特定的性能问题，或在给定时间段内测量相应服务器的性能，作为容量规划过程的一部分。
 
 你可以使用以下部分中所述的工具监视网络。
 
@@ -53,7 +55,7 @@ Lync Server 2013 是一种实时通信技术, 它在很大程度上依赖于网�
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-System Center Operations Manager 提供了可轻松自定义和扩展的端到端服务管理, 可在 IT 环境中提高服务级别。 这使操作和 IT 管理团队能够识别和解决影响分布式 IT 服务运行状况的问题。 端到端服务管理不限于基于 Microsoft 的环境。 支持用于管理的 Web 服务 (WS-MANAGEMENT)、简单网络管理协议 (SNMP) 和合作伙伴解决方案允许不运行 Microsoft 操作系统和硬件的系统包含在系统中心内的服务监视中Operations Manager 2012。
+System Center Operations Manager 提供了可轻松自定义和扩展的端到端服务管理，可在 IT 环境中提高服务级别。 这使操作和 IT 管理团队能够识别和解决影响分布式 IT 服务运行状况的问题。 端到端服务管理不限于基于 Microsoft 的环境。 支持用于管理的 Web 服务（WS-MANAGEMENT）、简单网络管理协议（SNMP）和合作伙伴解决方案允许不运行 Microsoft 操作系统和硬件的系统包含在系统中心内的服务监视中Operations Manager 2012。
 
 </div>
 
@@ -61,15 +63,15 @@ System Center Operations Manager 提供了可轻松自定义和扩展的端到�
 
 ## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>System Center Operations Manager 2012 和第三方网络管理解决方案
 
-**Emc Smarts**   面向 Operations Manager 的解决方案可帮助你在整个服务级别中快速解决影响服务级别的问题。 通过使用 EMC 针对 Operations Manager 的解决方案, 你可以使用一个集成、自动化的解决方案管理和监控整个 IT 服务链。 你可以轻松地确定性能和可用性问题的根本原因, 并更快地解决这些问题, 从而降低效果和成本。 关键好处包括以下几项:
+**Emc Smarts**   面向 Operations Manager 的解决方案可帮助你在整个服务级别中快速解决影响服务级别的问题。 通过使用 EMC 针对 Operations Manager 的解决方案，你可以使用一个集成、自动化的解决方案管理和监控整个 IT 服务链。 你可以轻松地确定性能和可用性问题的根本原因，并更快地解决这些问题，从而降低效果和成本。 关键好处包括以下几项：
 
-  - 高级、易于使用的管理侧重于提供战略商业价值, 而不是手动排序和筛选混乱的警报。
+  - 高级、易于使用的管理侧重于提供战略商业价值，而不是手动排序和筛选混乱的警报。
 
-  - **更快的解决方案**   解决 IT 问题并更快地响应业务需求, 降低了影响和成本。
+  - **更快的解决方案**   解决 IT 问题并更快地响应业务需求，降低了影响和成本。
 
   - **简化的操作**   通过组合多个管理工具、应用程序和终端来避免 IT 复杂性。
 
-详细信息可在此处找到:
+详细信息可在此处找到：
 
 [Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
 
@@ -81,23 +83,23 @@ System Center Operations Manager 提供了可轻松自定义和扩展的端到�
 
 ## <a name="third-party-solutions"></a>第三方解决方案
 
-**Hp 网络管理中心 (以前称为 HP OpenView)**   [HP 网络管理中心](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)提供集成的故障和性能管理, 以提高网络可用性和性能。 网络管理中心是 HP 自动化网络管理解决方案的一部分, 它统一了故障、性能、配置和更改管理。
+**Hp 网络管理中心（以前称为 HP OpenView）**   [Hp 网络管理中心](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)提供集成的故障和性能管理，以提高网络可用性和性能。 网络管理中心是 HP 自动化网络管理解决方案的一部分，它统一了故障、性能、配置和更改管理。
 
-**适用于企业的 cisco 网络管理和自动化产品**   , cisco 拥有多种管理产品, 包括 CiscoWorks LAN 管理解决方案和 Cisco 网络分析模块, 以帮助提高运营效率和减少网络停机时间。 有关这些产品的其他数据, 请参阅 Cisco 网站[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)。
+**适用于企业的 cisco 网络管理和自动化产品**   ，cisco 拥有多种管理产品，包括 CiscoWorks LAN 管理解决方案和 Cisco 网络分析模块，以帮助提高运营效率并减少网络停机时间。 有关这些产品的其他数据，请参阅 Cisco 网站[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)。
 
-简单网络管理协议 (SNMP) 简单网络管理协议 (SNMP) 是一种网络管理标准, 用于定义管理 TCP/IP 网络的策略。 SNMP 使你能够捕获有关网络的配置和状态信息, 并将信息发送到指定的计算机以进行事件监视。 此基于标准的网络管理协议使用分布式体系结构, 包括以下内容:
+简单网络管理协议（SNMP）简单网络管理协议（SNMP）是一种网络管理标准，用于定义管理 TCP/IP 网络的策略。 SNMP 使你能够捕获有关网络的配置和状态信息，并将信息发送到指定的计算机以进行事件监视。 此基于标准的网络管理协议使用分布式体系结构，包括以下内容：
 
-  - 多个托管节点, 每个节点都有一个称为代理的 SNMP 实体, 可提供对管理规范的远程访问。
+  - 多个托管节点，每个节点都有一个称为代理的 SNMP 实体，可提供对管理规范的远程访问。
 
-  - 至少一个名为 manager 的 SNMP 实体, 它运行管理应用程序来监视和控制托管元素。 托管元素是诸如主机、路由器等设备。 通过访问其管理信息来监视和控制它们。
+  - 至少一个名为 manager 的 SNMP 实体，它运行管理应用程序来监视和控制托管元素。 托管元素是诸如主机、路由器等设备。 通过访问其管理信息来监视和控制它们。
 
-  - 管理协议 SNMP 用于在管理工作站和代理之间交流管理信息。 管理信息指的是驻留在虚拟信息存储中的托管对象的集合, 称为管理信息基础 (MIB)。
+  - 管理协议 SNMP 用于在管理工作站和代理之间交流管理信息。 管理信息指的是驻留在虚拟信息存储中的托管对象的集合，称为管理信息基础（MIB）。
 
 <div>
 
 
 > [!NOTE]  
-> 上面提供了第三方网络监视解决方案的示例。 此列表不是明确的, Microsoft 不支持任何特定的供应商解决方案。 咨询网络服务提供商和您的相应技术提供商, 以确定您的组织的最佳网络监控解决方案。
+> 上面提供了第三方网络监视解决方案的示例。 此列表不是明确的，Microsoft 不支持任何特定的供应商解决方案。 咨询网络服务提供商和您的相应技术提供商，以确定您的组织的最佳网络监控解决方案。
 
 
 
@@ -115,7 +117,7 @@ System Center Operations Manager 提供了可轻松自定义和扩展的端到�
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-System Center Operations Manager 2012 允许管理员通过 Windows Server 2012 管理包查看单个服务器的网络性能: Windows Server 操作系统管理包包含 "性能" 管理包这将允许管理员监视网络适配器性能和适配器运行状况。
+System Center Operations Manager 2012 允许管理员通过 Windows Server 2012 管理包查看单个服务器的网络性能： Windows Server 操作系统管理包包含 "性能" 管理包这将允许管理员监视网络适配器性能和适配器运行状况。
 
 </div>
 
@@ -123,9 +125,9 @@ System Center Operations Manager 2012 允许管理员通过 Windows Server 2012 
 
 ## <a name="windows-network-monitor"></a>Windows 网络监视器
 
-收集、显示、分析服务器上的资源使用情况, 并测量网络流量。 网络监视器以独占方式监视网络活动。 通过捕获和分析网络数据并将此数据与性能日志配合使用, 你可以确定网络使用情况、识别网络问题并预测未来的网络需求。
+收集、显示、分析服务器上的资源使用情况，并测量网络流量。 网络监视器以独占方式监视网络活动。 通过捕获和分析网络数据并将此数据与性能日志配合使用，你可以确定网络使用情况、识别网络问题并预测未来的网络需求。
 
-有关网络监视器3.4 的详细信息, 以及了解如何安装和配置网络监视器以及捕获和分析数据, 请查看此会话: 网络监视器3.3 概述。 此外, 还可查看[网络监视器博客](http://blogs.technet.com/b/netmon/)。
+有关网络监视器3.4 的详细信息，以及了解如何安装和配置网络监视器以及捕获和分析数据，请查看此会话：网络监视器3.3 概述。 此外，还可查看[网络监视器博客](http://blogs.technet.com/b/netmon/)。
 
 </div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013 客户端和设备硬件支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and device hardware support
 ms:assetid: f6aa1192-1bfe-44e0-8ea0-7b361632243d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75705b990638c6ce82384b861c2f7a357fd7496e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837559"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729832"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837559"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-客户端计算机必须满足某些硬件要求才能支持 Lync Server 2013 部署中的客户端。 在部署 IP 电话和模拟设备之前, 必须准备好其他硬件配置。
+客户端计算机必须满足某些硬件要求才能支持 Lync Server 2013 部署中的客户端。 在部署 IP 电话和模拟设备之前，必须准备好其他硬件配置。
 
 <div>
 

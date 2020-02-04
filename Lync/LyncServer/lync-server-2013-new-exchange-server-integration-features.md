@@ -3,6 +3,8 @@ title: Lync Server 2013：新的 Exchange Server 集成功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d39aad7f2df2f02983bad50cae8e81e711065456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4e515b668bd91cc04752dffb034569cd8aa7abf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826358"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826358"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-24_
+_**主题上次修改时间：** 2012-09-24_
 
-Lync Server 2013 支持在与 Microsoft Exchange Server 2013 一起部署时的新功能, 如下表中所述。 若要使用每个功能, 必须同时部署 Lync Server 2013 和 Exchange 2013。
+Lync Server 2013 支持在与 Microsoft Exchange Server 2013 一起部署时的新功能，如下表中所述。 若要使用每个功能，必须同时部署 Lync Server 2013 和 Exchange 2013。
 
-  - 你可以使用**统一联系人存储**, 其中 lync 联系人列表存储在 Exchange 2013 中, 你可以在 Lync 2013、Outlook 2013 和 Outlook Web App 中管理联系人存储。
+  - 你可以使用**统一联系人存储**，其中 lync 联系人列表存储在 Exchange 2013 中，你可以在 Lync 2013、Outlook 2013 和 Outlook Web App 中管理联系人存储。
 
-  - 您可以使用**高分辨率的照片**处理联系人。 最高648x648 像素的照片存储在 Exchange 2013 中, 并提供给客户端, 包括 Lync 2013、Outlook 2013、Microsoft Lync Web App 和 Outlook Web App。
+  - 您可以使用**高分辨率的照片**处理联系人。 最高648x648 像素的照片存储在 Exchange 2013 中，并提供给客户端，包括 Lync 2013、Outlook 2013、Microsoft Lync Web App 和 Outlook Web App。
 
-  - 你可以启用**Lync 存档集成**, 它将 lync Server 2013 存档集成到 exchange 2013 的就地保留功能中, 针对驻留在 exchange 2013 的用户提供了一种通用体验, 可帮助管理员遵守合规性和eDiscovery.
+  - 你可以启用**Lync 存档集成**，它将 lync Server 2013 存档集成到 exchange 2013 的就地保留功能中，针对驻留在 exchange 2013 的用户提供了一种用于管理合规性和电子数据展示的常见体验。
 
 <div>
 

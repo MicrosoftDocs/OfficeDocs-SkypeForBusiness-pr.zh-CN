@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置公告'
+title: Lync Server 2013：配置公告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure announcements
 ms:assetid: e9194a06-7708-458d-8c7c-1e80a74baea5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721917(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 617b6ae907f8870f15a7e15a52c9faff189066ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff3a7189d0f9d5cbbea4a34e558ac67defa2aab5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837423"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-12_
+_**主题上次修改时间：** 2012-09-12_
 
 配置通知的同时，实际也配置了对未分配号码的呼叫的处理方式。可以播放提示（可以是音频文件或文本到语音转换 (TTS) 文件），或者在不播放提示的情况下直接将呼叫转接到指定目标。
 

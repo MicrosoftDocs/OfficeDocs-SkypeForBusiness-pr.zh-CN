@@ -3,6 +3,8 @@ title: Lync Server 2013：示例 QoE 数据库查询
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sample QoE database queries
 ms:assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e26da6f9e7ed26b4cce896401ed497ed8376f37b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e0a077a4da1bcbda9e8f14f9e2c4fcd838434b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822193"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34822193"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-17_
+_**主题上次修改时间：** 2012-10-17_
 
-本部分包含适用于体验质量 (QoE) 数据库的示例查询。
+本部分包含适用于体验质量（QoE）数据库的示例查询。
 
 使用以下示例获取所有音频流的抖动和数据包平均损失。
 

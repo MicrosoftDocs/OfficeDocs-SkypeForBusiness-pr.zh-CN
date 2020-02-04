@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 部署高级企业语音功能'
+title: Lync Server 2013：部署高级企业语音功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying advanced Enterprise Voice features
 ms:assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425753(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fff128d98f82745e471f39e8f172c6ddb7a8a52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830567"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830567"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-22_
+_**主题上次修改时间：** 2012-09-22_
 
 为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。
 
-有关高级企业语音功能的详细信息, 请参阅[适用于 Lync Server 2013 的规划](lync-server-2013-planning.md)文档的以下部分:
+有关高级企业语音功能的详细信息，请参阅[适用于 Lync Server 2013 的规划](lync-server-2013-planning.md)文档的以下部分：
 
   - [在 Lync Server 2013 中规划呼叫允许控制](lync-server-2013-planning-for-call-admission-control.md)
 

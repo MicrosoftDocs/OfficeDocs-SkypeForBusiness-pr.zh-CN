@@ -3,6 +3,8 @@ title: Lync Server 2013：规划外部用户访问
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for external user access
 ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76d4853e7e748128214fc93b721a59e979af03e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 17d38abe775a915fc3357610ad2b741eb0e77628
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34824979"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-01-19_
+_**主题上次修改时间：** 2013-01-19_
 
-大多数组织中的通信涉及不在内部网络内部的服务和用户。 这些服务和用户包括临时或永久离开的员工、客户或合作伙伴组织的员工、使用公共即时消息 (IM) 服务的用户、你邀请的客户、合作伙伴和匿名用户会议和演示文稿。 在本文档中, 这些人统称为*外部用户*。
+大多数组织中的通信涉及不在内部网络内部的服务和用户。 这些服务和用户包括临时或永久离开的员工、客户或合作伙伴组织的员工、使用公共即时消息（IM）服务的用户、你邀请的客户、合作伙伴和匿名用户会议和演示文稿。 在本文档中，这些人统称为*外部用户*。
 
-使用 Microsoft Lync Server 2013, 组织中的用户可以使用 IM 和状态与外部用户进行通信, 并且他们可以使用您的非现场员工和其他类型的外部用户参与音频/视频 (A/V) 会议和 web 会议。 您还可以通过移动设备和企业语音支持外部访问。 不是组织成员的外部用户可以参与 Lync Server 2013 会议, 从而允许匿名与会者参与。
+使用 Microsoft Lync Server 2013，组织中的用户可以使用 IM 和状态与外部用户进行通信，并且他们可以使用您的非现场员工和其他类型的外部用户参与音频/视频（A/V）会议和 web 会议。 您还可以通过移动设备和企业语音支持外部访问。 不是组织成员的外部用户可以参与 Lync Server 2013 会议，从而允许匿名与会者参与。
 
-若要支持整个组织的防火墙中的通信, 请在外围网络 (也称为 DMZ、隔离区和屏蔽子网) 中部署 Lync Server 2013 Edge 服务器。 边缘服务器控制防火墙外的用户可以如何连接到内部 Lync Server 2013 部署。 它还控制与来源于防火墙的外部用户的通信。
+若要支持整个组织的防火墙中的通信，请在外围网络（也称为 DMZ、隔离区和屏蔽子网）中部署 Lync Server 2013 Edge 服务器。 边缘服务器控制防火墙外的用户可以如何连接到内部 Lync Server 2013 部署。 它还控制与来源于防火墙的外部用户的通信。
 
-可以在一个或多个位置部署一个或多个边缘服务器, 具体取决于你的要求。 本部分介绍 Lync Server 2013 中的外部用户访问方案, 并介绍如何规划边缘和反向代理拓扑。
+可以在一个或多个位置部署一个或多个边缘服务器，具体取决于你的要求。 本部分介绍 Lync Server 2013 中的外部用户访问方案，并介绍如何规划边缘和反向代理拓扑。
 
 <div>
 
 
 > [!NOTE]  
-> 虽然您需要一个 Edge 服务器来支持企业语音和外部用户访问, 但本部分重点介绍 IM、状态、A/V 会议、联盟、web 会议和 Lync Mobile 的支持。 有关企业语音支持的详细信息, 请参阅规划文档中的<A href="lync-server-2013-planning-for-enterprise-voice.md">Lync Server 2013 中的 "规划企业语音</A>"。
+> 虽然您需要一个 Edge 服务器来支持企业语音和外部用户访问，但本部分重点介绍 IM、状态、A/V 会议、联盟、web 会议和 Lync Mobile 的支持。 有关企业语音支持的详细信息，请参阅规划文档中的<A href="lync-server-2013-planning-for-enterprise-voice.md">Lync Server 2013 中的 "规划企业语音</A>"。
 
 
 

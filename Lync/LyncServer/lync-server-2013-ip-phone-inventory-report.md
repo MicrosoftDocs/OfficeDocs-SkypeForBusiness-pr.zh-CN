@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: IP 电话清点报告'
+title: Lync Server 2013： IP 电话清点报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IP Phone Inventory Report
 ms:assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335b74b742f3b32437892e27f7db3ecadc5f3b3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829961"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34829961"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-12_
+_**主题上次修改时间：** 2012-11-12_
 
 IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话的信息。IP 清单报告提供了在指定的报告期间实际上所使用的详细 IP 电话列表。除此之外，管理员还可以通过此报告了解是否存在应进行替换但仍在使用中的任何旧的、过时的电话；该报告还可以就组织中存在很少使用的昂贵电话这一实际情况，向管理员发出警报。当应该购买新电话或重新分配现有的电话时，该类型的信息非常重要。（例如，可能要求很少使用其昂贵电话的用户与较为频繁使用其电话的用户交换电话。）
 
-值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先, IP 电话报告只列出在指定时间段内登录到 Lync 服务器的所有电话, 并按其上次登录时间进行排序。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如, 假设您想要查看七月2012的所有电话清单。 假设您在2012年6月30日登录 Lync Server 的多个电话仍在7月1日登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
+值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先，IP 电话报告只列出在指定时间段内登录到 Lync 服务器的所有电话，并按其上次登录时间进行排序。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想要查看七月2012的所有电话清单。 假设您在2012年6月30日登录 Lync Server 的多个电话仍在7月1日登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
 
-还必须注意的是，清单报告可能包括您的组织不再使用的电话。 例如, 假设有许多 Fabrikam 电话在2012年7月1日登录到系统上;5天后, 您的组织会删除所有这些 Fabrikam 手机, 并使用较新的 Contoso 型号替换它们。 Fabrikam 电话仍会显示在“清单”报告中，原因很简单，就是它们在 7 月份已登录到系统。
+还必须注意的是，清单报告可能包括您的组织不再使用的电话。 例如，假设有许多 Fabrikam 电话在2012年7月1日登录到系统上;5天后，您的组织会删除所有这些 Fabrikam 手机，并使用较新的 Contoso 型号替换它们。 Fabrikam 电话仍会显示在“清单”报告中，原因很简单，就是它们在 7 月份已登录到系统。
 
 此外，IP 电话清单报告不会报告不同类型的电话总数摘要。例如，假设您拥有 105 个 Polycom CX600 电话。该报告不会告知您拥有 105 个此类电话；相反，您只会看到 105 个单独的 Polycom Cx600 条目。知道有 105 个 Polycom Cx600 条目的唯一方法是手动计算其中每一个条目。
 
@@ -65,7 +67,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>充分利用 IP 电话清单报告
 
-如果您只对一种特定类型电话的使用信息感兴趣 (例如, "用户使用 Polycom CX600 电话的频率如何？"), 则可以通过筛选特定类型的电话直接从 IP 电话清单报告获取该信息。 但是，如果您想要了解所有电话的摘要信息（多少人正在使用 Polycom CX600、多少人正在使用 LG-Nortel IP8540 等），则需要导出数据，然后使用另一个应用程序（如 Windows PowerShell）执行该类型的分析。 例如, 假设您将数据导出到逗号分隔值文件 (\\C: 数据\\IP\_电话\_清单\_报告 .csv)。 在这种情况下，您可以使用以下这两个命令提供所有电话的摘要数据：
+如果您只对一种特定类型电话的使用信息感兴趣（例如，"用户使用 Polycom CX600 电话的频率如何？"），则可以通过筛选特定类型的电话直接从 IP 电话清单报告获取该信息。 但是，如果您想要了解所有电话的摘要信息（多少人正在使用 Polycom CX600、多少人正在使用 LG-Nortel IP8540 等），则需要导出数据，然后使用另一个应用程序（如 Windows PowerShell）执行该类型的分析。 例如，假设您将数据导出到逗号分隔值文件（\\C：数据\\IP\_电话\_清单\_报告 .csv）。 在这种情况下，您可以使用以下这两个命令提供所有电话的摘要数据：
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending

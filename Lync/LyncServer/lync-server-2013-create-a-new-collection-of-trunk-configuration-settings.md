@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建新的主干配置设置集合'
+title: Lync Server 2013：创建新的主干配置设置集合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new collection of trunk configuration settings
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc29d75fc90156516751ad53712b53f4848ab5bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34837139"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。 这些设置可执行如下所指定内容的操作：
+SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。 这些设置可执行如下所指定内容的操作：
 
   - 是否在中继上启用媒体旁路功能。
 
-  - 发送实时传输控制协议 (RTCP) 数据包的条件。
+  - 发送实时传输控制协议（RTCP）数据包的条件。
 
-  - 每个主干上是否需要安全的实时协议 (SRTP) 加密。
+  - 每个主干上是否需要安全的实时协议（SRTP）加密。
 
-安装 Microsoft Lync Server 2013 时, 将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Microsoft Lync Server 2013 时，将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
 
-使用 Lync Server 控制面板创建 SIP 中继配置设置时, 可以使用以下选项:
+使用 Lync Server 控制面板创建 SIP 中继配置设置时，可以使用以下选项：
 
 
 <table>
@@ -94,7 +96,7 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>如果设置为“允许将引用发送到网关”<strong></strong>，则指示中继支持接收来自中介服务器的引用请求。</p>
-<p>如果设置为“允许使用第三方呼叫控制的引用”<strong></strong>，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。 3pcc 也称为&quot;第三方控件,&quot;并在第三方用于连接一对呼叫者时 (例如, 操作员将来自人员 a 的呼叫拨入到 B) 时发生。</p></td>
+<p>如果设置为“允许使用第三方呼叫控制的引用”<strong></strong>，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。 3pcc 也称为&quot;第三方控件，&quot;并在第三方用于连接一对呼叫者时（例如，操作员将来自人员 a 的呼叫拨入到 B）时发生。</p></td>
 </tr>
 <tr class="even">
 <td><p>启用媒体旁路</p></td>
@@ -169,7 +171,7 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 
 
 > [!NOTE]  
-> Lync Server New-cstrunkconfiguration cmdlet 支持 "Lync Server 控制面板" 中未显示的其他属性。 有关详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">new-cstrunkconfiguration</A> cmdlet 的帮助主题。
+> Lync Server New-cstrunkconfiguration cmdlet 支持 "Lync Server 控制面板" 中未显示的其他属性。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">new-cstrunkconfiguration</A> cmdlet 的帮助主题。
 
 
 
@@ -179,7 +181,7 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 
 ## <a name="to-create-new-trunk-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建新的主干配置设置
 
-1.  在 Lync Server "控制面板" 中, 单击 "**语音路由**", 然后单击 "**中继配置**"。
+1.  在 Lync Server "控制面板" 中，单击 "**语音路由**"，然后单击 "**中继配置**"。
 
 2.  在“Trunk 配置”**** 选项卡上，单击“新建”****，然后单击“站点 Trunk”**** 以创建站点作用域的新设置，或“池 Trunk”**** 创建服务作用域的新设置。
 
@@ -191,7 +193,7 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 
 6.  在“未提交的语音配置设置”**** 对话框中，单击“确定”****。
 
-7.  在 " **Microsoft Lync Server 2013 控制面板**" 对话框中, 单击 **"确定"**。
+7.  在 " **Microsoft Lync Server 2013 控制面板**" 对话框中，单击 **"确定"**。
 
 </div>
 
