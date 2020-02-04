@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 修改语音策略和配置 PSTN 使用记录'
+title: Lync Server 2013：修改语音策略和配置 PSTN 使用记录
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify a voice policy and configure PSTN usage records
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398511(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb7c4cdc47c0624b3d94d0dc52c527310f803d83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dda549bbb8b1f29a3aef8690a8e666e7a182bd29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827184"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34827184"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a><span data-ttu-id="003b6-102">在 Lync Server 2013 中修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="003b6-102">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>
+# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a><span data-ttu-id="b5b50-102">在 Lync Server 2013 中修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="b5b50-102">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34827184"
 
 <span> </span>
 
-<span data-ttu-id="003b6-103">_**主题上次修改时间:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="003b6-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b5b50-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b5b50-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="003b6-104">如果要修改语音策略, 请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="003b6-104">Follow these steps if you want to modify a voice policy.</span></span> <span data-ttu-id="003b6-105">如果要创建新的语音策略, 请参阅[在 Lync Server 2013 中为该过程创建语音策略和配置 PSTN 使用记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-105">If you want to create a new voice policy, see [Create a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md) for the procedure.</span></span>
+<span data-ttu-id="b5b50-104">如果要修改语音策略，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="b5b50-104">Follow these steps if you want to modify a voice policy.</span></span> <span data-ttu-id="b5b50-105">如果要创建新的语音策略，请参阅[在 Lync Server 2013 中为该过程创建语音策略和配置 PSTN 使用记录](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-105">If you want to create a new voice policy, see [Create a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md) for the procedure.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="003b6-106">如果向某个语音策略分配的用户没有关联的公共交换电话网络 (PSTN) 使用记录, 则用户无法发出出站呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-106">If a user is assigned to a voice policy has no associated public switched telephone network (PSTN) usage records, the user cannot place outbound calls.</span></span> <span data-ttu-id="003b6-107">有关企业语音部署中可用的所有 PSTN 使用记录的列表和查看其属性, 请参阅<A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 pstn 使用情况记录</A>。</span><span class="sxs-lookup"><span data-stu-id="003b6-107">For a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see <A href="lync-server-2013-view-pstn-usage-records.md">View PSTN usage records in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="b5b50-106">如果向某个语音策略分配的用户没有关联的公共交换电话网络（PSTN）使用记录，则用户无法发出出站呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-106">If a user is assigned to a voice policy has no associated public switched telephone network (PSTN) usage records, the user cannot place outbound calls.</span></span> <span data-ttu-id="b5b50-107">有关企业语音部署中可用的所有 PSTN 使用记录的列表和查看其属性，请参阅<A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 pstn 使用情况记录</A>。</span><span class="sxs-lookup"><span data-stu-id="b5b50-107">For a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see <A href="lync-server-2013-view-pstn-usage-records.md">View PSTN usage records in Lync Server 2013</A>.</span></span>
 
 
 
@@ -49,224 +51,224 @@ ms.locfileid: "34827184"
 
 <div>
 
-## <a name="to-modify-a-voice-policy"></a><span data-ttu-id="003b6-108">修改语音策略</span><span class="sxs-lookup"><span data-stu-id="003b6-108">To modify a voice policy</span></span>
+## <a name="to-modify-a-voice-policy"></a><span data-ttu-id="b5b50-108">修改语音策略</span><span class="sxs-lookup"><span data-stu-id="b5b50-108">To modify a voice policy</span></span>
 
-1.  <span data-ttu-id="003b6-109">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="003b6-109">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="003b6-110">有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="b5b50-109">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="b5b50-109">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="b5b50-110">有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="003b6-111">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="003b6-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="003b6-112">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b5b50-111">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="b5b50-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b5b50-112">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="003b6-113">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“语音策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-113">In the left navigation bar, click **Voice Routing**, and then click **Voice Policy**.</span></span>
+3.  <span data-ttu-id="b5b50-113">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“语音策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-113">In the left navigation bar, click **Voice Routing**, and then click **Voice Policy**.</span></span>
 
-4.  <span data-ttu-id="003b6-114">在“语音策略”\*\*\*\* 页上，双击某个语音策略名称。</span><span class="sxs-lookup"><span data-stu-id="003b6-114">On the **Voice Policy** page, double-click a voice policy name.</span></span>
+4.  <span data-ttu-id="b5b50-114">在“语音策略”\*\*\*\* 页上，双击某个语音策略名称。</span><span class="sxs-lookup"><span data-stu-id="b5b50-114">On the **Voice Policy** page, double-click a voice policy name.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="003b6-p105">作用域和名称是在创建语音策略时设置的，且不能更改。</span><span class="sxs-lookup"><span data-stu-id="003b6-p105">The scope and name were set when the voice policy was created. They cannot be changed.</span></span>
+    > <span data-ttu-id="b5b50-p105">作用域和名称是在创建语音策略时设置的，且不能更改。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p105">The scope and name were set when the voice policy was created. They cannot be changed.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="003b6-117">（可选）在“编辑语音策略”\*\*\*\* 中，输入语音策略的其他描述性信息。</span><span class="sxs-lookup"><span data-stu-id="003b6-117">(Optional) In **Edit Voice Policy**, enter additional descriptive information for the voice policy.</span></span>
+5.  <span data-ttu-id="b5b50-117">（可选）在“编辑语音策略”\*\*\*\* 中，输入语音策略的其他描述性信息。</span><span class="sxs-lookup"><span data-stu-id="b5b50-117">(Optional) In **Edit Voice Policy**, enter additional descriptive information for the voice policy.</span></span>
 
-6.  <span data-ttu-id="003b6-118">选中或清除以下复选框以启用或禁用每种“呼叫功能”\*\*\*\*：</span><span class="sxs-lookup"><span data-stu-id="003b6-118">Select or clear the following check boxes to enable or disable each of the **Calling features**:</span></span>
+6.  <span data-ttu-id="b5b50-118">选中或清除以下复选框以启用或禁用每种“呼叫功能”\*\*\*\*：</span><span class="sxs-lookup"><span data-stu-id="b5b50-118">Select or clear the following check boxes to enable or disable each of the **Calling features**:</span></span>
     
-      - <span data-ttu-id="003b6-119">当配置同时响铃，且电话关闭，电池耗尽或超出服务范围时，**语音邮件转义**可阻止立即将呼叫路由到用户的移动电话语音电子邮件系统。</span><span class="sxs-lookup"><span data-stu-id="003b6-119">**Voice mail escape** prevents calls from being immediately routed to the user’s mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.</span></span>
+      - <span data-ttu-id="b5b50-119">当配置同时响铃，且电话关闭，电池耗尽或超出服务范围时，**语音邮件转义**可阻止立即将呼叫路由到用户的移动电话语音电子邮件系统。</span><span class="sxs-lookup"><span data-stu-id="b5b50-119">**Voice mail escape** prevents calls from being immediately routed to the user’s mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="003b6-120">此功能只能通过 Lync Server 命令行管理程序进行配置</span><span class="sxs-lookup"><span data-stu-id="003b6-120">This feature is only configurable through the Lync Server Management Shell</span></span>
+        > <span data-ttu-id="b5b50-120">此功能只能通过 Lync Server 命令行管理程序进行配置</span><span class="sxs-lookup"><span data-stu-id="b5b50-120">This feature is only configurable through the Lync Server Management Shell</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="003b6-121">通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。</span><span class="sxs-lookup"><span data-stu-id="003b6-121">**Call forwarding** enables users to forward calls to other phones and client devices.</span></span> <span data-ttu-id="003b6-122">Lync Server 2013 为呼叫转接提供了一系列更广泛的配置选项。</span><span class="sxs-lookup"><span data-stu-id="003b6-122">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding.</span></span> <span data-ttu-id="003b6-123">例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。</span><span class="sxs-lookup"><span data-stu-id="003b6-123">For example, if an organization does not want to allow incoming calls to be forwarded externally to the PSTN, an administrator can apply a special voice policy to deploy this restriction.</span></span> <span data-ttu-id="003b6-124">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-124">Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-121">通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。</span><span class="sxs-lookup"><span data-stu-id="b5b50-121">**Call forwarding** enables users to forward calls to other phones and client devices.</span></span> <span data-ttu-id="b5b50-122">Lync Server 2013 为呼叫转接提供了一系列更广泛的配置选项。</span><span class="sxs-lookup"><span data-stu-id="b5b50-122">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding.</span></span> <span data-ttu-id="b5b50-123">例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。</span><span class="sxs-lookup"><span data-stu-id="b5b50-123">For example, if an organization does not want to allow incoming calls to be forwarded externally to the PSTN, an administrator can apply a special voice policy to deploy this restriction.</span></span> <span data-ttu-id="b5b50-124">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-124">Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-125">通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-125">**Delegation** enables users to specify other users to send and receive calls on their behalf.</span></span> <span data-ttu-id="003b6-126">在 Lync Server 2013 中, 代理人可以配置同时拨打的电话, 让他/她的经理拨出所有代理人同时拨打的目标电话。</span><span class="sxs-lookup"><span data-stu-id="003b6-126">In Lync Server 2013, a delegate can configure simultaneous ringing that enables incoming calls to his or her manager to ring all of the delegate’s simultaneous ringing targets.</span></span> <span data-ttu-id="003b6-127">这会向委派提供极大的灵活性以响应直接传到经理的呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-127">This provides the delegate with greater flexibility in responding to calls directed to the manager.</span></span> <span data-ttu-id="003b6-128">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-128">Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-125">通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-125">**Delegation** enables users to specify other users to send and receive calls on their behalf.</span></span> <span data-ttu-id="b5b50-126">在 Lync Server 2013 中，代理人可以配置同时拨打的电话，让他/她的经理拨出所有代理人同时拨打的目标电话。</span><span class="sxs-lookup"><span data-stu-id="b5b50-126">In Lync Server 2013, a delegate can configure simultaneous ringing that enables incoming calls to his or her manager to ring all of the delegate’s simultaneous ringing targets.</span></span> <span data-ttu-id="b5b50-127">这会向委派提供极大的灵活性以响应直接传到经理的呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-127">This provides the delegate with greater flexibility in responding to calls directed to the manager.</span></span> <span data-ttu-id="b5b50-128">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-128">Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-p108">通过**呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-p108">**Call transfer** enables users to transfer calls to other users. Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-p108">通过**呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p108">**Call transfer** enables users to transfer calls to other users. Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-p109">通过**呼叫寄存**，用户可以寄存呼叫，将其置于保持状态，然后从其他电话或客户端接听呼叫。默认为禁用。</span><span class="sxs-lookup"><span data-stu-id="003b6-p109">**Call park** enables users to park calls on hold, and then pick up the call from a different phone or client. Disabled by default.</span></span>
+      - <span data-ttu-id="b5b50-p109">通过**呼叫寄存**，用户可以寄存呼叫，将其置于保持状态，然后从其他电话或客户端接听呼叫。默认为禁用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p109">**Call park** enables users to park calls on hold, and then pick up the call from a different phone or client. Disabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-133">**同时响铃**使来电可以在其他电话（例如，移动电话）或其他终结点设备上响铃。</span><span class="sxs-lookup"><span data-stu-id="003b6-133">**Simultaneous ringing** enables incoming calls to ring on additional phones (for example, a mobile phone) or other endpoint devices.</span></span> <span data-ttu-id="003b6-134">Lync Server 2013 为同时拨打的配置选项提供了明显范围的更广泛的配置选项。</span><span class="sxs-lookup"><span data-stu-id="003b6-134">Lync Server 2013 provides a significantly wider range of configuration options for simultaneous ringing.</span></span> <span data-ttu-id="003b6-135">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-135">Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-133">**同时响铃**使来电可以在其他电话（例如，移动电话）或其他终结点设备上响铃。</span><span class="sxs-lookup"><span data-stu-id="b5b50-133">**Simultaneous ringing** enables incoming calls to ring on additional phones (for example, a mobile phone) or other endpoint devices.</span></span> <span data-ttu-id="b5b50-134">Lync Server 2013 为同时拨打的配置选项提供了明显范围的更广泛的配置选项。</span><span class="sxs-lookup"><span data-stu-id="b5b50-134">Lync Server 2013 provides a significantly wider range of configuration options for simultaneous ringing.</span></span> <span data-ttu-id="b5b50-135">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-135">Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-136">通过**团队呼叫**，指定团队中的用户可以为团队中的其他成员应答呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-136">**Team call** enables users on a defined team to answer calls for other members of the team.</span></span> <span data-ttu-id="003b6-137">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-137">Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-136">通过**团队呼叫**，指定团队中的用户可以为团队中的其他成员应答呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-136">**Team call** enables users on a defined team to answer calls for other members of the team.</span></span> <span data-ttu-id="b5b50-137">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-137">Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-138">**PSTN 重新路由**允许向其他企业用户分配此策略的用户发出呼叫, 如果 WAN 拥挤或不可用, 则将其重新路由到公共交换电话网络 (PSTN)。</span><span class="sxs-lookup"><span data-stu-id="003b6-138">**PSTN re-route** enables calls made by users who are assigned this policy to other enterprise users to be rerouted on the public switched telephone network (PSTN) if the WAN is congested or unavailable.</span></span> <span data-ttu-id="003b6-139">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="003b6-139">Enabled by default.</span></span>
+      - <span data-ttu-id="b5b50-138">**PSTN 重新路由**允许向其他企业用户分配此策略的用户发出呼叫，如果 WAN 拥挤或不可用，则将其重新路由到公共交换电话网络（PSTN）。</span><span class="sxs-lookup"><span data-stu-id="b5b50-138">**PSTN re-route** enables calls made by users who are assigned this policy to other enterprise users to be rerouted on the public switched telephone network (PSTN) if the WAN is congested or unavailable.</span></span> <span data-ttu-id="b5b50-139">默认为启用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-139">Enabled by default.</span></span>
     
-      - <span data-ttu-id="003b6-140">**带宽策略替代**使管理员能够覆盖特定用户的呼叫许可控制 (CAC) 策略决策。</span><span class="sxs-lookup"><span data-stu-id="003b6-140">**Bandwidth policy override** enables administrators to override call admission control (CAC) policy decisions for a particular user.</span></span> <span data-ttu-id="003b6-141">默认情况下处于禁用状态。</span><span class="sxs-lookup"><span data-stu-id="003b6-141">Disabled by default.</span></span>
+      - <span data-ttu-id="b5b50-140">**带宽策略替代**使管理员能够覆盖特定用户的呼叫许可控制（CAC）策略决策。</span><span class="sxs-lookup"><span data-stu-id="b5b50-140">**Bandwidth policy override** enables administrators to override call admission control (CAC) policy decisions for a particular user.</span></span> <span data-ttu-id="b5b50-141">默认情况下处于禁用状态。</span><span class="sxs-lookup"><span data-stu-id="b5b50-141">Disabled by default.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="003b6-p114">只能覆盖向用户发出的传入呼叫的策略，而不能覆盖由用户发出的传出呼叫的策略。建立会话后，将准确记录带宽消耗。应慎用此设置。</span><span class="sxs-lookup"><span data-stu-id="003b6-p114">The policy will be overridden only for incoming calls to the user and not for outgoing calls that are placed by the user. After the session is established, the bandwidth consumption will be accurately recorded. This setting should be used sparingly.</span></span>
+        > <span data-ttu-id="b5b50-p114">只能覆盖向用户发出的传入呼叫的策略，而不能覆盖由用户发出的传出呼叫的策略。建立会话后，将准确记录带宽消耗。应慎用此设置。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p114">The policy will be overridden only for incoming calls to the user and not for outgoing calls that are placed by the user. After the session is established, the bandwidth consumption will be accurately recorded. This setting should be used sparingly.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="003b6-145">**恶意呼叫跟踪**使用户能够使用客户端 UI 报告恶意呼叫 (如炸弹威胁), 后者又将呼叫详细记录 (CDRs) 中的呼叫标记为。</span><span class="sxs-lookup"><span data-stu-id="003b6-145">**Malicious call tracing** enables users to report malicious calls (such as bomb threats) using the client UI, which in turn flags the calls in the call detail records (CDRs).</span></span> <span data-ttu-id="003b6-146">默认为禁用。</span><span class="sxs-lookup"><span data-stu-id="003b6-146">Disabled by default.</span></span>
+      - <span data-ttu-id="b5b50-145">**恶意呼叫跟踪**使用户能够使用客户端 UI 报告恶意呼叫（如炸弹威胁），后者又将呼叫详细记录（CDRs）中的呼叫标记为。</span><span class="sxs-lookup"><span data-stu-id="b5b50-145">**Malicious call tracing** enables users to report malicious calls (such as bomb threats) using the client UI, which in turn flags the calls in the call detail records (CDRs).</span></span> <span data-ttu-id="b5b50-146">默认为禁用。</span><span class="sxs-lookup"><span data-stu-id="b5b50-146">Disabled by default.</span></span>
 
-7.  <span data-ttu-id="003b6-147">要为此语音策略关联和配置 PSTN 用法记录，请执行以下任意操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-147">To associate and configure PSTN usage records for this voice policy, do any of the following:</span></span>
+7.  <span data-ttu-id="b5b50-147">要为此语音策略关联和配置 PSTN 用法记录，请执行以下任意操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-147">To associate and configure PSTN usage records for this voice policy, do any of the following:</span></span>
     
-      - <span data-ttu-id="003b6-p116">要从企业语音部署中提供的所有 PSTN 用法记录列表中选择一个或多个记录，请单击“选择”\*\*\*\*。突出显示要与此语音策略关联的记录，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-p116">To choose one or more records from a list of all PSTN usage records available in your Enterprise Voice deployment, click **Select**. Highlight the records that you want to associate with this voice policy, and then click **OK**.</span></span>
+      - <span data-ttu-id="b5b50-p116">要从企业语音部署中提供的所有 PSTN 用法记录列表中选择一个或多个记录，请单击“选择”\*\*\*\*。突出显示要与此语音策略关联的记录，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p116">To choose one or more records from a list of all PSTN usage records available in your Enterprise Voice deployment, click **Select**. Highlight the records that you want to associate with this voice policy, and then click **OK**.</span></span>
     
-      - <span data-ttu-id="003b6-150">要删除此语音策略中的某个 PSTN 用法记录，请突出显示相应的记录，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-150">To remove a PSTN usage record from this voice policy, highlight the record and click **Remove**.</span></span>
+      - <span data-ttu-id="b5b50-150">要删除此语音策略中的某个 PSTN 用法记录，请突出显示相应的记录，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-150">To remove a PSTN usage record from this voice policy, highlight the record and click **Remove**.</span></span>
     
-      - <span data-ttu-id="003b6-151">要定义新的 PSTN 用法记录并将其与此语音策略相关联，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-151">To define a new PSTN usage record and associate it with this voice policy, do the following:</span></span>
+      - <span data-ttu-id="b5b50-151">要定义新的 PSTN 用法记录并将其与此语音策略相关联，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-151">To define a new PSTN usage record and associate it with this voice policy, do the following:</span></span>
         
-        1.  <span data-ttu-id="003b6-152">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-152">Click **New**.</span></span>
+        1.  <span data-ttu-id="b5b50-152">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-152">Click **New**.</span></span>
         
-        2.  <span data-ttu-id="003b6-p117">在“名称”\*\*\*\* 字段中，输入记录的唯一描述性名称。例如，您可能要为 Redmond 的全职员工创建一个名为 **Redmond** 的 PSTN 用法记录，并为临时员工创建另一个名为 **RedmondTemps** 的 PSTN 用法记录。</span><span class="sxs-lookup"><span data-stu-id="003b6-p117">In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record named **Redmond** for full-time employees located in Redmond, and another record named **RedmondTemps** for temporary employees.</span></span>
+        2.  <span data-ttu-id="b5b50-p117">在“名称”\*\*\*\* 字段中，输入记录的唯一描述性名称。例如，您可能要为 Redmond 的全职员工创建一个名为 **Redmond** 的 PSTN 用法记录，并为临时员工创建另一个名为 **RedmondTemps** 的 PSTN 用法记录。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p117">In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record named **Redmond** for full-time employees located in Redmond, and another record named **RedmondTemps** for temporary employees.</span></span>
             
             <div>
             
 
             > [!NOTE]  
-            > <span data-ttu-id="003b6-p118">PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”<STRONG></STRONG>字段。</span><span class="sxs-lookup"><span data-stu-id="003b6-p118">The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.</span></span>
+            > <span data-ttu-id="b5b50-p118">PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”<STRONG></STRONG>字段。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p118">The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.</span></span>
 
             
             </div>
         
-        3.  <span data-ttu-id="003b6-157">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="003b6-157">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
+        3.  <span data-ttu-id="b5b50-157">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="b5b50-157">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
             
-              - <span data-ttu-id="003b6-158">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-158">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
+              - <span data-ttu-id="b5b50-158">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-158">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
             
-              - <span data-ttu-id="003b6-159">要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-159">To remove a route from the PSTN usage record, highlight the route and click **Remove**.</span></span>
+              - <span data-ttu-id="b5b50-159">要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-159">To remove a route from the PSTN usage record, highlight the route and click **Remove**.</span></span>
             
-              - <span data-ttu-id="003b6-160">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-160">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="003b6-161">有关详细信息, 请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-161">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
+              - <span data-ttu-id="b5b50-160">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-160">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="b5b50-161">有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-161">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
             
-              - <span data-ttu-id="003b6-162">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-162">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="003b6-163">有关详细信息, 请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-163">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
+              - <span data-ttu-id="b5b50-162">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-162">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="b5b50-163">有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-163">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
         
-        4.  <span data-ttu-id="003b6-164">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="003b6-164">Click **OK**.</span></span>
+        4.  <span data-ttu-id="b5b50-164">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b5b50-164">Click **OK**.</span></span>
     
-      - <span data-ttu-id="003b6-165">要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-165">To edit a PSTN usage record that is already associated with this voice policy, do the following:</span></span>
+      - <span data-ttu-id="b5b50-165">要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-165">To edit a PSTN usage record that is already associated with this voice policy, do the following:</span></span>
         
-        1.  <span data-ttu-id="003b6-166">突出显示要编辑的 PSTN 用法记录，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-166">Highlight the PSTN usage record that you want to edit and click **Show details**.</span></span>
+        1.  <span data-ttu-id="b5b50-166">突出显示要编辑的 PSTN 用法记录，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-166">Highlight the PSTN usage record that you want to edit and click **Show details**.</span></span>
         
-        2.  <span data-ttu-id="003b6-167">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="003b6-167">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
+        2.  <span data-ttu-id="b5b50-167">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="b5b50-167">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
             
-              - <span data-ttu-id="003b6-168">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-168">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
+              - <span data-ttu-id="b5b50-168">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-168">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
             
-              - <span data-ttu-id="003b6-169">要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-169">To remove a route from this PSTN usage record, highlight the route and click **Remove**.</span></span>
+              - <span data-ttu-id="b5b50-169">要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-169">To remove a route from this PSTN usage record, highlight the route and click **Remove**.</span></span>
             
-              - <span data-ttu-id="003b6-170">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-170">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="003b6-171">有关详细信息, 请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-171">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
+              - <span data-ttu-id="b5b50-170">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-170">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="b5b50-171">有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-171">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
             
-              - <span data-ttu-id="003b6-172">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-172">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="003b6-173">有关详细信息, 请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-173">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
+              - <span data-ttu-id="b5b50-172">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-172">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="b5b50-173">有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-173">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
         
-        3.  <span data-ttu-id="003b6-174">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="003b6-174">Click **OK**.</span></span>
+        3.  <span data-ttu-id="b5b50-174">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b5b50-174">Click **OK**.</span></span>
 
-8.  <span data-ttu-id="003b6-p123">排列 PSTN 用法记录以获得最佳性能。要更改记录在列表中的位置，请突出显示相应的记录名称，然后单击向上箭头或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="003b6-p123">Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.</span></span>
+8.  <span data-ttu-id="b5b50-p123">排列 PSTN 用法记录以获得最佳性能。要更改记录在列表中的位置，请突出显示相应的记录名称，然后单击向上箭头或向下箭头。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p123">Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="003b6-177">PSTN 用法记录在语音策略中的列出顺序十分重要。</span><span class="sxs-lookup"><span data-stu-id="003b6-177">The order in which PSTN usage records are listed in the voice policy is significant.</span></span> <span data-ttu-id="003b6-178">Lync 服务器从上到下遍历列表。</span><span class="sxs-lookup"><span data-stu-id="003b6-178">Lync Server traverses the list from the top down.</span></span> <span data-ttu-id="003b6-179">建议按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。</span><span class="sxs-lookup"><span data-stu-id="003b6-179">We recommend that you organize the list by frequency of use, for example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.</span></span>
+    > <span data-ttu-id="b5b50-177">PSTN 用法记录在语音策略中的列出顺序十分重要。</span><span class="sxs-lookup"><span data-stu-id="b5b50-177">The order in which PSTN usage records are listed in the voice policy is significant.</span></span> <span data-ttu-id="b5b50-178">Lync 服务器从上到下遍历列表。</span><span class="sxs-lookup"><span data-stu-id="b5b50-178">Lync Server traverses the list from the top down.</span></span> <span data-ttu-id="b5b50-179">建议按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。</span><span class="sxs-lookup"><span data-stu-id="b5b50-179">We recommend that you organize the list by frequency of use, for example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="003b6-180">要在此语音策略中为呼叫转接和同时响铃关联和配置 PSTN 用法记录，请执行以下任意操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-180">To associate and configure PSTN usage records for call forwarding and simultaneous ringing in this voice policy, do any of the following:</span></span>
+9.  <span data-ttu-id="b5b50-180">要在此语音策略中为呼叫转接和同时响铃关联和配置 PSTN 用法记录，请执行以下任意操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-180">To associate and configure PSTN usage records for call forwarding and simultaneous ringing in this voice policy, do any of the following:</span></span>
     
-      - <span data-ttu-id="003b6-181">要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-181">To use the same PSTN usage records for call forwarding and simultaneous ringing as this voice policy, select the option **Route using the call PSTN usages** from the drop-down menu.</span></span>
+      - <span data-ttu-id="b5b50-181">要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-181">To use the same PSTN usage records for call forwarding and simultaneous ringing as this voice policy, select the option **Route using the call PSTN usages** from the drop-down menu.</span></span>
     
-      - <span data-ttu-id="003b6-182">若要仅允许呼叫转接和同时拨打内部 Lync 用户, 请从下拉菜单中选择 "**仅向内部 lync 用户路由**"。</span><span class="sxs-lookup"><span data-stu-id="003b6-182">To allow call forwarding and simultaneous ringing to internal Lync users only, select **Route to internal Lync users only** from the drop-down menu.</span></span> <span data-ttu-id="003b6-183">Calls will not be forwarded to external PSTN numbers.</span><span class="sxs-lookup"><span data-stu-id="003b6-183">Calls will not be forwarded to external PSTN numbers.</span></span>
+      - <span data-ttu-id="b5b50-182">若要仅允许呼叫转接和同时拨打内部 Lync 用户，请从下拉菜单中选择 "**仅向内部 lync 用户路由**"。</span><span class="sxs-lookup"><span data-stu-id="b5b50-182">To allow call forwarding and simultaneous ringing to internal Lync users only, select **Route to internal Lync users only** from the drop-down menu.</span></span> <span data-ttu-id="b5b50-183">Calls will not be forwarded to external PSTN numbers.</span><span class="sxs-lookup"><span data-stu-id="b5b50-183">Calls will not be forwarded to external PSTN numbers.</span></span>
     
-      - <span data-ttu-id="003b6-p126">若要为呼叫转接和同时响铃指定与此语音策略所用的 PSTN 用法记录不同的 PSTN 用法记录，请从下拉菜单中选择“使用自定义 PSTN 用法进行路由”\*\*\*\*。此选项显示一个控件，此控件专用于为呼叫转接和同时响铃选择现有 PSTN 用法记录或创建新的 PSTN 用法记录。</span><span class="sxs-lookup"><span data-stu-id="003b6-p126">To specify different PSTN usage records for call forwarding and simultaneous ringing than those used for this voice policy, select the option **Route using custom PSTN usages** from the drop-down menu. This option displays a control to select existing PSTN usage records or to create new PSTN usage records, specifically for call forwarding and simultaneous ringing.</span></span>
+      - <span data-ttu-id="b5b50-p126">若要为呼叫转接和同时响铃指定与此语音策略所用的 PSTN 用法记录不同的 PSTN 用法记录，请从下拉菜单中选择“使用自定义 PSTN 用法进行路由”\*\*\*\*。此选项显示一个控件，此控件专用于为呼叫转接和同时响铃选择现有 PSTN 用法记录或创建新的 PSTN 用法记录。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p126">To specify different PSTN usage records for call forwarding and simultaneous ringing than those used for this voice policy, select the option **Route using custom PSTN usages** from the drop-down menu. This option displays a control to select existing PSTN usage records or to create new PSTN usage records, specifically for call forwarding and simultaneous ringing.</span></span>
         
-          - <span data-ttu-id="003b6-p127">要从用于呼叫转接和同时响铃 PSTN 用法记录列表中选择一个或多个记录，请单击“选择”\*\*\*\*。突出显示要与此呼叫转接和同时响铃策略关联的记录，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-p127">To choose one or more records from a list of PSTN usage records for call forwarding and simultaneous ringing, click **Select**. Highlight the records that you want to associate with this call forwarding and simultaneous ringing policy, and then click **OK**.</span></span>
+          - <span data-ttu-id="b5b50-p127">要从用于呼叫转接和同时响铃 PSTN 用法记录列表中选择一个或多个记录，请单击“选择”\*\*\*\*。突出显示要与此呼叫转接和同时响铃策略关联的记录，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p127">To choose one or more records from a list of PSTN usage records for call forwarding and simultaneous ringing, click **Select**. Highlight the records that you want to associate with this call forwarding and simultaneous ringing policy, and then click **OK**.</span></span>
         
-          - <span data-ttu-id="003b6-188">要从此呼叫转接和同时响铃策略删除 PSTN 用法记录，请突出显示该记录，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-188">To remove a PSTN usage record from this call forwarding and simultaneous ringing policy, highlight the record and click **Remove**.</span></span>
+          - <span data-ttu-id="b5b50-188">要从此呼叫转接和同时响铃策略删除 PSTN 用法记录，请突出显示该记录，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-188">To remove a PSTN usage record from this call forwarding and simultaneous ringing policy, highlight the record and click **Remove**.</span></span>
         
-          - <span data-ttu-id="003b6-189">要定义新的 PSTN 用法记录并将其与此呼叫转接和同时响铃策略相关联，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-189">To define a new PSTN usage record and associate it with this call forwarding and simultaneous ringing policy, do the following:</span></span>
+          - <span data-ttu-id="b5b50-189">要定义新的 PSTN 用法记录并将其与此呼叫转接和同时响铃策略相关联，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-189">To define a new PSTN usage record and associate it with this call forwarding and simultaneous ringing policy, do the following:</span></span>
             
-            1.  <span data-ttu-id="003b6-190">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-190">Click **New**.</span></span>
+            1.  <span data-ttu-id="b5b50-190">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-190">Click **New**.</span></span>
             
-            2.  <span data-ttu-id="003b6-191">在“名称”\*\*\*\* 字段中，输入记录的唯一描述性名称。</span><span class="sxs-lookup"><span data-stu-id="003b6-191">In the **Name** field, enter a unique descriptive name for the record.</span></span>
+            2.  <span data-ttu-id="b5b50-191">在“名称”\*\*\*\* 字段中，输入记录的唯一描述性名称。</span><span class="sxs-lookup"><span data-stu-id="b5b50-191">In the **Name** field, enter a unique descriptive name for the record.</span></span>
                 
                 <div>
                 
 
                 > [!NOTE]  
-                > <span data-ttu-id="003b6-p128">PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”<STRONG></STRONG>字段。</span><span class="sxs-lookup"><span data-stu-id="003b6-p128">The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.</span></span>
+                > <span data-ttu-id="b5b50-p128">PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”<STRONG></STRONG>字段。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p128">The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the <STRONG>Name</STRONG> field cannot be edited.</span></span>
 
                 
                 </div>
             
-            3.  <span data-ttu-id="003b6-194">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="003b6-194">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
+            3.  <span data-ttu-id="b5b50-194">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="b5b50-194">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
                 
-                  - <span data-ttu-id="003b6-195">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-195">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
+                  - <span data-ttu-id="b5b50-195">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-195">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.</span></span>
                 
-                  - <span data-ttu-id="003b6-196">要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-196">To remove a route from the PSTN usage record, highlight the route and click **Remove**.</span></span>
+                  - <span data-ttu-id="b5b50-196">要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-196">To remove a route from the PSTN usage record, highlight the route and click **Remove**.</span></span>
                 
-                  - <span data-ttu-id="003b6-197">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-197">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="003b6-198">有关详细信息, 请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-198">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
+                  - <span data-ttu-id="b5b50-197">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-197">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="b5b50-198">有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-198">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
                 
-                  - <span data-ttu-id="003b6-199">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-199">To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**.</span></span> <span data-ttu-id="003b6-200">有关详细信息, 请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-200">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
+                  - <span data-ttu-id="b5b50-199">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-199">To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**.</span></span> <span data-ttu-id="b5b50-200">有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-200">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
             
-            4.  <span data-ttu-id="003b6-201">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="003b6-201">Click **OK**.</span></span>
+            4.  <span data-ttu-id="b5b50-201">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b5b50-201">Click **OK**.</span></span>
         
-          - <span data-ttu-id="003b6-202">要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="003b6-202">To edit a PSTN usage record that is already associated with this voice policy, do the following:</span></span>
+          - <span data-ttu-id="b5b50-202">要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b5b50-202">To edit a PSTN usage record that is already associated with this voice policy, do the following:</span></span>
             
-            1.  <span data-ttu-id="003b6-203">突出显示要编辑的 PSTN 用法记录，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-203">Highlight the PSTN usage record that you want to edit and click **Show details**.</span></span>
+            1.  <span data-ttu-id="b5b50-203">突出显示要编辑的 PSTN 用法记录，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-203">Highlight the PSTN usage record that you want to edit and click **Show details**.</span></span>
             
-            2.  <span data-ttu-id="003b6-204">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="003b6-204">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
+            2.  <span data-ttu-id="b5b50-204">使用以下任意方法为此 PSTN 用法记录关联和配置路由：</span><span class="sxs-lookup"><span data-stu-id="b5b50-204">Use any of the following methods to associate and configure routes for this PSTN usage record:</span></span>
                 
-                  - <span data-ttu-id="003b6-205">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-205">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes you want to associate with this PSTN usage record, and then click **OK**.</span></span>
+                  - <span data-ttu-id="b5b50-205">要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”\*\*\*\*，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-205">To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes you want to associate with this PSTN usage record, and then click **OK**.</span></span>
                 
-                  - <span data-ttu-id="003b6-206">要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-206">To remove a route from this PSTN usage record, highlight the route and click **Remove**.</span></span>
+                  - <span data-ttu-id="b5b50-206">要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-206">To remove a route from this PSTN usage record, highlight the route and click **Remove**.</span></span>
                 
-                  - <span data-ttu-id="003b6-207">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-207">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="003b6-208">有关详细信息, 请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-208">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
+                  - <span data-ttu-id="b5b50-207">要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-207">To define a new route and associate it with this PSTN usage record, click **New**.</span></span> <span data-ttu-id="b5b50-208">有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-208">For details, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span>
                 
-                  - <span data-ttu-id="003b6-209">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-209">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="003b6-210">有关详细信息, 请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-210">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
+                  - <span data-ttu-id="b5b50-209">要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-209">To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.</span></span> <span data-ttu-id="b5b50-210">有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-210">For details, see [Modify a voice route in Lync Server 2013](lync-server-2013-modify-a-voice-route.md).</span></span>
             
-            3.  <span data-ttu-id="003b6-211">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="003b6-211">Click **OK**.</span></span>
+            3.  <span data-ttu-id="b5b50-211">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b5b50-211">Click **OK**.</span></span>
 
-10. <span data-ttu-id="003b6-p133">（可选）输入一个号码来测试语音策略，然后单击“执行”\*\*\*\*。测试结果会显示在“要测试的转换号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="003b6-p133">(Optional) Enter a number to test the voice policy and click **Go**. The test results are displayed under **Translated number to test**.</span></span>
+10. <span data-ttu-id="b5b50-p133">（可选）输入一个号码来测试语音策略，然后单击“执行”\*\*\*\*。测试结果会显示在“要测试的转换号码”\*\*\*\* 下。</span><span class="sxs-lookup"><span data-stu-id="b5b50-p133">(Optional) Enter a number to test the voice policy and click **Go**. The test results are displayed under **Translated number to test**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="003b6-214">你可以保存尚未通过测试的语音策略, 然后在稍后重新配置它。</span><span class="sxs-lookup"><span data-stu-id="003b6-214">You can save a voice policy that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="003b6-215">有关详细信息, 请参阅<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。</span><span class="sxs-lookup"><span data-stu-id="003b6-215">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="b5b50-214">你可以保存尚未通过测试的语音策略，然后在稍后重新配置它。</span><span class="sxs-lookup"><span data-stu-id="b5b50-214">You can save a voice policy that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="b5b50-215">有关详细信息，请参阅<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。</span><span class="sxs-lookup"><span data-stu-id="b5b50-215">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="003b6-216">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="003b6-216">Click **OK**.</span></span>
+11. <span data-ttu-id="b5b50-216">单击“**确定**”。</span><span class="sxs-lookup"><span data-stu-id="b5b50-216">Click **OK**.</span></span>
 
-12. <span data-ttu-id="003b6-217">在“语音策略”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="003b6-217">On the **Voice Policy** page, click **Commit**, and then click **Commit all**.</span></span>
+12. <span data-ttu-id="b5b50-217">在“语音策略”\*\*\*\* 页上，单击“提交”\*\*\*\*，然后单击“全部提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b5b50-217">On the **Voice Policy** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="003b6-218">只要创建或修改语音策略，就必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="003b6-218">Whenever you create or modify a voice policy, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="003b6-219">有关详细信息, 请参阅操作文档中的<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中的 "发布待处理的语音路由配置更改"</A> 。</span><span class="sxs-lookup"><span data-stu-id="003b6-219">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="b5b50-218">只要创建或修改语音策略，就必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。</span><span class="sxs-lookup"><span data-stu-id="b5b50-218">Whenever you create or modify a voice policy, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="b5b50-219">有关详细信息，请参阅操作文档中的<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中的 "发布待处理的语音路由配置更改"</A> 。</span><span class="sxs-lookup"><span data-stu-id="b5b50-219">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
 
-13. <span data-ttu-id="003b6-220">（可选）语音邮件规避检测到用户的手机语音邮件立即应答了一个呼叫，因此将断开至移动电话语音邮件的呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-220">(Optional) Voicemail Escape detects that a call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="003b6-221">这将允许此呼叫继续在用户的其他终结点上响铃，以使用户能够应答呼叫。</span><span class="sxs-lookup"><span data-stu-id="003b6-221">This allows the call to continue to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="003b6-222">有关如何配置语音邮件策略的详细信息, 请参阅[在 Lync Server 2013 中配置语音邮件转义](lync-server-2013-configuring-voice-mail-escape.md)。</span><span class="sxs-lookup"><span data-stu-id="003b6-222">For details about how to configure a voice mail policy, see [Configuring voice mail escape in Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).</span></span>
+13. <span data-ttu-id="b5b50-220">（可选）语音邮件规避检测到用户的手机语音邮件立即应答了一个呼叫，因此将断开至移动电话语音邮件的呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-220">(Optional) Voicemail Escape detects that a call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="b5b50-221">这将允许此呼叫继续在用户的其他终结点上响铃，以使用户能够应答呼叫。</span><span class="sxs-lookup"><span data-stu-id="b5b50-221">This allows the call to continue to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="b5b50-222">有关如何配置语音邮件策略的详细信息，请参阅[在 Lync Server 2013 中配置语音邮件转义](lync-server-2013-configuring-voice-mail-escape.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b50-222">For details about how to configure a voice mail policy, see [Configuring voice mail escape in Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="003b6-223">另请参阅</span><span class="sxs-lookup"><span data-stu-id="003b6-223">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5b50-223">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5b50-223">See Also</span></span>
 
 
-[<span data-ttu-id="003b6-224">在 Lync Server 2013 中创建语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="003b6-224">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
-[<span data-ttu-id="003b6-225">在 Lync Server 2013 中查看 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="003b6-225">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)  
-[<span data-ttu-id="003b6-226">在 Lync Server 2013 中创建语音路由</span><span class="sxs-lookup"><span data-stu-id="003b6-226">Create a voice route in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-route.md)  
-[<span data-ttu-id="003b6-227">在 Lync Server 2013 中修改语音路由</span><span class="sxs-lookup"><span data-stu-id="003b6-227">Modify a voice route in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-route.md)  
-[<span data-ttu-id="003b6-228">将挂起的更改发布到 Lync Server 2013 中的语音路由配置</span><span class="sxs-lookup"><span data-stu-id="003b6-228">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
-[<span data-ttu-id="003b6-229">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="003b6-229">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
+[<span data-ttu-id="b5b50-224">在 Lync Server 2013 中创建语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="b5b50-224">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+[<span data-ttu-id="b5b50-225">在 Lync Server 2013 中查看 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="b5b50-225">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)  
+[<span data-ttu-id="b5b50-226">在 Lync Server 2013 中创建语音路由</span><span class="sxs-lookup"><span data-stu-id="b5b50-226">Create a voice route in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-route.md)  
+[<span data-ttu-id="b5b50-227">在 Lync Server 2013 中修改语音路由</span><span class="sxs-lookup"><span data-stu-id="b5b50-227">Modify a voice route in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-route.md)  
+[<span data-ttu-id="b5b50-228">将挂起的更改发布到 Lync Server 2013 中的语音路由配置</span><span class="sxs-lookup"><span data-stu-id="b5b50-228">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="b5b50-229">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="b5b50-229">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[<span data-ttu-id="003b6-230">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="003b6-230">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
+[<span data-ttu-id="b5b50-230">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="b5b50-230">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

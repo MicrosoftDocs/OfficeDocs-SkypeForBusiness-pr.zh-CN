@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理响应组代理组'
+title: Lync Server 2013：管理响应组代理组
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6cbea3b1a0d6638206a022ce5aded610dd60f23
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6001e8b6301df1863de21e0d88369116cef03ff5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827842"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34827842"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a><span data-ttu-id="5c34a-102">在 Lync Server 2013 中管理响应组代理组</span><span class="sxs-lookup"><span data-stu-id="5c34a-102">Managing Response Group agent groups in Lync Server 2013</span></span>
+# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a><span data-ttu-id="9fbb2-102">在 Lync Server 2013 中管理响应组代理组</span><span class="sxs-lookup"><span data-stu-id="9fbb2-102">Managing Response Group agent groups in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34827842"
 
 <span> </span>
 
-<span data-ttu-id="5c34a-103">_**主题上次修改时间:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5c34a-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="9fbb2-103">_**主题上次修改时间：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9fbb2-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="5c34a-104">代理组由一组用户组成, 这些人被指定为向响应组接听呼叫。</span><span class="sxs-lookup"><span data-stu-id="5c34a-104">An agent group consists of a group of people who are designated to answer calls to a response group.</span></span> <span data-ttu-id="5c34a-105">创建代理组时, 请选择分配给该组的代理并指定其他组设置, 例如路由方法以及代理是否可以登录和注销组。</span><span class="sxs-lookup"><span data-stu-id="5c34a-105">When you create an agent group, you select the agents who are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group.</span></span>
+<span data-ttu-id="9fbb2-104">代理组由一组用户组成，这些人被指定为向响应组接听呼叫。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-104">An agent group consists of a group of people who are designated to answer calls to a response group.</span></span> <span data-ttu-id="9fbb2-105">创建代理组时，请选择分配给该组的代理并指定其他组设置，例如路由方法以及代理是否可以登录和注销组。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-105">When you create an agent group, you select the agents who are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5c34a-106">必须先为用户启用企业语音才能将其添加到代理组。</span><span class="sxs-lookup"><span data-stu-id="5c34a-106">Users must be enabled for Enterprise Voice before you can add them to agent groups.</span></span> <span data-ttu-id="5c34a-107">有关如何为用户启用企业语音的详细信息, 请参阅<A href="lync-server-2013-enable-users-for-enterprise-voice.md">在 Lync Server 2013 中启用企业语音用户</A>。</span><span class="sxs-lookup"><span data-stu-id="5c34a-107">For details about how to enable a user for Enterprise Voice, see <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="9fbb2-106">必须先为用户启用企业语音才能将其添加到代理组。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-106">Users must be enabled for Enterprise Voice before you can add them to agent groups.</span></span> <span data-ttu-id="9fbb2-107">有关如何为用户启用企业语音的详细信息，请参阅<A href="lync-server-2013-enable-users-for-enterprise-voice.md">在 Lync Server 2013 中启用企业语音用户</A>。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-107">For details about how to enable a user for Enterprise Voice, see <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,21 +53,21 @@ ms.locfileid: "34827842"
 
 
 > [!NOTE]  
-> <span data-ttu-id="5c34a-108">仅本地用户可成为代理。</span><span class="sxs-lookup"><span data-stu-id="5c34a-108">Only on-premises users can be agents.</span></span> <span data-ttu-id="5c34a-109">如果代理从本地移动到联机, 则响应组调用将不会路由到该代理。</span><span class="sxs-lookup"><span data-stu-id="5c34a-109">If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.</span></span>
+> <span data-ttu-id="9fbb2-108">仅本地用户可成为代理。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-108">Only on-premises users can be agents.</span></span> <span data-ttu-id="9fbb2-109">如果代理从本地移动到联机，则响应组调用将不会路由到该代理。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-109">If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5c34a-110">必须登录和注销组的代理 (不同于登录或注销 Lync 服务器的代理) 称为*正式代理*。</span><span class="sxs-lookup"><span data-stu-id="5c34a-110">An agent who must sign in and out of the group, which is different from signing in or out of Lync Server, is called a *formal agent*.</span></span> <span data-ttu-id="5c34a-111">正式代理必须先登录到组, 然后才能接收路由到该组的呼叫。</span><span class="sxs-lookup"><span data-stu-id="5c34a-111">Formal agents must be signed in to the group before they can receive calls that are routed to the group.</span></span> <span data-ttu-id="5c34a-112">这对于以兼职形式应答组中的呼叫的代理很有用。</span><span class="sxs-lookup"><span data-stu-id="5c34a-112">This can be useful for agents who answer calls from the group on a part-time basis.</span></span> <span data-ttu-id="5c34a-113">正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组, 以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。</span><span class="sxs-lookup"><span data-stu-id="5c34a-113">Formal agents sign in and out of their groups by clicking a menu item in Lync 2013 to open the Windows Internet Explorer Internet browser and display a webpage console.</span></span>
+<span data-ttu-id="9fbb2-110">必须登录和注销组的代理（不同于登录或注销 Lync 服务器的代理）称为*正式代理*。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-110">An agent who must sign in and out of the group, which is different from signing in or out of Lync Server, is called a *formal agent*.</span></span> <span data-ttu-id="9fbb2-111">正式代理必须先登录到组，然后才能接收路由到该组的呼叫。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-111">Formal agents must be signed in to the group before they can receive calls that are routed to the group.</span></span> <span data-ttu-id="9fbb2-112">这对于以兼职形式应答组中的呼叫的代理很有用。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-112">This can be useful for agents who answer calls from the group on a part-time basis.</span></span> <span data-ttu-id="9fbb2-113">正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组，以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-113">Formal agents sign in and out of their groups by clicking a menu item in Lync 2013 to open the Windows Internet Explorer Internet browser and display a webpage console.</span></span>
 
-<span data-ttu-id="5c34a-114">不登录到组或从组注销的代理称为 *非正式代理*。</span><span class="sxs-lookup"><span data-stu-id="5c34a-114">An agent who does not sign in or out of the group is called an *informal agent*.</span></span> <span data-ttu-id="5c34a-115">非正式代理在登录 Lync Server 时自动登录到该组, 并且不能注销该组。</span><span class="sxs-lookup"><span data-stu-id="5c34a-115">Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.</span></span>
+<span data-ttu-id="9fbb2-114">不登录到组或从组注销的代理称为 *非正式代理*。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-114">An agent who does not sign in or out of the group is called an *informal agent*.</span></span> <span data-ttu-id="9fbb2-115">非正式代理在登录 Lync Server 时自动登录到该组，并且不能注销该组。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-115">Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="5c34a-p106">如果将用户分配为响应组代理，需告知用户，如果用户已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。</span><span class="sxs-lookup"><span data-stu-id="5c34a-p106">When you assign users as response group agents, inform them that, if they have Privacy mode enabled, they need to search for "RGS Presence Watcher" contacts and add them to their Contacts list. Agents who have Privacy mode enabled, but who do not have "RGS Presence Watcher" in their Contacts list, cannot receive calls to the response group. Agents who do not have Privacy mode enabled are not affected.</span></span>
+> <span data-ttu-id="9fbb2-p106">如果将用户分配为响应组代理，需告知用户，如果用户已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。</span><span class="sxs-lookup"><span data-stu-id="9fbb2-p106">When you assign users as response group agents, inform them that, if they have Privacy mode enabled, they need to search for "RGS Presence Watcher" contacts and add them to their Contacts list. Agents who have Privacy mode enabled, but who do not have "RGS Presence Watcher" in their Contacts list, cannot receive calls to the response group. Agents who do not have Privacy mode enabled are not affected.</span></span>
 
 
 
@@ -73,11 +75,11 @@ ms.locfileid: "34827842"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5c34a-119">本节内容</span><span class="sxs-lookup"><span data-stu-id="5c34a-119">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9fbb2-119">本节内容</span><span class="sxs-lookup"><span data-stu-id="9fbb2-119">In This Section</span></span>
 
-  - [<span data-ttu-id="5c34a-120">在 Lync Server 2013 中创建或修改代理组</span><span class="sxs-lookup"><span data-stu-id="5c34a-120">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)
+  - [<span data-ttu-id="9fbb2-120">在 Lync Server 2013 中创建或修改代理组</span><span class="sxs-lookup"><span data-stu-id="9fbb2-120">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)
 
-  - [<span data-ttu-id="5c34a-121">在 Lync Server 2013 中删除代理组</span><span class="sxs-lookup"><span data-stu-id="5c34a-121">Delete an agent group in Lync Server 2013</span></span>](lync-server-2013-delete-an-agent-group.md)
+  - [<span data-ttu-id="9fbb2-121">在 Lync Server 2013 中删除代理组</span><span class="sxs-lookup"><span data-stu-id="9fbb2-121">Delete an agent group in Lync Server 2013</span></span>](lync-server-2013-delete-an-agent-group.md)
 
 </div>
 

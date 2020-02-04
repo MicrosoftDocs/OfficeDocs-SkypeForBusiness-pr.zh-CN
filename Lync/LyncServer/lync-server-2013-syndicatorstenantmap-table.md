@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: SyndicatorsTenantMap 表'
+title: Lync Server 2013： SyndicatorsTenantMap 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SyndicatorsTenantMap table
 ms:assetid: a99fe6ea-e529-4ea7-acc4-914ab8ce5468
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205169(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185101
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3e6f6e61ec3c689b3da5563dc433a24a4eb5c82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b9af5fa2432dc2bc3ab80dd68c64238996011d5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845761"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="syndicatorstenantmap-table-in-lync-server-2013"></a><span data-ttu-id="95eaf-102">Lync Server 2013 中的 SyndicatorsTenantMap 表</span><span class="sxs-lookup"><span data-stu-id="95eaf-102">SyndicatorsTenantMap table in Lync Server 2013</span></span>
+# <a name="syndicatorstenantmap-table-in-lync-server-2013"></a><span data-ttu-id="43324-102">Lync Server 2013 中的 SyndicatorsTenantMap 表</span><span class="sxs-lookup"><span data-stu-id="43324-102">SyndicatorsTenantMap table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845761"
 
 <span> </span>
 
-<span data-ttu-id="95eaf-103">_**主题上次修改时间:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="95eaf-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="43324-103">_**主题上次修改时间：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="43324-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="95eaf-104">SyndicatorsTenantMap 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="95eaf-104">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="95eaf-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="95eaf-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="43324-104">SyndicatorsTenantMap 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="43324-104">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="43324-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="43324-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

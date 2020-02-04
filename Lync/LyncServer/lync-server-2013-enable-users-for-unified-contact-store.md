@@ -3,6 +3,8 @@ title: Lync Server 2013：为用户启用统一联系人存储
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable users for unified contact store
 ms:assetid: 7b46a01f-beb5-4a33-adb0-35f0502b168d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ece699d8c5b43e09323708c075687bfe81146e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3df3cbd4d71a1decc3607263f2e98b159dc29b2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830266"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34830266"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="8891d-102">在 Lync Server 2013 中为用户启用统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="8891d-102">Enable users for unified contact store in Lync Server 2013</span></span>
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="1cbfb-102">在 Lync Server 2013 中为用户启用统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="1cbfb-102">Enable users for unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,39 +35,39 @@ ms.locfileid: "34830266"
 
 <span> </span>
 
-<span data-ttu-id="8891d-103">_**主题上次修改时间:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="8891d-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="1cbfb-103">_**主题上次修改时间：** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="1cbfb-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="8891d-104">当你部署 Lync Server 2013 并发布拓扑时, 默认情况下为所有用户启用 "统一联系人存储"。</span><span class="sxs-lookup"><span data-stu-id="8891d-104">When you deploy Lync Server 2013 and publish the topology, unified contact store is enabled for all users by default.</span></span> <span data-ttu-id="8891d-105">部署 Lync Server 2013 后, 无需执行任何其他操作即可启用统一联系人存储。</span><span class="sxs-lookup"><span data-stu-id="8891d-105">You do not need to take any additional action to enable unified contact store after you deploy Lync Server 2013.</span></span> <span data-ttu-id="8891d-106">但是，可以使用 **Set-CsUserServicesPolicy** cmdlet 自定义哪些用户可以使用统一联系人存储。</span><span class="sxs-lookup"><span data-stu-id="8891d-106">However, you can use the **Set-CsUserServicesPolicy** cmdlet to customize which users have unified contact store available.</span></span> <span data-ttu-id="8891d-107">可以全局启用此功能，或者按站点、租户、个人或个人组启用此功能。</span><span class="sxs-lookup"><span data-stu-id="8891d-107">You can enable this feature globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
+<span data-ttu-id="1cbfb-104">当你部署 Lync Server 2013 并发布拓扑时，默认情况下为所有用户启用 "统一联系人存储"。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-104">When you deploy Lync Server 2013 and publish the topology, unified contact store is enabled for all users by default.</span></span> <span data-ttu-id="1cbfb-105">部署 Lync Server 2013 后，无需执行任何其他操作即可启用统一联系人存储。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-105">You do not need to take any additional action to enable unified contact store after you deploy Lync Server 2013.</span></span> <span data-ttu-id="1cbfb-106">但是，可以使用 **Set-CsUserServicesPolicy** cmdlet 自定义哪些用户可以使用统一联系人存储。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-106">However, you can use the **Set-CsUserServicesPolicy** cmdlet to customize which users have unified contact store available.</span></span> <span data-ttu-id="1cbfb-107">可以全局启用此功能，或者按站点、租户、个人或个人组启用此功能。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-107">You can enable this feature globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
 
 <div>
 
-## <a name="to-enable-users-for-unified-contact-store"></a><span data-ttu-id="8891d-108">为用户启用统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="8891d-108">To enable users for unified contact store</span></span>
+## <a name="to-enable-users-for-unified-contact-store"></a><span data-ttu-id="1cbfb-108">为用户启用统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="1cbfb-108">To enable users for unified contact store</span></span>
 
-1.  <span data-ttu-id="8891d-109">启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="8891d-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="1cbfb-109">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="8891d-110">请执行以下任一操作：</span><span class="sxs-lookup"><span data-stu-id="8891d-110">Do any of the following:</span></span>
+2.  <span data-ttu-id="1cbfb-110">请执行以下任一操作：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-110">Do any of the following:</span></span>
     
-      - <span data-ttu-id="8891d-111">若要为所有 Lync Server 用户全局启用统一联系人存储, 请在命令行中键入:</span><span class="sxs-lookup"><span data-stu-id="8891d-111">To enable unified contact store globally for all Lync Server users, at the command line, type:</span></span>
+      - <span data-ttu-id="1cbfb-111">若要为所有 Lync Server 用户全局启用统一联系人存储，请在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-111">To enable unified contact store globally for all Lync Server users, at the command line, type:</span></span>
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - <span data-ttu-id="8891d-112">若要为特定网站上的用户启用统一联系人存储区, 请在命令行键入:</span><span class="sxs-lookup"><span data-stu-id="8891d-112">To enable unified contact store for the users at a specific site, at the command line, type:</span></span>
+      - <span data-ttu-id="1cbfb-112">若要为特定网站上的用户启用统一联系人存储区，请在命令行键入：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-112">To enable unified contact store for the users at a specific site, at the command line, type:</span></span>
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        <span data-ttu-id="8891d-113">例如：</span><span class="sxs-lookup"><span data-stu-id="8891d-113">For example:</span></span>
+        <span data-ttu-id="1cbfb-113">例如：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-113">For example:</span></span>
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - <span data-ttu-id="8891d-114">若要通过租户启用统一联系人存储, 请在命令行中键入:</span><span class="sxs-lookup"><span data-stu-id="8891d-114">To enable unified contact store by tenant, at the command line, type:</span></span>
+      - <span data-ttu-id="1cbfb-114">若要通过租户启用统一联系人存储，请在命令行中键入：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-114">To enable unified contact store by tenant, at the command line, type:</span></span>
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        <span data-ttu-id="8891d-115">例如：</span><span class="sxs-lookup"><span data-stu-id="8891d-115">For example:</span></span>
+        <span data-ttu-id="1cbfb-115">例如：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-115">For example:</span></span>
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - <span data-ttu-id="8891d-116">若要为特定用户启用统一联系人存储, 请在命令行键入:</span><span class="sxs-lookup"><span data-stu-id="8891d-116">To enable unified contact store for specific users, at the command line, type:</span></span>
+      - <span data-ttu-id="1cbfb-116">若要为特定用户启用统一联系人存储，请在命令行键入：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-116">To enable unified contact store for specific users, at the command line, type:</span></span>
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
@@ -74,12 +76,12 @@ ms.locfileid: "34830266"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="8891d-117">还可以使用用户别名或 SIP URI 代替用户显示名称。</span><span class="sxs-lookup"><span data-stu-id="8891d-117">You can also use user alias or SIP URI instead of the user display name.</span></span>
+        > <span data-ttu-id="1cbfb-117">还可以使用用户别名或 SIP URI 代替用户显示名称。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-117">You can also use user alias or SIP URI instead of the user display name.</span></span>
 
         
         </div>
         
-        <span data-ttu-id="8891d-118">例如：</span><span class="sxs-lookup"><span data-stu-id="8891d-118">For example:</span></span>
+        <span data-ttu-id="1cbfb-118">例如：</span><span class="sxs-lookup"><span data-stu-id="1cbfb-118">For example:</span></span>
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
@@ -88,7 +90,7 @@ ms.locfileid: "34830266"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="8891d-p102">在上面的示例中，第一个命令创建一个名为“<EM>启用 UCS 的用户</EM>”的新每用户策略，并将 UcsAllowed 标记设置为 True。第二个命令将该策略分配给显示名称为 Ken Myer 的用户，这意味着现在已为 Ken Myer 启用统一的联系人存储库。</span><span class="sxs-lookup"><span data-stu-id="8891d-p102">In the preceding example, the first command creates a new per-user policy named <EM>UCS Enabled Users</EM> with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.</span></span>
+        > <span data-ttu-id="1cbfb-p102">在上面的示例中，第一个命令创建一个名为“<EM>启用 UCS 的用户</EM>”的新每用户策略，并将 UcsAllowed 标记设置为 True。第二个命令将该策略分配给显示名称为 Ken Myer 的用户，这意味着现在已为 Ken Myer 启用统一的联系人存储库。</span><span class="sxs-lookup"><span data-stu-id="1cbfb-p102">In the preceding example, the first command creates a new per-user policy named <EM>UCS Enabled Users</EM> with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.</span></span>
 
         
         </div>

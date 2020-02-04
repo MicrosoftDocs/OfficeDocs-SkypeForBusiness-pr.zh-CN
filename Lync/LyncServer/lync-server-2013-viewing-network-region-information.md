@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看网络区域信息'
+title: Lync Server 2013：查看网络区域信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network region information
 ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52baf7c9dca4d663630bbf0cb17384916f5a953e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db5610ddee677af989b16c150ffab96308bbb837
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845314"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845314"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-information-in-lync-server-2013"></a><span data-ttu-id="17640-102">在 Lync Server 2013 中查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="17640-102">Viewing network region information in Lync Server 2013</span></span>
+# <a name="viewing-network-region-information-in-lync-server-2013"></a><span data-ttu-id="30639-102">在 Lync Server 2013 中查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="30639-102">Viewing network region information in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,50 +35,50 @@ ms.locfileid: "34845314"
 
 <span> </span>
 
-<span data-ttu-id="17640-103">_**主题上次修改时间:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="17640-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="30639-103">_**主题上次修改时间：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="30639-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="17640-104">网络区域跨多个地理区域互连网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="17640-104">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="17640-105">每个网络区域必须与一个中心网站相关联。</span><span class="sxs-lookup"><span data-stu-id="17640-105">Every network region must be associated with a central site.</span></span> <span data-ttu-id="17640-106">中心网站是运行呼叫许可控制 (CAC) 带宽策略服务的数据中心网站。</span><span class="sxs-lookup"><span data-stu-id="17640-106">The central site is the data center site on which the call admission control (CAC) bandwidth policy service is running.</span></span> <span data-ttu-id="17640-107">您可以使用 Lync Server "控制面板" 查看网络区域。</span><span class="sxs-lookup"><span data-stu-id="17640-107">You can use Lync Server Control Panel to view network regions.</span></span> <span data-ttu-id="17640-108">网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。</span><span class="sxs-lookup"><span data-stu-id="17640-108">Network regions include settings that determine whether alternate paths through the Internet are allowed for audio and video connections.</span></span> <span data-ttu-id="17640-109">使用本主题查看现有的网络区域。</span><span class="sxs-lookup"><span data-stu-id="17640-109">Use this topic to view existing network regions.</span></span> <span data-ttu-id="17640-110">有关创建或修改现有网络区域的详细信息, 请参阅[在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)。</span><span class="sxs-lookup"><span data-stu-id="17640-110">For details about creating or modifying existing network regions, see [Creating or modifying network regions in Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).</span></span>
+<span data-ttu-id="30639-104">网络区域跨多个地理区域互连网络的各个部分。</span><span class="sxs-lookup"><span data-stu-id="30639-104">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="30639-105">每个网络区域必须与一个中心网站相关联。</span><span class="sxs-lookup"><span data-stu-id="30639-105">Every network region must be associated with a central site.</span></span> <span data-ttu-id="30639-106">中心网站是运行呼叫许可控制（CAC）带宽策略服务的数据中心网站。</span><span class="sxs-lookup"><span data-stu-id="30639-106">The central site is the data center site on which the call admission control (CAC) bandwidth policy service is running.</span></span> <span data-ttu-id="30639-107">您可以使用 Lync Server "控制面板" 查看网络区域。</span><span class="sxs-lookup"><span data-stu-id="30639-107">You can use Lync Server Control Panel to view network regions.</span></span> <span data-ttu-id="30639-108">网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。</span><span class="sxs-lookup"><span data-stu-id="30639-108">Network regions include settings that determine whether alternate paths through the Internet are allowed for audio and video connections.</span></span> <span data-ttu-id="30639-109">使用本主题查看现有的网络区域。</span><span class="sxs-lookup"><span data-stu-id="30639-109">Use this topic to view existing network regions.</span></span> <span data-ttu-id="30639-110">有关创建或修改现有网络区域的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)。</span><span class="sxs-lookup"><span data-stu-id="30639-110">For details about creating or modifying existing network regions, see [Creating or modifying network regions in Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).</span></span>
 
 <div>
 
-## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a><span data-ttu-id="17640-111">使用 Lync Server "控制面板" 查看有关网络区域的信息</span><span class="sxs-lookup"><span data-stu-id="17640-111">To view information about a network region with Lync Server Control Panel</span></span>
+## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a><span data-ttu-id="30639-111">使用 Lync Server "控制面板" 查看有关网络区域的信息</span><span class="sxs-lookup"><span data-stu-id="30639-111">To view information about a network region with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="17640-112">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="17640-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="30639-112">使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="30639-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="17640-113">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="17640-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="17640-114">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="17640-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="30639-113">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="30639-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="30639-114">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="30639-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="17640-115">在左侧导航栏中, 单击 "**网络配置**", 然后单击 "**区域**"。</span><span class="sxs-lookup"><span data-stu-id="17640-115">In the left navigation bar, click **Network Configuration** and then click **Region**.</span></span>
+3.  <span data-ttu-id="30639-115">在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域**"。</span><span class="sxs-lookup"><span data-stu-id="30639-115">In the left navigation bar, click **Network Configuration** and then click **Region**.</span></span>
 
-4.  <span data-ttu-id="17640-116">在 "**区域**" 页面上, 单击要查看的区域。</span><span class="sxs-lookup"><span data-stu-id="17640-116">On the **Region** page, click the region you want to view.</span></span>
+4.  <span data-ttu-id="30639-116">在 "**区域**" 页面上，单击要查看的区域。</span><span class="sxs-lookup"><span data-stu-id="30639-116">On the **Region** page, click the region you want to view.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="17640-117">一次只能查看一个区域。</span><span class="sxs-lookup"><span data-stu-id="17640-117">You can only view one region at a time.</span></span>
+    > <span data-ttu-id="30639-117">一次只能查看一个区域。</span><span class="sxs-lookup"><span data-stu-id="30639-117">You can only view one region at a time.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="17640-118">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="17640-118">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="30639-118">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="30639-118">On the **Edit** menu, click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="17640-119">使用 Windows PowerShell Cmdlet 查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="17640-119">Viewing Network Region Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="30639-119">使用 Windows PowerShell Cmdlet 查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="30639-119">Viewing Network Region Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="17640-120">你可以使用 Windows PowerShell 和**CsNetworkRegion** cmdlet 查看网络区域信息。</span><span class="sxs-lookup"><span data-stu-id="17640-120">You can view network region information by using Windows PowerShell and the **Get-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="17640-121">你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="17640-121">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="17640-122">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="17640-122">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="30639-120">你可以使用 Windows PowerShell 和**CsNetworkRegion** cmdlet 查看网络区域信息。</span><span class="sxs-lookup"><span data-stu-id="30639-120">You can view network region information by using Windows PowerShell and the **Get-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="30639-121">你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="30639-121">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="30639-122">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="30639-122">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-region-information"></a><span data-ttu-id="17640-123">查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="17640-123">To view network region information</span></span>
+## <a name="to-view-network-region-information"></a><span data-ttu-id="30639-123">查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="30639-123">To view network region information</span></span>
 
-  - <span data-ttu-id="17640-124">若要查看有关所有网络区域的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 ENTER:</span><span class="sxs-lookup"><span data-stu-id="17640-124">To view information about all your network regions, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="30639-124">若要查看有关所有网络区域的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：</span><span class="sxs-lookup"><span data-stu-id="30639-124">To view information about all your network regions, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkRegion
     
-    <span data-ttu-id="17640-125">这将返回与以下类似的信息：</span><span class="sxs-lookup"><span data-stu-id="17640-125">That will return information similar to this:</span></span>
+    <span data-ttu-id="30639-125">这将返回与以下类似的信息：</span><span class="sxs-lookup"><span data-stu-id="30639-125">That will return information similar to this:</span></span>
     
         Identity         : Pacific Northwest
         Description      :
@@ -88,17 +90,17 @@ ms.locfileid: "34845314"
 
 </div>
 
-<span data-ttu-id="17640-126">有关详细信息, 请参阅[CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="17640-126">For more information, see the help topic for the [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.</span></span>
+<span data-ttu-id="30639-126">有关详细信息，请参阅[CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="30639-126">For more information, see the help topic for the [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="17640-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="17640-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30639-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="30639-127">See Also</span></span>
 
 
-[<span data-ttu-id="17640-128">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="17640-128">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)  
-[<span data-ttu-id="17640-129">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="17640-129">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)  
+[<span data-ttu-id="30639-128">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="30639-128">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)  
+[<span data-ttu-id="30639-129">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="30639-129">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)  
   
 
 </div>

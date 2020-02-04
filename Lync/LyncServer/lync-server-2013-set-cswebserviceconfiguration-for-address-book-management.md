@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Set-CsWebServiceConfiguration for 通讯簿管理'
+title: Lync Server 2013： Set-CsWebServiceConfiguration for 通讯簿管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set-CsWebServiceConfiguration for Address Book management
 ms:assetid: 79d0edf5-23f3-4845-a7b7-e11b5a928bab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429709(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184572
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cb1fa5d6474a792442510181a5c13b17e074c61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c66339ba7f5efaa12ebe684d612280b50a49df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821969"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34821969"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="cf2be-102">CsWebServiceConfiguration Lync Server 2013 中的通讯簿管理设置</span><span class="sxs-lookup"><span data-stu-id="cf2be-102">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="set-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="60cfd-102">CsWebServiceConfiguration Lync Server 2013 中的通讯簿管理设置</span><span class="sxs-lookup"><span data-stu-id="60cfd-102">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,24 +35,24 @@ ms.locfileid: "34821969"
 
 <span> </span>
 
-<span data-ttu-id="cf2be-103">_**主题上次修改时间:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="cf2be-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="60cfd-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="60cfd-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="cf2be-104">哪些人可以运行此 cmdlet: 默认情况下, 已授权以下组的成员运行本地 CsWebServiceConfiguration cmdlet: RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="cf2be-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsWebServiceConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="cf2be-105">若要返回此 cmdlet 已分配到的所有基于角色的访问控制 (RBAC) 角色的列表 (包括你自己创建的任何自定义 RBAC 角色), 请从 Windows PowerShell 提示符处运行以下命令:</span><span class="sxs-lookup"><span data-stu-id="cf2be-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="60cfd-104">哪些人可以运行此 cmdlet：默认情况下，已授权以下组的成员运行本地 CsWebServiceConfiguration cmdlet： RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="60cfd-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsWebServiceConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="60cfd-105">若要返回此 cmdlet 已分配到的所有基于角色的访问控制（RBAC）角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="60cfd-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsWebServiceConfiguration"}
 
-<span data-ttu-id="cf2be-106">CsWebServiceConfiguration cmdlet 允许管理员在 Web 服务的配置中重新定义现有属性。</span><span class="sxs-lookup"><span data-stu-id="cf2be-106">The Set-CsWebServiceConfiguration cmdlet allows the administrator to redefine an existing attribute in the configuration of the Web Services.</span></span>
+<span data-ttu-id="60cfd-106">CsWebServiceConfiguration cmdlet 允许管理员在 Web 服务的配置中重新定义现有属性。</span><span class="sxs-lookup"><span data-stu-id="60cfd-106">The Set-CsWebServiceConfiguration cmdlet allows the administrator to redefine an existing attribute in the configuration of the Web Services.</span></span>
 
-<span data-ttu-id="cf2be-107">例如：</span><span class="sxs-lookup"><span data-stu-id="cf2be-107">For example:</span></span>
+<span data-ttu-id="60cfd-107">例如：</span><span class="sxs-lookup"><span data-stu-id="60cfd-107">For example:</span></span>
 
     Set-CsWebServiceConfiguration -Identity site:Redmond -EnableGroupExpansion $True
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cf2be-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cf2be-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60cfd-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="60cfd-108">See Also</span></span>
 
 
-[<span data-ttu-id="cf2be-109">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="cf2be-109">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)  
+[<span data-ttu-id="60cfd-109">Set-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="60cfd-109">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)  
   
 
 </div>

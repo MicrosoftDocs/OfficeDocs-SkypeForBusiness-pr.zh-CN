@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看客户端版本配置设置'
+title: Lync Server 2013：查看客户端版本配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version configuration settings
 ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9db03377f8f2fc880de61639f4eedc5b1c302d21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6c789275cf33b48e27d60de9a9f9846fc230276
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845367"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b01de-102">在 Lync Server 2013 中查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="b01de-102">View client version configuration settings in Lync Server 2013</span></span>
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="d33fc-102">在 Lync Server 2013 中查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="d33fc-102">View client version configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845367"
 
 <span> </span>
 
-<span data-ttu-id="b01de-103">_**主题上次修改时间:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="b01de-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="d33fc-103">_**主题上次修改时间：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="d33fc-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="b01de-104">客户端版本配置设置用于打开或关闭客户端版本控制。</span><span class="sxs-lookup"><span data-stu-id="b01de-104">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="b01de-105">全局客户端版本配置与 Lync Server 2013 一起安装, 用于为整个服务器部署启用或禁用客户端版本控制。</span><span class="sxs-lookup"><span data-stu-id="b01de-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="b01de-106">当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。</span><span class="sxs-lookup"><span data-stu-id="b01de-106">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="b01de-107">你可以从 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳查看客户端版本配置设置。</span><span class="sxs-lookup"><span data-stu-id="b01de-107">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="d33fc-104">客户端版本配置设置用于打开或关闭客户端版本控制。</span><span class="sxs-lookup"><span data-stu-id="d33fc-104">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="d33fc-105">全局客户端版本配置与 Lync Server 2013 一起安装，用于为整个服务器部署启用或禁用客户端版本控制。</span><span class="sxs-lookup"><span data-stu-id="d33fc-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="d33fc-106">当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。</span><span class="sxs-lookup"><span data-stu-id="d33fc-106">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="d33fc-107">你可以从 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳查看客户端版本配置设置。</span><span class="sxs-lookup"><span data-stu-id="d33fc-107">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="b01de-108">由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。</span><span class="sxs-lookup"><span data-stu-id="b01de-108">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="d33fc-108">由于匿名用户未与用户、站点或服务关联，因此匿名用户仅受全局级别策略的影响。</span><span class="sxs-lookup"><span data-stu-id="d33fc-108">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
@@ -49,33 +51,33 @@ ms.locfileid: "34845367"
 
 <div>
 
-## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="b01de-109">使用 Lync Server "控制面板" 查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="b01de-109">To view client version configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="d33fc-109">使用 Lync Server "控制面板" 查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="d33fc-109">To view client version configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="b01de-110">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="b01de-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="d33fc-110">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="d33fc-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="b01de-111">打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="b01de-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b01de-112">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="b01de-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="d33fc-111">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="d33fc-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d33fc-112">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="d33fc-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="b01de-113">在左侧导航栏中, 单击 "**客户端**", 然后单击 "**客户端版本配置**导航" 按钮。</span><span class="sxs-lookup"><span data-stu-id="b01de-113">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="d33fc-113">在左侧导航栏中，单击 "**客户端**"，然后单击 "**客户端版本配置**导航" 按钮。</span><span class="sxs-lookup"><span data-stu-id="d33fc-113">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="b01de-114">双击要查看的客户端版本配置的名称。</span><span class="sxs-lookup"><span data-stu-id="b01de-114">Double-click the name of the client version configuration you want to view.</span></span>
+4.  <span data-ttu-id="d33fc-114">双击要查看的客户端版本配置的名称。</span><span class="sxs-lookup"><span data-stu-id="d33fc-114">Double-click the name of the client version configuration you want to view.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b01de-115">使用 Windows PowerShell Cmdlet 查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="b01de-115">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d33fc-115">使用 Windows PowerShell Cmdlet 查看客户端版本配置设置</span><span class="sxs-lookup"><span data-stu-id="d33fc-115">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="b01de-116">你可以使用**CsClientVersionConfiguration** cmdlet 查看客户端版本配置设置。</span><span class="sxs-lookup"><span data-stu-id="b01de-116">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="b01de-117">此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="b01de-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b01de-118">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="b01de-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="d33fc-116">你可以使用**CsClientVersionConfiguration** cmdlet 查看客户端版本配置设置。</span><span class="sxs-lookup"><span data-stu-id="d33fc-116">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="d33fc-117">此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="d33fc-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d33fc-118">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="d33fc-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="b01de-119">查看客户端版本配置信息</span><span class="sxs-lookup"><span data-stu-id="b01de-119">To view client version configuration information</span></span>
+## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="d33fc-119">查看客户端版本配置信息</span><span class="sxs-lookup"><span data-stu-id="d33fc-119">To view client version configuration information</span></span>
 
-  - <span data-ttu-id="b01de-120">若要查看有关所有客户端版本配置设置的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 ENTER:</span><span class="sxs-lookup"><span data-stu-id="b01de-120">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="d33fc-120">若要查看有关所有客户端版本配置设置的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：</span><span class="sxs-lookup"><span data-stu-id="d33fc-120">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionConfiguration
     
-    <span data-ttu-id="b01de-121">这将返回与以下类似的信息：</span><span class="sxs-lookup"><span data-stu-id="b01de-121">That will return information similar to this:</span></span>
+    <span data-ttu-id="d33fc-121">这将返回与以下类似的信息：</span><span class="sxs-lookup"><span data-stu-id="d33fc-121">That will return information similar to this:</span></span>
     
         Identity      : Global
         DefaultAction : Allow
@@ -84,7 +86,7 @@ ms.locfileid: "34845367"
 
 </div>
 
-<span data-ttu-id="b01de-122">有关详细信息, 请参阅[CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) Cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="b01de-122">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
+<span data-ttu-id="d33fc-122">有关详细信息，请参阅[CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) Cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="d33fc-122">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
 
 </div>
 

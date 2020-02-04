@@ -3,6 +3,8 @@ title: Lync Server 2013：规划高可用性和灾难恢复
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for high availability and disaster recovery
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204703(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 092e59813f76690233a950cd8ce914df47146d37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824951"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="4351b-102">在 Lync Server 2013 中规划高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="4351b-102">Planning for high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="17e86-102">在 Lync Server 2013 中规划高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="17e86-102">Planning for high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,31 +35,31 @@ ms.locfileid: "34824951"
 
 <span> </span>
 
-<span data-ttu-id="4351b-103">_**主题上次修改时间:** 2013-10-31_</span><span class="sxs-lookup"><span data-stu-id="4351b-103">_**Topic Last Modified:** 2013-10-31_</span></span>
+<span data-ttu-id="17e86-103">_**主题上次修改时间：** 2013-10-31_</span><span class="sxs-lookup"><span data-stu-id="17e86-103">_**Topic Last Modified:** 2013-10-31_</span></span>
 
-<span data-ttu-id="4351b-104">与在 Lync Server 2010 中一样, Lync Server 2013 中大多数服务器角色的主高可用性方案都基于服务器冗余 (通过池划分)。</span><span class="sxs-lookup"><span data-stu-id="4351b-104">As in Lync Server 2010, the main high availability scheme for most server roles in Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="4351b-105">如果运行特定服务器角色的服务器发生故障，则池中运行相同角色的其他服务器将承担该服务器的负载。</span><span class="sxs-lookup"><span data-stu-id="4351b-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="4351b-106">这适用于前端服务器、边缘服务器、中介服务器和控制器。</span><span class="sxs-lookup"><span data-stu-id="4351b-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
+<span data-ttu-id="17e86-104">与在 Lync Server 2010 中一样，Lync Server 2013 中大多数服务器角色的主高可用性方案都基于服务器冗余（通过池划分）。</span><span class="sxs-lookup"><span data-stu-id="17e86-104">As in Lync Server 2010, the main high availability scheme for most server roles in Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="17e86-105">如果运行特定服务器角色的服务器发生故障，则池中运行相同角色的其他服务器将承担该服务器的负载。</span><span class="sxs-lookup"><span data-stu-id="17e86-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="17e86-106">这适用于前端服务器、边缘服务器、中介服务器和控制器。</span><span class="sxs-lookup"><span data-stu-id="17e86-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
 
-<span data-ttu-id="4351b-107">Lync Server 2013 通过将服务器的地理 dispersement 引入两个数据中心来为前端池添加新的灾难恢复措施, 以便在一个整个池或网站停机时提供服务的延续。</span><span class="sxs-lookup"><span data-stu-id="4351b-107">Lync Server 2013 adds new disaster recovery measures for Front End pools by introducing geographical dispersement of your servers into two data centers to provide continuation of service should one entire pool or site go down.</span></span>
+<span data-ttu-id="17e86-107">Lync Server 2013 通过将服务器的地理 dispersement 引入两个数据中心来为前端池添加新的灾难恢复措施，以便在一个整个池或网站停机时提供服务的延续。</span><span class="sxs-lookup"><span data-stu-id="17e86-107">Lync Server 2013 adds new disaster recovery measures for Front End pools by introducing geographical dispersement of your servers into two data centers to provide continuation of service should one entire pool or site go down.</span></span>
 
-<span data-ttu-id="4351b-108">Lync Server 2013 还支持后端数据库的同步 SQL 镜像, 从而增强了后端服务器高可用性。</span><span class="sxs-lookup"><span data-stu-id="4351b-108">Lync Server 2013 also enhances Back End Server high availability, by supporting synchronous SQL mirroring for your Back End databases.</span></span>
+<span data-ttu-id="17e86-108">Lync Server 2013 还支持后端数据库的同步 SQL 镜像，从而增强了后端服务器高可用性。</span><span class="sxs-lookup"><span data-stu-id="17e86-108">Lync Server 2013 also enhances Back End Server high availability, by supporting synchronous SQL mirroring for your Back End databases.</span></span>
 
-<span data-ttu-id="4351b-109">本部分介绍这些主要的高可用性和灾难恢复功能, 还介绍了为其他服务器角色执行高可用性和灾难恢复时可以采取的步骤。</span><span class="sxs-lookup"><span data-stu-id="4351b-109">This section explains these major high availability and disaster recovery features, and also covers what steps you can take for high availability and disaster recovery for your other server roles as well.</span></span>
+<span data-ttu-id="17e86-109">本部分介绍这些主要的高可用性和灾难恢复功能，还介绍了为其他服务器角色执行高可用性和灾难恢复时可以采取的步骤。</span><span class="sxs-lookup"><span data-stu-id="17e86-109">This section explains these major high availability and disaster recovery features, and also covers what steps you can take for high availability and disaster recovery for your other server roles as well.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4351b-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="4351b-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="17e86-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="17e86-110">In This Section</span></span>
 
-  - [<span data-ttu-id="4351b-111">Lync Server 2013 中的前端池灾难恢复</span><span class="sxs-lookup"><span data-stu-id="4351b-111">Front End pool disaster recovery in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [<span data-ttu-id="17e86-111">Lync Server 2013 中的前端池灾难恢复</span><span class="sxs-lookup"><span data-stu-id="17e86-111">Front End pool disaster recovery in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-disaster-recovery.md)
 
-  - [<span data-ttu-id="4351b-112">Lync Server 2013 中的边缘服务器灾难恢复</span><span class="sxs-lookup"><span data-stu-id="4351b-112">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)
+  - [<span data-ttu-id="17e86-112">Lync Server 2013 中的边缘服务器灾难恢复</span><span class="sxs-lookup"><span data-stu-id="17e86-112">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [<span data-ttu-id="4351b-113">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="4351b-113">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="17e86-113">在 Lync Server 2013 中规划企业语音恢复能力</span><span class="sxs-lookup"><span data-stu-id="17e86-113">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="4351b-114">Lync Server 2013 中实现灾难恢复的呼叫管理功能</span><span class="sxs-lookup"><span data-stu-id="4351b-114">Call management features for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-call-management-features-for-disaster-recovery.md)
+  - [<span data-ttu-id="17e86-114">Lync Server 2013 中实现灾难恢复的呼叫管理功能</span><span class="sxs-lookup"><span data-stu-id="17e86-114">Call management features for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [<span data-ttu-id="4351b-115">在 Lync Server 2013 中为持久聊天服务器配置高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="4351b-115">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="17e86-115">在 Lync Server 2013 中为持久聊天服务器配置高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="17e86-115">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="4351b-116">Lync Server 2010 都市站点恢复能力</span><span class="sxs-lookup"><span data-stu-id="4351b-116">Lync Server 2010 metropolitan site resiliency</span></span>](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [<span data-ttu-id="17e86-116">Lync Server 2010 都市站点恢复能力</span><span class="sxs-lookup"><span data-stu-id="17e86-116">Lync Server 2010 metropolitan site resiliency</span></span>](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 
