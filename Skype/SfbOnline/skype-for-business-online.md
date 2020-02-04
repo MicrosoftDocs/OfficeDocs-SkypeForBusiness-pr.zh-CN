@@ -14,13 +14,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: e99816442b6cde308765c1b5fef9bc8a1599434f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35418335"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705917"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online 管理
 
@@ -153,7 +153,7 @@ ms.locfileid: "35418335"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增功能</h3>
+                        <h3>新功能</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通话套餐（通用）</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳大利亚的通话套餐（仅限预览）</a></p>
                     </div>
@@ -182,7 +182,7 @@ ms.locfileid: "35418335"
 
 ---
 
-<h2>特色文章</h2>
+<h2>特别推荐的文章</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
