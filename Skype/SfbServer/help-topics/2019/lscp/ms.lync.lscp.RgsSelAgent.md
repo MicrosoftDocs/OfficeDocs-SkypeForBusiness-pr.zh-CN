@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理是指定应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 符合条件的用户支持 Skype for business 服务器和企业语音。
-ms.openlocfilehash: 84af4c10e6e6e0bacd053d16d4d9cce85d80f88e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15185ab3ad7bb16018d7995d5e7eaef6198dc68a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292561"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690767"
 ---
 # <a name="select-agents"></a>选择代理
 
@@ -32,7 +32,7 @@ ms.locfileid: "34292561"
 
 - **查找**搜索用户的 SIP 地址或显示名称。 输入全部或部分地址或名称。 将 "搜索" 框留空以显示所有已启用 Skype for business 服务器和企业语音的用户。
 
-- **要显示的最大用户**数更改显示的返回结果的数量。 如果预计的结果很多, 请使用此计数器限制搜索。
+- **要显示的最大用户**数更改显示的返回结果的数量。 如果预计的结果很多，请使用此计数器限制搜索。
 
 下表介绍了“**选择代理**”对话框中的各个字段。
 

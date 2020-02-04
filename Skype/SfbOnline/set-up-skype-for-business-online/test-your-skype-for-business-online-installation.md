@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285071"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692817"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -37,7 +38,7 @@ ms.locfileid: "34285071"
 
 - 具有 Skype for Business Online 音频会议提供商的帐户。
 
-## <a name="what-do-you-want-to-do"></a>您要做什么？
+## <a name="what-do-you-want-to-do"></a>要执行什么操作？
 
 > [设置测试帐户](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 
@@ -50,7 +51,7 @@ ms.locfileid: "34285071"
 ## <a name="set-up-test-accounts"></a>设置测试帐户
 <a name="__toc328126910"> </a>
 
-1. 转到 "**管理** > **Office 365** > **用户和组**", 然后选择!["](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)添加", 然后输入所需的信息。
+1. 转到 "**管理** > **Office 365** > **用户和组**"，然后选择!["](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)添加"，然后输入所需的信息。
 
 2. 执行步骤 4（电子邮件）时，输入你自己的电子邮件地址。这样，就有新用户的名称和密码记录。
 

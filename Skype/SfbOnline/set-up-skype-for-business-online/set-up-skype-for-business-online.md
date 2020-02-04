@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_SkypeforBusinessON
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '了解如何为你的组织设置域、用户、即时消息和状态以安装 Skype for Business。另请参阅如何设置音频会议、电话系统和通话套餐以及 Skype 会议直播。 '
-ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: d30a141b80ade00ef03bafdfab388df56e4b1b7d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746315"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692867"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 

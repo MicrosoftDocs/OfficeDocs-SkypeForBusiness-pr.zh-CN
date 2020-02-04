@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: 73cf9e07cf0239ca7edb546e8b7aaacbb1679e95
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b09925b6f99078ff81fe67f9100f51a19ffa0ab9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276194"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684565"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 范围节点
  
@@ -26,9 +26,9 @@ ms.locfileid: "34276194"
   
 在使用 Windows PowerShell 的服务器上分配视频互操作服务器角色所需的步骤在[Skype For Business server 2015 中的部署 VIS 服务器角色中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)进行了联机介绍。
   
-有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤, 请参阅在[Skype For Business server 2015 中配置视频互操作服务器](../../deploy/deploy-video-interop-server/configure-the-vis.md)。
+有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤，请参阅在[Skype For Business server 2015 中配置视频互操作服务器](../../deploy/deploy-video-interop-server/configure-the-vis.md)。
   
- 要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置, 请在配置 CUCM 上联机描述[与 Skype for Business Server 2015 的互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
+ 要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置，请在配置 CUCM 上联机描述[与 Skype for Business Server 2015 的互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
   
  为与视频网关和 VIS 进行互操作时需要在 Cisco GUI 中设置的 VTC 的设置在[配置 VTC 与 Skype for Business Server 2015 进行互操作](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)时进行介绍。
   

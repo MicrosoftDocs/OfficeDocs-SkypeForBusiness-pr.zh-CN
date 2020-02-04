@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
-description: 第二个跃点池的跃点是前端池 (可以是企业版池或标准版服务器), 或者, 如果你的部署包含控制器, 则下一个跃点是控制器。
-ms.openlocfilehash: 9d10bd326eb709f47ae3a6e9770b38b79f5c4463
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 第二个跃点池的跃点是前端池（可以是企业版池或标准版服务器），或者，如果你的部署包含控制器，则下一个跃点是控制器。
+ms.openlocfilehash: 21dcee7314d7e6cfd17d7c7c4d8e577bcb1edf2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293936"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685225"
 ---
 # <a name="add-edge-server-next-hop"></a>添加 Edge Server 下一个跃点
 
-第二个跃点池的跃点是前端池 (可以是企业版池或标准版服务器), 或者, 如果你的部署包含控制器, 则下一个跃点是控制器。
+第二个跃点池的跃点是前端池（可以是企业版池或标准版服务器），或者，如果你的部署包含控制器，则下一个跃点是控制器。
 
 可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。有关向现有拓扑中添加边缘服务器的详细信息，请参阅边缘服务器部署文档中的[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
 

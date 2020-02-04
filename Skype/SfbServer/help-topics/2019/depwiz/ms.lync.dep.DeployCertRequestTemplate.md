@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过“指定替代证书模板”页，可以定义默认情况下使用的 WebServer 证书模板之外的证书模板。 选中“对选定的证书颁发机构使用替代证书模板”复选框，然后在“证书模板名称”文本框中定义替代证书模板的名称。 必须使用在证书颁发机构 (CA) 中定义的模板名称。 单击“上一步”返回到上一页。 单击“取消”将结束证书请求过程。
-ms.openlocfilehash: 003791098abd1a3f181f5122003ebfee07c5e320
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab5cef4d0609eea59c304d3f4550c017c84d64f0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303466"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691947"
 ---
 # <a name="certificate-request-specify-termplate"></a>证书请求（指定模板）
  

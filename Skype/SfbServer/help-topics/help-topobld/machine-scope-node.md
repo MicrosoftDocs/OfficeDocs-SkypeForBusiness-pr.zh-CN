@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。 可以执行以下操作：
-ms.openlocfilehash: a79f8032ae2174599a6a07332b0e11b3234615ad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3d37a72b086c20a79da6dc5d380e7d8c742e1f4d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276142"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684555"
 ---
 # <a name="machine-scope-node"></a>计算机范围节点
  

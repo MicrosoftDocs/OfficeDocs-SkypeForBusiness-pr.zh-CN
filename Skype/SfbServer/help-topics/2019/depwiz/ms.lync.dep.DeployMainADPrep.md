@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要开始安装 Skype for Business 服务器, 必须准备要托管服务器和用户的 Active Directory 域服务架构、林和域。 Skype for Business 服务器部署向导将引导你完成准备 Active Directory 所需的步骤, 从架构开始, 然后再到林准备。 确认 Active Directory 复制成功后, 即可准备将托管用户或服务器的每个域。
-ms.openlocfilehash: e4de6019303b53a1828d7ee271194ebca107b0c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要开始安装 Skype for Business 服务器，必须准备要托管服务器和用户的 Active Directory 域服务架构、林和域。 Skype for Business 服务器部署向导将引导你完成准备 Active Directory 所需的步骤，从架构开始，然后再到林准备。 确认 Active Directory 复制成功后，即可准备将托管用户或服务器的每个域。
+ms.openlocfilehash: 1cb997223a9f613bac4aeeec45d3a029d4436e18
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276294"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691857"
 ---
 # <a name="prepare-active-directory"></a>准备 Active Directory
 
-若要开始安装 Skype for Business 服务器, 必须准备要托管服务器和用户的 Active Directory 域服务架构、林和域。 Skype for Business 服务器部署向导将引导你完成准备 Active Directory 所需的步骤, 从架构开始, 然后再到林准备。 确认 Active Directory 复制成功后, 即可准备将托管用户或服务器的每个域。
+若要开始安装 Skype for Business 服务器，必须准备要托管服务器和用户的 Active Directory 域服务架构、林和域。 Skype for Business 服务器部署向导将引导你完成准备 Active Directory 所需的步骤，从架构开始，然后再到林准备。 确认 Active Directory 复制成功后，即可准备将托管用户或服务器的每个域。
 
 > [!IMPORTANT]
 > 要成功准备架构，必须以 Enterprise Admins 组和 Schema Admins 组成员身份登录。要准备林，必须以 Enterprise Admins 组成员身份或以林根中的管理员身份登录。对于域准备，必须以 Domain Admins 组成员身份登录。

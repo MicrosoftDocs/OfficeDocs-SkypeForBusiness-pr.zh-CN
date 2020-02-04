@@ -6,21 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 32982ae80badb4304631a8ea4882a8dddab77e71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c8290d1c830d51b80f01d02502fedee47bf5aac
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283638"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690477"
 ---
-# <a name="users-new-user"></a>用户: 新用户
+# <a name="users-new-user"></a>用户：新用户
 
 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
 

@@ -14,25 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
-description: '此报告以及其他 Skype for Business 报告提供有关活动的详细信息, 包括您的组织内的 PSTN 使用情况。 '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: '此报告以及其他 Skype for Business 报告提供有关活动的详细信息，包括您的组织内的 PSTN 使用情况。 '
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793011"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692327"
 ---
 # <a name="users-blocked-report"></a>阻止的用户报告
 
-新的 Skype for business**报告**仪表板显示你的组织中的 Skype for business 产品的活动概述。 它使您能够深入查看各个产品级别的报表, 让您更细致地了解每个产品内的活动。 例如, 您可以使用 "**被阻止的 Skype For business 用户**" 报表查看组织中被阻止进行 PSTN 呼叫的用户。 此报告以及其他 Skype for Business 报告提供有关活动的详细信息, 包括您的组织内的 PSTN 使用情况。
+新的 Skype for business**报告**仪表板显示你的组织中的 Skype for business 产品的活动概述。 它使您能够深入查看各个产品级别的报表，让您更细致地了解每个产品内的活动。 例如，您可以使用 "**被阻止的 Skype For business 用户**" 报表查看组织中被阻止进行 PSTN 呼叫的用户。 此报告以及其他 Skype for Business 报告提供有关活动的详细信息，包括您的组织内的 PSTN 使用情况。
   
- 有关可用报表的详细信息, 请查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
+ 有关可用报表的详细信息，请查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
 > [!NOTE]
-> 当您以管理员身份登录到 Microsoft 365 管理中心时, 您可以看到所有 Skype for Business 报告。 
+> 当您以管理员身份登录到 Microsoft 365 管理中心时，您可以看到所有 Skype for Business 报告。 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>如何访问已阻止的 Skype for Business 用户报告
 
@@ -42,7 +43,7 @@ ms.locfileid: "35793011"
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>解释被阻止的 Skype for Business 用户报告
 
-通过查看显示的每一列, 可以查看被阻止的用户。
+通过查看显示的每一列，可以查看被阻止的用户。
   
 以下是此报告的外观。 
   
@@ -53,7 +54,7 @@ ms.locfileid: "35793011"
 ![第一](../images/sfbcallout1.png)
 *   **用户 ID**是用户的登录。
 *   "**电话号码**" 表示分配给用户的号码。 
-*   **阻止操作时间**是指阻止用户进行呼叫的时间 (UTC)。
+*   **阻止操作时间**是指阻止用户进行呼叫的时间（UTC）。
 *   **阻止操作**是阻止用户所执行的操作类型。
 *   **阻止操作原因**是阻止用户进行呼叫的原因。
 ***
@@ -63,14 +64,14 @@ ms.locfileid: "35793011"
 ![第三](../images/sfbcallout3.png)<br/>
 你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。
 
-此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您的用户少于 2000, 则可以在报表本身的表中对其进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
+此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果您的用户少于2000，则可以在报表本身的表中对其进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
 ***
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
 - [Skype For business 活动报告](activity-report.md)你可以查看你的用户使用对等、组织和参与会议会话的数量。
     
-- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看设备, 包括安装了 Skype for Business 应用的基于 Windows 的操作系统和移动设备并将其用于即时消息和会议。
+- [Skype For business 设备使用情况报告](device-usage-report.md)你可以查看设备，包括安装了 Skype for Business 应用的基于 Windows 的操作系统和移动设备并将其用于即时消息和会议。
     
 - [Skype for business 会议组织者活动报告](conference-organizer-activity-report.md)你可以查看你的用户使用 IM、音频/视频、应用程序共享、Web、拨入/拨出和拨入/拨出的方式组织会议的程度。
     

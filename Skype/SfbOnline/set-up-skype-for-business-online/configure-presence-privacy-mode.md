@@ -14,28 +14,28 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: '了解如何为你的用户设置隐私模式, 以便他们能够更好地控制用户查看其可用性的方式。 '
-ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '了解如何为你的用户设置隐私模式，以便他们能够更好地控制用户查看其可用性的方式。 '
+ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285311"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692927"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 
-Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息, 请参阅[在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
+Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息，请参阅[在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>为组织中的每个人选择默认的联机状态设置
 <a name="__top"> </a>
 
 1. 转到 Skype for Business Online 管理中心 >**组织 > "常规**"。
     
-2. 在 "**状态隐私模式**" 下, 选择设置, 然后单击 "**保存**"。
+2. 在 "**状态隐私模式**" 下，选择设置，然后单击 "**保存**"。
     
 |**设置**|**谁可以查看用户的状态**|
 |:-----|:-----|

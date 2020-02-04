@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: 了解通过 Windows PowerShell 远程管理 Skype for Business Online 的要求，包括支持的操作系统。
-ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5d959abd295c4eeb6916119644d6698e82cec5ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36645152"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692637"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>为 Windows PowerShell 设置计算机
 

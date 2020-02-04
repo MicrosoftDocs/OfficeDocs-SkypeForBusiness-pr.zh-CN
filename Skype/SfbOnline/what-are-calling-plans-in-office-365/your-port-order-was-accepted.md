@@ -16,29 +16,29 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 073c84781e2345f3a4fb2c00515153679678c84f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18e568e226f62b4704ee3a392eacf54a31950c71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290525"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692257"
 ---
 # <a name="your-port-order-was-accepted"></a>已接受你的移植订单
 
-您的端口订单已获批准! 在**Skype for business 管理中心** > **语音** > **电话号码**中查找您的电话号码。
+您的端口订单已获批准！ 在**Skype for business 管理中心** > **语音** > **电话号码**中查找您的电话号码。
   
  **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统**附加设备许可证，或一个 **音频会议**附加设备许可证。
   
-现在已获得批准, 您的电话号码已准备就绪, 您需要执行几项操作才能让所有人都能进行设置。
+现在已获得批准，您的电话号码已准备就绪，您需要执行几项操作才能让所有人都能进行设置。
   
 - 请确保[Skype for business 和 Microsoft 团队附加许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。 您将需要一个**电话系统**和**国内呼叫计划**或**国际通话计划**。
     
-- 创建您[的组织的紧急地址](add-or-remove-an-emergency-address-for-your-organization.md), 如果需要, 您可以为您[的组织添加、更改或删除紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)(在某些国家/地区, 您会收到带有电话号码的紧急地址)。
+- 创建您[的组织的紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)，如果需要，您可以为您[的组织添加、更改或删除紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)（在某些国家/地区，您会收到带有电话号码的紧急地址）。
     
 - 继续[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 

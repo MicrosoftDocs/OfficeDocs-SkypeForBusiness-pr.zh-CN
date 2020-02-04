@@ -16,23 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateFailed
 ms.custom:
 - Calling Plans
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 243b3b739948fbdbeffdb56eeafd400e9bb39e7a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793418"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692277"
 ---
 # <a name="why-has-number-activation-failed"></a>为什么号码激活失败？
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某些原因由于地址验证而未激活电话号码, 你将需要创建服务请求。 你执行此操作的方式基于你的组织规模。
+地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某些原因由于地址验证而未激活电话号码，你将需要创建服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
-1. 在管理中心, 选择 "**需要帮助**？"
+1. 在管理中心，选择 "**需要帮助**？"
 2. 在“**需要帮助?**”窗格中，告诉我们你需要什么帮助，然后选择“**获取帮助**”。
 3. 如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：
     - **允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。 “**需要帮助?**”窗格中会显示回拨的预期等待时间。
@@ -42,7 +42,7 @@ ms.locfileid: "35793418"
 
 1. 使用你的工作或学校帐户以管理员身份登录 Office 365。
     
-2. 在管理中心的左侧导航中, 单击 "**支持** > **新服务请求**"。
+2. 在管理中心的左侧导航中，单击 "**支持** > **新服务请求**"。
     
 3. 在“**服务请求**”下，单击“**添加**”。
     

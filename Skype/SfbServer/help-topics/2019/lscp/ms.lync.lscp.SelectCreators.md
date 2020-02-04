@@ -6,21 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用正确的类别, 创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者, 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
-ms.openlocfilehash: 8407e30711042bdbb460eb653473a64584023258
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 使用正确的类别，创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
+ms.openlocfilehash: cea9d29d826b7a560c8f3ab318c33f07e6f00530
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417851"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690669"
 ---
 # <a name="select-creators"></a>选择创建者
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。
+> Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。

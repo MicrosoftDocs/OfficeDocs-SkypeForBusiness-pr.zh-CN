@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtProviderEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 5561d647de1666b86da6af07f27c59ac3d6bb8cd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7bc4fc938ef7db7fd29dbaaf813a031f09ac2319
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287734"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691287"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP 联盟提供程序：创建新的或编辑现有的
 

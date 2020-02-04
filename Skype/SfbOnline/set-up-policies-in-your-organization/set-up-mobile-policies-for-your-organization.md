@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online，例如允许用户通过其工作电话号码（而不是移动电话号码）在手机上拨打和接听电话的功能。mber.移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
-ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7457b89014395a5ee833b8a35bde68751ade9cfd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962550"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692947"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 

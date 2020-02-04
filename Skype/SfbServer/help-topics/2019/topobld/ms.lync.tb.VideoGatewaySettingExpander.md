@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoGatewaySettingExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: 69514ba25c28954fe297f3ff19450539147bb69d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e37fa12b669d1df34b93ecdb9e7757dd18182cef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307005"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687905"
 ---
 # <a name="video-gateway-setting"></a>视频网关设置
  
@@ -26,11 +26,11 @@ ms.locfileid: "34307005"
   
 在使用 Windows PowerShell 的服务器上分配视频互操作服务器角色所需的步骤在[Skype For Business server 中部署 VIS 服务器角色中](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)进行了联机描述
   
-有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤, 请参阅在[Skype For Business 服务器的 "配置视频互操作服务器" 中](../../../deploy/deploy-video-interop-server/configure-the-vis.md)进行联机介绍。
+有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤，请参阅在[Skype For Business 服务器的 "配置视频互操作服务器" 中](../../../deploy/deploy-video-interop-server/configure-the-vis.md)进行联机介绍。
   
- 要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置, 请在[配置 CUCM 以便与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)时进行联机描述。
+ 要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置，请在[配置 CUCM 以便与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)时进行联机描述。
   
- 为与视频网关和 VIS 进行互操作时需要在 Cisco GUI 中设置的 VTC 的设置, 在[配置 VTC 以与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)时进行介绍。
+ 为与视频网关和 VIS 进行互操作时需要在 Cisco GUI 中设置的 VTC 的设置，在[配置 VTC 以与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)时进行介绍。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -14,25 +14,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: 您可以启用 Skype 会议直播, 并对这些会议的设置和策略进行更改。
-ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以启用 Skype 会议直播，并对这些会议的设置和策略进行更改。
+ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280790"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692607"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对您的组织的 Skype 会议直播设置进行更改
 
-您可以启用 Skype 会议直播, 并对这些会议的设置和策略进行更改。
+您可以启用 Skype 会议直播，并对这些会议的设置和策略进行更改。
   
-- **启用 Skype 会议直播**启用 Skype 会议直播。 启用 Skype 会议直播后, 您需要为[Skype 会议直播设置您的网络](set-up-your-network-for-skype-meeting-broadcast.md)。 如果要为您的企业外部的人员保留网络研讨会和其他广播, 请执行此步骤。 
+- **启用 Skype 会议直播**启用 Skype 会议直播。 启用 Skype 会议直播后，您需要为[Skype 会议直播设置您的网络](set-up-your-network-for-skype-meeting-broadcast.md)。 如果要为您的企业外部的人员保留网络研讨会和其他广播，请执行此步骤。 
     
-- **为我的组织启用 Skype 会议直播预览功能**Skype for Business 客户计划使您能够及早访问新产品和功能。 这让你的组织 sneak 了解即将推出的内容, 以及在我们将产品内部版本发布到公众之前提供反馈的机会。<br/>[Skype for business 预览版](https://www.skypepreview.com/)
+- **为我的组织启用 Skype 会议直播预览功能**Skype for Business 客户计划使您能够及早访问新产品和功能。 这让你的组织 sneak 了解即将推出的内容，以及在我们将产品内部版本发布到公众之前提供反馈的机会。<br/>[Skype for business 预览版](https://www.skypepreview.com/)
     
 - **允许组织者安排匿名会议**这允许组织者创建允许组织外部的任何人无需登录即可加入的广播事件。
     

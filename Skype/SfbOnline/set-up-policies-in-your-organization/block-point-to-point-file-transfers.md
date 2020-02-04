@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 在 Skype for Business Online 中，你可以控制作为现有会议策略设置的一部分的点对点（P2P）文件传输。 但是，这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤，你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 8c2cc90af2642a9094076c1569eee8b0ec4b15ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962520"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693037"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 

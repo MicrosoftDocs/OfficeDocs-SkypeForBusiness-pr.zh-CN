@@ -7,21 +7,21 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMediationMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
-description: 指定要添加为此池中的前端服务器的每台计算机的完全限定的域名 (FQDN)。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后, 更改 FQDN 需要先在拓扑生成器中删除服务器, 然后使用新的 FQDN 将新服务器添加到池中。
-ms.openlocfilehash: d702c3e9dbfe4d75e9ed629ffcb339606c220d78
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 指定要添加为此池中的前端服务器的每台计算机的完全限定的域名（FQDN）。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后，更改 FQDN 需要先在拓扑生成器中删除服务器，然后使用新的 FQDN 将新服务器添加到池中。
+ms.openlocfilehash: 7f5aaef45e130acc9321da09cc8f1ad818040f3a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275288"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685115"
 ---
 # <a name="add-mediation-machine"></a>添加中介计算机
  
-指定要添加为此池中的前端服务器的每台计算机的完全限定的域名 (FQDN)。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后, 更改 FQDN 需要先在拓扑生成器中删除服务器, 然后使用新的 FQDN 将新服务器添加到池中。 
+指定要添加为此池中的前端服务器的每台计算机的完全限定的域名（FQDN）。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后，更改 FQDN 需要先在拓扑生成器中删除服务器，然后使用新的 FQDN 将新服务器添加到池中。 
   
 

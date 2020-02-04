@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserMove
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在“移动用户”页上，可以选择要将所选用户移动到的目标池。
-ms.openlocfilehash: 933436ddcacebbf8b76296323738c51a81d25127
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6774e8e5d26b7521c81b32708b7b3ffdcd1373f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283687"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690507"
 ---
 # <a name="move-user"></a>移动用户
 

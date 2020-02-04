@@ -16,27 +16,27 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
 description: 查看将电话号码移植到 Skype for Business 后需要执行的下一步操作。
-ms.openlocfilehash: 52096606d6317109726a66cea66e12fef855d43c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290695"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692287"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>通过电话号码移植后需要执行哪些操作？
 
-提交您的端口订单后, 我们将与您的运营商联系, 并与他们进行详细介绍。 设置最终转移日期后, 我们将通过电子邮件通知您。 但是, 在等待运营商接受订单时, 请继续操作并创建将用于这些号码的所需紧急地址。
+提交您的端口订单后，我们将与您的运营商联系，并与他们进行详细介绍。 设置最终转移日期后，我们将通过电子邮件通知您。 但是，在等待运营商接受订单时，请继续操作并创建将用于这些号码的所需紧急地址。
   
 - 深入了解[什么是紧急位置、地址和呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     
-- 如果需要, 您可以[为您的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)。
+- 如果需要，您可以[为您的组织添加或删除紧急地址](add-or-remove-an-emergency-address-for-your-organization.md)。
     
-- 如果您的电话号码已有紧急地址, 请[添加、更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
+- 如果您的电话号码已有紧急地址，请[添加、更改或删除您的组织的紧急位置](add-change-or-remove-an-emergency-location-for-your-organization.md)。
     
 - [为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 

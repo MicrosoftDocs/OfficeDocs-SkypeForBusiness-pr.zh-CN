@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 本主题定义了 Skype for Business Online 服务的网络性能要求集，以及如何选择使用 Internet 或 ExpressRoute 在网络与 Skype for business Online 之间建立连接，从而了解网络的评估互连. 如果你已决定将 Azure ExpressRoute 部署到 Office 365 的专用连接，此文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指南。
-ms.openlocfilehash: de093cee8981a50e376a29eda3a38bae396e5ba3
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 2d9192f4dfb27de97527ff584c0ab0a204e20cca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111496"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693067"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online 中的媒体质量和网络连接性能
 

@@ -1,5 +1,5 @@
 ---
-title: GOV、EDU 和非营利性组织
+title: 用于政府、教育机构和非盈利性组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: cc58055f2163372ff1385764751ba011075fd11d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301248"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692497"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
+# <a name="gov-edu-and-non-profit-organizations"></a>用于政府、教育机构和非盈利性组织
 
 Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 

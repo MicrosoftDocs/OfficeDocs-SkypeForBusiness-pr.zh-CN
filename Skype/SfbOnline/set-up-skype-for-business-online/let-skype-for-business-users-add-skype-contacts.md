@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
 description: '了解如何让使用 Skype for Business 的人员联系你组织外部的 Skype for Business 用户并将其添加到联系人列表。 '
-ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792140"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692877"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 
@@ -36,7 +37,7 @@ ms.locfileid: "35792140"
   
 1. 使用 Office 365 管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)。
     
-2. 在管理中心, 转到 "**管理中心** > "**Skype for**business。 
+2. 在管理中心，转到 "**管理中心** > "**Skype for**business。 
     
     ![选择“Skype for Business 管理中心”。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时, 它将显示在 "Skype for Business 服务器" 控制面板的 "测试设备" 页面上的列表中。
-ms.openlocfilehash: bd18d1a48900d0b8e2ea97db9c6e48a7a7fdc862
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 "Skype for Business 服务器" 控制面板的 "测试设备" 页面上的列表中。
+ms.openlocfilehash: f869669a657997a4d020c2dc54015bd16a5f9443
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300463"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691547"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>测试设备：创建新的或编辑现有的
 
-测试设备功能与设备更新功能结合使用。 可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时, 它将显示在 "Skype for Business 服务器" 控制面板的 "**测试设备**" 页面上的列表中。
+测试设备功能与设备更新功能结合使用。 可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 "Skype for Business 服务器" 控制面板的 "**测试设备**" 页面上的列表中。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -36,13 +36,13 @@ ms.locfileid: "34300463"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **范围**标识测试设备的范围 (全局或网站)。
+- **范围**标识测试设备的范围（全局或网站）。
 
 - **名称**你可以添加或修改测试设备的名称。
 
 - **设备名称**你可以添加或修改测试设备的名称。
 
-- **标识符类型**你可以通过选择下列操作之一来选择用于标识设备的方法:
+- **标识符类型**你可以通过选择下列操作之一来选择用于标识设备的方法：
 
   - **MAC 地址**
 
