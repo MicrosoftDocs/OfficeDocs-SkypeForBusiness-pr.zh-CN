@@ -1,8 +1,10 @@
 ---
-title: '第3阶段: 部署 Lync Server 2013 试验池'
+title: 第3阶段：部署 Lync Server 2013 试验池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204849(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e348ea9eb0647ff3fb3b8dd809bdebed98994133
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 87a5275f423ba8acafd885332a14de2efa030a33
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845155"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>第3阶段: 部署 Lync Server 2013 试验池
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>第3阶段：部署 Lync Server 2013 试验池
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845155"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-28_
+_**主题上次修改时间：** 2012-08-28_
 
-本部分介绍了部署 Lync Server 2013 试验部署所需的步骤, 以及用于确保两个池共存的几个关键验证步骤。
+本部分介绍了部署 Lync Server 2013 试验部署所需的步骤，以及用于确保两个池共存的几个关键验证步骤。
 
 <div>
 

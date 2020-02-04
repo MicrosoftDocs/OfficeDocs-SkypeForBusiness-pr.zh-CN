@@ -3,6 +3,8 @@ title: Lync Server 2013：IP 和网络协议支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IP and networking protocol support
 ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a35395c9bb7eb8d90e5618ba6afde17defdbbcfd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 285ed0d383b09276979ad6e29c390e2fc22a1caf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34829951"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-21_
+_**主题上次修改时间：** 2012-09-21_
 
-Lync Server 2013 支持下列 IP 和网络协议:
+Lync Server 2013 支持下列 IP 和网络协议：
 
-  - **IP 协议。**   Lync server 2013 支持服务器网络的 ip 版本 4 (IPv4) 或 ip 版本 6 (IPv6)。
+  - **IP 协议。**   Lync server 2013 支持服务器网络的 ip 版本4（IPv4）或 ip 版本6（IPv6）。
     
     <div>
     
@@ -48,7 +50,7 @@ Lync Server 2013 支持下列 IP 和网络协议:
     
     </div>
 
-  - **SIP 传输协议。**   通常, SIP 可以使用至少三种传输类型: 用户数据报协议 (UDP)、传输控制协议 (TCP) 和传输层安全性 (TLS)。 在默认 SIP 传输配置中, TLS 将通过 TCP 运行。 TLS 在 Lync Server 2013 网络中使用。 在网络边缘, Lync Server 2013 可以通过 TCP 进行互操作。 Lync Server 2013 不支持 SIP 传输 UDP, 因为它不符合企业通信安全性、可靠性和可伸缩性的最低标准。 有关详细信息, 请参阅 NextHop 博客文章、"到 UDP" 或 "不是 UDP" (这是问题) [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)。
+  - **SIP 传输协议。**   通常，SIP 可以使用至少三种传输类型：用户数据报协议（UDP）、传输控制协议（TCP）和传输层安全性（TLS）。 在默认 SIP 传输配置中，TLS 将通过 TCP 运行。 TLS 在 Lync Server 2013 网络中使用。 在网络边缘，Lync Server 2013 可以通过 TCP 进行互操作。 Lync Server 2013 不支持 SIP 传输 UDP，因为它不符合企业通信安全性、可靠性和可伸缩性的最低标准。 有关详细信息，请参阅 NextHop 博客文章、"到 UDP" 或 "不是 UDP" （这是问题） [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)。
     
     <div>
     

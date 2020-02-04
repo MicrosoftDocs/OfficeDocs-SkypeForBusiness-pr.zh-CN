@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 编辑网络配置图表'
+title: Lync Server 2013：编辑网络配置图表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the network configuration diagram
 ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830319"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
-设计器在 Lync Server 2013 中所执行的大部分工作都包含为网络图上的条目定义 IP 地址和完全限定域名 (Fqdn) 的条目。 在此页面上输入的信息将传递到 "规划工具" 中包含的报表和其他信息中。
+设计器在 Lync Server 2013 中所执行的大部分工作都包含为网络图上的条目定义 IP 地址和完全限定域名（Fqdn）的条目。 在此页面上输入的信息将传递到 "规划工具" 中包含的报表和其他信息中。
 
-![规划工具网络图](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "规划工具网络图")
+![规划工具 - 网络图](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "规划工具 - 网络图")
 
 规划工具使用 IP 地址和 Fqdn 的默认文本创建网络图。
 
@@ -61,7 +63,7 @@ _**主题上次修改时间:** 2013-02-21_
 
 完成所有编辑后，执行以下步骤以保存拓扑：
 
-若要保存规划工具设计, 请单击 "**文件**", 然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
+若要保存规划工具设计，请单击 "**文件**"，然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
 
 <div>
 

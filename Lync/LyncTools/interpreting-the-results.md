@@ -3,6 +3,8 @@ title: 解释结果
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Interpreting the Results
 ms:assetid: dd7f199f-7075-4d88-bb84-49a7e05eb593
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0a3dc473765a67db2e09f5a56db14b1ea8a41a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dcb1d84392cf9f56f2996281eb53e798690ba1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838046"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-24_
+_**主题上次修改时间：** 2013-02-24_
 
-Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你可以使用这些计数器来了解客户端正在执行的操作以及它是否会遇到问题。
+Lync Server 2013 应力和性能工具（LyncPerfTool）具有许多计数器，你可以使用这些计数器来了解客户端正在执行的操作以及它是否会遇到问题。
 
 <div>
 
@@ -43,11 +45,11 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 
 正在运行的 LyncPerfTool 的每个实例都具有计数器的单独实例。 每个实例均按其进程 ID 命名。
 
-如果客户端超载, 可能会出现问题。 若要防止这些问题, 请执行下列操作:
+如果客户端超载，可能会出现问题。 若要防止这些问题，请执行下列操作：
 
-1.  监视客户端计算机上的 CPU 和内存使用情况。 如果 CPU 持续超过 90%, 请减少用户数。
+1.  监视客户端计算机上的 CPU 和内存使用情况。 如果 CPU 持续超过90%，请减少用户数。
 
-2.  如果内存占用量较高, 则当页面文件不够大时, 可能会遇到问题。 验证确认费用未达到计算机的限制。 如果您运行的是内存限制, 请考虑增加页面文件大小或减少用户数
+2.  如果内存占用量较高，则当页面文件不够大时，可能会遇到问题。 验证确认费用未达到计算机的限制。 如果您运行的是内存限制，请考虑增加页面文件大小或减少用户数
 
 下表列出了关键 LyncPerfTool 性能计数器。
 
@@ -111,7 +113,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 <tbody>
 <tr class="odd">
 <td><p>SetPresence 通话</p></td>
-<td><p>联机状态更改尝试总数。 对于不同类型的状态更改, 请参阅 SetPresence (状态类型) 调用性能计数器。</p></td>
+<td><p>联机状态更改尝试总数。 对于不同类型的状态更改，请参阅 SetPresence （状态类型）调用性能计数器。</p></td>
 </tr>
 <tr class="even">
 <td><p>SetPresence 的 NNN 响应</p></td>
@@ -131,7 +133,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 
 **通讯簿服务信息**
 
-此类别包括用于监视通讯簿服务 (ABS) 文件下载和通讯簿 Web 查询服务请求的计数器。
+此类别包括用于监视通讯簿服务（ABS）文件下载和通讯簿 Web 查询服务请求的计数器。
 
 
 <table>
@@ -174,7 +176,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 </table>
 
 
-**通讯组列表 (DL) 信息**
+**通讯组列表（DL）信息**
 
 
 <table>
@@ -191,7 +193,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 <tbody>
 <tr class="odd">
 <td><p>已尝试呼叫</p></td>
-<td><p>尝试的通讯组列表展开 (DLX) web 服务请求的总数。</p></td>
+<td><p>尝试的通讯组列表展开（DLX） web 服务请求的总数。</p></td>
 </tr>
 <tr class="even">
 <td><p>通话成功</p></td>
@@ -207,7 +209,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 
 **VoIP 基本信息**
 
-以下列出的性能计数器将在启用这些方案时针对所有 IP 语音 (VoIP) 呼叫 (包括中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议自动助理) 的报告编号。
+以下列出的性能计数器将在启用这些方案时针对所有 IP 语音（VoIP）呼叫（包括中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议自动助理）的报告编号。
 
 
 <table>
@@ -247,7 +249,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 <td><p>从服务器接收的 nnn 响应代码的总数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP 传递率 (%)</p></td>
+<td><p>VoIP 传递率（%）</p></td>
 <td><p>已建立通话总次数/尝试的通话总次数。</p></td>
 </tr>
 </tbody>
@@ -281,7 +283,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 </table>
 
 
-**即时消息 (IM) 呼叫信息**
+**即时消息（IM）呼叫信息**
 
 
 <table>
@@ -384,7 +386,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 <tbody>
 <tr class="odd">
 <td><p>通话处于活动状态</p></td>
-<td><p>当前正在进行的传入/传出公共交换电话网络 (PSTN) 呼叫总数。</p></td>
+<td><p>当前正在进行的传入/传出公共交换电话网络（PSTN）呼叫总数。</p></td>
 </tr>
 <tr class="even">
 <td><p>通话终止</p></td>
@@ -423,7 +425,7 @@ Lync Server 2013 应力和性能工具 (LyncPerfTool) 具有许多计数器, 你
 </tr>
 <tr class="even">
 <td><p>活动音频/视频会议</p></td>
-<td><p>正在进行的音频/视频 (A/V) 会议总数。</p></td>
+<td><p>正在进行的音频/视频（A/V）会议总数。</p></td>
 </tr>
 <tr class="odd">
 <td><p>活动应用程序共享会议</p></td>

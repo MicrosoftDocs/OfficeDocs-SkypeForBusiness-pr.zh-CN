@@ -3,6 +3,8 @@ title: Lync Server 2013：配置中继
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring trunks
 ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d40a290f75ae48b73a4695e04ea2934b0c4d695
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1021295b375e4f28294ffb1ca5738d651f9ced2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837165"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-作为企业语音部署的一部分, 您可以在中介服务器和一个或多个以下对等方之间配置主干, 以便为企业语音客户端和组织中的设备提供公共交换电话网络 (PSTN) 连接:
+作为企业语音部署的一部分，您可以在中介服务器和一个或多个以下对等方之间配置主干，以便为企业语音客户端和组织中的设备提供公共交换电话网络（PSTN）连接：
 
   - 到 Internet 电话服务提供商 (ITSP) 的 SIP 中继连接
 
@@ -43,13 +45,13 @@ _**主题上次修改时间:** 2012-11-01_
 
   - 专用交换机 (PBX)
 
-有关详细信息, 请参阅规划文档中的[Lync Server 2013 中的 "规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)"。
+有关详细信息，请参阅规划文档中的[Lync Server 2013 中的 "规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)"。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在开始中继配置之前, 验证已创建拓扑, 并且中介服务器及其对等已配置并与另一个关联。 有关详细信息, 请参阅部署文档中<A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013 的拓扑生成器中的 "定义网关</A>"。
+> 在开始中继配置之前，验证已创建拓扑，并且中介服务器及其对等已配置并与另一个关联。 有关详细信息，请参阅部署文档中<A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013 的拓扑生成器中的 "定义网关</A>"。
 
 
 
@@ -59,7 +61,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 
 > [!NOTE]  
-> 作为主干配置的一部分, 你可以启用 Lync Server 2013 媒体绕过功能, 这使媒体能够绕过中介服务器。 中继可以使用或不启用媒体旁路进行配置, 但我们强烈建议你启用它。 有关详细信息, 请参阅规划文档中的在<A href="lync-server-2013-planning-for-media-bypass.md">Lync Server 2013 中规划媒体旁路</A>。
+> 作为主干配置的一部分，你可以启用 Lync Server 2013 媒体绕过功能，这使媒体能够绕过中介服务器。 中继可以使用或不启用媒体旁路进行配置，但我们强烈建议你启用它。 有关详细信息，请参阅规划文档中的在<A href="lync-server-2013-planning-for-media-bypass.md">Lync Server 2013 中规划媒体旁路</A>。
 
 
 

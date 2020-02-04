@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 服务器角色和服务 cmdlet'
+title: Lync Server 2013：服务器角色和服务 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server roles and services cmdlets
 ms:assetid: ff3561de-043e-4071-88f7-8de3cded52f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415683(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0504a98403c32d068034c9b5588cbe7cf1bda091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f59ff1b76b2381c611f07f09bbdaabcdc5e4a69b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822095"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34822095"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-29_
+_**主题上次修改时间：** 2013-07-29_
 
-许多 Microsoft Lync Server 2013 组件作为服务器角色或服务运行。 Lync Server 2013 附带了许多 cmdlet, 可让你管理这些服务器角色和服务。
+许多 Microsoft Lync Server 2013 组件作为服务器角色或服务运行。 Lync Server 2013 附带了许多 cmdlet，可让你管理这些服务器角色和服务。
 
 <div>
 
 ## <a name="server-roles-and-services-cmdlets"></a>服务器角色和服务 Cmdlet
 
-适用于服务器和服务角色的许多 (但非全部) 管理任务可以从 Lync Server 控制面板执行。 例如, 您可以使用 Lync Server "控制面板" 管理存档服务器设置, 但不能管理通讯簿服务器设置。 但是, 所有这些任务都可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行;使用脚本可以自动执行某些任务。 以下是与管理服务器角色和服务直接相关的 cmdlet 的列表:
+适用于服务器和服务角色的许多（但非全部）管理任务可以从 Lync Server 控制面板执行。 例如，您可以使用 Lync Server "控制面板" 管理存档服务器设置，但不能管理通讯簿服务器设置。 但是，所有这些任务都可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行;使用脚本可以自动执行某些任务。 以下是与管理服务器角色和服务直接相关的 cmdlet 的列表：
 
 **[Lync Server 2013 中的通讯簿服务器 cmdlet](lync-server-2013-address-book-server-cmdlets.md)**
 

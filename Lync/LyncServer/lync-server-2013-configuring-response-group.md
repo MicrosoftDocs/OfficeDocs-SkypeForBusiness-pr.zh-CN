@@ -3,6 +3,8 @@ title: Lync Server 2013：配置响应组
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Response Group
 ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4d12d1ee21cfa5e480dea52a0de9f89b250715c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34837179"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-30_
+_**主题上次修改时间：** 2012-10-30_
 
-响应组是一种企业语音功能, 用于将传入呼叫路由和排队到一组人员 (称为*工程师*, 如帮助桌面或客户服务桌面)。
+响应组是一种企业语音功能，用于将传入呼叫路由和排队到一组人员（称为*工程师*，如帮助桌面或客户服务桌面）。
 
-部署 "企业语音" 时, 将在前端服务器或标准版服务器上自动安装和启用响应组所需的组件。 若要使 "响应组" 对用户可用, 必须先配置代理组、"队列" 和 "工作流"。 此外, 响应组管理员可以将现有工作流的配置委派给响应组管理器, 然后这些管理员可以修改和重新配置工作流及其关联的代理组和队列。
+部署 "企业语音" 时，将在前端服务器或标准版服务器上自动安装和启用响应组所需的组件。 若要使 "响应组" 对用户可用，必须先配置代理组、"队列" 和 "工作流"。 此外，响应组管理员可以将现有工作流的配置委派给响应组管理器，然后这些管理员可以修改和重新配置工作流及其关联的代理组和队列。
 
-本部分将指导你完成 Lync Server 2013 响应组的配置。 它假设你已阅读与响应组相关的计划部分, 并已部署企业版服务器或具有企业语音的标准版服务器。
+本部分将指导你完成 Lync Server 2013 响应组的配置。 它假设你已阅读与响应组相关的计划部分，并已部署企业版服务器或具有企业语音的标准版服务器。
 
 <div>
 
 
 > [!TIP]  
-> 有关使用 Lync Server 命令行管理程序创建响应组的详细信息, 包括示例脚本, 请参阅 "在" 处<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>使用 Lync Server Management Shell 创建第一个响应组。
+> 有关使用 Lync Server 命令行管理程序创建响应组的详细信息，包括示例脚本，请参阅 "在" 处<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>使用 Lync Server Management Shell 创建第一个响应组。
 
 
 

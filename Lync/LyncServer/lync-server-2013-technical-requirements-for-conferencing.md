@@ -3,6 +3,8 @@ title: Lync Server 2013 会议技术要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34845695"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-06-25_
+_**主题上次修改时间：** 2014-06-25_
 
-对于 Lync Server 2013, 电话拨入式会议, A/V 会议、即时消息 (IM) 会议和网络会议功能始终在前端服务器上运行。
+对于 Lync Server 2013，电话拨入式会议，A/V 会议、即时消息（IM）会议和网络会议功能始终在前端服务器上运行。
 
-本节详细介绍了这些服务器的硬件和软件要求, 以及支持的 collocation。
+本节详细介绍了这些服务器的硬件和软件要求，以及支持的 collocation。
 
-电话拨入式会议是包含各种组件的功能。 某些组件特定于电话拨入式会议, 而有些则是企业语音组件。 本部分介绍特定于电话拨入式会议的组件的要求。 有关中介服务器和公共交换电话网络 (PSTN) 网关要求的详细信息, 请参阅[lync server 2013 中的中介服务器组件](lync-server-2013-mediation-server-component.md)和计划中的[lync server 2013 中的中介服务器组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)文档.
+电话拨入式会议是包含各种组件的功能。 某些组件特定于电话拨入式会议，而有些则是企业语音组件。 本部分介绍特定于电话拨入式会议的组件的要求。 有关中介服务器和公共交换电话网络（PSTN）网关要求的详细信息，请参阅规划文档中 lync server [2013 中的中介服务器组件](lync-server-2013-mediation-server-component.md)和[lync server 2013 中的中介服务器组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)。
 
 <div>
 
 ## <a name="hardware-requirements"></a>硬件要求
 
-由于 web 会议和 A/V 会议与前端服务器 collocated, 因此服务器硬件要求与前端服务器的要求相同。 有关硬件要求的详细信息, 请参阅支持文档中的[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。 电话拨入式会议所需的以下组件还具有与前端服务器相同的硬件要求:
+由于 web 会议和 A/V 会议与前端服务器 collocated，因此服务器硬件要求与前端服务器的要求相同。 有关硬件要求的详细信息，请参阅支持文档中的[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。 电话拨入式会议所需的以下组件还具有与前端服务器相同的硬件要求：
 
   - 应用程序服务
 
@@ -61,13 +63,13 @@ _**主题上次修改时间:** 2014-06-25_
 
 ## <a name="software-requirements"></a>软件要求
 
-由于 web 会议和 A/V 会议与前端服务器 collocated, 因此服务器软件要求与前端服务器的要求相同。 有关软件要求的详细信息, 请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
+由于 web 会议和 A/V 会议与前端服务器 collocated，因此服务器软件要求与前端服务器的要求相同。 有关软件要求的详细信息，请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
 
-对于 web 会议, Lync Server 2013 还需要 Office Web Apps 和 Office Web Apps 服务器 (以前称为 WAC Server) 来处理 PowerPoint 演示文稿。 有关详细信息, 请参阅[配置与 Office Web Apps server 和 Lync server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+对于 web 会议，Lync Server 2013 还需要 Office Web Apps 和 Office Web Apps 服务器（以前称为 WAC Server）来处理 PowerPoint 演示文稿。 有关详细信息，请参阅[配置与 Office Web Apps server 和 Lync server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
-对于电话拨入式会议, 应用程序服务、会议助理应用程序和会议公告应用程序与前端服务器具有相同的操作系统要求。 有关软件要求的详细信息, 请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
+对于电话拨入式会议，应用程序服务、会议助理应用程序和会议公告应用程序与前端服务器具有相同的操作系统要求。 有关软件要求的详细信息，请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
 
-会议助理应用程序和会议通知应用程序要求 Windows Media 格式运行时安装在前端服务器上。 需要 Windows Media 格式运行时才能播放 Windows Media 音频 (WMA) 文件, 这些文件用于在保留时使用的音乐、录制的名称和提示。 除 Windows Server 2012 和 Windows Server 2012 R2 外, Windows Media 格式运行时会在你运行安装程序时自动安装为 Windows 桌面体验的一部分, 但你可能需要重新启动计算机。 因此, 我们建议你作为 Windows 桌面体验的一部分进行安装, 其中包括 Windows Media 格式运行时, 然后再运行安装程序。 Windows Server 2012 和 Windows Server 2012 R2 需要 Microsoft Media Foundation。
+会议助理应用程序和会议通知应用程序要求 Windows Media 格式运行时安装在前端服务器上。 需要 Windows Media 格式运行时才能播放 Windows Media 音频（WMA）文件，这些文件用于在保留时使用的音乐、录制的名称和提示。 除 Windows Server 2012 和 Windows Server 2012 R2 外，Windows Media 格式运行时会在你运行安装程序时自动安装为 Windows 桌面体验的一部分，但你可能需要重新启动计算机。 因此，我们建议你作为 Windows 桌面体验的一部分进行安装，其中包括 Windows Media 格式运行时，然后再运行安装程序。 Windows Server 2012 和 Windows Server 2012 R2 需要 Microsoft Media Foundation。
 
 </div>
 
@@ -75,9 +77,9 @@ _**主题上次修改时间:** 2014-06-25_
 
 ## <a name="port-requirements-for-dial-in-conferencing"></a>拨入式会议的端口要求
 
-下表描述了电话拨入式会议使用的端口。 如果使用负载平衡器, 请确保为将在池中运行的任何应用程序使用的端口配置负载平衡器。
+下表描述了电话拨入式会议使用的端口。 如果使用负载平衡器，请确保为将在池中运行的任何应用程序使用的端口配置负载平衡器。
 
-这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息, 请参阅 Lync Server Management Shell 文档。
+这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档。
 
 <div>
 
@@ -121,9 +123,9 @@ _**主题上次修改时间:** 2014-06-25_
 
 ## <a name="supported-clients-for-dial-in-conferencing"></a>电话拨入式会议支持的客户端
 
-你可以使用以下客户端安排支持拨入访问的本地会议:
+你可以使用以下客户端安排支持拨入访问的本地会议：
 
-  - Lync 2013 的联机会议加载项 (安装 Lync 2013 或与会者时自动安装)
+  - Lync 2013 的联机会议加载项（安装 Lync 2013 或与会者时自动安装）
 
 </div>
 
@@ -192,11 +194,11 @@ _**主题上次修改时间:** 2014-06-25_
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>电话拨入式会议的音频文件要求
 
-Lync Server 2013 不支持自定义电话拨入式会议的语音提示和音乐。 但是, 如果您有要求更改默认音频文件的强有力的业务需求, 请参阅 Microsoft 知识库文章 961177, 了解[如何在 Microsoft Office 通信服务器中自定义电话拨入式音频会议的语音提示或音乐文件2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
+Lync Server 2013 不支持自定义电话拨入式会议的语音提示和音乐。 但是，如果你有要求更改默认音频文件的强有力的业务需求，请参阅 Microsoft 知识库文章961177，[了解如何在 Microsoft Office 通信服务器 2007 R2 中自定义语音提示或音乐文件进行电话拨入音频会议](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
 
-你还可以使用[Microsoft Lync Server 会议助理自定义语音提示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理工具, 这使管理员能够替换在电话呼叫者加入 Lync 会议时使用的默认语音提示, 以便提供不同的会议进入体验。 自定义语音提示可以安装在运行 Lync Server 2010 或 Lync Server 2013 (企业版或标准版) 的服务器上。
+你还可以使用[Microsoft Lync Server 会议助理自定义语音提示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理工具，这使管理员能够替换在电话呼叫者加入 Lync 会议时使用的默认语音提示，以便提供不同的会议输入体验。 自定义语音提示可以安装在运行 Lync Server 2010 或 Lync Server 2013 （企业版或标准版）的服务器上。
 
-会议助理应用程序和会议公告应用程序对保留音乐、录制的名称和音频提示文件具有以下要求:
+会议助理应用程序和会议公告应用程序对保留音乐、录制的名称和音频提示文件具有以下要求：
 
   - Windows Media 音频 (WMA) 文件格式
 
@@ -212,7 +214,7 @@ Lync Server 2013 不支持自定义电话拨入式会议的语音提示和音乐
 
 ## <a name="user-requirements-for-dial-in-conferencing"></a>电话拨入式会议的用户要求
 
-电话拨入式会议用户必须为其帐户分配唯一的电话号码或分机。 该要求支持在电话拨入式会议期间进行身份验证。 企业用户 (即, 在您的组织内具有 Active Directory 域服务凭据和 Lync 服务器帐户的用户) 输入其电话号码 (或分机) 和个人识别码 (PIN), 以一种方式拨入会议已验证用户。
+电话拨入式会议用户必须为其帐户分配唯一的电话号码或分机。 该要求支持在电话拨入式会议期间进行身份验证。 企业用户（即，在您的组织内具有 Active Directory 域服务凭据和 Lync 服务器帐户的用户）输入其电话号码（或分机）和个人识别码（PIN），以一种方式拨入会议已验证用户。
 
 </div>
 

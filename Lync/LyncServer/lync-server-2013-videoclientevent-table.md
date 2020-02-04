@@ -3,6 +3,8 @@ title: Lync Server 2013：VideoClientEvent 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoClientEvent table
 ms:assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79b428a639cee6fb0df04cc969b529c5bbbfb2c9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8ff9e19288aaaa09b8c72f857f3cfcf4e5331dd7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845370"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845370"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-每条记录包含视频呼叫中一个终结点的客户端事件。 通常, 一个通话有两个记录, 一个用于呼叫方, 另一个用于被呼叫方。
+每条记录包含视频呼叫中一个终结点的客户端事件。 通常，一个通话有两个记录，一个用于呼叫方，另一个用于被呼叫方。
 
 
 <table>
@@ -76,8 +78,8 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>FromCaller</strong></p></td>
 <td><p>bit</p></td>
 <td><p>Primary</p></td>
-<td><p>0: 被调用方的数据</p>
-<p>1: 调用方的数据</p></td>
+<td><p>0：被调用方的数据</p>
+<p>1：调用方的数据</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
@@ -90,7 +92,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td></td>
 <td><p> </p></td>
 <td><p>会话百分比为 "坏" 状态引发 ReceiveSendQuality 事件的百分比。</p>
-<p>"抖动" 或 "数据包丢失" 方面的网络质量非常严重, 影响接收音频的质量。</p></td>
+<p>"抖动" 或 "数据包丢失" 方面的网络质量非常严重，影响接收音频的质量。</p></td>
 </tr>
 </tbody>
 </table>

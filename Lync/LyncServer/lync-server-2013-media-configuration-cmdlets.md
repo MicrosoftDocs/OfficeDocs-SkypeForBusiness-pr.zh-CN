@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 媒体配置 cmdlet'
+title: Lync Server 2013：媒体配置 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media configuration cmdlets
 ms:assetid: 3b0802a4-3ce5-4ffd-89bb-292a2e86ff0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415647(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56af76d4c7b1eb1764869736f6e14ed1d6e03f94
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f676730eac8ec6959d10ad2dd039f2aa124a0a65
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827457"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41761938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827457"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-03-21_
+_**主题上次修改时间：** 2012-03-21_
 
 与媒体配置相关的 cmdlet 允许你指定支持的加密级别和最大的视频分辨率。
 

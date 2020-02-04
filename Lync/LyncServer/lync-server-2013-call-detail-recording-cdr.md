@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 呼叫详细记录 (CDR)'
+title: Lync Server 2013：呼叫详细记录（CDR）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call detail recording (CDR)
 ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a15053ee79a246889f1802e5b7801e548574c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837700"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34837700"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Lync Server 2013 中的呼叫详细记录 (CDR)
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Lync Server 2013 中的呼叫详细记录（CDR）
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837700"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
-呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 安装 Lync Server 2013 时, 你还将安装用于 CDR 的全局配置设置的预定义集合。 使用本节中的过程可配置 CDR。
+呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 安装 Lync Server 2013 时，你还将安装用于 CDR 的全局配置设置的预定义集合。 使用本节中的过程可配置 CDR。
 
 <div>
 

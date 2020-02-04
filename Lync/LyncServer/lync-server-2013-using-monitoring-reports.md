@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 使用监视报告'
+title: Lync Server 2013：使用监视报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Monitoring Reports
 ms:assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558662(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b7c1e70a47e3f3043215e1d16e1f01bfec4b677
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845420"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,23 +35,23 @@ ms.locfileid: "34845420"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-21_
+_**主题上次修改时间：** 2012-10-21_
 
 Lync Server 2013 包含一组由 Microsoft SQL Server Reporting Service 发布的标准报表。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
 
-若要使用这些报表, 必须在运行 SQL Server 实例的计算机上安装监视报告。
+若要使用这些报表，必须在运行 SQL Server 实例的计算机上安装监视报告。
 
 <div>
 
 ## <a name="in-this-section"></a>本节内容
 
-  - [使用 Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   中的 "监视" 仪表板, 管理员可以快速了解其系统运行状况和系统使用情况。
+  - [使用 Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   中的 "监视" 仪表板，管理员可以快速了解其系统运行状况和系统使用情况。
 
   - [Lync server 2013](lync-server-2013-system-usage-reports.md)   中的系统使用情况报告提供基于 Lync Server 收集的 CDR 数据的系统使用信息。
 
-  - [在 Lync Server 2013 中呼叫诊断报告 (每用户)](lync-server-2013-call-diagnostic-reports-per-user.md)   提供有关失败的对等和会议会话的每用户信息。
+  - [在 Lync Server 2013 中呼叫诊断报告（每用户）](lync-server-2013-call-diagnostic-reports-per-user.md)   提供有关失败的对等和会议会话的每用户信息。
 
-  - [在 Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   中调用诊断报告, 为失败的对等和会议会话提供摘要信息和诊断数据。
+  - [在 Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   中调用诊断报告，为失败的对等和会议会话提供摘要信息和诊断数据。
 
   - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   中的媒体质量诊断报告提供有关通话质量的信息以及失败呼叫的诊断和疑难解答信息。
 

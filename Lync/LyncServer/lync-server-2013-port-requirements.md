@@ -3,6 +3,8 @@ title: Lync Server 2013 端口要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port requirements
 ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398798(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fddb9e1ad518196b3ac2ac1d8c5d2dc0ebeac972
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824293"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824293"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-03-27_
+_**主题上次修改时间：** 2013-03-27_
 
 Lync 服务器要求防火墙上的特定端口处于打开状态。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。
 
@@ -41,7 +43,7 @@ Lync 服务器要求防火墙上的特定端口处于打开状态。 此外，�
 
 ## <a name="in-this-section"></a>本节内容
 
-本部分包含以下主题:
+本部分包含以下主题：
 
   - [Lync Server 2013 中内部服务器的端口和协议](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 

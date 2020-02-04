@@ -3,6 +3,8 @@ title: Lync Server 2013：CallPriorities 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: CallPriorities table
 ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398093(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdf08f1dfa8cd04b29f6edb6604a57ab5ec9e822
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837691"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837691"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-CallPriorities 表是一个静态表, 用于存储可能的调用优先级列表, 例如 "紧急"、"紧急" 或 "正常"。
+CallPriorities 表是一个静态表，用于存储可能的调用优先级列表，例如 "紧急"、"紧急" 或 "正常"。
 
 
 <table>
@@ -64,7 +66,7 @@ CallPriorities 表是一个静态表, 用于存储可能的调用优先级列表
 <td><p><strong>优先级</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td></td>
-<td><p>允许的值:</p>
+<td><p>允许的值：</p>
 <ul>
 <li><p>0-未知</p></li>
 <li><p>1-非紧急</p></li>

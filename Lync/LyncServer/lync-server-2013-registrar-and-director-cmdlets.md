@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 注册机构和控制器 cmdlet'
+title: Lync Server 2013：注册机构和控制器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registrar and Director cmdlets
 ms:assetid: 327c08ab-7e1e-47c0-b280-a001722c116f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6b27addf56bd9a3c1171d9b2430005675f8eb3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5512b80d5860c94d379c5c5d43e51cdb8ac5177
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824027"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34824027"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-注册机构和控制器用于对登录请求进行身份验证, 并维护有关用户状态和可用性的信息。 注册机构和控制器 cmdlet 使你能够管理这些服务器的配置设置。
+注册机构和控制器用于对登录请求进行身份验证，并维护有关用户状态和可用性的信息。 注册机构和控制器 cmdlet 使你能够管理这些服务器的配置设置。
 
 <div>
 
 ## <a name="registrar-and-director-cmdlets"></a>注册机构和控制器 Cmdlet
 
-以下是与管理注册机构和董事直接相关的 cmdlet 的列表:
+以下是与管理注册机构和董事直接相关的 cmdlet 的列表：
 
 **注册机构和董事**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: ClientVersions 视图'
+title: Lync Server 2013： ClientVersions 视图
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d219b8666afc0684b0d61f02f06618ea6ef60f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837530"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
 ClientVersions 视图存储参与数据库中记录的会话的各种客户端类型和版本的相关信息。 视图中的每条记录表示一个客户端版本。 此视图已在 Microsoft Lync Server 2013 中引入。
 
@@ -79,8 +81,8 @@ ClientVersions 视图存储参与数据库中记录的会话的各种客户端�
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
-<td><p>nvarchar (64)</p></td>
-<td><p>客户端所属的类别。 例如, 客户端 Conferencing_Attendant_ 1.0 属于 ClientCategory CAA。</p></td>
+<td><p>nvarchar （64）</p></td>
+<td><p>客户端所属的类别。 例如，客户端 Conferencing_Attendant_1 .0 属于 ClientCategory CAA。</p></td>
 </tr>
 </tbody>
 </table>

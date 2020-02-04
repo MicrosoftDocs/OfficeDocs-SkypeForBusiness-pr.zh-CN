@@ -3,6 +3,8 @@ title: Lync Server 2013：Subnet 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Subnet table
 ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398582(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20318d0ed2f487efccda81936b113044f75e2618
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d107889b49ec16c51224b075a8fb7f7a7cec1b00
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845803"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845803"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
 子网表是支持表。 每条记录表示网络配置设置中定义的一个子网。
 
@@ -74,7 +76,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="even">
 <td><p><strong>SubnetDescription</strong></p></td>
-<td><p>nvarchar (512)</p></td>
+<td><p>nvarchar （512）</p></td>
 <td></td>
 <td><p>子网的说明。</p></td>
 </tr>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Lync Phone Edition 配置设置'
+title: Lync Server 2013： Lync Phone Edition 配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Phone Edition configuration settings
 ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b16b83cc7dbc050d61a43d8a4f85ecedfa76e2a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f48f165d9694e35aebb3861d0bce9fddd70be49
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829924"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829924"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-10_
+_**主题上次修改时间：** 2012-10-10_
 
-运行 Lync Phone Edition 的设备的配置设置全局应用, 或者你可以创建应用于特定网站的新设置集合。 集合包括 SIP 安全性、设备锁设置等。
+运行 Lync Phone Edition 的设备的配置设置全局应用，或者你可以创建应用于特定网站的新设置集合。 集合包括 SIP 安全性、设备锁设置等。
 
 <div>
 

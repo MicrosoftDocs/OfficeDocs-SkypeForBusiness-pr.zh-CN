@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Lync Server 2013 中的架构更改'
+title: Lync Server 2013： Lync Server 2013 中的架构更改
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema changes in Lync Server 2013
 ms:assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bbe1c08b7d03042be2c03511103bfa4e43d39d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821997"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,31 +35,31 @@ ms.locfileid: "34821997"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-在部署和操作 Lync Server 2013 之前, 必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加 Lync Server 2013 所需的类和属性。
+在部署和操作 Lync Server 2013 之前，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加 Lync Server 2013 所需的类和属性。
 
-Lync Server 2013 需要多个新的类和属性, 并修改一些现有的类和属性。 此外, Lync Server 2013 的许多配置信息存储在中央管理存储中, 而不是在 AD DS 中, 就像在以前的版本中一样。 以下信息仍存储在 Lync Server 2013 中的 AD DS 中:
+Lync Server 2013 需要多个新的类和属性，并修改一些现有的类和属性。 此外，Lync Server 2013 的许多配置信息存储在中央管理存储中，而不是在 AD DS 中，就像在以前的版本中一样。 以下信息仍存储在 Lync Server 2013 中的 AD DS 中：
 
-  - **架构扩展**:
+  - **架构扩展**：
     
       - 用户对象扩展
     
-      - Office 通信服务器2007和 Office 通信服务器 2007 R2 类的扩展, 以保持受支持的早期版本的向后兼容性
+      - Office 通信服务器2007和 Office 通信服务器 2007 R2 类的扩展，以保持受支持的早期版本的向后兼容性
 
 <!-- end list -->
 
-  - **数据**(存储在 Lync Server 扩展架构和现有架构类中):
+  - **数据**（存储在 Lync Server 扩展架构和现有架构类中）：
     
-      - 用户 SIP 统一资源标识符 (URI) 和其他用户设置
+      - 用户 SIP 统一资源标识符（URI）和其他用户设置
     
       - 响应组和会议助理等应用程序的联系人对象
     
       - 指向中央管理存储的指针
     
-      - Kerberos 身份验证帐户 (可选的计算机对象)
+      - Kerberos 身份验证帐户（可选计算机对象）
 
-本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述以前版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表, 请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表, 请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表, 请参阅[Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
+本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述以前版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表，请参阅[Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
 
 MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 
@@ -123,26 +125,26 @@ MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 <tbody>
 <tr class="odd">
 <td><p>用户</p></td>
-<td><p>add: mayContain</p>
-<p>add: mayContain</p></td>
+<td><p>add： mayContain</p>
+<p>add： mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
 <td><p>联系人</p></td>
-<td><p>add: mayContain</p>
-<p>add: mayContain</p></td>
+<td><p>add： mayContain</p>
+<p>add： mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
 <td><p>邮件-收件人</p></td>
-<td><p>add: mayContain</p></td>
+<td><p>add： mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>add: mayContain</p></td>
+<td><p>add： mayContain</p></td>
 <td><p>msRTCSIP-MirrorBackEndServer</p></td>
 </tr>
 </tbody>

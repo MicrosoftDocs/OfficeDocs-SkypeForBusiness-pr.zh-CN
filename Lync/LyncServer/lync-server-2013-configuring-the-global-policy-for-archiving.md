@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置全局策略以进行存档'
+title: Lync Server 2013：配置全局策略以进行存档
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the global policy for Archiving
 ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccb5ba267c3dc94e14f00cf96f240fa2f0e91b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14cbb69ce620498e1d804483f97c47da37e8522
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34837173"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-当您部署前端服务器时, Lync 服务器将为存档创建全局策略。 默认情况下, 存档在全局策略中处于禁用状态。 全局策略控制是否为整个部署启用存档以进行内部和外部通信, 除非你设置网站或用户策略 (这将覆盖全局策略), 或者你对部分或全部使用 Microsoft Exchange 集成您的用户。 如果你使用 Microsoft Exchange 集成, 则全局策略不会应用于托管在 Exchange 2013 上的任何用户, 并将邮箱置于原地保留。
+当您部署前端服务器时，Lync 服务器将为存档创建全局策略。 默认情况下，存档在全局策略中处于禁用状态。 全局策略控制是否为整个部署启用存档以进行内部和外部通信，除非你设置网站或用户策略（这将覆盖全局策略），或者你对部分或全部使用 Microsoft Exchange 集成您的用户。 如果你使用 Microsoft Exchange 集成，则全局策略不会应用于托管在 Exchange 2013 上的任何用户，并将邮箱置于原地保留。
 
-有关存档策略的工作原理的详细信息 (包括全局、网站和用户策略的层次结构), 请参阅[Lync Server 2013 中的存档如何工作](lync-server-2013-how-archiving-works.md)规划文档、部署文档或操作文档。
+有关存档策略的工作原理的详细信息（包括全局、网站和用户策略的层次结构），请参阅[Lync Server 2013 中的存档如何工作](lync-server-2013-how-archiving-works.md)规划文档、部署文档或操作文档。
 
 <div>
 
 
 > [!NOTE]  
-> 如果为你的部署启用 Microsoft Exchange 集成, 则 Exchange 就地保留策略控制是否为托管于 Exchange 2013 的用户启用存档, 并将其邮箱置于原地保留。 有关详细信息, 请参阅在部署文档中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 集成时在 Lync Server 2013 中设置存档策略</A>。<BR>在启用存档之前, 应在存档配置中指定所有适当的选项。 有关详细信息, 请参阅部署文档中<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 中的 "配置存档选项</A>"。
+> 如果为你的部署启用 Microsoft Exchange 集成，则 Exchange 就地保留策略控制是否为托管于 Exchange 2013 的用户启用存档，并将其邮箱置于原地保留。 有关详细信息，请参阅在部署文档中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 集成时在 Lync Server 2013 中设置存档策略</A>。<BR>在启用存档之前，应在存档配置中指定所有适当的选项。 有关详细信息，请参阅部署文档中<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 中的 "配置存档选项</A>"。
 
 
 
@@ -55,7 +57,7 @@ _**主题上次修改时间:** 2012-10-09_
 
 1.  使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“监控和存档”****，然后单击“存档策略”****。
 

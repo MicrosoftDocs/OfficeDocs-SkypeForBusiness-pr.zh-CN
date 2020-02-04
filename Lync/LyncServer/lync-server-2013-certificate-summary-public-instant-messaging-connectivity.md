@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 证书摘要-公共即时消息连接'
+title: Lync Server 2013：证书摘要-公共即时消息连接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Public instant messaging connectivity
 ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31988207403ef1ccb5ea366da6e1ec6b3d448b4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837639"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837639"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-19_
+_**主题上次修改时间：** 2013-02-19_
 
-若要配置公共即时消息连接的证书, 应首先注意到其他 SIP 联合类型或标准边缘服务器证书没有什么不同, 但美国 Online (AOL) 需要唯一证书配置。 除了常规服务器增强型密钥用法 (EKU) 之外, 美洲在线还需要证书或证书 (对于 Edge 池) 也包含客户端 EKU。 客户端 EKU 是证书的补充, 并且是分配给 Edge 服务器的外部公共证书的一部分。
+若要配置公共即时消息连接的证书，应首先注意到其他 SIP 联合类型或标准边缘服务器证书没有什么不同，但美国 Online （AOL）需要唯一证书配置。 除了常规服务器增强型密钥用法（EKU）之外，美洲在线还需要证书或证书（对于 Edge 池）也包含客户端 EKU。 客户端 EKU 是证书的补充，并且是分配给 Edge 服务器的外部公共证书的一部分。
 
 <div>
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2013-02-19_
 <tr class="header">
 <th>组件</th>
 <th>主题名称</th>
-<th>使用者备用名称 (SAN)/Order</th>
+<th>使用者备用名称（SAN）/Order</th>
 <th>备注</th>
 </tr>
 </thead>
@@ -64,13 +66,13 @@ _**主题上次修改时间:** 2013-02-19_
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>证书必须来自公共 CA, 并且必须具有服务器 EKU 和客户端 EKU, 前提是要部署与 AOL 的公共 IM 连接。 证书已分配给以下对象的外部边缘服务器接口:</p>
+<td><p>证书必须来自公共 CA，并且必须具有服务器 EKU 和客户端 EKU，前提是要部署与 AOL 的公共 IM 连接。 证书已分配给以下对象的外部边缘服务器接口：</p>
 <ul>
 <li><p>访问边缘服务</p></li>
 <li><p>Web 会议边缘服务</p></li>
 <li><p>A/V 边缘服务</p></li>
 </ul>
-<p>请注意, San 会根据拓扑生成器中的定义自动添加到证书。 根据需要为其他 SIP 域和其他需要支持的条目添加 SAN 条目。 主题名称是在 SAN 中复制的, 并且必须存在才能正确操作。</p></td>
+<p>请注意，San 会根据拓扑生成器中的定义自动添加到证书。 根据需要为其他 SIP 域和其他需要支持的条目添加 SAN 条目。 主题名称是在 SAN 中复制的，并且必须存在才能正确操作。</p></td>
 </tr>
 </tbody>
 </table>

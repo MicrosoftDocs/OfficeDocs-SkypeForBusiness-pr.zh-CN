@@ -3,6 +3,8 @@ title: Lync Server 2013：AudioStream 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStream table
 ms:assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9412001652f4f323bdd3fb5722d0d7222535fd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837902"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837902"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
 每条记录表示一个音频流。 一个音频媒体行通常包含两个音频流。
 
@@ -82,7 +84,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>实时控制协议 (RTCP) 统计信息的平均网络抖动。</p></td>
+<td><p>实时控制协议（RTCP）统计信息的平均网络抖动。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
@@ -92,19 +94,19 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>十进制 (5, 4)</p></td>
+<td><p>十进制（5，4）</p></td>
 <td><p> </p></td>
 <td><p>通话期间平均数据包丢失速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>十进制 (5, 4)</p></td>
+<td><p>十进制（5，4）</p></td>
 <td><p> </p></td>
 <td><p>通话过程中观察到的最大数据包丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BurstDensity</strong></p></td>
-<td><p>十进制 (9, 4)</p></td>
+<td><p>十进制（9，4）</p></td>
 <td><p> </p></td>
 <td><p>通话期间出现猝发损失期间的数据包丢失的平均密度。</p></td>
 </tr>
@@ -116,7 +118,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><strong>BurstGapDensity</strong></p></td>
-<td><p>十进制 (9, 4)</p></td>
+<td><p>十进制（9，4）</p></td>
 <td><p> </p></td>
 <td><p>出现猝发数据包丢失之间的平均数据包损失的平均密度。</p></td>
 </tr>
@@ -140,25 +142,25 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationAvg</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
-<td><p>整个通话的网络 MOS 降级。 范围为0.0 到5.0。 此指标显示由于抖动和数据包丢失, 网络 MOS 的减少量。 对于可接受的质量, 它应小于0.5。</p></td>
+<td><p>整个通话的网络 MOS 降级。 范围为0.0 到5.0。 此指标显示由于抖动和数据包丢失，网络 MOS 的减少量。 对于可接受的质量，它应小于0.5。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationMax</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>通话期间最大网络 MOS 性能下降。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationJitterAvg</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>由抖动导致的网络 MOS 性能下降。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationPacketLossAvg</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>由于数据包丢失导致网络 MOS 性能下降。</p></td>
 </tr>
@@ -166,7 +168,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>AudioPayloadDescription</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>用于呼叫的音频编解码器, 从 PayloadDescription 表中引用。</p></td>
+<td><p>用于呼叫的音频编解码器，从 PayloadDescription 表中引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioSampleRate</strong></p></td>
@@ -178,7 +180,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>RoundTrip</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>从 RTCP 统计数据往返的时间。 为获得可接受的质量, 这应该小于100ms。</p></td>
+<td><p>从 RTCP 统计数据往返的时间。 为获得可接受的质量，这应该小于100ms。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
@@ -188,37 +190,37 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><strong>OverallAvgNetworkMOS</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>通话的平均宽带网络 MOS。 此指标取决于所使用的数据包丢失、抖动和编解码器。 范围为 [1.0 到 5.0]。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OverallMinNetworkMOS</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>通话的最低宽带网络 MOS。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendListenMOS</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
-<td><p>平均预测宽带的 MOS 分数, 包括语音级别、噪声级别和捕获设备特征。</p></td>
+<td><p>平均预测宽带的 MOS 分数，包括语音级别、噪声级别和捕获设备特征。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendListenMOSMin</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>通话的最低 SendListenMOS。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvListenMOS</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
-<td><p>平均预测宽带从网络接收的音频的 MOS 分数, 包括语音级别、噪音级别、编解码器、网络条件和捕获设备特征。</p></td>
+<td><p>平均预测宽带从网络接收的音频的 MOS 分数，包括语音级别、噪音级别、编解码器、网络条件和捕获设备特征。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvListenMOSMin</strong></p></td>
-<td><p>十进制 (3, 2)</p></td>
+<td><p>十进制（3，2）</p></td>
 <td><p> </p></td>
 <td><p>通话的最低 RecvListenMOS。</p></td>
 </tr>
@@ -230,19 +232,19 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="even">
 <td><p><strong>RatioConcealedSamplesAvg</strong></p></td>
-<td><p>十进制 (5, 2)</p></td>
+<td><p>十进制（5，2）</p></td>
 <td></td>
 <td><p>通过音频康复为典型示例生成的隐藏样本的平均比率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RatioStretchedSamplesAvg</strong></p></td>
-<td><p>十进制 (5, 2)</p></td>
+<td><p>十进制（5，2）</p></td>
 <td></td>
 <td><p>通过音频康复为典型示例生成的拉伸样本的平均比率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioCompressedSamplesAvg</strong></p></td>
-<td><p>十进制 (5, 2)</p></td>
+<td><p>十进制（5，2）</p></td>
 <td></td>
 <td><p>从音频修复到典型示例生成的压缩样本的平均比率。</p></td>
 </tr>
@@ -381,42 +383,42 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>总单向爆发次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总单向爆发次数。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总单向脉冲密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总单向脉冲密度。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总的单向脉冲持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总的单向脉冲持续时间。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，数据流处于不可预知的突发流量。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>总的单向间隔发生次数。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总的单向间隔发生次数。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总单向间距密度。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总单向间距密度。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>总的单间隔持续时间。 "Bursty" 传输是一种传输方式, 其中的数据流与稳定流相反, 其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
+<td><p>总的单间隔持续时间。 "Bursty" 传输是一种传输方式，其中的数据流与稳定流相反，其数据流可预料的猝发。间隙表示这些猝发之间的延迟。 此指标测量客户端与服务器之间的数据流。</p>
 <p>此列已在 Microsoft Lync Server 2013 中引入。</p></td>
 </tr>
 <tr class="even">

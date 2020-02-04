@@ -3,6 +3,8 @@ title: Lync Server 2013：规划高可用性和灾难恢复
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for high availability and disaster recovery
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204703(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 092e59813f76690233a950cd8ce914df47146d37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34824951"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-10-31_
+_**主题上次修改时间：** 2013-10-31_
 
-与在 Lync Server 2010 中一样, Lync Server 2013 中大多数服务器角色的主高可用性方案都基于服务器冗余 (通过池划分)。 如果运行特定服务器角色的服务器发生故障，则池中运行相同角色的其他服务器将承担该服务器的负载。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
+与在 Lync Server 2010 中一样，Lync Server 2013 中大多数服务器角色的主高可用性方案都基于服务器冗余（通过池划分）。 如果运行特定服务器角色的服务器发生故障，则池中运行相同角色的其他服务器将承担该服务器的负载。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
 
-Lync Server 2013 通过将服务器的地理 dispersement 引入两个数据中心来为前端池添加新的灾难恢复措施, 以便在一个整个池或网站停机时提供服务的延续。
+Lync Server 2013 通过将服务器的地理 dispersement 引入两个数据中心来为前端池添加新的灾难恢复措施，以便在一个整个池或网站停机时提供服务的延续。
 
-Lync Server 2013 还支持后端数据库的同步 SQL 镜像, 从而增强了后端服务器高可用性。
+Lync Server 2013 还支持后端数据库的同步 SQL 镜像，从而增强了后端服务器高可用性。
 
-本部分介绍这些主要的高可用性和灾难恢复功能, 还介绍了为其他服务器角色执行高可用性和灾难恢复时可以采取的步骤。
+本部分介绍这些主要的高可用性和灾难恢复功能，还介绍了为其他服务器角色执行高可用性和灾难恢复时可以采取的步骤。
 
 <div>
 

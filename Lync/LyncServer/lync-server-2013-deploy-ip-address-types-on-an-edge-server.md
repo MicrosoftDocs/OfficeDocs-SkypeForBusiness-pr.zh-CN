@@ -3,6 +3,8 @@ title: Lync Server 2013：在边缘服务器上部署 IP 地址类型
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on an Edge Server
 ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a094a39fd74ab30ee1dd3a5a3da4e777bcf7e338
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ece4b55f42958916876539f05b951e862e0d493f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830573"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-14_
+_**主题上次修改时间：** 2012-06-14_
 
-使用拓扑生成器, 执行以下过程中的步骤以在 Edge 服务器上部署 IP 地址类型。
+使用拓扑生成器，执行以下过程中的步骤以在 Edge 服务器上部署 IP 地址类型。
 
 <div>
 
 ## <a name="to-deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 
-1.  在拓扑生成器中, 在 "**边缘池**" 下, 右键单击池中的服务器, 然后选择 "**编辑属性**"。 (或者, 选择服务器, 然后从 "**操作**" 菜单中单击 "**编辑属性**"。)
+1.  在拓扑生成器中，在 "**边缘池**" 下，右键单击池中的服务器，然后选择 "**编辑属性**"。 （或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。）
 
 2.  在“**编辑属性**”窗口中，选择要支持的 IP 地址配置。下图显示用于内部接口和外部接口的双协议栈配置。
     

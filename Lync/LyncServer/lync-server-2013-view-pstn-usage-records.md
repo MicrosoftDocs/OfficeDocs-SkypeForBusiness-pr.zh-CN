@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看 PSTN 使用记录'
+title: Lync Server 2013：查看 PSTN 使用记录
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9042eca0b8ddd1f04b34c3fea0b57dd6235b69c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845341"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34845341"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-22_
+_**主题上次修改时间：** 2013-02-22_
 
-公用交换电话网络 (PSTN) 使用记录指定一类呼叫 (如内部、本地或长途), 可由组织中的各种用户或用户组进行呼叫。 有关详细信息, 请参阅规划文档中[Lync Server 2013 中的 PSTN 使用记录](lync-server-2013-pstn-usage-records.md)。
+公用交换电话网络（PSTN）使用记录指定一类呼叫（如内部、本地或长途），可由组织中的各种用户或用户组进行呼叫。 有关详细信息，请参阅规划文档中[Lync Server 2013 中的 PSTN 使用记录](lync-server-2013-pstn-usage-records.md)。
 
 <div>
 
 ## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 查看 PSTN 使用记录
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“语音路由”****，然后单击“PSTN 用法”****。
 
@@ -64,13 +66,13 @@ _**主题上次修改时间:** 2013-02-22_
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看 PSTN 使用信息
 
-你还可以使用 Windows PowerShell 和**CsPstnUsage** CMDLET 查看 PSTN 用法。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你还可以使用 Windows PowerShell 和**CsPstnUsage** CMDLET 查看 PSTN 用法。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
 ## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看 PSTN 使用信息
 
-  - 若要查看有关所有 PSTN 用法的信息, 请在 Lync Server 命令行管理程序中键入以下命令, 然后按 ENTER:
+  - 若要查看有关所有 PSTN 用法的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：
     
         Get-CsPstnUsage
     
@@ -81,7 +83,7 @@ _**主题上次修改时间:** 2013-02-22_
 
 </div>
 
-有关详细信息, 请参阅[CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)。
+有关详细信息，请参阅[CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)。
 
 </div>
 

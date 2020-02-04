@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建拨号计划'
+title: Lync Server 2013：创建拨号计划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a dial plan
 ms:assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8734ce4503ef62eb0fc04aab376f2819d1fc8fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d1d4647f374fd65c0be52da111b7ef2d41c0faae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837144"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34837144"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-10-24_
+_**主题上次修改时间：** 2013-10-24_
 
-若要创建新的拨号计划, 请执行以下过程中的步骤。 如果要编辑拨号计划, 请参阅[在 Lync Server 2013 中修改拨号计划](lync-server-2013-modify-a-dial-plan.md)。
+若要创建新的拨号计划，请执行以下过程中的步骤。 如果要编辑拨号计划，请参阅[在 Lync Server 2013 中修改拨号计划](lync-server-2013-modify-a-dial-plan.md)。
 
 <div>
 
 ## <a name="to-create-a-dial-plan"></a>创建拨号计划
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“语音路由”****，然后单击“拨号计划”****。
 
@@ -81,7 +83,7 @@ _**主题上次修改时间:** 2013-10-24_
     
 
     > [!IMPORTANT]  
-    > <STRONG>简单名称</STRONG>必须在 Lync Server 部署中的所有拨号计划中是唯一的。 该名称不能超过 256 个 Unicode 字符，每个 Unicode 字符可以是字母或数字字符、连字符 (-)、句点 (.) 或下划线 (_)。<BR><STRONG>不支持</STRONG>的字符包括 RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt).) 中定义的空格和保留字符。 “简单名称”<STRONG></STRONG>中<STRONG>不支持的</STRONG>保留字符包括：<BR>";""/" "?"":" "@" "&amp;" "=" "+" "$" ","
+    > <STRONG>简单名称</STRONG>必须在 Lync Server 部署中的所有拨号计划中是唯一的。 该名称不能超过 256 个 Unicode 字符，每个 Unicode 字符可以是字母或数字字符、连字符 (-)、句点 (.) 或下划线 (_)。<BR><STRONG>不支持</STRONG>的字符包括 RFC 3966 （http://www.ietf.org/rfc/rfc3966.txt).）中定义的空格和保留字符。 “简单名称”<STRONG></STRONG>中<STRONG>不支持的</STRONG>保留字符包括：<BR>";""/" "?"":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -99,7 +101,7 @@ _**主题上次修改时间:** 2013-10-24_
     
     </div>
 
-9.  （可选）在“外部访问前缀”**** 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。 你可以键入最多四个字符 (\#、 \*和 0-9) 的前缀值。
+9.  （可选）在“外部访问前缀”**** 字段中，指定一个值，该值仅在用户需要拨打一个或多个附加的前导数字（例如 9）以拨通外线时使用。 你可以键入最多四个字符（\#、 \*和0-9）的前缀值。
     
     <div>
     
@@ -112,13 +114,13 @@ _**主题上次修改时间:** 2013-10-24_
 
 10. 按如下所示为拨号计划关联并配置规范化规则：
     
-      - 若要从您的企业语音部署中可用的所有规范化规则列表中选择一个或多个规则, 请单击 "**选择**"。 在“选择规范化规则”**** 中，突出显示要与拨号计划关联的规则，然后单击“确定”****。
+      - 若要从您的企业语音部署中可用的所有规范化规则列表中选择一个或多个规则，请单击 "**选择**"。 在“选择规范化规则”**** 中，突出显示要与拨号计划关联的规则，然后单击“确定”****。
     
-      - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新规则的详细信息, 请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
+      - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”****。 有关定义新规则的详细信息，请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
     
-      - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”****。 有关编辑规则的详细信息, 请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
+      - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”****。 有关编辑规则的详细信息，请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
     
-      - 要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”****，然后单击“粘贴”****。 有关编辑副本的详细信息, 请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
+      - 要复制现有规范化规则以作为定义新规则的起点，请突出显示相应的规则名称，单击“复制”****，然后单击“粘贴”****。 有关编辑副本的详细信息，请参阅[在 Lync Server 2013 中定义规范化规则](lync-server-2013-defining-normalization-rules.md)。
     
       - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”****。
     
@@ -126,7 +128,7 @@ _**主题上次修改时间:** 2013-10-24_
     
 
     > [!NOTE]  
-    > 每个拨号计划都必须至少有一个关联的规范化规则。 有关如何确定拨号计划所需的所有规范化规则的信息, 请参阅规划文档中的<A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的 "拨号计划和规范规则</A>"。
+    > 每个拨号计划都必须至少有一个关联的规范化规则。 有关如何确定拨号计划所需的所有规范化规则的信息，请参阅规划文档中的<A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的 "拨号计划和规范规则</A>"。
 
     
     </div>
@@ -137,7 +139,7 @@ _**主题上次修改时间:** 2013-10-24_
     
 
     > [!IMPORTANT]  
-    > Lync 服务器从上到下遍历规范化规则列表, 并使用与所拨号码匹配的第一个规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。<BR>默认情况下, "所有规范化规则<STRONG>^{11}(\d) $</STRONG> "<STRONG>将</STRONG>与任何11位数字匹配。 例如, 如果你添加的规范化规则与以1425开头的11位数字相匹配, 请确保 "<STRONG>全部保留</STRONG>" 按限制性<STRONG>^ (1425 d{7}) $</STRONG>规则为准则排序。
+    > Lync 服务器从上到下遍历规范化规则列表，并使用与所拨号码匹配的第一个规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。<BR>默认情况下，"所有规范化规则<STRONG>^{11}（\d） $</STRONG> "<STRONG>将</STRONG>与任何11位数字匹配。 例如，如果你添加的规范化规则与以1425开头的11位数字相匹配，请确保 "<STRONG>全部保留</STRONG>" 按限制性<STRONG>^ （1425 d{7}） $</STRONG>规则为准则排序。
 
     
     </div>
@@ -148,7 +150,7 @@ _**主题上次修改时间:** 2013-10-24_
     
 
     > [!NOTE]  
-    > 您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。 有关详细信息, 请参阅<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。
+    > 您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。 有关详细信息，请参阅<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。
 
     
     </div>
@@ -161,7 +163,7 @@ _**主题上次修改时间:** 2013-10-24_
     
 
     > [!NOTE]  
-    > 任何时候创建拨号计划，都必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。 有关详细信息, 请参阅操作文档中的<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中的 "发布待处理的语音路由配置更改"</A> 。
+    > 任何时候创建拨号计划，都必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。 有关详细信息，请参阅操作文档中的<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中的 "发布待处理的语音路由配置更改"</A> 。
 
     
     </div>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 其他服务器角色 cmdlet'
+title: Lync Server 2013：其他服务器角色 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Other server role cmdlets
 ms:assetid: 92c455b5-f351-4413-bf18-25eb860d1d86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415664(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15cf76a7d3e982952e0c4bd525839ee72bef793c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34825574"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-03-21_
+_**主题上次修改时间：** 2012-03-21_
 
-这些 cmdlet 提供管理不适合服务器角色类别 (如 Edge 服务器或通讯簿服务器) 的 "一次性" 服务器角色 (如会议服务器) 的方法。
+这些 cmdlet 提供管理不适合服务器角色类别（如 Edge 服务器或通讯簿服务器）的 "一次性" 服务器角色（如会议服务器）的方法。
 
 <div>
 
 ## <a name="other-server-role-and-cmdlets"></a>其他服务器角色和 Cmdlet
 
-以下是与管理其他服务器角色和服务直接相关的 cmdlet 的列表:
+以下是与管理其他服务器角色和服务直接相关的 cmdlet 的列表：
 
 **其他服务器角色**
 

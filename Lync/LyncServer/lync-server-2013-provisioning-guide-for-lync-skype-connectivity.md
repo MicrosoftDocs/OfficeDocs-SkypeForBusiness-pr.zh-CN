@@ -3,6 +3,8 @@ title: Lync Server 2013：Lync-Skype 连接设置指南
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Provisioning guide for Lync-Skype connectivity
 ms:assetid: 69adda9b-5b72-4538-9be6-079b2f462e09
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f595916502a7c7ec27ff220a7b3f138b41e6fc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f94da566e4322f9b8d1d039441c561f5ed60f6c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823586"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823586"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-11-26_
+_**主题上次修改时间：** 2014-11-26_
 
 Lync Server 2013 支持与 Skype 进行连接。此连接使 Lync 2013 用户能够使用 Skype 用户的 Microsoft 帐户 (MSA) 添加 Skype 联系人。Skype 客户端也可以将 Lync 用户添加到其联系人列表。根据 Lync Server 中以管理方式设置的策略，Lync 和 Skype 用户将能够使用即时消息进行通信、查看彼此的状态和启动音频和视频呼叫。Lync-Skype 连接也是 Lync Online 的一项功能，可以从 Office 365 门户中的 Lync 管理中心为 Lync Online 客户启用。
 

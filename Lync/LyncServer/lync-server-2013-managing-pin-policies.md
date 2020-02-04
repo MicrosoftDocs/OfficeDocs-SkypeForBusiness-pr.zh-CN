@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理 PIN 策略'
+title: Lync Server 2013：管理 PIN 策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing PIN policies
 ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80b7ab92f3dbe88c9a820e184b8e88444b0bf4ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1bbc4ca63a2b2b31a43b5f5a99aa007fedc745b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827849"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827849"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 可以从 Lync Server 2013 控制面板或 Lync Server 命令行管理器管理 Lync Server 2013 PIN 策略。 使用以下过程为您的组织配置 PIN 策略。
 

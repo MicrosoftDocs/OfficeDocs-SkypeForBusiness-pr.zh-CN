@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Lync PreCall 诊断工具'
+title: Lync Server 2013： Lync PreCall 诊断工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34829926"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-11-04_
+_**主题上次修改时间：** 2016-11-04_
 
-Lync PreCall 诊断工具 (PCD) 是基于客户端的应用程序, 可让你查看网络的当前状态如何影响未来的企业语音通话中的音频质量。
+Lync PreCall 诊断工具（PCD）是基于客户端的应用程序，可让你查看网络的当前状态如何影响未来的企业语音通话中的音频质量。
 
-在网络的最后一个跃点可能是最弱的情况下 (例如, 在公共 WiFi 网络或家庭用户上使用膝上型电脑), PCD 非常有用。 PCD 创建一个小型数据包流, 该流遍历网络的这最后一条路。 然后, 该工具将分析数据包流, 以估计沿此段腿的抖动和损失可能会影响呼叫质量, 然后提供报告。 你可以在客户端上持续运行 PCD, 即使在通话时也是如此。 数据包流对带宽没有显著影响。
+在网络的最后一个跃点可能是最弱的情况下（例如，在公共 WiFi 网络或家庭用户上使用膝上型电脑），PCD 非常有用。 PCD 创建一个小型数据包流，该流遍历网络的这最后一条路。 然后，该工具将分析数据包流，以估计沿此段腿的抖动和损失可能会影响呼叫质量，然后提供报告。 你可以在客户端上持续运行 PCD，即使在通话时也是如此。 数据包流对带宽没有显著影响。
 
-**PCD 版本1.1 的最新版本包括以下增强功能:**
+**PCD 版本1.1 的最新版本包括以下增强功能：**
 
-  - 支持较长的密码, 该密码现在最多可达127个字符
+  - 支持较长的密码，该密码现在最多可达127个字符
 
   - 针对身份验证登录问题的其他诊断
 
@@ -71,9 +73,9 @@ Lync PreCall 诊断工具 (PCD) 是基于客户端的应用程序, 可让你查�
 
 ## <a name="lync-pcd-versions"></a>Lync PCD 版本
 
-本主题介绍以下版本的工具, 可供免费下载:
+本主题介绍以下版本的工具，可供免费下载：
 
-  - Windows 桌面应用 ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+  - Windows 桌面应用（[http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914)）
 
 </div>
 
@@ -87,7 +89,7 @@ Lync PreCall 诊断工具 (PCD) 是基于客户端的应用程序, 可让你查�
 
 
 > [!NOTE]  
-> PCD 要求在 Lync Server 部署中安装和配置统一通信 Web API (UCWA) 以支持移动客户端。 UCWA 与 Lync Server 一起安装。
+> PCD 要求在 Lync Server 部署中安装和配置统一通信 Web API （UCWA）以支持移动客户端。 UCWA 与 Lync Server 一起安装。
 
 
 
@@ -111,27 +113,27 @@ Lync PreCall 诊断工具 (PCD) 是基于客户端的应用程序, 可让你查�
 
 ## <a name="lync-pcd-features"></a>Lync PCD 功能
 
-Lync PCD 包括以下功能:
+Lync PCD 包括以下功能：
 
-  - 默认按需运行 (2 分钟爆发)
+  - 默认按需运行（2分钟爆发）
 
-  - 在始终打开的情况下运行 (最多24小时, 在贴靠视图中) 模式
+  - 在始终打开的情况下运行（最多24小时，在贴靠视图中）模式
 
   - 测试运行的历史视图
 
-  - 诊断登录失败 (仅适用于 Windows 8 的 Lync PCD)
+  - 诊断登录失败（仅适用于 Windows 8 的 Lync PCD）
 
-![LYNC PCD 功能登录进度屏幕截图](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "LYNC PCD 功能登录进度屏幕截图")
+![Lync PCD 功能登录进度屏幕截图](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD 功能登录进度屏幕截图")
 
   - 网络指标的图形化视图-以全屏和贴靠视图显示网络 MOS、数据包丢失和 Interarrival 抖动。
 
 **全屏视图**
 
-![PreCall 诊断工具测试结果图形](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall 诊断工具测试结果图形")
+![PreCall Diagnostic 工具测试结果图](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall Diagnostic 工具测试结果图")
 
 **贴靠视图**
 
-![PreCall 诊断工具利用率测试结果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall 诊断工具利用率测试结果")
+![PreCall Diagnostic 工具利用率测试结果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall Diagnostic 工具利用率测试结果")
 
 </div>
 
@@ -145,19 +147,19 @@ Lync PCD 包括以下功能:
 
 ## <a name="running-windows-desktop-app"></a>运行 Windows 桌面应用
 
-1.  若要在 Windows 7 系统上启动 PCD, 请从 "**开始**" 菜单中选择 " **PreCall 诊断**"。
+1.  若要在 Windows 7 系统上启动 PCD，请从 "**开始**" 菜单中选择 " **PreCall 诊断**"。
     
-    若要在 Windows 8 系统上启动 PCD, 请在 "开始" 屏幕上选择该图标, 或搜索 "PreCall Diagnostics"。
+    若要在 Windows 8 系统上启动 PCD，请在 "开始" 屏幕上选择该图标，或搜索 "PreCall Diagnostics"。
     
-    ![PreCall 诊断工具图标](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 诊断工具图标")
+    ![PreCall Diagnostic 工具图标](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic 工具图标")
 
-2.  当工具启动时, 选择提供凭据的首选方法, 然后在 " **PreCall 诊断工具选项**" 对话框中选择 "网络操作模式", 然后选择 **"确定"**:
+2.  当工具启动时，选择提供凭据的首选方法，然后在 " **PreCall 诊断工具选项**" 对话框中选择 "网络操作模式"，然后选择 **"确定"**：
 
 3.  选择 "**开始测试**" 按钮以开始运行诊断。
     
-    如果选择 "**使用网络凭据**" 选项, 测试将立即开始。
+    如果选择 "**使用网络凭据**" 选项，测试将立即开始。
     
-    如果选择 "**让我输入我的凭据**" 选项, 则会打开 " **Windows 安全**" 对话框。 输入凭据后, 测试开始。
+    如果选择 "**让我输入我的凭据**" 选项，则会打开 " **Windows 安全**" 对话框。 输入凭据后，测试开始。
 
 </div>
 
@@ -169,11 +171,11 @@ Lync PCD 包括以下功能:
 
 ## <a name="uninstalling-lync-pcd"></a>卸载 Lync PCD
 
-若要删除 Lync PCD, 请按照操作系统的步骤进行操作:
+若要删除 Lync PCD，请按照操作系统的步骤进行操作：
 
-  - 在 Windows 7 系统上, 打开 "**控制面板**", 选择 "**程序和功能**", 然后双击 " **Lync 2013 PreCall 诊断**"。
+  - 在 Windows 7 系统上，打开 "**控制面板**"，选择 "**程序和功能**"，然后双击 " **Lync 2013 PreCall 诊断**"。
 
-  - 在 Windows 8 系统上, 右键单击 "PCD" 磁贴, 然后单击 "开始" 屏幕底部的应用栏中的 "**卸载**"。
+  - 在 Windows 8 系统上，右键单击 "PCD" 磁贴，然后单击 "开始" 屏幕底部的应用栏中的 "**卸载**"。
 
 </div>
 

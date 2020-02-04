@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 失败分发报告'
+title: Lync Server 2013：失败分发报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failure Distribution Report
 ms:assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06481be824f6c51975431aeea2efe27e41eadabc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830175"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830175"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-21_
+_**主题上次修改时间：** 2012-10-21_
 
 故障分布报告按以下类别对失败会话进行分级：
 
@@ -67,7 +69,7 @@ _**主题上次修改时间:** 2012-10-21_
 
   - [Lync Server 2013 中的对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-在 "失败分发" 报表中, 可以单击以下任一指标, 以[在 Lync Server 2013 中查看 "失败列表" 报表](lync-server-2013-failure-list-report.md):
+在 "失败分发" 报表中，可以单击以下任一指标，以[在 Lync Server 2013 中查看 "失败列表" 报表](lync-server-2013-failure-list-report.md)：
 
   - 主要诊断原因（会话）
 
@@ -353,7 +355,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 ## <a name="metrics-for-top-components"></a>主要组件的指标
 
-下表列出了故障分布报告中提供的信息, 这些信息基于遇到最多失败的 Microsoft Lync Server 2010 组件。
+下表列出了故障分布报告中提供的信息，这些信息基于遇到最多失败的 Microsoft Lync Server 2010 组件。
 
 ### <a name="metrics-for-top-components"></a>主要组件的指标
 
@@ -374,7 +376,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <tr class="odd">
 <td><p><strong>等级</strong></p></td>
 <td><p>否</p></td>
-<td><p>基于 Lync Server 2010 组件 (如 ExumRouting、GroupChat 或 MediationServer) 的失败会话的相对级别。</p></td>
+<td><p>基于 Lync Server 2010 组件（如 ExumRouting、GroupChat 或 MediationServer）的失败会话的相对级别。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>主要组件</strong></p></td>

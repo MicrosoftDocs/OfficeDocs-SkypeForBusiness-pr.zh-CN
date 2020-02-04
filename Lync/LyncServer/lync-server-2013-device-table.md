@@ -3,6 +3,8 @@ title: Lync Server 2013：Device 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device table
 ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 974898f6c3fa96dd9356a0a9eed1e3fab09d288b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830430"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830430"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-Device 表是一个支持表, 用于存储有关各种捕获或呈现设备的信息。 表中的每条记录表示一个设备。
+Device 表是一个支持表，用于存储有关各种捕获或呈现设备的信息。 表中的每条记录表示一个设备。
 
 
 <table>
@@ -70,7 +72,7 @@ Device 表是一个支持表, 用于存储有关各种捕获或呈现设备的�
 <td><p><strong>DeviceType</strong></p></td>
 <td><p>bit</p></td>
 <td><p>DeviceName + DeviceType 是唯一的</p></td>
-<td><p>设备类型。 1是捕获设备, 0 是呈现设备。</p></td>
+<td><p>设备类型。 1是捕获设备，0是呈现设备。</p></td>
 </tr>
 </tbody>
 </table>

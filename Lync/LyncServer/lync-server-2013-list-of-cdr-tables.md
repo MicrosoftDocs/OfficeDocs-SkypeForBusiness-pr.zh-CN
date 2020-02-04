@@ -3,6 +3,8 @@ title: Lync Server 2013：CDR 表的列表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of CDR tables
 ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1ac043d144e73d8e1b40ca717e278619e053fdc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0c620eaf6b54a89604071a18f445d20816178bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829949"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829949"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-呼叫详细记录 (CDR) 数据库架构由下表组成。
+呼叫详细记录（CDR）数据库架构由下表组成。
 
 <div>
 
@@ -56,7 +58,7 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 中的 CallPriorities 表</a></p></td>
-<td><p>存储可能的通话优先级列表, 例如紧急情况、紧急、普通、非紧急等。</p></td>
+<td><p>存储可能的通话优先级列表，例如紧急情况、紧急、普通、非紧急等。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">Lync Server 2013 中的 ConferenceJoinTimeThresholds 表</a></p></td>
@@ -64,19 +66,19 @@ _**主题上次修改时间:** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a></p></td>
-<td><p>存储可能的用户取消注册原因&quot;的列表, 例如客户端启动、&quot; &quot;注册过期、&quot; &quot;客户端崩溃&quot;等。</p></td>
+<td><p>存储可能的用户取消注册原因&quot;的列表，例如客户端启动、&quot; &quot;注册过期、&quot; &quot;客户端崩溃&quot;等。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a></p></td>
-<td><p>存储可在数据库中生成条目的媒体类型列表 (例如, IM、音频、视频和文件传输)。</p></td>
+<td><p>存储可在数据库中生成条目的媒体类型列表（例如，IM、音频、视频和文件传输）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-purgesettings-table.md">Lync Server 2013 中的 PurgeSettings 表</a></p></td>
-<td><p>存储用于指定是否将过时的呼叫详细记录 (以及何时) 从 CDR 数据库中自动删除的信息。</p></td>
+<td><p>存储用于指定是否将过时的呼叫详细记录（以及何时）从 CDR 数据库中自动删除的信息。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-roles-table.md">Lync Server 2013 中的 Roles 表</a></p></td>
-<td><p>存储可能的会议角色列表 (例如, 与会者和演示者)。</p></td>
+<td><p>存储可能的会议角色列表（例如，与会者和演示者）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-sipresponsemetadata-table.md">Lync Server 2013 中的 SIPResponseMetaData 表</a></p></td>
@@ -107,7 +109,7 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a></p></td>
-<td><p>使用在此数据库中捕获的信息存储呼叫中涉及的每个客户端的客户端 (客户端类型和版本号)。</p></td>
+<td><p>使用在此数据库中捕获的信息存储呼叫中涉及的每个客户端的客户端（客户端类型和版本号）。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表</a></p></td>
@@ -115,11 +117,11 @@ _**主题上次修改时间:** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表</a></p></td>
-<td><p>存储在对等呼叫和电话会议中使用的会话初始协议 (SIP) 内容类型的列表。</p></td>
+<td><p>存储在对等呼叫和电话会议中使用的会话初始协议（SIP）内容类型的列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devices-table.md">Lync Server 2013 中的 Devices 表</a></p></td>
-<td><p>存储设备列表, 包括制造商、硬件版本和 MAC 地址。</p></td>
+<td><p>存储设备列表，包括制造商、硬件版本和 MAC 地址。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的 Dialogs 表</a></p></td>
@@ -131,15 +133,15 @@ _**主题上次修改时间:** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表</a></p></td>
-<td><p>存储用于通过 Internet 协议 (VoIP) 呼叫进行语音通话的网关的列表。</p></td>
+<td><p>存储用于通过 Internet 协议（VoIP）呼叫进行语音通话的网关的列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a></p></td>
-<td><p>存储设备 (桌面电话) 的硬件版本的列表。</p></td>
+<td><p>存储设备（桌面电话）的硬件版本的列表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的 Manufacturers 表</a></p></td>
-<td><p>存储设备制造商 (桌面电话) 的列表。</p></td>
+<td><p>存储设备制造商（桌面电话）的列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-mcus-table.md">Lync Server 2013 中的 Mcus 表</a></p></td>
@@ -202,15 +204,15 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的 Conferences 表</a></p></td>
-<td><p>存储有关已存档或记录其详细信息的所有会议的信息, 包括 ConferenceURI 和开始时间和结束时间。</p></td>
+<td><p>存储有关已存档或记录其详细信息的所有会议的信息，包括 ConferenceURI 和开始时间和结束时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-conferencesessiondetails-table.md">Lync Server 2013 中的 ConferenceSessionDetails 表</a></p></td>
-<td><p>存储有关每个基于 SIP 的会议会话的信息, 包括开始和结束时间、用户 ID、响应代码和每个会话的诊断 ID。</p></td>
+<td><p>存储有关每个基于 SIP 的会议会话的信息，包括开始和结束时间、用户 ID、响应代码和每个会话的诊断 ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-focusjoinsandleaves-table.md">Lync Server 2013 中的 FocusJoinsAndLeaves 表</a></p></td>
-<td><p>存储有关会议加入和保留的信息, 包括用户的角色和客户端版本。</p></td>
+<td><p>存储有关会议加入和保留的信息，包括用户的角色和客户端版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-mcujoinsandleaves-table.md">Lync Server 2013 中的 McuJoinsAndLeaves 表</a></p></td>
@@ -241,7 +243,7 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-conferencemessagecount-table.md">Lync Server 2013 中的 ConferenceMessageCount 表</a></p></td>
-<td><p>对于每个 IM 会议, 存储每个用户发送的邮件数。</p></td>
+<td><p>对于每个 IM 会议，存储每个用户发送的邮件数。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-imreportsummary-table.md">Lync Server 2013 中的 IMReportSummary 表</a></p></td>
@@ -272,11 +274,11 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a></p></td>
-<td><p>存储每个对等会话的相关信息, 包括开始和结束时间、用户 ID、响应代码和每个用户的邮件计数。</p></td>
+<td><p>存储每个对等会话的相关信息，包括开始和结束时间、用户 ID、响应代码和每个用户的邮件计数。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-filetransfers-table.md">Lync Server 2013 中的 FileTransfers 表</a></p></td>
-<td><p>存储有关文件传输会话的信息, 包括文件名和结果 (已接受、已拒绝或已取消)。</p></td>
+<td><p>存储有关文件传输会话的信息，包括文件名和结果（已接受、已拒绝或已取消）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-media-table.md">Lync Server 2013 中的 Media 表</a></p></td>
@@ -307,11 +309,11 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 中的 VoipDetails 表</a></p></td>
-<td><p>对于每个两方 VoIP/PSTN 呼叫, 存储有关呼叫的信息, 例如 VoIP 电话的电话 ID、使用的网关以及哪一方断开连接。 指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>, 用于呼叫开始/结束时间和响应代码。</p>
+<td><p>对于每个两方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及哪一方断开连接。 指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>，用于呼叫开始/结束时间和响应代码。</p>
 <div>
 
 > [!NOTE]  
-> 如果呼叫中的一方是 VoIP 用户, 或者在呼叫中涉及中介服务器, 则会在此表中创建记录。 <A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</A>中捕获不涉及公共交换电话网络 (PSTN) 电话的 VoIP/voip 呼叫的信息。
+> 如果呼叫中的一方是 VoIP 用户，或者在呼叫中涉及中介服务器，则会在此表中创建记录。 <A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</A>中捕获不涉及公共交换电话网络（PSTN）电话的 VoIP/voip 呼叫的信息。
 
 
 </div></td>
@@ -341,11 +343,11 @@ _**主题上次修改时间:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Lync Server 2013 中的 Locations 表</a></p></td>
-<td><p>对于每个紧急呼叫 (如增强的 9-1-1 (E9-1-1) 通话, 存储有关呼叫的位置信息。 指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>, 用于呼叫开始/结束时间和响应代码。</p>
+<td><p>对于每个紧急呼叫（如增强的9-1-1 （E9-1-1）通话，存储有关呼叫的位置信息。 指<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>，用于呼叫开始/结束时间和响应代码。</p>
 <div>
 
 > [!NOTE]  
-> 此表仅包含 E9-1-1 调用的位置 blob。 有关通话的其他详细信息, 请参阅 SessionDetails 表。
+> 此表仅包含 E9-1-1 调用的位置 blob。 有关通话的其他详细信息，请参阅 SessionDetails 表。
 
 
 </div></td>
@@ -379,7 +381,7 @@ _**主题上次修改时间:** 2012-10-18_
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a></p></td>
-<td><p>存储有关呼叫类型的信息, 例如 "音频"、"即时消息"、"音频和视频" 和 "应用程序共享"。</p></td>
+<td><p>存储有关呼叫类型的信息，例如 "音频"、"即时消息"、"音频和视频" 和 "应用程序共享"。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-errorcategory-table.md">Lync Server 2013 中的 ErrorCategory 表</a></p></td>

@@ -3,6 +3,8 @@ title: Lync Server 2013 IPsec 例外
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IPsec exceptions
 ms:assetid: 241f1eca-6f2f-44de-90b1-2cb659cbe27c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eae9061036c91793800fd744338347196d60494c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829953"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34829953"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-27_
+_**主题上次修改时间：** 2012-06-27_
 
-对于 Internet 协议安全 (IPsec) (请参阅 IETF RFC 4301-4309) 已部署的企业网络, 必须在用于传送音频、视频和全景视频的端口范围内禁用 IPsec。 提出此建议的动机是需要避免由于 IPsec 协商而在分配媒体端口时产生任何延迟。
+对于 Internet 协议安全（IPsec）（请参阅 IETF RFC 4301-4309）已部署的企业网络，必须在用于传送音频、视频和全景视频的端口范围内禁用 IPsec。 提出此建议的动机是需要避免由于 IPsec 协商而在分配媒体端口时产生任何延迟。
 
 下表介绍了建议采用的 IPsec 例外设置。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：QoE 表详细信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE table details
 ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcfb0d3dd40341f082e4efdcb8bd22a7c3ba6b25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 157335ce68713c4c54b7cd69daf1c9ae0676a0b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823775"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823775"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-以下部分详细介绍了每个体验质量 (QoE) 数据库架构表中的列。
+以下部分详细介绍了每个体验质量（QoE）数据库架构表中的列。
 
   - [Lync Server 2013 中的 AppliedBandwidthSource 表](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2012-10-02_
 
   - [Lync Server 2013 中的 Pool 表](lync-server-2013-pool-table.md)
 
-  - [Lync Server 2013 中的 PurgeSettings 表 (QoE)](lync-server-2013-purgesettings-table-qoe.md)
+  - [Lync Server 2013 中的 PurgeSettings 表（QoE）](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Lync Server 2013 中的 Region 表](lync-server-2013-region-table.md)
 
@@ -97,7 +99,7 @@ _**主题上次修改时间:** 2012-10-02_
 
   - [Lync Server 2013 中的 UserAgent 表](lync-server-2013-useragent-table.md)
 
-  - [Lync Server 2013 中的 UserAgentDef 表 (QoE)](lync-server-2013-useragentdef-table-qoe.md)
+  - [Lync Server 2013 中的 UserAgentDef 表（QoE）](lync-server-2013-useragentdef-table-qoe.md)
 
   - [Lync Server 2013 中的 UserSite 表](lync-server-2013-usersite-table.md)
 

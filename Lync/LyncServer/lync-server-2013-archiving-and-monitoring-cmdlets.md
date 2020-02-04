@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 存档和监视 cmdlet'
+title: Lync Server 2013：存档和监视 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Archiving and Monitoring cmdlets
 ms:assetid: 04e1d0f6-d00e-4d8f-b969-daf092b2cdb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415629(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc6654a8edd078b0f478d39d19d768809d540d83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58f7242ee62bb7f9796b1f8445d49dc5efd32c06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34837768"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-04_
+_**主题上次修改时间：** 2012-10-04_
 
-存档和监视 cmdlet 使管理员能够管理即时消息和会议会话存档;记录通话详细信息;并使用体验质量 (QoE) 监控 Microsoft Lync Server 2013。
+存档和监视 cmdlet 使管理员能够管理即时消息和会议会话存档;记录通话详细信息;并使用体验质量（QoE）监控 Microsoft Lync Server 2013。
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息, 请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2012-10-04_
 
 ## <a name="archiving-and-monitoring-cmdlets"></a>存档和监视 Cmdlet
 
-以下是与管理存档和监视直接相关的 cmdlet 的列表:
+以下是与管理存档和监视直接相关的 cmdlet 的列表：
 
 **存档和监视**
 

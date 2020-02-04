@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理响应组代理组'
+title: Lync Server 2013：管理响应组代理组
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6cbea3b1a0d6638206a022ce5aded610dd60f23
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6001e8b6301df1863de21e0d88369116cef03ff5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827842"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34827842"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-代理组由一组用户组成, 这些人被指定为向响应组接听呼叫。 创建代理组时, 请选择分配给该组的代理并指定其他组设置, 例如路由方法以及代理是否可以登录和注销组。
+代理组由一组用户组成，这些人被指定为向响应组接听呼叫。 创建代理组时，请选择分配给该组的代理并指定其他组设置，例如路由方法以及代理是否可以登录和注销组。
 
 <div>
 
 
 > [!NOTE]  
-> 必须先为用户启用企业语音才能将其添加到代理组。 有关如何为用户启用企业语音的详细信息, 请参阅<A href="lync-server-2013-enable-users-for-enterprise-voice.md">在 Lync Server 2013 中启用企业语音用户</A>。
+> 必须先为用户启用企业语音才能将其添加到代理组。 有关如何为用户启用企业语音的详细信息，请参阅<A href="lync-server-2013-enable-users-for-enterprise-voice.md">在 Lync Server 2013 中启用企业语音用户</A>。
 
 
 
@@ -51,15 +53,15 @@ _**主题上次修改时间:** 2012-10-01_
 
 
 > [!NOTE]  
-> 仅本地用户可成为代理。 如果代理从本地移动到联机, 则响应组调用将不会路由到该代理。
+> 仅本地用户可成为代理。 如果代理从本地移动到联机，则响应组调用将不会路由到该代理。
 
 
 
 </div>
 
-必须登录和注销组的代理 (不同于登录或注销 Lync 服务器的代理) 称为*正式代理*。 正式代理必须先登录到组, 然后才能接收路由到该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组, 以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
+必须登录和注销组的代理（不同于登录或注销 Lync 服务器的代理）称为*正式代理*。 正式代理必须先登录到组，然后才能接收路由到该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组，以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
 
-不登录到组或从组注销的代理称为 *非正式代理*。 非正式代理在登录 Lync Server 时自动登录到该组, 并且不能注销该组。
+不登录到组或从组注销的代理称为 *非正式代理*。 非正式代理在登录 Lync Server 时自动登录到该组，并且不能注销该组。
 
 <div>
 

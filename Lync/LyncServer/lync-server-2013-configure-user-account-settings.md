@@ -3,6 +3,8 @@ title: Lync Server 2013：配置用户帐户设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure user account settings
 ms:assetid: b7c74ecc-b924-4efc-8a56-3a5f94a9ef13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4d06405d2f80aef5decb69d564ae399401d4328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b74056587a192ec81f0dffb0044fb76e7698960
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34837303"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
 拨入用户输入其电话号码或分机号和 PIN，即可以经过身份验证的用户身份加入会议。 需要在 Lync Server 用户帐户上指定的电话**线路 URI**才能进行身份验证。
 
-本主题中的过程介绍如何为单个用户帐户分配“**线路 URI**”。 如果需要为多个用户帐户分配“**线路 URI**”，则可以创建使用 **Set-CsUser** cmdlet 的脚本。 有关使用示例脚本为多个用户帐户分配**行 URI**的详细信息, 请参阅 "为多个用户分配行 uri [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)"。
+本主题中的过程介绍如何为单个用户帐户分配“**线路 URI**”。 如果需要为多个用户帐户分配“**线路 URI**”，则可以创建使用 **Set-CsUser** cmdlet 的脚本。 有关使用示例脚本为多个用户帐户分配**行 URI**的详细信息，请参阅 "为多个用户分配行 uri [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)"。
 
 <div>
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-10-05_
 
 1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-UserAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左导航栏中，单击“用户”****。
 

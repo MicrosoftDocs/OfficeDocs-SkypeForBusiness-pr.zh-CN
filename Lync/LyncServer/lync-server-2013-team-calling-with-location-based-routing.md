@@ -3,6 +3,8 @@ title: Lync Server 2013：使用基于位置的路由实现团队呼叫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Team calling
 ms:assetid: f882c193-ec3e-4712-b6da-30e1d99d47cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn781123(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c536ce1c799e0ce4fb9db62abe5bad8bf78bbe15
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5dcf8e73c9f800076c848e9a95cd2a234db893b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845722"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845722"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-08-11_
+_**主题上次修改时间：** 2014-08-11_
 
 Lync Server 2013 通过基于位置的路由支持团队呼叫。
 

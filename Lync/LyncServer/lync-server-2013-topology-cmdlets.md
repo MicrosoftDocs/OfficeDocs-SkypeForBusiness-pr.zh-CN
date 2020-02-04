@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 拓扑 cmdlet'
+title: Lync Server 2013：拓扑 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topology cmdlets
 ms:assetid: 3ed739a7-d58d-475d-8240-fa8d2c6dc7e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2fc5224257c4bb228fdcb0b6f6f27f5416a3b03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845540"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845540"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 均设计为与设置和拓扑生成器配合使用;因此, 管理员很少会直接拨打许多拓扑 cmdlet。 但是, 有时管理员将需要使用这些 cmdlet;例如, 在创建新的 Kerberos 帐户之后, 您必须运行[Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) cmdlet 才能使更改生效。 此外, 管理员很可能会运行[CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))和[CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))之类的 cmdlet, 以帮助确保 Lync Server 2013 正确安装并按预期工作。
+Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 均设计为与设置和拓扑生成器配合使用;因此，管理员很少会直接拨打许多拓扑 cmdlet。 但是，有时管理员将需要使用这些 cmdlet;例如，在创建新的 Kerberos 帐户之后，您必须运行[Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) cmdlet 才能使更改生效。 此外，管理员很可能会运行[CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))和[CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))之类的 cmdlet，以帮助确保 Lync Server 2013 正确安装并按预期工作。
 
 <div>
 
 ## <a name="topology-cmdlets"></a>拓扑 Cmdlet
 
-以下是与直接管理 Lync Server 拓扑相关的 cmdlet 的列表:
+以下是与直接管理 Lync Server 拓扑相关的 cmdlet 的列表：
 
 **拓扑**
 

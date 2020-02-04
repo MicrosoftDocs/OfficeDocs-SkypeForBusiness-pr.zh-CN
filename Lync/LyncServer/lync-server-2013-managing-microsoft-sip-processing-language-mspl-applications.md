@@ -1,8 +1,10 @@
 ---
-title: 管理 Microsoft SIP 处理语言 (MSPL) 应用程序
+title: 管理 Microsoft SIP 处理语言（MSPL）应用程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Microsoft SIP Processing Language (MSPL) applications
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688032(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55df567e190edff9a24760ba2c712d5f7715e00d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d0f73933c04b78b9557694fa8b030fbeffe8a2b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827905"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34827905"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>在 Lync Server 2013 中管理 Microsoft SIP 处理语言 (MSPL) 应用程序
+# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>在 Lync Server 2013 中管理 Microsoft SIP 处理语言（MSPL）应用程序
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827905"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-14_
+_**主题上次修改时间：** 2012-10-14_
 
-你可以使用本节中的过程管理 Microsoft SIP 处理语言 (MSPL) 应用程序。
+你可以使用本节中的过程管理 Microsoft SIP 处理语言（MSPL）应用程序。
 
 <div>
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2012-10-14_
 
   - [在 Lync Server 2013 中查看 Microsoft SIP 处理语言 (MSPL) 服务器应用程序](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
 
-  - [在 Lync Server 2013 中将 Microsoft SIP 处理语言 (MSPL) 应用程序标记为关键或非关键应用程序](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
+  - [在 Lync Server 2013 中将 Microsoft SIP 处理语言（MSPL）应用程序标记为关键或非关键应用程序](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
 
-  - [在 Lync Server 2013 中启用或禁用 Microsoft SIP 处理语言 (MSPL) 服务器应用程序](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
+  - [在 Lync Server 2013 中启用或禁用 Microsoft SIP 处理语言（MSPL）服务器应用程序](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 容量检查'
+title: Lync Server 2013：容量检查
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity review
 ms:assetid: 62a70ad3-87cf-4d8c-9f0c-710e9aa4ad63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725209(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c453f69e3bc4eaf0f970566664b09e911944e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837668"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837668"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-05-20_
+_**主题上次修改时间：** 2014-05-20_
 
-查看上个月的容量数字, 并为在未来几个月内可能需要的任何升级制定计划, 以使系统在由组织的 Sla 指定的限制范围内运行。
+查看上个月的容量数字，并为在未来几个月内可能需要的任何升级制定计划，以使系统在由组织的 Sla 指定的限制范围内运行。
 
 <div>
 

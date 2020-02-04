@@ -3,6 +3,8 @@ title: Lync Server 2013：升级或更新前端服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e4edb5ea009960fe0456f266a428431049f542b
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: af1680da68299881fe94244969d44fce1900532b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

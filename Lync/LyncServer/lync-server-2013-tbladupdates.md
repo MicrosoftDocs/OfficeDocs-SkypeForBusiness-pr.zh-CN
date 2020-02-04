@@ -3,6 +3,8 @@ title: Lync Server 2013：tblADUpdates
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblADUpdates
 ms:assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615033(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f171d8346442f915cd71fb48d51bba80bcfa32ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb4b5b73fb74c2337eeaa6b065396253a2cb0be4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845751"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-12_
+_**主题上次修改时间：** 2012-09-12_
 
 tblADUpdates 包含后续 Active Directory 同步步骤尚未处理的 Active Directory 域服务更改。
 
@@ -55,37 +57,37 @@ tblADUpdates 包含后续 Active Directory 同步步骤尚未处理的 Active Di
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID, not null</p></td>
+<td><p>GUID，not null</p></td>
 <td><p>已更改对象的主体 GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384), not null</p></td>
+<td><p>nvarchar （384），not null</p></td>
 <td><p>对象的可分辨名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
-<td><p>位, not null</p></td>
-<td><p>如果对象的至少一个属性发生更改, 则为 True。</p></td>
+<td><p>位，not null</p></td>
+<td><p>如果对象的至少一个属性发生更改，则为 True。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>位, not null</p></td>
-<td><p>如果成员身份已更改, 则为 True。</p></td>
+<td><p>位，not null</p></td>
+<td><p>如果成员身份已更改，则为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>位, not null</p></td>
+<td><p>位，not null</p></td>
 <td><p>未使用。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>位, not null</p></td>
-<td><p>如果对象已删除, 则为 True。</p></td>
+<td><p>位，not null</p></td>
+<td><p>如果对象已删除，则为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lastUpdated</p></td>
-<td><p>datetime, not null</p></td>
+<td><p>datetime，not null</p></td>
 <td><p>插入行的时间戳。</p></td>
 </tr>
 </tbody>

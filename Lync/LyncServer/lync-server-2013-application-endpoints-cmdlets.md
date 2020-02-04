@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 应用程序终结点 cmdlet'
+title: Lync Server 2013：应用程序终结点 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Application endpoints cmdlets
 ms:assetid: 940e7d52-1fd0-4f7e-a116-ac5501477fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 307164bbf53eaf0d0db843295a6b41ef1943799b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 455f6c7a8be662b2aeac39929ba6a4263f9f244b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838036"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838036"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
 应用程序终结点是 Active Directory 域服务中的联系人对象。 你可以使用 Lync Server Management Shell 中的 cmdlet 来管理 Microsoft Lync Server 2013 的这些联系人。
 

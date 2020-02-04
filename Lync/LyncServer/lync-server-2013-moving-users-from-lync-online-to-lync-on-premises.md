@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 将用户从 Lync Online 移动到本地 Lync'
+title: Lync Server 2013：将用户从 Lync Online 移动到本地 Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users from Lync Online to Lync on-premises
 ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689117(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62258122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dce09e0f4c71ae4c341546ac73999384ffce5d1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bea1463660e420edbf296be3d47aaca6d8545feb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826575"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826575"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-05-08_
+_**主题上次修改时间：** 2014-05-08_
 
-您的组织是否在部署 Lync Server 之前部署 Lync Online？ 现在, 你想要在 Lync Online 中将最初启用 Lync 的用户帐户移动到本地 Lync Server 部署吗？ 本节将帮你完成这一任务。
+您的组织是否在部署 Lync Server 之前部署 Lync Online？ 现在，你想要在 Lync Online 中将最初启用 Lync 的用户帐户移动到本地 Lync Server 部署吗？ 本节将帮你完成这一任务。
 
 <div>
 
 
 > [!NOTE]  
-> 本部分仅适用于在 Lync Online 中移动最初启用 Lync 的用户。 您的用户帐户可能是您首先为 Lync 本地启用的用户帐户, 然后移动到了 Lync Online？ 如果是, 并且想要将其移回本地, 流程很简单:<A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">管理混合 Lync Server 2013 部署中的用户</A>。
+> 本部分仅适用于在 Lync Online 中移动最初启用 Lync 的用户。 您的用户帐户可能是您首先为 Lync 本地启用的用户帐户，然后移动到了 Lync Online？ 如果是，并且想要将其移回本地，流程很简单：<A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">管理混合 Lync Server 2013 部署中的用户</A>。
 
 
 

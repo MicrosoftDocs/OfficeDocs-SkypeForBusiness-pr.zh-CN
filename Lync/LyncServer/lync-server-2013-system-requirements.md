@@ -3,6 +3,8 @@ title: Lync Server 2013：系统要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements
 ms:assetid: 9d4d1e6f-f6ed-4263-8425-3f72b415e2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 758e9df3c40e682b5bb06e355d923119d298df2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af1d9bd6fdb02b31f81d70199cb71c960296013
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845759"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845759"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
 本部分讨论部署 Lync Server 2013 和所有关联组件的系统要求。
 

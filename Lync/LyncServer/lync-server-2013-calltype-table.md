@@ -3,6 +3,8 @@ title: Lync Server 2013：CallType 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: CallType table
 ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412752(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af1fa6f96d215de9ed39311e5afc84def7d71725
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837683"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837683"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-CallType 表是一个静态表, 用于存储可能的调用类型的列表。
+CallType 表是一个静态表，用于存储可能的调用类型的列表。
 
 
 <table>
@@ -64,7 +66,7 @@ CallType 表是一个静态表, 用于存储可能的调用类型的列表。
 <td><p><strong>CallType</strong></p></td>
 <td><p>nvarchar</p></td>
 <td></td>
-<td><p>允许的值:</p>
+<td><p>允许的值：</p>
 <ul>
 <li><p>0--未知</p></li>
 <li><p>1-即时消息</p></li>

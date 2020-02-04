@@ -3,6 +3,8 @@ title: Lync Server 2013：客户端与设备软件和基础结构支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and device software and infrastructure support
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eed2bfdaa01ef1aa4b688e62932d4e97a0fb4052
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837558"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-08-27_
+_**主题上次修改时间：** 2014-08-27_
 
 Lync Server 2013 部署的客户端和设备的软件支持包括支持的操作系统、基础结构软件以及支持客户端和设备功能所需的其他其他软件。
 
@@ -54,7 +56,7 @@ Lync Server 2013 部署的客户端和设备的软件支持包括支持的操作
 
 
 > [!NOTE]  
-> Lync Phone Edition 与 lync server 2013 的工作方式相同, 与 Lync Server 2010 相同。 有关设备软件支持的详细信息, 请参阅 Lync Server 2010 TechNet 库中的以下主题: 
+> Lync Phone Edition 与 lync server 2013 的工作方式相同，与 Lync Server 2010 相同。 有关设备软件支持的详细信息，请参阅 Lync Server 2010 TechNet 库中的以下主题： 
 > <UL>
 > <LI>
 > <P>设备所需的 Lync Server 2010 组件<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>

@@ -3,6 +3,8 @@ title: 验证 Office Communications Server 2007 R2 环境
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9369ad631b772e0a73677ab3214e24083426148a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845072"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845072"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-16_
+_**主题上次修改时间：** 2012-10-16_
 
-在使用 Office 通信服务器 2007 R2 在共存状态中部署 Lync Server 2013 之前, 需要验证 Office 通信服务器是否已配置和启动 2007 R2 服务。
+在使用 Office 通信服务器 2007 R2 在共存状态中部署 Lync Server 2013 之前，需要验证 Office 通信服务器是否已配置和启动 2007 R2 服务。
 
 **验证池是否已使用 Office 通信服务器 2007 R2 管理工具启动**
 
 1.  打开 Office 通信服务器 2007 R2 管理工具。
 
-2.  展开 "**林**" 节点, 展开 "**标准版服务器**" 或 "**企业版池**" 节点, 然后展开 "池" 或 "服务器名称"。
+2.  展开 "**林**" 节点，展开 "**标准版服务器**" 或 "**企业版池**" 节点，然后展开 "池" 或 "服务器名称"。
 
 3.  确保服务在标准版服务器或企业版池上运行。
     
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-10-16_
 
 1.  打开 Office 通信服务器 2007 R2 管理工具。
 
-2.  展开 "**林**" 节点, 展开 "**标准版服务器**" 或 "**企业版池**" 节点, 然后展开 "池" 或 "服务器名称"。
+2.  展开 "**林**" 节点，展开 "**标准版服务器**" 或 "**企业版池**" 节点，然后展开 "池" 或 "服务器名称"。
 
 3.  单击 "**用户**"。
 
@@ -61,7 +63,7 @@ _**主题上次修改时间:** 2012-10-16_
 
 **验证旧版 XMPP 联盟合作伙伴配置**
 
-1.  从旧的 XMPP 服务器中, 导航到 "管理\\工具服务" 小程序。
+1.  从旧的 XMPP 服务器中，导航到 "管理\\工具服务" 小程序。
 
 2.  验证是否已启动 Office 通信服务器 XMPP 网关服务。
     

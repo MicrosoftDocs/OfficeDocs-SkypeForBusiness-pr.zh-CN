@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 企业语音 cmdlet 疑难解答'
+title: Lync Server 2013：企业语音 cmdlet 疑难解答
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting Enterprise Voice cmdlets
 ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b569270a92808e03648042f84dbd491c80e61cf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845534"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
-将企业语音设置为 Microsoft Lync Server 2013 实现的一部分包括创建必须全部协同工作的路由、策略和规则, 以确保传入和传出呼叫按预期完成。 Lync Server Management Shell 包含可用于测试连接和路径的 cmdlet, 以及用于解决在实现期间可能出现的问题。
+将企业语音设置为 Microsoft Lync Server 2013 实现的一部分包括创建必须全部协同工作的路由、策略和规则，以确保传入和传出呼叫按预期完成。 Lync Server Management Shell 包含可用于测试连接和路径的 cmdlet，以及用于解决在实现期间可能出现的问题。
 
 <div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：QoE 表的列表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of QoE tables
 ms:assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398236(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c82c38a995fd9e847057fedbbce1422085332b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829944"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34829944"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
 数据库架构由下表组成。
 
@@ -69,7 +71,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p>将网络连接类型映射到 "体验质量" 数据库中其他位置使用的网络连接标识符。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表 (QoE)</a></p></td>
+<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表（QoE）</a></p></td>
 <td><p>存储用于指定是否会自动从 QoE 数据库中删除过时的体验记录质量的信息。</p></td>
 </tr>
 <tr class="even">
@@ -77,7 +79,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p>存储呼叫的路由信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表 (QoE)</a></p></td>
+<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a></p></td>
 <td><p>将用户代理标识符映射到代理的描述性名称。</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +88,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a></p></td>
-<td><p>存储会话初始协议 (SIP) 用户代理 (UA) 字符串和音频和视频会话中使用的 UA 类型。</p></td>
+<td><p>存储会话初始协议（SIP）用户代理（UA）字符串和音频和视频会话中使用的 UA 类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-user-table.md">Lync Server 2013 中的 User 表</a></p></td>
@@ -189,7 +191,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a></p></td>
-<td><p>存储有关会话中每个媒体行的信息。 媒体线是一个或多个音频和视频流的集合。 通常, 单个媒体线路将有两个流, 即音频或视频。</p></td>
+<td><p>存储有关会话中每个媒体行的信息。 媒体线是一个或多个音频和视频流的集合。 通常，单个媒体线路将有两个流，即音频或视频。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-audiostream-table.md">Lync Server 2013 中的 AudioStream 表</a></p></td>
@@ -197,7 +199,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audiosignal-table.md">Lync Server 2013 中的 AudioSignal 表</a></p></td>
-<td><p>将音频媒体质量指标存储在媒体行中。 这包括音频回声取消 (AEC) 和自动增益控制 (AGC) 指标。</p></td>
+<td><p>将音频媒体质量指标存储在媒体行中。 这包括音频回声取消（AEC）和自动增益控制（AGC）指标。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videostream-table.md">Lync Server 2013 中的 VideoStream 表</a></p></td>
@@ -236,15 +238,15 @@ _**主题上次修改时间:** 2012-10-02_
 <tbody>
 <tr class="odd">
 <td><p><strong>ServerSummary 表</strong></p></td>
-<td><p>存储服务器的汇总数据, 这些数据仅用于体验质量 (QoE) 报告。</p></td>
+<td><p>存储服务器的汇总数据，这些数据仅用于体验质量（QoE）报告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSummary 表</strong></p></td>
-<td><p>存储用户的汇总数据, 这些数据仅用于 QoE 报告。</p></td>
+<td><p>存储用户的汇总数据，这些数据仅用于 QoE 报告。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallTypeSummary 表</strong></p></td>
-<td><p>存储通话类型的汇总数据, 这些数据仅用于 QoE 报告。</p></td>
+<td><p>存储通话类型的汇总数据，这些数据仅用于 QoE 报告。</p></td>
 </tr>
 </tbody>
 </table>

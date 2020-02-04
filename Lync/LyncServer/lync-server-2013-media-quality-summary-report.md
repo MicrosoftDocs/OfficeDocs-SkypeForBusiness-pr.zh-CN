@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 媒体质量摘要报告'
+title: Lync Server 2013：媒体质量摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Summary Report
 ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615012(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c967c6d6b120c73cb933281d4edb17be1868900
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6980168a2d509bc32b9aa48f30167bca8721fef2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827492"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34827492"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-06-29_
+_**主题上次修改时间：** 2016-06-29_
 
 媒体质量摘要报告可能最适合用来分析组织内部的呼叫质量，此报告提供了分为以下几个类别的详细的用户体验质量 (QoE) 呼叫指标：
 
-  - UC 对等呼叫 (如 Microsoft Lync 2013 到 Microsoft Lync 2013 呼叫)
+  - UC 对等呼叫（如 Microsoft Lync 2013 到 Microsoft Lync 2013 呼叫）
 
   - UC 会议会话
 
@@ -51,9 +53,9 @@ _**主题上次修改时间:** 2016-06-29_
 
   - 其他呼叫类型
 
-只要打开报告时，您就会看到有关所有这些类别的摘要信息。 在不退出报表的情况下, 你可以展开每个类别以查看子类别, 例如从 Office Communicator 2007 R2 向 Lync 2013 进行的调用。 此外，您还可以向下钻取这些子类别，以查看各子类别下进行的每个呼叫的详细信息。
+只要打开报告时，您就会看到有关所有这些类别的摘要信息。 在不退出报表的情况下，你可以展开每个类别以查看子类别，例如从 Office Communicator 2007 R2 向 Lync 2013 进行的调用。 此外，您还可以向下钻取这些子类别，以查看各子类别下进行的每个呼叫的详细信息。
 
-在 Microsoft Lync Server 2013 中, "媒体质量摘要" 报表进一步将数据分解为三种呼叫类型: 音频通话、视频通话和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
+在 Microsoft Lync Server 2013 中，"媒体质量摘要" 报表进一步将数据分解为三种呼叫类型：音频通话、视频通话和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
 
 此外，可利用媒体质量摘要报告来应用一些筛选器，以便能够比较有线呼叫与无线呼叫的呼叫质量、内部呼叫与外部呼叫的呼叫质量以及 VPN 呼叫与非 VPN 呼叫的呼叫质量。
 
@@ -61,7 +63,7 @@ _**主题上次修改时间:** 2016-06-29_
 
 ## <a name="accessing-the-media-quality-summary-report"></a>访问媒体质量摘要报告
 
-可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标, 向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md):
+可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标，向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md)：
 
   - 呼叫量
 
@@ -230,7 +232,7 @@ _**主题上次修改时间:** 2016-06-29_
 <tr class="even">
 <td><p><strong>性能降低 (MOS)</strong></p></td>
 <td><p>否</p></td>
-<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中, Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
+<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中，Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
 <p>高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
@@ -241,7 +243,7 @@ _**主题上次修改时间:** 2016-06-29_
 <tr class="even">
 <td><p><strong>抖动（毫秒）</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>
@@ -419,7 +421,7 @@ _**主题上次修改时间:** 2016-06-29_
 <tr class="odd">
 <td><p><strong>抖动（毫秒）</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>相对单向平均值</strong></p></td>

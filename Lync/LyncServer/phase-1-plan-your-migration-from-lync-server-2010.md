@@ -1,8 +1,10 @@
 ---
-title: '第1阶段: 规划从 Lync Server 2010 的迁移'
+title: 第1阶段：规划从 Lync Server 2010 的迁移
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Lync Server 2010'
 ms:assetid: 1461b343-05cd-44a3-b722-4c297708de31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 693fd46a313199bdc133abcbc3a8042a934122da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e413bef2271a7b01487536ed44f475eac60dd0c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845168"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>第1阶段: 规划从 Lync Server 2010 的迁移
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>第1阶段：规划从 Lync Server 2010 的迁移
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845168"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-29_
+_**主题上次修改时间：** 2012-09-29_
 
 本部分介绍从 Lync Server 2010 迁移到 Lync Server 2013 的计划主题。
 

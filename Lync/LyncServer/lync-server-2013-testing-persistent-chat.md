@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 测试持久聊天'
+title: Lync Server 2013：测试持久聊天
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing persistent chat
 ms:assetid: d351b6f2-bc31-42e0-9e8d-c347713d6b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727313(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4f805984382388fd44904db746d818decb8871a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 78e756de75dda7d7b0a96d9a49233818a5c86576
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845576"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845576"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-11-03_
+_**主题上次修改时间：** 2014-11-03_
 
 
 <table>
@@ -52,8 +54,8 @@ _**主题上次修改时间:** 2014-11-03_
 </tr>
 <tr class="odd">
 <td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时, 用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时, 必须向用户分配具有运行<strong>CsPersistentChatMessage</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表, 请从 Windows PowerShell 提示符处运行以下命令:</p>
+<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行<strong>CsPersistentChatMessage</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**主题上次修改时间:** 2014-11-03_
 
 ## <a name="description"></a>说明
 
-**CsPersistentChatMessage** cmdlet 验证一对测试用户是否可以使用持久聊天服务交换消息。 为此, 该 cmdlet 将两个用户记录到 Lync Server 2013, 将用户连接到持久聊天室, 交换一对消息, 然后退出聊天室并注销两个用户。 请注意, 如果你没有创建任何聊天室, 或者没有为两个测试用户帐户分配可访问永久聊天服务的持久聊天策略, 则对此 cmdlet 的调用将失败。
+**CsPersistentChatMessage** cmdlet 验证一对测试用户是否可以使用持久聊天服务交换消息。 为此，该 cmdlet 将两个用户记录到 Lync Server 2013，将用户连接到持久聊天室，交换一对消息，然后退出聊天室并注销两个用户。 请注意，如果你没有创建任何聊天室，或者没有为两个测试用户帐户分配可访问永久聊天服务的持久聊天策略，则对此 cmdlet 的调用将失败。
 
 </div>
 
@@ -72,9 +74,9 @@ _**主题上次修改时间:** 2014-11-03_
 
 ## <a name="running-the-test"></a>运行测试
 
-以下示例中所示的命令将测试一对用户 (litwareinc\\pilar 和 litwareinc\\kenmyer) 的功能以登录 Lync Server 2013, 然后使用持久聊天服务交换邮件。 为此, 示例中的第一个命令使用**Get 凭据**Cmdlet 创建 Windows PowerShell 命令行界面凭据对象, 该对象包含用户 Pilar Ackerman 的名称和密码。 (由于 "登录名"、\\"litwareinc pilar" 已作为参数包含, 因此 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 pilar Ackerman 帐户的密码。)然后, 所生成的凭据对象将存储在名为 $cred 1 的变量中。 第二个命令执行相同操作, 这一次返回 Ken Myer 帐户的凭据对象。
+以下示例中所示的命令将测试一对用户（litwareinc\\pilar 和 litwareinc\\kenmyer）的功能以登录 Lync Server 2013，然后使用持久聊天服务交换邮件。 为此，示例中的第一个命令使用**Get 凭据**Cmdlet 创建 Windows PowerShell 命令行界面凭据对象，该对象包含用户 Pilar Ackerman 的名称和密码。 （由于 "登录名"、\\"litwareinc pilar" 已作为参数包含，因此 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 pilar Ackerman 帐户的密码。）然后，所生成的凭据对象将存储在名为 $cred 1 的变量中。 第二个命令执行相同操作，这一次返回 Ken Myer 帐户的凭据对象。
 
-使用凭据对象, 第三个命令确定这两个用户是否可以使用持久聊天来登录 Lync Server 2013 和 exchange 邮件。 若要执行此任务, 请使用以下参数调用**CsPersistentChatMessage** Cmdlet: TargetFqdn (注册机构池的 FQDN);SenderSipAddress (第一测试用户的 SIP 地址);SenderCredential (包含此同一用户的凭据的 Windows PowerShell 对象);ReceiverSipAddress (其他测试用户的 SIP 地址);和 ReceiverCredential (包含其他测试用户的凭据的 Windows PowerShell 对象)。
+使用凭据对象，第三个命令确定这两个用户是否可以使用持久聊天来登录 Lync Server 2013 和 exchange 邮件。 若要执行此任务，请使用以下参数调用**CsPersistentChatMessage** Cmdlet： TargetFqdn （注册机构池的 FQDN）;SenderSipAddress （第一测试用户的 SIP 地址）;SenderCredential （包含此同一用户的凭据的 Windows PowerShell 对象）;ReceiverSipAddress （其他测试用户的 SIP 地址）;和 ReceiverCredential （包含其他测试用户的凭据的 Windows PowerShell 对象）。
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -87,55 +89,55 @@ _**主题上次修改时间:** 2014-11-03_
 
 ## <a name="determining-success-or-failure"></a>确定成功还是失败
 
-如果指定用户具有有效的位置策略, 则会收到与此类似的输出, 结果属性标记为**成功**:
+如果指定用户具有有效的位置策略，则会收到与此类似的输出，结果属性标记为**成功**：
 
-目标 Fqdn: atl-cs-001.litwareinc.com
+目标 Fqdn： atl-cs-001.litwareinc.com
 
-结果: 成功
+结果：成功
 
-延迟: 00:00:00
+延迟：00:00:00
 
-错误消息:
+错误消息：
 
 自检
 
-如果指定用户无法使用持久聊天服务交换邮件, 则结果将显示为 "**失败**", 并且将在 "错误" 和 "诊断" 属性中记录其他信息:
+如果指定用户无法使用持久聊天服务交换邮件，则结果将显示为 "**失败**"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
 
-警告: 无法读取给定的完全限定的注册机构端口号
+警告：无法读取给定的完全限定的注册机构端口号
 
-域名 (FQDN)。 使用默认注册器端口号。 除了
+域名（FQDN）。 使用默认注册器端口号。 除了
 
-InvalidOperationException: 在拓扑中找不到匹配的群集。
+InvalidOperationException：在拓扑中找不到匹配的群集。
 
 看
 
 SipSyntheticTransaction. TryRetri 的 SyntheticTransactions
 
-eveRegistrarPortFromTopology (Int32& registrarPortNumber)
+eveRegistrarPortFromTopology （Int32& registrarPortNumber）
 
-目标 Fqdn: atl-cs-001.litwareinc.com
+目标 Fqdn： atl-cs-001.litwareinc.com
 
-结果: 失败
+结果：失败
 
-延迟: 00:00:00
+延迟：00:00:00
 
-错误消息: 10060, 连接尝试失败, 因为已连接的参与方
+错误消息：10060，连接尝试失败，因为已连接的参与方
 
-在一段时间后未正确响应, 或者
+在一段时间后未正确响应，或者
 
-已建立连接失败, 因为连接的主机已
+已建立连接失败，因为连接的主机已
 
-无法响应\[2001: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
+无法响应\[2001：4898： e8： f39e：5c9a： ad83：81b3： 9944\]：5061
 
-内部异常: 连接尝试失败, 因为
+内部异常：连接尝试失败，因为
 
 已连接方在一段时间后未正确响应
 
-时间, 或已建立的连接失败, 因为已连接的主机
+时间，或已建立的连接失败，因为已连接的主机
 
 无法响应
 
-\[2001: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
+\[2001：4898： e8： f39e：5c9a： ad83：81b3： 9944\]：5061
 
 自检
 
@@ -145,7 +147,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是**测试 CsPersistentChatMessage**可能失败的一些常见原因:
+下面是**测试 CsPersistentChatMessage**可能失败的一些常见原因：
 
   - 提供的参数值不正确。 所需的测试帐户可能不存在或已正确创建。
 

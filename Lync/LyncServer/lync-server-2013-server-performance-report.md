@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 服务器性能报告'
+title: Lync Server 2013：服务器性能报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Performance Report
 ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822375"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822375"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
 服务器性能报告提供了已经历最高的通话不佳百分比的 Microsoft Lync Server 2013 服务器列表。 该报告按服务器类型对服务器进行了分类，并为以下类型报告了单独的统计信息：
 
@@ -57,7 +59,7 @@ _**主题上次修改时间:** 2012-10-01_
 
 ## <a name="accessing-the-server-performance-report"></a>访问服务器性能报告
 
-服务器性能报告是从监控报告主页访问的。 您可以通过单击以下任一指标, 向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md):
+服务器性能报告是从监控报告主页访问的。 您可以通过单击以下任一指标，向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md)：
 
   - 呼叫量
 
@@ -217,7 +219,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="odd">
 <td><p><strong>性能降低 (MOS)</strong></p></td>
 <td><p>是</p></td>
-<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中, 监视服务器使用一组算法来预测用户对呼叫的评分。</p>
+<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中，监视服务器使用一组算法来预测用户对呼叫的评分。</p>
 <p>高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
@@ -228,7 +230,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="odd">
 <td><p><strong>抖动（毫秒）</strong></p></td>
 <td><p>是</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>修复程序隐藏比率</strong></p></td>
@@ -406,7 +408,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="odd">
 <td><p><strong>抖动（毫秒）</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>相对单向平均值</strong></p></td>

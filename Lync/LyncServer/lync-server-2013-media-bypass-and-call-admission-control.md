@@ -3,6 +3,8 @@ title: Lync Server 2013：媒体绕过和呼叫允许控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass and call admission control
 ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398203(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c5e02a57add6b93f1ad5c5efc3ac644e65e97f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2034a58f686d62ab8e755c0e2c624a9a8994961e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827555"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-05_
+_**主题上次修改时间：** 2012-10-05_
 
 媒体旁路和呼叫允许控制 (CAC) 协同工作以管理呼叫媒体的带宽控制。媒体旁路可以改善连接良好的链接中的媒体流；CAC 管理具有带宽限制的链接上的流量。由于媒体旁路和 CAC 相互排斥，因此在规划其中一项时必须注意另一项。支持以下组合：
 
@@ -51,7 +53,7 @@ _**主题上次修改时间:** 2012-10-05_
     
     如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。与带宽限制的实际值或其内容形式无关。最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。根据定义，定义带宽限制是指链接连接不佳。
 
-  - 启用 CAC，但未启用媒体旁路。 该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。 有关媒体绕过要求的详细信息, 请参阅[Lync Server 2013 中的 "媒体绕过技术要求](lync-server-2013-technical-requirements-for-media-bypass.md)"。
+  - 启用 CAC，但未启用媒体旁路。 该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。 有关媒体绕过要求的详细信息，请参阅[Lync Server 2013 中的 "媒体绕过技术要求](lync-server-2013-technical-requirements-for-media-bypass.md)"。
 
 <div>
 

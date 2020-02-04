@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 通话清单报告'
+title: Lync Server 2013：通话清单报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call List Report
 ms:assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faf330a776f64534c02833a0472cfefea7f0998e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce2954f848d448676aea2931cda4dffa8ddc0c5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837706"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837706"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如, 如果从[Lync Server 2013 中的设备报表](lync-server-2013-device-report.md)打开报表, 你将看到以下指标, 这些指标也会在设备报表上报告:
+呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如，如果从[Lync Server 2013 中的设备报表](lync-server-2013-device-report.md)打开报表，你将看到以下指标，这些指标也会在设备报表上报告：
 
   - 呼叫者的麦克风
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2012-10-01_
 
   - 语音切换时间比率
 
-但是, 如果从[Lync Server 2013 中](lync-server-2013-location-report.md)的 "位置" 报表打开 "通话清单" 报告, 将看不到任何这些指标;相反, 你将看到如下所示的指标:
+但是，如果从[Lync Server 2013 中](lync-server-2013-location-report.md)的 "位置" 报表打开 "通话清单" 报告，将看不到任何这些指标;相反，你将看到如下所示的指标：
 
   - 来回行程（毫秒）
 
@@ -65,15 +67,15 @@ _**主题上次修改时间:** 2012-10-01_
 
 可从以下任一报告访问呼叫列表报告：
 
-  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)（通过单击呼叫音量或较差的通话百分比跃点数）
 
-  - [Lync Server 2013 中的设备报表](lync-server-2013-device-report.md)(通过单击呼叫卷或较差的通话百分比跃点数)
+  - [Lync Server 2013 中的设备报表](lync-server-2013-device-report.md)（通过单击呼叫卷或较差的通话百分比跃点数）
 
-  - [Lync Server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+  - [Lync Server 2013 中的 "媒体质量摘要" 报表](lync-server-2013-media-quality-summary-report.md)（通过单击呼叫音量或较差的通话百分比跃点数）
 
-  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（通过单击呼叫音量或较差的通话百分比跃点数）
 
-从通话列表报告中, 您可以通过单击详细信息指标来访问[Lync Server 2013 中的 "呼叫详细信息" 报告](lync-server-2013-call-detail-report.md)。
+从通话列表报告中，您可以通过单击详细信息指标来访问[Lync Server 2013 中的 "呼叫详细信息" 报告](lync-server-2013-call-detail-report.md)。
 
 </div>
 
@@ -159,7 +161,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="odd">
 <td><p><strong>性能降低 (MOS)</strong></p></td>
 <td><p>是</p></td>
-<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中, Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
+<td><p>呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Lync Server 中，Lync Server 使用一组算法来预测用户对呼叫进行评分的方式。</p>
 <p>高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
@@ -170,7 +172,7 @@ _**主题上次修改时间:** 2012-10-01_
 <tr class="odd">
 <td><p><strong>抖动</strong></p></td>
 <td><p>是</p></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 (抖动是&quot;shakiness&quot;通话的衡量。)高抖动值通常由拥塞或过载的媒体服务器导致, 并导致失真或丢失的音频。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是&quot;shakiness&quot;通话的衡量。）高抖动值通常由拥塞或过载的媒体服务器导致，并导致失真或丢失的音频。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

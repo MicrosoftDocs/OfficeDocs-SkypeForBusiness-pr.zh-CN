@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 诊断报告'
+title: Lync Server 2013：诊断报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Diagnostic Report
 ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830413"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830413"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-07_
+_**主题上次修改时间：** 2014-02-07_
 
 诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2014-02-07_
 
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可通过在 Lync Server 2013 或会议详细信息报告中单击 "[对等会话详细信息" 报告](lync-server-2013-peer-to-peer-session-detail-report.md)上的诊断报告 (详细信息) 指标来访问诊断报告。
+可通过在 Lync Server 2013 或会议详细信息报告中单击 "[对等会话详细信息" 报告](lync-server-2013-peer-to-peer-session-detail-report.md)上的诊断报告（详细信息）指标来访问诊断报告。
 
 </div>
 

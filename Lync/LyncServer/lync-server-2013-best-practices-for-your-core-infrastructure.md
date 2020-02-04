@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 核心基础结构的最佳做法'
+title: Lync Server 2013：核心基础结构的最佳做法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for your core infrastructure in Lync Server 2013
 ms:assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518328(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfb6e12f6f2c6d66a0d4f5fed17bc01dc250db5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1c6a8663bfae2411926fe08a497a5004def051ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837729"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34837729"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-01-27_
+_**主题上次修改时间：** 2014-01-27_
 
-你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于 Microsoft Lync Server 2013 基础结构, 还受益于整个网络。 如果尚未实施这些做法, 建议在部署 Lync Server 2013 之前执行此操作。
+你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于 Microsoft Lync Server 2013 基础结构，还受益于整个网络。 如果尚未实施这些做法，建议在部署 Lync Server 2013 之前执行此操作。
 
-为了帮助保护 Lync Server 2013 部署中的服务器, 避免意外或针对性损害可能导致停机的情况, 请采取以下预防措施:
+为了帮助保护 Lync Server 2013 部署中的服务器，避免意外或针对性损害可能导致停机的情况，请采取以下预防措施：
 
-  - 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务来帮助你确保收到关于任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅, 请转到 Microsoft 技术安全通知网站[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)。
+  - 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务来帮助你确保收到关于任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅，请转到 Microsoft 技术安全通知网站[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)。
 
   - 确保正确设置访问权限。
 

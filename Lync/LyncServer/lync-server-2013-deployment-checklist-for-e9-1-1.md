@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: E9 的部署清单-1-1'
+title: Lync Server 2013： E9 的部署清单-1-1
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for E9-1-1
 ms:assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9a48ba3d999e55106298d7419e4590147e1e9e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5efe5c55386eb431c91e798ad960cc510ce33ce1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830512"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830512"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-03_
+_**主题上次修改时间：** 2012-10-03_
 
-若要有效规划增强的 9-1-1 (E9-1-1), 请确保包含以下部署要求:
+若要有效规划增强的9-1-1 （E9-1-1），请确保包含以下部署要求：
 
   - 部署 E9 的先决条件-1-1。
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-10-03_
 
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>E9-1-1 的部署先决条件
 
-在部署 E9-1 之前, 你必须已部署 Lync Server 内部服务器, 包括中央管理存储、前端池或标准版服务器、一个或多个中介服务器或中介服务器池以及 Lync Server 客户端。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。 Lync Server 支持仅在美国境内使用 E9 服务提供商。
+在部署 E9-1 之前，你必须已部署 Lync Server 内部服务器，包括中央管理存储、前端池或标准版服务器、一个或多个中介服务器或中介服务器池以及 Lync Server 客户端。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。 Lync Server 支持仅在美国境内使用 E9 服务提供商。
 
 </div>
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-10-03_
 
 ## <a name="deployment-process"></a>部署过程
 
-下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息, 请参阅部署文档中[Lync Server 2013 中的 "配置增强的 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) "。
+下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息，请参阅部署文档中[Lync Server 2013 中的 "配置增强的 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) "。
 
 
 <table>
@@ -102,7 +104,7 @@ _**主题上次修改时间:** 2012-10-03_
 <td><p>配置位置数据库</p></td>
 <td><ol>
 <li><p>使用网络元素到位置的映射填充数据库。</p></li>
-<li><p>对于 ELIN 网关, 将 ELINs 添加到&lt;"&gt;公司名称" 列。</p></li>
+<li><p>对于 ELIN 网关，将 ELINs 添加到&lt;"&gt;公司名称" 列。</p></li>
 <li><p>配置与 E9-1-1 服务提供商的连接以验证地址。</p></li>
 <li><p>验证 E9-1-1 服务提供商的地址。</p></li>
 <li><p>发布更新的数据库。</p></li>

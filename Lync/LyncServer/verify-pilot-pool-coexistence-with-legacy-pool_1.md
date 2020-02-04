@@ -3,6 +3,8 @@ title: 验证试点池与旧池的共存情况
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67b113a4619d90345df9858f348d663383066d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7585970a53ffd94959653555dad8a02724ba2f03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845070"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845070"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
 <div>
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-09-28_
 
 1.  打开 Office 通信服务器 2007 R2 管理工具。
 
-2.  展开 "**林**" 节点, 展开 "**标准版服务器**" 或 "**企业版池**" 节点, 然后展开 "池" 或 "服务器名称"。
+2.  展开 "**林**" 节点，展开 "**标准版服务器**" 或 "**企业版池**" 节点，然后展开 "池" 或 "服务器名称"。
 
 3.  确保在池中运行 Office 通信服务器 2007 R2 服务。
     
@@ -55,13 +57,13 @@ _**主题上次修改时间:** 2012-09-28_
 
 1.  从作为 CsAdministrator 角色成员的用户帐户登录到 Lync Server 2013 前端服务器。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  单击 "**拓扑**"。
 
 4.  验证你部署的服务器是否存在于你的试点池中。
     
-    ![Lync Server "控制面板" 拓扑页面](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server \"控制面板\" 拓扑页面")  
+    ![Lync Server "控制面板" 拓扑页面](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server "控制面板" 拓扑页面")  
 
 </div>
 
@@ -69,11 +71,11 @@ _**主题上次修改时间:** 2012-09-28_
 
 ## <a name="verify-lync-server-2013-services-have-started"></a>验证是否已启动 Lync Server 2013 服务
 
-1.  在 Lync Server 2013 前端服务器上, 从 "**管理工具**" 组中打开 "**服务**" 小程序。
+1.  在 Lync Server 2013 前端服务器上，从 "**管理工具**" 组中打开 "**服务**" 小程序。
 
 2.  验证列出的服务是否与下图中的列表相符。
     
-    ![显示 Lync 服务已启动]的 "服务" 页面(images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "显示 Lync 服务已启动")的 "服务" 页面  
+    ![显示 Lync 服务已启动的 "服务" 页面](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "显示 Lync 服务已启动的 "服务" 页面")  
 
 </div>
 

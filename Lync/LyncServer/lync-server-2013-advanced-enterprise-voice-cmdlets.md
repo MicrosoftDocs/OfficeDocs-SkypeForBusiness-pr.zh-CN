@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 高级企业语音 cmdlet'
+title: Lync Server 2013：高级企业语音 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Advanced Enterprise Voice cmdlets
 ms:assetid: 247179fb-1c66-4edb-8401-1c1aad189062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbe524cafa29dedcde62229bece52144898cbf06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2eb83fe91f9c1f2cc0a79adc1232a051534e22e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838028"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-04-12_
+_**主题上次修改时间：** 2016-04-12_
 
-在你的组织中实现企业语音时, 你还可以选择实现可改善用户体验和你的组织效率的其他功能和应用程序。 这些功能包括呼叫许可控制、增强的 9-1-1 (E9-1) 紧急呼叫和媒体配置设置。
+在你的组织中实现企业语音时，你还可以选择实现可改善用户体验和你的组织效率的其他功能和应用程序。 这些功能包括呼叫许可控制、增强的9-1-1 （E9-1）紧急呼叫和媒体配置设置。
 
 <div>
 
 ## <a name="advanced-enterprise-voice-cmdlets"></a>高级企业语音 Cmdlet
 
-以下列表包含允许你管理企业语音部署的高级功能的 cmdlet:
+以下列表包含允许你管理企业语音部署的高级功能的 cmdlet：
 
 **[Lync Server 2013 中的呼叫许可控制 cmdlet](lync-server-2013-call-admission-control-cmdlets.md)**
 
@@ -315,7 +317,7 @@ _**主题上次修改时间:** 2016-04-12_
   - <span></span>  
     [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
 
-**[共享行外观 (SLA) cmdlet](shared-line-appearance-sla-cmdlets.md)**
+**[共享行外观（SLA） cmdlet](shared-line-appearance-sla-cmdlets.md)**
 
   - <span></span>  
     [CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))

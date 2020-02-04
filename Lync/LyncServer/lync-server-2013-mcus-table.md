@@ -3,6 +3,8 @@ title: Lync Server 2013：Mcus 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mcus table
 ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425742(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf0a34d24bf60770f2b1e2664a89993f5917d854
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 522c7babbda63c550679dab1eb8eb03114417169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827534"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-Mcus 表是支持表。 每条记录存储有关一个会议服务的信息。 这些服务可以包括 IM 会议服务和电话会议服务 (该服务作为前端服务器上的进程运行)、Web 会议服务和 A/V 会议服务。
+Mcus 表是支持表。 每条记录存储有关一个会议服务的信息。 这些服务可以包括 IM 会议服务和电话会议服务（该服务作为前端服务器上的进程运行）、Web 会议服务和 A/V 会议服务。
 
 
 <table>
@@ -62,7 +64,7 @@ Mcus 表是支持表。 每条记录存储有关一个会议服务的信息。 �
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -70,7 +72,7 @@ Mcus 表是支持表。 每条记录存储有关一个会议服务的信息。 �
 <td><p><strong>McuTypeId</strong></p></td>
 <td><p>inyint</p></td>
 <td><p> 外表</p></td>
-<td><p>会议服务器类型, 例如会议: 聊天 (适用于 Im) 或会议: 音频视频。 有关详细信息, 请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>会议服务器类型，例如会议：聊天（适用于 Im）或会议：音频视频。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 </tbody>
 </table>

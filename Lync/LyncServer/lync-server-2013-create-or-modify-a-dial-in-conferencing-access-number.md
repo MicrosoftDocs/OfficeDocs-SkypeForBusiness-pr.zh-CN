@@ -3,6 +3,8 @@ title: Lync Server 2013：创建或修改电话拨入式会议访问号码
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a dial-in conferencing access number
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398126(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8372c8117f2e33594ae59b3eff15c6d7eee96ba6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ecfebba25d45f53633fdd425e5901929fc32d0c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830803"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830803"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-17_
+_**主题上次修改时间：** 2012-09-17_
 
-如果要创建或修改电话拨入式会议接入号码, 请按照以下步骤操作。
+如果要创建或修改电话拨入式会议接入号码，请按照以下步骤操作。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在创建新的拨入访问号码之前, 必须在与新的拨入接入号码相关联的拨号计划中设置电话拨入式会议区域。 多个拨号计划可以使用同一区域。
+> 在创建新的拨入访问号码之前，必须在与新的拨入接入号码相关联的拨号计划中设置电话拨入式会议区域。 多个拨号计划可以使用同一区域。
 
 
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-09-17_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“会议”****，然后单击“拨入访问号码”****。
 
@@ -107,7 +109,7 @@ _**主题上次修改时间:** 2012-09-17_
 
 8.  在“SIP URI”**** 中，执行下列操作：
     
-      - 在文本框中，为此电话拨入式会议访问号码键入唯一的 SIP URI。 SIP URI 显示在不同的位置, 其中包括但不限于呼叫通知消息和以前版本的 Communicator 客户端。
+      - 在文本框中，为此电话拨入式会议访问号码键入唯一的 SIP URI。 SIP URI 显示在不同的位置，其中包括但不限于呼叫通知消息和以前版本的 Communicator 客户端。
         
         <div>
         
@@ -118,7 +120,7 @@ _**主题上次修改时间:** 2012-09-17_
         
         </div>
     
-      - 在下拉列表框中, 单击支持此拨入访问号码的会议助理应用程序所在的域。
+      - 在下拉列表框中，单击支持此拨入访问号码的会议助理应用程序所在的域。
 
 9.  在“池”**** 中，单击运行支持此拨入访问号码的会议助理实例的池。
     
@@ -153,7 +155,7 @@ _**主题上次修改时间:** 2012-09-17_
     
     </div>
 
-12. 若要为拨入访问号码添加区域, 请在 "**关联区域**" 下, 单击 "**添加**", 单击与此拨入访问号码的拨号计划相关联的一个或多个区域, 然后单击 **"确定"**。
+12. 若要为拨入访问号码添加区域，请在 "**关联区域**" 下，单击 "**添加**"，单击与此拨入访问号码的拨号计划相关联的一个或多个区域，然后单击 **"确定"**。
 
 13. 要从拨入访问号码中删除某个区域，请在“关联区域”**** 下，单击要删除的区域，然后单击“删除”****。
 

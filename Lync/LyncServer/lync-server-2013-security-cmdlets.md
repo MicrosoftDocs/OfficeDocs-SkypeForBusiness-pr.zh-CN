@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 安全 cmdlet'
+title: Lync Server 2013：安全 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security cmdlets
 ms:assetid: 9a6c654d-287d-434e-8d93-409f0d623f5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398799(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ede87f55754528fc7164c6d7d828eaada662e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df13c5182d97534e32f0f4d383df73985907c8f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732492"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34822130"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
-Microsoft Lync Server 2013 中包含的安全 cmdlet 主要用于管理身份验证以及用户权利和权限。 多种 cmdlet 可用于管理身份验证，包括用于证书和个人标识号 (PIN) 身份验证的 cmdlet。 此外, 您可以使用多个 cmdlet 来使用新的基于角色的访问控制 (RBAC) 功能来委派 Lync 服务器的管理控制。
+Microsoft Lync Server 2013 中包含的安全 cmdlet 主要用于管理身份验证以及用户权利和权限。 多种 cmdlet 可用于管理身份验证，包括用于证书和个人标识号 (PIN) 身份验证的 cmdlet。 此外，您可以使用多个 cmdlet 来使用新的基于角色的访问控制（RBAC）功能来委派 Lync 服务器的管理控制。
 
 <div>
 
 ## <a name="security-cmdlets"></a>安全 Cmdlet
 
-可从 Lync Server 控制面板执行许多适用于安全设置的管理任务。 一个主要例外是用户权限 cmdlet。 但是, 可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行所有安全管理任务;使用脚本可以自动执行某些任务。 以下是与管理安全设置直接相关的 cmdlet 的列表:
+可从 Lync Server 控制面板执行许多适用于安全设置的管理任务。 一个主要例外是用户权限 cmdlet。 但是，可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行所有安全管理任务;使用脚本可以自动执行某些任务。 以下是与管理安全设置直接相关的 cmdlet 的列表：
 
 **[Lync Server 2013 中的证书和身份验证 cmdlet](lync-server-2013-certificate-and-authentication-cmdlets.md)**
 

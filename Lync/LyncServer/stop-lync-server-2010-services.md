@@ -3,6 +3,8 @@ title: 停止 Lync Server 2010 服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Stop Lync Server 2010 services
 ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ffe7a6204154d5cf45a277ea2dddbdf2b8021f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845088"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-04_
+_**主题上次修改时间：** 2012-10-04_
 
-可以使用 Lync Server "控制面板" 启动或停止在特定计算机上运行的所有 Lync Server 2010 服务, 或者启动或停止特定的 Lync Server 2010 服务。
+可以使用 Lync Server "控制面板" 启动或停止在特定计算机上运行的所有 Lync Server 2010 服务，或者启动或停止特定的 Lync Server 2010 服务。
 
 <div>
 
@@ -43,9 +45,9 @@ _**主题上次修改时间:** 2012-10-04_
 
 1.  打开“Lync Server 控制面板”。
 
-2.  在左侧导航栏中, 单击 "**拓扑**", 然后单击 "**状态**"。
+2.  在左侧导航栏中，单击 "**拓扑**"，然后单击 "**状态**"。
 
-3.  在 "**状态**" 页面上, 根据需要对列表进行排序或搜索以查找运行要启动或停止的服务的计算机, 然后单击它。
+3.  在 "**状态**" 页面上，根据需要对列表进行排序或搜索以查找运行要启动或停止的服务的计算机，然后单击它。
 
 4.  单击 "**操作**"。
 
@@ -59,13 +61,13 @@ _**主题上次修改时间:** 2012-10-04_
 
 1.  打开“Lync Server 控制面板”。
 
-2.  在左侧导航栏中, 单击 "**拓扑**", 然后单击 "**状态**"。
+2.  在左侧导航栏中，单击 "**拓扑**"，然后单击 "**状态**"。
 
-3.  在 "**状态**" 页面上, 根据需要对列表进行排序或搜索以查找运行要启动或停止的服务的计算机, 然后单击它。
+3.  在 "**状态**" 页面上，根据需要对列表进行排序或搜索以查找运行要启动或停止的服务的计算机，然后单击它。
 
 4.  单击 "**属性**"。
 
-5.  对服务列表进行排序 (如有必要), 然后单击要启动或停止的服务。
+5.  对服务列表进行排序（如有必要），然后单击要启动或停止的服务。
 
 6.  单击 "**操作**"。
 

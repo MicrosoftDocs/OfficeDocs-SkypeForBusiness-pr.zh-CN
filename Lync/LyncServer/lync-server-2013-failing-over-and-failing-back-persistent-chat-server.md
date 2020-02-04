@@ -3,6 +3,8 @@ title: Lync Server 2013：对持久聊天服务器进行故障转移和故障回
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over and failing back Persistent Chat Server
 ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205214(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9871c5cfe4d92bacadd6ec8c2c92dea0d3b25a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d36196da91cacfc47d0f3117a534567ab76e3946
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830165"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-03_
+_**主题上次修改时间：** 2012-08-03_
 
-若要故障切换和故障恢复 Lync Server 2013、持久聊天服务器, 你应该熟悉 Microsoft SQL Server 2008 R2 和更高版本的复制和故障转移过程。 您还应该熟悉持久聊天服务器服务。
+若要故障切换和故障恢复 Lync Server 2013、持久聊天服务器，你应该熟悉 Microsoft SQL Server 2008 R2 和更高版本的复制和故障转移过程。 您还应该熟悉持久聊天服务器服务。
 
 <div>
 

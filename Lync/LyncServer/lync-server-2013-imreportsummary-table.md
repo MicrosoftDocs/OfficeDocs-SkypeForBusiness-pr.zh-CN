@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: IMReportSummary 表'
+title: Lync Server 2013： IMReportSummary 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IMReportSummary table
 ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204753(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2254bafe059cc1a4bc6436580e9d604711f5fb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830021"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830021"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-08-20_
+_**主题上次修改时间：** 2012-08-20_
 
 IMReportSummaryTable 提供组织中的即时消息会话的整体报告。 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -62,13 +64,13 @@ IMReportSummaryTable 提供组织中的即时消息会话的整体报告。 此�
 </tr>
 <tr class="even">
 <td><p><strong>TimePeriod</strong></p></td>
-<td><p>char (1)</p></td>
+<td><p>char （1）</p></td>
 <td><p>Primary</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolFQDN</strong></p></td>
-<td><p>nvarchar (257)</p></td>
+<td><p>nvarchar （257）</p></td>
 <td><p>Primary</p></td>
 <td><p>托管会话的池的完全限定的域名。</p></td>
 </tr>
@@ -76,7 +78,7 @@ IMReportSummaryTable 提供组织中的即时消息会话的整体报告。 此�
 <td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>通话的优先级 (例如, 紧急或非紧急)。 优先级信息存储在<a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</p></td>
+<td><p>通话的优先级（例如，紧急或非紧急）。 优先级信息存储在<a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionCount</strong></p></td>

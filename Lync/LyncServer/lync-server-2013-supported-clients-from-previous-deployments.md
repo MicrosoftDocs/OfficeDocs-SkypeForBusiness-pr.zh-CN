@@ -3,6 +3,8 @@ title: Lync Server 2013：先前部署中支持的客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported clients from previous deployments
 ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b5cbecf45a9ea5203b3e459a895b2bddb0cfe55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38d4fe00b834778f1ad87f021656ed08488c1ba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845776"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845776"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-12-14_
+_**主题上次修改时间：** 2012-12-14_
 
-在共存方案中, Lync Server 2013 客户端可以与早期版本的 Lync Server 和 Office 通信服务器交互。 与以前的版本不同, Lync Server 2010 支持新的 Lync 2013 客户端。 这使得从 Lync Server 2010 升级的组织可以独立于 Lync Server 升级来部署新的客户端。
+在共存方案中，Lync Server 2013 客户端可以与早期版本的 Lync Server 和 Office 通信服务器交互。 与以前的版本不同，Lync Server 2010 支持新的 Lync 2013 客户端。 这使得从 Lync Server 2010 升级的组织可以独立于 Lync Server 升级来部署新的客户端。
 
 <div>
 
 ## <a name="supported-server-and-client-combinations"></a>支持的服务器和客户端组合
 
-下表显示了客户端版本和服务器版本受支持的组合。 Lync Server 2013 支持两个以前的客户端版本, Lync Server 2010 支持新的 Lync 2013 客户端。
+下表显示了客户端版本和服务器版本受支持的组合。 Lync Server 2013 支持两个以前的客户端版本，Lync Server 2010 支持新的 Lync 2013 客户端。
 
 
 <table>
@@ -130,17 +132,17 @@ _**主题上次修改时间:** 2012-12-14_
 </table>
 
 
-1In Microsoft Lync Server 2010, 群组聊天功能可通过群组聊天服务器使用, 这是 Lync Server 2010 的第三方受信任的应用程序。 Lync 2013 客户端与 Lync Server 2010、群组聊天不兼容。
+1In Microsoft Lync Server 2010，群组聊天功能可通过群组聊天服务器使用，这是 Lync Server 2010 的第三方受信任的应用程序。 Lync 2013 客户端与 Lync Server 2010、群组聊天不兼容。
 
-2Lync Web App 2013 现在提供了一个完整的会议体验, 包括计算机音频和视频, 并被视为 Lync 2010 与会者的替换。
+2Lync Web App 2013 现在提供了一个完整的会议体验，包括计算机音频和视频，并被视为 Lync 2010 与会者的替换。
 
-Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 兼容, 但会议功能不兼容。 从 Office 通信服务器 2007 R2 迁移期间, Office Communicator 2007 R2 适用于状态和 IM 互操作性, 但用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议。
+Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 兼容，但会议功能不兼容。 从 Office 通信服务器 2007 R2 迁移期间，Office Communicator 2007 R2 适用于状态和 IM 互操作性，但用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议。
 
 <div>
 
 
 > [!NOTE]  
-> 有关 Lync Server 2013 客户端与早期版本的 Lync Server 和 Office 通信服务器共存和交互的功能的详细信息, 请参阅规划文档中<A href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 中的客户端互操作性</A>。
+> 有关 Lync Server 2013 客户端与早期版本的 Lync Server 和 Office 通信服务器共存和交互的功能的详细信息，请参阅规划文档中<A href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 中的客户端互操作性</A>。
 
 
 

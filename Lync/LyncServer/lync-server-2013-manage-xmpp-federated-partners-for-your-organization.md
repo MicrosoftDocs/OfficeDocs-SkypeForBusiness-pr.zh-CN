@@ -3,6 +3,8 @@ title: Lync Server 2013：管理组织的 XMPP 联盟伙伴
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage XMPP federated partners for your organization
 ms:assetid: 48681433-725d-457f-926b-f91d95bcf082
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552450(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da73eaa90363f0d8ab32c9484f6fa32a7eed9459
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828227"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828227"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
 
-若要管理对 XMPP 联盟域的用户的支持, 您需要执行以下操作:
+若要管理对 XMPP 联盟域的用户的支持，您需要执行以下操作：
 
   - 配置一个或多个外部访问策略以支持 XMPP 联盟域的用户。
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2012-10-19_
 
   - 了解可用于 XMPP 联合身份验证的协商设置。
 
-若要执行这些任务, 请使用本节中的过程。
+若要执行这些任务，请使用本节中的过程。
 
 <div>
 

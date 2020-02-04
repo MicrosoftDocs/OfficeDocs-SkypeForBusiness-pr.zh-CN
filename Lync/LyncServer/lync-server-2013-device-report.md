@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 设备报表'
+title: Lync Server 2013：设备报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Report
 ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830448"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-11-12_
+_**主题上次修改时间：** 2013-11-12_
 
-设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果你对 IP 电话感兴趣 (通常也称为 "设备"), 请改用[Lync Server 2013 中的 Ip 手机库存报告](lync-server-2013-ip-phone-inventory-report.md)。
+设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果你对 IP 电话感兴趣（通常也称为 "设备"），请改用[Lync Server 2013 中的 Ip 手机库存报告](lync-server-2013-ip-phone-inventory-report.md)。
 
 该设备报告在管理员确定特定类型的设备遇到的质量欠佳的呼叫量是否高于其他呼叫时极其有用。转而，这会对即将购买新设备或替换现有设备时所做的任何决策产生影响。
 
@@ -129,13 +131,13 @@ _**主题上次修改时间:** 2013-11-12_
 
 ## <a name="accessing-the-device-report"></a>访问设备报告
 
-通常可从监控报告主页访问该设备报告。 但是, 如果你在[Lync Server 2013 中查看 "呼叫详细信息" 报告](lync-server-2013-call-detail-report.md), 你可以通过单击以下任一指标向下钻取到特定设备的设备报告:
+通常可从监控报告主页访问该设备报告。 但是，如果你在[Lync Server 2013 中查看 "呼叫详细信息" 报告](lync-server-2013-call-detail-report.md)，你可以通过单击以下任一指标向下钻取到特定设备的设备报告：
 
   - 捕获设备
 
   - 呈现设备
 
-在 "设备" 报表中, 通过单击以下任一指标, 可以向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md):
+在 "设备" 报表中，通过单击以下任一指标，可以向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md)：
 
   - 呼叫量
 
@@ -189,13 +191,13 @@ _**主题上次修改时间:** 2013-11-12_
 
 
 > [!NOTE]  
-> 请记住, 如果你运行的是 Lync Server 2013 的本地化版本, 则捕获设备名称可能不同。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。
+> 请记住，如果你运行的是 Lync Server 2013 的本地化版本，则捕获设备名称可能不同。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。
 
 
 
 </div>
 
-很多时候，您想拥有该级别的详细信息；但在其他时候，您可能仅对多少呼叫在使用普通的 Aastra 麦克风感兴趣，而与型号无关。 获取信息的一种方法是将设备报表数据导出到 Microsoft Excel, 然后将该数据保存到逗号分隔值文件 (例如 C:\\数据\\设备\_Report .csv)。 然后使用一组类似这些的命令，将 .CSV 文件导入到 Windows PowerShell 中，并报告回使用 Aastra 捕获设备所做的呼叫总数：
+很多时候，您想拥有该级别的详细信息；但在其他时候，您可能仅对多少呼叫在使用普通的 Aastra 麦克风感兴趣，而与型号无关。 获取信息的一种方法是将设备报表数据导出到 Microsoft Excel，然后将该数据保存到逗号分隔值文件（例如 C：\\数据\\设备\_Report .csv）。 然后使用一组类似这些的命令，将 .CSV 文件导入到 Windows PowerShell 中，并报告回使用 Aastra 捕获设备所做的呼叫总数：
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -391,7 +393,7 @@ _**主题上次修改时间:** 2013-11-12_
 <p>麦克风 (Microsoft LifeCam VX-1000.)</p>
 <p>或者，可只输入该名称的一部分。例如：</p>
 <p>LifeCam</p>
-<p>请注意, 上述筛选器返回任何在其名称中&quot;任何&quot;位置包含字符串 LifeCam 的设备。</p></td>
+<p>请注意，上述筛选器返回任何在其名称中&quot;任何&quot;位置包含字符串 LifeCam 的设备。</p></td>
 </tr>
 </tbody>
 </table>
@@ -439,7 +441,7 @@ _**主题上次修改时间:** 2013-11-12_
 <tr class="even">
 <td><p><strong>质量欠佳的呼叫百分比</strong></p></td>
 <td><p>是</p></td>
-<td><p>分类为&quot;差的通话百分比。&quot;较差的通话是指至少一个已测量指标超过允许值的电话 (例如, 经历过多抖动的呼叫)。</p></td>
+<td><p>分类为&quot;差的通话百分比。&quot;较差的通话是指至少一个已测量指标超过允许值的电话（例如，经历过多抖动的呼叫）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>唯一用户数</strong></p></td>

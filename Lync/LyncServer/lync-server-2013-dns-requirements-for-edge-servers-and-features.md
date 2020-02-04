@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Edge 服务器和功能的 DNS 要求'
+title: Lync Server 2013： Edge 服务器和功能的 DNS 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Edge Servers and features
 ms:assetid: e3bf05c8-96fb-4dd2-acb1-f0d141c9e2ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721912(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c5069e82da9d063cc19e230db7503cd1bc640e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e9f0cb2eb68ed29984811f1c42a97dab4693a2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830370"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830370"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-08_
+_**主题上次修改时间：** 2014-04-08_
 
-Lync Server 2013 Edge 服务器、边缘池和反向代理对域名系统 (DNS) 记录具有特定的要求。 在 Lync Server 2013 中, 当 IPv4 和 IPv6 正在使用时, 必须为主机 A 和 AAAA 记录进行规划。
+Lync Server 2013 Edge 服务器、边缘池和反向代理对域名系统（DNS）记录具有特定的要求。 在 Lync Server 2013 中，当 IPv4 和 IPv6 正在使用时，必须为主机 A 和 AAAA 记录进行规划。
 
-下面列出的主题定义了用于部署规划的 DNS 记录的使用:
+下面列出的主题定义了用于部署规划的 DNS 记录的使用：
 
 <div>
 

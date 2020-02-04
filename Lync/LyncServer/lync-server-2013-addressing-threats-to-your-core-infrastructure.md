@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 寻址核心基础结构的威胁'
+title: Lync Server 2013：寻址核心基础结构的威胁
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Addressing threats to your core infrastructure for Lync Server 2013
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d653fef54e2ab994625a991b32adb89119b5c6f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837919"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837919"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-08-01_
+_**主题上次修改时间：** 2016-08-01_
 
-除了适用于 Microsoft Lync Server 2013 部署的最佳做法之外, 还可以通过查看、了解和解决你的部署的特定区域中的任何需求来帮助确保安全。
+除了适用于 Microsoft Lync Server 2013 部署的最佳做法之外，还可以通过查看、了解和解决你的部署的特定区域中的任何需求来帮助确保安全。
 
 <div>
 

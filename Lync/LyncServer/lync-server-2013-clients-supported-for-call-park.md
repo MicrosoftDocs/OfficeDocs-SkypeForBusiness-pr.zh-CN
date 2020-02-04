@@ -3,6 +3,8 @@ title: Lync Server 2013：支持呼叫寄存的客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Call Park
 ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b9ac77a82cf8d833c3f06a8fe3c738e2501937
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837541"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837541"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-13_
+_**主题上次修改时间：** 2012-09-13_
 
-此部分标识了可用于寄存呼叫的客户端, 以及可用于检索已寄存呼叫的客户端。
+此部分标识了可用于寄存呼叫的客户端，以及可用于检索已寄存呼叫的客户端。
 
 <div>
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-09-13_
 
 </div>
 
-以下客户端可使用呼叫寄存拨出寄存呼叫:
+以下客户端可使用呼叫寄存拨出寄存呼叫：
 
   - Lync 2013
 
@@ -83,7 +85,7 @@ _**主题上次修改时间:** 2012-09-13_
 
 联盟用户无法取回寄存的呼叫。
 
-以下客户端可以检索寄存在呼叫寄存上的呼叫:
+以下客户端可以检索寄存在呼叫寄存上的呼叫：
 
   - Lync 2013
 
@@ -95,7 +97,7 @@ _**主题上次修改时间:** 2012-09-13_
 
   - IP 公用区域电话
 
-  - 连接到 Lync Server 2013 基础结构的非 IP 电话, 包括常见的区域电话和专用分支交换 (PBX) 电话
+  - 连接到 Lync Server 2013 基础结构的非 IP 电话，包括常见的区域电话和专用分支交换（PBX）电话
 
 </div>
 

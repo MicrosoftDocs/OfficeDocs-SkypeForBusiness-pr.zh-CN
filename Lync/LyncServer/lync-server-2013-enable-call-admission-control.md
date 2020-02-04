@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 启用呼叫许可控制'
+title: Lync Server 2013：启用呼叫许可控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable call admission control
 ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 864de6f8ac456ad8a312b5c47af1f19124e7be3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1776cc173d7ddec50aae34e8316844d14f67b009
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830322"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830322"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
 配置完呼叫允许控制部署的网络设置后，必须启用 CAC 来使带宽策略生效。
 
-有关详细信息, 请参阅以下 cmdlet 的 Lync Server Management Shell 文档:
+有关详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
 
   - [Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
 
@@ -49,7 +51,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-enable-call-admission-control-by-using-management-shell"></a>使用命令行管理程序启用呼叫许可控制
 
-1.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 2.  运行 Set-CsNetworkConfiguration cmdlet 以在网络中启用 CAC。例如，运行：
     
@@ -65,7 +67,7 @@ _**主题上次修改时间:** 2012-10-19_
 
 ## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板启用 "呼叫许可控制"
 
-1.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 

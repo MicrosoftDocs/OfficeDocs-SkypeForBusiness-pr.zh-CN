@@ -3,6 +3,8 @@ title: Lync Server 2013：响应组的容量规划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Response Group
 ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837671"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-29_
+_**主题上次修改时间：** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
@@ -70,7 +72,7 @@ _**主题上次修改时间:** 2012-10-29_
 <thead>
 <tr class="header">
 <th>指标</th>
-<th>每个企业版池 (具有8个前端服务器)</th>
+<th>每个企业版池（具有8个前端服务器）</th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
@@ -78,7 +80,7 @@ _**主题上次修改时间:** 2012-10-29_
 <tr class="odd">
 <td><p>每秒传入的呼叫数</p></td>
 <td><p>utf-16</p></td>
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 </tr>
 <tr class="even">
 <td><p>连接到 IVR 或 MoH 的并发呼叫数</p></td>

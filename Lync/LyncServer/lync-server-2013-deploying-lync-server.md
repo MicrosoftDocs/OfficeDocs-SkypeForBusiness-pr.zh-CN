@@ -3,6 +3,8 @@ title: Lync Server 2013：部署 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Server 2013
 ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce62d2cfa3d98bc982ea2ed2fa19ade6205a62ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7654b88d209e6a19571632ed773e891c50679e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830540"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830540"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-Lync Server 2013 的部署过程由你决定要安装的 Lync Server 拓扑和组件决定, 包括你是要部署前端池还是标准版服务器。 本节中的主题帮助你确定要部署的环境, 并指导你完成部署过程。
+Lync Server 2013 的部署过程由你决定要安装的 Lync Server 拓扑和组件决定，包括你是要部署前端池还是标准版服务器。 本节中的主题帮助你确定要部署的环境，并指导你完成部署过程。
 
 <div>
 

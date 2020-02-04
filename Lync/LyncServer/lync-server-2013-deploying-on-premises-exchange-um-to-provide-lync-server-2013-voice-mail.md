@@ -3,6 +3,8 @@ title: 部署本地 Exchange UM 以提供 Lync Server 2013 语音邮件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda7be6c0ab2485cfd119fd5db5af9d624c05682
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830529"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830529"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-26_
+_**主题上次修改时间：** 2012-09-26_
 
-如果你已部署或计划在你的组织中部署 Microsoft Exchange Server, 则可以使用 Exchange 统一消息 (UM) 功能向企业语音用户提供语音邮件。
+如果你已部署或计划在你的组织中部署 Microsoft Exchange Server，则可以使用 Exchange 统一消息（UM）功能向企业语音用户提供语音邮件。
 
 <div>
 

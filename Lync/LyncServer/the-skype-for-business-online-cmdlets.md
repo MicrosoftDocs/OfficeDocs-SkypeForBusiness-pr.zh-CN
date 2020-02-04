@@ -3,6 +3,8 @@ title: Lync Online Cmdlet
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: The Skype for Business Online cmdlets
 ms:assetid: 71f38305-fd8b-4013-83e1-cb742e3174c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1994843eb2059045525c61c5821051add2d30b47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c0d56a85fda6cb4f46991700b6fa428acb1c823
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845083"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-05_
+_**主题上次修改时间：** 2013-07-05_
 
-使用 Windows PowerShell 连接到 Skype for business Online 时, 将在内存中将 Skype for business Online cmdlet 的集合复制到计算机。 这些 cmdlet 以及你在本地计算机上已有的任何其他 cmdlet (包括安装 Windows PowerShell 时安装的核心 cmdlet), 可用于管理你的 Skype for Business Online 部署和你的 Skype for business Online 部署和你的 Skype for business Online 部署商业联机用户帐户。 Skype for Business Online cmdlet 将在以下主题中引入:
+使用 Windows PowerShell 连接到 Skype for business Online 时，将在内存中将 Skype for business Online cmdlet 的集合复制到计算机。 这些 cmdlet 以及你在本地计算机上已有的任何其他 cmdlet （包括安装 Windows PowerShell 时安装的核心 cmdlet），可用于管理你的 Skype for Business Online 部署和你的 Skype for business Online 部署和你的 Skype for business Online 部署商业联机用户帐户。 Skype for Business Online cmdlet 将在以下主题中引入：
 
   - [管理 Lync Online 租户](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 呼叫许可控制报告'
+title: Lync Server 2013：呼叫许可控制报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Admission Control Report
 ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837718"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-29_
+_**主题上次修改时间：** 2012-06-29_
 
-呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的 "呼叫许可控制" 为管理员提供了一种基于带宽限制允许 (或禁止) 通信会话的方式。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的 "呼叫许可控制" 为管理员提供了一种基于带宽限制允许（或禁止）通信会话的方式。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
 
 <div>
 

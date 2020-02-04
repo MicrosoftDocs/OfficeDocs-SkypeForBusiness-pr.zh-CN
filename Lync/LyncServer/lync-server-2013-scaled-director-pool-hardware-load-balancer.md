@@ -3,6 +3,8 @@ title: Lync Server 2013：扩展的控制器池 - 硬件负载平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - hardware load balancer
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205316(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0faf0983830466b44c91532f4fd80d72abb37fd7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f3fc699a5d0904b3ed308928e5edec612b3af03c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822186"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-08_
+_**主题上次修改时间：** 2012-09-08_
 
-一个缩放的控制器池, 部署了多个控制器以处理更多容量并提供高可用性, 需要负载平衡才能将客户端和服务器通信分配给该池的所有成员。 控制器承载 web 服务的方式非常类似于前端池。 Web 服务需要硬件负载平衡。
+一个缩放的控制器池，部署了多个控制器以处理更多容量并提供高可用性，需要负载平衡才能将客户端和服务器通信分配给该池的所有成员。 控制器承载 web 服务的方式非常类似于前端池。 Web 服务需要硬件负载平衡。
 
-以下主题介绍了使用硬件负载平衡部署控制器池的规划注意事项。 如果你打算为控制器池使用硬件负载平衡和 DNS 负载平衡, 请参阅[Lync Server 2013 中的主题 "扩展的控制器池"-"DNS 负载平衡" 和 "硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)", 描述该拓扑的规划要求。
+以下主题介绍了使用硬件负载平衡部署控制器池的规划注意事项。 如果你打算为控制器池使用硬件负载平衡和 DNS 负载平衡，请参阅[Lync Server 2013 中的主题 "扩展的控制器池"-"DNS 负载平衡" 和 "硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)"，描述该拓扑的规划要求。
 
 ![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")
 

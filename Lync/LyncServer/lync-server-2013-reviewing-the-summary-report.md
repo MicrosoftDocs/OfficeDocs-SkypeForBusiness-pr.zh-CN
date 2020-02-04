@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看摘要报告'
+title: Lync Server 2013：查看摘要报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Summary Report
 ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822319"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
-Lync Server 管理员报表是介绍详细记录你的设计的四个有价值的报表中的第一个。 此报表中的信息以及其他三个相关报表是您的信息技术团队的优秀文档:
+Lync Server 管理员报表是介绍详细记录你的设计的四个有价值的报表中的第一个。 此报表中的信息以及其他三个相关报表是您的信息技术团队的优秀文档：
 
-![常规汇总管理报表](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "常规汇总管理报表")
+![常规摘要管理报告](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "常规摘要管理报告")
 
   - 证书报告
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理应用程序级别响应组设置'
+title: Lync Server 2013：管理应用程序级别响应组设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing application-level Response Group settings
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721843(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bac03eaafc40ccd86aca8514319e3bf632ea6a83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffce659c2c4dc6c91ba4e4935b72c15e4cef4da5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828213"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828213"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 响应组应用程序的应用程序级别设置包括默认的 "保留音乐" 配置、默认的 "保留音乐" 音频文件、代理 ringback 宽限期和 "呼叫上下文配置"。 你只能针对每个池定义一组应用程序级别设置。 若要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 若要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  在命令行中运行：
     

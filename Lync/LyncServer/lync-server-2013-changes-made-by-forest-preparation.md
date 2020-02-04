@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 林准备所做的更改'
+title: Lync Server 2013：林准备所做的更改
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837615"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837615"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-30_
+_**主题上次修改时间：** 2012-10-30_
 
-本部分介绍全局设置和对象, 以及由林准备步骤创建的通用服务和管理组。
+本部分介绍全局设置和对象，以及由林准备步骤创建的通用服务和管理组。
 
 <div>
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全局设置和对象
 
-如果在配置容器中存储全局设置 (所有新的 Lync Server 2013 部署的情况), 林准备将使用现有服务容器, 并在配置\\服务下添加**RTC 服务**对象。目标. 在 RTC 服务对象下, 林准备添加了类型 msRTCSIP-GlobalContainer 的**全局设置**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果在系统容器中存储全局设置, 林准备将使用根域系统容器下的 Microsoft 容器和系统\\Microsoft 对象下的 RTC 服务对象。
+如果在配置容器中存储全局设置（对于所有新的 Lync Server 2013 部署而言），林准备将使用现有服务容器，并在 "配置\\服务" 对象下添加**RTC 服务**对象。 在 RTC 服务对象下，林准备添加了类型 msRTCSIP-GlobalContainer 的**全局设置**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果在系统容器中存储全局设置，林准备将使用根域系统容器下的 Microsoft 容器和系统\\Microsoft 对象下的 RTC 服务对象。
 
 林准备还会为运行该过程的根域添加一个新的**MsRTCSIP 域**对象。
 
@@ -51,9 +53,9 @@ _**主题上次修改时间:** 2012-10-30_
 
 ## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory 通用服务和管理组
 
-林准备基于你指定的域创建通用组, 并为这些组添加访问控制条目 (Ace)。 此步骤将在你指定的域的用户容器中创建通用组。
+林准备基于你指定的域创建通用组，并为这些组添加访问控制条目（Ace）。 此步骤将在你指定的域的用户容器中创建通用组。
 
-通用组允许管理员访问和管理全局设置和服务。 林准备添加了以下类型的通用组:
+通用组允许管理员访问和管理全局设置和服务。 林准备添加了以下类型的通用组：
 
   - **管理组**   这些组定义 Lync Server 网络的管理员角色。
 
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2012-10-30_
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>允许成员管理服务器和池设置, 包括所有服务器角色、全局设置和用户。</p></td>
+<td><p>允许成员管理服务器和池设置，包括所有服务器角色、全局设置和用户。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
@@ -123,11 +125,11 @@ _**主题上次修改时间:** 2012-10-30_
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>授予对 Lync Server 设置的只读访问权限。 此组无权访问池级别设置, 只能访问特定于单个服务器的设置。</p></td>
+<td><p>授予对 Lync Server 设置的只读访问权限。 此组无权访问池级别设置，只能访问特定于单个服务器的设置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>授予对 Lync Server 配置的只读访问权限, 并将其放在安装期间 survivable 分支装置的本地管理员组中。</p></td>
+<td><p>授予对 Lync Server 配置的只读访问权限，并将其放在安装期间 survivable 分支装置的本地管理员组中。</p></td>
 </tr>
 </tbody>
 </table>
@@ -167,13 +169,13 @@ _**主题上次修改时间:** 2012-10-30_
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>授予对 Lync Server 设置的只读访问权限, 但允许配置 survivable 分支服务器和 survivable 分支装置部署。</p></td>
+<td><p>授予对 Lync Server 设置的只读访问权限，但允许配置 survivable 分支服务器和 survivable 分支装置部署。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-林准备然后将服务和管理组添加到相应的基础结构组, 如下所示:
+林准备然后将服务和管理组添加到相应的基础结构组，如下所示：
 
   - RTCUniversalServerAdmins 已添加到 RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup。
 
@@ -181,7 +183,7 @@ _**主题上次修改时间:** 2012-10-30_
 
   - RTCHSUniversalServices、RTCComponentUniversalServices 和 RTCUniversalReadOnlyAdmins 将添加为 RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 的成员。
 
-林准备还会创建以下基于角色的访问控制 (RBAC) 组:
+林准备还会创建以下基于角色的访问控制（RBAC）组：
 
   - CSAdministrator
 
@@ -205,9 +207,9 @@ _**主题上次修改时间:** 2012-10-30_
 
   - CsResponseGroupManager
 
-有关 RBAC 角色和每个角色允许执行的任务的详细信息, 请参阅规划文档中的在[Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+有关 RBAC 角色和每个角色允许执行的任务的详细信息，请参阅规划文档中的在[Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
 
-林准备创建 private 和 public Ace。 它在 Lync Server 使用的全局设置容器上创建专用 Ace。 此容器仅由 Lync Server 使用, 并且位于配置容器或根域中的系统容器中, 具体取决于你存储全局设置的位置。 下表列出了林准备创建的公共 Ace。
+林准备创建 private 和 public Ace。 它在 Lync Server 使用的全局设置容器上创建专用 Ace。 此容器仅由 Lync Server 使用，并且位于配置容器或根域中的系统容器中，具体取决于你存储全局设置的位置。 下表列出了林准备创建的公共 Ace。
 
 ### <a name="public-aces-created-by-forest-preparation"></a>由林准备创建的公共 Ace
 
@@ -224,11 +226,11 @@ _**主题上次修改时间:** 2012-10-30_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>读取根域系统容器 (不是继承的)<strong>*</strong></p></td>
+<td><p>读取根域系统容器（不是继承的）<strong>*</strong></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
-<td><p>读取配置的 DisplaySpecifiers 容器 (而不是继承的容器)</p></td>
+<td><p>读取配置的 DisplaySpecifiers 容器（而不是继承的容器）</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
@@ -245,17 +247,17 @@ _**主题上次修改时间:** 2012-10-30_
 
 </div>
 
-在配置容器的配置命名上下文下, 林准备执行以下任务:
+在配置容器的配置命名上下文下，林准备执行以下任务：
 
-  - 为用户、联系人和 InetOrgPersons 的语言显示说明符的 "adminContextMenu" 和 "adminPropertyPages" 属性下的**RTC 属性**页面添加一个条目 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** (例如, CN =用户显示, CN = 409, CN = DisplaySpecifiers)。
+  - 为用户、联系人和 InetOrgPersons 的语言显示说明符的 adminContextMenu 和 adminPropertyPages 属性（例如，CN = 用户显示，CN = 409，cn = DisplaySpecifiers）下的**RTC 属性**页添加一个条目 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** 。
 
-  - 在应用于用户和联系人类的**扩展权限**下, 添加类型**controlAccessRight**的**RTCPropertySet**对象。
+  - 在应用于用户和联系人类的**扩展权限**下，添加类型**controlAccessRight**的**RTCPropertySet**对象。
 
-  - 在适用于用户、联系人、OU 和 DomainDNS 类的**扩展权限**下, 添加类型**controlAccessRight**的**RTCUserSearchPropertySet**对象。
+  - 在适用于用户、联系人、OU 和 DomainDNS 类的**扩展权限**下，添加类型**controlAccessRight**的**RTCUserSearchPropertySet**对象。
 
-  - 在每个语言组织单位 (OU) 显示说明符的**extraColumns**属性下添加**msRTCSIP-PRIMARYUSERADDRESS** (如 CN = ORGANIZATIONALUNIT-display、CN = 409、cn = DisplaySpecifiers), 并将默认显示的**extraColumns**属性 (例如, cn = Default-DISPLAY, cn = 409, Cn = DisplaySpecifiers)。
+  - 在每个语言组织单位（OU）显示说明符（例如，CN = organizationalUnit-Display，CN = 409，CN = DisplaySpecifiers）的**extraColumns**属性下添加**msRTCSIP-PrimaryUserAddress** ，并复制默认显示的**extraColumns**属性的值（例如，CN = default-display、cn = 409）。
 
-  - 在每个语言显示说明符的**msRTCSIP**属性下为用户、联系人添加**msRTCSIP PrimaryUserAddress**、 **msRTCSIP-PrimaryHomeServer**和**UserEnabled**筛选属性和 InetOrgPerson 对象 (例如, 在英语中: CN = user-Display, CN = 409, CN = DisplaySpecifiers)。
+  - 为用户、联系人和 MsRTCSIP 对象（例如英语： CN = 用户显示，CN = 409，cn = UserEnabled）添加每个语言显示说明符的**attributeDisplayNames**属性下的**msRTCSIP**、 **msRTCSIP-PrimaryHomeServer**和**InetOrgPerson** DisplaySpecifiers 筛选属性。
 
 </div>
 

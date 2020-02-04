@@ -3,6 +3,8 @@ title: 删除网站或用户组的电话拨入式会议 PIN 设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete dial-in conferencing PIN settings for a site or group of users
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520955(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488970df9e85bdbf8e3f2d8cbe21965eaf3c621c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae81fd45c2679c8b4d2ab0bf6813fbb405905224
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830608"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830608"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
 按照以下步骤删除用户级或网站级的 PIN 策略。
 
@@ -51,13 +53,13 @@ _**主题上次修改时间:** 2012-10-18_
 
 ## <a name="to-delete-a-user-or-site-pin-policy"></a>删除用户或网站的 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“**会议**”，然后单击“**PIN 策略**”。
 
-4.  在 "**固定策略**" 页面上的 "搜索" 字段中, 键入要删除的策略的全部或部分名称。
+4.  在 "**固定策略**" 页面上的 "搜索" 字段中，键入要删除的策略的全部或部分名称。
 
 5.  在策略列表中，单击所需的策略，再单击“编辑”****，然后单击“删除”****。
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 创建体验配置设置的质量'
+title: Lync Server 2013：创建体验配置设置的质量
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 947fb50c057fdcc04fe7d1b30d25bc8f5a5f4a02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f651da026dcf73253eaccada14332a7f2f5c1f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830777"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34830777"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-23_
+_**主题上次修改时间：** 2013-02-23_
 
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、"抖动"量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
 
-安装 Microsoft Lync Server 2013 时, 将为你创建一个 QoE 配置设置的单个全局集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 QoE。
+安装 Microsoft Lync Server 2013 时，将为你创建一个 QoE 配置设置的单个全局集合。 管理员还具有创建站点作用域的自定义设置的选项。 使用这些站点作用域设置时，它们将优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置（而不是全局设置）将用于管理 Redmond 内的 QoE。
 
-QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 创建。 如果您使用的是 Lync Server 控制面板来创建新设置, 您将可以使用以下选项:
+QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 创建。 如果您使用的是 Lync Server 控制面板来创建新设置，您将可以使用以下选项：
 
 
 <table>
@@ -84,7 +86,7 @@ QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https:
 
 
 > [!NOTE]  
-> CsQoEConfiguration cmdlet 包括 Lync Server 控制面板中不可用的其他选项。 有关详细信息, 请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">CsQoEConfiguration</A>帮助主题。
+> CsQoEConfiguration cmdlet 包括 Lync Server 控制面板中不可用的其他选项。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">CsQoEConfiguration</A>帮助主题。
 
 
 
@@ -94,9 +96,9 @@ QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https:
 
 ## <a name="to-create-qoe-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建 QoE 配置设置
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息, 请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
 
@@ -120,7 +122,7 @@ QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https:
 
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建 QoE 配置设置
 
-你可以使用 Windows PowerShell 和 CsQoEConfiguration cmdlet 创建 QoE 配置设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你可以使用 Windows PowerShell 和 CsQoEConfiguration cmdlet 创建 QoE 配置设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
@@ -152,7 +154,7 @@ QoE 配置设置可使用 Lync Server 控制面板或[CsQoEConfiguration](https:
 
 </div>
 
-有关详细信息, 请参阅[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 的帮助主题。
 
 </div>
 

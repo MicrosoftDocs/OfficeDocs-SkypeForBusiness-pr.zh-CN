@@ -3,6 +3,8 @@ title: Lync Server 2013：ClientVersions 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions table
 ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cba578209ca6c22360da73c2317334ecf77da569
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 857db525a61f478073d72a011d86ab34eff36d71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837554"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837554"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-ClientVersions 表是一个支持表, 用于存储参与数据库中记录的会话的各种客户端类型和版本的列表。 表中的每条记录表示一个客户端版本。
+ClientVersions 表是一个支持表，用于存储参与数据库中记录的会话的各种客户端类型和版本的列表。 表中的每条记录表示一个客户端版本。
 
 
 <table>
@@ -70,7 +72,7 @@ ClientVersions 表是一个支持表, 用于存储参与数据库中记录的会
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定会话中使用的客户端类型。 有关详细信息, 请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p>
+<td><p>指定会话中使用的客户端类型。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p>
 <p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>

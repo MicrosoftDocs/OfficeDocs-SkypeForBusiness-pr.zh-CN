@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 用户视图'
+title: Lync Server 2013：用户视图
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User view
 ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21c22bdfbf758545418a821edaba5d8aaf447b87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845481"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845481"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
 "用户" 视图存储与在数据库中具有记录的通话或会话中参与的用户的相关信息。 此视图已在 Microsoft Lync Server 2013 中引入。
 
@@ -59,18 +61,18 @@ _**主题上次修改时间:** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>用户的 Uri。</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
 <td><p>标识符</p></td>
-<td><p>用户的租户。 有关详细信息, 请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>用户 URI 的类型。 有关详细信息, 请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>用户 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 </tbody>
 </table>

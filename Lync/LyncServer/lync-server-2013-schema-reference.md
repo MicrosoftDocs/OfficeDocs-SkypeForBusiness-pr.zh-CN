@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 架构引用'
+title: Lync Server 2013：架构引用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema reference
 ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398370(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ad70a69426f0fb858fe3b231ddbbddfa5f0753d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e2d5458ca3c14af74b71dd09c4f94f6936aa27c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821899"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821899"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-29_
+_**主题上次修改时间：** 2012-06-29_
 
 <div>
 

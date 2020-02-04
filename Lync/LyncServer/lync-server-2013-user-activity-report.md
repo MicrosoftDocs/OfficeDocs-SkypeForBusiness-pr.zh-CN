@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 用户活动报表'
+title: Lync Server 2013：用户活动报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a7dd3dd1f2a061a327cc2a0bac79ee05f21d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583c647ac3cdab290f1833539abbbd033ea89410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845505"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34845505"
 
 <span> </span>
 
-_**主题上次修改时间:** 2015-02-27_
+_**主题上次修改时间：** 2015-02-27_
 
 用户活动报告提供了由用户在给定时间段内执行的对等会话和会议会话的详细列表。与很多监控报告不同，用户活动报告会将每个呼叫与单个用户绑定。例如，对等会话指定发起呼叫（源用户）的人员以及被呼叫（目标用户）的人员的 SIP URI。如果展开会议的信息，则会看到所有会议参与者及其在该会议中担任的角色的列表。
 
 用户活动报告有时候称为“技术支持”报告。这是因为该报告通常由技术支持人员用于检索特定用户的会话信息。您可以筛选来自或发往单个用户的呼叫，只需在“用户 URI”前缀框中键入该用户的 SIP URI 即可。
 
-如果执行此操作, 则用户活动报表将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果您在 URI 框中键入 **ken**，则用户活动报告将查找 **Ken**.Myer@litwareinc.com。 但是，它还会查找以下用户：
+如果执行此操作，则用户活动报表将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果您在 URI 框中键入 **ken**，则用户活动报告将查找 **Ken**.Myer@litwareinc.com。 但是，它还会查找以下用户：
 
   - **ken**azi@litwareinc.com
 
@@ -57,7 +59,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您也可以通过单击[Lync Server 2013 中的 "IP 电话清点" 报表](lync-server-2013-ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报表。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样, 单击对等呼叫的详细指标将转到[Lync Server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。
+用户活动报告是从“监控报告”主页访问的。 您也可以通过单击[Lync Server 2013 中的 "IP 电话清点" 报表](lync-server-2013-ip-phone-inventory-report.md)上的用户 URI 指标来访问用户活动报表。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的详细指标将转到[Lync Server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。
 
 </div>
 
@@ -65,13 +67,13 @@ Ken.my
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如, 在指定期间内, 你的组织中发生的所有用户活动均包括在用户活动报表中;这意味着, 隐藏在报表内是有关哪些用户在某些方面实际使用过 Microsoft Lync Server 2013 的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，在指定期间内，你的组织中发生的所有用户活动均包括在用户活动报表中;这意味着，隐藏在报表内是有关哪些用户在某些方面实际使用过 Microsoft Lync Server 2013 的信息。
 
 <div>
 
 
 > [!WARNING]  
-> 从技术上讲, 某些用户活动可能会 unrecorded: 尽管 Lync Server 努力保留有关所有电话呼叫的信息, 但如果没有有关该调用的信息正在写入数据库, 则可能会进行呼叫。 Lync Server 旨在提供极其准确但不一定完全了解 Lync Server 2013 的使用方法。 (不能保证所有通话的 100% 的记录都说明为什么不应将 Lync 服务器监视用作帐单系统。)<BR>第二, 监视报告报告最多只能显示1000条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。
+> 从技术上讲，某些用户活动可能会 unrecorded：尽管 Lync Server 努力保留有关所有电话呼叫的信息，但如果没有有关该调用的信息正在写入数据库，则可能会进行呼叫。 Lync Server 旨在提供极其准确但不一定完全了解 Lync Server 2013 的使用方法。 （不能保证所有通话的100% 的记录都说明为什么不应将 Lync 服务器监视用作帐单系统。）<BR>第二，监视报告报告最多只能显示1000条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。
 
 
 
@@ -83,11 +85,11 @@ Ken.my
 
   - 发出电话呼叫最多的用户是否也是参与即时消息会话最多的用户？
 
-如果需要回答此类问题, 您可以将监视报告检索到的数据导出到 Excel 电子表格。 然后, 使用该电子表格和/或逗号分隔的值文件以用户活动报告的方式分析数据。 例如, 假设您已将报告数据导出到 Excel, 然后导出到逗号分隔的值文件。 此时, 您可以从导入数据。CSV 文件到 Windows PowerShell, 方法是使用如下所示的命令:
+如果需要回答此类问题，您可以将监视报告检索到的数据导出到 Excel 电子表格。 然后，使用该电子表格和/或逗号分隔的值文件以用户活动报告的方式分析数据。 例如，假设您已将报告数据导出到 Excel，然后导出到逗号分隔的值文件。 此时，您可以从导入数据。CSV 文件到 Windows PowerShell，方法是使用如下所示的命令：
 
     $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 
-导入数据后, 您可以使用简单的 Windows PowerShell 命令来帮助解答您的问题。 例如，以下命令将返回至少在一个会话中充当“源用户”的唯一用户的列表：
+导入数据后，您可以使用简单的 Windows PowerShell 命令来帮助解答您的问题。 例如，以下命令将返回至少在一个会话中充当“源用户”的唯一用户的列表：
 
     $x | Group-Object "From user" | Select Name | Sort-Object Name
 
@@ -176,7 +178,7 @@ Ken.my
 </tr>
 <tr class="even">
 <td><p><strong>形式</strong></p></td>
-<td><p>可用的形式取决于选择的“活动类型”。 如果活动类型是对等, 则可以选择 "IM";文件传输;应用程序共享;语态或视频作为模态。</p>
+<td><p>可用的形式取决于选择的“活动类型”。 如果活动类型是对等，则可以选择 "IM";文件传输;应用程序共享;语态或视频作为模态。</p>
 <p>如果“活动类型”是“会议”，您可以选择“IM 电话会议”、“Web 会议”、“应用程序共享”、“语音/视频会议”或“电话会议”。</p></td>
 </tr>
 <tr class="odd">
@@ -188,7 +190,7 @@ Ken.my
 <li><p>预期失败</p></li>
 <li><p>意外失败</p></li>
 </ul>
-<p>&quot;预期的故障&quot;是预期发生的故障;例如, 如果用户已将其状态设置为 "请勿打扰", 则你可能会对该用户的任何调用失败。 &quot;意外故障&quot;是指出现在其他正常运行的系统中的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
+<p>&quot;预期的故障&quot;是预期发生的故障;例如，如果用户已将其状态设置为 "请勿打扰"，则你可能会对该用户的任何调用失败。 &quot;意外故障&quot;是指出现在其他正常运行的系统中的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>用户 URI 前缀</strong></p></td>
@@ -294,7 +296,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>会议 URI</strong></p></td>
 <td><p>是</p></td>
-<td><p>唯一会议标识符。 单击此项时，报告将显示所选会话的会议详细信息报告。 展开此项时，报告将显示有关会议参与者的信息。 有关详细信息, 请&quot;参阅本主题后面&quot;部分的会议参与者的 "指标" 部分。</p></td>
+<td><p>唯一会议标识符。 单击此项时，报告将显示所选会话的会议详细信息报告。 展开此项时，报告将显示有关会议参与者的信息。 有关详细信息，请&quot;参阅本主题后面&quot;部分的会议参与者的 "指标" 部分。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>组织者</strong></p></td>
@@ -357,7 +359,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>连接</strong></p></td>
 <td><p>否</p></td>
-<td><p>网络连接类型。 例如&quot;, 内部连接&quot;内部的内部连接&quot;或来自&quot; PSTN 的电话拨入用户。</p></td>
+<td><p>网络连接类型。 例如&quot;，内部连接&quot;内部的内部连接&quot;或来自&quot; PSTN 的电话拨入用户。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>加入时间</strong></p></td>

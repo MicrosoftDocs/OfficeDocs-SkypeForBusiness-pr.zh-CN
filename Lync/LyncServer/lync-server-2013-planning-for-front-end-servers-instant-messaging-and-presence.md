@@ -3,6 +3,8 @@ title: 规划前端服务器、即时消息和状态
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Front End Servers, instant messaging, and presence
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398714(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b733608f95fdba333be3e19e2c155c4594abc910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a481953037ec818378c931a28ce8892c1a486d72
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824972"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-13_
+_**主题上次修改时间：** 2012-09-13_
 
-前端服务器提供许多 Lync Server 功能, 并包含在每个 Lync 服务器部署中。 即时消息 (IM) 和状态是 Lync Server 的核心功能, 在每个 Lync 服务器安装中都会自动部署和启用。 以下部分提供有关前端服务器、IM 和状态的更多详细信息。
+前端服务器提供许多 Lync Server 功能，并包含在每个 Lync 服务器部署中。 即时消息（IM）和状态是 Lync Server 的核心功能，在每个 Lync 服务器安装中都会自动部署和启用。 以下部分提供有关前端服务器、IM 和状态的更多详细信息。
 
 <div>
 

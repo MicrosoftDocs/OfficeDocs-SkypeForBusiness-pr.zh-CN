@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 应用程序服务器和服务 cmdlet'
+title: Lync Server 2013：应用程序服务器和服务 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Application server and services cmdlets
 ms:assetid: 4db74a72-2beb-4c95-a761-310ac9e5f624
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184076
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a03771492872d262c27877aa9f02d9edec4c8d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ad4c2afc759ccf14e8b639f1d6e00292e4df457
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838031"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838031"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-20_
+_**主题上次修改时间：** 2012-06-20_
 
 服务器应用程序引用在 Microsoft Lync Server 2013 下运行的单个程序。 你可以使用 Lync Server 命令行管理程序中的 cmdlet 管理这些应用程序。
 

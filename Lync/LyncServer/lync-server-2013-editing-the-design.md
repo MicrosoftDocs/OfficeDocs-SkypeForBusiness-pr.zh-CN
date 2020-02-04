@@ -3,6 +3,8 @@ title: Lync Server 2013：编辑设计
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34830318"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。为此，请在“**全局拓扑**”页上双击要编辑的站点。
 
 规划工具将显示所选网站的站点拓扑。 在站点页面的底部有四个选项卡：
 
-![规划工具网站拓扑](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "规划工具网站拓扑")
+![规划工具 - 站点拓扑](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "规划工具 - 站点拓扑")
 
   - 站点拓扑 – 当前显示的页面，其中包含推荐拓扑的视图概览。
 
-  - 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Lync Server 2013 拓扑的网络配置, 其中包含适用于服务器、池以及硬件和域名系统 (DNS) 负载平衡器的 IP 地址和 Fqdn 的可编辑条目。
+  - 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Lync Server 2013 拓扑的网络配置，其中包含适用于服务器、池以及硬件和域名系统（DNS）负载平衡器的 IP 地址和 Fqdn 的可编辑条目。
 
   - 边缘管理报告 –“边缘管理报告”共包含四份报告：
     
-    ![Edge 管理报告页面](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Edge 管理报告页面")  
+    ![“边缘管理报告”页](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "“边缘管理报告”页")  
     
       - 摘要报告 – 边缘网络配置设置的常规报告。如果将“**边缘网络图**”页上的值编辑为将在实际部署中使用的拓扑 TCP/IP 和 FQDN 值，则会在此处显示那些地址和名称。否则将显示默认文本。
     

@@ -3,6 +3,8 @@ title: Lync Server 2013：集成本地统一消息的指南
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15973bf2055339e375e4aecc7cfd1f61ac205dbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830102"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830102"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-25_
+_**主题上次修改时间：** 2012-09-25_
 
 以下是部署企业语音时要考虑的准则和最佳做法：
 
@@ -41,34 +43,34 @@ _**主题上次修改时间:** 2012-09-25_
 
 
 > [!IMPORTANT]  
-> Exchange 统一消息 (UM) 仅在你也使用 UCMA 4 时才支持 IPv6。
+> Exchange 统一消息（UM）仅在你也使用 UCMA 4 时才支持 IPv6。
 
 
 
 </div>
 
-  - 部署 Lync Server 2013 标准版服务器或前端池。 有关安装的详细信息, 请参阅部署文档中的 "[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) "。
+  - 部署 Lync Server 2013 标准版服务器或前端池。 有关安装的详细信息，请参阅部署文档中的 "[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) "。
 
   - 与 Exchange 管理员一起确认每个人将要执行的任务，以确保顺利、成功地集成。
 
-  - 在要为 Exchange UM 启用用户的每个 Exchange 统一消息 (UM) 林中部署 Exchange 邮箱服务器角色。 有关安装 Exchange server 角色的详细信息, 请参阅 Microsoft Exchange Server 2013 文档。
+  - 在要为 Exchange UM 启用用户的每个 Exchange 统一消息（UM）林中部署 Exchange 邮箱服务器角色。 有关安装 Exchange server 角色的详细信息，请参阅 Microsoft Exchange Server 2013 文档。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 当安装 Exchange 统一消息 (UM) 时, 它将配置为使用自签名证书。<BR>但是, 自签名证书不会使 Lync Server 2013 和 Exchange UM 相互信任, 这就是为什么需要从两个服务器信任的证书颁发机构请求单独的证书的原因。
+    > 当安装 Exchange 统一消息（UM）时，它将配置为使用自签名证书。<BR>但是，自签名证书不会使 Lync Server 2013 和 Exchange UM 相互信任，这就是为什么需要从两个服务器信任的证书颁发机构请求单独的证书的原因。
 
     
     </div>
 
-  - 如果 Lync Server 2013 和 Exchange UM 安装在不同的林中, 请将每个 Exchange 林配置为信任 Lync Server 2013 林和 Lync Server 2013 林信任每个 Exchange 林。 此外, 在 Lync Server 2013 林中的用户对象上设置用户的 Exchange UM 设置, 通常通过使用脚本或跨林工具 (如 "身份生命周期管理器 (ILM)")。
+  - 如果 Lync Server 2013 和 Exchange UM 安装在不同的林中，请将每个 Exchange 林配置为信任 Lync Server 2013 林和 Lync Server 2013 林信任每个 Exchange 林。 此外，在 Lync Server 2013 林中的用户对象上设置用户的 Exchange UM 设置，通常通过使用脚本或跨林工具（如 "身份生命周期管理器（ILM）"）。
 
   - 必要时，安装 Exchange 管理控制台以管理统一消息服务器。
 
   - 获取有效的电话号码，供 Outlook Voice Access 和自动助理使用。
 
-  - 如果你使用早于 Microsoft Exchange Server 2010 Service Pack 1 (SP1) 的 Exchange UM 的版本, 请调整 Exchange UM SIP URI 拨号计划和企业语音拨号计划的名称。
+  - 如果你使用早于 Microsoft Exchange Server 2010 Service Pack 1 （SP1）的 Exchange UM 的版本，请调整 Exchange UM SIP URI 拨号计划和企业语音拨号计划的名称。
 
 <div>
 
@@ -78,7 +80,7 @@ _**主题上次修改时间:** 2012-09-25_
 
 
 > [!IMPORTANT]  
-> 我们建议你为你的组织配置的每个 Exchange UM SIP URI 拨号计划至少部署两台 Exchange UM 服务运行的服务器。 除了提供扩展容量之外，部署冗余服务还可提供高可用性。 在服务器出现故障时, 可以将 Lync Server 2013 配置为故障转移到另一台服务器。
+> 我们建议你为你的组织配置的每个 Exchange UM SIP URI 拨号计划至少部署两台 Exchange UM 服务运行的服务器。 除了提供扩展容量之外，部署冗余服务还可提供高可用性。 在服务器出现故障时，可以将 Lync Server 2013 配置为故障转移到另一台服务器。
 
 
 
@@ -88,7 +90,7 @@ _**主题上次修改时间:** 2012-09-25_
 
 **示例 1：Exchange UM 恢复能力**
 
-![EXCHANGE UM 示例 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "EXCHANGE UM 示例 1")
+![Exchange UM 示例 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM 示例 1")
 
 在示例 1 中，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。如果 Tukwila 发生 Exchange UM 中断，则应将服务器 1 和 2 的域名系统 (DNS) A 记录分别配置为指向服务器 3 和 4。如果 Dublin 发生 Exchange UM 中断，则应将服务器 3 和 4 的 DNS A 记录分别配置为指向服务器 1 和 2。
 
@@ -109,13 +111,13 @@ _**主题上次修改时间:** 2012-09-25_
 
 **示例 2：Exchange UM 恢复能力**
 
-![EXCHANGE UM 示例 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "EXCHANGE UM 示例 2")
+![Exchange UM 示例 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM 示例 2")
 
 在示例 2 中，一般操作情况下，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。Tukwila 用户的 SIP URI 拨号计划中包含全部四台服务器；但服务器 3 和 4 已被禁用。如果 Tukwila 发生 Exchange UM 中断，则应禁用 Exchange UM 服务器 1 和 2，并启用 Exchange UM 服务器 3 和 4，这样才会将 Tukwila Exchange UM 流量路由至 Dublin 的服务器。
 
-有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息, 请参阅 "将 Exchange 2013 UM 与 Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)相集成"。
+有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息，请参阅 "将 Exchange 2013 UM 与 Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)相集成"。
 
-有关如何在 Microsoft Exchange Server 2010 上启用或禁用统一消息的详细信息, 请参阅:
+有关如何在 Microsoft Exchange Server 2010 上启用或禁用统一消息的详细信息，请参阅：
 
   - "在[http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010 上启用统一消息"。
 

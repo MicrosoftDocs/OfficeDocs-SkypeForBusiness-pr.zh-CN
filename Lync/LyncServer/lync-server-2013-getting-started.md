@@ -3,6 +3,8 @@ title: Lync Server 2013：入门
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Getting started
 ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398676(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4844e4b11e78063af649832ccb2e2c41aa5aa3a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830125"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830125"
 
 <span> </span>
 
-_**主题上次修改时间:** 2015-04-03_
+_**主题上次修改时间：** 2015-04-03_
 
-Lync Server 2013 提供了许多功能来增强组织中的协作和通信。 与以前版本中提供的功能相比, 这些功能中的许多功能都是新的。 本部分中的主题提供了新功能的简要概述。
+Lync Server 2013 提供了许多功能来增强组织中的协作和通信。 与以前版本中提供的功能相比，这些功能中的许多功能都是新的。 本部分中的主题提供了新功能的简要概述。
 
 <div>
 

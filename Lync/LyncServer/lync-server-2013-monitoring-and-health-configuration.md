@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 监视和运行状况配置'
+title: Lync Server 2013：监视和运行状况配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring and health configuration
 ms:assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520950(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3f9e1dfc41b07e5e9279de96de0ae258f2f561a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826771"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-22_
+_**主题上次修改时间：** 2013-02-22_
 
 本部分中的主题提供了可在 Lync Server 2013 控制面板和 Lync Server 2013 管理外壳程序中执行的监视和运行状况配置任务的分步过程。
 
@@ -41,9 +43,9 @@ _**主题上次修改时间:** 2013-02-22_
 
 ## <a name="in-this-section"></a>本节内容
 
-  - [Lync Server 2013 中的呼叫详细记录 (CDR)](lync-server-2013-call-detail-recording-cdr.md)
+  - [Lync Server 2013 中的呼叫详细记录（CDR）](lync-server-2013-call-detail-recording-cdr.md)
 
-  - [Lync Server 2013 中的体验质量 (QoE)](lync-server-2013-quality-of-experience-qoe.md)
+  - [Lync Server 2013 中的体验质量（QoE）](lync-server-2013-quality-of-experience-qoe.md)
 
   - [在 Lync Server 2013 中监视移动性能](lync-server-2013-monitoring-mobility-for-performance.md)
 

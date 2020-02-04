@@ -3,6 +3,8 @@ title: Lync Server 2013：配置拨入式会议
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring dial-in conferencing
 ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ca8b82fe77e578f1ac513d00583c42dd56162a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837262"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837262"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-10-03_
+_**主题上次修改时间：** 2014-10-03_
 
 本部分将指导你完成 Lync Server 2013 拨入式会议的配置。
 

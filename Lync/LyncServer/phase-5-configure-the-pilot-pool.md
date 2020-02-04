@@ -1,8 +1,10 @@
 ---
-title: '第5阶段: 配置试行池'
+title: 第5阶段：配置试行池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 5: Configure the pilot pool'
 ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5ffa799a07cdb5b1583ba96708dc79599d52df5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34845145"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a>第5阶段: 配置试行池
+# <a name="phase-5-configure-the-pilot-pool"></a>第5阶段：配置试行池
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845145"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-19_
+_**主题上次修改时间：** 2012-10-19_
 
-既然已创建了 "试点" 池, 并且旧版部署信息已与 Lync Server 2013 合并, 此部分将标识必须对试点池进行的一些配置。
+既然已创建了 "试点" 池，并且旧版部署信息已与 Lync Server 2013 合并，此部分将标识必须对试点池进行的一些配置。
 
 <div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013 网络规划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network planning for Lync Server
 ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61f6cdd5e64337b040e97ac350824f3e38b3d698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6084fdb6a73566c14185e5b39d1064aa7d5d3647
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826484"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826484"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-10_
+_**主题上次修改时间：** 2012-09-10_
 
 你可以使用本部分中的主题来确保你的网络已准备好 Lync Server。
 
@@ -47,13 +49,13 @@ _**主题上次修改时间:** 2012-09-10_
 
   - [Lync Server 2013 的负载平衡要求](lync-server-2013-load-balancing-requirements.md)
 
-  - [Lync Server 2013 的域名系统 (DNS) 要求](lync-server-2013-domain-name-system-dns-requirements.md)
+  - [Lync Server 2013 的域名系统（DNS）要求](lync-server-2013-domain-name-system-dns-requirements.md)
 
   - [Lync Server 2013 的端口要求](lync-server-2013-port-requirements.md)
 
   - [Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
 
-  - [在 Lync Server 2013 中管理服务质量 (QoS)](lync-server-2013-managing-quality-of-service-qos.md)
+  - [在 Lync Server 2013 中管理服务质量（QoS）](lync-server-2013-managing-quality-of-service-qos.md)
 
 </div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：管理类别、聊天室和加载项
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing categories, rooms, and add-ins
 ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828080"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34828080"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-06_
+_**主题上次修改时间：** 2012-10-06_
 
-在 Lync Server 2013 控制面板中, 或通过使用 Windows PowerShell cmdlet, 持久聊天管理员可以使用**持久聊天**页面创建类别和加载项。对于管理持久聊天室, 管理员可以使用 Windows PowerShell cmdlet。 或者, 如果持久聊天管理员也是 SIP 启用的, 则他们可以使用 Lync 客户端启动网页来创建和管理聊天室。
+在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用**持久聊天**页面创建类别和加载项。对于管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。 或者，如果持久聊天管理员也是 SIP 启用的，则他们可以使用 Lync 客户端启动网页来创建和管理聊天室。
 
 以下主题介绍如何创建和使用类别和聊天室。
 

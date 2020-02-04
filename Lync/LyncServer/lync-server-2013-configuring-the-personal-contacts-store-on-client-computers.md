@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 在客户端计算机上配置个人联系人存储'
+title: Lync Server 2013：在客户端计算机上配置个人联系人存储
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the personal contacts store on client computers
 ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4f9b7bbb50b5e63e87904d29a01715fcdcac8c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837174"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34837174"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-05_
+_**主题上次修改时间：** 2014-02-05_
 
-如果你正在集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013, 建议你在运行 Microsoft Lync 2010 的任何客户端计算机上配置个人联系人存储。 尤其是, 你应该将 Lync 配置为将 Exchange 用作个人联系人存储, 同时确保用户无法覆盖该决策。 这可以通过在各客户端计算机上创建和配置注册表值来完成。
+如果你正在集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013，建议你在运行 Microsoft Lync 2010 的任何客户端计算机上配置个人联系人存储。 尤其是，你应该将 Lync 配置为将 Exchange 用作个人联系人存储，同时确保用户无法覆盖该决策。 这可以通过在各客户端计算机上创建和配置注册表值来完成。
 
-请注意, 在运行 Lync 2013 的计算机上不需要执行此操作。
+请注意，在运行 Lync 2013 的计算机上不需要执行此操作。
 
 要在单个计算机上配置此值，请完成下列过程：
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2014-02-05_
 
 2.  在“**运行**”对话框中，键入“regedit”，然后按 Enter。
 
-3.  在注册表编辑器中,**展开\_"\_HKEY 本地计算机**", 展开 "**软件**", 展开 "**策略**", 展开 " **Microsoft**", 然后展开 " **Communicator**"。
+3.  在注册表编辑器中，**展开\_"\_HKEY 本地计算机**"，展开 "**软件**"，展开 "**策略**"，展开 " **Microsoft**"，然后展开 " **Communicator**"。
 
 4.  右键单击“**Communicator**”，指向“**新建**”，然后单击“**DWORD（32 位）值**”。
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2014-02-05_
 
 6.  验证将 PersonalContactStoreOverride 的值设置为 0，然后关闭注册表编辑器。
 
-如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关详细信息, 请参阅中的组[http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)策略文档。
+如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关详细信息，请参阅中的组[http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)策略文档。
 
 </div>
 

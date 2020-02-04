@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 对等 IM 报表'
+title: Lync Server 2013：对等 IM 报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer IM Report
 ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44d25ec36788e6964ea81bde71e82f3746c5aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825350"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825350"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 对等 IM 报告提供了有关按池和身份验证类型分类的对等即时消息 (IM) 会话的趋势信息。该报告可以显示在指定时间段内（例如，每天或每小时）进行的会话总数或显示在该时间段内发送的即时消息总数。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-只有[在 Lync Server 2013 中打开 "对等活动摘要" 报表](lync-server-2013-peer-to-peer-activity-summary-report.md), 然后单击以下任一度量值, 才能访问对等 IM 报表:
+只有[在 Lync Server 2013 中打开 "对等活动摘要" 报表](lync-server-2013-peer-to-peer-activity-summary-report.md)，然后单击以下任一度量值，才能访问对等 IM 报表：
 
   - 对等 IM 会话总数
 
@@ -106,7 +108,7 @@ _**主题上次修改时间:** 2012-11-01_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>报告依据</strong></p></td>

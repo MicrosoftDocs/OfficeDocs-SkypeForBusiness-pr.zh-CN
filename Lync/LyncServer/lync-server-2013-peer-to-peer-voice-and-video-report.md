@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 对等语音和视频报告'
+title: Lync Server 2013：对等语音和视频报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Voice and Video Report
 ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615040(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b938a5281717528143cfc077a42f51bd68f69bae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68cddb8296a94ff5d5b084895024d7379a42022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34825392"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-21_
+_**主题上次修改时间：** 2012-10-21_
 
 对等语音和视频报告提供了指定时间段的语音和视频呼叫分布的详细信息（例如，按小时的呼叫或按每天的呼叫）。该报告还为您提供查看所有执行的语音和视频呼叫的选项或仅查看成功或失败呼叫的选项。这些报告显示细分为下列组的呼叫信息：
 
   - 按池的呼叫
 
-  - 每个呼叫类型的呼叫 (例如, Lync 至 Lync 呼叫, 以及对 PSTN 网络上的某个人的 Lync 呼叫)
+  - 每个呼叫类型的呼叫（例如，Lync 至 Lync 呼叫，以及对 PSTN 网络上的某个人的 Lync 呼叫）
 
   - 按访问类型的呼叫（登录到内部网络上的用户与登录到外部网络上的用户）
 
@@ -118,7 +120,7 @@ _**主题上次修改时间:** 2012-10-21_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>媒体类型</strong></p></td>

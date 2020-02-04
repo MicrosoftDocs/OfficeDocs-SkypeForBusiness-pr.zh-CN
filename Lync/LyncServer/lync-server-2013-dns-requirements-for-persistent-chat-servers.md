@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 持久聊天服务器的 DNS 要求'
+title: Lync Server 2013：持久聊天服务器的 DNS 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Persistent Chat Servers
 ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1f52fde1ee1034f453fe62f2aa3aa44d04b389c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830364"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830364"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-28_
+_**主题上次修改时间：** 2012-06-28_
 
-本部分介绍部署持久聊天服务器时所需的域名系统 (DNS) 记录。
+本部分介绍部署持久聊天服务器时所需的域名系统（DNS）记录。
 
 <div>
 
@@ -59,15 +61,15 @@ _**主题上次修改时间:** 2012-06-28_
 <tbody>
 <tr class="odd">
 <td><p>一个持久聊天服务器</p></td>
-<td><p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p></td>
+<td><p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p></td>
 </tr>
 <tr class="even">
 <td><p>持久聊天池</p></td>
-<td><p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p>
+<td><p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p>
 <p><strong>示例</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10。1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10。2</p>
-<p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p>
+<p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p>
 <p><strong>示例</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10。1</p>
 <p>PersistentChatPool.contoso.com 10.10.10。2</p></td>

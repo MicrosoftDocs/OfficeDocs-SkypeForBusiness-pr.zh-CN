@@ -3,6 +3,8 @@ title: Lync Server 2013：Endpoint 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Endpoint table
 ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cedf4d85cefd8a9fefb9f0ee4608f4a290fdc09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830214"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830214"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-终结点表是一个支持表, 用于存储参与数据库中记录的会话的终结点的相关信息。 表中的每条记录表示一个终结点。
+终结点表是一个支持表，用于存储参与数据库中记录的会话的终结点的相关信息。 表中的每条记录表示一个终结点。
 
 
 <table>
@@ -70,7 +72,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>OS</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p> </p></td>
-<td><p>终结点的操作系统 (OS)。</p></td>
+<td><p>终结点的操作系统（OS）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUName</strong></p></td>
@@ -94,7 +96,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>VirtualizationFlag</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>指示系统是否在虚拟化环境中运行的位标志:</p>
+<td><p>指示系统是否在虚拟化环境中运行的位标志：</p>
 <ul>
 <li><p>0x0000 –无</p></li>
 <li><p>0x0001-HyperV</p></li>

@@ -3,6 +3,8 @@ title: Lync Server 2013：呼叫允许控制的部署清单
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for call admission control
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dd425d53a282cc24fed8ad2f8be9acc5bf42209
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830503"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830503"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-08_
+_**主题上次修改时间：** 2012-10-08_
 
-要有效规划呼叫许可控制 (CAC), 需要考虑以下事项:
+要有效规划呼叫许可控制（CAC），需要考虑以下事项：
 
   - 部署 CAC 的先决条件。
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-10-08_
 
 ## <a name="deployment-prerequisites-for-call-admission-control"></a>呼叫许可控制的部署先决条件
 
-在部署 "呼叫许可控制" 之前, 您必须已部署了 Lync Server 2013 内部服务器, 包括 "前端" 池或标准版服务器。
+在部署 "呼叫许可控制" 之前，您必须已部署了 Lync Server 2013 内部服务器，包括 "前端" 池或标准版服务器。
 
 </div>
 
@@ -106,7 +108,7 @@ _**主题上次修改时间:** 2012-10-08_
 <td><p>网络接口要求</p></td>
 <td><ul>
 <li><p>内部和外部接口信息</p></li>
-<li><p>路由信息 (包括有关在 Microsoft Lync 服务器团队<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>的客户响应频道上的 NextHop 博客的信息)</p></li>
+<li><p>路由信息（包括有关在 Microsoft Lync 服务器团队<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>的客户响应频道上的 NextHop 博客的信息）</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">在 Lync Server 2013 中部署外部用户访问</a></p></td>
 </tr>

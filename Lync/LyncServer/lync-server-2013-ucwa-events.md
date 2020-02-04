@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: UCWA 事件'
+title: Lync Server 2013： UCWA 事件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UCWA events
 ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5063aca74fe3454569a2b2309be584a4ca11d13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34845525"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-15_
+_**主题上次修改时间：** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 使用统一通信 Web API (UCWA) 来实现许多用途, 从访问 Microsoft Exchange 到联系人搜索以更新移动客户端的状态。
+Lync Server 2013 使用统一通信 Web API （UCWA）来实现许多用途，从访问 Microsoft Exchange 到联系人搜索以更新移动客户端的状态。
 
 UCWA 将运行行为的记录编写成“信息”、“警告”和“错误”事件类型。下表介绍了可由 UCWA 组件编写的事件。
 

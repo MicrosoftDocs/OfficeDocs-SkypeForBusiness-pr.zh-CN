@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: VoIPDetails 视图'
+title: Lync Server 2013： VoIPDetails 视图
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoIPDetails view
 ms:assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687973(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9553be13dcd73f89ba8d6ab051602d378bf353da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845257"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-VoIPDetails 视图存储有关对等会话的信息, 其中至少有一个用户是 VoIP 用户。 此视图已在 Microsoft Lync Server 2013 中引入。
+VoIPDetails 视图存储有关对等会话的信息，其中至少有一个用户是 VoIP 用户。 此视图已在 Microsoft Lync Server 2013 中引入。
 
 <div>
 
@@ -64,23 +66,23 @@ VoIPDetails 视图存储有关对等会话的信息, 其中至少有一个用户
 <tbody>
 <tr class="odd">
 <td><p><strong>FromPhone</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>启动会话的用户的电话 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToPhone</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>加入会话的用户的电话 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>断开会话的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>断开会话的用户的 URI 类型。 有关详细信息, 请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>断开会话的用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByTenant</strong></p></td>
@@ -89,7 +91,7 @@ VoIPDetails 视图存储有关对等会话的信息, 其中至少有一个用户
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>断开会话的用户的电话 URI。</p></td>
 </tr>
 <tr class="odd">

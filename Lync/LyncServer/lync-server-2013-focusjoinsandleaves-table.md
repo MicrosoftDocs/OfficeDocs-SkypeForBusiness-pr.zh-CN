@@ -3,6 +3,8 @@ title: Lync Server 2013：FocusJoinsAndLeaves 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FocusJoinsAndLeaves table
 ms:assetid: e6f0212c-67e9-4061-8720-d0296e855991
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ead6fc2ce79f7ab1206476ee420bd2ba5a7711f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830146"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-09-28_
+_**主题上次修改时间：** 2012-09-28_
 
-此表中的每条记录包含有关一个用户的加入的 CDR 信息, 并为一个会议留下信息。 每次用户加入和离开会议时, 每个会议都将在此表中由一条记录表示。
+此表中的每条记录包含有关一个用户的加入的 CDR 信息，并为一个会议留下信息。 每次用户加入和离开会议时，每个会议都将在此表中由一条记录表示。
 
 
 <table>
@@ -58,37 +60,37 @@ _**主题上次修改时间:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主、外部</p></td>
-<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外部</p></td>
-<td><p>标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会议实例。 有关详细信息, 请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主、外部</p></td>
-<td><p>会话请求的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会话。 有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与<strong>SessionIdSeq</strong>结合使用以唯一标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外部</p></td>
-<td><p>标识会话的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会话。 有关详细信息, 请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>标识会话的 ID 号。 与<strong>SessionIdTime</strong>结合使用以唯一标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>标识此用户的唯一号码, 从<a href="lync-server-2013-users-table.md">Lync Server 2013 的 "用户" 表中</a>引用。</p></td>
+<td><p>标识此用户的唯一号码，从<a href="lync-server-2013-users-table.md">Lync Server 2013 的 "用户" 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>如果用户同时在多台计算机或设备上登录, 则<strong>UserInstance</strong>用于唯一标识用户/设备组合。</p></td>
+<td><p>如果用户同时在多台计算机或设备上登录，则<strong>UserInstance</strong>用于唯一标识用户/设备组合。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserInternal</strong></p></td>
@@ -100,7 +102,7 @@ _**主题上次修改时间:** 2012-09-28_
 <td><p><strong>UserRole</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>此用户在会议中的角色, 如 "演示者" 或 "与会者"。</p></td>
+<td><p>此用户在会议中的角色，如 "演示者" 或 "与会者"。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
@@ -118,13 +120,13 @@ _**主题上次修改时间:** 2012-09-28_
 <td><p><strong>ClientVerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>用户的客户端软件版本,<a href="lync-server-2013-clientversions-table.md">在 Lync Server 2013 中引用 ClientVersions 表</a>。</p></td>
+<td><p>用户的客户端软件版本，<a href="lync-server-2013-clientversions-table.md">在 Lync Server 2013 中引用 ClientVersions 表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
 <td><p>标识符</p></td>
 <td></td>
-<td><p>会议中使用的终结点的全局唯一标识符 (GUID)。</p>
+<td><p>会议中使用的终结点的全局唯一标识符（GUID）。</p>
 <p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>

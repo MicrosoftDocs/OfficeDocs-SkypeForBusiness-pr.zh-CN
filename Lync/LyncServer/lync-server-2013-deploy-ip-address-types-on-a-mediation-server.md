@@ -3,6 +3,8 @@ title: Lync Server 2013：在中介服务器上部署 IP 地址类型
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e629b1074f41f1e32795de391b31e8b610f88b2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830574"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-07-28_
+_**主题上次修改时间：** 2016-07-28_
 
-使用拓扑生成器, 执行以下过程中的步骤以在中介服务器上部署 IP 地址类型。
+使用拓扑生成器，执行以下过程中的步骤以在中介服务器上部署 IP 地址类型。
 
 <div>
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
-  - 在拓扑生成器中的 "**中介池**" 下, 右键单击池中的服务器, 然后选择 "**编辑属性**"。 (或者, 选择服务器, 然后从 "**操作**" 菜单中单击 "**编辑属性**"。)
+  - 在拓扑生成器中的 "**中介池**" 下，右键单击池中的服务器，然后选择 "**编辑属性**"。 （或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。）
 
   - 在“**编辑属性**”对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“**启用 IPv4**”和“**启用 IPv6**”，如下图所示。
     
@@ -64,13 +66,13 @@ _**主题上次修改时间:** 2016-07-28_
     
       - **主 IP 地址**。输入用于除公用电话交换网 (PSTN) 之外的所有通信的 IP 地址。所输入的 IP 地址必须符合选择的地址类型的格式。
     
-      - **PSTN IP 地址**。 当中介服务器是独立的时, 请定义 PSTN IP 地址。 该地址必须符合选择的地址类型的格式。
+      - **PSTN IP 地址**。 当中介服务器是独立的时，请定义 PSTN IP 地址。 该地址必须符合选择的地址类型的格式。
         
         <div>
         
 
         > [!NOTE]  
-        > Collocated 中介服务器角色不支持安装其他网络接口卡 (NIC) s 来支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息, 请参阅<A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 的服务器硬件平台</A>。
+        > Collocated 中介服务器角色不支持安装其他网络接口卡（NIC） s 来支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息，请参阅<A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 的服务器硬件平台</A>。
 
         
         </div>

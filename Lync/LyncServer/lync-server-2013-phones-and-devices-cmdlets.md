@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 电话和设备 cmdlet'
+title: Lync Server 2013：电话和设备 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Phones and devices cmdlets
 ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415657(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67162d9d3c800040817fa26f1ab65788f2d4e995
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5e698c23c87f679302c6612bec138bcbae39f71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34825168"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-28_
+_**主题上次修改时间：** 2012-06-28_
 
-Microsoft Lync Server 2013 提供了许多 cmdlet, 可让你管理电话和其他硬件设备。 这包括诸如 IP 语音 (VoIP) 电话之类的内容;常见的区域电话 (例如, 建筑物大厅、自助或其他公共场所的电话);也可以是模拟电话, 不能运行 Lync Phone Edition 的电话。
+Microsoft Lync Server 2013 提供了许多 cmdlet，可让你管理电话和其他硬件设备。 这包括诸如 IP 语音（VoIP）电话之类的内容;常见的区域电话（例如，建筑物大厅、自助或其他公共场所的电话）;也可以是模拟电话，不能运行 Lync Phone Edition 的电话。
 
 <div>
 
 ## <a name="phones-and-devices-cmdlets"></a>电话和设备 Cmdlet
 
-**CsDeviceUpdate** cmdlet 用于管理设备更新 Web 服务, 这是一个 Lync 服务器组件, 使管理员能够将固件更新分发到运行 Lync Phone Edition 的电话和其他设备。
+**CsDeviceUpdate** cmdlet 用于管理设备更新 Web 服务，这是一个 Lync 服务器组件，使管理员能够将固件更新分发到运行 Lync Phone Edition 的电话和其他设备。
 
   - <span></span>  
     [Get-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg398748(v=OCS.15))

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 海报: 关键运行状况指示器'
+title: Lync Server 2013：海报：关键运行状况指示器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34824006"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-10_
+_**主题上次修改时间：** 2014-02-10_
 
-本文介绍了[关键运行状况指示器: 维护正常的 Lync 服务器海报的基础](http://go.microsoft.com/fwlink/?linkid=391838), 您可以从下载中心下载。
+本文介绍了[关键运行状况指示器：维护正常的 Lync 服务器海报的基础](http://go.microsoft.com/fwlink/?linkid=391838)，您可以从下载中心下载。
 
 ![描述使用 KHI 数据进行疑难解答的海报](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "描述使用 KHI 数据进行疑难解答的海报")
 
-你可以使用此海报了解有关关键运行状况指示器 (KHIs) 的性能计数器, 其阈值旨在展示用户体验问题。 收集 KHI 数据通常是实现呼叫质量方法 (CQM) 的第一步, 它侧重于确保 Lync 用户的音质音频体验。
+你可以使用此海报了解有关关键运行状况指示器（KHIs）的性能计数器，其阈值旨在展示用户体验问题。 收集 KHI 数据通常是实现呼叫质量方法（CQM）的第一步，它侧重于确保 Lync 用户的音质音频体验。
 
-如果对如何使用 CQM 有疑问, 可以将问题提交到 cqmfeedback@microsoft.com。
+如果对如何使用 CQM 有疑问，可以将问题提交到 cqmfeedback@microsoft.com。
 
-海报介绍以下方面:
+海报介绍以下方面：
 
   - 什么是关键运行状况指示器？
 
@@ -67,11 +69,11 @@ _**主题上次修改时间:** 2014-02-10_
 
 ## <a name="what-are-key-health-indicators"></a>什么是关键运行状况指示器？
 
-关键运行状况指示器是性能计数器, 其阈值旨在展示用户体验问题。 收集 KHI 数据通常是实现呼叫质量方法 (CQM) 的第一步, 它侧重于确保 Lync 用户的音质音频体验。
+关键运行状况指示器是性能计数器，其阈值旨在展示用户体验问题。 收集 KHI 数据通常是实现呼叫质量方法（CQM）的第一步，它侧重于确保 Lync 用户的音质音频体验。
 
-除了标准 Lync 监视解决方案 (如 System Center Operations Manager、合成事务、监视服务器) 之外, 还可使用 KHIs, 而不是使用这些解决方案。
+除了标准 Lync 监视解决方案（如 System Center Operations Manager、合成事务、监视服务器）之外，还可使用 KHIs，而不是使用这些解决方案。
 
-收集 KHI 性能计数器并填充网络指南随附的 KHI 电子表格, 以生成可帮助你确定 Lync 部署的服务器运行状况的记分卡。 填充后, 它将引导你修复环境并向其他利益干系人提供进一步的洞察力。 按月评估 KHIs, 并将它们合并到任何部署的日常操作流程中。
+收集 KHI 性能计数器并填充网络指南随附的 KHI 电子表格，以生成可帮助你确定 Lync 部署的服务器运行状况的记分卡。 填充后，它将引导你修复环境并向其他利益干系人提供进一步的洞察力。 按月评估 KHIs，并将它们合并到任何部署的日常操作流程中。
 
 下载[Lync Server 网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)以查看完整的 KHIs 列表和获取相关的电子表格。
 
@@ -83,13 +85,13 @@ _**主题上次修改时间:** 2014-02-10_
 
 ## <a name="to-collect-khi-data"></a>收集 KHI 数据
 
-1.  在每个 Lync 服务器上运行 Lync Server 网络指南附带的 KHI 脚本。 这将在性能监视器内创建一个数据收集器, 并将其命名为 KHI。 默认情况下, 将每隔15秒对数据进行轮询。
+1.  在每个 Lync 服务器上运行 Lync Server 网络指南附带的 KHI 脚本。 这将在性能监视器内创建一个数据收集器，并将其命名为 KHI。 默认情况下，将每隔15秒对数据进行轮询。
 
-2.  在公司的工作日内开始之前, 请转到每个 Lync 服务器并启动 KHI 数据收集器。
+2.  在公司的工作日内开始之前，请转到每个 Lync 服务器并启动 KHI 数据收集器。
 
-3.  在该日期结束时, 停止 KHI 数据收集器并将数据复制到一个中心位置。
+3.  在该日期结束时，停止 KHI 数据收集器并将数据复制到一个中心位置。
 
-4.  使用性能监视器填充 Lync Server 网络指南附带的 KHI 电子表格后, 将结果与推荐的目标进行比较。
+4.  使用性能监视器填充 Lync Server 网络指南附带的 KHI 电子表格后，将结果与推荐的目标进行比较。
 
 </div>
 
@@ -99,9 +101,9 @@ _**主题上次修改时间:** 2014-02-10_
 
 ## <a name="remediation-flow-for-all-server-roles"></a>所有服务器角色的更新流
 
-对于 Lync 实现中的每个服务器, 首先验证服务器的组件运行状况和系统性能是否在所需级别或更高级别。 只有在该情况之后, 才应查看整个 Lync 实现中与服务器角色相关的指示器。
+对于 Lync 实现中的每个服务器，首先验证服务器的组件运行状况和系统性能是否在所需级别或更高级别。 只有在该情况之后，才应查看整个 Lync 实现中与服务器角色相关的指示器。
 
-首先收集所有服务器的 KHI 性能数据。 对于每个系统角色 (本文档后面部分讨论的详细信息) 确定基本系统组件是否满足推荐的目标。 如果不是这样, 请先补救系统性能, 然后重新收集 KHI 数据并确保系统运行状况, 然后再查看特定于 Lync 实现中的服务器角色的指标。 所有角色的组件运行状况定义如下:
+首先收集所有服务器的 KHI 性能数据。 对于每个系统角色（本文档后面部分讨论的详细信息）确定基本系统组件是否满足推荐的目标。 如果不是这样，请先补救系统性能，然后重新收集 KHI 数据并确保系统运行状况，然后再查看特定于 Lync 实现中的服务器角色的指标。 所有角色的组件运行状况定义如下：
 
   - CPU 利用率\< 80%
 
@@ -113,7 +115,7 @@ _**主题上次修改时间:** 2014-02-10_
 
   - 网络队列长度\< 2
 
-  - 已丢弃的数据包 (in/out) = 0
+  - 已丢弃的数据包（in/out） = 0
 
 </div>
 
@@ -123,7 +125,7 @@ _**主题上次修改时间:** 2014-02-10_
 
 ## <a name="glossary"></a>词条
 
-本海报中使用下列术语和首字母缩写:
+本海报中使用下列术语和首字母缩写：
 
 作为 MCU = 应用程序共享多点控制单元
 
@@ -151,7 +153,7 @@ LySS = Lync 存储服务
 
 ## <a name="front-end-servers"></a>前端服务器
 
-除了基本组件运行状况之外, 以下建议的 KHI 目标还特定于前端服务器:
+除了基本组件运行状况之外，以下建议的 KHI 目标还特定于前端服务器：
 
 
 <table>
@@ -214,7 +216,7 @@ LySS = Lync 存储服务
 
 ## <a name="backend-sql-servers"></a>后端 SQL 服务器
 
-除了基本组件运行状况之外, 以下建议的 KHI 目标还特定于 SQL server:
+除了基本组件运行状况之外，以下建议的 KHI 目标还特定于 SQL server：
 
 
 <table>
@@ -246,7 +248,7 @@ LySS = Lync 存储服务
 
 ## <a name="mediation-servers"></a>中介服务器
 
-除了基本组件运行状况之外, 以下建议的 KHI 目标还特定于中介服务器:
+除了基本组件运行状况之外，以下建议的 KHI 目标还特定于中介服务器：
 
 
 <table>
@@ -266,7 +268,7 @@ LySS = Lync 存储服务
 <td><p>加载呼叫失败索引 = 0</p>
 <p>由于代理&lt;10 导致的呼叫失败</p>
 <p>由于网关&lt;10 导致的呼叫失败</p>
-<p>通话 (拨入或拨出) 被拒绝 = 0</p>
+<p>通话（拨入或拨出）被拒绝 = 0</p>
 <p>缺少媒体候选人 = 0</p>
 <p>媒体连接检查失败 = 0</p></td>
 </tr>
@@ -282,7 +284,7 @@ LySS = Lync 存储服务
 
 ## <a name="edge-servers"></a>边缘服务器
 
-除了基本组件运行状况之外, 以下建议的 KHI 目标还特定于边缘服务器:
+除了基本组件运行状况之外，以下建议的 KHI 目标还特定于边缘服务器：
 
 
 <table>
@@ -332,7 +334,7 @@ LySS = Lync 存储服务
 
 
 [Lync Server 网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[关键运行状况指示器: 用于维护正常 Lync 服务器的基础](http://go.microsoft.com/fwlink/?linkid=391838)  
+[关键运行状况指示器：用于维护正常 Lync 服务器的基础](http://go.microsoft.com/fwlink/?linkid=391838)  
 [Lync 通话质量方法](http://go.microsoft.com/fwlink/?linkid=391841)  
   
 

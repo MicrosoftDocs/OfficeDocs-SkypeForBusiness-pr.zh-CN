@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理大型会议'
+title: Lync Server 2013：管理大型会议
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing large meetings
 ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205177(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c27057f6b8c29078231deedb5fe4492965e89bec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eb8a83edc6dc049d5c333a2c1b4bec19f60afd45
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827961"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827961"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
-为大型会议设置专用池后, 您可以采取一些步骤来帮助确保池中托管的大型会议提供最佳的用户体验。 本部分中的主题提供有关如何组织和管理大型会议的详细信息。
+为大型会议设置专用池后，您可以采取一些步骤来帮助确保池中托管的大型会议提供最佳的用户体验。 本部分中的主题提供有关如何组织和管理大型会议的详细信息。
 
 <div>
 

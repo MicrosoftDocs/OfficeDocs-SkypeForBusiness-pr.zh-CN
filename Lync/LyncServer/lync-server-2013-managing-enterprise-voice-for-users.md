@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理用户的企业语音'
+title: Lync Server 2013：管理用户的企业语音
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Enterprise Voice for users
 ms:assetid: 72cbe2f5-1a01-4a6f-84a5-01f3212a8992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688091(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9193757c71fb75ad0993981cade065ee869cdd86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d24e8447cb900349e49e868b0511a232fa22d00a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34828045"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-11_
+_**主题上次修改时间：** 2012-10-11_
 
-你可以在每个用户的基础上启用企业语音。 使用本部分中的过程, 可使用 Lync Server 2013 控制面板和 Lync Server 2013 管理外壳程序管理企业语音。
+你可以在每个用户的基础上启用企业语音。 使用本部分中的过程，可使用 Lync Server 2013 控制面板和 Lync Server 2013 管理外壳程序管理企业语音。
 
 <div>
 

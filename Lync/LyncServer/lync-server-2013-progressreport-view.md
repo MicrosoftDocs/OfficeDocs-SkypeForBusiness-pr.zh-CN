@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: ProgressReport 视图'
+title: Lync Server 2013： ProgressReport 视图
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ProgressReport view
 ms:assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721857(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 423d99211a89ef328bc62aca89a9b65141e128ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4fa8d73981490503b26b77b79be6f42aab77703e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823593"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-01_
+_**主题上次修改时间：** 2012-10-01_
 
 ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync Server 2013 确定可能对诊断目的有用的通话和会话的进度报告。 此视图已在 Microsoft Lync Server 2013 中引入。
 
@@ -41,7 +43,7 @@ ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync S
 
 
 > [!NOTE]  
-> "ErrorTime"、"ErrorReportSeq" 和 "ProgressReportSeq" 字段不一定是指错误, 而是指示调用状态或消息的消息。
+> "ErrorTime"、"ErrorReportSeq" 和 "ProgressReportSeq" 字段不一定是指错误，而是指示调用状态或消息的消息。
 
 
 
@@ -85,12 +87,12 @@ ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync S
 <tr class="odd">
 <td><p><strong>来源</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>产生错误的服务器的名称 (如果报表是从服务器组件发送的)。</p></td>
+<td><p>产生错误的服务器的名称（如果报表是从服务器组件发送的）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>应用程序</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>发出错误的应用程序的名称 (如果报表是从服务器组件发送的)。</p></td>
+<td><p>发出错误的应用程序的名称（如果报表是从服务器组件发送的）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>
@@ -100,11 +102,11 @@ ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync S
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
-<td><p>特定组件加入会议所需的时间 (以毫秒为单位)。</p></td>
+<td><p>特定组件加入会议所需的时间（以毫秒为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>varchar (max)</p></td>
+<td><p>varchar （max）</p></td>
 <td><p>其他错误信息。</p></td>
 </tr>
 </tbody>
