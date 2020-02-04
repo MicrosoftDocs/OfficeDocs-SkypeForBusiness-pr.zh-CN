@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: (可选) 定义响应组的工作时间'
+title: Lync Server 2013：（可选）定义响应组的工作时间
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group business hours
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8ddd2bde582c66cf337deb9aa78178d3e22d1b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825784"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 <div>
 
@@ -45,7 +47,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 
 > [!TIP]  
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息, 请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 Lync server 2013 中创建或修改查寻组工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 Lync server 2013 中创建或修改查寻组工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
 
 
 
@@ -77,7 +79,7 @@ _**主题上次修改时间:** 2012-11-01_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序: 依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**", 然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
 
 3.  对于要定义的每个唯一时间范围，请运行：
     

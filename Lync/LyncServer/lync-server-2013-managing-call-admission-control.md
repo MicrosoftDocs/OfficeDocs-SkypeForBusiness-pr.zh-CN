@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理呼叫许可控制'
+title: Lync Server 2013：管理呼叫许可控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing call admission control
 ms:assetid: b0bd4783-6f47-408d-b010-2e30f9bc1770
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65b45ee414a1087bbfb6a5e3a774dedc074cd992
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828150"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。 使用以下过程管理 Lync Server 2013 环境的不同 CAC 功能。
 

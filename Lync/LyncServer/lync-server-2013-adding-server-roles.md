@@ -3,6 +3,8 @@ title: Lync Server 2013：添加服务器角色
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding server roles
 ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3954fd59431341e917a3bf39dc9790d66cf56312
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837924"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34837924"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-19_
+_**主题上次修改时间：** 2012-06-19_
 
-初始部署正常运行后, 你可以为 Lync Server 2013 添加其他服务器角色, 例如 Director 或独立中介服务器。
+初始部署正常运行后，你可以为 Lync Server 2013 添加其他服务器角色，例如 Director 或独立中介服务器。
 
 <div>
 
 
 > [!NOTE]  
-> 在进行安装其他服务器角色的任务之前, 请参阅与每个角色相关的规划主题。
+> 在进行安装其他服务器角色的任务之前，请参阅与每个角色相关的规划主题。
 
 
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2012-06-19_
 
   - [在 Lync Server 2013 中配置拨入式会议](lync-server-2013-configuring-dial-in-conferencing.md)
 
-此外, 有关可与 Lync Server 2013 一起使用的客户端软件和设备的部署的详细信息, 请参阅[在 Lync server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)。
+此外，有关可与 Lync Server 2013 一起使用的客户端软件和设备的部署的详细信息，请参阅[在 Lync server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)。
 
 </div>
 

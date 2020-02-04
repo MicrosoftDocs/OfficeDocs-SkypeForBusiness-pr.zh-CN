@@ -3,6 +3,8 @@ title: Lync Server 2013：User 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User table
 ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8256dec91c93ca6e8f0fd3cfff65280a417324e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845479"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-02_
+_**主题上次修改时间：** 2012-10-02_
 
-用户表是一个支持表, 用于存储参与数据库中记录的会话的各种用户的列表。 表中的每条记录表示一个用户。
+用户表是一个支持表，用于存储参与数据库中记录的会话的各种用户的列表。 表中的每条记录表示一个用户。
 
 
 <table>
@@ -62,7 +64,7 @@ _**主题上次修改时间:** 2012-10-02_
 </tr>
 <tr class="even">
 <td><p><strong>URI</strong></p></td>
-<td><p>nvarchar (450)</p></td>
+<td><p>nvarchar （450）</p></td>
 <td><p>唯一</p></td>
 <td><p>URI 字符串。</p></td>
 </tr>
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2012-10-02_
 <td><p><strong>TenantKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>用户的租户, 从租户表引用。</p></td>
+<td><p>用户的租户，从租户表引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastPoorCallTime</strong></p></td>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Exchange UM cmdlet'
+title: Lync Server 2013： Exchange UM cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exchange UM cmdlets
 ms:assetid: 32922b9f-590d-41cc-ba57-9ed5f1caa814
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e4c530095b69e8aadd07ad37e3fbe4a46b361a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cc9d63189d66e6e5255ca7c0d34a717cc2eb514
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830189"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830189"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-26_
+_**主题上次修改时间：** 2012-06-26_
 
-Microsoft Lync Server 2013 与 Exchange 统一消息 (UM) 配合使用, 为托管语音邮件实现自动助理和订阅者访问。 可以通过 Lync Server 命令行管理程序中的 cmdlet 管理这些功能。
+Microsoft Lync Server 2013 与 Exchange 统一消息（UM）配合使用，为托管语音邮件实现自动助理和订阅者访问。 可以通过 Lync Server 命令行管理程序中的 cmdlet 管理这些功能。
 
 <div>
 

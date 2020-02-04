@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 使用 "监视" 仪表板'
+title: Lync Server 2013：使用 "监视" 仪表板
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Monitoring Dashboard
 ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50c5a435baf9ef6b2ef24e235270326507b68789
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 929d0fbc650a7b067d86738e5ded176a15c511f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845401"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-05_
+_**主题上次修改时间：** 2014-02-05_
 
 "监视" 仪表板为管理员提供其 Microsoft Lync Server 2013 系统运行状况和系统使用情况的快速概述。 该仪表板设计为显示关键系统指标的聚合视图，这通过显示以下内容来实现：
 
@@ -43,7 +45,7 @@ _**主题上次修改时间:** 2014-02-05_
 
   - 月汇总，以及过去六个月的趋势汇总（仅限系统使用情况）。
 
-请注意, 你可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet 返回用于访问 Lync Server 2013 监视报告的 URL:
+请注意，你可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet 返回用于访问 Lync Server 2013 监视报告的 URL：
 
     Get-CsReportingConfiguration
 
@@ -201,7 +203,7 @@ _**主题上次修改时间:** 2014-02-05_
 
 </div>
 
-“**趋势**”列显示简单的折线图，表示过去六周（或者过去六天或六个月，具体取决于指标和时间间隔）的汇总。 这些简单的折线图为每个时间段显示一个未标记的数据点（例如，过去六周的每周对应一个未标记的数据点）。 但是，你可以通过将鼠标指针保持在图上来检索这些图的实际值。 在这种情况下, 工具提示会显示图形中的最大值和最小值。
+“**趋势**”列显示简单的折线图，表示过去六周（或者过去六天或六个月，具体取决于指标和时间间隔）的汇总。 这些简单的折线图为每个时间段显示一个未标记的数据点（例如，过去六周的每周对应一个未标记的数据点）。 但是，你可以通过将鼠标指针保持在图上来检索这些图的实际值。 在这种情况下，工具提示会显示图形中的最大值和最小值。
 
 </div>
 
@@ -225,7 +227,7 @@ _**主题上次修改时间:** 2014-02-05_
 
   - Word
 
-要导出当前的仪表板视图（及其值），请单击所需的导出选项。 Lync Server 2013 生成指定格式的报表, 然后提供打开该报表或保存该报表的选项。 请注意, 默认情况下, Lync Server 标题为 "报告**监视" 仪表板**, 并将其保存到 "下载" 文件夹。 要向报告赋予不同名称或将其存储到不同的文件夹，请单击“**保存**”按钮旁边的箭头，然后单击“**另存为**”。 如果您同意“**监控仪表板**”的名称并让报告保存在“下载”文件夹，只需单击“**保存**”按钮。
+要导出当前的仪表板视图（及其值），请单击所需的导出选项。 Lync Server 2013 生成指定格式的报表，然后提供打开该报表或保存该报表的选项。 请注意，默认情况下，Lync Server 标题为 "报告**监视" 仪表板**，并将其保存到 "下载" 文件夹。 要向报告赋予不同名称或将其存储到不同的文件夹，请单击“**保存**”按钮旁边的箭头，然后单击“**另存为**”。 如果您同意“**监控仪表板**”的名称并让报告保存在“下载”文件夹，只需单击“**保存**”按钮。
 
 当您尝试导出仪表板数据时，可能会显示“**安全警报**”对话框连同消息“您的当前设置不允许下载此文件。”如果发生这种情况，请执行以下操作：
 
@@ -233,7 +235,7 @@ _**主题上次修改时间:** 2014-02-05_
 
   - 在“**Internet 选项**”对话框中的“**安全**”选项卡上，单击“**受信任的站点**”，然后单击“**站点**”。
 
-  - 在 "**受信任的网站**" 对话框中, 单击 "**添加**" 以将运行 lync Server 2013 报告的 lync server 2013 添加到受信任的网站的集合。
+  - 在 "**受信任的网站**" 对话框中，单击 "**添加**" 以将运行 lync Server 2013 报告的 lync server 2013 添加到受信任的网站的集合。
 
   - 单击“**关闭**”，然后单击“**确定**”。
 
